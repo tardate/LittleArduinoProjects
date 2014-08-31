@@ -16,18 +16,25 @@ Press a button to snaffle a random quote from [Heart Quotes](http://www.iheartqu
 ## Notes
 
 This currently just dumps the web resonse from the HeartQuotes API to the console. Next steps:
-* parse the response
 * send it to a more appropriate output (LCD panel?)
 
 The 220R resistor connecting +5V to the switch is not really required, and is included more as a link on the breadboard.
 From [Digital Pins](http://arduino.cc/en/Tutorial/DigitalPins):
 "Pins configured [as INPUT] are said to be in a high-impedance state. Input pins make extremely small demands on the circuit that they are sampling, equivalent to a series resistor of 100 megohm in front of the pin."
 
-### Example console output
+### Sample console output
 
     firing up the Ethernet...
     Press the button to get a quote!
     connected
+    quote: The days of good English has went.
+    disconnecting.
+
+
+### Sample raw response from iheartquotes.com
+This gets parsed down into just the actual "quote" part:
+
+    $ curl -D - "http://iheartquotes.com/api/v1/random?max_lines=1&show_permalink=0&show_source=0&format=text"
     HTTP/1.1 200 OK
     Server: nginx
     Date: Sun, 31 Aug 2014 08:53:17 GMT
@@ -47,9 +54,6 @@ From [Digital Pins](http://arduino.cc/en/Tutorial/DigitalPins):
     [codehappy] http://iheartquotes.com/fortune/show/31282
 
     0
-
-
-    disconnecting.
 
 
 ## Credits and references
