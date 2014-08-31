@@ -10,5 +10,7 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 
 ## The Projects
 
+* [LED chaser](./playground/LedChaser)
+* [Pushbutton LED switch](./playground/PushbuttonLED)
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
