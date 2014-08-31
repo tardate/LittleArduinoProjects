@@ -23,4 +23,4 @@ good enough for a simple test.
 
 
 ![The Build](./assets/Simple7SegmentDisplay.jpg?raw=true =250x)
-![The Breadboard SChematic](./assets/Simple7SegmentDisplay_bb.jpg?raw=true =250x)
+![The Breadboard Schematic](./assets/Simple7SegmentDisplay_bb.jpg?raw=true =250x)

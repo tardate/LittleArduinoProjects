@@ -11,3 +11,4 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 ## The Projects
 
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
+* [Variable LED brightness (PWM)](./playground/VariableLED)
