@@ -34,24 +34,22 @@ From [Digital Pins](http://arduino.cc/en/Tutorial/DigitalPins):
 ### Sample raw response from iheartquotes.com
 This gets parsed down into just the actual "quote" part:
 
-    $ curl -D - "http://iheartquotes.com/api/v1/random?max_lines=1&show_permalink=0&show_source=0&format=text"
+    $ curl -i --raw "http://iheartquotes.com/api/v1/random?max_lines=1&show_permalink=0&show_source=0&format=text"
     HTTP/1.1 200 OK
     Server: nginx
-    Date: Sun, 31 Aug 2014 08:53:17 GMT
+    Date: Sun, 31 Aug 2014 12:44:12 GMT
     Content-Type: text/plain
     Transfer-Encoding: chunked
-    Connection: close
-    Etag: "5f59f18f4aed49a700f89924b7394229"
+    Connection: keep-alive
+    Etag: "e8b7717bb327ac927a8f9e49744382a5"
     X-Ua-Compatible: IE=Edge,chrome=1
-    X-Runtime: 0.070795
+    X-Runtime: 0.083509
     Cache-Control: max-age=0, private, must-revalidate
 
-    a2
-    Auribus teneo lupum.
-      [I hold a wolf by the ears.]
-      [Boy, it *sounds* good.  But what does it *mean*?]
+    3c
+    Biz is better.
 
-    [codehappy] http://iheartquotes.com/fortune/show/31282
+    http://iheartquotes.com/fortune/show/34841
 
     0
 
