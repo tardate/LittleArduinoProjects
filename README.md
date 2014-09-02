@@ -11,6 +11,7 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 ## The Projects
 
 * [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
+* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [LED chaser](./playground/LedChaser)
 * [Pushbutton LED switch](./playground/PushbuttonLED)
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
