@@ -16,3 +16,10 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 * [Pushbutton LED switch](./playground/PushbuttonLED)
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
+
+## Up and Running
+
+The LED array projects use the [FastLED](http://fastled.io/) library, included here as a git submodule.
+If you clone this repo, also update the submodules:
+
+    $ git submodule update --init
