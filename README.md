@@ -14,6 +14,7 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 * [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [LED chaser](./playground/LedChaser)
+* [LightOrNot - blink rate of an LED proportional to how light it is](./playground/LightOrNot)
 * [Pushbutton LED switch](./playground/PushbuttonLED)
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
