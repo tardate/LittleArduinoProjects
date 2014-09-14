@@ -1,0 +1,42 @@
+# LED Blink
+
+The most basic LED blinking circuit.
+
+![The Build](./assets/Blink.jpg?raw=true)
+
+## Notes
+
+There's not much to note in this circuit other than it is a good test that everything is working OK.
+
+I thought I'd measure the electritcal characteristics with various resistors and a Red LED.
+My Arduino is supplying 4.98V on the digital GPIO pin when taken high and measured without load.
+Here are the figures under load:
+
+| R1nom   | R1act   | Vr     | Vl     | V      | mA    |
+| -------:| -------:| ------:| ------:| ------:| -----:|
+| 220R    | 218R    | 2.69   | 1.95   | 4.65   | 11.5  |
+| 1kR     | 989R    | 3.04   | 1.85   | 4.90   | 3.0   |
+| 10kR    | 9.86kR  | 3.22   | 1.73   | 4.96   | 0.32  |
+
+* Vr = voltage drop over resistor
+* Vl = voltage drop over LED
+* V  = voltage drop over resistor + LED
+* mA = current
+
+It seems the current is a little lower than [theoretical](http://www.ohmslawcalculator.com/led_resistor_calculator.php)
+I guess that's the accuracy and the affect of my multimeter on the circuit when doing the current measurement.
+
+## Parts
+
+* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
+* mini breadboard
+* 1x LED
+* 220R resistor to current-limit the LED
+
+![The Breadboard Schematic](./assets/Blink_bb.jpg?raw=true)
+
+## Credits and references
+* Based on the Arduino Blink example http://www.arduino.cc/en/Tutorial/Blink
+
+
+
