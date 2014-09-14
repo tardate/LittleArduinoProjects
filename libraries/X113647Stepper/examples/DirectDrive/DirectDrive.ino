@@ -1,7 +1,11 @@
 /*
 
-  Stepper Motor Control via direct drive of a X113647 ULN2003 stepper motor driver board
-  as described at http://www.geeetech.com/wiki/index.php/Stepper_Motor_5V_4-Phase_5-Wire_%26_ULN2003_Driver_Board_for_Arduino
+  Demonstrates direct drive of a X113647 ULN2003 stepper motor driver board
+  without using a library.
+
+  This is mainly helpful for ensuring the board/circuit behaves as expected.
+
+  It will sweep backwards and forwards through an arc of +max_steps+
 
 */
 
@@ -11,6 +15,7 @@ int Pin2 = 10;
 int Pin3 = 11;
 boolean forward = true;
 
+int max_steps = 65;
 int step = 0;
 
 void setup() {
