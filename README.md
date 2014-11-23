@@ -20,7 +20,18 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
 
+### Programmable LED Arrays
+
+I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working...
+
+* [Intro and Setup](./LEDArrays)
+* [RGBCalibrate - my version](./LEDArrays/RGBCalibrate)
+* [StripTease](./LEDArrays/StripTease) -demo a range of effects on the LED strip
+
+
 ### Fundamental Logic Gates
+
+A microcontroller like the Arduino renders obsolete the need to delve into basic digital logic. But it's been a while since I studied this stuff, so a few refreshers are in order! In most cases here, the Arduino is just acting as a signal generator and a stand in for a real oscilloscope.
 
 * [Simplest 1-Transistor Inverter](./LogicGates/SimplestInverter)
 
@@ -31,7 +42,7 @@ It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Drive
 See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
 
 
-## Up and Running
+## Getting Up and Running
 
 Some projects use additional libraries that are included as submodules of this repository. For example:
 * The LED array projects use the [FastLED](http://fastled.io/) library
