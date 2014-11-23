@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="112.79401"
+   height="124.2"
+   viewBox="0 0 90.235211 99.359995"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="X113647_bb.svg">
+  <metadata
+     id="metadata73" />
+  <defs
+     id="defs71" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1447"
+     inkscape:window-height="954"
+     id="namedview69"
+     showgrid="false"
+     inkscape:zoom="6.0225446"
+     inkscape:cx="56.250139"
+     inkscape:cy="62.099996"
+     inkscape:window-x="55"
+     inkscape:window-y="9"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:document-units="in"
+     units="in" />
+  <g
+     id="g4"
+     transform="translate(2.2064229e-4,-1.0707003e-6)">
+    <path
+       style="fill:#1f7a34;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="M 0 0 L 0 124.1875 L 112.5 124.1875 L 112.5 0 L 0 0 z M 106.75 2.1875 C 109.06959 2.1875 110.9375 4.0553999 110.9375 6.375 C 110.9375 8.69459 109.06959 10.59375 106.75 10.59375 C 104.4304 10.59375 102.53125 8.69459 102.53125 6.375 C 102.53125 4.0553999 104.4304 2.1875 106.75 2.1875 z M 6.125 2.5 C 8.444596 2.5 10.3125 4.39916 10.3125 6.71875 C 10.3125 9.03835 8.444596 10.90625 6.125 10.90625 C 3.805404 10.90625 1.9375 9.03835 1.9375 6.71875 C 1.9375 4.39916 3.805404 2.5 6.125 2.5 z M 106.5625 114.09375 C 108.88209 114.09375 110.78125 115.96165 110.78125 118.28125 C 110.78125 120.60085 108.88209 122.5 106.5625 122.5 C 104.2429 122.5 102.375 120.60085 102.375 118.28125 C 102.375 115.96165 104.2429 114.09375 106.5625 114.09375 z M 5.96875 114.40625 C 8.288346 114.40625 10.15625 116.3054 10.15625 118.625 C 10.15625 120.9446 8.288346 122.8125 5.96875 122.8125 C 3.649154 122.8125 1.75 120.9446 1.75 118.625 C 1.75 116.3054 3.649154 114.40625 5.96875 114.40625 z "
+       transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)"
+       id="breadboard" />
+    <g
+       id="stepper_connector"
+       transform="translate(10.8,29.96)">
+      <rect
+         id="rect3747"
+         height="14.4"
+         y="0"
+         width="43.200001"
+         x="0"
+         style="fill:#e8e8e8;stroke:#ffffff;stroke-width:2.16000009;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         id="connector7pin"
+         height="2.1600001"
+         y="6.1999998"
+         width="2.1600001"
+         x="6.1999998"
+         style="fill:#b88a00" />
+      <rect
+         style="fill:#b88a00"
+         x="13.4"
+         width="2.1600001"
+         y="6.1999998"
+         height="2.1600001"
+         id="connector8pin" />
+      <rect
+         id="connector9pin"
+         height="2.1600001"
+         y="6.1999998"
+         width="2.1600001"
+         x="20.6"
+         style="fill:#b88a00" />
+      <rect
+         style="fill:#b88a00"
+         x="27.799999"
+         width="2.1600001"
+         y="6.1999998"
+         height="2.1600001"
+         id="connector10pin" />
+      <rect
+         id="connector11pin"
+         height="2.1600001"
+         y="6.1999998"
+         width="2.1600001"
+         x="35"
+         style="fill:#b88a00" />
+    </g>
+    <g
+       transform="translate(3.2636042,48.954063)"
+       gorn="0.0"
+       id="chip">
+      <metadata
+         id="metadata3028">
+        <rdf:RDF>
+          <cc:Work
+             rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+               rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title />
+          </cc:Work>
+        </rdf:RDF>
+      </metadata>
+      <defs
+         id="defs3026" />
+      <g
+         gorn="0.0.2"
+         id="g3114">
+        <rect
+           style="fill:#303030;stroke-width:0"
+           width="57.599998"
+           y="2.1600001"
+           x="0"
+           gorn="0.0.2.0"
+           id="middle"
+           height="19.440001" />
+        <rect
+           style="fill:#3d3d3d;stroke-width:0"
+           width="57.599998"
+           y="2.1600001"
+           x="0"
+           gorn="0.0.2.1"
+           id="top"
+           height="1.7711999" />
+        <rect
+           style="fill:#000000;stroke-width:0"
+           width="57.599998"
+           y="19.8288"
+           x="0"
+           gorn="0.0.2.2"
+           id="bottom"
+           height="1.7711999" />
+        <polygon
+           style="fill:#141414;stroke-width:0"
+           points="57.06,3.9312 57.06,19.8288 57.6,21.6 57.6,2.16 "
+           gorn="0.0.2.3"
+           id="right" />
+        <polygon
+           style="fill:#1f1f1f;stroke-width:0"
+           points="0.54,3.9312 0.54,19.8288 0,21.6 0,2.16 "
+           gorn="0.0.2.4"
+           id="left" />
+        <polygon
+           style="fill:#1c1c1c;stroke-width:0"
+           points="0.54,8.2512 0.4032,9.7776 0.4032,11.88 3.6,11.88 3.6,8.28 "
+           gorn="0.0.2.5"
+           id="left-upper-rect" />
+        <polygon
+           style="fill:#383838;stroke-width:0"
+           points="3.6,15.516 3.6,11.88 0.4032,11.88 0.4032,13.9824 0.54,15.516 "
+           gorn="0.0.2.6"
+           id="left-lower-rect" />
+        <path
+           style="fill:#262626;stroke-width:0"
+           inkscape:connector-curvature="0"
+           gorn="0.0.2.7"
+           d="m 0.4032,9.7776 0,4.1976 C 1.4616,13.8528 2.2896,12.9672 2.2896,11.8728 2.2896,10.7784 1.4688,9.9 0.4032,9.7776 z"
+           id="slot" />
+        <path
+           style="fill:#303030;stroke-width:0"
+           inkscape:connector-curvature="0"
+           gorn="0.0.2.8"
+           d="m 0.54,3.9312 0,4.3128 c 1.7136,0.324 3.0168,1.8216 3.0168,3.6288 0,1.8072 -1.296,3.312 -3.0168,3.636 l 0,0.0072 3.6,0 0,-11.5848 -3.6,0 z"
+           id="cover" />
+        <circle
+           d="m 6.1631998,16.898399 c 0,0.819149 -0.6640513,1.4832 -1.4832,1.4832 -0.8191487,0 -1.4831999,-0.664051 -1.4831999,-1.4832 0,-0.819148 0.6640512,-1.4832 1.4831999,-1.4832 0.8191487,0 1.4832,0.664052 1.4832,1.4832 z"
+           style="fill:#212121;stroke-width:0"
+           sodipodi:ry="1.4832"
+           sodipodi:rx="1.4832"
+           sodipodi:cy="16.898399"
+           sodipodi:cx="4.6799998"
+           cy="16.898399"
+           gorn="0.0.2.9"
+           cx="4.6799998"
+           id="circle2957"
+           r="1.4832" />
+        <text
+           y="13.48"
+           x="7.8799996"
+           gorn="0.0.2.10"
+           style="font-size:6px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+           font-size="6px"
+           id="label">ULN2003APG</text>
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="2.52"
+           gorn="0.0.2.11"
+           id="ULNconnector0pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="2.52"
+           gorn="0.0.2.12"
+           id="connector0terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="2.52,22.0752 4.68,22.0752 6.12,21.4128 6.12,20.6352 2.52,20.6352 "
+           gorn="0.0.2.13"
+           id="polygon2962" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="2.52"
+           gorn="0.0.2.14"
+           id="ULNconnector15pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="2.52"
+           gorn="0.0.2.15"
+           id="connector15terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="6.12,2.3472 4.68,1.6848 2.52,1.6848 2.52,3.1248 6.12,3.1248 "
+           gorn="0.0.2.16"
+           id="polygon2966" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="52.919998"
+           gorn="0.0.2.17"
+           id="ULNconnector7pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="52.92"
+           gorn="0.0.2.18"
+           id="connector7terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="51.48,21.4128 52.92,22.0752 55.08,22.0752 55.08,20.6352 51.48,20.6352 "
+           gorn="0.0.2.19"
+           id="polygon2970" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="52.919998"
+           gorn="0.0.2.20"
+           id="ULNconnector8pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="52.92"
+           gorn="0.0.2.21"
+           id="connector8terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="55.08,1.6848 52.92,1.6848 51.48,2.3472 51.48,3.1248 55.08,3.1248 "
+           gorn="0.0.2.22"
+           id="polygon2974" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="9.7200003"
+           gorn="0.0.2.23"
+           id="ULNconnector1pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="9.72"
+           gorn="0.0.2.24"
+           id="connector1terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="11.88,22.0752 13.32,21.4128 13.32,20.6352 8.28,20.6352 8.28,21.4128 9.72,22.0752 "
+           gorn="0.0.2.25"
+           id="polygon2978" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="9.7200003"
+           gorn="0.0.2.26"
+           id="ULNconnector14pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="9.72"
+           gorn="0.0.2.27"
+           id="connector14terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="9.72,1.6848 8.28,2.3472 8.28,3.1248 13.32,3.1248 13.32,2.3472 11.88,1.6848 "
+           gorn="0.0.2.28"
+           id="polygon2982" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="16.92"
+           gorn="0.0.2.29"
+           id="ULNconnector2pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="16.92"
+           gorn="0.0.2.30"
+           id="connector2terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="19.08,22.0752 20.52,21.4128 20.52,20.6352 15.48,20.6352 15.48,21.4128 16.92,22.0752 "
+           gorn="0.0.2.31"
+           id="polygon2986" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="16.92"
+           gorn="0.0.2.32"
+           id="ULNconnector13pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="16.92"
+           gorn="0.0.2.33"
+           id="connector13terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="16.92,1.6848 15.48,2.3472 15.48,3.1248 20.52,3.1248 20.52,2.3472 19.08,1.6848 "
+           gorn="0.0.2.34"
+           id="polygon2990" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="24.120001"
+           gorn="0.0.2.35"
+           id="ULNconnector3pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="24.12"
+           gorn="0.0.2.36"
+           id="connector3terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="26.28,22.0752 27.72,21.4128 27.72,20.6352 22.68,20.6352 22.68,21.4128 24.12,22.0752 "
+           gorn="0.0.2.37"
+           id="polygon2994" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="24.120001"
+           gorn="0.0.2.38"
+           id="ULNconnector12pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="24.12"
+           gorn="0.0.2.39"
+           id="connector12terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="24.12,1.6848 22.68,2.3472 22.68,3.1248 27.72,3.1248 27.72,2.3472 26.28,1.6848 "
+           gorn="0.0.2.40"
+           id="polygon2998" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="31.32"
+           gorn="0.0.2.41"
+           id="ULNconnector4pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="31.32"
+           gorn="0.0.2.42"
+           id="connector4terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="33.48,22.0752 34.92,21.4128 34.92,20.6352 29.88,20.6352 29.88,21.4128 31.32,22.0752 "
+           gorn="0.0.2.43"
+           id="polygon3002" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="31.32"
+           gorn="0.0.2.44"
+           id="ULNconnector11pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="31.32"
+           gorn="0.0.2.45"
+           id="connector11terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="31.32,1.6848 29.88,2.3472 29.88,3.1248 34.92,3.1248 34.92,2.3472 33.48,1.6848 "
+           gorn="0.0.2.46"
+           id="polygon3006" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="38.52"
+           gorn="0.0.2.47"
+           id="ULNconnector5pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="38.52"
+           gorn="0.0.2.48"
+           id="connector5terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="40.68,22.0752 42.12,21.4128 42.12,20.6352 37.08,20.6352 37.08,21.4128 38.52,22.0752 "
+           gorn="0.0.2.49"
+           id="polygon3010" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="38.52"
+           gorn="0.0.2.50"
+           id="ULNconnector10pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="38.52"
+           gorn="0.0.2.51"
+           id="connector10terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="38.52,1.6848 37.08,2.3472 37.08,3.1248 42.12,3.1248 42.12,2.3472 40.68,1.6848 "
+           gorn="0.0.2.52"
+           id="polygon3014" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="20.635201"
+           x="45.720001"
+           gorn="0.0.2.53"
+           id="ULNconnector6pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="21.6"
+           x="45.72"
+           gorn="0.0.2.54"
+           id="connector6terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="47.88,22.0752 49.32,21.4128 49.32,20.6352 44.28,20.6352 44.28,21.4128 45.72,22.0752 "
+           gorn="0.0.2.55"
+           id="polygon3018" />
+        <rect
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.1600001"
+           y="0"
+           x="45.720001"
+           gorn="0.0.2.56"
+           id="ULNconnector9pin"
+           height="3.1248" />
+        <g
+           style="fill:#8c8c8c;stroke-width:0"
+           width="2.16"
+           y="0"
+           x="45.72"
+           gorn="0.0.2.57"
+           id="connector9terminal"
+           height="2.16" />
+        <polygon
+           style="fill:#8c8c8c;stroke-width:0"
+           points="45.72,1.6848 44.28,2.3472 44.28,3.1248 49.32,3.1248 49.32,2.3472 47.88,1.6848 "
+           gorn="0.0.2.58"
+           id="polygon3022" />
+      </g>
+    </g>
+    <g
+       transform="translate(31.069784,32.669999)"
+       id="power">
+      <g
+         id="GND">
+        <rect
+           style="fill:#444444"
+           id="rect3109"
+           height="7.427"
+           y="35.223"
+           x="41.771"
+           width="3.7130001" />
+        <polygon
+           style="fill:#444444"
+           id="polygon3111"
+           points="47.34,37.08 47.34,40.793 45.483,42.65 45.483,35.223 " />
+        <polygon
+           style="fill:#444444"
+           id="polygon3113"
+           points="41.771,35.223 41.771,42.65 39.914,40.793 39.914,37.08 " />
+        <rect
+           style="fill:#b88a00"
+           id="connector5pin"
+           height="1.668"
+           y="38.103001"
+           x="42.971001"
+           width="1.313" />
+      </g>
+      <g
+         id="VCC"
+         transform="translate(-7.4402,-6.9600004)">
+        <rect
+           style="fill:#444444"
+           id="rect3119"
+           height="7.427"
+           y="35.223"
+           x="49.268002"
+           width="3.7130001" />
+        <polygon
+           style="fill:#444444"
+           id="polygon3121"
+           points="54.838,40.793 52.98,42.65 52.98,35.223 54.838,37.08 " />
+        <polygon
+           style="fill:#444444"
+           id="polygon3123"
+           points="49.268,42.65 47.411,40.793 47.411,37.08 49.268,35.223 " />
+        <rect
+           style="fill:#b88a00"
+           id="connector6pin"
+           height="1.668"
+           y="38.103001"
+           x="50.469002"
+           width="1.313" />
+      </g>
+    </g>
+    <text
+       id="boardlabel"
+       font-size="5px"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       gorn="0.0.2.10"
+       x="64"
+       y="18">X113647</text>
+    <g
+       id="leds">
+      <path
+         transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)"
+         d="m 28.9,19.4 c 0,3.58985 -2.91015,6.5 -6.5,6.5 -3.589851,0 -6.5,-2.91015 -6.5,-6.5 0,-3.589851 2.910149,-6.5 6.5,-6.5 3.58985,0 6.5,2.910149 6.5,6.5 z"
+         sodipodi:ry="6.5"
+         sodipodi:rx="6.5"
+         sodipodi:cy="19.4"
+         sodipodi:cx="22.4"
+         id="path4932"
+         style="fill:#d0d0d0;fill-opacity:1;stroke:#ffffff;stroke-width:1.40000093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#d0d0d0;fill-opacity:1;stroke:#ffffff;stroke-width:1.40000093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4934"
+         sodipodi:cx="39"
+         sodipodi:cy="19.4"
+         sodipodi:rx="6.5"
+         sodipodi:ry="6.5"
+         d="m 45.5,19.4 c 0,3.58985 -2.910149,6.5 -6.5,6.5 -3.589851,0 -6.5,-2.91015 -6.5,-6.5 0,-3.589851 2.910149,-6.5 6.5,-6.5 3.589851,0 6.5,2.910149 6.5,6.5 z"
+         transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)" />
+      <path
+         transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)"
+         d="m 62.099998,19.4 c 0,3.58985 -2.910149,6.5 -6.5,6.5 -3.58985,0 -6.5,-2.91015 -6.5,-6.5 0,-3.589851 2.91015,-6.5 6.5,-6.5 3.589851,0 6.5,2.910149 6.5,6.5 z"
+         sodipodi:ry="6.5"
+         sodipodi:rx="6.5"
+         sodipodi:cy="19.4"
+         sodipodi:cx="55.599998"
+         id="path4936"
+         style="fill:#d0d0d0;fill-opacity:1;stroke:#ffffff;stroke-width:1.40000093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#d0d0d0;fill-opacity:1;stroke:#ffffff;stroke-width:1.40000093;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4938"
+         sodipodi:cx="72.199997"
+         sodipodi:cy="19.4"
+         sodipodi:rx="6.5"
+         sodipodi:ry="6.5"
+         d="m 78.699997,19.4 c 0,3.58985 -2.910149,6.5 -6.5,6.5 -3.589851,0 -6.5,-2.91015 -6.5,-6.5 0,-3.589851 2.910149,-6.5 6.5,-6.5 3.589851,0 6.5,2.910149 6.5,6.5 z"
+         transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)" />
+      <text
+         y="26"
+         x="16"
+         gorn="0.0.2.10"
+         style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+         font-size="5px"
+         id="led1">A</text>
+      <text
+         id="led2"
+         font-size="5px"
+         style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+         gorn="0.0.2.10"
+         x="29"
+         y="26">B</text>
+      <text
+         y="26"
+         x="42"
+         gorn="0.0.2.10"
+         style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+         font-size="5px"
+         id="led3">C</text>
+      <text
+         id="led4"
+         font-size="5px"
+         style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+         gorn="0.0.2.10"
+         x="55"
+         y="26">D</text>
+    </g>
+    <g
+       id="inputs"
+       transform="translate(-25.70622,41.254)">
+      <g
+         id="g1519">
+        <rect
+           width="3.7130001"
+           x="41.771"
+           y="35.223"
+           height="7.427"
+           id="rect1521"
+           style="fill:#444444" />
+        <polygon
+           points="47.34,40.793 45.483,42.65 45.483,35.223 47.34,37.08 "
+           id="polygon1523"
+           style="fill:#444444" />
+        <polygon
+           points="41.771,42.65 39.914,40.793 39.914,37.08 41.771,35.223 "
+           id="polygon1525"
+           style="fill:#444444" />
+        <rect
+           width="1.313"
+           x="42.971001"
+           y="38.103001"
+           height="1.668"
+           id="connector1pin"
+           style="fill:#b88a00" />
+      </g>
+      <g
+         id="g1529">
+        <rect
+           width="3.7130001"
+           x="49.268002"
+           y="35.223"
+           height="7.427"
+           id="rect1531"
+           style="fill:#444444" />
+        <polygon
+           points="54.838,40.793 52.98,42.65 52.98,35.223 54.838,37.08 "
+           id="polygon1533"
+           style="fill:#444444" />
+        <polygon
+           points="49.268,42.65 47.411,40.793 47.411,37.08 49.268,35.223 "
+           id="polygon1535"
+           style="fill:#444444" />
+        <rect
+           width="1.313"
+           x="50.469002"
+           y="38.103001"
+           height="1.668"
+           id="connector2pin"
+           style="fill:#b88a00" />
+      </g>
+      <g
+         id="g1507">
+        <rect
+           width="3.7130001"
+           x="56.757"
+           y="35.223"
+           height="7.427"
+           id="rect1509"
+           style="fill:#444444" />
+        <polygon
+           points="62.326,40.793 60.47,42.65 60.47,35.223 62.326,37.08 "
+           id="polygon1511"
+           style="fill:#444444" />
+        <polygon
+           points="56.757,42.65 54.9,40.793 54.9,37.08 56.757,35.223 "
+           id="polygon1513"
+           style="fill:#444444" />
+        <rect
+           width="1.313"
+           x="57.957001"
+           y="38.103001"
+           height="1.668"
+           id="connector3pin"
+           style="fill:#b88a00" />
+      </g>
+      <g
+         id="g3095"
+         transform="translate(7.4396018,0)">
+        <rect
+           style="fill:#444444"
+           id="rect3097"
+           height="7.427"
+           y="35.223"
+           x="56.757"
+           width="3.7130001" />
+        <polygon
+           style="fill:#444444"
+           id="polygon3099"
+           points="62.326,37.08 62.326,40.793 60.47,42.65 60.47,35.223 " />
+        <polygon
+           style="fill:#444444"
+           id="polygon3101"
+           points="56.757,35.223 56.757,42.65 54.9,40.793 54.9,37.08 " />
+        <rect
+           style="fill:#b88a00"
+           id="connector4pin"
+           height="1.668"
+           y="38.103001"
+           x="57.957001"
+           width="1.313" />
+      </g>
+    </g>
+    <text
+       y="20"
+       x="-97.5"
+       gorn="0.0.2.10"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       font-size="5px"
+       id="IN1label"
+       transform="matrix(0,-1,1,0,0,0)">IN1</text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       id="IN2label"
+       font-size="5px"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       gorn="0.0.2.10"
+       x="-97.5"
+       y="27.200001">IN2</text>
+    <text
+       y="34.400002"
+       x="-97.5"
+       gorn="0.0.2.10"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       font-size="5px"
+       id="IN3label"
+       transform="matrix(0,-1,1,0,0,0)">IN3</text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       id="IN4label"
+       font-size="5px"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       gorn="0.0.2.10"
+       x="-97.5"
+       y="41.599998">IN4</text>
+    <text
+       transform="matrix(0,-1,1,0,0,0)"
+       id="terminal_labels"
+       font-size="5px"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       gorn="0.0.2.10"
+       x="-73.400002"
+       y="82.699997">- +</text>
+    <text
+       y="87"
+       x="-75"
+       gorn="0.0.2.10"
+       style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+       font-size="5px"
+       id="voltage_label"
+       transform="matrix(0,-1,1,0,0,0)">5-12V</text>
+    <g
+       id="g3177">
+      <g
+         transform="translate(59.305904,20.347007)"
+         id="R8">
+        <path
+           style="fill:none;stroke:#8c8c8c;stroke-width:1.96914363;stroke-linecap:round"
+           d="m 2.7133418,2.8425482 c 19.0806312,0 19.0806312,0 19.0806312,0"
+           id="path3149"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)"
+           inkscape:connector-curvature="0"
+           id="path3153"
+           d="M 10.2478,0.49536 C 9.8878,0.32976 9.2686,0.20016 8.8726,0.20016 l -1.9872,0 c -0.396,0 -0.72,0.324 -0.72,0.72 l 0,5.35608 c 0,0.39672 0.324,0.72 0.72,0.72 l 1.9872,0 c 0.396,0 1.0152,-0.13608 1.3752,-0.2952 l 0.072,-0.03528 c 0.36,-0.1656 0.9792,-0.2952 1.3752,-0.2952 l 7.1856,0 c 0.39672,0 1.01448,0.13608 1.37448,0.2952 l 0.07272,0.03528 c 0.36,0.1656 0.97776,0.2952 1.3752,0.2952 l 1.9872,0 c 0.39744,0 0.72,-0.32328 0.72,-0.72 l 0,-5.35608 c 0,-0.396 -0.32256,-0.72 -0.72,-0.72 l -1.9872,0 c -0.39744,0 -1.0152,0.1368 -1.3752,0.2952 l -0.07272,0.036 c -0.36,0.1656 -0.97776,0.2952 -1.37448,0.2952 l -7.1856,0 c -0.396,0 -1.0152,-0.1368 -1.3752,-0.2952 l -0.072,-0.036 z"
+           style="fill:#d9b477" />
+      </g>
+      <g
+         transform="translate(59.305904,27.307007)"
+         id="R7">
+        <path
+           style="fill:none;stroke:#8c8c8c;stroke-width:1.96914363;stroke-linecap:round"
+           d="m 2.7133418,2.8425482 c 19.0806312,0 19.0806312,0 19.0806312,0"
+           id="path3161"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)"
+           inkscape:connector-curvature="0"
+           id="path3163"
+           d="M 10.2478,0.49536 C 9.8878,0.32976 9.2686,0.20016 8.8726,0.20016 l -1.9872,0 c -0.396,0 -0.72,0.324 -0.72,0.72 l 0,5.35608 c 0,0.39672 0.324,0.72 0.72,0.72 l 1.9872,0 c 0.396,0 1.0152,-0.13608 1.3752,-0.2952 l 0.072,-0.03528 c 0.36,-0.1656 0.9792,-0.2952 1.3752,-0.2952 l 7.1856,0 c 0.39672,0 1.01448,0.13608 1.37448,0.2952 l 0.07272,0.03528 c 0.36,0.1656 0.97776,0.2952 1.3752,0.2952 l 1.9872,0 c 0.39744,0 0.72,-0.32328 0.72,-0.72 l 0,-5.35608 c 0,-0.396 -0.32256,-0.72 -0.72,-0.72 l -1.9872,0 c -0.39744,0 -1.0152,0.1368 -1.3752,0.2952 l -0.07272,0.036 c -0.36,0.1656 -0.97776,0.2952 -1.37448,0.2952 l -7.1856,0 c -0.396,0 -1.0152,-0.1368 -1.3752,-0.2952 l -0.072,-0.036 z"
+           style="fill:#d9b477" />
+      </g>
+      <g
+         id="R6"
+         transform="translate(59.305904,34.347008)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3167"
+           d="m 2.7133418,2.8425482 c 19.0806312,0 19.0806312,0 19.0806312,0"
+           style="fill:none;stroke:#8c8c8c;stroke-width:1.96914363;stroke-linecap:round" />
+        <path
+           style="fill:#d9b477"
+           d="M 10.2478,0.49536 C 9.8878,0.32976 9.2686,0.20016 8.8726,0.20016 l -1.9872,0 c -0.396,0 -0.72,0.324 -0.72,0.72 l 0,5.35608 c 0,0.39672 0.324,0.72 0.72,0.72 l 1.9872,0 c 0.396,0 1.0152,-0.13608 1.3752,-0.2952 l 0.072,-0.03528 c 0.36,-0.1656 0.9792,-0.2952 1.3752,-0.2952 l 7.1856,0 c 0.39672,0 1.01448,0.13608 1.37448,0.2952 l 0.07272,0.03528 c 0.36,0.1656 0.97776,0.2952 1.3752,0.2952 l 1.9872,0 c 0.39744,0 0.72,-0.32328 0.72,-0.72 l 0,-5.35608 c 0,-0.396 -0.32256,-0.72 -0.72,-0.72 l -1.9872,0 c -0.39744,0 -1.0152,0.1368 -1.3752,0.2952 l -0.07272,0.036 c -0.36,0.1656 -0.97776,0.2952 -1.37448,0.2952 l -7.1856,0 c -0.396,0 -1.0152,-0.1368 -1.3752,-0.2952 l -0.072,-0.036 z"
+           id="path3169"
+           inkscape:connector-curvature="0"
+           transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)" />
+      </g>
+      <g
+         transform="translate(59.305904,41.307008)"
+         id="R5">
+        <path
+           style="fill:none;stroke:#8c8c8c;stroke-width:1.96914363;stroke-linecap:round"
+           d="m 2.7133418,2.8425482 c 19.0806312,0 19.0806312,0 19.0806312,0"
+           id="path3173"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0.80000005,0,0,0.80000005,0,-4.5396512e-6)"
+           inkscape:connector-curvature="0"
+           id="path3175"
+           d="M 10.2478,0.49536 C 9.8878,0.32976 9.2686,0.20016 8.8726,0.20016 l -1.9872,0 c -0.396,0 -0.72,0.324 -0.72,0.72 l 0,5.35608 c 0,0.39672 0.324,0.72 0.72,0.72 l 1.9872,0 c 0.396,0 1.0152,-0.13608 1.3752,-0.2952 l 0.072,-0.03528 c 0.36,-0.1656 0.9792,-0.2952 1.3752,-0.2952 l 7.1856,0 c 0.39672,0 1.01448,0.13608 1.37448,0.2952 l 0.07272,0.03528 c 0.36,0.1656 0.97776,0.2952 1.3752,0.2952 l 1.9872,0 c 0.39744,0 0.72,-0.32328 0.72,-0.72 l 0,-5.35608 c 0,-0.396 -0.32256,-0.72 -0.72,-0.72 l -1.9872,0 c -0.39744,0 -1.0152,0.1368 -1.3752,0.2952 l -0.07272,0.036 c -0.36,0.1656 -0.97776,0.2952 -1.37448,0.2952 l -7.1856,0 c -0.396,0 -1.0152,-0.1368 -1.3752,-0.2952 l -0.072,-0.036 z"
+           style="fill:#d9b477" />
+      </g>
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         id="resistor_labels"
+         font-size="5px"
+         style="font-size:5px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA"
+         gorn="0.0.2.10"
+         x="-48"
+         y="87">R5R6R7R8</text>
+    </g>
+  </g>
+</svg>
