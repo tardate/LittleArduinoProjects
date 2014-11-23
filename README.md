@@ -21,7 +21,15 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 
 ## Up and Running
 
-The LED array projects use the [FastLED](http://fastled.io/) library, included here as a git submodule.
+Some projects use additional libraries that are included as submodules of this repository. For example:
+* The LED array projects use the [FastLED](http://fastled.io/) library
+* Stepper motor projects use the [X113647Stepper](https://github.com/tardate/X113647Stepper) library
+
 If you clone this repo, also update the submodules:
 
     $ git submodule update --init
+
+To pull submodule updates later on:
+
+    $ git submodule foreach git pull
+
