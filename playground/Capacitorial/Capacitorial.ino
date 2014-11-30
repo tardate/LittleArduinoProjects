@@ -1,7 +1,7 @@
 /*
 
   Capacitorial
-  Uses an Arduino to drives an RC circuit and measure the capcitive discharge.
+  Uses an Arduino to drive an RC circuit and measure the capcitive discharge.
 
   For info and cuircuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Capacitorial
 
@@ -13,7 +13,6 @@ const int charge_frequency = 200;       // frequency of the charging cycle
 int charge_counter = 0;                 // keep track of the charging duty cycle
 
 const int signal_pin = A0;              // the pin we'll read our charge values from
-int signal_value = 0;                   // value read from the signal_pin
 
 void setup() {
   Serial.begin(9600);                   // initialize serial communications at 9600 bps
@@ -37,12 +36,9 @@ void loop() {
   } else {
     charge_counter += 1;
   }
-  //Serial.print("Counter: ");
-  //Serial.println(charge_counter);
 
   // read the current value and send to the serial port
-  signal_value = analogRead(signal_pin);
-  Serial.println(signal_value);
+  Serial.println(analogRead(signal_pin));
 
   // wait a tic before going around again
   delay(1);

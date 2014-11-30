@@ -20,6 +20,11 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
 
+### Fundamental Logic Gates
+
+* [Simplest 1-Transistor Inverter](./LogicGates/SimplestInverter)
+
+
 ### Stepper Motor Control
 
 It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
