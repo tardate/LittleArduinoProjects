@@ -10,7 +10,8 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 
 ## The Projects
 
-* [Blink](./playground/Blink)
+* [Blink](./playground/Blink) - the simplest thing possible
+* [Capacitorial](./playground/Capacitorial) - graphing capacitor discharge with Processing
 * [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [LED chaser](./playground/LedChaser)
