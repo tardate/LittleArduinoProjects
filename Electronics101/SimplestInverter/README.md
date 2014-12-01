@@ -32,3 +32,4 @@ We clearly lose significant voltage at the output because of the current-limitin
 * [Logic NOT Gate Tutorial](http://www.electronics-tutorials.ws/logic/logic_4.html) - explains of the basic circuit used here.
 * [The NOT gate](http://www.allaboutcircuits.com/vol_4/chpt_3/2.html) - describes a practical implementation of a "real" inverter circuit
 * [Logic Gates using Transistors](https://electrosome.com/logic-gates-using-transistors/)
+* [Transistor AND, OR, NAND, NOR Gates](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/trangate.html)
