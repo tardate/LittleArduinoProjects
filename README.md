@@ -24,9 +24,9 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 
 I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working...
 
-* [Intro and Setup](./LEDArrays)
-* [RGBCalibrate](./LEDArrays/RGBCalibrate) - quick test to make sure LEDs are correctly addressable and their color can be set correctly
-* [StripTease](./LEDArrays/StripTease) - demo a range of effects on the LED strip
+* [Intro and Setup](./LEDArrayDemos)
+* [RGBCalibrate](./LEDArrayDemos/RGBCalibrate) - quick test to make sure LEDs are correctly addressable and their color can be set correctly
+* [StripTease](./LEDArrayDemos/StripTease) - demo a range of effects on the LED strip
 
 
 ### Fundamental Logic Gates
