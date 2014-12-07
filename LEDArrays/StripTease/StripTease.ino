@@ -1,11 +1,8 @@
 /*
 
-  Demo a range of effects for an LED strip
+  Demo a range of effects for an LED strip - chaser, cylon, fades
 
   based on original code from the FastLED project at http://fastled.io/
-
-  Move a white dot along the strip of leds.  This program simply shows how to configure the leds,
-  and then how to turn a single pixel white and then off, moving down the line of pixels.
 
 */
 
@@ -30,11 +27,12 @@ void setup() {
 }
 
 void loop() {
+  led_strip.clear();
   led_strip.chaser(CRGB::Red, 100);
   led_strip.chaser(CRGB::Green, 100);
   led_strip.chaser(CRGB::Blue, 100);
-  led_strip.cylon(CRGB::Tomato);
-  led_strip.cylon(CRGB::Lime);
-  led_strip.cylon(CRGB::PowderBlue);
+  led_strip.cylon(CRGB::Tomato, 30);
+  led_strip.cylon(CRGB::Lime, 30);
+  led_strip.cylon(CRGB::PowderBlue, 30);
   led_strip.fast_fade_and_scale();
 }

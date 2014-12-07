@@ -6,8 +6,19 @@
  */
 LedStripEffects::LedStripEffects(CRGB *leds, int number_of_leds)
 {
-  this->number_of_leds = number_of_leds;
   this->leds = leds;
+  this->number_of_leds = number_of_leds;
+}
+
+/*
+ *  clear - turn all the LEDs off
+ */
+void LedStripEffects::clear()
+{
+  for(int iLed = 0; iLed < this->number_of_leds; iLed++) {
+    leds[iLed] = CRGB::Black;
+  }
+  FastLED.show();
 }
 
 /*
@@ -16,46 +27,45 @@ LedStripEffects::LedStripEffects(CRGB *leds, int number_of_leds)
  */
 void LedStripEffects::chaser(CRGB::HTMLColorCode color, int ms_per_step)
 {
-  for(int i = 0; i < this->number_of_leds; i++) {
+  for(int iLed = 0; iLed < this->number_of_leds; iLed++) {
     // set the color of the next led in sequence
-    leds[i] = color;
+    leds[iLed] = color;
     // show and pause for a bit
     FastLED.show();
     delay(ms_per_step);
     // clear the led
-    leds[i] = CRGB::Black;
+    leds[iLed] = CRGB::Black;
   }
-
 }
 
 /*
  *  cylon effect
  *  This is based on the Cylon sketch from the FastLED library
  */
-void LedStripEffects::cylon(CRGB::HTMLColorCode color)
+void LedStripEffects::cylon(CRGB::HTMLColorCode color, int ms_per_step)
 {
   // First slide the led in one direction
-  for(int i = 0; i <  this->number_of_leds; i++) {
+  for(int iLed = 0; iLed <  this->number_of_leds; iLed++) {
     // Set the i'th led to red
-    leds[i] = color;
+    leds[iLed] = color;
     // Show the leds
     FastLED.show();
     // now that we've shown the leds, reset the i'th led to black
-    leds[i] = CRGB::Black;
+    leds[iLed] = CRGB::Black;
     // Wait a little bit before we loop around and do it again
-    delay(30);
+    delay(ms_per_step);
   }
 
   // Now go in the other direction.
-  for(int i =  this->number_of_leds-1; i >= 0; i--) {
+  for(int iLed =  this->number_of_leds-1; iLed >= 0; iLed--) {
     // Set the i'th led to red
-    leds[i] = color;
+    leds[iLed] = color;
     // Show the leds
     FastLED.show();
     // now that we've shown the leds, reset the i'th led to black
-    leds[i] = CRGB::Black;
+    leds[iLed] = CRGB::Black;
     // Wait a little bit before we loop around and do it again
-    delay(30);
+    delay(ms_per_step);
   }
 }
 
