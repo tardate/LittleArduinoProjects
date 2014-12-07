@@ -1,4 +1,4 @@
-# Addressable LED Arrays
+# Programmable LED Arrays
 
 I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working. Here are the first tests... all good so far!
 

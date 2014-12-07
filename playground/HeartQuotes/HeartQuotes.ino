@@ -40,7 +40,6 @@ void setup() {
   // start the Ethernet connection:
   if (Ethernet.begin(mac) == 0) {
     Serial.println("Failed to configure Ethernet using DHCP");
-    // no point in carrying on, so do nothing forevermore:
     // try to congifure using IP address instead of DHCP:
     Ethernet.begin(mac, ip);
   }
@@ -66,7 +65,6 @@ void loop()
     if(buttonStatus==1) getQuote();
   }
 
-  //getQuote();
   delay(15);
 }
 
@@ -117,8 +115,6 @@ void displayQuote(String quote) {
   Serial.println(quote);
   Serial.println("disconnecting.");
   lcd.clear();
-  //lcd.setCursor(0,0);
-  //lcd.print(quote);
 
   lcd.setCursor(16,0);
   for (int thisChar = 0; thisChar < quote.length(); thisChar++) {

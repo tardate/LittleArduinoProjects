@@ -4,3 +4,6 @@
 [submodule "libraries/X113647Stepper"]
 	path = libraries/X113647Stepper
 	url = https://github.com/tardate/X113647Stepper.git
+[submodule "libraries/TextFinder"]
+	path = libraries/TextFinder
+	url = https://github.com/tardate/TextFinder.git

@@ -1,0 +1,39 @@
+/*
+
+  Shared settings.
+
+  To compile FretBoard, first copy settings.h.template to settings.h and fill in the required configuration.
+
+  NB: settings.h is *not* added to git version control, while settings.h.template is.
+
+ */
+
+
+// Set the MAC address. Newer Ethernet shields have a MAC address printed on a sticker on the shield.
+// See http://www.freetronics.com/pages/setting-arduino-ethernet-mac-address#.U_oa7oC1Z-g
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+
+// Set the static IP address to use if the DHCP fails to assign
+IPAddress ip(192,168,0,177);
+
+// The hostname for the request
+char server[] = "your.server.net";
+
+// if you don't want to use DNS (and reduce your sketch size) use the numeric IP instead of the name for the server:
+//IPAddress server(10,10,10,10);
+
+// the relative path for the request
+char url_path[] = "/path/to/my_results"
+
+// milliseconds to wait between each build status request
+#define BUILD_STATUS_POLL_INTERVAL 5000
+
+// Max number of build projects = number of leds in the strip
+#define MAX_PROJECTS 24
+
+// signal pin for the LED Array
+#define LED_DATA_PIN 6
+
+// define SERIAL_DEBUG to enable debug info to be sent to serial port
+#define SERIAL_DEBUG
+
