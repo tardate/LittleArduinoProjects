@@ -16,16 +16,47 @@ LedStripEffects::LedStripEffects(CRGB *leds, int number_of_leds)
  */
 void LedStripEffects::chaser(CRGB::HTMLColorCode color, int ms_per_step)
 {
-  for(int iLed = 0; iLed < this->number_of_leds; iLed++) {
+  for(int i = 0; i < this->number_of_leds; i++) {
     // set the color of the next led in sequence
-    this->leds[iLed] = color;
+    leds[i] = color;
     // show and pause for a bit
     FastLED.show();
     delay(ms_per_step);
     // clear the led
-    leds[iLed] = CRGB::Black;
+    leds[i] = CRGB::Black;
   }
 
+}
+
+/*
+ *  cylon effect
+ *  This is based on the Cylon sketch from the FastLED library
+ */
+void LedStripEffects::cylon(CRGB::HTMLColorCode color)
+{
+  // First slide the led in one direction
+  for(int i = 0; i <  this->number_of_leds; i++) {
+    // Set the i'th led to red
+    leds[i] = color;
+    // Show the leds
+    FastLED.show();
+    // now that we've shown the leds, reset the i'th led to black
+    leds[i] = CRGB::Black;
+    // Wait a little bit before we loop around and do it again
+    delay(30);
+  }
+
+  // Now go in the other direction.
+  for(int i =  this->number_of_leds-1; i >= 0; i--) {
+    // Set the i'th led to red
+    leds[i] = color;
+    // Show the leds
+    FastLED.show();
+    // now that we've shown the leds, reset the i'th led to black
+    leds[i] = CRGB::Black;
+    // Wait a little bit before we loop around and do it again
+    delay(30);
+  }
 }
 
 /*

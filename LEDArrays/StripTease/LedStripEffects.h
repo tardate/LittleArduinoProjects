@@ -12,7 +12,9 @@ class LedStripEffects {
     // chaser effect
     void chaser(CRGB::HTMLColorCode color, int ms_per_step);
 
-    // 
+    // cylon effect
+    void cylon(CRGB::HTMLColorCode color);
+
     // fade by scaling color and brightness
     void fast_fade_and_scale();
 

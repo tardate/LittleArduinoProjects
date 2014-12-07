@@ -33,5 +33,8 @@ void loop() {
   led_strip.chaser(CRGB::Red, 100);
   led_strip.chaser(CRGB::Green, 100);
   led_strip.chaser(CRGB::Blue, 100);
+  led_strip.cylon(CRGB::Tomato);
+  led_strip.cylon(CRGB::Lime);
+  led_strip.cylon(CRGB::PowderBlue);
   led_strip.fast_fade_and_scale();
 }
