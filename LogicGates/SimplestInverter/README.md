@@ -10,7 +10,7 @@ Here's a quick video of the circuit in action:
 
 The circuit uses a digital output pin as the input to the inverter. The output is tapped at the collector of the transistor. The output voltage is read with an analog input pin, and the value is echoed to the Arduino serial port.
 
-[PlotNValues (a simple Processing sketch)](../PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
+[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
 Here's a sample trace. The lower trace is the signal input, and the upper trace is the output of the inverter.
 
