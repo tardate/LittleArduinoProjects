@@ -1,6 +1,6 @@
 # 555 Timer - A-Stable Oscillator
 
-Use an Arduino to demonstrate the most most basic a-stable oscillator, and plot the results with [Processing](https://www.processing.org).
+Use an Arduino to demonstrate the basic astable mode of operation, and plot the results with [Processing](https://www.processing.org).
 
 Here's a quick video of the circuit in action:
 

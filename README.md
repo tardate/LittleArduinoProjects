@@ -42,7 +42,8 @@ See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) 
 
 ### 555 Timer Circuits
 
-* [a-stable oscillator](./555Timer/AstableOscillator) - classic free-running oscillator using an Arduino and processing to plot the output.
+* [Astable mode oscillator](./555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output.
+* [Monostable mode](./555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output.
 
 ### Processing Scripts
 
