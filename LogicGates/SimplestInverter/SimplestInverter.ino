@@ -3,7 +3,7 @@
   SimplestInverter
   Uses an Arduino to drive the simplest 1-transistor inverter circuit and measure the output.
 
-  For info and cuircuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LogicGates/SimplestInverter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LogicGates/SimplestInverter
 
  */
 
