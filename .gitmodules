@@ -7,3 +7,6 @@
 [submodule "libraries/TextFinder"]
 	path = libraries/TextFinder
 	url = https://github.com/tardate/TextFinder.git
+[submodule "libraries/FlexiTimer2"]
+	path = libraries/FlexiTimer2
+	url = https://github.com/wimleers/flexitimer2.git

@@ -27,6 +27,7 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [Intro and Setup](./LEDArrayDemos)
 * [RGBCalibrate](./LEDArrayDemos/RGBCalibrate) - quick test to make sure LEDs are correctly addressable and their color can be set correctly
 * [StripTease](./LEDArrayDemos/StripTease) - demo a range of effects on the LED strip
+* [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
 
 
 ### Fundamental Logic Gates
