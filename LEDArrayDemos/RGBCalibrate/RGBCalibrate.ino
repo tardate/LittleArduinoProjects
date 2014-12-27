@@ -4,9 +4,11 @@
 
   Use this sketch to determine the RGB ordering of your chipset
 
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LEDArrayDemos/RGBCalibrate
+
 */
 
-#include "FastLED.h"
+#include <FastLED.h>
 
 #define NUM_LEDS 12  // How many leds in your strip?
 #define DATA_PIN 6   // signal pin pin

@@ -1,8 +1,13 @@
 /*
- Get a random quote from http://www.iheartquotes.com/api/v1/random
 
- Circuit:
- * Ethernet shield attached to pins 10, 11, 12, 13
+  HeartQuotes
+
+  Get a random quote from http://www.iheartquotes.com/api/v1/random
+
+  Circuit:
+  * Ethernet shield attached to pins 10, 11, 12, 13
+
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/HeartQuotes
 
  */
 

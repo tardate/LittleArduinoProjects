@@ -1,15 +1,19 @@
 /*
 
+  StripTease
+
   Demo a range of effects for an LED strip - chaser, cylon, fades
 
   based on original code from the FastLED project at http://fastled.io/
 
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LEDArrayDemos/StripTease
+
 */
 
-#include "FastLED.h"
+#include <FastLED.h>
 #include "LedStripEffects.h"
 
-#define NUM_LEDS 12  // How many leds in your strip?
+#define NUM_LEDS 24  // How many leds in your strip?
 #define DATA_PIN 6   // signal pin pin
 
 CRGB leds[NUM_LEDS];

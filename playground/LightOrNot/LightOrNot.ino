@@ -1,7 +1,12 @@
 /*
- Reads a photocell/light-dependent resistor and adjusts the 
- blink rate of an LED accordingly
- Based on http://arduino.cc/en/Tutorial/AnalogInput
+
+  LightOrNot
+
+  Reads a photocell/light-dependent resistor and adjusts the
+  blink rate of an LED accordingly
+  Based on http://arduino.cc/en/Tutorial/AnalogInput
+
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LightOrNot
 
  */
 
@@ -16,12 +21,12 @@ void setup() {
 
 void loop() {
   // read the value from the sensor and log the reading to serial
-  sensorValue = analogRead(sensorPin);  
-  Serial.println(sensorValue);  
-  
+  sensorValue = analogRead(sensorPin);
+  Serial.println(sensorValue);
+
   // blink the LED ata rate proportional to the sensor reading
-  digitalWrite(ledPin, HIGH);  
-  delay(sensorValue);          
-  digitalWrite(ledPin, LOW);   
-  delay(sensorValue);                  
+  digitalWrite(ledPin, HIGH);
+  delay(sensorValue);
+  digitalWrite(ledPin, LOW);
+  delay(sensorValue);
 }

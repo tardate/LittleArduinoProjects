@@ -1,7 +1,13 @@
 /*
- Reads a digital input on pin 2, and toggle LED 
- 
- This example code is in the public domain.
+
+  PushbuttonLED
+
+  Reads a digital input on pin 2, and toggle LED
+
+  This example code is in the public domain.
+
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PushbuttonLED
+
  */
 
 int pushButton = 2;   // digital pin 2 has a pushbutton attached to it
@@ -19,13 +25,13 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   int buttonState = digitalRead(pushButton); // read the input pin
-  
+
   if(buttonState!=buttonStatus) {
     // status has changed
     buttonStatus = buttonState;
     if(buttonStatus==1) toggleLed();
   }
-  
+
   log(buttonState);
   delay(10);        // delay in between reads for stability
 }
