@@ -20,6 +20,12 @@ To pull submodule updates later on:
     $ git submodule foreach git pull
 
 
+## Pull updates for a specific library
+
+e.g. to pull the latest X113647Stepper updates:
+
+    $ git submodule update --remote libraries/X113647Stepper
+
 ## Adding a new module to the Repo
 
     $ git submodule add https://github.com/repo_path/name libraries/name
