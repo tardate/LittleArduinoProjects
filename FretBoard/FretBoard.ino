@@ -36,6 +36,8 @@ byte build_status[MAX_PROJECTS];               // array of build status values.
 
 volatile byte total_projects = 0;              // actual number of active projects
 
+volatile byte status_updating = 0;             // when >0, build status is updating
+
 volatile signed int led_scale = 0;
 volatile signed int led_scale_factor = 1;
 
@@ -63,6 +65,10 @@ void setup() {
   // you might need to change this based on your LED strip
   FastLED.addLeds<WS2811, LED_DATA_PIN, RGB>(leds, MAX_PROJECTS);
 
+  for(int iLed = 0; iLed < MAX_PROJECTS; iLed++) {
+    leds[iLed] = CRGB::Black;
+  }
+
   FastLED.clear(true);
   FastLED.setBrightness(32);
 
@@ -88,11 +94,45 @@ void loop()
  */
 void redrawLedEffects() {
 
-  FastLED.show(led_scale);
-  led_scale += led_scale_factor;
+  if(status_updating > 0) {
+    status_updating--;
+    for(int iLed = 0; iLed < MAX_PROJECTS; iLed++) {
+      if(iLed==status_updating) {
+        leds[iLed] = CRGB::Blue;
+      } else {
+        leds[iLed] = CRGB::Black;
+      }
+    }
+    FastLED.show(128);
 
-  if(led_scale>=128) led_scale_factor = -1;
-  if(led_scale<=0) led_scale_factor = 1;
+  } else {
+    for(int iLed = 0; iLed < MAX_PROJECTS; iLed++) {
+      // map the build status to LED color
+      switch(build_status[iLed]) {
+      case 5 : // failed/sleeping
+        leds[iLed] = CRGB::Red;
+        break;
+      case 6 : // failed/building
+        leds[iLed] = CRGB::OrangeRed;
+        break;
+      case 9 : // success/sleeping or checking mods
+        leds[iLed] = CRGB::Green;
+        break;
+      case 10 : //success/building
+         leds[iLed] = CRGB::PaleGreen;
+         break;
+      default: // undefined
+        leds[iLed] = CRGB::Black;
+      }
+    }
+    FastLED.show(led_scale);
+
+    led_scale += led_scale_factor;
+    if(led_scale>=128) led_scale_factor = -1;
+    if(led_scale<=0) led_scale_factor = 1;
+
+  }
+
 }
 
 
@@ -147,24 +187,6 @@ void getBuildStatus() {
 
               build_status[build_id] = status;
 
-              // map the build status to LED color
-              switch(status) {
-              case 5 : // failed/sleeping
-                leds[build_id] = CRGB::Red;
-                break;
-              case 6 : // failed/building
-                leds[build_id] = CRGB::OrangeRed;
-                break;
-              case 9 : // success/sleeping or checking mods
-                leds[build_id] = CRGB::Green;
-                break;
-              case 10 : //success/building
-                 leds[build_id] = CRGB::PaleGreen;
-                 break;
-              default: // undefined
-                leds[build_id] = CRGB::Black;
-              }
-
 #ifdef SERIAL_DEBUG
               Serial.println(debug + name + " activity:" + build_activity_name + " status:" + build_status_name + " build_id:" + build_id + " build_status[]:" + build_status[build_id]);
 #endif
@@ -179,17 +201,14 @@ void getBuildStatus() {
         }
       }
     }
-    total_projects = build_id;
 
-    // clear any unused project slots
-    if(total_projects<MAX_PROJECTS) {
-      for(int iLed = total_projects; iLed < MAX_PROJECTS; iLed++) {
-        leds[iLed] = CRGB::Black;
-      }
-    }
+    // update the total project count
+    total_projects = build_id;
 
     client.stop();
     client.flush();
+
+    status_updating = MAX_PROJECTS;
 
   }
 }
