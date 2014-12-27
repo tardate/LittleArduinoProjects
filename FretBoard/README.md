@@ -17,6 +17,12 @@ Still To Do:
 * the physical build - housing this in a suitable case for display
 * wrap up the doco
 
+
+Here's a quick video of the first demo of the LED array hooked up to an Arduino collecting live build status from the net; next step is the physical housing:
+
+[![AsyncLedStripEffects - using a timer interrupt to run effects on an LED array](http://img.youtube.com/vi/XJ0cd0ktjQg/0.jpg)](http://www.youtube.com/watch?v=XJ0cd0ktjQg)
+
+
 ## Notes
 
 ### The Build Status Web Repsonse
@@ -66,3 +72,15 @@ enhanced version of the original library available form the [Arduino Playground]
 
 Other libraries that could be used are [amcewen/HttpClient](https://github.com/amcewen/HttpClient)
 and [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient).
+
+
+## Construction
+
+### Schematic
+
+![The Schematic](../LEDArrayDemos/assets/LedArray_schematic.jpg?raw=true)
+
+### Raw Build prior to Physical Housing
+
+![The Build](./assets/FretBoard_build_unassembled.jpg?raw=true)
+

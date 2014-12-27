@@ -1,7 +1,11 @@
 /*
 
+  FretBoard
+
   Retrieve continuous integration server status from the net and visualise status with a
   ws2811-based programmable LED array.
+
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/FretBoard
 
  */
 
