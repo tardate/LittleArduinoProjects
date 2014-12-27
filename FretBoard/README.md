@@ -8,10 +8,11 @@ This is a work-in-progress. Done:
 
 * parse build status from the net using Ethernet shield
 * driving the LED Array with basic build status indication
+* added LED effects (glow) using timer driver
 
 Still To Do:
 
-* add LED effects, probably timer driver
+* add visual indicator when the build status request is in progress
 * the physical build - housing this in a suitable case for display
 * wrap up the doco
 

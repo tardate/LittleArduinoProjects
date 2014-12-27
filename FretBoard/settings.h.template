@@ -37,3 +37,5 @@ char request_path[] = "/path/to/my_results"
 // define SERIAL_DEBUG to enable debug info to be sent to serial port
 #define SERIAL_DEBUG
 
+// max length for an element in the build status response
+#define MAX_STATUS_PART_LENGTH 80

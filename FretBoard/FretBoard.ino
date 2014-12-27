@@ -9,18 +9,16 @@
 #include <Ethernet.h>
 #include <TextFinder.h>
 #include <FastLED.h>
+#include <FlexiTimer2.h>
 
 #include "settings.h"
 
 EthernetClient client;
 TextFinder finder( client );
 
-const int max_line_part_length = 100;    // max length for an element in the build status response
+CRGB leds[MAX_PROJECTS];                       // array of LEDs
 
-CRGB leds[MAX_PROJECTS];                 // array of LEDs
-
-byte builds[MAX_PROJECTS];               // array of build status values.
-
+byte build_status[MAX_PROJECTS];               // array of build status values.
 // build status values are recorded as follows:
 // xx00 - undefined/off
 // xx01 - 1 sleeping or checking mods
@@ -35,6 +33,11 @@ byte builds[MAX_PROJECTS];               // array of build status values.
 // 10 = success/building
 // < 5 = undefined
 // < 8 = failed
+
+volatile byte total_projects = 0;              // actual number of active projects
+
+volatile signed int led_scale = 0;
+volatile signed int led_scale_factor = 1;
 
 void setup() {
 
@@ -60,86 +63,110 @@ void setup() {
   // you might need to change this based on your LED strip
   FastLED.addLeds<WS2811, LED_DATA_PIN, RGB>(leds, MAX_PROJECTS);
 
-  FastLED.clear();
+  FastLED.clear(true);
   FastLED.setBrightness(32);
+
+  FlexiTimer2::set(10, redrawLedEffects);
+  FlexiTimer2::start();
 }
 
+
+/*
+  loop()
+  runs the main loop to update build status every BUILD_STATUS_POLL_INTERVAL milliseconds or so
+ */
 void loop()
 {
-
   getBuildStatus();
-
-  ledEffects();
-
   delay(BUILD_STATUS_POLL_INTERVAL);
 }
 
-void ledEffects() {
-  for(int iLed = 0; iLed < MAX_PROJECTS; iLed++) {
-    switch(builds[iLed]) {
-    case 5 : // failed/sleeping
-      leds[iLed] = CRGB::Red;
-      break;
-    case 6 : // failed/building
-      leds[iLed] = CRGB::OrangeRed;
-      break;
-    case 9 : // success/sleeping or checking mods
-      leds[iLed] = CRGB::Green;
-      break;
-    case 10 : //success/building
-       leds[iLed] = CRGB::PaleGreen;
-       break;
-    default: // undefined
-      leds[iLed] = CRGB::Black;
-    }
 
-  }
-  // show and pause for a bit
-  FastLED.show();
+/*
+  redrawLedEffects()
+  invoked  timer to update LED display
+ */
+void redrawLedEffects() {
+
+  FastLED.show(led_scale);
+  led_scale += led_scale_factor;
+
+  if(led_scale>=128) led_scale_factor = -1;
+  if(led_scale<=0) led_scale_factor = 1;
 }
 
-void getBuildStatus() {
-  char name[max_line_part_length];
-  char build_activity_name[max_line_part_length];
-  char build_status_name[max_line_part_length];
-  byte build_id = 0;
-  byte build_status;
 
+/*
+  getBuildStatus
+  send web request for build status and parse the result.
+ */
+void getBuildStatus() {
+  char name[MAX_STATUS_PART_LENGTH];
+  char build_activity_name[MAX_STATUS_PART_LENGTH];
+  char build_status_name[MAX_STATUS_PART_LENGTH];
+  byte build_id = 0;
+  byte status;
+
+#ifdef SERIAL_DEBUG
   String debug = "name:";
+#endif
 
   if(sendRequest()) {
     if(finder.find("\r\n\r\n")) {
 
-      while(finder.getString(",", name, max_line_part_length) > 0) {
-        if(finder.getString(",", build_activity_name, max_line_part_length) > 0) {
-          if(finder.getString("\n", build_status_name, max_line_part_length) > 0) {
+      while(finder.getString(",", name, MAX_STATUS_PART_LENGTH) > 0) {
+        if(finder.getString(",", build_activity_name, MAX_STATUS_PART_LENGTH) > 0) {
+          if(finder.getString("\n", build_status_name, MAX_STATUS_PART_LENGTH) > 0) {
 
             if(build_id < MAX_PROJECTS) {
 
+              // parse the build status value
               switch(build_status_name[0]) {
                 case 'S': // Success
-                  build_status = 8;
+                  status = 8;
                   break;
                 case 'F': // Failure
-                  build_status = 4;
+                  status = 4;
                   break;
                 default:
-                  build_status = 0;
+                  status = 0;
               }
+
+              // parse the build activity value
               switch(build_activity_name[0]) {
                 case 'B': // Building
-                  build_status = build_status ^ 2;
+                  status = status ^ 2;
                   break;
                 case 'S': // Sleeping
-                  build_status = build_status ^ 1;
+                  status = status ^ 1;
                   break;
                 case 'C': // CheckingModifications
-                  build_status = build_status ^ 1;
+                  status = status ^ 1;
                   break;
               }
-              builds[build_id] = build_status;
+
+              build_status[build_id] = status;
+
+              // map the build status to LED color
+              switch(status) {
+              case 5 : // failed/sleeping
+                leds[build_id] = CRGB::Red;
+                break;
+              case 6 : // failed/building
+                leds[build_id] = CRGB::OrangeRed;
+                break;
+              case 9 : // success/sleeping or checking mods
+                leds[build_id] = CRGB::Green;
+                break;
+              case 10 : //success/building
+                 leds[build_id] = CRGB::PaleGreen;
+                 break;
+              default: // undefined
+                leds[build_id] = CRGB::Black;
+              }
+
 #ifdef SERIAL_DEBUG
-              Serial.println(debug + name + " activity:" + build_activity_name + " status:" + build_status_name + " build_id:" + build_id + " builds[]:" + builds[build_id]);
+              Serial.println(debug + name + " activity:" + build_activity_name + " status:" + build_status_name + " build_id:" + build_id + " build_status[]:" + build_status[build_id]);
 #endif
 
             } else {
@@ -152,6 +179,14 @@ void getBuildStatus() {
         }
       }
     }
+    total_projects = build_id;
+
+    // clear any unused project slots
+    if(total_projects<MAX_PROJECTS) {
+      for(int iLed = total_projects; iLed < MAX_PROJECTS; iLed++) {
+        leds[iLed] = CRGB::Black;
+      }
+    }
 
     client.stop();
     client.flush();
@@ -159,6 +194,10 @@ void getBuildStatus() {
   }
 }
 
+/*
+  sendRequest
+  sends the HTTP request for build status
+ */
 boolean sendRequest() {
   if (client.connect(hostname, 80)) {
 #ifdef SERIAL_DEBUG
