@@ -1,10 +1,14 @@
 # Little Arduino Projects
 
 A collection of simple Arduino projects.
-Most of these are variations of things found in the example code or in the wild on the net.
-See the individual projects for credits where due.
+Most of these are variations of things found in the example code or in the wild on the net, or inspired by ideas from the following sources:
 
-Feel free to borrow any ideas, and if you spot any issues do let me know.
+* [Arduino Cookbook](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
+* [Arduino StackExchange](http://arduino.stackexchange.com/)
+* [Arduino Playground](http://playground.arduino.cc/)
+
+Feel free to borrow any ideas, and if you spot any issues do let me know. See the individual projects for credits where due.
+
 
 Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org/home/).
 
@@ -28,6 +32,7 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [RGBCalibrate](./LEDArrayDemos/RGBCalibrate) - quick test to make sure LEDs are correctly addressable and their color can be set correctly
 * [StripTease](./LEDArrayDemos/StripTease) - demo a range of effects on the LED strip
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
+* [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
 
 
 ### Fundamental Logic Gates
