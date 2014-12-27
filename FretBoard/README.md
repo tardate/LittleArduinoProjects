@@ -74,7 +74,35 @@ Other libraries that could be used are [amcewen/HttpClient](https://github.com/a
 and [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient).
 
 
+### Power
+
+The LED strip requires 5V and with all 24 LEDs on, current should max out at 1.44A (0.3W * 24 / 5V).
+
+For testing, I'm powering the LED Array from a 5V 2A adapter and the Arduino from USB.
+
+For the final build, I'll be powering the Arduino from the same 5V adapter powering the LEDs (direct to the 5V pin on the Arduino).
+There is lots of advice on how to do this
+[e.g. here](http://www.reddit.com/r/arduino/comments/2fcr6c/powering_arduino_with_5v_supply/)
+ - along with strong caveats since the 5V pin bypasses the onboard regulator, and it is essential to ensure no other power source is simulatneously provided to the Arduino.
+However, the 5V adapter I am using is regulated, and under test it has worked fine to power the Arduino and LED array together.
+
 ## Construction
+
+### Parts
+
+#### [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
+
+Ships in a strip of 50 LEDs (cut down to 24 for this project). The basic details:
+
+* Certification: EMC,FCC,LVD,RoHS
+* Brand Name: olym-led
+* Features: ws2811
+* Model Number: ol-rgb-0.3w
+* Voltage: 5V
+* LED Power: 0.3W
+* Waterproof IP Grade: IP68
+* Led Lifespan: Over 50000 hours
+* Light Color: RGB FULL Color
 
 ### Schematic
 
