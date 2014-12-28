@@ -18,6 +18,7 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 * [Capacitorial](./playground/Capacitorial) - graphing capacitor discharge with Processing
 * [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
+* [Internals](./playground/Internals) - report on Arduino Board internals
 * [LED chaser](./playground/LedChaser)
 * [LightOrNot - blink rate of an LED proportional to how light it is](./playground/LightOrNot)
 * [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
