@@ -83,14 +83,13 @@ void getQuote() {
       }
     }
 
-    // this feels very hackety - and it is! It finds the body section of the response, skips a line,
+    // this feels very hackety - and it is! It finds the body section of the response,
     // then the quote will be the rest of the line - which may end in \r or \n (it seems to vary)
     // ... and if any of that fails, this will probably blow up!
-    int bodyBreak = response.indexOf("\r\n\r\n") + 4;
-    int quoteStart = response.indexOf("\r\n", bodyBreak) + 2;
-    int quoteEndA = response.indexOf("\r", quoteStart);
-    int quoteEndB = response.indexOf("\n", quoteStart);
-    int quoteEnd = (quoteEndA > quoteEndB) ? quoteEndB : quoteEndA;
+    int quoteStart = response.indexOf("\r\n\r\n") + 4;
+    int quoteEnd0D = response.indexOf("\r", quoteStart);
+    int quoteEnd0A = response.indexOf("\n", quoteStart);
+    int quoteEnd = (quoteEnd0D < quoteEnd0A && quoteEnd0D > 0) ? quoteEnd0D : quoteEnd0A;
 
     String quote = response.substring(quoteStart,quoteEnd);
 
@@ -103,7 +102,7 @@ boolean sendRequest() {
   if (client.connect(server, 80)) {
     Serial.println("connected");
     // Make a HTTP request:
-    client.println("GET /api/v1/random?max_lines=1&max_characters=32&show_permalink=0&show_source=0 HTTP/1.1");
+    client.println("GET /api/v1/random?max_lines=1&max_characters=32&show_permalink=0&show_source=0 HTTP/1.0");
     client.println("Host: www.iheartquotes.com");
     client.println("Connection: close");
     client.println();

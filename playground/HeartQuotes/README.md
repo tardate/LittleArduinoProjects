@@ -34,24 +34,22 @@ From [Digital Pins](http://arduino.cc/en/Tutorial/DigitalPins):
 ### Sample raw response from iheartquotes.com
 This gets parsed down into just the actual "quote" part:
 
-    $ curl -i --raw "http://iheartquotes.com/api/v1/random?max_lines=1&show_permalink=0&show_source=0&format=text"
+    $ curl -0 -i --raw "http://iheartquotes.com/api/v1/random?max_lines=1&show_permalink=0&show_source=0&format=text"
     HTTP/1.1 200 OK
-    Server: nginx
-    Date: Sun, 31 Aug 2014 12:44:12 GMT
-    Content-Type: text/plain
-    Transfer-Encoding: chunked
-    Connection: keep-alive
-    Etag: "e8b7717bb327ac927a8f9e49744382a5"
+    Connection: close
+    Etag: "b4279ec5fc6f80b38c73f8e305a894b0"
     X-Ua-Compatible: IE=Edge,chrome=1
-    X-Runtime: 0.083509
+    Date: Sun, 28 Dec 2014 04:51:22 GMT
+    X-Runtime: 0.030803
+    Content-Type: text/plain
     Cache-Control: max-age=0, private, must-revalidate
+    Server: thin 1.2.6 codename Crazy Delicious
+    Via: 1.1 vegur
 
-    3c
-    Biz is better.
+    Oxymoron 27. Butt head
 
-    http://iheartquotes.com/fortune/show/34841
+    http://iheartquotes.com/fortune/show/37996
 
-    0
 
 ![Console Output](./assets/HeartQuotes_console.jpg?raw=true)
 
