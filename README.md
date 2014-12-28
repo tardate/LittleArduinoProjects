@@ -20,6 +20,7 @@ Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [LED chaser](./playground/LedChaser)
 * [LightOrNot - blink rate of an LED proportional to how light it is](./playground/LightOrNot)
+* [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
 * [Pushbutton LED switch](./playground/PushbuttonLED)
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
