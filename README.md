@@ -10,7 +10,7 @@ Most of these are variations of things found in the example code or in the wild 
 Feel free to borrow any ideas, and if you spot any issues do let me know. See the individual projects for credits where due.
 
 
-Circuit diagrams are drawn with the wonderful [Fritzing APP](http://fritzing.org/home/).
+Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application.
 
 ## The Projects
 
