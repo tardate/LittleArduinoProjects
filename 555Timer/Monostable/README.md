@@ -14,12 +14,15 @@ When pin 2 is pulled low (the trigger), output pin 3 goes high and will remain h
 
 ### Selecting R1, C1 Values
 
-The circuit described uses R1=22k and C1=47uF which results in the output remaining high for just over a second when triggered.
+The circuit described uses [R1=22k and C1=47uF](http://visual555.tardate.com/?mode=monostable&r1=22&c=47)
+which results in the output remaining high for just over a second when triggered.
 The formula for calculating the high period is:
 
     t = 1.1 x R1 x C1
 
 See the datasheet for your chip to confirm the formulae. You can also find various websites that offer 555 timer calcuators,
+but I decided to write my own [Visual 555 Calculator](http://visual555.tardate.com) so that I could play around with HTML5 animation of the resulting circuit;-)
+
 
 ### Powering the project
 
