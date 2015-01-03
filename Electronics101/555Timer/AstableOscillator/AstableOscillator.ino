@@ -3,7 +3,7 @@
   Astable
   Uses an Arduino to monitor a classic a-stable 555 circuit and pipe the data to processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/555Timer/Astable
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/555Timer/Astable
 
  */
 

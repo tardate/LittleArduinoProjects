@@ -10,12 +10,13 @@ Most of these are variations of things found in the example code or in the wild 
 Feel free to borrow any ideas, and if you spot any issues do let me know. See the individual projects for credits where due.
 
 
-Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application.
+Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. I've also included here my [catalog of non-standard Fritzing Parts](./FritzingParts).
 
-## The Projects
+## Arduino Playground Projects
+
+These are projects with the Arduino as the core component, often interfacing with off-board support circuits.
 
 * [Blink](./playground/Blink) - the simplest thing possible
-* [Capacitorial](./playground/Capacitorial) - graphing capacitor discharge with Processing
 * [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [Internals](./playground/Internals) - report on Arduino Board internals
@@ -26,7 +27,12 @@ Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/hom
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
 
-### Programmable LED Arrays
+### Stepper Motor Control
+
+It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
+See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
+
+## Programmable LED Array Projects
 
 I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working...
 
@@ -37,27 +43,37 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
 
 
+## Electronics 101 Projects
+
+It's been a while since I studied this stuff, so a few refreshers are in order! In these projects, the off-board circuit is the focus - generally testing common analog or digital circuits, and sometimes just demonstrating the capabilities of specific ICs. In most cases, the Arduino is just acting as a signal generator and a stand-in for a real oscilloscope.
+
 ### Fundamental Logic Gates
 
-A microcontroller like the Arduino renders obsolete the need to delve into basic digital logic. But it's been a while since I studied this stuff, so a few refreshers are in order! In most cases here, the Arduino is just acting as a signal generator and a stand in for a real oscilloscope.
+A microcontroller like the Arduino renders obsolete the need to delve into basic digital logic. These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
 
-* [Simplest 1-Transistor Inverter](./LogicGates/SimplestInverter)
+* [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
 
-### Stepper Motor Control
+### Passive Components
 
-It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
-See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
+* [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
 
 ### 555 Timer Circuits
 
-* [Astable mode oscillator](./555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output.
-* [Monostable mode](./555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output.
+* [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output.
+* [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output.
 
-### Processing Scripts
+### Schmitt Triggers
+
+
+### Operational Amplifiers
+
+
+## Processing Scripts
 
 Some general purpose [Processing](https://www.processing.org/download/) scripts:
 
 * [PlotNValues](./processing/PlotNValues) reads 1..n values from the serial port and plots on stacked charts.
+
 
 ## Getting Up and Running
 
