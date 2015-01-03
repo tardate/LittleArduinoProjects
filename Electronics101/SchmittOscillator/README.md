@@ -4,7 +4,7 @@ Use the 74LS14 Hex Inverter with Schmitt Trigger Inputs chip to generate an osci
 
 Here's a quick video of the circuit in action:
 
-[![Schmitt Oscillator](http://img.youtube.com/vi/-_85OFB7r08/0.jpg)](http://www.youtube.com/watch?v=-_85OFB7r08)
+[![Schmitt Oscillator](http://img.youtube.com/vi/QV99ATHP2Xs/0.jpg)](http://www.youtube.com/watch?v=QV99ATHP2Xs)
 
 ## Notes
 
@@ -17,6 +17,9 @@ The frequency of the oscillation is calculated (with f Hz, R in ohms, C in farad
     f = 1 / (1.2 * R * C)
     f = 1 / (1.2 * 1000 * 0.00047)
     f = 1.77 Hz
+
+The oscillating output from the inverter is used to drive the base of a general-purpose NPN transistor, switching a LED on and off in turn.
+The transistor is used to isolate the 74LS14 from the load, as it is not designed to directly handle any significant current.
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
