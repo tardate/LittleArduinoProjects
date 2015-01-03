@@ -35,11 +35,11 @@ However, it is also possible to power the board directly from the Arduino 5V pin
 
 The output voltage is tapped at the anode of the LED, read with an analog input pin and echoed to the Arduino serial port.
 It's important to have the Arduino measure the voltage across the LED only, since with a 9V supply this will only be in the order of 2V or so, not the full 7V+ at the
-outpu pin 3 of the 555 timer.
+output pin 3 of the 555 timer.
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-Here's a sample trace:
+Here's a sample trace for [R1=10k, R2=330k and C1=2uF](http://visual555.tardate.com?r1=10&r2=330&c=2):
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
