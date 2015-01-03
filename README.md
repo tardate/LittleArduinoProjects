@@ -64,6 +64,8 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 
 ### Schmitt Triggers
 
+* [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 chip (Hex Inverter with Schmitt Trigger Inputs)
+
 
 ### Operational Amplifiers
 

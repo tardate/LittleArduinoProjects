@@ -1,6 +1,6 @@
 # Fundamental Logic Gates - Simple Inverter
 
-Use an Arduino to demonstrate the most most basic single-transistor inverter, and plot the results with [Processing](https://www.processing.org).
+Use an Arduino to demonstrate the most basic single-transistor inverter, and plot the results with [Processing](https://www.processing.org).
 
 Here's a quick video of the circuit in action:
 
