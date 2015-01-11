@@ -2,8 +2,6 @@
 
 Drives a 7-segment display, performing a countdown from 9 to 0.
 
-![The Build](./assets/Simple7SegmentDisplay.jpg?raw=true)
-
 ## Notes
 
 This circuit puts the resistors in series of the common cathode pins. Which is a bit of an approximation,
@@ -20,7 +18,13 @@ good enough for a simple test.
 * 2 x 220R (or higher to reduce the display brightness)
 * ~10 jumper wires
 
-![The Breadboard Schematic](./assets/Simple7SegmentDisplay_bb.jpg?raw=true)
+### Construction
+
+![The Breadboard](./assets/Simple7SegmentDisplay_bb.jpg?raw=true)
+
+![The Schematic](./assets/Simple7SegmentDisplay_schematic.jpg?raw=true)
+
+![The Build](./assets/Simple7SegmentDisplay.jpg?raw=true)
 
 ## Credits and references
 * Original idea and source from http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
