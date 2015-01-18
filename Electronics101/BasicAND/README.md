@@ -16,14 +16,17 @@ on should there be a high output.
 | 1 | 1 | 1 |
 
 However, that's the idealised view, but in practice things are a little messier, as can be seen in the trace below.
-Two issues stand out in particular:
+In particular:
 
 * For the "10" case, we can see partial activation. This is because we are applying a voltage to the base of Q2 while the collector is not driven, so the base is appearing on the emitter. We have to work around this problem be definining the threshold for "high" to be above this voltage.
-* The low output is quite noisy. That looks like mains frequency interference. I've built a radio!
 
 Here's a sample trace. The lower two traces are the signal inputs, and the upper trace is the output of the gate.
 
 ![processing trace](./assets/processing_trace.png?raw=true)
+
+The resistor R4 is required to fully pull-down the output when low. Without it, the low output is quite noisy. That looks like mains frequency interference. Here's the trace without the pull-down resistor:
+
+![processing trace without pull-down](./assets/processing_trace_without_pulldown.png?raw=true)
 
 ### Construction
 
