@@ -51,6 +51,7 @@ It's been a while since I studied this stuff, so a few refreshers are in order! 
 
 A microcontroller like the Arduino renders obsolete the need to delve into basic digital logic. These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
 
+* [Basic Transistor AND Gate](./Electronics101/BasicAND) - the classic 2-transistor design
 * [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
 * [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
 
