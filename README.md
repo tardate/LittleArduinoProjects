@@ -64,8 +64,9 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 * [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output.
 * [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output.
 
-### Schmitt Triggers
+### 7400 series TTL
 
+* [Quad Latch](./Electronics101/QuadLatch) - graph the basic operation of the 74LS75 4-bit bistable latch
 * [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs
 * [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph waveform generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
 
