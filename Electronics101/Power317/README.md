@@ -25,12 +25,13 @@ Using known resistances, the measured value Vout is pretty close to spec for the
 | 222R | 998R  |  6.86 | actual (DMM)
 | 222R | 998R  |  6.85 | actual (Arduino)
 
-### Using a Pot
+### Using a Variable Resistor for R2
 
 The circuit described in the build replaces the 1k R2 used in the reference circuit
 with a smaller 220R R2 and 50k R3 potentiometer, which allows a
 Vout ranging from 2.49V to the maximum supply possible (about 1.25V less than the input supply).
-
+Note that 50k is really too much for this circuit - but it is what I had on hand.
+Try it with a 10k pot for more precise control.
 
 Here's a sample trace with the pot being adjusted:
 
