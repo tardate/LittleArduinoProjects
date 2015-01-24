@@ -20,7 +20,7 @@ The formula for calculating the high period is:
 
     t = 1.1 x R1 x C1
 
-See the datasheet for your chip to confirm the formulae. You can also find various websites that offer 555 timer calcuators,
+See the datasheet for your chip to confirm the formula. You can also find various websites that offer 555 timer calcuators,
 but I decided to write my own [Visual 555 Calculator](http://visual555.tardate.com) so that I could play around with HTML5 animation of the resulting circuit;-)
 
 

@@ -20,7 +20,18 @@ The circuit described uses
 [R1=10k, R2=330k and C1=2.2uF](http://visual555.tardate.com?r1=10&r2=330&c=2.2),
 which results in a frequency of just about 1Hz and 50% duty cycle. i.e. half a second on, half a second off.
 
-See the datasheet for the related formulae. You can also find various websites that offer 555 timer calcuators,
+When selecting R1, R2, and C1 values, note that:
+
+* the time low is a function of R2 and C1, so R1 will not affect it. Increasing R1 and C1 will increase the time low.
+* the time high is a function of R1, 2*R2, C1. Increasing any of these values will increase the time high.
+* the ratio of time high to time low is (R1 + R2)/R2, so the smaller R1 is compared to R2, the closer we get to a 50% duty cycle.
+
+The formulae for calculating timings are:
+
+    t(high) = 0.693 x (R1 + R2) x C1
+    t(low) = 0.693 x R2 x C1
+
+See the datasheet for your chip to confirm the formulae. You can also find various websites that offer 555 timer calcuators,
 but I decided to write my own [Visual 555 Calculator](http://visual555.tardate.com) so that I could play around with HTML5 animation of the resulting circuit;-)
 
 
