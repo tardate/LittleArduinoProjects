@@ -47,7 +47,10 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 
 ![The Schematic](./assets/Power317_schematic.jpg?raw=true)
 
+Here's the breadboard with the variable R2, note a little more spread out than my original Fritzing diagram:
 ![The Build](./assets/Power317_build_var.jpg?raw=true)
+
+Here's the reference measurement with fixed/known R1 and R2 values:
 ![The Build](./assets/Power317_build_ref.jpg?raw=true)
 
 ## Credits and References
