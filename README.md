@@ -55,7 +55,7 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 * [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
 * [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
 
-### Passive Components
+### Reactive Circuits
 
 * [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
 
@@ -74,7 +74,17 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 ### Operational Amplifiers
 
 
-## Processing Scripts
+### Power Supply Circuits
+
+* [LM317 Adjustable Regulator](./Electronics101/Power317) - test and graph the adjustable voltage
+
+
+### Oscillators
+
+* [555 Square Wave](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
+
+
+## Processing
 
 Some general purpose [Processing](https://www.processing.org/download/) scripts:
 
