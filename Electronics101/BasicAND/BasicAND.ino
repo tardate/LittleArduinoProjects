@@ -25,7 +25,7 @@ void setup() {
   pinMode(read_i2_pin, INPUT);          // enable analog read
   pinMode(read_output_pin, INPUT);      // enable analog read
 
-  FlexiTimer2::set(50, sample);         // sample every 10ms
+  FlexiTimer2::set(50, sample);         // sample every 50ms
   FlexiTimer2::start();
 
 }
