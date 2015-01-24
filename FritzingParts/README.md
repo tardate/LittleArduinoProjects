@@ -4,7 +4,7 @@ This is just a place where I'm recording custom Fritzing parts that I'm usign fo
 
 ## New Parts
 
-These are new parts I've created because I wasnt able to find an existing alternative:
+These are new parts I've created because I wasn't able to find an existing alternative:
 
 * 28BYJ-48 Stepper Motor - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
 * [74LS75 Quad Latch](./74LS75)
@@ -21,4 +21,4 @@ These are new parts I've created because I wasnt able to find an existing altern
 
 If the part source is not in a reliable repository (e.g. GitHub), I may copy the part here with a note on it's providence.
 
-* CD4017 - "DIP - 16 pins4017.fzpz" - [original source](https://code.google.com/p/fritzing/issues/detail?id=875#c526)
+* [CD4017 (local copy)](./cached/CD4017.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=875#c526)
