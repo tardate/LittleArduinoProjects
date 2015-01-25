@@ -45,5 +45,5 @@ The voltage dividers are to ensure that the Arduino never sees more than half th
 ![The Build](./assets/PowerMB102_build.jpg?raw=true)
 
 ## Credits and References
-* [LM7805 datasheet](http://www.futurlec.com/Linear/7805T.shtml)
+* [Example MB201 power supply seller on aliexpress](http://www.aliexpress.com/item/3-3V-5V-MB102-Breadboard-Power-Supply-Module-For-for-Ar-Board/1859102523.html) - as at time of writing. Seller details may change so you'll need to do your own search.
 * [Download Processing](https://www.processing.org/download/)
