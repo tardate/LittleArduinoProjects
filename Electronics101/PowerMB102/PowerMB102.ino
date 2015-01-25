@@ -34,8 +34,8 @@ String result = "";
 void setup() {
   Serial.begin(9600);                   // initialize serial communications at 9600 bps
 
-  pinMode(read_v1_pin, INPUT);        // enable Vout read
-  pinMode(read_v2_pin, INPUT);        // enable Vout read
+  pinMode(read_v1_pin, INPUT);          // enable Vout read
+  pinMode(read_v2_pin, INPUT);          // enable Vout read
 
   FlexiTimer2::set(50, sample);         // sample every 50ms
   FlexiTimer2::start();
