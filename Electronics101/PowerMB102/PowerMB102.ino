@@ -1,9 +1,9 @@
 /*
 
-  Power317
-  Use an Arduino to read LM317 Vout and plot the results with Processing
+  PowerMB102
+  Use an Arduino to monitor the 3.3 and 5v rails of an MB102 breadboard power supply
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power317
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PowerMB102
 
  */
 
@@ -15,7 +15,8 @@
 #define SAMPLE_RAW_VALUE
 
 // the pin we'll read Vout values from
-const int read_vout_pin = A0;
+const int read_v1_pin = A0;
+const int read_v2_pin = A1;
 
 // this is the actual value of the Arduino "5V" in millivolts.
 // The Uno I'm using sends about 4.93V when powered by USB.
@@ -23,15 +24,18 @@ const int read_vout_pin = A0;
 const int vref_mv = 4930;
 
 // temporary sampling storage
-int vout_value = 0;
-float vout = 0.0;
+int v1_value = 0;
+int v2_value = 0;
+float v1 = 0.0;
+float v2 = 0.0;
 String result = "";
 
 
 void setup() {
   Serial.begin(9600);                   // initialize serial communications at 9600 bps
 
-  pinMode(read_vout_pin, INPUT);        // enable Vout read
+  pinMode(read_v1_pin, INPUT);        // enable Vout read
+  pinMode(read_v2_pin, INPUT);        // enable Vout read
 
   FlexiTimer2::set(50, sample);         // sample every 50ms
   FlexiTimer2::start();
@@ -45,15 +49,17 @@ void loop() {
 
 // read the current value and send to the serial port
 void sample() {
-  vout_value = analogRead(read_vout_pin);
+  v1_value = analogRead(read_v1_pin);
+  v2_value = analogRead(read_v2_pin);
 
 #ifdef SAMPLE_RAW_VALUE
   // sending vout_value (0-1023) because that is what PlotNValues expects.
-  Serial.println(result + vout_value);
+  Serial.println(result + v1_value + "," + v2_value);
 #else
   // To send the actual voltage, sclaed by 2 to account for voltage divider
-  vout = map(vout_value, 0, 1023, 0, vref_mv) * 2.0;
-  Serial.println(result + vout);
+  v1 = map(v1_value, 0, 1023, 0, vref_mv) * 2.0;
+  v2 = map(v2_value, 0, 1023, 0, vref_mv) * 2.0;
+  Serial.println(result + v1 + "," + v2);
 #endif
 
 }

@@ -1,9 +1,9 @@
 /*
 
-  Power317
-  Use an Arduino to read LM317 Vout and plot the results with Processing
+  Power7805
+  Use an Arduino to monitor LM7805 Vout and plot the results with Processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power317
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power7805
 
  */
 
