@@ -1,14 +1,14 @@
 # Little Arduino Projects
 
-A collection of simple Arduino projects.
-Most of these are variations of things found in the example code or in the wild on the net, or inspired by ideas from the following sources:
+An ever-growing collection of Arduino and related electronics projects.
+Some are very trivial, their inclusion here perhaps more a measure of my OCD than anything else!
+Many are variations of things found wild on the net, or inspired by ideas from the following sources:
 
-* [Arduino Cookbook](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
+* [Arduino Cookbook (O'Reilly)](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
 * [Arduino StackExchange](http://arduino.stackexchange.com/)
 * [Arduino Playground](http://playground.arduino.cc/)
 
-Feel free to borrow any ideas, and if you spot any issues do let me know. See the individual projects for credits where due.
-
+Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 
 Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. I've also included here my [catalog of non-standard Fritzing Parts](./FritzingParts).
 

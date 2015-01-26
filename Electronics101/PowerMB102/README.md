@@ -39,7 +39,7 @@ Reading voltages with analog pins presents two challenges:
 
 For our purposes here, the ADC accuracy is not a big problem.
 To overcome the reference voltage accuracy issue, the sketch scales the voltage reading according to the actual reference voltage of the board.
-Tthis must be measured with a multimeter and the `vref_mv` constant changed to this value (in mV).
+This must be measured with a multimeter and the `vref_mv` constant changed to this value (in mV).
 
 For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
 
