@@ -37,6 +37,20 @@ Here's a sample trace with the pot being adjusted:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
+### Measure Voltage with an Arduino
+
+Reading voltages with analog pins presents two challenges:
+
+* The internal ADC has 10 bit resolution (0 - 1023) with 2 bit precision, so the accuracy is 0.25%
+* The internal reference voltage (i.e. what 1023 will equal in volts) is nominally 5V but in practice is not very accurate (the board used for this test runs at about 4.93V)
+
+For our purposes here, the ADC accuracy is not a big problem.
+To overcome the reference voltage accuracy issue, the sketch scales the voltage reading according to the actual reference voltage of the board.
+Tthis must be measured with a multimeter and the `vref_mv` constant changed to this value (in mV).
+
+For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
+
+
 ### Construction
 
 The Arduino only acts as a measurement device in this circuit.
@@ -57,4 +71,5 @@ Here's the reference measurement with fixed/known R1 and R2 values:
 ## Credits and References
 * [LM317 datasheet](http://www.futurlec.com/Linear/LM317T.shtml)
 * [LM317 Voltage Calculator](http://www.reuk.co.uk/LM317-Voltage-Calculator.htm)
+* [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino
 * [Download Processing](https://www.processing.org/download/)
