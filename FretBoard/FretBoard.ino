@@ -23,25 +23,28 @@ TextFinder finder( client );
 CRGB leds[MAX_PROJECTS];                       // array of LEDs
 
 byte build_status[MAX_PROJECTS];               // array of build status values.
-// build status values are recorded as follows:
-// xx00 - undefined/off
-// xx01 - 1 sleeping or checking mods
-// xx10 - 2 building
-// 00xx - undefined/off
-// 01xx - 4 fail
-// 10xx - 8 success
-// i.e.:
-// 5 = failed/sleeping
-// 6 = failed/building
-// 9 = success/sleeping or checking mods
-// 10 = success/building
-// < 5 = undefined
-// < 8 = failed
+/*
+  build status values are recorded as follows:
+  xx00 - undefined/off
+  xx01 - 1 sleeping or checking mods
+  xx10 - 2 building
+  00xx - undefined/off
+  01xx - 4 fail
+  10xx - 8 success
+  i.e.:
+  5 = failed/sleeping
+  6 = failed/building
+  9 = success/sleeping or checking mods
+  10 = success/building
+  < 5 = undefined
+  < 8 = failed
+*/
 
 volatile byte total_projects = 0;              // actual number of active projects
 
-volatile byte status_updating = 0;             // when >0, build status is updating
+volatile byte status_updating = 0;             // set to total_projects after build status update
 
+volatile boolean led_toggle = true;
 volatile signed int led_scale = 0;
 volatile signed int led_scale_factor = 1;
 
@@ -94,11 +97,12 @@ void loop()
 
 /*
   redrawLedEffects()
-  invoked  timer to update LED display
+  invoked by timer to update LED display
  */
 void redrawLedEffects() {
 
   if(status_updating > 0) {
+    // cycles a blue LED around all the active projects after an update received
     status_updating--;
     for(int iLed = 0; iLed < MAX_PROJECTS; iLed++) {
       if(iLed==status_updating) {
@@ -117,20 +121,21 @@ void redrawLedEffects() {
         leds[iLed] = CRGB::Red;
         break;
       case 6 : // failed/building
-        leds[iLed] = CRGB::OrangeRed;
+        leds[iLed] = led_toggle ? CRGB::OrangeRed : CRGB::Black;
         break;
       case 9 : // success/sleeping or checking mods
         leds[iLed] = CRGB::Green;
         break;
       case 10 : //success/building
-         leds[iLed] = CRGB::PaleGreen;
-         break;
+        leds[iLed] = led_toggle ? CRGB::PaleGreen : CRGB::Black;
+        break;
       default: // undefined
         leds[iLed] = CRGB::Black;
       }
     }
     FastLED.show(led_scale);
 
+    led_toggle = !led_toggle;
     led_scale += led_scale_factor;
     if(led_scale>=128) led_scale_factor = -1;
     if(led_scale<=0) led_scale_factor = 1;
@@ -142,7 +147,7 @@ void redrawLedEffects() {
 
 /*
   getBuildStatus
-  send web request for build status and parse the result.
+  sends web request for build status and parses the result.
  */
 void getBuildStatus() {
   char name[MAX_STATUS_PART_LENGTH];
