@@ -79,6 +79,7 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 * [LM317 Adjustable Regulator](./Electronics101/Power317) - test and graph the adjustable voltage supply
 * [LM7805 5V Regulated Supply](./Electronics101/Power7805) - test and graph the voltage supply
 * [3.3/5V MB102 Breadboard Supply](./Electronics101/PowerMB102) - demo an MB102 power supply unit
+* [Zener Regulated 5V Source](./Electronics101/PowerZener) - test and graph a power supply regulated with a 1N4733 zener diode
 
 
 ### Oscillators

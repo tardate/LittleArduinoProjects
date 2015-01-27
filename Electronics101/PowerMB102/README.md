@@ -1,6 +1,6 @@
 # Power Supply - 3.3/5V MB102 Breadboard Power Supply
 
-Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using and Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
+Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
 ![MB102 unit](./assets/MB102_product_image.jpg?raw=true)
 
@@ -26,7 +26,7 @@ Measurement results:
 | 5V               | 5.00       | 4.99
 
 
-Here's a sample trace of the two voltage rails as measure by the Arduino:
+Here's a sample trace of the two voltage rails as measured by the Arduino:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 

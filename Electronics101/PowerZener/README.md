@@ -1,18 +1,19 @@
-# Power Supply - LM7805 Stable 5V Source
+# Power Supply - Zener Regulated 5V Source
 
-Demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
+Demonstrates a Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
 ## Notes
 
-The LM7805 provides regulated 5V, ideal when current requirements are moderate (up to 1A with heatsink).
-Note that other chips in the LM78xx range are available to provide other voltages.
+The 1N4733 zener diode is rated at 5.1V reverse-bias beakdown voltage.
+In reverse bias mode, it is able to sustain high current at a very constant value of the reverse-breakdown voltage.
+Note that other diodes in the 1N4728 - 1N4764 range are available for other zener voltages.
 
-For the chip under test, we get a stable voltage just a tad under 5V, as measure with a multimeter and the Arduino:
+For the zener diode under test, we get a stable voltage just a tad over 5V, as measure with a multimeter and the Arduino:
 
 | Vout  | Derivation
 |-------|---------------
-| 4.98  | actual (DMM)
-| 4.982 | actual (Arduino)
+| 5.05  | actual (DMM)
+| 5.05 | actual (Arduino)
 
 Here's a sample trace of the voltage as measured by the Arduino:
 
@@ -39,13 +40,13 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard](./assets/Power7805_bb.jpg?raw=true)
+![The Breadboard](./assets/PowerZener_bb.jpg?raw=true)
 
-![The Schematic](./assets/Power7805_schematic.jpg?raw=true)
+![The Schematic](./assets/PowerZener_schematic.jpg?raw=true)
 
-![The Build](./assets/Power7805_build.jpg?raw=true)
+![The Build](./assets/PowerZener_build.jpg?raw=true)
 
 ## Credits and References
-* [LM7805 datasheet](http://www.futurlec.com/Linear/7805T.shtml)
+* [1N4733 datasheet](http://www.futurlec.com/Diodes/1N4733.shtml)
 * [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino
 * [Download Processing](https://www.processing.org/download/)
