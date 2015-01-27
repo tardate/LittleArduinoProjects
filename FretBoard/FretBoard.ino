@@ -26,7 +26,7 @@ byte build_status[MAX_PROJECTS];               // array of build status values.
 /*
   build status values are recorded as follows:
   xx00 - undefined/off
-  xx01 - 1 sleeping or checking mods
+  xx01 - 1 sleeping, checking mods or unknown
   xx10 - 2 building
   00xx - undefined/off
   01xx - 4 fail
@@ -187,9 +187,8 @@ void getBuildStatus() {
                   status = status ^ 2;
                   break;
                 case 'S': // Sleeping
-                  status = status ^ 1;
-                  break;
                 case 'C': // CheckingModifications
+                case 'U': // Unknown
                   status = status ^ 1;
                   break;
               }
