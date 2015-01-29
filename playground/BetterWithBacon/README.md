@@ -27,5 +27,6 @@ A variable resistor is used to trim contrast, the the LCD backlight is powered f
 * 16x2 LCD (I used a [QC1602A](./assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
 
 ## Credits and references
+* [QC1602A 16x2 LCD datasheet](./assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
 * Based on the [Arduino LiquidCrystal example](http://www.arduino.cc/en/Tutorial/LiquidCrystal)
 
