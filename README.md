@@ -42,6 +42,11 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
 
+### Display Output
+Arduino projects testing various output devices.
+
+* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
+* [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 
 ## Electronics 101 Projects
 
