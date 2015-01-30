@@ -9,7 +9,7 @@ A simple "Hello World" test of a 16x2 LCD module.
 
 Demonstrates the use a 16x2 LCD display.  The LiquidCrystal library works with all LCD displays that are compatible with the Hitachi HD44780 driver. There are many of them out there, and you can usually tell them by the 16-pin interface.
 
-A variable resistor is used to trim contrast, the the LCD backlight is powered from the 5V rail.
+A variable resistor is used to trim contrast, and the LCD backlight is powered from the 5V rail.
 
 ## Construction
 

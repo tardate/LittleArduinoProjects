@@ -60,9 +60,10 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 * [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
 * [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
 
-### Reactive Circuits
+### Linear Circuits
 
 * [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
+* [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
 
 ### 555 Timer Circuits
 
