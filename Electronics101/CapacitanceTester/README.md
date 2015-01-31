@@ -39,7 +39,7 @@ During the charge cycle, the voltage across the capacitor is measured with analo
 When this hits the pre-calculated 63.2% level, the time elapsed is our measurement of the time constant.
 From this, the capacitance can then be calculated.
 
-The standard microsecond counter `micros()` is used to measure timings at the microsecond scale.
+The standard microsecond counter `micros()` is used to measure timing.
 As stated in the [micros() documentation](http://arduino.cc/en/reference/micros) this provides a precision of 4-8 microseconds, depending on the board:
 * On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds
 * On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds.
@@ -47,6 +47,10 @@ As stated in the [micros() documentation](http://arduino.cc/en/reference/micros)
 This seems to work reasonably well for capacitors over 100nF (10nF at a stretch), but I haven't had any luck at the pF scale.
 
 ### Results
+
+The sketch works quite well for testing a series of capacitors.
+With everything running, just unplug one capacitor and replace it with another.
+It will fully discharge the capacitor, measure the time constant, and print the capacitance to the LCD.
 
 | Type         | Nominal    | Measured     |
 |--------------|-----------:|-------------:|
@@ -85,11 +89,12 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 ### Parts
 
 * [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* breadboard
-+ 50k potetiometer
-* R1 220ohm
-* R2 4.7kohm
+* RT1 22kohm or 4.7kohm
 * 16x2 LCD (I used a [QC1602A](./assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
++ VR1 50k potetiometer for contrast trim
+* R1 220ohm for current limiting the LCD backlight
+* CT1 - various capacitors for testing
+* breadboard & jumper wires
 
 ## Credits and references
 * [RC time constant](http://en.wikipedia.org/wiki/RC_time_constant)
