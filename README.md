@@ -1,7 +1,7 @@
 # Little Arduino Projects
 
-An ever-growing collection of Arduino and related electronics projects.
-Some are very trivial, their inclusion here perhaps more a measure of my OCD than anything else!
+My collection of Arduino and related electronics projects.
+Some are extremely trivial, their inclusion here perhaps more a measure of my OCD than anything else!
 Many are variations of things found wild on the net, or inspired by ideas from the following sources:
 
 * [Arduino Cookbook (O'Reilly)](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
@@ -12,11 +12,14 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 
 Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. I've also included here my [catalog of non-standard Fritzing Parts](./FritzingParts).
 
-## Arduino Playground Projects
+## Arduino Projects
 
+### Playground Projects
+The basics.
 These are projects with the Arduino as the core component, often interfacing with off-board support circuits.
 
-* [Blink](./playground/Blink) - the simplest thing possible
+* [Blink](./playground/Blink) - the simplest blinking LED, with some electrical measurements thrown in
+* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to blink with precision
 * [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [Internals](./playground/Internals) - report on Arduino Board internals
@@ -32,7 +35,19 @@ These are projects with the Arduino as the core component, often interfacing wit
 It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
 See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
 
-## Programmable LED Array Projects
+### Display Output
+Arduino projects testing various output devices.
+
+* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
+* [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
+
+### Timer Circuits
+Testing various timing-related issues.
+
+* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
+* [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on an LED strip driven using timer interrupt
+
+### Programmable LED Array Projects
 
 I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working...
 
@@ -42,11 +57,6 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
 
-### Display Output
-Arduino projects testing various output devices.
-
-* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
-* [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 
 ## Electronics 101 Projects
 
