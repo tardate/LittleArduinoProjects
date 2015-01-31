@@ -47,22 +47,22 @@ void measureCapacitance() {
   char capStr[10];
 
   digitalWrite(charge_pin, HIGH);
-  startTime = millis();
+  startTime = micros();
   while(analogRead(read_charge_pin) < vtrigger_level) {}
-  elapsedTime = millis() - startTime;
+  elapsedTime = micros() - startTime;
   digitalWrite(charge_pin, LOW);
 
   lcd.clear();
   lcd.print("test complete:");
   lcd.setCursor(0, 1);
 
-  capacitance = ((float)elapsedTime / r1) * 1000.0; //mF
-  if(capacitance>1) { //mF
+  capacitance = ((float)elapsedTime / r1); // uF
+  if(capacitance>1) { //uF
     dtostrf(capacitance, 4, 3, capStr);
     lcd.print(capStr);
     lcd.print("uF");
   } else {
-    dtostrf(capacitance * 1000, 4, 3, capStr);
+    dtostrf(capacitance * 1000.0, 4, 3, capStr);
     lcd.print(capStr);
     lcd.print("nF");
   }
