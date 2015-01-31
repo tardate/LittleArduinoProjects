@@ -22,7 +22,7 @@ For simplicity, the circuit discharges through the same pin as used for charging
 #### Final Voltage
 We are charging the capacitor with a digital output pin of the Arduino.
 Nominally, this should mean the final voltage is 5V, however not all Arduino boards will hit this accurately.
-We measure the actual 5V reference voltage set the `vref_mv` constant in the sketch accordingly (4.93V in my case)
+We measure the actual 5V reference voltage and set the `vref_mv` constant in the sketch accordingly (4.93V in my case)
 
 #### Actual Resistance (RT1)
 The resistor RT1 should be measured with an ohmeter, and set the `rt1` constant in the sketch accordingly.
@@ -35,8 +35,12 @@ In practice, I've settled on two values:
 * 4.7k for capacitors over 330uF
 
 #### Measuring the time constant
+During the charge cycle, the voltage across the capacitor is measured with analog pin A0.
+When this hits the pre-calculated 63.2% level, the time elapsed is our measurement of the time constant.
+From this, the capacitance can then be calculated.
+
 The standard microsecond counter `micros()` is used to measure timings at the microsecond scale.
-As state in the [micros() documentation](http://arduino.cc/en/reference/micros) this provides precision of 4-8 microseconds, depending on the board:
+As stated in the [micros() documentation](http://arduino.cc/en/reference/micros) this provides a precision of 4-8 microseconds, depending on the board:
 * On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds
 * On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds.
 
