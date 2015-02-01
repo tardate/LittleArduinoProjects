@@ -21,29 +21,34 @@ Done:
 
 ### The Build Status Web Repsonse
 
-I'm getting build status from a web server that supports a simple HTTP 1.0 CSV response format:
+We get build status from a web server that supports a simple HTTP 1.0 CSV response.
+This is probably a proxy to the actual build server.
+See the
+[fretboard web](https://github.com/tardate/fretboard_web)
+repository for an example of a proxy that can handle CruiseControl XmlStatusReport format.
 
-    $ curl -i -0 --raw "http://my.ci-server.net/statuses/builds.csv"
+The response looks like this:
+
+    $ curl -i -0 --raw http://fretboard.tardate.com/status.csv
 
     HTTP/1.1 200 OK
-    Content-Type: text/csv; charset=utf-8
     Connection: close
-    Status: 200
-    X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 3.0.19
-    X-UA-Compatible: IE=Edge,chrome=1
-    ETag: "3a99c061fc2b854ce9880af33079c98f"
-    Cache-Control: max-age=0, private, must-revalidate
-    X-Request-Id: d94d735690a2827101f7e14488a5eca8
-    X-Runtime: 2.554357
-    Date: Thu, 25 Dec 2014 06:05:51 GMT
-    X-Rack-Cache: miss
-    Server: nginx/1.2.6 + Phusion Passenger 3.0.19
+    Content-Type: text/csv;charset=utf-8
+    Content-Length: 288
+    X-Content-Type-Options: nosniff
+    Server: WEBrick/1.3.1 (Ruby/2.0.0/2014-11-13)
+    Date: Sun, 01 Feb 2015 09:04:18 GMT
+    Via: 1.1 vegur
 
-    project a,Sleeping,Success
-    project b,Sleeping,Building
-    project c,Sleeping,Failure
-    project d,CheckingModifications,Success
-    project e,CheckingModifications,Failure
+    dummy_project_1,Sleeping,Success
+    dummy_project_2,Sleeping,Failure
+    dummy_project_3,CheckingModifications,Success
+    dummy_project_4,CheckingModifications,Failure
+    dummy_project_5,Building,Success
+    dummy_project_6,Building,Failure
+    dummy_project_7,Unknown,Success
+    dummy_project_8,Unknown,Failure
+
 
 Each line of the CSV response includes three elements:
 
