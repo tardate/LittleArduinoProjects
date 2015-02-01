@@ -1,26 +1,20 @@
 # FretBoard
 
-FretBoard is a multi-project build status indicator, using
-a [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
+FretBoard is a multi-project build status indicator, using a [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
 to display the status of each project.
 
-This is a work-in-progress. Done:
+Full details of the project are available at http://fretboard.tardate.com
+
+[![The Build](./assets/FretBoard_build.jpg?raw=true)](http://fretboard.tardate.com)
+
+Done:
 
 * parse build status from the net using Ethernet shield
 * driving the LED Array with basic build status indication
 * added LED effects (glow) using timer driver
-* added visual indicator when the build status is refreshed
-
-Still To Do:
-
-* add specific effects for builds-in-progress
+* added visual indicator when the build status is refreshed and builds-in-progress
 * the physical build - housing this in a suitable case for display
 * wrap up the doco
-
-
-Here's a quick video of the first demo of the LED array hooked up to an Arduino collecting live build status from the net; next step is the physical housing:
-
-[![AsyncLedStripEffects - using a timer interrupt to run effects on an LED array](http://img.youtube.com/vi/XJ0cd0ktjQg/0.jpg)](http://www.youtube.com/watch?v=XJ0cd0ktjQg)
 
 
 ## Notes
@@ -86,13 +80,30 @@ There is lots of advice on how to do this
  - along with strong caveats since the 5V pin bypasses the onboard regulator, and it is essential to ensure no other power source is simulatneously provided to the Arduino.
 However, the 5V adapter I am using is regulated, and under test it has worked fine to power the Arduino and LED array together.
 
+
 ## Construction
+
+![The Breadboard](./assets/FretBoard_bb.jpg?raw=true)
+
+![The Schematic](./assets/FretBoard_schematic.jpg?raw=true)
+
+![The Build](./assets/FretBoard_build.jpg?raw=true)
 
 ### Parts
 
-#### [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
+Not much to the electronics. Core parts:
 
-Ships in a strip of 50 LEDs (cut down to 24 for this project). The basic details:
+* Arduino Uno
+* Arduino Ethernet shield
+* WS2811-based LED Strip
+* 1000uF capacitor for power supply smoothing
+* 1k resistor for current-limiting the LED data line
+
+And then connectors etc depending on the physical housing.
+
+### LED Strip Data
+
+[WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) ships in a strip of 50 LEDs (cut down to 24 for this project). The basic details:
 
 * Certification: EMC,FCC,LVD,RoHS
 * Brand Name: olym-led
@@ -104,11 +115,4 @@ Ships in a strip of 50 LEDs (cut down to 24 for this project). The basic details
 * Led Lifespan: Over 50000 hours
 * Light Color: RGB FULL Color
 
-### Schematic
-
-![The Schematic](../LEDArrayDemos/assets/LedArray_schematic.jpg?raw=true)
-
-### Raw Build prior to Physical Housing
-
-![The Build](./assets/FretBoard_build_unassembled.jpg?raw=true)
 

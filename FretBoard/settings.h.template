@@ -23,7 +23,7 @@ char hostname[] = "your.server.net";
 IPAddress hostip(10,10,10,10);
 
 // the relative path for the request
-char request_path[] = "/path/to/my_results"
+char request_path[] = "/status.csv"
 
 // milliseconds to wait between each build status request
 #define BUILD_STATUS_POLL_INTERVAL 5000
