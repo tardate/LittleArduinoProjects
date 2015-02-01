@@ -5,7 +5,7 @@ to display the status of each project.
 
 Full details of the project are available at http://fretboard.tardate.com
 
-[![The Build](./assets/FretBoard_build.jpg?raw=true)](http://fretboard.tardate.com)
+[![The Build](./assets/FretBoard_build.png?raw=true)](http://fretboard.tardate.com)
 
 Done:
 
@@ -87,7 +87,7 @@ However, the 5V adapter I am using is regulated, and under test it has worked fi
 
 ![The Schematic](./assets/FretBoard_schematic.jpg?raw=true)
 
-![The Build](./assets/FretBoard_build.jpg?raw=true)
+![The Build](./assets/FretBoard_build.png?raw=true)
 
 ### Parts
 
