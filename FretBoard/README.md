@@ -92,7 +92,7 @@ However, the 5V adapter I am using is regulated, and under test it has worked fi
 
 ![The Schematic](./assets/FretBoard_schematic.jpg?raw=true)
 
-![The Build](./assets/FretBoard_build.png?raw=true)
+![The Build](./assets/FretBoard_build2.jpg?raw=true)
 
 ### Parts
 
