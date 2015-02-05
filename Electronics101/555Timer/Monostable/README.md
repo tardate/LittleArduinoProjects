@@ -49,6 +49,7 @@ Here's a sample trace:
 
 
 ## Credits and References
-* [Download Processing](https://www.processing.org/download/)
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [Visual 555 Calculator](http://visual555.tardate.com)
 * [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC)
+* [Download Processing](https://www.processing.org/download/)

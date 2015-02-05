@@ -77,14 +77,15 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 
 ### 555 Timer Circuits
 
-* [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output.
-* [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output.
+* [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output
+* [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output
+* [Triangular Wave Generator](./Electronics101/555Timer/TriangleWaveGen) - generate a triange wave with 555 timer and RC integrator
 
 ### 7400 series TTL
 
 * [Quad Latch](./Electronics101/QuadLatch) - graph the basic operation of the 74LS75 4-bit bistable latch
 * [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs
-* [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph waveform generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
+* [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph square wave generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
 
 
 ### Operational Amplifiers
@@ -100,7 +101,9 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 
 ### Oscillators
 
-* [555 Square Wave](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
+* [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
+* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using 74LS14 Hex Inverter with Schmitt Trigger Inputs
+* [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
 
 
 ## Processing
