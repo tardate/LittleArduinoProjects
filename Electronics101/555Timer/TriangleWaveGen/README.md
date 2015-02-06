@@ -30,19 +30,35 @@ The charge at time t is:
 
 So if we aim for a cycle time of about 5𝛕, that translates to 99.3% of full charge, and 91.8% at half cycle (2.5𝛕).
 
-Given 𝛕 = 1/rc, we therefore want the RC integrator to fit as follows:
+Given 𝛕 = rc, we therefore want the RC integrator to fit as follows:
 
-    5𝛕 = 5 /(R3 x C3) -> approaching 1029ms
+    5𝛕 = 5 x R3 x C3 -> approaching 1029ms
 
-Playing around with a few alternatives for R3 and C3, I've selected R3 = 14.7kΩ and C3 = 330uF:
+Playing around with a few alternatives for R3 and C3:
 
-    5 / (14.7kΩ x 330uF) = 1031ms
+    5 x 600Ω x 330uF = 990ms
+    5 x 10kΩ x 20uF = 1000ms
+    5 x 10kΩ x 22uF = 1100ms
+    5 x 4.7kΩ x 47uF = 1105ms
 
-Here's a sample trace of the resulting waveforms as measured by the Arduino.
+Here are sample traces of the resulting waveforms as measured by the Arduino with various values of 𝛕 for the RC integrator.
 The lower trace is the square wave at pin 3 of the 555 timer,
 the upper trace is the triangular wave at the output of the RC integrator:
 
-![processing trace](./assets/processing_trace.png?raw=true)
+#### 5 x 600Ω x 330uF = 990ms
+![processing trace](./assets/processing_trace_66x33.png?raw=true)
+
+#### 5 x 10kΩ x 20uF = 1000ms
+![processing trace](./assets/processing_trace_10x20.png?raw=true)
+
+#### 5 x 10kΩ x 22uF = 1100ms
+![processing trace](./assets/processing_trace_10x22.png?raw=true)
+
+#### 5 x 4.7kΩ x 47uF = 1105ms
+![processing trace](./assets/processing_trace_47x47.png?raw=true)
+
+#### 5 x 14.7kΩ x 330uF = 24255ms
+![processing trace](./assets/processing_trace_14700x330.png?raw=true)
 
 ### Construction
 
