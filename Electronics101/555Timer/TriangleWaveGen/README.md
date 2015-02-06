@@ -36,7 +36,6 @@ Given 𝛕 = rc, we therefore want the RC integrator to fit as follows:
 
 Playing around with a few alternatives for R3 and C3:
 
-    5 x 600Ω x 330uF = 990ms
     5 x 10kΩ x 20uF = 1000ms
     5 x 10kΩ x 22uF = 1100ms
     5 x 4.7kΩ x 47uF = 1105ms
@@ -44,9 +43,6 @@ Playing around with a few alternatives for R3 and C3:
 Here are sample traces of the resulting waveforms as measured by the Arduino with various values of 𝛕 for the RC integrator.
 The lower trace is the square wave at pin 3 of the 555 timer,
 the upper trace is the triangular wave at the output of the RC integrator:
-
-#### 5 x 600Ω x 330uF = 990ms
-![processing trace](./assets/processing_trace_66x33.png?raw=true)
 
 #### 5 x 10kΩ x 20uF = 1000ms
 ![processing trace](./assets/processing_trace_10x20.png?raw=true)
