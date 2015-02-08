@@ -41,6 +41,10 @@ Arduino projects testing various output devices.
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
 
+### Sensor Circuits
+
+* [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
+
 ### Timer Circuits
 Testing various timing-related issues.
 
@@ -91,6 +95,8 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 
 
 ### Operational Amplifiers
+
+* [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
 
 
 ### Power Supply Circuits
