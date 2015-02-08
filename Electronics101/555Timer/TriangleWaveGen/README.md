@@ -34,27 +34,38 @@ Given 𝛕 = rc, we therefore want the RC integrator to fit as follows:
 
     5𝛕 = 5 x R3 x C3 -> approaching 1029ms
 
-Playing around with a few alternatives for R3 and C3:
+Playing around with a few alternatives for R3 and C3, a close match is with 10220Ω and 20uF:
 
-    5 x 10kΩ x 20uF = 1000ms
+    5 x 10220Ω x 20uF = 1022ms
+
+These are the values used in the circuit detailed bellow. Since these are not standard component values, combinations are reqiured:
+10kΩ and 220Ω in series; 2 x 10uF in parallel.
+
+Close alternatives using single components include:
+
     5 x 10kΩ x 22uF = 1100ms
     5 x 4.7kΩ x 47uF = 1105ms
 
-Here are sample traces of the resulting waveforms as measured by the Arduino with various values of 𝛕 for the RC integrator.
+Here are some sample traces of the resulting waveforms as measured by the Arduino with various values of 𝛕 for the RC integrator.
 The lower trace is the square wave at pin 3 of the 555 timer,
 the upper trace is the triangular wave at the output of the RC integrator:
 
-#### 5 x 10kΩ x 20uF = 1000ms
-![processing trace](./assets/processing_trace_10x20.png?raw=true)
+#### 5 x 10220Ω x 20uF = 1022ms
+A very close match to the theoretical best fit
+![processing trace](./assets/processing_trace_10220x20.png?raw=true)
 
 #### 5 x 10kΩ x 22uF = 1100ms
-![processing trace](./assets/processing_trace_10x22.png?raw=true)
-
-#### 5 x 4.7kΩ x 47uF = 1105ms
-![processing trace](./assets/processing_trace_47x47.png?raw=true)
+Close alternative using single stadnard component values in the RC integrator.
+![processing trace](./assets/processing_trace_10000x22.png?raw=true)
 
 #### 5 x 14.7kΩ x 330uF = 24255ms
+With 𝛕 too high, significant DC offset is built up. But notice a very nice triangle!
 ![processing trace](./assets/processing_trace_14700x330.png?raw=true)
+
+#### 5 x 4.7kΩ x 10uF = 235ms
+With 𝛕 too low, the charge/discharge cycle falls well within the square wave periodicity.
+![processing trace](./assets/processing_trace_4700x10.png?raw=true)
+
 
 ### Construction
 
