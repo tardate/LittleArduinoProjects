@@ -69,7 +69,8 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 * [Basic Transistor AND Gate](./Electronics101/BasicAND) - the classic 2-transistor design
 * [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
 * [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
-* [Switch - NPN](./Electronics101/SwitchNPN) - digital switch with NPN BJT
+* [Switch - NPN](./Electronics101/SwitchNPN) - small-signal digital switch with NPN BJT
+* [Switch - PNP](./Electronics101/SwitchPNP) - small-signal digital switch with PNP BJT
 
 ### Linear Circuits
 
