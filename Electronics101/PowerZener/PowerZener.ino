@@ -51,7 +51,7 @@ void sample() {
   // sending vout_value (0-1023) because that is what PlotNValues expects.
   Serial.println(result + vout_value);
 #else
-  // To send the actual voltage, sclaed by 2 to account for voltage divider
+  // To send the actual voltage, scaled by 2 to account for voltage divider
   vout = map(vout_value, 0, 1023, 0, vref_mv) * 2.0;
   Serial.println(result + vout);
 #endif

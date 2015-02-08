@@ -55,11 +55,11 @@ A very close match to the theoretical best fit
 ![processing trace](./assets/processing_trace_10220x20.png?raw=true)
 
 #### 5 x 10kΩ x 22uF = 1100ms
-Close alternative using single stadnard component values in the RC integrator.
+Close alternative using single standard component values in the RC integrator.
 ![processing trace](./assets/processing_trace_10000x22.png?raw=true)
 
 #### 5 x 14.7kΩ x 330uF = 24255ms
-With 𝛕 too high, significant DC offset is built up. But notice a very nice triangle!
+With 𝛕 too high, significant DC offset builds up in the capacitor. But notice a very nice triangle!
 ![processing trace](./assets/processing_trace_14700x330.png?raw=true)
 
 #### 5 x 4.7kΩ x 10uF = 235ms
