@@ -36,7 +36,7 @@ Note: the circuit as described does not follow
 ### Behaviour
 
 Here's a sample trace taken with [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues).
-The lower plot is the voltage at the base of the LDR as I roll a ball in teh vacinity of the LDR.
+The lower plot is the voltage at the base of the LDR as I roll a ball in the vacinity of the LDR.
 The upper plot is the comparator output demonstrating how it
 flips high when the light level goes below the preset threshold.
 
