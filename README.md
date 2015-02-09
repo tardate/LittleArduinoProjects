@@ -29,14 +29,21 @@ Testing various timing-related issues.
 
 
 
+## Sensor Circuits
+Arduino projects testing various sensor inputs.
+
+* [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
+* [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
+* [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
+
 
 ## Audio Output
 
 * [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
 
 
-## Display Output
-Arduino projects testing various output devices.
+## Visual Output
+Arduino projects testing various visual output devices.
 
 ### LED Circuits
 
@@ -68,14 +75,6 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
 
-
-## Sensor Circuits
-
-* [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
-* [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
-* [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
-
-
 ## Kinetic Output
 
 ### Stepper Motor Control
@@ -88,6 +87,7 @@ See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) 
 Projects and demos that interface with the net
 
 * [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
+
 
 
 # Electronics 101 Projects
