@@ -12,27 +12,31 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 
 Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. I've also included here my [catalog of non-standard Fritzing Parts](./FritzingParts).
 
+
 ## Arduino Projects
+
 
 ### Programming and Internals
 Onboard functionality tests.
 
 * [Internals](./playground/Internals) - report on Arduino Board internals
 
-### Stepper Motor Control
+#### Timer Circuits
+Testing various timing-related issues.
 
-It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
-See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
+* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
+* [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on an LED strip driven using timer interrupt
+
+
+
 
 ### Audio Output
 
 * [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
 
+
 ### Display Output
 Arduino projects testing various output devices.
-
-* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
-* [Simple 7-segment display](./playground/Simple7SegmentDisplay) - test 7-segment common cathode display
 
 #### LED Circuits
 
@@ -42,18 +46,19 @@ Arduino projects testing various output devices.
 * [Pushbutton LED switch](./playground/PushbuttonLED)
 * [Variable LED brightness (PWM)](./playground/VariableLED)
 
-### Sensor Circuits
+#### LCD Circuits
 
-* [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
-* [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
+* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
+* [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
+* [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
 
-### Timer Circuits
-Testing various timing-related issues.
 
-* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
-* [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on an LED strip driven using timer interrupt
+#### 7-Segment Displays
 
-### Programmable LED Array Projects
+* [Simple 7-segment display](./playground/Simple7SegmentDisplay) - test 7-segment common cathode display
+
+
+#### Programmable LED Array Projects
 
 I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working...
 
@@ -62,6 +67,21 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [StripTease](./LEDArrayDemos/StripTease) - demo a range of effects on the LED strip
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
+
+
+### Sensor Circuits
+
+* [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
+* [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
+
+
+### Kinetic Output
+
+#### Stepper Motor Control
+
+It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
+See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
+
 
 ### Internet-Enabled Arduino Projects
 Projects and demos that interface with the net
@@ -75,7 +95,8 @@ It's been a while since I studied this stuff, so a few refreshers are in order! 
 
 ### Fundamental Logic Gates
 
-A microcontroller like the Arduino renders obsolete the need to delve into basic digital logic. These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
+A microcontrollers like the Arduino typically render obsolete the need to delve into basic digital logic. But not always.
+These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
 
 * [Basic Transistor AND Gate](./Electronics101/BasicAND) - the classic 2-transistor design
 * [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
@@ -99,7 +120,6 @@ A microcontroller like the Arduino renders obsolete the need to delve into basic
 * [Quad Latch](./Electronics101/QuadLatch) - graph the basic operation of the 74LS75 4-bit bistable latch
 * [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs
 * [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph square wave generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
-
 
 ### Operational Amplifiers
 
