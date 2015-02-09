@@ -14,36 +14,38 @@ Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/hom
 
 ## Arduino Projects
 
-### Playground Projects
-The basics.
-These are projects with the Arduino as the core component, often interfacing with off-board support circuits.
+### Programming and Internals
+Onboard functionality tests.
 
-* [Blink](./playground/Blink) - the simplest blinking LED, with some electrical measurements thrown in
-* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to blink with precision
-* [HeartQuotes - Press a button to get a quote](./playground/HeartQuotes)
-* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [Internals](./playground/Internals) - report on Arduino Board internals
-* [LED chaser](./playground/LedChaser)
-* [LightOrNot - blink rate of an LED proportional to how light it is](./playground/LightOrNot)
-* [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
-* [Pushbutton LED switch](./playground/PushbuttonLED)
-* [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
-* [Variable LED brightness (PWM)](./playground/VariableLED)
 
 ### Stepper Motor Control
 
 It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
 See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
 
+### Audio Output
+
+* [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
+
 ### Display Output
 Arduino projects testing various output devices.
 
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
-* [Simple 7-segment common cathode LED display](./playground/Simple7SegmentDisplay)
+* [Simple 7-segment display](./playground/Simple7SegmentDisplay) - test 7-segment common cathode display
+
+#### LED Circuits
+
+* [Blink](./playground/Blink) - the simplest blinking LED, with some electrical measurements thrown in
+* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to blink with precision
+* [LED chaser](./playground/LedChaser)
+* [Pushbutton LED switch](./playground/PushbuttonLED)
+* [Variable LED brightness (PWM)](./playground/VariableLED)
 
 ### Sensor Circuits
 
 * [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
+* [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
 
 ### Timer Circuits
 Testing various timing-related issues.
@@ -60,6 +62,11 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [StripTease](./LEDArrayDemos/StripTease) - demo a range of effects on the LED strip
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
+
+### Internet-Enabled Arduino Projects
+Projects and demos that interface with the net
+
+* [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
 
 
 ## Electronics 101 Projects
