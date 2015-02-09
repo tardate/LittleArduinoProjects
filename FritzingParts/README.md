@@ -16,6 +16,7 @@ These are new parts I've created because I wasn't able to find an existing alter
 If the part source is not in a reliable repository (e.g. GitHub), I may copy the part here with a note on it's providence.
 
 * [CD4017 (local copy)](./cached/CD4017.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=875#c526)
+* [HC-SR04 (local copy)](./cached/HC-SR04.fzpz) - [original source](http://fritzing.org/projects/hc-sr04-project)
 
 ## Useful Parts Collections
 

@@ -73,6 +73,7 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 
 * [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
 * [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
+* [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
 
 
 ## Kinetic Output
