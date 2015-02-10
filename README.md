@@ -35,6 +35,7 @@ Arduino projects testing various sensor inputs.
 * [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
 * [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
 * [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
+* [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
 
 
 ## Audio Output
@@ -126,6 +127,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 
 * [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
 * [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
+* [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
 
 ## Power Supply Circuits
 
