@@ -125,7 +125,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 ## Operational Amplifiers
 
 * [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
-
+* [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
 
 ## Power Supply Circuits
 
