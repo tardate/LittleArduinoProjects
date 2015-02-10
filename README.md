@@ -37,6 +37,14 @@ Arduino projects testing various sensor inputs.
 * [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
 * [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
 
+## Audio Input
+Audio circuits.
+
+* [ElectretADC](./playground/ElectretADC) - convert electret signal to a full range analog input and plot the raw and aplified signals
+* [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
+
+# ElectretADC -
+
 
 ## Audio Output
 
@@ -127,6 +135,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 
 * [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
 * [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
+* [ElectretADC](./playground/ElectretADC) - plot the raw and aplified electret signal (LM324 preamp)
 * [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
 
 ## Power Supply Circuits
