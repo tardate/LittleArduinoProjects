@@ -23,7 +23,7 @@ the upper trace is the amplified signal output from the OpAmp:
 
 ### Construction
 
-![The Breadboard](./assets/EElectretADC_bb.jpg?raw=true)
+![The Breadboard](./assets/ElectretADC_bb.jpg?raw=true)
 
 ![The Schematic](./assets/ElectretADC_schematic.jpg?raw=true)
 
