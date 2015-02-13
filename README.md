@@ -114,10 +114,12 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [Switch - NPN](./Electronics101/SwitchNPN) - small-signal digital switch with NPN BJT
 * [Switch - PNP](./Electronics101/SwitchPNP) - small-signal digital switch with PNP BJT
 
+
 ## Linear Circuits
 
 * [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
 * [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
+
 
 ## 555 Timer Circuits
 
@@ -125,18 +127,22 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output
 * [Triangular Wave Generator](./Electronics101/555Timer/TriangleWaveGen) - generate a triange wave with 555 timer and RC integrator
 
+
 ## 7400 series TTL
 
 * [Quad Latch](./Electronics101/QuadLatch) - graph the basic operation of the 74LS75 4-bit bistable latch
 * [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs
 * [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph square wave generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
 
+
 ## Operational Amplifiers
 
-* [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
-* [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
 * [ElectretADC](./playground/ElectretADC) - plot the raw and aplified electret signal (LM324 preamp)
 * [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
+* [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
+* [LM324Oscillator](./Electronics101/LM324Oscillator) - square wave generation with an LM324 OpAmp
+* [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
+
 
 ## Power Supply Circuits
 
@@ -149,7 +155,8 @@ These projects explore the basic building blocks of digital logic, using the sim
 ## Oscillators
 
 * [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
-* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using 74LS14 Hex Inverter with Schmitt Trigger Inputs
+* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
+* [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
 * [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
 
 
