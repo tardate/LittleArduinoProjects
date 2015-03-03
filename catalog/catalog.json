@@ -1,5 +1,12 @@
 [
     {
+        "description": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip", 
+        "relative_path": "playground/PrecisionTimer", 
+        "id": "#457", 
+        "categories": "Arduino", 
+        "name": "PrecisionTimer"
+    }, 
+    {
         "description": "an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019", 
         "relative_path": "BoldportClub/pease-out", 
         "id": "#456", 

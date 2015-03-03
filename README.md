@@ -1,8 +1,6 @@
-# 456 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/pease-out](./BoldportClub/pease-out) - an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019.
+# 457 Little Electronics and Arduino Projects
 
-
-
+> Latest addition:sparkles: [PrecisionTimer](./playground/PrecisionTimer) - comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -18,12 +16,12 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 * [Arduino Playground](http://playground.arduino.cc/)
 * books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
 * the many great electronics YouTube channels e.g.
-  - [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
-  - [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
-  - [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
-  - [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
-  - [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
-  - [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
+  * [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
+  * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
+  * [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+  * [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
+  * [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
+  * [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 There are even now a few projects contributed by others - send your own over in a pull request
@@ -383,6 +381,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#029 PowerZener](./Electronics101/PowerZener)                                     | **Power**                       test and graph a power supply regulated with a 1N4733 zener diode |
 | [#019 Popcorn](./playground/Popcorn)                                               | **Audio, Arduino**              How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [#453 PotModules](./Electronics101/BreadboardBling/PotModules)                     | **Breadboard Bling**            Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers |
+| [#457 PrecisionTimer](./playground/PrecisionTimer)                                 | **Arduino**                     comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip |
 | [#004 Pushbutton LED switch](./playground/PushbuttonLED)                           | **LED, Arduino**                Momentary push button switch is used to toggle the LED on and off |
 | [#233 PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) | **PWM, 555 Timer, Oscillators, Power**  build and test a general-purpose high-side PWM controller |
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **CMOS/TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |

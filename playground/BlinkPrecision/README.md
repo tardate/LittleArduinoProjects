@@ -22,6 +22,3 @@ library to provide precision timing.
 ## Credits and references
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) library
 * Based on the Arduino Blink example http://www.arduino.cc/en/Tutorial/Blink
-
-
-

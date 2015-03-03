@@ -8,16 +8,18 @@
 
 ## Timers and Pins
 
-* Timer0 - Used for millis and delay; also analogWrite on pins 5 and 6
-* Timer1 - analogWrite functions on pins 9 and 10; also driving servos using the Servo library
-* Timer2 - analogWrite functions on pins 3 and 11
+* Timer0 - Used for millis and delay; also analogWrite/PWM on pins 5 and 6
+* Timer1 - analogWrite/PWM functions on pins 9 and 10; Servo library; Tone library (second tone)
+* Timer2 - analogWrite/PWM functions on pins 3 and 11; Tone library (first tone)
 
 ### Tone library
+
 * On a standard Arduino board, the first tone will use timer 2 (so PWM on pins 9 and 10 will not be available);
 * the second tone uses timer 1 (preventing the Servo library and PWM on pins 11 and 12 from working).
 * On a Mega board, each simultaneous tone will use timers in the following order: 2, 3, 4, 5, 1, 0.”
 
 ### Servo Library
+
 * The Servo library uses the same timer as analogWrite on pins 9 and 10, so you can’t use analogWrite with these pins when using the Servo library.
 
 

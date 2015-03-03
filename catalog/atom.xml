@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-02-20T18:07:26Z</updated>
+  <updated>2019-03-05T03:47:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PrecisionTimer/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PrecisionTimer/README.md"/>
+    <updated>2019-03-05T03:44:39Z</updated>
+    <title>#457 PrecisionTimer</title>
+    <summary>comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip</summary>
+    <g:image_link>https://leap.tardate.com/playground/PrecisionTimer/assets/PrecisionTimer_build.jpg</g:image_link>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/pease-out/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/pease-out/README.md"/>
-    <updated>2019-02-20T18:05:50Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#456 BoldportClub/pease-out</title>
     <summary>an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/pease-out/assets/pease-out_build.jpg</g:image_link>
@@ -25,7 +34,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PiezoBuzzers/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PiezoBuzzers/README.md"/>
-    <updated>2019-02-20T18:05:49Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#455 PiezoBuzzers</title>
     <summary>exploring techniques for driving piezo transducers and buzzer units for audio output</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/PiezoBuzzers/assets/PiezoBuzzers_build.jpg</g:image_link>
@@ -36,7 +45,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltageReference/ADR4540/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltageReference/ADR4540/README.md"/>
-    <updated>2019-02-17T14:04:21Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#454 VoltageReference/ADR4540</title>
     <summary>exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/VoltageReference/ADR4540/assets/ADR4540_build.jpg</g:image_link>
@@ -45,7 +54,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BreadboardBling/PotModules/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BreadboardBling/PotModules/README.md"/>
-    <updated>2019-02-17T07:50:33Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#453 PotModules</title>
     <summary>Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/PotModules/assets/PotModules_build.jpg</g:image_link>
@@ -54,7 +63,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4046/MainsLinkedPLL/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4046/MainsLinkedPLL/README.md"/>
-    <updated>2019-02-16T06:06:39Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#452 CD4046/MainsLinkedPLL</title>
     <summary>A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4046/MainsLinkedPLL/assets/MainsLinkedPLL_build.jpg</g:image_link>
@@ -64,7 +73,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ArcGeneratorKit/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ArcGeneratorKit/README.md"/>
-    <updated>2019-02-06T05:31:01Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#451 ArcGeneratorKit</title>
     <summary>playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ArcGeneratorKit/assets/ArcGeneratorKit_build.jpg</g:image_link>
@@ -73,7 +82,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/LCR45/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/LCR45/README.md"/>
-    <updated>2019-02-04T15:38:18Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#450 LCR45</title>
     <summary>evaluating the Peak LCR45 inductance, capacitance and resistance meter</summary>
     <g:image_link>https://leap.tardate.com/Equipment/LCR45/assets/LCR45_build.jpg</g:image_link>
@@ -83,7 +92,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot/README.md"/>
-    <updated>2019-02-05T13:37:16Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#449 AudioEffects/Parrot</title>
     <summary>playing with a 1-transistor, dual oscillator chirping sound effect circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/Parrot/assets/Parrot_build.jpg</g:image_link>
@@ -94,7 +103,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md"/>
-    <updated>2019-02-17T14:39:00Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#448 LTC2400</title>
     <summary>exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ADC/LTC2400/assets/LTC2400_build.jpg</g:image_link>
@@ -249,7 +258,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/AdjustablePowerSupplyKit/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/AdjustablePowerSupplyKit/README.md"/>
-    <updated>2019-02-05T13:39:34Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#433 AdjustablePowerSupplyKit</title>
     <summary>building a popular 30V/3A adjustable power supply kit, making an enclosure and testing</summary>
     <g:image_link>https://leap.tardate.com/Equipment/AdjustablePowerSupplyKit/assets/AdjustablePowerSupplyKit_build.jpg</g:image_link>
@@ -777,7 +786,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4046/VCO/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4046/VCO/README.md"/>
-    <updated>2019-02-06T13:12:44Z</updated>
+    <updated>2019-02-21T14:50:29Z</updated>
     <title>#382 CD4046 VCO</title>
     <summary>audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4046/VCO/assets/VCO_build.jpg</g:image_link>
@@ -2252,7 +2261,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins/README.md"/>
-    <updated>2018-01-28T15:48:22Z</updated>
+    <updated>2019-03-01T11:22:19Z</updated>
     <title>#240 DigitalInputWithAnalogPins</title>
     <summary>demonstrate how analog pins can also be used as a digital GPIO</summary>
     <g:image_link>https://leap.tardate.com/playground/DigitalInputWithAnalogPins/assets/DigitalInputWithAnalogPins_build.jpg</g:image_link>
@@ -4371,7 +4380,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md"/>
-    <updated>2019-01-29T02:08:23Z</updated>
+    <updated>2019-03-05T03:08:21Z</updated>
     <title>#030 BlinkPrecision</title>
     <summary>use a timer to perform a function on a precise schedule</summary>
     <g:image_link>https://leap.tardate.com/playground/BlinkPrecision/assets/BlinkPrecision_build.jpg</g:image_link>

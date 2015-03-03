@@ -100,10 +100,18 @@ EOS
 
 const int LED_PIN = 13;
 
+
+/*
+ * Command: one-time setup
+ */
 void setup() {
   pinMode(LED_PIN, OUTPUT);
 }
 
+
+/*
+ * Command: main loop
+ */
 void loop() {
   static boolean output = HIGH;
 
