@@ -159,6 +159,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [Comparator741](./Electronics101/Comparator741) - demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)
 * [ElectretADC](./playground/ElectretADC) - plot the raw and aplified electret signal (LM324 preamp)
 * [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
+* [FunctionGenerator324](./playground/FunctionGenerator324) - LM324 configured as a low-frequency square, triangle, sine, and cosine function generator
 * [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
 * [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector) - demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor
 * [LM324Oscillator](./Electronics101/LM324Oscillator) - square wave generation with an LM324 OpAmp
@@ -167,11 +168,12 @@ These projects explore the basic building blocks of digital logic, using the sim
 
 ## Oscillators
 
-* [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
-* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
-* [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
-* [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
+* [FunctionGenerator324](./playground/FunctionGenerator324) - LM324 configured as a low-frequency square, triangle, sine, and cosine function generator
 * [RCOscillator](./Electronics101/RCOscillator) - simple RC/transistor multistable vibrator
+* [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
+* [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
+* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
+* [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
 
 ## Power Supply Circuits
 
