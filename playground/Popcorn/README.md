@@ -1,4 +1,4 @@
-# LightOrNot
+# Popcorn
 
 How to make apiezo buzzer even more annoying? Make it play popcorn!
 
