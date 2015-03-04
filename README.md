@@ -38,18 +38,13 @@ Arduino projects testing various sensor inputs.
 * [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
 
 ## Audio Input
-Audio circuits.
 
 * [ElectretADC](./playground/ElectretADC) - convert electret signal to a full range analog input and plot the raw and aplified signals
 * [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
 
-# ElectretADC -
-
-
 ## Audio Output
 
 * [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
-
 
 ## Visual Output
 Arduino projects testing various visual output devices.
@@ -97,7 +92,6 @@ See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) 
 Projects and demos that interface with the net
 
 * [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
-
 
 
 # Electronics 101 Projects
