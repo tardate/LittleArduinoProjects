@@ -104,23 +104,6 @@ Projects and demos that interface with the net
 
 It's been a while since I studied this stuff, so a few refreshers are in order! In these projects, the off-board circuit is the focus - generally testing common analog or digital circuits, and sometimes just demonstrating the capabilities of specific ICs. In most cases, the Arduino is just acting as a signal generator and a stand-in for a real oscilloscope.
 
-## Fundamental Logic Gates
-
-A microcontrollers like the Arduino typically render obsolete the need to delve into basic digital logic. But not always.
-These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
-
-* [Basic Transistor AND Gate](./Electronics101/BasicAND) - the classic 2-transistor design
-* [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
-* [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
-* [Switch - NPN](./Electronics101/SwitchNPN) - small-signal digital switch with NPN BJT
-* [Switch - PNP](./Electronics101/SwitchPNP) - small-signal digital switch with PNP BJT
-
-
-## Linear Circuits
-
-* [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
-* [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
-
 
 ## 555 Timer Circuits
 
@@ -128,13 +111,29 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output
 * [Triangular Wave Generator](./Electronics101/555Timer/TriangleWaveGen) - generate a triange wave with 555 timer and RC integrator
 
-
 ## 7400 series TTL
 
 * [Quad Latch](./Electronics101/QuadLatch) - graph the basic operation of the 74LS75 4-bit bistable latch
 * [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs
 * [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph square wave generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
 
+## Audio Circuits
+
+* [MeLEDy](./Electronics101/MeLEDy) - use an electret microphone to light a series of LEDs in proportion to volume
+
+## Linear Circuits
+
+* [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
+* [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
+
+## Logic Gates
+
+A microcontrollers like the Arduino typically render obsolete the need to delve into basic digital logic. But not always.
+These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
+
+* [Basic Transistor AND Gate](./Electronics101/BasicAND) - the classic 2-transistor design
+* [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
+* [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
 
 ## Operational Amplifiers
 
@@ -145,6 +144,13 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
 
 
+## Oscillators
+
+* [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
+* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
+* [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
+* [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
+
 ## Power Supply Circuits
 
 * [LM317 Adjustable Regulator](./Electronics101/Power317) - test and graph the adjustable voltage supply
@@ -152,13 +158,11 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [3.3/5V MB102 Breadboard Supply](./Electronics101/PowerMB102) - demo an MB102 power supply unit
 * [Zener Regulated 5V Source](./Electronics101/PowerZener) - test and graph a power supply regulated with a 1N4733 zener diode
 
+## Transistor Circuits
 
-## Oscillators
-
-* [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
-* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
-* [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
-* [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
+* [MeLEDy](./Electronics101/MeLEDy) - use an electret microphone to light a series of LEDs in proportion to volume
+* [Switch - NPN](./Electronics101/SwitchNPN) - small-signal digital switch with NPN BJT
+* [Switch - PNP](./Electronics101/SwitchPNP) - small-signal digital switch with PNP BJT
 
 
 # Processing
