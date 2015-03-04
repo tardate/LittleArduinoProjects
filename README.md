@@ -60,6 +60,7 @@ Arduino projects testing various visual output devices.
 * [BlinkPrecision](./playground/BlinkPrecision) - use a timer to blink with precision
 * [LED chaser](./playground/LedChaser)
 * [Pushbutton LED switch](./playground/PushbuttonLED)
+* [Shifty](./playground/Shifty) - drive 8 LEDs with 3 pins using a 74HC595 shift register
 * [Variable LED brightness (PWM)](./playground/VariableLED)
 
 ### LCD Circuits
