@@ -82,6 +82,11 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 
 ## Kinetic Output
 
+### Servo Motor
+
+* [ServoTest](./playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
+
+
 ### Stepper Motor Control
 
 It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
