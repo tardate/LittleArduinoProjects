@@ -12,9 +12,14 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 
 Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. I've also included here my [catalog of non-standard Fritzing Parts](./FritzingParts).
 
+# Full Builds
+Projects that have been taken all the way to a full build i.e. the ones that didn't get ripped apart for spares as soon as they were done!
 
-# Arduino Projects
+* [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array. Look at the picks to discover why it is called "The FretBoard"
+* [MeLEDy](./Electronics101/MeLEDy) - simple volume level indicator
 
+# Arduino Playground
+Projects with an Arduino microcontroller front and centre of the build.
 
 ## Programming and Internals
 Onboard functionality tests.
@@ -26,8 +31,6 @@ Testing various timing-related issues.
 
 * [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on an LED strip driven using timer interrupt
-
-
 
 ## Sensor Circuits
 Arduino projects testing various sensor inputs.
@@ -99,7 +102,7 @@ Projects and demos that interface with the net
 * [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
 
 
-# Electronics 101 Projects
+# Electronics 101
 
 It's been a while since I studied this stuff, so a few refreshers are in order! In these projects, the off-board circuit is the focus - generally testing common analog or digital circuits, and sometimes just demonstrating the capabilities of specific ICs. In most cases, the Arduino is just acting as a signal generator and a stand-in for a real oscilloscope.
 
