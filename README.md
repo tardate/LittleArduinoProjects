@@ -82,6 +82,7 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 | [Switch - NPN](./Electronics101/SwitchNPN) | BJT | small-signal digital switch with NPN BJT |
 | [Switch - PNP](./Electronics101/SwitchPNP) | BJT | small-signal digital switch with PNP BJT |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) | 555 Timer, Oscillators | generate a triangle wave with 555 timer and RC integrator |
+| [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell) | 555 Timer, Oscillators | basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [Variable LED brightness (PWM)](./playground/VariableLED) | LED, Arduino | |
 | [X113647Stepper](https://github.com/tardate/X113647Stepper) | Stepper, Arduino | It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
 | [Zener Regulated 5V Source](./Electronics101/PowerZener) | Power | test and graph a power supply regulated with a 1N4733 zener diode |

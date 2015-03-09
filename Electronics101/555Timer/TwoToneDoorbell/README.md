@@ -1,0 +1,51 @@
+# TwoToneDoorbell
+
+A basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation.
+
+## Notes
+
+When the button is pressed, it triggers three actions:
+
+* 555 timer reset (4) is pulled high and charges the R4/C2 RC circuit
+* it bypasses R1 (via D1) so that 555 astable behaviour is governed by R2/R3/C1
+* it pulls Q1 gate high and charges the R5/C4 RC circuit
+
+While the button is down ("ding"), the frequency of 555 astable oscillation
+is governed by [R2=47kΩ, R3=47kΩ and C1=22nF](http://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.022),
+which results in a frequency of about 464Hz.
+
+When the button is released:
+
+* R1 comes into play, reducing the 555 astable oscillation
+* 555 remains triggered while C2 drains through R4
+
+The "dong" frequency of 555 astable oscillation
+is governed by [R1+R2=94kΩ, R3=47kΩ and C1=22nF](http://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.022),
+which results in a frequency of about 348Hz.
+
+The duration of the "dong" depends on the R4/C2 [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant),
+[220ms](http://www.wolframalpha.com/input/?i=22k%CE%A9+*+10%CE%BCF).
+When the voltage on pin 4 falls below the reset threshold (typically 0.5V), the oscillation stops.
+
+The circuit remains "live" while Q1 permits drain-source current flow. Q1 will remain on while C4 discharges and maintains gate voltage above the gate threshold voltage.
+
+A couple of bypass capacitors minimize the impact of voltage spikes and noise on the operation of the 555 timer, especially during transitions of the timer's output transistors:
+
+* 100nF (C5) between control pin (5) and ground
+* 100nF (C6) across the power supply
+
+### Construction
+
+
+![The Breadboard](./assets/TwoToneDoorbell_bb.jpg?raw=true)
+
+![The Schematic](./assets/TwoToneDoorbell_schematic.jpg?raw=true)
+
+![The Build](./assets/PowerTwoToneDoorbell_build.jpg?raw=true)
+
+## Credits and References
+* [2N7000 Datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [Visual 555 Calculator](http://visual555.tardate.com)
+* [Two-tone Doorbell kit](http://cdselectronics.com/kits/two%20tone%20door%20bell.htm) - example of a similar circuit as a kit, using a mosfet for switching (looks like a very old site, not sure if still available).
+* [Two-tone Doorbell kit](http://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and doesn't employ power conservation.
