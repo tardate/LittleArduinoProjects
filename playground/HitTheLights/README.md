@@ -35,11 +35,11 @@ There is no debouncing implemented. Not that it matters much wiht this circuit, 
 
 ### Construction
 
-![The Breadboard](./assets/LedGame_bb.jpg?raw=true)
+![The Breadboard](./assets/HitTheLights_bb.jpg?raw=true)
 
-![The Schematic](./assets/LedGame_schematic.jpg?raw=true)
+![The Schematic](./assets/HitTheLights_schematic.jpg?raw=true)
 
-![The Build](./assets/LedGame_build.jpg?raw=true)
+![The Build](./assets/HitTheLights_build.jpg?raw=true)
 
 ## Credits and References
 * See the [original question](http://electronics.stackexchange.com/questions/93269/arduino-uno-r3-plus-digital-pins-overused) on EE.SE
