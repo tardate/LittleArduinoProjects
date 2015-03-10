@@ -49,6 +49,10 @@ Arduino projects testing various sensor inputs.
 
 * [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
 
+## Human Input
+
+* [HitTheLights](./playground/HitTheLights) - simple LED game with LCD output and interrupt-driven button input
+
 ## Visual Output
 Arduino projects testing various visual output devices.
 
@@ -66,6 +70,7 @@ Arduino projects testing various visual output devices.
 * [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
 * [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
 * [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
+* [HitTheLights](./playground/HitTheLights) - simple LED game with LCD output and interrupt-driven button input
 
 
 ### 7-Segment Displays
