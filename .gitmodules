@@ -10,3 +10,6 @@
 [submodule "libraries/FlexiTimer2"]
 	path = libraries/FlexiTimer2
 	url = https://github.com/wimleers/flexitimer2.git
+[submodule "libraries/RF24"]
+	path = libraries/RF24
+	url = https://github.com/maniacbug/RF24
