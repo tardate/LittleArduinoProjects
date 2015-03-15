@@ -29,8 +29,8 @@ Onboard functionality tests.
 ### Timer Circuits
 Testing various timing-related issues.
 
-* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
 * [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on an LED strip driven using timer interrupt
+* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
 
 ## Sensor Circuits
 Arduino projects testing various sensor inputs.
@@ -116,6 +116,7 @@ It's been a while since I studied this stuff, so a few refreshers are in order! 
 
 * [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output
 * [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output
+* [SimpleChime](./Electronics101/555Timer/SimpleChime) - play a sound for a fixed duration when a button is pressed
 * [Triangular Wave Generator](./Electronics101/555Timer/TriangleWaveGen) - generate a triange wave with 555 timer and RC integrator
 
 ## 7400 series TTL
@@ -127,6 +128,7 @@ It's been a while since I studied this stuff, so a few refreshers are in order! 
 ## Audio Circuits
 
 * [MeLEDy](./Electronics101/MeLEDy) - use an electret microphone to light a series of LEDs in proportion to volume
+* [SimpleChime](./Electronics101/555Timer/SimpleChime) - play a sound for a fixed duration when a button is pressed
 
 ## Linear Circuits
 
