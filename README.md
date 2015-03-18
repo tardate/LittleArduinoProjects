@@ -117,6 +117,7 @@ It's been a while since I studied this stuff, so a few refreshers are in order! 
 * [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output
 * [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output
 * [SimpleChime](./Electronics101/555Timer/SimpleChime) - play a sound for a fixed duration when a button is pressed
+* [SimpleSiren](./Electronics101/555Timer/SimpleSiren) - classic timer circuit producing a two-tone oscillation
 * [Triangular Wave Generator](./Electronics101/555Timer/TriangleWaveGen) - generate a triange wave with 555 timer and RC integrator
 
 ## 7400 series TTL
@@ -129,6 +130,7 @@ It's been a while since I studied this stuff, so a few refreshers are in order! 
 
 * [MeLEDy](./Electronics101/MeLEDy) - use an electret microphone to light a series of LEDs in proportion to volume
 * [SimpleChime](./Electronics101/555Timer/SimpleChime) - play a sound for a fixed duration when a button is pressed
+* [SimpleSiren](./Electronics101/555Timer/SimpleSiren) - classic timer circuit producing a two-tone oscillation
 
 ## Linear Circuits
 
