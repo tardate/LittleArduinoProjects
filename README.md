@@ -90,6 +90,12 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 
 ## Kinetic Output
 
+### DC Motors
+Generally concerning [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC_electric_motor)..
+
+* [MotorControlPWM](./playground/MotorControlPWM) - tests PWM speed control of a DC motor driven by an Arduino
+
+
 ### Servo Motor
 
 * [ServoTest](./playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
