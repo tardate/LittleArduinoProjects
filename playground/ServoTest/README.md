@@ -53,6 +53,6 @@ Here is my little positioning chart:
 ![The Build](./assets/ServoTest_build.jpg?raw=true)
 
 ## Credits and references
-* [TowerPro SG90 datasheet] - 9g Micro Servo
+* [TowerPro SG90 datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) - 9g Micro Servo
 * [Servo library reference](http://arduino.cc/en/Reference/Servo)
 * Based on the [Arduino Sweep example](http://arduino.cc/en/Tutorial/Sweep)
