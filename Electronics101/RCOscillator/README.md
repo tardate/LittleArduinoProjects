@@ -2,6 +2,10 @@
 
 Demonstrates a simple RC/transistor multistable vibrator
 
+Here's a quick video of the circuit in action:
+
+[![LDRStereoTripDetector demo](http://img.youtube.com/vi/OeX0hf5fvPA/0.jpg)](http://www.youtube.com/watch?v=OeX0hf5fvPA)
+
 ## Notes
 
 This oscillator is based on coupled RC circuits with associated switching transistors.
