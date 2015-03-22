@@ -39,7 +39,7 @@ Arduino projects testing various sensor inputs.
 * [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
 * [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
 * [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
-* [StereoLightTrigger](./playground/StereoLightTrigger) - Ddemo an interrupt-driven method for responding to LDR light threshold triggers
+* [StereoLightTrigger](./playground/StereoLightTrigger) - demo an interrupt-driven method for responding to LDR light threshold triggers
 
 ## Audio Input
 
@@ -169,6 +169,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
 * [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
 * [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
+* [RCOscillator](./Electronics101/RCOscillator) - simple RC/transistor multistable vibrator
 
 ## Power Supply Circuits
 
