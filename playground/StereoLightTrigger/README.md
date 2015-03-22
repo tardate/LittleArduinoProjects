@@ -59,6 +59,5 @@ The build uses an Arduino Nano on a breadboard, with all components powered by a
 ## Credits and References
 * [LM324 datasheet](http://www.futurlec.com/Linear/LM324N.shtml) - Low Power Quad Op-Amp
 * [Properly terminating an unused op amp](http://www.electronicproducts.com/Analog_Mixed_Signal_ICs/Amplifiers/Properly_terminating_an_unused_op_amp.aspx)
-* [Download Processing](https://www.processing.org/download/)
 * A similar application of an OpAmp is in "Project 06 - Hi-Lo Trip Detector" from [Beginning Digital Electronics Through Projects](http://www.amazon.com/gp/product/0750672692/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672692&linkCode=as2&tag=itsaprli-20&linkId=S6GVIV6DHZABMHTA)
 
