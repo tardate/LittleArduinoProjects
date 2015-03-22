@@ -35,10 +35,11 @@ Testing various timing-related issues.
 ## Sensor Circuits
 Arduino projects testing various sensor inputs.
 
+* [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
 * [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
 * [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
 * [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
-* [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
+* [StereoLightTrigger](./playground/StereoLightTrigger) - Ddemo an interrupt-driven method for responding to LDR light threshold triggers
 
 ## Audio Input
 
