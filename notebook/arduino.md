@@ -1,13 +1,35 @@
 # Arduino Notes
 
+## Arduino Nano
 
-## Getting Arduino Nano to work on a Mac
+See the [Official Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) site for board details.
+
+### Power
+
+Specs:
+* Operating Voltage (logic level) 5 V
+* Input Voltage (recommended) 7-12 V
+* Input Voltage (limits)  6-20 V
+
+The power source is automatically selected to the highest voltage source from one of:
+* the Mini-B USB connection
+* 6-20V unregulated external power supply (pin 30)
+* 5V regulated external power supply (pin 27)
+
+## Pins
+
+![The nano_pins](./assets/nano_pins.png?raw=true)
+
+
+### Getting Arduino Nano to work on a Mac
 
 * see the offical [MacOSX setup notes](http://www.arduino.cc/en/Guide/MacOSX)
 * if necessary, install the [FTDIUSBSerialDriver_v2_2_18.dmg](http://www.ftdichip.com/Drivers/VCP.htm)
 * see the [arduino forum](http://forum.arduino.cc/index.php?topic=261375.0) - general discussion and updates on the issue
 
+
 ## Arduinos using the CH340G serial chip
+
 Examined Arduino Nano and confirmed it is using the CH340G serial chip, which MacOSX Yosemite does not recognise by default
 
 See ["How to use cheap Chinese Arduinos that come with with CH340G / CH341G Serial/USB chip"](http://kiguino.moos.io/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html) - a great guide.
