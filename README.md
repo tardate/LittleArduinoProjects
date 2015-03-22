@@ -157,6 +157,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 * [ElectretADC](./playground/ElectretADC) - plot the raw and aplified electret signal (LM324 preamp)
 * [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
 * [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
+* [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector) - demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor
 * [LM324Oscillator](./Electronics101/LM324Oscillator) - square wave generation with an LM324 OpAmp
 * [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
 
