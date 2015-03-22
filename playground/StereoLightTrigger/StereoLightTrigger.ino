@@ -3,7 +3,7 @@
   StereoLightTrigger
   Demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/lpayground/StereoLightTrigger
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/StereoLightTrigger
 
  */
 
