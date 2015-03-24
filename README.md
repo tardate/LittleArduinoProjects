@@ -48,6 +48,7 @@ Arduino projects testing various sensor inputs.
 
 ## Audio Output
 
+* [Jarabe Tapatío](./playground/JarabeTapatio) - play The Mexican Hat Dance on a piezo buzzer
 * [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
 
 ## Human Input
