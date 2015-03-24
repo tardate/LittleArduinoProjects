@@ -22,7 +22,9 @@ The requirements are fairly generic:
 ## Girabot Design
 
 I've decided to diverge from the suggested design in a couple of ways.
-The most significant being that I'm basing the design on an Arduino Nano microcontroller, mainly because I had one on hand,
+The most significant being that I'm basing the design on an
+[Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano)
+microcontroller instead of an MSP430, mainly because I had one on hand,
 but also because it offers a relatively small form factor without compormising processing and I/O capabilities.
 
 I'm also varying components and some details of the design in smaller ways.
@@ -105,5 +107,6 @@ LEDs in the tail? In addition to running some effects, I'm thinking these will g
 
 ## Credits and references
 * [EE40LX Electronic Interfaces](https://courses.edx.org/courses/BerkeleyX/EE40LX/1T2015/info)
+* [Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) official site
 * [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge)
 * [Servo library reference](http://arduino.cc/en/Reference/Servo)
