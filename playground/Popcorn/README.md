@@ -1,6 +1,6 @@
 # Popcorn
 
-How to make apiezo buzzer even more annoying? Make it play popcorn!
+How to make a piezo buzzer even more annoying? Make it play popcorn!
 
 Here's a quick video of the circuit in action:
 
