@@ -1,6 +1,6 @@
 /*
 
-  Jarabe Tapatío
+  El Jarabe Tapatío
 
   Play The Mexican Hat Dance on a piezo buzzer!
 
@@ -12,138 +12,88 @@
 
 #define SIGNAL_PIN 6  // pin that the piezo is connected to
 
-#define BPM 172       // beats per minute for the playboack
-
-// notes in the melody:
+// melody definition
+// BPM followed by series of note definitions.
+// Note definition as paired values: pitch, duration.
+// Durations indicated as 4 = quarter note, 8 = eighth note, etc
 int melody[] = {
-  NOTE_A5,
-  NOTE_GS5,
+  // beats per minute
+  172,
+  // note definitions as values: pitch, duration.
+  NOTE_A5  , 8,
+  NOTE_GS5 , 8,
 
-  NOTE_A5,
-  NOTE_FS5,
-  NOTE_F5,
-  NOTE_FS5,
-  NOTE_D5,
-  NOTE_CS5,
+  NOTE_A5  , 8,
+  NOTE_FS5 , 8,
+  NOTE_F5  , 8,
+  NOTE_FS5 , 8,
+  NOTE_D5  , 8,
+  NOTE_CS5 , 8,
 
-  NOTE_D5,
-  NOTE_A4,
-  NOTE_REST,
-  NOTE_FS4,
-  NOTE_G4,
+  NOTE_D5  , 8,
+  NOTE_A4  , 4,
+  NOTE_REST, 8,
+  NOTE_FS4 , 8,
+  NOTE_G4  , 8,
 
-  NOTE_A4,
-  NOTE_B4,
-  NOTE_CS5,
-  NOTE_D5,
-  NOTE_E5,
-  NOTE_FS5,
+  NOTE_A4  , 8,
+  NOTE_B4  , 8,
+  NOTE_CS5 , 8,
+  NOTE_D5  , 8,
+  NOTE_E5  , 8,
+  NOTE_FS5 , 8,
 
-  NOTE_G5,
-  NOTE_E5,
-  NOTE_REST,
-  NOTE_G5,
-  NOTE_FS5,
+  NOTE_G5  , 8,
+  NOTE_E5  , 4,
+  NOTE_REST, 8,
+  NOTE_G5  , 8,
+  NOTE_FS5 , 8,
 
-  NOTE_G5,
-  NOTE_E5,
-  NOTE_DS5,
-  NOTE_E5,
-  NOTE_CS5,
-  NOTE_B4,
+  NOTE_G5  , 8,
+  NOTE_E5  , 8,
+  NOTE_DS5 , 8,
+  NOTE_E5  , 8,
+  NOTE_CS5 , 8,
+  NOTE_B4  , 8,
 
-  NOTE_CS5,
-  NOTE_A4,
-  NOTE_REST,
-  NOTE_A5,
-  NOTE_GS5,
+  NOTE_CS5 , 8,
+  NOTE_A4  , 4,
+  NOTE_REST, 8,
+  NOTE_A5  , 8,
+  NOTE_GS5 , 8,
 
-  NOTE_A5,
-  NOTE_B5,
-  NOTE_A5,
-  NOTE_G5,
-  NOTE_FS5,
-  NOTE_E5,
+  NOTE_A5  , 8,
+  NOTE_B5  , 8,
+  NOTE_A5  , 8,
+  NOTE_G5  , 8,
+  NOTE_FS5 , 8,
+  NOTE_E5  , 8,
 
-  NOTE_D5,
-  NOTE_REST
-
-};
-
-// note durations: 4 = quarter note, 8 = eighth note, etc.:
-int noteDurations[] = {
-  8,
-  8,
-
-  8,
-  8,
-  8,
-  8,
-  8,
-  8,
-
-  8,
-  4,
-  8,
-  8,
-  8,
-
-  8,
-  8,
-  8,
-  8,
-  8,
-  8,
-
-  8,
-  4,
-  8,
-  8,
-  8,
-
-  8,
-  8,
-  8,
-  8,
-  8,
-  8,
-
-  8,
-  4,
-  8,
-  8,
-  8,
-
-  8,
-  8,
-  8,
-  8,
-  8,
-  8,
-
-  2,
-  2
+  NOTE_D5  , 2,
+  NOTE_REST, 2
 
 };
-
-const int noteCount = sizeof(melody) / sizeof(int);
 
 void setup() {
-  delay(1000);
+  // nothing to do!
 }
 
 void loop() {
+  delay(1000);  // wait before playing/repeating
   playMelody();
-  delay(1000);  // wait before repeating
 }
 
+
 void playMelody() {
+  int noteCount = sizeof(melody) / sizeof(int) - 1;
+  int bpm = melody[0];
+
   // iterate over the notes of the melody:
-  for (int thisNote = 0; thisNote < noteCount; thisNote++) {
+  for (int noteIndex = 0; noteIndex < noteCount; noteIndex+=2) {
 
     // calculate the note duration based on BPM
-    int noteDuration = 60000 * 4.0 / BPM / noteDurations[thisNote];
-    tone(SIGNAL_PIN, melody[thisNote], noteDuration);
+    int noteDuration = 60000 * 4.0 / bpm / melody[noteIndex + 2];
+    tone(SIGNAL_PIN, melody[noteIndex+1], noteDuration);
 
     // play with staccato ~ half beat
     delay(noteDuration / 2);
