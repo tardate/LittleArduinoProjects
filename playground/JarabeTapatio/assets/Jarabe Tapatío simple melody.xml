@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE score-partwise PUBLIC '-//Recordare//DTD MusicXML 2.0 Partwise//EN' 'http://www.musicxml.org/dtds/2.0/partwise.dtd'>
 <score-partwise version="2.0">
- <movement-title>Mexican Hat Dance</movement-title>
+ <movement-title>Jarabe Tapatío</movement-title>
  <identification>
   <rights>Traditional Mexican Folk Dance</rights>
   <encoding>
@@ -165,36 +165,38 @@
    </note>
    <note>
     <pitch>
-     <step>C</step>
+     <step>F</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <accidental>natural</accidental>
+    <stem>down</stem>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>1</fret>
+     </technical>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
      <alter>1</alter>
      <octave>4</octave>
     </pitch>
     <duration>1</duration>
     <voice>1</voice>
     <type>eighth</type>
-    <stem>down</stem>
-    <beam number="1">end</beam>
-    <notations>
-     <technical>
-      <string>2</string>
-      <fret>2</fret>
-     </technical>
-    </notations>
-   </note>
-   <note>
-    <pitch>
-     <step>D</step>
-     <octave>4</octave>
-    </pitch>
-    <duration>1</duration>
-    <voice>1</voice>
-    <type>eighth</type>
+    <accidental>sharp</accidental>
     <stem>down</stem>
     <beam number="1">begin</beam>
     <notations>
      <technical>
-      <string>2</string>
-      <fret>3</fret>
+      <string>1</string>
+      <fret>2</fret>
      </technical>
     </notations>
    </note>

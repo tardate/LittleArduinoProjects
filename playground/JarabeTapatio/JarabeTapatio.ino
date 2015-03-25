@@ -12,7 +12,7 @@
 
 #define SIGNAL_PIN 6  // pin that the piezo is connected to
 
-#define BPM 165       // beats per minute for the playboack
+#define BPM 172       // beats per minute for the playboack
 
 // notes in the melody:
 int melody[] = {
@@ -21,8 +21,8 @@ int melody[] = {
 
   NOTE_A5,
   NOTE_FS5,
-  NOTE_CS5,
-  NOTE_D5,
+  NOTE_F5,
+  NOTE_FS5,
   NOTE_D5,
   NOTE_CS5,
 
@@ -38,7 +38,7 @@ int melody[] = {
   NOTE_D5,
   NOTE_E5,
   NOTE_FS5,
-  
+
   NOTE_G5,
   NOTE_E5,
   NOTE_REST,
@@ -51,7 +51,7 @@ int melody[] = {
   NOTE_E5,
   NOTE_CS5,
   NOTE_B4,
-  
+
   NOTE_CS5,
   NOTE_A4,
   NOTE_REST,
@@ -67,7 +67,7 @@ int melody[] = {
 
   NOTE_D5,
   NOTE_REST
-  
+
 };
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
@@ -94,7 +94,7 @@ int noteDurations[] = {
   8,
   8,
   8,
-  
+
   8,
   4,
   8,
@@ -107,7 +107,7 @@ int noteDurations[] = {
   8,
   8,
   8,
-  
+
   8,
   4,
   8,
