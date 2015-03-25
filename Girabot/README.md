@@ -100,13 +100,17 @@ LEDs in the tail? In addition to running some effects, I'm thinking these will g
 ### Parts
 
 | Ref | Part                            | Notes     |
-+-----+---------------------------------+-----------+
+|-----|---------------------------------|-----------|
+| U1  | Arduino Nano v3                 | [official site](http://arduino.cc/en/Main/arduinoBoardNano) |
+| IC1 | LM7805                          | [datasheet](http://www.futurlec.com/Linear/7805T.shtml) |
+| IC2 | LM324N                          | [datasheet](http://www.futurlec.com/Linear/LM324N.shtml) |
+| IC3 | LM386N-3                        | [datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml) |
 |     | TowerPro SG90                   | [datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) |
-|     | LM7805                          | [datasheet](http://www.futurlec.com/Linear/7805T.shtml) |
+|     | 100nF ceramic capacitor         |   |
+|     | 100μF electrolytic capacitor    |   |
 
 
 ## Credits and references
 * [EE40LX Electronic Interfaces](https://courses.edx.org/courses/BerkeleyX/EE40LX/1T2015/info)
-* [Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) official site
 * [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge)
 * [Servo library reference](http://arduino.cc/en/Reference/Servo)
