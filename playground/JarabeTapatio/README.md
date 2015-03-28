@@ -1,19 +1,21 @@
 # El Jarabe Tapatío - The Mexican Hat Dance
 
-Play The Mexican Hat Dance on a piezo buzzer!
+Play The Mexican Hat Dance on a piezo buzzer! Here's a quick demo:
+
+[![Popcorn](http://img.youtube.com/vi/oAiCtdJKnDU/0.jpg)](http://www.youtube.com/watch?v=oAiCtdJKnDU)
 
 ## Notes
 
 A simplified version of the melody in scored in this [GuitarPro](./assets/Jarabe Tapatío simple melody.gpx) file.
-It is the basis of the song payed by the sketch.
+It is the basis of the song played by the sketch.
 
 ### Amplification
 
 The signal from the Arduino can be directly fed to a piezo, however this doesn't result in a very loud sound.
 
-This circuit uses an LM 386 Low Voltage Audio Power Amplifier as a simple way to apmplify the AC signal.
-Given that we are only interested in the alternativing signal, the amplifier input and output signals are isolated with capacitors.
-It is used in the default configuration, which results in a relatively low gain (x20) but that seems sufficient for our purposes here.
+This circuit uses an LM 386 Low Voltage Audio Power Amplifier as a simple way to amplify the AC signal.
+Given that we are only interested in the alternating signal, the amplifier input and output signals are isolated with capacitors.
+The LM 386 is used in the default configuration, which results in a relatively low gain (x20) but that is sufficient for our purposes here.
 
 ### Construction
 
