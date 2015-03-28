@@ -1,5 +1,5 @@
 
-const int melody_pin = 3;
+#include "pitches.h"
 
 #define BPM 145       // beats per minute for the playboack
 
