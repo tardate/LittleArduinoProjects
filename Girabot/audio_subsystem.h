@@ -1,7 +1,7 @@
-#ifndef Melody_h
-#define Melody_h
+#ifndef AudioSubsystem_h
+#define AudioSubsystem_h
 
-#include "Arduino.h"
+#ifdef ENABLE_AUDIO_SUBSYSTEM
 
 #include "pitches.h"
 
@@ -67,23 +67,41 @@ int melody[] = {
 
 };
 
+void setupAudioSystem() {
+  pinMode(AUDIO_OUT_PIN, OUTPUT);
+}
+
 void playMelody() {
   int noteCount = sizeof(melody) / sizeof(int) - 1;
   int bpm = melody[0];
+
+  //pinMode(AUDIO_OUT_PIN, OUTPUT);
 
   // iterate over the notes of the melody:
   for (int noteIndex = 0; noteIndex < noteCount; noteIndex+=2) {
 
     // calculate the note duration based on BPM
     int noteDuration = 60000 * 4.0 / bpm / melody[noteIndex + 2];
-    tone(SPEAKER_PIN, melody[noteIndex+1], noteDuration);
+    tone(AUDIO_OUT_PIN, melody[noteIndex+1], noteDuration);
 
     // play with staccato ~ half beat
     delay(noteDuration / 2);
-    noTone(SPEAKER_PIN);
+    noTone(AUDIO_OUT_PIN);
     delay(noteDuration / 2);
 
   }
+  //pinMode(AUDIO_OUT_PIN, INPUT);
 }
+
+#else
+// NOP functions for when audio disabled
+
+void setupAudioSystem() {
+}
+
+void playMelody() {
+}
+
+#endif
 
 #endif

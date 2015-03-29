@@ -10,7 +10,7 @@ This is currently a work-in-progress...
 
 
 ## The Brief
-The requirements are nicely open-ended;-)
+The requirements are quite nicely open-ended;-)
 
 * Change behavior based on photocell input
 * Beep buzzer audibly
@@ -71,18 +71,17 @@ The microphone signal is then fed to the LM324 setup as a subtracting amplifier:
 * microphone signal fed to negative input
 
     Vo = G1 * Vmic + G2 * Vcc
-    G1 = -R2/R1 = -330kΩ/2.2kΩ = -150
-    G2 = (R1 + R2)/R1 * R4/(R3 + R4) = (2.2kΩ + 330kΩ)/2.2kΩ * 22kΩ/(22kΩ + 22kΩ) = 75.5
+    G1 = -R2/R1 = -220kΩ/2.2kΩ = -100
+    G2 = (R1 + R2)/R1 * R4/(R3 + R4) = (2.2kΩ + 220kΩ)/2.2kΩ * 22kΩ/(22kΩ + 22kΩ) = 75.5
 
 When no microphone signal, we are
-[reading Vcc/2](http://www.wolframalpha.com/input/?i=5*%282.2k%CE%A9+%2B+330k%CE%A9%29%2F2.2k%CE%A9+*+22k%CE%A9%2F%2822k%CE%A9+%2B+22k%CE%A9%29+-+2.5+*330k%CE%A9%2F2.2k%CE%A9)
+[reading Vcc/2](http://www.wolframalpha.com/input/?i=%285*%282.2k%CE%A9+%2B+220k%CE%A9%29%2F2.2k%CE%A9+*+22k%CE%A9%2F%2822k%CE%A9+%2B+22k%CE%A9%29%29+-+2.5+*+220k%CE%A9%2F2.2k%CE%A9)
 at the output.
 
 But it is really sensitive to changes in the microphone signal. Basically every
-[1mV results in a 150mV change in the output](http://www.wolframalpha.com/input/?i=0.001+*330k%CE%A9%2F2.2k%CE%A9).
+[1mV results in a 100mV change in the output](http://www.wolframalpha.com/input/?i=0.001+*220k%CE%A9%2F2.2k%CE%A9).
 
 The amplified signal is read by the Arduino, and when the signal exceeds a threshold, the Arduino triggers a tune played on the piezo speaker.
-
 
 
 ## Use-case: Girabot beeps a buzzer audibly
@@ -112,6 +111,7 @@ Worst case, Girabot is going to be a crappy walking but an outstanding dancer..
 * [MotorControlPWM](../playground/MotorControlPWM) - tests PWM speed control of a DC motor driven by an Arduino
 * [ServoTest](../playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
 
+
 ## Power
 
 So far, power requirements for the various sub-systems are primarily 5V, with 9V alternative for the Arduino and the speaker sub-system:
@@ -137,6 +137,15 @@ So the 5V will be supplied from the battery via an LM7805 regulator.
 * [LM317 Adjustable Regulator](../Electronics101/Power317) - test and graph the adjustable voltage supply
 * [LM7805 5V Regulated Supply](../Electronics101/Power7805) - test and graph the voltage supply
 * [Zener Regulated 5V Source](../Electronics101/PowerZener) - test and graph a power supply regulated with a 1N4733 zener diode
+
+## Issues and Workarounds
+
+### Electrical Noise
+The servo motors in particular appear responsible for putting considerable noise on the power rails.
+the main side-effect is it's effect on the speaker circuit (the noise gets amplified as audible sound).
+
+Reasonable noise abatement was achieved by filtering the power supply with 10nF capacitors across the power connections to the motors and each OpAmp unit.
+
 
 ## Bells & Whistles
 
