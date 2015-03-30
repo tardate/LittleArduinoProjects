@@ -1,8 +1,23 @@
 # Arduino Notes
 
+## Timers and Pins
+
+* Timer0 - Used for millis and delay; also analogWrite on pins 5 and 6
+* Timer1 - analogWrite functions on pins 9 and 10; also driving servos using the Servo library
+* Timer2 - analogWrite functions on pins 3 and 11
+
+### Tone library
+* On a standard Arduino board, the first tone will use timer 2 (so PWM on pins 9 and 10 will not be available);
+* the second tone uses timer 1 (preventing the Servo library and PWM on pins 11 and 12 from working).
+* On a Mega board, each simultaneous tone will use timers in the following order: 2, 3, 4, 5, 1, 0.”
+
+### Servo Library
+* The Servo library uses the same timer as analogWrite on pins 9 and 10, so you can’t use analogWrite with these pins when using the Servo library.
+
 ## Arduino Nano
 
 See the [Official Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) site for board details.
+
 
 ### Power
 
@@ -16,7 +31,7 @@ The power source is automatically selected to the highest voltage source from on
 * 6-20V unregulated external power supply (pin 30)
 * 5V regulated external power supply (pin 27)
 
-## Pins
+### Pins
 
 ![The nano_pins](./assets/nano_pins.png?raw=true)
 
