@@ -58,11 +58,16 @@ The comparator behaviour is demonstrated in the following trace with R=22kΩ and
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
+[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope .. and it kind of works, mainly because the frequency is so low.
+
 ### Construction
 
-The Arduino only acts as a measurement device in this circuit.
+The Arduino acts as a controller and measurement device in this circuit.
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope .. and it kind of works, mainly because the frequency is so low.
+The circuit is powered directly from the Arduino 5V pin, although it could also be powered by an independent 5V supply.
+Note that if the external power supply is over 5V, the analog inputs should be scaled back with a voltage divider to avoid overloading
+Arduino pins.
+
 
 ![The Breadboard](./assets/Comparator741_bb.jpg?raw=true)
 
