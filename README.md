@@ -156,6 +156,7 @@ These projects explore the basic building blocks of digital logic, using the sim
 
 ## Operational Amplifiers
 
+* [Comparator741](./Electronics101/Comparator741) - demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)
 * [ElectretADC](./playground/ElectretADC) - plot the raw and aplified electret signal (LM324 preamp)
 * [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
 * [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
