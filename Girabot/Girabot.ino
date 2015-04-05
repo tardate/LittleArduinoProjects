@@ -62,12 +62,15 @@ void loop() {
 
     switch (ldr_state) {
       case 1:
+        beepRight();
         walkRight();
         break;
       case 2:
+        beepLeft();
         walkLeft();
         break;
       case 3:
+        beepStopWalking();
         // stop walking
         break;
       default:

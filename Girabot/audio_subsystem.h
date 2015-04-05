@@ -4,6 +4,7 @@
 #ifdef ENABLE_AUDIO_SUBSYSTEM
 
 #include "pitches.h"
+#define SHORT_NOTE_LENGTH 70
 
 // melody definition
 // BPM followed by series of note definitions.
@@ -75,8 +76,6 @@ void playMelody() {
   int noteCount = sizeof(melody) / sizeof(int) - 1;
   int bpm = melody[0];
 
-  //pinMode(AUDIO_OUT_PIN, OUTPUT);
-
   // iterate over the notes of the melody:
   for (int noteIndex = 0; noteIndex < noteCount; noteIndex+=2) {
 
@@ -90,17 +89,44 @@ void playMelody() {
     delay(noteDuration / 2);
 
   }
-  //pinMode(AUDIO_OUT_PIN, INPUT);
+}
+
+void beepLeft() {
+  tone(AUDIO_OUT_PIN, NOTE_A5);
+  delay(SHORT_NOTE_LENGTH);
+  tone(AUDIO_OUT_PIN, NOTE_A4);
+  delay(SHORT_NOTE_LENGTH);
+  noTone(AUDIO_OUT_PIN);
+}
+
+void beepRight() {
+  tone(AUDIO_OUT_PIN, NOTE_C4);
+  delay(SHORT_NOTE_LENGTH);
+  tone(AUDIO_OUT_PIN, NOTE_C5);
+  delay(SHORT_NOTE_LENGTH);
+  noTone(AUDIO_OUT_PIN);
+}
+
+void beepStopWalking() {
+  for(int note = NOTE_A3 ; note > NOTE_A2; note -= 10) {
+    tone(AUDIO_OUT_PIN, note);
+    delay(20);
+  }
+  noTone(AUDIO_OUT_PIN);
 }
 
 #else
 // NOP functions for when audio disabled
 
-void setupAudioSystem() {
-}
+void setupAudioSystem() { }
 
-void playMelody() {
-}
+void playMelody() { }
+
+void beepLeft() { }
+
+void beepRight() { }
+
+void beepStopWalking() { }
 
 #endif
 
