@@ -10,10 +10,12 @@ The frequency is designed to be very low, in order to drive output effects visib
 
 ### Stage 1: Square Wave Generator
 
-Stage 1 uses an RC network (R4,C1) to generate a low frequency square wave. It can oscillate from about 0.24Hz to about 4Hz by adjusting R4.
+Stage 1 uses an RC network (R4,C1) to generate a low frequency square wave. It can oscillate from about
+[0.24Hz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*+20k%CE%A9+*+33%CE%BCF%29)
+to about 4Hz by adjusting R4.
 
     f = 1/(2πRC)
-    f = [1/(2π * 20kΩ * 33μF)](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*+20k%CE%A9+*+33%CE%BCF%29)
+    f = 1/(2π * 20kΩ * 33μF)
     f = 0.24Hz
 
 The non-inverting voltage reference is pegged to Vcc/2 using the R1/R2 voltage divider.
