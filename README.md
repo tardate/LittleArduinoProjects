@@ -101,6 +101,7 @@ Generally concerning [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC
 ### Servo Motor
 
 * [ServoTest](./playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
+* [RelayModuleTest](./playground/RelayModuleTest) - quick test of a common relay board to switch a motor under Arduino control
 
 
 ### Stepper Motor Control
@@ -112,7 +113,7 @@ See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) 
 ## Internet-Enabled Arduino Projects
 Projects and demos that interface with the net
 
-* [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
+* [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the internet and display on an LCD
 
 
 # Electronics 101
