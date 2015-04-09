@@ -102,6 +102,7 @@ Generally concerning [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC
 
 * [ServoTest](./playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
 * [RelayModuleTest](./playground/RelayModuleTest) - quick test of a common relay board to switch a motor under Arduino control
+* [RelayControlTest](./playground/RelayControlTest) - quick test to drive a motor with a common relay using NPN switching circuit under Arduino control
 
 
 ### Stepper Motor Control
