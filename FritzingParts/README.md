@@ -26,3 +26,4 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [AdaFruit Fritzing Library](https://github.com/adafruit/Fritzing-Library)
 * [Fritzing for the Spark Core](https://github.com/technobly/SparkCore-Fritzing)
 * [SFE Fritzing parts](https://github.com/sparkfun/Fritzing_Parts)
+* [rwaldron/fritzing-components](https://github.com/rwaldron/fritzing-components)
