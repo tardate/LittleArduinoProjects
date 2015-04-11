@@ -2,7 +2,7 @@
 
 Play The Mexican Hat Dance on a piezo buzzer! Here's a quick demo:
 
-[![Popcorn](http://img.youtube.com/vi/oAiCtdJKnDU/0.jpg)](http://www.youtube.com/watch?v=oAiCtdJKnDU)
+[![JarabeTapatio](http://img.youtube.com/vi/oAiCtdJKnDU/0.jpg)](http://www.youtube.com/watch?v=oAiCtdJKnDU)
 
 ## Notes
 
