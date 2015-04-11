@@ -54,6 +54,7 @@ Arduino projects testing various sensor inputs.
 ## Human Input
 
 * [HitTheLights](./playground/HitTheLights) - simple LED game with LCD output and interrupt-driven button input
+* [JoystickServoControl](./playground/JoystickServoControl) - controlling two servos with a joystick
 
 ## Visual Output
 Arduino projects testing various visual output devices.
