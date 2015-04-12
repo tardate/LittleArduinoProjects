@@ -133,6 +133,16 @@ So with a 9V source, I'm planning for two power rails in the system:
 Although the total current requirements are yet to be determined exactly, they will be more than the Arduino can safely deliver directly.
 So the 5V will be supplied from the battery via an LM7805 regulator.
 
+Given two power rails, there's a question of which should be used to power the Arduino:
+* 9V unregulated fed to VIN
+* 5V regulated fed to 5V pin
+
+If a 9V supply is provided to VIN, it will go through the Arduino's regulator to provide 5V for internal operations and GPIO pins.
+That is fine, however there is an issue that we now have two 5V supplies.
+These will not be exactly equal and may cause problems (such as current reversals) if intermixed.
+Since I will be providing 5V output from the Arduino to circuits powered by the 5V regulated supply,
+I think it is safer to also power the Arduino via the 5V regulated supply.
+
 
 ### Proof-of-concept/Explorations
 * [LM317 Adjustable Regulator](../Electronics101/Power317) - test and graph the adjustable voltage supply
@@ -147,10 +157,6 @@ the main side-effect is it's effect on the speaker circuit (the noise gets ampli
 
 Reasonable noise abatement was achieved by filtering the power supply with 10nF capacitors across the power connections to the motors and each OpAmp unit.
 
-
-## Bells & Whistles
-
-LEDs in the tail? In addition to running some effects, I'm thinking these will give some visual feedback of the processing state for diagnostic purposes.
 
 ## Construction
 
