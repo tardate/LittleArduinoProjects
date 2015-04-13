@@ -1,7 +1,7 @@
 # Little Arduino Projects
 
-My collection of Arduino and related electronics projects.
-Some are extremely trivial, their inclusion here perhaps more a measure of my OCD than anything else!
+Just my collection of electronics projects, many involving an Arduino in one way or another.
+Some are extremely trivial, their inclusion here perhaps more a measure of my OCD than anything else.
 Many are variations of things found wild on the net, or inspired by ideas from the following sources:
 
 * [Arduino Cookbook (O'Reilly)](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
@@ -10,193 +10,80 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 
-Circuit diagrams are drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. I've also included here my [catalog of non-standard Fritzing Parts](./FritzingParts).
 
-# Full Builds
+## Highlights
 Projects that have been taken all the way to a full build i.e. the ones that didn't get ripped apart for spares as soon as they were done!
 
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array. Look at the picks to discover why it is called "The FretBoard"
 * [MeLEDy](./Electronics101/MeLEDy) - simple volume level indicator
 
-# Arduino Playground
-Projects with an Arduino microcontroller front and centre of the build.
 
-## Programming and Internals
-Onboard functionality tests.
-
-* [Internals](./playground/Internals) - report on Arduino Board internals
-
-### Timer Circuits
-Testing various timing-related issues.
-
-* [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on an LED strip driven using timer interrupt
-* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to perform a function on a precise schedule
-
-## Sensor Circuits
-Arduino projects testing various sensor inputs.
-
-* [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
-* [LDRComparator](./Electronics101/LDRComparator) - Low-light/proximity Trip Detector demonstration
-* [LightOrNot](./playground/LightOrNot) - uses an LDR to adjust the blink rate of an LED
-* [RangeFinder](./playground/RangeFinder) - proximity/distance measurement with an HC-SR04 untrasonic ranging module
-* [StereoLightTrigger](./playground/StereoLightTrigger) - demo an interrupt-driven method for responding to LDR light threshold triggers
-
-## Audio Input
-
-* [ElectretADC](./playground/ElectretADC) - convert electret signal to a full range analog input and plot the raw and aplified signals
-* [ElectretTrigger](./playground/ElectretTrigger) - uses an electret microphone to trigger action when over audio threshold
-
-## Audio Output
-
-* [El Jarabe Tapatío](./playground/JarabeTapatio) - play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification
-* [Popcorn](./playground/Popcorn) - How to make a piezo buzzer even more annoying? Make it play popcorn!
-
-## Human Input
-
-* [HitTheLights](./playground/HitTheLights) - simple LED game with LCD output and interrupt-driven button input
-* [JoystickServoControl](./playground/JoystickServoControl) - controlling two servos with a joystick
-
-## Visual Output
-Arduino projects testing various visual output devices.
-
-### LED Circuits
-
-* [Blink](./playground/Blink) - the simplest blinking LED, with some electrical measurements thrown in
-* [BlinkPrecision](./playground/BlinkPrecision) - use a timer to blink with precision
-* [LED chaser](./playground/LedChaser)
-* [Pushbutton LED switch](./playground/PushbuttonLED)
-* [Shifty](./playground/Shifty) - drive 8 LEDs with 3 pins using a 74HC595 shift register
-* [Variable LED brightness (PWM)](./playground/VariableLED)
-
-### LCD Circuits
-
-* [It's Better With Bacon](./playground/BetterWithBacon) - simple LCD test
-* [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
-* [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the net and display on an LCD
-* [HitTheLights](./playground/HitTheLights) - simple LED game with LCD output and interrupt-driven button input
-
-
-### 7-Segment Displays
-
-* [Simple 7-segment display](./playground/Simple7SegmentDisplay) - test 7-segment common cathode display
-
-
-### Programmable LED Array Projects
-
-I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working...
-
-* [Intro and Setup](./LEDArrayDemos)
-* [RGBCalibrate](./LEDArrayDemos/RGBCalibrate) - quick test to make sure LEDs are correctly addressable and their color can be set correctly
-* [StripTease](./LEDArrayDemos/StripTease) - demo a range of effects on the LED strip
-* [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) - demo effects on the LED strip driven using timer interrupt
-* [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array
-
-## Kinetic Output
-
-### DC Motors
-Generally concerning [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC_electric_motor)..
-
-* [MotorControlPWM](./playground/MotorControlPWM) - tests PWM speed control of a DC motor driven by an Arduino
-
-
-### Servo Motor
-
-* [ServoTest](./playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
-* [RelayModuleTest](./playground/RelayModuleTest) - quick test of a common relay board to switch a motor under Arduino control
-* [RelayControlTest](./playground/RelayControlTest) - quick test to drive a motor with a common relay using NPN switching circuit under Arduino control
-
-
-### Stepper Motor Control
-
-It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. This repo includes the [X113647Stepper](https://github.com/tardate/X113647Stepper) library for running the example programs.
-See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and to get custom Fritzing parts for the components.
-
-
-## Internet-Enabled Arduino Projects
-Projects and demos that interface with the net
-
-* [HeartQuotes](./playground/HeartQuotes) - press a button to get a quote from the internet and display on an LCD
-
-
-# Electronics 101
-
-It's been a while since I studied this stuff, so a few refreshers are in order! In these projects, the off-board circuit is the focus - generally testing common analog or digital circuits, and sometimes just demonstrating the capabilities of specific ICs. In most cases, the Arduino is just acting as a signal generator and a stand-in for a real oscilloscope.
-
-
-## 555 Timer Circuits
-
-* [Astable mode oscillator](./Electronics101/555Timer/AstableOscillator) - basic free-running oscillator using an Arduino and processing to plot the output
-* [Monostable mode](./Electronics101/555Timer/Monostable) - basic monostable mode using an Arduino and processing to plot the output
-* [SimpleChime](./Electronics101/555Timer/SimpleChime) - play a sound for a fixed duration when a button is pressed
-* [SimpleSiren](./Electronics101/555Timer/SimpleSiren) - classic timer circuit producing a two-tone oscillation
-* [Triangular Wave Generator](./Electronics101/555Timer/TriangleWaveGen) - generate a triange wave with 555 timer and RC integrator
-
-## 7400 series TTL
-
-* [Quad Latch](./Electronics101/QuadLatch) - graph the basic operation of the 74LS75 4-bit bistable latch
-* [Schmitt Inverter](./Electronics101/SchmittInverter) - graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs
-* [Schmitt Oscillator](./Electronics101/SchmittOscillator) - graph square wave generated using 74LS14 Hex Inverter with Schmitt Trigger Inputs
-
-## Audio Circuits
-
-* [MeLEDy](./Electronics101/MeLEDy) - use an electret microphone to light a series of LEDs in proportion to volume
-* [SimpleChime](./Electronics101/555Timer/SimpleChime) - play a sound for a fixed duration when a button is pressed
-* [SimpleSiren](./Electronics101/555Timer/SimpleSiren) - classic timer circuit producing a two-tone oscillation
-
-## Linear Circuits
-
-* [Capacitorial](./Electronics101/Capacitorial) - graphing capacitor discharge with Processing
-* [CapacitanceTester](./Electronics101/CapacitanceTester) - capacitor tester with LCD output
-
-## Logic Gates
-
-A microcontrollers like the Arduino typically render obsolete the need to delve into basic digital logic. But not always.
-These projects explore the basic building blocks of digital logic, using the simplest components possible, usually just a handful of BJTs.
-
-* [Basic Transistor AND Gate](./Electronics101/BasicAND) - the classic 2-transistor design
-* [Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter)
-* [Simplest 2-Transistor NAND Gate](./Electronics101/SimplestNAND)
-
-## Operational Amplifiers
-
-* [Comparator741](./Electronics101/Comparator741) - demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)
-* [ElectretADC](./playground/ElectretADC) - plot the raw and aplified electret signal (LM324 preamp)
-* [ElectretTrigger](./playground/ElectretTrigger) - LM324-amplified electret input triggers a tune when over audio threshold
-* [FunctionGenerator324](./Electronics101/FunctionGenerator324) - LM324 configured as a low-frequency square, triangle, sine, and cosine function generator
-* [LDRComparator](./Electronics101/LDRComparator) - demo LM324 OpAmp as threshold trigger for LDR/Wheatstone Bridge sensor
-* [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector) - demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor
-* [LM324Oscillator](./Electronics101/LM324Oscillator) - square wave generation with an LM324 OpAmp
-* [NonInverting324](./Electronics101/NonInverting324) - demo LM324 OpAmp non-inverting DC gain mode
-
-
-## Oscillators
-
-* [FunctionGenerator324](./Electronics101/FunctionGenerator324) - LM324 configured as a low-frequency square, triangle, sine, and cosine function generator
-* [RCOscillator](./Electronics101/RCOscillator) - simple RC/transistor multistable vibrator
-* [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) - using a 555 timer to generate a square wave
-* [Square Wave - LM324](./Electronics101/LM324Oscillator) - using an LM324 OpAmp to generate a square wave
-* [Square Wave - Schmitt](./Electronics101/SchmittOscillator) - using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave
-* [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) - generate a triangle wave with 555 timer and RC integrator
-
-## Power Supply Circuits
-
-* [LM317 Adjustable Regulator](./Electronics101/Power317) - test and graph the adjustable voltage supply
-* [LM7805 5V Regulated Supply](./Electronics101/Power7805) - test and graph the voltage supply
-* [3.3/5V MB102 Breadboard Supply](./Electronics101/PowerMB102) - demo an MB102 power supply unit
-* [Zener Regulated 5V Source](./Electronics101/PowerZener) - test and graph a power supply regulated with a 1N4733 zener diode
-
-## Transistor Circuits
-
-* [MeLEDy](./Electronics101/MeLEDy) - use an electret microphone to light a series of LEDs in proportion to volume
-* [Switch - NPN](./Electronics101/SwitchNPN) - small-signal digital switch with NPN BJT
-* [Switch - PNP](./Electronics101/SwitchPNP) - small-signal digital switch with PNP BJT
-
-
-# Processing
-
-Some general purpose [Processing](https://www.processing.org/download/) scripts:
-
-* [PlotNValues](./processing/PlotNValues) reads 1..n values from the serial port and plots on stacked charts.
+## Other Bits
+
+* [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
+* [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
+
+
+## Project Index
+
+| Project       | Category | Description |
+|---------------|----------|-------------|
+| [Arduino Internals](./playground/Internals) | Arduino | report on Arduino Board internals |
+| [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) | LED Array, Timing, Arduino | demo effects on the LED strip driven using timer interrupt |
+| [Blink](./playground/Blink) | LED, Arduino | the simplest blinking LED, with some electrical measurements thrown in |
+| [BlinkPrecision](./playground/BlinkPrecision) | LED, Timing, Arduino | use a timer to perform a function on a precise schedule |
+| [CapacitanceTester](./Electronics101/CapacitanceTester) | LCD, RC, Arduino | capacitor tester with LCD output |
+| [Capacitorial](./Electronics101/Capacitorial) | RC | graphing capacitor discharge with Processing |
+| [Comparator741](./Electronics101/Comparator741) | OpAmp | demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
+| [El Jarabe Tapatío](./playground/JarabeTapatio) | Audio, Arduino | play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
+| [ElectretADC](./playground/ElectretADC) | Audio, Arduino | convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
+| [ElectretTrigger](./playground/ElectretTrigger) | Sensors, Audio, OpAmp, Arduino | uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
+| [FunctionGenerator324](./Electronics101/FunctionGenerator324) | OpAmp, Oscillators | LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
+| [FretBoard](./FretBoard) | LED Array, Arduino | a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
+| [Gates - Basic Transistor AND](./Electronics101/BasicAND) | Logic Gates | the classic 2-transistor design |
+| [Gates - Simplest 1-Transistor Inverter](./Electronics101/SimplestInverter) | Logic Gates | |
+| [Gates - Simplest 2-Transistor NAND](./Electronics101/SimplestNAND) | Logic Gates | |
+| [HeartQuotes](./playground/HeartQuotes) | LCD, Ethernet, Arduino | press a button to get a quote from the net and display on an LCD |
+| [HitTheLights](./playground/HitTheLights) | LCD, Human Input, Arduino | simple LED game with LCD output and interrupt-driven button input |
+| [It's Better With Bacon](./playground/BetterWithBacon) | LCD, Arduino | simple LCD test |
+| [JoystickServoControl](./playground/JoystickServoControl) | Human Input, Arduino | controlling two servos with a joystick |
+| [LDRComparator](./Electronics101/LDRComparator) | Sensors, OpAmp, Arduino | Low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
+| [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector) | OpAmp | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
+| [LED chaser](./playground/LedChaser) | LED, Arduino | |
+| [LEDArrayDemos](./LEDArrayDemos) | LED Array, Arduino | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
+| [LightOrNot](./playground/LightOrNot) | Sensors, Arduino | uses an LDR to adjust the blink rate of an LED |
+| [LM317 Adjustable Regulator](./Electronics101/Power317) | Power | test and graph the adjustable voltage supply |
+| [LM7805 5V Regulated Supply](./Electronics101/Power7805) | Power | test and graph the voltage supply |
+| [MB102 3.3/5V Breadboard Supply](./Electronics101/PowerMB102) | Power | demo an MB102 power supply unit |
+| [MeLEDy](./Electronics101/MeLEDy) | Audio | use an electret microphone to light a series of LEDs in proportion to volume |
+| [Monostable](./Electronics101/555Timer/Monostable) | 555 Timer | basic monostable mode using an Arduino and processing to plot the output |
+| [MotorControlPWM](./playground/MotorControlPWM) | Motors, Arduino | tests PWM speed control of a DC motor driven by an Arduino |
+| [NonInverting324](./Electronics101/NonInverting324) | OpAmp | demo LM324 OpAmp non-inverting DC gain mode |
+| [Popcorn](./playground/Popcorn) | Audio, Arduino | How to make a piezo buzzer even more annoying? Make it play popcorn! |
+| [Pushbutton LED switch](./playground/PushbuttonLED) | LED, Arduino | |
+| [Quad Latch](./Electronics101/QuadLatch) | 74xx TTL | graph the basic operation of the 74LS75 4-bit bistable latch |
+| [RangeFinder](./playground/RangeFinder) | Sensors, Arduino | proximity/distance measurement with an HC-SR04 untrasonic ranging module |
+| [RCOscillator](./Electronics101/RCOscillator) | Oscillators | simple RC/transistor multistable vibrator |
+| [RelayControlTest](./playground/RelayControlTest) | Servo, Arduino | quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
+| [RelayModuleTest](./playground/RelayModuleTest) | Servo, Arduino | quick test of a common relay board to switch a motor under Arduino control |
+| [RGBCalibrate](./LEDArrayDemos/RGBCalibrate) | LED Array, Arduino | quick test to make sure LEDs are correctly addressable and their color can be set correctly |
+| [Schmitt Inverter](./Electronics101/SchmittInverter) | 74xx TTL | graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
+| [ServoTest](./playground/ServoTest) | Servo, Arduino | test the positioning accuracy of a servo motor driven by an Arduino |
+| [Shifty](./playground/Shifty) | LED, Arduino | drive 8 LEDs with 3 pins using a 74HC595 shift register |
+| [Simple 7-segment display](./playground/Simple7SegmentDisplay) | 7-Segment, Arduino | test 7-segment common cathode display |
+| [SimpleChime](./Electronics101/555Timer/SimpleChime) | 555 Timer | play a sound for a fixed duration when a button is pressed |
+| [SimpleSiren](./Electronics101/555Timer/SimpleSiren) | 555 Timer | classic timer circuit producing a two-tone oscillation |
+| [StereoLightTrigger](./playground/StereoLightTrigger) | Sensors, Arduino | demo an interrupt-driven method for responding to LDR light threshold triggers |
+| [StripTease](./LEDArrayDemos/StripTease) | LED Array, Arduino | demo a range of effects on the LED strip |
+| [Square Wave - 555 astable oscillator](./Electronics101/555Timer/AstableOscillator) | 555 Timer, Oscillators | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
+| [Square Wave - LM324 Oscillator](./Electronics101/LM324Oscillator) | OpAmp, Oscillators | using an LM324 OpAmp to generate a square wave |
+| [Square Wave - Schmitt Oscillator](./Electronics101/SchmittOscillator) | 74xx TTL, Oscillators | using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
+| [Switch - NPN](./Electronics101/SwitchNPN) | BJT | small-signal digital switch with NPN BJT |
+| [Switch - PNP](./Electronics101/SwitchPNP) | BJT | small-signal digital switch with PNP BJT |
+| [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) | 555 Timer, Oscillators | generate a triangle wave with 555 timer and RC integrator |
+| [Variable LED brightness (PWM)](./playground/VariableLED) | LED, Arduino | |
+| [X113647Stepper](https://github.com/tardate/X113647Stepper) | Stepper, Arduino | It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
+| [Zener Regulated 5V Source](./Electronics101/PowerZener) | Power | test and graph a power supply regulated with a 1N4733 zener diode |
 
 
 # Getting Up and Running

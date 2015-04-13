@@ -26,3 +26,4 @@ the motor to drain any voltage spike as the motor load is switched.
 
 ## Credits and references
 * [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC_electric_motor)
