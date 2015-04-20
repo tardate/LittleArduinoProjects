@@ -10,6 +10,9 @@
 
 #define SERVO_PIN 9
 #define STEP_DELAY 1000
+
+// custom min/max pulse width settings that best suit my servos
+// NB: default vaules are min pulse width=544, max pulse width=2400
 #define IDEAL_MIN_PW 600
 #define IDEAL_MAX_PW 2320
 
