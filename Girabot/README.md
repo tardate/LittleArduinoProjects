@@ -29,6 +29,7 @@ A couple of things to note in this demo:
 
 * I've connected a 9V 1A power supply in place of the battery (because I'd run all my batteries dry at the time of filming)
 * I strapped on an Arduino Uno instead of the Nano as described elsewhere, because the Nano wasn't available at the time
+* I still haven't got the "walking" right. But it tries!
 
 ### Benchtest Walkthrough
 
@@ -155,22 +156,15 @@ Girabot is a pretty small build, so there's not much room for batteries. Althoug
 I think 9V is the way to go, purely from a size and weight perspective
 
 So with a 9V source, I'm planning for two power rails in the system:
-* 9V unregulated, current TBD
-* 5V regulated, current TBD
-
-Although the total current requirements are yet to be determined exactly, they will be more than the Arduino can safely deliver directly.
-So the 5V will be supplied from the battery via an LM7805 regulator.
+* 9V unregulated direct from the battery
+* 5V via an LM7805 regulator
 
 Given two power rails, there's a question of which should be used to power the Arduino:
 * 9V unregulated fed to VIN
 * 5V regulated fed to 5V pin
 
-If a 9V supply is provided to VIN, it will go through the Arduino's regulator to provide 5V for internal operations and GPIO pins.
-That is fine, however there is an issue that we now have two 5V supplies.
-These will not be exactly equal and may cause problems (such as current reversals) if intermixed.
-Since I will be providing 5V output from the Arduino to circuits powered by the 5V regulated supply,
-I think it is safer to also power the Arduino via the 5V regulated supply.
-
+Either can work, although it is perhaps more efficient to power the Arduino for 5V regulated, as this eliminates
+need to use the Arduino's (now redundant) internal regulator.
 
 ### Proof-of-concept/Explorations
 * [LM317 Adjustable Regulator](../Electronics101/Power317) - test and graph the adjustable voltage supply
@@ -185,9 +179,24 @@ the main side-effect is it's effect on the speaker circuit (the noise gets ampli
 
 Reasonable noise abatement was achieved by filtering the power supply with 10nF capacitors across the power connections to the motors and each OpAmp unit.
 
-
 ### Sensitivity of the Audio Detection Circuit
+The electret audio detection circuit has proven quite temperamental.
+In particular, it appears quite sensitive to the power supply.
+As batteries discharge, the signal-to-noise ratio reduces noticeably and requires readjustment of the noise threshold.
 
+The main workaround is to ensure sufficent power supply. I think a better solution - not yet attempted -  would be to implement some
+dynamic threshold that is sensative to prevailing conditions.
+
+### Walk This Way!
+So my experiements with a single-servo walker are a "partial success".
+It can't yet walk efficiently in a forwards direction.
+I am expecting that some more adjustments of weight balance and friction pads on the feet would yield a better result.
+
+But it does try!
+
+## Code
+
+See [Girabot.ino](./Girabot.ino) and associated *.h files for all the code.
 
 ## Construction
 
@@ -195,7 +204,9 @@ Reasonable noise abatement was achieved by filtering the power supply with 10nF 
 
 ![The Schematic](./assets/Girabot_schematic.jpg?raw=true)
 
-![The Build](./assets/Girabot_build.jpg?raw=true)
+![PCB/Protoboard Layout](./assets/Girabot_03.jpg?raw=true)
+
+![PCB/Protoboard Build](./assets/Girabot_04.jpg?raw=true)
 
 ### Parts
 
@@ -205,9 +216,32 @@ Reasonable noise abatement was achieved by filtering the power supply with 10nF 
 | IC1 | LM7805                          | [datasheet](http://www.futurlec.com/Linear/7805T.shtml) |
 | IC2 | LM324N                          | [datasheet](http://www.futurlec.com/Linear/LM324N.shtml) |
 | IC3 | LM386N-3                        | [datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml) |
-|     | TowerPro SG90                   | [datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) |
-|     | 100nF ceramic capacitor         |   |
-|     | 100μF electrolytic capacitor    |   |
+| J2  | TowerPro SG90                   | [datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) |
+| S1  | DPST Switch                     | master switch; only one pole is used  |
+| C1  | 100μF electrolytic capacitor    | filter on input power supply |
+| C2  | 100nF ceramic capacitor         | filter on 5V power supply  |
+| C3  | 100nF ceramic capacitor         | audio in AC coupling |
+| C4  | 100μF electrolytic capacitor    | audio out AC coupling  |
+| C5  | 1μF electrolytic capacitor      | mic in AC coupling  |
+| C6  | 10nF ceramic capacitor          | bypass filter for noise-reduction |
+| C7  | 10nF ceramic capacitor          | bypass filter for noise-reduction |
+| C8  | 10nF ceramic capacitor          | bypass filter for noise-reduction |
+| R1  | 200Ω(bright)-20kΩ(dark) LDR     | 1/4 wheatstone bridge; typical range of 2kΩ-5kΩ under ambient conditions |
+| R2  | 20kΩ trimpot                    | 1/4 wheatstone bridge   |
+| R3  | 4.7kΩ resistor                  | 1/4 wheatstone bridge   |
+| R4  | 4.7kΩ resistor                  | 1/4 wheatstone bridge   |
+| R5  | 1kΩ resistor                    | LED current limiter   |
+| R6  | 1kΩ resistor                    | LED current limiter   |
+| R7  | 200Ω(bright)-20kΩ(dark) LDR     | 1/4 wheatstone bridge; typical range of 2kΩ-5kΩ under ambient conditions |
+| R8  | 20kΩ trimpot                    | 1/4 wheatstone bridge   |
+| R9  | 4.7kΩ resistor                  | 1/4 wheatstone bridge   |
+| R10 | 4.7kΩ resistor                  | 1/4 wheatstone bridge   |
+| R11 | 22kΩ resistor                   | 1/2 voltage divider for mic non-inverting OpAmp input  |
+| R12 | 22kΩ resistor                   | 1/2 voltage divider for mic non-inverting OpAmp input  |
+| R13 | 100kΩ resistor                  | mic OpAmp feedback (fixed component) |
+| R14 | 10kΩ resistor                   | electret mic biasing   |
+| R15 | 2.2kΩ resistor                  | mic inverting OpAmp input   |
+| R16 | 200kΩ trimpot                   | mic OpAmp feedback (variable component) |
 
 
 ## Credits and references

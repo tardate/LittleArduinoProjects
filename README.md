@@ -15,6 +15,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 Projects that have been taken all the way to a full build i.e. the ones that didn't get ripped apart for spares as soon as they were done!
 
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array. Look at the picks to discover why it is called "The FretBoard"
+* [Girabot](./Girabot) - my EE40LX Electronic Interfaces project
 * [MeLEDy](./Electronics101/MeLEDy) - simple volume level indicator
 
 
