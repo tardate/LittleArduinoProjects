@@ -3,7 +3,10 @@
 
 #ifdef ENABLE_AUDIO_SUBSYSTEM
 
+#include "motor_subsystem.h"
+
 #include "pitches.h"
+#define NOTE_MOVE_LR       1
 #define SHORT_NOTE_LENGTH 70
 
 // melody definition
@@ -25,7 +28,9 @@ int melody[] = {
   NOTE_CS5 , 8,
 
   NOTE_D5  , 8,
-  NOTE_A4  , 4,
+  NOTE_A4  , 8, // actually 4, but shared with NOTE_MOVE_LR
+  NOTE_MOVE_LR, 8,
+
   NOTE_REST, 8,
   NOTE_FS4 , 8,
   NOTE_G4  , 8,
@@ -38,7 +43,8 @@ int melody[] = {
   NOTE_FS5 , 8,
 
   NOTE_G5  , 8,
-  NOTE_E5  , 4,
+  NOTE_E5  , 8, // actually 4, but shared with NOTE_MOVE_LR
+  NOTE_MOVE_LR, 8,
   NOTE_REST, 8,
   NOTE_G5  , 8,
   NOTE_FS5 , 8,
@@ -51,7 +57,8 @@ int melody[] = {
   NOTE_B4  , 8,
 
   NOTE_CS5 , 8,
-  NOTE_A4  , 4,
+  NOTE_A4  , 8, // actually 4, but shared with NOTE_MOVE_LR
+  NOTE_MOVE_LR, 8,
   NOTE_REST, 8,
   NOTE_A5  , 8,
   NOTE_GS5 , 8,
@@ -78,15 +85,24 @@ void playMelody() {
 
   // iterate over the notes of the melody:
   for (int noteIndex = 0; noteIndex < noteCount; noteIndex+=2) {
+    int note = melody[noteIndex+1];
+    int noteDuration = 60000 * 4.0 / bpm / melody[noteIndex + 2]; // calculate the note duration based on BPM
 
-    // calculate the note duration based on BPM
-    int noteDuration = 60000 * 4.0 / bpm / melody[noteIndex + 2];
-    tone(AUDIO_OUT_PIN, melody[noteIndex+1], noteDuration);
-
-    // play with staccato ~ half beat
-    delay(noteDuration / 2);
-    noTone(AUDIO_OUT_PIN);
-    delay(noteDuration / 2);
+    switch(note) {
+    case NOTE_MOVE_LR :
+      stepLeft();
+      delay(noteDuration / 2);
+      stepRight();
+      delay(noteDuration / 2);
+      break;
+    default:
+      tone(AUDIO_OUT_PIN, note, noteDuration);
+      // play with staccato ~ half beat
+      delay(noteDuration / 2);
+      noTone(AUDIO_OUT_PIN);
+      delay(noteDuration / 2);
+      break;
+    }
 
   }
 }

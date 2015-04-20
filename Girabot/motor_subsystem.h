@@ -62,6 +62,15 @@ void walkRight() {
   walkSingleStep(WALK_CENTER,WALK_RIGHT);
 }
 
+void stepLeft() {
+  myservo.write(WALK_LEFT);
+}
+
+void stepRight() {
+  myservo.write(WALK_RIGHT);
+}
+
+
 #else
 // NOP functions for when motors disabled
 
@@ -74,6 +83,10 @@ void stopWalking() {
 void walkLeft() {
 }
 void walkRight() {
+}
+void stepLeft() {
+}
+void stepRight() {
 }
 
 #endif

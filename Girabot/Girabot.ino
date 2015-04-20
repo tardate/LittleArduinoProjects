@@ -1,4 +1,5 @@
 /*
+
   Girabot
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Girabot
@@ -10,7 +11,7 @@
 #define ENABLE_AUDIO_SUBSYSTEM
 #define ENABLE_LDR_SUBSYSTEM
 #define ENABLE_MIC_SUBSYSTEM
-#define ENABLE_SERIAL_DEBUG
+// #define ENABLE_SERIAL_DEBUG
 
 // pin settings
 #define MOTOR_CONTROL_PIN 11
@@ -82,10 +83,6 @@ void loop() {
       walkAhead();
   }
   clearLdrState();
-
-}
-
-void sampleSensors() {
 
 }
 
