@@ -1,13 +1,10 @@
-# Girabot! (WIP)
+# Girabot!
 
 ## Introduction
 
-Girabot is my robot submission for the most excellent
+Girabot is my robot submission for the
 [EE40LX Electronic Interfaces](https://courses.edx.org/courses/BerkeleyX/EE40LX/1T2015/info)
 course run by BerkeleyX/Caltec.
-
-This is currently a work-in-progress...
-
 
 ## The Brief
 The requirements are quite nicely open-ended;-)
@@ -17,7 +14,38 @@ The requirements are quite nicely open-ended;-)
 * Change behavior when it hears a loud noise
 * Spin motors to move itself
 
-### The Original/Suggest Robot Design
+## Final Video Demonstrations
+
+Here is a video of the final build that demonstrates:
+
+* Microphone/Buzzer/Motors: it dances to a tune in response to a load noise (clap)
+* Photocell/Buzzer: it makes different noises when left/right photocells detect low light
+* Motors: it randomly moves about when it's got nothing better to do
+
+
+[![Girabot Demo](http://img.youtube.com/vi/vzpre0eKQ9U/0.jpg)](http://www.youtube.com/watch?v=vzpre0eKQ9U)
+
+A couple of things to note in this demo:
+
+* I've connected a 9V 1A power supply in place of the battery (because I'd run all my batteries dry at the time of filming)
+* I strapped on an Arduino Uno instead of the Nano as described elsewhere, because the Nano wasn't available at the time
+
+### Benchtest Walkthrough
+
+The following video is a walkthrough of circuit functions on a breadboard prior to the final build:
+
+[![Girabot Benchtest](http://img.youtube.com/vi/7voQVB9DMPM/0.jpg)](http://www.youtube.com/watch?v=7voQVB9DMPM)
+
+
+## Photo Gallery
+
+![Girabot_gallery](./assets/Girabot_gallery.jpg?raw=true)
+
+* [the original stuffed toy](./assets/Girabot_01.jpg?raw=true)
+* [breadboard benchtest](./assets/Girabot_02.jpg?raw=true)
+* [circuit layout for transfering to protoboard](./assets/Girabot_03.jpg?raw=true)
+* [the finished protoboard](./assets/Girabot_04.jpg?raw=true)
+* [Girabot!](./assets/Girabot_05.jpg?raw=true)
 
 
 ## Girabot Design - My Take on the Robot Brief
@@ -156,6 +184,9 @@ The servo motors in particular appear responsible for putting considerable noise
 the main side-effect is it's effect on the speaker circuit (the noise gets amplified as audible sound).
 
 Reasonable noise abatement was achieved by filtering the power supply with 10nF capacitors across the power connections to the motors and each OpAmp unit.
+
+
+### Sensitivity of the Audio Detection Circuit
 
 
 ## Construction
