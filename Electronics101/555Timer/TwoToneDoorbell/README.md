@@ -45,7 +45,7 @@ A couple of bypass capacitors minimize the impact of voltage spikes and noise on
 
 ![The Schematic](./assets/TwoToneDoorbell_schematic.jpg?raw=true)
 
-![The Build](./assets/PowerTwoToneDoorbell_build.jpg?raw=true)
+![The Build](./assets/TwoToneDoorbell_build.jpg?raw=true)
 
 ## Credits and References
 * [2N7000 Datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
