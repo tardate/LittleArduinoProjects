@@ -14,6 +14,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 ## Highlights
 Projects that have been taken all the way to a full build i.e. the ones that didn't get ripped apart for spares as soon as they were done!
 
+* [Breadboard 5V Regulator](./Electronics101/PowerBreadboard5V) - custom regulated 5V power supply module for standard breadboard
 * [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array. Look at the picks to discover why it is called "The FretBoard"
 * [Girabot](./Girabot) - EE40LX Electronic Interfaces robot project
 * [MeLEDy](./Electronics101/MeLEDy) - simple volume level indicator
@@ -25,7 +26,7 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## Project Index
+## 59 Projects...
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -33,6 +34,7 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) | LED Array, Timing, Arduino | demo effects on the LED strip driven using timer interrupt |
 | [Blink](./playground/Blink)                                  | LED, Arduino               | the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                | LED, Timing, Arduino       | use a timer to perform a function on a precise schedule |
+| [Breadboard 5V Regulator](./Electronics101/PowerBreadboard5V)| Power                      | custom regulated 5V power supply module for standard breadboard |
 | [CapacitanceTester](./Electronics101/CapacitanceTester)      | LCD, RC, Arduino           | capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                | RC                         | graphing capacitor discharge with Processing |
 | [Comparator741](./Electronics101/Comparator741)              | OpAmp                      | demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
@@ -43,7 +45,7 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 | [FretBoard](./FretBoard)                                     | LED Array, Arduino         | a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [Gates - Basic Transistor AND](./Electronics101/BasicAND)    | Logic Gates, BJT           | the classic 2-transistor design |
 | [Gates - 1-Transistor Inverter](./Electronics101/SimplestInverter) | Logic Gates, BJT     | Simplest 1-Transistor Inverter  |
-| [Gates - 2-Transistor NAND](./Electronics101/SimplestNAND)         | Logic Gates, BJT     | Simplest 2-Transistor NAND      |
+| [Gates - 2-Transistor NAND](./Electronics101/SimplestNAND)   | Logic Gates, BJT           | Simplest 2-Transistor NAND      |
 | [Girabot](./Girabot)                                         | Sensors, OpAmp, Arduino    | EE40LX Electronic Interfaces robot project |
 | [HeartQuotes](./playground/HeartQuotes)                      | LCD, Ethernet, Arduino     | press a button to get a quote from the net and display on an LCD |
 | [HitTheLights](./playground/HitTheLights)                    | LCD, Human Input, Arduino  | simple LED game with LCD output and interrupt-driven button input |
