@@ -55,7 +55,7 @@ I've decided to diverge from the suggested design in a couple of ways.
 The most significant being that I'm basing the design on an
 [Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano)
 microcontroller instead of an MSP430, mainly because I had one on hand,
-but also because it offers a relatively small form factor without compormising processing and I/O capabilities.
+but also because it offers a relatively small form factor without compromising processing and I/O capabilities.
 
 I'm also varying components and some details of the design in smaller ways.
 The following sections describe how Girabot is designed to meet the primary criteria.
@@ -65,7 +65,8 @@ Along the way, I've referenced the experiments concerning various aspects of rob
 ## Use-case: Girabot bahaves in response to photocell input
 
 The Girabot is equiped with two LDRs - a "left eye" and "right eye".
-These are actually mounted in the eyes and detect light sensitivity roughly +/- 90 degrees from front.
+In the current build they are mounted near the eyes and detect light sensitivity roughly +/- 90 degrees from front.
+I was thinking about wiring up through the neck so the LDRs could actually "be" the eyes, but haven't tried that yet.
 
 When Girabot detects relative darkness to one side, it will:
 * provide an audible chirp (a distinct sound for left or right)
@@ -100,9 +101,12 @@ The microphone signal is then fed to the LM324 setup as a subtracting amplifier:
 * positive input is set to Vcc/2 = 2.5V
 * microphone signal fed to negative input
 
-    Vo = G1 * Vmic + G2 * Vcc
-    G1 = -R2/R1 = -220kΩ/2.2kΩ = -100
-    G2 = (R1 + R2)/R1 * R4/(R3 + R4) = (2.2kΩ + 220kΩ)/2.2kΩ * 22kΩ/(22kΩ + 22kΩ) = 75.5
+
+```
+Vo = G1 * Vmic + G2 * Vcc
+G1 = -R2/R1 = -220kΩ/2.2kΩ = -100
+G2 = (R1 + R2)/R1 * R4/(R3 + R4) = (2.2kΩ + 220kΩ)/2.2kΩ * 22kΩ/(22kΩ + 22kΩ) = 75.5
+```
 
 When no microphone signal, we are
 [reading Vcc/2](http://www.wolframalpha.com/input/?i=%285*%282.2k%CE%A9+%2B+220k%CE%A9%29%2F2.2k%CE%A9+*+22k%CE%A9%2F%2822k%CE%A9+%2B+22k%CE%A9%29%29+-+2.5+*+220k%CE%A9%2F2.2k%CE%A9)
@@ -163,7 +167,7 @@ Given two power rails, there's a question of which should be used to power the A
 * 9V unregulated fed to VIN
 * 5V regulated fed to 5V pin
 
-Either can work, although it is perhaps more efficient to power the Arduino for 5V regulated, as this eliminates
+Either can work, although it is perhaps more efficient to power the Arduino with 5V regulated, as this eliminates
 need to use the Arduino's (now redundant) internal regulator.
 
 ### Proof-of-concept/Explorations
@@ -175,7 +179,7 @@ need to use the Arduino's (now redundant) internal regulator.
 
 ### Electrical Noise
 The servo motors in particular appear responsible for putting considerable noise on the power rails.
-the main side-effect is it's effect on the speaker circuit (the noise gets amplified as audible sound).
+The main side-effect is on the speaker circuit (the noise gets amplified as audible sound).
 
 Reasonable noise abatement was achieved by filtering the power supply with 10nF capacitors across the power connections to the motors and each OpAmp unit.
 
@@ -184,8 +188,8 @@ The electret audio detection circuit has proven quite temperamental.
 In particular, it appears quite sensitive to the power supply.
 As batteries discharge, the signal-to-noise ratio reduces noticeably and requires readjustment of the noise threshold.
 
-The main workaround is to ensure sufficent power supply. I think a better solution - not yet attempted -  would be to implement some
-dynamic threshold that is sensative to prevailing conditions.
+The main workaround is to ensure sufficent power supply.
+I think a better solution - not yet attempted -  would be to implement some dynamic threshold that is sensative to prevailing conditions.
 
 ### Walk This Way!
 So my experiements with a single-servo walker are a "partial success".
