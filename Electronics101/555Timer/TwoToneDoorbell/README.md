@@ -2,6 +2,10 @@
 
 A basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation.
 
+Here's a quick video of the circuit in action:
+
+[![TwoToneDoorbell](http://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](http://www.youtube.com/watch?v=yD5Hbg0qQJE)
+
 ## Notes
 
 When the button is pressed, it triggers three actions:
