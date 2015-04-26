@@ -53,3 +53,5 @@ Next up I'll be looking at using the RF links with an Arduino. I'm interested to
 
 ## Credits and References
 * [1 pair (2pcs)433Mhz RF transmitter and receiver link kit](http://www.aliexpress.com/item/Best-prices-1-pair-2pcs-433Mhz-RF-transmitter-and-receiver-link-kit-for-Arduino/1973229871.html) - this is the product I am testing with. Not bad at 0.80USD with free shipping!
+* [RF Module datasheet](http://www.robotshop.com/media/files/pdf/datasheet-im120628014.pdf) - not the exact unit I have, but close. This datasheet is more an application guide than technical spec.
+* [Wikipedia: short range/low-power devices](http://en.wikipedia.org/wiki/Short_Range_Devices)
