@@ -26,9 +26,8 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 61 Projects...
-Latest addition - [RSFlipFlopFlipper](./Electronics101/RSFlipFlopFlipper) Set/Reset BJT flip-flop demo, controlled and monitored by an Arduino.
-
+## 62 Projects...
+Latest addition - [RFSwitch](./Electronics101/RFSwitch), simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing.
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -74,6 +73,7 @@ Latest addition - [RSFlipFlopFlipper](./Electronics101/RSFlipFlopFlipper) Set/Re
 | [RCOscillator](./Electronics101/RCOscillator)                | Oscillators                | simple RC/transistor multistable vibrator |
 | [RelayControlTest](./playground/RelayControlTest)            | Servo, Arduino             | quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [RelayModuleTest](./playground/RelayModuleTest)              | Servo, Arduino             | quick test of a common relay board to switch a motor under Arduino control |
+| [RFSwitch](./Electronics101/RFSwitch)                        | RF, OpAmp                  | simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
 | [RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                 | LED Array, Arduino         | quick test to make sure LEDs are correctly addressable and their color can be set correctly |
 | [Schmitt Inverter](./Electronics101/SchmittInverter)         | 74xx TTL                   | graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [ServoTest](./playground/ServoTest)                          | Servo, Arduino             | test the positioning accuracy of a servo motor driven by an Arduino |
