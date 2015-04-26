@@ -9,6 +9,7 @@ Here's a quick video of the circuit in action:
 ## Notes
 
 This is a classic Set-Reset [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29)
+See [RSFlipFlopFlipper](../RSFlipFlopFlipper) for a version of this circuit but with Arduino control and monitoring.
 
 In this circuit:
 
@@ -40,6 +41,7 @@ A power supply from 5-9V is fine.
 ![The Build](./assets/RSFlipFlop_build.jpg?raw=true)
 
 ## Credits and References
+* [RSFlipFlopFlipper](../RSFlipFlopFlipper) - same project, but with Arduino control and monitoring
 * [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
 * [Wikipedia: Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29)
 * [PCB heaven](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - demo circuit used as the basis for this project

@@ -26,7 +26,9 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 60 Projects...
+## 61 Projects...
+Latest addition - [RSFlipFlopFlipper](./Electronics101/RSFlipFlopFlipper) Set/Reset BJT flip-flop demo, controlled and monitored by an Arduino.
+
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -47,6 +49,7 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 | [Gates - 1-Transistor Inverter](./Electronics101/SimplestInverter) | Logic Gates, BJT     | Simplest 1-Transistor Inverter  |
 | [Gates - 2-Transistor NAND](./Electronics101/SimplestNAND)   | Logic Gates, BJT           | Simplest 2-Transistor NAND      |
 | [Gates - RS Flip Flop](./Electronics101/RSFlipFlop)          | Logic Gates, BJT           | Set/Reset flip-flop with BJTs |
+| [Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper) | Logic Gates, BJT, Arduino  | Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [Girabot](./Girabot)                                         | Sensors, OpAmp, Arduino    | EE40LX Electronic Interfaces robot project |
 | [HeartQuotes](./playground/HeartQuotes)                      | LCD, Ethernet, Arduino     | press a button to get a quote from the net and display on an LCD |
 | [HitTheLights](./playground/HitTheLights)                    | LCD, Human Input, Arduino  | simple LED game with LCD output and interrupt-driven button input |
