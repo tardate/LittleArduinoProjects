@@ -13,3 +13,6 @@
 [submodule "libraries/RF24"]
 	path = libraries/RF24
 	url = https://github.com/maniacbug/RF24
+[submodule "libraries/RadioHead"]
+	path = libraries/RadioHead
+	url = https://github.com/tardate/RadioHead

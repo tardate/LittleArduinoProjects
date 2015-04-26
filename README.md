@@ -97,16 +97,13 @@ Latest addition - [RSFlipFlopFlipper](./Electronics101/RSFlipFlopFlipper) Set/Re
 
 # Getting Up and Running
 
-Some projects require additional libraries. For example:
-* The LED array projects use the [FastLED](http://fastled.io/) library
-* EthernetShield projects use the [TextFinder](https://github.com/tardate/TextFinder) library
-* Projects running a Timer interrupt routine use the [FlexiTimer2](https://github.com/wimleers/flexitimer2) library
-* Stepper motor projects use the [X113647Stepper](https://github.com/tardate/X113647Stepper) library
+Some projects require additional libraries including FastLED, FlexiTimer2, RadioHead.
+A set of such libraries are included as submodules of this repository,
+see the [libraries/](./libraries) page for more information on the included libraries and submodule management.
 
-These libraries are included as submodules of this repository and can be installed with git.
-Or you can just install them normally.
+Libraries can be retrieved with git, or you can just install them separately as you would any other library.
 
-If you clone this repo, also update the submodules:
+If you clone this repo, also update the submodules to have them available for compilation/installation:
 
     $ git submodule update --init
 
