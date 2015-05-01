@@ -26,8 +26,8 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 63 Projects...
-Latest addition - [RFSwitchASK](./playground/RFSwitchASK), simple remote data communications using ASK protocol over 433Mhz transmitter/receiver set.
+## 64 Projects...
+Latest addition - [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915), driving a 10-segment display with a single Arduino pin.
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -58,6 +58,7 @@ Latest addition - [RFSwitchASK](./playground/RFSwitchASK), simple remote data co
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector) | OpAmp                   | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
 | [LED chaser](./playground/LedChaser)                         | LED, Arduino               | |
 | [LEDArrayDemos](./LEDArrayDemos)                             | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
+| [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)    | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                        | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
 | [LM317 Adjustable Regulator](./Electronics101/Power317)      | Power                      | test and graph the adjustable voltage supply |
 | [LM7805 5V Regulated Supply](./Electronics101/Power7805)     | Power                      | test and graph the voltage supply |
