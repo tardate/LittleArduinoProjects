@@ -2,6 +2,10 @@
 
 Drive a 10-segment display with a single Arduino pin.
 
+Here's a quick video of the circuit in action:
+
+[![LevelIndicatorLM3915 demo](http://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](http://www.youtube.com/watch?v=00BBIDRA13Y)
+
 ## Notes
 
 The LM3915 is a 10-segment Dot/Bar Display Driver.
