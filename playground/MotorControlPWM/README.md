@@ -2,6 +2,10 @@
 
 Tests PWM speed control of a DC motor.
 
+Here's a quick video of the circuit in action:
+
+[![MotorControlPWM demo](http://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](http://www.youtube.com/watch?v=CYKtJfKv5ug)
+
 ## Notes
 
 Demonstrates using a PWM signal to control the current driving a DC motor, hence it's speed.
