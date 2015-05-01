@@ -9,6 +9,7 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [74LS75 Quad Latch](./74LS75)
 * [LM324 Quad OpAmp](./LM324)
 * [LM386 Low Voltage Audio Power Amplifier](./LM386)
+* [LM3915 Dot/Bar Display Driver](./LM3915)
 * [LM741 General Purpose Operational Amplifier](./LM741)
 * Stepper Motor 28BYJ-48 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
 * Stepper Board X113647 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
