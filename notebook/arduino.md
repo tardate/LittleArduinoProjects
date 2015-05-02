@@ -15,6 +15,26 @@
 * The Servo library uses the same timer as analogWrite on pins 9 and 10, so you can’t use analogWrite with these pins when using the Servo library.
 
 
+## Arduino Pro Mini
+
+* [Official Arduino Pro Mini site](http://www.arduino.cc/en/Main/ArduinoBoardProMini)
+* [Arduino USB-to-Serial Tutorial - Programming the Pro Mini](https://youtu.be/Vawhrr4COjI) - great in-depth tests with various USB to serial devices by Julian Ilett.
+
+
+### USB-to-Serial Programming
+
+Pin Connections as described on
+[weworkweplay](http://weworkweplay.com/play/connect-jy-mcu-usb-serial-port-adapter-to-arduino-mini-pro-3.3v-atmega328/):
+
+* Connect USB 3.3V to Arduino VCC
+* Connect USB Ground to Arduino BLK, aka GND on some boards
+* Connect USB TXO to Arduino RXI
+* Connect USB RXD to Arduino TXD
+* Connect USB DTR to Arduino GRN, aka DAW on some boards
+
+![The pro_mini_usb_serial_connection](./assets/pro_mini_usb_serial_connection.jpg?raw=true)
+
+
 ## Arduino Nano
 
 See the [Official Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) site for board details.
