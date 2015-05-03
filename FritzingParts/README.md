@@ -22,10 +22,12 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [CD4017 (local copy)](./cached/CD4017.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=875#c526)
 * [HC-SR04 (local copy)](./cached/HC-SR04.fzpz) - [original source](http://fritzing.org/projects/hc-sr04-project)
 * [Song Le Relay (local copy)](./cached/Song Le Relay.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=2389)
+* [2N7000 FET N-Channel](./cached/2N7000 FET N-Channelfzpz) - [original source](https://github.com/kylegordon/Fritzing-Parts)
 
-## Useful Parts Collections
+## Useful Parts Collections on GitHub
 
 * [AdaFruit Fritzing Library](https://github.com/adafruit/Fritzing-Library)
 * [Fritzing for the Spark Core](https://github.com/technobly/SparkCore-Fritzing)
-* [SFE Fritzing parts](https://github.com/sparkfun/Fritzing_Parts)
+* [kylegordon/Fritzing-Parts](https://github.com/kylegordon/Fritzing-Parts)
 * [rwaldron/fritzing-components](https://github.com/rwaldron/fritzing-components)
+* [SFE Fritzing parts](https://github.com/sparkfun/Fritzing_Parts)
