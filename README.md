@@ -26,8 +26,8 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 64 Projects...
-Latest addition - [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915), driving a 10-segment display with a single Arduino pin.
+## 65 Projects...
+Latest addition - [Switch - NFET](./Electronics101/SwitchNFET), small-signal digital switch with NFET and turn-off delay.
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -88,6 +88,7 @@ Latest addition - [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915), dri
 | [Square Wave - 555](./Electronics101/555Timer/AstableOscillator) | 555 Timer, Oscillators | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [Square Wave - LM324](./Electronics101/LM324Oscillator)      | OpAmp, Oscillators         | using an LM324 OpAmp to generate a square wave |
 | [Square Wave - Schmitt](./Electronics101/SchmittOscillator)  | 74xx TTL, Oscillators      | using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
+| [Switch - NFET](./Electronics101/SwitchNFET)                 | FET                        | small-signal digital switch with NFET and turn-off delay |
 | [Switch - NPN](./Electronics101/SwitchNPN)                   | BJT                        | small-signal digital switch with NPN BJT |
 | [Switch - PNP](./Electronics101/SwitchPNP)                   | BJT                        | small-signal digital switch with PNP BJT |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) | 555 Timer, Oscillators | generate a triangle wave with 555 timer and RC integrator |
