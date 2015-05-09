@@ -15,8 +15,8 @@ When the button is pressed, it triggers three actions:
 * it pulls Q1 gate high and charges the R5/C4 RC circuit
 
 While the button is down ("ding"), the frequency of 555 astable oscillation
-is governed by [R2=47kΩ, R3=47kΩ and C1=22nF](http://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.022),
-which results in a frequency of about 464Hz.
+is governed by [R2=47kΩ, R3=47kΩ and C1=33nF](http://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.033),
+which results in a frequency of about 309Hz.
 
 When the button is released:
 
@@ -24,8 +24,8 @@ When the button is released:
 * 555 remains triggered while C2 drains through R4
 
 The "dong" frequency of 555 astable oscillation
-is governed by [R1+R2=94kΩ, R3=47kΩ and C1=22nF](http://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.022),
-which results in a frequency of about 348Hz.
+is governed by [R1+R2=94kΩ, R3=47kΩ and C1=33nF](http://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.033),
+which results in a frequency of about 232Hz.
 
 The duration of the "dong" depends on the R4/C2 [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant),
 [220ms](http://www.wolframalpha.com/input/?i=22k%CE%A9+*+10%CE%BCF).
@@ -39,7 +39,6 @@ A couple of bypass capacitors minimize the impact of voltage spikes and noise on
 * 100nF (C6) across the power supply
 
 ### Construction
-
 
 ![The Breadboard](./assets/TwoToneDoorbell_bb.jpg?raw=true)
 
