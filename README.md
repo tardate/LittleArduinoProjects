@@ -26,8 +26,9 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 65 Projects...
-Latest addition - [Switch - NFET](./Electronics101/SwitchNFET), small-signal digital switch with NFET and turn-off delay.
+## 66 Projects...
+Latest addition -
+[LEDLampAC](./Electronics101/LEDLampAC) - build and analyse a commercial LED lamp kit with capacitive power supply.
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -60,6 +61,7 @@ Latest addition - [Switch - NFET](./Electronics101/SwitchNFET), small-signal dig
 | [LEDArrayDemos](./LEDArrayDemos)                             | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)    | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                        | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
+| [LEDLamp Capacitive Power Supply](./Electronics101/LEDLampAC)| Power, LED                 | build and analyse a commercial LED lamp kit with capacitive power supply |
 | [LM317 Adjustable Regulator](./Electronics101/Power317)      | Power                      | test and graph the adjustable voltage supply |
 | [LM7805 5V Regulated Supply](./Electronics101/Power7805)     | Power                      | test and graph the voltage supply |
 | [MB102 3.3/5V Breadboard Supply](./Electronics101/PowerMB102)| Power                      | demo an MB102 power supply unit |
