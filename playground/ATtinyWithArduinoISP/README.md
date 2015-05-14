@@ -2,6 +2,10 @@
 
 Programming an ATTINY85-20PU on a breadboard with Arduino ISP
 
+Here's a quick video of it in action:
+
+[![ATtinyWithArduinoISP](http://img.youtube.com/vi/eILb11BE6pY/0.jpg)](http://www.youtube.com/watch?v=eILb11BE6pY)
+
 ## Notes
 
 The objective here is to setup an ATTINY85-20PU chip on a breadboard, and program it using an Arduino operating as an in-system programmer.

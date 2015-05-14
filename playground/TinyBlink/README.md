@@ -2,6 +2,10 @@
 
 A simple blink sketch with an ATTINY85-20PU on a breadboard.
 
+Here's a quick video of it in action:
+
+[![ATtinyWithArduinoISP](http://img.youtube.com/vi/eILb11BE6pY/0.jpg)](http://www.youtube.com/watch?v=eILb11BE6pY)
+
 ## Notes
 
 The objective here is to demonstrate an ATTINY85-20PU chip running independantly on a breadboard.
