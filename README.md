@@ -26,14 +26,15 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 68 Projects...
-Latest addition - [ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP) - programming an ATMEGA328P-PU on a breadboard with Arduino ISP.
+## 69 Projects...
+Latest addition - [ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP) - programming an ATTINY85-20PU on a breadboard with Arduino ISP.
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
 | [Arduino Internals](./playground/Internals)                  | Arduino                    | report on Arduino Board internals         |
 | [ATmegaBreadboard](./playground/ATmegaBreadboard)            | Arduino                    | Running an ATMEGA328P-PU on a breadboard  |
 | [ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)      | Arduino                    | Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
+| [ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)    | Arduino                    | Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects) | LED Array, Timing, Arduino | demo effects on the LED strip driven using timer interrupt |
 | [Blink](./playground/Blink)                                  | LED, Arduino               | the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                | LED, Timing, Arduino       | use a timer to perform a function on a precise schedule |
