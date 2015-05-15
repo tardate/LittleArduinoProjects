@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="1.00967in"
+   height="0.827111in"
+   viewBox="0 0 72.696 59.552"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="74LS02_schema.svg">
+  <metadata
+     id="metadata77">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs75" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="836"
+     inkscape:window-height="502"
+     id="namedview73"
+     showgrid="false"
+     inkscape:zoom="3.1703391"
+     inkscape:cx="45.43515"
+     inkscape:cy="37.219994"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     partID="854713910"
+     id="g4">
+    <g
+       transform="matrix(1, 0, 0, 1, 0, -20.8)"
+       id="g6">
+      <g
+         id="schematic">
+        <g
+           gorn="0.3.0.0.0.0"
+           id="g9">
+          <rect
+             x="14.75"
+             y="22.176"
+             height="57.6"
+             id="rect7"
+             fill="#ffffff"
+             width="43.2"
+             class="interior rect"
+             stroke="none"
+             gorn="0.3.0.0.0.0.0" />
+          <text
+             font-size="3.40001"
+             x="36.3501"
+             y="52.3089"
+             id="label"
+             fill="#000000"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.1">74LS02</text>
+          <line
+             id="line10"
+             stroke-width="0.9"
+             y1="79.776"
+             y2="79.776"
+             x1="14.75"
+             x2="57.9501"
+             style="stroke-linecap:round"
+             class="other"
+             stroke="#000000"
+             gorn="0.3.0.0.0.0.2" />
+          <line
+             id="line12"
+             stroke-width="0.769007"
+             y1="79.8874"
+             y2="22.0645"
+             x1="57.9501"
+             x2="57.9501"
+             style="stroke-linecap:round"
+             class="other"
+             stroke="#000000"
+             gorn="0.3.0.0.0.0.3" />
+          <line
+             id="line14"
+             stroke-width="0.9"
+             y1="22.1756"
+             y2="22.1756"
+             x1="57.9501"
+             x2="14.75"
+             style="stroke-linecap:round"
+             class="other"
+             stroke="#000000"
+             gorn="0.3.0.0.0.0.4" />
+          <line
+             id="line16"
+             stroke-width="0.769138"
+             y1="22.0547"
+             y2="79.8973"
+             x1="14.75"
+             x2="14.75"
+             style="stroke-linecap:round"
+             class="other"
+             stroke="#000000"
+             gorn="0.3.0.0.0.0.5" />
+          <line
+             id="connector13pin"
+             y1="29.375601"
+             y2="29.375601"
+             x1="72.349998"
+             connectorname="Vcc"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.6" />
+          <g
+             x="72.35"
+             y="22.176"
+             height="0.000283465"
+             id="connector13terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.7" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="28.3256"
+             id="text20"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.8">14</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="30.0762"
+             id="text22"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.9">Vcc</text>
+          <line
+             id="connector12pin"
+             y1="36.5756"
+             y2="36.5756"
+             x1="72.349998"
+             connectorname="Y4"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.10" />
+          <g
+             x="72.35"
+             y="29.376"
+             height="0.000283465"
+             id="connector12terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.11" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="35.526"
+             id="text26"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.12">13</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="37.276"
+             id="text28"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.13">Y4</text>
+          <line
+             id="connector11pin"
+             y1="43.7756"
+             y2="43.7756"
+             x1="72.349998"
+             connectorname="B4"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.14" />
+          <g
+             x="72.35"
+             y="36.576"
+             height="0.000283465"
+             id="connector11terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.15" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="42.7256"
+             id="text32"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.16">12</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="44.476"
+             id="text34"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.17">B4</text>
+          <line
+             id="connector10pin"
+             y1="50.975601"
+             y2="50.975601"
+             x1="72.349998"
+             connectorname="A4"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.18" />
+          <g
+             x="72.35"
+             y="43.776"
+             height="0.000283465"
+             id="connector10terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.19" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="49.9264"
+             id="text38"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.20">11</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="51.6762"
+             id="text40"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.21">A4</text>
+          <line
+             id="connector9pin"
+             y1="58.176399"
+             y2="58.176399"
+             x1="72.349998"
+             connectorname="Y3"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.22" />
+          <g
+             x="72.35"
+             y="50.976"
+             height="0.000283465"
+             id="connector9terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.23" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="57.126"
+             id="text44"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.24">10</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="58.8762"
+             id="text46"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.25">Y3</text>
+          <line
+             id="connector8pin"
+             y1="65.375603"
+             y2="65.375603"
+             x1="72.349998"
+             connectorname="B3"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.26" />
+          <g
+             x="72.35"
+             y="58.176"
+             height="0.000283465"
+             id="connector8terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.27" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="64.326"
+             id="text50"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.28">9</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="66.0762"
+             id="text52"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.29">B3</text>
+          <line
+             id="connector6pin"
+             y1="72.5756"
+             y2="72.5756"
+             x1="14.7499"
+             connectorname="GND"
+             x2="0.34998199"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.30" />
+          <g
+             x="72.35"
+             y="65.376"
+             height="0.000283465"
+             id="connector6terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.31" />
+          <text
+             font-size="2"
+             x="7.5778"
+             y="71.5256"
+             id="text56"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.32">7</text>
+          <text
+             font-size="2.79999"
+             x="16.7768"
+             y="73.2762"
+             id="text58"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.33">GND</text>
+          <line
+             id="connector2pin"
+             y1="43.7756"
+             y2="43.7756"
+             x1="0.34999901"
+             connectorname="B1"
+             x2="14.75"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.34" />
+          <g
+             x="0.349999"
+             y="29.376"
+             height="0.000283465"
+             id="connector2terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.35" />
+          <text
+             font-size="2"
+             x="7.54999"
+             y="42.726"
+             id="text62"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.36">3</text>
+          <text
+             font-size="2.79999"
+             x="16.85"
+             y="44.476"
+             id="text64"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.37">B1</text>
+          <line
+             id="connector1pin"
+             y1="36.5756"
+             y2="36.5756"
+             x1="0.34999901"
+             connectorname="A1"
+             x2="14.75"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.38" />
+          <g
+             x="0.349999"
+             y="22.176"
+             height="0.000283465"
+             id="connector1terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.39" />
+          <text
+             font-size="2"
+             x="7.54999"
+             y="35.5256"
+             id="text68"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.40">2</text>
+          <text
+             font-size="2.79999"
+             x="16.85"
+             y="37.276"
+             id="text70"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.41">A1</text>
+          <line
+             id="connector3pin"
+             y1="50.975601"
+             y2="50.975601"
+             x1="0.34999901"
+             connectorname="Y2"
+             x2="14.75"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.42" />
+          <g
+             x="0.349999"
+             y="43.776"
+             height="0.000283465"
+             id="connector3terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.43" />
+          <text
+             font-size="2"
+             x="7.54999"
+             y="49.9264"
+             id="text74"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.44">4</text>
+          <text
+             font-size="2.79999"
+             x="16.85"
+             y="51.676"
+             id="text76"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.45">Y2</text>
+          <line
+             id="connector4pin"
+             y1="58.175999"
+             y2="58.175999"
+             x1="0.34999901"
+             connectorname="A2"
+             x2="14.75"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.46" />
+          <g
+             x="0.349999"
+             y="58.176"
+             height="0.000283465"
+             id="connector4terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.47" />
+          <text
+             font-size="2"
+             x="7.54999"
+             y="57.126"
+             id="text80"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.48">5</text>
+          <text
+             font-size="2.79999"
+             x="16.85"
+             y="58.8759"
+             id="text82"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.49">A2</text>
+          <line
+             id="connector0pin"
+             y1="29.375601"
+             y2="29.375601"
+             x1="0.34999901"
+             connectorname="Y1"
+             x2="14.75"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.50" />
+          <g
+             x="0.349999"
+             y="7.776"
+             height="0.000283465"
+             id="connector0terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.51" />
+          <text
+             font-size="2"
+             x="7.54999"
+             y="28.3256"
+             id="text86"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.52">1</text>
+          <text
+             font-size="2.79999"
+             x="16.85"
+             y="30.0762"
+             id="text88"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.53">Y1</text>
+          <line
+             id="connector7pin"
+             y1="72.575996"
+             y2="72.575996"
+             x1="72.349998"
+             connectorname="A3"
+             x2="57.9501"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.54" />
+          <g
+             x="72.35"
+             y="72.576"
+             height="0.000283465"
+             id="connector7terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.55" />
+          <text
+             font-size="2"
+             x="65.15"
+             y="71.526"
+             id="text98"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.56">8</text>
+          <text
+             font-size="2.79999"
+             x="55.8499"
+             y="73.2759"
+             id="text100"
+             fill="#787878"
+             style="text-anchor:end;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.57">A3</text>
+          <line
+             id="connector5pin"
+             y1="65.375603"
+             y2="65.375603"
+             x1="0.34999901"
+             connectorname="B2"
+             x2="14.75"
+             style="stroke:#787878;stroke-width:0.69999802;stroke-linecap:round"
+             class="pin"
+             gorn="0.3.0.0.0.0.58" />
+          <g
+             x="0.349999"
+             y="72.576"
+             height="0.000283465"
+             id="connector5terminal"
+             fill="none"
+             width="0.000283464"
+             class="terminal"
+             stroke="none"
+             gorn="0.3.0.0.0.0.59" />
+          <text
+             font-size="2"
+             x="7.54999"
+             y="64.326"
+             id="text104"
+             fill="#8c8c8c"
+             style="text-anchor:middle;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.60">6</text>
+          <text
+             font-size="2.79999"
+             x="16.85"
+             y="66.076"
+             id="text106"
+             fill="#787878"
+             style="text-anchor:start;font-family:Droid Sans"
+             class="text"
+             stroke="none"
+             gorn="0.3.0.0.0.0.61">B2</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
