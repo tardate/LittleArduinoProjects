@@ -26,8 +26,8 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 70 Projects...
-Latest addition - [TinyBlink](./playground/TinyBlink) - a simple blink sketch with an ATTINY85-20PU on a breadboard.
+## 71 Projects...
+Latest addition - [NOR7402](./Electronics101/NOR7402) - demo the 74LS02 Quad 2-input NOR gate with an Arduino.
 
 
 | Project                                                      | Category                   | Description                               |
@@ -60,7 +60,7 @@ Latest addition - [TinyBlink](./playground/TinyBlink) - a simple blink sketch wi
 | [JoystickServoControl](./playground/JoystickServoControl)    | Human Input, Arduino       | controlling two servos with a joystick |
 | [LDRComparator](./Electronics101/LDRComparator)              | Sensors, OpAmp, Arduino    | Low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector) | OpAmp                   | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
-| [LED chaser](./playground/LedChaser)                         | LED, Arduino               | |
+| [LED chaser](./playground/LedChaser)                         | LED, Arduino               | Blinks a series of 12 LEDs in a coninuous loop |
 | [LEDArrayDemos](./LEDArrayDemos)                             | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)    | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                        | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
@@ -72,8 +72,9 @@ Latest addition - [TinyBlink](./playground/TinyBlink) - a simple blink sketch wi
 | [Monostable](./Electronics101/555Timer/Monostable)           | 555 Timer                  | basic monostable mode using an Arduino and processing to plot the output |
 | [MotorControlPWM](./playground/MotorControlPWM)              | Motors, Arduino            | tests PWM speed control of a DC motor driven by an Arduino |
 | [NonInverting324](./Electronics101/NonInverting324)          | OpAmp                      | demo LM324 OpAmp non-inverting DC gain mode |
+| [NOR7402](./Electronics101/NOR7402)                          | 74xx TTL, Arduino          | demo the 74LS02 Quad 2-input NOR gate with an Arduino |
 | [Popcorn](./playground/Popcorn)                              | Audio, Arduino             | How to make a piezo buzzer even more annoying? Make it play popcorn! |
-| [Pushbutton LED switch](./playground/PushbuttonLED)          | LED, Arduino               | |
+| [Pushbutton LED switch](./playground/PushbuttonLED)          | LED, Arduino               | Momentary push button switch is used to toggle the LED on and off |
 | [Quad Latch](./Electronics101/QuadLatch)                     | 74xx TTL                   | graph the basic operation of the 74LS75 4-bit bistable latch |
 | [RangeFinder](./playground/RangeFinder)                      | Sensors, Arduino           | proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [RCOscillator](./Electronics101/RCOscillator)                | Oscillators                | simple RC/transistor multistable vibrator |
@@ -99,7 +100,7 @@ Latest addition - [TinyBlink](./playground/TinyBlink) - a simple blink sketch wi
 | [TinyBlink](./playground/TinyBlink)                          | Arduino, ATmel             | a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) | 555 Timer, Oscillators | generate a triangle wave with 555 timer and RC integrator |
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell) | 555 Timer, Oscillators     | basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
-| [Variable LED brightness (PWM)](./playground/VariableLED)    | LED, Arduino               | |
+| [Variable LED brightness (PWM)](./playground/VariableLED)    | LED, Arduino               | variable resistor is used to control the brightness of an LED with PWM |
 | [X113647Stepper](https://github.com/tardate/X113647Stepper)  | Stepper, Arduino           | It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
 | [Zener Regulated 5V Source](./Electronics101/PowerZener)     | Power                      | test and graph a power supply regulated with a 1N4733 zener diode |
 
