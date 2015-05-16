@@ -26,8 +26,8 @@ Projects that have been taken all the way to a full build i.e. the ones that did
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 71 Projects...
-Latest addition - [NOR7402](./Electronics101/NOR7402) - demo the 74LS02 Quad 2-input NOR gate with an Arduino.
+## 72 Projects...
+Latest addition - [QuadNOR](./Electronics101/QuadNOR) - demo simple cascading NOR gate logic with the 74LS02 and an Arduino.
 
 
 | Project                                                      | Category                   | Description                               |
@@ -76,6 +76,7 @@ Latest addition - [NOR7402](./Electronics101/NOR7402) - demo the 74LS02 Quad 2-i
 | [Popcorn](./playground/Popcorn)                              | Audio, Arduino             | How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [Pushbutton LED switch](./playground/PushbuttonLED)          | LED, Arduino               | Momentary push button switch is used to toggle the LED on and off |
 | [Quad Latch](./Electronics101/QuadLatch)                     | 74xx TTL                   | graph the basic operation of the 74LS75 4-bit bistable latch |
+| [QuadNOR](./Electronics101/QuadNOR)                          | 74xx TTL, Arduino          | demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
 | [RangeFinder](./playground/RangeFinder)                      | Sensors, Arduino           | proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [RCOscillator](./Electronics101/RCOscillator)                | Oscillators                | simple RC/transistor multistable vibrator |
 | [RelayControlTest](./playground/RelayControlTest)            | Servo, Arduino             | quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
