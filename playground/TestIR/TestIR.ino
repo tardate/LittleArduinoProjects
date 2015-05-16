@@ -1,104 +1,102 @@
-/* Raw IR decoder sketch!
-This sketch/program uses the Arduno and a PNA4602 to
-decode IR received. This can be used to make a IR receiver
-(by looking for a particular code)
-or transmitter (by pulsing an IR LED at ~38KHz for the
-durations detected
-Code is public domain, check out www.ladyada.net and adafruit.com
-for more tutorials!
+/*
+
+  TestIR
+  Use raw pin reading methods to read and decode IR sensor input.
+
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/TestIR
+  This code is based on original source from https://learn.adafruit.com/ir-sensor/using-an-ir-sensor
+
 */
 
-// We need to use the 'raw' pin reading methods
-// because timing is very important here and the digitalRead()
-// procedure is slower!
-//uint8_t IRpin = 2;
-// Digital pin #2 is the same as Pin D2 see
-// http://arduino.cc/en/Hacking/PinMapping168 for the 'raw' pin mapping
+// when defined, sends data stream for plotting, else sends data dump
+// #define ENABLE_PLOT_OUTPUT
+
 #define IRpin_PIN PIND
 #define IRpin 2
-// for MEGA use these!
-//#define IRpin_PIN PINE
-//#define IRpin 4
+#define IRpin_MASK _BV(IRpin)
 
-// the maximum pulse we'll listen for - 65 milliseconds is a long time
 #define MAXPULSE 65000
+#define PULSE_RESOLUTION 20
 
-// what our timing resolution should be, larger is better
-// as its more 'precise' - but too large and you wont get
-// accurate timing
-#define RESOLUTION 20
-
-// we will store up to 100 pulse pairs (this is -a lot-)
-uint16_t pulses[100][2]; // pair is high and low pulse
-uint8_t currentpulse = 0; // index for pulses we're storing
+uint16_t pulses[100][2];
+uint8_t pulse_index = 0;
 
 void setup(void) {
   Serial.begin(9600);
-  Serial.println("Ready to decode IR!");
+#ifndef ENABLE_PLOT_OUTPUT
+  Serial.println("Ready to receive IR data..");
+#endif
 }
 
 void loop(void) {
-  uint16_t highpulse, lowpulse; // temporary storage timing
-  highpulse = lowpulse = 0; // start out with no pulse length
+  uint16_t highpulse = 0;
+  uint16_t lowpulse = 0;
 
+  while (IRpin_PIN & IRpin_MASK) {
+    highpulse++;
+    delayMicroseconds(PULSE_RESOLUTION);
 
-// while (digitalRead(IRpin)) { // this is too slow!
-    while (IRpin_PIN & (1 << IRpin)) {
-     // pin is still HIGH
-
-     // count off another few microseconds
-     highpulse++;
-     delayMicroseconds(RESOLUTION);
-
-     // If the pulse is too long, we 'timed out' - either nothing
-     // was received or the code is finished, so print what
-     // we've grabbed so far, and then reset
-     if ((highpulse >= MAXPULSE) && (currentpulse != 0)) {
-       printpulses();
-       currentpulse=0;
-       return;
-     }
+    if ((highpulse >= MAXPULSE) && (pulse_index != 0)) {
+      printPulses();
+      pulse_index=0;
+      return;
+    }
   }
-  // we didn't time out so lets stash the reading
-  pulses[currentpulse][0] = highpulse;
+  pulses[pulse_index][0] = highpulse;
 
-  // same as above
-  while (! (IRpin_PIN & _BV(IRpin))) {
-     // pin is still LOW
-     lowpulse++;
-     delayMicroseconds(RESOLUTION);
-     if ((lowpulse >= MAXPULSE) && (currentpulse != 0)) {
-       printpulses();
-       currentpulse=0;
-       return;
-     }
+  while (! (IRpin_PIN & IRpin_MASK)) {
+    lowpulse++;
+    delayMicroseconds(PULSE_RESOLUTION);
+
+    if ((lowpulse >= MAXPULSE) && (pulse_index != 0)) {
+      printPulses();
+      pulse_index=0;
+      return;
+    }
   }
-  pulses[currentpulse][1] = lowpulse;
+  pulses[pulse_index][1] = lowpulse;
 
-  // we read one high-low pulse successfully, continue!
-  currentpulse++;
+  pulse_index++;
 }
 
-void printpulses(void) {
+#ifdef ENABLE_PLOT_OUTPUT
+
+void printPulses(void) {
+  for (uint8_t i = 0; i < pulse_index; i++) {
+    for (int high_pulse_count = 0; high_pulse_count < pulses[i][0] /10 && high_pulse_count < 100; high_pulse_count++) {
+      Serial.println("1024");
+    }
+    for (int low_pulse_count = 0; low_pulse_count < pulses[i][1] / 10 && low_pulse_count < 100; low_pulse_count++) {
+      Serial.println("0");
+    }
+  }
+}
+
+#else
+
+void printPulses(void) {
   Serial.println("\n\r\n\rReceived: \n\rOFF \tON");
-  for (uint8_t i = 0; i < currentpulse; i++) {
-    Serial.print(pulses[i][0] * RESOLUTION, DEC);
+  for (uint8_t i = 0; i < pulse_index; i++) {
+    Serial.print(pulses[i][0] * PULSE_RESOLUTION, DEC);
     Serial.print(" usec, ");
-    Serial.print(pulses[i][1] * RESOLUTION, DEC);
+    Serial.print(pulses[i][1] * PULSE_RESOLUTION, DEC);
     Serial.println(" usec");
   }
 
   // print it in a 'array' format
   Serial.println("int IRsignal[] = {");
   Serial.println("// ON, OFF (in 10's of microseconds)");
-  for (uint8_t i = 0; i < currentpulse-1; i++) {
+  for (uint8_t i = 0; i < pulse_index-1; i++) {
     Serial.print("\t"); // tab
-    Serial.print(pulses[i][1] * RESOLUTION / 10, DEC);
+    Serial.print(pulses[i][1] * PULSE_RESOLUTION / 10, DEC);
     Serial.print(", ");
-    Serial.print(pulses[i+1][0] * RESOLUTION / 10, DEC);
+    Serial.print(pulses[i+1][0] * PULSE_RESOLUTION / 10, DEC);
     Serial.println(",");
   }
   Serial.print("\t"); // tab
-  Serial.print(pulses[currentpulse-1][1] * RESOLUTION / 10, DEC);
+  Serial.print(pulses[pulse_index-1][1] * PULSE_RESOLUTION / 10, DEC);
   Serial.print(", 0};");
 }
+
+#endif
+
