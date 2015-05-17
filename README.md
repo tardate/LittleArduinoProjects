@@ -18,10 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-
-## 73 Projects...
-Latest addition - [TestIR](./playground/TestIR) - tests raw IR reception with a TSOP1838-type IR sensor and an Arduino.
-
+## 74 Projects...
+Latest addition - [Monostable122](./Electronics101/Monostable122) - simple pulse trigger using 74LS122 monostable with external timing configuration.
 
 | Project                                                      | Category                   | Description                               |
 |--------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -63,6 +61,7 @@ Latest addition - [TestIR](./playground/TestIR) - tests raw IR reception with a 
 | [MB102 3.3/5V Breadboard Supply](./Electronics101/PowerMB102)| Power                      | demo an MB102 power supply unit |
 | [MeLEDy](./Electronics101/MeLEDy)                            | Audio                      | use an electret microphone to light a series of LEDs in proportion to volume |
 | [Monostable](./Electronics101/555Timer/Monostable)           | 555 Timer                  | basic monostable mode using an Arduino and processing to plot the output |
+  [Monostable122](./Electronics101/Monostable122)              | 74xx TTL                   | simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [MotorControlPWM](./playground/MotorControlPWM)              | Motors, Arduino            | tests PWM speed control of a DC motor driven by an Arduino |
 | [NonInverting324](./Electronics101/NonInverting324)          | OpAmp                      | demo LM324 OpAmp non-inverting DC gain mode |
 | [NOR7402](./Electronics101/NOR7402)                          | 74xx TTL, Arduino          | demo the 74LS02 Quad 2-input NOR gate with an Arduino |
