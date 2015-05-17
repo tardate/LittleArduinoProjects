@@ -1,8 +1,11 @@
 # Little Arduino Projects
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
-Some are extremely trivial, their inclusion here perhaps more a measure of my OCD than anything else.
-Many are variations of things found wild on the net, or inspired by ideas from the following sources:
+Some are "full builds" like
+[The FretBoard](./FretBoard) (a multi-project build status indicator),
+while most are quite trivial, intended to test or explore a single idea.
+
+Many are variations of things found wild on the net, or inspired by ideas from the sources such as:
 
 * [Arduino Cookbook (O'Reilly)](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
 * [Arduino StackExchange](http://arduino.stackexchange.com/)
@@ -10,24 +13,14 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 
-
-## Highlights
-Projects that have been taken all the way to a full build i.e. the ones that didn't get ripped apart for spares as soon as they were done!
-
-* [Breadboard 5V Regulator](./Electronics101/PowerBreadboard5V) - custom regulated 5V power supply module for standard breadboard
-* [FretBoard](./FretBoard) - a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array. Look at the picks to discover why it is called "The FretBoard"
-* [Girabot](./Girabot) - EE40LX Electronic Interfaces robot project
-* [MeLEDy](./Electronics101/MeLEDy) - simple volume level indicator
-
-
-## Other Bits
+### Other Bits
 
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 
-## 72 Projects...
-Latest addition - [QuadNOR](./Electronics101/QuadNOR) - demo simple cascading NOR gate logic with the 74LS02 and an Arduino.
+## 73 Projects...
+Latest addition - [TestIR](./playground/TestIR) - tests raw IR reception with a TSOP1838-type IR sensor and an Arduino.
 
 
 | Project                                                      | Category                   | Description                               |
@@ -98,6 +91,7 @@ Latest addition - [QuadNOR](./Electronics101/QuadNOR) - demo simple cascading NO
 | [Switch - NFET](./Electronics101/SwitchNFET)                 | FET                        | small-signal digital switch with NFET and turn-off delay |
 | [Switch - NPN](./Electronics101/SwitchNPN)                   | BJT                        | small-signal digital switch with NPN BJT |
 | [Switch - PNP](./Electronics101/SwitchPNP)                   | BJT                        | small-signal digital switch with PNP BJT |
+| [TestIR](./playground/TestIR)                                | IR, Arduino                | test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [TinyBlink](./playground/TinyBlink)                          | Arduino, ATmel             | a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen) | 555 Timer, Oscillators | generate a triangle wave with 555 timer and RC integrator |
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell) | 555 Timer, Oscillators     | basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
