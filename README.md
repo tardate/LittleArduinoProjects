@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 75 Projects...
-Latest addition - [MonostablePulseExtender](./playground/MonostablePulseExtender) - test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino.
+## 76 Projects...
+Latest addition - [RSFlipFlop_NORLatch](./Electronics101/RSFlipFlop_NORLatch) - Set-Reset flip-flop implemented with NOR gates.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -44,6 +44,7 @@ Latest addition - [MonostablePulseExtender](./playground/MonostablePulseExtender
 | [Gates - 2-Transistor NAND](./Electronics101/SimplestNAND)         | Logic Gates, BJT           | Simplest 2-Transistor NAND      |
 | [Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                | Logic Gates, BJT           | Set/Reset flip-flop with BJTs |
 | [Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper) | Logic Gates, BJT, Arduino  | Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
+| [Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch) | Logic Gates, 74xx TTL  | Set/Reset flip-flop implemented with NOR gates |
 | [Girabot](./Girabot)                                               | Sensors, OpAmp, Arduino    | EE40LX Electronic Interfaces robot project |
 | [HeartQuotes](./playground/HeartQuotes)                            | LCD, Ethernet, Arduino     | press a button to get a quote from the net and display on an LCD |
 | [HitTheLights](./playground/HitTheLights)                          | LCD, Human Input, Arduino  | simple LED game with LCD output and interrupt-driven button input |
