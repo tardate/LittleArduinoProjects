@@ -13,6 +13,7 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [LM386 Low Voltage Audio Power Amplifier](./LM386)
 * [LM3915 Dot/Bar Display Driver](./LM3915)
 * [LM741 General Purpose Operational Amplifier](./LM741)
+* [SMA420564 4-Digit 7-Segment LED Display](./SMA420564)
 * Stepper Motor 28BYJ-48 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
 * Stepper Board X113647 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
 
