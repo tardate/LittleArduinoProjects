@@ -52,6 +52,7 @@ Latest addition - [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment
 | [JoystickServoControl](./playground/JoystickServoControl)          | Human Input, Arduino       | controlling two servos with a joystick |
 | [LDRComparator](./Electronics101/LDRComparator)                    | Sensors, OpAmp, Arduino    | low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)    | OpAmp                      | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
+| [Led4Digit7Segment](./playground/Led4Digit7Segment)                | 7-Segment, Arduino         | overview of driving a 4-digit 7-segment display |
 | [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)| 7-Segment, Arduino | driving a 4-digit 7-segment display with a shift register and a few BJTs |
 | [LED chaser](./playground/LedChaser)                               | LED, Arduino               | blinks a series of 12 LEDs in a coninuous loop |
 | [LEDArrayDemos](./LEDArrayDemos)                                   | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |

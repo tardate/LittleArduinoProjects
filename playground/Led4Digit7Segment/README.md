@@ -34,17 +34,16 @@ It's a 4-digit common cathode unit, with the common cathode for each digit on pi
 The anode connections for each segment are mapped in the folliwng table.
 The LED segments are labelled clockwise from A (top bar) to F (top left bar); G is the centre bar; and 'dp' is the decimal point segment after the digit:
 
-|Digit: | D1| D2| D3| D4|
-|pin +\-| 7 | 10| 11| 6 |
-|-------|---|---|---|---|
-| 1     | E | E | E | E |
-| 2     | D | D | D | D |
-| 3     | dp| dp| dp| dp|
-| 4     | C | C | C | C |
-| 5     | G | G | G | G |
-| 8     | A | A | A | A |
-| 9     | F | F | F | F |
-| 12    | B | B | B | B |
+| pin(digit) | 7 (D1)  | 10 (D2) | 11 (D3) | 6 (D4) |
+|------------|---------|---------|---------|--------|
+| 1          | E       | E       | E       | E      |
+| 2          | D       | D       | D       | D      |
+| 3          | dp      | dp      | dp      | dp     |
+| 4          | C       | C       | C       | C      |
+| 5          | G       | G       | G       | G      |
+| 8          | A       | A       | A       | A      |
+| 9          | F       | F       | F       | F      |
+| 12         | B       | B       | B       | B      |
 
 ### Test Circuits
 

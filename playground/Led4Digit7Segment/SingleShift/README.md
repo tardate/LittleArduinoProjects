@@ -4,7 +4,7 @@ Driving a 4-digit 7-segment display with a shift register and a few BJTs
 
 ## Notes
 
-See [Led4Digit7Segment](../Led4Digit7Segment) for general discussion of 4-digit 7-segment displays,
+See [Led4Digit7Segment](../) for general discussion of 4-digit 7-segment displays,
 how to drive them, and the details of the specific SMA420564 unit used in this test.
 
 While you can wire up each segment pin to a digital out on the Arduino, it soon becomes pretty wasteful of pins.
