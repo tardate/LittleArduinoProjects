@@ -20,7 +20,7 @@
 #define DIGITS 4
 
 // define the bitmasks for characters 0-9
-byte LCD_DIGIT_MASK[] = {
+byte LED_DIGIT_MASK[] = {
   0b00111111,
   0b00000110,
   0b01011011,
@@ -32,12 +32,14 @@ byte LCD_DIGIT_MASK[] = {
   0b01111111,
   0b01101111
 };
+// define the bitmasks for clear and decimal point
+#define LED_CLEAR_MASK 0b00000000
+#define LED_DP_MASK    0b10000000
 
 volatile int number_for_display = 0;   // the number we'll display on the LED unit
 volatile byte current_digit = 0;       // 0-3 left to right
 
 void setup() {
-  Serial.begin(9600); 
   pinMode(ST_CP_LATCH_PIN, OUTPUT);
   pinMode(SH_CP_CLOCK_PIN, OUTPUT);
   pinMode(DS_DATA_PIN, OUTPUT);
@@ -69,7 +71,7 @@ void redrawLedDisplay() {
   byte digit_value = (number_for_display / digit_scale) % 10;
 
   // push the digit to the LED display
-  pushSegmentRegister(LCD_DIGIT_MASK[digit_value]);
+  pushSegmentRegister(LED_DIGIT_MASK[digit_value]);
   digitalWrite(DIGIT_BASE_PIN + current_digit, HIGH);
 }
 
