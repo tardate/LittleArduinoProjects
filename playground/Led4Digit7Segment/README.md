@@ -1,6 +1,6 @@
-# Simple4Digit7SegmentDisplay
+# Led4Digit7Segment
 
-Drives a 4-digit 7-segment display.
+Driving a 4-digit 7-segment display, various ways...
 
 ## Notes
 
@@ -43,36 +43,17 @@ The LED segments are labelled clockwise from A (top bar) to F (top left bar); G 
 | 9     | F | F | F | F |
 | 12    | B | B | B | B |
 
-### Test Circuit
+### Test Circuits
 
 While you can wire up each segment pin to a digital out on the Arduino, it soon becomes pretty wasteful of pins.
-A 74HC595 is used to shift out the segment values in a block, requiring only 3 pins.
+And how we program the unit depends in turn on how we drive it. See the following projects for various approaches:
 
-NPN BJTs are used to switch the sinking of each digit's common cathode connection.
-In this circuit, the BJTs are directly controlled with an additional 4 pins.
+* [SingleShift](./SingleShift) - uses an 8-bit shift register and some BJTs
 
-This circuit puts the resistors in series of the common cathode pins. Which is a bit of an approximation,
-as current (brightness) varies a little depending on how many LED segments are on.
-The better way is to put a resistor on each segment pin. But this was good enough for a simple test.
-
-
-### Construction
-
-![The Breadboard](./assets/Simple7SegmentDisplay_bb.jpg?raw=true)
-
-![The Schematic](./assets/Simple7SegmentDisplay_schematic.jpg?raw=true)
-
-![The Build](./assets/Simple7SegmentDisplay.jpg?raw=true)
 
 ## Credits and references
-* [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty stanrd example
+* [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty standard example
 * a good [How to.. question at EE.SE](http://electronics.stackexchange.com/questions/34815/using-4-digit-7-segment-led)
-
-
-http://www.instructables.com/id/4-Digit-7-Segment-LED-Display-Arduino/
-http://www.adafruit.com/datasheets/BL-Q39A-42.PDF
-http://www.hobbytronics.co.uk/arduino-4digit-7segment
-
-
-
+* [4-Digit 7-Segment LED Display + Arduino](http://www.instructables.com/id/4-Digit-7-Segment-LED-Display-Arduino/) - example of direct-wiring the LED unit
+* [Arduino UNO running 4-digit 7-segment display](http://www.hobbytronics.co.uk/arduino-4digit-7segment) - another good example f direct-wiring the LED unit
 
