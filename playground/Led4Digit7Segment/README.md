@@ -2,6 +2,9 @@
 
 Driving a 4-digit 7-segment display, various ways...
 
+![SingleShift Build](./SingleShift/assets/SingleShift_build_with_drama.jpg?raw=true)
+
+
 ## Notes
 
 There are a number of similar 4-digit 7-segment LED displays in the market.
