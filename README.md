@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 76 Projects...
-Latest addition - [RSFlipFlop_NORLatch](./Electronics101/RSFlipFlop_NORLatch) - Set-Reset flip-flop implemented with NOR gates.
+## 77 Projects...
+Latest addition - [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift) - Driving a 4-digit 7-segment display with a shift register and a few BJTs.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -50,9 +50,10 @@ Latest addition - [RSFlipFlop_NORLatch](./Electronics101/RSFlipFlop_NORLatch) - 
 | [HitTheLights](./playground/HitTheLights)                          | LCD, Human Input, Arduino  | simple LED game with LCD output and interrupt-driven button input |
 | [It's Better With Bacon](./playground/BetterWithBacon)             | LCD, Arduino               | simple LCD test |
 | [JoystickServoControl](./playground/JoystickServoControl)          | Human Input, Arduino       | controlling two servos with a joystick |
-| [LDRComparator](./Electronics101/LDRComparator)                    | Sensors, OpAmp, Arduino    | Low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
+| [LDRComparator](./Electronics101/LDRComparator)                    | Sensors, OpAmp, Arduino    | low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)    | OpAmp                      | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
-| [LED chaser](./playground/LedChaser)                               | LED, Arduino               | Blinks a series of 12 LEDs in a coninuous loop |
+| [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)| 7-Segment, Arduino | driving a 4-digit 7-segment display with a shift register and a few BJTs |
+| [LED chaser](./playground/LedChaser)                               | LED, Arduino               | blinks a series of 12 LEDs in a coninuous loop |
 | [LEDArrayDemos](./LEDArrayDemos)                                   | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)          | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                              | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
