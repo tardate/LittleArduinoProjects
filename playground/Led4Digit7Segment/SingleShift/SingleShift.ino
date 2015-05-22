@@ -19,6 +19,29 @@
 #define DIGIT_BASE_PIN 6
 #define DIGITS 4
 
+// the number we'll be updating and using for display
+int my_counter = 0;
+
+void setup() {
+  pinMode(ST_CP_LATCH_PIN, OUTPUT);
+  pinMode(SH_CP_CLOCK_PIN, OUTPUT);
+  pinMode(DS_DATA_PIN, OUTPUT);
+  for(int p=0; p<DIGITS; p++) {
+    pinMode(DIGIT_BASE_PIN + p, OUTPUT);
+  }
+
+  FlexiTimer2::set(1, redrawLedDisplay); // update an LED character every 5ms
+  FlexiTimer2::start();
+}
+
+void loop() {
+  // increment a number every little while
+  delay(100);
+  if(my_counter++ >= 9999) my_counter = 0;
+  pushToLedDisplay(my_counter, false, 1);
+}
+
+
 // define the bitmasks for characters 0-9
 byte LED_DIGIT_MASK[] = {
   0b00111111,
@@ -36,42 +59,43 @@ byte LED_DIGIT_MASK[] = {
 #define LED_CLEAR_MASK 0b00000000
 #define LED_DP_MASK    0b10000000
 
-volatile int number_for_display = 0;   // the number we'll display on the LED unit
-volatile byte current_digit = 0;       // 0-3 left to right
+volatile byte display_values[] = {0,0,0,0}; // current display values for each digit
+volatile byte current_digit = 0;            // 0-3 left to right
 
-void setup() {
-  pinMode(ST_CP_LATCH_PIN, OUTPUT);
-  pinMode(SH_CP_CLOCK_PIN, OUTPUT);
-  pinMode(DS_DATA_PIN, OUTPUT);
-  for(int p=0; p<DIGITS; p++) {
-    pinMode(DIGIT_BASE_PIN + p, OUTPUT);
+// Command: submit +value+ for display.
+// If +leading_zeros+ is true, display leading zeros, else blank.
+// If +scale+ >= 0, place decimal point at 10^-scale
+void pushToLedDisplay(int value, boolean leading_zeros, int scale) {
+  if(!leading_zeros && value<1000) {
+    display_values[0] = LED_CLEAR_MASK;
+  } else {
+    display_values[0] = LED_DIGIT_MASK[value/1000 % 10];
   }
-
-  FlexiTimer2::set(5, redrawLedDisplay); // update an LED character every 5ms
-  FlexiTimer2::start();
+  if(!leading_zeros && value<100) {
+    display_values[1] = LED_CLEAR_MASK;
+  } else {
+    display_values[1] = LED_DIGIT_MASK[value/100 % 10];
+  }
+  if(!leading_zeros && value<10) {
+    display_values[2] = LED_CLEAR_MASK;
+  } else {
+    display_values[2] = LED_DIGIT_MASK[value/10 % 10];
+  }
+  display_values[3] = LED_DIGIT_MASK[value % 10];
+  if(scale >= 0) display_values[3-scale] = display_values[3-scale] ^ LED_DP_MASK;
+}
+// Command: submit +value+ for display, no leading zeroes or decimal point
+void pushToLedDisplay(int value) {
+  pushToLedDisplay(value, false, -1);
 }
 
-void loop() {
-  // increment a number every little while
-  delay(100);
-  if(number_for_display<9999) number_for_display += 1;
-  else number_for_display = 0;
-}
-
-
+// Command: update the LED display
 void redrawLedDisplay() {
   // stop glowing the current digit and move to the next
   digitalWrite(DIGIT_BASE_PIN + current_digit, LOW);
-  current_digit++;
-  if(current_digit>3) current_digit = 0;
-
-  // do some gymnastics to figure out which number to display for this digit
-  int digit_scale = 1;
-  for(byte s=3; s>current_digit; s--) digit_scale = digit_scale * 10;
-  byte digit_value = (number_for_display / digit_scale) % 10;
-
+  if(current_digit++ > 3) current_digit = 0;
   // push the digit to the LED display
-  pushSegmentRegister(LED_DIGIT_MASK[digit_value]);
+  pushSegmentRegister(display_values[current_digit]);
   digitalWrite(DIGIT_BASE_PIN + current_digit, HIGH);
 }
 
