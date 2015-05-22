@@ -1,11 +1,15 @@
-# 7-Segment Display Counter
+# Simple7SegmentDisplay
 
 Drives a 7-segment display, performing a countdown from 9 to 0.
 
 ## Notes
 
+The 7-segment display unit I have is stamped "SMA42056". It appears to be fairly common, however I've yet to find a datasheet for it.
+From inspection hwoever, it's clearly a common cathode unit, and similar to the
+the [SC56-11](./assets/SC56-11_datasheet.pdf?raw=true)
+
 This circuit puts the resistors in series of the common cathode pins. Which is a bit of an approximation,
-as current (brightness) will vary a little depending on how many LED strips are lit. The "correct"
+as current (brightness) will vary a little depending on how many LED segments are lit. The "correct"
 way (and as recommended in other circuits I've seen) is to put a resistor on each pin. But this was
 good enough for a simple test.
 
@@ -15,17 +19,9 @@ good enough for a simple test.
 
 ![The Schematic](./assets/Simple7SegmentDisplay_schematic.jpg?raw=true)
 
-![The Build](./assets/Simple7SegmentDisplay.jpg?raw=true)
-
-### Parts
-
-* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* Breadboard
-* 7-segment common cathode LED display (I used a unit similar to [SC56-11 Datasheet](./assets/SC56-11_datasheet.pdf?raw=true))
-* 2 x 220R (or higher to reduce the display brightness)
-* ~10 jumper wires
+![The Build](./assets/Simple7SegmentDisplay_build.jpg?raw=true)
 
 ## Credits and references
+* [SC56-11 Datasheet](./assets/SC56-11_datasheet.pdf?raw=true)
 * [Arduino and 7 Segment LED](http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html) - original idea and source code
 * [Drive a 7-Segment LED with an Arduino](http://makezine.com/projects/drive-a-7-segment-led-with-an-arduino/)
-* [SC56-11 Datasheet](./assets/SC56-11_datasheet.pdf?raw=true)
