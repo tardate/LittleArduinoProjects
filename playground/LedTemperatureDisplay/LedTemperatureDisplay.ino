@@ -23,8 +23,8 @@
 #define READ_TEMPERATURE_PIN A0
 
 // actual reference voltage of the board, in mV (as measured)
-//#define VREF_MV 4930    // 5V  when analogReference(DEFAULT)
-#define VREF_MV 1060  // 1.1V when analogReference(INTERNAL)
+//#define VREF_MV 4930   // 5V  when analogReference(DEFAULT)
+#define VREF_MV 1060   // 1.1V when analogReference(INTERNAL)
 
 void setup() {
   analogReference(INTERNAL);
@@ -36,7 +36,7 @@ void setup() {
     pinMode(DIGIT_BASE_PIN + p, OUTPUT);
   }
 
-  FlexiTimer2::set(1, redrawLedDisplay); // update an LED character every 5ms
+  FlexiTimer2::set(1, redrawLedDisplay); // update an LED character every 1ms
   FlexiTimer2::start();
 }
 
@@ -70,27 +70,20 @@ byte LED_DIGIT_MASK[] = {
 volatile byte display_values[] = {0,0,0,0}; // current display values for each digit
 volatile byte current_digit = 0;            // 0-3 left to right
 
-// Command: submit +value+ for display.
-// If +leading_zeros+ is true, display leading zeros, else blank.
-// If +scale+ >= 0, place decimal point at 10^-scale
+/*
+  Command: submit +value+ for display.
+  This does the gymnastics to convert an integer into the instructions for the LED unit.
+  If +leading_zeros+ is true, display leading zeros, else blank.
+  If +scale+ >= 0, place decimal point at 10^-scale
+ */
 void pushToLedDisplay(int value, boolean leading_zeros, int scale) {
-  if(!leading_zeros && value<1000) {
-    display_values[0] = LED_CLEAR_MASK;
-  } else {
-    display_values[0] = LED_DIGIT_MASK[value/1000 % 10];
+  int scalor = 1;
+  for(int position=3; position>=0; position--) {
+    if(!leading_zeros && value<scalor) display_values[position] = LED_CLEAR_MASK;
+    else display_values[position] = LED_DIGIT_MASK[value/scalor % 10];
+    if(scale==3-position) display_values[position] = display_values[position] ^ LED_DP_MASK;
+    scalor *= 10;
   }
-  if(!leading_zeros && value<100) {
-    display_values[1] = LED_CLEAR_MASK;
-  } else {
-    display_values[1] = LED_DIGIT_MASK[value/100 % 10];
-  }
-  if(!leading_zeros && value<10) {
-    display_values[2] = LED_CLEAR_MASK;
-  } else {
-    display_values[2] = LED_DIGIT_MASK[value/10 % 10];
-  }
-  display_values[3] = LED_DIGIT_MASK[value % 10];
-  if(scale >= 0) display_values[3-scale] = display_values[3-scale] ^ LED_DP_MASK;
 }
 // Command: submit +value+ for display, no leading zeroes or decimal point
 void pushToLedDisplay(int value) {
