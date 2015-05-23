@@ -51,6 +51,7 @@ And how we program the unit depends in turn on how we drive it. See the followin
 
 * [SingleShift](./SingleShift) - uses an 8-bit shift register and some BJTs, total of 7 Arduino GPIO pins required
 * [DoubleShift](./DoubleShift) - uses two 8-bit shift registers and some BJTs, total of 3 Arduino GPIO pins required
+* [DoubleShiftWithFETs](./DoubleShiftWithFETs) - uses two 8-bit shift registers and some n-channel FETs, total of 3 Arduino GPIO pins required
 
 
 ## Credits and references

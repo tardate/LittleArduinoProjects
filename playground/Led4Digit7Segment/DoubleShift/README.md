@@ -25,6 +25,8 @@ The better way is to put a resistor on each segment pin. But this was good enoug
 
 When fully on (e.g. displaying 8888), it appears the display and associated components on the breadboard are drawing
 an average of about 2.87mA.
+A direct replacement of the S9013 BJTs with n-channel FETs - see [Led4Digit7Segment/DoubleShiftWithFETs](../DoubleShiftWithFETs) -
+results in an average current of 2.47mA).
 
 ### Construction
 

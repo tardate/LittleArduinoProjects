@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 80 Projects...
-Latest addition - [Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment/DoubleShift) - driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs.
+## 81 Projects...
+Latest addition - [Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs) - driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -54,6 +54,7 @@ Latest addition - [Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)    | OpAmp                      | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
 | [Led4Digit7Segment](./playground/Led4Digit7Segment)                | 7-Segment, Arduino         | overview of driving a 4-digit 7-segment display |
 | [Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment/DoubleShift)| 7-Segment, Arduino | driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs |
+| [Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs)| 7-Segment, Arduino | driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs |
 | [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)| 7-Segment, Arduino | driving a 4-digit 7-segment display with a shift register and a few BJTs |
 | [LedTemperatureDisplay](./playground/LedTemperatureDisplay)        | Sensors, 7-Segment, Arduino| measure ambient temperature and display with a 4-digit 7-segment LED unit |
 | [LED chaser](./playground/LedChaser)                               | LED, Arduino               | blinks a series of 12 LEDs in a coninuous loop |
