@@ -8,23 +8,22 @@
 
 #include <FlexiTimer2.h>
 
-// Pin 13 has an LED connected on most Arduino boards.
-int led_pin = 13;
+#define LED_PIN 13                           // pin 13 has an LED connected on most Arduino boards
 
 void setup() {
-  pinMode(led_pin, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
 
-  FlexiTimer2::set(500, 1.0/1000, flash); // call every 500 1ms "ticks"
+  FlexiTimer2::set(500, 1.0/1000, flash);    // call every 500 1ms "ticks"
   FlexiTimer2::start();
 }
 
 void loop() {
+  // NOP
 }
 
-void flash()
-{
+void flash() {
   static boolean output = HIGH;
 
-  digitalWrite(led_pin, output);
+  digitalWrite(LED_PIN, output);
   output = !output;
 }

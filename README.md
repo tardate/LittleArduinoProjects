@@ -1,7 +1,7 @@
 # Little Arduino Projects
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
-Some are "full builds" like
+Some are full builds like
 [The FretBoard](./FretBoard) (a multi-project build status indicator),
 while most are quite trivial breadboard kata, intended to test or explore a single idea.
 

@@ -1,8 +1,6 @@
-# LED Blink
+# Blink
 
 The most basic LED blinking circuit.
-
-![The Build](./assets/Blink_build.jpg?raw=true)
 
 ## Notes
 
@@ -35,15 +33,6 @@ I guess that's the accuracy and the affect of my multimeter on the circuit when 
 
 ![The Build](./assets/Blink_build.jpg?raw=true)
 
-### Parts
-
-* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* mini breadboard
-* 1x LED
-* 220R resistor to current-limit the LED
-
 ## Credits and references
-* Based on the Arduino Blink example http://www.arduino.cc/en/Tutorial/Blink
-
-
+* [Arduino Blink tutorial](http://www.arduino.cc/en/Tutorial/Blink)
 
