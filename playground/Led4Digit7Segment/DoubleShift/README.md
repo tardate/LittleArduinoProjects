@@ -17,7 +17,7 @@ The first byte encodes the selection of which digit(s) to enable,
 and the second byte endodes the selection of which LED segments to enable.
 
 The LED segments and BJTs are wired to the shift register outputs accordingly. So then it is just a matter of pushing
-the right bytes out to the shift registers.
+the right bytes out to the shift registers and latch the result.
 
 As before, the circuit puts the current-limiting resistors in series of the common cathode pins.
 Which is a bit of an approximation, as current (brightness) varies a little depending on how many LED segments are on.

@@ -4,7 +4,6 @@ Driving a 4-digit 7-segment display, various ways...
 
 ![SingleShift Build](./SingleShift/assets/SingleShift_build_with_drama.jpg?raw=true)
 
-
 ## Notes
 
 There are a number of similar 4-digit 7-segment LED displays in the market.
@@ -50,7 +49,8 @@ The LED segments are labelled clockwise from A (top bar) to F (top left bar); G 
 While you can wire up each segment pin to a digital out on the Arduino, it soon becomes pretty wasteful of pins.
 And how we program the unit depends in turn on how we drive it. See the following projects for various approaches:
 
-* [SingleShift](./SingleShift) - uses an 8-bit shift register and some BJTs
+* [SingleShift](./SingleShift) - uses an 8-bit shift register and some BJTs, total of 7 Arduino GPIO pins required
+* [DoubleShift](./DoubleShift) - uses two 8-bit shift registers and some BJTs, total of 3 Arduino GPIO pins required
 
 
 ## Credits and references
