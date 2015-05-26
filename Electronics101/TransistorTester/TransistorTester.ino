@@ -1,7 +1,7 @@
 /*
 
   TransistorTester
-  Capacitor tester with LCD output.
+  Tests NPN and PNP transistors with LCD output.
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/TransistorTester
 
@@ -24,14 +24,13 @@
 LiquidCrystal lcd(6, 7, 9, 10, 11, 12);
 
 void setup() {
-  Serial.begin(9600);
-  //lcd.begin(16, 2); // set up the LCD's number of columns and rows
+  lcd.begin(16, 2); // set up the LCD's number of columns and rows
+  setWaiting();
 }
 
 void loop() {
-  testForNPN();
-  testForPNP();
-  delay(5000);
+  testForNPN() || testForPNP() || setFailedResult();
+  delay(1000);
 }
 
 /*
@@ -82,14 +81,10 @@ boolean testForNPN() {
   Serial.println("**\n");
 
   if(ebaseReading>1000) {
-    Serial.println("** NPN not found **\n");
     return false;
   } else {
-    Serial.println("** NPN found **");
-    Serial.print("Vf forward voltage: ");
-    Serial.print(bemV);
-    Serial.println("mV\n");
-    return false;
+    setResult(1,bemV);
+    return true;
   }
 
 }
@@ -129,26 +124,53 @@ boolean testForPNP() {
   // reset base
   pinMode(B_PIN,INPUT);
 
-  bemV = (emitterReading - ebaseReading) / 1023.0 * VREF_MV;
+  bemV = (ebaseReading - emitterReading) / 1023.0 * VREF_MV;
   Serial.print("B_READ_PIN:"); Serial.println(ebaseReading);
   Serial.print("E_READ_PIN:"); Serial.println(emitterReading);
   Serial.print("bemV:"); Serial.println(bemV);
 
-  bcmV = (collectorReading - cbaseReading) / 1023.0 * VREF_MV;
+  bcmV = (cbaseReading - collectorReading) / 1023.0 * VREF_MV;
   Serial.print("B_READ_PIN:"); Serial.println(cbaseReading);
   Serial.print("C_READ_PIN:"); Serial.println(collectorReading);
   Serial.print("bcmV:"); Serial.println(bcmV);
   Serial.println("**\n");
 
   if(ebaseReading<100) {
-    Serial.println("** PNP not found **\n");
     return false;
   } else {
-    Serial.println("** PNP found **");
-    Serial.print("Vf forward voltage: ");
-    Serial.print(bemV);
-    Serial.println("mV\n");
-    return false;
+    setResult(2,bemV);
+    return true;
   }
 
+}
+
+void setWaiting() {
+  lcd.clear();
+  lcd.print("Insert a BJT..");
+}
+
+void setResult(int bjt_type, int vf) {
+  lcd.clear();
+  switch(bjt_type) {
+  case 1: // NPN
+    lcd.print("NPN Vf=");
+    break;
+  case 2:
+    lcd.print("PNP Vf=");
+    break; // NPN
+  default: // unidentified
+    lcd.print("** no/bad BJT **");
+    lcd.setCursor(0, 1);
+    lcd.print("Insert to test..");
+    return;
+  }
+  lcd.print(vf);
+  lcd.print("mV");
+  lcd.setCursor(0, 1);
+  lcd.print("Test another..");
+}
+
+boolean setFailedResult() {
+  setResult(0,0);
+  return true;
 }

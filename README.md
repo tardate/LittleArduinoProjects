@@ -18,9 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 82 Projects...
-Latest addition - [EMRDetection/MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit) - build and investigate a commercially available "mobile phone signal" detector kit.
-
+## 83 Projects...
+Latest addition - [TransistorTester](./Electronics101/TransistorTester) - use an Arduino to test NPN and PNP BJTs.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -101,6 +100,7 @@ Latest addition - [EMRDetection/MobileRFDetectorKit](./Electronics101/EMRDetecti
 | [Switch - PNP](./Electronics101/SwitchPNP)                         | BJT                        | small-signal digital switch with PNP BJT |
 | [TestIR](./playground/TestIR)                                      | IR, Arduino                | test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [TinyBlink](./playground/TinyBlink)                                | Arduino, ATmel             | a simple blink sketch with an ATTINY85-20PU on a breadboard |
+| [TransistorTester](./Electronics101/TransistorTester)              | Arduino, BJT               | use an Arduino to test NPN and PNP BJTs |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)   | 555 Timer, Oscillators     | generate a triangle wave with 555 timer and RC integrator |
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)       | 555 Timer, Oscillators     | basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [Variable LED brightness (PWM)](./playground/VariableLED)          | LED, Arduino               | variable resistor is used to control the brightness of an LED with PWM |
