@@ -15,7 +15,7 @@ A bipolar junction transistor (BJT) can be considered a back-to-back pair of dio
 Given this arrangement, one technique for testing BJTs is to measure the forward voltage between Base-Emitter and Base-Collector.
 * if positive forward voltage is found from Base to Emitter and Base to Collector, we assume a properly functioning NPN
 * if positive forward voltage is found from Emitter to Base and Collector to Base, we assume a properly functioning PNP
-The forward voltage will be around 0.7V for silicon transistors.
+* the forward voltage will be around 0.7V for silicon transistors
 
 The Arduino sketch periodically probes the transistor test pad. This invovles checking the various possible
 forward voltage combinations and recording the results. From this it concludes:
