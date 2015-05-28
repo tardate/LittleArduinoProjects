@@ -2,6 +2,10 @@
 
 Build and examine the workings of a commercial 555 Roulette kit
 
+Here's a quick video of it in action:
+
+[![RouletteKit demo](http://img.youtube.com/vi/sRrmW6ToDyQ/0.jpg)](http://www.youtube.com/watch?v=sRrmW6ToDyQ)
+
 ## Notes
 
 Julian Ilett really does excellent videos on YouTube, even when he's just building a dinky electronic kit
