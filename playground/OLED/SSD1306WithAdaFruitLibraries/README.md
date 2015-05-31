@@ -1,10 +1,10 @@
-# LcdSSD1306WithAdaFruitLibraries
+# OLED/SSD1306WithAdaFruitLibraries
 
 Running the AdaFruit example program with a monochrome 128x64 OLED Display
 
 Here's a quick video of the circuit in action:
 
-[![LcdSSD1306WithAdaFruitLibraries demo](http://img.youtube.com/vi/A-Yeba9-Y1I/0.jpg)](http://www.youtube.com/watch?v=A-Yeba9-Y1I)
+[![OLED/SSD1306WithAdaFruitLibraries demo](http://img.youtube.com/vi/A-Yeba9-Y1I/0.jpg)](http://www.youtube.com/watch?v=A-Yeba9-Y1I)
 
 ## Notes
 
@@ -34,11 +34,11 @@ Well, that works fine. But it does use a huge amount of the memory just to do th
 
 ## Construction
 
-![The Breadboard](./assets/LcdSSD1306WithAdaFruitLibraries_bb.jpg?raw=true)
+![The Breadboard](./assets/SSD1306WithAdaFruitLibraries_bb.jpg?raw=true)
 
-![The Schematic](./assets/LcdSSD1306WithAdaFruitLibraries_schematic.jpg?raw=true)
+![The Schematic](./assets/SSD1306WithAdaFruitLibraries_schematic.jpg?raw=true)
 
-![The Build](./assets/LcdSSD1306WithAdaFruitLibraries_build.jpg?raw=true)
+![The Build](./assets/SSD1306WithAdaFruitLibraries_build.jpg?raw=true)
 
 ## Credits and References
 * AdaFruit's excellent [Monochrome OLED Breakouts](https://learn.adafruit.com/monochrome-oled-breakouts/overview) page
