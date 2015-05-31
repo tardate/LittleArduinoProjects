@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 86 Projects...
-Latest addition - [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) - running the AdaFruit example program with a monochrome 128x64 OLED Display.
+## 87 Projects...
+Latest addition - [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack) - driving a monochrome 128x64 OLED Display with an Arduino and the raw command set.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -74,6 +74,7 @@ Latest addition - [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306W
 | [MotorControlPWM](./playground/MotorControlPWM)                    | Motors, Arduino            | tests PWM speed control of a DC motor driven by an Arduino |
 | [NonInverting324](./Electronics101/NonInverting324)                | OpAmp                      | demo LM324 OpAmp non-inverting DC gain mode |
 | [NOR7402](./Electronics101/NOR7402)                                | 74xx TTL, Arduino          | demo the 74LS02 Quad 2-input NOR gate with an Arduino |
+| [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)          | OLED, Arduino              | driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | OLED, Arduino  | running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [Popcorn](./playground/Popcorn)                                    | Audio, Arduino             | How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [Pushbutton LED switch](./playground/PushbuttonLED)                | LED, Arduino               | Momentary push button switch is used to toggle the LED on and off |
