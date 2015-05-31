@@ -16,9 +16,9 @@ There are a few commonly-used libraries - [such as ladyada's](https://github.com
 however this sketch uses the instruction set for device directly, as documented in the [PCD8544 datasheet](http://eia.udg.edu/~forest/PCD8544_1.pdf).
 
 A couple of observations:
-* it seems different modules have different pin arragnements, so it is important to match the 5110 pins to the Arduino correctly.
+* it seems different modules have different pin arrangements, so it is important to match the 5110 pins to the Arduino correctly.
 * it works fine with 5V logic connections
-* with 5V logic connections, there appears to be no need to connect Vcc, it works fine disconnected! In fact, some circuits that "do the right thing" and connect 3.3V supply to Vcc are not behaving as might be execpted. At least with my module, the Vcc is already taken up to 4.2V+ by the login pins.
+* with 5V logic connections, there appears to be no need to connect Vcc, it works fine disconnected! In fact, some circuits that "do the right thing" and connect 3.3V supply to Vcc are not behaving as might be execpted. At least with my module, the Vcc is already taken up to 4.2+V by the login pins.
 
 ## Construction
 
@@ -33,5 +33,5 @@ A couple of observations:
 * [Arduino Nokia 5110 LCD Tutorial #1 - Connecting and Initial Programming](https://www.youtube.com/watch?v=RAlZ1DHw03g)
 * [Arduino Nokia 5110 LCD Tutorial #2 - Getting Text on the Display](https://www.youtube.com/watch?v=E6PUa4n2DnA)
 * [Arduino Nokia 5110 LCD Tutorial #3 - Live Numerical Data](https://www.youtube.com/watch?v=cwsCxUhHbQM)
-* [Nokia 5110 graphics tutorial](http://www.instructables.com/id/Nokia-5110-graphics-tutorial/?ALLSTEPS)
-* [How to use a Nokia 5110 84X48 LCD display with your Arduino](http://www.instructables.com/id/How-to-use-a-Nokia-5110-84X48-LCD-display-with-you/)
+* [Nokia 5110 graphics tutorial](http://www.instructables.com/id/Nokia-5110-graphics-tutorial/?ALLSTEPS) - uses the [LCD5110_Graph library](http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Graph.zip)
+* [How to use a Nokia 5110 84X48 LCD display with your Arduino](http://www.instructables.com/id/How-to-use-a-Nokia-5110-84X48-LCD-display-with-you/) - using the [AdaFruit library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
