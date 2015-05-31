@@ -19,8 +19,13 @@
 
 #define SSD1306_PIXEL_WIDTH             128
 #define SSD1306_PIXEL_HEIGHT            64
-#define SSD1306_PAGE_HEIGHT             SSD1306_PIXEL_HEIGHT / 8
-#define SSD1306_MEMORY_SEGMENTS         SSD1306_PIXEL_WIDTH * SSD1306_PAGE_HEIGHT
+#define SSD1306_PAGE_COUNT              8
+#define SSD1306_PAGE_HEIGHT             SSD1306_PIXEL_HEIGHT / SSD1306_PAGE_COUNT
+#define SSD1306_SEGMENT_COUNT           SSD1306_PIXEL_WIDTH * SSD1306_PAGE_HEIGHT
+
+//** a simple font for testing
+#include "font.h"
+#define SSD1306_FONT_WIDTH              5
 
 //** fundamental commands
 
@@ -51,15 +56,16 @@
 #define SSD1306_SET_START_LINE          0b01000000 // 0x40
 #define SSD1306_START_LINE_DEFAULT      0b00000000
 
-#define SSD1306_SET_SEGMENT_REMAP       0b10100000 // 0xA0
-#define SSD1306_SEGMENT_REMAP_DEFAULT   0b0
+#define SSD1306_SET_SEG_SCAN            0b10100000 // 0xA0
+#define SSD1306_SET_SEG_SCAN_DEFAULT    SSD1306_SET_SEG_SCAN | 0b00
+#define SSD1306_SET_SEG_SCAN_REVERSE    SSD1306_SET_SEG_SCAN | 0b01
 
 #define SSD1306_SET_MULTIPLEX_RATIO     0b10101000 // 0xA8
 #define SSD1306_MULTIPLEX_RATIO_DEFAULT 0b00111111
 
 #define SSD1306_SET_COM_SCAN            0b11000000 // 0xC0
-#define SSD1306_COM_SCAN_DEFAULT        0b0000
-#define SSD1306_COM_SCAN_REMAPPED       0b1000
+#define SSD1306_SET_COM_SCAN_DEFAULT    SSD1306_SET_COM_SCAN | 0b0000
+#define SSD1306_SET_COM_SCAN_REVERSE    SSD1306_SET_COM_SCAN | 0b1000
 
 #define SSD1306_SET_DISPLAY_OFFSET      0b11010011 // 0xD3
 #define SSD1306_DISPLAY_OFFSET_DEFAULT  0b00000000
@@ -96,6 +102,7 @@ void OledWriteCmd(byte cmd) {
 void OledWriteData(byte cmd) {
   OledWrite(cmd,HIGH);
 }
+
 void OledResetHorizontalAddressing() {
   OledWriteCmd(SSD1306_ADDRESSING); OledWriteCmd(SSD1306_ADDRESSING_HORIZONTAL);
   OledWriteCmd(SSD1306_SET_COLUMN);
@@ -107,7 +114,27 @@ void OledResetHorizontalAddressing() {
 }
 
 void OledClear() {
-  for(int i=0; i<SSD1306_MEMORY_SEGMENTS; i++) OledWriteData(0x00);
+  OledXY(0,0);
+  for(int i=0; i<SSD1306_SEGMENT_COUNT; i++) OledWriteData(0x00);
+  OledXY(0,0);
+}
+
+void OledXY(int x, int y) {
+  OledWriteCmd(SSD1306_SET_COLUMN);
+  OledWriteCmd(x * SSD1306_FONT_WIDTH);
+  OledWriteCmd(SSD1306_PIXEL_WIDTH - 1);
+  OledWriteCmd(SSD1306_SET_PAGE);
+  OledWriteCmd(y);
+  OledWriteCmd(SSD1306_PAGE_HEIGHT - 1);
+}
+
+void OledWriteCharacter(char character) {
+  for(int i=0; i<5; i++) OledWriteData(ASCII[character - 0x20][i]);
+  OledWriteData(0x00);
+}
+
+void OledWriteString(char *characters) {
+  while(*characters) OledWriteCharacter(*characters++);
 }
 
 void setup()
@@ -130,11 +157,10 @@ void setup()
 
   OledWriteCmd(SSD1306_SET_START_LINE | SSD1306_START_LINE_DEFAULT);
 
-  OledResetHorizontalAddressing();
+  OledWriteCmd(SSD1306_ADDRESSING); OledWriteCmd(SSD1306_ADDRESSING_HORIZONTAL);
 
-  OledWriteCmd(SSD1306_SET_SEGMENT_REMAP | SSD1306_SEGMENT_REMAP_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_COM_SCAN | SSD1306_COM_SCAN_REMAPPED);
+  OledWriteCmd(SSD1306_SET_SEG_SCAN_REVERSE);
+  OledWriteCmd(SSD1306_SET_COM_SCAN_REVERSE);
 
   OledWriteCmd(SSD1306_SET_COM_PINS);
   OledWriteCmd(SSD1306_COM_PINS_DEFAULT);
@@ -158,15 +184,47 @@ void setup()
 
 void loop() {
   demoHatching();
+  demoPositionedText();
+  demoInversedText();
+  demoVoltageDisplay();
 }
 
 void demoHatching() {
   OledClear();
   delay(400);
-  for(int i=0; i< SSD1306_MEMORY_SEGMENTS / 2; i++) {
+  for(int i=0; i< SSD1306_SEGMENT_COUNT / 2; i++) {
     OledWriteData(0x55);
     OledWriteData(0xAA);
   }
   delay(600);
 }
 
+void demoPositionedText() {
+  OledClear();
+  for(int i=0; i<SSD1306_PAGE_COUNT; i++) {
+    OledXY(i, i);
+    OledWriteString("Demo!");
+  }
+  delay(1000);
+}
+
+void demoInversedText() {
+  OledWriteCmd(SSD1306_DISPLAY_INVERSE);
+  OledClear();
+  demoPositionedText();
+  OledWriteCmd(SSD1306_DISPLAY_NORMAL);
+}
+
+void demoVoltageDisplay() {
+  char vString[8];
+  float vIn;
+  OledClear();
+  OledXY(4,2);
+  OledWriteString("VOLTAGE:");
+  for(int i=0; i<20; i++) {
+    OledXY(13,2);
+    vIn = analogRead(A0) * 3.3 / 1023;
+    OledWriteString(dtostrf(vIn,5,2,vString));
+    delay(200);
+  }
+}
