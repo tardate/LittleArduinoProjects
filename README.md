@@ -18,9 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 85 Projects...
-Latest addition - [Lcd5110BareBack](./playground/Lcd5110BareBack) - driving a Nokia 5110 LCD Display with an Arduino and the raw command set.
-
+## 86 Projects...
+Latest addition - [LcdSSD1306WithAdaFruitLibraries](./playground/LcdSSD1306WithAdaFruitLibraries) - running the AdaFruit example program with a monochrome 128x64 OLED Display.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -53,6 +52,7 @@ Latest addition - [Lcd5110BareBack](./playground/Lcd5110BareBack) - driving a No
 | [It's Better With Bacon](./playground/BetterWithBacon)             | LCD, Arduino               | simple LCD test |
 | [JoystickServoControl](./playground/JoystickServoControl)          | Human Input, Arduino       | controlling two servos with a joystick |
 | [Lcd5110BareBack](./playground/Lcd5110BareBack)                    | LCD, Arduino               | driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
+| [LcdSSD1306WithAdaFruitLibraries](./playground/LcdSSD1306WithAdaFruitLibraries) | LCD, Arduino  | running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [LDRComparator](./Electronics101/LDRComparator)                    | Sensors, OpAmp, Arduino    | low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)    | OpAmp                      | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
 | [Led4Digit7Segment](./playground/Led4Digit7Segment)                | 7-Segment, Arduino         | overview of driving a 4-digit 7-segment display |
