@@ -4,7 +4,7 @@ Test driving a monochrome 128x64 OLED Display with an Arduino and the raw comman
 
 Here's a quick video of the circuit in action:
 
-[![OLED/SSD1306BareBack demo](http://img.youtube.com/vi/A-Yeba9-Y1I/0.jpg)](http://www.youtube.com/watch?v=A-Yeba9-Y1I)
+[![OLED/SSD1306BareBack demo](http://img.youtube.com/vi/nOg80VcqZtc/0.jpg)](http://www.youtube.com/watch?v=nOg80VcqZtc)
 
 ## Notes
 
@@ -29,6 +29,15 @@ The pin breakouts are slightly different from the AdaFruit module (used in the F
 | D12     | CS   |
 | GND     | GND  |
 | VCC     | VCC  |
+
+
+Of course, using the raw command approach means the program leaves out all the unecessary support, so memory requirements
+are much less than if importing a full library:
+
+| Memory          | Usage             | Using Library      |
+|-----------------|-------------------|--------------------|
+| program storage | 4,650 bytes (15%) | 20,770 bytes (67%) |
+| dynamic memory  | 505 bytes (24%)   | 1,580 bytes (77%)  |
 
 
 ## Construction
