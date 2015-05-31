@@ -13,9 +13,7 @@ It runs the 128x64 SPI example from AdaFruit.
 
 I'm using an Arduino Pro Mini running on 3.3V at 8MHz, and driving the OLED directly.
 
-The OLED is one I got from aliexpress for USD3.93 - see the seller's page: [Yellow+Blue 0.96" SPI Serial 128X64 OLED](http://www.aliexpress.com/item/M89-Free-Shipping-Yellow-Blue-0-96-SPI-Serial-128X64-OLED-LCD-Display-Module-for-Arduino/32245505493.html).
-
-Although it's a monochrome display, this unit comes with two-tinted glass, which makes the upper fifth of the screen yellow and the lower blue.
+The OLED is one I got from aliexpress for USD3.93 - see the seller's page: [Yellow+Blue 0.96" SPI Serial 128X64 OLED](http://www.aliexpress.com/item/M89-Free-Shipping-Yellow-Blue-0-96-SPI-Serial-128X64-OLED-LCD-Display-Module-for-Arduino/32245505493.html). Although it's a monochrome display, this unit comes with two-tinted glass, which makes the upper fifth of the screen yellow and the lower blue.
 
 The pin breakouts are slightly different from the AdaFruit module (used in the Fritzing diagram). These are the actual pin connections for my unit:
 
