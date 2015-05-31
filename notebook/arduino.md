@@ -26,11 +26,11 @@
 Pin Connections as described on
 [weworkweplay](http://weworkweplay.com/play/connect-jy-mcu-usb-serial-port-adapter-to-arduino-mini-pro-3.3v-atmega328/):
 
+* Connect USB DTR to Arduino GRN, aka DAW on some boards
+* Connect USB RXD to Arduino TXD
+* Connect USB TXD to Arduino RXI
 * Connect USB 3.3V to Arduino VCC
 * Connect USB Ground to Arduino BLK, aka GND on some boards
-* Connect USB TXO to Arduino RXI
-* Connect USB RXD to Arduino TXD
-* Connect USB DTR to Arduino GRN, aka DAW on some boards
 
 ![The pro_mini_usb_serial_connection](./assets/pro_mini_usb_serial_connection.jpg?raw=true)
 
