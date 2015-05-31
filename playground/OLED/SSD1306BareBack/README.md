@@ -30,6 +30,8 @@ The pin breakouts are slightly different from the AdaFruit module (used in the F
 | GND     | GND  |
 | VCC     | VCC  |
 
+Note that my OLED doesn't have a reset connection, so I'm not able to use a reset to get the display back to default configuration,
+hence the `setup` method runs through and sets all the configuration options regardless.
 
 Of course, using the raw command approach means the program leaves out all the unecessary support, so memory requirements
 are much less than if importing a full library:
