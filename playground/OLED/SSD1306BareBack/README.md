@@ -53,6 +53,7 @@ are much less than if importing a full library:
 ## Credits and References
 * AdaFruit's excellent [Monochrome OLED Breakouts](https://learn.adafruit.com/monochrome-oled-breakouts/overview) page
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
-* [1-Day Project: Arduino Uno and I2C OLED Display Challenge](https://www.youtube.com/watch?v=VEZGn0zYHiE)
+* [1-Day Project: Arduino Uno and I2C OLED Display Challenge](https://www.youtube.com/watch?v=VEZGn0zYHiE) - Julian Ilett's video that inspired this test
 * [Introduction to I²C and SPI protocols](http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/)
 * [Arduino And SSD1306 Oled Display Tutorial](https://www.youtube.com/watch?v=mggDYVzS-Xs)
+* [Lcd5110BareBack](../../Lcd5110BareBack) - a similar test but for a Nokia 5110 LCD Display
