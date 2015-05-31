@@ -7,6 +7,7 @@ Some projects require additional libraries. For example:
 * For precision timing, projects generally use the [FlexiTimer2](https://github.com/wimleers/flexitimer2) library
 * nRF24L01+ projects generally use the [RF24](https://github.com/maniacbug/RF24) library
 * Packet Radio e.g. 433MHz projects generally use the [RadioHead](https://github.com/tardate/RadioHead) library. RadioHead is a successor the the [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/) library.
+* Monochrome OLED displays use the [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) library
 
 These libraries are included as submodules of this repository and can be installed with git.
 Or you can just install them normally.

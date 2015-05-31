@@ -16,3 +16,6 @@
 [submodule "libraries/RadioHead"]
 	path = libraries/RadioHead
 	url = https://github.com/tardate/RadioHead
+[submodule "libraries/Adafruit_SSD1306"]
+	path = libraries/Adafruit_SSD1306
+	url = https://github.com/adafruit/Adafruit_SSD1306
