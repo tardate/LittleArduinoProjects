@@ -103,16 +103,6 @@ void OledWriteData(byte cmd) {
   OledWrite(cmd,HIGH);
 }
 
-void OledResetHorizontalAddressing() {
-  OledWriteCmd(SSD1306_ADDRESSING); OledWriteCmd(SSD1306_ADDRESSING_HORIZONTAL);
-  OledWriteCmd(SSD1306_SET_COLUMN);
-  OledWriteCmd(0);
-  OledWriteCmd(SSD1306_PIXEL_WIDTH - 1);
-  OledWriteCmd(SSD1306_SET_PAGE);
-  OledWriteCmd(0);
-  OledWriteCmd(SSD1306_PAGE_HEIGHT - 1);
-}
-
 void OledClear() {
   OledXY(0,0);
   for(int i=0; i<SSD1306_SEGMENT_COUNT; i++) OledWriteData(0x00);
@@ -159,6 +149,7 @@ void setup()
 
   OledWriteCmd(SSD1306_ADDRESSING); OledWriteCmd(SSD1306_ADDRESSING_HORIZONTAL);
 
+  // setting seg and com scan reverse means our x,y origin is top left of the screen
   OledWriteCmd(SSD1306_SET_SEG_SCAN_REVERSE);
   OledWriteCmd(SSD1306_SET_COM_SCAN_REVERSE);
 
