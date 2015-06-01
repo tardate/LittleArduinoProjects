@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 87 Projects...
-Latest addition - [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack) - driving a monochrome 128x64 OLED Display with an Arduino and the raw command set.
+## 88 Projects...
+Latest addition - [ElectronicClockKit](./Electronics101/ElectronicClockKit) - build and investigate a commercially available "electronic clock" kit.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -37,6 +37,7 @@ Latest addition - [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack) - dr
 | [El Jarabe Tapatío](./playground/JarabeTapatio)                    | Audio, Arduino             | play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
 | [ElectretADC](./playground/ElectretADC)                            | Audio, Arduino             | convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [ElectretTrigger](./playground/ElectretTrigger)                    | Sensors, Audio, OpAmp, Arduino | uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
+| [ElectronicClockKit](./Electronics101/ElectronicClockKit)          | LCD, Kit                   | build and investigate a commercially available "electronic clock" kit |
 | [EMRDetection/MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit) | RF      | build and investigate a commercially available "mobile phone signal" detector kit |
 | [FunctionGenerator324](./Electronics101/FunctionGenerator324)      | OpAmp, Oscillators         | LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [FretBoard](./FretBoard)                                           | LED Array, Arduino         | a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
