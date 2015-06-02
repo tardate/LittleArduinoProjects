@@ -29,6 +29,10 @@ and the upper trace is the triangle-wave output of the second stage (pin 1).
 What's a little confusing is the fact that C1 is performing double-duty in both stages of the oscillator.
 I haven't exactly untangled it all in my head yet, but its a curious thing that it works.
 
+It also seems this could be simplified by reconfiguring as a
+[comparator–based relaxation oscillator](http://en.wikipedia.org/wiki/Relaxation_oscillator#Comparator.E2.80.93based_relaxation_oscillator),
+and only require a single op-amp unit. I might try that later...
+
 From a parts cost and count perspective, I'm not sure there's much advantage in using an op-amp oscillator
 over, for example, a [555 timer-based triangle wave generator](../555Timer/TriangleWaveGen).
 
