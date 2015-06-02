@@ -44,7 +44,7 @@ The phone I'm testing is using [HSPA+ over WCDMA](http://en.wikipedia.org/wiki/E
 However if I attach virtually any length of antenna, it goes full on all the time. Either I'm in a very noisy environment, or the
 sensitivity of this circuit is incorrectly calibrated. I might come back to this later to investigate further.
 
-### Construction
+## Construction
 
 ![The Breadboard](./assets/MobileRFDetectorKit_bb.jpg?raw=true)
 
@@ -52,7 +52,7 @@ sensitivity of this circuit is incorrectly calibrated. I might come back to this
 
 ![The Build](./assets/MobileRFDetectorKit_build.jpg?raw=true)
 
-![The Build](./assets/MobileRFDetectorKit_pcb.jpg?raw=true)
+![PCB Build](./assets/MobileRFDetectorKit_pcb.jpg?raw=true)
 
 ### Parts
 

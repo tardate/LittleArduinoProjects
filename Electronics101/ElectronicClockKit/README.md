@@ -93,12 +93,11 @@ Functions:
 
 ![The Schematic](./assets/ElectronicClockKit_schematic.jpg?raw=true)
 
-![The Schematic](./assets/ElectronicClockKit_parts.jpg?raw=true)
+![Parts](./assets/ElectronicClockKit_parts.jpg?raw=true)
 
-![The Schematic](./assets/ElectronicClockKit_pcb_front.jpg?raw=true)
+![PCB front](./assets/ElectronicClockKit_pcb_front.jpg?raw=true)
 
-![The Schematic](./assets/ElectronicClockKit_pcb_back.jpg?raw=true)
-
+![PCB rear](./assets/ElectronicClockKit_pcb_back.jpg?raw=true)
 
 ### Parts
 
