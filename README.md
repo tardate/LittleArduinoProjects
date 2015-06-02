@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 88 Projects...
-Latest addition - [ElectronicClockKit](./Electronics101/ElectronicClockKit) - build and investigate a commercially available "electronic clock" kit.
+## 89 Projects...
+Latest addition - [BreatheLamp](./Electronics101/BreatheLamp) - build and test a common LED visual effect circuit.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -31,6 +31,7 @@ Latest addition - [ElectronicClockKit](./Electronics101/ElectronicClockKit) - bu
 | [Blink](./playground/Blink)                                        | LED, Arduino               | the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                      | LED, Timing, Arduino       | use a timer to perform a function on a precise schedule |
 | [Breadboard 5V Regulator](./Electronics101/PowerBreadboard5V)      | Power                      | custom regulated 5V power supply module for standard breadboard |
+| [BreatheLamp](./Electronics101/BreatheLamp)                        | OpAmp, LED                 | build and test a common LED visual effect circuit |
 | [CapacitanceTester](./Electronics101/CapacitanceTester)            | LCD, RC, Arduino           | capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                      | RC                         | graphing capacitor discharge with Processing |
 | [Comparator741](./Electronics101/Comparator741)                    | OpAmp                      | demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |

@@ -14,6 +14,21 @@ Most of these kits are based on an identical circuit and use the two op-amps fro
 But at first glance, the way the op-amp oscillator is wired looks a bit strange - so the primary purpose of this build is
 to understand how the oscillator is designed.
 
+Note that in this build, I've used 2 quarters of an LM324 op-amp, since I don't have an LM358 on hand.
+
+A sample trace confirms that the two op-amp units are operating as a square wave multivibrator integrated to a triangle wave.
+It is the triangel wave that is used to control the LED array (via Q1 BJT).
+
+Here is the trace: the lower trace is the square-wave output of the first stage (pin 7),
+and the upper trace is the triangle-wave output of the second stage (pin 1).
+
+![processing trace](./assets/processing_trace.png?raw=true)
+
+What's a little confusing is the fact that C1 is performing double-duty in both stages of the oscillator.
+I haven't exactly untangled it all in my head yet, but its a curious thing that it works.
+
+From a parts cost and count perspective, I'm not sure there's much advantage in using an op-amp oscillator
+over, for example, a [555 timer-based triangle wave generator](../555Timer/TriangleWaveGen).
 
 ## Construction
 
