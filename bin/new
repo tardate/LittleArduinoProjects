@@ -1,0 +1,66 @@
+#!/bin/bash
+
+
+
+function usage() {
+  cat <<EOF
+
+Make a new project workspace..
+
+Usage:
+  $0 ee ProjectName  # new Electronics101 project
+  $0 pg ProjectName  # new playground project
+
+EOF
+  exit
+}
+
+function make_project() {
+  local folder=$1
+  local project_name=$2
+  local full_path=${folder}/${project_name}
+
+  mkdir ${full_path}
+  mkdir ${full_path}/assets
+  cat > ${full_path}/README.md <<EOS
+# ${project_name}
+
+__subtitle__
+
+## Notes
+
+__notes__
+
+## Construction
+
+![Breadboard](./assets/${project_name}_bb.jpg?raw=true)
+
+![The Schematic](./assets/${project_name}_schematic.jpg?raw=true)
+
+![The Build](./assets/${project_name}_build.jpg?raw=true)
+
+## Credits and References
+* [name](url)
+
+EOS
+
+}
+
+
+op=${1:-help}
+
+case ${op} in
+
+ee)
+  make_project "Electronics101" "${2}"
+  ;;
+
+pg)
+  make_project "playground" "${2}"
+  ;;
+
+*)
+  usage
+  ;;
+
+esac
