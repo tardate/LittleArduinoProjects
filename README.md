@@ -18,8 +18,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 90 Projects...
-Latest addition - [BreatheLamp](./Electronics101/BreatheLamp) - build and test a common LED visual effect circuit.
+## 91 Projects...
+Latest addition - [SwitchPJFET](./Electronics101/SwitchPJFET) - switch an independent power source using an Arduino and p-channel JFET.
+
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -102,8 +103,9 @@ Latest addition - [BreatheLamp](./Electronics101/BreatheLamp) - build and test a
 | [Square Wave - 555](./Electronics101/555Timer/AstableOscillator)   | 555 Timer, Oscillators     | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [Square Wave - LM324](./Electronics101/LM324Oscillator)            | OpAmp, Oscillators         | using an LM324 OpAmp to generate a square wave |
 | [Square Wave - Schmitt](./Electronics101/SchmittOscillator)        | 74xx TTL, Oscillators      | using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
-| [Switch - NFET](./Electronics101/SwitchNFET)                       | FET                        | small-signal digital switch with NFET and turn-off delay |
+| [Switch - NFET](./Electronics101/SwitchNFET)                       | MOSFET                     | small-signal digital switch with NFET and turn-off delay |
 | [Switch - NPN](./Electronics101/SwitchNPN)                         | BJT                        | small-signal digital switch with NPN BJT |
+| [Switch - p-channel JFET](./Electronics101/SwitchPJFET)            | JFET, Arduino              | switch an independent power source using an Arduino and p-channel JFET |
 | [Switch - PNP](./Electronics101/SwitchPNP)                         | BJT                        | small-signal digital switch with PNP BJT |
 | [TestIR](./playground/TestIR)                                      | IR, Arduino                | test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [TinyBlink](./playground/TinyBlink)                                | Arduino, ATmel             | a simple blink sketch with an ATTINY85-20PU on a breadboard |
