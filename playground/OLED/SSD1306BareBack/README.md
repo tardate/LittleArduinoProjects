@@ -36,10 +36,10 @@ hence the `setup` method runs through and sets all the configuration options reg
 Of course, using the raw command approach means the program leaves out all the unecessary support, so memory requirements
 are much less than if importing a full library:
 
-| Memory          | Usage             | Using Library      |
-|-----------------|-------------------|--------------------|
-| program storage | 4,650 bytes (15%) | 20,770 bytes (67%) |
-| dynamic memory  | 505 bytes (24%)   | 1,580 bytes (77%)  |
+| Memory          | Usage             |
+|-----------------|-------------------|
+| program storage | 4,650 bytes (15%) |
+| dynamic memory  | 505 bytes (24%)   |
 
 
 ## Construction
@@ -53,7 +53,8 @@ are much less than if importing a full library:
 ## Credits and References
 * AdaFruit's excellent [Monochrome OLED Breakouts](https://learn.adafruit.com/monochrome-oled-breakouts/overview) page
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
-* [1-Day Project: Arduino Uno and I2C OLED Display Challenge](https://www.youtube.com/watch?v=VEZGn0zYHiE) - Julian Ilett's video that inspired this test
+* [1-Day Project: Arduino Uno and I2C OLED Display Challenge](https://www.youtube.com/watch?v=VEZGn0zYHiE) - Julian Ilett's video exploring the OLED
+* [Tested: Display Libraries - Adafruit, u8glib, Homebrew Code](https://youtu.be/lkWZuAnHa2Y) - Julian Ilett's video that inspired this test
 * [Introduction to I²C and SPI protocols](http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/)
 * [Arduino And SSD1306 Oled Display Tutorial](https://www.youtube.com/watch?v=mggDYVzS-Xs)
 * [Lcd5110BareBack](../../Lcd5110BareBack) - a similar test but for a Nokia 5110 LCD Display
