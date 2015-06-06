@@ -43,6 +43,9 @@ i.e., yes the circuit still works fine with it removed.
 
 It does seem to be good protection in case Vgs becomes reverse biased and significant current flow through the gate is possible.
 
+### The Code
+... doesn't do anything special - just an amplified Blink! It uses a digital out pin to turn the JFET on and off.
+
 ## Construction
 
 ![Breadboard](./assets/SwitchPJFET_bb.jpg?raw=true)
