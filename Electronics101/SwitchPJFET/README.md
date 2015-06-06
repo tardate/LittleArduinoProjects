@@ -2,7 +2,9 @@
 
 Switch an independent power source using an Arduino and p-channel JFET.
 
-![The Build](./assets/SwitchPJFET_build2.jpg?raw=true)
+Here's a quick video of the circuit in action:
+
+[![SwitchPJFET](./assets/SwitchPJFET_build2.jpg?raw=true)](http://www.youtube.com/watch?v=KfRI6a5oyQM)
 
 ## Notes
 
