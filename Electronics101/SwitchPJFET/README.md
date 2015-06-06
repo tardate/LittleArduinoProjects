@@ -9,10 +9,10 @@ Switch an independent power source using an Arduino and p-channel JFET.
 This is a simple switching circuit using a p-channel JFET.
 The JFET I'm using is the J175 which is intended for low-power applications with maximum ratings of 30V/50mA.
 
-What makes p-channel JFETs interesting (and challenging?) is the need for a positive gate-source voltage (Vgs)
-to turn them "off". An since drain voltage is lower than source voltage when on,
-this means the voltages are typically stacked: gate >= source > drain.
-Hence biasing the device often involves two power supplies.
+What makes p-channel JFETs interesting (and challenging?) is the need for a positive gate-source voltage (Vgs) to turn them "off".
+Since drain voltage is lower than source voltage when on,
+this means the voltages are typically stacked: `gate >= source > drain`,
+and biasing the device often involves two power supplies.
 Keeping a correct orientation to positives and negatives is perhaps the trickiest part of all!
 
 In this circuit, I wanted to use the 5V Arduino to switch a 9V circuit.
@@ -27,7 +27,7 @@ In practice, with the 9V supply this means the positive terminal of the supply w
 and the negative terminal connects through to drain.
 
 To bias the gate using a digital pin of the Arduino, we take the source of the JFET as the Arduino "ground".
-this the Arduino is able to apply from 0V to 5V the gate with respect to source.
+So the Arduino is able to apply from 0V to 5V the gate with respect to source.
 From the characteristic curves in the datasheet, we can see this is enough to effect a distinct on/off transition
 * Vgs = 0V, the JFET is fully "on"
 * Vgs = 5V, the JFET is fully "off"
@@ -35,13 +35,13 @@ From the characteristic curves in the datasheet, we can see this is enough to ef
 ### Rs - source resistor
 I've shown an Rs of 0Ω. This is just to show that there could be a source-side resistor.
 The voltage drop across Rs needs to be accounted for when determining Vg.
-Too large, and Vg can approach 0 or even invert with respect to Vdd.
+Too large, and Vg can approach 0 or even invert with respect to Vs.
 
 ### Rg - gate resistor
 A 1MΩ resistor connects to the gate. In normal operation, this is redundant as the gate current is virtually zero (~1nA).
-i.e., yes the circuit still works fine ith it removed.
+i.e., yes the circuit still works fine with it removed.
 
-It does seem to be good protection for situations where Vgs may be reverse biased (and current flow through the gate is possible).
+It does seem to be good protection in case Vgs becomes reverse biased and significant current flow through the gate is possible.
 
 ## Construction
 
