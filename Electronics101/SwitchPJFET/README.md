@@ -18,7 +18,7 @@ and biasing the device often involves two power supplies.
 Keeping a correct orientation to positives and negatives is perhaps the trickiest part of all!
 
 In this circuit, I wanted to use the 5V Arduino to switch a 9V circuit.
-It turns out to be very easy, but caution is required to avoid inappropriate cross-connecitons of the circuit
+It turns out to be very easy, but caution is required to avoid inappropriate cross-connections of the circuit
 which may inadvertently subject the Arduino to excessive or reversed voltages.
 
 The load circuit is a simple 9V loop with LED indicator and sufficient resistance to limit the current.
