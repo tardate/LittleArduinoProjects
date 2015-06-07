@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 92 Projects...
-Latest addition - [Power317CC](./Electronics101/Power317CC) - low-power constant current source using the LM317.
+## 93 Projects...
+Latest addition - [BJTCurrentSink](./Electronics101/BJTCurrentSink) - test a BJT constant current sink circuit.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -28,6 +28,7 @@ Latest addition - [Power317CC](./Electronics101/Power317CC) - low-power constant
 | [ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)            | Arduino, ATmel             | Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
 | [ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)          | Arduino, ATmel             | Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)       | LED Array, Timing, Arduino | demo effects on the LED strip driven using timer interrupt |
+| [BJTCurrentSink](./Electronics101/BJTCurrentSink)                  | BJT, Power                 | test a BJT constant current sink circuit |
 | [Blink](./playground/Blink)                                        | LED, Arduino               | the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                      | LED, Timing, Arduino       | use a timer to perform a function on a precise schedule |
 | [BreatheLamp](./Electronics101/BreatheLamp)                        | OpAmp, LED                 | build and test a common LED visual effect circuit |
