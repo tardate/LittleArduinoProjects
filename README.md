@@ -18,9 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 91 Projects...
-Latest addition - [SwitchPJFET](./Electronics101/SwitchPJFET) - switch an independent power source using an Arduino and p-channel JFET.
-
+## 92 Projects...
+Latest addition - [Power317CC](./Electronics101/Power317CC) - low-power constant current source using the LM317.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -31,7 +30,6 @@ Latest addition - [SwitchPJFET](./Electronics101/SwitchPJFET) - switch an indepe
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)       | LED Array, Timing, Arduino | demo effects on the LED strip driven using timer interrupt |
 | [Blink](./playground/Blink)                                        | LED, Arduino               | the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                      | LED, Timing, Arduino       | use a timer to perform a function on a precise schedule |
-| [Breadboard 5V Regulator](./Electronics101/PowerBreadboard5V)      | Power                      | custom regulated 5V power supply module for standard breadboard |
 | [BreatheLamp](./Electronics101/BreatheLamp)                        | OpAmp, LED                 | build and test a common LED visual effect circuit |
 | [CapacitanceTester](./Electronics101/CapacitanceTester)            | LCD, RC, Arduino           | capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                      | RC                         | graphing capacitor discharge with Processing |
@@ -67,9 +65,6 @@ Latest addition - [SwitchPJFET](./Electronics101/SwitchPJFET) - switch an indepe
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)          | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                              | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
 | [LEDLamp Capacitive Power Supply](./Electronics101/LEDLampAC)      | Power, LED                 | build and analyse a commercial LED lamp kit with capacitive power supply |
-| [LM317 Adjustable Regulator](./Electronics101/Power317)            | Power                      | test and graph the adjustable voltage supply |
-| [LM7805 5V Regulated Supply](./Electronics101/Power7805)           | Power                      | test and graph the voltage supply |
-| [MB102 3.3/5V Breadboard Supply](./Electronics101/PowerMB102)      | Power                      | demo an MB102 power supply unit |
 | [MeLEDy](./Electronics101/MeLEDy)                                  | Audio                      | use an electret microphone to light a series of LEDs in proportion to volume |
 | [Monostable](./Electronics101/555Timer/Monostable)                 | 555 Timer                  | basic monostable mode using an Arduino and processing to plot the output |
 | [Monostable122](./Electronics101/Monostable122)                    | 74xx TTL                   | simple pulse trigger using 74LS122 monostable with external timing configuration |
@@ -80,6 +75,12 @@ Latest addition - [SwitchPJFET](./Electronics101/SwitchPJFET) - switch an indepe
 | [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)          | OLED, Arduino              | driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | OLED, Arduino  | running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [PlotNValues](./playground/PlotNValues)                            | Arduino, Processing        | generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
+| [Power317](./Electronics101/Power317)                              | Power                      | test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
+| [Power317CC](./Electronics101/Power317CC)                          | Power                      | test a constant current power supply built with the LM317 |
+| [Power7805](./Electronics101/Power7805)                            | Power                      | test and graph a voltage supply built with an LM7805 5V Regulated Supply |
+| [PowerBreadboard5V](./Electronics101/PowerBreadboard5V)            | Power                      | custom regulated 5V power supply module for standard breadboard |
+| [PowerMB102](./Electronics101/PowerMB102)                          | Power                      | demo and test a commercial 3.3/5V MB102 breadboard power supply unit |
+| [PowerZener](./Electronics101/PowerZener)                          | Power                      | test and graph a power supply regulated with a 1N4733 zener diode |
 | [Popcorn](./playground/Popcorn)                                    | Audio, Arduino             | How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [Pushbutton LED switch](./playground/PushbuttonLED)                | LED, Arduino               | Momentary push button switch is used to toggle the LED on and off |
 | [Quad Latch](./Electronics101/QuadLatch)                           | 74xx TTL                   | graph the basic operation of the 74LS75 4-bit bistable latch |
@@ -114,7 +115,6 @@ Latest addition - [SwitchPJFET](./Electronics101/SwitchPJFET) - switch an indepe
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)       | 555 Timer, Oscillators     | basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [Variable LED brightness (PWM)](./playground/VariableLED)          | LED, Arduino               | variable resistor is used to control the brightness of an LED with PWM |
 | [X113647Stepper](https://github.com/tardate/X113647Stepper)        | Stepper, Arduino           | It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
-| [Zener Regulated 5V Source](./Electronics101/PowerZener)           | Power                      | test and graph a power supply regulated with a 1N4733 zener diode |
 
 
 # Getting Up and Running
