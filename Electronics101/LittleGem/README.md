@@ -1,8 +1,6 @@
 # LittleGem/A386
 
-(wip)
-
-A Smokey-inspired LM386 guitar amp with a couple of enhancements.
+A basic Smokey-inspired LM386 guitar power amp.
 
 ## Notes
 
@@ -17,24 +15,23 @@ Little Gem/A386 takes some of the [suggestions by Dave Stork](http://www.bluegui
 enhances the circuit in a few ways:
 
 * adds variable gain control ranging from about [25](http://www.wolframalpha.com/input/?i=2*15000%CE%A9%2F%28150+%2B+1%CE%A9%2F%281%2F1350+%2B+1%2F5000%29%29) to [200](http://www.wolframalpha.com/input/?i=2*15k%CE%A9%2F%28150+%2B+0%CE%A9%29) (the original Smokey was fixed at 200)
-
 * adds input AC coupling with a 10nF capacitor and removes the 47μF bypass capacitor
-
 * adds output-side master volume control
-
-* adds output-compensating [Zobel Network](http://en.wikipedia.org/wiki/Zobel_network)
-
+* adds an output-compensating [Zobel Network](http://en.wikipedia.org/wiki/Zobel_network)
 * increases the output coupling capacitor from 47μF to 220μF to improve low-end performance
-
 * A386 modifications add a power indicator, power-source selection and reverse-current protection
-
-The breadboard build as described below is temperamental at best due to interference and the possibility of dodgy connections.
-But it's good enough to say it "basically works".
 
 I didn't have anything as small as a 25Ω rheostat for output volume control, so it uses a 22Ω resistor in parallel with a 500kΩ trimpot which gives
 a [range of about 0-21Ω](http://toolbox.tardate.com/?formula=22%7C500#ResistorCalculator).
 
-Next I'll put the components on a PCB to get a better gauge on how it sounds.
+The breadboard build as described below is pretty temperamental due to interference and the possibility of dodgy connections.
+But even on a breadboard it's good enough to say it "basically works":
+
+* seems to lose the higher frequencies so the clean sound is pretty flat
+* the overdrive is surprisingly warm but with the fizzle of electronic distortion
+* it can't handle very high gain without farting out and oscillating heavily
+
+I might put the components on a PCB next to get a better gauge of the true performance.
 
 
 ## Construction
