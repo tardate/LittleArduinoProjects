@@ -14,12 +14,12 @@ see [my build here](../LittleGem).
 
 So I thought I'd see what the Smokey really sounds like. This circuit uses the details from
 [this analysis](http://www.electrosmash.com/smokey-amp-analysis)
-to do the build.
+to do the build. The 47μF C1 is required to correctly bias the input since we have a direct connection from guitar to the op-amp input.
 
 I had to make a couple of variations to get it to work properly:
 
 * I had to remove the short from pins 1-8 of the LM386 because it couldn't handle the gain. Without the short, the amp runs at the default 20x.
-* adding 100μF C3 filters noise form the power supply. This is essential if using a switch-mode 9V adapter, not required with a battery.
+* adding 100μF C3 filters noise from the power supply. This is essential with a switch-mode 9V adapter, not required with a battery.
 
 
 ## Construction
