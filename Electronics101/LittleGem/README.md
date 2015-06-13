@@ -9,7 +9,8 @@ is one of numerous LM386-based amplifiers descending from the [original Smokey a
 The "A386" is a "Little Gem" variant by [General Guitar Gadgets](http://www.generalguitargadgets.com/effects-projects/amps/a386-amp/)
 that basically packages the circuit with a few more frills like a conventional pedal.
 
-The Smokey is about as basic as you can get - [an LM386 and two caps](http://www.electrosmash.com/smokey-amp-analysis).
+The Smokey is about as basic as you can get - [an LM386 and two caps](http://www.electrosmash.com/smokey-amp-analysis),
+see [my Smokey build here](../Smokey).
 
 Little Gem/A386 takes some of the [suggestions by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt) and
 enhances the circuit in a few ways:
@@ -30,6 +31,7 @@ But even on a breadboard it's good enough to say it "basically works":
 * seems to lose the higher frequencies so the clean sound is pretty flat
 * the overdrive is surprisingly warm but with the fizzle of electronic distortion
 * it can't handle very high gain without farting out and oscillating heavily
+* it drives some 6Ω speakers to surprisingly loud levels - enough for the neighbours to hear!
 
 I might put the components on a PCB next to get a better gauge of the true performance.
 
@@ -43,6 +45,7 @@ I might put the components on a PCB next to get a better gauge of the true perfo
 ![The Build](./assets/LittleGem_build.jpg?raw=true)
 
 ## Credits and References
+* [my Smokey build](../Smokey)
 * [Little Gem & Little Gem MkII](http://www.runoffgroove.com/littlegem.html)
 * [General Guitar Gadgets A386 Amp](http://www.generalguitargadgets.com/effects-projects/amps/a386-amp/)
 * [Smokey Amps](http://www.smokeyamps.com/) - official site
