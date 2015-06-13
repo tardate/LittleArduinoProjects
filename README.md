@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 95 Projects...
-Latest addition - [LittleGem/A386](./Electronics101/LittleGem) - a basic Smokey-inspired LM386 guitar power amp.
+## 96 Projects...
+Latest addition - [Smokey](./Electronics101/Smokey) - quick build of a Smokey-like LM386 guitar power amp.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -66,7 +66,7 @@ Latest addition - [LittleGem/A386](./Electronics101/LittleGem) - a basic Smokey-
 | [LEDArrayDemos](./LEDArrayDemos)                                   | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)          | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                              | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
-| [LittleGem/A386](./Electronics101/LittleGem)                       | OpAmp, Audio               | a basic Smokey-inspired LM386 guitar power amp |
+| [LittleGem/A386](./Electronics101/LittleGem)                       | Amp, Audio                 | a basic Smokey-inspired LM386 guitar power amp |
 | [LEDLamp Capacitive Power Supply](./Electronics101/LEDLampAC)      | Power, LED                 | build and analyse a commercial LED lamp kit with capacitive power supply |
 | [MeLEDy](./Electronics101/MeLEDy)                                  | Audio                      | use an electret microphone to light a series of LEDs in proportion to volume |
 | [Monostable](./Electronics101/555Timer/Monostable)                 | 555 Timer                  | basic monostable mode using an Arduino and processing to plot the output |
@@ -102,6 +102,7 @@ Latest addition - [LittleGem/A386](./Electronics101/LittleGem) - a basic Smokey-
 | [Simple 7-segment display](./playground/Simple7SegmentDisplay)     | 7-Segment, Arduino         | test 7-segment common cathode display |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)               | 555 Timer                  | play a sound for a fixed duration when a button is pressed |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)               | 555 Timer                  | classic timer circuit producing a two-tone oscillation |
+| [Smokey](./Electronics101/Smokey)                                  | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
 | [StereoLightTrigger](./playground/StereoLightTrigger)              | Sensors, Arduino           | demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [StripTease](./LEDArrayDemos/StripTease)                           | LED Array, Arduino         | demo a range of effects on the LED strip |
 | [Square Wave - 555](./Electronics101/555Timer/AstableOscillator)   | 555 Timer, Oscillators     | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
