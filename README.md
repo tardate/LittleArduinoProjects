@@ -102,7 +102,7 @@ Latest addition - [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControl
 | [Simple 7-segment display](./playground/Simple7SegmentDisplay)     | 7-Segment, Arduino         | test 7-segment common cathode display |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)               | 555 Timer                  | play a sound for a fixed duration when a button is pressed |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)               | 555 Timer                  | classic timer circuit producing a two-tone oscillation |
-| [Smokey](./Electronics101/Smokey)                                  | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
+| [Smokey](./Electronics101/386Amps/Smokey)                          | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
 | [StereoLightTrigger](./playground/StereoLightTrigger)              | Sensors, Arduino           | demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [StripTease](./LEDArrayDemos/StripTease)                           | LED Array, Arduino         | demo a range of effects on the LED strip |
 | [Square Wave - 555](./Electronics101/555Timer/AstableOscillator)   | 555 Timer, Oscillators     | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
