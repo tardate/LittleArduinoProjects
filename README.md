@@ -66,7 +66,7 @@ Latest addition - [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControl
 | [LEDArrayDemos](./LEDArrayDemos)                                   | LED Array, Arduino         | Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)          | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                              | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
-| [LittleGem/A386](./Electronics101/386Amps/LittleGem)               | OpAmp, Audio               | a basic Smokey-inspired LM386 guitar power amp |
+| [LittleGem/A386](./Electronics101/AudioAmps/LittleGem)             | OpAmp, Audio               | a basic Smokey-inspired LM386 guitar power amp |
 | [LEDLamp Capacitive Power Supply](./Electronics101/LEDLampAC)      | Power, LED                 | build and analyse a commercial LED lamp kit with capacitive power supply |
 | [MeLEDy](./Electronics101/MeLEDy)                                  | Audio                      | use an electret microphone to light a series of LEDs in proportion to volume |
 | [Monostable](./Electronics101/555Timer/Monostable)                 | 555 Timer                  | basic monostable mode using an Arduino and processing to plot the output |
@@ -102,7 +102,7 @@ Latest addition - [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControl
 | [Simple 7-segment display](./playground/Simple7SegmentDisplay)     | 7-Segment, Arduino         | test 7-segment common cathode display |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)               | 555 Timer                  | play a sound for a fixed duration when a button is pressed |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)               | 555 Timer                  | classic timer circuit producing a two-tone oscillation |
-| [Smokey](./Electronics101/386Amps/Smokey)                          | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
+| [Smokey](./Electronics101/AudioAmps/Smokey)                        | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
 | [StereoLightTrigger](./playground/StereoLightTrigger)              | Sensors, Arduino           | demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [StripTease](./LEDArrayDemos/StripTease)                           | LED Array, Arduino         | demo a range of effects on the LED strip |
 | [Square Wave - 555](./Electronics101/555Timer/AstableOscillator)   | 555 Timer, Oscillators     | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
@@ -118,7 +118,7 @@ Latest addition - [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControl
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)   | 555 Timer, Oscillators     | generate a triangle wave with 555 timer and RC integrator |
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)       | 555 Timer, Oscillators     | basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [Variable LED brightness (PWM)](./playground/VariableLED)          | LED, Arduino               | variable resistor is used to control the brightness of an LED with PWM |
-| [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControlPowerAmp) | OpAmp, Audio          | an LM386 fixed-gain audio power amp with volume control |
+| [VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp) | OpAmp, Audio        | an LM386 fixed-gain audio power amp with volume control |
 | [X113647Stepper](https://github.com/tardate/X113647Stepper)        | Stepper, Arduino           | It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
 
 

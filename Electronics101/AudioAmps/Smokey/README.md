@@ -1,4 +1,4 @@
-# 386Amps/Smokey
+# Smokey
 
 A quick build of a Smokey-like LM386 guitar power amp.
 
