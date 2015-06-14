@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 97 Projects...
-Latest addition - [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControlPowerAmp) - An LM386 fixed-gain audio power amp with volume control.
+## 98 Projects...
+Latest addition - [GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp) - an LM386 fixed-gain guitar headphone amp.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -50,6 +50,7 @@ Latest addition - [VolumeControlPowerAmp](./Electronics101/386Amps/VolumeControl
 | [Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper) | Logic Gates, BJT, Arduino  | Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch) | Logic Gates, 74xx TTL  | Set/Reset flip-flop implemented with NOR gates |
 | [Girabot](./Girabot)                                               | Sensors, OpAmp, Arduino    | EE40LX Electronic Interfaces robot project |
+| [GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)| OpAmp, Audio               | an LM386 fixed-gain guitar headphone amp |
 | [HeartQuotes](./playground/HeartQuotes)                            | LCD, Ethernet, Arduino     | press a button to get a quote from the net and display on an LCD |
 | [HitTheLights](./playground/HitTheLights)                          | LCD, Human Input, Arduino  | simple LED game with LCD output and interrupt-driven button input |
 | [It's Better With Bacon](./playground/BetterWithBacon)             | LCD, Arduino               | simple LCD test |
