@@ -15,6 +15,7 @@ The microcontroller the just needs 3 pins to drive the MAX7219 using and SPI pro
 
 There are libraries available to talk to the MAX7219, such as the [LedControl](https://github.com/wayoda/LedControl) library.
 However this project uses raw SPI just for the sake of developing some familiarity with the operation of the MAX7219.
+See the [LedControlDemo](../LedControlDemo) project for a test driving with the LedControl library.
 
 The LED module is connected to the Arduino with three pins as follows (in addition to +5V power and ground).
 
@@ -51,9 +52,11 @@ Next up, I guess I need to get it to display something interesting!
 
 
 ## Credits and References
-* [aliexpress](http://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html)
+* [LED Matrix kit for sale on aliexpress](http://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html)
 * [MAX7219 datasheet](http://www.futurlec.com/Maxim/MAX7219.shtml)
 * [1088AS datasheet](http://megtestesules.info/hobbielektronika/adatlapok/LED8x8_1088AS.pdf)
 * [MAX72XX Hardware](http://playground.arduino.cc/Main/MAX72XXHardware) page on the Arduino playground
 * [LEDMatrix](http://playground.arduino.cc/Main/LEDMatrix) - excellent overview on driving LED matrix units with an Arduino
 * [LedControl](https://github.com/wayoda/LedControl) library at GitHub
+* [LedControlDemo](../LedControlDemo) project - test driving with the LedControl library
+

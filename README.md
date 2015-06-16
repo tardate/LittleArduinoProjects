@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 102 Projects...
-Latest addition - [SolenoidControl](./playground/SolenoidControl) - controlling a mini solenoid with an Arduino.
+## 103 Projects...
+Latest addition - [LedControlDemo](./playground/LED8x8/LedControlDemo) - test driving and LED matrix with the LedControl library.
 
 
 | Project                                                            | Category                   | Description                               |
@@ -58,6 +58,7 @@ Latest addition - [SolenoidControl](./playground/SolenoidControl) - controlling 
 | [HitTheLights](./playground/HitTheLights)                          | LCD, Human Input, Arduino  | simple LED game with LCD output and interrupt-driven button input |
 | [It's Better With Bacon](./playground/BetterWithBacon)             | LCD, Arduino               | simple LCD test |
 | [JoystickServoControl](./playground/JoystickServoControl)          | Human Input, Arduino       | controlling two servos with a joystick |
+| [LedControlDemo](./playground/LED8x8/LedControlDemo)               | 8x8 LED, Arduino           | test driving and LED matrix with the LedControl library |
 | [Lcd5110BareBack](./playground/Lcd5110BareBack)                    | LCD, Arduino               | driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [LDRComparator](./Electronics101/LDRComparator)                    | Sensors, OpAmp, Arduino    | low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)    | OpAmp                      | demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
