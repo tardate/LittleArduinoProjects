@@ -22,3 +22,6 @@
 [submodule "libraries/Adafruit-GFX-Library"]
 	path = libraries/Adafruit-GFX-Library
 	url = https://github.com/adafruit/Adafruit-GFX-Library
+[submodule "libraries/LedControl"]
+	path = libraries/LedControl
+	url = https://github.com/wayoda/LedControl

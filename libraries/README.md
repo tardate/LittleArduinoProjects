@@ -9,6 +9,7 @@ Some projects require additional libraries. For example:
 * Packet Radio e.g. 433MHz projects generally use the [RadioHead](https://github.com/tardate/RadioHead) library. RadioHead is a successor the the [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/) library.
 * Monochrome OLED displays use the [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) library
 * AdaFruit display libraries may use the [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) library
+* LED matrix control with the [LedControl](https://github.com/wayoda/LedControl) library
 
 These libraries are included as submodules of this repository and can be installed with git.
 Or you can just install them normally.
