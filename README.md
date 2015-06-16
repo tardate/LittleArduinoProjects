@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 99 Projects...
-Latest addition - [ATmegaISPShield](./playground/ATmegaISPShield) - a DIY ATmega programming shield for using an Arduino as ISP.
+## 100 Projects...
+Latest addition - [MaxRawDemo](./playground/LED8x8/MaxRawDemo) - drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -69,7 +69,8 @@ Latest addition - [ATmegaISPShield](./playground/ATmegaISPShield) - a DIY ATmega
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)          | LM3915, Arduino            | Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                              | Sensors, Arduino           | uses an LDR to adjust the blink rate of an LED |
 | [LittleGem/A386](./Electronics101/AudioAmps/LittleGem)             | OpAmp, Audio               | a basic Smokey-inspired LM386 guitar power amp |
-| [LEDLamp Capacitive Power Supply](./Electronics101/LEDLampAC)      | Power, LED                 | build and analyse a commercial LED lamp kit with capacitive power supply |
+| [LEDLamp](./Electronics101/LEDLampAC)                              | Power, LED                 | build and analyse a commercial LED lamp kit with capacitive power supply |
+| [MaxRawDemo](./playground/LED8x8/MaxRawDemo)                       | 8x8 LED, Arduino           | drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [MeLEDy](./Electronics101/MeLEDy)                                  | Audio                      | use an electret microphone to light a series of LEDs in proportion to volume |
 | [Monostable](./Electronics101/555Timer/Monostable)                 | 555 Timer                  | basic monostable mode using an Arduino and processing to plot the output |
 | [Monostable122](./Electronics101/Monostable122)                    | 74xx TTL                   | simple pulse trigger using 74LS122 monostable with external timing configuration |
