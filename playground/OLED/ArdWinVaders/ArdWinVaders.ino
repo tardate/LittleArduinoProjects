@@ -34,7 +34,7 @@ BufferedDisplay gameDisplay(&displayDriver);
 GameBoard gameBoard(&gameDisplay);
 
 void setup() {
-  gameDisplay.init();
+
   gameBoard.init();
 
   pinMode(LEFT_PIN, INPUT);
@@ -47,13 +47,20 @@ void setup() {
 }
 
 void loop() {
-  if(moveLeft) gameBoard.moveLeft();
-  if(moveRight) gameBoard.moveRight();
-  if(fireStatus) {
-    gameBoard.fire();
-    fireStatus = 0;
+  if(gameBoard.beginRecalc()) {
+    if(moveLeft) gameBoard.moveLeft();
+    if(moveRight) gameBoard.moveRight();
+    if(fireStatus) {
+      gameBoard.fire();
+      fireStatus = 0;
+    }
+    gameBoard.finishRecalc();
+  } else {
+    if(fireStatus) {
+      gameBoard.startGame();
+      fireStatus = 0;
+    }
   }
-  gameBoard.recalc();
   gameDisplay.redraw();
 }
 
@@ -65,28 +72,3 @@ void sampleMovement() {
 void handleFireButtonPress() {
   fireStatus = 1;
 }
-
-/*
-
-game phases
-  if fire button
-    fire
-    add missile to board
-  if position input
-    recalc fire base position
-  recalc alien ships positions
-  recalc missile positions
-  collision detect
-  draw ships
-  draw missiles
-  draw firebase
-  update display
-
-async:
-  accept fire input
-  accept movement input
-  play sound
-
-
-
-*/

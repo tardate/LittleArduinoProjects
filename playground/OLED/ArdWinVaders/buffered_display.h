@@ -18,57 +18,63 @@
 
 #define DISPLAY_WIDTH SSD1306_PIXEL_WIDTH
 #define DISPLAY_HEIGHT SSD1306_PIXEL_HEIGHT
+#define DISPLAY_PAGE_COUNT SSD1306_PAGE_COUNT
 #define DISPLAY_PAGE_HEIGHT SSD1306_PAGE_HEIGHT
 
-#define FIREBASE_WIDTH 5
-#define FIREBASE_GUN_X_OFFSET 2
+#define FIREBASE_WIDTH 9
+#define FIREBASE_GUN_X_OFFSET 4
 #define FIREBASE_GUN_Y_OFFSET 5
-#define FIREBASE_INITAL_X DISPLAY_WIDTH / 2 - 2
-#define FIREBASE_MAX_X DISPLAY_WIDTH - FIREBASE_WIDTH
+#define FIREBASE_INITAL_X (DISPLAY_WIDTH / 2 - 4)
+#define FIREBASE_MAX_X (DISPLAY_WIDTH - FIREBASE_WIDTH)
+#define FIREBASE_ROW_OFFSET DISPLAY_WIDTH * (DISPLAY_PAGE_COUNT - 1)
 
-#define ALIEN_WIDTH 5
-#define ALIEN_MARGIN 5
-#define ALIEN_MARGIN_LEFT 3
-#define ALIEN_MARGIN_RIGHT 2
-#define ALIEN_SPACING (ALIEN_WIDTH + ALIEN_MARGIN)
+#define ALIEN_WIDTH 9
 
 class BufferedDisplay {
   public:
     BufferedDisplay(OledDriver *displayDriver);
 
     void init();
+    void reset();
     void redraw();
     void setSegmentCursor(int position);
     int  setSegmentCursor(int x, int y);
     void setSegmentByPageOffset(int page, int offset);
 
-    void writeSegment(byte data);
+    int  getPage(int y);
+
     void writeString(char *characters);
 
     void moveFireBase(int new_left_x);
-    void moveFireBase(int new_left_x, int delta);
 
-    void moveMissile(int x, int new_y);
-    void moveMissile(int x, int old_y, int new_y);
+    int  moveMissile(int x, int new_y);
 
     void insertAlienAtCursor();
     void insertNoAlienAtCursor();
 
   private:
     byte firebase_sprite[FIREBASE_WIDTH] = {
+      0b00000000,
+      0b00000000,
       0b10000000,
       0b11000000,
       0b11111000,
       0b11000000,
-      0b10000000
+      0b10000000,
+      0b00000000,
+      0b00000000
     };
 
     byte alien_sprite[ALIEN_WIDTH] = {
-      0b00011101,
-      0b00001010,
-      0b00001110,
-      0b00001010,
-      0b00011101
+      0b00000000,
+      0b00000000,
+      0b00111010,
+      0b00010100,
+      0b00011100,
+      0b00010100,
+      0b00111010,
+      0b00000000,
+      0b00000000
     };
 
     int buffer_size;
@@ -78,7 +84,8 @@ class BufferedDisplay {
     OledDriver *display;
 
 
-    void xorSegment(byte data);
+    void writeSegment(byte data);
+    int  xorSegment(byte data);
     void writeCharacter(char character);
 
 };
