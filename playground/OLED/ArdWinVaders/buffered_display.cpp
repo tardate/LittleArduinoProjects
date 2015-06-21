@@ -37,8 +37,9 @@ int BufferedDisplay::setSegmentCursor(int x, int y) {
   return result.rem;
 }
 
-void BufferedDisplay::setSegmentByPageOffset(int page, int offset) {
+int BufferedDisplay::setSegmentByPageOffset(int page, int offset) {
   segment_cursor = page * DISPLAY_WIDTH + offset;
+  return (page + 1) * DISPLAY_WIDTH - 1;
 }
 
 int BufferedDisplay::getPage(int y) {
@@ -47,6 +48,11 @@ int BufferedDisplay::getPage(int y) {
 }
 
 void BufferedDisplay::writeSegment(byte data) {
+  buffer[segment_cursor++] = data;
+}
+
+void BufferedDisplay::writeSegment(byte data, int segmentLimit) {
+  if(segment_cursor>segmentLimit) return;
   buffer[segment_cursor++] = data;
 }
 
@@ -74,12 +80,12 @@ int BufferedDisplay::moveMissile(int x, int new_y) {
   return xorSegment(1 << y_offset);
 }
 
-void BufferedDisplay::insertAlienAtCursor() {
-  for(int i=0; i<ALIEN_WIDTH; i++) writeSegment(alien_sprite[i]);
+void BufferedDisplay::insertAlienAtCursor(int segmentLimit) {
+  for(int i=0; i<ALIEN_WIDTH; i++) writeSegment(alien_sprite[i], segmentLimit);
 }
 
-void BufferedDisplay::insertNoAlienAtCursor() {
-  for(int i=0; i<ALIEN_WIDTH; i++) writeSegment(0x00);
+void BufferedDisplay::insertNoAlienAtCursor(int segmentLimit) {
+  for(int i=0; i<ALIEN_WIDTH; i++) writeSegment(0x00, segmentLimit);
 }
 
 

@@ -13,6 +13,14 @@
 #define ALIEN_MODE_JIGGLE_RIGHT 1
 #define ALIEN_MODE_JIGGLE_LEFT -1
 #define ALIEN_MODE_EXIT_RIGHT 2
+#define ALIEN_MODE_ENTER_RIGHT 3
+#define ALIEN_MODE_COUNT_BEFORE_EXIT_RIGHT (ALIEN_WIDTH * 2)
+
+#define GAME_RESULT_NIL  0
+#define GAME_RESULT_FAIL 1
+#define GAME_RESULT_WIN  2
+
+#define GAME_WINNING_SCORE  (ALIEN_ROWS * ALIENS_PER_ROW)
 
 /*
  *   constructor
@@ -24,6 +32,7 @@ GameBoard::GameBoard(BufferedDisplay *gameDisplay) {
 
 void GameBoard::init() {
   gameDisplay->init();
+  setScore(0);
   endGame();
 }
 
@@ -34,18 +43,37 @@ void GameBoard::resetGame() {
   alien_mode_counter = 0;
   clearMissiles();
   resetAliens();
-  setScore(0);
-  gameDisplay->moveFireBase(firebasePosition);
 }
 
 void GameBoard::endGame() {
   resetGame();
   writeStartupMessage();
+  switch(game_result) {
+  case GAME_RESULT_WIN :
+    writeWinMessage();
+    break;
+  case GAME_RESULT_FAIL :
+    writeFailMessage();
+    break;
+  }
 }
 
 void GameBoard::startGame() {
   resetGame();
+  setScore(0);
   game_in_progress = true;
+  game_result = GAME_RESULT_NIL;
+  gameDisplay->moveFireBase(firebasePosition);
+}
+
+void GameBoard::winGame() {
+  game_in_progress = false;
+  game_result = GAME_RESULT_WIN;
+}
+
+void GameBoard::loseGame() {
+  game_in_progress = false;
+  game_result = GAME_RESULT_FAIL;
 }
 
 bool GameBoard::beginRecalc() {
@@ -75,8 +103,10 @@ void GameBoard::fire() {
 }
 
 void GameBoard::finishRecalc() {
-  drawAliens();
+  moveAndDrawAliens();
   moveMissiles();
+  if(score>=GAME_WINNING_SCORE) winGame();
+  if(!game_in_progress) endGame();
 }
 
 void GameBoard::setScore(int points) {
@@ -154,29 +184,61 @@ void GameBoard::resetAliens() {
   alien_rows_y[0] = 1;
 }
 
-void GameBoard::drawAliens() {
+void GameBoard::moveAndDrawAliens() {
   int page;
   for(int row=0; row<ALIEN_ROWS; row++) {
     page = alien_rows_y[row];
     if(page>0) {
-      // jiggle mode
-      if(alien_rows_x[row]>=ALIEN_JIGGLE_MAX) alien_rows_mode[row] = ALIEN_MODE_JIGGLE_LEFT;
-      if(alien_rows_x[row]<=ALIEN_INITIAL_X) alien_rows_mode[row] = ALIEN_MODE_JIGGLE_RIGHT;
-      alien_rows_x[row] += alien_rows_mode[row];
+      switch(alien_rows_mode[row]) {
+        case ALIEN_MODE_EXIT_RIGHT:
+          alien_rows_x[row]++;
+          if(alien_rows_x[row]>=DISPLAY_WIDTH) {
+            alien_mode_counter=0;
+            alien_rows_mode[row]=ALIEN_MODE_ENTER_RIGHT;
+            page = ++alien_rows_y[row];
+            if(page>=DISPLAY_PAGE_COUNT-1) {
+              loseGame();
+            } else {
+              int nrow=row+1;
+              if(nrow<ALIEN_ROWS) {
+                if(alien_rows_y[nrow]>0) {
+                  alien_rows_mode[nrow] = ALIEN_MODE_EXIT_RIGHT;
+                } else {
+                  alien_rows_y[nrow] = 1;
+                  alien_rows_x[nrow] = DISPLAY_WIDTH;
+                  alien_rows_mode[nrow] = ALIEN_MODE_ENTER_RIGHT;
+                }
+              }
+            }
+          }
+          break;
+        case ALIEN_MODE_ENTER_RIGHT:
+          alien_rows_x[row]--;
+          if(alien_rows_x[row]<=ALIEN_INITIAL_X) {
+            alien_mode_counter=0;
+            alien_rows_mode[row]=ALIEN_MODE_JIGGLE_RIGHT;
+          }
+          break;
+        default:
+          // jiggle mode
+          if(alien_rows_x[row]>=ALIEN_JIGGLE_MAX) alien_rows_mode[row] = ALIEN_MODE_JIGGLE_LEFT;
+          if(alien_rows_x[row]<=ALIEN_INITIAL_X) alien_rows_mode[row] = ALIEN_MODE_JIGGLE_RIGHT;
+          alien_rows_x[row] += alien_rows_mode[row];
+          if(row==0 && alien_mode_counter>=ALIEN_MODE_COUNT_BEFORE_EXIT_RIGHT) alien_rows_mode[row] = ALIEN_MODE_EXIT_RIGHT;
+      }
 
-      gameDisplay->setSegmentByPageOffset(page, alien_rows_x[row]);
+      int segmentLimit = gameDisplay->setSegmentByPageOffset(page, alien_rows_x[row]);
 
       for(int a=0; a<ALIENS_PER_ROW; a++) {
         if(aliens[row][a]>0) {
-          gameDisplay->insertAlienAtCursor();
+          gameDisplay->insertAlienAtCursor(segmentLimit);
         } else {
-          gameDisplay->insertNoAlienAtCursor();
+          gameDisplay->insertNoAlienAtCursor(segmentLimit);
         }
       }
 
     }
   }
-  alien_rows_y[0] = 1;
 }
 
 void GameBoard::writeScore() {
@@ -191,7 +253,18 @@ void GameBoard::writeScore() {
 }
 
 void GameBoard::writeStartupMessage() {
-  gameDisplay->setSegmentByPageOffset(3, 20);;
+  gameDisplay->setSegmentByPageOffset(4, 20);;
   gameDisplay->writeString("Press fire to start");
 }
 
+void GameBoard::writeWinMessage() {
+  writeScore();
+  gameDisplay->setSegmentByPageOffset(2, 20);;
+  gameDisplay->writeString("Congrats, You Win!!");
+}
+
+void GameBoard::writeFailMessage() {
+  writeScore();
+  gameDisplay->setSegmentByPageOffset(2, 20);;
+  gameDisplay->writeString("Doh, Fail!!");
+}

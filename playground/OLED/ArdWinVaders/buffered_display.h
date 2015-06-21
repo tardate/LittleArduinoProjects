@@ -39,7 +39,7 @@ class BufferedDisplay {
     void redraw();
     void setSegmentCursor(int position);
     int  setSegmentCursor(int x, int y);
-    void setSegmentByPageOffset(int page, int offset);
+    int  setSegmentByPageOffset(int page, int offset);
 
     int  getPage(int y);
 
@@ -49,8 +49,8 @@ class BufferedDisplay {
 
     int  moveMissile(int x, int new_y);
 
-    void insertAlienAtCursor();
-    void insertNoAlienAtCursor();
+    void insertAlienAtCursor(int segmentLimit);
+    void insertNoAlienAtCursor(int segmentLimit);
 
   private:
     byte firebase_sprite[FIREBASE_WIDTH] = {
@@ -83,8 +83,8 @@ class BufferedDisplay {
 
     OledDriver *display;
 
-
     void writeSegment(byte data);
+    void writeSegment(byte data, int segmentLimit);
     int  xorSegment(byte data);
     void writeCharacter(char character);
 

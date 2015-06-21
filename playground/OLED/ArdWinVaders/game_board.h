@@ -14,7 +14,7 @@
 
 #define MAX_MISSILES 4
 #define ALIEN_ROWS 4
-#define ALIENS_PER_ROW DISPLAY_WIDTH / ALIEN_WIDTH - 2
+#define ALIENS_PER_ROW (DISPLAY_WIDTH / ALIEN_WIDTH - 2)
 
 class GameBoard {
   public:
@@ -23,7 +23,8 @@ class GameBoard {
     void init();
 
     void resetGame();
-    void endGame();
+    void winGame();
+    void loseGame();
     void startGame();
 
     bool beginRecalc();
@@ -39,6 +40,7 @@ class GameBoard {
     BufferedDisplay *gameDisplay;
 
     bool game_in_progress;
+    int game_result;
 
     int score;
 
@@ -63,10 +65,14 @@ class GameBoard {
     void handleMissileHit(int missile, int missile_x, int missile_y);
 
     void resetAliens();
-    void drawAliens();
+    void moveAndDrawAliens();
+
+    void endGame();
 
     void writeScore();
     void writeStartupMessage();
+    void writeWinMessage();
+    void writeFailMessage();
 };
 
 #endif

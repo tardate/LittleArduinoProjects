@@ -34,7 +34,6 @@ BufferedDisplay gameDisplay(&displayDriver);
 GameBoard gameBoard(&gameDisplay);
 
 void setup() {
-
   gameBoard.init();
 
   pinMode(LEFT_PIN, INPUT);
