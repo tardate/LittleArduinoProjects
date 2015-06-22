@@ -80,8 +80,9 @@ int BufferedDisplay::moveMissile(int x, int new_y) {
   return xorSegment(1 << y_offset);
 }
 
-void BufferedDisplay::insertAlienAtCursor(int segmentLimit) {
+bool BufferedDisplay::insertAlienAtCursor(int segmentLimit) {
   for(int i=0; i<ALIEN_WIDTH; i++) writeSegment(alien_sprite[i], segmentLimit);
+  return (segment_cursor < segmentLimit);
 }
 
 void BufferedDisplay::insertNoAlienAtCursor(int segmentLimit) {

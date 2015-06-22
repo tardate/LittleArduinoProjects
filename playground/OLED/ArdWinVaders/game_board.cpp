@@ -7,6 +7,8 @@
 
 #define MISSILE_MOVE_SPEED 2
 #define MISSILE_RUN_LENGTH DISPLAY_HEIGHT - FIREBASE_GUN_Y_OFFSET
+#define BOMB_MOVE_SPEED 2
+#define BOMB_COLLISION_Y_MIN (DISPLAY_HEIGHT - DISPLAY_PAGE_HEIGHT)
 
 #define ALIEN_INITIAL_X ALIEN_WIDTH
 #define ALIEN_JIGGLE_MAX ALIEN_INITIAL_X + ALIEN_WIDTH
@@ -32,6 +34,7 @@ GameBoard::GameBoard(BufferedDisplay *gameDisplay) {
 
 void GameBoard::init() {
   gameDisplay->init();
+  srand(1234);
   setScore(0);
   endGame();
 }
@@ -42,6 +45,7 @@ void GameBoard::resetGame() {
   firebasePosition = FIREBASE_INITAL_X;
   alien_mode_counter = 0;
   clearMissiles();
+  clearBombs();
   resetAliens();
 }
 
@@ -80,6 +84,7 @@ bool GameBoard::beginRecalc() {
   if(!game_in_progress) return false;
   alien_mode_counter++;
   undrawMissiles();
+  undrawBombs();
   return true;
 }
 
@@ -95,16 +100,10 @@ void GameBoard::moveRight() {
   gameDisplay->moveFireBase(firebasePosition);
 }
 
-void GameBoard::fire() {
-  int slot = getMissileSlot();
-  if(slot<0) return;
-  missile_vectors[slot] = firebasePosition + FIREBASE_GUN_X_OFFSET;
-  missile_runs[slot] = MISSILE_RUN_LENGTH;
-}
-
 void GameBoard::finishRecalc() {
   moveAndDrawAliens();
   moveMissiles();
+  moveBombs();
   if(score>=GAME_WINNING_SCORE) winGame();
   if(!game_in_progress) endGame();
 }
@@ -117,6 +116,13 @@ void GameBoard::setScore(int points) {
 void GameBoard::addScore(int points) {
   score += points;
   writeScore();
+}
+
+void GameBoard::fire() {
+  int slot = getMissileSlot();
+  if(slot<0) return;
+  missile_vectors[slot] = firebasePosition + FIREBASE_GUN_X_OFFSET;
+  missile_runs[slot] = MISSILE_RUN_LENGTH;
 }
 
 void GameBoard::clearMissile(int i) {
@@ -144,15 +150,16 @@ void GameBoard::undrawMissiles() {
 }
 
 void GameBoard::moveMissiles() {
-  int old_y;
   for(int i=0; i<MAX_MISSILES; i++) {
-    missile_runs[i] -= MISSILE_MOVE_SPEED;
     if(missile_runs[i]>0) {
-      if(gameDisplay->moveMissile(missile_vectors[i], missile_runs[i])) {
-        handleMissileHit(i, missile_vectors[i], missile_runs[i]);
+      missile_runs[i] -= MISSILE_MOVE_SPEED;
+      if(missile_runs[i]>0) {
+        if(gameDisplay->moveMissile(missile_vectors[i], missile_runs[i])) {
+          handleMissileHit(i, missile_vectors[i], missile_runs[i]);
+        }
+      } else {
+        clearMissile(i);
       }
-    } else {
-      clearMissile(i);
     }
   }
 }
@@ -171,6 +178,57 @@ void GameBoard::handleMissileHit(int missile, int missile_x, int missile_y) {
       }
       return;
     };
+  }
+}
+
+bool GameBoard::decideToBomb() {
+  return rand() % 100 > 95;
+}
+
+void GameBoard::dropBomb(int x, int y) {
+  if(decideToBomb()) {
+    int slot = getBombSlot();
+    if(slot<0) return;
+    bomb_vectors[slot] = x;
+    bomb_runs[slot] = y;
+  }
+}
+
+void GameBoard::clearBomb(int i) {
+  bomb_vectors[i] = 0;
+  bomb_runs[i] = 0;
+}
+
+void GameBoard::clearBombs() {
+  for(int i=0; i<MAX_BOMBS; i++) clearBomb(i);
+}
+
+int  GameBoard::getBombSlot() {
+  for(int i=0; i<MAX_BOMBS; i++) {
+    if(bomb_vectors[i]==0) return i;
+  }
+}
+
+void GameBoard::undrawBombs() {
+  for(int i=0; i<MAX_BOMBS; i++) {
+    if(bomb_runs[i]>0) {
+      gameDisplay->moveMissile(bomb_vectors[i], bomb_runs[i]);
+    }
+  }
+}
+
+void GameBoard::moveBombs() {
+  for(int i=0; i<MAX_BOMBS; i++) {
+    if(bomb_runs[i]>0) {
+      bomb_runs[i] += BOMB_MOVE_SPEED;
+      if(bomb_runs[i]<DISPLAY_HEIGHT) {
+        if(gameDisplay->moveMissile(bomb_vectors[i], bomb_runs[i])) {
+          if(bomb_runs[i]>BOMB_COLLISION_Y_MIN) loseGame();
+        }
+      } else {
+        clearBomb(i);
+      }
+    }
   }
 }
 
@@ -231,7 +289,9 @@ void GameBoard::moveAndDrawAliens() {
 
       for(int a=0; a<ALIENS_PER_ROW; a++) {
         if(aliens[row][a]>0) {
-          gameDisplay->insertAlienAtCursor(segmentLimit);
+          if(gameDisplay->insertAlienAtCursor(segmentLimit)) {
+            dropBomb(alien_rows_x[row] + (a * ALIEN_WIDTH) + ALIEN_GUN_X_OFFSET, (page * DISPLAY_PAGE_HEIGHT) + ALIEN_GUN_Y_OFFSET);
+          }
         } else {
           gameDisplay->insertNoAlienAtCursor(segmentLimit);
         }
@@ -240,6 +300,7 @@ void GameBoard::moveAndDrawAliens() {
     }
   }
 }
+
 
 void GameBoard::writeScore() {
   char score_text[4];

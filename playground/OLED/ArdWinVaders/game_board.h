@@ -13,6 +13,7 @@
 #include "buffered_display.h"
 
 #define MAX_MISSILES 4
+#define MAX_BOMBS 6
 #define ALIEN_ROWS 4
 #define ALIENS_PER_ROW (DISPLAY_WIDTH / ALIEN_WIDTH - 2)
 
@@ -40,22 +41,28 @@ class GameBoard {
     BufferedDisplay *gameDisplay;
 
     bool game_in_progress;
-    int game_result;
+    int  game_result;
+    int  score;
+    int  firebasePosition;
+    int  alien_mode_counter;
 
-    int score;
+    void endGame();
+    void writeScore();
+    void writeStartupMessage();
+    void writeWinMessage();
+    void writeFailMessage();
 
-    int firebasePosition;
 
-    int alien_mode_counter;
+    int  alien_rows_x[ALIEN_ROWS];
+    int  alien_rows_y[ALIEN_ROWS];
+    int  alien_rows_mode[ALIEN_ROWS];
+    int  aliens[ALIEN_ROWS][ALIENS_PER_ROW];
 
-    int alien_rows_x[ALIEN_ROWS];
-    int alien_rows_y[ALIEN_ROWS];
-    int alien_rows_mode[ALIEN_ROWS];
-    int aliens[ALIEN_ROWS][ALIENS_PER_ROW];
+    void resetAliens();
+    void moveAndDrawAliens();
 
-    int missile_vectors[MAX_MISSILES];
-    int missile_runs[MAX_MISSILES];
-
+    int  missile_vectors[MAX_MISSILES];
+    int  missile_runs[MAX_MISSILES];
 
     void clearMissile(int i);
     void clearMissiles();
@@ -64,15 +71,18 @@ class GameBoard {
     void moveMissiles();
     void handleMissileHit(int missile, int missile_x, int missile_y);
 
-    void resetAliens();
-    void moveAndDrawAliens();
+    int  bomb_vectors[MAX_BOMBS];
+    int  bomb_runs[MAX_BOMBS];
 
-    void endGame();
+    bool decideToBomb();
+    void dropBomb(int x, int y);
+    void clearBomb(int i);
+    void clearBombs();
+    int  getBombSlot();
+    void undrawBombs();
+    void moveBombs();
 
-    void writeScore();
-    void writeStartupMessage();
-    void writeWinMessage();
-    void writeFailMessage();
+
 };
 
 #endif

@@ -29,6 +29,8 @@
 #define FIREBASE_ROW_OFFSET DISPLAY_WIDTH * (DISPLAY_PAGE_COUNT - 1)
 
 #define ALIEN_WIDTH 9
+#define ALIEN_GUN_X_OFFSET 4
+#define ALIEN_GUN_Y_OFFSET 5
 
 class BufferedDisplay {
   public:
@@ -49,7 +51,7 @@ class BufferedDisplay {
 
     int  moveMissile(int x, int new_y);
 
-    void insertAlienAtCursor(int segmentLimit);
+    bool insertAlienAtCursor(int segmentLimit);
     void insertNoAlienAtCursor(int segmentLimit);
 
   private:
