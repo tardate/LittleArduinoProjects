@@ -1,26 +1,36 @@
 # OLED/ArdWinVaders
 
-An Arduino & OLED version of a classic
+An Arduino & OLED version of a classic game.
+
+Here's a quick video of the game in action:
+
+[![ArdWinVaders](http://img.youtube.com/vi/m0XgdGztr8s/0.jpg)](http://www.youtube.com/watch?v=m0XgdGztr8s)
 
 ## Notes
 
-I'm using an Arduino Pro Mini running on 3.3V at 8MHz, and driving the OLED directly.
+Since playing around with driving an OLED with an Arduino (see the [SSD1306BareBack](../SSD1306BareBack) project for example),
+it doesn't take long for the mind to wander into gaming territory...
 
-The OLED is one I got from aliexpress for USD3.93 - see the seller's page: [Yellow+Blue 0.96" SPI Serial 128X64 OLED](http://www.aliexpress.com/item/M89-Free-Shipping-Yellow-Blue-0-96-SPI-Serial-128X64-OLED-LCD-Display-Module-for-Arduino/32245505493.html). Although it's a monochrome display, this unit comes with two-tinted glass, which makes the upper fifth of the screen yellow and the lower blue.
+So here's the first version of a retro classic: Space Invaders in full 128x64 mono resolution running on an Arduino Pro Mini at 8MHz!
 
-The pin breakouts are slightly different from the AdaFruit module (used in the Fritzing diagram). These are the actual pin connections for my unit:
+For details and discussion of the hardware setup, see the [SSD1306BareBack](../SSD1306BareBack) project.
+This build is mainly about the software.
 
-| Arduino | OLED |
-|---------|------|
-| D09     | MOSI |
-| D10     | CLK  |
-| D11     | D/C  |
-| D12     | CS   |
-| GND     | GND  |
-| VCC     | VCC  |
+The software is organised into a number of classes. You can see the code for more details, but here is the overview:
+* ArdWinVaders.ino - main program, also handles all the controls input (fire, movement)
+* game_board.h/cpp - implements the main game controller class, responsible for orchestrating actions and sequencing gameplay
+* buffered_display.h/cpp - implements a logical display interface that GameBoard talks to. It maintains the screen buffer and handles movement, collision detection and so on.
+* oled_driver.h/cpp - implements the OLED-specific display driver. It goes direct to the hardware via SPI.
 
-Note that my OLED doesn't have a reset connection, so I'm not able to use a reset to get the display back to default configuration,
-hence the `setup` method runs through and sets all the configuration options regardless.
+
+### TODO
+
+* make it faster: gameplay is slowed especially by overhead of SPI to do a full screen refresh. Two optimisations in mind:
+  - implement some fast SPI (similar to the what the Adafruit_SSD1306 library does)
+  - implement smart/selective screen refresh - currently it does naive full screen refresh
+  - run the processor at > 8MHz
+* make it noisy: yes, some music and sound effects would be nice, even on a piezo!
+* put it in a hand-held form-factor
 
 
 ## Construction
