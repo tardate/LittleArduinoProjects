@@ -25,7 +25,7 @@ The software is organised into a number of classes. You can see the code for mor
 
 ### TODO
 
-* make it faster: gameplay is slowed especially by overhead of SPI to do a full screen refresh. Two optimisations in mind:
+* make it faster: gameplay is slowed especially by the overhead of SPI to do a full screen refresh. A few optimisations in mind:
   - implement some fast SPI (similar to the what the Adafruit_SSD1306 library does)
   - implement smart/selective screen refresh - currently it does naive full screen refresh
   - run the processor at > 8MHz
