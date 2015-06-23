@@ -68,6 +68,8 @@ void loop() {
 }
 
 EOS
+  echo "project initialised: ${full_path}"
+  open ${full_path}
 }
 
 
