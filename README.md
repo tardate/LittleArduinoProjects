@@ -18,8 +18,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 101 Projects...
-Latest addition - [ArdWinVaders](./playground/OLED/ArdWinVaders) - an Arduino & OLED version of a classic game.
+## 102 Projects...
+Latest addition - [SolenoidControl](./playground/SolenoidControl) - controlling a mini solenoid with an Arduino.
+
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -107,6 +108,7 @@ Latest addition - [ArdWinVaders](./playground/OLED/ArdWinVaders) - an Arduino & 
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)               | 555 Timer                  | play a sound for a fixed duration when a button is pressed |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)               | 555 Timer                  | classic timer circuit producing a two-tone oscillation |
 | [Smokey](./Electronics101/AudioAmps/Smokey)                        | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
+| [SolenoidControl](./playground/SolenoidControl)                    | Solenoid, Arduino          | controlling a mini solenoid with an Arduino |
 | [StereoLightTrigger](./playground/StereoLightTrigger)              | Sensors, Arduino           | demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [StripTease](./LEDArrayDemos/StripTease)                           | LED Array, Arduino         | demo a range of effects on the LED strip |
 | [Square Wave - 555](./Electronics101/555Timer/AstableOscillator)   | 555 Timer, Oscillators     | using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
