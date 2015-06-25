@@ -18,9 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 103 Projects...
-Latest addition - [LedControlDemo](./playground/LED8x8/LedControlDemo) - test driving and LED matrix with the LedControl library.
-
+## 104 Projects...
+Latest addition - [RotaryEncoderISR](./playground/RotaryEncoderISR) - test interrupt-driven rotary-encoder input.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -101,6 +100,7 @@ Latest addition - [LedControlDemo](./playground/LED8x8/LedControlDemo) - test dr
 | [RFSwitch](./Electronics101/RFSwitch)                              | RF, OpAmp                  | simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
 | [RFSwitchASK](./playground/RFSwitchASK)                            | RF, ASK, Arduino           | data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                       | LED Array, Arduino         | quick test to make sure LEDs are correctly addressable and their color can be set correctly |
+| [RotaryEncoderISR](./playground/RotaryEncoderISR)                  | Sensor, Arduino            | test interrupt-driven rotary-encoder input |
 | [RouletteKit](./Electronics101/555Timer/RouletteKit)               | 555 Timer                  | build and examine the workings of a commercial 555 Roulette kit |
 | [Schmitt Inverter](./Electronics101/SchmittInverter)               | 74xx TTL                   | graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [ServoTest](./playground/ServoTest)                                | Servo, Arduino             | test the positioning accuracy of a servo motor driven by an Arduino |
