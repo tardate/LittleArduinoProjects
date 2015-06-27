@@ -99,18 +99,29 @@
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
+#define NOTE_1 8
+#define NOTE_2 4
+#define NOTE_4 2
+#define NOTE_4d 3
+#define NOTE_8 1
+#define NOTE_8d 2
+
 
 class SoundSystem {
   public:
     SoundSystem(uint8_t speaker_pin);
 
     void init();
+    void next();
     void fire();
     void play(unsigned int note, unsigned long duration);
 
   private:
     uint8_t speaker_pin;
-
+    byte ticks_per_beat;
+    int tick_counter;
+    int note_counter;
+    int note_index;
 
 };
 

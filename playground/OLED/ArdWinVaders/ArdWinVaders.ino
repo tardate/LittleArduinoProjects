@@ -65,6 +65,7 @@ void loop() {
     }
   }
   gameDisplay.redraw();
+  soundSystem.next();
 }
 
 void sampleMovement() {

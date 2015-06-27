@@ -21,15 +21,13 @@ The software is organised into a number of classes. You can see the code for mor
 * game_board.h/cpp - implements the main game controller class, responsible for orchestrating actions and sequencing gameplay
 * buffered_display.h/cpp - implements a logical display interface that GameBoard talks to. It maintains the screen buffer and handles movement, collision detection and so on.
 * oled_driver.h/cpp - implements the OLED-specific display driver. It goes direct to the hardware via SPI.
+* sound_system.h/cpp - music and sound effects support.
 
 Game performance/screen refresh is pretty awesome even with the processor at 8Mhz. The big improvement came from switching to direct port manipulation
 for SPI rather than using the standard library methods (digitalWrite, shiftOut).
 
 ### TODO
-
-* make it noisy: yes, some music and sound effects would be nice, even on a piezo!
 * put it in a hand-held form-factor
-
 
 ## Construction
 
