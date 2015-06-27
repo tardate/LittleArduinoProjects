@@ -22,13 +22,11 @@ The software is organised into a number of classes. You can see the code for mor
 * buffered_display.h/cpp - implements a logical display interface that GameBoard talks to. It maintains the screen buffer and handles movement, collision detection and so on.
 * oled_driver.h/cpp - implements the OLED-specific display driver. It goes direct to the hardware via SPI.
 
+Game performance/screen refresh is pretty awesome even with the processor at 8Mhz. The big improvement came from switching to direct port manipulation
+for SPI rather than using the standard library methods (digitalWrite, shiftOut).
 
 ### TODO
 
-* make it faster: gameplay is slowed especially by the overhead of SPI to do a full screen refresh. A few optimisations in mind:
-  - implement some fast SPI (similar to the what the Adafruit_SSD1306 library does)
-  - implement smart/selective screen refresh - currently it does naive full screen refresh
-  - run the processor at > 8MHz
 * make it noisy: yes, some music and sound effects would be nice, even on a piezo!
 * put it in a hand-held form-factor
 
@@ -44,3 +42,4 @@ The software is organised into a number of classes. You can see the code for mor
 ## Credits and References
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [SSD1306BareBack](../SSD1306BareBack) - a sketch the exlores and explains OLED driving basics
+* [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation

@@ -9,6 +9,8 @@
 #ifndef OledDriver_h
 #define OledDriver_h
 
+#define USE_OPTIMISED_SPI
+
 #include <Arduino.h>
 #include "font.h"
 
@@ -19,6 +21,11 @@
 #define SSD1306_PAGE_HEIGHT             (SSD1306_PIXEL_HEIGHT / SSD1306_PAGE_COUNT)
 #define SSD1306_SEGMENT_COUNT           (SSD1306_PIXEL_WIDTH * SSD1306_PAGE_HEIGHT)
 
+#ifdef USE_OPTIMISED_SPI
+// fast SPI supporting types
+typedef volatile uint8_t PortReg;
+typedef uint8_t PortMask;
+#endif
 
 class OledDriver {
   public:
@@ -33,7 +40,7 @@ class OledDriver {
     void writeString(char *characters);
     void writeCommand(byte cmd);
     void writeCommand(byte cmd, byte data);
-    void writeData(byte cmd);
+    void writeData(byte data);
     void writeBuffer(byte *buffer, int len);
 
   private:
@@ -43,10 +50,16 @@ class OledDriver {
     int dc_pin;
     int cs_pin;
 
+    #ifdef USE_OPTIMISED_SPI
+    PortReg *mosi_port, *clk_port, *cs_port, *dc_port;
+    PortMask mosi_pinmask, clk_pinmask, cs_pinmask, dc_pinmask;
+    void spiShiftOut(byte data);
+    #endif
+
     byte dc_status;
 
-    void setDcStatus(byte cmd);
-    void spiSend(byte cmd);
+    void setDcStatus(byte state);
+    void spiSend(byte data);
 
 };
 

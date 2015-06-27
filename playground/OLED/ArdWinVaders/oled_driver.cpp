@@ -71,6 +71,17 @@ OledDriver::OledDriver(int mosi_pin, int clk_pin, int dc_pin, int cs_pin) {
   this->clk_pin = clk_pin;
   this->dc_pin = dc_pin;
   this->cs_pin = cs_pin;
+
+  #ifdef USE_OPTIMISED_SPI
+  cs_port      = portOutputRegister(digitalPinToPort(cs_pin));
+  cs_pinmask   = digitalPinToBitMask(cs_pin);
+  dc_port      = portOutputRegister(digitalPinToPort(dc_pin));
+  dc_pinmask   = digitalPinToBitMask(dc_pin);
+  clk_port     = portOutputRegister(digitalPinToPort(clk_pin));
+  clk_pinmask  = digitalPinToBitMask(clk_pin);
+  mosi_port    = portOutputRegister(digitalPinToPort(mosi_pin));
+  mosi_pinmask = digitalPinToBitMask(mosi_pin);
+  #endif
 }
 
 void OledDriver::init() {
@@ -115,16 +126,40 @@ int OledDriver::segmentCount() {
   return SSD1306_SEGMENT_COUNT;
 }
 
+//inline
 void OledDriver::setDcStatus(byte state) {
   if(dc_status==state) return;
   dc_status=state;
+
+  #ifdef USE_OPTIMISED_SPI
+  if(dc_status) *dc_port |= dc_pinmask;
+  else *dc_port &= ~dc_pinmask;
+  #else
   digitalWrite(dc_pin, dc_status);
+  #endif
 }
 
-void OledDriver::spiSend(byte cmd) {
+#ifdef USE_OPTIMISED_SPI
+inline void OledDriver::spiShiftOut(byte data) {
+  for(byte bit = 0x80; bit; bit >>= 1) {
+    *clk_port &= ~clk_pinmask;
+    if(data & bit) *mosi_port |=  mosi_pinmask;
+    else *mosi_port &= ~mosi_pinmask;
+    *clk_port |=  clk_pinmask;
+  }
+}
+#endif
+
+void OledDriver::spiSend(byte data) {
+  #ifdef USE_OPTIMISED_SPI
+  *cs_port &= ~cs_pinmask;
+  spiShiftOut(data);
+  *cs_port |= cs_pinmask;
+  #else
   digitalWrite(cs_pin, LOW);
-  shiftOut(mosi_pin, clk_pin, MSBFIRST, cmd);
+  shiftOut(mosi_pin, clk_pin, MSBFIRST, data);
   digitalWrite(cs_pin, HIGH);
+  #endif
 }
 
 void OledDriver::writeCommand(byte cmd) {
@@ -138,9 +173,9 @@ void OledDriver::writeCommand(byte cmd, byte data) {
   spiSend(data);
 }
 
-void OledDriver::writeData(byte cmd) {
+void OledDriver::writeData(byte data) {
   setDcStatus(HIGH);
-  spiSend(cmd);
+  spiSend(data);
 }
 
 void OledDriver::clear() {
