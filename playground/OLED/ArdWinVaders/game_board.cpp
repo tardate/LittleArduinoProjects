@@ -1,6 +1,10 @@
 #include "game_board.h"
 #include <stdlib.h>
 
+#define STARTUP_MESSAGE "Press fire to start"
+#define WIN_MESSAGE "The Earthling Wins!"
+#define FAIL_MESSAGE "Fail Earthling!"
+
 #define FIREBASE_MOVE_SPEED 2
 #define FIREBASE_LEFT_LIMIT_TEST FIREBASE_MOVE_SPEED
 #define FIREBASE_RIGHT_LIMIT_TEST FIREBASE_MAX_X - FIREBASE_MOVE_SPEED
@@ -27,7 +31,6 @@
 /*
  *   constructor
  */
-
 GameBoard::GameBoard(BufferedDisplay *gameDisplay) {
   this->gameDisplay = gameDisplay;
 }
@@ -302,7 +305,6 @@ void GameBoard::moveAndDrawAliens() {
   }
 }
 
-
 void GameBoard::writeScore() {
   char score_text[4];
   if(score<1000) {
@@ -316,17 +318,17 @@ void GameBoard::writeScore() {
 
 void GameBoard::writeStartupMessage() {
   gameDisplay->setSegmentByPageOffset(4, 20);;
-  gameDisplay->writeString("Press fire to start");
+  gameDisplay->writeString(STARTUP_MESSAGE);
 }
 
 void GameBoard::writeWinMessage() {
   writeScore();
   gameDisplay->setSegmentByPageOffset(2, 20);;
-  gameDisplay->writeString("Congrats, You Win!!");
+  gameDisplay->writeString(WIN_MESSAGE);
 }
 
 void GameBoard::writeFailMessage() {
   writeScore();
   gameDisplay->setSegmentByPageOffset(2, 20);;
-  gameDisplay->writeString("Doh, Fail!!");
+  gameDisplay->writeString(FAIL_MESSAGE);
 }
