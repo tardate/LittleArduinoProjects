@@ -1,6 +1,6 @@
 # RotaryEncoderISR
 
-Demo interrupt-driven rotary-encoder input
+Test interrupt-driven rotary-encoder input
 
 ## Notes
 
@@ -21,53 +21,16 @@ capturing every input and reading it reliably.
 
 Adding hardware debouncing (see the alternative schematics) below did not improve the situation.
 
-So far my conclusion is that this approach (or perhaps with these specific rotary encoders), the input is too unreliable for accurate positioning.
+One possibility is that the inaccuracy due to the fact that the sketch never reads the two pins at exactly the same time and therefore could be subject to timing issues. So I've tried a variation with direct port manipulation, similar to that described
+[by Oleg Mazurov in this article](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros).
+I was surprised that this didn't improve things much either.
 
-One possibility is that the inaccuracy due to the fact that the sketch never reads the two pins at exactly the same time and therefore could be subject to timing issues. I'll try some direct pin reading next to see if that helps, similar to that described
-[by Oleg Mazurov in this article](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros)
+Here's the summary of techniques tried so far:
+* ISR using digitalRead, direct connect to the rotary encoder
+* ISR using digitalRead, hardware debouncing to the rotary encoder
+* ISR using direct port access, direct connect to the rotary encoder
 
-### A sample trace of encoder input
-Not as smooth as I'd like...
-```
-position: 0, delta: 0
-1
-2
-1
-0
-1
-2
-3
-4
-3
-2
-position: 2, delta: -1
-3
-4
-3
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-10
-9
-position: 9, delta: -1
-10
-11
-12
-13
-14
-15
-16
-15
-14
-position: 14, delta: -1
-```
+All proved unreliable so far i.e. non-linear and inconsistent response to rotation. So now I'm suspecting the rotary encoders themselves may be responsible for the problems. I'll revisit this again I think...
 
 ## Construction
 
@@ -93,3 +56,4 @@ position: 14, delta: -1
 * [Rotary Encoder: H/W, S/W or No Debounce?](https://hifiduino.wordpress.com/2010/10/20/rotaryencoder-hw-sw-no-debounce/) - good discussion and investigation of different debouncing schemes
 * [Reading rotary encoder on Arduino](https://www.circuitsathome.com/mcu/programming/reading-rotary-encoder-on-arduino) by Oleg Mazurov
 * [Rotary encoder interrupt service routine for AVR micros](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros) updated article by Oleg Mazurov
+* [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation
