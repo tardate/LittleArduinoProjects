@@ -19,7 +19,8 @@ volatile int fireStatus = 0;
 volatile int moveLeft = 0;
 volatile int moveRight = 0;
 
-//** display pin connections
+//** pin connections
+#define SPEAKER_PIN 6
 #define MOSI_PIN 9
 #define CLK_PIN 10
 #define DC_PIN 11
@@ -28,13 +29,16 @@ volatile int moveRight = 0;
 #include "oled_driver.h"
 #include "buffered_display.h"
 #include "game_board.h"
+#include "sound.h"
 
 OledDriver displayDriver(MOSI_PIN,CLK_PIN,DC_PIN,CS_PIN);
 BufferedDisplay gameDisplay(&displayDriver);
 GameBoard gameBoard(&gameDisplay);
+Sound sound(SPEAKER_PIN);
 
 void setup() {
   gameBoard.init();
+  sound.init();
 
   pinMode(LEFT_PIN, INPUT);
   pinMode(RIGHT_PIN, INPUT);
@@ -51,6 +55,7 @@ void loop() {
     if(moveRight) gameBoard.moveRight();
     if(fireStatus) {
       gameBoard.fire();
+      sound.fire();
       fireStatus = 0;
     }
     gameBoard.finishRecalc();
