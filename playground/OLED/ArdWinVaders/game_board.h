@@ -11,6 +11,7 @@
 #define GameBoard_h
 
 #include "buffered_display.h"
+#include "sound_system.h"
 
 #define MAX_MISSILES 4
 #define MAX_BOMBS 6
@@ -19,7 +20,7 @@
 
 class GameBoard {
   public:
-    GameBoard(BufferedDisplay *gameDisplay);
+    GameBoard(BufferedDisplay *gameDisplay, SoundSystem *soundSystem);
 
     void init();
 
@@ -39,6 +40,7 @@ class GameBoard {
 
   private:
     BufferedDisplay *gameDisplay;
+    SoundSystem *soundSystem;
 
     bool game_in_progress;
     int  game_result;

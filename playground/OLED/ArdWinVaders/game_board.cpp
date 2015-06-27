@@ -31,8 +31,9 @@
 /*
  *   constructor
  */
-GameBoard::GameBoard(BufferedDisplay *gameDisplay) {
+GameBoard::GameBoard(BufferedDisplay *gameDisplay, SoundSystem *soundSystem) {
   this->gameDisplay = gameDisplay;
+  this->soundSystem = soundSystem;
 }
 
 void GameBoard::init() {
@@ -127,6 +128,7 @@ void GameBoard::fire() {
   if(slot<0) return;
   missile_vectors[slot] = firebasePosition + FIREBASE_GUN_X_OFFSET;
   missile_runs[slot] = MISSILE_RUN_LENGTH;
+  soundSystem->fire();
 }
 
 void GameBoard::clearMissile(int i) {

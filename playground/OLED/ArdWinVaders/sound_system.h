@@ -1,5 +1,5 @@
-#ifndef Sound_h
-#define Sound_h
+#ifndef SoundSystem_h
+#define SoundSystem_h
 
 #include <Arduino.h>
 
@@ -100,9 +100,9 @@
 #define NOTE_DS8 4978
 
 
-class Sound {
+class SoundSystem {
   public:
-    Sound(uint8_t speaker_pin);
+    SoundSystem(uint8_t speaker_pin);
 
     void init();
     void fire();
