@@ -7,7 +7,7 @@
 
 #define MISSILE_MOVE_SPEED 2
 #define MISSILE_RUN_LENGTH DISPLAY_HEIGHT - FIREBASE_GUN_Y_OFFSET
-#define BOMB_MOVE_SPEED 2
+#define BOMB_MOVE_SPEED 1
 #define BOMB_COLLISION_Y_MIN (DISPLAY_HEIGHT - DISPLAY_PAGE_HEIGHT)
 
 #define ALIEN_INITIAL_X ALIEN_WIDTH
@@ -16,7 +16,7 @@
 #define ALIEN_MODE_JIGGLE_LEFT -1
 #define ALIEN_MODE_EXIT_RIGHT 2
 #define ALIEN_MODE_ENTER_RIGHT 3
-#define ALIEN_MODE_COUNT_BEFORE_EXIT_RIGHT (ALIEN_WIDTH * 2)
+#define ALIEN_MODE_COUNT_BEFORE_EXIT_RIGHT (ALIEN_WIDTH * 6)
 
 #define GAME_RESULT_NIL  0
 #define GAME_RESULT_FAIL 1
@@ -36,7 +36,8 @@ void GameBoard::init() {
   gameDisplay->init();
   srand(1234);
   setScore(0);
-  endGame();
+  resetGame();
+  writeStartupMessage();
 }
 
 void GameBoard::resetGame() {
@@ -181,8 +182,8 @@ void GameBoard::handleMissileHit(int missile, int missile_x, int missile_y) {
   }
 }
 
-bool GameBoard::decideToBomb() {
-  return rand() % 100 > 95;
+inline bool GameBoard::decideToBomb() {
+  return rand() % 100 > 90;
 }
 
 void GameBoard::dropBomb(int x, int y) {
