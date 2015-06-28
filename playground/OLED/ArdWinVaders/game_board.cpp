@@ -38,7 +38,7 @@ GameBoard::GameBoard(BufferedDisplay *gameDisplay, SoundSystem *soundSystem) {
 
 void GameBoard::init() {
   gameDisplay->init();
-  srand(1234);
+  srand(rand());
   setScore(0);
   resetGame();
   writeStartupMessage();
@@ -188,7 +188,7 @@ void GameBoard::handleMissileHit(int missile, int missile_x, int missile_y) {
 }
 
 inline bool GameBoard::decideToBomb() {
-  return rand() % 100 > 90;
+  return rand() % 100 > 97;
 }
 
 void GameBoard::dropBomb(int x, int y) {
