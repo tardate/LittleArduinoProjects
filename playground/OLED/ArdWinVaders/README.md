@@ -6,7 +6,7 @@ Here's a quick video of the game in action:
 
 [![ArdWinVaders](http://img.youtube.com/vi/GBX0n_YXXcs/0.jpg)](http://www.youtube.com/watch?v=GBX0n_YXXcs)
 
-[This is the initial video](http://youtu.be/m0XgdGztr8s) before the screen optimisations or sound. There's a huge performance difference!
+Or [see this earlier video](http://youtu.be/m0XgdGztr8s) before the screen optimisations or sound. There's a huge performance difference!
 
 ## Notes
 
