@@ -18,8 +18,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 104 Projects...
-Latest addition - [RotaryEncoderISR](./playground/RotaryEncoderISR) - test interrupt-driven rotary-encoder input.
+## 105 Projects...
+Latest addition - [BJTSawTooth](./Electronics101/BJTSawTooth) - testing a simple BJT saw-tooth oscillator.
+
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -32,6 +33,7 @@ Latest addition - [RotaryEncoderISR](./playground/RotaryEncoderISR) - test inter
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)       | LED Array, Timing, Arduino | demo effects on the LED strip driven using timer interrupt |
 | [BJTCurrentSink](./Electronics101/BJTCurrentSink)                  | BJT, Power                 | test a BJT constant current sink circuit |
 | [BJTLongTailPair](./Electronics101/BJTLongTailPair)                | BJT, OpAmp                 | test the basic BJT "long-tail" differential amplifier circuit |
+| [BJTSawTooth](./Electronics101/BJTSawTooth)                        | BJT, Oscillators           | testing a simple BJT saw-tooth oscillator |
 | [Blink](./playground/Blink)                                        | LED, Arduino               | the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                      | LED, Timing, Arduino       | use a timer to perform a function on a precise schedule |
 | [BreatheLamp](./Electronics101/BreatheLamp)                        | OpAmp, LED                 | build and test a common LED visual effect circuit |
