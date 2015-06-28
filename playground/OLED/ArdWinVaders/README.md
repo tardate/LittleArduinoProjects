@@ -4,7 +4,9 @@ An Arduino & OLED version of a classic game.
 
 Here's a quick video of the game in action:
 
-[![ArdWinVaders](http://img.youtube.com/vi/m0XgdGztr8s/0.jpg)](http://www.youtube.com/watch?v=m0XgdGztr8s)
+[![ArdWinVaders](http://img.youtube.com/vi/GBX0n_YXXcs/0.jpg)](http://www.youtube.com/watch?v=GBX0n_YXXcs)
+
+[This is the initial video](http://youtu.be/m0XgdGztr8s) before the screen optimisations or sound. There's a huge performance difference!
 
 ## Notes
 
