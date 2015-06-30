@@ -41,7 +41,7 @@ As a side-effect, this also increases the amplitude of the wave.
 
 The capacitance of C1 affects the slope of the charge. Since we are using a constant current, charge time in V/sec = Ic/C.
 So higher capacitor values will slow down the wave frequency and vice versa.
-Here I'm using a 10µF electrolyitc to give a very slow wave, visible to the eye.
+Here I'm using a 10µF electrolytic to give a very slow wave, visible to the eye.
 
 Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) to
 reads the data collected by the [BJTSawTooth.ino](./BJTSawTooth) program:
