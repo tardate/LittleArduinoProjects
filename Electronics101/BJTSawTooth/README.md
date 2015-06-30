@@ -31,7 +31,7 @@ The standard guidelines for NPN/PNP operation (from
 ### Not Oscillating?
 
 The trick seems to be to ensure that the Q2/Q3 pair effectively cut-off.
-The original circuit set R3 at 10kΩ. Depending on transistor characteristics, this may not pull the voltage low enough to ensure oscillation occurs.
+The original circuit set R3 at 10kΩ. Depending on transistor characteristics, this may not pull the voltage high enough to ensure oscillation occurs.
 If not, the typical behaviour is to see one oscillation, and then C1 peg at about 1 diode-drop.
 
 Reducing the value of R3 seems to overcome the problem (here I'm using 4.7kΩ with 2N3904/2N3906 transistors).
