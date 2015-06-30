@@ -34,7 +34,8 @@ The trick seems to be to ensure that the Q2/Q3 pair effectively cut-off.
 The original circuit set R3 at 10kΩ. Depending on transistor characteristics, this may not pull the voltage low enough to ensure oscillation occurs.
 If not, the typical behaviour is to see one oscillation, and then C1 peg at about 1 diode-drop.
 
-Reducing the value of R3 seems to overcome the problem (here I'm using 4.7kΩ). As a side-effect, this also increases the amplitude of the wave.
+Reducing the value of R3 seems to overcome the problem (here I'm using 4.7kΩ with 2N3904/2N3906 transistors).
+As a side-effect, this also increases the amplitude of the wave.
 
 ### Changing Frequency
 
@@ -58,3 +59,5 @@ reads the data collected by the [BJTSawTooth.ino](./BJTSawTooth) program:
 ## Credits and References
 * [Simple 3 transistor sawtooth generator / oscillator](https://youtu.be/2a1I1X3RV0g) - excellent tutorial from w2aew; the basis for this project.
 * [BJT page on wikipedia](https://en.wikipedia.org/wiki/Bipolar_junction_transistor)
+* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
