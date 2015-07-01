@@ -1,6 +1,6 @@
 # Digital Logic Switch - N-Channel Enhancement FET
 
-Using a small-signal FET as a switch, with turn-off delay.
+Using a small-signal n-channel MOSFET as a switch, with turn-off delay.
 
 Here's a quick video of the circuit in action:
 
@@ -27,5 +27,6 @@ The turn-off delay is implemented with a simple RC circuit: the R1=220kÎ© C1=10Î
 ![The Build](./assets/SwitchNFET_build.jpg?raw=true)
 
 ## Credits and References
-* [MOSFET as a Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html)
+* [SwitchPFET](../SwitchPFET) - same circuit but using p-channel MOSFET
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [MOSFET as a Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html)
