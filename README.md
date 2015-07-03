@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 107 Projects...
-Latest addition - [RingCounter](./Electronics101/RingCounter) - test the classic CD4017 walking-ring counter.
+## 108 Projects...
+Latest addition - [RingCounterController](./playground/RingCounterController) - control the classic CD4017 walking-ring counter with an Arduino.
 
 
 | Project                                                            | Category                   | Description                               |
@@ -100,6 +100,7 @@ Latest addition - [RingCounter](./Electronics101/RingCounter) - test the classic
 | [RelayControlTest](./playground/RelayControlTest)                  | Servo, Arduino             | quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [RelayModuleTest](./playground/RelayModuleTest)                    | Servo, Arduino             | quick test of a common relay board to switch a motor under Arduino control |
 | [RingCounter](./Electronics101/RingCounter)                        | CMOS, 555 Timer            | test the classic CD4017 walking-ring counter |
+| [RingCounterController](./playground/RingCounterController)        | CMOS, Arduino              | control the classic CD4017 walking-ring counter with an Arduino |
 | [RFSwitch](./Electronics101/RFSwitch)                              | RF, OpAmp                  | simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
 | [RFSwitchASK](./playground/RFSwitchASK)                            | RF, ASK, Arduino           | data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                       | LED Array, Arduino         | quick test to make sure LEDs are correctly addressable and their color can be set correctly |
