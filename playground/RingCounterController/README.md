@@ -22,6 +22,11 @@ The minimum clock pulse with is 250ns when operating at 5V.
 The program ensures a minimum clock pulse of 1ms which is very conservative.
 In fact the sketch works equially well with no delay when pulsing the clock - just `digitalWrite` HIGH immediately followed by `digitalWrite` LOW.
 
+When operating, the circuit draws about 2mA in total.
+
+Note that since only a single LED should be on at a given time, the 10 x 1kΩ current-limiting resistors could be replaced by a single resistor
+on a common cathode ground link for the LEDs.
+
 ## Construction
 
 ![Breadboard](./assets/RingCounterController_bb.jpg?raw=true)

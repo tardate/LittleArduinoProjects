@@ -20,6 +20,9 @@ The circuit can be powered over a wide range - from about 4.5V to 15V, depending
 LED brightness will be affected by the supply voltage, and below 9V it might be desirable to replace the 1kΩ current-limiting resistors with a lower value.
 When powered by 9V battery source, the maximum current drawn is around 11.2mA.
 
+Note that since only a single LED should be on at a given time, the 10 x 1kΩ current-limiting resistors could be replaced by a single resistor
+on a common cathode ground link for the LEDs.
+
 See [RingCounterController](../../playground/RingCounterController) for a variant of this project using an Arduino to control the 4017.
 
 ## Construction
