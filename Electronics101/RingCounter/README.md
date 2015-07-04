@@ -42,4 +42,4 @@ Interesting side-note: a very similar circuit is used in some SMD soldering trai
 * [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
 * [RingCounterController](../../playground/RingCounterController) - same project but using an Arduino for control
 * [kit link](http://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit from a seller on aliexpress
-( [SMD training kit on aliexpress](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html)
+* [SMD training kit on aliexpress](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html)
