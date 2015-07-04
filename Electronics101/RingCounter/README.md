@@ -25,6 +25,11 @@ on a common cathode ground link for the LEDs.
 
 See [RingCounterController](../../playground/RingCounterController) for a variant of this project using an Arduino to control the 4017.
 
+Interesting side-note: a very similar circuit is used in some SMD soldering training kits, such as
+[this kit on aliexpress](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html):
+
+![SMD kit](./assets/smd_trainer.jpg?raw=true)
+
 ## Construction
 
 ![Breadboard](./assets/RingCounter_bb.jpg?raw=true)
@@ -35,5 +40,6 @@ See [RingCounterController](../../playground/RingCounterController) for a varian
 
 ## Credits and References
 * [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
-* [kit link](http://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit
 * [RingCounterController](../../playground/RingCounterController) - same project but using an Arduino for control
+* [kit link](http://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit from a seller on aliexpress
+( [SMD training kit on aliexpress](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html)
