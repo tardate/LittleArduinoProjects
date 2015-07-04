@@ -7,23 +7,19 @@
 
  */
 
+#include "ring_counter.h"
+
 #define ENABLE_PIN 10
 #define CLOCK_PIN 11
 #define RESET_PIN 12
 
-#define PULSE_WIDTH 1
+RingCounter ring_counter(CLOCK_PIN, ENABLE_PIN, RESET_PIN);
 
 void setup() {
-  pinMode(CLOCK_PIN, OUTPUT);
-  pinMode(RESET_PIN, OUTPUT);
-  pinMode(ENABLE_PIN, OUTPUT);
-
-  reset();
-  clockEnable();
+  ring_counter.init();
 }
 
 void loop() {
-
   indicateNextTest();
   gradualRamp();
 
@@ -35,10 +31,10 @@ void loop() {
 }
 
 void indicateNextTest() {
-  reset();
+  ring_counter.reset();
   delay(500);
-  for(int step=0; step<20; step++) pulse();
-  reset();
+  for(int step=0; step<20; step++) ring_counter.pulse();
+  ring_counter.reset();
   delay(500);
 }
 
@@ -47,11 +43,11 @@ void gradualRamp() {
   int max = 100;
 
   for(int step=max; step>min; step--) {
-    pulse();
+    ring_counter.pulse();
     delay(step/2);
   }
   for(int step=min; step<=max; step++) {
-    pulse();
+    ring_counter.pulse();
     delay(step/2);
   }
 }
@@ -59,36 +55,16 @@ void gradualRamp() {
 void randomSteps() {
   srand(rand());
   for(int step=0; step<100; step++) {
-    pulse();
+    ring_counter.pulse();
     delay(rand() % 100);
   }
 }
 
 void pulseWhenDisabled() {
-  clockDisable();
+  ring_counter.disable();
   for(int step=0; step<100; step++) {
-    pulse();
+    ring_counter.pulse();
     delay(20);
   }
-  clockEnable();
-}
-
-void pulse() {
-  digitalWrite(CLOCK_PIN, HIGH);
-  delay(PULSE_WIDTH);
-  digitalWrite(CLOCK_PIN, LOW);
-}
-
-void reset() {
-  digitalWrite(RESET_PIN, HIGH);
-  delay(PULSE_WIDTH);
-  digitalWrite(RESET_PIN, LOW);
-}
-
-void clockEnable() {
-  digitalWrite(ENABLE_PIN, LOW);
-}
-
-void clockDisable() {
-  digitalWrite(ENABLE_PIN, HIGH);
+  ring_counter.enable();
 }
