@@ -1,5 +1,5 @@
-# 220 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [GccToolchain](./playground/GccToolchain) - programming an Arduino with C and a command line
+# 221 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ResistorTransistorLogic/XOR](./Electronics101/ResistorTransistorLogic/XOR) - test the basic resistor-transistor logic XOR gate
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -179,11 +179,12 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#129 RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RLC, Oscillators**     test a "joule thief" circuit based on a relaxation oscillator |
 | [#055 RelayControlTest](./playground/RelayControlTest)                             | **Servo, Arduino**              quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [#054 RelayModuleTest](./playground/RelayModuleTest)                               | **Servo, Arduino**              quick test of a common relay board to switch a motor under Arduino control |
-| [#024 ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND)   | **BJT, Logic Gates**            test the basic resistor-transistor logic AND gate  |
-| [#023 ResistorTransistorLogic/NAND](./Electronics101/ResistorTransistorLogic/NAND) | **BJT, Logic Gates**            test the basic resistor-transistor logic NAND gate  |
-| [#111 ResistorTransistorLogic/NOR](./Electronics101/ResistorTransistorLogic/NOR)   | **BJT, Logic Gates**            test the basic resistor-transistor logic NOR gate  |
-| [#013 ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT)   | **BJT, Logic Gates**            test the basic resistor-transistor logic NOT gate (Inverter) |
-| [#112 ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR)     | **BJT, Logic Gates**            test the basic resistor-transistor logic OR gate |
+| [#024 ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic AND gate  |
+| [#023 ResistorTransistorLogic/NAND](./Electronics101/ResistorTransistorLogic/NAND) | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NAND gate  |
+| [#111 ResistorTransistorLogic/NOR](./Electronics101/ResistorTransistorLogic/NOR)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NOR gate  |
+| [#013 ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NOT gate (Inverter) |
+| [#112 ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR)     | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic OR gate |
+| [#221 ResistorTransistorLogic/XOR](./Electronics101/ResistorTransistorLogic/XOR)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic XOR gate/XOR |
 | [#124 RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **RF**                          a simple RF detector mounted in a pen |
 | [#169 RGBLedModule](./playground/RGBLedModule)                                     | **LED, Arduino**                demo an RGB LED module |
 | [#107 RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
