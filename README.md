@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 108 Projects...
-Latest addition - [RingCounterController](./playground/RingCounterController) - control the classic CD4017 walking-ring counter with an Arduino.
+## 109 Projects...
+Latest addition - [DiodeLogic/OR](./Electronics101/DiodeLogic/OR) - test the basic diode-logic OR gate.
 
 
 | Project                                                            | Category                   | Description                               |
@@ -40,6 +40,7 @@ Latest addition - [RingCounterController](./playground/RingCounterController) - 
 | [CapacitanceTester](./Electronics101/CapacitanceTester)            | LCD, RC, Arduino           | capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                      | RC                         | graphing capacitor discharge with Processing |
 | [Comparator741](./Electronics101/Comparator741)                    | OpAmp                      | demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
+| [DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                    | Diode, Logic Gates         | test the basic diode-logic OR gate |
 | [El Jarabe Tapatío](./playground/JarabeTapatio)                    | Audio, Arduino             | play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
 | [ElectretADC](./playground/ElectretADC)                            | Audio, Arduino             | convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [ElectretTrigger](./playground/ElectretTrigger)                    | Sensors, Audio, OpAmp, Arduino | uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
