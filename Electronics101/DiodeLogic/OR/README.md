@@ -22,14 +22,13 @@ In this circuit with VCC of 5V and where Vf is the diode forward voltage of appr
 * Out logical "0" == 0V
 * Out logical "1" == VCC - 1 x Vf ~> 4.3V
 
+Pull-down resistors R2,R3 are used to prevent floating inputs.
+
 The Arduino is not a core part of the circuit. It only does the following:
 * provides +5V power supply (for convenience)
 * measures the input and output voltages for plotting. It uses the [PlotNValues](../../../playground/PlotNValues) sketch for this purpose.
 
-Here's a sample trace, which illustrates there's lots that is not ideal:
-* the Vf drop in the output
-* with "0" input, the output is actually floating
-* "0" inputs are actually floating (hence the "ghost" reading when only one input enabled)
+Here's a sample trace:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
