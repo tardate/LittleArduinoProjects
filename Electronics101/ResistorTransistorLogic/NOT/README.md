@@ -12,6 +12,11 @@ Resistor–transistor logic (RTL) is a class of digital circuits built using res
 
 It is interesting to see how various logic gate may be realised with BJTs and resistors alone. Here is the basic inverter gate.
 
+| IN  | OUT |
+|:---:|:---:|
+| 0   | 1   |
+| 1   | 0   |
+
 The circuit uses a digital output pin as the input to the inverter. The output is tapped at the collector of the transistor. The output voltage is read with an analog input pin, and the value is echoed to the Arduino serial port.
 
 The Arduino is not really a core part of the circuit. It only does the following:

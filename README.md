@@ -18,7 +18,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 111 Projects...
+## 112 Projects...
 Latest addition - [DiodeLogic/AND](./Electronics101/DiodeLogic/AND) - test the basic diode-logic AND gate.
 
 | Project                                                            | Category                   | Description                               |
@@ -100,7 +100,8 @@ Latest addition - [DiodeLogic/AND](./Electronics101/DiodeLogic/AND) - test the b
 | [ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND) | BJT, Logic Gates  | test the basic resistor-transistor logic AND gate  |
 | [ResistorTransistorLogic/NAND](./Electronics101/ResistorTransistorLogic/NAND) | BJT, Logic Gates| test the basic resistor-transistor logic NAND gate  |
 | [ResistorTransistorLogic/NOR](./Electronics101/ResistorTransistorLogic/NOR) | BJT, Logic Gates  | test the basic resistor-transistor logic NOR gate  |
-| [ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT) | BJT, Logic Gates  | test the basic resistor-transistor logic NOT date (Inverter) |
+| [ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT) | BJT, Logic Gates  | test the basic resistor-transistor logic NOT gate (Inverter) |
+| [ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR) | BJT, Logic Gates    | test the basic resistor-transistor logic OR gate |
 | [RingCounter](./Electronics101/RingCounter)                        | CMOS, 555 Timer            | test the classic CD4017 walking-ring counter |
 | [RingCounterController](./playground/RingCounterController)        | CMOS, Arduino              | control the classic CD4017 walking-ring counter with an Arduino |
 | [RFSwitch](./Electronics101/RFSwitch)                              | RF, OpAmp                  | simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
