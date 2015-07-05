@@ -64,10 +64,10 @@ So the 38 LEDs will require a total voltage drop of around 114V; not surprising 
 | R1  | 390kΩ resistor                  | AC residual voltage protection  |
 | R2  | 390kΩ resistor                  | DC RC low-pass filter |
 | R3  | 100Ω resistor                   | LED excess voltage disipation |
-| D1  | 1N4007 resistor                 | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
-| D2  | 1N4007 resistor                 | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
-| D3  | 1N4007 resistor                 | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
-| D4  | 1N4007 resistor                 | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
+| D1  | 1N4007 diode                    | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
+| D2  | 1N4007 diode                    | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
+| D3  | 1N4007 diode                    | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
+| D4  | 1N4007 diode                    | 1/4 full wave rectifier [datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)  |
 | C1  | 684J 0.68μF polyester 630V      | [datasheet](http://sg.element14.com/panasonic-electronic-components/ecqe6684jf/capacitor-film-630v-0-68uf/dp/1744822?CMP=GRHB-OCTOPART-1000755)  |
 | C2  | 4.7μF electrolytic capacitor    | DC RC low-pass filter |
 | L1-38 | 5mm Warm White LED            | perhaps similar to this [datasheet](http://www.futurlec.com/LED/LED5WWULB.shtml) |
