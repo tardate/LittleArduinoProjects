@@ -48,7 +48,6 @@ Latest addition - [DiodeLogic/AND](./Electronics101/DiodeLogic/AND) - test the b
 | [EMRDetection/MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit) | RF      | build and investigate a commercially available "mobile phone signal" detector kit |
 | [FunctionGenerator324](./Electronics101/FunctionGenerator324)      | OpAmp, Oscillators         | LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [FretBoard](./FretBoard)                                           | LED Array, Arduino         | a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
-| [Gates - Basic Transistor AND](./Electronics101/BasicAND)          | Logic Gates, BJT           | the classic 2-transistor design |
 | [Gates - 2-Transistor NAND](./Electronics101/SimplestNAND)         | Logic Gates, BJT           | Simplest 2-Transistor NAND      |
 | [Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                | Logic Gates, BJT           | Set/Reset flip-flop with BJTs |
 | [Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper) | Logic Gates, BJT, Arduino  | Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
@@ -99,7 +98,8 @@ Latest addition - [DiodeLogic/AND](./Electronics101/DiodeLogic/AND) - test the b
 | [RCOscillator](./Electronics101/RCOscillator)                      | Oscillators                | simple RC/transistor multistable vibrator |
 | [RelayControlTest](./playground/RelayControlTest)                  | Servo, Arduino             | quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [RelayModuleTest](./playground/RelayModuleTest)                    | Servo, Arduino             | quick test of a common relay board to switch a motor under Arduino control |
-| [ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT) | BJT, Logic Gates  | Simplest 1-Transistor Inverter  |
+| [ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND) | BJT, Logic Gates  | test the basic resistor-transistor logic AND gate  |
+| [ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT) | BJT, Logic Gates  | test the basic resistor-transistor logic NOT date (Inverter) |
 | [RingCounter](./Electronics101/RingCounter)                        | CMOS, 555 Timer            | test the classic CD4017 walking-ring counter |
 | [RingCounterController](./playground/RingCounterController)        | CMOS, Arduino              | control the classic CD4017 walking-ring counter with an Arduino |
 | [RFSwitch](./Electronics101/RFSwitch)                              | RF, OpAmp                  | simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
