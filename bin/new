@@ -16,14 +16,15 @@ EOF
 }
 
 function make_project() {
-  local folder=$1
-  local project_name=$2
-  local full_path=${folder}/${project_name}
+  local full_project_name=$2
+  local full_path="${1}/${full_project_name}"
+  local parent_folder=$(dirname "$full_path")
+  local project_name=$(basename "$full_path")
 
-  mkdir ${full_path}
+  mkdir -p ${full_path}
   mkdir ${full_path}/assets
-  cat > ${full_path}/README.md <<EOS
-# ${project_name}
+  cat > "${full_path}/README.md" <<EOS
+# ${full_project_name}
 
 __subtitle__
 
@@ -44,10 +45,12 @@ __notes__
 
 EOS
 
-  cat > ${full_path}/${project_name}.ino <<EOS
+  local ino_file="${full_path}/${project_name}.ino"
+  echo "making ${ino_file}"
+  cat > "${ino_file}" <<EOS
 /*
 
-  ${project_name}
+  ${full_project_name}
   __subtitle__
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/${full_path}
@@ -64,12 +67,14 @@ void loop() {
   static boolean output = HIGH;
 
   digitalWrite(XX_PIN, output);
+  delay(500);
+
   output = !output;
 }
 
 EOS
   echo "project initialised: ${full_path}"
-  open ${full_path}
+  open "${full_path}"
 }
 
 
