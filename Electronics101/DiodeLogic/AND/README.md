@@ -30,7 +30,7 @@ The Arduino is not a core part of the circuit. It only does the following:
 * provides +5V power supply (for convenience)
 * measures the input and output voltages for plotting. It uses the [PlotNValues](../../../playground/PlotNValues) sketch for this purpose.
 
-Here's a sample trace:
+Here's a sample trace. The upper trace is the output, the lower traces the inputs.
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
