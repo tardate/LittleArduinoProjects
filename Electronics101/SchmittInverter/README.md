@@ -19,7 +19,7 @@ Here's a sample trace. The lower trace is the signal input, and the upper trace 
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
-Compared with a [simple BJT inverter](../SimplestInverter), we see a much cleaner signal.
+Compared with a [simple BJT inverter](../ResistorTransistorLogic/NOT), we see a much cleaner signal.
 
 ### Construction
 
