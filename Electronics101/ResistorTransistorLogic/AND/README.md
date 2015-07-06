@@ -23,6 +23,8 @@ However, that's the idealised view. In practice things are a little messier. In 
 * A pull-down resistor (Rp) is required to get a clean "off", else the input would be floating.
 * With the lower transistor on, we can see partial activation. This is because we are applying a voltage to the base while the collector is not driven, so the base is appearing on the emitter. We have to work around this problem be definining the threshold for "high" to be above this voltage.
 
+See the [TTLBufferDriver project](../../TTLBufferDriver) for an example of how to clean up the output with a buffer driver.
+
 Here's a sample trace. The lower two traces are the signal inputs, and the upper trace is the output of the gate.
 
 ![processing trace](./assets/processing_trace.png?raw=true)
@@ -52,5 +54,5 @@ for plotting with [PlotNValues](../../../processing/PlotNValues) (a simple Proce
 * [Logic Gates using Transistors](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/trangate.html)
 * [Logic Gates using Transistors #2](https://electrosome.com/logic-gates-using-transistors/) - note, when last checked, the AND circuit is wrong?
 * [Logic AND Gate Tutorial](http://www.electronics-tutorials.ws/logic/logic_2.html) - explains of the basic circuit used here.
-
+* [TTLBufferDriver project](../../TTLBufferDriver) - a version of this basic AND gate project but with an additional output buffer
 
