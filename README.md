@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 113 Projects...
-Latest addition - [TTLBufferDriver](./Electronics101/TTLBufferDriver) - using an OpAmp as a final buffer stage for TTL or similar circuits.
+## 114 Projects...
+Latest addition - [NORGateOscillator](./Electronics101/NORGateOscillator) - test a low-speed square wave oscillator using NOR gates.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -80,6 +80,7 @@ Latest addition - [TTLBufferDriver](./Electronics101/TTLBufferDriver) - using an
 | [MotorControlPWM](./playground/MotorControlPWM)                    | Motors, Arduino            | tests PWM speed control of a DC motor driven by an Arduino |
 | [NonInverting324](./Electronics101/NonInverting324)                | OpAmp                      | demo LM324 OpAmp non-inverting DC gain mode |
 | [NOR7402](./Electronics101/NOR7402)                                | 74xx TTL, Arduino          | demo the 74LS02 Quad 2-input NOR gate with an Arduino |
+| [NORGateOscillator](./Electronics101/NORGateOscillator)            | 74xx TTL, Oscillators, Arduino          | test a low-speed square wave oscillator using NOR gates |
 | [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)          | OLED, Arduino              | driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | OLED, Arduino  | running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [PlotNValues](./playground/PlotNValues)                            | Arduino, Processing        | generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
@@ -112,7 +113,7 @@ Latest addition - [TTLBufferDriver](./Electronics101/TTLBufferDriver) - using an
 | [Schmitt Inverter](./Electronics101/SchmittInverter)               | 74xx TTL                   | graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [ServoTest](./playground/ServoTest)                                | Servo, Arduino             | test the positioning accuracy of a servo motor driven by an Arduino |
 | [Shifty](./playground/Shifty)                                      | LED, Arduino               | drive 8 LEDs with 3 pins using a 74HC595 shift register |
-| [Simple 7-segment display](./playground/Simple7SegmentDisplay)     | 7-Segment, Arduino         | test 7-segment common cathode display |
+| [Simple7SegmentDisplay](./playground/Simple7SegmentDisplay)        | 7-Segment, Arduino         | test a 7-segment common cathode display |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)               | 555 Timer                  | play a sound for a fixed duration when a button is pressed |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)               | 555 Timer                  | classic timer circuit producing a two-tone oscillation |
 | [Smokey](./Electronics101/AudioAmps/Smokey)                        | Amp, Audio                 | quick build of a Smokey-like LM386 guitar power amp |
