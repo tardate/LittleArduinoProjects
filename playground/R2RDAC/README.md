@@ -47,8 +47,8 @@ it wasn't clipped in my plots.
 The demo drives the DAC with a set of sample waveforms: square, sawtooth, sine, and "hump" (rectified sine).
 
 Rather than calculate these on the fly, it uses values from pre-calculated wave tables.
-This ensures constant-time performance and minimiseds the processing time.
-To minimise dynamic memory overhead, the tables are loaded in program memory (code space).
+This ensures constant-time performance and reduce the processing overhead.
+To minimise dynamic memory consumption, the tables are loaded in program memory (code space).
 
 The [wavetable_generator.rb](./wavetable_generator.rb) ruby script is used to generate the wave tables.
 

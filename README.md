@@ -19,7 +19,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 ## 115 Projects...
-Latest addition - [R2RDAC](./playground/R2RDAC) - test a 16-bit R2R digital to analog converter with shift register interface.
+Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog converter with shift register interface.
 
 | Project                                                            | Category                   | Description                               |
 |--------------------------------------------------------------------|----------------------------|-------------------------------------------|
@@ -94,7 +94,7 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - test a 16-bit R2R digital to a
 | [Pushbutton LED switch](./playground/PushbuttonLED)                | LED, Arduino               | Momentary push button switch is used to toggle the LED on and off |
 | [Quad Latch](./Electronics101/QuadLatch)                           | 74xx TTL                   | graph the basic operation of the 74LS75 4-bit bistable latch |
 | [QuadNOR](./Electronics101/QuadNOR)                                | 74xx TTL, Arduino          | demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
-| [R2RDAC](./playground/R2RDAC)                                      | Arduino                    | test a 16-bit R2R digital to analog converter with shift register interface |
+| [R2RDAC](./playground/R2RDAC)                                      | Arduino                    | a 16-bit R2R digital to analog converter with shift register interface |
 | [RangeFinder](./playground/RangeFinder)                            | Sensors, Arduino           | proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [RCOscillator](./Electronics101/RCOscillator)                      | Oscillators                | simple RC/transistor multistable vibrator |
 | [RelayControlTest](./playground/RelayControlTest)                  | Servo, Arduino             | quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
