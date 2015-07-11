@@ -18,6 +18,7 @@ This circuit sets up a 16 bit resistor ladder with 1kΩ as the resistor unit. It
 * cascaded shift registers
 * wave table generation
 * data in program memory
+* unity gain buffer
 
 Two 74HC595 shift registers are used to drive the ladder. This means the whole thing can be connected
 to an Arduino using just 3 digital GPIO pins. The latching behaviour of the shift register results in
@@ -38,9 +39,18 @@ by the first Arduino.
 Note: when capturing analogue input across Arduinos, slight differences in reference voltage
 can skew the results. This can be eliminated by pegging the
 [AREF](https://www.arduino.cc/en/Reference/AnalogReference) of one to the AREF of the other.
-You don't see me doing this in the schematics because the difference was negligible, although
-I did add another 10kΩ resistor between output and ground to reduce the output amplitude so
-it wasn't clipped in my plots.
+This isn't so much a concern when reading the buffered output since the peak will
+be somewhat below the positive power supply (unless a rail-to-rail OpAmp is used).
+
+### Output Buffer
+
+It's possible to tap the voltage output directly from the resistor ladder, however the subsequent circuit will affect the ladder.
+
+An OpAmp unity gain buffer is a simple technique for isolating the output.
+In this case I've used one quarter of an LM324 in unity gain buffer configuration.
+Note that the output is tapped at the 4.7kΩ/(4.7Ω + 10kΩ) voltage divider point.
+This is to ensure the voltage extremes from the resistor ladder will fit within the LM324's
+output voltage range without clipping.
 
 ### Wave Table Generation
 
@@ -65,5 +75,6 @@ The [wavetable_generator.rb](./wavetable_generator.rb) ruby script is used to ge
 * [Resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder) - wikipedia
 * [#85: Basics of R2R Resistor Networks Digital Analog Conversion, Tutorial DAC Thevenin Superposition](https://www.youtube.com/watch?v=AulX1OM7RwE) - another great video by w2aew
 * [74HC595 datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
+* [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
 * [List of periodic functions](https://en.wikipedia.org/wiki/List_of_periodic_functions) - wikipedia summary of various wave forms
 
