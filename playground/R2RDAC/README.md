@@ -71,6 +71,17 @@ The [wavetable_generator.rb](./wavetable_generator.rb) ruby script is used to ge
 
 ![The Build](./assets/R2RDAC_build.jpg?raw=true)
 
+### Protoboard Build
+
+I decided to throw the DAC on a protoboard so I have it available as a module
+for breadboard prototyping. Here's the finished module:
+
+![The Build](./assets/R2RDAC_protoboard.jpg?raw=true)
+
+Here's the component layout design:
+
+![The Build](./assets/R2RDAC_protoboard_layout.jpg?raw=true)
+
 ## Credits and References
 * [Resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder) - wikipedia
 * [#85: Basics of R2R Resistor Networks Digital Analog Conversion, Tutorial DAC Thevenin Superposition](https://www.youtube.com/watch?v=AulX1OM7RwE) - another great video by w2aew
