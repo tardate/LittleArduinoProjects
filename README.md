@@ -63,7 +63,7 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)               | **OpAmp**                       demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
 | [Led4Digit7Segment](./playground/Led4Digit7Segment)                           | **7-Segment, Arduino**          overview of driving a 4-digit 7-segment display |
 | [Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment/DoubleShift)   | **7-Segment, Arduino**          driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs |
-| [Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs)| [7-Segment, Arduino** driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs |
+| [Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs)| **7-Segment, Arduino** driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs |
 | [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)   | **7-Segment, Arduino**          driving a 4-digit 7-segment display with a shift register and a few BJTs |
 | [LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, 7-Segment, Arduino** measure ambient temperature and display with a 4-digit 7-segment LED unit |
 | [LED chaser](./playground/LedChaser)                                          | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
