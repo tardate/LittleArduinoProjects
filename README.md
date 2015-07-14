@@ -45,7 +45,7 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog
 | [ElectretADC](./playground/ElectretADC)                                       | **Audio, Arduino**              convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [ElectretTrigger](./playground/ElectretTrigger)                               | **Sensors, Audio, OpAmp, Arduino** uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
 | [ElectronicClockKit](./Electronics101/ElectronicClockKit)                     | **LCD, Kit**                    build and investigate a commercially available "electronic clock" kit |
-| [MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                  build and investigate a commercially available "mobile phone signal" detector kit |
+| [MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
 | [FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                           | **Logic Gates, BJT**            Set/Reset flip-flop with BJTs |
@@ -68,16 +68,16 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog
 | [LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, 7-Segment, Arduino** measure ambient temperature and display with a 4-digit 7-segment LED unit |
 | [LED chaser](./playground/LedChaser)                                          | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
 | [LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
-| [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino **            Driving an LM3915 10-segment display with a single Arduino pin |
+| [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
 | [LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
-| [LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED **                 build and analyse a commercial LED lamp kit with capacitive power supply |
+| [LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [Monostable](./Electronics101/555Timer/Monostable)                            | **555 Timer**                   basic monostable mode using an Arduino and processing to plot the output |
 | [Monostable122](./Electronics101/Monostable122)                               | **74xx TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [MonostablePulseExtender](./playground/MonostablePulseExtender)               | **74xx TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
-| [MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino **            tests PWM speed control of a DC motor driven by an Arduino |
+| [MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
 | [NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [NOR7402](./Electronics101/NOR7402)                                           | **74xx TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
 | [NORGateOscillator](./Electronics101/NORGateOscillator)                       | **74xx TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |
@@ -92,7 +92,7 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog
 | [PowerZener](./Electronics101/PowerZener)                                     | **Power**                       test and graph a power supply regulated with a 1N4733 zener diode |
 | [Popcorn](./playground/Popcorn)                                               | **Audio, Arduino**              How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [Pushbutton LED switch](./playground/PushbuttonLED)                           | **LED, Arduino**                Momentary push button switch is used to toggle the LED on and off |
-| [Quad Latch](./Electronics101/QuadLatch)                                      | **74xx TTL **                   graph the basic operation of the 74LS75 4-bit bistable latch |
+| [Quad Latch](./Electronics101/QuadLatch)                                      | **74xx TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
 | [QuadNOR](./Electronics101/QuadNOR)                                           | **74xx TTL, Arduino**           demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
 | [R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     a 16-bit R2R digital to analog converter with shift register interface |
 | [RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino**            proximity/distance measurement with an HC-SR04 untrasonic ranging module |
@@ -107,17 +107,17 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog
 | [RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
 | [RingCounterController](./playground/RingCounterController)                   | **CMOS, Arduino**               control the classic CD4017 walking-ring counter with an Arduino |
 | [RFSwitch](./Electronics101/RFSwitch)                                         | **RF, OpAmp**                   simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
-| [RFSwitchASK](./playground/RFSwitchASK)                                       | **RF, ASK, Arduino **           data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
+| [RFSwitchASK](./playground/RFSwitchASK)                                       | **RF, ASK, Arduino**            data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                                  | **LED Array, Arduino**          quick test to make sure LEDs are correctly addressable and their color can be set correctly |
 | [RotaryEncoderISR](./playground/RotaryEncoderISR)                             | **Sensor, Arduino**             test interrupt-driven rotary-encoder input |
 | [RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
-| [Shifty](./playground/Shifty)                                                 | **LED, Arduino **               drive 8 LEDs with 3 pins using a 74HC595 shift register |
+| [Shifty](./playground/Shifty)                                                 | **LED, Arduino**                drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [Simple7SegmentDisplay](./playground/Simple7SegmentDisplay)                   | **7-Segment, Arduino**          test a 7-segment common cathode display |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
-| [Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio **                 quick build of a Smokey-like LM386 guitar power amp |
+| [Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
 | [SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
 | [StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
@@ -134,7 +134,7 @@ Latest addition - [R2RDAC](./playground/R2RDAC) - a 16-bit R2R digital to analog
 | [TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [TransistorTester](./Electronics101/TransistorTester)                         | **Arduino, BJT**                use an Arduino to test NPN and PNP BJTs |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |
-| [TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL **                 using an OpAmp as a final buffer stage for TTL or similar circuits |
+| [TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [Variable LED brightness (PWM)](./playground/VariableLED)                     | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
