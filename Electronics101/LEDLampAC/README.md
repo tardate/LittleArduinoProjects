@@ -75,4 +75,5 @@ So the 38 LEDs will require a total voltage drop of around 114V; not surprising 
 
 ## Credits and References
 * [38 LED Lamp DIY Kit](http://www.aliexpress.com/item/Free-Shipping-New-Energy-Saving-38-LEDs-Lamps-DIY-Kits-Electronic-Suite-1-Set/32266628111.html) - as purchased on AliExpress
+* [Inside some of my earliest DIY LED lamps](https://www.youtube.com/watch?v=Ju1CQF39DH8) - excellent video by bigclivedotcom, discussing circuit design and construction of LED lamps like this
 
