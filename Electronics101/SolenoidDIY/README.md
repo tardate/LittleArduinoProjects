@@ -1,6 +1,10 @@
 # SolenoidDIY
 
-Build a basic electromechanical solenoid.
+Build and test basic electromechanical solenoid.
+
+Here's a quick video of the solenoid in action:
+
+[![SolenoidDIY](http://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](http://www.youtube.com/watch?v=Lakz1MZA9wI)
 
 ## Notes
 
