@@ -23,10 +23,15 @@ The solenoid I've constructed here is 9m of wire wound around a ~7mm drinking st
 I didn't count them, but that should work out at about [400 turns](http://www.wolframalpha.com/input/?i=9%2F%28%CF%80*7*10^-3%29).
 
 The wire used is similar to [this product from a seller on aliexpress](http://www.aliexpress.com/item/0-2mm-100m-Copper-Wire-Polyurethane-enameled-wire-QA-1-130-Red-Free-shipping/2054129524.html). It is 0.2mm enameled copper wire.
-The winding wire is marked as 3.2Ω/m, which seems about right as the resistance of the final solenoid measures at around 10Ω.
 
-With a 9V supply, we'd expect a current of about [900mA](http://www.wolframalpha.com/input/?i=9V%2F10%CE%A9.
+The resistance of the winding wire reads at around 10Ω in total.
+With a 9V supply, we'd expect a current of about [900mA](http://www.wolframalpha.com/input/?i=9V%2F10%CE%A9).
 And that's what I measure when I insert an ammeter in the circuit.
+
+The armature is an old screw - some kind of mild steel I think.
+
+![SolenoidDIY_component](./assets/SolenoidDIY_component.jpg?raw=true)
+
 
 ### The Circuit
 
