@@ -33,11 +33,12 @@ And that's what I measure when I insert an ammeter in the circuit.
 An Arduino is used to switch the solenoid. A pulse of about 150ms duraction is required
 to ensure the solenoid performs a positive and complete action.
 
-An IRF540N n-channel MOSFET is used to switch the current to the solenoid. A flyback diode is included across the solenoid to handle back-EMF when
-power is removed. The MODEFET allows the 5V Android to switch the 9V power supply.
+An IRF540N n-channel MOSFET is used to switch the current to the solenoid.
+A flyback diode across the solenoid handles any back-EMF when power is cut.
+The MOSFET allows the 5V Android to switch the 9V power supply.
 The power supply is rated for 1A - just enough for this solenoid.
 
-An LED with current-limiting resistor is included to provide visual confirmation when power is on to the solenoid.
+An LED with current-limiting resistor provides a visual indicator when power is on the solenoid.
 
 ### Increasing the Force
 It works! That has me pretty chuffed. But it is not particularly powerful. There are basically three strategies for
@@ -58,7 +59,7 @@ increasing the force applied by the solenoid:
 * [IRF540 datasheet](http://www.futurlec.com/Transistors/IRF540.shtml)
 * [Solenoid](https://en.wikipedia.org/wiki/Solenoid) - wikipedia
 * [Right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule) - wikipedia
-* [Engineer's Mini-Notebook - Magnet and Sensor Projects](url) - Forrest M. Mims III
+* [Engineer's Mini-Notebook - Magnet and Sensor Projects](https://www.goodreads.com/book/show/18007328-engineer-s-mini-notebook) - Forrest M. Mims III
 * [Easy to Make Solenoid Engine](https://www.youtube.com/watch?v=HM9zdyX9Ix0)
 * [Como Hacer un Motor de Solenoide - Muy fácil de hacer](https://www.youtube.com/watch?v=S2vL3FjqHpI)
 * [How to make a homemade solenoid](https://www.youtube.com/watch?v=sRN5UhHhSxY)
