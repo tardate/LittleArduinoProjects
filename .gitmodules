@@ -25,3 +25,6 @@
 [submodule "libraries/LedControl"]
 	path = libraries/LedControl
 	url = https://github.com/wayoda/LedControl
+[submodule "libraries/Rotary"]
+	path = libraries/Rotary
+	url = https://github.com/brianlow/Rotary
