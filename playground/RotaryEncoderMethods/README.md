@@ -149,10 +149,12 @@ In fact it makes things worse, because the program just gets better and better a
 ## Credits and References
 * [RotaryEncoders](http://playground.arduino.cc/Main/RotaryEncoders) - Arduino playground
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
-* [Rotary](https://github.com/brianlow/Rotary) library
+* [Rotary library](https://github.com/brianlow/Rotary)
+* [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation
 * [6.10. Tracking the Movement of a Dial](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
 * [6.12. Tracking the Movement of a Dial in a Busy Sketch](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
 * [Rotary Encoder: H/W, S/W or No Debounce?](https://hifiduino.wordpress.com/2010/10/20/rotaryencoder-hw-sw-no-debounce/) - good discussion and investigation of different debouncing schemes
 * [Reading rotary encoder on Arduino](https://www.circuitsathome.com/mcu/programming/reading-rotary-encoder-on-arduino) by Oleg Mazurov
 * [Rotary encoder interrupt service routine for AVR micros](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros) updated article by Oleg Mazurov
-* [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation
+* [Five things I never use in Arduino projects](https://miscsolutions.wordpress.com/2011/10/16/five-things-i-never-use-in-arduino-projects/) - including #5 External debouncing hardware for rotary encoders
+* [Arduino: Using a rotary encoder](http://practicalusage.com/?p=267)

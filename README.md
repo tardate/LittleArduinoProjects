@@ -18,8 +18,10 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 118 Projects...
-Latest addition - [Ruby](./Electronics101/AudioAmps/Ruby) - a version of the runoffgroove Ruby LM386 guitar amp.
+## 119 Projects...
+Latest addition - [RotaryEncoderModule](./playground/RotaryEncoderModule) - testing a Rotary Encoder module controlling an LED 8x8 display.
+
+
 
 | Project                                                                       | Category/Description          |
 |-------------------------------------------------------------------------------|-------------------------------|
@@ -110,6 +112,7 @@ Latest addition - [Ruby](./Electronics101/AudioAmps/Ruby) - a version of the run
 | [RFSwitchASK](./playground/RFSwitchASK)                                       | **RF, ASK, Arduino**            data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                                  | **LED Array, Arduino**          quick test to make sure LEDs are correctly addressable and their color can be set correctly |
 | [RotaryEncoderMethods](./playground/RotaryEncoderMethods)                     | **Sensor, Arduino**             finding the best method for reading a rotary-encoder |
+| [RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
 | [RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
