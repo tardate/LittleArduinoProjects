@@ -111,7 +111,7 @@ and just add size and complexity to the code.
 #### "State Machine" Debouncing
 
 This is the approach used by the Rotary library.
-It basically means biulding in the knowledge of the valid state transitions that apply for a rotary encoder, and only accepting
+It basically means building in the knowledge of the valid state transitions that apply for a rotary encoder, and only accepting
 input that follows a valid sequence. This effectively eliminates all the noise and bouncing.
 See Ben Buxton's [blog post on the rotary library](http://www.buxtronix.net/2011/10/rotary-encoders-done-properly.html)
 for more detail of how and why this works so well.
@@ -119,7 +119,7 @@ for more detail of how and why this works so well.
 ### Standard or Direct Port Access
 
 The standard library methods for working with GPIO pins - e.g. `digitalRead` - are notoriously slow.
-And if we use these methods to read the two rotary encoder pins, we can't escape the fact that the two pins are never read simulatneously.
+And if we use these methods to read the two rotary encoder pins, we can't escape the fact that the two pins are never read simultaneously.
 
 [Direct port access](https://www.arduino.cc/en/Reference/PortManipulation) adds complexity and some portability concerns to the code,
 but does both speed up port access, and also allow us to read two pins simultaneously. This is similar the the approach described
