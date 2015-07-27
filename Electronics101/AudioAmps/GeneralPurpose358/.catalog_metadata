@@ -1,0 +1,7 @@
+{
+    "id": "#241", 
+    "name": "GeneralPurpose358", 
+    "description": "test a general-purpose LM358 amplifier circuit", 
+    "categories": "OpAmp, Audio", 
+    "relative_path": "Electronics101/AudioAmps/GeneralPurpose358"
+}

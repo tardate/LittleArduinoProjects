@@ -17,7 +17,7 @@ After trying many of the variations, I found that going back to basics performed
 Features of the circuit:
 * default 20x gain (no extra components required)
 * simple capacitive-coupling with ~50k impedence matching for a guitar input
-* ring of the 3.5mm connector is used to switch power - use with a standard mono cable
+* ring of the 6.35mm connector is used to switch power - use with a standard mono cable
 * mono output is sent to left and right channels of the headphone socket
 
 How it performs:
