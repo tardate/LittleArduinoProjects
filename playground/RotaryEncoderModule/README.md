@@ -10,9 +10,9 @@ Here's a quick video of the circuit in action:
 
 In the [RotaryEncoderMethods](../RotaryEncoderMethods) project I determined that the [Rotary library](https://github.com/brianlow/Rotary) was by far the best option for reading a rotary encoder.
 
-This project is a similar test, but using a rotary encoder module. The module I am using
+This project is similar, but uses a rotary encoder "module" that includes switch functionality. The module I am using
 [is this one from seller on aliexpress](http://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html).
-The module has built-in 10kΩ pull-up resistors on the signal lines, and the external connections are as follows:
+The module has built-in 10kΩ pull-up resistors on the signal lines, and external connections as follows:
 
 | Label   | Use |
 |---------|-----|
@@ -43,6 +43,6 @@ The rotary encoder module includes a switch (press on the encoder shaft). This i
 
 ## Credits and References
 * [Rotary Encoder Module](http://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html) - from seller on aliexpress
-* [RotaryEncoderMethods](../RotaryEncoderMethods) - similar project, but using a mini rotary encoder (not a "module")
+* [RotaryEncoderMethods](../RotaryEncoderMethods) - a project to test/find the best method for reading a mini rotary encoder
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
 

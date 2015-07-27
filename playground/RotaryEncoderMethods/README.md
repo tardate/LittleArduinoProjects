@@ -50,6 +50,9 @@ and only responds to valid state transitions. This effectively eliminates all th
 See Ben Buxton's [blog post on the rotary library](http://www.buxtronix.net/2011/10/rotary-encoders-done-properly.html)
 for more detail of how and why this works so well.
 
+See the [RotaryEncoderModule](../RotaryEncoderModule) for an example of using the Rotary library
+with a rotary encoder module driving an 8x8 LED array.
+
 ## Encoding Considerations
 
 Here's a quick summary of the main considerations when interfacing with a rotary encoder
@@ -158,3 +161,5 @@ In fact it makes things worse, because the program just gets better and better a
 * [Rotary encoder interrupt service routine for AVR micros](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros) updated article by Oleg Mazurov
 * [Five things I never use in Arduino projects](https://miscsolutions.wordpress.com/2011/10/16/five-things-i-never-use-in-arduino-projects/) - including #5 External debouncing hardware for rotary encoders
 * [Arduino: Using a rotary encoder](http://practicalusage.com/?p=267)
+* [RotaryEncoderModule](../RotaryEncoderModule) - a project that tests a rotary encoder module driving an 8x8 LED array
+
