@@ -9,8 +9,8 @@
 
 #include <FlexiTimer2.h>       // use timer for sampling to get even time base for data
 
-#define TRACE_COUNT   6        // 1,2,..6 - the number of values to sample from analog inputs A0,1,..5 respectively
-#define INPUT1_PIN   A0        // the first analog input. 
+#define TRACE_COUNT   2        // 1,2,..6 - the number of values to sample from analog inputs A0,1,..5 respectively
+#define INPUT1_PIN   A0        // the first analog input.
 
 #define SAMPLING_FREQUENCY 10  // milliseconds
 

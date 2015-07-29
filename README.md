@@ -18,7 +18,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 119 Projects...
+## 120 Projects...
 Latest addition - [RotaryEncoderModule](./playground/RotaryEncoderModule) - testing a Rotary Encoder module controlling an LED 8x8 display.
 
 
@@ -120,6 +120,7 @@ Latest addition - [RotaryEncoderModule](./playground/RotaryEncoderModule) - test
 | [Shifty](./playground/Shifty)                                                 | **LED, Arduino**                drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [Simple7SegmentDisplay](./playground/Simple7SegmentDisplay)                   | **7-Segment, Arduino**          test a 7-segment common cathode display |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
+| [SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
 | [Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
 | [SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
