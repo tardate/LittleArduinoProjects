@@ -34,6 +34,7 @@ Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](
 ![The Build](./assets/SimplePeakDetector_build.jpg?raw=true)
 
 ## Credits and References
+* [PeakDetector](../PeakDetector) - OpAmp-based peak detector project
 * [Peak detector circuits!](https://youtu.be/ic_yEUV7Y3c) - Afrotechmods
 * [#77: Op Amp Peak Detector Tutorial, with peak detector basics](https://youtu.be/Fn5kHhNRsz0) - w2aew's coverage of the basic circuit, and the improved OpAmp-based circuit
 
