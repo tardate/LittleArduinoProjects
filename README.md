@@ -18,9 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 121 Projects...
-Latest addition - [RotaryEncoderModule](./playground/RotaryEncoderModule) - testing a Rotary Encoder module controlling an LED 8x8 display.
-
+## 122 Projects...
+Latest addition - [OpAmpTimer](./Electronics101/OpAmpTimer) - testing an OpAmp timer switch.
 
 
 | Project                                                                       | Category/Description          |
@@ -85,6 +84,7 @@ Latest addition - [RotaryEncoderModule](./playground/RotaryEncoderModule) - test
 | [NORGateOscillator](./Electronics101/NORGateOscillator)                       | **74xx TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |
 | [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)                     | **OLED, Arduino**               driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | **OLED, Arduino**         running the AdaFruit example program with a monochrome 128x64 OLED Display |
+| [OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
 | [PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [Power317](./Electronics101/Power317)                                         | **Power**                       test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
