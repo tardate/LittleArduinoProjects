@@ -13,11 +13,14 @@ in dazaro3's [RF Pen detector video](https://youtu.be/G7xf_qe8P3k).
 The best explanation of how this works is possibly
 [w2aew's video](https://youtu.be/C8SKiyJUAlU) concerning a similar circuit.
 
-I used 1N60P diodes, which seems to work fine for my current purposes (medium wave).
+I used 1N60P diodes, which seem to work fine for my current purposes (medium wave).
 
 Mounted in a pen, the probe makes a pretty effective detector.
 Connecting the ground wire to the circuit under test is not absolutely essential for approximate measurements,
 but is probably best connected to get more accuracy especially with smaller amplitude signals.
+
+Note there's no switch in the circuit, however the current drawn when no RF detected is negligible - a few µAmps, bascially
+the transistor leakage. Still, it would be a good idea to remove the batteries when not in use.
 
 ## Construction
 
