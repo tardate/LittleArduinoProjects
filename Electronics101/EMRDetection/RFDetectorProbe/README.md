@@ -29,7 +29,7 @@ but is probably best connected to get more accuracy especially with smaller ampl
 
 ... running on 9V with a green LED and 1kΩ current-limiting resistor R1.
 
-![The Build](./assets/RFDetectorProbe_build_breadboard.jpg.jpg?raw=true)
+![The Build](./assets/RFDetectorProbe_build_breadboard.jpg?raw=true)
 
 ### Pen Build
 
