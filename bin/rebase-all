@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# I often have different projects-in-progress on local branches.
+# This script rebases all my local branches on master.
+#
+# see http://stackoverflow.com/questions/866218/git-how-to-rebase-many-branches-with-the-same-base-commit-at-once
+#
+
+git for-each-ref 'refs/heads/*' | \
+  while read rev type ref; do
+    branch=$(expr "$ref" : 'refs/heads/\(.*\)' )
+    revs=$(git rev-list $rev..master)
+    if [ -n "$revs" ]; then
+      echo $branch needs update
+      git checkout $branch && git rebase master
+    fi
+  done
+
+# finish up on master
+git checkout master
