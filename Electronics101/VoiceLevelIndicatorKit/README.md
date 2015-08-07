@@ -1,0 +1,125 @@
+# VoiceLevelIndicatorKit
+
+Build and investigate a commercially available "3-band voice level indicator" kit.
+
+Here's a quick video of the circuit in action:
+
+[![VoiceLevelIndicatorKit](http://img.youtube.com/vi/-1j9zobBfh4/0.jpg)](http://www.youtube.com/watch?v=-1j9zobBfh4)
+
+## Notes
+
+I was inspired to build this kit by [Julian Ilett's tutorial with a similar kit](https://youtu.be/07xyD7pLdmw) -
+a great basic soldering instructional if nothing else.
+
+The kit is quite a common item on ebay, bang-good, aliexpress - all the usual sites.
+
+### Performance
+
+Soldering the kit together is quite therapeutic, and the end result is pretty decent. However there seem to be a few serious issues with this circuit:
+
+1. The 6V supply is insufficient to drive all 10 LEDs, as the minimum required voltage to light the 10th is at least [7.7V](http://www.wolframalpha.com/input/?i=11*0.7V) [10*1N4148 + 1*S9012]. Either diodes with a lower forward voltage could be used, or the supply could be increased.
+Probably the simplest thing to do would be to just drop the 6V regulator and run off 9V. Perhaps only a few resitor values would need to change.
+
+2. It seems there's a great deal of "cross-talk" between the 3 LED strips. As in, trimming the pots for master control and band control
+will affect the whole balance of the circuit. Perhaps isolating the 3 filter circuits with say a unity gain OpAmp would help.
+
+Should I build an improved circuit? Maybe .. a project to save for another rainy day.
+
+### Circuit Analysis
+
+The circuit breaks down into 4 basic modules:
+* power supply
+* mic input and audio amp
+* filter (x3)
+* LED driver (x3)
+
+#### Power Circuit
+The input voltage of 8.5-15V is regulated down to a stable 6V by an L7806CV regulator.
+A 1n4007 diode provides reverse voltage protection, and chunky 220µF caps provide smoothing before and after the regulator.
+
+My kit was missing the 1n4007. No biggy as I had some on hand (plus a umber of other components were supplied in excess.
+Rather than use the JST connectors provided, I replaced the power connector with a barrel jack.
+Since this makes reverse polarity connection extremely unlikely, I probably could have just skipped the 1n4007 and shorted the connection instead.
+
+#### Audio Amplifier
+Audio input is captured with an electret microphone and amplified in two stages with S9013 PNP transistors.
+A 50kΩ pot provides master gain control for the second stage
+
+#### Filters
+The amplified audio is presented to 3 filter/LED driver chains.
+Each filter is tuned for a specific pass-band, and has a 50kΩ pot for individual level control.
+
+Filter 1:
+* high-pass 4.7kΩ + 2.2nF
+* low-pass 4.7kΩ + 1nF
+
+Filter 2:
+* high-pass 4.7kΩ + 100nF
+* low-pass 220kΩ || 10nF
+
+Filter 3:
+* high-pass 4.7kΩ + 4.7µF
+* low-pass 100kΩ || 100nF
+
+#### LED Driver
+The three LED driver circuits are identical.
+A series of 1N4148 diodes provide a voltage ladder feeding 10 LED stages.
+
+This is a bit strange .. the forward voltage of the 1N4148 is max 0.72V at 5mA. With a 6V supply, but can be 1V max at other currents, there's no way all 10 LEDs will light up. In addition the diodes do not get the full 6V, due to the collector-emiiter voltage drop across one S9012 before the diode array.
+
+No wonder I haven't been able to drive all the LEDs on yet!
+
+Each diode drives the base of an S9012 PNP transistor through resistor, the value of which is scaled to the voltage of the stage to
+hopefully drive it in the active region.
+
+The S9012 drives an LED paired with a 560Ω current-limiting resistor.
+
+## Construction
+
+![Breadboard](./assets/VoiceLevelIndicatorKit_bb.jpg?raw=true)
+
+![The Schematic](./assets/VoiceLevelIndicatorKit_schematic.jpg?raw=true)
+
+![Vendor Schematic](./assets/vendor_schematic.jpg?raw=true)
+
+![The Build](./assets/VoiceLevelIndicatorKit_build.jpg?raw=true)
+
+### Parts List
+
+| Item                        | Check/Test and Notes |
+|-----------------------------|---|
+| 5mm LED clear blue          | √ |
+| 5mm LED clear red           | √ |
+| 5mm LED clear green         | √ |
+| 9012 Transistor             | √ |
+| 9013 Transistor             | √ |
+| [1N4148 diode](http://www.futurlec.com/Diodes/1N4148.shtml) | √ |
+| 1N4007 diode                | missing from my kit, replaced from spares |
+| 560Ω resistor               | √ |
+| 2-2.2kΩ resistor            | √ |
+| 4.7kΩ resistor              | √ |
+| 10kΩ resistor               | √ |
+| 33kΩ resistor               | √ |
+| 47kΩ resistor               | √ |
+| 220kΩ resistor              | √ |
+| 100kΩ resistor              | √ |
+| 503 50kΩ potentiometer      | √ |
+| 4.7µF apacitance            | √ |
+| 220µF 25V capacitance       | √ |
+| 104 100nF ceramic capacitor | √ |
+| 103 10nF ceramic capacitor  | √ |
+| 102 1nF ceramic capacitor   | √ |
+| 222 2.2nF ceramic capacitor | √ |
+| [L7806CV](http://www.alldatasheet.com/datasheet-pdf/pdf/22636/STMICROELECTRONICS/L7806CV.html) | √ |
+| XH2.54-2P Cable Terminal    | √ but I replaced with a 2.1mm barrel jack |
+| XH2.54-2P Power wire        | √ but I replaced with a 2.1mm barrel jack |
+| Electret microphone         | √ |
+| PCB board                   | √ no notes, but a great silkcreen|
+
+
+## Credits and References
+* [kit from a seller on aliexpress](http://www.aliexpress.com/item/1Pcs-New-9-15V-Voice-Control-Level-Indicating-Voice-Indicator-Module-DIY-Kits/32351752901.html)
+* [Basic Electronics: Kit Build #1 - LEDs, Microphone & Dance Music](https://youtu.be/07xyD7pLdmw) - Julian Ilett, part 1
+* [Basic Electronics: Kit Build #2 - LEDs, Microphone & Dance Music](https://youtu.be/e6vDDMiYOU4) - Julian Ilett, part 2
+* [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [L7806CV datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/22636/STMICROELECTRONICS/L7806CV.html)
