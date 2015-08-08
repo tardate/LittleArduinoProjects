@@ -49,17 +49,7 @@ A 50kΩ pot provides master gain control for the second stage
 The amplified audio is presented to 3 filter/LED driver chains.
 Each filter is tuned for a specific pass-band, and has a 50kΩ pot for individual level control.
 
-Filter 1:
-* high-pass 4.7kΩ + 2.2nF
-* low-pass 4.7kΩ + 1nF
-
-Filter 2:
-* high-pass 4.7kΩ + 100nF
-* low-pass 220kΩ || 10nF
-
-Filter 3:
-* high-pass 4.7kΩ + 4.7µF
-* low-pass 100kΩ || 100nF
+Regarding the filter design.. hmm, still figuring that out. More details later perhaps..
 
 #### LED Driver
 The three LED driver circuits are identical.
