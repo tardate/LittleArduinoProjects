@@ -85,9 +85,9 @@ But obvioulsy works .. at least to a degree - I've never seen the 10th LED light
 
 ## Construction
 
-![Vendor Schematic](./assets/vendor_schematic.jpg?raw=true)
-
 ![The Build](./assets/VoiceLevelIndicatorKit_build.jpg?raw=true)
+
+![The Schematic](./assets/VoiceLevelIndicatorKit_schematic.jpg?raw=true)
 
 ### Parts List
 
