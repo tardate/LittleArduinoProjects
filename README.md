@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 126 Projects...
-Latest addition - [ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt) - test hardware interrupts with an ATtiny85 processor on a breadboard.
+## 127 Projects...
+Latest addition - [ATtinySleep](./playground/ATtinySleep) - test sleep mode with an ATtiny85 processor on a breadboard.
 
 | Project                                                                       | Category/Description          |
 |-------------------------------------------------------------------------------|-------------------------------|
@@ -30,6 +30,7 @@ Latest addition - [ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt
 | [ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel**              Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
 | [ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt)               | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
 | [ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel**              Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
+| [ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)                  | **LED Array, Timing, Arduino**  demo effects on the LED strip driven using timer interrupt |
 | [BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |
 | [BJTLongTailPair](./Electronics101/BJTLongTailPair)                           | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
