@@ -87,35 +87,35 @@ The S9012 drives an LED paired with a 560Ω current-limiting resistor.
 
 ### Parts List
 
-| Item                        | Check/Test and Notes |
-|-----------------------------|---|
-| 5mm LED clear blue          | √ |
-| 5mm LED clear red           | √ |
-| 5mm LED clear green         | √ |
+| Item                             | Check/Test and Notes |
+|----------------------------------|---|
+| 5mm LED clear blue               | √ |
+| 5mm LED clear red                | √ |
+| 5mm LED clear green              | √ |
 | [S9012 PNP Transistor](http://www.futurlec.com/Transistors/S9012.shtml) | √ |
 | [S9013 NPN Transistor](http://www.futurlec.com/Transistors/S9013.shtml) | √ |
 | [1N4148 diode](http://www.futurlec.com/Diodes/1N4148.shtml) | √ |
-| 1N4007 diode                | missing from my kit, replaced from spares |
-| 560Ω resistor               | √ |
-| 2-2.2kΩ resistor            | √ |
-| 4.7kΩ resistor              | √ |
-| 10kΩ resistor               | √ |
-| 33kΩ resistor               | √ |
-| 47kΩ resistor               | √ |
-| 220kΩ resistor              | √ |
-| 100kΩ resistor              | √ |
-| 503 50kΩ potentiometer      | √ |
-| 4.7µF apacitance            | √ |
-| 220µF 25V capacitance       | √ |
-| 104 100nF ceramic capacitor | √ |
-| 103 10nF ceramic capacitor  | √ |
-| 102 1nF ceramic capacitor   | √ |
-| 222 2.2nF ceramic capacitor | √ |
+| 1N4007 diode                     | missing from my kit, replaced from spares |
+| 560Ω resistor                    | √ |
+| 2kΩ resistor                     | √ |
+| 4.7kΩ resistor                   | √ |
+| 10kΩ resistor                    | √ |
+| 33kΩ resistor                    | √ |
+| 47kΩ resistor                    | √ |
+| 220kΩ resistor                   | √ |
+| 100kΩ resistor                   | √ |
+| 503 50kΩ potentiometer           | √ |
+| 4.7µF electrolytic capacitor     | √ |
+| 220µF 25V electrolytic capacitor | √ |
+| 104 100nF ceramic capacitor      | √ |
+| 103 10nF ceramic capacitor       | √ |
+| 102 1nF ceramic capacitor        | √ |
+| 222 2.2nF ceramic capacitor      | √ |
 | [L7806CV](http://www.alldatasheet.com/datasheet-pdf/pdf/22636/STMICROELECTRONICS/L7806CV.html) | √ |
-| XH2.54-2P Cable Terminal    | √ but I replaced with a 2.1mm barrel jack |
-| XH2.54-2P Power wire        | √ but I replaced with a 2.1mm barrel jack |
-| Electret microphone         | √ |
-| PCB board                   | √ no notes, but a great silkcreen|
+| XH2.54-2P Cable Terminal         | √ but I replaced with a 2.1mm barrel jack |
+| XH2.54-2P Power wire             | √ but I replaced with a 2.1mm barrel jack |
+| Electret microphone              | √ |
+| PCB board                        | √ no notes, but a great silkcreen|
 
 
 ## Credits and References
