@@ -17,7 +17,7 @@ The kit is quite a common item on ebay, bang-good, aliexpress - all the usual si
 
 Soldering the kit together is quite therapeutic, and the end result is pretty decent. However there seem to be a few serious issues with this circuit:
 
-1. The 6V supply is insufficient to drive all 10 LEDs, as the minimum required voltage to light the 10th is at least [7.7V](http://www.wolframalpha.com/input/?i=11*0.7V) [10 x 1N4148 & 1 x S9012]. Either diodes with a lower forward voltage could be used, or the supply could be increased.
+1. The 6V supply is insufficient to drive all 10 LEDs, as the minimum required voltage to light the 10th is at least [7.8V](http://www.wolframalpha.com/input/?i=10*0.72V%2B0.6V) (10 x 1N4148 & 1 x S9012). Either diodes with a lower forward voltage could be used, or the supply could be increased.
 Probably the simplest thing to do would be to just drop the 6V regulator and run off 9V. Perhaps only a few resitor values would need to change.
 
 2. It seems there's a great deal of "cross-talk" between the 3 LED strips. As in, trimming the pots for master control and band control
@@ -92,8 +92,8 @@ The S9012 drives an LED paired with a 560Ω current-limiting resistor.
 | 5mm LED clear blue          | √ |
 | 5mm LED clear red           | √ |
 | 5mm LED clear green         | √ |
-| 9012 Transistor             | √ |
-| 9013 Transistor             | √ |
+| [S9012 PNP Transistor](http://www.futurlec.com/Transistors/S9012.shtml) | √ |
+| [S9013 NPN Transistor](http://www.futurlec.com/Transistors/S9013.shtml) | √ |
 | [1N4148 diode](http://www.futurlec.com/Diodes/1N4148.shtml) | √ |
 | 1N4007 diode                | missing from my kit, replaced from spares |
 | 560Ω resistor               | √ |
@@ -124,3 +124,5 @@ The S9012 drives an LED paired with a 560Ω current-limiting resistor.
 * [Basic Electronics: Kit Build #2 - LEDs, Microphone & Dance Music](https://youtu.be/e6vDDMiYOU4) - Julian Ilett, part 2
 * [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
 * [L7806CV datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/22636/STMICROELECTRONICS/L7806CV.html)
+* [S9012 datasheet](http://www.futurlec.com/Transistors/S9012.shtml)
+* [S9013 datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
