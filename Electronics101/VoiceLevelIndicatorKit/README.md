@@ -17,11 +17,13 @@ The kit is quite a common item on ebay, bang-good, aliexpress - all the usual si
 
 Soldering the kit together is quite therapeutic, and the end result is pretty decent. However there seem to be a few serious issues with this circuit:
 
-1. The 6V supply is insufficient to drive all 10 LEDs, as the minimum required voltage to light the 10th is at least [7.7V](http://www.wolframalpha.com/input/?i=11*0.7V) [10*1N4148 + 1*S9012]. Either diodes with a lower forward voltage could be used, or the supply could be increased.
+1. The 6V supply is insufficient to drive all 10 LEDs, as the minimum required voltage to light the 10th is at least [7.7V](http://www.wolframalpha.com/input/?i=11*0.7V) [10 x 1N4148 & 1 x S9012]. Either diodes with a lower forward voltage could be used, or the supply could be increased.
 Probably the simplest thing to do would be to just drop the 6V regulator and run off 9V. Perhaps only a few resitor values would need to change.
 
 2. It seems there's a great deal of "cross-talk" between the 3 LED strips. As in, trimming the pots for master control and band control
 will affect the whole balance of the circuit. Perhaps isolating the 3 filter circuits with say a unity gain OpAmp would help.
+
+3. The 3 filter bands seem pretty poorly selected/tuned for a nice balanced display. Generally the low and mid range bands should be moved up a bit, and the ampliciation of the high band brought in line with the others.
 
 Should I build an improved circuit? Maybe .. a project to save for another rainy day.
 
@@ -53,7 +55,7 @@ The fiters seemed a bit unbalanced and it's a little touchy to trim the individu
 
 Taking a closer look at the filter circuits, each is a combination of two RC filters and NPN transistor
 to bother selectively pass frequencies and also amplify the signal. That's a bit too complex
-for my entry level RC filter analysis, so I modeled the filters in [this CircuitLab project](https://www.circuitlab.com/circuit/m5cfrs/voicelevelindicatorkit-filters/).
+for my entry level RC filter analysis skills, so I modeled the filters in [this CircuitLab project](https://www.circuitlab.com/circuit/m5cfrs/voicelevelindicatorkit-filters/).
 
 If I can trust the CircuitLab frequency analysis, things do look a bit out of whack and this matches observations of the circuit:
 * low-frequency bandpass is tuned too low, peaking around 10Hz!? This might explain why it seems prone to oscillate when idle
@@ -78,10 +80,6 @@ hopefully drive it in the active region.
 The S9012 drives an LED paired with a 560Ω current-limiting resistor.
 
 ## Construction
-
-![Breadboard](./assets/VoiceLevelIndicatorKit_bb.jpg?raw=true)
-
-![The Schematic](./assets/VoiceLevelIndicatorKit_schematic.jpg?raw=true)
 
 ![Vendor Schematic](./assets/vendor_schematic.jpg?raw=true)
 
