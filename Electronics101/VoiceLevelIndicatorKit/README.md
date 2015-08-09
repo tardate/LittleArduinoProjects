@@ -49,7 +49,20 @@ A 50kΩ pot provides master gain control for the second stage
 The amplified audio is presented to 3 filter/LED driver chains.
 Each filter is tuned for a specific pass-band, and has a 50kΩ pot for individual level control.
 
-Regarding the filter design.. hmm, still figuring that out. More details later perhaps..
+The fiters seemed a bit unbalanced and it's a little touchy to trim the individual pots for a given input level.
+
+Taking a closer look at the filter circuits, each is a combination of two RC filters and NPN transistor
+to bother selectively pass frequencies and also amplify the signal. That's a bit too complex
+for my entry level RC filter analysis, so I modeled the filters in [this CircuitLab project](https://www.circuitlab.com/circuit/m5cfrs/voicelevelindicatorkit-filters/).
+
+If I can trust the CircuitLab frequency analysis, things do look a bit out of whack and this matches observations of the circuit:
+* low-frequency bandpass is tuned too low, peaking around 10Hz!? This might explain why it seems prone to oscillate when idle
+* mid-range doesn't get much boost compared to the other bands, and again it is probably tuned too low; I think ideally it would be peaking around 1-5kHz
+* high-frequency dominates, getting maximum amplification. This is what happens in practice too.
+
+![Filter Frequency Response](./assets/VoiceLevelIndicatorKit_filter_frequency_response.png?raw=true)
+
+![Filter Schematic](./assets/VoiceLevelIndicatorKit_filter_schematic.png?raw=true)
 
 #### LED Driver
 The three LED driver circuits are identical.
