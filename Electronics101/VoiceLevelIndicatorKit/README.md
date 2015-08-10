@@ -80,8 +80,8 @@ On spec, it seems there would be no way to drive all 10 LEDs, since the forward 
 
 However, the circuit seems to be getting a bit tricky here, as the diodes are actually driven way down the IV curve
 where in practice the peak forward voltage measures in the region of 0.38V.
-That's off the graph in most data sheets, but obvioulsy works!
-One would expect this makes the circuit quite susceptible to individual variations in the diodes.
+That's off the graph in most data sheets, and one would expect this makes the circuit quite susceptible to individual variations in the diodes.
+But obvioulsy works .. at least to a degree - I've never seen the 10th LED light up so far.
 
 ## Construction
 
