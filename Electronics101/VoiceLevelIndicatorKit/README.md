@@ -4,7 +4,7 @@ Build and investigate a commercially available "3-band voice level indicator" ki
 
 Here's a quick video of the circuit in action:
 
-[![VoiceLevelIndicatorKit](http://img.youtube.com/vi/-1j9zobBfh4/0.jpg)](http://www.youtube.com/watch?v=-1j9zobBfh4)
+[![VoiceLevelIndicatorKit](http://img.youtube.com/vi/6o-kOXPPcac/0.jpg)](http://www.youtube.com/watch?v=6o-kOXPPcac)
 
 ## Notes
 
