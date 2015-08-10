@@ -2,6 +2,10 @@
 
 Test a total power shutdown with an ATtiny85 processor on a breadboard.
 
+Here's a quick video of the circuit in action:
+
+[![ATtinyTotalSleep](http://img.youtube.com/vi/Id6DoiL4zDo/0.jpg)](http://www.youtube.com/watch?v=Id6DoiL4zDo)
+
 ## Notes
 
 The [ATtinySleep](../ATtinySleep) project showed me that even in CPU sleep mode, an ATtiny85 circuit can

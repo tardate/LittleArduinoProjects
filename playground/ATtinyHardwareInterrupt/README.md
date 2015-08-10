@@ -2,6 +2,10 @@
 
 Test hardware interrupts with an ATtiny85 processor on a breadboard.
 
+Here's a quick video of the circuit in action:
+
+[![ATtinyHardwareInterrupt](http://img.youtube.com/vi/VTJ1ycVzYq0/0.jpg)](http://www.youtube.com/watch?v=VTJ1ycVzYq0)
+
 ## Notes
 
 This is a little test of hardware interrupts with an ATtiny85 microcontroller (8-pin DIP).

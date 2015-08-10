@@ -2,6 +2,10 @@
 
 Test sleep mode with an ATtiny85 processor on a breadboard.
 
+Here's a quick video of the circuit in action:
+
+[![ATtinySleep](http://img.youtube.com/vi/WhtLly1BM0U/0.jpg)](http://www.youtube.com/watch?v=WhtLly1BM0U)
+
 ## Notes
 
 This is a little test of sleep mode with an ATtiny85 microcontroller (8-pin DIP).
