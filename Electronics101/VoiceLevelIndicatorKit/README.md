@@ -15,17 +15,16 @@ The kit is quite a common item on ebay, bang-good, aliexpress - all the usual si
 
 ### Performance
 
-Soldering the kit together is quite therapeutic, and the end result is pretty decent. However there seem to be a few serious issues with this circuit:
+Soldering the kit together is quite therapeutic, and the end result is pretty decent.
+However there seem to be a couple of issues that could be improved:
 
-1. The 6V supply is insufficient to drive all 10 LEDs, as the minimum required voltage to light the 10th is at least [7.8V](http://www.wolframalpha.com/input/?i=10*0.72V%2B0.6V) (10 x 1N4148 & 1 x S9012). Either diodes with a lower forward voltage could be used, or the supply could be increased.
-Probably the simplest thing to do would be to just drop the 6V regulator and run off 9V. Perhaps only a few resitor values would need to change.
+1. It seems to bit quite a bit of "cross-talk" between the 3 LED strips.
+As in: trimming the pots for master control and band control will affect the whole balance of the circuit.
+Perhaps isolating the 3 filter circuits with say a unity gain OpAmp would help.
 
-2. It seems there's a great deal of "cross-talk" between the 3 LED strips. As in, trimming the pots for master control and band control
-will affect the whole balance of the circuit. Perhaps isolating the 3 filter circuits with say a unity gain OpAmp would help.
+2. The 3 filter bands seem pretty poorly selected/tuned for a nice balanced display. Generally the low and mid range bands should be moved up a bit, and the ampliciation of the high band brought in line with the others.
 
-3. The 3 filter bands seem pretty poorly selected/tuned for a nice balanced display. Generally the low and mid range bands should be moved up a bit, and the ampliciation of the high band brought in line with the others.
-
-Should I build an improved circuit? Maybe .. a project to save for another rainy day.
+Should I try an improved circuit? Perhaps .. a project to save for another rainy day.
 
 ### Circuit Analysis
 
@@ -70,14 +69,19 @@ If I can trust the CircuitLab frequency analysis, things do look a bit out of wh
 The three LED driver circuits are identical.
 A series of 1N4148 diodes provide a voltage ladder feeding 10 LED stages.
 
-This is a bit strange .. the forward voltage of the 1N4148 is max 0.72V at 5mA. With a 6V supply, but can be 1V max at other currents, there's no way all 10 LEDs will light up. In addition the diodes do not get the full 6V, due to the collector-emiiter voltage drop across one S9012 before the diode array.
-
-No wonder I haven't been able to drive all the LEDs on yet!
-
-Each diode drives the base of an S9012 PNP transistor through resistor, the value of which is scaled to the voltage of the stage to
-hopefully drive it in the active region.
-
+Each diode drives the base of an S9012 PNP transistor through resistor,
+the value of which is scaled to the voltage of the stage to hopefully drive it in the active region.
 The S9012 drives an LED paired with a 560Ω current-limiting resistor.
+
+This is a bit strange .. the forward voltage of the 1N4148 is rated at 0.72V at 5mA, but can be 1V max at other currents.
+
+On spec, it seems there would be no way to drive all 10 LEDs, since the forward voltage should be around
+[7.8V](http://www.wolframalpha.com/input/?i=10*0.72V%2B0.6V) (10 x 1N4148 & 1 x S9012) - far in excess of the 6V supply.
+
+However, the circuit seems to be getting a bit tricky here, as the diodes are actually driven way down the IV curve
+where in practice the peak forward voltage measures in the region of 0.38V.
+That's off the graph in most data sheets, but obvioulsy works!
+One would expect this makes the circuit quite susceptible to individual variations in the diodes.
 
 ## Construction
 
