@@ -14,11 +14,12 @@ The trade-off is that the circuit requires an external trigger to wake-up again.
 
 How it works:
 * power is supplied to the ATtiny and other circuit elements through a p-channel MOSFET (I'm using a BS250 here)
-* when power is turned on, the 1MΩ resistor takes charges the 100nF capacitor  with a time constant of [100ms](http://www.wolframalpha.com/input/?i=1M%CE%A9*100nF)
-* this keeps Vgs negative long enough for the ATtiny to power up and apply a high signal to the base of the NPN transistor
-* the NPN holds Vgs negative, and therefore power through the FET enabled
-* when the ATtiny wants to power-down, it beings the NPN base low, cutting the collector-emitter channel, and sending Vgs to 0V. * this turns off the FET and everything is powered down. The current drawn in this state is limited to leakage of the components
-* to powerup, the push-button shorts the capacitor, bring Vgs down and setting the cycle off again
+* when power is turned on, the 1MΩ resistor charges the 100nF capacitor with a time constant of [100ms](http://www.wolframalpha.com/input/?i=1M%CE%A9*100nF)
+* this keeps the FET Vgs negative long enough for the ATtiny to power up and apply a high signal to the base of the NPN transistor
+* the NPN collector-emitter conduction holds the FET Vgs negative, and therefore "powered on"
+* when the ATtiny wants to power-down, it brings the NPN base low, cutting the collector-emitter channel, and sending the FET Vgs to 0V.
+* this turns off the FET and everything is powered down. The current drawn in this state is limited to leakage of the components
+* to powerup, the push-button shorts the capacitor, bringing the FET Vgs down and setting the cycle off again
 
 This all seems to work very reliably.
 
