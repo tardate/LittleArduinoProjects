@@ -24,5 +24,5 @@ The ATtiny85 requires 1.8-5.5V to operate. I successfully tested with 3.3V and 5
 ![The Build](./assets/ATtinyHardwareInterrupt_build.jpg?raw=true)
 
 ## Credits and References
-* [ATtiny85 data](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 

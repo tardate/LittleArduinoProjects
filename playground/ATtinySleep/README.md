@@ -31,6 +31,6 @@ when asleep. Not bad, but definitly not as low as you'd like for long periods of
 ![The Build](./assets/ATtinySleep_build.jpg?raw=true)
 
 ## Credits and References
-* [ATtiny85 data](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ArduinoSleepCode](http://playground.arduino.cc/Learning/ArduinoSleepCode)
 * [<avr/sleep.h>: Power Management and Sleep Modes](http://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html)
