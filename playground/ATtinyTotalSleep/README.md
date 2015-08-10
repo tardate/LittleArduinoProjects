@@ -12,7 +12,7 @@ The [ATtinySleep](../ATtinySleep) project showed me that even in CPU sleep mode,
 still draw something in the order of 238µA.
 
 This project tests a scheme for total power shutdown triggered by the microcontroller itself.
-The circuit then draws virtually no current (certainly less than 100µA - the resolution of the ammeter I was using in-circuit).
+The circuit then draws virtually no current (certainly less than 10µA - the resolution of the ammeter I was using in-circuit).
 
 The trade-off is that the circuit requires an external trigger to wake-up again. Here it uses a push-button.
 
@@ -41,5 +41,5 @@ This all seems to work very reliably.
 * [BC547 datasheet](http://www.futurlec.com/Transistors/BC547.shtml)
 * [Arduino DigitalPins reference](https://www.arduino.cc/en/Tutorial/DigitalPins)
 * [Topic: Circuit for MCU to control its own power on/off](http://forum.arduino.cc/index.php?topic=118504.0) - another approach using a flip-flop
-* [Self Shutting Down Arduino](http://letsmakerobots.com/content/self-shutting-down-arduino-or-any-other-microcontroller-matter) - a similar approach, but one that may not work depending on the specific p-channel FET usde.
+* [Self Shutting Down Arduino](http://letsmakerobots.com/content/self-shutting-down-arduino-or-any-other-microcontroller-matter) - describes a similar approach, but one that may not work depending on the specific p-channel FET used (I could not make it work with the BS250).
 
