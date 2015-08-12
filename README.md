@@ -18,8 +18,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 128 Projects...
-Latest addition - [ATtinyTotalSleep](./playground/ATtinyTotalSleep) - test a total power shutdown with an ATtiny85 processor on a breadboard.
+## 129 Projects...
+Latest addition - [RelaxationJouleThief](./Electronics101/RelaxationJouleThief) - test a "joule thief" circuit based on a relaxation oscillator.
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -102,6 +102,7 @@ Latest addition - [ATtinyTotalSleep](./playground/ATtinyTotalSleep) - test a tot
 | [R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     a 16-bit R2R digital to analog converter with shift register interface |
 | [RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino**            proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [RCOscillator](./Electronics101/RCOscillator)                                 | **Oscillators**                 simple RC/transistor multistable vibrator |
+| [RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RC, Oscillators**      test a "joule thief" circuit based on a relaxation oscillator |
 | [RelayControlTest](./playground/RelayControlTest)                             | **Servo, Arduino**              quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [RelayModuleTest](./playground/RelayModuleTest)                               | **Servo, Arduino**              quick test of a common relay board to switch a motor under Arduino control |
 | [ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND)   | **BJT, Logic Gates**            test the basic resistor-transistor logic AND gate  |
