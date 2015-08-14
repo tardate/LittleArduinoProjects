@@ -73,6 +73,8 @@ void loop() {
 }
 
 EOS
+
+  cp bin/templates/template.fzz ${full_path}/${full_project_name}.fzz
   echo "project initialised: ${full_path}"
   open "${full_path}"
 }
