@@ -18,11 +18,12 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 130 Projects...
-Latest addition - [DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch) - test a Darlington-pair touch switch.
+## 131 Projects...
+Latest addition - [AMFMRadioKit](./Electronics101/AMFMRadioKit) - notes on an AM/FM radio kit build.
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [AMFMRadioKit](./Electronics101/AMFMRadioKit)                                 | **RF**                          notes on an AM/FM radio kit build |
 | [Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
 | [ArdWinVaders](./playground/OLED/ArdWinVaders)                                | **Arduino, OLED**               an Arduino & OLED version of a classic game |
 | [ATmegaBreadboard](./playground/ATmegaBreadboard)                             | **Arduino, ATmel**              running an ATMEGA328P-PU on a breadboard  |
