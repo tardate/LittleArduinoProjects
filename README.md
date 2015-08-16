@@ -18,7 +18,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 133 Projects...
+## 134 Projects...
 Latest addition - [BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter) - test a basic bi-directional 5/3.3V level shifter circuit.
 
 | Project                                                                       | Category/Description                                              |
@@ -36,6 +36,7 @@ Latest addition - [BidirectionalLevelShifter](./Electronics101/BidirectionalLeve
 | [ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)                  | **LED Array, Timing, Arduino**  demo effects on the LED strip driven using timer interrupt |
 | [BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
+| [BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule)| **FET**                    test a bi-directional 5/3.3V level shifter module |
 | [BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |
 | [BJTLongTailPair](./Electronics101/BJTLongTailPair)                           | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [BJTSawTooth](./Electronics101/BJTSawTooth)                                   | **BJT, Oscillators**            testing a simple BJT saw-tooth oscillator |

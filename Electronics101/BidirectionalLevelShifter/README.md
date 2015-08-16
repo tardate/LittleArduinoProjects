@@ -17,7 +17,7 @@ This is essentially how the bi-directional switching of voltage levels occurs:
 
 Note that "high" voltages are only nominally the 3.3V/5V rails ... these change as soon as other circuit elements are connected. Buffer circuits could be included to isolate and preserve full rail-to-rail swings on either side.
 
-This circuit is a simple demonstration of a swith in the 5V circuit controlling a load (LED + resistor) in the 3.3V circuit. The circuit could be mirrored to demonstrate the bi-directional switching.
+This circuit is a simple demonstration of a switch in the 5V circuit controlling a load (LED + resistor) in the 3.3V circuit. The circuit could be mirrored to demonstrate the bi-directional switching.
 
 ## Construction
 
@@ -28,7 +28,7 @@ This circuit is a simple demonstration of a swith in the 5V circuit controlling 
 ![The Build](./assets/BidirectionalLevelShifter_build.jpg?raw=true)
 
 ## Credits and References
+* [BidirectionalLevelShifterModule](../BidirectionalLevelShifterModule) - similar project, but using a level-shift module
 * [Philips Application Note AN97055](http://cdn.sparkfun.com/tutorialimages/BD-LogicLevelConverter/an97055.pdf)
 * [Bi-Directional Logic Level Converter Hookup Guide](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide) - excellent resource from sparkfun
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
-
