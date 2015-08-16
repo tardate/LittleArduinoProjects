@@ -9,7 +9,8 @@ Test a bi-directional 5/3.3V level shifter module.
 3.3/5V level-shifting modules are quite common, as the need to interface 5V microcontrollers with 3.3V devices/sensors (or vice versa) is pretty common. Often these are billed for
 [I²C](https://en.wikipedia.org/wiki/I%C2%B2C)
 or [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus),
-although they are non-specific and can be used for level-shifting any kind of signal.
+although they are non-specific and can be used for level-shifting any kind of digital signal.
+Note: yes, digital high/low signals only; they do not provide an analog scaling of voltages.
 
 I got some of these [modules from a seller on aliexpress](http://www.aliexpress.com/item/10PCS-Two-Channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32213240585.html)
 
