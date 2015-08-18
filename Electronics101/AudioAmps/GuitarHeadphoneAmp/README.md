@@ -13,9 +13,8 @@ The main differences in this case:
 * R1 at input is appropriate match for guitar input impedence
 
 How it performs:
-* the input volume control works fine, although it is pretty redundant as it is doing the same job as a guitar's onboard volume control
 * the lack of independent gain control is a bit limiting. i.e. the choice is quiet and clean, or load and overdriven.
-* on a bradboard, there's a bit of interference and noise in the mix. That would probably clean up quite a bit in a PCB build.
+* on a breadboard, there's a bit of interference and noise in the mix. That would probably clean up quite a bit in a PCB build.
 
 ## Construction
 
