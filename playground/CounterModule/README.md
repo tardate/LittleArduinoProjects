@@ -2,6 +2,10 @@
 
 A general-purpose CD4017 counter module.
 
+Here's a quick video of the module in action:
+
+[![CounterModule](http://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](http://www.youtube.com/watch?v=fvmFiRvSUXc)
+
 ## Notes
 
 See other projects like [RingCounterController](../RingCounterController) that play with the CD4017 decade counter.
