@@ -21,7 +21,7 @@ LED brightness will be affected by the supply voltage, and below 9V it might be 
 When powered by 9V battery source, the maximum current drawn is around 11.2mA.
 
 Note that since only a single LED should be on at a given time, the 10 x 1kΩ current-limiting resistors could be replaced by a single resistor
-on a common cathode ground link for the LEDs.
+on a common cathode ground link for the LEDs. But it depends on the specific LED ratings, as this subjects all the "off" LEDs to a reverse voltage equal to the voltage drop across the resistor.
 
 See [RingCounterController](../../playground/RingCounterController) for a variant of this project using an Arduino to control the 4017.
 

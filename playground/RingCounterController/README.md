@@ -26,6 +26,8 @@ When operating, the circuit draws about 2mA in total.
 
 Note that since only a single LED should be on at a given time, the 10 x 1kΩ current-limiting resistors could be replaced by a single resistor
 on a common cathode ground link for the LEDs.
+But it depends on the specific LED ratings, as this subjects all the "off" LEDs to a reverse voltage equal to the voltage drop across the resistor.
+
 
 ## Construction
 
