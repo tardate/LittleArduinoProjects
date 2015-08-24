@@ -1,5 +1,12 @@
 [
     {
+        "description": "build and test a simple two-stage FM transmitter", 
+        "relative_path": "Radio/FM/TwoStageTransmitter", 
+        "id": "#467", 
+        "categories": "Radio, FM", 
+        "name": "Two-stage FM Transmitter"
+    }, 
+    {
         "description": "all about the Victor VC3165 frequency counter", 
         "relative_path": "Equipment/VC3165", 
         "id": "#466", 

@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-07T03:05:07Z</updated>
+  <updated>2019-04-07T15:30:03Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Radio/FM/TwoStageTransmitter/</id>
+    <link href="https://leap.tardate.com/Radio/FM/TwoStageTransmitter/"/>
+    <updated>2019-04-07T14:55:59Z</updated>
+    <title>#467 Two-stage FM Transmitter</title>
+    <summary>build and test a simple two-stage FM transmitter</summary>
+    <g:image_link>https://leap.tardate.com/Radio/FM/TwoStageTransmitter/assets/TwoStageTransmitter_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="FM"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/VC3165/</id>
     <link href="https://leap.tardate.com/Equipment/VC3165/"/>
-    <updated>2019-04-07T01:19:45Z</updated>
+    <updated>2019-04-07T03:57:01Z</updated>
     <title>#466 VC3165</title>
     <summary>all about the Victor VC3165 frequency counter</summary>
     <g:image_link>https://leap.tardate.com/Equipment/VC3165/assets/VC3165_build.jpg</g:image_link>

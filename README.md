@@ -1,6 +1,6 @@
-# 466 Little Electronics and Arduino Projects
+# 467 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [VC3165](./Equipment/VC3165) - all about the Victor VC3165 frequency counter.
+> Latest addition:sparkles: [Two-stage FM Transmitter](./Radio/FM/TwoStageTransmitter) - build and test a simple two-stage FM transmitter.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

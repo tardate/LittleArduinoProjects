@@ -1877,14 +1877,15 @@
         ], 
         "title": "Tin Counter"
     }, 
-    "/Electronics101/LEDDimmer/CurrentRegulator/": {
-        "summary": "test a current-regulator style LED dimmer circuit", 
-        "id": 231, 
+    "/BoldportClub/PissOff/": {
+        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
+        "id": 290, 
         "tags": [
-            "LED", 
-            "Power"
+            "Boldport", 
+            "PCB Design", 
+            "NXP"
         ], 
-        "title": "LEDDimmer/CurrentRegulator"
+        "title": "BoldportClub/PissOff"
     }, 
     "/Electronics101/RingOscillator/": {
         "summary": "test a ring oscillator built with a 74LS14 Inverter chip", 
@@ -2433,6 +2434,15 @@
         ], 
         "title": "ResistorTransistorLogic/NAND"
     }, 
+    "/Radio/FM/TwoStageTransmitter/": {
+        "summary": "build and test a simple two-stage FM transmitter", 
+        "id": 467, 
+        "tags": [
+            "Radio", 
+            "FM"
+        ], 
+        "title": "Two-stage FM Transmitter"
+    }, 
     "/Electronics101/LEDStrobeKit/": {
         "summary": "build and analyse a common LED strobe kit", 
         "id": 224, 
@@ -2452,15 +2462,14 @@
         ], 
         "title": "FretBoard"
     }, 
-    "/BoldportClub/PissOff/": {
-        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
-        "id": 290, 
+    "/Electronics101/LEDDimmer/CurrentRegulator/": {
+        "summary": "test a current-regulator style LED dimmer circuit", 
+        "id": 231, 
         "tags": [
-            "Boldport", 
-            "PCB Design", 
-            "NXP"
+            "LED", 
+            "Power"
         ], 
-        "title": "BoldportClub/PissOff"
+        "title": "LEDDimmer/CurrentRegulator"
     }, 
     "/Electronics101/nRF24Breakout/": {
         "summary": "a simple PCB breadboard adapter for 8-pin nRF24 modules", 
