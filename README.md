@@ -10,6 +10,7 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 * [Arduino Cookbook (O'Reilly)](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
 * [Arduino StackExchange](http://arduino.stackexchange.com/)
 * [Arduino Playground](http://playground.arduino.cc/)
+* [Electrical Engineering StackExchange](http://electronics.stackexchange.com/)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 
@@ -18,13 +19,14 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 142 Projects...
-Latest addition - [HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) - how fast can you push an Op-Amp oscillator?
+## 143 Projects...
+Latest addition - [AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter) - simple AM transmitter with OpAmp carrier/mixer
 
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [AMFMRadioKit](./Electronics101/AMFMRadioKit)                                 | **RF**                          notes on an AM/FM radio kit build |
+| [AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **RF, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
 | [AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **RF, 555 Timer**               a simple 555-based AM transmitter |
 | [AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
 | [Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
