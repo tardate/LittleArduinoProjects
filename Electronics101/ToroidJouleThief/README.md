@@ -12,6 +12,9 @@ The circuit is all over the internet, but I used
 [RimstarOrg's video](https://www.youtube.com/watch?v=B61DU7yEsPM)
 as a guide.
 
+In this circuit I'm driving a 5mm white strawhat LED, with a forward voltage of 3-3.2V.
+No small feat for a single 1.5V AAA!
+
 ### Winding the Toroid
 
 I used an 18mm ferrite ring and 30AWG solid core wire.
@@ -30,6 +33,7 @@ The two wires are wound in a pair in the same direction - about 10 turns - but t
 * [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) - wikipedia
 * [Make a Joule Thief for Zombie Batteries](https://www.youtube.com/watch?v=B61DU7yEsPM) - by RimstarOrg
 * [How a Joule Thief Works](https://www.youtube.com/watch?v=0GVLnyTdqkg) - by RimstarOrg
+* [Make a Joule Thief](http://www.bigclive.com/joule.htm) - great instructions for a miniaturized joule thief
 * [2N5551 datasheet](http://www.futurlec.com/Transistors/2N5551.shtml)
 * [Ferrite ring](http://www.aliexpress.com/item/free-shipping-5pcs-Power-Inductor-Ferrite-Ring-Iron-Toroidal-green-18mm-x-10mm-x-7mm/32297770345.html) - example of a suitable core
 
