@@ -18,7 +18,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 136 Projects...
+## 137 Projects...
 Latest addition - [CounterModule](./playground/CounterModule) - a general-purpose CD4017 counter module.
 
 | Project                                                                       | Category/Description                                              |
@@ -108,7 +108,7 @@ Latest addition - [CounterModule](./playground/CounterModule) - a general-purpos
 | [R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     a 16-bit R2R digital to analog converter with shift register interface |
 | [RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino**            proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [RCOscillator](./Electronics101/RCOscillator)                                 | **Oscillators**                 simple RC/transistor multistable vibrator |
-| [RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RC, Oscillators**      test a "joule thief" circuit based on a relaxation oscillator |
+| [RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RLC, Oscillators**     test a "joule thief" circuit based on a relaxation oscillator |
 | [RelayControlTest](./playground/RelayControlTest)                             | **Servo, Arduino**              quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [RelayModuleTest](./playground/RelayModuleTest)                               | **Servo, Arduino**              quick test of a common relay board to switch a motor under Arduino control |
 | [ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND)   | **BJT, Logic Gates**            test the basic resistor-transistor logic AND gate  |
@@ -150,6 +150,7 @@ Latest addition - [CounterModule](./playground/CounterModule) - a general-purpos
 | [Switch - PNP](./Electronics101/SwitchPNP)                                    | **BJT**                         small-signal digital switch with PNP BJT |
 | [TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
+| [ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |
 | [TransistorTester](./Electronics101/TransistorTester)                         | **Arduino, BJT**                use an Arduino to test NPN and PNP BJTs |
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |
