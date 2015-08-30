@@ -1,6 +1,6 @@
 # ToroidJouleThief
 
-Test a "joule thief" circuit based on a ferrite toroid.
+Test a [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) circuit based on a ferrite toroid.
 
 ![The Battery Pack Build 2](./assets/ToroidJouleThief_build_AA_pack2.jpg?raw=true)
 
@@ -20,7 +20,12 @@ No small feat for a single 1.5V AAA!
 ### Winding the Toroid
 
 I used an 18mm ferrite ring and 30AWG solid core wire.
-The two wires are wound in a pair in the same direction - about 10 turns - but they are connected in reverse in the circuit.
+The two wires are wound in a pair in the same direction - about 10 turns - but they are connected in reverse in the circuit:
+
+| Winding | In From | Out To    |
+|---------|---------|-----------|
+| 1       | V+      | Collector |
+| 2       | Base    | 1kΩ->V+   |
 
 ## Construction
 
@@ -31,7 +36,7 @@ The two wires are wound in a pair in the same direction - about 10 turns - but t
 ### On a Breadboard..
 ![The Build](./assets/ToroidJouleThief_build.jpg?raw=true)
 
-### Queezed into Battery Pack
+### Squeezed into Battery Pack
 Fits a single AA or AAA battery, with a switch added for convenience. Makes a decent night light..
 
 ![The Battery Pack Build](./assets/ToroidJouleThief_build_AA_pack.jpg?raw=true)
