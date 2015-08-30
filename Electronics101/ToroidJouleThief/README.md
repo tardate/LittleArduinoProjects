@@ -2,6 +2,8 @@
 
 Test a "joule thief" circuit based on a ferrite toroid.
 
+![The Battery Pack Build 2](./assets/ToroidJouleThief_build_AA_pack2.jpg?raw=true)
+
 ## Notes
 
 This circuit achieves a voltage boost, enough to drive an LED with forward voltage in excess of the power supply.
@@ -26,7 +28,13 @@ The two wires are wound in a pair in the same direction - about 10 turns - but t
 
 ![The Schematic](./assets/ToroidJouleThief_schematic.jpg?raw=true)
 
+### On a Breadboard..
 ![The Build](./assets/ToroidJouleThief_build.jpg?raw=true)
+
+### Queezed into Battery Pack
+Fits a single AA or AAA battery, with a switch added for convenience. Makes a decent night light..
+
+![The Battery Pack Build](./assets/ToroidJouleThief_build_AA_pack.jpg?raw=true)
 
 ## Credits and References
 * [RelaxationJouleThief](../RelaxationJouleThief) - alternative circuit using a relaxation oscillator
