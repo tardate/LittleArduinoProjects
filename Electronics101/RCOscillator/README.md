@@ -15,7 +15,7 @@ The frequency of oscillation is given by
     f= 1/(ln(2) * ( R1 * C1 + R2 * C2))
 
 Or in this case with 22kΩ and 22μF, that means about
-[1.5 Hz]((http://www.wolframalpha.com/input/?i=%28ln%282%29+*+%28+22000+*+22*10%5E-6+%2B+22000+*+22*10%5E-6+%29%29%5E-1).
+[1.5 Hz](http://www.wolframalpha.com/input/?i=%28ln%282%29+*+%28+22000+*+22*10%5E-6+%2B+22000+*+22*10%5E-6+%29%29%5E-1).
 
 Note that for the oscillation to work correctly, the components need to be well matched.
 The first two transistors I stuck in the circuit produced a significantly uneven oscillation.
