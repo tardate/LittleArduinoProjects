@@ -33,5 +33,3 @@ Increasing C1 or R2 will increase the "on" time accordingly.
 * [Monostable Multivibrator circuit](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - another version from pcbheaven
 * [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
 * [RC time constant](http://en.wikipedia.org/wiki/RC_time_constant)
-* [name](url)
-
