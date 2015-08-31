@@ -2,6 +2,10 @@
 
 Test a 2-transistor monostable multivibrator.
 
+Here's a quick video of the circuit in action:
+
+[![BJTMonostable](http://img.youtube.com/vi/UpARBfVGHoU/0.jpg)](http://www.youtube.com/watch?v=UpARBfVGHoU)
+
 ## Notes
 
 The stable state:
