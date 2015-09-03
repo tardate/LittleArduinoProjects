@@ -23,7 +23,7 @@ In the program setup, we:
 * disable multiplexed input to the comparator, so AIN1 is used as negative input
 * clear any existing comparator interrupts
 * enable Analog Comparator interrupts
-* select rising, falling or change interrupts
+* select rising-edge interrupt
 
 The code defines an interrupt service routine on [ANALOG_COMP_vect](http://www.nongnu.org/avr-libc/user-manual/group__avr__interrupts.html).
 
@@ -47,17 +47,23 @@ and a comparator threshold falling edge crossing when the LDR goes light.
 
 ### Rising, Falling, Change Interrupts?
 
-In practice, I've had no luck trying to select for rising, falling or change interrupts.
-According to the docs, you should be able to mask bits 1/2 (ACIS1, ACIS0) to select rising, falling or both.
-But although I can see when I have ACSR set as expected, I'm *always* getting an interrupt on both the rising and falling edge.
-It can also be extremely bouncy.
+Setting ACIS1, ACIS0 bits select the interrupt to trigger:
+
+| ACIS1 | ACIS0 | Trigger |
+|-------|-------|---------|
+|  0    | 0     | Toggle  |
+|  1    | 0     | Falling |
+|  1    | 1     | Rising  |
+
+In practice, the comparator can be extremely bouncy.
+This can cause rising interrupts when only falling are expected, and vice versa.
+Some measure of debouncing appears to be essential.
 
 ### So Does it Work?
 
-Yes! The comparator interrupt is excellent, and beats any other approach. However there are two considerations/issues:
-* debouncing is probably essential, unless your application does not care about the number of interrupts raised
-* seems necessary to check if rising or falling trigger (or handle both). Maybe my chip/firmware is bad, but I cannot get ACIS1, ACIS0 to work as advertised.
+Yes! The comparator interrupt is excellent, and beats any other approach for speed, processing overhead and lack of external circuitry.
 
+Debouncing is likely essential, unless your application does not care about the number or direction of interrupts raised.
 
 ## Construction
 
