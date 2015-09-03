@@ -2,6 +2,10 @@
 
 Testing the Atmega328 built-in analog comparator
 
+Here's a quick video of the circuit in action:
+
+[![AnalogComparator](http://img.youtube.com/vi/lyO25PaMD3c/0.jpg)](http://www.youtube.com/watch?v=lyO25PaMD3c)
+
 ## Notes
 
 So today I learned (from
