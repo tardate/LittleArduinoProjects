@@ -26,6 +26,10 @@ The AVR library `set_sleep_mode` function and `sleep_mode` macro are use to put 
 Using `SLEEP_MODE_PWR_DOWN` .. apparently the most power-efficient, I measure power consumption falling to about 238µA at 3.3V
 when asleep. Not bad, but definitly not as low as you'd like for long periods of inactivity.
 
+Lately I've been reading Sparkfun's [Adventures in Low Power Land](https://www.sparkfun.com/tutorials/309),
+with some excellent coverage of how to get power consumption down to 1µA!
+The main extra change is to disable brownout detection, which requires a change to the chip fuses. A test for another day!
+
 ## Construction
 
 ![Breadboard](./assets/ATtinySleep_bb.jpg?raw=true)
@@ -38,3 +42,4 @@ when asleep. Not bad, but definitly not as low as you'd like for long periods of
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ArduinoSleepCode](http://playground.arduino.cc/Learning/ArduinoSleepCode)
 * [<avr/sleep.h>: Power Management and Sleep Modes](http://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html)
+* [Adventures in Low Power Land](https://www.sparkfun.com/tutorials/309) - excellent sparkfun tutorial
