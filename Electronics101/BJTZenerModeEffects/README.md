@@ -2,7 +2,7 @@
 
 Playing around with some zener-mode sound effects.
 
-Here's a quick video of the circuit in action. It also shows what happens when you replace the BJT "noise generator":
+Here's a quick video of the circuit in action. It also shows what happens when you remove the BJT noise generator:
 
 [![BJTZenerModeEffects](http://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](http://www.youtube.com/watch?v=YW7aQzy5-SY)
 
@@ -45,7 +45,7 @@ A BC547 is commonly found in such circuits and is nice and noisy. I tried some o
 
 It's not just the model that matters: the noise profile is quite variable from component to component, so if one component doesn't work well, try another.
 
-For true "steam effects" you want the high frequencies, so a high speed diode D2 works best, like a 1N4148.
+For true "steam" effects you want the high frequencies, so a high speed diode D2 works best, like a 1N4148.
 But I tried some standard rectifier diodes, and a good old 1N4001 does a decent job here.
 
 ## Construction
@@ -64,5 +64,3 @@ But I tried some standard rectifier diodes, and a good old 1N4001 does a decent 
 * [BC547 datasheet](http://www.futurlec.com/Transistors/BC547.shtml)
 * [A42 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138719/JIANGSU/A42.html)
 * [A92 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138721/JIANGSU/A92.html)
-* [name](url)
-
