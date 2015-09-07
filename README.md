@@ -18,8 +18,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 140 Projects...
-Latest addition - [BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects) - playing around with some zener-mode sound effects.
+## 141 Projects...
+Latest addition - [CrystalTester](./Electronics101/CrystalTester) - testing crystal oscillators with a frequency counter.
+
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -50,6 +51,7 @@ Latest addition - [BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects) - 
 | [Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
+| [CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             testing crystal oscillators with a frequency counter |
 | [DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
