@@ -2,6 +2,10 @@
 
 Playing around with some zener-mode sound effects.
 
+Here's a quick video of the circuit in action. It also shows what happens when you replace the BJT "noise generator":
+
+[![BJTZenerModeEffects](http://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](http://www.youtube.com/watch?v=YW7aQzy5-SY)
+
 ## Notes
 
 I've
@@ -11,7 +15,7 @@ This is not a conventional operating mode, but appears to be commonly exploited 
 
 The classic application is for steam engine sound effects.
 In fact, I discovered this patent from 1975: [Sound Simulator for Model Steam Engine US Patent 3,913,097](http://www.google.com/patents/US3913097)
-It's a petent for the steam engine simulator, not zener breakdown per se:
+It's a patent for the steam engine simulator, not zener breakdown per se:
 
     ... Thus a current I passes through the current limiting resistor 45 to the emitter of the transistor Q4.
     There is a breakdown from emitter to base of the transistor Q4 resulting in the current flow to ground.
