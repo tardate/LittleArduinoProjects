@@ -6,6 +6,9 @@ Here's a quick demo of the transmitter in action:
 
 [![HighFrequencyOpAmpOscillators](http://img.youtube.com/vi/X9KKxh5PliQ/0.jpg)](http://www.youtube.com/watch?v=X9KKxh5PliQ)
 
+FYI, I'm "broadcasting"
+[Go Marko Go by the Boban Marković Orkestar](http://www.amazon.com/gp/product/B008AZYPYY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008AZYPYY&linkCode=as2&tag=itsaprli-20&linkId=65VCNMDL6DCRUFVI).
+
 ## Notes
 
 This project is inspired by Afrotechmods'
@@ -38,6 +41,7 @@ So is this really AM? Well, not quite I fear:
 The Elsevier/Analog Devices
 ["Op Amp Applications Handbook"](http://www.analog.com/library/analogDialogue/archives/39-05/op_amp_applications_handbook.html)
 has an interesting circuit in section 6-5 that uses an AD8037 Clamping Amplifier to modulate both the high and low side of the carrier.
+Interesting.. play for another day!
 
 ## Construction
 
@@ -54,3 +58,4 @@ has an interesting circuit in section 6-5 that uses an AD8037 Clamping Amplifier
 * [J201 datasheet](http://www.futurlec.com/Transistors/J201.shtml)
 * [AMFMRadioKit](../../AMFMRadioKit) - the AM radio kit I used to test reception
 * [Op Amp Applications Handbook](http://www.analog.com/library/analogDialogue/archives/39-05/op_amp_applications_handbook.html) - Elsevier/Analog Devices
+* [Go Marko Go by the Boban Marković Orkestar](http://www.amazon.com/gp/product/B008AZYPYY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008AZYPYY&linkCode=as2&tag=itsaprli-20&linkId=65VCNMDL6DCRUFVI)
