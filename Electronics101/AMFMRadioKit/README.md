@@ -14,7 +14,7 @@ The kit is designed around 3 core integrated circuits:
 
 Some clarifications/intepretations of the instructions. Yes, its's all in simplified Chinese;-)
 * battery leads are connected to pads marked GB+/GB-
-* the inductor with ferrite core fits in a plastic mount that clides/clips to the PCB. The leads are soldered to the two pads marked AM. this is the medium wave/AM antenna
+* the inductor with ferrite core fits in a plastic mount that slides/clips to the PCB. The leads are soldered to the two pads marked AM. This is the medium wave/AM antenna
 * the LED needs to stand-off the PCB to peep through the front casing properly. To get the measurements correct, it's best to solder the LED in place with the PCB resting in the case in its final position.
 * I used a bit of flux to first solder the CD9088 SMD in place and avoid bridging the pins, but the PCB is well prepared and all the other components went in without trouble and without any flux assist.
 

@@ -31,7 +31,7 @@ The LEd incdicator on the sender-side is mrely to confirm that a data signal was
 I've wired up the sender to a 9V battery.
 
 ### Receiver
-The receiver is pwered with 5V. When data is received, it takes the data line high.
+The receiver is powered with 5V. When data is received, it takes the data line high.
 
 Initially, I just had an LED wired to the data line. That worked reasonably well: press the button on the sender, and the receiver blinks the LED! How simple is that?
 
