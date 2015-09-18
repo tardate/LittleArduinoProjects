@@ -44,7 +44,7 @@ So higher capacitor values will slow down the wave frequency and vice versa.
 Here I'm using a 10µF electrolytic to give a very slow wave, visible to the eye.
 
 Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) to
-read the data collected by the [BJTSawTooth.ino](./BJTSawTooth) program:
+read the data collected by the [BJTSawTooth.ino](./BJTSawTooth.ino) program:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
