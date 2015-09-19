@@ -53,7 +53,7 @@ Latest addition - [RingOscillator](./Electronics101/RingOscillator) - test an os
 | [Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
-| [CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             testing crystal oscillators with a frequency counter |
+| [CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
