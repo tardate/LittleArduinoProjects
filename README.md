@@ -19,8 +19,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 144 Projects...
-Latest addition - [RingOscillator](./Electronics101/RingOscillator) - test an oscillator built with a 74LS14 Inverter chip.
+## 145 Projects...
+Latest addition - [VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle) - a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency.
 
 
 | Project                                                                       | Category/Description                                              |
@@ -165,6 +165,7 @@ Latest addition - [RingOscillator](./Electronics101/RingOscillator) - test an os
 | [Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |
 | [TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
+| [VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [Variable LED brightness (PWM)](./playground/VariableLED)                     | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
 | [VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
