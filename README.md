@@ -20,9 +20,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 145 Projects...
-Latest addition - [VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle) - a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency.
-
+## 146 Projects...
+Latest addition - [InvertingChargePump](./Electronics101/555Timer/InvertingChargePump) - test an inverting charge pump circuit based on a 555 timer.
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -73,6 +72,7 @@ Latest addition - [VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycl
 | [HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) |**OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |
 | [HitTheLights](./playground/HitTheLights)                                     | **LCD, Human Input, Arduino**   simple LED game with LCD output and interrupt-driven button input |
+| [InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |
 | [It's Better With Bacon](./playground/BetterWithBacon)                        | **LCD, Arduino**                simple LCD test |
 | [JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two servos with a joystick |
 | [LedControlDemo](./playground/LED8x8/LedControlDemo)                          | **8x8 LED, Arduino**            test driving and LED matrix with the LedControl library |
