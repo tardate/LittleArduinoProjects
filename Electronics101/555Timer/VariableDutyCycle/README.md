@@ -11,7 +11,7 @@ so that the duty cycle variation is clearly visible:
 
 For many applications - PWM motor control, charge pumps, buck/boost converters - we want variable duty cycle while maintaining a fixed frequency.
 
-The basic 555 timer astable configuration allows for duty cycles from ~50% to near 100%, and wide frequency range from <1Hz to a few hunderd kHz.
+The basic 555 timer astable configuration allows for duty cycles from ~50% to near 100%, and wide frequency range from <1Hz to hundreds of kHz.
 However, it is difficult to adjust duty cycle without affecting frequency and vice versa.
 This circuit is one approach for achieving continuously variable duty cycle while maintaining a relatively fixed frequency.
 
@@ -46,8 +46,8 @@ Here are the predicted minimum, maximum and mid-point duty cycles and correspond
 | mid | 26kΩ | 27kΩ | 10nF | [67%](http://www.wolframalpha.com/input/?i=%2826k%CE%A9+%2B+25k%CE%A9%29%2F%2826k%CE%A9+%2B+2+*+25k%CE%A9%29) | [1800Hz](http://www.wolframalpha.com/input/?i=1.44+%2F+%28%2826k%CE%A9+%2B+2+*+27k%CE%A9%29+*+10nF%29) |
 | max | 51kΩ | 10kΩ | 10nF | [86%](http://www.wolframalpha.com/input/?i=%2851k%CE%A9+%2B+10k%CE%A9%29%2F%2851k%CE%A9+%2B+2+*+10k%CE%A9%29) | [2028Hz](http://www.wolframalpha.com/input/?i=1.44+%2F+%28%2851k%CE%A9+%2B+2+*+10k%CE%A9%29+*+10nF%29) |
 
-The maximum frequency drift occurs at the midpoint, when R2 equals [26.67kΩ](http://www.wolframalpha.com/input/?i=10k%CE%A9+%2B+1%2F%281%2F50k%CE%A9+%2B+1%2F25k%CE%A9%29).
-I'ts only 11% down, which is about as accurate as I could hope for, in return for a duty cycle being continuously variable from 51% to 86%.
+The maximum frequency drift occurs near the midpoint, when R2 equals [26.67kΩ](http://www.wolframalpha.com/input/?i=10k%CE%A9+%2B+1%2F%281%2F50k%CE%A9+%2B+1%2F25k%CE%A9%29).
+It's only 11% down, which is about as accurate as I could hope for, in return for a duty cycle being continuously variable from 51% to 86%.
 
 
 ### Actual Results
@@ -64,10 +64,10 @@ However the stability of the frequency, and the variation as the resistance is c
 
 ### Visual Demo
 
-To be able to see the duty cycle variation, I slowed the circuit down by replacing 10nF C1 with a 10µF electrolytic capacitor.
-This would predict a basic frequency of around [2.2Hz](http://www.wolframalpha.com/input/?i=1.44+%2F+%28%2845.1k%CE%A9+%2B+2+*+9.79k%CE%A9%29+*+10%C2%B5F%29).
+To be able to see the duty cycle variation, I slowed the circuit down by replacing the 10nF C1 with a 10µF electrolytic capacitor.
+This would predict a basic frequency of around
+[2.2Hz](http://visual555.tardate.com/?mode=astable&r1=45.1&r2=9.79&c=10).
 In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu.be/UJAR0J1mjsE).
-
 
 ## Construction
 
@@ -80,4 +80,5 @@ In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu
 ## Credits and References
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [LittleArduinoProjects AstableOscillator](../AstableOscillator) - the basic 555 timer astable circuit
+* [Visual 555 Calculator](http://visual555.tardate.com)
 
