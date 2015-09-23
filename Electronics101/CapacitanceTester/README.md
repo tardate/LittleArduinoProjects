@@ -86,16 +86,6 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 
 ![The Build](./assets/CapacitanceTester_build.jpg?raw=true)
 
-### Parts
-
-* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* RT1 22kohm or 4.7kohm
-* 16x2 LCD (I used a [QC1602A](./assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
-+ VR1 50k potetiometer for contrast trim
-* R1 220ohm for current limiting the LCD backlight
-* CT1 - various capacitors for testing
-* breadboard & jumper wires
-
 ## Credits and references
 * [RC time constant](http://en.wikipedia.org/wiki/RC_time_constant)
 * [Capacitor Code Calculator](http://www.electronics2000.co.uk/calc/capacitor-code-calculator.php) - good for looking up those pesky ceramics

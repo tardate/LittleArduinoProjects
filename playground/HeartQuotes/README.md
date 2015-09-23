@@ -4,16 +4,6 @@ Press a button to snaffle a random quote from [Heart Quotes](http://www.iheartqu
 
 ![The Build](./assets/HeartQuotes_lcd.jpg?raw=true)
 
-## Parts for a breadboard build
-
-* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* [Arduino Ethernet Shield](http://www.amazon.com/gp/product/B00EU7447Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EU7447Y&linkCode=as2&tag=itsaprli-20&linkId=QJYL7QLWFGQVGUF5)
-* Breadboard
-* [4 Pin DIP PCB Momentary Push Button Tactile Switch](http://www.amazon.com/gp/product/B008MLKJ3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008MLKJ3C&linkCode=as2&tag=itsaprli-20&linkId=6UORZDXT6S7AZRZ7)
-* 16x2 LCD (I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
-
-![The Breadboard Schematic](./assets/HeartQuotes_bb.jpg?raw=true)
-
 ## Notes
 
 This currently just dumps the web response from the HeartQuotes API to the console and LCD panel.
@@ -52,6 +42,24 @@ This gets parsed down into just the actual "quote" part:
 
 
 ![Console Output](./assets/HeartQuotes_console.jpg?raw=true)
+
+
+## Construction
+
+![The Breadboard](./assets/HeartQuotes_bb.jpg?raw=true)
+
+![The Schematic](./assets/HeartQuotes_schematic.jpg?raw=true)
+
+![The Build](./assets/HeartQuotes_lcd.jpg?raw=true)
+
+### Parts for a breadboard build
+
+* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
+* [Arduino Ethernet Shield](http://www.amazon.com/gp/product/B00EU7447Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EU7447Y&linkCode=as2&tag=itsaprli-20&linkId=QJYL7QLWFGQVGUF5)
+* Breadboard
+* [4 Pin DIP PCB Momentary Push Button Tactile Switch](http://www.amazon.com/gp/product/B008MLKJ3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008MLKJ3C&linkCode=as2&tag=itsaprli-20&linkId=6UORZDXT6S7AZRZ7)
+* 16x2 LCD (I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
+
 
 ## Credits and references
 * HTTP GET based on the Arduino WebClient example http://arduino.cc/en/Tutorial/WebClient

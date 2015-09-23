@@ -9,7 +9,7 @@ so that the duty cycle variation is clearly visible:
 
 ## Notes
 
-For many applications - PWM motor control, charge pumps, buck/boost converters - we want variable duty cycle while maintaining a fixed frequency.
+For many applications we want variable duty cycle while maintaining a fixed frequency.
 
 The basic 555 timer astable configuration allows for duty cycles from ~50% to near 100%, and wide frequency range from <1Hz to hundreds of kHz.
 However, it is difficult to adjust duty cycle without affecting frequency and vice versa.

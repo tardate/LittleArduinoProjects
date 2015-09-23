@@ -50,7 +50,6 @@ flips high when the light level goes below the preset threshold.
 
 ![The Build](./assets/LDRComparator_build.jpg?raw=true)
 
-
 ## Credits and References
 * [LM324 datasheet](http://www.futurlec.com/Linear/LM324N.shtml) - Low Power Quad Op-Amp
 * [Properly terminating an unused op amp](http://www.electronicproducts.com/Analog_Mixed_Signal_ICs/Amplifiers/Properly_terminating_an_unused_op_amp.aspx)
