@@ -28,10 +28,13 @@ In order to adjust duty cycle without adjusting frequency, it follows that:
 
 My objective here is "easy manual duty cycle adjustment" so I just want one control.
 This sounds like a job for a dual pole potentionmeter.
+NB: an alternative approach with diode-controlled discharge circuit is [covered on the learnabout-electronics site](http://www.learnabout-electronics.org/Oscillators/osc44.php).
 
 If I had a dual-pole pot with one core of say 50kΩ and the other of 25kΩ, that would be perfect.
 Unfortunately I don't. But I do have a 50kΩ dual pole. So I just need to configure it so one pole has
 it's resistance halved.
+
+![Dual-pole Pot](./assets/VariableDutyCycle_pot.jpg?raw=true)
 
 One approach is to put one core in parallel with a fixed 50kΩ ressitor.
 This results in a slightly non-linear relationship between the limits, so it's only an aproximation:
