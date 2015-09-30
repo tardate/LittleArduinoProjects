@@ -147,10 +147,14 @@ here are some measurements with larger capacitor values:
 | 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 100kΩ | 8.47 | 25.4mA | -9.32 | 86µA   | 215.1mW |  0.8mW | 0.4%       |
 
 That conversion efficiency looks terrible!
+
 Fortunately(?) it turns out that this is mainly due to the 555 timer chip.
+
 My NE555P chips are drawing 25mA with no load on pin 3.
 That's much higher than the datasheet would lead me to expect, but that's a separate issue.
-Subtract the "cost" of running the 55 chip, and efficiencies work out closer to 77%. That's still not particularly good.
+
+Subtract the "cost" of running the 555 chip, and efficiencies work out closer to 77%.
+That's better but still not particularly good.
 
 ### Some Conclusions
 
