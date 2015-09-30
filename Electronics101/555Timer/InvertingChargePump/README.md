@@ -40,10 +40,9 @@ OK, next here's the table of output voltage measurements with variations in the 
 * high and low charge frequencies
 * a range of output impedences, to see how stable the voltage is to load
 * flying and output capacitor values
-* different diodes: 1N4001 as a representative standard rectifier; 1N4148 is high speed; 1N5819 is low forward voltage
+* different diodes: 1N4001 as a representative standard rectifier; 1N4148 for its high speed; 1N5819 for its low forward voltage
 
-|        |       |       |       | Vout   | Vout    |
-| D1/D2  |    CF | CL    | RL    | 0.7kHz | 64.9kHz |
+| D1/D2  |    CF | CL    | RL    | Vout@0.7kHz | Vout@64.9kHz |
 |--------|-------|-------|-------|--------|---------|
 | 1N4001 |   1µF |   1µF | 1kΩ   |  -3.07 |   -4.03 |
 | 1N4001 |   1µF |   1µF | 10kΩ  |  -6.71 |   -6.35 |
@@ -135,17 +134,17 @@ With the variable resistor replaced with fixed 555 astable configuration of
 [220Ω/1kΩ/10nF](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01),
 here are some measurements with larger capacitor values:
 
-| D1/D2  |  R1  |    R2 |    C1 |    CF | CL    | RL    | Vout  | Vin  | Iin    | Iload  | Pin     | Pout   | Efficiency |
-|--------|------|-------|-------|-------|-------|-------|-------|------|--------|--------|---------|--------|------------|
-| 1N5819 | 220Ω |   1kΩ |  10nF |  10µF |  10µF | 1kΩ   | -6.39 |      |        |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF |  10µF |  10µF | 10kΩ  | -8.01 |      |        |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF |  10µF |  10µF | 100kΩ | -8.58 |      |        |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 1kΩ   | -6.77 |      |        |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 10kΩ  | -8.12 |      |        |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 100kΩ | -8.96 |      |        |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 1kΩ   | -6.80 | 8.57 | 32.1mA | 6.89mA | 275.1mW | 46.9mW | 17%        |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 10kΩ  | -8.14 | 8.52 | 26.7mA | 814µA  | 227.5mW |  6.6mW | 2.9%       |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 100kΩ | -9.32 | 8.47 | 25.4mA | 86µA   | 215.1mW |  0.8mW | 0.4%       |
+| D1/D2  |  R1  |    R2 |    C1 |    CF | CL    | RL    | Vin  | Iin    | Vout  | Iload  | Pin     | Pout   | Efficiency |
+|--------|------|-------|-------|-------|-------|-------|------|--------|-------|--------|---------|--------|------------|
+| 1N5819 | 220Ω |   1kΩ |  10nF |  10µF |  10µF | 1kΩ   |      |        | -6.39 |        |         |        |            |
+| 1N5819 | 220Ω |   1kΩ |  10nF |  10µF |  10µF | 10kΩ  |      |        | -8.01 |        |         |        |            |
+| 1N5819 | 220Ω |   1kΩ |  10nF |  10µF |  10µF | 100kΩ |      |        | -8.58 |        |         |        |            |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 1kΩ   |      |        | -6.77 |        |         |        |            |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 10kΩ  |      |        | -8.12 |        |         |        |            |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 100kΩ |      |        | -8.96 |        |         |        |            |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 1kΩ   | 8.57 | 32.1mA | -6.80 | 6.89mA | 275.1mW | 46.9mW | 17%        |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 10kΩ  | 8.52 | 26.7mA | -8.14 | 814µA  | 227.5mW |  6.6mW | 2.9%       |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 100kΩ | 8.47 | 25.4mA | -9.32 | 86µA   | 215.1mW |  0.8mW | 0.4%       |
 
 That conversion efficiency looks terrible!
 Fortunately(?) it turns out that this is mainly due to the 555 timer chip.
