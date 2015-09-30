@@ -42,7 +42,7 @@ OK, next here's the table of output voltage measurements with variations in the 
 * flying and output capacitor values
 * different diodes: 1N4001 as a representative standard rectifier; 1N4148 for its high speed; 1N5819 for its low forward voltage
 
-| D1/D2  |    CF | CL    | RL    | Vout@0.7kHz | Vout@64.9kHz |
+| D1/D2  |    CF | CL    | RL    | Vout (Fmin) | Vout (Fmax) |
 |--------|-------|-------|-------|--------|---------|
 | 1N4001 |   1µF |   1µF | 1kΩ   |  -3.07 |   -4.03 |
 | 1N4001 |   1µF |   1µF | 10kΩ  |  -6.71 |   -6.35 |
