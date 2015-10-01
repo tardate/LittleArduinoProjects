@@ -131,7 +131,7 @@ OK, next here's the table of output voltage measurements with variations in the 
 
 For this circuit and range of loads, higher frequencies are more robust, and CF/CL seem best when over 10µF.
 With the variable resistor replaced with fixed 555 astable configuration of
-[220Ω/1kΩ/10nF](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01),
+[64.9kHz with 220Ω/1kΩ/10nF](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01),
 here are some measurements with larger capacitor values:
 
 | D1/D2  |  R1  |    R2 |    C1 |    CF | CL    | RL    | Vin  | Iin    | Vout  | Iload  | Pin     | Pout   | Efficiency |
@@ -142,19 +142,43 @@ here are some measurements with larger capacitor values:
 | 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 1kΩ   |      |        | -6.77 |        |         |        |            |
 | 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 10kΩ  |      |        | -8.12 |        |         |        |            |
 | 1N5819 | 220Ω |   1kΩ |  10nF | 100µF | 100µF | 100kΩ |      |        | -8.96 |        |         |        |            |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 1kΩ   | 8.57 | 32.1mA | -6.80 | 6.89mA | 275.1mW | 46.9mW | 17%        |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 10kΩ  | 8.52 | 26.7mA | -8.14 | 814µA  | 227.5mW |  6.6mW | 2.9%       |
-| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 100kΩ | 8.47 | 25.4mA | -9.32 | 86µA   | 215.1mW |  0.8mW | 0.4%       |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 1kΩ   | 8.57 | 32.1mA | -6.80 | 6.89mA | 275.1mW | 46.9mW | 17.0%      |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 10kΩ  | 8.52 | 26.7mA | -8.14 | 814µA  | 227.5mW |  6.6mW |  2.9%      |
+| 1N5819 | 220Ω |   1kΩ |  10nF | 220µF | 220µF | 100kΩ | 8.47 | 25.4mA | -9.32 | 86µA   | 215.1mW |  0.8mW |  0.4%      |
 
 That conversion efficiency looks terrible!
 
 Fortunately(?) it turns out that this is mainly due to the 555 timer chip.
 
 My NE555P chips are drawing 25mA with no load on pin 3.
-That's much higher than the datasheet would lead me to expect, but that's a separate issue.
+That's much higher than the datasheet would lead me to expect.
 
 Subtract the "cost" of running the 555 chip, and efficiencies work out closer to 77%.
 That's better but still not particularly good.
+
+#### Improved Efficiency
+
+So why is the 555 drawing so much power?
+It seems to be due to the very low R1 value (220Ω), as hinted at
+[on this site](http://www.555-timer-circuits.com/common-mistakes.html).
+
+Examining the internal schematic of the 555 in the datasheet, pin 7 is simply connected via collector-emitter of an NPN transistor to ground,
+so it is clear why there's a high load during discharge (VCC > 220Ω > C-E > GND).
+
+Moderating the 555 configuration with a larger R1 and sacrificing a little speed down to
+[13.9kHz](http://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.001), the 555 timer draws only 5mA with no load.
+A check with a frequency counter confirms the circuit is running at 13.38kHz.
+
+Here are some new measurements:
+
+| D1/D2  |  R1  |    R2 |    C1 |    CF | CL    | RL    | Vin  | Iin    | Vout  | Iload  | Pin     | Pout   | Efficiency |
+|--------|------|-------|-------|-------|-------|-------|------|--------|-------|--------|---------|--------|------------|
+| 1N5819 | 10kΩ |  47kΩ |   1nF | 220µF | 220µF | 1kΩ   | 9.17 | 11.7mA | -6.86 | 7.08mA | 107.3mW | 48.6mW | 45.3%      |
+| 1N5819 | 10kΩ |  47kΩ |   1nF | 220µF | 220µF | 10kΩ  | 9.28 |  5.9mA | -7.96 |  803µA |  54.8mW |  6.4mW | 11.7%      |
+| 1N5819 | 10kΩ |  47kΩ |   1nF | 220µF | 220µF | 100kΩ | 9.32 |  5.3mA | -8.57 |   85µA |  49.4mW |  0.7mW |  1.5%      |
+
+OK, still not great, but the circuit is still doing a decent job of an inverting charge pump,
+and the power lost through the 555 has been greatly reduced.
 
 ### Some Conclusions
 
@@ -175,7 +199,7 @@ Output Impedence:
 * for low impedence loads, the circuit would need to change so that a heavy charging current could be delivered via a BJT or FET
 
 Oscillator:
-* the 555 chip is an expensive way to drive a low-power charge pump, being responsibly for the bulk of conversion losses
+* the 555 chip is an expensive way to drive a low-power charge pump, being responsible for the bulk of conversion losses
 
 ## Construction
 
