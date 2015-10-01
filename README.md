@@ -20,8 +20,8 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 146 Projects...
-Latest addition - [InvertingChargePump](./Electronics101/555Timer/InvertingChargePump) - test an inverting charge pump circuit based on a 555 timer.
+## 147 Projects...
+Latest addition - [VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump) - test a voltage-doubling charge pump circuit based on a 555 timer.
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -168,6 +168,7 @@ Latest addition - [InvertingChargePump](./Electronics101/555Timer/InvertingCharg
 | [TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [Variable LED brightness (PWM)](./playground/VariableLED)                     | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
+| [VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
 | [VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
 | [VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [X113647Stepper](https://github.com/tardate/X113647Stepper)                   | **Stepper, Arduino**            It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
