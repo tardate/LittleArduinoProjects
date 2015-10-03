@@ -17,7 +17,7 @@ int ledStatus = 0;    // track status. 0==off, 1==on
 
 // the setup routine runs once when you press reset:
 void setup() {
-  Serial.begin(9600); // initialize serial communication at 9600 bits per second:
+  Serial.begin(115200);       // initialize serial communication
   pinMode(pushButton, INPUT); // pushbutton's pin an input
   pinMode(led, OUTPUT);       // led pin an output
 }

@@ -19,7 +19,7 @@ const int SIG_PIN = 6;
 const int MODE_PIN = 7;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(SIG_PIN, OUTPUT);
   pinMode(MODE_PIN, OUTPUT);
 }

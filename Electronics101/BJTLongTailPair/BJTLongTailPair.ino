@@ -15,7 +15,7 @@
 #define AB2_PIN   A3
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(AO1_PIN, INPUT);
   pinMode(AO2_PIN, INPUT);
   pinMode(AB1_PIN, INPUT);

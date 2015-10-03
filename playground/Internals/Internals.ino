@@ -14,7 +14,7 @@ extern int __bss_end;
 extern void *__brkval;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   dumpAll();
 }
 

@@ -19,14 +19,15 @@ int vertical_border = 20;  // vertical border to leave between traces
 int background_color = 31; // default background color (just off black)
 
 void setup () {
-  size(800, 600);                // set the window size
+  size(1000, 600);               // set the window size
   colorMode(HSB);                // use hue/saturation/brightness to set colors
   background(background_color);  // set inital background color
 
   println(Serial.list());        // List all the available serial ports
 
-  // initialise the serial port to raise serialEvent on a newline
-  port = new Serial(this, port_name, 9600);
+  // initialise the serial port (to match that used by PlotNValues.ino)
+  port = new Serial(this, port_name, 115200);
+  // set it to raise serialEvent on a newline
   port.bufferUntil('\n');
 
 }

@@ -51,7 +51,7 @@ volatile signed int led_scale_factor = 1;
 void setup() {
 
 #ifdef SERIAL_DEBUG
-  Serial.begin(9600);
+  Serial.begin(115200);
 #endif
 
   // start the Ethernet connection:

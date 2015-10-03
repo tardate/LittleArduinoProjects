@@ -38,7 +38,7 @@ void setup() {
   pinMode(8, OUTPUT);
   pinMode(9, OUTPUT);
   clearDot();
-  Serial.begin(9600);
+  Serial.begin(115200);
 }
 
 void writeDot(byte dot) {

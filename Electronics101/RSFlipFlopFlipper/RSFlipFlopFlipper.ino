@@ -15,7 +15,7 @@ const int READ_OUT1_PIN = A0;
 const int READ_OUT2_PIN = A1;
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   pinMode(SET_PIN, OUTPUT);
   pinMode(RESET_PIN, OUTPUT);

@@ -23,7 +23,7 @@ void setup() {
   pinMode(IN_A_PIN, OUTPUT);
   pinMode(IN_B_PIN, OUTPUT);
 
-  Serial.begin(9600);                             // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
   FlexiTimer2::set(SAMPLING_FREQUENCY, sample);   // set sampling procedure on timer interrupt
   FlexiTimer2::start();
 }

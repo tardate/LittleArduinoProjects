@@ -15,7 +15,7 @@ int charge_counter = 0;                 // keep track of the charging duty cycle
 const int signal_pin = A0;              // the pin we'll read our charge values from
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
   pinMode(charge_pin, OUTPUT);          // enable the charge_pin
   pinMode(signal_pin, INPUT);           // enable the signal_pin
 

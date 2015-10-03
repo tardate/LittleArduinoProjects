@@ -39,7 +39,7 @@ int pushButton = 7;   // digital pin has a pushbutton attached to it
 int buttonStatus = 0; // track button status - normally pulled low
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(pushButton, INPUT); // pushbutton's pin an input
 
   // start the Ethernet connection:

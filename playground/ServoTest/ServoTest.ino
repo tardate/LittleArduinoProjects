@@ -19,7 +19,7 @@
 Servo myservo;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   myservo.attach(SERVO_PIN,IDEAL_MIN_PW,IDEAL_MAX_PW);
   printInstructions();
 }

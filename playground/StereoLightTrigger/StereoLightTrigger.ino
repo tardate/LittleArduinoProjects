@@ -22,7 +22,7 @@ volatile int ldr_right_flag = 0;
 
 void setup() {
   #ifdef WITH_SERIAL_DEBUG
-  Serial.begin(9600);
+  Serial.begin(115200);
   #endif
 
   // enable the input pins

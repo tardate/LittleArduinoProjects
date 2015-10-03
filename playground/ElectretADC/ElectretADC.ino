@@ -15,7 +15,7 @@ const int read_v1_pin = A0;
 const int read_v2_pin = A1;
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   pinMode(read_v1_pin, INPUT);          // enable voltage read
   pinMode(read_v2_pin, INPUT);          // enable voltage read

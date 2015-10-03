@@ -15,7 +15,7 @@
 RH_ASK driver;
 
 void setup() {
-  Serial.begin(9600); // only used for debugging
+  Serial.begin(115200); // only used for debugging
   pinMode(INDICATOR_PIN, OUTPUT);
   if (!driver.init()) {
     Serial.println("init failed");

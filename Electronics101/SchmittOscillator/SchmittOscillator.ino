@@ -13,7 +13,7 @@ const int read_input_pin = A0;          // the pin we'll read input values from
 const int read_output_pin = A1;         // the pin we'll read ouput values from
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
   pinMode(read_input_pin, INPUT);       // enable the input_pin
   pinMode(read_output_pin, INPUT);      // enable the output_pin
 

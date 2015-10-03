@@ -16,7 +16,7 @@ const int READ_OUTPUT_PIN = A1;
 int inverted_value = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
   pinMode(INVERTED_INPUT_PIN, OUTPUT);
 
   FlexiTimer2::set(10, sample);

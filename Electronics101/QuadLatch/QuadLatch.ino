@@ -21,7 +21,7 @@ const int read_q3_pin = A2;             // the pin we'll read Q3 from
 const int read_q4_pin = A3;             // the pin we'll read Q4 from
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   pinMode(latch_pin, OUTPUT);           // enable the output pins
   digitalWrite(latch_pin, LOW);         // start with enable LOW

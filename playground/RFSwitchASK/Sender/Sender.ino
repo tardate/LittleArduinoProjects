@@ -17,7 +17,7 @@ RH_ASK driver;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(INDICATOR_PIN, OUTPUT);
   if (!driver.init()) {
     Serial.println("init failed");

@@ -17,7 +17,7 @@ const int QREAD_PIN = A0;
 volatile int signal_state = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   pinMode(SIGNAL_PIN, OUTPUT);
   digitalWrite(SIGNAL_PIN, LOW);

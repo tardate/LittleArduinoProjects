@@ -26,7 +26,7 @@ const int vref_mv = 4930;
 
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   pinMode(data_pin, OUTPUT);            // enable the data pin
   pinMode(read_vout_pin, INPUT);        // enable Vout read

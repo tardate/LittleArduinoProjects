@@ -15,7 +15,7 @@ const int READ_OUT3_PIN = A2;
 const int READ_OUT4_PIN = A3;
 
 void setup() {
-  Serial.begin(9600);                   // initialize serial communications at 9600 bps
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   FlexiTimer2::set(10, sample);         // set sampling procedure on timer interrupt
   FlexiTimer2::start();

@@ -17,7 +17,7 @@ const int y1_read_pin = A0;
 volatile int ab = 0;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   pinMode(INPUT_A1, OUTPUT);
   pinMode(INPUT_B1, OUTPUT);

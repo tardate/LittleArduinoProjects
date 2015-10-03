@@ -22,7 +22,7 @@ uint16_t pulses[100][2];
 uint8_t pulse_index = 0;
 
 void setup(void) {
-  Serial.begin(9600);
+  Serial.begin(115200);
 #ifndef ENABLE_PLOT_OUTPUT
   Serial.println("Ready to receive IR data..");
 #endif

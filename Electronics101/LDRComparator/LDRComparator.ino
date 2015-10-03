@@ -13,7 +13,7 @@ const int ldr_trigger_pin = 7;          // input pin to read output of comparato
 const int vldr_read_pin = A0;           // input pin to read the voltage at the base of the LDR
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);                 // initialize serial communications (to match that used by PlotNValues.pde)
 
   // enable the input pins
   pinMode(ldr_trigger_pin, INPUT);

@@ -10,7 +10,7 @@
 #define DURATION_AT_SPEED 1000
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   // NB: You do not need to call pinMode() before calling analogWrite()
 }
 
