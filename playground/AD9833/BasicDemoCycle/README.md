@@ -83,5 +83,8 @@ Running at 300kHz, pretty accurate!
 ## Credits and References
 * [Module from a seller on aliexpress](http://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
 * [AD9833 datasheet](http://www.analog.com/en/products/rf-microwave/direct-digital-synthesis-modulators/ad9833.html)
+* [Arduino SPI Reference](https://www.arduino.cc/en/Reference/SPI)
 * [Sending out the right signals](https://gr33nonline.wordpress.com/2015/08/04/making-the-right-signals/) - informative round-up of various signal generator modules
 * [Julian's Postbag: #41 - AD9833 Waveform Generator](https://youtu.be/y-q_ibWneSo) - my inspiration to try the unit!
+* [AD9833 Waveform Generator](http://www.vwlowen.co.uk/arduino/AD9833-waveform-generator/AD9833-waveform-generator.htm) - good project write-up
+* [Waveform Generation with AD9833, and SPI](http://hades.mech.northwestern.edu/index.php/Waveform_Generation_with_AD9833,_and_SPI) - some more good details
