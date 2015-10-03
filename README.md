@@ -21,10 +21,12 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 ## 147 Projects...
-Latest addition - [VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump) - test a voltage-doubling charge pump circuit based on a 555 timer.
+Latest addition - [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle) - run a basic waveform demo with an AD9833 module.
+
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
 | [AMFMRadioKit](./Electronics101/AMFMRadioKit)                                 | **RF**                          notes on an AM/FM radio kit build |
 | [AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **RF, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
 | [AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **RF, 555 Timer**               a simple 555-based AM transmitter |
