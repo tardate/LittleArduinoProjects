@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   viewBox="0 0 700 600"
+   width="0.7in"
+   height="0.6in"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="AD9833_Module_bb.svg">
+  <metadata
+     id="metadata571">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs569" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1009"
+     inkscape:window-height="550"
+     id="namedview567"
+     showgrid="false"
+     inkscape:zoom="4.3703701"
+     inkscape:cx="36"
+     inkscape:cy="27.000002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     id="breadboard"
+     gorn="0.2">
+    <g
+       id="icon"
+       gorn="0.2.0">
+      <path
+         d="M 0,0 0,270 0,600 700,600 700,0 0,0 z"
+         id="path12"
+         inkscape:connector-curvature="0"
+         style="fill:#014cb1;stroke:none" />
+      <g
+         transform="translate(275.921,152.362)"
+         id="g14">
+        <g
+           id="g16">
+          <g
+             id="g18">
+            <g
+               transform="matrix(0.5, 0, 0, 0.5, 62.0394, 73.8189)"
+               id="g20">
+              <g
+                 id="g22">
+                <g
+                   id="g24">
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="1"
+                     x="26.6377"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect26" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="2"
+                     x="52.2282"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect28" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="3"
+                     x="77.8187"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect30" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="4"
+                     x="103.409"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect32" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="5"
+                     x="129"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect34" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="6"
+                     x="154.59"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect36" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="7"
+                     x="180.181"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect38" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="8"
+                     x="205.771"
+                     fill="#8c8c8c"
+                     y="232.284"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect40" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="9"
+                     x="205.771"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect42" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="10"
+                     x="180.181"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect44" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="11"
+                     x="154.59"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect46" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="12"
+                     x="129"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect48" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="13"
+                     x="103.409"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect50" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="14"
+                     x="77.8187"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect52" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="15"
+                     x="52.2282"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect54" />
+                  <rect
+                     stroke-linecap="round"
+                     connectorname="16"
+                     x="26.6377"
+                     fill="#8c8c8c"
+                     y="0"
+                     stroke-width="0"
+                     width="15.748"
+                     stroke="none"
+                     height="62.9922"
+                     id="rect56" />
+                  <rect
+                     x="0"
+                     fill="#303030"
+                     y="45.2126"
+                     stroke-width="0"
+                     width="248.157"
+                     stroke="none"
+                     height="204.85"
+                     id="rect58" />
+                  <polygon
+                     fill="#1f1f1f"
+                     points="0,45.2126 248.157,45.2126 238.157,55.2126 10,55.2126"
+                     id="polygon60" />
+                  <polygon
+                     fill="#1f1f1f"
+                     points="0,250.063 248.157,250.063 238.157,240.063 10,240.063"
+                     id="polygon62" />
+                  <polygon
+                     fill="#000000"
+                     points="0,45.2126 0,250.063 10,240.063 10,55.2126"
+                     id="polygon64" />
+                  <polygon
+                     fill="#3d3d3d"
+                     points="248.157,45.2126 248.157,250.063 238.157,240.063 238.157,55.2126"
+                     id="polygon66" />
+                  <circle
+                     cx="30"
+                     cy="220.063"
+                     fill="#1f1f1f"
+                     stroke-width="0"
+                     stroke="none"
+                     r="10"
+                     id="circle68"
+                     d="m 40,220.063 c 0,5.52285 -4.477153,10 -10,10 -5.522847,0 -10,-4.47715 -10,-10 0,-5.52284 4.477153,-10 10,-10 5.522847,0 10,4.47716 10,10 z" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text
+         font-family="OCRA"
+         x="50"
+         fill="white"
+         y="168.375"
+         stroke-width="0"
+         text-anchor="start"
+         stroke="none"
+         font-size="65"
+         id="label"
+         gorn="0.2.0.2">AD9833</text>
+      <g
+         transform="translate(63.5,526.05)"
+         id="g71">
+        <g
+           id="g73">
+          <g
+             id="g75">
+            <g
+               transform="rotate(-90)"
+               id="g77">
+              <g
+                 id="g79">
+                <g
+                   id="g81">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text83">VCC</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(163.5,526.05)"
+         id="g99">
+        <g
+           id="g101">
+          <g
+             id="g103">
+            <g
+               transform="rotate(-90)"
+               id="g105">
+              <g
+                 id="g107">
+                <g
+                   id="g109">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text111">DGND</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(263.5,526.05)"
+         id="g127">
+        <g
+           id="g129">
+          <g
+             id="g131">
+            <g
+               transform="rotate(-90)"
+               id="g133">
+              <g
+                 id="g135">
+                <g
+                   id="g137">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text139">SDATA</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(363.5,526.05)"
+         id="g155">
+        <g
+           id="g157">
+          <g
+             id="g159">
+            <g
+               transform="rotate(-90)"
+               id="g161">
+              <g
+                 id="g163">
+                <g
+                   id="g165">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text167">SCLK</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(463.5,526.05)"
+         id="g183">
+        <g
+           id="g185">
+          <g
+             id="g187">
+            <g
+               transform="rotate(-90)"
+               id="g189">
+              <g
+                 id="g191">
+                <g
+                   id="g193">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text195">FSYNC</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(563.5,526.05)"
+         id="g211">
+        <g
+           id="g213">
+          <g
+             id="g215">
+            <g
+               transform="rotate(-90)"
+               id="g217">
+              <g
+                 id="g219">
+                <g
+                   id="g221">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text223">AGND</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(663.5,526.05)"
+         id="g239">
+        <g
+           id="g241">
+          <g
+             id="g243">
+            <g
+               transform="rotate(-90)"
+               id="g245">
+              <g
+                 id="g247">
+                <g
+                   id="g249">
+                  <text
+                     font-family="OCRA"
+                     x="0"
+                     fill="white"
+                     y="0"
+                     stroke-width="0"
+                     text-anchor="start"
+                     stroke="none"
+                     font-size="45"
+                     id="text251">OUT</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(34.035,534.05)"
+       id="g295">
+      <g
+         id="g297">
+        <g
+           id="g299">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector0pin"
+             height="31.9"
+             gorn="0.2.1.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect302" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon304" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon306" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon308" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon310" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(134.035,534.05)"
+       id="g329">
+      <g
+         id="g331">
+        <g
+           id="g333">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector1pin"
+             height="31.9"
+             gorn="0.2.3.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect336" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon338" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon340" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon342" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon344" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(234.035,534.05)"
+       id="g363">
+      <g
+         id="g365">
+        <g
+           id="g367">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector2pin"
+             height="31.9"
+             gorn="0.2.5.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect370" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon372" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon374" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon376" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon378" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(334.035,534.05)"
+       id="g397">
+      <g
+         id="g399">
+        <g
+           id="g401">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector3pin"
+             height="31.9"
+             gorn="0.2.7.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect404" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon406" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon408" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon410" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon412" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(434.035,534.05)"
+       id="g431">
+      <g
+         id="g433">
+        <g
+           id="g435">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector4pin"
+             height="31.9"
+             gorn="0.2.9.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect438" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon440" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon442" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon444" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon446" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(534.035,534.05)"
+       id="g465">
+      <g
+         id="g467">
+        <g
+           id="g469">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector5pin"
+             height="31.9"
+             gorn="0.2.11.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect472" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon474" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon476" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon478" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon480" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(634.035,534.05)"
+       id="g499">
+      <g
+         id="g501">
+        <g
+           id="g503">
+          <rect
+             x="0"
+             fill="#8D8C8C"
+             y="0"
+             width="31.93"
+             id="connector6pin"
+             height="31.9"
+             gorn="0.2.13.0.0.0" />
+          <rect
+             x="7.79153"
+             fill="#8C8663"
+             y="7.73544"
+             width="16.4442"
+             height="16.4152"
+             id="rect506" />
+          <polygon
+             fill="#B8AF82"
+             points="0,31.9,7.79153,24.1368,7.79153,6.97162,0,0"
+             id="polygon508" />
+          <polygon
+             fill="#80795B"
+             points="24.2079,7.76321,7.90264,7.76321,0,0,31.93,0"
+             id="polygon510" />
+          <polygon
+             fill="#5E5B43"
+             points="24.2079,24.1368,24.2079,7.76321,31.93,0,31.93,31.9"
+             id="polygon512" />
+          <polygon
+             fill="#9A916C"
+             points="0,31.9,7.87486,24.1368,24.2079,24.1368,31.93,31.9"
+             id="polygon514" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

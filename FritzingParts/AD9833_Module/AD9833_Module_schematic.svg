@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   viewBox="0 0 25.691598 20.189034"
+   width="91.033188"
+   height="71.53595"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="AD9833_Module_schematic.svg">
+  <metadata
+     id="metadata120">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs118" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="809"
+     inkscape:window-height="517"
+     id="namedview116"
+     showgrid="false"
+     inkscape:zoom="2.8815628"
+     inkscape:cx="54.440918"
+     inkscape:cy="30.472503"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="schematic"
+     gorn="0.1"
+     transform="translate(9.9253778e-4,0.03201619)">
+    <rect
+       x="5.2034702"
+       y="0.127"
+       width="20.32"
+       class="interior rect"
+       height="19.860001"
+       id="rect9"
+       style="fill:#ffffff;stroke:none" />
+    <text
+       x="15.3635"
+       y="10.7573"
+       font-size="1.49931"
+       class="text"
+       id="label"
+       gorn="0.1.1"
+       style="text-anchor:middle;fill:#000000;stroke:none;font-family:Droid Sans">AD9833</text>
+    <line
+       y2="19.987"
+       x1="5.2034702"
+       x2="5.2034702"
+       class="other"
+       y1="0.127"
+       id="line12"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round" />
+    <line
+       y2="19.987"
+       x1="5.2034702"
+       x2="25.5235"
+       class="other"
+       y1="19.987"
+       id="line14"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round" />
+    <line
+       y2="0.127"
+       x1="25.5235"
+       x2="25.5235"
+       class="other"
+       y1="19.987"
+       id="line16"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round" />
+    <line
+       y2="0.127"
+       x1="25.5235"
+       x2="5.2034702"
+       class="other"
+       y1="0.127"
+       id="line18"
+       style="stroke:#000000;stroke-width:0.3175;stroke-linecap:round" />
+    <line
+       y2="2.6670001"
+       x1="0.123472"
+       connectorname="VCC"
+       x2="5.2034702"
+       class="pin"
+       id="connector0pin"
+       gorn="0.1.6"
+       y1="2.6670001"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="2.6670001"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector0terminal"
+       height="9.9999997e-05"
+       gorn="0.1.7"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="2.2965801"
+       font-size="0.881944"
+       class="text"
+       id="text22"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">1</text>
+    <text
+       x="5.9443002"
+       y="2.91394"
+       font-size="1.23472"
+       class="text"
+       id="text24"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">VCC</text>
+    <line
+       y2="5.2069998"
+       x1="0.123472"
+       connectorname="DGND"
+       x2="5.2034702"
+       class="pin"
+       id="connector1pin"
+       gorn="0.1.10"
+       y1="5.2069998"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="5.2069998"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector1terminal"
+       height="9.9999997e-05"
+       gorn="0.1.11"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="4.8365798"
+       font-size="0.881944"
+       class="text"
+       id="text28"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">2</text>
+    <text
+       x="5.9443002"
+       y="5.4539399"
+       font-size="1.23472"
+       class="text"
+       id="text30"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">DGND</text>
+    <line
+       y2="7.7470002"
+       x1="0.123472"
+       connectorname="SDATA"
+       x2="5.2034702"
+       class="pin"
+       id="connector2pin"
+       gorn="0.1.14"
+       y1="7.7470002"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="7.7470002"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector2terminal"
+       height="9.9999997e-05"
+       gorn="0.1.15"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="7.3765802"
+       font-size="0.881944"
+       class="text"
+       id="text34"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">3</text>
+    <text
+       x="5.9443002"
+       y="7.9939399"
+       font-size="1.23472"
+       class="text"
+       id="text36"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">SDATA</text>
+    <line
+       y2="10.287"
+       x1="0.123472"
+       connectorname="SCLK"
+       x2="5.2034702"
+       class="pin"
+       id="connector3pin"
+       gorn="0.1.18"
+       y1="10.287"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="10.287"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector3terminal"
+       height="9.9999997e-05"
+       gorn="0.1.19"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="9.9165802"
+       font-size="0.881944"
+       class="text"
+       id="text40"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">4</text>
+    <text
+       x="5.9443002"
+       y="10.5339"
+       font-size="1.23472"
+       class="text"
+       id="text42"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">SCLK</text>
+    <line
+       y2="12.827"
+       x1="0.123472"
+       connectorname="FSYNC"
+       x2="5.2034702"
+       class="pin"
+       id="connector4pin"
+       gorn="0.1.22"
+       y1="12.827"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="12.827"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector4terminal"
+       height="9.9999997e-05"
+       gorn="0.1.23"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="12.4566"
+       font-size="0.881944"
+       class="text"
+       id="text46"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">5</text>
+    <text
+       x="5.9443002"
+       y="13.0739"
+       font-size="1.23472"
+       class="text"
+       id="text48"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">FSYNC</text>
+    <line
+       y2="15.367"
+       x1="0.123472"
+       connectorname="AGND"
+       x2="5.2034702"
+       class="pin"
+       id="connector5pin"
+       gorn="0.1.26"
+       y1="15.367"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="15.367"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector5terminal"
+       height="9.9999997e-05"
+       gorn="0.1.27"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="14.9966"
+       font-size="0.881944"
+       class="text"
+       id="text52"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">6</text>
+    <text
+       x="5.9443002"
+       y="15.6139"
+       font-size="1.23472"
+       class="text"
+       id="text54"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">AGND</text>
+    <line
+       y2="17.907"
+       x1="0.123472"
+       connectorname="OUT"
+       x2="5.2034702"
+       class="pin"
+       id="connector6pin"
+       gorn="0.1.30"
+       y1="17.907"
+       style="stroke:#787878;stroke-width:0.246944;stroke-linecap:round" />
+    <rect
+       x="0.123472"
+       y="17.907"
+       width="9.9999997e-05"
+       class="terminal"
+       id="connector6terminal"
+       height="9.9999997e-05"
+       gorn="0.1.31"
+       style="fill:none;stroke:none" />
+    <text
+       x="2.66347"
+       y="17.5366"
+       font-size="0.881944"
+       class="text"
+       id="text58"
+       style="text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">7</text>
+    <text
+       x="5.9443002"
+       y="18.1539"
+       font-size="1.23472"
+       class="text"
+       id="text60"
+       style="text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans">OUT</text>
+  </g>
+</svg>

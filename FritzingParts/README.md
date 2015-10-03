@@ -9,6 +9,7 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [74LS02 Quad 2-input NOR Gate](./74LS02)
 * [74LS122 Retriggerable Monostable Multivibrator](./74LS122)
 * [74LS75 Quad Latch](./74LS75)
+* [AD9833 Programmable Waveform Module](./AD9833_Module)
 * [LM324 Quad OpAmp](./LM324)
 * [LM386 Low Voltage Audio Power Amplifier](./LM386)
 * [LM3915 Dot/Bar Display Driver](./LM3915)
