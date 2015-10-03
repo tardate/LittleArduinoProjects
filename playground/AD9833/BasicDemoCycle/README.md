@@ -22,9 +22,9 @@ Conclusion:
 
 Here's the module, with pins attached:
 
-![processing trace](./assets/module_front.png?raw=true)
+![module front](./assets/module_front.jpg?raw=true)
 
-![processing trace](./assets/module_rear.png?raw=true)
+![module rear](./assets/module_rear.jpg?raw=true)
 
 The labeling of the pins is a bit unusual. Here's the pin definition, and how they connect to an Arduino Uno for hardware SPI:
 
@@ -58,9 +58,15 @@ it is redundant to wrap each command sequence in a transaction. But it is a good
 NB: many other scripts found on the net pre-date this syntax.
 
 It is running at very low frequencies in order to produce a visual demo. It sends the measure waveform to the serial port.
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
+[PlotNValues (a simple Processing sketch)](../../../processing/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
-Here's a sample trace:
+Here's a sample trace. It shows a few cycles of each waveform. From the left:
+* triangle wave
+* square wave (halved cycle time i.e. twice as fast)
+* sine wave
+* square wave (normal cycle time)
+
+Note that square waves are rail-to-rail, since they bypass the DAC. Other waveforms peak at 0.65V per the datasheet.
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
@@ -68,9 +74,12 @@ Here's a sample trace:
 
 A few quick measurements with a frequency counter gave very good results under a few MHz.
 But when I started pushing into the 6-12.5MHz realm, accuracy appeared to drop off markedly.
-The might be a measurement issues; I'll have to take a closer look at that with some better test equipment.
+This might be a measurement issue; I'll have to take a closer look at that with some better test equipment.
 
 ## Construction
+
+NB: I created a
+[custom Fritzing Part available here](../../../FritzingParts/AD9833_Module) for these diagrams.
 
 ![Breadboard](./assets/BasicDemoCycle_bb.jpg?raw=true)
 

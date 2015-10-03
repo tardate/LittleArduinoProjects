@@ -20,7 +20,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 147 Projects...
+## 148 Projects...
 Latest addition - [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle) - run a basic waveform demo with an AD9833 module.
 
 
