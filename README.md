@@ -1,6 +1,5 @@
 # 149 Little Arduino Projects
-
-* Latest addition - [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle) - run a basic waveform demo with an AD9833 module.
+> Latest addition:sparkles: [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle) - run a basic waveform demo with an AD9833 module
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
