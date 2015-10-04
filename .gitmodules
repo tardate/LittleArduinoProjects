@@ -28,3 +28,6 @@
 [submodule "libraries/Rotary"]
 	path = libraries/Rotary
 	url = https://github.com/brianlow/Rotary
+[submodule "libraries/u8glib"]
+	path = libraries/u8glib
+	url = https://github.com/olikraus/U8glib_Arduino

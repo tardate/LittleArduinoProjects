@@ -8,6 +8,7 @@ Some projects require additional libraries. For example:
 * nRF24L01+ projects generally use the [RF24](https://github.com/maniacbug/RF24) library
 * Packet Radio e.g. 433MHz projects generally use the [RadioHead](https://github.com/tardate/RadioHead) library. RadioHead is a successor the the [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/) library.
 * Monochrome OLED displays use the [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) library
+* Monochrome displays using the [u8glib](https://github.com/olikraus/U8glib_Arduino) library
 * AdaFruit display libraries may use the [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) library
 * LED matrix control with the [LedControl](https://github.com/wayoda/LedControl) library
 * Rotary Encoder input with the [Rotary](https://github.com/brianlow/Rotary) library
