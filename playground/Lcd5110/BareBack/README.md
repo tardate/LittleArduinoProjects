@@ -1,4 +1,4 @@
-# Lcd5110BareBack
+# Lcd5110/BareBack
 
 Test driving a Nokia 5110 LCD Display with an Arduino and the raw command set
 
@@ -20,13 +20,17 @@ A couple of observations:
 * it works fine with 5V logic connections
 * with 5V logic connections, there appears to be no need to connect Vcc, it works fine disconnected! In fact, some circuits that "do the right thing" and connect 3.3V supply to Vcc are not behaving as might be execpted. At least with my module, the Vcc is already taken up to 4.2+V by the login pins.
 
+This is the module I'm using:
+
+![Module Front](./assets/N5110_front.jpg?raw=true)
+
 ## Construction
 
-![The Breadboard](./assets/Lcd5110BareBack_bb.jpg?raw=true)
+![The Breadboard](./assets/BareBack_bb.jpg?raw=true)
 
-![The Schematic](./assets/Lcd5110BareBack_schematic.jpg?raw=true)
+![The Schematic](./assets/BareBack_schematic.jpg?raw=true)
 
-![The Build](./assets/Lcd5110BareBack_build.jpg?raw=true)
+![The Build](./assets/BareBack_build.jpg?raw=true)
 
 ## Credits and References
 * [Philips PCD8544 datasheet](http://eia.udg.edu/~forest/PCD8544_1.pdf)
