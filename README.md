@@ -1,4 +1,6 @@
-# Little Arduino Projects
+# 149 Little Arduino Projects
+
+* Latest addition - [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle) - run a basic waveform demo with an AD9833 module.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -20,9 +22,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## 149 Projects...
-Latest addition - [AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle) - run a basic waveform demo with an AD9833 module.
-
+## The Project Index
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
