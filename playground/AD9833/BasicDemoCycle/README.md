@@ -20,7 +20,7 @@ Conclusion:
 
 ### Module Interface
 
-Here's the module, with pins attached:
+Here's the module, with pins attached (with my imperfect soldering, so don't blame the manufacturer!):
 
 ![module front](./assets/module_front.jpg?raw=true)
 
@@ -38,7 +38,7 @@ The labeling of the pins is a bit unusual. Here's the pin definition, and how th
 | AGND   | analog ground         |                 |
 | OUT    | output signal         |                 |
 
-NB: the "analog ground" is internally linked to "digital ground" according to the circuit giagram for the module.
+NB: the "analog ground" is internally linked to "digital ground" according to the circuit diagram for the module.
 
 ### SPI Specifics
 
