@@ -16,6 +16,21 @@ With the lower and upper rails at 0V and 8.92V respectively and no output load:
 * output swings to 8.52V (high) when non-inverting input (IN+) is above inverting input (IN-)
 
 Next I put the circuit on a protoboard - see the layout details below.
+I've wired all the connection points to an 8-pin DIP socket that can be plugged into a breadboard,
+and provided pin headers for wiring directly to the board.
+The 8-pin DIP socket is wired in the same way as the LM741:
+
+| Pin | Connection                       |
+|-----|----------------------------------|
+| 1   | Offset Null (non-inverting side) |
+| 2   | Inverting input                  |
+| 3   | Non-inverting input              |
+| 4   | V-                               |
+| 5   | Offset Null (inverting side)     |
+| 6   | Output                           |
+| 7   | V+                               |
+| 8   | N/C                              |
+
 
 Some related projects to test the ML741 in various opamp topologies:
 * [Comparator](./Comparator)
