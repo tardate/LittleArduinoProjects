@@ -53,7 +53,7 @@ Some related projects to test the ML741 in various opamp topologies:
 
 ![Board Front](./assets/ML741_board_front.jpg?raw=true)
 
-![Board Rear](./assets/ML741_board_read.jpg?raw=true)
+![Board Rear](./assets/ML741_board_rear.jpg?raw=true)
 
 ## Credits and References
 * [XL741 Discrete 741 Op-Amp kit](http://wiki.evilmadscientist.com/XL741) by the Evil Mad Scientist
