@@ -26,6 +26,12 @@ For this circuit:
 
 ![The Schematic](./assets/Comparator_schematic.jpg?raw=true)
 
+### Breadboard Build
+
+![The Build](./assets/Comparator_bb_build.jpg?raw=true)
+
+### Protoboard Build
+
 ![The Build](./assets/Comparator_build.jpg?raw=true)
 
 ## Credits and References
