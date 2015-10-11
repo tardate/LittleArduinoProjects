@@ -13,7 +13,7 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 * [Electrical Engineering StackExchange](http://electronics.stackexchange.com/)
 * [Arduino Playground](http://playground.arduino.cc/)
 * [Arduino Cookbook (O'Reilly)](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
-* and other books from [my electronics bookshelf](http://www.bookjetty.com/pratalife/electronics)
+* and other books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 
