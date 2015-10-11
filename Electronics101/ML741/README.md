@@ -15,6 +15,9 @@ With the lower and upper rails at 0V and 8.92V respectively and no output load:
 * output swings to 1.21V (low) when non-inverting input (IN+) is below inverting input (IN-)
 * output swings to 8.52V (high) when non-inverting input (IN+) is above inverting input (IN-)
 
+I'm starting some related projects to test the ML741 in various opamp topologies:
+* [Comparator](./Comparator)
+
 ## Construction
 
 ![Breadboard](./assets/ML741_bb.jpg?raw=true)
