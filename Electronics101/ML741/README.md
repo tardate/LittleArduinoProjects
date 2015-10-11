@@ -1,6 +1,6 @@
 # ML741
 
-An LM741-style OpAmp built with discrete components
+The "Medium-Large 741" - an LM741-style OpAmp built with discrete components
 
 ## Notes
 
