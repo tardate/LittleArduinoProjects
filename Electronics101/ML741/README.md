@@ -35,6 +35,35 @@ The 8-pin DIP socket is wired in the same way as the LM741:
 Some related projects to test the ML741 in various opamp topologies:
 * [Comparator](./Comparator)
 
+### How Does it Work?
+
+The [Evil Mad Scientist](http://wiki.evilmadscientist.com/XL741) has an excellent and detailed description on how the 741 circuit works
+in their "Principles of Operation" document. I won't try to improve on it!
+
+So just to pluck out the salient points and add some more references:
+
+
+#### Differential Amplifier Stage
+* A fairly conventional "long-tailed pair" arrangement
+* See w2aew's excellent [#193: Back to Basics: the differential amplifier, aka long-tailed pair, diff-pair](https://youtu.be/mejPNuPAHBY) for chapeter and verse
+* offset connections rarely used in practice, but wiring a 10kΩ pot across them allows fine-tuning the balance
+
+
+#### Bias Generator
+* provides reference current for differential amplifier using a [Widlar current source](https://en.wikipedia.org/wiki/Widlar_current_source) arrangement
+* current mirror feeds the gain stage
+* another excellent tutorial from w2aew: [#190: Back to Basics: Transistor Current Sources and Mirrors](https://youtu.be/xR0RfmmRhDw)
+
+#### Gain Stage
+* multiplies the signal from the differential amplifier using Darlington configuration
+* [Miller capacitor](https://en.wikipedia.org/wiki/Miller_effect) stabilizes the behavior of the op-amp at the cost of some gain
+* Vbe generator to avoid cross-over distortion in output from gain stage
+* Yet another topical video from w2aew: [#198: Basics of a Vbe Multiplier: what it is, how it works & where it is used](https://youtu.be/Obh_PIC2qqo)
+
+#### Output Stage
+* Q14/Q20two transistors configured as emitter followers to either source or sink current
+* Q15/R9 limits the current that can be sourced
+
 ## Construction
 
 ![Breadboard](./assets/ML741_bb.jpg?raw=true)
