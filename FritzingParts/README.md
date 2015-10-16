@@ -37,3 +37,4 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [rwaldron/fritzing-components](https://github.com/rwaldron/fritzing-components)
 * [SFE Fritzing parts](https://github.com/sparkfun/Fritzing_Parts)
 * [una1veritas/EagleDocs](https://github.com/una1veritas/EagleDocs) - Eagle and Fritzing sources
+* [ESP8266 parts](https://github.com/ydonnelly/ESP8266_fritzing)
