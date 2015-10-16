@@ -6,6 +6,7 @@ This is just a place where I'm recording custom Fritzing parts that I'm using fo
 
 These are new parts I've created because I wasn't able to find an existing alternative:
 
+* [AMS1117 SOT-223 Voltage Regulator on a PCB module](./AMS1117)
 * [74LS02 Quad 2-input NOR Gate](./74LS02)
 * [74LS122 Retriggerable Monostable Multivibrator](./74LS122)
 * [74LS75 Quad Latch](./74LS75)
