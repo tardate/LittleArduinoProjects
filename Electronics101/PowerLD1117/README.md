@@ -13,11 +13,14 @@ Although I can't find a datasheet that matches these markings exactly, I figure:
 * 33 = 3.3V
 * D? = pin out is (from left front): Vin, Ground, Vout
 
-Some measurements, with a 10kΩ output load:
+Some DMM measurements, with a 10kΩ output load:
 
-| Vin   | Vout  |
-|-------|-------|
-| 5.10V | 3.30V |
+| Vin   | Iin    | Vout  | Iout  | Pin:Pout        |
+|-------|--------|-------|-------|-----------------|
+| 5.10V | 2.47mA | 3.30V | 329µA | 12.6mW : 1.09mW |
+
+The inefficiency of a linear regulator is clear to see - we're dissipating 11.51mW in the 1117, far more power than is actually delivered to the load.
+But they're convenient!
 
 ## Construction
 

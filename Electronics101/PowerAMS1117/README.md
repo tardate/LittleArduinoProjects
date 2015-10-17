@@ -21,9 +21,9 @@ Circuit recommendations:
 
 Some DMM measurements, with a 10kΩ output load:
 
-| Vin   | Iin    | Vout  | Iout  | Pin:Pout         |
-|-------|--------|-------|-------|------------------|
-| 5.09V | 2.68mA | 3.29V | 333µA | 13.64 mW : 1.1mW |
+| Vin   | Iin    | Vout  | Iout  | Pin:Pout        |
+|-------|--------|-------|-------|-----------------|
+| 5.09V | 2.68mA | 3.29V | 333µA | 13.64mW : 1.1mW |
 
 The inefficiency of a linear regulator is clear to see - we're dissipating 12.74mW in the 1117, far more power than is actually delivered to the load.
 But they're convenient!
