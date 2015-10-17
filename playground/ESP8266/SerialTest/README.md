@@ -234,6 +234,7 @@ NB: diagrams drawn with the custom parts from [ESP8266_fritzing](https://github.
 
 ## Credits and References
 * [ESP8266 English Datasheet](https://nurdspace.nl/File:ESP8266_Specifications_English.pdf)
+* [LD1117 datahseet](http://pdf1.alldatasheet.com/datasheet-pdf/view/173710/UTC/LD1117AL-15-TA3-A-R.html)
 * [ESP8266 Tutorial AT Commands](https://youtu.be/uznq8W9sOKQ)
 * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 * [electrodragon ESP8266 reference](http://www.electrodragon.com/w/ESP8266)
