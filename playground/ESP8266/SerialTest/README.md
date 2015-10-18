@@ -19,11 +19,11 @@ via a USB-serial adapter.
 
 ### ESP8266 Pin Layout and Usage
 
-For my module, with the pins front and centre, the pin assignments are as follows:
+For my module (ESP-01), with the pins front and centre, the pin assignments are as follows:
 
 | Left | -     | -     | Right|
 |------|-------|-------|------|
-| GND  | GPIO2 | GPIO1 | URXD |
+| GND  | GPIO2 | GPIO0 | URXD |
 | UTXD | CH_PD | RST   | VCC  |
 
 Pin usage:
@@ -36,7 +36,7 @@ Pin usage:
 | URXD  | serial receive |
 | CH_PD | chip select, required to be pulled high |
 | RST   | pull low to reset |
-| GPIO1 | aka GPIO0. Some have [reported issues](https://github.com/esp8266/Arduino/issues/244) if not pulled high with 10kΩ |
+| GPIO0 | sometimes labelled GPIO1? There are [reported issues](https://github.com/esp8266/Arduino/issues/244) if not pulled high with 10kΩ |
 | GPIO2 | other I/O port given a module pinout (the chip itself has more GPIO pins) |
 
 My first job was to bodge together a breadboard adapter for the ESP8266 module -
