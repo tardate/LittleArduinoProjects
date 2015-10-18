@@ -1,6 +1,6 @@
 {
     "id": "#344",
-    "name": "ESP8266/micropython/GettingStarted",
+    "name": "ESP8266 GettingStarted with MicroPython",
     "description": "getting MicroPython up and running with an ESP-01 ESP8266",
     "categories": "ESP8266, MicroPython",
     "relative_path": "ESP8266/micropython/GettingStarted",

@@ -1,7 +1,8 @@
-# #154 ESP8266/SerialTest
+# #154 ESP8266 SerialTest
 
 First test of an ESP8266 module - serial communication to the SoC
 
+![The Build](./assets/SerialTest_build.jpg?raw=true)
 
 ## Notes
 
@@ -42,8 +43,6 @@ Pin usage:
 | GPIO0 | pull low to enter flash mode. There are [reported issues](https://github.com/esp8266/Arduino/issues/244) if not pulled high with e.g 10kΩ |
 | GPIO2 | other I/O port given a module pinout (the chip itself has more GPIO pins) |
 
-
-
 My first job was to bodge together a breadboard adapter for the ESP8266 module -
 its interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug directly into a breadboard.
 
@@ -55,15 +54,12 @@ I'm using a CH340G USB adapter that I
 [got along with an Arduino mini](https://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html).
 It's pretty neat in that it has a 5V/3.3V selector on the adapter, however I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they will still be 5V.
 
-
 When connecting the USB-Serial thru to to the ESP8266 module, we need to cross-over connections of course:
 
 | USB-Serial | ESP8266   |
 |------------|-----------|
 | RXD        | UTXD      |
 | TXD        | URXD      |
-
-
 
 ### Power
 
@@ -77,7 +73,7 @@ I ran some tests trying to drive the ESP8266 with power directly from the CH340G
 and while it did work, it was unreliable. So the final circuit I'm using here has a separate 3.3V supply using an LM1117
 that can provide ample power.
 
-### To level-shift or not? That is a good question..
+### To level-shift or not? That is a good question
 
 While the ESP8266 is a 3.3V circuit, it does seem to work fine with 5V TX/RX signals.
 However in the final circuit I'm using here, I decided to not take any chances, so I'm level-shifting the
@@ -86,6 +82,7 @@ However in the final circuit I'm using here, I decided to not take any chances, 
 ## First Tests
 
 Powering up:
+
 * connect the CH340G USB adapter
 * fire up a terminal program set for 9600 baud with CR/LF (I'm using the serial console in the Arduino IDE)
 * turn on the 3.3V external power supply to the ESP8266
@@ -99,10 +96,11 @@ I'm mainly using the
 and [esp8266-wiki](https://github.com/esp8266/esp8266-wiki/wiki/at_0.9.1)
 AT command references for the following tests..
 
-### Hello!
+### Hello
 
 (AT), reset (AT+RST) and show software and SDK version (AT+GMR)..
-```
+
+```sh
 [Vendor:www.ai-thinker.com Version:0.9.2.4]
 
 ready
@@ -122,11 +120,12 @@ AT+GMR
 OK
 ```
 
-### Connect to an Access Point..
+### Connect to an Access Point
+
 ..list the access points we can see (AT+CWLAP), and join (AT+CWJAP).
 Test to see if we are still joined after a reset: yes.
 
-```
+```sh
 AT+CWLAP
 +CWLAP:(3,"saiaadya",-91,"54:be:f7:70:1e:9f",1)
 +CWLAP:(4,"SINGTEL-41AC",-88,"00:26:75:f1:41:ad",1)
@@ -177,9 +176,9 @@ OK
 
 ### GET a web page
 
-Start a client request and get the time from http://www.timeapi.org/utc/now
+Start a client request and get the time from <http://www.timeapi.org/utc/now>
 
-```
+```sh
 AT+CWMODE?
 +CWMODE:1
 
@@ -218,7 +217,8 @@ OK
 ### Disconnect from the access point
 
 Once disconnected, `AT+CWJAP?` returns an error:
-```
+
+```sh
 AT+CWQAP
 
 OK
@@ -247,4 +247,4 @@ NB: diagrams drawn with the custom parts from [ESP8266_fritzing](https://github.
 * [ESP8266 Community Forum](http://www.esp8266.com/)
 * [nurdspace AT command reference](https://nurdspace.nl/ESP8266#AT_Commands)
 * [Arduino Wifi - ESP8266: Schematic and Getting Started Code](https://www.youtube.com/watch?v=ayF4Oymf08k) - David Watts/youtube
-* [LEAP#134 BidirectionalLevelShifterModule](../../Electronics101/BidirectionalLevelShifterModule)
+* [LEAP#134 BidirectionalLevelShifterModule](https://leap.tardate.com/electronics101/bidirectionallevelshiftermodule/)

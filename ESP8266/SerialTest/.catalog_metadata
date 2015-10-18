@@ -1,6 +1,6 @@
 {
     "id": "#154",
-    "name": "ESP8266/SerialTest",
+    "name": "ESP8266 SerialTest",
     "description": "first test of an ESP8266 module - serial communication to the SoC",
     "categories": "ESP8266",
     "relative_path": "ESP8266/SerialTest",
