@@ -26,6 +26,8 @@ For my module (ESP-01), with the pins front and centre, the pin assignments are 
 | GND  | GPIO2 | GPIO0 | URXD |
 | UTXD | CH_PD | RST   | VCC  |
 
+![pinout](./assets/esp8266_pinout.png?raw=true)
+
 Pin usage:
 
 | Pin   | Usage/notes |
