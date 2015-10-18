@@ -42,11 +42,13 @@ Pin usage:
 My first job was to bodge together a breadboard adapter for the ESP8266 module -
 it's interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug directly into a breadboard.
 
+![module](./assets/SerialTest_module.jpg?raw=true)
+
 ### USB-Serial
 
 I'm using a CH340G USB adapter that I
 [got along with an Arduino mini](http://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html).
-It's pretty neat in that it has a 5V/3.3V selector on the adapter, how I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they will still be 5V.
+It's pretty neat in that it has a 5V/3.3V selector on the adapter, however I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they will still be 5V.
 
 
 When connecting the USB-Serial thru to to the ESP8266 module, we need to cross-over connections of course:
@@ -115,9 +117,9 @@ AT+GMR
 OK
 ```
 
-### Connect ot an Access Point..
+### Connect to an Access Point..
 ..list the access points we can see (AT+CWLAP), and join (AT+CWJAP).
-Test to see if we are still joined after a rest (yes!)
+Test to see if we are still joined after a reset: yes.
 
 ```
 AT+CWLAP
@@ -162,9 +164,7 @@ AT+RST
 [Vendor:www.ai-thinker.com Version:0.9.2.4]
 
 ready
-
 AT+CWJAP?
-
 +CWJAP:"Sunshine"
 
 OK
