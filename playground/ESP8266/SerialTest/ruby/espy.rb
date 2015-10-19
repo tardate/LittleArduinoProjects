@@ -106,10 +106,7 @@ class EspyClient
             unfinshed_line ||= ''
             unfinshed_line << line
           else
-            if unfinshed_line
-              line = unfinshed_line + line
-              unfinshed_line = nil
-            end
+            line, unfinshed_line = unfinshed_line + line, nil if unfinshed_line
             memo << line
             yield line if block_given?
           end
@@ -153,8 +150,9 @@ Where cmd is one of:
 
 Example:
   #{$0} /dev/tty.wchusbserial14540 status
-  #{$0} /dev/tty.wchusbserial14540:9600 ls
   #{$0} /dev/tty.wchusbserial14540:115200 ls
+  #{$0} /dev/tty.wchusbserial14540:9600 join MySSID mypassword
+  #{$0} /dev/tty.wchusbserial14540 get http://www.timeapi.org/utc/now
 
   EOS
 end
