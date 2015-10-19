@@ -32,3 +32,4 @@ This circuit is a simple demonstration of a switch in the 5V circuit controlling
 * [Philips Application Note AN97055](http://cdn.sparkfun.com/tutorialimages/BD-LogicLevelConverter/an97055.pdf)
 * [Bi-Directional Logic Level Converter Hookup Guide](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide) - excellent resource from sparkfun
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [I2C bi-directional level shifter](http://playground.arduino.cc/Main/I2CBi-directionalLevelShifter) - some good Arduino-oriented notes
