@@ -53,3 +53,4 @@ Here's a sample trace:
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC)
 * [Download Processing](https://www.processing.org/download/)
+* [#216: Back to Basics: 555 based monostable multivibrator | 555 tutorial](https://youtu.be/MbWc70ZzTlI) - another great video from w2aew that tells you all you ever wanted to know about 555 monostables
