@@ -10,24 +10,26 @@ In the end my decision boiled down to two in a similar price range:
 * Rigol DS1074Z - 70MHz 4-channel scope
 
 It really was a balance between the brand value of Rigol and the excellent communications interfaces of the DS1074Z,
-compared to an unbeatable price and set of features in the Hantek MSO5074FG, but without the communications interfaces.
+compared to an unbeatable price and set of features in the Hantek MSO5074FG (but without the range of communications interfaces).
 In the end I decided to take a bet on the Hantek.
 
 The MSO5074FG is in the [Hantek MSO5054F(G) range](http://www.hantek.com/en/ProductDetail_3_127.html) - basically the same specs
 but with increased bandwidth.
 
-I was concerned at first by the fact the the product is not listed on http://www.hantek.com.
-I was very pleasantly surprised when emails to both Hantek and the [seller on aliexpress](http://www.aliexpress.com/store/100653)
+I was concerned at first by the fact the the product is not listed on http://www.hantek.com,
+but very pleasantly surprised when emails to both Hantek and the [seller on aliexpress](http://www.aliexpress.com/store/100653)
 were answered within hours, with the explanation that the MSO5074FG is not marketed internationally (yet) and so not listed on
 the English web site.
 
 ### Unboxing and First Impressions
 
 Not disappointed! With DHL shipping, I had it in my hands within a week. All arrived to spec, nothing missing and no damage.
-I even had an email from the seller with a picture of the benchtest they performed before shipping.
+I even had an email from the seller with a picture of the benchtest they performed prior to shipping.
+
+First thoughts?
 
 * build quality is quite impressive
-* knobs and buttons all have firm positive feel
+* knobs and buttons all have a firm positive feel
 * no obvious issues such as misalignment of labels or connectors with the faceplate
 
 A CD comes with the product, but I believe nothing that you cannot also download from the
@@ -62,7 +64,10 @@ Unfortunately I still haven't figured out how to take the screenshot without the
 ### Conclusion .. For Now
 
 OK, I've barely started to scratch the surface, and have yet to try anything that will really push the scope's capabilities.
-But it will definitely start popping up in the little projects I add to this collection.
+As I learn more or run into issues, I'll probably update my notes here.
+
+But so far I'm a very happy camper!
+It will definitely start popping up as a tool used in the little projects I add to this collection.
 
 ## Credits and References
 * [Hantek MSO5074FG listing on aliexpress](http://www.aliexpress.com/item/High-quality-Hantek-MSO5074FG-70Mhz-4-Channel-Oscilloscope-8-Channel-Logic-Analyzer-25MHz-Arb-Waveform-Generator/1596199238.html) from seller [Shenzhen Laesent Technology Co., Ltd.](http://www.aliexpress.com/store/100653)
