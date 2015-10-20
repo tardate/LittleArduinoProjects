@@ -1,4 +1,4 @@
-# 155 Little Arduino Projects
+# 156 Little Arduino Projects
 > Latest addition:sparkles: [ESP8266/SerialTest/ruby](./playground/ESP8266/SerialTest/ruby) - exercising ESP8266 serial communications with Ruby
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -102,6 +102,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [Monostable122](./Electronics101/Monostable122)                               | **74xx TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [MonostablePulseExtender](./playground/MonostablePulseExtender)               | **74xx TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
 | [MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
+| [MSO5074FG_unboxing](./Electronics101/MSO5074FG_unboxing)                     | **Tools, Test Equipment**       unboxing and first tests of a Hantek MSO5074FG oscilloscope |
 | [NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [NOR7402](./Electronics101/NOR7402)                                           | **74xx TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
 | [NORGateOscillator](./Electronics101/NORGateOscillator)                       | **74xx TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |
