@@ -73,9 +73,11 @@ Scope connections
 * UA741CN distorting the duty cycle
 
 ML741:
+
 ![ML741_5kHz](./assets/ML741_5kHz.gif?raw=true)
 
 UA741CN:
+
 ![UA741CN_5kHz](./assets/UA741CN_5kHz.gif?raw=true)
 
 ### At 20kHz
@@ -85,11 +87,16 @@ UA741CN:
 * UA741CN distorting the duty cycle to the point that time low is negligible
 
 ML741:
+
 ![ML741_20kHz](./assets/ML741_20kHz.gif?raw=true)
 
 UA741CN:
+
 ![UA741CN_20kHz](./assets/UA741CN_20kHz.gif?raw=true)
 
+Measurements in action...
+
+![probe city](./assets/Comparator_probe_city.jpg?raw=true)
 
 ## Credits and References
 * [ML741](../) - the ML741 discrete component project
