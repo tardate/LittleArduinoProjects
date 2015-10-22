@@ -20,6 +20,8 @@ For this circuit:
 * the non-inverting input is set to VCC/2 with a 10kΩ/10kΩ voltage divider.
 * the inverting input is from the wiper of a 10kΩ pot wired across the power rails
 
+See below for some more test results comparing the ML741 with a standard 741 chip.
+
 ## Construction
 
 ![Breadboard](./assets/Comparator_bb.jpg?raw=true)
@@ -34,8 +36,48 @@ For this circuit:
 
 ![The Build](./assets/Comparator_build.jpg?raw=true)
 
+## ML741 v "real" 741 Test
+
+Here are some results comparing the behaviour of a standard UA741CN chip with the ML741 (protoboard version).
+
+Setup:
+* power is 5V single rail, i.e. V- = GND
+* inverting input is fed a ramp wave 2Vpp with 2V DC offset
+* non-inverting input fixed at VCC/2 with a 10kΩ/10kΩ voltage divider
+
+Scope connections
+* CH1: inverting input
+* CH2: output
+* CH2: non-inverting input
+
+### At 5kHz
+
+* ML741 output voltage swings are closer to the rails than the UA741CN
+* ML741 seems to have slightly better response time
+* UA741CN distorting the duty cycle
+
+ML741:
+![ML741_5kHz](./assets/ML741_5kHz.gif?raw=true)
+
+UA741CN:
+![UA741CN_5kHz](./assets/UA741CN_5kHz.gif?raw=true)
+
+### At 20kHz
+
+* both struggling to keep up
+* ML741 still delivering positive output swings, although distorted
+* UA741CN distorting the duty cycle to the point that time low is negligible
+
+ML741:
+![ML741_20kHz](./assets/ML741_20kHz.gif?raw=true)
+
+UA741CN:
+![UA741CN_20kHz](./assets/UA741CN_20kHz.gif?raw=true)
+
+
 ## Credits and References
 * [ML741](../) - the ML741 discrete component project
+* [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
 * [Comparator](https://en.wikipedia.org/wiki/Comparator) - wikipedia
 * [The Op-amp Comparator](http://www.electronics-tutorials.ws/opamp/op-amp-comparator.html) - electronics-tutorials
 
