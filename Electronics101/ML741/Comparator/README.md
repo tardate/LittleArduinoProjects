@@ -5,16 +5,30 @@ Test a comparator circuit with the ML741 discrete component opamp
 ## Notes
 
 This is a demonstration of a comparator circuit using the [ML741](../) discrete component opamp.
-The general definition of a comparator is to swing output from 0 to 1 based on the comparison of the inverting and non-inverting input:
+The general operation of a comparator is to swing output from 0 to 1 based on the comparison of the inverting and non-inverting input.
+
+![Op-Amp_Comparator](https://upload.wikimedia.org/wikipedia/commons/0/0d/Op-Amp_Comparator.svg)
 
 | Vout | When          |
 |------|---------------|
 | 0    | V1(+) < V2(-) |
 | 1    | V1(+) > V2(-) |
 
-![Op-Amp_Comparator](https://upload.wikimedia.org/wikipedia/commons/0/0d/Op-Amp_Comparator.svg)
+### How it works
 
-So far, I've built the ML741 circuit on a breadboard, and the basic comparator test works fine.
+Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
+
+In the comparator configuration, when the non-inverting input rises above the inverting input,
+the output will rise to offset the differential.
+But since there is no feedback loop, that fails miserably and the output fast ends up hard on it's upper rail.
+
+Conversely, when the non-inverting input falls below the inverting input, the output swings low as the op-amp
+attempts to balance the input.
+
+## Construction
+
+I first built the ML741 circuit on a breadboard, and the basic comparator test works fine.
+Subsequently I've put the circuit on a protoboard/veroboard, and that's what I'm using for later tests.
 With the lower and upper rails at 0V and 8.92V respectively and no output load:
 * output swings to 1.21V (low) when non-inverting input (IN+) is below inverting input (IN-)
 * output swings to 8.52V (high) when non-inverting input (IN+) is above inverting input (IN-)
@@ -25,8 +39,6 @@ For this circuit:
 * the inverting input is from the wiper of a 10kΩ pot wired across the power rails
 
 See below for some more test results comparing the ML741 with a standard 741 chip.
-
-## Construction
 
 ![Breadboard](./assets/Comparator_bb.jpg?raw=true)
 
