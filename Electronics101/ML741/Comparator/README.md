@@ -10,6 +10,8 @@ The general definition of a comparator is to swing output from 0 to 1 based on t
     Vo = 0, V+ < V-
     Vo = 1, V+ > V-
 
+![Op-Amp_Comparator](https://upload.wikimedia.org/wikipedia/commons/0/0d/Op-Amp_Comparator.svg)
+
 So far, I've built the ML741 circuit on a breadboard, and the basic comparator test works fine.
 With the lower and upper rails at 0V and 8.92V respectively and no output load:
 * output swings to 1.21V (low) when non-inverting input (IN+) is below inverting input (IN-)
