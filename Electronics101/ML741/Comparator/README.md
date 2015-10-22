@@ -7,8 +7,10 @@ Test a comparator circuit with the ML741 discrete component opamp
 This is a demonstration of a comparator circuit using the [ML741](../) discrete component opamp.
 The general definition of a comparator is to swing output from 0 to 1 based on the comparison of the inverting and non-inverting input:
 
-    Vo = 0, V+ < V-
-    Vo = 1, V+ > V-
+| Vout | When          |
+|------|---------------|
+| 0    | V1(+) < V2(-) |
+| 1    | V1(+) > V2(-) |
 
 ![Op-Amp_Comparator](https://upload.wikimedia.org/wikipedia/commons/0/0d/Op-Amp_Comparator.svg)
 
