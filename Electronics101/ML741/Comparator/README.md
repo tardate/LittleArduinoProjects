@@ -58,8 +58,9 @@ Here are some results comparing the behaviour of a standard UA741CN chip with th
 
 Setup:
 * power is 5V single rail, i.e. V- = GND
-* inverting input is fed a ramp wave 2Vpp with 2V DC offset
 * non-inverting input fixed at VCC/2 with a 10kΩ/10kΩ voltage divider
+* inverting input is fed a ramp wave 2Vpp with 2V DC offset (with a 1kΩ resistor in series for redundant protection)
+* the function generator ramp wave input replaces the manual 10kΩ pot in the schematic above
 
 Scope connections
 * CH1: inverting input
