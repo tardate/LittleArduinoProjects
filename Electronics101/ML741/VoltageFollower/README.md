@@ -38,14 +38,15 @@ Here are some results comparing the behaviour of a standard UA741CN chip with th
 
 Setup:
 * power is 5V single rail, i.e. V- = GND
-* non-inverting input is fed a sine wave 1Vpp with 2.5V DC offset
+* non-inverting input is fed a sine wave 1Vpp with 2.5V DC offset (with a 1kΩ resistor in series for redundant protection)
+* the function generator sine wave input replaces the manual 10kΩ pot in the schematic above
 
 Scope connections
 * CH1: non-inverting input
 * CH2: output/inverting input
 
 I've purposely driven the input signal such that it clips the lower output rail of both the ML741 and UA741CN,
-because thigns get interesting around the rails.
+because things get interesting around the rails.
 
 ### At 20kHz
 
