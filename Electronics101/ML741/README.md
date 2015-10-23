@@ -31,6 +31,8 @@ The 8-pin DIP socket is wired in the same way as the LM741:
 | 7   | V+                               |
 | 8   | N/C                              |
 
+![741DIP8](./assets/741DIP8.png?raw=true)
+
 
 Some related projects to test the ML741 in various opamp topologies:
 * [Comparator](./Comparator)
