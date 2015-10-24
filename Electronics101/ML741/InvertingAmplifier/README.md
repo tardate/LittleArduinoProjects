@@ -1,14 +1,15 @@
-# ML741/Inverter
+# ML741/InvertingAmplifier
 
-Test an inverter circuit using the ML741 discrete component opamp
+Test an inverting amplifier circuit using the ML741 discrete component opamp
 
 ## Notes
 
-This is a demonstration of an inverter/inverting buffer circuit using the [ML741](../) discrete component opamp.
-The general operation of the circuit is for the output to follow the inverse of the inverting input.
-This is a special case of the general inverting amplifier configuration with gain set to -1, i.e.
+This is a demonstration of an inverting amplifier circuit using the [ML741](../) discrete component opamp.
 
-    Vout = -Vin
+The inverting amplifier is a generalised case of the basic [Inverter](../Inverter) circuit, but with an arbitrary gain
+determined by the input and feedback resistor selection:
+
+    Vout = - Rf/Rin * Vin
     Rf = Rin
 
 ![Op-Amp_Inverting_Amplifier](https://upload.wikimedia.org/wikipedia/commons/4/41/Op-Amp_Inverting_Amplifier.svg)
@@ -17,9 +18,8 @@ This is a special case of the general inverting amplifier configuration with gai
 
 Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
 
-In the inverter/inverting amplifier configuration, the inverting input is at the midpoint of the Rin:Rf voltage divider.
-Hence the op amp achieves inverting/non-inverting input equilibrium when Vout = -Vin.
-
+In the inverter/inverting amplifier configuration, the inverting input is at the inflexion point of the Rin:Rf voltage divider.
+Hence the op amp achieves inverting/non-inverting input equilibrium when `Vout = - Rf/Rin * Vin`.
 
 ## Construction
 
@@ -28,13 +28,15 @@ In this circuit, I am using a single rail supply (V- = GND) instead of the "conv
 For this reason, the non-inverting input is pegged to V+/2 with a voltage divider.
 In a dual rail configuration, V+/2 is usually "ground".
 
-![Breadboard](./assets/Inverter_bb.jpg?raw=true)
+The breadboard build has a fixed gain of
+[2](http://www.wolframalpha.com/input/?i=20k%CE%A9%2F10k%CE%A9)
+but of course the feedback resistor can be replaced with a pot for manual variable gain.
 
-![The Schematic](./assets/Inverter_schematic.jpg?raw=true)
+![Breadboard](./assets/InvertingAmplifier_bb.jpg?raw=true)
 
-ML741 on the right, and a standard UA741CN on the left waiting to be put to the test..
+![The Schematic](./assets/InvertingAmplifier_schematic.jpg?raw=true)
 
-![The Build](./assets/Inverter_build.jpg?raw=true)
+![The Build](./assets/InvertingAmplifier_build.jpg?raw=true)
 
 
 ## ML741 v "real" 741 Test
@@ -43,7 +45,7 @@ Here are some results comparing the behaviour of a standard UA741CN chip with th
 
 Setup:
 * power is 5V single rail, i.e. V- = GND
-* non-inverting input is fed a sine wave 1Vpp with 2.5V DC offset
+* non-inverting input is fed a sine wave 200mVpp with 2.5V DC offset
 * the function generator sine wave input replaces the manual 10kΩ input pot in the schematic above (at node FG)
 
 Scope connections
@@ -53,37 +55,26 @@ Scope connections
 I've purposely driven the input signal such that it clips the lower output rail of both the ML741 and UA741CN,
 because things get interesting around the rails.
 
-### At 1kHz
+### At 10kHz
 
-* ML741 is performing nicely
-* UA741CN hitting the lower rail at ~1.9v
-
-ML741:
-
-![ML741_1kHz](./assets/ML741_1kHz.gif?raw=true)
-
-UA741CN:
-
-![UA741CN_1kHz](./assets/UA741CN_1kHz.gif?raw=true)
-
-### At 40kHz
-
-* ML741 starting to distort at the lower end
-* UA741CN still performing similar to 1kHz
+* very slight phase shift for both opamps
+* UA741CN is delivering almost exactly -2x gain
+* ML741 is also generating -2x gain, but the output is DC shifted up by ~20mV
 
 ML741:
 
-![ML741_40kHz](./assets/ML741_40kHz.gif?raw=true)
+![ML741_10kHz](./assets/ML741_10kHz.gif?raw=true)
 
 UA741CN:
 
-![UA741CN_40kHz](./assets/UA741CN_40kHz.gif?raw=true)
+![UA741CN_10kHz](./assets/UA741CN_10kHz.gif?raw=true)
 
 
 ### At 100kHz
 
-Both ML741 and UA741CN exhibiting similar distortion patterns:
-waveforms have lost definition, are phase-shifted and attenuated
+* phase shift has increased for both opamps
+* output has started to attenuate. By 150kHz or so, already hitting unit gain
+* ML741 output remains pulled higher by ~20mV
 
 ML741:
 
@@ -96,7 +87,7 @@ UA741CN:
 
 Measurements in action...
 
-![Inverter_benchtest](./assets/Inverter_benchtest.jpg?raw=true)
+![Inverter_benchtest](./assets/InvertingAmplifier_benchtest.jpg?raw=true)
 
 ## Credits and References
 * [ML741](../) - the ML741 discrete component project
