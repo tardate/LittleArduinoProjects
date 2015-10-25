@@ -1,5 +1,8 @@
-# 160 Little Arduino Projects
-> Latest addition:sparkles: [LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer) - demonstrate load-independance of an LM324 buffer and signal splitter
+# 161 Little Arduino Projects
+> Latest addition:sparkles: [ML741/NonInvertingAmplifier](./Electronics101/ML741/NonInvertingAmplifier) - test a non-inverting amplifier circuit using the ML741 discrete component opamp
+
+
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -101,6 +104,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [ML741/Comparator](./Electronics101/ML741/Comparator)                         | **OpAmp**                       test a comparator circuit with the ML741 discrete component opamp |
 | [ML741/Inverter](./Electronics101/ML741/Inverter)                             | **OpAmp**                       test an inverter circuit using the ML741 discrete component opamp |
 | [ML741/InvertingAmplifier](./Electronics101/ML741/InvertingAmplifier)         | **OpAmp**                       test an inverting amplifier circuit using the ML741 discrete component opamp |
+| [ML741/NonInvertingAmplifier](./Electronics101/ML741/NonInvertingAmplifier)   | **OpAmp**                       test a non-inverting amplifier circuit using the ML741 discrete component opamp |
 | [ML741/VoltageFollower](./Electronics101/ML741/VoltageFollower)               | **OpAmp**                       test a voltage follower/buffer circuit with the ML741 discrete component opamp |
 | [Monostable](./Electronics101/555Timer/Monostable)                            | **555 Timer**                   basic monostable mode using an Arduino and processing to plot the output |
 | [Monostable122](./Electronics101/Monostable122)                               | **74xx TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
