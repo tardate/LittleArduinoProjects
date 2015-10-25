@@ -1,5 +1,5 @@
-# 159 Little Arduino Projects
-> Latest addition:sparkles: [ML741/InvertingAmplifier](./Electronics101/ML741/InvertingAmplifier) - test an inverting amplifier circuit using the ML741 discrete component opamp
+# 160 Little Arduino Projects
+> Latest addition:sparkles: [LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer) - demonstrate load-independance of an LM324 buffer and signal splitter
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -94,6 +94,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
 | [LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
 | [LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
+| [LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
 | [MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [ML741](./Electronics101/ML741)                                               | **OpAmp**                       an LM741-style OpAmp built with discrete components |
