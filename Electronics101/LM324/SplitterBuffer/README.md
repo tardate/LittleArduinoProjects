@@ -1,6 +1,6 @@
 # LM324/SplitterBuffer
 
-Demonstrate load-independance of an LM324 buffer and signal splitter
+Demonstrate load-independance of an LM324 buffer and signal-splitter
 
 ## Notes
 
@@ -8,11 +8,11 @@ I'm considering using an LM324 as a buffer to split an input signal (up to 100kH
 What I'm not sure of is how well it does at isolating the two split outputs. Hence this test.
 
 I'm taking an input signal and feeding it into two quarters of an LM324,
-with the LM324 units configured as voltage followe/buffer.
+with the LM324 units configured as voltage follower/buffer.
 
 The load on each output is different - in the second I have a variable resistor to allow manual modification of the load.
 
-What I'd like to see is 1:1 transmission of the input signal to the output of both op-amps, ragardless of load.
+What I'd like to see is 1:1 transmission of the input signal to the output of both op-amps, regardless of load.
 Let's see...
 
 For this test, I have the following setup:
@@ -23,19 +23,20 @@ For this test, I have the following setup:
 
 ### Results
 
-It seems to work. Adjusting the load does not change the output of either opamp.
+HEre are some test results:
 * CH1: input
 * CH3: opamp 1 output
 * CH3: opamp 2 output
 
-at 1kHz:
+At 1kHz, adjusting the load does not change the output of either opamp. Output signals are relatively undistorted.
 
 ![1kHz](./assets/SplitterBuffer_1kHz.gif?raw=true)
 
-at 100kHz:
+At 100kHz, adjusting the load still has no impact of the output of either opamp.
+Output signals are somewhat phase-shifted. But this appears unrelated to the split configuration,
+as it is the same as seen when just a single opamp is used.
 
 ![100kHz](./assets/SplitterBuffer_100kHz.gif?raw=true)
-
 
 ## Construction
 
