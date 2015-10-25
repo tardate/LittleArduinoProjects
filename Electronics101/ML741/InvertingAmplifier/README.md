@@ -29,7 +29,7 @@ For this reason, the non-inverting input is pegged to V+/2 with a voltage divide
 In a dual rail configuration, V+/2 is usually "ground".
 
 The breadboard build has a fixed gain of
-[2](http://www.wolframalpha.com/input/?i=20k%CE%A9%2F10k%CE%A9)
+[-2](http://www.wolframalpha.com/input/?i=-20k%CE%A9%2F10k%CE%A9)
 but of course the feedback resistor can be replaced with a pot for manual variable gain.
 
 ![Breadboard](./assets/InvertingAmplifier_bb.jpg?raw=true)
@@ -47,6 +47,7 @@ Setup:
 * power is 5V single rail, i.e. V- = GND
 * non-inverting input is fed a sine wave 200mVpp with 2.5V DC offset
 * the function generator sine wave input replaces the manual 10kΩ input pot in the schematic above (at node FG)
+* CH1 and CH2 signals are DC coupled and vertical shifted by -2.5V in the screenshots that follow
 
 Scope connections
 * CH1: non-inverting input
