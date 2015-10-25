@@ -33,10 +33,11 @@ The 8-pin DIP socket is wired in the same way as the LM741:
 
 ![741DIP8](./assets/741DIP8.png?raw=true)
 
-
 Some related projects to test the ML741 in various opamp topologies:
 * [Comparator](./Comparator)
 * [Inverter](./Inverter)
+* [Inverting Amplifier](./InvertingAmplifier)
+* [Non-Inverting Amplifier](./NonInvertingAmplifier)
 * [VoltageFollower](./VoltageFollower)
 
 ### How Does it Work?
