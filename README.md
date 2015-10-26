@@ -2,8 +2,6 @@
 > Latest addition:sparkles: [ML741/NonInvertingAmplifier](./Electronics101/ML741/NonInvertingAmplifier) - test a non-inverting amplifier circuit using the ML741 discrete component opamp
 
 
-
-
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
 [The FretBoard](./FretBoard) (a multi-project build status indicator),

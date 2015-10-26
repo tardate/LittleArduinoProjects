@@ -36,7 +36,8 @@ In a dual rail configuration, V+/2 is usually "ground".
 The voltage divider is high impedance, to minimise its interaction with the amplifier circuit.
 It is also stabilised with a 100nF capacitor, without which the voltage divider resonates with the circuit and gain tends towards 1.
 
-Better yet would be to deliver V+/2 through a buffer amplifier, but it seems I got good enough results here without one.
+To improve the isolation of the V+/2 supply, it uses 1/4 of the LM324 as a voltage follower/buffer.
+The buffer may be omitted at the expense of some gain and DC offset (depending upon frequency).
 
 ### Input Buffer
 
