@@ -69,6 +69,17 @@ As I learn more or run into issues, I'll probably update my notes here.
 But so far I'm a very happy camper!
 It will definitely start popping up as a tool used in the little projects I add to this collection.
 
+## Essential Scope Viewing
+
+Some great tutorials:
+
+* [Oscilloscope operation AC DC GND coupling](https://youtu.be/VJJ-y9gjjkI) - BTCInstrumentation - a great starter on coupling
+* [#10: AC / DC Coupling on an Oscilloscope](https://youtu.be/Hkq-fvb5-NI) - w2aew - more practical implications of coupling
+* [EEVblog #279 - How NOT To Blow Up Your Oscilloscope!](https://youtu.be/xaELqAo4kkQ) - EEVblog - understanding "ground" is important
+* [#9: Basic 1X and 10X Oscilloscope Probe tutorial](https://youtu.be/SX4HGNWBe5M) - w2aew - passive probes in depth
+* [#206: Importance of 10X Probe Compensation with your Oscilloscope](https://youtu.be/oxJQr4dKnys) - w2aew - compensation in depth
+* [#69: Basics of Analog Oscilloscope Bandwidth](https://youtu.be/hXbPnY7VIes) - w2aew - what is scope bandwidth and how to measure it
+
 ## Credits and References
 * [Hantek MSO5074FG listing on aliexpress](http://www.aliexpress.com/item/High-quality-Hantek-MSO5074FG-70Mhz-4-Channel-Oscilloscope-8-Channel-Logic-Analyzer-25MHz-Arb-Waveform-Generator/1596199238.html) from seller [Shenzhen Laesent Technology Co., Ltd.](http://www.aliexpress.com/store/100653)
 * [Hantek MSO5054F(G)](http://www.hantek.com/en/ProductDetail_3_127.html) product listing, manuals and software
