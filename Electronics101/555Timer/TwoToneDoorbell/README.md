@@ -1,4 +1,4 @@
-# TwoToneDoorbell
+# 555Timer/TwoToneDoorbell
 
 A basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation.
 
@@ -46,9 +46,19 @@ A couple of bypass capacitors minimize the impact of voltage spikes and noise on
 
 ![The Build](./assets/TwoToneDoorbell_build.jpg?raw=true)
 
+### Protoboard Build
+
+OK, this is a pretty crappy doorbell, but just for the heck of it I put the circuit on a protoboard and used as a
+short-term replacement for a corroded/failed bell.
+
+![Protoboard build](./assets/TwoToneDoorbell_pcb_build.jpg?raw=true)
+
+![Protoboard layout](./assets/TwoToneDoorbell_pcb_layout.jpg?raw=true)
+
+
 ## Credits and References
 * [2N7000 Datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Two-tone Doorbell kit](http://cdselectronics.com/kits/two%20tone%20door%20bell.htm) - example of a similar circuit as a kit, using a mosfet for switching (looks like a very old site, not sure if still available).
-* [Two-tone Doorbell kit](http://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and doesn't employ power conservation.
+* [Two-tone Doorbell kit](http://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and an RC network to provide timed-on power.
