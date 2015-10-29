@@ -1,5 +1,5 @@
-# 161 Little Arduino Projects
-> Latest addition:sparkles: [ML741/NonInvertingAmplifier](./Electronics101/ML741/NonInvertingAmplifier) - test a non-inverting amplifier circuit using the ML741 discrete component opamp
+# 162 Little Arduino Projects
+> Latest addition:sparkles: [BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule) - quick test of an LM2577S/LM2596S Boost/Buck Converter Module
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -51,6 +51,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
+| [BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
