@@ -79,6 +79,7 @@ Some great tutorials:
 * [#9: Basic 1X and 10X Oscilloscope Probe tutorial](https://youtu.be/SX4HGNWBe5M) - w2aew - passive probes in depth
 * [#206: Importance of 10X Probe Compensation with your Oscilloscope](https://youtu.be/oxJQr4dKnys) - w2aew - compensation in depth
 * [#69: Basics of Analog Oscilloscope Bandwidth](https://youtu.be/hXbPnY7VIes) - w2aew - what is scope bandwidth and how to measure it
+* [#160: Oscilloscope Basics, and how they can be used in the hamshack](https://youtu.be/067W7h1BhxE) - if you have 1.5 hours and want a thorough education in scopes, watch this great presentation by w2aew
 
 ## Credits and References
 * [Hantek MSO5074FG listing on aliexpress](http://www.aliexpress.com/item/High-quality-Hantek-MSO5074FG-70Mhz-4-Channel-Oscilloscope-8-Channel-Logic-Analyzer-25MHz-Arb-Waveform-Generator/1596199238.html) from seller [Shenzhen Laesent Technology Co., Ltd.](http://www.aliexpress.com/store/100653)
