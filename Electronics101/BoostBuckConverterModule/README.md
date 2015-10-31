@@ -25,13 +25,13 @@ The selected output voltage range appears to remain very stable under load.
 ### Constant Current Control (with WARNING)
 
 At first, I thought the constant current control was not working. But after a bit of experimentation,
-I discovered I was being mislead by a pretty important design flaw to note:
+I discovered I was being mislead by what appears to be a pretty important design flaw:
 
 > the constant current control *only* takes effect if the load is connected after the unit is powered up
 
 i.e. if you have a circuit connected (or an ammeter for short-circuit current test) when you turn on the input power,
 the current will not be limited according the the constant current setting.
-But if you turn on the unit first, then connect the laod, the preset constant current setting will take effect.
+But if you turn on the unit first, then connect the load, the preset constant current setting will take effect.
 
 For battery charging applications, this may not be a big deal.
 But for powering a fixed installation (like a LED array as suggested in the application notes),
