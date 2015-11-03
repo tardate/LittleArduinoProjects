@@ -2,6 +2,10 @@
 
 Quick test of an LM2577S/LM2596S Boost/Buck Converter Module
 
+Here's a quick video demonstrating the basic control and the constant current issue:
+
+[![BoostBuckConverterModule](http://img.youtube.com/vi/vBijc1ZJEZM/0.jpg)](http://www.youtube.com/watch?v=vBijc1ZJEZM)
+
 ## Notes
 
 I got an [LM2577S/LM2596S Boost/Buck Converter Module](http://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
@@ -11,7 +15,8 @@ and also to investigate the buck/boost circuit it uses in more detail.
 It has a handy output voltage range of 1.25-25V and constant current limiting between 0-2A.
 
 Since the voltage/current/charging indicator controls are trimmers on the PCB, and because there is no integrated display of voltage or current,
-it probably makes the module more suitable for applications where the voltage/current settings need only a one-time adjustment.
+it is fine for applications where the voltage/current settings need only a one-time adjustment.
+Or with a bit of modding it could be the core of an adjustable power supply unit.
 
 Here's the module annotated with connections, controls and indictors:
 
@@ -27,7 +32,7 @@ The selected output voltage range appears to remain very stable under load.
 At first, I thought the constant current control was not working. But after a bit of experimentation,
 I discovered I was being mislead by what appears to be a pretty important design flaw:
 
-> the constant current control *only* takes effect if the load is connected after the unit is powered up
+> the constant current control *only* takes effect if the load is connected *after* the unit is powered up
 
 i.e. if you have a circuit connected (or an ammeter for short-circuit current test) when you turn on the input power,
 the current will not be limited according the the constant current setting.
@@ -39,12 +44,25 @@ this would appear to make the power supply pretty useless, and a good way to fry
 My advice would be to design the circuit without relying on the current-limiting feature of the power supply.
 But then why use a power supply with a "constant current" feature? Good question.
 
-#### A 5V 150mA Power Supply
+I don't have enough experience with buck/boost modules to know if this is unusual or even just a problem with my specific unit.
+Or perhaps I'm just doing it wrong?
+
+I posted [this video](http://www.youtube.com/watch?v=vBijc1ZJEZM) to demonstrates the behaviour.
+
+The PCB is too dense and multi-layed for me to easily trace it out to see if there is an understandable design flaw.
+I might see if I can find some similar modules to compare their behaviour.
+I'm also contacting the seller to see if they can tell me more.
+
+#### A 5V 150mA Power Supply Setup
 
 For now, I've just mounted the unit as a 5V 150mA voltage and current-limited supply.
 Handy for prototyping, while protecting me from mistakes that might try to draw > 150mA and smoke some components.
 However the issue mentioned above means I must remember to turn on the power supply before connecting the power to the circuit.
 Will I always remember to do that? Hardly!
+
+I was going to replace the voltage and current trimmers with panel-mounted pots,
+but with the constant-current issue clouding the picture I haven't bothered.
+I think I'll be trying some other buck/boost modules (or circuits) first.
 
 But when connected correctly, it does work. Here is the short-circuit current measurement with Vout = 5V and 150mA preset constant current setting:
 
@@ -102,3 +120,4 @@ Specifications:
 * [module from seller on aliexpress](http://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
 * [LM2577 product info](http://www.ti.com/product/lm2577)
 * [LM2596 product info](http://www.ti.com/product/lm2596)
+* [Build your own Variable Lab Bench Power Supply](https://youtu.be/wI-KYRdmx-E) - inspiration from GreatScott!
