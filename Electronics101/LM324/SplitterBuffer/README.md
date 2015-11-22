@@ -23,9 +23,9 @@ For this test, I have the following setup:
 
 ### Results
 
-HEre are some test results:
+Here are some test results:
 * CH1: input
-* CH3: opamp 1 output
+* CH2: opamp 1 output
 * CH3: opamp 2 output
 
 At 1kHz, adjusting the load does not change the output of either opamp. Output signals are relatively undistorted.
@@ -48,5 +48,4 @@ as it is the same as seen when just a single opamp is used.
 
 ## Credits and References
 * [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
-* [name](url)
 
