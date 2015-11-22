@@ -92,5 +92,5 @@ So just to pluck out the salient points and add some more references:
 ## Credits and References
 * [XL741 Discrete 741 Op-Amp kit](http://wiki.evilmadscientist.com/XL741) by the Evil Mad Scientist
 * [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
-
+* [#75: Basics of Opamp circuits - a tutorial on how to understand most opamp circuits](https://youtu.be/K03Rom3Cs28) - w2aew
 
