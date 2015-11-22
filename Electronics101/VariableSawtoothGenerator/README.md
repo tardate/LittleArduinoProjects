@@ -20,14 +20,14 @@ It also seems to be contributing some degree of crossover distortion.
 1N4148 diodes are recommended, but I did try replacing them all with standard 1N4007 rectifers.
 While the circuit still functioned, with 1N4007 diodes there was more distortion of the waveform - I think primarily because of the lower switching speed.
 
-### Results
+### Results - LM324
 
 The following trace is with a 5V supply. It's a bit hard to read because I crammed 4 measurements in one.
 The inputs are all DC coupled with no offset to the centre 0V line.
  comparator output swings from ~0.7V to ~3.7V (showing how far from rail-rail the LM324 is!)
 *
 
-![5v trace](./assets/VariableSawtoothGenerator_scope_5v.gif?raw=true)
+![5v trace LM324](./assets/VariableSawtoothGenerator_scope_LM324_5v.gif?raw=true)
 
 | Channel | Colour | Probe Point | Measurement                              |
 |---------|--------|-------------|------------------------------------------|
@@ -36,7 +36,17 @@ The inputs are all DC coupled with no offset to the centre 0V line.
 | CH3     | red    | P3          | charging current source                  |
 | CH4     | green  | P4          | comparator voltage threshold             |
 
+## LF347N
 
+Replacing the LM324 with LF347N, circuit loses dynamic range but still produced a relatively undistorted wave.
+
+![5v trace LF347N](./assets/VariableSawtoothGenerator_scope_LF347N_5v.gif?raw=true)
+
+## TL074CN
+
+Replacing the LM324 with TL074CN, circuit loses some dynamic range and has significant crossover distortion.
+
+![5v trace TL074CN](./assets/VariableSawtoothGenerator_scope_TL074CN_5v.gif?raw=true)
 
 ## Construction
 
@@ -50,4 +60,7 @@ The inputs are all DC coupled with no offset to the centre 0V line.
 * [#104: Circuit tutorial: sawtooth generator w/ current sources, diode switches, hysteresis comparator](https://youtu.be/ibnz5UjQ4u0) - w2aew
 * [Transistor current source with diode compensation](https://en.wikipedia.org/wiki/Current_source) - wikipedia
 * [Comparator Hysteresis](https://en.wikipedia.org/wiki/Comparator#Hysteresis) - wikipedia
+* [LM324N Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
+* [LF347N datasheet](http://www.futurlec.com/Linear/LF347N.shtml)
+* [TL074CN datasheet](http://www.futurlec.com/Linear/TL074CN.shtml)
 
