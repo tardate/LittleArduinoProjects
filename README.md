@@ -1,6 +1,5 @@
-# 163 Little Arduino Projects
-> Latest addition:sparkles: [BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule) - quick test of an LM2577S/LM2596S Boost/Buck Converter Module
-
+# 164 Little Arduino Projects
+> Latest addition:sparkles: [WatsonLedRing](./Electronics101/WatsonLedRing) - test a Watson 3-LED Ring oscillator
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -188,6 +187,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
 | [VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
 | [VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
+| [WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
 | [X113647Stepper](https://github.com/tardate/X113647Stepper)                   | **Stepper, Arduino**            It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
 
 
