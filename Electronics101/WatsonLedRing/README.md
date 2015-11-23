@@ -1,6 +1,10 @@
 # WatsonLedRing
 
-Test a Watson 3-LED Ring oscillator
+Test a Watson 3-LED Ring oscillator.
+
+Here's a quick video of the circuit in action:
+
+[![WatsonLedRing](http://img.youtube.com/vi/Guscsbysltw/0.jpg)](http://www.youtube.com/watch?v=Guscsbysltw)
 
 ## Notes
 
@@ -10,7 +14,8 @@ It has three n-channel mosfets linked in a ring with an RC circuit controlling t
 Each FET drives an LED. Once the circuit gets started, it oscillates indefinitely.
 
 There is nothing inherent in the circuit that kicks off the oscillation - it is completely symmetrical -
-so I guess it relies on slight component variations to get started. I haven't seen any issues getting the oscillation started.
+so I guess it relies on slight component variations and residual capacitor charge to get started.
+In practice I haven't seen any issues getting the oscillation started.
 
 This runs at 5V nicely, which is enough to exceed the LED forward voltage with sufficient headroom to turn on the FETs hard enough.
 
