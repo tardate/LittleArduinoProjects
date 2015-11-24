@@ -25,11 +25,27 @@ The circuit includes a simple LED/resistor load.
 
 ### Some Measurements
 
-| Item | Value  | Notes                  |
-|------|--------|------------------------|
-| Vin  |  4.97V | from LM7805 regulator  |
-| Vout | -4.96V | with no load           |
-| Vout | -4.83V | with LED/resistor load |
+| Item | Value  | Notes                                       |
+|------|--------|---------------------------------------------|
+| Vin  |  4.97V | from LM7805 regulator powered by 9V battery |
+| Vout | -4.96V | with no load                                |
+| Vout | -4.83V | with LED/resistor load                      |
+
+
+Here's Vin (CH1) and Vout (CH2) on a scope, with load attached:
+
+![vin vout](./assets/scope_vin_vout.gif?raw=true)
+
+Zooming in on Vout to see the ripple:
+
+![vout ripple](./assets/scope_vout_ripple.gif?raw=true)
+
+I'm seeing 200-400mV dropouts every few seconds as captured above. I'm not sure of the source or if that is particularly normal.
+The electrolytic capacitors may play a role, so I might measure that again if/when I can get my hands on some
+sufficiently large low-ESR ceramic capacitors.
+
+As it is, it seems the inverted voltage output would need further filtering/smoothing and regulation if the application required
+a good clean inverted voltage supply.
 
 ## Construction
 
