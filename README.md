@@ -1,5 +1,5 @@
 # 165 Little Arduino Projects
-> Latest addition:sparkles: [Power2662Inverter](./Electronics101/Power2662Inverter) - test a +/- 5V power supply using the LM2662 Switched Capacitor Voltage Converter
+> Latest addition:sparkles: [Power2662Inverter](./Electronics101/Power2662Inverter) - test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -117,7 +117,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
 | [PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
-| [Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a +/- 5V power supply using the LM2662 Switched Capacitor Voltage Converter |
+| [Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter |
 | [Power317](./Electronics101/Power317)                                         | **Power**                       test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
 | [Power317CC](./Electronics101/Power317CC)                                     | **Power**                       test a constant current power supply built with the LM317 |
 | [Power7805](./Electronics101/Power7805)                                       | **Power**                       test and graph a voltage supply built with an LM7805 5V Regulated Supply |

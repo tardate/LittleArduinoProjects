@@ -1,15 +1,15 @@
 # Power2662Inverter
 
-Test a +/- 5V power supply using the LM2662 Switched Capacitor Voltage Converter
+Test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter
 
 ## Notes
 
-The LM2662 is a CMOS charge pump voltage converter:
+The LM2662 is a single-chip CMOS charge pump voltage converter:
 * 1.5V to 5.5V positive voltage input
 * up to 200 mA of output current
 * operating efficiency greater than 90% at most loads
 
-There are three basic applicaiton topologies:
+There are three basic application topologies:
 * voltage inverter (Vout = - Vin)
 * voltage divider (Vout = 1/2 Vin)
 * voltage doubler (Vout = 2 Vin)
@@ -17,11 +17,11 @@ There are three basic applicaiton topologies:
 This circuit is a basic test of the voltage inverter configuration, with a few simplifications:
 * 5V regulated input voltage
 * frequency control is left open, so operates at 20kHz (as opposed to 150kHz)
-* I'm using 40µF electrolytic capacitors since they are what I have on had. The datasheet recommends low-ESR ceramic or tantalum for better performance.
+* I'm using 47µF electrolytic capacitors since they are what I have on hand. The datasheet recommends low-ESR ceramic or tantalum for better performance.
 
-I have LM2662MX in SOP-8 packaging, so I mounted one on an adapter module for easy breadboarding.
+I have some LM2662MX chips in SOP-8 packaging, so I mounted one on an adapter module for easy breadboarding.
 
-The circuit includes a simple LED/resistor load.
+The circuit includes a simple LED/resistor fixed load.
 
 ### Some Measurements
 
@@ -32,11 +32,11 @@ The circuit includes a simple LED/resistor load.
 | Vout | -4.83V | with LED/resistor load                      |
 
 
-Here's Vin (CH1) and Vout (CH2) on a scope, with load attached:
+Here's Vin (CH1) and Vout (CH2) DC-coupled on a scope, with load attached:
 
 ![vin vout](./assets/scope_vin_vout.gif?raw=true)
 
-Zooming in on Vout to see the ripple:
+Zooming in on Vout (CH1) AC-coupled to see the ripple:
 
 ![vout ripple](./assets/scope_vout_ripple.gif?raw=true)
 
@@ -44,8 +44,8 @@ I'm seeing 200-400mV dropouts every few seconds as captured above. I'm not sure 
 The electrolytic capacitors may play a role, so I might measure that again if/when I can get my hands on some
 sufficiently large low-ESR ceramic capacitors.
 
-As it is, it seems the inverted voltage output would need further filtering/smoothing and regulation if the application required
-a good clean inverted voltage supply.
+As it is, it seems the inverted voltage output would need further filtering/smoothing and perhaps regulation
+for applications requiring a good clean negative voltage supply.
 
 ## Construction
 
