@@ -1,5 +1,5 @@
-# 164 Little Arduino Projects
-> Latest addition:sparkles: [WatsonLedRing](./Electronics101/WatsonLedRing) - test a Watson 3-LED Ring oscillator
+# 165 Little Arduino Projects
+> Latest addition:sparkles: [Power2662Inverter](./Electronics101/Power2662Inverter) - test a +/- 5V power supply using the LM2662 Switched Capacitor Voltage Converter
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -21,7 +21,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
-## The Project Index
+## Project Index
 
 | Project                                                                       | Category/Description                                              |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -117,6 +117,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
 | [PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
+| [Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a +/- 5V power supply using the LM2662 Switched Capacitor Voltage Converter |
 | [Power317](./Electronics101/Power317)                                         | **Power**                       test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
 | [Power317CC](./Electronics101/Power317CC)                                     | **Power**                       test a constant current power supply built with the LM317 |
 | [Power7805](./Electronics101/Power7805)                                       | **Power**                       test and graph a voltage supply built with an LM7805 5V Regulated Supply |
