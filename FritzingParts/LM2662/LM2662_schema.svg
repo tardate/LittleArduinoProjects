@@ -12,9 +12,9 @@
    version="1.2"
    x="0in"
    y="0in"
-   width="1.00967in"
-   height="0.827111in"
-   viewBox="0 0 72.696 59.552"
+   width="91.01004"
+   height="43.400845"
+   viewBox="0 0 72.807792 34.720682"
    id="svg2"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="LM2662_schema.svg">
@@ -45,17 +45,22 @@
      id="namedview73"
      showgrid="false"
      inkscape:zoom="3.1703391"
-     inkscape:cx="45.43515"
-     inkscape:cy="37.219994"
+     inkscape:cx="45.495281"
+     inkscape:cy="7.2503559"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
      partID="854713910"
-     id="g4">
+     id="g4"
+     transform="translate(0.04810476,-0.85560361)">
     <g
-       transform="matrix(1, 0, 0, 1, 0, -20.8)"
+       transform="translate(0,-20.8)"
        id="g6">
       <g
          id="schematic">
@@ -99,14 +104,12 @@
              gorn="0.3.0.0.0.0.3" />
           <line
              id="line14"
-             stroke-width="0.9"
              y1="22.1756"
              y2="22.1756"
              x1="57.9501"
              x2="14.75"
-             style="stroke-linecap:round"
+             style="stroke:#000000;stroke-width:0.89999998;stroke-linecap:round"
              class="other"
-             stroke="#000000"
              gorn="0.3.0.0.0.0.4" />
           <line
              id="line16"
@@ -138,23 +141,19 @@
              style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="65.15"
+             x="65.150002"
              y="28.3256"
              id="text20"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
-             gorn="0.3.0.0.0.0.8">14</text>
+             gorn="0.3.0.0.0.0.8">8</text>
           <text
              font-size="2.79999"
-             x="55.8499"
+             x="55.849899"
              y="30.0762"
              id="text22"
-             fill="#787878"
-             style="text-anchor:end;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:end;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.9">V+</text>
           <line
              id="connector6pin"
@@ -177,23 +176,19 @@
              style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="65.15"
-             y="35.526"
+             x="65.150002"
+             y="35.526001"
              id="text26"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
-             gorn="0.3.0.0.0.0.12">13</text>
+             gorn="0.3.0.0.0.0.12">7</text>
           <text
              font-size="2.79999"
-             x="55.8499"
-             y="37.276"
+             x="55.849899"
+             y="37.276001"
              id="text28"
-             fill="#787878"
-             style="text-anchor:end;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:end;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.13">OCS</text>
           <line
              id="connector5pin"
@@ -216,23 +211,19 @@
              style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="65.15"
-             y="42.7256"
+             x="65.150002"
+             y="42.725601"
              id="text32"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
-             gorn="0.3.0.0.0.0.16">12</text>
+             gorn="0.3.0.0.0.0.16">6</text>
           <text
              font-size="2.79999"
-             x="55.8499"
-             y="44.476"
+             x="55.849899"
+             y="44.476002"
              id="text34"
-             fill="#787878"
-             style="text-anchor:end;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:end;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.17">LV</text>
           <line
              id="connector4pin"
@@ -255,23 +246,19 @@
              style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="65.15"
-             y="49.9264"
+             x="65.150002"
+             y="49.926399"
              id="text38"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.20">5</text>
           <text
              font-size="2.79999"
-             x="55.8499"
-             y="51.6762"
+             x="55.849899"
+             y="51.676201"
              id="text40"
-             fill="#787878"
-             style="text-anchor:end;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:end;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.21">OUT</text>
           <line
              id="connector2pin"
@@ -288,30 +275,25 @@
              y="29.376"
              height="0.000283465"
              id="connector2terminal"
-             fill="none"
              width="0.000283464"
              class="terminal"
-             stroke="none"
-             gorn="0.3.0.0.0.0.35" />
+             gorn="0.3.0.0.0.0.35"
+             style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="7.54999"
-             y="42.726"
+             x="7.5499902"
+             y="42.726002"
              id="text62"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.36">3</text>
           <text
              font-size="2.79999"
              x="16.85"
-             y="44.476"
+             y="44.476002"
              id="text64"
-             fill="#787878"
-             style="text-anchor:start;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.37">GND</text>
           <line
              id="connector1pin"
@@ -328,30 +310,25 @@
              y="22.176"
              height="0.000283465"
              id="connector1terminal"
-             fill="none"
              width="0.000283464"
              class="terminal"
-             stroke="none"
-             gorn="0.3.0.0.0.0.39" />
+             gorn="0.3.0.0.0.0.39"
+             style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="7.54999"
+             x="7.5499902"
              y="35.5256"
              id="text68"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.40">2</text>
           <text
              font-size="2.79999"
              x="16.85"
-             y="37.276"
+             y="37.276001"
              id="text70"
-             fill="#787878"
-             style="text-anchor:start;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.41">CAP+</text>
           <line
              id="connector3pin"
@@ -368,30 +345,25 @@
              y="43.776"
              height="0.000283465"
              id="connector3terminal"
-             fill="none"
              width="0.000283464"
              class="terminal"
-             stroke="none"
-             gorn="0.3.0.0.0.0.43" />
+             gorn="0.3.0.0.0.0.43"
+             style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="7.54999"
-             y="49.9264"
+             x="7.5499902"
+             y="49.926399"
              id="text74"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.44">4</text>
           <text
              font-size="2.79999"
              x="16.85"
-             y="51.676"
+             y="51.675999"
              id="text76"
-             fill="#787878"
-             style="text-anchor:start;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.45">CAP-</text>
           <line
              id="connector0pin"
@@ -408,30 +380,25 @@
              y="7.776"
              height="0.000283465"
              id="connector0terminal"
-             fill="none"
              width="0.000283464"
              class="terminal"
-             stroke="none"
-             gorn="0.3.0.0.0.0.51" />
+             gorn="0.3.0.0.0.0.51"
+             style="fill:none;stroke:none" />
           <text
              font-size="2"
-             x="7.54999"
+             x="7.5499902"
              y="28.3256"
              id="text86"
-             fill="#8c8c8c"
-             style="text-anchor:middle;font-family:Droid Sans"
+             style="font-size:2px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.52">1</text>
           <text
              font-size="2.79999"
              x="16.85"
              y="30.0762"
              id="text88"
-             fill="#787878"
-             style="text-anchor:start;font-family:Droid Sans"
+             style="font-size:2.79998994px;text-anchor:start;fill:#787878;stroke:none;font-family:Droid Sans"
              class="text"
-             stroke="none"
              gorn="0.3.0.0.0.0.53">FC</text>
         </g>
       </g>
