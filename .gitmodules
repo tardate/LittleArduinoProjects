@@ -31,3 +31,6 @@
 [submodule "libraries/u8glib"]
 	path = libraries/u8glib
 	url = https://github.com/olikraus/U8glib_Arduino
+[submodule "libraries/DS3232RTC"]
+	path = libraries/DS3232RTC
+	url = https://github.com/JChristensen/DS3232RTC

@@ -12,6 +12,7 @@ Some projects require additional libraries. For example:
 * AdaFruit display libraries may use the [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) library
 * LED matrix control with the [LedControl](https://github.com/wayoda/LedControl) library
 * Rotary Encoder input with the [Rotary](https://github.com/brianlow/Rotary) library
+* DS3232-based realtime clock module control with the [DS3232RTC](https://github.com/JChristensen/DS3232RTC) library
 
 These libraries are included as submodules of this repository and can be installed with git.
 Or you can just install them normally.
