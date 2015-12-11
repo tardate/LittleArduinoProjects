@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="0.229542in"
+   height="0.334389in"
+   viewBox="0 0 16.527 24.076"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="SCR_bb.svg">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="995"
+     inkscape:window-height="751"
+     id="namedview22"
+     showgrid="false"
+     inkscape:zoom="7.8418314"
+     inkscape:cx="10.329391"
+     inkscape:cy="15.047505"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     id="breadboard">
+    <rect
+       width="2.16"
+       height="0.999"
+       x="0.001"
+       y="22.997"
+       fill="none"
+       id="connector0pin" />
+    <rect
+       width="2.159"
+       height="0.999"
+       x="7.181"
+       y="22.997"
+       fill="none"
+       id="connector1pin" />
+    <rect
+       width="2.16"
+       height="0.999"
+       x="14.366"
+       y="22.997"
+       fill="none"
+       id="connector2pin" />
+    <line
+       x1="1.081"
+       x2="1.081"
+       stroke-width="2.16"
+       fill="none"
+       id="connector0leg"
+       y1="24.076"
+       y2="31.255"
+       stroke="#8C8C8C"
+       stroke-linecap="round" />
+    <line
+       x1="8.26"
+       x2="8.26"
+       stroke-width="2.16"
+       fill="none"
+       id="connector1leg"
+       y1="24.076"
+       y2="31.255"
+       stroke="#8C8C8C"
+       stroke-linecap="round" />
+    <line
+       x1="15.446"
+       x2="15.446"
+       stroke-width="2.16"
+       fill="none"
+       id="connector2leg"
+       y1="24.076"
+       y2="31.255"
+       stroke="#8C8C8C"
+       stroke-linecap="round" />
+    <rect
+       width="2.153"
+       height="9.349"
+       x="7.178"
+       y="14.729"
+       fill="#8C8C8C"
+       id="rect9506" />
+    <path
+       d="M3.288,14.729l0,3.315c0,0.425,-0.782,1.06,-1.198,1.425c-1.024,0.892,-2.088,1.82,-2.088,2.992l0,1.618l2.154,0c0,0,0,-0.999,0,-1.208c0,-0.519,0.903,-1.39,1.35,-1.771c0.997,-0.868,1.944,-1.688,1.944,-2.747l0,-3.625L3.288,14.728L3.288,14.729z"
+       fill="#8C8C8C"
+       id="path9510" />
+    <path
+       d="M13.22,14.729l0,3.315c0,0.425,0.78,1.06,1.198,1.425c1.027,0.892,2.089,1.82,2.089,2.992l0,1.618l-2.153,0c0,0,0,-0.999,0,-1.208c0,-0.519,-0.904,-1.39,-1.35,-1.771c-0.998,-0.868,-1.945,-1.688,-1.945,-2.747l0,-3.625L13.22,14.728L13.22,14.729z"
+       fill="#8C8C8C"
+       id="path9514" />
+    <rect
+       width="13.276"
+       height="10.068"
+       x="1.616"
+       y="4.658"
+       fill="#1A1A1A"
+       id="rect9553" />
+    <path
+       d="M13.888,4.658l0,2.452l0,8.228l0,1.843c0.632,-0.713,1.004,-1.554,1.004,-2.453l0,0L14.892,4.658L13.888,4.658z"
+       fill="#141414"
+       id="path9555" />
+    <path
+       d="M2.622,4.658L1.617,4.658l0,10.068l0,0c0,0.899,0.373,1.74,1.005,2.453l0,-1.842L2.622,7.111L2.622,4.658z"
+       fill="#242424"
+       id="path9557" />
+    <path
+       d="M1.616,4.658L1.616,4.658c0,0.898,0.373,1.739,1.005,2.452l11.274,0C14.527,6.398,14.9,5.557,14.9,4.658l0,0L1.616,4.658z"
+       fill="#1F1F1F"
+       id="path9559" />
+    <path
+       d="M8.255,0C4.588,0,1.616,2.085,1.616,4.66l13.276,0C14.892,2.085,11.923,0,8.255,0z"
+       fill="#141414"
+       id="path9561" />
+    <rect
+       width="11.274"
+       height="10.069"
+       x="2.622"
+       y="7.111"
+       id="rect9563" />
+    <text
+       x="2.0403094"
+       y="12.12"
+       id="label"
+       font-size="5.76"
+       gorn="0.1.10"
+       style="font-size:5.76000023px;text-anchor:start;fill:#e6e6e6;stroke:none;font-family:OCRA">SCR</text>
+  </g>
+</svg>
