@@ -8,6 +8,8 @@ This is a quick test of a
 [25V voltage sensor](http://www.aliexpress.com/item/Standard-Voltage-Sensor-Module-Test-Electronic-Bricks-For-Robot-For-Arduino/32265558651.html)
 I picked up recently.
 
+![Module](./assets/module.jpg?raw=true)
+
 The circuit simply measures a variable voltage (manually controlled wiper on a pot) and displays the result on a 5110 LCD.
 
 
