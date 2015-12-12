@@ -1,5 +1,5 @@
-# 166 Little Arduino Projects
-> Latest addition:sparkles: [DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo) - prints the system time synced from the RTC to the serial output
+# 167 Little Arduino Projects
+> Latest addition:sparkles: [VoltageSensorModule](./playground/VoltageSensorModule) - test a 25V voltage sensor module
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -187,6 +187,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [Variable LED brightness (PWM)](./playground/VariableLED)                     | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [VariableSawtoothGenerator](./Electronics101/VariableSawtoothGenerator)       | **OpAmp, Oscillators**          test a variable-geometry, fixed-amplitude sawtooth wave generator circuit |
 | [VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
+| [VoltageSensorModule](./playground/VoltageSensorModule)                       | **Sensors, Arduino**            test a 25V voltage sensor module |
 | [VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
 | [VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
