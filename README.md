@@ -1,5 +1,5 @@
-# 165 Little Arduino Projects
-> Latest addition:sparkles: [Power2662Inverter](./Electronics101/Power2662Inverter) - test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter
+# 166 Little Arduino Projects
+> Latest addition:sparkles: [DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo) - prints the system time synced from the RTC to the serial output
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -59,6 +59,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
+| [DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
 | [El Jarabe Tapatío](./playground/JarabeTapatio)                               | **Audio, Arduino**              play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
 | [ElectretADC](./playground/ElectretADC)                                       | **Audio, Arduino**              convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [ElectretTrigger](./playground/ElectretTrigger)                               | **Sensors, Audio, OpAmp, Arduino** uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
