@@ -19,6 +19,7 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [SMA420564 4-Digit 7-Segment LED Display](./SMA420564)
 * Stepper Motor 28BYJ-48 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
 * Stepper Board X113647 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
+* [Voltage Sensor Module](./SMA42VoltageSensorModule0564)
 
 
 ## Locally Cached Parts

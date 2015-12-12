@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="91.999878"
+   height="98.99987"
+   viewBox="0 0 73.599902 79.199896"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="voltage_sensor_module_schematic.svg">
+  <metadata
+     id="metadata72">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs70" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1014"
+     inkscape:window-height="512"
+     id="namedview68"
+     showgrid="false"
+     inkscape:zoom="2.3838415"
+     inkscape:cx="35.999953"
+     inkscape:cy="49.499809"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     partID="855005110"
+     id="g4">
+    <g
+       id="schematic">
+      <rect
+         width="42.299999"
+         class="interior rect"
+         x="15.450001"
+         y="14.85"
+         height="49.5"
+         id="rect7"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.89999998;stroke-linecap:round" />
+      <text
+         class="text"
+         font-size="4.25001"
+         x="38.049999"
+         y="28.7164"
+         id="label"
+         style="font-size:4.25001001px;text-anchor:middle;fill:#000000;stroke:none;font-family:Droid Sans">Voltage Sensor</text>
+      <line
+         x1="37.599998"
+         x2="37.599998"
+         class="pin"
+         id="connector0pin"
+         y1="64.449898"
+         y2="78.849899"
+         style="fill:none;stroke:#787878;stroke-width:0.69999897;stroke-linecap:round" />
+      <g
+         width="0.699999"
+         class="terminal"
+         x="37.25"
+         y="78.8499"
+         id="connector0terminal"
+         height="0.699999"
+         style="fill:none;stroke:none" />
+      <g
+         transform="translate(36.55,71.6499)"
+         id="g16">
+        <g
+           id="g18">
+          <g
+             transform="matrix(0,-1,1,0,0,0)"
+             id="g20">
+            <g
+               id="g22">
+              <text
+                 class="text"
+                 font-size="2.5"
+                 x="0"
+                 y="0"
+                 id="text24"
+                 style="font-size:2.5px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">1</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(38.3,63.0499)"
+         id="g26">
+        <g
+           id="g28">
+          <g
+             transform="matrix(0,-1,1,0,0,0)"
+             id="g30">
+            <g
+               id="g32">
+              <text
+                 class="text"
+                 font-size="3.49999"
+                 x="0"
+                 y="0"
+                 id="text34"
+                 style="font-size:3.49998999px;text-anchor:start;fill:#8c8c8c;stroke:none;font-family:Droid Sans">GND</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <line
+         x1="56.849899"
+         x2="73.249901"
+         class="pin"
+         id="connector1pin"
+         y1="36"
+         y2="36"
+         style="fill:none;stroke:#787878;stroke-width:0.69999897;stroke-linecap:round" />
+      <g
+         width="0.699999"
+         class="terminal"
+         x="73.249901"
+         y="35.6499"
+         id="connector1terminal"
+         height="0.699999"
+         style="fill:none;stroke:none" />
+      <text
+         class="text"
+         font-size="2.5"
+         x="66.049896"
+         y="34.950001"
+         id="text10"
+         style="font-size:2.5px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">2</text>
+      <text
+         class="text"
+         font-size="3.49999"
+         x="54.449902"
+         y="36.699902"
+         id="text12"
+         style="font-size:3.49998999px;text-anchor:end;fill:#8c8c8c;stroke:none;font-family:Droid Sans">OUT</text>
+      <line
+         x1="37.599998"
+         x2="37.599998"
+         class="pin"
+         id="connector2pin"
+         y1="0.34999901"
+         y2="14.75"
+         style="fill:none;stroke:#787878;stroke-width:0.69999897;stroke-linecap:round" />
+      <g
+         width="0.699999"
+         class="terminal"
+         x="37.25"
+         y="0.349999"
+         id="connector2terminal"
+         height="0.699999"
+         style="fill:none;stroke:none" />
+      <g
+         transform="translate(36.55,7.54999)"
+         id="g38">
+        <g
+           id="g40">
+          <g
+             transform="matrix(0,-1,1,0,0,0)"
+             id="g42">
+            <g
+               id="g44">
+              <text
+                 class="text"
+                 font-size="2.5"
+                 x="0"
+                 y="0"
+                 id="text46"
+                 style="font-size:2.5px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">3</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(38.3,16.15)"
+         id="g48">
+        <g
+           id="g50">
+          <g
+             transform="matrix(0,-1,1,0,0,0)"
+             id="g52">
+            <g
+               id="g54">
+              <text
+                 class="text"
+                 font-size="3.49999"
+                 x="0"
+                 y="0"
+                 id="text56"
+                 style="font-size:3.49998999px;text-anchor:end;fill:#8c8c8c;stroke:none;font-family:Droid Sans">VCC</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <line
+         x1="0.34999949"
+         x2="14.749658"
+         class="pin"
+         id="connector3pin"
+         y1="36"
+         y2="36"
+         style="fill:none;stroke:#787878;stroke-width:0.69999897;stroke-linecap:round" />
+      <g
+         width="0.699999"
+         class="terminal"
+         x="0"
+         y="35.6499"
+         id="connector3terminal"
+         height="0.699999"
+         style="fill:none;stroke:none" />
+      <text
+         class="text"
+         font-size="2.5"
+         x="8.0499001"
+         y="34.950001"
+         id="text30"
+         style="font-size:2.5px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">4</text>
+      <text
+         class="text"
+         font-size="3.49999"
+         x="28.4499"
+         y="36.699902"
+         id="text31"
+         style="font-size:3.49998999px;text-anchor:end;fill:#8c8c8c;stroke:none;font-family:Droid Sans">INPUT+</text>
+      <line
+         x1="0.34999949"
+         x2="14.750001"
+         class="pin"
+         id="connector4pin"
+         y1="50.400326"
+         y2="50.400326"
+         style="fill:none;stroke:#787878;stroke-width:0.69999897;stroke-linecap:round" />
+      <g
+         width="0.699999"
+         class="terminal"
+         x="0"
+         y="50.400326"
+         id="connector4terminal"
+         height="0.699999"
+         style="fill:none;stroke:none" />
+      <text
+         class="text"
+         font-size="2.5"
+         x="8.0499001"
+         y="48.950001"
+         id="text40"
+         style="font-size:2.5px;text-anchor:middle;fill:#8c8c8c;stroke:none;font-family:Droid Sans">5</text>
+      <text
+         class="text"
+         font-size="3.49999"
+         x="28.4499"
+         y="48.699902"
+         id="text41"
+         style="font-size:3.49998999px;text-anchor:end;fill:#8c8c8c;stroke:none;font-family:Droid Sans">INPUT-</text>
+    </g>
+  </g>
+</svg>
