@@ -1,4 +1,4 @@
-# 168 Little Arduino Projects
+# 169 Little Arduino Projects
 > Latest addition:sparkles: [CurrentSensorModule](./playground/CurrentSensorModule) - test an ACS712 voltage sensor module with display on a 5110 LCD
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -144,6 +144,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT)   | **BJT, Logic Gates**            test the basic resistor-transistor logic NOT gate (Inverter) |
 | [ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR)     | **BJT, Logic Gates**            test the basic resistor-transistor logic OR gate |
 | [RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **RF**                          a simple RF detector mounted in a pen |
+| [RGBLedModule](./playground/RGBLedModule)                                     | **LED, Arduino**                demo an RGB LED module |
 | [RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
 | [RingCounterController](./playground/RingCounterController)                   | **CMOS, Arduino**               control the classic CD4017 walking-ring counter with an Arduino |
 | [RingOscillator](./Electronics101/RingOscillator)                             | **74xx TTL, Oscillators**       test an oscillator built with a 74LS14 Inverter chip |
