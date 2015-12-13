@@ -1729,6 +1729,34 @@
         "name": "JoystickServoControl"
     }, 
     {
+        "description": "demo a simple pushbutton/LED matrix module", 
+        "relative_path": "playground/KeyboardMatrixModule", 
+        "id": "#303", 
+        "categories": "Arduino, LED, Human Input", 
+        "name": "KeyboardMatrixModule"
+    }, 
+    {
+        "description": "demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP", 
+        "relative_path": "playground/KeyboardMatrixModule/KeyMatrixInput", 
+        "id": "#304", 
+        "categories": "Arduino, Human Input", 
+        "name": "KeyboardMatrixModule/KeyMatrixInput"
+    }, 
+    {
+        "description": "demo controlling the LEDs on a simple pushbutton/LED matrix module", 
+        "relative_path": "playground/KeyboardMatrixModule/LedControl", 
+        "id": "#305", 
+        "categories": "Arduino, LED", 
+        "name": "KeyboardMatrixModule/LedControl"
+    }, 
+    {
+        "description": "demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library", 
+        "relative_path": "playground/KeyboardMatrixModule/SwitchInterrupts", 
+        "id": "#306", 
+        "categories": "Arduino, Human Input", 
+        "name": "KeyboardMatrixModule/SwitchInterrupts"
+    }, 
+    {
         "description": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set", 
         "relative_path": "playground/Lcd5110/BareBack", 
         "id": "#085", 

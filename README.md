@@ -1,5 +1,5 @@
-# 302 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife) - a simple implementation of Conway's Game of Life on the BoldportClub Matrix.
+# 306 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [KeyboardMatrixModule](./playground/KeyboardMatrixModule) - demo a simple pushbutton/LED matrix module.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -177,6 +177,10 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#146 InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |
 | [#006 It's Better With Bacon](./playground/BetterWithBacon)                        | **LCD, Arduino**                simple LCD test |
 | [#056 JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two servos with a joystick |
+| [#303 KeyboardMatrixModule](./playground/KeyboardMatrixModule)                     | **Arduino, LED, Human Input**   demo a simple pushbutton/LED matrix module |
+| [#304 KeyboardMatrixModule/KeyMatrixInput](./playground/KeyboardMatrixModule/KeyMatrixInput)     | **Arduino, Human Input** demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP |
+| [#305 KeyboardMatrixModule/LedControl](./playground/KeyboardMatrixModule/LedControl)             | **Arduino, LED**         demo controlling the LEDs on a simple pushbutton/LED matrix module |
+| [#306 KeyboardMatrixModule/SwitchInterrupts](./playground/KeyboardMatrixModule/SwitchInterrupts) | **Arduino, Human Input** demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library |
 | [#227 KnightRider](./Electronics101/555Timer/KnightRider)                          | **555 Timer, CMOS, LED**        the familiar "Knight-Rider" LED circuit using a 555 and 4017 |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |

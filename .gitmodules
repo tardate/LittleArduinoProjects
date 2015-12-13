@@ -43,3 +43,6 @@
 [submodule "libraries/LRAS1130"]
 	path = libraries/LRAS1130
 	url = https://github.com/LuckyResistor/LRAS1130
+[submodule "libraries/EnableInterrupt"]
+	path = libraries/EnableInterrupt
+	url = https://github.com/GreyGnome/EnableInterrupt

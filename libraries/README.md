@@ -15,6 +15,8 @@ Some projects require additional libraries. For example:
 * Rotary Encoder input with the [Rotary](https://github.com/brianlow/Rotary) library
 * DS3232-based realtime clock module control with the [DS3232RTC](https://github.com/JChristensen/DS3232RTC) library
 * 1-wire compatible components use the [OneWire](https://github.com/PaulStoffregen/OneWire) library
+* AMS AS1130 LED Driver control with the [LRAS1130](https://github.com/LuckyResistor/LRAS1130)
+* Flexible interrupt management with [EnableInterrupt](https://github.com/GreyGnome/EnableInterrupt)
 
 These libraries are included as submodules of this repository and can be installed with git.
 
