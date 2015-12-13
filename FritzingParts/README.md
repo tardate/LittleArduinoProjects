@@ -6,6 +6,7 @@ This is just a place where I'm recording custom Fritzing parts that I'm using fo
 
 These are new parts I've created because I wasn't able to find an existing alternative:
 
+* [AS712 Current Sensor Module](./AS712CurrentSensorModule)
 * [AMS1117 SOT-223 Voltage Regulator on a PCB module](./AMS1117)
 * [74LS02 Quad 2-input NOR Gate](./74LS02)
 * [74LS122 Retriggerable Monostable Multivibrator](./74LS122)
@@ -19,7 +20,7 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [SMA420564 4-Digit 7-Segment LED Display](./SMA420564)
 * Stepper Motor 28BYJ-48 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
 * Stepper Board X113647 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
-* [Voltage Sensor Module](./SMA42VoltageSensorModule0564)
+* [Voltage Sensor Module](./VoltageSensorModule)
 
 
 ## Locally Cached Parts
