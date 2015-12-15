@@ -1,5 +1,5 @@
-# 169 Little Arduino Projects
-> Latest addition:sparkles: [CurrentSensorModule](./playground/CurrentSensorModule) - test an ACS712 voltage sensor module with display on a 5110 LCD
+# 170 Little Arduino Projects
+> Latest addition:sparkles: [ClapSwitchKit](./Electronics101/ClapSwitchKit) - build and analyse a simple clap switch circuit available as a kit
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -53,6 +53,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
+| [ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Logic Gates, BJT**            build and analyse a simple clap switch circuit available as a kit |
 | [Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
 | [CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
