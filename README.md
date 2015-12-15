@@ -1,5 +1,5 @@
-# 170 Little Arduino Projects
-> Latest addition:sparkles: [ClapSwitchKit](./Electronics101/ClapSwitchKit) - build and analyse a simple clap switch circuit available as a kit
+# 171 Little Arduino Projects
+> Latest addition:sparkles: [SMDPracticeBoards](./Electronics101/SMDPracticeBoards) - a collection of notes, kits and resources for hand-soldering surface mount devices
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -172,6 +172,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
 | [SuperheterodyneReceiverKit](./Electronics101/SuperheterodyneReceiverKit)     | **RF**                          build and analyse a basic commercial radio recevier kit |
+| [SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |
 | [Switch - NJFET](./Electronics101/SwitchNJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and n-channel JFET |
 | [Switch - NPN](./Electronics101/SwitchNPN)                                    | **BJT**                         small-signal digital switch with NPN BJT |
