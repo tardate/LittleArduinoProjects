@@ -1,6 +1,6 @@
 # SCRLatch
 
-Exploring the bahaviour of low-power silicon controlled rectifiers (SCR)
+Exploring the behaviour of low-power silicon controlled rectifiers (SCR)
 
 Here's a quick video of the test circuit in action:
 
@@ -65,7 +65,7 @@ The 1MΩ pull-down resistor R3 is not required for the gate to operate - it's on
 For my LED load, I'm using a blue LED with a forward voltage (Vf) of around 3.1V.
 
 Once latched I want the LED to remain on so the load current
-needs to be greater than the maximum latching current (6mA)
+needs to be greater than the minimum latching current (6mA)
 but less then the LED's limit (20mA). Let's say 10mA.
 
 The BT169D datasheet has a "Typical and maximum on-state characteristic" graph which shows that V(t) i.e. the anode-cathode voltage drop

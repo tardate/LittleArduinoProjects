@@ -62,7 +62,7 @@ The following sections describe how Girabot is designed to meet the primary crit
 Along the way, I've referenced the experiments concerning various aspects of robot operation.
 
 
-## Use-case: Girabot bahaves in response to photocell input
+## Use-case: Girabot behaves in response to photocell input
 
 The Girabot is equiped with two LDRs - a "left eye" and "right eye".
 In the current build they are mounted near the eyes and detect light sensitivity roughly +/- 90 degrees from front.

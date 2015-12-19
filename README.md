@@ -1,5 +1,5 @@
 # 172 Little Arduino Projects
-> Latest addition:sparkles: [SCRLatch](./Electronics101/SCRLatch) - exploring the bahaviour of low-power silicon controlled rectifiers (SCR)
+> Latest addition:sparkles: [SCRLatch](./Electronics101/SCRLatch) - exploring the behaviour of low-power silicon controlled rectifiers (SCR)
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -157,7 +157,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
-| [SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the bahaviour of low-power silicon controlled rectifiers (SCR) |
+| [SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
 | [Shifty](./playground/Shifty)                                                 | **LED, Arduino**                drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [Simple7SegmentDisplay](./playground/Simple7SegmentDisplay)                   | **7-Segment, Arduino**          test a 7-segment common cathode display |
