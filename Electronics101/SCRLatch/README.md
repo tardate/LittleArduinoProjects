@@ -2,6 +2,10 @@
 
 Exploring the bahaviour of low-power silicon controlled rectifiers (SCR)
 
+Here's a quick video of the test circuit in action:
+
+[![SCRLatch demo](http://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](http://www.youtube.com/watch?v=-pO0aRX99G0)
+
 ## Notes
 
 Silicon controlled rectifiers (SCR) are unidirectional devices, with the anode-cathode path controlled by a gate.
@@ -54,6 +58,8 @@ Theoretically this should give me a nice [450µA](http://www.wolframalpha.com/in
 
 In practice, I'm seeing 436µA I(gt) - perfect; the difference is explained by V(gt) actually being around 0.7V under this load.
 
+The 1MΩ pull-down resistor R3 is not required for the gate to operate - it's only included to ensure a clean signal for the scope, rather than let the gate float.
+
 #### 2. Designing for sufficient load current
 
 For my LED load, I'm using a blue LED with a forward voltage (Vf) of around 3.1V.
@@ -75,9 +81,15 @@ Here's a trace of the trigger event. I purposely chose a bouncy capture to illus
 * CH1 measures the voltage across the gate and resistor - the trigger signal.
 * CH2 measures the voltage at the SCR anode - this drops to ~ 0.8V when the SCR turns on
 
+
 ![trigger_trace](./assets/trigger_trace.gif?raw=true)
 
 ## Construction
+
+Notes:
+* I created a
+[custom Fritzing Part available here](../../../FritzingParts/SCR) for these diagrams.
+* the 1MΩ pull-down resistor R3 is not required for the gate to operate - it's only included to ensure a clean signal for the scope, rather than let the gate float.
 
 ![Breadboard](./assets/SCRLatch_bb.jpg?raw=true)
 
@@ -89,6 +101,3 @@ Here's a trace of the trigger event. I purposely chose a bouncy capture to illus
 * [Silicon controlled rectifier](https://en.wikipedia.org/wiki/Silicon_controlled_rectifier) - wikipedia
 * [BT169D datasheet](http://www.icpdf.com/PHILIPS_datasheet/BT169_pdf_855967/BT169_datasheet.html)
 * [Thyristors & Triacs - Ten Golden Rules for Success In Your Application](http://www.nxp.com/documents/application_note/AN_GOLDEN_RULES.pdf) - great document, pretty much all you need to know!
-* [name](url)
-* [name](url)
-
