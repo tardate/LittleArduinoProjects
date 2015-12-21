@@ -1,5 +1,5 @@
-# 172 Little Arduino Projects
-> Latest addition:sparkles: [SCRLatch](./Electronics101/SCRLatch) - exploring the behaviour of low-power silicon controlled rectifiers (SCR)
+# 173 Little Arduino Projects
+> Latest addition:sparkles: [LEDCubes/Mini4](./playground/LEDCubes/Mini4) - a mini 4x4x4 LED cube with an Atmal328 and 3 x 74HC595 register interface
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -97,6 +97,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
 | [LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
+| [LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, Arduino**                a mini 4x4x4 LED cube with an Atmal328 and 3 x 74HC595 register interface |
 | [LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
 | [MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
