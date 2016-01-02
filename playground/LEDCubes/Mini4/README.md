@@ -1,6 +1,6 @@
 # LEDCubes/Mini4
 
-Driving a mini 4x4x4 LED cube with an Atmal328 and 3 x 74HC595 register interface
+Driving a mini 63 (4x4x4) LED cube with an Atmel328 and 3 x 74HC595 register interface
 
 Here's a quick video of the cube in action:
 
@@ -11,10 +11,11 @@ Here's a quick video of the cube in action:
 LED cubes were a "thing" a few years back maybe ... but I've never built one. Time to fix that...
 
 Here's my "mini" 4x4x4 cube - 3cm per side with 3mm clear blue LEDs. Nice and compact, and delivers nice effects.
-The clear blue LEDs work really well - the one's I have are really bright, even when driven with minimal current.
+The clear blue LEDs work really well - very bright, even when driven with minimal current.
 
 It's encased in a [Ferrero Rocher cube box](http://www.fairprice.com.sg/webapp/wcs/stores/servlet/en/fairprice/ferrero-rocher-t18-cube-225g-13062786). During the build, that raised some challenges - most of the effort in building the project concerned squeezing all the electronics
-into the space in the lid (which becomes the base of the cube). nvm, it all fits and the result it pretty good.
+into the space in the lid (which becomes the base of the cube).
+Nvm, it all fits and the result it pretty good.
 
 ### Design Overview
 
