@@ -104,6 +104,8 @@ from a current surge in case of a failing FET.
 
 ## Construction
 
+NB: see the assets folder for more pictures of the build
+
 ![Breadboard](./assets/Mini4_bb.jpg?raw=true)
 
 ![The Schematic](./assets/Mini4_schematic.jpg?raw=true)
@@ -116,7 +118,21 @@ from a current surge in case of a failing FET.
 
 ### Construction Details
 
-![Board Layout](./assets/build_board_layouts.jpg?raw=true)
+#### Daughter-board Layouts
+
+![Daughter-board Layouts](./assets/build_board_layouts.jpg?raw=true)
+
+#### LED Construction Jig
+
+![LED jig](./assets/build_led_jig.jpg?raw=true)
+
+#### LED Base Board Construction
+
+![LED base](./assets/build_led_base_in_place2.jpg?raw=true)
+
+#### Mainboard Construction
+
+![Mainboard Construction](./assets/build_mainboard_construction.jpg?raw=true)
 
 ## Credits and References
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
