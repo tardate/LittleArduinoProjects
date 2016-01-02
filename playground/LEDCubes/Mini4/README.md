@@ -99,7 +99,7 @@ I could use NPN BJTs like in [Led4Digit7Segment/DoubleShift](../../Led4Digit7Seg
 or n-channel MOSFETs like in [Led4Digit7Segment/DoubleShiftWithFETs](../../Led4Digit7Segment/DoubleShiftWithFETs) project.
 
 I think I'll use 2N7000 MOSFETs - no particular reason except simplicity.
-I'v put 10kΩ resistors in the gate connection; these are not strictly required expect perhaps to protected the MCU
+I've put 10kΩ resistors in the gate connection; these are not strictly required expect perhaps to protected the MCU
 from a current surge in case of a failing FET.
 
 ## Construction
