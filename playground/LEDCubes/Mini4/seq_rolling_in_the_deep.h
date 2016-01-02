@@ -8,7 +8,7 @@
 #define SEQ_RITD_DELAY   50
 
 /*
-  This pattern does like a swiss roll effect
+  This pattern does like a swiss-roll effect
  */
 void seq_rolling_in_the_deep(CubeDriver *cube_driver) {
   byte     layer;

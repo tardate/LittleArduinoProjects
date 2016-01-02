@@ -51,7 +51,7 @@ The code is organised so that each pattern is in it's own (header) file.
 ### Serial-Parallel Interface
 
 So there are 64 LEDs to drive in a 4x4x4 cube - way more than GPIO pins of a typical MCU.
-I'll be solving this problem the standard way - using 74HC595 shift registers todrive all the LED controls
+I'll be solving this problem the standard way - using 74HC595 shift registers to drive all the LED controls
 required with only 3 GPIO pins.
 
 This involves multiplexing the output so we write 16 LEDs in one go, and relies on persistence of vision
@@ -69,9 +69,9 @@ It's possible to clear the 595s by toggling the OE and MR pins, but that would r
 So I do this with software - shift out a full 24-bits worth of 0s to get the 595s to a "known state".
 
 
-### Choosing Resistor values for the LED Column Anodes
+### Choosing current-limiting Resistor values for the LEDs
 
-With a 5V supply and blue LEDs for a froward voltage of 3.0-3.2V, we'll drop about 2V max across the resistor.
+With a 5V supply and blue LEDs for a forward voltage of 3.0-3.2V, we'll drop about 2V max across the resistor.
 Aiming for 10mA LED current, that means a current limiting resistor of about [200Ω](http://www.wolframalpha.com/input/?i=2V%2F10mA).
 
 The "utility" LEDs will however be a selection of red, green and yellow all with a forward voltage around 2V.

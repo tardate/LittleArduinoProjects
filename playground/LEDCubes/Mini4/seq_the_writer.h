@@ -9,7 +9,7 @@
 #define SEQ_TW_DELAY  50
 
 /*
-  This pattern sends a single writing line by line
+  This pattern sends a single on-LED 'writing' line by line
  */
 void seq_the_writer(CubeDriver *cube_driver) {
   byte     layer;
