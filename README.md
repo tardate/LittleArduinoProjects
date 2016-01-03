@@ -1,5 +1,6 @@
-# 184 Little Arduino Projects
-> Latest addition:sparkles: [AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator) - widely-adjustable square wave generator using the 555 timer
+# 185 Little Arduino Projects
+> Latest addition:sparkles: [StirlingEngineHB13](./Kinetics/StirlingEngineHB13) - building the Böhm Stirling-Technik HB13 Small Bonsai engine
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -182,6 +183,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
+| [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#123 SuperheterodyneReceiverKit](./Electronics101/SuperheterodyneReceiverKit)     | **RF**                          build and analyse a basic commercial radio recevier kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [#066 Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |
