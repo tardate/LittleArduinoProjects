@@ -1,5 +1,5 @@
-# 174 Little Arduino Projects
-> Latest addition:sparkles: [LEDCubes/Mini4](./playground/LEDCubes/Mini4) - a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface
+# 175 Little Arduino Projects
+> Latest addition:sparkles: [SwitchSoftLatch](./Electronics101/SwitchSoftLatch) - test a soft-latching power switching circuit
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -181,6 +181,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [Switch - PFET](./Electronics101/SwitchPFET)                                  | **MOSFET**                      small-signal p-channel MOSFET switch with turn-on delay |
 | [Switch - PJFET](./Electronics101/SwitchPJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and p-channel JFET |
 | [Switch - PNP](./Electronics101/SwitchPNP)                                    | **BJT**                         small-signal digital switch with PNP BJT |
+| [SwitchSoftLatch](./Electronics101/SwitchSoftLatch)                           | **MOSFET, BJT**                 test a soft-latching power switching circuit |
 | [TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
