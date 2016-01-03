@@ -140,3 +140,5 @@ NB: see the assets folder for more pictures of the build
 * [74HC595 datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
 * [2N7000 Datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
 * [Ferrero Rocher cube box](http://www.fairprice.com.sg/webapp/wcs/stores/servlet/en/fairprice/ferrero-rocher-t18-cube-225g-13062786)
+* [Build a Programmable LED Cube 4x4x4](http://www.jameco.com/jameco/workshop/jamecobuilds/4x4x4ledcube.html) - good tutorial
+* [A Collection of WAAAY To Many 8X8X8 RGB LED Cubes!](http://www.instructables.com/id/A-Collection-of-WAAAY-To-Many-8X8X8-RGB-LED-Cubes/)
