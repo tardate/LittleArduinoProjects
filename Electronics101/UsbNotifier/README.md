@@ -1,6 +1,6 @@
 # UsbNotifier
 
-Tear-down and demo code for some oldUSB Webmail Notifier devices.
+Tear-down and demo code for some old USB Webmail Notifier devices.
 
 Here's a quick video of the blinky test program in action:
 
@@ -49,7 +49,7 @@ Once `hidapi` is installed, the `blinky` test program is easily compiled and run
 cd blinky
 make
 ./blinky
-``
+```
 
 The `blinky` program can handle up to 4 Notifier devices and simply:
 * reports the details of each device found
