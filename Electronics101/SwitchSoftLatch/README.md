@@ -4,7 +4,7 @@ Test a soft-latching power switching circuit.
 
 Here's a quick video of the circuit in action:
 
-[![SwitchSoftLatch demo](http://img.youtube.com/vi/AsmFvA-txG8/0.jpg)](http://www.youtube.com/watch?v=AsmFvA-txG8)
+[![SwitchSoftLatch demo](http://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](http://www.youtube.com/watch?v=9lX_sPDjzDE)
 
 ## Notes
 
