@@ -34,8 +34,19 @@ I have a BS250P p-channel MOSFET on hand; it's not really for power applications
 
 ### Performance
 
+What this circuit does well:
+
+* when off, load current cust clean to 0mA (perhaps fractional µA at most)
+* the R/C network does effective button de-bouncing
+
+A couple of things that could probably be improved:
+
 * the component values used here work OK at 5V, but not at higher input voltages like 9V (can't turn off)
-* the capacitor will hold its charge long after the circuit is powered down (slow to discharge through Q3 base)
+* the capacitor holds its charge long after the circuit is powered down (slow to discharge through Q3 base)
+* the circuit starts up "ON", though theoretically it shouldn't. I suspect this is due to residual capacitance in C1.
+
+So perhaps I'll need to try some improvements or test some alternative circuits like
+[this one from Talking Electronics](http://www.talkingelectronics.com/projects/200TrCcts/101-200TrCcts.html#20a)
 
 ## Construction
 
@@ -50,4 +61,3 @@ I have a BS250P p-channel MOSFET on hand; it's not really for power applications
 * [BS250 datasheet](http://www.futurlec.com/Transistors/BS250.shtml)
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
 * [Push On - Push Off Transistor Switch](https://www.youtube.com/watch?v=I70H5xQ6MT0) - at a glance, I think a very similar circuit but with slight variations and higher parts count. Original circuit is from [Talking Electronics](http://www.talkingelectronics.com/projects/200TrCcts/101-200TrCcts.html#20a)
-
