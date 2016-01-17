@@ -1,5 +1,5 @@
-# 175 Little Arduino Projects
-> Latest addition:sparkles: [SwitchSoftLatch](./Electronics101/SwitchSoftLatch) - test a soft-latching power switching circuit
+# 176 Little Arduino Projects
+> Latest addition:sparkles: [nRF24Breakout](./Electronics101/nRF24Breakout) - a simple PCB breadboard adapter for 8-pin nRF24 modules
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -116,6 +116,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [NOR7402](./Electronics101/NOR7402)                                           | **74xx TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
 | [NORGateOscillator](./Electronics101/NORGateOscillator)                       | **74xx TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |
+| [nRF24Breakout](./Electronics101/nRF24Breakout)                               | **nRF24, PCB**                  a simple PCB breadboard adapter for 8-pin nRF24 modules |
 | [OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)                     | **OLED, Arduino**               driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | **OLED, Arduino**         running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
