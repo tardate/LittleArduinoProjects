@@ -1,6 +1,6 @@
-# LED7Segment/DirectDrive
+# #001 LED7Segment/DirectDrive
 
-Drives a 7-segment display, performing a countdown from 9 to 0.
+Test direct control of a 7-segment display, performing a countdown from 9 to 0.
 
 ## Notes
 
