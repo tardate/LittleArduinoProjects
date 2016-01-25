@@ -1,12 +1,12 @@
 /*
 
-  Simple7SegmentDisplay
+  LED7Segment/DirectDrive
 
   Based on Arduino 7 segment display example software
   http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
   License: http://www.opensource.org/licenses/mit-license.php (Go crazy)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Simple7SegmentDisplay
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/DirectDrive
 
  */
 

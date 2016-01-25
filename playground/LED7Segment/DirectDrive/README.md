@@ -1,4 +1,4 @@
-# Simple7SegmentDisplay
+# LED7Segment/DirectDrive
 
 Drives a 7-segment display, performing a countdown from 9 to 0.
 
@@ -18,11 +18,11 @@ for a simple test.
 
 ### Construction
 
-![The Breadboard](./assets/Simple7SegmentDisplay_bb.jpg?raw=true)
+![The Breadboard](./assets/DirectDrive_bb.jpg?raw=true)
 
-![The Schematic](./assets/Simple7SegmentDisplay_schematic.jpg?raw=true)
+![The Schematic](./assets/DirectDrive_schematic.jpg?raw=true)
 
-![The Build](./assets/Simple7SegmentDisplay_build.jpg?raw=true)
+![The Build](./assets/DirectDrive_build.jpg?raw=true)
 
 ## Credits and references
 * [SC56-11 Datasheet](./assets/SC56-11_datasheet.pdf?raw=true)
