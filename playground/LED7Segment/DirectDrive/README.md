@@ -2,6 +2,10 @@
 
 Test direct control of a 7-segment display, performing a countdown from 9 to 0.
 
+Here's a quick video of the circuit in action:
+
+[![LED7Segment/DirectDrive](http://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](http://www.youtube.com/watch?v=R90zCCvA7_M)
+
 ## Notes
 
 The 7-segment display unit I have is stamped "SMA42056". It appears to be fairly common, however I've yet to find a datasheet for it.
@@ -13,8 +17,6 @@ Lighting a segment simply means providing a driving voltage to the corresponding
 
 This circuit puts the resistors in series of the anode pins. This ensures a consistent brightness no matter how many segments are on. Note that it is possible to put the current-limiting resistor on the common cathode;
 this is a bit of an approximation and will lead to varying LED brightness but may be "good enough" depending on your application.
-
-for a simple test.
 
 ### Construction
 
