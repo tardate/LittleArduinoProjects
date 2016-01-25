@@ -8,10 +8,13 @@ The 7-segment display unit I have is stamped "SMA42056". It appears to be fairly
 From inspection hwoever, it's clearly a common cathode unit, and similar to the
 the [SC56-11](./assets/SC56-11_datasheet.pdf?raw=true)
 
-This circuit puts the resistors in series of the common cathode pins. Which is a bit of an approximation,
-as current (brightness) will vary a little depending on how many LED segments are lit. The "correct"
-way (and as recommended in other circuits I've seen) is to put a resistor on each pin. But this was
-good enough for a simple test.
+There are two common cathode pins, but since these are internally connected there is no need to connect both to ground.
+Lighting a segment simply means providing a driving voltage to the corresponding anode pin.
+
+This circuit puts the resistors in series of the anode pins. This ensures a consistent brightness no matter how many segments are on. Note that it is possible to put the current-limiting resistor on the common cathode;
+this is a bit of an approximation and will lead to varying LED brightness but may be "good enough" depending on your application.
+
+for a simple test.
 
 ### Construction
 
