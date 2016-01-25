@@ -27,6 +27,6 @@ this is a bit of an approximation and will lead to varying LED brightness but ma
 ![The Build](./assets/DirectDrive_build.jpg?raw=true)
 
 ## Credits and references
-* [SC56-11 Datasheet](./assets/SC56-11_datasheet.pdf?raw=true)
+* [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
 * [Arduino and 7 Segment LED](http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html) - original idea and source code
 * [Drive a 7-Segment LED with an Arduino](http://makezine.com/projects/drive-a-7-segment-led-with-an-arduino/)
