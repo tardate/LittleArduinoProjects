@@ -16,6 +16,7 @@ To go beyond breadboards, Manhattan or other home-brew techniques for circuit fa
 ### Projects I've sent to a fab
 
 * [nRF24Breakout](../Electronics101/nRF24Breakout) - sent to [OSH Park](https://oshpark.com/)
+* [ShiftDriveModule](../playground/LED7Segment/ShiftDriveModule) - sent to [OSH Park](https://oshpark.com/)
 
 ## More Guides and References
 * [Fritzing Guide to PCB Production](http://fritzing.org/learning/tutorials/pcb-production-tutorials/)
