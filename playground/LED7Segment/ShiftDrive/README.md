@@ -2,6 +2,10 @@
 
 Test control of a 7-segment display via a 74HC595 shift register.
 
+Here's a quick video of the circuit in action:
+
+[![LED7Segment/ShiftDrive](http://img.youtube.com/vi/vD6ldmaypiE/0.jpg)](http://www.youtube.com/watch?v=vD6ldmaypiE)
+
 ## Notes
 
 While you can wire up each segment pin to a digital out on the Arduino as in the
