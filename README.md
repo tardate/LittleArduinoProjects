@@ -1,5 +1,5 @@
-# 176 Little Arduino Projects
-> Latest addition:sparkles: [nRF24Breakout](./Electronics101/nRF24Breakout) - a simple PCB breadboard adapter for 8-pin nRF24 modules
+# 177 Little Arduino Projects
+> Latest addition:sparkles: [LED7Segment/ShiftDrive](./playground/LED7Segment/ShiftDrive) - test control of a 7-segment display via a shift register
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -88,14 +88,15 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [LDRComparator](./Electronics101/LDRComparator)                               | **Sensors, OpAmp, Arduino**     low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)               | **OpAmp**                       demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
 | [Led4Digit7Segment](./playground/Led4Digit7Segment)                           | **7-Segment, Arduino**          overview of driving a 4-digit 7-segment display |
-| [Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment/DoubleShift)   | **7-Segment, Arduino**          driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs |
-| [Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs)| **7-Segment, Arduino** driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs |
-| [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)   | **7-Segment, Arduino**          driving a 4-digit 7-segment display with a shift register and a few BJTs |
+| [Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment/DoubleShift)   | **7-Segment, 74xx, Arduino**    driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs |
+| [Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs)| **7-Segment, 74xx, Arduino** driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs |
+| [Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)   | **7-Segment, 74xx, Arduino**    driving a 4-digit 7-segment display with a shift register and a few BJTs |
 | [LED7Segment/DirectDrive](./playground/LED7Segment/DirectDrive)               | **7-Segment, Arduino**          test a 7-segment common cathode display |
+| [LED7Segment/ShiftDrive](./playground/LED7Segment/ShiftDrive)                 | **7-Segment, 74xx, Arduino**    test control of a 7-segment display via a 74HC595 shift register |
 | [LED chaser](./playground/LedChaser)                                          | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
 | [LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
-| [LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, Arduino**                a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
+| [LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, 74xx, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
 | [LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, 7-Segment, Arduino** measure ambient temperature and display with a 4-digit 7-segment LED unit |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
@@ -162,7 +163,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
-| [Shifty](./playground/Shifty)                                                 | **LED, Arduino**                drive 8 LEDs with 3 pins using a 74HC595 shift register |
+| [Shifty](./playground/Shifty)                                                 | **LED, 74xx, Arduino**          drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |
 | [SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
