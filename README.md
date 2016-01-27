@@ -1,5 +1,5 @@
-# 178 Little Arduino Projects
-> Latest addition:sparkles: [LED7Segment/ShiftDriveModule](./playground/LED7Segment/ShiftDriveModule) - a custom 7-segment display module PCB with 74HC595 shift register interface
+# 179 Little Arduino Projects
+> Latest addition:sparkles: [LEDx16Module](./playground/LEDx16Module) - a custom 16 LED SMD PCB with 74HC595 shift register interface
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -99,6 +99,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, 74xx, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
 | [LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, 7-Segment, Arduino** measure ambient temperature and display with a 4-digit 7-segment LED unit |
+| [LEDx16Module](./playground/LEDx16Module)                                     | **74xx, SMD, Arduino**          a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
 | [LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
