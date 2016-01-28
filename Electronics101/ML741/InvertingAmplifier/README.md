@@ -10,7 +10,6 @@ The inverting amplifier is a generalised case of the basic [Inverter](../Inverte
 determined by the input and feedback resistor selection:
 
     Vout = - Rf/Rin * Vin
-    Rf = Rin
 
 ![Op-Amp_Inverting_Amplifier](https://upload.wikimedia.org/wikipedia/commons/4/41/Op-Amp_Inverting_Amplifier.svg)
 
@@ -52,9 +51,6 @@ Setup:
 Scope connections
 * CH1: non-inverting input
 * CH2: output
-
-I've purposely driven the input signal such that it clips the lower output rail of both the ML741 and UA741CN,
-because things get interesting around the rails.
 
 ### At 10kHz
 
