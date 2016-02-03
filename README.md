@@ -19,6 +19,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 ### Other Bits
 
 * [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
+* [notebook](./notebook) - a place for any notes I may make along the way
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 ## Project Index

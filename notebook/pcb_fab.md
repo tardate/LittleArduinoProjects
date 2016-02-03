@@ -12,6 +12,7 @@ To go beyond breadboards, Manhattan or other home-brew techniques for circuit fa
 * [itead](https://www.itead.cc/)
 * [expresspcb](http://www.expresspcb.com/)
 * [seeed](http://www.seeedstudio.com/service/)
+* [eurocircuits](http://www.eurocircuits.com/)
 
 ### Projects I've sent to a fab
 
