@@ -1,5 +1,5 @@
-# 179 Little Arduino Projects
-> Latest addition:sparkles: [LEDx16Module](./playground/LEDx16Module) - a custom 16 LED SMD PCB with 74HC595 shift register interface
+# 180 Little Arduino Projects
+> Latest addition:sparkles: [ColpittsOscillator](./Electronics101/ColpittsOscillator) - testing a basic Colpitts Oscillator circuit
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -55,6 +55,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Logic Gates, BJT**            build and analyse a simple clap switch circuit available as a kit |
+| [ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
 | [Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
 | [CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
