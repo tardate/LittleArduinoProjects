@@ -28,4 +28,4 @@ So more experiements required .. I think next I'll put this on a protoboard and 
 ## Credits and References
 * [Colpitts Oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
 * [The Colpitts Oscillator](http://www.electronics-tutorials.ws/oscillator/colpitts.html) - ElectronicsTutorials
-
+* [More Oscillators](http://www.talkingelectronics.com/projects/TheTransistorAmplifier/TheTransistorAmplifier-P2.html#MORE) - TE
