@@ -24,6 +24,7 @@ and is similar to [the one built by w2aew](https://youtu.be/blalAktxFoI) - excep
 ## Credits and References
 * [Colpitts Oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
 * [G3PTO Xtal Tester](http://www.qsl.net/g3pto/xtest.html) - the original circuit reproduced here
+* [Single transistor crystal oscillator circuit](http://www.radio-electronics.com/info/circuits/transistor_crystal_oscillator/crystal_oscillator.php) - similar circuit, but with a single transistor
 * [Oscillator Crystal Test Circuit](https://youtu.be/EiBTzh7DQ0I) - Tony T's demo of the circuit
 * [Victor VC3165 0.01Hz-2.4GHz Frequency Counter](http://www.amazon.com/gp/product/B00CW8Q2Z0/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00CW8Q2Z0&linkCode=as2&tag=itsaprli-20&linkId=3GSZ3KBONNZVLXTF)
 * [#123: Build a crystal oscillator from schematic thru prototype construction and testing - DIY](https://youtu.be/blalAktxFoI) - great tutorial by w2aew of building a similar circuit using the island cutter technique
