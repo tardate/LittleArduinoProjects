@@ -1,5 +1,5 @@
-# 181 Little Arduino Projects
-> Latest addition:sparkles: [VoltmeterModule](./Electronics101/VoltmeterModule) - test a 3-wire voltmeter module
+# 182 Little Arduino Projects
+> Latest addition:sparkles: [PowerSupply317Kit](./Electronics101/PowerSupply317Kit) - build and test a mains-powered 1.25V-12V DC LM317 power supply kit
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -136,6 +136,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [PowerBreadboard5V](./Electronics101/PowerBreadboard5V)                       | **Power**                       custom regulated 5V power supply module for standard breadboard |
 | [PowerLD1117](./Electronics101/PowerLD1117)                                   | **Power**                       test an LD1117 3.3V linear regulator |
 | [PowerMB102](./Electronics101/PowerMB102)                                     | **Power**                       demo and test a commercial 3.3/5V MB102 breadboard power supply unit |
+| [PowerSupply317Kit](./Electronics101/PowerSupply317Kit)                       | **Power**                       build and test a mains-powered 1.25V-12V DC LM317 power supply kit |
 | [PowerZener](./Electronics101/PowerZener)                                     | **Power**                       test and graph a power supply regulated with a 1N4733 zener diode |
 | [Popcorn](./playground/Popcorn)                                               | **Audio, Arduino**              How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [Pushbutton LED switch](./playground/PushbuttonLED)                           | **LED, Arduino**                Momentary push button switch is used to toggle the LED on and off |
