@@ -6,6 +6,9 @@ Test a 3-wire voltmeter module
 
 I obtained a 3-wire voltmeter module as part of a kit, so a chance to test one out!
 
+![front](./assets/VoltmeterModule_front.jpg?raw=true)
+![rear](./assets/VoltmeterModule_rear.jpg?raw=true)
+
 There are two and three wire modules in the market.
 
 Two-wire modules are the simplest (and generally cheapest).
