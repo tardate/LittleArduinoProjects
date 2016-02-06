@@ -1,5 +1,5 @@
 # 181 Little Arduino Projects
-> Latest addition:sparkles: VoltmeterModule](./Electronics101/VoltmeterModule) - test a 3-wire voltmeter module
+> Latest addition:sparkles: [VoltmeterModule](./Electronics101/VoltmeterModule) - test a 3-wire voltmeter module
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
