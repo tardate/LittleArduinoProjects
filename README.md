@@ -1,5 +1,5 @@
-# 185 Little Arduino Projects
-> Latest addition:sparkles: [StirlingEngineHB13](./Kinetics/StirlingEngineHB13) - building the Böhm Stirling-Technik HB13 Small Bonsai engine
+# 186 Little Arduino Projects
+> Latest addition:sparkles: [AsyncJKCounter](./Electronics101/AsyncJKCounter) - an asynchronous 4-bit counter built with JK Flip-Flops
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -35,6 +35,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#139 AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
 | [#020 Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
 | [#100 ArdWinVaders](./playground/OLED/ArdWinVaders)                                | **Arduino, OLED**               an Arduino & OLED version of a classic game |
+| [#186 AsyncJKCounter](./Electronics101/AsyncJKCounter)                             | **74xx, Logic**                 an asynchronous 4-bit counter built with JK Flip-Flops |
 | [#069 ATmegaBreadboard](./playground/ATmegaBreadboard)                             | **Arduino, ATmel**              running an ATMEGA328P-PU on a breadboard  |
 | [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel**              a DIY ATmega programming shield for using an Arduino as ISP  |
 | [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel**              Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
@@ -77,7 +78,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [#061 Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                           | **Logic Gates, BJT**            Set/Reset flip-flop with BJTs |
 | [#062 Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper)       | **Logic Gates, BJT, Arduino**   Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
-| [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx TTL**       Set/Reset flip-flop implemented with NOR gates |
+| [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
