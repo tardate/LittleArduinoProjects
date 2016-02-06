@@ -35,10 +35,14 @@ the specifications are as follows:
 * Display color: red;
 * Cable length: 15cm
 
-Using my multimeter as a reference, it appears accuracy is within 40mV, good enough for general purposes.
-
 These modules do not have any kind of digital output that could be used to integrate with a microprocessor,
 but as a stand-alone meter, a useful device for power supply circuits.
+
+## Test Circuit
+
+Schematics below are for a simple test of the meter using a 10kΩ pot to vary the input voltage and compare the reading with a multimeter.
+
+Using my DMM as a reference, it appears accuracy is within 40mV, good enough for general purposes.
 
 ## Construction
 
