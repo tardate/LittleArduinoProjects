@@ -10,7 +10,7 @@ at the resonant frequency of LC circuit.
 The distinguishing feature of a Colpitts oscillator is that the feedback to gain device (here an NPN BJT)
 is taken from the midpoint of the two capacitors.
 
-With C1,C2=100nF and L1=1mH, I should expect oscillation at around
+With C1,C2=100nF and L1=1mH, I should expect oscillation at
 [22.5kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29), however on my first breadboard build I'm getting around 33kHz:
 
 ![breadboard_ac_coupled](./assets/breadboard_ac_coupled.gif?raw=true)
@@ -25,8 +25,10 @@ Putting the circuit on a protoboard and using some better quality capacitors mak
 
 I'm seeing an almost perfect 22.9kHz compared to the theoretical [22.5kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29).
 
+The frequency can be tuned (reduced) with a capacitor in parallel with the inductor, up to about 100nF when the oscillation will be lost.
+
 Here's an AC plot showing Vout on CH1, and TP1 on CH2. Some things to note:
-* there's distortion at the lower end of the Vout cycle; I suspect shifting the bias point of the transistor may help
+* there's some distortion at the lower end of the Vout cycle; I tried twaeking the transistor bias to eliminate this but to no effect
 * an almost perfect sine at TP1 (midpoint of the capacitor bridge/transistor emitter)
 * 4.2V swing on Vout - not bad for a 5v supply
 * 2V swing on TP1
