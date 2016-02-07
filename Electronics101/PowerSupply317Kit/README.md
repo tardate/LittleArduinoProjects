@@ -27,6 +27,8 @@ I've not much use for the buzzer and polarity tester.
 
 This leaves a bit of space in the case and on the PCB, and perhaps I use it to add a current display and/or limiter later..
 
+![pcb_front](./assets/PowerSupply317Kit_pcb_front.jpg?raw=true)
+
 ### Operating Principle
 
 It's quite a standard and straightforward circuit:
@@ -92,6 +94,10 @@ So while I'm quite happy it's safe enough for a kit built and used in a private 
 
 
 ## Construction
+
+The kit came with some [brief instructions](./assets/instructions.pdf?raw=true)
+but these were quite sufficient (mainly covering physical construction directions)
+since the PCB has a very nice and detailed silkscreen.
 
 ### Parts
 
