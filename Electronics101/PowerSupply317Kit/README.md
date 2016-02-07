@@ -160,3 +160,4 @@ Here's the final unit, set for 5V output:
 * [LM317T datasheet](http://www.futurlec.com/Linear/LM317T.shtml)
 * [CD4069 datasheet](http://www.futurlec.com/4000Series/CD4069.shtml)
 * [How to protect LM317 from output short?](http://electronics.stackexchange.com/questions/148340/how-to-protect-lm317-from-output-short)
+* [The Power Supply](http://www.talkingelectronics.com/projects/ThePowerSupply/Page79PowerSupplyP1.html) - a great summary by TE
