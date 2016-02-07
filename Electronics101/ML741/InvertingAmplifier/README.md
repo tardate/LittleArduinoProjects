@@ -1,4 +1,4 @@
-# ML741/InvertingAmplifier
+# #159 ML741/InvertingAmplifier
 
 Test an inverting amplifier circuit using the ML741 discrete component opamp
 

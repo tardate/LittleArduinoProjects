@@ -1,4 +1,4 @@
-# Monostable122
+# #074 Monostable122
 
 Simple pulse trigger using 74LS122 monostable with external timing configuration.
 

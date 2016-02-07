@@ -1,4 +1,4 @@
-# nRF24Breakout
+# #176 nRF24Breakout
 
 A simple PCB breadboard adapter for 8-pin nRF24 modules
 

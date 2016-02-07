@@ -1,4 +1,4 @@
-# LEDCubes/Mini4
+# #173 LEDCubes/Mini4
 
 Driving a mini 63 (4x4x4) LED cube with an Atmel328 and 3 x 74HC595 register interface
 

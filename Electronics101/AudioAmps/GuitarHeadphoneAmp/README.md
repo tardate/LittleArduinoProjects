@@ -1,4 +1,4 @@
-# GuitarHeadphoneAmp
+# #098 GuitarHeadphoneAmp
 
 An LM386 fixed-gain guitar headphone amp.
 

@@ -1,4 +1,4 @@
-# ML741/NonInvertingAmplifier
+# #161 ML741/NonInvertingAmplifier
 
 Test a non-inverting amplifier circuit using the ML741 discrete component opamp
 

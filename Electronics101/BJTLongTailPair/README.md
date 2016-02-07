@@ -1,4 +1,4 @@
-# BJTLongTailPair
+# #094 BJTLongTailPair
 
 Test a BJT "long-tail" differential amplifier circuit.
 

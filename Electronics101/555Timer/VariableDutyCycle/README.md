@@ -1,4 +1,4 @@
-# 555Timer/VariableDutyCycle
+# #145 555Timer/VariableDutyCycle
 
 Test a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency.
 

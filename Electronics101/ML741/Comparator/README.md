@@ -1,4 +1,4 @@
-# ML741/Comparator
+# #151 ML741/Comparator
 
 Test a comparator circuit with the ML741 discrete component opamp
 

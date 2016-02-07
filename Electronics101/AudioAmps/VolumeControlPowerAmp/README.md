@@ -1,4 +1,4 @@
-# VolumeControlPowerAmp
+# #097 VolumeControlPowerAmp
 
 An LM386 fixed-gain audio power amp with volume control.
 

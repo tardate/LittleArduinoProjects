@@ -1,4 +1,4 @@
-# RSFlipFlop_NORLatch
+# #076 RSFlipFlop_NORLatch
 
 Set-Reset flip-flop implemented with NOR gates
 

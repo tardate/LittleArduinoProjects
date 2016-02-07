@@ -1,4 +1,4 @@
-# RGBLedModule
+# #169 RGBLedModule
 
 Demo an RGB LED module
 

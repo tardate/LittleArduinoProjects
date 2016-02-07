@@ -1,4 +1,4 @@
-# ATtinyHardwareInterrupt
+# #126 ATtinyHardwareInterrupt
 
 Test hardware interrupts with an ATtiny85 processor on a breadboard.
 

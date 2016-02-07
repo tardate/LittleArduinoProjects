@@ -1,4 +1,4 @@
-# LittleGem/A386
+# #095 LittleGem/A386
 
 A basic Smokey-inspired LM386 guitar power amp.
 

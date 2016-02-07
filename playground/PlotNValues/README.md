@@ -1,4 +1,4 @@
-# PlotNValues
+# #090 PlotNValues
 
 Sample up to 6 analog inputs and stream the data to serial in ASCII format - for plotting with Processing for example.
 

@@ -1,4 +1,4 @@
-# CounterModule
+# #136 CounterModule
 
 A general-purpose CD4017 counter module.
 

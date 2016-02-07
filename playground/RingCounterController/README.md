@@ -1,4 +1,4 @@
-# RingCounterController
+# #108 RingCounterController
 
 Control the classic CD4017 walking-ring counter with an Arduino
 

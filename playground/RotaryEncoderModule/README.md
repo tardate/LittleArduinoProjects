@@ -1,4 +1,4 @@
-# RotaryEncoderModule
+# #119 RotaryEncoderModule
 
 Testing a Rotary Encoder module controlling an LED 8x8 display
 

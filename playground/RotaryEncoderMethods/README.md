@@ -1,6 +1,8 @@
-# RotaryEncoderMethods
+# #118 RotaryEncoderMethods
+(was #104 RotaryEncoderISR)
 
 Finding the best method for reading a rotary-encoder.
+
 
 ## Notes
 

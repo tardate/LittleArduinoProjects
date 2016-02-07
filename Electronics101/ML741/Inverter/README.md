@@ -1,4 +1,4 @@
-# ML741/Inverter
+# #158 ML741/Inverter
 
 Test an inverter circuit using the ML741 discrete component opamp
 

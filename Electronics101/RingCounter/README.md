@@ -1,4 +1,4 @@
-# RingCounter
+# #107 RingCounter
 
 Test the classic CD4017 walking-ring counter
 
