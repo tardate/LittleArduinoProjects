@@ -4,7 +4,9 @@ Build and test a mains-powered 1.25V-12V DC LM317 power supply kit.
 
 ## Notes
 
-I found this kit for a reasonable price and decided to give it a go. Some things that attracted me:
+I found
+[this kit](http://www.aliexpress.com/item/EU-US-LM317-1-25V-12V-Continuously-Adjustable-Regulated-Voltage-Power-Supply-DIY-Kit/32463018423.html)
+for a reasonable price and decided to give it a go. Some things that attracted me:
 * 220V/110V mains-powered
 * continuously adjustable output voltage
 * isolated output
@@ -26,10 +28,20 @@ This leaves a bit of space in the case and on the PCB, and perhaps I use it to a
 ### Operating Principle
 
 It's quite a standard and straightforward circuit:
-* the transfor provides step down from mains to 12V AC fed into a full-wave rectifier
+* the transformer provides step down from mains to 12V AC fed into a full-wave rectifier
 * conventional LM317 linear regulator circuit allowing continuous adjustment using RP1
 * smoothing capacitors on the input and output side of the LM317
 * input and output short protection (D1/D2)
+
+This style of step-down transformer-based power supply is nice to see in action.
+They are becoming a bit of an antique ..
+[switch-mode](https://en.wikipedia.org/wiki/Switched-mode_power_supply),
+[capacitive](http://en.wikipedia.org/wiki/Capacitive_power_supply) and related buck/boost
+circuits are just so much cheaper and compact (no chunky transformer required).
+
+In fact, I have a hard time finding a 220V/12V transformer for sale for less than the cost of this whole kit!
+And the ones on offer are usually used or refurbished.
+
 
 ### Specifications
 
@@ -62,6 +74,20 @@ The voltmeter makes the LED indicator superfluous, so the blue power indicator L
 But I'm not sure if I did the circuit over - I think I would prefer it on the input side of the 317. This would mean:
 * LED is always on, regardless of output voltage
 * constant brightness/current
+
+#### Safety
+
+While DC output is isolated from the AC input, I think the unit would probably flunk a formal safety certification,
+mainly because:
+* lacks full double-insulation for a [Class II](https://en.wikipedia.org/wiki/Appliance_classes#Class_II) device
+* I can't be sure that it meets the requirement for insulation between mains and every touchable part to withstand flashover voltage of 4240V
+* Around the base, the distance between mains voltage carrying parts and touchable parts falls below the "at least 6 mm" threshold
+* Holes in the case for DC-side screwdriver-adjustment do not physically prevent access to AC-side components (if you really try)
+
+Also note that the heatsink is "live" with DC output voltage (see the LM317 datasheet).
+
+So while I'm quite happy it's safe enough for a kit built and used in a private (dry) lab, I wouldn't give it away or let anyone else use it;-)
+
 
 ## Construction
 
