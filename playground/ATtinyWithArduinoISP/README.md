@@ -1,4 +1,4 @@
-# #069 ATtinyWithArduinoISP
+# #070 ATtinyWithArduinoISP
 
 Programming an ATTINY85-20PU on a breadboard with Arduino ISP
 

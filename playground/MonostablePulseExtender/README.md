@@ -1,4 +1,4 @@
-# #075 MonostablePulseExtender
+# #076 MonostablePulseExtender
 
 Use an Arduino to test the behaviour of a 74LS122 monostable with external timing configuration and plot the results.
 

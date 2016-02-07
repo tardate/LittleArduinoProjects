@@ -1,4 +1,4 @@
-# Shifty
+# #041 Shifty
 
 Drive 8 LEDs with 3 pins using a 74HC595 shift register.
 

@@ -1,4 +1,4 @@
-# Power Supply - 3.3/5V MB102 Breadboard Power Supply
+# #028 Power Supply - 3.3/5V MB102 Breadboard Power Supply
 
 Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 

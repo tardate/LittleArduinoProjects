@@ -1,4 +1,4 @@
-# Power Supply - LM7805 Stable 5V Source
+# #027 Power Supply - LM7805 Stable 5V Source
 
 Demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 

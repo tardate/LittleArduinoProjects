@@ -1,4 +1,4 @@
-# #071 NOR7402 - 74LS02 Quad 2-input NOR gate test
+# #072 NOR7402 - 74LS02 Quad 2-input NOR gate test
 
 Use an Arduino to demonstrate a basic 74LS02 Quad 2-input NOR gate circuit, and plot the results with [Processing](https://www.processing.org).
 

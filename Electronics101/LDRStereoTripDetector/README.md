@@ -1,4 +1,4 @@
-# LDRStereoTripDetector - Low-light Trip Detector
+# #047 LDRStereoTripDetector - Low-light Trip Detector
 
 Monitor two LDR sensors for stereo light-level triggering effects.
 

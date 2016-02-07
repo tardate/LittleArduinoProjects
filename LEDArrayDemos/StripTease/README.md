@@ -1,4 +1,4 @@
-# StripTease
+# #015 StripTease
 
 Combines a series of effects using the [FastLED](http://fastled.io) to demonstrate an addressable LED array.
 

@@ -1,4 +1,4 @@
-# Power Supply - Zener Regulated 5V Source
+# #029 Power Supply - Zener Regulated 5V Source
 
 Demonstrates a Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 

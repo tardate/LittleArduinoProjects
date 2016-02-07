@@ -1,4 +1,4 @@
-# ElectretTrigger - triggers a tone sequence when mic input over threshold
+# #037 ElectretTrigger - triggers a tone sequence when mic input over threshold
 
 Use an Arduino to monitor the amplified signal from an electret microphone. When a threshold is exceeded,
 plays a ditty on the piezo speaker.

@@ -1,4 +1,4 @@
-# LED Chaser
+# #003 LED Chaser
 
 Blinks a series of 12 LEDs in a coninuous loop.
 

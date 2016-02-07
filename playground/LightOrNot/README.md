@@ -1,4 +1,4 @@
-# LightOrNot
+# #010 LightOrNot
 
 Reads a photocell/light-dependent resistor and adjusts the blink rate of an LED accordingly.
 

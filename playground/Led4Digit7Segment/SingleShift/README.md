@@ -1,4 +1,4 @@
-# #077 SingleShift
+# #078 SingleShift
 
 Driving a 4-digit 7-segment display with a shift register and a few BJTs
 

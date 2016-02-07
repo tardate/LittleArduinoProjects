@@ -1,4 +1,4 @@
-# LDRComparator - Low-light Trip Detector
+# #034 LDRComparator - Low-light Trip Detector
 
 Use an Arduino to monitor an LDR sensor, and plot the results with [Processing](https://www.processing.org).
 

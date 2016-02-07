@@ -1,4 +1,4 @@
-# #067 ATmegaViaArduinoISP
+# #068 ATmegaViaArduinoISP
 
 Programming an ATMEGA328P-PU on a breadboard with Arduino ISP
 

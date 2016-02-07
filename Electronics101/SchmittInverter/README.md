@@ -1,4 +1,4 @@
-# Schmitt Inverter
+# #021 Schmitt Inverter
 
 Use an Arduino to demonstrate the basic operation of 74LS14 Hex Inverter with Schmitt Trigger Inputs chip, and plot the results with [Processing](https://www.processing.org).
 

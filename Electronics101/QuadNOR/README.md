@@ -1,4 +1,4 @@
-# #072 QuadNOR
+# #073 QuadNOR
 
 Demonstrates simple cascading NOR gate logic with the 74LS02 and an Arduino
 

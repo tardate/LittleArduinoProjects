@@ -1,4 +1,4 @@
-# Better with Bacon on an LCD
+# #006 Better with Bacon on an LCD
 
 A simple "Hello World" test of a 16x2 LCD module.
 

@@ -1,4 +1,4 @@
-# Comparator741 - LM741 OpAmp Comparator Behaviour
+# #052 Comparator741 - LM741 OpAmp Comparator Behaviour
 
 Uses an Arduino to test LM741 comparator behaviour and plot the results with processing
 

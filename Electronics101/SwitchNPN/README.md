@@ -1,4 +1,4 @@
-# SwitchNPN - NPN Digital Logic Switch
+# #032 SwitchNPN - NPN Digital Logic Switch
 
 Use an Arduino to demonstrate a digital switch using an NPN BJT, and plot the results with [Processing](https://www.processing.org).
 

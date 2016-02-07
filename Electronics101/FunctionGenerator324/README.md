@@ -1,4 +1,4 @@
-# FunctionGenerator324
+# #053 FunctionGenerator324
 
 Use an Arduino to monitor the behaviour of a low-frequency LM324 OpAmp waveform generator (square,triangle,sine,cosine) and plot the results with [Processing](https://www.processing.org).
 

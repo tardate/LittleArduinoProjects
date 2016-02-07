@@ -1,4 +1,4 @@
-# StereoLightTrigger - Dual input Low-light Trigger
+# #048 StereoLightTrigger - Dual input Low-light Trigger
 
 Demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.
 

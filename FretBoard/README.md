@@ -1,4 +1,4 @@
-# FretBoard
+# #018 FretBoard
 
 FretBoard is a multi-project build status indicator, using a [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
 to display the status of each project.

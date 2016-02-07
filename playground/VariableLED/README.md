@@ -1,4 +1,4 @@
-# Variable LED
+# #002 Variable LED
 
 Variable resistor is used to control the brightness of an LED with PWM.
 

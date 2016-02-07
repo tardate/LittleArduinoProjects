@@ -1,4 +1,4 @@
-# Capacitorial - Graphing Capacitor Discharge
+# #012 Capacitorial - Graphing Capacitor Discharge
 
 Use an Arduino to charge a capacitor and graph the discharge with [Processing](https://www.processing.org).
 
