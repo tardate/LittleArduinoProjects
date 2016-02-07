@@ -13,7 +13,7 @@ in the office.
 
 A quick tear-down shows they contain a super-simple circuit - just a
 SONiX Technology SN8P2203SB 8-Bit microcontroller that handles the USB protocol and drives an RGB LED.
-The SN8P2203SB is an old chip phased out 2010/04/30, superceeded by the SN8P2240.
+The SN8P2203SB is an old chip phased out 2010/04/30, superseded by the SN8P2240.
 
 The USB implementation is extremely minimal - the device appears as a USB 1.0 HID device:
 * Product ID: 0x1320
