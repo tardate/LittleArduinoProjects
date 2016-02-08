@@ -1,5 +1,5 @@
-# 183 Little Arduino Projects
-> Latest addition:sparkles: [PolarityTester](./Electronics101/PolarityTester) - demonstrate a polarity-testing circuit
+# 184 Little Arduino Projects
+> Latest addition:sparkles: [AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator) - widely-adjustable square wave generator using the 555 timer
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -24,9 +24,10 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 
 ## Project Index
 
-| Project                                                                       | Category/Description                                              |
-|-------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Project                                                                            | Category/Description                                              |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
+| [#184 AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator)| **555 Timer, Oscillators**      widely-adjustable square wave generator using the 555 timer |
 | [#131 AMFMRadioKit](./Electronics101/AMFMRadioKit)                                 | **RF**                          notes on an AM/FM radio kit build |
 | [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **RF, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
 | [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **RF, 555 Timer**               a simple 555-based AM transmitter |
