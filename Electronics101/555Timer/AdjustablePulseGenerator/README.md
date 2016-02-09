@@ -37,11 +37,13 @@ NB: the rated maximum frequency of the 555 timer is generally 500kHz, so theoret
 In practice, the highest reliable frequencies squeezed out of a 555 are typically in the order of 600-700kHz.
 
 
-Or more illustratively, we can use [wolframalpha to plot the frequency graph](http://www.wolframalpha.com/input/?i=plot3d+|+f+%3D+1%2F%28ln%282%29+*+c+*+%28r1+%2B+2*r2%29%29+|+r1+%3D+220+to+10220,+r2+%3D+220+to+10220,+c+%3D+1*10^-6):
+Or more illustratively, we can use [wolframalpha to plot the frequency graph](http://www.wolframalpha.com/input/?i=plot3d+|+f+%3D+1%2F%28ln%282%29+*+c+*+%28r1+%2B+2*r2%29%29+|+r1+%3D+220+to+10220,+r2+%3D+220+to+10220,+c+%3D+1*10^-6)
+(for the case of C=1µF):
 
 ![frequency_graph](./assets/frequency_graph.png?raw=true)
 
-And corresponding [duty cycle](http://www.wolframalpha.com/input/?i=plot3d+|+d+%3D+%28r1+%2B+r2%29+%2F+%28r1+%2B+2*r2%29+|+r1+%3D+220+to+10220,+r2+%3D+220+to+10220):
+And corresponding [duty cycle](http://www.wolframalpha.com/input/?i=plot3d+|+d+%3D+%28r1+%2B+r2%29+%2F+%28r1+%2B+2*r2%29+|+r1+%3D+220+to+10220,+r2+%3D+220+to+10220)
+(unaffected by the capacitor selection):
 
 ![duty_cycle](./assets/duty_cycle.png?raw=true)
 
