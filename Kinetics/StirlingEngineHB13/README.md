@@ -1,8 +1,10 @@
 # #185 Kinetics/StirlingEngineHB13
 
-Building the Böhm Stirling-Technik HB13 Small Bonsai kit
+Building the Böhm Stirling-Technik HB13 Small Bonsai kit.
 
-![Finished Build](./assets/HB13_build.jpg?raw=true)
+Here's a quick video of the first firing of the engine:
+
+[![First Firing Demo](http://img.youtube.com/vi/SpzR4BYEarM/0.jpg)](http://www.youtube.com/watch?v=SpzR4BYEarM)
 
 ## Notes
 
@@ -12,10 +14,13 @@ They are named after Robert Stirling who invented the first practical example in
 [Böhm](http://www.en.boehm-stirling.com/about-us.html) is a small(?) specialist manufacturer from Germany that's taken up a side-line in producting Stirling engine kits.
 When I first discovered them, I couldn't resist.
 
-
 This is my first model - the [Small Bonsai (HB-13)](http://www.en.boehm-stirling.com/hb13.html).
 
-The kits is quite well manufactured, and everything went together in a few hours. And it fires up nicely on the first go!
+It's an [alpha configuration with two power pistons](https://en.wikipedia.org/wiki/Stirling_engine#Configurations) - one hot and one cold:
+
+![Alpha_Stirling](https://en.wikipedia.org/wiki/Stirling_engine#/media/File:Alpha_Stirling.gif)
+
+Everything went together in a few hours, and it fired up nicely on the first go!
 
 A good read of the [Support & FAQ](http://www.en.boehm-stirling.com/support.html) pages prior to construction is highly recommended.
 There are essential tips not to be found in the main instruction documents.
@@ -25,10 +30,10 @@ Some things to note:
 * Step (9) in the instructions does not mention inserting spacers 32 and 33. These need to be insterted as the rocker arms are attached to the side plate
 * Step (12) does not precisely specify the assemptly of screw, bushing and conecting rod. The diagram seems wrong for one rod. Played around till I think I have it right (screw -> rod -> bush -> crankshaft for both).
 
-Overall the kits is quite well manufactured. All parts arrived and are machined well. Just three minor issues:
-* Once of the connecting rods (21) arrived bent ~30˚ during shipping. It straightened out without trouble.
+Overall the kit is very well manufactured. All parts arrived and are machined well, but could perhaps do with some better packaging in order to survive being shipped around the world. Just three minor issues:
+* One of the connecting rods (21) arrived bent ~30˚ during shipping. It straightened out without trouble.
 * The heating cylinder (23) had a [slight ding](./assets/03_shipped_with_a_ding.jpg?raw=true). Rough shipping again? It doesn't affect performance, and I was able to position the imperfection on the lower side, so it is not visible.
-* The screws (42) around the heating cylinder (23) are just a little too snug (screws scrape the cyclinder when tightening home). Assembles OK, but an extra micrometer or two would have made assembly perfect.
+* The screws (42) around the heating cylinder (23) are just a little too snug (screws scrape the cylinder when tightening home). Assembles OK, but an extra micrometer or two would have made assembly perfect.
 
 The only thing that had me worried was whether I could find suitable fuel in Singapore. Fortunately there was not problem - I was able to find a suitable bottle of [denatured alchohol](http://www.guardian.com.sg/denatured-alcohol-120ml/p/158504) at my local Guardian Pharmacy for only $4.30.
 
@@ -57,3 +62,4 @@ So where are the electronics? None involved so far! But some ideas I have in min
 * [Stirling motor HB13 – Small Bonsai](http://www.en.boehm-stirling.com/hb13.html) product page
 * [Instructions Stirling Engine HB13](http://www.en.boehm-stirling.com/support.html?file=tl_files/stirling-technik.de/manuals/en/Anleitung%20HB13%20E%2024042015.doc)
 * [Support and General Construction Tips](http://www.en.boehm-stirling.com/support.html)
+* [Suitable denatured alchohol](http://www.guardian.com.sg/denatured-alcohol-120ml/p/158504) available at Guardian Pharmacy (Singapore) for only S$4.30
