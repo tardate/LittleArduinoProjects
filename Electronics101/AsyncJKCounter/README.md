@@ -1,6 +1,10 @@
 # AsyncJKCounter
 
-An asynchronous 4-bit counter built with JK Flip-Flops
+An asynchronous 4-bit counter built with JK Flip-Flops.
+
+Here's a quick video of the circuit in action:
+
+[![AsyncJKCounter](http://img.youtube.com/vi/dyn9gv996iY/0.jpg)](http://www.youtube.com/watch?v=dyn9gv996iY)
 
 ## Notes
 
