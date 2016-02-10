@@ -142,3 +142,4 @@ NB: see the assets folder for more pictures of the build
 * [Ferrero Rocher cube box](http://www.fairprice.com.sg/webapp/wcs/stores/servlet/en/fairprice/ferrero-rocher-t18-cube-225g-13062786)
 * [Build a Programmable LED Cube 4x4x4](http://www.jameco.com/jameco/workshop/jamecobuilds/4x4x4ledcube.html) - good tutorial
 * [A Collection of WAAAY To Many 8X8X8 RGB LED Cubes!](http://www.instructables.com/id/A-Collection-of-WAAAY-To-Many-8X8X8-RGB-LED-Cubes/)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects173-mini-64-led.html)

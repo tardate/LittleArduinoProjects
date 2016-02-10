@@ -43,3 +43,4 @@ for SPI rather than using the standard library methods (digitalWrite, shiftOut).
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [SSD1306BareBack](../SSD1306BareBack) - a sketch the exlores and explains OLED driving basics
 * [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation
+* [..as mentioned on my blog](http://blog.tardate.com/2015/06/retrogaming-on-arduinooled-console.html)

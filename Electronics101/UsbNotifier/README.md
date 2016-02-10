@@ -109,3 +109,4 @@ And here are the 4 units blinking...
 * [Someone hacked an earlier version](http://www.wabbitwanch.net/blog/?p=728) - basically just to use the LED
 * [LightControlMenu](https://github.com/bettse/LightControlMenu) - a MacOSX Xcode project that looks like it might know how to talk to these devices
 * [dbird notifier](http://sourceforge.net/projects/dbirdnotifier/) - interesting old project doing similar things
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects174-usb-led.html)

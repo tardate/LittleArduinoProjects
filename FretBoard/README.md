@@ -3,7 +3,7 @@
 FretBoard is a multi-project build status indicator, using a [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
 to display the status of each project.
 
-Full details of the project are available at http://fretboard.tardate.com
+Full details of the project are available at [fretboard.tardate.com](http://fretboard.tardate.com)
 
 [![The Build](./assets/FretBoard_build.png?raw=true)](http://fretboard.tardate.com)
 
@@ -120,4 +120,6 @@ And then connectors etc depending on the physical housing.
 * Led Lifespan: Over 50000 hours
 * Light Color: RGB FULL Color
 
-
+## References
+* [fretboard.tardate.com](http://fretboard.tardate.com) - vanity site for the project
+* [..as mentioned on my blog](http://blog.tardate.com/2015/02/the-fretboard-multi-project-build.html)
