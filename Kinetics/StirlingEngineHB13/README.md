@@ -16,9 +16,9 @@ When I first discovered them, I couldn't resist.
 
 This is my first model - the [Small Bonsai (HB-13)](http://www.en.boehm-stirling.com/hb13.html).
 
-It's an [alpha configuration with two power pistons](https://en.wikipedia.org/wiki/Stirling_engine#Configurations) - one hot and one cold:
+I believe it's strictly a [beta configuration with only one cylinder](https://en.wikipedia.org/wiki/Stirling_engine#Configurations) - hot at one end and cold at the other:
 
-![Alpha_Stirling](https://upload.wikimedia.org/wikipedia/commons/c/cc/Alpha_Stirling.gif)
+![Stirling_Animation](https://upload.wikimedia.org/wikipedia/commons/4/4e/Stirling_Animation.gif)
 
 Everything went together in a few hours, and it fired up nicely on the first go!
 
@@ -63,3 +63,4 @@ So where are the electronics? None involved so far! But some ideas I have in min
 * [Instructions Stirling Engine HB13](http://www.en.boehm-stirling.com/support.html?file=tl_files/stirling-technik.de/manuals/en/Anleitung%20HB13%20E%2024042015.doc)
 * [Support and General Construction Tips](http://www.en.boehm-stirling.com/support.html)
 * [Suitable denatured alchohol](http://www.guardian.com.sg/denatured-alcohol-120ml/p/158504) available at Guardian Pharmacy (Singapore) for only S$4.30
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects185-building-bohm.html)
