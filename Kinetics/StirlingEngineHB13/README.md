@@ -11,7 +11,7 @@ Here's a quick video of the first firing of the engine:
 A [Stirling engine](https://en.wikipedia.org/wiki/Stirling_engine) is a closed-cycle regenerative heat engine with a permanently gaseous working fluid.
 They are named after Robert Stirling who invented the first practical example in 1816.
 
-[Böhm](http://www.en.boehm-stirling.com/about-us.html) is a small(?) specialist manufacturer from Germany that's taken up a side-line in producting Stirling engine kits.
+[Böhm](http://www.en.boehm-stirling.com/about-us.html) is a small(?) specialist manufacturer from Germany that's taken up a side-line in producing Stirling engine kits.
 When I first discovered them, I couldn't resist.
 
 This is my first model - the [Small Bonsai (HB-13)](http://www.en.boehm-stirling.com/hb13.html).
