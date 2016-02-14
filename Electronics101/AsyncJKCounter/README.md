@@ -1,4 +1,4 @@
-# AsyncJKCounter
+# #186 AsyncJKCounter
 
 An asynchronous 4-bit counter built with JK Flip-Flops.
 
@@ -66,3 +66,4 @@ The ripples are clear, taking place over about 42ns:
 * [JK Flip Flop Examples](https://youtu.be/QTGgTxa2HeM) - Columbia Gorge Community College
 * [Binary Counter Using J K Flip Flops](https://youtu.be/kwIHU5pCDtE)
 * [Digital Electronics -- Counter Circuits](https://youtu.be/xf0EIWk7U0k)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects186-asynchronous.html)
