@@ -16,9 +16,9 @@ When I first discovered them, I couldn't resist.
 
 This is my first model - the [Small Bonsai (HB-13)](http://www.en.boehm-stirling.com/hb13.html).
 
-I believe it's strictly a [beta configuration with only one cylinder](https://en.wikipedia.org/wiki/Stirling_engine#Configurations) - hot at one end and cold at the other:
+I believe it's strictly an [alpha configuration with two power pistons in separate cylinders](https://en.wikipedia.org/wiki/Stirling_engine#Configurations) - one hot and one cold:
 
-![Stirling_Animation](https://upload.wikimedia.org/wikipedia/commons/4/4e/Stirling_Animation.gif)
+![Alpha_Stirling](https://upload.wikimedia.org/wikipedia/commons/c/cc/Alpha_Stirling.gif)
 
 Everything went together in a few hours, and it fired up nicely on the first go!
 
