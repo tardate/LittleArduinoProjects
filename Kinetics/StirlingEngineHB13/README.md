@@ -27,8 +27,8 @@ There are essential tips not to be found in the main instruction documents.
 
 Some things to note:
 * See [ALIGNING PIN ASSEMBLY](http://www.en.boehm-stirling.com/support.html#passstiftmontage) for details on how to use the supplied jig to attach the connecting rods with pins
-* Step (9) in the instructions does not mention inserting spacers 32 and 33. These need to be insterted as the rocker arms are attached to the side plate
-* Step (12) does not precisely specify the assemptly of screw, bushing and conecting rod. The diagram seems wrong for one rod. Played around till I think I have it right (screw -> rod -> bush -> crankshaft for both).
+* Step (9) in the instructions does not mention inserting spacers 32 and 33. These need to be inserted as the rocker arms are attached to the side plate
+* Step (12) does not precisely specify the assembly of screw, bushing and conecting rod. The diagram seems wrong for one rod. Played around till I think I have it right (screw -> rod -> bush -> crankshaft for both).
 
 Overall the kit is very well manufactured. All parts arrived and are machined well, but could perhaps do with some better packaging in order to survive being shipped around the world. Just three minor issues:
 * One of the connecting rods (21) arrived bent ~30˚ during shipping. It straightened out without trouble.
