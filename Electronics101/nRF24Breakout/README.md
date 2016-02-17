@@ -2,6 +2,8 @@
 
 A simple PCB breadboard adapter for 8-pin nRF24 modules
 
+![Build](./assets/nRF24Breakout_build.jpg?raw=true)
+
 ## Notes
 
 This is my version of project 1 from the
@@ -15,7 +17,12 @@ founder of OSH Park.
 
 The PCB design was done with [KiCad](http://kicad-pcb.org/).
 
-I've sent these off for production, will update and share the OSH Park project when they're back and tested.
+I sent these off for production at [OSH Park](https://oshpark.com/shared_projects/Js6JrEyC), and they arrived (in Singapore) a month later (Jan 17th -> Feb 17th). They turned out quite well, certainly no issues with the fab. I'll be using these for some nRF24 projects.
+
+After examining the PCBs, I can see a few things that could be improved in the design:
+* the font size I used for pin labelling is just barely large enough to read
+* I didn't allow space between the 2x4 pin header and the pin labels (with the pin adapter installed, the labels are partially obscured)
+* the board size does not match the nRF24 unit very well (the module overlaps the edge of the board). I think the module might be better rotated 90˚.
 
 ## Construction
 
@@ -27,8 +34,11 @@ See the [KiCad project](./kicad_project/nrf24_breakout.pro) for all the details.
 
 ![PCB render](./assets/nRF24Breakout_pcb_render.png?raw=true)
 
+![Build](./assets/nRF24Breakout_build.jpg?raw=true)
+
 ## Credits and References
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials
+* [This nRF24Breakout project on OSH Park](https://oshpark.com/shared_projects/Js6JrEyC)
 * [KiCad](http://kicad-pcb.org/)
 * [gerblook](http://gerblook.org/) - nice tool for testing a set of gerber files
 * [OSH Park](https://oshpark.com/)
