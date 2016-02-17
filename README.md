@@ -1,5 +1,5 @@
-# 194 Little Arduino Projects
-> Latest addition:sparkles: [ESP8266/DIYDevBoard](./playground/ESP8266/DIYDevBoard) - a DIY devboard for an ESP-01 ESP8266
+# 195 Little Arduino Projects
+> Latest addition:sparkles: [LCResonator](./Electronics101/LCResonator) - measure the resonant frequency of an LC circuit  or inductance of an inductor
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -91,6 +91,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#056 JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two servos with a joystick |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
+| [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |
 | [#103 LedControlDemo](./playground/LED8x8/LedControlDemo)                          | **8x8 LED, Arduino**            test driving and LED matrix with the LedControl library |
 | [#034 LDRComparator](./Electronics101/LDRComparator)                               | **Sensors, OpAmp, Arduino**     low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [#047 LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)               | **OpAmp**                       demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
