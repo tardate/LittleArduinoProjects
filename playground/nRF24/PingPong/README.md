@@ -2,6 +2,10 @@
 
 Two Arduino's entertaining themselves with a game of "ping pong" over nRF24L01+ 2.4GHz RF.
 
+Here's a quick video of a "game" in action:
+
+[![nRF24/PingPong](http://img.youtube.com/vi/aNJqokwFAGI/0.jpg)](http://www.youtube.com/watch?v=aNJqokwFAGI)
+
 ## Notes
 
 This is a quick first test of Arudino 2.4GHz RF communications using nRF24L01+ modules.
