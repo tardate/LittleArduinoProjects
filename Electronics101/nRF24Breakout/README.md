@@ -24,6 +24,8 @@ After examining the PCBs, I can see a few things that could be improved in the d
 * I didn't allow space between the 2x4 pin header and the pin labels (with the pin adapter installed, the labels are partially obscured)
 * the board size does not match the nRF24 unit very well (the module overlaps the edge of the board). I think the module might be better rotated 90˚.
 
+See [nRF24/PingPong](../playground/nRF24/PingPong), my first shot at using the adapters for real. They worked great!
+
 ## Construction
 
 See the [KiCad project](./kicad_project/nrf24_breakout.pro) for all the details. Here's the result:

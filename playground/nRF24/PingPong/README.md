@@ -20,7 +20,8 @@ NB: I'm using [these nRF24Breakout modules](../../../Electronics101/nRF24Breakou
 
 ### Connections
 
-See the schematic for details. Here's the summary of pin connections to the nRF24L01+ module
+See the schematic for details. Here's the summary of pin connections to the nRF24L01+ module:
+
 | Line | Arduino |
 |------|---------|
 | GND  | GND |
@@ -60,4 +61,4 @@ In practice, I'm seeing no more than 14.8mA drawn by the nRF24L01+ module (send 
 * [nRF24L01+ fritzing part](https://github.com/vdemay/fritzing-parts) - vdemay's GitHub repo
 * [nRF24L01+ datasheet](http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf)
 * [maniacbug RF24](https://github.com/maniacbug/RF24) library
-
+* [nRF24Breakout](../../../Electronics101/nRF24Breakout) - custom breadboard adapters for the nRF24L01+
