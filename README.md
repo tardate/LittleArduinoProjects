@@ -1,5 +1,5 @@
-# 186 Little Arduino Projects
-> Latest addition:sparkles: [AsyncJKCounter](./Electronics101/AsyncJKCounter) - an asynchronous 4-bit counter built with JK Flip-Flops
+# 187 Little Arduino Projects
+> Latest addition:sparkles: [nRF24/PingPong](./playground/nRF24/PingPong) - two Arduino's entertaining themselves with a game of "ping pong" over nRF24L01+ 2.4GHz RF
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -126,6 +126,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#072 NOR7402](./Electronics101/NOR7402)                                           | **74xx TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
 | [#114 NORGateOscillator](./Electronics101/NORGateOscillator)                       | **74xx TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |
 | [#176 nRF24Breakout](./Electronics101/nRF24Breakout)                               | **nRF24, PCB**                  a simple PCB breadboard adapter for 8-pin nRF24 modules |
+| [#187 nRF24/PingPong](./playground/nRF24/PingPong)                                 | **nRF24, Arduino**              two Arduino's entertaining themselves with a game of "ping pong" over nRF24L01+ 2.4GHz RF |
 | [#087 OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)                     | **OLED, Arduino**               driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [#086 OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | **OLED, Arduino**         running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [#122 OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
