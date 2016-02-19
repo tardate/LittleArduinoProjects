@@ -2,6 +2,8 @@
 
 Basic read/write operations to external EEPROM (AT24C02) with the Wire library
 
+![The Build](./assets/BasicReadWrite_build.jpg?raw=true)
+
 ## Notes
 
 I have some AT24C02BN Two-wire Serial EEPROM chips with a whopping capacity of 2K! (256 x 8)
@@ -76,4 +78,4 @@ Note that I have surface mount AT24C02BN chips, so I used a SO-16 to DIP breadbo
 * [Adding External I2C EEPROM to Arduino (24LC256)](http://www.hobbytronics.co.uk/arduino-external-eeprom)
 * [AH_24Cxx EEPROM library](http://arduino.alhin.de/index.php?n=61) - looks like a pretty good wrapper library around the Wire library
 * [EEPROM Library](https://www.arduino.cc/en/Reference/EEPROM) - the standard library for accessing onboard EEPROM (not what I'm doing here)
-
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects188-readwrite.html)
