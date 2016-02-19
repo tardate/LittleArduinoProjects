@@ -1,5 +1,5 @@
-# 187 Little Arduino Projects
-> Latest addition:sparkles: [nRF24/PingPong](./playground/nRF24/PingPong) - two Arduino's entertaining themselves with a game of "ping pong" over nRF24L01+ 2.4GHz RF
+# 188 Little Arduino Projects
+> Latest addition:sparkles: [EEPROM/AT24C02/BasicReadWrite](./playground/EEPROM/AT24C02/BasicReadWrite) - basic read/write operations to external EEPROM (AT24C02) with the Wire library
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -67,6 +67,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#166 DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
+| [#188 EEPROM/AT24C02/BasicReadWrite](./playground/EEPROM/AT24C02/BasicReadWrite)   | **EEPROM, Arduino**             basic read/write operations to external EEPROM (AT24C02) with the Wire library |
 | [#051 El Jarabe Tapatío](./playground/JarabeTapatio)                               | **Audio, Arduino**              play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
 | [#038 ElectretADC](./playground/ElectretADC)                                       | **Audio, Arduino**              convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [#037 ElectretTrigger](./playground/ElectretTrigger)                               | **Sensors, Audio, OpAmp, Arduino** uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
