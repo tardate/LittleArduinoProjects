@@ -2,7 +2,9 @@
 
 A custom 7-segment display module PCB with 74HC595 shift register interface.
 
-![Build](./assets/ShiftDriveModule_build.jpg?raw=true)
+Here's a quick video of the module in action:
+
+[![LED7Segment/ShiftDriveModule](http://img.youtube.com/vi/7cgd1EV6CqY/0.jpg)](http://www.youtube.com/watch?v=7cgd1EV6CqY)
 
 ## Notes
 
@@ -79,5 +81,6 @@ but if I do another I'll probably use female pin headers instead.
 * [gerblook](http://gerblook.org/) - nice tool for testing a set of gerber files
 * [OSH Park](https://oshpark.com/)
 * [HARDWARE HANGOUT with James "Laen" Neal from OSH Park!](https://www.youtube.com/watch?v=XssjD97-xGM) - where I first learned of OSH Park
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects178-making-7.html)
 
 <a href="https://oshpark.com/shared_projects/gs9XjBpw"><img src="https://a800d827b6de8403a51e-6ffc2e718631809086ea40332b2055f7.ssl.cf1.rackcdn.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
