@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:sevensegment_led_display_module-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -35,7 +36,7 @@ encoding utf-8
 Sheet 1 1
 Title "Seven-Segment Display Module"
 Date "2016-01-18"
-Rev "1.0.0"
+Rev "1.1.0"
 Comp "github.com/tardate/LittleArduinoProjects"
 Comment1 ""
 Comment2 ""
@@ -163,17 +164,17 @@ F 3 "" H 7300 3650 50  0000 C CNN
 	1    7300 3650
 	1    0    0    -1  
 $EndComp
-Text Label 3700 3050 3    60   ~ 0
-DATA
-Text Label 2700 4100 2    60   ~ 0
-DATA
-Text Label 3600 3050 3    60   ~ 0
-CLK
-Text Label 2700 4400 2    60   ~ 0
-CLK
 Text Label 3500 3050 3    60   ~ 0
-LATCH
+DATA
 Text Label 2700 3900 2    60   ~ 0
+DATA
+Text Label 3700 3050 3    60   ~ 0
+CLK
+Text Label 2700 4100 2    60   ~ 0
+CLK
+Text Label 3600 3050 3    60   ~ 0
+LATCH
+Text Label 2700 4400 2    60   ~ 0
 LATCH
 $Comp
 L GND #PWR01
