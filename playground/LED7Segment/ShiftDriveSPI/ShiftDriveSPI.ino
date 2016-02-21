@@ -38,25 +38,24 @@ byte LED_DIGIT_MASK[] = {
 
 void setup() {
   SPI.begin();
-  //SPI.beginTransaction(shiftRegisterSettings);
   pinMode(ST_CP_LATCH_PIN, OUTPUT);
 }
 
 
 void loop() {
-
   for(int d=0; d<10; d++) {
     writeDigit(d, d % 2 == 0);
     delay(STEP_DELAY);
   }
-
-  //writeDigit(0, false);
   clearDigit();
   delay(STEP_DELAY);
 }
 
 
 // Command: send +data+ byte to the 74HC595 shift register using SPI
+// Note: since only using one SPI device,
+// beginTransaction()/endTransaction() is actually redundant here
+// SPI setup could be done in the setup() function
 void pushSegmentRegister(byte data) {
   SPI.beginTransaction(shiftRegisterSettings);
   digitalWrite(ST_CP_LATCH_PIN, LOW);
@@ -65,16 +64,18 @@ void pushSegmentRegister(byte data) {
   SPI.endTransaction();
 }
 
+
 void writeDigit(byte digit, boolean withDP) {
   if(withDP) pushSegmentRegister(LED_DIGIT_MASK[digit] | LED_DP_MASK);
   else pushSegmentRegister(LED_DIGIT_MASK[digit]);
 }
 
+
 void writeDigit(byte digit) {
   pushSegmentRegister(LED_DIGIT_MASK[digit]);
 }
 
+
 void clearDigit() {
   pushSegmentRegister(LED_CLEAR_MASK);
 }
-
