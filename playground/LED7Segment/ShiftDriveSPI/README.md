@@ -22,7 +22,8 @@ see the [SPI](https://www.arduino.cc/en/Reference/SPI) reference page for detail
 | DATA (DS, 14)    | MOSI | Master Out Slave In | 11                  |
 | n/a              | MISO | Master In Slave Out | 12                  |
 | CLOCK (SH_CP,11) | SCLK | Serial Clock        | 13                  |
-| LATCH (ST_CP,12) | SS   | Slave Select        | 10 (slave)          |
+| n/a              | SS   | Slave Select (in)   | 10                  |
+| LATCH (ST_CP,12) | SS   | Slave Select (out)  | any free pin        |
 
 ### SPI Settings
 
