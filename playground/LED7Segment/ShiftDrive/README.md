@@ -14,6 +14,24 @@ This project uses a 74HC595 8-bit shift register to feed segment values, requiri
 
 Since the 74HC595 has latched outputs, it also means all segment changes are simulataneous.
 
+### Register-Pin Mapping
+
+Here's a summary of how the bits in the shift register are mapped to LED segments:
+
+| Bit | Segment                    |
+|-----|----------------------------|
+|  0  |  A - top horizontal        |
+|  1  |  B - top right vertical    |
+|  2  |  C - bottom right vertical |
+|  3  |  D - bottom horizontal     |
+|  4  |  E - bottom left vertical  |
+|  5  |  F - top left vertical     |
+|  6  |  G - center  horizontal    |
+|  7  |  dp - decimal point        |
+
+However the [code](./ShiftDriveSPI.ino) uses bytes to represent dp,G,F..A from MSB to LSB,
+so I use MSBFIRST transfer.
+
 ## Construction
 
 ![Breadboard](./assets/ShiftDrive_bb.jpg?raw=true)
