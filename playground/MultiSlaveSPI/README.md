@@ -2,6 +2,10 @@
 
 Using SPI to control multiple devices (that support an SPIish interface)
 
+Here's a quick video of the circuit in action:
+
+[![MultiSlaveSPI](http://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](http://www.youtube.com/watch?v=t2ncYWxmPbo)
+
 ## Notes
 
 The [ShiftDriveSPI](../LED7Segment/ShiftDriveSPI) project demonstrated how hardware SPI can be used to control a system with a 74HC595 interface. The proposed benefit was that SPI allows multiple devices to be controlled with a minimal (+1) extension to the number of pins required.
@@ -13,7 +17,7 @@ It's interesting how far you can push the definition of "SPI-like". In this case
 * a [7-segment LED module](../LED7Segment/ShiftDriveModule) with a 74HC595 interface
 * a [CounterModule](../CounterModule) with a CD4017 interface
 
-These modules are all connected to the SPI interface of an Arduino, with a selperate latch (ss/slave select) for each.
+These modules are all connected to the SPI interface of an Arduino, with a seperate latch (SS/slave select) for each.
 The data to each module actually passes down the same wire (MOSI).
 
 The demo sketch does two things:
