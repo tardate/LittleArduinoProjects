@@ -1,5 +1,5 @@
-# 189 Little Arduino Projects
-> Latest addition:sparkles: [LED7Segment/ShiftDriveSPI](./playground/LED7Segment/ShiftDriveSPI) - using SPI to control a 7-segment display via a 74HC595 shift register
+# 190 Little Arduino Projects
+> Latest addition:sparkles: [MultiSlaveSPI](./playground/MultiSlaveSPI) - using SPI to control multiple devices that support an SPIish interface
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -123,6 +123,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#075 Monostable122](./Electronics101/Monostable122)                               | **74xx TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [#076 MonostablePulseExtender](./playground/MonostablePulseExtender)               | **74xx TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
 | [#046 MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
+| [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
 | [#156 MSO5074FG_unboxing](./Electronics101/MSO5074FG_unboxing)                     | **Tools, Test Equipment**       unboxing and first tests of a Hantek MSO5074FG oscilloscope |
 | [#036 NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [#072 NOR7402](./Electronics101/NOR7402)                                           | **74xx TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
