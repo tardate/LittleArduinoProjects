@@ -18,6 +18,21 @@ Lighting a segment simply means providing a driving voltage to the corresponding
 This circuit puts the resistors in series of the anode pins. This ensures a consistent brightness no matter how many segments are on. Note that it is possible to put the current-limiting resistor on the common cathode;
 this is a bit of an approximation and will lead to varying LED brightness but may be "good enough" depending on your application.
 
+### Pin-Segment Mapping
+
+Here's a summary of how the Arduino pins are mapped to LED segments:
+
+| Pin | Segment                    |
+|-----|----------------------------|
+|  2  |  A - top horizontal        |
+|  3  |  B - top right vertical    |
+|  4  |  C - bottom right vertical |
+|  5  |  D - bottom horizontal     |
+|  6  |  E - bottom left vertical  |
+|  7  |  F - top left vertical     |
+|  8  |  G - center  horizontal    |
+|  9  |  dp - decimal point        |
+
 ### Construction
 
 ![The Breadboard](./assets/DirectDrive_bb.jpg?raw=true)
@@ -30,3 +45,4 @@ this is a bit of an approximation and will lead to varying LED brightness but ma
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
 * [Arduino and 7 Segment LED](http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html) - original idea and source code
 * [Drive a 7-Segment LED with an Arduino](http://makezine.com/projects/drive-a-7-segment-led-with-an-arduino/)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects001-basics-of-7.html)
