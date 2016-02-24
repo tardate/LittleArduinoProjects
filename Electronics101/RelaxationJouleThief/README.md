@@ -33,6 +33,16 @@ but also to tweak what seemed to work best with the specific LED load:
 
 I've also put an LED in circuit directly across the power supply - just to prove the point that the battery cannot power it without help!
 
+### Waveforms
+
+Here's a trace of the circuit with 4 probes at interesting points in the circuit:
+* CH1 - output voltage
+* CH2 - Q1 base
+* CH3 - Q2 base
+* CH4 - input voltage - this is a fairly fresh 1.5V AAA
+
+![RelaxationJouleThief_scope](./assets/RelaxationJouleThief_scope.gif?raw=true)
+
 ## Construction
 
 ![Breadboard](./assets/RelaxationJouleThief_bb.jpg?raw=true)
@@ -45,3 +55,4 @@ I've also put an LED in circuit directly across the power supply - just to prove
 * [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) - wikipedia
 * [#187: Circuit Walkthrough: A single cell LED light supporting Ears to Our World](https://www.youtube.com/watch?v=qfgX93o8HzY) - another great video from w2aew; explains the circuit demonstrated here
 * [Relaxation oscillator](https://en.wikipedia.org/wiki/Relaxation_oscillator) - wikipedia
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects129-relaxation.html)
