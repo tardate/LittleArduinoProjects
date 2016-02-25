@@ -34,6 +34,9 @@ The two wires are wound in a pair in the same direction - about 10 turns - but t
 ![The Schematic](./assets/ToroidJouleThief_schematic.jpg?raw=true)
 
 ### On a Breadboard..
+
+A 1.44V AAA supply running the LED..
+
 ![The Build](./assets/ToroidJouleThief_build.jpg?raw=true)
 
 ### Squeezed into Battery Pack
@@ -49,4 +52,4 @@ Fits a single AA or AAA battery, with a switch added for convenience. Makes a de
 * [Make a Joule Thief](http://www.bigclive.com/joule.htm) - great instructions for a miniaturized joule thief
 * [2N5551 datasheet](http://www.futurlec.com/Transistors/2N5551.shtml)
 * [Ferrite ring](http://www.aliexpress.com/item/free-shipping-5pcs-Power-Inductor-Ferrite-Ring-Iron-Toroidal-green-18mm-x-10mm-x-7mm/32297770345.html) - example of a suitable core
-
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects137-toroidal-joule.html)
