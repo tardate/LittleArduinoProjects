@@ -1,5 +1,5 @@
-# 190 Little Arduino Projects
-> Latest addition:sparkles: [MultiSlaveSPI](./playground/MultiSlaveSPI) - using SPI to control multiple devices that support an SPIish interface
+# 191 Little Arduino Projects
+> Latest addition:sparkles: [LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs) - dual-LED "glowing" oscillator from a 1.5V supply
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -110,6 +110,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [#010 LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
 | [#095 LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
+| [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
