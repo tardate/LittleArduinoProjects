@@ -10,6 +10,8 @@ Make a new project workspace..
 Usage:
   $0 ee ProjectName  # new Electronics101 project
   $0 pg ProjectName  # new playground project
+  $0 ki ProjectName  # new Kinetics project
+  $0 kr ProjectName  # new Kraft project
 
 EOF
   exit
@@ -90,6 +92,14 @@ ee)
 
 pg)
   make_project "playground" "${2}"
+  ;;
+
+ki)
+  make_project "Kinetics" "${2}"
+  ;;
+
+kr)
+  make_project "Kraft" "${2}"
   ;;
 
 *)
