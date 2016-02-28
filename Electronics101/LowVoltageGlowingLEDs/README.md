@@ -71,10 +71,10 @@ After a bit of experiementation, I came up with a configuration of 22µF capacit
 
 ![LowVoltageGlowingLEDs_scope_with_smoothing](./assets/LowVoltageGlowingLEDs_scope_with_smoothing.gif?raw=true)
 
-Note the orientation of the capacitors in the oscillator. I'm using electrolytics, and these orientations are correct in this configuration to ensure they are driven with correct polatiry.
+Note the orientation of the capacitors in the oscillator. I'm using electrolytics, and these orientations are correct in this configuration to ensure they are driven with correct polarity.
 
-Now I'm quite happy with the result, I'll transfer the oscillator from breadboard to protoboard for the project I really wanted this for in the first place!
-
+Now I'm quite happy with the result and committed to component values,
+I transfered the the circuit to protoboard for the project I really wanted this for in the first place!
 
 ## Construction
 
@@ -82,7 +82,13 @@ Now I'm quite happy with the result, I'll transfer the oscillator from breadboar
 
 ![The Schematic](./assets/LowVoltageGlowingLEDs_schematic.jpg?raw=true)
 
+Here's the protoboard build, with LEDs temporarily attached (pending installation in the final project):
+
 ![The Build](./assets/LowVoltageGlowingLEDs_build.jpg?raw=true)
+
+This is the protoboard layout:
+
+![LowVoltageGlowingLEDs_pb_layout](./assets/LowVoltageGlowingLEDs_pb_layout.jpg?raw=true)
 
 ## Credits and References
 * [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
