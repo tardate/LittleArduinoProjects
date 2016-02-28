@@ -1,5 +1,5 @@
-# 191 Little Arduino Projects
-> Latest addition:sparkles: [LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs) - dual-LED "glowing" oscillator from a 1.5V supply
+# 192 Little Arduino Projects
+> Latest addition:sparkles: [Sagrada Família](./Kraft/SagradaFamilia) - a paper model with some LED effects
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -174,6 +174,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#119 RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
+| [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
 | [#021 Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
