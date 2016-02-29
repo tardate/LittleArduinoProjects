@@ -1,8 +1,10 @@
 # #192 Sagrada Família
 
-a paper nano model with some LED effects
+A paper model with some LED effects thrown in for atmosphere!
 
-![build_night](./assets/build_night.jpg?raw=true)
+Here's a quick video of the finished kit:
+
+[![Sagrada Família](./assets/build_night.jpg?raw=true)](http://www.youtube.com/watch?v=RFkUJQybjwQ)
 
 ## Notes
 
