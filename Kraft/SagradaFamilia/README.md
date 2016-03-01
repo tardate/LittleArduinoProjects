@@ -12,8 +12,8 @@ The [Basílica i Temple Expiatori de la Sagrada Família](https://en.wikipedia.o
 has been under construction since 1882.
 The magnitude of the vision driving the project - both physically and creatively - is striking, especially at first hand.
 
-But then you see the work in progress - the cranes, scaffolding, workers scurrying around the site.
-And that is what I think really brings it to life. This is not a frozen, finished statement of something other-worldy.
+Then you see the work in progress - the cranes, scaffolding, workers scurrying around the site.
+But that is what I think really brings it to life. This is not a frozen, finished statement of something other-worldy.
 It's a vibrant expression of the hope and aspirations of a whole bunch of people working together.
 
 In other words, it is the ultimate maker project! Personally, I think it will be a sad day when someone declares it actually "finished".
@@ -52,3 +52,4 @@ There's not too much to the build. Just follow the instructions! A few points to
 * [Paper Sagrada Familia](http://www.amazon.com/gp/product/B00HFO3MIQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00HFO3MIQ&linkCode=as2&tag=itsaprli-20&linkId=UUSQ6CYPF5HQIMLK) - the kit on amazon
 * [Sagrada Família](https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia) - wikipedia
 * [LowVoltageGlowingLEDs](../../Electronics101/LowVoltageGlowingLEDs) project - dual-LED "glowing" oscillator from a 1.5V supply
+* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects192-sagrada.html)
