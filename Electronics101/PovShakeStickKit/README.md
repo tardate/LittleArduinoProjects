@@ -61,7 +61,7 @@ The source is not identical to that pre-loaded in my kit (it has some different 
 
 The interrupt handling is identical to Keil's [8051 /INT0 External Interrupt Example Program](http://www.keil.com/download/docs/188.asp).
 
-Here's what it looks like displaying a heart:
+Here's what it looks like displaying a heart (my photo/my stick!):
 
 ![PovShakeStickKit_demo](./assets/PovShakeStickKit_demo.jpg?raw=true)
 

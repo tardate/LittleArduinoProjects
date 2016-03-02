@@ -142,7 +142,7 @@ void DelayUs(uint N)
 }
 
 /*****中断服务程序*****/
-// interrupt service routing for INT1 (P3.2)
+// interrupt service routing for INT0 (P3.2)
 void intersvr0(void) interrupt 0 using 1
 {
   KY=~KY;      //每个摇动来回水银开关会在摆幅两端分别产生下降沿中断，只提取其中一次（从左向右摇才显示）
