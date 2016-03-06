@@ -1,7 +1,7 @@
 {
     "id": "#344",
     "name": "ESP8266 GettingStarted with MicroPython",
-    "description": "getting MicroPython up and running with an ESP-01 ESP8266",
+    "description": "getting MicroPython up and running with an ESP-01 ESP8266. Updated with the latest firmware from 2025-12-09.",
     "categories": "ESP8266, MicroPython",
     "relative_path": "ESP8266/micropython/GettingStarted",
     "updated_at": "2016-03-07T01:44:30Z",

@@ -1,6 +1,6 @@
-# 810 Little Electronic Art Projects
+# 811 Little Electronic Art Projects
 
-> Latest addition :sparkles: [LED Matrix SMD Practice Board](./Electronics101/SMDPracticeBoards/LedMatrixKit1) - A full-featured soldering practice board with a range of components (0603 , 0805, SO-8, SO-16) and a 64-LED matrix that displays a microcontroller-generated pattern when soldered correctly.
+> Latest addition :sparkles: [ESP8266 (ESP-01) IoT Temperature Sensor](./ESP8266/micropython/esp-01-temperature-logger) - Using MicroPython on an ESP8266 to capture DS18S20 temperature readings and log to a cloud data collection service (dweet.cc)
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
