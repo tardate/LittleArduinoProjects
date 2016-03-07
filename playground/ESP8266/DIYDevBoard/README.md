@@ -2,6 +2,8 @@
 
 a DIY devboard for an ESP-01 ESP8266
 
+![DIYDevBoard_demo](./assets/DIYDevBoard_demo.jpg?raw=true)
+
 ## Notes
 
 With the funding of the [MicroPython on the ESP8266](https://www.kickstarter.com/projects/214379695/micropython-on-the-esp8266-beautifully-easy-iot) campaign, my interest in the ESP8266 is rekindled.
@@ -33,7 +35,7 @@ The normal position is "off".
 | SW1 (left)  | GPIO_0 | Pulled high | Pulled low | Pull low to enter flash mode |
 | SW2 (right) | RESET  | Pulled high | Pulled low | Toggle low then high to reset the board |
 
-### Test Drive with the esptool
+### Test Drive with espy.rb
 
 To verify everything was working OK on the devboard, I plugged in the ESP8266 with default firmware
 and I exercised it with [SerialTest/ruby](../SerialTest/ruby). Here's a test of getting the time:
@@ -112,8 +114,10 @@ The end result:
 
 ![The Build](./assets/DIYDevBoard_build.jpg?raw=true)
 
+![DIYDevBoard_demo](./assets/DIYDevBoard_demo.jpg?raw=true)
+
 ## Credits and References
 * [esptool.py](https://github.com/themadinventor/esptool)
 * [BidirectionalLevelShifterModule](../../../Electronics101/BidirectionalLevelShifterModule)
 * [SerialTest](../SerialTest) - my first test of the ESP8266, with more details of board use
-
+* [PowerLD1117](../../../Electronics101/PowerLD1117) - LD1117 circuit and notes
