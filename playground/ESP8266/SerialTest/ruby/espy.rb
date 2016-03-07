@@ -121,7 +121,7 @@ end
 
 # parse command parameters
 port_spec,opcode,params = ARGV.shift, ARGV.shift, ARGV
-port_name,baud_rate = port_spec.split(':')
+port_name,baud_rate = port_spec.split(':') if port_spec
 unless (baud_rate = baud_rate.to_i) > 0
   baud_rate = 9600
 end
