@@ -16,6 +16,15 @@ The DHT11 sensor is a very cheap and common sensor that provides readings of:
 I've used this before with an Arduino - see [LEAP#301](../../../playground/DHT11/Basics).
 This time I'm testing with the most basic ESP8266 board - an ESP-01, which exposes one free GPIO.
 
+### Programming Setup
+
+I'm using a [LEAP#194 DIYDevBoard](../../DIYDevBoard) to host the ESP-01 module,
+and a cheap [CH340G-based USB to UART adapter](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html).
+With the
+[correct drivers installed](../../../notebook/arduino.md#arduinos-using-the-ch340g-serial-chip),
+it shows up in the tty device list.
+
+My host computer is running MacOSX.
 
 ### Required Libraries
 
@@ -49,5 +58,6 @@ Here is a test run:
 * [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)
 * [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)
 * [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library)
+* [LEAP#194 DIYDevBoard](../../DIYDevBoard) - the dev board I'm using to host the ESP-01
 * [LEAP#301 DHT11/Basics](../../../playground/DHT11/Basics) - similar project for an Arduino
 * [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap343-esp8266-dht11-sensor-reading.html)

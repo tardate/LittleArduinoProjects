@@ -1547,6 +1547,13 @@
         "name": "ESP8266/DIYDevBoard"
     }, 
     {
+        "description": "getting MicroPython up and running with an ESP-01 ESP8266", 
+        "relative_path": "ESP8266/micropython/GettingStarted", 
+        "id": "#344", 
+        "categories": "ESP8266, MicroPython", 
+        "name": "ESP8266/micropython/GettingStarted"
+    }, 
+    {
         "description": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker", 
         "relative_path": "ESP8266/MorseBlinky", 
         "id": "#342", 
@@ -1557,7 +1564,7 @@
         "description": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino", 
         "relative_path": "ESP8266/Sensors/DHT11", 
         "id": "#343", 
-        "categories": "ESP8266", 
+        "categories": "ESP8266, Sensors", 
         "name": "ESP8266/Sensors/DHT11"
     }, 
     {

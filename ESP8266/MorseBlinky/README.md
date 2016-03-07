@@ -123,7 +123,7 @@ closing bootloader
 ## Credits and References
 * [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)
 * [esptool.py](https://github.com/themadinventor/esptool) - used under the covers by the ESP8266 core for Arduino
-* [LEAP#194 DIYDevBoard](../DIYDevBoard)
+* [LEAP#194 DIYDevBoard](../DIYDevBoard) - the dev board I'm using to host the ESP-01
 * [How To Program ESP8266 With Arduino IDE](https://www.youtube.com/watch?v=48JUh8Vlea4) - youtube
 * [Morse Code Translator](https://morsecode.scphillips.com/translator.html)
 * [Morse Code](https://en.wikipedia.org/wiki/Morse_code) - wikipedia

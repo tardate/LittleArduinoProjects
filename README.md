@@ -1,5 +1,6 @@
-# 343 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ESP8266/Sensors/DHT11](./ESP8266/Sensors/DHT11) - reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino.
+# 344 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ESP8266/micropython/GettingStarted](./ESP8266/micropython/GettingStarted) - getting MicroPython up and running with an ESP-01 ESP8266.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -163,8 +164,9 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#037 ElectretTrigger](./playground/ElectretTrigger)                               | **Sensors, Audio, OpAmp, Arduino** uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
 | [#088 ElectronicClockKit](./Electronics101/ElectronicClockKit)                     | **LCD, Kit**                    build and investigate a commercially available "electronic clock" kit |
 | [#194 ESP8266/DIYDevBoard](./ESP8266/DIYDevBoard)                                  | **ESP8266**                     a DIY devboard for an ESP-01 ESP8266 |
+| [#344 ESP8266/micropython/GettingStarted](./ESP8266/micropython/GettingStarted)    | **ESP8266, MicroPython**        getting MicroPython up and running with an ESP-01 ESP8266 |
 | [#342 ESP8266/MorseBlinky](./ESP8266/MorseBlinky)                                  | **ESP8266**                     building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker |
-| [#343 ESP8266/Sensors/DHT11](./ESP8266/Sensors/DHT11)                              | **ESP8266**                     reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino |
+| [#343 ESP8266/Sensors/DHT11](./ESP8266/Sensors/DHT11)                              | **ESP8266, Sensors**            reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino |
 | [#154 ESP8266/SerialTest](./ESP8266/SerialTest)                                    | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./ESP8266/SerialTest/ruby)                          | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
 | [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
