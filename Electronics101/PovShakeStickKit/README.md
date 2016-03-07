@@ -91,3 +91,4 @@ Here's my transcription of the circuit. The subsystems break down quite simply:
 * [Keil development tools for the 8051 Microcontroller Architecture](http://www.keil.com/c51/)
 * [8051 /INT0 External Interrupt Example Program](http://www.keil.com/download/docs/188.asp)
 * [Vibration switch Shock vibration sensor Shaked switch Shaked stick Skates (G1A3)](http://www.aliexpress.com/item/Vibration-switch-Shock-vibration-sensor-Shaked-switch-Shaked-stick-Skates-G1A3/1898867376.html?spm=2114.01010208.8.5.VTwjvL) - example of the part used as movement input for the shake stick
+* [..as mentioned on my blog](http://blog.tardate.com/2016/03/littlearduinoprojects193-pov-led-shake.html)
