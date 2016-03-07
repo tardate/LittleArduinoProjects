@@ -38,8 +38,10 @@ Pin usage:
 | URXD  | serial receive |
 | CH_PD | chip select, required to be pulled high |
 | RST   | pull low to reset |
-| GPIO0 | sometimes labelled GPIO1? There are [reported issues](https://github.com/esp8266/Arduino/issues/244) if not pulled high with 10kΩ |
+| GPIO0 | pull low to enter flash mode. There are [reported issues](https://github.com/esp8266/Arduino/issues/244) if not pulled high with e.g 10kΩ |
 | GPIO2 | other I/O port given a module pinout (the chip itself has more GPIO pins) |
+
+
 
 My first job was to bodge together a breadboard adapter for the ESP8266 module -
 it's interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug directly into a breadboard.
@@ -242,3 +244,4 @@ NB: diagrams drawn with the custom parts from [ESP8266_fritzing](https://github.
 * [electrodragon ESP8266 reference](http://www.electrodragon.com/w/ESP8266)
 * [ESP8266 Community Forum](http://www.esp8266.com/)
 * [nurdspace AT command reference](https://nurdspace.nl/ESP8266#AT_Commands)
+* [BidirectionalLevelShifterModule](../../../Electronics101/BidirectionalLevelShifterModule)

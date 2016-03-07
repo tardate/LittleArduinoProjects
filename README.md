@@ -1,5 +1,5 @@
 # 193 Little Arduino Projects
-> Latest addition:sparkles: [PovShakeStickKit](./Electronics101/PovShakeStickKit) - build and investigate an AT89S52-based "shake stick" kit
+> Latest addition:sparkles: [ESP8266/DIYDevBoard](./playground/ESP8266/DIYDevBoard) - a DIY devboard for an ESP-01 ESP8266
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -72,6 +72,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#038 ElectretADC](./playground/ElectretADC)                                       | **Audio, Arduino**              convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [#037 ElectretTrigger](./playground/ElectretTrigger)                               | **Sensors, Audio, OpAmp, Arduino** uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |
 | [#088 ElectronicClockKit](./Electronics101/ElectronicClockKit)                     | **LCD, Kit**                    build and investigate a commercially available "electronic clock" kit |
+| [#193 ESP8266/DIYDevBoard](./playground/ESP8266/DIYDevBoard)                       | **ESP8266**                     a DIY devboard for an ESP-01 ESP8266 |
 | [#154 ESP8266/SerialTest](./playground/ESP8266/SerialTest)                         | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./playground/ESP8266/SerialTest/ruby)               | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
 | [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
