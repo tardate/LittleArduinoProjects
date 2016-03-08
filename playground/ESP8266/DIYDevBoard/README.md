@@ -121,3 +121,4 @@ The end result:
 * [BidirectionalLevelShifterModule](../../../Electronics101/BidirectionalLevelShifterModule)
 * [SerialTest](../SerialTest) - my first test of the ESP8266, with more details of board use
 * [PowerLD1117](../../../Electronics101/PowerLD1117) - LD1117 circuit and notes
+* [..as mentioned on my blog](http://blog.tardate.com/2016/03/littlearduinoprojects194-diy-esp8266.html)
