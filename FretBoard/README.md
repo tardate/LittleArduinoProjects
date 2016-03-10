@@ -19,7 +19,7 @@ Done:
 
 ## Notes
 
-### The Build Status Web Repsonse
+### The Build Status Web Response
 
 We get build status from a web server that supports a simple HTTP 1.0 CSV response.
 This is probably a proxy to the actual build server.
@@ -29,26 +29,27 @@ repository for an example of a proxy that can handle CruiseControl XmlStatusRepo
 
 The response looks like this:
 
-    $ curl -i -0 --raw http://fretboard.tardate.com/status.csv
+```
+$ curl -i -0 --raw http://fretboard.tardate.com/status.csv
 
-    HTTP/1.1 200 OK
-    Connection: close
-    Content-Type: text/csv;charset=utf-8
-    Content-Length: 288
-    X-Content-Type-Options: nosniff
-    Server: WEBrick/1.3.1 (Ruby/2.0.0/2014-11-13)
-    Date: Sun, 01 Feb 2015 09:04:18 GMT
-    Via: 1.1 vegur
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/csv;charset=utf-8
+Content-Length: 288
+X-Content-Type-Options: nosniff
+Server: WEBrick/1.3.1 (Ruby/2.0.0/2014-11-13)
+Date: Sun, 01 Feb 2015 09:04:18 GMT
+Via: 1.1 vegur
 
-    dummy_project_1,Sleeping,Success
-    dummy_project_2,Sleeping,Failure
-    dummy_project_3,CheckingModifications,Success
-    dummy_project_4,CheckingModifications,Failure
-    dummy_project_5,Building,Success
-    dummy_project_6,Building,Failure
-    dummy_project_7,Unknown,Success
-    dummy_project_8,Unknown,Failure
-
+dummy_project_1,Sleeping,Success
+dummy_project_2,Sleeping,Failure
+dummy_project_3,CheckingModifications,Success
+dummy_project_4,CheckingModifications,Failure
+dummy_project_5,Building,Success
+dummy_project_6,Building,Failure
+dummy_project_7,Unknown,Success
+dummy_project_8,Unknown,Failure
+```
 
 Each line of the CSV response includes three elements:
 
@@ -101,8 +102,8 @@ Not much to the electronics. Core parts:
 * Arduino Uno
 * Arduino Ethernet shield
 * WS2811-based LED Strip
-* 1000uF capacitor for power supply smoothing
-* 1k resistor for current-limiting the LED data line
+* 1000µF capacitor for power supply smoothing
+* 1kΩ resistor for current-limiting the LED data line
 
 And then connectors etc depending on the physical housing.
 
