@@ -23,14 +23,14 @@ L = 1 / ( C * (2πf)^2 )
 
 ### JFET Selection
 
-The [original circuit](http://archive.org/stream/73-magazine-1990-09/09_September_1990#page/n49/mode/1up) used a 2N5245 N-JFET,
-w2aew used a J310. I ended up comparing J201 and J310.
+The [original circuit](http://archive.org/stream/73-magazine-1990-09/09_September_1990#page/n49/mode/1up) used a 2N5245 N-JFET with 470Ω R2,
+w2aew used a J310 with 1kΩ R2. I ended up comparing J201 and J310 qith a range of R2 values.
 
-| JFET   | R2   | Idss    | Vgs(off)       |
-|--------|------|---------|----------------|
-| 2N5245 | 470Ω | 5-15mA  | -1V to -6V     |
-| J310   | 1kΩ  | 24-60mA | -2V to -6.5V   |
-| J201   |      | 0.2-1mA | -0.3V to -1.5V |
+| JFET   | Idss    | Vgs(off)       |
+|--------|---------|----------------|
+| 2N5245 | 5-15mA  | -1V to -6V     |
+| J310   | 24-60mA | -2V to -6.5V   |
+| J201   | 0.2-1mA | -0.3V to -1.5V |
 
 
 ### Breadboard Test Results
@@ -77,8 +77,8 @@ In summary, with a breadboard build and 9V supply:
 * if C1 too high (over 150pF), can't sustain oscillation
 * R2 sweet spot is around 2.2kΩ
 
-I've only done these tests on a breadboard; I'll have to try on a protoboard or PCB to see if it helps sustain oscillation
-and in particular measure inductors below 10µH (read on for the results; they are fab..)
+I hoped that a protoboard or PCB build would helps sustain oscillation
+and in particular measure inductors below 10µH. Which turns out to be true .. read on for the results - they are good!
 
 Sample trace measuring a 100µH choke with J201, R2=2.2kΩ, and C1=50pF:
 
@@ -118,11 +118,15 @@ and given the accuracy of the other readings with "known" inductors, I'm encoura
 No wonder my RF circuits are all off - it seems coil inductance calculators need to be treated with a big pinch of salt.
 
 
-Sample trace measuring a 1µH choke and C1=30pF:
+Here's a very nice trace measuring a 10µH choke and C1=150pF:
+
+![10µH/150pF](./assets/scope_pcb10uh150pf.gif?raw=true)
+
+And finally I can crack the 10µH barrier. Here's a measurement of a 1µH choke and C1=30pF:
 
 ![1µH/30pF](./assets/scope_pcb1uh30pf.gif?raw=true)
 
-Sample trace measuring a custom coild with C1=30pF:
+And a sub-1µH custom coil with C1=30pF:
 
 ![custom coil #1/30pF](./assets/scope_pcbL1h30pf.gif?raw=true)
 
@@ -142,6 +146,7 @@ And now on a chopped-up PCB:
 ![LCResonator_build](./assets/LCResonator_build.jpg?raw=true)
 
 ## Credits and References
+* [LC circuit](https://en.wikipedia.org/wiki/LC_circuit) - wikipedia
 * [Measuring coil inductance and IF transformer resonant frequency](https://www.youtube.com/watch?v=Ff5xOENID7w) - w2aew
 * [The Coil Tester](http://archive.org/stream/73-magazine-1990-09/09_September_1990#page/n49/mode/1up) - article from 73 Amateur Radio - September 1990
 * [L/C/F and Single-Layer Coil Winding Calculator](http://www.arrl.org/shop/L-C-F-and-Single-Layer-Coil-Winding-Calculator/) - ARRL Store
@@ -149,3 +154,5 @@ And now on a chopped-up PCB:
 * [J310 datasheet](http://www.futurlec.com/Transistors/J310.shtml)
 * [J201 datasheet](http://www.futurlec.com/Transistors/J201.shtml)
 * [JFET](https://en.wikipedia.org/wiki/JFET) - wikipedia
+* [a coil calculator](http://www.66pacific.com/calculators/coil_calc.aspx)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/03/littlearduinoprojects195-coil-resonance.html)
