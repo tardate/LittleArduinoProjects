@@ -10,7 +10,7 @@ Here's a quick video of the circuit in action:
 
 The 7-segment display unit I have is stamped "SMA42056". It appears to be fairly common, however I've yet to find a datasheet for it.
 From inspection hwoever, it's clearly a common cathode unit, and similar to the
-the [SC56-11](./assets/SC56-11_datasheet.pdf?raw=true)
+the [SC56-11](../assets/SC56-11_datasheet.pdf?raw=true)
 
 There are two common cathode pins, but since these are internally connected there is no need to connect both to ground.
 Lighting a segment simply means providing a driving voltage to the corresponding anode pin.

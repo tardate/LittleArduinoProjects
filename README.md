@@ -1,5 +1,5 @@
-# 195 Little Arduino Projects
-> Latest addition:sparkles: [LCResonator](./Electronics101/LCResonator) - measure the resonant frequency of an LC circuit  or inductance of an inductor
+# 196 Little Arduino Projects
+> Latest addition:sparkles: [LED7Segment/CD4026Drive](./playground/LED7Segment/CD4026Drive) - driving a 7-segment display with CD4026 Counter
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -99,6 +99,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#080 Led4Digit7Segment/DoubleShift](./playground/Led4Digit7Segment/DoubleShift)   | **7-Segment, 74xx, Arduino**    driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs |
 | [#081 Led4Digit7Segment/DoubleShiftWithFETs](./playground/Led4Digit7Segment/DoubleShiftWithFETs)| **7-Segment, 74xx, Arduino** driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs |
 | [#078 Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)   | **7-Segment, 74xx, Arduino**    driving a 4-digit 7-segment display with a shift register and a few BJTs |
+| [#196 LED7Segment/CD4026Drive](./playground/LED7Segment/CD4026Drive)               | **7-Segment, CMOS, Arduino**    driving a 7-segment display with CD4026 Counter |
 | [#001 LED7Segment/DirectDrive](./playground/LED7Segment/DirectDrive)               | **7-Segment, Arduino**          test a 7-segment common cathode display |
 | [#177 LED7Segment/ShiftDrive](./playground/LED7Segment/ShiftDrive)                 | **7-Segment, 74xx, Arduino**    test control of a 7-segment display via a 74HC595 shift register |
 | [#178 LED7Segment/ShiftDriveModule](./playground/LED7Segment/ShiftDriveModule)     | **7-Segment, 74xx, Arduino, PCB** a custom 7-segment display module PCB with 74HC595 shift register interface |
