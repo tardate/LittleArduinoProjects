@@ -1,19 +1,25 @@
 # #195 LCResonator
 
-Measure the resonant frequency of an LC circuit or inductance of an inductor
+Measure the resonant frequency of an LC coil or inductance of an inductor
+
+![LCResonator_build](./assets/LCResonator_build.jpg?raw=true)
 
 ## Notes
 
 Again I'm inspired by one of [w2aew's videos](https://www.youtube.com/watch?v=Ff5xOENID7w).
+I really needed something like this, as my attempts at winding my own inductors (for some RF projects)
+have failed miserably, and it's a really usefull thing to be able to measure the inductance
+of a custom coil (or unknown inductor), and/or resononant frequency of the resulting LC pair.
 
-This circuit is used to measure the resonant frequency of an LC circuit. It works in two ways:
+The circuit is used to measure the resonant frequency of an LC circuit. It works in two ways:
 * by attaching an LC circuit without the calibration capacitor
 * by inserting a known-value calibration capacitor, the inductance of the inductor can be derived (calculated)
+
+If the capacitane is known, then the inductance may be calculated with a re-arrangement of the LC resonant frequency formula:
 
 ```
 L = 1 / ( C * (2πf)^2 )
 ```
-
 
 ### JFET Selection
 
@@ -28,6 +34,10 @@ w2aew used a J310. I ended up comparing J201 and J310.
 
 
 ### Breadboard Test Results
+
+I did my first tests on a breadboard build:
+
+![LCResonator_bb_build](./assets/LCResonator_bb_build.jpg?raw=true)
 
 Here are some measurements. Where "n/a" it means I was not able to provoke an oscillation.
 
@@ -56,11 +66,9 @@ Here are some measurements. Where "n/a" it means I was not able to provoke an os
 | J310 | 4.7kΩ |  33pF | 33pF | n/a      | 1µH    | n/a |
 | J201 | 2.2kΩ |  33pF | 15pF | n/a      | 1µH    | n/a |
 
-### Findings
+### Findings - Breadboard Tests
 
 As long as the oscillation can be sustained, measured results and inferred inductance is surprisingly close to theory.
-I've only done these tests on a breadboard; I'll have to try on a protoboard or PCB to see if it helps sustain oscillation
-and in particular measure inductors below 10µH.
 
 In summary, with a breadboard build and 9V supply:
 
@@ -69,6 +77,8 @@ In summary, with a breadboard build and 9V supply:
 * if C1 too high (over 150pF), can't sustain oscillation
 * R2 sweet spot is around 2.2kΩ
 
+I've only done these tests on a breadboard; I'll have to try on a protoboard or PCB to see if it helps sustain oscillation
+and in particular measure inductors below 10µH (read on for the results; they are fab..)
 
 Sample trace measuring a 100µH choke with J201, R2=2.2kΩ, and C1=50pF:
 
@@ -78,13 +88,58 @@ Sample trace measuring a 10µH choke with J201, R2=2.2kΩ, and C1=33pF:
 
 ![J201/10µH/2.2kΩ/33pF](./assets/scope_J201L10uR22C33.gif?raw=true)
 
+### PCB Test Results
+
+So next I've copied w2aew and put the circuit on a copper PCB (with 6 islands), and the improvement is staggering.
+I'm able to measure much lower inductances without having to raise the power rail from 9V.
+I made both L1 and C1 interchangeable (with pins on the board to add random capacitors, inductors, coils or LC modules)
+
+A few minor component switches/selections:
+
+* I put J310's down on the board, even though J201 seemed to perform in the same ballpark
+* replaced "ordinary" ceramic disc capacitors with supposedly higher-quality multi-layer ceramics
+* C2 33nF replaced with a 30nF multi-layer ceramic
+* I settled on 2.2kΩ for R2 (FET source load)
+
+Here are some measurements:
+
+| C1    | f         | L(nom) | L(calc) |
+|-------|-----------|--------|-----------|
+|  50pF |  6.802MHz | 10µH   | [10.95µH](http://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80+*+6.802MHz%29^2+%29) |
+| 150pF |  4.255MHz | 10µH   | [9.33µH](http://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80+*+4.255MHz%29^2+%29) |
+| 150pF | 12.608MHz |  1µH   | [1.06µH](http://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80+*+12.608MHz%29^2+%29) |
+|  30pF | 24.631MHz |  1µH   | [1.39µH](http://www.wolframalpha.com/input/?i=1+%2F+%28+30pF+*+%282%CF%80+*+24.631MHz%29^2+%29) |
+|  30pF | 34.094MHz | hand wound #1  | [0.73µH](http://www.wolframalpha.com/input/?i=1+%2F+%28+30pF+*+%282%CF%80+*+34.094MHz%29^2+%29) |
+
+The hand wound #1 coil is simply an 8mm diameter coil, about 2mm long, with 4.5 turns of 0.2mm enamelled copper wire.
+According to [this coil calculator](http://www.66pacific.com/calculators/coil_calc.aspx)
+the inductance should be ablout 0.28µH. My measurement says 0.73µH,
+and given the accuracy of the other readings with "known" inductors, I'm encouraged to go with my measured value.
+No wonder my RF circuits are all off - it seems coil inductance calculators need to be treated with a big pinch of salt.
+
+
+Sample trace measuring a 1µH choke and C1=30pF:
+
+![1µH/30pF](./assets/scope_pcb1uh30pf.gif?raw=true)
+
+Sample trace measuring a custom coild with C1=30pF:
+
+![custom coil #1/30pF](./assets/scope_pcbL1h30pf.gif?raw=true)
+
+
 ## Construction
 
 ![Breadboard](./assets/LCResonator_bb.jpg?raw=true)
 
 ![The Schematic](./assets/LCResonator_schematic.jpg?raw=true)
 
-![The Build](./assets/LCResonator_build.jpg?raw=true)
+Here's the build on a breadboard:
+
+![LCResonator_bb_build](./assets/LCResonator_bb_build.jpg?raw=true)
+
+And now on a chopped-up PCB:
+
+![LCResonator_build](./assets/LCResonator_build.jpg?raw=true)
 
 ## Credits and References
 * [Measuring coil inductance and IF transformer resonant frequency](https://www.youtube.com/watch?v=Ff5xOENID7w) - w2aew
