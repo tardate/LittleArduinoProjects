@@ -13,7 +13,7 @@ on the rising edge of the CLOCK pulse.
 The chip has a CARRY OUT that triggers every 10 clock input cycles, so it can be used to chain the units for multi-LED displays.
 However, it has no explicit support for controlling the decimal-point if present in the 7-segment display unit.
 
-![CD4026Drive_chip](./assets/CD4026Drive_chip.jpg?raw=true)
+![CD4026Drive_chip - ST HCF4026BE](./assets/CD4026Drive_chip.jpg?raw=true)
 
 I can't find much in the way of history of the chip (except that it appears to have originated at TI),
 and of course it is now quite obsolete anywhere near a microcontroller.
@@ -48,4 +48,5 @@ then sends a pulse per second to the CD4026 - so a simple monotonic second count
 
 ## Credits and References
 * [CD4026 Datasheet](http://www.futurlec.com/4000Series/CD4026.shtml)
+* [ST HCF4026B Datasheet](http://www.digchip.com/datasheets/parts/datasheet/456/HCF4026-pdf.php) - closest I could find to the actual chip I have. Functionally identical to the CD4026.
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
