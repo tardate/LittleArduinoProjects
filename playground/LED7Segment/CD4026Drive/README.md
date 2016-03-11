@@ -15,13 +15,14 @@ The chip has a CARRY OUT that triggers every 10 clock input cycles, so it can be
 I can't find much in the way of history of the chip (except that it appears to have originated at TI),
 and of course it is now quite obsolete anywhere near a microcontroller.
 
-It's an interesting alternative to a shift register for driving a 7-segment LED.
-While a latched shift register gives random addressing and clean transitions to any digit,
-it requires the 7-segment display outputs to be decoded externally.
+It's an interesting alternative to using shift register for driving a 7-segment LED (as in the
+[ShiftDrive](../ShiftDrive) project).
+While a latched shift register provides random addressing and clean transitions to any digit,
+it requires the 7-segment display outputs to be decoded externally (like in code).
 On the other hand, the CD4026 takes care of the decoding, and external circuits just need to send a counter pulse.
 
 The 7-segment single-digit display unit I'm using is a common cathode unit, similar to the [SC56-11](../assets/SC56-11_datasheet.pdf?raw=true).
-A common anode (or common catchode unit with different pinouts) just requires minor modification to the circuit.
+A common anode (or common cathode unit with different pinouts) just requires minor modification to the circuit.
 
 ### Sample Code
 
