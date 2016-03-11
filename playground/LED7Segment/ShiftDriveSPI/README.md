@@ -81,4 +81,3 @@ This is "mode 0", aka SPI_MODE0.
 * [Sharing Clock and Data for 74HC595 and CD4021B Shift Registers?](http://electronics.stackexchange.com/questions/122520/sharing-clock-and-data-for-74hc595-and-cd4021b-shift-registers) - electronics.stackexchange
 * [Driving 595 Shift Registers](http://www.appelsiini.net/2012/driving-595-shift-registers) - good article with AVR implementation details
 * [Using Serial Peripheral Interface (SPI) Master and Slave with Atmel AVR Microcontroller](http://www.ermicro.com/blog/?p=1050) - well explained code
-
