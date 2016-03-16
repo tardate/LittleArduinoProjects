@@ -1,5 +1,5 @@
-# 196 Little Arduino Projects
-> Latest addition:sparkles: [LED7Segment/CD4026Drive](./playground/LED7Segment/CD4026Drive) - driving a 7-segment display with CD4026 Counter
+# 197 Little Arduino Projects
+> Latest addition:sparkles: [WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) - fixed-frequency tone generator based on a Wien Bridge Oscillator
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -222,6 +222,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#097 VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
 | [#125 VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [#164 WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
+| [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
 | [#011 X113647Stepper](https://github.com/tardate/X113647Stepper)                   | **Stepper, Arduino**            It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits. However documentation is scant and the board is not exactly compatible with the standard Stepper library. See the [X113647Stepper github page](https://github.com/tardate/X113647Stepper) for details of the library, example programs, and custom Fritzing parts for the components. |
 
 
