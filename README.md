@@ -1,5 +1,5 @@
-# 197 Little Arduino Projects
-> Latest addition:sparkles: [WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) - fixed-frequency tone generator based on a Wien Bridge Oscillator
+# 198 Little Arduino Projects
+> Latest addition:sparkles: [HallEffectSwitch](./Electronics101/HallEffectSwitch) - testing a Hall effect switch
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -83,6 +83,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
+| [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [#142 HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) |**OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |
 | [#043 HitTheLights](./playground/HitTheLights)                                     | **LCD, Human Input, Arduino**   simple LED game with LCD output and interrupt-driven button input |
