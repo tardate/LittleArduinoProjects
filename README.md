@@ -1,5 +1,5 @@
-# 353 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop) - building a clocked D Flip-flop with 74LS00 NAND gates.
+# 354 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SpiderBot](./Kinetics/SpiderBot) - Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -347,6 +347,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
 | [#117 SolenoidDIY](./Electronics101/SolenoidDIY)                                   | **Solenoid, Arduino**           build and test a basic electromechanical solenoid |
 | [#200 SolenoidMotor](./Kinetics/SolenoidMotor)                                     | **Solenoid**                    a single-cylinder mini-solenoid engine |
+| [#354 SpiderBot](./Kinetics/SpiderBot)                                             | **Boldport, Kinetics**          Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system |
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer as an astable oscillator to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/Oscillators/AstableOpamp)              | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave (astable opamp oscillator) |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **CMOS/TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |

@@ -1666,6 +1666,13 @@
         "name": "SolenoidMotor"
     }, 
     {
+        "description": "Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system", 
+        "relative_path": "Kinetics/SpiderBot", 
+        "id": "#354", 
+        "categories": "Boldport, Kinetics", 
+        "name": "SpiderBot"
+    }, 
+    {
         "description": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine", 
         "relative_path": "Kinetics/StirlingEngineHB13", 
         "id": "#185", 
