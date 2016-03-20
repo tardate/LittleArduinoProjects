@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-03-29T10:07:25Z</updated>
+  <updated>2020-03-29T16:04:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/</id>
+    <link href="https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/"/>
+    <updated>2020-03-29T15:59:34Z</updated>
+    <title>#539 Metal Earth Lead Guitar</title>
+    <summary>Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/assets/MetalEarthLeadGuitar_build.jpg</g:image_link>
+    <category term="Craft"/>
+    <category term="LED"/>
+    <category term="Audio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/</id>
     <link href="https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/"/>
-    <updated>2020-03-29T09:33:57Z</updated>
+    <updated>2020-03-29T10:07:56Z</updated>
     <title>#538 Single-cell Charge/Boost Board</title>
     <summary>An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/assets/SingleCellChargeBoostBoard_build.jpg</g:image_link>

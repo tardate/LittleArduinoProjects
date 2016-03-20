@@ -4723,6 +4723,16 @@
         ], 
         "title": "MPU6050/AccelGyroTest"
     }, 
+    "/Kraft/MetalEarthLeadGuitar/": {
+        "summary": "Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'", 
+        "id": 539, 
+        "tags": [
+            "Craft", 
+            "LED", 
+            "Audio"
+        ], 
+        "title": "Metal Earth Lead Guitar"
+    }, 
     "/playground/GpsBasics/": {
         "summary": "using a NEMA-compatible GPS module for time and location with an Arduino", 
         "id": 387, 

@@ -1,6 +1,6 @@
-# 538 Little Electronics and Arduino Projects
+# 539 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Single-cell Charge/Boost Board](./Electronics101/BatteryManagement/SingleCellChargeBoostBoard) - An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter.
+> Latest addition:sparkles: [Metal Earth Lead Guitar](./Kraft/MetalEarthLeadGuitar) - Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
