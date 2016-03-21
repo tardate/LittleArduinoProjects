@@ -108,3 +108,4 @@ And in the frequency domain we can see the waveform is reasonably clean:
 * [Wien Bridge Oscillators](http://www.learnabout-electronics.org/Oscillators/osc34.php) - learnabout-electronics
 * [Wien bridge oscillator](https://en.wikipedia.org/wiki/Wien_bridge_oscillator) - wikipedia
 * [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/03/littlearduinoprojects197-wien-bridge.html)
