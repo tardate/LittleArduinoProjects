@@ -97,7 +97,10 @@ And in the frequency domain we can see the waveform is reasonably clean:
 
 ![WienBridgeAudioToneGenerator_bb_build](./assets/WienBridgeAudioToneGenerator_bb_build.jpg?raw=true)
 
+
 ### Putting it in a case
+
+![WienBridgeAudioToneGenerator_pcb_layout](./assets/WienBridgeAudioToneGenerator_pcb_layout.jpg?raw=true)
 
 ![WienBridgeAudioToneGenerator_build_wip](./assets/WienBridgeAudioToneGenerator_build_wip.jpg?raw=true)
 
