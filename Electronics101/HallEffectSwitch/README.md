@@ -1,8 +1,10 @@
 # #198 HallEffectSwitch
 
-Testing a Hall effect switch
+Testing a Hall effect switch.
 
-![The Build](./assets/HallEffectSwitch_build.jpg?raw=true)
+Here's a quick video of the circuit in action:
+
+[![HallEffectSwitch](http://img.youtube.com/vi/kvyXPPBrkeU/0.jpg)](http://www.youtube.com/watch?v=kvyXPPBrkeU)
 
 ## Notes
 
