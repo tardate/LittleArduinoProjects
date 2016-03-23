@@ -1,5 +1,5 @@
-# 206 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator) - test the astable operating mode of the CD4047
+# 207 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [FrequencyCounter](./Electronics101/FrequencyCounter) - test a CMOS frequency counter circuit with 100Hz - 5MHz range
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -81,6 +81,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
 | [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
+| [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
 | [#061 Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                           | **Logic Gates, BJT**            Set/Reset flip-flop with BJTs |
 | [#062 Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper)       | **Logic Gates, BJT, Arduino**   Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |
