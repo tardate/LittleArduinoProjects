@@ -36,7 +36,7 @@ encoding utf-8
 Sheet 1 1
 Title "16 LED board"
 Date "2016-01-26"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "github.com/tardate/LittleArduinoProjects"
 Comment1 ""
 Comment2 ""
@@ -886,7 +886,6 @@ F 3 "" H 1200 1600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1200 1600 1300 1600
-NoConn ~ 1300 1900
 Text Label 2700 2200 0    60   ~ 0
 CARRY
 Text Label 4100 1300 2    60   ~ 0
@@ -908,10 +907,31 @@ F 3 "" H 4000 1600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4000 1600 4100 1600
-NoConn ~ 4100 1900
 NoConn ~ 5500 2200
 Wire Notes Line
 	3700 1100 3700 5300
 Wire Notes Line
 	900  5300 900  1100
+$Comp
+L GND #PWR011
+U 1 1 574154D0
+P 1300 1900
+F 0 "#PWR011" H 1300 1650 50  0001 C CNN
+F 1 "GND" H 1300 1750 50  0000 C CNN
+F 2 "" H 1300 1900 50  0000 C CNN
+F 3 "" H 1300 1900 50  0000 C CNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 57415675
+P 4100 1900
+F 0 "#PWR012" H 4100 1650 50  0001 C CNN
+F 1 "GND" H 4100 1750 50  0000 C CNN
+F 2 "" H 4100 1900 50  0000 C CNN
+F 3 "" H 4100 1900 50  0000 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
