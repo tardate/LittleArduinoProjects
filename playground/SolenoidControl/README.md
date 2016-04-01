@@ -1,4 +1,4 @@
-##102 SolenoidControl
+# #102 SolenoidControl
 
 Controlling a mini solenoid with an Arduino.
 

@@ -1,5 +1,5 @@
-# 199 Little Arduino Projects
-> Latest addition:sparkles: [LED7Segment/CD4026BucketBrigade](./playground/LED7Segment/CD4026BucketBrigade) - a CD4026 bucket-brigade for driving multiple 7-segment displays
+# 200 Little Arduino Projects
+> Latest addition:sparkles: [SolenoidMotor](./Kinetics/SolenoidMotor) - a single-cylinder mini-solenoid engine
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -192,6 +192,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#096 Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
 | [#117 SolenoidDIY](./Electronics101/SolenoidDIY)                                   | **Solenoid, Arduino**           build and test a basic electromechanical solenoid |
+| [#200 SolenoidMotor](./Kinetics/SolenoidMotor)                                     | **Solenoid**                    a single-cylinder mini-solenoid engine |
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
