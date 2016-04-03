@@ -2,6 +2,10 @@
 
 A single-cylinder mini-solenoid engine
 
+Here's a quick video of the circuit in action:
+
+[![SolenoidMotor](http://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](http://www.youtube.com/watch?v=b7wmZLSBpzk)
+
 ## Notes
 
 Solenoid motors are an interesting curiosity. They are quite impractical, as there are much more efficient

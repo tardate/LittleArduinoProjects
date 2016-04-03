@@ -2,6 +2,10 @@
 
 A CD4026 bucket-brigade for driving multiple 7-segment displays
 
+Here's a quick video of the circuit in action:
+
+[![LED7Segment/CD4026BucketBrigade](http://img.youtube.com/vi/-gfQWZTg-N8/0.jpg)](http://www.youtube.com/watch?v=-gfQWZTg-N8)
+
 ## Notes
 
 The [CD4026Drive](../CD4026Drive) project explored the cD4026 as an easy way to drive a 7-segment display.
