@@ -13,6 +13,10 @@ Hall-effect sensors generally support one of three modes:
 * latch - turn on in the presence of a magnetic field, and stay on until exposed to the reverse polarity
 * linear sensor - output is proportional to the magnetic field strength
 
+A common use for Hall-effect sensors is to detect and measure rotation.
+A good demonstration of this is to sequence a PoV display as demonstrated in
+[Great Scott's latest video - HACKED!: Old Fan becomes a POV Display](https://www.youtube.com/watch?v=57carjNxI9A).
+
 The components I have are marked "44E/938" and are nominally compatible with the A3144 or OH3144.
 These are switches that turn on when facing a south magnetic polarity.
 
@@ -47,3 +51,4 @@ within 23mm directly to the front of the chip. The output remains on until I pul
 * [A3144 Datasheet](https://e-radionica.com/productdata/A3141.pdf)
 * [Basic Hall Effect Sensors 1](https://www.youtube.com/watch?v=9BFdGtvo9JE) - video tutorial by Lewis Loflin
 * [Hall_effect_sensor](https://en.wikipedia.org/wiki/Hall_effect_sensor) - wikipedia
+* [..as mentioned on my blog](http://blog.tardate.com/2016/04/littlearduinoprojects198-hall-effect.html)
