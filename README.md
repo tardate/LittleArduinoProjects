@@ -1,5 +1,5 @@
-# 200 Little Arduino Projects
-> Latest addition:sparkles: [SolenoidMotor](./Kinetics/SolenoidMotor) - a single-cylinder mini-solenoid engine
+# 201 Little Arduino Projects
+> Latest addition:sparkles: [DoorbellKit](./Electronics101/555Timer/DoorbellKit) - another two-tone doorbell using a 555 timer oscillator
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -66,6 +66,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
+| [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |
 | [#166 DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
 | [#188 EEPROM/AT24C02/BasicReadWrite](./playground/EEPROM/AT24C02/BasicReadWrite)   | **EEPROM, Arduino**             basic read/write operations to external EEPROM (AT24C02) with the Wire library |
 | [#051 El Jarabe Tapatío](./playground/JarabeTapatio)                               | **Audio, Arduino**              play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
