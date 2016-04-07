@@ -26,6 +26,23 @@ The duration of the "dong" depends on the R4/C1 [RC time constant (𝛕)](http:/
 [470ms](http://www.wolframalpha.com/input/?i=47k%CE%A9+*+10%CE%BCF).
 When the voltage on pin 4 falls below the reset threshold (typically 0.5V), the oscillation stops.
 
+## Behaviour
+
+Here are some traces of the circuit in operation with 3 channels on a scope:
+
+* CH1: monitoring the C2 charge (pin 2, 6 input)
+* CH2: monitoring the pin 4 reset charge/discharge
+* CH3: monitoring the pin 3 output
+
+Here's a trace of the initial trigger shwoing the reset line coming high, and the oscillation kick-off:
+
+![scope_trigger](./assets/scope_trigger.gif?raw=true)
+
+And on a wider scale - though hard to see the details - here's a complete "ding-dong" cycle.
+The main point to note is the reset discharge over about 1.2s before the 555 shuts off:
+
+![scope_trigger](./assets/scope_decay.gif?raw=true)
+
 ## Construction
 
 ![Breadboard](./assets/DoorbellKit_bb.jpg?raw=true)
