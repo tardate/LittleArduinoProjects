@@ -49,3 +49,4 @@ the circuit does not require a dedicated power supply.
 
 ## Credits and references
 * [LM3915 datasheet](http://www.futurlec.com/Linear/LM3915N.shtml)
+* [AudioLevelIndicatorKit](../../Electronics101/AudioLevelIndicatorKit) - project using the LM3915 in an audio level kit build

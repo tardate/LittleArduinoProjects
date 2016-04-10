@@ -59,6 +59,15 @@ This is quite low for LEDs, and far from the recommendation in the datasheet for
 R2 is included as recommended for LED supply voltages above 7V, as it limits the voltage drop across the LM3915
 and therefore the power it needs to dissipate.
 
+### Mode Select
+
+Jumper pin terminals are provided to seect either the dot or bar display mode:
+
+* open: "dot" mode is where a single element lights to display the peak value
+* closed: "bar" mode is where all elements light up in bar-graph fashion
+
+Closing the jumper straps the LM3915 mode-select pin 9 to V+, putting it into "bar" mode.
+
 ## Construction
 
 ![Breadboard](./assets/AudioLevelIndicatorKit_bb.jpg?raw=true)
