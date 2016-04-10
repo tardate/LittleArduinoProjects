@@ -2,6 +2,8 @@
 
 test an audio level indicator kit based on the LM3915
 
+![The Build](./assets/AudioLevelIndicatorKit_build.jpg?raw=true)
+
 ## Notes
 
 This is a build of an
@@ -31,7 +33,10 @@ This is below even −10 dBV, so the input signal requires futher attenuation be
 
 Input signal attenuation is achieved with R3/R7 10kΩ on each connection and the R4 50kΩ variable pot.
 Since there's no coupling capacitor, that makes it possible to handle AC and DC signals.
-In fact here's a test where I'm measureing the input voltage sensitivity:
+Although, with DC you might need to consider ground levels and isolation, as the input circuit
+puts 10kΩ between the external and internal grounds.
+
+In fact here's a test where I'm measuring the input voltage sensitivity with a variable DC supply:
 
 ![AudioLevelIndicatorKit_dc_test](./assets/AudioLevelIndicatorKit_dc_test.jpg?raw=true)
 
@@ -45,9 +50,8 @@ For a better audio level display, I'd probably use a circuit like that described
 ### LED Current
 
 LED current is determined by the current on pin 7 REF OUT.
-REF OUT is nominally 1.25V (I measured it at 1.236V) and goes to ground via R5, so LED current is (only):
-
-* [1.2mA](http://www.wolframalpha.com/input/?i=1.236V%2F1k%CE%A9)
+REF OUT is nominally 1.25V (I measured it at 1.236V) and goes to ground via R5,
+so LED current is (only) [1.2mA](http://www.wolframalpha.com/input/?i=1.236V%2F1k%CE%A9).
 
 This is quite low for LEDs, and far from the recommendation in the datasheet for handling AC signals:
 "It’s recommended to use dot mode and to run the LEDs at 30 mA for high enough average intensity."
