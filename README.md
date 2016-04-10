@@ -1,5 +1,5 @@
-# 202 Little Arduino and Electronics Projects
-> Latest addition:sparkles: [AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit) - an audio level indicator kit based on the LM3915
+# 203 Little Arduino and Electronics Projects
+> Latest addition:sparkles: [HomopolarMotor](./Kinetics/HomopolarMotor) - build a basic homopolar motor
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -89,6 +89,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [#142 HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) |**OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |
 | [#043 HitTheLights](./playground/HitTheLights)                                     | **LCD, Human Input, Arduino**   simple LED game with LCD output and interrupt-driven button input |
+| [#203 HomopolarMotor](./Kinetics/HomopolarMotor)                                   | **Kinetics**                    build a basic homopolar motor |
 | [#146 InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |
 | [#006 It's Better With Bacon](./playground/BetterWithBacon)                        | **LCD, Arduino**                simple LCD test |
 | [#056 JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two servos with a joystick |
