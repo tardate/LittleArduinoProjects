@@ -1,4 +1,4 @@
-# 202 Little Projects
+# 202 Little Arduino and Electronics Projects
 > Latest addition:sparkles: [AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit) - an audio level indicator kit based on the LM3915
 
 
