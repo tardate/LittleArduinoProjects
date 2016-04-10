@@ -1,6 +1,10 @@
 # #203 HomopolarMotor
 
-build a basic homopolar motor
+Build a basic homopolar motor.
+
+Here's a quick video of the circuit in action:
+
+[![HomopolarMotor](http://img.youtube.com/vi/2aZ0dwhBsBo/0.jpg)](http://www.youtube.com/watch?v=2aZ0dwhBsBo)
 
 ## Notes
 
