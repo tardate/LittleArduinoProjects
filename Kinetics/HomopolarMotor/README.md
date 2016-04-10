@@ -18,13 +18,13 @@ back in 1821 was really the edge of science.
 The homopolar motor is driven by the
 [Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force).
 
-There current from the battery flows thrrough the wirefreme.
+There current from the battery flows through the wirefreme.
 This intersects the magnetic field of the neodynium magents which is roughly perpendicular.
 The
 [right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule)
-simplifies the undesrstanding of the resulting force, which causes the motion.
+simplifies the understanding of the resulting force, which causes the motion.
 
-![Motor_homopolar_flux_force_neutral](https://en.wikipedia.org/wiki/Homopolar_motor#/media/File:Motor_homopolar_flux_force_neutral.png)
+![Motor_homopolar_flux_force_neutral](https://upload.wikimedia.org/wikipedia/commons/8/83/Motor_homopolar_flux_force_neutral.png)
 
 ### Scam Alert
 
