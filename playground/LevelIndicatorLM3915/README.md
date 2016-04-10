@@ -15,7 +15,11 @@ It is primarily intended for audio level indicator applications, as it divides t
 But that doesn't mean it can't be used for other purposes.
 This project is a demonstration of driving the display directly with a single PWM pin.
 
-A second digital pin is used to toggle the dot/bar display mode.
+A second digital pin is used to toggle the dot/bar display mode:
+
+* "dot" mode is where a single element lights to display the peak value
+* "bar" mode is where all elements light up in bar-graph fashion
+
 Although when driving the PWM, the dot mode is not particularly useful without further processing of the
 PWM output to provide a more constant input voltage.
 
