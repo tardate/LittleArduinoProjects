@@ -1,5 +1,5 @@
-# 203 Little Arduino and Electronics Projects
-> Latest addition:sparkles: [HomopolarMotor](./Kinetics/HomopolarMotor) - build a basic homopolar motor
+# 204 Little Arduino and Electronics Projects
+> Latest addition:sparkles: [TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK) - simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -113,7 +113,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#007 LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
 | [#067 LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [#173 LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, 74xx, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
-| [#079 LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, 7-Segment, Arduino** measure ambient temperature and display with a 4-digit 7-segment LED unit |
+| [#079 LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, LM35, 7-Segment, Arduino** measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit |
 | [#179 LEDx16Module](./playground/LEDx16Module)                                     | **74xx, SMD, Arduino**          a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [#010 LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
@@ -210,6 +210,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#091 Switch - PJFET](./Electronics101/SwitchPJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and p-channel JFET |
 | [#033 Switch - PNP](./Electronics101/SwitchPNP)                                    | **BJT**                         small-signal digital switch with PNP BJT |
 | [#175 SwitchSoftLatch](./Electronics101/SwitchSoftLatch)                           | **MOSFET, BJT**                 test a soft-latching power switching circuit |
+| [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
