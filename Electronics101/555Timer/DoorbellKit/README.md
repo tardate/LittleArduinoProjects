@@ -10,7 +10,7 @@ on special for $0.66. It even came with extra components, so a bit of a bargain 
 
 The kit turns out to be a simplified version of the [TwoToneDoorbell](../TwoToneDoorbell) circuit I've built before.
 
-It lacks the power control circuit, and draws about 4mA when idle - so if you actually use, expect to be replacing batteries
+It lacks the power control circuit, and draws about 4mA when idle - so if you actually use it, expect to be replacing batteries
 on a regular basis.
 
 The basic operation is similar. When S1 pressed:
@@ -54,3 +54,4 @@ The main point to note is the reset discharge over about 1.2s before the 555 shu
 ## Credits and References
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [Doorbell DIY Kit](http://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html) - from a seller on aliexpress
+*[..as mentioned on my blog](http://blog.tardate.com/2016/04/littlearduinoprojects201-yet-another.html)
