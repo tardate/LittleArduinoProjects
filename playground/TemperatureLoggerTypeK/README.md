@@ -43,6 +43,7 @@ voltage to a temperature differential:
 Since thermocouples only measure the temperature differential, it is necessary to independently establish the baseline
 aka the "Cold Reference Junction".
 
+
 ### Measuring the Type K Thermocouple Temperature
 
 The Thermocouple voltage difference is amplified with an LM358 in non-inverting amplifier configuration.
@@ -58,9 +59,22 @@ While this works pretty well, there are limitations:
 * since the LM358 is not rail-to-rail, we're not able to use the full resolution of the Arduino ADC
 * the gain and zero-point of the amplifier need to be selected with the temperature reading range in mind. For example, higher resolution but limit to say 200°C, or lower resolution but able to reach higher temperatures.
 
-
-Since I interested in temperatures above room temperature and into the 300-700°C range.
+Since I'm interested in temperatures above room temperature and into the 300-700°C range.
 I'm using the 41µV/°C Type K linear approximation.
+
+For the configuration demonstrated here, I'm using R1=1kΩ and R2=330kΩ in the amplifier configuration
+for a gain of 331:
+
+    Vout = (1 + R2/R1) * Vin
+    gain = 1 + 330/1
+
+Since the upper output limit of the LM358 is V+ - 1.5V per the datasheet, in this case 3.5V, then the maximum Vin before clipping is:
+[3.5V/331 = 10.6mV](http://www.wolframalpha.com/input/?i=3.5V%2F331)
+
+This represents a temperature range of [10.6mV/41µV/°C = 258.5°C](http://www.wolframalpha.com/input/?i=10.6mV%2F41%C2%B5V%2F%C2%B0C).
+That's far below the limits of the probe, but enough for a test.
+
+To measure higher ranges, the gain can be increased accordingly and perhaps use a rail-to-rail op amp.
 
 ### Cold Reference Junction
 
@@ -69,6 +83,7 @@ Three basic techniques for measuring the temperature of the reference junction:
 1. Use a thermistor or semiconductor temperature sensor
 2. Hold the reference junction at a fixed and known temperature e.g. ice bath
 3. Use a cold junction compensation IC such as the Analog Devices AD594 or Linear Technology LT1025
+
 
 ### Measuring the Cold Reference Junction Temperature
 
@@ -85,6 +100,7 @@ per step. The LM35 therefore only has a resolution of 0.5°C.
 That's OK here when compared to the resolution from the Type K reading.
 
 See [LedTemperatureDisplay](../LedTemperatureDisplay) for more on using the LM35.
+
 
 ### 5110 LCD SPI Configuration
 
@@ -120,6 +136,7 @@ Secondly, this needs mounting properly. In particular to provide a good isotherm
 for the type K probe so a good cold reference junction measurement is possible.
 
 Finally, it needs some calibration tests. It seems to be doing the right thing, but I haven't checked the accuracy of the readings I'm getting (how hot is a tea candle flame??)
+
 
 ## Construction
 
