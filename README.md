@@ -19,7 +19,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 
 ### Other Bits
 
-* [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with the wonderful [Fritzing](http://fritzing.org/home/) application. But often I needed a non-standard part for the diagram. Here they are.
+* [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with [Fritzing](http://fritzing.org/home/). But often I needed a non-standard part for the diagram. Here they are. NB: if I'm making a PCB, I'll probably be using [KiCad](http://kicad-pcb.org/) instead.
 * [notebook](./notebook) - a place for any notes I may make along the way
 * [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
@@ -216,7 +216,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [#135 TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |
 | [#083 TransistorTester](./Electronics101/TransistorTester)                         | **Arduino, BJT**                use an Arduino to test NPN and PNP BJTs |
-| [#205 TriacDimmer](./Electronics101/TriacDimmer)                                   | *Triac, Thyristor***            investigate the operation of triacs and build the basic dimmaer circuit |
+| [#205 TriacDimmer](./Electronics101/TriacDimmer)                                   | **Triac, Thyristor***           investigate the operation of triacs and build the basic dimmaer circuit |
 | [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |
 | [#113 TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
 | [#059 TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
