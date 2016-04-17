@@ -1,5 +1,5 @@
-# 205 Little Arduino and Electronics Projects
-> Latest addition:sparkles: [TriacDimmer](./Electronics101/TriacDimmer) - investigate the operation of triacs and build the basic dimmaer circuit
+# 205 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TriacDimmer](./Electronics101/TriacDimmer) - investigate the operation of triacs and build the basic dimmer circuit
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.

@@ -1,6 +1,6 @@
 # #205 TriacDimmer
 
-Investigate the operation of triacs and build the basic dimmaer circuit.
+Investigate the operation of triacs and build the basic dimmer circuit.
 
 ![TriacDimmer_demo](./assets/TriacDimmer_demo.jpg?raw=true)
 
@@ -37,12 +37,12 @@ With the dimmer "half on", the characteristic Triac cut out on both sides of the
 I was expecting a cleaning signal than this. Is this normal? Not sure, perhas I should solder up the circuit
 and try again on something more stable than a breadboard.
 
-![scope_half_on](./assets/scope_half_on.jpg?raw=true)
+![scope_half_on](./assets/scope_half_on.gif?raw=true)
 
 With the dimmer right down (but light still on - just), the wave eventually breaks down. One half of the cycle
 drops before the other, as can be seen here:
 
-![scope_quarter_on](./assets/scope_quarter_on.jpg?raw=true)
+![scope_quarter_on](./assets/scope_quarter_on.gif?raw=true)
 
 NB: since I don't have a differential probe, these scope traces are the X+Y mix of two channels measuring both connections of the lamp with respect to ground.
 
