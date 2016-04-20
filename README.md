@@ -1,5 +1,5 @@
-# 205 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TriacDimmer](./Electronics101/TriacDimmer) - investigate the operation of triacs and build the basic dimmer circuit
+# 206 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator) - test the astable operating mode of the CD4047
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -58,6 +58,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
+| [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS, Oscillators**           test the astable operating mode of the CD4047 |
 | [#170 ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Logic Gates, BJT**            build and analyse a simple clap switch circuit available as a kit |
 | [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
