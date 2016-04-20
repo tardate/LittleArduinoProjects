@@ -5,7 +5,8 @@ Test the astable operating mode of the CD4047
 ## Notes
 
 The CD4047 is capable of running in astable or monostable configurations,
-with operating frequency configured by and external RC network, like the 555 timer.
+with operating frequency configured by an external RC network.
+So in one sense, sounds like the 555 timer!
 
 Unlike the 555, the CD4047 provides a fixed 50% duty cycle with good frequency stability (+/- 2% @ 100KHz).
 
@@ -30,7 +31,7 @@ Here are some measurements from the breadboarded circuit:
 
 ### Astable Gating
 
-The astable oscillation can be geted with pins 4 and 5 (providing complementary functionality)
+The astable oscillation can be gated with pins 4 and 5:
 
 | pin 4 -ASTABLE | pin 5 ASTABLE  | Oscillator    |
 |----------------|----------------|---------------|
@@ -41,8 +42,8 @@ The astable oscillation can be geted with pins 4 and 5 (providing complementary 
 
 So it is possible to gate the oscillator using two complementary schemes:
 
-* Hold pin 4 HIGH, and pin 5 is the gate function (HIGH=ON, LOW=OFF)
-* Hold pin 5 LOW, and pin 4 is the gate function (HIGH=OFF, LOW=ON)
+* Hold pin 4 `HIGH`, and pin 5 is the gate function (`HIGH=ON`, `LOW=OFF`)
+* Hold pin 5 `LOW`, and pin 4 is the gate function (`HIGH=OFF`, `LOW=ON`)
 
 
 ### Waveforms
