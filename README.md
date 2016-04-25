@@ -1,5 +1,8 @@
-# 405 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ATmegaSerialProgrammer](./playground/ATmegaSerialProgrammer) - all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP.
+# 406 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SerialInterface/UsbUartCH340G](./Electronics101/SerialInterface/UsbUartCH340G) - build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P.
+
+
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -367,14 +370,14 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#107 RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
 | [#108 RingCounterController](./playground/RingCounterController)                   | **CMOS, Arduino**               control the classic CD4017 walking-ring counter with an Arduino |
 | [#144 RingOscillator](./Electronics101/RingOscillator)                             | **CMOS/TTL, Oscillators**       test an oscillator built with a 74LS14 Inverter chip |
-| [#347 RF Connectors](./Electronics101/Connectors/RF)                               | **Radio, Connectors**              notes on miscellaneous RF connectors |
-| [#063 RFSwitch](./Electronics101/RFSwitch)                                         | **Radio, OpAmp**                   simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
-| [#064 RFSwitchASK](./playground/RFSwitchASK)                                       | **Radio, ASK, Arduino**            data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
+| [#347 RF Connectors](./Electronics101/Connectors/RF)                               | **Radio, Connectors**           notes on miscellaneous RF connectors |
+| [#063 RFSwitch](./Electronics101/RFSwitch)                                         | **Radio, OpAmp**                simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
+| [#064 RFSwitchASK](./playground/RFSwitchASK)                                       | **Radio, ASK, Arduino**         data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [#008 RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                                  | **LED Array, Arduino**          quick test to make sure LEDs are correctly addressable and their color can be set correctly |
 | [#118 RotaryEncoderMethods](./playground/RotaryEncoderMethods)                     | **Sensor, Arduino**             finding the best method for reading a rotary-encoder |
 | [#119 RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
-| [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio**              getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
+| [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio**                  getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
 | [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
@@ -382,6 +385,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#021 Schmitt Inverter](./Electronics101/SchmittInverter)                          | **CMOS/TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [#317 SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) | **Schmitt, BJT**                test the classic emitter-coupled Schmitt Trigger circuit design |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
+| [#406 SerialInterface/UsbUartCH340G](./Electronics101/SerialInterface/UsbUartCH340G) | **USB, Serial, CH340**        build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P |
 | [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
 | [#041 Shifty](./playground/Shifty)                                                 | **LED, CMOS/TTL, Arduino**      drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [#044 SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
@@ -411,7 +415,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler |
 | [#015 StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
-| [#123 SuperheterodyneReceiverKit](./Radio/SuperheterodyneReceiverKit)              | **Radio, AM**                      build and analyse a basic superheterodyne AM MW radio receiver kit |
+| [#123 SuperheterodyneReceiverKit](./Radio/SuperheterodyneReceiverKit)              | **Radio, AM**                   build and analyse a basic superheterodyne AM MW radio receiver kit |
 | [#066 Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |
 | [#116 Switch - NJFET](./Electronics101/SwitchNJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and n-channel JFET |
 | [#032 Switch - NPN](./Electronics101/SwitchNPN)                                    | **BJT**                         small-signal digital switch with NPN BJT |

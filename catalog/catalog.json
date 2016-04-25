@@ -1470,6 +1470,13 @@
         "name": "RelaxationJouleThief"
     }, 
     {
+        "description": "build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P", 
+        "relative_path": "Electronics101/SerialInterface/UsbUartCH340G", 
+        "id": "#406", 
+        "categories": "USB, Serial, CH340", 
+        "name": "SerialInterface/UsbUartCH340G"
+    }, 
+    {
         "description": "control the MCP42010 dual 10k\u03a9 digital potentiometer with an Arduino and hardware SPI", 
         "relative_path": "Electronics101/DigitalPots/MCP42010", 
         "id": "#264", 
