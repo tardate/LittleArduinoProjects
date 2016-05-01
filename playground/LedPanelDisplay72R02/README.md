@@ -2,18 +2,21 @@
 
 Test 7-digit & 7-status indicator LED display
 
+[![LedPanelDisplay72R02](http://img.youtube.com/vi/dPpyn7SVoBo/0.jpg)](http://www.youtube.com/watch?v=dPpyn7SVoBo)
+
 ## Notes
 
 I found this interesting LED display at Sim Lim Tower at SGD$3 each, and grabbed one to test.
 It seems there's at least one seller on aliexpress where you can get them in bulk at USD$0.52 each.
+
+It is marked as "72R02PHIL T9717". I have no idea what that means(!), and of course there's no sign of a datasheet on the net,
+so pinouts needed a bit of reverse-engineering.
 
 ![72R02_front](./assets/72R02_front.jpg?raw=true)
 
 The LED unit combines 7 x 7-segment display (no decimal points) and 7 indicator LEDs (Red-Green-Yellow).
 
 All in all, an interesting display unit for a combination of numerical and status display.
-
-But of course, there's no sign of a datasheet on the net, so pinouts needed a bit of reverse-engineering.
 
 ### 72R02 Pin Definitions
 
