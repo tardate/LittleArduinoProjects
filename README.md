@@ -1,5 +1,5 @@
-# 207 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [FrequencyCounter](./Electronics101/FrequencyCounter) - test a CMOS frequency counter circuit with 100Hz - 5MHz range
+# 208 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit) - build a simple FM transmitter kit
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -193,6 +193,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#044 SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [#120 SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |
 | [#045 SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
+| [#208 SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit)    | **FM**                          build a simple single-stage FM transmitter kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [#096 Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
