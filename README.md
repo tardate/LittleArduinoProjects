@@ -1,5 +1,5 @@
-# 208 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit) - build a simple FM transmitter kit
+# 209 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LedPanelDisplay72R02](./playground/LedPanelDisplay72R02) - test a 7-digit & 7-status indicator LED display
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -113,8 +113,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#189 LED7Segment/ShiftDriveSPI](./playground/LED7Segment/ShiftDriveSPI)           | **7-Segment, 74xx, Arduino, SPI** using SPI to control a 7-segment display via a 74HC595 shift register |
 | [#003 LED chaser](./playground/LedChaser)                                          | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
 | [#007 LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
-| [#067 LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [#173 LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, 74xx, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
+| [#067 LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
+| [#209 LedPanelDisplay72R02](./playground/LedPanelDisplay72R02)                     | **LED, Arduino**                test a 7-digit & 7-status indicator LED display |
 | [#079 LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, LM35, 7-Segment, Arduino** measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit |
 | [#179 LEDx16Module](./playground/LEDx16Module)                                     | **74xx, SMD, Arduino**          a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
