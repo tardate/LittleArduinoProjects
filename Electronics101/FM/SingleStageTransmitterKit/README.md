@@ -49,7 +49,4 @@ Here's a trace of the signal and FFT when tuned at 83.25MHz:
 
 ## Credits and References
 * [FK702: FM WIRELESS MIC 1-STATE](http://futurekit.com/index.php/en/future-kit/radio-frequency-equipment/93-product/future-kit/series-7xx/series-7-fm-wireless-mic/1201-fk702-fm-wireless-mic-1-state.html)
-* [name](url)
-* [name](url)
-* [name](url)
-
+* [2SC458 datasheet](http://www.futurlec.com/Transistors/2SC458.shtml)
