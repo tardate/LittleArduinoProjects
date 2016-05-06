@@ -1,5 +1,5 @@
-# 209 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LedPanelDisplay72R02](./playground/LedPanelDisplay72R02) - test a 7-digit & 7-status indicator LED display
+# 210 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit) - testing a TDA7297 audio amplifier kit (pump up the jam)
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -44,6 +44,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel**              Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
+| [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule)| **FET**                    test a bi-directional 5/3.3V level shifter module |
