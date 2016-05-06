@@ -1,6 +1,6 @@
 # #210 AudioAmps/TDA7297Kit
 
-Testing a TDA7297 audio amplifier kit
+Testing a TDA7297 audio amplifier kit (Pump Up the Jam)
 
 [![TDA7297Kit](http://img.youtube.com/vi/nQl3t_fRrIQ/0.jpg)](http://www.youtube.com/watch?v=nQl3t_fRrIQ)
 
@@ -13,7 +13,9 @@ Performance is very good, although my impromptu speaker boxes don't do it justic
 
 ![TDA7297Kit_build_case](./assets/TDA7297Kit_build_case.jpg?raw=true)
 
-The circuit is very close to the examples in the datasheet app notes. The TDA7297 is a very easy ship to work with.
+The circuit is very close to the examples in the datasheet app notes,
+using the "Stand-alone Low-cost Application" method of managing standby and mute inputs.
+The TDA7297 is a very easy ship to work with.
 
 ## Construction
 
