@@ -1,5 +1,5 @@
-# 210 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit) - testing a TDA7297 audio amplifier kit (pump up the jam)
+# 211 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BuckConverterModules](./Electronics101/BuckConverterModules) - test a range of low-cost buck converter modules, often using LM2596
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -55,8 +55,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
-| [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
+| [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
+| [#211 BuckConverterModules](./Electronics101/BuckConverterModules)                 | **Poewr**                       test a range of low-cost buck converter modules, often using LM2596 |
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS, Oscillators**           test the astable operating mode of the CD4047 |
