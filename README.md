@@ -1,5 +1,5 @@
-# 211 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BuckConverterModules](./Electronics101/BuckConverterModules) - test a range of low-cost buck converter modules, often using LM2596
+# 212 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [StayCreative](./Electronics101/StayCreative) - an audio level VU meter driving a custom LED sign
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -205,6 +205,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
+| [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#015 StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
