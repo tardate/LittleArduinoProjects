@@ -4,7 +4,7 @@ Audio level VU meter driving a custom LED sign.
 
 Here's a quick video of it in action:
 
-[![StayCreative](http://img.youtube.com/vi/64roUORSOYM/0.jpg)](http://www.youtube.com/watch?v=64roUORSOYM)
+[![StayCreative](http://img.youtube.com/vi/lfrAL8ZSpl4/0.jpg)](http://www.youtube.com/watch?v=lfrAL8ZSpl4)
 
 ## Notes
 
