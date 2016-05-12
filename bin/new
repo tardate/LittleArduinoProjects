@@ -12,6 +12,7 @@ Usage:
   $0 pg ProjectName  # new playground project
   $0 ki ProjectName  # new Kinetics project
   $0 kr ProjectName  # new Kraft project
+  $0 os ProjectName  # new OSHChip project
 
 EOF
   exit
@@ -100,6 +101,10 @@ ki)
 
 kr)
   make_project "Kraft" "${2}"
+  ;;
+
+os)
+  make_project "OSHChip" "${2}"
   ;;
 
 *)
