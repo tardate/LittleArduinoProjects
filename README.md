@@ -1,6 +1,8 @@
-# 212 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [StayCreative](./Electronics101/StayCreative) - an audio level VU meter driving a custom LED sign
+# 213 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [OSHChip/blinky](./OSHChip/blinky) - first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging
 
+
+First test of the OSHChip V1.0
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -147,6 +149,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#087 OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)                     | **OLED, Arduino**               driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [#086 OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | **OLED, Arduino**         running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [#122 OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
+| [#213 OSHChip/blinky](./OSHChip/blinky)                                            | **ARM**                         first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging |
 | [#121 PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
