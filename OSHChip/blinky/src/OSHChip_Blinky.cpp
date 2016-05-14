@@ -24,31 +24,28 @@ DigitalOut yellow_led(PinName YELLOW_LED_EXT);
 #define LED_OFF     (1)
 
 /*
-    blink an on-board LED (active high)
+    blink an LED (active low)
  */
-void blink(DigitalOut &led) 
+void blink(DigitalOut &led)
 {
     led = LED_ON;
     wait_ms(DELAY);
     led = LED_OFF;
 }
 
-/*
-    blink an external LED (active low)
-    how to switch to active high? still figuring that out..
- */
-void blink_external(DigitalOut &led) 
-{
-    led = LED_OFF;
-    wait_ms(DELAY);
-    led = LED_ON;
-}
-    
-int main(void) 
+int main(void)
 {
     uint32_t    loop_count;
-    
+
     OSHChip_Init();
+
+    /* configure OSHChip_Pin_7 for high drive active low */
+    NRF_GPIO->PIN_CNF[OSHChip_Pin_7] =
+          (GPIO_PIN_CNF_SENSE_Disabled << GPIO_PIN_CNF_SENSE_Pos)   // turn off pin sensing
+        | (GPIO_PIN_CNF_DRIVE_H0S1 << GPIO_PIN_CNF_DRIVE_Pos)       // high drive 0, standard 1
+        | (GPIO_PIN_CNF_PULL_Disabled << GPIO_PIN_CNF_PULL_Pos)     // disable pullups
+        | (GPIO_PIN_CNF_INPUT_Disconnect << GPIO_PIN_CNF_INPUT_Pos) // input buffer disconnect
+        | (GPIO_PIN_CNF_DIR_Output << GPIO_PIN_CNF_DIR_Pos);        // for output
 
     loop_count = 0;
 
@@ -57,9 +54,9 @@ int main(void)
         blink(red_led);
         blink(green_led);
         blink(blue_led);
-        blink_external(yellow_led);
-        
+        blink(yellow_led);
+
         printf("Loop Count:  %8d\r\n", loop_count++);
-        
+
     }
 }

@@ -48,8 +48,7 @@ The programming connector is a mini 4 pin header thingy.
 For my first test I had both jumpers on the programmer installed:
 
 * with J1 installed, the OSHChip is powered from the programmer (and must not be plugged into the target system)
-* with J5 installed, it provides a loopback TX Out to RX In, I think mainly for testing communciations from the computer side.
-
+* with J5 installed, it connects the default UART output on OSHChip pin 1 to the serial input on computer at 9600 baud N81.
 
 ### Onboard LED Addressing
 
@@ -94,18 +93,69 @@ dialed into 3.3V.
 ### Connecting Some Peripherals
 
 Of course, an LED first.
+I modified [OSHChip_Blinky.cpp](./src/OSHChip_Blinky.cpp) to include an extra LED, connected on P0_9 (pin 7).
 
-How much current can I draw from a GPIO pin?
-I ended up scouring the nRF51822 Product Specification v3.1, and closest I can find a "maximum rating" specification is the statement that *maximum number of pins with 5 mA high drive is 3.*
+The default configuration of the nRF51822 GPIO pins is standard drive strength (0.5mA) for both logic high and logic low,
+and operate as active low.
 
-GPIO high is VDD-0.3V, so 3V, so I should easily be good with a
-[600Ω](http://www.wolframalpha.com/input/?i=3V%2F5mA)
-current-limiting resistor.
+The onboard LEDs are setup for active low drive, so I'll stick with that to keep the logic consistent. In other works the LEDs sink to the port when enabled.
 
-But to be super-kiasi I'll connect an LED to P0_9 (pin 7) with 1kΩ (actually draws about 1.5mA).
+The onboard LEDs are specially selected low current components, but my external LED could do with a little more juice
+than the 0.5mA available in standard drive.
 
-I modified [OSHChip_Blinky.cpp](./src/OSHChip_Blinky.cpp) to include the extra LED.
-One thing I need to check further - it appears the ports are operating as "active low" by default (so logic appears inverted).
+The nRF51 Series Reference Manual V3.0 specifies the GPIO configuration options (section 14, p56 on).
+The following parameters can be configured through the PIN_CNF[n] registers:
+
+* Direction
+* Drive strength
+* Enabling of pull-up and pull-down resistors
+* Pin sensing
+* Input buffer disconnect
+* Analog input (for selected pins)
+
+Using the constants defined in `nrf51_bitfields.h`, I'm configuring P0_9 (pin 7) as follows:
+
+    /* configure OSHChip_Pin_7 for high drive active low */
+    NRF_GPIO->PIN_CNF[OSHChip_Pin_7] =
+          (GPIO_PIN_CNF_SENSE_Disabled << GPIO_PIN_CNF_SENSE_Pos)   // turn off pin sensing
+        | (GPIO_PIN_CNF_DRIVE_H0S1 << GPIO_PIN_CNF_DRIVE_Pos)       // high drive 0, standard 1
+        | (GPIO_PIN_CNF_PULL_Disabled << GPIO_PIN_CNF_PULL_Pos)     // disable pullups
+        | (GPIO_PIN_CNF_INPUT_Disconnect << GPIO_PIN_CNF_INPUT_Pos) // input buffer disconnect
+        | (GPIO_PIN_CNF_DIR_Output << GPIO_PIN_CNF_DIR_Pos);        // for output
+
+That provides for sinking up to 5mA i.e. when the LED is on.
+Conservatively ignoring the voltage drop across the LED and internal driver FETs,
+that means I should be good with a [660Ω](http://www.wolframalpha.com/input/?i=3.3V%2F5mA)
+current-limiting resistor for the LED. Using 1kΩ, the actual LED current when on is ~1.5mA.
+
+
+#### An Explanation from Philip
+
+Philip (the OSHChip creator) graciously provided the following information to explain what's going on:
+
+The nRF51822 I/O pins are specified for 0.5 mA for both logic low and high when configured for standard drive strength. If a pin is configured for high strength, then the current can be as high as 5 mA , but no more than 3 GPIO pins should be configured this way. (Actually, the constraint is more likely: no more than 3 GPIO pins should be supplying 5 mA concurrently). The default configuration for GPIO pins is normal drive strength.
+This is documented in the nRF51822 Product Specification V3.1 on page 65.
+
+An output with high drive strength for logic low (H0) and standard drive strength for logic high (S1) is setup like this:
+From the nRF51822 Series Reference Manual V3.0 on page 68.
+
+For physical pin 7 (port bit P0_9)
+
+    NRF_GPIO->PIN_CNF[9] = (GPIO_PIN_CNF_SENSE_Disabled << GPIO_PIN_CNF_SENSE_Pos)
+    | (GPIO_PIN_CNF_DRIVE_H0S1 << GPIO_PIN_CNF_DRIVE_Pos)
+    | (GPIO_PIN_CNF_PULL_Disabled << GPIO_PIN_CNF_PULL_Pos)
+    | (GPIO_PIN_CNF_INPUT_Disconnect << GPIO_PIN_CNF_INPUT_Pos)
+    | (GPIO_PIN_CNF_DIR_Output << GPIO_PIN_CNF_DIR_Pos);
+
+This would configure OSHChip_Pin_7 for active low drive, with the other end of the LED/Resistor series pair connected to the 3.3 Volt supply. As a general rule of thumb, in CMOS chips, the output low driver (implemented with an N-Channel FET, is about twice as good (speed, drive strength) than the logic high driver (implemented with a P-Channel FET).
+
+So what resistor do we choose? The above all assumes we want to maintain valid logic levels that are within 0.3V of their respective rails, but we are just driving a LED, and just want it to turn on. So here are 2 real examples:
+
+The built in LEDs on OSHChip are specially selected low current LEDs, designed for 5 mA test current. The resistors are 4.7K Ohms (at about 1.7 V drop across the LED, 340 uA actual LED current). There are some OSHChips that were built with 20 mA test current LEDs for the green LED, and they had the appropriate resistor changed to 1K Ohms (at about 1.9 V drop across the LED, 1.4 mA actual LED current). All of these are quite bright with these values, and the outputs configured for standard drive for both low and high, with the LEDs illuminated when the output is low.
+
+Nordic Semiconductor has the nRF51-DK board that has 4 LEDs, that have only a 220 resistor, and none of their examples put the outputs into high drive mode. So a clear violation of all the rules by the chip supplier. It works just fine.
+
+Philip's recommendation: use active low drive the same as the on-board LEDs and how the nRF51-DK board do it. Pick LEDs that are designed for low current, and see if it works with 4.7K, then 2.7 K, then 1.0 K. Look at the OSHChip schematic to see how it is done.
 
 
 ## Construction
@@ -122,5 +172,6 @@ One thing I need to check further - it appears the ports are operating as "activ
 * [OSHChip](https://www.tindie.com/products/OSHChip/oshchip-v10/) - on tindie
 * [OSHChip CMSIS-DAP](https://www.tindie.com/products/OSHChip/oshchip-cmsis-dap-v10-swd-programmer-and-more/) - on tindie
 * [OSHChip_V1.0 Schematic](https://github.com/OSHChip/OSHChip_V1.0_Docs/blob/master/Other_Files/OSHChip_V1.0___Schematic.PDF)
-* [nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+* [OSHChip_CMSIS-DAP_V1.0 Schematic](https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs/blob/master/Other%20Files/OSHChip_CMSIS-DAP_V1.0___Schematic_Prints.PDF)
+* [nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) - main information centre
 * [ARM Cortex-M0 Processor](http://www.arm.com/products/processors/cortex-m/cortex-m0.php) - main information centre
