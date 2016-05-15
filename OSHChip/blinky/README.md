@@ -76,6 +76,8 @@ connect pin 1 of the OSHChip to the RX (top corner) pin of J5 on the programmer.
 
 Similarly for serial input, connect TX (lower) pin of J5 on the programmer to pin 2 on the OSHChip.
 
+![programmer_with_serial](./assets/programmer_with_serial.jpg?raw=true)
+
 On MacOSX, the programmer shows up as a character device:
 
     $ ls -1 /dev/cu*
