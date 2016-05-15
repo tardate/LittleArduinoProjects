@@ -60,9 +60,15 @@ Here are the device details of the programmer as they appear in **System Informa
       Serial Number:  900902211A9CA51FE742CAEE
       Speed:  Up to 12 Mb/sec
       Manufacturer: MBED
-      Location ID:  0x14500000 / 21
+      Location ID:  0x14500000 / 27
       Current Available (mA): 500
       Current Required (mA):  500
+      Capacity: 8.5 MB (8,454,144 bytes)
+      Removable Media:  Yes
+      Detachable Drive: Yes
+      BSD Name: disk2
+      Partition Map Type: Unknown
+      S.M.A.R.T. status:  Not Supported
 
 
 #### Enabling Serial Output
