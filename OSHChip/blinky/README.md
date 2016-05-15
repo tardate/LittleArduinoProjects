@@ -48,7 +48,52 @@ The programming connector is a mini 4 pin header thingy.
 For my first test I had both jumpers on the programmer installed:
 
 * with J1 installed, the OSHChip is powered from the programmer (and must not be plugged into the target system)
-* with J5 installed, it connects the default UART output on OSHChip pin 1 to the serial input on computer at 9600 baud N81.
+* with J5 installed, it loops back the RX and TX on the USB-side
+
+Here are the device details of the programmer as they appear in **System Information**
+
+    MBED CMSIS-DAP:
+
+      Product ID: 0x0204
+      Vendor ID:  0x0d28
+      Version:  1.00
+      Serial Number:  900902211A9CA51FE742CAEE
+      Speed:  Up to 12 Mb/sec
+      Manufacturer: MBED
+      Location ID:  0x14500000 / 21
+      Current Available (mA): 500
+      Current Required (mA):  500
+
+
+#### Enabling Serial Output
+
+The OSHChip_Blinky.cpp sample uses printf to log to the onboard UART at 9600 baud 8N1:
+
+    printf("Loop Count:  %8d\r\n", loop_count++);
+
+By default TX is on pin 1 of the OSHChip. To read the output via the CMSIS-DAP programmer,
+connect pin 1 of the OSHChip to the RX (top corner) pin of J5 on the programmer.
+
+Similarly for serial input, connect TX (lower) pin of J5 on the programmer to pin 2 on the OSHChip.
+
+On MacOSX, the programmer shows up as a character device:
+
+    $ ls -1 /dev/cu*
+    /dev/cu.Bluetooth-Incoming-Port
+    /dev/cu.Bluetooth-Modem
+    /dev/cu.usbmodem1452  # <- this one (it appeared after connecting the programmer)
+
+The simplest way of getting connected on MacOSX is to use screen at 9600 baud:
+
+    $ screen /dev/cu.usbmodem1452 9600
+    Loop Count:         0
+    Loop Count:         1
+    Loop Count:         2
+
+A screen session in action:
+
+![screen_session](./assets/screen_session.png?raw=true)
+
 
 ### Onboard LED Addressing
 
@@ -64,8 +109,8 @@ The 16 pins of the OSHChip are assigned as follows:
 
 | Pin | Port       |
 |-----|------------|
-| 1   | P0_20      |
-| 2   | P0_18      |
+| 1   | P0_20 TX   |
+| 2   | P0_18 RX   |
 | 3   | P0_16      |
 | 4   | P0_15      |
 | 5   | P0_12      |
