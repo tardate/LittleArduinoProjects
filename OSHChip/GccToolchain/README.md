@@ -66,7 +66,7 @@ Preparing: nrf51422_xxac.hex
 
 ```
 
-The build results are generate in `make.11/_build`.
+The build results are generated in `make.11/_build`.
 
 The hex file to install in the OSHChip is `make.11/_build/nrf51422_xxac.hex`
 
@@ -97,7 +97,7 @@ mkdir _build
 
 ```
 
-The build results are generate in `make.6/_build`.
+The build results are generated in `make.6/_build`.
 
 The hex file to install in the OSHChip is `make.6/_build/blinky_xxaa.hex`
 
@@ -165,10 +165,6 @@ I since found this [arm-gcc hex file header question](http://www.oshchip.com/for
 on the OSChip forum which points to the same issue.. a good place to start..
 
 ## Construction
-
-![Breadboard](./assets/GccToolchain_bb.jpg?raw=true)
-
-![The Schematic](./assets/GccToolchain_schematic.jpg?raw=true)
 
 ![The Build](./assets/GccToolchain_build.jpg?raw=true)
 
