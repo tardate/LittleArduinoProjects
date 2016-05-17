@@ -168,6 +168,18 @@ total 1308
 
 ```
 
+Looking at the the first few lines of `yottatoolchain-combined.hex` I can see it setting:
+* Start Linear Address: 0x0001CBF1
+* Extended Linear Address: 0x0000 upper 16 bits
+
+```
+:040000050001CBF13A
+:020000040000FA
+:10000000C0070000D1060000D1000000B1060000CA
+:1000100000000000000000000000000000000000E0
+:100020000000000000000000000000005107000078
+...
+```
 ### Send it to the OSHChip
 
 I have the OSHchip & programmer plugged into my USB and appearing as `/Volumes/Untitled/`.
