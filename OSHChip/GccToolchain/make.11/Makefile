@@ -177,5 +177,5 @@ flash: nrf51422_xxac
 
 cpinstall: nrf51422_xxac
 	@echo Copying: $(OUTPUT_BINARY_DIRECTORY)/$<.hex
-	../hexcompat.sh $(OUTPUT_BINARY_DIRECTORY)/$<.hex
-	cp $(OUTPUT_BINARY_DIRECTORY)/$<.hex /Volumes/Untitled/
+	../ensure_ela.sh $(OUTPUT_BINARY_DIRECTORY)/$<.hex
+	cp $(OUTPUT_BINARY_DIRECTORY)/$<.hex /Volumes/Untitled/$<.hex

@@ -18,5 +18,5 @@ include $(SDK_PATH)Source/templates/gcc/Makefile.common
 
 cpinstall: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
 	@echo Copying: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex:
-	../hexcompat.sh $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
-	cp $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex /Volumes/Untitled/
+	../ensure_ela.sh $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+	cp $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex /Volumes/Untitled/$(OUTPUT_FILENAME).hex

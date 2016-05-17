@@ -4,7 +4,7 @@ First test of the OSHChip V1.0
 
 ## Notes
 
-I heard about the OSHChip on the [embedded.fm podcast](http://embedded.fm/episodes/146) and immediately wanted one!
+I heard about the OSHChip on the [embedded.fm podcast #146](http://embedded.fm/episodes/146) and immediately wanted one!
 
 An ARM Cortex-M0 32 bit micro processor (nRF51822) with 2.4 GHz Radio and other goodies all in a breadboard-compatible DIP16 package ..
 how could you say no?!

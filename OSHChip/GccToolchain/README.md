@@ -4,7 +4,7 @@ Can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SD
 
 ## Notes
 
-This is still a work-in-progress. I have had some success, but there remain a few rough edges.
+This is still a work-in-progress. I have been able to compile and deploy a simple program, but there remain a few rough edges.
 
 Notes below represent the best current state I've got to.
 
@@ -31,7 +31,8 @@ I'm testing with two version of the SDK, as I'm not sure if there's a good reaso
 * 11.0.0 (latest version as of now)
 * 6.0.0 (version as used by many examples on the net)
 
-The procedures/script install these locally (in this folder). If I find a solid configuration, I'll then think about a shared installation.
+These are installed locally, in this folder. If I find a solid configuration, I'll then think about a shared installation.
+Having a particioned development environment is always nice anyway.
 
 
 ## Installation
@@ -139,7 +140,7 @@ And here's the start of the file compiled with SDK 11.0.0:
 ...
 ```
 
-The first and most obvious difference is that `:020000040000FA` record at the beginning. It's and Extended Linear Address record:
+The first and most obvious difference is that `:020000040000FA` record at the beginning. It's an Extended Linear Address record:
 
 * `:` - Start code, one character, an ASCII colon ':'
 * `02` - Byte count, two hex digits, indicating the number of bytes (hex digit pairs) in the data field.
@@ -152,13 +153,13 @@ Extended Linear Address:
 
 > Allows for 32 bit addressing (up to 4GiB). The address field is ignored (typically 0000) and the byte count is always 02. The two encoded, big endian data bytes specify the upper 16 bits of the 32 bit absolute address for all subsequent type 00 records; these upper address bits apply until the next 04 record. If no type 04 record precedes a 00 record, the upper 16 address bits default to 0000. The absolute address for a type 00 record is formed by combining the upper 16 address bits of the most recent 04 record with the low 16 address bits of the 00 record.
 
-Now this seemed a whole bunch of nothing: set extended linear addressing at offset 0.
+Now this seemed a whole bunch of nothing: set extended linear addressing at offset 0?
 
 Time for a quick experiment: manually adding `:020000040000FA` to the top of one of the failing hex files. Now it copies and installs correctly!
 
 I've hunted high and low for objcopy or linker options to `force` extended linear addressing but can't find anything.
 
-So for now (and a real hack) is that I've update `make cpinstall` patch the hex file if necessary to add the extended linear addressing directive.
+So for now (and a real hack) is that I've updated `make cpinstall` to patch the hex file if necessary to add the extended linear addressing directive. The hex patch is applied using the [ensure_ela.sh](./ensure_ela.sh) script.
 
 I'll need to follow-up on this situation - it's a bit hairy.
 I since found this [arm-gcc hex file header question](http://www.oshchip.com/forum/viewtopic.php?f=7&p=395#p395)
