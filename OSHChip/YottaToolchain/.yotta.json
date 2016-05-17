@@ -1,0 +1,6 @@
+{
+  "build": {
+    "target": "oshchip-gcc,*",
+    "targetSetExplicitly": true
+  }
+}
