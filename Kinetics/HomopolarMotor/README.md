@@ -13,12 +13,12 @@ Its operation was demonstrated by Michael Faraday in 1821 at the Royal Instituti
 It is also the operating principle behind [railguns](https://en.wikipedia.org/wiki/Railgun)!
 
 The basis of operation is pretty simple, once you understand magnitic and electric fields - which
-back in 1821 was really the edge of science.
+back then was really the edge of science.
 
 The homopolar motor is driven by the
 [Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force).
 
-There current from the battery flows through the wirefreme.
+The current from the battery flows through the wireframe.
 This intersects the magnetic field of the neodynium magents which is roughly perpendicular.
 The
 [right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule)
@@ -41,3 +41,4 @@ establishing the electric field. In fact the demo video shows how easy it is to 
 * [Homopolar motor](https://en.wikipedia.org/wiki/Homopolar_motor) - wikipedia
 * [Homopolar Motor](https://youtu.be/wUqbvHOW6Us) - Boom! CrazyRussianHacker
 * [Homopolar Motors Explained](https://www.youtube.com/watch?v=ttD3Jw9OfOI) - Martin Simon
+* [..as mentioned on my blog](http://blog.tardate.com/2016/05/littlearduinoprojects203-homopolar-motor.html)
