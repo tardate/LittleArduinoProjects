@@ -1,11 +1,6 @@
-# 215 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [OSHChip/YottaToolchain](./OSHChip/YottaToolchain) - build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX
+# 216 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [OSHChip/LEDx16Module](./OSHChip/LEDx16Module) - driving an SPI LED module with the OSHChip
 
-
-Build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX
-
-
-First test of the OSHChip V1.0
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -154,6 +149,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#122 OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
 | [#213 OSHChip/blinky](./OSHChip/blinky)                                            | **ARM, OSHChip**                first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging |
 | [#214 OSHChip/GccToolchain](./OSHChip/GccToolchain)                                | **ARM, gcc, OSHChip**           can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX? |
+| [#216 OSHChip/LEDx16Module](./OSHChip/LEDx16Module)                                | **OSHChip, SPI**                driving an SPI LED module with the OSHChip |
 | [#215 OSHChip/YottaToolchain](./OSHChip/YottaToolchain)                            | **ARM, gcc, yotta, OSHChip**    build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX |
 | [#121 PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
