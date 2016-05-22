@@ -2,6 +2,8 @@
 
 Driving an SPI LED module with the OSHChip.
 
+![LEDx16Module_build](./assets/LEDx16Module_build.jpg?raw=true)
+
 ## Notes
 
 How easy is SPI with the OSHChip? I thought I'd find out by first controlling a
@@ -63,7 +65,7 @@ There's not much to the build. Basically hook together three modules:
 
 ![LEDx16Module_schematic](./assets/LEDx16Module_schematic.jpg?raw=true)
 
-![LEDx16Module_build](./assets/LEDx16Module_build.png?raw=true)
+![LEDx16Module_build](./assets/LEDx16Module_build.jpg?raw=true)
 
 ## Credits and References
 * [OSHChip](http://oshchip.org/)
