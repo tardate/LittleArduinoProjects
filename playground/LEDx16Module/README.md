@@ -2,6 +2,11 @@
 
 A custom 16 LED SMD PCB with 74HC595 shift register interface.
 
+Here's a quick video of the module running the demo code:
+
+[![LEDx16Module](http://img.youtube.com/vi/FVDoArFkKH8/0.jpg)](http://www.youtube.com/watch?v=FVDoArFkKH8)
+
+
 ## Notes
 
 This is my version of project 3 from the
@@ -18,6 +23,10 @@ When I've built and tested the board, I'll update and share the OSH Park project
 
 I sent these off for production at [OSH Park](https://oshpark.com/shared_projects/E2aHiqP5), and they turned out quite well.
 I think I could have picked a footprint for the SOP16 ships with longer pads to make them easier to solder by hand.
+
+One variation I've made in the circuit from the KiCad like a Pro course:
+I've explicitly grounded pin 13 (output enable - active low).
+If left floating, I've found the circuit to be unreliable depending on power conditions (output enable floats high).
 
 ## Construction
 
