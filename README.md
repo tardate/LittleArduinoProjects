@@ -1,5 +1,5 @@
-# 217 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BasicBuckAvrControl](./playground/BasicBuckAvrControl) - a simple buck converter circuit from first principles
+# 218 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MPU6050/AccelGyroTest](./playground/MPU6050/AccelGyroTest) - first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -138,6 +138,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#075 Monostable122](./Electronics101/Monostable122)                               | **74xx TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [#076 MonostablePulseExtender](./playground/MonostablePulseExtender)               | **74xx TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
 | [#046 MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
+| [#218 MPU6050/AccelGyroTest](./playground/MPU6050/AccelGyroTest)                   | **Sensors, MPU-6050, Arduino**  first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module |
 | [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
 | [#156 MSO5074FG_unboxing](./Electronics101/MSO5074FG_unboxing)                     | **Tools, Test Equipment**       unboxing and first tests of a Hantek MSO5074FG oscilloscope |
 | [#036 NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
