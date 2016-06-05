@@ -1,5 +1,5 @@
-# 216 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [OSHChip/LEDx16Module](./OSHChip/LEDx16Module) - driving an SPI LED module with the OSHChip
+# 217 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BasicBuckAvrControl](./playground/BasicBuckAvrControl) - a simple buck converter circuit from first principles
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -46,6 +46,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
+| [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule)| **FET**                    test a bi-directional 5/3.3V level shifter module |
 | [#093 BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |

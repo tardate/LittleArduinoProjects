@@ -1,0 +1,119 @@
+***********************************************************************
+* Model name: driver
+* Gate driver switching model suitable for both low-side and high-side
+* power MOSFETs. When used with a low-side source-grounded power MOSFET
+* the driver Vss and Vssin pins should both be tied to the common circuit
+* ground. When used with a high-side power MOSFET, Vss should be tied to
+* the source terminal of the power MOSFET, Vdd-Vss should be supplied from a
+* floating power supply or from a bootstrap circuit, and Vssin should be
+* tied to the common circuit ground.
+*****************************************************************
+* Parameters:
+*    Imax = maximum driver output current (approximately)
+*    IQ = quiescent current consumed by the driver
+*    Tdelay = propagation delay of the driver
+*    Vuvl = undervoltage lockout, driver outputs zero if Vdd-Vss < Vuvl
+*****************************************************************
+* Nodes:
+* c: input signal, should be 0 (logic low) or 5 (logic high)
+* Vdd: positive power supply voltage
+* Vss: ground for the power supply, typically connected to
+* Vssin: ground for the control signal, typically tied to the common circuit ground
+* out: driver output
+**********************************************************
+.subckt driver c Vdd Vss Vssin out
+M2 out gate Vss Vss NMOS; output power-stage PMOS
+M1 out gate Vdd Vdd PMOS; output power-stage NMOS
+B1 gate Vss V=if(v(cdelayed)-v(Vss)>2.5 & v(Vdd)-v(Vss)>{Vuvl}, 0, v(Vdd)-v(Vss))
+Ibias Vdd Vss {IQ}; bias current sink
+E1 cisolated Vss c Vssin 1; controlled source models isolation between control input and driver output
+R1 cisolated cdelayed {Rdelay}; RC delay model
+C1 cdelayed Vss {Cdelay}; RC delay model
+.param Imax=3A
+.param Vuvl = 9V
+.param IQ = 1mA
+.param Tdelay = 30ns
+**************************
+.param Vddrated = 12V
+.param VT = 2V
+.param Rdelay=100
+.param Cdelay={Tdelay/Rdelay/0.69}
+.model NMOS NMOS (LEVEL=1 VTO={VT} KP={2*Imax/(Vddrated-VT)/(Vddrated-VT)})
+.model PMOS PMOS (LEVEL=1 VTO=-{VT} KP={1.4*Imax/(Vddrated-VT)/(Vddrated-VT)})
+**************************
+.ends driver
+***********************************************************************
+
+***********************************************************************
+* Model name: PWM
+* Pulse-width modulator (trailing-edge) switching model
+***********************************************************************
+* Parameters:
+*    fs = switching frequency
+*    VM = amplitude of the saw-tooth waveform
+*    Dmin = minimum possible duty cycle (0 <= Dmin < Dmax < 1)
+*    Dmax = maximum possible duty cycle
+*    Voffset = offset voltage in the saw-tooth waveform, Voffset >= 0
+*    Voffset + VM must be less than 5V
+***********************************************************************
+* Nodes:
+* vc: control input voltage, must be between 0 and 5V
+* c: PWM output 0-5V control signal, referenced to common circuit graound
+*    this signal is typically connected to the input of a gate driver
+***********************************************************************
+.subckt PWM vc c
+A1 reset clk 0 0 0 c 0 0 SRFLOP Vhigh=5
+XU1 sawtooth vc Vdd5V 0 comp_out LTC6752
+V3 Vdd5V 0 5
+Vclk clk 0 PULSE(0 5 0 1n 1n {Dmin/fs} {1/fs})
+Vsawtooth sawtooth 0 PULSE({Voffset} {Voffset+VM} 0 {0.99/fs} {(0.01)/fs} 0 {1/fs})
+A2 comp_out clk_dmax 0 0 0 0 reset 0 OR Vhigh=5
+Vclk_Dmax clk_dmax 0 PULSE(0 5 {Dmax/fs} 1n 1n {(1-Dmax)/fs} {1/fs})
+.param Dmin=0
+.param Dmax=0.9
+.param fs=100kHz
+.param VM=1
+.param Voffset=0
+****************************
+.lib LTC7.lib
+*****************************
+.ends PWM
+***********************************************************************
+
+
+***********************************************************************
+* Model name: dead_time
+* Dead-time circuit takes a PWM control signal c having duty cycle D
+* to generate two complementary non-overlapping
+* control signals c1 (with duty cycle D1) and c2 (with duty cycle D2).
+* Both c1 and c2 are logic low during dead times Td.
+* D1 = D - Td/Ts
+* D2 = D' - Td/Ts
+* The dead-time circuit is typically used in
+* synchronous buck converters, as well as in half-bridge
+* and full-bridge converters.
+* The input and output signals are 0-to-5V
+*****************************************************************
+* Parameters:
+*    Td = dead-time
+*****************************************************************
+* Nodes:
+* c: input PWM signal, 0 (logic low) or 5 (logic high)
+* c1, c2: output complementary, non-overlapping PWM signals (0-5V)
+.subckt dead_time c c1 c2
+A11 c 0 0 0 0 0 cc 0 BUF Vhigh = 5
+R1 cc cd 1k
+C1 cd 0 {Td/693}
+D1 cd cc D
+A12 cd 0 0 0 0 0 c1 0 BUF Vhigh = 5
+A21 c 0 0 0 0 cb 0 0 BUF Vhigh =5
+R2 cb cbd 1k
+C2 cbd 0 {Td/693}
+D2 cbd cb D
+A22 cbd 0 0 0 0 0 c2 0 BUF Vhigh = 5
+.param Td = 100ns
+*****************************
+.model D D
+*****************************
+.ends dead_time
+***********************************************************************
