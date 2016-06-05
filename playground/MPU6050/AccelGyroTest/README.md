@@ -64,3 +64,5 @@ It sends the readings out the serial connection:
 * [Arduino playground MPU-6050 page](http://playground.arduino.cc/Main/MPU-6050)
 * [Arduino Wire Library](https://www.arduino.cc/en/Reference/Wire)
 * [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) - wikipedia
+* [Gy521-Dev-Kit](https://github.com/janaka/Gy521-Dev-Kit) - tools and examples for Gy521-compatible modules
+* [i2cdevlib](https://github.com/jrowberg/i2cdevlib) - general I²C library, supports MPU-6050
