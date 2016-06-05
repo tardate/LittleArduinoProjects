@@ -64,4 +64,3 @@ It sends the readings out the serial connection:
 * [Arduino playground MPU-6050 page](http://playground.arduino.cc/Main/MPU-6050)
 * [Arduino Wire Library](https://www.arduino.cc/en/Reference/Wire)
 * [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) - wikipedia
-* [name](url)
