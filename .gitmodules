@@ -34,3 +34,6 @@
 [submodule "libraries/DS3232RTC"]
 	path = libraries/DS3232RTC
 	url = https://github.com/JChristensen/DS3232RTC
+[submodule "libraries/OneWire"]
+	path = libraries/OneWire
+	url = https://github.com/PaulStoffregen/OneWire
