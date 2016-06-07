@@ -1,5 +1,5 @@
-# 219 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DS18S20/OneWireReading](./playground/DS18S20/OneWireReading) - basic interrogation of a DS18S20 using 1-wire protocol
+# 220 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [GccToolchain](./playground/GccToolchain) - programming an Arduino with C and a command line
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -89,6 +89,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 | [#061 Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                           | **Logic Gates, BJT**            Set/Reset flip-flop with BJTs |
 | [#062 Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper)       | **Logic Gates, BJT, Arduino**   Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |
+| [#220 GccToolchain](./playground/GccToolchain)                                     | **avr-lib, avrdude**            programming an Arduino with C and a command line |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |
