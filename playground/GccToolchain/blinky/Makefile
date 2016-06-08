@@ -14,6 +14,7 @@ all: blinky.hex
 
 %.hex: %.elf
 	avr-objcopy -j .text -j .data -O ihex $< $@
+	avr-objdump -h -S $< > $*.lst
 
 flash: blinky.hex
 	avrdude -D -v -c arduino -p atmega328p -P /dev/cu.usbmodem14541 -b 115200 -U flash:w:$<:i
@@ -22,3 +23,5 @@ clean:
 	rm *.o
 	rm *.elf
 	rm *.hex
+	rm *.map
+	rm *.lst
