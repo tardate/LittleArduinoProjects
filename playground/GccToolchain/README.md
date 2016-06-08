@@ -17,9 +17,14 @@ from maxembedded.
 
 ### Software Components
 
-[homebrew](https://github.com/Homebrew/homebrew)
+* [homebrew](https://github.com/Homebrew/homebrew)
+* [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc)
+* [avr-libc](http://www.nongnu.org/avr-libc/)
+* [avrdude](http://savannah.nongnu.org/projects/avrdude/)
 
 ### Software Installation
+
+Installing `avr-libc` actually pulls in avr-gcc and avr-binutils.
 
 ```
 brew tap osx-cross/avr
@@ -168,7 +173,7 @@ rm *.elf
 rm *.hex
 $ make
 avr-gcc -w -Os -Wl,--gc-sections -DF_CPU=16000000UL -mmcu=atmega328p -c blinky.c
-avr-gcc -mmcu=atmega328p blinky.o -o blinky.elf
+avr-gcc -mmcu=atmega328p -Wl,-Map,blinky.map blinky.o -o blinky.elf
 avr-objcopy -j .text -j .data -O ihex blinky.elf blinky.hex
 $ make flash
 avrdude -D -v -c arduino -p atmega328p -P /dev/cu.usbmodem14541 -b 115200 -U flash:w:blinky.hex:i
@@ -179,6 +184,7 @@ avrdude done.  Thank you.
 ## Credits and References
 * [homebrew](https://github.com/Homebrew/homebrew)
 * [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc) - GCC Wiki
+* [avr-libc](http://www.nongnu.org/avr-libc/)
 * [avrdude](http://savannah.nongnu.org/projects/avrdude/)
 * [avrdude manual](http://ftp.yzu.edu.tw/nongnu//avrdude/avrdude-doc-5.10.pdf)
 * [Setting up AVR-GCC Toolchain on Linux and Mac OS X](http://maxembedded.com/2015/06/setting-up-avr-gcc-toolchain-on-linux-and-mac-os-x/)

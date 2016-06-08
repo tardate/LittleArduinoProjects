@@ -20,7 +20,7 @@ int main(void)
         _delay_ms(200);
 
         //LED off: PB5 = Low = 0v
-        PORTB = 0x00;
+        PORTB &= ~ (1<<PB5);
         _delay_ms(1800);
     }
 }
