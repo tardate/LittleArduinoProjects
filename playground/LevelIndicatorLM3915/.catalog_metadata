@@ -1,0 +1,7 @@
+{
+    "id": "#065", 
+    "name": "LevelIndicatorLM3915", 
+    "description": "Driving an LM3915 10-segment display with a single Arduino pin", 
+    "categories": "LM3915, Arduino", 
+    "relative_path": "playground/LevelIndicatorLM3915"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#123", 
+    "name": "SuperheterodyneReceiverKit", 
+    "description": "build and analyse a basic commercial radio recevier kit", 
+    "categories": "RF", 
+    "relative_path": "Electronics101/SuperheterodyneReceiverKit"
+}

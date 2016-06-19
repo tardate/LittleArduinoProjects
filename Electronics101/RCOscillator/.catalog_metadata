@@ -1,0 +1,7 @@
+{
+    "id": "#049", 
+    "name": "RCOscillator", 
+    "description": "simple RC/transistor multistable vibrator", 
+    "categories": "BJT, RC, Oscillators", 
+    "relative_path": "Electronics101/RCOscillator"
+}

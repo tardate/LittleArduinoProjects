@@ -1,0 +1,7 @@
+{
+    "id": "#113", 
+    "name": "TTLBufferDriver", 
+    "description": "using an OpAmp as a final buffer stage for TTL or similar circuits", 
+    "categories": "OpAmp, TTL", 
+    "relative_path": "Electronics101/TTLBufferDriver"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#195", 
+    "name": "LCResonator", 
+    "description": "measure the resonant frequency of an LC circuit or inductance of an inductor ", 
+    "categories": "Oscillators, LC", 
+    "relative_path": "Electronics101/LCResonator"
+}

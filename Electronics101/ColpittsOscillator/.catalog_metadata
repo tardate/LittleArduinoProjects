@@ -1,0 +1,7 @@
+{
+    "id": "#180", 
+    "name": "ColpittsOscillator", 
+    "description": "testing a basic Colpitts Oscillator circuit", 
+    "categories": "LC, Oscillators", 
+    "relative_path": "Electronics101/ColpittsOscillator"
+}

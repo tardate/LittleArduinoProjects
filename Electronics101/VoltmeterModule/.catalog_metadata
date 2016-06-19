@@ -1,0 +1,7 @@
+{
+    "id": "#181", 
+    "name": "VoltmeterModule", 
+    "description": "test a 3-wire voltmeter module", 
+    "categories": "Sensors", 
+    "relative_path": "Electronics101/VoltmeterModule"
+}

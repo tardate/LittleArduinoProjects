@@ -1,0 +1,7 @@
+{
+    "id": "#122", 
+    "name": "OpAmpTimer", 
+    "description": "testing an OpAmp timer switch", 
+    "categories": "OpAmp, Timer", 
+    "relative_path": "Electronics101/OpAmpTimer"
+}

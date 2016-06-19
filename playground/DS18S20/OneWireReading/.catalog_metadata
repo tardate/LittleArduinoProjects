@@ -1,0 +1,7 @@
+{
+    "id": "#219", 
+    "name": "DS18S20/OneWireReading", 
+    "description": "basic interrogation of a DS18S20 using 1-wire protocol", 
+    "categories": "Sensors, Arduino", 
+    "relative_path": "playground/DS18S20/OneWireReading"
+}

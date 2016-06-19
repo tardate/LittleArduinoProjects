@@ -1,0 +1,7 @@
+{
+    "id": "#041", 
+    "name": "Shifty", 
+    "description": "drive 8 LEDs with 3 pins using a 74HC595 shift register", 
+    "categories": "LED, 74xx, Arduino", 
+    "relative_path": "playground/Shifty"
+}

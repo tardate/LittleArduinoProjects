@@ -1,0 +1,7 @@
+{
+    "id": "#019", 
+    "name": "Popcorn", 
+    "description": "How to make a piezo buzzer even more annoying? Make it play popcorn!", 
+    "categories": "Audio, Arduino", 
+    "relative_path": "playground/Popcorn"
+}

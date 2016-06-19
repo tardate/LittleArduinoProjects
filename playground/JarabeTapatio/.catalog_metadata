@@ -1,0 +1,7 @@
+{
+    "id": "#051", 
+    "name": "El Jarabe Tapat\u00edo", 
+    "description": "play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification", 
+    "categories": "Audio, Arduino", 
+    "relative_path": "playground/JarabeTapatio"
+}

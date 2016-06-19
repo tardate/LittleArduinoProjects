@@ -1,0 +1,7 @@
+{
+    "id": "#118", 
+    "name": "RotaryEncoderMethods", 
+    "description": "finding the best method for reading a rotary-encoder", 
+    "categories": "Sensor, Arduino", 
+    "relative_path": "playground/RotaryEncoderMethods"
+}

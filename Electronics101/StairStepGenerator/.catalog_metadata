@@ -1,0 +1,7 @@
+{
+    "id": "#222", 
+    "name": "StairStepGenerator", 
+    "description": "generate a stair-step waveform with analog components", 
+    "categories": "OpAmp, Oscillators", 
+    "relative_path": "Electronics101/StairStepGenerator"
+}

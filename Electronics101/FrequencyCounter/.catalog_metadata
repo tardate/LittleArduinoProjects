@@ -1,0 +1,7 @@
+{
+    "id": "#207", 
+    "name": "FrequencyCounter", 
+    "description": "test a CMOS frequency counter circuit with 100Hz - 5MHz range", 
+    "categories": "CMOS, Oscillators", 
+    "relative_path": "Electronics101/FrequencyCounter"
+}

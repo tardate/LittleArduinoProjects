@@ -1,0 +1,7 @@
+{
+    "id": "#018", 
+    "name": "FretBoard", 
+    "description": "a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array", 
+    "categories": "LED Array, Arduino", 
+    "relative_path": "FretBoard"
+}

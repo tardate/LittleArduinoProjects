@@ -1,0 +1,7 @@
+{
+    "id": "#129", 
+    "name": "RelaxationJouleThief", 
+    "description": "test a \"joule thief\" circuit based on a relaxation oscillator", 
+    "categories": "Power, RLC, Oscillators", 
+    "relative_path": "Electronics101/RelaxationJouleThief"
+}

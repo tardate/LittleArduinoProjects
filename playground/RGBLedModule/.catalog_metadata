@@ -1,0 +1,7 @@
+{
+    "id": "#169", 
+    "name": "RGBLedModule", 
+    "description": "demo an RGB LED module", 
+    "categories": "LED, Arduino", 
+    "relative_path": "playground/RGBLedModule"
+}

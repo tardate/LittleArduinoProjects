@@ -1,0 +1,7 @@
+{
+    "id": "#066", 
+    "name": "Switch - NFET", 
+    "description": "small-signal n-channel MOSFET switch with turn-off delay", 
+    "categories": "MOSFET", 
+    "relative_path": "Electronics101/SwitchNFET"
+}

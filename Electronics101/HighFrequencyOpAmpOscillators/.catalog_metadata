@@ -1,0 +1,7 @@
+{
+    "id": "#142", 
+    "name": "HighFrequencyOpAmpOscillators", 
+    "description": "how fast can you push an Op-Amp oscillator?", 
+    "categories": "OpAmp, Oscillators", 
+    "relative_path": "Electronics101/HighFrequencyOpAmpOscillators"
+}

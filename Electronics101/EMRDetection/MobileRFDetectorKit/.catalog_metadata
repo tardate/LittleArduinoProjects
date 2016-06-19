@@ -1,0 +1,7 @@
+{
+    "id": "#082", 
+    "name": "MobileRFDetectorKit", 
+    "description": "build and investigate a commercially available \"mobile phone signal\" detector kit", 
+    "categories": "RF", 
+    "relative_path": "Electronics101/EMRDetection/MobileRFDetectorKit"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#127", 
+    "name": "ATtinySleep", 
+    "description": "test sleep mode with an ATtiny85 processor on a breadboard", 
+    "categories": "Arduino, ATmel", 
+    "relative_path": "playground/ATtinySleep"
+}

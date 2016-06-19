@@ -1,0 +1,7 @@
+{
+    "id": "#033", 
+    "name": "Switch - PNP", 
+    "description": "small-signal digital switch with PNP BJT", 
+    "categories": "BJT", 
+    "relative_path": "Electronics101/SwitchPNP"
+}

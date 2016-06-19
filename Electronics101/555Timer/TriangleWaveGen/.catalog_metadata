@@ -1,0 +1,7 @@
+{
+    "id": "#031", 
+    "name": "Triangle Wave - 555", 
+    "description": "generate a triangle wave with 555 timer and RC integrator", 
+    "categories": "555 Timer, Oscillators", 
+    "relative_path": "Electronics101/555Timer/TriangleWaveGen"
+}

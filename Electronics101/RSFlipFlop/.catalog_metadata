@@ -1,0 +1,7 @@
+{
+    "id": "#061", 
+    "name": "Gates - RS Flip Flop", 
+    "description": "Set/Reset flip-flop with BJTs", 
+    "categories": "Logic Gates, BJT", 
+    "relative_path": "Electronics101/RSFlipFlop"
+}

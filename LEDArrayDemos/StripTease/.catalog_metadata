@@ -1,0 +1,7 @@
+{
+    "id": "#015", 
+    "name": "StripTease", 
+    "description": "demo a range of effects on the LED strip", 
+    "categories": "LED Array, Arduino", 
+    "relative_path": "LEDArrayDemos/StripTease"
+}

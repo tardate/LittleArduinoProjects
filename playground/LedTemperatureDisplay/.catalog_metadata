@@ -1,0 +1,7 @@
+{
+    "id": "#079", 
+    "name": "LedTemperatureDisplay", 
+    "description": "measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit", 
+    "categories": "Sensors, LM35, 7-Segment, Arduino", 
+    "relative_path": "playground/LedTemperatureDisplay"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#067", 
+    "name": "LEDLamp", 
+    "description": "build and analyse a commercial LED lamp kit with capacitive power supply", 
+    "categories": "Power, LED", 
+    "relative_path": "Electronics101/LEDLampAC"
+}

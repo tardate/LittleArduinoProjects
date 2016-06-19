@@ -1,0 +1,7 @@
+{
+    "id": "#056", 
+    "name": "JoystickServoControl", 
+    "description": "controlling two servos with a joystick", 
+    "categories": "Human Input, Arduino", 
+    "relative_path": "playground/JoystickServoControl"
+}

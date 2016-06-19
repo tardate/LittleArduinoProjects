@@ -1,0 +1,7 @@
+{
+    "id": "#009", 
+    "name": "Blink", 
+    "description": "the simplest blinking LED, with some electrical measurements thrown in", 
+    "categories": "LED, Arduino", 
+    "relative_path": "playground/Blink"
+}

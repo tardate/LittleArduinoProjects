@@ -1,0 +1,7 @@
+{
+    "id": "#020", 
+    "name": "Arduino Internals", 
+    "description": "report on Arduino Board internals", 
+    "categories": "Arduino", 
+    "relative_path": "playground/Internals"
+}

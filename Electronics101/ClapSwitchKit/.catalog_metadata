@@ -1,0 +1,7 @@
+{
+    "id": "#170", 
+    "name": "ClapSwitchKit", 
+    "description": "build and analyse a simple clap switch circuit available as a kit", 
+    "categories": "Logic Gates, BJT", 
+    "relative_path": "Electronics101/ClapSwitchKit"
+}

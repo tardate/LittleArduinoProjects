@@ -1,0 +1,7 @@
+{
+    "id": "#141", 
+    "name": "CrystalTester", 
+    "description": "a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter", 
+    "categories": "RF, Oscillators", 
+    "relative_path": "Electronics101/CrystalTester"
+}

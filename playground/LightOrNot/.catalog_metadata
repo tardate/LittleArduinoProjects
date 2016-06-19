@@ -1,0 +1,7 @@
+{
+    "id": "#010", 
+    "name": "LightOrNot", 
+    "description": "uses an LDR to adjust the blink rate of an LED", 
+    "categories": "Sensors, Arduino", 
+    "relative_path": "playground/LightOrNot"
+}

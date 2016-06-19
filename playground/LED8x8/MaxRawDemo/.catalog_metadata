@@ -1,0 +1,7 @@
+{
+    "id": "#101", 
+    "name": "MaxRawDemo", 
+    "description": "drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands", 
+    "categories": "8x8 LED, Arduino", 
+    "relative_path": "playground/LED8x8/MaxRawDemo"
+}

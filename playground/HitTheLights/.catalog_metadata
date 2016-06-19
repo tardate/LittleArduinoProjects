@@ -1,0 +1,7 @@
+{
+    "id": "#043", 
+    "name": "HitTheLights", 
+    "description": "simple LED game with LCD output and interrupt-driven button input", 
+    "categories": "LCD, Human Input, Arduino", 
+    "relative_path": "playground/HitTheLights"
+}

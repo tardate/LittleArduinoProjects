@@ -1,0 +1,7 @@
+{
+    "id": "#023", 
+    "name": "ResistorTransistorLogic/NAND", 
+    "description": "test the basic resistor-transistor logic NAND gate ", 
+    "categories": "BJT, RTL, Logic Gates", 
+    "relative_path": "Electronics101/ResistorTransistorLogic/NAND"
+}

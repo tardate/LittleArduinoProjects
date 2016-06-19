@@ -1,0 +1,7 @@
+{
+    "id": "#178", 
+    "name": "LED7Segment/ShiftDriveModule", 
+    "description": "a custom 7-segment display module PCB with 74HC595 shift register interface", 
+    "categories": "7-Segment, 74xx, Arduino, PCB", 
+    "relative_path": "playground/LED7Segment/ShiftDriveModule"
+}

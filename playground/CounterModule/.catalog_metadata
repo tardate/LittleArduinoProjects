@@ -1,0 +1,7 @@
+{
+    "id": "#136", 
+    "name": "CounterModule", 
+    "description": "a general-purpose CD4017 counter module", 
+    "categories": "CMOS, Arduino", 
+    "relative_path": "playground/CounterModule"
+}

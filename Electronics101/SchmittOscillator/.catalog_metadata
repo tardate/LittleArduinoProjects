@@ -1,0 +1,7 @@
+{
+    "id": "#022", 
+    "name": "Square Wave - Schmitt", 
+    "description": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave", 
+    "categories": "74xx TTL, Oscillators", 
+    "relative_path": "Electronics101/SchmittOscillator"
+}

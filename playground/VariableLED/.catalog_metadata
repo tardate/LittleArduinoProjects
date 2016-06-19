@@ -1,0 +1,7 @@
+{
+    "id": "#002", 
+    "name": "Variable LED brightness with PWM", 
+    "description": "variable resistor is used to control the brightness of an LED with PWM", 
+    "categories": "LED, Arduino", 
+    "relative_path": "playground/VariableLED"
+}

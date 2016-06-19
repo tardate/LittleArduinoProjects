@@ -1,0 +1,7 @@
+{
+    "id": "#171", 
+    "name": "SMDPracticeBoards", 
+    "description": "a collection of notes, kits and resources for hand-soldering surface mount devices", 
+    "categories": "SMD, CMOS, 555 Timer", 
+    "relative_path": "Electronics101/SMDPracticeBoards"
+}

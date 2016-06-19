@@ -1,0 +1,7 @@
+{
+    "id": "#201", 
+    "name": "DoorbellKit", 
+    "description": "another two-tone doorbell using a 555 timer oscillator", 
+    "categories": "555 Timer, Oscillators", 
+    "relative_path": "Electronics101/555Timer/DoorbellKit"
+}

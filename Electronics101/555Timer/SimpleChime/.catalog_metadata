@@ -1,0 +1,7 @@
+{
+    "id": "#044", 
+    "name": "SimpleChime", 
+    "description": "play a sound for a fixed duration when a button is pressed", 
+    "categories": "555 Timer", 
+    "relative_path": "Electronics101/555Timer/SimpleChime"
+}

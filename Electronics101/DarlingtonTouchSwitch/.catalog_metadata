@@ -1,0 +1,7 @@
+{
+    "id": "#130", 
+    "name": "DarlingtonTouchSwitch", 
+    "description": "test a Darlington-pair touch switch", 
+    "categories": "Sensors, BJT", 
+    "relative_path": "Electronics101/DarlingtonTouchSwitch"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#124", 
+    "name": "RFDetectorProbe", 
+    "description": "a simple RF detector mounted in a pen", 
+    "categories": "RF", 
+    "relative_path": "Electronics101/EMRDetection/RFDetectorProbe"
+}

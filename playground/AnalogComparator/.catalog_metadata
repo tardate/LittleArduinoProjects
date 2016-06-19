@@ -1,0 +1,7 @@
+{
+    "id": "#139", 
+    "name": "AnalogComparator", 
+    "description": "test the Atmega328 built-in analog comparator", 
+    "categories": "Arduino, Sensor, OpAmp", 
+    "relative_path": "playground/AnalogComparator"
+}

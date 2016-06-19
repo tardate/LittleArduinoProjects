@@ -1,0 +1,7 @@
+{
+    "id": "#042", 
+    "name": "ServoTest", 
+    "description": "test the positioning accuracy of a servo motor driven by an Arduino", 
+    "categories": "Servo, Arduino", 
+    "relative_path": "playground/ServoTest"
+}

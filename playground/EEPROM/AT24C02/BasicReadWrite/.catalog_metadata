@@ -1,0 +1,7 @@
+{
+    "id": "#188", 
+    "name": "EEPROM/AT24C02/BasicReadWrite", 
+    "description": "basic read/write operations to external EEPROM (AT24C02) with the Wire library", 
+    "categories": "EEPROM, Arduino", 
+    "relative_path": "playground/EEPROM/AT24C02/BasicReadWrite"
+}

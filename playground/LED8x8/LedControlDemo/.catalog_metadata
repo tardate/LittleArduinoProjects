@@ -1,0 +1,7 @@
+{
+    "id": "#103", 
+    "name": "LedControlDemo", 
+    "description": "test driving and LED matrix with the LedControl library", 
+    "categories": "8x8 LED, Arduino", 
+    "relative_path": "playground/LED8x8/LedControlDemo"
+}

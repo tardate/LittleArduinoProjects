@@ -1,0 +1,7 @@
+{
+    "id": "#150", 
+    "name": "ML741", 
+    "description": "an LM741-style OpAmp built with discrete components", 
+    "categories": "OpAmp", 
+    "relative_path": "Electronics101/ML741"
+}

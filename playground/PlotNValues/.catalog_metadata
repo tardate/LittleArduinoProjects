@@ -1,0 +1,7 @@
+{
+    "id": "#090", 
+    "name": "PlotNValues", 
+    "description": "generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing", 
+    "categories": "Arduino, Processing", 
+    "relative_path": "playground/PlotNValues"
+}

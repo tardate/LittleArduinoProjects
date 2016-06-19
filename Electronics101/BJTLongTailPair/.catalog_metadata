@@ -1,0 +1,7 @@
+{
+    "id": "#094", 
+    "name": "BJTLongTailPair", 
+    "description": "test the basic BJT \"long-tail\" differential amplifier circuit", 
+    "categories": "BJT, OpAmp", 
+    "relative_path": "Electronics101/BJTLongTailPair"
+}

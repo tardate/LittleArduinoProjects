@@ -1,0 +1,7 @@
+{
+    "id": "#194", 
+    "name": "ESP8266/DIYDevBoard", 
+    "description": "a DIY devboard for an ESP-01 ESP8266", 
+    "categories": "ESP8266", 
+    "relative_path": "playground/ESP8266/DIYDevBoard"
+}

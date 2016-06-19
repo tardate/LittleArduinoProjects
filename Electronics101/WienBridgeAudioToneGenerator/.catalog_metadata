@@ -1,0 +1,7 @@
+{
+    "id": "#197", 
+    "name": "WienBridgeAudioToneGenerator", 
+    "description": "fixed-frequency tone generator based on a Wien Bridge Oscillator", 
+    "categories": "OpAmp, Oscillators", 
+    "relative_path": "Electronics101/WienBridgeAudioToneGenerator"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#054", 
+    "name": "RelayModuleTest", 
+    "description": "quick test of a common relay board to switch a motor under Arduino control", 
+    "categories": "Servo, Arduino", 
+    "relative_path": "playground/RelayModuleTest"
+}

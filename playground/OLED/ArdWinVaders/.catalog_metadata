@@ -1,0 +1,7 @@
+{
+    "id": "#100", 
+    "name": "ArdWinVaders", 
+    "description": "an Arduino & OLED version of a classic game", 
+    "categories": "Arduino, OLED", 
+    "relative_path": "playground/OLED/ArdWinVaders"
+}

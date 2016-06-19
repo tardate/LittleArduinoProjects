@@ -1,0 +1,7 @@
+{
+    "id": "#092", 
+    "name": "Power317CC", 
+    "description": "test a constant current power supply built with the LM317", 
+    "categories": "Power", 
+    "relative_path": "Electronics101/Power317CC"
+}

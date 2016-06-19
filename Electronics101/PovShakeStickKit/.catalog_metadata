@@ -1,0 +1,7 @@
+{
+    "id": "#193", 
+    "name": "PovShakeStickKit", 
+    "description": "build and investigate an AT89S52-based \"shake stick\" kit", 
+    "categories": "8051, LED", 
+    "relative_path": "Electronics101/PovShakeStickKit"
+}

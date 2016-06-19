@@ -1,0 +1,7 @@
+{
+    "id": "#198", 
+    "name": "HallEffectSwitch", 
+    "description": "testing a Hall effect switch", 
+    "categories": "Sensors", 
+    "relative_path": "Electronics101/HallEffectSwitch"
+}

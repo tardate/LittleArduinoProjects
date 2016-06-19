@@ -1,0 +1,7 @@
+{
+    "id": "#008", 
+    "name": "RGBCalibrate", 
+    "description": "quick test to make sure LEDs are correctly addressable and their color can be set correctly", 
+    "categories": "LED Array, Arduino", 
+    "relative_path": "LEDArrayDemos/RGBCalibrate"
+}

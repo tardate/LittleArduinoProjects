@@ -1,0 +1,7 @@
+{
+    "id": "#040", 
+    "name": "MeLEDy", 
+    "description": "use an electret microphone to light a series of LEDs in proportion to volume", 
+    "categories": "Audio", 
+    "relative_path": "Electronics101/MeLEDy"
+}

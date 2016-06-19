@@ -1,0 +1,7 @@
+{
+    "id": "#068", 
+    "name": "ATmegaViaArduinoISP", 
+    "description": "Programming an ATMEGA328P-PU on a breadboard with Arduino ISP", 
+    "categories": "Arduino, ATmel", 
+    "relative_path": "playground/ATmegaViaArduinoISP"
+}

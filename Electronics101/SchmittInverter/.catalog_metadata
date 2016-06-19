@@ -1,0 +1,7 @@
+{
+    "id": "#021", 
+    "name": "Schmitt Inverter", 
+    "description": "graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs", 
+    "categories": "74xx TTL", 
+    "relative_path": "Electronics101/SchmittInverter"
+}

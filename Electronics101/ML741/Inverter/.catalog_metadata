@@ -1,0 +1,7 @@
+{
+    "id": "#158", 
+    "name": "ML741/Inverter", 
+    "description": "test an inverter circuit using the ML741 discrete component opamp", 
+    "categories": "OpAmp", 
+    "relative_path": "Electronics101/ML741/Inverter"
+}

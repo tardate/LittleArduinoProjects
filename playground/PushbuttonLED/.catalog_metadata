@@ -1,0 +1,7 @@
+{
+    "id": "#004", 
+    "name": "Pushbutton LED switch", 
+    "description": "Momentary push button switch is used to toggle the LED on and off", 
+    "categories": "LED, Arduino", 
+    "relative_path": "playground/PushbuttonLED"
+}

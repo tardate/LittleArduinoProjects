@@ -1,0 +1,7 @@
+{
+    "id": "#059", 
+    "name": "TwoToneDoorbell", 
+    "description": "basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation", 
+    "categories": "555 Timer, Oscillators", 
+    "relative_path": "Electronics101/555Timer/TwoToneDoorbell"
+}

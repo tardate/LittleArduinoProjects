@@ -1,0 +1,7 @@
+{
+    "id": "#177", 
+    "name": "LED7Segment/ShiftDrive", 
+    "description": "test control of a 7-segment display via a 74HC595 shift register", 
+    "categories": "7-Segment, 74xx, Arduino", 
+    "relative_path": "playground/LED7Segment/ShiftDrive"
+}

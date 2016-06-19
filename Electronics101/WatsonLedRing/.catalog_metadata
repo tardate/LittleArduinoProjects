@@ -1,0 +1,7 @@
+{
+    "id": "#164", 
+    "name": "WatsonLedRing", 
+    "description": "test a Watson 3-LED Ring oscillator", 
+    "categories": "Oscillators", 
+    "relative_path": "Electronics101/WatsonLedRing"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#108", 
+    "name": "RingCounterController", 
+    "description": "control the classic CD4017 walking-ring counter with an Arduino", 
+    "categories": "CMOS, Arduino", 
+    "relative_path": "playground/RingCounterController"
+}

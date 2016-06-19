@@ -1,0 +1,7 @@
+{
+    "id": "#077", 
+    "name": "Gates - RS Flip Flop/NOR Latch", 
+    "description": "Set/Reset flip-flop implemented with NOR gates", 
+    "categories": "Logic Gates, 74xx", 
+    "relative_path": "Electronics101/RSFlipFlop_NORLatch"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#157", 
+    "name": "ML741/VoltageFollower", 
+    "description": "test a voltage follower/buffer circuit with the ML741 discrete component opamp", 
+    "categories": "OpAmp", 
+    "relative_path": "Electronics101/ML741/VoltageFollower"
+}

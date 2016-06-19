@@ -1,0 +1,7 @@
+{
+    "id": "#203", 
+    "name": "HomopolarMotor", 
+    "description": "build a basic homopolar motor", 
+    "categories": "Kinetics", 
+    "relative_path": "Kinetics/HomopolarMotor"
+}

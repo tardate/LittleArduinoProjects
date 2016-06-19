@@ -1,0 +1,7 @@
+{
+    "id": "#057", 
+    "name": "CapacitanceTester", 
+    "description": "capacitor tester with LCD output", 
+    "categories": "LCD, RC, Arduino", 
+    "relative_path": "Electronics101/CapacitanceTester"
+}

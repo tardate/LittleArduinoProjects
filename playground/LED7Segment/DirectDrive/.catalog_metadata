@@ -1,0 +1,7 @@
+{
+    "id": "#001", 
+    "name": "LED7Segment/DirectDrive", 
+    "description": "test a 7-segment common cathode display", 
+    "categories": "7-Segment, Arduino", 
+    "relative_path": "playground/LED7Segment/DirectDrive"
+}

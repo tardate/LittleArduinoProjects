@@ -1,0 +1,7 @@
+{
+    "id": "#036", 
+    "name": "NonInverting324", 
+    "description": "demo LM324 OpAmp non-inverting DC gain mode", 
+    "categories": "OpAmp", 
+    "relative_path": "Electronics101/NonInverting324"
+}

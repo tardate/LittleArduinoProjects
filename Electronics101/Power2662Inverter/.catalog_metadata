@@ -1,0 +1,7 @@
+{
+    "id": "#165", 
+    "name": "Power2662Inverter", 
+    "description": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter", 
+    "categories": "Power", 
+    "relative_path": "Electronics101/Power2662Inverter"
+}

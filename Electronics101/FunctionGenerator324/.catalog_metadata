@@ -1,0 +1,7 @@
+{
+    "id": "#053", 
+    "name": "FunctionGenerator324", 
+    "description": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator", 
+    "categories": "OpAmp, Oscillators", 
+    "relative_path": "Electronics101/FunctionGenerator324"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#109", 
+    "name": "DiodeLogic/OR", 
+    "description": "test the basic diode-logic OR gate", 
+    "categories": "Diode, Logic Gates", 
+    "relative_path": "Electronics101/DiodeLogic/OR"
+}

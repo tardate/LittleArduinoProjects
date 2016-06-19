@@ -1,0 +1,7 @@
+{
+    "id": "#191", 
+    "name": "LowVoltageGlowingLEDs", 
+    "description": "a dual-LED \"glowing\" oscillator from a 1.5V supply", 
+    "categories": "BJT, LED, Oscillators, Power", 
+    "relative_path": "Electronics101/LowVoltageGlowingLEDs"
+}

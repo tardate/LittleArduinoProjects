@@ -1,0 +1,7 @@
+{
+    "id": "#095", 
+    "name": "LittleGem/A386", 
+    "description": "a basic Smokey-inspired LM386 guitar power amp", 
+    "categories": "OpAmp, Audio", 
+    "relative_path": "Electronics101/AudioAmps/LittleGem"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#046", 
+    "name": "MotorControlPWM", 
+    "description": "tests PWM speed control of a DC motor driven by an Arduino", 
+    "categories": "Motors, Arduino", 
+    "relative_path": "playground/MotorControlPWM"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#026", 
+    "name": "Power317", 
+    "description": "test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator", 
+    "categories": "Power", 
+    "relative_path": "Electronics101/Power317"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#137", 
+    "name": "ToroidJouleThief", 
+    "description": "test a \"joule thief\" circuit based on a ferrite toroid", 
+    "categories": "Power, RL, Oscillators", 
+    "relative_path": "Electronics101/ToroidJouleThief"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#050", 
+    "name": "Girabot", 
+    "description": "EE40LX Electronic Interfaces robot project", 
+    "categories": "Sensors, OpAmp, Arduino", 
+    "relative_path": "Girabot"
+}

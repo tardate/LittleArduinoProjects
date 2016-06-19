@@ -1,0 +1,7 @@
+{
+    "id": "#128", 
+    "name": "ATtinyTotalSleep", 
+    "description": "test a total power shutdown with an ATtiny85 processor on a breadboard", 
+    "categories": "Arduino, ATmel", 
+    "relative_path": "playground/ATtinyTotalSleep"
+}

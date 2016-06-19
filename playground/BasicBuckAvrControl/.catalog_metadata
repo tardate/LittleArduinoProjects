@@ -1,0 +1,7 @@
+{
+    "id": "#217", 
+    "name": "BasicBuckAvrControl", 
+    "description": "a simple buck converter circuit from first principles", 
+    "categories": "Power, Arduino", 
+    "relative_path": "playground/BasicBuckAvrControl"
+}

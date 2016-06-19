@@ -1,0 +1,7 @@
+{
+    "id": "#215", 
+    "name": "OSHChip/YottaToolchain", 
+    "description": "build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX", 
+    "categories": "ARM, gcc, yotta, OSHChip", 
+    "relative_path": "OSHChip/YottaToolchain"
+}

@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# A simple script to initialise a new project
+#
 
 
 function usage() {
@@ -26,7 +28,10 @@ function make_project() {
 
   mkdir -p ${full_path}
   mkdir ${full_path}/assets
-  cat > "${full_path}/README.md" <<EOS
+
+  local readme_file="${full_path}/README.md"
+  echo "making ${readme_file}"
+  cat > "${readme_file}" <<EOS
 # ${full_project_name}
 
 __subtitle__
@@ -46,6 +51,18 @@ __notes__
 ## Credits and References
 * [name](url)
 
+EOS
+
+  local catalog_file="${full_path}/.catalog_metadata"
+  echo "making ${catalog_file}"
+  cat > "${catalog_file}" <<EOS
+{
+    "id": "#xxx",
+    "name": "${project_name}",
+    "description": "enter description",
+    "categories": "",
+    "relative_path": "${full_project_name}"
+}
 EOS
 
   local ino_file="${full_path}/${project_name}.ino"

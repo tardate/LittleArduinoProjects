@@ -1,0 +1,7 @@
+{
+    "id": "#205", 
+    "name": "TriacDimmer", 
+    "description": "investigate the operation of triacs and build the basic dimmaer circuit", 
+    "categories": "Triac, Thyristor", 
+    "relative_path": "Electronics101/TriacDimmer"
+}

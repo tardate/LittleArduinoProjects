@@ -1,0 +1,7 @@
+{
+    "id": "#216", 
+    "name": "OSHChip/LEDx16Module", 
+    "description": "driving an SPI LED module with the OSHChip", 
+    "categories": "OSHChip, SPI", 
+    "relative_path": "OSHChip/LEDx16Module"
+}

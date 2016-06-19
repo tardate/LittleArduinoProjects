@@ -1,0 +1,7 @@
+{
+    "id": "#143", 
+    "name": "AM/OpAmpTransmitter", 
+    "description": "simple AM transmitter with OpAmp carrier/mixer", 
+    "categories": "RF, OpAmp", 
+    "relative_path": "Electronics101/AM/OpAmpTransmitter"
+}

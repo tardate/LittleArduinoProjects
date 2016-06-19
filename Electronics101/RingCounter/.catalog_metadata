@@ -1,0 +1,7 @@
+{
+    "id": "#107", 
+    "name": "RingCounter", 
+    "description": "test the classic CD4017 walking-ring counter", 
+    "categories": "CMOS, 555 Timer", 
+    "relative_path": "Electronics101/RingCounter"
+}

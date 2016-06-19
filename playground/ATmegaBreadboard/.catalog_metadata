@@ -1,0 +1,7 @@
+{
+    "id": "#069", 
+    "name": "ATmegaBreadboard", 
+    "description": "running an ATMEGA328P-PU on a breadboard ", 
+    "categories": "Arduino, ATmel", 
+    "relative_path": "playground/ATmegaBreadboard"
+}

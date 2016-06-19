@@ -1,0 +1,7 @@
+{
+    "id": "#206", 
+    "name": "CD4047/AstableOscillator", 
+    "description": "test the astable operating mode of the CD4047", 
+    "categories": "CMOS, Oscillators", 
+    "relative_path": "Electronics101/CD4047/AstableOscillator"
+}

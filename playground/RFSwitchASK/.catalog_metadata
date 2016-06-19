@@ -1,0 +1,7 @@
+{
+    "id": "#064", 
+    "name": "RFSwitchASK", 
+    "description": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 
+    "categories": "RF, ASK, Arduino", 
+    "relative_path": "playground/RFSwitchASK"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#111", 
+    "name": "ResistorTransistorLogic/NOR", 
+    "description": "test the basic resistor-transistor logic NOR gate ", 
+    "categories": "BJT, RTL, Logic Gates", 
+    "relative_path": "Electronics101/ResistorTransistorLogic/NOR"
+}

@@ -1,0 +1,7 @@
+{
+    "id": "#119", 
+    "name": "RotaryEncoderModule", 
+    "description": "testing a Rotary Encoder module controlling an LED 8x8 display", 
+    "categories": "Sensor, 8x8 LED, Arduino", 
+    "relative_path": "playground/RotaryEncoderModule"
+}
