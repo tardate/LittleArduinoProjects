@@ -20,21 +20,26 @@
         },
         columns: [
           {
-            data: 'id'
+            data: 'id',
+            width: "10%"
           }, {
-            data: 'description'
+            data: 'name'
           }, {
-            data: 'categories'
+            data: 'categories',
+            width: "20%"
+          }, {
+            data: 'description',
+            visible: false
           }
         ],
         order: [[0, "desc"]],
         rowCallback: function(row, data, index) {
-          var full_description, id_link;
+          var full_name, id_link;
           id_link = '<a href="' + instance.github_base_url + data.relative_path + '">' + data.id + '</a>';
           $('td:eq(0)', row).html(id_link);
-          full_description = "<strong>" + data.name + "</strong>&nbsp;";
-          full_description += "<span>" + data.description + "</span>";
-          return $('td:eq(1)', row).html(full_description);
+          full_name = "<strong>" + data.name + "</strong>&nbsp;";
+          full_name += "<span>" + data.description + "</span>";
+          return $('td:eq(1)', row).html(full_name);
         }
       });
     };
