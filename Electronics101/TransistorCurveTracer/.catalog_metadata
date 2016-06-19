@@ -1,0 +1,7 @@
+{
+    "id": "#228", 
+    "name": "TransistorCurveTracer", 
+    "description": "simple NPN transistor curve tracer using a Stairstep generator circuit", 
+    "categories": "OpAmp, 555 Timer, Oscillators", 
+    "relative_path": "Electronics101/TransistorCurveTracer"
+}

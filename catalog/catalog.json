@@ -780,7 +780,7 @@
     "id": "#222", 
     "name": "StairStepGenerator", 
     "description": "generate a stair-step waveform with analog components", 
-    "categories": "OpAmp, Oscillators", 
+    "categories": "OpAmp, 555 Timer, Oscillators", 
     "relative_path": "Electronics101/StairStepGenerator"
 },
 {
@@ -852,6 +852,13 @@
     "description": "test a \"joule thief\" circuit based on a ferrite toroid", 
     "categories": "Power, RL, Oscillators", 
     "relative_path": "Electronics101/ToroidJouleThief"
+},
+{
+    "id": "#228", 
+    "name": "TransistorCurveTracer", 
+    "description": "simple NPN transistor curve tracer using a Stairstep generator circuit", 
+    "categories": "OpAmp, 555 Timer, Oscillators", 
+    "relative_path": "Electronics101/TransistorCurveTracer"
 },
 {
     "id": "#083", 

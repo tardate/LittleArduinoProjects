@@ -1,5 +1,5 @@
-# 227 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [KnightRider](./Electronics101/555Timer/KnightRider) - the familiar "Knight-Rider" LED circuit using a 555 and 4017
+# 228 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TransistorCurveTracer](./Electronics101/TransistorCurveTracer) - simple NPN transistor curve tracer using a Stairstep generator circuit
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -242,7 +242,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
-| [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, Oscillators**          generate a stair-step waveform with analog components |
+| [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, 555 Timer, Oscillators**          generate a stair-step waveform with analog components |
 | [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
@@ -260,6 +260,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [#135 TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |
+| [#228 TransistorCurveTracer](./Electronics101/TransistorCurveTracer)               | **OpAmp, 555 Timer, Oscillators**  simple NPN transistor curve tracer using a Stairstep generator circuit |
 | [#083 TransistorTester](./Electronics101/TransistorTester)                         | **Arduino, BJT**                use an Arduino to test NPN and PNP BJTs |
 | [#205 TriacDimmer](./Electronics101/TriacDimmer)                                   | **Triac, Thyristor**            investigate the operation of triacs and build the basic dimmaer circuit |
 | [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |

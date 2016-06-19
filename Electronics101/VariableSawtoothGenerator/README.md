@@ -63,4 +63,3 @@ Replacing the LM324 with TL074CN, circuit loses some dynamic range and has signi
 * [LM324N Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
 * [LF347N datasheet](http://www.futurlec.com/Linear/LF347N.shtml)
 * [TL074CN datasheet](http://www.futurlec.com/Linear/TL074CN.shtml)
-
