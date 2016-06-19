@@ -25,6 +25,9 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 
 ## Project Index
 
+I'm probably going to remove the index from the README ..
+try the the new [catalog site](http://tardate.github.io/LittleArduinoProjects/) instead (it uses GitHub Pages on top of the repo).
+
 | Project                                                                            | Category/Description                                              |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
