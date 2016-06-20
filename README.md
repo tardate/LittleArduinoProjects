@@ -1,6 +1,8 @@
-# 223 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [StairStepGenerator](./Electronics101/StairStepGenerator) - generate a stair-step waveform with analog components
+# 224 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LEDStrobeKit](./Electronics101/LEDStrobeKit) - build and analyse a common LED strobe kit
 
+
+Build and analyse a common LED strobe kit.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -119,6 +121,7 @@ try the the new [catalog site](http://tardate.github.io/LittleArduinoProjects/) 
 | [#173 LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, 74xx, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
 | [#067 LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [#209 LedPanelDisplay72R02](./playground/LedPanelDisplay72R02)                     | **LED, Arduino**                test a 7-digit & 7-status indicator LED display |
+| [#224 LEDStrobeKit](./Electronics101/LEDStrobeKit)                                 | **LED, 555 Timer, CMOS**        build and analyse a common LED strobe kit |
 | [#079 LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, LM35, 7-Segment, Arduino** measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit |
 | [#179 LEDx16Module](./playground/LEDx16Module)                                     | **74xx, SMD, Arduino**          a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |

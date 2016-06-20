@@ -1,0 +1,7 @@
+{
+    "id": "#224", 
+    "name": "LEDStrobeKit", 
+    "description": "build and analyse a common LED strobe kit", 
+    "categories": "LED, 555 Timer, CMOS", 
+    "relative_path": "Electronics101/LEDStrobeKit"
+}
