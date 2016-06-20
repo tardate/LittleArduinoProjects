@@ -1,4 +1,4 @@
-# 222 Little Electronics and Arduino Projects
+# 223 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [StairStepGenerator](./Electronics101/StairStepGenerator) - generate a stair-step waveform with analog components
 
 
@@ -16,12 +16,6 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 * and other books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
-
-### Other Bits
-
-* [Custom Fritzing Parts](./FritzingParts) - Most projects have a circuit schematic drawn with [Fritzing](http://fritzing.org/home/). But often I needed a non-standard part for the diagram. Here they are. NB: if I'm making a PCB, I'll probably be using [KiCad](http://kicad-pcb.org/) instead.
-* [notebook](./notebook) - a place for any notes I may make along the way
-* [PlotNValues](./processing/PlotNValues) - a [Processing](https://www.processing.org/download/) script that reads 1..n values from the serial port and plots on stacked charts. I've often used this as a super-low-rent stand-in for an oscilliscope.
 
 ## Project Index
 
@@ -86,9 +80,10 @@ try the the new [catalog site](http://tardate.github.io/LittleArduinoProjects/) 
 | [#154 ESP8266/SerialTest](./playground/ESP8266/SerialTest)                         | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./playground/ESP8266/SerialTest/ruby)               | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
 | [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
-| [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
-| [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
+| [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
+| [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
+| [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [#061 Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                           | **Logic Gates, BJT**            Set/Reset flip-flop with BJTs |
 | [#062 Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper)       | **Logic Gates, BJT, Arduino**   Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |

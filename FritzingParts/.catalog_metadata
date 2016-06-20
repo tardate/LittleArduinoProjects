@@ -1,0 +1,7 @@
+{
+    "id": "#223", 
+    "name": "Fritzing Parts", 
+    "description": "my collection of custom Fritzing Parts", 
+    "categories": "EDA", 
+    "relative_path": "FritzingParts"
+}

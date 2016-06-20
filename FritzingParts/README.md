@@ -1,6 +1,9 @@
-# Fritzing Parts
+# #223 Fritzing Parts
 
-This is just a place where I'm recording custom Fritzing parts that I'm using for various schematics.
+Most projects in the LittleArduinoProjects collection a circuit schematic drawn with [Fritzing](http://fritzing.org/home/).
+But often I needed a non-standard part for the diagram. Here they are!
+
+NB: if I'm making a PCB, I'll probably be using [KiCad](http://kicad-pcb.org/) instead.
 
 ## New Parts
 
@@ -33,6 +36,7 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [Song Le Relay (local copy)](./cached/Song Le Relay.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=2389)
 * [2N7000 FET N-Channel](./cached/2N7000 FET N-Channelfzpz) - [original source](https://github.com/kylegordon/Fritzing-Parts)
 
+
 ## Useful Parts Collections on GitHub
 
 * [AdaFruit Fritzing Library](https://github.com/adafruit/Fritzing-Library)
@@ -42,3 +46,8 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [SFE Fritzing parts](https://github.com/sparkfun/Fritzing_Parts)
 * [una1veritas/EagleDocs](https://github.com/una1veritas/EagleDocs) - Eagle and Fritzing sources
 * [ESP8266 parts](https://github.com/ydonnelly/ESP8266_fritzing)
+
+
+## Credits and References
+* [Fritzing](http://fritzing.org/home/)
+* [KiCad](http://kicad-pcb.org/)
