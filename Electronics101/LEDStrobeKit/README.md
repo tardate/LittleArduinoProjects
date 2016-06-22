@@ -36,7 +36,18 @@ to overcome the forward voltage of the 4 LEDs in series. At 12V the modules are 
 
 The brightness is not even for each color, since the LEDs have different forward voltages.
 It would be a good idea to balance the brightness by adjusting the current-limiting resistor on each module
-instead of using the 27Ω resistor in each. I haven't done this yet.
+instead of using the 27Ω resistor in each.
+
+**Modification**
+
+After some calculation and test, I adjusted the current-limiting resistors as follows to give a decent brightness balance:
+
+| Colour | Original | Replacement     |
+|--------|----------|-----------------|
+| Red    | 27Ω      | 220Ω            |
+| White  | 27Ω      | 330Ω            |
+| Blue   | 27Ω      | 27Ω (no change) |
+
 
 ### LED Switching
 
@@ -56,11 +67,17 @@ I have some other S8050 transistors which definitely have an EBC pin configurati
 But the PCB has them connected CBE
 i.e. either these are placed with C-E reversed, or the kit came with some wierd-ass CBE S8050s.
 
-Note that whether the S8050 is CBE or EBC, they basically work wither way.
+Note that whether the S8050 is CBE or EBC, they basically work either way.
 There are two issues if the transistors are indeed in backwards:
 
 * exceeds the maximum Emitter-base voltage (only 5V according to one datasheet). Perhaps noticeable damage is avoided because of the switching frequency.
 * the Collector-Emitter voltage drop is about double when backwards, so LEDs are not being driven as effectively.
+
+**Modification**
+
+I flipped the S8050 transistors so they match the schematic; all working well:
+
+![kit_bjt_mods](./assets/kit_bjt_mods.jpg?raw=true)
 
 
 ### Clock Signal Generator
