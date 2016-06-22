@@ -26,10 +26,10 @@ function make_project() {
   local parent_folder=$(dirname "$full_path")
   local project_name=$(basename "$full_path")
 
-  mkdir -p ${full_path}
-  mkdir ${full_path}/assets
+  mkdir -p ${parent_folder}
+  mkdir ${parent_folder}/assets
 
-  local readme_file="${full_path}/README.md"
+  local readme_file="${parent_folder}/README.md"
   echo "making ${readme_file}"
   cat > "${readme_file}" <<EOS
 # ${full_project_name}
@@ -53,7 +53,7 @@ __notes__
 
 EOS
 
-  local catalog_file="${full_path}/.catalog_metadata"
+  local catalog_file="${parent_folder}/.catalog_metadata"
   echo "making ${catalog_file}"
   cat > "${catalog_file}" <<EOS
 {
@@ -61,11 +61,11 @@ EOS
     "name": "${project_name}",
     "description": "enter description",
     "categories": "",
-    "relative_path": "${full_project_name}"
+    "relative_path": "${full_path}"
 }
 EOS
 
-  local ino_file="${full_path}/${project_name}.ino"
+  local ino_file="${parent_folder}/${project_name}.ino"
   echo "making ${ino_file}"
   cat > "${ino_file}" <<EOS
 /*
@@ -94,9 +94,9 @@ void loop() {
 
 EOS
 
-  cp bin/templates/template.fzz "${full_path}/${project_name}.fzz"
+  cp bin/templates/template.fzz "${parent_folder}/${project_name}.fzz"
   echo "project initialised: ${full_path}"
-  open "${full_path}"
+  open "${parent_folder}"
 }
 
 
