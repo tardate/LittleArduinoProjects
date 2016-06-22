@@ -5,3 +5,41 @@
   border: 0;
   z-index: 1000;
 }
+
+body {
+  background-color: #093272;
+}
+
+.navbar {
+  border-radius: 0px;
+  min-height: 120px;
+  margin-bottom: 40px;
+}
+
+.navbar-default {
+  background: #093272 url("../images/nav-bg.jpg") repeat scroll 0 0;
+  border-color: #093272;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus {
+  font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  color: #FFD700;
+  margin-top: 30px;
+  text-shadow: 3px 3px 4px #000;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #D9FF0D;
+}
+
+table td a.leap-link {
+  font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 26px;
+}
+
+img.leap-hero {
+  height: 80px;
+}
