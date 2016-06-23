@@ -1,5 +1,7 @@
 # #050 Girabot!
 
+![Girabot_gallery](./assets/Girabot_build.jpg?raw=true)
+
 ## Introduction
 
 Girabot is my robot submission for the
@@ -40,7 +42,7 @@ The following video is a walkthrough of circuit functions on a breadboard prior 
 
 ## Photo Gallery
 
-![Girabot_gallery](./assets/Girabot_gallery.jpg?raw=true)
+![Girabot_gallery](./assets/Girabot_build.jpg?raw=true)
 
 * [the original stuffed toy](./assets/Girabot_01.jpg?raw=true)
 * [breadboard benchtest](./assets/Girabot_02.jpg?raw=true)
