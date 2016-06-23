@@ -23,11 +23,11 @@ Compared with a [simple BJT inverter](../ResistorTransistorLogic/NOT), we see a 
 
 ### Construction
 
-![The Breadboard](./assets/schmitt_inverter_bb.jpg?raw=true)
+![The Breadboard](./assets/SchmittInverter_bb.jpg?raw=true)
 
-![The Schematic](./assets/schmitt_inverter_schematic.jpg?raw=true)
+![The Schematic](./assets/SchmittInverter_schematic.jpg?raw=true)
 
-![The Build](./assets/schmitt_inverter_build.jpg?raw=true)
+![The Build](./assets/SchmittInverter_build.jpg?raw=true)
 
 
 ## Credits and References
