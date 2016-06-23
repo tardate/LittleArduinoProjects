@@ -35,7 +35,7 @@ body {
   color: #D9FF0D;
 }
 
-table td a.leap-link {
+.btn-leap {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
 }

@@ -42,7 +42,9 @@
 
           base_name = data.relative_path.split('/').pop();
           hero_image_url = instance.pages_base_url + data.relative_path + '/assets/' + base_name + '_build.jpg';
-          id_link = '<a href="' + instance.github_base_url + data.relative_path + '" class="leap-link">' + data.id + '</a>';
+          id_link = '<div class="xleap-link"> \
+            <a href="' + instance.github_base_url + data.relative_path + '" class="btn btn-default btn-success btn-leap">' + data.id + '</a> \
+          </div>';
           id_cell = $('td:eq(0)', row);
           id_cell.html(id_link);
 
