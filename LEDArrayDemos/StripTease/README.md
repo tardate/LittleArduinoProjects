@@ -10,11 +10,11 @@ Here's a quick video of the demo:
 
 ### Construction
 
-![The Breadboard](.././assets/LedArray_bb.jpg?raw=true)
+![The Breadboard](.././assets/LEDArrayDemos_bb.jpg?raw=true)
 
-![The Schematic](.././assets/LedArray_schematic.jpg?raw=true)
+![The Schematic](.././assets/LEDArrayDemos_schematic.jpg?raw=true)
 
-![The Build](.././assets/LedArray_build.jpg?raw=true)
+![The Build](.././assets/LEDArrayDemos_build.jpg?raw=true)
 
 ## Credits and References
 * [FastLED library](http://fastled.io)
