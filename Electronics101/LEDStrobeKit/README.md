@@ -2,7 +2,7 @@
 
 Build and analyse a common LED strobe kit.
 
-![The Build](./assets/LedStrobeKit_build.jpg?raw=true)
+![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
 
 ## Notes
 
@@ -116,9 +116,9 @@ This is exactly what Julian Ilett covered in
 
 ## Construction
 
-![The Schematic](./assets/LedStrobeKit_schematic.jpg?raw=true)
+![The Schematic](./assets/LEDStrobeKit_schematic.jpg?raw=true)
 
-![The Build](./assets/LedStrobeKit_build.jpg?raw=true)
+![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
 
 ## Credits and References
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
