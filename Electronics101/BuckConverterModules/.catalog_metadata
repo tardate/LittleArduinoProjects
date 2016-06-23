@@ -1,7 +1,7 @@
 {
-    "id": "#211", 
-    "name": "BuckConverterModules", 
-    "description": "test a range of low-cost buck converter modules, often using LM2596", 
-    "categories": "Poewr", 
+    "id": "#211",
+    "name": "BuckConverterModules",
+    "description": "test a range of low-cost buck converter modules, often using LM2596",
+    "categories": "Power",
     "relative_path": "Electronics101/BuckConverterModules"
 }

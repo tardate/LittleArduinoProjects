@@ -57,7 +57,7 @@ try the the new [catalog site](http://tardate.github.io/LittleArduinoProjects/) 
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
-| [#211 BuckConverterModules](./Electronics101/BuckConverterModules)                 | **Poewr**                       test a range of low-cost buck converter modules, often using LM2596 |
+| [#211 BuckConverterModules](./Electronics101/BuckConverterModules)                 | **Power**                       test a range of low-cost buck converter modules, often using LM2596 |
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS, Oscillators**           test the astable operating mode of the CD4047 |
