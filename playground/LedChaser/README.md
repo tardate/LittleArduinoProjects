@@ -1,8 +1,8 @@
-# #003 LED Chaser
+# #003 LedChaser
 
-Blinks a series of 12 LEDs in a coninuous loop.
+Blinks a series of 12 LEDs in a continuous loop.
 
-![The Build](./assets/LedChaser.jpg?raw=true)
+![The Build](./assets/LedChaser_build.jpg?raw=true)
 
 ## Notes
 
@@ -14,5 +14,5 @@ cathode part of the circuit. That's fine in this case because we're only going t
 
 ![The Breadboard Schematic](./assets/LedChaser_bb.jpg?raw=true)
 
-## Credits and references
-* Similar to the Arduino ForLoop example http://arduino.cc/en/Tutorial/ForLoop
+## Credits and References
+* Similar to the [Arduino ForLoop example](http://arduino.cc/en/Tutorial/ForLoop)
