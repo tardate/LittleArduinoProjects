@@ -2,7 +2,7 @@
 
 Reads a photocell/light-dependent resistor and adjusts the blink rate of an LED accordingly.
 
-![The Build](./assets/LightOrNot.jpg?raw=true)
+![The Build](./assets/LightOrNot_build.jpg?raw=true)
 
 ## Notes
 
