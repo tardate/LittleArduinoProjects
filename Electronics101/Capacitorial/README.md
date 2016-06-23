@@ -15,9 +15,9 @@ The voltage at the positive terminal of the capacitor is read with an analog inp
 
 [Grapher (a simple Processing sketch)](./Grapher) reads the data from the serial port and plots the value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard Schematic](./assets/capacitorial_bb.jpg?raw=true)
+![The Breadboard Schematic](./assets/Capacitorial_bb.jpg?raw=true)
 
-![The Build](./assets/capacitorial_build.jpg?raw=true)
+![The Build](./assets/Capacitorial_build.jpg?raw=true)
 
 ### Varying the capacitance
 
