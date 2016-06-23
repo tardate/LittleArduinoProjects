@@ -2,7 +2,7 @@
 
 Press a button to snaffle a random quote from [Heart Quotes](http://www.iheartquotes.com) and print it to a 16x2 LCD.
 
-![The Build](./assets/HeartQuotes_lcd.jpg?raw=true)
+![The Build](./assets/HeartQuotes_build.jpg?raw=true)
 
 ## Notes
 
