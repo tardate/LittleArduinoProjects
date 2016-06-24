@@ -80,9 +80,24 @@ Board comprises:
 * XL4015E5 with toroidal inductor and capacitors as per datasheet recommendations
 * digital voltmeter with pushbuttons to switch display on/off and select input/output voltage for display
 
-Performance: so far, the best of the lot. There's no scope capture below because despite my best attempts, the output voltage remained flat as a board (no detectable ripples or spikes .. just the normal noise floor)
+Performance: up with the best. There's no scope capture below because despite my best attempts, the output voltage remained flat as a board (no detectable ripples or spikes .. just the normal noise floor)
 
 ![module_3_test](./assets/module_3_test.jpg?raw=true)
+
+
+### Module 4 - MP2307DN 1.0V-17V Buck
+
+The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/Mini-360-DC-DC-Buck-Converter-Step-Down-Module-4-75-23V-to-1-17V-for/32436860547.html). Typical price USD$0.51 (USD$5.06 for 10) with free shipping.
+
+![module_4](./assets/module_4.jpg?raw=true)
+
+Board comprises:
+* MP2307 monolithic buck converter with standard support circuits per datasheet recommendations
+* pretty small package!
+
+Performance: quite impressive for the size. There's no scope capture below because despite my best attempts, the output voltage remained flat as a board (no detectable ripples or spikes .. just the normal noise floor)
+
+![module_4_test](./assets/module_4_test.jpg?raw=true)
 
 
 ## Test Bed Construction
@@ -101,5 +116,6 @@ and two blue LEDs in parallel form the load. the LEDs have a forward voltage Vf 
 * [LM2576 datasheet](http://www.ti.com/lit/ds/symlink/lm2576.pdf)
 * [XL4015 datasheet](http://i-makers.info/resource/XL4015%20datasheet.pdf)
 * [XL4015 DEMO board manual](http://www.xlsemi.com/demo/XL4015%20DEMO%20board%20manual.pdf) - xlsemi
+# [MP2307 datasheet](https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf)
 * [App note: Diode turn-on time induced failures in switching regulators](http://dangerousprototypes.com/2013/01/05/diode-turn-on-time-induced-failures-in-switching-regulators/)
 
