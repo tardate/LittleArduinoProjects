@@ -9,7 +9,7 @@ There are many super-cheap buck converter modules available, many based on the L
 This "project" is a place to record any notes on the individual units I get to see.
 
 
-### Module 1 - LM2596S
+### Module 1 - LM2596S 2.6-30V Buck Module
 
 The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/1PCS-NEW-LM2596-DC-DC-adjustable-power-step-down-module/32276206956.html). Typical price USD$0.93 with free shipping.
 
@@ -40,7 +40,7 @@ It also behaves more like an LM2576:
 ![module_1_scope](./assets/module_1_scope.gif?raw=true)
 
 
-### Module 2 - LM2596S 1.23V-30V Buck
+### Module 2 - LM2596S 1.23V-30V Buck Module
 
 The example I'm using is similar to this  [seller listing](http://www.aliexpress.com/item/5PCS-DC-DC-Buck-Converter-Step-Down-Module-LM2596-Power-Supply-Output-1-23V-30V/2013251353.html?spm=2114.01010208.3.22.tfzVTK&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_10034_10021_507_10033_10022_10032_10020_10018_10019,searchweb201603_1&btsid=b6cc6379-547e-4d9c-8217-6a28b26787fb). Typical price USD$0.79 with free shipping.
 
@@ -70,7 +70,7 @@ Performance is pretty good, but this does not appear to be a genuine LM2596S-ADJ
 ![module_2_scope](./assets/module_2_scope.gif?raw=true)
 
 
-### Module 3 - XL4015 1.25V-36V Buck
+### Module 3 - XL4015 1.25V-36V Buck Module
 
 The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/5A-High-power-75W-DC-DC-adjustable-step-down-module-LED-Can-be-calibrated-voltmeter-Power/32411291600.html). Typical price USD$2.68 with free shipping.
 
@@ -85,7 +85,7 @@ Performance: up with the best. There's no scope capture below because despite my
 ![module_3_test](./assets/module_3_test.jpg?raw=true)
 
 
-### Module 4 - MP2307DN 1.0V-17V Buck
+### Module 4 - MP2307DN 1.0V-17V Buck Module
 
 The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/Mini-360-DC-DC-Buck-Converter-Step-Down-Module-4-75-23V-to-1-17V-for/32436860547.html). Typical price USD$0.51 (USD$5.06 for 10) with free shipping.
 
