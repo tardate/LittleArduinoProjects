@@ -8,11 +8,8 @@ There are many super-cheap buck converter modules available, many based on the L
 
 This "project" is a place to record any notes on the individual units I get to see.
 
-From the units I've seen so far, they are all marked LM2596S-ADJ but appear to actually be (or behave like) LM2576s.
-Can hardly complain for the price, but it is worth being wary of the expected performance.
 
-
-### Module 1
+### Module 1 - LM2596S
 
 The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/1PCS-NEW-LM2596-DC-DC-adjustable-power-step-down-module/32276206956.html). Typical price USD$0.93 with free shipping.
 
@@ -43,7 +40,7 @@ It also behaves more like an LM2576:
 ![module_1_scope](./assets/module_1_scope.gif?raw=true)
 
 
-### Module 2
+### Module 2 - LM2596S 1.23V-30V Buck
 
 The example I'm using is similar to this  [seller listing](http://www.aliexpress.com/item/5PCS-DC-DC-Buck-Converter-Step-Down-Module-LM2596-Power-Supply-Output-1-23V-30V/2013251353.html?spm=2114.01010208.3.22.tfzVTK&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_10034_10021_507_10033_10022_10032_10020_10018_10019,searchweb201603_1&btsid=b6cc6379-547e-4d9c-8217-6a28b26787fb). Typical price USD$0.79 with free shipping.
 
@@ -72,7 +69,23 @@ Performance is pretty good, but this does not appear to be a genuine LM2596S-ADJ
 
 ![module_2_scope](./assets/module_2_scope.gif?raw=true)
 
-## Construction
+
+### Module 3 - XL4015 1.25V-36V Buck
+
+The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/5A-High-power-75W-DC-DC-adjustable-step-down-module-LED-Can-be-calibrated-voltmeter-Power/32411291600.html). Typical price USD$2.68 with free shipping.
+
+![module_3](./assets/module_3.jpg?raw=true)
+
+Board comprises:
+* XL4015E5 with toroidal inductor and capacitors as per datasheet recommendations
+* digital voltmeter with pushbuttons to switch display on/off and select input/output voltage for display
+
+Performance: so far, the best of the lot. There's no scope capture below because despite my best attempts, the output voltage remained flat as a board (no detectable ripples or spikes .. just the normal noise floor)
+
+![module_3_test](./assets/module_3_test.jpg?raw=true)
+
+
+## Test Bed Construction
 
 ![Breadboard](./assets/BuckConverterModules_bb.jpg?raw=true)
 
@@ -82,9 +95,11 @@ and two blue LEDs in parallel form the load. the LEDs have a forward voltage Vf 
 ![The Schematic](./assets/BuckConverterModules_schematic.jpg?raw=true)
 
 ## Credits and References
-* [LM2596 datasheet](http://www.ti.com/lit/ds/symlink/lm2596.pdf) - TI
 * [LM2596 product page](http://www.ti.com/product/LM2596) - TI
+* [LM2596 datasheet](http://www.ti.com/lit/ds/symlink/lm2596.pdf) - TI
 * [LM2576 product page](http://www.ti.com/product/LM2576) - TI
 * [LM2576 datasheet](http://www.ti.com/lit/ds/symlink/lm2576.pdf)
+* [XL4015 datasheet](http://i-makers.info/resource/XL4015%20datasheet.pdf)
+* [XL4015 DEMO board manual](http://www.xlsemi.com/demo/XL4015%20DEMO%20board%20manual.pdf) - xlsemi
 * [App note: Diode turn-on time induced failures in switching regulators](http://dangerousprototypes.com/2013/01/05/diode-turn-on-time-induced-failures-in-switching-regulators/)
 
