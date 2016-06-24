@@ -2,8 +2,6 @@
 > Latest addition:sparkles: [LEDStrobeKit](./Electronics101/LEDStrobeKit) - build and analyse a common LED strobe kit
 
 
-Build and analyse a common LED strobe kit.
-
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
 [The FretBoard](./FretBoard) (a multi-project build status indicator),
@@ -19,10 +17,36 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 
+
 ## Project Index
 
-I'm probably going to remove the index from the README ..
-try the the new [catalog site](http://tardate.github.io/LittleArduinoProjects/) instead (it uses GitHub Pages on top of the repo).
+LittleArduinoProjects has a new catalog/web site!
+It's actually just simple GitHub pages sitting right on top of this repository. Try it out:
+
+[![leap-splash](./catalog/assets/images/leap-splash.png?raw=true)](http://leap.tardate.com/)
+
+
+## Getting Up and Running
+
+Some projects require additional libraries including FastLED, FlexiTimer2, RadioHead.
+A set of such libraries are included as submodules of this repository,
+see the [libraries/](./libraries) page for more information on the included libraries and submodule management.
+
+Libraries can be retrieved with git, or you can just install them separately as you would any other library.
+
+If you clone this repo, also update the submodules to have them available for compilation/installation:
+
+    $ git submodule update --init
+
+To pull submodule updates later on:
+
+    $ git submodule foreach git pull
+
+
+## Ye Olde Project Index
+
+Still up to date, but try [the catalog site](http://leap.tardate.com/) instead...
+
 
 | Project                                                                            | Category/Description                                              |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -251,20 +275,4 @@ try the the new [catalog site](http://tardate.github.io/LittleArduinoProjects/) 
 | [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
 | [#011 X113647Stepper](./playground/X113647Stepper)                                 | **Stepper, Arduino**            using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino |
 
-
-# Getting Up and Running
-
-Some projects require additional libraries including FastLED, FlexiTimer2, RadioHead.
-A set of such libraries are included as submodules of this repository,
-see the [libraries/](./libraries) page for more information on the included libraries and submodule management.
-
-Libraries can be retrieved with git, or you can just install them separately as you would any other library.
-
-If you clone this repo, also update the submodules to have them available for compilation/installation:
-
-    $ git submodule update --init
-
-To pull submodule updates later on:
-
-    $ git submodule foreach git pull
 
