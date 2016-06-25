@@ -1,5 +1,5 @@
-# 224 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LEDStrobeKit](./Electronics101/LEDStrobeKit) - build and analyse a common LED strobe kit
+# 225 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown) - teardown an FQ777-954 nano drone and figure out as much of the technical design as possible
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -105,7 +105,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#194 ESP8266/DIYDevBoard](./playground/ESP8266/DIYDevBoard)                       | **ESP8266**                     a DIY devboard for an ESP-01 ESP8266 |
 | [#154 ESP8266/SerialTest](./playground/ESP8266/SerialTest)                         | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./playground/ESP8266/SerialTest/ruby)               | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
-| [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
+| [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, RF**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
@@ -161,6 +161,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#159 ML741/InvertingAmplifier](./Electronics101/ML741/InvertingAmplifier)         | **OpAmp**                       test an inverting amplifier circuit using the ML741 discrete component opamp |
 | [#161 ML741/NonInvertingAmplifier](./Electronics101/ML741/NonInvertingAmplifier)   | **OpAmp**                       test a non-inverting amplifier circuit using the ML741 discrete component opamp |
 | [#157 ML741/VoltageFollower](./Electronics101/ML741/VoltageFollower)               | **OpAmp**                       test a voltage follower/buffer circuit with the ML741 discrete component opamp |
+| [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
 | [#017 Monostable](./Electronics101/555Timer/Monostable)                            | **555 Timer**                   basic monostable mode using an Arduino and processing to plot the output |
 | [#075 Monostable122](./Electronics101/Monostable122)                               | **74xx TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [#076 MonostablePulseExtender](./playground/MonostablePulseExtender)               | **74xx TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
