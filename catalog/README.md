@@ -33,3 +33,4 @@ I have gh-pages on the same mainline as my master branch, which means the pages 
 * [GitHub Pages](https://pages.github.com/)
 * [bootstrap](http://getbootstrap.com)
 * [datatables](http://datatables.net/)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/06/littlearduinoprojects-now-with-fancy.html)
