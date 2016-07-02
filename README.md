@@ -1,5 +1,5 @@
-# 225 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown) - teardown an FQ777-954 nano drone and figure out as much of the technical design as possible
+# 226 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MusicBoxKit](./Electronics101/MusicBoxKit) - build and test a Music Box kit, and run a demonstration under Arduino control
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -168,6 +168,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#046 MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
 | [#218 MPU6050/AccelGyroTest](./playground/MPU6050/AccelGyroTest)                   | **Sensors, MPU-6050, Arduino**  first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module |
 | [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
+| [#226 MusicBoxKit](./Electronics101/MusicBoxKit)                                   | **Music, Arduino**              build and test a Music Box kit, and run a demonstration under Arduino control |
 | [#156 MSO5074FG_unboxing](./Electronics101/MSO5074FG_unboxing)                     | **Tools, Test Equipment**       unboxing and first tests of a Hantek MSO5074FG oscilloscope |
 | [#036 NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [#072 NOR7402](./Electronics101/NOR7402)                                           | **74xx TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |

@@ -1,0 +1,7 @@
+{
+    "id": "#226", 
+    "name": "MusicBoxKit", 
+    "description": "build and test a Music Box kit, and run a demonstration under Arduino control", 
+    "categories": "Music, Arduino", 
+    "relative_path": "Electronics101/MusicBoxKit"
+}

@@ -483,6 +483,13 @@
     "relative_path": "Electronics101/MSO5074FG_unboxing"
 },
 {
+    "id": "#226", 
+    "name": "MusicBoxKit", 
+    "description": "build and test a Music Box kit, and run a demonstration under Arduino control", 
+    "categories": "Music, Arduino", 
+    "relative_path": "Electronics101/MusicBoxKit"
+},
+{
     "id": "#036", 
     "name": "NonInverting324", 
     "description": "demo LM324 OpAmp non-inverting DC gain mode", 
