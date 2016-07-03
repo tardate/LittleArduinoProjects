@@ -10,6 +10,9 @@ This is a super cheap amplifier kit built around the TDA7297 15+15W dual bridge 
 All the other parts in the kit are essentially the basic supporting components for the TDA7297.
 
 Performance is very good, although my impromptu speaker boxes don't do it justice.
+They need better baffles at least, but I can hardly blame
+[Straits Preserves](http://www.straitspreserves.com/)
+for not making marmalade boxes to the specification of speaker enclosures!
 
 ![TDA7297Kit_build_case](./assets/TDA7297Kit_build_case.jpg?raw=true)
 
@@ -28,3 +31,5 @@ The TDA7297 is a very easy ship to work with.
 ## Credits and References
 * [High Quality TDA7297 Audio Amplifier Board Module Dual-Channel Parts For DIY Kit](http://www.aliexpress.com/item/High-Quality-TDA7297-Audio-Amplifier-Board-Module-Dual-Channel-Parts-For-DIY-Kit/32287173410.html) - from a seller on aliexpress
 * [TDA7297 datasheet](http://www2.st.com/content/ccc/resource/technical/document/datasheet/a3/eb/9b/59/dd/26/4a/27/CD00001048.pdf/files/CD00001048.pdf/jcr:content/translations/en.CD00001048.pdf)
+* [Straits Preserves](http://www.straitspreserves.com/)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects210-pump-up-jam.html)
