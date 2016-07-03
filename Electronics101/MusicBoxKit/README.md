@@ -97,8 +97,8 @@ I haven't traced the entire circuit. But for example, here's the equivalent circ
 |----------------|----------------|------------|------------|---------------|
 | 0              | 0              | 0          | 1          | 270kΩ         |
 | 0              | 1              | 0          | 1          | 270kΩ         |
-| 1              | 0              | 1          | 1          | [62kΩ|270kΩ = 50kΩ](http://toolbox.tardate.com/?formula=62%7C270#ResistorCalculator) |
-| 1              | 1              | 1          | 0          | [62kΩ|270kΩ + 620kΩ = 670kΩ](http://toolbox.tardate.com/?formula=(62%7C270)%2B620#ResistorCalculator) |
+| 1              | 0              | 1          | 1          | [50kΩ](http://toolbox.tardate.com/?formula=62%7C270#ResistorCalculator) |
+| 1              | 1              | 1          | 0          | [670kΩ](http://toolbox.tardate.com/?formula=(62%7C270)%2B620#ResistorCalculator) |
 
 
 ### Driving the Module with an Arduino
