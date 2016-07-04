@@ -4,10 +4,14 @@ Test a range of low-cost buck converter modules
 
 ## Notes
 
-There are many super-cheap buck converter modules available, many based on the LM2596S-ADJ.
+There are many super-cheap buck converter modules available, many based on the LM2596S-ADJ. This is the place I record any notes on the individual units I get to see.
 
-This "project" is a place to record any notes on the individual units I get to see.
+Four so far:
 
+* Module 1 - LM2596S 2.6-30V Buck Module
+* Module 2 - LM2596S 1.23V-30V Buck Module
+* Module 3 - XL4015 1.25V-36V Buck Module
+* Module 4 - MP2307DN 1.0V-17V Buck Module
 
 ### Module 1 - LM2596S 2.6-30V Buck Module
 
@@ -118,4 +122,4 @@ and two blue LEDs in parallel form the load. the LEDs have a forward voltage Vf 
 * [XL4015 DEMO board manual](http://www.xlsemi.com/demo/XL4015%20DEMO%20board%20manual.pdf) - xlsemi
 # [MP2307 datasheet](https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf)
 * [App note: Diode turn-on time induced failures in switching regulators](http://dangerousprototypes.com/2013/01/05/diode-turn-on-time-induced-failures-in-switching-regulators/)
-
+* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects211-buck-converter.html)
