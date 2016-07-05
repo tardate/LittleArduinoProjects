@@ -11,7 +11,7 @@ Here's a quick video of it in action:
 A simple project inspired by [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI).
 The catch-phrase should be familiar if you subscribe to his channel;-)
 
-It's a VU meter, but rather than doing the "bar graph" thing a la LM3915, it pulses the intensity of all LEDs
+It's a VU meter, but rather than doing the "bar graph" thing à la LM3915, it pulses the intensity of all LEDs
 to the volume of the incoming audio.
 
 ### Audio Input
@@ -48,3 +48,4 @@ But it turns out that the current draw is about 50mA with all the LEDs fully on 
 * [IRF540N datasheet](url) n-channel MOSFET
 * [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI)
 * [BuckConverter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-1)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects212-stay-creative.html)
