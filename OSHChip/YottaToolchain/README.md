@@ -4,7 +4,8 @@ Build a simple program using the Official Yotta target for OSHChip and gcc on Ma
 
 ## Notes
 
-After bruising myself on the raw [GccToolchain](../GccToolchain) - and although I got a program running - I'm think I want my toolchain to do more of the hardwork for me!
+After bruising myself on the raw [GccToolchain](../GccToolchain) - and although I got a program running -
+I'm thinking I want my toolchain to do more of the hard work for me!
 
 So let's try [yotta](https://github.com/ARMmbed/yotta), the software module system used by mbed OS.
 
@@ -203,3 +204,4 @@ Presto, the OSHChip rebooted and is now blinking the Red onboard LED every half 
 * [virtualenv](https://virtualenv.pypa.io/en/latest/)
 * [brew](https://github.com/Homebrew/homebrew)
 * [pip](https://pypi.python.org/pypi/pip)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects215-oshchip-yotta.html)
