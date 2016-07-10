@@ -1,5 +1,5 @@
-# 226 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [MusicBoxKit](./Electronics101/MusicBoxKit) - build and test a Music Box kit, and run a demonstration under Arduino control
+# 227 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [KnightRider](./Electronics101/555Timer/KnightRider) - the familiar "Knight-Rider" LED circuit using a 555 and 4017
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -124,6 +124,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#146 InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |
 | [#006 It's Better With Bacon](./playground/BetterWithBacon)                        | **LCD, Arduino**                simple LCD test |
 | [#056 JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two servos with a joystick |
+| [#227 KnightRider](./Electronics101/555Timer/KnightRider)                          | **555 Timer, CMOS, LED**        the familiar "Knight-Rider" LED circuit using a 555 and 4017 |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
 | [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |

@@ -35,6 +35,13 @@
     "relative_path": "Electronics101/555Timer/InvertingChargePump"
 },
 {
+    "id": "#227", 
+    "name": "KnightRider", 
+    "description": "the familiar \"Knight-Rider\" LED circuit using a 555 and 4017", 
+    "categories": "555 Timer, CMOS, LED", 
+    "relative_path": "Electronics101/555Timer/KnightRider"
+},
+{
     "id": "#017", 
     "name": "Monostable", 
     "description": "basic monostable mode using an Arduino and processing to plot the output", 
