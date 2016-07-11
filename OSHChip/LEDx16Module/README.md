@@ -1,4 +1,4 @@
-# #216 LEDx16Module
+# #216 OSHChip/LEDx16Module
 
 Driving an SPI LED module with the OSHChip.
 
@@ -73,3 +73,4 @@ There's not much to the build. Basically hook together three modules:
 * [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-2)
 * [SPI](https://developer.mbed.org/handbook/SPI) - mbed handbook
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials
+* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects216-oshchip.html)
