@@ -17,7 +17,7 @@ Since the load is fixed, I have not implemented any feedback control system.
 Of course there are plenty of buck converter chips and modules on the market and these are so cheap
 you'd be crazy (or have such precise and unusual requirements) to build your own for a real application. But it's nice to see how they work!
 
-My insipiration for this circuit was [DIY Buck Converter by GreatScott!](https://www.youtube.com/watch?v=m8rK9gU30v4) -
+My inspiration for this circuit was [DIY Buck Converter by GreatScott!](https://www.youtube.com/watch?v=m8rK9gU30v4) -
 IMHO the "missing lab" to accompany very good but dry courses such as the
 [Power Electronics Specialization](https://www.coursera.org/learn/power-electronics) from University of Colorado Boulder.
 
@@ -198,3 +198,4 @@ Conclusion?
 * [Driving motors, lights, etc. from an Arduino output pin - Switching higher voltages](http://www.gammon.com.au/forum/?id=12737&reply=1#reply1)
 * [Secrets of Arduino PWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
 * [Changing the Arduino PWM Frequency](https://softsolder.com/2009/02/21/changing-the-arduino-pwm-frequency/)
+* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects217-basic-avr.html)
