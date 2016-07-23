@@ -2,6 +2,10 @@
 
 Simple NPN transistor curve tracer using a Stairstep generator circuit.
 
+![The Build](./assets/TransistorCurveTracer_build.jpg?raw=true)
+
+![curve_2N3904_reverse](./assets/curve_2N3904_reverse.gif?raw=true)
+
 ## Notes
 
 This is a fascinating circuit, originally from the IEEE Engineering Sciences & Education Journal Vol 8 No 1 Feb 1999 pp25-26.
@@ -81,6 +85,8 @@ I first built up the circuit on a breadboard. Although it proved the basic funct
 it proved too noisy to get any decent results...
 
 ![Breadboard](./assets/TransistorCurveTracer_bb.jpg?raw=true)
+
+![TransistorCurveTracer_breadboard_build](./assets/TransistorCurveTracer_breadboard_build.jpg?raw=true)
 
 So I laid it out on a protoboard:
 
