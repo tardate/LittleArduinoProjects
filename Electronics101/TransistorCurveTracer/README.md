@@ -17,6 +17,11 @@ basic NPN BJT curve tracing (plotting collector currect to collector voltage for
 I first built up the circuit on a breadboard, but it proved too noisy to be of much use...
 so I put the circuit on protoboard and obtained much better results.
 
+I wouldn't necessarily trust these results for anything other than relative comparisons,
+but it is interesting to see the theory play out IRL.
+
+Regardless, it's great fun to fiddle with step frequency, reset freqeuncy and input voltage and see the effects in the X-Y plot.
+
 ### Stairstep Generator
 
 I tried a few opamps in the circuit, but I settled on the TL074 as the best of the lot I have available.
@@ -61,20 +66,32 @@ Here's my setup while running some tests.
 ![TransistorCurveTracer_demo](./assets/TransistorCurveTracer_demo.jpg?raw=true)
 
 
-### Testing a 2N3904
+### Initial Tests with a 2N3904
 
-For the values I've used in the circuit, I'm getting disappointing results when forward-biasing a 2N3904.
-It appears to swing hard to saturation, so my curves are pretty one dimensional:
+For the initial test I had the base resistor for the DUT at 470Ω per the original design.
+With this I was getting disappointing results when forward-biasing a 2N3904.
+It appears to swing the DUT hard to saturation, so my curves are pretty one dimensional:
 
-![curve_2N3904](./assets/curve_2N3904.gif?raw=true)
+![curve_2N3904_470Rb](./assets/curve_2N3904_470Rb.gif?raw=true)
 
-However, when reverse-biased (i.e. switch emitter and collector), and therefore presumably a lower beta/hFE,
+However, when reverse-biased (i.e. switch emitter and collector), and therefore a lower beta/hFE,
 I get a much more pleasing result:
 
-![curve_2N3904_reverse](./assets/curve_2N3904_reverse.gif?raw=true)
+![curve_2N3904_reverse_470Rb](./assets/curve_2N3904_reverse_470Rb.gif?raw=true)
 
-I wouldn't necessarily trust these results for anything, but it is interesting to see the theory play out IRL.
-Regardless, it's great fun to fiddle with step frequency, reset freqeuncy and input voltage and see the effects in the X-Y plot.
+### Circuit Improvement and Re-testing a 2N3904
+
+Time to check some calculations. Using a 2N3904 as my model DUT, the datasheet tells me the hFE can range from 40 to 300 for various Vce/Ic combinations.
+
+With a 220Ω resistor on the current mirror and a 5V supply, the collector current could reach [22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9). At 22mA, the 2N3904 hFE would be around 100 so required a base current of [0.22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9%2F100). So a base resistor of around [22kΩ](http://www.wolframalpha.com/input/?i=5V%2F(5V%2F220%CE%A9%2F100)) would be in order. That's a far cry from the 470Ω in the circuit, so no wonder I'm not getting good curves when forward biasing the DUT!
+
+So to fix this and provide some flexibility, I added another 50kΩ trimmer in series with the 470Ω base resistor.
+Now I can get some nice curves for a forward-biased DUT, and easily adapt to transistors with different characteristics
+
+Here are the curves for a 2N3904 forward-biased (base resistance set close to 50kΩ):
+
+![curve_2N3904_50kRb](./assets/curve_2N3904_50kRb.gif?raw=true)
+
 
 
 ## Construction
