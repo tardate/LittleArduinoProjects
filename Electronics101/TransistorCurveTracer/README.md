@@ -4,12 +4,12 @@ Simple NPN transistor curve tracer using a Stairstep generator circuit.
 
 ![The Build](./assets/TransistorCurveTracer_build.jpg?raw=true)
 
-![curve_2N3904_reverse](./assets/curve_2N3904_reverse.gif?raw=true)
+![curve_2N3904_50kRb](./assets/curve_2N3904_50kRb.gif?raw=true)
 
 ## Notes
 
 This is a fascinating circuit, originally from the IEEE Engineering Sciences & Education Journal Vol 8 No 1 Feb 1999 pp25-26.
-I'm working from a demonstration by w2aew [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24).
+I'm working from a demonstration by w2aew in [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24).
 
 It actually builds on the basic [StairStepGenerator](../StairStepGenerator) project and adapts it to perform
 basic NPN BJT curve tracing (plotting collector currect to collector voltage for different base current values).
@@ -25,12 +25,12 @@ Regardless, it's great fun to fiddle with step frequency, reset freqeuncy and in
 ### Stairstep Generator
 
 I tried a few opamps in the circuit, but I settled on the TL074 as the best of the lot I have available.
-It's not rail-to-rail, so I loose about a volt of the top of the output.
+It's not rail-to-rail, so I lose about a volt of the top of the output.
 
 Here's a scope trace of the basic stairstep generator
 
 * CH1 reset oscillator output
-* CH2 clock signal form the 555
+* CH2 clock signal from the 555
 * CH3 stairstep output
 
 ![stairstep](./assets/stairstep.gif?raw=true)
@@ -83,7 +83,7 @@ I get a much more pleasing result:
 
 Time to check some calculations. Using a 2N3904 as my model DUT, the datasheet tells me the hFE can range from 40 to 300 for various Vce/Ic combinations.
 
-With a 220Ω resistor on the current mirror and a 5V supply, the collector current could reach [22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9). At 22mA, the 2N3904 hFE would be around 100 so required a base current of [0.22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9%2F100). So a base resistor of around [22kΩ](http://www.wolframalpha.com/input/?i=5V%2F(5V%2F220%CE%A9%2F100)) would be in order. That's a far cry from the 470Ω in the circuit, so no wonder I'm not getting good curves when forward biasing the DUT!
+With a 220Ω resistor on the current mirror and a 5V supply, the collector current could reach [22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9). At 22mA, the 2N3904 hFE would be around 100 so requires a base current of [0.22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9%2F100). So a base resistor of around [22kΩ](http://www.wolframalpha.com/input/?i=5V%2F(5V%2F220%CE%A9%2F100)) would be in order. That's a far cry from the 470Ω in the circuit, so no wonder I'm not getting good curves when forward biasing the DUT!
 
 So to fix this and provide some flexibility, I added another 50kΩ trimmer in series with the 470Ω base resistor.
 Now I can get some nice curves for a forward-biased DUT, and easily adapt to transistors with different characteristics
