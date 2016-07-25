@@ -1,5 +1,5 @@
-# 228 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TransistorCurveTracer](./Electronics101/TransistorCurveTracer) - simple NPN transistor curve tracer using a Stairstep generator circuit
+# 229 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Dice](./Electronics101/555Timer/Dice) - a 555/4017-based dice circuit with slow-down and auto power-off
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -92,6 +92,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 voltage sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
+| [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |

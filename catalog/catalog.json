@@ -21,6 +21,13 @@
     "relative_path": "Electronics101/555Timer/AstableOscillator"
 },
 {
+    "id": "#229", 
+    "name": "Dice", 
+    "description": "a 555/4017-based dice circuit with slow-down and auto power-off", 
+    "categories": "555 Timer, CMOS", 
+    "relative_path": "Electronics101/555Timer/Dice"
+},
+{
     "id": "#201", 
     "name": "DoorbellKit", 
     "description": "another two-tone doorbell using a 555 timer oscillator", 
