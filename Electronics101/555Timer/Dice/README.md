@@ -80,7 +80,7 @@ Steering diodes are used to control the transistors according to this table:
 | BJT      | LED1 | LED2 | LED3 | LED4 | LED5 | LED6 | LED7 | On for Qhi          |
 |----------|------|------|------|------|------|------|------|---------------------|
 | N1 (NPN) | X    |      |      |      |      |      | X    | Q0, Q3, Q4          |
-| P1 (PNP) |      | -X   |      |      |      | -X   |      | not Q5 (inverted PNP logic) |
+| N4 (NPN) |      | -X   |      |      |      | -X   |      | not Q5 (inverted logic) |
 | N2 (NPN) |      |      | X    |      | X    |      |      | Q4                  |
 | N3 (NPN) |      |      |      | X    |      |      |      | Q0, Q2, Q5          |
 
@@ -118,7 +118,7 @@ The outputs from the 4017 decade counter are decoded thus:
 Component values:
 
 * diodes are all 1N4148 but this is not critical, normal 1N400x rectifiers work fine
-* NPN and PNP are all small signal 2N3904/2N3906. Not critical.
+* NPN and PNP BJTs are all small signal 2N3904/2N3906. Not critical.
 * The p-channel MOSFET is a low-power BS250. Another part may require tweaking the power control RC values.
 
 The die roll timing can be modified as follows:
