@@ -145,7 +145,7 @@ The power-off timer obviously needs to be longer than the roll duration:
 
 This is the breadboard build. Next I want to try and mount this all in a small shakeable cube:
 
-![The Build](./assets/Dice_build.jpg?raw=true)
+![Dice_breadboard_build](./assets/Dice_breadboard_build.jpg?raw=true)
 
 Here's the layour I used for a 3-tier 3x3cm protoboard build:
 
@@ -158,6 +158,8 @@ The three layers ready for testing before final assembly:
 All put together:
 
 ![Dice_protoboard_build](./assets/Dice_protoboard_build.jpg?raw=true)
+
+![The Build](./assets/Dice_build.jpg?raw=true)
 
 ## Credits and References
 * [LED DICE (with Slow Down) Circuit](http://www.555-timer-circuits.com/led-dice.html) - 555-timer-circuits
