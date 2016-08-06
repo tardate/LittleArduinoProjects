@@ -441,6 +441,13 @@
     "relative_path": "Electronics101/MeLEDy"
 },
 {
+    "id": "#230", 
+    "name": "MinimalLCOscillator", 
+    "description": "test an LC oscillator of just 5 components", 
+    "categories": "LC, Oscillators", 
+    "relative_path": "Electronics101/MinimalLCOscillator"
+},
+{
     "id": "#150", 
     "name": "ML741", 
     "description": "an LM741-style OpAmp built with discrete components", 

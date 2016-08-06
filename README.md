@@ -1,6 +1,8 @@
-# 229 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Dice](./Electronics101/555Timer/Dice) - a 555/4017-based dice circuit with slow-down and auto power-off
+# 230 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MinimalLCOscillator](./Electronics101/MinimalLCOscillator) - test an LC oscillator of just 5 components
 
+
+Test an LC oscillator of just 5 components
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -157,6 +159,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
+| [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
 | [#150 ML741](./Electronics101/ML741)                                               | **OpAmp**                       an LM741-style OpAmp built with discrete components |
 | [#151 ML741/Comparator](./Electronics101/ML741/Comparator)                         | **OpAmp**                       test a comparator circuit with the ML741 discrete component opamp |
 | [#158 ML741/Inverter](./Electronics101/ML741/Inverter)                             | **OpAmp**                       test an inverter circuit using the ML741 discrete component opamp |

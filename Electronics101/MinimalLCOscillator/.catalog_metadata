@@ -1,0 +1,7 @@
+{
+    "id": "#230", 
+    "name": "MinimalLCOscillator", 
+    "description": "test an LC oscillator of just 5 components", 
+    "categories": "LC, Oscillators", 
+    "relative_path": "Electronics101/MinimalLCOscillator"
+}
