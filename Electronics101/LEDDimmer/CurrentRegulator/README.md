@@ -2,6 +2,8 @@
 
 Test a current-regulator style LED dimmer circuit.
 
+![CurrentRegulator_build](./assets/CurrentRegulator_build.jpg?raw=true)
+
 ## Notes
 
 I'm looking at some alternatives for dimming a 12V LED strip.
@@ -58,7 +60,16 @@ At that current, I was able to get away with an A42 NPN (rated for 500mA), but h
 
 ![The Schematic](./assets/CurrentRegulator_schematic.jpg?raw=true)
 
-![The Build](./assets/CurrentRegulator_build.jpg?raw=true)
+![CurrentRegulator_breadboard_build](./assets/CurrentRegulator_breadboard_build.jpg?raw=true)
+
+Protoboard Layout:
+
+![CurrentRegulator_protoboard_layout](./assets/CurrentRegulator_protoboard_layout.jpg?raw=true)
+
+![CurrentRegulator_protoboard_build](./assets/CurrentRegulator_protoboard_build.jpg?raw=true)
+
+![CurrentRegulator_build](./assets/CurrentRegulator_build.jpg?raw=true)
+
 
 ## Credits and References
 * [Current Controlled LED Dimmer](http://www.electroschematics.com/9256/led-dimmer-control/) - Jim Keith, electroschematics
