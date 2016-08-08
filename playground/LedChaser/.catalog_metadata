@@ -1,6 +1,6 @@
 {
     "id": "#003", 
-    "name": "LED chaser", 
+    "name": "LEDChaser", 
     "description": "blinks a series of 12 LEDs in a coninuous loop", 
     "categories": "LED, Arduino", 
     "relative_path": "playground/LedChaser"

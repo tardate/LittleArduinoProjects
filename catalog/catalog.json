@@ -399,6 +399,13 @@
     "relative_path": "Electronics101/LDRStereoTripDetector"
 },
 {
+    "id": "#231", 
+    "name": "LEDDimmer/CurrentRegulator", 
+    "description": "test a current-regulator style LED dimmer circuit", 
+    "categories": "LED, Power", 
+    "relative_path": "Electronics101/LEDDimmer/CurrentRegulator"
+},
+{
     "id": "#067", 
     "name": "LEDLamp", 
     "description": "build and analyse a commercial LED lamp kit with capacitive power supply", 
@@ -1352,7 +1359,7 @@
 },
 {
     "id": "#003", 
-    "name": "LED chaser", 
+    "name": "LEDChaser", 
     "description": "blinks a series of 12 LEDs in a coninuous loop", 
     "categories": "LED, Arduino", 
     "relative_path": "playground/LedChaser"
