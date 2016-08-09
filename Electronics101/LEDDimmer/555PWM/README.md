@@ -2,6 +2,8 @@
 
 Test a PWM LED dimmer circuit using a 555 timer.
 
+![The Build](./assets/555PWM_build.jpg?raw=true)
+
 ## Notes
 
 This circuit uses a 555 Timer-based PWM circuit to dim a LED strip.
@@ -26,11 +28,11 @@ The minimum duty cycle of ~1.25% does not completely turn off the LEDs.
 At this point the LED current measures 3.2mA
 and the voltage drop over the FET drain-source is 4.45 V.
 
-![scope_min](./assets/scope_min.jpg?raw=true)
+![scope_min](./assets/scope_min.gif?raw=true)
 
 At midpoint of the pot, duty cycle is ~50%:
 
-![scope_mid](./assets/scope_mid.jpg?raw=true)
+![scope_mid](./assets/scope_mid.gif?raw=true)
 
 
 ### LED Strip Specifications
@@ -63,5 +65,3 @@ I'm using this (very) cheap [3014 Led Strip Light](http://www.aliexpress.com/ite
 * [PWM LED Dimmer/ Brightness Control by 555 Timer With Video Simulation](http://www.circuitsgallery.com/2013/02/pwm-led-dimmer.html)
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
-* [name](url)
-
