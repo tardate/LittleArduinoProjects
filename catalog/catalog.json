@@ -399,6 +399,13 @@
     "relative_path": "Electronics101/LDRStereoTripDetector"
 },
 {
+    "id": "#232", 
+    "name": "LEDDimmer/555PWM", 
+    "description": "test a PWM LED dimmer circuit using a 555 timer", 
+    "categories": "LED, Power, 555 Timer", 
+    "relative_path": "Electronics101/LEDDimmer/555PWM"
+},
+{
     "id": "#231", 
     "name": "LEDDimmer/CurrentRegulator", 
     "description": "test a current-regulator style LED dimmer circuit", 

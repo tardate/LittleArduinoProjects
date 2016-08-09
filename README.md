@@ -1,8 +1,5 @@
-# 231 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LEDDimmer/CurrentRegulator](./Electronics101/LEDDimmer/CurrentRegulator) - test a current-regulator style LED dimmer circuit.
-
-
-Test an LC oscillator of just 5 components
+# 232 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LEDDimmer/555PWM](./Electronics101/LEDDimmer/555PWM) - test a PWM LED dimmer circuit using a 555 timer.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -131,7 +128,6 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
 | [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |
-| [#103 LedControlDemo](./playground/LED8x8/LedControlDemo)                          | **8x8 LED, Arduino**            test driving and LED matrix with the LedControl library |
 | [#034 LDRComparator](./Electronics101/LDRComparator)                               | **Sensors, OpAmp, Arduino**     low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [#047 LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)               | **OpAmp**                       demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
 | [#058 Led4Digit7Segment](./playground/Led4Digit7Segment)                           | **7-Segment, Arduino**          overview of driving a 4-digit 7-segment display |
@@ -144,10 +140,12 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#177 LED7Segment/ShiftDrive](./playground/LED7Segment/ShiftDrive)                 | **7-Segment, 74xx, Arduino**    test control of a 7-segment display via a 74HC595 shift register |
 | [#178 LED7Segment/ShiftDriveModule](./playground/LED7Segment/ShiftDriveModule)     | **7-Segment, 74xx, Arduino, PCB** a custom 7-segment display module PCB with 74HC595 shift register interface |
 | [#189 LED7Segment/ShiftDriveSPI](./playground/LED7Segment/ShiftDriveSPI)           | **7-Segment, 74xx, Arduino, SPI** using SPI to control a 7-segment display via a 74HC595 shift register |
-| [#231 LEDDimmer/CurrentRegulator](./Electronics101/LEDDimmer/CurrentRegulator)     | **LED, Power**                  test a current-regulator style LED dimmer circuit |
-| [#003 LEDChaser](./playground/LedChaser)                                           | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
 | [#007 LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
+| [#003 LEDChaser](./playground/LedChaser)                                           | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
+| [#103 LedControlDemo](./playground/LED8x8/LedControlDemo)                          | **8x8 LED, Arduino**            test driving and LED matrix with the LedControl library |
 | [#173 LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, 74xx, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |
+| [#231 LEDDimmer/CurrentRegulator](./Electronics101/LEDDimmer/CurrentRegulator)     | **LED, Power**                  test a current-regulator style LED dimmer circuit |
+| [#232 LEDDimmer/555PWM](./Electronics101/LEDDimmer/555PWM)                         | **LED, Power, 555 Timer**       test a PWM LED dimmer circuit using a 555 timer |
 | [#067 LEDLamp](./Electronics101/LEDLampAC)                                         | **Power, LED**                  build and analyse a commercial LED lamp kit with capacitive power supply |
 | [#209 LedPanelDisplay72R02](./playground/LedPanelDisplay72R02)                     | **LED, Arduino**                test a 7-digit & 7-status indicator LED display |
 | [#224 LEDStrobeKit](./Electronics101/LEDStrobeKit)                                 | **LED, 555 Timer, CMOS**        build and analyse a common LED strobe kit |
