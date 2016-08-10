@@ -1,5 +1,6 @@
-# 232 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LEDDimmer/555PWM](./Electronics101/LEDDimmer/555PWM) - test a PWM LED dimmer circuit using a 555 timer.
+# 233 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) - build and test a general-purpose high-side PWM controller.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -202,6 +203,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#029 PowerZener](./Electronics101/PowerZener)                                     | **Power**                       test and graph a power supply regulated with a 1N4733 zener diode |
 | [#019 Popcorn](./playground/Popcorn)                                               | **Audio, Arduino**              How to make a piezo buzzer even more annoying? Make it play popcorn! |
 | [#004 Pushbutton LED switch](./playground/PushbuttonLED)                           | **LED, Arduino**                Momentary push button switch is used to toggle the LED on and off |
+| [#233 PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) | **PWM, 555 Timer, Oscillators, Power**  build and test a general-purpose high-side PWM controller |
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **74xx TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
 | [#073 QuadNOR](./Electronics101/QuadNOR)                                           | **74xx TTL, Arduino**           demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
 | [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     a 16-bit R2R digital to analog converter with shift register interface |
