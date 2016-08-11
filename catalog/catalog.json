@@ -651,6 +651,13 @@
     "relative_path": "Electronics101/PowerZener"
 },
 {
+    "id": "#233", 
+    "name": "PWM/GeneralPurposeHighSideController", 
+    "description": "build and test a general-purpose high-side PWM controller", 
+    "categories": "PWM, 555 Timer, Oscillators, Power", 
+    "relative_path": "Electronics101/PWM/GeneralPurposeHighSideController"
+},
+{
     "id": "#025", 
     "name": "Quad Latch", 
     "description": "graph the basic operation of the 74LS75 4-bit bistable latch", 
