@@ -32,7 +32,7 @@ A higher value of R4 (10kΩ, 100kΩ) saves power, but switching time is affected
 A pair of capacitors (220µF, 100nF) provide some smoothing of the power supply to the Power FET and decouple the PWM and FET loads.
 
 
-### Performance - 10kΩ Resistive Load at 12.7kHz PWM
+### Performance - 10kΩ Resistive Load at 1.25kHz PWM
 
 At 50% duty cycle:
 
@@ -45,7 +45,7 @@ At minimum duty cycle (~1.25%):
 At maximum duty cycle, the output approaches 99.9% fully on.
 
 
-### Performance - 10kΩ Resistive Load at 1.27kHz PWM
+### Performance - 10kΩ Resistive Load at 12.6kHz PWM
 
 At 50% duty cycle:
 
