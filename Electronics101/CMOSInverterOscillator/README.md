@@ -13,7 +13,7 @@ It is another variation of the basic Schmitt Inverter Waveform Generator pattern
 ... is quite terrible actually. Oscillation is only sustained for a small sweep of the 100kΩ pot.
 The waveform is also heavily asymmetric - with a duty cycle at most 25%.
 
-| Setting                   | C1   | R1 (pin 1-3) | Frequency |
+| Setting                   | C1   | R1 (pin 2-3) | Frequency |
 |---------------------------|------|--------------|-----------|
 | max sustained oscillation | 10µF | 2.5kΩ        | 27Hz      |
 | min sustained oscillation | 10µF | 40kΩ         | 0.4Hz     |
@@ -21,11 +21,11 @@ The waveform is also heavily asymmetric - with a duty cycle at most 25%.
 | min sustained oscillation | 1µF  | 40kΩ         | 4Hz       |
 
 
-Scope trace for C1=1µF, R1.1-3=2.15kΩ:
+Scope trace for C1=1µF, R1(2-3)=2.15kΩ:
 
 ![1uf_2k](./assets/1uf_2k.gif?raw=true)
 
-Scope trace for C1=1µF, R1.1-3=40kΩ:
+Scope trace for C1=1µF, R1(2-3)=40kΩ:
 
 ![1uf_40k](./assets/1uf_40k.gif?raw=true)
 
