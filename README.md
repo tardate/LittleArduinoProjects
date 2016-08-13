@@ -1,5 +1,5 @@
-# 233 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) - build and test a general-purpose high-side PWM controller.
+# 234 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator) - use a CD4096 to generate an oscillating waveform and plot the results.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -86,6 +86,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS, Oscillators**           test the astable operating mode of the CD4047 |
 | [#170 ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Logic Gates, BJT**            build and analyse a simple clap switch circuit available as a kit |
+| [#234 CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator)             | **CMOS, Oscillators**           use a CD4096 to generate an oscillating waveform and plot the results |
 | [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |

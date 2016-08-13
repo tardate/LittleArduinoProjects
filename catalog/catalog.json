@@ -280,6 +280,13 @@
     "relative_path": "Electronics101/ClapSwitchKit"
 },
 {
+    "id": "#234", 
+    "name": "CMOSInverterOscillator", 
+    "description": "use a CD4096 to generate an oscillating waveform and plot the results", 
+    "categories": "CMOS, Oscillators", 
+    "relative_path": "Electronics101/CMOSInverterOscillator"
+},
+{
     "id": "#180", 
     "name": "ColpittsOscillator", 
     "description": "testing a basic Colpitts Oscillator circuit", 
