@@ -66,40 +66,40 @@ In the following scope traces:
 
 Here's a trace of a 1kHz 200mV signal at minimum input attenuation and default (mid-point) volume boost:
 
-![sine_1k](./sine_1k.gif?raw=true)
+![sine_1k](./assets/sine_1k.gif?raw=true)
 
 And in the FFT of the output there's a strong fundamental:
 
-![sine_1k_fft](./sine_1k_fft.gif?raw=true)
+![sine_1k_fft](./assets/sine_1k_fft.gif?raw=true)
 
 At 2kHz the signal is attenuated:
 
-![sine_2k](./sine_2k.gif?raw=true)
+![sine_2k](./assets/sine_2k.gif?raw=true)
 
 And the 2kHz output FFT shows more noise and harmonics
 
-![sine_2k_fft](./sine_2k_fft.gif?raw=true)
+![sine_2k_fft](./assets/sine_2k_fft.gif?raw=true)
 
 At 4kHz the signal is significantly attenuated:
 
-![sine_4k](./sine_4k.gif?raw=true)
+![sine_4k](./assets/sine_4k.gif?raw=true)
 
 And the 4kHz output FFT shows more noise and harmonics
 
-![sine_4k_fft](./sine_4k_fft.gif?raw=true)
+![sine_4k_fft](./assets/sine_4k_fft.gif?raw=true)
 
 By 8kHz the signal is pretty much destroyed:
 
-![sine_8k](./sine_8k.gif?raw=true)
+![sine_8k](./assets/sine_8k.gif?raw=true)
 
 And the 8kHz output FFT shows the signal pretty much drowned by noise and harmonics
 
-![sine_8k_fft](./sine_8k_fft.gif?raw=true)
+![sine_8k_fft](./assets/sine_8k_fft.gif?raw=true)
 
 
 ## Construction
 
-![Breadboard](./assetsAudioDSP_bb.jpg?raw=true)
+![Breadboard](./assets/AudioDSP_bb.jpg?raw=true)
 
 ![The Schematic](./assets/AudioDSP_schematic.jpg?raw=true)
 
