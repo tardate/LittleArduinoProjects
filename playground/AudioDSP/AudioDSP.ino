@@ -107,6 +107,9 @@ void setup() {
  * Main loop - process input buttons
  */
 void loop() {
+  static int scaler = 0;
+  scaler++;
+  if (scaler<100) return;
 
   process_footswitch();
   process_pushbuttons();
