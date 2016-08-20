@@ -1,5 +1,5 @@
-# 234 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator) - use a CD4096 to generate an oscillating waveform and plot the results.
+# 235 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AudioDSP](./playground/AudioDSP) - build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -68,6 +68,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
+| [#235 AudioDSP](./playground/AudioDSP)                                             | **Audio, Arduino, DSP, OpAmp**  build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |

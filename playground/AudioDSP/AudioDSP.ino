@@ -13,25 +13,25 @@
  */
 
 
-// defining harware resources.
+// define harware resources.
   #define LED 13
   #define FOOTSWITCH 12
   #define TOGGLE 2
   #define PUSHBUTTON_1 A5
   #define PUSHBUTTON_2 A4
 
-// defining the output PWM parameters
+// define output PWM parameters
   #define PWM_FREQ 0x00FF // pwm frequency - 31.3KHz
   #define PWM_MODE 0 // Fast (1) or Phase Correct (0)
   #define PWM_QTY 2 // 2 PWMs in parallel
 
-// other variables
-  int input, vol_variable=512;
-  int counter=0;
-  unsigned int ADC_low, ADC_high;
+// signal variables
+  volatile int volume=512;
+  volatile int input;
 
 
 void setup() {
+
   // setup IO - inputs/outputs pins configurations and pull-ups
   pinMode(FOOTSWITCH, INPUT_PULLUP);
   pinMode(TOGGLE, INPUT_PULLUP);
@@ -103,16 +103,49 @@ void setup() {
 
 }
 
-
+/*
+ * Main loop - process input buttons
+ */
 void loop() {
-  // Turn on the LED if the effect is ON.
+
+  process_footswitch();
+  process_pushbuttons();
+
+}
+
+
+/*
+ * Turn on the LED if the effect is ON.
+ */
+void process_footswitch() {
+
   if (digitalRead(FOOTSWITCH)) digitalWrite(LED, HIGH);
   else digitalWrite(LED, LOW);
+
+}
+
+
+/*
+ * Pushbuttons control the volume up/down
+ */
+void process_pushbuttons() {
+
+  if (!digitalRead(PUSHBUTTON_1)) {
+    // increase the vol
+    if (volume<1024) volume=volume+1;
+  }
+  if (!digitalRead(PUSHBUTTON_2)) {
+    // decrease vol
+    if (volume>0) volume=volume-1;
+  }
+
 }
 
 
 // Timer 1 interrupt service routine
 ISR(TIMER1_CAPT_vect) {
+
+  uint8_t ADC_low, ADC_high;
 
   // read the ADC input signal data: 2 bytes Low and High.
   // Low byte needs to be fetched first
@@ -120,26 +153,13 @@ ISR(TIMER1_CAPT_vect) {
   ADC_high = ADCH;
 
   // construct the input sample summing the ADC low and high byte.
-  input = ((ADC_high << 8) | ADC_low) + 0x8000; // make a signed 16b value
+  input = ((ADC_high << 8) | ADC_low) - 0x8000; // make a signed 16b value
 
-  // The push-buttons are checked now:
-  counter++; //to save resources, the push-buttons are checked every 100 times.
-  if(counter==100) {
-    counter=0;
-    if (!digitalRead(PUSHBUTTON_1)) {
-      // increase the vol
-      if (vol_variable<1024) vol_variable=vol_variable+1;
-    }
-    if (!digitalRead(PUSHBUTTON_2)) {
-      // decrease vol
-      if (vol_variable>0) vol_variable=vol_variable-1;
-    }
-  }
-
-  // the amplitude of the signal is modified following the vol_variable
-  input = map(input, 0, 1024, 0, vol_variable);
+  // the amplitude of the signal is modified following the volume
+  input = map(input, 0, 1024, 0, volume);
 
   // write the PWM output signal
   OCR1AL = ((input + 0x8000) >> 8); // convert to unsigned, send out high byte
   OCR1BL = input; // send out low byte
+
 }
