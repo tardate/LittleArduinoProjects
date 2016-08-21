@@ -25,7 +25,12 @@ void loop() {
   dsp_driver.process_controls();
 }
 
+// volume transformer
+int transformer(int input, int pb_level) {
+  return map(input, 0, 1024, 0, pb_level);
+}
+
 // Timer 1 interrupt service routine
 ISR(TIMER1_CAPT_vect) {
-  dsp_driver.transform();
+  dsp_driver.transform(&transformer);
 }

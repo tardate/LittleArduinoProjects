@@ -71,11 +71,14 @@ class AudioDspDriver {
     void transform();
 
     /*
-     * Apply volume filter to `current_output`
+     * Read/Write input to output with suppplied transformer function.
+     * transformer function takes two parameters: input and pb_level
+     * int transformer(int input, int pb_level)
+     * Sets `current_input` and `current_output` as a by-product.
      */
-    void apply_volume();
+    void transform(int (*transformer)(int, int));
 
-    volatile int volume;
+    volatile int pb_level;
     volatile int current_input;
     volatile int current_output;
 

@@ -15,7 +15,7 @@ void AudioDspDriver::reset() {
   this->pwm_freq = DEFAULT_PWM_FREQ;
   this->pwm_mode = DEFAULT_PWM_MODE;
   this->pwm_qty = DEFAULT_PWM_QTY;
-  this->volume = 512;
+  this->pb_level = 512;
   this->current_input = 0;
   this->current_output = 0;
 }
@@ -120,12 +120,12 @@ void AudioDspDriver::process_footswitch() {
 void AudioDspDriver::process_pushbuttons() {
 
   if (!digitalRead(pb1_pin)) {
-    // increase the vol
-    if (volume<1024) this->volume++;
+    // increase `pb_level`
+    if (pb_level<1024) this->pb_level++;
   }
   if (!digitalRead(pb2_pin)) {
-    // decrease vol
-    if (volume>0) this->volume--;
+    // decrease `pb_level`
+    if (pb_level>0) this->pb_level--;
   }
 
 }
@@ -141,8 +141,8 @@ int AudioDspDriver::read() {
 
   // construct the input sample summing the ADC low and high byte.
   this->current_input = ((ADC_high << 8) | ADC_low) - 0x8000; // make a signed 16b value
-
-  return current_input;
+  this->current_output = this->current_input;
+  return current_output;
 }
 
 
@@ -154,13 +154,12 @@ void AudioDspDriver::write() {
 
 
 void AudioDspDriver::transform() {
-  this->current_output = read();
-  apply_volume();
+  read();
   write();
 }
 
-
-void AudioDspDriver::apply_volume() {
-  // the amplitude of the signal is modified following the volume
-  this->current_output = map(current_output, 0, 1024, 0, volume);
+void AudioDspDriver::transform(int (*transformer)(int, int)) {
+  read();
+  this->current_output = (*transformer)(current_output, pb_level);
+  write();
 }
