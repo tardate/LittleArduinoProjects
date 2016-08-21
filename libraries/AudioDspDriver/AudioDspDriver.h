@@ -57,7 +57,7 @@ class AudioDspDriver {
     /*
      * Read ADC value. Sets and returns `current_input`.
      */
-    int read();
+    int16_t read();
 
     /*
      * Write `current_output` value
@@ -73,14 +73,19 @@ class AudioDspDriver {
     /*
      * Read/Write input to output with suppplied transformer function.
      * transformer function takes two parameters: input and pb_level
-     * int transformer(int input, int pb_level)
+     *
+     *     int transformer(int input, int pb_level)
+     *
+     * input is 16-bit signed input signal (values from -32768 to +32768, INT16_MIN to INT16_MAX)
+     * pb_level is 0-1024 with midpoint 512
+     *
      * Sets `current_input` and `current_output` as a by-product.
      */
-    void transform(int (*transformer)(int, int));
+    void transform(int16_t (*transformer)(int16_t, int));
 
     volatile int pb_level;
-    volatile int current_input;
-    volatile int current_output;
+    volatile int16_t current_input;
+    volatile int16_t current_output;
 
   private:
 

@@ -7,7 +7,8 @@
 
  */
 
-
+#define __STDC_LIMIT_MACROS
+#include <stdint.h>
 #include <AudioDspDriver.h>  // main AudioDSP controller class
 
 AudioDspDriver dsp_driver;
@@ -21,18 +22,17 @@ void loop() {
 }
 
 /* distortion transformer
- * the input signal is 16bits (values from -32768 to +32768
- * the value is clipped to the pb_level value
+ * the input signal is 16 bit signed (values from -32768 to +32768, INT16_MIN to INT16_MAX)
+ * pb_level is 0-1024 with midpoint 512
+ * the output/transformed value is clipped to the |pb_level| value
  */
-int transformer(int input, int pb_level) {
+int16_t transformer(int16_t input, int pb_level) {
 
-  int scaled_level = map(pb_level, 1024, 0, 0, 32768);
+  int16_t clipping_threshold = map(pb_level, 1024, 0, 0, INT16_MAX);
 
-  if (input>scaled_level) return pb_level;
-  else {
-    if(input<-scaled_level) return -pb_level;
-    else return input;
-  }
+  if(input > clipping_threshold) return clipping_threshold;
+  if(input < -clipping_threshold) return -clipping_threshold;
+  return input;
 
 }
 

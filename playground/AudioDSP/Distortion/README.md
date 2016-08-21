@@ -1,11 +1,11 @@
 # #237 AudioDSP/Distortion
 
-AudioDSP distortion effect based on the pedalSHIELD.
+AudioDSP simple distortion effect based on the pedalSHIELD.
 
 ## Notes
 
 [Distortion.ino](./Distortion.ino) is a simple distortion effect from the pedalSHIELD examples.
-The pushbuttons control the distorion level up and down.
+The pushbuttons control the distortion level up and down.
 
 Core algorithm:
 

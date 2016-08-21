@@ -121,17 +121,17 @@ void AudioDspDriver::process_pushbuttons() {
 
   if (!digitalRead(pb1_pin)) {
     // increase `pb_level`
-    if (pb_level<1024) this->pb_level++;
+    if (pb_level<1024) this->pb_level+=4;
   }
   if (!digitalRead(pb2_pin)) {
     // decrease `pb_level`
-    if (pb_level>0) this->pb_level--;
+    if (pb_level>0) this->pb_level-=4;
   }
 
 }
 
 
-int AudioDspDriver::read() {
+int16_t AudioDspDriver::read() {
   uint8_t ADC_low, ADC_high;
 
   // read the ADC input signal data: 2 bytes Low and High.
@@ -158,7 +158,7 @@ void AudioDspDriver::transform() {
   write();
 }
 
-void AudioDspDriver::transform(int (*transformer)(int, int)) {
+void AudioDspDriver::transform(int16_t (*transformer)(int16_t, int)) {
   read();
   this->current_output = (*transformer)(current_output, pb_level);
   write();
