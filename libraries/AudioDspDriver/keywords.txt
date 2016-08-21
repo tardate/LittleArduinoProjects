@@ -1,0 +1,8 @@
+AudioDspDriver KEYWORD1
+init KEYWORD2
+reset KEYWORD2
+process_controls  KEYWORD2
+read  KEYWORD2
+write  KEYWORD2
+pump  KEYWORD2
+apply_volume  KEYWORD2

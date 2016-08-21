@@ -1,8 +1,8 @@
 /*
 
-  AudioDSP
+  AudioDSP/Boost
   Simple clean boost/volume control example.
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP/Boost
 
   Based on Electrosmash and OpenMusicLabs previous works:
 
@@ -10,9 +10,10 @@
   Based on OpenMusicLabs previous works.
   pedalshield_uno_booster.ino: pressing the pushbutton_1 or 2 turns the volume up or down.
 
+
  */
 
-#include "audio_dsp_driver.h"  // main AudioDSP controller class
+#include <AudioDspDriver.h>  // main AudioDSP controller class
 
 AudioDspDriver dsp_driver;
 
@@ -26,5 +27,5 @@ void loop() {
 
 // Timer 1 interrupt service routine
 ISR(TIMER1_CAPT_vect) {
-  dsp_driver.pump();
+  dsp_driver.transform();
 }

@@ -1148,6 +1148,13 @@
     "relative_path": "playground/AudioDSP"
 },
 {
+    "id": "#236", 
+    "name": "AudioDSP/Boost", 
+    "description": "arduino DSP boost effect based on the pedalSHIELD by electrosmash", 
+    "categories": "Audio, Arduino, DSP, OpAmp", 
+    "relative_path": "playground/AudioDSP/Boost"
+},
+{
     "id": "#217", 
     "name": "BasicBuckAvrControl", 
     "description": "a simple buck converter circuit from first principles", 

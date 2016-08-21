@@ -37,9 +37,9 @@ only drawing about 0.5mA in full operation.
 Little changed from the original pedalSHIELD design at this point.
 
 
-### Code
+### Code: Boost Example
 
-[AudioDSP.ino](./AudioDSP.ino) is a simple clean boost/volume control example from the pedalSHIELD examples.
+[Boost.ino](./Boost/Boost.ino) is a simple clean boost/volume control example from the pedalSHIELD examples.
 The pushbuttons control the output volume up and down.
 
 Core algorithm:
@@ -47,6 +47,8 @@ Core algorithm:
 * the main loop sets the effect on/off indicator (LED on pin 13)
 * input read/output write is handled in the Timer 1 interrupt service routine
 
+I've refactored the core routines into a private [AudioDspDriver](../../libraries/AudioDspDriver) library,
+so it can be shared amongst some examples. I may split this out as a stand-alone library at some point.
 
 ### Performance
 

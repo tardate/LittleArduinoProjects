@@ -68,7 +68,7 @@ class AudioDspDriver {
      * Read/Write input to output with standard transform.
      * Sets `current_input` and `current_output` as a by-product.
      */
-    void pump();
+    void transform();
 
     /*
      * Apply volume filter to `current_output`

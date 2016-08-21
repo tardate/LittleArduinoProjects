@@ -1,4 +1,4 @@
-#include "audio_dsp_driver.h"
+#include "AudioDspDriver.h"
 
 
 AudioDspDriver::AudioDspDriver() {
@@ -153,7 +153,7 @@ void AudioDspDriver::write() {
 }
 
 
-void AudioDspDriver::pump() {
+void AudioDspDriver::transform() {
   this->current_output = read();
   apply_volume();
   write();
