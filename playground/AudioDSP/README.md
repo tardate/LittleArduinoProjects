@@ -103,6 +103,17 @@ And the 8kHz output FFT shows the signal pretty much drowned by noise and harmon
 
 ![The Schematic](./assets/AudioDSP_schematic.jpg?raw=true)
 
+![AudioDSP_bb_build](./assets/AudioDSP_bb_build.jpg?raw=true)
+
+### Protoboard Construction
+
+To test the circuit properly, I built it on a protoboard as a makeshift "shield". The circuit has a few modifications:
+
+* no footswitch
+* input, output, and ground signals are broken out on 3 pin headers
+
+![AudioDSP_protoboard_layout](./assets/AudioDSP_protoboard_layout.jpg?raw=true)
+
 ![The Build](./assets/AudioDSP_build.jpg?raw=true)
 
 ## Credits and References
