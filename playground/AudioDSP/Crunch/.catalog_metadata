@@ -1,0 +1,7 @@
+{
+    "id": "#238", 
+    "name": "AudioDSP/Crunch", 
+    "description": "arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash", 
+    "categories": "Audio, Arduino, DSP, OpAmp", 
+    "relative_path": "playground/AudioDSP/Crunch"
+}

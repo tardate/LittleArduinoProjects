@@ -1155,9 +1155,16 @@
     "relative_path": "playground/AudioDSP/Boost"
 },
 {
+    "id": "#238", 
+    "name": "AudioDSP/Crunch", 
+    "description": "arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash", 
+    "categories": "Audio, Arduino, DSP, OpAmp", 
+    "relative_path": "playground/AudioDSP/Crunch"
+},
+{
     "id": "#237", 
     "name": "AudioDSP/Distortion", 
-    "description": "arduino DSP distortion effect based on the pedalSHIELD by electrosmash", 
+    "description": "arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash", 
     "categories": "Audio, Arduino, DSP, OpAmp", 
     "relative_path": "playground/AudioDSP/Distortion"
 },
