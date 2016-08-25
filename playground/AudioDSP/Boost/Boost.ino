@@ -25,7 +25,7 @@ void loop() {
 }
 
 /* volume transformer
- * the input signal is 16 bit signed (values from -32768 to +32768, INT16_MIN to INT16_MAX)
+ * the input signal is 16 bit signed (values from -32768 to +32767, INT16_MIN to INT16_MAX)
  * pb_level is 0-1024 with midpoint 512
  * the output/transformed value is scaled to the |pb_level| value
  */

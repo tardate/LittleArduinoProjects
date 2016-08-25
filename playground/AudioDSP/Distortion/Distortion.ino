@@ -1,14 +1,13 @@
 /*
 
   AudioDSP/Distortion
-  Simple distortion effect based on the pedalSHIELD examples.
+  Simple distortion (clipping) effect.
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP/Distortion
 
  */
 
-#define __STDC_LIMIT_MACROS
-#include <stdint.h>
+
 #include <AudioDspDriver.h>  // main AudioDSP controller class
 
 AudioDspDriver dsp_driver;
@@ -22,7 +21,7 @@ void loop() {
 }
 
 /* distortion transformer
- * the input signal is 16 bit signed (values from -32768 to +32768, INT16_MIN to INT16_MAX)
+ * the input signal is 16 bit signed (values from -32768 to +32767, INT16_MIN to INT16_MAX)
  * pb_level is 0-1024 with midpoint 512
  * the output/transformed value is clipped to the |pb_level| value
  */

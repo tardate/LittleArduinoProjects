@@ -1,6 +1,9 @@
 #ifndef AudioDspDriver_h
 #define AudioDspDriver_h
 
+#define __STDC_LIMIT_MACROS
+#include <stdint.h>
+
 #include <Arduino.h>
 
 #define DEFAULT_LED_PIN (13)

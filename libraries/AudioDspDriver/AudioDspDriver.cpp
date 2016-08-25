@@ -30,7 +30,6 @@ void AudioDspDriver::init() {
   pinMode(pb2_pin, INPUT_PULLUP);
   init_adc();
   init_pwm();
-  sei(); // turn on interrupts - not really necessary with arduino
 }
 
 
@@ -86,12 +85,15 @@ void AudioDspDriver::init_pwm() {
   TCCR1B = ((pwm_mode << 3) | 0x11);
 
   /* TIMSK1: Timer/Counter1 Interrupt Mask Register
-   * 0x20 = OCIE1A: Timer/Counter1, Output Compare A Match Interrupt Enable
+   * 0x20 =
+   * ICIE1 not enabled: Timer/Counter1, Input Capture Interrupt Enable
+   * OCIE1A enabled: Timer/Counter1, Output Compare A Match Interrupt Enable
    */
   TIMSK1 = 0x20;
 
   /* ICR1H and ICR1L: Input Capture Register 1
-   * The Input Capture is updated with the counter (TCNT1) value each time an event occurs on the ICP1 pin (or optionally on the Analog  * Comparator output for Timer/Counter1). The Input Capture can be used for defining the counter TOP value.
+   * The Input Capture is updated with the counter (TCNT1) value each time an event occurs on the ICP1 pin (or optionally on the Analog
+   * Comparator output for Timer/Counter1). The Input Capture can be used for defining the counter TOP value.
    */
   ICR1H = (pwm_freq >> 8);
   ICR1L = (pwm_freq & 0xff);

@@ -32,29 +32,29 @@ This prove to work just fine, and with very low power consumption too - all the 
 only drawing about 0.5mA in full operation.
 
 
-### Output Processing
+### DAC Output Processing
 
-Little changed from the original pedalSHIELD design at this point.
+Since the Arduino lacks a precision digital-to-analog output, the output audio waveforms
+are generated using a neat trick with PWM and RC filter.
 
+It's possible to use one of more PWM signals, but I'm using two as in the pedalSHIELD design.
+Basically the two PWM ouputs are set to the high and low bytes of the desired frequency, then mixed with
+an RC ladder/filter. This reconstitutes (approximately) the desired analog waveform.
 
-### Code: Boost Example
+Details and more links are available in the article: [Configure Arduino UNO PWM outputs to play audio](http://www.electrosmash.com/forum/pedalshield-uno/111-configure-arduino-uno-pwm-outputs-to-play-audio?lang=en).
 
-[Boost.ino](./Boost/Boost.ino) is a simple clean boost/volume control example from the pedalSHIELD examples.
-The pushbuttons control the output volume up and down.
+For two PWM signals, the resistor selection is
+R10=4.7kΩ, and [R11 = 1.2MΩ](http://www.wolframalpha.com/input/?i=2%5E8+*+4.7k%CE%A9) (2^n * R10)
 
-Core algorithm:
+With C7=10nF, corner frequency is around [3.38kHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+10nF)).
+This might explain why I'm seeing performance radically drop off over 4kHz (see next section on Performance).
 
-* the main loop sets the effect on/off indicator (LED on pin 13)
-* input read/output write is handled in the Timer 1 interrupt service routine
-
-I've refactored the core routines into a private [AudioDspDriver](../../libraries/AudioDspDriver) library,
-so it can be shared amongst some examples. I may split this out as a stand-alone library at some point.
 
 ### Performance
 
 Bottom line:
 
-* it works! It's pretty amazing to jam away in the knowledge that the singal from the guitar is passing through an Arduino before getting to the amp
+* it works! It's pretty amazing to jam away in the knowledge that the signal from the guitar is passing through an Arduino before getting to the amp
 * performance starts to drops off significantly from about 4kHz and by 8kHz it is down in the noise.
 
 I'd like to think it is possible to get better higher frequency performance from the circuit - ideally up to 20kHz -
@@ -97,6 +97,35 @@ By 8kHz the signal is pretty much destroyed:
 And the 8kHz output FFT shows the signal pretty much drowned by noise and harmonics
 
 ![sine_8k_fft](./assets/sine_8k_fft.gif?raw=true)
+
+#### Attempting to improve the Frequency Response
+
+With C7=10nF, corner frequency is around [3.38kHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+10nF)).
+This might explain why I'm seeing performance radically drop off over 4kHz (see next section on Performance).
+
+At 4kHz, the signal looks like this:
+
+![sine_4khz_103](./assets/sine_4khz_103.gif?raw=true)
+
+With C7=1nF, the corner frequency is around [33.86kHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+1nF)),
+so I was hoping for a better response.
+
+But at 4kHz, the signal shows somewhat less attenuation, but at the expense of an increase in noise:
+
+![sine_4khz_102](./assets/sine_4khz_102.gif?raw=true)
+
+So no magic bullet. I replaced C7=10nF for the remainder of my tests (I actually put some pin headers on the board so I can swap C7 at will).
+
+### Code
+
+I've refactored the core routines into a private [AudioDspDriver](../../libraries/AudioDspDriver) library,
+so it can be shared amongst some examples. I may split this out as a stand-alone library at some point.
+
+See the following for the examples I've tested so far:
+
+* [Boost](./Boost) is a simple clean boost/volume control
+* [Distortion](./Distortion) is a simple clipping distortion effect
+* [Crunch](./Crunch) is a distortion effect using asymmetrical clipping based on Schetzen formula
 
 
 ## Construction

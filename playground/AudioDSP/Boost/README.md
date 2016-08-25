@@ -2,6 +2,8 @@
 
 AudioDSP boost effect based on the pedalSHIELD.
 
+![waveform](./assets/Boost_build.jpg?raw=true)
+
 ## Notes
 
 [Boost.ino](./Boost.ino) is a simple clean boost/volume control example from the pedalSHIELD examples.
@@ -26,7 +28,7 @@ I may split this out as a stand-alone library at some point.
 
 ![The Schematic](../assets/AudioDSP_schematic.jpg?raw=true)
 
-![The Build](./assets/Boost_build.jpg?raw=true)
+![Build](../assets/AudioDSP_build.jpg?raw=true)
 
 ## Credits and References
 * see the main [AudioDSP](../) project
