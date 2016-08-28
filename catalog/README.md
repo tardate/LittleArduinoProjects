@@ -16,18 +16,20 @@ I use two utility scripts:
 
 I'm using GitHub Pages to run the catalog site directly from the LittleArduinoProjects repo.
 
-How does that work? GitHub Pages basically serves whatever you put on the gh-pages branch of the repo.
+How does that work? GitHub Pages basically serves whatever you commit to the repo.
 For static HTML sites, that means simply adding an `index.html` to the root of the repo.
+
+By default, GitHub will make a detached gh-pages branch (if you use the web tools to turn on pages).
+
+GitHub no allows you to select the branch from which GitHub Pages are built.
+I have configured GitHub to use the master branch, which means the pages site has direct access to all the images and data in the repo,
+without needing to continually merge back to the gh-pages branch.
 
 To host on a custom URL, just two steps:
 
 * in DNS, configure a CNAME to point to <username>.github.io
 * add a CNAME file to the repo root with the matching CNAME in DNS (GitHub does this for you automatically if you add the custom url in the web interface)
 
-
-By default, GitHub will make a detached gh-pages branch (if you use the web tools to turn on pages).
-
-I have gh-pages on the same mainline as my master branch, which means the pages site has direct access to all the images and data in the repo.
 
 ## Credits and References
 * [GitHub Pages](https://pages.github.com/)
