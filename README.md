@@ -1,5 +1,5 @@
-# 238 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioDSP/Crunch](./playground/AudioDSP/Crunch) - arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash.
+# 239 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AudioDSP/SuperCrunch](./playground/AudioDSP/SuperCrunch) - arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -72,6 +72,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#236 AudioDSP/Boost](./playground/AudioDSP/Boost)                                 | **Audio, Arduino, DSP, OpAmp**  arduino DSP boost effect based on the pedalSHIELD by electrosmash |
 | [#238 AudioDSP/Crunch](./playground/AudioDSP/Crunch)                               | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash |
 | [#237 AudioDSP/Distortion](./playground/AudioDSP/Distortion)                       | **Audio, Arduino, DSP, OpAmp**  arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash |
+| [#239 AudioDSP/SuperCrunch](./playground/AudioDSP/SuperCrunch)                     | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |

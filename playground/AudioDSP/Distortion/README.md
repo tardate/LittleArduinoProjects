@@ -15,6 +15,13 @@ Core algorithm:
 
 * input value is simply clipped by the distortion level set by the push-buttons
 
+
+### Performance
+
+Not bad, but a fairly crude fuzz effect. There's a bit too much high frequency buzz in the result
+due to the hard clipping. See [SuperCrunch](../SuperCrunch) for what I think is a bettery fuzz.
+
+
 ### AudioDspDriver Library
 
 This example uses a private [AudioDspDriver](../../../libraries/AudioDspDriver) library

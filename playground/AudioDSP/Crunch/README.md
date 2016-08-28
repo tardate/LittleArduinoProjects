@@ -7,12 +7,17 @@ AudioDSP crunchy distortion effect based on the pedalSHIELD.
 ## Notes
 
 [Crunch.ino](./Crunch.ino) is a crunchy distortion effect from the pedalSHIELD examples.
-The pushbuttons control the mixing of the original and distorted signal.
+The pushbuttons control the volume of the output signal.
 
 Core algorithm:
 
 * distortion is derived from an asymmetrical clipping system based on Schetzen formula
 
+### Performance
+
+Not so great. The asymmetrical algorithm results in a fat bottom end but some annoying high-frequency distortion.
+
+See [SuperCrunch](../SuperCrunch) for the symmetrical version, which is much more pleasing.
 
 ### AudioDspDriver Library
 
