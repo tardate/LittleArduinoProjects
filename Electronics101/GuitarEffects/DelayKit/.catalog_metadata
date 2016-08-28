@@ -2,6 +2,6 @@
     "id": "#339", 
     "name": "DelayKit", 
     "description": "build and test a PT2399-based analogue delay pedal kit", 
-    "categories": "Guitar, Audio", 
+    "categories": "Guitar Effects, Audio", 
     "relative_path": "Electronics101/GuitarEffects/DelayKit"
 }

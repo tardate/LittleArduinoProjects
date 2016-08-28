@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-07T23:34:04Z</updated>
+  <updated>2019-03-10T15:39:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/GuitarEffects/Goblin/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/GuitarEffects/Goblin/README.md"/>
+    <updated>2019-03-10T15:39:30Z</updated>
+    <title>#461 Goblin</title>
+    <summary>the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/GuitarEffects/Goblin/assets/Goblin_build.jpg</g:image_link>
+    <category term="Guitar Effects"/>
+    <category term="Audio"/>
+  </entry>
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/CANary/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/CANary/README.md"/>
@@ -1259,7 +1269,7 @@
     <title>#339 DelayKit</title>
     <summary>build and test a PT2399-based analogue delay pedal kit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/GuitarEffects/DelayKit/assets/DelayKit_build.jpg</g:image_link>
-    <category term="Guitar"/>
+    <category term="Guitar Effects"/>
     <category term="Audio"/>
   </entry>
   <entry>
@@ -3264,7 +3274,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/RingOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/RingOscillator/README.md"/>
-    <updated>2019-03-07T23:33:11Z</updated>
+    <updated>2019-03-08T06:55:15Z</updated>
     <title>#144 RingOscillator</title>
     <summary>test a ring oscillator built with a 74LS14 Inverter chip</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/RingOscillator/assets/RingOscillator_build.jpg</g:image_link>

@@ -1,6 +1,6 @@
-# 460 Little Electronics and Arduino Projects
+# 461 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [CANary](./Electronics101/AudioEffects/CANary) - playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture.
+> Latest addition:sparkles: [Goblin](./Electronics101/GuitarEffects/Goblin) - the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -200,7 +200,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#440 DataLogging/VoltageToAdafruitIO](./playground/DataLogging/VoltageToAdafruitIO) | **Sensors, Cloud, MQTT, Data Logging**  using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT |
 | [#414 Decade Programmable Resistor](./Electronics101/DecadeProgrammableResistor)   | **Test Equipment**              building an old-fashioned 7-digit decade programmable resistor with push-button control |
 | [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**                  decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
-| [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
+| [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar Effects, Audio**       build and test a PT2399-based analogue delay pedal kit |
 | [#353 DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop)                          | **Logic Gates, CMOS/TTL**       building a clocked D Flip-flop with 74LS00 NAND gates |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
@@ -245,6 +245,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#338 GlowBall](./Kraft/GlowBall)                                                  | **LED, Oscillators, Power**     building LED effects for a Glass Eye Studio Celestial Planet Weight |
+| [#461 Goblin](./Electronics101/GuitarEffects/Goblin)                               | **Guitar Effects, Audio**       the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications |
 | [#298 GoldenHind](./Kraft/GoldenHind)                                              | **Kraft**                       building a mini metal model of the Golden Hind |
 | [#387 GpsBasics](./playground/GpsBasics)                                           | **GPS, Arduino**                using a NEMA-compatible GPS module for time and location with an Arduino |
 | [#368 GranularSynth](./playground/GranularSynth)                                   | **Audio, Arduino**              building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right? |

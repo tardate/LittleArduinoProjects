@@ -1,5 +1,12 @@
 [
     {
+        "description": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications", 
+        "relative_path": "Electronics101/GuitarEffects/Goblin", 
+        "id": "#461", 
+        "categories": "Guitar Effects, Audio", 
+        "name": "Goblin"
+    }, 
+    {
         "description": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture", 
         "relative_path": "Electronics101/AudioEffects/CANary", 
         "id": "#460", 
@@ -850,7 +857,7 @@
         "description": "build and test a PT2399-based analogue delay pedal kit", 
         "relative_path": "Electronics101/GuitarEffects/DelayKit", 
         "id": "#339", 
-        "categories": "Guitar, Audio", 
+        "categories": "Guitar Effects, Audio", 
         "name": "DelayKit"
     }, 
     {
