@@ -1,5 +1,5 @@
-# 248 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [PierceGateOscillator](./Electronics101/PierceGateOscillator) - build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter.
+# 249 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp) - single-channel 10W guitar practice amplifier based on the TDA2050.
 
 
 Build and test a genuine pedalSHIELD UNO.
@@ -129,6 +129,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
+| [#249 GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp)             | **OpAmp, Audio**                single-channel 10W guitar practice amplifier based on the TDA2050 |
 | [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [#142 HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) | **OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |

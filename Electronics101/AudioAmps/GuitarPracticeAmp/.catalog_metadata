@@ -1,0 +1,7 @@
+{
+    "id": "#249", 
+    "name": "GuitarPracticeAmp", 
+    "description": "single-channel 10W guitar practice amplifier based on the TDA2050", 
+    "categories": "OpAmp, Audio", 
+    "relative_path": "Electronics101/AudioAmps/GuitarPracticeAmp"
+}

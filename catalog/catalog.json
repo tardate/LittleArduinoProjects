@@ -147,6 +147,13 @@
         "name": "GuitarHeadphoneAmp"
     }, 
     {
+        "description": "single-channel 10W guitar practice amplifier based on the TDA2050", 
+        "relative_path": "Electronics101/AudioAmps/GuitarPracticeAmp", 
+        "id": "#249", 
+        "categories": "OpAmp, Audio", 
+        "name": "GuitarPracticeAmp"
+    }, 
+    {
         "description": "a basic Smokey-inspired LM386 guitar power amp", 
         "relative_path": "Electronics101/AudioAmps/LittleGem", 
         "id": "#095", 
