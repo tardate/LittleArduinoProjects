@@ -1,5 +1,5 @@
-# 239 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioDSP/SuperCrunch](./playground/AudioDSP/SuperCrunch) - arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash.
+# 240 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins) - demonstrate how analog pins can also be used as a digital GPIO.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -99,6 +99,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 voltage sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
+| [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |

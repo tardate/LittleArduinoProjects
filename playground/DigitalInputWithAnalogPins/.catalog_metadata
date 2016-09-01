@@ -1,0 +1,7 @@
+{
+    "id": "#240", 
+    "name": "DigitalInputWithAnalogPins", 
+    "description": "demonstrate how analog pins can also be used as a digital GPIO", 
+    "categories": "Arduino", 
+    "relative_path": "playground/DigitalInputWithAnalogPins"
+}
