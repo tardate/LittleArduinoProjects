@@ -1127,6 +1127,13 @@
         "name": "WienBridgeAudioToneGenerator"
     }, 
     {
+        "description": "testing out the Feeltech FY3200S digital function generator", 
+        "relative_path": "Equipment/FY3200S", 
+        "id": "#274", 
+        "categories": "Tools, Test Equipment", 
+        "name": "FY3200S"
+    }, 
+    {
         "description": "unboxing and first tests of a Hantek MSO5074FG oscilloscope", 
         "relative_path": "Equipment/MSO5074FG_unboxing", 
         "id": "#156", 

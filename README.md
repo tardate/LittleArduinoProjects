@@ -1,5 +1,5 @@
-# 273 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator) - exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator.
+# 274 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [FY3200S](./Equipment/FY3200S) - testing out the Feeltech FY3200S digital function generator.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -136,6 +136,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#194 ESP8266/DIYDevBoard](./playground/ESP8266/DIYDevBoard)                       | **ESP8266**                     a DIY devboard for an ESP-01 ESP8266 |
 | [#154 ESP8266/SerialTest](./playground/ESP8266/SerialTest)                         | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./playground/ESP8266/SerialTest/ruby)               | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
+| [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
 | [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, RF**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
