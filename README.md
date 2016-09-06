@@ -1,5 +1,6 @@
-# 328 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [VoltageControlledOscillator/555](./Electronics101/555Timer/VoltageControlledOscillator) - a voltage-controlled oscillator (VCO) using the 555 timer.
+# 329 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Power/Connectors](./Electronics101/Power/Connectors) - obsessing over all manner of DC power connectors.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -268,6 +269,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
+| [#329 Power/Connectors](./Electronics101/Power/Connectors)                         | **Power**                       obsessing over all manner of DC power connectors |
 | [#165 Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter |
 | [#026 Power317](./Electronics101/Power317)                                         | **Power**                       test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
 | [#092 Power317CC](./Electronics101/Power317CC)                                     | **Power**                       test a constant current power supply built with the LM317 |

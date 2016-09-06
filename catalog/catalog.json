@@ -987,6 +987,13 @@
         "name": "PovShakeStickKit"
     }, 
     {
+        "description": "obsessing over all manner of DC power connectors", 
+        "relative_path": "Electronics101/Power/Connectors", 
+        "id": "#329", 
+        "categories": "Power", 
+        "name": "Power/Connectors"
+    }, 
+    {
         "description": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter", 
         "relative_path": "Electronics101/Power2662Inverter", 
         "id": "#165", 
