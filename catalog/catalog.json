@@ -322,6 +322,13 @@
         "name": "VolumeControlPowerAmp"
     }, 
     {
+        "description": "notes on miscellaneous audio connectors", 
+        "relative_path": "Electronics101/AudioConnectors", 
+        "id": "#309", 
+        "categories": "Audio, Connectors", 
+        "name": "AudioConnectors"
+    }, 
+    {
         "description": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
         "relative_path": "Electronics101/AudioEffectsChips/H823", 
         "id": "#292", 

@@ -1,4 +1,4 @@
-# 308 Little Electronics and Arduino Projects
+# 309 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [LED7Segment/CombinationalLogicDriver](./playground/LED7Segment/CombinationalLogicDriver) - dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic.
 
 
@@ -75,6 +75,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
+| [#309 AudioConnectors](./Electronics101/AudioConnectors)                           | **Audio, Connectors**           notes on miscellaneous audio connectors |
 | [#235 AudioDSP](./playground/AudioDSP)                                             | **Audio, Arduino, DSP, OpAmp**  build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash |
 | [#236 AudioDSP/Boost](./playground/AudioDSP/Boost)                                 | **Audio, Arduino, DSP, OpAmp**  arduino DSP boost effect based on the pedalSHIELD by electrosmash |
 | [#238 AudioDSP/Crunch](./playground/AudioDSP/Crunch)                               | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash |
