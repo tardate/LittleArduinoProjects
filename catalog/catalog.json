@@ -378,6 +378,13 @@
         "name": "FunctionGenerator324"
     }, 
     {
+        "description": "test a DC-powered general curve tracer circuit", 
+        "relative_path": "Electronics101/GeneralCurveTracer", 
+        "id": "#245", 
+        "categories": "BJT, Oscillators", 
+        "name": "GeneralCurveTracer"
+    }, 
+    {
         "description": "testing a Hall effect switch", 
         "relative_path": "Electronics101/HallEffectSwitch", 
         "id": "#198", 

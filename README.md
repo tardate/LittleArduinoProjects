@@ -1,5 +1,5 @@
-# 244 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Switches/DPDT](./Electronics101/Switches/DPDT) - all about double-pole, double-thow toggle switches.
+# 245 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [GeneralCurveTracer](./Electronics101/GeneralCurveTracer) - test a DC-powered general curve tracer circuit.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -122,6 +122,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#062 Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper)       | **Logic Gates, BJT, Arduino**   Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |
 | [#220 GccToolchain](./playground/GccToolchain)                                     | **avr-lib, avrdude**            programming an Arduino with C and a command line |
+| [#245 GeneralCurveTracer](./Electronics101/GeneralCurveTracer)                     | **BJT, Oscillators**            test a DC-powered general curve tracer circuit |
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
