@@ -1,5 +1,5 @@
-# 247 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [pedalShieldUno](./playground/pedalShieldUno) - build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal.
+# 248 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [PierceGateOscillator](./Electronics101/PierceGateOscillator) - build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter.
 
 
 Build and test a genuine pedalSHIELD UNO.
@@ -201,6 +201,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#215 OSHChip/YottaToolchain](./OSHChip/YottaToolchain)                            | **ARM, gcc, yotta, OSHChip**    build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX |
 | [#121 PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [#247 pedalShieldUno](./playground/pedalShieldUno)                                 | **DSP, Guitar, Arduino**        build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal |
+| [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |

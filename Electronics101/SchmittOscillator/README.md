@@ -52,3 +52,4 @@ See the [RingOscillator](../RingOscillator) project for a related application of
 * [Schmitt Trigger Oscillators?!](http://forum.arduino.cc/index.php?topic=147691.0) in the Arduino forums
 * [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html) - very informative; compares LS14 with alternatives for waveform generation.
 * [Circuit Properties of LS and HC Digital Logic](http://mysite.du.edu/~etuttle/electron/elect13.htm)
+* [Schmitt Trigger Oscillator](http://electronics-course.com/schmitt-trigger-oscillator)
