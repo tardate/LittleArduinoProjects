@@ -1,5 +1,5 @@
-# 241 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358) - test a general-purpose LM358 amplifier circuit.
+# 242 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [PierceOscillator](./Electronics101/PierceOscillator) - test a Pierce Oscillator made with a minimum of components.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -196,6 +196,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#216 OSHChip/LEDx16Module](./OSHChip/LEDx16Module)                                | **OSHChip, SPI**                driving an SPI LED module with the OSHChip |
 | [#215 OSHChip/YottaToolchain](./OSHChip/YottaToolchain)                            | **ARM, gcc, yotta, OSHChip**    build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX |
 | [#121 PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
+| [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |

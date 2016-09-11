@@ -581,6 +581,13 @@
         "name": "PeakDetector"
     }, 
     {
+        "description": "test a Pierce Oscillator made with a minimum of components", 
+        "relative_path": "Electronics101/PierceOscillator", 
+        "id": "#242", 
+        "categories": "Oscillators, Crystal", 
+        "name": "PierceOscillator"
+    }, 
+    {
         "description": "demonstrate a polarity-testing circuit", 
         "relative_path": "Electronics101/PolarityTester", 
         "id": "#183", 
