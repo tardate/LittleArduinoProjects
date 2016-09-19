@@ -854,6 +854,20 @@
         "name": "SuperheterodyneReceiverKit"
     }, 
     {
+        "description": "Notes on miscellaneous mechanical switches used in electrical circuits", 
+        "relative_path": "Electronics101/Switches", 
+        "id": "#243", 
+        "categories": "Switches", 
+        "name": "Switches"
+    }, 
+    {
+        "description": "all about double-pole, double-thow (DPDT) toggle switches", 
+        "relative_path": "Electronics101/Switches/DPDT", 
+        "id": "#244", 
+        "categories": "Switches", 
+        "name": "Switches/DPDT"
+    }, 
+    {
         "description": "small-signal n-channel MOSFET switch with turn-off delay", 
         "relative_path": "Electronics101/SwitchNFET", 
         "id": "#066", 
