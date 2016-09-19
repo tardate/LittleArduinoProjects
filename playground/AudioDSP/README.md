@@ -153,3 +153,4 @@ To test the circuit properly, I built it on a protoboard as a makeshift "shield"
 * [LMC6482 datasheet](http://www.futurlec.com/Linear/LMC6482IN.shtml)
 * [Configure Arduino UNO PWM outputs to play audio](http://www.electrosmash.com/forum/pedalshield-uno/111-configure-arduino-uno-pwm-outputs-to-play-audio?lang=en)
 * [PWM Distortion Analysis](http://www.openmusiclabs.com/learning/digital/pwm-dac/pwm-distortion-analysis/index.html)
+* [Arduino Audio Input](http://www.instructables.com/id/Arduino-Audio-Input/?ALLSTEPS) - TL072 front-end project
