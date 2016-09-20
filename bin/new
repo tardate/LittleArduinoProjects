@@ -40,6 +40,8 @@ function make_project() {
 
 __subtitle__
 
+![Build](./assets/${project_name}_build.jpg?raw=true)
+
 ## Notes
 
 __notes__
@@ -48,9 +50,9 @@ __notes__
 
 ![Breadboard](./assets/${project_name}_bb.jpg?raw=true)
 
-![The Schematic](./assets/${project_name}_schematic.jpg?raw=true)
+![Schematic](./assets/${project_name}_schematic.jpg?raw=true)
 
-![The Build](./assets/${project_name}_build.jpg?raw=true)
+![Build](./assets/${project_name}_build.jpg?raw=true)
 
 ## Credits and References
 * [name](url)
