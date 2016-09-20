@@ -2,7 +2,7 @@
 
 All about double-pole, double-thow toggle switches.
 
-![DPDT_part](./assets/DPDT_part.jpg?raw=true)
+![Build](./assets/DPDT_build.jpg?raw=true)
 
 ## Notes
 
@@ -41,7 +41,10 @@ Operation:
 
 ![Schematic](./assets/DPDT_schematic.jpg?raw=true)
 
-![Build](./assets/DPDT_build.jpg?raw=true)
+![DPDT_protoboard_build](./assets/DPDT_protoboard_build.jpg?raw=true)
+
+![DPDT_protoboard_layout](./assets/DPDT_protoboard_layout.jpg?raw=true)
+
 
 ## Credits and References
 * [Switches](../)
