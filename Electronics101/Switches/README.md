@@ -6,6 +6,12 @@ Notes on miscellaneous mechanical switches used in electrical circuits.
 
 ## Notes
 
+Switches are the most basic of "input" devices for electrical systems.
+
+Thorough coverage of the variety of switches can be found in Chapter 6 of Charles Platt's excellent
+[Encyclopedia of Electronic Components Volume 1](https://www.goodreads.com/book/show/17017467-encyclopedia-of-electronic-components-volume-1),
+and also (coincidentally) Chapter 6 of John M. Hughes' [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics).
+
 ### Pole and Throw Terminology
 
 The terms pole and throw are also used to describe switch contact variations.
@@ -19,7 +25,13 @@ The number of "throws" is the number of separate wiring path choices other than 
 ### Types of Switches
 
 * [Toggle switch - DPDT](./DPDT)
-
+* Rocker
+* Slide
+* Rotary
+* Pushbutton - typically momentary action, but sometimes locking on/off
+* Snap-action -  typically used as sensors
 
 ## Credits and References
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
+* [Encyclopedia of Electronic Components Volume 1](https://www.goodreads.com/book/show/17017467-encyclopedia-of-electronic-components-volume-1)
+* [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
