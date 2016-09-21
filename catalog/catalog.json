@@ -1568,6 +1568,13 @@
         "name": "OLED/SSD1306WithAdaFruitLibraries"
     }, 
     {
+        "description": "build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal", 
+        "relative_path": "playground/pedalShieldUno", 
+        "id": "#247", 
+        "categories": "DSP, Guitar, Arduino", 
+        "name": "pedalShieldUno"
+    }, 
+    {
         "description": "generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing", 
         "relative_path": "playground/PlotNValues", 
         "id": "#090", 
