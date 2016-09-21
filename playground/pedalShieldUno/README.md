@@ -45,6 +45,9 @@ About 60 minutes of soldering..
 
 ### Programming
 
+The [examples](./examples) folder contains the collection of samples provided on the
+[How to start programming pedalSHIELD UNO](http://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno) forum page.
+
 
 ## Performance
 
