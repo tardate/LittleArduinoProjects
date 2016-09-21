@@ -294,6 +294,13 @@
         "name": "CMOSInverterOscillator"
     }, 
     {
+        "description": "testing a 4-pin CMOS oscillator component", 
+        "relative_path": "Electronics101/CMOSOscillators", 
+        "id": "#246", 
+        "categories": "CMOS, Oscillators", 
+        "name": "CMOSOscillators"
+    }, 
+    {
         "description": "testing a basic Colpitts Oscillator circuit", 
         "relative_path": "Electronics101/ColpittsOscillator", 
         "id": "#180", 
