@@ -66,13 +66,13 @@ Quick test of the standard examples ..
 
 Harder than pedalshield_uno_distortion but not as extreme as pedalshield_uno_fuzz.
 
-![scope](scope_bit_crusher.gif?raw=true)
+![scope](./assets/scope_bit_crusher.gif?raw=true)
 
 #### pedalshield_uno_booster
 
 Simple volume boost.
 
-![scope](scope_booster.gif?raw=true)
+![scope](./assets/scope_booster.gif?raw=true)
 
 #### pedalshield_uno_clean
 
@@ -82,26 +82,27 @@ As you would expect: signal in, signal out. With a bit of high frequency noise..
 
 Trick effect. Solo not so nice - takes too much character out of the sound.
 
-![scope](scope_daft_punk_octaver.gif?raw=true)
+![scope](./assets/scope_daft_punk_octaver.gif?raw=true)
 
 #### pedalshield_uno_delay
 
 Not so much delay, more like a bit of reverb?
 
-![scope](scope_delay.gif?raw=true)
+![scope](./assets/scope_delay.gif?raw=true)
 
 #### pedalshield_uno_distortion
 
 Bluesy warm distortion..
 
-![scope](scope_distortion.gif?raw=true)
+![scope](./assets/scope_distortion.gif?raw=true)
 
 #### pedalshield_uno_fuzz
 
 Nice fuzz, full-on distortion. It does have a harsh cut-off at lower volumes,
 so palm muting doesn't work so well. Good for djenting!
 
-![scope](scope_fuzz.gif?raw=true)
+![scope](./assets/scope_fuzz.gif?raw=true)
+
 #### pedalshield_uno_metronome
 tbd
 
@@ -115,7 +116,7 @@ tbd
 
 Great effect. The scope trace doesn't tell the story though .. it swells the volume.
 
-![scope](scope_tremolo.gif?raw=true)
+![scope](./assets/scope_tremolo.gif?raw=true)
 
 
 
