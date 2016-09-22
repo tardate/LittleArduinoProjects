@@ -41,24 +41,89 @@ on expected performance, but also to payback Electrosmash in a small way. Good O
 
 ### Assembly
 
-About 60 minutes of soldering..
+About 60 minutes of soldering, continuity test and inspection.
+
+Then an electrical test, powered independantly from 5V (i.e. no in the shield).
+All the test points check out OK, and current draw is ~2mA. Good to go .. and it works!
+
+![pedalShieldUno_test](./assets/pedalShieldUno_test.jpg?raw=true)
+
 
 ### Programming
 
 The [examples](./examples) folder contains the collection of samples provided on the
-[How to start programming pedalSHIELD UNO](http://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno) forum page.
+[How to start programming pedalSHIELD UNO](http://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno) forum page. These are currently unmodified, and all work as expected.
 
 
 ## Performance
 
-Assembly complete, now need to test it (watch this space).
+It is surprisingly good, although it does tail off at the higher frequencies.
+
+Quick test of the standard examples ..
+
+
+#### pedalshield_uno_bit_crusher
+
+Harder than pedalshield_uno_distortion but not as extreme as pedalshield_uno_fuzz.
+
+![scope](scope_bit_crusher.gif?raw=true)
+
+#### pedalshield_uno_booster
+
+Simple volume boost.
+
+![scope](scope_booster.gif?raw=true)
+
+#### pedalshield_uno_clean
+
+As you would expect: signal in, signal out. With a bit of high frequency noise..
+
+#### pedalshield_uno_daft_punk_octaver
+
+Trick effect. Solo not so nice - takes too much character out of the sound.
+
+![scope](scope_daft_punk_octaver.gif?raw=true)
+
+#### pedalshield_uno_delay
+
+Not so much delay, more like a bit of reverb?
+
+![scope](scope_delay.gif?raw=true)
+
+#### pedalshield_uno_distortion
+
+Bluesy warm distortion..
+
+![scope](scope_distortion.gif?raw=true)
+
+#### pedalshield_uno_fuzz
+
+Nice fuzz, full-on distortion. It does have a harsh cut-off at lower volumes,
+so palm muting doesn't work so well. Good for djenting!
+
+![scope](scope_fuzz.gif?raw=true)
+#### pedalshield_uno_metronome
+tbd
+
+#### pedalshield_uno_monitor
+tbd
+
+#### pedalshield_uno_signal_generator
+tbd
+
+#### pedalshield_uno_tremolo
+
+Great effect. The scope trace doesn't tell the story though .. it swells the volume.
+
+![scope](scope_tremolo.gif?raw=true)
+
 
 
 ## Construction
 
 [![Schematic](./assets/pedalShieldUno_schematic.png?raw=true)](http://www.electrosmash.com/media/kunena/attachments/631/pedalSHIELD_UNO-Schematics.pdf)
 
-![Build](./assets/pedalShieldUno_build.jpg?raw=true)
+![Build](./assets/pedalShieldUno_assembled.jpg?raw=true)
 
 ## Credits and References
 * [pedalSHIELD UNO](http://www.electrosmash.com/pedalshield-uno-start) - getting started guide
