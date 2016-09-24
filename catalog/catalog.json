@@ -595,6 +595,13 @@
         "name": "PeakDetector"
     }, 
     {
+        "description": "build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter", 
+        "relative_path": "Electronics101/PierceGateOscillator", 
+        "id": "#248", 
+        "categories": "Oscillators, Crystal", 
+        "name": "PierceGateOscillator"
+    }, 
+    {
         "description": "test a Pierce Oscillator made with a minimum of components", 
         "relative_path": "Electronics101/PierceOscillator", 
         "id": "#242", 
