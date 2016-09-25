@@ -8,14 +8,15 @@ AudioDspDriver::AudioDspDriver() {
 
 void AudioDspDriver::reset() {
   this->led_pin = DEFAULT_LED_PIN;
-  this->footswitch_pin = DEFAULT_FOOTSWITCH;
-  this->toggle_pin = DEFAULT_TOGGLE;
-  this->pb1_pin = DEFAULT_PUSHBUTTON_1;
-  this->pb2_pin = DEFAULT_PUSHBUTTON_2;
+  this->footswitch_pin = DEFAULT_FOOTSWITCH_PIN;
+  this->toggle_pin = DEFAULT_TOGGLE_PIN;
+  this->pb_left_pin = DEFAULT_PUSHBUTTON_LEFT_PIN;
+  this->pb_right_pin = DEFAULT_PUSHBUTTON_RIGHT_PIN;
+  this->pb_step = DEFAULT_PUSHBUTTON_STEP;
   this->pwm_freq = DEFAULT_PWM_FREQ;
   this->pwm_mode = DEFAULT_PWM_MODE;
   this->pwm_qty = DEFAULT_PWM_QTY;
-  this->pb_level = 512;
+  this->pb_level_value = 512;
   this->current_input = 0;
   this->current_output = 0;
 }
@@ -26,10 +27,11 @@ void AudioDspDriver::init() {
   pinMode(led_pin, OUTPUT);
   pinMode(footswitch_pin, INPUT_PULLUP);
   pinMode(toggle_pin, INPUT_PULLUP);
-  pinMode(pb1_pin, INPUT_PULLUP);
-  pinMode(pb2_pin, INPUT_PULLUP);
+  pinMode(pb_left_pin, INPUT_PULLUP);
+  pinMode(pb_right_pin, INPUT_PULLUP);
   init_adc();
   init_pwm();
+  sei();
 }
 
 
@@ -108,28 +110,36 @@ void AudioDspDriver::init_pwm() {
 void AudioDspDriver::process_controls() {
   process_footswitch();
   process_pushbuttons();
+  process_toggle();
 }
 
 
 void AudioDspDriver::process_footswitch() {
+  this->footswitch_value = digitalRead(footswitch_pin);
+  led(footswitch_value);
+}
 
-  if (digitalRead(footswitch_pin)) digitalWrite(led_pin, HIGH);
-  else digitalWrite(led_pin, LOW);
-
+void AudioDspDriver::process_toggle() {
+  this->toggle_value = digitalRead(toggle_pin);
 }
 
 
 void AudioDspDriver::process_pushbuttons() {
 
-  if (!digitalRead(pb2_pin)) {
-    // increase `pb_level`
-    if (pb_level<1024) this->pb_level+=4;
+  if (!digitalRead(pb_right_pin)) {
+    // increase when pressing right
+    if (pb_level_value<1024) this->pb_level_value += pb_step;
   }
-  if (!digitalRead(pb1_pin)) {
-    // decrease `pb_level`
-    if (pb_level>0) this->pb_level-=4;
+  if (!digitalRead(pb_left_pin)) {
+    // decrease when pressing left
+    if (pb_level_value>0) this->pb_level_value -= pb_step;
   }
 
+}
+
+
+void AudioDspDriver::led(bool state) {
+  digitalWrite(led_pin, state);
 }
 
 
@@ -160,8 +170,26 @@ void AudioDspDriver::transform() {
   write();
 }
 
+
 void AudioDspDriver::transform(int16_t (*transformer)(int16_t, int)) {
   read();
-  this->current_output = (*transformer)(current_output, pb_level);
+  this->current_output = (*transformer)(current_output, pb_level_value);
   write();
+}
+
+
+void AudioDspDriver::pb_level(int new_level) {
+  this->pb_level_value = new_level;
+}
+
+int AudioDspDriver::pb_level() {
+  return pb_level_value;
+}
+
+bool AudioDspDriver::toggle_state() {
+  return (bool)toggle_value;
+}
+
+bool AudioDspDriver::footswitch_state() {
+  return (bool)footswitch_value;
 }

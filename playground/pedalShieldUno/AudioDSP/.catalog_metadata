@@ -1,0 +1,7 @@
+{
+    "id": "#250", 
+    "name": "pedalShieldUno/AudioDSP", 
+    "description": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
+    "categories": "DSP, Guitar, Arduino", 
+    "relative_path": "playground/pedalShieldUno/AudioDSP"
+}

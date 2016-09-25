@@ -1589,6 +1589,13 @@
         "name": "pedalShieldUno"
     }, 
     {
+        "description": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
+        "relative_path": "playground/pedalShieldUno/AudioDSP", 
+        "id": "#250", 
+        "categories": "DSP, Guitar, Arduino", 
+        "name": "pedalShieldUno/AudioDSP"
+    }, 
+    {
         "description": "generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing", 
         "relative_path": "playground/PlotNValues", 
         "id": "#090", 

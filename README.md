@@ -1,8 +1,6 @@
-# 249 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp) - single-channel 10W guitar practice amplifier based on the TDA2050.
+# 250 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [pedalShieldUno/AudioDSP](./playground/pedalShieldUno/AudioDSP) - test and develop the AudioDSP library for programming the pedalSHIELD Uno.
 
-
-Build and test a genuine pedalSHIELD UNO.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -202,6 +200,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#215 OSHChip/YottaToolchain](./OSHChip/YottaToolchain)                            | **ARM, gcc, yotta, OSHChip**    build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX |
 | [#121 PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [#247 pedalShieldUno](./playground/pedalShieldUno)                                 | **DSP, Guitar, Arduino**        build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal |
+| [#250 pedalShieldUno/AudioDSP](./playground/pedalShieldUno/AudioDSP)               | **DSP, Guitar, Arduino**        test and develop the AudioDSP library for programming the pedalSHIELD Uno |
 | [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |

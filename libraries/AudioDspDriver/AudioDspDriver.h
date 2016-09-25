@@ -7,12 +7,13 @@
 #include <Arduino.h>
 
 #define DEFAULT_LED_PIN (13)
-#define DEFAULT_FOOTSWITCH (12)
-#define DEFAULT_TOGGLE (2)
-#define DEFAULT_PUSHBUTTON_1 (A5) // Left
-#define DEFAULT_PUSHBUTTON_2 (A4) // Right
-#define DEFAULT_PWM_FREQ (0x00FF) // pwm frequency - 31.3KHz
-#define DEFAULT_PWM_MODE (0)      // Fast (1) or Phase Correct (0)
+#define DEFAULT_FOOTSWITCH_PIN (12)
+#define DEFAULT_TOGGLE_PIN (2)
+#define DEFAULT_PUSHBUTTON_LEFT_PIN (A5)
+#define DEFAULT_PUSHBUTTON_RIGHT_PIN (A4)
+#define DEFAULT_PUSHBUTTON_STEP (4)       // level movement for each pb press
+#define DEFAULT_PWM_FREQ (0x00FF)         // pwm frequency - 31.3KHz
+#define DEFAULT_PWM_MODE (0)              // Fast (1) or Phase Correct (0)
 #define DEFAULT_PWM_QTY (2)
 
 
@@ -58,6 +59,16 @@ class AudioDspDriver {
     void process_pushbuttons();
 
     /*
+     * Check the toggle switch state.
+     */
+    void process_toggle();
+
+    /*
+     * Control the LED (on/off)
+     */
+    void led(bool state);
+
+    /*
      * Read ADC value. Sets and returns `current_input`.
      */
     int16_t read();
@@ -86,7 +97,28 @@ class AudioDspDriver {
      */
     void transform(int16_t (*transformer)(int16_t, int));
 
-    volatile int pb_level;
+    /*
+     * Command: set pushbutton level.
+     * pb_level is 0-1024 with midpoint 512
+     */
+    void pb_level(int new_level);
+
+    /*
+     * Return the current pushbutton level.
+     * pb_level is 0-1024 with midpoint 512
+     */
+    int pb_level();
+
+    /*
+     * Return the current toggle switch state.
+     */
+    bool toggle_state();
+
+    /*
+     * Return the current footswitch switch state.
+     */
+    bool footswitch_state();
+
     volatile int16_t current_input;
     volatile int16_t current_output;
 
@@ -95,8 +127,15 @@ class AudioDspDriver {
     int led_pin;
     int footswitch_pin;
     int toggle_pin;
-    int pb1_pin;
-    int pb2_pin;
+    int pb_left_pin;
+    int pb_right_pin;
+
+    int pb_level_value;
+    byte footswitch_value;
+    byte toggle_value;
+
+    byte pb_step;
+
     int pwm_freq;
     int pwm_mode;
     int pwm_qty;
