@@ -143,6 +143,13 @@ To test the circuit properly, I built it on a protoboard as a makeshift "shield"
 * no footswitch
 * input, output, and ground signals are broken out on 3 pin headers
 
+In my first build (and the diagram below) I got the pushbuttons flipped (compared to the standard pedalSHIELD layout).
+
+The correct orientation is:
+
+* Right: SW3, connects to A4
+* Left: SW4, connects to A5
+
 ![AudioDSP_protoboard_layout](./assets/AudioDSP_protoboard_layout.jpg?raw=true)
 
 ![The Build](./assets/AudioDSP_build.jpg?raw=true)

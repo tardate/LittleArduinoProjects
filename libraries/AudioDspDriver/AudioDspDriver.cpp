@@ -121,11 +121,11 @@ void AudioDspDriver::process_footswitch() {
 
 void AudioDspDriver::process_pushbuttons() {
 
-  if (!digitalRead(pb1_pin)) {
+  if (!digitalRead(pb2_pin)) {
     // increase `pb_level`
     if (pb_level<1024) this->pb_level+=4;
   }
-  if (!digitalRead(pb2_pin)) {
+  if (!digitalRead(pb1_pin)) {
     // decrease `pb_level`
     if (pb_level>0) this->pb_level-=4;
   }

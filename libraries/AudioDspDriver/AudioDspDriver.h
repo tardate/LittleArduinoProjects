@@ -9,10 +9,10 @@
 #define DEFAULT_LED_PIN (13)
 #define DEFAULT_FOOTSWITCH (12)
 #define DEFAULT_TOGGLE (2)
-#define DEFAULT_PUSHBUTTON_1 (A5)
-#define DEFAULT_PUSHBUTTON_2 (A4)
+#define DEFAULT_PUSHBUTTON_1 (A5) // Left
+#define DEFAULT_PUSHBUTTON_2 (A4) // Right
 #define DEFAULT_PWM_FREQ (0x00FF) // pwm frequency - 31.3KHz
-#define DEFAULT_PWM_MODE (0) // Fast (1) or Phase Correct (0)
+#define DEFAULT_PWM_MODE (0)      // Fast (1) or Phase Correct (0)
 #define DEFAULT_PWM_QTY (2)
 
 
