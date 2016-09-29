@@ -70,9 +70,9 @@ Styrofoam board can be used for a quick build, but a wooden case will sound slig
 
 Sample oscilloscope trace:
 
-# 12V power
+* 12V power
 * CH1: input (1kHz, 20mV sine)
-* CH2: output
+* CH2: output, minimum gain & tone
 
 ![scope_1khz_20mv](./assets/scope_1khz_20mv.gif?raw=true)
 
