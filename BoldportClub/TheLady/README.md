@@ -45,6 +45,12 @@ All assembled..
 
 ![kit09_onbox](./assets/kit09_onbox.jpg?raw=true)
 
+![kit10_inthewild](./assets/kit10_inthewild.jpg?raw=true)
+
+![kit11_inthewild](./assets/kit11_inthewild.jpg?raw=true)
+
+![kit12_inthewild](./assets/kit12_inthewild.jpg?raw=true)
+
 
 ## Construction
 
