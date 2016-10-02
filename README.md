@@ -1,5 +1,5 @@
-# 250 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [pedalShieldUno/AudioDSP](./playground/pedalShieldUno/AudioDSP) - test and develop the AudioDSP library for programming the pedalSHIELD Uno.
+# 251 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/TheLady](./BoldportClub/TheLady) - A ladybird soldering and display kit from The Boldport Club (Project #4).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -84,6 +84,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
+| [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
 | [#211 BuckConverterModules](./Electronics101/BuckConverterModules)                 | **Power**                       test a range of low-cost buck converter modules, often using LM2596 |

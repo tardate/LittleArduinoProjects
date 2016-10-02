@@ -1,5 +1,12 @@
 [
     {
+        "description": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
+        "relative_path": "BoldportClub/TheLady", 
+        "id": "#251", 
+        "categories": "Boldport, PCB Design", 
+        "name": "BoldportClub/TheLady"
+    }, 
+    {
         "description": "widely-adjustable square wave generator using the 555 timer", 
         "relative_path": "Electronics101/555Timer/AdjustablePulseGenerator", 
         "id": "#184", 
