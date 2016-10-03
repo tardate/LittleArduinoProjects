@@ -5,7 +5,7 @@ to display the status of each project.
 
 Full details of the project are available at [fretboard.tardate.com](http://fretboard.tardate.com)
 
-[![The Build](./assets/FretBoard_build.png?raw=true)](http://fretboard.tardate.com)
+[![Build](./assets/FretBoard_build.jpg?raw=true)](http://fretboard.tardate.com)
 
 Done:
 
