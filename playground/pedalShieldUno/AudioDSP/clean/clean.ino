@@ -3,7 +3,7 @@
   pedalShieldUno/AudioDSP/clean
   Alternate implementation of the pedalshield_uno_clean effect.
 
-  - reads the ADC and plays it back into the PWM output
+  - reads the ADC and plays it back into the PWM output.
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/clean
 

@@ -3,6 +3,9 @@
   pedalShieldUno/AudioDSP/distortion
   Alternate implementation of the pedalshield_uno_distortion effect.
 
+  - reads the ADC signal and clip it to a threshold value.
+  - pressing the pushbutton_1 or 2 turns the distortion harder or softer.
+
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/distortion
 
  */
@@ -26,7 +29,6 @@ void loop() {
 /* transformer
  * the input signal is 16 bit signed (values from -32768 to +32767, INT16_MIN to INT16_MAX)
  * pb_level is 0-1024 with midpoint 512
- * the output/transformed value is clipped to the |pb_level| value
  */
 int16_t transformer(int16_t input, int pb_level) {
 

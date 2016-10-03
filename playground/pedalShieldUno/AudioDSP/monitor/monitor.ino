@@ -3,8 +3,8 @@
   pedalShieldUno/AudioDSP/monitor
   Alternate implementation of the pedalshield_uno_monitor effect.
 
-  - reads the ADC and plays it back into the PWM output
-  - logs settings to serial port
+  - reads the ADC and plays it back into the PWM output.
+  - logs settings to serial port.
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/monitor
 

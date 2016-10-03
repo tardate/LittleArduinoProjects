@@ -3,6 +3,9 @@
   pedalShieldUno/AudioDSP/fuzz
   Alternate implementation of the pedalshield_uno_fuzz effect.
 
+  - reads the ADC signal and boost it to the max or min value depending on a threshold value.
+  - pressing the pushbutton_1 or 2 turns the fuzz distortion harder or softer.
+
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/fuzz
 
  */
@@ -26,7 +29,6 @@ void loop() {
 /* transformer
  * the input signal is 16 bit signed (values from -32768 to +32767, INT16_MIN to INT16_MAX)
  * pb_level is 0-1024 with midpoint 512
- * the output/transformed value is clipped to the |pb_level| value
  */
 int16_t transformer(int16_t input, int pb_level) {
 

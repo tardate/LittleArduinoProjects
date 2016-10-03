@@ -3,8 +3,8 @@
   pedalShieldUno/AudioDSP/bit_crusher
   Alternate implementation of the pedalshield_uno_bit_crusher effect.
 
-  - reads the ADC and shift the bits creating a high distorted sound
-  - pressing the pushbutton_1 or 2 turns the bit shift harder or softer..
+  - reads the ADC and shift the bits creating a high distorted sound.
+  - pressing the pushbutton_1 or 2 turns the bit shift harder or softer.
 
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/bit_crusher
 
