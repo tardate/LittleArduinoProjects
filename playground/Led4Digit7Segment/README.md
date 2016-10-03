@@ -2,7 +2,7 @@
 
 Driving a 4-digit 7-segment display, various ways...
 
-![SingleShift Build](./SingleShift/assets/SingleShift_build_with_drama.jpg?raw=true)
+![Build](./assets/Led4Digit7Segment_build.jpg?raw=true)
 
 ## Notes
 
