@@ -64,55 +64,80 @@ Quick test of the standard examples ..
 
 #### pedalshield_uno_bit_crusher
 
-Harder than pedalshield_uno_distortion but not as extreme as pedalshield_uno_fuzz.
+This effect boosts the signal into overdrive (level determined by the pushbuttons).
 
 ![scope](./assets/scope_bit_crusher.gif?raw=true)
 
+
 #### pedalshield_uno_booster
 
-Simple volume boost.
+A simple volume boost (level determined by the pushbuttons).
 
 ![scope](./assets/scope_booster.gif?raw=true)
+
 
 #### pedalshield_uno_clean
 
 As you would expect: signal in, signal out. With a bit of high frequency noise..
 
+
 #### pedalshield_uno_daft_punk_octaver
+
+Effectively downsamples the input (level determined by the pushbuttons).
 
 Trick effect. Solo not so nice - takes too much character out of the sound.
 
 ![scope](./assets/scope_daft_punk_octaver.gif?raw=true)
 
+
 #### pedalshield_uno_delay
+
+Mixes a delayed signal with the input (delay depth determined by the pushbuttons).
 
 Not so much delay, more like a bit of reverb?
 
 ![scope](./assets/scope_delay.gif?raw=true)
 
+
 #### pedalshield_uno_distortion
 
+Performs an asymmetrical clipping (top-side) to a level determined by the pushbuttons.
 Bluesy warm distortion..
 
 ![scope](./assets/scope_distortion.gif?raw=true)
 
+
 #### pedalshield_uno_fuzz
+
+Performs a symmetrical clipping and boost to a level determined by the pushbuttons -
+signals above the threshold are thrown to the upper/lower rail.
 
 Nice fuzz, full-on distortion. It does have a harsh cut-off at lower volumes,
 so palm muting doesn't work so well. Good for djenting!
 
 ![scope](./assets/scope_fuzz.gif?raw=true)
 
+
 #### pedalshield_uno_metronome
-tbd
+
+Generates a metronome tone, at a frequency determined by the pushbuttons.
+
 
 #### pedalshield_uno_monitor
-tbd
+
+Performs a clean transform of the guitar signal, and logs the settings to the serial port.
+
+Since the serial logging is performed within the interrupt routine, the signal transform is severely disrupted.
+
 
 #### pedalshield_uno_signal_generator
-tbd
+
+Generates a tone described in a provided dataset.
+
 
 #### pedalshield_uno_tremolo
+
+Modulates the signal volume at a speed governed by the pushbutton setting.
 
 Great effect. The scope trace doesn't tell the story though .. it swells the volume.
 
@@ -131,3 +156,4 @@ Great effect. The scope trace doesn't tell the story though .. it swells the vol
 * [pedalSHIELD UNO](http://www.electrosmash.com/pedalshield-uno) - main page
 * [pedalSHIELD UNO Schematic](http://www.electrosmash.com/media/kunena/attachments/631/pedalSHIELD_UNO-Schematics.pdf)
 * [How to start programming pedalSHIELD UNO](http://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno)
+* [The Arduino Guitar Pedal](http://www.instructables.com/id/Arduino-Guitar-Pedal/) - another pedal proejct
