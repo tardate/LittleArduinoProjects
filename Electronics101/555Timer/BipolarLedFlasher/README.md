@@ -16,6 +16,10 @@ But due to the 220Ω + 220Ω bridge across the power supply, it drew over 20mA.
 By replacing the bipolar LED with two LEDs, and spliting the in & out paths, the effect is the same,
 but current draw is 25% less (~15mA).
 
+### Circuit Modifications
+
+* replaced the RC timer circuit with 1µF & 220kΩ. This slows the flashing (was a little fast) and means I can use small SMD ceramic capacitor instead of an electrolytic package.
+* tap the green LED with 1kΩ, to even the apparent brightness of the red and green LEDs.
 
 ## Construction
 
