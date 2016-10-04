@@ -1,0 +1,7 @@
+{
+    "id": "#252", 
+    "name": "BipolarLedFlasher", 
+    "description": "two-LED flasher with a 555 and minimal components", 
+    "categories": "LED, 555 Timer", 
+    "relative_path": "Electronics101/555Timer/BipolarLedFlasher"
+}

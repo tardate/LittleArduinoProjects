@@ -1,6 +1,8 @@
-# 251 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/TheLady](./BoldportClub/TheLady) - A ladybird soldering and display kit from The Boldport Club (Project #4).
+# 252 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BipolarLedFlasher](./Electronics101/555Timer/BipolarLedFlasher) - two-LED flasher with a 555 and minimal components.
 
+
+Two-LED flasher with a 555 and minimal components
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -76,7 +78,8 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
-| [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                    test a bi-directional 5/3.3V level shifter module |
+| [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
+| [#252 BipolarLedFlasher](./Electronics101/555Timer/BipolarLedFlasher)              | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components |
 | [#093 BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |
 | [#094 BJTLongTailPair](./Electronics101/BJTLongTailPair)                           | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [#138 BJTMonostable](./Electronics101/BJTMonostable)                               | **BJT, RC**                     test a 2-transistor monostable multivibrator |
