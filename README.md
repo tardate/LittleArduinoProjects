@@ -1,5 +1,5 @@
 # 252 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BipolarLedFlasher](./Electronics101/555Timer/BipolarLedFlasher) - two-LED flasher with a 555 and minimal components.
+> Latest addition:sparkles: [MessageWaiting](./Electronics101/555Timer/MessageWaiting) - two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction.
 
 
 Two-LED flasher with a 555 and minimal components
@@ -79,7 +79,6 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
-| [#252 BipolarLedFlasher](./Electronics101/555Timer/BipolarLedFlasher)              | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components |
 | [#093 BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |
 | [#094 BJTLongTailPair](./Electronics101/BJTLongTailPair)                           | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [#138 BJTMonostable](./Electronics101/BJTMonostable)                               | **BJT, RC**                     test a 2-transistor monostable multivibrator |
@@ -174,6 +173,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
+| [#252 MessageWaiting](./Electronics101/555Timer/MessageWaiting)                    | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction |
 | [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
 | [#150 ML741](./Electronics101/ML741)                                               | **OpAmp**                       an LM741-style OpAmp built with discrete components |
 | [#151 ML741/Comparator](./Electronics101/ML741/Comparator)                         | **OpAmp**                       test a comparator circuit with the ML741 discrete component opamp |

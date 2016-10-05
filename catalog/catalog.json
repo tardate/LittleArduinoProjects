@@ -28,13 +28,6 @@
         "name": "Square Wave - 555"
     }, 
     {
-        "description": "two-LED flasher with a 555 and minimal components", 
-        "relative_path": "Electronics101/555Timer/BipolarLedFlasher", 
-        "id": "#252", 
-        "categories": "LED, 555 Timer", 
-        "name": "BipolarLedFlasher"
-    }, 
-    {
         "description": "a 555/4017-based dice circuit with slow-down and auto power-off", 
         "relative_path": "Electronics101/555Timer/Dice", 
         "id": "#229", 
@@ -61,6 +54,13 @@
         "id": "#227", 
         "categories": "555 Timer, CMOS, LED", 
         "name": "KnightRider"
+    }, 
+    {
+        "description": "two-LED flasher with a 555 and minimal components - turned into a \"message waiting\" indicator with some free-wired SMD construction", 
+        "relative_path": "Electronics101/555Timer/MessageWaiting", 
+        "id": "#252", 
+        "categories": "LED, 555 Timer", 
+        "name": "MessageWaiting"
     }, 
     {
         "description": "basic monostable mode using an Arduino and processing to plot the output", 
