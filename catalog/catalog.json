@@ -1190,6 +1190,13 @@
         "name": "ATtinyHardwareInterrupt"
     }, 
     {
+        "description": "a custom ATtiny programming shield for Arduino ISP", 
+        "relative_path": "playground/ATtinyProgrammingShield", 
+        "id": "#253", 
+        "categories": "Arduino, ATmel", 
+        "name": "ATtinyProgrammingShield"
+    }, 
+    {
         "description": "test sleep mode with an ATtiny85 processor on a breadboard", 
         "relative_path": "playground/ATtinySleep", 
         "id": "#127", 
@@ -1251,6 +1258,13 @@
         "id": "#217", 
         "categories": "Power, Arduino", 
         "name": "BasicBuckAvrControl"
+    }, 
+    {
+        "description": "enter description", 
+        "relative_path": "playground/BasicBuckBoostAvrControl", 
+        "id": "#xxx", 
+        "categories": "", 
+        "name": "BasicBuckBoostAvrControl"
     }, 
     {
         "description": "simple LCD test", 

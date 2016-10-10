@@ -60,12 +60,14 @@ Crickey, it works.
 
 ![The Schematic](./assets/ATtinyWithArduinoISP_schematic.jpg?raw=true)
 
-![The Build](./assets/ATtinyWithArduinoISP_build.jpg?raw=true)
+![Build](./assets/ATtinyWithArduinoISP_build.jpg?raw=true)
 
-NB: in the picture, pins 5 and 6 are wired LEDs. These are for a test scketch and not required for programming
+NB: in the breadboard, pins 5 and 6 are wired LEDs. These are for a test scketch and not required for programming
 (but neither do they interfere with buring the bootloader and uploading a sketch).
 
 ## Credits and References
+* LEAP: [TinyBlink](../TinyBlink) - a simple ATtiny test sketch
+* LEAP: [ATtinyProgrammingShield](../ATtinyProgrammingShield) - a programming shield version of this project
 * [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)
 * [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)

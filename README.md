@@ -1,5 +1,5 @@
-# 252 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [MessageWaiting](./Electronics101/555Timer/MessageWaiting) - two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction.
+# 253 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ATtinyProgrammingShield](./playground/ATtinyProgrammingShield) - a custom ATtiny programming shield for Arduino ISP.
 
 
 Two-LED flasher with a 555 and minimal components
@@ -67,6 +67,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel**              Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
 | [#126 ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt)               | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
 | [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel**              Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
+| [#253 ATtinyProgrammingShield](./playground/ATtinyProgrammingShield)               | **Arduino, ATmel**              a custom ATtiny programming shield for Arduino ISP |
 | [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
