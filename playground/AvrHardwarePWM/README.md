@@ -1,6 +1,6 @@
 # #254 AvrHardwarePWM
 
-All about hardware PWM with the Arduino UNO/ATmega328
+All about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.
 
 ![Build](./assets/AvrHardwarePWM_build.jpg?raw=true)
 
@@ -17,10 +17,12 @@ Atmel datasheet.
 Although the concepts are general to the AVR processors, the details here and the example sketch
 are specific to the Arduino UNO/ATmega328 and may require modification to work with other processors.
 
+See the [AvrHardwarePWM/ATtiny](./ATtiny) project for a similar treatment, specifically for the ATtiny85 processor.
+
 ### Example Sketch
 
 [ATmega.ino](./ATmega/ATmega.ino) exercises the PWM modes, primarily so they can be captured
-with an oscilloscope. The bush-button attached to pin 8 is used to cycle through a few demonstration modes:
+with an oscilloscope. The push-button attached to pin 8 is used to cycle through a few demonstration modes:
 
 * Mode 0a: Timer0, Fast PWM 977Hz
 * Mode 1a: Timer1, Fast PWM 10-bit 1955Hz
@@ -277,6 +279,7 @@ OCR2B  : 10111111
 ![AvrHardwarePWM_breadboard](./assets/AvrHardwarePWM_breadboard.jpg?raw=true)
 
 ## Credits and References
+* LEAP: [AvrHardwarePWM/ATtiny](./ATtiny) project for a similar treatment, specifically for the ATtiny85 processor
 * [analogWrite](https://www.arduino.cc/en/Reference/analogWrite)
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)

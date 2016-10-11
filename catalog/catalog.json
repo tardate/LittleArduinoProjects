@@ -1256,8 +1256,15 @@
         "description": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
         "relative_path": "playground/AvrHardwarePWM", 
         "id": "#254", 
-        "categories": "ATmega, Arduino, PWM", 
+        "categories": "ATmega, ATmel, Arduino, PWM", 
         "name": "AvrHardwarePWM"
+    }, 
+    {
+        "description": "all about hardware PWM and demonstrating the modes with the ATtiny85", 
+        "relative_path": "playground/AvrHardwarePWM/ATtiny", 
+        "id": "#255", 
+        "categories": "ATtiny, ATmel, Arduino, PWM", 
+        "name": "AvrHardwarePWM/ATtiny"
     }, 
     {
         "description": "a simple buck converter circuit from first principles", 

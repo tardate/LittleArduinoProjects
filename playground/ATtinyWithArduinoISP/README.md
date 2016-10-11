@@ -54,6 +54,41 @@ I'm testing with [TinyBlink](../TinyBlink) which runs LEDs on digital pins 0 and
 
 Crickey, it works.
 
+
+### How Fast is the Clock?
+
+The ATtiny85 can use an external clock, but by default it uses an internal oscillator.
+The internal oscillator runs at 8 MHz, prescaled down to 1 MHz by default.
+
+The clock settings are in the fuses. I used avrdude to read the settings:
+
+```
+$ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U lfuse:r:-:i
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.05s
+
+avrdude: Device signature = 0x1e930b (probably t85)
+avrdude: reading lfuse memory:
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude: writing output file "<stdout>"
+:01000000629D
+:00000001FF
+
+avrdude: safemode: Fuses OK (E:FF, H:DF, L:62)
+
+avrdude done.  Thank you.
+```
+
+The [engbedded fusecalc](http://www.engbedded.com/fusecalc) site is invaluable for decoding or calculating fuses values.
+
+It confirms that E:FF, H:DF, L:62 are factory defaults: 8 MHz internal oscillator with CKDIV8 prescaler: so it is running at 1 MHz.
+
+
+
 ### Construction
 
 ![The Breadboard](./assets/ATtinyWithArduinoISP_bb.jpg?raw=true)
@@ -72,3 +107,4 @@ NB: in the breadboard, pins 5 and 6 are wired LEDs. These are for a test scketch
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)
 * [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)
 * [Programming an ATtiny with Arduino ISP](http://scuola.arduino.cc/lesson/qX1117g/Programming_an_ATtiny_with_Arduino_ISP)
+* [engbedded fusecalc](http://www.engbedded.com/fusecalc)
