@@ -1,0 +1,7 @@
+{
+    "id": "#254", 
+    "name": "AvrHardwarePWM", 
+    "description": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
+    "categories": "ATmega, Arduino, PWM", 
+    "relative_path": "playground/AvrHardwarePWM"
+}

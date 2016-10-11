@@ -1253,18 +1253,18 @@
         "name": "AudioDSP/SuperCrunch"
     }, 
     {
+        "description": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
+        "relative_path": "playground/AvrHardwarePWM", 
+        "id": "#254", 
+        "categories": "ATmega, Arduino, PWM", 
+        "name": "AvrHardwarePWM"
+    }, 
+    {
         "description": "a simple buck converter circuit from first principles", 
         "relative_path": "playground/BasicBuckAvrControl", 
         "id": "#217", 
         "categories": "Power, Arduino", 
         "name": "BasicBuckAvrControl"
-    }, 
-    {
-        "description": "enter description", 
-        "relative_path": "playground/BasicBuckBoostAvrControl", 
-        "id": "#xxx", 
-        "categories": "", 
-        "name": "BasicBuckBoostAvrControl"
     }, 
     {
         "description": "simple LCD test", 

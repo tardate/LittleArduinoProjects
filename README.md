@@ -1,6 +1,8 @@
-# 253 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ATtinyProgrammingShield](./playground/ATtinyProgrammingShield) - a custom ATtiny programming shield for Arduino ISP.
+# 254 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AvrHardwarePWM](./playground/AvrHardwarePWM) - all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.
 
+
+All about hardware PWM with the Arduino UNO/ATmega328
 
 Two-LED flasher with a 555 and minimal components
 
@@ -77,6 +79,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#237 AudioDSP/Distortion](./playground/AudioDSP/Distortion)                       | **Audio, Arduino, DSP, OpAmp**  arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash |
 | [#239 AudioDSP/SuperCrunch](./playground/AudioDSP/SuperCrunch)                     | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
+| [#254 AvrHardwarePWM](./playground/AvrHardwarePWM)                                 | **ATmega, Arduino, PWM**        all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328 |
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
