@@ -2,10 +2,6 @@
 > Latest addition:sparkles: [AvrHardwarePWM](./playground/AvrHardwarePWM) - all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.
 
 
-All about hardware PWM with the Arduino UNO/ATmega328
-
-Two-LED flasher with a 555 and minimal components
-
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
 [The FretBoard](./FretBoard) (a multi-project build status indicator),
