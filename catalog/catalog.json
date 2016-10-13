@@ -1,5 +1,12 @@
 [
     {
+        "description": "a Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1)", 
+        "relative_path": "BoldportClub/Pease", 
+        "id": "#256", 
+        "categories": "Boldport, PCB Design, LM331", 
+        "name": "BoldportClub/Pease"
+    }, 
+    {
         "description": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
         "relative_path": "BoldportClub/TheLady", 
         "id": "#251", 
