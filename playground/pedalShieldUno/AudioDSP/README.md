@@ -123,11 +123,8 @@ Performs a clean transform of the guitar signal, and logs the settings to the se
 The implementation here varies from the pedalSHIELD example, in the logging to serial is not done inside the interrupt routine.
 this ensures that the guitar sounds gets through to the interrupt, but at the expense of not logging every sample.
 
-pedalSHIELD UNO example:
-![monitor_psu](./assets/monitor_psu.gif?raw=true)
-
 AudioDSP version:
-![monitor_adsp](./assets/monitor_adsp.gif?raw=true)
+![monitor_adsp](./assets/monitor_adsp.png?raw=true)
 
 
 ### signal_generator
