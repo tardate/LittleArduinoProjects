@@ -2,7 +2,7 @@
 
 A Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1).
 
-![Build](./assets/Pease_build.jpg?raw=true)
+[![Build](./assets/Pease_build.jpg?raw=true)](http://www.youtube.com/watch?v=-JQLJ-RI_1A)
 
 ## Notes
 
