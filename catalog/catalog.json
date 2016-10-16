@@ -1,5 +1,12 @@
 [
     {
+        "description": "pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)", 
+        "relative_path": "BoldportClub/Emergency", 
+        "id": "#257", 
+        "categories": "Boldport, PCB Design, Oscillators", 
+        "name": "BoldportClub/Emergency"
+    }, 
+    {
         "description": "a Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1)", 
         "relative_path": "BoldportClub/Pease", 
         "id": "#256", 

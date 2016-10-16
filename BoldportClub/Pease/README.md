@@ -134,3 +134,4 @@ Frequency reduced to ~4 Hz, and duty cycle over 50%..
 * [Pease](http://www.boldport.com/products/pease-second-edition/) - project page
 * [Pease](https://github.com/boldport/pease-2ed) - OSH files on GitHub
 * ["Just Less the Perfect"](http://www.boldport.club/shop/product/437169103) - where you can still obtain the Pease board
+* [Bob Pease](https://en.wikipedia.org/wiki/Bob_Pease) - wikipedia

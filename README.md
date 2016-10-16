@@ -1,5 +1,5 @@
-# 256 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/Pease](./BoldportClub/Pease) - a Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1).
+# 257 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/Emergency](./BoldportClub/Emergency) - pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -87,6 +87,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
+| [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators**  pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
