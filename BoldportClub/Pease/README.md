@@ -95,13 +95,13 @@ for roughly "light" and "dark" situations.
 
 #### Bright Light - Original R/C components
 
-High frequency 175kHz, and barely any on-time; duty cycle ~1%
+High frequency 175kHz; duty cycle ~40%
 
 ![scope_original_light](./assets/scope_original_light.gif?raw=true)
 
 #### In Darkness - Original R/C components
 
-Frequency reduced to ~ 30kHz, but duty cycle over 80%..
+Frequency reduced to ~ 30kHz, and duty cycle over 80%..
 
 ![scope_original_dark](./assets/scope_original_dark.gif?raw=true)
 
