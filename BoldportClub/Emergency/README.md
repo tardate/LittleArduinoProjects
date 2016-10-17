@@ -16,7 +16,7 @@ As originally intended, it is a kit with a few components and a nice travel case
 
 With all the components soldered into the (of course beautiful) PCB, it works as a battery/continuity tester (the LED lights up if you apply voltage)
 
-![Emergency_board_front](./assets/Pease_board_front.jpg?raw=true)
+![Emergency_board_front](./assets/Emergency_board_front.jpg?raw=true)
 
 ![Emergency_board_rear](./assets/Emergency_board_rear.jpg?raw=true)
 
@@ -27,14 +27,14 @@ Since I'm working from scratch (PCB only - not the full kit), there's an obvious
 
 @mehradzie asked on [Boldport Slack](https://boldportclub.slack.com) if it is possible to make it blink. Challenge accepted!
 
-I was actually thinking along similar lines, but at first using a blinking "joule theif" circuit. But I just couldn't figure
+I was actually thinking along similar lines, but at first using a blinking "joule thief" circuit. But I just couldn't figure
 how to get it to work within the constraints of the PCB.
 
 So then I turned to an interesting idea: Negative Differential Resistance (NDR) effect or Esaki Effect. Basically causing an
 Emitter-Collector avalanche, a behaviour noted by Leo Esaki and exploited by many since to create interesting effects with
 BJTs.
 
-Afte ra bit of experimentation, I was able to get something to work with only a few liberties taken with the original PCB:
+After a bit of experimentation, I was able to get something to work with only a few liberties taken with the original PCB:
 
 * I had to accommodate larger capacitor. Anything over ~100µF is workable, but best effects achieved with 330µF electrolytic. I selected the smallest package I could find, but it is still a bit of a squeeze to fit it in where the capacitor should be.
 * an NPN BJT replaces the n-channel MOSFET. I'm using an S9013
@@ -56,7 +56,7 @@ The revised circuit essentially works like this:
 Here is a scope capture from a breadboard build/test:
 
 * CH1 (yellow; AC-coupled): capacitor voltage
-* CH2 (blue; AC-coupled): emmitter voltage
+* CH2 (blue; AC-coupled): emitter voltage
 
 ![scope](./assets/scope.gif?raw=true)
 
@@ -71,7 +71,7 @@ Testing on a breadboard:
 
 ![Emergency_breadboard](./assets/Emergency_breadboard.jpg?raw=true)
 
-final layout and component selection. Build complete:
+Final layout and component selection. Build complete:
 
 ![Emergency_layout](./assets/Emergency_layout.jpg?raw=true)
 
