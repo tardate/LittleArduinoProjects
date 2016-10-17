@@ -37,8 +37,8 @@ BJTs.
 After a bit of experimentation, I was able to get something to work with only a few liberties taken with the original PCB:
 
 * I had to accommodate larger capacitor. Anything over ~100µF is workable, but best effects achieved with 330µF electrolytic. I selected the smallest package I could find, but it is still a bit of a squeeze to fit it in where the capacitor should be.
-* an NPN BJT replaces the n-channel MOSFET. I'm using an S9013
-* one extra resistor, using an existing slot in the PCB
+* an NPN BJT replaces the n-channel MOSFET. I'm using an S9013. Note: yes, this is in "backwards" (emitter to +ve, collector to -ve)
+* moved one resistor to make wiring easier
 * cut and rewired a few traces
 
 Transistor selection is crucial, as the blinking effect is really exploiting a "defect" in the transistor.
@@ -48,7 +48,7 @@ I went with the S9013 because I could excite the effect conveniently around 9V.
 The revised circuit essentially works like this:
 
 * battery charges the capacitor
-* over a certain voltage, the emmitter-collector junction experiences an avalanche and inrush of current from the capacitor
+* over a certain voltage, the emitter-collector junction experiences an avalanche and inrush of current from the capacitor
 * the LED turns on
 * as the capacitor discharges, the avalanche breaks down and the transistor junction closes
 * repeat...
@@ -56,7 +56,7 @@ The revised circuit essentially works like this:
 Here is a scope capture from a breadboard build/test:
 
 * CH1 (yellow; AC-coupled): capacitor voltage
-* CH2 (blue; AC-coupled): emitter voltage
+* CH2 (blue; AC-coupled): collector (LED anode) voltage
 
 ![scope](./assets/scope.gif?raw=true)
 
