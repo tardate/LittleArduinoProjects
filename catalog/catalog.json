@@ -318,8 +318,15 @@
         "description": "build and analyse a simple clap switch circuit available as a kit", 
         "relative_path": "Electronics101/ClapSwitchKit", 
         "id": "#170", 
-        "categories": "Logic Gates, BJT", 
+        "categories": "Oscillators, BJT, Logic Gates", 
         "name": "ClapSwitchKit"
+    }, 
+    {
+        "description": "practice some Boldport-style soldering on yet-another clap switch kit", 
+        "relative_path": "Electronics101/ClapSwitchKit2", 
+        "id": "#258", 
+        "categories": "Oscillators, BJT, Logic Gates", 
+        "name": "ClapSwitchKit2"
     }, 
     {
         "description": "use a CD4096 to generate an oscillating waveform and plot the results", 
