@@ -2,7 +2,7 @@
 
 Practice some Boldport-style soldering on yet-another clap switch kit.
 
-![Build](./assets/ClapSwitchKit2_build.jpg?raw=true)
+![ClapSwitchKit2_build_top](./assets/ClapSwitchKit2_build_top.jpg?raw=true)
 
 ## Notes
 
@@ -100,7 +100,7 @@ Here is the first pass. Electrically/mechanically sound but not really perfect "
 * a few meringue tips
 * dull (see above) but brightened up with a bit of buffing
 
-![solder_eval](./assets/solder_eval.jpg?raw=true)
+![ClapSwitchKit2_build](./assets/ClapSwitchKit2_build.jpg?raw=true)
 
 ### Circuit Performance
 
@@ -122,7 +122,7 @@ The board under test...
 
 ![Schematic](./assets/ClapSwitchKit2_schematic.jpg?raw=true)
 
-![Build](./assets/ClapSwitchKit2_build.jpg?raw=true)
+![ClapSwitchKit2_build_top](./assets/ClapSwitchKit2_build_top.jpg?raw=true)
 
 ## Credits and References
 * [The clap switch](https://www.aliexpress.com/item/Voice-control-switch-suite-DIY-kits-selling-electronic-circuit/32338281477.html) - from a seller on aliexpress
