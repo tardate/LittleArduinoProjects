@@ -1,6 +1,6 @@
 # #260 SaleaeLogic
 
-Check out a second-hand Saleae Logic (a 24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!).
+Checking out a second-hand Saleae Logic (a 24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!).
 
 ![Build](./assets/SaleaeLogic_build.jpg?raw=true)
 
