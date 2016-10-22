@@ -1,6 +1,6 @@
 # #256 Pease
 
-A Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1).
+A Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1).
 
 Here's a quick demo video to show it works..
 
@@ -40,7 +40,7 @@ Since I was kit-less, I decided to experiment a bit. Firstly, I'm using a 20kΩ 
 a phototransistor. Secondly, after testing the original circuit on a breadboard, I decided to slow down the frequency.
 
 * the original runs at hundreds of kHz, so acts like a PWM LED dimmer
-* I pulled the operating frequncy down to 4-10 Hz, so it visibly blinks
+* I pulled the operating frequency down to 4-10 Hz, so it visibly blinks
 
 The end result is a light/voltage controlled "blinky". Depending on the potentiometer trim, it will:
 

@@ -7,7 +7,7 @@
         "name": "BoldportClub/Emergency"
     }, 
     {
-        "description": "a Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1)", 
+        "description": "a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1)", 
         "relative_path": "BoldportClub/Pease", 
         "id": "#256", 
         "categories": "Boldport, PCB Design, LM331", 

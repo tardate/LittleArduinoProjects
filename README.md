@@ -88,7 +88,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators**  pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
-| [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequncy kit from The Boldport Club (Project #1) |
+| [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |

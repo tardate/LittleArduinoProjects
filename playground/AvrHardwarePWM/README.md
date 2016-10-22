@@ -67,7 +67,7 @@ Summary of the TCCR registers:
 In the ATMega328P there are three timers that can be used to generate PWM signals:
 
 * Timer 0 is an 8-bit timer. But it is used for functions such as delay() and millis() - these will be affected if PWM frequency is changed.
-* Timer 1 is a 16-bit timer; higher-precision duty cycle, but frequncy is limited.
+* Timer 1 is a 16-bit timer; higher-precision duty cycle, but frequency is limited.
 * Timer 2 is an 8-bit timer, and generally unencumbered (ready to use!)
 
 

@@ -39,8 +39,8 @@ Since the load is part of the circuit, actual output voltage performance is a fu
 ### PWM Generation
 
 An Arduino is used to generate the switching signal using PWM output.
-The standard PWM freuqncy on a 16MHz core is 488 Hz, which is too low to achieve anything like a smooth output voltage.
-The [PwmFrequency](http://playground.arduino.cc/Code/PwmFrequency) function is used to help set the PWM frequncy scalars.
+The standard PWM frequency on a 16MHz core is 488 Hz, which is too low to achieve anything like a smooth output voltage.
+The [PwmFrequency](http://playground.arduino.cc/Code/PwmFrequency) function is used to help set the PWM frequency scalars.
 
 I'm using pin 9 for PWM output, at the highest possible frequency of 31250 Hz. I chose pin 9 as it uses timer1,
 so avoids conflicts with standard timer functions (I'm using FlexiTimer2 in this sketch).
