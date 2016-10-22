@@ -371,6 +371,13 @@
         "name": "DarlingtonTouchSwitch"
     }, 
     {
+        "description": "control the M62429 dual channel volume control with an Arduino", 
+        "relative_path": "Electronics101/DigitalPots/M62429", 
+        "id": "#259", 
+        "categories": "Arduino, Digital Pot, M62429", 
+        "name": "DigitalPots/M62429"
+    }, 
+    {
         "description": "test the basic diode-logic AND gate", 
         "relative_path": "Electronics101/DiodeLogic/AND", 
         "id": "#110", 

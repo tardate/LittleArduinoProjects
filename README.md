@@ -1,6 +1,5 @@
-# 258 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ClapSwitchKit2](./Electronics101/ClapSwitchKit2) - practice some Boldport-style soldering on yet-another clap switch kit.
-
+# 259 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DigitalPots/M62429](./Electronics101/DigitalPots/M62429) - control the M62429 dual channel volume control with an Arduino.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -109,6 +108,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
+| [#259 DigitalPots/M62429](./Electronics101/DigitalPots/M62429)                     | **Arduino, Digital Pot, M62429** control the M62429 dual channel volume control with an Arduino |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |
