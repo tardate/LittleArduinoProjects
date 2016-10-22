@@ -59,13 +59,34 @@ the standard Wire or SPI libraries. time for some bit-banging!
 
 ### Performance
 
-The [M62429](./M62429.ino) sketch is a simple exercise of the chip.
+The [M62429.ino](./M62429.ino) sketch is a simple exercise of the chip.
 
 * input for both channels is AC-coupled 1kHz sine wave
 * left channel is set to max volume
 * right channel volume is stepped up through all gradations
 
-The scope trace tells the story:
+Here is a capture of two frames of clock/data output from the Arduino, captured with a logic analyzer:
+
+![la_capture](./assets/la_capture.png?raw=true)
+
+The first sequence reads: `11011101011` + latch (data high on falling clock). That breaks down as:
+* `11` 2CH, channel at a time
+* `01110` ATT1: -28dB
+* `10` ATT2: -2dB
+* `11` end bits
+* i.e. set channel 2 to -30dB
+
+The first sequence reads: `11011100111` + latc:
+* `11` 2CH, channel at a time
+* `01110` ATT1: -28dB
+* `01` ATT2: -1dB
+* `11` end bits
+* i.e. set channel 2 to -29dB
+
+Yes, that's as expected - the script is sequencing through level settings on channel 2.
+
+
+The scope trace tells the story of what is happening on the left and right channel outputs:
 
 * CH1 (yellow) is DC-coupled left channel
 * CH2 (blue) is the AC-coupled right-channel
