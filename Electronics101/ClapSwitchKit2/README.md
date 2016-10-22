@@ -92,6 +92,32 @@ It seems pretty clear that it is oxidizing at the phase-change from liquid to so
 
 ... except elbow grease;-) Turns out that with a bit of polish (using solder-station copper wool), I get some of the shine back.
 
+So after a bit more research, I am suspecting the dullness created during the phase change from liquid to solid
+is due to the eutectic property of 63Sn/37Pb. As you can see in the phase diagram below, 63/37 is the alloy
+with almost perfect eutectic properties (meaning it goes straight from liquid to solid without passing an intermediate plastic phase).
+
+[![phasediagram](http://www.inlandcraft.com/uguides/ug_images/tip-care/phasediagram.jpg)](http://www.inlandcraft.com/uguides/tipfailure.htm)
+
+### REALLY Shiny Domes
+
+Since everything I tried so far hadn't made much difference (temperature, technique, aircon),
+the only thing left to try is different solder.
+
+So I got hold of some [Pro'sKit 9S002 Solder](https://www.aliexpress.com/item/Pro-sKit-9S002-Solder-Wire-W-2-AG-17G/32428346399.html) (62% Sn, 37% Pb, 2% Ag) ... and the difference is amazing:
+
+* it creates "domes" with hardly any effort
+* and they are all nice and shiny
+
+Here's a side-by-side comparison using the same iron and tip, and both at 275˚C.
+
+* on the left: 62Sn/37Pb/2Ag. Soldering is a breeze, and the results are perfectly formed and shiny
+* on the right: 63Sn/37Pb. Making domes is "hard work" and they rarely turn out shiny
+
+![solder_comparison2](./assets/solder_comparison2.jpg?raw=true)
+
+I'll need to do some more tests to determine if the problems I was originally seeing are typical of
+a 63Sn/37Pb formulation, or if perhaps I just have some very poorly manufactured 63Sn/37Pb.
+
 
 ### First Pass on the Board
 
@@ -128,4 +154,8 @@ The board under test...
 * [The clap switch](https://www.aliexpress.com/item/Voice-control-switch-suite-DIY-kits-selling-electronic-circuit/32338281477.html) - from a seller on aliexpress
 * LEAP: [ClapSwitchKit](../ClapSwitchKit) - another clap-switch kit project
 * [Making beautiful solder points](https://www.youtube.com/watch?v=KXBbiXaq1ec) - the boldport way
+* [Common Causes of Soldering Tip Failure](http://www.inlandcraft.com/uguides/tipfailure.htm) - includes some great info on the metallurgy of solder
+* [Soldering for Show](https://luckyresistor.me/2016/09/25/soldering-for-show/) - great article
+* [7.1.1 Soldering Basics](http://www.circuitrework.com/guides/7-1-1.shtml) - Circuit Technology Center
 * [WL-0510 B-1 0.5mm 63Sn/37Pb](http://www.dx.com/p/wlxy-wl-0510-b-1-0-5mm-tin-solid-solder-wire-reel-spool-silver-262916#.WAjGsZN97XE)
+* [Pro'sKit 9S002 Solder Wire W/2% AG 17G](https://www.aliexpress.com/item/Pro-sKit-9S002-Solder-Wire-W-2-AG-17G/32428346399.html)
