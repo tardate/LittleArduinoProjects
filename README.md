@@ -1,4 +1,4 @@
-# 259 Little Electronics and Arduino Projects
+# 260 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [DigitalPots/M62429](./Electronics101/DigitalPots/M62429) - control the M62429 dual channel volume control with an Arduino.
 
 
@@ -255,6 +255,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
+| [#260 SaleaeLogic](./Equipment/SaleaeLogic)                                        | **Tools, Logic Analyzer**       check out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!) |
 | [#021 Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
@@ -271,7 +272,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
-| [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, 555 Timer, Oscillators**          generate a stair-step waveform with analog components |
+| [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, 555 Timer, Oscillators**  generate a stair-step waveform with analog components |
 | [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |

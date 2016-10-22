@@ -1064,6 +1064,13 @@
         "name": "WienBridgeAudioToneGenerator"
     }, 
     {
+        "description": "check out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!)", 
+        "relative_path": "Equipment/SaleaeLogic", 
+        "id": "#260", 
+        "categories": "Tools, Logic Analyzer", 
+        "name": "SaleaeLogic"
+    }, 
+    {
         "description": "a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array", 
         "relative_path": "FretBoard", 
         "id": "#018", 

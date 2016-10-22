@@ -12,6 +12,7 @@ Make a new project workspace..
 Usage:
   $0 bp ProjectName  # new BoldportClub project
   $0 ee ProjectName  # new Electronics101 project
+  $0 eq ProjectName  # new Equipment project
   $0 pg ProjectName  # new playground project
   $0 ki ProjectName  # new Kinetics project
   $0 kr ProjectName  # new Kraft project
@@ -117,6 +118,10 @@ bp)
 
 ee)
   make_project "Electronics101" "${2}"
+  ;;
+
+eq)
+  make_project "Equipment" "${2}"
   ;;
 
 pg)
