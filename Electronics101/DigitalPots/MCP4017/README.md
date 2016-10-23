@@ -44,7 +44,7 @@ Note the trace looks logarithmic, but this is expected for a linear change in re
 as I am measuring the resistance in a voltage divider - [x/(x+10kΩ)](http://www.wolframalpha.com/input/?i=%7Bx%2F(x%2B10),+x%3D0+to+80%7D).
 The voltage divider is in the test circuit to avoid pumping more than the rated ±2.5 mA through the chip.
 
-![scope_full_scale_2us_per](./assets/scope_full_scale_2us_per.jpg?raw=true)
+![scope_full_scale_2us_per](./assets/scope_full_scale_2us_per.gif?raw=true)
 
 
 ## Construction
@@ -58,3 +58,4 @@ The voltage divider is in the test circuit to avoid pumping more than the rated 
 ## Credits and References
 * [MCP4017T-104E/LT info and datasheet](http://parts.io/detail/2900767/MCP4017T-104E%2FLT) - parts.io
 * [AD5171 Digital Potentiometer](https://www.arduino.cc/en/Tutorial/DigitalPotentiometer) - tutorial
+* [MCP4017](http://www.microchip.com/wwwproducts/en/MCP4017) - Microchip product page
