@@ -378,6 +378,13 @@
         "name": "DigitalPots/M62429"
     }, 
     {
+        "description": "control the MCP4017 single 7-Bit I\u00b2C digital potentiometer with an Arduino", 
+        "relative_path": "Electronics101/DigitalPots/MCP4017", 
+        "id": "#261", 
+        "categories": "Arduino, Digital Pot, MCP4017", 
+        "name": "DigitalPots/MCP4017"
+    }, 
+    {
         "description": "test the basic diode-logic AND gate", 
         "relative_path": "Electronics101/DiodeLogic/AND", 
         "id": "#110", 
