@@ -448,6 +448,13 @@
         "name": "GeneralCurveTracer"
     }, 
     {
+        "description": "the Bazz Fuss \"chocolate noisette\" - a super-minimalist overdrive/distortion/fuzz effect circuit", 
+        "relative_path": "Electronics101/GuitarEffects/BazzFuss", 
+        "id": "#262", 
+        "categories": "Guitar Effects, Audio", 
+        "name": "BazzFuss"
+    }, 
+    {
         "description": "testing a Hall effect switch", 
         "relative_path": "Electronics101/HallEffectSwitch", 
         "id": "#198", 

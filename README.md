@@ -1,5 +1,5 @@
-# 261 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DigitalPots/MCP4017](./Electronics101/DigitalPots/MCP4017) - control the MCP4017 single 7-Bit I²C digital potentiometer with an Arduino.
+# 262 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BazzFuss](./Electronics101/GuitarEffects/BazzFuss) - the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -78,6 +78,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#254 AvrHardwarePWM](./playground/AvrHardwarePWM)                                 | **ATmega, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328 |
 | [#255 AvrHardwarePWM/ATtiny](./playground/AvrHardwarePWM/ATtiny)                   | **ATtiny, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the ATtiny85 |
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
+| [#262 BazzFuss](./Electronics101/GuitarEffects/BazzFuss)                           | **Guitar Effects, Audio**       the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
 | [#093 BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |
