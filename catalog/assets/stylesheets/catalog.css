@@ -25,6 +25,7 @@ body {
 .navbar-default .navbar-brand:focus {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 38px;
+  line-height: 38px;
   font-weight: 800;
   color: #FFD700;
   margin-top: 30px;
@@ -38,6 +39,9 @@ body {
 .btn-leap {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
+}
+.xleap-link {
+  cursor: pointer; cursor: hand;
 }
 
 img.leap-hero {
