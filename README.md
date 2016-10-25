@@ -1,5 +1,5 @@
-# 262 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BazzFuss](./Electronics101/GuitarEffects/BazzFuss) - the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit.
+# 263 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/ligemdio](./BoldportClub/ligemdio) - an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -89,6 +89,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators**  pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
+| [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **LED, BJT**                    an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
