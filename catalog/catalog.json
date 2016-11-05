@@ -392,6 +392,13 @@
         "name": "DigitalPots/MCP4017"
     }, 
     {
+        "description": "control the MCP42010 dual 10k\u03a9 digital potentiometer with an Arduino and hardware SPI", 
+        "relative_path": "Electronics101/DigitalPots/MCP42010", 
+        "id": "#264", 
+        "categories": "Arduino, Digital Pot, MCP42010", 
+        "name": "DigitalPots/MCP42010"
+    }, 
+    {
         "description": "test the basic diode-logic AND gate", 
         "relative_path": "Electronics101/DiodeLogic/AND", 
         "id": "#110", 
@@ -1708,7 +1715,7 @@
         "name": "Pushbutton LED switch"
     }, 
     {
-        "description": "a 16-bit R2R digital to analog converter with shift register interface", 
+        "description": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface", 
         "relative_path": "playground/R2RDAC", 
         "id": "#115", 
         "categories": "Arduino", 

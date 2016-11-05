@@ -1,6 +1,6 @@
 # #115 R2RDAC
 
-Test a 16-bit R2R digital to analog converter with shift register interface
+Test a 16-bit R2R-ladder digital to analog converter with shift register interface.
 
 Here's a quick video of the circuit in action:
 

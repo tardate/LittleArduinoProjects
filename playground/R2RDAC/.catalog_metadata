@@ -1,7 +1,7 @@
 {
     "id": "#115", 
     "name": "R2RDAC", 
-    "description": "a 16-bit R2R digital to analog converter with shift register interface", 
+    "description": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface", 
     "categories": "Arduino", 
     "relative_path": "playground/R2RDAC"
 }

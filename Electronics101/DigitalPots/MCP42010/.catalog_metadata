@@ -1,0 +1,7 @@
+{
+    "id": "#264", 
+    "name": "DigitalPots/MCP42010", 
+    "description": "control the MCP42010 dual 10k\u03a9 digital potentiometer with an Arduino and hardware SPI", 
+    "categories": "Arduino, Digital Pot, MCP42010", 
+    "relative_path": "Electronics101/DigitalPots/MCP42010"
+}

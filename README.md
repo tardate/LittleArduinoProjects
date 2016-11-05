@@ -1,5 +1,5 @@
-# 263 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/ligemdio](./BoldportClub/ligemdio) - an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8).
+# 264 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DigitalPots/MCP42010](./Electronics101/DigitalPots/MCP42010) - control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardware SPI.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -112,6 +112,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
 | [#259 DigitalPots/M62429](./Electronics101/DigitalPots/M62429)                     | **Arduino, Digital Pot, M62429** control the M62429 dual channel volume control with an Arduino |
 | [#261 DigitalPots/MCP4017](./Electronics101/DigitalPots/MCP4017)                   | **Arduino, Digital Pot, MCP4017** control the MCP4017 single 7-Bit I²C digital potentiometer with an Arduino |
+| [#264 DigitalPots/MCP42010](./Electronics101/DigitalPots/MCP42010)                 | **Arduino, Digital Pot, MCP42010** control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardware SPI |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |
@@ -233,7 +234,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#233 PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) | **PWM, 555 Timer, Oscillators, Power**  build and test a general-purpose high-side PWM controller |
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **74xx TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
 | [#073 QuadNOR](./Electronics101/QuadNOR)                                           | **74xx TTL, Arduino**           demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
-| [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     a 16-bit R2R digital to analog converter with shift register interface |
+| [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     build and test a 16-bit R2R-ladder digital to analog converter with shift register interface |
 | [#035 RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino**            proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [#049 RCOscillator](./Electronics101/RCOscillator)                                 | **BJT, RC, Oscillators**        simple RC/transistor multistable vibrator |
 | [#129 RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RLC, Oscillators**     test a "joule thief" circuit based on a relaxation oscillator |
