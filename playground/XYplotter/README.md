@@ -51,7 +51,7 @@ The time-domain plot for the generated output is like this:
 
 ![Schematic](./assets/XYplotter_schematic.jpg?raw=true)
 
-![Build](./assets/XYplotter_build.jpg?raw=true)
+![Build](./assets/XYplotter_breadboard.jpg?raw=true)
 
 ## Credits and References
 * [OSCILLOSCOPE CHRISTMAS TREE](http://www.johngineer.com/blog/?p=648) - uses PWM and RC filters
