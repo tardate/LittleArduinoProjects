@@ -37,7 +37,7 @@ void loop() {
   }
 }
 
-// Command: send +data+ byte to the 74HC595 shift register using SPI
+// Command: send +command+ and +data+ bytes to the pot
 void setPot(byte command, byte data) {
   SPI.beginTransaction(digipotSettings);
   digitalWrite(DIGIPOT_SS_PIN, LOW);

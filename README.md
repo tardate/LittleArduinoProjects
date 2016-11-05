@@ -1,5 +1,5 @@
-# 264 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DigitalPots/MCP42010](./Electronics101/DigitalPots/MCP42010) - control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardware SPI.
+# 265 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [XYplotter](./playground/XYplotter) - Draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -314,5 +314,4 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#164 WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
 | [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
 | [#011 X113647Stepper](./playground/X113647Stepper)                                 | **Stepper, Arduino**            using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino |
-
-
+| [#265 XYplotter](./playground/XYplotter)                                           | **Arduino, Digital Pot, MCP42010, Oscilloscope** draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree |

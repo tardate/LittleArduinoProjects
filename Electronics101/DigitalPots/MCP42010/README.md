@@ -35,6 +35,9 @@ It supports a basic command + data byte structure, per the timing diagram from t
 
 ![spi_timing](./assets/spi_timing.png?raw=true)
 
+Unfortunately it appears the MCP42010 cannot handle two commands in a single SPI transaction,
+hence if A and B wiper settings are different they need to be sent separately.
+If A and B wiper settings are the same, they can be sent in one command.
 
 ### Test Program
 
@@ -61,5 +64,3 @@ I have the MCP42010 in a 14-Lead SOIC package, so I loaded it on an adapter for 
 * [MCP42010 datasheet](http://parts.io/detail/1372149/MCP42010-I%2FSL) - parts.io
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) - wikipedia
-
-
