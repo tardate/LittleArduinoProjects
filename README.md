@@ -1,5 +1,5 @@
-# 267 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag) - Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer.
+# 268 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ChainBlocks](./playground/ChainBlocks) - Testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -99,6 +99,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS, Oscillators**           test the astable operating mode of the CD4047 |
+| [#268 ChainBlocks](./playground/ChainBlocks)                                       | **Arduino**                     testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope |
 | [#170 ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Oscillators, BJT, Logic Gates** build and analyse a simple clap switch circuit available as a kit |
 | [#258 ClapSwitchKit2](./Electronics101/ClapSwitchKit2)                             | **Oscillators, BJT, Logic Gates** practice some Boldport-style soldering on yet-another clap switch kit |
 | [#234 CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator)             | **CMOS, Oscillators**           use a CD4096 to generate an oscillating waveform and plot the results |

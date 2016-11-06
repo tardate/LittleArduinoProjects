@@ -1,0 +1,7 @@
+{
+    "id": "#268", 
+    "name": "ChainBlocks", 
+    "description": "testing some \"Chain Blocks\" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope", 
+    "categories": "Arduino", 
+    "relative_path": "playground/ChainBlocks"
+}

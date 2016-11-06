@@ -1372,6 +1372,13 @@
         "name": "BlinkPrecision"
     }, 
     {
+        "description": "testing some \"Chain Blocks\" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope", 
+        "relative_path": "playground/ChainBlocks", 
+        "id": "#268", 
+        "categories": "Arduino", 
+        "name": "ChainBlocks"
+    }, 
+    {
         "description": "a general-purpose CD4017 counter module", 
         "relative_path": "playground/CounterModule", 
         "id": "#136", 
