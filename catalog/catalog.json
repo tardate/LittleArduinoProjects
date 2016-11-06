@@ -28,6 +28,13 @@
         "name": "BoldportClub/TheCuttle"
     }, 
     {
+        "description": "Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
+        "relative_path": "BoldportClub/TheCuttle/ScopeTag", 
+        "id": "#267", 
+        "categories": "Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope", 
+        "name": "TheCuttle/ScopeTag"
+    }, 
+    {
         "description": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
         "relative_path": "BoldportClub/TheLady", 
         "id": "#251", 

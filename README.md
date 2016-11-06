@@ -1,5 +1,5 @@
-# 266 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/TheCuttle](./BoldportClub/TheCuttle) - the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6).
+# 267 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag) - Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -294,6 +294,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#175 SwitchSoftLatch](./Electronics101/SwitchSoftLatch)                           | **MOSFET, BJT**                 test a soft-latching power switching circuit |
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
+| [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [#135 TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |
