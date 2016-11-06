@@ -64,4 +64,3 @@ All assembled..
 * [TheLady](http://www.boldport.club/shop/product/322512682) - in the Boldport shop
 * [TheLady](http://www.boldport.com/products/the-lady/) - project page
 * [TheLady](https://github.com/boldport/thelady) - OSH files on GitHub
-

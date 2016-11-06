@@ -21,6 +21,13 @@
         "name": "BoldportClub/Pease"
     }, 
     {
+        "description": "the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6)", 
+        "relative_path": "BoldportClub/TheCuttle", 
+        "id": "#266", 
+        "categories": "Boldport, PCB Design, ATmega, ATmel, Arduino", 
+        "name": "BoldportClub/TheCuttle"
+    }, 
+    {
         "description": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
         "relative_path": "BoldportClub/TheLady", 
         "id": "#251", 

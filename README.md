@@ -1,5 +1,5 @@
-# 265 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [XYplotter](./playground/XYplotter) - Draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree.
+# 266 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/TheCuttle](./BoldportClub/TheCuttle) - the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -91,6 +91,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators**  pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **LED, BJT**                    an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
+| [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
