@@ -23,13 +23,13 @@ of the oscilloscope.
 
 Of course, the first thing to try is to re-create the classic Christmas Tree.
 
-The Python script [build_data_h.py](./tree/build_data_h.py) is used to interpolate plotting points
+The Python script [build_data.py](./tree/build_data.py) is used to interpolate plotting points
 over the fundamental tree structure. It generates the [data.h](./tree/data.h) used by the
 [tree.ino](./tree/tree.ino) sketch:
 
 ```
 cd tree
-./build_data_h.py > data.h
+./build_data.py > data.h
 ```
 
 When running on the Arduino, it produces the image below. Scope settings:
