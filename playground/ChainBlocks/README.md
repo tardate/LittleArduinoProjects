@@ -15,10 +15,11 @@ Chain Blocks sit somewhere on the continuum of ideas that are trying to make ele
 
 * the "building block" approach, perhaps exemplified by [littlebits](http://littlebits.cc/). These require no electronics or coding backgound.
 * the standard Shield/Cape/Hat approach and a miscallany or modules that can be directly wired to the microcontroller development board. These are moderately approachable by beginners but require some electronics to be learned along the way, and you must be ready to code (or at least copy-paste sketches!)
-* kit-assisted breadboard prototyping, like [shrimping.it](, http://start.shrimping.it/)
+* kit-assisted breadboard prototyping, like [shrimping.it](http://start.shrimping.it/)
 * and beyond that we get into standard protoboard/breadboarding techniques for those willing to dive head-first into electronics as a hobby
 
-I started with a ["Chain Nano block with one application block"](http://www.prextron.com/product-page/8fe8f05f-951e-1563-b917-88adf8284543). I trurned the application block into an "XY Plotter Block".
+I started with a ["Chain Nano block with one application block"](http://www.prextron.com/product-page/8fe8f05f-951e-1563-b917-88adf8284543).
+I turned the application block into an "XY Plotter Block".
 
 ![ChainBlocks_pair](./assets/ChainBlocks_pair.jpg?raw=true)
 
