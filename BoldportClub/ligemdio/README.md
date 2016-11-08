@@ -1,6 +1,6 @@
 # #263 ligemdio
 
-An LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8).
+An LED tester kit featuring a classic BJT constant current source. From The Boldport Club (Project #8).
 
 ![Build](./assets/ligemdio_build.jpg?raw=true)
 
@@ -11,7 +11,7 @@ Another beautiful board from the Boldport Club.
 The embossed patterns are truly marvelous (made with copper trace designs I think).
 
 So does the world need another LED tester? Probably not, but this is certainly better than the
-ad-hov breadboard test circuits I tend to reach for whenever working on a project with a significant number of LEDs.
+ad-hoc breadboard test circuits I tend to reach for whenever working on a project with a significant number of LEDs.
 
 Whether the pack of LEDs says "QC tested" or not, I've learned to expect a non-zero failure rate.
 I gather LEDs can degrade in storage too (esp in high humidity).
@@ -27,9 +27,9 @@ The dual-BJT circuit is a classic constant current source. Essentially:
 * Given Vbe is fairly "stiff" (at around 0.6V for the PN2222ATA)..
 * So there is a constant voltage across R1 of ~0.6V
 * Therefore current thru R1 of [18.2mA](http://www.wolframalpha.com/input/?i=0.6V%2F33%CE%A9)
-* Assuming negligible Ib current for T2,
+* Assuming negligible base current (Ib) current for T2,
 * And assuming R2 and supply voltage are sufficient to saturate T2,
-* then the current through the load (LED DUT) is also ~18.2mA
+* Then the current through the load (LED DUT) is also ~18.2mA
 
 This holds to a degree, however Vbe is subject to temperature fluctuations and can also vary significanty with collector current.
 

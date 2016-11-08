@@ -9,9 +9,10 @@ Making space here for what I hope will be a steady stream of beautiful kits from
 It's a club you can join by subscription and receive an electronics project every month.
 
 But unlike the electronics clubs I remember from years ago - which tended to produce simplicstic kits
-for projects that while functional, few would ever really need - the focus hear is on kits that are
+for projects that while functional, few would ever really need, and they definitely weren't designed for aesthetics - the focus hear is on kits that are
 engaging, challenging, entertaining, and collectable.
 
 ## Credits and References
 * [Boldport Club](http://www.boldport.club/) - main site
 * [Saar Drimer on The AmpHour podcast](http://www.theamphour.com/286-an-interview-with-saar-drimer/)
+* [Saar Drimer on The embedded.fm podcast](http://embedded.fm/episodes/171)

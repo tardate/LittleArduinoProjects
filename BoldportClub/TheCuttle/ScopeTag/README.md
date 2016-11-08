@@ -6,7 +6,7 @@ Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP
 
 ## Notes
 
-A just built [The Cuttle](../) so time for a quick test.
+I just built [The Cuttle](../) so time for a quick test.
 
 I thought I'd borrow an idea from the [XYplotter](../../playground/XYplotter) project and get The Cuttle
 to write it's name on an oscilloscope.

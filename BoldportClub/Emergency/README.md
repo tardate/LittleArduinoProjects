@@ -27,7 +27,7 @@ Since I'm working from scratch (PCB only - not the full kit), there's an obvious
 
 @mehradzie asked on [Boldport Slack](https://boldportclub.slack.com) if it is possible to make it blink. Challenge accepted!
 
-I was actually thinking along similar lines, but at first using a blinking "joule thief" circuit. But I just couldn't figure
+I was actually thinking along similar lines, at first using a blinking "joule thief" circuit. But I just couldn't figure
 how to get it to work within the constraints of the PCB.
 
 So then I turned to an interesting idea: Negative Differential Resistance (NDR) effect or Esaki Effect. Basically causing an
@@ -75,7 +75,7 @@ Final layout and component selection. Build complete:
 
 ![Emergency_layout](./assets/Emergency_layout.jpg?raw=true)
 
-Power on, and it's blinking!
+Power on, and it's blinking! Why? Beacuse!
 
 ![Build](./assets/Emergency_build.jpg?raw=true)
 
