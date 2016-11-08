@@ -1,6 +1,5 @@
-# 268 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ChainBlocks](./playground/ChainBlocks) - Testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope.
-
+# 269 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/cordwood](./BoldportClub/cordwood) - the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -88,8 +87,9 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
-| [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators**  pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
-| [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **LED, BJT**                    an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
+| [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3 |
+| [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
+| [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |

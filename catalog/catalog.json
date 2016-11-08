@@ -1,5 +1,12 @@
 [
     {
+        "description": "the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3", 
+        "relative_path": "BoldportClub/cordwood", 
+        "id": "#269", 
+        "categories": "Boldport, PCB Design, LED", 
+        "name": "BoldportClub/cordwood"
+    }, 
+    {
         "description": "pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)", 
         "relative_path": "BoldportClub/Emergency", 
         "id": "#257", 
@@ -10,7 +17,7 @@
         "description": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)", 
         "relative_path": "BoldportClub/ligemdio", 
         "id": "#263", 
-        "categories": "LED, BJT", 
+        "categories": "Boldport, PCB Design, LED, BJT", 
         "name": "BoldportClub/ligemdio"
     }, 
     {
