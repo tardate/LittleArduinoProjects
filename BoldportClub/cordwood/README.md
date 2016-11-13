@@ -1,6 +1,6 @@
 # #269 cordwood
 
-The Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3.
+The Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3.
 
 ![Build](./assets/cordwood_build.jpg?raw=true)
 ![cordwood_build_night](./assets/cordwood_build_night.jpg?raw=true)

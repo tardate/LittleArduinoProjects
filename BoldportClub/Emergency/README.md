@@ -1,6 +1,6 @@
 # #257 Emergency
 
-Pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)
+Pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)
 
 Here's a quick video to show it working..
 
@@ -10,7 +10,7 @@ Here's a quick video to show it working..
 
 I joined the Boldport Club rather late, but manage to snaffle up the Emergency kit PCB in sale of ["Just Less the Perfect"](http://www.boldport.club/shop/product/437169103) boards.
 
-The tiny 'engineer superhero' emergency kit, second edition was Boldport Clup Project #2.
+The tiny 'engineer superhero' emergency kit, second edition was Boldport Club Project #2.
 
 As originally intended, it is a kit with a few components and a nice travel case that will possibly save your engineering superhero status at some point!
 

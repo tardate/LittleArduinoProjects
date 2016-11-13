@@ -2,7 +2,9 @@
 
 Run a demo animation using aaronjasso's Cordwood library
 
-![Build](./assets/aanimate_build.jpg?raw=true)
+Here's a quick video showing it in action..
+
+[![Build](./assets/aanimate_build.jpg?raw=true)](http://www.youtube.com/watch?v=0WyH_XYZ9tg)
 
 ## Notes
 
