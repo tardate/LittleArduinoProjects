@@ -1,0 +1,7 @@
+{
+    "id": "#270", 
+    "name": "BoldportClub/cordwood/aanimate", 
+    "description": "run a demo animation using aaronjasso's Cordwood library", 
+    "categories": "Boldport, Cordwood, Arduino", 
+    "relative_path": "BoldportClub/cordwood/aanimate"
+}

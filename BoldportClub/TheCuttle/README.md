@@ -65,3 +65,4 @@ I also made a bit of a mistake with the pins - I pushed them flush from the top 
 * [TheCuttle](https://github.com/boldport/thecuttle) - OSH files on GitHub
 * [ATMEGA328P datasheet](http://parts.io/detail/1829384/ATMEGA328P-AU) - parts.io
 * [USB to TTL converter UART module CH340G CH340 3.3V 5V switch](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html) - the USB programming adapter I'm using
+* [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)

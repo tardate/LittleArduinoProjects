@@ -1,5 +1,6 @@
-# 269 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/cordwood](./BoldportClub/cordwood) - the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3.
+# 270 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate) - run a demo animation using aaronjasso's Cordwood library.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -93,6 +94,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3 |
+| [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
