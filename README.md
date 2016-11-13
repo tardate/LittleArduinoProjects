@@ -31,9 +31,14 @@ Some projects require additional libraries including FastLED, FlexiTimer2, Radio
 A set of such libraries are included as submodules of this repository,
 see the [libraries/](./libraries) page for more information on the included libraries and submodule management.
 
-Libraries can be retrieved with git, or you can just install them separately as you would any other library.
+For Arduino projects, I have the Arduino IDE sketchbook location (in preferences) set to the root of this repository.
+This makes all the projects available to me in the IDE, and automatically includes libraries
+that are linked as git submodules in the [libraries/](./libraries) folder.
 
-If you clone this repo, also update the submodules to have them available for compilation/installation:
+If you don't have the Arduino IDE setup this way, libraries can be retrieved with git,
+or you can just install them separately as you would any other library.
+
+If you clone this repo, also update the submodules to have them available for compilation:
 
     $ git submodule update --init
 

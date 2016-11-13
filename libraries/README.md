@@ -17,7 +17,12 @@ Some projects require additional libraries. For example:
 * 1-wire compatible components use the [OneWire](https://github.com/PaulStoffregen/OneWire) library
 
 These libraries are included as submodules of this repository and can be installed with git.
-Or you can just install them normally.
+
+For Arduino projects, I have the Arduino IDE sketchbook location (in preferences) set to the root of this repository.
+This makes all the projects available to me in the IDE, and automatically includes libraries
+that are linked as git submodules in this folder.
+
+If you don't have the Arduino IDE setup this way, libraries can just be installed normally.
 For information on installing libraries, see: http://arduino.cc/en/Guide/Libraries
 
 ## Install with Git

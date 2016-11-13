@@ -37,3 +37,6 @@
 [submodule "libraries/OneWire"]
 	path = libraries/OneWire
 	url = https://github.com/PaulStoffregen/OneWire
+[submodule "libraries/Cordwood"]
+	path = libraries/Cordwood
+	url = https://github.com/aaronjasso/Cordwood
