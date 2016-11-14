@@ -2,6 +2,9 @@
 
 Test a "joule thief" circuit based on a relaxation oscillator.
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit achieves a voltage boost, enough to drive an LED with forward voltage in excess of the power supply.

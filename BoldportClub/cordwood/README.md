@@ -5,6 +5,9 @@ The Cordwood Puzzle evokes an era of stuffing massive components into small spac
 ![Build](./assets/cordwood_build.jpg?raw=true)
 ![cordwood_build_night](./assets/cordwood_build_night.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A *feature* of this kit is that "all the comprehensive assembly guides were mysteriously missing".

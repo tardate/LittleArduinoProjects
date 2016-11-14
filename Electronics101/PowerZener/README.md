@@ -2,6 +2,9 @@
 
 Demonstrates a Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The 1N4733 zener diode is rated at 5.1V reverse-bias beakdown voltage.

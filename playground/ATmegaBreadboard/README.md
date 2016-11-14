@@ -2,6 +2,9 @@
 
 Running an ATMEGA328P-PU on a breadboard
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The objective here is to run an ATMEGA328P-PU chip on a breadboard. It assumes the chip is already programmed.

@@ -6,6 +6,9 @@ I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm
 * [StripTease](./StripTease) - demo a range of effects on the LED strip
 * [AsyncLedStripEffects](./AsyncLedStripEffects) - timer-interrupt triggering of addressable LED array effects
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 

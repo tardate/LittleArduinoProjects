@@ -2,6 +2,9 @@
 
 Prints the system time synced from the RTC to the serial output
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is the most basic test an DS3231 RTC used to sync the Arduino system time.

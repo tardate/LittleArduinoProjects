@@ -2,6 +2,9 @@
 
 Use a CD4096 to generate an oscillating waveform and plot the results
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I found this oscillator circuit as part of the [#182 PowerSupply317Kit](../PowerSupply317Kit).

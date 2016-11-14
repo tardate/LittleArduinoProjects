@@ -2,6 +2,9 @@
 
 Testing a basic Colpitts Oscillator circuit
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A Colpitts oscillator uses a combination of inductors (L) and capacitors (C) to produce an oscillation

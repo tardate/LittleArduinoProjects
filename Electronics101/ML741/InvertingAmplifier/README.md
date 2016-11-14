@@ -2,6 +2,9 @@
 
 Test an inverting amplifier circuit using the ML741 discrete component opamp
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a demonstration of an inverting amplifier circuit using the [ML741](../) discrete component opamp.

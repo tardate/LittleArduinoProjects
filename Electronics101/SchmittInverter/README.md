@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![Schmitt Inverter](http://img.youtube.com/vi/xGmdBrGDc2E/0.jpg)](http://www.youtube.com/watch?v=xGmdBrGDc2E)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The circuit uses a digital output pin to drive one inverter unit of the 74LS14 chip.

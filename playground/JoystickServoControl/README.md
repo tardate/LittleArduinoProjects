@@ -4,6 +4,9 @@ Control two servos with a joystick. Here's a quick demo:
 
 [![JoystickServoControl](http://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](http://www.youtube.com/watch?v=P8883DkE3Jo)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a demonstration of joystick control of two servos. This would be how you could setup pan/tilt control for example.

@@ -2,6 +2,9 @@
 
 Build and test a common LED visual effect circuit.
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The "Breathing Lamp" is commonly found from sellers on ebay and aliexpress as a cheap parts kit,

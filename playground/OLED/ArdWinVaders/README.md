@@ -8,6 +8,9 @@ Here's a quick video of the game in action:
 
 Or [see this earlier video](http://youtu.be/m0XgdGztr8s) before the screen optimisations or sound. There's a huge performance difference!
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Since playing around with driving an OLED with an Arduino (see the [SSD1306BareBack](../SSD1306BareBack) project for example),

@@ -6,6 +6,9 @@ Here's a quick video of the solenoid in action:
 
 [![SolenoidDIY](http://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](http://www.youtube.com/watch?v=Lakz1MZA9wI)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A [solenoid](https://en.wikipedia.org/wiki/Solenoid) technically refers to a coil of wire

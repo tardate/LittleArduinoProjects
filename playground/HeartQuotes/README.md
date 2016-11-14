@@ -4,6 +4,9 @@ Press a button to snaffle a random quote from [Heart Quotes](http://www.iheartqu
 
 ![The Build](./assets/HeartQuotes_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This currently just dumps the web response from the HeartQuotes API to the console and LCD panel.

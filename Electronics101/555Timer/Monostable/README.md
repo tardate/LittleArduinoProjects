@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![555 Timer - Monostable Demo](http://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](http://www.youtube.com/watch?v=FJI0kTbzS4I)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The monostable mode of operation is actually well described in the [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml).

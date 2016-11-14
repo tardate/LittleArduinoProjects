@@ -2,6 +2,9 @@
 
 A DIY ATmega programming shield using an Arduino as the ISP
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The [ATmegaViaArduinoISP](../ATmegaViaArduinoISP) project tested programming an ATmega chip on a breadboard using an Arduino as the

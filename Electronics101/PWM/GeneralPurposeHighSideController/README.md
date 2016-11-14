@@ -4,6 +4,9 @@ Build and test a general-purpose high-side PWM controller
 
 ![GeneralPurposeHighSideController_build](./assets/GeneralPurposeHighSideController_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit cobines a variable-duty cycle PWM generator with a high-side p-channel MOSFET driver circuit,

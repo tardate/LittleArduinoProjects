@@ -2,6 +2,9 @@
 
 Test a variable-geometry, fixed-amplitude sawtooth wave generator circuit
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is an interesting sawtooth wave generator that's described in an excellent [w2aew tutorial](https://youtu.be/ibnz5UjQ4u0).

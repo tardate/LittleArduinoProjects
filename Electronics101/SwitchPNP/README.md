@@ -2,6 +2,9 @@
 
 Use an Arduino to demonstrate a digital switch using an PNP BJT, and plot the results with [Processing](https://www.processing.org).
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a demonstration a standard small-signal switching circuit using an PNP transistor.

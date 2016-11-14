@@ -4,6 +4,9 @@ Use an Arduino to test capacitors and output result to 16x2 LCD module.
 
 ![The Build](./assets/CapacitanceTester_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit tests capacitance by measuring the [RC time constant](http://en.wikipedia.org/wiki/RC_time_constant). It exploits two facts:

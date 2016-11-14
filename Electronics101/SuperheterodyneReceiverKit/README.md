@@ -2,6 +2,9 @@
 
 Build and analyse a basic commercial radio recevier kit
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Just my notes on a build of [a kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html).

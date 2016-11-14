@@ -2,6 +2,9 @@
 
 Test a range of low-cost buck converter modules
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 There are many super-cheap buck converter modules available, many based on the LM2596S-ADJ. This is the place I record any notes on the individual units I get to see.

@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![RotaryEncoderModule](http://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](http://www.youtube.com/watch?v=9sDoqK0cRAA)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 In the [RotaryEncoderMethods](../RotaryEncoderMethods) project I determined that the [Rotary library](https://github.com/brianlow/Rotary) was by far the best option for reading a rotary encoder.

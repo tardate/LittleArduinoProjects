@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![NORGateOscillator demo](http://img.youtube.com/vi/D6UURcxSMp0/0.jpg)](http://www.youtube.com/watch?v=D6UURcxSMp0)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit demonstrates a free-running oscillator based on two NOR gates - using 2/4 of a 74LS02.

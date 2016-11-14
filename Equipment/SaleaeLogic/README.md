@@ -4,6 +4,9 @@ Checking out a second-hand Saleae Logic (a 24 MS/s, 8 channel USB logic analyzer
 
 ![Build](./assets/SaleaeLogic_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I recently had a Saleae Logic fall into my hands - it's an old model and was looking for a good home.

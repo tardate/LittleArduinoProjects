@@ -2,6 +2,9 @@
 
 A basic Smokey-inspired LM386 guitar power amp.
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The "Little Gem" amplifier by [runoffgroove](http://www.runoffgroove.com/littlegem.html)

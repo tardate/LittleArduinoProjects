@@ -4,6 +4,9 @@ An LM386 fixed-gain guitar headphone amp.
 
 ![GuitarHeadphoneAmp_protoboard](./assets/GuitarHeadphoneAmp_protoboard.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Yet another LM386-based audio amplifier

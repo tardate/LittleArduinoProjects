@@ -4,6 +4,9 @@
 Finding the best method for reading a rotary-encoder.
 
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I'm testing some mini rotary encoders I got from a

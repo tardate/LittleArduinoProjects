@@ -6,6 +6,9 @@ Here's a quick video of the first firing of the engine:
 
 [![First Firing Demo](http://img.youtube.com/vi/SpzR4BYEarM/0.jpg)](http://www.youtube.com/watch?v=SpzR4BYEarM)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A [Stirling engine](https://en.wikipedia.org/wiki/Stirling_engine) is a closed-cycle regenerative heat engine with a permanently gaseous working fluid.

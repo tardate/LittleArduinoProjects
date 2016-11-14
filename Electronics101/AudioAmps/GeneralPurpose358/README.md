@@ -4,6 +4,9 @@ Test a general-purpose LM358 amplifier circuit.
 
 ![Build](./assets/GeneralPurpose358_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I found this [Op-Amp Audio Amplifier circuit](http://www.techlib.com/electronics/audioamps.html#op-amp)

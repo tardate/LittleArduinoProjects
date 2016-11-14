@@ -4,6 +4,9 @@ Investigate the operation of triacs and build the basic dimmer circuit.
 
 ![TriacDimmer_demo](./assets/TriacDimmer_demo.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A triac is a "bidirectional thyristor" because it conducts in both directions and is typically used in AC applications.

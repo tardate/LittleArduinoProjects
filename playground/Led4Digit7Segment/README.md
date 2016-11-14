@@ -4,6 +4,9 @@ Driving a 4-digit 7-segment display, various ways...
 
 ![Build](./assets/Led4Digit7Segment_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 There are a number of similar 4-digit 7-segment LED displays in the market.

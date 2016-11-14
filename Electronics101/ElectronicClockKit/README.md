@@ -2,6 +2,9 @@
 
 Build and investigate a commercially available "electronic clock" kit
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I picked up a [AT89C2051 Electronic Clock](http://www.aliexpress.com/item/1Pcs-New-DIY-Kits-AT89C2051-Electronic-Clock-Suite-Electronic-Parts-Components/2045978940.html) for USD3.28, primarily to investigate how it works. There seems to be a flood of similar kits available from many sellers on aliexpress, ebay etc.

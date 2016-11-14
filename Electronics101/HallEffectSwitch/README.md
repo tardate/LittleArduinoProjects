@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![HallEffectSwitch](http://img.youtube.com/vi/kvyXPPBrkeU/0.jpg)](http://www.youtube.com/watch?v=kvyXPPBrkeU)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Hall-effect sensors generally support one of three modes:

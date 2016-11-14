@@ -2,6 +2,9 @@
 
 Driving a 7-segment display with CD4026 Counter
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Here's yet another way to drive a 7-segment single-digit display unit - using a CD4026.

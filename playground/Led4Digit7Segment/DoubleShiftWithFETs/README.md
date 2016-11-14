@@ -2,6 +2,9 @@
 
 Driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit is a variation of the [DoubleShift](../DoubleShift) experiment that

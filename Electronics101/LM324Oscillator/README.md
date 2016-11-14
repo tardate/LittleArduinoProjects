@@ -2,6 +2,9 @@
 
 Use an Arduino to monitor the behaviour of an LM324 OpAmp astable oscillator and plot the results with [Processing](https://www.processing.org).
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Demos the generation of a low-frequency square wave with an LM324 OpAmp.

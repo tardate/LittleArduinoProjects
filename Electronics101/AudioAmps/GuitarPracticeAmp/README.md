@@ -4,6 +4,9 @@ Single-channel 10W guitar practice amplifier based on the TDA2050
 
 ![The Build](./assets/GuitarPracticeAmp_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a 10W guitar practice amplifier circuit and was designed for the

@@ -2,6 +2,9 @@
 
 Test an inverter circuit using the ML741 discrete component opamp
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a demonstration of an inverter/inverting buffer circuit using the [ML741](../) discrete component opamp.

@@ -2,6 +2,9 @@
 
 Test the astable operating mode of the CD4047
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The CD4047 is capable of running in astable or monostable configurations,

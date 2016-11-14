@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![ResistorTransistorLogic/NOT](http://img.youtube.com/vi/JQzt-ZaF9fw/0.jpg)](http://www.youtube.com/watch?v=JQzt-ZaF9fw)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Resistor–transistor logic (RTL) is a class of digital circuits built using resistors as the input network and bipolar junction transistors (BJTs) as switching devices. RTL is the earliest class of transistorized digital logic circuit and is largely obsolete now.

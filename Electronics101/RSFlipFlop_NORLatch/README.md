@@ -2,6 +2,9 @@
 
 Set-Reset flip-flop implemented with NOR gates
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit is another implementation of a Set-Reset flip-flip, this time using NOR gates.

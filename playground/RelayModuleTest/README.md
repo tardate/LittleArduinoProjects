@@ -4,6 +4,9 @@ Controlling a relay "module" with an Arduino. Here's a quick demo:
 
 [![RelayModuleTest](http://img.youtube.com/vi/_8OyyQS27Gk/0.jpg)](http://www.youtube.com/watch?v=_8OyyQS27Gk)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A quick test of a pretty common relay board, the [Keyes 5V Relay Module for Arduino](http://www.dx.com/p/arduino-5v-relay-module-blue-black-121354).

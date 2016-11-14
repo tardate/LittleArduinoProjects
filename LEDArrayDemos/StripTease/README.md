@@ -6,6 +6,9 @@ Here's a quick video of the demo:
 
 [![StripTease - first tests of a ws2811-based LED array](http://img.youtube.com/vi/CUU-sYmBBfM/0.jpg)](http://www.youtube.com/watch?v=CUU-sYmBBfM)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 ### Construction

@@ -6,6 +6,9 @@ Here's a quick video demo:
 
 [![MessageWaiting](./assets/MessageWaiting_build.jpg?raw=true)](http://www.youtube.com/watch?v=_ujCu5yxSXQ)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a variation of a bi-polar LED flasher circuit that uses two single LEDs.

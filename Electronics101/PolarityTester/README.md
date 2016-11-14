@@ -2,6 +2,9 @@
 
 demonstrate a polarity-testing circuit
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A simple polarity testing circuit uses a series of inverters.

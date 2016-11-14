@@ -2,6 +2,9 @@
 
 An AC-powered LED lamp
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 So I got this

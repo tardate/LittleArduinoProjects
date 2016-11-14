@@ -4,6 +4,9 @@ Test a current-regulator style LED dimmer circuit.
 
 ![CurrentRegulator_build](./assets/CurrentRegulator_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I'm looking at some alternatives for dimming a 12V LED strip.

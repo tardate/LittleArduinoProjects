@@ -2,6 +2,9 @@
 
 Test the classic CD4017 walking-ring counter
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a classic circuit, often marketed as a hobby kit under various names like "water flow effect" or somesuch.

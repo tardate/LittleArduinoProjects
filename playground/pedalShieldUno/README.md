@@ -4,6 +4,9 @@ Build and test a genuine pedalSHIELD UNO.
 
 ![Build](./assets/pedalShieldUno_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 In the [AudioDSP](../AudioDSP) project, I built an Arduino pedal/DSP unit based on the Electrosmash pedalSHIELD design.

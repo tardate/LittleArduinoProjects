@@ -6,6 +6,9 @@ Simple NPN transistor curve tracer using a Stairstep generator circuit.
 
 ![curve_2N3904_50kRb](./assets/curve_2N3904_50kRb.gif?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a fascinating circuit, originally from the IEEE Engineering Sciences & Education Journal Vol 8 No 1 Feb 1999 pp25-26.

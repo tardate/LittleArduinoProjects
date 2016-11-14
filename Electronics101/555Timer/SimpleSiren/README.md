@@ -2,6 +2,9 @@
 
 Classic timer circuit producing a two-tone oscillation.
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a build of a circuit published by [electronicshub](http://www.electronicshub.org/ding-dong-sound-generator-circuit/).

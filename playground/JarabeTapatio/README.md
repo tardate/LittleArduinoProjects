@@ -4,6 +4,9 @@ Play The Mexican Hat Dance on a piezo buzzer! Here's a quick demo:
 
 [![JarabeTapatio](http://img.youtube.com/vi/oAiCtdJKnDU/0.jpg)](http://www.youtube.com/watch?v=oAiCtdJKnDU)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 A simplified version of the melody in scored in this [GuitarPro](./assets/Jarabe Tapatío simple melody.gpx) file.

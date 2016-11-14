@@ -4,6 +4,9 @@ test an audio level indicator kit based on the LM3915
 
 ![The Build](./assets/AudioLevelIndicatorKit_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a build of an

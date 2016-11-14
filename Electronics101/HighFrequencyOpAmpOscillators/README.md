@@ -6,6 +6,9 @@ Here's a quick demo of the circuit in action:
 
 [![HighFrequencyOpAmpOscillators](http://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](http://www.youtube.com/watch?v=aBbVXSlS4nA)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I've previously wired up a classic single-rail op-amp oscillator in the [LM324Oscillator](./LM324Oscillator) project,

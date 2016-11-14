@@ -4,6 +4,9 @@ Build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash.
 
 ![The Build](./assets/AudioDSP_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I've wanted to try some digital signal processing on the Arduino/AVR for a while.

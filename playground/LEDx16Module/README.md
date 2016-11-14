@@ -7,6 +7,9 @@ Here's a quick video of the module running the demo code:
 [![LEDx16Module](http://img.youtube.com/vi/FVDoArFkKH8/0.jpg)](http://www.youtube.com/watch?v=FVDoArFkKH8)
 
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is my version of project 3 from the

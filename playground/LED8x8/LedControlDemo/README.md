@@ -6,6 +6,9 @@ Here's a demo of the matrix in action:
 
 [![LedControlDemo](http://img.youtube.com/vi/z4q6lpOBHL0/0.jpg)](http://www.youtube.com/watch?v=z4q6lpOBHL0)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a test of the LedControl library to drive a 1088AS LED matrix with a MAX7219 Serial-Interfaced LED Display Driver chip.

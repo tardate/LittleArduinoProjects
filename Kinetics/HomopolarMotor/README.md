@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![HomopolarMotor](http://img.youtube.com/vi/2aZ0dwhBsBo/0.jpg)](http://www.youtube.com/watch?v=2aZ0dwhBsBo)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The homopolar motor was the first electrical motor to be built.

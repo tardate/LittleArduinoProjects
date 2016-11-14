@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![Schmitt Oscillator](http://img.youtube.com/vi/QV99ATHP2Xs/0.jpg)](http://www.youtube.com/watch?v=QV99ATHP2Xs)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 One inverter unit of the 74LS14 Hex Inverter with Schmitt Trigger Inputs is used as an oscillator.

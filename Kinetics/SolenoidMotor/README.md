@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![SolenoidMotor](http://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](http://www.youtube.com/watch?v=b7wmZLSBpzk)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Solenoid motors are an interesting curiosity. They are quite impractical, as there are much more efficient

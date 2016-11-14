@@ -4,6 +4,9 @@ Reads a photocell/light-dependent resistor and adjusts the blink rate of an LED 
 
 ![The Build](./assets/LightOrNot_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The LDR and 10k resistor act as a voltage divider. The sequence and resistor selection depends on the LDR.

@@ -6,6 +6,9 @@ Here's an example of the effect on a 1kHz 200mV signal at about mid-level clippi
 
 ![waveform](./assets/Distortion_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 [Distortion.ino](./Distortion.ino) is a simple distortion effect from the pedalSHIELD examples.

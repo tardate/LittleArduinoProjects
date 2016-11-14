@@ -2,6 +2,9 @@
 
 Test the basic diode-logic OR gate
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 Diode logic was used extensively in early computers but is largely obsolete now, since it cannot isolate inputs or outputs

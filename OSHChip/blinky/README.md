@@ -2,6 +2,9 @@
 
 First test of the OSHChip V1.0
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I heard about the OSHChip on the [embedded.fm podcast #146](http://embedded.fm/episodes/146) and immediately wanted one!

@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![RSFlipFlopFlipper demo](http://img.youtube.com/vi/KXwm6WrVOow/0.jpg)](http://www.youtube.com/watch?v=KXwm6WrVOow)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a classic Set-Reset [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) under Arduino control.

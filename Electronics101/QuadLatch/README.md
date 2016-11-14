@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![74LS75 Quad Latch Test](http://img.youtube.com/vi/nsRWAuc6J5w/0.jpg)](http://www.youtube.com/watch?v=nsRWAuc6J5w)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The 74LS75 Quad Latch is a 4-bit bistable latch from the [7400 series](http://en.wikipedia.org/wiki/List_of_7400_series_integrated_circuits) of TTL integrated circuits.

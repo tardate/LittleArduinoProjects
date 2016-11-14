@@ -4,6 +4,9 @@ All about hardware PWM with the ATtiny85.
 
 ![Build](./assets/ATtiny_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 See the [AvrHardwarePWM](../) project for all about hardware PWM with the Arduino UNO/ATmega328.

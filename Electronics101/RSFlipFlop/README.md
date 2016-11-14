@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![RSFlipFlop demo](http://img.youtube.com/vi/Df0gB0qHPFM/0.jpg)](http://www.youtube.com/watch?v=Df0gB0qHPFM)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a classic Set-Reset [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29)

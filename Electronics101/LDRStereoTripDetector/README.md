@@ -7,6 +7,9 @@ Here's a quick video of the circuit in action:
 [![LDRStereoTripDetector demo](http://img.youtube.com/vi/Wo1voY0uE9c/0.jpg)](http://www.youtube.com/watch?v=Wo1voY0uE9c)
 
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This demonstrates two circuit concepts:

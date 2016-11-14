@@ -4,6 +4,9 @@ Test a PWM LED dimmer circuit using a 555 timer.
 
 ![The Build](./assets/555PWM_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit uses a 555 Timer-based PWM circuit to dim a LED strip.

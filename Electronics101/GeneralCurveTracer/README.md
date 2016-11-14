@@ -4,6 +4,9 @@ Test a DC-powered general curve tracer circuit.
 
 ![GeneralCurveTracer_protoboard_build](./assets/GeneralCurveTracer_protoboard_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I've borrowed this general curve tracing circuit from [stoneslice's prototype and video](https://www.youtube.com/watch?v=_WQi8oKzsD8).

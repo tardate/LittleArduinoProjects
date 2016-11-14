@@ -2,6 +2,9 @@
 
 Driving a 4-digit 7-segment display with a shift register and a few BJTs
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 See [Led4Digit7Segment](../) for general discussion of 4-digit 7-segment displays,

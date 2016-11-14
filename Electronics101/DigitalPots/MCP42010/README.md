@@ -4,6 +4,9 @@ Control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardwa
 
 ![Build](./assets/MCP42010_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I'm trying out some digital potentiometers for an application.

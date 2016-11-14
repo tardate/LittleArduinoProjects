@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![LED7Segment/ShiftDrive](http://img.youtube.com/vi/vD6ldmaypiE/0.jpg)](http://www.youtube.com/watch?v=vD6ldmaypiE)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 While you can wire up each segment pin to a digital out on the Arduino as in the

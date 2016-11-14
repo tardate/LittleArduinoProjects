@@ -4,6 +4,9 @@ A bare-bones Arduino-compatible kit from The Boldport Club (Project #6).
 
 ![Build](./assets/TheCuttle_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The Cuttle is a bare-bones Arduino-compatible soldering kit. It was first designed as commissioned work for [Embecosm](http://www.embecosm.com/), who made it open source hardware.

@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![R2RDAC demo](http://img.youtube.com/vi/7upWKor84-4/0.jpg)](http://www.youtube.com/watch?v=7upWKor84-4)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 [Resistor ladders](https://en.wikipedia.org/wiki/Resistor_ladder) are a simple and effective technique

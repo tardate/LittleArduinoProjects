@@ -6,6 +6,9 @@ Here's a quick video of a "game" in action:
 
 [![nRF24/PingPong](http://img.youtube.com/vi/aNJqokwFAGI/0.jpg)](http://www.youtube.com/watch?v=aNJqokwFAGI)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a quick first test of Arudino 2.4GHz RF communications using nRF24L01+ modules.

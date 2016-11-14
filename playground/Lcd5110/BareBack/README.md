@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![Lcd5110BareBack demo](http://img.youtube.com/vi/nDB-FT9jysI/0.jpg)](http://www.youtube.com/watch?v=nDB-FT9jysI)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This quick demo is inspired by Julian Ilett's [tutorial series on YouTube](https://www.youtube.com/watch?v=RAlZ1DHw03g).

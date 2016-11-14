@@ -4,6 +4,9 @@ Basic interrogation of a DS18S20 using 1-wire protocol
 
 ![DS18S20](./assets/DS18S20.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The DS18S20 is an inexpensive 1-Wire digital thermometer

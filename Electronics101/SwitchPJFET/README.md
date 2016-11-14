@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![SwitchPJFET](./assets/SwitchPJFET_build2.jpg?raw=true)](http://www.youtube.com/watch?v=KfRI6a5oyQM)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a simple switching circuit using a p-channel JFET.

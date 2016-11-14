@@ -2,6 +2,9 @@
 
 An LM7805-based 5V regulated power supply for use in breadboard projects.
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 See [LM7805 5V Regulated Supply](../Power7805) for a more detailed investigation of the 7805 voltage regulator.

@@ -2,6 +2,9 @@
 
 Uses an Arduino to test LM741 comparator behaviour and plot the results with processing
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 

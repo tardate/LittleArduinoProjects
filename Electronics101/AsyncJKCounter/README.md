@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![AsyncJKCounter](http://img.youtube.com/vi/dyn9gv996iY/0.jpg)](http://www.youtube.com/watch?v=dyn9gv996iY)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This circuit uses 4 JK flip-flops set up for the “toggle” mode to implement an asynchronous 4-bit binary counter.

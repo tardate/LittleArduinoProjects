@@ -6,6 +6,9 @@ Here's a quick video of the circuit in action:
 
 [![555 Timer - A-Stable Oscillator](http://img.youtube.com/vi/1vZiGZan2ok/0.jpg)](http://www.youtube.com/watch?v=1vZiGZan2ok)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The oscillator circuit is based on project 1 from [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC), and any number of other examples you can find with a quick Google search.

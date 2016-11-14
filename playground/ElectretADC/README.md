@@ -2,6 +2,9 @@
 
 Use an Arduino to read the amplified signal from an electret microphone.
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 The electret microphone is biased to about 1V, and the AC component of the signal tapped via C1.

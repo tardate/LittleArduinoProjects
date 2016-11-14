@@ -4,6 +4,9 @@ Driving an SPI LED module with the OSHChip.
 
 ![LEDx16Module_build](./assets/LEDx16Module_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 How easy is SPI with the OSHChip? I thought I'd find out by first controlling a

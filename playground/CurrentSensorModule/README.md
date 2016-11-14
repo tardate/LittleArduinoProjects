@@ -2,6 +2,9 @@
 
 Test an ACS712 voltage sensor module with display on a 5110 LCD
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 This is a quick test of a

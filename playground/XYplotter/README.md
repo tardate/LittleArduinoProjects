@@ -5,6 +5,9 @@ Of course, the first thing to try is the classic Christmas Tree.
 
 ![Build](./assets/XYplotter_build.jpg?raw=true)
 
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 There's a gooky meme that's been around for years .. "drawing" pitcures on an oscilloscope.
