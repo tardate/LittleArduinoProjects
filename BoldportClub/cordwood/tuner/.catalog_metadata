@@ -1,7 +1,7 @@
 {
-    "id": "#xxx",
-    "name": "BoldportClub/cordwood/tuner",
-    "description": "enter description",
-    "categories": "",
+    "id": "#271", 
+    "name": "BoldportClub/cordwood/tuner", 
+    "description": "use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp", 
+    "categories": "Boldport, Cordwood, Arduino, Audio", 
     "relative_path": "BoldportClub/cordwood/tuner"
 }

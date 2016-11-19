@@ -1,6 +1,6 @@
 [
     {
-        "description": "the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Clup Project #3", 
+        "description": "the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3", 
         "relative_path": "BoldportClub/cordwood", 
         "id": "#269", 
         "categories": "Boldport, PCB Design, LED", 
@@ -14,7 +14,14 @@
         "name": "BoldportClub/cordwood/aanimate"
     }, 
     {
-        "description": "pimp the Boldport Clup Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)", 
+        "description": "use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp", 
+        "relative_path": "BoldportClub/cordwood/tuner", 
+        "id": "#271", 
+        "categories": "Boldport, Cordwood, Arduino, Audio", 
+        "name": "BoldportClub/cordwood/tuner"
+    }, 
+    {
+        "description": "pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)", 
         "relative_path": "BoldportClub/Emergency", 
         "id": "#257", 
         "categories": "Boldport, PCB Design, Oscillators", 
