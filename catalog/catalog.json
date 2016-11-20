@@ -1099,6 +1099,13 @@
         "name": "VoiceLevelIndicatorKit"
     }, 
     {
+        "description": "exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator", 
+        "relative_path": "Electronics101/VoltageControlledOscillator", 
+        "id": "#273", 
+        "categories": "Oscillators, VCO, Varicap", 
+        "name": "VoltageControlledOscillator"
+    }, 
+    {
         "description": "test a 3-wire voltmeter module", 
         "relative_path": "Electronics101/VoltmeterModule", 
         "id": "#181", 

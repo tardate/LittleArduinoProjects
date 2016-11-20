@@ -1,5 +1,6 @@
-# 272 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Saike909D](./Equipment/Saike909D) - unboxing and initial review of the Saike 909D 3-in-1 hot air rework station.
+# 273 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator) - exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -317,11 +318,12 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#145 VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [#163 VariableSawtoothGenerator](./Electronics101/VariableSawtoothGenerator)       | **OpAmp, Oscillators**          test a variable-geometry, fixed-amplitude sawtooth wave generator circuit |
+| [#125 VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
+| [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
 | [#147 VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
 | [#167 VoltageSensorModule](./playground/VoltageSensorModule)                       | **Sensors, Arduino**            test a 25V voltage sensor module with display on a 5110 LCD |
 | [#181 VoltmeterModule](./Electronics101/VoltmeterModule)                           | **Sensors**                     test a 3-wire voltmeter module |
 | [#097 VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
-| [#125 VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [#164 WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
 | [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
 | [#011 X113647Stepper](./playground/X113647Stepper)                                 | **Stepper, Arduino**            using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino |
