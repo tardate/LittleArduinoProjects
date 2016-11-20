@@ -65,3 +65,6 @@ which root note is playing
 * [Guitar tunings](https://en.wikipedia.org/wiki/Guitar_tunings) - wikipedia
 * [Passive Low Pass Filter](http://www.electronics-tutorials.ws/filter/filter_2.html)
 * [Low Pass Filter Calculator](http://www.learningaboutelectronics.com/Articles/Low-pass-filter-calculator.php)
+* [LM386 microphone amplifier](https://lowvoltage.wordpress.com/2011/05/15/lm386-mic-amp/)
+* [TI Single-Supply, Electret Microphone Pre-Amplifier Reference Design](http://www.ti.com/lit/ug/tidu765/tidu765.pdf)
+* [Electret microphone: selecting a bias resistor](http://electronics.stackexchange.com/questions/76696/electret-microphone-selecting-a-bias-resistor)
