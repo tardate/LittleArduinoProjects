@@ -1,6 +1,5 @@
-# 271 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/cordwood/tuner](./BoldportClub/cordwood/tuner) - Use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp.
-
+# 272 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Saike909D](./Equipment/Saike909D) - unboxing and initial review of the Saike 909D 3-in-1 hot air rework station.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -269,6 +268,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
+| [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
 | [#260 SaleaeLogic](./Equipment/SaleaeLogic)                                        | **Tools, Test Equipment, Logic Analyzer**  checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!) |
 | [#021 Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
