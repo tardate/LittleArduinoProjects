@@ -76,6 +76,18 @@ A quick test:
 ![Saike909D_psu](./assets/Saike909D_psu.jpg?raw=true)
 
 
+#### Warning: Power OFf Flyback
+
+One thing I've noted is a flyback surge when the main power is switched off.
+
+The surge appears on the PSU outputs **regardless of whether the PSU is turned on or off**.
+
+The actual spike is variable .. somewhere between -15V and +15V.
+
+Here's an example of the voltage on the PSU output when the master switch is turned off (with the PSU itself turned off):
+
+![Saike909D_psu_power_off](./assets/Saike909D_psu_power_off.gif?raw=true)
+
 ### Solder Station
 
 I already have a "favourite iron", so the solder station is kind of an unnecessary bonus.
