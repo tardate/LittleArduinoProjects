@@ -66,10 +66,10 @@ The following scope traces are for the protoboard build.
 
 These are the critical difference in my  circuit tests here from the one used by w2aew and as presented in Experimental Methods in RF Design:
 
-| Item            | Original    | As USed Here |
-|-----------------|-------------|--------------|
-| D1, D2 Varicap  | BB104/MV104 | KV1471       |
-| L1 Inductor     | 1µH         | 10µH         |
+| Item            | Original          | As USed Here  |
+|-----------------|-------------------|---------------|
+| D1, D2 Varicap  | BB104/MV104       | KV1471        |
+| L1 Inductor     | 1µH wound toroid  | 10µH RF choke |
 
 The other main difference (which I'm sure limits the frequency I could achieve) is construction:
 
@@ -86,7 +86,21 @@ I have just used:
 
 ![Schematic](./assets/VoltageControlledOscillator_schematic.jpg?raw=true)
 
+I used the breadboard to first make sure I could get a good oscillation.
+Shown here without the varicaps installed:
+
 ![VoltageControlledOscillator_breadboard](./assets/VoltageControlledOscillator_breadboard.jpg?raw=true)
+
+The protoboard layout is shown here. Since I have KV1471 diodes in surface-mount packages, I had first mounted them on a
+fragment of protoboard and made it breadboard pluggable. In the protoboard version, I'd just soldered it directly in.
+
+The pin header provides convenient access to (from left to right):
+
+* ground
+* ground
+* vcontrol (for external vcontrol power supply)
+* VCC/5V (so it can be jumpered to vcontrol)
+* output
 
 ![VoltageControlledOscillator_protoboard_layout](./assets/VoltageControlledOscillator_protoboard_layout.jpg?raw=true)
 
