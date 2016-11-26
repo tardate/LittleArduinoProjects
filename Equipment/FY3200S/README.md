@@ -24,12 +24,13 @@ The FY3200S is available with different upper frequency limits. I have the 24MHz
 
 In general it works great, especially the sweep function, here's a quick demo:
 
-![sweep](http://img.youtube.com/vi/jVyMcfEiMN0/0.jpg)](http://www.youtube.com/watch?v=jVyMcfEiMN0)
+[![sweep](http://img.youtube.com/vi/jVyMcfEiMN0/0.jpg)](http://www.youtube.com/watch?v=jVyMcfEiMN0)
 
 
-Only three isseus to highlight so far:
+Only a few comments, not necessarily that negative:
 
 * although billed as a 24MHz generator, and while it can achieve 24MHz, I see noticable attenuation over 20MHz
+* on power-on, it always starts up with a 10V sine wave. It would be nice if it restarted with previously-used settings.
 * the control layout is a bit inconvenient:
     * if you use your right-hand, output coaxial cables get in the way when using the control knob
     * but if you use your left-hand on the control knob, you obscure the screen
@@ -108,12 +109,17 @@ From the seller's site...
 | Phase Adjustment Range        | 0~359°                |
 | Phase Resolution              | 1°                    |
 
-#### Waveform Parameters
+#### Waveform Types
 
 | Item                                    | Specification |
 |-----------------------------------------|---------------|
 | Output Waveform Types                   | Sine, Triangle, Square, Sawtooth, Pre-defined, User-defined |
 | Pre-defined Waveforms                   | Pulse Wave, Lorentz Pulse, Multi-tone, Random Noise, Electrocardiogram, Trapezoidal Pulse, Symplectic Pulse, Narrow Pulse, Gaussian White Noise, Amplitude Modulated, Frequency Modulated |
+
+#### Waveform Parameters
+
+| Item                                    | Specification |
+|-----------------------------------------|---------------|
 | Sine Wave Harmonic Distortion           | ≤0.8%(Referent Frequency 1KHz)                              |
 | Square Wave: Rise/Fall Time             | ≤20ns(Referent Frequency 100KHz, 10Vpp)                     |
 | Square Wave: Overshoot                  | ≤7.5%                                                       |
@@ -184,13 +190,17 @@ From the seller's site...
 |  1 | CD                        |
 |  2 | BNC Clips Cable           |
 
+The CD contains soft copy of the manual.
+
+It also includes software for user-defined function generation/loading.
+I haven't tried any of the software yet as it is all for Windows only.
 
 
 ## Credits and References
 * [Digital DDS Function Signal Source Generator Arbitrary Waveform/Pulse Frequency Meter Dual-channel12Bit 250MSa/s Sine Wave 24MHz](http://www.aliexpress.com/item/Digital-DDS-Function-Signal-Source-Generator-Arbitrary-Waveform-Pulse-Frequency-Meter-Dual-channel12Bit-250MSa-s-Sine/32636403343.html) - from an aliexpress seller
-* [Re: FeelTech FY3224S 24MHz 2-Channel DDS AW Function Signal Generator](http://www.eevblog.com/forum/testgear/feeltech-fy3224s-24mhz-2-channel-dds-aw-function-signal-generator/msg891740/#msg891740)
-* [Feeltech FY3200S Signal Generator](http://www.dalbert.net/?p=322)
-* [FeelTech Signal Generator FY3200S, FY3224S](https://www.youtube.com/watch?v=EZ-i6lOTT9k) - good feature review
-* [Feeltech FY-3200S - Frequency counter function](https://www.youtube.com/watch?v=ClbJPD1L8Wg)
-* [SDGMB #006 FeelTech FY3224S 24MHz Signal Generator Banggood](https://www.youtube.com/watch?v=9o5MzTOzZo4)
 * [feeltech.net](http://en.feeltech.net/html/Signal%20generator/show_16.html)
+* [FY32xxS Series User's Manual V1.4](https://www.scribd.com/document/311788587/FY32xxS-Series-User-s-Manual-V1-4)
+* [Re: FeelTech FY3224S 24MHz 2-Channel DDS AW Function Signal Generator](http://www.eevblog.com/forum/testgear/feeltech-fy3224s-24mhz-2-channel-dds-aw-function-signal-generator/msg891740/#msg891740)
+* [FeelTech Signal Generator FY3200S, FY3224S](https://www.youtube.com/watch?v=EZ-i6lOTT9k) - good feature review
+* [Feeltech FY-3200S - Frequency counter function](https://www.youtube.com/watch?v=ClbJPD1L8Wg) - review on youtube
+* [SDGMB #006 FeelTech FY3224S 24MHz Signal Generator Banggood](https://www.youtube.com/watch?v=9o5MzTOzZo4) - review on youtube
