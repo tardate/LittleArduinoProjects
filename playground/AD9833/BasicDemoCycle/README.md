@@ -2,7 +2,6 @@
 
 Run a basic waveform demo with an AD9833 module
 
-
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
 ## Notes
@@ -64,10 +63,11 @@ It is running at very low frequencies in order to produce a visual demo. It send
 [PlotNValues (a simple Processing sketch)](../../../processing/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
 Here's a sample trace. It shows a few cycles of each waveform. From the left:
-* triangle wave
-* square wave (halved cycle time i.e. twice as fast)
 * sine wave
 * square wave (normal cycle time)
+* triangle wave
+* square wave (halved cycle time i.e. twice as fast)
+* output off
 
 Note that square waves are rail-to-rail, since they bypass the DAC. Other waveforms peak at 0.65V per the datasheet.
 
@@ -77,7 +77,23 @@ Note that square waves are rail-to-rail, since they bypass the DAC. Other wavefo
 
 A few quick measurements with a frequency counter gave very good results under a few MHz.
 But when I started pushing into the 6-12.5MHz realm, accuracy appeared to drop off markedly.
-This might be a measurement issue; I'll have to take a closer look at that with some better test equipment.
+
+This may simply be the influence of running the module on a breadboard. I should try it on a PCB.
+
+For now, here are some results (AC-coupled scope traces) with a sinusoid waveform in the breadboard layout.
+
+At 1MHz, still a decent output:
+
+![scope_1MHz trace](./assets/scope_1MHz.gif?raw=true)
+
+By 8MHz, the waveform is quite distorted and unstable but still on frequency:
+
+![scope_8MHz trace](./assets/scope_8MHz.gif?raw=true)
+
+By 12MHz, it has devolved to a heavily-modulated mess:
+
+![scope_12MHz trace](./assets/scope_12MHz.gif?raw=true)
+
 
 ## Construction
 
@@ -93,6 +109,7 @@ Running at 300kHz, pretty accurate!
 ![The Build](./assets/BasicDemoCycle_build.jpg?raw=true)
 
 ## Credits and References
+* Thanks to Michaël via email for the idea of an "off" step in the demo cycle
 * [Module from a seller on aliexpress](http://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
 * [AD9833 datasheet](http://www.analog.com/en/products/rf-microwave/direct-digital-synthesis-modulators/ad9833.html)
 * [Arduino SPI Reference](https://www.arduino.cc/en/Reference/SPI)
