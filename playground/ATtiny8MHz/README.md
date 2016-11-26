@@ -64,7 +64,6 @@ The [engbedded fusecalc](http://www.engbedded.com/fusecalc) site is invaluable f
 It confirms that E:FF, H:DF, L:62 are factory defaults: 8 MHz internal oscillator with CKDIV8 prescaler: so it is running at 1 MHz.
 
 
-
 ### Setting the fuses with the Arduino IDE
 
 When using an Arduino as the in-system programmer, the Arduino IDE can be used to burn the correct fuse settings.
@@ -76,7 +75,7 @@ This is too easy:
 
 This will not only set the fusues, but erase any program already on the chip and lay down a fresh bootloader
 
-![arduino_isp_menu_burn_bootloader](./assets/arduino_isp_menu_burn_bootloader.jpg?raw=true)
+![arduino_isp_menu_burn_bootloader](./assets/arduino_isp_menu_burn_bootloader.png?raw=true)
 
 The Arduino IDE log window confirms what is going on.. note the `-Ulfuse:w:0xe2:m` fuse setting.
 
@@ -117,7 +116,6 @@ avrdude done.  Thank you.
 
 The [engbedded fusecalc](http://www.engbedded.com/fusecalc) confirms the chip is now configured for 8MHz:
 E:FF, H:DF, L:E2 are essentially factory defaults but with one change: the CKDIV8 prescaler is off, so it is running at 8 MHz.
-
 
 
 ### Setting Fuses Directly with avrdude
@@ -225,7 +223,6 @@ avrdude: safemode: Fuses OK (E:FF, H:DF, L:E2)
 
 avrdude done.  Thank you.
 ```
-
 
 ### Verifying 8MHz operation
 
