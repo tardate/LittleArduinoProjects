@@ -1302,6 +1302,13 @@
         "name": "ATmegaViaArduinoISP"
     }, 
     {
+        "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
+        "relative_path": "playground/ATtiny8MHz", 
+        "id": "#275", 
+        "categories": "Arduino, ATmel", 
+        "name": "ATtiny8MHz"
+    }, 
+    {
         "description": "test hardware interrupts with an ATtiny85 processor on a breadboard", 
         "relative_path": "playground/ATtinyHardwareInterrupt", 
         "id": "#126", 

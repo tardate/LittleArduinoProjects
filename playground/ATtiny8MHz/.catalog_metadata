@@ -1,0 +1,7 @@
+{
+    "id": "#275", 
+    "name": "ATtiny8MHz", 
+    "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
+    "categories": "Arduino, ATmel", 
+    "relative_path": "playground/ATtiny8MHz"
+}

@@ -1,5 +1,5 @@
-# 274 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [FY3200S](./Equipment/FY3200S) - testing out the Feeltech FY3200S digital function generator.
+# 275 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ATtiny8MHz](./playground/ATtiny8MHz) - how to run an ATtine85 microprocessor at 8MHz using the internal clock.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -68,6 +68,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#069 ATmegaBreadboard](./playground/ATmegaBreadboard)                             | **Arduino, ATmel**              running an ATMEGA328P-PU on a breadboard  |
 | [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel**              a DIY ATmega programming shield for using an Arduino as ISP  |
 | [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel**              Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
+| [#275 ATtiny8MHz](./playground/ATtiny8MHz)                                         | **Arduino, ATmel**              how to run an ATtiny85 microprocessor at 8MHz using the internal clock |
 | [#126 ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt)               | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
 | [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel**              Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [#253 ATtinyProgrammingShield](./playground/ATtinyProgrammingShield)               | **Arduino, ATmel**              a custom ATtiny programming shield for Arduino ISP |

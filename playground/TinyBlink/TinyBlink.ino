@@ -1,8 +1,9 @@
 /*
   TinyBlink
-  
-  Toggles LEDs connected to pin 0 and 1
-  
+
+  Toggles LEDs connected to GPIO pin 0 and 1
+
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/TinyBlink
  */
 
 void setup() {
