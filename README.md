@@ -1,6 +1,5 @@
-# 284 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/TheGent](./BoldportClub/TheGent) - The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board.
-
+# 285 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/tap](./BoldportClub/tap) - Harking back to an old Boldport project, which harks back to a 1974 Elector article .. and the main IC (7400 NAND gate) is still available!
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -100,6 +99,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
+| [#285 BoldportClub/tap](./BoldportClub/tap)                                        | **Boldport, PCB Design, 74xx** Harking back to an old Boldport project, which harks back to a 1974 Elector article .. and the main IC (7400 NAND gate) is still available! |
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#284 BoldportClub/TheGent](./BoldportClub/TheGent)                                | **Boldport, PCB Design**        The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board |
