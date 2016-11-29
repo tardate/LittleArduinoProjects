@@ -1,5 +1,5 @@
-# 275 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ATtiny8MHz](./playground/ATtiny8MHz) - how to run an ATtine85 microprocessor at 8MHz using the internal clock.
+# 276 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [VariableFrequencyRunwayLEDs](./playground/VariableFrequencyRunwayLEDs) - a PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4011.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -319,6 +319,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#174 UsbNotifier](./Electronics101/UsbNotifier)                                   | **LED, USB**                    tear-down and demo code for some oldUSB Webmail Notifier devices |
 | [#145 VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
+| [#276 VariableFrequencyRunwayLEDs](./playground/VariableFrequencyRunwayLEDs)       | **LED, Arduino**                a PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4011 |
 | [#163 VariableSawtoothGenerator](./Electronics101/VariableSawtoothGenerator)       | **OpAmp, Oscillators**          test a variable-geometry, fixed-amplitude sawtooth wave generator circuit |
 | [#125 VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
