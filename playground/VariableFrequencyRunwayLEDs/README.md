@@ -43,13 +43,13 @@ The [VariableFrequencyRunwayLEDs.ino](./VariableFrequencyRunwayLEDs.ino) sketch 
 controls the frequency of the LED effect. As long as no change to the LED effect is required, the microcontroller is free to attend to other matters.
 
 
-### Subsystem Construction
+### Subsystem Composition
 
-See the schematic below for details. The circuit can be thought of in thress sections:
+See the schematic below for details. The circuit can be thought of in three parts:
 
-* A basic LM331 voltage-to-frequency circuit running as an oscillator at ~7Hz,outputting a "clock" signal
+* A basic LM331 voltage-to-frequency circuit running as an oscillator at a base frequency of ~7Hz. This is the "clock" signal output.
 * A CD4011 driving a series of LEDs, and triggered by the LM331 "clock" signal
-* An Arduino PWM output that modifies the base frequency of the LM331 circuit, from it's base (high) frequency of 7Hz down to around 1Hz
+* An Arduino PWM output that modifies the base frequency of the LM331 circuit, from its base (high) frequency of 7Hz down to around 1Hz
 
 ### Performance
 
