@@ -1,6 +1,6 @@
 # #276 VariableFrequencyRunwayLEDs
 
-A PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4011
+A PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4017
 
 Here's a quick demo video of the circuit in action:
 
@@ -33,7 +33,7 @@ This provides a stable voltage-to-frequency conversion, and can be calibrated ba
 I've chosen a PWM Arduino output as the controlling reference here because it can be maintained without processor supervision.
 The problem is that an Arduino PWM output is by default variable duty cycle, not variable frequency (without poking the registers directly).
 
-The solution I've selected is to introduced a PWM signal from the microcontroller to "bleed" C1 (contributor to the LM331 RC constant) proportional to the PWM duty cycle. This produces the desired effet (variable frequency), but does affect frequency stability in doing so. However, for the effect I am after, these issues are negligible.
+The solution I've selected is to introduce a PWM signal from the microcontroller to "bleed" C1 (contributor to the LM331 RC constant) proportional to the PWM duty cycle. This produces the desired effect (variable frequency), but does affect frequency stability in doing so. However, for the effect I am after, these issues are negligible.
 
 Another approach is direct PWM frequency manipulation, but this is hampered by the more complex coding required, and the fact that PWM frequencies cannot be finely controlled in the low-Hz range. So the current approach seems to do the job pretty well.
 
@@ -48,7 +48,7 @@ controls the frequency of the LED effect. As long as no change to the LED effect
 See the schematic below for details. The circuit can be thought of in three parts:
 
 * A basic LM331 voltage-to-frequency circuit running as an oscillator at a base frequency of ~7Hz. This is the "clock" signal output.
-* A CD4011 driving a series of LEDs, and triggered by the LM331 "clock" signal
+* A CD4017 driving a series of LEDs, and triggered by the LM331 "clock" signal
 * An Arduino PWM output that modifies the base frequency of the LM331 circuit, from its base (high) frequency of 7Hz down to around 1Hz
 
 ### Performance
@@ -71,5 +71,5 @@ With extremely low PWM duty cycle, this is reduced to ~1Hz:
 
 ## Credits and References
 * [LM331 Datasheet](http://www.ti.com/lit/ds/symlink/lm331.pdf)
-* [CD4011 datasheet](http://www.futurlec.com/4000Series/CD4011.shtml)
+* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * LEAP#256 [BoldportClub Pease](../../BoldportClub/Pease)
