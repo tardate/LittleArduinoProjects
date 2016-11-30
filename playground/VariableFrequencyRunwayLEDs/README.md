@@ -2,7 +2,9 @@
 
 A PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4011
 
-![Build](./assets/VariableFrequencyRunwayLEDs_build.jpg?raw=true)
+Here's a quick demo video of the circuit in action:
+
+[![Build](./assets/VariableFrequencyRunwayLEDs_build.jpg?raw=true)](http://www.youtube.com/watch?v=qnxnlBLyGxo)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
