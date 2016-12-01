@@ -1897,7 +1897,7 @@
         "name": "TinyBlink"
     }, 
     {
-        "description": "a PWM-controlled variable frequency LED \"runway lights\" effect using the LM331 and CD4011", 
+        "description": "a PWM-controlled variable frequency LED \"runway lights\" effect using the LM331 and CD4017", 
         "relative_path": "playground/VariableFrequencyRunwayLEDs", 
         "id": "#276", 
         "categories": "LED, Arduino", 
