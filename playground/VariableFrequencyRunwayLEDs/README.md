@@ -33,33 +33,64 @@ This provides a stable voltage-to-frequency conversion, and can be calibrated ba
 I've chosen a PWM Arduino output as the controlling reference here because it can be maintained without processor supervision.
 The problem is that an Arduino PWM output is by default variable duty cycle, not variable frequency (without poking the registers directly).
 
-The solution I've selected is to introduce a PWM signal from the microcontroller to "bleed" C1 (contributor to the LM331 RC constant) proportional to the PWM duty cycle. This produces the desired effect (variable frequency), but does affect frequency stability in doing so. However, for the effect I am after, these issues are negligible.
+The solution I've selected is to introduce a PWM signal from the microcontroller to "bleed"/"feed" C1 (contributor to the LM331 RC constant) proportional to the PWM duty cycle. This produces the desired effect (variable frequency), but does affect frequency stability a little in doing so. However, for the effect I am after, these issues are negligible.
 
-Another approach is direct PWM frequency manipulation, but this is hampered by the more complex coding required, and the fact that PWM frequencies cannot be finely controlled in the low-Hz range. So the current approach seems to do the job pretty well.
+Another approaches?
+
+* direct PWM frequency manipulation, but this is hampered by the more complex coding required, and the fact that PWM frequencies cannot be finely controlled in the low-Hz range.
+* a "traditional" approach of directly generating the required clock signal on the microcontroller (digitalWrite), but this ties up the processor.
+
+So all things considered, the current approach seems to do the job pretty well.
 
 I may write more on this later, but for now I can at least present experimental proof that it works!
 
 The [VariableFrequencyRunwayLEDs.ino](./VariableFrequencyRunwayLEDs.ino) sketch demonstrates how setting the PWM output level for an Arduino pin
 controls the frequency of the LED effect. As long as no change to the LED effect is required, the microcontroller is free to attend to other matters.
 
-
 ### Subsystem Composition
 
 See the schematic below for details. The circuit can be thought of in three parts:
 
-* A basic LM331 voltage-to-frequency circuit running as an oscillator at a base frequency of ~7Hz. This is the "clock" signal output.
+* A basic LM331 voltage-to-frequency circuit running as an oscillator at a base frequency of ~5Hz. This is the "clock" signal output.
 * A CD4017 driving a series of LEDs, and triggered by the LM331 "clock" signal
-* An Arduino PWM output that modifies the base frequency of the LM331 circuit, from its base (high) frequency of 7Hz down to around 1Hz
+* An Arduino PWM output that modifies the base frequency of the LM331 circuit, from a high of 8Hz down to around 1Hz
+
 
 ### Performance
 
-The base voltage-to-frequency circuit (before introducing the PWM control signal) is a ~7Hz pulse:
+With the component selection as details in the schematic below, and built on a breadboard, I'm getting an output frequency that can be controlled in the 1-8Hz range.
 
-![scope_f_max](./assets/scope_f_max.gif?raw=true)
+The base performance of the circuit with no PWM signal connected is running at 5Hz.
 
-With extremely low PWM duty cycle, this is reduced to ~1Hz:
+The oscilloscope trace of the R/C signal (pin 5 of the LM331) is a 5Hz charge curve like this:
 
-![scope_f_min](./assets/scope_f_min.gif?raw=true)
+![scope_5hz](./assets/scope_5hz.gif?raw=true)
+
+When the PWM input is connected, the RC charge curve is modified proportional to the duty cycle.
+The PWM signal is running at the AVR default frequency of 468Hz.
+
+With a PWM setting of 205 (80% duty), the nett effect is a reduction of the effective resistance, hence faster charge.
+In this case, the frequency rises to 7Hz and the RC signal looks like this:
+
+![scope_7Hz](./assets/scope_7Hz.gif?raw=true)
+
+The resulting CLK signal feeding the CD4017 is a 7Hz pulse/square wave:
+
+![scope_fout_7Hz](./assets/scope_fout_7Hz.gif?raw=true)
+
+The specific PWM settings (255=100% duty cycle) and the corresponding output frequencies achieved are as follows:
+
+| PWM level (0-255) | Frequency |
+|-------------------|-----------|
+| 4                 | 1Hz       |
+| 5                 | 2Hz       |
+| 15                | 3Hz       |
+| 25                | 4Hz       |
+| 45                | 5Hz       |
+| 155               | 6Hz       |
+| 205               | 7Hz       |
+| 250               | 8Hz       |
+
 
 ## Construction
 
