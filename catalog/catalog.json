@@ -63,6 +63,13 @@
         "name": "BoldportClub/TheLady"
     }, 
     {
+        "description": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)", 
+        "relative_path": "BoldportClub/Touchy", 
+        "id": "#277", 
+        "categories": "Boldport, EFM8, Sensors", 
+        "name": "BoldportClub/Touchy"
+    }, 
+    {
         "description": "widely-adjustable square wave generator using the 555 timer", 
         "relative_path": "Electronics101/555Timer/AdjustablePulseGenerator", 
         "id": "#184", 

@@ -1,0 +1,7 @@
+{
+    "id": "#277", 
+    "name": "BoldportClub/Touchy", 
+    "description": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)", 
+    "categories": "Boldport, EFM8, Sensors", 
+    "relative_path": "BoldportClub/Touchy"
+}
