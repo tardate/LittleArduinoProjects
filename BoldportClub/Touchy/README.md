@@ -48,7 +48,7 @@ The microcontroller comes in a QSOP24 package that has a 0.625mm pin pitch.
 This is eye-strainingly small, and I new would be the biggest challenge so I did it first.
 I also did it first because I planned to use hot-air gun, and I didn't want already-installed components falling off the backside of the board!
 
-Ideally I'd use solder paste for this (but don't have any available right now), so the technique I used:
+Ideally I'd use solder paste for this but don't have any available right now, so the technique I used was this:
 
 * load more solder on the pads with an iron
 * for this I'm using leaded 63sn/37pb with 1.2% flux. It is not the solder I use for "shiny domes" but I find it better for fine work, and since it is eutectic it is ideal for fixing small parts in place without them shifting as the solder cools.
@@ -68,7 +68,7 @@ The result is visually pretty pleasing, and also electrically sound:
 
 ### Adding the Battery Clip
 
-I added the batter clip next so I could finish work on one side of the board before completing the surface mount components on the other side.
+I added the battery clip next so I could finish work on one side of the board before completing the surface mount components on the other side.
 
 For this I switched to 2% Ag (63sn37pb2Ag) that I find best for shiny domes ... and made big shiny balls!
 
@@ -97,8 +97,8 @@ This tutorial by #DefineElectronics is a great start:
 
 [![#7 How to upload code to the Touchy board via the serial Bootloader](http://img.youtube.com/vi/HoMjZiPxQnk/0.jpg)](http://www.youtube.com/watch?v=HoMjZiPxQnk)
 
-The Silicon Labs' [Simplicty Studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx) is used to edit and compile programs for the microcontroller,
-I haven't tried this yet, but things look promising as there is a Windows, Mac and Linux installer. It seems very heavyweight though (another Eclipse-based IDE).
+The Silicon Labs' [Simplicty Studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx) is used to edit and compile programs for the microcontroller.
+I haven't tried this yet, but things look promising as there is a Windows, Mac and Linux installer. It seems very heavy-weight though (another Eclipse-based IDE).
 
 Thankfully we don't need that to get the board up and running, as there are pre-compiled samples available.
 
@@ -125,7 +125,7 @@ The
 [BC_Touchy_Firmware](https://github.com/HashDefineElectronics/BC_Touchy_Firmware)
 repository not only contains the Simple program (source and pre-compiled images) but also programming tools.
 
-Since I'm running on MacOSX, I used  the [efm8load.py](https://github.com/HashDefineElectronics/BC_Touchy_Firmware/blob/master/Bootloader/Tools/Source/efm8load.py)
+Since I'm running on MacOSX, I used the [efm8load.py](https://github.com/HashDefineElectronics/BC_Touchy_Firmware/blob/master/Bootloader/Tools/Source/efm8load.py)
 script to send the program to the microcontroller.
 The script is an interesting read - very simple, just dumps the file out the port and checks the acknowledgements coming back!
 
@@ -218,10 +218,10 @@ This is new to me, but a quick scan of
 [AN0828: Capacitive Sensing Library Overview](https://www.silabs.com/Support%20Documents/TechnicalDocs/an0828-capacitive-sensing-library-overview.pdf)
 and
 [AN0829: Capacitive Sensing Library Configuration Guide](https://www.silabs.com/Support%20Documents/TechnicalDocs/AN0829.pdf)
-and I think I get the basic idea. The library provides an abstration over underlying port input and software debouncing
+and I think I get the basic idea. The library provides an abstraction over underlying port inputs and software debouncing support.
 
-So in the program we see references like `CSLIB_isSensorDebounceActive(3)` which refers to the sensor at index 3 in the sensor array (i.e. the 4th sensor)
-The sensor array is mapped to pins in hardware configuration, with the result:
+So in the program we see references like `CSLIB_isSensorDebounceActive(3)` which refers to the sensor at index 3 in the sensor array (i.e. the 4th sensor).
+The sensor array is mapped to pins in the hardware configuration, with the result:
 
 
 | Index | CS Port      | Action                                        |
@@ -239,9 +239,9 @@ The sensor array is mapped to pins in hardware configuration, with the result:
 
 ## Schematic
 
-The [Touchy schematic](https://github.com/boldport/touchy/blob/master/docs/schematics.svg) is available the OSH files repository.
+The [Touchy schematic](https://github.com/boldport/touchy/blob/master/docs/schematics.svg) is available in the OSH files repository.
 But as is my routine, I like to redraw circuits to get better acquainted with exactly how they are put together.
-Usually I'll use Fritzing for this as it is very quick, but note I fudge details (like the microprocessor is not really DIP24):
+I'll usually use Fritzing for this as it is very quick, but note I fudge details (like the microprocessor is not really DIP24):
 
 ![Schematic](./assets/Touchy_schematic.jpg?raw=true)
 
