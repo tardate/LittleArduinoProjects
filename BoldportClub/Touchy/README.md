@@ -87,6 +87,8 @@ The 0805 compoinents are SO BIG after doing the QSOP24. These components all wen
 ![kit_build_reverse](./assets/kit_build_reverse.jpg?raw=true)
 
 The only trouble I had was deciding where to stick the feet..
+and now I notice the base of the feet are not symmetrical - I should have rotated that one of the left by 180˚.
+Am I getting too obsessive???
 
 ![kit_build_feet](./assets/kit_build_feet.jpg?raw=true)
 
