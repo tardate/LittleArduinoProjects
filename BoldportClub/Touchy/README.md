@@ -2,7 +2,9 @@
 
 Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7).
 
-![Build](./assets/Touchy_build.jpg?raw=true)
+![Touchy_build_top](./assets/Touchy_build_top.jpg?raw=true)
+
+![Touchy_build_bottom](./assets/Touchy_build_bottom.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -46,7 +48,7 @@ The microcontroller comes in a QSOP24 package that has a 0.625mm pin pitch.
 This is eye-strainingly small, and I new would be the biggest challenge so I did it first.
 I also did it first because I planned to use hot-air gun, and I didn't want already-installed components falling off the backside of the board!
 
-Ideally I'd use solder paste for this (but don't have any available right now), so the techniqueu I used:
+Ideally I'd use solder paste for this (but don't have any available right now), so the technique I used:
 
 * load more solder on the pads with an iron
 * for this I'm using leaded 63sn/37pb with 1.2% flux. It is not the solder I use for "shiny domes" but I find it better for fine work, and since it is eutectic it is ideal for fixing small parts in place without them shifting as the solder cools.
