@@ -10,7 +10,7 @@ Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroll
 
 ## Notes
 
-I gather this project was designed for BolportClub by [#DefineElectronics](https://www.hashdefineelectronics.com), and I'm guessing board design by Saar Drimer.
+I gather this project was designed for BolportClub by Saar Drimer as usual, but with coding and examples provided by [#DefineElectronics](https://www.hashdefineelectronics.com).
 
 No disappointments here - another beautiful board to add to my growing collection of club projects!
 We've seen touch input in club projects before (The Tap), but there are two other features of this project that provide a special jolt of novelty for me:
@@ -45,7 +45,7 @@ When completed, the board features:
 ### Soldering the EFM8SB10F8G-A-QSOP24 microcontroller
 
 The microcontroller comes in a QSOP24 package that has a 0.625mm pin pitch.
-This is eye-strainingly small, and I new would be the biggest challenge so I did it first.
+This is eye-strainingly small, and I knew would be the biggest challenge so I did it first.
 I also did it first because I planned to use hot-air gun, and I didn't want already-installed components falling off the backside of the board!
 
 Ideally I'd use solder paste for this but don't have any available right now, so the technique I used was this:
