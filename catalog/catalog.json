@@ -1134,6 +1134,13 @@
         "name": "WienBridgeAudioToneGenerator"
     }, 
     {
+        "description": "build and evaluate a popular ATMEAG328-based component tester kit", 
+        "relative_path": "Equipment/ComponentTesterKit", 
+        "id": "#278", 
+        "categories": "Tools, Test Equipment, ATmega", 
+        "name": "ComponentTesterKit"
+    }, 
+    {
         "description": "testing out the Feeltech FY3200S digital function generator", 
         "relative_path": "Equipment/FY3200S", 
         "id": "#274", 

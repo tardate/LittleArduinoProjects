@@ -1,5 +1,5 @@
-# 277 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/Touchy](./BoldportClub/Touchy) - Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7).
+# 278 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ComponentTesterKit](./Equipment/ComponentTesterKit) - build and evaluate a popular ATMEAG328-based component tester kit.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -116,6 +116,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#246 CMOSOscillators](./Electronics101/CMOSOscillators)                           | **CMOS, Oscillators**           testing a 4-pin CMOS oscillator component |
 | [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
+| [#278 ComponentTesterKit](./Equipment/ComponentTesterKit)                          | **Tools, Test Equipment, ATmega**  build and evaluate a popular ATMEAG328-based component tester kit |
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 voltage sensor module with display on a 5110 LCD |
