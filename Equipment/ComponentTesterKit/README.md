@@ -216,7 +216,6 @@ Here's a 10kΩ resistor under test:
 
 ![test_resistor_10k](./assets/test_resistor_10k.jpg?raw=true)
 
-
 #### Capacitors
 
 Here's a 33nF capacitor under test, measured as 37nF:
@@ -225,6 +224,10 @@ Here's a 33nF capacitor under test, measured as 37nF:
 
 Attention: All ways be sure to discharge capacitors before connecting them to the Tester.
 The Tester may be damaged before you have switched it on. There is only a little protection at the MCU’s ports.
+
+The "1-||-3" function can measure smaller capacitances than the general tester. Here it is testing a 10pF ceramic:
+
+![test_cap_10pf](./assets/test_cap_10pf.jpg?raw=true)
 
 #### Inductors
 
@@ -379,14 +382,22 @@ color .
 ### BackColor
 This is function is the same as the FrontColor except it’s change the background color .
 
-### 1-||-3
-This function can series Measurement the capacitance at TP1 ,TP3, this function can Measurement very small capacitor. A
-long time press will exit the function.
+### Small Capacitance Measurement (Function: "1-||-3")
 
-### 1- - 3
-This function can series Measurement the Resistance and inductance at TP1 ,TP3, A long time press will exit the function.
+The "1-||-3" function can measure smaller capacitances than the general tester between TP1 and TP3.
+A long-press will exit the function.
+
+Here it is testing a 10pF ceramic:
+
+![test_cap_10pf](./assets/test_cap_10pf.jpg?raw=true)
+
+### Series resistance-inductance measurement (Function: "1- -3")
+
+This function can measurement series resistance and inductance between TP1 and TP3.
+A long-press will exit the function.
 
 ### DS18B20
+
 The DS18B20 is a Digital Thermometer with 1 Wire communicating protocol , it Looks like a Transistor due to the
 component package of TO-92, so it can fit into the Transistor tester.
 
