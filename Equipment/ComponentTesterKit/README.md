@@ -148,7 +148,6 @@ The PCB also has corresponding SMT test pads (unfortunately inaccessible when th
 Brief cummary of the function menu options:
 
 * Switch off - what it says! Shut down immediately
-
 * Transistor - component tester (default function at power on)
 * Frequency - measure frequency < 25kHz
 * f-Generator - signal generator
@@ -169,17 +168,6 @@ Brief cummary of the function menu options:
 
 
 ## Component Tests and Features
-
-**still tidying notes that follow...**
-
-When test two lead component(resistor, capacitor, inductor), the two lead can select any two test point . if TP1 and TP3
-is selected, the Test will enter to” series test mode” when the test is Completes. Else the test is start again by a shorttime
-press RPEWS.
-
-Attention: All ways be sure to discharge capacitors before connecting them to the Tester! The Tester may be damaged
-before you have switched it on. There is only a little protection at the MCU’s ports.
-
-Extra caution is required if you try to test components mounted in a circuit. In either case the equipment should be disconnected from power source and you should be sure, that no residual voltage remains in the equipment.
 
 
 ### Special using hints:
@@ -210,7 +198,61 @@ transistor cannot be detected by reason of the parallel connected internal 42ohm
 cannot be tested also. Problem with detection is also given with power Darlington transistors. We can find often internal
 base - emitter resistors, which make it difficult to identify the component with the undersized measurement current.
 
-### Measurement of PNP and NPN transistors:
+
+### Two-leaded Passives: resistors, capacitors, inductors
+
+These can all be measured in the default test mode between TP1 and TP3.
+
+Two-leaded passive components (resistor, capacitor, inductor) can be tested between any two test points.
+
+If TP1 and TP3 are selected, the test will enter series test mode when the test is complete, else the
+test may be started again with a RPEWS short-press.
+
+In the component is polarized (for example electrolytic capacitors), favour TP1 for the negative lead/cathode.
+
+#### Resistors
+
+Here's a 10kΩ resistor under test:
+
+![test_resistor_10k](./assets/test_resistor_10k.jpg?raw=true)
+
+
+#### Capacitors
+
+Here's a 33nF capacitor under test, measured as 37nF:
+
+![test_cap_33nf](./assets/test_cap_33nf.jpg?raw=true)
+
+Attention: All ways be sure to discharge capacitors before connecting them to the Tester.
+The Tester may be damaged before you have switched it on. There is only a little protection at the MCU’s ports.
+
+#### Inductors
+
+Measurement resolution is only 10µH, so it is not possible to measure very small inductors.
+
+Here's a 33µH, measured as 0.04mH:
+
+![test_inductor_33uh](./assets/test_inductor_33uh.jpg?raw=true)
+
+And a 20mH power inductor:
+
+![test_inductor_20mh](./assets/test_inductor_20mh.jpg?raw=true)
+
+### BJT
+
+Bipolar junction transistors can be measure with the pins connected in any sequence to TP1, TP2 and TP3.
+The test will diagnose the type and pin configuration.
+
+Here is a 2N3904 NPN under test:
+
+![test_npn](./assets/test_npn.jpg?raw=true)
+
+Here is a 2N3906 PNP under test:
+
+![test_pnp](./assets/test_pnp.jpg?raw=true)
+
+
+#### Notes on measuring PNP and NPN transistors
 
 For normal measurement the three pins of the transistor will be connect in any order to the measurement inputs of the
 Transistor Tester. After pushing the RPEWS, the Tester shows in row1 the type (NPN or PNP), a possible integrated protecting
@@ -222,11 +264,32 @@ follower). Only the higher result is shown on the LCD.
 With Germanium transistors often a Collector cutoff current ICEO with current less base or a Collector residual current ICES
 with base hold to the emitter level is measured
 
-### Measurement of JFET and D-MOS transistors:
+### MOSFET
 
-Because the structure of JFET type is symmetrical, the Source and Drain of this transistor cannot be differed. Normally one of the parameter of this transistor is the current of the transistor with the Gate at the same level as Source. This current is
-often higher than the current, which can be reached with the measurement circuit of the Transistor Tester with the 680ohm
-resistor. For this reason the 680ohm resistor is connected to the Source. Thus the Gate get with the growing of current a
+test_nefet
+
+Here is a 2N7000 n-channel MOSFET under test:
+
+![test_nefet](./assets/test_nefet.jpg?raw=true)
+
+
+### JFET
+
+Here is a J201 n-JFET under test:
+
+![test_njfet](./assets/test_njfet.jpg?raw=true)
+
+Here is a J175 p-JFET under test:
+
+![test_pjfet](./assets/test_pjfet.jpg?raw=true)
+
+
+#### Notes on measuring JFET and D-MOS transistors
+
+Because the structure of JFET type is symmetrical, the Source and Drain of this transistor cannot be differed.
+Normally one of the parameter of this transistor is the current of the transistor with the Gate at the same level as Source.
+This current is often higher than the current, which can be reached with the measurement circuit of the Transistor Tester with the 680Ω
+resistor. For this reason the 680Ω resistor is connected to the Source. Thus the Gate get with the growing of current a
 negative bias voltage. The Tester reports the Source current of this circuit and additionally the bias voltage of the Gate. So
 various models can be differed. The D-MOS transistors (depletion type) are measured with the same method.
 You should know for enhancement MOS transistors (P-E-MOS or N-E-MOS), that the measurement of the gate threshold
@@ -237,30 +300,65 @@ with a value of some nF parallel to the gate/source. The gate threshold voltage 
 
 ### Frequency Measurement
 
-For frequencies below 25kHz the normal measurement is followed by a measurement of
-period time. This additional measurement is only followed after a normal frequency measurement.
+For frequencies below 25kHz the normal measurement is followed by a measurement of period time.
+This additional measurement is only followed after a normal frequency measurement.
 
-### f-Generator
-Signal generation, this Function can output square wave .with various of frequency to choice.
+TODO: not sure where the frequency input is expected
+
+
+### Signal Generator (Function "f-Generator")
+
+This function produces a square wave on TP2 (also available on the middle-lower connector J4).
+Frequncy is selected from a menu of options rather than being continuously variable.
+
+Some examples captured on an oscilloscope. First, a nice 1kHz wave:
+
+![test_fgen_1khz](./assets/test_fgen_1khz.gif?raw=true)
+
+At 1MHz, there is some distortion but still good separation in the signal:
+
+![test_fgen_1mhz](./assets/test_fgen_1mhz.gif?raw=true)
 
 ### 10-bit PWM
-The function ”10-bit PWM” (Pulse Width Modulation) generates a fixed frequency(7812.5Hz) with selectable pulse
-width at the pin TP2. With a short key press (< 0.5 s) the pulse width is increased by 1%, with a longer key press the pulse
-width is increased by 10%. If 99% is overstepped, 100% is subtracted from the result. The function can be exit with a very
-long key press (> 1.3 s).
 
-### C+ESR@TP1:3
-The additional function ”C+ESR@TP1:3” selects a stand-alone capacity measurement with ESR (Equivalent Series
-Resistance) measurement at the test pins TP1 and TP3. Capacities from 2µF up to 50mF can be measured. Because the
-measurement voltage is only about 300mV , in most cases the capacitor can be measured ”in circuit” without previous
-disassembling. The series of measurements can be finished with a long press of RPEWS.
+The function ”10-bit PWM” (Pulse Width Modulation) generates a fixed frequency (7812.5Hz) with selectable pulse
+width at the pin TP2 (also available on the middle-lower connector J4).
 
-### Voltage
-Voltage measurement, Because a 10:1(180K:20K) voltage divides is connected , the maximum external voltage can be
-50V, The measurement can also be exit by Continuous rotation of the RPEWS.
+Duty cycle is adjustable with a 1% resolution.
 
+* RPEWS short-press increases duty cycle by 1%
+* longer RPEWS press increases duty cycle by 10%
+* 100% wraps around to 0%
+* RPEWS long-press exits the function
+
+PWM wave generated at 75% duty cycle:
+
+![test_pwm_75](./assets/test_pwm_75.gif?raw=true)
+
+### Capacitor and ESR Measurement (Function "C+ESR@TP1:3")
+
+This function is a stand-alone capacitor and ESR (Equivalent Series Resistance) measurement at the test pins TP1 and TP3.
+Capacitors from 2µF up to 50mF can be measured.
+Because the measurement voltage is only about 300mV , in most cases the capacitor can be measured ”in circuit” without previous disassembling.
+The series of measurements can be finished with a long press of RPEWS.
+
+Here's an example measurement of a 100µF electrolytic (negative connected to TP1):
+
+![test_cesr_100uf](./assets/test_cesr_100uf.jpg?raw=true)
+
+### Voltage Measurement (Function "Voltage")
+
+Voltage measurement is made on the lower right terminal block (J3 - Vext).
+The measurement can be exited by continuous rotation of the RPEWS.
+
+The maximum external voltage supported is 50V. It is scaled to 0-5V with a 10:1 (180K:20K) voltage divider comprising R19 and R20.
+
+Here's a measurement of a reasonable flat 9V cell:
+
+![test_vext_9v](./assets/test_vext_9v.jpg?raw=true)
 
 ### Show data
+
 The function ,”Show Data” shows besides the version number of the software the data of the calibration. These are the
 zero resistance (R0) of the pin combination 1:3, 2:3 and 1:2 .In addition the resistance of the port outputs to the 5V side
 (RiHi) and to the 0V side (RiLo) are shown. The zero capacity values (C0) are also shown with all pin combinations (1:3,
@@ -295,19 +393,26 @@ component package of TO-92, so it can fit into the Transistor tester.
 ![manual_2](./assets/manual_2.jpg?raw=true)
 
 
-When enter to this function, the Row 2 of the LCD is show a string “1=GND 2=DQ 3=VDD” , it’s mean TP1 of the tester
-connect the GND of the DS18B20 , and so on. The Tester can not sense the pin distribution of the DS18B20, because
-DS18B20 is a integrated circuit. Must according to the string to install the DS18B20.
-The Tester read the temperature use 12bit resolution, it first start a “Convert T“[44h] command, and then series read
-the 9 byte of the “SCRATCHPAD” and the “64-BIT LASERED ROM”. Fetch the first two byte within the “SCRATCHPAD”,
-conversion this first two byte to readable temperature show at row 3 of the LCD
+When the function is entered, row 2 of the LCD displays  "1=GND 2=DQ 3=VDD", which indicates
+device should be connected as follows:
+
+| Pin  | Test Connection |
+|------|-----------------|
+| GND  | TP1             |
+| DQ   | TP2             |
+| VDD  | TP3             |
+
+Here is a DS18B20 under test:
+
+![test_DS18B20](./assets/test_DS18B20.jpg?raw=true)
+
+The tester reads the temperature using 12bit resolution. It first starts a "Convert T" [44h] command, and then series reads
+the 9 bytes of the "SCRATHPAD" and the "64-BIT LASERED ROM". The first two bytes within the "SCRATCHPAD"
+are converted to readable temperature show at row 3 of the LCD.
 
 ![manual_3](./assets/manual_3.jpg?raw=true)
 
-For example:
-Follow is a read of the DS18B20.
-S S cratchpad :
-EC014B467FFF0C102A
+For example: a read of the DS18B20 yields scratchpad=EC014B467FFF0C102A
 
 ![manual_4](./assets/manual_4.jpg?raw=true)
 
@@ -317,16 +422,24 @@ EC014B467FFF0C102A
 ### DHT11
 
 DHT11 is a sensor with temperature measure and humidity measure, the degree of accuracy is +-5%RH and +-2C
-Measures temperatures from 0 to 50C , Measures humidity from 20-90%RH.
+Measures temperatures from 0 to 50C, and humidity from 20-90%RH.
+Exit the function RPEWS long-press > 3s.
 
 ![manual_5](./assets/manual_5.jpg?raw=true)
 
-When enter to this function, the Row 2 of the LCD is show a string “1=GND 2=DQ 3=VDD” , it’s mean TP1 of the tester
-connect the GND of the DHT11 , the “N/A” pin of the DHT11 can be floating, or connect to GND. The TP2 of the tester is
-connect to DATA of the DHT11, The TP3 of the tester is connect to VCC of the DHT11. The Tester can not sense the pin
-distribution of the EHT11 , Must according to Above statement.
-When a correctly read is occur, the temperature is show at row 3 and humidity is show at row 4.
-Exit this function can achieve by press and hold the RPEWS > 3s.
+When the function is entered, row 2 of the LCD displays "1=GND 2=DQ 3=VDD", which indicates
+device should be connected as follows:
+
+| Pin  | Test Connection |
+|------|-----------------|
+| GND  | TP1             |
+| N/A  | TP1 or floating |
+| DATA | TP2             |
+| VCC  | TP3             |
+
+Here is a DHT11 under test:
+
+![test_dht11](./assets/test_dht11.jpg?raw=true)
 
 ### IR_decoder
 The function of decoder is achieve by a IR receiver module. the follow IR receiver module is choice at design.
