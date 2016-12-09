@@ -301,12 +301,14 @@ with a value of some nF parallel to the gate/source. The gate threshold voltage 
 3.5mA for a P-E-MOS and about 4mA for a N-E-MOS
 
 
-### Frequency Measurement
+### Frequency Measurement (Function "Frequency")
 
-For frequencies below 25kHz the normal measurement is followed by a measurement of period time.
-This additional measurement is only followed after a normal frequency measurement.
+This function measures frequencies up to 25kHz on the upper terminal block (J5).
+It samples and reports the frequency every few seonds.
 
-TODO: not sure where the frequency input is expected
+Here's is a 1kHz sine wave, 4V peak-to-peak being measured:
+
+![test_frequency](./assets/test_frequency.gif?raw=true)
 
 
 ### Signal Generator (Function "f-Generator")
