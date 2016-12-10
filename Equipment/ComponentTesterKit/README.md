@@ -308,7 +308,7 @@ It samples and reports the frequency every few seonds.
 
 Here's is a 1kHz sine wave, 4V peak-to-peak being measured:
 
-![test_frequency](./assets/test_frequency.gif?raw=true)
+![test_frequency](./assets/test_frequency.jpg?raw=true)
 
 
 ### Signal Generator (Function "f-Generator")
