@@ -56,6 +56,13 @@
         "name": "BoldportClub/PissOff"
     }, 
     {
+        "description": "all about soldering and the Boldport Club QSOP breakout board", 
+        "relative_path": "BoldportClub/QSOPBreakout", 
+        "id": "#316", 
+        "categories": "Boldport, Soldering", 
+        "name": "BoldportClub/QSOPBreakout"
+    }, 
+    {
         "description": "build a solar-powered pendulum similar to the popular \"solar wobble/flip-flop toys\" on the Boldport QSOP breakout board", 
         "relative_path": "BoldportClub/QSOPBreakout/SolarPendulum", 
         "id": "#296", 
