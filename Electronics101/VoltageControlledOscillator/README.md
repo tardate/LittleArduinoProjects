@@ -37,10 +37,9 @@ On my protoboard build, I made that jumper-configurable, so an external control 
 
 In practice (both on a breadboard for initial tests, and then finally on protoboard)
 I was unable to achieve the 14MHz oscillation originally intended for this circuit.
-However by replacing the 1µH inductor with 10µH, I was able to get a nice stable oscillator at 5.46MHz (with no varicap voltage applied),
-and a varicap tuning range of a quite sizable 0.35MHz.
+However by replacing the 1µH inductor with 10µH, I was able to get a nice stable oscillator at 5.46MHz (with no varicap voltage applied), and a varicap tuning range of a quite sizable 0.35MHz.
 
-I suspect to get 14MHz I need a construction with a better ground plane and perhaps shielding (w2aew used Manhattan-style on a solid copper PCB for 14MHz). I will probably come back to try this at some point.
+See below for a section on "Rebuilt for 14MHz" where I tweak the circuit to achieve the originally intended frequency.
 
 ### Performance
 
@@ -66,7 +65,7 @@ The following scope traces are for the protoboard build.
 
 These are the critical difference in my  circuit tests here from the one used by w2aew and as presented in Experimental Methods in RF Design:
 
-| Item            | Original          | As USed Here  |
+| Item            | Original          | As Used Here  |
 |-----------------|-------------------|---------------|
 | D1, D2 Varicap  | BB104/MV104       | KV1471        |
 | L1 Inductor     | 1µH wound toroid  | 10µH RF choke |
@@ -79,6 +78,44 @@ The other main difference (which I'm sure limits the frequency I could achieve) 
 I have just used:
 * breadboard for initial tests
 * protoboard for final tests, but it lacks a decent groub plane and was not enclosed or shielded.
+
+
+## Rebuilt for 14MHz
+
+I wondered if breadboard/protoboard construction was preventing me from achieving the originally-intended 14MHz.
+I rebuilt the circuit on copper PCB Manhattan-style but this quickly confirmed the issue was really
+more about component selection than construction.
+
+I should have compared the varactors more closely. The KV1471 I'm using has a much lower capacitance range than the
+MV104 used in the original circuit, and the MV209 as used by w2aew.
+
+* KV1471 7.7pF at 4.5V to 35.6pF at 1V reverse voltage
+* MV104 35pF to 60pF (per capacitor) for a similar reverse voltage range
+* MV209 22pF to 50pF  for a similar reverse voltage range
+
+So I now have a 14MHz VCO with a few more component changes (with respect to the schematic below for my first build):
+
+| Item            | Per Schematic | Replacement   |
+|-----------------|---------------|---------------|
+| L1 Inductor     | 10µH RF choke | 2µH RF choke  |
+| C3 Capacitor    | 33pF          | 5pF           |
+| C2 Capacitor    | 33pF          | 4pF           |
+
+
+Here it is on a PCB. Note that I used some female pin headers so I could easily experiment with
+alternative L1, C2, C3 component selections.
+
+![VoltageControlledOscillator_build_v2](./assets/VoltageControlledOscillator_build_v2.jpg?raw=true)
+
+With 0V applied to Vcontrol, the operating frequency is 14.15MHz:
+
+![scope_v2_min](./assets/scope_v2_min.gif?raw=true)
+
+With 5V applied to Vcontrol, the operating frequency rises to 14.35MHz:
+
+![scope_v2_max](./assets/scope_v2_max.gif?raw=true)
+
+Note that at 14MHz, the output signal is significantly attenuated compared to my first 5MHz build. This could probably be improved by also revising some of the FET biasing. Job for another day...
 
 ## Construction
 
@@ -112,3 +149,5 @@ The pin header provides convenient access to (from left to right):
 * [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design)
 * [KV1471 datasheet](http://www.sumzi.com/upload/files/2007/06/2007062317524107881.PDF)
 * [J310 datasheet](http://www.futurlec.com/Transistors/J310.shtml)
+* [MV104 datasheet](http://www.onsemi.com/pub_link/Collateral/MV104-D.PDF)
+* [MV209 datasheet](http://www.onsemi.com/pub_link/Collateral/MMBV109LT1-D.PDF)
