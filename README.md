@@ -1,5 +1,5 @@
-# 278 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ComponentTesterKit](./Equipment/ComponentTesterKit) - build and evaluate a popular ATMEAG328-based component tester kit.
+# 279 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SingleStageTransmitterKit2](./Electronics101/FM/SingleStageTransmitterKit2) - build and tweak/tune another simple single-stage FM Transmitter Kit.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -283,6 +283,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#120 SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |
 | [#045 SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
 | [#208 SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit)    | **FM**                          build a simple single-stage FM transmitter kit |
+| [#279 SingleStageTransmitterKit2](./Electronics101/FM/SingleStageTransmitterKit2)  | **FM**                          build and tweak/tune another simple single-stage FM Transmitter Kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [#096 Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |

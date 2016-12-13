@@ -483,6 +483,13 @@
         "name": "SingleStageTransmitterKit"
     }, 
     {
+        "description": "build and tweak/tune another simple single-stage FM Transmitter Kit", 
+        "relative_path": "Electronics101/FM/SingleStageTransmitterKit2", 
+        "id": "#279", 
+        "categories": "FM", 
+        "name": "SingleStageTransmitterKit2"
+    }, 
+    {
         "description": "test a CMOS frequency counter circuit with 100Hz - 5MHz range", 
         "relative_path": "Electronics101/FrequencyCounter", 
         "id": "#207", 
