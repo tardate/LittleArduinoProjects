@@ -476,6 +476,13 @@
         "name": "RFDetectorProbe"
     }, 
     {
+        "description": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3", 
+        "relative_path": "Electronics101/FM/BreadboardTransmitter", 
+        "id": "#280", 
+        "categories": "FM", 
+        "name": "BreadboardTransmitter"
+    }, 
+    {
         "description": "build a simple single-stage FM transmitter kit", 
         "relative_path": "Electronics101/FM/SingleStageTransmitterKit", 
         "id": "#208", 
