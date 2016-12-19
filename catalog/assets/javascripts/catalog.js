@@ -54,32 +54,44 @@
           base_name = data.relative_path.split('/').pop();
           hero_image_url = instance.pages_base_url + data.relative_path + '/assets/' + base_name + '_build.jpg';
           project_url = instance.github_base_url + data.relative_path
-          id_link = '<div> \
-            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + '</a> \
-          </div>';
-          cell = $('td:eq(0)', row);
-          cell.html(id_link);
 
           category_array = data.categories.split(',');
           category_labels = '';
           for (var cat = 0; cat < category_array.length; cat++) {
             category_labels += '<span class="label label-primary">' + category_array[cat] + '</span> ';
           }
-          description = '\
+
+          main_cell = '\
+          <div class="hidden-xs"> \
+            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + '</a> \
+          </div> \
+          <div class="visible-xs-block"> \
+            <a href="' + project_url + '" class="btn btn-default btn-success btn-leap">' + data.id + ' ' + data.name + '</a> \
+            <div class="text-muted small">' + data.description + '</div> \
+            <div>' + category_labels + '</div> \
+            <img class="leap-hero" src="' + hero_image_url + '" alt=""> \
+          </div>\
+          ';
+          cell = $('td:eq(0)', row);
+          cell.html(main_cell);
+
+          description_cell = '\
           <div class="media"> \
             <div class="media-body"> \
               <h4 class="media-heading">' + data.name + '</h4> \
-              ' + data.description + ' \
-              <div>' + category_labels + '</div>  \
+              <div class="text-muted">' + data.description + '</div> \
+              <div>' + category_labels + '</div> \
             </div> \
             <div class="media-right"> \
               <img class="media-object leap-hero" src="' + hero_image_url + '" alt=""> \
             </div> \
-          </div>';
+          </div>\
+          ';
           cell = $('td:eq(1)', row)
           cell.addClass('xleap-link')
+          cell.addClass('hidden-xs')
           cell.attr('data-url', project_url)
-          cell.html(description);
+          cell.html(description_cell);
           return cell
         }
       });

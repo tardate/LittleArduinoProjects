@@ -36,9 +36,31 @@ body {
   color: #D9FF0D;
 }
 
+@media screen and (max-width: 980px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:focus {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:focus {
+    margin-top: 5px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+
 .btn-leap {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
+}
+.visible-xs-block .btn-leap {
+  font-size: 14px;
+  max-width: 280px;
 }
 .xleap-link {
   cursor: pointer; cursor: hand;
@@ -46,4 +68,10 @@ body {
 
 img.leap-hero {
   height: 80px;
+}
+
+.visible-xs-block img.leap-hero {
+  width: 100%;
+  height: auto;
+  margin-top: 8px;
 }
