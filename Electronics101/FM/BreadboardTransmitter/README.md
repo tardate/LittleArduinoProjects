@@ -42,6 +42,10 @@ That's quite a bit different than the 44nH predicted by a simplified [air coil c
 I suspect the variation may be largely due to the fact that I'm using unusually heavy AWG18 solid-core wire.
 
 
+### Performance
+
+It is surprisingly good! With a 165cm AWG30 antenna connected, I can easily walk from one end of the house to the other and pickup a good signal.
+
 ## Construction
 
 ![Breadboard](./assets/BreadboardTransmitter_bb.jpg?raw=true)
