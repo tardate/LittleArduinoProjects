@@ -68,3 +68,6 @@ which root note is playing
 * [LM386 microphone amplifier](https://lowvoltage.wordpress.com/2011/05/15/lm386-mic-amp/)
 * [TI Single-Supply, Electret Microphone Pre-Amplifier Reference Design](http://www.ti.com/lit/ug/tidu765/tidu765.pdf)
 * [Electret microphone: selecting a bias resistor](http://electronics.stackexchange.com/questions/76696/electret-microphone-selecting-a-bias-resistor)
+* [A Digital Guitar Tuner by Mary Lourde R., Anjali Kuppayil Saji](https://arxiv.org/pdf/0912.0745.pdf) - a scholarly article that explores the critical parameters that need to be addressed while designing a guitar tuner
+* [Digital Guitar Tuner by Dmitry Berenson](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2004/ddb25/complete2.htm) - this is perhaps the best description of a realistic circuit using and LM358 op amp and ATMEGA32 microcontroller
+
