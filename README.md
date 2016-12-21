@@ -1,6 +1,5 @@
-# 280 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BreadboardTransmitter](./Electronics101/FM/BreadboardTransmitter) - build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3.
-
+# 281 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter) - build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit.
 
 Build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3
 
@@ -313,6 +312,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer |
+| [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **FM**                          build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [#135 TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |

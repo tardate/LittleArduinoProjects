@@ -497,6 +497,13 @@
         "name": "SingleStageTransmitterKit2"
     }, 
     {
+        "description": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 
+        "relative_path": "Electronics101/FM/ThreeStageTransmitter", 
+        "id": "#281", 
+        "categories": "FM", 
+        "name": "ThreeStageTransmitter"
+    }, 
+    {
         "description": "test a CMOS frequency counter circuit with 100Hz - 5MHz range", 
         "relative_path": "Electronics101/FrequencyCounter", 
         "id": "#207", 
