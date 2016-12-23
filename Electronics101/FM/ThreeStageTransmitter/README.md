@@ -21,12 +21,12 @@ This produced a transmission frequency of 97.4MHz, which happens to be quite bus
 After adding another 33pF C9 in parallel (effectively 66pF), I moved the transmission to a much clearer 79.8MHz.
 
 Output power is very good - easily transmits around my house.
-The microphoneis very sensitive, and the pre-amp is fairly high gain. Loud sounds close to the microphone
+The microphone is very sensitive, and the pre-amp is fairly high gain. Loud sounds close to the microphone
 can be quite distorted/clipped.
 
 ## Construction
 
-A strip of copper PCB is the positive rail that the circuit is anchored to:
+A strip of copper PCB is the positive rail anchoring the circuit:
 
 ![build_01](./assets/build_01.jpg?raw=true)
 
@@ -43,3 +43,9 @@ The case provides the ground plane:
 
 ## Credits and References
 * [LEAP#280 FM/BreadboardTransmitter](../BreadboardTransmitter)
+* [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
+* [dazaro3 channel](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg)
+* [www.bug-transmitter.com/](http://www.bug-transmitter.com/) - sells kits by dazaro3
+* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [air coil calculator](http://www.qsl.net/in3otd/indcalc.html)
+* [LC resonance calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)

@@ -57,6 +57,7 @@ It is surprisingly good! With a 165cm AWG30 antenna connected, I can easily walk
 ![Build](./assets/BreadboardTransmitter_build.jpg?raw=true)
 
 ## Credits and References
+* [LEAP#281 FM/ThreeStageTransmitter](../ThreeStageTransmitter) - the same circuit, built ugly-style in a can
 * [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
 * [dazaro3 channel](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg)
 * [www.bug-transmitter.com/](http://www.bug-transmitter.com/) - sells kits by dazaro3
