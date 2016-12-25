@@ -3243,6 +3243,14 @@
             "AS1130"
         ]
     },
+    "/equipment/handheldsolderingirons/": {
+        "id": 298,
+        "title": " Handheld Soldering Irons",
+        "summary": "Notes on my experiences with various cheap hand-held soldering irons",
+        "tags": [
+            "Tools"
+        ]
+    },
     "/electronics101/cd4070/oscillator/": {
         "id": 297,
         "title": "CD4070 Oscillator",

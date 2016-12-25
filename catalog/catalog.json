@@ -3470,6 +3470,16 @@
         "original_relative_path": "BoldportClub/TheMatrix"
     },
     {
+        "id": "#298",
+        "name": " Handheld Soldering Irons",
+        "description": "Notes on my experiences with various cheap hand-held soldering irons",
+        "categories": "Tools",
+        "relative_path": "equipment/handheldsolderingirons",
+        "updated_at": "2025-01-26T08:52:00Z",
+        "created_at": "2025-01-26T08:52:00Z",
+        "original_relative_path": "Equipment/HandheldSolderingIrons"
+    },
+    {
         "id": "#297",
         "name": "CD4070 Oscillator",
         "description": "examine a classic CD4070 oscillator design and variations",

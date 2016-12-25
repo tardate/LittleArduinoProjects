@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-11-24T08:29:00Z</updated>
+  <updated>2025-01-26T08:52:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -3950,6 +3950,16 @@
     <category term="PCB Design"/>
     <category term="LED"/>
     <category term="AS1130"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/equipment/handheldsolderingirons/</id>
+    <link href="https://leap.tardate.com/equipment/handheldsolderingirons/"/>
+    <g:image_link>https://leap.tardate.com/equipment/handheldsolderingirons/assets/handheldsolderingirons_build.jpg</g:image_link>
+    <updated>2025-01-26T08:52:00Z</updated>
+    <title>#298  Handheld Soldering Irons</title>
+    <summary>Notes on my experiences with various cheap hand-held soldering irons</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Notes on my experiences with various cheap hand-held soldering irons&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/handheldsolderingirons/assets/handheldsolderingirons_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Tools"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4070/oscillator/</id>
