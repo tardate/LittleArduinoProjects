@@ -1162,6 +1162,13 @@
         "name": "ComponentTesterKit"
     }, 
     {
+        "description": "build and test a function generator kit based on the XR-2206 monolithic function generator", 
+        "relative_path": "Equipment/FunctionGeneratorKit", 
+        "id": "#282", 
+        "categories": "Oscillators, Tools, XR2206", 
+        "name": "FunctionGeneratorKit"
+    }, 
+    {
         "description": "testing out the Feeltech FY3200S digital function generator", 
         "relative_path": "Equipment/FY3200S", 
         "id": "#274", 

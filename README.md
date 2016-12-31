@@ -1,7 +1,6 @@
-# 281 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter) - build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit.
+# 282 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [FunctionGeneratorKit](./Equipment/FunctionGeneratorKit) - build and test a function generator kit based on the XR-2206 monolithic function generator.
 
-Build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -147,6 +146,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
+| [#282 FunctionGeneratorKit](./Equipment/FunctionGeneratorKit)                      | **Oscillators, Tools, XR2206**  build and test a function generator kit based on the XR-2206 monolithic function generator |
 | [#061 Gates - RS Flip Flop](./Electronics101/RSFlipFlop)                           | **Logic Gates, BJT**            Set/Reset flip-flop with BJTs |
 | [#062 Gates - RS Flip Flop with Arduino](./Electronics101/RSFlipFlopFlipper)       | **Logic Gates, BJT, Arduino**   Set/Reset flip-flop with BJTs, under Arduino control and monitoring |
 | [#077 Gates - RS Flip Flop/NOR Latch](./Electronics101/RSFlipFlop_NORLatch)        | **Logic Gates, 74xx**           Set/Reset flip-flop implemented with NOR gates |
