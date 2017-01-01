@@ -49,6 +49,24 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [ESP8266 parts](https://github.com/ydonnelly/ESP8266_fritzing)
 
 
+## Creating Fritzing Parts
+
+Fritzing seems caught in a perpetual 0.9 beta, and the parts editor is yet to be fully revised and documented. Some guides that are useful..
+
+* [FritzingReference](http://fritzing.org/learning/full_reference)
+* [New Parts Editor released](http://blog.fritzing.org/2012/10/09/new-parts-editor-released/) - October 9, 2012
+* [Creating custom parts](http://fritzing.org/learning/tutorials/creating-custom-parts/)
+* [Make Your Own Fritzing Parts](https://learn.sparkfun.com/tutorials/make-your-own-fritzing-parts) - Sparkfun
+
+### Tips/tricks/heuristics
+
+Hmm, there's not much guidance, but here ar ea few things that seem to apply (in the current versions at least)..
+
+* breadboard views expect connector elements named with an ID indexed from 0 i.e. pin 0 should be named `connector0pin`
+* schematic views expect(?) pins and terminals with an ID indexed from 0 i.e. pin 0 should be named `connector0pin` and have a terminal named `connector0terminal`
+* render all non-standard fonts as objects
+
+
 ## Credits and References
 * [Fritzing](http://fritzing.org/home/)
 * [KiCad](http://kicad-pcb.org/)
