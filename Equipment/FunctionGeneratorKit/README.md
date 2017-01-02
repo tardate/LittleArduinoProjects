@@ -22,6 +22,12 @@ There are perhaps only two significant drawbacks of this circuit:
 
 * there is no feedback or calibration of actual frequency and amplitude being generated. If the details matter, it is necessary to also hookup an oscilloscope or frequency counter.
 * the analog controls - despite having a "fine adjust" - make it quite hard to dial in precise frequencies
+* there's no warning or protection against clipping the output when amplitude control set too high
+
+NB: GreatScott! reviewed the same kit in his [7$ Function Generator VS 107$ Function Generator](https://www.youtube.com/watch?v=GopZJKdCqrA) video, and pointed out some other issues:
+
+* relatively high 600~1000Ω output impedance so can't drive much load
+* no DC offset control
 
 ### Parts
 
@@ -76,3 +82,4 @@ The FFT of the sine wave remains quite respectable:
 ## Credits and References
 * [Function Signal Generator DIY Kit Sine/Triangle/Square Output 1Hz-1MHz Signal Generator Adjustable Frequency Amplitude XR2206](https://www.aliexpress.com/item/Function-Signal-Generator-DIY-Kit-Sine-Triangle-Square-Output-1Hz-1MHz-Signal-Generator-Adjustable-Frequency-Amplitude/32733774803.html) - from a seller on aliexpress
 * [XR-2206D data](http://parts.io/detail/8975104/XR-2206D) - parts.io
+* [7$ Function Generator VS 107$ Function Generator](https://www.youtube.com/watch?v=GopZJKdCqrA) - review of the same kit by GreatScott!
