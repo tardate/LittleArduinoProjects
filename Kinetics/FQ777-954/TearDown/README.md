@@ -4,7 +4,6 @@ Teardown an FQ777-954 nano drone and figure out as much of the technical design 
 
 ![The Build](./assets/TearDown_build.jpg?raw=true)
 
-
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
 ## Notes
@@ -153,3 +152,4 @@ The so-called receiver board also doubles as the structural component that holds
 * [FQ777-954 Chrome App](https://github.com/FREEZX/fq777-954-chrome-app)
 * [FQ777-954 “The Eyes” Review](http://rc-view.com/index.php/2016/01/16/fq777-954/) - one of the more competent technical reviews
 * [Item No.RC101W 2.4G 4CH RC Nano Quadcopter with 6-axis gyroscope](http://www.rc-leading.com/productShow.asp?id=1942) - clone/competitor
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/littlearduinoprojects225-fq777-teardown.html)
