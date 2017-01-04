@@ -420,6 +420,13 @@
         "name": "DarlingtonTouchSwitch"
     }, 
     {
+        "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing", 
+        "relative_path": "Electronics101/DigitalLogic/XorWithNandGates", 
+        "id": "#283", 
+        "categories": "DigitalLogic, 74xx TTL", 
+        "name": "XorWithNandGates"
+    }, 
+    {
         "description": "control the M62429 dual channel volume control with an Arduino", 
         "relative_path": "Electronics101/DigitalPots/M62429", 
         "id": "#259", 

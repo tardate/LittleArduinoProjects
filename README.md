@@ -1,5 +1,5 @@
-# 282 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [FunctionGeneratorKit](./Equipment/FunctionGeneratorKit) - build and test a function generator kit based on the XR-2206 monolithic function generator.
+# 283 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [XorWithNandGates](./Electronics101/DigitalLogic/XorWithNandGates) - construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -336,4 +336,5 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#164 WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
 | [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
 | [#011 X113647Stepper](./playground/X113647Stepper)                                 | **Stepper, Arduino**            using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino |
+| [#283 XorWithNandGates](./Electronics101/DigitalLogic/XorWithNandGates)            | **DigitalLogic, 74xx TTL**      construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing |
 | [#265 XYplotter](./playground/XYplotter)                                           | **Arduino, Digital Pot, MCP42010, Oscilloscope** draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree |
