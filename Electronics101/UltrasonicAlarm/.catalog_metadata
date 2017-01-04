@@ -1,0 +1,7 @@
+{
+    "id": "#287", 
+    "name": "UltrasonicAlarm", 
+    "description": "build an ultrasonic motion alarm with the HC-SR04 module and dicrete logic", 
+    "categories": "555 Timer, Sensors, CMOS/TTL", 
+    "relative_path": "Electronics101/UltrasonicAlarm"
+}

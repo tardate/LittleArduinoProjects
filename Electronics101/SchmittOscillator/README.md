@@ -19,7 +19,7 @@ All unused outputs on the 74LS14 are left open circuit. Unused inputs are ground
 The frequency of the oscillation is calculated as:
 
     f = 1 / (1.2 * R * C)
-    f = 1 / (1.2 * 1kΩ * 47µF)
+    f = 1 / (1.2 * 1kΩ * 470µF)
     f = 1.77 Hz
 
 The oscillating output from the inverter is used to drive the base of a general-purpose NPN transistor, switching a LED on and off in turn.
