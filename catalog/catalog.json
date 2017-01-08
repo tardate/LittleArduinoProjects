@@ -56,6 +56,13 @@
         "name": "TheCuttle/ScopeTag"
     }, 
     {
+        "description": "The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board", 
+        "relative_path": "BoldportClub/TheGent", 
+        "id": "#284", 
+        "categories": "Boldport, PCB Design", 
+        "name": "BoldportClub/TheGent"
+    }, 
+    {
         "description": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
         "relative_path": "BoldportClub/TheLady", 
         "id": "#251", 

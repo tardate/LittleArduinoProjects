@@ -1,5 +1,5 @@
-# 283 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [XorWithNandGates](./Electronics101/DigitalLogic/XorWithNandGates) - construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing.
+# 284 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/TheGent](./BoldportClub/TheGent) - The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -102,6 +102,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
+| [#284 BoldportClub/TheGent](./BoldportClub/TheGent)                                | **Boldport, PCB Design**        The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board |
 | [#277 BoldportClub/Touchy](./BoldportClub/Touchy)                                  | **Boldport, EFM8, Sensors**     Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#280 BreadboardTransmitter](./Electronics101/FM/BreadboardTransmitter)            | **FM**                          build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3 |
