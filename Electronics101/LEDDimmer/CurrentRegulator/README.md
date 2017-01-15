@@ -80,3 +80,4 @@ Protoboard Layout:
 * [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [A42 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138719/JIANGSU/A42.html)
 * [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap231-led-dimmer.html)
