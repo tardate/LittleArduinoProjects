@@ -105,15 +105,15 @@ The final build:
 
 ## Performance
 
-The first trace I took was from a translaition to "A" on (from RESET state).
+The first trace I took was from a transition to "A" on (from RESET state).
 CH1 shows Q1 output, CH2 shows Q1¯ output.
 As we can see, there's some pre-emptive voltage reduction prior to the switch and some jitter and one significant bounce.
-From this we can see that using the TAPas an input for a sensitive instrument would still need debouncing.
+From this we can see that using the TAP as an input for a sensitive instrument would still need some debouncing.
 
 ![scope_A_analog](./assets/scope_A_analog.gif?raw=true)
 
 Here is the same switch with alogic analyser. There's quite a delay (2-3µs) between the analog transition and the digital - but I think that is more the
-scope than the circuit. The important point is that we still see one rebounce at logic levels, and the other outputs are as expected.
+scope than the circuit. The important point is that we still see one bounce at logic levels, and the other outputs are as expected.
 
 * CH1 - Q1 output (trigger)
 * D0 - Q1 output
