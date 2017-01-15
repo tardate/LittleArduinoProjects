@@ -42,6 +42,13 @@
         "name": "BoldportClub/Pease"
     }, 
     {
+        "description": "Harking back to an old Boldport project, which harks back to a 1974 Elector article .. and the main IC (7400 NAND gate) is still available!", 
+        "relative_path": "BoldportClub/tap", 
+        "id": "#285", 
+        "categories": "Boldport, PCB Design, 74xx", 
+        "name": "BoldportClub/tap"
+    }, 
+    {
         "description": "the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6)", 
         "relative_path": "BoldportClub/TheCuttle", 
         "id": "#266", 

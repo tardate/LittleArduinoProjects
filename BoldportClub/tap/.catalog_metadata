@@ -1,7 +1,7 @@
 {
-    "id": "#xxx",
-    "name": "tap",
-    "description": "enter description",
-    "categories": "",
+    "id": "#285", 
+    "name": "BoldportClub/tap", 
+    "description": "Harking back to an old Boldport project, which harks back to a 1974 Elector article .. and the main IC (7400 NAND gate) is still available!", 
+    "categories": "Boldport, PCB Design, 74xx", 
     "relative_path": "BoldportClub/tap"
 }
