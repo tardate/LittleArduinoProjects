@@ -41,6 +41,21 @@ The case provides the ground plane:
 
 ![Build](./assets/ThreeStageTransmitter_build.jpg?raw=true)
 
+## The Real Deal
+
+So after hacking away on [dazaro3's designs](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg) I thought
+I should get a "real" one as a way of saying thanks.
+
+It just turned up, and works great. Happily I see the performance is very similar
+to the builds I've done already. Here are some pictures:
+
+![fmtuk-unboxed](./assets/fmtuk-unboxed.jpg?raw=true)
+
+![fmtuk-front](./assets/fmtuk-front.jpg?raw=true)
+
+![fmtuk-back](./assets/fmtuk-back.jpg?raw=true)
+
+
 ## Credits and References
 * [LEAP#280 FM/BreadboardTransmitter](../BreadboardTransmitter)
 * [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
