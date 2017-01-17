@@ -1085,6 +1085,13 @@
         "name": "Switch - PNP"
     }, 
     {
+        "description": "low-side n-channel MOSFET switching of large loads with a microcontroller", 
+        "relative_path": "Electronics101/SwitchPowerNFET", 
+        "id": "#286", 
+        "categories": "MOSFET, Arduino", 
+        "name": "SwitchPowerNFET"
+    }, 
+    {
         "description": "test a soft-latching power switching circuit", 
         "relative_path": "Electronics101/SwitchSoftLatch", 
         "id": "#175", 

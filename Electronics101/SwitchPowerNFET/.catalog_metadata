@@ -1,0 +1,7 @@
+{
+    "id": "#286", 
+    "name": "SwitchPowerNFET", 
+    "description": "low-side n-channel MOSFET switching of large loads with a microcontroller", 
+    "categories": "MOSFET, Arduino", 
+    "relative_path": "Electronics101/SwitchPowerNFET"
+}
