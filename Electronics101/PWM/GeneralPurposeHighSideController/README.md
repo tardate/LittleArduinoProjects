@@ -84,3 +84,4 @@ Protoboard/boxed construction:
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
 * [IRF9540 datasheet](http://www.futurlec.com/Transistors/IRF9540.shtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap233-hi-side-pwm-controller.html)
