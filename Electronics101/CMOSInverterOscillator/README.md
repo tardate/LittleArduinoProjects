@@ -2,14 +2,16 @@
 
 Use a CD4096 to generate an oscillating waveform and plot the results
 
+![Build](./assets/CMOSInverterOscillator_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
 ## Notes
 
-I found this oscillator circuit as part of the [#182 PowerSupply317Kit](../PowerSupply317Kit).
+I found this oscillator circuit as part of the [LEAP#182 PowerSupply317Kit](../PowerSupply317Kit).
 
-It is another variation of the basic Schmitt Inverter Waveform Generator pattern, which I tested in [#022 SchmittOscillator](../SchmittOscillator).
+It is another variation of the basic Schmitt Inverter Waveform Generator pattern,
+which I tested in [LEAP#022 SchmittOscillator](../SchmittOscillator).
 
 ### Performance
 
@@ -39,10 +41,11 @@ Scope trace for C1=1µF, R1(2-3)=40kΩ:
 
 ![The Schematic](./assets/CMOSInverterOscillator_schematic.jpg?raw=true)
 
-![The Build](./assets/CMOSInverterOscillator_build.jpg?raw=true)
+![Build](./assets/CMOSInverterOscillator_build.jpg?raw=true)
 
 ## Credits and References
-* [#182 PowerSupply317Kit](../PowerSupply317Kit) - a DIY kit project that included this oscillator
-* [#022 SchmittOscillator](../SchmittOscillator) - a similar (better performing) circuit using a 74LS14
+* [LEAP#182 PowerSupply317Kit](../PowerSupply317Kit) - a DIY kit project that included this oscillator
+* [LEAP#022 SchmittOscillator](../SchmittOscillator) - a similar (better performing) circuit using a 74LS14
 * [CD4096 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/66451/INTERSIL/CD4096BMS.html)
 * [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap234-cmos-inverter-oscillator.html)
