@@ -12,8 +12,13 @@ Build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash.
 I've wanted to try some digital signal processing on the Arduino/AVR for a while.
 When I found the pedalSHIELD by electrosmash, it seemed like an excellent way to bootstrap some experimentation.
 
-This project is a breadboard-build of a circuit based on the pedalSHIELD, tested with a simple boost/volume control
-circuit based on the pedalSHIELD examples.
+
+This project was initially a breadboard-build of a circuit based on the pedalSHIELD, tested with a simple boost/volume control
+circuit based on the pedalSHIELD examples. I wanted to see if it was even half-way decent.
+When that worked out, I put it on protoboard and did a bit more work on the software.
+
+I also purchased the genuine article from electrosmash as a way of supporting the creators and also
+getting a standard unit for comparison - see [LEAP#247 pedalShieldUno](../pedalShieldUno) for more on that.
 
 
 ### Input Processing
@@ -158,6 +163,7 @@ The correct orientation is:
 ![The Build](./assets/AudioDSP_build.jpg?raw=true)
 
 ## Credits and References
+* [LEAP#247 pedalShieldUno](../pedalShieldUno) - my build of the genuine kit
 * [pedalSHIELD UNO Arduino Guitar Pedal](http://www.electrosmash.com/pedalshield-uno)
 * [pedalSHIELD UNO @ arduino.cc](https://create.arduino.cc/projecthub/electrosmash/arduino-uno-guitar-pedal-b2ba96)
 * [LMC6482 datasheet](http://www.futurlec.com/Linear/LMC6482IN.shtml)
@@ -165,3 +171,4 @@ The correct orientation is:
 * [PWM Distortion Analysis](http://www.openmusiclabs.com/learning/digital/pwm-dac/pwm-distortion-analysis/index.html)
 * [Arduino Audio Input](http://www.instructables.com/id/Arduino-Audio-Input/?ALLSTEPS) - TL072 front-end project
 * [ArduinoDSP](https://github.com/telamon/ArduinoDSP) - another DSP project for Arduino
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap235-audiodsp-diy-shield-for-arduino.html)
