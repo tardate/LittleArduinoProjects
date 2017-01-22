@@ -1,5 +1,5 @@
 # 287 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [UltrasonicAlarm](./Electronics101/UltrasonicAlarm) - Build an ultrasonic motion alarm with the HC-SR04 module and dicrete logic.
+> Latest addition:sparkles: [UltrasonicAlarm](./Electronics101/UltrasonicAlarm) - Build an ultrasonic motion alarm with the HC-SR04 module and discrete logic.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -325,7 +325,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |
 | [#113 TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
 | [#059 TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
-| [#287 UltrasonicAlarm](./Electronics101/UltrasonicAlarm)                           | **555 Timer, Sensors, CMOS/TTL** build an ultrasonic motion alarm with the HC-SR04 module and dicrete logic |
+| [#287 UltrasonicAlarm](./Electronics101/UltrasonicAlarm)                           | **555 Timer, Sensors, CMOS/TTL** build an ultrasonic motion alarm with the HC-SR04 module and discrete logic |
 | [#174 UsbNotifier](./Electronics101/UsbNotifier)                                   | **LED, USB**                    tear-down and demo code for some oldUSB Webmail Notifier devices |
 | [#145 VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |

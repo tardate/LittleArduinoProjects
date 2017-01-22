@@ -1134,7 +1134,7 @@
         "name": "TTLBufferDriver"
     }, 
     {
-        "description": "build an ultrasonic motion alarm with the HC-SR04 module and dicrete logic", 
+        "description": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
         "relative_path": "Electronics101/UltrasonicAlarm", 
         "id": "#287", 
         "categories": "555 Timer, Sensors, CMOS/TTL", 

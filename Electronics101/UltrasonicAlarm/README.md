@@ -1,6 +1,6 @@
 # #287 UltrasonicAlarm
 
-Build an ultrasonic motion alarm with the HC-SR04 module and dicrete logic.
+Build an ultrasonic motion alarm with the HC-SR04 module and discrete logic.
 
 ![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)
 
@@ -16,7 +16,7 @@ Silicon Chip featured an article by Jim Rowe in the Dec-2016 edition that descri
 
 It's quite ingenious:
 
-* a freerunning inverter-based oscillator provides a steady stream of trigger pulses
+* a free-running inverter-based oscillator provides a steady stream of trigger pulses
 * echo pulse triggers a 555 timer monostable
 * the 555 timer produces a calibration pulse, duration is set by R5 potentiometer
 * the XOR compares the echo pulse with the calibration pulse and goes high when these are different: a pulse-width comparator
@@ -75,7 +75,7 @@ In order to calibrate for different ranges, C3 (or the resistors) can be substit
 The echo signal and the 555-generated calibration pulse are XORed with the CD4070. This results in an output that is:
 
 * logical 0 when the signals are in phase
-* logical 1 when the signals are out of phase. This can be two cases:
+* logical 1 when the signals are out of phase. This can be one of two cases:
   - the echo pulse is shorter than the calibration pulse (meaning something has come closer to the HC-SR04)
   - the echo pulse is longer than the calibration pulse (meaning something has come moved away from the HC-SR04)
 
@@ -87,7 +87,7 @@ The LED and buzzer are switched with a simple low-side n-channel MOSFET.
 The output of the Pulse Width Comparator is dampened with an RC filter.
 In my build I replaced the more complicated arrangement from the Silicon Chip article with a simple 100nF/1kΩ
 circuit, with a resulting time constant of [0.1ms](http://www.wolframalpha.com/input/?i=100nF+*+1k%CE%A9).
-This squelches incidental noise, and also provides a little tolerance with slightly wantering echoe readings.
+This squelches incidental noise, and also provides a little tolerance with slightly wandering echo readings.
 
 The 100Ω R8 is not particularly necessary and doesn't alter the function of the circuit.
 It may provide some protection for the FET.
