@@ -1,6 +1,6 @@
 # #285 The Tap
 
-Harking back to an old Boldport project, which harks back to a 1974 Elector article .. and the main IC (7400 NAND gate) is still available!
+Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available!
 
 [![Build](./assets/tap_build.jpg?raw=true)](http://www.youtube.com/watch?v=WQKIWN_7tfE)
 

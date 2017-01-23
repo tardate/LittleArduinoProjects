@@ -42,10 +42,10 @@
         "name": "BoldportClub/Pease"
     }, 
     {
-        "description": "Harking back to an old Boldport project, which harks back to a 1974 Elector article .. and the main IC (7400 NAND gate) is still available!", 
+        "description": "Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available!", 
         "relative_path": "BoldportClub/tap", 
         "id": "#285", 
-        "categories": "Boldport, PCB Design, 74xx", 
+        "categories": "Boldport, PCB Design, CMOS/TTL", 
         "name": "BoldportClub/tap"
     }, 
     {
