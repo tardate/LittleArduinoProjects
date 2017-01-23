@@ -42,3 +42,4 @@ I may split this out as a stand-alone library at some point.
 
 ## Credits and References
 * see the main [AudioDSP](../) project
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap236-9-audiodsp-effects.html)

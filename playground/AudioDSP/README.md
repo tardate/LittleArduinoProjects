@@ -134,6 +134,7 @@ See the following for the examples I've tested so far:
 * [Boost](./Boost) is a simple clean boost/volume control
 * [Distortion](./Distortion) is a simple clipping distortion effect
 * [Crunch](./Crunch) is a distortion effect using asymmetrical clipping based on Schetzen formula
+* [SuperCrunch](./SuperCrunch) is a distortion effect using symmetrical clipping based on Schetzen formula
 
 
 ## Construction
