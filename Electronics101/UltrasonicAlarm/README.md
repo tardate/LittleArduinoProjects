@@ -2,7 +2,9 @@
 
 Build an ultrasonic motion alarm with the HC-SR04 module and discrete logic.
 
-![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)
+Here's a quick demo of it in action:
+
+[![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)](http://www.youtube.com/watch?v=18vaX6bmDes)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -111,13 +113,28 @@ The circuit performs pretty well! Here are some scope traces with
 **Far object Alarm**
 ![scope-triggered-far](./assets/scope-triggered-far.gif?raw=true)
 
-## Construction
+## Construction - Breadboard Prototype
 
 ![Breadboard](./assets/UltrasonicAlarm_bb.jpg?raw=true)
 
 ![Schematic](./assets/UltrasonicAlarm_schematic.jpg?raw=true)
 
-![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)
+![UltrasonicAlarm_bb_build](./assets/UltrasonicAlarm_bb_build.jpg?raw=true)
+
+## Construction - Put it in a Box!
+
+So this works quite well, so I decided to put it on protoboard in a box.
+
+Here's the layout and construction concept.
+I've added a 7805 5V regulator with 100µF and 100nF smoothing capacitors so I can power the circuit from a 9V battery.
+
+![UltrasonicAlarm_protoboard_layout](./assets/UltrasonicAlarm_protoboard_layout.jpg?raw=true)
+
+![UltrasonicAlarm_protoboard_wip](./assets/UltrasonicAlarm_protoboard_wip.jpg?raw=true)
+
+Finished:
+
+![UltrasonicAlarm_build](./assets/UltrasonicAlarm_build.jpg?raw=true)
 
 ## Credits and References
 * [HC-SR04 Datasheet](http://www.micropik.com/PDF/HCSR04.pdf)
