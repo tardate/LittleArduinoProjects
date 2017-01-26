@@ -64,3 +64,4 @@ Laid out on a protoboard:
 * [2N3904](http://parts.io/detail/5427230/2N3904)
 * [2N3906](http://parts.io/detail/5427230/2N3904)
 * [1N4148](http://parts.io/detail/181859216/1N4148)
+* [..as mentioned on my blog](http://leap.tardate.com/2017/01/leap241-general-purpose-358-amplifier.html)
