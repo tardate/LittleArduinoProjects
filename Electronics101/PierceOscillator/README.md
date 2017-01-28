@@ -48,3 +48,4 @@ Here's a trace with 7MHz crystal, 9V supply:
 ## Credits and References
 * [Pierce oscillator](https://en.wikipedia.org/wiki/Pierce_oscillator) - wikipedia
 * [KF5OBS #5: Crystal oscillator frequency pulling](https://www.youtube.com/watch?v=_OsvXQe_l2E)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap242-minimal-pierce-oscillator.html)
