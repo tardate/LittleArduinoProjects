@@ -1,9 +1,9 @@
 /*
 
-  BasicBuckBoostAvrControl
+  BasicInvertingBuckBoostAvrControl
   Based on original script from http://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BasicBuckBoostAvrControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BasicInvertingBuckBoostAvrControl
 
  */
 
@@ -48,31 +48,19 @@ void loop() {
   while (feedbackinputval < potinputval){
     // output is less than desired:
     // ramp up to 203 max, ~80% duty cycle (value seems arbitrary??))
-    if (pwmval > 203){
-      analogWrite(pwm, pwmval);
-      potinputval = analogRead(potinput);
-      feedbackinputval = analogRead(feedbackinput);
-    } else {
-      analogWrite(pwm, pwmval);
-      pwmval = pwmval + 1;
-      potinputval = analogRead(potinput);
-      feedbackinputval = analogRead(feedbackinput);
-    }
+    analogWrite(pwm, pwmval);
+    if (pwmval < 204) pwmval = pwmval + 1;
+    potinputval = analogRead(potinput);
+    feedbackinputval = analogRead(feedbackinput);
   }
 
   while (feedbackinputval > potinputval){
     // output is higher than desired:
     // ramp down to 0 min
-    if (pwmval == 0){
-      analogWrite(pwm, pwmval);
-      potinputval = analogRead(potinput);
-      feedbackinputval = analogRead(feedbackinput);
-    } else{
-      analogWrite(pwm, pwmval);
-      pwmval = pwmval - 1;
-      potinputval = analogRead(potinput);
-      feedbackinputval = analogRead(feedbackinput);
-    }
+    analogWrite(pwm, pwmval);
+    if (pwmval > 0) pwmval = pwmval - 1;
+    potinputval = analogRead(potinput);
+    feedbackinputval = analogRead(feedbackinput);
   }
 
 }

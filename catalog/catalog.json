@@ -1477,6 +1477,13 @@
         "name": "BasicBuckAvrControl"
     }, 
     {
+        "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
+        "relative_path": "playground/BasicInvertingBuckBoostAvrControl", 
+        "id": "#288", 
+        "categories": "Power, ATtiny, Arduino", 
+        "name": "BasicInvertingBuckBoostAvrControl"
+    }, 
+    {
         "description": "simple LCD test", 
         "relative_path": "playground/BetterWithBacon", 
         "id": "#006", 

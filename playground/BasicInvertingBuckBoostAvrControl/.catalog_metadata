@@ -1,0 +1,7 @@
+{
+    "id": "#288", 
+    "name": "BasicInvertingBuckBoostAvrControl", 
+    "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
+    "categories": "Power, ATtiny, Arduino", 
+    "relative_path": "playground/BasicInvertingBuckBoostAvrControl"
+}
