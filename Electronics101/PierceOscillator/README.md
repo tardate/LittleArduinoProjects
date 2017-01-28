@@ -33,6 +33,10 @@ Here's a trace with 7MHz crystal, 9V supply:
 
 ![7MHz_9V](./assets/7MHz_9V.gif?raw=true)
 
+And 16MHz crystal, 9V supply:
+
+![16MHz_9V](./assets/16MHz_9V.gif?raw=true)
+
 ## Construction
 
 ![Breadboard](./assets/PierceOscillator_bb.jpg?raw=true)
