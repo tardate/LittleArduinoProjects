@@ -41,7 +41,9 @@ Here's a trace with 7MHz crystal, 9V supply:
 
 ![PierceOscillator_breadboard_build.jpg](./assets/PierceOscillator_breadboard_build.jpg?raw=true)
 
-![The Build](./assets/PierceOscillator_build.jpg?raw=true)
+![PierceOscillator_layout](./assets/PierceOscillator_layout.jpg?raw=true)
+
+![PierceOscillator_build](./assets/PierceOscillator_build.jpg?raw=true)
 
 ## Credits and References
 * [Pierce oscillator](https://en.wikipedia.org/wiki/Pierce_oscillator) - wikipedia
