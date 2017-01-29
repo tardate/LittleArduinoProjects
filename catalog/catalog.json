@@ -1169,6 +1169,13 @@
         "name": "VoltageControlledOscillator"
     }, 
     {
+        "description": "test and calibrate a DC Voltmeter/Ammeter panel module", 
+        "relative_path": "Electronics101/VoltmeterAmmeterModule", 
+        "id": "#289", 
+        "categories": "Sensors", 
+        "name": "VoltmeterAmmeterModule"
+    }, 
+    {
         "description": "test a 3-wire voltmeter module", 
         "relative_path": "Electronics101/VoltmeterModule", 
         "id": "#181", 

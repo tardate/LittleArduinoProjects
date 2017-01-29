@@ -1,7 +1,5 @@
-# 288 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BasicInvertingBuckBoostAvrControl](./playground/BasicInvertingBuckBoostAvrControl) - Build and test an inverting buck-boost converter controlled by an ATtiny85.
-
-
+# 289 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [VoltmeterAmmeterModule](./Electronics101/VoltmeterAmmeterModule) - test and calibrate a DC Voltmeter/Ammeter panel module.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -338,6 +336,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
 | [#147 VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
 | [#167 VoltageSensorModule](./playground/VoltageSensorModule)                       | **Sensors, Arduino**            test a 25V voltage sensor module with display on a 5110 LCD |
+| [#289 VoltmeterAmmeterModule](./Electronics101/VoltmeterAmmeterModule)             | **Sensors**                     test and calibrate a DC Voltmeter/Ammeter panel module |
 | [#181 VoltmeterModule](./Electronics101/VoltmeterModule)                           | **Sensors**                     test a 3-wire voltmeter module |
 | [#097 VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
 | [#164 WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
