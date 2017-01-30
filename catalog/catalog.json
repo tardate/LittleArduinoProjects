@@ -42,6 +42,13 @@
         "name": "BoldportClub/Pease"
     }, 
     {
+        "description": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
+        "relative_path": "BoldportClub/PissOff", 
+        "id": "#290", 
+        "categories": "Boldport, PCB Design, NXP", 
+        "name": "PissOff"
+    }, 
+    {
         "description": "Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available!", 
         "relative_path": "BoldportClub/tap", 
         "id": "#285", 
