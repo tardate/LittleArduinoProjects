@@ -11,6 +11,7 @@ Test and calibrate a DC Voltmeter/Ammeter panel module.
 I got [this DC 0-100V 10A Digital Voltmeter/Ammeter module](https://www.aliexpress.com/item/0-28-Red-Blue-LED-DC-0-100V-10A-Dual-display-Meter-Digital-Voltmeter-Ammeter-Panel/32310008404.html) from a seller on aliexpress at a nice price. But is it any good?
 
 This project is a quick test of the unit.
+Bottom-line: not bad for an easy voltage/current indicator. For more accurate readings, it is a good idea to check the calibration.
 
 ### Specifications
 
@@ -29,8 +30,8 @@ This project is a quick test of the unit.
 * Size: 48mm x 29mm x 21mm.
 * Mounting cutout: 45.5mm x 26.5mm.
 
-Here is the module, fromt and rear. Unfortunately it is not possible to determine what kind
-of processor is used, as the main IC has no markings
+Here is the module, front and rear.
+Unfortunately it is not possible to determine what kind of processor is used, as the main IC has no markings
 
 ![module_front](./assets/module_front.jpg?raw=true)
 
@@ -39,21 +40,21 @@ of processor is used, as the main IC has no markings
 ### Module Power Supply
 
 The module takes a separate power supply to drive the unit and LED display. This is good,
-as it avoids confounding measurements of the circuit being monitored with the units own pwer requirements,
+as it avoids confounding measurements of the circuit being monitored with the unit's own power requirements,
 and allows voltage measurement below the minimum 4.5V required to power the unit.
 
-It's important to note two things however:
+It's important to note two things:
 
 1. the module power supply shares a common ground with the circuit under test, so care is required with the arrangement of external circuitry to avoid a ground short
 
-2. the 2-pin JST power connector has the opposite polarity from what is commonly seen in JST power conenctions.
+2. the 2-pin JST power connector has the opposite polarity from what is commonly seen in JST power connections.
 There is no actual standard, so this is not a problem per se, and the supplied connector lead is correctly colour coded.
 But if other power connectors are used, it is important to double-check polarity
 
 
 ### External Circuit Wiring
 
-Connecting the module in-circuit simpley requires:
+Connecting the module in-circuit simply requires:
 
 * parallel connection to the positive voltage supply (red wire)
 * series connection on the low-side of the load to ground (blue, black wires)
@@ -66,8 +67,8 @@ Connecting the module in-circuit simpley requires:
 To run some tests, and in the absence of anything better, I mocked up a dummy load:
 
 * 12V, 1.5A, 18W DC power supply
-* an arrangement of parallel 50Ω 5W resistors. I connected between 1 and 5 of these for different static resistive loads.
-* I powered the module from a separate 9V battery
+* an arrangement of parallel 50Ω 5W resistors. I connected between 1 and 5 of these for different static resistive loads
+* a 9V battery to power the module independent of the load
 
 ![load_layout](./assets/load_layout.jpg?raw=true)
 
@@ -91,7 +92,7 @@ Note:
 * according to my multimeter, the power supply delivering about 12.3V over 50Ω down to 12.05V over 10Ω. Still, readings not quite within 1% resolution.
 * resistors are quite close to their 50Ω rating. Five in parallel measure at 10.3Ω according to my multimeter.
 
-### So Does it Just need Calibrating?
+### So Does it Just Need Calibrating?
 
 There are two trimpots on the circuit board. Although not documented, it's highly likely they are
 fine adjustment for voltage and current measurements. And indeed they are:
@@ -114,5 +115,3 @@ With a bit of adjustment, I'm now getting results within the 1% (± 1 digit) ran
 ## Credits and References
 * [DC 0-100V 10A Digital Voltmeter Ammeter Dual Display Voltage Detector Current Meter Panel Amp Volt Gauge 0.28" Red Blue LED](https://www.aliexpress.com/item/0-28-Red-Blue-LED-DC-0-100V-10A-Dual-display-Meter-Digital-Voltmeter-Ammeter-Panel/32310008404.html) - from a seller on aliexpress
 * [LEAP#181 VoltmeterModule](../VoltmeterModule)
-* [name](url)
-
