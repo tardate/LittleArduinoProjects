@@ -13,7 +13,7 @@ This is a 10W guitar practice amplifier circuit and was designed for the
 [Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics](https://www.coursera.org/learn/audio-engineering)
 course offered by University of Rochester on Coursera.
 
-The amplifier itself is designed to teach about simple tone and distortion circuitry.
+The amplifier itself is designed to teach simple tone and distortion circuitry.
 
 
 ### Parts
@@ -93,3 +93,4 @@ Sample oscilloscope trace:
 * [Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics](https://www.coursera.org/learn/audio-engineering)
 * [TDA2050 datasheet](http://parts.io/detail/1583208/TDA2050V)
 * [TL072 datasheet](http://parts.io/detail/12204535/TL072)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap249-guitar-practice-amp.html)
