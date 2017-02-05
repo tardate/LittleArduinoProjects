@@ -2,6 +2,7 @@
 
 Test and develop the AudioDSP library for programming the pedalSHIELD Uno.
 
+![AudioDSP_build](./assets/AudioDSP_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -23,6 +24,8 @@ CH2 is the output.
 
 ### bit_crusher
 
+Sketch: [bit_crusher.ino](./bit_crusher/bit_crusher.ino)
+
 This effect boosts the signal into overdrive (level determined by the pushbuttons).
 The implementation here is pretty much identical to the pedalSHIELD example.
 
@@ -34,6 +37,8 @@ AudioDSP version:
 
 
 ### booster
+
+Sketch: [booster.ino](./booster/booster.ino)
 
 A simple volume boost (level determined by the pushbuttons).
 The implementation here is pretty much identical to the pedalSHIELD example.
@@ -47,6 +52,8 @@ AudioDSP version:
 
 ### clean
 
+Sketch: [clean.ino](./clean/clean.ino)
+
 A simple identity transformation. Input == output.
 The implementation here is pretty much identical to the pedalSHIELD example.
 
@@ -58,6 +65,8 @@ AudioDSP version:
 
 
 ### daft_punk_octaver
+
+Sketch: [daft_punk_octaver.ino](./daft_punk_octaver/daft_punk_octaver.ino)
 
 Effectively downsamples the input (level determined by the pushbuttons).
 The implementation here is pretty much identical to the pedalSHIELD example.
@@ -71,19 +80,17 @@ AudioDSP version:
 
 ### delay
 
+Sketch: [delay.ino](./delay/delay.ino)
+
 Mixes a delayed signal with the input in equal proportions (delay depth determined by the pushbuttons).
 The implementation is a little different to the pedalSHIELD example (which appears a little broken).
 
 Because of memory limitations in the Uno, the delay depth is pretty short, so the effect is more like a light reverb.
 
-pedalSHIELD UNO example:
-![delay_psu](./assets/delay_psu.gif?raw=true)
-
-AudioDSP version:
-![delay_adsp](./assets/delay_adsp.gif?raw=true)
-
 
 ### distortion
+
+Sketch: [distortion.ino](./distortion/distortion.ino)
 
 Performs an asymmetrical clipping (top-side) to a level determined by the pushbuttons.
 The implementation here is pretty much identical to the pedalSHIELD example.
@@ -96,6 +103,8 @@ AudioDSP version:
 
 
 ### fuzz
+
+Sketch: [fuzz.ino](./fuzz/fuzz.ino)
 
 Performs a symmetrical clipping and boost to a level determined by the pushbuttons -
 signals above the threshold are thrown to the upper/lower rail.
@@ -110,17 +119,18 @@ AudioDSP version:
 
 ### metronome
 
+Sketch: [metronome.ino](./metronome/metronome.ino)
+
 Generates a metronome tone, at a frequency determined by the pushbuttons.
 The implementation here is pretty much identical to the pedalSHIELD example.
 
 pedalSHIELD UNO example:
 ![metronome_psu](./assets/metronome_psu.gif?raw=true)
 
-AudioDSP version:
-![metronome_adsp](./assets/metronome_adsp.gif?raw=true)
-
 
 ### monitor
+
+Sketch: [monitor.ino](./monitor/monitor.ino)
 
 Performs a clean transform of the guitar signal, and logs the settings to the serial port.
 The implementation here varies from the pedalSHIELD example, in the logging to serial is not done inside the interrupt routine.
@@ -132,28 +142,22 @@ AudioDSP version:
 
 ### signal_generator
 
+Sketch: [signal_generator.ino](./signal_generator/signal_generator.ino)
+
 Generates a tone described in a provided dataset.
 The implementation here is pretty much identical to the pedalSHIELD example.
-
-pedalSHIELD UNO example:
-![signal_generator_psu](./assets/signal_generator_psu.gif?raw=true)
-
-AudioDSP version:
-![signal_generator_adsp](./assets/signal_generator_adsp.gif?raw=true)
 
 
 ### tremelo
 
+Sketch: [tremelo.ino](./tremelo/tremelo.ino)
+
 Modulates the signal volume at a speed governed by the pushbutton setting.
 The implementation here is similar to the pedalSHIELD example.
 
-pedalSHIELD UNO example:
-![tremelo_psu](./assets/tremelo_psu.gif?raw=true)
-
-AudioDSP version:
-![tremelo_adsp](./assets/tremelo_adsp.gif?raw=true)
 
 
 ## Credits and References
 * [pedalShieldUno](../pedalShieldUno) - project
 * [AudioDSP](../../AudioDSP) - project
+* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap250-audiodsp-library-for-the-pedalshield-uno.html)
