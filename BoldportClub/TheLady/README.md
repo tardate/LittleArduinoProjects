@@ -67,3 +67,4 @@ All assembled..
 * [TheLady](http://www.boldport.club/shop/product/322512682) - in the Boldport shop
 * [TheLady](http://www.boldport.com/products/the-lady/) - project page
 * [TheLady](https://github.com/boldport/thelady) - OSH files on GitHub
+* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap251-the-lady.html)
