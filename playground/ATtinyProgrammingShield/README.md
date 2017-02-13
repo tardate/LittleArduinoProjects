@@ -1,6 +1,6 @@
 # #253 ATtinyProgrammingShield
 
-a custom ATtiny programming shield for Arduino ISP
+A custom ATtiny programming shield for use with Arduino ISP
 
 ![Build](./assets/ATtinyProgrammingShield_build.jpg?raw=true)
 
@@ -11,7 +11,7 @@ a custom ATtiny programming shield for Arduino ISP
 
 I covered programming an ATtiny with the Arduino ISP in the [ATtinyWithArduinoISP](../ATtinyWithArduinoISP) project.
 
-Since I've been programming a few more ATtiny processor, and simplify the processing of
+Since I've been programming a few more ATtiny processors, and simplify the processing of
 programming an ATtiny with ArduinoISP, I wired up a strip of protoboard
 to serve as a custom programming shield. This is the layout I chose:
 
@@ -20,6 +20,7 @@ to serve as a custom programming shield. This is the layout I chose:
 It's designed to be snapped onto an Arduino UNO, lined up with GPIO digital pins 8-13.
 
 It includes two LEDs on PB0 and PB1, which can be used for debugging/testing a program loaded on the ATtiny.
+
 ## Construction
 
 ![Breadboard](./assets/ATtinyProgrammingShield_bb.jpg?raw=true)
@@ -37,3 +38,4 @@ It includes two LEDs on PB0 and PB1, which can be used for debugging/testing a p
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)
 * [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)
 * [Programming an ATtiny with Arduino ISP](http://scuola.arduino.cc/lesson/qX1117g/Programming_an_ATtiny_with_Arduino_ISP)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap253-attiny-programming-shield.html)
