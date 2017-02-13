@@ -26,6 +26,10 @@ can be quite distorted/clipped.
 
 ## Construction
 
+Layout is derived from [LEAP#280 BreadboardTransmitter](../BreadboardTransmitter) design:
+
+![ThreeStageTransmitter_layout](./assets/ThreeStageTransmitter_layout.jpg?raw=true)
+
 A strip of copper PCB is the positive rail anchoring the circuit:
 
 ![build_01](./assets/build_01.jpg?raw=true)
