@@ -55,13 +55,15 @@ The core subsystems of the project:
 
 While you can hand-solder the project, it also presents a nice opportunity to experiment with reflow techniques.
 
-* [![Stenciling Tutorial](http://img.youtube.com/vi/WDIqtGMROjM/0.jpg)](http://www.youtube.com/watch?v=WDIqtGMROjM) - great tutorial from sparkfun, everything you need to know
+I found this great tutorial from sparkfun, everything I need to know to do a decent job of my first reflow with stencil:
+
+[![Stenciling Tutorial](http://img.youtube.com/vi/WDIqtGMROjM/0.jpg)](http://www.youtube.com/watch?v=WDIqtGMROjM)
 
 ## Reflow Assembly
 
 I decided to try my hand at some reflow. I'm using the stencil from OSH Stencils, some 63/37 solder paste and a hand-held hot air gun.
 
-Stencil and board taped down with Capton in an ad-hoc PCB frame:
+Stencil and board taped down with kapton in an ad-hoc PCB frame:
 
 ![assembly_setup](./assets/assembly_setup.jpg?raw=true)
 
@@ -87,7 +89,12 @@ Overall, the reflow assembly process worked brilliantly:
 * I doubt I could have soldered the SD card socket by hand without a great deal of pain
 * the final result looks great - almost like it came out of a factory
 
-Next to final assembly. Hot-glue for the speaker and battery pack attachment.
+Next to final assembly:
+
+* through-hole components with an iron
+* hot-glue for the speaker and battery pack attachment
+
+And here it is, ready to test:
 
 ![PissOff_build](./assets/PissOff_build.jpg?raw=true)
 
@@ -115,7 +122,7 @@ Using Disk Utility to verify and identify the SD card:
 
 ### First Attempt
 
-I first tried with a very old 128MB microSD card, formatted as "FAT" in the MacOSX Disk Utility tool.
+I first tried with a very old 128MB microSD card, formatted as "MS-DOS (FAT)" in the MacOSX Disk Utility tool.
 
 Copying the disk image to the device:
 
@@ -172,7 +179,7 @@ probably don't support SPI correctly.
 
 That's strange, as the [MicroSD spec requires SPI](https://en.wikipedia.org/wiki/Secure_Digital#Transfer_modes).
 
-So I tried again with a newer 64Gb SD card, formatted as "FAT" in the MacOSX Disk Utility tool:
+So I tried again with a newer 64Gb SD card, formatted as "MS-DOS (FAT)" in the MacOSX Disk Utility tool:
 
 ```
 r$ diskutil list
