@@ -132,9 +132,10 @@ Frequency reduced to ~4 Hz, and duty cycle over 50%..
 ![Build](./assets/Pease_build.jpg?raw=true)
 
 ## Credits and References
-* [LM331 Datasheet](http://www.ti.com/lit/ds/symlink/lm331.pdf)
 * [Pease](http://www.boldport.club/shop/product/206712811) - in the Boldport shop
 * [Pease](http://www.boldport.com/products/pease-second-edition/) - project page
 * [Pease](https://github.com/boldport/pease-2ed) - OSH files on GitHub
+* [Pease](http://community.boldport.club/projects/p01-pease/) - club community site, packed with resources for the project
+* [LM331 Datasheet](http://www.ti.com/lit/ds/symlink/lm331.pdf)
 * ["Just Less the Perfect"](http://www.boldport.club/shop/product/437169103) - where you can still obtain the Pease board
 * [Bob Pease](https://en.wikipedia.org/wiki/Bob_Pease) - wikipedia

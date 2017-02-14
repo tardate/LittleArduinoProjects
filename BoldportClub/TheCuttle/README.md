@@ -68,6 +68,7 @@ I also made a bit of a mistake with the pins - I pushed them flush from the top 
 * [TheCuttle](http://www.boldport.club/shop/product/390973459) - in the Boldport shop
 * [TheCuttle](http://www.boldport.com/tc/) - project page
 * [TheCuttle](https://github.com/boldport/thecuttle) - OSH files on GitHub
+* [TheCuttle](http://community.boldport.club/projects/p06-thecuttle/) - club community site, packed with resources for the project
 * [ATMEGA328P datasheet](http://parts.io/detail/1829384/ATMEGA328P-AU) - parts.io
 * [USB to TTL converter UART module CH340G CH340 3.3V 5V switch](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html) - the USB programming adapter I'm using
 * [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)

@@ -87,6 +87,7 @@ Power on, and it's blinking! Why? Beacuse!
 * [Emergency](http://www.boldport.club/shop/product/235066412) - in the Boldport shop
 * [Emergency](https://github.com/boldport/emergency) - OSH files on GitHub
 * [Emergency](https://bitbucket.org/boldport/pcbmode/wiki/The%20tiny%20engineer%20superhero%20emergency%20kit%20assembly%20guide) - assembly guide
+* [Emergency](http://community.boldport.club/projects/p02-emergency/) - club community site, packed with resources for the project
 * [A Negative Differential Resistance Oscillator with a Negistor](http://jlnlabs.online.fr/cnr/negosc.htm)
 * [Simplest LED Flasher Circuit](http://www.cappels.org/dproj/simplest_LED_flasher/Simplest_LED_Flasher_Circuit.html)
 * [Leo Esaki](https://en.wikipedia.org/wiki/Leo_Esaki) - wikipedia

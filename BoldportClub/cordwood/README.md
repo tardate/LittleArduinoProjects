@@ -68,6 +68,7 @@ since the only asymmetry required is the single crossing of the power lines betw
 ![Build](./assets/cordwood_build.jpg?raw=true)
 
 ## Credits and References
-* [Emergency](http://www.boldport.com/blog/2014/02/the-tiny-engineer-superhero-emergency.html) - on the Boldport blog
-* [Emergency](http://www.boldport.club/shop/product/235066412) - in the Boldport shop
-* [Emergency](https://github.com/boldport/emergency) - OSH files on GitHub
+* [cordwood](http://www.boldport.club/shop/product/259969402) - in the Boldport shop
+* [cordwood](https://www.boldport.com/products/cordwood-puzzle-second-edition/) - project page
+* [cordwood](https://github.com/boldport/cordwood-2ed) - OSH files on GitHub
+* [cordwood](http://community.boldport.club/projects/p03-cordwood/) - club community site, packed with resources for the project

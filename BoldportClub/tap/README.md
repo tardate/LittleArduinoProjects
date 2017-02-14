@@ -132,6 +132,7 @@ scope than the circuit. The important point is that we still see one bounce at l
 * [The Tap](https://www.boldport.com/products/the-tap/) - product information
 * [The Tap](http://www.boldport.club/shop/product/344511320) - in the Boldport shop
 * [The Tap](https://github.com/boldport/tap) - OSH files on GitHub
+* [The Tap](http://community.boldport.club/projects/p05-tap/) - club community site, packed with resources for the project
 * [SN7400N info and datasheet](http://parts.io/detail/931870/SN7400N) - parts.io
 * [PN2222ATA info and datasheet](http://parts.io/detail/1027929/PN2222ATA) - parts.io
 * [BC556BTA info and datasheet](http://parts.io/detail/1015198/BC556BTA) - parts.io

@@ -259,6 +259,7 @@ If you could get the Sleepy Bee in DIP24 package (or provide a DIP24 adapter), h
 * [Touchy](http://www.boldport.club/shop/product/437209749) - in the Boldport shop
 * [Touchy](https://www.boldport.com/products/touchy) - project page
 * [Touchy](https://github.com/boldport/touchy) - OSH files on GitHub
+* [Touchy](http://community.boldport.club/projects/p07-touchy/) - club community site, packed with resources for the project
 * [Touchy schematic](https://github.com/boldport/touchy/blob/master/docs/schematics.svg) - OSH files on GitHub
 * [BC_Touchy_Firmware](https://github.com/HashDefineElectronics/BC_Touchy_Firmware)
 * [Boldport Project # 7 Touchy](https://www.hashdefineelectronics.com/boldport-project-7-touchy/) - tutorial by #DefineElectronics

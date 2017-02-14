@@ -91,5 +91,6 @@ More testing. 999 to go ;-)
 * [LIGEMDIO](http://www.boldport.club/shop/product/480066844) - in the Boldport shop
 * [LIGEMDIO](http://www.boldport.com/products/ligemdio) - project page
 * [LIGEMDIO](https://github.com/boldport/ligemdio) - OSH files on GitHub
+* [LIGEMDIO](http://community.boldport.club/projects/p08-ligemdio/) - club community site, packed with resources for the project
 * [PN2222ATA datasheet](http://parts.io/detail/1027929/PN2222ATA)
 * [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)

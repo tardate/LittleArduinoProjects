@@ -220,6 +220,7 @@ As part of verifying the circuit, I redrew the schematic in Fritzing:
 * [PissOff](http://www.boldport.club/shop/product/527975670) - in the Boldport shop
 * [PissOff](http://boldport.com/pissoff) - project page
 * [PissOff](https://github.com/boldport/pissoff) - OSH files on GitHub
+* [PissOff](http://community.boldport.club/projects/p09-pissoff/) - club community site, packed with resources for the project
 * [PissOff source code](https://github.com/LuckyResistor/PissOff)
 * [MKE04Z8VWJ4 datasheet](https://parts.io/detail/222470347/MKE04Z8VWJ4)
 * [PissOff default disk image](https://luckyresistor.files.wordpress.com/2016/11/piss-off-disk.zip)
