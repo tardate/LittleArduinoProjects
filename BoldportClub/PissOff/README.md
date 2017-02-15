@@ -229,7 +229,10 @@ As part of verifying the circuit, I redrew the schematic in Fritzing:
 * [PissOff](https://github.com/boldport/pissoff) - OSH files on GitHub
 * [PissOff](http://community.boldport.club/projects/p09-pissoff/) - club community site, packed with resources for the project
 * [PissOff source code](https://github.com/LuckyResistor/PissOff)
-* [MKE04Z8VWJ4 datasheet](https://parts.io/detail/222470347/MKE04Z8VWJ4)
 * [PissOff default disk image](https://luckyresistor.files.wordpress.com/2016/11/piss-off-disk.zip)
 * [installing disk images](https://www.raspberrypi.org/documentation/installation/installing-images/)
 * [MicroSD](https://en.wikipedia.org/wiki/Secure_Digital#Transfer_modes) - wikipedia
+* [MKE04Z8VWJ4 datasheet](https://parts.io/detail/222470347/MKE04Z8VWJ4)
+* [TPA301DR datasheet](https://parts.io/detail/972012/TPA301DR)
+* [AP2210K-3.3TRG1 datasheet](https://parts.io/detail/156066978/AP2210K-3.3TRG1)
+* [2N7002ET1G datasheet](https://parts.io/detail/2137048/2N7002ET1G)
