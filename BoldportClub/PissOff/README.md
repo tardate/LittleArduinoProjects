@@ -166,7 +166,7 @@ Here is the adapter connected:
 ![PissOff_serial_debug](./assets/PissOff_serial_debug.jpg?raw=true)
 
 The problem is immediately apparent. The disk is mounted but the processor can't read any blocks.
-The [troubleshooting guide](https://luckyresistor.me/projects/boldport-pissoff/troubleshooting/) is a good reference for the dbeug interface.
+The [troubleshooting guide](https://luckyresistor.me/projects/boldport-pissoff/troubleshooting/) is a good reference for the debug interface.
 
 ![sd_fail](./assets/sd_fail.png?raw=true)
 
@@ -182,7 +182,7 @@ That's strange, as the [MicroSD spec requires SPI](https://en.wikipedia.org/wiki
 So I tried again with a newer 64Gb SD card, formatted as "MS-DOS (FAT)" in the MacOSX Disk Utility tool:
 
 ```
-r$ diskutil list
+$ diskutil list
 ...
 /dev/disk3
    #:                       TYPE NAME                    SIZE       IDENTIFIER
