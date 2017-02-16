@@ -23,7 +23,9 @@ This means it cannot directly plug into a breadboard and span the centre line.
 
 ![DPDT_part](./assets/DPDT_part.jpg?raw=true)
 
-This particular part has the common poles on pins 3 and 6. Other parts may use a different layout.
+This particular part has the common poles on pins 3 and 6.
+Other parts may use a different layout; in fact I have come across an identically-looking part
+with a different (aligned) orientation of the poles. So it is always worth testing before assuming...
 
 ![DPDT_part_design](./assets/DPDT_part_design.jpg?raw=true)
 

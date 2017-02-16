@@ -385,6 +385,13 @@
         "name": "CD4047/AstableOscillator"
     }, 
     {
+        "description": "learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit", 
+        "relative_path": "Electronics101/CD4060/MusicLightKit", 
+        "id": "#291", 
+        "categories": "CMOS", 
+        "name": "CD4060/MusicLightKit"
+    }, 
+    {
         "description": "build and analyse a simple clap switch circuit available as a kit", 
         "relative_path": "Electronics101/ClapSwitchKit", 
         "id": "#170", 

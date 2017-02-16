@@ -1,0 +1,7 @@
+{
+    "id": "#291", 
+    "name": "CD4060/MusicLightKit", 
+    "description": "learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit", 
+    "categories": "CMOS", 
+    "relative_path": "Electronics101/CD4060/MusicLightKit"
+}
