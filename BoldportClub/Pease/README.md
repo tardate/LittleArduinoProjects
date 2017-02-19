@@ -139,3 +139,4 @@ Frequency reduced to ~4 Hz, and duty cycle over 50%..
 * [LM331 Datasheet](http://www.ti.com/lit/ds/symlink/lm331.pdf)
 * ["Just Less the Perfect"](http://www.boldport.club/shop/product/437169103) - where you can still obtain the Pease board
 * [Bob Pease](https://en.wikipedia.org/wiki/Bob_Pease) - wikipedia
+* [..as mentioned on my blog](http://lblog.tardate.com/2017/02/leap256-the-boldportclub-pease.html)
