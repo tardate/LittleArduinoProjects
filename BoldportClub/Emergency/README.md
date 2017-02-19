@@ -78,7 +78,7 @@ Final layout and component selection. Build complete:
 
 ![Emergency_layout](./assets/Emergency_layout.jpg?raw=true)
 
-Power on, and it's blinking! Why? Beacuse!
+Power on, and it's blinking! Why? Because!
 
 ![Build](./assets/Emergency_build.jpg?raw=true)
 
@@ -91,3 +91,4 @@ Power on, and it's blinking! Why? Beacuse!
 * [A Negative Differential Resistance Oscillator with a Negistor](http://jlnlabs.online.fr/cnr/negosc.htm)
 * [Simplest LED Flasher Circuit](http://www.cappels.org/dproj/simplest_LED_flasher/Simplest_LED_Flasher_Circuit.html)
 * [Leo Esaki](https://en.wikipedia.org/wiki/Leo_Esaki) - wikipedia
+* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap257-blinking-emergency.html)
