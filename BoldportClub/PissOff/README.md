@@ -148,6 +148,8 @@ Disk /dev/disk3 ejected
 
 So far so good, but no sound when I try it in the PissOff.
 
+Note: read on for two solutions and the underlying problem finally identified and resolved.
+
 
 ### Serial Debugging
 
@@ -175,9 +177,7 @@ The [troubleshooting guide](https://luckyresistor.me/projects/boldport-pissoff/t
 
 From reports I've seen in the [Boldport Slack](https://boldportclub.slack.com/),
 not all SD cards work with the PissOff. The main factor seems to be older/smaller capacity cards that
-probably don't support SPI correctly.
-
-That's strange, as the [MicroSD spec requires SPI](https://en.wikipedia.org/wiki/Secure_Digital#Transfer_modes).
+probably don't support [SDHC](https://en.wikipedia.org/wiki/Secure_Digital#SDIO.2C_SDHC.2C_and_SDXC) correctly.
 
 So I tried again with a newer 64Gb SD card, formatted as "MS-DOS (FAT)" in the MacOSX Disk Utility tool:
 
@@ -207,6 +207,50 @@ And it works! Here's the serial debug output for an alarm sequence:
 ![sd_success](./assets/sd_success.png?raw=true)
 
 
+### Trying again with an old SDIO Card
+
+
+Here's why the BoldportClub slack channel rules: the SD card support issue was finally resolved by @pastva:
+
+```
+I found why pissoff can't play files from small cards (2GB).
+Serial debug revealed that READ_MULTIPLE_BLOCK (CMD18) returns error code.
+I found that SDHC cards are addressed in terms of 512 byte blocks, non SDHC card expects byte address.
+To fix it SDcard::startMultiRead method has to multiply startBlock by 512 for non SDHC cards (or << 9).
+```
+
+
+Then @fuchs created a non-SDHC card image: [piss-off-disk-no-hc](./assets/piss-off-disk-no-hc.zip)
+
+I tried this image with the 128Mb SDIO card (that failed in my first attempt), and it works just fine!
+
+Copying the image to the SD card:
+
+```
+$ diskutil list
+...
+/dev/disk2
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *127.1 MB   disk2
+   1:                 DOS_FAT_32 UNTITLED                127.1 MB   disk2s1
+$ diskutil unmountDisk /dev/disk2
+Unmount of all volumes on disk2 was successful
+
+$ sudo dd bs=1m if=disk_non_hc.img of=/dev/rdisk2
+0+1 records in
+0+1 records out
+342016 bytes transferred in 0.274037 secs (1248064 bytes/sec)
+
+$ diskutil eject /dev/disk2
+Disk /dev/disk2 ejected
+```
+
+Successful initialisation and alarm with the new image on a very old 128Mb SD card:
+
+![sd_success_no_hc](./assets/sd_success_no_hc.png?raw=true)
+
+So it turns out my older (failing) SD cards only supported [SDIO, not SDHC](https://en.wikipedia.org/wiki/Secure_Digital#SDIO.2C_SDHC.2C_and_SDXC).
+
 
 ## Schematics
 
@@ -232,6 +276,7 @@ As part of verifying the circuit, I redrew the schematic in Fritzing:
 * [PissOff default disk image](https://luckyresistor.files.wordpress.com/2016/11/piss-off-disk.zip)
 * [installing disk images](https://www.raspberrypi.org/documentation/installation/installing-images/)
 * [MicroSD](https://en.wikipedia.org/wiki/Secure_Digital#Transfer_modes) - wikipedia
+* [SDIO, SDHC, and SDXC](https://en.wikipedia.org/wiki/Secure_Digital#SDIO.2C_SDHC.2C_and_SDXC) - wikipedia
 * [MKE04Z8VWJ4 datasheet](https://parts.io/detail/222470347/MKE04Z8VWJ4)
 * [TPA301DR datasheet](https://parts.io/detail/972012/TPA301DR)
 * [AP2210K-3.3TRG1 datasheet](https://parts.io/detail/156066978/AP2210K-3.3TRG1)
