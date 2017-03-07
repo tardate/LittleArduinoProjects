@@ -399,6 +399,13 @@
         "name": "CD4060/MusicLightKit"
     }, 
     {
+        "description": "exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator", 
+        "relative_path": "Electronics101/CD4060/RCOscillator", 
+        "id": "#293", 
+        "categories": "CMOS, Oscillators", 
+        "name": "CD4060/RCOscillator"
+    }, 
+    {
         "description": "build and analyse a simple clap switch circuit available as a kit", 
         "relative_path": "Electronics101/ClapSwitchKit", 
         "id": "#170", 

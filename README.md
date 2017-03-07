@@ -1,5 +1,6 @@
-# 292 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioEffectsChips/H823](./Electronics101/AudioEffectsChips/H823) - figuring out how to use the H823 "Happy Birthday" music chip.
+# 293 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CD4060/RCOscillator](./Electronics101/CD4060/RCOscillator) - exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -115,6 +116,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS, Oscillators**           test the astable operating mode of the CD4047 |
 | [#291 CD4060/MusicLightKit](./Electronics101/CD4060/MusicLightKit)                 | **CMOS**                        learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit |
+| [#293 CD4060/RCOscillator](./Electronics101/CD4060/RCOscillator)                   | **CMOS, Oscillators**           exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator |
 | [#268 ChainBlocks](./playground/ChainBlocks)                                       | **Arduino**                     testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope |
 | [#170 ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Oscillators, BJT, Logic Gates** build and analyse a simple clap switch circuit available as a kit |
 | [#258 ClapSwitchKit2](./Electronics101/ClapSwitchKit2)                             | **Oscillators, BJT, Logic Gates** practice some Boldport-style soldering on yet-another clap switch kit |
