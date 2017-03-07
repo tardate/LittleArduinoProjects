@@ -1,5 +1,5 @@
 # 294 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CD4060/CrystalOscillator](./Electronics101/CD4060/RCOscillator) - exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator.
+> Latest addition:sparkles: [CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator) - exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -114,7 +114,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS/TTL, Oscillators**       test the astable operating mode of the CD4047 |
-| [#294 CD4060/CrystalOscillator](./Electronics101/CD4060/RCOscillator)              | **CMOS/TTL, Oscillators**       exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator |
+| [#294 CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator)              | **CMOS/TTL, Oscillators**       exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator |
 | [#291 CD4060/MusicLightKit](./Electronics101/CD4060/MusicLightKit)                 | **CMOS**                        learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit |
 | [#293 CD4060/RCOscillator](./Electronics101/CD4060/RCOscillator)                   | **CMOS, Oscillators**           exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator |
 | [#268 ChainBlocks](./playground/ChainBlocks)                                       | **Arduino**                     testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope |

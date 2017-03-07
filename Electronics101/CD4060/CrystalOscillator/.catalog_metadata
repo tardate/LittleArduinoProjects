@@ -1,7 +1,7 @@
 {
-    "id": "#xxx",
-    "name": "CrystalOscillator",
-    "description": "enter description",
-    "categories": "",
+    "id": "#294", 
+    "name": "CD4060/CrystalOscillator", 
+    "description": "exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator", 
+    "categories": "CMOS/TTL, Oscillators", 
     "relative_path": "Electronics101/CD4060/CrystalOscillator"
 }
