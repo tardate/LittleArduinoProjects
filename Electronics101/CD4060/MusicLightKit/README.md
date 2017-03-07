@@ -2,7 +2,9 @@
 
 Learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit.
 
-![Build](./assets/MusicLightKit_build.jpg?raw=true)
+Here's a quick demo of the LED sequence in action..
+
+[![Build](./assets/MusicLightKit_build.jpg?raw=true)](http://www.youtube.com/watch?v=oUgnn1maLc8)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -11,7 +13,7 @@ Learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building 
 This is a pretty common kit widely available from sellers on [aliexpress](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html), ebay and other outlets.
 It comes in a few variations, but essentially all the same circuit.
 
-It is an interesting demonstration on the CD4060 14-Stage Ripple Carry Binary Counter.
+It is an interesting demonstration of the CD4060 14-Stage Ripple Carry Binary Counter.
 
 The kit includes a potted sound chip that plays "Happy Birthday". The music circuit runs completely independently of the CD4060-driven LED circuit.
 
