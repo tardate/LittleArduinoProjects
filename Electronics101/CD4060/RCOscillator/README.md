@@ -8,7 +8,7 @@ Exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator.
 
 ## Notes
 
-The CD4060 datasheet describes an RC Oscillator configuration for self-driving the ripple counter.
+The CD4060 datasheet describes an RC oscillator configuration for self-driving the ripple counter.
 A 50% duty cycle is achieved when R1 = R2.
 
 ![CD4060_rc_oscillator](./assets/CD4060_rc_oscillator.png?raw=true)
@@ -39,7 +39,7 @@ Thus the first (Q4) output signal divides the input frequency by a factor of 2^4
 
 Stage 11 (Q11) of the ripple counter is also not exposed on a pin.
 
-The lack of Q0-3 and Q11 is  I think just pin economics so it all fits it in a DIP16 package.
+The lack of Q0-3 and Q11 is I think just pin economics so it all fits it in a DIP16 package.
 
 The performance is summarised in the table and scope capture below.
 
@@ -71,3 +71,4 @@ The performance is summarised in the table and scope capture below.
 ## Credits and References
 * [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
 * [Flip-flops](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
+* [LEAP#294 CD4060/CrystalOscillator](../CrystalOscillator) - similar circuit but crystal-controlled
