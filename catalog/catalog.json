@@ -1239,6 +1239,13 @@
         "name": "ComponentTesterKit"
     }, 
     {
+        "description": "build and test a common PIC-based frequency counter kit", 
+        "relative_path": "Equipment/FrequencyCounterKit", 
+        "id": "#295", 
+        "categories": "PIC, Equipment, Oscillators", 
+        "name": "FrequencyCounterKit"
+    }, 
+    {
         "description": "build and test a function generator kit based on the XR-2206 monolithic function generator", 
         "relative_path": "Equipment/FunctionGeneratorKit", 
         "id": "#282", 

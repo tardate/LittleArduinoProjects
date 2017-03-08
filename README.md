@@ -1,5 +1,6 @@
-# 294 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator) - exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator.
+# 295 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [FrequencyCounterKit](./Equipment/FrequencyCounterKit) - build and test a common PIC-based frequency counter kit.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -151,6 +152,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, RF**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
+| [#295 FrequencyCounterKit](./Equipment/FrequencyCounterKit)                        | **PIC, Equipment, Oscillators** build and test a common PIC-based frequency counter kit |
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [#282 FunctionGeneratorKit](./Equipment/FunctionGeneratorKit)                      | **Oscillators, Tools, XR2206**  build and test a function generator kit based on the XR-2206 monolithic function generator |
