@@ -84,7 +84,7 @@ Here is my redrawing of the schematic used in the actual kit:
 ## Performance
 
 Julian and others have reported issues with the frequency counter (temperature effects; failure to register).
-Hoewver in my tests I didn't see any of these effects. I tested crystals from 4 to 16MHz and got quite accurate results
+However in my tests I didn't see any of these problems. I tested crystals from 4MHz to 16MHz and got quite accurate results
 in all cases. Here's an example of a 7MHz crystal under test:
 
 ![test-crystal-7mhz](./assets/test-crystal-7mhz.jpg?raw=true)
@@ -125,21 +125,21 @@ it by-passes any power supply connected on J2. For my tests, I just had power co
 
 ## Next Steps and Improvements
 
-One of the issues with the counter is that it requires a n input signal that registers across 0-5V as it is fed as a direct input
-to the PIC. This can be problemmatic:
+One of the issues with the counter is that it requires an input signal that registers across 0-5V as it is fed as a direct input
+to the PIC. This can be problematic:
 
 * no over-voltage protection
 * unable to read small signals
 * AC-coupled signals may not have sufficient high-side amplitude
 
-The [preamlifier](http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html#preamp) described by DL4YHF looks like an interesting
+The [preamplifier](http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html#preamp) described by DL4YHF looks like an interesting
 addition.
 
 So perhaps next things I'll do with this kit:
 
 * add a pre-amplified stage, perhaps with over-voltage protection
-* mount in a case
-* add BNC connector
+* mount in a case with a BNC connector for input frequency
+* add a switch and battery connected on J2 (so can be mounted with a battery in a case, with external power bypass on J3)
 
 
 ## Credits and References
