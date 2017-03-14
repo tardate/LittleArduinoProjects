@@ -27,7 +27,7 @@ It does work with both AC and DC signals however.
 
 The programming interface is a very simple two-wire (data, clock) serial protocol.
 But being so simple (and having a strange command length of 11 bits) it's not really possible to use either
-the standard Wire or SPI libraries. time for some bit-banging!
+the standard Wire or SPI libraries. Time for some bit-banging!
 
 ### Protocol
 
@@ -115,3 +115,4 @@ Next test was with a 5V DC signal on left and right channel input.
 * [M62429FP info & datasheet](http://parts.io/detail/5005065/M62429FP) - parts.io
 * [AD5171 Digital Potentiometer](https://www.arduino.cc/en/Tutorial/DigitalPotentiometer) - tutorial
 * [krupski/M62429](https://github.com/krupski/M62429) - M62429 support encapsulated in a library
+* [..as mentioned on my blog](http://blog.tardate.com/2017/03/leap259-m62429-digital-pot.html)
