@@ -1,6 +1,5 @@
-# 295 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [FrequencyCounterKit](./Equipment/FrequencyCounterKit) - build and test a common PIC-based frequency counter kit.
-
+# 296 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SolarPendulum](./BoldportClub/QSOPBreakout/SolarPendulum) - build a solar-powered pendulum similar to the popular "solar wobble/flip-flop toys" on the Boldport QSOP breakout board.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -297,6 +296,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#279 SingleStageTransmitterKit2](./Electronics101/FM/SingleStageTransmitterKit2)  | **FM**                          build and tweak/tune another simple single-stage FM Transmitter Kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [#096 Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
+| [#296 SolarPendulum](./BoldportClub/QSOPBreakout/SolarPendulum)                    | **Boldport, Solar**             build a solar-powered pendulum similar to the popular "solar wobble/flip-flop toys" on the Boldport QSOP breakout board |
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
 | [#117 SolenoidDIY](./Electronics101/SolenoidDIY)                                   | **Solenoid, Arduino**           build and test a basic electromechanical solenoid |
 | [#200 SolenoidMotor](./Kinetics/SolenoidMotor)                                     | **Solenoid**                    a single-cylinder mini-solenoid engine |

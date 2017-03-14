@@ -1,0 +1,7 @@
+{
+    "id": "#296", 
+    "name": "SolarPendulum", 
+    "description": "build a solar-powered pendulum similar to the popular \"solar wobble/flip-flop toys\" on the Boldport QSOP breakout board", 
+    "categories": "Boldport, Solar", 
+    "relative_path": "BoldportClub/QSOPBreakout/SolarPendulum"
+}
