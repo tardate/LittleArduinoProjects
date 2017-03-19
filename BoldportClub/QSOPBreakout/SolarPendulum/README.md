@@ -14,20 +14,20 @@ I have a spare BoldPort QSOP Breakout board and for a while I've been trying to 
 a solar pendulum!
 
 I discovered some new and creative solar wobble/flip-flap toys while travelling recently, which started me wondering how they work.
-What is quite impressive is how well they work with only modest internal lighting and very small photo-voltaic cells.
+What is quite impressive is how well they work with only modest internal lighting and very small photovoltaic cells.
 
 The trick appears to be in the switching of capacitor-backed pulses through a coil. There are some good teardowns available,
 such as the one by
 [Ludic Science](https://www.youtube.com/watch?v=M6L-d_dYWIc) and the excellent
 [analysis by dmercer](https://ez.analog.com/community/university-program/blog/2015/04/27/solar-powered-motion-toy-tear-down),
-but they all fall short because the interesting electronics in these toys are invariable potted.
-I'm not sure if this is license-avoidance as it might be IP protection, as there are patents out there for such toys
+but they all fall short because the interesting electronics in these toys are invariably potted.
+I'm not sure if this is as much license-avoidance as it might be IP protection, as there are patents out there for such toys such as
 [US3783550](https://www.google.com/patents/US3783550?dq=3783550&hl=en&sa=X&ei=X67xUqHPMoOZkQWA5IDYDw&ved=0CDMQ6AEwAA&pageId=105188957426397764872) and [101352268A](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=101352268A&KC=A&FT=D&ND=&date=20090128&DB=EPODOC&locale=en_EP).
 
 
-After some more research, I found two practical circuit: the first being a
-[Solar Powered Pendulum](http://nutsvolts.texterity.com/nutsvolts/201208/?folio=32&pg=32#pg32) article in Nuts & Volts,
-and the second covered thoroughly useful [laboratory notebook](http://www.elektronik-labor.de/Labortagebuch/Tagebuch0716.html#pendel2)
+After some more research, I found two practical circuits: the first being a
+[Solar Powered Pendulum article](http://nutsvolts.texterity.com/nutsvolts/201208/?folio=32&pg=32#pg32) in Nuts & Volts,
+and the second covered in the thoroughly useful [laboratory notebook](http://www.elektronik-labor.de/Labortagebuch/Tagebuch0716.html#pendel2)
 edited by Burkhard Kainka.
 
 I tried both circuits, and found that the Nuts & Volts approach appeared to work best for photovoltaics with lower driving power.
@@ -35,7 +35,7 @@ I tried both circuits, and found that the Nuts & Volts approach appeared to work
 
 ## Breadboard Prototype
 
-I tested a fe circuits on a breadboard, finally picking the approach from Nuts & Volts:
+I tested a few circuits on a breadboard, finally picking the approach from Nuts & Volts:
 
 ![SolarPendulum_bb_build](./assets/SolarPendulum_bb_build.jpg?raw=true)
 
@@ -73,7 +73,7 @@ It is air-core. Works just well enough!
 
 ## QSOP Breakout Build
 
-So the SQOP breakout board ... is intended as a QSOP breakout! But it has enough interesting features to make it
+So the QSOP/0805 breakout ... is intended as a breakout board! But it has enough interesting features to make it
 serviceable as the protoboard for this circuit.
 
 Here is the SQOP Board during assembly, with all components fitted. I used SMD 0805 resistors but all other components
