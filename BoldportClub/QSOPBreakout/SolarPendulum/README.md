@@ -89,6 +89,12 @@ With coil attached..
 
 ![construction_3](./assets/construction_3.jpg?raw=true)
 
+Here's the circuit layout I used on the QSOP/0805 circuit board.
+
+![construction_4_layout](./assets/construction_4_layout.jpg?raw=true)
+
+Final construction .. the base is a repurposed box from the Boldport Club [Tap project](../../tap).
+
 ![Build](./assets/SolarPendulum_build.jpg?raw=true)
 
 ## Credits and References
