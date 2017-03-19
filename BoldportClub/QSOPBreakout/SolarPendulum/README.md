@@ -46,6 +46,8 @@ It works just well enough in decent light.
 
 I also tested a larger panel with open circuit voltage of around 3.5-4V; it works very well (sometimes too well), but is larger than I wanted to use.
 
+For this reason I also selected the very-low-forward-voltage 1N5819 as the diode. General purpose NPN and PNP transistors provide the switching (2N3904/2N3906).
+
 ## Sizing the Pendulum
 
 The weight and arc of the pendulum are obviously important design factors as they influence the resonant frequency.
@@ -61,7 +63,7 @@ ending the pulse becomes much more critical lest it act to dampen the pendulum o
 
 ## Sizing the Coil
 
-I fudged this also. the coil I'm using is perhaps 100+ turns of enamelled winding wire with 1sm outer diameter.
+I fudged this also. The coil I'm using is perhaps 100+ turns of enamelled winding wire with 1cm outer diameter.
 It is air-core. Works just well enough!
 
 ## Circuit
@@ -76,7 +78,7 @@ It is air-core. Works just well enough!
 So the QSOP/0805 breakout ... is intended as a breakout board! But it has enough interesting features to make it
 serviceable as the protoboard for this circuit.
 
-Here is the SQOP Board during assembly, with all components fitted. I used SMD 0805 resistors but all other components
+Here is the QSOP Board during assembly, with all components fitted. I used SMD 0805 resistors but all other components
 where through-hole.
 
 ![construction_1](./assets/construction_1.jpg?raw=true)
@@ -99,6 +101,9 @@ Final construction .. the base is a repurposed box from the Boldport Club [Tap p
 
 ## Credits and References
 * [QSOP and 0805 breakout and soldering practice board](http://www.boldport.club/shop/product/437246682) - in the Boldport Shop
+* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
 * [Solar Pendulum](https://www.youtube.com/watch?v=M6L-d_dYWIc) - teardown and analysis by Ludic Science
 * [Magnet powered pendulum](https://www.youtube.com/watch?v=yrKtY7nWc-o) - teardown and analysis by RHEAD100
 * [Solar Powered Pendulum](http://nutsvolts.texterity.com/nutsvolts/201208/?folio=32&pg=32#pg32) - nuts and volts
