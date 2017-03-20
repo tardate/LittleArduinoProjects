@@ -1,7 +1,6 @@
 # Boldport Club
 
-![The Build](./assets/BoldportClub_build.jpg?raw=true)
-
+![Year One Projects](./assets/BoldportClub_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -20,3 +19,5 @@ the focus here is on kits that are engaging, challenging, entertaining, and coll
 * [Boldport Club Community Site](http://community.boldport.club/) - packed with resources and details of builds by members
 * [Saar Drimer on The AmpHour podcast](http://www.theamphour.com/286-an-interview-with-saar-drimer/)
 * [Saar Drimer on the embedded.fm podcast](http://embedded.fm/episodes/171)
+
+![BoldportClub_stickers](./assets/BoldportClub_stickers.jpg?raw=true)
