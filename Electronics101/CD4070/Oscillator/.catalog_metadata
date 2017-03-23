@@ -1,0 +1,7 @@
+{
+    "id": "#297", 
+    "name": "CD4070/Oscillator", 
+    "description": "examine a classic CD4070 oscillator design and variations", 
+    "categories": "CMOS, Oscillators", 
+    "relative_path": "Electronics101/CD4070/Oscillator"
+}

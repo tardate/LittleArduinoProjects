@@ -420,6 +420,13 @@
         "name": "CD4060/RCOscillator"
     }, 
     {
+        "description": "examine a classic CD4070 oscillator design and variations", 
+        "relative_path": "Electronics101/CD4070/Oscillator", 
+        "id": "#297", 
+        "categories": "CMOS, Oscillators", 
+        "name": "CD4070/Oscillator"
+    }, 
+    {
         "description": "build and analyse a simple clap switch circuit available as a kit", 
         "relative_path": "Electronics101/ClapSwitchKit", 
         "id": "#170", 

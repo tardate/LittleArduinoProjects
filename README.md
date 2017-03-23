@@ -1,5 +1,6 @@
-# 296 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SolarPendulum](./BoldportClub/QSOPBreakout/SolarPendulum) - build a solar-powered pendulum similar to the popular "solar wobble/flip-flop toys" on the Boldport QSOP breakout board.
+# 297 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CD4070/Oscillator](./Electronics101/CD4070/Oscillator) - Examine a classic CD4070 oscillator design and variations.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -117,6 +118,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#294 CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator)              | **CMOS/TTL, Oscillators**       exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator |
 | [#291 CD4060/MusicLightKit](./Electronics101/CD4060/MusicLightKit)                 | **CMOS**                        learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit |
 | [#293 CD4060/RCOscillator](./Electronics101/CD4060/RCOscillator)                   | **CMOS, Oscillators**           exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator |
+| [#297 CD4070/Oscillator](./Electronics101/CD4070/Oscillator)                       | **CMOS, Oscillators**           examine a classic CD4070 oscillator design and variations |
 | [#268 ChainBlocks](./playground/ChainBlocks)                                       | **Arduino**                     testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope |
 | [#170 ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Oscillators, BJT, Logic Gates** build and analyse a simple clap switch circuit available as a kit |
 | [#258 ClapSwitchKit2](./Electronics101/ClapSwitchKit2)                             | **Oscillators, BJT, Logic Gates** practice some Boldport-style soldering on yet-another clap switch kit |
