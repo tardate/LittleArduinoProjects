@@ -62,3 +62,4 @@ The voltage divider is in the test circuit to avoid pumping more than the rated 
 * [MCP4017T-104E/LT info and datasheet](http://parts.io/detail/2900767/MCP4017T-104E%2FLT) - parts.io
 * [AD5171 Digital Potentiometer](https://www.arduino.cc/en/Tutorial/DigitalPotentiometer) - tutorial
 * [MCP4017](http://www.microchip.com/wwwproducts/en/MCP4017) - Microchip product page
+* [..as mentioned on my blog](http://blog.tardate.com/2017/03/leap261-mcp4017-digital-pot.html)
