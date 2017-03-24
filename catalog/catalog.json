@@ -91,6 +91,20 @@
         "name": "BoldportClub/TheLady"
     }, 
     {
+        "description": "building The Matrix (Boldport Club project #11) is an I\u00b2C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver", 
+        "relative_path": "BoldportClub/TheMatrix", 
+        "id": "#299", 
+        "categories": "Boldport, PCB Design, LED, AMS1130", 
+        "name": "BoldportClub/TheMatrix"
+    }, 
+    {
+        "description": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
+        "relative_path": "BoldportClub/TheMatrix/LedTest", 
+        "id": "#300", 
+        "categories": "Boldport, LED, AMS1130", 
+        "name": "TheMatrix/LedTest"
+    }, 
+    {
         "description": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)", 
         "relative_path": "BoldportClub/Touchy", 
         "id": "#277", 

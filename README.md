@@ -1,5 +1,5 @@
-# 298 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CD4070/Oscillator](./Electronics101/CD4070/Oscillator) - Examine a classic CD4070 oscillator design and variations.
+# 300 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/TheMatrix](./BoldportClub/TheMatrix) - Building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -107,6 +107,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#284 BoldportClub/TheGent](./BoldportClub/TheGent)                                | **Boldport, PCB Design**        The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board |
+| [#299 BoldportClub/TheMatrix](./BoldportClub/TheMatrix)                            | **Boldport, PCB Design, LED, AMS1130** building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver |
 | [#277 BoldportClub/Touchy](./BoldportClub/Touchy)                                  | **Boldport, EFM8, Sensors**     Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#280 BreadboardTransmitter](./Electronics101/FM/BreadboardTransmitter)            | **FM**                          build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3 |
@@ -115,7 +116,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS/TTL, Oscillators**       test the astable operating mode of the CD4047 |
-| [#294 CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator)              | **CMOS/TTL, Oscillators**       exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator |
+| [#294 CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator)         | **CMOS/TTL, Oscillators**       exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator |
 | [#291 CD4060/MusicLightKit](./Electronics101/CD4060/MusicLightKit)                 | **CMOS**                        learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit |
 | [#293 CD4060/RCOscillator](./Electronics101/CD4060/RCOscillator)                   | **CMOS, Oscillators**           exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator |
 | [#297 CD4070/Oscillator](./Electronics101/CD4070/Oscillator)                       | **CMOS, Oscillators**           examine a classic CD4070 oscillator design and variations |
@@ -325,6 +326,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer |
+| [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AMS1130**      testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
 | [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **FM**                          build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |

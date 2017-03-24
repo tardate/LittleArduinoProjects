@@ -40,3 +40,6 @@
 [submodule "libraries/Cordwood"]
 	path = libraries/Cordwood
 	url = https://github.com/aaronjasso/Cordwood
+[submodule "libraries/LRAS1130"]
+	path = libraries/LRAS1130
+	url = https://github.com/LuckyResistor/LRAS1130

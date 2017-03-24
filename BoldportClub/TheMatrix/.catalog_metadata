@@ -1,0 +1,7 @@
+{
+    "id": "#299", 
+    "name": "BoldportClub/TheMatrix", 
+    "description": "building The Matrix (Boldport Club project #11) is an I\u00b2C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver", 
+    "categories": "Boldport, PCB Design, LED, AMS1130", 
+    "relative_path": "BoldportClub/TheMatrix"
+}
