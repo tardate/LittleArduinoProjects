@@ -1,4 +1,4 @@
-# #263 ligemdio
+# #263 LigEmDio
 
 An LED tester kit featuring a classic BJT constant current source. From The Boldport Club (Project #8).
 
@@ -94,3 +94,4 @@ More testing. 999 to go ;-)
 * [LIGEMDIO](http://community.boldport.club/projects/p08-ligemdio/) - club community site, packed with resources for the project
 * [PN2222ATA datasheet](http://parts.io/detail/1027929/PN2222ATA)
 * [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap263-boldport-ligemdio.html)
