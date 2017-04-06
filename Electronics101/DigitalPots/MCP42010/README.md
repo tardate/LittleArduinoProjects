@@ -67,3 +67,4 @@ I have the MCP42010 in a 14-Lead SOIC package, so I loaded it on an adapter for 
 * [MCP42010 datasheet](http://parts.io/detail/1372149/MCP42010-I%2FSL) - parts.io
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) - wikipedia
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap264-mcp42010-digital-pot.html)
