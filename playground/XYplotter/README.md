@@ -10,12 +10,12 @@ Of course, the first thing to try is the classic Christmas Tree.
 
 ## Notes
 
-There's a gooky meme that's been around for years .. "drawing" pitcures on an oscilloscope.
+There's a geeky meme that's been around for years .. "drawing" pictures on an oscilloscope.
 I'm inspired to try something similar by [w2aew's video](https://youtu.be/Dx9N91FnPdo?list=PL049620539B359102)
 based on the the [Christmas Tree by johngineer](http://www.johngineer.com/blog/?p=648).
 
 The techniques usually exploit the behaviour of analog scopes.
-This doesn't work so well on digitial oscilloscopes since they are too good at picking up discontinuities.
+This doesn't work so well on digitial oscilloscopes since they are generally too good at picking up discontinuities.
 
 In this experiment, I'm using an MCP42010 digital potentiometer to drive an X-Y plot with an Arduino.
 Using a digital potentiometer is a convenience - it could also be achieved with PWM outputs and RC filter
