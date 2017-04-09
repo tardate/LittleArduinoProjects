@@ -41,16 +41,23 @@ This allows for using the AS1130 scrolling feature for scrolling without the nee
 ### Assembly
 
 I used the [Matrix stencil](https://www.oshstencils.com/#projects/b0f4128d644cff5424abcb2829a05980179f08fc) from OSHStencils
-and a hot-air gun for the assembly:
+and a hot-air gun for the assembly.
 
-* first the LEDs on one side
-* then the AMS1130 and supporting components on the reverse side
-* finally hand-soldered the pin connector
+![kit_stencil](./assets/kit_stencil.jpg?raw=true)
+
+I first did the LEDs on one side then the AMS1130 and supporting components on the reverse side with hot air.
+Then finally hand-soldered the pin connector.
+
+![kit_assembly_start](./assets/kit_assembly_start.jpg?raw=true)
+
+![kit_assembly_led_placement](./assets/kit_assembly_led_placement.jpg?raw=true)
 
 After an initial inspection, I only had a couple of manual fixups required:
 
 * two LEDs not connected properly after reflow
 * a solder bridge between two pins on the AMS1130 that wouldn't clear under hot air
+
+
 
 ![Build](./assets/TheMatrix_build.jpg?raw=true)
 
