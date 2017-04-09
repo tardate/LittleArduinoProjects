@@ -73,3 +73,4 @@ I also made a bit of a mistake with the pins - I pushed them flush from the top 
 * [USB to TTL converter UART module CH340G CH340 3.3V 5V switch](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html) - the USB programming adapter I'm using
 * [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)
 * [FritzingParts/TheCuttle](../../FritzingParts/TheCuttle/) - a Fritzing part for the Cuttle module
+* [..as mentioned on my blog](http://blof.tardate.com/2017/04/leap266-the-boldportclub-cuttle.html)
