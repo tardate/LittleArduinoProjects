@@ -34,6 +34,7 @@ function make_project() {
 
   mkdir -p ${full_path}
   mkdir ${full_path}/assets
+  mkdir ${full_path}/assets/wip
 
   local readme_file="${full_path}/README.md"
   echo "making ${readme_file}"

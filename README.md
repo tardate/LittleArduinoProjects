@@ -1,4 +1,4 @@
-# 297 Little Electronics and Arduino Projects
+# 298 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [CD4070/Oscillator](./Electronics101/CD4070/Oscillator) - Examine a classic CD4070 oscillator design and variations.
 
 
@@ -164,6 +164,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#245 GeneralCurveTracer](./Electronics101/GeneralCurveTracer)                     | **BJT, Oscillators**            test a DC-powered general curve tracer circuit |
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
+| [#298 GoldenHind](./Kraft/GoldenHind)                                              | **Kraft** building a mini metal model of the Golden Hind |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#249 GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp)             | **OpAmp, Audio**                single-channel 10W guitar practice amplifier based on the TDA2050 |
 | [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |

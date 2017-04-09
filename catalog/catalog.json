@@ -1344,6 +1344,13 @@
         "name": "StirlingEngineHB13"
     }, 
     {
+        "description": "building a mini metal model of the Golden Hind", 
+        "relative_path": "Kraft/GoldenHind", 
+        "id": "#298", 
+        "categories": "Kraft", 
+        "name": "GoldenHind"
+    }, 
+    {
         "description": "a paper model with some LED effects", 
         "relative_path": "Kraft/SagradaFamilia", 
         "id": "#192", 
