@@ -12,6 +12,10 @@ The Matrix is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS11
 
 The project was made possible by the kind support of AMS who donated the LED drivers, and Eurocircuits who subsidised the cost of the PCBs.
 
+Now I have one built, time to test it out. So far
+
+* [LedTest](./LedTest) - first check under Arduino control
+
 
 ### Parts
 
