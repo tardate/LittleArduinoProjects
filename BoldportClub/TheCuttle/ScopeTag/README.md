@@ -52,3 +52,4 @@ The time-domain plot for the generated output is like this:
 * [LEAP: XYplotter](../../playground/XYplotter) - the scope XY plotting project
 * [LEAP: The Cuttle](../) - building the cuttle
 * [MCP42010 datasheet](http://parts.io/detail/1372149/MCP42010-I%2FSL) - parts.io
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap267-cuttle-scope-graffiti.html)
