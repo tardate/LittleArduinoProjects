@@ -29,7 +29,7 @@ I turned the application block into an "XY Plotter Block".
 
 ### The XY Plotter Block
 
-For a test, I decided to make an XY plotter block, based on the [LEAP: XYplotter](../XYplotter) project.
+For a test, I decided to make an XY plotter block, based on the [LEAP#265 XYplotter](../XYplotter) project.
 
 It uses an MCP42010 dual digital potentiometer to draw images on an oscilloscope.
 
@@ -76,4 +76,5 @@ The time-domain plot for the generated output is like this:
 ## Credits and References
 * [Chain Blocks](http://www.prextron.com/chain) - product site
 * [PrexLab](https://www.facebook.com/groups/1086037341416426/) - facebook
-* [LEAP: XYplotter](../XYplotter) - the scope XY plotting project
+* [LEAP#265 XYplotter](../XYplotter) - the scope XY plotting project
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap268-chainblocks.html)
