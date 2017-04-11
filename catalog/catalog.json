@@ -1610,6 +1610,13 @@
         "name": "CurrentSensorModule"
     }, 
     {
+        "description": "test basic temperature and humidity readings with the DHT11 sensor", 
+        "relative_path": "playground/DHT11/Basics", 
+        "id": "#301", 
+        "categories": "Sensors, Arduino", 
+        "name": "DHT11/Basics"
+    }, 
+    {
         "description": "demonstrate how analog pins can also be used as a digital GPIO", 
         "relative_path": "playground/DigitalInputWithAnalogPins", 
         "id": "#240", 

@@ -1,5 +1,6 @@
-# 300 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/TheMatrix](./BoldportClub/TheMatrix) - Building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver.
+# 301 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DHT11/Basics](./playground/DHT11/Basics) - Test basic temperature and humidity readings with the DHT11 sensor.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -132,6 +133,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 voltage sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
+| [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
 | [#259 DigitalPots/M62429](./Electronics101/DigitalPots/M62429)                     | **Arduino, Digital Pot, M62429** control the M62429 dual channel volume control with an Arduino |
