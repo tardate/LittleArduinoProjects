@@ -31,6 +31,6 @@ uses the analog pins for digital out, as they are the only 6 GPIO pins in an unb
 
 ## Credits and References
 * [Cordwood on GitHub](https://github.com/aaronjasso/Cordwood) - library by aaronjasso
-* [LEAP: cordwood](../) - building the BoldportClub cordwood
-* [LEAP: The Cuttle](../../TheCuttle) - building the BoldportClub Cuttle
+* [LEAP#269 cordwood](../) - building the BoldportClub cordwood
+* [LEAP#266 The Cuttle](../../TheCuttle) - building the BoldportClub Cuttle
 * [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)
