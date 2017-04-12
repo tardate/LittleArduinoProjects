@@ -3,26 +3,26 @@
   TheMatrix/LedTest
   This example tests all connected LEDs.
 
+  Based on LedTest.ino from the LRAS1130 library examples.
+
   For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheMatrix/LedTest
 
  */
 
 #include <Wire.h>
-#include "LRAS1130.h"
-
-/// @example LedTest.ino
-/// This example tests all connected LEDs.
+#include <LRAS1130.h>
 
 using namespace lr;
 AS1130 ledDriver;
 
+AS1130Picture24x5 picture;
 
 void setup() {
   // Initialize the Wire library.
   Wire.begin();
 
   // Initialize the serial port.
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   // Wait until the chip is ready.
   delay(100);
@@ -46,11 +46,17 @@ void setup() {
   // Enable the chip
   ledDriver.startChip();
 
-  // Check for dead LEDs
-  Serial.println(F("Run the LED test"));
+  runLedTest();
+}
+
+void loop() {
+  runPixelTest();
+}
+
+void runLedTest() {
+  Serial.println(F("Testing the status of all LEDs"));
   ledDriver.runManualTest();
 
-  // Display the status of all leds.
   for (uint8_t ledIndex = 0x00; ledIndex < 0xbb; ++ledIndex) {
     Serial.print(F("LED 0x"));
     Serial.print(ledIndex, HEX);
@@ -69,6 +75,16 @@ void setup() {
   }
 }
 
-
-void loop() {
+void runPixelTest() {
+  Serial.println(F("Visual inspection one LED at a time..."));
+  for(uint8_t speed=0; speed<5; speed++) {
+    for(uint8_t x=0; x<24; x++) {
+      for(uint8_t y=0; y<5; y++) {
+        picture.setPixel(x, y, true);
+        ledDriver.setOnOffFrame(0, picture);
+        picture.setPixel(x, y, false);
+        delay(50 + 20 * speed);
+      }
+    }
+  }
 }
