@@ -1,6 +1,5 @@
-# 301 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DHT11/Basics](./playground/DHT11/Basics) - Test basic temperature and humidity readings with the DHT11 sensor.
-
+# 302 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife) - a simple implementation of Conway's Game of Life on the BoldportClub Matrix.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -328,6 +327,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer |
+| [#302 TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife)                   | **Boldport, LED, AMS1130**      a simple implementation of Conway's Game of Life on the BoldportClub Matrix |
 | [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AMS1130**      testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
 | [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **FM**                          build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |

@@ -98,6 +98,13 @@
         "name": "BoldportClub/TheMatrix"
     }, 
     {
+        "description": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 
+        "relative_path": "BoldportClub/TheMatrix/GameOfLife", 
+        "id": "#302", 
+        "categories": "Boldport, LED, AMS1130", 
+        "name": "TheMatrix/GameOfLife"
+    }, 
+    {
         "description": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
         "relative_path": "BoldportClub/TheMatrix/LedTest", 
         "id": "#300", 
