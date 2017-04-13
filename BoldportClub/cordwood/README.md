@@ -72,3 +72,4 @@ since the only asymmetry required is the single crossing of the power lines betw
 * [cordwood](https://www.boldport.com/products/cordwood-puzzle-second-edition/) - project page
 * [cordwood](https://github.com/boldport/cordwood-2ed) - OSH files on GitHub
 * [cordwood](http://community.boldport.club/projects/p03-cordwood/) - club community site, packed with resources for the project
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap269-boldport-cordwood.html)
