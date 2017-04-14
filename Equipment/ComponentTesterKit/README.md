@@ -1,6 +1,6 @@
 # #278 ComponentTesterKit
 
-Build and evaluate a popular ATMEAG328-based component tester kit
+Build and evaluate a popular ATMEGA328-based component tester kit
 
 ![Build](./assets/ComponentTesterKit_build.jpg?raw=true)
 
@@ -8,7 +8,7 @@ Build and evaluate a popular ATMEAG328-based component tester kit
 
 ## Notes
 
-I got a good deal recently on this [ATMEAG328-based component tester kit](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) (from seller on aliexpress). The kit is available from a few sources, but not all come with a case.
+I got a good deal recently on this [ATMEGA328-based component tester kit](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) (from seller on aliexpress). The kit is available from a few sources, but not all come with a case.
 This one came with a purpose-cut clear acrylic case.
 
 It took a few hours to construct, and fired up perfectly. I have built similar circuits myself, but nothing yet with the complete feature list this kit offers.
@@ -173,15 +173,21 @@ Brief cummary of the function menu options:
 ### Special using hints:
 
 Normally the Tester shows the battery voltage with every start. If the voltage fall below a limit, a warning is shown behind
-the battery voltage. If you use a rechargeable 9V battery, you should replace the battery as soon as possible or you should
-recharge. the measured supply voltage will be shown in display row two for 1 second with”VCC=x.xxV”. It cannot repeat often
-enough, that capacitors should be discharged before measuring. Otherwise the Tester can be damaged before the start button
-is pressed. If you try to measure components in assembled condition, the equipment should be all ways disconnected from
-power source. Furthermore you should be sure, that no residual voltage reside in the equipment. Every electronical
-equipment has capacitors inside!
+the battery voltage.
 
-If you try to measure little resistor values, you should keep the resistance of plug connectors and cables in mind. The
-quality and condition of plug connectors are important, also the resistance of cables used for measurement. The same is in
+If you use a rechargeable 9V battery, you should replace the battery as soon as possible or you should recharge.
+The measured supply voltage will be shown in display row two for 1 second with `VCC=x.xxV`.
+
+Capacitors should be discharged before measuring. Otherwise the Tester can be damaged before the start button
+is pressed.
+
+If you try to measure components in assembled condition, the equipment should be all ways disconnected from
+power source.
+
+Furthermore you should be sure, that no residual voltage reside in the equipment.
+
+If you try to measure little resistor values, you should keep the resistance of plug connectors and cables in mind.
+The quality and condition of plug connectors are important, also the resistance of cables used for measurement. The same is in
 force for the ESR measurement of capacitors. With poor connection cable a ESR value of 0.02ohm can grow to 0.61ohm.
 You should not expect very good accuracy of measurement results, especially the ESR measurement and the results of
 inductance measurement are not very exact
@@ -189,11 +195,13 @@ inductance measurement are not very exact
 ### Components with problems:
 
 You should keep in mind by interpreting the measurement results, that the circuit of the Transistor Tester is designed for
-small signal semiconductors. In normal measurement condition the measurement current can only reach about 6 mA. Power
-semiconductors often make trouble by reason of residual current with the identification and the measurement of junction
+small signal semiconductors. In normal measurement condition the measurement current can only reach about 6 mA.
+
+Power semiconductors often make trouble by reason of residual current with the identification and the measurement of junction
 capacity value. The Tester often cannot deliver enough ignition current or holding current for power Thyristors or Triacs. So a
 Thyristor can be detected as NPN transistor or diode. Also it is possible, that a Thyristor or Triacis detected as unknown.
-Another problem is the identification of semiconductors with integrated resistors. So the base -emitter diode of a BU508D
+
+Another problem is the identification of semiconductors with integrated resistors. So the base-emitter diode of a BU508D
 transistor cannot be detected by reason of the parallel connected internal 42ohm resistor. Therefore the transistor function
 cannot be tested also. Problem with detection is also given with power Darlington transistors. We can find often internal
 base - emitter resistors, which make it difficult to identify the component with the undersized measurement current.
@@ -499,7 +507,7 @@ I mainly used this to record part orientation and interconnection for testing th
 ![Build](./assets/ComponentTesterKit_build.jpg?raw=true)
 
 ## Credits and References
-* [2016 DIY kits ATMEAG328 M328 Transistor Tester LCR Diode Capacitance ESR meter PWM Square wave Frequency Signal Generator](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) - from seller on aliexpress
+* [2016 DIY kits ATMEGA328 M328 Transistor Tester LCR Diode Capacitance ESR meter PWM Square wave Frequency Signal Generator](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) - from seller on aliexpress
 * [P6KE6V8 data](http://parts.io/detail/6054925/P6KE6V8) - parts.io
 * [HT7750A-1 datasheet](http://file.yizimg.com/4677/2008030712103479.pdf)
 * [TL431A datasheet](http://parts.io/detail/4876553/TL431AILP)
