@@ -15,6 +15,7 @@ The project was made possible by the kind support of AMS who donated the LED dri
 Now I have one built, time to test it out. So far
 
 * [LedTest](./LedTest) - first check under Arduino control
+* [GameOfLife](./GameOfLife) - Conway's Game of Life running on the Matrix
 
 
 ### Parts
