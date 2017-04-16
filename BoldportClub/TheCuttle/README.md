@@ -45,6 +45,8 @@ it shows up in the Arduino IDE and programming works like any other Arduino boar
 
 ![TheCuttle_programming](./assets/TheCuttle_programming.jpg?raw=true)
 
+See the [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168) for details on mapping the ATmega328 pins to Arduino port names.
+
 ## Construction
 
 ![Breadboard](./assets/TheCuttle_bb.jpg?raw=true)
