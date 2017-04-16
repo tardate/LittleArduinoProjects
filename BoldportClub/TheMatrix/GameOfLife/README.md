@@ -4,7 +4,7 @@ A simple implementation of Conway's Game of Life on the Boldport Club Matrix.
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/GameOfLife_build.jpg?raw=true)](http://www.youtube.com/watch?v=xJM7nuiDj8w)
+[![Build](./assets/GameOfLife_cover.jpg?raw=true)](http://www.youtube.com/watch?v=xJM7nuiDj8w)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 

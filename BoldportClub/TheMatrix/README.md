@@ -53,6 +53,8 @@ Then finally hand-soldered the pin connector.
 
 ![kit_assembly_led_placement](./assets/kit_assembly_led_placement.jpg?raw=true)
 
+![kit_assembly_connector](./assets/kit_assembly_connector.jpg?raw=true)
+
 After an initial inspection, I only had a couple of manual fixups required:
 
 * two LEDs not connected properly after reflow
