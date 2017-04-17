@@ -1,0 +1,7 @@
+{
+    "id": "#307", 
+    "name": "TheMatrix/KeypadControl", 
+    "description": "use a 20-button keypad to write a scrolling message on the Boldport Matrix", 
+    "categories": "Boldport, LED, AS1130", 
+    "relative_path": "BoldportClub/TheMatrix/KeypadControl"
+}

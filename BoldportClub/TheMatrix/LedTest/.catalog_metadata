@@ -2,6 +2,6 @@
     "id": "#300", 
     "name": "TheMatrix/LedTest", 
     "description": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
-    "categories": "Boldport, LED, AMS1130", 
+    "categories": "Boldport, LED, AS1130", 
     "relative_path": "BoldportClub/TheMatrix/LedTest"
 }
