@@ -16,6 +16,7 @@ Now I have one built, time to test it out. So far
 
 * [LedTest](./LedTest) - first check under Arduino control
 * [GameOfLife](./GameOfLife) - Conway's Game of Life running on the Matrix
+* [KeypadControl](./KeypadControl) - use a 20-button keypad to write a scrolling message on the Matrix
 
 
 ### Parts

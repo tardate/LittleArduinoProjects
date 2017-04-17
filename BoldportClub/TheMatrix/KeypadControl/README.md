@@ -19,8 +19,8 @@ So I've wired it up and enabled a couple of commands in the [KeypadControl.ino](
 
 * pressing any single button toggles the state of the corresponding LED
 * at first, it is operating on the left-most 4 columns of LEDs
-* pressing S3+S4 together shift the working windo 4 LEDs right
-* pressing S1+S2 together shift the working windo 4 LEDs left
+* pressing S3+S4 together shift the working window 4 LEDs right
+* pressing S1+S2 together shift the working window 4 LEDs left
 * pressing S2+S3 together start the message scrolling..
 
 Interesting ... but not very practical! Maybe good for a gadget that you can let random bystanders fiddle with your matrix display..
