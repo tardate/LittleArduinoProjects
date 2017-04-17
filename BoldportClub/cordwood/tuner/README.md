@@ -49,7 +49,7 @@ And a typical output signal (open D string):
 The initial code is from the [Instructables article](http://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by Nicole Grimwood.
 
 I've update the sketch quite a bit. It now doesn't even try to be a tuner, but just a pretty stable and accurate indication of
-which root note is playing
+which root note is playing.
 
 ## Construction
 
@@ -70,4 +70,4 @@ which root note is playing
 * [Electret microphone: selecting a bias resistor](http://electronics.stackexchange.com/questions/76696/electret-microphone-selecting-a-bias-resistor)
 * [A Digital Guitar Tuner by Mary Lourde R., Anjali Kuppayil Saji](https://arxiv.org/pdf/0912.0745.pdf) - a scholarly article that explores the critical parameters that need to be addressed while designing a guitar tuner
 * [Digital Guitar Tuner by Dmitry Berenson](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2004/ddb25/complete2.htm) - this is perhaps the best description of a realistic circuit using and LM358 op amp and ATMEGA32 microcontroller
-
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap271-cordwood-guitar-tuner.html)
