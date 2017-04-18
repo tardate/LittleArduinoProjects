@@ -2,7 +2,7 @@
 
 Exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator.
 
-![Build](./assets/VoltageControlledOscillator_build.jpg?raw=true)
+![Build](./assets/scope_v2_min.gif?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -151,3 +151,4 @@ The pin header provides convenient access to (from left to right):
 * [J310 datasheet](http://www.futurlec.com/Transistors/J310.shtml)
 * [MV104 datasheet](http://www.onsemi.com/pub_link/Collateral/MV104-D.PDF)
 * [MV209 datasheet](http://www.onsemi.com/pub_link/Collateral/MMBV109LT1-D.PDF)
+* [..as mentioned on my blog](xx)
