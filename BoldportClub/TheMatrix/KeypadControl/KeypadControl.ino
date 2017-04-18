@@ -85,7 +85,8 @@ void shiftViewport(uint8_t offset) {
 
 void toggleScrolling() {
   if(ledDriver.isMovieRunning()) {
-    // hmm, this doesn't work - can't get the movie to stop!
+    ledDriver.setMovieLoopCount(AS1130::MovieLoop1);
+    ledDriver.setFrameDelayMs(0);
     ledDriver.setScrollingEnabled(false);
     ledDriver.stopMovie();
     ledDriver.startPicture(0);

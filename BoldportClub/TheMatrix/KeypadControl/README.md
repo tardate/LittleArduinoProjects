@@ -21,12 +21,17 @@ So I've wired it up and enabled a couple of commands in the [KeypadControl.ino](
 * at first, it is operating on the left-most 4 columns of LEDs
 * pressing S3+S4 together shift the working window 4 LEDs right
 * pressing S1+S2 together shift the working window 4 LEDs left
-* pressing S2+S3 together start the message scrolling..
+* pressing S2+S3 together toggle the message scrolling..
 
 Interesting ... but not very practical! Maybe good for a gadget that you can let random bystanders fiddle with your matrix display..
 
-One outstanding problem: I can get the scrolling started, but my attempts to stop it (and return to "editing") have failed.
-Time to study the AS1130 datasheet in more detail...
+I had a problem getting the scrolling to stop started, but a little help from the
+[BoldportClub Community on Slack](https://boldportclub.slack.com/) goes a long way!
+Problem sorted: it seems you must let the movie finish by switching it out of infinite loop first e.g.:
+```
+ledDriver.setMovieLoopCount(AS1130::MovieLoop1);
+ledDriver.setFrameDelayMs(0);
+```
 
 ## Construction
 
