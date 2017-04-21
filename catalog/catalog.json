@@ -1820,6 +1820,13 @@
         "name": "LED7Segment/CD4026Drive"
     }, 
     {
+        "description": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic", 
+        "relative_path": "playground/LED7Segment/CombinationalLogicDriver", 
+        "id": "#308", 
+        "categories": "7-Segment, 74xx, Arduino", 
+        "name": "LED7Segment/CombinationalLogicDriver"
+    }, 
+    {
         "description": "test a 7-segment common cathode display", 
         "relative_path": "playground/LED7Segment/DirectDrive", 
         "id": "#001", 

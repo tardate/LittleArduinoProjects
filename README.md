@@ -1,7 +1,5 @@
-# 307 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TheMatrix/KeypadControl](./BoldportClub/TheMatrix/KeypadControl) - use a 20-button keypad to write a scrolling message on the Boldport Matrix.
-
-
+# 308 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LED7Segment/CombinationalLogicDriver](./playground/LED7Segment/CombinationalLogicDriver) - dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -195,6 +193,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#078 Led4Digit7Segment/SingleShift](./playground/Led4Digit7Segment/SingleShift)   | **7-Segment, 74xx, Arduino**    driving a 4-digit 7-segment display with a shift register and a few BJTs |
 | [#199 LED7Segment/CD4026BucketBrigade](./playground/LED7Segment/CD4026BucketBrigade) | **7-Segment, CMOS, Arduino**  a CD4026 bucket-brigade for driving multiple 7-segment displays |
 | [#196 LED7Segment/CD4026Drive](./playground/LED7Segment/CD4026Drive)               | **7-Segment, CMOS, Arduino**    driving a 7-segment display with CD4026 Counter |
+| [#308 LED7Segment/CombinationalLogicDriver](./playground/LED7Segment/CombinationalLogicDriver) | **7-Segment, 74xx, Arduino** - dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic |
 | [#001 LED7Segment/DirectDrive](./playground/LED7Segment/DirectDrive)               | **7-Segment, Arduino**          test a 7-segment common cathode display |
 | [#177 LED7Segment/ShiftDrive](./playground/LED7Segment/ShiftDrive)                 | **7-Segment, 74xx, Arduino**    test control of a 7-segment display via a 74HC595 shift register |
 | [#178 LED7Segment/ShiftDriveModule](./playground/LED7Segment/ShiftDriveModule)     | **7-Segment, 74xx, Arduino, PCB** a custom 7-segment display module PCB with 74HC595 shift register interface |
