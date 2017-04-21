@@ -33,6 +33,11 @@ ledDriver.setMovieLoopCount(AS1130::MovieLoop1);
 ledDriver.setFrameDelayMs(0);
 ```
 
+A recent update to the [LuckyResistor/LRAS1130 library (v0.9.5)](https://github.com/LuckyResistor/LRAS1130/releases/tag/v0.9.5)
+fixed some issues with LED brightness control. Now everything is looking so much brighter!
+
+![bright_matrix](./assets/bright_matrix.jpg?raw=true)
+
 ## Construction
 
 ![Breadboard](./assets/KeypadControl_bb.jpg?raw=true)
@@ -44,3 +49,4 @@ ledDriver.setFrameDelayMs(0);
 ## Credits and References
 * [LEAP#299 TheMatrix](../TheMatrix)
 * [LEAP#303 KeyboardMatrixModule](../../../playground/KeyboardMatrixModule)
+* [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
