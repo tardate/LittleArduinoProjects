@@ -58,7 +58,7 @@ So the input to output transformation required for the digits 0-9 is as follows:
 | (don't care)  | 1 | 1 | 1 | 0 | X | X | X | X | X | X | X |
 | (don't care)  | 1 | 1 | 1 | 1 | X | X | X | X | X | X | X |
 
-NB: I'll calling the inputs 0xA-0xF "undefined". This approach could of course be extended for hexadecimal display, but I'm sticking to decimal for now.
+NB: I'm calling the inputs 0xA-0xF "undefined". This approach could of course be extended for hexadecimal display, but I'm sticking to decimal for now.
 
 ![SC56-11_mechanical](../assets/SC56-11_mechanical.png?raw=true)
 
@@ -103,7 +103,7 @@ Derivations and notes follow.
 
 #### f(a)
 
-By inspection, (a) is only low in two cases, so the simplest starting point is probably f(a)' as a sum of minterms:
+By inspection, `a` is only low in two cases, so the simplest starting point is probably `f(a)'` as a sum of minterms:
 
     f(a)' = m1 + m4
     = w'x'y'z + w'xy'z'
@@ -115,7 +115,7 @@ So `f(a) = NAND(NOR(w, y), XOR(x, z))`
 
 #### f(b)
 
-Again by inspection, (b) is only low in two cases, so the simplest starting point is probably f(b)' as a sum of minterms:
+Again by inspection, `b` is only low in two cases, so the simplest starting point is probably `f(b)'` as a sum of minterms:
 
     f(b)' = m5 + m6
     = w'xy'z + w'xyz'
@@ -127,7 +127,7 @@ So `f(b) = NAND(NOR(w, NOT(x)), XOR(y, z))`
 
 #### f(c)
 
-Again by inspection, (c) is only low in one case, so the simplest starting point is f(c)' as a sum of minterms:
+Again by inspection, `c` is only low in one case, so the simplest starting point is `f(c)'` as a sum of minterms:
 
     f(c)' = m2
     = w'x'yz'
@@ -139,7 +139,7 @@ So `f(c) = NAND(NOR(w, x), NOR(z, NOT(y)))`
 
 #### f(d)
 
-f(d) is low in four cases, so the inverse f(d)' can be expressed as a sum of 4 minterms: `m1 + m4 + m7 + m9`.
+`d` is low in four cases, so the inverse `f(d)'` can be expressed as a sum of 4 minterms: `m1 + m4 + m7 + m9`.
 
 The Karnaugh Map technique is probably easiest here:
 
@@ -152,14 +152,14 @@ The Karnaugh Map technique is probably easiest here:
 
 By map inspection:
 
-  f(d) = yz' + wz' + xy'z + x'(y + z')
-  = z'(w + y) + x(y + z')' + x'(y + z')
-  = (z + (w + y)')' + (x' + (y + z'))' + (x + (y + z')')'
-  = OR(NOR(z, NOR(w, y)), OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z)))))
+    f(d) = yz' + wz' + xy'z + x'(y + z')
+    = z'(w + y) + x(y + z')' + x'(y + z')
+    = (z + (w + y)')' + (x' + (y + z'))' + (x + (y + z')')'
+    = OR(NOR(z, NOR(w, y)), OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z)))))
 
 #### f(e)
 
-f(e) is high in four cases, so can be expressed as a sum of 4 minterms: `m0 + m2 + m6 + m8`
+`e` is high in four cases, so can be expressed as a sum of 4 minterms: `m0 + m2 + m6 + m8`
 
 The Karnaugh Map technique is probably easiest here:
 
@@ -179,7 +179,7 @@ By map inspection:
 
 #### f(f)
 
-f(f) is low in four cases, so easiest to express the inverse f(f)' as a sum of 4 minterms: `m1 + m2 + m3 + m7`
+`f` is low in four cases, so easiest to express the inverse `f(f)'` as a sum of 4 minterms: `m1 + m2 + m3 + m7`
 
 The Karnaugh Map technique is probably easiest here:
 
@@ -201,7 +201,7 @@ By map inspection:
 
 #### f(g)
 
-By inspection, (g) is only low in three cases, so the simplest starting point is probably f(g)' as a sum of minterms:
+By inspection, `g` is only low in three cases, so the simplest starting point is probably `f(g)'` as a sum of minterms:
 
     f(g)' = m0 + m1 + m7
     = w'x'y'z' + w'x'y'z + w'xyz
