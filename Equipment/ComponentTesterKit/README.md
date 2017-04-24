@@ -515,3 +515,4 @@ I mainly used this to record part orientation and interconnection for testing th
 * [My Guide to AVR Transistortesters](https://www.instructables.com/id/My-Guide-to-AVR-Transistortesters/?ALLSTEPS) - by pfred2
 * [AVR Transistortester](http://www.mikrocontroller.net/articles/AVR_Transistortester) - where all these kit designs appear to originate from
 * [transistortester on GitHub](https://github.com/svn2github/transistortester)
+* [..as mentioend on my blog](http://blog.tardate.com/2017/04/leap278-componenttesterkit.html)
