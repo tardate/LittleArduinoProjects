@@ -145,7 +145,7 @@ The PCB also has corresponding SMT test pads (unfortunately inaccessible when th
 
 ### Function Menu
 
-Brief cummary of the function menu options:
+Brief summary of the function menu options:
 
 * Switch off - what it says! Shut down immediately
 * Transistor - component tester (default function at power on)
@@ -170,7 +170,7 @@ Brief cummary of the function menu options:
 ## Component Tests and Features
 
 
-### Special using hints:
+### Usage Hints
 
 Normally the Tester shows the battery voltage with every start. If the voltage fall below a limit, a warning is shown behind
 the battery voltage.
@@ -207,7 +207,7 @@ cannot be tested also. Problem with detection is also given with power Darlingto
 base - emitter resistors, which make it difficult to identify the component with the undersized measurement current.
 
 
-### Two-leaded Passives: resistors, capacitors, inductors
+### Two-lead Passives: resistors, capacitors, inductors
 
 These can all be measured in the default test mode between TP1 and TP3.
 
@@ -515,4 +515,4 @@ I mainly used this to record part orientation and interconnection for testing th
 * [My Guide to AVR Transistortesters](https://www.instructables.com/id/My-Guide-to-AVR-Transistortesters/?ALLSTEPS) - by pfred2
 * [AVR Transistortester](http://www.mikrocontroller.net/articles/AVR_Transistortester) - where all these kit designs appear to originate from
 * [transistortester on GitHub](https://github.com/svn2github/transistortester)
-* [..as mentioend on my blog](http://blog.tardate.com/2017/04/leap278-componenttesterkit.html)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap278-componenttesterkit.html)
