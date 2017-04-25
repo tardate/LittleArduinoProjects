@@ -1,6 +1,6 @@
 # #279 FM/SingleStageTransmitterKit2
 
-Build and tweak/tune another simple single-stage FM Transmitter Kit
+Build, tweak and tune another simple single-stage FM Transmitter Kit
 
 ![Build](./assets/SingleStageTransmitterKit2_build.jpg?raw=true)
 
@@ -23,7 +23,7 @@ Some details according to the product info available from the seller:
 
 ### Tuning
 
-After a quick build, it seemed the device was transmitter slightly high about the FM band
+After a quick build, the device was transmitting slightly high on the FM band
 (I could get some interference but not a good signal at the upper limits ~108MHz).
 
 Taking a look at the air-coil inductor, seems it should have an inductance of around 66nH:
@@ -48,7 +48,6 @@ and confirm why I can't get anything in the standard FM range.
 Around 90MHz is pretty clear for me, so I tried replacing C4 with [47pF](http://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*90MHz))%5E2%2F66nH).
 
 This worked! I'm getting a signal at 92MHz, from which I infer the coil inductance might be closer to 64nH.
-
 
 
 ### Performance
@@ -85,3 +84,4 @@ The schematic shown here has component values as per my final build, *not* as pr
 * [LC resonance calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
 * [Single-layer Coil Inductance and Q](http://www.qsl.net/in3otd/indcalc.html) - IN3OTD
 * [S9018 NPN transistor data](http://parts.io/detail/178104407/S9018) - parts.io
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap279-single-stage-fm-transmitter-kit.html)
