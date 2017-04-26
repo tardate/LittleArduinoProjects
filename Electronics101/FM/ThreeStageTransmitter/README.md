@@ -68,3 +68,4 @@ to the builds I've done already. Here are some pictures:
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
 * [air coil calculator](http://www.qsl.net/in3otd/indcalc.html)
 * [LC resonance calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap281-three-stage-fm-transmitter.html)
