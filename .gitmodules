@@ -46,3 +46,6 @@
 [submodule "libraries/EnableInterrupt"]
 	path = libraries/EnableInterrupt
 	url = https://github.com/GreyGnome/EnableInterrupt
+[submodule "libraries/Radio"]
+	path = libraries/Radio
+	url = https://github.com/mathertel/Radio.git
