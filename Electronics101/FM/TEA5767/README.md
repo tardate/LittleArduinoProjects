@@ -1,8 +1,8 @@
-# FM/TEA5767
+# #310 FM/TEA5767
 
 Control the TEA5767 low-power FM stereo radio chip with an Arduino.
 
-![Build](./assets/TEA5767_build.jpg?raw=true)
+[![Build](./assets/TEA5767_build.jpg?raw=true)](http://www.youtube.com/watch?v=j-BBNMV8Iso)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -13,7 +13,6 @@ They arrived mounted on a small module board with all the essential supporting c
 so they should be ready to run without much external hardware.
 
 This project is a simple test drive under Arduino control.
-
 
 
 ### TEA5767 Key Features
@@ -32,7 +31,7 @@ Picking the eyes form the data sheet:
 
 ### TEA5767 Module
 
-The TEA5767 chip itself is a 40-pin package. I have it mounted on a module board with most of the required supporting
+The TEA5767 chip itself is a 40-pin package. The module I have has the chip mounted on a small PCB with most of the required supporting
 components. It exposes only 10 pins:
 
 | Pin | Name    | Description                                  |
@@ -49,6 +48,20 @@ components. It exposes only 10 pins:
 |  10 | ANT     | antenna in                                   |
 
 
+![TEA5767_module](./assets/TEA5767_module.jpg?raw=true)
+
+
+### Test Program
+
+The [TEA5767.ino](./TEA5767.ino) sketch is a quick test and demonstration.
+It uses the [Wire library](https://www.arduino.cc/en/reference/wire) to send the raw commands to the chip over the I²C bus.
+
+The sketch skips through a selection of local FM stations.
+
+The output power of the chip is very low - to low to directly drive headphones for example.
+I used the [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) to amplify the output and drive stereo speakers.
+
+
 ## Construction
 
 ![Breadboard](./assets/TEA5767_bb.jpg?raw=true)
@@ -57,10 +70,16 @@ components. It exposes only 10 pins:
 
 ![Build](./assets/TEA5767_build.jpg?raw=true)
 
+![TEA5767_protoboard](./assets/TEA5767_protoboard.jpg?raw=true)
+
 ## Credits and References
 * [TEA5767 datahseet](https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf)
 * [FM radio receiver for your Arduino (TEA5767/TEA5768/TEA5757)](https://macduino.blogspot.sg/2014/12/FM-Radio-TEA5767.html)
 * [TEA5767 FM Radio Breakout Board for Arduino](http://www.instructables.com/id/TEA5767-FM-Radio-Breakout-Board-for-Arduino/)
 * [Arduino FM receiver with TEA5767](https://www.electronicsblog.net/arduino-fm-receiver-with-tea5767/) - nice example using the Wire library
 * [TEA5767 FM Radio Library for Arduino](http://playground.arduino.cc/Main/TEA5767Radio)
+* [Arduino Radio Library](http://www.mathertel.de/Arduino/RadioLibrary.aspx)
 * [Radio FM TEA5767](https://developer.mbed.org/users/edodm85/notebook/radio-fm-tea5767/) - ARM mbed example
+* [Wire library](https://www.arduino.cc/en/reference/wire)
+* [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) - TDA7297 amplifier
+* [Singapore Radio Stations](http://streema.com/radios/country/Singapore)

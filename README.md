@@ -1,5 +1,5 @@
-# 309 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LED7Segment/CombinationalLogicDriver](./playground/LED7Segment/CombinationalLogicDriver) - dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic.
+# 310 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [FM/TEA5767](./Electronics101/FM/TEA5767) - controlling the TEA5767 low-power FM stereo radio chip with an Arduino.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -153,6 +153,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#154 ESP8266/SerialTest](./playground/ESP8266/SerialTest)                         | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./playground/ESP8266/SerialTest/ruby)               | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
 | [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
+| [#310 FM/TEA5767](./Electronics101/FM/TEA5767)                                     | **FM, Arduino**                 controlling the TEA5767 low-power FM stereo radio chip with an Arduino |
 | [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, RF**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |

@@ -602,6 +602,13 @@
         "name": "SingleStageTransmitterKit2"
     }, 
     {
+        "description": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
+        "relative_path": "Electronics101/FM/TEA5767", 
+        "id": "#310", 
+        "categories": "FM, Arduino", 
+        "name": "FM/TEA5767"
+    }, 
+    {
         "description": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 
         "relative_path": "Electronics101/FM/ThreeStageTransmitter", 
         "id": "#281", 
