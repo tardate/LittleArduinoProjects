@@ -9,9 +9,9 @@ Notes on miscellaneous audio connectors.
 ## Notes
 
 Audio signals can be carried by any kind of connection, but there are some more commonly used standard connectors for audio applications.
-This project is a collection of note on some of the connectors I use/have encountered.
+This project is a collection of notes on some of the connectors I use/have encountered.
 
-for more thorough coverage of the variety of audio connectors, see:
+For more thorough coverage of the variety of audio connectors, see:
 
 * Chapter 7 of John M. Hughes' [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics).
 * [Tech Basics: Cables & Connectors](https://www.udemy.com/tech101-cables-and-connectors/) - udemy course
