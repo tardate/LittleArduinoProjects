@@ -2,6 +2,8 @@
 
 Control the TEA5767 low-power FM stereo radio chip with an Arduino.
 
+Here's a quick video demonstration:
+
 [![Build](./assets/TEA5767_build.jpg?raw=true)](http://www.youtube.com/watch?v=j-BBNMV8Iso)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
@@ -17,7 +19,7 @@ This project is a simple test drive under Arduino control.
 
 ### TEA5767 Key Features
 
-Picking the eyes form the data sheet:
+Picking the eyes from the data sheet:
 
 * FM mixer for conversion to IF of the US/Europe (87.5 MHz to 108 MHz) and Japanese (76 MHz to 91 MHz) FM band
 * I²C -bus and 3-wire bus, selectable via pin BUSMODE
@@ -56,7 +58,7 @@ components. It exposes only 10 pins:
 The [TEA5767.ino](./TEA5767.ino) sketch is a quick test and demonstration.
 It uses the [Wire library](https://www.arduino.cc/en/reference/wire) to send the raw commands to the chip over the I²C bus.
 
-The sketch skips through a selection of local FM stations.
+The sketch simply skips through a selection of local FM stations.
 
 The output power of the chip is very low - to low to directly drive headphones for example.
 I used the [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) to amplify the output and drive stereo speakers.
@@ -69,6 +71,8 @@ I used the [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) to amplify the outp
 ![Schematic](./assets/TEA5767_schematic.jpg?raw=true)
 
 ![Build](./assets/TEA5767_build.jpg?raw=true)
+
+I mounted the module on protoboard with an [audio connector](../../AudioConnectors) for easy experimentation on a breadboard:
 
 ![TEA5767_protoboard](./assets/TEA5767_protoboard.jpg?raw=true)
 
