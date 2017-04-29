@@ -1,5 +1,5 @@
-# 310 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [FM/TEA5767](./Electronics101/FM/TEA5767) - controlling the TEA5767 low-power FM stereo radio chip with an Arduino.
+# 311 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/Juice](./BoldportClub/Juice) - building the Boldport Juice battery replacement kit (Project #12).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -101,6 +101,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
 | [#271 BoldportClub/cordwood/tuner](./BoldportClub/cordwood/tuner)                  | **Boldport, Cordwood, Arduino, Audio** use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
+| [#311 BoldportClub/Juice](./BoldportClub/Juice)                                    | **Boldport, PCB Design, Power** building the Boldport Juice battery replacement kit (Project #12) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |

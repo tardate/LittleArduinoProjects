@@ -28,6 +28,13 @@
         "name": "BoldportClub/Emergency"
     }, 
     {
+        "description": "building the Boldport Juice battery replacement kit (Project #12)", 
+        "relative_path": "BoldportClub/Juice", 
+        "id": "#311", 
+        "categories": "Boldport, PCB Design, Power", 
+        "name": "BoldportClub/Juice"
+    }, 
+    {
         "description": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)", 
         "relative_path": "BoldportClub/ligemdio", 
         "id": "#263", 
