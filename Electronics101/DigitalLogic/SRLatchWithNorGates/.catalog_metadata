@@ -1,0 +1,7 @@
+{
+    "id": "#077", 
+    "name": "SRLatchWithNorGates", 
+    "description": "Set-Reset latch implemented with NOR gates", 
+    "categories": "Logic Gates, 74xx", 
+    "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates"
+}

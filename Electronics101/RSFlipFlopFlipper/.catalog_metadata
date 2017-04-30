@@ -1,7 +1,0 @@
-{
-    "id": "#062", 
-    "name": "Gates - RS Flip Flop with Arduino", 
-    "description": "Set/Reset flip-flop with BJTs, under Arduino control and monitoring", 
-    "categories": "Logic Gates, BJT, Arduino", 
-    "relative_path": "Electronics101/RSFlipFlopFlipper"
-}

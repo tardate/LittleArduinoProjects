@@ -525,10 +525,31 @@
         "name": "DarlingtonTouchSwitch"
     }, 
     {
+        "description": "Set/Reset latch with BJTs", 
+        "relative_path": "Electronics101/DigitalLogic/SRLatch", 
+        "id": "#061", 
+        "categories": "Logic Gates, BJT", 
+        "name": "SRLatch"
+    }, 
+    {
+        "description": "Set/Reset latch with BJTs, controlled and monitored by an Arduino", 
+        "relative_path": "Electronics101/DigitalLogic/SRLatchFlipper", 
+        "id": "#062", 
+        "categories": "Logic Gates, BJT, Arduino", 
+        "name": "SRLatchFlipper"
+    }, 
+    {
+        "description": "Set-Reset latch implemented with NOR gates", 
+        "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates", 
+        "id": "#077", 
+        "categories": "Logic Gates, 74xx", 
+        "name": "SRLatchWithNorGates"
+    }, 
+    {
         "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing", 
         "relative_path": "Electronics101/DigitalLogic/XorWithNandGates", 
         "id": "#283", 
-        "categories": "DigitalLogic, 74xx TTL", 
+        "categories": "Logic Gates, 74xx TTL", 
         "name": "XorWithNandGates"
     }, 
     {
@@ -1041,27 +1062,6 @@
         "id": "#144", 
         "categories": "74xx TTL, Oscillators", 
         "name": "RingOscillator"
-    }, 
-    {
-        "description": "Set/Reset flip-flop with BJTs", 
-        "relative_path": "Electronics101/RSFlipFlop", 
-        "id": "#061", 
-        "categories": "Logic Gates, BJT", 
-        "name": "Gates - RS Flip Flop"
-    }, 
-    {
-        "description": "Set/Reset flip-flop implemented with NOR gates", 
-        "relative_path": "Electronics101/RSFlipFlop_NORLatch", 
-        "id": "#077", 
-        "categories": "Logic Gates, 74xx", 
-        "name": "Gates - RS Flip Flop/NOR Latch"
-    }, 
-    {
-        "description": "Set/Reset flip-flop with BJTs, under Arduino control and monitoring", 
-        "relative_path": "Electronics101/RSFlipFlopFlipper", 
-        "id": "#062", 
-        "categories": "Logic Gates, BJT, Arduino", 
-        "name": "Gates - RS Flip Flop with Arduino"
     }, 
     {
         "description": "graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs", 
