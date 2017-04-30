@@ -32,20 +32,20 @@ Resistor networks and the "chooser" plug allow switching between 1.5, 3V, 4.5V o
 
 ### Parts
 
-| Ref | Description                                               |  Qty |
-|-----|-----------------------------------------------------------|------|
-|     | Micro USB connector, Multicomp MC001009                   |  1x  |
-|     | Adjustable LDO regulator, ST LDFPT-TR                     |  1x  |
-|     | 20KΩ trimmer, Bourns TC33X-2-203E                         |  1x  |
-| R    | 1KΩ resistor, Multicomp MF25 1K                           |  2x  |
-|     | 3.3KΩ resistor, Multicomp MF25 3K3                        |  1x  |
-|     | 5.6KΩ resistor, Multicomp MF25 5K6                        |  1x  |
-|     | 1.2KΩ resistor, Multicomp MF25 1K2                        |  2x  |
-|     | 2.2µF ceramic capacitor, Multicomp MCMLR50V225MY5V        |  2x  |
-|     | 10µF electrolytic capacitor, Multicomp MCMR35V106M4X7     |  1x  |
-|     | 6 contacts long pin header, Samtec TSW-106-22-T-S         |  1x  |
-|     | 3 contacts 2.54 mm SMD header, Samtec TSM-103-01-T-SH     |  1x  |
-|     | Orange LED, Kingbright L-9294SECK                         |  1x  |
+| Ref  | Description                                               |  Qty |
+|------|-----------------------------------------------------------|------|
+| IC1  | Adjustable LDO regulator, ST LDFPT-TR                     |  1x  |
+| VR1  | 20KΩ trimmer, Bourns TC33X-2-203E                         |  1x  |
+| R1,3 | 1KΩ resistor, Multicomp MF25 1K                           |  2x  |
+| R2   | 3.3KΩ resistor, Multicomp MF25 3K3                        |  1x  |
+| R4   | 5.6KΩ resistor, Multicomp MF25 5K6                        |  1x  |
+| R5,6 | 1.2KΩ resistor, Multicomp MF25 1K2                        |  2x  |
+| C1,2 | 2.2µF ceramic capacitor, Multicomp MCMLR50V225MY5V        |  2x  |
+| C3   | 10µF electrolytic capacitor, Multicomp MCMR35V106M4X7     |  1x  |
+| LED1 | Orange LED, Kingbright L-9294SECK                         |  1x  |
+|      | Micro USB connector, Multicomp MC001009                   |  1x  |
+|      | 6 contacts long pin header, Samtec TSW-106-22-T-S         |  1x  |
+|      | 3 contacts 2.54 mm SMD header, Samtec TSM-103-01-T-SH     |  1x  |
 
 ![Juice_parts](./assets/Juice_parts.jpg?raw=true)
 
@@ -54,6 +54,22 @@ Resistor networks and the "chooser" plug allow switching between 1.5, 3V, 4.5V o
 ![Schematic](./assets/Juice_schematic.jpg?raw=true)
 
 ![Build](./assets/Juice_build.jpg?raw=true)
+
+![Juice_build_front](./assets/Juice_build_front.jpg?raw=true)
+![Juice_build_rear](./assets/Juice_build_rear.jpg?raw=true)
+
+The SS Juice with CR2032 adapter:
+
+![Juice_complete_cr2032](./assets/Juice_complete_cr2032.jpg?raw=true)
+
+The SS Juice with A-series battery adapters.
+
+![Juice_complete_a_series](./assets/Juice_complete_a_series.jpg?raw=true)
+
+Note the jumper to allow multiple batteries to be replaced in series.
+Here's the Juice replacing a 2xAA battery holder:
+
+![Juice_2xAA_replacement](./assets/Juice_2xAA_replacement.jpg?raw=true)
 
 ## Credits and References
 * [ST LDF info/datasheet](http://www.st.com/content/st_com/en/products/power-management/linear-voltage-regulators/low-dropout-ldo-linear-regulators/ldf.html)
