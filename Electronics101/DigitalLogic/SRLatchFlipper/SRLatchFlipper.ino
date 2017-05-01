@@ -1,8 +1,8 @@
 /*
 
-  RSFlipFlopFlipper
+  SRLatchFlipper
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/RSFlipFlopFlipper
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DigitalLogic/SRLatchFlipper
 
  */
 
