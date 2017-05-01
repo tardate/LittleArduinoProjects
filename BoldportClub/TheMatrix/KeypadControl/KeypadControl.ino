@@ -53,7 +53,6 @@ void setupTheMatrix() {
   ledDriver.setOnOffFrameAllOff(0);
   ledDriver.setOnOffFrameAllOff(1);
   ledDriver.setBlinkAndPwmSetAll(0);
-  ledDriver.setBlinkAndPwmSetAll(1);
   ledDriver.setCurrentSource(AS1130::Current30mA);
   ledDriver.setScanLimit(AS1130::ScanLimitFull);
   ledDriver.setScrollingEnabled(false);
