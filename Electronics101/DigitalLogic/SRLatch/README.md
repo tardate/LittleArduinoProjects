@@ -65,3 +65,4 @@ Although terms are often used interchangeably, this circuit is strictly speaking
 * [SR latch](https://en.wikibooks.org/wiki/Digital_Circuits/Latches#SR_latch) - wikibooks
 * [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
 * [PCB heaven](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - demo circuit used as the basis for this project
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap061-set-reset-latches.html)
