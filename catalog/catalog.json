@@ -105,6 +105,13 @@
         "name": "BoldportClub/TheMatrix"
     }, 
     {
+        "description": "a firecracker simulacrum running on the BoldportClub Matrix", 
+        "relative_path": "BoldportClub/TheMatrix/Firecracker", 
+        "id": "#312", 
+        "categories": "Boldport, LED, AS1130, Sensors", 
+        "name": "TheMatrix/Firecracker"
+    }, 
+    {
         "description": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 
         "relative_path": "BoldportClub/TheMatrix/GameOfLife", 
         "id": "#302", 

@@ -1,5 +1,5 @@
-# 311 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/Juice](./BoldportClub/Juice) - building the Boldport Juice battery replacement kit (Project #12).
+# 312 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TheMatrix/Firecracker](./BoldportClub/TheMatrix/Firecracker) - a firecracker simulacrum running on the BoldportClub Matrix.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -335,6 +335,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer |
+| [#312 TheMatrix/Firecracker](./BoldportClub/TheMatrix/Firecracker)                 | **Boldport, LED, AS1130, Sensors**  a firecracker simulacrum running on the BoldportClub Matrix |
 | [#302 TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife)                   | **Boldport, LED, AS1130**       a simple implementation of Conway's Game of Life on the BoldportClub Matrix |
 | [#307 TheMatrix/KeypadControl](./BoldportClub/TheMatrix/KeypadControl)             | **Boldport, LED, AS1130**       use a 20-button keypad to write a scrolling message on the Boldport Matrix |
 | [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AS1130**       testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
