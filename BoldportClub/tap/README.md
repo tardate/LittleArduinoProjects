@@ -1,6 +1,7 @@
 # #285 The Tap
 
-Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available!
+Harking back to a 7400-series logic circuit published in a 1974 Elektor article,
+this retro Boldport Club project is a classic.
 
 [![Build](./assets/tap_build.jpg?raw=true)](http://www.youtube.com/watch?v=WQKIWN_7tfE)
 
@@ -18,12 +19,13 @@ quite readily available.
 The PCB is well up to Boldport standards. Altough this can create some assembly confusion - you must pay close attention to
 which side of the board the parts are inserted. It looks just as good both ways.
 
-
 Electrically, touch pads A, B and C are connected to an NPN transistor pair in a Darlington configuration.
 I've covered the operation of this kind of switch in [LEAP#130 DarlingtonTouchSwitch](../Electronics101/DarlingtonTouchSwitch).
 
-All manner of outputs are provided: for each touchpad there is Q/Q1¯ - the logic-level output and it's completement,
-as well as S/S¯ which are logically idelntical, but able to sink a much greater current.
+All manner of outputs are provided. For each touchpad there are four:
+
+* `Q`/`Q1¯` - the logic-level output and it's complement
+* `S`/`S¯` which are logically idelntical, but an open-collector configuration able to sink greater current
 
 ### Behaviour
 
@@ -137,3 +139,4 @@ scope than the circuit. The important point is that we still see one bounce at l
 * [PN2222ATA info and datasheet](http://parts.io/detail/1027929/PN2222ATA) - parts.io
 * [BC556BTA info and datasheet](http://parts.io/detail/1015198/BC556BTA) - parts.io
 * [LEAP#130 DarlingtonTouchSwitch](../Electronics101/DarlingtonTouchSwitch)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap285-the-boldport-tap.html)
