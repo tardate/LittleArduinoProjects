@@ -75,9 +75,15 @@ The RB and CB pins are intended to allow chaining of mulitple sensor units with 
 
 ![kit_unboxing1](./assets/kit_unboxing1.jpg?raw=true)
 ![kit_unboxing2](./assets/kit_unboxing2.jpg?raw=true)
+![kit_parts](./assets/kit_parts.jpg?raw=true)
 ![kit_pcb_rear](./assets/kit_pcb_rear.jpg?raw=true)
 ![kit_pcb_front](./assets/kit_pcb_front.jpg?raw=true)
-![kit_parts](./assets/kit_parts.jpg?raw=true)
+
+The transistor markings on the silkscreen threw me at first. They are special!
+I was confused because they don't replicate the standard NPN/PNP schematic exactly.
+Just focus on the arrow flow: NPN points out from the emitter; PNP points in to the emmiter.
+
+![transistor_symbols](./assets/transistor_symbols.jpg?raw=true)
 
 ## Construction
 
