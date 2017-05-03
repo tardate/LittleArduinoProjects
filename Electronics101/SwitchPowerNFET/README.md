@@ -70,3 +70,4 @@ With a pure 10kΩ resistive load, it's easier to see the hard on/off control.
 * [LEAP#66 SwitchNFET](../SwitchNFET) - basic n-channel MOSFET switching
 * [IRF3205 datasheet](http://www.futurlec.com/Transistors/IRF3205.shtml)
 * [MOSFET as a Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html) - electronics-tutorials
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap286-low-side-power-fet-switching.html)
