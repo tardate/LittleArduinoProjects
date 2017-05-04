@@ -15,6 +15,7 @@ The project was made possible by the kind support of AMS who donated the LED dri
 Now I have one built, time to test it out. So far
 
 * [LedTest](./LedTest) - first check under Arduino control
+* [Firecracker](./Firecracker) - a firecracker simulacrum running on the Matrix
 * [GameOfLife](./GameOfLife) - Conway's Game of Life running on the Matrix
 * [KeypadControl](./KeypadControl) - use a 20-button keypad to write a scrolling message on the Matrix
 
