@@ -142,3 +142,4 @@ Finished:
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4070 Datasheet](http://www.futurlec.com/4000Series/CD4070.shtml)
 * [Using An Ultrasonic Sensor Module As A Door Sentry](http://www.siliconchip.com.au/Issue/2016/December/Using+An+Ultrasonic+Sensor+Module+As+A+Door+Sentry) - Silicon Chip Dec-2016
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap287-ultrasonic-alarm.html)
