@@ -1148,6 +1148,13 @@
         "name": "Switches/DPDT"
     }, 
     {
+        "description": "a simple buck converter circuit from first principles", 
+        "relative_path": "Electronics101/SwitchModePowerSupplies/BasicBuckAvrControl", 
+        "id": "#217", 
+        "categories": "Power, Arduino", 
+        "name": "BasicBuckAvrControl"
+    }, 
+    {
         "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
         "relative_path": "Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl", 
         "id": "#288", 
@@ -1601,13 +1608,6 @@
         "id": "#255", 
         "categories": "ATtiny, ATmel, Arduino, PWM", 
         "name": "AvrHardwarePWM/ATtiny"
-    }, 
-    {
-        "description": "a simple buck converter circuit from first principles", 
-        "relative_path": "playground/BasicBuckAvrControl", 
-        "id": "#217", 
-        "categories": "Power, Arduino", 
-        "name": "BasicBuckAvrControl"
     }, 
     {
         "description": "simple LCD test", 

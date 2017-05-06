@@ -3,7 +3,7 @@
   BasicBuckAvrControl
   A simple buck converter circuit without feedback control
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BasicBuckAvrControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SwitchModePowerSupplies/BasicBuckAvrControl
 
  */
 
