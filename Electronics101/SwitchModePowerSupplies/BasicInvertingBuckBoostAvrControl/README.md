@@ -126,3 +126,4 @@ VREF adjusted to a mid-point:
 * [LMC6482 datasheet](http://parts.io/detail/11889183/LMC6482AIMX%2FNOPB) - parts.io
 * [ATTINY85 datasheet](http://parts.io/detail/1452093/ATTINY85-20PU) - parts.io
 * [L7805 datasheet](http://parts.io/detail/6811412/L7805) - parts.io
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap288-basic-inverting-buck-boost-avr-control.html)
