@@ -86,7 +86,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#254 AvrHardwarePWM](./playground/AvrHardwarePWM)                                 | **ATmega, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328 |
 | [#255 AvrHardwarePWM/ATtiny](./playground/AvrHardwarePWM/ATtiny)                   | **ATtiny, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the ATtiny85 |
 | [#217 BasicBuckAvrControl](./playground/BasicBuckAvrControl)                       | **Power, Arduino**              a simple buck converter circuit from first principles |
-| [#288 BasicInvertingBuckBoostAvrControl](./playground/BasicInvertingBuckBoostAvrControl) | **Power, ATtiny, Arduino**   build and test an inverting buck-boost converter controlled by an ATtiny85 |
+| [#288 BasicInvertingBuckBoostAvrControl](./Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl) | **Power, ATtiny, Arduino**   build and test an inverting buck-boost converter controlled by an ATtiny85 |
 | [#262 BazzFuss](./Electronics101/GuitarEffects/BazzFuss)                           | **Guitar Effects, Audio**       the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |

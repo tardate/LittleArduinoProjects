@@ -1148,6 +1148,13 @@
         "name": "Switches/DPDT"
     }, 
     {
+        "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
+        "relative_path": "Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl", 
+        "id": "#288", 
+        "categories": "Power, ATtiny, Arduino", 
+        "name": "BasicInvertingBuckBoostAvrControl"
+    }, 
+    {
         "description": "small-signal n-channel MOSFET switch with turn-off delay", 
         "relative_path": "Electronics101/SwitchNFET", 
         "id": "#066", 
@@ -1601,13 +1608,6 @@
         "id": "#217", 
         "categories": "Power, Arduino", 
         "name": "BasicBuckAvrControl"
-    }, 
-    {
-        "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
-        "relative_path": "playground/BasicInvertingBuckBoostAvrControl", 
-        "id": "#288", 
-        "categories": "Power, ATtiny, Arduino", 
-        "name": "BasicInvertingBuckBoostAvrControl"
     }, 
     {
         "description": "simple LCD test", 

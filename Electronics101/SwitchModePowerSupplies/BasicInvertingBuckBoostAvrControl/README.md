@@ -32,6 +32,10 @@ This counters the effect of the switching circuit interfering with a stable grou
 The voltage dividers on the feedback circuit have been boosted to larger value resistors (100kΩ/22kΩ) from the original (20kΩ/5.1kΩ).
 This allows for a minimum voltage of around 1.7V.
 
+I've only breadboarded this so far, and it works reasonably well - at least as an investigation of how inverting buck-boost converters
+actually work.
+
+
 ### PWM Control
 
 The [BasicInvertingBuckBoostAvrControl.ino](./BasicInvertingBuckBoostAvrControl.ino) sketch
@@ -61,30 +65,31 @@ Settings (buck mode):
 #### Theoretical Performance - Buck Mode
 
 Required duty cycle:
-```
-D = Vout/(Vout - Vin) = [42.86%](http://www.wolframalpha.com/input/?i=9V%2F(12V+-+-9V))
-```
+
+
+`D = Vout/(Vout - Vin) =` [42.86%](http://www.wolframalpha.com/input/?i=9V%2F(12V+-+-9V))
 
 **Output ripple voltage:**
-```
-Ia = Vout/Rload = [0.9mA](http://www.wolframalpha.com/input/?i=9V%2F10k%CE%A9)
-∆Vc = Ia * D / (fs * C) = [0.05528mV](http://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(31.72kHz+*+220%C2%B5F))
-```
+
+`Ia = Vout/Rload =` [0.9mA](http://www.wolframalpha.com/input/?i=9V%2F10k%CE%A9)
+
+`∆Vc = Ia * D / (fs * C) =` [0.05528mV](http://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(31.72kHz+*+220%C2%B5F))
+
 
 **Average input current:**
-```
-Is = Ia * D / (1 - D) = [0.68mA](http://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(1+-+0.4286))
-```
+
+`Is = Ia * D / (1 - D) =` [0.68mA](http://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(1+-+0.4286))
+
 
 **Average inductor current:**
-```
-Il = Ia / (1 - D) = [1.58mA](http://www.wolframalpha.com/input/?i=0.9mA+%2F+(1+-+0.4286))
-```
+
+`Il = Ia / (1 - D) =` [1.58mA](http://www.wolframalpha.com/input/?i=0.9mA+%2F+(1+-+0.4286))
+
 
 **Inductor peak-peak ripple current:**
-```
-∆Ii = Vin * D / (fs * L) = [4.913A](http://www.wolframalpha.com/input/?i=12V+*+0.4286+%2F+(31.72+kHz+*+33%C2%B5H))
-```
+
+`∆Ii = Vin * D / (fs * L) =` [4.913A](http://www.wolframalpha.com/input/?i=12V+*+0.4286+%2F+(31.72+kHz+*+33%C2%B5H))
+
 That's quite a spike
 
 #### Actual Performance
