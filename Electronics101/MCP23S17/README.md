@@ -16,12 +16,12 @@ The Microchip MCP23S17 is a 16-bit port expender:
 * Configurable interrupt output pins
 * SPI interface at up to 10 MHz (MCP23017 is the I²C variant)
 * Three hardware address pins to allow up to eight devices on the bus
-* OPERATING voltage 1.8V to 5.5V
-* maximum source/sink current per pin: 25mA
+* Operating voltage 1.8V to 5.5V
+* Maximum source/sink current per pin: 25mA
 * VSS max current: 150 mA
 * VDD max current: 125 mA
 
-Note the current limit gotcha: `16 x 25ma >> 125mA`, so care required not to have too many pins fully loaded at once, or pins should only be used to switch larger currents (not provide power themselves).
+Note the current limit gotcha: `16 x 25ma >> 125mA`, so care is required not to have too many pins fully loaded at once, or pins should only be used to switch larger currents (not provide power themselves).
 
 ### Key Commands
 
@@ -139,7 +139,7 @@ First, a trace of the register-by-register update. There is a ~14µs delay betwe
 
 ![scope-register-by-register](./assets/scope-register-by-register.gif?raw=true)
 
-Second, a trace of the sequential write update. The delay between register updates is still not synchronised, but it has been reduced to under 1µs:
+Second, a trace of the sequential write update. The register updates are still not synchronised, but the delay has been reduced to under 1µs:
 
 ![scope-sequential-write](./assets/scope-sequential-write.gif?raw=true)
 
