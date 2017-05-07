@@ -763,6 +763,13 @@
         "name": "LowVoltageGlowingLEDs"
     }, 
     {
+        "description": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface", 
+        "relative_path": "Electronics101/MCP23S17", 
+        "id": "#313", 
+        "categories": "Arduino, Port Expander", 
+        "name": "MCP23S17"
+    }, 
+    {
         "description": "use an electret microphone to light a series of LEDs in proportion to volume", 
         "relative_path": "Electronics101/MeLEDy", 
         "id": "#040", 
