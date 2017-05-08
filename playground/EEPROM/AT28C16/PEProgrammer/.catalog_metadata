@@ -1,0 +1,7 @@
+{
+    "id": "#314", 
+    "name": "EEPROM/AT28C16/PEProgrammer", 
+    "description": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander", 
+    "categories": "EEPROM, Arduino", 
+    "relative_path": "playground/EEPROM/AT28C16/PEProgrammer"
+}

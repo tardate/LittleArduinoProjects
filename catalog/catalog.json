@@ -77,7 +77,7 @@
         "name": "BoldportClub/TheCuttle"
     }, 
     {
-        "description": "Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
+        "description": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
         "relative_path": "BoldportClub/TheCuttle/ScopeTag", 
         "id": "#267", 
         "categories": "Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope", 
@@ -553,7 +553,7 @@
         "name": "SRLatchWithNorGates"
     }, 
     {
-        "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing", 
+        "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
         "relative_path": "Electronics101/DigitalLogic/XorWithNandGates", 
         "id": "#283", 
         "categories": "Logic Gates, 74xx TTL", 
@@ -1692,6 +1692,13 @@
         "id": "#188", 
         "categories": "EEPROM, Arduino", 
         "name": "EEPROM/AT24C02/BasicReadWrite"
+    }, 
+    {
+        "description": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander", 
+        "relative_path": "playground/EEPROM/AT28C16/PEProgrammer", 
+        "id": "#314", 
+        "categories": "EEPROM, Arduino", 
+        "name": "EEPROM/AT28C16/PEProgrammer"
     }, 
     {
         "description": "convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals", 

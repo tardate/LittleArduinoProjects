@@ -1,5 +1,5 @@
-# 313 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [MCP23S17](./Electronics101/MCP23S17) - investigate and test the MCP23S17 16-Bit I/O Expander with serial interface.
+# 314 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [EEPROM/AT28C16/PEProgrammer](./playground/EEPROM/AT28C16/PEProgrammer) - programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -146,6 +146,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#219 DS18S20/OneWireReading](./playground/DS18S20/OneWireReading)                 | **Sensors, Arduino**            basic interrogation of a DS18S20 using 1-wire protocol |
 | [#166 DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
 | [#188 EEPROM/AT24C02/BasicReadWrite](./playground/EEPROM/AT24C02/BasicReadWrite)   | **EEPROM, Arduino**             basic read/write operations to external EEPROM (AT24C02) with the Wire library |
+| [#314 EEPROM/AT28C16/PEProgrammer](./playground/EEPROM/AT28C16/PEProgrammer)       | **EEPROM, Arduino**             programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander |
 | [#051 El Jarabe Tapatío](./playground/JarabeTapatio)                               | **Audio, Arduino**              play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification |
 | [#038 ElectretADC](./playground/ElectretADC)                                       | **Audio, Arduino**              convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals |
 | [#037 ElectretTrigger](./playground/ElectretTrigger)                               | **Sensors, Audio, OpAmp, Arduino** uses an electret microphone and LM324 amplifier to trigger action when over audio threshold |

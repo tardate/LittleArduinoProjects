@@ -1,7 +1,7 @@
 {
     "id": "#283", 
     "name": "XorWithNandGates", 
-    "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing", 
+    "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
     "categories": "Logic Gates, 74xx TTL", 
     "relative_path": "Electronics101/DigitalLogic/XorWithNandGates"
 }
