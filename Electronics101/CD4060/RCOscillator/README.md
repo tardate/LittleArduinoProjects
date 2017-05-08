@@ -32,7 +32,7 @@ If left floating it can cause spurious results such as picking up 50/60Hz oscill
 
 The CD4060 is a 14 stage ripple counter constructed of RS flip-flop units - see the functional diagram from the datasheet:
 
-![CD4060_functional](./assets/CD4060_functional.png?raw=true)
+![CD4060_functional](../assets/CD4060_functional.png?raw=true)
 
 The input signal passes 4 stages before the first output is tapped (Q4).
 Thus the first (Q4) output signal divides the input frequency by a factor of 2^4

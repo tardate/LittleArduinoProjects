@@ -25,6 +25,18 @@ This is the same kit covered by Julian Ilett:
 [![Kit Build](http://img.youtube.com/vi/AJFLz_hQsjo/0.jpg)](http://www.youtube.com/watch?v=AJFLz_hQsjo)
 
 
+### CD4060 Ripple Counter
+
+The CD4060 is a 14 stage ripple counter constructed of RS flip-flop units - see the functional diagram from the datasheet:
+
+![CD4060_functional](../assets/CD4060_functional.png?raw=true)
+
+The CD4060 in this circuit is configured as a free-running counter, driven by an RC oscillator.
+I investigated this technique in more detail in [LEAP#293 CD4060/RCOscillator](../RCOscillator).
+
+As the oscillator triggers the CD4060, the outputs cycle/ripple. The circuit only uses three significant outputs: Q5, Q6, Q7.
+These are steered with diodes to drive the three LED combinations. Q7 also triggers reset on the CD4060 to restart the sequence.
+
 ### Music Effects Chip
 
 The music chip included in my kit is marked "H823" and plays "Happy Birthday". This appears to be a different chip
@@ -86,4 +98,6 @@ This is the schematic available from most vendors:
 * [S9012 datasheet](http://www.futurlec.com/Transistors/S9012.shtml)
 * [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
 * [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
-* [LEAP#292: AudioEffectsChips/H823](../../AudioEffectsChips/H823) - testing the music chip that came with this kit
+* [LEAP#292 AudioEffectsChips/H823](../../AudioEffectsChips/H823) - testing the music chip that came with this kit
+* [LEAP#293 CD4060/RCOscillator](../RCOscillator) - testing an CD4060 driven by an RC oscillator
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap291-cd4060-music-light-kit.html)
