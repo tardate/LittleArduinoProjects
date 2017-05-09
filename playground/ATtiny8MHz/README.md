@@ -192,7 +192,7 @@ avrdude: safemode: Fuses OK (E:FF, H:DF, L:62)
 avrdude done.  Thank you.
 ```
 
-Now to just change the CKDIV8 from it's factory setting, I just need to update the low fuse:
+Now to just change the CKDIV8 from its factory setting, I just need to update the low fuse:
 
 
 ```

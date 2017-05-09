@@ -27,7 +27,7 @@ So how does it work? Basically like this I think:
 * Q1 will remain on while C1 discharges through R1 with time constant (𝛕) of [22s](http://www.wolframalpha.com/input/?i=470k%CE%A9+*+47%CE%BCF).
 * Q1 activates the 555 in astable configuration, with a decaying frequency governed by the discharge of C2 through R3 when Q1 turns off.
 * pulse stream from 555 pin 3 feeds the CD4017 pin 14 clock signal
-* the CD4017 will enable it's 10 output pins in sequence, lighting the attached LED, until the pulse stream stops
+* the CD4017 will enable its 10 output pins in sequence, lighting the attached LED, until the pulse stream stops
 
 ## Construction
 

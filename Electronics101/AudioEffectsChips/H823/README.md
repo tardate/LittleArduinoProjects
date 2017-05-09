@@ -18,7 +18,7 @@ Which of course is not unusual for these potted music chips! Figuring them out i
 
 This is one of the simpler chips to control. At a minimum it just requires three connections:
 
-* VCC: I'm using 5V, unsure yet what it's upper and lower limits are.
+* VCC: I'm using 5V, unsure yet what its upper and lower limits are.
 * GND: gound
 * OUT: signal out
 
@@ -43,3 +43,4 @@ certainly far better than the piezo buzzer often seen used with these chips in k
 ## Credits and References
 * [CD4060 Dream Music Light DIY Kit](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html) - from a seller on aliexpress
 * [LEAP#291: MusicLightKit](../../CD4060/MusicLightKit)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap292-h823-audio-effects-chip.html)

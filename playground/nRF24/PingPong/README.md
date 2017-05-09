@@ -17,8 +17,8 @@ I'm using the [maniacbug/RF24](https://github.com/maniacbug/RF24) library and th
 
 The [PingPong.ino](./PingPong.ino) script runs on both the "ping" and "pong" node. A ground link on pin 8 tells that aRduino to play "pong".
 Here are the rules of the game:
-* "ping" serves: sends a packet and flashes it's LED if successful, and waits for reply
-* "pong" receives the message, flashes it's LED and sends the message back
+* "ping" serves: sends a packet and flashes its LED if successful, and waits for reply
+* "pong" receives the message, flashes its LED and sends the message back
 * if/when "ping" gets the reply, it waits a bit and starts again (else logs an error before restarting).
 
 This is not really stressing the communications, but a nice way to prove the basics are working.

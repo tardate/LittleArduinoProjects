@@ -49,7 +49,7 @@ So far, just a few for demonstration purposes...
 * [The Loneliness Of The Long Distance Runner](./seq_the_loneliness_of_the_long_distance_runner.h)
 * [Rolling In The Deep](./seq_rolling_in_the_deep.h)
 
-The code is organised so that each pattern is in it's own (header) file.
+The code is organised so that each pattern is in its own (header) file.
 
 ### Serial-Parallel Interface
 

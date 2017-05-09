@@ -34,7 +34,7 @@ Stage 11 (Q11) of the ripple counter is also not exposed on a pin.
 The lack of Q0-3 and Q11 is I think just pin economics so it all fits it in a DIP16 package.
 
 The performance is summarised in the following table and the logic analyzer (LA) capture.
-While 32.768kHz may sound like an odd crystal frequency, the table below gives away it's purpose:
+While 32.768kHz may sound like an odd crystal frequency, the table below gives away its purpose:
 the ripple counter divides this frequency into lots of familiar powers of 2!
 Also note how under crystal control, the actual frequency (as measured with an oscilloscope) is exactly equal to the
 theoretical frequency.

@@ -18,7 +18,7 @@ This is a special case of the general inverting amplifier configuration with gai
 
 ### How it works
 
-Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
+Fundamentally, an op-amp strives to keep its inverting an non-inverting inputs equal by modulating the output.
 
 In the inverter/inverting amplifier configuration, the inverting input is at the midpoint of the Rin:Rf voltage divider.
 Hence the op amp achieves inverting/non-inverting input equilibrium when Vout = -Vin.

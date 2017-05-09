@@ -8,14 +8,14 @@ Test and develop the AudioDSP library for programming the pedalSHIELD Uno.
 
 ## Notes
 
-When I built the [AudioDSP](../../AudioDSP) pedalSHIELD UNO clone to investigate it's operation,
+When I built the [AudioDSP](../../AudioDSP) pedalSHIELD UNO clone to investigate its operation,
 I started collecting my code in a class library [AudioDspDriver](../../../libraries/AudioDspDriver).
 
 I'm liking the encapsulation and reuse it provides over just hacking sketches based on
 the pedalSHIELD examples, but I wouldn't say it's ready to be raised in status as a published library yet.
 
 So this project is an exercise in putting the (private) [AudioDspDriver](../../../libraries/AudioDspDriver) library
-though it's paces by first testing how it can be used to implement the equivalent of all the
+though its paces by first testing how it can be used to implement the equivalent of all the
 pedalSHIELD UNO examples.
 
 The scope traces below are all captured with a 600mV 1kHz input signal on CH1.

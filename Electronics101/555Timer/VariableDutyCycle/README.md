@@ -35,7 +35,7 @@ NB: an alternative approach with diode-controlled discharge circuit is [covered 
 
 If I had a dual-pole pot with one core of say 50kΩ and the other of 25kΩ, that would be perfect.
 Unfortunately I don't. But I do have a 50kΩ dual pole. So I just need to configure it so one pole has
-it's resistance halved.
+its resistance halved.
 
 ![Dual-pole Pot](./assets/VariableDutyCycle_pot.jpg?raw=true)
 

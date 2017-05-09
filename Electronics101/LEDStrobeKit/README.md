@@ -94,7 +94,7 @@ The 50kΩ trimmer potentiometer allows the frequency to be adjusted from
 ### LED Control
 
 The 555 timer output feeds the clock of the CD4017 Decade Counter/Divider with 10 Decoded Outputs.
-Each pulse causes the CD4017BC to sequence it's output signal through pins Q0-Q9.
+Each pulse causes the CD4017BC to sequence its output signal through pins Q0-Q9.
 Steering diodes are used to further decode these outputs to drive the 3 LED modules.
 
 The following table summarises the default behaviour. Q1, Q2, and Q3 refer to the three BJT

@@ -47,7 +47,7 @@ Pin usage:
 
 
 My first job was to bodge together a breadboard adapter for the ESP8266 module -
-it's interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug directly into a breadboard.
+its interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug directly into a breadboard.
 
 ![module](./assets/SerialTest_module.jpg?raw=true)
 

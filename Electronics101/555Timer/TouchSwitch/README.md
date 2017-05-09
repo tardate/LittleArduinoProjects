@@ -13,7 +13,7 @@ I'm using a 100kΩ/10µF configuration which gives an output pulse of [1100ms](h
 The circuit takes advantage of the fact that the trigger input is quite sensitive since it is essentially the
 input to a PNP darlington-pair.
 Trigger occurs upon application of a negative trigger pulse of less than 1/3 VCC, which sets the internal flip-flip.
-The flip-flip is reset at the end of it's cycle, ready to receive another trigger input.
+The flip-flip is reset at the end of its cycle, ready to receive another trigger input.
 
 In practice, a finger touch to the flying lead attached to pin 2 may be enough to trigger the 555.
 If the body is holding too much charge, it may be necessary to press across the two flying leads (pin 2, ground)

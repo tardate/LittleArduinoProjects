@@ -18,7 +18,7 @@ determined by the input and feedback resistor selection:
 
 ### How it works
 
-Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
+Fundamentally, an op-amp strives to keep its inverting an non-inverting inputs equal by modulating the output.
 
 In the inverter/inverting amplifier configuration, the inverting input is at the inflexion point of the Rin:Rf voltage divider.
 Hence the op amp achieves inverting/non-inverting input equilibrium when `Vout = - Rf/Rin * Vin`.

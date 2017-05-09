@@ -16,7 +16,7 @@ The general operation of a voltage follower is for the output to follow the non-
 
 ### How it works
 
-Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
+Fundamentally, an op-amp strives to keep its inverting an non-inverting inputs equal by modulating the output.
 
 When the non-inverting input rises above the inverting input, the output will rise to offset the differential.
 Since there is 100% feedback to the non-inverting input, the output will immediately change to match the inverting input.
@@ -68,7 +68,7 @@ UA741CN:
 ### At 80kHz
 
 * both struggling to drop the output voltage fast enough
-* the poorer ML741 response time has effectively increased it's lower output limit so it is now higher than the UA741CN
+* the poorer ML741 response time has effectively increased its lower output limit so it is now higher than the UA741CN
 * ML741 is the first to get into trouble (from 40kHz at least)
 
 ML741:

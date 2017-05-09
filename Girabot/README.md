@@ -72,7 +72,7 @@ I was thinking about wiring up through the neck so the LDRs could actually "be" 
 
 When Girabot detects relative darkness to one side, it will:
 * provide an audible chirp (a distinct sound for left or right)
-* and change it's movement towards the brighter side
+* and change its movement towards the brighter side
 
 ### Proof-of-concept/Explorations
 The following mini-projects explore the use of LDRs in a [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge)

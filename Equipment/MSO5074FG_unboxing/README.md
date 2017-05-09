@@ -43,7 +43,7 @@ The manual is pretty decent; available in English and all the basic info and tec
 
 ### First Boot and Probe Compensation
 
-Switching on .. and it boots fine! From system info I can see that this is it's second boot (the first being the seller's benchtest).
+Switching on .. and it boots fine! From system info I can see that this is its second boot (the first being the seller's benchtest).
 
 The manual describes how to perform probe compensation and that all goes well...
 
@@ -60,7 +60,7 @@ Here's what it looks like:
 ![DDS Sine Trace](./assets/MSO5074FG_dds_sine_trace.jpg?raw=true)
 
 And here's a test of the 'save to USB device' to capture the screenshot.
-Unfortunately I still haven't figured out how to take the screenshot without the utility menu edging it's way into the picture:
+Unfortunately I still haven't figured out how to take the screenshot without the utility menu edging its way into the picture:
 
 ![DDS Sine Trace Export](./assets/dds_sine.jpg?raw=true)
 

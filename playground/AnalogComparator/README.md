@@ -47,7 +47,7 @@ This is simple test:
 
 The particular LDR used has a range of about 200Ω (bright light) to 20kΩ (dark).
 However the ambient light conditions used for testing the circuit exhibits a typical range of 2kΩ-5kΩ,
-so I'm using a 3.3kΩ as it's reference mate.
+so I'm using a 3.3kΩ as its reference mate.
 
 So the expected behaviour is that we get a comparator threshold rising edge crossing when the LDR goes dark,
 and a comparator threshold falling edge crossing when the LDR goes light.

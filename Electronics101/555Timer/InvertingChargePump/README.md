@@ -9,7 +9,7 @@ Test an inverting charge pump circuit based on a 555 timer.
 
 The classic charge pump circuit uses a switching mechanism to alternately:
 * charge a "flying capacitor" from the power source
-* discharge the capacitor to an output capacitor, from which the load draws it's power
+* discharge the capacitor to an output capacitor, from which the load draws its power
 
 Depending on configuration, charge pumps are capable of output voltages up to and above the input voltage,
 as well as negative output voltages.
@@ -26,7 +26,7 @@ A variable resistance component of R2 allows adjustment of frequency over a wide
 * to [64.9kHz / 55% duty cycle](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01)
 
 Note that the charge pump is primed directly from the 555 timer output pin 3.
-555 chips are generally rated for a maximum of +/-200mA on it's output pin, so this arrangement is necessarily only suitable for low-power loads.
+555 chips are generally rated for a maximum of +/-200mA on its output pin, so this arrangement is necessarily only suitable for low-power loads.
 
 ### Some Measurements
 I've seen this circuit repeated over the internet, with a wide range of component values.

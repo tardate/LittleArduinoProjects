@@ -8,7 +8,7 @@ Teardown an FQ777-954 nano drone and figure out as much of the technical design 
 
 ## Notes
 
-The FQ777-954 and it's derivatives (RC Leading RC101W, Cheerson CX-10W..) is a pretty hot item if one can judge
+The FQ777-954 and its derivatives (RC Leading RC101W, Cheerson CX-10W..) is a pretty hot item if one can judge
 by the number of unboxing and flight test reports - a simple [search on youtube](https://www.youtube.com/results?search_query=FQ777-954)
 will find a few thousand. I get the impression someone has been flooding the market with review units!
 

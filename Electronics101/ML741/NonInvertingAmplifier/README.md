@@ -17,7 +17,7 @@ The non-inverting amplifier has an arbitrary gain determined by the input and fe
 
 ### How it works
 
-Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
+Fundamentally, an op-amp strives to keep its inverting an non-inverting inputs equal by modulating the output.
 
 In the non-inverting amplifier configuration, the non-inverting input is at the inflexion point of the R1:R2 voltage divider.
 Since the inflexion point must equal the non-inverting input voltage, as the non-inverting input voltage changes,

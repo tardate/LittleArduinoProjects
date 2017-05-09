@@ -14,7 +14,7 @@ I picked up a ["Mobile Phone Signal Flash Light Radiation Power DIY Kit"](http:/
 The circuit is supposed to be tuned for detecting mobile phone [GSM](http://en.wikipedia.org/wiki/GSM) signals - not CDMA or other -
 but that itself is a [pretty big bag of frequencies](http://en.wikipedia.org/wiki/GSM_frequency_bands).
 
-Putting the circuit on a breadboard will I expect affect it's behaviour, as I guess the breadboard rails act either as shield or antenna.
+Putting the circuit on a breadboard will I expect affect its behaviour, as I guess the breadboard rails act either as shield or antenna.
 
 ![The Build](./assets/MobileRFDetectorKit_breadboard.jpg?raw=true)
 

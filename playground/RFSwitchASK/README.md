@@ -37,7 +37,7 @@ The default maximum message length implemented by the ASK library is 60 bytes.
 The receiver is an Arduino Uno (again, no particular reason why, except it was handy).
 
 It polls for data, and when it receives a valid packet, it decodes it as a string and checks for the on/off state.
-It then sets it's LED in accordance. So when sender/receiver are running, their respective LEDs should flash pretty much in unison
+It then sets its LED in accordance. So when sender/receiver are running, their respective LEDs should flash pretty much in unison
 (with a slight delay at the receiving end)
 
 ### Construction

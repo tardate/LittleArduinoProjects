@@ -12,7 +12,7 @@ Here's a quick demo of the circuit in action:
 ## Notes
 
 I've previously wired up a classic single-rail op-amp oscillator in the [LM324Oscillator](./LM324Oscillator) project,
-but this was running at very low frequencies, and it's behaviour matched the theory quite closely.
+but this was running at very low frequencies, and its behaviour matched the theory quite closely.
 
 The essence of an op-amp oscillator is to use an RC circuit to throw an op-amp comparator from one rail to the other.
 There are many sources on the net describing the technique ([here's a good one](http://www.electronics-tutorials.ws/opamp/op-amp-multivibrator.html)).
@@ -32,7 +32,7 @@ It appears that once you get into these higher frequencies - admittedly, not ver
 the characteristics of the actual op-amp chip overshadow any predictions you might make on the basis of RC theory and ideal op-amp behaviour.
 
 Key measures are bandwidth gain product (unity gain) which indicates the frequency at which gain drops below unity (and generally rapidly tailing off),
-and slew rate, which is an indication of how fast the chip can switch it's output.
+and slew rate, which is an indication of how fast the chip can switch its output.
 
 Here is the [basic oscillator circuit in CircuitLab](https://www.circuitlab.com/circuit/92cgar/lm741-single-rail-oscillator/),
 in this case the 741 version:
@@ -51,7 +51,7 @@ I could push some quite a bit higher, but oscillation rapidly started to become 
 
 This is not a perfect test by any means:
 * I don't have QA certification for any of the chips tested
-* the breadboard brings it's own issues of stray capacitance and imperfect connections
+* the breadboard brings its own issues of stray capacitance and imperfect connections
 * these are all quite old op-amp designs; there are many newer chips that should drastically outperform this set
 * these are measured with a frequency counter and I don't have a scope available to inspect the waveforms. I may have made some fundamental measurement mistakes, and ended up measuring a harmonic instead of the fundamental frequency for example.
 

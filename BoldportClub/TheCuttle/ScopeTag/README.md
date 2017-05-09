@@ -1,6 +1,6 @@
 # #267 TheCuttle/ScopeTag
 
-Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP42010 digital potentiometer.
+Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer.
 
 ![ScopeTag_test_run](./assets/ScopeTag_test_run.jpg?raw=true)
 
@@ -12,7 +12,7 @@ Get the Boldport Cuttle to write it's name on a Digital Oscilloscope with an MCP
 I just built [The Cuttle](../) so time for a quick test.
 
 I thought I'd borrow an idea from the [XYplotter](../../playground/XYplotter) project and get The Cuttle
-to write it's name on an oscilloscope.
+to write its name on an oscilloscope.
 
 
 The Python script [make_data.py](./tree/make_data.py) is used to interpolate plotting points

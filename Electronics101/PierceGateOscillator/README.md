@@ -38,7 +38,7 @@ After much experimentation, I was able to get it to perform - but only once I'd 
 all the way down to 2.2kΩ. At this level, the circuit is operating more like a classic SchmittOscillator,
 which would have an expected frequency of around [5.7MHz](http://www.wolframalpha.com/input/?i=1%2F(1.2+*+2.2k%CE%A9+*+66pF)).
 
-However, the crystal is doing it's job, locking in the oscillation at the resonant frequency of bang on 4.273MHz.
+However, the crystal is doing its job, locking in the oscillation at the resonant frequency of bang on 4.273MHz.
 
 Here's a scope trace:
 

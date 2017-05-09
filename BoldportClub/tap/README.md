@@ -24,7 +24,7 @@ I've covered the operation of this kind of switch in [LEAP#130 DarlingtonTouchSw
 
 All manner of outputs are provided. For each touchpad there are four:
 
-* `Q`/`Q1¯` - the logic-level output and it's complement
+* `Q`/`Q1¯` - the logic-level output and its complement
 * `S`/`S¯` which are logically idelntical, but an open-collector configuration able to sink greater current
 
 ### Behaviour

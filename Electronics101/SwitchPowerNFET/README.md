@@ -16,7 +16,7 @@ the voltage across the switched load. For example, using a 5V Arduino to switch 
 The standard configuration in such cases is low-side switch - where the MOSFET source
 is at the same voltage as the switching circuit ground.
 
-The switching circuit will then toggle the MOSFET gate voltage between it's high and low levels
+The switching circuit will then toggle the MOSFET gate voltage between its high and low levels
 (say 0V and 5V for a 5V Arduino). But the voltage on the load side can be much higher.
 
 The primary consideration is to ensure that the switching circuit voltage is large enough

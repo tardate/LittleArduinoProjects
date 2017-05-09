@@ -19,11 +19,11 @@ The general operation of a comparator is to swing output from 0 to 1 based on th
 
 ### How it works
 
-Fundamentally, an op-amp strives to keep it's inverting an non-inverting inputs equal by modulating the output.
+Fundamentally, an op-amp strives to keep its inverting an non-inverting inputs equal by modulating the output.
 
 In the comparator configuration, when the non-inverting input rises above the inverting input,
 the output will rise to offset the differential.
-But since there is no feedback loop, that fails miserably and the output fast ends up hard on it's upper rail.
+But since there is no feedback loop, that fails miserably and the output fast ends up hard on its upper rail.
 
 Conversely, when the non-inverting input falls below the inverting input, the output swings low as the op-amp
 attempts to balance the input.
