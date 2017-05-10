@@ -32,16 +32,6 @@ public:
   ///
   void write(uint8_t data, uint16_t address);
 
-  /// @brief Command: setup the port expander and data ports for read.
-  /// This will reset the address
-  ///
-  void setReadMode();
-
-  /// @brief Command: setup the port expander and data ports for write.
-  /// This will reset the address
-  ///
-  void setWriteMode();
-
 private:
 
   SPISettings* spi_settings;
@@ -69,5 +59,18 @@ private:
   ///
   void setPeRegister(uint8_t reg, uint8_t first, uint8_t last);
 
+  /// @brief Command: setup the port expander and data ports for read.
+  /// This will reset the address
+  ///
+  void setReadMode();
+
+  /// @brief Command: setup the port expander and data ports for write.
+  /// This will reset the address
+  ///
+  void setWriteMode();
+
+  /// @brief Command: set the address for read/write.
+  ///
+  void setAddress(uint16_t address);
 
 };

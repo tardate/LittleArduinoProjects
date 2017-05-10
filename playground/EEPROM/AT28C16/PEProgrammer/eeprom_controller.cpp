@@ -8,17 +8,15 @@
 #define  DEFAULT_SS_PIN         (10)
 #define  DEFAULT_PE_ADDRESS     (0)
 
-
 #define  IOCON     (0x0A)
 #define  IODIRA    (0x00)
 #define  IODIRB    (0x01)
 #define  GPIOA     (0x12)
 #define  GPIOB     (0x13)
 
-#define  WE_BIT (3)
-#define  OE_BIT (4)
-#define  CE_BIT (5)
-
+#define  WE_BIT    (3)
+#define  OE_BIT    (4)
+#define  CE_BIT    (5)
 
 
 EepromController::EepromController() {
@@ -36,14 +34,11 @@ EepromController::EepromController() {
 void EepromController::begin() {
   pinMode(pe_ss_pin, OUTPUT);
   digitalWrite(pe_ss_pin, HIGH);
-
   SPI.begin();
   SPI.beginTransaction(*spi_settings);
-
   setPeRegister(IOCON,  0b00001000); // enable hardware address pins; bank=0 addressing
   setPeRegister(IODIRA, 0b00000000); // set GPA output ports
   setPeRegister(IODIRB, 0b11000000); // set GPB output ports except GPB6,GPB7 (unused)
-
 }
 
 
@@ -52,11 +47,9 @@ void EepromController::setReadMode() {
   this->GPIOA_value = 0; // clear A0-7
   this->GPIOB_value = _BV(WE_BIT); // set WE; clear CE/OE and A8-10
   setPeGpio();
-
   for(int pindex=0; pindex < 8; ++pindex) {
     pinMode(first_data_pin + pindex, INPUT);
   }
-
 }
 
 
@@ -65,17 +58,21 @@ void EepromController::setWriteMode() {
   this->GPIOA_value = 0;                         // clear A0-7
   this->GPIOB_value = _BV(WE_BIT) | _BV(OE_BIT); // set WE/OE; clear CE and A8-10
   setPeGpio();
-
   for(int pindex=0; pindex < 8; ++pindex) {
     pinMode(first_data_pin + pindex, OUTPUT);
   }
 }
 
 
+void EepromController::setAddress(uint16_t address) {
+  this->GPIOA_value = (uint8_t)address;               // low address byte A0-7
+  this->GPIOB_value |= ((address >> 8) & 0b00000111); // 3 bits of high address byte A8-10
+}
+
+
 uint8_t EepromController::read(uint16_t address) {
   if(current_mode==WriteMode) setReadMode();
-  this->GPIOA_value = (uint8_t)address; // low byte
-  this->GPIOB_value |= ((address >> 8) & 0b00000111); // 3 bits of high byte
+  setAddress(address);
   setPeGpio();
   uint8_t input = 0;
   for(int pindex=0; pindex < 8; ++pindex) {
@@ -84,12 +81,11 @@ uint8_t EepromController::read(uint16_t address) {
   return input;
 }
 
+
 void EepromController::write(uint8_t data, uint16_t address) {
   if(current_mode==ReadMode) setWriteMode();
-  this->GPIOA_value = (uint8_t)address;               // low address byte A0-7
-  this->GPIOB_value |= ((address >> 8) & 0b00000111); // 3 bits of high address byte A8-10
+  setAddress(address);
   setPeGpio();
-
   for(int pindex=0; pindex < 8; ++pindex) {
     digitalWrite(first_data_pin + pindex, (data >> pindex) & 1);
   }
