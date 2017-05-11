@@ -16,7 +16,7 @@ using namespace lr;
 AS1130 ledDriver;
 
 AS1130Picture24x5 pages[2]; // two pages for the current and next frame
-uint8_t current_page = 0;   // index to the current game round pages
+uint8_t current_page = 0;   // index to the current page
 
 static const uint16_t NOMINAL_RUNTIME = 1200;
 static const uint8_t SPARKLIE_COUNT = 55;
@@ -35,13 +35,12 @@ void setup() {
   // Initialize the serial port.
   Serial.begin(115200);
 
-  // Wait until the chip is ready.
+  // Give the matrix some time to boot
   delay(100);
-  Serial.println(F("Initialize chip"));
 
-  // Check if the chip is addressable.
+  // Check if the matrix is addressable.
   if (!ledDriver.isChipConnected()) {
-    Serial.println(F("Communication problem with chip."));
+    Serial.println(F("Communication problem with The Matrix."));
     Serial.flush();
     return;
   }
@@ -61,26 +60,23 @@ void setup() {
 }
 
 
-/*
-  Command: main loop; fires explosion if fuse lit
- */
+/// @brief Command: main loop; explode when lit!
+///
 void loop() {
   if(fuseLit()) explode();
 }
 
 
-/*
-  Returns: true if temperature detected abouve 35°C
- */
+/// @brief Returns: true if temperature detected above 35°C
+///
 bool fuseLit() {
   int current_temperature = map(analogRead(TEMP_PIN), 0, 1023, 0, VREF_MV);
   return current_temperature > 350;
 }
 
 
-/*
-  Command: animation sequence runner
- */
+/// @brief Command: run the animation sequence
+///
 void explode() {
   uint16_t runtime = NOMINAL_RUNTIME;
   uint8_t live_sparklies;
@@ -91,9 +87,8 @@ void explode() {
 }
 
 
-/*
- * Command: handle one step in the animation
- */
+/// @brief  Command: handle one step in the animation
+///
 uint8_t processStep(bool with_regeneration) {
   uint8_t live_sparklies = 0;
   uint8_t target_page = !current_page;
@@ -107,10 +102,9 @@ uint8_t processStep(bool with_regeneration) {
 }
 
 
-/*
- * Command: switch display pages.
- * current_page is switched, and the new page displayed
- */
+/// @brief Command: switch display pages.
+/// current_page is switched, and the new page displayed
+///
 void flipPage() {
   current_page = !current_page;
   ledDriver.setOnOffFrame(0, pages[current_page]);

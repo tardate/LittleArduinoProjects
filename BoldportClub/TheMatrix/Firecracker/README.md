@@ -17,6 +17,12 @@ The additional PWM settings create another dimension, so the simulacrum is perha
 To light the firecracker, I want to use a real fire of course;-)
 Exposing the LM35 to a naked flame is perhaps not such a good idea .. but it is only for a moment - enough to take the temp over 35°C
 
+## Code
+
+The [Firecracker.ino](./Firecracker.ino) sketch instantiates ["Sparklies"](./sparklies.h) which represent individual animation elements.
+
+Doxygen source documentation is available [here](http://leap.tardate.com/BoldportClub/TheMatrix/Firecracker/doc/html/).
+
 ## Construction
 
 ![Breadboard](./assets/Firecracker_bb.jpg?raw=true)
