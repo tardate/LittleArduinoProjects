@@ -1169,6 +1169,13 @@
         "name": "BasicInvertingBuckBoostAvrControl"
     }, 
     {
+        "description": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
+        "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost", 
+        "id": "#315", 
+        "categories": "Power", 
+        "name": "MT3608/VariableBoost"
+    }, 
+    {
         "description": "small-signal n-channel MOSFET switch with turn-off delay", 
         "relative_path": "Electronics101/SwitchNFET", 
         "id": "#066", 

@@ -1,5 +1,5 @@
-# 314 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [EEPROM/AT28C16/PEProgrammer](./playground/EEPROM/AT28C16/PEProgrammer) - programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander.
+# 315 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MT3608/VariableBoost](./Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost) Testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -232,6 +232,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#076 MonostablePulseExtender](./playground/MonostablePulseExtender)               | **74xx TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
 | [#046 MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
 | [#218 MPU6050/AccelGyroTest](./playground/MPU6050/AccelGyroTest)                   | **Sensors, MPU-6050, Arduino**  first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module |
+| [#315 MT3608/VariableBoost](./Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost) | **Power** testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter |
 | [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
 | [#226 MusicBoxKit](./Electronics101/MusicBoxKit)                                   | **Music, Arduino**              build and test a Music Box kit, and run a demonstration under Arduino control |
 | [#156 MSO5074FG_unboxing](./Equipment/MSO5074FG_unboxing)                          | **Tools, Test Equipment, Oscilloscope** unboxing and first tests of a Hantek MSO5074FG oscilloscope |
