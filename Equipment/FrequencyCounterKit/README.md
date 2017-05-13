@@ -153,3 +153,4 @@ So perhaps next things I'll do with this kit:
 * [S9014 datasheet](http://www.futurlec.com/Transistors/S9014.shtml)
 * [S9018 datasheet](http://parts.io/detail/178104407/S9018) - parts.io
 * [HT7550A-1 datasheet](http://www.e-ele.net/DataSheet/HT75XX-1.pdf)
+* [..as mentioend on my blog](http://blog.tardate.com/2017/05/leap295-frequency-counter-kit.html)
