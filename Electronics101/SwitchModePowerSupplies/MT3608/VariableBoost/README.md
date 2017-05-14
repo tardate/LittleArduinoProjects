@@ -103,9 +103,17 @@ With `Vin=4.97V`, Vout drops to 4.40V when disabled (given my choice of inductor
 
 ## Construction
 
-![Breadboard](./assets/VariableBoost_bb.jpg?raw=true)
 
 ![Schematic](./assets/VariableBoost_schematic.jpg?raw=true)
+
+Here's a notional breadboard layout:
+
+![Breadboard](./assets/VariableBoost_bb.jpg?raw=true)
+
+Layout for an ugly-style build on some copper PCB stock with mainly SMD components:
+
+![VariableBoost_circuit_layout](./assets/VariableBoost_circuit_layout.jpg?raw=true)
+
 
 ![Build](./assets/VariableBoost_build.jpg?raw=true)
 
