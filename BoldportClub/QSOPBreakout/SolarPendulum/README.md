@@ -115,3 +115,4 @@ Final construction .. the base is a repurposed box from the Boldport Club [Tap p
 * [Watches with mechanical oscillator](http://www.hwynen.de/tba840.html)
 * [Novelty electric motor](https://www.google.com/patents/US3783550?dq=3783550&hl=en&sa=X&ei=X67xUqHPMoOZkQWA5IDYDw&ved=0CDMQ6AEwAA&pageId=105188957426397764872) - US patent with unfortunately little detail on the electronics
 * [Solar plant ornaments with swinging flowers, fruits, branches and leaves CN101352268](https://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=101352268A&KC=A&FT=D&ND=&date=20090128&DB=EPODOC&locale=en_EP) - patent for SHENZHEN LONGGANG PINGHU TENGY that describes the common wobble toys of today
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap296-solar-pendulum-on-a-boldport-qsop-breakout.html)
