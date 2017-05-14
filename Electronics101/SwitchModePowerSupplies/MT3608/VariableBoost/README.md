@@ -86,13 +86,14 @@ and I'm not sure how well the electolytic capacitors perform at 1.2MHz.
 | 10kΩ   | 4.96   | 4.5     | 22.3    | 12.11   | 1.23     | 14.9     | [66.7%](http://www.wolframalpha.com/input/?i=(12.11V*1.23mA)%2F(4.96V*4.5mA)) | |
 
 
-The module under test with Vin=5V. Most of the current is drawn to power the voltmeter I have attached on Vout:
+The module under test with `Vin=5V`, `Vout=12V` and a 10kΩ load.
+Most of the current is drawn to power the voltmeter I have attached on Vout:
 
 ![VariableBoost_under_test](./assets/VariableBoost_under_test.jpg?raw=true)
 
 ### Enable Function
 
-When running with `Vin=4.97V` and `Vout=16V`, the enable pin is pull-ed up to Vin with a 10kΩ resistor.
+When running with `Vin=4.97V` and `Vout=16V`, the enable pin is pulled-up to Vin with a 10kΩ resistor.
 
 Grounding (pulling down) the enable pin disables the converter.
 But this does not cut output. It just removes the voltage boost, and output passes directly through
