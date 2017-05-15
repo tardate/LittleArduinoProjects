@@ -30,7 +30,7 @@ I can't find any current datasheets for unbuffered versions of the CD4070, but I
 
 As a diversion, I thought I'd verify my chips really are the buffered design (my source is not necessarily guarateed to give me chips that live up to their labeling).
 
-The TI application note gives a giood hint on a decent test: plot output to input voltage.
+The TI application note gives a good hint on a decent test: plot output to input voltage.
 Buffered design should deliver a sharp step-change, while the unbuffered design will exhibit a more gradual change.
 
 So I plugged a signal generator into the chip and plotted the X-Y input versus output. This looks like definitive buffered behaviour:
@@ -63,8 +63,8 @@ To eliminate the noise and stray capacitance of a breadboard, I put the three ci
 The first quarter of the CD4070 runs a variant on the cribbed circuit (but with output tapped directly from the XOR output).
 This produces a free running 1.5MHz oscillation at 5V
 
-* CH1: CD4070 first XOR output
-* CH2: CD4069 rectified output
+* CH2: CD4070 first XOR output
+* CH1: CD4069 rectified output
 
 ![scope-variant-a](./assets/scope-variant-a.gif?raw=true)
 
@@ -74,8 +74,8 @@ This produces a free running 1.5MHz oscillation at 5V
 The second quarter of the CD4070 runs a variant on the cribbed circuit without the capacitor to ground.
 This produces a free running 6.4MHz oscillation at 5V
 
-* CH1: CD4070 second XOR output
-* CH2: CD4069 rectified output
+* CH2: CD4070 second XOR output
+* CH1: CD4069 rectified output
 
 ![scope-variant-b](./assets/scope-variant-b.gif?raw=true)
 
@@ -84,8 +84,8 @@ This produces a free running 6.4MHz oscillation at 5V
 
 The third quarter of the CD4070 runs a variant with RC circuit between XOR inputs, with a variable capacitor (40-120pF) to provide some measure of frequency trim. This produces a free running oscillation that can be trimmed from around 7.02MHz to about 7.08MHz at 5V
 
-* CH1: CD4070 third XOR output
-* CH2: CD4069 rectified output
+* CH2: CD4070 third XOR output
+* CH1: CD4069 rectified output
 
 At minimum trim:
 
@@ -111,3 +111,4 @@ At maximum trim:
 * [CD4069 datasheet](http://www.futurlec.com/4000Series/CD4069.shtml)
 * [Square wave generator with CD4070](http://www.next.gr/circuits/Square-wave-generator-with-CD4070-l23572.html)
 * [Understanding Buffered and Unbuffered CD4xxxB Series Device Characteristics](http://www.ti.com/lit/an/scha004/scha004.pdf) - TI AppNote
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap297-cd4070-oscillator.html)
