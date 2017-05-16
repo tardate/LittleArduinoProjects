@@ -27,6 +27,7 @@ The [Golden Hind](https://en.wikipedia.org/wiki/Golden_Hind) was an English gall
 There is only so much detail you can pack into a 20-piece model no more than 10cm long,
 but I'm pretty impressed at the closeness of the model designer's approximation and the level of detail that has ben included.
 
+[![Golden_Hind_1581](https://upload.wikimedia.org/wikipedia/en/b/b8/Golden_Hind_1581.jpg)](https://en.wikipedia.org/wiki/File:Golden_Hind_1581.jpg#/media/File:Golden_Hind_1581.jpg)
 
 ### Construction
 
@@ -43,3 +44,4 @@ the construction quality of the kit is excellent - all pieces perfectly laser cu
 * [Kit Instructions](./assets/kit_instructions.pdf?raw=true)
 * [Golden Hind](https://en.wikipedia.org/wiki/Golden_Hind) - wikipedia
 * [Metal Earth reddit](https://www.reddit.com/r/metalearth/)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap298-the-golden-hind.html)
