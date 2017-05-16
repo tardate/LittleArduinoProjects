@@ -28,7 +28,7 @@ We get build status from a web server that supports a simple HTTP 1.0 CSV respon
 This is probably a proxy to the actual build server.
 See the
 [fretboard web](https://github.com/tardate/fretboard_web)
-repository for an example of a proxy that can handle CruiseControl XmlStatusReport format.
+repository for an example of a proxy that can handle Circle CI JSON API and CruiseControl XmlStatusReport response formats.
 
 The response looks like this:
 
