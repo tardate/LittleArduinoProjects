@@ -44,4 +44,5 @@ the construction quality of the kit is excellent - all pieces perfectly laser cu
 * [Kit Instructions](./assets/kit_instructions.pdf?raw=true)
 * [Golden Hind](https://en.wikipedia.org/wiki/Golden_Hind) - wikipedia
 * [Metal Earth reddit](https://www.reddit.com/r/metalearth/)
+* [No holes in modern laser cutting story](http://www.thefabricator.com/article/lasercutting/no-holes-in-modern-laser-cutting-story) - thefabricator.com
 * [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap298-the-golden-hind.html)
