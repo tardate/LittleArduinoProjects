@@ -240,3 +240,4 @@ LED 0xBA:  open
 ## Credits and References
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
 * [LEAP#299 TheMatrix](../TheMatrix)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap300-the-matrix-led-test.html)
