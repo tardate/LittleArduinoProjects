@@ -36,3 +36,4 @@ We could do this bit by bit, but in this case we can use the `shiftOut` function
 * Based on the [Arduino ShiftOut](http://arduino.cc/en/tutorial/ShiftOut) example
 * [Adafruit Eight LEDs and a Shift Register](https://learn.adafruit.com/adafruit-arduino-lesson-4-eight-leds/the-74hc595-shift-register) tutorial
 * [Arduino Tutorial #3 - Shift Registers (74HC595)](https://www.youtube.com/watch?v=bqfPZXEuyuc) video by EEEnthusiast
+* [Introduction to 74HC595 shift register – controlling 16 LEDs](https://protostack.com.au/2010/05/introduction-to-74hc595-shift-register-controlling-16-leds/) - protostack.com.au
