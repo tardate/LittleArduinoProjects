@@ -1099,6 +1099,13 @@
         "name": "Square Wave - Schmitt"
     }, 
     {
+        "description": "test the classic emitter-coupled Schmitt Trigger circuit design", 
+        "relative_path": "Electronics101/SchmittTrigger/BasicDiscrete", 
+        "id": "#317", 
+        "categories": "Schmitt, BJT", 
+        "name": "SchmittTrigger/BasicDiscrete"
+    }, 
+    {
         "description": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)", 
         "relative_path": "Electronics101/SCRLatch", 
         "id": "#172", 

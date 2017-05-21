@@ -1,5 +1,7 @@
-# 316 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout) - all about soldering and the Boldport Club QSOP breakout board.
+# 317 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) - test the classic emitter-coupled Schmitt Trigger circuit design.
+
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -299,6 +301,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
 | [#260 SaleaeLogic](./Equipment/SaleaeLogic)                                        | **Tools, Test Equipment, Logic Analyzer**  checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!) |
 | [#021 Schmitt Inverter](./Electronics101/SchmittInverter)                          | **74xx TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
+| [#317 SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) | **Schmitt, BJT**                test the classic emitter-coupled Schmitt Trigger circuit design |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
 | [#041 Shifty](./playground/Shifty)                                                 | **LED, 74xx, Arduino**          drive 8 LEDs with 3 pins using a 74HC595 shift register |
