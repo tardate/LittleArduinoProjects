@@ -1,7 +1,8 @@
-# 317 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) - test the classic emitter-coupled Schmitt Trigger circuit design.
+# 318 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Bistable](./Electronics101/555Timer/Bistable) - using the 555 timer as a bistable latch and button debouncer.
 
 
+Using the 555 timer as a bistable latch (debouncer).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -91,6 +92,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#262 BazzFuss](./Electronics101/GuitarEffects/BazzFuss)                           | **Guitar Effects, Audio**       the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
+| [#318 Bistable](./Electronics101/555Timer/Bistable)                                | **555 Timer**                   using the 555 timer as a bistable latch and button debouncer |
 | [#093 BJTCurrentSink](./Electronics101/BJTCurrentSink)                             | **BJT, Power**                  test a BJT constant current sink circuit |
 | [#094 BJTLongTailPair](./Electronics101/BJTLongTailPair)                           | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [#138 BJTMonostable](./Electronics101/BJTMonostable)                               | **BJT, RC**                     test a 2-transistor monostable multivibrator |
