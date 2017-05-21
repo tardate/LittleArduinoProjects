@@ -57,3 +57,4 @@ But as it is, it runs perfectly fast enough - I even needed a delay between each
 * [AS1130 datasheet and info](ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
 * [LEAP#299 TheMatrix](../TheMatrix)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap302-game-of-life-on-the-boldport-club-matrix.html)
