@@ -1,8 +1,6 @@
-# 318 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Bistable](./Electronics101/555Timer/Bistable) - using the 555 timer as a bistable latch and button debouncer.
+# 319 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DigitalLogicClock](./Electronics101/555Timer/DigitalLogicClock) - build a flexible, low-frequency digital logic clock module.
 
-
-Using the 555 timer as a bistable latch (debouncer).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -141,6 +139,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
+| [#319 DigitalLogicClock](./Electronics101/555Timer/DigitalLogicClock)              | **555 Timer, CMOS/TTL**         build a flexible, low-frequency digital logic clock module |
 | [#259 DigitalPots/M62429](./Electronics101/DigitalPots/M62429)                     | **Arduino, Digital Pot, M62429** control the M62429 dual channel volume control with an Arduino |
 | [#261 DigitalPots/MCP4017](./Electronics101/DigitalPots/MCP4017)                   | **Arduino, Digital Pot, MCP4017** control the MCP4017 single 7-Bit I²C digital potentiometer with an Arduino |
 | [#264 DigitalPots/MCP42010](./Electronics101/DigitalPots/MCP42010)                 | **Arduino, Digital Pot, MCP42010** control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardware SPI |
@@ -318,7 +317,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
 | [#117 SolenoidDIY](./Electronics101/SolenoidDIY)                                   | **Solenoid, Arduino**           build and test a basic electromechanical solenoid |
 | [#200 SolenoidMotor](./Kinetics/SolenoidMotor)                                     | **Solenoid**                    a single-cylinder mini-solenoid engine |
-| [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer to generate a square wave and an Arduino and processing to plot the output |
+| [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer as an astable oscillator to generate a square wave and an Arduino and processing to plot the output |
 | [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **74xx TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
 | [#061 SRLatch](./Electronics101/DigitalLogic/SRLatch)                              | **Logic Gates, BJT**            Set/Reset latch with BJTs |
@@ -354,7 +353,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#228 TransistorCurveTracer](./Electronics101/TransistorCurveTracer)               | **OpAmp, 555 Timer, Oscillators**  simple NPN transistor curve tracer using a Stairstep generator circuit |
 | [#083 TransistorTester](./Electronics101/TransistorTester)                         | **Arduino, BJT**                use an Arduino to test NPN and PNP BJTs |
 | [#205 TriacDimmer](./Electronics101/TriacDimmer)                                   | **Triac, Thyristor**            investigate the operation of triacs and build the basic dimmaer circuit |
-| [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer and RC integrator |
+| [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer astable oscillator and RC integrator |
 | [#113 TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
 | [#059 TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [#287 UltrasonicAlarm](./Electronics101/UltrasonicAlarm)                           | **555 Timer, Sensors, CMOS/TTL** build an ultrasonic motion alarm with the HC-SR04 module and discrete logic |

@@ -1,7 +1,7 @@
 {
     "id": "#016", 
     "name": "Square Wave - 555", 
-    "description": "using a 555 timer to generate a square wave and an Arduino and processing to plot the output", 
+    "description": "using a 555 timer as an astable oscillator to generate a square wave and an Arduino and processing to plot the output", 
     "categories": "555 Timer, Oscillators", 
     "relative_path": "Electronics101/555Timer/AstableOscillator"
 }

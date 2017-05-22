@@ -161,7 +161,7 @@
         "name": "AMTransmitter/555"
     }, 
     {
-        "description": "using a 555 timer to generate a square wave and an Arduino and processing to plot the output", 
+        "description": "using a 555 timer as an astable oscillator to generate a square wave and an Arduino and processing to plot the output", 
         "relative_path": "Electronics101/555Timer/AstableOscillator", 
         "id": "#016", 
         "categories": "555 Timer, Oscillators", 
@@ -180,6 +180,13 @@
         "id": "#229", 
         "categories": "555 Timer, CMOS", 
         "name": "Dice"
+    }, 
+    {
+        "description": "build a flexible, low-frequency digital logic clock module", 
+        "relative_path": "Electronics101/555Timer/DigitalLogicClock", 
+        "id": "#319", 
+        "categories": "555 Timer, CMOS/TTL", 
+        "name": "DigitalLogicClock"
     }, 
     {
         "description": "another two-tone doorbell using a 555 timer oscillator", 
@@ -245,7 +252,7 @@
         "name": "TouchSwitch/555"
     }, 
     {
-        "description": "generate a triangle wave with 555 timer and RC integrator", 
+        "description": "generate a triangle wave with 555 timer astable oscillator and RC integrator", 
         "relative_path": "Electronics101/555Timer/TriangleWaveGen", 
         "id": "#031", 
         "categories": "555 Timer, Oscillators", 
