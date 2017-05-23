@@ -2,13 +2,13 @@
 
 Build a flexible, low-frequency digital logic clock module.
 
-![Build](./assets/ClockModule_build.jpg?raw=true)
+![Build](./assets/DigitalLogicClock_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
 ## Notes
 
-This digital clock module was designed by Ben Eater as part of his 8-bit computer build.
+This digital clock module was [designed by Ben Eater](https://www.youtube.com/watch?v=SmQ5K7UQPMM) as part of his 8-bit computer build.
 It is also an interesting demonstration of the 555 timer in all its major modes of operation.
 
 The clock module features in summary:
