@@ -39,7 +39,7 @@ Hence the 16k capacity (2048 x 8 bits)
 
 #### Read Operation
 
-The AT28C16 is accessed like a Static RAM.
+The AT28C16 is accessed like static RAM.
 When CE and OE are low and WE is high, the data stored at the memory location determined by the address pins is asserted on the outputs.
 
 | Pin    | State                |
