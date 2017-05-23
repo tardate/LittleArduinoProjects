@@ -21,7 +21,9 @@ That's more than a humble Arduino Uno provides. Possibilities for handling that 
 * use shift registers to expand the bus. This is the technique that Ben Eater used.
 * use a port expander
 
-In this case, I'm going to use a single MCP23S17 16-bit port expander. That still means I'me short 6 pins, but I'll drive those directly from the Arduino. I could have used two port expanders to drive all I/O through them; perhaps I'll try that variation later.
+In this case, I'm going to use a single MCP23S17 16-bit port expander.
+That still means I'm short 6 pins, but I'll drive those directly from the Arduino. I could have used two port expanders to handle all the I/O -
+perhaps I'll try that variation later. See [LEAP#313](../../../../Electronics101/MCP23S17) for more on the MCP23S17.
 
 
 ### About the AT28C16
