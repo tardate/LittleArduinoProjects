@@ -2,6 +2,6 @@
     "id": "#080", 
     "name": "Led4Digit7Segment/DoubleShift", 
     "description": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
-    "categories": "7-Segment, 74xx, Arduino", 
+    "categories": "7-Segment, CMOS/TTL, Arduino", 
     "relative_path": "playground/Led4Digit7Segment/DoubleShift"
 }

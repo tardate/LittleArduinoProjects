@@ -294,13 +294,6 @@
         "name": "AMFMRadioKit"
     }, 
     {
-        "description": "an asynchronous 4-bit counter built with JK Flip-Flops", 
-        "relative_path": "Electronics101/AsyncJKCounter", 
-        "id": "#186", 
-        "categories": "74xx, Logic", 
-        "name": "AsyncJKCounter"
-    }, 
-    {
         "description": "test a general-purpose LM358 amplifier circuit", 
         "relative_path": "Electronics101/AudioAmps/GeneralPurpose358", 
         "id": "#241", 
@@ -553,6 +546,13 @@
         "name": "DarlingtonTouchSwitch"
     }, 
     {
+        "description": "an asynchronous 4-bit counter built with JK Flip-Flops", 
+        "relative_path": "Electronics101/DigitalLogic/AsyncJKCounter", 
+        "id": "#186", 
+        "categories": "CMOS/TTL, Digital Logic", 
+        "name": "AsyncJKCounter"
+    }, 
+    {
         "description": "Set/Reset latch with BJTs", 
         "relative_path": "Electronics101/DigitalLogic/SRLatch", 
         "id": "#061", 
@@ -570,14 +570,14 @@
         "description": "Set-Reset latch implemented with NOR gates", 
         "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates", 
         "id": "#077", 
-        "categories": "Logic Gates, 74xx", 
+        "categories": "Logic Gates, CMOS/TTL", 
         "name": "SRLatchWithNorGates"
     }, 
     {
         "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
         "relative_path": "Electronics101/DigitalLogic/XorWithNandGates", 
         "id": "#283", 
-        "categories": "Logic Gates, 74xx TTL", 
+        "categories": "Logic Gates, CMOS/TTL", 
         "name": "XorWithNandGates"
     }, 
     {
@@ -850,7 +850,7 @@
         "description": "simple pulse trigger using 74LS122 monostable with external timing configuration", 
         "relative_path": "Electronics101/Monostable122", 
         "id": "#075", 
-        "categories": "74xx TTL", 
+        "categories": "CMOS/TTL", 
         "name": "Monostable122"
     }, 
     {
@@ -871,14 +871,14 @@
         "description": "demo the 74LS02 Quad 2-input NOR gate with an Arduino", 
         "relative_path": "Electronics101/NOR7402", 
         "id": "#072", 
-        "categories": "74xx TTL, Arduino", 
+        "categories": "CMOS/TTL, Arduino", 
         "name": "NOR7402"
     }, 
     {
         "description": "test a low-speed square wave oscillator using NOR gates", 
         "relative_path": "Electronics101/NORGateOscillator", 
         "id": "#114", 
-        "categories": "74xx TTL, Oscillators, Arduino", 
+        "categories": "CMOS/TTL, Oscillators, Arduino", 
         "name": "NORGateOscillator"
     }, 
     {
@@ -1011,14 +1011,14 @@
         "description": "graph the basic operation of the 74LS75 4-bit bistable latch", 
         "relative_path": "Electronics101/QuadLatch", 
         "id": "#025", 
-        "categories": "74xx TTL", 
+        "categories": "CMOS/TTL", 
         "name": "Quad Latch"
     }, 
     {
         "description": "demo simple cascading NOR gate logic with the 74LS02 and an Arduino", 
         "relative_path": "Electronics101/QuadNOR", 
         "id": "#073", 
-        "categories": "74xx TTL, Arduino", 
+        "categories": "CMOS/TTL, Arduino", 
         "name": "QuadNOR"
     }, 
     {
@@ -1095,21 +1095,21 @@
         "description": "test an oscillator built with a 74LS14 Inverter chip", 
         "relative_path": "Electronics101/RingOscillator", 
         "id": "#144", 
-        "categories": "74xx TTL, Oscillators", 
+        "categories": "CMOS/TTL, Oscillators", 
         "name": "RingOscillator"
     }, 
     {
         "description": "graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs", 
         "relative_path": "Electronics101/SchmittInverter", 
         "id": "#021", 
-        "categories": "74xx TTL", 
+        "categories": "CMOS/TTL", 
         "name": "Schmitt Inverter"
     }, 
     {
         "description": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave", 
         "relative_path": "Electronics101/SchmittOscillator", 
         "id": "#022", 
-        "categories": "74xx TTL, Oscillators", 
+        "categories": "CMOS/TTL, Oscillators", 
         "name": "Square Wave - Schmitt"
     }, 
     {
@@ -1865,21 +1865,21 @@
         "description": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
         "relative_path": "playground/Led4Digit7Segment/DoubleShift", 
         "id": "#080", 
-        "categories": "7-Segment, 74xx, Arduino", 
+        "categories": "7-Segment, CMOS/TTL, Arduino", 
         "name": "Led4Digit7Segment/DoubleShift"
     }, 
     {
         "description": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
         "relative_path": "playground/Led4Digit7Segment/DoubleShiftWithFETs", 
         "id": "#081", 
-        "categories": "7-Segment, 74xx, Arduino", 
+        "categories": "7-Segment, CMOS/TTL, Arduino", 
         "name": "Led4Digit7Segment/DoubleShiftWithFETs"
     }, 
     {
         "description": "driving a 4-digit 7-segment display with a shift register and a few BJTs", 
         "relative_path": "playground/Led4Digit7Segment/SingleShift", 
         "id": "#078", 
-        "categories": "7-Segment, 74xx, Arduino", 
+        "categories": "7-Segment, CMOS/TTL, Arduino", 
         "name": "Led4Digit7Segment/SingleShift"
     }, 
     {
@@ -1900,7 +1900,7 @@
         "description": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic", 
         "relative_path": "playground/LED7Segment/CombinationalLogicDriver", 
         "id": "#308", 
-        "categories": "7-Segment, 74xx, Arduino", 
+        "categories": "7-Segment, CMOS/TTL, Arduino", 
         "name": "LED7Segment/CombinationalLogicDriver"
     }, 
     {
@@ -1914,21 +1914,21 @@
         "description": "test control of a 7-segment display via a 74HC595 shift register", 
         "relative_path": "playground/LED7Segment/ShiftDrive", 
         "id": "#177", 
-        "categories": "7-Segment, 74xx, Arduino", 
+        "categories": "7-Segment, CMOS/TTL, Arduino", 
         "name": "LED7Segment/ShiftDrive"
     }, 
     {
         "description": "a custom 7-segment display module PCB with 74HC595 shift register interface", 
         "relative_path": "playground/LED7Segment/ShiftDriveModule", 
         "id": "#178", 
-        "categories": "7-Segment, 74xx, Arduino, PCB", 
+        "categories": "7-Segment, CMOS/TTL, Arduino, PCB", 
         "name": "LED7Segment/ShiftDriveModule"
     }, 
     {
         "description": "using SPI to control a 7-segment display via a 74HC595 shift register", 
         "relative_path": "playground/LED7Segment/ShiftDriveSPI", 
         "id": "#189", 
-        "categories": "7-Segment, 74xx, Arduino, SPI", 
+        "categories": "7-Segment, CMOS/TTL, Arduino, SPI", 
         "name": "LED7Segment/ShiftDriveSPI"
     }, 
     {
@@ -1956,7 +1956,7 @@
         "description": "a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface", 
         "relative_path": "playground/LEDCubes/Mini4", 
         "id": "#173", 
-        "categories": "LED, 74xx, Arduino", 
+        "categories": "LED, CMOS/TTL, Arduino", 
         "name": "LEDCubes/Mini4"
     }, 
     {
@@ -1977,7 +1977,7 @@
         "description": "a custom 16 LED SMD PCB with 74HC595 shift register interface", 
         "relative_path": "playground/LEDx16Module", 
         "id": "#179", 
-        "categories": "74xx, SMD, Arduino", 
+        "categories": "CMOS/TTL, SMD, Arduino", 
         "name": "LEDx16Module"
     }, 
     {
@@ -1998,7 +1998,7 @@
         "description": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino", 
         "relative_path": "playground/MonostablePulseExtender", 
         "id": "#076", 
-        "categories": "74xx TTL, Arduino", 
+        "categories": "CMOS/TTL, Arduino", 
         "name": "MonostablePulseExtender"
     }, 
     {
@@ -2159,7 +2159,7 @@
         "description": "drive 8 LEDs with 3 pins using a 74HC595 shift register", 
         "relative_path": "playground/Shifty", 
         "id": "#041", 
-        "categories": "LED, 74xx, Arduino", 
+        "categories": "LED, CMOS/TTL, Arduino", 
         "name": "Shifty"
     }, 
     {

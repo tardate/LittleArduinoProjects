@@ -2,6 +2,6 @@
     "id": "#025", 
     "name": "Quad Latch", 
     "description": "graph the basic operation of the 74LS75 4-bit bistable latch", 
-    "categories": "74xx TTL", 
+    "categories": "CMOS/TTL", 
     "relative_path": "Electronics101/QuadLatch"
 }

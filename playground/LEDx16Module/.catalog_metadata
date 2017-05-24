@@ -2,6 +2,6 @@
     "id": "#179", 
     "name": "LEDx16Module", 
     "description": "a custom 16 LED SMD PCB with 74HC595 shift register interface", 
-    "categories": "74xx, SMD, Arduino", 
+    "categories": "CMOS/TTL, SMD, Arduino", 
     "relative_path": "playground/LEDx16Module"
 }

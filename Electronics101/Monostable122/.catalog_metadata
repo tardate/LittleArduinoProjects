@@ -2,6 +2,6 @@
     "id": "#075", 
     "name": "Monostable122", 
     "description": "simple pulse trigger using 74LS122 monostable with external timing configuration", 
-    "categories": "74xx TTL", 
+    "categories": "CMOS/TTL", 
     "relative_path": "Electronics101/Monostable122"
 }

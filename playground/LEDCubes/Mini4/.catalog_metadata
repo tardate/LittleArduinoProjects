@@ -2,6 +2,6 @@
     "id": "#173", 
     "name": "LEDCubes/Mini4", 
     "description": "a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface", 
-    "categories": "LED, 74xx, Arduino", 
+    "categories": "LED, CMOS/TTL, Arduino", 
     "relative_path": "playground/LEDCubes/Mini4"
 }

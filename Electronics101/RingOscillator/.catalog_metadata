@@ -2,6 +2,6 @@
     "id": "#144", 
     "name": "RingOscillator", 
     "description": "test an oscillator built with a 74LS14 Inverter chip", 
-    "categories": "74xx TTL, Oscillators", 
+    "categories": "CMOS/TTL, Oscillators", 
     "relative_path": "Electronics101/RingOscillator"
 }
