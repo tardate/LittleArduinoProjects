@@ -69,3 +69,4 @@ e.g.
 ## Credits and References
 * [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
 * [Tech Basics: Cables & Connectors](https://www.udemy.com/tech101-cables-and-connectors/) - udemy course
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap309-audio-connectors.html)
