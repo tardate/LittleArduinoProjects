@@ -1,5 +1,5 @@
 # 319 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DigitalLogicClock](./Electronics101/555Timer/DigitalLogicClock) - build a flexible, low-frequency digital logic clock module.
+> Latest addition:sparkles: [SyncJKCounter](./Electronics101/DigitalLogic/SyncJKCounter) - a synchronous 8-bit counter built with JK Flip-Flops.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -339,6 +339,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#243 Switches](./Electronics101/Switches)                                         | **Switches**                    Notes on miscellaneous mechanical switches used in electrical circuits |
 | [#244 Switches/DPDT](./Electronics101/Switches/DPDT)                               | **Switches**                    all about double-pole, double-thow (DPDT) toggle switches |
 | [#175 SwitchSoftLatch](./Electronics101/SwitchSoftLatch)                           | **MOSFET, BJT**                 test a soft-latching power switching circuit |
+| [#320 SyncJKCounter](./Electronics101/DigitalLogic/SyncJKCounter)                  | **CMOS/TTL, Digital Logic**     a synchronous 8-bit counter built with JK Flip-Flops |
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
 | [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer |

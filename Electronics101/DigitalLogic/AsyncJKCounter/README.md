@@ -1,4 +1,4 @@
-# #186 AsyncJKCounter
+# #186 DigitalLogic/AsyncJKCounter
 
 An asynchronous 4-bit counter built with JK Flip-Flops.
 

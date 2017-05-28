@@ -574,6 +574,13 @@
         "name": "SRLatchWithNorGates"
     }, 
     {
+        "description": "a synchronous 8-bit counter built with JK Flip-Flops", 
+        "relative_path": "Electronics101/DigitalLogic/SyncJKCounter", 
+        "id": "#320", 
+        "categories": "CMOS/TTL, Digital Logic", 
+        "name": "SyncJKCounter"
+    }, 
+    {
         "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
         "relative_path": "Electronics101/DigitalLogic/XorWithNandGates", 
         "id": "#283", 
