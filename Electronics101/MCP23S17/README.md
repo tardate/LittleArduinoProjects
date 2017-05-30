@@ -157,3 +157,4 @@ Second, a trace of the sequential write update. The register updates are still n
 * [MCP23S17 library](https://github.com/MajenkoLibraries/MCP23S17) - MajenkoLibraries - looks like an interesting library to try out
 * [MCP23S17 library](http://playground.arduino.cc/Main/MCP23S17) - n0mjs710 - another libary
 * [Arduino SPI](https://www.arduino.cc/en/reference/SPI)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap313-mcp23s17-port-expander.html)
