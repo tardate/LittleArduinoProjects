@@ -108,3 +108,4 @@ Here's an example session reading and writing selected data:
 * [LEAP#313 MCP23S17](../../../../Electronics101/MCP23S17) - using the MCP23S17 port expander
 * [Arduino Serial Reference](https://www.arduino.cc/en/Reference/Serial)
 * [AVR <stdio.h>: Standard IO facilities](http://www.nongnu.org/avr-libc/user-manual/group__avr__stdio.html)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap314-at28c-eeprom-programmer-with-port-expander.html)
