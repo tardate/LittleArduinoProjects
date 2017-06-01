@@ -121,3 +121,4 @@ Layout for an ugly-style build on some copper PCB stock with mainly SMD componen
 ## Credits and References
 * [MT3608 datasheet](https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf)
 * [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap315-mt3608-variable-boost-converter.html)
