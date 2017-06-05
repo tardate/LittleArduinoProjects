@@ -38,6 +38,17 @@ Some other projects that touch on soldering techniques:
 * [LEAP#258 Electronics101/ClapSwitchKit2](../../Electronics101/ClapSwitchKit2) - kit build which I used to experiment with "perfect solder dome" technique
 * [LEAP#171 Electronics101/SMDPracticeBoards](../../Electronics101/SMDPracticeBoards) - documenting a few other SMD practice boards that I've used
 
+## Soldering Tutorials
+
+There's some great tutorials on YouTube and around the net. Here are a few I've seen:
+
+* [Making beautiful solder points](https://www.youtube.com/watch?v=KXBbiXaq1ec) - boldport
+* [EEVblog #186 - Soldering Tutorial Part 3 - Surface Mount](https://www.youtube.com/watch?v=b9FC9fAlfQE)
+* [EEVblog #997 - How To Solder Surface Mount Components](https://www.youtube.com/watch?v=hoLf8gvvXXU)
+* [The Ben Heck Show - Surface Mount Soldering Tips and Tricks](https://www.youtube.com/watch?v=f0KZbhvKqS0)
+* [HowTo SMD Soldering](https://www.youtube.com/watch?v=z7Tu8NXu5UA)
+* [HowTo: Drag Soldering Demo](https://www.youtube.com/watch?v=wUyetZ5RtPs)
+* [sparkfun surface mount soldering tutorials](https://www.sparkfun.com/tutorials/category/2)
 
 ## Functional Soldering
 
@@ -157,5 +168,8 @@ a 63Sn/37Pb formulation, or if perhaps I just have some very poorly manufactured
 ## Credits and References
 * [QSOP and 0805 breakout and soldering practice board](http://www.boldport.club/shop/product/437246682) - in the Boldport Shop
 * [Surface-mount technology](https://en.wikipedia.org/wiki/Surface-mount_technology) - wikipedia
+* [List of integrated circuit package dimensions](https://en.wikipedia.org/wiki/List_of_integrated_circuit_package_dimensions) - wikipedia
+* [MELFs](http://en.wikipedia.org/wiki/MELF_electronic_components).
 * [LEAP#258 Electronics101/ClapSwitchKit2](../../Electronics101/ClapSwitchKit2) - kit build which I used to experiment with "perfect solder dome" technique
 * [LEAP#171 Electronics101/SMDPracticeBoards](../../Electronics101/SMDPracticeBoards) - a few more SMD practice boards
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap316-the-boldport-qsop-breakout.html)

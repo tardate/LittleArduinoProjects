@@ -43,16 +43,6 @@ To get started, there are some pretty cheap practice boards available, like this
 * [MELFs](http://en.wikipedia.org/wiki/MELF_electronic_components).
 
 
-### SMD Soldering Tutorials
-
-There's some great tutorials on YouTube and around the net. Here are a few I've seen:
-
-* [EEVblog #186 - Soldering Tutorial Part 3 - Surface Mount](https://www.youtube.com/watch?v=b9FC9fAlfQE)
-* [The Ben Heck Show - Surface Mount Soldering Tips and Tricks](https://www.youtube.com/watch?v=f0KZbhvKqS0)
-* [HowTo SMD Soldering](https://www.youtube.com/watch?v=z7Tu8NXu5UA)
-* [HowTo: Drag Soldering Demo](https://www.youtube.com/watch?v=wUyetZ5RtPs)
-* [sparkfun surface mount soldering tutorials](https://www.sparkfun.com/tutorials/category/2)
-
 ### SMD Practice Kit #1
 
 Obtained from [a seller on aliexpress](http://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) for under USD1 per board.
@@ -85,4 +75,3 @@ Here's a quick video of the test circuit in action:
 * [Kit #1 Practice Board](http://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) - example of a basic practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components
 * [Kit #2 Practice Board](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) - example of a pretty full-featured practice board
 * [SO16 SSOP16 TSSOP16 SOIC16 To DIP Adapter PCB Board Converter](http://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) - modules I used from an aliexpres seller to mount the SOP-8 chip
-
