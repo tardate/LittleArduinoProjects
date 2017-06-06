@@ -1,6 +1,6 @@
 # #317 SchmittTrigger/BasicDiscrete
 
-Test the classic emitter-coupled Schmitt Trigger circuit design.
+Exploring the classic emitter-coupled Schmitt Trigger circuit design.
 
 ![Build](./assets/BasicDiscrete_build.jpg?raw=true)
 
@@ -13,13 +13,13 @@ A Schmitt trigger is a comparator circuit with hysteresis such that:
 * the output swings high when the input rises above an upper threshold
 * the output swings low when the input rises above a lower threshold
 
-When upper threshold > lower threshold, the resulting hysteresis negates the inpact of noise or minor oscillations on the input signal.
+When upper threshold > lower threshold, the resulting hysteresis negates the impact of noise or minor oscillations on the input signal.
 
 Schmitt triggers are commonly built into the input pins of integrated circuits to provide more definitive switching.
 Stand-alone Schmitt triggers are often constructed from comparators, but the most basic Schmitt trigger can be implemented
 with discrete components. This is described in the Art of Electronics (Second Edition p232).
 
-This project tests the classic emitter-coupled Schmitt Trigger circuit design.
+This project explores the classic emitter-coupled Schmitt Trigger circuit design.
 
 ### Emitter-coupled Schmitt Trigger Operation
 
@@ -79,3 +79,4 @@ Arranged and put on a protoboard for final tests:
 * [Transistor Schmitt Trigger](http://howtomechatronics.com/how-it-works/electrical-engineering/transistor-schmitt-trigger/)
 * [Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - Second Edition p232
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap317-discrete-schmitt-trigger.html)
