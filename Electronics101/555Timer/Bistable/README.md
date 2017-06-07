@@ -13,7 +13,7 @@ Here I'm reproducing his [bistable latch circuit based on the 555 timer](https:/
 
 ## How it Works
 
-This circuit takes advante of the fact that the trigger and reset pins provide direct access to the SR latch within the 555 time that drives the output.
+This circuit takes advantage of the fact that the trigger and reset pins provide direct access to the SR latch within the 555 timer that drives the output.
 
 * The trigger pin provides a SET input when it rises above the 33% division of the 5V input - [1.67V](http://www.wolframalpha.com/input/?i=5V%2F3).
 * The reset pin provides an inverted (Active low) RESET input.
@@ -25,9 +25,10 @@ This will toggle between SET and RESET, with debouncing since multiple pulses wi
 
 ## Performance
 
-The switch throw is effectively debouned - I haven't been able to reproduce any oscillating signals yet.
+The switch throw is effectively debouned - and despite using it rudely,
+I haven't been able to reproduce any bouncing input signals yet.
 
-However when zoomed in very tightly on a rising edge, there is not a clean swing.
+However when zoomed in very tightly on a rising edge, there is not a very clean swing.
 This appears to be cross-over distortion on the 555 output.
 
 ![scope-trigger](./assets/scope-trigger.gif?raw=true)
@@ -43,3 +44,4 @@ This appears to be cross-over distortion on the 555 output.
 ## Credits and References
 * [Bistable 555 - 8-bit computer clock - part 3](https://www.youtube.com/watch?v=WCwJNnx36Rk) - Ben Eater
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap318-555-bistable-latch.html)
