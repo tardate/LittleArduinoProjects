@@ -9,13 +9,20 @@ Build and investigate a commercially available "electronic clock" kit
 
 I picked up a [AT89C2051 Electronic Clock](http://www.aliexpress.com/item/1Pcs-New-DIY-Kits-AT89C2051-Electronic-Clock-Suite-Electronic-Parts-Components/2045978940.html) for USD3.28, primarily to investigate how it works. There seems to be a flood of similar kits available from many sellers on aliexpress, ebay etc.
 
-TL/DR - it's an interesting parts kit, and relies on the programming of the AT89C2051 for all the clock functions. The microcontroller is supplied pre-flashed, but source code is not included.
+TL/DR - it's an interesting parts kit, and relies on the programming of the AT89C2051 for all the clock functions.
 The device works fine, provided sufficient power is attached (a 9V battery is fine).
+
+The microcontroller is supplied pre-flashed without source code -
+[however this may be original design and source code](http://www.instructables.com/id/How-to-make-a-digital-clock-kit-based-on-Atmel/).
 
 ### How it works
 
-The smarts of the clock are programmed in the Atmel AT89C2051 microcontroller. The code is not provided, but seems it would be relatively easy to re-engineer.
+The smarts of the clock are programmed in the Atmel AT89C2051 microcontroller.
 The speed of the processor is governed by the 12MHz external crystal that is stabilised by the two 30pF capacitors.
+
+The code is not provided, but seems it would be relatively easy to re-engineer.
+The [How to Make a Digital Clock Kit Based on Atmel](http://www.instructables.com/id/How-to-make-a-digital-clock-kit-based-on-Atmel/) instructable
+is possibly the original design and source code, although I haven't tested the code yet.
 
 Power is provided through the 78L05 5V regulator, with a standard set of high/low frequency filter capacitors.
 
@@ -132,3 +139,4 @@ Functions:
 * [S8550 Datasheet](http://www.unisonic.com.tw/datasheet/S8550.pdf)
 * [AT89C2051 Datasheet](http://www.futurlec.com/Atmel/AT89C2051.shtml)
 * [CAI3261BS Datasheet](http://datasheet.sparkgo.com.br/LD3361BS.pdf)
+* [How to Make a Digital Clock Kit Based on Atmel](http://www.instructables.com/id/How-to-make-a-digital-clock-kit-based-on-Atmel/) - possibly the original design and source code (thanks to @zoomx for the reference)
