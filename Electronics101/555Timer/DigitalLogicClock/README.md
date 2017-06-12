@@ -91,4 +91,4 @@ Protoboard build:
 * [Monostable 555 timer - 8-bit computer clock - part 2](https://www.youtube.com/watch?v=81BgFhm2vz8) - Ben Eater
 * [Bistable 555 - 8-bit computer clock - part 3](https://www.youtube.com/watch?v=WCwJNnx36Rk) - Ben Eater
 * [Clock logic - 8-bit computer clock - part 4](https://www.youtube.com/watch?v=SmQ5K7UQPMM) - Ben Eater
-
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap319-digital-logic-clock.html)
