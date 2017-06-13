@@ -21,6 +21,13 @@
         "name": "BoldportClub/cordwood/tuner"
     }, 
     {
+        "description": "the Cordwood Puzzle returns! Boldport Club Project #13, May 2017", 
+        "relative_path": "BoldportClub/cordwood-too", 
+        "id": "#321", 
+        "categories": "Boldport, PCB Design, LED", 
+        "name": "BoldportClub/cordwood-too"
+    }, 
+    {
         "description": "pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)", 
         "relative_path": "BoldportClub/Emergency", 
         "id": "#257", 
