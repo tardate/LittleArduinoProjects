@@ -1,6 +1,6 @@
 # #320 DigitalLogic/SyncJKCounter
 
-An synchronous 8-bit counter built with JK Flip-Flops.
+A synchronous 8-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
@@ -63,3 +63,4 @@ to set the input to the next JK flip-flop.
 * [BCD Counter Circuit](http://www.electronics-tutorials.ws/counter/bcd-counter-circuit.html)
 * [Synchronous Counters - Final Report](https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cwl3/report.html)
 * [Digital Counters](http://www.learnabout-electronics.org/Digital/dig56.php)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap320-synchronous-jk-counter.html)
