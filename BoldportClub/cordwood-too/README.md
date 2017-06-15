@@ -65,3 +65,4 @@ With it's twin, the [original Cordwood](../cordwood)..
 * [10mm yellow LED, Kingbright L-813YD data](http://uk.farnell.com/1142474)
 * [10mm green LED, Kingbright L-813GD data](http://uk.farnell.com/1142462)
 * [LEAP#269 cordwood](../cordwood) - the original Cordwood project
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap321-boldportclub-cordwood-too.html)
