@@ -1,5 +1,5 @@
-# 321 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/cordwood-too](./BoldportClub/cordwood-too) - The Cordwood Puzzle returns! Boldport Club Project #13, May 2017
+# 322 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/cordwood-too/FidgetCube](./BoldportClub/cordwood-too/FidgetCube) - making a Fidget Cube controller for the Boldport Cordwood Too
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -102,6 +102,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
 | [#271 BoldportClub/cordwood/tuner](./BoldportClub/cordwood/tuner)                  | **Boldport, Cordwood, Arduino, Audio** use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp |
 | [#321 BoldportClub/cordwood-too](./BoldportClub/cordwood-too)                      | **Boldport, PCB Design, LED**   the Cordwood Puzzle returns! Boldport Club Project #13, May 2017 |
+| [#322 BoldportClub/cordwood-too/FidgetCube](./BoldportClub/cordwood-too/FidgetCube) | **Boldport, Sensors, LED**     making a Fidget Cube controller for the Boldport Cordwood Too |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
 | [#311 BoldportClub/Juice](./BoldportClub/Juice)                                    | **Boldport, PCB Design, Power** building the Boldport Juice battery replacement kit (Project #12) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
