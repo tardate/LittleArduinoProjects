@@ -10,10 +10,10 @@ Here's a quick video showing it in action..
 
 ## Notes
 
-A colleague gave us [Fidget Cubes](https://thefidgetcube.co/), I think mainly to keep idle hands from causing too much mayhem in the office.
+A colleague gave us all [Fidget Cubes](https://thefidgetcube.co/), I think mainly to keep idle hands from causing too much mayhem in the office.
 
-After building [Boldport Club Cordwood Too](./..), I was trying to think of innovative controllers for it, and started wondering if the Fidget Cube
-could be made to actually do anything.
+After building [Boldport Club Cordwood Too](./..), I was trying to think of interesting controls for it, and started wondering if the Fidget Cube
+could be converted into a workable controller.
 
 Answer is: Yes! It was a bit finnecky, but here's what I have so far:
 
@@ -166,4 +166,5 @@ Power and Cordwood pins terminate on a small strip of protoboard:
 * [LEAP#321 Cordwood Too](./..)
 * [Zener Diode tutorial](http://www.electronics-tutorials.ws/diode/diode_7.html)
 * [1N4733 datasheet](http://www.futurlec.com/Diodes/1N4733.shtml)
-* [4*4*1.5mm SMD push buttons](https://www.aliexpress.com/item/Free-shipping-100PCS-4-4-1-5mm-4x4x1-5mm-SMD-push-button-switch-microswitch-Tact-Switch/836256964.html)
+* [4 x 4 x 1.5mm SMD push buttons](https://www.aliexpress.com/item/Free-shipping-100PCS-4-4-1-5mm-4x4x1-5mm-SMD-push-button-switch-microswitch-Tact-Switch/836256964.html)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap322-fidget-cube-cordwood-controller.html)
