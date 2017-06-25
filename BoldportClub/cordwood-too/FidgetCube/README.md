@@ -15,7 +15,7 @@ A colleague gave us all [Fidget Cubes](https://thefidgetcube.co/), I think mainl
 After building [Boldport Club Cordwood Too](./..), I was trying to think of interesting controls for it, and started wondering if the Fidget Cube
 could be converted into a workable controller.
 
-Answer is: Yes! It was a bit finnecky, but here's what I have so far:
+Answer is: Yes! It was a bit finicky, but here's what I have so far:
 
 * the toggle switch on the Fidget Cube is also the main power switch for the Cordwood
 * the cube contains a simple 5.1V zener dropper so everything can be powered by a convenient 9V battery
@@ -30,7 +30,7 @@ Answer is: Yes! It was a bit finnecky, but here's what I have so far:
 First step was of course to find out what was inside the Fidget Cube to see if was suitable for re-purposing,
 and whether there was even enough room inside to do anything useful.
 
-The most unexpected discovery was the neat use of neodyium magnets, which have replaced more traditional mechanisms
+The most unexpected discovery was the neat use of neodymium magnets, which have replaced more traditional mechanisms
 with simple machines that give a great tactile experience.
 
 Here's a quick guide to what I found inside the cube..
@@ -168,3 +168,4 @@ Power and Cordwood pins terminate on a small strip of protoboard:
 * [1N4733 datasheet](http://www.futurlec.com/Diodes/1N4733.shtml)
 * [4 x 4 x 1.5mm SMD push buttons](https://www.aliexpress.com/item/Free-shipping-100PCS-4-4-1-5mm-4x4x1-5mm-SMD-push-button-switch-microswitch-Tact-Switch/836256964.html)
 * [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap322-fidget-cube-cordwood-controller.html)
+* [..as posted on hackady.io](https://hackaday.io/project/25626-fidgetcube-cordwood-controller)
