@@ -1,5 +1,5 @@
-# 322 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/cordwood-too/FidgetCube](./BoldportClub/cordwood-too/FidgetCube) - making a Fidget Cube controller for the Boldport Cordwood Too
+# 323 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/stringy](./BoldportClub/stringy) - building and playing (mainly playing) the Boldport Club Stringy (Project #14).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -109,6 +109,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |
+| [#323 BoldportClub/stringy](./BoldportClub/stringy)                                | **Boldport, PIC, Audio**        building and playing (mainly playing) the Boldport Club Stringy (Project #14) |
 | [#285 BoldportClub/tap](./BoldportClub/tap)                                        | **Boldport, PCB Design, CMOS/TTL** Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available! |
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
 | [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |

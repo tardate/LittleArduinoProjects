@@ -84,6 +84,13 @@
         "name": "SolarPendulum"
     }, 
     {
+        "description": "building and playing (mainly playing) the Boldport Club Stringy (Project #14)", 
+        "relative_path": "BoldportClub/stringy", 
+        "id": "#323", 
+        "categories": "Boldport, PIC, Audio", 
+        "name": "BoldportClub/stringy"
+    }, 
+    {
         "description": "Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available!", 
         "relative_path": "BoldportClub/tap", 
         "id": "#285", 
