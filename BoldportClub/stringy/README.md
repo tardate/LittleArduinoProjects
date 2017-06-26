@@ -11,12 +11,12 @@ Here's a quick video showing it in action..
 
 ## Notes
 
-Stringy synthesizes guitar sounds on a PIC microcontroller using MadLab's implementation of the Karplus–Strong string plucking algorithm.
+Stringy synthesizes guitar sounds on a PIC microcontroller using MadLab's implementation of the
+[Karplus–Strong](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis)
+string plucking algorithm.
 It can play notes over five octaves.
 
-Stringy is a remix of MadLab's 'Funky guitar' who also fully implemented the PIC's firmware.
-
-The code is open source, so I think next up I'll attempt to compile and upload.
+Stringy is a remix of MadLab's 'Funky guitar'. The code is open source, so I think next up I'll attempt to compile and upload.
 
 But for now, I'm too distracted just playing tunes;-)
 
@@ -62,3 +62,5 @@ But for now, I'm too distracted just playing tunes;-)
 * [stringy](http://community.boldport.club/projects/p14-stringy/) - on the community site
 * [stringy software](https://github.com/boldport/stringy/tree/master/software)
 * [MadLab's 'Funky guitar'](http://www.madlab.org/kits/guitar.html)
+* [Karplus–Strong](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap323-boldport-club-stringy.html)
