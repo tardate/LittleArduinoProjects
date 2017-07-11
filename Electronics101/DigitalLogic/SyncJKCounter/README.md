@@ -4,7 +4,7 @@ A synchronous 8-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
-[![SynchJKCounter](http://img.youtube.com/vi/4oMr_x22kUU/0.jpg)](http://www.youtube.com/watch?v=4oMr_x22kUU)
+[![SynchJKCounter](http://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](http://www.youtube.com/watch?v=HGunGdTaNFQ)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -50,6 +50,18 @@ to set the input to the next JK flip-flop.
 ![Breadboard](./assets/SyncJKCounter_bb.jpg?raw=true)
 
 ![Schematic](./assets/SyncJKCounter_schematic.jpg?raw=true)
+
+Breadboard build:
+
+![Build](./assets/SyncJKCounter_bb_build.jpg?raw=true)
+
+Breadboard test:
+
+[![SynchJKCounter](http://img.youtube.com/vi/4oMr_x22kUU/0.jpg)](http://www.youtube.com/watch?v=4oMr_x22kUU)
+
+Protoboard build:
+
+![Build](./assets/SyncJKCounter_protoboard_layout.jpg?raw=true)
 
 ![Build](./assets/SyncJKCounter_build.jpg?raw=true)
 
