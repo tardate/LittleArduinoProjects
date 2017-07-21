@@ -126,3 +126,4 @@ The design appears to breakdown into these main subsystems:
 * [DMN63D8LDW datahseet](https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf) - dual n-channel MOSFET
 * [Qt Creator](https://www.qt.io/ide/)
 * [KiCad](http://kicad-pcb.org/)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/07/leap324-espotek-labrador.html)
