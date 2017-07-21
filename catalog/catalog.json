@@ -1414,6 +1414,13 @@
         "name": "FY3200S"
     }, 
     {
+        "description": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software", 
+        "relative_path": "Equipment/Labrador", 
+        "id": "#324", 
+        "categories": "Tools", 
+        "name": "Labrador"
+    }, 
+    {
         "description": "unboxing and first tests of a Hantek MSO5074FG oscilloscope", 
         "relative_path": "Equipment/MSO5074FG_unboxing", 
         "id": "#156", 

@@ -1,6 +1,5 @@
-# 323 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/stringy](./BoldportClub/stringy) - building and playing (mainly playing) the Boldport Club Stringy (Project #14).
-
+# 324 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Labrador](./Equipment/Labrador) - first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -189,6 +188,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#305 KeyboardMatrixModule/LedControl](./playground/KeyboardMatrixModule/LedControl)             | **Arduino, LED**         demo controlling the LEDs on a simple pushbutton/LED matrix module |
 | [#306 KeyboardMatrixModule/SwitchInterrupts](./playground/KeyboardMatrixModule/SwitchInterrupts) | **Arduino, Human Input** demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library |
 | [#227 KnightRider](./Electronics101/555Timer/KnightRider)                          | **555 Timer, CMOS, LED**        the familiar "Knight-Rider" LED circuit using a 555 and 4017 |
+| [#324 Labrador](./Equipment/Labrador)                                              | **Tools**                       first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
 | [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |

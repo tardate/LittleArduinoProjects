@@ -51,7 +51,7 @@ The amplifier itself is designed to teach simple tone and distortion circuitry.
 
 Hardware and other parts:
 
-*￼DIP8 IC socket (for the TL072)
+* DIP8 IC socket (for the TL072)
 * SPDT power switch
 * 2.1mm power jack
 * 12V DC power supply
