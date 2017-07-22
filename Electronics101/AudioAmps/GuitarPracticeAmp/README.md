@@ -68,6 +68,7 @@ Some reasonable dimensions:
 
 Styrofoam board can be used for a quick build, but a wooden case will sound slightly better.
 
+I've mounted mine in a wooden box of about 2700 cm^3 volume, with a removable rear panel so I can experiment with tone.
 
 ### Performance
 
@@ -87,7 +88,7 @@ Sample oscilloscope trace:
 
 ![GuitarPracticeAmp_protoboard_layout](./assets/GuitarPracticeAmp_protoboard_layout.jpg?raw=true)
 
-![Build](./assets/GuitarPracticeAmp_build.jpg?raw=true)
+![GuitarPracticeAmp_protoboard_build](./assets/GuitarPracticeAmp_protoboard_build.jpg?raw=true)
 
 ## Credits and References
 * [Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics](https://www.coursera.org/learn/audio-engineering)
