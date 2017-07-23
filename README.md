@@ -1,8 +1,6 @@
 # 325 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [BoldportClub/spoolt](./BoldportClub/spoolt) - pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
 
-[#325 BoldportClub/spoolt](./BoldportClub/spoolt) - pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
-
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like

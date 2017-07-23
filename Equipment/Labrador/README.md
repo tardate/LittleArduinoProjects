@@ -78,11 +78,27 @@ I also haven't put the power supply under any load. According to specs it should
 
 ### Multimeter
 
-Not tseted this yet..
+The oscilloscope channels are used to support multimeter functions.
+
+#### Measuring Voltage
+
+The load is connected between Oscilloscope CH1 pin 1 and Oscilloscope CH2 pin 1. Few things to note:
+
+* positive voltage is measured as CH2 with respect to CH1.
+* Must disable both oscilloscope channels in the software before the multimeter mode can be enabled
+
+For a quick test, I'm measuring the PSU output with the voltmeter:
+
+![test_voltmeter_setup](./assets/test_voltmeter_setup.jpg?raw=true)
+
+With the PSU dialed into 6V, the voltmeter measures 6.4V. This actually agrees with my standalone voltmeter,
+and seems to indicate the PSU output regulation is pretty poor (at least when unloaded).
+
+![test_voltmeter](./assets/test_voltmeter.png?raw=true)
 
 ### Logic Analyxer
 
-Not tseted this yet..
+Not tested this yet..
 
 ## Quick Look: Software
 
@@ -116,7 +132,15 @@ The design appears to breakdown into these main subsystems:
 
 ## Quick Look: PCB
 
+The batch 1 backer edition of the board is a nice compact board. With a slight bend on the PSU pins, it can even fit quite nicely on a standard MB105 breadboard.
+
+Here's a 3D render of the board in kicad:
+
 ![Labrador_pcb_3d](./assets/Labrador_pcb_3d.png?raw=true)
+
+### Digital Out
+
+The board includes pinouts for 4 GPIO ports (PE0-3). However it appears these are not given any specific fucntion in the current AVR code.
 
 ## Credits and References
 * [EspoTek Labrador](https://www.crowdsupply.com/espotek/labrador) - crowdsupply
