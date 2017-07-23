@@ -35,9 +35,10 @@ I discovered an arrangement for adding a scattering of SMD 0805 LEDs and an NPN 
 * turns on when you pull solder from the dispenser (the solder makes contact with the touch-enabled part of the PCB and you provide the potential)
 * turns on if you touch the front panel
 
-I added a clear varnish (actually glue) to the non-touch parts of the PCB on the front panel so you can't short the circuit.
 
-I secreted the NPN transistors behind
+I secreted the NPN transistors behind the front panel, using traces on the top and bottom of the panel for all the circuit connections.
+A clear varnish (actually glue) to the non-touch parts of the PCB on the front panel prevents any shorts.
+
 ![spoolt_circuit_detail](./assets/spoolt_circuit_detail.jpg?raw=true)
 
 ## Construction
@@ -45,8 +46,8 @@ I secreted the NPN transistors behind
 ![spoolt_parts](./assets/spoolt_parts.jpg?raw=true)
 
 Here's the circuit and layout of the simple Darlington pair touch-switch enabled LEDs.
-With a 3V supply and red LEDs with a forward votage of probably 2.1V, I've dispensed with any current limiting resistors as unnecessary.
-I added 10 LEDs in parallel.
+With a 3V supply and red LEDs with a forward voltage of probably 2.1V, I've dispensed with any current limiting resistors as unnecessary.
+There are 10 LEDs in parallel, although there's actually space for more.
 
 ![Breadboard](./assets/spoolt_bb.jpg?raw=true)
 
