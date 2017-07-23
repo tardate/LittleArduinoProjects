@@ -1,5 +1,8 @@
-# 324 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Labrador](./Equipment/Labrador) - first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software.
+# 325 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/spoolt](./BoldportClub/spoolt) - pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
+
+[#325 BoldportClub/spoolt](./BoldportClub/spoolt) - pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -108,6 +111,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |
+| [#325 BoldportClub/spoolt](./BoldportClub/spoolt)                                  | **Boldport, Soldering**         pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017) |
 | [#323 BoldportClub/stringy](./BoldportClub/stringy)                                | **Boldport, PIC, Audio**        building and playing (mainly playing) the Boldport Club Stringy (Project #14) |
 | [#285 BoldportClub/tap](./BoldportClub/tap)                                        | **Boldport, PCB Design, CMOS/TTL** Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available! |
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |

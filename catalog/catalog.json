@@ -84,6 +84,13 @@
         "name": "SolarPendulum"
     }, 
     {
+        "description": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)", 
+        "relative_path": "BoldportClub/spoolt", 
+        "id": "#325", 
+        "categories": "Boldport, Soldering", 
+        "name": "BoldportClub/spoolt"
+    }, 
+    {
         "description": "building and playing (mainly playing) the Boldport Club Stringy (Project #14)", 
         "relative_path": "BoldportClub/stringy", 
         "id": "#323", 
