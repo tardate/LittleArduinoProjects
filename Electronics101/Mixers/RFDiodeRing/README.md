@@ -64,6 +64,8 @@ I'm using 1N5711 small signal schottky diodes (as did w2aew), which are well sui
 * high breakdown, low turn-on voltage and ultrafast switching
 * primarly intended for high level UHF/VHF detection and pulse application with broad dynamic range
 
+For the transformers, I'm using 68-26 iron ferrite toroids with 30AWG solid wire (10 turns per winding).
+
 ![Schematic](./assets/RFDiodeRing_schematic.jpg?raw=true)
 
 ![RFDiodeRing_layout](./assets/RFDiodeRing_layout.jpg?raw=true)
