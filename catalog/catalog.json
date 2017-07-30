@@ -840,6 +840,20 @@
         "name": "MinimalLCOscillator"
     }, 
     {
+        "description": "all about frequency mixers", 
+        "relative_path": "Electronics101/Mixers", 
+        "id": "#326", 
+        "categories": "RF, Mixers", 
+        "name": "Mixers"
+    }, 
+    {
+        "description": "an RF diode ring double-balanced mixer", 
+        "relative_path": "Electronics101/Mixers/RFDiodeRing", 
+        "id": "#327", 
+        "categories": "RF, Mixers", 
+        "name": "Mixers/RFDiodeRing"
+    }, 
+    {
         "description": "an LM741-style OpAmp built with discrete components", 
         "relative_path": "Electronics101/ML741", 
         "id": "#150", 

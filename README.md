@@ -1,6 +1,5 @@
-# 325 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/spoolt](./BoldportClub/spoolt) - pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
-
+# 327 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing) - an RF diode ring double-balanced mixer.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -230,6 +229,8 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [#252 MessageWaiting](./Electronics101/555Timer/MessageWaiting)                    | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction |
 | [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
+| [#326 Mixers](./Electronics101/Mixers)                                             | **RF, Mixers**                  all about frequency mixers |
+| [#327 Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing)                     | **RF, Mixers**                  an RF diode ring double-balanced mixer |
 | [#150 ML741](./Electronics101/ML741)                                               | **OpAmp**                       an LM741-style OpAmp built with discrete components |
 | [#151 ML741/Comparator](./Electronics101/ML741/Comparator)                         | **OpAmp**                       test a comparator circuit with the ML741 discrete component opamp |
 | [#158 ML741/Inverter](./Electronics101/ML741/Inverter)                             | **OpAmp**                       test an inverter circuit using the ML741 discrete component opamp |
