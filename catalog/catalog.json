@@ -847,7 +847,7 @@
         "name": "Mixers"
     }, 
     {
-        "description": "an RF diode ring double-balanced mixer", 
+        "description": "a diode ring double-balanced frequency mixer", 
         "relative_path": "Electronics101/Mixers/RFDiodeRing", 
         "id": "#327", 
         "categories": "RF, Mixers", 
