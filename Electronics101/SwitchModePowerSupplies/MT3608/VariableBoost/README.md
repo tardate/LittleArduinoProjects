@@ -2,7 +2,7 @@
 
 Testing the canonical variable boost circuit using the MT3608 High Efficiency Step Up Converter.
 
-![Build](./assets/Boost12V_build.jpg?raw=true)
+![Build](./assets/VariableBoost_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
