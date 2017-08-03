@@ -85,6 +85,6 @@ In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu
 
 ## Credits and References
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [LittleArduinoProjects AstableOscillator](../AstableOscillator) - the basic 555 timer astable circuit
+* [LEAP#016 AstableOscillator](../AstableOscillator) - the basic 555 timer astable circuit
 * [Visual 555 Calculator](http://visual555.tardate.com)
 

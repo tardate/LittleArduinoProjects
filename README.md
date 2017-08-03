@@ -1,5 +1,6 @@
-# 327 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing) - a diode ring double-balanced frequency mixer.
+# 328 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [VoltageControlledOscillator/555](./Electronics101/555Timer/VoltageControlledOscillator) - a voltage-controlled oscillator (VCO) using the 555 timer.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -373,6 +374,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#163 VariableSawtoothGenerator](./Electronics101/VariableSawtoothGenerator)       | **OpAmp, Oscillators**          test a variable-geometry, fixed-amplitude sawtooth wave generator circuit |
 | [#125 VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
+| [#328 VoltageControlledOscillator/555](./Electronics101/555Timer/VoltageControlledOscillator) | **Oscillators, VCO, 555 Timer** a voltage-controlled oscillator (VCO) using the 555 timer |
 | [#147 VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
 | [#167 VoltageSensorModule](./playground/VoltageSensorModule)                       | **Sensors, Arduino**            test a 25V voltage sensor module with display on a 5110 LCD |
 | [#289 VoltmeterAmmeterModule](./Electronics101/VoltmeterAmmeterModule)             | **Sensors**                     test and calibrate a DC Voltmeter/Ammeter panel module |

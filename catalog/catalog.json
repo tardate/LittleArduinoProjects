@@ -301,6 +301,13 @@
         "name": "VariableDutyCycle"
     }, 
     {
+        "description": "a voltage-controlled oscillator (VCO) using the 555 timer", 
+        "relative_path": "Electronics101/555Timer/VoltageControlledOscillator", 
+        "id": "#328", 
+        "categories": "Oscillators, VCO, 555 Timer", 
+        "name": "VoltageControlledOscillator/555"
+    }, 
+    {
         "description": "test a voltage-doubling charge pump circuit based on a 555 timer", 
         "relative_path": "Electronics101/555Timer/VoltageDoublerChargePump", 
         "id": "#147", 
