@@ -126,4 +126,18 @@ And then connectors etc depending on the physical housing.
 
 ## References
 * [fretboard.tardate.com](http://fretboard.tardate.com) - vanity site for the project
+* [The GitHub Stoplight](http://urbanhonking.com/ideasfordozens/2010/05/19/the_github_stoplight/)
+* [Monitoring Your Continuous Integration Server with Traffic Lights and an Arduino](http://isotope11.com/blog/monitoring-your-continuous-integration-server-with-traffic-lights-and-an-arduino)
+* [Operation Stoplight: Jenkins + Arduino Build Status Notification](https://www.helpshift.com/blog/operation-stoplight-jenkins-arduino-build-status-notification/)
+* [adafruit digital-led-strip wiring](https://learn.adafruit.com/digital-led-strip/wiring)
+* [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+* [Arduino and WS2812 LEDs](http://www.tweaking4all.com/hardware/arduino/arduino-ws2812-led/)
+* [Bit banging step-by-step: Arduino control of WS2811, WS2812, and WS2812B RGB LEDs](http://www.instructables.com/id/Bitbanging-step-by-step-Arduino-control-of-WS2811-/)
+* [Digital Addressable Led Strip & Arduino](http://interface.khm.de/index.php/lab-log/digital-addressable-led-strip-arduino/) - code for simple example
+* [Driving a WS2811 RGB LED Strip with an Arduino](http://erroraccessdenied.com/node/1707)
+* [FastLED Animation Library](http://fastled.io/)
+* [FastSPI LED Effects](http://funkboxing.com/wordpress/?p=1366) - some custom code for driving the ws2811
+* [thread on connecting datalines to LED array](http://forum.espruino.com/conversations/699/)
+* [Use a $1 ATTiny to drive addressable RGB LEDs](http://www.instructables.com/id/Use-a-1-ATTiny-to-drive-addressable-RGB-LEDs/)
+* [WS2811 Digital RGB LED](http://wiki.hacdc.org/index.php/WS2811_Digital_RGB_LED) - good data sheet and tips resource - addressable LEDs
 * [..as mentioned on my blog](http://blog.tardate.com/2015/02/the-fretboard-multi-project-build.html)

@@ -50,4 +50,5 @@ NB: in the picture, digital pin 9 (chip pin 15) is wired to a LED for a test sck
 * [Building an Arduino on a Breadboard](http://www.arduino.cc/en/Main/Standalone)
 * [Using an Arduino as an AVR ISP ](http://www.arduino.cc/en/Tutorial/ArduinoISP)
 * [From Arduino to a Microcontroller on a Breadboard](http://www.arduino.cc/en/Tutorial/ArduinoToBreadboard)
+* [AVR Programming](http://hackaday.com/2010/10/23/avr-programming-introduction/) - great little guide to avr ISP
 * [1-Day Project: Build Your Own Arduino Uno for $5](https://www.youtube.com/watch?v=sNIMCdVOHOM)

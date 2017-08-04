@@ -1,5 +1,11 @@
 # Arduino Notes
 
+## Prime Links
+
+* [Arduino](https://www.arduino.cc/) - official home page
+* [Arduino Playground](http://playground.arduino.cc/)
+* [Arduino Source](https://github.com/arduino/Arduino/) - GitHub
+
 ## Timers and Pins
 
 * Timer0 - Used for millis and delay; also analogWrite on pins 5 and 6

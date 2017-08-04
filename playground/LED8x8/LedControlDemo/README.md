@@ -30,4 +30,4 @@ See the [MaxRawDemo](../MaxRawDemo) project for details of the hardware and setu
 * [MAX7219 datasheet](http://www.futurlec.com/Maxim/MAX7219.shtml)
 * [1088AS datasheet](http://megtestesules.info/hobbielektronika/adatlapok/LED8x8_1088AS.pdf)
 * [MAX72XX Hardware](http://playground.arduino.cc/Main/MAX72XXHardware) page on the Arduino playground
-
+* [Lab 15: scrolling test message on an LED dot-matrix display](http://embedded-lab.com/blog/lab-15-scrolling-text-message-on-an-led-dot-matrix-display/)

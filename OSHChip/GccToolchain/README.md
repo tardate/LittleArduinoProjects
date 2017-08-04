@@ -180,4 +180,5 @@ on the OSChip forum which points to the same issue.. a good place to start..
 * [arm-gcc hex file header question](http://www.oshchip.com/forum/viewtopic.php?f=7&p=395#p395)
 * [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX) - wikipedia
 * [objcopy](https://sourceware.org/binutils/docs/binutils/objcopy.html)
+* [Programming Arduino Uno in pure C](https://balau82.wordpress.com/2011/03/29/programming-arduino-uno-in-pure-c/)
 * [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects214-oshchip-gcc.html)

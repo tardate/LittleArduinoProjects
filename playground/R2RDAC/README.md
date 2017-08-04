@@ -91,4 +91,4 @@ Here's the component layout design:
 * [74HC595 datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
 * [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
 * [List of periodic functions](https://en.wikipedia.org/wiki/List_of_periodic_functions) - wikipedia summary of various wave forms
-
+* [Arduino Audio Output](http://www.instructables.com/id/Arduino-Audio-Output/?ALLSTEPS) - R2 Ladder implementation
