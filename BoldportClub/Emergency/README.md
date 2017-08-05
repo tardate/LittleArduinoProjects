@@ -90,5 +90,6 @@ Power on, and it's blinking! Why? Because!
 * [Emergency](http://community.boldport.club/projects/p02-emergency/) - club community site, packed with resources for the project
 * [A Negative Differential Resistance Oscillator with a Negistor](http://jlnlabs.online.fr/cnr/negosc.htm)
 * [Simplest LED Flasher Circuit](http://www.cappels.org/dproj/simplest_LED_flasher/Simplest_LED_Flasher_Circuit.html)
+* [World's Simplest Single Transistor Oscillator - BJT with Negative Resistance](https://www.youtube.com/watch?v=rpGOKGrcpAk&t=335s)
 * [Leo Esaki](https://en.wikipedia.org/wiki/Leo_Esaki) - wikipedia
 * [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap257-blinking-emergency.html)
