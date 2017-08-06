@@ -33,6 +33,7 @@ The [DC connector wikipedia](https://en.wikipedia.org/wiki/DC_connector) page gi
 
 The 2.1mm barrel connector is very common for DC power supplies (wall-warts), but perhaps overtaken these days by the ubiquitous USB.
 The "2.1mm" refers to the diameter of the centre pin, although there are also 2.5mm versions.
+Sometimes these are referred to as "5.5mm" connectors, which refers to the outer diameter or the plug.
 
 ![cylindrical](./assets/cylindrical.jpg?raw=true)
 
@@ -74,3 +75,4 @@ Connections are reversed for a centre-negative configuration.
 
 ## Credits and References
 * [DC connector](https://en.wikipedia.org/wiki/DC_connector) - wikipedia
+* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap329-on-dc-power-connectors.html)

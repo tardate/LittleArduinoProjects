@@ -987,6 +987,13 @@
         "name": "PovShakeStickKit"
     }, 
     {
+        "description": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors", 
+        "relative_path": "Electronics101/Power/Any2AnyPowerPack", 
+        "id": "#330", 
+        "categories": "Power", 
+        "name": "Power/Any2AnyPowerPack"
+    }, 
+    {
         "description": "obsessing over all manner of DC power connectors", 
         "relative_path": "Electronics101/Power/Connectors", 
         "id": "#329", 

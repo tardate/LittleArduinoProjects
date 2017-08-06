@@ -1,6 +1,5 @@
-# 329 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Power/Connectors](./Electronics101/Power/Connectors) - obsessing over all manner of DC power connectors.
-
+# 330 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Power/Any2AnyPowerPack](./Electronics101/Power/Any2AnyPowerPack) - a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -269,6 +268,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
+| [#330 Power/Any2AnyPowerPack](./Electronics101/Power/Any2AnyPowerPack)             | **Power**                       a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors |
 | [#329 Power/Connectors](./Electronics101/Power/Connectors)                         | **Power**                       obsessing over all manner of DC power connectors |
 | [#165 Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter |
 | [#026 Power317](./Electronics101/Power317)                                         | **Power**                       test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
