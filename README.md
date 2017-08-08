@@ -1,5 +1,5 @@
-# 330 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Power/Any2AnyPowerPack](./Electronics101/Power/Any2AnyPowerPack) - a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors.
+# 331 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [PIC/GettingBlinky](./PIC/GettingBlinky) - Getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -263,6 +263,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#121 PeakDetector](./Electronics101/PeakDetector)                                 | **OpAmp, RC**                   test an OpAmp-based peak detector circuit |
 | [#247 pedalShieldUno](./playground/pedalShieldUno)                                 | **DSP, Guitar, Arduino**        build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal |
 | [#250 pedalShieldUno/AudioDSP](./playground/pedalShieldUno/AudioDSP)               | **DSP, Guitar, Arduino**        test and develop the AudioDSP library for programming the pedalSHIELD Uno |
+| [#331 PIC/GettingBlinky](./PIC/GettingBlinky)                                      | **PIC, LED**                    getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky! |
 | [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |

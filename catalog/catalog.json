@@ -1603,6 +1603,13 @@
         "name": "OSHChip/YottaToolchain"
     }, 
     {
+        "description": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!", 
+        "relative_path": "PIC/GettingBlinky", 
+        "id": "#331", 
+        "categories": "PIC, LED", 
+        "name": "PIC/GettingBlinky"
+    }, 
+    {
         "description": "run a basic waveform demo with an AD9833 module", 
         "relative_path": "playground/AD9833/BasicDemoCycle", 
         "id": "#148", 

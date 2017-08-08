@@ -17,6 +17,7 @@ Usage:
   $0 ki ProjectName  # new Kinetics project
   $0 kr ProjectName  # new Kraft project
   $0 os ProjectName  # new OSHChip project
+  $0 pi ProjectName  # new PIC project
 
 EOF
   exit
@@ -141,6 +142,10 @@ kr)
 
 os)
   make_project "OSHChip" "${2}"
+  ;;
+
+pi)
+  make_project "PIC" "${2}"
   ;;
 
 *)
