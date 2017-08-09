@@ -26,6 +26,9 @@ It appears to be a very common board - the same as used by Julian - and features
 
 ![GettingBlinky_dev_board](./assets/GettingBlinky_dev_board.jpg?raw=true)
 
+Male-to-female Dupont connectors are fine for connecting the programmer.
+I also followed the suggestion and made up a cable using a 6-wire "5S1P balanced charger cable" with a 6-pin JST XH female connector on one end and a 6-pin header on the other.
+
 #### PIC12F675 Specs
 
 The [microchip](http://www.microchip.com/wwwproducts/en/PIC12F675) site has plenty of info and datasheets for the processor. The core specs:
@@ -161,7 +164,8 @@ Surrounded by a few make-work loops, the result is an LED blinking at around 4Hz
 * [PIC Assembly Language Tutorials: #0 - Shopping List & Mods](https://www.youtube.com/watch?v=p2rZwR9oM_k) - Julian Ilett
 * [PIC Assembly Language Tutorial: #1 - Config and Clock](https://www.youtube.com/watch?v=491StrMyqa4) - Julian Ilett
 * [PIC Assembly Language Update: #1.1 - PCB schematic](https://www.youtube.com/watch?v=TneWtGyar6M) - Julian Ilett
-* [pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html)
-* [5V PIC12F675 Development Board Learning Board Test Breadboard+USB Cable](https://www.aliexpress.com/item/5V-PIC12F675-Development-Board-Learning-Board-Test-Breadboard-USB-Cable/32803124346.html)
+* [pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html) - example seller on aliexpress
+* [5V PIC12F675 Development Board Learning Board Test Breadboard+USB Cable](https://www.aliexpress.com/item/5V-PIC12F675-Development-Board-Learning-Board-Test-Breadboard-USB-Cable/32803124346.html) - example seller on aliexpress
+* [5S1P balanced charger cable with a 6-pin JST XH female connector](https://www.aliexpress.com/item/10Pcs-5S1P-Balance-Charger-Silicon-Cable-Wire-JST-XH-Connector-Male-Female-Plug-For-Rc-Airplane/32657806702.html) - example seller on aliexpress
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
 * [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap331-getting-blinky-with-pic-assembler.html)
