@@ -36,7 +36,7 @@ there's a broad choice of rectifiers possible e.g.
 
 I decided to use the 1N5819 in the bridge rectifier to get the low forward voltage benefit.
 The reverse current is a little high, but at low voltages and currents perhaps negligible enough and in practice this
-should be swallowed by the bridge rectifer (just showing up as a reduced efficiency)
+should be swallowed by the bridge rectifier (just showing up as a reduced efficiency)
 
 Some measurements to back that up:
 
