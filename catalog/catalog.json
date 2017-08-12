@@ -952,6 +952,13 @@
         "name": "OpAmpTimer"
     }, 
     {
+        "description": "testing an RC phase-shift oscillator using a BJT amplifier", 
+        "relative_path": "Electronics101/Oscillators/RCPhaseShiftBJT", 
+        "id": "#332", 
+        "categories": "BJT, RC, Oscillators", 
+        "name": "RCPhaseShiftBJT"
+    }, 
+    {
         "description": "test an OpAmp-based peak detector circuit", 
         "relative_path": "Electronics101/PeakDetector", 
         "id": "#121", 

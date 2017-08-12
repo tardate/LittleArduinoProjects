@@ -1,5 +1,5 @@
-# 331 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [PIC/GettingBlinky](./PIC/GettingBlinky) - Getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!
+# 332 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [RCPhaseShiftBJT](./Electronics101/Oscillators/RCPhaseShiftBJT) - testing an RC phase-shift oscillator using a BJT amplifier.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -289,6 +289,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     build and test a 16-bit R2R-ladder digital to analog converter with shift register interface |
 | [#035 RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino**            proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [#049 RCOscillator](./Electronics101/RCOscillator)                                 | **BJT, RC, Oscillators**        simple RC/transistor multistable vibrator |
+| [#332 RCPhaseShiftBJT](./Electronics101/Oscillators/RCPhaseShiftBJT)               | **BJT, RC, Oscillators**        testing an RC phase-shift oscillator using a BJT amplifier |
 | [#129 RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RLC, Oscillators**     test a "joule thief" circuit based on a relaxation oscillator |
 | [#055 RelayControlTest](./playground/RelayControlTest)                             | **Servo, Arduino**              quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [#054 RelayModuleTest](./playground/RelayModuleTest)                               | **Servo, Arduino**              quick test of a common relay board to switch a motor under Arduino control |
