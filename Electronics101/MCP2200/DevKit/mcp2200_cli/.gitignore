@@ -1,0 +1,4 @@
+device_info
+enable_leds
+disable_leds
+*.dSYM

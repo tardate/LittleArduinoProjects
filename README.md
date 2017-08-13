@@ -1,5 +1,5 @@
-# 333 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [RCPhaseShiftBJT](./Electronics101/Oscillators/RCPhaseShiftBJT) - testing an RC phase-shift oscillator using a BJT amplifier.
+# 334 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MCP2200/DevKit](./Electronics101/MCP2200/DevKit) - exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -226,6 +226,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
+| [#334 MCP2200/DevKit](./Electronics101/MCP2200/DevKit)                             | **UART, USB**                   exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host |
 | [#313 MCP23S17](./Electronics101/MCP23S17)                                         | **Arduino, Port Expander**      investigate and test the MCP23S17 16-Bit I/O Expander with serial interface |
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [#252 MessageWaiting](./Electronics101/555Timer/MessageWaiting)                    | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction |

@@ -826,6 +826,13 @@
         "name": "LowVoltageGlowingLEDs"
     }, 
     {
+        "description": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host", 
+        "relative_path": "Electronics101/MCP2200/DevKit", 
+        "id": "#334", 
+        "categories": "UART, USB", 
+        "name": "MCP2200/DevKit"
+    }, 
+    {
         "description": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface", 
         "relative_path": "Electronics101/MCP23S17", 
         "id": "#313", 
