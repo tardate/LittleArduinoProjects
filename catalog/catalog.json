@@ -2303,6 +2303,13 @@
         "name": "Variable LED brightness with PWM"
     }, 
     {
+        "description": "self-measurement of an Arduino's supply voltage (Vcc)", 
+        "relative_path": "playground/VoltageSelfMeasurement", 
+        "id": "#333", 
+        "categories": "Arduino, ADC", 
+        "name": "VoltageSelfMeasurement"
+    }, 
+    {
         "description": "test a 25V voltage sensor module with display on a 5110 LCD", 
         "relative_path": "playground/VoltageSensorModule", 
         "id": "#167", 

@@ -1,4 +1,4 @@
-# 332 Little Electronics and Arduino Projects
+# 333 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [RCPhaseShiftBJT](./Electronics101/Oscillators/RCPhaseShiftBJT) - testing an RC phase-shift oscillator using a BJT amplifier.
 
 
@@ -380,6 +380,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
 | [#328 VoltageControlledOscillator/555](./Electronics101/555Timer/VoltageControlledOscillator) | **Oscillators, VCO, 555 Timer** a voltage-controlled oscillator (VCO) using the 555 timer |
 | [#147 VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
+| [#333 VoltageSelfMeasurement](./playground/VoltageSelfMeasurement)                 | **Arduino, ADC**                self-measurement of an Arduino's supply voltage (Vcc) |
 | [#167 VoltageSensorModule](./playground/VoltageSensorModule)                       | **Sensors, Arduino**            test a 25V voltage sensor module with display on a 5110 LCD |
 | [#289 VoltmeterAmmeterModule](./Electronics101/VoltmeterAmmeterModule)             | **Sensors**                     test and calibrate a DC Voltmeter/Ammeter panel module |
 | [#181 VoltmeterModule](./Electronics101/VoltmeterModule)                           | **Sensors**                     test a 3-wire voltmeter module |
