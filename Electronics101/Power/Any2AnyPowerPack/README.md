@@ -47,6 +47,9 @@ Some measurements to back that up:
 | 1N5819 | 8.72V         | 8.62V                   | 7.97V    | 8.29V     | 8.43V      |
 
 
+PS: the "evils" of centre-negative jacks has now been explored in [EEVblog #1015](https://www.youtube.com/watch?v=ix2fR-rh1vc) - some great background
+and demonstration of how these work.
+
 ## Circuit
 
 ![Breadboard](./assets/Any2AnyPowerPack_bb.jpg?raw=true)
@@ -62,6 +65,7 @@ Some measurements to back that up:
 ![Build](./assets/Any2AnyPowerPack_build.jpg?raw=true)
 
 ## Credits and References
+* [EEVblog #1015 - Beware Evil (But Clever) DC Jacks!](https://www.youtube.com/watch?v=ix2fR-rh1vc)
 * [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [1N4001-7 Datasheet](http://www.futurlec.com/Diodes/1N4001.shtml)
 * [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap330-any-to-an-polarity-dc-power-adapter.html)
