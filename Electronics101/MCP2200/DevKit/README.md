@@ -154,7 +154,7 @@ when communicaitons are active. These are active low by default.
 
 The [disable_leds.c](./mcp2200_cli/disable_leds.c) script turns them back off.
 
-'''
+```
 $ ./enable_leds
 Turning on the Tx and Rx LEDs..
 $ ./device_info
@@ -198,7 +198,7 @@ READ_ALL report:
 [ 8] Baud_H:              High byte of the default baud rate setting = 0x0
 [ 9] Baud_L:               Low byte of the default baud rate setting = 0x67
 [10] IO_Port_Val_bmap:                Bitmap of the GPIO port values = 0xff
-'''
+```
 
 Here are the LEDs in action (I'm holding a key down in `screen` to keep the red Tx LED on):
 
