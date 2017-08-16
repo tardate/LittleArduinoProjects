@@ -1,6 +1,6 @@
 # #334 MCP2200/DevKit
 
-Exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host.
+Exploring the capabilities of the MCP2200 USB-to-UART transceiver and program it from a MacOSX host.
 
 ![Build](./assets/DevKit_build.jpg?raw=true)
 
@@ -113,16 +113,16 @@ and the source code for SimpleIO is not released. Crazy that this isn't open sou
 But no matter, just another excuse to take advantage of [hidapi](http://www.signal11.us/oss/hidapi/)
 and write some simple scripts to play with the MCP2200 HID interface.
 
-See the examples in [mcp2200_cli](./mcp2200_cli), compiled thus:
+See the examples in [cli](./cli) folder, compiled thus:
 
 ```
-$ cd mcp2200_cli
+$ cd cli
 $ make
 ```
 
 #### Read Configuration
 
-[device_info.c](./mcp2200_cli/device_info.c) enumerates all MCP2200 devices plugged into USB.
+[device_info.c](./cli/device_info.c) enumerates all MCP2200 devices plugged into USB.
 With just the first one it finds, it requests a READ_ALL report and prints the configuration
 
 ```
@@ -149,10 +149,10 @@ READ_ALL report:
 
 #### Enable and Disabled Tx/Rx LEDs
 
-[enable_leds.c](./mcp2200_cli/enable_leds.c) sets the Rx and Tx pins to blink slowly
+[enable_leds.c](./cli/enable_leds.c) sets the Rx and Tx pins to blink slowly
 when communicaitons are active. These are active low by default.
 
-The [disable_leds.c](./mcp2200_cli/disable_leds.c) script turns them back off.
+The [disable_leds.c](./cli/disable_leds.c) script turns them back off.
 
 ```
 $ ./enable_leds
@@ -206,11 +206,17 @@ Here are the LEDs in action (I'm holding a key down in `screen` to keep the red 
 
 #### GPIO Output
 
+The I/O pins actually have decent current handling capabilities, from the datasheet:
+
+* Maximum output current sunk or sourced by any I/O pin: 25 mA
+* Maximum current sunk or soruced by all ports: 90 mA
+
 Using the GPIO pins for digital output involves two HID commands.
 * CONFIGURE: set pin mode in IO_bmap, and
 * SET_CLEAR_OUTPUTS to set or clear pin states
 
 Example TODO..
+
 
 
 #### GPIO Input
@@ -232,3 +238,4 @@ Example TODO..
 * [MCP2200 Breakout Module](http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=ADM00393)
 * [MCP2200 HID Interface Command Description](http://ww1.microchip.com/downloads/en/DeviceDoc/93066A.pdf)
 * [hidapi source](http://www.signal11.us/oss/hidapi/)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap334-exercising-the-mcp2200-usb-uart-transceiver.html)
