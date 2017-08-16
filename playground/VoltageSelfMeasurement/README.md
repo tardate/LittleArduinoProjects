@@ -8,7 +8,7 @@ Self-measurement of an Arduino's supply voltage (Vcc).
 
 ## Notes
 
-One of the issues with analgue measurements on the arduino is that typically we assume an accurate 5V reference.
+One of the issues with analogue measurements on the Arduino is that typically we assume an accurate 5V reference.
 When that is not actually true, all the readings are off.
 
 In the past I've typically measured the actual rail voltage and scripted with a corresponding "fudge factor".
@@ -49,7 +49,7 @@ Two things:
 I put my 1.1V reference to the test, and according to the most accurate device I have on hand, it is actually
 running at 1.063V. The sketch includes some techniques for compensation.
 
-But ... if we're compensating for innaccuracies in Vbg, aren't we back to square one and no better off than calibrating Vcc in the first place?
+So ... if we're compensating for innaccuracies in Vbg, aren't we back to square one and no better off than calibrating Vcc in the first place?
 Perhaps. I haven't done measurements to back this up, but one benefit of this approach
 could be if Vbg is relatively stable over variations in supply voltage.
 
@@ -71,3 +71,4 @@ Measuring the 1.1V reference:
 * [SecretVoltmeter](https://code.google.com/archive/p/tinkerit/wikis/SecretVoltmeter.wiki)
 * [AVR datasheet](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
 * [AREF decoupling capacitor](http://www.atmel.com/webdoc/stk600/stk600.section.qim_lde_lc.html) - 10nF suggested
+* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap333-measure-thy-own-voltage.html)
