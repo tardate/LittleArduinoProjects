@@ -16,6 +16,7 @@ But wouldn't it be nice if the Arduino could actually do this itself?
 
 [SecretVoltmeter](https://code.google.com/archive/p/tinkerit/wikis/SecretVoltmeter.wiki) is a snippet of code
 that demonstrates how to get an Arduino (at least Atmega 168 and 328 processors) to measure it's own supply rail.
+I found this via [Julian Ilett's video on the subject](https://www.youtube.com/watch?v=G6dvDgCOyqk).
 
 I've cleaned up and modified the code a little in the [VoltageSelfMeasurement.ino](./VoltageSelfMeasurement.ino) sketch.
 
@@ -66,6 +67,7 @@ Measuring the 1.1V reference:
 ![Build](./assets/VoltageSelfMeasurement_build.jpg?raw=true)
 
 ## Credits and References
+* [Playing with: the Arduino Secret Voltmeter](https://www.youtube.com/watch?v=G6dvDgCOyqk) - Julian Ilett
 * [SecretVoltmeter](https://code.google.com/archive/p/tinkerit/wikis/SecretVoltmeter.wiki)
 * [AVR datasheet](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
 * [AREF decoupling capacitor](http://www.atmel.com/webdoc/stk600/stk600.section.qim_lde_lc.html) - 10nF suggested
