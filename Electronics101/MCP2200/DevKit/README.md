@@ -204,28 +204,17 @@ Here are the LEDs in action (I'm holding a key down in `screen` to keep the red 
 
 ![Build](./assets/DevKit_build.jpg?raw=true)
 
-#### GPIO Output
+#### GPIO
 
-The I/O pins actually have decent current handling capabilities, from the datasheet:
+The MCP2200 has 8 GPIO pins that can be used for digital input and output.
+Four of the pins have alternative functions which may render them unavailable.
 
-* Maximum output current sunk or sourced by any I/O pin: 25 mA
-* Maximum current sunk or soruced by all ports: 90 mA
+But GPIO on a USB to UART chip?? Perhaps a few reasons:
 
-Using the GPIO pins for digital output involves two HID commands.
-* CONFIGURE: set pin mode in IO_bmap, and
-* SET_CLEAR_OUTPUTS to set or clear pin states
+* for control signals to the attached device (like toggle a reset line)
+* for building USB gizmos
 
-Example TODO..
-
-
-
-#### GPIO Input
-
-Using the GPIO pins for digital input involves two HID commands.
-* CONFIGURE: set pin mode in IO_bmap, and
-* READ_ALL to get the IO_Port_Val_bmap values
-
-Example TODO..
+See [LEAP#335 Chaser](../Chaser) for a demonstration of input and output capabiltiies.
 
 
 ## Module Schematic
