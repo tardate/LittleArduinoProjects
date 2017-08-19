@@ -966,6 +966,13 @@
         "name": "Square Wave - LM324"
     }, 
     {
+        "description": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp", 
+        "relative_path": "Electronics101/Oscillators/ComparatorRelaxation", 
+        "id": "#336", 
+        "categories": "OpAmp, Oscillators", 
+        "name": "Oscillators/ComparatorRelaxation"
+    }, 
+    {
         "description": "testing an RC phase-shift oscillator using a BJT amplifier", 
         "relative_path": "Electronics101/Oscillators/RCPhaseShiftBJT", 
         "id": "#332", 

@@ -1,5 +1,5 @@
-# 335 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [MCP2200/Chaser](./Electronics101/MCP2200/Chaser) - using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs.
+# 336 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Oscillators/ComparatorRelaxation](./Electronics101/Oscillators/ComparatorRelaxation) - test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -258,6 +258,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#087 OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)                     | **OLED, Arduino**               driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [#086 OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | **OLED, Arduino**         running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [#122 OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |
+| [#336 Oscillators/ComparatorRelaxation](./Electronics101/Oscillators/ComparatorRelaxation) | **OpAmp, Oscillators**  test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp |
 | [#213 OSHChip/blinky](./OSHChip/blinky)                                            | **ARM, OSHChip**                first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging |
 | [#214 OSHChip/GccToolchain](./OSHChip/GccToolchain)                                | **ARM, gcc, OSHChip**           can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX? |
 | [#216 OSHChip/LEDx16Module](./OSHChip/LEDx16Module)                                | **OSHChip, SPI**                driving an SPI LED module with the OSHChip |
