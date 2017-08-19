@@ -4,6 +4,8 @@ Using the MCP2200 GPIO from MacOSX. With great power comes great responsibility 
 
 ![Build](./assets/Chaser_build.jpg?raw=true)
 
+Here's quick demo to show it in action:
+
 [![Build](http://img.youtube.com/vi/QD8XAKR6MQo/0.jpg)](http://www.youtube.com/watch?v=QD8XAKR6MQo)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)

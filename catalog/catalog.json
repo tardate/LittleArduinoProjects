@@ -1183,6 +1183,13 @@
         "name": "RFSwitch"
     }, 
     {
+        "description": "rainbow glow effects with an RGB LED and OpAmp oscillators", 
+        "relative_path": "Electronics101/RgbLedGlow", 
+        "id": "#337", 
+        "categories": "LED, Oscillators", 
+        "name": "RgbLedGlow"
+    }, 
+    {
         "description": "test the classic CD4017 walking-ring counter", 
         "relative_path": "Electronics101/RingCounter", 
         "id": "#107", 

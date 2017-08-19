@@ -1,5 +1,5 @@
-# 336 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Oscillators/ComparatorRelaxation](./Electronics101/Oscillators/ComparatorRelaxation) - test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp.
+# 337 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [RgbLedGlow](./Electronics101/RgbLedGlow) - rainbow glow effects with an RGB LED and OpAmp oscillators.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -303,6 +303,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#112 ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR)     | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic OR gate |
 | [#221 ResistorTransistorLogic/XOR](./Electronics101/ResistorTransistorLogic/XOR)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic XOR gate/XOR |
 | [#124 RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **RF**                          a simple RF detector mounted in a pen |
+| [#337 RgbLedGlow](./Electronics101/RgbLedGlow)                                     | **LED, Oscillators**            rainbow glow effects with an RGB LED and OpAmp oscillators |
 | [#169 RGBLedModule](./playground/RGBLedModule)                                     | **LED, Arduino**                demo an RGB LED module |
 | [#107 RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
 | [#108 RingCounterController](./playground/RingCounterController)                   | **CMOS, Arduino**               control the classic CD4017 walking-ring counter with an Arduino |
