@@ -812,13 +812,6 @@
         "name": "LM324/SplitterBuffer"
     }, 
     {
-        "description": "using an LM324 OpAmp to generate a square wave", 
-        "relative_path": "Electronics101/LM324Oscillator", 
-        "id": "#039", 
-        "categories": "OpAmp, Oscillators", 
-        "name": "Square Wave - LM324"
-    }, 
-    {
         "description": "a dual-LED \"glowing\" oscillator from a 1.5V supply", 
         "relative_path": "Electronics101/LowVoltageGlowingLEDs", 
         "id": "#191", 
@@ -964,6 +957,13 @@
         "id": "#122", 
         "categories": "OpAmp, Timer", 
         "name": "OpAmpTimer"
+    }, 
+    {
+        "description": "using an LM324 OpAmp to generate a square wave (astable opamp oscillator)", 
+        "relative_path": "Electronics101/Oscillators/AstableOpamp", 
+        "id": "#039", 
+        "categories": "OpAmp, Oscillators", 
+        "name": "Square Wave - LM324"
     }, 
     {
         "description": "testing an RC phase-shift oscillator using a BJT amplifier", 

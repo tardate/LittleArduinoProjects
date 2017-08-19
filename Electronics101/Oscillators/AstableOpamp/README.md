@@ -1,4 +1,4 @@
-# #039 LM324Oscillator
+# #039 Astable Opamp Oscillators
 
 Use an Arduino to monitor the behaviour of an LM324 OpAmp astable oscillator and plot the results with [Processing](https://www.processing.org).
 
@@ -35,11 +35,11 @@ The Arduino only acts as a measurement device in this circuit.
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard](./assets/LM324Oscillator_bb.jpg?raw=true)
+![The Breadboard](./assets/AstableOpamp_bb.jpg?raw=true)
 
-![The Schematic](./assets/LM324Oscillator_schematic.jpg?raw=true)
+![The Schematic](./assets/AstableOpamp_schematic.jpg?raw=true)
 
-![The Build](./assets/LM324Oscillator_build.jpg?raw=true)
+![The Build](./assets/AstableOpamp_build.jpg?raw=true)
 
 NB: for simplicity, the circuit is powered from the Arduino 5V pin.
 That works fine, although it is equally possible to use a separate power supply (but ensuring there is a common ground connection).

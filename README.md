@@ -333,7 +333,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#117 SolenoidDIY](./Electronics101/SolenoidDIY)                                   | **Solenoid, Arduino**           build and test a basic electromechanical solenoid |
 | [#200 SolenoidMotor](./Kinetics/SolenoidMotor)                                     | **Solenoid**                    a single-cylinder mini-solenoid engine |
 | [#016 Square Wave - 555](./Electronics101/555Timer/AstableOscillator)              | **555 Timer, Oscillators**      using a 555 timer as an astable oscillator to generate a square wave and an Arduino and processing to plot the output |
-| [#039 Square Wave - LM324](./Electronics101/LM324Oscillator)                       | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave |
+| [#039 Square Wave - LM324](./Electronics101/Oscillators/AstableOpamp)              | **OpAmp, Oscillators**          using an LM324 OpAmp to generate a square wave (astable opamp oscillator) |
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **CMOS/TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
 | [#061 SRLatch](./Electronics101/DigitalLogic/SRLatch)                              | **Logic Gates, BJT**            Set/Reset latch with BJTs |
 | [#062 SRLatchFlipper](./Electronics101/DigitalLogic/SRLatchFlipper)                | **Logic Gates, BJT, Arduino**   Set/Reset latch with BJTs, controlled and monitored by an Arduino |

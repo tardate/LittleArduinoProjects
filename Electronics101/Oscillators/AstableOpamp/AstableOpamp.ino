@@ -1,9 +1,9 @@
 /*
 
-  LM324Oscillator
+  AstableOpamp
   Use an Arduino to monitor the behaviour of an LM324 OpAmp oscillator
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/LM324Oscillator
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/AstableOpamp
 
  */
 

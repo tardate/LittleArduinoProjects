@@ -1,0 +1,7 @@
+{
+    "id": "#039", 
+    "name": "Square Wave - LM324", 
+    "description": "using an LM324 OpAmp to generate a square wave (astable opamp oscillator)", 
+    "categories": "OpAmp, Oscillators", 
+    "relative_path": "Electronics101/Oscillators/AstableOpamp"
+}
