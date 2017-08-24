@@ -49,6 +49,16 @@ Here's a sample of the Red (CH3), Green (CH1), Blue (Ch2) waveforms.
 The LEDs are configured with a low-side PNP control and current-limiting resistors.
 This puts the linear region of the transistors in the general vacinity of the triangle waveforms.
 
+After some experimentation, I discovered I could get a much more peasing "glow" effect by reversing the
+PNP driver transistors (i.e. swap Collector and Emitter).
+The current flow is reduced, which can be offset by also reducing the current-limiting resistors.
+But it does expand the (pseudo-)linear region to cover the entire triangle wave sweep.
+This is a bit of a hack, and could probably be better achieved by ensuring the
+driving triangle wave is amplified and offset precisely to bias the transistors appropriately.
+
+The schematic shows the alternative arrangements.
+The [demo video](http://www.youtube.com/watch?v=9PpOC6A96As) is using the reversed-PNP arrangement.
+
 ## Construction
 
 ![Breadboard](./assets/RgbLedGlow_bb.jpg?raw=true)
