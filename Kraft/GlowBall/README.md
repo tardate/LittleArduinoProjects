@@ -52,10 +52,12 @@ Key notes on the RGB LED Glow circuit:
 
 * I've intentionally got the PNP driver transistors in back-to-front (C and E flipped). The transistors work, but just not as well. In this context, that is a good thing, because it creates an expanded "linear" region and very nice glow effects (I think). Current is not so high, hence the current-limiting resistors (360Ω) are lower than you might expect for 12V.
 * the three triangle-wve oscillators are nominally ideltical, but component tolerances lead to the slight variation in performance which causes the red, green and blue LED components to oscillate jsut slightly out of sync.
+* the wave-offset adjustment pot (VR1) is a trimmer that I haven't exposed for external adjustment. I just set-and-forget it to a nice value for best effect.
 
 Key notes on the LED Strip circuit:
 
 * I'm using a 1N5711 instead of a 1N5819 because it was available. It is not carrying any real load so the most important feature is the similar forward voltage.
+* the dimmer pot is the one mounter on the front of the case
 
 ![Schematic](./assets/GlowBall_schematic.jpg?raw=true)
 
