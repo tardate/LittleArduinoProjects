@@ -1568,6 +1568,13 @@
         "name": "StirlingEngineHB13"
     }, 
     {
+        "description": "building LED effects for a Glass Eye Studio Celestial Planet Weight", 
+        "relative_path": "Kraft/GlowBall", 
+        "id": "#338", 
+        "categories": "LED, Oscillators, Power", 
+        "name": "GlowBall"
+    }, 
+    {
         "description": "building a mini metal model of the Golden Hind", 
         "relative_path": "Kraft/GoldenHind", 
         "id": "#298", 
