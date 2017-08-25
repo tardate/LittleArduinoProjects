@@ -14,7 +14,7 @@ This [Glass Eye Studio "Celestial Super Nova"](http://www.glasseyestudio.com/492
 Quite an awesome piece of glass work ... I have no idea how these can be manufactured in any quantity with consistency!
 Perhaps I should find a [class](http://www.artglasscentre.com/studio.php)?!
 
-You can buy a base with lighting effects, but where is the fun in that?
+You can buy a base with built-in lighting effects, but where is the fun in that?
 
 Here's a project to make a base for the glass ball. Because it is going to be used on a desk, I decided to combine two functions:
 
@@ -35,6 +35,8 @@ while allowing the LEDs to poke through to light the glass ball:
 
 ![GlowBall_case_front](./assets/GlowBall_case_front.jpg?raw=true)
 
+LED strip plugs in on the left, power on the right:
+
 ![GlowBall_case_rear](./assets/GlowBall_case_rear.jpg?raw=true)
 
 
@@ -46,22 +48,26 @@ The electronics are a combination of circuits (with some modifications) from two
 * [LEAP#231 current-regulated LED dimmer circuit](../Electronics101/LEDDimmer/CurrentRegulator)
 
 
-I've set this up powered from 12V. A three-position SPDT switch selects between off, the glow ball effect, and powering the LED strip
+I've set this up powered from 12V. A three-position SPDT switch selects between: off, the glow ball effect, and powering the LED strip.
 
 Key notes on the RGB LED Glow circuit:
 
 * I've intentionally got the PNP driver transistors in back-to-front (C and E flipped). The transistors work, but just not as well. In this context, that is a good thing, because it creates an expanded "linear" region and very nice glow effects (I think). Current is not so high, hence the current-limiting resistors (360Ω) are lower than you might expect for 12V.
-* the three triangle-wve oscillators are nominally ideltical, but component tolerances lead to the slight variation in performance which causes the red, green and blue LED components to oscillate jsut slightly out of sync.
+* the three triangle-wave oscillators are nominally identical, but component tolerances lead to the slight variation in performance which causes the red, green and blue LED poles to oscillate just slightly out of sync.
 * the wave-offset adjustment pot (VR1) is a trimmer that I haven't exposed for external adjustment. I just set-and-forget it to a nice value for best effect.
 
 Key notes on the LED Strip circuit:
 
 * I'm using a 1N5711 instead of a 1N5819 because it was available. It is not carrying any real load so the most important feature is the similar forward voltage.
-* the dimmer pot is the one mounter on the front of the case
+* the dimmer pot is the one mounted on the front of the case
 
 ![Schematic](./assets/GlowBall_schematic.jpg?raw=true)
 
 ![Breadboard](./assets/GlowBall_bb.jpg?raw=true)
+
+FWIW, here are my scratchy notes on how I laid out the protoboard:
+
+![GlowBall_board_layout](./assets/GlowBall_board_layout.jpg?raw=true)
 
 ![GlowBall_build](./assets/GlowBall_build.jpg?raw=true)
 
