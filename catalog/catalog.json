@@ -742,6 +742,13 @@
         "name": "BazzFuss"
     }, 
     {
+        "description": "build and test a PT2399-based analogue delay pedal kit", 
+        "relative_path": "Electronics101/GuitarEffects/DelayKit", 
+        "id": "#339", 
+        "categories": "Guitar, Audio", 
+        "name": "DelayKit"
+    }, 
+    {
         "description": "testing a Hall effect switch", 
         "relative_path": "Electronics101/HallEffectSwitch", 
         "id": "#198", 

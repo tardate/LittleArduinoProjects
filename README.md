@@ -1,5 +1,5 @@
-# 338 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [GlowBall](./Kraft/GlowBall) - building LED effects for a Glass Eye Studio Celestial Planet Weight.
+# 339 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DelayKit](./Electronics101/GuitarEffects/DelayKit) - build and test a PT2399-based analogue delay pedal kit.
 
 
 
@@ -143,6 +143,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 voltage sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
+| [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
