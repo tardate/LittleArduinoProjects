@@ -1,6 +1,6 @@
 # #339 GuitarEffects/DelayKit
 
-Build and test a PT2399-based analog delay pedal kit.
+Build and test a PT2399-based delay pedal kit.
 
 Here's a quick hit to demo the delay unit, with a clean guitar signal and all the effects settings (mix, repeat, delay) on "11"..
 
@@ -46,11 +46,15 @@ Assembly complete. The kit even included some nice rubber feet to stick on the b
 
 ![DelayKit_assembly3](./assets/DelayKit_assembly3.jpg?raw=true)
 
+Note that as is common for effects pedals, the 9V jack is centre-negative.
+
 ![Build](./assets/DelayKit_build.jpg?raw=true)
 
 ## Schematic
 
 I think this is a reasonable transcription of the circuit. The use of the PT2399 is very similar to the echo circuit including in the datasheet.
+
+Although the signals in and out are analog, the PT2399 appears to operate by digitally sampling and remixing with ADC and DAC and 44kb of internal memory.
 
 ![Schematic](./assets/DelayKit_schematic.jpg?raw=true)
 
