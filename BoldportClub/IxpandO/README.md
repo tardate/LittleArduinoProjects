@@ -9,6 +9,15 @@ Demo program covers digital output and interrupt-driven input.
 
 ## Notes
 
+IxpandO is an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16.
+
+The board design leaves the door open for various configurations.
+I decided to go initially with the default setup of 8 inputs (switches) and 8 outputs (LEDs),
+with an Arduino sketch to demonstration digital output and interrupt-driven input.
+
+The MCP23017 is the I²C variant of the chip.
+See [LEAP#313](../../Electronics101/MCP23S17) for a similar demonstration of the MCP23S17 SPI variant.
+
 ## Parts and Unboxing
 
 | Qty | Description                                                 |
@@ -130,8 +139,9 @@ The demo program has a very simple behaviour:
 ![IxpandO_build2](./assets/IxpandO_build2.jpg?raw=true)
 
 ## Credits and References
+* [LEAP#313 MCP23S17](../../Electronics101/MCP23S17) - similar demonstration of the MCP23S17 SPI variant
 * [Boldport IxpandO](https://www.boldport.com/products/ixpando) - official product page
 * [MCP23017T-E/SO info and datasheet](http://www.microchip.com/wwwproducts/en/MCP23017)
 * [Wire Library](https://www.arduino.cc/en/Reference/Wire)
-* [name](url)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap340-boldport-club-ixpando.html)
 
