@@ -3,6 +3,8 @@
 IxpandO is an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16.
 Demo program covers digital output and interrupt-driven input.
 
+Here's a quick demo of it in action..
+
 [![IxpandO_build](./assets/IxpandO_build.jpg?raw=true)](http://www.youtube.com/watch?v=hQaYeF7REU8)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
@@ -13,7 +15,7 @@ IxpandO is an input/output expansion board based on Microchip's MCP23017, Boldpo
 
 The board design leaves the door open for various configurations.
 I decided to go initially with the default setup of 8 inputs (switches) and 8 outputs (LEDs),
-with an Arduino sketch to demonstration digital output and interrupt-driven input.
+with an Arduino sketch to demonstrate digital output and interrupt-driven input.
 
 The MCP23017 is the I²C variant of the chip.
 See [LEAP#313](../../Electronics101/MCP23S17) for a similar demonstration of the MCP23S17 SPI variant.
@@ -38,7 +40,7 @@ See [LEAP#313](../../Electronics101/MCP23S17) for a similar demonstration of the
 ## Construction
 
 The [IxpandO GitHub repository](https://github.com/boldport/ixpando) contains the full design of the Boldport board.
-the following schematic is a transcription that includes:
+The following schematic is a transcription that includes:
 
 * optional controller (in this case, an Arduino-compatible Cuttle)
 * optional LEDs connected to bank B (GPB)
@@ -123,10 +125,10 @@ The [IxpandO.ino](./IxpandO.ino) sketch demonstrates
 * interrupt-driven input for the DIP switch on bank A (GPA)
 
 It uses the [Wire Library](https://www.arduino.cc/en/Reference/Wire) to directly control the MCP23017,
-via atandard I²C connections on PC5 (SCL), PC4 (SDA).
+via standard I²C connections on PC5 (SCL), PC4 (SDA).
 
 Changing any DIP switch position triggers INTA.
-The sketch has an hardware interrupt handler which sets a flag on change.
+The sketch attaches a hardware interrupt handler for this input, which sets a flag on change.
 
 When the flag is set, the sketch reads all the switch positions and acts accordingly.
 
