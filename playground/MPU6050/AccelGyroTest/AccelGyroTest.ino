@@ -9,7 +9,7 @@
 
  */
 
-#include<Wire.h>
+#include <Wire.h>
 
 #define DELAY_STEP 500
 

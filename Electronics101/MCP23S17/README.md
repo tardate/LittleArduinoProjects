@@ -60,20 +60,19 @@ Useful for bulk writes without needing control bytes to set the address for each
 
 There are 21 registers. Of these, 10 replicated in two banks, and one `IOCON` register is shared.
 
-
-| Register   | Purpose |
-|------------|---------|
-| IOCON      | Device configuration register |
-| IODIRA/B   | Input configuration. Default: input  |
-| IPOLA/B    | Input polarity. Default: same logic state as the pin itself  |
-| GPINTENA/B | Configure Interrupt-on-change. Default: disabled.  |
-| DEFVALA/B  | Default values compare register.   |
-| INTCONA/B  | Interrupt-on-change comparison configuration, sets compare to DEFVAL. Default: compare to previous value.   |
-| GPPUA/B    | Control pull-up settings. Default: Pull-up disabled  |
-| INTFA/B    | Interrupt flag register; shows interrupt status: Default: 0   |
-| INTCAPA/B  | Interrupt capture register. contains value as captured at interrupt. Default: undefined   |
-| GPIOA/B    | Port register, reflects the value on the port. Default 0   |
-| OLATA/B    | Access to output latches   |
+| Register   | Purpose                                                                                                   |
+|------------|-----------------------------------------------------------------------------------------------------------|
+| IOCON      | Device configuration register                                                                             |
+| IODIRA/B   | Input configuration. Default: input                                                                       |
+| IPOLA/B    | Input polarity. Default: same logic state as the pin itself                                               |
+| GPINTENA/B | Configure Interrupt-on-change. Default: disabled.                                                         |
+| DEFVALA/B  | Default values compare register.                                                                          |
+| INTCONA/B  | Interrupt-on-change comparison configuration, sets compare to DEFVAL. Default: compare to previous value. |
+| GPPUA/B    | Control pull-up settings. Default: Pull-up disabled                                                       |
+| INTFA/B    | Interrupt flag register; shows interrupt status: Default: 0                                               |
+| INTCAPA/B  | Interrupt capture register. contains value as captured at interrupt. Default: undefined                   |
+| GPIOA/B    | Port register, reflects the value on the port. Default 0                                                  |
+| OLATA/B    | Access to output latches                                                                                  |
 
 
 ### Test Program

@@ -1,7 +1,5 @@
-# 339 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DelayKit](./Electronics101/GuitarEffects/DelayKit) - build and test a PT2399-based analogue delay pedal kit.
-
-
+# 340 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/IxpandO](./BoldportClub/IxpandO) - an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -107,6 +105,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#321 BoldportClub/cordwood-too](./BoldportClub/cordwood-too)                      | **Boldport, PCB Design, LED**   the Cordwood Puzzle returns! Boldport Club Project #13, May 2017 |
 | [#322 BoldportClub/cordwood-too/FidgetCube](./BoldportClub/cordwood-too/FidgetCube) | **Boldport, Sensors, LED**     making a Fidget Cube controller for the Boldport Cordwood Too |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
+| [#340 BoldportClub/IxpandO](./BoldportClub/IxpandO)                                | **Boldport, PCB Design, Port Expander**  an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input |
 | [#311 BoldportClub/Juice](./BoldportClub/Juice)                                    | **Boldport, PCB Design, Power** building the Boldport Juice battery replacement kit (Project #12) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |

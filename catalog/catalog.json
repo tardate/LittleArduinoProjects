@@ -42,6 +42,13 @@
         "name": "BoldportClub/Emergency"
     }, 
     {
+        "description": "an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input", 
+        "relative_path": "BoldportClub/IxpandO", 
+        "id": "#340", 
+        "categories": "Boldport, PCB Design, Port Expander", 
+        "name": "BoldportClub/IxpandO"
+    }, 
+    {
         "description": "building the Boldport Juice battery replacement kit (Project #12)", 
         "relative_path": "BoldportClub/Juice", 
         "id": "#311", 
