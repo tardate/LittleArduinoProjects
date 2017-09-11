@@ -50,6 +50,8 @@ The following schematic is a transcription that includes:
 
 ![Schematic](./assets/IxpandO_schematic.jpg?raw=true)
 
+![Schematic](./assets/IxpandO_bb.jpg?raw=true)
+
 
 ## About the MCP23017
 
