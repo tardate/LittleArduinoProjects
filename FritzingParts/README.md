@@ -4,6 +4,7 @@ Most projects in the LittleArduinoProjects collection a circuit schematic drawn 
 But often I needed a non-standard part for the diagram. Here they are!
 
 NB: if I'm making a PCB, I'll probably be using [KiCad](http://kicad-pcb.org/) instead.
+More recently, I've been using [EasyEDA](https://easyeda.com) as a great tool for drawing up schematics.
 
 ## New Parts
 

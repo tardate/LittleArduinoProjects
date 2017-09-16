@@ -1,0 +1,7 @@
+{
+    "id": "#341", 
+    "name": "UsbPowerSupplyKit", 
+    "description": "building a USB Wall Wart and taking a look at how they work (instead of taking them apart of having them blowing up)", 
+    "categories": "Power, USB", 
+    "relative_path": "Electronics101/Power/UsbPowerSupplyKit"
+}

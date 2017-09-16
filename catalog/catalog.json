@@ -1043,6 +1043,13 @@
         "name": "Power/Connectors"
     }, 
     {
+        "description": "building a USB Wall Wart and taking a look at how they work (instead of taking them apart of having them blowing up)", 
+        "relative_path": "Electronics101/Power/UsbPowerSupplyKit", 
+        "id": "#341", 
+        "categories": "Power, USB", 
+        "name": "UsbPowerSupplyKit"
+    }, 
+    {
         "description": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter", 
         "relative_path": "Electronics101/Power2662Inverter", 
         "id": "#165", 
