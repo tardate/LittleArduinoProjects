@@ -1043,7 +1043,7 @@
         "name": "Power/Connectors"
     }, 
     {
-        "description": "building a USB Wall Wart and taking a look at how they work (instead of taking them apart of having them blowing up)", 
+        "description": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up", 
         "relative_path": "Electronics101/Power/UsbPowerSupplyKit", 
         "id": "#341", 
         "categories": "Power, USB", 

@@ -1,6 +1,6 @@
 # #341 Power/UsbPowerSupplyKit
 
-Building a USB Wall Wart and taking a look at how they work (instead of taking them apart of having them blowing up)
+Building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up.
 
 ![Build](./assets/UsbPowerSupplyKit_build.jpg?raw=true)
 
@@ -8,7 +8,7 @@ Building a USB Wall Wart and taking a look at how they work (instead of taking t
 
 ## Notes
 
-I've taken apart and had enough switching power supplies blow up on me .. so perhaps it is about time to put one together instead!
+I've taken apart and had enough "wall wart" power supplies blow up on me .. so perhaps it is about time to put one together instead!
 
 Love them or hate them, "wall warts" represent amazing innovation upon which ubiquitous low voltage regulated power is built.
 I found an irresistable deal on [a kit version of a standard power supply](https://www.aliexpress.com/item/Power-Plug-DIY-Kit-5V-800mA-Regulated-Power-Supply-AC-DC-220V-to-5V-Power-Converter/32582894778.html), so time to take a peek inside a "common design".
@@ -107,3 +107,4 @@ It's some enjoyable Sunday afternoon soldering therapy. Throw on your favourite 
 * [TL431 datasheet](http://www.futurlec.com/Linear/TL431CLP.shtml) - Programmable Precision Reference
 * [PC817 datasheet](http://www.futurlec.com/LED/PC817.shtml) - High Density Opto-Coupler
 * [Schematic for this project in EasyEDA](https://easyeda.com/tardate/UsbPowerSupplyKit-d87d4b02fdde4ab88ade1a808439dc22)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap341-usb-power-supply.html)
