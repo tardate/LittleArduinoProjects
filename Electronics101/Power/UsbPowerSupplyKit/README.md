@@ -34,18 +34,23 @@ I found an irresistable deal on [a kit version of a standard power supply](https
 | R12  | 10kΩ        |
 | R13  | 1kΩ         |
 | C1   | 2.2µF       |
-| C2   | 103         |
-| C3   | 682         |
-| C4   | 104         |
-| C5   | 222         |
-| C6   | 104         |
+| C2   | 103, 10nF   |
+| C3   | 682, 6.8nF  |
+| C4   | 104, 100nF  |
+| C5   | 222, 2.2nF  |
+| C6   | 104, 100nF  |
 | C7   | 470µF       |
+| D1   | 1N4007      |
+| D2   | 1N4007      |
+| D3   | 1N4148      |
+| D5   | 1N5819      |
 | Q1   | MJE13003    |
 | Q2   | S9013       |
 | U1   | PC817       |
 | U2   | TL431       |
 | LED  | red 3mm     |
 | T1   | trifilar transformer    |
+| USB  | female USB  socket |
 
 The single-sided PCB is well designed with decent separation between high and low voltage sides.
 It also has a detailed silk-screen, which is just as well, as the schematics I've found online for the circuit appear to be incorrect.
@@ -106,5 +111,9 @@ It's some enjoyable Sunday afternoon soldering therapy. Throw on your favourite 
 * [MJE13003 datasheet](http://www.futurlec.com/Transistors/MJE13003.shtml) - NPN Silicon Power Transistor
 * [TL431 datasheet](http://www.futurlec.com/Linear/TL431CLP.shtml) - Programmable Precision Reference
 * [PC817 datasheet](http://www.futurlec.com/LED/PC817.shtml) - High Density Opto-Coupler
+* [1N4007 Datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)
+* [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
 * [Schematic for this project in EasyEDA](https://easyeda.com/tardate/UsbPowerSupplyKit-d87d4b02fdde4ab88ade1a808439dc22)
 * [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap341-usb-power-supply.html)
