@@ -65,34 +65,53 @@ ready
 
 ### get web page
 
+Let's query a time service: http://tycho.usno.navy.mil/timer.pl
+Note: I used to use http://www.timeapi.org/utc/now for tests like this, but that site appears to no longer exist.
+
 ```
-$ ./espy.rb /dev/tty.wchusbserial14540:9600 get http://www.timeapi.org/utc/now
-ESP8266 Client initialised for : /dev/tty.wchusbserial14540
+$ ./espy.rb /dev/tty.wchusbserial14530 get http://tycho.usno.navy.mil/timer.pl
+ESP8266 Client initialised for : /dev/tty.wchusbserial14530
             connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
                        signals : {"rts"=>1, "dtr"=>1, "cts"=>0, "dsr"=>0, "dcd"=>0, "ri"=>0}
 Waiting to warm up the connection..
-AT+CIPSTART="TCP","www.timeapi.org",80
+AT+CIPSTART="TCP","tycho.usno.navy.mil",80
 
 OK
 Linked
-AT+CIPSEND=93
-> GET /utc/now HTTP/1.1
-Host: www.timeapi.org
+AT+CIPSEND=98
+> GET /timer.pl HTTP/1.1
+Host: tycho.usno.navy.mil
 User-Agent: EspyClient/0.9.2.4
 Accept: */*
 SEND OK
 
-+IPD,277:HTTP/1.1 200 OK
-Date: Sun, 18 Oct 2015 17:06:45 GMT
-Connection: keep-alive
-X-Frame-Options: sameorigin
-X-Xss-Protection: 1; mode=block
-Content-Type: text/html;charset=utf-8
-Content-Length: 25
-Server: thin 1.5.0 codename Knife
-Via: 1.1 vegur
++IPD,819:HTTP/1.1 200 OK
+Date: Tue, 19 Sep 2017 16:26:05 GMT
+Server: Apache/2.4.25 (Unix)
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Tue, 19 Sep 2017 16:26:04 GMT
+ETag: W/"231-5598d50d4878d"
+Accept-Ranges: bytes
+Content-Length: 561
+Content-Type: text/html
 
-2015-10-18T17:06:45+00:00
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final"//EN>
+<html>
+<body>
+<TITLE>What time is it?</TITLE>
+<H2> US Naval Observatory Master Clock Time</H2> <H3><PRE>
+<BR>Sep. 19, 16:26:04 UTC   Universal Time
+<BR>Sep. 19, 12:26:04 PM EDT    Eastern Time
+<BR>Sep. 19, 11:26:04 AM CDT    Central Time
+<BR>Sep. 19, 10:26:04 AM MDT    Mountain Time
+<BR>Sep. 19, 09:26:04 AM PDT    Pacific Time
+<BR>Sep. 19, 08:26:04 AM AKDT Alaska Time
+<BR>Sep. 19, 06:26:04 AM HAST Hawaii-Aleutian Time
+</PRE></H3><P><A HREF="http://www.usno.navy.mil"> US Naval Observatory</A>
+
+</body></html>
+
+
 OK
 AT+CIPCLOSE
 

@@ -152,7 +152,7 @@ Example:
   #{$0} /dev/tty.wchusbserial14540 status
   #{$0} /dev/tty.wchusbserial14540:115200 ls
   #{$0} /dev/tty.wchusbserial14540:9600 join MySSID mypassword
-  #{$0} /dev/tty.wchusbserial14540 get http://www.timeapi.org/utc/now
+  #{$0} /dev/tty.wchusbserial14540 get http://tycho.usno.navy.mil/timer.pl
 
   EOS
 end
