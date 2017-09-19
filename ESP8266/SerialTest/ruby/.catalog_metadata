@@ -3,5 +3,5 @@
     "name": "ESP8266/SerialTest/ruby", 
     "description": "exercising ESP8266 serial communications with Ruby", 
     "categories": "ESP8266, ruby", 
-    "relative_path": "playground/ESP8266/SerialTest/ruby"
+    "relative_path": "ESP8266/SerialTest/ruby"
 }

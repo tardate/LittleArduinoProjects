@@ -1540,6 +1540,27 @@
         "name": "SaleaeLogic"
     }, 
     {
+        "description": "a DIY devboard for an ESP-01 ESP8266", 
+        "relative_path": "ESP8266/DIYDevBoard", 
+        "id": "#194", 
+        "categories": "ESP8266", 
+        "name": "ESP8266/DIYDevBoard"
+    }, 
+    {
+        "description": "first test of an ESP8266 module - serial communication to the SoC", 
+        "relative_path": "ESP8266/SerialTest", 
+        "id": "#154", 
+        "categories": "ESP8266", 
+        "name": "ESP8266/SerialTest"
+    }, 
+    {
+        "description": "exercising ESP8266 serial communications with Ruby", 
+        "relative_path": "ESP8266/SerialTest/ruby", 
+        "id": "#155", 
+        "categories": "ESP8266, ruby", 
+        "name": "ESP8266/SerialTest/ruby"
+    }, 
+    {
         "description": "a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array", 
         "relative_path": "FretBoard", 
         "id": "#018", 
@@ -1895,27 +1916,6 @@
         "id": "#037", 
         "categories": "Sensors, Audio, OpAmp, Arduino", 
         "name": "ElectretTrigger"
-    }, 
-    {
-        "description": "a DIY devboard for an ESP-01 ESP8266", 
-        "relative_path": "playground/ESP8266/DIYDevBoard", 
-        "id": "#194", 
-        "categories": "ESP8266", 
-        "name": "ESP8266/DIYDevBoard"
-    }, 
-    {
-        "description": "first test of an ESP8266 module - serial communication to the SoC", 
-        "relative_path": "playground/ESP8266/SerialTest", 
-        "id": "#154", 
-        "categories": "ESP8266", 
-        "name": "ESP8266/SerialTest"
-    }, 
-    {
-        "description": "exercising ESP8266 serial communications with Ruby", 
-        "relative_path": "playground/ESP8266/SerialTest/ruby", 
-        "id": "#155", 
-        "categories": "ESP8266, ruby", 
-        "name": "ESP8266/SerialTest/ruby"
     }, 
     {
         "description": "programming an Arduino with C and a command line", 

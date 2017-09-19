@@ -247,7 +247,6 @@ NB: diagrams drawn with the custom parts from [ESP8266_fritzing](https://github.
 * [electrodragon ESP8266 reference](http://www.electrodragon.com/w/ESP8266)
 * [ESP8266 Community Forum](http://www.esp8266.com/)
 * [nurdspace AT command reference](https://nurdspace.nl/ESP8266#AT_Commands)
-* [ESP8266](http://www.electrodragon.com/w/index.php?title=Category:ESP8266&redirect=no) - electrodragon
 * [Arduino Wifi - ESP8266: Schematic and Getting Started Code](https://www.youtube.com/watch?v=ayF4Oymf08k) - David Watts/youtube
 * [How To Program ESP8266 With Arduino IDE](https://www.youtube.com/watch?v=48JUh8Vlea4) - youtube
-* [LEAP#134 BidirectionalLevelShifterModule](../../../Electronics101/BidirectionalLevelShifterModule)
+* [LEAP#134 BidirectionalLevelShifterModule](../../Electronics101/BidirectionalLevelShifterModule)
