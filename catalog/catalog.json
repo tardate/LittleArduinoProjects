@@ -1547,6 +1547,13 @@
         "name": "ESP8266/DIYDevBoard"
     }, 
     {
+        "description": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker", 
+        "relative_path": "ESP8266/MorseBlinky", 
+        "id": "#342", 
+        "categories": "ESP8266", 
+        "name": "ESP8266/MorseBlinky"
+    }, 
+    {
         "description": "first test of an ESP8266 module - serial communication to the SoC", 
         "relative_path": "ESP8266/SerialTest", 
         "id": "#154", 

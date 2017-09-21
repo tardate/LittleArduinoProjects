@@ -1,0 +1,7 @@
+{
+    "id": "#342", 
+    "name": "ESP8266/MorseBlinky", 
+    "description": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker", 
+    "categories": "ESP8266", 
+    "relative_path": "ESP8266/MorseBlinky"
+}

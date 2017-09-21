@@ -13,7 +13,7 @@ Usage:
   $0 bp ProjectName  # new BoldportClub project
   $0 ee ProjectName  # new Electronics101 project
   $0 eq ProjectName  # new Equipment project
-  $0 esp ProjectName  # new ESP8266 project
+  $0 es ProjectName  # new ESP8266 project
   $0 pg ProjectName  # new playground project
   $0 ki ProjectName  # new Kinetics project
   $0 kr ProjectName  # new Kraft project
