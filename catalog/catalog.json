@@ -1554,6 +1554,13 @@
         "name": "ESP8266/MorseBlinky"
     }, 
     {
+        "description": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino", 
+        "relative_path": "ESP8266/Sensors/DHT11", 
+        "id": "#343", 
+        "categories": "ESP8266", 
+        "name": "ESP8266/Sensors/DHT11"
+    }, 
+    {
         "description": "first test of an ESP8266 module - serial communication to the SoC", 
         "relative_path": "ESP8266/SerialTest", 
         "id": "#154", 
