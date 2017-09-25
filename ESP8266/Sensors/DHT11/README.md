@@ -23,7 +23,7 @@ I'm using [ESP8266 core](https://github.com/esp8266/Arduino) with the Arduino ID
 and the Adafruit sensor library to interface with the DHT11:
 
 * [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)
-* [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
+* [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library)
 
 These need to be installed in the Arduino IDE.
 
@@ -48,6 +48,6 @@ Here is a test run:
 * [DHT11 Humidity & Temperature Sensor](http://www.micropik.com/PDF/dht11.pdf) - D-Robotics UK
 * [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)
 * [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)
-* [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
+* [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library)
 * [LEAP#301 DHT11/Basics](../../../playground/DHT11/Basics) - similar project for an Arduino
 * [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap343-esp8266-dht11-sensor-reading.html)
