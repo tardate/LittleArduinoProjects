@@ -1,6 +1,5 @@
-# 344 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ESP8266/micropython/GettingStarted](./ESP8266/micropython/GettingStarted) - getting MicroPython up and running with an ESP-01 ESP8266.
-
+# 345 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/mostap](./BoldportClub/mostap) - upgrading the tap to **modern** CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -110,6 +109,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#340 BoldportClub/IxpandO](./BoldportClub/IxpandO)                                | **Boldport, PCB Design, Port Expander**  an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input |
 | [#311 BoldportClub/Juice](./BoldportClub/Juice)                                    | **Boldport, PCB Design, Power** building the Boldport Juice battery replacement kit (Project #12) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
+| [#345 BoldportClub/mostap](./BoldportClub/mostap)                                  | **Boldport, CMOS**              upgrading the tap to **modern** CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers. |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |

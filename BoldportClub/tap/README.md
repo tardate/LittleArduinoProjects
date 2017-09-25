@@ -136,8 +136,8 @@ scope than the circuit. The important point is that we still see one bounce at l
 ![scope_A_la](./assets/scope_A_la.gif?raw=true)
 
 ## Credits and References
-* [Tap Sensor](./assets/elektor-12-74-TAP.pdf?raw=true) - original circuit and article from elektor magazine December 1974
-* [The Tap](https://www.boldport.com/products/the-tap/) - product information
+* [Tap Sensor](./assets/elektor-12-74-TAP.pdf?raw=true) - original circuit and article from Elektor magazine December 1974
+* [The Tap](https://www.boldport.com/products/the-tap/) - Boldport product information
 * [The Tap](http://www.boldport.club/shop/product/344511320) - in the Boldport shop
 * [The Tap](https://github.com/boldport/tap) - OSH files on GitHub
 * [The Tap](http://community.boldport.club/projects/p05-tap/) - club community site, packed with resources for the project
