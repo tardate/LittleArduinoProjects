@@ -51,7 +51,7 @@ First find the device the CH340G-based USB to UART adapter is connected on, and 
 $ ls /dev/tty.wchusb*
 /dev/tty.wchusbserial14510
 $ export ESP_PORT=/dev/tty.wchusbserial14510
-``
+```
 
 Verify the esptool install and connection by getting the chip_id.
 This requires a switch into flash mode and reset on the dev board before it responds...
@@ -67,7 +67,7 @@ Running stub...
 Stub running...
 Chip ID: 0x009ccdd2
 Hard resetting...
-````
+```
 
 ### Flashing with MicroPython
 
@@ -92,7 +92,6 @@ Stub running...
 Erasing flash (this may take a while)...
 Chip erase completed successfully in 1.2s
 Hard resetting...
-
 ```
 
 Writing the image.
