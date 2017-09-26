@@ -2,12 +2,16 @@
 
 Getting MicroPython up and running with an ESP-01 ESP8266.
 
+![Build](./assets/GettingStarted_build.jpg?raw=true)
+
+[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+
 ## Notes
 
 I first heard about MicroPython from the [kickstarter](http://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers)
 campaign to open source the software.
 
-Although it makes even more sense to use it with a more capable board, I'm starting with a 512kb ESP-01 module,
+Although it makes more sense to use it with a more capable board, I'm starting with a 512kb ESP-01 module,
 hosted in the [LEAP#194 DIYDevBoard](../../DIYDevBoard).
 
 So the first test is to flash the ESP8266 with MicroPython and take it for a test-drive.
@@ -37,7 +41,7 @@ It's python, so install with pip.
 
 ```
 pip install esptool
-``
+```
 
 ### Testing the Connection
 
@@ -140,7 +144,7 @@ False
 
 ### Connecting to WiFi
 
-Obviously 'mySSID' and 'password' are not my real credentials..
+Obviously `mySSID` and `password` are not my real credentials..
 
 ```
 >>> import network
@@ -174,6 +178,7 @@ True
 ### Star Wars Asciimation
 
 This is [a pretty neat demo](http://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/network_tcp.html#star-wars-asciimation)
+.. is this really the whole movie in glorious ascii art!??
 
 ```
 import socket
@@ -182,11 +187,11 @@ addr = addr_info[0][-1]
 s = socket.socket()
 s.connect(addr)
 while True:
-data = s.recv(500)
-print(str(data, 'utf8'), end='')
+    data = s.recv(500)
+    print(str(data, 'utf8'), end='')
 ```
 
-Here are some console clips...
+Some console clips...
 
 ![asciimation_1](./assets/asciimation_1.png?raw=true)
 ![asciimation_2](./assets/asciimation_2.png?raw=true)
