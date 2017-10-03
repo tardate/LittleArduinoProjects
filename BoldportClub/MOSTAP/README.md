@@ -109,6 +109,18 @@ Replacing the link with a switch allows the operating mode to be selected:
 
 ![mostap_build](./assets/mostap_build.jpg?raw=true)
 
+### Performance
+
+The mostap performs excellently as a touch switch - with none of the bouncing and transients I'd seen in the original tap.
+
+Here's a capture of a set of tap outputs when activated:
+
+* CH1 (yellow) - A output
+* CH2 (blue) - A' output
+
+The mostap was mounted in my test jig for this, and the supply voltage set at 5V.
+
+![scope_trigger](./assets/scope_trigger.gif?raw=true)
 
 ## Credits and References
 * [MOS TAP](./assets/elektor-02-75-MOSTAP.pdf?raw=true) - original circuit and article from Elektor magazine February 1975
