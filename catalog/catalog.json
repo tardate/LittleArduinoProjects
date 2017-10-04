@@ -616,6 +616,13 @@
         "name": "SRLatchFlipper"
     }, 
     {
+        "description": "Set-Reset latch implemented with NAND gates", 
+        "relative_path": "Electronics101/DigitalLogic/SRLatchWithNandGates", 
+        "id": "#346", 
+        "categories": "Logic Gates, CMOS/TTL", 
+        "name": "SRLatchWithNandGates"
+    }, 
+    {
         "description": "Set-Reset latch implemented with NOR gates", 
         "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates", 
         "id": "#077", 

@@ -1,0 +1,7 @@
+{
+    "id": "#346", 
+    "name": "SRLatchWithNandGates", 
+    "description": "Set-Reset latch implemented with NAND gates", 
+    "categories": "Logic Gates, CMOS/TTL", 
+    "relative_path": "Electronics101/DigitalLogic/SRLatchWithNandGates"
+}

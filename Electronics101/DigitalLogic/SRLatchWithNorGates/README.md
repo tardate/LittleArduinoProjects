@@ -16,6 +16,15 @@ Ben Eater has a great video explaining SR latch behaviour:
 
 [![KM0DdEaY5sY](http://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](http://www.youtube.com/watch?v=KM0DdEaY5sY)
 
+### Truth Table
+
+| Set(t) | Reset(t) | Output Q(t+1) |
+|--------|----------|---------------|
+|      0 |        0 | no change     |
+|      0 |        1 | 0             |
+|      1 |        0 | 1             |
+|      1 |        1 | invalid state |
+
 ### Construction
 
 ![The Breadboard](./assets/SRLatchWithNorGates_bb.jpg?raw=true)

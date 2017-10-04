@@ -1,5 +1,6 @@
-# 345 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/mostap](./BoldportClub/mostap) - upgrading the tap to **modern** CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic.
+# 346 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SRLatchWithNandGates](./Electronics101/DigitalLogic/SRLatchWithNandGates) - set-Reset latch implemented with NAND gates.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -346,7 +347,8 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#022 Square Wave - Schmitt](./Electronics101/SchmittOscillator)                   | **CMOS/TTL, Oscillators**       using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave |
 | [#061 SRLatch](./Electronics101/DigitalLogic/SRLatch)                              | **Logic Gates, BJT**            Set/Reset latch with BJTs |
 | [#062 SRLatchFlipper](./Electronics101/DigitalLogic/SRLatchFlipper)                | **Logic Gates, BJT, Arduino**   Set/Reset latch with BJTs, controlled and monitored by an Arduino |
-| [#077 SRLatchWithNorGates](./Electronics101/DigitalLogic/SRLatchWithNorGates)      | **Logic Gates, CMOS/TTL**           Set-Reset latch implemented with NOR gates |
+| [#346 SRLatchWithNandGates](./Electronics101/DigitalLogic/SRLatchWithNandGates)    | **Logic Gates, CMOS/TTL**       Set-Reset latch implemented with NAND gates |
+| [#077 SRLatchWithNorGates](./Electronics101/DigitalLogic/SRLatchWithNorGates)      | **Logic Gates, CMOS/TTL**       Set-Reset latch implemented with NOR gates |
 | [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, 555 Timer, Oscillators**  generate a stair-step waveform with analog components |
 | [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
