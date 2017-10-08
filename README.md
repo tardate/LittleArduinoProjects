@@ -78,7 +78,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
-| [#309 AudioConnectors](./Electronics101/AudioConnectors)                           | **Audio, Connectors**           notes on miscellaneous audio connectors |
+| [#309 AudioConnectors](./Electronics101/Connectors/Audio)                          | **Audio, Connectors**           notes on miscellaneous audio connectors |
 | [#235 AudioDSP](./playground/AudioDSP)                                             | **Audio, Arduino, DSP, OpAmp**  build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash |
 | [#236 AudioDSP/Boost](./playground/AudioDSP/Boost)                                 | **Audio, Arduino, DSP, OpAmp**  arduino DSP boost effect based on the pedalSHIELD by electrosmash |
 | [#238 AudioDSP/Crunch](./playground/AudioDSP/Crunch)                               | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash |
@@ -281,13 +281,13 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
 | [#330 Power/Any2AnyPowerPack](./Electronics101/Power/Any2AnyPowerPack)             | **Power**                       a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors |
-| [#329 Power/Connectors](./Electronics101/Power/Connectors)                         | **Power**                       obsessing over all manner of DC power connectors |
 | [#165 Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter |
 | [#026 Power317](./Electronics101/Power317)                                         | **Power**                       test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator |
 | [#092 Power317CC](./Electronics101/Power317CC)                                     | **Power**                       test a constant current power supply built with the LM317 |
 | [#027 Power7805](./Electronics101/Power7805)                                       | **Power**                       test and graph a voltage supply built with an LM7805 5V Regulated Supply |
 | [#153 PowerAMS1117](./Electronics101/PowerAMS1117)                                 | **Power**                       test an AMS1117 3.3V linear regulator |
 | [#060 PowerBreadboard5V](./Electronics101/PowerBreadboard5V)                       | **Power**                       custom regulated 5V power supply module for standard breadboard |
+| [#329 PowerConnectors](./Electronics101/Connectors/Power)                          | **Power**                       obsessing over all manner of DC power connectors |
 | [#152 PowerLD1117](./Electronics101/PowerLD1117)                                   | **Power**                       test an LD1117 3.3V linear regulator |
 | [#028 PowerMB102](./Electronics101/PowerMB102)                                     | **Power**                       demo and test a commercial 3.3/5V MB102 breadboard power supply unit |
 | [#182 PowerSupply317Kit](./Electronics101/PowerSupply317Kit)                       | **Power**                       build and test a mains-powered 1.25V-12V DC LM317 power supply kit |

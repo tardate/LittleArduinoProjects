@@ -2,7 +2,7 @@
 
 Obsessing over all manner of DC power connectors.
 
-![Connectors_build](./assets/Connectors_build.jpg?raw=true)
+![Power_build](./assets/Power_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 

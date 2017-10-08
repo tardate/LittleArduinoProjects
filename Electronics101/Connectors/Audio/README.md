@@ -2,7 +2,7 @@
 
 Notes on miscellaneous audio connectors.
 
-![Build](./assets/AudioConnectors_build.jpg?raw=true)
+![Audio_build](./assets/Audio_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 

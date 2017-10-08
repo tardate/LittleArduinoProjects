@@ -399,13 +399,6 @@
         "name": "VolumeControlPowerAmp"
     }, 
     {
-        "description": "notes on miscellaneous audio connectors", 
-        "relative_path": "Electronics101/AudioConnectors", 
-        "id": "#309", 
-        "categories": "Audio, Connectors", 
-        "name": "AudioConnectors"
-    }, 
-    {
         "description": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
         "relative_path": "Electronics101/AudioEffectsChips/H823", 
         "id": "#292", 
@@ -579,6 +572,20 @@
         "id": "#052", 
         "categories": "OpAmp", 
         "name": "Comparator741"
+    }, 
+    {
+        "description": "notes on miscellaneous audio connectors", 
+        "relative_path": "Electronics101/Connectors/Audio", 
+        "id": "#309", 
+        "categories": "Audio, Connectors", 
+        "name": "AudioConnectors"
+    }, 
+    {
+        "description": "obsessing over all manner of DC power connectors", 
+        "relative_path": "Electronics101/Connectors/Power", 
+        "id": "#329", 
+        "categories": "Power", 
+        "name": "PowerConnectors"
     }, 
     {
         "description": "a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter", 
@@ -1048,13 +1055,6 @@
         "id": "#330", 
         "categories": "Power", 
         "name": "Power/Any2AnyPowerPack"
-    }, 
-    {
-        "description": "obsessing over all manner of DC power connectors", 
-        "relative_path": "Electronics101/Power/Connectors", 
-        "id": "#329", 
-        "categories": "Power", 
-        "name": "Power/Connectors"
     }, 
     {
         "description": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up", 
