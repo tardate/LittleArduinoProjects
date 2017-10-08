@@ -588,6 +588,13 @@
         "name": "PowerConnectors"
     }, 
     {
+        "description": "notes on miscellaneous RF connectors", 
+        "relative_path": "Electronics101/Connectors/RF", 
+        "id": "#347", 
+        "categories": "RF, Connectors", 
+        "name": "RF Connectors"
+    }, 
+    {
         "description": "a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter", 
         "relative_path": "Electronics101/CrystalTester", 
         "id": "#141", 

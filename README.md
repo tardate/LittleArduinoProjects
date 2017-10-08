@@ -1,6 +1,5 @@
-# 346 Little Electronics and Arduino Projects
+# 347 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [SRLatchWithNandGates](./Electronics101/DigitalLogic/SRLatchWithNandGates) - set-Reset latch implemented with NAND gates.
-
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -316,6 +315,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#107 RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
 | [#108 RingCounterController](./playground/RingCounterController)                   | **CMOS, Arduino**               control the classic CD4017 walking-ring counter with an Arduino |
 | [#144 RingOscillator](./Electronics101/RingOscillator)                             | **CMOS/TTL, Oscillators**       test an oscillator built with a 74LS14 Inverter chip |
+| [#347 RF Connectors](./Electronics101/Connectors/RF)                               | **RF, Connectors**              notes on miscellaneous RF connectors |
 | [#063 RFSwitch](./Electronics101/RFSwitch)                                         | **RF, OpAmp**                   simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
 | [#064 RFSwitchASK](./playground/RFSwitchASK)                                       | **RF, ASK, Arduino**            data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [#008 RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                                  | **LED Array, Arduino**          quick test to make sure LEDs are correctly addressable and their color can be set correctly |
