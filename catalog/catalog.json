@@ -616,6 +616,13 @@
         "name": "AsyncJKCounter"
     }, 
     {
+        "description": "building a D Latch with 74LS00 NAND gates", 
+        "relative_path": "Electronics101/DigitalLogic/DLatch", 
+        "id": "#348", 
+        "categories": "Logic Gates, CMOS/TTL", 
+        "name": "DLatch"
+    }, 
+    {
         "description": "Set/Reset latch with BJTs", 
         "relative_path": "Electronics101/DigitalLogic/SRLatch", 
         "id": "#061", 

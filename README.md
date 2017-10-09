@@ -1,5 +1,5 @@
-# 347 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SRLatchWithNandGates](./Electronics101/DigitalLogic/SRLatchWithNandGates) - set-Reset latch implemented with NAND gates.
+# 348 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DLatch](./Electronics101/DigitalLogic/DLatch) - building a D Latch with NAND gates.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -154,6 +154,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#264 DigitalPots/MCP42010](./Electronics101/DigitalPots/MCP42010)                 | **Arduino, Digital Pot, MCP42010** control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardware SPI |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
+| [#348 DLatch](./Electronics101/DigitalLogic/DLatch)                                | **Logic Gates, CMOS/TTL**       building a D Latch with 74LS00 NAND gates |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |
 | [#219 DS18S20/OneWireReading](./playground/DS18S20/OneWireReading)                 | **Sensors, Arduino**            basic interrogation of a DS18S20 using 1-wire protocol |
 | [#166 DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
