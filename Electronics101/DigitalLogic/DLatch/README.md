@@ -19,6 +19,8 @@ The Gated D latch:
 
 The gated D latch is a fundamental 1-bit memory unit, and is at the core of much digital logic design.
 
+[![Gated_D_latch_symbol](https://upload.wikimedia.org/wikipedia/commons/c/cb/Gated_D_latch_symbol.png)](https://commons.wikimedia.org/wiki/File:Gated_D_latch_symbol.png)
+
 
 ### Truth Table
 
