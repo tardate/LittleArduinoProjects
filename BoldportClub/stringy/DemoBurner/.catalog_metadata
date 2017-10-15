@@ -1,0 +1,7 @@
+{
+    "id": "#349", 
+    "name": "stringy/DemoBurner", 
+    "description": "burning a new demo mode for the Boldport Club Stringy, with a Ruby script for MusicXML conversion", 
+    "categories": "Boldport, PIC", 
+    "relative_path": "BoldportClub/stringy/DemoBurner"
+}

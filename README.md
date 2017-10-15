@@ -1,5 +1,5 @@
-# 348 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DLatch](./Electronics101/DigitalLogic/DLatch) - building a D Latch with NAND gates.
+# 349 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [stringy/DemoBurner](./BoldportClub/stringy/DemoBurner) - burning a new demo mode for the Boldport Club Stringy, with a Ruby script for MusicXML conversion.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -354,6 +354,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
+| [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby script for MusicXML conversion |
 | [#015 StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
 | [#123 SuperheterodyneReceiverKit](./Electronics101/SuperheterodyneReceiverKit)     | **RF**                          build and analyse a basic commercial radio recevier kit |
 | [#066 Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |

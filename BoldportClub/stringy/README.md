@@ -45,6 +45,22 @@ But for now, I'm too distracted just playing tunes;-)
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
+
+#### PIC12F1840 Specs
+
+The [microchip PIC12F1840](http://www.microchip.com/wwwproducts/en/PIC12F1840) site has plenty of info and datasheets for the processor. The core specs:
+
+* 7kb flash memory
+* 256 bytes RAM
+* 256 bytes EEPROM
+* 5 I/O Pins and 1 Input-Only Pin
+* 4 channels ADC (10-bit)
+* 1 comparator
+* 2 x 8-bit, 1 x 16-bit timers
+* Internal 32MHz oscillator
+
+![PIC12F1840_pinout](./assets/PIC12F1840_pinout.png?raw=true)
+
 ## Construction
 
 ![assembled_front](./assets/assembled_front.jpg?raw=true)
@@ -61,6 +77,7 @@ But for now, I'm too distracted just playing tunes;-)
 * [stringy](https://www.boldport.com/products/stringy/) - Boldport Product Page
 * [stringy](http://community.boldport.club/projects/p14-stringy/) - on the community site
 * [stringy software](https://github.com/boldport/stringy/tree/master/software)
+* [Microchip PIC12F1840](http://www.microchip.com/wwwproducts/en/PIC12F1840) - product info and datasheet
 * [MadLab's 'Funky guitar'](http://www.madlab.org/kits/guitar.html)
 * [Karplus–Strong](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis)
 * [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap323-boldport-club-stringy.html)

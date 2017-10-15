@@ -1,0 +1,186 @@
+;**************************************************************************
+;** 'Yellow Rose of Texas' ************************************************
+;**************************************************************************
+
+	tstart YellowRoseOfTexas
+
+	tnote G1,1,0		; There's a
+	tnote F1,1,0
+
+	tnote E1,2,0		; yellow rose in
+	tnote G1,2,0
+	tnote G1,2,0
+	tnote G1,2,0
+
+	tnote A1,2,0		; Texas that
+	tnote G1,4,0
+	tnote F1,2,0
+
+	tnote E1,2,0		; I am gon-na
+	tnote G1,2,0
+	tnote C2,3,0
+	tnote D2,1,0
+
+	toctave +1			; see. No-
+	tnote E1,4,2
+	tnote E1,2,0
+	toctave -1
+
+	toctave +1			; body else could
+	tnote E1,2,0
+	toctave -1
+	tnote G1,2,0
+	tnote G1,2,0
+	toctave +1
+	tnote E1,2,0
+	toctave -1
+
+	toctave +1			; miss her not
+	tnote E1,2,0
+	toctave -1
+	tnote D2,4,0
+	tnote C2,2,0
+
+	tnote B1,1,0		; half as much as
+	tnote C2,3,0
+	tnote D2,3,0
+	toctave +1
+	tnote E1,1,0
+	toctave -1
+
+	tnote D2,4,2		; me. She
+	tnote G1,2,0
+
+	tnote E1,2,0		; cried so when I
+	tnote G1,2,0
+	tnote G1,2,0
+	tnote G1,2,0
+
+	tnote A1,2,0		; left her t'was
+	tnote G1,4,0
+	tnote F1,2,0
+
+	tnote E1,3,0		; like it broke her
+	tnote G1,1,0
+	tnote C2,2,0
+	tnote D2,2,0
+
+	toctave +1			; heart. And
+	tnote E1,4,2
+	toctave -1
+	tnote G1,2,0
+
+	tnote G1,2,0		; if I ev-er
+	tnote F1,2,0
+	tnote F1,2,0
+	tnote F1,2,0
+
+	toctave +1			; find her we
+	tnote F1,1,0
+	tnote E1,1,0
+	tnote E1,4,0
+	toctave -1
+	tnote D2,2,0
+
+	tnote C2,3,0		; nev-er more will
+	tnote G1,1,0
+	toctave +1
+	tnote E1,2,0
+	toctave -1
+	tnote D2,2,0
+
+	tnote C2,4,2		; part. She's the
+	tnote G1,1,0
+	tnote F1,1,0
+
+	tnote E1,2,0		; sweet-est litt-le
+	tnote G1,2,0
+	tnote C2,2,0
+	tnote E1,2,0
+
+	tnote E1,1,0		; rose bud that
+	tnote G1,3,2
+	tnote F1,2,0
+
+	tnote E1,2,0		; Tex-as ev-er
+	tnote G1,2,0
+	tnote C2,3,0
+	tnote D2,1,0
+
+	toctave +1			; knew. Her
+	tnote E1,4,2
+	toctave -1
+	tnote G1,2,0
+
+	tnote G1,2,0		; eyes are bright as
+	toctave +1
+	tnote E1,2,0
+	tnote E1,2,0
+	tnote E1,2,0
+	toctave -1
+
+	toctave +1			; diamonds they
+	tnote E1,2,0
+	toctave -1
+	tnote D2,4,0
+	tnote C2,2,0
+
+	tnote B1,2,0		; sparkle like the
+	tnote C2,2,0
+	tnote D2,3,0
+	toctave +1
+	tnote E1,1,0
+	toctave -1
+
+	tnote D2,4,2		; dew. You may
+	tnote G1,1,0
+	tnote F1,1,0
+
+	tnote E1,2,0		; talk about your
+	tnote G1,2,0
+	tnote G1,2,0
+	tnote G1,2,0
+
+	tnote A1,2,0		; Clementine and
+	tnote G1,2,0
+	tnote G1,3,0
+	tnote G1,1,0
+
+	tnote E1,2,0		; sing of Ro-sa
+	tnote G1,2,0
+	tnote C2,3,0
+	tnote D2,1,0
+
+	toctave +1			; Lee, but the
+	tnote E1,4,2
+	toctave -1
+	tnote G1,1,0
+	tnote G1,1,0
+
+	tnote G1,2,0		; yellow rose of
+	toctave +1
+	tnote F1,2,0
+	tnote F1,2,0
+	tnote F1,2,0
+	toctave -1
+
+	toctave +1			; Texas is the
+	tnote F1,2,0
+	tnote E1,2,0
+	toctave -1
+	tnote D2,3,0
+	tnote C2,1,0
+
+	tnote C2,3,0		; on-ly girl for
+	tnote G1,1,0
+	toctave +1
+	tnote E1,2,0
+	toctave -1
+	tnote D2,2,0
+
+	tnote C2,4,0		; me.
+	tnote C2,4,0
+
+	trest 6
+
+	tstop
