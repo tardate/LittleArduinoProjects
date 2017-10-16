@@ -81,7 +81,7 @@ Connecting up the programmer, and I'm seeing the device OK..
 
 ![programmer_connected](./assets/programmer_connected.png?raw=true)
 
-And it programms without error..
+And it programs without error..
 ```
 *****************************************************
 
@@ -106,7 +106,7 @@ User Id Memory
 Programming/Verify complete
 ```
 
-Note that I've neabled powering the device, so I can test it without having to install a battery.
+Note that I've enabled powering the device, so I can test it without having to install a battery.
 Out of habit, I set the voltage at 4.75V instead of 5V, as the PICkit 3 is prone to errors otherwise.
 
 Power up the stringy, and it works just fine. So far so good!
@@ -116,7 +116,7 @@ Power up the stringy, and it works just fine. So far so good!
 
 So the final thing I want to do for now is burn new demo track.
 
-.. but, I don't want to be transcribing/composing in assembler, so instead I "assembled" this workflow:
+.. but I don't want to be transcribing/composing in assembler, so instead I "assembled" this workflow:
 
 * score in [Guitar Pro](https://www.guitar-pro.com/en/index.php)
 * export to MusicXML
@@ -129,12 +129,12 @@ Olé!
 See the music sources in [examples](./examples) - `*.gp` is the Guitar Pro file, `*.xml` is the MusicXML export.
 
 My first attempts were with some quite complex scores and I immediately ran into the major problem:
-the current stringy code only allows for 2-bits worth of not duration, which doesn't cut it
+the current stringy code only allows for 2-bits worth of note duration, which doesn't cut it
 for anything ranging from half notes to 32nd's, with dotted notes and ties!
 
 So I limited myself and found a nice (appropriately named) candidate - the main riff from Deep Purple's Burn.
 I still had to simplify the transcription somewhat to encourage the stringy to play it decently,
-and I think the result is "OK".
+and I think the result is "OK" .. see it on [YouTube](https://youtu.be/Jn1iYxQHtXs).
 
 ### MusicXML Conversion
 
@@ -204,7 +204,7 @@ Useful to:
 
 ### Next Steps
 
-In investigating the original source, I've seen a few areas that might be worth working on:
+After investigating the original source, I've seen a few areas that might be worth working on:
 
 * finer-grained duration control. 2 bits isn't enough for more complex scores
 * running longer tracks. When I tried longer pieces, I suspect I ran into memory addressing limits or possibly timing bugs  - not sure which yet, but 20 odd measures in, the stringy would go haywire.
