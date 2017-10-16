@@ -1,10 +1,10 @@
 # #349 stringy/DemoBurner
 
-Burning a new demo mode for the Boldport Club Stringy, with a Ruby script for MusicXML conversion.
+Burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler.
 
 A quick video of the the new demo...
 
-[![Build](./assets/DemoBurner_build.jpg?raw=true)](https://youtu.be/Jn1iYxQHtXs)
+[![Build](http://img.youtube.com/vi/Jn1iYxQHtXs/0.jpg)](https://youtu.be/Jn1iYxQHtXs)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -120,13 +120,13 @@ So the final thing I want to do for now is burn new demo track.
 
 * score in [Guitar Pro](https://www.guitar-pro.com/en/index.php)
 * export to MusicXML
-* convert to assembler for the stringy with a Ruby script (gem) stringyfi
+* convert to assembler for the stringy with a Ruby gem [StringyFi](https://github.com/tardate/stringyfi)
 * compile with [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
 * program the stringy using a PICkit 3
 
 Olé!
 
-See the music sources in [examples](./examples) - *.gp is the Guitar Pro file, *.xml is the MusicXML export.
+See the music sources in [examples](./examples) - `*.gp` is the Guitar Pro file, `*.xml` is the MusicXML export.
 
 My first attempts were with some quite complex scores and I immediately ran into the major problem:
 the current stringy code only allows for 2-bits worth of not duration, which doesn't cut it
@@ -144,7 +144,7 @@ It currently pays no attemption to original tempo, and doesn't support many nota
 
 ### Installing the Coverter
 
-there's a Gemfile waiting to install in this directory. Assuming you have a working Ruby environment:
+There's a Gemfile waiting to install in this directory. Assuming you have a working Ruby environment:
 
 ```
 $ gem install bundler  # if not already installed
@@ -212,7 +212,8 @@ In investigating the original source, I've seen a few areas that might be worth 
 
 ## Credits and References
 * [LEAP#323 stringy](../) - my original stringy build and project info
+* [StringyFi](https://github.com/tardate/stringyfi) - source for the MusicXML conversion gem
 * [Original String Source](https://github.com/boldport/stringy/blob/master/software)
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
 * [Guitar Pro](https://www.guitar-pro.com/en/index.php)
-
+* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap349-burn-a-new-demo-for-the-stringy.html)
