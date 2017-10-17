@@ -136,6 +136,10 @@ So I limited myself and found a nice (appropriately named) candidate - the main 
 I still had to simplify the transcription somewhat to encourage the stringy to play it decently,
 and I think the result is "OK" .. see it on [YouTube](https://youtu.be/Jn1iYxQHtXs).
 
+Here's the simplified score:
+
+![BurnIntro](./examples/BurnIntro.png?raw=true)
+
 ### MusicXML Conversion
 
 I clobbered together some routines I'd used before into a simple converter packaged as the Ruby gem `stringyfi`.
