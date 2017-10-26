@@ -1,5 +1,5 @@
 # 350 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LiteWings](./Kraft/CircuitScribe/LiteWings) - learning about conductive ink with the CircuitSCibe LiteWings kit.
+> Latest addition:sparkles: [LiteWings](./Kraft/CircuitScribe/LiteWings) - learning about conductive ink with the CircuitScribe LiteWings kit.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -230,7 +230,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#179 LEDx16Module](./playground/LEDx16Module)                                     | **CMOS/TTL, SMD, Arduino**          a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [#010 LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
-| [#350 LiteWings](./Kraft/CircuitScribe/LiteWings)                                  | **Conductive Ink**              learning about conductive ink with the CircuitSCibe LiteWings kit |
+| [#350 LiteWings](./Kraft/CircuitScribe/LiteWings)                                  | **Conductive Ink**              learning about conductive ink with the CircuitScribe LiteWings kit |
 | [#095 LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
 | [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |

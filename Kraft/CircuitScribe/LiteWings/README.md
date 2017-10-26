@@ -1,6 +1,6 @@
 # #350 CircuitScribe/LiteWings
 
-Learning about conductive ink with the CircuitSCibe LiteWings kit.
+Learning about conductive ink with the CircuitScribe LiteWings kit.
 
 ![Build](./assets/LiteWings_build.jpg?raw=true)
 
@@ -32,7 +32,7 @@ It is pretty simple!
 
 Depending on how densly one colors in a "wire", the resistance can range from 35Ω to 75Ω (as measured on my attempts).
 
-The batteries supplied were CR1215 3V, so no extra current-limiting resistance required for the LEDs.
+The batteries supplied were CR1216 3V, so no extra current-limiting resistance required for the LEDs.
 
 The circuit is as simple as you can get:
 
