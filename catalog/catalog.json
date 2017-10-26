@@ -1666,6 +1666,13 @@
         "name": "StirlingEngineHB13"
     }, 
     {
+        "description": "learning about conductive ink with the CircuitSCibe LiteWings kit", 
+        "relative_path": "Kraft/CircuitScribe/LiteWings", 
+        "id": "#350", 
+        "categories": "Conductive Ink", 
+        "name": "LiteWings"
+    }, 
+    {
         "description": "building LED effects for a Glass Eye Studio Celestial Planet Weight", 
         "relative_path": "Kraft/GlowBall", 
         "id": "#338", 
