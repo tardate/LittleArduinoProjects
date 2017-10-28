@@ -19,6 +19,7 @@ Usage:
   $0 kr ProjectName  # new Kraft project
   $0 os ProjectName  # new OSHChip project
   $0 pi ProjectName  # new PIC project
+  $0 sd ProjectName  # new SDR project
 
 EOF
   exit
@@ -149,8 +150,12 @@ os)
   make_project "OSHChip" "${2}"
   ;;
 
-pi)
+pi | pic)
   make_project "PIC" "${2}"
+  ;;
+
+sd | sdr)
+  make_project "SDR" "${2}"
   ;;
 
 *)

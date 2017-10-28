@@ -2448,5 +2448,12 @@
         "id": "#265", 
         "categories": "Arduino, Digital Pot, MCP42010, Oscilloscope", 
         "name": "XYplotter"
+    }, 
+    {
+        "description": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)", 
+        "relative_path": "SDR/RtlSdrDongle", 
+        "id": "#351", 
+        "categories": "SDR, Radio, RF", 
+        "name": "RtlSdrDongle"
     }
 ]

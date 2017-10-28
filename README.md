@@ -1,5 +1,5 @@
-# 350 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LiteWings](./Kraft/CircuitScribe/LiteWings) - learning about conductive ink with the CircuitScribe LiteWings kit.
+# 351 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [RtlSdrDongle](./SDR/RtlSdrDongle) - getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR).
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -324,6 +324,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#118 RotaryEncoderMethods](./playground/RotaryEncoderMethods)                     | **Sensor, Arduino**             finding the best method for reading a rotary-encoder |
 | [#119 RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
+| [#351 RtlSdrDongle](./SDR/RtlSdrDongle)                                            | **SDR, Radio, RF**              getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
 | [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
