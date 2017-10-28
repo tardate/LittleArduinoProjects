@@ -2450,10 +2450,17 @@
         "name": "XYplotter"
     }, 
     {
+        "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
+        "relative_path": "SDR/DecodingACARS", 
+        "id": "#352", 
+        "categories": "SDR, Radio, RF", 
+        "name": "Decoding ACARS"
+    }, 
+    {
         "description": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)", 
         "relative_path": "SDR/RtlSdrDongle", 
         "id": "#351", 
         "categories": "SDR, Radio, RF", 
-        "name": "RtlSdrDongle"
+        "name": "RTL-SDR Dongle"
     }
 ]

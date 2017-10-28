@@ -1,5 +1,5 @@
-# 351 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [RtlSdrDongle](./SDR/RtlSdrDongle) - getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR).
+# 352 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Decoding ACARS](./SDR/DecodingACARS) - decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -144,6 +144,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 voltage sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
+| [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio, RF**              decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
 | [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
@@ -324,7 +325,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#118 RotaryEncoderMethods](./playground/RotaryEncoderMethods)                     | **Sensor, Arduino**             finding the best method for reading a rotary-encoder |
 | [#119 RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
-| [#351 RtlSdrDongle](./SDR/RtlSdrDongle)                                            | **SDR, Radio, RF**              getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
+| [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio, RF**              getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
 | [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |

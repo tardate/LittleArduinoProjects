@@ -1,4 +1,4 @@
-# #351 RtlSdrDongle
+# #351 RTL-SDR Dongle
 
 Getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR).
 
@@ -22,7 +22,7 @@ I'm testing this with my favourite MacOSX machine.
 
 Cheap SDR dongles?
 Apparently it all started when a bunch of folks (Antti Palosaari, Eric Fry and Osmocom)
-found that the signal I/Q data could be accessed directly from the RealTek RTL2832U digital TV tuner chip,
+found that the signal I/Q data could be accessed directly from the Realtek RTL2832U digital TV tuner chip,
 allowing it to be turned into a wideband software defined radio receiver with just a little extra hardware and softare.
 
 Combined with a tuner front-end (commonly the Rafael Micro R820T2) in a USB dongle package with dinky antenna,
@@ -45,7 +45,7 @@ but in essence:
 
 The [RTL2832U](http://www.realtek.com.tw/products/productsView.aspx?Langid=1&PFid=35&Level=4&Conn=3&ProdID=257)
 is a digital TV demodulator that supports a USB 2.0 interface and requires a front-end tuner.
-It is produced by RealTek of Taiwan.
+It is produced by Realtek of Taiwan.
 
 ### How they Work together
 
@@ -185,11 +185,11 @@ Air traffic control (AM voice)..
 * [NI5L USB2.0 Digital DVB-T SDR DAB FM HDTV TV Tuner Receiver Stick RTL2832U+R820T2](https://www.aliexpress.com/item/NI5L-USB2-0Digital-DVB-T-SDR-DAB-FM-HDTV-TV-Tuner-Receiver-Stick-RTL2832U-R820T2-Free/32498634779.html) - from a seller on aliexpress
 * [www.rtl-sdr.com](https://www.rtl-sdr.com/)
 * [Rafael Micro](http://www.rafaelmicro.com/)
-* [RealTek RTL2832U](http://www.realtek.com.tw/products/productsView.aspx?Langid=1&PFid=35&Level=4&Conn=3&ProdID=257)
+* [Realtek RTL2832U](http://www.realtek.com.tw/products/productsView.aspx?Langid=1&PFid=35&Level=4&Conn=3&ProdID=257)
 * [Gqrx](http://gqrx.dk/)
 * [Gqrx - GitHub](https://github.com/csete/gqrx)
 * [CubicSDR](http://cubicsdr.com/)
 * [CubicSDR - GitHub](https://github.com/cjcliffe/CubicSDR)
 * [Spectrum chart for Singapore](https://www.imda.gov.sg/-/media/imda/files/regulation-licensing-and-consultations/frameworks-and-policies/spectrum-management-and-coordination/spectrumchart.pdf?la=en)
 * [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
-* [..as mentioned on my blog](http://localhost:4000/2017/10/leap351-sdr-with-cheap-r820t2-rtl2832u-dongles.html)
+* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap351-sdr-with-cheap-r820t2-rtl2832u-dongles.html)
