@@ -1,0 +1,7 @@
+{
+    "id": "#353", 
+    "name": "DFlipFlop", 
+    "description": "building a clocked D Flip-flop with 74LS00 NAND gates", 
+    "categories": "Logic Gates, CMOS/TTL", 
+    "relative_path": "Electronics101/DigitalLogic/DFlipFlop"
+}

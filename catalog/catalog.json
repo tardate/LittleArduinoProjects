@@ -623,6 +623,13 @@
         "name": "AsyncJKCounter"
     }, 
     {
+        "description": "building a clocked D Flip-flop with 74LS00 NAND gates", 
+        "relative_path": "Electronics101/DigitalLogic/DFlipFlop", 
+        "id": "#353", 
+        "categories": "Logic Gates, CMOS/TTL", 
+        "name": "DFlipFlop"
+    }, 
+    {
         "description": "building a D Latch with 74LS00 NAND gates", 
         "relative_path": "Electronics101/DigitalLogic/DLatch", 
         "id": "#348", 

@@ -1,5 +1,5 @@
-# 352 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Decoding ACARS](./SDR/DecodingACARS) - decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX.
+# 353 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop) - building a clocked D Flip-flop with 74LS00 NAND gates.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -146,6 +146,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio, RF**              decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
 | [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
+| [#353 DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop)                          | **Logic Gates, CMOS/TTL**       building a clocked D Flip-flop with 74LS00 NAND gates |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
