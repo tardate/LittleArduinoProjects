@@ -29,6 +29,10 @@ deliver it as a press-fit plastic kit.
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
+Assembled the "normal" way...
+
+![kit_assembled.jpg](./assets/kit_assembled.jpg.jpg?raw=true)
+
 
 ### Linking the PissOff
 
