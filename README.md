@@ -1,5 +1,5 @@
-# 354 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SpiderBot](./Kinetics/SpiderBot) - Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system.
+# 355 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Snow Flake](./Kraft/snowflake) - an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -343,6 +343,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#279 SingleStageTransmitterKit2](./Electronics101/FM/SingleStageTransmitterKit2)  | **FM**                          build and tweak/tune another simple single-stage FM Transmitter Kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [#096 Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |
+| [#355 Snow Flake](./Kraft/snowflake)                                               | **Kraft, ARM, LED**             an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project |
 | [#296 SolarPendulum](./BoldportClub/QSOPBreakout/SolarPendulum)                    | **Boldport, Solar**             build a solar-powered pendulum similar to the popular "solar wobble/flip-flop toys" on the Boldport QSOP breakout board |
 | [#102 SolenoidControl](./playground/SolenoidControl)                               | **Solenoid, Arduino**           controlling a mini solenoid with an Arduino |
 | [#117 SolenoidDIY](./Electronics101/SolenoidDIY)                                   | **Solenoid, Arduino**           build and test a basic electromechanical solenoid |
