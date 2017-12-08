@@ -143,14 +143,14 @@
         "description": "The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board", 
         "relative_path": "BoldportClub/TheGent", 
         "id": "#284", 
-        "categories": "Boldport, PCB Design", 
+        "categories": "Boldport, PCB Design, Bugs", 
         "name": "BoldportClub/TheGent"
     }, 
     {
         "description": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
         "relative_path": "BoldportClub/TheLady", 
         "id": "#251", 
-        "categories": "Boldport, PCB Design", 
+        "categories": "Boldport, PCB Design, Bugs", 
         "name": "BoldportClub/TheLady"
     }, 
     {
@@ -187,6 +187,13 @@
         "id": "#300", 
         "categories": "Boldport, LED, AS1130", 
         "name": "TheMatrix/LedTest"
+    }, 
+    {
+        "description": "the third in a series of beautiful electronic \"bug\" boards from the Boldport Club, Project #18 October 2017", 
+        "relative_path": "BoldportClub/TheMonarch", 
+        "id": "#357", 
+        "categories": "Boldport, PCB Design, Bugs", 
+        "name": "BoldportClub/TheMonarch"
     }, 
     {
         "description": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)", 

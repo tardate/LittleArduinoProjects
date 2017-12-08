@@ -1,5 +1,5 @@
-# 356 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioEffectsChips/PX088A](./Electronics101/AudioEffectsChips/PX088A) - figuring out how to use the PX088A "Für Elise" music chip.
+# 357 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/TheMonarch](./BoldportClub/TheMonarch) - the third in a series of beautiful electronic "bug" boards from the Boldport Club, Project #18 October 2017.
 
 
 
@@ -119,9 +119,10 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#323 BoldportClub/stringy](./BoldportClub/stringy)                                | **Boldport, PIC, Audio**        building and playing (mainly playing) the Boldport Club Stringy (Project #14) |
 | [#285 BoldportClub/tap](./BoldportClub/tap)                                        | **Boldport, PCB Design, CMOS/TTL** Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available! |
 | [#266 BoldportClub/TheCuttle](./BoldportClub/TheCuttle)                            | **Boldport, PCB Design, ATmega, ATmel, Arduino** the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6) |
-| [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design**        a ladybird soldering and display kit from The Boldport Club (Project #4) |
-| [#284 BoldportClub/TheGent](./BoldportClub/TheGent)                                | **Boldport, PCB Design**        The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board |
+| [#284 BoldportClub/TheGent](./BoldportClub/TheGent)                                | **Boldport, PCB Design, Bugs**  The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board |
+| [#251 BoldportClub/TheLady](./BoldportClub/TheLady)                                | **Boldport, PCB Design, Bugs**  a ladybird soldering and display kit from The Boldport Club (Project #4) |
 | [#299 BoldportClub/TheMatrix](./BoldportClub/TheMatrix)                            | **Boldport, PCB Design, LED, AS1130** building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver |
+| [#357 BoldportClub/TheMonarch](./BoldportClub/TheMonarch)                          | **Boldport, PCB Design, Bugs** the third in a series of beautiful electronic "bug" boards from the Boldport Club, Project #18 October 2017 |
 | [#277 BoldportClub/Touchy](./BoldportClub/Touchy)                                  | **Boldport, EFM8, Sensors**     Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#280 BreadboardTransmitter](./Electronics101/FM/BreadboardTransmitter)            | **FM**                          build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3 |
