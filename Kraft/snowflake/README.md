@@ -96,7 +96,7 @@ I don't have a stencil but I decided to try hand-applied paste and hot air. This
 
 The LED side is most challenging, as those suckers are mighty small!
 
-![snowflake_led_side.jpg](./assets/snowflake_led_side.jpg.jpg?raw=true)
+![snowflake_led_side](./assets/snowflake_led_side.jpg?raw=true)
 
 Component-side was more straight-forward, but it was important to test all component connections (
 I had a few that were open after the first pass with hot-air).
@@ -110,7 +110,7 @@ An SWD programmer is required to program the micro controller. Options inclde:
 * [Atmel ICE](http://www.atmel.com/tools/atatmel-ice.aspx)
 * [Black Magic Probe](https://1bitsquared.com/collections/frontpage/products/black-magic-probe)
 * [Segger J-Link](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu-mini/)
-* [STlinkV2](http://www.st.com/en/development-tools/st-link-v2.html) - or a clone form aliexpress;-)
+* [STlinkV2](http://www.st.com/en/development-tools/st-link-v2.html) - or a clone from aliexpress;-)
 * or a DevBoard with built-in programmer
 
 
@@ -121,7 +121,7 @@ I haven't compiled the sources from scratch yet. My first tests were with the bi
 Note: @luckyresistor subsequently added [FirmwareBinaries](https://github.com/LuckyResistor/SnowFlakeProject) to the GitHub project.
 
 The snow flakes have to be programmed individually using a SWD programmer.
-Perhaps someone will tkae up @luckyresistor's challenge to write a boot loader which will automatically write the firmware from the first snow flaker over the data connection to all other snow flakes;-)
+Perhaps someone will take up @luckyresistor's challenge to write a boot loader to automatically write the firmware from the first snow flake over the data connection to all other snow flakes;-)
 
 
 #### Flash with the Black Magic Probe
