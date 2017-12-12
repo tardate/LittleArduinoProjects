@@ -413,6 +413,13 @@
         "name": "AudioEffectsChips/H823"
     }, 
     {
+        "description": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip", 
+        "relative_path": "Electronics101/AudioEffectsChips/PX088A", 
+        "id": "#356", 
+        "categories": "Audio, Music Chips", 
+        "name": "AudioEffectsChips/PX088A"
+    }, 
+    {
         "description": "an audio level indicator kit based on the LM3915", 
         "relative_path": "Electronics101/AudioLevelIndicatorKit", 
         "id": "#202", 

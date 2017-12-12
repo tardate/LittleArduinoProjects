@@ -1,5 +1,6 @@
-# 355 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Snow Flake](./Kraft/snowflake) - an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project.
+# 356 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AudioEffectsChips/PX088A](./Electronics101/AudioEffectsChips/PX088A) - figuring out how to use the PX088A "Für Elise" music chip.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -84,6 +85,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#237 AudioDSP/Distortion](./playground/AudioDSP/Distortion)                       | **Audio, Arduino, DSP, OpAmp**  arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash |
 | [#239 AudioDSP/SuperCrunch](./playground/AudioDSP/SuperCrunch)                     | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash |
 | [#292 AudioEffectsChips/H823](./Electronics101/AudioEffectsChips/H823)             | **Audio, Music Chips**          figuring out how to use the H823 "Happy Birthday" music chip |
+| [#356 AudioEffectsChips/PX088A](./Electronics101/AudioEffectsChips/PX088A)         | **Audio, Music Chips**          figuring out how to use the PX088A "Für Elise" music chip |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
 | [#254 AvrHardwarePWM](./playground/AvrHardwarePWM)                                 | **ATmega, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328 |
 | [#255 AvrHardwarePWM/ATtiny](./playground/AvrHardwarePWM/ATtiny)                   | **ATtiny, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the ATtiny85 |
