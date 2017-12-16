@@ -103,6 +103,11 @@ I had a few that were open after the first pass with hot-air).
 
 ![snowflake_component_side](./assets/snowflake_component_side.jpg?raw=true)
 
+My final 4 Snow Flake's coming off the line:
+
+![snowflake_build_batch](./assets/snowflake_build_batch.jpg?raw=true)
+
+
 ### Programming
 
 An SWD programmer is required to program the micro controller. Options inclde:
@@ -169,13 +174,25 @@ Section .relocate, range 0x33f4 -- 0x345c: matched.
 ![snowflake_programming](./assets/snowflake_programming.jpg?raw=true)
 
 
-### Wiring
+### Power and Wiring
 
 For now with one Snow Flake, I've simply wired a 2xAAA battery pack to the VCC and GND with some "invivible" 30AWG.
 When I have a few more Snow Flakes I'll have to figure out a better arrangement for power and data communications.
 
 ![Build](./assets/snowflake_build2.jpg?raw=true)
 
+### The QRP Challenge!
+
+How much power does a Snow Flake use? @LuckResistor estimates around 18mA, so approximately 100 hours running time with 2 x 900mAh.
+
+My first Snow Flake was deployed to test the theory.
+Powered by 2 "almost new" Panasonic Evolta LR03EG AAA batteries, it ran continuously for 125 hours.
+The batteries were providing 2.35V (in circuit) at this point.
+
+This Snow Flake just won't quit! I finally pulled the plug before it died completely, as it was getting ridicuously dim.
+Here's what it looked like:
+
+[![qrp](http://img.youtube.com/vi/EzU4n3JtcQ4/0.jpg)](http://www.youtube.com/watch?v=EzU4n3JtcQ4)
 
 ## Circuit Schematic
 
