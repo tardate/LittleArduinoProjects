@@ -35,6 +35,75 @@ The Monarch is the third in a series of beautiful electronic "bug" boards from t
 ![Schematic](./assets/TheMonarch_schematic.jpg?raw=true)
 
 
+### My Take on "How it Works"
+
+The core components:
+
+* a 555 astable timer that is enabled when the "feelers" are touched together, running at around [48 Hz](http://visual555.tardate.com/?mode=astable&r1=10&r2=10&c=1)
+* 74HC273 D flip-flop, that latches the input (D) to the output (Q) on the rising edge of the clock input
+* a 74HC86 quad 2-input XOR
+
+Considering an initial condition of all registers (Q) high:
+
+* XOR Y2 = 1 xor 1 = 0
+* XOR Y1 = 1 xor 0 = 1
+* XOR Y4 = 1 xor 1 = 0
+
+So on the next 3 clock cycles:
+
+* input D1=0 cascades to Q1,2,3
+
+On the 4th clock cycle, Q4 goes low, XOR Y4 becomes 1, ... and so on.
+
+I wrote a little script to simulate this.
+
+```
+$ ./lfsr.py
+```
+
+Which outputs (for the first 32 steps)..
+
+|  CLK |  Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
+|------|-----|----|----|----|----|----|----|----|
+|    0 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|    1 |   0 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|    2 |   0 |  0 |  1 |  1 |  1 |  1 |  1 |  1 |
+|    3 |   0 |  0 |  0 |  1 |  1 |  1 |  1 |  1 |
+|    4 |   0 |  0 |  0 |  0 |  1 |  1 |  1 |  1 |
+|    5 |   1 |  0 |  0 |  0 |  0 |  1 |  1 |  1 |
+|    6 |   1 |  1 |  0 |  0 |  0 |  0 |  1 |  1 |
+|    7 |   0 |  1 |  1 |  0 |  0 |  0 |  0 |  1 |
+|    8 |   1 |  0 |  1 |  1 |  0 |  0 |  0 |  0 |
+|    9 |   1 |  1 |  0 |  1 |  1 |  0 |  0 |  0 |
+|   10 |   1 |  1 |  1 |  0 |  1 |  1 |  0 |  0 |
+|   11 |   1 |  1 |  1 |  1 |  0 |  1 |  1 |  0 |
+|   12 |   1 |  1 |  1 |  1 |  1 |  0 |  1 |  1 |
+|   13 |   1 |  1 |  1 |  1 |  1 |  1 |  0 |  1 |
+|   14 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  0 |
+|   15 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|   16 |   0 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|   17 |   0 |  0 |  1 |  1 |  1 |  1 |  1 |  1 |
+|   18 |   0 |  0 |  0 |  1 |  1 |  1 |  1 |  1 |
+|   19 |   0 |  0 |  0 |  0 |  1 |  1 |  1 |  1 |
+|   20 |   1 |  0 |  0 |  0 |  0 |  1 |  1 |  1 |
+|   21 |   1 |  1 |  0 |  0 |  0 |  0 |  1 |  1 |
+|   22 |   0 |  1 |  1 |  0 |  0 |  0 |  0 |  1 |
+|   23 |   1 |  0 |  1 |  1 |  0 |  0 |  0 |  0 |
+|   24 |   1 |  1 |  0 |  1 |  1 |  0 |  0 |  0 |
+|   25 |   1 |  1 |  1 |  0 |  1 |  1 |  0 |  0 |
+|   26 |   1 |  1 |  1 |  1 |  0 |  1 |  1 |  0 |
+|   27 |   1 |  1 |  1 |  1 |  1 |  0 |  1 |  1 |
+|   28 |   1 |  1 |  1 |  1 |  1 |  1 |  0 |  1 |
+|   29 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  0 |
+|   30 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+|   31 |   0 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
+
+
+The repeating pattern is obvious. This is actually an instance of a
+[linear-feedback shift register (LFSR)](https://en.wikipedia.org/wiki/Linear-feedback_shift_register).
+Since The Monarch has XOR taps at Q4, Q6, Q7, Q8, the feedback function can be expressed as `x^8 + x^7 + x^6 + x^4 + 1`
+
+
 ### Construction
 
 ![monarch_build_front](./assets/TheMonarch_build_front.jpg?raw=true)
@@ -74,4 +143,5 @@ Here's a video of the frame:
 * [LM555 datasheet](http://www.futurlec.com/Linear/LM555CM.shtml)
 * [74HC86 datasheet](http://www.futurlec.com/74HC/74HC86.shtml)
 * [Ikea RIBBA Frame](http://www.ikea.com/sg/en/catalog/products/80378437/)
+* [LFSR](https://en.wikipedia.org/wiki/Linear-feedback_shift_register) - wikipedia
 * [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap357-the-monarch.html)
