@@ -48,6 +48,11 @@ which drives an array of 19 white LEDs.
 ![pcb_rear](./assets/pcb_rear.jpg?raw=true)
 
 
+## Circuit Schematic
+
+![Schematic](./assets/snowflake_schematic.jpg?raw=true)
+
+
 ### Power Board
 
 The kit came with a bonus small white board that is an optional small power converter.
@@ -194,9 +199,26 @@ Here's what it looked like:
 
 [![qrp](http://img.youtube.com/vi/EzU4n3JtcQ4/0.jpg)](http://www.youtube.com/watch?v=EzU4n3JtcQ4)
 
-## Circuit Schematic
 
-![Schematic](./assets/snowflake_schematic.jpg?raw=true)
+### A Four-Flake Mobile
+
+I used four Snow Flake to make a little decoration for my [Fretboard](../../Fretboard) CI build status indicator.
+Just a little hack to give it some xmas cheer;-)
+
+I mounted the four snowflakes from an improvised bit of wire art.
+The copper wire carries 3.3V and additional wire (just 30AWG) is ground.
+I didn't wire up the data lines because I thought it would make the wiring too prominent, and synchronisation is not important.
+
+The Fretboard is supplied with 5V/2A, so I tapped 3.3V with an AMS1117-3.3 in an Altoids tin to power the flakes.
+
+Here's the first bench test:
+
+![four_flake_mobile_wip](./assets/four_flake_mobile_wip.jpg?raw=true)
+
+I haven't really been able to capture the full effect in a photo. IRL it is much more impressive and glittery:
+
+![four_flake_mobile](./assets/four_flake_mobile.jpg?raw=true)
+
 
 ## Credits and References
 * [Snow Flake](https://luckyresistor.me/order-snow-flake-panel/) - original order form (currently inactive)
