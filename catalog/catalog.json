@@ -1379,6 +1379,13 @@
         "name": "BasicInvertingBuckBoostAvrControl"
     }, 
     {
+        "description": "build and test an MC34063-based boost converter", 
+        "relative_path": "Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit", 
+        "id": "#358", 
+        "categories": "Power", 
+        "name": "MC34063/ModuleKit"
+    }, 
+    {
         "description": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
         "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost", 
         "id": "#315", 
