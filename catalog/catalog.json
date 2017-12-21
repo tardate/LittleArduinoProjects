@@ -420,6 +420,13 @@
         "name": "AudioEffectsChips/H823"
     }, 
     {
+        "description": "figuring out the HS088 \"Ding Dong\" audio effects chip", 
+        "relative_path": "Electronics101/AudioEffectsChips/HS088", 
+        "id": "#359", 
+        "categories": "Audio, Music Chips", 
+        "name": "AudioEffectsChips/HS088"
+    }, 
+    {
         "description": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip", 
         "relative_path": "Electronics101/AudioEffectsChips/PX088A", 
         "id": "#356", 
