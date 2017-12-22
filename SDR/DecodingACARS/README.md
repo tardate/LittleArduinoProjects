@@ -59,7 +59,7 @@ Usage:  rtl_acars_ng -f freq [-options]
 The [Signal Identification Guide](https://www.sigidwiki.com/wiki/Aircraft_Communications_Addressing_and_Reporting_System_(ACARS))
 indicates I should expect it probaby at 131.550 MHz in my area.
 
-With [CubicSDR](http://cubicsdr.com/) I found ACARS broadcasts centered around 1.31546MHz
+With [CubicSDR](http://cubicsdr.com/) I found ACARS broadcasts centered around 131.546MHz
 
 ![acars](./assets/acars.png?raw=true)
 
