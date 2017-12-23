@@ -1,5 +1,5 @@
-# 359 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioEffectsChips/HS088](./Electronics101/AudioEffectsChips/HS088) - figuring out the HS088 "Ding Dong" audio effects chip.
+# 360 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TL431/ShuntRegulator](./Electronics101/TL431/ShuntRegulator) - testing a TL431 voltage reference (regulator) circuit with manual course and fine trim.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -387,6 +387,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AS1130**       testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
 | [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **FM**                          build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
+| [#360 TL431/ShuntRegulator](./Electronics101/TL431/ShuntRegulator)                 | ** Power, Regulator, Reference** testing a TL431 voltage reference (regulator) circuit with manual course and fine trim |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [#135 TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |
 | [#228 TransistorCurveTracer](./Electronics101/TransistorCurveTracer)               | **OpAmp, 555 Timer, Oscillators**  simple NPN transistor curve tracer using a Stairstep generator circuit |
