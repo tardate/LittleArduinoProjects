@@ -58,3 +58,6 @@
 [submodule "libraries/Adafruit-TFTLCD-Library"]
 	path = libraries/Adafruit-TFTLCD-Library
 	url = https://github.com/adafruit/TFTLCD-Library
+[submodule "libraries/TFT_ILI9163C"]
+	path = libraries/TFT_ILI9163C
+	url = https://github.com/sumotoy/TFT_ILI9163C
