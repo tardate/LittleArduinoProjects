@@ -55,3 +55,6 @@
 [submodule "libraries/DHT-sensor-library"]
 	path = libraries/DHT-sensor-library
 	url = https://github.com/adafruit/DHT-sensor-library
+[submodule "libraries/Adafruit-TFTLCD-Library"]
+	path = libraries/Adafruit-TFTLCD-Library
+	url = https://github.com/adafruit/TFTLCD-Library
