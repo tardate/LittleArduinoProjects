@@ -1,5 +1,5 @@
-# 362 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioEffectsChips/H83A](./Electronics101/AudioEffectsChips/H83A) - figuring out how to use the H-83A "12 songs" music chip.
+# 363 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/binco](./BoldportClub/binco) - BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -103,6 +103,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
+| [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3 |
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
 | [#271 BoldportClub/cordwood/tuner](./BoldportClub/cordwood/tuner)                  | **Boldport, Cordwood, Arduino, Audio** use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp |

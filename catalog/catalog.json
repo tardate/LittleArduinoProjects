@@ -1,5 +1,12 @@
 [
     {
+        "description": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club", 
+        "relative_path": "BoldportClub/binco", 
+        "id": "#363", 
+        "categories": "Boldport, PCB Design, LED, CMOS/TTL", 
+        "name": "BoldportClub/binco"
+    }, 
+    {
         "description": "the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3", 
         "relative_path": "BoldportClub/cordwood", 
         "id": "#269", 
