@@ -2457,6 +2457,13 @@
         "name": "TestIR"
     }, 
     {
+        "description": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
+        "relative_path": "playground/TFT/Color128x128", 
+        "id": "#361", 
+        "categories": "TFT LCD, Arduino", 
+        "name": "TFT/Color128x128"
+    }, 
+    {
         "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
         "relative_path": "playground/TinyBlink", 
         "id": "#071", 

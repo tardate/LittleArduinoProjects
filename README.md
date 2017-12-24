@@ -1,5 +1,6 @@
-# 360 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TL431/ShuntRegulator](./Electronics101/TL431/ShuntRegulator) - testing a TL431 voltage reference (regulator) circuit with manual course and fine trim.
+# 361 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TFT/Color128x128](./playground/TFT/Color128x128) - testing a 128x128 colour TFT LCD with a couple of different Arduino libraries.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -380,6 +381,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#320 SyncJKCounter](./Electronics101/DigitalLogic/SyncJKCounter)                  | **CMOS/TTL, Digital Logic**     a synchronous 8-bit counter built with JK Flip-Flops |
 | [#204 TemperatureLoggerTypeK](./playground/TemperatureLoggerTypeK)                 | **Sensors, Thermocouple, Arduino**  simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors |
 | [#074 TestIR](./playground/TestIR)                                                 | **IR, Arduino**                 test raw IR reception with a TSOP1838-type IR sensor and an Arduino |
+| [#361 TFT/Color128x128](./playground/TFT/Color128x128)                             | **TFT LCD, Arduino**            testing a 128x128 colour TFT LCD with a couple of different Arduino libraries |
 | [#267 TheCuttle/ScopeTag](./BoldportClub/TheCuttle/ScopeTag)                       | **Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope** Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer |
 | [#312 TheMatrix/Firecracker](./BoldportClub/TheMatrix/Firecracker)                 | **Boldport, LED, AS1130, Sensors**  a firecracker simulacrum running on the BoldportClub Matrix |
 | [#302 TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife)                   | **Boldport, LED, AS1130**       a simple implementation of Conway's Game of Life on the BoldportClub Matrix |

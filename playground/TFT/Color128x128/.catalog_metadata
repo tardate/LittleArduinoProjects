@@ -1,0 +1,7 @@
+{
+    "id": "#361", 
+    "name": "TFT/Color128x128", 
+    "description": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
+    "categories": "TFT LCD, Arduino", 
+    "relative_path": "playground/TFT/Color128x128"
+}
