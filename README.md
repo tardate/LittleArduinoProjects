@@ -1,6 +1,7 @@
-# 363 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/binco](./BoldportClub/binco) - BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club.
+# 364 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ClassicNokia](./playground/ClassicNokia) - just a quick transcription of the classic Nokia 3310 ringtone for Arduino.
 
+Just a quick transcription of the classic Nokia 3310 ringtone for Arduino
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -140,6 +141,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#268 ChainBlocks](./playground/ChainBlocks)                                       | **Arduino**                     testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope |
 | [#170 ClapSwitchKit](./Electronics101/ClapSwitchKit)                               | **Oscillators, BJT, Logic Gates** build and analyse a simple clap switch circuit available as a kit |
 | [#258 ClapSwitchKit2](./Electronics101/ClapSwitchKit2)                             | **Oscillators, BJT, Logic Gates** practice some Boldport-style soldering on yet-another clap switch kit |
+| [#364 ClassicNokia](./playground/ClassicNokia)                                     | **Audio, Arduino**              just a quick transcription of the classic Nokia 3310 ringtone for Arduino |
 | [#234 CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator)             | **CMOS, Oscillators**           use a CD4096 to generate an oscillating waveform and plot the results |
 | [#246 CMOSOscillators](./Electronics101/CMOSOscillators)                           | **CMOS, Oscillators**           testing a 4-pin CMOS oscillator component |
 | [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |

@@ -1981,6 +1981,13 @@
         "name": "ChainBlocks"
     }, 
     {
+        "description": "just a quick transcription of the classic Nokia 3310 ringtone for Arduino", 
+        "relative_path": "playground/ClassicNokia", 
+        "id": "#364", 
+        "categories": "Audio, Arduino", 
+        "name": "ClassicNokia"
+    }, 
+    {
         "description": "a general-purpose CD4017 counter module", 
         "relative_path": "playground/CounterModule", 
         "id": "#136", 
