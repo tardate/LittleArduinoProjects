@@ -1995,7 +1995,7 @@
         "name": "CounterModule"
     }, 
     {
-        "description": "test an ACS712 voltage sensor module with display on a 5110 LCD", 
+        "description": "test an ACS712 current sensor module with display on a 5110 LCD", 
         "relative_path": "playground/CurrentSensorModule", 
         "id": "#168", 
         "categories": "Sensors, Arduino", 
