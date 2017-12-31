@@ -1,7 +1,5 @@
-# 366 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Lcd5110/AdafruitSoftwareSPI](./playground/Lcd5110/AdafruitSoftwareSPI) - a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library.
-
-[#366 Lcd5110/AdafruitSoftwareSPI](./playground/Lcd5110/AdafruitSoftwareSPI) - a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library.
+# 367 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [nRF24/Scanner](./playground/nRF24/Scanner) - a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -276,6 +274,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#114 NORGateOscillator](./Electronics101/NORGateOscillator)                       | **CMOS/TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |
 | [#176 nRF24Breakout](./Electronics101/nRF24Breakout)                               | **nRF24, PCB**                  a simple PCB breadboard adapter for 8-pin nRF24 modules |
 | [#187 nRF24/PingPong](./playground/nRF24/PingPong)                                 | **nRF24, Arduino**              two Arduino's entertaining themselves with a game of "ping pong" over nRF24L01+ 2.4GHz RF |
+| [#367 nRF24/Scanner](./playground/nRF24/Scanner)                                   | **nRF24, Arduino**              a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display |
 | [#087 OLED/SSD1306BareBack](./playground/OLED/SSD1306BareBack)                     | **OLED, Arduino**               driving a monochrome 128x64 OLED Display with an Arduino and the raw command set |
 | [#086 OLED/SSD1306WithAdaFruitLibraries](./playground/OLED/SSD1306WithAdaFruitLibraries) | **OLED, Arduino**         running the AdaFruit example program with a monochrome 128x64 OLED Display |
 | [#122 OpAmpTimer](./Electronics101/OpAmpTimer)                                     | **OpAmp, Timer**                testing an OpAmp timer switch |

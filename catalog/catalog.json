@@ -2331,6 +2331,13 @@
         "name": "nRF24/PingPong"
     }, 
     {
+        "description": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display", 
+        "relative_path": "playground/nRF24/Scanner", 
+        "id": "#367", 
+        "categories": "nRF24, Arduino", 
+        "name": "nRF24/Scanner"
+    }, 
+    {
         "description": "an Arduino & OLED version of a classic game", 
         "relative_path": "playground/OLED/ArdWinVaders", 
         "id": "#100", 
