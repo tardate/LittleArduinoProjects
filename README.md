@@ -1,7 +1,6 @@
-# 364 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ClassicNokia](./playground/ClassicNokia) - just a quick transcription of the classic Nokia 3310 ringtone for Arduino.
+# 365 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Lcd5110/AdafruitHardwareSPI](./playground/Lcd5110/AdafruitHardwareSPI) - a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library.
 
-Just a quick transcription of the classic Nokia 3310 ringtone for Arduino
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -210,6 +209,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#306 KeyboardMatrixModule/SwitchInterrupts](./playground/KeyboardMatrixModule/SwitchInterrupts) | **Arduino, Human Input** demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library |
 | [#227 KnightRider](./Electronics101/555Timer/KnightRider)                          | **555 Timer, CMOS, LED**        the familiar "Knight-Rider" LED circuit using a 555 and 4017 |
 | [#324 Labrador](./Equipment/Labrador)                                              | **Tools**                       first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software |
+| [#365 Lcd5110/AdafruitHardwareSPI](./playground/Lcd5110/AdafruitHardwareSPI)       | **LCD, Arduino**                a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
 | [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |
