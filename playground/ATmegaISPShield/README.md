@@ -18,15 +18,32 @@ This project puts a 28-pin DIP socket on a protoboard that can plug into an Ardu
 * LEDs with resistors on MOSI,MISO, and SCK pins
 * breakout sockets for all pins on the ATmega chip
 
-The procedure for programming a 28-pin ATmega chip like the ATMEGA328P-PU on the board is simply:
-* plug the chip into the 28-pin DIP socket
-* plug the board onto an Arduino Uno (or Mega)
-* upload the ArduinoISP sketch to the host Arduino
-* send the desired sketch to the ATmega chip using the "Upload using Programmer" option
-
 The LEDs on the shield will indicated activity during programming. They can also be used for test sketches (the LEDs correspond to digital pins 11, 12 and 13).
 The [ATmegaISPShield.ino](./ATmegaISPShield.ino) sketch included here is a simple variant of the Blink sketch that flashes all the LEDs, and can be used for testing the programmer.
 
+
+### How to Use the Shield
+
+The procedure for programming a 28-pin ATmega chip like the ATMEGA328P-PU on the board is:
+
+* insert an ATmega chip into the 28-pin DIP socket
+* plug the board onto an Arduino Uno (or Mega)
+* program (upload) the Arduino host with the ArduinoISP sketch
+* select `Arduino as ISP` under `Tools > Programmer`
+* send the desired sketch to the ATmega chip using the "Upload using Programmer" option
+
+
+Program the host with the ArduinoISP sketch:
+
+![howto_arduinoisp](./assets/howto_arduinoisp.png?raw=true)
+
+Set the programmer:
+
+![howto_set_programmer](./assets/howto_set_programmer.png?raw=true)
+
+Upload using programmer:
+
+![howto_upload_using_programmer](./assets/howto_upload_using_programmer.png?raw=true)
 
 ## Construction
 
@@ -40,4 +57,3 @@ The [ATmegaISPShield.ino](./ATmegaISPShield.ino) sketch included here is a simpl
 
 ## Credits and References
 * [ATmegaViaArduinoISP](../ATmegaViaArduinoISP) - programming an ATmega via Arduino ISP on a breadboard
-
