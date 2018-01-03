@@ -97,7 +97,7 @@ I decided to package the project in an enclosure:
 * reverse polarity protection
 * it uses external power without a power switch. There probably is room to fit a 9V battery in the case, but I haven't bothered with that right now.
 
-The extended schamtic is available in [EasyEDA](https://easyeda.com/tardate/nRF24_Scanner-e9a2e8c26cc2477ca40301a6f788408e):
+The full schematic for the module is available [here in EasyEDA](https://easyeda.com/tardate/nRF24_Scanner-e9a2e8c26cc2477ca40301a6f788408e):
 
 ![Scanner_module_schematic](./assets/Scanner_module_schematic.png?raw=true)
 

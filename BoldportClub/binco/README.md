@@ -8,7 +8,7 @@ BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club.
 
 ## Notes
 
-The BINCO a binary counter that can be configured to count up or down. It uses Snaptron domes as buttons (on, slow/fast a,d rest).
+The BINCO a binary counter that can be configured to count up or down. It uses Snaptron domes as buttons (on, slow/fast and reset).
 The heart of the counter is a 555 timer driving a 74HC4020D 14-bit Binary Counter from which 11 taps drive some nice reverse-mount LEDs.
 
 
@@ -54,7 +54,7 @@ but here is my re-drawing of the circuit (it's how I make sure I understand what
 
 Interseting:
 
-* the "on" switch only affects the LEDs; the ICs remain powered by the battery at all times. I guess that is how they "remember" the last state!
+* the "on" switch only affects the LEDs; the ICs remain powered by the battery at all times. I suspect a sneaky trick to always "remember" the last state!
 * but R100 stops the 555 timer running while not "on" by pulling down the reset pin.
 
 ## Construction
