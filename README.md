@@ -1,5 +1,6 @@
-# 367 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [nRF24/Scanner](./playground/nRF24/Scanner) - a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display.
+# 368 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [GranularSynth](./playground/GranularSynth) - building an ATmega328 granular synth module in an Altoids can.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -191,7 +192,8 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#338 GlowBall](./Kraft/GlowBall)                                                  | **LED, Oscillators, Power**     building LED effects for a Glass Eye Studio Celestial Planet Weight |
-| [#298 GoldenHind](./Kraft/GoldenHind)                                              | **Kraft** building a mini metal model of the Golden Hind |
+| [#298 GoldenHind](./Kraft/GoldenHind)                                              | **Kraft**                       building a mini metal model of the Golden Hind |
+| [#368 GranularSynth](./playground/GranularSynth)                                   | **Audio, Arduino**              building an ATmega328 granular synth module in an Altoids can |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#249 GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp)             | **OpAmp, Audio**                single-channel 10W guitar practice amplifier based on the TDA2050 |
 | [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |

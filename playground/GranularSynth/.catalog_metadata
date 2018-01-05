@@ -1,0 +1,7 @@
+{
+    "id": "#368", 
+    "name": "GranularSynth", 
+    "description": "building an ATmega328 granular synth module in an Altoids can", 
+    "categories": "Audio, Arduino", 
+    "relative_path": "playground/GranularSynth"
+}
