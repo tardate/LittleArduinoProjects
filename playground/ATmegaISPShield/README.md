@@ -30,6 +30,7 @@ The procedure for programming a 28-pin ATmega chip like the ATMEGA328P-PU on the
 * plug the board onto an Arduino Uno (or Mega)
 * program (upload) the Arduino host with the ArduinoISP sketch
 * select `Arduino as ISP` under `Tools > Programmer`
+* burn the bootloader - this is optional if the chip already has the bootloader, but if unsure it is a good idea to burn again. This will ensure fuses are set correctly so the chip runs as expected.
 * send the desired sketch to the ATmega chip using the "Upload using Programmer" option
 
 
@@ -40,6 +41,10 @@ Program the host with the ArduinoISP sketch:
 Set the programmer:
 
 ![howto_set_programmer](./assets/howto_set_programmer.png?raw=true)
+
+Burn the bootloader:
+
+![howto_burn_bootloader](./assets/howto_burn_bootloader.png?raw=true)
 
 Upload using programmer:
 

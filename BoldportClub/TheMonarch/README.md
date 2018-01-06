@@ -119,6 +119,12 @@ $ ./lfsr.py -1
 |  255 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
 
 
+
+Recently Julian Ilett delved deep into LFSRs in his inimitable style with "The 10,000 Year Shift Register":
+
+[![clip](http://img.youtube.com/vi/juoM7VhXQDM/0.jpg)](http://www.youtube.com/watch?v=juoM7VhXQDM)
+
+
 ### Construction
 
 ![monarch_build_front](./assets/TheMonarch_build_front.jpg?raw=true)

@@ -52,7 +52,7 @@ but here is my re-drawing of the circuit (it's how I make sure I understand what
 
 ![Schematic](./assets/binco_schematic.jpg?raw=true)
 
-Interseting:
+Interesting:
 
 * the "on" switch only affects the LEDs; the ICs remain powered by the battery at all times. I suspect a sneaky trick to always "remember" the last state!
 * but R100 stops the 555 timer running while not "on" by pulling down the reset pin.
