@@ -1,5 +1,12 @@
 [
     {
+        "description": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!", 
+        "relative_path": "BoldportClub/ananas", 
+        "id": "#369", 
+        "categories": "Boldport, Oscillators", 
+        "name": "BoldportClub/ananas"
+    }, 
+    {
         "description": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club", 
         "relative_path": "BoldportClub/binco", 
         "id": "#363", 

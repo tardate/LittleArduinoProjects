@@ -1,6 +1,5 @@
-# 368 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [GranularSynth](./playground/GranularSynth) - building an ATmega328 granular synth module in an Altoids can.
-
+# 369 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/ananas](./BoldportClub/ananas) - building the tropical end-of-year present from Boldport Club, Project #20 - ananas!
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -103,6 +102,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
+| [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |
 | [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3 |
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
