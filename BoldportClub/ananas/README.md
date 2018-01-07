@@ -45,7 +45,7 @@ Testing the circuit on a breadboard:
 
 ![ananas_breadboard_build](./assets/ananas_breadboard_build.jpg?raw=true)
 
-![Build](./assets/ananas_build.jpg?raw=true)
+![ananas_build2](./assets/ananas_build2.jpg?raw=true)
 
 
 ## A Chirping/Beeping Customisation
