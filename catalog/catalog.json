@@ -2072,7 +2072,7 @@
         "name": "GccToolchain"
     }, 
     {
-        "description": "building an ATmega328 granular synth module in an Altoids can", 
+        "description": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?", 
         "relative_path": "playground/GranularSynth", 
         "id": "#368", 
         "categories": "Audio, Arduino", 
