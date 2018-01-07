@@ -55,7 +55,7 @@ NB: in the picture, digital pin 9 (chip pin 15) is wired to a LED for a test sck
 
 ### Programming in-circuit via ICSP header
 
-This approach can also be used to prgram chips on a baord with an ICSP header.
+This approach can also be used to program chips on a board with an ICSP header.
 
 The conventional arrangement of the ICSP pins is as follows. Although the pin numbering approach may vary,
 the functions should be in these positions:

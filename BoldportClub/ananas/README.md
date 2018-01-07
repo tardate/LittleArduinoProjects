@@ -64,7 +64,7 @@ Building the chirp module..
 
 The finished chirp module.. shades of Empire Strikes Back?
 
-![chirpy_construction](./assets/chirpy_construction.jpg?raw=true)
+![chirpy_build](./assets/chirpy_build.jpg?raw=true)
 
 Installed in the ananas:
 
