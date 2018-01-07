@@ -14,7 +14,7 @@ Here's a quick demo .. (with special customisation)
 
 Project #20 is the first designed by Ben, the new Boldporter. And it's a beauty!
 
-As is often the case, and small but interesting circuit is at the core of a beautiful design.
+As is often the case, a small but interesting circuit is at the core of a beautiful design.
 The circuit is essentially four repetitions of an [RC phase-shift oscillator](https://en.wikipedia.org/wiki/Phase-shift_oscillator).
 
 Like other projects such as the famous Cordwood series, the design employs multi-board symmetry and 3D construction.
@@ -37,13 +37,19 @@ Boldport packaging and design just goes from strength to strength. What a beauti
 
 ## Construction
 
-![Breadboard](./assets/ananas_bb.jpg?raw=true)
+Details of the circuit are available from the
+[ananas product page](https://www.boldport.com/products/ananas),
+but here's my transcription (I tend to do this just to ensure I understand the circuit properly).
 
 ![Schematic](./assets/ananas_schematic.jpg?raw=true)
+
+![Breadboard](./assets/ananas_bb.jpg?raw=true)
 
 Testing the circuit on a breadboard:
 
 ![ananas_breadboard_build](./assets/ananas_breadboard_build.jpg?raw=true)
+
+the finished build:
 
 ![ananas_build2](./assets/ananas_build2.jpg?raw=true)
 
