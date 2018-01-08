@@ -1,5 +1,6 @@
-# 369 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/ananas](./BoldportClub/ananas) - building the tropical end-of-year present from Boldport Club, Project #20 - ananas!
+# 370 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DigitaSwitch/TS3A5018](./Electronics101/DigitaSwitch/TS3A5018) - testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -160,6 +161,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#259 DigitalPots/M62429](./Electronics101/DigitalPots/M62429)                     | **Arduino, Digital Pot, M62429** control the M62429 dual channel volume control with an Arduino |
 | [#261 DigitalPots/MCP4017](./Electronics101/DigitalPots/MCP4017)                   | **Arduino, Digital Pot, MCP4017** control the MCP4017 single 7-Bit I²C digital potentiometer with an Arduino |
 | [#264 DigitalPots/MCP42010](./Electronics101/DigitalPots/MCP42010)                 | **Arduino, Digital Pot, MCP42010** control the MCP42010 dual 10kΩ digital potentiometer with an Arduino and hardware SPI |
+| [#370 DigitaSwitch/TS3A5018](./Electronics101/DigitaSwitch/TS3A5018)               | **Arduino, Digital Switch, 555 Timer**  testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo |
 | [#110 DiodeLogic/AND](./Electronics101/DiodeLogic/AND)                             | **Diode, Logic Gates**          test the basic diode-logic AND gate |
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#348 DLatch](./Electronics101/DigitalLogic/DLatch)                                | **Logic Gates, CMOS/TTL**       building a D Latch with 74LS00 NAND gates |

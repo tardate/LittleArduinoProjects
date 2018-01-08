@@ -742,6 +742,13 @@
         "name": "DigitalPots/MCP42010"
     }, 
     {
+        "description": "testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo", 
+        "relative_path": "Electronics101/DigitaSwitch/TS3A5018", 
+        "id": "#370", 
+        "categories": "Arduino, Digital Switch, 555 Timer", 
+        "name": "DigitaSwitch/TS3A5018"
+    }, 
+    {
         "description": "test the basic diode-logic AND gate", 
         "relative_path": "Electronics101/DiodeLogic/AND", 
         "id": "#110", 
