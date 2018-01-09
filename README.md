@@ -1,5 +1,5 @@
-# 370 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DigitaSwitch/TS3A5018](./Electronics101/DigitaSwitch/TS3A5018) - testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo.
+# 371 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CommonEmitterAmplifier](./Electronics101/BJT/CommonEmitterAmplifier) - all about BJT common-emitter amplifier biasing and class of operation.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -145,6 +145,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#234 CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator)             | **CMOS, Oscillators**           use a CD4096 to generate an oscillating waveform and plot the results |
 | [#246 CMOSOscillators](./Electronics101/CMOSOscillators)                           | **CMOS, Oscillators**           testing a 4-pin CMOS oscillator component |
 | [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
+| [#371 CommonEmitterAmplifier](./Electronics101/BJT/CommonEmitterAmplifier)         | **BJT**                         all about BJT common-emitter amplifier biasing and class of operation |
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [#278 ComponentTesterKit](./Equipment/ComponentTesterKit)                          | **Tools, Test Equipment, ATmega**  build and evaluate a popular ATMEAG328-based component tester kit |
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |

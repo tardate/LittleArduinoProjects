@@ -476,6 +476,13 @@
         "name": "BidirectionalLevelShifterModule"
     }, 
     {
+        "description": "all about BJT common-emitter amplifier biasing and class of operation", 
+        "relative_path": "Electronics101/BJT/CommonEmitterAmplifier", 
+        "id": "#371", 
+        "categories": "BJT", 
+        "name": "CommonEmitterAmplifier"
+    }, 
+    {
         "description": "test a BJT constant current sink circuit", 
         "relative_path": "Electronics101/BJTCurrentSink", 
         "id": "#093", 
