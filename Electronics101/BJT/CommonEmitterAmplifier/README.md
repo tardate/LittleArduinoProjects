@@ -170,15 +170,28 @@ In practice, biasing can get a whole lot more complex, and "real" amplifier circ
 or push-pull configurations, with biasing tricks that involve diodes to fix particular voltage drops.
 
 
-## Construction
+## Breadboard Construction
 
-I just breadboarded this experiment, and used an external function generator for the 10kHz input signal.
+I first breadboarded this experiment, and used an external function generator for the 10kHz input signal.
 
 ![Breadboard](./assets/CommonEmitterAmplifier_bb.jpg?raw=true)
 
 ![Schematic](./assets/CommonEmitterAmplifier_schematic.jpg?raw=true)
 
+![CommonEmitterAmplifier_breadboard_build](./assets/CommonEmitterAmplifier_breadboard_build.jpg?raw=true)
+
+## Ugly Demo Board
+
+Just for fun, I mounted the circuit ugly style on some discarded packaging.
+A jumper is used to select from the pre-set Class A, B, C configurations.
+
 ![Build](./assets/CommonEmitterAmplifier_build.jpg?raw=true)
+
+Under test, performs just fine..
+
+![CommonEmitterAmplifier_build_under_test](./assets/CommonEmitterAmplifier_build_under_test.jpg?raw=true)
+
+![CommonEmitterAmplifier_build_under_test_2](./assets/CommonEmitterAmplifier_build_under_test_2.jpg?raw=true)
 
 ## Credits and References
 * "Hands-On Radio: The Common Emitter Amplifier" by Ward Silver, NØAX. Feb 2003 QST
