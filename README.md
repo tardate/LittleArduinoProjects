@@ -1,5 +1,6 @@
-# 371 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CommonEmitterAmplifier](./Electronics101/BJT/CommonEmitterAmplifier) - all about BJT common-emitter amplifier biasing and class of operation.
+# 372 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY) - an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -255,6 +256,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#313 MCP23S17](./Electronics101/MCP23S17)                                         | **Arduino, Port Expander**      investigate and test the MCP23S17 16-Bit I/O Expander with serial interface |
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [#252 MessageWaiting](./Electronics101/555Timer/MessageWaiting)                    | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction |
+| [#372 MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY)                            | **ATmega, ADC**                 an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
 | [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
 | [#326 Mixers](./Electronics101/Mixers)                                             | **RF, Mixers**                  all about frequency mixers |
 | [#327 Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing)                     | **RF, Mixers**                  a diode ring double-balanced frequency mixer |

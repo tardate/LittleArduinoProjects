@@ -1631,6 +1631,13 @@
         "name": "Labrador"
     }, 
     {
+        "description": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference", 
+        "relative_path": "Equipment/MilliVoltmeterDIY", 
+        "id": "#372", 
+        "categories": "ATmega, ADC", 
+        "name": "MilliVoltmeterDIY"
+    }, 
+    {
         "description": "unboxing and first tests of a Hantek MSO5074FG oscilloscope", 
         "relative_path": "Equipment/MSO5074FG_unboxing", 
         "id": "#156", 
