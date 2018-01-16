@@ -7,9 +7,11 @@
 
  */
 
-#include <EEPROM.h>
-#include <SPI.h>
+
 #include <LiquidCrystal.h>
+#include "ltc2400_adc.h"
+#include "saved_settings.h"
+
 
 const int ADC_CS_PIN                       = 10;
 const int SECOND_LINE_FUNCTION_BUTTON_PIN  =  8;
@@ -17,9 +19,14 @@ const int PRECISION_BUTTON_PIN             =  9;
 const int CALIBRATE_BUTTON_PIN             = A0;
 const int BATTERY_MONITOR_PIN              = A1;
 
-const float ADC_REFERENCE_VOLTAGE          = 2.5;
+const int LCD_RS_PIN                       = 7;
+const int LCD_ENABLE_PIN                   = 6;
+const int LCD_D4_PIN                       = 5;
+const int LCD_D5_PIN                       = 4;
+const int LCD_D6_PIN                       = 3;
+const int LCD_D7_PIN                       = 2;
 
-const int calibration_factor_address       = 0;
+const float ADC_REFERENCE_VOLTAGE          = 2.5;
 
 #define MAIN_LOOP_DELAY_MS                 (30)
 #define DEBOUNCE_DELAY_MS                  (250)
@@ -33,29 +40,17 @@ const int calibration_factor_address       = 0;
 
 #define BUTTON_LOGIC_ACTIVE_STATE          (LOW)
 
-const int LCD_RS_PIN                       = 7;
-const int LCD_ENABLE_PIN                   = 6;
-const int LCD_D4_PIN                       = 5;
-const int LCD_D5_PIN                       = 4;
-const int LCD_D6_PIN                       = 3;
-const int LCD_D7_PIN                       = 2;
 
+SavedSettings settings;
+LTC2400_ADC adc(ADC_CS_PIN, NUMBER_OF_SAMPLES);
 LiquidCrystal lcd(LCD_RS_PIN, LCD_ENABLE_PIN, LCD_D4_PIN, LCD_D5_PIN, LCD_D6_PIN, LCD_D7_PIN);
 
-int32_t g_samples[NUMBER_OF_SAMPLES] = {0};
-uint8_t g_current_sample = 0;
-uint8_t g_number_of_decimals = 6;
-
-int32_t calibration_factor = 0;
-
+uint8_t current_precision = 6;
 int second_line_function = 0;
-
 float current_voltage = 0;
 int32_t current_adc_reading = 0;
-
 float bar_voltage_minor = 0;
 int bar_voltage_major = 0;
-
 
 byte p20 [8] = {B10000,B10000,B10000,B10000,B10000,B10000,B10000,B10000,};  // 20% battery character
 byte p40 [8] = {B11000,B11000,B11000,B11000,B11000,B11000,B11000,B11000,};  // 40% battery character
@@ -66,20 +61,13 @@ byte p100[8] = {B11111,B11111,B11111,B11111,B11111,B11111,B11111,B11111,};  // 1
 
 void setup(void) {
   setupIOPins();
-  setupSPI();
+  adc.begin();
   setupLCD();
 
   showIntro();
 
-  calibration_factor = EEPROMreadlong(calibration_factor_address);
+
   showCalibrationData();
-}
-
-
-void setupSPI(void) {
-  // Mode 0 (MOSI read on rising edge (CPLI=0) and SCK idle low (CPOL=0))
-  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0));
-  SPI.begin();
 }
 
 
@@ -87,10 +75,7 @@ void setupIOPins(void) {
   pinMode(CALIBRATE_BUTTON_PIN, INPUT_PULLUP);
   pinMode(PRECISION_BUTTON_PIN, INPUT_PULLUP);
   pinMode(SECOND_LINE_FUNCTION_BUTTON_PIN,INPUT_PULLUP);
-
   pinMode(BATTERY_MONITOR_PIN, INPUT);
-  pinMode(ADC_CS_PIN, OUTPUT);
-  digitalWrite(ADC_CS_PIN, HIGH);
 }
 
 
@@ -107,8 +92,8 @@ void setupLCD(void) {
 
 void loop(void) {
   if (digitalRead(PRECISION_BUTTON_PIN) == BUTTON_LOGIC_ACTIVE_STATE) {
-    g_number_of_decimals++;
-    if (g_number_of_decimals > 6) g_number_of_decimals = 0;
+    current_precision++;
+    if (current_precision > 6) current_precision = 0;
     debounce();
     clearRow(0);
   } else if (digitalRead(SECOND_LINE_FUNCTION_BUTTON_PIN) == BUTTON_LOGIC_ACTIVE_STATE) {
@@ -133,52 +118,25 @@ void loop(void) {
   }
 }
 
+
+// Command: pause a bit to provide software debouncing
 void debounce(void) {
   delay(DEBOUNCE_DELAY_MS);
 }
 
-// Command: requests and reads a single sample from the ADC
-void readADC(void) {
-  digitalWrite(ADC_CS_PIN, LOW);
-
-  while ((PINB & (1 << 4))) { }               // wait till pin 12 goes low, indicating end of conversion
-
-  int32_t reading = 0;
-  for (int i = 0; i < 4; i++) {
-    reading <<= 8;
-    reading |= SPI.transfer(0xFF);
-  }
-  reading >>= 4;                              // Discard 4 sub-LSB bits on the right
-
-  if(reading & 0x02000000) {                  // positive:
-    reading &=   0x01FFFFFF;                  // discard flag bits, keep EXR
-  } else {                                    // negative:
-    reading |=   0xFF000000;                  // convert to pure 2's complement
-  }
-
-  digitalWrite(ADC_CS_PIN, HIGH);
-
-  g_samples[g_current_sample++] = reading;
-  if (g_current_sample == NUMBER_OF_SAMPLES) g_current_sample = 0;
-}
-
+// Command: sample ADC and update current values
 void sampleVoltage(void) {
-  readADC();
-  current_adc_reading = getADCAverage();
+  adc.read();
+  current_adc_reading = adc.current_average();
   current_voltage = convertToVoltage(current_adc_reading);
 }
 
-// Returns: latest average value sampled from the ADC
-int32_t getADCAverage(void) {
-  int32_t sum = 0;
-  for (int i = 0; i < NUMBER_OF_SAMPLES; i++) sum += g_samples[i];
-  return sum / NUMBER_OF_SAMPLES;
-}
 
 // Returns: ADC reading as a voltage
 float convertToVoltage(int32_t reading) {
-  return ADC_REFERENCE_VOLTAGE * reading / calibration_factor;
+  return ADC_REFERENCE_VOLTAGE * reading / settings.get_calibration_factor();
 }
+
 
 // Command: calibrate to current incoming voltage (expected to be the ADC voltage ref)
 void recalibrate(void) {
@@ -187,31 +145,54 @@ void recalibrate(void) {
   lcd.print("Calibrating");
 
   for (int i = 0; i < NUMBER_OF_SAMPLES; i++) {
-    readADC();
+    adc.read();
     lcd.print('.');
   }
-  int32_t reading = getADCAverage();
+  int32_t reading = adc.current_average();
 
-  calibration_factor = reading;
-  EEPROMwritelong(calibration_factor_address, calibration_factor);
+  settings.set_calibration_factor(reading);
 
   showCalibrationData();
 }
 
-//--- Show Calibration Data -----------------------------------------------------------------
+
+// Command: show calibration data on the display
 void showCalibrationData(void) {
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Calibrated:");
   lcd.setCursor(0, 1);
-  lcd.print(calibration_factor, HEX);
+  lcd.print(settings.get_calibration_factor(), HEX);
   delay(CALIBRATION_PROMPT_DELAY_MS);
   lcd.clear();
 }
 
-//--- Print Voltage Reading to Display -----------------------------------------------------------------
+
+// Command: show the intro screen
+void showIntro(void) {
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("Millivolt Meter");
+  showBatteryStatus(1);
+  delay(INTRO_DELAY_MS);
+  lcd.clear();
+}
+
+
+// Command: tests and reports battery status to specified LCD line
+void showBatteryStatus(int row) {
+  int battery_mv = map(analogRead(BATTERY_MONITOR_PIN), 0, 1023, 0, VREF_MV);
+  float batteryVolts = battery_mv / BATTERY_MONITOR_SCALE_FACTOR;
+  lcd.setCursor(0, row);
+  lcd.print("Battery ");
+  lcd.print(batteryVolts, 2);
+  lcd.print(" V");
+}
+
+
+// Command: update the display
 void showReading(void) {
-  displayVoltage(current_voltage, 0);
+  showVoltage(current_voltage, 0);
   switch(second_line_function) {
   case 1: // hold
     // nop
@@ -226,8 +207,9 @@ void showReading(void) {
   }
 }
 
-// formats a voltage and prints to display on specified row
-void displayVoltage(float volts, int row) {
+
+// Command: formats a voltage and prints to display on specified row
+void showVoltage(float volts, int row) {
   float scaled_volts = volts;
   char prefix = 0;
 
@@ -241,7 +223,7 @@ void displayVoltage(float volts, int row) {
   }
 
   lcd.setCursor(0, row);
-  lcd.print(scaled_volts, g_number_of_decimals);
+  lcd.print(scaled_volts, current_precision);
   lcd.print(" ");
   if (prefix)
     lcd.print(prefix);
@@ -249,35 +231,16 @@ void displayVoltage(float volts, int row) {
 }
 
 
-// Command: show the intro screen
-void showIntro(void) {
-  lcd.clear();
-  lcd.setCursor(0, 0);
-  lcd.print("Millivolt Meter");
-  showBatteryStatus(1);
-  delay(INTRO_DELAY_MS);
-  lcd.clear();
-}
-
-// Command: tests and reports battery status to specified LCD line
-void showBatteryStatus(int row) {
-  int battery_mv = map(analogRead(BATTERY_MONITOR_PIN), 0, 1023, 0, VREF_MV);
-  float batteryVolts = battery_mv / BATTERY_MONITOR_SCALE_FACTOR;
-  lcd.setCursor(0, row);
-  lcd.print("Battery ");
-  lcd.print(batteryVolts, 2);
-  lcd.print(" V");
-}
-
-
+// Command: reset bar graph variables to ensure refresh
 void clearBarGraph(void) {
   bar_voltage_major = bar_voltage_minor = 0;
 }
 
+
 // Command: updates bargraph display as second-line function
 void updateBarGraph(void) {
-  float barDiffVolts = (bar_voltage_major + bar_voltage_minor) - current_voltage;
-  if (barDiffVolts > 0.1 || barDiffVolts < -0.1) {
+  float voltage_delta = (bar_voltage_major + bar_voltage_minor) - current_voltage;
+  if (voltage_delta > 0.1 || voltage_delta < -0.1) {
 
     bar_voltage_major = (int) current_voltage;
     bar_voltage_minor = current_voltage - bar_voltage_major;
@@ -311,38 +274,18 @@ void updateBarGraph(void) {
   }
 }
 
+
 // Command: snapshot current reading as second-line function
 void holdReading(void) {
-  displayVoltage(current_voltage, 1);
+  showVoltage(current_voltage, 1);
   lcd.setCursor(15,1);
   lcd.print("H");
 }
+
 
 // Command: clear specified row if the display
 void clearRow(int row) {
   lcd.setCursor(0, row);
   lcd.print("                ");
   lcd.setCursor(0, row);
-}
-
-// Command: writes (32 bit) long value to EEPROM address
-void EEPROMwritelong(int calibration_factor_address, long value) {
-  byte four = (value & 0xFF);
-  byte three = ((value>>8) & 0xFF);
-  byte two = ((value>>16) & 0xFF);
-  byte one = ((value>>24) & 0xFF);
-
-  EEPROM.write(calibration_factor_address, four);
-  EEPROM.write(calibration_factor_address +1, three);
-  EEPROM.write(calibration_factor_address +2, two);
-  EEPROM.write(calibration_factor_address +3, one);
-}
-
-// Returns: (32 bit) long value from EEPROM address
-long EEPROMreadlong(long calibration_factor_address) {
-  long four = EEPROM.read(calibration_factor_address);
-  long three = EEPROM.read(calibration_factor_address + 1);
-  long two = EEPROM.read(calibration_factor_address + 2);
-  long one = EEPROM.read(calibration_factor_address + 3);
-  return (four)+(three << 8)+(two << 16)+(one << 24);
 }
