@@ -27,16 +27,17 @@ const int LCD_D6_PIN                       = 3;
 const int LCD_D7_PIN                       = 2;
 
 const float ADC_REFERENCE_VOLTAGE          = 2.5;
+const int NUMBER_OF_SAMPLES                = 5;
 
 #define MAIN_LOOP_DELAY_MS                 (30)
 #define DEBOUNCE_DELAY_MS                  (250)
 #define INTRO_DELAY_MS                     (2000)
 #define CALIBRATION_PROMPT_DELAY_MS        (2000)
-#define VREF_MV                            (5000) // chip voltage reference, in mV
+
+#define AREF_MV                            (5000) // chip voltage reference, in mV
 #define BATTERY_MONITOR_R1                 (220.0)
 #define BATTERY_MONITOR_R2                 (100.0)
-#define BATTERY_MONITOR_SCALE_FACTOR       (BATTERY_MONITOR_R2/(BATTERY_MONITOR_R1 + BATTERY_MONITOR_R2) * 1000.0)
-#define NUMBER_OF_SAMPLES                  (5)
+#define BATTERY_MONITOR_SCALE_FACTOR       (1/BATTERY_MONITOR_R2*AREF_MV/1000*(BATTERY_MONITOR_R1 + BATTERY_MONITOR_R2)/1023)
 
 #define BUTTON_LOGIC_ACTIVE_STATE          (LOW)
 
@@ -181,8 +182,7 @@ void showIntro(void) {
 
 // Command: tests and reports battery status to specified LCD line
 void showBatteryStatus(int row) {
-  int battery_mv = map(analogRead(BATTERY_MONITOR_PIN), 0, 1023, 0, VREF_MV);
-  float batteryVolts = battery_mv / BATTERY_MONITOR_SCALE_FACTOR;
+  float batteryVolts = analogRead(BATTERY_MONITOR_PIN) * BATTERY_MONITOR_SCALE_FACTOR;
   lcd.setCursor(0, row);
   lcd.print("Battery ");
   lcd.print(batteryVolts, 2);
