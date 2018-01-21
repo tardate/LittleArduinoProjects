@@ -455,6 +455,13 @@
         "name": "AudioEffectsChips/PX088A"
     }, 
     {
+        "description": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip", 
+        "relative_path": "Electronics101/AudioEffectsChips/PX835", 
+        "id": "#373", 
+        "categories": "Audio, Music Chips", 
+        "name": "AudioEffectsChips/PX835"
+    }, 
+    {
         "description": "an audio level indicator kit based on the LM3915", 
         "relative_path": "Electronics101/AudioLevelIndicatorKit", 
         "id": "#202", 

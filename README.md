@@ -1,7 +1,5 @@
-# 372 Little Electronics and Arduino Projects
+# 373 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY) - an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
-
-
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -88,6 +86,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#292 AudioEffectsChips/H823](./Electronics101/AudioEffectsChips/H823)             | **Audio, Music Chips**          figuring out how to use the H823 "Happy Birthday" music chip |
 | [#362 AudioEffectsChips/H83A](./Electronics101/AudioEffectsChips/H83A)             | **Audio, Music Chips**          figuring out how to use the H-83A "12 songs" music chip |
 | [#356 AudioEffectsChips/PX088A](./Electronics101/AudioEffectsChips/PX088A)         | **Audio, Music Chips**          figuring out how to use the PX088A "Für Elise" music chip |
+| [#373 AudioEffectsChips/PX835](./Electronics101/AudioEffectsChips/PX835)           | **Audio, Music Chips**          figuring out how to use the PX835 "16 Kind of Sound Doorbell Chip" music chip |
 | [#202 AudioLevelIndicatorKit](./Electronics101/AudioLevelIndicatorKit)             | **LM3915, Audio**               an audio level indicator kit based on the LM3915 |
 | [#254 AvrHardwarePWM](./playground/AvrHardwarePWM)                                 | **ATmega, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328 |
 | [#255 AvrHardwarePWM/ATtiny](./playground/AvrHardwarePWM/ATtiny)                   | **ATtiny, ATmel, Arduino, PWM** all about hardware PWM and demonstrating the modes with the ATtiny85 |
