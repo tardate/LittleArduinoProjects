@@ -484,7 +484,7 @@
     }, 
     {
         "description": "test a BJT constant current sink circuit", 
-        "relative_path": "Electronics101/BJTCurrentSink", 
+        "relative_path": "Electronics101/BJT/CurrentSink", 
         "id": "#093", 
         "categories": "BJT, Power", 
         "name": "BJTCurrentSink"

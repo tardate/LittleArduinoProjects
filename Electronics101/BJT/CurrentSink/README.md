@@ -1,4 +1,4 @@
-# #093 BJTCurrentSink
+# #093 BJT CurrentSink
 
 Test a BJT constant current sink circuit.
 
@@ -33,11 +33,11 @@ This remain's stable, even as the load changes by varying resistance VR4 or redu
 
 ## Construction
 
-![Breadboard](./assets/BJTCurrentSink_bb.jpg?raw=true)
+![Breadboard](./assets/CurrentSink_bb.jpg?raw=true)
 
-![The Schematic](./assets/BJTCurrentSink_schematic.jpg?raw=true)
+![The Schematic](./assets/CurrentSink_schematic.jpg?raw=true)
 
-![The Build](./assets/BJTCurrentSink_build.jpg?raw=true)
+![The Build](./assets/CurrentSink_build.jpg?raw=true)
 
 ## Credits and References
 * [#190: Back to Basics: Transistor Current Sources and Mirrors](https://youtu.be/xR0RfmmRhDw) by w2aew
