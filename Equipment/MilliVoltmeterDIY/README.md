@@ -26,8 +26,10 @@ A few changes I've made:
 
 I used normally-open pushbuttons on the breadboard, but for the final build I have some normally-closed pushbuttons.
 The `#define BUTTON_LOGIC_ACTIVE_STATE` is used to select between HIGH or LOW button logic.
+Internal pull-ups are enabled so there are no additional external components required other than the push-buttons themselves.
 
 All the necessary functions are implemented with a three-button command set:
+
 * button 1: calibrate
 * button 2: change the number of digits (precision)
 * button 3: change the second-line function between 3 modes:
@@ -76,16 +78,28 @@ I'm using an LT1019 2.5V reference (because it is what I had available).
 This means that the LTC2400 ADC output is all calculated with respect to the 2.5V standard.
 
 I have adapted the code so that the unit performs an automatic calibration with respect to the reference voltage.
-The only hardcoded value is the refernce voltage. How this is intended to work:
+The only hardcoded value is the reference voltage. How this works:
 
 * the reference voltage is exposed on a "calibration" test point
 * the +ve input is connected to the "calibration" test point
-* press "calibration" botton
-* the adjustment factor is calculated to ensure an accurate reading of the reference voltage
-* per the original code, the calibration factor is also stored in EEPROM as the default on startup
+* press the "calibration" botton
+* the calibration adjustment factor is calculated to ensure an accurate reading of the reference voltage
+* the calibration adjustment factor is also stored in EEPROM as the default on startup
 
 As a result - as long as the reference voltage is accurate(!) - this approach is agnostic with regards to any
 input attenutation set in the input voltage divider.
+
+
+## Code
+
+[MilliVoltmeterDIY.ino](./MilliVoltmeterDIY.ino) is my version of the code, based on the original
+[Millivolt_Meter_MK2_ver33.ino](http://www.scullcom.com/Millivolt_Meter_MK2_ver33.ino).
+
+Libraries used:
+
+* [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal)
+* [EEPROM](https://www.arduino.cc/en/Reference/EEPROM)
+* [SPI](https://www.arduino.cc/en/Reference/SPI)
 
 
 ## Breadboard Construction
@@ -133,14 +147,14 @@ I'm going to drop an ATmega328P-AU TQFP on the board, rather than use an Arduino
 
 I decided to provision pin connections for either serial or I2C LCD displays.
 
-AFter finding that KiCad didn't have footprints for half the components I wanted to use in the standard library,
+After finding that KiCad didn't have footprints for half the components I wanted to use in the standard library,
 I decided to try EasyEDA for PCB production:
 
-* the coponent library is very complete (I didn't need to create any custom components)
+* the component library is very complete (I didn't need to create any custom components)
 * but the PCB designer is not quite as advanced as KiCad. Workable though.
 
 The [EasyEDA project is available here](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b),
-and I've sent the board off to [OSHpark](https://oshpark.com/)
+and I've sent the board off to [OSHpark](https://oshpark.com/).
 Note: I haven't built this board yet, so if you are looking at this, treat it as "unverified" for now.
 
 TBA!
@@ -150,18 +164,6 @@ TBA!
 ![MilliVoltmeterDIY_pcb_render_front](./assets/MilliVoltmeterDIY_pcb_render_front.png?raw=true)
 
 ![MilliVoltmeterDIY_pcb_render_rear](./assets/MilliVoltmeterDIY_pcb_render_rear.png?raw=true)
-
-
-## Code
-
-[MilliVoltmeterDIY.ino](./MilliVoltmeterDIY.ino) is my version of the code, based on the original
-[Millivolt_Meter_MK2_ver33.ino](http://www.scullcom.com/Millivolt_Meter_MK2_ver33.ino).
-
-Libraries used:
-
-* [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal)
-* [EEPROM](https://www.arduino.cc/en/Reference/EEPROM)
-* [SPI](https://www.arduino.cc/en/Reference/SPI)
 
 
 ## Credits and References
