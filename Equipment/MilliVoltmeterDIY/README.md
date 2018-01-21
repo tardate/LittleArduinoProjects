@@ -101,10 +101,56 @@ I initially built this on a breadboard and controlled with an Arduino Uno to ver
 ## PCB and Enclosure Construction
 
 Now that I have the breadboard prototype working just fine, I'm planning to put it in a case.
-Originally I was thinking of just mounting the various modules on protoboard, but now I think I'll design a PCB
-and send it to [OSHpark](https://oshpark.com/), and put the project in an enclosure.
+Originally I was thinking of just mounting the various modules on protoboard, but now I think I'll design a
+PCB and put the project in an enclosure.
+
+I'm going to drop an ATmega328P-AU TQFP on the board, rather than use an Arduino module. So let's get some pin mapping stright first:
+
+| Arduino Pin | Connection                     | ATmega pin |
+|-------------|--------------------------------|------------|
+| D2          | DB7 serial LCD                 | 32, PD2    |
+| D3          | DB6 serial LCD                 | 1, PD3     |
+| D4          | DB5 serial LCD                 | 2, PD4     |
+| D5          | DB4 serial LCD                 | 9, PD5     |
+| D6          | E serial LCD enable            | 10, PD6    |
+| D7          | RS serial LCD                  | 11, PD7    |
+| D8          | BTN_2_FUNCTION function button | 12, PB0    |
+| D9          | BTN_PRECISION precision button | 13, PB1    |
+| D10         | CS - ADC SPI select            | 14, PB2    |
+| D10         | MOSI - ICSP header             | 15, PB3    |
+| D12         | MISO - ADC SPI SDA, ICSP       | 16, PB4    |
+| D13         | SCK - ADC SPI clock, ICSP      | 17, PB5    |
+| A0          | BTN_CAL calibration button     | 23, PC0    |
+| A1          | VBATT_SENSE battery sensor     | 24, PC1    |
+| A4          | SDA optional I2C screen        | 27, PC4    |
+| A5          | SCL optional I2C screen        | 28, PC5    |
+| RESET       | ICSP header                    | 29, PC6    |
+|             | VCC                            | 4, 6       |
+|             | GND                            | 3, 5, 21   |
+|             | AVCC                           | 18         |
+|             | XTAL                           | 7, PB6     |
+|             | XTAL                           | 8, PB7     |
+
+I decided to provision pin connections for either serial or I2C LCD displays.
+
+AFter finding that KiCad didn't have footprints for half the components I wanted to use in the standard library,
+I decided to try EasyEDA for PCB production:
+
+* the coponent library is very complete (I didn't need to create any custom components)
+* but the PCB designer is not quite as advanced as KiCad. Workable though.
+
+The [EasyEDA project is available here](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b),
+and I've sent the board off to [OSHpark](https://oshpark.com/)
+Note: I haven't built this board yet, so if you are looking at this, treat it as "unverified" for now.
 
 TBA!
+
+![MilliVoltmeterDIY_pcb_schematic](./assets/MilliVoltmeterDIY_pcb_schematic.png?raw=true)
+
+![MilliVoltmeterDIY_pcb_render_front](./assets/MilliVoltmeterDIY_pcb_render_front.png?raw=true)
+
+![MilliVoltmeterDIY_pcb_render_rear](./assets/MilliVoltmeterDIY_pcb_render_rear.png?raw=true)
+
 
 ## Code
 
