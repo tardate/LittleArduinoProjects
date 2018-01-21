@@ -160,16 +160,13 @@ The [Spectrum chart for Singapore](https://www.imda.gov.sg/-/media/imda/files/re
 .. and in doing so I discover that the dinky 5" aerial provided with the dongle (and where I put it)
 is on the one hand surprisingly capable, while also having very little chance of picking out weaker signals.
 
+The dongle appears to process signals from 24MHz to 1766Mhz.
+
 
 The [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide) is a great resource
 for trying to ident especially non-voice transmissions.
 
 Here are some quick samples from my first session playing around..
-
-It's my noisy neighorhood [wifi](https://en.wikipedia.org/wiki/List_of_WLAN_channels) environment..
-
-![CubicSDR_wifi](./assets/CubicSDR_wifi.png?raw=true)
-
 
 Aircraft Communications Addressing and Reporting System (ACARS)..
 
