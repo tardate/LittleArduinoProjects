@@ -9,7 +9,7 @@
       this.hookActions();
       this.loadCatalog();
       this.github_base_url = 'https://github.com/tardate/LittleArduinoProjects/blob/master/';
-      this.pages_base_url = 'http://leap.tardate.com/';
+      this.pages_base_url = 'https://leap.tardate.com/';
     }
 
     CatalogController.prototype.hookActions = function() {
