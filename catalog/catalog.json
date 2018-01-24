@@ -1498,13 +1498,6 @@
         "name": "SwitchSoftLatch"
     }, 
     {
-        "description": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim", 
-        "relative_path": "Electronics101/TL431/ShuntRegulator", 
-        "id": "#360", 
-        "categories": " Power, Regulator, Reference", 
-        "name": "TL431/ShuntRegulator"
-    }, 
-    {
         "description": "test a \"joule thief\" circuit based on a ferrite toroid", 
         "relative_path": "Electronics101/ToroidJouleThief", 
         "id": "#137", 
@@ -1573,6 +1566,13 @@
         "id": "#273", 
         "categories": "Oscillators, VCO, Varicap", 
         "name": "VoltageControlledOscillator"
+    }, 
+    {
+        "description": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim", 
+        "relative_path": "Electronics101/VoltageReference/TL431/ShuntRegulator", 
+        "id": "#360", 
+        "categories": " Power, Regulator, Reference", 
+        "name": "TL431/ShuntRegulator"
     }, 
     {
         "description": "test and calibrate a DC Voltmeter/Ammeter panel module", 
