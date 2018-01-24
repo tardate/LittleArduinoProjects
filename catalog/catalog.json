@@ -1568,6 +1568,13 @@
         "name": "VoltageControlledOscillator"
     }, 
     {
+        "description": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference", 
+        "relative_path": "Electronics101/VoltageReference/LT1019", 
+        "id": "#374", 
+        "categories": "Voltage Reference", 
+        "name": "VoltageReference/LT1019"
+    }, 
+    {
         "description": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim", 
         "relative_path": "Electronics101/VoltageReference/TL431/ShuntRegulator", 
         "id": "#360", 
