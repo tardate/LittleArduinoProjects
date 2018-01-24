@@ -88,4 +88,4 @@ At 5MHz, the NE5534P op amp output is quite distorted, however it is still good 
 * [CD4026 Datasheet](http://www.futurlec.com/4000Series/CD4026.shtml)
 * [CD4047 datasheet](http://www.futurlec.com/4000Series/CD4047.shtml)
 * [NE5534P datasheet](http://www.ti.com/product/NE5534/datasheet)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/06/littlearduinoprojects207-frequency.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects207-frequency.html)

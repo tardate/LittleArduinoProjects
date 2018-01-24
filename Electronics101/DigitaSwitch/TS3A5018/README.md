@@ -45,4 +45,4 @@ The TS3A5018 is only rated for 1.8 to 3.6V, so a 3.3V rail is used for the offba
 ## Credits and References
 * [TS3A5018 Info and Datasheet](http://www.ti.com/product/TS3A5018)
 * [TS3A5018 module](https://www.aliexpress.com/item/5pcs-lot-5018-TS3A5018-10R-Quad-SPDT-Analog-Switch/32818493727.html) - from an aliexpress seller
-* [..as mentioned on my blog](http://blog.tardate.com/2018/01/leap370-ts3a5018-digital-switch.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap370-ts3a5018-digital-switch.html)

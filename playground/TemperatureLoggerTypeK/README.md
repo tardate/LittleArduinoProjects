@@ -160,4 +160,4 @@ Finally, it needs some calibration tests. It seems to be doing the right thing, 
 * [Lessons In Electric Circuits - Op Amp Bias Current](https://www.ibiblio.org/kuphaldt/electricCircuits/Semi/SEMI_8.html#xtocid1097415)
 * [Two Ways to Measure Temperature Using Thermocouples](http://www.analog.com/library/analogDialogue/archives/44-10/thermocouple.pdf) - compares AD8495 amplifier and reference junction compensation techniques
 * [5PCS 2M K Type Temperature Thermocouple Sensor Probe From -50C to 700C](http://www.aliexpress.com/store/product/5PCS-2M-K-Type-Temperature-Thermocouple-Sensor-Probe-From-50C-to-700C/109396_32633620107.html) - from aliexpress seller
-* [..as mentioned on my blog](http://blog.tardate.com/2016/06/littlearduinoprojects204-type-k.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects204-type-k.html)

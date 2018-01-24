@@ -169,4 +169,4 @@ I'm using consistent scope connections in all examples:
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny85 PWM: why does COM1A0 need to be set before PWM B will work?](http://electronics.stackexchange.com/questions/97596/attiny85-pwm-why-does-com1a0-need-to-be-set-before-pwm-b-will-work)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap255-attiny-pwm.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap255-attiny-pwm.html)

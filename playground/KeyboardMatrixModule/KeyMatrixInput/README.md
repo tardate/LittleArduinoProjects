@@ -67,4 +67,4 @@ Here's an example of the console output, with me pressing all the buttons from K
 ## Credits and References
 * [LEAP#303 KeyboardMatrixModule](../)
 * [Arduino DigitalPins](https://www.arduino.cc/en/Tutorial/DigitalPins)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)

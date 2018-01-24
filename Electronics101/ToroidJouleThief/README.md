@@ -55,4 +55,4 @@ Fits a single AA or AAA battery, with a switch added for convenience. Makes a de
 * [Make a Joule Thief](http://www.bigclive.com/joule.htm) - great instructions for a miniaturized joule thief
 * [2N5551 datasheet](http://www.futurlec.com/Transistors/2N5551.shtml)
 * [Ferrite ring](http://www.aliexpress.com/item/free-shipping-5pcs-Power-Inductor-Ferrite-Ring-Iron-Toroidal-green-18mm-x-10mm-x-7mm/32297770345.html) - example of a suitable core
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects137-toroidal-joule.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects137-toroidal-joule.html)

@@ -55,4 +55,4 @@ Operation:
 * [Switches](../)
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
 * [8x8mm Self-locking Push Button Switch](http://www.aliexpress.com/item/8x8mm-Self-locking-Type-Square-Button-Tactile-Push-Button-Switch-Momentary-Tact-DIP-Through-Hole-4pin/2036527668.html) - example part from aliexpress seller.
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap243-switches.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

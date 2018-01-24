@@ -60,4 +60,4 @@ Here's an example of the console output, with me pressing all the switches from 
 * [Arduino Interrupts](http://playground.arduino.cc/Code/Interrupts)
 * [Arduino attachInterrupt](https://www.arduino.cc/en/Reference/attachInterrupt)
 * [EnableInterrupt library](https://github.com/GreyGnome/EnableInterrupt)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)

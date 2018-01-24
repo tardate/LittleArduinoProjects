@@ -145,4 +145,4 @@ scope than the circuit. The important point is that we still see one bounce at l
 * [PN2222ATA info and datasheet](http://parts.io/detail/1027929/PN2222ATA) - parts.io
 * [BC556BTA info and datasheet](http://parts.io/detail/1015198/BC556BTA) - parts.io
 * [LEAP#130 DarlingtonTouchSwitch](../Electronics101/DarlingtonTouchSwitch)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap285-the-boldport-tap.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap285-the-boldport-tap.html)

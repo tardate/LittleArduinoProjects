@@ -140,4 +140,4 @@ And then connectors etc depending on the physical housing.
 * [thread on connecting datalines to LED array](http://forum.espruino.com/conversations/699/)
 * [Use a $1 ATTiny to drive addressable RGB LEDs](http://www.instructables.com/id/Use-a-1-ATTiny-to-drive-addressable-RGB-LEDs/)
 * [WS2811 Digital RGB LED](http://wiki.hacdc.org/index.php/WS2811_Digital_RGB_LED) - good data sheet and tips resource - addressable LEDs
-* [..as mentioned on my blog](http://blog.tardate.com/2015/02/the-fretboard-multi-project-build.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2015/02/the-fretboard-multi-project-build.html)

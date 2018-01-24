@@ -58,4 +58,4 @@ There's not too much to the build. Just follow the instructions! A few points to
 * [Sagrada Família](https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia) - wikipedia
 * [LowVoltageGlowingLEDs](../../Electronics101/LowVoltageGlowingLEDs) project - dual-LED "glowing" oscillator from a 1.5V supply
 * [La Sagrada Família](https://99percentinvisible.org/episode/la-sagrada-familia/) - excellent documentary podcast from 99% Invisible
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects192-sagrada.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects192-sagrada.html)

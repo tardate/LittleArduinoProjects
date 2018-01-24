@@ -92,4 +92,4 @@ Power on, and it's blinking! Why? Because!
 * [Simplest LED Flasher Circuit](http://www.cappels.org/dproj/simplest_LED_flasher/Simplest_LED_Flasher_Circuit.html)
 * [World's Simplest Single Transistor Oscillator - BJT with Negative Resistance](https://www.youtube.com/watch?v=rpGOKGrcpAk&t=335s)
 * [Leo Esaki](https://en.wikipedia.org/wiki/Leo_Esaki) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap257-blinking-emergency.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap257-blinking-emergency.html)

@@ -36,4 +36,4 @@ being that segment brightness will consequently vary to a degree depending on ho
 * [ST HCF4026B Datasheet](http://www.digchip.com/datasheets/parts/datasheet/456/HCF4026-pdf.php) - closest I could find to the actual chip I have. Functionally identical to the CD4026.
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
 * [2 Digit Simple digital counter circuit using CD4026](http://www.eleccircuit.com/simple-two-digits-counter-using-cd4026/)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/04/littlearduinoprojects199-cd4026-bucket.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/04/littlearduinoprojects199-cd4026-bucket.html)

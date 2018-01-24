@@ -189,4 +189,4 @@ Air traffic control (AM voice)..
 * [CubicSDR - GitHub](https://github.com/cjcliffe/CubicSDR)
 * [Spectrum chart for Singapore](https://www.imda.gov.sg/-/media/imda/files/regulation-licensing-and-consultations/frameworks-and-policies/spectrum-management-and-coordination/spectrumchart.pdf?la=en)
 * [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap351-sdr-with-cheap-r820t2-rtl2832u-dongles.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap351-sdr-with-cheap-r820t2-rtl2832u-dongles.html)

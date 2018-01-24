@@ -83,4 +83,4 @@ The FFT of the sine wave remains quite respectable:
 * [Function Signal Generator DIY Kit Sine/Triangle/Square Output 1Hz-1MHz Signal Generator Adjustable Frequency Amplitude XR2206](https://www.aliexpress.com/item/Function-Signal-Generator-DIY-Kit-Sine-Triangle-Square-Output-1Hz-1MHz-Signal-Generator-Adjustable-Frequency-Amplitude/32733774803.html) - from a seller on aliexpress
 * [XR-2206D data](http://parts.io/detail/8975104/XR-2206D) - parts.io
 * [7$ Function Generator VS 107$ Function Generator](https://www.youtube.com/watch?v=GopZJKdCqrA) - review of the same kit by GreatScott!
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap282-function-generator-kit.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap282-function-generator-kit.html)

@@ -201,4 +201,4 @@ Conclusion?
 * [Driving motors, lights, etc. from an Arduino output pin - Switching higher voltages](http://www.gammon.com.au/forum/?id=12737&reply=1#reply1)
 * [Secrets of Arduino PWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
 * [Changing the Arduino PWM Frequency](https://softsolder.com/2009/02/21/changing-the-arduino-pwm-frequency/)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects217-basic-avr.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects217-basic-avr.html)

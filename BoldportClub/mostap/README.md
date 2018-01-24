@@ -134,4 +134,4 @@ The mostap was mounted in my test jig for this, and the supply voltage set at 5V
 * [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
 * [4000-series logic](https://en.wikipedia.org/wiki/4000_series)
 * [7400-series logic](https://en.wikipedia.org/wiki/7400_series)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap345-boldport-club-mostap.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap345-boldport-club-mostap.html)

@@ -44,4 +44,4 @@ This appears to be cross-over distortion on the 555 output.
 ## Credits and References
 * [Bistable 555 - 8-bit computer clock - part 3](https://www.youtube.com/watch?v=WCwJNnx36Rk) - Ben Eater
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap318-555-bistable-latch.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap318-555-bistable-latch.html)

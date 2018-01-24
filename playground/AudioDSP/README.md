@@ -172,4 +172,4 @@ The correct orientation is:
 * [PWM Distortion Analysis](http://www.openmusiclabs.com/learning/digital/pwm-dac/pwm-distortion-analysis/index.html)
 * [Arduino Audio Input](http://www.instructables.com/id/Arduino-Audio-Input/?ALLSTEPS) - TL072 front-end project
 * [ArduinoDSP](https://github.com/telamon/ArduinoDSP) - another DSP project for Arduino
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap235-audiodsp-diy-shield-for-arduino.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap235-audiodsp-diy-shield-for-arduino.html)

@@ -37,4 +37,4 @@ Here's a demo FWIW. There is a bit of warbling, I think mainly due to imperfect 
 
 ## Credits and References
 * [5PCS 12 Kind of Songs Sound Music IC Voice Chip Module for DIY/Toy Integrated Circuit 3-4.5V](https://www.aliexpress.com/item/5PCS-12-Kind-of-Sound-Music-IC-Voice-Chip-Module-for-DIY-Toy-Integrated-Circuit-3/32658454214.html) - from aliexpress seller
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap362-h-83a-12-song-music-chip.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap362-h-83a-12-song-music-chip.html)

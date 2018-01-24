@@ -84,4 +84,4 @@ The schematic shown here has component values as per my final build, *not* as pr
 * [LC resonance calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
 * [Single-layer Coil Inductance and Q](http://www.qsl.net/in3otd/indcalc.html) - IN3OTD
 * [S9018 NPN transistor data](http://parts.io/detail/178104407/S9018) - parts.io
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap279-single-stage-fm-transmitter-kit.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap279-single-stage-fm-transmitter-kit.html)

@@ -75,4 +75,4 @@ Connections are reversed for a centre-negative configuration.
 
 ## Credits and References
 * [DC connector](https://en.wikipedia.org/wiki/DC_connector) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap329-on-dc-power-connectors.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap329-on-dc-power-connectors.html)

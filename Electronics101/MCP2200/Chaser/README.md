@@ -100,4 +100,4 @@ And here's the final module
 * [LEAP#334 MCP2200/DevKit](../DevKit)
 * [MCP2200 HID Interface Command Description](http://ww1.microchip.com/downloads/en/DeviceDoc/93066A.pdf)
 * [hidapi source](http://www.signal11.us/oss/hidapi/)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap335-mcp2200-led-chaser-just-because.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap335-mcp2200-led-chaser-just-because.html)

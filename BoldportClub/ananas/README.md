@@ -80,4 +80,4 @@ Installed in the ananas:
 * [ananas](https://www.boldport.com/products/ananas) - product page
 * [ananas](http://community.boldport.club/projects/p20-ananas/) - on the community site
 * [phase-shift oscillator](https://en.wikipedia.org/wiki/Phase-shift_oscillator) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2018/01/leap369-my-beeping-boldport-ananas.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap369-my-beeping-boldport-ananas.html)

@@ -164,4 +164,4 @@ Here's the final unit, set for 5V output:
 * [CD4069 datasheet](http://www.futurlec.com/4000Series/CD4069.shtml)
 * [How to protect LM317 from output short?](http://electronics.stackexchange.com/questions/148340/how-to-protect-lm317-from-output-short)
 * [The Power Supply](http://www.talkingelectronics.com/projects/ThePowerSupply/Page79PowerSupplyP1.html) - a great summary by TE
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects182-building-bench.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects182-building-bench.html)

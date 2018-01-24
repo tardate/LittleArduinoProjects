@@ -64,4 +64,4 @@ And corresponding [duty cycle](http://www.wolframalpha.com/input/?i=plot3d+|+d+%
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Overclocking the 555 Timer](https://youtu.be/TCz1erC2onQ) - tutorial by Julian Ilett
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects184-adjustable.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects184-adjustable.html)

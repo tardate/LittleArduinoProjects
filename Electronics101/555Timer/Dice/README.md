@@ -173,4 +173,4 @@ All put together:
 * [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
 * [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/littlearduinoprojects229-dice.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects229-dice.html)

@@ -115,4 +115,4 @@ Next test was with a 5V DC signal on left and right channel input.
 * [M62429FP info & datasheet](http://parts.io/detail/5005065/M62429FP) - parts.io
 * [AD5171 Digital Potentiometer](https://www.arduino.cc/en/Tutorial/DigitalPotentiometer) - tutorial
 * [krupski/M62429](https://github.com/krupski/M62429) - M62429 support encapsulated in a library
-* [..as mentioned on my blog](http://blog.tardate.com/2017/03/leap259-m62429-digital-pot.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/03/leap259-m62429-digital-pot.html)

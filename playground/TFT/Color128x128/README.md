@@ -69,4 +69,4 @@ Global variables use 163 bytes (7%) of dynamic memory, leaving 1885 bytes for lo
 * [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library)
 * [Arduino TFT Library Guide](https://www.arduino.cc/en/Guide/TFT)
 * [Arduino TFT Library](https://www.arduino.cc/en/Reference/TFTLibrary)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap361-128x128-tft-lcds.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap361-128x128-tft-lcds.html)

@@ -77,4 +77,4 @@ The time-domain plot for the generated output is like this:
 * [Chain Blocks](http://www.prextron.com/chain) - product site
 * [PrexLab](https://www.facebook.com/groups/1086037341416426/) - facebook
 * [LEAP#265 XYplotter](../XYplotter) - the scope XY plotting project
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap268-chainblocks.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap268-chainblocks.html)

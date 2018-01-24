@@ -63,4 +63,4 @@ Although the signals in and out are analog, the PT2399 appears to operate by dig
 * [PT2399 datasheet](http://www.futurlec.com/Others/PT2399.shtml)
 * [TL072CP datasheet](http://www.futurlec.com/Linear/TL072CP.shtml)
 * [78L05 datasheet](http://www.futurlec.com/Linear/78L05.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap339-pt2399-delay-kit.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap339-pt2399-delay-kit.html)

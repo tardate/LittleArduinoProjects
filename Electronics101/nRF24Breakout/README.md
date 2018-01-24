@@ -48,4 +48,4 @@ See the [KiCad project](./kicad_project/nrf24_breakout.pro) for all the details.
 * [gerblook](http://gerblook.org/) - nice tool for testing a set of gerber files
 * [OSH Park](https://oshpark.com/)
 * [HARDWARE HANGOUT with James "Laen" Neal from OSH Park!](https://www.youtube.com/watch?v=XssjD97-xGM) - where I first learned of OSH Park
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects176-nrf24-breakout.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects176-nrf24-breakout.html)

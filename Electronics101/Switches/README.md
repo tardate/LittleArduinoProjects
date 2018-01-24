@@ -38,4 +38,4 @@ The number of "throws" is the number of separate wiring path choices other than 
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
 * [Encyclopedia of Electronic Components Volume 1](https://www.goodreads.com/book/show/17017467-encyclopedia-of-electronic-components-volume-1)
 * [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap243-switches.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

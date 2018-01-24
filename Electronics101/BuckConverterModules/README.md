@@ -125,4 +125,4 @@ and two blue LEDs in parallel form the load. the LEDs have a forward voltage Vf 
 * [XL4015 DEMO board manual](http://www.xlsemi.com/demo/XL4015%20DEMO%20board%20manual.pdf) - xlsemi
 # [MP2307 datasheet](https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf)
 * [App note: Diode turn-on time induced failures in switching regulators](http://dangerousprototypes.com/2013/01/05/diode-turn-on-time-induced-failures-in-switching-regulators/)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects211-buck-converter.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects211-buck-converter.html)

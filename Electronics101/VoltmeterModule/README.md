@@ -60,4 +60,4 @@ NB: the Fritzing part used here is not quite right (it's actually a 4-wire ammet
 ## Credits and References
 * [DSN-DVM-368L-3 3-Digit 0.36" LED Digital DC Voltmeter](http://www.dx.com/p/dsn-dvm-368l-3-3-digit-0-36-led-digital-dc-voltmeter-for-motorcycle-black-white-343750#.VrVc01N97XE) - example product listing on dx.com
 * [Mini DC 0-100V Yellow LED 3-Digital Display Voltage Voltmeter](http://www.aliexpress.com/item/Mini-DC-0-100V-Yellow-LED-3-Digital-Display-Voltage-Voltmeter-0-28/32276796281.html) - example product listing on aliexpress
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects181-voltmeter.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects181-voltmeter.html)

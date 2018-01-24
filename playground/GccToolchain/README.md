@@ -195,4 +195,4 @@ avrdude done.  Thank you.
 * [Programming Arduino Uno in pure C](https://balau82.wordpress.com/2011/03/29/programming-arduino-uno-in-pure-c/)
 * [Options for the C compiler avr-gcc](http://www.nongnu.org/avr-libc/user-manual/using_tools.html)
 * [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects220-arduino-gcc.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects220-arduino-gcc.html)

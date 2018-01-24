@@ -215,4 +215,4 @@ Some console clips...
 * [esptool](https://github.com/themadinventor/esptool)
 * [Star Wars Asciimation](http://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/network_tcp.html#star-wars-asciimation)
 * [LEAP#194 DIYDevBoard](../../DIYDevBoard) - the dev board I'm using to host the ESP-01
-* [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap344-micropython-on-the-esp8266.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap344-micropython-on-the-esp8266.html)

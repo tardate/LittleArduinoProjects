@@ -167,5 +167,5 @@ Power and Cordwood pins terminate on a small strip of protoboard:
 * [Zener Diode tutorial](http://www.electronics-tutorials.ws/diode/diode_7.html)
 * [1N4733 datasheet](http://www.futurlec.com/Diodes/1N4733.shtml)
 * [4 x 4 x 1.5mm SMD push buttons](https://www.aliexpress.com/item/Free-shipping-100PCS-4-4-1-5mm-4x4x1-5mm-SMD-push-button-switch-microswitch-Tact-Switch/836256964.html)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap322-fidget-cube-cordwood-controller.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap322-fidget-cube-cordwood-controller.html)
 * [..as posted on hackady.io](https://hackaday.io/project/25626-fidgetcube-cordwood-controller)

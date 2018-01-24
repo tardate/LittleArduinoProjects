@@ -111,4 +111,4 @@ At maximum trim:
 * [CD4069 datasheet](http://www.futurlec.com/4000Series/CD4069.shtml)
 * [Square wave generator with CD4070](http://www.next.gr/circuits/Square-wave-generator-with-CD4070-l23572.html)
 * [Understanding Buffered and Unbuffered CD4xxxB Series Device Characteristics](http://www.ti.com/lit/an/scha004/scha004.pdf) - TI AppNote
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap297-cd4070-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap297-cd4070-oscillator.html)

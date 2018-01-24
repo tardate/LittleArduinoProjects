@@ -206,4 +206,4 @@ Under test, performs just fine..
 * [Class AB Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers55.php) - learnabout-electronics
 * [Common Emitter Mode](http://www.learnabout-electronics.org/Semiconductors/bjt_06.php) - learnabout-electronics
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2018/01/leap371-common-emitter-amplifier-biasing.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap371-common-emitter-amplifier-biasing.html)

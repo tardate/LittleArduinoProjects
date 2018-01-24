@@ -53,4 +53,4 @@ then sends a pulse per second to the CD4026 - so a simple monotonic second count
 * [CD4026 Datasheet](http://www.futurlec.com/4000Series/CD4026.shtml)
 * [ST HCF4026B Datasheet](http://www.digchip.com/datasheets/parts/datasheet/456/HCF4026-pdf.php) - closest I could find to the actual chip I have. Functionally identical to the CD4026.
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/03/littlearduinoprojects196-driving-7.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/03/littlearduinoprojects196-driving-7.html)

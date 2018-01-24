@@ -69,4 +69,4 @@ Construction complete ... the internals:
 * [Build a Guitar Pedal in 10 mins! (Fuzz)](https://www.youtube.com/watch?v=Rv5iQ_aenX8) - DIY Guitar Pedals
 * [S9013 datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
 * [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/03/leap262-bazz-fuzz-chocolate-noisette.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/03/leap262-bazz-fuzz-chocolate-noisette.html)

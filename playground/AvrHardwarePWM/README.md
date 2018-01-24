@@ -288,4 +288,4 @@ OCR2B  : 10111111
 * [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)
 * [Secrets of Arduino PWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
 * [What is all this _BV() stuff about?](http://www.atmel.com/webdoc/AVRLibcReferenceManual/FAQ_1faq_use_bv.html) - AVR Libc Reference Manual
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap254-avr-hardware-pwm.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap254-avr-hardware-pwm.html)

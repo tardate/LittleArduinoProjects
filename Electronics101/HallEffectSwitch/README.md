@@ -54,4 +54,4 @@ within 23mm directly to the front of the chip. The output remains on until I pul
 * [A3144 Datasheet](https://e-radionica.com/productdata/A3141.pdf)
 * [Basic Hall Effect Sensors 1](https://www.youtube.com/watch?v=9BFdGtvo9JE) - video tutorial by Lewis Loflin
 * [Hall_effect_sensor](https://en.wikipedia.org/wiki/Hall_effect_sensor) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2016/04/littlearduinoprojects198-hall-effect.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/04/littlearduinoprojects198-hall-effect.html)

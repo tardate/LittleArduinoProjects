@@ -80,4 +80,4 @@ The [microchip PIC12F1840](http://www.microchip.com/wwwproducts/en/PIC12F1840) s
 * [Microchip PIC12F1840](http://www.microchip.com/wwwproducts/en/PIC12F1840) - product info and datasheet
 * [MadLab's 'Funky guitar'](http://www.madlab.org/kits/guitar.html)
 * [Karplus–Strong](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap323-boldport-club-stringy.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap323-boldport-club-stringy.html)

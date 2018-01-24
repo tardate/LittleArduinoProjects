@@ -60,4 +60,4 @@ Here is a test run:
 * [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library)
 * [LEAP#194 DIYDevBoard](../../DIYDevBoard) - the dev board I'm using to host the ESP-01
 * [LEAP#301 DHT11/Basics](../../../playground/DHT11/Basics) - similar project for an Arduino
-* [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap343-esp8266-dht11-sensor-reading.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap343-esp8266-dht11-sensor-reading.html)

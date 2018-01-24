@@ -296,4 +296,4 @@ Driving it with an Arduino, see the [CombinationalLogicDriver.ino](./Combination
 * [74LS132 quad 2-input NAND Schmitt trigger datasheet](http://www.futurlec.com/74LS/74LS132.shtml)
 * [74LS136 Quadruple 2-input XOR with open-collector outputs datasheet](http://www.futurlec.com/74LS/74LS136.shtml)
 * [74LS386 Quadruple 2-input XOR datasheet](http://pdf.datasheetcatalog.com/datasheet/motorola/SN74LS386N.pdf)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap308-combinational-logic-7-segment-led-driver.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap308-combinational-logic-7-segment-led-driver.html)

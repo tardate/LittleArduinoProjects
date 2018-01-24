@@ -65,4 +65,4 @@ A pushbutton is read on A5. Pressing the button reverse the LED sequence.
 * [Arduino Tips and Tricks email newsletter](https://www.getdrip.com/forms/6137337/submissions/new)
 * [AnalogInputPins](https://www.arduino.cc/en/Tutorial/AnalogInputPins) - arduino.cc tutorial
 * [DigitalRead](https://www.arduino.cc/en/Reference/DigitalRead) - arduino.cc reference
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap240-digital-input-with-analog-pins.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap240-digital-input-with-analog-pins.html)

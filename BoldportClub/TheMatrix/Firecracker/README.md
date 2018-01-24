@@ -38,4 +38,4 @@ Doxygen source documentation is available [here](http://leap.tardate.com/Boldpor
 * [LEAP#299 TheMatrix](../TheMatrix)
 * [LM35 Datasheet](http://www.futurlec.com/Linear/LM35DZ.shtml)
 * [LEAP#079 LedTemperatureDisplay](../../../playground/LedTemperatureDisplay) - more details on using the LM35 sensor
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap312-matrix-firecracker.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap312-matrix-firecracker.html)

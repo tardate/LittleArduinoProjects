@@ -118,4 +118,4 @@ Results with an ugly-style construction on a copper PCB are much closer to theor
 * [RC Oscillator-using Op-Amp,BJT](http://www.electronicshub.org/rc-oscillator/) - electronicshub
 * [Class A Amplifier](http://www.electronics-tutorials.ws/amplifier/amp_5.html)
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap332-rc-phase-shift-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap332-rc-phase-shift-oscillator.html)

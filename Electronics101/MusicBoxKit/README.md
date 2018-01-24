@@ -140,4 +140,4 @@ Wired up with an Arduino for the demo (includes LEDs to indicate signal state):
 * [CK9561 DIY 4-Sound Voice Alarm IC Modules](http://www.dx.com/p/ck9561-diy-4-sound-voice-alarm-ic-modules-brown-silver-4-pcs-342698#.V3iBKpN97XE) - on dx.com (with schematic)
 * [CD4011 datasheet](http://www.futurlec.com/4000Series/CD4011.shtml)
 * [CD4066 datasheet](http://www.futurlec.com/4000Series/CD4066.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/littlearduinoprojects226-music-box.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects226-music-box.html)

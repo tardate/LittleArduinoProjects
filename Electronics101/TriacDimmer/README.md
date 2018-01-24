@@ -66,4 +66,4 @@ NB: since I don't have a differential probe, these scope traces are the X+Y mix 
 * [What is a TRIAC - Tutorial](http://www.radio-electronics.com/info/data/semicond/triac/what-is-a-triac-basics-tutorial.php)
 * [Dimmer Theory](http://pcbheaven.com/wikipages/Dimmer_Theory/)
 * [Electronic Basics #20: Thyristor, Triac || Phase Angle Control](https://www.youtube.com/watch?v=4N1uLth1o9o)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/06/littlearduinoprojects205-triac-dimmer.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects205-triac-dimmer.html)

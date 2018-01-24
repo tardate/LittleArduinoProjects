@@ -160,4 +160,4 @@ The implementation here is similar to the pedalSHIELD example.
 ## Credits and References
 * [pedalShieldUno](../pedalShieldUno) - project
 * [AudioDSP](../../AudioDSP) - project
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap250-audiodsp-library-for-the-pedalshield-uno.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap250-audiodsp-library-for-the-pedalshield-uno.html)

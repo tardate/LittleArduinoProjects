@@ -158,4 +158,4 @@ And now on a chopped-up PCB:
 * [J201 datasheet](http://www.futurlec.com/Transistors/J201.shtml)
 * [JFET](https://en.wikipedia.org/wiki/JFET) - wikipedia
 * [a coil calculator](http://www.66pacific.com/calculators/coil_calc.aspx)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/03/littlearduinoprojects195-coil-resonance.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/03/littlearduinoprojects195-coil-resonance.html)

@@ -66,4 +66,4 @@ So where are the electronics? None involved so far! But some ideas I have in min
 * [Instructions Stirling Engine HB13](http://www.en.boehm-stirling.com/support.html?file=tl_files/stirling-technik.de/manuals/en/Anleitung%20HB13%20E%2024042015.doc)
 * [Support and General Construction Tips](http://www.en.boehm-stirling.com/support.html)
 * [Suitable denatured alchohol](http://www.guardian.com.sg/denatured-alcohol-120ml/p/158504) available at Guardian Pharmacy (Singapore) for only S$4.30
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects185-building-bohm.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects185-building-bohm.html)

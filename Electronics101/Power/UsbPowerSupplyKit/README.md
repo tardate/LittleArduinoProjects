@@ -116,4 +116,4 @@ It's some enjoyable Sunday afternoon soldering therapy. Throw on your favourite 
 * [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
 * [Schematic for this project in EasyEDA](https://easyeda.com/tardate/UsbPowerSupplyKit-d87d4b02fdde4ab88ade1a808439dc22)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap341-usb-power-supply.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap341-usb-power-supply.html)

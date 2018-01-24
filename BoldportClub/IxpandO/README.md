@@ -147,5 +147,5 @@ The demo program has a very simple behaviour:
 * [Boldport IxpandO](https://www.boldport.com/products/ixpando) - official product page
 * [MCP23017T-E/SO info and datasheet](http://www.microchip.com/wwwproducts/en/MCP23017)
 * [Wire Library](https://www.arduino.cc/en/Reference/Wire)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/09/leap340-boldport-club-ixpando.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap340-boldport-club-ixpando.html)
 

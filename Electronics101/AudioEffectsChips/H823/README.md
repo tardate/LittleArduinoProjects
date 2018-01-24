@@ -43,4 +43,4 @@ certainly far better than the piezo buzzer often seen used with these chips in k
 ## Credits and References
 * [CD4060 Dream Music Light DIY Kit](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html) - from a seller on aliexpress
 * [LEAP#291: MusicLightKit](../../CD4060/MusicLightKit)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap292-h823-audio-effects-chip.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap292-h823-audio-effects-chip.html)

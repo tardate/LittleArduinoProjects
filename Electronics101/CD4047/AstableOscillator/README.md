@@ -73,4 +73,4 @@ Close-up of the rising edge:
 ## Credits and References
 * [CD4047 datasheet](http://www.futurlec.com/4000Series/CD4047.shtml)
 * [Review – CD4047 Astable/Monostable Multivibrator](http://tronixstuff.com/2011/02/11/review-cd4047-astablemonostable-multivibrator/)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/06/littlearduinoprojects206-cd4047-astable.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects206-cd4047-astable.html)

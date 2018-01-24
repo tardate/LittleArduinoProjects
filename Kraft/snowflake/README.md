@@ -226,4 +226,4 @@ I haven't really been able to capture the full effect in a photo. IRL it is much
 * [Snow Flake Power Converter BOM](https://octopart.com/bom-tool/dVbVIUxg) - octopart
 * [Black Magic Probe](https://1bitsquared.com/collections/frontpage/products/black-magic-probe)
 * [Atmel SAM D ARM Cortex M0 info](http://www.atmel.com/products/microcontrollers/arm/sam-d.aspx)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap355-snow-flake.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap355-snow-flake.html)

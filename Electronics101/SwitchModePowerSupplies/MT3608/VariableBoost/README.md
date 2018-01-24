@@ -185,4 +185,4 @@ Passives selection:
 * [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
 * [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [MT3608 module](https://www.aliexpress.com/item/MT3608-2A-Max-DC-DC-Step-Up-Power-Module-Booster-Power-Module-For-Arduino/32575664534.html) - from a seller on aliexpress
-* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap315-mt3608-variable-boost-converter.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap315-mt3608-variable-boost-converter.html)

@@ -42,4 +42,4 @@ A few things to note:
 * [10pcs Dingdong Tone Doorbell Music Voice Module Board IC Sound Chip For DIY/Toy](https://www.aliexpress.com/item/10pcs-Dingdong-Tone-Doorbell-Music-Voice-Module-Board-IC-Chip-For-DIY-Toy/32661936820.html) - aliexpress seller
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT
 * [LEAP#059 TwoToneDoorbell](../../555Timer/TwoToneDoorbell)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap359-hs-088-effects-chip.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap359-hs-088-effects-chip.html)

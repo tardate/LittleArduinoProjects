@@ -220,4 +220,4 @@ After investigating the original source, I've seen a few areas that might be wor
 * [Original String Source](https://github.com/boldport/stringy/blob/master/software)
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
 * [Guitar Pro](https://www.guitar-pro.com/en/index.php)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap349-burn-a-new-demo-for-the-stringy.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap349-burn-a-new-demo-for-the-stringy.html)

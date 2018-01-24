@@ -71,4 +71,4 @@ Measuring the 1.1V reference:
 * [SecretVoltmeter](https://code.google.com/archive/p/tinkerit/wikis/SecretVoltmeter.wiki)
 * [AVR datasheet](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
 * [AREF decoupling capacitor](http://www.atmel.com/webdoc/stk600/stk600.section.qim_lde_lc.html) - 10nF suggested
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap333-measure-thy-own-voltage.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap333-measure-thy-own-voltage.html)

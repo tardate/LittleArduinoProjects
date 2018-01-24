@@ -58,4 +58,4 @@ With VCC connected to power, when any pin D1-8 is pulled to ground the correspon
 
 ## Credits and References
 * [4x4 Independent Keyboard Matrix module](http://www.aliexpress.com/item/8-LED-4x4-Push-Buttons-Matrix-16-Key-Switch-Keyboard-for-Arduino-AVR-ARM-STM32/1526506146.html) - from a seller on aliexpress
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)

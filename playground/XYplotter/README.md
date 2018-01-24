@@ -61,4 +61,4 @@ The time-domain plot for the generated output is like this:
 * [#78: Use an Arduino to draw pictures on an oscilloscope using XY mode](https://youtu.be/Dx9N91FnPdo?list=PL049620539B359102) - w2aew
 * [MCP42010 datasheet](http://parts.io/detail/1372149/MCP42010-I%2FSL) - parts.io
 * [LEAP#264 MCP42010](../../Electronics101/DigitalPots/MCP42010) - basic test of the MCP42010
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap265-xyplotter-fun.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap265-xyplotter-fun.html)

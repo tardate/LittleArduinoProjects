@@ -78,4 +78,4 @@ Here's a quick demo, "fast mode".
 * [BINCO](http://community.boldport.club/projects/p19-binco/) - on the community site
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [74HC4020 Datasheet](http://www.futurlec.com/74HC/74HC4020SMD.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap363-binco-fidget-counter.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap363-binco-fidget-counter.html)

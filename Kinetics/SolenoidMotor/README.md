@@ -45,4 +45,4 @@ The switch controls the power to the whole circuit:
 * [Tiny Solenoid Motor on a Credit Card](https://www.youtube.com/watch?v=8EaCermGrwM) - inspiration for this build
 * [Mini push-pull solenoids on aliexpress](http://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
 * [1N4001-1N4007 datasheet](http://www.futurlec.com/Diodes/1N4001.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/04/littlearduinoprojects200-mini-solenoid.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/04/littlearduinoprojects200-mini-solenoid.html)

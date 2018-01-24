@@ -207,4 +207,4 @@ Presto, the OSHChip rebooted and is now blinking the Red onboard LED every half 
 * [virtualenv](https://virtualenv.pypa.io/en/latest/)
 * [brew](https://github.com/Homebrew/homebrew)
 * [pip](https://pypi.python.org/pypi/pip)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects215-oshchip-yotta.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects215-oshchip-yotta.html)

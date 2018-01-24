@@ -107,4 +107,4 @@ I'll ask the seller before cracking the box to see if I can figure it out..
 * [Saike 909D](https://www.aliexpress.com/item/high-quality-genuine-saike-909D-hot-air-gun-rework-station-with-Soldering-station-power-3-in1/32336689474.html) - from a seller on aliexpress
 * [SAIKE 909D Review – Soldering iron, heat gun and DC PSU](http://diygeezer.com/saike-909d-review/)
 * [SMD rework station temperature not accurate](http://www.eevblog.com/forum/beginners/smd-rework-station-temperature-not-accurate-!!!!!/) - seems to report the same problem with the soldering iron temperature as I've seen, and a possible solution.
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap272-saike-909d.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap272-saike-909d.html)

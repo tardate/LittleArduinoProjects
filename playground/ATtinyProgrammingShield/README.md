@@ -38,4 +38,4 @@ It includes two LEDs on PB0 and PB1, which can be used for debugging/testing a p
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)
 * [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)
 * [Programming an ATtiny with Arduino ISP](http://scuola.arduino.cc/lesson/qX1117g/Programming_an_ATtiny_with_Arduino_ISP)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap253-attiny-programming-shield.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap253-attiny-programming-shield.html)

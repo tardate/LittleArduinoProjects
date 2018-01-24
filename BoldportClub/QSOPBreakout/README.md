@@ -172,4 +172,4 @@ a 63Sn/37Pb formulation, or if perhaps I just have some very poorly manufactured
 * [MELFs](http://en.wikipedia.org/wiki/MELF_electronic_components).
 * [LEAP#258 Electronics101/ClapSwitchKit2](../../Electronics101/ClapSwitchKit2) - kit build which I used to experiment with "perfect solder dome" technique
 * [LEAP#171 Electronics101/SMDPracticeBoards](../../Electronics101/SMDPracticeBoards) - a few more SMD practice boards
-* [..as mentioned on my blog](http://blog.tardate.com/2017/06/leap316-the-boldport-qsop-breakout.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap316-the-boldport-qsop-breakout.html)

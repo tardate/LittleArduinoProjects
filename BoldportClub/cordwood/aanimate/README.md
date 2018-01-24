@@ -36,4 +36,4 @@ See the [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/Pi
 * [LEAP#266 The Cuttle](../../TheCuttle) - building the BoldportClub Cuttle
 * [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)
 * [It showed up in a hackaday article!](http://hackaday.com/2017/03/24/retrotechtacular-tinkertoy-and-cordwood-in-the-pre-ic-era/)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap270-cordwood-aanimations.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap270-cordwood-aanimations.html)

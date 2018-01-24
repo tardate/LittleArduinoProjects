@@ -128,4 +128,4 @@ Here's a quick demo..
 * [RF24 Library scanner example](https://github.com/maniacbug/RF24/tree/master/examples/scanner)
 * [nRF24L01+ datasheet](http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf)
 * [Nrf24L01-2.4GHz-HowTo](http://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo)
-* [..as mentioned on my blog](http://blog.tardate.com/2018/01/leap367-nrf24-scanner.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap367-nrf24-scanner.html)

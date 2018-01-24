@@ -55,4 +55,4 @@ Here's a sample trace:
 ## Credits and References
 * [XOR gate](https://en.wikipedia.org/wiki/XOR_gate) - wikipedia
 * [74LS132 datasheet](http://www.futurlec.com/74LS/74LS132.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap283-xor-with-nand-gates.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap283-xor-with-nand-gates.html)

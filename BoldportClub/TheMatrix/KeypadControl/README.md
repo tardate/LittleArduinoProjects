@@ -50,4 +50,4 @@ fixed some issues with LED brightness control. Now everything is looking so much
 * [LEAP#299 TheMatrix](../TheMatrix)
 * [LEAP#303 KeyboardMatrixModule](../../../playground/KeyboardMatrixModule)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap307-boldport-matrix-keypad-control.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap307-boldport-matrix-keypad-control.html)

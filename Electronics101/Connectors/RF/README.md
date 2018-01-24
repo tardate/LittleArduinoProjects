@@ -99,4 +99,4 @@ Typical Crimp Die sizes
 * [BNC Connector](https://en.wikipedia.org/wiki/BNC_connector) - wikipedia
 * [F connector](https://en.wikipedia.org/wiki/F_connector) - wikipedia
 * [F-Type connector series](https://www.amphenolrf.com/connectors/f-type.html) - Amphenol’s F-Type is a 75 Ω connector featuring 30 dB return loss at 1GHz.
-* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap347-rf-connectors.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap347-rf-connectors.html)

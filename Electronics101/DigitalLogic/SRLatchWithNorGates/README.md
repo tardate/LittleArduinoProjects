@@ -38,4 +38,4 @@ Ben Eater has a great video explaining SR latch behaviour:
 * [74LS02 datasheet](http://www.futurlec.com/74LS/74LS02.shtml)
 * [NOR-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/norlatch.html)
 * [NOR gate S-R latch](http://www.allaboutcircuits.com/vol_6/chpt_7/3.html)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap061-set-reset-latches.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap061-set-reset-latches.html)

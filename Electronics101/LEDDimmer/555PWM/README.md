@@ -68,4 +68,4 @@ I'm using this (very) cheap [3014 Led Strip Light](http://www.aliexpress.com/ite
 * [PWM LED Dimmer/ Brightness Control by 555 Timer With Video Simulation](http://www.circuitsgallery.com/2013/02/pwm-led-dimmer.html)
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap232-led-dimmer-pwm.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap232-led-dimmer-pwm.html)

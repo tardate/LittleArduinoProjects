@@ -53,4 +53,4 @@ Here's a very unexciting demonstration of a quick test:
 
 ## Credits and References
 * [TL431 datasheet](http://www.ti.com/lit/ds/symlink/tl431a.pdf)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap360-tl431-shunt-regulator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap360-tl431-shunt-regulator.html)

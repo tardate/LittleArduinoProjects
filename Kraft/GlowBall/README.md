@@ -81,4 +81,4 @@ FWIW, here are my scratchy notes on how I laid out the protoboard:
 * [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
 * [RGB LED datasheet](http://www.futurlec.com/LED/RGB5LED.shtml)
 * [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap338-going-glowball.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap338-going-glowball.html)

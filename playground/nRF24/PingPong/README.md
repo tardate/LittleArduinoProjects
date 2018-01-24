@@ -69,4 +69,4 @@ In practice, I'm seeing no more than 14.8mA drawn by the nRF24L01+ module (send 
 * [nRF24L01+ datasheet](http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf)
 * [maniacbug RF24](https://github.com/maniacbug/RF24) library
 * [nRF24Breakout](../../../Electronics101/nRF24Breakout) - custom breadboard adapters for the nRF24L01+
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects187-nrf24l01-ping.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects187-nrf24l01-ping.html)

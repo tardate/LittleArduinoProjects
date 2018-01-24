@@ -271,4 +271,4 @@ If you could get the Sleepy Bee in DIP24 package (or provide a DIP24 adapter), h
 * [AN0828: Capacitive Sensing Library Overview](https://www.silabs.com/Support%20Documents/TechnicalDocs/an0828-capacitive-sensing-library-overview.pdf)
 * [AN0829: Capacitive Sensing Library Configuration Guide](https://www.silabs.com/Support%20Documents/TechnicalDocs/AN0829.pdf)
 * [Simplicty Studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/04/leap277-boldport-touchy.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap277-boldport-touchy.html)

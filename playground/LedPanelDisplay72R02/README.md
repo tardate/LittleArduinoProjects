@@ -141,4 +141,4 @@ The [LedPanelDisplay72R02.ino](./LedPanelDisplay72R02.ino) sketch runs a series 
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI Clock polarity and phase](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus#Clock_polarity_and_phase) - wikipedia
 * [74HC595 Datasheet](https://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf) - NXP
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects209-funky-little.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects209-funky-little.html)

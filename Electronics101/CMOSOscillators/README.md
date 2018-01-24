@@ -60,4 +60,4 @@ According to my oscilloscope, the NCH060C (20MHz) is running at 19.9996MHz - mar
 * [SaRonix NCH060C](http://resume.wizzard.com/w1995/SaRonix/ttl.html#CMOS) - the only good information I've been able to find about this particular oscillator
 * [Oscillator FAQ](http://www.ecliptek.com/oscillators/faq/TEN10-001-012_EB52_54C5_Series_TCXO_Oscillator_FAQ.pdf) - useful guide although for another product range
 * [Designing Crystal Oscillators with Modern CMOS Gates](http://www.onsemi.com/pub_link/Collateral/AND8053-D.PDF)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap246-cmos-oscillators.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap246-cmos-oscillators.html)

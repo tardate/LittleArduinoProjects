@@ -107,4 +107,4 @@ Conclusions:
 * [Voltage-controlled oscillator](https://en.wikipedia.org/wiki/Voltage-controlled_oscillator) - wikipedia
 * [How to Build a Voltage Controlled Oscillator (VCO) with a 555 Timer Chip](http://www.learningaboutelectronics.com/Articles/Voltage-controlled-oscillator-VCO-circuit-with-a-555-timer.php) - learningaboutelectronics
 * [LEAP#016 AstableOscillator](../AstableOscillator)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap328-555-timer-vco.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap328-555-timer-vco.html)

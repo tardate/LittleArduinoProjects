@@ -231,4 +231,4 @@ Philip's recommendation: use active low drive the same as the on-board LEDs and 
 * [OSHChip_CMSIS-DAP_V1.0 Schematic](https://github.com/OSHChip/OSHChip_CMSIS_DAP_V1.0_Docs/blob/master/Other%20Files/OSHChip_CMSIS-DAP_V1.0___Schematic_Prints.PDF)
 * [nRF51822](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822) - main information centre
 * [ARM Cortex-M0 Processor](http://www.arm.com/products/processors/cortex-m/cortex-m0.php) - main information centre
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects213-oshchip-blinky.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects213-oshchip-blinky.html)

@@ -78,4 +78,4 @@ NB: the pull-down resistor can't be too stiff with the 74LS00. For example, a 10
 * [D latch](https://www.youtube.com/watch?v=peCh_859q7Q&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=7) - Ben Eater
 * [D flip-flop](https://www.youtube.com/watch?v=YW-_GkUguMM&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=8) - Ben Eater
 * [7400 Series datasheets](http://www.skot9000.com/ttl/)
-* [..as mentioend on my blog](http://blog.tardate.com/2017/10/leap348-d-latch-with-nand-gates.html)
+* [..as mentioend on my blog](https://blog.tardate.com/2017/10/leap348-d-latch-with-nand-gates.html)

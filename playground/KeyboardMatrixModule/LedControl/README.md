@@ -34,4 +34,4 @@ The [LedControl.ino](./LedControl.ino) sketch does no more than switch the LEDs 
 
 ## Credits and References
 * [LEAP#303 KeyboardMatrixModule](../)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)

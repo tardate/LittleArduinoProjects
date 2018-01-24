@@ -52,4 +52,4 @@ Finished "Message Waiting" gadget. Putting a card in the slot turns on the flash
 * [BI-POLAR LED DRIVER Circuit](http://www.555-timer-circuits.com/bi-polar-led-driver.html) - 555-timer-circuits
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [Bi-ploar LED parts](http://parts.io/search/term-bi-polar%20led/Class-Optoelectronics/Category-Visible%20LEDs?Configuration=COMMON%20BIPOLAR%20TERMINAL%2C%202%20ELEMENTS) - at parts.io
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap252-message-waiting.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap252-message-waiting.html)

@@ -69,4 +69,4 @@ walkthrough of all the electrical design decisions
 * [Quartz Crystal Oscillators](http://www.electronics-tutorials.ws/oscillator/crystal.html)
 * [CIRCUIT COLLECTION : OSCILLATORS](http://www.changpuak.ch/electronics/Oscillators.php)
 * [Pierce-Gate Crystal Oscillator, an introduction](http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/02/leap248-pierce-gate-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap248-pierce-gate-oscillator.html)

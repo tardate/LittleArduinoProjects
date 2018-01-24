@@ -50,4 +50,4 @@ is not particularly stable and there's a distinct second harmonic.
 * [1MHz Oscillator](https://www.youtube.com/watch?v=1IJ284kV6zY) - stoneslice
 * [Colpitts oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
 * [J201 datasheet](http://www.futurlec.com/Transistors/J201.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap230-minimal-lc-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap230-minimal-lc-oscillator.html)

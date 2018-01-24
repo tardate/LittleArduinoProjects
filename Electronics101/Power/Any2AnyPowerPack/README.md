@@ -68,4 +68,4 @@ and demonstration of how these work.
 * [EEVblog #1015 - Beware Evil (But Clever) DC Jacks!](https://www.youtube.com/watch?v=ix2fR-rh1vc)
 * [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [1N4001-7 Datasheet](http://www.futurlec.com/Diodes/1N4001.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap330-any-to-an-polarity-dc-power-adapter.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap330-any-to-an-polarity-dc-power-adapter.html)

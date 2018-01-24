@@ -64,4 +64,4 @@ intuit. The short leg and flat edge are actually the collector and is connected 
 * [TheGent](http://community.boldport.club/projects/p10-thegent/) - club community site, packed with resources for the project
 * [Eurocircuits](http://www.eurocircuits.com/) - manufactured the board
 * [PT333-3C datasheet](https://www.rapidonline.com/pdf/156408-da-02-en.pdf)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap284-the-boldport-gent.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap284-the-boldport-gent.html)

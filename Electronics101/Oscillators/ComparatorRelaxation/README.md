@@ -42,4 +42,4 @@ clearly showing the hysteresis of the capacitor charging curve as it battles the
 * [Comparator–based relaxation oscillator](https://en.wikipedia.org/wiki/Relaxation_oscillator#Comparator.E2.80.93based_relaxation_oscillator) - wikipedia
 * [LEAP#039 AstableOpamp](../AstableOpamp) - astable opamp oscillator
 * [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap336-comparator-based-relaxation-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap336-comparator-based-relaxation-oscillator.html)

@@ -69,4 +69,4 @@ And alternative configuration "C" for comparison:
 * [Alice Music Voice Module Tone Loop Control IC Chip Board for DIY/Toy 3V-4.5V](https://www.aliexpress.com/item/10PCS-PX088-Alice-Music-Voice-Module-Tone-Loop-Control-IC-Chip-Board-High-Songs-3V-4/32821795206.html) - seller on aliexpress
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT
 * [Für Elise](https://en.wikipedia.org/wiki/F%C3%BCr_Elise)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap356-px088a-music-chip.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap356-px088a-music-chip.html)

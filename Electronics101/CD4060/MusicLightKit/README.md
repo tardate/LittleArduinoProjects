@@ -100,4 +100,4 @@ This is the schematic available from most vendors:
 * [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
 * [LEAP#292 AudioEffectsChips/H823](../../AudioEffectsChips/H823) - testing the music chip that came with this kit
 * [LEAP#293 CD4060/RCOscillator](../RCOscillator) - testing an CD4060 driven by an RC oscillator
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap291-cd4060-music-light-kit.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap291-cd4060-music-light-kit.html)

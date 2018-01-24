@@ -126,4 +126,4 @@ Final protoboard build:
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
 * [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
 * [BJT in Reverse Active Mode of Operation](http://electronics.stackexchange.com/questions/29756/bjt-in-reverse-active-mode-of-operation) - EE.SE
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/littlearduinoprojects228-transistor-curve-tracer.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects228-transistor-curve-tracer.html)

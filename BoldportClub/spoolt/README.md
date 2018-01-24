@@ -60,4 +60,4 @@ There are 10 LEDs in parallel, although there's actually space for more.
 * [spoolt](http://community.boldport.club/projects/p15-spoolt/) - on the community site
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
 * [LEAP#130 DarlingtonTouchSwitch](../../Electronics101/DarlingtonTouchSwitch) - more on Darlington touch switches
-* [..as mentioned on my blog](http://blog.tardate.com/2017/07/leap325-pimp-my-boldportclub-spoolt.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/07/leap325-pimp-my-boldportclub-spoolt.html)

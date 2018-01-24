@@ -281,4 +281,4 @@ As part of verifying the circuit, I redrew the schematic in Fritzing:
 * [TPA301DR datasheet](https://parts.io/detail/972012/TPA301DR)
 * [AP2210K-3.3TRG1 datasheet](https://parts.io/detail/156066978/AP2210K-3.3TRG1)
 * [2N7002ET1G datasheet](https://parts.io/detail/2137048/2N7002ET1G)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap290-the-boldport-club-pissoff.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap290-the-boldport-club-pissoff.html)

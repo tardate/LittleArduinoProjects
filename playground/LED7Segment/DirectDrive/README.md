@@ -48,4 +48,4 @@ Here's a summary of how the Arduino pins are mapped to LED segments:
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
 * [Arduino and 7 Segment LED](http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html) - original idea and source code
 * [Drive a 7-Segment LED with an Arduino](http://makezine.com/projects/drive-a-7-segment-led-with-an-arduino/)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects001-basics-of-7.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects001-basics-of-7.html)

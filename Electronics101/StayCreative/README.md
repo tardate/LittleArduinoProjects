@@ -51,4 +51,4 @@ But it turns out that the current draw is about 50mA with all the LEDs fully on 
 * [IRF540N datasheet](url) n-channel MOSFET
 * [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI)
 * [BuckConverter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-1)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/07/littlearduinoprojects212-stay-creative.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects212-stay-creative.html)

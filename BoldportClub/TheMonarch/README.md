@@ -165,4 +165,4 @@ Here's a video of the frame:
 * [74HC86 datasheet](http://www.futurlec.com/74HC/74HC86.shtml)
 * [Ikea RIBBA Frame](http://www.ikea.com/sg/en/catalog/products/80378437/)
 * [LFSR](https://en.wikipedia.org/wiki/Linear-feedback_shift_register) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2017/12/leap357-the-monarch.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap357-the-monarch.html)

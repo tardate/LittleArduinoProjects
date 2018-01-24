@@ -72,4 +72,4 @@ The performance is summarised in the table and scope capture below.
 * [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
 * [Flip-flops](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
 * [LEAP#294 CD4060/CrystalOscillator](../CrystalOscillator) - similar circuit but crystal-controlled
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap293-cd4060-rc-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap293-cd4060-rc-oscillator.html)

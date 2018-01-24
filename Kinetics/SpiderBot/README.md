@@ -98,4 +98,4 @@ And here's the basic layout on to a protoboard "backpack" for the PissOff:
 * [GuoKe GK4078-3VDC](https://www.aliexpress.com/store/product/GK4078-3VDC-GK4078-3VDC-GK4078-3VDC-1A-3V/1895287_32819750810.html)
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
 * [LM555CN datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/11/leap354-pissoff-mutant-offspring.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/11/leap354-pissoff-mutant-offspring.html)

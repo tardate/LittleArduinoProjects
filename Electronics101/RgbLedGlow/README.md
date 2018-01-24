@@ -72,4 +72,4 @@ The [demo video](http://www.youtube.com/watch?v=9PpOC6A96As) is using the revers
 * [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
 * [RGB LED](https://www.aliexpress.com/item/50pcs-4-pins-5mm-RGB-LED-full-color-Tri-Color-Common-Anode-LED-Red-Green-Blue/32802378189.html) - aliexpress seller
 * [LEAP#089 BreatheLamp](../BreatheLamp)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap337-rgb-led-glow-with-opamps.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap337-rgb-led-glow-with-opamps.html)

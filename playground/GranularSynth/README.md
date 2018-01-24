@@ -123,4 +123,4 @@ Finished and under test:
 * [Auduino](http://code.google.com/p/tinkerit/wiki/Auduino) - original sources
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [LM7805 datasheet](http://www.futurlec.com/Linear/7805T.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2018/01/leap368-granular-synth.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap368-granular-synth.html)

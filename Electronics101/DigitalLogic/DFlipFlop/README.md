@@ -81,4 +81,4 @@ This second trace shows output Q transitioning from high to low. Note:
 * [74LS14 datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
 * [D flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#D_flip-flop) - wikipedia
 * [RC time constant](https://en.wikipedia.org/wiki/RC_time_constant) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap353-d-flipflop-with-nand-gates.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap353-d-flipflop-with-nand-gates.html)

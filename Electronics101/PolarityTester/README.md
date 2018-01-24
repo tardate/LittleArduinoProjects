@@ -34,6 +34,6 @@ The unlit LED is subject to a reverse voltage equivalent to the forward voltage 
 
 ## Credits and References
 * [CD4069 datasheet](http://www.futurlec.com/4000Series/CD4069.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2016/02/littlearduinoprojects183-polarity.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects183-polarity.html)
 
 

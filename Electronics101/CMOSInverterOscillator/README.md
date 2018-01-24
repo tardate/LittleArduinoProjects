@@ -48,4 +48,4 @@ Scope trace for C1=1µF, R1(2-3)=40kΩ:
 * [LEAP#022 SchmittOscillator](../SchmittOscillator) - a similar (better performing) circuit using a 74LS14
 * [CD4096 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/66451/INTERSIL/CD4096BMS.html)
 * [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap234-cmos-inverter-oscillator.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap234-cmos-inverter-oscillator.html)

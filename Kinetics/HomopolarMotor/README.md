@@ -44,4 +44,4 @@ establishing the electric field. In fact the demo video shows how easy it is to 
 * [Homopolar motor](https://en.wikipedia.org/wiki/Homopolar_motor) - wikipedia
 * [Homopolar Motor](https://youtu.be/wUqbvHOW6Us) - Boom! CrazyRussianHacker
 * [Homopolar Motors Explained](https://www.youtube.com/watch?v=ttD3Jw9OfOI) - Martin Simon
-* [..as mentioned on my blog](http://blog.tardate.com/2016/05/littlearduinoprojects203-homopolar-motor.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2016/05/littlearduinoprojects203-homopolar-motor.html)

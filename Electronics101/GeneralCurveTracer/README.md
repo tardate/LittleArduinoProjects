@@ -85,4 +85,4 @@ NB: this curve is of two 1N4148's back-to-back - see note above.
 * [1N4730 datasheet](http://www.futurlec.com/Diodes/1N4730.shtml)
 * [1N5819 datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/01/leap245-generic-curve-tracer.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap245-generic-curve-tracer.html)

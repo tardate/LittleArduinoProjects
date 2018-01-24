@@ -168,4 +168,4 @@ Surrounded by a few make-work loops, the result is an LED blinking at around 4Hz
 * [5V PIC12F675 Development Board Learning Board Test Breadboard+USB Cable](https://www.aliexpress.com/item/5V-PIC12F675-Development-Board-Learning-Board-Test-Breadboard-USB-Cable/32803124346.html) - example seller on aliexpress
 * [5S1P balanced charger cable with a 6-pin JST XH female connector](https://www.aliexpress.com/item/10Pcs-5S1P-Balance-Charger-Silicon-Cable-Wire-JST-XH-Connector-Male-Female-Plug-For-Rc-Airplane/32657806702.html) - example seller on aliexpress
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/08/leap331-getting-blinky-with-pic-assembler.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap331-getting-blinky-with-pic-assembler.html)

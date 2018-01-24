@@ -162,4 +162,4 @@ The board under test...
 * [7.1.1 Soldering Basics](http://www.circuitrework.com/guides/7-1-1.shtml) - Circuit Technology Center
 * [WL-0510 B-1 0.5mm 63Sn/37Pb](http://www.dx.com/p/wlxy-wl-0510-b-1-0-5mm-tin-solid-solder-wire-reel-spool-silver-262916#.WAjGsZN97XE)
 * [Pro'sKit 9S002 Solder Wire W/2% AG 17G](https://www.aliexpress.com/item/Pro-sKit-9S002-Solder-Wire-W-2-AG-17G/32428346399.html)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/03/leap258-another-clap-switch-and-excuse-to-solder-boldport-style.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/03/leap258-another-clap-switch-and-excuse-to-solder-boldport-style.html)

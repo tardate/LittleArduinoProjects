@@ -78,4 +78,4 @@ For the transformers, I'm using 68-26 iron ferrite toroids with 30AWG solid wire
 * [#167: How a Diode Ring Mixer works | Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8) - w2aew
 * [#166: How to wind a trifilar toroid transformer for a diode ring mixer](https://www.youtube.com/watch?v=a8ViWS61hsU) - w2aew
 * [1N5711 datasheet](http://www.futurlec.com/Diodes/1N5711.shtml)
-* [..as mentioned on my blog](http://blog.tardate.com/2017/07/leap327-diode-ring-mixer.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/07/leap327-diode-ring-mixer.html)

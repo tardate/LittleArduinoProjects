@@ -45,4 +45,4 @@ The circuit is as simple as you can get:
 ## Credits and References
 * [Circuit Scribe: DIY Electronic Kits](https://www.kickstarter.com/projects/electroninks/circuit-scribe-diy-electronic-kits) - kickstarter
 * [Conductive ink](https://en.wikipedia.org/wiki/Conductive_ink) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2017/10/leap350-drawing-circuits-with-circuitscribe.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap350-drawing-circuits-with-circuitscribe.html)

@@ -88,4 +88,4 @@ I mounted the module on protoboard with an [audio connector](../../AudioConnecto
 * [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) - TDA7297 amplifier
 * [Singapore Radio Stations](http://streema.com/radios/country/Singapore)
 * [List of radio stations in Singapore](https://en.wikipedia.org/wiki/List_of_radio_stations_in_Singapore) - wikipedia
-* [..as mentioned on my blog](http://blog.tardate.com/2017/05/leap310-tea5767-fm-stereo-chip.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap310-tea5767-fm-stereo-chip.html)
