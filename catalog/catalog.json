@@ -494,7 +494,14 @@
         "relative_path": "Electronics101/BJT/CurrentSink", 
         "id": "#093", 
         "categories": "BJT, Power", 
-        "name": "BJTCurrentSink"
+        "name": "BJT CurrentSink"
+    }, 
+    {
+        "description": "testing a simple BJT saw-tooth oscillator", 
+        "relative_path": "Electronics101/BJT/SawTooth", 
+        "id": "#105", 
+        "categories": "BJT, Oscillators", 
+        "name": "BJT SawTooth"
     }, 
     {
         "description": "test the basic BJT \"long-tail\" differential amplifier circuit", 
@@ -509,13 +516,6 @@
         "id": "#138", 
         "categories": "BJT, RC", 
         "name": "BJTMonostable"
-    }, 
-    {
-        "description": "testing a simple BJT saw-tooth oscillator", 
-        "relative_path": "Electronics101/BJTSawTooth", 
-        "id": "#105", 
-        "categories": "BJT, Oscillators", 
-        "name": "BJTSawTooth"
     }, 
     {
         "description": "playing around with some zener-mode sound effects", 

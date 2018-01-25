@@ -1,6 +1,6 @@
 {
     "id": "#093", 
-    "name": "BJTCurrentSink", 
+    "name": "BJT CurrentSink", 
     "description": "test a BJT constant current sink circuit", 
     "categories": "BJT, Power", 
     "relative_path": "Electronics101/BJT/CurrentSink"

@@ -1,7 +1,7 @@
 {
     "id": "#105", 
-    "name": "BJTSawTooth", 
+    "name": "BJT SawTooth", 
     "description": "testing a simple BJT saw-tooth oscillator", 
     "categories": "BJT, Oscillators", 
-    "relative_path": "Electronics101/BJTSawTooth"
+    "relative_path": "Electronics101/BJT/SawTooth"
 }

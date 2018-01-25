@@ -1,7 +1,8 @@
-# #105 BJTSawTooth
+# #105 BJT SawTooth
 
 Testing a simple BJT saw-tooth oscillator.
 
+![The Build](./assets/SawTooth_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -46,18 +47,20 @@ The capacitance of C1 affects the slope of the charge. Since we are using a cons
 So higher capacitor values will slow down the wave frequency and vice versa.
 Here I'm using a 10µF electrolytic to give a very slow wave, visible to the eye.
 
-Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) to
-read the data collected by the [BJTSawTooth.ino](./BJTSawTooth.ino) program:
+Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../../processing/PlotNValues) to
+read the data collected by the [SawTooth.ino](./SawTooth.ino) program:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
+### Code
+The [SawTooth.ino](./SawTooth.ino) sketch is a simple data capture and reporting interface.
+It uses the [FlexiTimer2](https://github.com/wimleers/flexitimer2) library to provide data capture on an accurate and stable time base.
+
 ## Construction
 
-![Breadboard](./assets/BJTSawTooth_bb.jpg?raw=true)
+![Breadboard](./assets/SawTooth_bb.jpg?raw=true)
 
-![The Schematic](./assets/BJTSawTooth_schematic.jpg?raw=true)
-
-![The Build](./assets/BJTSawTooth_build.jpg?raw=true)
+![The Schematic](./assets/SawTooth_schematic.jpg?raw=true)
 
 ## Credits and References
 * [Simple 3 transistor sawtooth generator / oscillator](https://youtu.be/2a1I1X3RV0g) - excellent tutorial from w2aew; the basis for this project.
