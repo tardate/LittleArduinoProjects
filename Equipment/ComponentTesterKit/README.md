@@ -46,7 +46,7 @@ The reference numbers listed below are my own assignation. See the attached sche
 | D1           | P6KE6V8C Bidirectional diode                     | 1   |
 | LED1         | 3mm LED red                                      | 1   |
 | XTAL1        | 8MHz crystal NSK 9C                              | 1   |
-| IC1          | SVR5-04 V05 6-pin transient voltage suppression? | 1   |
+| IC1          | SVR5-04 V05 Low Capacitance TVS Diode Array - [onsemi](http://www.onsemi.com/pub_link/Collateral/SRV05-4-D.PDF), [farnell](http://www.farnell.com/datasheets/1915363.pdf) | 1   |
 | IC2          | HT7550A-1 TO-92 5V regulator                     | 1   |
 | IC3          | TL431A TO-92 precision voltage reference         | 1   |
 | U1           | Atmel Atmega328P-PU                              | 1   |
@@ -511,7 +511,7 @@ I mainly used this to record part orientation and interconnection for testing th
 * [P6KE6V8 data](http://parts.io/detail/6054925/P6KE6V8) - parts.io
 * [HT7750A-1 datasheet](http://file.yizimg.com/4677/2008030712103479.pdf)
 * [TL431A datasheet](http://parts.io/detail/4876553/TL431AILP)
-* [SRV05-4 Transient Voltage Suppressors](http://www.onsemi.com/pub_link/Collateral/SRV05-4-D.PDF)
+* SRV05-4 Transient Voltage Suppressors - [onsemi](http://www.onsemi.com/pub_link/Collateral/SRV05-4-D.PDF), [farnell](http://www.farnell.com/datasheets/1915363.pdf)
 * [My Guide to AVR Transistortesters](https://www.instructables.com/id/My-Guide-to-AVR-Transistortesters/?ALLSTEPS) - by pfred2
 * [AVR Transistortester](http://www.mikrocontroller.net/articles/AVR_Transistortester) - where all these kit designs appear to originate from
 * [transistortester on GitHub](https://github.com/svn2github/transistortester)
