@@ -1,7 +1,8 @@
 # #123 SuperheterodyneReceiverKit
 
-Build and analyse a basic commercial radio recevier kit
+Build and analyse a basic superheterodyne AM MW radio receiver kit.
 
+![The Build](./assets/SuperheterodyneReceiverKit_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
 
@@ -12,7 +13,6 @@ Just my notes on a build of [a kit from a seller on aliexpress](http://www.aliex
 A superheterodyne receiver (often shortened to superhet) uses frequency mixing to convert a received signal
 (at a variable frequency)
 to a fixed intermediate frequency (IF) which can be more conveniently processed with known gain and selectivity.
-
 
 
 ## Parts
@@ -44,14 +44,16 @@ to a fixed intermediate frequency (IF) which can be more conveniently processed 
 | C4,5,7,11 | 223 22nF ceramic cap      |   |
 | Ca,Cb   | CBM-223P variable capacitor |   |
 
+![SuperheterodyneReceiverKit_unboxed](./assets/SuperheterodyneReceiverKit_unboxed.jpg?raw=true)
+
+![SuperheterodyneReceiverKit_pcb_front](./assets/SuperheterodyneReceiverKit_pcb_front.jpg?raw=true)
+
+![SuperheterodyneReceiverKit_pcb_back](./assets/SuperheterodyneReceiverKit_pcb_back.jpg?raw=true)
 
 ## Construction
 
-![Breadboard](./assets/SuperheterodyneReceiverKit_bb.jpg?raw=true)
-
 ![The Schematic](./assets/SuperheterodyneReceiverKit_schematic.jpg?raw=true)
 
-![The Build](./assets/SuperheterodyneReceiverKit_build.jpg?raw=true)
 
 ## Credits and References
 * [Superheterodyne Receiver](https://en.wikipedia.org/wiki/Superheterodyne_receiver) - wikipedia

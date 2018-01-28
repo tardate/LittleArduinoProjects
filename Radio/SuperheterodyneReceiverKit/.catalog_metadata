@@ -1,0 +1,7 @@
+{
+    "id": "#123", 
+    "name": "SuperheterodyneReceiverKit", 
+    "description": "build and analyse a basic superheterodyne AM MW radio receiver kit", 
+    "categories": "RF, AM", 
+    "relative_path": "Radio/SuperheterodyneReceiverKit"
+}

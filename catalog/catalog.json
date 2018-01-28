@@ -1386,13 +1386,6 @@
         "name": "StayCreative"
     }, 
     {
-        "description": "build and analyse a basic commercial radio recevier kit", 
-        "relative_path": "Electronics101/SuperheterodyneReceiverKit", 
-        "id": "#123", 
-        "categories": "RF", 
-        "name": "SuperheterodyneReceiverKit"
-    }, 
-    {
         "description": "Notes on miscellaneous mechanical switches used in electrical circuits", 
         "relative_path": "Electronics101/Switches", 
         "id": "#243", 
@@ -2600,8 +2593,15 @@
         "description": "notes on an AM/FM radio kit build", 
         "relative_path": "Radio/AMFMRadioKit", 
         "id": "#131", 
-        "categories": "RF", 
+        "categories": "RF, AM, FM", 
         "name": "AMFMRadioKit"
+    }, 
+    {
+        "description": "build and analyse a basic superheterodyne AM MW radio receiver kit", 
+        "relative_path": "Radio/SuperheterodyneReceiverKit", 
+        "id": "#123", 
+        "categories": "RF, AM", 
+        "name": "SuperheterodyneReceiverKit"
     }, 
     {
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 

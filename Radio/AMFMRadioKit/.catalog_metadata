@@ -2,6 +2,6 @@
     "id": "#131", 
     "name": "AMFMRadioKit", 
     "description": "notes on an AM/FM radio kit build", 
-    "categories": "RF", 
+    "categories": "RF, AM, FM", 
     "relative_path": "Radio/AMFMRadioKit"
 }
