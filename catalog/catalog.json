@@ -2408,6 +2408,13 @@
         "name": "pedalShieldUno/AudioDSP"
     }, 
     {
+        "description": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator", 
+        "relative_path": "playground/PiezoVibrationDetector", 
+        "id": "#376", 
+        "categories": "Arduino, Piezo", 
+        "name": "PiezoVibrationDetector"
+    }, 
+    {
         "description": "generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing", 
         "relative_path": "playground/PlotNValues", 
         "id": "#090", 

@@ -1,6 +1,5 @@
-# 375 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ThreeTransistorShortWaveReceiver](./Radio/ThreeTransistorShortWaveReceiver) - building a simple 3-transistor regenerative receiver for HF shortwave.
-
+# 376 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [PiezoVibrationDetector](./playground/PiezoVibrationDetector) - counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -297,6 +296,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#331 PIC/GettingBlinky](./PIC/GettingBlinky)                                      | **PIC, LED**                    getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky! |
 | [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
+| [#376 PiezoVibrationDetector](./playground/PiezoVibrationDetector)                 | **Arduino, Piezo**              counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
