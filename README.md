@@ -59,7 +59,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
 | [#184 AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator)| **555 Timer, Oscillators**      widely-adjustable square wave generator using the 555 timer |
-| [#131 AMFMRadioKit](./Electronics101/AMFMRadioKit)                                 | **RF**                          notes on an AM/FM radio kit build |
+| [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **RF**                          notes on an AM/FM radio kit build |
 | [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **RF, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
 | [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **RF, 555 Timer**               a simple 555-based AM transmitter |
 | [#139 AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
@@ -355,7 +355,7 @@ Still up to date, but try [the catalog site](http://leap.tardate.com/) instead..
 | [#044 SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [#120 SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |
 | [#045 SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
-| [#208 SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit)    | **FM**                          build a simple single-stage FM transmitter kit |
+| [#208 SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit)    | **FM**                          build a simple single-stage FK702 FM Transmitter Kit by Future Kit |
 | [#279 SingleStageTransmitterKit2](./Electronics101/FM/SingleStageTransmitterKit2)  | **FM**                          build and tweak/tune another simple single-stage FM Transmitter Kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |
 | [#096 Smokey](./Electronics101/AudioAmps/Smokey)                                   | **Amp, Audio**                  quick build of a Smokey-like LM386 guitar power amp |

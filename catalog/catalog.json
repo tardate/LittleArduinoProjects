@@ -364,13 +364,6 @@
         "name": "AM/OpAmpTransmitter"
     }, 
     {
-        "description": "notes on an AM/FM radio kit build", 
-        "relative_path": "Electronics101/AMFMRadioKit", 
-        "id": "#131", 
-        "categories": "RF", 
-        "name": "AMFMRadioKit"
-    }, 
-    {
         "description": "test a general-purpose LM358 amplifier circuit", 
         "relative_path": "Electronics101/AudioAmps/GeneralPurpose358", 
         "id": "#241", 
@@ -805,7 +798,7 @@
         "name": "BreadboardTransmitter"
     }, 
     {
-        "description": "build a simple single-stage FM transmitter kit", 
+        "description": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
         "relative_path": "Electronics101/FM/SingleStageTransmitterKit", 
         "id": "#208", 
         "categories": "FM", 
@@ -2602,6 +2595,13 @@
         "id": "#265", 
         "categories": "Arduino, Digital Pot, MCP42010, Oscilloscope", 
         "name": "XYplotter"
+    }, 
+    {
+        "description": "notes on an AM/FM radio kit build", 
+        "relative_path": "Radio/AMFMRadioKit", 
+        "id": "#131", 
+        "categories": "RF", 
+        "name": "AMFMRadioKit"
     }, 
     {
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 

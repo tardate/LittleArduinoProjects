@@ -1,6 +1,6 @@
 # #208 FM/SingleStageTransmitterKit
 
-Build a simple single-stage FM Transmitter Kit
+Build a simple single-stage FK702 FM Transmitter Kit by Future Kit.
 
 ![The Build](./assets/SingleStageTransmitterKit_build.jpg?raw=true)
 

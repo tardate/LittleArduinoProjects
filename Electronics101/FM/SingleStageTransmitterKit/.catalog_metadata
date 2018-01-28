@@ -1,7 +1,7 @@
 {
     "id": "#208", 
     "name": "SingleStageTransmitterKit", 
-    "description": "build a simple single-stage FM transmitter kit", 
+    "description": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
     "categories": "FM", 
     "relative_path": "Electronics101/FM/SingleStageTransmitterKit"
 }

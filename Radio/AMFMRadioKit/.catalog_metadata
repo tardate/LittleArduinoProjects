@@ -3,5 +3,5 @@
     "name": "AMFMRadioKit", 
     "description": "notes on an AM/FM radio kit build", 
     "categories": "RF", 
-    "relative_path": "Electronics101/AMFMRadioKit"
+    "relative_path": "Radio/AMFMRadioKit"
 }
