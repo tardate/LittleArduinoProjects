@@ -3,7 +3,7 @@
 Use an Arduino to test the behaviour of a 74LS122 monostable with external timing configuration and plot the results.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

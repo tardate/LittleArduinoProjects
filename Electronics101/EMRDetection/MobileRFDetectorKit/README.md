@@ -3,7 +3,7 @@
 Build and investigate a commercially available "mobile phone signal" detector kit
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

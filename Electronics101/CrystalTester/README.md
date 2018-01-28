@@ -3,7 +3,7 @@
 A Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

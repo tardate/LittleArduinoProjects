@@ -8,7 +8,7 @@ Here's a quick demo..
 
 [![U6u6AV16lg8](http://img.youtube.com/vi/U6u6AV16lg8/0.jpg)](http://www.youtube.com/watch?v=U6u6AV16lg8)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

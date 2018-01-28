@@ -6,7 +6,7 @@ Here's a quick video of the demo in action..
 
 [![Build](./assets/MCP23S17_build.jpg?raw=true)](http://www.youtube.com/watch?v=CuNJYUojNe0)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

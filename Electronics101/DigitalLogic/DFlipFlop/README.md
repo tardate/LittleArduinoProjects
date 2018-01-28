@@ -4,7 +4,7 @@ Building a clocked D Flip-flop with 74LS00 NAND gates.
 
 ![Build](./assets/DFlipFlop_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

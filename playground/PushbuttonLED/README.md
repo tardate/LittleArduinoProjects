@@ -3,7 +3,7 @@
 Momentary push button switch is used to toggle the LED on and off.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

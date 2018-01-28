@@ -4,7 +4,7 @@ Teardown an FQ777-954 nano drone and figure out as much of the technical design 
 
 ![The Build](./assets/TearDown_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

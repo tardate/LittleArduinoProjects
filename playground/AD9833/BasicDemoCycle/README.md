@@ -2,7 +2,7 @@
 
 Run a basic waveform demo with an AD9833 module
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

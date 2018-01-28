@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![RFSwitch demo](http://img.youtube.com/vi/s8yCbDe15ms/0.jpg)](http://www.youtube.com/watch?v=s8yCbDe15ms)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

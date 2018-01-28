@@ -5,7 +5,7 @@ Test a [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) circuit based on
 ![The Battery Pack Build 2](./assets/ToroidJouleThief_build_AA_pack2.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

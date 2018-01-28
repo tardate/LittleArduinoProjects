@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![Popcorn](http://img.youtube.com/vi/ntVrqIyf4y8/0.jpg)](http://www.youtube.com/watch?v=ntVrqIyf4y8)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/tuner_build.jpg?raw=true)](https://www.youtube.com/watch?v=mtyyQwaxYTk)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

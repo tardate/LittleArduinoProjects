@@ -4,7 +4,7 @@ First look at the EspoTek Labrador USB "lab-on-a-board" hardware and software.
 
 ![Build](./assets/Labrador_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Use a CD4096 to generate an oscillating waveform and plot the results
 
 ![Build](./assets/CMOSInverterOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

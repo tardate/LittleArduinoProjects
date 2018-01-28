@@ -3,7 +3,7 @@
 An LM386 fixed-gain audio power amp with volume control.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

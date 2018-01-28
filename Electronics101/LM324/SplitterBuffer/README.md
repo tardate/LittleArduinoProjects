@@ -3,7 +3,7 @@
 Demonstrate load-independance of an LM324 buffer and signal-splitter
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

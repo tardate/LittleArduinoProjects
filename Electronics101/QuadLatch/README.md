@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![74LS75 Quad Latch Test](http://img.youtube.com/vi/nsRWAuc6J5w/0.jpg)](http://www.youtube.com/watch?v=nsRWAuc6J5w)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

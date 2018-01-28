@@ -6,7 +6,7 @@ A quick video of the the new demo...
 
 [![Build](http://img.youtube.com/vi/Jn1iYxQHtXs/0.jpg)](https://youtu.be/Jn1iYxQHtXs)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

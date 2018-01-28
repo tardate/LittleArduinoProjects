@@ -4,7 +4,7 @@ Building a simple 3-transistor regenerative receiver for 3MHz to 30MHz shortwave
 
 ![Build](./assets/ThreeTransistorShortWaveReceiver_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

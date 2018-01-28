@@ -7,7 +7,7 @@ Here's a quick video of the blinky test program in action:
 [![UsbNotifier demo](http://img.youtube.com/vi/KEg5rtU9RK4/0.jpg)](http://www.youtube.com/watch?v=KEg5rtU9RK4)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

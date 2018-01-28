@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![SRLatchFlipper demo](http://img.youtube.com/vi/KXwm6WrVOow/0.jpg)](http://www.youtube.com/watch?v=KXwm6WrVOow)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

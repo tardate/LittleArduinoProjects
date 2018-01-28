@@ -4,7 +4,7 @@ Test basic temperature and humidity readings with the DHT11 sensor.
 
 ![Build](./assets/Basics_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

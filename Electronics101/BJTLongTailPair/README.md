@@ -7,7 +7,7 @@ Here's a quick demo of the circuit in action:
 [![BJTLongTailPair](http://img.youtube.com/vi/Uo1UbQSjO6E/0.jpg)](http://www.youtube.com/watch?v=Uo1UbQSjO6E)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

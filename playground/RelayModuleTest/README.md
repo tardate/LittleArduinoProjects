@@ -5,7 +5,7 @@ Controlling a relay "module" with an Arduino. Here's a quick demo:
 [![RelayModuleTest](http://img.youtube.com/vi/_8OyyQS27Gk/0.jpg)](http://www.youtube.com/watch?v=_8OyyQS27Gk)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

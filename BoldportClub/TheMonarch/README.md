@@ -4,7 +4,7 @@ The Monarch is the third in a series of beautiful electronic "bug" boards from t
 
 ![Build](./assets/TheMonarch_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

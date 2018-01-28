@@ -5,7 +5,7 @@ Press a button to snaffle a random quote from [Heart Quotes](http://www.iheartqu
 ![The Build](./assets/HeartQuotes_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

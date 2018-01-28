@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![555 Timer - A-Stable Oscillator](http://img.youtube.com/vi/1vZiGZan2ok/0.jpg)](http://www.youtube.com/watch?v=1vZiGZan2ok)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

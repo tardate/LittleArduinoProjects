@@ -4,7 +4,7 @@ Exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitt
 
 ![Build](./assets/scope_v2_min.gif?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

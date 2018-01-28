@@ -6,7 +6,7 @@ The Cordwood Puzzle evokes an era of stuffing massive components into small spac
 ![cordwood_build_night](./assets/cordwood_build_night.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

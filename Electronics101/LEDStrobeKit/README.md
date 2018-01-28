@@ -5,7 +5,7 @@ Build and analyse a common LED strobe kit.
 ![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

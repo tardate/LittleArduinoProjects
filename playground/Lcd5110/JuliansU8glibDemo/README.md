@@ -3,7 +3,7 @@
 Quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

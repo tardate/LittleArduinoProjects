@@ -4,7 +4,7 @@ Exploring the capabilities of the MCP2200 USB-to-UART transceiver and program it
 
 ![Build](./assets/DevKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

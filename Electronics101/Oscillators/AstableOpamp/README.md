@@ -3,7 +3,7 @@
 Use an Arduino to monitor the behaviour of an LM324 OpAmp astable oscillator and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

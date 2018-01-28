@@ -3,7 +3,7 @@
 Using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -3,7 +3,7 @@
 Using a small-signal p-channel MOSFET as a switch, with turn-on delay.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

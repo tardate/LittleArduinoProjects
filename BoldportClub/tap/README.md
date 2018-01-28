@@ -5,7 +5,7 @@ this retro Boldport Club project is a classic.
 
 [![Build](./assets/tap_build.jpg?raw=true)](http://www.youtube.com/watch?v=WQKIWN_7tfE)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

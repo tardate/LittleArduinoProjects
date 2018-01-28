@@ -4,7 +4,7 @@ Test a classic comparator-based relaxation oscillator, modified for single-suppl
 
 ![Build](./assets/ComparatorRelaxation_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

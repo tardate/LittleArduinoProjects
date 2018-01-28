@@ -5,7 +5,7 @@ Control the M62429 dual channel volume control with an Arduino.
 ![Build](./assets/M62429_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

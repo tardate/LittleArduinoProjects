@@ -4,7 +4,7 @@ A voltage-controlled oscillator (VCO) using the 555 timer.
 
 ![Build](./assets/VoltageControlledOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

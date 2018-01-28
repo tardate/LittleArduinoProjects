@@ -4,7 +4,7 @@ Demo interrupt-driven switch input on a simple pushbutton/LED matrix module and 
 
 ![Build](./assets/SwitchInterrupts_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

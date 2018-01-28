@@ -3,7 +3,7 @@
 Play a sound for a fixed duration when a button is pressed - a poor man's door bell!
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

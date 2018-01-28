@@ -5,7 +5,7 @@ Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using an Arduino to measur
 ![MB102 unit](./assets/MB102_product_image.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

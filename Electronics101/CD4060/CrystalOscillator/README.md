@@ -4,7 +4,7 @@ Exploring the behaviour of the CD4060 ripple counter driven by a crystal oscilla
 
 ![Build](./assets/CrystalOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -7,7 +7,7 @@ Here's a quick video of the cube in action:
 [![LEDCubes/Mini4 demo](http://img.youtube.com/vi/0xHI6uC2l4A/0.jpg)](http://www.youtube.com/watch?v=0xHI6uC2l4A)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

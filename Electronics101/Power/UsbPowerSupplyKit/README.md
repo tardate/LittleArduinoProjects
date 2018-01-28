@@ -4,7 +4,7 @@ Building a USB Wall Wart and taking a look at how they work .. instead of taking
 
 ![Build](./assets/UsbPowerSupplyKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

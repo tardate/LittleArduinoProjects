@@ -5,7 +5,7 @@ Blinks a series of 12 LEDs in a continuous loop.
 ![The Build](./assets/LedChaser_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

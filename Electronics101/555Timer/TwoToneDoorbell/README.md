@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![TwoToneDoorbell](http://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](http://www.youtube.com/watch?v=yD5Hbg0qQJE)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

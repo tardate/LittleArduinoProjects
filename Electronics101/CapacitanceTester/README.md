@@ -5,7 +5,7 @@ Use an Arduino to test capacitors and output result to 16x2 LCD module.
 ![The Build](./assets/CapacitanceTester_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

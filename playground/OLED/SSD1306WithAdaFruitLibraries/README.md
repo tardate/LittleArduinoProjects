@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![OLED/SSD1306WithAdaFruitLibraries demo](http://img.youtube.com/vi/A-Yeba9-Y1I/0.jpg)](http://www.youtube.com/watch?v=A-Yeba9-Y1I)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

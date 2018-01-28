@@ -8,7 +8,7 @@ Here's a quick demo..
 
 [![clip](http://img.youtube.com/vi/9xpNcJ_0jvI/0.jpg)](http://www.youtube.com/watch?v=9xpNcJ_0jvI)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

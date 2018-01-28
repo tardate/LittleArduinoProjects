@@ -3,7 +3,7 @@
 Using an OpAmp as a final buffer stage for TTL or similar circuits
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Getting started with an R820T2+RTL2832U dongle and open-source SDR software on M
 
 ![Build](./assets/RtlSdrDongle_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

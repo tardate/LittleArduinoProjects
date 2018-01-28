@@ -3,7 +3,7 @@
 Drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

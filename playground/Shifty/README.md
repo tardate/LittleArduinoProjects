@@ -3,7 +3,7 @@
 Drive 8 LEDs with 3 pins using a 74HC595 shift register.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

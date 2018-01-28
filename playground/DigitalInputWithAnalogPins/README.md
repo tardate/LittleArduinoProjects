@@ -3,7 +3,7 @@
 Demonstrate how analog pins can also be used as a digital GPIO
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

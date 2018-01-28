@@ -5,7 +5,7 @@ A ladybird soldering and display kit from The Boldport Club (Project #4).
 ![Build](./assets/TheLady_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

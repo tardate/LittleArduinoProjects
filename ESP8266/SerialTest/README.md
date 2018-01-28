@@ -3,7 +3,7 @@
 First test of an ESP8266 module - serial communication to the SoC
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

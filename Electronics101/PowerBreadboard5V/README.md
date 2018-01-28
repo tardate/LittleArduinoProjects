@@ -3,7 +3,7 @@
 An LM7805-based 5V regulated power supply for use in breadboard projects.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Testing a 128x128 colour TFT LCD with a couple of different Arduino libraries.
 
 ![Build](./assets/Color128x128_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

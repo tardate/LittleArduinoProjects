@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![RotaryEncoderModule](http://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](http://www.youtube.com/watch?v=9sDoqK0cRAA)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

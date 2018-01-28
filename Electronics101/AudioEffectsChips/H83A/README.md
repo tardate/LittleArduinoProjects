@@ -4,7 +4,7 @@ Figuring out how to use the H-83A "12 songs" music chip.
 
 ![Build](./assets/H83A_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

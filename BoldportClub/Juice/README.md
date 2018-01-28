@@ -4,7 +4,7 @@ Building the Boldport Juice battery replacement kit (Project #12).
 
 ![Build](./assets/Juice_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

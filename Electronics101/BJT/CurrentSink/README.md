@@ -7,7 +7,7 @@ Here's a quick demo of the circuit in action:
 [![BJTCurrentSink](http://img.youtube.com/vi/Gg9dMxprlXM/0.jpg)](http://www.youtube.com/watch?v=Gg9dMxprlXM)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

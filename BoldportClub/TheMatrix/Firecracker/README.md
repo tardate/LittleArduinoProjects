@@ -7,7 +7,7 @@ Here's a quick video showing it in action..
 [![Build](./assets/Firecracker_build.jpg?raw=true)](http://www.youtube.com/watch?v=0L34ye-Hupc)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 
@@ -21,7 +21,7 @@ Exposing the LM35 to a naked flame is perhaps not such a good idea .. but it is 
 
 The [Firecracker.ino](./Firecracker.ino) sketch instantiates ["Sparklies"](./sparklies.h) which represent individual animation elements.
 
-Doxygen source documentation is available [here](http://leap.tardate.com/BoldportClub/TheMatrix/Firecracker/doc/html/index.html).
+Doxygen source documentation is available [here](https://leap.tardate.com/BoldportClub/TheMatrix/Firecracker/doc/html/index.html).
 
 ## Construction
 

@@ -6,7 +6,7 @@ Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroll
 
 ![Touchy_build_bottom](./assets/Touchy_build_bottom.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

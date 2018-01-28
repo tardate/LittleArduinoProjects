@@ -4,7 +4,7 @@ Build and test a function generator kit based on the XR-2206 monolithic function
 
 ![Build](./assets/FunctionGeneratorKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

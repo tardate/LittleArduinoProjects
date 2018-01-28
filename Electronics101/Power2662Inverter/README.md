@@ -3,7 +3,7 @@
 Test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

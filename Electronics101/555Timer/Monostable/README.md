@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![555 Timer - Monostable Demo](http://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](http://www.youtube.com/watch?v=FJI0kTbzS4I)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

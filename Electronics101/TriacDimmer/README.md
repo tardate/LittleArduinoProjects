@@ -5,7 +5,7 @@ Investigate the operation of triacs and build the basic dimmer circuit.
 ![TriacDimmer_demo](./assets/TriacDimmer_demo.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

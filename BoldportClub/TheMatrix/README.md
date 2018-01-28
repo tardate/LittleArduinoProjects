@@ -4,7 +4,7 @@ Building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED m
 
 ![Build](./assets/TheMatrix_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -9,7 +9,7 @@ Here's a quick video of the game in action:
 Or [see this earlier video](http://youtu.be/m0XgdGztr8s) before the screen optimisations or sound. There's a huge performance difference!
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Here's a quick video of it in action:
 
 [![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)](http://www.youtube.com/watch?v=aD_J83ZpXYY)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

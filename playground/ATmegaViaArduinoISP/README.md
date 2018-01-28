@@ -4,7 +4,7 @@ Programming an ATMEGA328P-PU on a breadboard with Arduino ISP
 
 ![The Build](./assets/ATmegaViaArduinoISP_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -5,7 +5,7 @@ Checking out a second-hand Saleae Logic (a 24 MS/s, 8 channel USB logic analyzer
 ![Build](./assets/SaleaeLogic_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

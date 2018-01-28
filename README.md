@@ -25,7 +25,7 @@ Feel free to borrow liberally, and if you spot any issues do let me know. See th
 LittleArduinoProjects has a new catalog/web site!
 It's actually just simple GitHub pages sitting right on top of this repository. Try it out:
 
-[![leap-splash](./catalog/assets/images/leap-splash.png?raw=true)](http://leap.tardate.com/)
+[![leap-splash](./catalog/assets/images/leap-splash.png?raw=true)](https://leap.tardate.com/)
 
 
 ## Getting Up and Running
@@ -52,7 +52,7 @@ To pull submodule updates later on:
 
 ## Ye Olde Project Index
 
-Still up to date, but try [the catalog site](http://leap.tardate.com/) instead...
+Still up to date, but try [the catalog site](https://leap.tardate.com/) instead...
 
 
 | Project                                                                            | Category/Description                                              |

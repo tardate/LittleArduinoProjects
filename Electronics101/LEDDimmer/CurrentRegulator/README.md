@@ -5,7 +5,7 @@ Test a current-regulator style LED dimmer circuit.
 ![CurrentRegulator_build](./assets/CurrentRegulator_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -4,7 +4,7 @@ This is an investigation of all the internal details of the Arduino Board from a
 Results are dumped to the serial port.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![Power317CC](./assets/Power317CC_build3.jpg?raw=true)](http://www.youtube.com/watch?v=YYR-RNSDh-4)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

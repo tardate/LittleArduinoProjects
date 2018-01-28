@@ -6,7 +6,7 @@ Here's a quick video of the circuit in action:
 
 [![SynchJKCounter](http://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](http://www.youtube.com/watch?v=HGunGdTaNFQ)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

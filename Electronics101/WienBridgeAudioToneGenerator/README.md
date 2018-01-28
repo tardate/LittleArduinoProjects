@@ -5,7 +5,7 @@ A fixed-frequency tone generator based on a Wien Bridge Oscillator
 ![The Build](./assets/WienBridgeAudioToneGenerator_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

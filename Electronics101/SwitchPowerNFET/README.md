@@ -4,7 +4,7 @@ Low-side n-channel MOSFET switching of large loads with a microcontroller.
 
 ![Build](./assets/SwitchPowerNFET_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -3,7 +3,7 @@
 Using SPI to control a 7-segment display via a 74HC595 shift register.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

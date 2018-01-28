@@ -4,7 +4,7 @@ Demo multiplexed key input on a simple pushbutton/LED matrix module and how to u
 
 ![Build](./assets/KeyMatrixInput_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

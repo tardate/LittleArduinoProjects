@@ -7,7 +7,7 @@ Here's a quick video of the kit in action:
 [![ClapSwitchKit Demo](http://img.youtube.com/vi/sou727DP5S4/0.jpg)](http://www.youtube.com/watch?v=sou727DP5S4)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

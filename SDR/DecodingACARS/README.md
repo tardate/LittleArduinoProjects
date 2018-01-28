@@ -4,7 +4,7 @@ Decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX.
 
 ![Build](./assets/DecodingACARS_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

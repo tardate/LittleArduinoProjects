@@ -4,7 +4,7 @@ How to run an ATtiny85 microprocessor at 8MHz using the internal clock.
 
 ![Build](./assets/ATtiny8MHz_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

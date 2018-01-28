@@ -4,7 +4,7 @@ An ATmega328-based millivolt meter based on a design by Scullcom Hobby Electroni
 
 ![Build](./assets/MilliVoltmeterDIY_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

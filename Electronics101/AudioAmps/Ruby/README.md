@@ -3,7 +3,7 @@
 A version of the runoffgroove Ruby LM386 guitar amp.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

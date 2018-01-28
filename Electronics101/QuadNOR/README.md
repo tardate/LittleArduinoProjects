@@ -7,7 +7,7 @@ Here's the quick demo of the circuit in action:
 [![QuadNOR](http://img.youtube.com/vi/D_5Da_8R8Ek/0.jpg)](http://www.youtube.com/watch?v=D_5Da_8R8Ek)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

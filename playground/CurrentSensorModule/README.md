@@ -4,7 +4,7 @@ Test an ACS712 current sensor module with display on a 5110 LCD
 
 ![The Build](./assets/CurrentSensorModule_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

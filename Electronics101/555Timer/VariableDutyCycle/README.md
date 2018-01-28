@@ -8,7 +8,7 @@ so that the duty cycle variation is clearly visible:
 [![555Timer/VariableDutyCycle](http://img.youtube.com/vi/UJAR0J1mjsE/0.jpg)](http://www.youtube.com/watch?v=UJAR0J1mjsE)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

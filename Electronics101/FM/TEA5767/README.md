@@ -6,7 +6,7 @@ Here's a quick video demonstration:
 
 [![Build](./assets/TEA5767_build.jpg?raw=true)](http://www.youtube.com/watch?v=j-BBNMV8Iso)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

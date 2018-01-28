@@ -6,7 +6,7 @@ Here's a quick video of it in action:
 
 [![Build](http://img.youtube.com/vi/Mg5YBKnUVIM/0.jpg)](http://www.youtube.com/watch?v=Mg5YBKnUVIM)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

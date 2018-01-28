@@ -7,7 +7,7 @@ Here's a quick demo of it in action..
 
 [![IxpandO_build](./assets/IxpandO_build.jpg?raw=true)](http://www.youtube.com/watch?v=hQaYeF7REU8)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![OLED/SSD1306BareBack demo](http://img.youtube.com/vi/nOg80VcqZtc/0.jpg)](http://www.youtube.com/watch?v=nOg80VcqZtc)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![SolenoidMotor](http://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](http://www.youtube.com/watch?v=b7wmZLSBpzk)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

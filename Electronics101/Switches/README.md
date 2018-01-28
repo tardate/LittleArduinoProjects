@@ -5,7 +5,7 @@ Notes on miscellaneous mechanical switches used in electrical circuits.
 ![Build](./assets/Switches_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

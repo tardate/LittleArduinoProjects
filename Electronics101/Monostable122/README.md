@@ -3,7 +3,7 @@
 Simple pulse trigger using 74LS122 monostable with external timing configuration.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

@@ -5,7 +5,7 @@ The Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuz
 ![BazzFuss_complete](./assets/BazzFuss_complete.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

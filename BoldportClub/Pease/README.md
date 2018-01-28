@@ -7,7 +7,7 @@ Here's a quick demo video to show it works..
 [![Build](./assets/Pease_build.jpg?raw=true)](http://www.youtube.com/watch?v=-JQLJ-RI_1A)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

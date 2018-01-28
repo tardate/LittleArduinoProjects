@@ -3,7 +3,7 @@
 Build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

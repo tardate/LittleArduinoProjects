@@ -5,7 +5,7 @@ Build and test a mains-powered 1.25V-12V DC LM317 power supply kit.
 ![The Build](./assets/PowerSupply317Kit_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

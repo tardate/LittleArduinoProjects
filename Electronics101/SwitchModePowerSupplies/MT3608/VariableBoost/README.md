@@ -4,7 +4,7 @@ Testing the canonical variable boost circuit using the MT3608 High Efficiency St
 
 ![Build](./assets/VariableBoost_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

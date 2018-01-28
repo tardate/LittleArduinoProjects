@@ -5,7 +5,7 @@ Build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt 
 ![Build](./assets/PierceGateOscillator_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

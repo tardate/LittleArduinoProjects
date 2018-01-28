@@ -4,7 +4,7 @@ Testing a simple BJT saw-tooth oscillator.
 
 ![The Build](./assets/SawTooth_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

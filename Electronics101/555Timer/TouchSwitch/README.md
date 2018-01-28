@@ -3,7 +3,7 @@
 Test a touch switch circuit based on a 555 timer
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

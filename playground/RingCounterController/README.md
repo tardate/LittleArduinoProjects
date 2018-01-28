@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![RingCounterController](http://img.youtube.com/vi/7SMnoM0gbWc/0.jpg)](http://www.youtube.com/watch?v=7SMnoM0gbWc)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

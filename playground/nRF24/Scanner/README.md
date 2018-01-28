@@ -4,7 +4,7 @@ A 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display.
 
 ![Build](./assets/Scanner_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

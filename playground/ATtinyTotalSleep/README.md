@@ -7,7 +7,7 @@ Here's a quick video of the circuit in action:
 [![ATtinyTotalSleep](http://img.youtube.com/vi/Id6DoiL4zDo/0.jpg)](http://www.youtube.com/watch?v=Id6DoiL4zDo)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

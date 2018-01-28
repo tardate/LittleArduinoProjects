@@ -7,7 +7,7 @@ Here's a quick video of the finished kit:
 [![Sagrada Família](./assets/build_night.jpg?raw=true)](http://www.youtube.com/watch?v=RFkUJQybjwQ)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

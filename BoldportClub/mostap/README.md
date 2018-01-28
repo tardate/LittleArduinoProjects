@@ -7,7 +7,7 @@ Here's a quick demo of it in action..
 
 [![Build](./assets/mostap_build.jpg?raw=true)](http://www.youtube.com/watch?v=TFuhajrzV-M)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

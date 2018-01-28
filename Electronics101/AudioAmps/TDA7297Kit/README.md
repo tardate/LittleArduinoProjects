@@ -5,7 +5,7 @@ Testing a TDA7297 audio amplifier kit (Pump Up the Jam)
 [![TDA7297Kit](http://img.youtube.com/vi/nQl3t_fRrIQ/0.jpg)](http://www.youtube.com/watch?v=nQl3t_fRrIQ)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

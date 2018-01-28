@@ -3,7 +3,7 @@
 Sample up to 6 analog inputs and stream the data to serial in ASCII format - for plotting with Processing for example.
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

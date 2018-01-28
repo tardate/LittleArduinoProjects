@@ -4,7 +4,7 @@ Examine a classic CD4070 oscillator design and variations.
 
 ![Build](./assets/Oscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

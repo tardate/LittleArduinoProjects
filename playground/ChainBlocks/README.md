@@ -5,7 +5,7 @@ Testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP4201
 ![Build](./assets/ChainBlocks_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

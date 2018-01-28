@@ -7,7 +7,7 @@ Here's a quick demo of the circuit in action:
 [![HighFrequencyOpAmpOscillators](http://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](http://www.youtube.com/watch?v=aBbVXSlS4nA)
 
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

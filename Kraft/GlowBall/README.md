@@ -6,7 +6,7 @@ Here's is a video with a few soothing minutes of the glow effect;-)
 
 [![Build](./assets/GlowBall_build.jpg?raw=true)](http://www.youtube.com/watch?v=hcFyM52ok7U)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 

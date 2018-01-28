@@ -4,7 +4,7 @@ A quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library.
 
 ![Build](./assets/AdafruitSoftwareSPI_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 
