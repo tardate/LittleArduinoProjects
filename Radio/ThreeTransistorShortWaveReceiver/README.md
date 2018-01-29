@@ -1,6 +1,6 @@
-# Three Transistor ShortWave Receiver (WIP)
+# #375 Three Transistor ShortWave Receiver
 
-Building a simple 3-transistor regenerative receiver for 3MHz to 30MHz shortwave.
+Building a simple 3-transistor regenerative receiver for HF shortwave.
 
 ![Build](./assets/ThreeTransistorShortWaveReceiver_build.jpg?raw=true)
 
@@ -95,17 +95,40 @@ The original documentation provided the following recommendations for the air co
 | 19-28 MHz |  5                     |
 | 26-50 MHz |  2                     |
 
-#### First Test
 
-First test: semi-successful! All the circuitry is working fine, but my tuning appears to be way up in the FM band.
+#### First Test, ~16m
 
-With a range of 12 turn, 20 turn and 25 turn coils I'm able to tune across the FM band and pick up some pretty clear signals for stations from 92.4 MHz to 97.2 MHz.
-Increasing the windings and size of the coil is not moving me significantly lower, so I suspect there's something up with the capacitance.
+Great results for some stations around 16m with a 12 turn coil, approx 15mm diameter and 43mm long.
+The tuning range is from 12350 kHz (25m) to 22830 kHz (15m).
 
-Next steps:
+Here is the rig as tested:
 
-* check the air variable capacitor
-* add more capacitance in parallel
+![HF_16m](./assets/HF_16m.jpg?raw=true)
+
+Amongst others, two very strong signals for:
+
+* [All India Radio](http://shortwaveschedule.com/index.php?station=85) transmitting on 17895 kHz 10:00-11:00 UTC with 500 KW from
+[Bengaluru](https://www.google.com.sg/maps/place/All+India+Radio/@12.954889,77.4908559,11z/data=!4m8!1m2!2m1!1sAll+India+Radio+Bengaluru!3m4!1s0x3bae166f26d2866f:0xb1a17e4e4b88454b!8m2!3d12.9827125!4d77.5928575?hl=en)
+* [Radio Free Asia](http://shortwaveschedule.com/index.php?station=268) transmitting on 17685 kHz with 250 KW from
+[Tinian Island](https://www.google.com.sg/maps/place/Tinian/@14.9924224,145.5673148,11.66z/data=!4m5!3m4!1s0x66df525597fe6bcf:0x79e4d5d171efc87f!8m2!3d15.0043455!4d145.6356577?hl=en)
+
+Here's a quick recording of me tuning in on Radio Free Asia, 17685 kHz. I'm using a Tecsun PL-660 to cross-check and verify:
+
+[![17685](http://img.youtube.com/vi/o7-lSoD7qCw/0.jpg)](http://www.youtube.com/watch?v=o7-lSoD7qCw)
+
+And here's a quick demo of tuning in on All India Radio, 17895 kHz:
+
+[![17895](http://img.youtube.com/vi/Qt0ikHhbLLI/0.jpg)](http://www.youtube.com/watch?v=Qt0ikHhbLLI)
+
+
+#### Tuning Below 12 MHz
+
+I've wound a couple of coils for a longer wavelength - aiming to pick up a very strong BBC World Service signal on 9740 kHz.
+
+By tuning in to the radiated signal on the Tecsun PL-660, I can verifyy a tuning range of around 7 MHz to 12MHz.
+However I can't seem to tame the regen: I can get a very faint signal on 9740 kHz, but it is overwhelmed by oscillation or noise (depending on the regen control).
+
+.. time for some more study to learn how I might get this under control!
 
 
 

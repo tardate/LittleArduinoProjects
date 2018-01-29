@@ -822,7 +822,7 @@
         "description": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 
         "relative_path": "Electronics101/FM/ThreeStageTransmitter", 
         "id": "#281", 
-        "categories": "FM", 
+        "categories": "Radio, FM", 
         "name": "ThreeStageTransmitter"
     }, 
     {
@@ -2602,6 +2602,13 @@
         "id": "#123", 
         "categories": "RF, AM", 
         "name": "SuperheterodyneReceiverKit"
+    }, 
+    {
+        "description": "building a simple 3-transistor regenerative receiver for HF shortwave", 
+        "relative_path": "Radio/ThreeTransistorShortWaveReceiver", 
+        "id": "#375", 
+        "categories": "Radio, HF", 
+        "name": "ThreeTransistorShortWaveReceiver"
     }, 
     {
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 

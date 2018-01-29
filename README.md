@@ -1,5 +1,6 @@
-# 374 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [VoltageReference/LT1019](./Electronics101/VoltageReference/LT1019) - exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference.
+# 375 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ThreeTransistorShortWaveReceiver](./Radio/ThreeTransistorShortWaveReceiver) - building a simple 3-transistor regenerative receiver for HF shortwave.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -398,7 +399,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#302 TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife)                   | **Boldport, LED, AS1130**       a simple implementation of Conway's Game of Life on the BoldportClub Matrix |
 | [#307 TheMatrix/KeypadControl](./BoldportClub/TheMatrix/KeypadControl)             | **Boldport, LED, AS1130**       use a 20-button keypad to write a scrolling message on the Boldport Matrix |
 | [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AS1130**       testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
-| [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **FM**                          build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
+| [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **Radio, FM**                   build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
+| [#375 ThreeTransistorShortWaveReceiver](./Radio/ThreeTransistorShortWaveReceiver)  | **Radio, HF**                   building a simple 3-transistor regenerative receiver for HF shortwave |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#360 TL431/ShuntRegulator](./Electronics101/VoltageReference/TL431/ShuntRegulator)| ** Power, Regulator, Reference** testing a TL431 voltage reference (regulator) circuit with manual course and fine trim |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |

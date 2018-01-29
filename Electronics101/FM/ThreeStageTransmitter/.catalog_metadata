@@ -2,6 +2,6 @@
     "id": "#281", 
     "name": "ThreeStageTransmitter", 
     "description": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 
-    "categories": "FM", 
+    "categories": "Radio, FM", 
     "relative_path": "Electronics101/FM/ThreeStageTransmitter"
 }
