@@ -27,7 +27,8 @@ In this circuit, the regen control comprises Q1 and it's biasing components.
 Some Other Regen Designs
 
 * [Regenerative Receivers](http://www.techlib.com/electronics/regen.html) - techlib
-
+* [A Short Wave Regenerative Receiver Project](http://www.tuberadio.com/receivers.html) - tuberadio
+* [A Simple Regen Radio for Beginners](http://www.arrl.org/files/file/Technology/tis/info/pdf/0009061.pdf) - QST September 2000, pp 61-64
 
 ## Circuit
 
@@ -82,6 +83,11 @@ Semi-modular ugly construction:
 
 ![Build](./assets/build_4.jpg?raw=true)
 
+That's almost finished. A couple of final changes:
+
+* I finished soldering (I hadn't yet soldered the audio out connection when I took the pictures above)
+* I moved the coupling capacitor C8: in the pictures above, it is connected directly to R5, C6. But I subsequently took the short-cut: directly from L1/C5 to the R7 wiper.
+
 ### Tuning the Tuning Circuit!
 
 The original documentation provided the following recommendations for the air coil inductor:
@@ -125,7 +131,7 @@ And here's a quick demo of tuning in on All India Radio, 17895 kHz:
 
 I've wound a couple of coils for a longer wavelength - aiming to pick up a very strong BBC World Service signal on 9740 kHz.
 
-By tuning in to the radiated signal on the Tecsun PL-660, I can verifyy a tuning range of around 7 MHz to 12MHz.
+By tuning in to the radiated signal on the Tecsun PL-660, I can verify a tuning range of around 7 MHz to 12MHz.
 However I can't seem to tame the regen: I can get a very faint signal on 9740 kHz, but it is overwhelmed by oscillation or noise (depending on the regen control).
 
 .. time for some more study to learn how I might get this under control!
@@ -139,5 +145,6 @@ However I can't seem to tame the regen: I can get a very faint signal on 9740 kH
 * [Regenerative Receiver](https://www.electronics-notes.com/articles/radio/radio-receivers/regenerative-receiver.php) - electronics-notes
 * [Air Core Inductor Inductance Calculator](http://www.daycounter.com/Calculators/Air-Core-Inductor-Calculator.phtml)
 * [LC Resonance Calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
+* [Tuning A Regenerative Receiver](http://www.arrl.org/tuning-a-regenerative-receiver) - ARRL
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
 * [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
