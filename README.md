@@ -1,4 +1,4 @@
-# 387 Little Electronics and Arduino Projects
+# 388 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [GpsBasics](./playground/GpsBasics) - using a NEMA-compatible GPS module for time and location with an Arduino.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -367,10 +367,11 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#317 SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) | **Schmitt, BJT**                test the classic emitter-coupled Schmitt Trigger circuit design |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
-| [#041 Shifty](./playground/Shifty)                                                 | **LED, CMOS/TTL, Arduino**          drive 8 LEDs with 3 pins using a 74HC595 shift register |
+| [#041 Shifty](./playground/Shifty)                                                 | **LED, CMOS/TTL, Arduino**      drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [#044 SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [#120 SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |
 | [#045 SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
+| [#388 SingaporeBands](./Radio/SingaporeBands)                                      | **Radio**                       notes on official band plans for Singapore and my and personal observations on where the activity is found |
 | [#208 SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit)    | **FM**                          build a simple single-stage FK702 FM Transmitter Kit by Future Kit |
 | [#279 SingleStageTransmitterKit2](./Electronics101/FM/SingleStageTransmitterKit2)  | **FM**                          build and tweak/tune another simple single-stage FM Transmitter Kit |
 | [#171 SMDPracticeBoards](./Electronics101/SMDPracticeBoards)                       | **SMD, CMOS, 555 Timer**        a collection of notes, kits and resources for hand-soldering surface mount devices |

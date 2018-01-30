@@ -2674,6 +2674,13 @@
         "name": "AMFMRadioKit"
     }, 
     {
+        "description": "notes on official band plans for Singapore and my and personal observations on where the activity is found", 
+        "relative_path": "Radio/SingaporeBands", 
+        "id": "#388", 
+        "categories": "Radio", 
+        "name": "SingaporeBands"
+    }, 
+    {
         "description": "build and analyse a basic superheterodyne AM MW radio receiver kit", 
         "relative_path": "Radio/SuperheterodyneReceiverKit", 
         "id": "#123", 
