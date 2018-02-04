@@ -1,4 +1,4 @@
-# #376 Piezo Vibration Detector
+# #376 Piezo Vibration Detector and BPM Counter
 
 Counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator.
 
@@ -31,6 +31,19 @@ In other tests, it appears I can get the piezo to peak at over 6V, as well as go
 I'm not sure if this is really required (because I suspect the power is extremely low),
 but I've added a 3.3V zener across the piezo to clamp the input.
 
+Some specifications of the piezo transducer I'm using:
+
+* Model: ZX-18T9A1
+* Material: Brass + ceramic
+* Resonant frequency: 8.0 +/- 0.7kHz;
+* Resonant resistance: 350Ω (max);
+* Capacitance: 7000pF +/- 30%;
+* Input voltage: for DC 30V;
+* Operating temperature: -20~+70C;
+* Storage temperature: -30~80C;
+* Brass disc: 18mm +/- 0.1mm x 0.15mm +/- 0.05mm;
+* Ceramic disc: 14mm +/- 0.1mm x 0.34mm +/- 0.05mm;
+* Lead length: 7cm
 
 ### Using the Analog Comparator
 
@@ -95,7 +108,7 @@ I used a small piece of protoboard to anchor the connections and mount the thres
 
 Finished "tap pad":
 
-![tap_pad](./assets/tap_pad_wip.jpg?raw=true)
+![tap_pad](./assets/tap_pad.jpg?raw=true)
 
 ## Credits and References
 * [Piezoelectric sensor](https://en.wikipedia.org/wiki/Piezoelectric_sensor) - wikipedia
@@ -105,4 +118,5 @@ Finished "tap pad":
 * [What is the fastest music humanly possible?](https://www.youtube.com/watch?v=h3kqBX1j7f8) - Adam Neely
 * [Exponential moving average](https://en.m.wikipedia.org/wiki/Moving_average#Exponential_moving_average)
 * [Using the Arduino Analog Comparator](http://www.gammon.com.au/forum/?id=11916)
+* 6.6 Detecting Vibration, [Arduino Cookbook](https://www.goodreads.com/book/show/11222094-arduino-cookbook)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/02/leap376-piezo-vibration-detector-and-bpm-counter.html)
