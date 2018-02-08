@@ -1,5 +1,5 @@
-# 376 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [PiezoVibrationDetector](./playground/PiezoVibrationDetector) - counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator.
+# 377 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Nokia 5110 Shield](./playground/Lcd5110/DIYShield) - putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -276,6 +276,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
 | [#226 MusicBoxKit](./Electronics101/MusicBoxKit)                                   | **Music, Arduino**              build and test a Music Box kit, and run a demonstration under Arduino control |
 | [#156 MSO5074FG_unboxing](./Equipment/MSO5074FG_unboxing)                          | **Tools, Test Equipment, Oscilloscope** unboxing and first tests of a Hantek MSO5074FG oscilloscope |
+| [#377 Nokia 5110 Shield](./playground/Lcd5110/DIYShield)                           | **LCD, Arduino**                putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping |
 | [#036 NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [#072 NOR7402](./Electronics101/NOR7402)                                           | **CMOS/TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
 | [#114 NORGateOscillator](./Electronics101/NORGateOscillator)                       | **CMOS/TTL, Oscillators, Arduino** test a low-speed square wave oscillator using NOR gates |

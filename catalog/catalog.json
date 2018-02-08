@@ -2184,6 +2184,13 @@
         "name": "Lcd5110/BareBack"
     }, 
     {
+        "description": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping", 
+        "relative_path": "playground/Lcd5110/DIYShield", 
+        "id": "#377", 
+        "categories": "LCD, Arduino", 
+        "name": "Nokia 5110 Shield"
+    }, 
+    {
         "description": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library", 
         "relative_path": "playground/Lcd5110/JuliansU8glibDemo", 
         "id": "#149", 
