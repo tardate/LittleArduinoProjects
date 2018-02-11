@@ -490,6 +490,13 @@
         "name": "BJT CurrentSink"
     }, 
     {
+        "description": "test the basic BJT \"long-tail\" differential amplifier circuit", 
+        "relative_path": "Electronics101/BJT/LongTailPair", 
+        "id": "#094", 
+        "categories": "BJT, OpAmp", 
+        "name": "BJT LongTail Pair"
+    }, 
+    {
         "description": "simple unity-gain phase splitter in a little breadboard-compatible package", 
         "relative_path": "Electronics101/BJT/PhaseSplitter", 
         "id": "#378", 
@@ -502,13 +509,6 @@
         "id": "#105", 
         "categories": "BJT, Oscillators", 
         "name": "BJT SawTooth"
-    }, 
-    {
-        "description": "test the basic BJT \"long-tail\" differential amplifier circuit", 
-        "relative_path": "Electronics101/BJTLongTailPair", 
-        "id": "#094", 
-        "categories": "BJT, OpAmp", 
-        "name": "BJTLongTailPair"
     }, 
     {
         "description": "test a 2-transistor monostable multivibrator", 

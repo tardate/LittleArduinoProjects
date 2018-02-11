@@ -98,9 +98,9 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
 | [#318 Bistable](./Electronics101/555Timer/Bistable)                                | **555 Timer**                   using the 555 timer as a bistable latch and button debouncer |
 | [#093 BJT CurrentSink](./Electronics101/BJT/CurrentSink)                           | **BJT, Power**                  test a BJT constant current sink circuit |
+| [#094 BJT LongTail Pair](./Electronics101/BJT/LongTailPair)                        | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [#378 BJT Phase Splitter](./Electronics101/BJT/PhaseSplitter)                      | **BJT, Signals**                simple unity-gain phase splitter in a little breadboard-compatible package |
 | [#105 BJT SawTooth](./Electronics101/BJT/SawTooth)                                 | **BJT, Oscillators**            testing a simple BJT saw-tooth oscillator |
-| [#094 BJTLongTailPair](./Electronics101/BJTLongTailPair)                           | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [#138 BJTMonostable](./Electronics101/BJTMonostable)                               | **BJT, RC**                     test a 2-transistor monostable multivibrator |
 | [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |

@@ -1,9 +1,9 @@
 /*
 
-  BJTLongTailPair
+  BJT/LongTailPair
   Test a BJT differential amplifier circuit
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BJTLongTailPair
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BJT/LongTailPair
 
  */
 

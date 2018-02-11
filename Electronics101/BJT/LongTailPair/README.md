@@ -1,11 +1,10 @@
-# #094 BJTLongTailPair
+# #094 BJT Long-tail Pair
 
 Test a BJT "long-tail" differential amplifier circuit.
 
 Here's a quick demo of the circuit in action:
 
 [![BJTLongTailPair](http://img.youtube.com/vi/Uo1UbQSjO6E/0.jpg)](http://www.youtube.com/watch?v=Uo1UbQSjO6E)
-
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -53,15 +52,13 @@ output_differential: -1096 mV
 
 ## Construction
 
-![Breadboard](./assets/BJTLongTailPair_bb.jpg?raw=true)
+![Breadboard](./assets/LongTailPair_bb.jpg?raw=true)
 
-![The Schematic](./assets/BJTLongTailPair_schematic.jpg?raw=true)
+![The Schematic](./assets/LongTailPair_schematic.jpg?raw=true)
 
-![The Build](./assets/BJTLongTailPair_build.jpg?raw=true)
+![The Build](./assets/LongTailPair_build.jpg?raw=true)
 
 ## Credits and References
 * [#193: Back to Basics: the differential amplifier, aka long-tailed pair, diff-pair](https://youtu.be/mejPNuPAHBY) by w2aew
 * [w2aew's tutorial notes](http://www.qsl.net/w2aew//youtube/longtailedpair.pdf)
 * [S9013 datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
-
-
