@@ -490,6 +490,13 @@
         "name": "BJT CurrentSink"
     }, 
     {
+        "description": "simple unity-gain phase splitter in a little breadboard-compatible package", 
+        "relative_path": "Electronics101/BJT/PhaseSplitter", 
+        "id": "#378", 
+        "categories": "BJT, Signals", 
+        "name": "BJT Phase Splitter"
+    }, 
+    {
         "description": "testing a simple BJT saw-tooth oscillator", 
         "relative_path": "Electronics101/BJT/SawTooth", 
         "id": "#105", 
