@@ -1,11 +1,10 @@
-# #138 BJTMonostable
+# #138 BJT Monostable
 
 Test a 2-transistor monostable multivibrator.
 
 Here's a quick video of the circuit in action:
 
 [![BJTMonostable](http://img.youtube.com/vi/UpARBfVGHoU/0.jpg)](http://www.youtube.com/watch?v=UpARBfVGHoU)
-
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -29,11 +28,11 @@ Increasing C1 or R2 will increase the "on" time accordingly.
 
 ## Construction
 
-![Breadboard](./assets/BJTMonostable_bb.jpg?raw=true)
+![Breadboard](./assets/Monostable_bb.jpg?raw=true)
 
-![The Schematic](./assets/BJTMonostable_schematic.jpg?raw=true)
+![The Schematic](./assets/Monostable_schematic.jpg?raw=true)
 
-![The Build](./assets/BJTMonostable_build.jpg?raw=true)
+![The Build](./assets/Monostable_build.jpg?raw=true)
 
 ## Credits and References
 * [Monostable Multivibrator circuit](http://www.electronics-tutorials.ws/waveforms/monostable.html) - circuit and detailed explanation

@@ -1,7 +1,7 @@
 {
     "id": "#138", 
-    "name": "BJTMonostable", 
+    "name": "BJT Monostable", 
     "description": "test a 2-transistor monostable multivibrator", 
     "categories": "BJT, RC", 
-    "relative_path": "Electronics101/BJTMonostable"
+    "relative_path": "Electronics101/BJT/Monostable"
 }
