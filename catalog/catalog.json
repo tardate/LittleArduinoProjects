@@ -519,10 +519,10 @@
     }, 
     {
         "description": "playing around with some zener-mode sound effects", 
-        "relative_path": "Electronics101/BJTZenerModeEffects", 
+        "relative_path": "Electronics101/BJT/ZenerModeEffects", 
         "id": "#140", 
         "categories": "BJT, Zener, Oscillators", 
-        "name": "BJTZenerModeEffects"
+        "name": "BJT ZenerMode Effects"
     }, 
     {
         "description": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module", 

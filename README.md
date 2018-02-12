@@ -102,7 +102,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#138 BJT Monostable](./Electronics101/BJT/Monostable)                             | **BJT, RC**                     test a 2-transistor monostable multivibrator |
 | [#378 BJT Phase Splitter](./Electronics101/BJT/PhaseSplitter)                      | **BJT, Signals**                simple unity-gain phase splitter in a little breadboard-compatible package |
 | [#105 BJT SawTooth](./Electronics101/BJT/SawTooth)                                 | **BJT, Oscillators**            testing a simple BJT saw-tooth oscillator |
-| [#140 BJTZenerModeEffects](./Electronics101/BJTZenerModeEffects)                   | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
+| [#140 BJT ZenerMode Effects](./Electronics101/BJT/ZenerModeEffects)                | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |

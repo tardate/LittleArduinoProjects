@@ -1,11 +1,10 @@
-# #140 BJTZenerModeEffects
+# #140 BJT Zener-Mode Effects
 
 Playing around with some zener-mode sound effects.
 
 Here's a quick video of the circuit in action. It also shows what happens when you remove the BJT noise generator:
 
 [![BJTZenerModeEffects](http://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](http://www.youtube.com/watch?v=YW7aQzy5-SY)
-
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -53,11 +52,11 @@ But I tried some standard rectifier diodes, and a good old 1N4001 does a decent 
 
 ## Construction
 
-![Breadboard](./assets/BJTZenerModeEffects_bb.jpg?raw=true)
+![Breadboard](./assets/ZenerModeEffects_bb.jpg?raw=true)
 
-![The Schematic](./assets/BJTZenerModeEffects_schematic.jpg?raw=true)
+![The Schematic](./assets/ZenerModeEffects_schematic.jpg?raw=true)
 
-![The Build](./assets/BJTZenerModeEffects_build.jpg?raw=true)
+![The Build](./assets/ZenerModeEffects_build.jpg?raw=true)
 
 ## Credits and References
 * [Steam Engine Simulator](http://www.talkingelectronics.com/projects/TheTransistorAmplifier/TheTransistorAmplifier-P2.html#MORE)

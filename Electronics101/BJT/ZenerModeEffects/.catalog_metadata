@@ -1,7 +1,7 @@
 {
     "id": "#140", 
-    "name": "BJTZenerModeEffects", 
+    "name": "BJT ZenerMode Effects", 
     "description": "playing around with some zener-mode sound effects", 
     "categories": "BJT, Zener, Oscillators", 
-    "relative_path": "Electronics101/BJTZenerModeEffects"
+    "relative_path": "Electronics101/BJT/ZenerModeEffects"
 }
