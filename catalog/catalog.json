@@ -1876,6 +1876,13 @@
         "name": "AnalogComparator"
     }, 
     {
+        "description": "using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library", 
+        "relative_path": "playground/AS3935", 
+        "id": "#379", 
+        "categories": "Arduino, AS3935, Sensors", 
+        "name": "AS3935"
+    }, 
+    {
         "description": "running an ATMEGA328P-PU on a breadboard ", 
         "relative_path": "playground/ATmegaBreadboard", 
         "id": "#069", 

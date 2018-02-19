@@ -1,5 +1,5 @@
-# 378 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BJT Phase Splitter](./Electronics101/BJT/PhaseSplitter) - simple unity-gain phase splitter in a little breadboard-compatible package.
+# 379 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AS3935](./playground/AS3935) - using the AMS AS3935 Franklin Lightning Sensor with an Arduino over I²C with the Wire library.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -65,7 +65,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#139 AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
 | [#020 Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
 | [#100 ArdWinVaders](./playground/OLED/ArdWinVaders)                                | **Arduino, OLED**               an Arduino & OLED version of a classic game |
-| [#186 AsyncJKCounter](./Electronics101/DigitalLogic/AsyncJKCounter)                | **CMOS/TTL, Digital Logic**         an asynchronous 4-bit counter built with JK Flip-Flops |
+| [#379 AS3935](./playground/AS3935)                                                 | **Arduino, AS3935, Sensors**    using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library |
+| [#186 AsyncJKCounter](./Electronics101/DigitalLogic/AsyncJKCounter)                | **CMOS/TTL, Digital Logic**     an asynchronous 4-bit counter built with JK Flip-Flops |
 | [#014 AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)                  | **LED Array, Timing, Arduino**  demo effects on the LED strip driven using timer interrupt |
 | [#069 ATmegaBreadboard](./playground/ATmegaBreadboard)                             | **Arduino, ATmel**              running an ATMEGA328P-PU on a breadboard  |
 | [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel**              a DIY ATmega programming shield for using an Arduino as ISP  |
