@@ -5,9 +5,6 @@ Echo to Arduino pin 13 Trig to Arduino pin 12
 Red POS to Arduino pin 11
 Green POS to Arduino pin 10
 560 ohm resistor to both LED NEG and GRD power rail
-More info at: http://goo.gl/kJ8Gl
-Original code improvements to the Ping sketch sourced from Trollmaker.com
-Some code and wiring inspired by http://en.wikiversity.org/wiki/User:Dstaub/robotcar
 */
 
 #define trigPin 13
@@ -49,7 +46,7 @@ delay (500);
 digitalWrite(green, LOW);
    
    }
-   int contact = analogRead(A0); //reading the voltage on pin A0, to know whether a can is in contact or not
+   int contact = analogRead(A0); //reading the voltage on pin A0, to know wether a can is in contact or not
  Serial.println(contact); //prints the value of the contact on the serial monitor(on screen)\
   
   delay(100);
