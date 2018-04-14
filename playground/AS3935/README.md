@@ -184,6 +184,20 @@ and compare to the data available from Singapore's [Lightning Alert Information 
 
 ![lightning-sg-2](./assets/lightning-sg-2.png?raw=true)
 
+
+### Capturing a Storm
+
+Didn't have to wait too long - today's afternoon rain came with significant lightning activity
+
+![2018-04-14_lightning-sg](./assets/2018-04-14_lightning-sg.png?raw=true)
+
+The AS3935 provided a steady stream of reports that corresponded nicely with the official record.
+I do note however that the range is quite limited - it appears I'm only detecting strikes within ~15km.
+This is using the indoor mode and default tuning.
+
+![2018-04-14_console](./assets/2018-04-14_console.png?raw=true)
+
+
 ## Credits and References
 * [LEAP#377 Nokia 5110 Shield](../Lcd5110/DIYShield)
 * [AS3935 Digital Sensor Breakout Board Module SPI I²C Interface Strikes Thunder Rainstorm Storm Distance Detection 2.4V to 5.5V](https://www.aliexpress.com/item/AS3935-Digital-Sensor-Breakout-Board-Module-SPI-I²C-Interface-Strikes-Thunder-Rainstorm-Storm-Distance-Detection-2/32841367748.html)

@@ -140,12 +140,12 @@ void DisplayController::lightningWarning() {
   if(as3935->isLightningInterrupt()) {
     // only display actual lightning interrupts on the LCD
     reset();
-    display->print("Strike! ");
+    display->println("Strike! ");
+    display->print("t=");
     display->println(millis(), HEX);
     display->print("Dist:");
     display->print(as3935->getStrikeDistance(), DEC);
     display->println("km");
-    display->println("Type: Lightning");
     display->print("Energy: ");
     display->println(as3935->getStrikeEnergy(), HEX);
     refresh();
