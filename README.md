@@ -2,9 +2,8 @@
 > Latest addition:sparkles: [WaterQualityMonitor](./playground/WaterQualityMonitor) - a project by oweibo to monitor water quality.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
-Some are full builds like
-[The FretBoard](./FretBoard) (a multi-project build status indicator),
-while most are quite trivial breadboard kata, intended to test or explore a single idea.
+Some are full builds (like [The FretBoard](./FretBoard)),
+while many are trivial breadboard kata, intended to test or explore a single idea.
 
 Many are variations of things found wild on the net, or inspired by ideas from the sources such as:
 
@@ -14,10 +13,18 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 * [Electrical Engineering StackExchange](http://electronics.stackexchange.com/)
 * [Arduino StackExchange](http://arduino.stackexchange.com/)
 * [Arduino Playground](http://playground.arduino.cc/)
-* and books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
+* books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
+* the many great electronics YouTube channels e.g.
+  - [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
+  - [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
+  - [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+  - [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
+  - [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
+  - [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
-
+There are even now a few projects contributed by others - send your own over in a pull request
+if you would also like to add to this collection.
 
 ## Project Index
 
