@@ -4,7 +4,6 @@ A project by [novaprimexex](https://github.com/novaprimexex) to count tins as th
 
 ![The Build](./assets/tin_counter_build.jpg?raw=true)
 
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
@@ -23,6 +22,6 @@ A change in voltage means the red led would blink once.. one blink for ever labe
 
 ![The Schematic](./assets/tin_counter_schematic.jpg?raw=true)
 
-
 ## Credits and References
 * [novaprimexex](https://github.com/novaprimexex) - author/contributor of this project
+* [HC-SR04 datasheet](http://www.micropik.com/PDF/HCSR04.pdf)
