@@ -2611,6 +2611,13 @@
         "name": "VoltageSensorModule"
     }, 
     {
+        "description": "a project by oweibo to monitor water quality", 
+        "relative_path": "playground/WaterQualityMonitor", 
+        "id": "#381", 
+        "categories": "Arduino, Sensors", 
+        "name": "WaterQualityMonitor"
+    }, 
+    {
         "description": "using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino", 
         "relative_path": "playground/X113647Stepper", 
         "id": "#011", 

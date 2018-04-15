@@ -1,5 +1,5 @@
-# 380 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Tin Counter](./playground/tin_counter) - a project by novaprimexex to count tins as they roll by and detect tins without paper labels.
+# 381 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [WaterQualityMonitor](./playground/WaterQualityMonitor) - a project by oweibo to monitor water quality.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds like
@@ -431,6 +431,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#289 VoltmeterAmmeterModule](./Electronics101/VoltmeterAmmeterModule)             | **Sensors**                     test and calibrate a DC Voltmeter/Ammeter panel module |
 | [#181 VoltmeterModule](./Electronics101/VoltmeterModule)                           | **Sensors**                     test a 3-wire voltmeter module |
 | [#097 VolumeControlPowerAmp](./Electronics101/AudioAmps/VolumeControlPowerAmp)     | **OpAmp, Audio**                an LM386 fixed-gain audio power amp with volume control |
+| [#381 WaterQualityMonitor](./playground/WaterQualityMonitor)                       | **Arduino, Sensors**            a project by oweibo to monitor water quality |
 | [#164 WatsonLedRing](./Electronics101/WatsonLedRing)                               | **Oscillators**                 test a Watson 3-LED Ring oscillator |
 | [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
 | [#011 X113647Stepper](./playground/X113647Stepper)                                 | **Stepper, Arduino**            using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino |

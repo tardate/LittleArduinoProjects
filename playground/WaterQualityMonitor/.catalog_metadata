@@ -1,0 +1,7 @@
+{
+    "id": "#381", 
+    "name": "WaterQualityMonitor", 
+    "description": "a project by oweibo to monitor water quality", 
+    "categories": "Arduino, Sensors", 
+    "relative_path": "playground/WaterQualityMonitor"
+}
