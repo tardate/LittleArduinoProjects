@@ -1529,7 +1529,7 @@
         "description": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
         "relative_path": "Electronics101/UltrasonicAlarm", 
         "id": "#287", 
-        "categories": "555 Timer, Sensors, CMOS/TTL", 
+        "categories": "555 Timer, Sensors, CMOS/TTL, HC-SR04", 
         "name": "UltrasonicAlarm"
     }, 
     {
@@ -2467,7 +2467,7 @@
         "description": "proximity/distance measurement with an HC-SR04 untrasonic ranging module", 
         "relative_path": "playground/RangeFinder", 
         "id": "#035", 
-        "categories": "Sensors, Arduino", 
+        "categories": "Sensors, Arduino, HC-SR04", 
         "name": "RangeFinder"
     }, 
     {
@@ -2567,6 +2567,13 @@
         "id": "#361", 
         "categories": "TFT LCD, Arduino", 
         "name": "TFT/Color128x128"
+    }, 
+    {
+        "description": "a project by novaprimexex to count tins as they roll by and detect tins without paper labels", 
+        "relative_path": "playground/tin_counter", 
+        "id": "#380", 
+        "categories": "Arduino, Sensors, HC-SR04", 
+        "name": "Tin Counter"
     }, 
     {
         "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 

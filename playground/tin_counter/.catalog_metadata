@@ -1,0 +1,7 @@
+{
+    "id": "#380", 
+    "name": "Tin Counter", 
+    "description": "a project by novaprimexex to count tins as they roll by and detect tins without paper labels", 
+    "categories": "Arduino, Sensors, HC-SR04", 
+    "relative_path": "playground/tin_counter"
+}

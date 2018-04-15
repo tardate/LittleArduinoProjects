@@ -320,7 +320,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **CMOS/TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
 | [#073 QuadNOR](./Electronics101/QuadNOR)                                           | **CMOS/TTL, Arduino**           demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
 | [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     build and test a 16-bit R2R-ladder digital to analog converter with shift register interface |
-| [#035 RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino, HC-SR04**            proximity/distance measurement with an HC-SR04 untrasonic ranging module |
+| [#035 RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino, HC-SR04**   proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [#049 RCOscillator](./Electronics101/RCOscillator)                                 | **BJT, RC, Oscillators**        simple RC/transistor multistable vibrator |
 | [#332 RCPhaseShiftBJT](./Electronics101/Oscillators/RCPhaseShiftBJT)               | **BJT, RC, Oscillators**        testing an RC phase-shift oscillator using a BJT amplifier |
 | [#129 RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RLC, Oscillators**     test a "joule thief" circuit based on a relaxation oscillator |
@@ -403,7 +403,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AS1130**       testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
 | [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **Radio, FM**                   build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#375 ThreeTransistorShortWaveReceiver](./Radio/ThreeTransistorShortWaveReceiver)  | **Radio, HF**                   building a simple 3-transistor regenerative receiver for HF shortwave |
-| [#380 Tin Counter](./playground/tin_counter)                                       | **Arduino, Sensors, HC-SR04**  a project by novaprimexex to count tins as they roll by and detect tins without paper labels.
+| [#380 Tin Counter](./playground/tin_counter)                                       | **Arduino, Sensors, HC-SR04**   a project by novaprimexex to count tins as they roll by and detect tins without paper labels |
 | [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#360 TL431/ShuntRegulator](./Electronics101/VoltageReference/TL431/ShuntRegulator)| ** Power, Regulator, Reference** testing a TL431 voltage reference (regulator) circuit with manual course and fine trim |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |

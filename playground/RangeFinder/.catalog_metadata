@@ -2,6 +2,6 @@
     "id": "#035", 
     "name": "RangeFinder", 
     "description": "proximity/distance measurement with an HC-SR04 untrasonic ranging module", 
-    "categories": "Sensors, Arduino", 
+    "categories": "Sensors, Arduino, HC-SR04", 
     "relative_path": "playground/RangeFinder"
 }
