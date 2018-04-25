@@ -1,0 +1,7 @@
+{
+    "id": "#382", 
+    "name": "CD4046 VCO", 
+    "description": "audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC", 
+    "categories": "RC, CD4046, Oscillators", 
+    "relative_path": "Electronics101/CD4046/VCO"
+}
