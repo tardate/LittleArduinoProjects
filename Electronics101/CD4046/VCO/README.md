@@ -10,6 +10,10 @@ Audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC.
 
 The 4046 includes a VCO sub-system in addition to phase comparators and other components.
 
+As noted in the Art of Electronics (p291, Second Edition):
+"When shopping for VCO chips, don't overlook the ICs known as phase-locked loops (PLL), which contain both a VCO and a phase detector.
+An example is the popular CMOS 4046 (and its faster cousin, the 74HC4046).""
+
 The VCO produces a square wave with 50% duty cycle, and a frequency range of approaching 0 Hz to over 1 MHz (1.3 MHz at 9V VDD).
 The VCO frequency is determined by the voltage at VCO IN (pin 9).
 Voltage-to-frequency linearity is about 1%.
@@ -18,7 +22,7 @@ The VCO can be used independently. This project is inspired by Ray Marston's "CM
 and simply demonstrates using the VCO sub-system as a voltage-controlled
 signal source with a frequency range in the audio spectrum of about 20 Hz to 20 kHz.
 
-![CD4046_functional_diagram](./assets/CD4046_functional_diagram.png?raw=true)
+[![CD4046_functional_diagram](./assets/CD4046_functional_diagram.png?raw=true)](http://www.futurlec.com/4000Series/CD4046.shtml)
 
 
 ## Output
@@ -89,7 +93,8 @@ Measured maximum frequency:
 ![Build](./assets/VCO_build.jpg?raw=true)
 
 ## Credits and References
+* [CD4046 Datasheet](http://www.futurlec.com/4000Series/CD4046.shtml)
 * CMOS Clock Circuits - Ray Marston. Radio-Electronics, November 1984.
 * [Practical Oscillator Handbook](https://www.goodreads.com/book/show/3365243-practical-oscillator-handbook) - includes a page on CD4046 VCO
 * [Practical Oscillator Circuits](https://www.goodreads.com/book/show/12491266-practical-oscillator-circuits) - apparently has good coverage of CD4046 VCO (I haven't read it)
-* [CD4046 Datasheet](http://www.futurlec.com/4000Series/CD4046.shtml)
+* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)
