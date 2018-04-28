@@ -945,6 +945,13 @@
         "name": "LM324/SplitterBuffer"
     }, 
     {
+        "description": "playing with the basic low voltage output circuit for the LM723 voltage regulator", 
+        "relative_path": "Electronics101/LM723/LowVoltageRegulator", 
+        "id": "#383", 
+        "categories": "Power, Regulator, LM723", 
+        "name": "LM723/LowVoltageRegulator"
+    }, 
+    {
         "description": "a dual-LED \"glowing\" oscillator from a 1.5V supply", 
         "relative_path": "Electronics101/LowVoltageGlowingLEDs", 
         "id": "#191", 

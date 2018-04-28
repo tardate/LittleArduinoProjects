@@ -1,5 +1,5 @@
-# 382 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CD4046 VCO](./Electronics101/CD4046/VCO) - audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC.
+# 383 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LM723/LowVoltageRegulator](./Electronics101/LM723/LowVoltageRegulator) - playing with the basic low voltage output circuit for the LM723 voltage regulator.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -251,13 +251,14 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#209 LedPanelDisplay72R02](./playground/LedPanelDisplay72R02)                     | **LED, Arduino**                test a 7-digit & 7-status indicator LED display |
 | [#224 LEDStrobeKit](./Electronics101/LEDStrobeKit)                                 | **LED, 555 Timer, CMOS**        build and analyse a common LED strobe kit |
 | [#079 LedTemperatureDisplay](./playground/LedTemperatureDisplay)                   | **Sensors, LM35, 7-Segment, Arduino** measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit |
-| [#179 LEDx16Module](./playground/LEDx16Module)                                     | **CMOS/TTL, SMD, Arduino**          a custom 16 LED SMD PCB with 74HC595 shift register interface |
+| [#179 LEDx16Module](./playground/LEDx16Module)                                     | **CMOS/TTL, SMD, Arduino**      a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [#010 LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
 | [#350 LiteWings](./Kraft/CircuitScribe/LiteWings)                                  | **Conductive Ink**              learning about conductive ink with the CircuitScribe LiteWings kit |
 | [#095 LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
-| [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
+| [#383 LM723/LowVoltageRegulator](./Electronics101/LM723/LowVoltageRegulator)       | **Power, Regulator, LM723**     playing with the basic low voltage output circuit for the LM723 voltage regulator |
+| [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [#358 MC34063/ModuleKit](./Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit) | **Power**                     build and test an MC34063-based boost converter |
 | [#335 MCP2200/Chaser](./Electronics101/MCP2200/Chaser)                             | **UART, USB, LED**              using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs |

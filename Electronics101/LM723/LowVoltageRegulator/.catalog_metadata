@@ -1,0 +1,7 @@
+{
+    "id": "#383", 
+    "name": "LM723/LowVoltageRegulator", 
+    "description": "playing with the basic low voltage output circuit for the LM723 voltage regulator", 
+    "categories": "Power, Regulator, LM723", 
+    "relative_path": "Electronics101/LM723/LowVoltageRegulator"
+}
