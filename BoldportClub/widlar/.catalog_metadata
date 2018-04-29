@@ -1,0 +1,7 @@
+{
+    "id": "#385", 
+    "name": "BoldportClub/widlar", 
+    "description": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)", 
+    "categories": "723, Power, Oscillator", 
+    "relative_path": "BoldportClub/widlar"
+}

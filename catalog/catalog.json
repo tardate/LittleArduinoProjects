@@ -217,6 +217,13 @@
         "name": "BoldportClub/Touchy"
     }, 
     {
+        "description": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)", 
+        "relative_path": "BoldportClub/widlar", 
+        "id": "#385", 
+        "categories": "723, Power, Oscillator", 
+        "name": "BoldportClub/widlar"
+    }, 
+    {
         "description": "widely-adjustable square wave generator using the 555 timer", 
         "relative_path": "Electronics101/555Timer/AdjustablePulseGenerator", 
         "id": "#184", 
