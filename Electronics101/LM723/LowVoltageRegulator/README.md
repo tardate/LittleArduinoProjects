@@ -78,7 +78,7 @@ The 723 requires a relatively high input voltage of between 9.4 and 40 volts (it
 The main constraint on the minimum voltage is the need to generate the 7.15V reference voltage.
 
 I started running the circuit at 12V, but it works quite happily at 10V (per the pictures).
-AS I reduce the supply voltage, it starts to lose regulation at about 8.9V.
+As I reduce the supply voltage, it starts to lose regulation at about 8.9V.
 
 ## Construction
 

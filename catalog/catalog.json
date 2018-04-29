@@ -945,6 +945,13 @@
         "name": "LM324/SplitterBuffer"
     }, 
     {
+        "description": "playing with the basic high voltage output circuit for the LM723 voltage regulator", 
+        "relative_path": "Electronics101/LM723/HighVoltageRegulator", 
+        "id": "#384", 
+        "categories": "Power, Regulator, LM723", 
+        "name": "LM723/HighVoltageRegulator"
+    }, 
+    {
         "description": "playing with the basic low voltage output circuit for the LM723 voltage regulator", 
         "relative_path": "Electronics101/LM723/LowVoltageRegulator", 
         "id": "#383", 

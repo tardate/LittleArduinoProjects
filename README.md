@@ -1,5 +1,6 @@
-# 383 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LM723/LowVoltageRegulator](./Electronics101/LM723/LowVoltageRegulator) - playing with the basic low voltage output circuit for the LM723 voltage regulator.
+# 384 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LM723/HighVoltageRegulator](./Electronics101/LM723/HighVoltageRegulator) - playing with the basic high voltage output circuit for the LM723 voltage regulator.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -257,6 +258,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#350 LiteWings](./Kraft/CircuitScribe/LiteWings)                                  | **Conductive Ink**              learning about conductive ink with the CircuitScribe LiteWings kit |
 | [#095 LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
+| [#384 LM723/HighVoltageRegulator](./Electronics101/LM723/HighVoltageRegulator)     | **Power, Regulator, LM723**     playing with the basic high voltage output circuit for the LM723 voltage regulator |
 | [#383 LM723/LowVoltageRegulator](./Electronics101/LM723/LowVoltageRegulator)       | **Power, Regulator, LM723**     playing with the basic low voltage output circuit for the LM723 voltage regulator |
 | [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
