@@ -47,6 +47,23 @@ Another wonderfully packaged kit from Boldport..
 ![widlar_pcb_front](./assets/widlar_pcb_front.jpg?raw=true)
 ![widlar_pcb_rear](./assets/widlar_pcb_rear.jpg?raw=true)
 
+### Parts
+
+|Qty | Item                                               |
+|----|----------------------------------------------------|
+| x1 | μA723, TI UA723CDR                                 |
+| x1 | NPN BJT TO-220, Fairchild BD239BTU                 |
+| x5 | 470Ω resistor 250mW, Multicomp MCF 0.25W 470       |
+| x5 | 4.3KΩ resistor 500mW, RS PRO739-8809               |
+| x5 | 1.5KΩ resistor 500mW, RS PRO739-8767               |
+| x3 | 10KΩ resistor 250mW, Multicomp MCF 0.25W 10K       |
+| x1 | 10Ω resistor 600mW, Multicomp MCMF006FF100JA50     |
+| x1 | 3Ω resistor 600mW, Vishay MBB02070C3008FCT00       |
+| x1 | 10KΩ trimmer, Bourns 3306W-1-103                   |
+| x2 | 100pF ceramic capacitor, Suntan TS15001H101KSBSA0R |
+| x2 | 470pF ceramic capacitor, Suntan TS15001H471KSBPA0R |
+| x1 | PCB                                                |
+
 ## Going Off Road..
 
 This kit came packed with components for building a wide range of possible μA723 configurations.
