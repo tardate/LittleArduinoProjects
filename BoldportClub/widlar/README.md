@@ -100,6 +100,8 @@ With the LED load attached, the waveform is more complex:
 
 ![Schematic](./assets/widlar_schematic.jpg?raw=true)
 
+![widlar_layout](./assets/widlar_layout.jpg?raw=true)
+
 ![Build](./assets/widlar_build.jpg?raw=true)
 
 ## Credits and References
