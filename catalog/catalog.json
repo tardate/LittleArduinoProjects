@@ -2693,5 +2693,12 @@
         "id": "#351", 
         "categories": "SDR, Radio, RF", 
         "name": "RTL-SDR Dongle"
+    }, 
+    {
+        "description": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
+        "relative_path": "STM32/BluePill", 
+        "id": "#386", 
+        "categories": "STM32", 
+        "name": "BluePill"
     }
 ]

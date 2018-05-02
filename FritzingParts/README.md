@@ -36,7 +36,8 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [CD4017 (local copy)](./cached/CD4017.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=875#c526)
 * [HC-SR04 (local copy)](./cached/HC-SR04.fzpz) - [original source](http://fritzing.org/projects/hc-sr04-project)
 * [Song Le Relay (local copy)](./cached/Song Le Relay.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=2389)
-* [2N7000 FET N-Channel](./cached/2N7000 FET N-Channelfzpz) - [original source](https://github.com/kylegordon/Fritzing-Parts)
+* [2N7000 FET N-Channel (local copy)](./cached/2N7000 FET N-Channel.fzpz) - [original source](https://github.com/kylegordon/Fritzing-Parts)
+* [STM32F103C8T6 Blue Pill (local copy)](./cached/BluePill) - [original source](http://blog.naver.com/PostView.nhn?blogId=chandong83&logNo=221026011343&categoryNo=0&parentCategoryNo=39&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search)
 
 
 ## Useful Parts Collections on GitHub

@@ -1,5 +1,5 @@
-# 385 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/widlar](./BoldportClub/widlar) - hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do something other than voltage regulation (LED blinky).
+# 386 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BluePill](./STM32/BluePill) - Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -113,6 +113,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#140 BJT ZenerMode Effects](./Electronics101/BJT/ZenerModeEffects)                | **BJT, Zener, Oscillators**     playing around with some zener-mode sound effects |
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
+| [#386 BluePill](./STM32/BluePill)                                                  | **STM32**                       programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE |
 | [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |
 | [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3 |
