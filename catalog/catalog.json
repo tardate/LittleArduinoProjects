@@ -2135,6 +2135,13 @@
         "name": "GccToolchain"
     }, 
     {
+        "description": "using a NEMA-compatible GPS module for time and location with an Arduino", 
+        "relative_path": "playground/GpsBasics", 
+        "id": "#387", 
+        "categories": "GPS, Arduino", 
+        "name": "GpsBasics"
+    }, 
+    {
         "description": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?", 
         "relative_path": "playground/GranularSynth", 
         "id": "#368", 

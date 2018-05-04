@@ -1,6 +1,5 @@
-# 386 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BluePill](./STM32/BluePill) - Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE.
-
+# 387 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [GpsBasics](./playground/GpsBasics) - using a NEMA-compatible GPS module for time and location with an Arduino.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -209,6 +208,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#050 Girabot](./Girabot)                                                          | **Sensors, OpAmp, Arduino**     EE40LX Electronic Interfaces robot project |
 | [#338 GlowBall](./Kraft/GlowBall)                                                  | **LED, Oscillators, Power**     building LED effects for a Glass Eye Studio Celestial Planet Weight |
 | [#298 GoldenHind](./Kraft/GoldenHind)                                              | **Kraft**                       building a mini metal model of the Golden Hind |
+| [#387 GpsBasics](./playground/GpsBasics)                                           | **GPS, Arduino**                using a NEMA-compatible GPS module for time and location with an Arduino |
 | [#368 GranularSynth](./playground/GranularSynth)                                   | **Audio, Arduino**              building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right? |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#249 GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp)             | **OpAmp, Audio**                single-channel 10W guitar practice amplifier based on the TDA2050 |
