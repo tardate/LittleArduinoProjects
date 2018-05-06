@@ -4,10 +4,6 @@ Using a NEMA-compatible GPS module for time and location with an Arduino.
 
 ![Build](./assets/GpsBasics_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](http://img.youtube.com/vi/video_id/0.jpg)](http://www.youtube.com/watch?v=video_id)
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
@@ -19,19 +15,19 @@ is variously marketed as GY-NEO6MV2 or GY-GPS6MV2, and at least in my case uses 
 
 ![GpsBasics_module](./assets/GpsBasics_module.png?raw=true)
 
-Specifications:
+Specifications (as far as I've been able to glean from the Internet):
 
-* communication mode: TTL level, compatible with 3.3v / 5v system
+* Communication mode: TTL level, compatible with 3.3v / 5v system
 * Power supply: DC 2.7-5v
-* working current: 45mA
+* Working current: 45mA
 * txd rxd impedance: 510R
-* default transmission speed: 9600
-* time to catch: warm start: 1s
-* cold start: 27s
-* Temp .: -40 ~ 85 ℃
-* positioning accuracy: 5m
-* module size 25 mm x 35 mm  (approximately)
-* the antenna size: 25 mm x 25 mm
+* Default transmission speed: 9600
+* Time to catch: warm start: 1s
+* Cold start: 27s
+* Temp: -40 ~ 85 ℃
+* Positioning accuracy: 5m
+* Module size: 25 mm x 35 mm  (approximately)
+* Antenna size: 25 mm x 25 mm
 
 Features:
 * use the XM37-1612 module. MTK platform, with high gain active antenna
@@ -202,7 +198,7 @@ And details logged to serial output:
 * [SoftwareSerial](https://www.arduino.cc/en/Reference/SoftwareSerial)
 * [Using a GPS receiver for Arduino](https://sandervandevelde.wordpress.com/2015/12/03/using-a-gps-receiver-for-arduino/) - useful blog post by Sander van de Velde
 * [6.14. Getting Location from a GPS](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
-* [NMEA data](http://www.gpsinformation.org/dale/nmea.htm)
+* [NMEA data](http://www.gpsinformation.org/dale/nmea.htm) - great background on NEMA data
 * [GPS - NMEA sentence information](http://home.mira.net/~gnb/gps/nmea.html) - Glenn Baddeley
 * [NMEA Standards](https://www.nmea.org/content/nmea_standards/nmea_standards.asp)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap387-gps-modules.html)
