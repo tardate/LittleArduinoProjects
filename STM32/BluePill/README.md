@@ -114,3 +114,4 @@ the board can be powered from USB with the program running:
 * [STM32F103C8 Product Info and Datasheet](http://www.st.com/en/microcontrollers/stm32f103c8.html)
 * [Blue Pill](http://wiki.stm32duino.com/index.php?title=Blue_Pill) - stm32duino wiki
 * [Blue Pill Fritzing Part source](http://blog.naver.com/PostView.nhn?blogId=chandong83&logNo=221026011343&categoryNo=0&parentCategoryNo=39&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap386-the-blue-pill.html)
