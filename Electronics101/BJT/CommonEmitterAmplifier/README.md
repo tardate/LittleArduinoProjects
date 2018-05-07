@@ -96,7 +96,7 @@ therefore R2 = [5924Ω](https://www.wolframalpha.com/input/?i=1.58V%2F0.2667+mA)
 so choose 5 kΩ (standard value)
 
 and therefore R1 = [13.8kΩ](https://www.wolframalpha.com/input/?i=18.8k%CE%A9+-+5k%CE%A9)
-so choose 12kΩ (standard vlaue)
+so choose 12kΩ (standard value)
 
 
 #### 7. review input limits

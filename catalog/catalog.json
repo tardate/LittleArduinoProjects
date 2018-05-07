@@ -511,6 +511,13 @@
         "name": "BJT Monostable"
     }, 
     {
+        "description": "enter description", 
+        "relative_path": "Electronics101/BJT/NegativeFeedbackAmplifier", 
+        "id": "#xxx", 
+        "categories": "", 
+        "name": "NegativeFeedbackAmplifier"
+    }, 
+    {
         "description": "simple unity-gain phase splitter in a little breadboard-compatible package", 
         "relative_path": "Electronics101/BJT/PhaseSplitter", 
         "id": "#378", 
@@ -523,6 +530,13 @@
         "id": "#105", 
         "categories": "BJT, Oscillators", 
         "name": "BJT SawTooth"
+    }, 
+    {
+        "description": "designing a two-stage common-emitter BJT amplifier", 
+        "relative_path": "Electronics101/BJT/TwoStageCommonEmitterAmplifier", 
+        "id": "#389", 
+        "categories": "BJT, Amplifier", 
+        "name": "TwoStageCommonEmitterAmplifier"
     }, 
     {
         "description": "playing around with some zener-mode sound effects", 

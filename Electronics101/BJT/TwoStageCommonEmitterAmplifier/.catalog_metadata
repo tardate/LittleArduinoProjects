@@ -1,0 +1,7 @@
+{
+    "id": "#389", 
+    "name": "TwoStageCommonEmitterAmplifier", 
+    "description": "designing a two-stage common-emitter BJT amplifier", 
+    "categories": "BJT, Amplifier", 
+    "relative_path": "Electronics101/BJT/TwoStageCommonEmitterAmplifier"
+}

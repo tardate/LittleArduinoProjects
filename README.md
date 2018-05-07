@@ -1,5 +1,7 @@
-# 388 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [GpsBasics](./playground/GpsBasics) - using a NEMA-compatible GPS module for time and location with an Arduino.
+# 389 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TwoStageCommonEmitterAmplifier](./Electronics101/BJT/TwoStageCommonEmitterAmplifier) - designing a two-stage common-emitter BJT amplifier.
+
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -427,6 +429,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#205 TriacDimmer](./Electronics101/TriacDimmer)                                   | **Triac, Thyristor**            investigate the operation of triacs and build the basic dimmaer circuit |
 | [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer astable oscillator and RC integrator |
 | [#113 TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
+| [#389 TwoStageCommonEmitterAmplifier](./Electronics101/BJT/TwoStageCommonEmitterAmplifier) | **BJT, Amplifier**      designing a two-stage common-emitter BJT amplifier |
 | [#059 TwoToneDoorbell](./Electronics101/555Timer/TwoToneDoorbell)                  | **555 Timer, Oscillators**      basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation |
 | [#287 UltrasonicAlarm](./Electronics101/UltrasonicAlarm)                           | **555 Timer, Sensors, CMOS/TTL, HC-SR04** build an ultrasonic motion alarm with the HC-SR04 module and discrete logic |
 | [#174 UsbNotifier](./Electronics101/UsbNotifier)                                   | **LED, USB**                    tear-down and demo code for some oldUSB Webmail Notifier devices |
