@@ -57,20 +57,23 @@ An approach and example for selecting values for a simple CE amplifier:
 * assume ß (hFE) = 150 (or lookup the datasheet)
 * assume Vbe = 0.7V (or lookup the datasheet)
 
-2. calculate collector + emmiter resistance for desired gain at the Q point
+2. calculate collector + emitter resistance for desired gain at the Q point
 
-Rc + Re = (5V - 2.5V) / 4mA = [625Ω](https://www.wolframalpha.com/input/?i=(5V+-+2.5V)+%2F+4mA)
+* Rc + Re = (5V - 2.5V) / 4mA = [625Ω](https://www.wolframalpha.com/input/?i=(5V+-+2.5V)+%2F+4mA)
 
 3. calculate Rc and Re for desired gain
 
-Rc = 2 x Re, Re = 625Ω - Rc
-Re = 1/3 x 625Ω = 208Ω, say 220Ω (standard value)
-Rc = 416Ω, say 470Ω (standard value)
+* A ≅ Rc/Re
+* Re = 625Ω - Rc
+* Rc = 2 * 625Ω - 2 * Rc
+* Rc = 2/3 * 625Ω
+* Re = 1/3 x 625Ω = 208Ω, say 220Ω (standard value)
+* Rc = 416Ω, say 470Ω (standard value)
 
 
 3. calculate base current at the q point
 
-Ib = 4mA / 150 = [0.02667mA](https://www.wolframalpha.com/input/?i=4mA%2F150)
+* Ib = 4mA / 150 = [0.02667mA](https://www.wolframalpha.com/input/?i=4mA%2F150)
 
 4. calculate the combined bias gang resistance
 
@@ -93,8 +96,8 @@ so choose 12kΩ (standard vlaue)
 
 6. review input limits
 
-with a design gain of 5, and assuming we have say 4V peak-to-peak headroom around the 2.5V quiesent point,
-we should be able to handle signals of [0.8V peak-to-peak](https://www.wolframalpha.com/input/?i=4V%2F5)
+with a design gain of 2, and assuming we have say 4V peak-to-peak headroom around the 2.5V quiesent point,
+we should be able to handle signals of [2V peak-to-peak](https://www.wolframalpha.com/input/?i=4V%2F2)
 
 That's all pretty theoretical and assumes nothing much about the transistor performance (except for ß), so let's see how it works in practice.
 
