@@ -48,7 +48,8 @@ It may seem like class A should always be preferred, but that is not true as it 
 
 An approach and example for selecting values for a simple CE amplifier:
 
-1. Choose the operating requirements:
+
+#### 1. Choose the operating requirements:
 
 * VCC = 5V
 * A = 2 (low gain)
@@ -57,11 +58,13 @@ An approach and example for selecting values for a simple CE amplifier:
 * assume ß (hFE) = 150 (or lookup the datasheet)
 * assume Vbe = 0.7V (or lookup the datasheet)
 
-2. calculate collector + emitter resistance for desired gain at the Q point
+
+#### 2. calculate collector + emitter resistance for desired gain at the Q point
 
 * Rc + Re = (5V - 2.5V) / 4mA = [625Ω](https://www.wolframalpha.com/input/?i=(5V+-+2.5V)+%2F+4mA)
 
-3. calculate Rc and Re for desired gain
+
+#### 3. calculate Rc and Re for desired gain
 
 * A ≅ Rc/Re
 * Re = 625Ω - Rc
@@ -71,17 +74,19 @@ An approach and example for selecting values for a simple CE amplifier:
 * Rc = 416Ω, say 470Ω (standard value)
 
 
-3. calculate base current at the q point
+#### 4. calculate base current at the q point
 
 * Ib = 4mA / 150 = [0.02667mA](https://www.wolframalpha.com/input/?i=4mA%2F150)
 
-4. calculate the combined bias gang resistance
+
+#### 5. calculate the combined bias gang resistance
 
 assume current through the gang at 10 x Ib as a rule of thumb to ensure "stiff" biasing i.e. 0.2667 mA
 
 so combined resistance = [18.8kΩ](https://www.wolframalpha.com/input/?i=5V%2F0.2667mA)
 
-5. calculate the resistance of R1 and R2 components of the bias gang
+
+#### 6. calculate the resistance of R1 and R2 components of the bias gang
 
 Lower resistor R2:
 
@@ -94,7 +99,7 @@ and therefore R1 = [13.8kΩ](https://www.wolframalpha.com/input/?i=18.8k%CE%A9+-
 so choose 12kΩ (standard vlaue)
 
 
-6. review input limits
+#### 7. review input limits
 
 with a design gain of 2, and assuming we have say 4V peak-to-peak headroom around the 2.5V quiesent point,
 we should be able to handle signals of [2V peak-to-peak](https://www.wolframalpha.com/input/?i=4V%2F2)
