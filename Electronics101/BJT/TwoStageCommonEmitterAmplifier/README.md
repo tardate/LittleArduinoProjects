@@ -160,10 +160,12 @@ Conclusion: predicted performance was quite a way off the actual performance - I
 But.. I did get a functioning two-stage Class A amplifier out of it, with performance "in the ballpark" of the design.
 
 
-![two-stage-10kHz](./assets/two-stage-bypass-10kHz.gif?raw=true)
+![two-stage-10kHz](./assets/two-stage-10kHz.gif?raw=true)
 
 
 ### Performance With an Ugly-style Build
+
+![TwoStageCommonEmitterAmplifier_ugly](./assets/TwoStageCommonEmitterAmplifier_ugly.jpg?raw=true)
 
 With an ugly-style build, I see even better performance, and improved gain:
 
@@ -173,7 +175,11 @@ With an ugly-style build, I see even better performance, and improved gain:
 * error in the theoretical gain calc = [-39%](https://www.wolframalpha.com/input/?i=(31.2-43.2)%2F31.2)
 
 
-![TwoStageCommonEmitterAmplifier_ugly](./assets/TwoStageCommonEmitterAmplifier_ugly.jpg?raw=true)
+![single-stage-ugly-10kHz](./assets/single-stage-ugly-10kHz.gif?raw=true)
+
+At 400kHz, perfromance is maintained:
+
+![single-stage-ugly-400kHz](./assets/single-stage-ugly-400kHz.gif?raw=true)
 
 ## Construction
 
@@ -181,7 +187,11 @@ With an ugly-style build, I see even better performance, and improved gain:
 
 ![Schematic](./assets/TwoStageCommonEmitterAmplifier_schematic.jpg?raw=true)
 
+Testing on a breadboard:
+
 ![TwoStageCommonEmitterAmplifier_bb_build](./assets/TwoStageCommonEmitterAmplifier_bb_build.jpg?raw=true)
+
+Testing with an ugly-style build:
 
 ![TwoStageCommonEmitterAmplifier_build](./assets/TwoStageCommonEmitterAmplifier_build.jpg?raw=true)
 
