@@ -201,3 +201,4 @@ Testing with an ugly-style build:
 * [Electronic Principles by Albert Paul Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles)
 * [Multistage Transistor Amplifiers](http://www.youtube.com/watch?v=FbdZ46VdTjE)
 * [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap389-two-stage-amp-design.html)
