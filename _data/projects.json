@@ -431,6 +431,15 @@
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
     }, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
+        "tags": [
+            "Arduino", 
+            "C++"
+        ], 
+        "title": "Using C++ Templates"
+    }, 
     "/OSHChip/LEDx16Module/": {
         "summary": "driving an SPI LED module with the OSHChip", 
         "id": 216, 
@@ -2229,13 +2238,14 @@
         ], 
         "title": "MT3608/VariableBoost"
     }, 
-    "/Electronics101/PowerAMS1117/": {
-        "summary": "test an AMS1117 3.3V linear regulator", 
-        "id": 153, 
+    "/ESP8266/SerialTest/ruby/": {
+        "summary": "exercising ESP8266 serial communications with Ruby", 
+        "id": 155, 
         "tags": [
-            "Power"
+            "ESP8266", 
+            "ruby"
         ], 
-        "title": "PowerAMS1117"
+        "title": "ESP8266/SerialTest/ruby"
     }, 
     "/playground/ATtiny/ProgrammingWithArduinoISP/": {
         "summary": "programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
@@ -3980,14 +3990,13 @@
         ], 
         "title": "ClapSwitchKit2"
     }, 
-    "/playground/UsingTemplates/": {
-        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
-        "id": 486, 
+    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
+        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
+        "id": 495, 
         "tags": [
-            "Arduino", 
-            "C++"
+            "BJT"
         ], 
-        "title": "Using C++ Templates"
+        "title": "Negative Feedback Amplifier"
     }, 
     "/BoldportClub/TheMatrix/GameOfLife/": {
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 
@@ -4440,14 +4449,13 @@
         ], 
         "title": "BazzFuss"
     }, 
-    "/ESP8266/SerialTest/ruby/": {
-        "summary": "exercising ESP8266 serial communications with Ruby", 
-        "id": 155, 
+    "/Electronics101/PowerAMS1117/": {
+        "summary": "test an AMS1117 3.3V linear regulator", 
+        "id": 153, 
         "tags": [
-            "ESP8266", 
-            "ruby"
+            "Power"
         ], 
-        "title": "ESP8266/SerialTest/ruby"
+        "title": "PowerAMS1117"
     }, 
     "/Electronics101/Oscillators/ComparatorRelaxation/": {
         "summary": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp", 

@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-11T16:07:19Z</updated>
+  <updated>2019-09-14T11:03:22Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/BJT/NegativeFeedbackAmplifier/</id>
+    <link href="https://leap.tardate.com/Electronics101/BJT/NegativeFeedbackAmplifier/"/>
+    <updated>2019-09-14T10:50:28Z</updated>
+    <title>#495 Negative Feedback Amplifier</title>
+    <summary>examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BJT/NegativeFeedbackAmplifier/assets/NegativeFeedbackAmplifier_build.jpg</g:image_link>
+    <category term="BJT"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/FPGA/Fomu/BuildNotifier/</id>
     <link href="https://leap.tardate.com/FPGA/Fomu/BuildNotifier/"/>

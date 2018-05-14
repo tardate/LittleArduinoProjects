@@ -1,6 +1,6 @@
-# 494 Little Electronics and Arduino Projects
+# 495 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Fomu Build Notifier](./FPGA/Fomu/BuildNotifier) - using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard).
+> Latest addition:sparkles: [Negative Feedback Amplifier](.Electronics101/BJT/NegativeFeedbackAmplifier) - examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

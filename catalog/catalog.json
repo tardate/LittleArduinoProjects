@@ -1,5 +1,12 @@
 [
     {
+        "description": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
+        "relative_path": "Electronics101/BJT/NegativeFeedbackAmplifier", 
+        "id": "#495", 
+        "categories": "BJT", 
+        "name": "Negative Feedback Amplifier"
+    }, 
+    {
         "description": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
         "relative_path": "FPGA/Fomu/BuildNotifier", 
         "id": "#494", 
