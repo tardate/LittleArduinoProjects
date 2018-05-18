@@ -136,7 +136,8 @@ DC analysis:
 
 Second stage:
 
-* r'ej = 25mV/Ie = [7.5Ω](https://www.wolframalpha.com/input/?i=25mV%2F3.35mA)
+* assuming thermal voltage VT = kT/q = 25 mV
+* r'ej = VT/Ie = [7.5Ω](https://www.wolframalpha.com/input/?i=25mV%2F3.35mA)
 * A2 = Rc||RL/(Re2 + r'ej) = 1k||2.2kΩ/(100Ω + 7.5Ω) = [6.4](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9+%2B+1%2F2.2k%CE%A9)%2F(100%CE%A9%2B7.5%CE%A9))
 * Rin(base) = ß(Re2 + r'ej) = 100(100Ω + 7.5Ω) = 10.75kΩ
 * Zin = Rin(base)||Rb1||Rb2 = 10.75kΩ||20kΩ||3.6kΩ = [2.38kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F10.75k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
