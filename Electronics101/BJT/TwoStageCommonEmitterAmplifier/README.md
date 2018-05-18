@@ -136,14 +136,14 @@ DC analysis:
 
 Second stage:
 
-* r'e = 25Ω
-* A2 = Rc||RL/(Re2 + r'e) = 1k||2.2kΩ/(100Ω + 25Ω) = [5.5](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9+%2B+1%2F2.2k%CE%A9)%2F(100%CE%A9%2B25%CE%A9))
-* Rin(base) = ß(Re2 + r'e) = 100(100Ω + 25Ω) = 12.5kΩ
-* Zin = Rin(base)||Rb1||Rb2 = 12.5kΩ||20kΩ||3.6kΩ = [2.45kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F12.5k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
-* A1 = Rc1||Zin/(Re1 + r'e) = 1kΩ||2.45kΩ/(100Ω + 25Ω) = [5.681](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9%2B1%2F2.45k%CE%A9)%2F(100%CE%A9+%2B+25%CE%A9))
-* Total gain A = A1 * A2 = 5.5 * 5.681 = [31.2](https://www.wolframalpha.com/input/?i=5.5*5.681)
+* r'ej = 25mV/Ie = [7.5Ω](https://www.wolframalpha.com/input/?i=25mV%2F3.35mA)
+* A2 = Rc||RL/(Re2 + r'ej) = 1k||2.2kΩ/(100Ω + 7.5Ω) = [6.4](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9+%2B+1%2F2.2k%CE%A9)%2F(100%CE%A9%2B7.5%CE%A9))
+* Rin(base) = ß(Re2 + r'ej) = 100(100Ω + 7.5Ω) = 10.75kΩ
+* Zin = Rin(base)||Rb1||Rb2 = 10.75kΩ||20kΩ||3.6kΩ = [2.38kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F10.75k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
+* A1 = Rc1||Zin/(Re1 + r'ej) = 1kΩ||2.38kΩ/(100Ω + 7.5Ω) = [6.55](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9%2B1%2F2.38k%CE%A9)%2F(100%CE%A9+%2B+7.5%CE%A9))
+* Total gain A = A1 * A2 = 6.4 * 6.55 = [41.92](https://www.wolframalpha.com/input/?i=6.4*6.55)
 
-Assuming headroom for say 7V peak-peak, input limit would be around [0.22V peak-peak](https://www.wolframalpha.com/input/?i=7V%2F31.2)
+Assuming headroom for say 7V peak-peak, input limit would be around [0.17V peak-peak](https://www.wolframalpha.com/input/?i=7V%2F41.92)
 before clipping.
 
 
@@ -154,10 +154,10 @@ With 0.1V peak-peak 10kHz input, and Re = 200Ω (with 100Ω/100µF bypass), meas
 * 0.1V input peak-peak
 * 3.88V output peak-peak
 * actual gain = 38.8 = [31.8 dB](https://www.wolframalpha.com/input/?i=20log10(38.8))
-* error in the theoretical gain calc = [-24%](https://www.wolframalpha.com/input/?i=(31.2-38.8)%2F31.2)
+* error in the theoretical gain calc = [7%](hhttps://www.wolframalpha.com/input/?i=(41.92-38.8)%2F41.92)
 
-Conclusion: predicted performance was quite a way off the actual performance - I'll have to review to see if there's anything I need to fix or tighten up.
-But.. I did get a functioning two-stage Class A amplifier out of it, with performance "in the ballpark" of the design.
+Conclusion: predicted performance was quite close to the actual performance.
+And .. I have a functioning two-stage Class A amplifier to boot, with performance "in the ballpark" of the design.
 
 
 ![two-stage-10kHz](./assets/two-stage-10kHz.gif?raw=true)
@@ -172,8 +172,9 @@ With an ugly-style build, I see even better performance, and improved gain:
 * 0.1V input peak-peak
 * 4.32V output peak-peak
 * actual gain = 43.2 = [32.71 dB](https://www.wolframalpha.com/input/?i=20log10(43.2))
-* error in the theoretical gain calc = [-39%](https://www.wolframalpha.com/input/?i=(31.2-43.2)%2F31.2)
+* error in the theoretical gain calc = [-3%](https://www.wolframalpha.com/input/?i=(41.92-43.2)%2F41.92)
 
+More gain when built "properly", this time overshooting estimates by a small margin (less than the tolerance on components).
 
 ![single-stage-ugly-10kHz](./assets/single-stage-ugly-10kHz.gif?raw=true)
 
