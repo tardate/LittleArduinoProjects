@@ -1,6 +1,5 @@
-# 389 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TwoStageCommonEmitterAmplifier](./Electronics101/BJT/TwoStageCommonEmitterAmplifier) - designing a two-stage common-emitter BJT amplifier.
-
+# 390 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [PIC/GettingBlinky/UsingC](./PIC/GettingBlinky/UsingC) - Getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -311,6 +310,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#247 pedalShieldUno](./playground/pedalShieldUno)                                 | **DSP, Guitar, Arduino**        build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal |
 | [#250 pedalShieldUno/AudioDSP](./playground/pedalShieldUno/AudioDSP)               | **DSP, Guitar, Arduino**        test and develop the AudioDSP library for programming the pedalSHIELD Uno |
 | [#331 PIC/GettingBlinky](./PIC/GettingBlinky)                                      | **PIC, LED**                    getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky! |
+| [#390 PIC/GettingBlinky/UsingC](./PIC/GettingBlinky/UsingC)                        | **PIC, LED**                    getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again! |
 | [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#376 PiezoVibrationDetector](./playground/PiezoVibrationDetector)                 | **Arduino, Piezo**              counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator |

@@ -116,7 +116,8 @@ I'm running with 0x31F5 (0b11000111110101), which breaks down as follows:
 | 3     |  0       | WDTE: Watchdog Timer Enable bit. 0 = WDT disabled                                                                                       |
 | 2-0   |  101     | FOSC2:FOSC0: Oscillator Selection bits. 101 = INTOSC oscillator: CLKOUT function on GP4/OSC2/CLKOUT pin, I/O function on GP5/OSC1/CLKIN |
 
-With that oscillator setting, can conveniently measure the clock on pin 3 (GP4/OSC2/CLKOUT), around 1.063MHz according to my scope:
+With that oscillator setting, can conveniently measure the clock (FOSC/4) on pin 3 (GP4/OSC2/CLKOUT),
+around 1.063MHz according to my scope i.e. FOSC=4MHz:
 
 ![scope_clock](./assets/scope_clock.gif?raw=true)
 

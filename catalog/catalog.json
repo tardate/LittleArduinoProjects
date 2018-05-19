@@ -1897,6 +1897,13 @@
         "name": "PIC/GettingBlinky"
     }, 
     {
+        "description": "getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!", 
+        "relative_path": "PIC/GettingBlinky/UsingC", 
+        "id": "#390", 
+        "categories": "PIC, LED", 
+        "name": "PIC/GettingBlinky/UsingC"
+    }, 
+    {
         "description": "run a basic waveform demo with an AD9833 module", 
         "relative_path": "playground/AD9833/BasicDemoCycle", 
         "id": "#148", 
