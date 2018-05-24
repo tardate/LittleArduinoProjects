@@ -1,5 +1,5 @@
-# 390 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [PIC/GettingBlinky/UsingC](./PIC/GettingBlinky/UsingC) - Getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!
+# 391 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MilliVoltmeterDIY PCB and Enclosure](./Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure) - custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -272,6 +272,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [#252 MessageWaiting](./Electronics101/555Timer/MessageWaiting)                    | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction |
 | [#372 MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY)                            | **ATmega, ADC**                 an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
+| [#391 MilliVoltmeterDIY PCB and Enclosure](./Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure) | **ATmega, ADC**  custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
 | [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
 | [#326 Mixers](./Electronics101/Mixers)                                             | **RF, Mixers**                  all about frequency mixers |
 | [#327 Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing)                     | **RF, Mixers**                  a diode ring double-balanced frequency mixer |

@@ -242,33 +242,38 @@ void updateBarGraph(void) {
   float voltage_delta = (bar_voltage_major + bar_voltage_minor) - current_voltage;
   if (voltage_delta > 0.1 || voltage_delta < -0.1) {
 
-    bar_voltage_major = (int) current_voltage;
-    bar_voltage_minor = current_voltage - bar_voltage_major;
+    if(current_voltage < 16) {
+      bar_voltage_major = (int) current_voltage;
+      bar_voltage_minor = current_voltage - bar_voltage_major;
+    } else {
+      bar_voltage_major = 16;
+      bar_voltage_minor = 0;
+    }
 
     lcd.setCursor(0,1);
     lcd.print("                ");
-    for (int i=0; i <(bar_voltage_major); ++i) {
-        lcd.setCursor(i,1);
+    for (int i=0; i < bar_voltage_major; ++i) {
+        lcd.setCursor(i, 1);
         lcd.write(5);
     }
     if (bar_voltage_minor > 0.9) {
-      lcd.setCursor(bar_voltage_major,1);
+      lcd.setCursor(bar_voltage_major, 1);
       lcd.write(5);
 
     } else if (bar_voltage_minor > 0.7) {
-      lcd.setCursor(bar_voltage_major,1);
+      lcd.setCursor(bar_voltage_major, 1);
       lcd.write(4);
 
    } else if (bar_voltage_minor > 0.5) {
-      lcd.setCursor(bar_voltage_major,1);
+      lcd.setCursor(bar_voltage_major, 1);
       lcd.write(3);
 
     } else if (bar_voltage_minor > 0.3) {
-      lcd.setCursor(bar_voltage_major,1);
+      lcd.setCursor(bar_voltage_major, 1);
       lcd.write(2);
 
     } else if (bar_voltage_minor > 0.1){
-      lcd.setCursor(bar_voltage_major,1);
+      lcd.setCursor(bar_voltage_major, 1);
       lcd.write(1);
     }
   }
@@ -278,7 +283,7 @@ void updateBarGraph(void) {
 // Command: snapshot current reading as second-line function
 void holdReading(void) {
   showVoltage(current_voltage, 1);
-  lcd.setCursor(15,1);
+  lcd.setCursor(15, 1);
   lcd.print("H");
 }
 
