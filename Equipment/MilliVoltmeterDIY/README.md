@@ -2,6 +2,8 @@
 
 An ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
 
+See [CustomBoardAndEnclosure](./CustomBoardAndEnclosure) for details of the custom PCB and enclosure I made for the project.
+
 ![Build](./assets/MilliVoltmeterDIY_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

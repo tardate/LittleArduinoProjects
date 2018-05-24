@@ -104,13 +104,11 @@ I'm maybe having second thoughts about this. If I'd used for example some
 ### DC Socket
 
 On the rear panel I have a
-[5.5x2.1mm DC Power Socket Connector Round Panel Mounting](https://www.aliexpress.com/item/20pcs-Lot-5-5x2-1mm-DC-Power-Socket-Connector-Round-Panel-Mounting-Black-Plastic-Free-Shipping/1560577280.html) to take external DC supply (centre positive),
+[5.5x2.1mm DC Power Socket Connector Round Panel Mounting](https://www.aliexpress.com/item/20pcs-Lot-5-5x2-1mm-DC-Power-Socket-Connector-Round-Panel-Mounting-Black-Plastic-Free-Shipping/1560577280.html) to take external 9V DC supply (centre positive),
 and a [SPST 2PIN ON/OFF G130 Rocker Switch 3A/250V](https://www.aliexpress.com/item/10pcs-lot-10-15mm-SPST-2PIN-ON-OFF-G130-Boat-Rocker-Switch-3A-250V-Car-Dash/32680215196.html). There is no reverse polarity protection in the circuit yet, so maybe I should just throw a diode in series.
 There's a perfect spot for it: connecting the power to the switch.
 
 ![hw_power_connectors](./assets/hw_power_connectors.png?raw=true)
-
-### Power Switch
 
 
 ### Calibration Test Point
@@ -181,9 +179,11 @@ With a simple voltage-divider test load:
 
 All told, this turned out pretty well, though there are a couple of things I would change about the PCB design if I were to do it again:
 
-* I should reverse the LCD serial connectors, so they don't need to cross when connecting to the LCD
-* the push-button connectors would be better positioned on the other side of the board
-* mounting holes should have been larger!
+* some changes to the PCB as mentioned above
+* I think I'd switch from binding posts to shrouded banana sockets for the input jacks (compatible with most multimeter leads)
+* more flexible power supply:
+  * internal battery backup for portable use (I can add this quite easily)
+  * perhaps a mains AC supply
 
 
 ## Credits and References
