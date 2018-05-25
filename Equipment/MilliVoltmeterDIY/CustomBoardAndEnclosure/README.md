@@ -10,12 +10,8 @@ Custom PCB and enclosure for the ATmega328-based millivolt meter based on a desi
 
 This is a continuation of [LEAP#372 MilliVoltmeterDIY](../), a circuit based on the Scullcom Hobby Electronics #44 - Millivolt Meter MK2 project.
 
-Previously, I reached the point of having a breadboard prototype working just fine.
-Since it is such a handy piece of kit, I decided to put it in a case.
-
-Originally I was thinking of just mounting the various modules on protoboard, but then I settled on designing a
-PCB and putting the project in an enclosure.
-
+Previously, I reached the point of modifying the design somewhat, revising the code and having a breadboard prototype working just fine.
+Since it is such a handy piece of kit, I decided to go the whole hog: make a PCB and mount it in a case.
 
 
 ## PCB Design
@@ -189,8 +185,10 @@ All told, this turned out pretty well, though there are a couple of things I wou
 
 
 ## Credits and References
+* [Scullcom Hobby Electronics #44 - Millivolt Meter MK2](https://www.youtube.com/watch?v=CiTPUmqE3Yg) - YouTube
+* [Millivolt Meter MK2](http://www.scullcom.uk/millivolt-meter-mk2/) - more info on on www.scullcom.uk
+* [LEAP#372 MilliVoltmeterDIY](../) - precursor: details my adaptation of the design and breadboard testing
 * schematic and PCB design [available here in EasyEDA](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b)
 * [PCB project available here from OSHPark](https://oshpark.com/shared_projects/c6PGdeFn)
-* [LEAP#372 MilliVoltmeterDIY](../) - details the design abd breadboard testing
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap391-packaging-the-mv-meter.html)

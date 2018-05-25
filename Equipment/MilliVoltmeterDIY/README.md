@@ -116,7 +116,8 @@ I initially built this on a breadboard and controlled with an Arduino Uno to ver
 
 
 ## Credits and References
-* [Scullcom Hobby Electronics #44 - Millivolt Meter MK2](https://www.youtube.com/watch?v=CiTPUmqE3Yg)
+* [Scullcom Hobby Electronics #44 - Millivolt Meter MK2](https://www.youtube.com/watch?v=CiTPUmqE3Yg) - YouTube
+* [Millivolt Meter MK2](http://www.scullcom.uk/millivolt-meter-mk2/) - more info on on www.scullcom.uk
 * [Millivolt_Meter_MK2_ver33.ino](http://www.scullcom.com/Millivolt_Meter_MK2_ver33.ino) - original source
 * [LTC2400 info and datasheet](http://www.linear.com/product/LTC2400)
 * [LT1019 info and datasheet](http://www.linear.com/product/LT1019)
