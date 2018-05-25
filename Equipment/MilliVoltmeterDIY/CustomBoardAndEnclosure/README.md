@@ -57,6 +57,8 @@ I decided to try EasyEDA for PCB production:
 
 The [EasyEDA project is available here](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b),
 and I sent the board off to [OSHpark](https://oshpark.com/).
+The OSHPark project [is available here](https://oshpark.com/shared_projects/c6PGdeFn).
+
 
 [![CustomBoardAndEnclosure_schematic](./assets/CustomBoardAndEnclosure_schematic.png?raw=true)](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b)
 
@@ -187,5 +189,8 @@ All told, this turned out pretty well, though there are a couple of things I wou
 
 
 ## Credits and References
+* schematic and PCB design [available here in EasyEDA](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b)
+* [PCB project available here from OSHPark](https://oshpark.com/shared_projects/c6PGdeFn)
 * [LEAP#372 MilliVoltmeterDIY](../) - details the design abd breadboard testing
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap391-packaging-the-mv-meter.html)
