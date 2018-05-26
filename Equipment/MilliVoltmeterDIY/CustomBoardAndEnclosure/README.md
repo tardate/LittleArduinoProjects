@@ -74,6 +74,8 @@ Mostly hot-air for surface-mount components, but through-hole for:
 
 ![pcb_populated](./assets/pcb_populated.jpg?raw=true)
 
+Dang! This is when I realise I forgot the 50Hz/60Hz noise rejection jumper.
+
 
 ## Enclosure and Hardware
 
@@ -138,7 +140,7 @@ that could be better if I'd planned the construction properly when designing the
 
 * I should reverse the LCD serial connectors, so they don't need to cross when connecting to the LCD
 * the push-button connectors would be better positioned on the other side of the board
-* mounting holes I made in the PCB should have been larger! The screws provided with the enclosure area size too big... so I just hot-glued the board in place.
+* mounting holes I made in the PCB should have been larger! The screws provided with the enclosure are a size too big... so I just hot-glued the board in place.
 
 
 ![assembly_top](./assets/assembly_top.jpg?raw=true)
@@ -175,13 +177,17 @@ With a simple voltage-divider test load:
 
 ## Conclusion
 
-All told, this turned out pretty well, though there are a couple of things I would change about the PCB design if I were to do it again:
+All told, this turned out pretty well, though there are a couple of things I would change if I were to do it again:
 
-* some changes to the PCB as mentioned above
+* some changes to the PCB as mentioned above:
+    * flip the LCD serial connectors, so they don't need to cross when connecting to the LCD
+    * the push-button connectors would be better positioned on the other side of the board
+    * larger (M3) mounting holes
 * I think I'd switch from binding posts to shrouded banana sockets for the input jacks (compatible with most multimeter leads)
+* add reverse polarity protection: probably just a rectifier diode in series with power supply
 * more flexible power supply:
-  * internal battery backup for portable use (I can add this quite easily)
-  * perhaps a mains AC supply
+    * internal battery backup for portable use. The power socket has bypass connector, so this is easy to add.
+    * perhaps a mains AC supply
 
 
 ## Credits and References

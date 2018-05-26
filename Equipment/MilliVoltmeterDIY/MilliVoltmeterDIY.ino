@@ -66,8 +66,6 @@ void setup(void) {
   setupLCD();
 
   showIntro();
-
-
   showCalibrationData();
 }
 
