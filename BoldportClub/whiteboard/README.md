@@ -4,7 +4,7 @@ Building the Whiteboard - Boldport Club project #22 - a breadboard enhancer feat
 
 ![Build](./assets/whiteboard_build.jpg?raw=true)
 
-Here's a quick demo..
+Here's a quick demo running a CD4060 ripple counter on the breadbaord..
 
 [![clip](http://img.youtube.com/vi/eiEX9SPuRhI/0.jpg)](http://www.youtube.com/watch?v=eiEX9SPuRhI)
 
@@ -43,7 +43,7 @@ The project includes the following components
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
 Also included is a sheet of **StickerCAD** icons.
-I used them on my laptop case - including a redbus if you look carefully;-)
+I used them on my laptop case - including a rebus if you look carefully;-)
 
 ![join_the_resistors](./assets/join_the_resistors.jpg?raw=true)
 
@@ -55,7 +55,7 @@ are complete and working perfectly.
 ![whiteboard_build_complete](./assets/whiteboard_build_complete.jpg?raw=true)
 
 As a quick demonstration and test, I put a simple 4-stage CD4060 ripple counter
-running at a base frequency of [5 Hz](http://www.wolframalpha.com/input/?i=1%2F(5*(1%C2%B5F+*10k%CE%A9))).
+running at a base frequency of around [10 Hz](http://www.wolframalpha.com/input/?i=1%2F(2*5*(1%C2%B5F*10k%CE%A9))).
 on the breadboard, with outputs driving the LEDs on the shroud (essentially a 4-digit binary counter).
 
 ![Breadboard](./assets/whiteboard_bb.jpg?raw=true)
