@@ -1,5 +1,5 @@
-# 391 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [MilliVoltmeterDIY PCB and Enclosure](./Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure) - custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
+# 392 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/whiteboard](./BoldportClub/whiteboard) - building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD3060 ripple counter.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -138,6 +138,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#299 BoldportClub/TheMatrix](./BoldportClub/TheMatrix)                            | **Boldport, PCB Design, LED, AS1130** building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver |
 | [#357 BoldportClub/TheMonarch](./BoldportClub/TheMonarch)                          | **Boldport, PCB Design, Bugs, LFSR** the third in a series of beautiful electronic "bug" boards from the Boldport Club, Project #18 October 2017 |
 | [#277 BoldportClub/Touchy](./BoldportClub/Touchy)                                  | **Boldport, EFM8, Sensors**     Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7) |
+| [#392 BoldportClub/whiteboard](./BoldportClub/whiteboard)                          | **Boldport, LM317, CD4060**     building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD3060 ripple counter |
 | [#385 BoldportClub/widlar](./BoldportClub/widlar)                                  | **723, Power, Oscillator**      hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do something other than voltage regulation (LED blinky) |
 | [#162 BoostBuckConverterModule](./Electronics101/BoostBuckConverterModule)         | **Power**                       quick test of an LM2577S/LM2596S Boost/Buck Converter Module |
 | [#280 BreadboardTransmitter](./Electronics101/FM/BreadboardTransmitter)            | **FM**                          build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3 |

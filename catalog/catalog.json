@@ -217,6 +217,13 @@
         "name": "BoldportClub/Touchy"
     }, 
     {
+        "description": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD3060 ripple counter", 
+        "relative_path": "BoldportClub/whiteboard", 
+        "id": "#392", 
+        "categories": "Boldport, LM317, CD4060", 
+        "name": "BoldportClub/whiteboard"
+    }, 
+    {
         "description": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)", 
         "relative_path": "BoldportClub/widlar", 
         "id": "#385", 
