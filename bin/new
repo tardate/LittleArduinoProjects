@@ -10,6 +10,7 @@ function usage() {
 Make a new project workspace..
 
 Usage:
+  $0 51 ProjectName  # new 8051 project
   $0 bp ProjectName  # new BoldportClub project
   $0 ee ProjectName  # new Electronics101 project
   $0 eq ProjectName  # new Equipment project
@@ -124,6 +125,10 @@ EOS
 op=${1:-help}
 
 case ${op} in
+
+51|8051|mcs51)
+  make_project "8051" "${2}"
+  ;;
 
 bp)
   make_project "BoldportClub" "${2}"

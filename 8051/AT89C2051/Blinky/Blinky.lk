@@ -1,0 +1,21 @@
+-muwx
+-i Blinky.ihx
+-M
+-Y
+-C 0x0800
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k ./sdcc/bin/../share/sdcc/lib/small
+-k ./sdcc/share/sdcc/lib/small
+-k /usr/local/share/sdcc/lib/small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+Blinky.rel
+
+-e
