@@ -63,7 +63,7 @@ The ones I have are rated for at least 25V.
 
 ![Schematic](./assets/DicksonChargePump_schematic.jpg?raw=true)
 
-![Build](./assets/CDicksonChargePump_build.jpg?raw=true)
+![Build](./assets/DicksonChargePump_build.jpg?raw=true)
 
 ## Credits and References
 * [Dickson Charge Pump](https://en.wikipedia.org/wiki/Voltage_multiplier#Dickson_charge_pump) - wikipedia
