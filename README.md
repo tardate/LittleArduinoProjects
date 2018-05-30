@@ -1,6 +1,5 @@
-# 392 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/whiteboard](./BoldportClub/whiteboard) - building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD3060 ripple counter.
-
+# 393 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DicksonChargePump](./playground/DicksonChargePump) - Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -171,6 +170,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#353 DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop)                          | **Logic Gates, CMOS/TTL**       building a clocked D Flip-flop with 74LS00 NAND gates |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
 | [#229 Dice](./Electronics101/555Timer/Dice)                                        | **555 Timer, CMOS**             a 555/4017-based dice circuit with slow-down and auto power-off |
+| [#393 DicksonChargePump](./playground/DicksonChargePump)                           | **Arduino, Power**              Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM |
 | [#240 DigitalInputWithAnalogPins](./playground/DigitalInputWithAnalogPins)         | **Arduino**                     demonstrate how analog pins can also be used as a digital GPIO |
 | [#319 DigitalLogicClock](./Electronics101/555Timer/DigitalLogicClock)              | **555 Timer, CMOS/TTL**         build a flexible, low-frequency digital logic clock module |
 | [#259 DigitalPots/M62429](./Electronics101/DigitalPots/M62429)                     | **Arduino, Digital Pot, M62429** control the M62429 dual channel volume control with an Arduino |
