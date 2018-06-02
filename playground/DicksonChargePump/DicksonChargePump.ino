@@ -21,21 +21,32 @@ const int PUMP_B=11;
  *   Pin 11    : (127+1)/256 = 50% duty cycle (OCR2A)
  *   Pin 3     : (127+1)/256 = 50% duty cycle (OCR2B)
  */
-void startPWM() {
+void startPwm() {
   TCCR2A = _BV(COM2A1) | _BV(COM2B1) | _BV(COM2B0) | _BV(WGM21) | _BV(WGM20);
   TCCR2B = _BV(CS20);
   OCR2A = 127;
   OCR2B = 127;
 }
 
-
-void setup() {
+void PwmOn() {
   pinMode(PUMP_A, OUTPUT);
   pinMode(PUMP_B, OUTPUT);
-  startPWM();
+}
+
+void PwmOff() {
+  pinMode(PUMP_A, INPUT);
+  pinMode(PUMP_B, INPUT);
+
+}
+
+void setup() {
+  startPwm();
 }
 
 
 void loop() {
-
+  PwmOn();
+  delay(5000);
+  PwmOff();
+  delay(5000);
 }

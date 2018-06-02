@@ -52,7 +52,10 @@ Works great:
 ## Code
 
 The [DicksonChargePump.ino](./DicksonChargePump.ino) sketch is about as simple as it gets:
-it just sets up the PWM parameters and lets it run.
+
+* sets up PWM
+* in the main loop, demonstrates how to turn on and off the PWM outputs by changing the pin mode (5 seconds on, 5 seconds off)
+
 
 ## Construction
 
