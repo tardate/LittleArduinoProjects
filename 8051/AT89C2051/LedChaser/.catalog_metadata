@@ -1,0 +1,7 @@
+{
+    "id": "#399", 
+    "name": "AT89C2051/LedChaser", 
+    "description": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX", 
+    "categories": "8051, LED", 
+    "relative_path": "8051/AT89C2051/LedChaser"
+}

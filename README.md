@@ -1,6 +1,5 @@
-# 398 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CapacitiveTouchOrgan](./playground/CapacitiveTouchOrgan) - a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino.
-
+# 399 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [AT89C2051/LedChaser](./8051/AT89C2051/LedChaser) - run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -77,6 +76,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#014 AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)                  | **LED Array, Timing, Arduino**  demo effects on the LED strip driven using timer interrupt |
 | [#394 AT89C2051/Programmer](./8051/AT89C2051/Programmer)                           | **8051**                        building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX |
 | [#395 AT89C2051/Blinky](./8051/AT89C2051/Blinky)                                   | **8051, LED**                   Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX |
+| [#399 AT89C2051/LedChaser](./8051/AT89C2051/LedChaser)                             | **8051, LED**                   run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX |
 | [#069 ATmegaBreadboard](./playground/ATmegaBreadboard)                             | **Arduino, ATmel**              running an ATMEGA328P-PU on a breadboard  |
 | [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel**              a DIY ATmega programming shield for using an Arduino as ISP  |
 | [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel**              Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |

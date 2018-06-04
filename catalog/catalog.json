@@ -7,6 +7,13 @@
         "name": "AT89C2051/Blinky"
     }, 
     {
+        "description": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX", 
+        "relative_path": "8051/AT89C2051/LedChaser", 
+        "id": "#399", 
+        "categories": "8051, LED", 
+        "name": "AT89C2051/LedChaser"
+    }, 
+    {
         "description": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX", 
         "relative_path": "8051/AT89C2051/Programmer", 
         "id": "#394", 
