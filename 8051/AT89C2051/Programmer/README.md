@@ -14,7 +14,6 @@ ever since I built the LEAP#088 ElectronicClockKit.
 While it's long been EOL at Intel, [this article By Jon Wilder](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/)
 is a valiant argument for why they are still around.
 
-
 I have some (still in production) [AT89C2051](http://www.microchip.com/wwwproducts/en/AT89c2051) chips -
 but before I can do much more, I need a programmer.
 
@@ -181,3 +180,4 @@ Now it's easy to program an AT89C2051..
 * [12 Volt Arduino-based Charge Pump](https://sites.google.com/site/wayneholder/12-volt-charge-pump) - similar project used as inspiration
 * [AT89C2051_programmer](https://github.com/piotrb5e3/AT89C2051_programmer)
 * [An Arduino-based programmer for the AT89C2051 chip](http://ceptimus.co.uk/?p=216) - ceptimus
+* [..as mentioned on my blog](https://blog.tardate.com/2018/06/leap394-arduino-8051-programmer.html)
