@@ -111,13 +111,9 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-This currently installs at89overlord 0.3.0, and I found there was an issue with the case of one of the filenames in the distribution package.
-I think this would only matter if your operating system has a case-sensitive file system.
-the issue hasen't been fixed/distributed yet, so for now I did a dirty patch:
-
-```
-mv venv/lib/python3.5/site-packages/at89overlord/AT89comm.py venv/lib/python3.5/site-packages/at89overlord/at89comm.py
-```
+This installs at89overlord 0.4.0 (there was
+[a minor issue](https://github.com/piotrb5e3/AT89C2051_programmer/issues/2)
+with the packaging of 0.3.0 thich may cause problems; 0.4.0 works fine though)
 
 ## Programming a Device
 
