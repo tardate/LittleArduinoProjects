@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 This installs at89overlord 0.4.0 (there was
 [a minor issue](https://github.com/piotrb5e3/AT89C2051_programmer/issues/2)
-with the packaging of 0.3.0 thich may cause problems; 0.4.0 works fine though)
+with the packaging of 0.3.0 that may cause problems; 0.4.0 works fine though)
 
 ## Programming a Device
 
