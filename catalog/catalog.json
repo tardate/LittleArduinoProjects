@@ -2086,6 +2086,13 @@
         "name": "BlinkPrecision"
     }, 
     {
+        "description": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino", 
+        "relative_path": "playground/CapacitiveTouchOrgan", 
+        "id": "#396", 
+        "categories": "Audio, Sensors, MPR121", 
+        "name": "CapacitiveTouchOrgan"
+    }, 
+    {
         "description": "testing some \"Chain Blocks\" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope", 
         "relative_path": "playground/ChainBlocks", 
         "id": "#268", 

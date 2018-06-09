@@ -1,5 +1,5 @@
-# 395 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AT89C2051/Programmer](./8051/AT89C2051/Programmer) - Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX.
+# 396 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CapacitiveTouchOrgan](./playground/CapacitiveTouchOrgan) - a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -147,6 +147,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
 | [#211 BuckConverterModules](./Electronics101/BuckConverterModules)                 | **Power**                       test a range of low-cost buck converter modules, often using LM2596 |
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
+| [#396 CapacitiveTouchOrgan](./playground/CapacitiveTouchOrgan)                     | **Audio, Sensors, MPR121**      a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#382 CD4046 VCO](./Electronics101/CD4046/VCO)                                     | **RC, CD4046, Oscillators**     audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS/TTL, Oscillators**       test the astable operating mode of the CD4047 |

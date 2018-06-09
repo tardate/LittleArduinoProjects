@@ -73,3 +73,6 @@
 [submodule "libraries/TinyGPSPlus"]
 	path = libraries/TinyGPSPlus
 	url = https://github.com/mikalhart/TinyGPSPlus
+[submodule "libraries/Adafruit_MPR121"]
+	path = libraries/Adafruit_MPR121
+	url = https://github.com/adafruit/Adafruit_MPR121
