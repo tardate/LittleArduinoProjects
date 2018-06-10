@@ -2219,6 +2219,13 @@
         "name": "HitTheLights"
     }, 
     {
+        "description": "scanning for I\u00b2C devices with an Arduino", 
+        "relative_path": "playground/I2CScanner", 
+        "id": "#397", 
+        "categories": "I2C, Arduino", 
+        "name": "I2CScanner"
+    }, 
+    {
         "description": "report on Arduino Board internals", 
         "relative_path": "playground/Internals", 
         "id": "#020", 
