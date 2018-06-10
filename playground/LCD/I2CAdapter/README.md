@@ -4,10 +4,6 @@ Using an I²C adapter to reduce the Arduino pins needed to drive an LCD.
 
 ![Build](./assets/I2CAdapter_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](http://img.youtube.com/vi/video_id/0.jpg)](http://www.youtube.com/watch?v=video_id)
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
@@ -46,10 +42,11 @@ When I searched for I²C LCD libraries:
 * there are many independent forks of common source code
 * it's a bit of a mess!
 
-NEver-the-less, I picked a reletively recent one:
+Never-the-less, I picked a reletively recent one:
 [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C)
-and it is working just fine
+and it is working just fine.
 
+The [I2CAdapter.ino](./I2CAdapter.ino) sketch is a simple test of the library.
 
 ## Construction
 
