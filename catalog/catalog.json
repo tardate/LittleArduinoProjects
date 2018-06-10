@@ -2275,6 +2275,13 @@
         "name": "KeyboardMatrixModule/SwitchInterrupts"
     }, 
     {
+        "description": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD", 
+        "relative_path": "playground/LCD/I2CAdapter", 
+        "id": "#397", 
+        "categories": "LCD, I2C", 
+        "name": "LCD I2C Adapter"
+    }, 
+    {
         "description": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library", 
         "relative_path": "playground/Lcd5110/AdafruitHardwareSPI", 
         "id": "#365", 

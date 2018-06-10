@@ -26,9 +26,9 @@ void loop() {
   Serial.print(ADDRESS_LIMIT_HIGH, HEX);
   Serial.println("...");
 
-  for(uint8_t address = ADDRESS_LIMIT_LOW; address < ADDRESS_LIMIT_HIGH; address++ ) {
+  for(byte address = ADDRESS_LIMIT_LOW; address < ADDRESS_LIMIT_HIGH; address++ ) {
     Wire.beginTransmission(address);
-    uint8_t error = Wire.endTransmission();
+    byte error = Wire.endTransmission();
 
     if (error == 0) {
       Serial.print("I2C device found at address 0x");

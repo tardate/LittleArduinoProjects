@@ -76,3 +76,6 @@
 [submodule "libraries/Adafruit_MPR121"]
 	path = libraries/Adafruit_MPR121
 	url = https://github.com/adafruit/Adafruit_MPR121
+[submodule "libraries/LiquidCrystal_I2C"]
+	path = libraries/LiquidCrystal_I2C
+	url = https://github.com/marcoschwartz/LiquidCrystal_I2C

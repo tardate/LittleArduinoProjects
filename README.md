@@ -1,4 +1,4 @@
-# 396 Little Electronics and Arduino Projects
+# 397 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [CapacitiveTouchOrgan](./playground/CapacitiveTouchOrgan) - a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino.
 
 
@@ -237,6 +237,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#366 Lcd5110/AdafruitSoftwareSPI](./playground/Lcd5110/AdafruitSoftwareSPI)       | **LCD, Arduino**                a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
+| [#397 LCD I2C Adapter](./playground/LCD/I2CAdapter)                                | **LCD, I2C**                    using an I²C adapter to reduce the Arduino pins needed to drive an LCD |
 | [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |
 | [#034 LDRComparator](./Electronics101/LDRComparator)                               | **Sensors, OpAmp, Arduino**     low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [#047 LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)               | **OpAmp**                       demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |
