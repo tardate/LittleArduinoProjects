@@ -1,5 +1,6 @@
-# 399 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AT89C2051/LedChaser](./8051/AT89C2051/LedChaser) - run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX.
+# 400 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [USBProtector](./Equipment/USBProtector) - building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -442,6 +443,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#287 UltrasonicAlarm](./Electronics101/UltrasonicAlarm)                           | **555 Timer, Sensors, CMOS/TTL, HC-SR04** build an ultrasonic motion alarm with the HC-SR04 module and discrete logic |
 | [#174 UsbNotifier](./Electronics101/UsbNotifier)                                   | **LED, USB**                    tear-down and demo code for some oldUSB Webmail Notifier devices |
 | [#341 UsbPowerSupplyKit](./Electronics101/Power/UsbPowerSupplyKit)                 | **Power, USB**                  building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up |
+| [#400 USBProtector](./Equipment/USBProtector)                                      | **Power, USB**                  building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection |
 | [#145 VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [#276 VariableFrequencyRunwayLEDs](./playground/VariableFrequencyRunwayLEDs)       | **LED, Arduino**                a PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4017 |
