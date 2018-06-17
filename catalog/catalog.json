@@ -2758,6 +2758,13 @@
         "name": "AMFMRadioKit"
     }, 
     {
+        "description": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m", 
+        "relative_path": "Radio/pixie", 
+        "id": "#401", 
+        "categories": "RF", 
+        "name": "Pixie"
+    }, 
+    {
         "description": "notes on official band plans for Singapore and my and personal observations on where the activity is found", 
         "relative_path": "Radio/SingaporeBands", 
         "id": "#388", 

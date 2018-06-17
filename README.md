@@ -1,5 +1,5 @@
-# 400 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [USBProtector](./Equipment/USBProtector) - building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection.
+# 401 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Pixie](./Radio/pixie) - research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -323,6 +323,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#376 PiezoVibrationDetector](./playground/PiezoVibrationDetector)                 | **Arduino, Piezo**              counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator |
+| [#401 Pixie](./Radio/pixie)                                                        | **RF**                          research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
