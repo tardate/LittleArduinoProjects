@@ -2,6 +2,8 @@
 
 Drive a 10-segment display with a single Arduino pin.
 
+![The Build](./assets/LevelIndicatorLM3915_build.jpg?raw=true)
+
 Here's a quick video of the circuit in action:
 
 [![LevelIndicatorLM3915 demo](http://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](http://www.youtube.com/watch?v=00BBIDRA13Y)
@@ -42,7 +44,18 @@ as according to the datasheet block diagram, the SIGNAL input is used to drive a
 Total current drawn by the circuit with all LEDs on is 34.4mA, well within the specs for the Arduino 5V pin, hence why
 the circuit does not require a dedicated power supply.
 
+## LED Current Control
+
+The LM3915 provides LED current-control:
+
+> The current drawn out of the reference voltage pin (pin 7) determines LED current.
+> Approximately 10 times this current will be drawn through each lighted LED, and this current will be relatively constant despite supply voltage and temperature changes.
+
+Additional current-limiting resistors may be included to fine-tune the brightness if different colour LEDs are used.
+Note: the schematic shows 1kΩ current-limiting resistors R3, R4 for the red LEDs. These turned out to not be particularly necessary.
+
 ## Construction
+
 
 ![The Breadboard](./assets/LevelIndicatorLM3915_bb.jpg?raw=true)
 
