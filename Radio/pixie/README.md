@@ -96,7 +96,7 @@ While it turns out that most components are consistent across versions, the foll
 
 
 
-![Schematic](./assets/pixie_schematic.png?raw=true)
+[![Schematic](./assets/pixie_schematic.png?raw=true)](https://easyeda.com/tardate/pixie-4.3)
 
 
 ## Modifications
@@ -114,10 +114,9 @@ that covers some crystal and ceramic resonator VXO circuits to add frequency agi
 
 The kit included a piezo buzzer side-tone indicator. I did install it, but left the label on the buzzer as everyone knows how annoyiing they can be!
 
-I did add an LED side-tone indicator (LED_K and R9), which was not in the kit
-(the LED in the base design is a simple power-on indicator).
+I did add an LED side-tone indicator (LED_K and R9), which was not in the kit - the LED in the base design is a simple power-on indicator.
 
-###￼High-frequency Bypass
+### High-frequency Bypass
 
 The kit already included a Zobel network on the LM386 output (R7, C11).
 This is intended to filter high-frequency spikes.
