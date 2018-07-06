@@ -56,7 +56,7 @@ The "key" is to note the effect of the key on R5, C9, W1 and D3.
 
 With key-down:
 
-* R5, C9, W1 and all bypassed:
+* R5, C9 and W1 bypassed:
   - Q2 acts as a class B power amp for the Colpitts local oscillator
   - output to attenna via pi-network filter that results in a roughly sine wave
   - efffect of W1/D2 padder capacitor is removed from the Colpitts oscillator, resulting in a transmit frequency that should be spot on 7.023 MHz
@@ -65,7 +65,7 @@ With key-down:
 With key-up:
 
 * D3 is reverse-biased, enabling the LM386 audio amp
-* R5, C9, W1 and all back in circuit:
+* R5, C9 and W1 all back in circuit:
   - The W1/D2 padder capacitor allows receive frequency adjustment (7023-7026KHz)
   - high resistance of R5 effectively disables Q2 RF amplifier and turns it into a simple mixer as part of a direct conversion receiver
   - C9 makes a dead short at RF frequencies. This eliminates f1, f2, and f1+f2, leaving f1-f2 (audio - hopefully!) to pass to the LM386 amplifier
@@ -112,7 +112,7 @@ that covers some crystal and ceramic resonator VXO circuits to add frequency agi
 
 ### Side-tone Indicator
 
-The kit included a piezo buzzer side-tone indicator. I did install it, but left the label on the buzzer as everyone knows how annoyiing they can be!
+The kit included a piezo buzzer side-tone indicator. I did install it, but left the label on the buzzer as everyone knows how annoying they can be!
 
 I did add an LED side-tone indicator (LED_K and R9), which was not in the kit - the LED in the base design is a simple power-on indicator.
 
