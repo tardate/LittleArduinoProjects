@@ -112,6 +112,13 @@
         "name": "BoldportClub/Pease"
     }, 
     {
+        "description": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter", 
+        "relative_path": "BoldportClub/pips", 
+        "id": "#402", 
+        "categories": "Boldport, CD4060", 
+        "name": "BoldportClub/pips"
+    }, 
+    {
         "description": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
         "relative_path": "BoldportClub/PissOff", 
         "id": "#290", 

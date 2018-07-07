@@ -1,5 +1,5 @@
-# 401 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Pixie](./Radio/pixie) - research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m.
+# 402 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/pips](./BoldportClub/pips) - rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -130,6 +130,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#345 BoldportClub/mostap](./BoldportClub/mostap)                                  | **Boldport, CMOS**              upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers. |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
+| [#402 BoldportClub/pips](./BoldportClub/pips)                                      | **Boldport, CD4060**            rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |
 | [#325 BoldportClub/spoolt](./BoldportClub/spoolt)                                  | **Boldport, Soldering**         pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017) |
