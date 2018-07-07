@@ -90,4 +90,4 @@ Googling for 8051 circuit schematics, I see a common combination is 8.2kΩ pull-
 * [AT89C2051 product info and datasheet](http://www.microchip.com/wwwproducts/en/AT89c2051)
 * [SDCC](http://sdcc.sourceforge.net) - Small Device C Compiler
 * [LEAP#394 AT89C2051 Programmer](../Programmer)
-
+* [..as mentioned on my blog](http://blog.tardate.com/2018/07/leap395-8051-programming-with-sdcc.html)

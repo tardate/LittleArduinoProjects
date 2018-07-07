@@ -91,3 +91,4 @@ All connections on the underside of the cardboard base:
 * [Adafruit MPR121 12-Key Capacitive Touch Sensor Breakout Tutorial](https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/overview)
 * [MPR121 Breakout v12 Proximity Capacitive Touch Sensor Controller Keyboard Development Board](https://www.aliexpress.com/item/Free-shipping-MPR121-Breakout-v12-Proximity-Capacitive-Touch-Sensor-Controller-Keyboard-Development-Board/32236870852.html) - example from aliexpress seller
 * [Frequencies for equal-tempered scale, A4 = 440 Hz](https://pages.mtu.edu/~suits/notefreqs.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap396-capacitive-touch-organ.html)
