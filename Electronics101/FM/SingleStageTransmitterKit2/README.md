@@ -47,7 +47,8 @@ and confirm why I can't get anything in the standard FM range.
 
 Around 90MHz is pretty clear for me, so I tried replacing C4 with [47pF](http://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*90MHz))%5E2%2F66nH).
 
-This worked! I'm getting a signal at 92MHz, from which I infer the coil inductance might be closer to 64nH.
+This worked! I'm getting a signal at 84.15MHz, from which I infer the coil inductance might be closer to
+[76nH](http://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*84.15MHz))%5E2%2F0.047nF).
 
 
 ### Performance
@@ -57,6 +58,11 @@ OK, I guess you shouldn't expect great things from such a dinky 1-transistor cir
 With 30cm antenna wire, reception beyond 5m was getting a bit dodgy.
 Frequency stability was reasonably good; once locked in I didn't need to re-tune much.
 
+Here's and SDR capture of the device broadcasting on 84.15MHz. All the peaks in the waterfall are
+harmonic noise from the device.
+
+![broadcast_capture](./assets/broadcast_capture.png?raw=true)
+
 
 ## Construction
 
@@ -65,7 +71,7 @@ The schematic shown here has component values as per my final build, *not* as pr
 | Ref | Kit Value | Actual Value   |
 |-----|-----------|----------------|
 | C4  | 30pF      | 47pF           |
-| L1  | 4T        | 5T approx 64nH |
+| L1  | 4T        | 5T approx 76nH |
 
 ![Breadboard](./assets/SingleStageTransmitterKit2_bb.jpg?raw=true)
 
