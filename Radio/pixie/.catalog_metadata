@@ -2,6 +2,6 @@
     "id": "#401", 
     "name": "Pixie", 
     "description": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m", 
-    "categories": "RF", 
+    "categories": "Radio", 
     "relative_path": "Radio/pixie"
 }

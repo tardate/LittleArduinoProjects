@@ -1,5 +1,6 @@
-# 402 Little Electronics and Arduino Projects
+# 403 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [BoldportClub/pips](./BoldportClub/pips) - rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -66,9 +67,9 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
 | [#184 AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator)| **555 Timer, Oscillators**      widely-adjustable square wave generator using the 555 timer |
-| [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **RF, AM, FM**                  notes on an AM/FM radio kit build |
-| [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **RF, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
-| [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **RF, 555 Timer**               a simple 555-based AM transmitter |
+| [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **Radio, AM, FM**                  notes on an AM/FM radio kit build |
+| [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **Radio, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
+| [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **Radio, 555 Timer**               a simple 555-based AM transmitter |
 | [#139 AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
 | [#020 Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
 | [#100 ArdWinVaders](./playground/OLED/ArdWinVaders)                                | **Arduino, OLED**               an Arduino & OLED version of a classic game |
@@ -168,10 +169,10 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [#278 ComponentTesterKit](./Equipment/ComponentTesterKit)                          | **Tools, Test Equipment, ATmega**  build and evaluate a popular ATMEAG328-based component tester kit |
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
-| [#141 CrystalTester](./Electronics101/CrystalTester)                               | **RF, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
+| [#141 CrystalTester](./Electronics101/CrystalTester)                               | **Radio, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 current sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
-| [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio, RF**              decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
+| [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**              decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
 | [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
 | [#353 DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop)                          | **Logic Gates, CMOS/TTL**       building a clocked D Flip-flop with 74LS00 NAND gates |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
@@ -203,7 +204,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#155 ESP8266/SerialTest/ruby](./ESP8266/SerialTest/ruby)                          | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
 | [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
 | [#310 FM/TEA5767](./Electronics101/FM/TEA5767)                                     | **FM, Arduino**                 controlling the TEA5767 low-power FM stereo radio chip with an Arduino |
-| [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, RF**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
+| [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, Radio**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
 | [#295 FrequencyCounterKit](./Equipment/FrequencyCounterKit)                        | **PIC, Equipment, Oscillators** build and test a common PIC-based frequency counter kit |
@@ -220,6 +221,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#368 GranularSynth](./playground/GranularSynth)                                   | **Audio, Arduino**              building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right? |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#249 GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp)             | **OpAmp, Audio**                single-channel 10W guitar practice amplifier based on the TDA2050 |
+| [#403 GY560](./Equipment/GY560)                                                    | **Radio**                       checking out the GY560 Frequency Counter |
 | [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [#142 HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) | **OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |
@@ -283,15 +285,15 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#372 MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY)                            | **ATmega, ADC**                 an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
 | [#391 MilliVoltmeterDIY PCB and Enclosure](./Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure) | **ATmega, ADC**  custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
 | [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
-| [#326 Mixers](./Electronics101/Mixers)                                             | **RF, Mixers**                  all about frequency mixers |
-| [#327 Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing)                     | **RF, Mixers**                  a diode ring double-balanced frequency mixer |
+| [#326 Mixers](./Electronics101/Mixers)                                             | **Radio, Mixers**                  all about frequency mixers |
+| [#327 Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing)                     | **Radio, Mixers**                  a diode ring double-balanced frequency mixer |
 | [#150 ML741](./Electronics101/ML741)                                               | **OpAmp**                       an LM741-style OpAmp built with discrete components |
 | [#151 ML741/Comparator](./Electronics101/ML741/Comparator)                         | **OpAmp**                       test a comparator circuit with the ML741 discrete component opamp |
 | [#158 ML741/Inverter](./Electronics101/ML741/Inverter)                             | **OpAmp**                       test an inverter circuit using the ML741 discrete component opamp |
 | [#159 ML741/InvertingAmplifier](./Electronics101/ML741/InvertingAmplifier)         | **OpAmp**                       test an inverting amplifier circuit using the ML741 discrete component opamp |
 | [#161 ML741/NonInvertingAmplifier](./Electronics101/ML741/NonInvertingAmplifier)   | **OpAmp**                       test a non-inverting amplifier circuit using the ML741 discrete component opamp |
 | [#157 ML741/VoltageFollower](./Electronics101/ML741/VoltageFollower)               | **OpAmp**                       test a voltage follower/buffer circuit with the ML741 discrete component opamp |
-| [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **RF**                          build and investigate a commercially available "mobile phone signal" detector kit |
+| [#082 MobileRFDetectorKit](./Electronics101/EMRDetection/MobileRFDetectorKit)      | **Radio**                          build and investigate a commercially available "mobile phone signal" detector kit |
 | [#017 Monostable](./Electronics101/555Timer/Monostable)                            | **555 Timer**                   basic monostable mode using an Arduino and processing to plot the output |
 | [#075 Monostable122](./Electronics101/Monostable122)                               | **CMOS/TTL**                    simple pulse trigger using 74LS122 monostable with external timing configuration |
 | [#076 MonostablePulseExtender](./playground/MonostablePulseExtender)               | **CMOS/TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
@@ -324,7 +326,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
 | [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#376 PiezoVibrationDetector](./playground/PiezoVibrationDetector)                 | **Arduino, Piezo**              counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator |
-| [#401 Pixie](./Radio/pixie)                                                        | **RF**                          research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m |
+| [#401 Pixie](./Radio/pixie)                                                        | **Radio**                          research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
@@ -358,20 +360,20 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#013 ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NOT gate (Inverter) |
 | [#112 ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR)     | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic OR gate |
 | [#221 ResistorTransistorLogic/XOR](./Electronics101/ResistorTransistorLogic/XOR)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic XOR gate/XOR |
-| [#124 RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **RF**                          a simple RF detector mounted in a pen |
+| [#124 RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **Radio**                          a simple RF detector mounted in a pen |
 | [#337 RgbLedGlow](./Electronics101/RgbLedGlow)                                     | **LED, Oscillators**            rainbow glow effects with an RGB LED and OpAmp oscillators |
 | [#169 RGBLedModule](./playground/RGBLedModule)                                     | **LED, Arduino**                demo an RGB LED module |
 | [#107 RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |
 | [#108 RingCounterController](./playground/RingCounterController)                   | **CMOS, Arduino**               control the classic CD4017 walking-ring counter with an Arduino |
 | [#144 RingOscillator](./Electronics101/RingOscillator)                             | **CMOS/TTL, Oscillators**       test an oscillator built with a 74LS14 Inverter chip |
-| [#347 RF Connectors](./Electronics101/Connectors/RF)                               | **RF, Connectors**              notes on miscellaneous RF connectors |
-| [#063 RFSwitch](./Electronics101/RFSwitch)                                         | **RF, OpAmp**                   simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
-| [#064 RFSwitchASK](./playground/RFSwitchASK)                                       | **RF, ASK, Arduino**            data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
+| [#347 RF Connectors](./Electronics101/Connectors/RF)                               | **Radio, Connectors**              notes on miscellaneous RF connectors |
+| [#063 RFSwitch](./Electronics101/RFSwitch)                                         | **Radio, OpAmp**                   simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing |
+| [#064 RFSwitchASK](./playground/RFSwitchASK)                                       | **Radio, ASK, Arduino**            data communications using ASK protocol over 433Mhz RF transmitter and receiver set |
 | [#008 RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                                  | **LED Array, Arduino**          quick test to make sure LEDs are correctly addressable and their color can be set correctly |
 | [#118 RotaryEncoderMethods](./playground/RotaryEncoderMethods)                     | **Sensor, Arduino**             finding the best method for reading a rotary-encoder |
 | [#119 RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
-| [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio, RF**              getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
+| [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio**              getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
 | [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
@@ -408,7 +410,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler |
 | [#015 StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
-| [#123 SuperheterodyneReceiverKit](./Radio/SuperheterodyneReceiverKit)              | **RF, AM**                      build and analyse a basic superheterodyne AM MW radio receiver kit |
+| [#123 SuperheterodyneReceiverKit](./Radio/SuperheterodyneReceiverKit)              | **Radio, AM**                      build and analyse a basic superheterodyne AM MW radio receiver kit |
 | [#066 Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |
 | [#116 Switch - NJFET](./Electronics101/SwitchNJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and n-channel JFET |
 | [#032 Switch - NPN](./Electronics101/SwitchNPN)                                    | **BJT**                         small-signal digital switch with NPN BJT |

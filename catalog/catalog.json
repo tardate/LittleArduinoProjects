@@ -269,7 +269,7 @@
         "description": "a simple 555-based AM transmitter", 
         "relative_path": "Electronics101/555Timer/AMTransmitter", 
         "id": "#132", 
-        "categories": "RF, 555 Timer", 
+        "categories": "Radio, 555 Timer", 
         "name": "AMTransmitter/555"
     }, 
     {
@@ -402,7 +402,7 @@
         "description": "simple AM transmitter with OpAmp carrier/mixer", 
         "relative_path": "Electronics101/AM/OpAmpTransmitter", 
         "id": "#143", 
-        "categories": "RF, OpAmp", 
+        "categories": "Radio, OpAmp", 
         "name": "AM/OpAmpTransmitter"
     }, 
     {
@@ -710,14 +710,14 @@
         "description": "notes on miscellaneous RF connectors", 
         "relative_path": "Electronics101/Connectors/RF", 
         "id": "#347", 
-        "categories": "RF, Connectors", 
+        "categories": "Radio, Connectors", 
         "name": "RF Connectors"
     }, 
     {
         "description": "a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter", 
         "relative_path": "Electronics101/CrystalTester", 
         "id": "#141", 
-        "categories": "RF, Oscillators", 
+        "categories": "Radio, Oscillators", 
         "name": "CrystalTester"
     }, 
     {
@@ -843,14 +843,14 @@
         "description": "build and investigate a commercially available \"mobile phone signal\" detector kit", 
         "relative_path": "Electronics101/EMRDetection/MobileRFDetectorKit", 
         "id": "#082", 
-        "categories": "RF", 
+        "categories": "Radio", 
         "name": "MobileRFDetectorKit"
     }, 
     {
         "description": "a simple RF detector mounted in a pen", 
         "relative_path": "Electronics101/EMRDetection/RFDetectorProbe", 
         "id": "#124", 
-        "categories": "RF", 
+        "categories": "Radio", 
         "name": "RFDetectorProbe"
     }, 
     {
@@ -1053,14 +1053,14 @@
         "description": "all about frequency mixers", 
         "relative_path": "Electronics101/Mixers", 
         "id": "#326", 
-        "categories": "RF, Mixers", 
+        "categories": "Radio, Mixers", 
         "name": "Mixers"
     }, 
     {
         "description": "a diode ring double-balanced frequency mixer", 
         "relative_path": "Electronics101/Mixers/RFDiodeRing", 
         "id": "#327", 
-        "categories": "RF, Mixers", 
+        "categories": "Radio, Mixers", 
         "name": "Mixers/RFDiodeRing"
     }, 
     {
@@ -1375,7 +1375,7 @@
         "description": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 
         "relative_path": "Electronics101/RFSwitch", 
         "id": "#063", 
-        "categories": "RF, OpAmp", 
+        "categories": "Radio, OpAmp", 
         "name": "RFSwitch"
     }, 
     {
@@ -1701,6 +1701,13 @@
         "name": "FY3200S"
     }, 
     {
+        "description": "checking out the GY560 Frequency Counter", 
+        "relative_path": "Equipment/GY560", 
+        "id": "#403", 
+        "categories": "Radio", 
+        "name": "GY560"
+    }, 
+    {
         "description": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software", 
         "relative_path": "Equipment/Labrador", 
         "id": "#324", 
@@ -1816,7 +1823,7 @@
         "description": "teardown an FQ777-954 nano drone and figure out as much of the technical design as possible", 
         "relative_path": "Kinetics/FQ777-954/TearDown", 
         "id": "#225", 
-        "categories": "Drones, RF", 
+        "categories": "Drones, Radio", 
         "name": "FQ777-954/TearDown"
     }, 
     {
@@ -2614,7 +2621,7 @@
         "description": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 
         "relative_path": "playground/RFSwitchASK", 
         "id": "#064", 
-        "categories": "RF, ASK, Arduino", 
+        "categories": "Radio, ASK, Arduino", 
         "name": "RFSwitchASK"
     }, 
     {
@@ -2761,14 +2768,14 @@
         "description": "notes on an AM/FM radio kit build", 
         "relative_path": "Radio/AMFMRadioKit", 
         "id": "#131", 
-        "categories": "RF, AM, FM", 
+        "categories": "Radio, AM, FM", 
         "name": "AMFMRadioKit"
     }, 
     {
         "description": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m", 
         "relative_path": "Radio/pixie", 
         "id": "#401", 
-        "categories": "RF", 
+        "categories": "Radio", 
         "name": "Pixie"
     }, 
     {
@@ -2782,7 +2789,7 @@
         "description": "build and analyse a basic superheterodyne AM MW radio receiver kit", 
         "relative_path": "Radio/SuperheterodyneReceiverKit", 
         "id": "#123", 
-        "categories": "RF, AM", 
+        "categories": "Radio, AM", 
         "name": "SuperheterodyneReceiverKit"
     }, 
     {
@@ -2796,14 +2803,14 @@
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
         "relative_path": "SDR/DecodingACARS", 
         "id": "#352", 
-        "categories": "SDR, Radio, RF", 
+        "categories": "SDR, Radio", 
         "name": "Decoding ACARS"
     }, 
     {
         "description": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)", 
         "relative_path": "SDR/RtlSdrDongle", 
         "id": "#351", 
-        "categories": "SDR, Radio, RF", 
+        "categories": "SDR, Radio", 
         "name": "RTL-SDR Dongle"
     }, 
     {

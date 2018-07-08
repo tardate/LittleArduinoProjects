@@ -2,6 +2,6 @@
     "id": "#132", 
     "name": "AMTransmitter/555", 
     "description": "a simple 555-based AM transmitter", 
-    "categories": "RF, 555 Timer", 
+    "categories": "Radio, 555 Timer", 
     "relative_path": "Electronics101/555Timer/AMTransmitter"
 }
