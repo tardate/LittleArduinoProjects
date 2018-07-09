@@ -1,6 +1,5 @@
-# 406 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SerialInterface/UsbUartCH340G](./Electronics101/SerialInterface/UsbUartCH340G) - build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P.
-
+# 407 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [DPS3005BenchPowerSupply](./Equipment/DPS3005BenchPowerSupply) - building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer.
 
 
 
@@ -173,10 +172,10 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [#278 ComponentTesterKit](./Equipment/ComponentTesterKit)                          | **Tools, Test Equipment, ATmega**  build and evaluate a popular ATMEAG328-based component tester kit |
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
-| [#141 CrystalTester](./Electronics101/CrystalTester)                               | **Radio, Oscillators**             a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
+| [#141 CrystalTester](./Electronics101/CrystalTester)                               | **Radio, Oscillators**          a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 current sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
-| [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**              decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
+| [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**                  decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
 | [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
 | [#353 DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop)                          | **Logic Gates, CMOS/TTL**       building a clocked D Flip-flop with 74LS00 NAND gates |
 | [#301 DHT11/Basics](./playground/DHT11/Basics)                                     | **Sensors, Arduino**            test basic temperature and humidity readings with the DHT11 sensor |
@@ -192,6 +191,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#348 DLatch](./Electronics101/DigitalLogic/DLatch)                                | **Logic Gates, CMOS/TTL**       building a D Latch with 74LS00 NAND gates |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |
+| [#407 DPS3005BenchPowerSupply](./Equipment/DPS3005BenchPowerSupply)                | **Power**                       building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer |
 | [#219 DS18S20/OneWireReading](./playground/DS18S20/OneWireReading)                 | **Sensors, Arduino**            basic interrogation of a DS18S20 using 1-wire protocol |
 | [#166 DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
 | [#188 EEPROM/AT24C02/BasicReadWrite](./playground/EEPROM/AT24C02/BasicReadWrite)   | **EEPROM, Arduino**             basic read/write operations to external EEPROM (AT24C02) with the Wire library |
@@ -208,7 +208,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#155 ESP8266/SerialTest/ruby](./ESP8266/SerialTest/ruby)                          | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
 | [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
 | [#310 FM/TEA5767](./Electronics101/FM/TEA5767)                                     | **FM, Arduino**                 controlling the TEA5767 low-power FM stereo radio chip with an Arduino |
-| [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, Radio**                  teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
+| [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, Radio**               teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
 | [#295 FrequencyCounterKit](./Equipment/FrequencyCounterKit)                        | **PIC, Equipment, Oscillators** build and test a common PIC-based frequency counter kit |
