@@ -2975,6 +2975,13 @@
         "name": "FY3200S"
     }, 
     {
+        "description": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing", 
+        "relative_path": "Equipment/AdjustablePowerSupplyKit", 
+        "id": "#433", 
+        "categories": "Power", 
+        "name": "AdjustablePowerSupplyKit"
+    }, 
+    {
         "description": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
         "relative_path": "Equipment/USBProtector", 
         "id": "#400", 
