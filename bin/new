@@ -99,16 +99,16 @@ EOS
 
  */
 
-const int XX_PIN=13;
+const int LED_PIN = 13;
 
 void setup() {
-  pinMode(XX_PIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
 }
 
 void loop() {
   static boolean output = HIGH;
 
-  digitalWrite(XX_PIN, output);
+  digitalWrite(LED_PIN, output);
   delay(500);
 
   output = !output;

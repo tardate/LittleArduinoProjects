@@ -79,6 +79,7 @@ Here's a circuit (actually [LEAP#368 GranularSynth](../GranularSynth)) being pro
 * [Arduino as ISP](https://youtu.be/muP1dp73Mdg)
 * [Arduino on a Breadboard](https://youtu.be/ufQZnAAxZ7A)
 * [Building an Arduino on a Breadboard](http://www.arduino.cc/en/Main/Standalone)
+* Nick Gammon's [How to make an Arduino-compatible minimal board](http://www.gammon.com.au/breadboard)
 * [Using an Arduino as an AVR ISP](http://www.arduino.cc/en/Tutorial/ArduinoISP)
 * [From Arduino to a Microcontroller on a Breadboard](http://www.arduino.cc/en/Tutorial/ArduinoToBreadboard)
 * [AVR Programming](http://hackaday.com/2010/10/23/avr-programming-introduction/) - great little guide to avr ISP

@@ -1,5 +1,5 @@
-# 404 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Arza-matron](./Kraft/arzamatron) - whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips.
+# 405 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ATmegaSerialProgrammer](./playground/ATmegaSerialProgrammer) - all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -80,11 +80,12 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#395 AT89C2051/Blinky](./8051/AT89C2051/Blinky)                                   | **8051, LED**                   Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX |
 | [#399 AT89C2051/LedChaser](./8051/AT89C2051/LedChaser)                             | **8051, LED**                   run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX |
 | [#069 ATmegaBreadboard](./playground/ATmegaBreadboard)                             | **Arduino, ATmel**              running an ATMEGA328P-PU on a breadboard  |
-| [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel**              a DIY ATmega programming shield for using an Arduino as ISP  |
-| [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel**              Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
+| [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel, ICSP**        a DIY ATmega programming shield for using an Arduino as ISP  |
+| [#405 ATmegaSerialProgrammer](./playground/ATmegaSerialProgrammer)                 | **Arduino, ATmel, ICSP, UART**  all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP |
+| [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel, ICSP**        Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
 | [#275 ATtiny8MHz](./playground/ATtiny8MHz)                                         | **Arduino, ATmel**              how to run an ATtiny85 microprocessor at 8MHz using the internal clock |
 | [#126 ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt)               | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
-| [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel**              Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
+| [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel, ICSP**        Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [#253 ATtinyProgrammingShield](./playground/ATtinyProgrammingShield)               | **Arduino, ATmel**              a custom ATtiny programming shield for Arduino ISP |
 | [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
 | [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |

@@ -304,7 +304,7 @@
         "description": "a DIY ATmega programming shield for using an Arduino as ISP ", 
         "relative_path": "playground/ATmegaISPShield", 
         "id": "#099", 
-        "categories": "Arduino, ATmel", 
+        "categories": "Arduino, ATmel, ICSP", 
         "name": "ATmegaISPShield"
     }, 
     {
@@ -334,6 +334,13 @@
         "id": "#102", 
         "categories": "Solenoid, Arduino", 
         "name": "SolenoidControl"
+    }, 
+    {
+        "description": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP", 
+        "relative_path": "playground/ATmegaSerialProgrammer", 
+        "id": "#405", 
+        "categories": "Arduino, ATmel, ICSP, UART", 
+        "name": "ATmegaSerialProgrammer"
     }, 
     {
         "description": "test basic temperature and humidity readings with the DHT11 sensor", 
@@ -892,7 +899,7 @@
         "description": "Programming an ATMEGA328P-PU on a breadboard with Arduino ISP", 
         "relative_path": "playground/ATmegaViaArduinoISP", 
         "id": "#068", 
-        "categories": "Arduino, ATmel", 
+        "categories": "Arduino, ATmel, ICSP", 
         "name": "ATmegaViaArduinoISP"
     }, 
     {
@@ -990,7 +997,7 @@
         "description": "Programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
         "relative_path": "playground/ATtinyWithArduinoISP", 
         "id": "#070", 
-        "categories": "Arduino, ATmel", 
+        "categories": "Arduino, ATmel, ICSP", 
         "name": "ATtinyWithArduinoISP"
     }, 
     {
