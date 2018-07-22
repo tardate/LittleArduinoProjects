@@ -1,0 +1,7 @@
+{
+    "id": "#404", 
+    "name": "Arza-matron", 
+    "description": "whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips", 
+    "categories": "Arduino, LED, Sensors", 
+    "relative_path": "Kraft/arzamatron"
+}

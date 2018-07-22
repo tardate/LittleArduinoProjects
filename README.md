@@ -1,6 +1,5 @@
-# 403 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/pips](./BoldportClub/pips) - rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter.
-
+# 404 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Arza-matron](./Kraft/arzamatron) - whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -67,12 +66,13 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
 | [#184 AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator)| **555 Timer, Oscillators**      widely-adjustable square wave generator using the 555 timer |
-| [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **Radio, AM, FM**                  notes on an AM/FM radio kit build |
-| [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **Radio, OpAmp**                   simple AM transmitter with OpAmp carrier/mixer |
-| [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **Radio, 555 Timer**               a simple 555-based AM transmitter |
+| [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **Radio, AM, FM**               notes on an AM/FM radio kit build |
+| [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **Radio, OpAmp**                simple AM transmitter with OpAmp carrier/mixer |
+| [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **Radio, 555 Timer**            a simple 555-based AM transmitter |
 | [#139 AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
 | [#020 Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
 | [#100 ArdWinVaders](./playground/OLED/ArdWinVaders)                                | **Arduino, OLED**               an Arduino & OLED version of a classic game |
+| [#404 Arza-matron](./Kraft/arzamatron)                                             | **Arduino, LED, Sensors**       whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips |
 | [#379 AS3935](./playground/AS3935)                                                 | **Arduino, AS3935, Sensors**    using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library |
 | [#186 AsyncJKCounter](./Electronics101/DigitalLogic/AsyncJKCounter)                | **CMOS/TTL, Digital Logic**     an asynchronous 4-bit counter built with JK Flip-Flops |
 | [#014 AsyncLedStripEffects](./LEDArrayDemos/AsyncLedStripEffects)                  | **LED Array, Timing, Arduino**  demo effects on the LED strip driven using timer interrupt |
