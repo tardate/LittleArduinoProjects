@@ -31,8 +31,13 @@ This is a similar concept (but quite a different implementation) to the
 
 ![Schematic](./assets/pips_schematic.jpg?raw=true)
 
+![pips_build_front](./assets/pips_build_front.jpg?raw=true)
+
+![pips_build_rear](./assets/pips_build_rear.jpg?raw=true)
+
 ![Build](./assets/pips_build.jpg?raw=true)
 
 ## Credits and References
 * [Pips](https://www.boldport.com/products/pips) - official Boldport page
 * [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap402-rolling-with-the-boldportclub-pips.html)
