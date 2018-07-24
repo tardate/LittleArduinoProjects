@@ -1,4 +1,4 @@
-# #397 I2CScanner
+# #397 I²C Scanner
 
 Scanning for I²C devices with an Arduino.
 
@@ -13,6 +13,23 @@ This is a simple sketch, inspired by
 that simply scans for the presence of addresses in the full 7-bit address space.
 
 This can be very helpful when trying to use I²C modules where the default address is not documented.
+
+## About I²C
+
+
+I²C (Inter-Integrated Circuit) is a communications bus specification invented in 1982 by Philips Semiconductor.
+Patents on I²C have now lapsed and trademark protection only remains for the logo.
+
+I²C is now generally supported by many manufacturers, but it is also known as TWI (Two-Wire Interface) or TWSI (Two-Wire Serial Interface)
+Note: in some cases, the term "two-wire interface" may hint at incomplete implementation of the I²C specification.
+
+I²C provides bi-directional communication for many devices in a master-slave configuration over two wires.
+
+I²C addresses are used to select between devices on a single bus. There are 7-bit and 10-bit address modes:
+
+* 7-bit addresses are most commonly used in microcontroller peripherals
+* 10-bit addresses are not yet widely used, and support is limited
+* the sketch here only looks for 7-bit addresses
 
 
 ## Code
@@ -50,3 +67,4 @@ Pull-up resistors may need to be provided if they are not already present on the
 * [i2c_scanner](http://playground.arduino.cc/Main/I2cScanner) - Frode Grimstad Bang
 * [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) - wikipedia
 * Standard [Wire Library](https://www.arduino.cc/en/Reference/Wire)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap397-i2c-scanner.html)
