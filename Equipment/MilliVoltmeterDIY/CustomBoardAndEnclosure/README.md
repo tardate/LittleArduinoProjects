@@ -13,6 +13,7 @@ This is a continuation of [LEAP#372 MilliVoltmeterDIY](../), a circuit based on 
 Previously, I reached the point of modifying the design somewhat, revising the code and having a breadboard prototype working just fine.
 Since it is such a handy piece of kit, I decided to go the whole hog: make a PCB and mount it in a case.
 
+Update: I've added battery by-pass and reverse polarity protection - see the last section of this document.
 
 ## PCB Design
 
@@ -175,6 +176,31 @@ With a simple voltage-divider test load:
 ![CustomBoardAndEnclosure_build](./assets/CustomBoardAndEnclosure_build.jpg?raw=true)
 
 
+## Battery By-pass and Reverse Polarity Mod
+
+After the initial build, there were two enhancements I wanted to make:
+
+* more flexible power supply: internal battery for portable use. The power socket has bypass connector, so this is easy to add.
+* reverse polarity protection, to avoid issues with centre-positive/centre-negative connectors
+
+I've just added these, having got hold of some
+[9V battery holders](https://www.aliexpress.com/item/5pcs-9V-Battery-Case-Holder-Cover-Box-Replacement-for-Active-Guitar-Bass-Pickup/32846434285.html)
+designed for panel mounting...
+
+![Battery_mod](./assets/Battery_mod.jpg.jpg?raw=true)
+
+The battery is wired up with the negative connection to the bypass connector on the panel jack.
+I added a 1N5819 rectifier diode in series to the power switch for reverse-polarity protection.
+
+All installed:
+
+![Battery_mod_installed](./assets/Battery_mod_installed.jpg.jpg?raw=true)
+
+Rear panel now has power switch, external power supply jack, and 9V battery holder:
+
+![Battery_mod_CustomBoardAndEnclosure_rear](./assets/Battery_mod_CustomBoardAndEnclosure_rear.jpg.jpg?raw=true)
+
+
 ## Conclusion
 
 All told, this turned out pretty well, though there are a couple of things I would change if I were to do it again:
@@ -185,9 +211,7 @@ All told, this turned out pretty well, though there are a couple of things I wou
     * larger (M3) mounting holes
 * I think I'd switch from binding posts to shrouded banana sockets for the input jacks (compatible with most multimeter leads)
 * add reverse polarity protection: probably just a rectifier diode in series with power supply
-* more flexible power supply:
-    * internal battery backup for portable use. The power socket has bypass connector, so this is easy to add.
-    * perhaps a mains AC supply
+* perhaps a mains AC supply adapter built-into the unit
 
 
 ## Credits and References
@@ -197,4 +221,5 @@ All told, this turned out pretty well, though there are a couple of things I wou
 * schematic and PCB design [available here in EasyEDA](https://easyeda.com/tardate/MilliVoltmeterDIY-8553e43370c2483c926e832323425b5b)
 * [PCB project available here from OSHPark](https://oshpark.com/shared_projects/c6PGdeFn)
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
+* [9V Battery Case Holder Cover Box Replacement for Active Guitar Bass Pickup](https://www.aliexpress.com/item/5pcs-9V-Battery-Case-Holder-Cover-Box-Replacement-for-Active-Guitar-Bass-Pickup/32846434285.html)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap391-packaging-the-mv-meter.html)
