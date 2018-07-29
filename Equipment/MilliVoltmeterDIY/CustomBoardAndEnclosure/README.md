@@ -187,18 +187,18 @@ I've just added these, having got hold of some
 [9V battery holders](https://www.aliexpress.com/item/5pcs-9V-Battery-Case-Holder-Cover-Box-Replacement-for-Active-Guitar-Bass-Pickup/32846434285.html)
 designed for panel mounting...
 
-![Battery_mod](./assets/Battery_mod.jpg.jpg?raw=true)
+![Battery_mod](./assets/Battery_mod.jpg?raw=true)
 
 The battery is wired up with the negative connection to the bypass connector on the panel jack.
 I added a 1N5819 rectifier diode in series to the power switch for reverse-polarity protection.
 
 All installed:
 
-![Battery_mod_installed](./assets/Battery_mod_installed.jpg.jpg?raw=true)
+![Battery_mod_installed](./assets/Battery_mod_installed.jpg?raw=true)
 
 Rear panel now has power switch, external power supply jack, and 9V battery holder:
 
-![Battery_mod_CustomBoardAndEnclosure_rear](./assets/Battery_mod_CustomBoardAndEnclosure_rear.jpg.jpg?raw=true)
+![Battery_mod_CustomBoardAndEnclosure_rear](./assets/Battery_mod_CustomBoardAndEnclosure_rear.jpg?raw=true)
 
 
 ## Conclusion
@@ -222,4 +222,5 @@ All told, this turned out pretty well, though there are a couple of things I wou
 * [PCB project available here from OSHPark](https://oshpark.com/shared_projects/c6PGdeFn)
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [9V Battery Case Holder Cover Box Replacement for Active Guitar Bass Pickup](https://www.aliexpress.com/item/5pcs-9V-Battery-Case-Holder-Cover-Box-Replacement-for-Active-Guitar-Bass-Pickup/32846434285.html)
+* [1N5819 datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap391-packaging-the-mv-meter.html)
