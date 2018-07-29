@@ -210,7 +210,6 @@ All told, this turned out pretty well, though there are a couple of things I wou
     * the push-button connectors would be better positioned on the other side of the board
     * larger (M3) mounting holes
 * I think I'd switch from binding posts to shrouded banana sockets for the input jacks (compatible with most multimeter leads)
-* add reverse polarity protection: probably just a rectifier diode in series with power supply
 * perhaps a mains AC supply adapter built-into the unit
 
 
