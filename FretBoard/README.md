@@ -3,9 +3,9 @@
 FretBoard is a multi-project build status indicator, using a [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
 to display the status of each project.
 
-Full details of the project are available at [fretboard.tardate.com](http://fretboard.tardate.com)
+Full details of the project are available at [fretboard.tardate.com](https://fretboard.tardate.com)
 
-[![Build](./assets/FretBoard_build.jpg?raw=true)](http://fretboard.tardate.com)
+[![Build](./assets/FretBoard_build.jpg?raw=true)](https://fretboard.tardate.com)
 
 Done:
 
@@ -125,7 +125,7 @@ And then connectors etc depending on the physical housing.
 * Light Color: RGB FULL Color
 
 ## References
-* [fretboard.tardate.com](http://fretboard.tardate.com) - vanity site for the project
+* [fretboard.tardate.com](https://fretboard.tardate.com) - vanity site for the project
 * [The GitHub Stoplight](http://urbanhonking.com/ideasfordozens/2010/05/19/the_github_stoplight/)
 * [Monitoring Your Continuous Integration Server with Traffic Lights and an Arduino](http://isotope11.com/blog/monitoring-your-continuous-integration-server-with-traffic-lights-and-an-arduino)
 * [Operation Stoplight: Jenkins + Arduino Build Status Notification](https://www.helpshift.com/blog/operation-stoplight-jenkins-arduino-build-status-notification/)

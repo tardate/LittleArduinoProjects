@@ -21,7 +21,7 @@ But it did the job!
 The basic idea:
 
 * sound input
-* 2 LED strip circuits independemtly controlled
+* 2 LED strip circuits independently controlled
 * simple Arduino sketch to sample the sound and drive the LED strips with PWM
 
 
@@ -97,3 +97,4 @@ In operation:
 * [IRF3205 datasheet](http://www.futurlec.com/Transistors/IRF3205.shtml)
 * [86082 Voice Sound Detection Sensor Module](https://www.aliexpress.com/item/free-shipping-Voice-Sound-Detection-Sensor-Module-for-Arduino-DIY-Intelligent-Smart-Vehicle-Robot-Helicopter-Airplane/32766584952.html)
 * [12V LED strip - blue, cold white](https://www.aliexpress.com/item/New-Arrival-5M-300Leds-Non-waterproof-RGB-Led-Strip-Light-3528-DC12V-60Leds-M-Fiexble-Light/32294020575.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap404-the-arza-matron.html)
