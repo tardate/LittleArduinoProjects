@@ -18,7 +18,7 @@ When one uses the Arduino IDE to program an Arduino Uno over a USB connection, t
 * Communications to the main microcontroller (e.g. ATMEGA328P) are serial over the RX/TX pins,
 * The Arduino comes pre-installed with a bootloader on the microcontroller chip that knows how to support a serial programming mode
 * When uploading a sketch:
-  - serial RTS (aka DTR) is used to toggle the reset pin and activate the bootloader programming mode
+  - serial DTR is used to toggle the reset pin and activate the bootloader programming mode
   - programming is accepted over the serial RX/TX pins
   - chip is reset into run mode (now with a new program)
 
@@ -479,7 +479,6 @@ It is also demonstrated very clearly in the
 
 [![clip](http://img.youtube.com/vi/dpgcBsl9D4k/0.jpg)](http://www.youtube.com/watch?v=dpgcBsl9D4k)
 
-
 The
 [Atmega_Board_Programmer](https://github.com/nickgammon/arduino_sketches/tree/master/Atmega_Board_Programmer)
 sketch uses one Arduino to burn the bootloader of another one.
@@ -608,7 +607,7 @@ The basic connections required from the USB-Serial adapter to the chip (pin numb
 |---------------|-----------|------------|
 | +5V           | VCC, AVCC | 7, 20      |
 | GND           | GND       | 8, 22      |
-| RTS (aka DTR) | RESET     | 1          |
+| DTR           | RESET     | 1          |
 | RXD           | TX        | 3          |
 | TXD           | RX        | 2          |
 
@@ -634,9 +633,9 @@ I'm using a CH340G USB adapter that I
 [got along with an Arduino mini](http://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html)
 (seems no longer available, but variants are likely available from other sources). Key features:
 * it has a 5V/3.3V selector. I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they  will still be 5V.
-* it has pins for both DTR(RTS) and CTS connections
+* it has pins for both DTR and CTS connections
 
-There are similar adapters such as [CH340G-based USB to UART adapter](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html) but note that many do not break out the DTR(RTS) pin.
+There are similar adapters such as [CH340G-based USB to UART adapter](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html) but note that many do not break out the DTR pin.
 
 
 ### MacOSX driver support for the CH340G
@@ -662,7 +661,7 @@ the Arduino IDE works exactly like it was connected to a real Arduino Uno.
 
 Sketches are uploaded as normal and .. it just works!
 
-Note: if the USB-Serial adapter does not support or connect DTR(RTS) to the chip's reset line,
+Note: if the USB-Serial adapter does not support or connect DTR to the chip's reset line,
 then it may still be possible to get things to work by manually reseting the chip at just the right moment
 [This is a common trick for Arduino Pro Minis!](https://alselectro.wordpress.com/2017/05/14/arduino-pro-mini-how-to-upload-code/).
 

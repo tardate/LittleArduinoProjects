@@ -21,6 +21,11 @@ Arduino on a Breadboard
 
 [![clip](http://img.youtube.com/vi/ufQZnAAxZ7A/0.jpg)](http://www.youtube.com/watch?v=ufQZnAAxZ7A)
 
+Julian's Ardutorials: Arduino as an ISP
+
+[![clip](http://img.youtube.com/vi/c8andV3OWr8/0.jpg)](http://www.youtube.com/watch?v=c8andV3OWr8)
+
+
 ### Programming Procedure
 
 Wire up according the schematics attached.
