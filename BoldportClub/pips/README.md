@@ -37,6 +37,14 @@ This is a similar concept (but quite a different implementation) to the
 
 ![Build](./assets/pips_build.jpg?raw=true)
 
+## The Pips Block Chain Enhancement
+
+> not for cryptographic use
+
+I think I've fixed that. Can I interest you in my ICO?
+
+![Build](./assets/pips_ico.jpg?raw=true)
+
 ## Credits and References
 * [Pips](https://www.boldport.com/products/pips) - official Boldport page
 * [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
