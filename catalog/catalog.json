@@ -1162,6 +1162,13 @@
         "name": "BidirectionalLevelShifterModule"
     }, 
     {
+        "description": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors", 
+        "relative_path": "Electronics101/Power/BBBreakout", 
+        "id": "#408", 
+        "categories": "Power", 
+        "name": "BBBreakout"
+    }, 
+    {
         "description": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up", 
         "relative_path": "Electronics101/Power/UsbPowerSupplyKit", 
         "id": "#341", 

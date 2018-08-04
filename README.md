@@ -1,7 +1,5 @@
-# 407 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DPS3005BenchPowerSupply](./Equipment/DPS3005BenchPowerSupply) - building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer.
-
-
+# 408 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BBBreakout](./Electronics101/Power/BBBreakout) - a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -109,6 +107,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#217 BasicBuckAvrControl](./Electronics101/SwitchModePowerSupplies/BasicBuckAvrControl) | **Power, Arduino**        a simple buck converter circuit from first principles |
 | [#288 BasicInvertingBuckBoostAvrControl](./Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl) | **Power, ATtiny, Arduino**   build and test an inverting buck-boost converter controlled by an ATtiny85 |
 | [#262 BazzFuss](./Electronics101/GuitarEffects/BazzFuss)                           | **Guitar Effects, Audio**       the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit |
+| [#408 BBBreakout](./Electronics101/Power/BBBreakout)                               | **Power**                       a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
 | [#318 Bistable](./Electronics101/555Timer/Bistable)                                | **555 Timer**                   using the 555 timer as a bistable latch and button debouncer |
