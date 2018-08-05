@@ -9,7 +9,8 @@ Building an AC-powered 32V/5A variable bench power supply based on the DPS3005 D
 ## Notes
 
 The DPS3005 is one of a range of popular DC power supply modules; this one is designed for up to 32V/5A DC output.
-It is DC powered. For this project, I am mounting the DPS3005 in a project case, and adding mains AC power supply.
+
+For this project, I am mounting the DPS3005 in a project case, and adding mains AC power supply.
 
 
 ## DPS3005
@@ -33,8 +34,8 @@ Technical parameters
 
 ## Power Supply
 
-The DPS3005 requires a maximum 40V DC power supply. I'm providing this with an AC step-down transformer and bridge rectifier and smoothing capacitor.
-I have not added noise protection of filtering, as I'm expecting the DPS3005 module to take care of this.
+The DPS3005 requires a maximum 40V DC input power supply. I'm providing this with an AC step-down transformer and bridge rectifier and smoothing capacitor.
+I have not added noise protection or filtering, as I'm expecting the DPS3005 module to take care of this itself.
 
 Components I've selected for the power supply:
 
@@ -104,9 +105,14 @@ or tripping a circuit breaker on the mains circuit
 
 I've mounted the project in a
 [6.7" x 5.1" x 3.1" Blue Metal Enclosure Project Case DIY Junction Box](https://www.aliexpress.com/item/6-7-x-5-1-x-3-1-Blue-Metal-Enclosure-Project-Case-DIY-Junction-Box/32825937652.html),
-and use a dual banana binding post for the positive and negative DC output,
-like this [example from a seller on aliexpress](https://www.aliexpress.com/store/product/A07-2Pcs-Lot-Connecter-Banana-Plug-Gold-Plate-Red-Black-Connector-Terminal-Banana-Plugs-Binding-Post/1939636_32848481643.html)
+and use a
+[dual banana binding post](https://www.aliexpress.com/store/product/A07-2Pcs-Lot-Connecter-Banana-Plug-Gold-Plate-Red-Black-Connector-Terminal-Banana-Plugs-Binding-Post/1939636_32848481643.html)
+for the DC output terminals.
 
+
+![DPS3005BenchPowerSupply_internal_rear](./assets/DPS3005BenchPowerSupply_internal_rear.jpg?raw=true)
+
+![DPS3005BenchPowerSupply_internal_side](./assets/DPS3005BenchPowerSupply_internal_side.jpg?raw=true)
 
 ![DPS3005BenchPowerSupply_front](./assets/DPS3005BenchPowerSupply_front.jpg?raw=true)
 
