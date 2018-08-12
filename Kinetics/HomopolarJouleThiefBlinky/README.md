@@ -1,6 +1,6 @@
-# #410 HomopolarJouleThiefBlinky
+# #410 The Bouncy Thief LED Blinking Machine
 
-A totally Rube-Goldberg mechanism for blinking an LED with a AAA battery.
+A totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms.
 
 Click on the image for a quick demo..
 
