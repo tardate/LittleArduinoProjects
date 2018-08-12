@@ -27,6 +27,11 @@ After some fiddling around, I ended up with a vertically-mounted demonstration t
 which immediately got me thinking about the collapsing electromegnetic field on each bounce, and how that reminded me of
 what is going on in a [Joule Thief](../Electronics101/ToroidJouleThief).
 
+
+Seems like this might suit the
+[MacroFab Design Contest: Blink an LED Sponsored by Mouser Electronics](https://macrofab.com/blog/macrofab-design-contest-blink-an-led-sponsored-by-mouser-electronics/).
+See the project I've submitted over on [hackaday.io](https://hackaday.io/project/160409).
+
 ## The Design
 
 Quite a simple arrangement of two subsystems:
@@ -80,6 +85,7 @@ Here's the schematic of the charge pump/LED circuit:
 ![Build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
 
 ## Credits and References
+* [This project on hackaday.io](https://hackaday.io/project/160409-homopolar-motor-joule-thief-led-blinking-machine)
 * [LEAP#203 HomopolarMotor](../HomopolarMotor)
 * [LEAP#137 Joule Thief](../Electronics101/ToroidJouleThief)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap410-rube-goldberg-led-blinking-machine.html)
