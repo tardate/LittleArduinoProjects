@@ -1120,6 +1120,13 @@
         "name": "StirlingEngineHB13"
     }, 
     {
+        "description": "a totally Rube-Goldberg mechanism for blinking an LED with a AAA battery", 
+        "relative_path": "Kinetics/HomopolarJouleThiefBlinky", 
+        "id": "#410", 
+        "categories": "Kinetics, LED, Oscillators", 
+        "name": "HomopolarJouleThiefBlinky"
+    }, 
+    {
         "description": "Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system", 
         "relative_path": "Kinetics/SpiderBot", 
         "id": "#354", 

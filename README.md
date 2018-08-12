@@ -1,5 +1,6 @@
-# 408 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/conehead](./BoldportClub/conehead) - the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018.
+# 410 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [HomopolarJouleThiefBlinky](./Kinetics/HomopolarJouleThiefBlinky) - a totally Rube-Goldberg mechanism for blinking an LED with a AAA battery.
+
 
 
 
@@ -232,6 +233,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [#142 HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) | **OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |
 | [#043 HitTheLights](./playground/HitTheLights)                                     | **LCD, Human Input, Arduino**   simple LED game with LCD output and interrupt-driven button input |
+| [#410 HomopolarJouleThiefBlinky](./Kinetics/HomopolarJouleThiefBlinky)             | **Kinetics, LED, Oscillators**  a totally Rube-Goldberg mechanism for blinking an LED with a AAA battery |
 | [#203 HomopolarMotor](./Kinetics/HomopolarMotor)                                   | **Kinetics**                    build a basic homopolar motor |
 | [#397 I2CScanner](./playground/I2CScanner)                                         | **I2C, Arduino**                scanning for I²C devices with an Arduino |
 | [#146 InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |

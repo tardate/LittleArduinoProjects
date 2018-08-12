@@ -1,0 +1,85 @@
+# #410 HomopolarJouleThiefBlinky
+
+A totally Rube-Goldberg mechanism for blinking an LED with a AAA battery.
+
+Click on the image for a a quick demo..
+
+[![clip](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)](http://www.youtube.com/watch?v=tx0jU6hgwhY)
+
+[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
+
+## Notes
+
+Here's a marriage of Homopolar motor and Joule thief that results in a truely impractical Rube-Goldberg mechanism for blinking an LED with a AAA battery.
+It may be inefficient, but I like it .. mainly because I haven't seen any quite similar before!
+
+Where did this come from? I stumbled upon the amazing "World's Simplest Electric Train" video posted by 君AmazingScience yesterday and was playing around with some copper wire
+to reproduce the effect:
+
+[![clip](http://img.youtube.com/vi/J9b0J29OzAU/0.jpg)](http://www.youtube.com/watch?v=J9b0J29OzAU)
+
+Wayne Schmidt provides a good explanation in his [How to Build the Simplest Electric Train](http://www.youtube.com/watch?v=BWW4kPjd4yc) video.
+
+The concept is pretty clearly derivative of [HomopolarMotor](../HomopolarMotor) concepts
+and in fact was thoroughly exploreed in the [January 2016 issue of American Journal of Physics](https://physics.stackexchange.com/questions/150033/how-does-this-simple-electric-train-work).
+
+After some fiddling I ended up playing with a vertically-mounted demonstration that produced a nicely bouncing spring.
+Which immediately got me thinking about the collapsing electromegnetic field on each bounce, and how that sounded similar
+to what is going on in a [Joule Thief](../Electronics101/ToroidJouleThief).
+
+## The Design
+
+Quite a simple arrangement of two subsystems:
+
+* the battery, magnets and coil are arranged as a bouncy homopolar motor
+* a diode and capacitor attached to the coil harvest flyback energy to power the LED
+
+Here's my sketch:
+
+![design_notes](./assets/design_notes.jpg?raw=true)
+
+
+There are only four electrical components required for this circuit:
+
+* 1N5819HW Schottky Diode - selected for low forward voltage. Something like Mouser [621-1N5819HW-F](https://www.mouser.sg/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=sGAEpiMZZMuHSyTciuLGfz7QlcwO2TN6)
+* a white LED 0805 package - something like Mouser [630-HSMW-C170-U0000](https://www.mouser.com/ProductDetail/Broadcom-Avago/HSMW-C170-U0000?qs=sGAEpiMZZMseGfSY3csMkUxhMwy8qEyRYICFXW4fSeAq4RjjHoIC9A%3d%3d)
+* 10µF electrolytic capacitor - something like Mouser [661-EKXF251ELL100MJC](https://www.mouser.com/ProductDetail/United-Chemi-Con/EKXF251ELL100MJC5S?qs=sGAEpiMZZMsh%252b1woXyUXj1Qqd7OcgYbMwyirPCNM5Cg%3d)
+* AAA battery
+
+Hardware and additional components required:
+* some neodymium magnets (I'm not sure of the formulation of the ones I have - they are strong, but not the strongest)
+* copper wire for the coil
+* some fine guage hookup/magnet wire to tap the bottom of the coil to the diode
+
+
+## How It Works
+
+We basically have a chain of energy transformations. Totally ineffiecient, but it works! Here's my short explanation:
+
+* Chemical -> EM transfer:
+    * When the coil is in contact with the magents on each pole of the battery, we have a dead short that establishes an electromagnetic field in the coil (inductor)
+* EM -> Kinetic:
+    * Given the orientation of the coil, the polarity of the magnets and the direction of the current, the EM field produces a force that "bounces" to coil up and breaks the circuit
+* EM -> Electric Charge
+    * As the EM field collapses, a flyback current is generated. The passes via D1 and builds up a charge inin C1 ( a "charge pump" effect)
+* Current -> Light
+    * When the voltage across C1 exceeds the forward voltage of the LED, current will flow and the LED will blink on.
+
+Note there is no current-limiting resistor for the LED. This probably exposes the LED to higher voltages than is desirable, but so far no blow-outs!
+If there were, a resistor in series would assist in soaking up excess voltage.
+
+The frequency of LED blinks, and the on-time duty cycle is pretty chaotic and largely depends on the frequency and stability of the spring oscillations
+that are generated.
+
+## Construction
+
+Here's the schematic of the charge pump/LED circuit:
+
+![Schematic](./assets/HomopolarJouleThiefBlinky_schematic.jpg?raw=true)
+
+![Build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
+
+## Credits and References
+* [LEAP#203 HomopolarMotor](../HomopolarMotor)
+* [LEAP#137 Joule Thief](../Electronics101/ToroidJouleThief)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap410-rube-goldberg-led-blinking-machine.html)

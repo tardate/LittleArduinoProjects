@@ -1,0 +1,7 @@
+{
+    "id": "#410", 
+    "name": "HomopolarJouleThiefBlinky", 
+    "description": "a totally Rube-Goldberg mechanism for blinking an LED with a AAA battery", 
+    "categories": "Kinetics, LED, Oscillators", 
+    "relative_path": "Kinetics/HomopolarJouleThiefBlinky"
+}
