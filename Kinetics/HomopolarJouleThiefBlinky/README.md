@@ -2,13 +2,12 @@
 
 A totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms.
 
-Here are a couple of demos..
+![HomopolarJouleThiefBlinky_build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
+
+Here's a quick demo..
 
 [![clip](http://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](http://www.youtube.com/watch?v=tx0jU6hgwhY)
 
-[![clip](http://img.youtube.com/vi/8iEO_NgvEL8/0.jpg)](http://www.youtube.com/watch?v=8iEO_NgvEL8)
-
-![HomopolarJouleThiefBlinky_build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -64,6 +63,12 @@ I made a second with a red LED and a 100nF ceramic capacitor:
 
 ![HomopolarJouleThiefBlinky_build_pair](./assets/HomopolarJouleThiefBlinky_build_pair.jpg?raw=true)
 
+Here's a video of them in action:
+
+[![clip](http://img.youtube.com/vi/8iEO_NgvEL8/0.jpg)](http://www.youtube.com/watch?v=8iEO_NgvEL8)
+
+![HomopolarJouleThiefBlinky_in_action2](./assets/HomopolarJouleThiefBlinky_in_action2.jpg?raw=true)
+
 
 ## How It Works
 
@@ -90,6 +95,7 @@ Here's the schematic of the charge pump/LED circuit:
 
 ![Schematic](./assets/HomopolarJouleThiefBlinky_schematic.jpg?raw=true)
 
+![HomopolarJouleThiefBlinky_build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
 
 ## Credits and References
 * [This project on hackaday.io](https://hackaday.io/project/160409-homopolar-motor-joule-thief-led-blinking-machine)
