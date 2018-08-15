@@ -30,7 +30,6 @@ After some fiddling around, I ended up with a vertically-mounted demonstration t
 which immediately got me thinking about the collapsing electromegnetic field on each bounce, and how that reminded me of
 what is going on in a [Joule Thief](../Electronics101/ToroidJouleThief).
 
-
 Seems like this might suit the
 [MacroFab Design Contest: Blink an LED Sponsored by Mouser Electronics](https://macrofab.com/blog/macrofab-design-contest-blink-an-led-sponsored-by-mouser-electronics/).
 See the project I've submitted over on [hackaday.io](https://hackaday.io/project/160409).
@@ -41,6 +40,12 @@ Quite a simple arrangement of two subsystems:
 
 * the battery, magnets and coil are arranged as a bouncy homopolar motor
 * a diode and capacitor attached to the coil harvest the flyback energy to power the LED
+
+The charge pump/joule thief element of the circuit enables the LED to be powered from the 1.5V AAA source, even though the LED forward voltage is higher.
+The minimum forward voltages of the LEDs I've been using are as follows:
+
+* white LED Vf ~2.6V
+* red LED Vf ~1.8V
 
 Here's a sketch of my design:
 
