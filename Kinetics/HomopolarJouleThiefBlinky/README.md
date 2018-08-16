@@ -34,6 +34,8 @@ Seems like this might suit the
 [MacroFab Design Contest: Blink an LED Sponsored by Mouser Electronics](https://macrofab.com/blog/macrofab-design-contest-blink-an-led-sponsored-by-mouser-electronics/).
 See the project I've submitted over on [hackaday.io](https://hackaday.io/project/160409).
 
+PS: This is cool! Got a mention on [MEP#133](https://macrofab.com/blog/mep-ep-133-tales-electrical-engineer-ideas-mechanical-design/)
+
 ## The Design
 
 Quite a simple arrangement of two subsystems:
