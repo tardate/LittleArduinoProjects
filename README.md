@@ -1,5 +1,6 @@
-# 410 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [HomopolarJouleThiefBlinky](./Kinetics/HomopolarJouleThiefBlinky) - a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms.
+# 411 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/cordwood-three](./BoldportClub/cordwood-three) - custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -126,6 +127,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3 |
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
 | [#271 BoldportClub/cordwood/tuner](./BoldportClub/cordwood/tuner)                  | **Boldport, Cordwood, Arduino, Audio** use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp |
+| [#411 BoldportClub/cordwood-three](./BoldportClub/cordwood-three)                  | **Boldport, LED**               custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism |
 | [#321 BoldportClub/cordwood-too](./BoldportClub/cordwood-too)                      | **Boldport, PCB Design, LED**   the Cordwood Puzzle returns! Boldport Club Project #13, May 2017 |
 | [#322 BoldportClub/cordwood-too/FidgetCube](./BoldportClub/cordwood-too/FidgetCube) | **Boldport, Sensors, LED**     making a Fidget Cube controller for the Boldport Cordwood Too |
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |

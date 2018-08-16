@@ -14,6 +14,13 @@
         "name": "BoldportClub/PissOff"
     }, 
     {
+        "description": "custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism", 
+        "relative_path": "BoldportClub/cordwood-three", 
+        "id": "#411", 
+        "categories": "Boldport, LED", 
+        "name": "BoldportClub/cordwood-three"
+    }, 
+    {
         "description": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD3060 ripple counter", 
         "relative_path": "BoldportClub/whiteboard", 
         "id": "#392", 
