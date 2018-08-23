@@ -105,7 +105,7 @@ Here's the schematic of the charge pump/LED circuit:
 ![HomopolarJouleThiefBlinky_build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
 
 ## Credits and References
-* [This project on hackaday.io](https://hackaday.io/project/160409-homopolar-motor-joule-thief-led-blinking-machine)
 * [LEAP#203 HomopolarMotor](../HomopolarMotor)
 * [LEAP#137 Joule Thief](../Electronics101/ToroidJouleThief)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap410-rube-goldberg-led-blinking-machine.html)
+* [..as posted on hackady.io](https://hackaday.io/project/160409-homopolar-motor-joule-thief-led-blinking-machine)

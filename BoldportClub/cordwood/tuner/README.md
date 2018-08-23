@@ -71,3 +71,4 @@ which root note is playing.
 * [A Digital Guitar Tuner by Mary Lourde R., Anjali Kuppayil Saji](https://arxiv.org/pdf/0912.0745.pdf) - a scholarly article that explores the critical parameters that need to be addressed while designing a guitar tuner
 * [Digital Guitar Tuner by Dmitry Berenson](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2004/ddb25/complete2.htm) - this is perhaps the best description of a realistic circuit using and LM358 op amp and ATMEGA32 microcontroller
 * [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap271-cordwood-guitar-tuner.html)
+* [..as posted on hackady.io](https://hackaday.io/project/160667-cordwood-i-guitar-tuner)

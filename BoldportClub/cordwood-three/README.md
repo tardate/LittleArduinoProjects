@@ -26,6 +26,25 @@ The kit arrrived in the familar brown paper
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
+If you want to build this kit, the easiest way is to join the club and order the [BoldportClub kit](https://www.boldport.com/products/cordwood-puzzle-three).
+But you could do it without the kit:
+the [PCB design is open source](https://github.com/boldport/cordwood-three) so it is relatively easy to make an identical (or similar) set of boards,
+and the parts are relatively easy to obtain:
+
+| Qty | Original Part                                                                        | Mouser Equivalent |
+|-----|--------------------------------------------------------------------------------------|-----------------------|
+| x6  | 220Ω 2W resistor, [Multicomp MCF 2W 220R](http://uk.farnell.com/9338152)             | [603-RSF2WSJR-52-220R](https://www.mouser.com/ProductDetail/Yageo/RSF2WSJR-52-220R?qs=sGAEpiMZZMtlubZbdhIBIFynSgUwx%2fG%2fVcNTMKWkBVc%3d) |
+| x6  | 10KΩ 2W resistor, [Multicomp MCF 2W 10K](http://uk.farnell.com/9338063)              | [588-OY-10K-E](https://www.mouser.com/ProductDetail/Ohmite/OY103KE?qs=sGAEpiMZZMtlubZbdhIBIENcR%2f1aUFb0kWRlpIpjQPo%3d) |
+| x6  | MOSFET n-channel transistor, [Fairchild 2N7000_D26Z](http://uk.farnell.com/1467958)  | [512-2N7000](https://www.mouser.com/ProductDetail/ON-Semiconductor/2N7000?qs=sGAEpiMZZMshyDBzk1%2fWi9bHELEahoDnY1fyKF6A6Ko%3d) |
+| x1  | 1µF ceramic capacitor, [AVX SA305E105MARC](http://uk.farnell.com/1100420)            | [80-C440C105Z5U-TR](https://www.mouser.com/ProductDetail/KEMET/C440C105Z5U5TA7200?qs=sGAEpiMZZMt3KoXD5rJ2N1KrDHDg1VQtN0J20Zv5eAs%3d) |
+| x6  | 10mm green LEDs, [Kingbright L-813GD](http://uk.farnell.com/1142462)                 | [696-SSLLX100133SGD](https://www.mouser.com/ProductDetail/Lumex/SSL-LX100133SGD?qs=sGAEpiMZZMvHYEB9WUp7ElLqM0HAvqw0twtzB6l130A%3d) |
+| x1  | 25mm M3 female-female standoff, [ETTINGER 05.03.251](http://uk.farnell.com/1466783)  | [761-M1272-3005-SS](https://www.mouser.com/ProductDetail/RAF-Electronic-Hardware/M1272-3005-SS?qs=sGAEpiMZZMtrde5aJd3qwxLSm3K1%252btbtQheXQAV4RR4%3d) |
+| x1  | 25mm M3 female-male standoff, [ETTINGER 05.13.251](http://uk.farnell.com/1466786)    | [761-M2120-3005-SS](https://www.mouser.com/ProductDetail/RAF-Electronic-Hardware/M2120-3005-SS?qs=sGAEpiMZZMtrde5aJd3qwxLSm3K1%252btbtlmbMF%2f0uUho%3d) |
+| x2  | M3 screws, [DURATOOL M38 CSSTMCZ100-](http://uk.farnell.com/1419786)                 | |
+| x1  | 10-pin 2.54mm header, [Multicomp MC34739](http://uk.farnell.com/1593423)             | [710-61301011121](https://www.mouser.com/ProductDetail/Wurth-Electronics/61301011121?qs=sGAEpiMZZMs%252bGHln7q6pm%252bxnWLfLL2%2f91bcOqZDLfIg%3d) |
+| x5  | 6cm of 20AWG wire                                                                    | |
+
+
 ## Schematic
 
 The circuit is similar to the other cordword projects: essentially an array of
@@ -81,3 +100,4 @@ Side view..
 * [Cordwood Puzzle Three](https://www.boldport.com/products/cordwood-puzzle-three) - Boldport Product Page
 * [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap411-cordwood-iii-archway-trigger-mod.html)
+* [..as posted on hackady.io](https://hackaday.io/project/160666-cordwood-iii-led-blinking-machine)
