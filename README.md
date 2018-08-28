@@ -1,6 +1,5 @@
-# 411 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/cordwood-three](./BoldportClub/cordwood-three) - custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism.
-
+# 412 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BJT Comparator](./Electronics101/BJT/Comparator) - investigating and testing a comparator design with discrete components.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -112,6 +111,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
 | [#318 Bistable](./Electronics101/555Timer/Bistable)                                | **555 Timer**                   using the 555 timer as a bistable latch and button debouncer |
+| [#412 BJT Comparator](./Electronics101/BJT/Comparator)                             | **BJT, Comparator**             investigating and testing a comparator design with discrete components |
 | [#093 BJT CurrentSink](./Electronics101/BJT/CurrentSink)                           | **BJT, Power**                  test a BJT constant current sink circuit |
 | [#094 BJT LongTail Pair](./Electronics101/BJT/LongTailPair)                        | **BJT, OpAmp**                  test the basic BJT "long-tail" differential amplifier circuit |
 | [#138 BJT Monostable](./Electronics101/BJT/Monostable)                             | **BJT, RC**                     test a 2-transistor monostable multivibrator |

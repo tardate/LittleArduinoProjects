@@ -1435,6 +1435,13 @@
         "name": "BJT SawTooth"
     }, 
     {
+        "description": "investigating and testing a comparator design with discrete components", 
+        "relative_path": "Electronics101/BJT/Comparator", 
+        "id": "#412", 
+        "categories": "BJT, Comparator", 
+        "name": "BJT Comparator"
+    }, 
+    {
         "description": "simple unity-gain phase splitter in a little breadboard-compatible package", 
         "relative_path": "Electronics101/BJT/PhaseSplitter", 
         "id": "#378", 
