@@ -1,9 +1,8 @@
 # #118 RotaryEncoderMethods
-(was #104 RotaryEncoderISR)
 
 Finding the best method for reading a rotary-encoder.
 
-
+![The Build](./assets/RotaryEncoderMethods_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -15,7 +14,7 @@ I'm testing some mini rotary encoders I got from a
 [Incremental rotary encoders](https://en.wikipedia.org/wiki/Rotary_encoder#Incremental_rotary_encoder)
 generate step pulses trains that are 90˚ out of phase. Their relative sequencing therefore indicates rotation and direction:
 
-![Quadrature_Diagram CW](https://upload.wikimedia.org/wikipedia/en/6/68/Quadrature_Diagram.svg)
+![Quadrature_Diagram CW](https://upload.wikimedia.org/wikipedia/commons/6/68/Quadrature_Diagram.svg)
 
 It should be possible to hook a rotary encoder directly to an Arduino and sample the pin A/B signals.
 The [RotaryEncoders](http://playground.arduino.cc/Main/RotaryEncoders)
@@ -64,7 +63,7 @@ Here's a quick summary of the main considerations when interfacing with a rotary
 
 ### Full-step, Half-step or Quarter-step?
 
-![Quadrature_Diagram CW](https://upload.wikimedia.org/wikipedia/en/6/68/Quadrature_Diagram.svg)
+![Quadrature_Diagram CW](https://upload.wikimedia.org/wikipedia/commons/6/68/Quadrature_Diagram.svg)
 
 From the timing/phase diagram it's clear there are 4 distinct transitions per "cycle":
 
@@ -140,7 +139,6 @@ In fact it makes things worse, because the program just gets better and better a
 
 ### Basic Direct-Connect
 
-![The Build](./assets/RotaryEncoderMethods_build.jpg?raw=true)
 
 ![Breadboard](./assets/RotaryEncoderMethods_bb.jpg?raw=true)
 

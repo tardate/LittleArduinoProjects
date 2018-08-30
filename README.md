@@ -1,5 +1,6 @@
-# 412 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BJT Comparator](./Electronics101/BJT/Comparator) - investigating and testing a comparator design with discrete components.
+# 413 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Rotary Encoder Tester](./Electronics101/RotaryEncoders/IncrementalTester) - demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -379,6 +380,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#008 RGBCalibrate](./LEDArrayDemos/RGBCalibrate)                                  | **LED Array, Arduino**          quick test to make sure LEDs are correctly addressable and their color can be set correctly |
 | [#118 RotaryEncoderMethods](./playground/RotaryEncoderMethods)                     | **Sensor, Arduino**             finding the best method for reading a rotary-encoder |
 | [#119 RotaryEncoderModule](./playground/RotaryEncoderModule)                       | **Sensor, 8x8 LED, Arduino**    testing a Rotary Encoder module controlling an LED 8x8 display |
+| [#413 Rotary Encoder Tester](./Electronics101/RotaryEncoders/IncrementalTester)    | **Sensor, CMOS/TTL**            demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic |
 | [#084 RouletteKit](./Electronics101/555Timer/RouletteKit)                          | **555 Timer**                   build and examine the workings of a commercial 555 Roulette kit |
 | [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio**                  getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
