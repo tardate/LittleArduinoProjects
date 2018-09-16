@@ -1981,6 +1981,13 @@
         "name": "DelayKit"
     }, 
     {
+        "description": "building an old-fashioned 7-digit decade programmable resistor with push-button control", 
+        "relative_path": "Electronics101/DecadeProgrammableResistor", 
+        "id": "#414", 
+        "categories": "Test Equipment", 
+        "name": "Decade Programmable Resistor"
+    }, 
+    {
         "description": "build and investigate a commercially available \"3-band voice level indicator\" kit", 
         "relative_path": "Electronics101/VoiceLevelIndicatorKit", 
         "id": "#125", 

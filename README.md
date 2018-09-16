@@ -1,6 +1,5 @@
-# 413 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Rotary Encoder Tester](./Electronics101/RotaryEncoders/IncrementalTester) - demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic.
-
+# 414 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Decade Programmable Resistor](./Electronics101/DecadeProgrammableResistor) - building an old-fashioned 7-digit decade programmable resistor with push-button control.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -178,6 +177,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **Radio, Oscillators**          a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 current sensor module with display on a 5110 LCD |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
+| [#414 Decade Programmable Resistor](./Electronics101/DecadeProgrammableResistor)   | **Test Equipment**              building an old-fashioned 7-digit decade programmable resistor with push-button control |
 | [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**                  decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
 | [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
 | [#353 DFlipFlop](./Electronics101/DigitalLogic/DFlipFlop)                          | **Logic Gates, CMOS/TTL**       building a clocked D Flip-flop with 74LS00 NAND gates |
