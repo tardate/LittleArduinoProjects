@@ -2,6 +2,6 @@
     "id": "#295", 
     "name": "FrequencyCounterKit", 
     "description": "build and test a common PIC-based frequency counter kit", 
-    "categories": "PIC, Equipment, Oscillators", 
+    "categories": "PIC, Tools, Test Equipment, Oscillators", 
     "relative_path": "Equipment/FrequencyCounterKit"
 }

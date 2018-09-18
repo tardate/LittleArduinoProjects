@@ -2,6 +2,6 @@
     "id": "#324", 
     "name": "Labrador", 
     "description": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software", 
-    "categories": "Tools", 
+    "categories": "Tools, Test Equipment", 
     "relative_path": "Equipment/Labrador"
 }

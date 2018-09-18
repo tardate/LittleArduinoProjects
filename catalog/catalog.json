@@ -2768,14 +2768,14 @@
         "description": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference", 
         "relative_path": "Equipment/MilliVoltmeterDIY", 
         "id": "#372", 
-        "categories": "ATmega, ADC", 
+        "categories": "ATmega, ADC, Tools, Test Equipment", 
         "name": "MilliVoltmeterDIY"
     }, 
     {
         "description": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference", 
         "relative_path": "Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure", 
         "id": "#391", 
-        "categories": "ATmega, ADC", 
+        "categories": "ATmega, ADC, Tools, Test Equipment", 
         "name": "MilliVoltmeterDIY PCB and Enclosure"
     }, 
     {
@@ -2789,35 +2789,35 @@
         "description": "build and test a common PIC-based frequency counter kit", 
         "relative_path": "Equipment/FrequencyCounterKit", 
         "id": "#295", 
-        "categories": "PIC, Equipment, Oscillators", 
+        "categories": "PIC, Tools, Test Equipment, Oscillators", 
         "name": "FrequencyCounterKit"
     }, 
     {
         "description": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software", 
         "relative_path": "Equipment/Labrador", 
         "id": "#324", 
-        "categories": "Tools", 
+        "categories": "Tools, Test Equipment", 
         "name": "Labrador"
     }, 
     {
         "description": "unboxing and initial review of the Saike 909D 3-in-1 hot air rework station", 
         "relative_path": "Equipment/Saike909D", 
         "id": "#272", 
-        "categories": "Tools, Test Equipment", 
+        "categories": "Tools", 
         "name": "Saike909D"
     }, 
     {
         "description": "building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer", 
         "relative_path": "Equipment/DPS3005BenchPowerSupply", 
         "id": "#407", 
-        "categories": "Power", 
+        "categories": "Power, Tools", 
         "name": "DPS3005BenchPowerSupply"
     }, 
     {
         "description": "build and test a function generator kit based on the XR-2206 monolithic function generator", 
         "relative_path": "Equipment/FunctionGeneratorKit", 
         "id": "#282", 
-        "categories": "Oscillators, Tools, XR2206", 
+        "categories": "Oscillators, Tools, Test Equipment, XR2206", 
         "name": "FunctionGeneratorKit"
     }, 
     {
@@ -2838,7 +2838,7 @@
         "description": "checking out the GY560 Frequency Counter", 
         "relative_path": "Equipment/GY560", 
         "id": "#403", 
-        "categories": "Radio", 
+        "categories": "Radio, Tools, Test Equipment", 
         "name": "GY560"
     }, 
     {
@@ -2852,7 +2852,7 @@
         "description": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
         "relative_path": "Equipment/USBProtector", 
         "id": "#400", 
-        "categories": "Power, USB", 
+        "categories": "Power, USB, Tools, Test Equipment", 
         "name": "USBProtector"
     }, 
     {

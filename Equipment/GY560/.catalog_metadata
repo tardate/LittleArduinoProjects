@@ -2,6 +2,6 @@
     "id": "#403", 
     "name": "GY560", 
     "description": "checking out the GY560 Frequency Counter", 
-    "categories": "Radio", 
+    "categories": "Radio, Tools, Test Equipment", 
     "relative_path": "Equipment/GY560"
 }

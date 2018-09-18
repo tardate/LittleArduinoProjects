@@ -2,6 +2,6 @@
     "id": "#400", 
     "name": "USBProtector", 
     "description": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
-    "categories": "Power, USB", 
+    "categories": "Power, USB, Tools, Test Equipment", 
     "relative_path": "Equipment/USBProtector"
 }

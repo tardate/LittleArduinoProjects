@@ -194,7 +194,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#109 DiodeLogic/OR](./Electronics101/DiodeLogic/OR)                               | **Diode, Logic Gates**          test the basic diode-logic OR gate |
 | [#348 DLatch](./Electronics101/DigitalLogic/DLatch)                                | **Logic Gates, CMOS/TTL**       building a D Latch with 74LS00 NAND gates |
 | [#201 DoorbellKit](./Electronics101/555Timer/DoorbellKit)                          | **555 Timer, Oscillators**      another two-tone doorbell using a 555 timer oscillator |
-| [#407 DPS3005BenchPowerSupply](./Equipment/DPS3005BenchPowerSupply)                | **Power**                       building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer |
+| [#407 DPS3005BenchPowerSupply](./Equipment/DPS3005BenchPowerSupply)                | **Power, Tools**                building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer |
 | [#219 DS18S20/OneWireReading](./playground/DS18S20/OneWireReading)                 | **Sensors, Arduino**            basic interrogation of a DS18S20 using 1-wire protocol |
 | [#166 DS3231RTC/TimeDemo](./playground/DS3231RTC/TimeDemo)                         | **RTC, Arduino**                prints the system time synced from the RTC to the serial output |
 | [#188 EEPROM/AT24C02/BasicReadWrite](./playground/EEPROM/AT24C02/BasicReadWrite)   | **EEPROM, Arduino**             basic read/write operations to external EEPROM (AT24C02) with the Wire library |
@@ -214,10 +214,10 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, Radio**               teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
 | [#207 FrequencyCounter](./Electronics101/FrequencyCounter)                         | **CMOS, Oscillators**           test a CMOS frequency counter circuit with 100Hz - 5MHz range |
-| [#295 FrequencyCounterKit](./Equipment/FrequencyCounterKit)                        | **PIC, Equipment, Oscillators** build and test a common PIC-based frequency counter kit |
+| [#295 FrequencyCounterKit](./Equipment/FrequencyCounterKit)                        | **PIC, Tools, Test Equipment, Oscillators** build and test a common PIC-based frequency counter kit |
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
-| [#282 FunctionGeneratorKit](./Equipment/FunctionGeneratorKit)                      | **Oscillators, Tools, XR2206**  build and test a function generator kit based on the XR-2206 monolithic function generator |
+| [#282 FunctionGeneratorKit](./Equipment/FunctionGeneratorKit)                      | **Oscillators, Tools, Test Equipment, XR2206**  build and test a function generator kit based on the XR-2206 monolithic function generator |
 | [#220 GccToolchain](./playground/GccToolchain)                                     | **avr-lib, avrdude**            programming an Arduino with C and a command line |
 | [#245 GeneralCurveTracer](./Electronics101/GeneralCurveTracer)                     | **BJT, Oscillators**            test a DC-powered general curve tracer circuit |
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
@@ -228,7 +228,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#368 GranularSynth](./playground/GranularSynth)                                   | **Audio, Arduino**              building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right? |
 | [#098 GuitarHeadphoneAmp](./Electronics101/AudioAmps/GuitarHeadphoneAmp)           | **OpAmp, Audio**                an LM386 fixed-gain guitar headphone amp |
 | [#249 GuitarPracticeAmp](./Electronics101/AudioAmps/GuitarPracticeAmp)             | **OpAmp, Audio**                single-channel 10W guitar practice amplifier based on the TDA2050 |
-| [#403 GY560](./Equipment/GY560)                                                    | **Radio**                       checking out the GY560 Frequency Counter |
+| [#403 GY560](./Equipment/GY560)                                                    | **Radio, Tools, Test Equipment**       checking out the GY560 Frequency Counter |
 | [#198 HallEffectSwitch](./Electronics101/HallEffectSwitch)                         | **Sensors**                     testing a Hall effect switch |
 | [#005 HeartQuotes](./playground/HeartQuotes)                                       | **LCD, Ethernet, Arduino**      press a button to get a quote from the net and display on an LCD |
 | [#142 HighFrequencyOpAmpOscillators](./Electronics101/HighFrequencyOpAmpOscillators) | **OpAmp, Oscillators**         how fast can you push an Op-Amp oscillator? |
@@ -244,7 +244,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#305 KeyboardMatrixModule/LedControl](./playground/KeyboardMatrixModule/LedControl)             | **Arduino, LED**         demo controlling the LEDs on a simple pushbutton/LED matrix module |
 | [#306 KeyboardMatrixModule/SwitchInterrupts](./playground/KeyboardMatrixModule/SwitchInterrupts) | **Arduino, Human Input** demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library |
 | [#227 KnightRider](./Electronics101/555Timer/KnightRider)                          | **555 Timer, CMOS, LED**        the familiar "Knight-Rider" LED circuit using a 555 and 4017 |
-| [#324 Labrador](./Equipment/Labrador)                                              | **Tools**                       first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software |
+| [#324 Labrador](./Equipment/Labrador)                                              | **Tools, Test Equipment**                       first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software |
 | [#365 Lcd5110/AdafruitHardwareSPI](./playground/Lcd5110/AdafruitHardwareSPI)       | **LCD, Arduino**                a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library |
 | [#366 Lcd5110/AdafruitSoftwareSPI](./playground/Lcd5110/AdafruitSoftwareSPI)       | **LCD, Arduino**                a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
@@ -290,8 +290,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#313 MCP23S17](./Electronics101/MCP23S17)                                         | **Arduino, Port Expander**      investigate and test the MCP23S17 16-Bit I/O Expander with serial interface |
 | [#040 MeLEDy](./Electronics101/MeLEDy)                                             | **Audio**                       use an electret microphone to light a series of LEDs in proportion to volume |
 | [#252 MessageWaiting](./Electronics101/555Timer/MessageWaiting)                    | **LED, 555 Timer**              two-LED flasher with a 555 and minimal components - turned into a "message waiting" indicator with some free-wired SMD construction |
-| [#372 MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY)                            | **ATmega, ADC**                 an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
-| [#391 MilliVoltmeterDIY PCB and Enclosure](./Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure) | **ATmega, ADC**  custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
+| [#372 MilliVoltmeterDIY](./Equipment/MilliVoltmeterDIY)                            | **ATmega, ADC, Tools, Test Equipment** an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
+| [#391 MilliVoltmeterDIY PCB and Enclosure](./Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure) | **ATmega, ADC, Tools, Test Equipment**  custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference |
 | [#230 MinimalLCOscillator](./Electronics101/MinimalLCOscillator)                   | **LC, Oscillators**             test an LC oscillator of just 5 components |
 | [#326 Mixers](./Electronics101/Mixers)                                             | **Radio, Mixers**                  all about frequency mixers |
 | [#327 Mixers/RFDiodeRing](./Electronics101/Mixers/RFDiodeRing)                     | **Radio, Mixers**                  a diode ring double-balanced frequency mixer |
@@ -385,7 +385,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#351 RTL-SDR Dongle](./SDR/RtlSdrDongle)                                          | **SDR, Radio**                  getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR) |
 | [#104 Ruby](./Electronics101/AudioAmps/Ruby)                                       | **OpAmp, Audio**                a version of the runoffgroove Ruby LM386 guitar amp |
 | [#192 Sagrada Família](./Kraft/SagradaFamilia)                                     | **LED, Kraft**                  a paper model with some LED effects |
-| [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools, Test Equipment**       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
+| [#272 Saike909D](./Equipment/Saike909D)                                            | **Tools**                       unboxing and initial review of the Saike 909D 3-in-1 hot air rework station |
 | [#260 SaleaeLogic](./Equipment/SaleaeLogic)                                        | **Tools, Test Equipment, Logic Analyzer**  checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!) |
 | [#021 Schmitt Inverter](./Electronics101/SchmittInverter)                          | **CMOS/TTL**                    graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs |
 | [#317 SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) | **Schmitt, BJT**                test the classic emitter-coupled Schmitt Trigger circuit design |
@@ -457,7 +457,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#287 UltrasonicAlarm](./Electronics101/UltrasonicAlarm)                           | **555 Timer, Sensors, CMOS/TTL, HC-SR04** build an ultrasonic motion alarm with the HC-SR04 module and discrete logic |
 | [#174 UsbNotifier](./Electronics101/UsbNotifier)                                   | **LED, USB**                    tear-down and demo code for some oldUSB Webmail Notifier devices |
 | [#341 UsbPowerSupplyKit](./Electronics101/Power/UsbPowerSupplyKit)                 | **Power, USB**                  building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up |
-| [#400 USBProtector](./Equipment/USBProtector)                                      | **Power, USB**                  building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection |
+| [#400 USBProtector](./Equipment/USBProtector)                                      | **Power, USB, Tools, Test Equipment**  building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection |
 | [#145 VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [#276 VariableFrequencyRunwayLEDs](./playground/VariableFrequencyRunwayLEDs)       | **LED, Arduino**                a PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4017 |
