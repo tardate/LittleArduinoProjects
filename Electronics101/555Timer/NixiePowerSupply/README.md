@@ -272,35 +272,35 @@ Using a selection of RC values for the snubber...
 
 30pF/1kΩ: has reduced the amplitude of the ringing but it still affect the entire on-cycle.
 
-[in14_strike_rc_30_1k](./assets/in14_strike_rc_30_1k.gif?raw=true)
+![in14_strike_rc_30_1k](./assets/in14_strike_rc_30_1k.gif?raw=true)
 
 30pF/4.7kΩ: more ringing now fully dampened before the end of the on-cycle.
 
-[in14_strike_rc_30_4k7](./assets/in14_strike_rc_30_4k7.gif?raw=true)
+![in14_strike_rc_30_4k7](./assets/in14_strike_rc_30_4k7.gif?raw=true)
 
 100pF/1kΩ: ringing dampened by much earlier in the the on-cycle.
 
-[in14_strike_rc_101_1k](./assets/in14_strike_rc_101_1k.gif?raw=true)
+![in14_strike_rc_101_1k](./assets/in14_strike_rc_101_1k.gif?raw=true)
 
 100pF/4.7kΩ: not much different than the 1kΩ case.
 
-[in14_strike_rc_101_4k7](./assets/in14_strike_rc_101_4k7.gif?raw=true)
+![in14_strike_rc_101_4k7](./assets/in14_strike_rc_101_4k7.gif?raw=true)
 
 150pF/1kΩ
 
-[in14_strike_rc_151_1k](./assets/in14_strike_rc_151_1k.gif?raw=true)
+![in14_strike_rc_151_1k](./assets/in14_strike_rc_151_1k.gif?raw=true)
 
 150pF/4.7kΩ
 
-[in14_strike_rc_151_4k7](./assets/in14_strike_rc_151_4k7.gif?raw=true)
+![in14_strike_rc_151_4k7](./assets/in14_strike_rc_151_4k7.gif?raw=true)
 
 470pF/1kΩ: ringing fully dampened
 
-[in14_strike_rc_471_1k](./assets/in14_strike_rc_471_1k.gif?raw=true)
+![in14_strike_rc_471_1k](./assets/in14_strike_rc_471_1k.gif?raw=true)
 
 470pF/4.7kΩ: ringing deteriorates compared to the 1kΩ case
 
-[in14_strike_rc_471_4k7](./assets/in14_strike_rc_471_4k7.gif?raw=true)
+![in14_strike_rc_471_4k7](./assets/in14_strike_rc_471_4k7.gif?raw=true)
 
 
 #### A Better 555 Astable Configuration?
