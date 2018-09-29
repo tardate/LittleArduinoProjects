@@ -14,6 +14,8 @@ First step is to test them of course, and for that a high voltage (supposedly up
 Among the many examples, I found this interesting
 [instructable by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/)
 that used a 555 timer to drive a boost converter.
+NB: it seems this and most other 555 Nixie driver circuits are probably derived from Ronald Dekker's
+[A simple boost converter high voltage supply for NIXIEs](http://www.dos4ever.com/flyback/flyback.html#boost2).
 
 From the outset, I knew this would not be a very practical circuit due to it's reported low conversion efficiency, but good enough
 (and importantly: interesting enough) for a test.
@@ -312,6 +314,7 @@ Removes active pulldown circuit and adjusts RC snubber component values
 
 ## Credits and References
 * [Nixie tube](https://en.wikipedia.org/wiki/Nixie_tube) - wikipedia
+* [A simple boost converter high voltage supply for NIXIEs](http://www.dos4ever.com/flyback/flyback.html#boost2) - perhaps one of the earliest exampels of a 555 boost circuit for Nixies
 * [HIGH VOLTAGE POWER SUPPLY FOR NIXIE AND VALVE TUBES by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/) - instructables
 * [NIXIE TUBE HV DRIVER](https://www.instructables.com/id/Nixie-Tube-HV-Driver/) - another instructables, similar circuit
 * [Nixie Stuff](https://threeneurons.wordpress.com/nixie-power-supply/) - threeneurons
