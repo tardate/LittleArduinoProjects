@@ -172,10 +172,11 @@ to light a digit. NB: I checked this with an ammeter and was a little suprised i
 
 ## Circuit Design - Version 2
 
-Base on the results above, there are two things I wanted to investigate to see if an improved circuit was possible:
+Base on the results above, there are a few things I wanted to investigate to see if an improved circuit was possible:
 
 * is the active pulldown circuit really necessary?
 * how much does the RC snubber contribute to inefficiency, and can it be better tuned?
+* does the relatively low R3 value (1kΩ) in the 555 configuration lead to significant avoidable losses?
 
 The details of my investigation are below, but here is the TL/DR:
 
@@ -300,6 +301,18 @@ Using a selection of RC values for the snubber...
 470pF/4.7kΩ: ringing deteriorates compared to the 1kΩ case
 
 [in14_strike_rc_471_4k7](./assets/in14_strike_rc_471_4k7.gif?raw=true)
+
+
+#### A Better 555 Astable Configuration?
+
+When the 555 timer discharges, R3 (1kΩ) is placed essentially across the supply rails (plus a diode drop),
+hence low values can lead to significant wasted power.
+
+I switched the astable configuration to 10kΩ/47kΩ/470pF which produces a similar base oscillation of
+[29kHz at 54% duty cycle](https://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.00047).
+
+However I was non-plussed by the results - negligible improvement in efficiency (in the 0.1% range) -
+so I abandoned this idea.
 
 
 ### Version 2 Construction
