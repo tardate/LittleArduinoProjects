@@ -80,7 +80,9 @@ Pins are as follows (numbered clock-wise when looking at the base)
 
 ![tube_in14](./assets/tube_in14.jpg?raw=true)
 
-## Circuit Design
+## Circuit Design - Version 1
+
+> Note - see below for a revised circuit design and test results based on observations with this first version of the circuit.
 
 I've used the schematic from the [instructable by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/)
 with a few component variations including:
@@ -95,6 +97,7 @@ NB: at the last minute, I realised I was out of IRF730, so I substituted an IRF6
 That's a bit close for comfort, but it is what I used in the examples that follow.
 
 The currents and power consumption are reasonably low (peaking at 0.94W) so I'm building this on a breadboard.
+I'm using my [LEAP#407 DPS3005-based power supply](../../../Equipment/DPS3005BenchPowerSupply) for power, set for 9V with a 0.5A current limit just in case.
 
 Note that the danger of high-voltages are present. A nice feature of the circuit is that it does discharge capacitors on power-down.
 
@@ -107,7 +110,7 @@ A couple of things to note about the circuit:
 * The 555 timer is configured as astable with a [basic frequency of 31kHz and 52% duty cycle](https://visual555.tardate.com/?mode=astable&r1=1&r2=10&c=0.0022)
 * The R6 potentiometer taps a variable fraction of the boost converter output and this provides negative feedback to adjust the control voltage of the 555
 * an "active pulldown" circuit comprising Q2 (2N3904), D2 (1N4148) and R8 (1kΩ) is used on the 555 output
-    - this idea was borrowed from a [MC34063 design](https://threeneurons.wordpress.com/nixie-power-supply/)
+    - this idea was borrowed from an [MC34063 design](https://threeneurons.wordpress.com/nixie-power-supply/)
     - I'm not sure this is really required, as the 555 presents an open-collector output when low. The active pulldown circuit is probably redundant (I'll test this).
 * The R9/C4 across the switching FET:
     - is an RC snubber circuit, protecting the FET from voltage spikes from the inductor
@@ -118,9 +121,9 @@ A couple of things to note about the circuit:
 A similar circuit was critiqued in some detail is this Electronics StackExchange post:
 [555 timer boost converter doesn't meet spec](https://electronics.stackexchange.com/questions/152432/555-timer-boost-converter-doesnt-meet-spec)
 
-## Test Results
+### Test Results
 
-### IN-3
+#### IN-3
 
 
 ![NixiePowerSupply_test_in3](./assets/NixiePowerSupply_test_in3.jpg?raw=true)
@@ -142,7 +145,7 @@ Measured:
 
 If those readings are reasonably correct, the IN-3 tube is juiced with [3.2mA](https://www.wolframalpha.com/input/?i=(90V+-+58V)%2F10k%CE%A9).
 
-### IN-14
+#### IN-14
 
 ![Build](./assets/NixiePowerSupply_build.jpg?raw=true)
 
@@ -162,7 +165,149 @@ According to my power supply, it is delivering around 0.86W (9V at 96mA) at the 
 
 I'm doubting the accuracy not sure how accurate my oscilloscope is at those voltages,
 but they would indicate the IN-14 tube is only needing [0.2mA](https://www.wolframalpha.com/input/?i=(132V+-+130V)%2F10k%CE%A9)
-to light a digit. I suspect quite an error in that.
+to light a digit. NB: I checked this with an ammeter and was a little suprised it's not far off - actually about 0.27mA.
+
+
+## Circuit Design - Version 2
+
+Base on the results above, there are two things I wanted to investigate to see if an improved circuit was possible:
+
+* is the active pulldown circuit really necessary?
+* how much does the RC snubber contribute to inefficiency, and can it be better tuned?
+
+The details of my investigation are below, but here is the TL/DR:
+
+* active pulldown circuit is actually a bad idea with the 555 timer as a switching controller and should be eliminated
+* the RC snubber circuit reduces ringing in the boost circuit, but poor choice of components can have a significant impact on efficiency
+
+
+### Active Pulldown?
+
+In the original circuit, an "active pulldown" circuit comprising Q2 (2N3904), D2 (1N4148) and R8 (1kΩ) is used on the 555 output.
+This idea was borrowed from an [MC34063 design](https://threeneurons.wordpress.com/nixie-power-supply/),
+but I'm not sure this is really required, as the 555 presents an open-collector output when low:
+
+![555_output_driver](./assets/555_output_driver.png?raw=true)
+
+So, some measurements were in order.
+Here are the results for tests with an IN-14 running at strike voltage, with various RC snubber combinations.
+The "active pulldown" cases use the original circuit, those marked "direct gate drive" have the 555 output
+directly coupled to the MOSFET gate.
+
+
+| Configuration                          | Nixie Current  | Input Power |
+|----------------------------------------|----------------|-------------|
+| 30pF/4.7kΩ snubber, active pulldown    | 0.33mA         | 0.45W       |
+| 30pF/4.7kΩ snubber, direct gate drive  | 0.39mA         | 0.45W       |
+| 30pF/1kΩ snubber, active pulldown      | 0.30mA         | 0.44W       |
+| 30pF/1kΩ snubber, direct gate drive    | 0.38mA         | 0.44W       |
+| 470pF/4.7kΩ snubber, active pulldown   | 0.31mA         | 0.51W       |
+| 470pF/4.7kΩ snubber, direct gate drive | 0.37mA         | 0.51W       |
+| 470pF/1kΩ snubber, active pulldown     | 0.27mA         | 0.72W       |
+| 470pF/1kΩ snubber, direct gate drive   | 0.31mA         | 0.71W       |
+
+
+It is apparent that the active pulldown circuit has no real impact on the input power consumption,
+but it does have the undesirable effect of actually reducing the Nixie current for the same power input.
+
+I think this confirms my suspicion - the active pulldown circuit is redundant with a 555 timer and can be jetisoned.
+NB: it may still be relevant for other ICs used as switching controllers.
+
+
+### RC Snubber
+
+In the original circuit, R9 (1kΩ) and C4 (470pF) across the drain-source of the switching FET act as an RC snubber.
+The role of an RC snubber in switching circuits is explained pretty well in the article
+[Resistor-Capacitor (RC) Snubber Design for Power Switches](https://www.digikey.sg/en/articles/techzone/2014/aug/resistor-capacitor-rc-snubber-design-for-power-switches).
+
+The key points:
+
+* snubbers are placed across the power switches to suppress voltage spikes and damp the ringing caused by circuit inductance when a switch opens
+* power dissipation is proportional to snubber capacitance, output voltage (squared) and switching frequency.
+
+In the following scope traces, channels are connected as follows:
+
+* CH1 (yellow): Nixie anode
+* CH2 (blue): junction of the inductor and MOSFET drain
+* CH3 (red): 555 timer output
+
+Note: these traces are captured with the active pulldown circuit already removed.
+
+Some measurements for selected configurations:
+
+| Snubber     | Nixie Voltage  | Nixie Current  | Input Power |                                                                        |
+|-------------|----------------|----------------|-------------|------------------------------------------------------------------------|
+| Removed     | 126.5V         | 0.40mA         | 0.44W       | [11.5%](https://www.wolframalpha.com/input/?i=(126.5V*0.40mA)%2F0.44W) |
+| 30pF/4.7kΩ  | 126.5V         | 0.39mA         | 0.45W       | [11%](https://www.wolframalpha.com/input/?i=(126.5V*0.39mA)%2F0.45W)   |
+| 30pF/4.7kΩ  | 148.0V         | 2.01mA         | 1.34W       | [22.2%](https://www.wolframalpha.com/input/?i=(148V*2.01mA)%2F1.34W)   |
+| 30pF/1kΩ    | 126.5V         | 0.38mA         | 0.44W       | [10.9%](https://www.wolframalpha.com/input/?i=(126.5V*0.38mA)%2F0.44W) |
+| 470pF/4.7kΩ | 126.5V         | 0.37mA         | 0.51W       | [9.2%](https://www.wolframalpha.com/input/?i=(126.5V*0.37mA)%2F0.51W)  |
+| 470pF/1kΩ   | 126.5V         | 0.31mA         | 0.71W       | [5.5%](https://www.wolframalpha.com/input/?i=(126.5V*0.31mA)%2F0.71W)  |
+
+
+Conclusions:
+* a snubber capacitor around 30pF to 100pF with 4.7kΩ offers a good balance of stabilising the circuit without undue impact on efficiency (see scope traces below)
+* at low Nixie currents, overall efficiency is swamped by other components in the system
+* when Nixie current approaches higher/brighter values (say 2mA), or the power supply is being used to drive more Nixie tubes, efficiency becomes a little more decent.
+
+
+#### Without Snubber
+
+First, removing the snubber completely.
+The ringing is very obvious, but it does not have any apparent impact on the Nixie voltage.
+
+At 0.40mA, the current delivered to the Nixie tube is slightly more that with a snubber in place (for the same input power).
+
+In this configuration, the efficiency of the circuit is only [11.5%](https://www.wolframalpha.com/input/?i=(126.5V*0.40mA)%2F0.44W)
+
+![in14_strike_rc_na](./assets/in14_strike_rc_na.gif?raw=true)
+
+
+####  RC Snubber Examples
+
+Using a selection of RC values for the snubber...
+
+30pF/1kΩ: has reduced the amplitude of the ringing but it still affect the entire on-cycle.
+
+[in14_strike_rc_30_1k](./assets/in14_strike_rc_30_1k.gif?raw=true)
+
+30pF/4.7kΩ: more ringing now fully dampened before the end of the on-cycle.
+
+[in14_strike_rc_30_4k7](./assets/in14_strike_rc_30_4k7.gif?raw=true)
+
+100pF/1kΩ: ringing dampened by much earlier in the the on-cycle.
+
+[in14_strike_rc_101_1k](./assets/in14_strike_rc_101_1k.gif?raw=true)
+
+100pF/4.7kΩ: not much different than the 1kΩ case.
+
+[in14_strike_rc_101_4k7](./assets/in14_strike_rc_101_4k7.gif?raw=true)
+
+150pF/1kΩ
+
+[in14_strike_rc_151_1k](./assets/in14_strike_rc_151_1k.gif?raw=true)
+
+150pF/4.7kΩ
+
+[in14_strike_rc_151_4k7](./assets/in14_strike_rc_151_4k7.gif?raw=true)
+
+470pF/1kΩ: ringing fully dampened
+
+[in14_strike_rc_471_1k](./assets/in14_strike_rc_471_1k.gif?raw=true)
+
+470pF/4.7kΩ: ringing deteriorates compared to the 1kΩ case
+
+[in14_strike_rc_471_4k7](./assets/in14_strike_rc_471_4k7.gif?raw=true)
+
+
+### Version 2 Construction
+
+Removes active pulldown circuit and adjusts RC snubber component values
+
+![Breadboard](./assets/NixiePowerSupply_v2_bb.jpg?raw=true)
+
+![Schematic](./assets/NixiePowerSupply_v2_schematic.jpg?raw=true)
+
 
 
 ## Credits and References
