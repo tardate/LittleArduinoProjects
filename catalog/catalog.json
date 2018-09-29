@@ -2541,6 +2541,13 @@
         "name": "Square Wave - 555"
     }, 
     {
+        "description": "using a 555 boost converter to test some Nixie IN3 and IN14 tubes", 
+        "relative_path": "Electronics101/555Timer/NixiePowerSupply", 
+        "id": "#415", 
+        "categories": "Power, Nixie, 555 Timer", 
+        "name": "Nixie Power Supply - 555 Timer Version"
+    }, 
+    {
         "description": "build and examine the workings of a commercial 555 Roulette kit", 
         "relative_path": "Electronics101/555Timer/RouletteKit", 
         "id": "#084", 

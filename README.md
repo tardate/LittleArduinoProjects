@@ -1,5 +1,5 @@
-# 414 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Decade Programmable Resistor](./Electronics101/DecadeProgrammableResistor) - building an old-fashioned 7-digit decade programmable resistor with push-button control.
+# 415 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [Nixie Power Supply - 555 Timer Version](./Electronics101/555Timer/NixiePowerSupply) - using a 555 boost converter to test some Nixie IN3 and IN14 tubes.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -311,6 +311,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
 | [#226 MusicBoxKit](./Electronics101/MusicBoxKit)                                   | **Music, Arduino**              build and test a Music Box kit, and run a demonstration under Arduino control |
 | [#156 MSO5074FG_unboxing](./Equipment/MSO5074FG_unboxing)                          | **Tools, Test Equipment, Oscilloscope** unboxing and first tests of a Hantek MSO5074FG oscilloscope |
+| [#415 Nixie Power Supply - 555 Timer Version](./Electronics101/555Timer/NixiePowerSupply) | **Power, Nixie, 555 Timer**   using a 555 boost converter to test some Nixie IN3 and IN14 tubes |
 | [#377 Nokia 5110 Shield](./playground/Lcd5110/DIYShield)                           | **LCD, Arduino**                putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping |
 | [#036 NonInverting324](./Electronics101/NonInverting324)                           | **OpAmp**                       demo LM324 OpAmp non-inverting DC gain mode |
 | [#072 NOR7402](./Electronics101/NOR7402)                                           | **CMOS/TTL, Arduino**           demo the 74LS02 Quad 2-input NOR gate with an Arduino |
