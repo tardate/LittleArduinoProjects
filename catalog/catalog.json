@@ -1148,6 +1148,13 @@
         "name": "FQ777-954/TearDown"
     }, 
     {
+        "description": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp", 
+        "relative_path": "Kinetics/LineFollowerKit", 
+        "id": "#416", 
+        "categories": "Sensors, Kinetics, OpAmp", 
+        "name": "LineFollowerKit"
+    }, 
+    {
         "description": "build a basic homopolar motor", 
         "relative_path": "Kinetics/HomopolarMotor", 
         "id": "#203", 

@@ -1,5 +1,9 @@
-# 415 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Nixie Power Supply - 555 Timer Version](./Electronics101/555Timer/NixiePowerSupply) - using a 555 boost converter to test some Nixie IN3 and IN14 tubes.
+# 416 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LineFollowerKit](./Kinetics/LineFollowerKit) - building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp.
+
+
+
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -277,6 +281,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#179 LEDx16Module](./playground/LEDx16Module)                                     | **CMOS/TTL, SMD, Arduino**      a custom 16 LED SMD PCB with 74HC595 shift register interface |
 | [#065 LevelIndicatorLM3915](./playground/LevelIndicatorLM3915)                     | **LM3915, Arduino**             Driving an LM3915 10-segment display with a single Arduino pin |
 | [#010 LightOrNot](./playground/LightOrNot)                                         | **Sensors, Arduino**            uses an LDR to adjust the blink rate of an LED |
+| [#416 LineFollowerKit](./Kinetics/LineFollowerKit)                                 | **Sensors, Kinetics, OpAmp**    building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp |
 | [#350 LiteWings](./Kraft/CircuitScribe/LiteWings)                                  | **Conductive Ink**              learning about conductive ink with the CircuitScribe LiteWings kit |
 | [#095 LittleGem/A386](./Electronics101/AudioAmps/LittleGem)                        | **OpAmp, Audio**                a basic Smokey-inspired LM386 guitar power amp |
 | [#160 LM324/SplitterBuffer](./Electronics101/LM324/SplitterBuffer)                 | **OpAmp**                       demonstrate load-independance of an LM324 buffer and signal splitter |
