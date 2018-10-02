@@ -15,7 +15,8 @@ Here's a quick demo..
 The [D2-5 Intelligent Line Tracking Car Kit](https://www.aliexpress.com/item/1Pcs-D2-5-Intelligent-Tracking-Line-Car-DIY-Kit-TT-Motor-Electronic-Assembly-Smart-Automobile-Part/32823554018.html) is widely available from the usual online sources. There are a number of variations around, but they all share the same essential control circuit.
 
 This is a neat little example of the most basic class of [Line Follower Robots](https://www.elprocus.com/line-follower-robot-basics-controlling/).
-It uses LEDs and light-dependent resistors on the left and right to provide feedback to control left and right motors accordingly.
+It uses LEDs and light-dependent resistors on the left and right to provide feedback to control left and right motors accordingly,
+with an op-amp comparator providing the "brains".
 
 If you know someone just getting into electronics and looking for something a little more challenging than soldering an LED blinky,
 then I'd recommend this kit. It's hard to get wrong, introduces a few more components, and it's usually available cheap enough to be a nice stocking stuffer.
@@ -26,11 +27,13 @@ Most importantly - it actually works!
 
 Here it is - a bag of parts, PCB and a test track on a piece of A4.
 There are no instructions, however the PCB silkscreen has all the details marked to build the circuit correctly,
-and images online help get the machanical construction right.
+and images online help get the mechanical construction right.
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
 The PCB is single-sided, which is fine, but it does mean the LDR and LEDs on the underside of the car are actually soldered on the same side as the component.
+Another way to make sure you get it right: the component should always be on the same side as the silkscreen component outline.
+
 If one is not carefully paying attention during construction, it is possible to end up with the LDR/LEDs pointing up in the air instead of towards the ground
 (literally: you made a bug instead of a robot).
 
@@ -98,6 +101,8 @@ If you were to put this circuit on a breadboard, then like this:
 
 The circuit was an easy solder job, with nice spacing between pads that will be fine for the less experienced.
 
+![kit_complete_top](./assets/kit_complete_top.jpg?raw=true)
+
 The main tricky part of the construction is to ensure the gear wheels are correctly spaced from the board:
 
 * too high into the gear well, and they'll catch on the PCB and/or motor
@@ -108,10 +113,10 @@ There were some plastic yellow rings in the kit, and I found using one as a spac
 I thought these yellow rings were axle bushings, so I'm not sure if this was their intended use or the axle mounts were actually the wrong size.
 Either way - it worked out.
 
-
-![kit_complete_top](./assets/kit_complete_top.jpg?raw=true)
-
 ![kit_complete_bottom](./assets/kit_complete_bottom.jpg?raw=true)
+
+All ready to go follow lines! It just happens that with the R1, R2 potentiometers at mid-point it worked just fine the first time
+in my lighting conditions and with the printed test track. YMMV, and adjustment may be necessary to keep it on track or reduce some of the "hunting" back and forth.
 
 ![Build](./assets/LineFollowerKit_build.jpg?raw=true)
 
