@@ -22,6 +22,8 @@ If you know someone just getting into electronics and looking for something a li
 then I'd recommend this kit. It's hard to get wrong, introduces a few more components, and it's usually available cheap enough to be a nice stocking stuffer.
 Most importantly - it actually works!
 
+And once it's working - there are endless possibilities to pimp it up with custom bodywork.
+
 
 ## Kit
 
