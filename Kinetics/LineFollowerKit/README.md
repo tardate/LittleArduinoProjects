@@ -27,8 +27,8 @@ And once it's working - there are endless possibilities to pimp it up with custo
 
 ## Kit
 
-Here it is - a bag of parts, PCB and a test track on a piece of A4.
-There are no instructions, however the PCB silkscreen has all the details marked to build the circuit correctly,
+Here it is - a bag of parts, PCB and instructions and a test track on a piece of A4.
+The instructions are in Chinese, however the PCB silkscreen has all the details marked to build the circuit correctly,
 and images online help get the mechanical construction right.
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
@@ -42,6 +42,10 @@ If one is not carefully paying attention during construction, it is possible to 
 ![kit_pcb_front](./assets/kit_pcb_front.jpg?raw=true)
 
 ![kit_pcb_rear](./assets/kit_pcb_rear.jpg?raw=true)
+
+The instructions and parts list is Chinese, and there's a clear schematic provided:
+
+![kit_instructions](./assets/kit_instructions.jpg?raw=true)
 
 ### Parts
 
