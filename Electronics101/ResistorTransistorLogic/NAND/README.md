@@ -55,3 +55,5 @@ for plotting with [PlotNValues](../../../processing/PlotNValues) (a simple Proce
 * [Logic Gates using Transistors](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/trangate.html)
 * [Logic Gates using Transistors #2](https://electrosome.com/logic-gates-using-transistors/) - note, when last checked, the AND circuit is wrong?
 * [Logic AND Gate Tutorial](http://www.electronics-tutorials.ws/logic/logic_2.html) - explains of the basic circuit used here.
+* [Electronics Projects: How to Create a Transistor NAND Gate Circuit](https://www.dummies.com/programming/electronics/diy-projects/electronics-projects-how-to-create-a-transistor-nand-gate-circuit/)
+* [From Transistors to Functions](http://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/)

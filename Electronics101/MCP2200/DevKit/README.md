@@ -227,4 +227,5 @@ See [LEAP#335 Chaser](../Chaser) for a demonstration of input and output capabil
 * [MCP2200 Breakout Module](http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=ADM00393)
 * [MCP2200 HID Interface Command Description](http://ww1.microchip.com/downloads/en/DeviceDoc/93066A.pdf)
 * [hidapi source](http://www.signal11.us/oss/hidapi/)
+* [USBanana_UART](https://github.com/regendrogenbogen/USBanana_UART) - breakout board design for the MCP2200
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap334-exercising-the-mcp2200-usb-uart-transceiver.html)
