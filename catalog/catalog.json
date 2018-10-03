@@ -805,6 +805,13 @@
         "name": "TinyBlink"
     }, 
     {
+        "description": "playing short audio samples on an Arduino using some PWM tricks from the PCM library", 
+        "relative_path": "playground/Audio/SimpleSamplePlayer", 
+        "id": "#417", 
+        "categories": "Audio, Arduino, PWM", 
+        "name": "SimpleSamplePlayer"
+    }, 
+    {
         "description": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
         "relative_path": "playground/TFT/Color128x128", 
         "id": "#361", 

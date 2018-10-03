@@ -1,10 +1,5 @@
-# 416 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LineFollowerKit](./Kinetics/LineFollowerKit) - building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp.
-
-
-
-
-
+# 417 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [SimpleSamplePlayer](./playground/Audio/SimpleSamplePlayer) - playing short audio samples on an Arduino using some PWM tricks from the PCM library.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -401,6 +396,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#041 Shifty](./playground/Shifty)                                                 | **LED, CMOS/TTL, Arduino**      drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [#044 SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [#120 SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |
+| [#417 SimpleSamplePlayer](./playground/Audio/SimpleSamplePlayer)                   | **Audio, Arduino, PWM**         playing short audio samples on an Arduino using some PWM tricks from the PCM library |
 | [#045 SimpleSiren](./Electronics101/555Timer/SimpleSiren)                          | **555 Timer**                   classic timer circuit producing a two-tone oscillation |
 | [#388 SingaporeBands](./Radio/SingaporeBands)                                      | **Radio**                       notes on official band plans for Singapore and my and personal observations on where the activity is found |
 | [#208 SingleStageTransmitterKit](./Electronics101/FM/SingleStageTransmitterKit)    | **FM**                          build a simple single-stage FK702 FM Transmitter Kit by Future Kit |
