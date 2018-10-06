@@ -84,6 +84,8 @@ Now putting the circuit on a piece of protoboard, with C1 values selected with a
 
 ![CommonEmitterHartley_pb_build](./assets/CommonEmitterHartley_pb_build.jpg?raw=true)
 
+![CommonEmitterHartley_pb_build_rear](./assets/CommonEmitterHartley_pb_build_rear.jpg?raw=true)
+
 Very strong oscillation achieved, with significantly higher peak-peak voltage output than in the breadboard build,
 however this does cost more distortion in the signal (I suspect the transistor bias needs adjusting - perhaps higher R3 value)
 
