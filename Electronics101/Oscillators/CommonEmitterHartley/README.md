@@ -87,7 +87,7 @@ Now putting the circuit on a piece of protoboard, with C1 values selected with a
 ![CommonEmitterHartley_pb_build_rear](./assets/CommonEmitterHartley_pb_build_rear.jpg?raw=true)
 
 Very strong oscillation achieved, with significantly higher peak-peak voltage output than in the breadboard build,
-however this does cost more distortion in the signal (I suspect the transistor bias needs adjusting - perhaps higher R3 value)
+however this does cost more distortion in the signal (I suspect the transistor bias needs adjusting).
 
 | C1    | Freq    | Vp-p  | Frequency (theoretical)                                                                |
 |-------|---------|-------|----------------------------------------------------------------------------------------|
@@ -106,6 +106,31 @@ Scope trace for C1=1nF:
 Scope trace for C1=100pF:
 
 ![scope_pb_100pF](./assets/scope_pb_100pF.gif?raw=true)
+
+
+## Improving the Waveform
+
+
+Reducing R3 to [17Ω](https://toolbox.tardate.com/?formula=22%7C68#ResistorCalculator) (put putting a 68Ω resistor in parallel)
+eliminates the worst (clipping) distortion especially at higher frequencies. Some revised results with this configuration:
+
+| C1    | Freq    | Vp-p  | Frequency (theoretical)                                                                |
+|-------|---------|-------|----------------------------------------------------------------------------------------|
+| 10nF  | 645kHz  | 16V   | [459kHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(12%C2%B5H+*+10nF)))   |
+| 1nF   | 1.42MHz | 8V    | [1.45MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(12%C2%B5H+*+1nF)))   |
+| 100pF | 3.12MHz | 12.5V | [4.59MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(12%C2%B5H+*+100pF))) |
+
+Scope trace for C1=10nF, R3=17Ω:
+
+![scope_pb_v2_10nF](./assets/scope_pb_v2_10nF.gif?raw=true)
+
+Scope trace for C1=1nF, R3=17Ω:
+
+![scope_pb_v2_1nF](./assets/scope_pb_v2_1nF.gif?raw=true)
+
+Scope trace for C1=100pF, R3=17Ω:
+
+![scope_pb_v2_100pF](./assets/scope_pb_v2_100pF.gif?raw=true)
 
 
 ## Credits and References
