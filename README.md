@@ -1,5 +1,7 @@
-# 417 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [SimpleSamplePlayer](./playground/Audio/SimpleSamplePlayer) - playing short audio samples on an Arduino using some PWM tricks from the PCM library.
+# 418 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CommonEmitterHartley](./Electronics101/Oscillators/CommonEmitterHartley) - build and test a BJT common-emitter Hartley oscillator.
+
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -170,6 +172,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#246 CMOSOscillators](./Electronics101/CMOSOscillators)                           | **CMOS, Oscillators**           testing a 4-pin CMOS oscillator component |
 | [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
 | [#371 CommonEmitterAmplifier](./Electronics101/BJT/CommonEmitterAmplifier)         | **BJT**                         all about BJT common-emitter amplifier biasing and class of operation |
+| [#418 CommonEmitterHartley](./Electronics101/Oscillators/CommonEmitterHartley)     | **BJT, Oscillators**            build and test a BJT common-emitter Hartley oscillator |
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |
 | [#278 ComponentTesterKit](./Equipment/ComponentTesterKit)                          | **Tools, Test Equipment, ATmega**  build and evaluate a popular ATMEAG328-based component tester kit |
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |

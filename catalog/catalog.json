@@ -1603,6 +1603,13 @@
         "name": "CD4047/AstableOscillator"
     }, 
     {
+        "description": "build and test a BJT common-emitter Hartley oscillator", 
+        "relative_path": "Electronics101/Oscillators/CommonEmitterHartley", 
+        "id": "#418", 
+        "categories": "BJT, Oscillators", 
+        "name": "CommonEmitterHartley"
+    }, 
+    {
         "description": "testing an RC phase-shift oscillator using a BJT amplifier", 
         "relative_path": "Electronics101/Oscillators/RCPhaseShiftBJT", 
         "id": "#332", 
