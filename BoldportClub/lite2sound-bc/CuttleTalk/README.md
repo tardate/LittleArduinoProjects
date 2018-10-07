@@ -43,6 +43,8 @@ to convert the WAV file into the
 [sample_saar_from_boldport.h](./sample_saar_from_boldport.h) header file
 which is used by the [CuttleTalk.ino](./CuttleTalk.ino) sketch loaded on the Cuttle.
 
+    ruby sample_encoder.rb sounds/saar_from_boldport.wav > sample_saar_from_boldport.h
+
 
 ## Construction
 

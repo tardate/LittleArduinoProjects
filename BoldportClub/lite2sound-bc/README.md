@@ -4,10 +4,6 @@ Building Lite2Sound Boldport Club Project #26.
 
 ![Build](./assets/lite2sound-bc_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](http://img.youtube.com/vi/video_id/0.jpg)](http://www.youtube.com/watch?v=video_id)
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
@@ -100,11 +96,11 @@ I'm not planning extensive outdoor usage, so I built the kit with the standard Q
 ## Circuit
 
 As provided by Boldport. Note: it doesn't show SW1 (on/off), which is positioned after
-the reverse-poliarity protection diode D2.
+the reverse-polarity protection diode D2.
 
 ![Schematic](https://static1.squarespace.com/static/539604e8e4b0d1f9ffe9ff0b/t/5b17a53570a6ad549b443918/1530529918270/Lite2Sound_BC_schematic.png?format=2500w)
 
-I used hot-air for SMD soldering, and an iron with my favourite 2% Ag solfer for through-hole components and wires.
+I used hot-air for SMD soldering, and an iron with my favourite 2% Ag solder for through-hole components and wires.
 
 ![build_top](./assets/build_top.jpg?raw=true)
 ![build_bottom](./assets/build_bottom.jpg?raw=true)
