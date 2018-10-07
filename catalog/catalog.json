@@ -1631,6 +1631,13 @@
         "name": "RCPhaseShiftBJT"
     }, 
     {
+        "description": "testing a basic Colpitts Oscillator circuit", 
+        "relative_path": "Electronics101/Oscillators/Colpitts", 
+        "id": "#180", 
+        "categories": "LC, Oscillators", 
+        "name": "ColpittsOscillator"
+    }, 
+    {
         "description": "using an LM324 OpAmp to generate a square wave (astable opamp oscillator)", 
         "relative_path": "Electronics101/Oscillators/AstableOpamp", 
         "id": "#039", 
@@ -2294,13 +2301,6 @@
         "id": "#163", 
         "categories": "OpAmp, Oscillators", 
         "name": "VariableSawtoothGenerator"
-    }, 
-    {
-        "description": "testing a basic Colpitts Oscillator circuit", 
-        "relative_path": "Electronics101/ColpittsOscillator", 
-        "id": "#180", 
-        "categories": "LC, Oscillators", 
-        "name": "ColpittsOscillator"
     }, 
     {
         "description": "test the classic emitter-coupled Schmitt Trigger circuit design", 

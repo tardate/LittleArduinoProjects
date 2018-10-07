@@ -3,5 +3,5 @@
     "name": "ColpittsOscillator", 
     "description": "testing a basic Colpitts Oscillator circuit", 
     "categories": "LC, Oscillators", 
-    "relative_path": "Electronics101/ColpittsOscillator"
+    "relative_path": "Electronics101/Oscillators/Colpitts"
 }

@@ -170,7 +170,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#364 ClassicNokia](./playground/ClassicNokia)                                     | **Audio, Arduino**              just a quick transcription of the classic Nokia 3310 ringtone for Arduino |
 | [#234 CMOSInverterOscillator](./Electronics101/CMOSInverterOscillator)             | **CMOS, Oscillators**           use a CD4096 to generate an oscillating waveform and plot the results |
 | [#246 CMOSOscillators](./Electronics101/CMOSOscillators)                           | **CMOS, Oscillators**           testing a 4-pin CMOS oscillator component |
-| [#180 ColpittsOscillator](./Electronics101/ColpittsOscillator)                     | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
+| [#180 ColpittsOscillator](./Electronics101/Oscillators/Colpitts)                   | **LC, Oscillators**             testing a basic Colpitts Oscillator circuit |
 | [#371 CommonEmitterAmplifier](./Electronics101/BJT/CommonEmitterAmplifier)         | **BJT**                         all about BJT common-emitter amplifier biasing and class of operation |
 | [#418 CommonEmitterHartley](./Electronics101/Oscillators/CommonEmitterHartley)     | **BJT, Oscillators**            build and test a BJT common-emitter Hartley oscillator |
 | [#052 Comparator741](./Electronics101/Comparator741)                               | **OpAmp**                       demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic) |

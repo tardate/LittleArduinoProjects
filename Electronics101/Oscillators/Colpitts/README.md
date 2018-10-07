@@ -2,6 +2,7 @@
 
 Testing a basic Colpitts Oscillator circuit
 
+![Breadboard Build](./assets/Colpitts_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -14,7 +15,8 @@ The distinguishing feature of a Colpitts oscillator is that the feedback to gain
 is taken from the midpoint of the two capacitors.
 
 With C1,C2=100nF and L1=1mH, I should expect oscillation at
-[22.5kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29), however on my first breadboard build I'm getting around 33kHz:
+[22.5kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29),
+however on my first breadboard build I'm getting around 33kHz:
 
 ![breadboard_ac_coupled](./assets/breadboard_ac_coupled.gif?raw=true)
 
@@ -22,7 +24,7 @@ So more experiments required..
 
 ### A Protoboard Build
 
-![Protoboard Build](./assets/ColpittsOscillator_protoboard.jpg?raw=true)
+![Protoboard Build](./assets/Colpitts_protoboard.jpg?raw=true)
 
 Putting the circuit on a protoboard and using some better quality capacitors makes all the difference!
 
@@ -46,13 +48,13 @@ Here's the DC-coupled plot, with both channels shifted down -5V
 
 ## Construction
 
-![Breadboard](./assets/ColpittsOscillator_bb.jpg?raw=true)
+![Breadboard](./assets/Colpitts_bb.jpg?raw=true)
 
-![The Schematic](./assets/ColpittsOscillator_schematic.jpg?raw=true)
+![The Schematic](./assets/Colpitts_schematic.jpg?raw=true)
 
-![Breadboard Build](./assets/ColpittsOscillator_build.jpg?raw=true)
+![Breadboard Build](./assets/Colpitts_build.jpg?raw=true)
 
-![Protoboard Build](./assets/ColpittsOscillator_protoboard.jpg?raw=true)
+![Protoboard Build](./assets/Colpitts_protoboard.jpg?raw=true)
 
 ## Credits and References
 * [Colpitts Oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
