@@ -245,6 +245,20 @@
         "name": "BoldportClub/IxpandO"
     }, 
     {
+        "description": "building Lite2Sound Boldport Club Project #26", 
+        "relative_path": "BoldportClub/lite2sound-bc", 
+        "id": "#419", 
+        "categories": "Boldport, PCB Design, Audio", 
+        "name": "BoldportClub/lite2sound-bc"
+    }, 
+    {
+        "description": "playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound", 
+        "relative_path": "BoldportClub/lite2sound-bc/CuttleTalk", 
+        "id": "#420", 
+        "categories": "Boldport, Audio, LiFi", 
+        "name": "CuttleTalk"
+    }, 
+    {
         "description": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!", 
         "relative_path": "BoldportClub/ananas", 
         "id": "#369", 

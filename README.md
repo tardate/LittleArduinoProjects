@@ -1,6 +1,5 @@
-# 418 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CommonEmitterHartley](./Electronics101/Oscillators/CommonEmitterHartley) - build and test a BJT common-emitter Hartley oscillator.
-
+# 420 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CuttleTalk](./BoldportClub/lite2sound-bc/CuttleTalk) - playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -135,6 +134,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#340 BoldportClub/IxpandO](./BoldportClub/IxpandO)                                | **Boldport, PCB Design, Port Expander**  an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input |
 | [#311 BoldportClub/Juice](./BoldportClub/Juice)                                    | **Boldport, PCB Design, Power** building the Boldport Juice battery replacement kit (Project #12) |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
+| [#419 BoldportClub/lite2sound-bc](./BoldportClub/lite2sound-bc)                    | **Boldport, PCB Design, Audio** building Lite2Sound Boldport Club Project #26 |
 | [#345 BoldportClub/mostap](./BoldportClub/mostap)                                  | **Boldport, CMOS**              upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers. |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
 | [#402 BoldportClub/pips](./BoldportClub/pips)                                      | **Boldport, CD4060**            rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter |
@@ -178,6 +178,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#136 CounterModule](./playground/CounterModule)                                   | **CMOS, Arduino**               a general-purpose CD4017 counter module |
 | [#141 CrystalTester](./Electronics101/CrystalTester)                               | **Radio, Oscillators**          a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter |
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 current sensor module with display on a 5110 LCD |
+| [#420 CuttleTalk](./BoldportClub/lite2sound-bc/CuttleTalk)                         | **Boldport, Audio, LiFi**       playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
 | [#414 Decade Programmable Resistor](./Electronics101/DecadeProgrammableResistor)   | **Test Equipment**              building an old-fashioned 7-digit decade programmable resistor with push-button control |
 | [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**                  decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
