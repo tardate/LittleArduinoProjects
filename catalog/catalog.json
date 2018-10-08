@@ -1127,6 +1127,13 @@
         "name": "ATtinyProgrammingShield"
     }, 
     {
+        "description": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
+        "relative_path": "SDR/LimeSDR/FirstLook", 
+        "id": "#421", 
+        "categories": "SDR", 
+        "name": "LimeSDR/FirstLook"
+    }, 
+    {
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
         "relative_path": "SDR/DecodingACARS", 
         "id": "#352", 
