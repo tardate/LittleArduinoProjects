@@ -693,6 +693,13 @@
         "name": "ElectretTrigger"
     }, 
     {
+        "description": "using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display", 
+        "relative_path": "playground/VL53L0X/LaserTapeMeasure", 
+        "id": "#422", 
+        "categories": "Sensors, Arduino, LCD", 
+        "name": "LaserTapeMeasure"
+    }, 
+    {
         "description": "uses an LDR to adjust the blink rate of an LED", 
         "relative_path": "playground/LightOrNot", 
         "id": "#010", 

@@ -1,6 +1,5 @@
-# 421 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LimeSDR/FirstLook](./SDR/LimeSDR/FirstLook) - unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host.
-
+# 422 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LaserTapeMeasure](./playground/VL53L0X/LaserTapeMeasure) - using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -248,7 +247,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#305 KeyboardMatrixModule/LedControl](./playground/KeyboardMatrixModule/LedControl)             | **Arduino, LED**         demo controlling the LEDs on a simple pushbutton/LED matrix module |
 | [#306 KeyboardMatrixModule/SwitchInterrupts](./playground/KeyboardMatrixModule/SwitchInterrupts) | **Arduino, Human Input** demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library |
 | [#227 KnightRider](./Electronics101/555Timer/KnightRider)                          | **555 Timer, CMOS, LED**        the familiar "Knight-Rider" LED circuit using a 555 and 4017 |
-| [#324 Labrador](./Equipment/Labrador)                                              | **Tools, Test Equipment**                       first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software |
+| [#324 Labrador](./Equipment/Labrador)                                              | **Tools, Test Equipment**       first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software |
+| [#422 LaserTapeMeasure](./playground/VL53L0X/LaserTapeMeasure)                     | **Sensors, Arduino, LCD**       using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display |
 | [#365 Lcd5110/AdafruitHardwareSPI](./playground/Lcd5110/AdafruitHardwareSPI)       | **LCD, Arduino**                a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library |
 | [#366 Lcd5110/AdafruitSoftwareSPI](./playground/Lcd5110/AdafruitSoftwareSPI)       | **LCD, Arduino**                a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library |
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |

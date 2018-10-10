@@ -9,7 +9,13 @@
 
 #include "U8glib.h"
 
-U8GLIB_PCD8544 u8g(13, 11, 10, 9, 8);   // SPI Com: SCK = 13, MOSI = 11, CS = 10, A0 = 9, Reset = 8
+const int LCD_SCK   = 13;
+const int LCD_MOSI  = 11;
+const int LCD_CS    = 10;
+const int LCD_A0    = 9;
+const int LCD_RESET = 8;
+
+U8GLIB_PCD8544 u8g(LCD_SCK, LCD_MOSI, LCD_CS, LCD_A0, LCD_RESET);
 
 void setup() {
 }
