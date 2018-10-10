@@ -19,6 +19,10 @@ Robojax has a nice video on YouTube that gives a good introduction to the chip a
 
 [![clip](http://img.youtube.com/vi/0GxFoq_zPt4/0.jpg)](http://www.youtube.com/watch?v=0GxFoq_zPt4)
 
+There are a few board designs around, this is quite common. It squeezes everything including regulator into a very small form factor:
+
+![module_front](./assets/module_front.jpg?raw=true)
+![module_back](./assets/module_back.jpg?raw=true)
 
 ## Construction
 
