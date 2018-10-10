@@ -197,3 +197,4 @@ More to come...
 * [Myriad-RF Wiki - LimeSDR](https://wiki.myriadrf.org/LimeSDR)
 * [The Amp Hour #314 – An Interview with Josh Lifton](https://theamphour.com/314-an-interview-with-josh-lifton/)
 * [Lime Suite](https://wiki.myriadrf.org/Lime_Suite)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap421-limesdr-first-look.html)
