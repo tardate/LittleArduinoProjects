@@ -109,18 +109,19 @@ Here's my kit coming together from parts:
 
 I'm running on MacOSX, so simply plugging into one of the USB ports and the device is correctly recognised:
 
-> LimeSDR-USB:
->
->   Product ID: 0x6108
->   Vendor ID:  0x1d50
->   Version:  0.00
->   Serial Number:  0009070105C6281F
->   Speed:  Up to 480 Mb/sec
->   Manufacturer: Myriad-RF
->   Location ID:  0x14200000 / 22
->   Current Available (mA): 500
->   Current Required (mA):  100
->   Extra Operating Current (mA): 0
+```
+LimeSDR-USB:
+  Product ID: 0x6108
+  Vendor ID:  0x1d50
+  Version:  0.00
+  Serial Number:  0009070105C6281F
+  Speed:  Up to 480 Mb/sec
+  Manufacturer: Myriad-RF
+  Location ID:  0x14200000 / 22
+  Current Available (mA): 500
+  Current Required (mA):  100
+  Extra Operating Current (mA): 0
+```
 
 ![usb_device_tree](./assets/usb_device_tree.png?raw=true)
 
