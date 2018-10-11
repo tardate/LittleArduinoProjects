@@ -819,6 +819,13 @@
         "name": "LevelIndicatorLM3915"
     }, 
     {
+        "description": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia", 
+        "relative_path": "playground/MakerUno", 
+        "id": "#423", 
+        "categories": "Arduino", 
+        "name": "MakerUno"
+    }, 
+    {
         "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
         "relative_path": "playground/TinyBlink", 
         "id": "#071", 

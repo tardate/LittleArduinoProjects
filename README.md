@@ -1,6 +1,7 @@
-# 422 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LaserTapeMeasure](./playground/VL53L0X/LaserTapeMeasure) - using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display.
+# 423 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [MakerUno](./playground/MakerUno) - checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia.
 
+Checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -289,6 +290,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#384 LM723/HighVoltageRegulator](./Electronics101/LM723/HighVoltageRegulator)     | **Power, Regulator, LM723**     playing with the basic high voltage output circuit for the LM723 voltage regulator |
 | [#383 LM723/LowVoltageRegulator](./Electronics101/LM723/LowVoltageRegulator)       | **Power, Regulator, LM723**     playing with the basic low voltage output circuit for the LM723 voltage regulator |
 | [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
+| [#423 MakerUno](./playground/MakerUno)                                             | **Arduino**                     checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [#358 MC34063/ModuleKit](./Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit) | **Power**                     build and test an MC34063-based boost converter |
 | [#335 MCP2200/Chaser](./Electronics101/MCP2200/Chaser)                             | **UART, USB, LED**              using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs |
