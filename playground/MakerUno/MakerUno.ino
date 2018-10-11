@@ -32,8 +32,7 @@ void nextStep() {
  * On button press (falling interrupt), reverse direction
  */
 void reverseDirection() {
-  if(step_delta == 1) step_delta = -1;
-  else step_delta = 1;
+  step_delta *= -1;
 }
 
 
