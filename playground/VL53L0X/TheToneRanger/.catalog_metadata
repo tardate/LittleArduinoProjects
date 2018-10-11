@@ -1,0 +1,7 @@
+{
+    "id": "#424", 
+    "name": "TheToneRanger", 
+    "description": "a simple modification of the basic VL53L0X example to add audio indication of range", 
+    "categories": "Arduino, Sensors, Audio", 
+    "relative_path": "playground/VL53L0X/TheToneRanger"
+}

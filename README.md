@@ -1,5 +1,7 @@
-# 423 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [MakerUno](./playground/MakerUno) - checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia.
+# 424 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [TheToneRanger](./playground/VL53L0X/TheToneRanger) - a simple modification of the basic VL53L0X example to add audio indication of range.
+
+
 
 Checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia.
 
@@ -450,6 +452,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#302 TheMatrix/GameOfLife](./BoldportClub/TheMatrix/GameOfLife)                   | **Boldport, LED, AS1130**       a simple implementation of Conway's Game of Life on the BoldportClub Matrix |
 | [#307 TheMatrix/KeypadControl](./BoldportClub/TheMatrix/KeypadControl)             | **Boldport, LED, AS1130**       use a 20-button keypad to write a scrolling message on the Boldport Matrix |
 | [#300 TheMatrix/LedTest](./BoldportClub/TheMatrix/LedTest)                         | **Boldport, LED, AS1130**       testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library |
+| [#424 TheToneRanger](./playground/VL53L0X/TheToneRanger)                           | **Arduino, Sensors, Audio**     a simple modification of the basic VL53L0X example to add audio indication of range |
 | [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **Radio, FM**                   build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#375 ThreeTransistorShortWaveReceiver](./Radio/ThreeTransistorShortWaveReceiver)  | **Radio, HF**                   building a simple 3-transistor regenerative receiver for HF shortwave |
 | [#380 Tin Counter](./playground/tin_counter)                                       | **Arduino, Sensors, HC-SR04**   a project by novaprimexex to count tins as they roll by and detect tins without paper labels |

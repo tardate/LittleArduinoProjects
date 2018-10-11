@@ -15,7 +15,9 @@ It is quite widely available as a module, including from Adafruit - see their [i
 
 For this project I'm taking the module for a test drive and building a short-range tape measure with an Arduino and Nokia 5110 display.
 
-Robojax has a nice video on YouTube that gives a good introduction to the chip and module:
+Robojax has a nice video on YouTube
+(and [information page](http://robojax.com/learn/arduino/?vid=robojax-VL53L0X))
+that gives a good introduction to the chip and module:
 
 [![clip](http://img.youtube.com/vi/0GxFoq_zPt4/0.jpg)](http://www.youtube.com/watch?v=0GxFoq_zPt4)
 
@@ -71,5 +73,7 @@ Adafruit_VL53L0X C++ interface class (requires going under the hood of the API).
 ## Credits and References
 * [VL53L0X Product Info](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html)
 * [VL53L0X Datasheet](https://www.st.com/resource/en/datasheet/vl53l0x.pdf)
+* [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X) library
 * [Adafruit VL53L0X module and information page](https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/downloads)
+* [Using VL53L0X Laser Distance meter in Arduino](http://robojax.com/learn/arduino/?vid=robojax-VL53L0X) - Robojax
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap422-vl53l0x-laser-tape-measure.html)

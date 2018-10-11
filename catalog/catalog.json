@@ -700,6 +700,13 @@
         "name": "LaserTapeMeasure"
     }, 
     {
+        "description": "a simple modification of the basic VL53L0X example to add audio indication of range", 
+        "relative_path": "playground/VL53L0X/TheToneRanger", 
+        "id": "#424", 
+        "categories": "Arduino, Sensors, Audio", 
+        "name": "TheToneRanger"
+    }, 
+    {
         "description": "uses an LDR to adjust the blink rate of an LED", 
         "relative_path": "playground/LightOrNot", 
         "id": "#010", 
