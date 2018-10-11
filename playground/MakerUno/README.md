@@ -37,7 +37,7 @@ It looks pretty spiffy:
 
 The full schematic is available from Cytron:
 
-![Schematic](https://cdn.cytron.io/makeruno/MAKER-UNO.pdf)
+[![MakerUno_schematic](./assets/MakerUno_schematic.jpg?raw=true)](https://cdn.cytron.io/makeruno/MAKER-UNO.pdf)
 
 Here's a re-drawing that focuses on the details of the digital pin features.
 In particular, note:
@@ -55,7 +55,7 @@ In particular, note:
     - pin 2 supports hardware interrupts, so allows interrupt-driven coding rather than polling of the button state
     - connected in addition to the LED (the LED will normally be on, and go off when the button is pressed)
 
-![The Schematic](./assets/MakerUno_schematic.jpg?raw=true)
+![MakerUno_partial_schematic](./assets/MakerUno_partial_schematic.jpg?raw=true)
 
 
 ## Code Demonstration
