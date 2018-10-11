@@ -13,7 +13,12 @@ Here's a quick video of the board in action:
 
 ## Notes
 
-I was recently shown an Arduino-compatible board made by Cytron in Penang, Malaysia.
+I was recently shown an Arduino-compatible board made by Cytron in Penang, Malaysia
+called the [Maker UNO](https://www.cytron.io/p-maker-uno?search=maker%20uno&description=1).
+I gather it began life as a
+[very successful kickstarter](https://www.kickstarter.com/projects/1685732347/6-maker-uno-simplifying-arduino-for-education)
+that aimed to produce a better board and associated teaching materials for K-12 education.
+
 It packs quite a few additional features in the Uno form-factor:
 
 * LEDs on all digital pins
@@ -67,6 +72,6 @@ The [MakerUno.ino](./MakerUno.ino) sketch is a simple demonstration of the featu
 * on a falling interrupt from a button press, reverses the order that it is cycling through the pins/tones
 
 ## Credits and References
-* [Maker Uno](https://www.cytron.io/p-maker-uno?search=maker%20uno&description=1) - available on www.cytron.io
+* [Maker Uno](https://www.cytron.io/p-maker-uno?search=maker%20uno&description=1) - Cytron listing
 * [Cytron](https://www.cytron.io/about-us)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap423-the-maker-uno.html)
