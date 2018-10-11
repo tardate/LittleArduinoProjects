@@ -26,7 +26,7 @@ See [LEAP#405 ATmegaSerialProgrammer](../ATmegaSerialProgrammer) for a deeper di
 And a really nice feature is the price - currently listing for
 RM15 ([~$3.60 USD](https://www.google.com/search?q=myr+15+in+usd)).
 
-It looks pretty spiffy:
+It also looks pretty spiffy to boot:
 
 ![kit_front](./assets/kit_front.jpg?raw=true)
 
@@ -43,12 +43,12 @@ Here's a re-drawing that focuses on the details of the digital pin features.
 In particular, note:
 
 * LEDs are indirectly driven with low-side n-channel MOSFETs
-    - preesnts a high impedance to the pin, so it's normal functioning is largely unaffected
+    - presents a high impedance to the pin, so its normal function is largely unaffected
     - a high-value (3.3MΩ) pull-down resistor ensures the gate doesn't float
 * The piezo buzzer on pin 8:
     - connected in addition to the LED
-    - switched with and NPN and 1kΩ base resistor
-    - has a manual DPST switch that can be used to disable the buzzer allowing the pin to be used for other purposes
+    - switched with an NPN and 1kΩ base resistor
+    - has a manual SPDT switch that can be used to disable the buzzer
 * Push-button on pin 2:
     - with resistor that pulls the pin low when the button is pressed
     - should be used with `INPUT_PULLUP` pin mode
@@ -64,7 +64,7 @@ The [MakerUno.ino](./MakerUno.ino) sketch is a simple demonstration of the featu
 
 * steps through the digital pins (except 2 and 8), lighting the LED
 * plays a tone proportional to the pin number
-* on a fulling interrupt from a button pres, reverses the order that it is cycling through the pins/tones
+* on a falling interrupt from a button press, reverses the order that it is cycling through the pins/tones
 
 ## Credits and References
 * [Maker Uno](https://www.cytron.io/p-maker-uno?search=maker%20uno&description=1) - available on www.cytron.io
