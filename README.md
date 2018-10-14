@@ -1,6 +1,5 @@
-# 424 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [TheToneRanger](./playground/VL53L0X/TheToneRanger) - a simple modification of the basic VL53L0X example to add audio indication of range.
-
+# 425 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/3x7](./BoldportClub/3x7) - building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display.
 
 
 Checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia.
@@ -124,6 +123,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#386 BluePill](./STM32/BluePill)                                                  | **STM32**                       programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE |
+| [#425 BoldportClub/3x7](./BoldportClub/3x7)                                        | **Boldport, 7-Segment**         building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display |
 | [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |
 | [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
 | [#409 BoldportClub/conehead](./BoldportClub/conehead)                              | **Boldport, Oscillators, CMOS/TTL, Audio** the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018 |

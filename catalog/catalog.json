@@ -266,6 +266,13 @@
         "name": "BoldportClub/ananas"
     }, 
     {
+        "description": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display", 
+        "relative_path": "BoldportClub/3x7", 
+        "id": "#425", 
+        "categories": "Boldport, 7-Segment", 
+        "name": "BoldportClub/3x7"
+    }, 
+    {
         "description": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m", 
         "relative_path": "Radio/pixie", 
         "id": "#401", 
