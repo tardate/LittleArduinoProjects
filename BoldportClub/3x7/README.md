@@ -79,11 +79,15 @@ just buy a replacement!
 
 Fully assembled, with "333" powered directly from a 5V source:
 
-![build_04_test](./assets/build_04_test.jpg?raw=true)
+![build_04_test_top_side](./assets/build_04_test_top_side.jpg?raw=true)
+
+![build_04_test_rear](./assets/build_04_test_rear.jpg?raw=true)
+
+![build_04_test_rear_side](./assets/build_04_test_rear_side.jpg?raw=true)
 
 ## Next...
 
-So far so good! I have a few proejcts in mind to follow.
+So far so good! I have a few projects in mind to follow.
 
 The LED segments illuminate very nicely. I think super-gluing the LEDs to the face plate was a good decision.
 But I also notice quite a bit of bleed from a lit segment to unlit segments.
