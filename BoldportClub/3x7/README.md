@@ -85,6 +85,8 @@ Fully assembled, with "333" powered directly from a 5V source:
 
 ![build_04_test_rear_side](./assets/build_04_test_rear_side.jpg?raw=true)
 
+![build_04_test_right_side](./assets/build_04_test_right_side.jpg?raw=true)
+
 ## Next...
 
 So far so good! I have a few projects in mind to follow.
