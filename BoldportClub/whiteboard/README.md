@@ -4,7 +4,7 @@ Building the Whiteboard - Boldport Club project #22 - a breadboard enhancer feat
 
 ![Build](./assets/whiteboard_build.jpg?raw=true)
 
-Here's a quick demo running a CD4060 ripple counter on the breadbaord..
+Here's a quick demo running a CD4060 ripple counter on the breadboard..
 
 [![clip](http://img.youtube.com/vi/eiEX9SPuRhI/0.jpg)](http://www.youtube.com/watch?v=eiEX9SPuRhI)
 
