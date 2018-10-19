@@ -82,6 +82,8 @@ The instructions and parts list is Chinese, and there's a clear schematic provid
 There is a variation of the kit called the D2-1. I don't have this version, but by some reports
 the motors (being enclosed units) are actually easier to install and align.
 
+See [Zoomx's postbag review](https://www.stm32duino.com/viewtopic.php?f=50&t=2198) for more info.
+
 [![D2-1_kit](./assets/D2-1_kit.jpg?raw=true)](https://www.aliexpress.com/item/D2-1-DIY-Kit-Intelligent-Tracking-Line-Smart-Car-Kit-Suite-TT-Motor-Electronic-Production-Smart/32767691720.html)
 
 ### Circuit
@@ -137,6 +139,7 @@ in my lighting conditions and with the printed test track. YMMV, and adjustment 
 
 ## Credits and References
 * [D2-5 Intelligent Tracking Line Car DIY Kit TT Motor Electronic Assembly Smart Automobile Part Car Electronic Diy Kit](https://www.aliexpress.com/item/1Pcs-D2-5-Intelligent-Tracking-Line-Car-DIY-Kit-TT-Motor-Electronic-Assembly-Smart-Automobile-Part/32823554018.html)
+* [Zoomx's postbag D2-1 review](https://www.stm32duino.com/viewtopic.php?f=50&t=2198)
 * [Line Follower Robots](https://www.elprocus.com/line-follower-robot-basics-controlling/) - a nice introduction
 * [LM393 datasheet](http://www.futurlec.com/Linear/LM393N.shtml)
 * [Line-following Car](https://en.wikipedia.org/wiki/Mobile_robot#Line-following_Car) - wikipedia
