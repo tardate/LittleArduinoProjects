@@ -1,5 +1,5 @@
 # 426 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [3x7 RippleTester ](./BoldportClub/3x7/RippleTester) - using some 4000 series counters (CD4017, CD4060)to exercise the digits and segments of the Boldport 3x7.
+> Latest addition:sparkles: [3x7 RippleTester ](./BoldportClub/3x7/RippleTester) - using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -63,7 +63,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 
 | Project                                                                            | Category/Description                                              |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [#426 3x7 RippleTester ](./BoldportClub/3x7/RippleTester)                          | **Boldport, 7-Segment, CMOS/TTL**  using some 4000 series counters (CD4017, CD4060)to exercise the digits and segments of the Boldport 3x7 |
+| [#426 3x7 RippleTester ](./BoldportClub/3x7/RippleTester)                          | **Boldport, 7-Segment, CMOS/TTL**  using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7 |
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
 | [#184 AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator)| **555 Timer, Oscillators**      widely-adjustable square wave generator using the 555 timer |
 | [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **Radio, AM, FM**               notes on an AM/FM radio kit build |
