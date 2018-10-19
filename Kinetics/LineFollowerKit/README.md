@@ -77,6 +77,12 @@ The instructions and parts list is Chinese, and there's a clear schematic provid
 | 24  | axle bushings(?)               |               |               | 6        |
 
 
+### The D2-1 Kit
+
+There is a variation of the kit called the D2-1. I don't have this version, but by some reports
+the motors (being enclosed units) are actually easier to install and align.
+
+[![D2-1_kit](./assets/D2-1_kit.jpg?raw=true)](https://www.aliexpress.com/item/D2-1-DIY-Kit-Intelligent-Tracking-Line-Smart-Car-Kit-Suite-TT-Motor-Electronic-Production-Smart/32767691720.html)
 
 ### Circuit
 
@@ -118,6 +124,8 @@ The axle mounts supplied with my kit were too short as-is.
 There were some plastic yellow rings in the kit, and I found using one as a spacer on each axle mount provided just the right height.
 I thought these yellow rings were axle bushings, so I'm not sure if this was their intended use or the axle mounts were actually the wrong size.
 Either way - it worked out.
+
+PS: apparently the D2-1 version of the kit avoids these issues by having fully enclosed motor/gear units.
 
 ![kit_complete_bottom](./assets/kit_complete_bottom.jpg?raw=true)
 
