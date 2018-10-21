@@ -490,13 +490,6 @@
         "name": "RelayModuleTest"
     }, 
     {
-        "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
-        "relative_path": "playground/ATtiny8MHz", 
-        "id": "#275", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtiny8MHz"
-    }, 
-    {
         "description": "an Arduino & OLED version of a classic game", 
         "relative_path": "playground/OLED/ArdWinVaders", 
         "id": "#100", 
@@ -1132,6 +1125,13 @@
         "id": "#219", 
         "categories": "Sensors, Arduino", 
         "name": "DS18S20/OneWireReading"
+    }, 
+    {
+        "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
+        "relative_path": "playground/ATtiny/At8MHz", 
+        "id": "#275", 
+        "categories": "Arduino, ATmel", 
+        "name": "ATtiny/At8MHz"
     }, 
     {
         "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques", 

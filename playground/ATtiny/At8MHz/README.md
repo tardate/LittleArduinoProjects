@@ -1,8 +1,8 @@
-# #275 ATtiny8MHz
+# #275 ATtiny at 8MHz
 
 How to run an ATtiny85 microprocessor at 8MHz using the internal clock.
 
-![Build](./assets/ATtiny8MHz_build.jpg?raw=true)
+![Build](./assets/At8MHz_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -14,8 +14,8 @@ at 8MHz while still using the internal oscillator.
 To communicate with the ATtiny, I am using:
 
 * avrdude from MacOSX
-* an Arduino Uno running the ArduinoISP programmer sketch as documented in [LEAP#070 ATtinyWithArduinoISP](../ATtinyWithArduinoISP)
-* the [LEAP#253 ATtinyProgrammingShield](../ATtinyProgrammingShield) to mount the ATtiny85 on the Arduino for programming
+* an Arduino Uno running the ArduinoISP programmer sketch as documented in [LEAP#070 ATtinyWithArduinoISP](../../ATtinyWithArduinoISP)
+* the [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield) to mount the ATtiny85 on the Arduino for programming
 
 
 ### The 8MHz Internal Clock Configuration
@@ -231,7 +231,7 @@ OK, the chip tells us we're now running at 8MHz, but how to verify it?
 One way to see the difference is to change the clock on a program that uses a timer-based function like `delay`
 (which is locked to the processor clock frequency).
 
-The [ATtiny8MHz.ino](./ATtiny8MHz.ino) is a simple example. It toggles LEDs attached to GPIO pins 1 and 2 with a 4 second delay (`delay(4000);`).
+The [At8MHz.ino](./At8MHz.ino) is a simple example. It toggles LEDs attached to GPIO pins 1 and 2 with a 4 second delay (`delay(4000);`).
 
 Load the sketch with the ATtiny set for default 1MHz operation (8MHz internal clock with /8 prescaler).
 The LEDs will toggle roughly once every 4 seconds.
@@ -242,17 +242,18 @@ and LEDs will toggle every half a second, which demonstrates that the processor 
 
 ## Construction
 
-![Breadboard](./assets/ATtiny8MHz_bb.jpg?raw=true)
+![Breadboard](./assets/At8MHz_bb.jpg?raw=true)
 
-![Schematic](./assets/ATtiny8MHz_schematic.jpg?raw=true)
+![Schematic](./assets/At8MHz_schematic.jpg?raw=true)
 
-![Build](./assets/ATtiny8MHz_build.jpg?raw=true)
+![Build](./assets/At8MHz_build.jpg?raw=true)
 
 ## Credits and References
-* [LEAP#070 ATtinyWithArduinoISP](../ATtinyWithArduinoISP)
-* [LEAP#253 ATtinyProgrammingShield](../ATtinyProgrammingShield)
+* [LEAP#070 ATtinyWithArduinoISP](../../ATtinyWithArduinoISP)
+* [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield)
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)
 * [avrdude](http://savannah.nongnu.org/projects/avrdude/)
 * [avrdude manual](http://ftp.yzu.edu.tw/nongnu//avrdude/avrdude-doc-5.10.pdf)
 * [EE.SE: How do I set the clock speed fuses on an ATtiny85 when using an Arduino as a programmer?](http://electronics.stackexchange.com/questions/7859/how-do-i-set-the-clock-speed-fuses-on-an-attiny85-when-using-an-arduino-as-a-pro)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap275-running-the-attiny-at-8mhz.html)
