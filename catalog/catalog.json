@@ -280,6 +280,13 @@
         "name": "3x7 RippleTester "
     }, 
     {
+        "description": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library", 
+        "relative_path": "BoldportClub/3x7/LRThreeDigitDemo", 
+        "id": "#428", 
+        "categories": "Boldport, 7-Segment, Arduino", 
+        "name": "3x7 LRThreeDigitDemo"
+    }, 
+    {
         "description": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m", 
         "relative_path": "Radio/pixie", 
         "id": "#401", 

@@ -85,3 +85,6 @@
 [submodule "libraries/Adafruit_VL53L0X"]
 	path = libraries/Adafruit_VL53L0X
 	url = https://github.com/adafruit/Adafruit_VL53L0X
+[submodule "libraries/LRThreeDigits"]
+	path = libraries/LRThreeDigits
+	url = https://github.com/LuckyResistor/LRThreeDigits

@@ -23,6 +23,7 @@ Some projects require additional libraries. For example:
 * [Rotary](https://github.com/brianlow/Rotary) - rotary Encoder input
 * [u8glib](https://github.com/olikraus/U8glib_Arduino) - for monochrome displays
 * [X113647Stepper](https://github.com/tardate/X113647Stepper) - used by some Stepper motor projects
+* [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) - Boldport 3x7 driver by LuckyResistor
 
 These libraries are included as submodules of this repository and can be installed with git.
 

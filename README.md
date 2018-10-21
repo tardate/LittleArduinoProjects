@@ -1,8 +1,5 @@
-# 427 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ATtiny/SoftwarePWM](./playground/ATtiny/SoftwarePWM) - generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques.
-
-
-
+# 428 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [3x7/LRThreeDigitDemo](./BoldportClub/3x7/LRThreeDigitDemo) - driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -67,7 +64,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 
 | Project                                                                            | Category/Description                                              |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [#426 3x7 RippleTester ](./BoldportClub/3x7/RippleTester)                          | **Boldport, 7-Segment, CMOS/TTL**  using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7 |
+| [#426 3x7 RippleTester ](./BoldportClub/3x7/RippleTester)                          | **Boldport, 7-Segment, CMOS/TTL** using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7 |
+| [#428 3x7 LRThreeDigitDemo](./BoldportClub/3x7/LRThreeDigitDemo)                   | **Boldport, 7-Segment, Arduino** driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library |
 | [#148 AD9833/BasicDemoCycle](./playground/AD9833/BasicDemoCycle)                   | **Arduino, Oscillators**        run a basic waveform demo with an AD9833 module |
 | [#184 AdjustablePulseGenerator](./Electronics101/555Timer/AdjustablePulseGenerator)| **555 Timer, Oscillators**      widely-adjustable square wave generator using the 555 timer |
 | [#131 AMFMRadioKit](./Radio/AMFMRadioKit)                                          | **Radio, AM, FM**               notes on an AM/FM radio kit build |
