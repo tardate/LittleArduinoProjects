@@ -1,0 +1,7 @@
+{
+    "id": "#427", 
+    "name": "ATtiny/SoftwarePWM", 
+    "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques", 
+    "categories": "ATmel, PWM", 
+    "relative_path": "playground/ATtiny/SoftwarePWM"
+}

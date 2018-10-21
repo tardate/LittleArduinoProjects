@@ -1134,6 +1134,13 @@
         "name": "DS18S20/OneWireReading"
     }, 
     {
+        "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques", 
+        "relative_path": "playground/ATtiny/SoftwarePWM", 
+        "id": "#427", 
+        "categories": "ATmel, PWM", 
+        "name": "ATtiny/SoftwarePWM"
+    }, 
+    {
         "description": "simple LED game with LCD output and interrupt-driven button input", 
         "relative_path": "playground/HitTheLights", 
         "id": "#043", 

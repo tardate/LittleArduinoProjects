@@ -1,5 +1,9 @@
-# 426 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [3x7 RippleTester ](./BoldportClub/3x7/RippleTester) - using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7.
+# 427 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ATtiny/SoftwarePWM](./playground/ATtiny/SoftwarePWM) - generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques.
+
+
+
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -83,6 +87,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#099 ATmegaISPShield](./playground/ATmegaISPShield)                               | **Arduino, ATmel, ICSP**        a DIY ATmega programming shield for using an Arduino as ISP  |
 | [#405 ATmegaSerialProgrammer](./playground/ATmegaSerialProgrammer)                 | **Arduino, ATmel, ICSP, UART**  all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP |
 | [#068 ATmegaViaArduinoISP](./playground/ATmegaViaArduinoISP)                       | **Arduino, ATmel, ICSP**        Programming an ATMEGA328P-PU on a breadboard with Arduino ISP |
+| [#427 ATtiny/SoftwarePWM](./playground/ATtiny/SoftwarePWM)                         | **ATmel, PWM**                  generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques |
 | [#275 ATtiny8MHz](./playground/ATtiny8MHz)                                         | **Arduino, ATmel**              how to run an ATtiny85 microprocessor at 8MHz using the internal clock |
 | [#126 ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt)               | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
 | [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel, ICSP**        Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
