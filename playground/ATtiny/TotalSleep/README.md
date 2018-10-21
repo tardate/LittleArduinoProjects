@@ -1,17 +1,16 @@
-# #128 ATtinyTotalSleep
+# #128 ATtiny TotalSleep
 
 Test a total power shutdown with an ATtiny85 processor on a breadboard.
 
 Here's a quick video of the circuit in action:
 
-[![ATtinyTotalSleep](http://img.youtube.com/vi/Id6DoiL4zDo/0.jpg)](http://www.youtube.com/watch?v=Id6DoiL4zDo)
-
+[![TotalSleep](http://img.youtube.com/vi/Id6DoiL4zDo/0.jpg)](http://www.youtube.com/watch?v=Id6DoiL4zDo)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 
-The [ATtinySleep](../ATtinySleep) project showed me that even in CPU sleep mode, an ATtiny85 circuit can
+The [ATtiny SleepMode](../SleepMode) project showed me that even in CPU sleep mode, an ATtiny85 circuit can
 still draw something in the order of 238µA.
 
 This project tests a scheme for total power shutdown triggered by the microcontroller itself.
@@ -32,11 +31,11 @@ This all seems to work very reliably.
 
 ## Construction
 
-![Breadboard](./assets/ATtinyTotalSleep_bb.jpg?raw=true)
+![Breadboard](./assets/TotalSleep_bb.jpg?raw=true)
 
-![The Schematic](./assets/ATtinyTotalSleep_schematic.jpg?raw=true)
+![The Schematic](./assets/TotalSleep_schematic.jpg?raw=true)
 
-![The Build](./assets/ATtinyTotalSleep_build.jpg?raw=true)
+![The Build](./assets/TotalSleep_build.jpg?raw=true)
 
 ## Credits and References
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
@@ -45,4 +44,3 @@ This all seems to work very reliably.
 * [Arduino DigitalPins reference](https://www.arduino.cc/en/Tutorial/DigitalPins)
 * [Topic: Circuit for MCU to control its own power on/off](http://forum.arduino.cc/index.php?topic=118504.0) - another approach using a flip-flop
 * [Self Shutting Down Arduino](http://letsmakerobots.com/content/self-shutting-down-arduino-or-any-other-microcontroller-matter) - describes a similar approach, but one that may not work depending on the specific p-channel FET used (I could not make it work with the BS250).
-

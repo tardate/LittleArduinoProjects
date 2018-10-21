@@ -92,8 +92,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#126 ATtinyHardwareInterrupt](./playground/ATtinyHardwareInterrupt)               | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
 | [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel, ICSP**        Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [#253 ATtinyProgrammingShield](./playground/ATtinyProgrammingShield)               | **Arduino, ATmel**              a custom ATtiny programming shield for Arduino ISP |
-| [#127 ATtinySleep](./playground/ATtinySleep)                                       | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
-| [#128 ATtinyTotalSleep](./playground/ATtinyTotalSleep)                             | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
+| [#127 ATtiny/SleepMode](./playground/ATtiny/SleepMode)                             | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
+| [#128 ATtiny/TotalSleep](./playground/ATtiny/TotalSleep)                           | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
 | [#309 AudioConnectors](./Electronics101/Connectors/Audio)                          | **Audio, Connectors**           notes on miscellaneous audio connectors |
 | [#235 AudioDSP](./playground/AudioDSP)                                             | **Audio, Arduino, DSP, OpAmp**  build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash |

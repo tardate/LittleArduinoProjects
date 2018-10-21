@@ -1,11 +1,10 @@
-# #127 ATtinySleep
+# #127 SleepMode
 
 Test sleep mode with an ATtiny85 processor on a breadboard.
 
 Here's a quick video of the circuit in action:
 
-[![ATtinySleep](http://img.youtube.com/vi/WhtLly1BM0U/0.jpg)](http://www.youtube.com/watch?v=WhtLly1BM0U)
-
+[![SleepMode](http://img.youtube.com/vi/WhtLly1BM0U/0.jpg)](http://www.youtube.com/watch?v=WhtLly1BM0U)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -13,7 +12,7 @@ Here's a quick video of the circuit in action:
 
 This is a little test of sleep mode with an ATtiny85 microcontroller (8-pin DIP).
 
-I'm using an Arduino Uno as an in-system programmer, using teh technique described in the [ATtinyWithArduinoISP](../ATtinyWithArduinoISP) project.
+I'm using an Arduino Uno as an in-system programmer, using teh technique described in the [ATtinyWithArduinoISP](../../ATtinyWithArduinoISP) project.
 
 Once the ATtiny is programmed, the Arduino Uno ISP is detached, and it will run independently.
 The ATtiny85 requires 1.8-5.5V to operate. I successfully tested with 3.3V and 5V supplies.
@@ -35,11 +34,11 @@ The main extra change is to disable brownout detection, which requires a change 
 
 ## Construction
 
-![Breadboard](./assets/ATtinySleep_bb.jpg?raw=true)
+![Breadboard](./assets/SleepMode_bb.jpg?raw=true)
 
-![The Schematic](./assets/ATtinySleep_schematic.jpg?raw=true)
+![The Schematic](./assets/SleepMode_schematic.jpg?raw=true)
 
-![The Build](./assets/ATtinySleep_build.jpg?raw=true)
+![The Build](./assets/SleepMode_build.jpg?raw=true)
 
 ## Credits and References
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
