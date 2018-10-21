@@ -13,7 +13,7 @@ Here's a quick video of the circuit in action:
 
 This is a little test of hardware interrupts with an ATtiny85 microcontroller (8-pin DIP).
 
-I'm using an Arduino Uno as an in-system programmer, using teh technique described in the [ATtinyWithArduinoISP](../../ATtinyWithArduinoISP) project.
+I'm using an Arduino Uno as an in-system programmer, using the technique described in the [ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) project.
 
 A push-button is attached to D2 (pin 7 of the chip) and a hardware interrupt service routine activates on rising edge.
 When an interrupt is received, it triggers a little LED blinking procedure just for demonstration purposes.

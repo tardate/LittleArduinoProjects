@@ -4,7 +4,7 @@ A simple blink sketch with an ATTINY85-20PU on a breadboard.
 
 Here's a quick video of it in action:
 
-[![ATtinyWithArduinoISP](http://img.youtube.com/vi/eILb11BE6pY/0.jpg)](http://www.youtube.com/watch?v=eILb11BE6pY)
+[![ProgrammingWithArduinoISP](http://img.youtube.com/vi/eILb11BE6pY/0.jpg)](http://www.youtube.com/watch?v=eILb11BE6pY)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -13,7 +13,7 @@ Here's a quick video of it in action:
 
 The objective here is to demonstrate an ATTINY85-20PU chip running independantly on a breadboard.
 
-I'm programming it with Arduino ISP, see the [ATtinyWithArduinoISP](../ATtinyWithArduinoISP) project for details on uploading the sketch.
+I'm programming it with Arduino ISP, see the [ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) project for details on uploading the sketch.
 
 ### Construction
 
@@ -24,6 +24,6 @@ I'm programming it with Arduino ISP, see the [ATtinyWithArduinoISP](../ATtinyWit
 ![The Build](./assets/TinyBlink_build.jpg?raw=true)
 
 ## Credits and References
-* [ATtinyWithArduinoISP](../ATtinyWithArduinoISP) shows programming an ATtiny with Arduino ISP
+* [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) shows programming an ATtiny with Arduino ISP
 * [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)

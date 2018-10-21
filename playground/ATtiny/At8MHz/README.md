@@ -14,7 +14,7 @@ at 8MHz while still using the internal oscillator.
 To communicate with the ATtiny, I am using:
 
 * avrdude from MacOSX
-* an Arduino Uno running the ArduinoISP programmer sketch as documented in [LEAP#070 ATtinyWithArduinoISP](../../ATtinyWithArduinoISP)
+* an Arduino Uno running the ArduinoISP programmer sketch as documented in [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
 * the [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield) to mount the ATtiny85 on the Arduino for programming
 
 
@@ -249,7 +249,7 @@ and LEDs will toggle every half a second, which demonstrates that the processor 
 ![Build](./assets/At8MHz_build.jpg?raw=true)
 
 ## Credits and References
-* [LEAP#070 ATtinyWithArduinoISP](../../ATtinyWithArduinoISP)
+* [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
 * [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield)
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)

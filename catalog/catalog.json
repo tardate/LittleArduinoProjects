@@ -819,13 +819,6 @@
         "name": "MakerUno"
     }, 
     {
-        "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
-        "relative_path": "playground/TinyBlink", 
-        "id": "#071", 
-        "categories": "Arduino, ATmel", 
-        "name": "TinyBlink"
-    }, 
-    {
         "description": "playing short audio samples on an Arduino using some PWM tricks from the PCM library", 
         "relative_path": "playground/Audio/SimpleSamplePlayer", 
         "id": "#417", 
@@ -1036,13 +1029,6 @@
         "name": "Led4Digit7Segment/DoubleShift"
     }, 
     {
-        "description": "Programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
-        "relative_path": "playground/ATtinyWithArduinoISP", 
-        "id": "#070", 
-        "categories": "Arduino, ATmel, ICSP", 
-        "name": "ATtinyWithArduinoISP"
-    }, 
-    {
         "description": "test the positioning accuracy of a servo motor driven by an Arduino", 
         "relative_path": "playground/ServoTest", 
         "id": "#042", 
@@ -1106,6 +1092,13 @@
         "name": "DS18S20/OneWireReading"
     }, 
     {
+        "description": "programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
+        "relative_path": "playground/ATtiny/ProgrammingWithArduinoISP", 
+        "id": "#070", 
+        "categories": "Arduino, ATmel, ICSP", 
+        "name": "ATtiny/ProgrammingWithArduinoISP"
+    }, 
+    {
         "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
         "relative_path": "playground/ATtiny/At8MHz", 
         "id": "#275", 
@@ -1125,6 +1118,13 @@
         "id": "#127", 
         "categories": "Arduino, ATmel", 
         "name": "ATtiny/SleepMode"
+    }, 
+    {
+        "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
+        "relative_path": "playground/ATtiny/TinyBlink", 
+        "id": "#071", 
+        "categories": "Arduino, ATmel", 
+        "name": "TinyBlink"
     }, 
     {
         "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques", 

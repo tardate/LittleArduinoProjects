@@ -12,7 +12,7 @@ Here's a quick video of the circuit in action:
 
 This is a little test of sleep mode with an ATtiny85 microcontroller (8-pin DIP).
 
-I'm using an Arduino Uno as an in-system programmer, using teh technique described in the [ATtinyWithArduinoISP](../../ATtinyWithArduinoISP) project.
+I'm using an Arduino Uno as an in-system programmer, using the technique described in the [ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) project.
 
 Once the ATtiny is programmed, the Arduino Uno ISP is detached, and it will run independently.
 The ATtiny85 requires 1.8-5.5V to operate. I successfully tested with 3.3V and 5V supplies.

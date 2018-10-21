@@ -92,7 +92,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#126 ATtiny/HardwareInterrupt](./playground/ATtiny/HardwareInterrupt)             | **Arduino, ATmel**              test hardware interrupts with an ATtiny85 processor on a breadboard |
 | [#127 ATtiny/SleepMode](./playground/ATtiny/SleepMode)                             | **Arduino, ATmel**              test sleep mode with an ATtiny85 processor on a breadboard |
 | [#128 ATtiny/TotalSleep](./playground/ATtiny/TotalSleep)                           | **Arduino, ATmel**              test a total power shutdown with an ATtiny85 processor on a breadboard |
-| [#070 ATtinyWithArduinoISP](./playground/ATtinyWithArduinoISP)                     | **Arduino, ATmel, ICSP**        Programming an ATTINY85-20PU on a breadboard with Arduino ISP |
+| [#070 ATtiny/ProgrammingWithArduinoISP](./playground/ATtiny/ProgrammingWithArduinoISP) | **Arduino, ATmel, ICSP**    programming an ATTINY85-20PU on a breadboard with Arduino ISP |
 | [#253 ATtinyProgrammingShield](./playground/ATtinyProgrammingShield)               | **Arduino, ATmel**              a custom ATtiny programming shield for Arduino ISP |
 | [#210 AudioAmps/TDA7297Kit](./Electronics101/AudioAmps/TDA7297Kit)                 | **Audio**                       testing a TDA7297 audio amplifier kit (pump up the jam) |
 | [#309 AudioConnectors](./Electronics101/Connectors/Audio)                          | **Audio, Connectors**           notes on miscellaneous audio connectors |
@@ -459,7 +459,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#281 ThreeStageTransmitter](./Electronics101/FM/ThreeStageTransmitter)            | **Radio, FM**                   build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circuit |
 | [#375 ThreeTransistorShortWaveReceiver](./Radio/ThreeTransistorShortWaveReceiver)  | **Radio, HF**                   building a simple 3-transistor regenerative receiver for HF shortwave |
 | [#380 Tin Counter](./playground/tin_counter)                                       | **Arduino, Sensors, HC-SR04**   a project by novaprimexex to count tins as they roll by and detect tins without paper labels |
-| [#071 TinyBlink](./playground/TinyBlink)                                           | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
+| [#071 TinyBlink](./playground/ATtiny/TinyBlink)                                    | **Arduino, ATmel**              a simple blink sketch with an ATTINY85-20PU on a breadboard |
 | [#360 TL431/ShuntRegulator](./Electronics101/VoltageReference/TL431/ShuntRegulator)| ** Power, Regulator, Reference** testing a TL431 voltage reference (regulator) circuit with manual course and fine trim |
 | [#137 ToroidJouleThief](./Electronics101/ToroidJouleThief)                         | **Power, RL, Oscillators**      test a "joule thief" circuit based on a ferrite toroid |
 | [#135 TouchSwitch/555](./Electronics101/555Timer/TouchSwitch)                      | **555 Timer**                   test a touch switch circuit based on a 555 timer |
