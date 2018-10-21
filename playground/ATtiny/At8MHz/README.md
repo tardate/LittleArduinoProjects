@@ -15,7 +15,7 @@ To communicate with the ATtiny, I am using:
 
 * avrdude from MacOSX
 * an Arduino Uno running the ArduinoISP programmer sketch as documented in [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
-* the [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield) to mount the ATtiny85 on the Arduino for programming
+* the [LEAP#253 ProgrammingShield](../ProgrammingShield) to mount the ATtiny85 on the Arduino for programming
 
 
 ### The 8MHz Internal Clock Configuration
@@ -250,7 +250,7 @@ and LEDs will toggle every half a second, which demonstrates that the processor 
 
 ## Credits and References
 * [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
-* [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield)
+* [LEAP#253 ProgrammingShield](../ProgrammingShield)
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)
 * [avrdude](http://savannah.nongnu.org/projects/avrdude/)

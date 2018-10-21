@@ -104,7 +104,7 @@ NB: in the breadboard, pins 5 and 6 are wired LEDs. These are for a test scketch
 
 ## Credits and References
 * [LEAP#071 TinyBlink](../TinyBlink) - a simple ATtiny test sketch
-* [LEAP#253 ATtinyProgrammingShield](../../ATtinyProgrammingShield) - a programming shield version of this project
+* [LEAP#253 ProgrammingShield](../ProgrammingShield) - a programming shield version of this project
 * [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)
 * [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)

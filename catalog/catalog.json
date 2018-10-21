@@ -1134,6 +1134,13 @@
         "name": "ATtiny/SoftwarePWM"
     }, 
     {
+        "description": "a custom ATtiny programming shield for Arduino ISP", 
+        "relative_path": "playground/ATtiny/ProgrammingShield", 
+        "id": "#253", 
+        "categories": "Arduino, ATmel", 
+        "name": "ATtiny/ProgrammingShield"
+    }, 
+    {
         "description": "test a total power shutdown with an ATtiny85 processor on a breadboard", 
         "relative_path": "playground/ATtiny/TotalSleep", 
         "id": "#128", 
@@ -1160,13 +1167,6 @@
         "id": "#090", 
         "categories": "Arduino, Processing", 
         "name": "PlotNValues"
-    }, 
-    {
-        "description": "a custom ATtiny programming shield for Arduino ISP", 
-        "relative_path": "playground/ATtinyProgrammingShield", 
-        "id": "#253", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtinyProgrammingShield"
     }, 
     {
         "description": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
