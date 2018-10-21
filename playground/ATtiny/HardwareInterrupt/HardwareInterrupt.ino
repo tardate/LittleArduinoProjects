@@ -1,9 +1,9 @@
 /*
 
-  ATtinyHardwareInterrupt
+  HardwareInterrupt
   Test hardware interrupts with an ATtiny85 processor on a breadboard
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtinyHardwareInterrupt
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/HardwareInterrupt
 
  */
 

@@ -1,7 +1,7 @@
 {
     "id": "#126", 
-    "name": "ATtinyHardwareInterrupt", 
+    "name": "ATtiny/HardwareInterrupt", 
     "description": "test hardware interrupts with an ATtiny85 processor on a breadboard", 
     "categories": "Arduino, ATmel", 
-    "relative_path": "playground/ATtinyHardwareInterrupt"
+    "relative_path": "playground/ATtiny/HardwareInterrupt"
 }
