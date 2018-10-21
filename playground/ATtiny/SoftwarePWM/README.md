@@ -1,12 +1,8 @@
-# ATtiny/SoftwarePWM
+# #427 ATtiny/SoftwarePWM
 
 Generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques.
 
 ![Build](./assets/SoftwarePWM_build.jpg?raw=true)
-
-Here's a quick demo..
-
-[![clip](http://img.youtube.com/vi/video_id/0.jpg)](http://www.youtube.com/watch?v=video_id)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -15,8 +11,8 @@ Here's a quick demo..
 In most cases, direct hardware support is by far the preferred way of generating PWM signals with an ATtiny, but
 there are limitations:
 
-* they are limited to a range of prescaled frequencies
-* duty cycle granulatity fixed at 1:256
+* there is a restricted set of prescaled frequencies
+* duty cycle granulatity is fixed at 1:256
 
 NB: or you can generate a wider range of frequencies in counter mode, but duty cycle is fixed at 50%.
 
@@ -32,7 +28,7 @@ for example 1.2kHz at 98% duty cycle?
 
 The basic idea:
 
-* setup a timer with a specific clock frequency (prescalar) and count
+* setup a timer with a known interrupt frequency given a specific clock frequency (prescalar) and count
 * trigger an interrupt on counter reset
 * in the interrupt, use the knowledge of the expected interrupt frequency to determine whether to flip the output of the desired waveform
 
@@ -69,7 +65,7 @@ The ATtiny is configured at 8MHz internal clock speed and a Timer1 interrupt wit
 * top count of [(F_CPU/1000000 * 16.7/32 - 1) ~= 3](https://www.wolframalpha.com/input/?i=8MHz+*+16.7%C2%B5s+%2F+32+-+1)
 
 So the interrupt period would actually be [16µs](https://www.wolframalpha.com/input/?i=1%2F(8MHz%2F32)+*+4) (considering rounding),
-i.e. a frequency of [62.5kHz](https://www.wolframalpha.com/input/?i=1%2F(16%C2%B5s).
+i.e. a frequency of [62.5kHz](https://www.wolframalpha.com/input/?i=1%2F(16%C2%B5s)).
 
 
 #### PWM Wave 1 on PB0
@@ -99,7 +95,7 @@ showing that
 
 ### Test Results
 
-So how did it perform. Here are the resulting waves stacked on a scope:
+So how did it perform? Here are the resulting waves stacked on a scope:
 
 * CH1 (yellow) - PB1
 * CH2 (blue) - PB0 (offset for clarity)
