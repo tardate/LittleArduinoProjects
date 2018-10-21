@@ -79,7 +79,7 @@ This will not only set the fusues, but erase any program already on the chip and
 
 The Arduino IDE log window confirms what is going on.. note the `-Ulfuse:w:0xe2:m` fuse setting.
 
-````
+```
 Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude -C/Applications/Arduino.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf -v -v -v -v -pattiny85 -cstk500v1 -P/dev/cu.usbmodem14521 -b19200 -e -Uefuse:w:0xff:m -Uhfuse:w:0xdf:m -Ulfuse:w:0xe2:m
 
 avrdude: Version 6.0.1, compiled on Apr 14 2015 at 16:30:25
