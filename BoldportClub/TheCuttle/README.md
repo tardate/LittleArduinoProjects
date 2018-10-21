@@ -47,6 +47,44 @@ it shows up in the Arduino IDE and programming works like any other Arduino boar
 
 See the [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168) for details on mapping the ATmega328 pins to Arduino port names.
 
+
+| Cuttle Pin | ATmega328 Pin      | Arduino Pin |
+|------------|--------------------|-------------|
+| DTR*       | -                  | -           |
+| PC6        | PCINT14, RESET     | RESET       |
+| PD0        | PCINT16/RXD        | D0, RX      |
+| PD1        | PCINT17/TXD        | D1, TX      |
+| PD2        | PCINT18/INT0       | D2          |
+| PD3        | PCINT19/OC2B/INT1  | D3~         |
+| PD4        | PCINT20/XCK/T0     | D4          |
+| VCC        | VCC                | VCC         |
+| GND        | GND                | GND         |
+| PB6        | PCINT6/XTAL1/TOCS1 | (crystal)   |
+| PB7        | PCINT7/XTAL2/TOCS2 | (crystal)   |
+| PD5        | PCINT21/OC0B/T1    | D5~         |
+| PD6        | PCINT22/OC0A/AIN0  | D6~         |
+| PD7        | PCINT23/AIN1       | D7          |
+| PB0        | PCINT0/CLKO/ICP1   | D8          |
+| VCC*       | VCC                | VCC         |
+| GND*       | GND                | GND         |
+| PB1        | PCINT1/OC1A        | D9~         |
+| PB2        | PCINT2/OC1B/SS     | D10~        |
+| PB3        | PCINT3/OC2A/MOSI   | D11~        |
+| PB4        | PCINT4/MISO        | D12         |
+| PB5        | PCINT5/SCK         | D13         |
+| AVCC       | AVCC               | VCC         |
+| AREF       | AREF               | AREF        |
+| GND        | GND                | GND         |
+| PC0        | PCINT8/ADC0        | A0          |
+| PC1        | PCINT9/ADC1        | A1          |
+| PC2        | PCINT10/ADC2       | A2          |
+| PC3        | PCINT11/ADC3       | A3          |
+| PC4        | PCINT12/ADC4/SDA   | A4          |
+| PC5        | PCINT13/ADC5/SCL   | A5          |
+| CTS*       | -                  | -           |
+
+The Cuttle pins marked `*` are extra pins on the PCB that don't directly correspond to an ATmega328 pin or are duplicates.
+
 ## Construction
 
 ![Breadboard](./assets/TheCuttle_bb.jpg?raw=true)
