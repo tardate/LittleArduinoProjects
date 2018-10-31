@@ -246,7 +246,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#397 I2CScanner](./playground/I2CScanner)                                         | **I2C, Arduino**                scanning for I²C devices with an Arduino |
 | [#146 InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |
 | [#006 It's Better With Bacon](./playground/BetterWithBacon)                        | **LCD, Arduino**                simple LCD test |
-| [#056 JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two servos with a joystick |
+| [#056 JoystickServoControl](./playground/JoystickServoControl)                     | **Human Input, Arduino**        controlling two SG90 servos with a joystick |
 | [#303 KeyboardMatrixModule](./playground/KeyboardMatrixModule)                     | **Arduino, LED, Human Input**   demo a simple pushbutton/LED matrix module |
 | [#304 KeyboardMatrixModule/KeyMatrixInput](./playground/KeyboardMatrixModule/KeyMatrixInput)     | **Arduino, Human Input** demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP |
 | [#305 KeyboardMatrixModule/LedControl](./playground/KeyboardMatrixModule/LedControl)             | **Arduino, LED**         demo controlling the LEDs on a simple pushbutton/LED matrix module |
@@ -404,7 +404,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#317 SchmittTrigger/BasicDiscrete](./Electronics101/SchmittTrigger/BasicDiscrete) | **Schmitt, BJT**                test the classic emitter-coupled Schmitt Trigger circuit design |
 | [#172 SCRLatch](./Electronics101/SCRLatch)                                         | **SCR, Thyristor**              exploring the behaviour of low-power silicon controlled rectifiers (SCR) |
 | [#406 SerialInterface/UsbUartCH340G](./Electronics101/SerialInterface/UsbUartCH340G) | **USB, Serial, CH340**        build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P |
-| [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of a servo motor driven by an Arduino |
+| [#042 ServoTest](./playground/ServoTest)                                           | **Servo, Arduino**              test the positioning accuracy of an SG90 servo motor driven by an Arduino |
 | [#041 Shifty](./playground/Shifty)                                                 | **LED, CMOS/TTL, Arduino**      drive 8 LEDs with 3 pins using a 74HC595 shift register |
 | [#044 SimpleChime](./Electronics101/555Timer/SimpleChime)                          | **555 Timer**                   play a sound for a fixed duration when a button is pressed |
 | [#120 SimplePeakDetector](./Electronics101/SimplePeakDetector)                     | **RC**                          test the basic diode-RC peak detector circuit |

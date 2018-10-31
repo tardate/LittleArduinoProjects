@@ -1,7 +1,6 @@
 # #042 ServoTest
 
-Test the positioning accuracy of a servo motor driven by an Arduino
-
+Test the positioning accuracy of an SG90 servo motor driven by an Arduino
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

@@ -1,6 +1,6 @@
 # #056 JoystickServoControl
 
-Control two servos with a joystick. Here's a quick demo:
+Control two SG90 servos with a joystick. Here's a quick demo:
 
 [![JoystickServoControl](http://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](http://www.youtube.com/watch?v=P8883DkE3Jo)
 
