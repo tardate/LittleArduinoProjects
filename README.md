@@ -1,5 +1,8 @@
-# 429 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [3x7/PomodoroTimer](./BoldportClub/3x7/PomodoroTimer) - a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328.
+# 430 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BipolarWormDrive/SimpleHBridge](./playground/StepperMotors/BipolarWormDrive/SimpleHBridge) - testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!
+
+
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -114,6 +117,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#408 BBBreakout](./Electronics101/Power/BBBreakout)                               | **Power**                       a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
+| [#430 BipolarWormDrive/SimpleHBridge](./playground/StepperMotors/BipolarWormDrive/SimpleHBridge) | **Stepper, Arduino**  testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons! |
 | [#318 Bistable](./Electronics101/555Timer/Bistable)                                | **555 Timer**                   using the 555 timer as a bistable latch and button debouncer |
 | [#412 BJT Comparator](./Electronics101/BJT/Comparator)                             | **BJT, Comparator**             investigating and testing a comparator design with discrete components |
 | [#093 BJT CurrentSink](./Electronics101/BJT/CurrentSink)                           | **BJT, Power**                  test a BJT constant current sink circuit |
