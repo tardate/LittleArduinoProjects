@@ -1,4 +1,4 @@
-# #430 StepperMotors/BipolarWormDrive/SimpleHBridge
+# #430 Bipolar Linear Stepper with an H-Bridge
 
 Testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!
 
@@ -17,7 +17,7 @@ The [tear down of an HL GCR-8483B](http://wasp.kz/articles.php?article_id=959) i
 
 Here are two similar motor units I've scavenged. The part numbers are un-googlable internal references:
 
-* D4907M1F/15RF073K for upper in the picture below,
+* D4907M1F/15RF073K for upper in the picture below
 * D6124NID for the lower
 
 
@@ -26,7 +26,7 @@ Here are two similar motor units I've scavenged. The part numbers are un-googlab
 
 ### Drive Specifications
 
-I haven't been able to find any specifications for these drive units, but from my experiments, I've gathered the following:
+I haven't been able to find any specifications for these drive units, but from my experiments I've gathered the following:
 
 | Item                    |  Specification | Notes                                                                 |
 |-------------------------|----------------|-----------------------------------------------------------------------|
