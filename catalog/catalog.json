@@ -1106,13 +1106,6 @@
         "name": "DS18S20/OneWireReading"
     }, 
     {
-        "description": "testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!", 
-        "relative_path": "playground/StepperMotors/BipolarWormDrive/SimpleHBridge", 
-        "id": "#430", 
-        "categories": "Stepper, Arduino", 
-        "name": "BipolarWormDrive/SimpleHBridge"
-    }, 
-    {
         "description": "programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
         "relative_path": "playground/ATtiny/ProgrammingWithArduinoISP", 
         "id": "#070", 
@@ -1258,6 +1251,13 @@
         "id": "#200", 
         "categories": "Solenoid", 
         "name": "SolenoidMotor"
+    }, 
+    {
+        "description": "testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!", 
+        "relative_path": "Kinetics/StepperMotors/BipolarWormDrive/SimpleHBridge", 
+        "id": "#430", 
+        "categories": "Stepper, Arduino", 
+        "name": "BipolarWormDrive/SimpleHBridge"
     }, 
     {
         "description": "build and analyse a simple clap switch circuit available as a kit", 
