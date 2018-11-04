@@ -14,7 +14,7 @@ Here's a quick demo..
 
 The 28BYJ-48 stepper motor is pretty common in Arduino kits, and
 [available from various suppliers on aliexpress](http://www.aliexpress.com/item/Free-shipping-one-set-5-v-ULN2003-stepper-motor-drive-board/1938256381.html),
-oten supplied with an "X113647" ULN2003A driver board.
+often supplied with an "X113647" ULN2003A driver board.
 
 It is a 5-wire unipolar motor that runs at 5V and is suitable for cases where higher precision and torque are required, but not high rotational speed.
 
@@ -37,8 +37,7 @@ DroneBot Workshop has an excellent introduction to driving stepper motors, inclu
 
 The essential full-step sequence:
 
-![unipolar_windings](./assets/unipolar_windings.png?raw=true)
-
+[![unipolar_windings](./assets/unipolar_windings.png?raw=true)](http://www.robotoid.com/bonus-chapters/rbb2-ch19-Working_with_Stepper_Motors.pdf)
 
 
 ### The 28BYJ-48 Stepper Motor
@@ -70,8 +69,8 @@ The windings of the 28BYJ-48 are usually documented like this:
 
 ![28BYJ48_windings](./assets/28BYJ48_windings.png?raw=true)
 
-However, this may be a bit confusing as it doesn't really represents how the windings energise the poles/teeth of the stator.
-Specifically (at least on the motor unit I have) the clockwise activation sequence: Blue -> Pink -> Yellow -> Orange.
+However, this may be a bit confusing as it doesn't really represent how the windings energize the poles/teeth of the stator.
+Specifically (at least on the motor unit I have) the clockwise activation sequence is: Blue -> Pink -> Yellow -> Orange.
 
 This translates to a full-step sequence:
 
@@ -151,6 +150,12 @@ but they all essentially do the same thing:
 The [DirectDrive.ino](./DirectDrive/DirectDrive.ino) sketch is an example of low-level driving the 28BYJ-48 motor via the X113647 board.
 
 It does not use any libraries, but rather explicity controls the 4 pins.
+
+It runs three demo sequences in order, then repeats:
+
+* full step, one full rotation clockwise and then back
+* half-full step, one full rotation clockwise and then back
+* double-full step, one full rotation clockwise and then back
 
 
 ### Stepper Library Example
