@@ -1260,6 +1260,13 @@
         "name": "BipolarWormDrive/SimpleHBridge"
     }, 
     {
+        "description": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647", 
+        "relative_path": "Kinetics/StepperMotors/ULN2003Module", 
+        "id": "#432", 
+        "categories": "Stepper, ULN2003", 
+        "name": "StepperMotors/ULN2003Module"
+    }, 
+    {
         "description": "all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino", 
         "relative_path": "Kinetics/StepperMotors/28BYJ48", 
         "id": "#431", 

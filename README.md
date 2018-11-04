@@ -1,8 +1,6 @@
-# 431 Little Electronics and Arduino Projects
+# 432 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [StepperMotors/28BYJ48](./Kinetics/StepperMotors/28BYJ48) - all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 
-
-All about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -435,6 +433,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, 555 Timer, Oscillators**  generate a stair-step waveform with analog components |
 | [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
 | [#431 StepperMotors/28BYJ48](./Kinetics/StepperMotors/28BYJ48)                     | **Stepper, Arduino**            all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino |
+| [#432 StepperMotors/ULN2003Module](./Kinetics/StepperMotors/ULN2003Module)         | **Stepper, ULN2003**            investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647 |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler |
