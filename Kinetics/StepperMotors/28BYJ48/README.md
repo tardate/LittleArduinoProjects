@@ -6,7 +6,7 @@ All about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/_UWj8lBsAHg/0.jpg)](https://www.youtube.com/watch?v=_UWj8lBsAHg)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -218,4 +218,3 @@ Note the crossover of the wires eminating from the 28BYJ-48. This is actually do
 * [Arduino - Stepper Motor with ULN2803 IC](https://roboindia.com/tutorials/arduino-stepper-motor)
 * [ULN2003A datasheet](http://www.futurlec.com/Linear/ULN2003A.shtml)
 * [Robot Builder's Bonanza - Working with Stepper Motors](http://www.robotoid.com/bonus-chapters.html) Bonus Chapters From RBB Fourth Edition
-* [..as mentioned on my blog](https://blog.tardate.com/)
