@@ -1,7 +1,0 @@
-{
-    "id": "#011", 
-    "name": "X113647Stepper", 
-    "description": "using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino", 
-    "categories": "Stepper, Arduino", 
-    "relative_path": "playground/X113647Stepper"
-}

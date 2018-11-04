@@ -728,13 +728,6 @@
         "name": "Shifty"
     }, 
     {
-        "description": "using the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board with an Arduino", 
-        "relative_path": "playground/X113647Stepper", 
-        "id": "#011", 
-        "categories": "Stepper, Arduino", 
-        "name": "X113647Stepper"
-    }, 
-    {
         "description": "test a 7-digit & 7-status indicator LED display", 
         "relative_path": "playground/LedPanelDisplay72R02", 
         "id": "#209", 
@@ -1272,6 +1265,13 @@
         "id": "#431", 
         "categories": "Stepper, Arduino", 
         "name": "StepperMotors/28BYJ48"
+    }, 
+    {
+        "description": "a standard Stepper-compatible Arduino library that supports half-stepping the 28BYJ-48 unipolar stepper motor with a ULN2003A/X113647 Stepper Motor Driver Board", 
+        "relative_path": "Kinetics/StepperMotors/28BYJ48/X113647StepperLibrary", 
+        "id": "#011", 
+        "categories": "Stepper, Arduino", 
+        "name": "X113647StepperLibrary"
     }, 
     {
         "description": "build and analyse a simple clap switch circuit available as a kit", 
