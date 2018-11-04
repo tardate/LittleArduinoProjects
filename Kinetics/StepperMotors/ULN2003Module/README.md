@@ -28,9 +28,10 @@ and include a 5-pin connector commonly used with stepper motor drives.
 
 There are any number of versionss of the ULN2003A module.
 I have one identfiied as X113647 and is commonly supplied with the 28BYJ-48 stepper motor.
+
 In addition to LEDs and a smotthing capacitor, this module includes a jumper that
-disconnects the positive motor supply from the connector to the motor - this may
-perhaps be used for testing, where you want to see the ULN2003A outputs and LEDs change state but do not actually want to power the motor.
+disconnects the positive motor supply from the connector to the motor -
+though I can't think of a really good reason why this might be useful.
 
 ![Build](./assets/ULN2003Module_build.jpg?raw=true)
 
