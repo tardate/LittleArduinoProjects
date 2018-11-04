@@ -1,8 +1,8 @@
-# 430 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BipolarWormDrive/SimpleHBridge](./Kinetics/StepperMotors/BipolarWormDrive/SimpleHBridge) - testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!
+# 431 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [StepperMotors/28BYJ48](./Kinetics/StepperMotors/28BYJ48) - all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 
 
-
+All about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -434,6 +434,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#077 SRLatchWithNorGates](./Electronics101/DigitalLogic/SRLatchWithNorGates)      | **Logic Gates, CMOS/TTL**       Set-Reset latch implemented with NOR gates |
 | [#222 StairStepGenerator](./Electronics101/StairStepGenerator)                     | **OpAmp, 555 Timer, Oscillators**  generate a stair-step waveform with analog components |
 | [#212 StayCreative](./Electronics101/StayCreative)                                 | **Audio, LED**                  an audio level VU meter driving a custom LED sign |
+| [#431 StepperMotors/28BYJ48](./Kinetics/StepperMotors/28BYJ48)                     | **Stepper, Arduino**            all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino |
 | [#048 StereoLightTrigger](./playground/StereoLightTrigger)                         | **Sensors, Arduino**            demo an interrupt-driven method for responding to LDR light threshold triggers |
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler |

@@ -1260,6 +1260,13 @@
         "name": "BipolarWormDrive/SimpleHBridge"
     }, 
     {
+        "description": "all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino", 
+        "relative_path": "Kinetics/StepperMotors/28BYJ48", 
+        "id": "#431", 
+        "categories": "Stepper, Arduino", 
+        "name": "StepperMotors/28BYJ48"
+    }, 
+    {
         "description": "build and analyse a simple clap switch circuit available as a kit", 
         "relative_path": "Electronics101/ClapSwitchKit", 
         "id": "#170", 

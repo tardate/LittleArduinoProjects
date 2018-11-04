@@ -1,0 +1,7 @@
+{
+    "id": "#431", 
+    "name": "StepperMotors/28BYJ48", 
+    "description": "all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino", 
+    "categories": "Stepper, Arduino", 
+    "relative_path": "Kinetics/StepperMotors/28BYJ48"
+}

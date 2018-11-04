@@ -24,8 +24,8 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [LM741 General Purpose Operational Amplifier](./LM741)
 * [SCR generic TO-92 silicon controlled rectifier/thyristor](./SCR)
 * [SMA420564 4-Digit 7-Segment LED Display](./SMA420564)
-* Stepper Motor 28BYJ-48 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
-* Stepper Board X113647 - available in the [X113647Stepper](https://github.com/tardate/X113647Stepper) repo
+* [Stepper Motor 28BYJ-48](./28BYJ-48)
+* [Stepper Driver Board X113647](./X113647)
 * [Voltage Sensor Module](./VoltageSensorModule)
 
 
