@@ -70,6 +70,13 @@
         "name": "BoldportClub/tap"
     }, 
     {
+        "description": "building the Boldport Krell: a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab", 
+        "relative_path": "BoldportClub/krell", 
+        "id": "#434", 
+        "categories": "Boldport, PCB Design, Audio", 
+        "name": "BoldportClub/krell"
+    }, 
+    {
         "description": "the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018", 
         "relative_path": "BoldportClub/conehead", 
         "id": "#409", 

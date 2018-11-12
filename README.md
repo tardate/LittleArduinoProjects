@@ -1,5 +1,5 @@
-# 433 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AdjustablePowerSupplyKit](./Equipment/AdjustablePowerSupplyKit) - building a popular 30V/3A adjustable power supply kit, making an enclosure and testing.
+# 434 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/krell](./BoldportClub/krell) - building the Boldport Krell: a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -140,6 +140,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#257 BoldportClub/Emergency](./BoldportClub/Emergency)                            | **Boldport, PCB Design, Oscillators** pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect) |
 | [#340 BoldportClub/IxpandO](./BoldportClub/IxpandO)                                | **Boldport, PCB Design, Port Expander**  an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input |
 | [#311 BoldportClub/Juice](./BoldportClub/Juice)                                    | **Boldport, PCB Design, Power** building the Boldport Juice battery replacement kit (Project #12) |
+| [#434 BoldportClub/krell](./BoldportClub/krell)                                    | **Boldport, PCB Design, Audio**  building the Boldport Krell: a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab |
 | [#263 BoldportClub/ligemdio](./BoldportClub/ligemdio)                              | **Boldport, PCB Design, LED, BJT** an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8) |
 | [#419 BoldportClub/lite2sound-bc](./BoldportClub/lite2sound-bc)                    | **Boldport, PCB Design, Audio** building Lite2Sound Boldport Club Project #26 |
 | [#345 BoldportClub/mostap](./BoldportClub/mostap)                                  | **Boldport, CMOS**              upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers. |
