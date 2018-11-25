@@ -1,5 +1,6 @@
-# 436 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Vivian](./Kinetics/BEAM/Vivian) - a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver.
+# 437 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [QX5252JouleThief](./Electronics101/LedDrivers/QX5252JouleThief) - using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -372,6 +373,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#233 PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) | **PWM, 555 Timer, Oscillators, Power**  build and test a general-purpose high-side PWM controller |
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **CMOS/TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
 | [#073 QuadNOR](./Electronics101/QuadNOR)                                           | **CMOS/TTL, Arduino**           demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
+| [#437 QX5252JouleThief](./Electronics101/LedDrivers/QX5252JouleThief)              | **Power, LED**                  using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery |
 | [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     build and test a 16-bit R2R-ladder digital to analog converter with shift register interface |
 | [#035 RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino, HC-SR04**   proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [#049 RCOscillator](./Electronics101/RCOscillator)                                 | **BJT, RC, Oscillators**        simple RC/transistor multistable vibrator |

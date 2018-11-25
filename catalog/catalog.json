@@ -2331,6 +2331,13 @@
         "name": "LEDStrobeKit"
     }, 
     {
+        "description": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery", 
+        "relative_path": "Electronics101/LedDrivers/QX5252JouleThief", 
+        "id": "#437", 
+        "categories": "Power, LED", 
+        "name": "QX5252JouleThief"
+    }, 
+    {
         "description": "an audio level indicator kit based on the LM3915", 
         "relative_path": "Electronics101/AudioLevelIndicatorKit", 
         "id": "#202", 
