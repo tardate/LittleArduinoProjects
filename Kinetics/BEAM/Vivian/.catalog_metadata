@@ -1,0 +1,7 @@
+{
+    "id": "#436", 
+    "name": "BEAM/Vivian", 
+    "description": "a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver", 
+    "categories": "BEAM, Robotics", 
+    "relative_path": "Kinetics/BEAM/Vivian"
+}

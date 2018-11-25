@@ -1239,6 +1239,20 @@
         "name": "LineFollowerKit"
     }, 
     {
+        "description": "a quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) field", 
+        "relative_path": "Kinetics/BEAM", 
+        "id": "#435", 
+        "categories": "BEAM, Robotics", 
+        "name": "BEAM"
+    }, 
+    {
+        "description": "a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver", 
+        "relative_path": "Kinetics/BEAM/Vivian", 
+        "id": "#436", 
+        "categories": "BEAM, Robotics", 
+        "name": "BEAM/Vivian"
+    }, 
+    {
         "description": "build a basic homopolar motor", 
         "relative_path": "Kinetics/HomopolarMotor", 
         "id": "#203", 

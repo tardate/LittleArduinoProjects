@@ -1,5 +1,5 @@
-# 434 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/krell](./BoldportClub/krell) - building the Boldport Krell: a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab.
+# 436 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BEAM/Vivian](./Kinetics/BEAM/Vivian) - a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -113,6 +113,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#288 BasicInvertingBuckBoostAvrControl](./Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl) | **Power, ATtiny, Arduino**   build and test an inverting buck-boost converter controlled by an ATtiny85 |
 | [#262 BazzFuss](./Electronics101/GuitarEffects/BazzFuss)                           | **Guitar Effects, Audio**       the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit |
 | [#408 BBBreakout](./Electronics101/Power/BBBreakout)                               | **Power**                       a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors |
+| [#435 BEAM](./Kinetics/BEAM)                                                       | **BEAM, Robotics**              a quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) field |
+| [#436 BEAM/Vivian](./Kinetics/BEAM/Vivian)                                         | **BEAM, Robotics**              a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
 | [#430 BipolarWormDrive/SimpleHBridge](./Kinetics/StepperMotors/BipolarWormDrive/SimpleHBridge) | **Stepper, Arduino**  testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons! |
