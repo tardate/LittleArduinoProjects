@@ -1,8 +1,12 @@
 # #437 LED Drivers: QX5252 Joule Thief
 
-Using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage (battery under 1.9V.
+Using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery.
 
 ![Build](./assets/QX5252JouleThief_build.jpg?raw=true)
+
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/t6bDAJE5T_M/0.jpg)](https://www.youtube.com/watch?v=t6bDAJE5T_M)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -100,3 +104,4 @@ Carefully put together so that it forms a clip over the battery:
 ## Credits and References
 * [QX5252 product info](http://www.qxmd.com.cn/en/?product/QX5252.html)
 * [List of battery sizes](https://en.wikipedia.org/wiki/List_of_battery_sizes) - wikipedia
+* [..as mentioned on my blog](https://blog.tardate.com/2018/11/leap437-qx5252-joule-thief.html)
