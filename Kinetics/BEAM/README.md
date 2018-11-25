@@ -75,7 +75,7 @@ The taxonomy of BEAM circuits is generally organised as follows:
 There are quite a few categories that perhaps should be added to this list, for example:
 
 * Squawkers: robots that respond audibly to a particular stimulus
-* Wavers: robots that respond visualy to a particular stimulus
+* Flashers: robots that respond visualy to a particular stimulus
 
 
 ## Examples
@@ -84,8 +84,11 @@ Now that I have the BEAM terminology in mind, I realise that quite a few [Boldpo
 probably belong in the taxonomy, for example:
 
 * [LEAP#409 conehead](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/conehead) - a Phototrope sitter (better yet: a squawker); chirps in response to light
-* [LEAP#284 TheGent](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheGent) - a Phototrope sitter (better yet: a wavers); flashes it's LEDs in response to light
+* [LEAP#284 TheGent](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheGent) - a Phototrope sitter (better yet: a flasher); flashes it's LEDs in response to light
 
+And now for some new BEAM builds:
+
+* [LEAP#436 Vivian](./Vivian) - a vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver.
 
 ## Credits and References
 * [BEAM Robotics](https://en.wikipedia.org/wiki/BEAM_robotics) - wikipedia

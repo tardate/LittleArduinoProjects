@@ -13,22 +13,21 @@ Here's a quick demo..
 ## Notes
 
 A solar-powered vibrobot is one of the more common BEAM designs: essentially using a photovoltaic cell
-as a power source, and periodically spinning a vibrating motor (usually scavenged from a mobile phone).
+as a power source, periodically spinning a vibrating motor (usually scavenged from a mobile phone).
 The motor jiggles the contraption, moving itself around a surface.
 
-I've called my build "Vivian", and it uses a classic FLED-based driver circuit,
+I've called my build **Vivian**, and it uses a classic FLED-based driver circuit,
 but I've added a joule thief IC to squeeze a bit more efficiency from the solar panel.
 
-It features two flashing LED (FLED) "eyes", and a vibrating motor stripped from an old Nokia phone.
-
+It features two flashing LED (FLED) "eyes", and a vibrating motor from an old Nokia phone.
 In BEAM terminology, I guess this would be considered a Vibrobot Jumper.
 
-See also the [BEAM](../) project page where I've collected much of the BEAM-related research I've done.
+NB: see also the [BEAM](../) project page where I've collected much of the BEAM-related research I've done.
 
 ### FLED Driver Circuit
 
 [FLED-based solar engines](http://solarbotics.net/library/circuits/se_t1_fled.html) are a popular
-technique for driving a moter from a low-power photovoltaic source.
+technique for driving a motor from a low-power photovoltaic source.
 
 The flashing LED provides the oscillation necessary to allow a capacitor bank to charge to a level
 that is able to drive the motor.
@@ -45,7 +44,7 @@ Since I wanted to use the smallest cell possible in the build, I wanted to get t
 
 The 30.5x58.5 cell I have is not particularly impressive in terms of voltage and power output, so it needed a little help.
 
-I have some interesting QX5252 "solar LED driver" ICs (YX805 is an equivalent product amongst others).
+I have some interesting QX5252 "solar LED driver" ICs in a TO-94 package (YX805 is a common equivalent product).
 These are designed to drive solar-powered lights:
 
 * incorporate a switching circuit for voltage boost from 0.9-1.5V to the 2-3V required to drive an LED (similar to a joule thief circuit)
@@ -55,7 +54,7 @@ These are designed to drive solar-powered lights:
 For the Vivian circuit, I'm using the chip in a slightly unorthodox way:
 the solar cell is connected in place of the rechargeable battery (there is no rechargeable battery),
 and takes advantage of the switching boost converter.
-the output of the boost converter is fed to the capacitor bank via a 1N5711 (low voltage drop) diode to preent discharge via the converter.
+The output of the boost converter is fed to the capacitor bank via a 1N5711 (low voltage drop) diode to prevent discharge via the converter.
 
 Here's a scope trace of the performance using a 330µH inductor. The effectiveness of the boost circuit is quite apparent.
 
@@ -65,7 +64,7 @@ Here's a scope trace of the performance using a 330µH inductor. The effectivene
 
 ![scope_330uH](./assets/scope_330uH.gif?raw=true)
 
-That shows quite a bit of useless oscillation, this can be dampened by switching up to a 2.2mH inductor (as used in the final build).
+There is quite a bit of useless oscillation, which can be dampened by switching up to a 2.2mH inductor (as used in the final build).
 In this trace:
 
 * CH1 (Yellow) - voltage at LX (output from the boost converter)
@@ -76,10 +75,10 @@ In this trace:
 
 ### Defeating the Over-discharge Protection
 
-I noticed a strange behaviour after a solar cell voltage drop-out (like when shaded and then returned to the light):
-the boost circuit oscillation would not re-start.
+I noticed a strange behaviour after a solar cell voltage drop-out (like when moving from heavy shade to the light):
+the boost circuit oscillation would not restart.
 
-I suspect this is the chip's over-discharge protection kicking in, but have yet to find an elegant way to defeat this.
+I suspect this is the chip's over-discharge protection kicking in, but have yet to find an elegant way to defeat it.
 What does work to restart the boost circuit:
 
 * disconnect and re-connect the solar cell, or
@@ -126,7 +125,7 @@ and fine-tuned this while building the main circuit elements:
 * linked to the head/brain - the FLED circuit and motor
 
 
-The main part not very obvious form the pictures is the arrangement of the FLED circuit - here's my working sketch for how that is all connected:
+The main aspect not particularly obvious from the pictures is the arrangement of the FLED circuit - here's my working sketch for how that is all connected:
 
 ![fled_circuit_layout](./assets/fled_circuit_layout.jpg?raw=true)
 
@@ -142,6 +141,8 @@ The main part not very obvious form the pictures is the arrangement of the FLED 
 ## Conclusion
 
 This worked out quite well. I was concerned that my super-cheap solar cell was not going to be up to the job
+but with the QX5252 boost it performs quite well.
+
 
 ## Credits and References
 * [FLED-based solar engines](http://solarbotics.net/library/circuits/se_t1_fled.html)
