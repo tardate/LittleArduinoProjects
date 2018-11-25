@@ -1250,7 +1250,7 @@
         "relative_path": "Kinetics/BEAM/Vivian", 
         "id": "#436", 
         "categories": "BEAM, Robotics", 
-        "name": "BEAM/Vivian"
+        "name": "Vivian"
     }, 
     {
         "description": "build a basic homopolar motor", 

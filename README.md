@@ -1,5 +1,5 @@
 # 436 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BEAM/Vivian](./Kinetics/BEAM/Vivian) - a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver.
+> Latest addition:sparkles: [Vivian](./Kinetics/BEAM/Vivian) - a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -114,7 +114,6 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#262 BazzFuss](./Electronics101/GuitarEffects/BazzFuss)                           | **Guitar Effects, Audio**       the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit |
 | [#408 BBBreakout](./Electronics101/Power/BBBreakout)                               | **Power**                       a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors |
 | [#435 BEAM](./Kinetics/BEAM)                                                       | **BEAM, Robotics**              a quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) field |
-| [#436 BEAM/Vivian](./Kinetics/BEAM/Vivian)                                         | **BEAM, Robotics**              a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver |
 | [#133 BidirectionalLevelShifter](./Electronics101/BidirectionalLevelShifter)       | **FET**                         test a basic bi-directional 5/3.3V level shifter circuit |
 | [#134 BidirectionalLevelShifterModule](./Electronics101/BidirectionalLevelShifterModule) | **FET**                   test a bi-directional 5/3.3V level shifter module |
 | [#430 BipolarWormDrive/SimpleHBridge](./Kinetics/StepperMotors/BipolarWormDrive/SimpleHBridge) | **Stepper, Arduino**  testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons! |
@@ -484,6 +483,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [#276 VariableFrequencyRunwayLEDs](./playground/VariableFrequencyRunwayLEDs)       | **LED, Arduino**                a PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4017 |
 | [#163 VariableSawtoothGenerator](./Electronics101/VariableSawtoothGenerator)       | **OpAmp, Oscillators**          test a variable-geometry, fixed-amplitude sawtooth wave generator circuit |
+| [#436 Vivian](./Kinetics/BEAM/Vivian)                                              | **BEAM, Robotics**              a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver |
 | [#125 VoiceLevelIndicatorKit](./Electronics101/VoiceLevelIndicatorKit)             | **LED, Kit**                    build and investigate a commercially available "3-band voice level indicator" kit |
 | [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
 | [#328 VoltageControlledOscillator/555](./Electronics101/555Timer/VoltageControlledOscillator) | **Oscillators, VCO, 555 Timer** a voltage-controlled oscillator (VCO) using the 555 timer |
