@@ -141,7 +141,10 @@ The main aspect not particularly obvious from the pictures is the arrangement of
 ## Conclusion
 
 This worked out quite well. I was concerned that my super-cheap solar cell was not going to be up to the job
-but with the QX5252 boost it performs quite well.
+but with the QX5252 boost it performs quite well:
+
+* even quite low-light conditions (like an overcast day) are enough to get the "eyes" to flash
+* and a little indirect sunshine (such as indoors when the sun is out) will start to trigger the motor
 
 
 ## Credits and References
