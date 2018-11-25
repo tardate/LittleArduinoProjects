@@ -80,8 +80,12 @@ Dang! This is when I realise I forgot the 50Hz/60Hz noise rejection jumper.
 
 ## Enclosure and Hardware
 
-I'm using a 140mm x 110mm x 42mm black plastic project enclosure. I think I may have picked this up at Sim Lim Tower.
+I'm using a 140mm x 110mm x 42mm black plastic project enclosure.
 As a bonus it comes with 4 screw-on rubber feet.
+
+I picked this up while browsing in [Sim Lim Tower (Singapore)](https://goo.gl/maps/pSonsE9L4J72).
+There is no manufacturer identification, but I suspect it may be the [Future Kit FB16](https://www.futurekit.com/product/25667/fb16).
+
 
 ### Control Buttons
 
