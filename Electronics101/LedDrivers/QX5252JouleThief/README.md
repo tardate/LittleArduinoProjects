@@ -25,7 +25,7 @@ The core features include:
 * a switching circuit for voltage boost from 0.9-1.5V to the 2-3V required to drive an LED (similar to a joule thief circuit)
 * charging a rechargeable battery from a solor cell, with integrated Schottky Diode for reverse polarity protection
 * over-discharge protection
-* light control switch, only available in DIP-8 package - requires external photocell to achieve a similar result with TO-94 pacakge
+* light control switch, only available in DIP-8 package - requires external photocell to achieve a similar result with TO-94 package
 
 Key specifications:
 
@@ -47,9 +47,9 @@ The primary configuration is as follows:
 As a test and demonstration, I'm ignoring the solar charging aspect here, and just use the chip as a "joule thief" to drive an LED
 with a battery that has a lower voltage than the forward voltage of the LED.
 
-To make things a little interesting, I'll build this a a free-standing circuit that just clips onto the battery.
+To make things a little interesting, I'll build this as a free-standing circuit that just clips onto the battery.
 
-The battery I'm using here is an AG8 (aka LR1120, 191) rated for 1.55V, and I confirmed it cannot directly drive the LED I'm using -
+The battery I'm using here is an AG8 (aka LR1120, 191) rated at 1.55V, and I confirmed it cannot directly drive the LED I'm using -
 a nice blue 0805 SMD (and blue typically has much higher forward voltage than other colours).
 
 Only 4 parts  are required:
@@ -75,9 +75,9 @@ In truth, a wide range of inductance will work, with the considerations:
 
 Here are some examples at both ends of the spectrum.
 
-First, with a larger inductor of 100µH, voltage output from the boost converter (at LX, drigin the LED) looks like this.
+First, with a larger inductor of 100µH, voltage output from the boost converter (at LX, driving the LED) looks like this.
 This is a good curve, peaking at just over 3V which is ample to drive the LEDs (Vf = 2.7V).
-the switching frequency is around 130kHz, and duty cycle over Vf is perhaps 20%. This results in a nice strong LED illumination.
+The switching frequency is around 130kHz, and duty cycle over Vf is perhaps 20%. This results in a nice strong LED illumination.
 
 ![scope_100uH](./assets/scope_100uH.gif?raw=true)
 
