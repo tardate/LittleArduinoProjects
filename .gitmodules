@@ -88,3 +88,6 @@
 [submodule "libraries/LRThreeDigits"]
 	path = libraries/LRThreeDigits
 	url = https://github.com/LuckyResistor/LRThreeDigits
+[submodule "libraries/MFRC522"]
+	path = libraries/MFRC522
+	url = https://github.com/miguelbalboa/rfid

@@ -1,6 +1,5 @@
-# 437 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [QX5252JouleThief](./Electronics101/LedDrivers/QX5252JouleThief) - using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery.
-
+# 438 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [RFID/DeviceDumper](./playground/RFID/DeviceDumper) - getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -387,7 +386,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#013 ResistorTransistorLogic/NOT](./Electronics101/ResistorTransistorLogic/NOT)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NOT gate (Inverter) |
 | [#112 ResistorTransistorLogic/OR](./Electronics101/ResistorTransistorLogic/OR)     | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic OR gate |
 | [#221 ResistorTransistorLogic/XOR](./Electronics101/ResistorTransistorLogic/XOR)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic XOR gate/XOR |
-| [#124 RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **Radio**                          a simple RF detector mounted in a pen |
+| [#124 RFDetectorProbe](./Electronics101/EMRDetection/RFDetectorProbe)              | **Radio**                       a simple RF detector mounted in a pen |
+| [#438 RFID/DeviceDumper](./playground/RFID/DeviceDumper)                           | **RFID**                        getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags |
 | [#337 RgbLedGlow](./Electronics101/RgbLedGlow)                                     | **LED, Oscillators**            rainbow glow effects with an RGB LED and OpAmp oscillators |
 | [#169 RGBLedModule](./playground/RGBLedModule)                                     | **LED, Arduino**                demo an RGB LED module |
 | [#107 RingCounter](./Electronics101/RingCounter)                                   | **CMOS, 555 Timer**             test the classic CD4017 walking-ring counter |

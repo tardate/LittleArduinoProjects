@@ -15,6 +15,7 @@ Some projects require additional libraries. For example:
 * [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient) - EthernetShield projects
 * [LedControl](https://github.com/wayoda/LedControl) - LED matrix control
 * [LRAS1130](https://github.com/LuckyResistor/LRAS1130) - AMS AS1130 LED Driver control
+* [MFRC522](https://github.com/miguelbalboa/rfid) - MFRC522 RFID library by miguelbalboa
 * [OneWire](https://github.com/PaulStoffregen/OneWire) - 1-wire compatible components
 * [PCM](https://github.com/damellis/PCM) - Playback of short audio samples.
 * [Radio](http://www.mathertel.de/Arduino/RadioLibrary.aspx) - Arduino Radio Library
