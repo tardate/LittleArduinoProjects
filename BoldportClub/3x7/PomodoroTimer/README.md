@@ -31,19 +31,19 @@ digit on the right;-)
 
 ### Design Concept
 
-There's a few things I'd like to do here:
+There's a few things I set out to achieve:
 
-* the 3x7 will display minutes in two digits, and tenths of minutes on the 3rd digit
-* the pomodoro countdown will run from at most 95 minutes, but default to start at 55 minutes (my preferred time block)
-* the Arduino must measure reasonably accurate time for the countdown, but I'm not going to be upset if it is a little off (less than a minute)
+* the 3x7 displays minutes in two digits, and tenths of minutes on the 3rd digit
+* the pomodoro countdown runs from at most 95 minutes, but default to start at 55 minutes (my preferred time block)
+* the Arduino measures reasonably accurate time for the countdown, but I'm not going to be upset if it is a little off (less than a minute)
 * before starting the count, two buttons can be used to increase or decrease the countdown respectively, in increments of 5 minutes
 * when the countdown has completed, the unit will flash for a period of time
-    - a button press will reset the app for another countdown
+    - a button press resets the app for another countdown
     - if no input, go to sleep
-* if sleeping, a button press will wake up and reset the application
+* if sleeping, a button press wakes up and resets the application
 
 
-### Measureing Time
+### Measuring Time
 
 How to measure time with an Arduino? We could:
 
@@ -135,3 +135,4 @@ Next steps - I'm thinking about adding a mount so that I can hook the unit to th
 * [<avr/sleep.h>: Power Management and Sleep Modes](https://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html)
 * [arduinoSleepCode](https://playground.arduino.cc/Learning/arduinoSleepCode)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap429-3x7-pomodoro-timer.html)
+* [..on hackaday.io](https://hackaday.io/project/162699-3x7-flip-top-pomodoro-timer)
