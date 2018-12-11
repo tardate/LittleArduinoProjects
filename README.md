@@ -1,5 +1,5 @@
-# 438 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [RFID/DeviceDumper](./playground/RFID/DeviceDumper) - getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags.
+# 439 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [QX5252SolarNightLight](./Electronics101/LedDrivers/QX5252SolarNightLight) - exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -373,6 +373,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **CMOS/TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
 | [#073 QuadNOR](./Electronics101/QuadNOR)                                           | **CMOS/TTL, Arduino**           demo simple cascading NOR gate logic with the 74LS02 and an Arduino |
 | [#437 QX5252JouleThief](./Electronics101/LedDrivers/QX5252JouleThief)              | **Power, LED**                  using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery |
+| [#439 QX5252SolarNightLight](./Electronics101/LedDrivers/QX5252SolarNightLight)    | **Power, LED, Solar**           exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller |
 | [#115 R2RDAC](./playground/R2RDAC)                                                 | **Arduino**                     build and test a 16-bit R2R-ladder digital to analog converter with shift register interface |
 | [#035 RangeFinder](./playground/RangeFinder)                                       | **Sensors, Arduino, HC-SR04**   proximity/distance measurement with an HC-SR04 untrasonic ranging module |
 | [#049 RCOscillator](./Electronics101/RCOscillator)                                 | **BJT, RC, Oscillators**        simple RC/transistor multistable vibrator |

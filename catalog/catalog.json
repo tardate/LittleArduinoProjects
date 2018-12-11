@@ -2345,6 +2345,13 @@
         "name": "QX5252JouleThief"
     }, 
     {
+        "description": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller", 
+        "relative_path": "Electronics101/LedDrivers/QX5252SolarNightLight", 
+        "id": "#439", 
+        "categories": "Power, LED, Solar", 
+        "name": "QX5252SolarNightLight"
+    }, 
+    {
         "description": "an audio level indicator kit based on the LM3915", 
         "relative_path": "Electronics101/AudioLevelIndicatorKit", 
         "id": "#202", 
