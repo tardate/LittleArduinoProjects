@@ -31,7 +31,7 @@ This project is a simple demonstration build of the standard solar-powered LED c
 ## Rechargeable Battery
 
 I'm using an [Energizer HR03](http://data.energizer.com/pdfs/hr03-1000_eu.pdf)
-with a nominal voltage of 1.2V. I bought a pack of 2 with a charger (which I hopdefully don't need!):
+with a nominal voltage of 1.2V. I bought a pack of 2 with a charger (which I hopefully don't need!):
 
 ![energizer_hr03](./assets/energizer_hr03.jpg?raw=true)
 
@@ -66,7 +66,7 @@ cell.
 
 ## Construction
 
-Per the datahseet, the circuit simply connects the solar cell and battery to their respective pins, the the LED load
+Per the datasheet, the circuit simply connects the solar cell and battery to their respective pins, and the the LED load
 is bridged with the inductor so that the flyback voltage can power the LED when the chip is in switching mode.
 
 ![Breadboard](./assets/QX5252SolarNightLight_bb.jpg?raw=true)
@@ -97,4 +97,5 @@ output driving the LED:
 * [AAA battery](https://en.wikipedia.org/wiki/AAA_battery) - wikipedia
 * [Energizer HR03 Datasheet](http://data.energizer.com/pdfs/hr03-1000_eu.pdf)
 * [QX5252 product info](http://www.qxmd.com.cn/en/?product/QX5252.html)
+* [Hacking an LED solar garden light](https://ez.analog.com/university-program/b/blogs/posts/hacking-an-led-solar-garden-light)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/12/leap439-qx5252-solar-night-light.html)
