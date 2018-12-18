@@ -66,8 +66,9 @@ cell.
 
 ## Construction
 
-Per the datasheet, the circuit simply connects the solar cell and battery to their respective pins, and the the LED load
-is bridged with the inductor so that the flyback voltage can power the LED when the chip is in switching mode.
+I've followed the typical application schematic from the datasheet:
+the circuit simply connects the solar cell and battery to their respective pins, and the the LED load
+is fed with an inductor so that the flyback voltage can power the LED when the chip is in switching mode.
 
 ![Breadboard](./assets/QX5252SolarNightLight_bb.jpg?raw=true)
 
@@ -80,6 +81,8 @@ Proving things out on a breadboard...
 
 ## Demonstration Build
 
+Turning once again to my store of Ikea cardboard packaging for an "all on display" demo build:
+
 ![layout](./assets/layout.jpg?raw=true)
 
 
@@ -90,8 +93,17 @@ output driving the LED:
 
 ![boost_trace](./assets/boost_trace.gif?raw=true)
 
+We're currently having a wet season "cool spell" with overcast days and afternoon showers, and I have the unit indoors behind mildly tinted glass
+and a chance of direct sublight for only a few hours a day.
 
-![Build](./assets/QX5252SolarNightLight_build.jpg?raw=true)
+But even so I'm seeing the battery charge to ~1.3V during the day and drop to ~1.2V overnight.
+To get an even better picture of what's going on, I used another Arduino to monitor the voltage and log
+the data to Adafruit IO (see [LEAP#440](../../../playground/DataLogging/VoltageToAdafruitIO) for more on the data logging).
+
+I'll keep monitoring this for a while yet - basically to find out if net/net the solar panel is able to keep the battery charged
+while in continuous use under variable weather patterns - but over the first full 24 hour period I'm seeing roughly what I'd expect:
+
+![battery_voltage_chart](./assets/battery_voltage_chart.png?raw=true)
 
 ## Credits and References
 * [AAA battery](https://en.wikipedia.org/wiki/AAA_battery) - wikipedia
