@@ -633,7 +633,7 @@
         "description": "using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT", 
         "relative_path": "playground/DataLogging/VoltageToAdafruitIO", 
         "id": "#440", 
-        "categories": "Sensors, Cloud, Data Logging", 
+        "categories": "Sensors, Cloud, MQTT, Data Logging", 
         "name": "DataLogging/VoltageToAdafruitIO"
     }, 
     {

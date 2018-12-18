@@ -8,11 +8,11 @@ Using Adafruit IO and an Ethernet shield to collect analog measurements to the c
 
 ## Notes
 
-I wanted a simple way to log the voltage of the rechargeable battery for
+I wanted a simple way to log the voltage of the
 [LEAP#439 QX5252 Solar Night Light](../../../Electronics101/LedDrivers/QX5252SolarNightLight),
-so I can measure the overnight discharge and daily solar recharge.
+rechargeable battery to get a sense of the overnight discharge and daily recharge pattern.
 
-It didn't need to be particularly accurate, but I did want it to provide a fairly continuous log at least every 5 minutes or so.
+It didn't need to be particularly accurate, but I did want to get a fairly continuous log at least every 5 minutes or so.
 Sounds like a perfect case for some Arduino-powered data logging!
 
 I could just capture some data locally to an SD card, but sending the data to the "cloud" is much more appealing,
@@ -188,3 +188,4 @@ Doing more research on how it worked and writing these notes took far longer;-)
 * [Adafruit MQTT Library](https://github.com/adafruit/Adafruit_MQTT_Library)
 * [MQTT](https://en.wikipedia.org/wiki/MQTT) - wikipedia
 * [mqtt.org](http://mqtt.org/)
+* [..as mentioned on my blog](https://blog.tardate.com/2018/12/leap440-logging-data-with-adafruit-io.html)

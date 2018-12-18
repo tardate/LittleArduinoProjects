@@ -190,7 +190,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#168 CurrentSensorModule](./playground/CurrentSensorModule)                       | **Sensors, Arduino**            test an ACS712 current sensor module with display on a 5110 LCD |
 | [#420 CuttleTalk](./BoldportClub/lite2sound-bc/CuttleTalk)                         | **Boldport, Audio, LiFi**       playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound |
 | [#130 DarlingtonTouchSwitch](./Electronics101/DarlingtonTouchSwitch)               | **Sensors, BJT**                test a Darlington-pair touch switch |
-| [#440 DataLogging/VoltageToAdafruitIO](./playground/DataLogging/VoltageToAdafruitIO) | **Sensors, Cloud, Data Logging**  using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT |
+| [#440 DataLogging/VoltageToAdafruitIO](./playground/DataLogging/VoltageToAdafruitIO) | **Sensors, Cloud, MQTT, Data Logging**  using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT |
 | [#414 Decade Programmable Resistor](./Electronics101/DecadeProgrammableResistor)   | **Test Equipment**              building an old-fashioned 7-digit decade programmable resistor with push-button control |
 | [#352 Decoding ACARS](./SDR/DecodingACARS)                                         | **SDR, Radio**                  decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX |
 | [#339 DelayKit](./Electronics101/GuitarEffects/DelayKit)                           | **Guitar, Audio**               build and test a PT2399-based analogue delay pedal kit |
