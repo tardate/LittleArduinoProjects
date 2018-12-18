@@ -630,6 +630,13 @@
         "name": "MPU6050/AccelGyroTest"
     }, 
     {
+        "description": "using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT", 
+        "relative_path": "playground/DataLogging/VoltageToAdafruitIO", 
+        "id": "#440", 
+        "categories": "Sensors, Cloud, Data Logging", 
+        "name": "DataLogging/VoltageToAdafruitIO"
+    }, 
+    {
         "description": "run a basic waveform demo with an AD9833 module", 
         "relative_path": "playground/AD9833/BasicDemoCycle", 
         "id": "#148", 

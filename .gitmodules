@@ -91,3 +91,6 @@
 [submodule "libraries/MFRC522"]
 	path = libraries/MFRC522
 	url = https://github.com/miguelbalboa/rfid
+[submodule "libraries/Adafruit_MQTT_Library"]
+	path = libraries/Adafruit_MQTT_Library
+	url = https://github.com/adafruit/Adafruit_MQTT_Library

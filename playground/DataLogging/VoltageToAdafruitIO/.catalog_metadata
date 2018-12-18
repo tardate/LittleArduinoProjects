@@ -1,0 +1,7 @@
+{
+    "id": "#440", 
+    "name": "DataLogging/VoltageToAdafruitIO", 
+    "description": "using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT", 
+    "categories": "Sensors, Cloud, Data Logging", 
+    "relative_path": "playground/DataLogging/VoltageToAdafruitIO"
+}
