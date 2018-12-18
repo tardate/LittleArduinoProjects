@@ -29,7 +29,7 @@ MQTT is a pub-sub framework and can be used for bi-directional data transfer and
 its capabilities (I just want to do some data collection in the cloud).
 
 Adafruit IO has some basic dashboarding automatically built-in, which is enough to visualise the collected data.
-But they do off many integration options for doing something with the data once collected, such as trigger [IFTTT](https://ifttt.com/) workflows.
+But they also have integration options for doing something with the data once collected, such as trigger [IFTTT](https://ifttt.com/) workflows.
 
 
 ## About MQTT
@@ -71,9 +71,9 @@ example from the [Adafruit MQTT Library](https://github.com/adafruit/Adafruit_MQ
 ## Resolution (or lack thereof)
 
 The voltage readings I'm expecting will be in the 1-1.3V range. Direct sampling with a 5V Arduino Uno's analog pin
-sacrifices a great deal of resolution - basically I'll have a [4.9mV](https://www.wolframalpha.com/input/?i=5V%2F1024) resolution.
+sacrifices a great deal of resolution - basically I'll have a [4.9mV](https://www.wolframalpha.com/input/?i=5V%2F1024) steps.
 
-That's not great, and could be improved with some off-board apmplification or higher resolution ADC,
+That's not great, and could be improved with some off-board amplification or higher resolution ADC,
 but in this case I prefer to accept the lack of precision for the benefit of not needing any additional circuit components.
 
 
@@ -84,7 +84,7 @@ The "View AIO Key" link provides the username and key details needed to configur
 
 The AIO username, key and feed name are defined in [settings.h](./settings.h).
 Since this includes "secret" details, it is not checked into the repository.
-Before compiling the source, copy [settings.h.template](./settings.h.template) to settings.h and fill in the required information.
+Before compiling the source, copy [settings.h.template](./settings.h.template) to `settings.h` and fill in the required information.
 
 
 ## Adafruit IO Features
@@ -151,7 +151,7 @@ The event is a nice JSON structure, although I haven't been able to find a speci
 ## Construction
 
 Since I purposely avoided any external circuitry, this is about as simple as it gets:
-tap the battery voltage to A0 and make sure the DUT has a common ground:
+tap the battery voltage with A0 and make sure the DUT has a common ground:
 
 ![Breadboard](./assets/VoltageToAdafruitIO_bb.jpg?raw=true)
 
@@ -164,21 +164,21 @@ After running some successful tests with the Arduino plugged into my Mac USB,
 I switched to an external 12V/2A power supply in order to leave it running.
 Within 15 minutes the Ethernet shield had locked up with an error.
 
-After a little investigation, I'm suspecting the problem is the 5V regulator of my (cloned) Arduino is skewing low (4.7V) and perhaps not
+After a little investigation, I'm suspecting the problem is with the 5V regulator of my (cloned) Arduino skewing low (~4.7V) and perhaps not
 delivering reliable current. Something to dig into and solve later...
 
-For now, Ive avoided the problem by simply powering the unit with a regulated 5V supply direct to the 5V pin of the Arduino.
+For now, I've avoided the problem by simply powering the unit with a regulated 5V supply direct to the 5V pin of the Arduino.
 No more lock-ups.
 
 
 ## Conclusions
 
 Adafruit IO is pretty amazing! It is extremely easy to get something simple up and running fast.
-It doesn't over-reach in terms of its features (or price!), so I can see this being a great prototyping
+It doesn't over-reach in terms of its features (or price), so I can see this being a great prototyping
 platform for relatively straight-forward control and data collection.
-But this also means you can probably imagine more ambitious projects that require more than Adafruit IO has to offer.
+But this also means you can probably imagine much more ambitious projects that require more than Adafruit IO has to offer.
 
-For my initial problem - log some data about the state of a rechargeable battery over a couple of daya - it was perfect.
+For my initial problem - log some data about the state of a rechargeable battery over a couple of days - it was perfect.
 Literally took me 10 minutes from signing up at Adafruit to when I had data streaming into a feed.
 Doing more research on how it worked and writing these notes took far longer;-)
 
