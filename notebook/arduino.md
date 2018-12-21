@@ -49,14 +49,20 @@ See the [Official Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) site
 ### Power
 
 Specs:
+
 * Operating Voltage (logic level) 5 V
 * Input Voltage (recommended) 7-12 V
 * Input Voltage (limits)  6-20 V
 
 The power source is automatically selected to the highest voltage source from one of:
+
 * the Mini-B USB connection
 * 6-20V unregulated external power supply (pin 30)
 * 5V regulated external power supply (pin 27)
+
+See also:
+
+* [Arduino Uno R3: Directly supply regulated 5V to 5V pin?](https://electronics.stackexchange.com/questions/65576/arduino-uno-r3-directly-supply-regulated-5v-to-5v-pin)
 
 ### Pins
 

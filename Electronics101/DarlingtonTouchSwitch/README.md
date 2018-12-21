@@ -2,6 +2,7 @@
 
 Test a Darlington-pair touch switch.
 
+![The Build](./assets/DarlingtonTouchSwitch_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -34,9 +35,10 @@ It doesn't take much to activate the switch:
 
 ![The Schematic](./assets/DarlingtonTouchSwitch_schematic.jpg?raw=true)
 
-![The Build](./assets/DarlingtonTouchSwitch_build.jpg?raw=true)
 
 ## Credits and References
 * [Darlington transistor/pair](https://en.wikipedia.org/wiki/Darlington_transistor) - wikipedia
 * [The Darlington pair](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - describes the touch switch circuit
 * [Touch switch with a darlington pair](https://youtu.be/XArtEkeSkt4) - video demo
+* [Darlington Transistors](https://www.electronics-tutorials.ws/transistor/darlington-transistor.html) - electronics-tutorials
+* [Touch Switch Circuits](http://www.discovercircuits.com/C/capacitance-sw.htm) - huge collection of touch circuits
