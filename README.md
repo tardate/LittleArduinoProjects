@@ -1,6 +1,5 @@
 # 440 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [DataLogging/VoltageToAdafruitIO](./playground/DataLogging/VoltageToAdafruitIO) - using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT.
-
+> Latest addition:sparkles: [Pollen8](./Kraft/Pollen8) - a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -356,6 +355,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#401 Pixie](./Radio/pixie)                                                        | **Radio**                          research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m |
 | [#090 PlotNValues](./playground/PlotNValues)                                       | **Arduino, Processing**         generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing |
 | [#183 PolarityTester](./Electronics101/PolarityTester)                             | **Inverter, CMOS**              demonstrate a polarity-testing circuit |
+| [#441 Pollen8](./Kraft/Pollen8)                                                    | **LED, CMOS/TTL, 555 Timer**    a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit |
 | [#193 PovShakeStickKit](./Electronics101/PovShakeStickKit)                         | **8051, LED**                   build and investigate an AT89S52-based "shake stick" kit |
 | [#330 Power/Any2AnyPowerPack](./Electronics101/Power/Any2AnyPowerPack)             | **Power**                       a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors |
 | [#165 Power2662Inverter](./Electronics101/Power2662Inverter)                       | **Power**                       test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter |

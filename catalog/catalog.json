@@ -3066,6 +3066,13 @@
         "name": "GoldenHind"
     }, 
     {
+        "description": "a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit", 
+        "relative_path": "Kraft/Pollen8", 
+        "id": "#441", 
+        "categories": "LED, CMOS/TTL, 555 Timer", 
+        "name": "Pollen8"
+    }, 
+    {
         "description": "learning about conductive ink with the CircuitScribe LiteWings kit", 
         "relative_path": "Kraft/CircuitScribe/LiteWings", 
         "id": "#350", 
