@@ -68,7 +68,7 @@ The finished base:
 
 ## Circuit Construction
 
-A very simple variation of the classic CD4017 counter with a 555 astable clock course.
+A very simple variation of the classic CD4017 counter with a 555 astable clock source.
 A light-dependent resistor provides some frequency variation depending on available light.
 The LDR ranges from around 1kΩ when in light to 10kΩ when in darkness, corresponding to a clock frequency range of
 perhaps [6.5Hz](https://visual555.tardate.com/?mode=astable&r1=2.2&r2=10&c=10) to [34Hz](https://visual555.tardate.com/?mode=astable&r1=2.2&r2=1&c=10).
@@ -111,5 +111,6 @@ they are not driven very hard.
 ## Credits and References
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
+* [Project listing on Hackaday.io](https://hackaday.io/project/162969-pollen8)
 * [Hackaday Circuit Sculpture Contest](https://hackaday.io/contest/162559-circuit-sculpture-contest)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/12/leap441-pollen8.html)
