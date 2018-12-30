@@ -103,7 +103,7 @@ Wire stock:
 
 * 0.9mm copper wire - main structural elements
 * 0.55mm copper wire - secondary structural elements
-* 0.6mm magnet wire - LED and power connections
+* 0.2mm magnet wire - LED and power connections
 
 
 ## Putting it all Together
