@@ -105,6 +105,30 @@ while in continuous use under variable weather patterns - but over the first ful
 
 ![battery_voltage_chart](./assets/battery_voltage_chart.png?raw=true)
 
+
+## Is This How They Really Make Them?
+
+I was recently in a [Bunnings](https://www.bunnings.com.au/) store in Australia and was absolutely blown away by the range of LED solar lights
+on offer - from $1 to over $30 AUD.
+
+I picked up a "s*lar lytworx" solar LED spotlight for $3.95AUD to find out if this is what's really inside them.
+
+![example_unit](./assets/example_unit.jpg?raw=true)
+
+And yes, the circuit I've demonstrated here is exactly what they contain:
+
+* 3 LEDs
+* a switch on the LED anode
+* the YX805 version of the LED control chip
+* an inductor (green - blue - black - silver, so I think 56µH)
+* a solar cell
+* and a 300mAh NiCad battery
+
+The solar cell and battery are pretty small - but this was being sold on the Queenslad coast, where I'm sure there's ample sunlight to keep these charged year-round.
+
+![example_unit_circuit2](./assets/example_unit_circuit2.jpg?raw=true)
+
+
 ## Credits and References
 * [AAA battery](https://en.wikipedia.org/wiki/AAA_battery) - wikipedia
 * [Energizer HR03 Datasheet](http://data.energizer.com/pdfs/hr03-1000_eu.pdf)
