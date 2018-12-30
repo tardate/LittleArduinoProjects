@@ -1,5 +1,5 @@
-# 440 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [Pollen8](./Kraft/Pollen8) - a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit.
+# 442 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/respot](./BoldportClub/respot) - Boldport puts the "pot" back in the resistance, a classic decade resistor box in custom pots.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -149,6 +149,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#402 BoldportClub/pips](./BoldportClub/pips)                                      | **Boldport, CD4060**            rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |
+| [#442 BoldportClub/respot](./BoldportClub/respot)                                  | **Boldport, Test Equipment**    Boldport puts the "pot" back in the resistance, a classic decade resistor box in custom pots |
 | [#325 BoldportClub/spoolt](./BoldportClub/spoolt)                                  | **Boldport, Soldering**         pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017) |
 | [#323 BoldportClub/stringy](./BoldportClub/stringy)                                | **Boldport, PIC, Audio**        building and playing (mainly playing) the Boldport Club Stringy (Project #14) |
 | [#285 BoldportClub/tap](./BoldportClub/tap)                                        | **Boldport, PCB Design, CMOS/TTL** Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available! |
