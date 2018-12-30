@@ -48,6 +48,7 @@ You can probably tell I was thinking it looked like some kind of sci-fi planetar
 
 ![counter_tower_tengent](./assets/counter_tower_tengent.jpg?raw=true)
 
+
 ## Base
 
 The base is made from some copper PCB stock and 3 cork coasters.
@@ -87,30 +88,69 @@ Up to 5 LEDs are chained from each counter output (not all pins are actually use
 
 The main electronic components:
 
-| Item | Description                                |
-|------|--------------------------------------------|
-| U1   | 555 Timer                                  |
-| U2,3 | CD4017 decade counter                      |
-| C1   | 10µF electolytic capacitor                 |
-| R1   | 2.2kΩ                                      |
-| R2   | 10kΩ LDR                                   |
-|      | ~ 25 yellow 0805 LEDs                      |
-|      | ~ 35 red 0805 LEDs                         |
-|      | lots of 0805 220Ω resistors - for each LED |
+| Item | Description                                    |
+|------|------------------------------------------------|
+| U1   | 555 Timer                                      |
+| U2,3 | CD4017 decade counter                          |
+| C1   | 10µF electolytic capacitor                     |
+| R1   | 2.2kΩ                                          |
+| R2   | 10kΩ LDR                                       |
+|      | ~ 25 yellow 0805 LEDs                          |
+|      | ~ 35 red 0805 LEDs                             |
+|      | lots of 0805 220Ω resistors - one for each LED |
+
+Wire stock:
+
+* 0.9mm copper wire - main structural elements
+* 0.55mm copper wire - secondary structural elements
+* 0.6mm magnet wire - LED and power connections
 
 
 ## Putting it all Together
 
-The circuit works nicely on a 3.3V coin cell, but can also take power fromthe two pins at the rear.
+The final step in construction was to assmble the individual LEDs with their current-limiting resistor.
+these are grounded on the wire frame and connected to the CD4017 outputs with magnet wire.
+This proved to be an extremely finnecky process to the point that I was cursing myself for
+deciding on such a construction. The main problem is that soldering one connection can easily de-solder another if you are not careful!
+
+![build_led_detail](./assets/build_led_detail.jpg?raw=true)
+
+I tried a range of processes and eventually settled on first soldering the LEDs to the resistors, then adding the magnet wire, and finally attaching to the frame.
+
+![build_led_1](./assets/build_led_1.jpg?raw=true)
+
+Half the LEDs were attached prior to inserting the central timer/counter unit. The rest were attached afterwards.
+
+![build_led_2](./assets/build_led_2.jpg?raw=true)
+
+A close-up of the final construction from the front:
+
+![build_front_close](./assets/build_front_close.jpg?raw=true)
+
+And from the rear:
+
+![build_rear_close](./assets/build_rear_close.jpg?raw=true)
+
+
+## Demonstration
+
+The circuit works nicely on a 3.3V coin cell, but can also take power from the two pins at the rear.
 It's quite efficient (seems to draw < 5mA at peak), but I've been conservative with the LED current-limiting resistors -
 they are not driven very hard.
 
-![Build](./assets/Pollen8_build.gif?raw=true)
+When viewed directly from the front, a distinct "runway lights" pattern is apparent in the LEDs. This is produced with yellow LEDs that are angled forward.
+
+![demo_front](./assets/demo_front.gif?raw=true)
+
+When viewed from other angles, the LED display is more chaotic. This is mainly produced by LEDs angled outwards.
+
+![demo_side](./assets/demo_side.gif?raw=true)
 
 
 ## Credits and References
 * [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
+* [MP4 to GIF converter](https://www.onlineconverter.com/mp4-to-gif) - the tool I used to create the animated GIFs (nice - supports scaling)
 * [Project listing on Hackaday.io](https://hackaday.io/project/162969-pollen8)
 * [Hackaday Circuit Sculpture Contest](https://hackaday.io/contest/162559-circuit-sculpture-contest)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/12/leap441-pollen8.html)
