@@ -105,13 +105,19 @@ class Catalog(object):
 
         for entry in self.metadata():
             url = 'https://github.com/tardate/LittleArduinoProjects/tree/master/{}/README.md'.format(entry['relative_path'])
+            hero_image_url = 'https://leap.tardate.com/{}/assets/{}_build.jpg'.format(
+                entry['relative_path'],
+                entry['relative_path'].split('/')[-1]
+            )
             updated_at = self.get_project_modified_datetime(entry['relative_path'])
             doc = ElementTree.SubElement(root, "entry")
             ElementTree.SubElement(doc, "id").text = url
             ElementTree.SubElement(doc, "link", href=url)
+            ElementTree.SubElement(doc, "updated").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
             ElementTree.SubElement(doc, "title").text = u'{} {}'.format(entry['id'], entry['name'])
             ElementTree.SubElement(doc, "summary").text = entry['description']
-            ElementTree.SubElement(doc, "updated").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
+            content = ElementTree.SubElement(doc, "content", type="html")
+            ElementTree.SubElement(content, "img", src=hero_image_url)
             for category in entry['categories'].split(', '):
                 ElementTree.SubElement(doc, "category", term=category)
 
