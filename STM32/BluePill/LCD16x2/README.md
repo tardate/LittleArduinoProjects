@@ -17,7 +17,6 @@ To establish a good communication between human world and machine world, display
 Unlike normal development boards interfacing a LCD to a ARDUINO is quite easy. Here we don’t have to worry about data sending and receiving. We just have to define the pin numbers and it will be ready to display data on LCD.
 
 
-
 ## Circuit Diagram and explanation
 
 In 16x2 LCD there are 16 pins over all if there is a back light, if there is no back light there will be 14 pins. One can power or leave the back light pins. Now in the 14 pins there are 8 data pins (7-14 or D0-D7), 2 power supply pins (1&2 or VSS&VDD or GND&+5v), 3rd pin for contrast control (VEE-controls how thick the characters should be shown), and 3 control pins (RS&RW&E).
@@ -69,6 +68,18 @@ As discussed in the above paragraph you should be able to notice the output as s
 ![powered_over_usb](./assets/powered_over_usb.jpg?raw=true)
 
 This is just a simple interfacing project to help use the LCD display with STM32 board, but further you can use this to build cool projects. Hope you understood the tutorial and learnt something useful from it. If you had faced any problem in getting it to work, please use the comment section to post the problem or use the forums for other technical questions.
+
+
+## Verification Build
+
+A second build with a few variations:
+
+* using a CH340G instead of FTDI serial interface
+* 220Ω current limiting resistor added to the LED supply lines
+
+All good:
+
+![LCD16x2_verification_build](./assets/LCD16x2_verification_build.jpg?raw=true)
 
 ## Credits and References
 * [ARM Cortex-M3 STM32F103C8T6 Minimum System Development Board STM32](https://www.aliexpress.com/item/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-Arduino/32667468626.html) - example from a seller on aliexpress
