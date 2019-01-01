@@ -92,6 +92,19 @@ Connections are as follows:
 ![Build](./assets/BluePill_build.jpg?raw=true)
 
 
+### Configuring the IDE
+
+The default settings that work with this board are as follows:
+
+* Board: Generic STM32F103C series
+* Variant: STM32F103C8 (20k RAM. 64k Flash)
+* CPU Speed: 72MHz
+* Upload method: Serial
+* Port: (as selected based on USB connection)
+
+![setup_serial](./assets/setup_serial.png?raw=true)
+
+
 ### Uploading Sketch
 
 The [Blink.ino](./Blink/Blink.ino) sketch is just about the simplest thing possible - blinks the LED connected on port PC13.
