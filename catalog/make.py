@@ -110,9 +110,10 @@ class Catalog(object):
             ElementTree.SubElement(doc, "id").text = url
             ElementTree.SubElement(doc, "link", href=url)
             ElementTree.SubElement(doc, "title").text = u'{} {}'.format(entry['id'], entry['name'])
-            ElementTree.SubElement(doc, "summary").text = u'{}. Keywords: {}'.format(entry['description'], entry['categories'])
-            ElementTree.SubElement(doc, "published").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
+            ElementTree.SubElement(doc, "summary").text = entry['description']
             ElementTree.SubElement(doc, "updated").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
+            for category in entry['categories'].split(', '):
+                ElementTree.SubElement(doc, "category", term=category)
 
         pretty_write(root, self.catalog_atom)
 
