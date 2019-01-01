@@ -2870,6 +2870,13 @@
         "name": "BluePill"
     }, 
     {
+        "description": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
+        "relative_path": "STM32/BluePill/LCD16x2", 
+        "id": "#443", 
+        "categories": "STM32, LCD", 
+        "name": "BluePill 16x2 LCD"
+    }, 
+    {
         "description": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!", 
         "relative_path": "PIC/GettingBlinky", 
         "id": "#331", 

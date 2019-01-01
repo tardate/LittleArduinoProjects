@@ -1,5 +1,7 @@
-# 442 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/respot](./BoldportClub/respot) - Boldport puts the "pot" back in the resistance, a classic decade resistor box in custom pots.
+# 443 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BluePill 16x2 LCD](./STM32/BluePill/LCD16x2) - using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE.
+
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -128,6 +130,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#009 Blink](./playground/Blink)                                                   | **LED, Arduino**                the simplest blinking LED, with some electrical measurements thrown in |
 | [#030 BlinkPrecision](./playground/BlinkPrecision)                                 | **LED, Timing, Arduino**        use a timer to perform a function on a precise schedule |
 | [#386 BluePill](./STM32/BluePill)                                                  | **STM32**                       programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE |
+| [#443 BluePill 16x2 LCD](./STM32/BluePill/LCD16x2)                                 | **STM32, LCD**                  using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE |
 | [#425 BoldportClub/3x7](./BoldportClub/3x7)                                        | **Boldport, 7-Segment**         building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display |
 | [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |
 | [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
