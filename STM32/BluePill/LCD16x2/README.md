@@ -1,4 +1,4 @@
-﻿# Interfacing 16x2 LCD with STM32F103C8T6
+﻿# #443 Interfacing 16x2 LCD with STM32F103C8T6
 
 Using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE.
 
@@ -14,7 +14,8 @@ To establish a good communication between human world and machine world, display
 
 ![lcd_column_row_arrangement](./assets/lcd_column_row_arrangement.jpg?raw=true)
 
-Unlike normal development boards interfacing a LCD to a ARDUINO is quite easy. Here we don’t have to worry about data sending and receiving. We just have to define the pin numbers and it will be ready to display data on LCD.Unlike normal development boards interfacing a LCD to a ARDUINO is quite easy. Here we don’t have to worry about data sending and receiving. We just have to define the pin numbers and it will be ready to display data on LCD.
+Unlike normal development boards interfacing a LCD to a ARDUINO is quite easy. Here we don’t have to worry about data sending and receiving. We just have to define the pin numbers and it will be ready to display data on LCD.
+
 
 
 ## Circuit Diagram and explanation
