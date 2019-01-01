@@ -1,8 +1,5 @@
-# 443 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BluePill 16x2 LCD](./STM32/BluePill/LCD16x2) - using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE.
-
-
-
+# 444 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [VariableDutyCycle/DiodeSteering](./Electronics101/555Timer/VariableDutyCycle/DiodeSteering) - using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -489,6 +486,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#341 UsbPowerSupplyKit](./Electronics101/Power/UsbPowerSupplyKit)                 | **Power, USB**                  building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up |
 | [#400 USBProtector](./Equipment/USBProtector)                                      | **Power, USB, Tools, Test Equipment**  building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection |
 | [#145 VariableDutyCycle](./Electronics101/555Timer/VariableDutyCycle)              | **555 Timer, Oscillators**      a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency |
+| [#444 VariableDutyCycle/DiodeSteering](./Electronics101/555Timer/VariableDutyCycle/DiodeSteering) | **555 Timer, Oscillators**      using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator |
 | [#002 Variable LED brightness with PWM](./playground/VariableLED)                  | **LED, Arduino**                variable resistor is used to control the brightness of an LED with PWM |
 | [#276 VariableFrequencyRunwayLEDs](./playground/VariableFrequencyRunwayLEDs)       | **LED, Arduino**                a PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4017 |
 | [#163 VariableSawtoothGenerator](./Electronics101/VariableSawtoothGenerator)       | **OpAmp, Oscillators**          test a variable-geometry, fixed-amplitude sawtooth wave generator circuit |
