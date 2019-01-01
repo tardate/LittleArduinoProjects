@@ -2653,6 +2653,13 @@
         "name": "VariableDutyCycle"
     }, 
     {
+        "description": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator", 
+        "relative_path": "Electronics101/555Timer/VariableDutyCycle/ControlAdjust", 
+        "id": "#445", 
+        "categories": "555 Timer, Oscillators", 
+        "name": "VariableDutyCycle/ControlAdjust"
+    }, 
+    {
         "description": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator", 
         "relative_path": "Electronics101/555Timer/VariableDutyCycle/DiodeSteering", 
         "id": "#444", 
