@@ -90,7 +90,8 @@ class Catalog(object):
                 f.write(pretty_xml.encode('utf8'))
 
         print "Writing {}..".format(self.catalog_atom)
-        root = ElementTree.Element("feed", xmlns="http://www.w3.org/2005/Atom")
+        root = ElementTree.Element('feed', xmlns='http://www.w3.org/2005/Atom')
+        root.set('xmlns:g', 'http://base.google.com/ns/1.0')
         ElementTree.SubElement(root, "title").text = "LEAP: Little Electronic and Arduino Projects"
         ElementTree.SubElement(root, "subtitle").text = "my collection of electronics projects, many involving an Arduino in one way or another"
         ElementTree.SubElement(root, "link", href="https://leap.tardate.com/catalog/atom.xml", rel="self")
@@ -116,8 +117,7 @@ class Catalog(object):
             ElementTree.SubElement(doc, "updated").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
             ElementTree.SubElement(doc, "title").text = u'{} {}'.format(entry['id'], entry['name'])
             ElementTree.SubElement(doc, "summary").text = entry['description']
-            content = ElementTree.SubElement(doc, "content", type="html")
-            ElementTree.SubElement(content, "img", src=hero_image_url)
+            ElementTree.SubElement(doc, "g:image_link").text = hero_image_url
             for category in entry['categories'].split(', '):
                 ElementTree.SubElement(doc, "category", term=category)
 
