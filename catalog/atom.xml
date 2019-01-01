@@ -5,7 +5,12 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-01-01T15:54:50Z</updated>
+  <updated>2019-01-01T16:05:02Z</updated>
+  <author>
+    <name>Paul Gallagher</name>
+    <email>gallagher.paul@gmail.com</email>
+    <uri>https://github.com/tardate</uri>
+  </author>
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/555Timer/VariableDutyCycle/ControlAdjust/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/555Timer/VariableDutyCycle/ControlAdjust/README.md"/>

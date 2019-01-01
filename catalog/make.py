@@ -98,6 +98,11 @@ class Catalog(object):
         ElementTree.SubElement(root, "id").text = "https://leap.tardate.com/"
         ElementTree.SubElement(root, "updated").text = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
+        author = ElementTree.SubElement(root, "author")
+        ElementTree.SubElement(author, "name").text = "Paul Gallagher"
+        ElementTree.SubElement(author, "email").text = "gallagher.paul@gmail.com"
+        ElementTree.SubElement(author, "uri").text = "https://github.com/tardate"
+
         for entry in self.metadata():
             url = 'https://github.com/tardate/LittleArduinoProjects/tree/master/{}/README.md'.format(entry['relative_path'])
             updated_at = self.get_project_modified_datetime(entry['relative_path'])

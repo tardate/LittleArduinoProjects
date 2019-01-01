@@ -14,6 +14,14 @@ $ catalog/make.py generate  # builds the catalog from catalog metadata
 ```
 
 
+## Atom Feed
+
+The [make.py](./make.py) script also generates the [atom.xml](./atom.xml) feed file.
+This is a best-effort conversion to an atom feed. Currently includes all projects in the feed.
+
+* [feed validator](http://www.feedvalidator.org/check.cgi?url=https%3A%2F%2Fleap.tardate.com%2Fcatalog%2Fatom.xml)
+
+
 ## Hosting
 
 I'm using [Netlify](https://www.netlify.com/) to run the catalog site directly from the GitHub repository.
