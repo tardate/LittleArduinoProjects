@@ -20,6 +20,7 @@ The [make.py](./make.py) script also generates the [atom.xml](./atom.xml) feed f
 This is a best-effort conversion to an atom feed. Currently includes all projects in the feed.
 
 * [feed validator](http://www.feedvalidator.org/check.cgi?url=https%3A%2F%2Fleap.tardate.com%2Fcatalog%2Fatom.xml)
+* [published feed location](https://leap.tardate.com/catalog/atom.xml)
 
 
 ## Hosting
