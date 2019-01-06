@@ -1,5 +1,12 @@
 [
     {
+        "description": "testing a slow-flash RGB LED with a 1.5V joule thief power supply", 
+        "relative_path": "Electronics101/ToroidJouleThief/RgbNightLight", 
+        "id": "#446", 
+        "categories": "LED, Power", 
+        "name": "RGB Joule Thief Night Light"
+    }, 
+    {
         "description": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator", 
         "relative_path": "Electronics101/555Timer/VariableDutyCycle/ControlAdjust", 
         "id": "#445", 

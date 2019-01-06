@@ -1,5 +1,7 @@
-# 445 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [VariableDutyCycle/ControlAdjust](./Electronics101/555Timer/VariableDutyCycle/ControlAdjust) - using the control pin to adjust duty cycle of a 555 Timer astable oscillator.
+# 446 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [RGB Joule Thief Night Light](./Electronics101/ToroidJouleThief/RgbNightLight) - testing a slow-flash RGB LED with a 1.5V joule thief power supply.
+
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -384,6 +386,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#129 RelaxationJouleThief](./Electronics101/RelaxationJouleThief)                 | **Power, RLC, Oscillators**     test a "joule thief" circuit based on a relaxation oscillator |
 | [#055 RelayControlTest](./playground/RelayControlTest)                             | **Servo, Arduino**              quick test to drive a motor with a common relay using NPN switching circuit under Arduino control |
 | [#054 RelayModuleTest](./playground/RelayModuleTest)                               | **Servo, Arduino**              quick test of a common relay board to switch a motor under Arduino control |
+| [#446 RGB Joule Thief Night Light](./Electronics101/ToroidJouleThief/RgbNightLight) | **LED, Power**                 testing a slow-flash RGB LED with a 1.5V joule thief power supply |
 | [#024 ResistorTransistorLogic/AND](./Electronics101/ResistorTransistorLogic/AND)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic AND gate  |
 | [#023 ResistorTransistorLogic/NAND](./Electronics101/ResistorTransistorLogic/NAND) | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NAND gate  |
 | [#111 ResistorTransistorLogic/NOR](./Electronics101/ResistorTransistorLogic/NOR)   | **BJT, RTL, Logic Gates**       test the basic resistor-transistor logic NOR gate  |
