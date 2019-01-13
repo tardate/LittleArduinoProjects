@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-01-06T11:35:56Z</updated>
+  <updated>2019-01-13T09:30:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/capacimeter/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/capacimeter/README.md"/>
+    <updated>2019-01-13T09:28:34Z</updated>
+    <title>#447 BoldportClub/capacimeter</title>
+    <summary>measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018</summary>
+    <g:image_link>https://leap.tardate.com/BoldportClub/capacimeter/assets/capacimeter_build.jpg</g:image_link>
+    <category term="Boldport"/>
+    <category term="Tools"/>
+    <category term="Test Equipment"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ToroidJouleThief/RgbNightLight/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ToroidJouleThief/RgbNightLight/README.md"/>
-    <updated>2019-01-06T11:34:35Z</updated>
+    <updated>2019-01-06T11:54:51Z</updated>
     <title>#446 RGB Joule Thief Night Light</title>
     <summary>testing a slow-flash RGB LED with a 1.5V joule thief power supply</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ToroidJouleThief/RgbNightLight/assets/RgbNightLight_build.jpg</g:image_link>
@@ -59,6 +70,7 @@
     <summary>Boldport puts the &quot;pot&quot; back in the resistance, a classic decade resistor box in custom pots</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/respot/assets/respot_build.jpg</g:image_link>
     <category term="Boldport"/>
+    <category term="Tools"/>
     <category term="Test Equipment"/>
   </entry>
   <entry>
@@ -4270,7 +4282,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md"/>
-    <updated>2019-01-01T13:33:20Z</updated>
+    <updated>2019-01-06T11:54:51Z</updated>
     <title>#030 BlinkPrecision</title>
     <summary>use a timer to perform a function on a precise schedule</summary>
     <g:image_link>https://leap.tardate.com/playground/BlinkPrecision/assets/BlinkPrecision_build.jpg</g:image_link>

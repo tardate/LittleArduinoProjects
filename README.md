@@ -1,6 +1,5 @@
-# 446 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [RGB Joule Thief Night Light](./Electronics101/ToroidJouleThief/RgbNightLight) - testing a slow-flash RGB LED with a 1.5V joule thief power supply.
-
+# 447 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/capacimeter](./BoldportClub/capacimeter) - measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -133,6 +132,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#425 BoldportClub/3x7](./BoldportClub/3x7)                                        | **Boldport, 7-Segment**         building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display |
 | [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |
 | [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
+| [#447 BoldportClub/capacimeter](./BoldportClub/capacimeter)                        | **Boldport, Tools, Test Equipment** measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018 |
 | [#409 BoldportClub/conehead](./BoldportClub/conehead)                              | **Boldport, Oscillators, CMOS/TTL, Audio** the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018 |
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3 |
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |
@@ -151,7 +151,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#402 BoldportClub/pips](./BoldportClub/pips)                                      | **Boldport, CD4060**            rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |
-| [#442 BoldportClub/respot](./BoldportClub/respot)                                  | **Boldport, Test Equipment**    Boldport puts the "pot" back in the resistance, a classic decade resistor box in custom pots |
+| [#442 BoldportClub/respot](./BoldportClub/respot)                                  | **Boldport, Tools, Test Equipment**    Boldport puts the "pot" back in the resistance, a classic decade resistor box in custom pots |
 | [#325 BoldportClub/spoolt](./BoldportClub/spoolt)                                  | **Boldport, Soldering**         pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017) |
 | [#323 BoldportClub/stringy](./BoldportClub/stringy)                                | **Boldport, PIC, Audio**        building and playing (mainly playing) the Boldport Club Stringy (Project #14) |
 | [#285 BoldportClub/tap](./BoldportClub/tap)                                        | **Boldport, PCB Design, CMOS/TTL** Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available! |

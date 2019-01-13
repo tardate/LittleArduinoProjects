@@ -1,5 +1,12 @@
 [
     {
+        "description": "measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018", 
+        "relative_path": "BoldportClub/capacimeter", 
+        "id": "#447", 
+        "categories": "Boldport, Tools, Test Equipment", 
+        "name": "BoldportClub/capacimeter"
+    }, 
+    {
         "description": "testing a slow-flash RGB LED with a 1.5V joule thief power supply", 
         "relative_path": "Electronics101/ToroidJouleThief/RgbNightLight", 
         "id": "#446", 
@@ -31,7 +38,7 @@
         "description": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots", 
         "relative_path": "BoldportClub/respot", 
         "id": "#442", 
-        "categories": "Boldport, Test Equipment", 
+        "categories": "Boldport, Tools, Test Equipment", 
         "name": "BoldportClub/respot"
     }, 
     {
