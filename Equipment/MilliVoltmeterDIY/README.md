@@ -63,7 +63,7 @@ However the leakage current introduced a minor non-linearity in the readings. So
 10kΩ pull-ups are added on the CS and SCK pins to ensure the chip does not go into internal oscillator mode on startup.
 
 The LTC2400 provides a 24-bit measurement with respect to the reference voltage (Vref = x00FFFFFF).
-This ias received in a 32-bit serial stream:
+This is received in a 32-bit serial stream:
 
 * 4 high bits provide status
 * 4 low bits are "sub LSB" and can be discarded without affecting accuracy
@@ -90,6 +90,77 @@ The only hardcoded value is the reference voltage. How this works:
 
 As a result - as long as the reference voltage is accurate(!) - this approach is agnostic with regards to any
 input attenutation set in the input voltage divider.
+
+#### How Calibration and Voltage Conversion Works
+
+The ADC measures the voltage at the split-point of the voltage divider.
+
+When the 2.5V reference voltage is applied to the +ve input, the ADC reading thus corresponds to "2.5V".
+
+The code assumes a stright-line relationship with two data points:
+
+* 0V = 0 from the ADC
+* 2.5V = the calibrated value from the ADC
+
+Thus given any ADC reading, the voltage = `2.5 * reading / calibration_reading`
+
+### Test Results
+
+So how well does it perform? Here are some measurements.
+
+* calibration factor: 0x19518F (= 2.5V)
+* Note: the DMM used here reads the 2.5V test point as 2.49V
+
+| Power Supply Vin | DMM   | mVm    | ADC      | ADC Check Calc                                                          |
+|------------------|-------|--------|----------|-------------------------------------------------------------------------|
+| 0.00             | 0.00  | 27mV   | 0x4666   | [27mV](https://www.wolframalpha.com/input/?i=2.5*0x4666%2F0x19518F)     |
+| 0.99             | 1.00  | 1.028V | 0xA69F0  | [1.028](https://www.wolframalpha.com/input/?i=2.5*0xA69F0%2F0x19518F)   |
+| 1.99             | 2.00  | 2.02V  | 0x1478CC | [2.02](https://www.wolframalpha.com/input/?i=2.5*0x1478CC%2F0x19518F)   |
+| 2.99             | 3.00  | 3.01V  | 0x1E81FC | [3.01](https://www.wolframalpha.com/input/?i=2.5*0x1E81FC%2F0x19518F)   |
+| 3.99             | 4.00  | 4.00V  | 0x2886B0 | [4.00](https://www.wolframalpha.com/input/?i=2.5*0x2886B0%2F0x19518F)   |
+| 4.99             | 5.00  | 4.99V  | 0x329080 | [4.99](https://www.wolframalpha.com/input/?i=2.5*0x329080%2F0x19518F)   |
+| 5.99             | 5.99  | 5.98V  | 0x3C87A0 | [5.98](https://www.wolframalpha.com/input/?i=2.5*0x3C87A0%2F0x19518F)   |
+| 6.98             | 6.98  | 6.95V  | 0x466E20 | [6.95](https://www.wolframalpha.com/input/?i=2.5*0x466E20%2F0x19518F)   |
+| 7.98             | 7.98  | 7.95V  | 0x5077C0 | [7.95](https://www.wolframalpha.com/input/?i=2.5*0x5077C0%2F0x19518F)   |
+| 8.99             | 8.98  | 8.94V  | 0x5A86C0 | [8.94](https://www.wolframalpha.com/input/?i=2.5*0x5A86C0%2F0x19518F)   |
+| 10.00            | 9.98  | 9.93V  | 0x6494C0 | [9.93](https://www.wolframalpha.com/input/?i=2.5*0x6494C0%2F0x19518F)   |
+| 11.00            | 10.98 | 10.9V  | 0x6E9E30 | [10.92](https://www.wolframalpha.com/input/?i=2.5*0x6E9E30%2F0x19518F)  |
+| 11.99            | 11.97 | 11.90V | 0x788BF0 | [11.90](https://www.wolframalpha.com/input/?i=2.5*0x788BF0%2F0x19518F)  |
+
+Note:
+
+* "Power Supply Vin" is what the power supply said it was delivering
+* "DMM" is the reading with a digital multimeter
+* "mVm" is the reading with the MilliVoltmeter
+* "ADC" is the LTC2400 reading used by the MilliVoltmeter
+* "ADC Check Calc" is confirmation of the value reported by the MilliVoltmeter based on the ADC value
+
+
+So, hmm, there appears to be some skew in the readings obtained from the LTC2400:
+
+* non-zero offset (0x4666)
+* skew slightly high below 4V
+* skewing slightly low above 4V
+
+While that suggests a need to mathematically fit to a curve with a non-zero offset, that's not how I expect the LTC2400 to behave.
+
+Am I using the LTC2400 correctly? Re-reading the datasheet I see that while Analog Input Voltage is rated for –0.3V to (VCC + 0.3V),
+it is qualified by notes, in particular:
+
+> Note 14: For reference voltage values
+> VREF > 2.5V the extended input of –0.125 • VREF to 1.125 • VREF is limited by the absolute maximum rating of the Analog Input Voltage pin (Pin 3).
+> For 2.5V < VREF ≤ 0.267V + 0.89 • VCC the input voltage range is – 0.3V to 1.125 • VREF.
+> For 0.267V + 0.89 • VCC < VREF ≤ VCC the input voltage range is – 0.3V to VCC + 0.3V.
+
+Since I have VREF = 2.5V and VCC = 5.0V:
+
+* `0.267V + 0.89 • VCC` = [4.717V](https://www.wolframalpha.com/input/?i=0.267V+%2B+0.89+*+5V)
+* so my input voltage range is –0.3V to [2.8125V](https://www.wolframalpha.com/input/?i=1.125*2.5)
+
+With the 1MΩ : 100kΩ voltage divider on the analog input, the input voltages are actually staying within this band for the tests above:
+ranging from 0V to [1.091V](https://www.wolframalpha.com/input/?i=100k%CE%A9%2F(100k%CE%A9%2B1M%CE%A9)*12V) @ 12V test voltage.
+
+Next step: read the application info in the datasheet more carefully.
 
 
 ## Code
