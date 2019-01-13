@@ -1,5 +1,5 @@
 # 447 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/capacimeter](./BoldportClub/capacimeter) - measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018.
+> Latest addition:sparkles: [BoldportClub/capacimeter](./BoldportClub/capacimeter) - measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -132,7 +132,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#425 BoldportClub/3x7](./BoldportClub/3x7)                                        | **Boldport, 7-Segment**         building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display |
 | [#369 BoldportClub/ananas](./BoldportClub/ananas)                                  | **Boldport, Oscillators**       building the tropical end-of-year present from Boldport Club, Project #20 - ananas! |
 | [#363 BoldportClub/binco](./BoldportClub/binco)                                    | **Boldport, PCB Design, LED, CMOS/TTL** BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club |
-| [#447 BoldportClub/capacimeter](./BoldportClub/capacimeter)                        | **Boldport, Tools, Test Equipment** measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018 |
+| [#447 BoldportClub/capacimeter](./BoldportClub/capacimeter)                        | **Boldport, Tools, Test Equipment** measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018 |
 | [#409 BoldportClub/conehead](./BoldportClub/conehead)                              | **Boldport, Oscillators, CMOS/TTL, Audio** the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018 |
 | [#269 BoldportClub/cordwood](./BoldportClub/cordwood)                              | **Boldport, PCB Design, LED**  the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3 |
 | [#270 BoldportClub/cordwood/aanimate](./BoldportClub/cordwood/aanimate)            | **Boldport, Cordwood, Arduino** run a demo animation using aaronjasso's Cordwood library |

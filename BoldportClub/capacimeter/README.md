@@ -1,6 +1,6 @@
 # #447 capacimeter
 
-Measuring capacitance with old-school 555 and 4107 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018.
+Measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018.
 
 ![Build](./assets/capacimeter_build.jpg?raw=true)
 
