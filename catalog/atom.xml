@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-01-17T11:21:01Z</updated>
+  <updated>2019-01-27T14:54:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md"/>
+    <updated>2019-01-27T14:51:55Z</updated>
+    <title>#448 LTC2400</title>
+    <summary>exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/ADC/LTC2400/assets/LTC2400_build.jpg</g:image_link>
+    <category term="ADC"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/capacimeter/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/capacimeter/README.md"/>
-    <updated>2019-01-17T11:19:41Z</updated>
+    <updated>2019-01-19T14:14:35Z</updated>
     <title>#447 BoldportClub/capacimeter</title>
     <summary>measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/capacimeter/assets/capacimeter_build.jpg</g:image_link>
@@ -428,7 +437,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/DPS3005BenchPowerSupply/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/DPS3005BenchPowerSupply/README.md"/>
-    <updated>2018-08-05T08:52:10Z</updated>
+    <updated>2019-01-27T05:06:28Z</updated>
     <title>#407 DPS3005BenchPowerSupply</title>
     <summary>building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer</summary>
     <g:image_link>https://leap.tardate.com/Equipment/DPS3005BenchPowerSupply/assets/DPS3005BenchPowerSupply_build.jpg</g:image_link>
@@ -4282,7 +4291,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md"/>
-    <updated>2019-01-14T02:14:29Z</updated>
+    <updated>2019-01-19T14:14:34Z</updated>
     <title>#030 BlinkPrecision</title>
     <summary>use a timer to perform a function on a precise schedule</summary>
     <g:image_link>https://leap.tardate.com/playground/BlinkPrecision/assets/BlinkPrecision_build.jpg</g:image_link>

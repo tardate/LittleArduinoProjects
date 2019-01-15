@@ -1,5 +1,12 @@
 [
     {
+        "description": "exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC", 
+        "relative_path": "Electronics101/ADC/LTC2400", 
+        "id": "#448", 
+        "categories": "ADC", 
+        "name": "LTC2400"
+    }, 
+    {
         "description": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
         "relative_path": "BoldportClub/capacimeter", 
         "id": "#447", 

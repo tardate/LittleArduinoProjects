@@ -1,5 +1,5 @@
-# 447 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [BoldportClub/capacimeter](./BoldportClub/capacimeter) - measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018.
+# 448 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LTC2400](./Electronics101/ADC/LTC2400) - exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -302,6 +302,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#384 LM723/HighVoltageRegulator](./Electronics101/LM723/HighVoltageRegulator)     | **Power, Regulator, LM723**     playing with the basic high voltage output circuit for the LM723 voltage regulator |
 | [#383 LM723/LowVoltageRegulator](./Electronics101/LM723/LowVoltageRegulator)       | **Power, Regulator, LM723**     playing with the basic low voltage output circuit for the LM723 voltage regulator |
 | [#191 LowVoltageGlowingLEDs](./Electronics101/LowVoltageGlowingLEDs)               | **BJT, LED, Oscillators, Power** a dual-LED "glowing" oscillator from a 1.5V supply |
+| [#448 LTC2400](./Electronics101/ADC/LTC2400)                                       | **ADC**                         exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC |
 | [#423 MakerUno](./playground/MakerUno)                                             | **Arduino**                     checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia |
 | [#101 MaxRawDemo](./playground/LED8x8/MaxRawDemo)                                  | **8x8 LED, Arduino**            drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands |
 | [#358 MC34063/ModuleKit](./Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit) | **Power**                     build and test an MC34063-based boost converter |
