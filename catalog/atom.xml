@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-01-13T09:39:54Z</updated>
+  <updated>2019-01-17T11:21:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,9 +14,9 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/capacimeter/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/capacimeter/README.md"/>
-    <updated>2019-01-13T09:38:56Z</updated>
+    <updated>2019-01-17T11:19:41Z</updated>
     <title>#447 BoldportClub/capacimeter</title>
-    <summary>measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #24 April 2018</summary>
+    <summary>measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/capacimeter/assets/capacimeter_build.jpg</g:image_link>
     <category term="Boldport"/>
     <category term="Tools"/>
@@ -790,7 +790,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/MilliVoltmeterDIY/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/MilliVoltmeterDIY/README.md"/>
-    <updated>2018-05-25T15:54:24Z</updated>
+    <updated>2019-01-14T02:14:30Z</updated>
     <title>#372 MilliVoltmeterDIY</title>
     <summary>an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference</summary>
     <g:image_link>https://leap.tardate.com/Equipment/MilliVoltmeterDIY/assets/MilliVoltmeterDIY_build.jpg</g:image_link>
@@ -4282,7 +4282,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md"/>
-    <updated>2019-01-06T11:54:51Z</updated>
+    <updated>2019-01-14T02:14:29Z</updated>
     <title>#030 BlinkPrecision</title>
     <summary>use a timer to perform a function on a precise schedule</summary>
     <g:image_link>https://leap.tardate.com/playground/BlinkPrecision/assets/BlinkPrecision_build.jpg</g:image_link>
