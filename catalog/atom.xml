@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-01-27T14:54:10Z</updated>
+  <updated>2019-01-28T17:53:46Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot/README.md"/>
+    <updated>2019-01-28T17:52:21Z</updated>
+    <title>#449 AudioEffects/Parrot</title>
+    <summary>playing with a 1-transistor, dual oscillator chirping sound effect circuit</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/Parrot/assets/Parrot_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="BEAM"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md"/>
-    <updated>2019-01-27T14:51:55Z</updated>
+    <updated>2019-01-27T16:05:23Z</updated>
     <title>#448 LTC2400</title>
     <summary>exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ADC/LTC2400/assets/LTC2400_build.jpg</g:image_link>
@@ -437,7 +448,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/DPS3005BenchPowerSupply/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/DPS3005BenchPowerSupply/README.md"/>
-    <updated>2019-01-27T05:06:28Z</updated>
+    <updated>2019-01-27T14:56:23Z</updated>
     <title>#407 DPS3005BenchPowerSupply</title>
     <summary>building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer</summary>
     <g:image_link>https://leap.tardate.com/Equipment/DPS3005BenchPowerSupply/assets/DPS3005BenchPowerSupply_build.jpg</g:image_link>
@@ -799,7 +810,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/MilliVoltmeterDIY/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/MilliVoltmeterDIY/README.md"/>
-    <updated>2019-01-14T02:14:30Z</updated>
+    <updated>2019-01-27T16:05:23Z</updated>
     <title>#372 MilliVoltmeterDIY</title>
     <summary>an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference</summary>
     <g:image_link>https://leap.tardate.com/Equipment/MilliVoltmeterDIY/assets/MilliVoltmeterDIY_build.jpg</g:image_link>

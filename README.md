@@ -1,5 +1,6 @@
 # 448 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LTC2400](./Electronics101/ADC/LTC2400) - exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC.
+> Latest addition:sparkles: [AudioEffects/Parrot](./Electronics101/AudioEffects/Parrot) - playing with a 1-transistor, dual oscillator chirping sound effect circuit.
+
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -101,6 +102,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#238 AudioDSP/Crunch](./playground/AudioDSP/Crunch)                               | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash |
 | [#237 AudioDSP/Distortion](./playground/AudioDSP/Distortion)                       | **Audio, Arduino, DSP, OpAmp**  arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash |
 | [#239 AudioDSP/SuperCrunch](./playground/AudioDSP/SuperCrunch)                     | **Audio, Arduino, DSP, OpAmp**  arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash |
+| [#449 AudioEffects/Parrot](./Electronics101/AudioEffects/Parrot)                   | **Audio, BEAM, Oscillators**    playing with a 1-transistor, dual oscillator chirping sound effect circuit |
 | [#359 AudioEffectsChips/HS088](./Electronics101/AudioEffectsChips/HS088)           | **Audio, Music Chips**          figuring out the HS088 "Ding Dong" audio effects chip |
 | [#292 AudioEffectsChips/H823](./Electronics101/AudioEffectsChips/H823)             | **Audio, Music Chips**          figuring out how to use the H823 "Happy Birthday" music chip |
 | [#362 AudioEffectsChips/H83A](./Electronics101/AudioEffectsChips/H83A)             | **Audio, Music Chips**          figuring out how to use the H-83A "12 songs" music chip |
