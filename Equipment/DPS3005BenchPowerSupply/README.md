@@ -119,7 +119,7 @@ for the DC output terminals.
 ![DPS3005BenchPowerSupply_rear](./assets/DPS3005BenchPowerSupply_rear.jpg?raw=true)
 
 
-## Test & Usage
+## Usage
 
 The controls are quite easy one you get used to them (NB: scan of the [english manual here](./assets/manual-en.pdf))
 
@@ -129,10 +129,29 @@ The controls are quite easy one you get used to them (NB: scan of the [english m
 
 The colour LCD provides all the information including instantaneous output voltage, current and power.
 
+
+![Build](./assets/DPS3005BenchPowerSupply_build.jpg?raw=true)
+
+
+## Test & Performance
+
 Under test with 5V out: interestingly, the actual output voltage as measured with a DMM matches the constant voltage setting, but the on-screen
 output voltage is off by ~10mV.
 
-![Build](./assets/DPS3005BenchPowerSupply_build.jpg?raw=true)
+As noted by [@alex1sh here](https://github.com/tardate/LittleArduinoProjects/issues/12),
+there is quite a bit of noise on the power supply output.
+
+Here's an AC-coupled scope trace of the output (set to 3.3V) with no load.
+This pretty much corresponds with background noise I have in my work area:
+
+![scope_output_noload_unfiltered](./assets/scope_output_noload_unfiltered.gif?raw=true)
+
+This is cleaned up with an L=47µH and C=100nF filter on the output. NB: those values are not calculated, just an experimental guess.
+
+![scope_output_noload_filtered](./assets/scope_output_noload_filtered.gif?raw=true)
+
+Conclusion: where clean power is required, this unit needs external filtering.
+
 
 ## Credits and References
 * [RD DPS3005 Constant Voltage current Step-down Programmable Power Supply module buck Voltage converter color LCD voltmeter](https://www.aliexpress.com/item/RD-DPS3005-Constant-Voltage-current-Step-down-Programmable-Power-Supply-module-buck-Voltage-converter-color-LCD/32684316119.html)
