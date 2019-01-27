@@ -146,9 +146,16 @@ This pretty much corresponds with background noise I have in my work area:
 
 ![scope_output_noload_unfiltered](./assets/scope_output_noload_unfiltered.gif?raw=true)
 
-This is cleaned up with an L=47µH and C=100nF filter on the output. NB: those values are not calculated, just an experimental guess.
+The following trace is with the signale cleaned up with an L=47µH and C=100nF filter on the output.
+NB: those values are not calculated, just an experimental guess.
 
 ![scope_output_noload_filtered](./assets/scope_output_noload_filtered.gif?raw=true)
+
+[@alex1sh notes:]https://github.com/tardate/LittleArduinoProjects/issues/12#issuecomment-456918689)
+
+> From time to time, I am using this PSU for high current application, i.e. 3-5A. Therefore, I decided to go for this inductor:
+> https://www.digikey.co.uk/product-detail/en/murata-power-solutions-inc/1410454C/811-1345-ND/1924845
+> It is 100µH and 5.4A rated. With regards to the capacitor, I have not figured out the most appropriate value yet. Right now I have 470µF one.
 
 Conclusion: where clean power is required, this unit needs external filtering.
 
