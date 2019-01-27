@@ -161,7 +161,7 @@ With the 1MΩ : 100kΩ voltage divider on the analog input, the input voltages a
 ranging from 0V to [1.091V](https://www.wolframalpha.com/input/?i=100k%CE%A9%2F(100k%CE%A9%2B1M%CE%A9)*12V) @ 12V test voltage.
 
 Next step: read the application info in the datasheet more carefully.
-
+See [LEAP#448 LTC2400](../../Electronics101/ADC/LTC2400) for more on the investigation into getting good results from the LTC2400.
 
 ## Code
 

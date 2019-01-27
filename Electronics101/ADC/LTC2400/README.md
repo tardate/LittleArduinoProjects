@@ -142,7 +142,7 @@ These readings have significantly skew and error just like I'd seen in the Milli
 Attaching a scope probe to the vin pin of the LTC2400, it is possible to see the effect of the
 switched-capacitor network during the sampling phase. A series of spikes and discharge curves are present:
 
-![scope_vin_scenario_1](./assets/scope_vin_scenario_1.jpg?raw=true)
+![scope_vin_scenario_1](./assets/scope_vin_scenario_1.gif?raw=true)
 
 
 ## Scenario 2: Capacitor Stabilisation
@@ -167,7 +167,7 @@ But experimentally, when using it to stabilise a 1MΩ:100kΩ voltage divider, th
 As might be expected, the additional large-value capacitor is significantly affecting the
 switched-capacitor network during the sampling phase:
 
-![scope_vin_scenario_2](./assets/scope_vin_scenario_2.jpg?raw=true)
+![scope_vin_scenario_2](./assets/scope_vin_scenario_2.gif?raw=true)
 
 
 ## Scenario 3: Buffered VREF and VIN Signals
@@ -243,15 +243,14 @@ So what could be contributing to the error levels I'm seeing. Some possibilities
 I would guess that (1) and (2) are the most likely problem areas, and also the ones easiest to test further.
 I think my next steps may be to:
 
-1. Put the circuit on a PCB, perhaps Manhattan style over a solid ground plane
-2. Replace the LMV324 op-amp with
-    * LT1077 precision op-amp, as the LT1077 is the part used in LTC2400 reference designs in application notes so may be assumed to be "well matched"
-    * the LT1077 has much better voltage offset and drift specifications and also a lower slew rate which may be beneficial in this application
+1. Put the circuit on a PCB, perhaps Manhattan style over a solid ground plane and an independent low-noise power supply
+2. Replace the LMV324 op-amp with either:
+    * LT1077 precision op-amp, as the LT1077 is the part used in LTC2400 reference designs in application notes so may be assumed to be "well matched". The LT1077 has much better voltage offset and drift specifications and also a lower slew rate which may be beneficial in this application
     * another alternative is the OP07DD, as it's also been seen in precision analog front-end designs and better specs than the LMV324
     * or the AD8628ARZ as used in the Scullcom millivoltmeter design and better specs than the LMV324
 
 
-Comparing Op-amp options:
+Comparing op-amp options:
 
 | Measure                  | LMV324    | LT1077                 | OP07DD   | AD8628ARZ              |
 |--------------------------|-----------|------------------------|----------|------------------------|
