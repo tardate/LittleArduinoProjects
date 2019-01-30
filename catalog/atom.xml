@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-05T13:10:51Z</updated>
+  <updated>2019-03-07T11:05:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/CANary/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/CANary/README.md"/>
+    <updated>2019-03-07T11:05:43Z</updated>
+    <title>#460 CANary</title>
+    <summary>playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/CANary/assets/CANary_build.jpg</g:image_link>
+    <category term="BEAM"/>
+    <category term="Oscillators"/>
+    <category term="Audio"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md"/>
-    <updated>2019-03-05T13:10:43Z</updated>
+    <updated>2019-03-05T14:24:38Z</updated>
     <title>#459 TwinTeeOscillator</title>
     <summary>a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/assets/TwinTeeOscillator_build.jpg</g:image_link>

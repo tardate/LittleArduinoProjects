@@ -1,6 +1,6 @@
-# 459 Little Electronics and Arduino Projects
+# 460 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [TwinTeeOscillator](./Electronics101/OpAmp/TwinTeeOscillator) - a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum.
+> Latest addition:sparkles: [CANary](./Electronics101/AudioEffects/CANary) - playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -170,6 +170,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#280 BreadboardTransmitter](./Electronics101/FM/BreadboardTransmitter)            | **FM**                          build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3 |
 | [#089 BreatheLamp](./Electronics101/BreatheLamp)                                   | **OpAmp, LED**                  build and test a common LED visual effect circuit |
 | [#211 BuckConverterModules](./Electronics101/BuckConverterModules)                 | **Power**                       test a range of low-cost buck converter modules, often using LM2596 |
+| [#460 CANary](./Electronics101/AudioEffects/CANary)                                | **BEAM, Oscillators, Audio**    playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture |
 | [#057 CapacitanceTester](./Electronics101/CapacitanceTester)                       | **LCD, RC, Arduino**            capacitor tester with LCD output |
 | [#396 CapacitiveTouchOrgan](./playground/CapacitiveTouchOrgan)                     | **Audio, Sensors, MPR121**      a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
