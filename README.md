@@ -1,5 +1,5 @@
-# 449 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [AudioEffects/Parrot](./Electronics101/AudioEffects/Parrot) - playing with a 1-transistor, dual oscillator chirping sound effect circuit.
+# 450 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [LCR45](./Equipment/LCR45) - evaluating the Peak LCR45 inductance, capacitance and resistance meter.
 
 
 
@@ -269,6 +269,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#085 Lcd5110/BareBack](./playground/Lcd5110/BareBack)                             | **LCD, Arduino**                driving a Nokia 5110 LCD Display with an Arduino and the raw command set |
 | [#149 Lcd5110/JuliansU8glibDemo](./playground/Lcd5110/JuliansU8glibDemo)           | **LCD, Arduino**                quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library |
 | [#398 LCD I2C Adapter](./playground/LCD/I2CAdapter)                                | **LCD, I2C**                    using an I²C adapter to reduce the Arduino pins needed to drive an LCD |
+| [#450 LCR45](./Equipment/LCR45)                                                    | **Tools, Test Equipment**       evaluating the Peak LCR45 inductance, capacitance and resistance meter |
 | [#195 LCResonator](./Electronics101/LCResonator)                                   | **Oscillators, LC**             measure the resonant frequency of an LC circuit or inductance of an inductor  |
 | [#034 LDRComparator](./Electronics101/LDRComparator)                               | **Sensors, OpAmp, Arduino**     low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor |
 | [#047 LDRStereoTripDetector](./Electronics101/LDRStereoTripDetector)               | **OpAmp**                       demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor |

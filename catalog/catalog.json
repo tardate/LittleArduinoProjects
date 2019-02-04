@@ -1,5 +1,12 @@
 [
     {
+        "description": "evaluating the Peak LCR45 inductance, capacitance and resistance meter", 
+        "relative_path": "Equipment/LCR45", 
+        "id": "#450", 
+        "categories": "Tools, Test Equipment", 
+        "name": "LCR45"
+    }, 
+    {
         "description": "playing with a 1-transistor, dual oscillator chirping sound effect circuit", 
         "relative_path": "Electronics101/AudioEffects/Parrot", 
         "id": "#449", 
