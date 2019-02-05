@@ -1,6 +1,5 @@
-# 450 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [LCR45](./Equipment/LCR45) - evaluating the Peak LCR45 inductance, capacitance and resistance meter.
-
+# 451 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [ArcGeneratorKit](./Electronics101/ArcGeneratorKit) - playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -75,6 +74,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#143 AM/OpAmpTransmitter](./Electronics101/AM/OpAmpTransmitter)                   | **Radio, OpAmp**                simple AM transmitter with OpAmp carrier/mixer |
 | [#132 AMTransmitter/555](./Electronics101/555Timer/AMTransmitter)                  | **Radio, 555 Timer**            a simple 555-based AM transmitter |
 | [#139 AnalogComparator](./playground/AnalogComparator)                             | **Arduino, Sensor, OpAmp**      test the Atmega328 built-in analog comparator |
+| [#451 ArcGeneratorKit](./Electronics101/ArcGeneratorKit)                           | **Power**                       playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor |
 | [#020 Arduino Internals](./playground/Internals)                                   | **Arduino**                     report on Arduino Board internals |
 | [#100 ArdWinVaders](./playground/OLED/ArdWinVaders)                                | **Arduino, OLED**               an Arduino & OLED version of a classic game |
 | [#404 Arza-matron](./Kraft/arzamatron)                                             | **Arduino, LED, Sensors**       whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips |

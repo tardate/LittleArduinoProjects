@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-02-04T15:40:12Z</updated>
+  <updated>2019-02-05T17:03:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ArcGeneratorKit/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ArcGeneratorKit/README.md"/>
+    <updated>2019-02-05T17:02:17Z</updated>
+    <title>#451 ArcGeneratorKit</title>
+    <summary>playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/ArcGeneratorKit/assets/ArcGeneratorKit_build.jpg</g:image_link>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/LCR45/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/LCR45/README.md"/>
@@ -24,7 +33,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot/README.md"/>
-    <updated>2019-01-28T18:20:45Z</updated>
+    <updated>2019-02-05T13:37:16Z</updated>
     <title>#449 AudioEffects/Parrot</title>
     <summary>playing with a 1-transistor, dual oscillator chirping sound effect circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/Parrot/assets/Parrot_build.jpg</g:image_link>
@@ -190,7 +199,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/AdjustablePowerSupplyKit/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/AdjustablePowerSupplyKit/README.md"/>
-    <updated>2018-11-11T14:28:17Z</updated>
+    <updated>2019-02-05T13:39:34Z</updated>
     <title>#433 AdjustablePowerSupplyKit</title>
     <summary>building a popular 30V/3A adjustable power supply kit, making an enclosure and testing</summary>
     <g:image_link>https://leap.tardate.com/Equipment/AdjustablePowerSupplyKit/assets/AdjustablePowerSupplyKit_build.jpg</g:image_link>
