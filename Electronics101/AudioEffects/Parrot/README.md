@@ -26,7 +26,7 @@ Kelly Heaton was one of the winners of the Hackaday Circuit Sculpture contest wi
 
 I redrew the basic schematic [here in EasyEDA](https://easyeda.com/tardate/parrot).
 
-![Schematic](./assets/Parrot_schematic.jpg?raw=true)
+![Schematic](./assets/Parrot_schematic.png?raw=true)
 
 I initially built this on a breadboard to prove the circuit and experiment with component values.
 A wide range of values are possible, but I specifically tested with the following values:
