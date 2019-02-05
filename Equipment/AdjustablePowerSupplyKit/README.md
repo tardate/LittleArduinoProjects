@@ -69,8 +69,8 @@ I'm certainly not the first to build the kit - it's a common project, just [sear
 | 1   |        | L7824 24V 1A Positive Regulator         |      |
 | 1   |        | 9014 NPN Small Signal Transistor        |      |
 | 1   |        | 9015 PNP Small Signal Transistor        |      |
-| 1   |        | D882 NPN Power Transistor               |      |
-| 1   |        | D1047 High power NPN bipolar transistor |      |
+| 1   |        | D882 NPN Power Transistor               | [datasheet](https://www.st.com/resource/en/datasheet/2sd882.pdf)     |
+| 1   |        | D1047 High power NPN bipolar transistor | [datasheet](https://www.st.com/resource/en/datasheet/2sd1047.pdf)     |
 | 3   |        | TL081 JFET Input Op Amp                 |      |
 | 1   |        | 2-pin terminal block                    |      |
 | 1   |        | 3-pin terminal block                    |      |
@@ -200,4 +200,6 @@ I think I still prefer my DPS-3005-based power supply as a more accurate and fea
 * [example pre-cursor design](http://www.electronics-lab.com/project/0-30-vdc-stabilized-power-supply-with-current-control-0-002-3-a/) - electronics-lab
 * [LEAP#289 VoltmeterAmmeterModule](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltmeterAmmeterModule)
 * [LEAP#407 DPS3005BenchPowerSupply](../DPS3005BenchPowerSupply)
+* [D882 datasheet](https://www.st.com/resource/en/datasheet/2sd882.pdf)
+* [D1047 datasheet](https://www.st.com/resource/en/datasheet/2sd1047.pdf)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/11/leap433-0-30v-3a-adjustable-power-supply-kit.html)
