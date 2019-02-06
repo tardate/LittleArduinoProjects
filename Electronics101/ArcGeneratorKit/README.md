@@ -14,6 +14,7 @@ Here's a quick demo..
 
 This is a version of a very common High Voltage Arc Kit.
 It is basically a step-up transformer with a simple feedback control of a D882 power transistor.
+It is actually a demonstration of the same circuit used on "plasma lighters".
 
 Specifications
 
@@ -29,6 +30,10 @@ Specifications
 I redrew the basic schematic [here in EasyEDA](https://easyeda.com/tardate/ArcGeneratorKit).
 
 ![Schematic](./assets/ArcGeneratorKit_schematic.png?raw=true)
+
+bigclivedotcom did a tear-down of a commercial "plasma lighter" and no surprise, it uses the same circuit as demonstrated with this kit.
+
+[![clip](https://img.youtube.com/vi/4aK1GK1KBGc/0.jpg)](https://www.youtube.com/watch?v=4aK1GK1KBGc)
 
 
 ## Parts
@@ -84,3 +89,4 @@ Works just fine. With a supply of 5V, it draws around 1.6A during arc.
 ## Credits and References
 * ["15KV High Frequency DC High Voltage Arc Ignition Generator Inverter Boost Step Up 18650 DIY Kit U Core Transformer Suite 3.7V"](https://www.aliexpress.com/item/15KV-High-Frequency-DC-High-Voltage-Arc-Ignition-Generator-Inverter-Boost-Step-Up-18650-DIY-Kit/32864946448.html) - similar kit (but also includes PCB)
 * [D882 datasheet](https://www.st.com/resource/en/datasheet/2sd882.pdf)
+* [..as mentioned on my blog](https://blog.tardate.com/2019/02/leap451-arc-lighter.html)
