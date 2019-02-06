@@ -11,8 +11,9 @@ Audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC.
 The 4046 includes a VCO sub-system in addition to phase comparators and other components.
 
 As noted in the Art of Electronics (p291, Second Edition):
-"When shopping for VCO chips, don't overlook the ICs known as phase-locked loops (PLL), which contain both a VCO and a phase detector.
-An example is the popular CMOS 4046 (and its faster cousin, the 74HC4046).""
+
+> When shopping for VCO chips, don't overlook the ICs known as phase-locked loops (PLL), which contain both a VCO and a phase detector.
+> An example is the popular CMOS 4046 (and its faster cousin, the 74HC4046).
 
 The VCO produces a square wave with 50% duty cycle, and a frequency range of approaching 0 Hz to over 1 MHz (1.3 MHz at 9V VDD).
 The VCO frequency is determined by the voltage at VCO IN (pin 9).
@@ -28,7 +29,7 @@ signal source with a frequency range in the audio spectrum of about 20 Hz to 20 
 ## Output
 
 The datasheet I have doesn't include specific ratings for the VCO output, but seems to imply nothing greater than ~8mA.
-The device does not really appear to be deisnged to drive any significant load.
+The device does not really appear to be desinged to drive any significant load.
 
 For that reason, I'm using the output to switch a load via a MOSFET.
 While testing, I just had an LED indicator wired up.
@@ -47,7 +48,7 @@ Minimum frequency (Fmin) is determined by C1 and R2 time constant.
 
 Maximum frequency (Fmax) is determined by C1 and the R1||R2 parallel resistance time constant.
 
-Although not mentioned in the datahseet, a "rule of thumb" estimate is 2 x time constant:
+Although not mentioned in the datasheet, a "rule of thumb" estimate is 2 x time constant:
 
     fmin = 2/(C1R2)
     fmax = 2/(C1(R1||R2))
@@ -77,11 +78,11 @@ Measured for various combinations of R1, R2, C1:
 
 Measured minimum frequency:
 
-![fmin](./assets/fmin.jpg?raw=true)
+![fmin](./assets/fmin.gif?raw=true)
 
 Measured maximum frequency:
 
-![fmax](./assets/fmax.jpg?raw=true)
+![fmax](./assets/fmax.gif?raw=true)
 
 
 ## Construction
