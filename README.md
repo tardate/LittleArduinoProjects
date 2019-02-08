@@ -1,5 +1,5 @@
-# 451 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [ArcGeneratorKit](./Electronics101/ArcGeneratorKit) - playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor.
+# 452 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [CD4046/MainsLinkedPLL](./Electronics101/CD4046/MainsLinkedPLL) - A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -173,6 +173,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#396 CapacitiveTouchOrgan](./playground/CapacitiveTouchOrgan)                     | **Audio, Sensors, MPR121**      a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino |
 | [#012 Capacitorial](./Electronics101/Capacitorial)                                 | **RC**                          graphing capacitor discharge with Processing |
 | [#382 CD4046 VCO](./Electronics101/CD4046/VCO)                                     | **RC, CD4046, Oscillators**     audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC |
+| [#452 CD4046/MainsLinkedPLL](./Electronics101/CD4046/MainsLinkedPLL)               | **Oscillators, PLL** A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL |
 | [#206 CD4047/AstableOscillator](./Electronics101/CD4047/AstableOscillator)         | **CMOS/TTL, Oscillators**       test the astable operating mode of the CD4047 |
 | [#294 CD4060/CrystalOscillator](./Electronics101/CD4060/CrystalOscillator)         | **CMOS/TTL, Oscillators**       exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator |
 | [#291 CD4060/MusicLightKit](./Electronics101/CD4060/MusicLightKit)                 | **CMOS**                        learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit |
