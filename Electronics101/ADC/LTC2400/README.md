@@ -252,17 +252,161 @@ I think my next steps may be to:
 
 Comparing op-amp options:
 
-| Measure                  | LMV324    | LT1077                 | OP07DD   | AD8628ARZ              |
-|--------------------------|-----------|------------------------|----------|------------------------|
-| Max Supply Current       | 200µA     | 60µA                   |          |                        |
-| Max Offset Voltage       | 3mV       | 40µV                   | 150µV    | 5µV                    |
-| Max Offset Current       | 9nA       | 350pA                  | 6nA      | 200pA                  |
-| Voltage Noise            | ?         | 0.5µVp-p 0.1Hz to 10Hz |          | 0.5µVp-p 0.1Hz to 10Hz |
-| Current Noise            | ?         | 2.5pAp-p 0.1Hz to 10Hz |          |                        |
-| Offset Voltage Drift     | 2µV/°C    | 0.4µV/°C               | 2.5µV/°C | 0.02µV/°C              |
-| Gain-Bandwidth Product   | 1MHz      | 250kHz                 | 0.6MHz   | 2.5MHz                 |
-| Slew Rate                | 0.35V/µs  | 0.12V/µs               | 0.3V/µs  | 1V/µs                  |
+| Measure                  | LMV324    | LT1077                 | OP07DD   | AD8628ARZ              | OPA2388    |
+|--------------------------|-----------|------------------------|----------|------------------------|------------|
+| Max Supply Current       | 200µA     | 60µA                   |          |                        |            |
+| Max Offset Voltage       | 3mV       | 40µV                   | 150µV    | 5µV                    | ±5µV       |
+| Max Offset Current       | 9nA       | 350pA                  | 6nA      | 200pA                  | ±700pA     |
+| Voltage Noise            | ?         | 0.5µVp-p 0.1Hz to 10Hz |          | 0.5µVp-p 0.1Hz to 10Hz | 0.14µVp-p  |
+| Current Noise            | ?         | 2.5pAp-p 0.1Hz to 10Hz |          |                        |            |
+| Offset Voltage Drift     | 2µV/°C    | 0.4µV/°C               | 2.5µV/°C | 0.02µV/°C              | ±0.05µV/°C |
+| Gain-Bandwidth Product   | 1MHz      | 250kHz                 | 0.6MHz   | 2.5MHz                 | 10MHz      |
+| Slew Rate                | 0.35V/µs  | 0.12V/µs               | 0.3V/µs  | 1V/µs                  | 5V/µs      |
 
+
+
+## Scenario 4: OPA2388-buffered VREF Signals
+
+I got hold of some precision opamps to see if they can improve matters.
+For a first test I'll use an OPA2388 to buffer VREF, and read a 1:1 buffered VREF in at the ADC.
+
+This should produce the most reliable reading possible. In this configuration, VREF is buffered twice:
+
+* one op-amp provides a buffered reference voltage for the LTC2400
+* the other op-amp provides the input voltage for the LTC2400
+
+
+In this configuration, once would expect:
+
+* the ADC reading should be 0xFFFFFF, i.e. exactly equal to the reference voltage
+* errors and fluctuations should be minimised
+
+Here's an example trace:
+
+    LTC2400 Diags
+    Connect VIN to VREF and enter the reference voltage (in volts):
+    Calibrating for VREF = 2.5000000000
+    Calibration complete. ADC Calibration Factor = 0x1000059
+    ADC Raw: 0x300005C7,  Current sample: 0x100005C = 2.5000007152V,  Average sample: 0x1000059 = 2.5000000000V
+    ADC Raw: 0x300005FA,  Current sample: 0x100005F = 2.5000011920V,  Average sample: 0x100005C = 2.5000007152V
+    ADC Raw: 0x300005A0,  Current sample: 0x100005A = 2.5000002384V,  Average sample: 0x100005D = 2.5000007152V
+    ADC Raw: 0x3000073E,  Current sample: 0x1000073 = 2.5000040531V,  Average sample: 0x1000062 = 2.5000014305V
+    ADC Raw: 0x30000471,  Current sample: 0x1000047 = 2.4999976158V,  Average sample: 0x100005E = 2.5000009536V
+    ADC Raw: 0x3000075A,  Current sample: 0x1000075 = 2.5000040531V,  Average sample: 0x1000060 = 2.5000011920V
+    ADC Raw: 0x30000452,  Current sample: 0x1000045 = 2.4999969005V,  Average sample: 0x100005D = 2.5000007152V
+    ADC Raw: 0x300005EB,  Current sample: 0x100005E = 2.5000009536V,  Average sample: 0x100005C = 2.5000007152V
+    ADC Raw: 0x3000064F,  Current sample: 0x1000064 = 2.5000016689V,  Average sample: 0x100005B = 2.5000007152V
+    ADC Raw: 0x30000702,  Current sample: 0x1000070 = 2.5000035762V,  Average sample: 0x100005F = 2.5000011920V
+    ADC Raw: 0x3000078A,  Current sample: 0x1000078 = 2.5000047683V,  Average sample: 0x1000062 = 2.5000014305V
+    ADC Raw: 0x30000531,  Current sample: 0x1000053 = 2.4999992847V,  Average sample: 0x1000061 = 2.5000011920V
+    ADC Raw: 0x3000071D,  Current sample: 0x1000071 = 2.5000035762V,  Average sample: 0x1000063 = 2.5000016689V
+    ADC Raw: 0x3000059B,  Current sample: 0x1000059 = 2.5000000000V,  Average sample: 0x1000060 = 2.5000011920V
+    ADC Raw: 0x3000064A,  Current sample: 0x1000064 = 2.5000016689V,  Average sample: 0x1000063 = 2.5000016689V
+    ADC Raw: 0x300006C3,  Current sample: 0x100006C = 2.5000030994V,  Average sample: 0x1000062 = 2.5000014305V
+
+
+That is a much more encouraging result:
+
+* the average result reading is 0x1000062 (2.50000151V), an error of only 0.00006%
+* and the results vary by a range of 0x33. Given that readings are in the order of 16 million, that represents a range of around 3 ppm - just under the 4ppm full-scale error reported in the datasheet.
+
+
+![LTC2400_opax388_buffered_vref_bb](./assets/LTC2400_opax388_buffered_vref_bb.jpg?raw=true)
+
+![LTC2400_opax388_buffered_vref_schematic](./assets/LTC2400_opax388_buffered_vref_schematic.jpg?raw=true)
+
+
+
+## Scenario 5: OPA2388-buffered Everything
+
+This variant of the circuit re-introduces the 1MΩ:100kΩ voltage divider on the input.
+Three OPAx388 buffers are used to prevent coupling of signals:
+
+* VREF buffered between LT1019 and LTC2400
+* VREF buffered to act as independant voltage reference
+* VIN buffered from the voltage divider
+
+The independant 2.5V voltage reference is used to feed VIN via the voltage reference,
+the idea being that we should be able to read a clean and accurate 2.5V signal via the voltage reference.
+
+A set of sample results:
+
+    LTC2400 Diags
+    Connect VIN to VREF and enter the reference voltage (in volts):
+    Calibrating for VREF = 2.5000000000
+    Calibration complete. ADC Calibration Factor = 0x16C6A6
+    ADC Raw: 0x216C7B33,  Current sample: 0x16C7B3 = 2.5004506111V,  Average sample: 0x16C6A8 = 2.5000033378V
+    ADC Raw: 0x216C807D,  Current sample: 0x16C807 = 2.5005912780V,  Average sample: 0x16C6D5 = 2.5000786781V
+    ADC Raw: 0x216C4F83,  Current sample: 0x16C4F8 = 2.4992797374V,  Average sample: 0x16C6A5 = 2.4999983310V
+    ADC Raw: 0x216C671A,  Current sample: 0x16C671 = 2.4999113082V,  Average sample: 0x16C6B3 = 2.5000216960V
+    ADC Raw: 0x216C56AD,  Current sample: 0x16C56A = 2.4994707107V,  Average sample: 0x16C692 = 2.4999666213V
+    ADC Raw: 0x216C6502,  Current sample: 0x16C650 = 2.4998559951V,  Average sample: 0x16C687 = 2.4999480247V
+    ADC Raw: 0x216C6D1A,  Current sample: 0x16C6D1 = 2.5000720024V,  Average sample: 0x16C684 = 2.4999430179V
+    ADC Raw: 0x216C6F49,  Current sample: 0x16C6F4 = 2.5001306533V,  Average sample: 0x16C697 = 2.4999749660V
+    ADC Raw: 0x216C6B17,  Current sample: 0x16C6B1 = 2.5000183582V,  Average sample: 0x16C6A6 = 2.5000000000V
+    ADC Raw: 0x216C579A,  Current sample: 0x16C579 = 2.4994957447V,  Average sample: 0x16C67A = 2.4999263286V
+    ADC Raw: 0x216C5202,  Current sample: 0x16C520 = 2.4993467330V,  Average sample: 0x16C638 = 2.4998157024V
+    ADC Raw: 0x216C483F,  Current sample: 0x16C483 = 2.4990837574V,  Average sample: 0x16C5DE = 2.4996650218V
+    ADC Raw: 0x216C4536,  Current sample: 0x16C453 = 2.4990034103V,  Average sample: 0x16C5CE = 2.4996383190V
+    ADC Raw: 0x216C5DF7,  Current sample: 0x16C5DF = 2.4996666908V,  Average sample: 0x16C5BF = 2.4996130466V
+    ADC Raw: 0x216C4E35,  Current sample: 0x16C4E3 = 2.4992446899V,  Average sample: 0x16C5B2 = 2.4995913505V
+    ADC Raw: 0x216C4AA0,  Current sample: 0x16C4AA = 2.4991490840V,  Average sample: 0x16C588 = 2.4995210170V
+    ADC Raw: 0x216C4E82,  Current sample: 0x16C4E8 = 2.4992530345V,  Average sample: 0x16C557 = 2.4994390010V
+    ADC Raw: 0x216C3A5E,  Current sample: 0x16C3A5 = 2.4987120628V,  Average sample: 0x16C502 = 2.4992966651V
+    ADC Raw: 0x216C5A92,  Current sample: 0x16C5A9 = 2.4995763301V,  Average sample: 0x16C4E8 = 2.4992530345V
+    ADC Raw: 0x216C5A9F,  Current sample: 0x16C5A9 = 2.4995763301V,  Average sample: 0x16C4EC = 2.4992597103V
+    ADC Raw: 0x216C5EAE,  Current sample: 0x16C5EA = 2.4996850490V,  Average sample: 0x16C501 = 2.4992947578V
+    ADC Raw: 0x216C6E48,  Current sample: 0x16C6E4 = 2.5001039505V,  Average sample: 0x16C53E = 2.4993970394V
+    ADC Raw: 0x216C56EE,  Current sample: 0x16C56E = 2.4994773864V,  Average sample: 0x16C55A = 2.4994440078V
+    ADC Raw: 0x216C5A49,  Current sample: 0x16C5A4 = 2.4995679855V,  Average sample: 0x16C554 = 2.4994339942V
+    ADC Raw: 0x216C6D3D,  Current sample: 0x16C6D3 = 2.5000753402V,  Average sample: 0x16C586 = 2.4995176792V
+    ADC Raw: 0x216C5B9B,  Current sample: 0x16C5B9 = 2.4996030330V,  Average sample: 0x16C5A1 = 2.4995627403V
+    ADC Raw: 0x216C4E4D,  Current sample: 0x16C4E4 = 2.4992463588V,  Average sample: 0x16C5A0 = 2.4995610713V
+    ADC Raw: 0x216C4793,  Current sample: 0x16C479 = 2.4990670680V,  Average sample: 0x16C5B5 = 2.4995963573V
+    ADC Raw: 0x216C67BC,  Current sample: 0x16C67B = 2.4999279975V,  Average sample: 0x16C5CA = 2.4996316432V
+    ADC Raw: 0x216C3626,  Current sample: 0x16C362 = 2.4985997676V,  Average sample: 0x16C590 = 2.4995343685V
+    ADC Raw: 0x216C4FEA,  Current sample: 0x16C4FE = 2.4992897510V,  Average sample: 0x16C579 = 2.4994957447V
+    ADC Raw: 0x216C57FF,  Current sample: 0x16C57F = 2.4995059967V,  Average sample: 0x16C555 = 2.4994356632V
+
+
+These results are not bad with 0.08% variability. Results are summarised below,
+along with some simple variations:
+
+* Base: the circuit as described
+* SuperBypass: with extra 100nF and 100µF bypass caps on the OPA2388 and LTC2400
+* DedicatedPower: with separate 5V power supply, insteda of using the 5V from the Arduino.
+
+
+|         | Base         | SuperBypass  | DedicatedPower |
+|---------|--------------|--------------|----------------|
+| average | 2.499574749  | 2.499558449  | 2.499595125    |
+| min     | 2.498599768  | 2.498459816  | 2.498825788    |
+| max     | 2.500591278  | 2.500326395  | 2.500210762    |
+| range   | 0.0019915104 | 0.0018665791 | 0.0013849736   |
+| range % | 0.08%        | 0.07%        | 0.06%          |
+
+
+
+![LTC2400_opax388_buffered_bb](./assets/LTC2400_opax388_buffered_bb.jpg?raw=true)
+
+![LTC2400_opax388_buffered_schematic](./assets/LTC2400_opax388_buffered_schematic.jpg?raw=true)
+
+
+## Conclusion - so far
+
+Getting accurate readings with the LTC2400 takes a bit of work.
+A couple of things appear critical:
+
+* buffering reference and input signals with a high-precision op-amp (such as the OPA2388)
+* hefy bypass on each IC
+* a good, stable power supply
+
+So far I've got reasonable readings of a 2.5V reference voltage with the circuit on a breadboard.
+
+Some things I'd like to try next:
+
+* try a 4.096V voltage reference, which should improve overall resolution
+* put the circuit on a PCB with a good ground plane
 
 
 ## Credits and References
