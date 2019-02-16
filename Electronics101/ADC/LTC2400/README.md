@@ -391,6 +391,8 @@ along with some simple variations:
 
 ![LTC2400_opax388_buffered_schematic](./assets/LTC2400_opax388_buffered_schematic.jpg?raw=true)
 
+![scenario_5_build](./assets/scenario_5_build.jpg?raw=true)
+
 
 ## Conclusion - so far
 
