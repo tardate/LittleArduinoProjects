@@ -147,6 +147,9 @@ Signal pins exposed:
 
 ![MainsLinkedPLL_build_open](./assets/MainsLinkedPLL_build_open.jpg?raw=true)
 
+Rough sketch of the protoboard layout plan:
+
+![protobard_layout](./assets/protobard_layout.jpg?raw=true)
 
 ## Test Results
 
