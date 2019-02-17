@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-02-08T18:03:31Z</updated>
+  <updated>2019-02-17T07:49:59Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BreadboardBling/PotModules/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BreadboardBling/PotModules/README.md"/>
+    <updated>2019-02-17T07:48:53Z</updated>
+    <title>#453 PotModules</title>
+    <summary>Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/PotModules/assets/PotModules_build.jpg</g:image_link>
+    <category term="Breadboard Bling"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4046/MainsLinkedPLL/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4046/MainsLinkedPLL/README.md"/>
-    <updated>2019-02-08T18:03:17Z</updated>
+    <updated>2019-02-16T06:06:39Z</updated>
     <title>#452 CD4046/MainsLinkedPLL</title>
     <summary>A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4046/MainsLinkedPLL/assets/MainsLinkedPLL_build.jpg</g:image_link>
@@ -54,7 +63,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md"/>
-    <updated>2019-01-28T18:20:45Z</updated>
+    <updated>2019-02-16T06:04:44Z</updated>
     <title>#448 LTC2400</title>
     <summary>exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ADC/LTC2400/assets/LTC2400_build.jpg</g:image_link>

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers", 
+        "relative_path": "Electronics101/BreadboardBling/PotModules", 
+        "id": "#453", 
+        "categories": "Breadboard Bling", 
+        "name": "PotModules"
+    }, 
+    {
         "description": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL", 
         "relative_path": "Electronics101/CD4046/MainsLinkedPLL", 
         "id": "#452", 

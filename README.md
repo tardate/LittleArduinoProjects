@@ -1,4 +1,4 @@
-# 452 Little Electronics and Arduino Projects
+# 453 Little Electronics and Arduino Projects
 > Latest addition:sparkles: [CD4046/MainsLinkedPLL](./Electronics101/CD4046/MainsLinkedPLL) - A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL.
 
 
@@ -378,6 +378,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#182 PowerSupply317Kit](./Electronics101/PowerSupply317Kit)                       | **Power**                       build and test a mains-powered 1.25V-12V DC LM317 power supply kit |
 | [#029 PowerZener](./Electronics101/PowerZener)                                     | **Power**                       test and graph a power supply regulated with a 1N4733 zener diode |
 | [#019 Popcorn](./playground/Popcorn)                                               | **Audio, Arduino**              How to make a piezo buzzer even more annoying? Make it play popcorn! |
+| [#453 PotModules](./Electronics101/BreadboardBling/PotModules)                     | **Breadboard Bling**            Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers |
 | [#004 Pushbutton LED switch](./playground/PushbuttonLED)                           | **LED, Arduino**                Momentary push button switch is used to toggle the LED on and off |
 | [#233 PWM/GeneralPurposeHighSideController](./Electronics101/PWM/GeneralPurposeHighSideController) | **PWM, 555 Timer, Oscillators, Power**  build and test a general-purpose high-side PWM controller |
 | [#025 Quad Latch](./Electronics101/QuadLatch)                                      | **CMOS/TTL**                    graph the basic operation of the 74LS75 4-bit bistable latch |
