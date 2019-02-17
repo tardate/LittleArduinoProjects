@@ -394,6 +394,91 @@ along with some simple variations:
 ![scenario_5_build](./assets/scenario_5_build.jpg?raw=true)
 
 
+
+## Scenario 6: ADR4540 Reference with OPA2388-buffered Everything
+
+This variant switches out the 2.5V LT1019 voltage reference for a 4.096V ADR4540 reference.
+The higher reference may improve stability and accuracy by increasing the dynamic range of VIN.
+
+
+As with Scenario 5, the circuit use the 1MΩ:100kΩ voltage divider on the input.
+Three OPAx388 buffers are used to prevent coupling of signals:
+
+* VREF buffered between ADR4540 and LTC2400
+* VREF buffered to act as independant voltage reference
+* VIN buffered from the voltage divider
+
+The independant 4.096V voltage reference is used to feed VIN via the voltage reference,
+the idea being that we should be able to read a clean and accurate 4.096V signal via the voltage reference.
+
+A set of sample results:
+
+    LTC2400 Diags
+    Connect VIN to VREF and enter the reference voltage (in volts):
+    Calibrating for VREF = 4.0960001945
+    Calibration complete. ADC Calibration Factor = 0x16CF1C
+    ADC Raw: 0x216CF4D1,  Current sample: 0x16CF4D = 4.0961346626V,  Average sample: 0x16CF0A = 4.0959510803V
+    ADC Raw: 0x216CF072,  Current sample: 0x16CF07 = 4.0959424972V,  Average sample: 0x16CF08 = 4.0959453582V
+    ADC Raw: 0x216CEA38,  Current sample: 0x16CEA3 = 4.0956683158V,  Average sample: 0x16CEF1 = 4.0958824157V
+    ADC Raw: 0x216CF11B,  Current sample: 0x16CF11 = 4.0959701538V,  Average sample: 0x16CEEF = 4.0958771705V
+    ADC Raw: 0x216CF187,  Current sample: 0x16CF18 = 4.0959892272V,  Average sample: 0x16CEFE = 4.0959181785V
+    ADC Raw: 0x216CF0B9,  Current sample: 0x16CF0B = 4.0959534645V,  Average sample: 0x16CEE8 = 4.0958580970V
+    ADC Raw: 0x216CFCBB,  Current sample: 0x16CFCB = 4.0964798927V,  Average sample: 0x16CF15 = 4.0959811210V
+    ADC Raw: 0x216CF9C7,  Current sample: 0x16CF9C = 4.0963511466V,  Average sample: 0x16CF43 = 4.0961070060V
+    ADC Raw: 0x216CF693,  Current sample: 0x16CF69 = 4.0962109565V,  Average sample: 0x16CF3C = 4.0960879325V
+    ADC Raw: 0x216D09EA,  Current sample: 0x16D09E = 4.0970578193V,  Average sample: 0x16CF5C = 4.0961756706V
+    ADC Raw: 0x216D1F7C,  Current sample: 0x16D1F7 = 4.0980033874V,  Average sample: 0x16CFA0 = 4.0963621139V
+    ADC Raw: 0x216D0232,  Current sample: 0x16D023 = 4.0967206954V,  Average sample: 0x16CFBC = 4.0964384078V
+    ADC Raw: 0x216D1040,  Current sample: 0x16D104 = 4.0973372459V,  Average sample: 0x16CFF9 = 4.0966057777V
+    ADC Raw: 0x216CEF65,  Current sample: 0x16CEF6 = 4.0958962440V,  Average sample: 0x16CFF6 = 4.0965971946V
+    ADC Raw: 0x216CF5F0,  Current sample: 0x16CF5F = 4.0961837768V,  Average sample: 0x16CFFE = 4.0966196060V
+    ADC Raw: 0x216CF603,  Current sample: 0x16CF60 = 4.0961866378V,  Average sample: 0x16D006 = 4.0966410636V
+    ADC Raw: 0x216CFB29,  Current sample: 0x16CFB2 = 4.0964112281V,  Average sample: 0x16D004 = 4.0966358184V
+    ADC Raw: 0x216CEFCA,  Current sample: 0x16CEFC = 4.0959124565V,  Average sample: 0x16CFF4 = 4.0965919494V
+    ADC Raw: 0x216CFDA0,  Current sample: 0x16CFDA = 4.0965209007V,  Average sample: 0x16CFFF = 4.0966219902V
+    ADC Raw: 0x216CF32F,  Current sample: 0x16CF32 = 4.0960607528V,  Average sample: 0x16CFDA = 4.0965209007V
+    ADC Raw: 0x216CF987,  Current sample: 0x16CF98 = 4.0963397026V,  Average sample: 0x16CF9E = 4.0963563919V
+    ADC Raw: 0x216CF84A,  Current sample: 0x16CF84 = 4.0962848663V,  Average sample: 0x16CF8E = 4.0963125228V
+    ADC Raw: 0x216CF6CD,  Current sample: 0x16CF6C = 4.0962195396V,  Average sample: 0x16CF65 = 4.0962004661V
+    ADC Raw: 0x216CF02B,  Current sample: 0x16CF02 = 4.0959286689V,  Average sample: 0x16CF66 = 4.0962028503V
+    ADC Raw: 0x216CFCC9,  Current sample: 0x16CFCC = 4.0964822769V,  Average sample: 0x16CF71 = 4.0962333679V
+    ADC Raw: 0x216CFBF5,  Current sample: 0x16CFBF = 4.0964469909V,  Average sample: 0x16CF7B = 4.0962605476V
+    ADC Raw: 0x216CE96E,  Current sample: 0x16CE96 = 4.0956330299V,  Average sample: 0x16CF5E = 4.0961809158V
+    ADC Raw: 0x216CF258,  Current sample: 0x16CF25 = 4.0960249900V,  Average sample: 0x16CF62 = 4.0961918830V
+    ADC Raw: 0x216CDCBF,  Current sample: 0x16CDCB = 4.0950770378V,  Average sample: 0x16CF2E = 4.0960493087V
+    ADC Raw: 0x216CED47,  Current sample: 0x16CED4 = 4.0958027839V,  Average sample: 0x16CF24 = 4.0960221290V
+    ADC Raw: 0x216CDD6F,  Current sample: 0x16CDD6 = 4.0951070785V,  Average sample: 0x16CEF7 = 4.0958986282V
+    ADC Raw: 0x216CF025,  Current sample: 0x16CF02 = 4.0959286689V,  Average sample: 0x16CEEA = 4.0958633422V
+    ADC Raw: 0x216CF0FD,  Current sample: 0x16CF0F = 4.0959644317V,  Average sample: 0x16CEE1 = 4.0958385467V
+    ADC Raw: 0x216CE439,  Current sample: 0x16CE43 = 4.0954055786V,  Average sample: 0x16CECE = 4.0957865715V
+    ADC Raw: 0x216CF50F,  Current sample: 0x16CF50 = 4.0961422920V,  Average sample: 0x16CEC1 = 4.0957508087V
+    ADC Raw: 0x216CEEC4,  Current sample: 0x16CEEC = 4.0958685874V,  Average sample: 0x16CEAC = 4.0956931114V
+    ADC Raw: 0x216CE256,  Current sample: 0x16CE25 = 4.0953235626V,  Average sample: 0x16CEA1 = 4.0956630706V
+    ADC Raw: 0x216D11BF,  Current sample: 0x16D11B = 4.0974006652V,  Average sample: 0x16CED3 = 4.0957999229V
+    ADC Raw: 0x216CFB7C,  Current sample: 0x16CFB7 = 4.0964250564V,  Average sample: 0x16CF04 = 4.0959343910V
+    ADC Raw: 0x216CF470,  Current sample: 0x16CF47 = 4.0961179733V,  Average sample: 0x16CF10 = 4.0959672927V
+    ADC Raw: 0x216CF344,  Current sample: 0x16CF34 = 4.0960659980V,  Average sample: 0x16CF33 = 4.0960631370V
+
+
+These results are not bad with 0.07% variability, a slight improvement over using the LT1019-2.5 reference.
+Results are summarised below:
+
+| Measure | Reading      |
+|---------|--------------|
+| average | 4.096241045  |
+| min     | 4.095077038  |
+| max     | 4.098003387  |
+| range   | 0.0029263496 |
+| range % | 0.07%        |
+
+
+![LTC2400_ADR4540_opax388_buffered_bb](./assets/LTC2400_ADR4540_opax388_buffered_bb.jpg?raw=true)
+
+![LTC2400_ADR4540_opax388_buffered_schematic](./assets/LTC2400_ADR4540_opax388_buffered_schematic.jpg?raw=true)
+
+![scenario_5_build](./assets/scenario_5_build.jpg?raw=true)
+
+
 ## Conclusion - so far
 
 Getting accurate readings with the LTC2400 takes a bit of work.
@@ -403,21 +488,22 @@ A couple of things appear critical:
 * hefy bypass on each IC
 * a good, stable power supply
 
-So far I've got reasonable readings of a 2.5V reference voltage with the circuit on a breadboard.
+So far I've got reasonable readings of a LT1019-2.5V reference voltage with the circuit on a breadboard.
+A 4.096V ADR4540 reference appears to offer slightly more accurate results.
 
 Some things I'd like to try next:
 
-* try a 4.096V voltage reference, which should improve overall resolution
 * put the circuit on a PCB with a good ground plane
 
 
 ## Credits and References
-* [LTC2400 info and datasheet](http://www.linear.com/product/LTC2400)
-* [LT1019 info and datasheet](http://www.linear.com/product/LT1019)
+* [LTC2400 Product Info and Datasheet](http://www.linear.com/product/LTC2400)
+* [LT1019 Product Info and Datasheet](http://www.linear.com/product/LT1019)
 * [LMV324 Datasheet](https://www.fairchildsemi.com/datasheets/LM/LMV324.pdf)
-* [LT1077](https://www.analog.com/en/products/lt1077.html)
-* [OP07DD](https://www.ti.com/store/ti/en/p/product?p=OP07DD)
-* [AD8628ARZ](https://www.analog.com/media/en/technical-documentation/data-sheets/ad8628_8629_8630.pdf)
+* [LT1077 Product Info and Datasheet](https://www.analog.com/en/products/lt1077.html)
+* [OP07DD Product Info and Datasheet](https://www.ti.com/store/ti/en/p/product?p=OP07DD)
+* [AD8628ARZ Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ad8628_8629_8630.pdf)
+* [ADR4540 Product Info and Datasheet](https://www.analog.com/en/products/adr4540.html)
 * [Delta-sigma modulation](https://en.wikipedia.org/wiki/Delta-sigma_modulation) - wikipedia
 * [Delta-Sigma Analog to Digital Converters](https://www.youtube.com/watch?v=SFAS8nE4_ZM) - Hackaday on Youtube
 * [LEAP#372 MilliVoltmeter](../../../Equipment/MilliVoltmeterDIY) build.

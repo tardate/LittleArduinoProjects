@@ -19,7 +19,7 @@ const int DELAY_PER_READING = 2000;
 
 LTC2400_ADC adc(ADC_CS_PIN, NUMBER_OF_SAMPLES);
 
-float adc_reference_voltage = 2.5;
+float adc_reference_voltage = 2.5; // default for LT1019-2.5; updated on startup
 int32_t calibration_factor = 0;
 
 
