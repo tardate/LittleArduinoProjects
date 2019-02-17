@@ -1,5 +1,12 @@
 [
     {
+        "description": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference", 
+        "relative_path": "Electronics101/VoltageReference/ADR4540", 
+        "id": "#454", 
+        "categories": "Voltage Reference", 
+        "name": "VoltageReference/ADR4540"
+    }, 
+    {
         "description": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers", 
         "relative_path": "Electronics101/BreadboardBling/PotModules", 
         "id": "#453", 

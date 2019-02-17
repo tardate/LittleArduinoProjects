@@ -1,5 +1,5 @@
-# 453 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [CD4046/MainsLinkedPLL](./Electronics101/CD4046/MainsLinkedPLL) - A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL.
+# 454 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [VoltageReference/ADR4540](./Electronics101/VoltageReference/ADR4540) - exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference.
 
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
@@ -505,6 +505,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#273 VoltageControlledOscillator](./Electronics101/VoltageControlledOscillator)   | **Oscillators, VCO, Varicap**   exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator |
 | [#328 VoltageControlledOscillator/555](./Electronics101/555Timer/VoltageControlledOscillator) | **Oscillators, VCO, 555 Timer** a voltage-controlled oscillator (VCO) using the 555 timer |
 | [#147 VoltageDoublerChargePump](./Electronics101/555Timer/VoltageDoublerChargePump)| **555 Timer, Power**            test a voltage-doubling charge pump circuit based on a 555 timer |
+| [#454 VoltageReference/ADR4540](./Electronics101/VoltageReference/ADR4540)         | **Voltage Reference**           exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference |
 | [#374 VoltageReference/LT1019](./Electronics101/VoltageReference/LT1019)           | **Voltage Reference**           exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference |
 | [#333 VoltageSelfMeasurement](./playground/VoltageSelfMeasurement)                 | **Arduino, ADC**                self-measurement of an Arduino's supply voltage (Vcc) |
 | [#167 VoltageSensorModule](./playground/VoltageSensorModule)                       | **Sensors, Arduino**            test a 25V voltage sensor module with display on a 5110 LCD |
