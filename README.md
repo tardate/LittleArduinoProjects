@@ -1,5 +1,6 @@
-# 455 Little Electronics and Arduino Projects
-> Latest addition:sparkles: [PiezoBuzzers](./Electronics101/PiezoBuzzers) - exploring techniques for driving piezo transducers and buzzer units for audio output.
+# 456 Little Electronics and Arduino Projects
+> Latest addition:sparkles: [BoldportClub/pease-out](./BoldportClub/pease-out) - an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019.
+
 
 
 
@@ -151,6 +152,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#419 BoldportClub/lite2sound-bc](./BoldportClub/lite2sound-bc)                    | **Boldport, PCB Design, Audio** building Lite2Sound Boldport Club Project #26 |
 | [#345 BoldportClub/mostap](./BoldportClub/mostap)                                  | **Boldport, CMOS**              upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers. |
 | [#256 BoldportClub/Pease](./BoldportClub/Pease)                                    | **Boldport, PCB Design, LM331** a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1) |
+| [#456 BoldportClub/pease-out](./BoldportClub/pease-out)                            | **Boldport, PCB Design, LM331** an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019 |
 | [#402 BoldportClub/pips](./BoldportClub/pips)                                      | **Boldport, CD4060**            rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter |
 | [#290 BoldportClub/PissOff](./BoldportClub/PissOff)                                | **Boldport, PCB Design, NXP**   an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016 |
 | [#316 BoldportClub/QSOPBreakout](./BoldportClub/QSOPBreakout)                      | **Boldport, Soldering**         all about soldering and the Boldport Club QSOP breakout board |

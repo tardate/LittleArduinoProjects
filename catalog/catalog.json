@@ -1,5 +1,12 @@
 [
     {
+        "description": "an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019", 
+        "relative_path": "BoldportClub/pease-out", 
+        "id": "#456", 
+        "categories": "Boldport, PCB Design, LM331", 
+        "name": "BoldportClub/pease-out"
+    }, 
+    {
         "description": "exploring techniques for driving piezo transducers and buzzer units for audio output", 
         "relative_path": "Electronics101/PiezoBuzzers", 
         "id": "#455", 

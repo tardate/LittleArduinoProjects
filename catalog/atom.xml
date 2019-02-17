@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-02-20T18:05:05Z</updated>
+  <updated>2019-02-20T18:07:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/pease-out/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/pease-out/README.md"/>
+    <updated>2019-02-20T18:05:50Z</updated>
+    <title>#456 BoldportClub/pease-out</title>
+    <summary>an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019</summary>
+    <g:image_link>https://leap.tardate.com/BoldportClub/pease-out/assets/pease-out_build.jpg</g:image_link>
+    <category term="Boldport"/>
+    <category term="PCB Design"/>
+    <category term="LM331"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PiezoBuzzers/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PiezoBuzzers/README.md"/>
-    <updated>2019-02-20T18:03:40Z</updated>
+    <updated>2019-02-20T18:05:49Z</updated>
     <title>#455 PiezoBuzzers</title>
     <summary>exploring techniques for driving piezo transducers and buzzer units for audio output</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/PiezoBuzzers/assets/PiezoBuzzers_build.jpg</g:image_link>
