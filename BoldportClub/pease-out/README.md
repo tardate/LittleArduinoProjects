@@ -119,11 +119,14 @@ conveniently next to a ground pin. I isolated another connection for the actual 
 Instead of a visual indicator, I switched to audio: the LED was replaced with a piezo transducer, and the current-limiting R2 replaced with a dead short.
 Since I'm just using a piezo sensor, not a buzzer unit, it needs a bypass resistor to dump the charge (I used 10kΩ).
 
+The piezo is held to the PCB with some Boldport stickers.
+
+![piezo](./assets/piezo.jpg?raw=true)
+
 ### Frequency Adjustment
 
 To get frequencies into a roughly audio range, I decimated Cl and Ct to 100nF and 10nF respectively for maximum frequency of about [8kHz](https://www.wolframalpha.com/input/?i=5%2F1.9+*+15k%CE%A9%2F30k%CE%A9+*+1%2F(1.1+*+15k%CE%A9+*+10nF))
 
-![piezo](./assets/piezo.jpg?raw=true)
 
 ### Power
 
