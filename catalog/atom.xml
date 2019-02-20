@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-02-17T14:02:13Z</updated>
+  <updated>2019-02-20T18:05:05Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PiezoBuzzers/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PiezoBuzzers/README.md"/>
+    <updated>2019-02-20T18:03:40Z</updated>
+    <title>#455 PiezoBuzzers</title>
+    <summary>exploring techniques for driving piezo transducers and buzzer units for audio output</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/PiezoBuzzers/assets/PiezoBuzzers_build.jpg</g:image_link>
+    <category term="Oscillators"/>
+    <category term="Crystal"/>
+    <category term="Audio"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltageReference/ADR4540/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltageReference/ADR4540/README.md"/>
-    <updated>2019-02-17T13:56:30Z</updated>
+    <updated>2019-02-17T14:04:21Z</updated>
     <title>#454 VoltageReference/ADR4540</title>
     <summary>exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/VoltageReference/ADR4540/assets/ADR4540_build.jpg</g:image_link>
@@ -72,7 +83,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400/README.md"/>
-    <updated>2019-02-16T06:04:44Z</updated>
+    <updated>2019-02-17T14:39:00Z</updated>
     <title>#448 LTC2400</title>
     <summary>exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ADC/LTC2400/assets/LTC2400_build.jpg</g:image_link>

@@ -1,5 +1,12 @@
 [
     {
+        "description": "exploring techniques for driving piezo transducers and buzzer units for audio output", 
+        "relative_path": "Electronics101/PiezoBuzzers", 
+        "id": "#455", 
+        "categories": "Oscillators, Crystal, Audio", 
+        "name": "PiezoBuzzers"
+    }, 
+    {
         "description": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference", 
         "relative_path": "Electronics101/VoltageReference/ADR4540", 
         "id": "#454", 
