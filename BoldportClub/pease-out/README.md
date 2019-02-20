@@ -22,12 +22,12 @@ in a TI application note: Figure 2 Stable-Frequency Oscillator Using a V/F Conve
 
 The frequency of the LM331 in its standard configuration is usually proportional to Vin:
 
-  Fout = Vin / Vref * Rs/Rl * 1/(1.1 * Rt * Ct)
+    Fout = Vin / Vref * Rs/Rl * 1/(1.1 * Rt * Ct)
 
 But the "Stable frequency" configuration has pins 2 and 7 tied together, so Vin == Vref
 and thus frequency becomes a function of passive component values:
 
-  Fout = Rs/Rl * 1/(1.1 * Rt * Ct)
+    Fout = Rs/Rl * 1/(1.1 * Rt * Ct)
 
 The Pease-out sticks a 2MΩ variable resistor in Rt, yeilding a frequency range of about
 [2.2 Hz](https://www.wolframalpha.com/input/?i=1%2F(2.2+*+2M%CE%A9+*+100nF)) to
@@ -54,6 +54,16 @@ From the functional diagram it is clear why this is so:
 * where-as the Rl.Cl time constant governs the duration before the comparator triggers the 1-short time, determining how long the output remains pulled high
 
 [![snoa735b-figure1](./assets/snoa735b-figure1.png?raw=true)](http://www.ti.com/lit/an/snoa735b/snoa735b.pdf)
+
+
+Amped up to about 1kHΩ, here's a capture showing the corresponding charge cycles.
+
+* CH1 (Yellow) is the output pulse train from Fout
+* CH2 (Blue) is the voltage at pin 5 - demonstrating the Rt.Ct time constant at work controlling the "low" period
+* CH3 (red) is the voltage on pins 1 and 6 -  demonstrating the Rl.Cl time constant at work controlling the "high" period
+
+![scope-audio](./assets/scope-audio.gif?raw=true)
+
 
 ## LM331 Design Rules
 
@@ -126,6 +136,8 @@ Finally, a micro USB connector attached to the end of the PCB for 5V power.
 ![Schematic](./assets/pease-out_schematic.jpg?raw=true)
 
 ![Build](./assets/pease-out_build.jpg?raw=true)
+
+
 
 ## Credits and References
 * [peaseo](https://www.boldport.com/products/peaseo) - Boldport Product Page
