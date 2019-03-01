@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-05T04:09:58Z</updated>
+  <updated>2019-03-05T13:10:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md"/>
+    <updated>2019-03-05T13:10:43Z</updated>
+    <title>#459 TwinTeeOscillator</title>
+    <summary>a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/assets/TwinTeeOscillator_build.jpg</g:image_link>
+    <category term="OpAmp"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/FastAnalogRead/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/FastAnalogRead/README.md"/>
-    <updated>2019-03-05T04:08:10Z</updated>
+    <updated>2019-03-05T04:11:15Z</updated>
     <title>#458 FastAnalogRead</title>
     <summary>how to increase the Arduino ADC analog sampling rate</summary>
     <g:image_link>https://leap.tardate.com/playground/FastAnalogRead/assets/FastAnalogRead_build.jpg</g:image_link>
@@ -2271,7 +2281,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins/README.md"/>
-    <updated>2019-03-05T03:50:37Z</updated>
+    <updated>2019-03-05T04:11:15Z</updated>
     <title>#240 DigitalInputWithAnalogPins</title>
     <summary>demonstrate how analog pins can also be used as a digital GPIO</summary>
     <g:image_link>https://leap.tardate.com/playground/DigitalInputWithAnalogPins/assets/DigitalInputWithAnalogPins_build.jpg</g:image_link>

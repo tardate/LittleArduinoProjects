@@ -1,5 +1,12 @@
 [
     {
+        "description": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum", 
+        "relative_path": "Electronics101/OpAmp/TwinTeeOscillator", 
+        "id": "#459", 
+        "categories": "OpAmp, Oscillators", 
+        "name": "TwinTeeOscillator"
+    }, 
+    {
         "description": "how to increase the Arduino ADC analog sampling rate", 
         "relative_path": "playground/FastAnalogRead", 
         "id": "#458", 
