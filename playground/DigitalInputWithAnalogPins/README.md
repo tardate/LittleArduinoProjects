@@ -2,7 +2,6 @@
 
 Demonstrate how analog pins can also be used as a digital GPIO
 
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
@@ -17,7 +16,7 @@ they can also be used as GPIO digital pins.
 
 The conventional analog pin mnemonics can be used:
 
-```
+```c
 pinmode(A0, INPUT);
 int in = digitalRead(A0);
 ```
@@ -37,11 +36,11 @@ To use them as digital inputs, just use this reference table:
 | 5          | 19          | static const uint8_t A5 = 19; |
 
 Using the pin number explicitly:
-```
+
+```c
 pinmode(14, INPUT);
 int in = digitalRead(14);
 ```
-
 
 ### Example
 
@@ -50,8 +49,7 @@ using both digital input and output.
 
 Five pins A0..A4 are set to sequentially drive corresponding LEDs at about [5mA](http://www.wolframalpha.com/input/?i=5V%2F1k%CE%A9).
 
-A pushbutton is read on A5. Pressing the button reverse the LED sequence.
-
+A push-button is read on A5. Pressing the button reverse the LED sequence.
 
 ## Construction
 
@@ -62,6 +60,7 @@ A pushbutton is read on A5. Pressing the button reverse the LED sequence.
 ![The Build](./assets/DigitalInputWithAnalogPins_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Arduino Tips and Tricks email newsletter](https://www.getdrip.com/forms/6137337/submissions/new)
 * [AnalogInputPins](https://www.arduino.cc/en/Tutorial/AnalogInputPins) - arduino.cc tutorial
 * [DigitalRead](https://www.arduino.cc/en/Reference/DigitalRead) - arduino.cc reference

@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-05T03:47:28Z</updated>
+  <updated>2019-03-05T04:09:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/FastAnalogRead/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/FastAnalogRead/README.md"/>
+    <updated>2019-03-05T04:08:10Z</updated>
+    <title>#458 FastAnalogRead</title>
+    <summary>how to increase the Arduino ADC analog sampling rate</summary>
+    <g:image_link>https://leap.tardate.com/playground/FastAnalogRead/assets/FastAnalogRead_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="GPIO"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PrecisionTimer/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PrecisionTimer/README.md"/>
-    <updated>2019-03-05T03:44:39Z</updated>
+    <updated>2019-03-05T03:49:15Z</updated>
     <title>#457 PrecisionTimer</title>
     <summary>comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip</summary>
     <g:image_link>https://leap.tardate.com/playground/PrecisionTimer/assets/PrecisionTimer_build.jpg</g:image_link>
@@ -2261,7 +2271,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins/README.md"/>
-    <updated>2019-03-01T11:22:19Z</updated>
+    <updated>2019-03-05T03:50:37Z</updated>
     <title>#240 DigitalInputWithAnalogPins</title>
     <summary>demonstrate how analog pins can also be used as a digital GPIO</summary>
     <g:image_link>https://leap.tardate.com/playground/DigitalInputWithAnalogPins/assets/DigitalInputWithAnalogPins_build.jpg</g:image_link>
@@ -4380,7 +4390,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision/README.md"/>
-    <updated>2019-03-05T03:08:21Z</updated>
+    <updated>2019-03-05T03:49:15Z</updated>
     <title>#030 BlinkPrecision</title>
     <summary>use a timer to perform a function on a precise schedule</summary>
     <g:image_link>https://leap.tardate.com/playground/BlinkPrecision/assets/BlinkPrecision_build.jpg</g:image_link>

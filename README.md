@@ -1,6 +1,6 @@
-# 457 Little Electronics and Arduino Projects
+# 458 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [PrecisionTimer](./playground/PrecisionTimer) - comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip.
+> Latest addition:sparkles: [FastAnalogRead](./playground/FastAnalogRead) - how to increase the Arduino ADC analog sampling rate.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -229,7 +229,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#343 ESP8266/Sensors/DHT11](./ESP8266/Sensors/DHT11)                              | **ESP8266, Sensors**            reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino |
 | [#154 ESP8266/SerialTest](./ESP8266/SerialTest)                                    | **ESP8266**                     first test of an ESP8266 module - serial communication to the SoC |
 | [#155 ESP8266/SerialTest/ruby](./ESP8266/SerialTest/ruby)                          | **ESP8266, ruby**               exercising ESP8266 serial communications with Ruby |
-| [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
+| [#458 FastAnalogRead](./playground/FastAnalogRead)                                 | **Arduino, GPIO**               how to increase the Arduino ADC analog sampling rate |
 | [#310 FM/TEA5767](./Electronics101/FM/TEA5767)                                     | **FM, Arduino**                 controlling the TEA5767 low-power FM stereo radio chip with an Arduino |
 | [#225 FQ777-954/TearDown](./Kinetics/FQ777-954/TearDown)                           | **Drones, Radio**               teardown an FQ777-954 nano drone and figure out as much of the technical design as possible |
 | [#223 Fritzing Parts](./FritzingParts)                                             | **EDA**                         my collection of custom Fritzing Parts |
@@ -238,6 +238,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#018 FretBoard](./FretBoard)                                                      | **LED Array, Arduino**          a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array |
 | [#053 FunctionGenerator324](./Electronics101/FunctionGenerator324)                 | **OpAmp, Oscillators**          LM324 configured as a low-frequency square, triangle, sine, and cosine function generator |
 | [#282 FunctionGeneratorKit](./Equipment/FunctionGeneratorKit)                      | **Oscillators, Tools, Test Equipment, XR2206**  build and test a function generator kit based on the XR-2206 monolithic function generator |
+| [#274 FY3200S](./Equipment/FY3200S)                                                | **Tools, Test Equipment**       testing out the Feeltech FY3200S digital function generator |
 | [#220 GccToolchain](./playground/GccToolchain)                                     | **avr-lib, avrdude**            programming an Arduino with C and a command line |
 | [#245 GeneralCurveTracer](./Electronics101/GeneralCurveTracer)                     | **BJT, Oscillators**            test a DC-powered general curve tracer circuit |
 | [#241 GeneralPurpose358](./Electronics101/AudioAmps/GeneralPurpose358)             | **OpAmp, Audio**                test a general-purpose LM358 amplifier circuit |
