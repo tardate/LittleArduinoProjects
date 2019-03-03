@@ -1,5 +1,12 @@
 [
     {
+        "description": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz", 
+        "relative_path": "Electronics101/Oscillators/CrystalLocked1khzOscillator", 
+        "id": "#487", 
+        "categories": "Oscillators", 
+        "name": "Crystal-locked 1kHz Oscillator"
+    }, 
+    {
         "description": "Learning how to use C++ template functions in embedded projects with an Arduino", 
         "relative_path": "playground/UsingTemplates", 
         "id": "#486", 

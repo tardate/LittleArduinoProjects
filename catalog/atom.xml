@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-04T11:24:52Z</updated>
+  <updated>2019-08-12T05:14:55Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked1khzOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked1khzOscillator/"/>
+    <updated>2019-08-11T15:10:33Z</updated>
+    <title>#487 Crystal-locked 1kHz Oscillator</title>
+    <summary>a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked1khzOscillator/assets/CrystalLocked1khzOscillator_build.jpg</g:image_link>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/UsingTemplates/</id>
     <link href="https://leap.tardate.com/playground/UsingTemplates/"/>
@@ -1831,7 +1840,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/FM/TEA5767/</id>
     <link href="https://leap.tardate.com/Radio/FM/TEA5767/"/>
-    <updated>2017-04-27T16:49:05Z</updated>
+    <updated>2019-08-06T17:20:09Z</updated>
     <title>#310 TEA5767 FM Receiver</title>
     <summary>controlling the TEA5767 low-power FM stereo radio chip with an Arduino</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/TEA5767/assets/TEA5767_build.jpg</g:image_link>
@@ -2136,7 +2145,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/FM/ThreeStageTransmitter/</id>
     <link href="https://leap.tardate.com/Radio/FM/ThreeStageTransmitter/"/>
-    <updated>2016-12-23T09:39:49Z</updated>
+    <updated>2019-08-06T17:20:09Z</updated>
     <title>#281 ThreeStageTransmitter</title>
     <summary>an ugly-style-in-a-can build of dazaro3's 3-stage FM transmitter circuit</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/ThreeStageTransmitter/assets/ThreeStageTransmitter_build.jpg</g:image_link>
@@ -2146,7 +2155,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/FM/BreadboardTransmitter/</id>
     <link href="https://leap.tardate.com/Radio/FM/BreadboardTransmitter/"/>
-    <updated>2016-12-19T11:44:09Z</updated>
+    <updated>2019-08-06T17:20:09Z</updated>
     <title>#280 BreadboardTransmitter</title>
     <summary>build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/BreadboardTransmitter/assets/BreadboardTransmitter_build.jpg</g:image_link>
@@ -2156,7 +2165,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/FM/SingleStageTransmitterKit2/</id>
     <link href="https://leap.tardate.com/Radio/FM/SingleStageTransmitterKit2/"/>
-    <updated>2016-12-15T17:19:21Z</updated>
+    <updated>2019-08-06T17:20:09Z</updated>
     <title>#279 Single-stage FM Transmitter Kit 2</title>
     <summary>build and tweak/tune another simple single-stage FM Transmitter Kit</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/SingleStageTransmitterKit2/assets/SingleStageTransmitterKit2_build.jpg</g:image_link>
@@ -2914,7 +2923,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/FM/SingleStageTransmitterKit/</id>
     <link href="https://leap.tardate.com/Radio/FM/SingleStageTransmitterKit/"/>
-    <updated>2016-05-01T08:02:42Z</updated>
+    <updated>2019-08-06T17:20:09Z</updated>
     <title>#208 Single-stage FM Transmitter Kit</title>
     <summary>build a simple single-stage FK702 FM Transmitter Kit by Future Kit</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/SingleStageTransmitterKit/assets/SingleStageTransmitterKit_build.jpg</g:image_link>

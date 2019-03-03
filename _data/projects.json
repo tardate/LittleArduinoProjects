@@ -1118,15 +1118,13 @@
         ], 
         "title": "XorWithNandGates"
     }, 
-    "/Electronics101/LM723/HighVoltageRegulator/": {
-        "summary": "playing with the basic high voltage output circuit for the LM723 voltage regulator", 
-        "id": 384, 
+    "/Electronics101/Oscillators/CrystalLocked1khzOscillator/": {
+        "summary": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz", 
+        "id": 487, 
         "tags": [
-            "Power", 
-            "Regulator", 
-            "LM723"
+            "Oscillators"
         ], 
-        "title": "LM723/HighVoltageRegulator"
+        "title": "Crystal-locked 1kHz Oscillator"
     }, 
     "/playground/EEPROM/AT24C02/BasicReadWrite/": {
         "summary": "basic read/write operations to external EEPROM (AT24C02) with the Wire library", 
@@ -2308,6 +2306,16 @@
             "Craft"
         ], 
         "title": "LiteWings"
+    }, 
+    "/Electronics101/LM723/HighVoltageRegulator/": {
+        "summary": "playing with the basic high voltage output circuit for the LM723 voltage regulator", 
+        "id": 384, 
+        "tags": [
+            "Power", 
+            "Regulator", 
+            "LM723"
+        ], 
+        "title": "LM723/HighVoltageRegulator"
     }, 
     "/BoldportClub/TheMatrix/LedTest/": {
         "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
