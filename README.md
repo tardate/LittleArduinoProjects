@@ -1,6 +1,7 @@
-# 462 Little Electronics and Arduino Projects
+# 463 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [HX108-2](./Radio/AM/HX108-2) - build and analyse the HX108-2 superheterodyne AM MW radio receiver kit.
+> Latest addition:sparkles: [Transconductance Amplifiers](./Electronics101/OpAmp/Transconductance) - understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -494,6 +495,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#083 TransistorTester](./Electronics101/TransistorTester)                         | **Arduino, BJT**                use an Arduino to test NPN and PNP BJTs |
 | [#205 TriacDimmer](./Electronics101/TriacDimmer)                                   | **Triac, Thyristor**            investigate the operation of triacs and build the basic dimmaer circuit |
 | [#031 Triangle Wave - 555](./Electronics101/555Timer/TriangleWaveGen)              | **555 Timer, Oscillators**      generate a triangle wave with 555 timer astable oscillator and RC integrator |
+| [#463 Transconductance Amplifiers](./Electronics101/OpAmp/Transconductance)        | **OpAmp**                       understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp |
 | [#113 TTLBufferDriver](./Electronics101/TTLBufferDriver)                           | **OpAmp, TTL**                  using an OpAmp as a final buffer stage for TTL or similar circuits |
 | [#459 TwinTeeOscillator](./Electronics101/OpAmp/TwinTeeOscillator)                 | **OpAmp, Oscillators**          a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum |
 | [#389 TwoStageCommonEmitterAmplifier](./Electronics101/BJT/TwoStageCommonEmitterAmplifier) | **BJT, Amplifier**      designing a two-stage common-emitter BJT amplifier |

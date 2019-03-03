@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-18T15:16:47Z</updated>
+  <updated>2019-03-22T14:57:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/Transconductance/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/Transconductance/README.md"/>
+    <updated>2019-03-22T14:54:40Z</updated>
+    <title>#463 Transconductance Amplifiers</title>
+    <summary>understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/Transconductance/assets/Transconductance_build.jpg</g:image_link>
+    <category term="OpAmp"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX108-2/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX108-2/README.md"/>
-    <updated>2019-03-18T15:14:54Z</updated>
+    <updated>2019-03-18T15:30:49Z</updated>
     <title>#462 HX108-2</title>
     <summary>build and analyse the HX108-2 superheterodyne AM MW radio receiver kit</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/HX108-2/assets/HX108-2_build.jpg</g:image_link>
@@ -3495,7 +3504,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX6B/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX6B/README.md"/>
-    <updated>2019-03-17T08:01:23Z</updated>
+    <updated>2019-03-18T15:30:49Z</updated>
     <title>#123 HX6B</title>
     <summary>build and analyse the HX-6B superheterodyne AM MW radio receiver kit</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/HX6B/assets/HX6B_build.jpg</g:image_link>
