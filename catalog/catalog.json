@@ -2212,7 +2212,7 @@
         "name": "VariableDutyCycle"
     }, 
     {
-        "description": "test an oscillator built with a 74LS14 Inverter chip", 
+        "description": "test a ring oscillator built with a 74LS14 Inverter chip", 
         "relative_path": "Electronics101/RingOscillator", 
         "id": "#144", 
         "categories": "CMOS/TTL, Oscillators", 

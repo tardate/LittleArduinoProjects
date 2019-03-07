@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-07T11:05:56Z</updated>
+  <updated>2019-03-07T23:34:04Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/CANary/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/CANary/README.md"/>
-    <updated>2019-03-07T11:05:43Z</updated>
+    <updated>2019-03-07T12:52:36Z</updated>
     <title>#460 CANary</title>
     <summary>playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/CANary/assets/CANary_build.jpg</g:image_link>
@@ -3264,9 +3264,9 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/RingOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/RingOscillator/README.md"/>
-    <updated>2018-01-28T15:48:21Z</updated>
+    <updated>2019-03-07T23:33:11Z</updated>
     <title>#144 RingOscillator</title>
-    <summary>test an oscillator built with a 74LS14 Inverter chip</summary>
+    <summary>test a ring oscillator built with a 74LS14 Inverter chip</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/RingOscillator/assets/RingOscillator_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
