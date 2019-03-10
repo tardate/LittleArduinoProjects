@@ -268,3 +268,4 @@ Ready to rock:
 * [The Technology of the Tube Screamer](http://www.geofex.com/Article_Folders/TStech/tsxfram.htm)
 * [JRC4558 Analysis](https://www.electrosmash.com/jrc4558-analysis)
 * [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)
+* [..as mentioned on my blog](https://blog.tardate.com/2019/03/leap461-the-goblin.html)
