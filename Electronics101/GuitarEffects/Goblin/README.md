@@ -106,7 +106,7 @@ Conventional power supply arrangements may be used, but not shown completely in 
 * reverse polarity protection diode
 * power to ground connection switched by the input jack i.e. power on when you plug in an instrument lead
 
-### Modifications
+### Common Modifications
 
 The following summarises some of the common modification possibilities. More are covered in [The Technology of the Tube Screamer](http://www.geofex.com/Article_Folders/TStech/tsxfram.htm).
 
@@ -215,6 +215,8 @@ with just a couple of component changes when compared to the original Tube Screa
 * R2, R12 560kΩ (instead of 510kΩ), since this is what I had on-hand
 * C4 50pF (instead of 51pF), since this is what I had on-hand
 * Q1, Q2 S9014 (instead of 2SC1815)
+* 3mm white LED for the power indicator, with a 10kΩ current limit resistor (since it is a super-bright LED)
+* 3mm red LED for the effect-enabled indicator, with a 3.3kΩ current limit resistor
 
 ![Breadboard](./assets/Goblin_bb.jpg?raw=true)
 
