@@ -14,6 +14,12 @@ A superheterodyne receiver (often shortened to superhet) uses frequency mixing t
 (at a variable frequency)
 to a fixed intermediate frequency (IF) which can be more conveniently processed with known gain and selectivity.
 
+## Tutorials and Resources
+
+Building and Aligning HX 6B AM Kit Radio by shango066
+
+[![clip](https://img.youtube.com/vi/6rNbZj3tpOs/0.jpg)](https://www.youtube.com/watch?v=6rNbZj3tpOs)
+
 
 ## Parts
 
@@ -50,15 +56,24 @@ to a fixed intermediate frequency (IF) which can be more conveniently processed 
 
 ![HX6B_pcb_back](./assets/HX6B_pcb_back.jpg?raw=true)
 
-## Construction
+## Circuit Design
+
+The HX6B is a superheterodyne design with a single IF stage. The design basically maps out as follows:
+
+* RF Filter: T1, Ca antenna tuner
+* RF amp: V1
+* Local oscillator and Mixer: T2, Cb
+* IF Filter and Amp: T3, V2
+* Demodulator: T4, V3
+* Audio amp: T5, V5, V6 push-pull class B
 
 ![The Schematic](./assets/HX6B_schematic.jpg?raw=true)
 
 
 ## Credits and References
 
-* [Superheterodyne Receiver](https://en.wikipedia.org/wiki/Superheterodyne_receiver) - wikipedia
 * [the kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html)
+* [Superheterodyne Receiver](https://en.wikipedia.org/wiki/Superheterodyne_receiver) - wikipedia
 * [Introduction to the Superheterodyne Receiver](http://users.tpg.com.au/users/ldbutler/Superhet.htm) - by Lloyd Butler VK5BR
 * [Block Diagram of Superheterodyne Receiver Radio](http://www.radio-electronics.com/info/rf-technology-design/superheterodyne-radio-receiver/block-diagram.php) - Ian Pool. A good description of the modules.
 * [Radio Receivers Book - Chapter 4  Superheterodyne Radio Receivers](http://www.mikroe.com/old/books/rrbook/chapter4/chapter4a.htm) - Miomir Filipovic

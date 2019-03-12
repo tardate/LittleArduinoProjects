@@ -1,5 +1,12 @@
 [
     {
+        "description": "build and analyse the HX108-2 superheterodyne AM MW radio receiver kit", 
+        "relative_path": "Radio/AM/HX108-2", 
+        "id": "#462", 
+        "categories": "Radio, AM", 
+        "name": "HX108-2"
+    }, 
+    {
         "description": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications", 
         "relative_path": "Electronics101/GuitarEffects/Goblin", 
         "id": "#461", 

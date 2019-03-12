@@ -1,6 +1,6 @@
-# 461 Little Electronics and Arduino Projects
+# 462 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Goblin](./Electronics101/GuitarEffects/Goblin) - the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications.
+> Latest addition:sparkles: [HX108-2](./Radio/AM/HX108-2) - build and analyse the HX108-2 superheterodyne AM MW radio receiver kit.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -258,6 +258,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#043 HitTheLights](./playground/HitTheLights)                                     | **LCD, Human Input, Arduino**   simple LED game with LCD output and interrupt-driven button input |
 | [#410 HomopolarJouleThiefBlinky](./Kinetics/HomopolarJouleThiefBlinky)             | **Kinetics, LED, Oscillators**  a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms |
 | [#203 HomopolarMotor](./Kinetics/HomopolarMotor)                                   | **Kinetics**                    build a basic homopolar motor |
+| [#462 HX108-2](./Radio/AM/HX108-2)                                                 | **Radio, AM**                   build and analyse the HX108-2 superheterodyne AM MW radio receiver kit |
+| [#123 HX6B](./Radio/AM/HX6B)                                                       | **Radio, AM**                   build and analyse the HX-6B superheterodyne AM MW radio receiver kit |
 | [#397 I2CScanner](./playground/I2CScanner)                                         | **I2C, Arduino**                scanning for I²C devices with an Arduino |
 | [#146 InvertingChargePump](./Electronics101/555Timer/InvertingChargePump)          | **555 Timer, Power**            test an inverting charge pump circuit based on a 555 timer |
 | [#006 It's Better With Bacon](./playground/BetterWithBacon)                        | **LCD, Arduino**                simple LCD test |
@@ -461,7 +463,6 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler |
 | [#015 StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
-| [#123 HX6B](./Radio/AM/HX6B)                                                       | **Radio, AM**                   build and analyse the HX-6B superheterodyne AM MW radio receiver kit |
 | [#066 Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |
 | [#116 Switch - NJFET](./Electronics101/SwitchNJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and n-channel JFET |
 | [#032 Switch - NPN](./Electronics101/SwitchNPN)                                    | **BJT**                         small-signal digital switch with NPN BJT |
