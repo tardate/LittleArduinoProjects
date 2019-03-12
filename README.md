@@ -461,7 +461,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#185 StirlingEngineHB13](./Kinetics/StirlingEngineHB13)                           | **Kinetics**                    building the Böhm Stirling-Technik HB13 Small Bonsai engine |
 | [#349 stringy/DemoBurner](./BoldportClub/stringy/DemoBurner)                       | **Boldport, PIC**               burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler |
 | [#015 StripTease](./LEDArrayDemos/StripTease)                                      | **LED Array, Arduino**          demo a range of effects on the LED strip |
-| [#123 SuperheterodyneReceiverKit](./Radio/SuperheterodyneReceiverKit)              | **Radio, AM**                   build and analyse a basic superheterodyne AM MW radio receiver kit |
+| [#123 HX6B](./Radio/AM/HX6B)                                                       | **Radio, AM**                   build and analyse the HX-6B superheterodyne AM MW radio receiver kit |
 | [#066 Switch - NFET](./Electronics101/SwitchNFET)                                  | **MOSFET**                      small-signal n-channel MOSFET switch with turn-off delay |
 | [#116 Switch - NJFET](./Electronics101/SwitchNJFET)                                | **JFET, Arduino**               switch an independent power source using an Arduino and n-channel JFET |
 | [#032 Switch - NPN](./Electronics101/SwitchNPN)                                    | **BJT**                         small-signal digital switch with NPN BJT |

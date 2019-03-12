@@ -1,14 +1,14 @@
-# #123 SuperheterodyneReceiverKit
+# #123 HX-6B AM Receiver Kit
 
-Build and analyse a basic superheterodyne AM MW radio receiver kit.
+Build and analyse the HX-6B superheterodyne AM MW radio receiver kit.
 
-![The Build](./assets/SuperheterodyneReceiverKit_build.jpg?raw=true)
+![The Build](./assets/HX6B_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 
-Just my notes on a build of [a kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html).
+Just my notes on a build of [a HX-6B kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html).
 
 A superheterodyne receiver (often shortened to superhet) uses frequency mixing to convert a received signal
 (at a variable frequency)
@@ -44,18 +44,19 @@ to a fixed intermediate frequency (IF) which can be more conveniently processed 
 | C4,5,7,11 | 223 22nF ceramic cap      |   |
 | Ca,Cb   | CBM-223P variable capacitor |   |
 
-![SuperheterodyneReceiverKit_unboxed](./assets/SuperheterodyneReceiverKit_unboxed.jpg?raw=true)
+![HX6B_unboxed](./assets/HX6B_unboxed.jpg?raw=true)
 
-![SuperheterodyneReceiverKit_pcb_front](./assets/SuperheterodyneReceiverKit_pcb_front.jpg?raw=true)
+![HX6B_pcb_front](./assets/HX6B_pcb_front.jpg?raw=true)
 
-![SuperheterodyneReceiverKit_pcb_back](./assets/SuperheterodyneReceiverKit_pcb_back.jpg?raw=true)
+![HX6B_pcb_back](./assets/HX6B_pcb_back.jpg?raw=true)
 
 ## Construction
 
-![The Schematic](./assets/SuperheterodyneReceiverKit_schematic.jpg?raw=true)
+![The Schematic](./assets/HX6B_schematic.jpg?raw=true)
 
 
 ## Credits and References
+
 * [Superheterodyne Receiver](https://en.wikipedia.org/wiki/Superheterodyne_receiver) - wikipedia
 * [the kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html)
 * [Introduction to the Superheterodyne Receiver](http://users.tpg.com.au/users/ldbutler/Superhet.htm) - by Lloyd Butler VK5BR

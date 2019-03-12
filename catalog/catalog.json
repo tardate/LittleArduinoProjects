@@ -2366,11 +2366,11 @@
         "name": "RFDetectorProbe"
     }, 
     {
-        "description": "build and analyse a basic superheterodyne AM MW radio receiver kit", 
-        "relative_path": "Radio/SuperheterodyneReceiverKit", 
+        "description": "build and analyse the HX-6B superheterodyne AM MW radio receiver kit", 
+        "relative_path": "Radio/AM/HX6B", 
         "id": "#123", 
         "categories": "Radio, AM", 
-        "name": "SuperheterodyneReceiverKit"
+        "name": "HX6B"
     }, 
     {
         "description": "testing an OpAmp timer switch", 
