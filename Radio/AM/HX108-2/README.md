@@ -415,7 +415,7 @@ I got "close enough for now" by just adjusting B2 红 red:
 ## Conclusion
 
 My local AM band is completely dead (has been for years) so now I have a perfectly functioning but absolutely useless doorstop;-)
-But this as great revision on simple superheterodyne receiver design.
+But this has been great revision on simple superheterodyne receiver design.
 
 Next steps?
 
