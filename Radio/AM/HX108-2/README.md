@@ -54,6 +54,10 @@ shango066: HX 108-2 am kit radio assembly alignment and test
 
 [![clip](https://img.youtube.com/vi/XWtskDrjDgA/0.jpg)](https://www.youtube.com/watch?v=XWtskDrjDgA)
 
+The Radio Mechanic: an excellent desktop freeform build of the HX108-2 circuit:
+
+[![clip](https://img.youtube.com/vi/o7ZcMniVJiA/0.jpg)](https://www.youtube.com/watch?v=o7ZcMniVJiA)
+
 ## The Kit
 
 I purchased my [HX108-2 kit from seller on aliexpress](https://www.aliexpress.com/item/7-Tube-AM-Radio-Electronic-Kit-HX108-2-F5D4-DIY-Electronic-Set-Product-Accessory-Dropship-New/32953387145.html?spm=a2g0s.12269583.0.0.1bca1be39ujYzZ). It was generally OK, with no missing parts.
@@ -347,7 +351,6 @@ Verification:
 
 * with circuit powered, probe the B4 test point - noise on the speakers √
 
-
 ### Step 6: First IF Stage
 
 | Ref | Item                                         | Installed |
@@ -392,18 +395,18 @@ Verification:
 [shango066 has a great video on tuning the HX108-2](https://www.youtube.com/watch?v=XWtskDrjDgA?t=3271).
 
 Since we don't have any AM stations in range, I did a rough manual alignment against some digital signals in the local MW band.
-I readthe frequency with a commercial radio, then adjusted the HX108-2 so that the signal appears at roughly the same frequency according to the front dial.
+I read the frequency with a commercial radio, then adjusted the HX108-2 so that the signal appears at roughly the same frequency according to the front dial.
 
 Since I'm tuning with an ugly digital signal, I can't really tell if the IF and demodulator stages are perfectly aligned, although they seem fine and couldn't be improved much with fiddling.
 The main thing I needed to do was adjust the oscillator so that the frequency range roughly lines up with the decal/front dial.
-I got "close enough for now" by just adusting B2 红 red:
+I got "close enough for now" by just adjusting B2 红 red:
 
 * set the variable capacitor to position the front dial at the expected frequency of the signal I was aiming for
 * adjust B2 红 red until the signal is received at best strength/quality
 
 ![step8-tuning](./assets/step8-tuning.jpg?raw=true)
 
-## Step 9: Putting it all together!
+## Step 9: Putting it all together
 
 ![HX108-2_build](./assets/HX108-2_build.jpg?raw=true)
 
@@ -418,7 +421,6 @@ Next steps?
 
 * next time I travel to a place with AM, I might take it along for a test and some tuning in the field
 * build a low-power AM transmitter for a little local area transmit/receive test
-
 
 ## Credits and References
 
