@@ -23,32 +23,50 @@ is posting an excellent series covering the build of an HX108-2 at the same time
 The HX108-2 is a pretty popular kit, and a number of very good tutorials can be found on YouTube describing construction and tuning.
 Here's a selection...
 
-K7QO: HX108-2 AM Receiver: Theory and Construction - Part 01
+### K7QO HX108-2 AM Receiver: Theory and Construction
+
+Part 01
 
 * kit overview
 * power section build
 
 [![clip](https://img.youtube.com/vi/8hAOf0AMsa4/0.jpg)](https://www.youtube.com/watch?v=8hAOf0AMsa4)
 
-K7QO: HX108-2 AM Receiver: Theory and Construction - Part 02
+Part 02
 
 * construction tips
 * test equipment review: function generator, frequency counter
 
 [![clip](https://img.youtube.com/vi/VifN867HpfU/0.jpg)](https://www.youtube.com/watch?v=VifN867HpfU)
 
-K7QO: HX108 2 AM Receiver: Theory and Construction - Part 03
+Part 03
 
 * audio section build
 
 [![clip](https://img.youtube.com/vi/STzgJLl9LVg/0.jpg)](https://www.youtube.com/watch?v=STzgJLl9LVg)
 
-K7QO: HX108-2 AM Receiver - Part 04
+Part 04
 
 * audio section measurements
 * IF Transformer tuning
 
 [![clip](https://img.youtube.com/vi/1LgoohmspVY/0.jpg)](https://www.youtube.com/watch?v=1LgoohmspVY)
+
+Part 05
+
+* demodulator build
+* using a 455kHz AM signal for testing
+
+[![clip](https://img.youtube.com/vi/71v72Z_01fg/0.jpg)](https://www.youtube.com/watch?v=71v72Z_01fg)
+
+Part 06
+
+* bandpass filter and second IF alignment
+
+[![clip](https://img.youtube.com/vi/LDArXTmcJz0/0.jpg)](https://www.youtube.com/watch?v=LDArXTmcJz0)
+
+
+### Other Tutorials
 
 shango066: HX 108-2 am kit radio assembly alignment and test
 
@@ -205,7 +223,7 @@ The circuit basically maps to the following stages:
 * Second IF Filter and Amp: B4, V3
 * Demodulator: B5, V4
 * Audio amp:
-  * V5 audio preamplifier
+  * V5 audio driver/preamplifier
   * B6, B7, V6, V7 push-pull class B power amplifier
 
 A quick sketch from my notes on the functional design:
@@ -336,6 +354,7 @@ The V4 transistor is being used as a detector in this stage.
 Verification:
 
 * with circuit powered, probe the B5 test point - noise on the speakers √
+* with circuit powered, inject 465kHz carrier with 1kHz AM via 22nF capacitor to the B5 test point - peaked 1kHz tone on the speakers √
 
 ### Step 5: Second IF Stage
 
@@ -350,6 +369,7 @@ Verification:
 Verification:
 
 * with circuit powered, probe the B4 test point - noise on the speakers √
+* with circuit powered, inject 465kHz carrier with 1kHz AM via 22nF capacitor to the B4 test point - peaked 1kHz tone on the speakers √
 
 ### Step 6: First IF Stage
 
@@ -366,6 +386,7 @@ Verification:
 Verification:
 
 * with circuit powered, probe the B4 test point - noise on the speakers √
+* with circuit powered, inject 465kHz carrier with 1kHz AM via 22nF capacitor to the B4 test point - peaked 1kHz tone on the speakers √
 
 ### Step 7: RF Front-end
 
