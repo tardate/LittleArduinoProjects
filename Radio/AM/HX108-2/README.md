@@ -65,6 +65,18 @@ Part 06
 
 [![clip](https://img.youtube.com/vi/LDArXTmcJz0/0.jpg)](https://www.youtube.com/watch?v=LDArXTmcJz0)
 
+Part 07
+
+* bandpass filter and first IF alignment
+
+[![clip](https://img.youtube.com/vi/ur2G5riznDU/0.jpg)](https://www.youtube.com/watch?v=ur2G5riznDU)
+
+Part 08
+
+* final RF front end (autodyne/mixer and antenna)
+* final test and alignment
+
+[![clip](https://img.youtube.com/vi/rNSpaUG2MYQ/0.jpg)](https://www.youtube.com/watch?v=rNSpaUG2MYQ)
 
 ### Other Tutorials
 
