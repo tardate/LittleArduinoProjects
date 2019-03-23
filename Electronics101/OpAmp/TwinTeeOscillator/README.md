@@ -59,9 +59,9 @@ Here's the basic layout I used. It includes:
 ![protoboard_layout](./assets/protoboard_layout.jpg?raw=true)
 
 With a 5V supply and R1 = 4.7kΩ, I get oscillation at about 3.084kHz.
-The wave is not a perfect sign, with two main distortions present:
+The wave is not a perfect sine wave, with two main distortions present:
 
-* significant cross-over distortion
+* noticable cross-over distortion in both directions
 * clipping at the top of the wave if R2 not adjusted correctly
 
 ![scope_pb_5v_4k7](./assets/scope_pb_5v_4k7.gif?raw=true)
