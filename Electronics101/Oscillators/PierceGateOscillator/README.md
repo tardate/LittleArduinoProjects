@@ -4,7 +4,6 @@ Build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt 
 
 ![Build](./assets/PierceGateOscillator_build.jpg?raw=true)
 
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
@@ -43,7 +42,6 @@ However, the crystal is doing its job, locking in the oscillation at the resonan
 Here's a scope trace:
 
 ![scope](./assets/scope.gif?raw=true)
-
 
 ## Construction
 
