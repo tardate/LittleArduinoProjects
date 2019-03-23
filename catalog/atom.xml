@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-22T14:57:07Z</updated>
+  <updated>2019-03-23T04:19:35Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/Transconductance/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/Transconductance/README.md"/>
-    <updated>2019-03-22T14:54:40Z</updated>
+    <updated>2019-03-22T15:06:42Z</updated>
     <title>#463 Transconductance Amplifiers</title>
     <summary>understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/Transconductance/assets/Transconductance_build.jpg</g:image_link>
@@ -23,7 +23,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX108-2/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX108-2/README.md"/>
-    <updated>2019-03-18T15:30:49Z</updated>
+    <updated>2019-03-23T03:40:25Z</updated>
     <title>#462 HX108-2</title>
     <summary>build and analyse the HX108-2 superheterodyne AM MW radio receiver kit</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/HX108-2/assets/HX108-2_build.jpg</g:image_link>
@@ -54,7 +54,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md"/>
-    <updated>2019-03-05T14:24:38Z</updated>
+    <updated>2019-03-22T16:38:13Z</updated>
     <title>#459 TwinTeeOscillator</title>
     <summary>a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/assets/TwinTeeOscillator_build.jpg</g:image_link>
@@ -2240,12 +2240,12 @@
     <category term="Audio"/>
   </entry>
   <entry>
-    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PierceGateOscillator/README.md</id>
-    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PierceGateOscillator/README.md"/>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceGateOscillator/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceGateOscillator/README.md"/>
     <updated>2018-01-28T15:48:21Z</updated>
     <title>#248 PierceGateOscillator</title>
     <summary>build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PierceGateOscillator/assets/PierceGateOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/PierceGateOscillator/assets/PierceGateOscillator_build.jpg</g:image_link>
     <category term="Oscillators"/>
     <category term="Crystal"/>
   </entry>
@@ -2299,12 +2299,12 @@
     <category term="Switches"/>
   </entry>
   <entry>
-    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PierceOscillator/README.md</id>
-    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PierceOscillator/README.md"/>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceOscillator/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceOscillator/README.md"/>
     <updated>2018-01-28T15:48:21Z</updated>
     <title>#242 PierceOscillator</title>
     <summary>test a Pierce Oscillator made with a minimum of components</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PierceOscillator/assets/PierceOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/PierceOscillator/assets/PierceOscillator_build.jpg</g:image_link>
     <category term="Oscillators"/>
     <category term="Crystal"/>
   </entry>

@@ -3,5 +3,5 @@
     "name": "PierceGateOscillator", 
     "description": "build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter", 
     "categories": "Oscillators, Crystal", 
-    "relative_path": "Electronics101/PierceGateOscillator"
+    "relative_path": "Electronics101/Oscillators/PierceGateOscillator"
 }

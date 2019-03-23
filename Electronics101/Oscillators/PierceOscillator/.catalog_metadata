@@ -3,5 +3,5 @@
     "name": "PierceOscillator", 
     "description": "test a Pierce Oscillator made with a minimum of components", 
     "categories": "Oscillators, Crystal", 
-    "relative_path": "Electronics101/PierceOscillator"
+    "relative_path": "Electronics101/Oscillators/PierceOscillator"
 }

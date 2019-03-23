@@ -364,8 +364,8 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#250 pedalShieldUno/AudioDSP](./playground/pedalShieldUno/AudioDSP)               | **DSP, Guitar, Arduino**        test and develop the AudioDSP library for programming the pedalSHIELD Uno |
 | [#331 PIC/GettingBlinky](./PIC/GettingBlinky)                                      | **PIC, LED**                    getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky! |
 | [#390 PIC/GettingBlinky/UsingC](./PIC/GettingBlinky/UsingC)                        | **PIC, LED**                    getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again! |
-| [#248 PierceGateOscillator](./Electronics101/PierceGateOscillator)                 | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
-| [#242 PierceOscillator](./Electronics101/PierceOscillator)                         | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
+| [#248 PierceGateOscillator](./Electronics101/Oscillators/PierceGateOscillator)     | **Oscillators, Crystal**        build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter |
+| [#242 PierceOscillator](./Electronics101/Oscillators/PierceOscillator)             | **Oscillators, Crystal**        test a Pierce Oscillator made with a minimum of components |
 | [#455 PiezoBuzzers](./Electronics101/PiezoBuzzers)                                 | **Oscillators, Crystal, Audio** exploring techniques for driving piezo transducers and buzzer units for audio output |
 | [#376 PiezoVibrationDetector](./playground/PiezoVibrationDetector)                 | **Arduino, Piezo**              counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator |
 | [#401 Pixie](./Radio/pixie)                                                        | **Radio**                          research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m |
