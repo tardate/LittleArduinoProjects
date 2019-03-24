@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-23T04:19:35Z</updated>
+  <updated>2019-03-25T15:54:14Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/SingleTransistorTransmitter/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/SingleTransistorTransmitter/README.md"/>
+    <updated>2019-03-24T15:39:54Z</updated>
+    <title>#464 SingleTransistorTransmitter</title>
+    <summary>building a low power, single transistor AM transmitter with surprisingly good fidelity</summary>
+    <g:image_link>https://leap.tardate.com/Radio/AM/SingleTransistorTransmitter/assets/SingleTransistorTransmitter_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="AM"/>
+    <category term="Transmitter"/>
+  </entry>
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/Transconductance/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/Transconductance/README.md"/>
@@ -785,7 +796,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/SingaporeBands/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/SingaporeBands/README.md"/>
-    <updated>2018-05-07T13:19:58Z</updated>
+    <updated>2019-03-23T07:48:34Z</updated>
     <title>#388 SingaporeBands</title>
     <summary>notes on official band plans for Singapore and my and personal observations on where the activity is found</summary>
     <g:image_link>https://leap.tardate.com/Radio/SingaporeBands/assets/SingaporeBands_build.jpg</g:image_link>
@@ -1907,7 +1918,9 @@
     <title>#279 SingleStageTransmitterKit2</title>
     <summary>build and tweak/tune another simple single-stage FM Transmitter Kit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/FM/SingleStageTransmitterKit2/assets/SingleStageTransmitterKit2_build.jpg</g:image_link>
+    <category term="Radio"/>
     <category term="FM"/>
+    <category term="Transmitter"/>
   </entry>
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/ComponentTesterKit/README.md</id>
@@ -2242,7 +2255,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceGateOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceGateOscillator/README.md"/>
-    <updated>2018-01-28T15:48:21Z</updated>
+    <updated>2019-03-23T04:23:00Z</updated>
     <title>#248 PierceGateOscillator</title>
     <summary>build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/PierceGateOscillator/assets/PierceGateOscillator_build.jpg</g:image_link>
@@ -2301,7 +2314,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceOscillator/README.md"/>
-    <updated>2018-01-28T15:48:21Z</updated>
+    <updated>2019-03-23T05:03:58Z</updated>
     <title>#242 PierceOscillator</title>
     <summary>test a Pierce Oscillator made with a minimum of components</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/PierceOscillator/assets/PierceOscillator_build.jpg</g:image_link>
@@ -2663,7 +2676,9 @@
     <title>#208 SingleStageTransmitterKit</title>
     <summary>build a simple single-stage FK702 FM Transmitter Kit by Future Kit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/FM/SingleStageTransmitterKit/assets/SingleStageTransmitterKit_build.jpg</g:image_link>
+    <category term="Radio"/>
     <category term="FM"/>
+    <category term="Transmitter"/>
   </entry>
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/FrequencyCounter/README.md</id>

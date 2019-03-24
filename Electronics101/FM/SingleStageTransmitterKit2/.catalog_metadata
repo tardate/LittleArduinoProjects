@@ -2,6 +2,6 @@
     "id": "#279", 
     "name": "SingleStageTransmitterKit2", 
     "description": "build and tweak/tune another simple single-stage FM Transmitter Kit", 
-    "categories": "FM", 
+    "categories": "Radio, FM, Transmitter", 
     "relative_path": "Electronics101/FM/SingleStageTransmitterKit2"
 }
