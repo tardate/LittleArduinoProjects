@@ -17,17 +17,16 @@ have any local AM broadcasts it can be a challenge to verify that things are ind
 
 This is where low-power AM transmitters can be very useful.
 
-I found a one transistor AM transmitter posted on YouTube by Stefan0719, and this is the inspiraction for my experimentation here:
+I found a one transistor AM transmitter design [posted on YouTube by Stefan0719]((https://www.youtube.com/watch?v=2B5bEMpgrLc),
+and this was the starting point and inspiration for my experimentation.
 
-[![clip](https://img.youtube.com/vi/2B5bEMpgrLc/0.jpg)](https://www.youtube.com/watch?v=2B5bEMpgrLc)
-
-Taking this as the starting point, I first experiemnted with the same circuit on a breadboard.
+I first experimented with the same circuit on a breadboard, and it worked surprisingly well.
 
 ![SingleTransistorTransmitter_bb_build](./assets/SingleTransistorTransmitter_bb_build.jpg?raw=true)
 
 ## Circuit Design
 
-While the original circuitworked quite well off the bat, it did not do a very good job of attenuating harmonic content.
+While the original circuit worked quite well off the bat, it did not do a very good job of attenuating harmonic content.
 I've added additional filtering on the output and harmonics are now tamped down quite significantly (the C7,L2,C8 T-filter).
 
 The original design of the carrier oscillator had C3 in series with L1 and a variable capacitor.
@@ -43,7 +42,7 @@ Since there's no effective output amplification, the signal is quite weak and ca
 
 ## Ugly Build
 
-Since things were goig  quite well on a breadboard, I transferred to some copper PCB stock for a more stable experimental platform:
+Since things were going quite well on a breadboard, I transferred to some copper PCB stock for a more stable experimental platform:
 
 ![build_complete](./assets/build_complete.jpg?raw=true)
 
@@ -51,17 +50,17 @@ Since things were goig  quite well on a breadboard, I transferred to some copper
 
 Testing the carrier with the modulation input disconnected.
 
-With the component values as given in the schematic, I'm seeing a carreier wave tuning range of
+With the component values as given in the schematic, I'm seeing a carrier wave tuning range of
 819.49kHz to 1580.96kHz. The carrier is very close to a pure sine wave at the higher frequencies,
 and only minor distortion at the lower end.
 
 Interestingly, there is a resonant spot at around 1453.62kHz where the output peaks at 17.2V peak-peak (with a 9V battery).
 
-Running at minimum carrier frequency, note the somewhat skewed sine wave:
+Running at minimum carrier frequency, note the somewhat skewed sine wave. The scope trace on CH1 is captured at the output/antenna (safe-ish since this is only a low-power circuit):
 
 ![carrier_min](./assets/carrier_min.gif?raw=true)
 
-The spectrum shows just the first harmonic having much power. Prior to adding the output filter network, 2nd, 3rd and 4th etc harmonics were quite visible.
+The spectrum shows just the first harmonic having much power. Prior to adding the output filter network, 2nd, 3rd and 4th etc harmonics were quite prominent.
 
 ![carrier_min](./assets/carrier_min_fft.gif?raw=true)
 
@@ -69,7 +68,7 @@ At maximum carrier frequency, the output is very close to pure sine wave.
 
 ![carrier_max](./assets/carrier_max.gif?raw=true)
 
-The spectrum confirms that virtually all harminoc content has been eliminated:
+The spectrum confirms that virtually all harmonic content has been eliminated:
 
 ![carrier_max](./assets/carrier_max_fft.gif?raw=true)
 
@@ -79,7 +78,7 @@ I ran some tests with a 1kHz sine wave input. The modulation is very clean, as c
 
 The modulation is unbalanced, favouring the high-side of the wave. This is to be expected given the circuit design,
 where the modulating signal is primarily pulling down the positive bias of Q1.
-The placement of the variable resistor R1 provides limited scope to adjust the biars point and even out the modulation of the carrier.
+The placement of the variable resistor R1 provides limited scope to adjust the bias point and even out the modulation of the carrier.
 
 ![am_envelope](./assets/am_envelope.gif?raw=true)
 
