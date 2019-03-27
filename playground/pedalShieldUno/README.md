@@ -55,7 +55,7 @@ All the test points check out OK, and current draw is ~2mA. Good to go .. and it
 ### Programming
 
 The [examples](./examples) folder contains the collection of samples provided on the
-[How to start programming pedalSHIELD UNO](http://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno) forum page. These are currently unmodified, and all work as expected.
+[How to start programming pedalSHIELD UNO](https://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno) forum page. These are currently unmodified, and all work as expected.
 
 
 ## Performance
@@ -150,14 +150,14 @@ Great effect. The scope trace doesn't tell the story though .. it swells the vol
 
 ## Construction
 
-[![Schematic](./assets/pedalShieldUno_schematic.png?raw=true)](http://www.electrosmash.com/media/kunena/attachments/631/pedalSHIELD_UNO-Schematics.pdf)
+[![Schematic](./assets/pedalShieldUno_schematic.png?raw=true)](https://www.electrosmash.com/images/tech/pedalshield-uno/pedalshield-uno-schematic.png)
 
 ![Build](./assets/pedalShieldUno_assembled.jpg?raw=true)
 
 ## Credits and References
-* [pedalSHIELD UNO](http://www.electrosmash.com/pedalshield-uno-start) - getting started guide
-* [pedalSHIELD UNO](http://www.electrosmash.com/pedalshield-uno) - main page
-* [pedalSHIELD UNO Schematic](http://www.electrosmash.com/media/kunena/attachments/631/pedalSHIELD_UNO-Schematics.pdf)
-* [How to start programming pedalSHIELD UNO](http://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno)
+* [pedalSHIELD UNO](https://www.electrosmash.com/pedalshield-uno-start) - getting started guide
+* [pedalSHIELD UNO](https://www.electrosmash.com/pedalshield-uno) - main page
+* [pedalSHIELD UNO Schematic](https://www.electrosmash.com/images/tech/pedalshield-uno/pedalshield-uno-schematic.png)
+* [How to start programming pedalSHIELD UNO](https://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno)
 * [The Arduino Guitar Pedal](http://www.instructables.com/id/Arduino-Guitar-Pedal/) - another pedal proejct
 * [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap247-pedalshield-uno.html)

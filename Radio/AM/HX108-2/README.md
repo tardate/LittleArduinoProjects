@@ -78,6 +78,12 @@ Part 08
 
 [![clip](https://img.youtube.com/vi/rNSpaUG2MYQ/0.jpg)](https://www.youtube.com/watch?v=rNSpaUG2MYQ)
 
+Part 09
+
+* Showing the location of some noise sources using an AM radio receiver
+
+[![clip](https://img.youtube.com/vi/35BD2uGXeJ0/0.jpg)](https://www.youtube.com/watch?v=35BD2uGXeJ0)
+
 ### Other Tutorials
 
 shango066: HX 108-2 am kit radio assembly alignment and test
