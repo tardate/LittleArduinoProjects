@@ -41,6 +41,8 @@ The HC-SR04 is a pretty smart and independant module, with a very simple control
 Note there is no explicit relationship between when the trigger pulse is sent and when the echo pulse is returned.
 They can be treated independantly.
 
+The module uses TCT40-16T "air ultrasonic ceramic transducers" that operate at 40kHz.
+
 ### Trigger Signal
 
 The 74LS14 schmitt inverter is used as a free-running oscilator. The LS variant I'm using here is not great with high resistance values
