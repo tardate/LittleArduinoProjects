@@ -1,6 +1,6 @@
-# 464 Little Electronics and Arduino Projects
+# 465 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [SingleTransistorTransmitter](./Radio/AM/SingleTransistorTransmitter) - Building a low power, single transistor AM transmitter with surprisingly good fidelity.
+> Latest addition:sparkles: [MrBiJuT](./Electronics101/BJT/MrBiJuT) - Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -16,12 +16,12 @@ Many are variations of things found wild on the net, or inspired by ideas from t
 * [Arduino Playground](http://playground.arduino.cc/)
 * books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
 * the many great electronics YouTube channels e.g.
-  * [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
-  * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
-  * [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
-  * [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
-  * [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
-  * [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
+    * [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
+    * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
+    * [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+    * [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
+    * [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
+    * [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 There are even now a few projects contributed by others - send your own over in a pull request
@@ -338,6 +338,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#076 MonostablePulseExtender](./playground/MonostablePulseExtender)               | **CMOS/TTL, Arduino**           test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino |
 | [#046 MotorControlPWM](./playground/MotorControlPWM)                               | **Motors, Arduino**             tests PWM speed control of a DC motor driven by an Arduino |
 | [#218 MPU6050/AccelGyroTest](./playground/MPU6050/AccelGyroTest)                   | **Sensors, MPU-6050, Arduino**  first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module |
+| [#465 MrBiJuT](./Electronics101/BJT/MrBiJuT)                                       | **BJT, Test Equipment, Oscillators**   Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator |
 | [#315 MT3608/VariableBoost](./Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost) | **Power** testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter |
 | [#190 MultiSlaveSPI](./playground/MultiSlaveSPI)                                   | **SPI, Arduino**                using SPI to control multiple devices that support an SPIish interface |
 | [#226 MusicBoxKit](./Electronics101/MusicBoxKit)                                   | **Music, Arduino**              build and test a Music Box kit, and run a demonstration under Arduino control |

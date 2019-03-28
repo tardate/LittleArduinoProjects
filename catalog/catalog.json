@@ -1,5 +1,12 @@
 [
     {
+        "description": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator", 
+        "relative_path": "Electronics101/BJT/MrBiJuT", 
+        "id": "#465", 
+        "categories": "BJT, Test Equipment, Oscillators", 
+        "name": "MrBiJuT"
+    }, 
+    {
         "description": "building a low power, single transistor AM transmitter with surprisingly good fidelity", 
         "relative_path": "Radio/AM/SingleTransistorTransmitter", 
         "id": "#464", 

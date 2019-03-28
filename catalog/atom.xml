@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-03-25T15:54:14Z</updated>
+  <updated>2019-03-30T10:35:50Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BJT/MrBiJuT/README.md</id>
+    <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BJT/MrBiJuT/README.md"/>
+    <updated>2019-03-30T10:33:13Z</updated>
+    <title>#465 MrBiJuT</title>
+    <summary>Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BJT/MrBiJuT/assets/MrBiJuT_build.jpg</g:image_link>
+    <category term="BJT"/>
+    <category term="Test Equipment"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/SingleTransistorTransmitter/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/SingleTransistorTransmitter/README.md"/>
-    <updated>2019-03-24T15:39:54Z</updated>
+    <updated>2019-03-26T11:22:03Z</updated>
     <title>#464 SingleTransistorTransmitter</title>
     <summary>building a low power, single transistor AM transmitter with surprisingly good fidelity</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/SingleTransistorTransmitter/assets/SingleTransistorTransmitter_build.jpg</g:image_link>
@@ -34,7 +45,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX108-2/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/AM/HX108-2/README.md"/>
-    <updated>2019-03-23T03:40:25Z</updated>
+    <updated>2019-03-27T01:54:20Z</updated>
     <title>#462 HX108-2</title>
     <summary>build and analyse the HX108-2 superheterodyne AM MW radio receiver kit</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/HX108-2/assets/HX108-2_build.jpg</g:image_link>
@@ -65,7 +76,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/OpAmp/TwinTeeOscillator/README.md"/>
-    <updated>2019-03-22T16:38:13Z</updated>
+    <updated>2019-03-26T11:22:03Z</updated>
     <title>#459 TwinTeeOscillator</title>
     <summary>a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/assets/TwinTeeOscillator_build.jpg</g:image_link>
@@ -796,7 +807,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/SingaporeBands/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/SingaporeBands/README.md"/>
-    <updated>2019-03-23T07:48:34Z</updated>
+    <updated>2019-03-26T11:22:03Z</updated>
     <title>#388 SingaporeBands</title>
     <summary>notes on official band plans for Singapore and my and personal observations on where the activity is found</summary>
     <g:image_link>https://leap.tardate.com/Radio/SingaporeBands/assets/SingaporeBands_build.jpg</g:image_link>
@@ -1829,7 +1840,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/UltrasonicAlarm/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/UltrasonicAlarm/README.md"/>
-    <updated>2018-01-28T15:48:21Z</updated>
+    <updated>2019-03-27T14:05:52Z</updated>
     <title>#287 UltrasonicAlarm</title>
     <summary>build an ultrasonic motion alarm with the HC-SR04 module and discrete logic</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/UltrasonicAlarm/assets/UltrasonicAlarm_build.jpg</g:image_link>
@@ -2255,7 +2266,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceGateOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceGateOscillator/README.md"/>
-    <updated>2019-03-23T04:23:00Z</updated>
+    <updated>2019-03-26T11:22:03Z</updated>
     <title>#248 PierceGateOscillator</title>
     <summary>build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/PierceGateOscillator/assets/PierceGateOscillator_build.jpg</g:image_link>
@@ -2265,7 +2276,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/README.md"/>
-    <updated>2018-01-28T15:48:22Z</updated>
+    <updated>2019-03-27T01:54:20Z</updated>
     <title>#247 pedalShieldUno</title>
     <summary>build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal</summary>
     <g:image_link>https://leap.tardate.com/playground/pedalShieldUno/assets/pedalShieldUno_build.jpg</g:image_link>
@@ -2314,7 +2325,7 @@
   <entry>
     <id>https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceOscillator/README.md</id>
     <link href="https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Oscillators/PierceOscillator/README.md"/>
-    <updated>2019-03-23T05:03:58Z</updated>
+    <updated>2019-03-26T11:22:03Z</updated>
     <title>#242 PierceOscillator</title>
     <summary>test a Pierce Oscillator made with a minimum of components</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/PierceOscillator/assets/PierceOscillator_build.jpg</g:image_link>
