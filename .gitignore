@@ -3,3 +3,8 @@ wip
 venv
 _autosave*
 sdcc
+
+# jekyll intermediates
+_site
+.sass-cache
+.jekyll-metadata

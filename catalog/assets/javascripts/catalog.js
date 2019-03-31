@@ -53,7 +53,7 @@
 
           base_name = data.relative_path.split('/').pop();
           hero_image_url = instance.pages_base_url + data.relative_path + '/assets/' + base_name + '_build.jpg';
-          project_url = instance.github_base_url + data.relative_path
+          project_url = instance.pages_base_url + data.relative_path + '/'
 
           category_array = data.categories.split(',');
           category_labels = '';

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% assign project_name = page.dir | split: "/" | last %}
+{% assign hero_image_url = page.url | append: "assets/" | append: project_name | append: "_build.jpg" %}
+{% include head.html %}
+<body class="project">
+  {% include header.html %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">{{ project_name }}</h3>
+          </div>
+          <div class="panel-body">
+            <article class="markdown-body">
+              {{ content }}
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        {% include projectsidebar.html %}
+      </div>
+    </div>
+
+  </div>
+  {% include footer.html %}
+</body>
+</html>

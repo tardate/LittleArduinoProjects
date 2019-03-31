@@ -75,3 +75,135 @@ img.leap-hero {
   height: auto;
   margin-top: 8px;
 }
+
+/* project article content format */
+
+.markdown-body {
+  font-size: 16px;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.markdown-body h1 {
+  margin-top: 0px;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+}
+
+.markdown-body h1, .markdown-body h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: .3em;
+}
+
+.markdown-body table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.markdown-body table tr {
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+.markdown-body table td, .markdown-body table th {
+    border: 1px solid #dfe2e5;
+    padding: 6px 13px;
+}
+
+.markdown-body table th {
+    font-weight: 600;
+}
+
+.social-icons-left, .social-icons-right {
+  text-align: center;
+  float: none;
+}
+
+.social-icons {
+  padding: 0.5em 0 0 0;
+  width: 100%;
+}
+
+.social-icons a.fa {
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0.2em;
+}
+
+.social-icons a.fa:hover {
+  opacity: 1;
+}
+
+.social-icons iframe[title=Flattr] {
+  position: relative;
+  top: 0.1em;
+}
+
+.site-header .social-icons-left {
+  display: none;
+}
+
+
+footer {
+    font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 800;
+    color: #FFD700;
+    text-shadow: 3px 3px 4px #000;
+}
+
+footer .measure {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+footer .social-icons-left {
+  float: left;
+}
+
+footer .social-icons a,
+footer .social-icons a:hover,
+footer .social-icons a:focus,
+footer .social-icons a:active {
+  opacity: 0.8;
+  color: #FFD700;
+  font-weight: 300;
+  background-image: none;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+footer .social-icons a:hover {
+  opacity: 1;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix::before, .clearfix::after {
+    content: ' ';
+    display: table;
+}

@@ -105,7 +105,7 @@ class Catalog(object):
         ElementTree.SubElement(author, "uri").text = "https://github.com/tardate"
 
         for entry in self.metadata():
-            url = 'https://github.com/tardate/LittleArduinoProjects/tree/master/{}/README.md'.format(entry['relative_path'])
+            url = 'https://leap.tardate.com/{}/'.format(entry['relative_path'])
             hero_image_url = 'https://leap.tardate.com/{}/assets/{}_build.jpg'.format(
                 entry['relative_path'],
                 entry['relative_path'].split('/')[-1]
