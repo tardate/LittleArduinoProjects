@@ -78,5 +78,5 @@ Arranged and put on a protoboard for final tests:
 * [Schmitt Trigger](https://en.wikipedia.org/wiki/Schmitt_trigger) - wikipedia
 * [Transistor Schmitt Trigger](http://howtomechatronics.com/how-it-works/electrical-engineering/transistor-schmitt-trigger/)
 * [Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - Second Edition p232
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap317-discrete-schmitt-trigger.html)

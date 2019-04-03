@@ -225,5 +225,5 @@ All told, this turned out pretty well, though there are a couple of things I wou
 * [PCB project available here from OSHPark](https://oshpark.com/shared_projects/c6PGdeFn)
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [9V Battery Case Holder Cover Box Replacement for Active Guitar Bass Pickup](https://www.aliexpress.com/item/5pcs-9V-Battery-Case-Holder-Cover-Box-Replacement-for-Active-Guitar-Bass-Pickup/32846434285.html)
-* [1N5819 datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [1N5819 datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap391-packaging-the-mv-meter.html)

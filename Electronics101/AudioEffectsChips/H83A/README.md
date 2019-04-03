@@ -33,7 +33,7 @@ Volume is very decent without any amplification.
 
 Here's a demo FWIW. There is a bit of warbling, I think mainly due to imperfect breadboard connections.
 
-[![mdSMwFA3bzw](http://img.youtube.com/vi/mdSMwFA3bzw/0.jpg)](http://www.youtube.com/watch?v=mdSMwFA3bzw)
+[![mdSMwFA3bzw](https://img.youtube.com/vi/mdSMwFA3bzw/0.jpg)](https://www.youtube.com/watch?v=mdSMwFA3bzw)
 
 ## Credits and References
 * [5PCS 12 Kind of Songs Sound Music IC Voice Chip Module for DIY/Toy Integrated Circuit 3-4.5V](https://www.aliexpress.com/item/5PCS-12-Kind-of-Sound-Music-IC-Voice-Chip-Module-for-DIY-Toy-Integrated-Circuit-3/32658454214.html) - from aliexpress seller

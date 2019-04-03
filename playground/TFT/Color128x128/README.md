@@ -30,7 +30,7 @@ I'm testing a couple of libraries using a simple text display program that does 
 
 Here's a quick demo of the two examples in action:
 
-[![cWvAZ91qQys](http://img.youtube.com/vi/cWvAZ91qQys/0.jpg)](http://www.youtube.com/watch?v=cWvAZ91qQys)
+[![cWvAZ91qQys](https://img.youtube.com/vi/cWvAZ91qQys/0.jpg)](https://www.youtube.com/watch?v=cWvAZ91qQys)
 
 
 #### [ArduinoTFTDemo.ino](./ArduinoTFTDemo/ArduinoTFTDemo.ino)

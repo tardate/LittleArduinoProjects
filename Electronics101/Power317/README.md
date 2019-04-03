@@ -15,7 +15,7 @@ The circuit described here is a adjustable voltage supply. When used in this mod
 
 Various calculators are available on the web to figure out the various combinations, and I [made my own](http://toolbox.tardate.com/#LM317Voltage)
 
-Check the [datasheet](http://www.futurlec.com/Linear/LM317T.shtml) to verify the formula for your specific chip.
+Check the [datasheet](https://www.futurlec.com/Linear/LM317T.shtml) to verify the formula for your specific chip.
 In a circuit, R2 could be fixed to provide a fixed voltage, or it can be a variable resistor to allow manipulation of the voltage.
 R2 could also be replaced by a sensor to convert sensor resistance to voltage.
 
@@ -74,7 +74,7 @@ Here's the reference measurement with fixed/known R1 and R2 values:
 ![The Build](./assets/Power317_build_ref.jpg?raw=true)
 
 ## Credits and References
-* [LM317 datasheet](http://www.futurlec.com/Linear/LM317T.shtml)
+* [LM317 datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
 * [LM317 Voltage Calculator](http://toolbox.tardate.com/#LM317Voltage) - my version
 * [LM317 Voltage Calculator](http://www.reuk.co.uk/LM317-Voltage-Calculator.htm) - another
 * [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino

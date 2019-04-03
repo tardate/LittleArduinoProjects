@@ -6,7 +6,7 @@ Figuring out how to use the PX835 "16 Kind of Sound Doorbell Chip" music chip.
 
 Here's a quick demo (if you really want one!)..
 
-[![clip](http://img.youtube.com/vi/57C38rkTg_A/0.jpg)](http://www.youtube.com/watch?v=57C38rkTg_A)
+[![clip](https://img.youtube.com/vi/57C38rkTg_A/0.jpg)](https://www.youtube.com/watch?v=57C38rkTg_A)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

@@ -6,7 +6,7 @@ Driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits l
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/jZhk5e8Uii4/0.jpg)](http://www.youtube.com/watch?v=jZhk5e8Uii4)
+[![clip](https://img.youtube.com/vi/jZhk5e8Uii4/0.jpg)](https://www.youtube.com/watch?v=jZhk5e8Uii4)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

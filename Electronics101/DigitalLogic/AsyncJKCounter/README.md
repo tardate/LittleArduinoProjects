@@ -4,7 +4,7 @@ An asynchronous 4-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
-[![AsyncJKCounter](http://img.youtube.com/vi/dyn9gv996iY/0.jpg)](http://www.youtube.com/watch?v=dyn9gv996iY)
+[![AsyncJKCounter](https://img.youtube.com/vi/dyn9gv996iY/0.jpg)](https://www.youtube.com/watch?v=dyn9gv996iY)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -61,7 +61,7 @@ The ripples are clear, taking place over about 42ns:
 ![The Build](./assets/AsyncJKCounter_build.jpg?raw=true)
 
 ## Credits and References
-* [74LS73 datasheet](http://www.futurlec.com/74LS/74LS73.shtml) - Dual JK Flip-Flop with Clear
+* [74LS73 datasheet](https://www.futurlec.com/74LS/74LS73.shtml) - Dual JK Flip-Flop with Clear
 * [CD4096 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/66451/INTERSIL/CD4096BMS.html)
 * [Sequential Circuits - Asynchronous Counters](http://www.allaboutcircuits.com/textbook/digital/chpt-11/asynchronous-counters/)
 * [Basic Flip Flop Applications](https://youtu.be/SvF4etmRMhA) - Columbia Gorge Community College

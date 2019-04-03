@@ -4,7 +4,7 @@ How to make a piezo buzzer even more annoying? Make it play popcorn!
 
 Here's a quick video of the circuit in action:
 
-[![Popcorn](http://img.youtube.com/vi/ntVrqIyf4y8/0.jpg)](http://www.youtube.com/watch?v=ntVrqIyf4y8)
+[![Popcorn](https://img.youtube.com/vi/ntVrqIyf4y8/0.jpg)](https://www.youtube.com/watch?v=ntVrqIyf4y8)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

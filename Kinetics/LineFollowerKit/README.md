@@ -6,7 +6,7 @@ Building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a 
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/8zqIqcZ_V-k/0.jpg)](http://www.youtube.com/watch?v=8zqIqcZ_V-k)
+[![clip](https://img.youtube.com/vi/8zqIqcZ_V-k/0.jpg)](https://www.youtube.com/watch?v=8zqIqcZ_V-k)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -141,6 +141,6 @@ in my lighting conditions and with the printed test track. YMMV, and adjustment 
 * [D2-5 Intelligent Tracking Line Car DIY Kit TT Motor Electronic Assembly Smart Automobile Part Car Electronic Diy Kit](https://www.aliexpress.com/item/1Pcs-D2-5-Intelligent-Tracking-Line-Car-DIY-Kit-TT-Motor-Electronic-Assembly-Smart-Automobile-Part/32823554018.html)
 * [Zoomx's postbag D2-1 review](https://www.stm32duino.com/viewtopic.php?f=50&t=2198)
 * [Line Follower Robots](https://www.elprocus.com/line-follower-robot-basics-controlling/) - a nice introduction
-* [LM393 datasheet](http://www.futurlec.com/Linear/LM393N.shtml)
+* [LM393 datasheet](https://www.futurlec.com/Linear/LM393N.shtml)
 * [Line-following Car](https://en.wikipedia.org/wiki/Mobile_robot#Line-following_Car) - wikipedia
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap416-simple-line-follower.html)

@@ -91,8 +91,8 @@ with a few component variations including:
 
 * for the main boost converter components:
     * 1000V 1µF X2 polypropylene film capacitor - similar to [this](https://www.mouser.com/ProductDetail/WIMA/MKP4O141007E00JSSD?qs=sGAEpiMZZMv1cc3ydrPrF8F7YPweoE08FeoTnF4ztX4%3d)
-    * [FR107 1000V 1A Fast Recovery Diode](http://www.futurlec.com/Diodes/FR107.shtml)
-    * [IRF730 400V n-channel MOSFET](http://www.futurlec.com/Transistors/IRF730.shtml)
+    * [FR107 1000V 1A Fast Recovery Diode](https://www.futurlec.com/Diodes/FR107.shtml)
+    * [IRF730 400V n-channel MOSFET](https://www.futurlec.com/Transistors/IRF730.shtml)
 * small signal transistors: I used 2N3904 NPN, 2N3906 PNP
 
 NB: at the last minute, I realised I was out of IRF730, so I substituted an IRF610 which is only rated for 200V.
@@ -333,9 +333,9 @@ Removes active pulldown circuit and adjusts RC snubber component values
 * [Nixie Stuff](https://threeneurons.wordpress.com/nixie-power-supply/) - threeneurons
 * [IN-3 datasheet](http://www.tube-tester.com/sites/nixie/dat_arch/IN-3.pdf)
 * [IN-14 information](http://www.tube-tester.com/sites/nixie/data/in-14/in-14.htm)
-* [FR107 datasheet](http://www.futurlec.com/Diodes/FR107.shtml)
-* [IRF730 datasheet](http://www.futurlec.com/Transistors/IRF730.shtml)
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [FR107 datasheet](https://www.futurlec.com/Diodes/FR107.shtml)
+* [IRF730 datasheet](https://www.futurlec.com/Transistors/IRF730.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [555 timer boost converter doesn't meet spec](https://electronics.stackexchange.com/questions/152432/555-timer-boost-converter-doesnt-meet-spec) - EE.SE
 * [Resistor-Capacitor (RC) Snubber Design for Power Switches](https://www.digikey.sg/en/articles/techzone/2014/aug/resistor-capacitor-rc-snubber-design-for-power-switches)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/09/leap415-testing-nixies-with-a-555.html)

@@ -2,7 +2,7 @@
 
 Control two SG90 servos with a joystick. Here's a quick demo:
 
-[![JoystickServoControl](http://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](http://www.youtube.com/watch?v=P8883DkE3Jo)
+[![JoystickServoControl](https://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](https://www.youtube.com/watch?v=P8883DkE3Jo)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

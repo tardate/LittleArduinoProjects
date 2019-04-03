@@ -6,7 +6,7 @@ Building an ATmega328 granular synth module in an Altoids can .. because granula
 
 Here's a quick demo .. if you can tolerate 5 minutes of me fiddling around!
 
-[![clip](http://img.youtube.com/vi/1UOCTyM_3Ns/0.jpg)](http://www.youtube.com/watch?v=1UOCTyM_3Ns)
+[![clip](https://img.youtube.com/vi/1UOCTyM_3Ns/0.jpg)](https://www.youtube.com/watch?v=1UOCTyM_3Ns)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -122,5 +122,5 @@ Finished and under test:
 * [Build the Auduino Granular Synth - Part 1](http://www.notesandvolts.com/2014/07/build-auduino-granular-synth-part-1.html) - Notes & Volts
 * [Auduino](http://code.google.com/p/tinkerit/wiki/Auduino) - original sources
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
-* [LM7805 datasheet](http://www.futurlec.com/Linear/7805T.shtml)
+* [LM7805 datasheet](https://www.futurlec.com/Linear/7805T.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap368-granular-synth.html)

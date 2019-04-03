@@ -28,7 +28,7 @@ the output voltage must change proportional to R1:R2 in order to maintain equili
 The circuit diagrams are drawn with a standard 741 DIP8 package for both the UA741CN and "ML741".
 See the [ML741](../) project for details of the actual construction of the ML741.
 
-Both op-amps are configured for a gain of approximtely [3](http://www.wolframalpha.com/input/?i=%281+%2B+20k%CE%A9%2F10k%CE%A9%29).
+Both op-amps are configured for a gain of approximtely [3](https://www.wolframalpha.com/input/?i=%281+%2B+20k%CE%A9%2F10k%CE%A9%29).
 
 ### Single-supply Configuration
 
@@ -86,6 +86,6 @@ Scope connections
 
 ## Credits and References
 * [ML741](../) - the ML741 discrete component project
-* [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
+* [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Non-Inverting amplifier](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Non-inverting_amplifier) - wikipedia
 * [The Op-amp Inverter](http://www.electronics-tutorials.ws/opamp/op-amp-building-blocks.html)

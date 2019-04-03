@@ -6,7 +6,7 @@ Drive a 10-segment display with a single Arduino pin.
 
 Here's a quick video of the circuit in action:
 
-[![LevelIndicatorLM3915 demo](http://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](http://www.youtube.com/watch?v=00BBIDRA13Y)
+[![LevelIndicatorLM3915 demo](https://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](https://www.youtube.com/watch?v=00BBIDRA13Y)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -30,7 +30,7 @@ PWM output to provide a more constant input voltage.
 
 As per the datasheet, there are various ways of setting the voltage reference.
 Here I'm using R1=1kΩ and R2=1kΩ, which sets the voltage reference at
-[2.58V](http://www.wolframalpha.com/input/?i=1.25V%281+%2B+1k%CE%A9%2F1k%CE%A9%29+%2B+80%CE%BCA*1k%CE%A9).
+[2.58V](https://www.wolframalpha.com/input/?i=1.25V%281+%2B+1k%CE%A9%2F1k%CE%A9%29+%2B+80%CE%BCA*1k%CE%A9).
 
 In effect this means that when input signal reaches 2.58V, that is enough for the final LED to light.
 NB: according to my multimeter the actual voltage required is 2.53V, no doubt due to small variations in component values within normal tolerances.
@@ -64,5 +64,5 @@ Note: the schematic shows 1kΩ current-limiting resistors R3, R4 for the red LED
 ![The Build](./assets/LevelIndicatorLM3915_build.jpg?raw=true)
 
 ## Credits and references
-* [LM3915 datasheet](http://www.futurlec.com/Linear/LM3915N.shtml)
+* [LM3915 datasheet](https://www.futurlec.com/Linear/LM3915N.shtml)
 * [AudioLevelIndicatorKit](../../Electronics101/AudioLevelIndicatorKit) - project using the LM3915 in an audio level kit build

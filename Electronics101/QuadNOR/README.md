@@ -4,7 +4,7 @@ Demonstrates simple cascading NOR gate logic with the 74LS02 and an Arduino
 
 Here's the quick demo of the circuit in action:
 
-[![QuadNOR](http://img.youtube.com/vi/D_5Da_8R8Ek/0.jpg)](http://www.youtube.com/watch?v=D_5Da_8R8Ek)
+[![QuadNOR](https://img.youtube.com/vi/D_5Da_8R8Ek/0.jpg)](https://www.youtube.com/watch?v=D_5Da_8R8Ek)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -46,6 +46,6 @@ with the resulting logic table:
 
 ## Credits and References
 * [NOR7402](../NOR7402) project
-* [74LS02 datasheet](http://www.futurlec.com/74LS/74LS02.shtml)
+* [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
 * [7400 series](http://en.wikipedia.org/wiki/7400_series)
 

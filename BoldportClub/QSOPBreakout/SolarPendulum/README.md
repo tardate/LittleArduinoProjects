@@ -4,7 +4,7 @@ Build a solar-powered pendulum similar to the popular "solar wobble/flip-flop to
 
 Here's a quick video showing it in action on a quite overcast afternoon..
 
-[![Build](./assets/SolarPendulum_build.jpg?raw=true)](http://www.youtube.com/watch?v=buP3zrMjN94)
+[![Build](./assets/SolarPendulum_build.jpg?raw=true)](https://www.youtube.com/watch?v=buP3zrMjN94)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -101,9 +101,9 @@ Final construction .. the base is a repurposed box from the Boldport Club [Tap p
 
 ## Credits and References
 * [QSOP and 0805 breakout and soldering practice board](http://www.boldport.club/shop/product/437246682) - in the Boldport Shop
-* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [Solar Pendulum](https://www.youtube.com/watch?v=M6L-d_dYWIc) - teardown and analysis by Ludic Science
 * [Magnet powered pendulum](https://www.youtube.com/watch?v=yrKtY7nWc-o) - teardown and analysis by RHEAD100
 * [Solar Powered Pendulum](http://nutsvolts.texterity.com/nutsvolts/201208/?folio=32&pg=32#pg32) - nuts and volts

@@ -4,7 +4,7 @@ A single-cylinder mini-solenoid engine
 
 Here's a quick video of the circuit in action:
 
-[![SolenoidMotor](http://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](http://www.youtube.com/watch?v=b7wmZLSBpzk)
+[![SolenoidMotor](https://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](https://www.youtube.com/watch?v=b7wmZLSBpzk)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -43,6 +43,6 @@ The switch controls the power to the whole circuit:
 
 ## Credits and References
 * [Tiny Solenoid Motor on a Credit Card](https://www.youtube.com/watch?v=8EaCermGrwM) - inspiration for this build
-* [Mini push-pull solenoids on aliexpress](http://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
-* [1N4001-1N4007 datasheet](http://www.futurlec.com/Diodes/1N4001.shtml)
+* [Mini push-pull solenoids on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
+* [1N4001-1N4007 datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/04/littlearduinoprojects200-mini-solenoid.html)

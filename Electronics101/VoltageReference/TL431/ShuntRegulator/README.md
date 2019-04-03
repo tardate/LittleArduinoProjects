@@ -49,7 +49,7 @@ Under test. Set to 4.00V, remains stable as long as input voltage is > Vout.
 
 Here's a very unexciting demonstration of a quick test:
 
-[![LISIbO5tJvY](http://img.youtube.com/vi/LISIbO5tJvY/0.jpg)](http://www.youtube.com/watch?v=LISIbO5tJvY)
+[![LISIbO5tJvY](https://img.youtube.com/vi/LISIbO5tJvY/0.jpg)](https://www.youtube.com/watch?v=LISIbO5tJvY)
 
 ## Credits and References
 * [TL431 datasheet](http://www.ti.com/lit/ds/symlink/tl431a.pdf)

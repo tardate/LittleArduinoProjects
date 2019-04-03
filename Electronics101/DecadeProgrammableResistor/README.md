@@ -17,7 +17,7 @@ an arbitrary resistance to be dialed up to order.
 
 Dave Jones has covered the concept and shown examples. A good starting point is EEVblog #212 - DIY Decade Resistance Substitution Boxes:
 
-[![clip](http://img.youtube.com/vi/G-QfDkgE2qA/0.jpg)](http://www.youtube.com/watch?v=G-QfDkgE2qA)
+[![clip](https://img.youtube.com/vi/G-QfDkgE2qA/0.jpg)](https://www.youtube.com/watch?v=G-QfDkgE2qA)
 
 
 ## Construction

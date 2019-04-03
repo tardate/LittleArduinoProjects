@@ -15,9 +15,9 @@ Voltage gains from several hundred to several thousand are possible.
 I'm going to try and noodle out a theoretical design of a two-stage Class A amplifier, and then test the actual performance.
 Do *not* take my calculations as gospel. My main sources for the theory were
 [Electronic Principles by Albert Paul Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles)
-and a [Multistage Transistor Amplifiers](http://www.youtube.com/watch?v=FbdZ46VdTjE) YouTube tutorial by The Offset Volt:
+and a [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE) YouTube tutorial by The Offset Volt:
 
-[![clip](http://img.youtube.com/vi/FbdZ46VdTjE/0.jpg)](http://www.youtube.com/watch?v=FbdZ46VdTjE)
+[![clip](https://img.youtube.com/vi/FbdZ46VdTjE/0.jpg)](https://www.youtube.com/watch?v=FbdZ46VdTjE)
 
 
 ### Designing a Single Stage for Gain ~ 10
@@ -198,9 +198,9 @@ Testing with an ugly-style build:
 ![TwoStageCommonEmitterAmplifier_build](./assets/TwoStageCommonEmitterAmplifier_build.jpg?raw=true)
 
 ## Credits and References
-* [Multistage Transistor Amplifiers](http://www.youtube.com/watch?v=FbdZ46VdTjE) by The Offset Volt
+* [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE) by The Offset Volt
 * [Design of 2 stage BJT CE amplifier](http://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
 * [Electronic Principles by Albert Paul Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles)
-* [Multistage Transistor Amplifiers](http://www.youtube.com/watch?v=FbdZ46VdTjE)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap389-two-stage-amp-design.html)

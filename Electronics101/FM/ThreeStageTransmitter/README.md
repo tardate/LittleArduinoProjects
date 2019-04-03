@@ -65,7 +65,7 @@ to the builds I've done already. Here are some pictures:
 * [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
 * [dazaro3 channel](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg)
 * [www.bug-transmitter.com/](http://www.bug-transmitter.com/) - sells kits by dazaro3
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [air coil calculator](http://www.qsl.net/in3otd/indcalc.html)
 * [LC resonance calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap281-three-stage-fm-transmitter.html)

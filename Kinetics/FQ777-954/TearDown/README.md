@@ -14,7 +14,7 @@ will find a few thousand. I get the impression someone has been flooding the mar
 
 What is much harder to come by is good technical information beyond the usual product feature specs.
 
-I recently got an [FQ777-954](http://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html). And yes I can confirm its fun and pretty amazing for such a small package!
+I recently got an [FQ777-954](https://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html). And yes I can confirm its fun and pretty amazing for such a small package!
 
 Since I'm interesting in exploring ways of controlling it with my own electronics and code, I first wanted to
 study the technical design and specs. Good information is hard to come by, but the following is the best I've been able
@@ -97,7 +97,7 @@ Main components:
 
 The so-called receiver board also doubles as the structural component that holds the motors in position as well as the LEDs.
 
-* [F16867 FQ777-954-02 Receiver Board for 954 The Eyes RC Quadcopter Drone Accessories Spare Parts](http://www.aliexpress.com/item/F16867-FQ777-954-02-Receiver-Board-for-954-The-Eyes-RC-Quadcopter-Drone-Accessories-Spare-Parts/32602860102.html)
+* [F16867 FQ777-954-02 Receiver Board for 954 The Eyes RC Quadcopter Drone Accessories Spare Parts](https://www.aliexpress.com/item/F16867-FQ777-954-02-Receiver-Board-for-954-The-Eyes-RC-Quadcopter-Drone-Accessories-Spare-Parts/32602860102.html)
 
 ![parts-receiver](./assets/parts-receiver.png?raw=true)
 
@@ -105,11 +105,11 @@ The so-called receiver board also doubles as the structural component that holds
 ### Camera
 
 * 0.3MP Camera 4809 640x480 : SPA03442 V3.0 7P 0308
-* [FQ777-954-10 RC Drone Quadcopter Parts 30W Camera with Cable for FQ777 954 The Eyes F16875](http://www.aliexpress.com/item/FQ777-954-10-RC-Drone-Quadcopter-Parts-30W-Camera-with-Cable-for-FQ777-954-The-Eyes/32653552823.html)
+* [FQ777-954-10 RC Drone Quadcopter Parts 30W Camera with Cable for FQ777 954 The Eyes F16875](https://www.aliexpress.com/item/FQ777-954-10-RC-Drone-Quadcopter-Parts-30W-Camera-with-Cable-for-FQ777-954-The-Eyes/32653552823.html)
 
 ### Chassis/Case
 
-* [F16864 /66 FQ777-954-01 Chassis Upper Case + Lower Case for FQ777 954 The Eyes RC Quadcopter](http://www.aliexpress.com/item/F16864-66-FQ777-954-01-Chassis-Upper-Case-Lower-Case-for-FQ777-954-The-Eyes-RC/32613923072.html)
+* [F16864 /66 FQ777-954-01 Chassis Upper Case + Lower Case for FQ777 954 The Eyes RC Quadcopter](https://www.aliexpress.com/item/F16864-66-FQ777-954-01-Chassis-Upper-Case-Lower-Case-for-FQ777-954-The-Eyes-RC/32613923072.html)
 
 ![parts-chassis](./assets/parts-chassis.png?raw=true)
 
@@ -117,32 +117,32 @@ The so-called receiver board also doubles as the structural component that holds
 
 2x clockwise brushless motors, 2x counter-clockwise brushless motors.
 
-* [4pcs 1set FQ777-126C drone Spare Parts Motor 2pcs CW Motor and 2 pcs CCW Motor for FQ777 126C RC Helicopter Quadcopter](http://www.aliexpress.com/item/4pcs-1set-FQ777-126C-drone-Spare-Parts-Motor-2pcs-CW-Motor-and-2-pcs-CCW-Motor/32673422957.html)
+* [4pcs 1set FQ777-126C drone Spare Parts Motor 2pcs CW Motor and 2 pcs CCW Motor for FQ777 126C RC Helicopter Quadcopter](https://www.aliexpress.com/item/4pcs-1set-FQ777-126C-drone-Spare-Parts-Motor-2pcs-CW-Motor-and-2-pcs-CCW-Motor/32673422957.html)
 
 ![parts-motors](./assets/parts-motors.png?raw=true)
 
 ### Rotors
 
-* [Free Shipping FQ777-124 Cheerson CX-10 CX-10A RC Quadcopter Parts Blade Propeller 5set=20pcs](http://www.aliexpress.com/item/Free-Shipping-FQ777-124-Cheerson-CX-10-CX-10A-RC-Quadcopter-Parts-Blade-Propeller-5set-20pcs/32458373757.html)
+* [Free Shipping FQ777-124 Cheerson CX-10 CX-10A RC Quadcopter Parts Blade Propeller 5set=20pcs](https://www.aliexpress.com/item/Free-Shipping-FQ777-124-Cheerson-CX-10-CX-10A-RC-Quadcopter-Parts-Blade-Propeller-5set-20pcs/32458373757.html)
 
 ![parts-propellers](./assets/parts-propellers.png?raw=true)
 
 ### USB Charging Cable
 
-* [FQ777-124 / Cheerson CX-10/cx-10A/cx-10W RC Quadcopter Spare Parts USB Charging Cable CX-10-012 RC quadcopter](http://www.aliexpress.com/item/FQ777-124-Cheerson-CX-10-cx-10A-RC-Quadcopter-Spare-Parts-USB-Charging-Cable-CX-10/32517023241.html)
+* [FQ777-124 / Cheerson CX-10/cx-10A/cx-10W RC Quadcopter Spare Parts USB Charging Cable CX-10-012 RC quadcopter](https://www.aliexpress.com/item/FQ777-124-Cheerson-CX-10-cx-10A-RC-Quadcopter-Spare-Parts-USB-Charging-Cable-CX-10/32517023241.html)
 
 ![parts-charger](./assets/parts-charger.png?raw=true)
 
 ### Battery
 
 * 3.7V 150mAh 15L19
-* [FQ777-954 FQ777 954 MINI Quadcopter 3.7V 150mAh 25c Li-Po battery Spare Parts](http://www.aliexpress.com/item/FQ777-954-FQ777-954-MINI-Quadcopter-3-7V-150mAh-25c-Li-Po-battery-Spare-Parts/32652226271.html)
+* [FQ777-954 FQ777 954 MINI Quadcopter 3.7V 150mAh 25c Li-Po battery Spare Parts](https://www.aliexpress.com/item/FQ777-954-FQ777-954-MINI-Quadcopter-3-7V-150mAh-25c-Li-Po-battery-Spare-Parts/32652226271.html)
 
 ![parts-battery](./assets/parts-battery.png?raw=true)
 
 
 ## Credits and References
-* [FQ777 954 FQ777-954 Mini Drone The Eyes RC Quadcopter WIFI FPV with 0.3MP Camera 4CH 6Axis APP Control BNF & RTF](http://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html) - example available from an aliexpress seller
+* [FQ777 954 FQ777-954 Mini Drone The Eyes RC Quadcopter WIFI FPV with 0.3MP Camera 4CH 6Axis APP Control BNF & RTF](https://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html) - example available from an aliexpress seller
 * [fuqitoys](http://fuqitoys.en.alibaba.com/) - manufacturer
 * [FQ777-954 Factory-direct](http://fuqitoys.en.alibaba.com/product/60415170562-801977057/FQ777_954_Nano_wifi_control_nano_drone_fpv_with_camera_rc_quadcopter.html)
 * [How to hack IP camera in toy drone ](https://www.reddit.com/r/HowToHack/comments/4512il/how_to_hack_ip_camera_in_toy_drone/)

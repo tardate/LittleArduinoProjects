@@ -7,7 +7,7 @@ Build and investigate a commercially available "mobile phone signal" detector ki
 
 ## Notes
 
-I picked up a ["Mobile Phone Signal Flash Light Radiation Power DIY Kit"](http://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html) for USD1.15. Firstly to experiment with the kit/circuit, and secondly as its a pretty cheap way to get hold of a 1SS86 barrier diode.
+I picked up a ["Mobile Phone Signal Flash Light Radiation Power DIY Kit"](https://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html) for USD1.15. Firstly to experiment with the kit/circuit, and secondly as its a pretty cheap way to get hold of a 1SS86 barrier diode.
 
 ### First Test - Breadboard Build
 
@@ -74,7 +74,7 @@ sensitivity of this circuit is incorrectly calibrated. I might come back to this
 |   2 | 10nF 103 ceramic capacitor    |
 
 ## Credits and references
-* [Mobile Phone Signal Flash Light Radiation Power DIY New Kit Components](http://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html)
+* [Mobile Phone Signal Flash Light Radiation Power DIY New Kit Components](https://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html)
 * [1SS86 Datasheet](http://www.datasheetwiki.com/entry/1SS86-Datasheet-PDF)
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP
 * [GSM wikipedia](http://en.wikipedia.org/wiki/GSM) - Global System for Mobile Communications

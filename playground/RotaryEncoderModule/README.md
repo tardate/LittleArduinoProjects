@@ -4,7 +4,7 @@ Testing a Rotary Encoder module controlling an LED 8x8 display
 
 Here's a quick video of the circuit in action:
 
-[![RotaryEncoderModule](http://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](http://www.youtube.com/watch?v=9sDoqK0cRAA)
+[![RotaryEncoderModule](https://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](https://www.youtube.com/watch?v=9sDoqK0cRAA)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -14,7 +14,7 @@ Here's a quick video of the circuit in action:
 In the [RotaryEncoderMethods](../RotaryEncoderMethods) project I determined that the [Rotary library](https://github.com/brianlow/Rotary) was by far the best option for reading a rotary encoder.
 
 This project is similar, but uses a rotary encoder "module" that includes switch functionality. The module I am using
-[is this one from seller on aliexpress](http://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html).
+[is this one from seller on aliexpress](https://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html).
 The module has built-in 10kΩ pull-up resistors on the signal lines, and external connections as follows:
 
 | Label   | Use |
@@ -45,7 +45,7 @@ The rotary encoder module includes a switch (press on the encoder shaft). This i
 ![The Build](./assets/RotaryEncoderModule_build.jpg?raw=true)
 
 ## Credits and References
-* [Rotary Encoder Module](http://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html) - from seller on aliexpress
+* [Rotary Encoder Module](https://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html) - from seller on aliexpress
 * [RotaryEncoderMethods](../RotaryEncoderMethods) - a project to test/find the best method for reading a mini rotary encoder
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
 

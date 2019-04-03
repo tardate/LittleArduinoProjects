@@ -39,7 +39,7 @@ As before, it really is a puzzle, so if you don't want any spoilers - read no fu
 
 The LEDs are rated for 20 mA with forward voltage of 2.V (yellow) and 2.2V (green).
 Therefore, with the current-limiting resistor of 220Ω, the maximum supply voltage is around
-[6.5V](http://www.wolframalpha.com/input/?i=2.1V+%2B+20mA+*+220%CE%A9).
+[6.5V](https://www.wolframalpha.com/input/?i=2.1V+%2B+20mA+*+220%CE%A9).
 
 ## How It Works
 
@@ -61,7 +61,7 @@ With it's twin, the [original Cordwood](../cordwood)..
 ## Credits and References
 * [Cordwood Too](https://www.boldport.com/products/cordwood-puzzle-too/) - Boldport Product Page
 * [Cordwood Too](http://community.boldport.club/projects/p13-cordwood-too/) - on the community site
-* [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [10mm yellow LED, Kingbright L-813YD data](http://uk.farnell.com/1142474)
 * [10mm green LED, Kingbright L-813GD data](http://uk.farnell.com/1142462)
 * [LEAP#269 cordwood](../cordwood) - the original Cordwood project

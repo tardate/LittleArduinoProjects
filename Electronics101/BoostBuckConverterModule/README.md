@@ -4,14 +4,14 @@ Quick test of an LM2577S/LM2596S Boost/Buck Converter Module
 
 Here's a quick video demonstrating the basic control and the constant current issue:
 
-[![BoostBuckConverterModule](http://img.youtube.com/vi/vBijc1ZJEZM/0.jpg)](http://www.youtube.com/watch?v=vBijc1ZJEZM)
+[![BoostBuckConverterModule](https://img.youtube.com/vi/vBijc1ZJEZM/0.jpg)](https://www.youtube.com/watch?v=vBijc1ZJEZM)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 
-I got an [LM2577S/LM2596S Boost/Buck Converter Module](http://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
+I got an [LM2577S/LM2596S Boost/Buck Converter Module](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
 to see if it might be any good as a current-limited power supply for prototyping,
 and also to investigate the buck/boost circuit it uses in more detail.
 
@@ -50,7 +50,7 @@ But then why use a power supply with a "constant current" feature? Good question
 I don't have enough experience with buck/boost modules to know if this is unusual or even just a problem with my specific unit.
 Or perhaps I'm just doing it wrong?
 
-I posted [this video](http://www.youtube.com/watch?v=vBijc1ZJEZM) to demonstrates the behaviour.
+I posted [this video](https://www.youtube.com/watch?v=vBijc1ZJEZM) to demonstrates the behaviour.
 
 The PCB is too dense and multi-layed for me to easily trace it out to see if there is an understandable design flaw.
 I might see if I can find some similar modules to compare their behaviour.
@@ -77,7 +77,7 @@ Ready for powering some experiments:
 
 ### Product Specs
 
-> from [aliexpress listing](http://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
+> from [aliexpress listing](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
 
 Module Properties: non-isolated step-down constant current, constant voltage module (CC CV) charging module
 
@@ -120,7 +120,7 @@ Specifications:
 
 
 ## Credits and References
-* [module from seller on aliexpress](http://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
+* [module from seller on aliexpress](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
 * [LM2577 product info](http://www.ti.com/product/lm2577)
 * [LM2596 product info](http://www.ti.com/product/lm2596)
 * [Build your own Variable Lab Bench Power Supply](https://youtu.be/wI-KYRdmx-E) - inspiration from GreatScott!

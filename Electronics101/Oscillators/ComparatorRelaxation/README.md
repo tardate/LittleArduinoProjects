@@ -21,8 +21,8 @@ I tried a few combinations, and performance was remarkably close to the theory:
 
 | R     | C     | f (actual) | f (theoretical)                                                                       |
 |-------|-------|------------|---------------------------------------------------------------------------------------|
-| 100kΩ | 10µF  | 437mHz     | [455mHz](http://www.wolframalpha.com/input/?i=1%2F(2+ln(3)+*+100k%CE%A9+*+10%C2%B5F)) |
-| 100kΩ | 100nF | 44.8Hz     | [45.51Hz](http://www.wolframalpha.com/input/?i=1%2F(2+ln(3)+*+100k%CE%A9+*+100nF))    |
+| 100kΩ | 10µF  | 437mHz     | [455mHz](https://www.wolframalpha.com/input/?i=1%2F(2+ln(3)+*+100k%CE%A9+*+10%C2%B5F)) |
+| 100kΩ | 100nF | 44.8Hz     | [45.51Hz](https://www.wolframalpha.com/input/?i=1%2F(2+ln(3)+*+100k%CE%A9+*+100nF))    |
 
 
 Here's the 100kΩ/100nF combo on the scope. Channels connected per the schematic,
@@ -41,5 +41,5 @@ clearly showing the hysteresis of the capacitor charging curve as it battles the
 ## Credits and References
 * [Comparator–based relaxation oscillator](https://en.wikipedia.org/wiki/Relaxation_oscillator#Comparator.E2.80.93based_relaxation_oscillator) - wikipedia
 * [LEAP#039 AstableOpamp](../AstableOpamp) - astable opamp oscillator
-* [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
+* [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap336-comparator-based-relaxation-oscillator.html)

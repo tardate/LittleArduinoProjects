@@ -25,9 +25,9 @@ The oscilation of the second 555 drives the output peizo, and the frequency is m
 1.57 high
 7.06 low
 
-When Vcontrol = 1.57V, the frequency of the oscillation is 566 Hz - see the [actual calculation on WolframAlpha](http://www.wolframalpha.com/input/?i=f+%3D+1%2F%28+100*10^-9+*+%282200+%2B+22000%29ln%281+%2B+1.57%2F%282+*+%289+-+1.57%29%29%29+%2B+100*10^-9+*+22000+*+ln%282%29+%29)
+When Vcontrol = 1.57V, the frequency of the oscillation is 566 Hz - see the [actual calculation on WolframAlpha](https://www.wolframalpha.com/input/?i=f+%3D+1%2F%28+100*10^-9+*+%282200+%2B+22000%29ln%281+%2B+1.57%2F%282+*+%289+-+1.57%29%29%29+%2B+100*10^-9+*+22000+*+ln%282%29+%29)
 
-When Vcontrol = 7.06V, the frequency of the oscillation reduces to 248 Hz - see the [actual calculation on WolframAlpha](http://www.wolframalpha.com/input/?i=f+%3D+1%2F%28+100*10^-9+*+%282200+%2B+22000%29ln%281+%2B+7.06%2F%282+*+%289+-+7.06%29%29%29+%2B+100*10^-9+*+22000+*+ln%282%29+%29).
+When Vcontrol = 7.06V, the frequency of the oscillation reduces to 248 Hz - see the [actual calculation on WolframAlpha](https://www.wolframalpha.com/input/?i=f+%3D+1%2F%28+100*10^-9+*+%282200+%2B+22000%29ln%281+%2B+7.06%2F%282+*+%289+-+7.06%29%29%29+%2B+100*10^-9+*+22000+*+ln%282%29+%29).
 
 The derivation of the fomula considering a control voltage is explained in a
 [question on EE.SE](http://electronics.stackexchange.com/questions/101530/what-is-the-equation-for-the-555-timer-control-voltage).
@@ -45,7 +45,7 @@ The formula with variables as named in this circuit is:
 ![Breadboard Build](./assets/SimpleSiren_build.jpg?raw=true)
 
 ## Credits and references
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [What is the equation for the 555 timer control voltage?](http://electronics.stackexchange.com/questions/101530/what-is-the-equation-for-the-555-timer-control-voltage) - Q&A on EE.SE
 * [Ding Dong Bell Sound Generator](http://www.electronicshub.org/ding-dong-sound-generator-circuit/) - original circuit from electronicshub

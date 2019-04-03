@@ -6,7 +6,7 @@ Building the tropical end-of-year present from Boldport Club, Project #20 - anan
 
 Here's a quick demo .. (with special customisation)
 
-[![clip](http://img.youtube.com/vi/r5lmMHbLu4c/0.jpg)](http://www.youtube.com/watch?v=r5lmMHbLu4c)
+[![clip](https://img.youtube.com/vi/r5lmMHbLu4c/0.jpg)](https://www.youtube.com/watch?v=r5lmMHbLu4c)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

@@ -24,7 +24,7 @@ The FY3200S is available with different upper frequency limits. I have the 24MHz
 
 In general it works great, especially the sweep function, here's a quick demo:
 
-[![sweep](http://img.youtube.com/vi/jVyMcfEiMN0/0.jpg)](http://www.youtube.com/watch?v=jVyMcfEiMN0)
+[![sweep](https://img.youtube.com/vi/jVyMcfEiMN0/0.jpg)](https://www.youtube.com/watch?v=jVyMcfEiMN0)
 
 
 Only a few comments, not necessarily that negative:
@@ -197,7 +197,7 @@ I haven't tried any of the software yet as it is all for Windows only.
 
 
 ## Credits and References
-* [Digital DDS Function Signal Source Generator Arbitrary Waveform/Pulse Frequency Meter Dual-channel12Bit 250MSa/s Sine Wave 24MHz](http://www.aliexpress.com/item/Digital-DDS-Function-Signal-Source-Generator-Arbitrary-Waveform-Pulse-Frequency-Meter-Dual-channel12Bit-250MSa-s-Sine/32636403343.html) - from an aliexpress seller
+* [Digital DDS Function Signal Source Generator Arbitrary Waveform/Pulse Frequency Meter Dual-channel12Bit 250MSa/s Sine Wave 24MHz](https://www.aliexpress.com/item/Digital-DDS-Function-Signal-Source-Generator-Arbitrary-Waveform-Pulse-Frequency-Meter-Dual-channel12Bit-250MSa-s-Sine/32636403343.html) - from an aliexpress seller
 * [feeltech.net](http://en.feeltech.net/html/Signal%20generator/show_16.html)
 * [FY32xxS Series User's Manual V1.4](https://www.scribd.com/document/311788587/FY32xxS-Series-User-s-Manual-V1-4)
 * [Re: FeelTech FY3224S 24MHz 2-Channel DDS AW Function Signal Generator](http://www.eevblog.com/forum/testgear/feeltech-fy3224s-24mhz-2-channel-dds-aw-function-signal-generator/msg891740/#msg891740)

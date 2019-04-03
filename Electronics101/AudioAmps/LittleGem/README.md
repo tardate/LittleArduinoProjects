@@ -18,7 +18,7 @@ see [my Smokey build here](../Smokey).
 Little Gem/A386 takes some of the [suggestions by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt) and
 enhances the circuit in a few ways:
 
-* adds variable gain control ranging from about [25](http://www.wolframalpha.com/input/?i=2*15000%CE%A9%2F%28150+%2B+1%CE%A9%2F%281%2F1350+%2B+1%2F5000%29%29) to [200](http://www.wolframalpha.com/input/?i=2*15k%CE%A9%2F%28150+%2B+0%CE%A9%29) (the original Smokey was fixed at 200)
+* adds variable gain control ranging from about [25](https://www.wolframalpha.com/input/?i=2*15000%CE%A9%2F%28150+%2B+1%CE%A9%2F%281%2F1350+%2B+1%2F5000%29%29) to [200](https://www.wolframalpha.com/input/?i=2*15k%CE%A9%2F%28150+%2B+0%CE%A9%29) (the original Smokey was fixed at 200)
 * adds input AC coupling with a 10nF capacitor and removes the 47μF bypass capacitor
 * adds output-side master volume control
 * adds an output-compensating [Zobel Network](http://en.wikipedia.org/wiki/Zobel_network)
@@ -54,4 +54,4 @@ I might put the components on a PCB next to get a better gauge of the true perfo
 * [Smokey Amps](http://www.smokeyamps.com/) - official site
 * [Smokey Amp Analysis](http://www.electrosmash.com/smokey-amp-analysis) - excellent circuit analysis of the original Smokey amp.
 * [Observations on the Smokey circuit by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt)
-* [LM386 datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml)
+* [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)

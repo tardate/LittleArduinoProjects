@@ -18,7 +18,7 @@ and at some point the "canonical design" was picked up for mass production (inst
 
 I'm certainly not the first to build the kit - it's a common project, just [search YouTube for 0-30V power supply](https://www.youtube.com/results?search_query=0-30V+power+supply) - for example this build by Boris Dusnoki:
 
-[![clip](http://img.youtube.com/vi/DLxOwVw1NEE/0.jpg)](https://www.youtube.com/watch?v=DLxOwVw1NEE)
+[![clip](https://img.youtube.com/vi/DLxOwVw1NEE/0.jpg)](https://www.youtube.com/watch?v=DLxOwVw1NEE)
 
 
 ## Kit Specifications

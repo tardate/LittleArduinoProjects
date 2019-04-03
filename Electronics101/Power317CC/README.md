@@ -4,7 +4,7 @@ A low-power constant current source using the LM317
 
 Here's a quick video of the circuit in action:
 
-[![Power317CC](./assets/Power317CC_build3.jpg?raw=true)](http://www.youtube.com/watch?v=YYR-RNSDh-4)
+[![Power317CC](./assets/Power317CC_build3.jpg?raw=true)](https://www.youtube.com/watch?v=YYR-RNSDh-4)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -25,7 +25,7 @@ Let's set the design criteria to be around 2-3mA constant current. That's far fr
 Since the 317 will attempt to maintain 1.25V across output to adjustment pins, we therefore select an appropriate value
 for R1 such that (by ohms law) we get our desired current.
 
-In my case, it seems 470Ω is a good fit. This should result in a constant current of [2.66mA](http://www.wolframalpha.com/input/?i=1.25V%2F470%CE%A9).
+In my case, it seems 470Ω is a good fit. This should result in a constant current of [2.66mA](https://www.wolframalpha.com/input/?i=1.25V%2F470%CE%A9).
 
 Using some 3mm LEDs that have a forward voltage Vf of about 1.9-2V, that means a 9V supply should handle up to 3 LEDs in series at 2.66mA
 before we run out of voltage headroom (VCC - ~2V = 7V).
@@ -55,6 +55,6 @@ Some notes on the circuit:
 ![The Build](./assets/Power317CC_build3.jpg?raw=true)
 
 ## Credits and References
-* [LM317 datasheet](http://www.futurlec.com/Linear/LM317T.shtml)
+* [LM317 datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
 * [Laser / LED Driver and Constant Current Source Tutorial!](https://youtu.be/iuMngik0GR8) - excellent video on the subject
 

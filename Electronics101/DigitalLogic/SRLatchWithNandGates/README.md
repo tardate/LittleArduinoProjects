@@ -4,7 +4,7 @@ Set-Reset latch implemented with NAND gates.
 
 Here's a quick demo of it in action..
 
-[![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)](http://www.youtube.com/watch?v=CC7LnUj8XIc)
+[![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)](https://www.youtube.com/watch?v=CC7LnUj8XIc)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -51,7 +51,7 @@ Here's a quick breadboard build using a 74LS00 quad two-input NAND gate, with so
 ![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)
 
 ## Credits and References
-* [74LS00 datasheet](http://www.futurlec.com/74LS/74LS00.shtml)
+* [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
 * [NAND-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/nandlatch.html)
 * [SR Flip-Flop: NOR or NAND?](https://electronics.stackexchange.com/questions/163164/sr-flip-flop-nor-or-nand) - stackexchange
 * [LEAP#061 SRLatch](../SRLatch) - implementation using BJTs

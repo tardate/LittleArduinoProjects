@@ -4,7 +4,7 @@ Use an Arduino to demonstrate the basic operation of 74LS14 Hex Inverter with Sc
 
 Here's a quick video of the circuit in action:
 
-[![Schmitt Inverter](http://img.youtube.com/vi/xGmdBrGDc2E/0.jpg)](http://www.youtube.com/watch?v=xGmdBrGDc2E)
+[![Schmitt Inverter](https://img.youtube.com/vi/xGmdBrGDc2E/0.jpg)](https://www.youtube.com/watch?v=xGmdBrGDc2E)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -35,4 +35,4 @@ Compared with a [simple BJT inverter](../ResistorTransistorLogic/NOT), we see a 
 
 ## Credits and References
 * [Download Processing](https://www.processing.org/download/)
-* [74LS14 Datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
+* [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)

@@ -4,7 +4,7 @@ A simple 555-based AM transmitter.
 
 Here's a quick video of the circuit in action, transmitting [Lullaby/Колыбельная](https://youtu.be/8etPN7Or8ZE) by Аіда Николайчук:
 
-[![555Timer/AMTransmitter](http://img.youtube.com/vi/1QtLAnv1PCg/0.jpg)](http://www.youtube.com/watch?v=1QtLAnv1PCg)
+[![555Timer/AMTransmitter](https://img.youtube.com/vi/1QtLAnv1PCg/0.jpg)](https://www.youtube.com/watch?v=1QtLAnv1PCg)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -39,7 +39,7 @@ below the natural and harmonic frequencies. Well, we get a signal, but lots of n
 ## Credits and References
 * [My simple 555 AM transmitter circuit](http://soundation.blogspot.sg/2012/04/my-simple-555-based-am-transmitter.html) - Shadi Soundation
 * [AM Radio Transmitter Using 555 Chip](http://electronics-diy.com/am-radio-transmitter-using-555-chip.php)
-* [555 AM Transmitter](http://www.instructables.com/id/555-AM-Transmitter/)
+* [555 AM Transmitter](https://www.instructables.com/id/555-AM-Transmitter/)
 * [Simple 555 Timer AM Transmitter Schematic for Science Fair Project](http://www.circuitsgallery.com/2013/08/555-AM-transmitter-circuit.html)
-* [BC547 datasheet](http://www.futurlec.com/Transistors/BC547.shtml)
+* [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)
 * [Lullaby/Колыбельная](https://youtu.be/8etPN7Or8ZE) performed by Аіда Николайчук, originally by Polina Gagarina/Полина Гагарина.

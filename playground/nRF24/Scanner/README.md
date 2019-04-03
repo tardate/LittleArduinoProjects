@@ -119,7 +119,7 @@ In a plastic enclosure:
 
 Here's a quick demo..
 
-[![kV6yi0QiZwc](http://img.youtube.com/vi/kV6yi0QiZwc/0.jpg)](http://www.youtube.com/watch?v=kV6yi0QiZwc)
+[![kV6yi0QiZwc](https://img.youtube.com/vi/kV6yi0QiZwc/0.jpg)](https://www.youtube.com/watch?v=kV6yi0QiZwc)
 
 
 ## Credits and References

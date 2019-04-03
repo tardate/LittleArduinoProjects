@@ -8,7 +8,7 @@ Test a 25V voltage sensor module
 ## Notes
 
 This is a quick test of a
-[25V voltage sensor](http://www.aliexpress.com/item/Standard-Voltage-Sensor-Module-Test-Electronic-Bricks-For-Robot-For-Arduino/32265558651.html)
+[25V voltage sensor](https://www.aliexpress.com/item/Standard-Voltage-Sensor-Module-Test-Electronic-Bricks-For-Robot-For-Arduino/32265558651.html)
 I picked up recently.
 
 ![Module](./assets/module.jpg?raw=true)
@@ -48,9 +48,9 @@ The resistors are 0805 surface mount "precision" (4-digit code) resistors of val
 * 3002 (30kΩ)
 * 7501 (7.5kΩ)
 
-Hence the sensor output will read as [7.5/37.5 or 20%](http://www.wolframalpha.com/input/?i=7.5k%CE%A9%2F37.5k%CE%A9)
+Hence the sensor output will read as [7.5/37.5 or 20%](https://www.wolframalpha.com/input/?i=7.5k%CE%A9%2F37.5k%CE%A9)
 of the input voltage. Hence the 25V maximum voltage rating on the unit, since
-[20% is 5V](http://www.wolframalpha.com/input/?i=7.5k%CE%A9%2F37.5k%CE%A9+*+25V), the input limit for a 5V Arduino.
+[20% is 5V](https://www.wolframalpha.com/input/?i=7.5k%CE%A9%2F37.5k%CE%A9+*+25V), the input limit for a 5V Arduino.
 
 
 ### 5110 LCD SPI Configuration
@@ -81,6 +81,6 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 ![The Build](./assets/VoltageSensorModule_build.jpg?raw=true)
 
 ## Credits and References
-* [Voltage Sensor Module](http://www.aliexpress.com/item/Standard-Voltage-Sensor-Module-Test-Electronic-Bricks-For-Robot-For-Arduino/32265558651.html) - from seller on aliexpress
+* [Voltage Sensor Module](https://www.aliexpress.com/item/Standard-Voltage-Sensor-Module-Test-Electronic-Bricks-For-Robot-For-Arduino/32265558651.html) - from seller on aliexpress
 * [Voltage Sensor Module](../../FritzingParts/VoltageSensorModule) fritzing part
 * [SMD resistor code calculator](http://www.hobby-hour.com/electronics/smdcalc.php)

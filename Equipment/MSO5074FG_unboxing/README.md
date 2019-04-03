@@ -20,7 +20,7 @@ The MSO5074FG is in the [Hantek MSO5054F(G) range](http://www.hantek.com/en/Prod
 but with increased bandwidth.
 
 I was concerned at first by the fact the the product is not listed on http://www.hantek.com,
-but very pleasantly surprised when emails to both Hantek and the [seller on aliexpress](http://www.aliexpress.com/store/100653)
+but very pleasantly surprised when emails to both Hantek and the [seller on aliexpress](https://www.aliexpress.com/store/100653)
 were answered within hours, with the explanation that the MSO5074FG is not marketed internationally (yet) and so not listed on
 the English web site.
 
@@ -85,6 +85,6 @@ Some great tutorials:
 * [#160: Oscilloscope Basics, and how they can be used in the hamshack](https://youtu.be/067W7h1BhxE) - if you have 1.5 hours and want a thorough education in scopes, watch this great presentation by w2aew
 
 ## Credits and References
-* [Hantek MSO5074FG listing on aliexpress](http://www.aliexpress.com/item/High-quality-Hantek-MSO5074FG-70Mhz-4-Channel-Oscilloscope-8-Channel-Logic-Analyzer-25MHz-Arb-Waveform-Generator/1596199238.html) from seller [Shenzhen Laesent Technology Co., Ltd.](http://www.aliexpress.com/store/100653)
+* [Hantek MSO5074FG listing on aliexpress](https://www.aliexpress.com/item/High-quality-Hantek-MSO5074FG-70Mhz-4-Channel-Oscilloscope-8-Channel-Logic-Analyzer-25MHz-Arb-Waveform-Generator/1596199238.html) from seller [Shenzhen Laesent Technology Co., Ltd.](https://www.aliexpress.com/store/100653)
 * [Hantek MSO5054F(G)](http://www.hantek.com/en/ProductDetail_3_127.html) product listing, manuals and software
 * [Rigol DS1074Z](http://www.rigolna.com/products/digital-oscilloscopes/ds1000Z/ds1074z/)

@@ -24,12 +24,12 @@ Here are some measurements from the breadboarded circuit:
 
 | C             |     R | Measured f | Theoretical f |
 |---------------|-------|------------|---------------|
-| 1nF ceramic   | 220kΩ |    936.3Hz | [1033Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+1nF%29) |
-| 1nF mylar     | 220kΩ |    996.2Hz | [1033Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+1nF%29) |
-| 10nF ceramic  | 220kΩ |    147.9Hz | [103.3Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+10nF%29) |
-| 10nF mylar    | 220kΩ |    102.1Hz | [103.3Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+10nF%29) |
-| 68nF mylar    | 220kΩ |    15.11Hz | [15.19kHz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+68nF%29) |
-| 100nF ceramic | 220kΩ |    15.38Hz | [10.33Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+100nF%29) |
+| 1nF ceramic   | 220kΩ |    936.3Hz | [1033Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+1nF%29) |
+| 1nF mylar     | 220kΩ |    996.2Hz | [1033Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+1nF%29) |
+| 10nF ceramic  | 220kΩ |    147.9Hz | [103.3Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+10nF%29) |
+| 10nF mylar    | 220kΩ |    102.1Hz | [103.3Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+10nF%29) |
+| 68nF mylar    | 220kΩ |    15.11Hz | [15.19kHz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+68nF%29) |
+| 100nF ceramic | 220kΩ |    15.38Hz | [10.33Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+100nF%29) |
 
 
 ### Astable Gating
@@ -71,6 +71,6 @@ Close-up of the rising edge:
 ![The Build](./assets/AstableOscillator_build.jpg?raw=true)
 
 ## Credits and References
-* [CD4047 datasheet](http://www.futurlec.com/4000Series/CD4047.shtml)
+* [CD4047 datasheet](https://www.futurlec.com/4000Series/CD4047.shtml)
 * [Review – CD4047 Astable/Monostable Multivibrator](http://tronixstuff.com/2011/02/11/review-cd4047-astablemonostable-multivibrator/)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects206-cd4047-astable.html)

@@ -65,7 +65,7 @@ The nice thing: just one square hole to cut in the panel!
 I had to research and test for the correct connections to the power switch in order to have it illuminate correctly.
 The best explanation I found of how it works is in this video:
 
-[![clip](http://img.youtube.com/vi/V4kPE8B1HCI/0.jpg)](http://www.youtube.com/watch?v=V4kPE8B1HCI?t=73)
+[![clip](https://img.youtube.com/vi/V4kPE8B1HCI/0.jpg)](https://www.youtube.com/watch?v=V4kPE8B1HCI?t=73)
 
 I still had to get the correct pins for this particular switch (marked: XL601-101A and rated for 6A at 250V):
 

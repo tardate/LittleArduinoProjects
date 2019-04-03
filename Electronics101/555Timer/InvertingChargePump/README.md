@@ -216,10 +216,10 @@ Oscillator:
 * [Charge Pump](https://en.wikipedia.org/wiki/Charge_pump) - wikipedia
 * [555 DC boost converter circuits](http://www.eleccircuit.com/the-many-dc-to-dc-converters-using-ic-555/) - original source of circuit design
 * [NE555 Datasheet](http://www.ti.com/lit/ds/symlink/ne555.pdf)
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [1N4001 Datasheet](http://www.futurlec.com/Diodes/1N4001.shtml)
-* [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
-* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [1N4001 Datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)
+* [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [SMPS Tutorial (3): Charge Pumps, Buck Converters, Switched Mode Power Supplies](https://youtu.be/r_AAdxwfim8) - great overview from The Post Apocalyptic Inventor
 * [Calculating Essential Charge-Pump Parameters](http://powerelectronics.com/passive-components/calculating-essential-charge-pump-parameters) - detailed article on the workings of charge pumps
 * [Charge Pumps: An Overview by Louie Pylarinos](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.128.4085)

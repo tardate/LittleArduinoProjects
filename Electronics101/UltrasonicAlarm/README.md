@@ -4,7 +4,7 @@ Build an ultrasonic motion alarm with the HC-SR04 module and discrete logic.
 
 Here's a quick demo of it in action:
 
-[![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)](http://www.youtube.com/watch?v=18vaX6bmDes)
+[![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)](https://www.youtube.com/watch?v=18vaX6bmDes)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -49,7 +49,7 @@ The 74LS14 schmitt inverter is used as a free-running oscilator. The LS variant 
 in an oscillator configuration - see [LEAP#022 SchmittOscillator](../SchmittOscillator) for more.
 
 So I've beefed up the capacitor to 10µF and fiddled the resistors to produce an
-[80Hz](http://www.wolframalpha.com/input/?i=2%2F((1.2+*+10%C2%B5F+*+1.2k%CE%A9)+%2B+(1.2+*+10%C2%B5F+*+890%CE%A9)))
+[80Hz](https://www.wolframalpha.com/input/?i=2%2F((1.2+*+10%C2%B5F+*+1.2k%CE%A9)+%2B+(1.2+*+10%C2%B5F+*+890%CE%A9)))
 trigger pulse with a high time just under 1ms.
 
 * when inverter output low, R = 1.2kΩ
@@ -69,8 +69,8 @@ The C2/R3 filter integrates the pulse to produce a sharp trigger, with D2 sinkin
 The 555 produce a pulse with a duration controlled by the R5 potentionmeter.
 The values I've selected provide for a calibration range:
 
-* min [1.1ms](http://visual555.tardate.com/?mode=monostable&r1=10&c=0.1) -  a distance of [18cm](http://www.wolframalpha.com/input/?i=0.0011+*+340%2F2)
-* max [12.1ms](http://visual555.tardate.com/?mode=monostable&r1=110&c=0.1) - a distance of [205cm](http://www.wolframalpha.com/input/?i=0.0121+*+340%2F2)
+* min [1.1ms](http://visual555.tardate.com/?mode=monostable&r1=10&c=0.1) -  a distance of [18cm](https://www.wolframalpha.com/input/?i=0.0011+*+340%2F2)
+* max [12.1ms](http://visual555.tardate.com/?mode=monostable&r1=110&c=0.1) - a distance of [205cm](https://www.wolframalpha.com/input/?i=0.0121+*+340%2F2)
 
 In order to calibrate for different ranges, C3 (or the resistors) can be substituted as appropriate.
 
@@ -90,7 +90,7 @@ The LED and buzzer are switched with a simple low-side n-channel MOSFET.
 
 The output of the Pulse Width Comparator is dampened with an RC filter.
 In my build I replaced the more complicated arrangement from the Silicon Chip article with a simple 100nF/1kΩ
-circuit, with a resulting time constant of [0.1ms](http://www.wolframalpha.com/input/?i=100nF+*+1k%CE%A9).
+circuit, with a resulting time constant of [0.1ms](https://www.wolframalpha.com/input/?i=100nF+*+1k%CE%A9).
 This squelches incidental noise, and also provides a little tolerance with slightly wandering echo readings.
 
 The 100Ω R8 is not particularly necessary and doesn't alter the function of the circuit.
@@ -140,8 +140,8 @@ Finished:
 
 ## Credits and References
 * [HC-SR04 Datasheet](http://www.micropik.com/PDF/HCSR04.pdf)
-* [74LS14 Datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [CD4070 Datasheet](http://www.futurlec.com/4000Series/CD4070.shtml)
+* [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [CD4070 Datasheet](https://www.futurlec.com/4000Series/CD4070.shtml)
 * [Using An Ultrasonic Sensor Module As A Door Sentry](http://www.siliconchip.com.au/Issue/2016/December/Using+An+Ultrasonic+Sensor+Module+As+A+Door+Sentry) - Silicon Chip Dec-2016
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap287-ultrasonic-alarm.html)

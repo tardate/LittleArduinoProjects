@@ -4,7 +4,7 @@ Test the basic resistor-transistor logic NOT gate (inverter)
 
 Here's a quick video of the circuit in action:
 
-[![ResistorTransistorLogic/NOT](http://img.youtube.com/vi/JQzt-ZaF9fw/0.jpg)](http://www.youtube.com/watch?v=JQzt-ZaF9fw)
+[![ResistorTransistorLogic/NOT](https://img.youtube.com/vi/JQzt-ZaF9fw/0.jpg)](https://www.youtube.com/watch?v=JQzt-ZaF9fw)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -43,7 +43,7 @@ We clearly lose significant voltage at the output because of the current-limitin
 
 ## Credits and References
 * [Resistor-Transistor Logic](https://en.wikipedia.org/wiki/Resistor%E2%80%93transistor_logic) - wikipedia page
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
 * [Logic NOT Gate Tutorial](http://www.electronics-tutorials.ws/logic/logic_4.html) - explains of the basic circuit used here.
 * [The NOT gate](http://www.allaboutcircuits.com/vol_4/chpt_3/2.html) - describes a practical implementation of a "real" inverter circuit
 * [Logic Gates using Transistors](https://electrosome.com/logic-gates-using-transistors/)

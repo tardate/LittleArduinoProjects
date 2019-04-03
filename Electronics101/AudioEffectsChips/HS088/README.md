@@ -6,7 +6,7 @@ Figuring out the HS-088 "Ding Dong" audio effects chip.
 
 Here's a quick demo...
 
-[![Build](http://img.youtube.com/vi/3f8TGjILb_U/0.jpg)](http://www.youtube.com/watch?v=3f8TGjILb_U)
+[![Build](https://img.youtube.com/vi/3f8TGjILb_U/0.jpg)](https://www.youtube.com/watch?v=3f8TGjILb_U)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

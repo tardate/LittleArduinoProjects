@@ -17,7 +17,7 @@ better flicker-free lighting even when dimmed.
 
 ### LED Strip Specifications
 
-I'm using this (very) cheap [3014 Led Strip Light](http://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html). According to the seller specs:
+I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html). According to the seller specs:
 
 | Attribute          | Specification                  |
 |--------------------|--------------------------------|
@@ -37,7 +37,7 @@ I'm using this (very) cheap [3014 Led Strip Light](http://www.aliexpress.com/ite
 
 I'm using a 1m length strip for testing. At maximum load, that should be about 4W according to the specs.
 
-Running the LED strip direct from a 12V supply, I actually measure 270mA or [3.24W](http://www.wolframalpha.com/input/?i=12V*270mA).
+Running the LED strip direct from a 12V supply, I actually measure 270mA or [3.24W](https://www.wolframalpha.com/input/?i=12V*270mA).
 
 The 12V/1.5A/18W power supply I'm using is quite adequate for this.
 
@@ -51,7 +51,7 @@ The voltage divider necessarily means there's at least 1.1mA leakage even when t
 The PNP control and shunt resistor means there's also ~1.3V knowcked off the supply. So a 12V supply will
 never drive the LEDs to max brightness. For my purposes, they are bright enough already.
 
-I'm measuring ~150mA on max brightness with this circuit and a 12V supply so [1.8W](http://www.wolframalpha.com/input/?i=12V*150mA)
+I'm measuring ~150mA on max brightness with this circuit and a 12V supply so [1.8W](https://www.wolframalpha.com/input/?i=12V*150mA)
 power consumption.
 
 At that current, I was able to get away with an A42 NPN (rated for 500mA), but higher currents would need something beefier.
@@ -76,8 +76,8 @@ Protoboard Layout:
 
 ## Credits and References
 * [Current Controlled LED Dimmer](http://www.electroschematics.com/9256/led-dimmer-control/) - Jim Keith, electroschematics
-* [5M 60LED/M Led Strip Light 3014 SMD Fiexble Light Non-waterproof Indoor/Outdoor Lighting Holiday Decoration Brighter Than 3528](http://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html) - seller on aliexpress
-* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [5M 60LED/M Led Strip Light 3014 SMD Fiexble Light Non-waterproof Indoor/Outdoor Lighting Holiday Decoration Brighter Than 3528](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html) - seller on aliexpress
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [A42 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138719/JIANGSU/A42.html)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap231-led-dimmer.html)

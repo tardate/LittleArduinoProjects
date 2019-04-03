@@ -35,5 +35,5 @@ How it performs:
 * [Smokey Amps](http://www.smokeyamps.com/) - official site
 * [Smokey Amp Analysis](http://www.electrosmash.com/smokey-amp-analysis) - excellent circuit analysis of the original Smokey amp.
 * [Observations on the Smokey circuit by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt)
-* [LM386 datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml)
+* [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)
 

@@ -8,7 +8,7 @@ Notes on an AM/FM radio kit build.
 ## Notes
 
 AM/FM radios are pretty rare these days but I wanted one for checking the behaviour of some RF circuits.
-So I got [this kit from a seller on aliexpress](http://www.aliexpress.com/item/Free-Shipping-AM-FM-stereo-AM-radio-kit-DIY-CF210SP-electronic-production-suite/32326761697.html). It's a pretty nice kit - good PCB and no problem with the components - and the finished product works fine.
+So I got [this kit from a seller on aliexpress](https://www.aliexpress.com/item/Free-Shipping-AM-FM-stereo-AM-radio-kit-DIY-CF210SP-electronic-production-suite/32326761697.html). It's a pretty nice kit - good PCB and no problem with the components - and the finished product works fine.
 
 The kit is designed around 3 core integrated circuits:
 * CD7642 one-chip AM radio amp - pretty amazing, seems like all the guts of a 6-transistor superheterodyne stuffed into a TO-92 package.
@@ -34,8 +34,8 @@ Some clarifications/intepretations of the instructions. Yes, its's all in simpli
 ![The Build - PCB rear](./assets/AMFMRadioKit_pcb_build_rear.jpg?raw=true)
 
 ## Credits and References
-* [kit from a seller on aliexpress](http://www.aliexpress.com/item/Free-Shipping-AM-FM-stereo-AM-radio-kit-DIY-CF210SP-electronic-production-suite/32326761697.html)
-* [CD7642 datasheet](http://www.datasheetarchive.com/CD7642CP-datasheet.html) / [TA7642 datasheet](http://www.futurlec.com/Others/TA7642.shtml)
+* [kit from a seller on aliexpress](https://www.aliexpress.com/item/Free-Shipping-AM-FM-stereo-AM-radio-kit-DIY-CF210SP-electronic-production-suite/32326761697.html)
+* [CD7642 datasheet](http://www.datasheetarchive.com/CD7642CP-datasheet.html) / [TA7642 datasheet](https://www.futurlec.com/Others/TA7642.shtml)
 * [CD9088 datasheet](http://www.datasheetbank.com/CD9088-Datasheet-ETC.html)
-* [TDA2822 datasheet](http://www.futurlec.com/Philips/TDA2822.shtml) - the 16-pin stereo version
+* [TDA2822 datasheet](https://www.futurlec.com/Philips/TDA2822.shtml) - the 16-pin stereo version
 

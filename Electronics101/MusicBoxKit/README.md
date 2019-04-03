@@ -13,7 +13,7 @@ This is a pretty common kit available from multiple sources, although it appears
 [icstation](http://www.icstation.com/music-box16-sound-boxelectronic-productiondiy-kits-p-1750.html).
 
 The heart of the kit is a custom sound generator board with a potted chip,
-[like this one](http://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c). This is one of a range of boards - all with potted chips - that I believe are primarily produced as the sound effects generators
+[like this one](https://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c). This is one of a range of boards - all with potted chips - that I believe are primarily produced as the sound effects generators
 used in toys.
 
 This kit basically adds supporting circuitry on a PCB to:
@@ -76,7 +76,7 @@ external sources. The pins are low by default, and just need to be pulled high.
 
 The KD9561/CK9561 effects module is widely available.
 
-* [aliexpress.com](http://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c)
+* [aliexpress.com](https://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c)
 * [dx.com](http://www.dx.com/p/ck9561-diy-4-sound-voice-alarm-ic-modules-brown-silver-4-pcs-342698#.V3iBKpN97XE)
 
 It's a potted chip on a board, primarily intended to be used in toys. Details are hard to come by. the best information I've found is this:
@@ -134,10 +134,10 @@ Wired up with an Arduino for the demo (includes LEDs to indicate signal state):
 ![The Schematic](./assets/MusicBoxKit_schematic.jpg?raw=true)
 
 ## Credits and References
-* [DIY Kits BOX-16 16-tone Tool 16 Music Box 16 Sound Box electronic production #70448](http://www.aliexpress.com/item/DIY-Kits-BOX-16-16-tone-Tool-16-Music-Box-16-Sound-Box-electronic-production-70448/32361863021.html) - seller on aliexpress
+* [DIY Kits BOX-16 16-tone Tool 16 Music Box 16 Sound Box electronic production #70448](https://www.aliexpress.com/item/DIY-Kits-BOX-16-16-tone-Tool-16-Music-Box-16-Sound-Box-electronic-production-70448/32361863021.html) - seller on aliexpress
 * [16 Music Box/16 Sound Box/Electronic Production/DIY Kits](http://www.icstation.com/music-box16-sound-boxelectronic-productiondiy-kits-p-1750.html) - icstation
-* [KD9561 CK9561 Alarm sound chip Four voices Music IC Music integrated block Toy sound IC](http://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c) - the sound chip module used in the kit.
+* [KD9561 CK9561 Alarm sound chip Four voices Music IC Music integrated block Toy sound IC](https://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c) - the sound chip module used in the kit.
 * [CK9561 DIY 4-Sound Voice Alarm IC Modules](http://www.dx.com/p/ck9561-diy-4-sound-voice-alarm-ic-modules-brown-silver-4-pcs-342698#.V3iBKpN97XE) - on dx.com (with schematic)
-* [CD4011 datasheet](http://www.futurlec.com/4000Series/CD4011.shtml)
-* [CD4066 datasheet](http://www.futurlec.com/4000Series/CD4066.shtml)
+* [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
+* [CD4066 datasheet](https://www.futurlec.com/4000Series/CD4066.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects226-music-box.html)

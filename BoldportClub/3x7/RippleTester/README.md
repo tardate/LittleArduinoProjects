@@ -6,7 +6,7 @@ Using some 4000 series counters (CD4017, CD4060) to exercise the digits and segm
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/wn-WYp7O15c/0.jpg)](http://www.youtube.com/watch?v=wn-WYp7O15c)
+[![clip](https://img.youtube.com/vi/wn-WYp7O15c/0.jpg)](https://www.youtube.com/watch?v=wn-WYp7O15c)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -40,5 +40,5 @@ Note: because the CD4060 does not expose Q11 counter stage, the pattern of segme
 
 ## Credits and References
 * [LEAP#425 The Boldport 3x7](../)
-* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017SMD.shtml)
-* [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
+* [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
+* [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)

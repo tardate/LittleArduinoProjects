@@ -46,10 +46,10 @@ with 5V USB power.
 ## Programming with the Arduino IDE
 
 I'm following the
-[STM32 Arduino Tutorial - How to use the STM32F103C8T6 board with the Arduino IDE](http://www.youtube.com/watch?v=K-jYSysmw9w)
+[STM32 Arduino Tutorial - How to use the STM32F103C8T6 board with the Arduino IDE](https://www.youtube.com/watch?v=K-jYSysmw9w)
 YouTube tutorial by educ8s.tv. This is one of many, but it is the most accurate and up-to-date that I found in a quick search.
 
-[![clip](http://img.youtube.com/vi/K-jYSysmw9w/0.jpg)](http://www.youtube.com/watch?v=K-jYSysmw9w)
+[![clip](https://img.youtube.com/vi/K-jYSysmw9w/0.jpg)](https://www.youtube.com/watch?v=K-jYSysmw9w)
 
 Here's how the process went for me....
 

@@ -4,7 +4,7 @@ A synchronous 8-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
-[![SynchJKCounter](http://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](http://www.youtube.com/watch?v=HGunGdTaNFQ)
+[![SynchJKCounter](https://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](https://www.youtube.com/watch?v=HGunGdTaNFQ)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -57,7 +57,7 @@ Breadboard build:
 
 Breadboard test:
 
-[![SynchJKCounter](http://img.youtube.com/vi/4oMr_x22kUU/0.jpg)](http://www.youtube.com/watch?v=4oMr_x22kUU)
+[![SynchJKCounter](https://img.youtube.com/vi/4oMr_x22kUU/0.jpg)](https://www.youtube.com/watch?v=4oMr_x22kUU)
 
 Protoboard build:
 
@@ -66,8 +66,8 @@ Protoboard build:
 ![Build](./assets/SyncJKCounter_build.jpg?raw=true)
 
 ## Credits and References
-* [74LS73 Datasheet](http://www.futurlec.com/74LS/74LS73.shtml)
-* [74LS08 Datasheet](http://www.futurlec.com/74LS/74LS08.shtml)
+* [74LS73 Datasheet](https://www.futurlec.com/74LS/74LS73.shtml)
+* [74LS08 Datasheet](https://www.futurlec.com/74LS/74LS08.shtml)
 * [LEAP#186 AsyncJKCounter](../AsyncJKCounter) - asynchronous 4-bit counter using JK Flip-Flops
 * [Synchronous Counter](https://en.wikipedia.org/wiki/Counter_(digital)#Synchronous_counter) - wikipedia
 * [Synchronous Counters](https://www.allaboutcircuits.com/textbook/digital/chpt-11/synchronous-counters/)

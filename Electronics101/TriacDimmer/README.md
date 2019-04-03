@@ -60,7 +60,7 @@ NB: since I don't have a differential probe, these scope traces are the X+Y mix 
 ## Credits and References
 * [Triacs](https://en.wikipedia.org/wiki/TRIAC) - wikipedia
 * [Thyristors & Triacs - Ten Golden Rules for Success In Your Application](http://www.nxp.com/documents/application_note/AN_GOLDEN_RULES.pdf) - great document, pretty much all you need to know!
-* [BTA12-600 Datasheet](http://www.futurlec.com/Diodes/BTA12-600.shtml)
+* [BTA12-600 Datasheet](https://www.futurlec.com/Diodes/BTA12-600.shtml)
 * [Triac Tutorial and Basic Principles](http://www.electronics-tutorials.ws/power/triac.html)
 * [Basic Triacs and SCR Projects and Circuits](http://www.bristolwatch.com/ele/triacs.htm)
 * [What is a TRIAC - Tutorial](http://www.radio-electronics.com/info/data/semicond/triac/what-is-a-triac-basics-tutorial.php)

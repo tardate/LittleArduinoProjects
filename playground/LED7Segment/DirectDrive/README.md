@@ -4,7 +4,7 @@ Test direct control of a 7-segment display, performing a countdown from 9 to 0.
 
 Here's a quick video of the circuit in action:
 
-[![LED7Segment/DirectDrive](http://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](http://www.youtube.com/watch?v=R90zCCvA7_M)
+[![LED7Segment/DirectDrive](https://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](https://www.youtube.com/watch?v=R90zCCvA7_M)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

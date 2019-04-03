@@ -15,7 +15,7 @@ The double-thow nomenclature indicates that each circuit can be switched between
 
 ### Example Part: DPDT 2.54mm pitch Switch
 
-Product example: [8x8mm Self-locking Push Button Switch](http://www.aliexpress.com/item/8x8mm-Self-locking-Type-Square-Button-Tactile-Push-Button-Switch-Momentary-Tact-DIP-Through-Hole-4pin/2036527668.html)
+Product example: [8x8mm Self-locking Push Button Switch](https://www.aliexpress.com/item/8x8mm-Self-locking-Type-Square-Button-Tactile-Push-Button-Switch-Momentary-Tact-DIP-Through-Hole-4pin/2036527668.html)
 
 This is a convenient DPDT switch for PCB construction, having a pin pitch of 2.54mm.
 Unfortunately, the pin rows are only separated by two pitches (5.08mm), so it is one pitch short of a standard DIP layout.
@@ -54,5 +54,5 @@ Operation:
 ## Credits and References
 * [Switches](../)
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
-* [8x8mm Self-locking Push Button Switch](http://www.aliexpress.com/item/8x8mm-Self-locking-Type-Square-Button-Tactile-Push-Button-Switch-Momentary-Tact-DIP-Through-Hole-4pin/2036527668.html) - example part from aliexpress seller.
+* [8x8mm Self-locking Push Button Switch](https://www.aliexpress.com/item/8x8mm-Self-locking-Type-Square-Button-Tactile-Push-Button-Switch-Momentary-Tact-DIP-Through-Hole-4pin/2036527668.html) - example part from aliexpress seller.
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

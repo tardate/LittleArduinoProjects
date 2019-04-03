@@ -19,7 +19,7 @@ Robojax has a nice video on YouTube
 (and [information page](http://robojax.com/learn/arduino/?vid=robojax-VL53L0X))
 that gives a good introduction to the chip and module:
 
-[![clip](http://img.youtube.com/vi/0GxFoq_zPt4/0.jpg)](http://www.youtube.com/watch?v=0GxFoq_zPt4)
+[![clip](https://img.youtube.com/vi/0GxFoq_zPt4/0.jpg)](https://www.youtube.com/watch?v=0GxFoq_zPt4)
 
 There are a few board designs around, this is quite common. It squeezes everything including regulator into a very small form factor:
 

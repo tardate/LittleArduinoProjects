@@ -19,7 +19,7 @@ The temperature measurement is displayed on a 5110 LCD.
 
 ### High Temperature Thermocouple Type K Probe
 
-[The Type K probes I have are from an aliexpress seller](http://www.aliexpress.com/store/product/5PCS-2M-K-Type-Temperature-Thermocouple-Sensor-Probe-From-50C-to-700C/109396_32633620107.html) with the following specifications:
+[The Type K probes I have are from an aliexpress seller](https://www.aliexpress.com/store/product/5PCS-2M-K-Type-Temperature-Thermocouple-Sensor-Probe-From-50C-to-700C/109396_32633620107.html) with the following specifications:
 
 * Operating Temperature: -50-700°C
 * Probe Diameter: 0.66mm /0.026 inch
@@ -72,9 +72,9 @@ for a gain of 331:
     gain = 1 + 330/1
 
 Since the upper output limit of the LM358 is V+ - 1.5V per the datasheet, in this case 3.5V, then the maximum Vin before clipping is:
-[3.5V/331 = 10.6mV](http://www.wolframalpha.com/input/?i=3.5V%2F331)
+[3.5V/331 = 10.6mV](https://www.wolframalpha.com/input/?i=3.5V%2F331)
 
-This represents a temperature range of [10.6mV/41µV/°C = 258.5°C](http://www.wolframalpha.com/input/?i=10.6mV%2F41%C2%B5V%2F%C2%B0C).
+This represents a temperature range of [10.6mV/41µV/°C = 258.5°C](https://www.wolframalpha.com/input/?i=10.6mV%2F41%C2%B5V%2F%C2%B0C).
 That's far below the limits of the probe, but enough for a test.
 
 To measure higher ranges, the gain can be increased accordingly and perhaps use a rail-to-rail op amp.
@@ -97,7 +97,7 @@ It provides a linear 10.0 mV/degree output for an operating range of -55°C to 1
 So for example, 250mV is 25°C.
 
 The LM35 output is read with an analog input which has an analog to digital resolution of only 1024 levels (0-1023).
-So with the default 5V reference voltage that means [4.88mV](http://www.wolframalpha.com/input/?i=5000%2F1024)
+So with the default 5V reference voltage that means [4.88mV](https://www.wolframalpha.com/input/?i=5000%2F1024)
 per step. The LM35 therefore only has a resolution of 0.5°C.
 
 That's OK here when compared to the resolution from the Type K reading.
@@ -159,5 +159,5 @@ Finally, it needs some calibration tests. It seems to be doing the right thing, 
 * [A thermocouple datalogger based on the Arduino platform](http://lukemiller.org/index.php/2010/08/a-thermocouple-datalogger-based-on-the-arduino-platform/) - very nice write-up of a complete project using AD595 amplifier/ADG407 multiplexer to interface with Type K thermocouples
 * [Lessons In Electric Circuits - Op Amp Bias Current](https://www.ibiblio.org/kuphaldt/electricCircuits/Semi/SEMI_8.html#xtocid1097415)
 * [Two Ways to Measure Temperature Using Thermocouples](http://www.analog.com/library/analogDialogue/archives/44-10/thermocouple.pdf) - compares AD8495 amplifier and reference junction compensation techniques
-* [5PCS 2M K Type Temperature Thermocouple Sensor Probe From -50C to 700C](http://www.aliexpress.com/store/product/5PCS-2M-K-Type-Temperature-Thermocouple-Sensor-Probe-From-50C-to-700C/109396_32633620107.html) - from aliexpress seller
+* [5PCS 2M K Type Temperature Thermocouple Sensor Probe From -50C to 700C](https://www.aliexpress.com/store/product/5PCS-2M-K-Type-Temperature-Thermocouple-Sensor-Probe-From-50C-to-700C/109396_32633620107.html) - from aliexpress seller
 * [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects204-type-k.html)

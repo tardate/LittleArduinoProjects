@@ -2,7 +2,7 @@
 
 Rainbow glow effects with an RGB LED and OpAmp oscillators.
 
-[![Build](http://img.youtube.com/vi/9PpOC6A96As/0.jpg)](http://www.youtube.com/watch?v=9PpOC6A96As)
+[![Build](https://img.youtube.com/vi/9PpOC6A96As/0.jpg)](https://www.youtube.com/watch?v=9PpOC6A96As)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -57,7 +57,7 @@ This is a bit of a hack, and could probably be better achieved by ensuring the
 driving triangle wave is amplified and offset precisely to bias the transistors appropriately.
 
 The schematic shows the alternative arrangements.
-The [demo video](http://www.youtube.com/watch?v=9PpOC6A96As) is using the reversed-PNP arrangement.
+The [demo video](https://www.youtube.com/watch?v=9PpOC6A96As) is using the reversed-PNP arrangement.
 
 ## Construction
 
@@ -68,8 +68,8 @@ The [demo video](http://www.youtube.com/watch?v=9PpOC6A96As) is using the revers
 ![Build](./assets/RgbLedGlow_build.jpg?raw=true)
 
 ## Credits and References
-* [RGB LED datasheet](http://www.futurlec.com/LED/RGB5LED.shtml)
-* [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
+* [RGB LED datasheet](https://www.futurlec.com/LED/RGB5LED.shtml)
+* [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [RGB LED](https://www.aliexpress.com/item/50pcs-4-pins-5mm-RGB-LED-full-color-Tri-Color-Common-Anode-LED-Red-Green-Blue/32802378189.html) - aliexpress seller
 * [LEAP#089 BreatheLamp](../BreatheLamp)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap337-rgb-led-glow-with-opamps.html)

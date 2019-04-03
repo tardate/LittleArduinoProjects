@@ -8,7 +8,7 @@ Build and test a common LED visual effect circuit.
 ## Notes
 
 The "Breathing Lamp" is commonly found from sellers on ebay and aliexpress as a cheap parts kit,
-for example: [M126 Blue Led 5MM Light LM358 Breathing Lamp Parts Kit](http://www.aliexpress.com/item/M126-Blue-Led-5MM-Light-LM358-Breathing-Lamp-Parts-Kit-DIY-Interesting-Product-Suite/1940760853.html)
+for example: [M126 Blue Led 5MM Light LM358 Breathing Lamp Parts Kit](https://www.aliexpress.com/item/M126-Blue-Led-5MM-Light-LM358-Breathing-Lamp-Parts-Kit-DIY-Interesting-Product-Suite/1940760853.html)
 
 So what exactly is a "Breathing Lamp"? That's what I wanted to know! It turns out to be quite prosaic:
 the circuit is just an op-amp oscillator controlling the intensity of an array of LEDs.
@@ -48,6 +48,6 @@ over, for example, a [555 timer-based triangle wave generator](../555Timer/Trian
 ![The Build](./assets/BreatheLamp_build.jpg?raw=true)
 
 ## Credits and references
-* [LM324N Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
-* [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
+* [LM324N Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
+* [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP

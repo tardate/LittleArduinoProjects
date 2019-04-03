@@ -47,7 +47,7 @@ parts - 2W resistors and 10mm LEDs. Pretty rare these days, so fun to play with.
 
 The LEDs are rated for 20 mA with forward voltage of 2V.
 Therefore, with the current-limiting resistor of 150Ω, the maximum supply voltage is
-[5V](http://www.wolframalpha.com/input/?i=2V+%2B+20mA+*+150%CE%A9).
+[5V](https://www.wolframalpha.com/input/?i=2V+%2B+20mA+*+150%CE%A9).
 
 ## Construction
 
@@ -72,6 +72,6 @@ since the only asymmetry required is the single crossing of the power lines betw
 * [cordwood](https://www.boldport.com/products/cordwood-puzzle-second-edition/) - project page
 * [cordwood](https://github.com/boldport/cordwood-2ed) - OSH files on GitHub
 * [cordwood](http://community.boldport.club/projects/p03-cordwood/) - club community site, packed with resources for the project
-* [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [LEAP#321 cordwood-too](../cordwood-too) - the next project in the series
 * [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap269-boldport-cordwood.html)

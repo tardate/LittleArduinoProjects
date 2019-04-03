@@ -53,5 +53,5 @@ The minimum duty cycle possible with this astable configuration is 62.1%, at a f
 | 62.1% | 11.42 Hz | Max duty cycle |
 
 ## Credits and References
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Designing 555 Astables](http://www.learnabout-electronics.org/Oscillators/osc44.php) - learnabout-electronics

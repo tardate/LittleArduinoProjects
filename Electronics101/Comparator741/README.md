@@ -43,12 +43,12 @@ This introduces a time constant to the non-inverting voltage that inhibits insta
 
 For an Arduino Uno, the frequency of the PWM signal on pin 10 is approximately 490 Hz.
 The 2.5V mid-point is generated with 50% duty cycle PWM pulse, and therefore the signal is low for
-[~1ms](http://www.wolframalpha.com/input/?i=1%2F2+*+1%2F490) then high for ~1ms.
+[~1ms](https://www.wolframalpha.com/input/?i=1%2F2+*+1%2F490) then high for ~1ms.
 
 So we need an RC time constant (𝛕) that will sufficiently bridge the 1ms "gap". The trade-off is that reducing the voltage ripple
 by increasing the time constant will also slow down the filter response to voltage changes.
 
-In this case I have gone for "extreme dampening" with R=22kΩ and C=10μF, resulting in a time constant of [220ms](http://www.wolframalpha.com/input/?i=22k%CE%A9+*+10%CE%BCF).
+In this case I have gone for "extreme dampening" with R=22kΩ and C=10μF, resulting in a time constant of [220ms](https://www.wolframalpha.com/input/?i=22k%CE%A9+*+10%CE%BCF).
 As can be seen in the trace below, this results in a very smooth inverting voltage source and consequently distinct output changes
 for the OpAmp comparator. But there is also an appreciable lag behind that actual PWM output change.
 
@@ -79,7 +79,7 @@ Arduino pins.
 ![The Build](./assets/Comparator741_build.jpg?raw=true)
 
 ## Credits and References
-* [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
+* [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [How to Use the LM741 Op Amp as a Comparator](http://www.learningaboutelectronics.com/Articles/LM741-op-amp-comparator.php)
 * [Working of 741 IC Op-amp Comparator Circuit](http://www.circuitstoday.com/op-amp-comparator)
 * [Great article on PWM to analog conversion](http://www.allegromicro.com/en/Design-Center/Technical-Documents/Hall-Effect-Sensor-IC-Publications/Method-for-Converting-a-PWM-Output-to-an-Analog-Output-When-Using-Hall-Effect-Sensor-ICs.aspx)

@@ -477,7 +477,7 @@ describes this in great detail.
 It is also demonstrated very clearly in the
 "Best Way to Burn Arduino Bootloaders Tutorial!" by Kevin Darrah:
 
-[![clip](http://img.youtube.com/vi/dpgcBsl9D4k/0.jpg)](http://www.youtube.com/watch?v=dpgcBsl9D4k)
+[![clip](https://img.youtube.com/vi/dpgcBsl9D4k/0.jpg)](https://www.youtube.com/watch?v=dpgcBsl9D4k)
 
 The
 [Atmega_Board_Programmer](https://github.com/nickgammon/arduino_sketches/tree/master/Atmega_Board_Programmer)
@@ -630,7 +630,7 @@ However the most **common** adapters are probably those based on the CH340G USB-
 While very cheap and readily available, drivers may need to be installed.
 
 I'm using a CH340G USB adapter that I
-[got along with an Arduino mini](http://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html)
+[got along with an Arduino mini](https://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html)
 (seems no longer available, but variants are likely available from other sources). Key features:
 * it has a 5V/3.3V selector. I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they  will still be 5V.
 * it has pins for both DTR and CTS connections

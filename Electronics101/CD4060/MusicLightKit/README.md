@@ -4,7 +4,7 @@ Learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building 
 
 Here's a quick demo of the LED sequence in action..
 
-[![Build](./assets/MusicLightKit_build.jpg?raw=true)](http://www.youtube.com/watch?v=oUgnn1maLc8)
+[![Build](./assets/MusicLightKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=oUgnn1maLc8)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -22,7 +22,7 @@ The kit includes a potted sound chip that plays "Happy Birthday". The music circ
 
 This is the same kit covered by Julian Ilett:
 
-[![Kit Build](http://img.youtube.com/vi/AJFLz_hQsjo/0.jpg)](http://www.youtube.com/watch?v=AJFLz_hQsjo)
+[![Kit Build](https://img.youtube.com/vi/AJFLz_hQsjo/0.jpg)](https://www.youtube.com/watch?v=AJFLz_hQsjo)
 
 
 ### CD4060 Ripple Counter
@@ -40,7 +40,7 @@ These are steered with diodes to drive the three LED combinations. Q7 also trigg
 ### Music Effects Chip
 
 The music chip included in my kit is marked "H823" and plays "Happy Birthday". This appears to be a different chip
-from the one included in [Julian Ilett's build](http://www.youtube.com/watch?v=AJFLz_hQsjo),
+from the one included in [Julian Ilett's build](https://www.youtube.com/watch?v=AJFLz_hQsjo),
 and doesn't suffer from the same problem of needing an extra base resistor for the transistor output.
 
 However the piezzo speaker included in the kit sounds terrible; it works much better with a speaker.
@@ -94,10 +94,10 @@ This is the schematic available from most vendors:
 
 ## Credits and References
 * [CD4060 Dream Music Light DIY Kit](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html) - from a seller on aliexpress
-* [C1815 datasheet](http://www.futurlec.com/Transistors/C1815.shtml)
-* [S9012 datasheet](http://www.futurlec.com/Transistors/S9012.shtml)
-* [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
-* [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [C1815 datasheet](https://www.futurlec.com/Transistors/C1815.shtml)
+* [S9012 datasheet](https://www.futurlec.com/Transistors/S9012.shtml)
+* [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
+* [1N4148 datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [LEAP#292 AudioEffectsChips/H823](../../AudioEffectsChips/H823) - testing the music chip that came with this kit
 * [LEAP#293 CD4060/RCOscillator](../RCOscillator) - testing an CD4060 driven by an RC oscillator
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap291-cd4060-music-light-kit.html)

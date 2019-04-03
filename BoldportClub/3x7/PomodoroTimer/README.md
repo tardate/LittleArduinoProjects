@@ -6,7 +6,7 @@ A Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328.
 
 Here's a demo of it running a 5-minute countdown (I would be surprised if anyone watches the whole thing without skipping to the end!)..
 
-[![clip](http://img.youtube.com/vi/ZsGqnc2DhiA/0.jpg)](http://www.youtube.com/watch?v=ZsGqnc2DhiA)
+[![clip](https://img.youtube.com/vi/ZsGqnc2DhiA/0.jpg)](https://www.youtube.com/watch?v=ZsGqnc2DhiA)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

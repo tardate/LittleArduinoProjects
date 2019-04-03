@@ -36,7 +36,7 @@ The circuit and breadboard equivalent are shown below, however for the actual co
 
 ## Credits and References
 * [LEAP#137 ToroidJouleThief](../)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [5mm RGB Slow Flash LED](https://www.aliexpress.com/item/100pcs-lot-F5-5mm-Fast-Slow-RGB-Flash-Red-Green-Blue-Rainbow-Multi-Color-Light-Emitting/32894320025.html)
 * [..as mentioned on my blog](https://blog.tardate.com/2019/01/leap446-rgb-joule-thief-night-light.html)

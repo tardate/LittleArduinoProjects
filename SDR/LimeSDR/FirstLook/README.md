@@ -28,7 +28,7 @@ but I suspect as I get more into this I will be mainly focused on areas such as
 
 Introductory video: What is the LimeSDR?
 
-[![clip](http://img.youtube.com/vi/LnJLiOCEq9I/0.jpg)](http://www.youtube.com/watch?v=LnJLiOCEq9I)
+[![clip](https://img.youtube.com/vi/LnJLiOCEq9I/0.jpg)](https://www.youtube.com/watch?v=LnJLiOCEq9I)
 
 ### Hardware
 
@@ -88,7 +88,7 @@ Assembling the optional acrylic case is [documented here](https://github.com/myr
 and there is also a useful video:
 
 
-[![clip](http://img.youtube.com/vi/4QyM0tKj0Co/0.jpg)](http://www.youtube.com/watch?v=4QyM0tKj0Co)
+[![clip](https://img.youtube.com/vi/4QyM0tKj0Co/0.jpg)](https://www.youtube.com/watch?v=4QyM0tKj0Co)
 
 
 ### Assembly

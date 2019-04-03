@@ -66,7 +66,7 @@ I've mounted one on a DIP adapter, and found a micro-USB breakout:
 ## Examining a Commercial CH340 USB-Serial Adapter
 
 I have a CH340G USB adapter that I
-[got along with an Arduino mini](http://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html),
+[got along with an Arduino mini](https://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html),
 so I took a closer look to see if it usde the CH340G chip in any unexpected ways.
 
 Tracing the circuit, it turns out to be very straight-forward. A few things to note:
@@ -100,7 +100,7 @@ Here's a quick demo (uploading a sketch).
 I'm programming the ATmega328 with the [UsbUartCH340G.ino](./UsbUartCH340G.ino) sketch - a simple blink
 variant that also sends bursts of serial output (to exercise the RX LED).
 
-[![clip](http://img.youtube.com/vi/SSdThKPhHV4/0.jpg)](http://www.youtube.com/watch?v=SSdThKPhHV4)
+[![clip](https://img.youtube.com/vi/SSdThKPhHV4/0.jpg)](https://www.youtube.com/watch?v=SSdThKPhHV4)
 
 ## Credits and References
 * [CH340G datasheet](http://androegg.de/wp-content/uploads/2016/07/CH340G_USB_TTL_Converter.pdf)

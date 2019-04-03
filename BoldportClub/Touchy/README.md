@@ -97,7 +97,7 @@ Am I getting too obsessive???
 
 This tutorial by #DefineElectronics is a great start:
 
-[![#7 How to upload code to the Touchy board via the serial Bootloader](http://img.youtube.com/vi/HoMjZiPxQnk/0.jpg)](http://www.youtube.com/watch?v=HoMjZiPxQnk)
+[![#7 How to upload code to the Touchy board via the serial Bootloader](https://img.youtube.com/vi/HoMjZiPxQnk/0.jpg)](https://www.youtube.com/watch?v=HoMjZiPxQnk)
 
 The Silicon Labs' [Simplicty Studio](http://www.silabs.com/products/mcu/Pages/simplicity-studio.aspx) is used to edit and compile programs for the microcontroller.
 I haven't tried this yet, but things look promising as there is a Windows, Mac and Linux installer. It seems very heavy-weight though (another Eclipse-based IDE).

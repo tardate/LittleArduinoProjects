@@ -4,7 +4,7 @@ The Conehead is the fourth in a series of beautiful electronic bug boards from t
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/hKurYsvKQZk/0.jpg)](http://www.youtube.com/watch?v=hKurYsvKQZk)
+[![clip](https://img.youtube.com/vi/hKurYsvKQZk/0.jpg)](https://www.youtube.com/watch?v=hKurYsvKQZk)
 
 
 ![Build](./assets/conehead_build.jpg?raw=true)
@@ -15,7 +15,7 @@ Here's a quick demo..
 
 Conocephalus is a genus of bush-crickets, known as coneheads:
 
-[![clip](http://img.youtube.com/vi/AAgqkgFo2wE/0.jpg)](http://www.youtube.com/watch?v=AAgqkgFo2wE)
+[![clip](https://img.youtube.com/vi/AAgqkgFo2wE/0.jpg)](https://www.youtube.com/watch?v=AAgqkgFo2wE)
 
 Now I have one beautifully rendered in 3D by Boldport. And unlike the live video above, it chirps in response to light.
 
@@ -71,7 +71,7 @@ Boldport projects never fail to inspire some new learning. In the case it introd
 I reproduced the [chirp.pd](./chirp.pd) model and added a few more controls to make it easier to play around with.
 Here's a quick example of the sounds produced with different settings:
 
-[![clip](http://img.youtube.com/vi/-YGf8M41W-s/0.jpg)](http://www.youtube.com/watch?v=-YGf8M41W-s)
+[![clip](https://img.youtube.com/vi/-YGf8M41W-s/0.jpg)](https://www.youtube.com/watch?v=-YGf8M41W-s)
 
 Here are some settings that simulate the Conehead chirp:
 
@@ -97,6 +97,6 @@ Here are some settings that simulate the Conehead chirp:
 * [Conehead](https://www.boldport.com/products/conehead) - Boldport product information
 * [Conehead](https://www.boldport.club/shop/product/1432915792) - in the Boldport shop
 * [Conehead](https://github.com/boldport/conehead) - OSH files on GitHub
-* [74HC14 Datasheet](http://www.futurlec.com/74HC/74HC14SMD.shtml)
+* [74HC14 Datasheet](https://www.futurlec.com/74HC/74HC14SMD.shtml)
 * [Pure Data](https://puredata.info/) - used for simulating the sound synthesis
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap409-boldport-bugs-conehead.html)

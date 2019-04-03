@@ -49,6 +49,6 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 ![The Build](./assets/Power7805_build.jpg?raw=true)
 
 ## Credits and References
-* [LM7805 datasheet](http://www.futurlec.com/Linear/7805T.shtml)
+* [LM7805 datasheet](https://www.futurlec.com/Linear/7805T.shtml)
 * [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino
 * [Download Processing](https://www.processing.org/download/)

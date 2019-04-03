@@ -10,7 +10,7 @@ test an audio level indicator kit based on the LM3915
 ## Notes
 
 This is a build of an
-[LM3915 Audio Level Indicator Kit](http://www.aliexpress.com/item/Hot-Selling-1-PCS-LM3915-Audio-Level-Indicator-DIY-Kit-Electronic-Production-Suite-Good/32285582534.html).
+[LM3915 Audio Level Indicator Kit](https://www.aliexpress.com/item/Hot-Selling-1-PCS-LM3915-Audio-Level-Indicator-DIY-Kit-Electronic-Production-Suite-Good/32285582534.html).
 I picked it up for a few dollars from a seller on aliexpress. If nothing else, a cheap way to get an LM3915 and bunch of square LEDs.
 
 Kit Specifications from the product page:
@@ -28,7 +28,7 @@ The upper reference voltage on the LM3915 is set with pin 6 REF HI.
 
 In this circuit, it is set independantly of REF OUT/REF ADJ with a simple R6/R9 voltage divider:
 
-* REF HI = [245mV](http://www.wolframalpha.com/input/?i=560%CE%A9%2F%2820k%CE%A9+%2B+560%CE%A9%29+*+9V) for 9V supply
+* REF HI = [245mV](https://www.wolframalpha.com/input/?i=560%CE%A9%2F%2820k%CE%A9+%2B+560%CE%A9%29+*+9V) for 9V supply
 
 This is below even −10 dBV, so the input signal requires futher attenuation before it can drive the LM3915 effectively
 
@@ -54,7 +54,7 @@ For a better audio level display, I'd probably use a circuit like that described
 
 LED current is determined by the current on pin 7 REF OUT.
 REF OUT is nominally 1.25V (I measured it at 1.236V) and goes to ground via R5,
-so LED current is (only) [1.2mA](http://www.wolframalpha.com/input/?i=1.236V%2F1k%CE%A9).
+so LED current is (only) [1.2mA](https://www.wolframalpha.com/input/?i=1.236V%2F1k%CE%A9).
 
 This is quite low for LEDs, and far from the recommendation in the datasheet for handling AC signals:
 "It’s recommended to use dot mode and to run the LEDs at 30 mA for high enough average intensity."
@@ -80,8 +80,8 @@ Closing the jumper straps the LM3915 mode-select pin 9 to V+, putting it into "b
 ![The Build](./assets/AudioLevelIndicatorKit_build.jpg?raw=true)
 
 ## Credits and References
-* [LM3915 datasheet](http://www.futurlec.com/Linear/LM3915N.shtml)
+* [LM3915 datasheet](https://www.futurlec.com/Linear/LM3915N.shtml)
 * [LevelIndicatorLM3915](../../playground/LevelIndicatorLM3915) - project using the LM3915 to drive a display from an Arduino
-* [kit on aliexpress](http://www.aliexpress.com/item/Hot-Selling-1-PCS-LM3915-Audio-Level-Indicator-DIY-Kit-Electronic-Production-Suite-Good/32285582534.html)
+* [kit on aliexpress](https://www.aliexpress.com/item/Hot-Selling-1-PCS-LM3915-Audio-Level-Indicator-DIY-Kit-Electronic-Production-Suite-Good/32285582534.html)
 * [Sound Level Meter](http://www.aaroncake.net/circuits/vumeter.asp) - similar circuit
 * [..as mentioned on my blog](https://blog.tardate.com/2016/05/littlearduinoprojects202-lm3915-audio.html)

@@ -4,7 +4,7 @@ Build and analyse a simple clap switch circuit available as a kit
 
 Here's a quick video of the kit in action:
 
-[![ClapSwitchKit Demo](http://img.youtube.com/vi/sou727DP5S4/0.jpg)](http://www.youtube.com/watch?v=sou727DP5S4)
+[![ClapSwitchKit Demo](https://img.youtube.com/vi/sou727DP5S4/0.jpg)](https://www.youtube.com/watch?v=sou727DP5S4)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -46,6 +46,6 @@ And when the right-hand output of the flip-flip is "high":
 
 ## Credits and References
 * LEAP: [ClapSwitchKit2](../ClapSwitchKit2) - another clap-switch kit project
-* [Clap Switch DIY Kit](http://www.aliexpress.com/item/Brand-New-Clap-Switch-Suite-Electronic-Production-DIY-Kits-Red-Green-LED-Display-Circuit/32416781115.html) - from a seller on aliexpress, USD1.70 at time of purchase
+* [Clap Switch DIY Kit](https://www.aliexpress.com/item/Brand-New-Clap-Switch-Suite-Electronic-Production-DIY-Kits-Red-Green-LED-Display-Circuit/32416781115.html) - from a seller on aliexpress, USD1.70 at time of purchase
 * [Wikipedia: Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29)
 * [RSFlipFlop](../RSFlipFlop) project demonstrating the basic set-reset flip flop circuit implemented with BJTs

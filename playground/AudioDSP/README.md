@@ -52,9 +52,9 @@ an RC ladder/filter. This reconstitutes (approximately) the desired analog wavef
 Details and more links are available in the article: [Configure Arduino UNO PWM outputs to play audio](http://www.electrosmash.com/forum/pedalshield-uno/111-configure-arduino-uno-pwm-outputs-to-play-audio?lang=en).
 
 For two PWM signals, the resistor selection is
-R10=4.7kΩ, and [R11 = 1.2MΩ](http://www.wolframalpha.com/input/?i=2%5E8+*+4.7k%CE%A9) (2^n * R10)
+R10=4.7kΩ, and [R11 = 1.2MΩ](https://www.wolframalpha.com/input/?i=2%5E8+*+4.7k%CE%A9) (2^n * R10)
 
-With C7=10nF, corner frequency is around [3.38kHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+10nF)).
+With C7=10nF, corner frequency is around [3.38kHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+10nF)).
 This might explain why I'm seeing performance radically drop off over 4kHz (see next section on Performance).
 
 
@@ -108,14 +108,14 @@ And the 8kHz output FFT shows the signal pretty much drowned by noise and harmon
 
 #### Attempting to improve the Frequency Response
 
-With C7=10nF, corner frequency is around [3.38kHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+10nF)).
+With C7=10nF, corner frequency is around [3.38kHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+10nF)).
 This might explain why I'm seeing performance radically drop off over 4kHz (see next section on Performance).
 
 At 4kHz, the signal looks like this:
 
 ![sine_4khz_103](./assets/sine_4khz_103.gif?raw=true)
 
-With C7=1nF, the corner frequency is around [33.86kHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+1nF)),
+With C7=1nF, the corner frequency is around [33.86kHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.7k%CE%A9+*+1nF)),
 so I was hoping for a better response.
 
 But at 4kHz, the signal shows somewhat less attenuation, but at the expense of an increase in noise:
@@ -167,9 +167,9 @@ The correct orientation is:
 * [LEAP#247 pedalShieldUno](../pedalShieldUno) - my build of the genuine kit
 * [pedalSHIELD UNO Arduino Guitar Pedal](http://www.electrosmash.com/pedalshield-uno)
 * [pedalSHIELD UNO @ arduino.cc](https://create.arduino.cc/projecthub/electrosmash/arduino-uno-guitar-pedal-b2ba96)
-* [LMC6482 datasheet](http://www.futurlec.com/Linear/LMC6482IN.shtml)
+* [LMC6482 datasheet](https://www.futurlec.com/Linear/LMC6482IN.shtml)
 * [Configure Arduino UNO PWM outputs to play audio](http://www.electrosmash.com/forum/pedalshield-uno/111-configure-arduino-uno-pwm-outputs-to-play-audio?lang=en)
 * [PWM Distortion Analysis](http://www.openmusiclabs.com/learning/digital/pwm-dac/pwm-distortion-analysis/index.html)
-* [Arduino Audio Input](http://www.instructables.com/id/Arduino-Audio-Input/?ALLSTEPS) - TL072 front-end project
+* [Arduino Audio Input](https://www.instructables.com/id/Arduino-Audio-Input/?ALLSTEPS) - TL072 front-end project
 * [ArduinoDSP](https://github.com/telamon/ArduinoDSP) - another DSP project for Arduino
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap235-audiodsp-diy-shield-for-arduino.html)

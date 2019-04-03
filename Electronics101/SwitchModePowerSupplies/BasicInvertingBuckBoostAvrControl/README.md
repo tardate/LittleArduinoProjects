@@ -39,11 +39,11 @@ actually work.
 ### PWM Control
 
 The [BasicInvertingBuckBoostAvrControl.ino](./BasicInvertingBuckBoostAvrControl.ino) sketch
-is based on on original script from [instructables](http://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS).
+is based on on original script from [instructables](https://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS).
 
 The original sketch uses 8-bit Timer/Counter0 Fast PWM with no clock prescaling (CS=0b001).
 Using (non-default) internal clock of 8MHz, this generates a PWM signal on PB1 (pin 6) of
-[31.25 kHz](http://www.wolframalpha.com/input/?i=8MHz%2F1%2F256) [measured: 31.72 kHz].
+[31.25 kHz](https://www.wolframalpha.com/input/?i=8MHz%2F1%2F256) [measured: 31.72 kHz].
 
 It uses [analogWrite](https://www.arduino.cc/en/Reference/analogWrite) to adjust the duty cycle:
 
@@ -67,28 +67,28 @@ Settings (buck mode):
 Required duty cycle:
 
 
-`D = Vout/(Vout - Vin) =` [42.86%](http://www.wolframalpha.com/input/?i=9V%2F(12V+-+-9V))
+`D = Vout/(Vout - Vin) =` [42.86%](https://www.wolframalpha.com/input/?i=9V%2F(12V+-+-9V))
 
 **Output ripple voltage:**
 
-`Ia = Vout/Rload =` [0.9mA](http://www.wolframalpha.com/input/?i=9V%2F10k%CE%A9)
+`Ia = Vout/Rload =` [0.9mA](https://www.wolframalpha.com/input/?i=9V%2F10k%CE%A9)
 
-`∆Vc = Ia * D / (fs * C) =` [0.05528mV](http://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(31.72kHz+*+220%C2%B5F))
+`∆Vc = Ia * D / (fs * C) =` [0.05528mV](https://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(31.72kHz+*+220%C2%B5F))
 
 
 **Average input current:**
 
-`Is = Ia * D / (1 - D) =` [0.68mA](http://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(1+-+0.4286))
+`Is = Ia * D / (1 - D) =` [0.68mA](https://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(1+-+0.4286))
 
 
 **Average inductor current:**
 
-`Il = Ia / (1 - D) =` [1.58mA](http://www.wolframalpha.com/input/?i=0.9mA+%2F+(1+-+0.4286))
+`Il = Ia / (1 - D) =` [1.58mA](https://www.wolframalpha.com/input/?i=0.9mA+%2F+(1+-+0.4286))
 
 
 **Inductor peak-peak ripple current:**
 
-`∆Ii = Vin * D / (fs * L) =` [4.913A](http://www.wolframalpha.com/input/?i=12V+*+0.4286+%2F+(31.72+kHz+*+33%C2%B5H))
+`∆Ii = Vin * D / (fs * L) =` [4.913A](https://www.wolframalpha.com/input/?i=12V+*+0.4286+%2F+(31.72+kHz+*+33%C2%B5H))
 
 That's quite a spike
 
@@ -119,7 +119,7 @@ VREF adjusted to a mid-point:
 ## Credits and References
 * [LEAP#255 AvrHardwarePWM/ATtiny](../AvrHardwarePWM/ATtiny)
 * [DIY Buck/Boost Converter (Flyback) || How to step up/down DC voltage efficiently](https://www.youtube.com/watch?v=ZiD_X-uo_TQ) - video by GreatScott!
-* [DIY Buck/Boost Converter](http://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS) - instructables
+* [DIY Buck/Boost Converter](https://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS) - instructables
 * [Buck–boost converter](https://en.wikipedia.org/wiki/Buck%E2%80%93boost_converter) - wikipedia
 * [Power-Switching Converters](https://www.goodreads.com/book/show/1908950.Power_Switching_Converters) - Simon Ang, Alejandro Oliva
 * [IRF3205 datasheet](http://parts.io/detail/215337130/IRF3205PBF) - parts.io

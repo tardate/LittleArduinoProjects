@@ -4,7 +4,7 @@ Audio level VU meter driving a custom LED sign.
 
 Here's a quick video of it in action:
 
-[![StayCreative](http://img.youtube.com/vi/lfrAL8ZSpl4/0.jpg)](http://www.youtube.com/watch?v=lfrAL8ZSpl4)
+[![StayCreative](https://img.youtube.com/vi/lfrAL8ZSpl4/0.jpg)](https://www.youtube.com/watch?v=lfrAL8ZSpl4)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -47,7 +47,7 @@ But it turns out that the current draw is about 50mA with all the LEDs fully on 
 
 ## Credits and References
 * [2N7000 datasheet](url) n-channel MOSFET
-* [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
+* [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [IRF540N datasheet](url) n-channel MOSFET
 * [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI)
 * [BuckConverter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-1)

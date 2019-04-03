@@ -5,7 +5,7 @@ The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.
 
 Here's a quick demo of it in action..
 
-[![Build](./assets/mostap_build.jpg?raw=true)](http://www.youtube.com/watch?v=TFuhajrzV-M)
+[![Build](./assets/mostap_build.jpg?raw=true)](https://www.youtube.com/watch?v=TFuhajrzV-M)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -129,9 +129,9 @@ The mostap was mounted in my test jig for this, and the supply voltage set at 5V
 * [MOSTAP](http://www.boldport.club/shop/product/977922148) - in the Boldport shop
 * [MOSTAP](https://github.com/boldport/mostap) - OSH files on GitHub
 * [MOSTAP](http://community.boldport.club/projects/p05-tap/) - club community site, packed with resources for the project
-* [CD4011 datasheet](http://www.futurlec.com/4000Series/CD4011.shtml)
-* [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
-* [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+* [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [4000-series logic](https://en.wikipedia.org/wiki/4000_series)
 * [7400-series logic](https://en.wikipedia.org/wiki/7400_series)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap345-boldport-club-mostap.html)

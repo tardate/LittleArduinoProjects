@@ -15,15 +15,15 @@ See more links and references at the end, but these videos cover at all very wel
 
 Arduino as ISP
 
-[![clip](http://img.youtube.com/vi/muP1dp73Mdg/0.jpg)](http://www.youtube.com/watch?v=muP1dp73Mdg)
+[![clip](https://img.youtube.com/vi/muP1dp73Mdg/0.jpg)](https://www.youtube.com/watch?v=muP1dp73Mdg)
 
 Arduino on a Breadboard
 
-[![clip](http://img.youtube.com/vi/ufQZnAAxZ7A/0.jpg)](http://www.youtube.com/watch?v=ufQZnAAxZ7A)
+[![clip](https://img.youtube.com/vi/ufQZnAAxZ7A/0.jpg)](https://www.youtube.com/watch?v=ufQZnAAxZ7A)
 
 Julian's Ardutorials: Arduino as an ISP
 
-[![clip](http://img.youtube.com/vi/c8andV3OWr8/0.jpg)](http://www.youtube.com/watch?v=c8andV3OWr8)
+[![clip](https://img.youtube.com/vi/c8andV3OWr8/0.jpg)](https://www.youtube.com/watch?v=c8andV3OWr8)
 
 
 ### Programming Procedure

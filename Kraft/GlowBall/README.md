@@ -4,7 +4,7 @@ Building LED effects for a Glass Eye Studio Celestial Planet Weight.
 
 Here's is a video with a few soothing minutes of the glow effect;-)
 
-[![Build](./assets/GlowBall_build.jpg?raw=true)](http://www.youtube.com/watch?v=hcFyM52ok7U)
+[![Build](./assets/GlowBall_build.jpg?raw=true)](https://www.youtube.com/watch?v=hcFyM52ok7U)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -76,9 +76,9 @@ FWIW, here are my scratchy notes on how I laid out the protoboard:
 * [LEAP#231 LEDDimmer/CurrentRegulator](../../Electronics101/LEDDimmer/CurrentRegulator) - the project I borrowed the LED dimmer circuit from
 * [Glass Eye Studio](http://www.glasseyestudio.com/)
 * [Glass Eye Studio - Celestial Super Nova](http://www.glasseyestudio.com/492f-glass-eye-studio-celestial-super-nova/)
-* [1N5711 Datasheet](http://www.futurlec.com/Diodes/1N5711.shtml)
+* [1N5711 Datasheet](https://www.futurlec.com/Diodes/1N5711.shtml)
 * [A42 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138719/JIANGSU/A42.html)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
-* [RGB LED datasheet](http://www.futurlec.com/LED/RGB5LED.shtml)
-* [LM358N Datasheet](http://www.futurlec.com/Linear/LM358N.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
+* [RGB LED datasheet](https://www.futurlec.com/LED/RGB5LED.shtml)
+* [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap338-going-glowball.html)

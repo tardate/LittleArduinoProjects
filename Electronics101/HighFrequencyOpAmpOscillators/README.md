@@ -4,7 +4,7 @@ How fast can you push an Op-Amp oscillator?
 
 Here's a quick demo of the circuit in action:
 
-[![HighFrequencyOpAmpOscillators](http://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](http://www.youtube.com/watch?v=aBbVXSlS4nA)
+[![HighFrequencyOpAmpOscillators](https://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](https://www.youtube.com/watch?v=aBbVXSlS4nA)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -78,9 +78,9 @@ Maybe the components I have on hand are not up to normal spec: purchased online 
 ## Credits and References
 * [Astable Multivibrator using Op-amp](http://www.electronics-tutorials.ws/opamp/op-amp-multivibrator.html)
 * [Op-amp Astables](http://www.learnabout-electronics.org/Oscillators/osc42.php)
-* [LM324N datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
+* [LM324N datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [UA741CN datasheet](http://www.ti.com/lit/ds/symlink/ua741.pdf)
-* [TL072CP datasheet](http://www.futurlec.com/Linear/TL072CP.shtml)
-* [LF347N datasheet](http://www.futurlec.com/Linear/LF347N.shtml)
+* [TL072CP datasheet](https://www.futurlec.com/Linear/TL072CP.shtml)
+* [LF347N datasheet](https://www.futurlec.com/Linear/LF347N.shtml)
 * [NE5534P datasheet](http://www.ti.com/product/NE5534/datasheet)
 

@@ -6,7 +6,7 @@ Using the MCP2200 GPIO from MacOSX. With great power comes great responsibility 
 
 Here's quick demo to show it in action:
 
-[![Build](http://img.youtube.com/vi/QD8XAKR6MQo/0.jpg)](http://www.youtube.com/watch?v=QD8XAKR6MQo)
+[![Build](https://img.youtube.com/vi/QD8XAKR6MQo/0.jpg)](https://www.youtube.com/watch?v=QD8XAKR6MQo)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -84,7 +84,7 @@ I tried this first on a breadboard
 
 Here's a quick demo on the breadboard:
 
-[![Build](http://img.youtube.com/vi/Tv6zqlW3XqY/0.jpg)](http://www.youtube.com/watch?v=Tv6zqlW3XqY)
+[![Build](https://img.youtube.com/vi/Tv6zqlW3XqY/0.jpg)](https://www.youtube.com/watch?v=Tv6zqlW3XqY)
 
 For no particular reason, I decided to put the circuit on a bit of protoboard, with pin headers
 to accommodate the MCP2200 DevKit. Here's a sketch of the layout I used:

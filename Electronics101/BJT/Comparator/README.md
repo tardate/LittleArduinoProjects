@@ -11,7 +11,7 @@ Investigating and testing a comparator design with discrete components.
 Comparators are used to compare two voltages, with a binary output (high or low).
 
 These days, it is common to see OpAmps used as general purpose comparators.
-There are also specialised comparator ICs such as the [LM311](http://www.futurlec.com/Linear/LM311N.shtml)
+There are also specialised comparator ICs such as the [LM311](https://www.futurlec.com/Linear/LM311N.shtml)
 (from the LM111 family - one of the first comparator IC families).
 Comparator ICs are typically for more demanding applications and may feature:
 

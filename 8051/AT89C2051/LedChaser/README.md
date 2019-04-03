@@ -6,7 +6,7 @@ Run an LED chaser with an AT89C2051 using interrupts for timing; C source compil
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/OgvEktRaQ-w/0.jpg)](http://www.youtube.com/watch?v=OgvEktRaQ-w)
+[![clip](https://img.youtube.com/vi/OgvEktRaQ-w/0.jpg)](https://www.youtube.com/watch?v=OgvEktRaQ-w)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

@@ -7,7 +7,7 @@ Run a basic waveform demo with an AD9833 module
 ## Notes
 
 I bought an
-[AD9833 module from a seller on aliexpress](http://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
+[AD9833 module from a seller on aliexpress](https://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
 with the intention of using it to build a function generator to add to my collection of test gear.
 
 This project is a first test to explore:
@@ -110,7 +110,7 @@ Running at 300kHz, pretty accurate!
 
 ## Credits and References
 * Thanks to Michaël via email for the idea of an "off" step in the demo cycle
-* [Module from a seller on aliexpress](http://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
+* [Module from a seller on aliexpress](https://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
 * [AD9833 datasheet](http://www.analog.com/en/products/rf-microwave/direct-digital-synthesis-modulators/ad9833.html)
 * [Arduino SPI Reference](https://www.arduino.cc/en/Reference/SPI)
 * [Sending out the right signals](https://gr33nonline.wordpress.com/2015/08/04/making-the-right-signals/) - informative round-up of various signal generator modules

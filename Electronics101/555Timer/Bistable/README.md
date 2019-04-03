@@ -15,7 +15,7 @@ Here I'm reproducing his [bistable latch circuit based on the 555 timer](https:/
 
 This circuit takes advantage of the fact that the trigger and reset pins provide direct access to the SR latch within the 555 timer that drives the output.
 
-* The trigger pin provides a SET input when it rises above the 33% division of the 5V input - [1.67V](http://www.wolframalpha.com/input/?i=5V%2F3).
+* The trigger pin provides a SET input when it rises above the 33% division of the 5V input - [1.67V](https://www.wolframalpha.com/input/?i=5V%2F3).
 * The reset pin provides an inverted (Active low) RESET input.
 
 With pull-ups on both trigger and reset pins, the 555 is in a SET (output high) state.
@@ -43,5 +43,5 @@ This appears to be cross-over distortion on the 555 output.
 
 ## Credits and References
 * [Bistable 555 - 8-bit computer clock - part 3](https://www.youtube.com/watch?v=WCwJNnx36Rk) - Ben Eater
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap318-555-bistable-latch.html)

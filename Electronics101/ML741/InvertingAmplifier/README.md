@@ -31,7 +31,7 @@ For this reason, the non-inverting input is pegged to V+/2 with a voltage divide
 In a dual rail configuration, V+/2 is usually "ground".
 
 The breadboard build has a fixed gain of
-[-2](http://www.wolframalpha.com/input/?i=-20k%CE%A9%2F10k%CE%A9)
+[-2](https://www.wolframalpha.com/input/?i=-20k%CE%A9%2F10k%CE%A9)
 but of course the feedback resistor can be replaced with a pot for manual variable gain.
 
 ![Breadboard](./assets/InvertingAmplifier_bb.jpg?raw=true)
@@ -91,7 +91,7 @@ Measurements in action...
 
 ## Credits and References
 * [ML741](../) - the ML741 discrete component project
-* [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
+* [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Inverting amplifier](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_amplifier) - wikipedia
 * [The Op-amp Inverter](http://www.electronics-tutorials.ws/opamp/op-amp-building-blocks.html)
 

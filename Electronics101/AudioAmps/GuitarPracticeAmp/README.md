@@ -6,7 +6,7 @@ Single-channel 10W guitar practice amplifier based on the TDA2050
 
 Here's a quick demo, clean tone from a Spanish guitar with built-in pickup:
 
-[![demo - clean](http://img.youtube.com/vi/JPGOWG4AId8/0.jpg)](http://www.youtube.com/watch?v=JPGOWG4AId8)
+[![demo - clean](https://img.youtube.com/vi/JPGOWG4AId8/0.jpg)](https://www.youtube.com/watch?v=JPGOWG4AId8)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

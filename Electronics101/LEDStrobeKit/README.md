@@ -9,7 +9,7 @@ Build and analyse a common LED strobe kit.
 
 ## Notes
 
-Another cheap kit build, this time a [CD4017 + ne555 Strobe module](http://www.aliexpress.com/item/CD4017-ne555-Strobe-module-electronics-production-suite-DIY-Kits-electronic-diy-Learning-suite/32438304004.html)
+Another cheap kit build, this time a [CD4017 + ne555 Strobe module](https://www.aliexpress.com/item/CD4017-ne555-Strobe-module-electronics-production-suite-DIY-Kits-electronic-diy-Learning-suite/32438304004.html)
 that I picked up from a seller on aliexpress.
 
 Turns out it is the same module that Julian Ilett covered in another of his excellent vidoes:
@@ -124,9 +124,9 @@ This is exactly what Julian Ilett covered in
 ![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
 
 ## Credits and References
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
-* [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP e.g. [S8050 PNP Datasheet](http://www.futurlec.com/Transistors/S8050.shtml)
-* [CD4017 + ne555 Strobe module electronics production suite DIY Kits electronic diy Learning suite](http://www.aliexpress.com/item/CD4017-ne555-Strobe-module-electronics-production-suite-DIY-Kits-electronic-diy-Learning-suite/32438304004.html)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
+* [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP e.g. [S8050 PNP Datasheet](https://www.futurlec.com/Transistors/S8050.shtml)
+* [CD4017 + ne555 Strobe module electronics production suite DIY Kits electronic diy Learning suite](https://www.aliexpress.com/item/CD4017-ne555-Strobe-module-electronics-production-suite-DIY-Kits-electronic-diy-Learning-suite/32438304004.html)
 * [Postbag #29: Fun Re-Wiring a 555 and 4017 LED Module](https://www.youtube.com/watch?v=bxyp4Jq8a3Y)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects224-led-strobe-kit.html)

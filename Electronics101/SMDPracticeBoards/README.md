@@ -24,7 +24,7 @@ The challenge kind of breaks down into two categories:
 
 * larger pitch SMDs which can quite easily be soldered with traditional techniques
   * e.g. SOT/SOIC components and 0805 or even 0603 discrete components with a pitch of 0.95 or higher
-  * [SO16 SSOP16 TSSOP16 SOIC16 To DIP adapter boards](http://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) are handy to make the components breadboard-compatible
+  * [SO16 SSOP16 TSSOP16 SOIC16 To DIP adapter boards](https://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) are handy to make the components breadboard-compatible
 
 * small pitch SMD packages that generally require drag or reflow soldering techniques
   * e.g TSSOP/TQFP packages with a pitch of 0.80 or lower
@@ -45,7 +45,7 @@ To get started, there are some pretty cheap practice boards available, like this
 
 ### SMD Practice Kit #1
 
-Obtained from [a seller on aliexpress](http://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) for under USD1 per board.
+Obtained from [a seller on aliexpress](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) for under USD1 per board.
 
 This is an example of a basic practice board
 * with 0603, 0805, 1206, SOT-23 and SOP-16 components.
@@ -58,7 +58,7 @@ Here's the test circuit showing a pass on my practice board (yay! ... though you
 
 ### SMD Practice Kit #2
 
-Obtained from [a seller on aliexpress](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) for around USD2.50 per board.
+Obtained from [a seller on aliexpress](https://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) for around USD2.50 per board.
 
 This is an example of a pretty full-featured practice board with a wide range of components from 0402 to 1206 and SOP-8/16.
 * central feature is a classic 4017/555 strobe circuit - similar to the [RingCounter](../RingCounter) project
@@ -68,10 +68,10 @@ This is an example of a pretty full-featured practice board with a wide range of
 
 Here's a quick video of the test circuit in action:
 
-[![SMD Kit#2 demo](http://img.youtube.com/vi/-0-qbcGySPA/0.jpg)](http://www.youtube.com/watch?v=-0-qbcGySPA)
+[![SMD Kit#2 demo](https://img.youtube.com/vi/-0-qbcGySPA/0.jpg)](https://www.youtube.com/watch?v=-0-qbcGySPA)
 
 
 ## Credits and References
-* [Kit #1 Practice Board](http://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) - example of a basic practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components
-* [Kit #2 Practice Board](http://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) - example of a pretty full-featured practice board
-* [SO16 SSOP16 TSSOP16 SOIC16 To DIP Adapter PCB Board Converter](http://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) - modules I used from an aliexpres seller to mount the SOP-8 chip
+* [Kit #1 Practice Board](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) - example of a basic practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components
+* [Kit #2 Practice Board](https://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) - example of a pretty full-featured practice board
+* [SO16 SSOP16 TSSOP16 SOIC16 To DIP Adapter PCB Board Converter](https://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) - modules I used from an aliexpres seller to mount the SOP-8 chip

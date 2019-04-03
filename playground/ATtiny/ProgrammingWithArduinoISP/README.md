@@ -4,7 +4,7 @@ Programming an ATTINY85-20PU on a breadboard with Arduino ISP
 
 Here's a quick video of it in action:
 
-[![ProgrammingWithArduinoISP](http://img.youtube.com/vi/eILb11BE6pY/0.jpg)](http://www.youtube.com/watch?v=eILb11BE6pY)
+[![ProgrammingWithArduinoISP](https://img.youtube.com/vi/eILb11BE6pY/0.jpg)](https://www.youtube.com/watch?v=eILb11BE6pY)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

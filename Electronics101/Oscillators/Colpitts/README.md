@@ -15,7 +15,7 @@ The distinguishing feature of a Colpitts oscillator is that the feedback to gain
 is taken from the midpoint of the two capacitors.
 
 With C1,C2=100nF and L1=1mH, I should expect oscillation at
-[22.5kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29),
+[22.5kHz](https://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29),
 however on my first breadboard build I'm getting around 33kHz:
 
 ![breadboard_ac_coupled](./assets/breadboard_ac_coupled.gif?raw=true)
@@ -28,7 +28,7 @@ So more experiments required..
 
 Putting the circuit on a protoboard and using some better quality capacitors makes all the difference!
 
-I'm seeing an almost perfect 22.9kHz compared to the theoretical [22.5kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29).
+I'm seeing an almost perfect 22.9kHz compared to the theoretical [22.5kHz](https://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*sqrt%281mH+*+100nF+*+100nF%2F%28100nF+%2B+100nF%29%29%29).
 
 The frequency can be tuned (reduced) with a capacitor in parallel with the inductor, up to about 100nF when the oscillation will be lost.
 

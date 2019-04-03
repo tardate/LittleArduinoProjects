@@ -41,5 +41,5 @@ In this trace:
 ## Credits and References
 * [#231: Circuit Fun: Stairstep generator using 555 and op amps](https://youtu.be/Kqb5zcrgv7s?list=PL4ZSD4omd_Aw-ozOphzFCkhWMtBdyEIrP) - inspiration for this circuit
 * [annotated circuit](http://www.qsl.net/w2aew//youtube/231-KL0S_Notes.pdf) - by KL0S
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [LMV324 Datasheet](https://www.fairchildsemi.com/datasheets/LM/LMV324.pdf)

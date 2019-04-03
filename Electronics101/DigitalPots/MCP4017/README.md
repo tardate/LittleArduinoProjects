@@ -44,7 +44,7 @@ the resistance rating of the chip is ±20%.
 The [MCP4017.ino](./MCP4017.ino) sketch is a simple exercise of the chip. It steps from 0Ω to full scale with a 2µs delay between steps.
 
 Note the trace looks logarithmic, but this is expected for a linear change in resistance,
-as I am measuring the resistance in a voltage divider - [x/(x+10kΩ)](http://www.wolframalpha.com/input/?i=%7Bx%2F(x%2B10),+x%3D0+to+80%7D).
+as I am measuring the resistance in a voltage divider - [x/(x+10kΩ)](https://www.wolframalpha.com/input/?i=%7Bx%2F(x%2B10),+x%3D0+to+80%7D).
 The voltage divider is in the test circuit to avoid pumping more than the rated ±2.5 mA through the chip.
 
 ![scope_full_scale_2us_per](./assets/scope_full_scale_2us_per.gif?raw=true)

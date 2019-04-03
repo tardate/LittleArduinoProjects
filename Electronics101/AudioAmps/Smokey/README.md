@@ -4,7 +4,7 @@ A quick build of a Smokey-like LM386 guitar power amp.
 
 Here's a quick demo of the circuit in action:
 
-[![Smokey](http://img.youtube.com/vi/1Fk-NTBetNM/0.jpg)](http://www.youtube.com/watch?v=1Fk-NTBetNM)
+[![Smokey](https://img.youtube.com/vi/1Fk-NTBetNM/0.jpg)](https://www.youtube.com/watch?v=1Fk-NTBetNM)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -38,4 +38,4 @@ I had to make a couple of variations to get it to work properly:
 * [Smokey Amps](http://www.smokeyamps.com/) - official site
 * [Smokey Amp Analysis](http://www.electrosmash.com/smokey-amp-analysis) - excellent circuit analysis of the original Smokey amp.
 * [Observations on the Smokey circuit by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt)
-* [LM386 datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml)
+* [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)

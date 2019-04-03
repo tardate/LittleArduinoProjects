@@ -17,12 +17,12 @@ It provides a linear 10.0 mV/degree output for an operating range of -55°C to 1
 So for example, 250mV is 25°C. How easy is that?
 
 The LM35 output is read with an analog input which has an analog to digital resolution of only 1024 levels (0-1023).
-So with the default 5V reference voltage that means [4.88mV](http://www.wolframalpha.com/input/?i=5000%2F1024)
+So with the default 5V reference voltage that means [4.88mV](https://www.wolframalpha.com/input/?i=5000%2F1024)
 per step. That's reduced the LM35 to having a resolution of only 0.5°C. Not so good.
 
 As suggested in [this article](http://playground.arduino.cc/Main/LM35HigherResolution) and elsewhere,
 an easy improvement is to change the [Arduino voltage reference](http://www.arduino.cc/en/Reference/AnalogReference)
-from 5V to 1.1V, which improves our resolution to about [1.07mV](http://www.wolframalpha.com/input/?i=1100%2F1024), or 0.1°C.
+from 5V to 1.1V, which improves our resolution to about [1.07mV](https://www.wolframalpha.com/input/?i=1100%2F1024), or 0.1°C.
 That's good enough. Note that by switching to the 1.1V reference, the maximum temperature we can read is 110°C.
 
 Although at this resolution it doesn't make a great deal of difference, we can expect the actual voltage reference
@@ -58,9 +58,9 @@ The better way is to put a resistor on each segment pin. But this was good enoug
 ![The Build](./assets/LedTemperatureDisplay_build.jpg?raw=true)
 
 ## Credits and references
-* [LM35 Datasheet](http://www.futurlec.com/Linear/LM35DZ.shtml)
-* [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [LM35 Datasheet](https://www.futurlec.com/Linear/LM35DZ.shtml)
+* [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty stanrd example
 * [Arduino AnalogReference](http://www.arduino.cc/en/Reference/AnalogReference)
 * [High-resolution LM35 readings](http://playground.arduino.cc/Main/LM35HigherResolution)

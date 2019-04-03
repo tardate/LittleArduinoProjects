@@ -23,7 +23,7 @@ See also [LEAP#383 LM723/LowVoltageRegulator](../LowVoltageRegulator) for more b
 
 ### Basic High Voltage Regulator
 
-[![LM723_basic_high_voltage_regulator](./assets/LM723_basic_high_voltage_regulator.png?raw=true)](http://www.futurlec.com/Linear/LM723CN.shtml)
+[![LM723_basic_high_voltage_regulator](./assets/LM723_basic_high_voltage_regulator.png?raw=true)](https://www.futurlec.com/Linear/LM723CN.shtml)
 
 
 #### Output Voltage Set
@@ -33,16 +33,16 @@ This is what is meant by "high voltage regulator" - the output voltage will be g
 
 
 I'm using R1=1.2kΩ, and R2=4.7kΩ, so assuming Vref=7.15V, the expected output voltage is
-[8.976V](http://www.wolframalpha.com/input/?i=7.15V*+(1.2k%CE%A9+%2B+4.7k%CE%A9)%2F4.7k%CE%A9)
+[8.976V](https://www.wolframalpha.com/input/?i=7.15V*+(1.2k%CE%A9+%2B+4.7k%CE%A9)%2F4.7k%CE%A9)
 
 The reference voltage is fed to the error amplifier via R3.
 For minimum temperature drift,
-[R3 = R1 * R2/(R1+R2) = 960Ω](http://www.wolframalpha.com/input/?i=(1.2k%CE%A9+*+4.7k%CE%A9)%2F(1.2k%CE%A9+%2B+4.7k%CE%A9)), say use 1kΩ
+[R3 = R1 * R2/(R1+R2) = 960Ω](https://www.wolframalpha.com/input/?i=(1.2k%CE%A9+*+4.7k%CE%A9)%2F(1.2k%CE%A9+%2B+4.7k%CE%A9)), say use 1kΩ
 
 
 Actual performance: I'm reading a regulated output of 9.06V, slightly over the predicted value.
 I measure the actual R1 and R2 values and they are accurate within 10Ω. But I measure the Vref output of the LM723 at 7.26V.
-At this value, the expected output is closer at [9.1V](http://www.wolframalpha.com/input/?i=7.26V*+(1.2k%CE%A9+%2B+4.7k%CE%A9)%2F4.7k%CE%A9).
+At this value, the expected output is closer at [9.1V](https://www.wolframalpha.com/input/?i=7.26V*+(1.2k%CE%A9+%2B+4.7k%CE%A9)%2F4.7k%CE%A9).
 
 
 
@@ -55,7 +55,7 @@ current limiting transistor in the LM723.
 When the current through Rsc produces a voltage drop of over about 0.5V, the current limiter starts throttling
 the output control transistor.
 
-Assuming a limiting drop of 0.5V and a target current limit of 50mA, [Rsc = Vbe/Ilimit = 10Ω](http://www.wolframalpha.com/input/?i=0.5V%2F50mA)
+Assuming a limiting drop of 0.5V and a target current limit of 50mA, [Rsc = Vbe/Ilimit = 10Ω](https://www.wolframalpha.com/input/?i=0.5V%2F50mA)
 
 I haven't tested the effectiveness of the current limit yet.
 
@@ -83,5 +83,5 @@ As I reduce the supply voltage, it starts to lose regulation at about 10.6V.
 ![Build](./assets/HighVoltageRegulator_build.jpg?raw=true)
 
 ## Credits and References
-* [LM723 Datasheet](http://www.futurlec.com/Linear/LM723CN.shtml)
+* [LM723 Datasheet](https://www.futurlec.com/Linear/LM723CN.shtml)
 * [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)- Chapter 6, Second Edition

@@ -84,8 +84,8 @@ Protoboard build:
 ![Build](./assets/DigitalLogicClock_build.jpg?raw=true)
 
 ## Credits and References
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [74LS00 datasheet](http://www.futurlec.com/74LS/74LS00.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Astable 555 timer - 8-bit computer clock - part 1](https://www.youtube.com/watch?v=kRlSFm519Bo) - Ben Eater
 * [Monostable 555 timer - 8-bit computer clock - part 2](https://www.youtube.com/watch?v=81BgFhm2vz8) - Ben Eater

@@ -4,7 +4,7 @@ Two Arduino's entertaining themselves with a game of "ping pong" over nRF24L01+ 
 
 Here's a quick video of a "game" in action:
 
-[![nRF24/PingPong](http://img.youtube.com/vi/aNJqokwFAGI/0.jpg)](http://www.youtube.com/watch?v=aNJqokwFAGI)
+[![nRF24/PingPong](https://img.youtube.com/vi/aNJqokwFAGI/0.jpg)](https://www.youtube.com/watch?v=aNJqokwFAGI)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

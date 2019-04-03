@@ -4,7 +4,7 @@ Simple data communications using ASK protocol over 433Mhz RF transmitter and rec
 
 Here's a quick video of the circuit in action:
 
-[![RFSwitchASK demo](http://img.youtube.com/vi/mY-AEeIW1pc/0.jpg)](http://www.youtube.com/watch?v=mY-AEeIW1pc)
+[![RFSwitchASK demo](https://img.youtube.com/vi/mY-AEeIW1pc/0.jpg)](https://www.youtube.com/watch?v=mY-AEeIW1pc)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -53,7 +53,7 @@ It then sets its LED in accordance. So when sender/receiver are running, their r
 * [RFSwitch](../../Electronics101/RFSwitch) project - simple RF analog communication without microcontrollers
 * [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/) library original sources
 * [RadioHead on GitHub](https://github.com/tardate/RadioHead) - my fork
-* [1 pair (2pcs)433Mhz RF transmitter and receiver link kit](http://www.aliexpress.com/item/Best-prices-1-pair-2pcs-433Mhz-RF-transmitter-and-receiver-link-kit-for-Arduino/1973229871.html) - this is the product I am testing with. Not bad at 0.80USD with free shipping!
+* [1 pair (2pcs)433Mhz RF transmitter and receiver link kit](https://www.aliexpress.com/item/Best-prices-1-pair-2pcs-433Mhz-RF-transmitter-and-receiver-link-kit-for-Arduino/1973229871.html) - this is the product I am testing with. Not bad at 0.80USD with free shipping!
 * [RF Module datasheet](http://www.robotshop.com/media/files/pdf/datasheet-im120628014.pdf) - not the exact unit I have, but close. This datasheet is more an application guide than technical spec.
 * [Wikipedia: short range/low-power devices](http://en.wikipedia.org/wiki/Short_Range_Devices)
 * [Wikipedia: LPD433](http://en.wikipedia.org/wiki/LPD433) - info about low power device 433 MHz/70-centimeter band standards.

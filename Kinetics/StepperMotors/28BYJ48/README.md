@@ -13,7 +13,7 @@ Here's a quick demo..
 ## Notes
 
 The 28BYJ-48 stepper motor is pretty common in Arduino kits, and
-[available from various suppliers on aliexpress](http://www.aliexpress.com/item/Free-shipping-one-set-5-v-ULN2003-stepper-motor-drive-board/1938256381.html),
+[available from various suppliers on aliexpress](https://www.aliexpress.com/item/Free-shipping-one-set-5-v-ULN2003-stepper-motor-drive-board/1938256381.html),
 often supplied with an "X113647" ULN2003A driver board.
 
 It is a 5-wire unipolar motor that runs at 5V and is suitable for cases where higher precision and torque are required, but not high rotational speed.
@@ -221,5 +221,5 @@ Note the crossover of the wires eminating from the 28BYJ-48. This is actually do
 * [Arduino Stepper library](https://www.arduino.cc/en/Reference/Stepper)
 * [Stepper Motor](https://en.wikipedia.org/wiki/Stepper_motor) - wikipedia
 * [Arduino - Stepper Motor with ULN2803 IC](https://roboindia.com/tutorials/arduino-stepper-motor)
-* [ULN2003A datasheet](http://www.futurlec.com/Linear/ULN2003A.shtml)
+* [ULN2003A datasheet](https://www.futurlec.com/Linear/ULN2003A.shtml)
 * [Robot Builder's Bonanza - Working with Stepper Motors](http://www.robotoid.com/bonus-chapters.html) Bonus Chapters From RBB Fourth Edition

@@ -4,7 +4,7 @@ Test driving a Nokia 5110 LCD Display with an Arduino and the raw command set
 
 Here's a quick video of the circuit in action:
 
-[![Lcd5110BareBack demo](http://img.youtube.com/vi/nDB-FT9jysI/0.jpg)](http://www.youtube.com/watch?v=nDB-FT9jysI)
+[![Lcd5110BareBack demo](https://img.youtube.com/vi/nDB-FT9jysI/0.jpg)](https://www.youtube.com/watch?v=nDB-FT9jysI)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -40,5 +40,5 @@ This is the module I'm using:
 * [Arduino Nokia 5110 LCD Tutorial #1 - Connecting and Initial Programming](https://www.youtube.com/watch?v=RAlZ1DHw03g)
 * [Arduino Nokia 5110 LCD Tutorial #2 - Getting Text on the Display](https://www.youtube.com/watch?v=E6PUa4n2DnA)
 * [Arduino Nokia 5110 LCD Tutorial #3 - Live Numerical Data](https://www.youtube.com/watch?v=cwsCxUhHbQM)
-* [Nokia 5110 graphics tutorial](http://www.instructables.com/id/Nokia-5110-graphics-tutorial/?ALLSTEPS) - uses the [LCD5110_Graph library](http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Graph.zip)
-* [How to use a Nokia 5110 84X48 LCD display with your Arduino](http://www.instructables.com/id/How-to-use-a-Nokia-5110-84X48-LCD-display-with-you/) - using the [AdaFruit library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
+* [Nokia 5110 graphics tutorial](https://www.instructables.com/id/Nokia-5110-graphics-tutorial/?ALLSTEPS) - uses the [LCD5110_Graph library](http://www.rinkydinkelectronics.com/download.php?f=LCD5110_Graph.zip)
+* [How to use a Nokia 5110 84X48 LCD display with your Arduino](https://www.instructables.com/id/How-to-use-a-Nokia-5110-84X48-LCD-display-with-you/) - using the [AdaFruit library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)

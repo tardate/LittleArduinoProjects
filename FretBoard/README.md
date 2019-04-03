@@ -1,6 +1,6 @@
 # #018 FretBoard
 
-FretBoard is a multi-project build status indicator, using a [WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
+FretBoard is a multi-project build status indicator, using a [WS2811-based LED Strip](https://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html)
 to display the status of each project.
 
 Full details of the project are available at [fretboard.tardate.com](https://fretboard.tardate.com)
@@ -112,7 +112,7 @@ And then connectors etc depending on the physical housing.
 
 ### LED Strip Data
 
-[WS2811-based LED Strip](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) ships in a strip of 50 LEDs (cut down to 24 for this project). The basic details:
+[WS2811-based LED Strip](https://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) ships in a strip of 50 LEDs (cut down to 24 for this project). The basic details:
 
 * Certification: EMC,FCC,LVD,RoHS
 * Brand Name: olym-led
@@ -132,12 +132,12 @@ And then connectors etc depending on the physical housing.
 * [adafruit digital-led-strip wiring](https://learn.adafruit.com/digital-led-strip/wiring)
 * [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 * [Arduino and WS2812 LEDs](http://www.tweaking4all.com/hardware/arduino/arduino-ws2812-led/)
-* [Bit banging step-by-step: Arduino control of WS2811, WS2812, and WS2812B RGB LEDs](http://www.instructables.com/id/Bitbanging-step-by-step-Arduino-control-of-WS2811-/)
+* [Bit banging step-by-step: Arduino control of WS2811, WS2812, and WS2812B RGB LEDs](https://www.instructables.com/id/Bitbanging-step-by-step-Arduino-control-of-WS2811-/)
 * [Digital Addressable Led Strip & Arduino](http://interface.khm.de/index.php/lab-log/digital-addressable-led-strip-arduino/) - code for simple example
 * [Driving a WS2811 RGB LED Strip with an Arduino](http://erroraccessdenied.com/node/1707)
 * [FastLED Animation Library](http://fastled.io/)
 * [FastSPI LED Effects](http://funkboxing.com/wordpress/?p=1366) - some custom code for driving the ws2811
 * [thread on connecting datalines to LED array](http://forum.espruino.com/conversations/699/)
-* [Use a $1 ATTiny to drive addressable RGB LEDs](http://www.instructables.com/id/Use-a-1-ATTiny-to-drive-addressable-RGB-LEDs/)
+* [Use a $1 ATTiny to drive addressable RGB LEDs](https://www.instructables.com/id/Use-a-1-ATTiny-to-drive-addressable-RGB-LEDs/)
 * [WS2811 Digital RGB LED](http://wiki.hacdc.org/index.php/WS2811_Digital_RGB_LED) - good data sheet and tips resource - addressable LEDs
 * [..as mentioned on my blog](https://blog.tardate.com/2015/02/the-fretboard-multi-project-build.html)

@@ -6,7 +6,7 @@ Testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/9xpNcJ_0jvI/0.jpg)](http://www.youtube.com/watch?v=9xpNcJ_0jvI)
+[![clip](https://img.youtube.com/vi/9xpNcJ_0jvI/0.jpg)](https://www.youtube.com/watch?v=9xpNcJ_0jvI)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

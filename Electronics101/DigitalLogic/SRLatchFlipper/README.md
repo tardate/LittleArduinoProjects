@@ -4,7 +4,7 @@ Set/Reset latch with BJTs, controlled and monitored by an Arduino.
 
 Here's a quick video of the circuit in action:
 
-[![SRLatchFlipper demo](http://img.youtube.com/vi/KXwm6WrVOow/0.jpg)](http://www.youtube.com/watch?v=KXwm6WrVOow)
+[![SRLatchFlipper demo](https://img.youtube.com/vi/KXwm6WrVOow/0.jpg)](https://www.youtube.com/watch?v=KXwm6WrVOow)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -47,7 +47,7 @@ The plot demonstrates:
 
 ## Credits and References
 * [LEAP#061 SRLatch](../SRLatch) - same project, but with manual inputs rather than Arduino control
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [SR latch](https://en.wikibooks.org/wiki/Digital_Circuits/Latches#SR_latch) - wikibooks
 * [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
 * [PCB heaven](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - demo circuit used as the basis for this project

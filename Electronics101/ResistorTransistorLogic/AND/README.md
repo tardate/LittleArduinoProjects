@@ -51,7 +51,7 @@ for plotting with [PlotNValues](../../../processing/PlotNValues) (a simple Proce
 
 ## Credits and References
 * [Resistor-Transistor Logic](https://en.wikipedia.org/wiki/Resistor%E2%80%93transistor_logic) - wikipedia page
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
 * [AND Gate](http://en.wikipedia.org/wiki/AND_gate) - wikipedia
 * [TTL NAND and AND gates](http://www.allaboutcircuits.com/vol_4/chpt_3/5.html) - describes a practical implementation of a "real" AND gate
 * [Logic Gates using Transistors](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/trangate.html)

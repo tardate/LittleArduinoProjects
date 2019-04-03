@@ -14,7 +14,7 @@ with a measure of frequency and signal strength.
 
 I think I first saw this in one of dazaro3's videos like How to build a 2 transistor FM transmitter:
 
-[![clip](http://img.youtube.com/vi/py5BD9UcTFA/0.jpg)](https://youtu.be/py5BD9UcTFA?t=974)
+[![clip](https://img.youtube.com/vi/py5BD9UcTFA/0.jpg)](https://youtu.be/py5BD9UcTFA?t=974)
 
 
 ## Specifications

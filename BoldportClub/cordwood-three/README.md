@@ -6,7 +6,7 @@ Custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, wi
 
 Here's a quick demo of the build on a custom test jig "LED Blinky Machine"..
 
-[![clip](http://img.youtube.com/vi/ol5FfNbUmC8/0.jpg)](http://www.youtube.com/watch?v=ol5FfNbUmC8)
+[![clip](https://img.youtube.com/vi/ol5FfNbUmC8/0.jpg)](https://www.youtube.com/watch?v=ol5FfNbUmC8)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -98,6 +98,6 @@ Side view..
 
 ## Credits and References
 * [Cordwood Puzzle Three](https://www.boldport.com/products/cordwood-puzzle-three) - Boldport Product Page
-* [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap411-cordwood-iii-archway-trigger-mod.html)
 * [..as posted on hackady.io](https://hackaday.io/project/160666-cordwood-iii-led-blinking-machine)

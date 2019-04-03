@@ -39,16 +39,16 @@ The simplified formula:
 
     L = (d^2 n^2) / (l + 0.45d) [μH]
 
-gets close to the same result: [66.9nH](http://www.wolframalpha.com/input/?i=1000+*+5%5E2+*+0.0035%5E2+%2F+(0.45+*+0.0035+%2B++0.003))
+gets close to the same result: [66.9nH](https://www.wolframalpha.com/input/?i=1000+*+5%5E2+*+0.0035%5E2+%2F+(0.45+*+0.0035+%2B++0.003))
 
 Assuming that's about right, the supplied C4 value of 30pF predict a resonant frequency of
-[113MHz](http://www.wolframalpha.com/input/?i=(2*%CF%80*sqrt(66nH*30pF))%5E-1), which would explain
+[113MHz](https://www.wolframalpha.com/input/?i=(2*%CF%80*sqrt(66nH*30pF))%5E-1), which would explain
 and confirm why I can't get anything in the standard FM range.
 
-Around 90MHz is pretty clear for me, so I tried replacing C4 with [47pF](http://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*90MHz))%5E2%2F66nH).
+Around 90MHz is pretty clear for me, so I tried replacing C4 with [47pF](https://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*90MHz))%5E2%2F66nH).
 
 This worked! I'm getting a signal at 84.15MHz, from which I infer the coil inductance might be closer to
-[76nH](http://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*84.15MHz))%5E2%2F0.047nF).
+[76nH](https://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*84.15MHz))%5E2%2F0.047nF).
 
 
 ### Performance

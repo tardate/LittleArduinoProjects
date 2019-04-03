@@ -4,7 +4,7 @@ Test a 16-bit R2R-ladder digital to analog converter with shift register interfa
 
 Here's a quick video of the circuit in action:
 
-[![R2RDAC demo](http://img.youtube.com/vi/7upWKor84-4/0.jpg)](http://www.youtube.com/watch?v=7upWKor84-4)
+[![R2RDAC demo](https://img.youtube.com/vi/7upWKor84-4/0.jpg)](https://www.youtube.com/watch?v=7upWKor84-4)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -88,7 +88,7 @@ Here's the component layout design:
 ## Credits and References
 * [Resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder) - wikipedia
 * [#85: Basics of R2R Resistor Networks Digital Analog Conversion, Tutorial DAC Thevenin Superposition](https://www.youtube.com/watch?v=AulX1OM7RwE) - another great video by w2aew
-* [74HC595 datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
-* [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
+* [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
+* [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [List of periodic functions](https://en.wikipedia.org/wiki/List_of_periodic_functions) - wikipedia summary of various wave forms
-* [Arduino Audio Output](http://www.instructables.com/id/Arduino-Audio-Output/?ALLSTEPS) - R2 Ladder implementation
+* [Arduino Audio Output](https://www.instructables.com/id/Arduino-Audio-Output/?ALLSTEPS) - R2 Ladder implementation

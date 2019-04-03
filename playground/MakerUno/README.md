@@ -6,7 +6,7 @@ Checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytro
 
 Here's a quick video of the board in action:
 
-[![clip](http://img.youtube.com/vi/YXwNq41K2Ik/0.jpg)](http://www.youtube.com/watch?v=YXwNq41K2Ik)
+[![clip](https://img.youtube.com/vi/YXwNq41K2Ik/0.jpg)](https://www.youtube.com/watch?v=YXwNq41K2Ik)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

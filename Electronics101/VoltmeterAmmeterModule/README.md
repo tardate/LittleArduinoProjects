@@ -80,11 +80,11 @@ The unit is obviously not suitable if you need accurate mV and mA readings.
 
 | Load      | Nom Voltage | Nom Current                                                    | Nom Power | Measured Voltage | Measured Current |
 |-----------|-------------|----------------------------------------------------------------|-----------|------------------|------------------|
-|   50Ω (1) |         12V | [240mA](http://www.wolframalpha.com/input/?i=12V%2F50%CE%A9)   |     2.88W |              n/a |            n/a   |
-|   25Ω (2) |         12V | [480mA](http://www.wolframalpha.com/input/?i=12V%2F25%CE%A9)   |     5.76W |              n/a |            n/a   |
-| 16.7Ω (3) |         12V | [719mA](http://www.wolframalpha.com/input/?i=12V%2F16.7%CE%A9) |     8.62W |            12.5V |          0.69A   |
-| 12.5Ω (4) |         12V | [960mA](http://www.wolframalpha.com/input/?i=12V%2F12.5%CE%A9) |    11.52W |            12.5V |          0.93A   |
-|   10Ω (5) |         12V | [1.2A](http://www.wolframalpha.com/input/?i=12V%2F10%CE%A9)    |    14.40W |            12.5V |          1.17A   |
+|   50Ω (1) |         12V | [240mA](https://www.wolframalpha.com/input/?i=12V%2F50%CE%A9)   |     2.88W |              n/a |            n/a   |
+|   25Ω (2) |         12V | [480mA](https://www.wolframalpha.com/input/?i=12V%2F25%CE%A9)   |     5.76W |              n/a |            n/a   |
+| 16.7Ω (3) |         12V | [719mA](https://www.wolframalpha.com/input/?i=12V%2F16.7%CE%A9) |     8.62W |            12.5V |          0.69A   |
+| 12.5Ω (4) |         12V | [960mA](https://www.wolframalpha.com/input/?i=12V%2F12.5%CE%A9) |    11.52W |            12.5V |          0.93A   |
+|   10Ω (5) |         12V | [1.2A](https://www.wolframalpha.com/input/?i=12V%2F10%CE%A9)    |    14.40W |            12.5V |          1.17A   |
 
 Note:
 * I didn't take measurements for the 1 and 2 resistor gangs

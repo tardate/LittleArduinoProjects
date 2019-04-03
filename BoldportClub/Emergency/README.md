@@ -4,7 +4,7 @@ Pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 pas
 
 Here's a quick video to show it working..
 
-[![Build](./assets/Emergency_build.jpg?raw=true)](http://www.youtube.com/watch?v=PPUZth8RfCE)
+[![Build](./assets/Emergency_build.jpg?raw=true)](https://www.youtube.com/watch?v=PPUZth8RfCE)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

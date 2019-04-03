@@ -39,8 +39,8 @@ The frequency of the filter network is predicted based on the -3dB cut-off: `f =
 The total phase shift is then: `ø = N.arctan(1/(2πfRC))`
 
 So in the basic R=10kΩ, C=10nF configuration I'm using here, we'd expect
-frequency of [650Hz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+10k%CE%A9+*+10nF+*+sqrt(6)))
-with a phase shift for each stage of [67˚](http://www.wolframalpha.com/input/?i=arctan(1%2F(2%CF%80+*+10nF+*+10k%CE%A9+*+650Hz)+)),
+frequency of [650Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+10k%CE%A9+*+10nF+*+sqrt(6)))
+with a phase shift for each stage of [67˚](https://www.wolframalpha.com/input/?i=arctan(1%2F(2%CF%80+*+10nF+*+10k%CE%A9+*+650Hz)+)),
 for a total phase shift of 201˚ - safely over the 180˚ minimum required.
 
 
@@ -67,7 +67,7 @@ Notes and modifications I've made after the initial schematic design:
 #### R=10kΩ, C=10nF
 
 Produced a 746 Hz oscillation in practice, 14% above predicted. Not very surprised - especially on a breadboard.
-The phase shift per pole of the filter should be around [64˚](http://www.wolframalpha.com/input/?i=arctan(1%2F(2%CF%80+*+10nF+*+10k%CE%A9+*+743Hz)+))
+The phase shift per pole of the filter should be around [64˚](https://www.wolframalpha.com/input/?i=arctan(1%2F(2%CF%80+*+10nF+*+10k%CE%A9+*+743Hz)+))
 
 With a 9V supply, it produces a very nice sine wave at 3.66V peak-to-peak.
 
@@ -79,7 +79,7 @@ With a 9V supply, it produces a very nice sine wave at 3.66V peak-to-peak.
 
 I randomly switch the capacitors to 100nF and it slows things down to a very nice sine wave at 103Hz.
 
-But this is curious: the phase shift per pole would presumably be [57˚](http://www.wolframalpha.com/input/?i=arctan(1%2F(2%CF%80+*+100nF+*+10k%CE%A9+*+103Hz)+)),
+But this is curious: the phase shift per pole would presumably be [57˚](https://www.wolframalpha.com/input/?i=arctan(1%2F(2%CF%80+*+100nF+*+10k%CE%A9+*+103Hz)+)),
 and one would think the oscillation couldn't be maintained.
 
 Since I know these ceramic 100nF caps tend to err significantly low (sometimes down to ~90nF), I suspect this is only working for me accidentally doe to parts tolerance.
@@ -117,5 +117,5 @@ Results with an ugly-style construction on a copper PCB are much closer to theor
 * [RC Phase Shift Oscillator Circuit Working and Applications](https://www.elprocus.com/rc-phase-shift-oscillator-circuit-working-and-applications/) - elprocus
 * [RC Oscillator-using Op-Amp,BJT](http://www.electronicshub.org/rc-oscillator/) - electronicshub
 * [Class A Amplifier](http://www.electronics-tutorials.ws/amplifier/amp_5.html)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap332-rc-phase-shift-oscillator.html)

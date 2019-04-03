@@ -54,4 +54,4 @@ When used with the 28BYJ-48, the connections are as follows:
 ![Schematic](./assets/ULN2003Module_schematic.jpg?raw=true)
 
 ## Credits and References
-* [ULN2003A datasheet](http://www.futurlec.com/Linear/ULN2003A.shtml)
+* [ULN2003A datasheet](https://www.futurlec.com/Linear/ULN2003A.shtml)

@@ -4,7 +4,7 @@ A general-purpose CD4017 counter module.
 
 Here's a quick video of the module in action:
 
-[![CounterModule](http://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](http://www.youtube.com/watch?v=fvmFiRvSUXc)
+[![CounterModule](https://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](https://www.youtube.com/watch?v=fvmFiRvSUXc)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -45,7 +45,7 @@ But it depends on the specific LED ratings, as this subjects the LEDs to a rever
 ![The Build](./assets/CounterModule_build_breadboard.jpg?raw=true)
 
 ## Credits and References
-* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
+* [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [RingCounterController](../RingCounterController) - similar project but just running on a breadboard
 
 

@@ -122,7 +122,7 @@ $ ./lfsr.py -1
 
 Recently Julian Ilett delved deep into LFSRs in his inimitable style with "The 10,000 Year Shift Register":
 
-[![clip](http://img.youtube.com/vi/juoM7VhXQDM/0.jpg)](http://www.youtube.com/watch?v=juoM7VhXQDM)
+[![clip](https://img.youtube.com/vi/juoM7VhXQDM/0.jpg)](https://www.youtube.com/watch?v=juoM7VhXQDM)
 
 
 ### Construction
@@ -135,7 +135,7 @@ Recently Julian Ilett delved deep into LFSRs in his inimitable style with "The 1
 
 Here is a quick video of the LED sequencing in action:
 
-[![test drive](http://img.youtube.com/vi/tzV3l_iAMh8/0.jpg)](http://www.youtube.com/watch?v=tzV3l_iAMh8)
+[![test drive](https://img.youtube.com/vi/tzV3l_iAMh8/0.jpg)](https://www.youtube.com/watch?v=tzV3l_iAMh8)
 
 
 ### All Bugs Together
@@ -148,7 +148,7 @@ The bugs are all wired into a 2xAA battery pack with switch on the rear.
 
 Here's a video of the frame:
 
-[![all bugs](http://img.youtube.com/vi/JVAooJmsS20/0.jpg)](http://www.youtube.com/watch?v=JVAooJmsS20)
+[![all bugs](https://img.youtube.com/vi/JVAooJmsS20/0.jpg)](https://www.youtube.com/watch?v=JVAooJmsS20)
 
 ![bug_case_1](./assets/bug_case_1.jpg?raw=true)
 ![bug_case_2](./assets/bug_case_2.jpg?raw=true)
@@ -160,9 +160,9 @@ Here's a video of the frame:
 * [Monarch](http://www.boldport.club/shop/product/1033698228) - in the Boldport shop
 * [Monarch](https://github.com/boldport/monarch) - OSH files on GitHub
 * [Monarch](http://community.boldport.club/projects/p18-themonarch/) - club community site, packed with resources for the project
-* [74HC273 datasheet](http://www.futurlec.com/74HC/74HC273.shtml)
-* [LM555 datasheet](http://www.futurlec.com/Linear/LM555CM.shtml)
-* [74HC86 datasheet](http://www.futurlec.com/74HC/74HC86.shtml)
+* [74HC273 datasheet](https://www.futurlec.com/74HC/74HC273.shtml)
+* [LM555 datasheet](https://www.futurlec.com/Linear/LM555CM.shtml)
+* [74HC86 datasheet](https://www.futurlec.com/74HC/74HC86.shtml)
 * [Ikea RIBBA Frame](http://www.ikea.com/sg/en/catalog/products/80378437/)
 * [LFSR](https://en.wikipedia.org/wiki/Linear-feedback_shift_register) - wikipedia
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap357-the-monarch.html)

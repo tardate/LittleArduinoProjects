@@ -9,7 +9,7 @@ Finding the best method for reading a rotary-encoder.
 ## Notes
 
 I'm testing some mini rotary encoders I got from a
-[seller on aliexpress](http://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
+[seller on aliexpress](https://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
 
 [Incremental rotary encoders](https://en.wikipedia.org/wiki/Rotary_encoder#Incremental_rotary_encoder)
 generate step pulses trains that are 90˚ out of phase. Their relative sequencing therefore indicates rotation and direction:

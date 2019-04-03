@@ -181,7 +181,7 @@ Using the constants defined in `nrf51_bitfields.h`, I'm configuring P0_9 (pin 7)
 
 That provides for sinking up to 5mA i.e. when the LED is on.
 Conservatively ignoring the voltage drop across the LED and internal driver FETs,
-that means I should be good with a [660Ω](http://www.wolframalpha.com/input/?i=3.3V%2F5mA)
+that means I should be good with a [660Ω](https://www.wolframalpha.com/input/?i=3.3V%2F5mA)
 current-limiting resistor for the LED. Using 1kΩ, the actual LED current when on is ~1.5mA.
 
 

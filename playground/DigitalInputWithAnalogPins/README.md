@@ -47,7 +47,7 @@ int in = digitalRead(14);
 The [DigitalInputWithAnalogPins.ino](./DigitalInputWithAnalogPins.ino) sketch is a simple exercise of analog pins A0..A5
 using both digital input and output.
 
-Five pins A0..A4 are set to sequentially drive corresponding LEDs at about [5mA](http://www.wolframalpha.com/input/?i=5V%2F1k%CE%A9).
+Five pins A0..A4 are set to sequentially drive corresponding LEDs at about [5mA](https://www.wolframalpha.com/input/?i=5V%2F1k%CE%A9).
 
 A push-button is read on A5. Pressing the button reverse the LED sequence.
 

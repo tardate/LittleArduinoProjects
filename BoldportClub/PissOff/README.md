@@ -4,7 +4,7 @@ An angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #
 
 Here's a quick video of it in action:
 
-[![Build](http://img.youtube.com/vi/Mg5YBKnUVIM/0.jpg)](http://www.youtube.com/watch?v=Mg5YBKnUVIM)
+[![Build](https://img.youtube.com/vi/Mg5YBKnUVIM/0.jpg)](https://www.youtube.com/watch?v=Mg5YBKnUVIM)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -57,7 +57,7 @@ While you can hand-solder the project, it also presents a nice opportunity to ex
 
 I found this great tutorial from sparkfun, everything I need to know to do a decent job of my first reflow with stencil:
 
-[![Stenciling Tutorial](http://img.youtube.com/vi/WDIqtGMROjM/0.jpg)](http://www.youtube.com/watch?v=WDIqtGMROjM)
+[![Stenciling Tutorial](https://img.youtube.com/vi/WDIqtGMROjM/0.jpg)](https://www.youtube.com/watch?v=WDIqtGMROjM)
 
 ## Reflow Assembly
 

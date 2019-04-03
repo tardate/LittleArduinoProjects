@@ -4,7 +4,7 @@ Build and test a PT2399-based delay pedal kit.
 
 Here's a quick hit to demo the delay unit, with a clean guitar signal and all the effects settings (mix, repeat, delay) on "11"..
 
-[![Build](./assets/DelayKit_build.jpg?raw=true)](http://www.youtube.com/watch?v=7I3Oxd9LHHg)
+[![Build](./assets/DelayKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=7I3Oxd9LHHg)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -60,7 +60,7 @@ Although the signals in and out are analog, the PT2399 appears to operate by dig
 
 ## Credits and References
 * [DIY Electric Guitar Delay Analog Effect Pedal guitarra delay with 1590B High Quality footswitch Effect pedal kits](https://www.aliexpress.com/item/NEW-DIY-electric-Guitar-Delay-analog-Effect-Pedals-Electric-pedal-guitarra-delay-Suite-Delay-1-pedals/32589004909.html) - from a seller on aliexpress
-* [PT2399 datasheet](http://www.futurlec.com/Others/PT2399.shtml)
-* [TL072CP datasheet](http://www.futurlec.com/Linear/TL072CP.shtml)
-* [78L05 datasheet](http://www.futurlec.com/Linear/78L05.shtml)
+* [PT2399 datasheet](https://www.futurlec.com/Others/PT2399.shtml)
+* [TL072CP datasheet](https://www.futurlec.com/Linear/TL072CP.shtml)
+* [78L05 datasheet](https://www.futurlec.com/Linear/78L05.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap339-pt2399-delay-kit.html)

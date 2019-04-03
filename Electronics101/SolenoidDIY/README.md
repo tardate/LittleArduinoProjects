@@ -4,7 +4,7 @@ Build and test basic electromechanical solenoid.
 
 Here's a quick video of the solenoid in action:
 
-[![SolenoidDIY](http://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](http://www.youtube.com/watch?v=Lakz1MZA9wI)
+[![SolenoidDIY](https://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](https://www.youtube.com/watch?v=Lakz1MZA9wI)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -23,12 +23,12 @@ The objective of this project is to construct a solenoid from scratch and demons
 
 ### Making the Solenoid
 The solenoid I've constructed here is 9m of wire wound around a ~7mm drinking straw, in about three layers over a 4cm stretch.
-I didn't count them, but that should work out at about [400 turns](http://www.wolframalpha.com/input/?i=9%2F%28%CF%80*7*10^-3%29).
+I didn't count them, but that should work out at about [400 turns](https://www.wolframalpha.com/input/?i=9%2F%28%CF%80*7*10^-3%29).
 
-The wire used is similar to [this product from a seller on aliexpress](http://www.aliexpress.com/item/0-2mm-100m-Copper-Wire-Polyurethane-enameled-wire-QA-1-130-Red-Free-shipping/2054129524.html). It is 0.2mm enameled copper wire.
+The wire used is similar to [this product from a seller on aliexpress](https://www.aliexpress.com/item/0-2mm-100m-Copper-Wire-Polyurethane-enameled-wire-QA-1-130-Red-Free-shipping/2054129524.html). It is 0.2mm enameled copper wire.
 
 The resistance of the winding wire reads at around 10Ω in total.
-With a 9V supply, we'd expect a current of about [900mA](http://www.wolframalpha.com/input/?i=9V%2F10%CE%A9).
+With a 9V supply, we'd expect a current of about [900mA](https://www.wolframalpha.com/input/?i=9V%2F10%CE%A9).
 And that's what I measure when I insert an ammeter in the circuit.
 
 The armature is an old screw - some kind of mild steel I think.
@@ -64,7 +64,7 @@ increasing the force applied by the solenoid:
 ![The Build](./assets/SolenoidDIY_build.jpg?raw=true)
 
 ## Credits and References
-* [IRF540 datasheet](http://www.futurlec.com/Transistors/IRF540.shtml)
+* [IRF540 datasheet](https://www.futurlec.com/Transistors/IRF540.shtml)
 * [Solenoid](https://en.wikipedia.org/wiki/Solenoid) - wikipedia
 * [Right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule) - wikipedia
 * [Engineer's Mini-Notebook - Magnet and Sensor Projects](https://www.goodreads.com/book/show/18007328-engineer-s-mini-notebook) - Forrest M. Mims III
@@ -75,4 +75,4 @@ increasing the force applied by the solenoid:
 * [Create a Simple Solenoid Musical Instrument](http://www.jameco.com/jameco/workshop/diy/crashspace.html)
 * [How to make a simple Electromagnet](https://www.youtube.com/watch?v=iSuSWi7YThA)
 * [Homemade Mini Electro-Magnet](https://www.youtube.com/watch?v=PwVuLK0Q-po)
-* [0.2mm enameled wire](http://www.aliexpress.com/item/0-2mm-100m-Copper-Wire-Polyurethane-enameled-wire-QA-1-130-Red-Free-shipping/2054129524.html) - seller on aliexpress
+* [0.2mm enameled wire](https://www.aliexpress.com/item/0-2mm-100m-Copper-Wire-Polyurethane-enameled-wire-QA-1-130-Red-Free-shipping/2054129524.html) - seller on aliexpress

@@ -46,7 +46,7 @@ The first scope trace compares Vgs and Vds. With a LED load we get a little bit 
 
 To measure the current and to verify hard switching, this trace shows the voltage across the resistor:
 * when off, Vr = 0V
-* when on, Vr is approximately 1.4V, for a current of [1.4mA](http://www.wolframalpha.com/input/?i=1.4V%2F1k%CE%A9)
+* when on, Vr is approximately 1.4V, for a current of [1.4mA](https://www.wolframalpha.com/input/?i=1.4V%2F1k%CE%A9)
 
 
 ![scope-Vr](./assets/scope-Vr.gif?raw=true)
@@ -68,6 +68,6 @@ With a pure 10kΩ resistive load, it's easier to see the hard on/off control.
 
 ## Credits and References
 * [LEAP#66 SwitchNFET](../SwitchNFET) - basic n-channel MOSFET switching
-* [IRF3205 datasheet](http://www.futurlec.com/Transistors/IRF3205.shtml)
+* [IRF3205 datasheet](https://www.futurlec.com/Transistors/IRF3205.shtml)
 * [MOSFET as a Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html) - electronics-tutorials
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap286-low-side-power-fet-switching.html)

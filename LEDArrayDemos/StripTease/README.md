@@ -4,7 +4,7 @@ Combines a series of effects using the [FastLED](http://fastled.io) to demonstra
 
 Here's a quick video of the demo:
 
-[![StripTease - first tests of a ws2811-based LED array](http://img.youtube.com/vi/CUU-sYmBBfM/0.jpg)](http://www.youtube.com/watch?v=CUU-sYmBBfM)
+[![StripTease - first tests of a ws2811-based LED array](https://img.youtube.com/vi/CUU-sYmBBfM/0.jpg)](https://www.youtube.com/watch?v=CUU-sYmBBfM)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -21,4 +21,4 @@ Here's a quick video of the demo:
 
 ## Credits and References
 * [FastLED library](http://fastled.io)
-* [WS2811-based LED array](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) - the particular LED array I have been using
+* [WS2811-based LED array](https://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) - the particular LED array I have been using

@@ -104,5 +104,5 @@ A wide range of "chirp" effects are possible. Here are some of the component val
 * [bird-tone generator circuits](https://www.brighthubengineering.com/diy-electronics-devices/120896-simple-bird-tone-generator-circuits-explained/)
 * [Hacking Nature's Musicians](https://hackaday.io/project/161443-hacking-natures-musicians) - Kelly Heaton
 * [Electronic Bird Sculture](https://hackaday.io/project/163201-electronic-sculpture) - Kelly Heaton's winning entry in the Hackaday Circuit Sculpture contest
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2019/01/leap449-parrot-sound-effects.html)

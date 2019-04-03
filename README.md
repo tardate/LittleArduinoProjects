@@ -8,12 +8,12 @@ while many are trivial breadboard kata, intended to test or explore a single ide
 
 Many are variations of things found wild on the net, or inspired by ideas from the sources such as:
 
-* [Boldport Club](http://www.boldport.club/)
-* [Nuts & Volts magazine](http://www.nutsvolts.com/)
-* [Silicon Chip magazine](http://www.siliconchip.com.au/)
-* [Electrical Engineering StackExchange](http://electronics.stackexchange.com/)
-* [Arduino StackExchange](http://arduino.stackexchange.com/)
-* [Arduino Playground](http://playground.arduino.cc/)
+* [Boldport Club](https://www.boldport.club/)
+* [Nuts & Volts magazine](https://www.nutsvolts.com/)
+* [Silicon Chip magazine](https://www.siliconchip.com.au/)
+* [Electrical Engineering StackExchange](https://electronics.stackexchange.com/)
+* [Arduino StackExchange](https://arduino.stackexchange.com/)
+* [Arduino Playground](https://playground.arduino.cc/)
 * books from [my electronics bookshelf](https://www.goodreads.com/review/list/17475014-paul?shelf=electronics)
 * the many great electronics YouTube channels e.g.
     * [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
@@ -291,7 +291,7 @@ Still up to date, but try [the catalog site](https://leap.tardate.com/) instead.
 | [#177 LED7Segment/ShiftDrive](./playground/LED7Segment/ShiftDrive)                 | **7-Segment, CMOS/TTL, Arduino**    test control of a 7-segment display via a 74HC595 shift register |
 | [#178 LED7Segment/ShiftDriveModule](./playground/LED7Segment/ShiftDriveModule)     | **7-Segment, CMOS/TTL, Arduino, PCB** a custom 7-segment display module PCB with 74HC595 shift register interface |
 | [#189 LED7Segment/ShiftDriveSPI](./playground/LED7Segment/ShiftDriveSPI)           | **7-Segment, CMOS/TTL, Arduino, SPI** using SPI to control a 7-segment display via a 74HC595 shift register |
-| [#007 LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some [WS2811-based LED Strips](http://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working... |
+| [#007 LEDArrayDemos](./LEDArrayDemos)                                              | **LED Array, Arduino**          Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working... |
 | [#003 LEDChaser](./playground/LedChaser)                                           | **LED, Arduino**                blinks a series of 12 LEDs in a coninuous loop |
 | [#103 LedControlDemo](./playground/LED8x8/LedControlDemo)                          | **8x8 LED, Arduino**            test driving and LED matrix with the LedControl library |
 | [#173 LEDCubes/Mini4](./playground/LEDCubes/Mini4)                                 | **LED, CMOS/TTL, Arduino**          a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface |

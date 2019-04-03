@@ -4,7 +4,7 @@ Build and investigate a commercially available "3-band voice level indicator" ki
 
 Here's a quick video of the circuit in action:
 
-[![VoiceLevelIndicatorKit](http://img.youtube.com/vi/6o-kOXPPcac/0.jpg)](http://www.youtube.com/watch?v=6o-kOXPPcac)
+[![VoiceLevelIndicatorKit](https://img.youtube.com/vi/6o-kOXPPcac/0.jpg)](https://www.youtube.com/watch?v=6o-kOXPPcac)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -79,7 +79,7 @@ The S9012 drives an LED paired with a 560Ω current-limiting resistor.
 This is a bit strange .. the forward voltage of the 1N4148 is rated at 0.72V at 5mA, but can be 1V max at other currents.
 
 On spec, it seems there would be no way to drive all 10 LEDs, since the forward voltage should be around
-[7.8V](http://www.wolframalpha.com/input/?i=10*0.72V%2B0.6V) (10 x 1N4148 & 1 x S9012) - far in excess of the 6V supply.
+[7.8V](https://www.wolframalpha.com/input/?i=10*0.72V%2B0.6V) (10 x 1N4148 & 1 x S9012) - far in excess of the 6V supply.
 
 However, the circuit seems to be getting a bit tricky here, as the diodes are actually driven way down the IV curve
 where in practice the peak forward voltage measures in the region of 0.38V.
@@ -99,9 +99,9 @@ But obvioulsy works .. at least to a degree - I've never seen the 10th LED light
 | 5mm LED clear blue               | √ |
 | 5mm LED clear red                | √ |
 | 5mm LED clear green              | √ |
-| [S9012 PNP Transistor](http://www.futurlec.com/Transistors/S9012.shtml) | √ |
-| [S9013 NPN Transistor](http://www.futurlec.com/Transistors/S9013.shtml) | √ |
-| [1N4148 diode](http://www.futurlec.com/Diodes/1N4148.shtml) | √ |
+| [S9012 PNP Transistor](https://www.futurlec.com/Transistors/S9012.shtml) | √ |
+| [S9013 NPN Transistor](https://www.futurlec.com/Transistors/S9013.shtml) | √ |
+| [1N4148 diode](https://www.futurlec.com/Diodes/1N4148.shtml) | √ |
 | 1N4007 diode                     | missing from my kit, replaced from spares |
 | 560Ω resistor                    | √ |
 | 2kΩ resistor                     | √ |
@@ -126,10 +126,10 @@ But obvioulsy works .. at least to a degree - I've never seen the 10th LED light
 
 
 ## Credits and References
-* [kit from a seller on aliexpress](http://www.aliexpress.com/item/1Pcs-New-9-15V-Voice-Control-Level-Indicating-Voice-Indicator-Module-DIY-Kits/32351752901.html)
+* [kit from a seller on aliexpress](https://www.aliexpress.com/item/1Pcs-New-9-15V-Voice-Control-Level-Indicating-Voice-Indicator-Module-DIY-Kits/32351752901.html)
 * [Basic Electronics: Kit Build #1 - LEDs, Microphone & Dance Music](https://youtu.be/07xyD7pLdmw) - Julian Ilett, part 1
 * [Basic Electronics: Kit Build #2 - LEDs, Microphone & Dance Music](https://youtu.be/e6vDDMiYOU4) - Julian Ilett, part 2
-* [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [1N4148 datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [L7806CV datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/22636/STMICROELECTRONICS/L7806CV.html)
-* [S9012 datasheet](http://www.futurlec.com/Transistors/S9012.shtml)
-* [S9013 datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [S9012 datasheet](https://www.futurlec.com/Transistors/S9012.shtml)
+* [S9013 datasheet](https://www.futurlec.com/Transistors/S9013.shtml)

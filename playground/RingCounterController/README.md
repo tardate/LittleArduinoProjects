@@ -4,7 +4,7 @@ Control the classic CD4017 walking-ring counter with an Arduino
 
 Here's a quick video of the circuit in action:
 
-[![RingCounterController](http://img.youtube.com/vi/7SMnoM0gbWc/0.jpg)](http://www.youtube.com/watch?v=7SMnoM0gbWc)
+[![RingCounterController](https://img.youtube.com/vi/7SMnoM0gbWc/0.jpg)](https://www.youtube.com/watch?v=7SMnoM0gbWc)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -41,6 +41,6 @@ But it depends on the specific LED ratings, as this subjects all the "off" LEDs 
 ![The Build](./assets/RingCounterController_build.jpg?raw=true)
 
 ## Credits and References
-* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017.shtml)
-* [kit link](http://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit
+* [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
+* [kit link](https://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit
 * [RingCounter](../../Electronics101/RingCounter) - same project but in classic configuration with 555 timer

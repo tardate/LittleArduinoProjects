@@ -65,5 +65,5 @@ It uses the [FlexiTimer2](https://github.com/wimleers/flexitimer2) library to pr
 ## Credits and References
 * [Simple 3 transistor sawtooth generator / oscillator](https://youtu.be/2a1I1X3RV0g) - excellent tutorial from w2aew; the basis for this project.
 * [BJT page on wikipedia](https://en.wikipedia.org/wiki/Bipolar_junction_transistor)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)

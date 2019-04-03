@@ -10,9 +10,9 @@ All about BJT common-emitter amplifier biasing and class of operation.
 
 Time to revisit the basics of biasing a bipolar junction transistor in an NPN common-emitter amplifier configuration.
 I am inspired once again by one of w2aew's excellent vidoes - this time
-[#113: Basics of Transistor bias point and the class of amplifier operation](http://www.youtube.com/watch?v=c6cmkm3UPUI).
+[#113: Basics of Transistor bias point and the class of amplifier operation](https://www.youtube.com/watch?v=c6cmkm3UPUI).
 
-[![clip](http://img.youtube.com/vi/c6cmkm3UPUI/0.jpg)](http://www.youtube.com/watch?v=c6cmkm3UPUI)
+[![clip](https://img.youtube.com/vi/c6cmkm3UPUI/0.jpg)](https://www.youtube.com/watch?v=c6cmkm3UPUI)
 
 ### The Common Emitter Amplifier
 
@@ -213,5 +213,5 @@ Under test, performs just fine..
 * [Class C Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers56.php) - learnabout-electronics
 * [Class AB Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers55.php) - learnabout-electronics
 * [Common Emitter Mode](http://www.learnabout-electronics.org/Semiconductors/bjt_06.php) - learnabout-electronics
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap371-common-emitter-amplifier-biasing.html)

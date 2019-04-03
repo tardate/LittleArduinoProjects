@@ -4,7 +4,7 @@ Controlling a mini solenoid with an Arduino.
 
 Here's a quick demo of the circuit in action:
 
-[![SolenoidControl](http://img.youtube.com/vi/CDqSoQETEIg/0.jpg)](http://www.youtube.com/watch?v=CDqSoQETEIg)
+[![SolenoidControl](https://img.youtube.com/vi/CDqSoQETEIg/0.jpg)](https://www.youtube.com/watch?v=CDqSoQETEIg)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -20,7 +20,7 @@ So we basically need the Arduino to be a switch. Connecting an Arduino to a sole
 * being electromagenetic devices, solenoids can produce significant [back-EMF](https://en.wikipedia.org/wiki/Counter-electromotive_force) and require a [flyback diode](https://en.wikipedia.org/wiki/Flyback_diode) to proect other components in the circuit
 
 For this circuit, I'm using a mini push-pull solenoid that is rated for 3-12V. The data I have from the
-[seller page on aliexpress](http://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) specifies:
+[seller page on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) specifies:
 * Length: 20.3 MM
 * Weight: 12g
 * Voltage: DC 3 V, current: 0.08 A
@@ -45,6 +45,6 @@ A 1N4001 diode provide flyback protection.
 
 ## Credits and References
 * [8.6. Controlling Solenoids and Relays](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
-* [Mini push-pull solenoids on aliexpress](http://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
-* [S9013 datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
-* [1N4001-1N4007 datasheet](http://www.futurlec.com/Diodes/1N4001.shtml)
+* [Mini push-pull solenoids on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
+* [S9013 datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
+* [1N4001-1N4007 datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)

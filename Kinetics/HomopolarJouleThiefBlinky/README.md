@@ -6,7 +6,7 @@ A totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homo
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](http://www.youtube.com/watch?v=tx0jU6hgwhY)
+[![clip](https://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](https://www.youtube.com/watch?v=tx0jU6hgwhY)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -19,9 +19,9 @@ It may be inefficient, but I like it .. mainly because I haven't seen any quite 
 Where did this come from? I stumbled upon the amazing "World's Simplest Electric Train" video posted by 君AmazingScience yesterday and was playing around with some copper wire
 to reproduce the effect:
 
-[![clip](http://img.youtube.com/vi/J9b0J29OzAU/0.jpg)](http://www.youtube.com/watch?v=J9b0J29OzAU)
+[![clip](https://img.youtube.com/vi/J9b0J29OzAU/0.jpg)](https://www.youtube.com/watch?v=J9b0J29OzAU)
 
-Wayne Schmidt provides a good explanation in his [How to Build the Simplest Electric Train](http://www.youtube.com/watch?v=BWW4kPjd4yc) video.
+Wayne Schmidt provides a good explanation in his [How to Build the Simplest Electric Train](https://www.youtube.com/watch?v=BWW4kPjd4yc) video.
 
 The concept is pretty clearly derivative of [HomopolarMotor](../HomopolarMotor) concepts
 and in fact was thoroughly explored in the [January 2016 issue of American Journal of Physics](https://physics.stackexchange.com/questions/150033/how-does-this-simple-electric-train-work).
@@ -72,7 +72,7 @@ I made a second with a red LED and a 100nF ceramic capacitor:
 
 Here's a video of them in action:
 
-[![clip](http://img.youtube.com/vi/8iEO_NgvEL8/0.jpg)](http://www.youtube.com/watch?v=8iEO_NgvEL8)
+[![clip](https://img.youtube.com/vi/8iEO_NgvEL8/0.jpg)](https://www.youtube.com/watch?v=8iEO_NgvEL8)
 
 ![HomopolarJouleThiefBlinky_in_action2](./assets/HomopolarJouleThiefBlinky_in_action2.jpg?raw=true)
 

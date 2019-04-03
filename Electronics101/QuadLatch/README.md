@@ -4,7 +4,7 @@ Use an Arduino to demonstrate a basic 74LS75 Quad Latch driver circuit, and plot
 
 Here's a quick video of the circuit in action:
 
-[![74LS75 Quad Latch Test](http://img.youtube.com/vi/nsRWAuc6J5w/0.jpg)](http://www.youtube.com/watch?v=nsRWAuc6J5w)
+[![74LS75 Quad Latch Test](https://img.youtube.com/vi/nsRWAuc6J5w/0.jpg)](https://www.youtube.com/watch?v=nsRWAuc6J5w)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -44,4 +44,4 @@ The circuit diagram uses a custom 74LS75 Fritzing Part [available here](../../Fr
 
 ## Credits and References
 * [Download Processing](https://www.processing.org/download/)
-* [74LS75 Datasheet](http://www.futurlec.com/74LS/74LS75.shtml)
+* [74LS75 Datasheet](https://www.futurlec.com/74LS/74LS75.shtml)

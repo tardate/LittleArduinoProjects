@@ -38,7 +38,7 @@ After a few trials (varying the dimensions, tuns and the wire), I settled on a c
 This coil is 4-turns of solid-core AWG18, length=8.5mm, diameter=5.5mm.
 
 The [LC resonance calculation](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml) implies the coil has an inducatance of
-[110nH](http://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*83.35MHz))%5E2%2F33pF&rawformassumption=%7B%22C%22,+%22pF%22%7D+-%3E+%7B%22Unit%22%7D).
+[110nH](https://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*83.35MHz))%5E2%2F33pF&rawformassumption=%7B%22C%22,+%22pF%22%7D+-%3E+%7B%22Unit%22%7D).
 
 That's quite a bit different than the 44nH predicted by a simplified [air coil calculator](http://www.qsl.net/in3otd/indcalc.html).
 I suspect the variation may be largely due to the fact that I'm using unusually heavy AWG18 solid-core wire.
@@ -63,7 +63,7 @@ It is surprisingly good! With a 165cm AWG30 antenna connected, I can easily walk
 * [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
 * [dazaro3 channel](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg)
 * [www.bug-transmitter.com/](http://www.bug-transmitter.com/) - sells kits by dazaro3
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [air coil calculator](http://www.qsl.net/in3otd/indcalc.html)
 * [LC resonance calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap281-three-stage-fm-transmitter.html)

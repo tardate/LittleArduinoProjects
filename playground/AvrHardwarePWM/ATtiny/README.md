@@ -93,10 +93,10 @@ I'm using consistent scope connections in all examples:
 #### demoTimer0a: Timer0 Fast PWM
 
 * Fast PWM, TOP=0xFF (WGM01, WGM00)
-* Prescaler: 1 (CS00), frequency = [3.906 kHz](http://www.wolframalpha.com/input/?i=1MHz%2F1%2F256), Measured: 3.935 kHz
+* Prescaler: 1 (CS00), frequency = [3.906 kHz](https://www.wolframalpha.com/input/?i=1MHz%2F1%2F256), Measured: 3.935 kHz
 * Outputs:
-    * PB0 duty cycle = [127/256 = 49.6%](http://www.wolframalpha.com/input/?i=127%2F256)
-    * PB1 duty cycle = [191/256 = 74.6%](http://www.wolframalpha.com/input/?i=191%2F256)
+    * PB0 duty cycle = [127/256 = 49.6%](https://www.wolframalpha.com/input/?i=127%2F256)
+    * PB1 duty cycle = [191/256 = 74.6%](https://www.wolframalpha.com/input/?i=191%2F256)
     * no output on PB3, PB4 (except some crosstalk/noise)
 
 ![mode_0a](./assets/mode_0a.gif?raw=true)
@@ -105,10 +105,10 @@ I'm using consistent scope connections in all examples:
 #### demoTimer0b: Timer0 Phase Correct PWM
 
 * Phase Correct PWM, TOP=0xFF (WGM00)
-* Prescaler: 1 (CS00), frequency = [1.961 kHz](http://www.wolframalpha.com/input/?i=1MHz%2F1%2F510), Measured: 1.984 kHz
+* Prescaler: 1 (CS00), frequency = [1.961 kHz](https://www.wolframalpha.com/input/?i=1MHz%2F1%2F510), Measured: 1.984 kHz
 * Outputs:
-    * PB0 duty cycle = [127/256 = 49.6%](http://www.wolframalpha.com/input/?i=127%2F256)
-    * PB1 duty cycle = [191/256 = 74.6%](http://www.wolframalpha.com/input/?i=191%2F256)
+    * PB0 duty cycle = [127/256 = 49.6%](https://www.wolframalpha.com/input/?i=127%2F256)
+    * PB1 duty cycle = [191/256 = 74.6%](https://www.wolframalpha.com/input/?i=191%2F256)
     * no output on PB3, PB4 (except some crosstalk/noise)
     * not the phase correction between the two outputs; start/end of each period is at the top/bottom of the count
 
@@ -118,10 +118,10 @@ I'm using consistent scope connections in all examples:
 #### demoTimer0c: Timer0 Fast PWM, alternative prescaler
 
 * Fast PWM, TOP=0xFF (WGM01, WGM00)
-* Prescaler: 64 (CS01, CS00), frequency = [61 Hz](http://www.wolframalpha.com/input/?i=1MHz%2F64%2F256), Measured:  61 Hz
+* Prescaler: 64 (CS01, CS00), frequency = [61 Hz](https://www.wolframalpha.com/input/?i=1MHz%2F64%2F256), Measured:  61 Hz
 * Outputs:
-    * PB0 duty cycle = [127/256 = 49.6%](http://www.wolframalpha.com/input/?i=127%2F256)
-    * PB1 duty cycle = [191/256 = 74.6%](http://www.wolframalpha.com/input/?i=191%2F256)
+    * PB0 duty cycle = [127/256 = 49.6%](https://www.wolframalpha.com/input/?i=127%2F256)
+    * PB1 duty cycle = [191/256 = 74.6%](https://www.wolframalpha.com/input/?i=191%2F256)
     * no output on PB3, PB4 (except some crosstalk/noise)
 
 ![mode_0c](./assets/mode_0c.gif?raw=true)
@@ -130,11 +130,11 @@ I'm using consistent scope connections in all examples:
 #### demoTimer1a: Timer1 dual Fast PWM, reduced resolution
 
 * Fast PWM, TOP=0xFF (WGM01, WGM00)
-* Prescaler: PCK (CS10), frequency = [7.874 kHz](http://www.wolframalpha.com/input/?i=1MHz%2F1%2F127), Measured: 7.905 kHz
+* Prescaler: PCK (CS10), frequency = [7.874 kHz](https://www.wolframalpha.com/input/?i=1MHz%2F1%2F127), Measured: 7.905 kHz
 * 4-bit counter: OCR1C = 127
 * Outputs:
-    * PB1 (PWM1A); duty cycle = [50/127 = 39.4%](http://www.wolframalpha.com/input/?i=50%2F127)
-    * PB4 (PWM1B); duty cycle = [100/127 = 78.7%](http://www.wolframalpha.com/input/?i=100%2F127)
+    * PB1 (PWM1A); duty cycle = [50/127 = 39.4%](https://www.wolframalpha.com/input/?i=50%2F127)
+    * PB4 (PWM1B); duty cycle = [100/127 = 78.7%](https://www.wolframalpha.com/input/?i=100%2F127)
     * no output on PB0, PB3 (except some crosstalk/noise)
 
 ![mode_1a](./assets/mode_1a.gif?raw=true)
@@ -143,14 +143,14 @@ I'm using consistent scope connections in all examples:
 #### demoTimer1b: Timer1 dual Fast PWM, complementary outputs
 
 * Fast PWM, TOP=0xFF (WGM01, WGM00)
-* Prescaler: PCK (CS10), frequency = [3.906 Hz](http://www.wolframalpha.com/input/?i=1MHz%2F1%2F256), Measured: 3.953 kHz
+* Prescaler: PCK (CS10), frequency = [3.906 Hz](https://www.wolframalpha.com/input/?i=1MHz%2F1%2F256), Measured: 3.953 kHz
 * 8-bit counter: OCR1C = 255
 * Complementary outputs enabled (COM1A0, COM1B0)
 * Outputs:
-    * PB1 (PWM1A); duty cycle = [127/256 = 49.6%](http://www.wolframalpha.com/input/?i=127%2F256)
-    * PB0 (COM1A0); complementary; duty cycle = [1 - 127/256 = 50.4%](http://www.wolframalpha.com/input/?i=1+-+127%2F256)
-    * PB4 (PWM1B); duty cycle = [100/256 = 39.1%](http://www.wolframalpha.com/input/?i=100%2F256)
-    * PB3 (COM1B0); complementary; duty cycle = [1 - 100/256 = 60.9%](http://www.wolframalpha.com/input/?i=1+-+100%2F256)
+    * PB1 (PWM1A); duty cycle = [127/256 = 49.6%](https://www.wolframalpha.com/input/?i=127%2F256)
+    * PB0 (COM1A0); complementary; duty cycle = [1 - 127/256 = 50.4%](https://www.wolframalpha.com/input/?i=1+-+127%2F256)
+    * PB4 (PWM1B); duty cycle = [100/256 = 39.1%](https://www.wolframalpha.com/input/?i=100%2F256)
+    * PB3 (COM1B0); complementary; duty cycle = [1 - 100/256 = 60.9%](https://www.wolframalpha.com/input/?i=1+-+100%2F256)
 
 ![mode_1b](./assets/mode_1b.gif?raw=true)
 

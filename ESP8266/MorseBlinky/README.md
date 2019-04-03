@@ -4,7 +4,7 @@ Building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate wi
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/MorseBlinky_build.jpg?raw=true)](http://www.youtube.com/watch?v=WVuntJtxVK0)
+[![Build](./assets/MorseBlinky_build.jpg?raw=true)](https://www.youtube.com/watch?v=WVuntJtxVK0)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

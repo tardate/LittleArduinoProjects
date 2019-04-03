@@ -15,10 +15,10 @@ A 50% duty cycle is achieved when R1 = R2.
 
 In this test I'm using R1 = R2 = 10kΩ, and C1 = 1nF.
 During charge/discharge, the equivalent resistance is 10kΩ|10kΩ i.e. 5kΩ,
-so the time constant for the rising and falling phases is [5µs (200kHz)](http://www.wolframalpha.com/input/?i=1nF+*5k%CE%A9).
+so the time constant for the rising and falling phases is [5µs (200kHz)](https://www.wolframalpha.com/input/?i=1nF+*5k%CE%A9).
 
 Thus for a near complete charge/discharge of 5 time constants, we'd expect an oscillation of around
-[40kHz](http://www.wolframalpha.com/input/?i=1%2F(5*(1nF+*5k%CE%A9))).
+[40kHz](https://www.wolframalpha.com/input/?i=1%2F(5*(1nF+*5k%CE%A9))).
 In practice, I'm measuring 38.7kHz .. so the approximation appears to be pretty close.
 
 Here's a trace of the oscillator (tapped at the net marked CH2 in the schematic):
@@ -69,7 +69,7 @@ The performance is summarised in the table and scope capture below.
 ![Build](./assets/RCOscillator_build.jpg?raw=true)
 
 ## Credits and References
-* [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
+* [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
 * [Flip-flops](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
 * [LEAP#294 CD4060/CrystalOscillator](../CrystalOscillator) - similar circuit but crystal-controlled
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap293-cd4060-rc-oscillator.html)

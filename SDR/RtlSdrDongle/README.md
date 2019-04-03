@@ -148,7 +148,7 @@ trying to pull down low-power signals from a-far.
 Well, that's kinda true. I need to learn more, and this presentation
 "The Journey through Amateur Radio" for the Singapore Heritage Festival by Roland Turner was a good start:
 
-[![The Journey through Amateur Radio - Singapore Heritage Festival](http://img.youtube.com/vi/KvrZ5o4Q8kQ/0.jpg)](http://www.youtube.com/watch?v=KvrZ5o4Q8kQ)
+[![The Journey through Amateur Radio - Singapore Heritage Festival](https://img.youtube.com/vi/KvrZ5o4Q8kQ/0.jpg)](https://www.youtube.com/watch?v=KvrZ5o4Q8kQ)
 
 While amateurs may be hard to find, the airways are obviously very busy with commercial traffic.
 the population is very wired, and the ports (air and sea) are some of the busiest in the world.

@@ -38,7 +38,7 @@ Although default [SPI settings ](https://www.arduino.cc/en/Reference/SPISettings
 
 #### SPI Max Speed
 
-The [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml) indicates typical maximum clock frequency for the 74HC is 100MHz. OK, we'll never get near that with a 16MHz Arduino, so anything goes. There may be reasons to do with the specific circuit to throttle the clock, but in this case it's not a factor.
+The [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml) indicates typical maximum clock frequency for the 74HC is 100MHz. OK, we'll never get near that with a 16MHz Arduino, so anything goes. There may be reasons to do with the specific circuit to throttle the clock, but in this case it's not a factor.
 
 #### SPI Bit Order
 
@@ -61,7 +61,7 @@ so I use MSBFIRST transfer.
 #### SPI Mode
 
 [SPI modes](https://www.arduino.cc/en/Reference/SPI) define the [clock polarity and phase](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus#Clock_polarity_and_phase).
-The timing diagram in the [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
+The timing diagram in the [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 shows:
 
 * base clock polarity is 0 (CPOL=0)
@@ -80,7 +80,7 @@ This is "mode 0", aka SPI_MODE0.
 ## Credits and References
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI Clock polarity and phase](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus#Clock_polarity_and_phase) - wikipedia
-* [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
+* [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [Sharing Clock and Data for 74HC595 and CD4021B Shift Registers?](http://electronics.stackexchange.com/questions/122520/sharing-clock-and-data-for-74hc595-and-cd4021b-shift-registers) - electronics.stackexchange
 * [Driving 595 Shift Registers](http://www.appelsiini.net/2012/driving-595-shift-registers) - good article with AVR implementation details
 * [Using Serial Peripheral Interface (SPI) Master and Slave with Atmel AVR Microcontroller](http://www.ermicro.com/blog/?p=1050) - well explained code

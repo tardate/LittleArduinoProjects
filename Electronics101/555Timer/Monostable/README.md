@@ -4,14 +4,14 @@ Use an Arduino to demonstrate the monostable mode of operation, and plot the res
 
 Here's a quick video of the circuit in action:
 
-[![555 Timer - Monostable Demo](http://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](http://www.youtube.com/watch?v=FJI0kTbzS4I)
+[![555 Timer - Monostable Demo](https://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](https://www.youtube.com/watch?v=FJI0kTbzS4I)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
 
-The monostable mode of operation is actually well described in the [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml).
+The monostable mode of operation is actually well described in the [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml).
 
 When pin 2 is pulled low (the trigger), output pin 3 goes high and will remain high for a period of time determined by the values of R1 and C1.
 
@@ -52,7 +52,7 @@ Here's a sample trace:
 
 
 ## Credits and References
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC)
 * [Download Processing](https://www.processing.org/download/)

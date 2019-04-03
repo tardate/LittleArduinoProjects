@@ -71,11 +71,11 @@ In this configuration, R101 and IC10 are optional, so I left them off the board.
 
 Here's a quick demo, "fast mode".
 
-[![Zv6acP0ddqo](http://img.youtube.com/vi/Zv6acP0ddqo/0.jpg)](http://www.youtube.com/watch?v=Zv6acP0ddqo)
+[![Zv6acP0ddqo](https://img.youtube.com/vi/Zv6acP0ddqo/0.jpg)](https://www.youtube.com/watch?v=Zv6acP0ddqo)
 
 ## Credits and References
 * [BINCO](https://www.boldport.com/products/binco) - product page
 * [BINCO](http://community.boldport.club/projects/p19-binco/) - on the community site
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [74HC4020 Datasheet](http://www.futurlec.com/74HC/74HC4020SMD.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [74HC4020 Datasheet](https://www.futurlec.com/74HC/74HC4020SMD.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap363-binco-fidget-counter.html)

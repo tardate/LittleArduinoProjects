@@ -29,7 +29,7 @@ The dual-BJT circuit is a classic constant current source. Essentially:
 
 * Given Vbe is fairly "stiff" (at around 0.6V for the PN2222ATA)..
 * So there is a constant voltage across R1 of ~0.6V
-* Therefore current thru R1 of [18.2mA](http://www.wolframalpha.com/input/?i=0.6V%2F33%CE%A9)
+* Therefore current thru R1 of [18.2mA](https://www.wolframalpha.com/input/?i=0.6V%2F33%CE%A9)
 * Assuming negligible base current (Ib) current for T2,
 * And assuming R2 and supply voltage are sufficient to saturate T2,
 * Then the current through the load (LED DUT) is also ~18.2mA

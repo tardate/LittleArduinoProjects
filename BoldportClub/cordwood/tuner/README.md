@@ -16,7 +16,7 @@ So is it possible to use the Cordwood to detect (even tune) the six strings of a
 
 I was thinking about doing a complete analogue solution with bandpass filters (probably active filters in order to get
 very tight passband frequencies). Maybe later, but to start I wanted to try an Arduino-based approach
-I'd seen in an [Instructables article](http://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by Nicole Grimwood.
+I'd seen in an [Instructables article](https://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by Nicole Grimwood.
 
 
 ### Input Preamp and Filter
@@ -31,7 +31,7 @@ The LM386 uses a standard 200x gain configuration with a 10µF gain control and 
 On the output:
 
 * 22kΩ voltage divider and 220µF capacitor biases the output to VCC/2
-* a low-pass filter at a corner frequency of [723Hz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+2.2k%CE%A9+*+100nF)) cuts out most of the high frequency harmonics and noise that just confused the tuning algorithms
+* a low-pass filter at a corner frequency of [723Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+2.2k%CE%A9+*+100nF)) cuts out most of the high frequency harmonics and noise that just confused the tuning algorithms
 
 I mounted this all on a small prototyping board to get a nice clean signal. It is laid out in such a way that it plugs into a breadboard.
 Here's the contruction I used:
@@ -46,7 +46,7 @@ And a typical output signal (open D string):
 
 ## Arduino Sketch
 
-The initial code is from the [Instructables article](http://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by Nicole Grimwood.
+The initial code is from the [Instructables article](https://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by Nicole Grimwood.
 
 I've update the sketch quite a bit. It now doesn't even try to be a tuner, but just a pretty stable and accurate indication of
 which root note is playing.
@@ -60,8 +60,8 @@ which root note is playing.
 ![Build](./assets/tuner_build.jpg?raw=true)
 
 ## Credits and References
-* [Arduino Guitar Tuner](http://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by nikoala3/Nicole Grimwood
-* [Arduino Frequency Detection](http://www.instructables.com/id/Arduino-Frequency-Detection/?ALLSTEPS) by amandaghassaei
+* [Arduino Guitar Tuner](https://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by nikoala3/Nicole Grimwood
+* [Arduino Frequency Detection](https://www.instructables.com/id/Arduino-Frequency-Detection/?ALLSTEPS) by amandaghassaei
 * [Guitar tunings](https://en.wikipedia.org/wiki/Guitar_tunings) - wikipedia
 * [Passive Low Pass Filter](http://www.electronics-tutorials.ws/filter/filter_2.html)
 * [Low Pass Filter Calculator](http://www.learningaboutelectronics.com/Articles/Low-pass-filter-calculator.php)

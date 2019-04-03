@@ -4,7 +4,7 @@ Using SPI to control multiple devices (that support an SPIish interface)
 
 Here's a quick video of the circuit in action:
 
-[![MultiSlaveSPI](http://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](http://www.youtube.com/watch?v=t2ncYWxmPbo)
+[![MultiSlaveSPI](https://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](https://www.youtube.com/watch?v=t2ncYWxmPbo)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -40,7 +40,7 @@ The demo sketch does two things:
 * [CounterModule](../CounterModule)
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) - wikipedia
-* [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
+* [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [Sharing Clock and Data for 74HC595 and CD4021B Shift Registers?](http://electronics.stackexchange.com/questions/122520/sharing-clock-and-data-for-74hc595-and-cd4021b-shift-registers) - electronics.stackexchange
 * [Driving 595 Shift Registers](http://www.appelsiini.net/2012/driving-595-shift-registers) - good article with AVR implementation details
 * [Using Serial Peripheral Interface (SPI) Master and Slave with Atmel AVR Microcontroller](http://www.ermicro.com/blog/?p=1050) - well explained code

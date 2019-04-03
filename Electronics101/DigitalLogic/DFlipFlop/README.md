@@ -24,21 +24,21 @@ The D flip-flop circuit here is only slightly modified from the latch circuit:
 As a result, output changes only occur on the rising edge of the clock.
 
 As a clock source, I've wired up a simple 74LS14 [Schmitt oscillator](../../SchmittOscillator), with a pretty slow frequency of around
-[1.77Hz](http://www.wolframalpha.com/input/?i=1%2F(1.2+*+1k%CE%A9+*+470%C2%B5F)).
+[1.77Hz](https://www.wolframalpha.com/input/?i=1%2F(1.2+*+1k%CE%A9+*+470%C2%B5F)).
 
 The edge detector is an RC integrator with a time constant of
-[0.1ms](http://www.wolframalpha.com/input/?i=1k%CE%A9*100nF).
+[0.1ms](https://www.wolframalpha.com/input/?i=1k%CE%A9*100nF).
 
-To demonstrate the flip-flop behaviour, an Arduino is feeding a data signal at around 10Hz ([100ms](http://www.wolframalpha.com/input/?i=1%2F10Hz) period).
+To demonstrate the flip-flop behaviour, an Arduino is feeding a data signal at around 10Hz ([100ms](https://www.wolframalpha.com/input/?i=1%2F10Hz) period).
 This is not synchronised with the clock (enable) input, so results are somewhat randomised, allowing for all combinations of inputs to be tested.
 
 ### Ben Eater's Tutorials
 
 Great explanations of the D latch and D Flip-Flop..
 
-[![D latch](http://img.youtube.com/vi/peCh_859q7Q/0.jpg)](http://www.youtube.com/watch?v=peCh_859q7Q)
+[![D latch](https://img.youtube.com/vi/peCh_859q7Q/0.jpg)](https://www.youtube.com/watch?v=peCh_859q7Q)
 
-[![D flip-flop](http://img.youtube.com/vi/YW-_GkUguMM/0.jpg)](http://www.youtube.com/watch?v=YW-_GkUguMM)
+[![D flip-flop](https://img.youtube.com/vi/YW-_GkUguMM/0.jpg)](https://www.youtube.com/watch?v=YW-_GkUguMM)
 
 
 ## Performance
@@ -77,8 +77,8 @@ This second trace shows output Q transitioning from high to low. Note:
 ![Build](./assets/DFlipFlop_build.jpg?raw=true)
 
 ## Credits and References
-* [74LS00 datasheet](http://www.futurlec.com/74LS/74LS00.shtml)
-* [74LS14 datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
+* [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
+* [74LS14 datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
 * [D flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#D_flip-flop) - wikipedia
 * [RC time constant](https://en.wikipedia.org/wiki/RC_time_constant) - wikipedia
 * [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap353-d-flipflop-with-nand-gates.html)

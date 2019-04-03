@@ -6,7 +6,7 @@ A simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/11-BnUGQX18/0.jpg)](http://www.youtube.com/watch?v=11-BnUGQX18)
+[![clip](https://img.youtube.com/vi/11-BnUGQX18/0.jpg)](https://www.youtube.com/watch?v=11-BnUGQX18)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -25,7 +25,7 @@ have procude boards and tutorials at one point.
 
 I think I first picked up one of these modules after watching Julian Ilett's video:
 
-[![clip](http://img.youtube.com/vi/AhVizoU8CB4/0.jpg)](http://www.youtube.com/watch?v=AhVizoU8CB4)
+[![clip](https://img.youtube.com/vi/AhVizoU8CB4/0.jpg)](https://www.youtube.com/watch?v=AhVizoU8CB4)
 
 
 ## Voltage Matching

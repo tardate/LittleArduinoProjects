@@ -4,7 +4,7 @@ A 555/4017-based dice circuit with slow-down and auto power-off.
 
 Here's a quick video of the dice in action:
 
-[![555Timer/Dice](http://img.youtube.com/vi/5Vzk1R5ehA4/0.jpg)](http://www.youtube.com/watch?v=5Vzk1R5ehA4)
+[![555Timer/Dice](https://img.youtube.com/vi/5Vzk1R5ehA4/0.jpg)](https://www.youtube.com/watch?v=5Vzk1R5ehA4)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -167,10 +167,10 @@ All put together:
 ## Credits and References
 * [LED DICE (with Slow Down) Circuit](http://www.555-timer-circuits.com/led-dice.html) - 555-timer-circuits
 * [Electronic Dice Circuit](http://www.electroschematics.com/5011/electronic-dice/) - electroschematics
-* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017SMD.shtml)
-* [LM555 datasheet](http://www.futurlec.com/Linear/LM555CM.shtml)
-* [BS250 datasheet](http://www.futurlec.com/Transistors/BS250.shtml)
-* [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
+* [LM555 datasheet](https://www.futurlec.com/Linear/LM555CM.shtml)
+* [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
+* [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects229-dice.html)

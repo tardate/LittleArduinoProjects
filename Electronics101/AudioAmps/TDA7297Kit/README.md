@@ -2,7 +2,7 @@
 
 Testing a TDA7297 audio amplifier kit (Pump Up the Jam)
 
-[![TDA7297Kit](http://img.youtube.com/vi/nQl3t_fRrIQ/0.jpg)](http://www.youtube.com/watch?v=nQl3t_fRrIQ)
+[![TDA7297Kit](https://img.youtube.com/vi/nQl3t_fRrIQ/0.jpg)](https://www.youtube.com/watch?v=nQl3t_fRrIQ)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -32,7 +32,7 @@ The TDA7297 is a very easy ship to work with.
 ![The Build](./assets/TDA7297Kit_build.jpg?raw=true)
 
 ## Credits and References
-* [High Quality TDA7297 Audio Amplifier Board Module Dual-Channel Parts For DIY Kit](http://www.aliexpress.com/item/High-Quality-TDA7297-Audio-Amplifier-Board-Module-Dual-Channel-Parts-For-DIY-Kit/32287173410.html) - from a seller on aliexpress
+* [High Quality TDA7297 Audio Amplifier Board Module Dual-Channel Parts For DIY Kit](https://www.aliexpress.com/item/High-Quality-TDA7297-Audio-Amplifier-Board-Module-Dual-Channel-Parts-For-DIY-Kit/32287173410.html) - from a seller on aliexpress
 * [TDA7297 datasheet](http://www2.st.com/content/ccc/resource/technical/document/datasheet/a3/eb/9b/59/dd/26/4a/27/CD00001048.pdf/files/CD00001048.pdf/jcr:content/translations/en.CD00001048.pdf)
 * [Straits Preserves](http://www.straitspreserves.com/)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects210-pump-up-jam.html)

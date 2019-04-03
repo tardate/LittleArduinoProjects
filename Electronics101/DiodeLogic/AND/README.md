@@ -47,5 +47,5 @@ Here's a sample trace. The upper trace is the output, the lower traces the input
 
 ## Credits and References
 * [Diode Logic](https://en.wikipedia.org/wiki/Diode_logic) - wikipedia
-* [1N4001-1N4007 datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)
+* [1N4001-1N4007 datasheet](https://www.futurlec.com/Diodes/1N4007.shtml)
 * Engineer's Mini-Notebook - Basic Semiconductor Circuits; Forrest M. Mims III

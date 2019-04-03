@@ -4,7 +4,7 @@ Tear-down and demo code for some old USB Webmail Notifier devices.
 
 Here's a quick video of the blinky test program in action:
 
-[![UsbNotifier demo](http://img.youtube.com/vi/KEg5rtU9RK4/0.jpg)](http://www.youtube.com/watch?v=KEg5rtU9RK4)
+[![UsbNotifier demo](https://img.youtube.com/vi/KEg5rtU9RK4/0.jpg)](https://www.youtube.com/watch?v=KEg5rtU9RK4)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

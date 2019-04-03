@@ -24,7 +24,7 @@ application note provides thorough explaination of the theory.
     - reducing C1, C2 Rs produce higher gain
     - reducing Rs produces higher gain
 
-At 4.273MHz, and C1=C2=33pF, Rs should be around [1/2πfC = 1.1kΩ](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.273MHz+*+33pF))
+At 4.273MHz, and C1=C2=33pF, Rs should be around [1/2πfC = 1.1kΩ](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+*+4.273MHz+*+33pF))
 
 The feedback resistor Rf is there to linearize the CMOS inverter. For 4.273MHz, an Rf in the order of 1-5MΩ would be expected.
 
@@ -35,7 +35,7 @@ I'm blaming the 74LS14, as other examples I've seen documented use the better pe
 
 After much experimentation, I was able to get it to perform - but only once I'd reduced the feedback resistor
 all the way down to 2.2kΩ. At this level, the circuit is operating more like a classic SchmittOscillator,
-which would have an expected frequency of around [5.7MHz](http://www.wolframalpha.com/input/?i=1%2F(1.2+*+2.2k%CE%A9+*+66pF)).
+which would have an expected frequency of around [5.7MHz](https://www.wolframalpha.com/input/?i=1%2F(1.2+*+2.2k%CE%A9+*+66pF)).
 
 However, the crystal is doing its job, locking in the oscillation at the resonant frequency of bang on 4.273MHz.
 
@@ -62,7 +62,7 @@ Under test...
 * [Pierce oscillator](https://en.wikipedia.org/wiki/Pierce_oscillator) - wikipedia
 * [Building Pierce Gate Oscillator for 455kHz IF Alignment](https://www.youtube.com/watch?v=A73bUivWu60) - xraytonyb, a really informative
 walkthrough of all the electrical design decisions
-* [74LS14 Datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
+* [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
 * [Simple Tester Provides Readout of Crystal Frequency](http://electronicdesign.com/test-measurement/simple-tester-provides-readout-crystal-frequency) - article from electronicdesign
 * [Quartz Crystal Oscillators](http://www.electronics-tutorials.ws/oscillator/crystal.html)
 * [CIRCUIT COLLECTION : OSCILLATORS](http://www.changpuak.ch/electronics/Oscillators.php)

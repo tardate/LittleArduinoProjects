@@ -25,7 +25,7 @@ Here is a video of the final build that demonstrates:
 * Motors: it randomly moves about when it's got nothing better to do
 
 
-[![Girabot Demo](http://img.youtube.com/vi/vzpre0eKQ9U/0.jpg)](http://www.youtube.com/watch?v=vzpre0eKQ9U)
+[![Girabot Demo](https://img.youtube.com/vi/vzpre0eKQ9U/0.jpg)](https://www.youtube.com/watch?v=vzpre0eKQ9U)
 
 A couple of things to note in this demo:
 
@@ -37,7 +37,7 @@ A couple of things to note in this demo:
 
 The following video is a walkthrough of circuit functions on a breadboard prior to the final build:
 
-[![Girabot Benchtest](http://img.youtube.com/vi/7voQVB9DMPM/0.jpg)](http://www.youtube.com/watch?v=7voQVB9DMPM)
+[![Girabot Benchtest](https://img.youtube.com/vi/7voQVB9DMPM/0.jpg)](https://www.youtube.com/watch?v=7voQVB9DMPM)
 
 
 ## Photo Gallery
@@ -111,11 +111,11 @@ G2 = (R1 + R2)/R1 * R4/(R3 + R4) = (2.2kΩ + 220kΩ)/2.2kΩ * 22kΩ/(22kΩ + 22k
 ```
 
 When no microphone signal, we are
-[reading Vcc/2](http://www.wolframalpha.com/input/?i=%285*%282.2k%CE%A9+%2B+220k%CE%A9%29%2F2.2k%CE%A9+*+22k%CE%A9%2F%2822k%CE%A9+%2B+22k%CE%A9%29%29+-+2.5+*+220k%CE%A9%2F2.2k%CE%A9)
+[reading Vcc/2](https://www.wolframalpha.com/input/?i=%285*%282.2k%CE%A9+%2B+220k%CE%A9%29%2F2.2k%CE%A9+*+22k%CE%A9%2F%2822k%CE%A9+%2B+22k%CE%A9%29%29+-+2.5+*+220k%CE%A9%2F2.2k%CE%A9)
 at the output.
 
 But it is really sensitive to changes in the microphone signal. Basically every
-[1mV results in a 100mV change in the output](http://www.wolframalpha.com/input/?i=0.001+*220k%CE%A9%2F2.2k%CE%A9).
+[1mV results in a 100mV change in the output](https://www.wolframalpha.com/input/?i=0.001+*220k%CE%A9%2F2.2k%CE%A9).
 
 The amplified signal is read by the Arduino, and when the signal exceeds a threshold, the Arduino triggers a tune played on the piezo speaker.
 
@@ -219,9 +219,9 @@ See [Girabot.ino](./Girabot.ino) and associated *.h files for all the code.
 | Ref | Part                            | Notes     |
 |-----|---------------------------------|-----------|
 | U1  | Arduino Nano v3                 | [official site](http://arduino.cc/en/Main/arduinoBoardNano) |
-| IC1 | LM7805                          | [datasheet](http://www.futurlec.com/Linear/7805T.shtml) |
-| IC2 | LM324N                          | [datasheet](http://www.futurlec.com/Linear/LM324N.shtml) |
-| IC3 | LM386N-3                        | [datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml) |
+| IC1 | LM7805                          | [datasheet](https://www.futurlec.com/Linear/7805T.shtml) |
+| IC2 | LM324N                          | [datasheet](https://www.futurlec.com/Linear/LM324N.shtml) |
+| IC3 | LM386N-3                        | [datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml) |
 | J2  | TowerPro SG90                   | [datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) |
 | S1  | DPST Switch                     | master switch; only one pole is used  |
 | C1  | 100μF electrolytic capacitor    | filter on input power supply |

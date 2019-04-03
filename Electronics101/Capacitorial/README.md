@@ -4,7 +4,7 @@ Use an Arduino to charge a capacitor and graph the discharge with [Processing](h
 
 Here's a quick video of the circuit in action:
 
-[![Capacitor discharge graphs with Arduino and Processing](http://img.youtube.com/vi/hmDOkpburF8/0.jpg)](http://www.youtube.com/watch?v=hmDOkpburF8)
+[![Capacitor discharge graphs with Arduino and Processing](https://img.youtube.com/vi/hmDOkpburF8/0.jpg)](https://www.youtube.com/watch?v=hmDOkpburF8)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

@@ -4,7 +4,7 @@ Dust off some combinational logic methods and build a 8421-BCD to 7-segment LED 
 
 Here's a quick video of it in action:
 
-[![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)](http://www.youtube.com/watch?v=aD_J83ZpXYY)
+[![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)](https://www.youtube.com/watch?v=aD_J83ZpXYY)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -290,10 +290,10 @@ Driving it with an Arduino, see the [CombinationalLogicDriver.ino](./Combination
 * [Designing a 7-segment hex decoder](https://youtu.be/7zffjsXqATg) - Ben Eater
 * [Building an 8-bit breadboard computer!](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) - Ben Eater
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true) - the common-cathode 7-segment LED display I'm using
-* [74LS02 quad 2-input NOR gate datasheet](http://www.futurlec.com/74LS/74LS02.shtml)
-* [74LS14 hex Schmitt trigger inverter datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
-* [74LS32 quad 2-input OR gate datasheet](http://www.futurlec.com/74LS/74LS32.shtml)
-* [74LS132 quad 2-input NAND Schmitt trigger datasheet](http://www.futurlec.com/74LS/74LS132.shtml)
-* [74LS136 Quadruple 2-input XOR with open-collector outputs datasheet](http://www.futurlec.com/74LS/74LS136.shtml)
+* [74LS02 quad 2-input NOR gate datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
+* [74LS14 hex Schmitt trigger inverter datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
+* [74LS32 quad 2-input OR gate datasheet](https://www.futurlec.com/74LS/74LS32.shtml)
+* [74LS132 quad 2-input NAND Schmitt trigger datasheet](https://www.futurlec.com/74LS/74LS132.shtml)
+* [74LS136 Quadruple 2-input XOR with open-collector outputs datasheet](https://www.futurlec.com/74LS/74LS136.shtml)
 * [74LS386 Quadruple 2-input XOR datasheet](http://pdf.datasheetcatalog.com/datasheet/motorola/SN74LS386N.pdf)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap308-combinational-logic-7-segment-led-driver.html)

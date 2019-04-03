@@ -26,7 +26,7 @@ To sustain the oscillation, I found I had to increase the value of the resistor 
 
 The effect of the resistor seems to alter the resonant frequency of the "impure" tank circuit.
 For example, I'd expect with 150µH/47pF the frequency to be
-[1.89MHz](http://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(150%C2%B5H*47pF)))
+[1.89MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(150%C2%B5H*47pF)))
 when in fact I measure 2.819MHz.
 
 Nevertheless, an interesting self-oscillating circuit.
@@ -49,5 +49,5 @@ is not particularly stable and there's a distinct second harmonic.
 ## Credits and References
 * [1MHz Oscillator](https://www.youtube.com/watch?v=1IJ284kV6zY) - stoneslice
 * [Colpitts oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
-* [J201 datasheet](http://www.futurlec.com/Transistors/J201.shtml)
+* [J201 datasheet](https://www.futurlec.com/Transistors/J201.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap230-minimal-lc-oscillator.html)

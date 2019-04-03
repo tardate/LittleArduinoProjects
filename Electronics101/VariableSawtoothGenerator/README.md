@@ -63,6 +63,6 @@ Replacing the LM324 with TL074CN, circuit loses some dynamic range and has signi
 * [#104: Circuit tutorial: sawtooth generator w/ current sources, diode switches, hysteresis comparator](https://youtu.be/ibnz5UjQ4u0) - w2aew
 * [Transistor current source with diode compensation](https://en.wikipedia.org/wiki/Current_source) - wikipedia
 * [Comparator Hysteresis](https://en.wikipedia.org/wiki/Comparator#Hysteresis) - wikipedia
-* [LM324N Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
-* [LF347N datasheet](http://www.futurlec.com/Linear/LF347N.shtml)
-* [TL074CN datasheet](http://www.futurlec.com/Linear/TL074CN.shtml)
+* [LM324N Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
+* [LF347N datasheet](https://www.futurlec.com/Linear/LF347N.shtml)
+* [TL074CN datasheet](https://www.futurlec.com/Linear/TL074CN.shtml)

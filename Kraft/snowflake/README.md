@@ -4,7 +4,7 @@ The Snow Flake is an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced 
 
 Here's a quick demo of my first Snow Flake running in solo mode...
 
-[![Build](http://img.youtube.com/vi/nJ68XZK5qAo/0.jpg)](http://www.youtube.com/watch?v=nJ68XZK5qAo)
+[![Build](https://img.youtube.com/vi/nJ68XZK5qAo/0.jpg)](https://www.youtube.com/watch?v=nJ68XZK5qAo)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -89,11 +89,11 @@ I picked up some construction hints along the way:
 
 #### Snow Flake Panel Assembly - LED Side
 
-[![Snow Flake Panel Assembly - LED Side](http://img.youtube.com/vi/MVm5IbGUSHc/0.jpg)](http://www.youtube.com/watch?v=MVm5IbGUSHc)
+[![Snow Flake Panel Assembly - LED Side](https://img.youtube.com/vi/MVm5IbGUSHc/0.jpg)](https://www.youtube.com/watch?v=MVm5IbGUSHc)
 
 #### Snow Flake Panel Assembly - Components
 
-[![Snow Flake Panel Assembly - Components](http://img.youtube.com/vi/7LvYLGhHxG4/0.jpg)](http://www.youtube.com/watch?v=7LvYLGhHxG4)
+[![Snow Flake Panel Assembly - Components](https://img.youtube.com/vi/7LvYLGhHxG4/0.jpg)](https://www.youtube.com/watch?v=7LvYLGhHxG4)
 
 ### Assembly
 
@@ -197,7 +197,7 @@ The batteries were providing 2.35V (in circuit) at this point.
 This Snow Flake just won't quit! I finally pulled the plug before it died completely, as it was getting ridicuously dim.
 Here's what it looked like:
 
-[![qrp](http://img.youtube.com/vi/EzU4n3JtcQ4/0.jpg)](http://www.youtube.com/watch?v=EzU4n3JtcQ4)
+[![qrp](https://img.youtube.com/vi/EzU4n3JtcQ4/0.jpg)](https://www.youtube.com/watch?v=EzU4n3JtcQ4)
 
 
 ### A Four-Flake Mobile

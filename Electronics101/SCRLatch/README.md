@@ -4,7 +4,7 @@ Exploring the behaviour of low-power silicon controlled rectifiers (SCR)
 
 Here's a quick video of the test circuit in action:
 
-[![SCRLatch demo](http://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](http://www.youtube.com/watch?v=-pO0aRX99G0)
+[![SCRLatch demo](https://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](https://www.youtube.com/watch?v=-pO0aRX99G0)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -54,10 +54,10 @@ I'm going to build this circuit on 5V power, and use an LED as a representative 
 #### 1. Designing for sufficient gate current
 
 For triggering, assuming typical V(gt) I should be able to get
-[200µA gate current with a 22.5kΩ series resistor](http://www.wolframalpha.com/input/?i=%285V+-+0.5V%29%2F200%C2%B5A).
+[200µA gate current with a 22.5kΩ series resistor](https://www.wolframalpha.com/input/?i=%285V+-+0.5V%29%2F200%C2%B5A).
 
 I'll use 10kΩ to allow a generous margin and ensure the gate turns on (still nowhere near the gate current maximum of 1A).
-Theoretically this should give me a nice [450µA](http://www.wolframalpha.com/input/?i=%285V+-+0.5V%29%2F10k%CE%A9) gate current.
+Theoretically this should give me a nice [450µA](https://www.wolframalpha.com/input/?i=%285V+-+0.5V%29%2F10k%CE%A9) gate current.
 
 In practice, I'm seeing 436µA I(gt) - perfect; the difference is explained by V(gt) actually being around 0.7V under this load.
 
@@ -74,7 +74,7 @@ but less then the LED's limit (20mA). Let's say 10mA.
 The BT169D datasheet has a "Typical and maximum on-state characteristic" graph which shows that V(t) i.e. the anode-cathode voltage drop
 can is typically in the region of 0.8V with such a low current.
 
-So it looks like a [100Ω current-limiting resistor](http://www.wolframalpha.com/input/?i=%285V-3.1V-0.8V%29%2F10mA) will do the job.
+So it looks like a [100Ω current-limiting resistor](https://www.wolframalpha.com/input/?i=%285V-3.1V-0.8V%29%2F10mA) will do the job.
 
 In practice, I measure 9.45mA load current - perfect; the difference is explained by V(t) actually being closer to 1V.
 

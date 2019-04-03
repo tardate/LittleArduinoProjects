@@ -43,5 +43,5 @@ Here's the layout I used:
 
 ## Credits and References
 * [Ruby](http://www.runoffgroove.com/ruby.html) 386-based 9v battery amp
-* [LM386 datasheet](http://www.futurlec.com/Linear/LM386N-3.shtml)
-* [J201 datasheet](http://www.futurlec.com/Transistors/J201.shtml)
+* [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)
+* [J201 datasheet](https://www.futurlec.com/Transistors/J201.shtml)

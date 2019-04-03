@@ -10,7 +10,7 @@ Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using an Arduino to measur
 ## Notes
 
 Various 3.3/5V MB102 Breadboard Power Supplies are a widely available for providing regulated 3.3V and 5V for projects on a breadboard.
-For example, a [search on aliexpress](http://www.aliexpress.com/) will find many sellers, and prices can be lower than $1USD a unit.
+For example, a [search on aliexpress](https://www.aliexpress.com/) will find many sellers, and prices can be lower than $1USD a unit.
 
 It has some nice features (aside from the price!):
 
@@ -62,6 +62,6 @@ The voltage dividers are to ensure that the Arduino never sees more than half th
 ![The Build](./assets/PowerMB102_build.jpg?raw=true)
 
 ## Credits and References
-* [Example MB201 power supply seller on aliexpress](http://www.aliexpress.com/item/3-3V-5V-MB102-Breadboard-Power-Supply-Module-For-for-Ar-Board/1859102523.html) - as at time of writing. Seller details may change so you'll need to do your own search.
+* [Example MB201 power supply seller on aliexpress](https://www.aliexpress.com/item/3-3V-5V-MB102-Breadboard-Power-Supply-Module-For-for-Ar-Board/1859102523.html) - as at time of writing. Seller details may change so you'll need to do your own search.
 * [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino
 * [Download Processing](https://www.processing.org/download/)

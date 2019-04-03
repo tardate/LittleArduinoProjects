@@ -4,7 +4,7 @@ A custom 16 LED SMD PCB with 74HC595 shift register interface.
 
 Here's a quick video of the module running the demo code:
 
-[![LEDx16Module](http://img.youtube.com/vi/FVDoArFkKH8/0.jpg)](http://www.youtube.com/watch?v=FVDoArFkKH8)
+[![LEDx16Module](https://img.youtube.com/vi/FVDoArFkKH8/0.jpg)](https://www.youtube.com/watch?v=FVDoArFkKH8)
 
 
 
@@ -42,10 +42,10 @@ See the [KiCad project](./kicad_project/LEDx16Module.pro) for all the details. H
 ![PCB render](./assets/LEDx16Module_pcb_render.png?raw=true)
 
 ### Example Parts Sources on Aliexpress
-* [74HC595 SOP16](http://www.aliexpress.com/item/Free-shipping-100pcs-74HC595D-74HC595-SOP16/905837111.html)
-* [220Ω 0805](http://www.aliexpress.com/item/0805-SMD-Resistors-220R-220-ohm-1-8W-5-0805-SMD-Resistors-0805-Chip-resistor-500pcs/851490480.html)
-* [220µF 16V 6x7mm SMD](http://www.aliexpress.com/item/Free-shiping-10pcs-16V-220UF-SMD-6x7mm-chip-Aluminum-Electrolytic-Capacitor/1173598774.html)
-* [0805 LEDs (5 colours)](http://www.aliexpress.com/item/Free-Shipping-100PCS-0805-Ultra-Bright-SMD-R-G-B-W-Y-LEDs-yellow-blue-White/859788444.html)
+* [74HC595 SOP16](https://www.aliexpress.com/item/Free-shipping-100pcs-74HC595D-74HC595-SOP16/905837111.html)
+* [220Ω 0805](https://www.aliexpress.com/item/0805-SMD-Resistors-220R-220-ohm-1-8W-5-0805-SMD-Resistors-0805-Chip-resistor-500pcs/851490480.html)
+* [220µF 16V 6x7mm SMD](https://www.aliexpress.com/item/Free-shiping-10pcs-16V-220UF-SMD-6x7mm-chip-Aluminum-Electrolytic-Capacitor/1173598774.html)
+* [0805 LEDs (5 colours)](https://www.aliexpress.com/item/Free-Shipping-100PCS-0805-Ultra-Bright-SMD-R-G-B-W-Y-LEDs-yellow-blue-White/859788444.html)
 
 ## Demo
 

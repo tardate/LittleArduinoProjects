@@ -4,7 +4,7 @@ A simple RF detector mounted in a pen.
 
 Here's a quick video of the detector in action, probing a 555 astable oscillator running at a few hundred kHz:
 
-[![RFDetectorProbe](http://img.youtube.com/vi/Rr9iLDhYq8k/0.jpg)](http://www.youtube.com/watch?v=Rr9iLDhYq8k)
+[![RFDetectorProbe](https://img.youtube.com/vi/Rr9iLDhYq8k/0.jpg)](https://www.youtube.com/watch?v=Rr9iLDhYq8k)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

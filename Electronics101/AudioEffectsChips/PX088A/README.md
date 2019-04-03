@@ -6,7 +6,7 @@ Figuring out how to use the PX088A "Für Elise" music chip.
 
 Here's a quick demo...
 
-[![Build](http://img.youtube.com/vi/k8RLe6Krhd0/0.jpg)](http://www.youtube.com/watch?v=k8RLe6Krhd0)
+[![Build](https://img.youtube.com/vi/k8RLe6Krhd0/0.jpg)](https://www.youtube.com/watch?v=k8RLe6Krhd0)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -58,11 +58,11 @@ Thinking I might use a common board for a few different chips, I laid out a vers
 
 Here's a quick demo of configuration "B":
 
-[![Build](http://img.youtube.com/vi/k8RLe6Krhd0/0.jpg)](http://www.youtube.com/watch?v=k8RLe6Krhd0)
+[![Build](https://img.youtube.com/vi/k8RLe6Krhd0/0.jpg)](https://www.youtube.com/watch?v=k8RLe6Krhd0)
 
 And alternative configuration "C" for comparison:
 
-[![Build](http://img.youtube.com/vi/LwAlxbyrHlE/0.jpg)](http://www.youtube.com/watch?v=LwAlxbyrHlE)
+[![Build](https://img.youtube.com/vi/LwAlxbyrHlE/0.jpg)](https://www.youtube.com/watch?v=LwAlxbyrHlE)
 
 
 ## Credits and References

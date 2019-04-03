@@ -38,7 +38,7 @@ order ot sustain oscillation.
 
 To generate an audio frequency, I've selected R=10kΩ and C=10nF,
 for a theoretical resonant frequency of
-[1.592kHz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80*10k%CE%A9*10nF%29).
+[1.592kHz](https://www.wolframalpha.com/input/?i=1%2F%282%CF%80*10k%CE%A9*10nF%29).
 
 I'm using a venerable LM324 opamp. It doesn't have great upper and lower limits,
 and without stabilisation, this leads to serious clipping. See notes later on diode stabilisation.
@@ -113,5 +113,5 @@ And in the frequency domain we can see the waveform is reasonably clean:
 * [The Wien Bridge Oscillator](http://www.electronics-tutorials.ws/oscillator/wien_bridge.html) - electronics-tutorials
 * [Wien Bridge Oscillators](http://www.learnabout-electronics.org/Oscillators/osc34.php) - learnabout-electronics
 * [Wien bridge oscillator](https://en.wikipedia.org/wiki/Wien_bridge_oscillator) - wikipedia
-* [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
+* [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/03/littlearduinoprojects197-wien-bridge.html)

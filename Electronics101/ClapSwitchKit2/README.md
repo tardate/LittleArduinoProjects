@@ -99,7 +99,7 @@ So after a bit more research, I am suspecting the dullness created during the ph
 is due to the eutectic property of 63Sn/37Pb. As you can see in the phase diagram below, 63/37 is the alloy
 with almost perfect eutectic properties (meaning it goes straight from liquid to solid without passing an intermediate plastic phase).
 
-[![phasediagram](http://www.inlandcraft.com/uguides/ug_images/tip-care/phasediagram.jpg)](http://www.inlandcraft.com/uguides/tipfailure.htm)
+[![phasediagram](./assets/phasediagram.jpg)](https://web.archive.org/web/20170812031703/http://www.inlandcraft.com/uguides/tipfailure.htm)
 
 ### REALLY Shiny Domes
 

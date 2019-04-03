@@ -4,7 +4,7 @@ A dual-LED glowing oscillator from a 1.5V supply
 
 Here's a quick video of the circuit in action:
 
-[![LowVoltageGlowingLEDs](http://img.youtube.com/vi/Epwdpe0EQ0Y/0.jpg)](http://www.youtube.com/watch?v=Epwdpe0EQ0Y)
+[![LowVoltageGlowingLEDs](https://img.youtube.com/vi/Epwdpe0EQ0Y/0.jpg)](https://www.youtube.com/watch?v=Epwdpe0EQ0Y)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -63,8 +63,8 @@ R3/R4 and C3/C4 determine the basic oscillator frequency, but the theoretical fr
 So I needed to just play around with some values
 
 Eventually I settled on R3/R4=100kΩ and C3/C4=100μF, for a theoretical frequency of
-[0.02 Hz](http://www.wolframalpha.com/input/?i=%28ln%282%29+*+%28+100000+*+100*10^-6+%2B+100000+*+100*10^-6+%29%29^-1).
-However in practice it's more like [0.5 Hz](http://www.wolframalpha.com/input/?i=1%2F%289*0.2s%29) as you can estimate from the scope traces below.
+[0.02 Hz](https://www.wolframalpha.com/input/?i=%28ln%282%29+*+%28+100000+*+100*10^-6+%2B+100000+*+100*10^-6+%29%29^-1).
+However in practice it's more like [0.5 Hz](https://www.wolframalpha.com/input/?i=1%2F%289*0.2s%29) as you can estimate from the scope traces below.
 
 Here's the scope trace of the basic oscillator without C5/C6 installed.
 * CH1: Vg (power input - the output from the boost converter)
@@ -105,9 +105,9 @@ This is the protoboard layout:
 ![LowVoltageGlowingLEDs_pb_layout](./assets/LowVoltageGlowingLEDs_pb_layout.jpg?raw=true)
 
 ## Credits and References
-* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [RCOscillator](../RCOscillator) project
 * [RelaxationJouleThief](../RelaxationJouleThief) project
 

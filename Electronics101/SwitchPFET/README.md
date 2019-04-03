@@ -18,7 +18,7 @@ With the switch normally open, the gate is pulled low and therefore Vgs is below
 When the switch is closed, Vgs is brought up to 0V and the FET turns on.
 
 The turn-on delay is implemented with a simple RC circuit: the R1=220kΩ C1=10μF pair having a time constant of
-[2.2 seconds](http://www.wolframalpha.com/input/?i=220k%CE%A9+*+10%CE%BCF).
+[2.2 seconds](https://www.wolframalpha.com/input/?i=220k%CE%A9+*+10%CE%BCF).
 When the switch is opened, C1 takes some time to discharged, hence then FET is delayed in turning back on.
 
 ## Construction
@@ -31,7 +31,7 @@ When the switch is opened, C1 takes some time to discharged, hence then FET is d
 
 ## Credits and References
 * [LEAP#66 SwitchNFET](../SwitchNFET) - same circuit but using n-channel MOSFET
-* [BS250 datasheet](http://www.futurlec.com/Transistors/BS250.shtml)
+* [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [P-channel MOSFET Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html)
 * [P-Channel Power MOSFET Switch Tutorial](http://www.bristolwatch.com/ele/tr1.htm)
 * [Practical MOSFET Tutorial #3 - P Channel and the Mobility of Holes](https://youtu.be/AkwxrmDjZMY)

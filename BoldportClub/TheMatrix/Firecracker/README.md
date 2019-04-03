@@ -4,7 +4,7 @@ A firecracker simulacrum running on the BoldportClub Matrix.
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/Firecracker_build.jpg?raw=true)](http://www.youtube.com/watch?v=0L34ye-Hupc)
+[![Build](./assets/Firecracker_build.jpg?raw=true)](https://www.youtube.com/watch?v=0L34ye-Hupc)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -36,6 +36,6 @@ Doxygen source documentation is available [here](https://leap.tardate.com/Boldpo
 * [AS1130 datasheet and info](ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
 * [LEAP#299 TheMatrix](../TheMatrix)
-* [LM35 Datasheet](http://www.futurlec.com/Linear/LM35DZ.shtml)
+* [LM35 Datasheet](https://www.futurlec.com/Linear/LM35DZ.shtml)
 * [LEAP#079 LedTemperatureDisplay](../../../playground/LedTemperatureDisplay) - more details on using the LM35 sensor
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap312-matrix-firecracker.html)

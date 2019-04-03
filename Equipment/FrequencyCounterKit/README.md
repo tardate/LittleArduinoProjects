@@ -150,7 +150,7 @@ So perhaps next things I'll do with this kit:
 * [Fairly Easy - Frequency Counter - Electronic Kit Build (part 3)](https://www.youtube.com/watch?v=q31unvowJe4)
 * [PIC16F628 datasheet](https://parts.io/detail/1375756/PIC16F628A-I%2FSS)
 * [SC56-11 Datasheet](./assets/SC56-11_datasheet.pdf?raw=true) - similar LED 7-segment display
-* [S9014 datasheet](http://www.futurlec.com/Transistors/S9014.shtml)
+* [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)
 * [S9018 datasheet](http://parts.io/detail/178104407/S9018) - parts.io
 * [HT7550A-1 datasheet](http://www.e-ele.net/DataSheet/HT75XX-1.pdf)
 * [..as mentioend on my blog](https://blog.tardate.com/2017/05/leap295-frequency-counter-kit.html)

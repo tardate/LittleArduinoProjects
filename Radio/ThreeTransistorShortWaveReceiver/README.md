@@ -120,11 +120,11 @@ Amongst others, two very strong signals for:
 
 Here's a quick recording of me tuning in on Radio Free Asia, 17685 kHz. I'm using a Tecsun PL-660 to cross-check and verify:
 
-[![17685](http://img.youtube.com/vi/o7-lSoD7qCw/0.jpg)](http://www.youtube.com/watch?v=o7-lSoD7qCw)
+[![17685](https://img.youtube.com/vi/o7-lSoD7qCw/0.jpg)](https://www.youtube.com/watch?v=o7-lSoD7qCw)
 
 And here's a quick demo of tuning in on All India Radio, 17895 kHz:
 
-[![17895](http://img.youtube.com/vi/Qt0ikHhbLLI/0.jpg)](http://www.youtube.com/watch?v=Qt0ikHhbLLI)
+[![17895](https://img.youtube.com/vi/Qt0ikHhbLLI/0.jpg)](https://www.youtube.com/watch?v=Qt0ikHhbLLI)
 
 
 #### Tuning Below 12 MHz
@@ -140,11 +140,11 @@ However I can't seem to tame the regen: I can get a very faint signal on 9740 kH
 
 ## Credits and References
 * [3 Transistor Short Wave Radio](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) - original article by netZener
-* [Instructables](http://www.instructables.com/id/Three-Transistor-Short-Wave-Radio/) - updated post by netZener
+* [Instructables](https://www.instructables.com/id/Three-Transistor-Short-Wave-Radio/) - updated post by netZener
 * [Regenerative circuit](https://en.wikipedia.org/wiki/Regenerative_circuit) - wikipedia
 * [Regenerative Receiver](https://www.electronics-notes.com/articles/radio/radio-receivers/regenerative-receiver.php) - electronics-notes
 * [Air Core Inductor Inductance Calculator](http://www.daycounter.com/Calculators/Air-Core-Inductor-Calculator.phtml)
 * [LC Resonance Calculator](http://www.daycounter.com/Calculators/LC-Resonance-Calculator.phtml)
 * [Tuning A Regenerative Receiver](http://www.arrl.org/tuning-a-regenerative-receiver) - ARRL
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)

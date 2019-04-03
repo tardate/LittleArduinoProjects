@@ -4,7 +4,7 @@ Fidget Cube controller for the Boldport Cordwood Too.
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/FidgetCube_build.jpg?raw=true)](http://www.youtube.com/watch?v=38SNS3a9aF8)
+[![Build](./assets/FidgetCube_build.jpg?raw=true)](https://www.youtube.com/watch?v=38SNS3a9aF8)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -109,15 +109,15 @@ and I decided to use a 5.1V zener dropper.
 The 1N4733 is rated for 5.1V and maximum power of 1W.
 The Cordwood Too draws around 100mA with all LEDs on at this voltage.
 
-* max current = [196mA](http://www.wolframalpha.com/input/?i=1W%2F5.1V)
-* minimum value of Rs = [19.9Ω](http://www.wolframalpha.com/input/?i=(9V+-+5.1V)%2F(1W%2F5.1V))
-* maximum value of Rs = [39Ω](http://www.wolframalpha.com/input/?i=(9V+-+5.1V)%2F100mA)
-* power dissipated over Rs when 39Ω = [3.9mW](http://www.wolframalpha.com/input/?i=100mA%5E2+*+39%CE%A9)
+* max current = [196mA](https://www.wolframalpha.com/input/?i=1W%2F5.1V)
+* minimum value of Rs = [19.9Ω](https://www.wolframalpha.com/input/?i=(9V+-+5.1V)%2F(1W%2F5.1V))
+* maximum value of Rs = [39Ω](https://www.wolframalpha.com/input/?i=(9V+-+5.1V)%2F100mA)
+* power dissipated over Rs when 39Ω = [3.9mW](https://www.wolframalpha.com/input/?i=100mA%5E2+*+39%CE%A9)
 
 So I selected a 22Ω 1/4W for Rs:
 
-* current through Rs = [177mA](http://www.wolframalpha.com/input/?i=(9V+-+5.1V)%2F22%CE%A9)
-* power dissipated over Rs = [3.9mW](http://www.wolframalpha.com/input/?i=177mA%5E2+*+22%CE%A9)
+* current through Rs = [177mA](https://www.wolframalpha.com/input/?i=(9V+-+5.1V)%2F22%CE%A9)
+* power dissipated over Rs = [3.9mW](https://www.wolframalpha.com/input/?i=177mA%5E2+*+22%CE%A9)
 
 
 ### Joystick and Keypad
@@ -165,7 +165,7 @@ Power and Cordwood pins terminate on a small strip of protoboard:
 * [Fidget Cube](https://thefidgetcube.co/)
 * [LEAP#321 Cordwood Too](./..)
 * [Zener Diode tutorial](http://www.electronics-tutorials.ws/diode/diode_7.html)
-* [1N4733 datasheet](http://www.futurlec.com/Diodes/1N4733.shtml)
+* [1N4733 datasheet](https://www.futurlec.com/Diodes/1N4733.shtml)
 * [4 x 4 x 1.5mm SMD push buttons](https://www.aliexpress.com/item/Free-shipping-100PCS-4-4-1-5mm-4x4x1-5mm-SMD-push-button-switch-microswitch-Tact-Switch/836256964.html)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap322-fidget-cube-cordwood-controller.html)
 * [..as posted on hackady.io](https://hackaday.io/project/25626-fidgetcube-cordwood-controller)

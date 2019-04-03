@@ -6,7 +6,7 @@ Building the Whiteboard - Boldport Club project #22 - a breadboard enhancer feat
 
 Here's a quick demo running a CD4060 ripple counter on the breadboard..
 
-[![clip](http://img.youtube.com/vi/eiEX9SPuRhI/0.jpg)](http://www.youtube.com/watch?v=eiEX9SPuRhI)
+[![clip](https://img.youtube.com/vi/eiEX9SPuRhI/0.jpg)](https://www.youtube.com/watch?v=eiEX9SPuRhI)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -55,7 +55,7 @@ are complete and working perfectly.
 ![whiteboard_build_complete](./assets/whiteboard_build_complete.jpg?raw=true)
 
 As a quick demonstration and test, I put a simple 4-stage CD4060 ripple counter
-running at a base frequency of around [10 Hz](http://www.wolframalpha.com/input/?i=1%2F(2*5*(1%C2%B5F*10k%CE%A9))).
+running at a base frequency of around [10 Hz](https://www.wolframalpha.com/input/?i=1%2F(2*5*(1%C2%B5F*10k%CE%A9))).
 on the breadboard, with outputs driving the LEDs on the shroud (essentially a 4-digit binary counter).
 
 ![Breadboard](./assets/whiteboard_bb.jpg?raw=true)
@@ -67,6 +67,6 @@ on the breadboard, with outputs driving the LEDs on the shroud (essentially a 4-
 ## Credits and References
 * [Whiteboard](http://www.boldport.club/shop/product/1296464803) - in the Boldport Club shop
 * [Whiteboard](http://www.boldport.com/whiteboard) - Boldport Club page
-* [LM317 datasheet](http://www.futurlec.com/Linear/LM317T.shtml)
-* [CD4060 datasheet](http://www.futurlec.com/4000Series/CD4060.shtml)
+* [LM317 datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
+* [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap392-boldportclub-whiteboard.html)

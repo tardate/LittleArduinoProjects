@@ -4,7 +4,7 @@ Set/Reset latch with BJTs.
 
 Here's a quick video of the circuit in action:
 
-[![RSFlipFlop demo](http://img.youtube.com/vi/Df0gB0qHPFM/0.jpg)](http://www.youtube.com/watch?v=Df0gB0qHPFM)
+[![RSFlipFlop demo](https://img.youtube.com/vi/Df0gB0qHPFM/0.jpg)](https://www.youtube.com/watch?v=Df0gB0qHPFM)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -40,7 +40,7 @@ Here's a great animation of the circuit from wikibooks:
 
 Ben Eater has a great video explaining SR latch behaviour:
 
-[![KM0DdEaY5sY](http://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](http://www.youtube.com/watch?v=KM0DdEaY5sY)
+[![KM0DdEaY5sY](https://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](https://www.youtube.com/watch?v=KM0DdEaY5sY)
 
 
 ### Latch of Flip-flop?
@@ -61,7 +61,7 @@ Although terms are often used interchangeably, this circuit is strictly speaking
 
 ## Credits and References
 * [LEAP#062 SRLatchFlipper](../SRLatchFlipper) - same project, but with Arduino control and monitoring
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [SR latch](https://en.wikibooks.org/wiki/Digital_Circuits/Latches#SR_latch) - wikibooks
 * [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
 * [PCB heaven](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - demo circuit used as the basis for this project

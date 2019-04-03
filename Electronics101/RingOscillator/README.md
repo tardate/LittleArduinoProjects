@@ -72,5 +72,5 @@ A 74HC14 can be used in the circuit, however:
 ## Credits and References
 
 * [Ring Oscillator](https://en.wikipedia.org/wiki/Ring_oscillator) - wikipedia
-* [74LS14 Datasheet](http://www.futurlec.com/74LS/74LS14.shtml)
+* [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
 * [74HC14 datasheet](https://www.futurlec.com/74HC/74HC14.shtml)

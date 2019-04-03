@@ -33,7 +33,7 @@ See also:
 
 w2aew has a great video on crimping your own RG-58 connectors:
 
-[![Build](http://img.youtube.com/vi/ktQVwfo-s9w/0.jpg)](http://www.youtube.com/watch?v=ktQVwfo-s9w)
+[![Build](https://img.youtube.com/vi/ktQVwfo-s9w/0.jpg)](https://www.youtube.com/watch?v=ktQVwfo-s9w)
 
 A similar technique works for RG174, although with those I find extreme care is required not to destroy
 the inner pin (I've destroyed a few with just a little extra force when crimping)

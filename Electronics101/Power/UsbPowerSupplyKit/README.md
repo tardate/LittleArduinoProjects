@@ -108,12 +108,12 @@ It's some enjoyable Sunday afternoon soldering therapy. Throw on your favourite 
 
 ## Credits and References
 * [5V 800mA Switching Regulated Power Supply Module DIY Kit AC-DC 220V to 5V Power Converter Electronic Circuit Kit Plug DIY Kit](https://www.aliexpress.com/item/Power-Plug-DIY-Kit-5V-800mA-Regulated-Power-Supply-AC-DC-220V-to-5V-Power-Converter/32582894778.html) - aliexpress seller site
-* [MJE13003 datasheet](http://www.futurlec.com/Transistors/MJE13003.shtml) - NPN Silicon Power Transistor
-* [TL431 datasheet](http://www.futurlec.com/Linear/TL431CLP.shtml) - Programmable Precision Reference
-* [PC817 datasheet](http://www.futurlec.com/LED/PC817.shtml) - High Density Opto-Coupler
-* [1N4007 Datasheet](http://www.futurlec.com/Diodes/1N4007.shtml)
-* [1N4148 Datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
-* [1N5819 Datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [MJE13003 datasheet](https://www.futurlec.com/Transistors/MJE13003.shtml) - NPN Silicon Power Transistor
+* [TL431 datasheet](https://www.futurlec.com/Linear/TL431CLP.shtml) - Programmable Precision Reference
+* [PC817 datasheet](https://www.futurlec.com/LED/PC817.shtml) - High Density Opto-Coupler
+* [1N4007 Datasheet](https://www.futurlec.com/Diodes/1N4007.shtml)
+* [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [Schematic for this project in EasyEDA](https://easyeda.com/tardate/UsbPowerSupplyKit-d87d4b02fdde4ab88ade1a808439dc22)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap341-usb-power-supply.html)

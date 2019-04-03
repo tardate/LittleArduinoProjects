@@ -8,7 +8,7 @@ Drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands
 ## Notes
 
 This is a first test of an
-[8x8 LED module kit from a seller on aliexpress](http://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html). This is a pretty common device available from many sources, either as prefab module or parts kit.
+[8x8 LED module kit from a seller on aliexpress](https://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html). This is a pretty common device available from many sources, either as prefab module or parts kit.
 
 The kit includes a "1088AS" 8x8 LED module, which is single colour (red) with row pins cathode and column pins anode.
 
@@ -55,8 +55,8 @@ Next up, I guess I need to get it to display something interesting!
 
 
 ## Credits and References
-* [LED Matrix kit for sale on aliexpress](http://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html)
-* [MAX7219 datasheet](http://www.futurlec.com/Maxim/MAX7219.shtml)
+* [LED Matrix kit for sale on aliexpress](https://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html)
+* [MAX7219 datasheet](https://www.futurlec.com/Maxim/MAX7219.shtml)
 * [1088AS datasheet](http://megtestesules.info/hobbielektronika/adatlapok/LED8x8_1088AS.pdf)
 * [MAX72XX Hardware](http://playground.arduino.cc/Main/MAX72XXHardware) page on the Arduino playground
 * [LEDMatrix](http://playground.arduino.cc/Main/LEDMatrix) - excellent overview on driving LED matrix units with an Arduino

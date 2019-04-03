@@ -32,7 +32,7 @@ We could do this bit by bit, but in this case we can use the `shiftOut` function
 ![The Build](./assets/Shifty_build.jpg?raw=true)
 
 ## Credits and references
-* [74HC595 datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
+* [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * Based on the [Arduino ShiftOut](http://arduino.cc/en/tutorial/ShiftOut) example
 * [Adafruit Eight LEDs and a Shift Register](https://learn.adafruit.com/adafruit-arduino-lesson-4-eight-leds/the-74hc595-shift-register) tutorial
 * [Arduino Tutorial #3 - Shift Registers (74HC595)](https://www.youtube.com/watch?v=bqfPZXEuyuc) video by EEEnthusiast

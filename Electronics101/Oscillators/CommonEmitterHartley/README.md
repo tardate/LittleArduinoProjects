@@ -138,5 +138,5 @@ Scope trace for C1=100pF, R3=17Ω:
 * [Hartley Oscillator](https://en.wikipedia.org/wiki/Hartley_oscillator) - wikipedia
 * [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design) - section 4.2
 * [Hartley Oscillator - Working, Design using Op-Amp](https://www.electronicshub.org/hartley-oscillator/)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap418-hartley-oscillator.html)

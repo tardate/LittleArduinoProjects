@@ -80,9 +80,9 @@ NB: this curve is of two 1N4148's back-to-back - see note above.
 
 ## Credits and References
 * [Simple Component Tester](https://www.youtube.com/watch?v=_WQi8oKzsD8) - stoneslice
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [#49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer](https://www.youtube.com/watch?v=Gwo3pEH7hUE) - w2aew demonstrating the classic AC version
-* [1N4730 datasheet](http://www.futurlec.com/Diodes/1N4730.shtml)
-* [1N5819 datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
-* [1N4148 datasheet](http://www.futurlec.com/Diodes/1N4148.shtml)
+* [1N4730 datasheet](https://www.futurlec.com/Diodes/1N4730.shtml)
+* [1N5819 datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
+* [1N4148 datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap245-generic-curve-tracer.html)

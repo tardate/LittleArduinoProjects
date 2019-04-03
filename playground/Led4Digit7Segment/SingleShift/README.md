@@ -33,7 +33,7 @@ The better way is to put a resistor on each segment pin. But this was good enoug
 ![The Build](./assets/SingleShift_build.jpg?raw=true)
 
 ## Credits and references
-* [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty stanrd example
 * a good [How to.. question at EE.SE](http://electronics.stackexchange.com/questions/34815/using-4-digit-7-segment-led)

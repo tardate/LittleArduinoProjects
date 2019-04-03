@@ -4,7 +4,7 @@ A simple modification of the basic VL53L0X example to add audio indication of ra
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/XjAN2eW-bek/0.jpg)](http://www.youtube.com/watch?v=XjAN2eW-bek)
+[![clip](https://img.youtube.com/vi/XjAN2eW-bek/0.jpg)](https://www.youtube.com/watch?v=XjAN2eW-bek)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

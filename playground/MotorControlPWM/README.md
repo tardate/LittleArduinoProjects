@@ -4,7 +4,7 @@ Tests PWM speed control of a DC motor.
 
 Here's a quick video of the circuit in action:
 
-[![MotorControlPWM demo](http://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](http://www.youtube.com/watch?v=CYKtJfKv5ug)
+[![MotorControlPWM demo](https://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](https://www.youtube.com/watch?v=CYKtJfKv5ug)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -32,5 +32,5 @@ the motor to drain any voltage spike as the motor load is switched.
 ![Breadboard Build](./assets/MotorControlPWM_build.jpg?raw=true)
 
 ## Credits and references
-* [S9013 Datasheet](http://www.futurlec.com/Transistors/S9013.shtml)
+* [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC_electric_motor)

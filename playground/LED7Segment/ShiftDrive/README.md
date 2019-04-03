@@ -4,7 +4,7 @@ Test control of a 7-segment display via a 74HC595 shift register.
 
 Here's a quick video of the circuit in action:
 
-[![LED7Segment/ShiftDrive](http://img.youtube.com/vi/vD6ldmaypiE/0.jpg)](http://www.youtube.com/watch?v=vD6ldmaypiE)
+[![LED7Segment/ShiftDrive](https://img.youtube.com/vi/vD6ldmaypiE/0.jpg)](https://www.youtube.com/watch?v=vD6ldmaypiE)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -45,6 +45,6 @@ so I use MSBFIRST transfer.
 
 ## Credits and References
 * [LED7Segment/DirectDrive](../DirectDrive) - similar circuit but with direct control
-* [74HC595 Datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
+* [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)
 * [Drive a 7-Segment LED with an Arduino](http://makezine.com/projects/drive-a-7-segment-led-with-an-arduino/)

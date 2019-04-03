@@ -6,7 +6,7 @@ Whipping together a simple sound-activated party decoration with the other half 
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/JySBTIIggoI/0.jpg)](http://www.youtube.com/watch?v=JySBTIIggoI)
+[![clip](https://img.youtube.com/vi/JySBTIIggoI/0.jpg)](https://www.youtube.com/watch?v=JySBTIIggoI)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -93,8 +93,8 @@ In operation:
 
 
 ## Credits and References
-* [7805 datasheet](http://www.futurlec.com/Linear/7805T.shtml)
-* [IRF3205 datasheet](http://www.futurlec.com/Transistors/IRF3205.shtml)
+* [7805 datasheet](https://www.futurlec.com/Linear/7805T.shtml)
+* [IRF3205 datasheet](https://www.futurlec.com/Transistors/IRF3205.shtml)
 * [86082 Voice Sound Detection Sensor Module](https://www.aliexpress.com/item/free-shipping-Voice-Sound-Detection-Sensor-Module-for-Arduino-DIY-Intelligent-Smart-Vehicle-Robot-Helicopter-Airplane/32766584952.html)
 * [12V LED strip - blue, cold white](https://www.aliexpress.com/item/New-Arrival-5M-300Leds-Non-waterproof-RGB-Led-Strip-Light-3528-DC12V-60Leds-M-Fiexble-Light/32294020575.html)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap404-the-arza-matron.html)

@@ -6,7 +6,7 @@ Testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, us
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/Mkn8nW2BEYc/0.jpg)](http://www.youtube.com/watch?v=Mkn8nW2BEYc)
+[![clip](https://img.youtube.com/vi/Mkn8nW2BEYc/0.jpg)](https://www.youtube.com/watch?v=Mkn8nW2BEYc)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -57,7 +57,7 @@ Some great resources for bipolar stepper motors:
 
 Kevin Darrah also has a good introduction and demo of driving a bipolar stepper with push buttons:
 
-[![clip](http://img.youtube.com/vi/ePSCZ_DtF7c/0.jpg)](http://www.youtube.com/watch?v=ePSCZ_DtF7c)
+[![clip](https://img.youtube.com/vi/ePSCZ_DtF7c/0.jpg)](https://www.youtube.com/watch?v=ePSCZ_DtF7c)
 
 
 The essence of bipolar stepper control:

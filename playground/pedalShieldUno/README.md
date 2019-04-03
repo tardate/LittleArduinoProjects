@@ -159,5 +159,5 @@ Great effect. The scope trace doesn't tell the story though .. it swells the vol
 * [pedalSHIELD UNO](https://www.electrosmash.com/pedalshield-uno) - main page
 * [pedalSHIELD UNO Schematic](https://www.electrosmash.com/images/tech/pedalshield-uno/pedalshield-uno-schematic.png)
 * [How to start programming pedalSHIELD UNO](https://www.electrosmash.com/forum/pedalshield-uno/114-how-to-start-programming-pedalshield-uno)
-* [The Arduino Guitar Pedal](http://www.instructables.com/id/Arduino-Guitar-Pedal/) - another pedal proejct
+* [The Arduino Guitar Pedal](https://www.instructables.com/id/Arduino-Guitar-Pedal/) - another pedal proejct
 * [..as mentioned on my blog](https://blog.tardate.com/2017/02/leap247-pedalshield-uno.html)

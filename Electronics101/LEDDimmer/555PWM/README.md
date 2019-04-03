@@ -40,7 +40,7 @@ At midpoint of the pot, duty cycle is ~50%:
 
 ### LED Strip Specifications
 
-I'm using this (very) cheap [3014 Led Strip Light](http://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html). According to the seller specs:
+I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html). According to the seller specs:
 
 | Attribute          | Specification                  |
 |--------------------|--------------------------------|
@@ -66,6 +66,6 @@ I'm using this (very) cheap [3014 Led Strip Light](http://www.aliexpress.com/ite
 ## Credits and References
 * [LED Dimmer Circuit](http://www.reuk.co.uk/wordpress/lighting/led-dimmer-circuit/) - REUK.co.uk
 * [PWM LED Dimmer/ Brightness Control by 555 Timer With Video Simulation](http://www.circuitsgallery.com/2013/02/pwm-led-dimmer.html)
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap232-led-dimmer-pwm.html)

@@ -6,7 +6,7 @@ Demo a simple pushbutton/LED matrix module.
 
 ## Notes
 
-I picked up one of these [4x4 Independent Keyboard Matrix modules](http://www.aliexpress.com/item/8-LED-4x4-Push-Buttons-Matrix-16-Key-Switch-Keyboard-for-Arduino-AVR-ARM-STM32/1526506146.html) to see how useful it might be for arbitrary input with a microcontroller.
+I picked up one of these [4x4 Independent Keyboard Matrix modules](https://www.aliexpress.com/item/8-LED-4x4-Push-Buttons-Matrix-16-Key-Switch-Keyboard-for-Arduino-AVR-ARM-STM32/1526506146.html) to see how useful it might be for arbitrary input with a microcontroller.
 
 It features:
 
@@ -57,5 +57,5 @@ With VCC connected to power, when any pin D1-8 is pulled to ground the correspon
 ![KeyboardMatrixModule_build_reverse](./assets/KeyboardMatrixModule_build_reverse.jpg?raw=true)
 
 ## Credits and References
-* [4x4 Independent Keyboard Matrix module](http://www.aliexpress.com/item/8-LED-4x4-Push-Buttons-Matrix-16-Key-Switch-Keyboard-for-Arduino-AVR-ARM-STM32/1526506146.html) - from a seller on aliexpress
+* [4x4 Independent Keyboard Matrix module](https://www.aliexpress.com/item/8-LED-4x4-Push-Buttons-Matrix-16-Key-Switch-Keyboard-for-Arduino-AVR-ARM-STM32/1526506146.html) - from a seller on aliexpress
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)

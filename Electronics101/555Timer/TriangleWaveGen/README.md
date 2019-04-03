@@ -87,7 +87,7 @@ That works fine, although the build picture shows the 555/RC integrator being dr
 That also works fine! (It's just important to ensure there is a common ground connection).
 
 ## Credits and References
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [RC Time Constant](http://en.wikipedia.org/wiki/RC_time_constant)
 * [Download Processing](https://www.processing.org/download/)

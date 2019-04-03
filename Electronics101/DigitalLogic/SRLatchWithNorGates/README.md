@@ -14,7 +14,7 @@ See the [LEAP#061 SRLatch](../SRLatch) circuit for an implementation using BJTs.
 
 Ben Eater has a great video explaining SR latch behaviour:
 
-[![KM0DdEaY5sY](http://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](http://www.youtube.com/watch?v=KM0DdEaY5sY)
+[![KM0DdEaY5sY](https://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](https://www.youtube.com/watch?v=KM0DdEaY5sY)
 
 ### Truth Table
 
@@ -35,7 +35,7 @@ Ben Eater has a great video explaining SR latch behaviour:
 
 ## Credits and References
 * [LEAP#061 SRLatch](../SRLatch)
-* [74LS02 datasheet](http://www.futurlec.com/74LS/74LS02.shtml)
+* [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
 * [NOR-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/norlatch.html)
 * [NOR gate S-R latch](http://www.allaboutcircuits.com/vol_6/chpt_7/3.html)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap061-set-reset-latches.html)

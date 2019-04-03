@@ -4,7 +4,7 @@ Playing around with some zener-mode sound effects.
 
 Here's a quick video of the circuit in action. It also shows what happens when you remove the BJT noise generator:
 
-[![BJTZenerModeEffects](http://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](http://www.youtube.com/watch?v=YW7aQzy5-SY)
+[![BJTZenerModeEffects](https://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](https://www.youtube.com/watch?v=YW7aQzy5-SY)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -63,6 +63,6 @@ But I tried some standard rectifier diodes, and a good old 1N4001 does a decent 
 * [Sound Simulator for Model Steam Engine US Patent 3,913,097](http://www.google.com/patents/US3913097)
 * [Stock Bachmann Sound Board](http://girr.org/girr/tips/tips1/big_hauler_tips.html)
 * [Better Bachmann Sound For Under A Buck](http://girr.org/girr/tips/tips4/bachmann_sound_tips.html)
-* [BC547 datasheet](http://www.futurlec.com/Transistors/BC547.shtml)
+* [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)
 * [A42 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138719/JIANGSU/A42.html)
 * [A92 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138721/JIANGSU/A92.html)

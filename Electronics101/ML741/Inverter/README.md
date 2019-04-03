@@ -103,7 +103,7 @@ Measurements in action...
 
 ## Credits and References
 * [ML741](../) - the ML741 discrete component project
-* [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
+* [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Inverting amplifier](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_amplifier) - wikipedia
 * [The Op-amp Inverter](http://www.electronics-tutorials.ws/opamp/op-amp-building-blocks.html)
 

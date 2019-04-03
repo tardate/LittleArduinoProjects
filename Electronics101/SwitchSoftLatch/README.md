@@ -4,7 +4,7 @@ Test a soft-latching power switching circuit.
 
 Here's a quick video of the circuit in action:
 
-[![SwitchSoftLatch demo](http://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](http://www.youtube.com/watch?v=9lX_sPDjzDE)
+[![SwitchSoftLatch demo](https://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](https://www.youtube.com/watch?v=9lX_sPDjzDE)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -61,6 +61,6 @@ So perhaps I'll need to try some improvements or test some alternative circuits 
 
 ## Credits and References
 * [EEVblog #262 - World's Simplest Soft Latching Power Switch Circuit](https://www.youtube.com/watch?v=Foc9R0dC2iI) - original version of this circuit
-* [BS250 datasheet](http://www.futurlec.com/Transistors/BS250.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
+* [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [Push On - Push Off Transistor Switch](https://www.youtube.com/watch?v=I70H5xQ6MT0) - at a glance, I think a very similar circuit but with slight variations and higher parts count. Original circuit is from [Talking Electronics](http://www.talkingelectronics.com/projects/200TrCcts/101-200TrCcts.html#20a)

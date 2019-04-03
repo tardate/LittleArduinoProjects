@@ -21,7 +21,7 @@ is cross platform and has a free version available!
 
 I started with a useful tutorial by Luke Briner explaining the differences between assembler and C code for a PIC:
 
-[![clip](http://img.youtube.com/vi/myLBDtfnyRM/0.jpg)](https://www.youtube.com/watch?v=myLBDtfnyRM)
+[![clip](https://img.youtube.com/vi/myLBDtfnyRM/0.jpg)](https://www.youtube.com/watch?v=myLBDtfnyRM)
 
 
 ## Toolchain

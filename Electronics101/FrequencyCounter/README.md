@@ -21,10 +21,10 @@ it is ideal for flipping the circuit between two modes:
 
 The frequency is tuned with 10nF and a resistor network comprising 2 x 220kΩ and a 20kΩ pot.
 Thus the frequency limits are expected to be between about
-[49Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+%282+*+220k%CE%A9+%2B+20k%CE%A9%29+*+10nF%29) and
-[51Hz](http://www.wolframalpha.com/input/?i=1%2F%284.4+*+2+*+220k%CE%A9+*+10nF%29).
+[49Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+%282+*+220k%CE%A9+%2B+20k%CE%A9%29+*+10nF%29) and
+[51Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+2+*+220k%CE%A9+*+10nF%29).
 
-At 50Hz, the cycle time is [20ms](http://www.wolframalpha.com/input/?i=1%2F50Hz).
+At 50Hz, the cycle time is [20ms](https://www.wolframalpha.com/input/?i=1%2F50Hz).
 At 50% duty cycle, that's 10ms for sampling and 10ms for display.
 
 So given the frequency count displayed is based on a 10ms sample,
@@ -85,7 +85,7 @@ At 5MHz, the NE5534P op amp output is quite distorted, however it is still good 
 
 ## Credits and References
 * [Frequency Counter Design](http://www.epanorama.net/sff/Test_equipment/Counters/Minimum%20Parts%20Count%20Frequency%20Counter.pdf) - Lloyd F. Botway, Electronics Sep 16 1976
-* [CD4026 Datasheet](http://www.futurlec.com/4000Series/CD4026.shtml)
-* [CD4047 datasheet](http://www.futurlec.com/4000Series/CD4047.shtml)
+* [CD4026 Datasheet](https://www.futurlec.com/4000Series/CD4026.shtml)
+* [CD4047 datasheet](https://www.futurlec.com/4000Series/CD4047.shtml)
 * [NE5534P datasheet](http://www.ti.com/product/NE5534/datasheet)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects207-frequency.html)

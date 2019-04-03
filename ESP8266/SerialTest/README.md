@@ -11,7 +11,7 @@ The ESP8266 wifi SoC and derivative modules on offer caused a bit of a flurry in
 
 That was last year. As usual, I'm late to the party! But I do have an ESP8266 module that I bought a while back for USD3.09 and have not really put to the test.
 These days you can get them for
-[USD2.40 or less](http://www.aliexpress.com/item/Free-shipping-ESP8266-serial-WIFI-wireless-module-wireless-transceiver/2044444348.html?spm=2114.01020208.3.12.kit3o3&ws_ab_test=searchweb201556_8,searchweb201527_3_71_72_73_74_75,searchweb201560_1).
+[USD2.40 or less](https://www.aliexpress.com/item/Free-shipping-ESP8266-serial-WIFI-wireless-module-wireless-transceiver/2044444348.html?spm=2114.01020208.3.12.kit3o3&ws_ab_test=searchweb201556_8,searchweb201527_3_71_72_73_74_75,searchweb201560_1).
 
 This project is a first test of the basics: communicating with the default firmware and hopefully connecting to an access point in my area.
 
@@ -54,7 +54,7 @@ its interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug di
 ### USB-Serial
 
 I'm using a CH340G USB adapter that I
-[got along with an Arduino mini](http://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html).
+[got along with an Arduino mini](https://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html).
 It's pretty neat in that it has a 5V/3.3V selector on the adapter, however I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they will still be 5V.
 
 

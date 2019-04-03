@@ -8,7 +8,7 @@ Another two-tone doorbell using a 555 timer oscillator
 ## Notes
 
 I picked up
-[this kit](http://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html)
+[this kit](https://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html)
 on special for $0.66. It even came with extra components, so a bit of a bargain impulse-buy.
 
 The kit turns out to be a simplified version of the [TwoToneDoorbell](../TwoToneDoorbell) circuit I've built before.
@@ -26,7 +26,7 @@ When S1 released:
 * speaker output modultes to [76.596 Hz](http://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.1)
 
 The duration of the "dong" depends on the R4/C1 [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant),
-[470ms](http://www.wolframalpha.com/input/?i=47k%CE%A9+*+10%CE%BCF).
+[470ms](https://www.wolframalpha.com/input/?i=47k%CE%A9+*+10%CE%BCF).
 When the voltage on pin 4 falls below the reset threshold (typically 0.5V), the oscillation stops.
 
 ## Behaviour
@@ -55,7 +55,7 @@ The main point to note is the reset discharge over about 1.2s before the 555 shu
 ![The Build](./assets/DoorbellKit_build.jpg?raw=true)
 
 ## Credits and References
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [Doorbell DIY Kit](http://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html) - from a seller on aliexpress
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [Doorbell DIY Kit](https://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html) - from a seller on aliexpress
 * [eBay Cheap: $0.75 Electronic Doorbell Kit NE555](https://youtu.be/zGkbNP23zo4) - Julian Ilett's build
 * [..as mentioned on my blog](https://blog.tardate.com/2016/04/littlearduinoprojects201-yet-another.html)

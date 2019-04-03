@@ -150,7 +150,7 @@ but with the QX5252 boost it performs quite well:
 ## Credits and References
 * [FLED-based solar engines](http://solarbotics.net/library/circuits/se_t1_fled.html)
 * [QX5252 product info](http://www.qxmd.com.cn/en/?product/QX5252.html)
-* [1N5711 datasheet](http://www.futurlec.com/Diodes/1N5711.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [1N5711 datasheet](https://www.futurlec.com/Diodes/1N5711.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/11/leap436-vivian-the-vibrating-beam-bot.html)

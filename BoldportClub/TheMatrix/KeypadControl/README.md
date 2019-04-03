@@ -4,7 +4,7 @@ Use a 20-button keypad to write a scrolling message on the Boldport Matrix.
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/KeypadControl_build.jpg?raw=true)](http://www.youtube.com/watch?v=qg2Bs1Q0ACw)
+[![Build](./assets/KeypadControl_build.jpg?raw=true)](https://www.youtube.com/watch?v=qg2Bs1Q0ACw)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

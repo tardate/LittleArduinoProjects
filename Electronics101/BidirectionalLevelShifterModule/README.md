@@ -15,7 +15,7 @@ or [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus),
 although they are non-specific and can be used for level-shifting any kind of digital signal.
 Note: yes, digital high/low signals only; they do not provide an analog scaling of voltages.
 
-I got some of these [modules from a seller on aliexpress](http://www.aliexpress.com/item/10PCS-Two-Channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32213240585.html)
+I got some of these [modules from a seller on aliexpress](https://www.aliexpress.com/item/10PCS-Two-Channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32213240585.html)
 
 This circuit is a quick test of their behaviour: a switch in the 5V circuit controlling a load (LED + resistor) in the 3.3V circuit.
 
@@ -34,7 +34,7 @@ All good! Now to put them to work...
 
 ## Credits and References
 * [BidirectionalLevelShifter](../BidirectionalLevelShifter) - project testing the basic level-shifting FET trick
-* [modules from a seller on aliexpress](http://www.aliexpress.com/item/10PCS-Two-Channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32213240585.html)
+* [modules from a seller on aliexpress](https://www.aliexpress.com/item/10PCS-Two-Channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32213240585.html)
 * [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) - wikipedia
 * [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) - wikipedia
 * [Philips Application Note AN97055](http://cdn.sparkfun.com/tutorialimages/BD-LogicLevelConverter/an97055.pdf)

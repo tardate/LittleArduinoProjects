@@ -13,7 +13,7 @@ R2 and C2. Pulse width is given as:
     tW = K * R2 * C2
     => where K is nominally 0.45. If C2 is in μF and R2 is in kΩ then tW is in seconds
 
-For 33μF and 100kΩ then pulse width is [1.485s](http://www.wolframalpha.com/input/?i=0.45+*+100+*+10^3+*+33+*+10^-6).
+For 33μF and 100kΩ then pulse width is [1.485s](https://www.wolframalpha.com/input/?i=0.45+*+100+*+10^3+*+33+*+10^-6).
 This is intentionally large so that a visible pulse produced.
 
 Once triggered, the basic pulse width may be extended by retriggering the gated low-level-active (A) or high-level-active (B) inputs,
@@ -37,5 +37,5 @@ Here's a trace of the behaviour. The lower trace is the trigger state, and the u
 ![The Build](./assets/MonostablePulseExtender_build.jpg?raw=true)
 
 ## Credits and References
-* [74LS122 Datasheet](http://www.futurlec.com/74LS/74LS122.shtml)
+* [74LS122 Datasheet](https://www.futurlec.com/74LS/74LS122.shtml)
 * [Monostable122](../../Electronics101/Monostable122) - similar circuit with manual input instead of an Arduino

@@ -114,6 +114,6 @@ I also did a little wire-craft to make a custom base for the kit. It's stuck to 
 ## Credits and References
 * [CAPACI-METER](https://www.boldport.com/products/capaci) - Boldport Product Page
 * [CAPACI-METER GitHub Repo](https://github.com/boldport/capaci-meter) - design sources including documentation
-* [CD4017 datasheet](http://www.futurlec.com/4000Series/CD4017SMD.shtml)
+* [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * [556 datasheet](https://www.futurlec.com/Linear/LM556N.shtml) - two 555s in one package
 * [..as mentioned on my blog](https://blog.tardate.com/2019/01/leap447-measuring-capacitance-with-digital-logic.html)

@@ -4,7 +4,7 @@ A Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Proj
 
 Here's a quick demo video to show it works..
 
-[![Build](./assets/Pease_build.jpg?raw=true)](http://www.youtube.com/watch?v=-JQLJ-RI_1A)
+[![Build](./assets/Pease_build.jpg?raw=true)](https://www.youtube.com/watch?v=-JQLJ-RI_1A)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

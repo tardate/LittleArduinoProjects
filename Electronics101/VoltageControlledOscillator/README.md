@@ -148,7 +148,7 @@ The pin header provides convenient access to (from left to right):
 * [Varicap, Varactor Diode circuit demo](https://www.youtube.com/watch?v=68qOrDl55tc) - AllAmericanFiveRadio
 * [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design)
 * [KV1471 datasheet](http://www.sumzi.com/upload/files/2007/06/2007062317524107881.PDF)
-* [J310 datasheet](http://www.futurlec.com/Transistors/J310.shtml)
+* [J310 datasheet](https://www.futurlec.com/Transistors/J310.shtml)
 * [MV104 datasheet](http://www.onsemi.com/pub_link/Collateral/MV104-D.PDF)
 * [MV209 datasheet](http://www.onsemi.com/pub_link/Collateral/MMBV109LT1-D.PDF)
 * [..as mentioned on my blog](xx)

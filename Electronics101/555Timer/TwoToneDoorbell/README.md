@@ -4,7 +4,7 @@ A basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for p
 
 Here's a quick video of the circuit in action:
 
-[![TwoToneDoorbell](http://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](http://www.youtube.com/watch?v=yD5Hbg0qQJE)
+[![TwoToneDoorbell](https://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](https://www.youtube.com/watch?v=yD5Hbg0qQJE)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -31,7 +31,7 @@ is governed by [R1+R2=94kΩ, R3=47kΩ and C1=33nF](http://visual555.tardate.com/
 which results in a frequency of about 232Hz.
 
 The duration of the "dong" depends on the R4/C2 [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant),
-[220ms](http://www.wolframalpha.com/input/?i=22k%CE%A9+*+10%CE%BCF).
+[220ms](https://www.wolframalpha.com/input/?i=22k%CE%A9+*+10%CE%BCF).
 When the voltage on pin 4 falls below the reset threshold (typically 0.5V), the oscillation stops.
 
 The circuit remains "live" while Q1 permits drain-source current flow. Q1 will remain on while C4 discharges and maintains gate voltage above the gate threshold voltage.
@@ -60,8 +60,8 @@ short-term replacement for a corroded/failed bell.
 
 
 ## Credits and References
-* [2N7000 Datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Two-tone Doorbell kit](http://cdselectronics.com/kits/two%20tone%20door%20bell.htm) - example of a similar circuit as a kit, using a mosfet for switching (looks like a very old site, not sure if still available).
-* [Two-tone Doorbell kit](http://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and an RC network to provide timed-on power.
+* [Two-tone Doorbell kit](https://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and an RC network to provide timed-on power.

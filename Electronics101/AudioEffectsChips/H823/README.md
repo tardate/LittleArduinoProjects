@@ -2,7 +2,7 @@
 
 Figuring out how to use the H823 "Happy Birthday" music chip.
 
-[![Build](http://img.youtube.com/vi/RdeabhoCZKI/0.jpg)](http://www.youtube.com/watch?v=RdeabhoCZKI)
+[![Build](https://img.youtube.com/vi/RdeabhoCZKI/0.jpg)](https://www.youtube.com/watch?v=RdeabhoCZKI)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

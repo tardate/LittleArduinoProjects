@@ -6,7 +6,7 @@ Demonstrating a rotary encoder forward/reverse LED indicator using simple digita
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/isxaXLsYxiY/0.jpg)](http://www.youtube.com/watch?v=isxaXLsYxiY)
+[![clip](https://img.youtube.com/vi/isxaXLsYxiY/0.jpg)](https://www.youtube.com/watch?v=isxaXLsYxiY)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -22,7 +22,7 @@ after reading [Experiment 101: Rotary Encoders](http://www.arrl.org/files/file/p
 from [ARRL Hands-on Radio (Vol 2)](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2).
 
 This project demonstrates a forward/reverse LED indicator using simple digital logic
-and a [mini rotary encoder (from seller on aliexpress)](http://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
+and a [mini rotary encoder (from seller on aliexpress)](https://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
 
 ## Design
 
@@ -85,7 +85,7 @@ Here's a counter-clockwise (CCW) rotation capture:
 
 ## Credits and References
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
-* [74LS173 datasheet](http://www.futurlec.com/74LS/74LS173.shtml)
+* [74LS173 datasheet](https://www.futurlec.com/74LS/74LS173.shtml)
 * [JK flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#JK_flip-flop) - wikipedia
-* [mini rotary encoder from seller on aliexpress](http://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
+* [mini rotary encoder from seller on aliexpress](https://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap413-rotary-encoder-digital-logic.html)

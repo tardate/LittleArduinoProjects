@@ -14,7 +14,7 @@ The frequency is designed to be very low, in order to drive output effects visib
 ### Stage 1: Square Wave Generator
 
 Stage 1 uses an RC network (R4,C1) to generate a low frequency square wave. It can oscillate from about
-[0.24Hz](http://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*+20k%CE%A9+*+33%CE%BCF%29)
+[0.24Hz](https://www.wolframalpha.com/input/?i=1%2F%282%CF%80+*+20k%CE%A9+*+33%CE%BCF%29)
 to about 4Hz by adjusting R4.
 
     f = 1/(2πRC)
@@ -66,8 +66,8 @@ That works fine, although it is equally possible to use a separate power supply 
 
 
 ## Credits and References
-* [LM324 Datasheet](http://www.futurlec.com/Linear/LM324N.shtml)
+* [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [Op-amp Astables](http://www.learnabout-electronics.org/Oscillators/osc42.php)
 * [Op-amp Integrator](http://www.electronics-tutorials.ws/opamp/opamp_6.html)
-* [instructable for a similar circuit](http://www.instructables.com/id/THE-SIMPLEST-FUNCTION-GENERATOR-BUILT-ON-A-BREADBO/?ALLSTEPS)
+* [instructable for a similar circuit](https://www.instructables.com/id/THE-SIMPLEST-FUNCTION-GENERATOR-BUILT-ON-A-BREADBO/?ALLSTEPS)
 * [Download Processing](https://www.processing.org/download/)

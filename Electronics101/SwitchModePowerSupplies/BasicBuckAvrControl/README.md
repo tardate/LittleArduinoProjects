@@ -69,15 +69,15 @@ which in turn switches the IRF9540N which controls the input power supply (9V in
 When the 2N3904 is off, the collector-side resistor pulls the IRF9540N gate high (off).
 
 It's necessary to ensure the 2N3904 gets far enough into saturation to pull IRF9540N gate low enough.
-Quick calcs with a 1kΩ base resistor Ibe = [4.05mA](http://www.wolframalpha.com/input/?i=%285V+-+0.95V%29+%2F+1000%CE%A9):
+Quick calcs with a 1kΩ base resistor Ibe = [4.05mA](https://www.wolframalpha.com/input/?i=%285V+-+0.95V%29+%2F+1000%CE%A9):
 
     Ibe = (V - Vbe) / Rb
     Ibe = (5V - 0.95V) / 1000Ω
 
 This puts the the transistor well into collector saturation.
-Assuming a worst-case ß/hFE of 30, the Ic collector can sink [in excess of 100mA](http://www.wolframalpha.com/input/?i=%285V+-+0.95V%29+%2F+1000%CE%A9+*+30).
+Assuming a worst-case ß/hFE of 30, the Ic collector can sink [in excess of 100mA](https://www.wolframalpha.com/input/?i=%285V+-+0.95V%29+%2F+1000%CE%A9+*+30).
 
-With 1kΩ collector resistor, and Vce(sat) of 0.2V, collector current will be [~8.8mA](http://www.wolframalpha.com/input/?i=%289V+-+0.2V%29+%2F+1000%CE%A9), so definitely on.
+With 1kΩ collector resistor, and Vce(sat) of 0.2V, collector current will be [~8.8mA](https://www.wolframalpha.com/input/?i=%289V+-+0.2V%29+%2F+1000%CE%A9), so definitely on.
 
 Note that throttling the collector current with a higher resistor can cut the power wastage, but going too low has an adverse impact on the switching time, and the IRF9540N never saturating.
 
@@ -126,15 +126,15 @@ So for the 50% duty cycle situation, theoretical performance ignoring real compo
     T = 32µs
     D = 50%
 
-Calculated output voltage = [4.5V](http://www.wolframalpha.com/input/?i=50%25+*+9V):
+Calculated output voltage = [4.5V](https://www.wolframalpha.com/input/?i=50%25+*+9V):
 
     V = D * Vg
 
-Calculated inductor current ripple `ilr` = [36mA](http://www.wolframalpha.com/input/?i=%289V+-+4.5V%29+*+50%25+*+32%C2%B5s+%2F+%282+*+1mH%29):
+Calculated inductor current ripple `ilr` = [36mA](https://www.wolframalpha.com/input/?i=%289V+-+4.5V%29+*+50%25+*+32%C2%B5s+%2F+%282+*+1mH%29):
 
     ilr = (Vg - V) * D * T / (2 * L)
 
-Calculated capacitor voltage ripple = [3.06mV](http://www.wolframalpha.com/input/?i=%289V+-+4.5V%29+*+50%25+*+32%C2%B5s+%2F+%282+*+1mH%29+*+32%C2%B5s+%2F+%288+*+47%C2%B5F%29):
+Calculated capacitor voltage ripple = [3.06mV](https://www.wolframalpha.com/input/?i=%289V+-+4.5V%29+*+50%25+*+32%C2%B5s+%2F+%282+*+1mH%29+*+32%C2%B5s+%2F+%288+*+47%C2%B5F%29):
 
     vcr = ilr * T / (8 * C)
 
@@ -191,9 +191,9 @@ Conclusion?
 ## Credits and References
 * [Buck Converter](https://en.wikipedia.org/wiki/Buck_converter) - wikipedia
 * [DIY Buck Converter || How to step down DC voltage efficiently](https://www.youtube.com/watch?v=m8rK9gU30v4) - GreatScott!
-* [IRF9540 datasheet](http://www.futurlec.com/Transistors/IRF9540.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [1N5819 datasheet](http://www.futurlec.com/Diodes/1N5819.shtml)
+* [IRF9540 datasheet](https://www.futurlec.com/Transistors/IRF9540.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [1N5819 datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [PwmFrequency](http://playground.arduino.cc/Code/PwmFrequency)
 * [analogRead()](https://www.arduino.cc/en/Reference/AnalogRead)
 * [analogWrite()](https://www.arduino.cc/en/Reference/AnalogWrite)

@@ -12,7 +12,7 @@ See [CustomBoardAndEnclosure](./CustomBoardAndEnclosure) for details of the cust
 
 This project is based on the excellent build tutorial by Scullcom Hobby Electronics #44 - Millivolt Meter MK2
 
-[![clip](http://img.youtube.com/vi/CiTPUmqE3Yg/0.jpg)](https://www.youtube.com/watch?v=CiTPUmqE3Yg)
+[![clip](https://img.youtube.com/vi/CiTPUmqE3Yg/0.jpg)](https://www.youtube.com/watch?v=CiTPUmqE3Yg)
 
 A few changes I've made:
 

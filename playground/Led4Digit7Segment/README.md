@@ -61,5 +61,5 @@ And how we program the unit depends in turn on how we drive it. See the followin
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty standard example
 * a good [How to.. question at EE.SE](http://electronics.stackexchange.com/questions/34815/using-4-digit-7-segment-led)
 * [another great answer on Arduino.SE](http://arduino.stackexchange.com/questions/21608/how-to-use-a-common-anode-7-segment-4-digit-display/21609#21609)
-* [4-Digit 7-Segment LED Display + Arduino](http://www.instructables.com/id/4-Digit-7-Segment-LED-Display-Arduino/) - example of direct-wiring the LED unit
+* [4-Digit 7-Segment LED Display + Arduino](https://www.instructables.com/id/4-Digit-7-Segment-LED-Display-Arduino/) - example of direct-wiring the LED unit
 * [Arduino UNO running 4-digit 7-segment display](http://www.hobbytronics.co.uk/arduino-4digit-7segment) - another good example f direct-wiring the LED unit

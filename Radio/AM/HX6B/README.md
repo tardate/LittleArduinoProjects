@@ -8,7 +8,7 @@ Build and analyse the HX-6B superheterodyne AM MW radio receiver kit.
 
 ## Notes
 
-Just my notes on a build of [a HX-6B kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html).
+Just my notes on a build of [a HX-6B kit from a seller on aliexpress](https://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html).
 
 A superheterodyne receiver (often shortened to superhet) uses frequency mixing to convert a received signal
 (at a variable frequency)
@@ -72,7 +72,7 @@ The HX6B is a superheterodyne design with a single IF stage. The design basicall
 
 ## Credits and References
 
-* [the kit from a seller on aliexpress](http://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html)
+* [the kit from a seller on aliexpress](https://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html)
 * [Superheterodyne Receiver](https://en.wikipedia.org/wiki/Superheterodyne_receiver) - wikipedia
 * [Introduction to the Superheterodyne Receiver](http://users.tpg.com.au/users/ldbutler/Superhet.htm) - by Lloyd Butler VK5BR
 * [Block Diagram of Superheterodyne Receiver Radio](http://www.radio-electronics.com/info/rf-technology-design/superheterodyne-radio-receiver/block-diagram.php) - Ian Pool. A good description of the modules.

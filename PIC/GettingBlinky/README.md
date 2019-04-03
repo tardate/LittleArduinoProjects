@@ -4,7 +4,7 @@ Getting up and running building a PIC assembler project on MacOSX with a PIC12F6
 
 Here's a quick demo of it working...
 
-[![GettingBlinky_build](./assets/GettingBlinky_build.jpg?raw=true)](http://www.youtube.com/watch?v=pw0WdkqDNsM)
+[![GettingBlinky_build](./assets/GettingBlinky_build.jpg?raw=true)](https://www.youtube.com/watch?v=pw0WdkqDNsM)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 

@@ -161,8 +161,8 @@ A very clean 50 Hz square wave output
 ![scope](./assets/scope.gif?raw=true)
 
 ## Credits and References
-* [CD4046 Datasheet](http://www.futurlec.com/4000Series/CD4046.shtml)
-* [CD4011 datasheet](http://www.futurlec.com/4000Series/CD4011.shtml)
+* [CD4046 Datasheet](https://www.futurlec.com/4000Series/CD4046.shtml)
+* [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
 * [4N35 datasheet](https://www.futurlec.com/LED/4N35.shtml)
 * [The Phase-Locked Loop](https://mysite.du.edu/~etuttle/electron/elect12.htm)
 * [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - 9.27 PHASE-LOCKED LOOPS, 2nd Edition p641

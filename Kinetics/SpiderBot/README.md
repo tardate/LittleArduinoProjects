@@ -2,7 +2,7 @@
 
 Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system.
 
-[![SpiderBot](http://img.youtube.com/vi/SppVUWhvZKs/0.jpg)](http://www.youtube.com/watch?v=SppVUWhvZKs)
+[![SpiderBot](https://img.youtube.com/vi/SppVUWhvZKs/0.jpg)](https://www.youtube.com/watch?v=SppVUWhvZKs)
 
 ## Notes
 
@@ -96,6 +96,6 @@ And here's the basic layout on to a protoboard "backpack" for the PissOff:
 * [LEAP#290 Boldport PissOff](../../BoldportClub/PissOff) - the original Boldport Club PissOff project
 * [diy spiderbot tech kit](https://www.fivebelow.com/diy-spiderbot-tech-kit.html) - fivebelow
 * [GuoKe GK4078-3VDC](https://www.aliexpress.com/store/product/GK4078-3VDC-GK4078-3VDC-GK4078-3VDC-1A-3V/1895287_32819750810.html)
-* [2N7000 datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
-* [LM555CN datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+* [LM555CN datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/11/leap354-pissoff-mutant-offspring.html)

@@ -4,7 +4,7 @@ Driving a mini 63 (4x4x4) LED cube with an Atmel328 and 3 x 74HC595 register int
 
 Here's a quick video of the cube in action:
 
-[![LEDCubes/Mini4 demo](http://img.youtube.com/vi/0xHI6uC2l4A/0.jpg)](http://www.youtube.com/watch?v=0xHI6uC2l4A)
+[![LEDCubes/Mini4 demo](https://img.youtube.com/vi/0xHI6uC2l4A/0.jpg)](https://www.youtube.com/watch?v=0xHI6uC2l4A)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
@@ -75,10 +75,10 @@ So I do this with software - shift out a full 24-bits worth of 0s to get the 595
 ### Choosing current-limiting Resistor values for the LEDs
 
 With a 5V supply and blue LEDs for a forward voltage of 3.0-3.2V, we'll drop about 2V max across the resistor.
-Aiming for 10mA LED current, that means a current limiting resistor of about [200Ω](http://www.wolframalpha.com/input/?i=2V%2F10mA).
+Aiming for 10mA LED current, that means a current limiting resistor of about [200Ω](https://www.wolframalpha.com/input/?i=2V%2F10mA).
 
 The "utility" LEDs will however be a selection of red, green and yellow all with a forward voltage around 2V.
-At 10mA that calls for a resistor more like [300Ω](http://www.wolframalpha.com/input/?i=3V%2F10mA).
+At 10mA that calls for a resistor more like [300Ω](https://www.wolframalpha.com/input/?i=3V%2F10mA).
 
 That's the theory at least! But in practice, apparent brightness is more a function of LED construction than current.
 The clear blue LEDs I have are super bright even at 4mA.
@@ -140,9 +140,9 @@ NB: see the assets folder for more pictures of the build
 ## Credits and References
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)
-* [74HC595 datasheet](http://www.futurlec.com/74HC/74HC595.shtml)
-* [2N7000 Datasheet](http://www.futurlec.com/Transistors/2N7000.shtml)
+* [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
+* [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [Ferrero Rocher cube box](http://www.fairprice.com.sg/webapp/wcs/stores/servlet/en/fairprice/ferrero-rocher-t18-cube-225g-13062786)
 * [Build a Programmable LED Cube 4x4x4](http://www.jameco.com/jameco/workshop/jamecobuilds/4x4x4ledcube.html) - good tutorial
-* [A Collection of WAAAY To Many 8X8X8 RGB LED Cubes!](http://www.instructables.com/id/A-Collection-of-WAAAY-To-Many-8X8X8-RGB-LED-Cubes/)
+* [A Collection of WAAAY To Many 8X8X8 RGB LED Cubes!](https://www.instructables.com/id/A-Collection-of-WAAAY-To-Many-8X8X8-RGB-LED-Cubes/)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects173-mini-64-led.html)

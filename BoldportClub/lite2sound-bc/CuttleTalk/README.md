@@ -6,7 +6,7 @@ Playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound
 
 Here's a quick demo..
 
-[![clip](http://img.youtube.com/vi/D7n0T0xKA2Y/0.jpg)](http://www.youtube.com/watch?v=D7n0T0xKA2Y)
+[![clip](https://img.youtube.com/vi/D7n0T0xKA2Y/0.jpg)](https://www.youtube.com/watch?v=D7n0T0xKA2Y)
 
 NB: or just a short [CuttleTalk clip](https://youtu.be/jYx-Odu2f3g)
 

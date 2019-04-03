@@ -4,7 +4,7 @@ A paper model with some LED effects thrown in for atmosphere!
 
 Here's a quick video of the finished kit:
 
-[![Sagrada Família](./assets/build_night.jpg?raw=true)](http://www.youtube.com/watch?v=RFkUJQybjwQ)
+[![Sagrada Família](./assets/build_night.jpg?raw=true)](https://www.youtube.com/watch?v=RFkUJQybjwQ)
 
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)

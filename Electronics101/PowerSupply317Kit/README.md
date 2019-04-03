@@ -10,7 +10,7 @@ Build and test a mains-powered 1.25V-12V DC LM317 power supply kit.
 ## Notes
 
 I found
-[this kit](http://www.aliexpress.com/item/EU-US-LM317-1-25V-12V-Continuously-Adjustable-Regulated-Voltage-Power-Supply-DIY-Kit/32463018423.html)
+[this kit](https://www.aliexpress.com/item/EU-US-LM317-1-25V-12V-Continuously-Adjustable-Regulated-Voltage-Power-Supply-DIY-Kit/32463018423.html)
 for a reasonable price and decided to give it a go. Some things that attracted me:
 * 220V/110V mains-powered
 * continuously adjustable output voltage
@@ -106,7 +106,7 @@ since the PCB has a very nice and detailed silkscreen.
 
 | Count | Item                              |
 |-------|-----------------------------------|
-| 1     | [LM317T](http://www.futurlec.com/Linear/LM317T.shtml) 1.5A |
+| 1     | [LM317T](https://www.futurlec.com/Linear/LM317T.shtml) 1.5A |
 | 4     | 1N4007 rectifier diode            |
 | 2     | 1N4148 high-speed diode           |
 | 1     | 5kΩ pot with nut                  |
@@ -122,7 +122,7 @@ since the PCB has a very nice and detailed silkscreen.
 | 2     | 1000µF electrolytic capacitor 35V |
 | 2     | 10µF  electrolytic capacitor 25V  |
 | 2     | 100nF ceramic capacitor           |
-| 1     | [CD4069](http://www.futurlec.com/4000Series/CD4069.shtml) |
+| 1     | [CD4069](https://www.futurlec.com/4000Series/CD4069.shtml) |
 | 1     | DIP-14 socket                     |
 | 1     | 3 digit LED voltmeter module DSN-DVM-368 V3.01 |
 | 1     | pot knob                          |
@@ -159,9 +159,9 @@ Here's the final unit, set for 5V output:
 ![The Build](./assets/PowerSupply317Kit_build.jpg?raw=true)
 
 ## Credits and References
-* [EU/US LM317 1.25V-12V Continuously Adjustable Regulated Voltage Power Supply DIY Kit](http://www.aliexpress.com/item/EU-US-LM317-1-25V-12V-Continuously-Adjustable-Regulated-Voltage-Power-Supply-DIY-Kit/32463018423.html) - my source for the kit built here
-* [LM317T datasheet](http://www.futurlec.com/Linear/LM317T.shtml)
-* [CD4069 datasheet](http://www.futurlec.com/4000Series/CD4069.shtml)
+* [EU/US LM317 1.25V-12V Continuously Adjustable Regulated Voltage Power Supply DIY Kit](https://www.aliexpress.com/item/EU-US-LM317-1-25V-12V-Continuously-Adjustable-Regulated-Voltage-Power-Supply-DIY-Kit/32463018423.html) - my source for the kit built here
+* [LM317T datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
+* [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml)
 * [How to protect LM317 from output short?](http://electronics.stackexchange.com/questions/148340/how-to-protect-lm317-from-output-short)
 * [The Power Supply](http://www.talkingelectronics.com/projects/ThePowerSupply/Page79PowerSupplyP1.html) - a great summary by TE
 * [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects182-building-bench.html)

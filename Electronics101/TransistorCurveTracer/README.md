@@ -86,7 +86,7 @@ I get a much more pleasing result:
 
 Time to check some calculations. Using a 2N3904 as my model DUT, the datasheet tells me the hFE can range from 40 to 300 for various Vce/Ic combinations.
 
-With a 220Ω resistor on the current mirror and a 5V supply, the collector current could reach [22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9). At 22mA, the 2N3904 hFE would be around 100 so requires a base current of [0.22mA](http://www.wolframalpha.com/input/?i=5V%2F220%CE%A9%2F100). So a base resistor of around [22kΩ](http://www.wolframalpha.com/input/?i=5V%2F(5V%2F220%CE%A9%2F100)) would be in order. That's a far cry from the 470Ω in the circuit, so no wonder I'm not getting good curves when forward biasing the DUT!
+With a 220Ω resistor on the current mirror and a 5V supply, the collector current could reach [22mA](https://www.wolframalpha.com/input/?i=5V%2F220%CE%A9). At 22mA, the 2N3904 hFE would be around 100 so requires a base current of [0.22mA](https://www.wolframalpha.com/input/?i=5V%2F220%CE%A9%2F100). So a base resistor of around [22kΩ](https://www.wolframalpha.com/input/?i=5V%2F(5V%2F220%CE%A9%2F100)) would be in order. That's a far cry from the 470Ω in the circuit, so no wonder I'm not getting good curves when forward biasing the DUT!
 
 So to fix this and provide some flexibility, I added another 50kΩ trimmer in series with the 470Ω base resistor.
 Now I can get some nice curves for a forward-biased DUT, and easily adapt to transistors with different characteristics
@@ -121,9 +121,9 @@ Final protoboard build:
 * [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24)
 * [w2aew's circuit](http://www.qsl.net/w2aew//youtube/curvetracer.pdf)
 * Original circuit based on IEE Engineering Sciences & Education Journal Vol 8 No 1 Feb 1999 pp25-26.
-* [TL074CN datasheet](http://www.futurlec.com/Linear/TL074CN.shtml)
-* [LM555 Datasheet](http://www.futurlec.com/Linear/LM555CN.shtml)
-* [2N3904 datasheet](http://www.futurlec.com/Transistors/2N3904.shtml)
-* [2N3906 datasheet](http://www.futurlec.com/Transistors/2N3906.shtml)
+* [TL074CN datasheet](https://www.futurlec.com/Linear/TL074CN.shtml)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
+* [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [BJT in Reverse Active Mode of Operation](http://electronics.stackexchange.com/questions/29756/bjt-in-reverse-active-mode-of-operation) - EE.SE
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects228-transistor-curve-tracer.html)

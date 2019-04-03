@@ -19,7 +19,7 @@ over the basic diode-RC detector.
 
 As with the basic circuit, the RC pair is responsible for holding the peak for a period governed by the [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant).
 
-Time to fully discharge is approximately 5𝛕, or in this case, about [5 seconds](http://www.wolframalpha.com/input/?i=5*10%C2%B5F*100k%CE%A9).
+Time to fully discharge is approximately 5𝛕, or in this case, about [5 seconds](https://www.wolframalpha.com/input/?i=5*10%C2%B5F*100k%CE%A9).
 Appropriate values for the RC network depend on the signal frequency being sampled (higher frequencies
 will be better served by a shorter time constant).
 

@@ -18,7 +18,7 @@ Four so far:
 
 ### Module 1 - LM2596S 2.6-30V Buck Module
 
-The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/1PCS-NEW-LM2596-DC-DC-adjustable-power-step-down-module/32276206956.html). Typical price USD$0.93 with free shipping.
+The example I'm using is similar to this [seller listing](https://www.aliexpress.com/item/1PCS-NEW-LM2596-DC-DC-adjustable-power-step-down-module/32276206956.html). Typical price USD$0.93 with free shipping.
 
 ![module_1](./assets/module_1.jpg?raw=true)
 
@@ -49,7 +49,7 @@ It also behaves more like an LM2576:
 
 ### Module 2 - LM2596S 1.23V-30V Buck Module
 
-The example I'm using is similar to this  [seller listing](http://www.aliexpress.com/item/5PCS-DC-DC-Buck-Converter-Step-Down-Module-LM2596-Power-Supply-Output-1-23V-30V/2013251353.html?spm=2114.01010208.3.22.tfzVTK&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_10034_10021_507_10033_10022_10032_10020_10018_10019,searchweb201603_1&btsid=b6cc6379-547e-4d9c-8217-6a28b26787fb). Typical price USD$0.79 with free shipping.
+The example I'm using is similar to this  [seller listing](https://www.aliexpress.com/item/5PCS-DC-DC-Buck-Converter-Step-Down-Module-LM2596-Power-Supply-Output-1-23V-30V/2013251353.html?spm=2114.01010208.3.22.tfzVTK&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_10034_10021_507_10033_10022_10032_10020_10018_10019,searchweb201603_1&btsid=b6cc6379-547e-4d9c-8217-6a28b26787fb). Typical price USD$0.79 with free shipping.
 
 ![module_2](./assets/module_2.jpg?raw=true)
 
@@ -79,7 +79,7 @@ Performance is pretty good, but this does not appear to be a genuine LM2596S-ADJ
 
 ### Module 3 - XL4015 1.25V-36V Buck Module
 
-The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/5A-High-power-75W-DC-DC-adjustable-step-down-module-LED-Can-be-calibrated-voltmeter-Power/32411291600.html). Typical price USD$2.68 with free shipping.
+The example I'm using is similar to this [seller listing](https://www.aliexpress.com/item/5A-High-power-75W-DC-DC-adjustable-step-down-module-LED-Can-be-calibrated-voltmeter-Power/32411291600.html). Typical price USD$2.68 with free shipping.
 
 ![module_3](./assets/module_3.jpg?raw=true)
 
@@ -94,7 +94,7 @@ Performance: up with the best. There's no scope capture below because despite my
 
 ### Module 4 - MP2307DN 1.0V-17V Buck Module
 
-The example I'm using is similar to this [seller listing](http://www.aliexpress.com/item/Mini-360-DC-DC-Buck-Converter-Step-Down-Module-4-75-23V-to-1-17V-for/32436860547.html). Typical price USD$0.51 (USD$5.06 for 10) with free shipping.
+The example I'm using is similar to this [seller listing](https://www.aliexpress.com/item/Mini-360-DC-DC-Buck-Converter-Step-Down-Module-4-75-23V-to-1-17V-for/32436860547.html). Typical price USD$0.51 (USD$5.06 for 10) with free shipping.
 
 ![module_4](./assets/module_4.jpg?raw=true)
 

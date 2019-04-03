@@ -11,7 +11,7 @@ Build and investigate an AT89S52-based "shake stick" kit
 
 ## Notes
 
-I picked up a [PoV shake-stick kit](http://www.aliexpress.com/item/LDE-Shake-Stick-Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-Blank-PCB-board/32496601767.html) for a few dollars recently. I'm interested in doing some persistence-of-vision projects,
+I picked up a [PoV shake-stick kit](https://www.aliexpress.com/item/LDE-Shake-Stick-Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-Blank-PCB-board/32496601767.html) for a few dollars recently. I'm interested in doing some persistence-of-vision projects,
 so I was intrigued to find out how this one worked. I'd seen some articles - like
 [Matthew Norman's blog post](http://mattnorman.co.uk/2015/Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-review/) -
 on the kit but nothing that really got down to the inner workings.
@@ -40,7 +40,7 @@ To translate and paraphrase some choice phrases:
 * "regardless of the teachers strongly recommending assembly language, I used C language" (since studied in earlier course)
 
 Some of the specific design decisions and changes made along the way:
-* initial tests with Mercury switches were not that good because they would sieze or otherwise fail. Replaced with a [vibration switch like this component]([Vibration switch Shock vibration sensor Shaked switch Shaked stick Skates (G1A3)](http://www.aliexpress.com/item/Vibration-switch-Shock-vibration-sensor-Shaked-switch-Shaked-stick-Skates-G1A3/1898867376.html?spm=2114.01010208.8.5.VTwjvL)), which is what appears in the kits for sale. The original Mercury switch mount remains in the PCB design however;-)
+* initial tests with Mercury switches were not that good because they would sieze or otherwise fail. Replaced with a [vibration switch like this component]([Vibration switch Shock vibration sensor Shaked switch Shaked stick Skates (G1A3)](https://www.aliexpress.com/item/Vibration-switch-Shock-vibration-sensor-Shaked-switch-Shaked-stick-Skates-G1A3/1898867376.html?spm=2114.01010208.8.5.VTwjvL)), which is what appears in the kits for sale. The original Mercury switch mount remains in the PCB design however;-)
 * experiemented with various power supplies. It's now 3V (2xAAA) in the kit.
 * uses the AT89S52 processor, programmed using Keil C51 compiler. The PCB retains an ICSP header for re-programming.
 
@@ -85,7 +85,7 @@ Here's my transcription of the circuit. The subsystems break down quite simply:
 ![The Build](./assets/PovShakeStickKit_build.jpg?raw=true)
 
 ## Credits and References
-* [LDE Shake Stick Flash Stick AT89S52 DIY Kit Magic Wand Blank PCB board](http://www.aliexpress.com/item/LDE-Shake-Stick-Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-Blank-PCB-board/32496601767.html) - where I sourced the kit
+* [LDE Shake Stick Flash Stick AT89S52 DIY Kit Magic Wand Blank PCB board](https://www.aliexpress.com/item/LDE-Shake-Stick-Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-Blank-PCB-board/32496601767.html) - where I sourced the kit
 * [兴向荣电子 taobao store](https://792758921.world.taobao.com/shop/view_shop.htm?user_number_id=155126737) - I think the store of the original author where this kit and others are available
 * [Shake stick - Persistence of vision wand kit](http://mattnorman.co.uk/2015/Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-review/) - Matthew Norman's review of the same/similar kit
 * [source code & project docs](http://pan.baidu.com/share/link?shareid=532839&uk=1161248057) - appears to be an archive of the original project
@@ -93,5 +93,5 @@ Here's my transcription of the circuit. The subsystems break down quite simply:
 * [Atmel 8051 Microcontrollers Hardware Manual](http://www.atmel.com/Images/doc4316.pdf)
 * [Keil development tools for the 8051 Microcontroller Architecture](http://www.keil.com/c51/)
 * [8051 /INT0 External Interrupt Example Program](http://www.keil.com/download/docs/188.asp)
-* [Vibration switch Shock vibration sensor Shaked switch Shaked stick Skates (G1A3)](http://www.aliexpress.com/item/Vibration-switch-Shock-vibration-sensor-Shaked-switch-Shaked-stick-Skates-G1A3/1898867376.html?spm=2114.01010208.8.5.VTwjvL) - example of the part used as movement input for the shake stick
+* [Vibration switch Shock vibration sensor Shaked switch Shaked stick Skates (G1A3)](https://www.aliexpress.com/item/Vibration-switch-Shock-vibration-sensor-Shaked-switch-Shaked-stick-Skates-G1A3/1898867376.html?spm=2114.01010208.8.5.VTwjvL) - example of the part used as movement input for the shake stick
 * [..as mentioned on my blog](https://blog.tardate.com/2016/03/littlearduinoprojects193-pov-led-shake.html)

@@ -49,9 +49,9 @@ Alternatively this can be built based on an SR NOR latch:
 
 Great explanations of the D latch and D Flip-Flop..
 
-[![D latch](http://img.youtube.com/vi/peCh_859q7Q/0.jpg)](http://www.youtube.com/watch?v=peCh_859q7Q)
+[![D latch](https://img.youtube.com/vi/peCh_859q7Q/0.jpg)](https://www.youtube.com/watch?v=peCh_859q7Q)
 
-[![D flip-flop](http://img.youtube.com/vi/YW-_GkUguMM/0.jpg)](http://www.youtube.com/watch?v=YW-_GkUguMM)
+[![D flip-flop](https://img.youtube.com/vi/YW-_GkUguMM/0.jpg)](https://www.youtube.com/watch?v=YW-_GkUguMM)
 
 
 ## Construction
@@ -71,7 +71,7 @@ NB: the pull-down resistor can't be too stiff with the 74LS00. For example, a 10
 ![Build](./assets/DLatch_build.jpg?raw=true)
 
 ## Credits and References
-* [74LS00 datasheet](http://www.futurlec.com/74LS/74LS00.shtml)
+* [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
 * [The D Latch](https://www.allaboutcircuits.com/textbook/digital/chpt-10/d-latch/) - allaboutcircuits
 * [Gated D latch](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch) - wikipedia
 * [The D Flip-Flop](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/Dflipflop.html#c2)

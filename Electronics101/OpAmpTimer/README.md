@@ -34,8 +34,8 @@ t = - 𝛕 ln(0.5)
 ```
 
 So the low and high timing limits are:
-* when R4+R5=1kΩ and C=47µF: [32ms](http://www.wolframalpha.com/input/?i=-+%281k%CE%A9*47%C2%B5F%29+*++ln%280.5%29)
-* when R4+R5=51kΩ and C=47µF: [1.6s](http://www.wolframalpha.com/input/?i=-+%2851k%CE%A9*47%C2%B5F%29+*++ln%280.5%29)
+* when R4+R5=1kΩ and C=47µF: [32ms](https://www.wolframalpha.com/input/?i=-+%281k%CE%A9*47%C2%B5F%29+*++ln%280.5%29)
+* when R4+R5=51kΩ and C=47µF: [1.6s](https://www.wolframalpha.com/input/?i=-+%2851k%CE%A9*47%C2%B5F%29+*++ln%280.5%29)
 
 Note that the switching logic may be flipped to normally on with a timed off period by switching the inverting/non-inverting inputs.
 
@@ -64,6 +64,6 @@ with perhaps R3 adjusted to limit current to the LED as required.
 ![The Build](./assets/OpAmpTimer_build.jpg?raw=true)
 
 ## Credits and References
-* [LM741 Datasheet](http://www.futurlec.com/Linear/LM741CN.shtml)
+* [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [talkingelectronics timer circuit](http://www.talkingelectronics.com/projects/OP-AMP/OP-AMP-2.html) - a similar circuit that inspired this build (with a few modifications)
 
