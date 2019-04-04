@@ -32,7 +32,7 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="{{ site.text.og_locale }}">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if project_title %}{{ project_title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
+    <meta property="og:title" content="{% if project_title %}{{ leap_id }} {{ project_title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
     <meta property="og:description" content="{% if project_summary %}{{ project_summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
@@ -42,7 +42,7 @@
     {% if site.twitter_username %}
         <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     {% endif %}
-    <meta name="twitter:title" content="{% if project_title %}{{ project_title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:title" content="{% if project_title %}{{ leap_id }} {{ project_title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if project_summary %}{{ project_summary }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
     {% if hero_image_url %}
