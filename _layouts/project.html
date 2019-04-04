@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 {% assign project_name = page.dir | split: "/" | last %}
+{% if site.data.projects[page.dir] %}
+{% assign project_id = site.data.projects[page.dir]["id"] %}
+{% assign leap_id = "LEAP#" | append: project_id %}
+{% assign project_title = site.data.projects[page.dir]["title"] %}
+{% assign project_summary = site.data.projects[page.dir]["summary"] %}
+{% assign project_tags = site.data.projects[page.dir]["tags"] %}
+{% else %}
+{% assign project_title = project_name %}
+{% endif %}
 {% assign hero_image_url = page.url | append: "assets/" | append: project_name | append: "_build.jpg" %}
 {% include head.html %}
 <body class="project">
@@ -10,7 +19,7 @@
       <div class="col-md-8">
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">{{ project_name }}</h3>
+            <h3 class="panel-title">Project Notes</h3>
           </div>
           <div class="panel-body">
             <article class="markdown-body">

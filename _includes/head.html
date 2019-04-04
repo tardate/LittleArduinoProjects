@@ -1,9 +1,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
+    <title>{% if leap_id %}{{ leap_id }}{% else %}{% if project_title %}{{ project_title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     {% if page.meta_robots %}<meta name="robots" content="{{ page.meta_robots }}">
     {% else %}<meta name="robots" content="all">{% endif %}
     <meta name="author" content="{{ site.author }}">
@@ -30,11 +30,10 @@
     {% endif %}
 
     <!-- Open Graph -->
-    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="{{ site.text.og_locale }}">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    <meta property="og:title" content="{% if project_title %}{{ project_title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
+    <meta property="og:description" content="{% if project_summary %}{{ project_summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
 
@@ -43,8 +42,8 @@
     {% if site.twitter_username %}
         <meta name="twitter:site" content="@{{ site.twitter_username }}" />
     {% endif %}
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:title" content="{% if project_title %}{{ project_title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:description" content="{% if project_summary %}{{ project_summary }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
     {% if hero_image_url %}
         {% if hero_image_url contains '//' %}
@@ -55,6 +54,6 @@
     {% endif %}
 
     <!-- Icons -->
-    <link rel="icon" type="image/png" href="/catalog/assets/images/favicon-32x32.png" sizes="32x32"/>
-    <link rel="icon" type="image/png" href="/catalog/assets/images/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="{{ "/catalog/assets/images/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="{{ "/catalog/assets/images/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16"/>
 </head>

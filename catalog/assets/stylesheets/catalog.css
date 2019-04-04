@@ -207,3 +207,13 @@ footer .social-icons a:hover {
     content: ' ';
     display: table;
 }
+
+.project-sidebar .list-group-item.active {
+  font-weight: 800;
+}
+
+.project-sidebar .list-group-item.active > .badge.badge-success {
+  color: #fff;
+  background-color: #5cb85c;
+  font-size: inherit;
+}

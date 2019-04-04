@@ -25,6 +25,7 @@ class Catalog(object):
         path = os.path.dirname(os.path.abspath(__file__))
         self.collection_root = os.path.abspath(os.path.join(path, '..'))
         self.catalog_json = os.path.join(self.collection_root, 'catalog', 'catalog.json')
+        self.project_json = os.path.join(self.collection_root, '_data', 'projects.json')
         self.catalog_atom = os.path.join(self.collection_root, 'catalog', 'atom.xml')
         self.readme = os.path.join(self.collection_root, 'README.md')
 
@@ -73,11 +74,27 @@ class Catalog(object):
         metadata_file = self.get_project_file(relative_path, 'README.md')
         return datetime.utcfromtimestamp(os.path.getmtime(metadata_file))
 
-    def generate(self):
+    def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
         print "Writing {}..".format(self.catalog_json)
         with open(self.catalog_json, 'w') as f:
             json.dump(self.metadata(), f, indent=4)
+
+    def generate_project_data(self):
+        def project_data():
+            result = {}
+            for item in self.metadata():
+                result['/{}/'.format(item['relative_path'])] = {
+                    "id": int(item['id'].replace('#', '')),
+                    "title": item['name'],
+                    "summary": item['description'],
+                    "tags": item['categories'].split(', ')
+                }
+            return result
+
+        print "Writing {}..".format(self.project_json)
+        with open(self.project_json, 'w') as f:
+            json.dump(project_data(), f, indent=4)
 
     def generate_atom_feed(self):
         """ Command: re-writes the atom feed file from catalog_metadata. """
@@ -134,7 +151,8 @@ class Catalog(object):
     def rebuild(self):
         """ Command: rebuild catalog_metadata and catalog.json from README.md. """
         self.generate_metadata_files()
-        self.generate()
+        self.generate_catalog()
+        self.generate_project_data()
         self.generate_atom_feed()
 
 
