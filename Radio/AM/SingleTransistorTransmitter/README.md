@@ -17,7 +17,7 @@ have any local AM broadcasts it can be a challenge to verify that things are ind
 
 This is where low-power AM transmitters can be very useful.
 
-I found a one transistor AM transmitter design [posted on YouTube by Stefan0719]((https://www.youtube.com/watch?v=2B5bEMpgrLc),
+I found a one transistor AM transmitter design [posted on YouTube by Stefan0719](https://www.youtube.com/watch?v=2B5bEMpgrLc),
 and this was the starting point and inspiration for my experimentation.
 
 I first experimented with the same circuit on a breadboard, and it worked surprisingly well.
