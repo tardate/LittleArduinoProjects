@@ -1083,7 +1083,7 @@
             "AM", 
             "Transmitter"
         ], 
-        "title": "SingleTransistorTransmitter"
+        "title": "Single Transistor AM Transmitter"
     }, 
     "/Electronics101/DigitalLogic/XorWithNandGates/": {
         "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 

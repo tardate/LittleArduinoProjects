@@ -1,4 +1,4 @@
-# #464 AM/SingleTransistorTransmitter
+# #464 Single Transistor AM Transmitter
 
 Building a low power, single transistor AM transmitter with surprisingly good fidelity.
 

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-04T15:42:00Z</updated>
+  <updated>2019-04-04T16:27:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -25,8 +25,8 @@
   <entry>
     <id>https://leap.tardate.com/Radio/AM/SingleTransistorTransmitter/</id>
     <link href="https://leap.tardate.com/Radio/AM/SingleTransistorTransmitter/"/>
-    <updated>2019-03-26T11:22:03Z</updated>
-    <title>#464 SingleTransistorTransmitter</title>
+    <updated>2019-04-04T16:24:03Z</updated>
+    <title>#464 Single Transistor AM Transmitter</title>
     <summary>building a low power, single transistor AM transmitter with surprisingly good fidelity</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/SingleTransistorTransmitter/assets/SingleTransistorTransmitter_build.jpg</g:image_link>
     <category term="Radio"/>
@@ -735,7 +735,7 @@
   <entry>
     <id>https://leap.tardate.com/8051/AT89C2051/Blinky/</id>
     <link href="https://leap.tardate.com/8051/AT89C2051/Blinky/"/>
-    <updated>2019-04-04T15:29:07Z</updated>
+    <updated>2019-04-04T15:42:17Z</updated>
     <title>#395 AT89C2051/Blinky</title>
     <summary>Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/8051/AT89C2051/Blinky/assets/Blinky_build.jpg</g:image_link>
