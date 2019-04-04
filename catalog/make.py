@@ -27,30 +27,6 @@ class Catalog(object):
         self.catalog_json = os.path.join(self.collection_root, 'catalog', 'catalog.json')
         self.project_json = os.path.join(self.collection_root, '_data', 'projects.json')
         self.catalog_atom = os.path.join(self.collection_root, 'catalog', 'atom.xml')
-        self.readme = os.path.join(self.collection_root, 'README.md')
-
-    def get_projects_from_readme(self):
-        """ Parses the README and returns a list of projects.
-
-        example README entry:
-        | [#197 WienBridgeAudioToneGenerator](./Electronics101/WienBridgeAudioToneGenerator) | **OpAmp, Oscillators**          fixed-frequency tone generator based on a Wien Bridge Oscillator |
-
-        corresponding generated metadata:
-        {
-            'name': 'WienBridgeAudioToneGenerator',
-            'relative_path': 'Electronics101/WienBridgeAudioToneGenerator',
-            'description': 'fixed-frequency tone generator based on a Wien Bridge Oscillator',
-            'categories': 'OpAmp, Oscillators',
-            'id': '#197'
-        }
-        """
-        extractor = re.compile(r"\|\s+\[(?P<id>#\d+)\s(?P<name>.*)\]\(\.\/(?P<relative_path>.*)\)\s*\|\s+\*\*(?P<categories>.*)\*\*\s+(?P<description>.*)\s+\|")
-        data = []
-        for line in open(self.readme):
-            matches = extractor.match(line)
-            if matches:
-                data.append(matches.groupdict())
-        return data
 
     def metadata_files(self):
         """ Returns the collection of catalog metadata files. """
@@ -140,17 +116,8 @@ class Catalog(object):
 
         pretty_write(root, self.catalog_atom)
 
-    def generate_metadata_files(self):
-        """ Command: generates catalog_metadata from README data. """
-        for project in self.get_projects_from_readme():
-            metadata_file = self.get_project_file(project['relative_path'])
-            print "Generating {}".format(metadata_file)
-            with open(metadata_file, 'w') as f:
-                json.dump(project, f, indent=4)
-
     def rebuild(self):
-        """ Command: rebuild catalog_metadata and catalog.json from README.md. """
-        self.generate_metadata_files()
+        """ Command: rebuild catalogcatalog assets from metadata. """
         self.generate_catalog()
         self.generate_project_data()
         self.generate_atom_feed()
