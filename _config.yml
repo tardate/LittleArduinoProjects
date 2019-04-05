@@ -18,7 +18,8 @@ title_long: "LEAP: Little Electronic and Arduino Projects"
 author: Paul Gallagher
 email: gallagher.paul@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  LEAP: Little Electronic and Arduino Projects. my collection of electronics projects, many involving an Arduino in one way or another
+  LEAP: Little Electronic and Arduino Projects. My collection of electronics projects, many involving an Arduino in one way or another
+keywords: "Arduino, microcontroller, electronics, embedded, circuits, projects, open source"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leap.tardate.com" # the base hostname & protocol for your site, e.g. http://example.com
 repo_url: https://github.com/tardate/LittleArduinoProjects

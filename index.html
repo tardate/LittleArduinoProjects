@@ -1,134 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>LittleArduinoProjects</title>
-  <meta name="description" content="LEAP: Little Electronic and Arduino Projects. my collection of electronics projects, many involving an Arduino in one way or another">
-  <meta name="keywords" content="Arduino, electronics, projects, open source">
-  <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>
-  <link rel="stylesheet" href="catalog/assets/stylesheets/catalog.css">
-  <link rel="icon" type="image/png" href="catalog/assets/images/favicon-32x32.png" sizes="32x32"/>
-  <link rel="icon" type="image/png" href="catalog/assets/images/favicon-16x16.png" sizes="16x16"/>
-  <link href="catalog/atom.xml" type="application/atom+xml" rel="alternate" title="LEAP Atom feed" />
-</head>
-<body>
-  <a class="forkme" href="https://github.com/tardate/LittleArduinoProjects"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
-
-  <nav class="navbar navbar-default navbar-leap" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">LEAP: Little Electronic and Arduino Projects</a>
+---
+layout: default
+---
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">The Project Catalog</h3>
+        </div>
+        <div class="panel-body">
+          <table id="catalog-table" class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th class="hidden-xs">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <div class="container-fluid">
-
-    <div class="row">
-      <div class="col-md-8">
-
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">The Project Catalog</h3>
-          </div>
-          <div class="panel-body">
-
-            <table id="catalog-table" class="table table-striped table-bordered">
-              <thead>
-                <tr>
-                  <th>Project</th>
-                  <th class="hidden-xs">Description</th>
-                </tr>
-              </thead>
-              <tbody>
-              </tbody>
-            </table>
-
-          </div>
+    <div class="col-md-4">
+      <div class="list-group">
+        <div class="list-group-item active">
+          About this Page
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="list-group">
-          <div class="list-group-item active">
-            About this Page
-          </div>
-          <div class="list-group-item">
-            <p>
-              LEAP is my collection of electronics projects, many involving an Arduino in one way or another.
-              Some are full builds like
-              <a href="https://fretboard.tardate.com">The FretBoard</a>,
-              while many are trivial breadboard kata, intended to test or explore a single idea.
-            </p>
-            <p>
-              Many are variations of things found wild on the net, or inspired by ideas from the sources such as:
-              <ul>
-                <li><a href="http://www.boldport.club/">Boldport Club</a></li>
-                <li><a href="http://www.nutsvolts.com/">Nuts&amp;Volts magazine</a></li>
-                <li><a href="http://www.siliconchip.com.au/">Silicon Chip magazine</a></li>
-                <li><a href="http://electronics.stackexchange.com/">Electrical Engineering StackExchange</a></li>
-                <li><a href="http://arduino.stackexchange.com/">Arduino StackExchange</a></li>
-                <li><a href="http://playground.arduino.cc/">Arduino Playground</a></li>
-                <li>books from <a href="https://www.goodreads.com/review/list/17475014-paul?shelf=electronics">my electronics bookshelf</a></li>
-                <li>the many great electronics YouTube channels e.g.</li>
-                <ul>
-                  <li><a href="https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ">Afrotechmods</a></li>
-                  <li><a href="https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA">Ben Eater</a></li>
-                  <li><a href="https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ">GreatScott!</a></li>
-                  <li><a href="https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A">Julian Ilett</a></li>
-                  <li><a href="https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA">Scullcom Hobby Electronics</a></li>
-                  <li><a href="https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA">w2aew</a></li>
-                </ul>
-              </ul>
-              Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
-              There are even now a few projects contributed by others - send your own over in a pull request if you would also like to add to this collection.
-            </p>
-          </div>
-          <a href="https://github.com/tardate/LittleArduinoProjects" class="list-group-item">
-            <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-            LittleArduinoProjects on GitHub
-          </a>
-          <a href="https://codingkata.tardate.com/" class="list-group-item">
-            <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-            LittleCodingKata
-          </a>
-          <a href="https://blog.tardate.com" class="list-group-item">
-            <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-            More like this on my blog
-          </a>
+        <a href="{{ site.repo_url | append: "/blob/master" | append: page.url }}" class="list-group-item" target="_blank">
+          <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+          Project Sources on GitHub
+        </a>
+        <div class="list-group-item">
+          {% include sidebar_links.html %}
         </div>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- leap-catalog -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8429465058616611"
-             data-ad-slot="9970614443"
-             data-ad-format="auto"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <a href="https://codingkata.tardate.com/" class="list-group-item">
+          <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+          LittleCodingKata
+        </a>
+        <a href="https://blog.tardate.com" class="list-group-item">
+          <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+          More like this on my blog
+        </a>
       </div>
-
+      {% include adsidebar.html %}
     </div>
 
   </div>
-
-
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
-  <script src="catalog/assets/javascripts/catalog.js"></script>
-  <!-- Google Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-4894631-13', 'auto');
-    ga('send', 'pageview');
-  </script>
-</body>
-</html>
+</div>
+<script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
+<script src="catalog/assets/javascripts/catalog.js"></script>
