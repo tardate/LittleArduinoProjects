@@ -2,10 +2,11 @@
 """ A script to build the catalog.json file.
 
 Collates all project metadata into a simple JSON file used by the catalog index.
-This should be re-run after adding a project or updating any project metadata.
+It also generates a data file used by jekyll page generation.
+(These are currently two separate files because of the different
+access pattern requirements for each)
 
-This script can also build project metadata from the master README.md file.
-Not sure how long I'll need this for.
+This should be re-run after adding a project or updating any project metadata.
 
 """
 from sys import argv
@@ -46,9 +47,9 @@ class Catalog(object):
     def get_project_file(self, relative_path, name='.catalog_metadata'):
         return os.path.join(self.collection_root, relative_path, name)
 
-    def get_project_modified_datetime(self, relative_path):
-        metadata_file = self.get_project_file(relative_path, 'README.md')
-        return datetime.utcfromtimestamp(os.path.getmtime(metadata_file))
+    def get_project_modified_datetime(self, relative_path, filename='README.md'):
+        indicative_file = self.get_project_file(relative_path, filename)
+        return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
@@ -99,11 +100,13 @@ class Catalog(object):
 
         for entry in self.metadata():
             url = 'https://leap.tardate.com/{}/'.format(entry['relative_path'])
-            hero_image_url = 'https://leap.tardate.com/{}/assets/{}_build.jpg'.format(
-                entry['relative_path'],
-                entry['relative_path'].split('/')[-1]
+            hero_image_file = '{}_build.jpg'.format(entry['relative_path'].split('/')[-1])
+            asset_path = '{}/assets'.format(entry['relative_path'])
+            hero_image_url = 'https://leap.tardate.com/{}/{}'.format(
+                asset_path,
+                hero_image_file
             )
-            updated_at = self.get_project_modified_datetime(entry['relative_path'])
+            updated_at = self.get_project_modified_datetime(asset_path, hero_image_file)
             doc = ElementTree.SubElement(root, "entry")
             ElementTree.SubElement(doc, "id").text = url
             ElementTree.SubElement(doc, "link", href=url)
