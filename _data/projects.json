@@ -2404,6 +2404,15 @@
         ], 
         "title": "Popcorn"
     }, 
+    "/Radio/AM/OpAmpTransmitter/": {
+        "summary": "simple AM transmitter with OpAmp carrier/mixer", 
+        "id": 143, 
+        "tags": [
+            "Radio", 
+            "OpAmp"
+        ], 
+        "title": "OpAmp AM Transmitter"
+    }, 
     "/LEDArrayDemos/AsyncLedStripEffects/": {
         "summary": "demo effects on the LED strip driven using timer interrupt", 
         "id": 14, 
@@ -3935,15 +3944,6 @@
             "Amplifier"
         ], 
         "title": "TwoStageCommonEmitterAmplifier"
-    }, 
-    "/Electronics101/AM/OpAmpTransmitter/": {
-        "summary": "simple AM transmitter with OpAmp carrier/mixer", 
-        "id": 143, 
-        "tags": [
-            "Radio", 
-            "OpAmp"
-        ], 
-        "title": "AM/OpAmpTransmitter"
     }, 
     "/BoldportClub/cordwood/aanimate/": {
         "summary": "run a demo animation using aaronjasso's Cordwood library", 

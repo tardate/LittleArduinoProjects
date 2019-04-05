@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-05T13:59:57Z</updated>
+  <updated>2019-04-05T15:33:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/BJT/MrBiJuT/</id>
     <link href="https://leap.tardate.com/Electronics101/BJT/MrBiJuT/"/>
-    <updated>2019-03-30T10:31:15Z</updated>
+    <updated>2019-04-05T15:21:20Z</updated>
     <title>#465 MrBiJuT</title>
     <summary>Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BJT/MrBiJuT/assets/MrBiJuT_build.jpg</g:image_link>
@@ -3327,12 +3327,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AM/OpAmpTransmitter/</id>
-    <link href="https://leap.tardate.com/Electronics101/AM/OpAmpTransmitter/"/>
+    <id>https://leap.tardate.com/Radio/AM/OpAmpTransmitter/</id>
+    <link href="https://leap.tardate.com/Radio/AM/OpAmpTransmitter/"/>
     <updated>2015-09-15T16:37:08Z</updated>
-    <title>#143 AM/OpAmpTransmitter</title>
+    <title>#143 OpAmp AM Transmitter</title>
     <summary>simple AM transmitter with OpAmp carrier/mixer</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AM/OpAmpTransmitter/assets/OpAmpTransmitter_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Radio/AM/OpAmpTransmitter/assets/OpAmpTransmitter_build.jpg</g:image_link>
     <category term="Radio"/>
     <category term="OpAmp"/>
   </entry>

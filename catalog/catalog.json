@@ -2255,10 +2255,10 @@
     }, 
     {
         "description": "simple AM transmitter with OpAmp carrier/mixer", 
-        "relative_path": "Electronics101/AM/OpAmpTransmitter", 
+        "relative_path": "Radio/AM/OpAmpTransmitter", 
         "id": "#143", 
         "categories": "Radio, OpAmp", 
-        "name": "AM/OpAmpTransmitter"
+        "name": "OpAmp AM Transmitter"
     }, 
     {
         "description": "how fast can you push an Op-Amp oscillator?", 
