@@ -1,6 +1,6 @@
-# 465 Little Electronics and Arduino Projects
+# 466 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [MrBiJuT](./Electronics101/BJT/MrBiJuT) - Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator.
+> Latest addition:sparkles: [VC3165](./Equipment/VC3165) - all about the Victor VC3165 frequency counter.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

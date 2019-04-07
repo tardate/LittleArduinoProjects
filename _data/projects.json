@@ -3257,6 +3257,15 @@
         ], 
         "title": "I2CScanner"
     }, 
+    "/Equipment/VC3165/": {
+        "summary": "all about the Victor VC3165 frequency counter", 
+        "id": 466, 
+        "tags": [
+            "Tools", 
+            "Test Equipment"
+        ], 
+        "title": "VC3165"
+    }, 
     "/Kraft/GoldenHind/": {
         "summary": "building a mini metal model of the Golden Hind", 
         "id": 298, 

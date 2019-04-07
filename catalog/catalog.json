@@ -1,5 +1,12 @@
 [
     {
+        "description": "all about the Victor VC3165 frequency counter", 
+        "relative_path": "Equipment/VC3165", 
+        "id": "#466", 
+        "categories": "Tools, Test Equipment", 
+        "name": "VC3165"
+    }, 
+    {
         "description": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator", 
         "relative_path": "Electronics101/BJT/MrBiJuT", 
         "id": "#465", 
