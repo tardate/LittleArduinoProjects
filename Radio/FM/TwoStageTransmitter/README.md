@@ -1,4 +1,4 @@
-# Two-stage FM Transmitter
+# #467 Two-stage FM Transmitter
 
 Build and test a simple two-stage FM transmitter.
 
@@ -10,7 +10,7 @@ There are many similar circuits floating around the internet for a simple 2-tran
 It seems they all follow the same principles but with slightly different component values and minor changes in the schematic.
 
 I first saw saw this circuit in [this video by TechBuilder](https://youtu.be/joFourugXvs), and
-later discovered is is based on an
+later discovered it was based on an
 [original circuit by Art Swan](http://www.angelfire.com/art2/artswan/fmtrans1.jpg).
 
 ### How It Works
@@ -40,8 +40,8 @@ In the final build, I put a 10-30pF trimmer cap in as C4.
 
 ## Construction
 
-NB: I didn't actually do a breadboard build. It should work, although component values may need to be adjusted
-to compensate for capacitance injected by the breadboard.
+I actually did the build direct to copper PCB stock ugly-style.
+A breadboard build should work, although component values may need to be adjusted to compensate for capacitance injected by the breadboard.
 
 ![Breadboard](./assets/TwoStageTransmitter_bb.jpg?raw=true)
 
