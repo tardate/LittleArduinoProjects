@@ -1,6 +1,6 @@
-# 467 Little Electronics and Arduino Projects
+# 468 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Two-stage FM Transmitter](./Radio/FM/TwoStageTransmitter) - build and test a simple two-stage FM transmitter.
+> Latest addition:sparkles: [Duplex Tuning Capacitor](./Electronics101/BreadboardBling/DuplexTuningCapacitor) - making a breadboard-compatible variable capacitor for radio circuits.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -218,15 +218,14 @@
         ], 
         "title": "LedPanelDisplay72R02"
     }, 
-    "/playground/Led4Digit7Segment/DoubleShiftWithFETs/": {
-        "summary": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
-        "id": 81, 
+    "/Electronics101/BreadboardBling/DuplexTuningCapacitor/": {
+        "summary": "making a breadboard-compatible variable capacitor for radio circuits", 
+        "id": 468, 
         "tags": [
-            "7-Segment", 
-            "CMOS/TTL", 
-            "Arduino"
+            "Breadboard Bling", 
+            "Radio"
         ], 
-        "title": "Led4Digit7Segment/DoubleShiftWithFETs"
+        "title": "Duplex Tuning Capacitor"
     }, 
     "/Electronics101/EMRDetection/MobileRFDetectorKit/": {
         "summary": "build and investigate a commercially available \"mobile phone signal\" detector kit", 
@@ -1223,6 +1222,16 @@
             "Sensors"
         ], 
         "title": "VoltmeterAmmeterModule"
+    }, 
+    "/playground/Led4Digit7Segment/DoubleShiftWithFETs/": {
+        "summary": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
+        "id": 81, 
+        "tags": [
+            "7-Segment", 
+            "CMOS/TTL", 
+            "Arduino"
+        ], 
+        "title": "Led4Digit7Segment/DoubleShiftWithFETs"
     }, 
     "/Electronics101/PowerLD1117/": {
         "summary": "test an LD1117 3.3V linear regulator", 

@@ -1,5 +1,12 @@
 [
     {
+        "description": "making a breadboard-compatible variable capacitor for radio circuits", 
+        "relative_path": "Electronics101/BreadboardBling/DuplexTuningCapacitor", 
+        "id": "#468", 
+        "categories": "Breadboard Bling, Radio", 
+        "name": "Duplex Tuning Capacitor"
+    }, 
+    {
         "description": "build and test a simple two-stage FM transmitter", 
         "relative_path": "Radio/FM/TwoStageTransmitter", 
         "id": "#467", 

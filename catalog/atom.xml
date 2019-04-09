@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-07T15:30:03Z</updated>
+  <updated>2019-04-09T14:48:12Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/BreadboardBling/DuplexTuningCapacitor/</id>
+    <link href="https://leap.tardate.com/Electronics101/BreadboardBling/DuplexTuningCapacitor/"/>
+    <updated>2019-04-09T14:18:14Z</updated>
+    <title>#468 Duplex Tuning Capacitor</title>
+    <summary>making a breadboard-compatible variable capacitor for radio circuits</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/DuplexTuningCapacitor/assets/DuplexTuningCapacitor_build.jpg</g:image_link>
+    <category term="Breadboard Bling"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Radio/FM/TwoStageTransmitter/</id>
     <link href="https://leap.tardate.com/Radio/FM/TwoStageTransmitter/"/>
-    <updated>2019-04-07T14:55:59Z</updated>
+    <updated>2019-04-08T02:06:47Z</updated>
     <title>#467 Two-stage FM Transmitter</title>
     <summary>build and test a simple two-stage FM transmitter</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/TwoStageTransmitter/assets/TwoStageTransmitter_build.jpg</g:image_link>
