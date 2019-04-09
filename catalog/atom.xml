@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-28T05:52:35Z</updated>
+  <updated>2019-04-28T10:40:19Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Radio/FM/SimplestDirectReceiver/</id>
+    <link href="https://leap.tardate.com/Radio/FM/SimplestDirectReceiver/"/>
+    <updated>2019-04-28T10:38:15Z</updated>
+    <title>#476 Simplest Direct FM Receiver</title>
+    <summary>Taming a very simple direct conversion FM receiver</summary>
+    <g:image_link>https://leap.tardate.com/Radio/FM/SimplestDirectReceiver/assets/SimplestDirectReceiver_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="FM"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/ANG860B/</id>
     <link href="https://leap.tardate.com/Equipment/ANG860B/"/>
@@ -3557,7 +3567,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/AMFMRadioKit/</id>
     <link href="https://leap.tardate.com/Radio/AMFMRadioKit/"/>
-    <updated>2019-04-28T05:51:19Z</updated>
+    <updated>2019-04-28T05:53:05Z</updated>
     <title>#131 AM/FM Radio Kit</title>
     <summary>build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips</summary>
     <g:image_link>https://leap.tardate.com/Radio/AMFMRadioKit/assets/AMFMRadioKit_build.jpg</g:image_link>

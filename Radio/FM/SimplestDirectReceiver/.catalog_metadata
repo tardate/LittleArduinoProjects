@@ -1,0 +1,7 @@
+{
+    "id": "#476",
+    "name": "Simplest Direct FM Receiver",
+    "description": "Taming a very simple direct conversion FM receiver",
+    "categories": "Radio, FM",
+    "relative_path": "Radio/FM/SimplestDirectReceiver"
+}
