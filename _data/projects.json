@@ -1940,15 +1940,16 @@
         ], 
         "title": "RelayControlTest"
     }, 
-    "/BoldportClub/capacimeter/": {
-        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
-        "id": 447, 
+    "/Equipment/USBProtector/": {
+        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
+        "id": 400, 
         "tags": [
-            "Boldport", 
+            "Power", 
+            "USB", 
             "Tools", 
             "Test Equipment"
         ], 
-        "title": "BoldportClub/capacimeter"
+        "title": "USBProtector"
     }, 
     "/playground/AvrHardwarePWM/": {
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
@@ -2714,26 +2715,26 @@
         ], 
         "title": "Capacitorial"
     }, 
-    "/Equipment/USBProtector/": {
-        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
-        "id": 400, 
+    "/BoldportClub/capacimeter/": {
+        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
+        "id": 447, 
         "tags": [
-            "Power", 
-            "USB", 
+            "Boldport", 
             "Tools", 
             "Test Equipment"
         ], 
-        "title": "USBProtector"
+        "title": "BoldportClub/capacimeter"
     }, 
-    "/BoldportClub/Pease/": {
-        "summary": "a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1)", 
-        "id": 256, 
+    "/Electronics101/UltrasonicAlarm/": {
+        "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
+        "id": 287, 
         "tags": [
-            "Boldport", 
-            "PCB Design", 
-            "LM331"
+            "555 Timer", 
+            "Sensors", 
+            "CMOS/TTL", 
+            "HC-SR04"
         ], 
-        "title": "BoldportClub/Pease"
+        "title": "UltrasonicAlarm"
     }, 
     "/Electronics101/Oscillators/AstableOpamp/": {
         "summary": "using an LM324 OpAmp to generate a square wave (astable opamp oscillator)", 
@@ -3219,16 +3220,15 @@
         ], 
         "title": "TestIR"
     }, 
-    "/Electronics101/UltrasonicAlarm/": {
-        "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
-        "id": 287, 
+    "/BoldportClub/Pease/": {
+        "summary": "a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1)", 
+        "id": 256, 
         "tags": [
-            "555 Timer", 
-            "Sensors", 
-            "CMOS/TTL", 
-            "HC-SR04"
+            "Boldport", 
+            "PCB Design", 
+            "LM331"
         ], 
-        "title": "UltrasonicAlarm"
+        "title": "BoldportClub/Pease"
     }, 
     "/Electronics101/VoltmeterModule/": {
         "summary": "test a 3-wire voltmeter module", 
@@ -3952,6 +3952,16 @@
             "Logic Gates"
         ], 
         "title": "ResistorTransistorLogic/AND"
+    }, 
+    "/Electronics101/BreadboardBling/LM386AudioAmp/": {
+        "summary": "A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting", 
+        "id": 469, 
+        "tags": [
+            "Breadboard Bling", 
+            "Audio", 
+            "OpAmp"
+        ], 
+        "title": "LM386 Audio Amp"
     }, 
     "/BoldportClub/Touchy/": {
         "summary": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)", 

@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-09T14:48:12Z</updated>
+  <updated>2019-04-15T12:24:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/</id>
+    <link href="https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/"/>
+    <updated>2019-04-15T12:18:30Z</updated>
+    <title>#469 LM386 Audio Amp</title>
+    <summary>A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/assets/LM386AudioAmp_build.jpg</g:image_link>
+    <category term="Breadboard Bling"/>
+    <category term="Audio"/>
+    <category term="OpAmp"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/BreadboardBling/DuplexTuningCapacitor/</id>
     <link href="https://leap.tardate.com/Electronics101/BreadboardBling/DuplexTuningCapacitor/"/>
-    <updated>2019-04-09T14:18:14Z</updated>
+    <updated>2019-04-09T14:50:13Z</updated>
     <title>#468 Duplex Tuning Capacitor</title>
     <summary>making a breadboard-compatible variable capacitor for radio circuits</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/DuplexTuningCapacitor/assets/DuplexTuningCapacitor_build.jpg</g:image_link>

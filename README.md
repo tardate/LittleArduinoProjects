@@ -1,6 +1,6 @@
-# 468 Little Electronics and Arduino Projects
+# 469 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Duplex Tuning Capacitor](./Electronics101/BreadboardBling/DuplexTuningCapacitor) - making a breadboard-compatible variable capacitor for radio circuits.
+> Latest addition:sparkles: [LM386 Audio Amp](./Electronics101/BreadboardBling/LM386AudioAmp) - a basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
