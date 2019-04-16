@@ -4,10 +4,6 @@ All about the Victor VC3165 frequency counter.
 
 ![Build](./assets/VC3165_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
