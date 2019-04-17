@@ -3470,6 +3470,16 @@
         ], 
         "title": "Comparator741"
     }, 
+    "/Radio/AM/SimpleCrystalTransmitter/": {
+        "summary": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator", 
+        "id": 470, 
+        "tags": [
+            "Radio", 
+            "AM", 
+            "Transmitter"
+        ], 
+        "title": "Simple Crystal AM Transmitter"
+    }, 
     "/Electronics101/BJT/Comparator/": {
         "summary": "investigating and testing a comparator design with discrete components", 
         "id": 412, 

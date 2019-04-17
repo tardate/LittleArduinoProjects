@@ -1,4 +1,4 @@
-# 469 Little Electronics and Arduino Projects
+# 470 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [LM386 Audio Amp](./Electronics101/BreadboardBling/LM386AudioAmp) - a basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting.
 

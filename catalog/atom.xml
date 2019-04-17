@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-17T14:17:59Z</updated>
+  <updated>2019-04-18T12:29:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Radio/AM/SimpleCrystalTransmitter/</id>
+    <link href="https://leap.tardate.com/Radio/AM/SimpleCrystalTransmitter/"/>
+    <updated>2019-04-17T16:42:27Z</updated>
+    <title>#470 Simple Crystal AM Transmitter</title>
+    <summary>building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator</summary>
+    <g:image_link>https://leap.tardate.com/Radio/AM/SimpleCrystalTransmitter/assets/SimpleCrystalTransmitter_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="AM"/>
+    <category term="Transmitter"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/</id>
     <link href="https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/"/>

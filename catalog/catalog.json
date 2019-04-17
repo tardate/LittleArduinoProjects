@@ -1,5 +1,12 @@
 [
     {
+        "description": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator", 
+        "relative_path": "Radio/AM/SimpleCrystalTransmitter", 
+        "id": "#470", 
+        "categories": "Radio, AM, Transmitter", 
+        "name": "Simple Crystal AM Transmitter"
+    }, 
+    {
         "description": "A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting", 
         "relative_path": "Electronics101/BreadboardBling/LM386AudioAmp", 
         "id": "#469", 
