@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-15T12:24:28Z</updated>
+  <updated>2019-04-17T14:17:59Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/</id>
     <link href="https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/"/>
-    <updated>2019-04-15T12:18:30Z</updated>
+    <updated>2019-04-15T12:26:29Z</updated>
     <title>#469 LM386 Audio Amp</title>
     <summary>A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/LM386AudioAmp/assets/LM386AudioAmp_build.jpg</g:image_link>
@@ -2326,12 +2326,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/CMOSOscillators/</id>
-    <link href="https://leap.tardate.com/Electronics101/CMOSOscillators/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/CMOSOscillators/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/CMOSOscillators/"/>
     <updated>2017-02-13T06:21:14Z</updated>
-    <title>#246 CMOSOscillators</title>
-    <summary>testing a 4-pin CMOS oscillator component</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/CMOSOscillators/assets/CMOSOscillators_build.jpg</g:image_link>
+    <title>#246 CMOS Oscillators</title>
+    <summary>testing 4-pin CMOS oscillators - NCH060C, MCO-1510A</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CMOSOscillators/assets/CMOSOscillators_build.jpg</g:image_link>
     <category term="CMOS"/>
     <category term="Oscillators"/>
   </entry>

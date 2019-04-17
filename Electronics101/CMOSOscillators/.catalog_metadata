@@ -1,7 +1,0 @@
-{
-    "id": "#246", 
-    "name": "CMOSOscillators", 
-    "description": "testing a 4-pin CMOS oscillator component", 
-    "categories": "CMOS, Oscillators", 
-    "relative_path": "Electronics101/CMOSOscillators"
-}

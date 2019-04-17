@@ -2134,15 +2134,6 @@
         ], 
         "title": "MT3608/VariableBoost"
     }, 
-    "/Electronics101/CMOSOscillators/": {
-        "summary": "testing a 4-pin CMOS oscillator component", 
-        "id": 246, 
-        "tags": [
-            "CMOS", 
-            "Oscillators"
-        ], 
-        "title": "CMOSOscillators"
-    }, 
     "/Electronics101/PowerAMS1117/": {
         "summary": "test an AMS1117 3.3V linear regulator", 
         "id": 153, 
@@ -3451,6 +3442,15 @@
             "Audio"
         ], 
         "title": "BoldportClub/conehead"
+    }, 
+    "/Electronics101/Oscillators/CMOSOscillators/": {
+        "summary": "testing 4-pin CMOS oscillators - NCH060C, MCO-1510A", 
+        "id": 246, 
+        "tags": [
+            "CMOS", 
+            "Oscillators"
+        ], 
+        "title": "CMOS Oscillators"
     }, 
     "/Electronics101/FM/SingleStageTransmitterKit2/": {
         "summary": "build and tweak/tune another simple single-stage FM Transmitter Kit", 

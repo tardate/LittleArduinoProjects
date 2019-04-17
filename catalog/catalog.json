@@ -1561,11 +1561,11 @@
         "name": "pedalShieldUno"
     }, 
     {
-        "description": "testing a 4-pin CMOS oscillator component", 
-        "relative_path": "Electronics101/CMOSOscillators", 
+        "description": "testing 4-pin CMOS oscillators - NCH060C, MCO-1510A", 
+        "relative_path": "Electronics101/Oscillators/CMOSOscillators", 
         "id": "#246", 
         "categories": "CMOS, Oscillators", 
-        "name": "CMOSOscillators"
+        "name": "CMOS Oscillators"
     }, 
     {
         "description": "test a DC-powered general curve tracer circuit", 
