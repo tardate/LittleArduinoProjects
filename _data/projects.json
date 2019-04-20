@@ -627,14 +627,16 @@
         ], 
         "title": "AudioLevelIndicatorKit"
     }, 
-    "/playground/FastAnalogRead/": {
-        "summary": "how to increase the Arduino ADC analog sampling rate", 
-        "id": 458, 
+    "/playground/AvrHardwarePWM/ATtiny/": {
+        "summary": "all about hardware PWM and demonstrating the modes with the ATtiny85", 
+        "id": 255, 
         "tags": [
+            "ATtiny", 
+            "ATmel", 
             "Arduino", 
-            "GPIO"
+            "PWM"
         ], 
-        "title": "FastAnalogRead"
+        "title": "AvrHardwarePWM/ATtiny"
     }, 
     "/playground/DicksonChargePump/": {
         "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM", 
@@ -880,6 +882,16 @@
         ], 
         "title": "LittleGem/A386"
     }, 
+    "/BoldportClub/whiteboard/": {
+        "summary": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD4060 ripple counter", 
+        "id": 392, 
+        "tags": [
+            "Boldport", 
+            "LM317", 
+            "CD4060"
+        ], 
+        "title": "BoldportClub/whiteboard"
+    }, 
     "/Electronics101/CD4046/MainsLinkedPLL/": {
         "summary": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL", 
         "id": 452, 
@@ -962,13 +974,13 @@
         ], 
         "title": "PotModules"
     }, 
-    "/Electronics101/WatsonLedRing/": {
-        "summary": "test a Watson 3-LED Ring oscillator", 
-        "id": 164, 
+    "/Electronics101/Connectors/Power/": {
+        "summary": "obsessing over all manner of DC power connectors", 
+        "id": 329, 
         "tags": [
-            "Oscillators"
+            "Power"
         ], 
-        "title": "WatsonLedRing"
+        "title": "PowerConnectors"
     }, 
     "/Equipment/SaleaeLogic/": {
         "summary": "checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!)", 
@@ -1259,6 +1271,16 @@
         ], 
         "title": "VariableSawtoothGenerator"
     }, 
+    "/Electronics101/CapacitanceTester/": {
+        "summary": "capacitor tester with LCD output", 
+        "id": 57, 
+        "tags": [
+            "LCD", 
+            "RC", 
+            "Arduino"
+        ], 
+        "title": "CapacitanceTester"
+    }, 
     "/Kinetics/FQ777-954/TearDown/": {
         "summary": "teardown an FQ777-954 nano drone and figure out as much of the technical design as possible", 
         "id": 225, 
@@ -1540,17 +1562,6 @@
         ], 
         "title": "BidirectionalLevelShifter"
     }, 
-    "/playground/AvrHardwarePWM/ATtiny/": {
-        "summary": "all about hardware PWM and demonstrating the modes with the ATtiny85", 
-        "id": 255, 
-        "tags": [
-            "ATtiny", 
-            "ATmel", 
-            "Arduino", 
-            "PWM"
-        ], 
-        "title": "AvrHardwarePWM/ATtiny"
-    }, 
     "/BoldportClub/cordwood-too/": {
         "summary": "the Cordwood Puzzle returns! Boldport Club Project #13, May 2017", 
         "id": 321, 
@@ -1736,15 +1747,15 @@
         ], 
         "title": "SMDPracticeBoards"
     }, 
-    "/Electronics101/CapacitanceTester/": {
-        "summary": "capacitor tester with LCD output", 
-        "id": 57, 
+    "/Electronics101/LED/FluorescentRingReplacement/": {
+        "summary": "Understanding fluorescent lighting and installing an LED replacement", 
+        "id": 471, 
         "tags": [
-            "LCD", 
-            "RC", 
-            "Arduino"
+            "LED", 
+            "Power", 
+            "Lighting"
         ], 
-        "title": "CapacitanceTester"
+        "title": "Fluorescent Ring LED Replacement"
     }, 
     "/playground/LedTemperatureDisplay/": {
         "summary": "measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit", 
@@ -2291,15 +2302,14 @@
         ], 
         "title": "MotorControlPWM"
     }, 
-    "/BoldportClub/whiteboard/": {
-        "summary": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD4060 ripple counter", 
-        "id": 392, 
+    "/playground/FastAnalogRead/": {
+        "summary": "how to increase the Arduino ADC analog sampling rate", 
+        "id": 458, 
         "tags": [
-            "Boldport", 
-            "LM317", 
-            "CD4060"
+            "Arduino", 
+            "GPIO"
         ], 
-        "title": "BoldportClub/whiteboard"
+        "title": "FastAnalogRead"
     }, 
     "/Kraft/Pollen8/": {
         "summary": "a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit", 
@@ -3075,13 +3085,13 @@
         ], 
         "title": "StepperMotors/ULN2003Module"
     }, 
-    "/Electronics101/Connectors/Power/": {
-        "summary": "obsessing over all manner of DC power connectors", 
-        "id": 329, 
+    "/Electronics101/WatsonLedRing/": {
+        "summary": "test a Watson 3-LED Ring oscillator", 
+        "id": 164, 
         "tags": [
-            "Power"
+            "Oscillators"
         ], 
-        "title": "PowerConnectors"
+        "title": "WatsonLedRing"
     }, 
     "/playground/CapacitiveTouchOrgan/": {
         "summary": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino", 

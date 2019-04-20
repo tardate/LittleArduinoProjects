@@ -1,6 +1,6 @@
-# 470 Little Electronics and Arduino Projects
+# 471 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [LM386 Audio Amp](./Electronics101/BreadboardBling/LM386AudioAmp) - a basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting.
+> Latest addition:sparkles: [Fluorescent Ring LED Replacement](./Electronics101/LED/FluorescentRingReplacement) - Understanding fluorescent lighting and installing an LED replacement.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

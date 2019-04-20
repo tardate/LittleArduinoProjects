@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-18T12:29:42Z</updated>
+  <updated>2019-04-20T11:44:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/"/>
+    <updated>2019-04-20T09:15:41Z</updated>
+    <title>#471 Fluorescent Ring LED Replacement</title>
+    <summary>Understanding fluorescent lighting and installing an LED replacement</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/assets/FluorescentRingReplacement_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="Power"/>
+    <category term="Lighting"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Radio/AM/SimpleCrystalTransmitter/</id>
     <link href="https://leap.tardate.com/Radio/AM/SimpleCrystalTransmitter/"/>
-    <updated>2019-04-17T16:42:27Z</updated>
+    <updated>2019-04-20T06:52:07Z</updated>
     <title>#470 Simple Crystal AM Transmitter</title>
     <summary>building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator</summary>
     <g:image_link>https://leap.tardate.com/Radio/AM/SimpleCrystalTransmitter/assets/SimpleCrystalTransmitter_build.jpg</g:image_link>
@@ -2339,7 +2350,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CMOSOscillators/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CMOSOscillators/"/>
-    <updated>2017-02-13T06:21:14Z</updated>
+    <updated>2019-04-20T06:52:07Z</updated>
     <title>#246 CMOS Oscillators</title>
     <summary>testing 4-pin CMOS oscillators - NCH060C, MCO-1510A</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CMOSOscillators/assets/CMOSOscillators_build.jpg</g:image_link>

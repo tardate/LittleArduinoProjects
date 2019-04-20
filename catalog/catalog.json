@@ -1,5 +1,12 @@
 [
     {
+        "description": "Understanding fluorescent lighting and installing an LED replacement", 
+        "relative_path": "Electronics101/LED/FluorescentRingReplacement", 
+        "id": "#471", 
+        "categories": "LED, Power, Lighting", 
+        "name": "Fluorescent Ring LED Replacement"
+    }, 
+    {
         "description": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator", 
         "relative_path": "Radio/AM/SimpleCrystalTransmitter", 
         "id": "#470", 
