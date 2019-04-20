@@ -4,10 +4,6 @@ Evaluating the Peak LCR45 inductance, capacitance and resistance meter.
 
 ![Build](./assets/LCR45_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
 ## Notes
