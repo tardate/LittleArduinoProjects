@@ -1,7 +1,8 @@
-# #067 LEDLampAC
+# #067 AC LED Bulb
 
-An AC-powered LED lamp
+Build and analyse a commercial LED lamp kit with capacitive power supply.
 
+![The Build](./assets/ACBulb_build.jpg?raw=true)
 
 [:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
 
@@ -38,7 +39,7 @@ Note there is no series resistor that is often recommended to handle possible st
 
 OK, so the more I look at the circuit the more it looks a bit nasty, and it's not clear the LEDs are being driven optimally.
 
-Here's an attempt to [simulate it with CircuitLab](https://www.circuitlab.com/circuit/689p94/ledlampac-capacitive-power-supply/).
+Here's an attempt to [simulate it with CircuitLab](https://www.circuitlab.com/circuit/689p94/ACBulb-capacitive-power-supply/).
 
 ### LEDs
 
@@ -48,17 +49,17 @@ So the 38 LEDs will require a total voltage drop of around 114V; not surprising 
 
 ### Construction
 
-![The Build](./assets/LEDLampAC_build.jpg?raw=true)
+![The Build](./assets/ACBulb_build.jpg?raw=true)
 
-![The Build](./assets/LEDLampAC_build2.jpg?raw=true)
+![The Build](./assets/ACBulb_build2.jpg?raw=true)
 
-![The Schematic](./assets/LEDLampAC_schematic.jpg?raw=true)
+![The Schematic](./assets/ACBulb_schematic.jpg?raw=true)
 
-![Internals Front](./assets/LEDLampAC_pcb_front.jpg?raw=true)
+![Internals Front](./assets/ACBulb_pcb_front.jpg?raw=true)
 
-![Internals Rear](./assets/LEDLampAC_pcb_rear.jpg?raw=true)
+![Internals Rear](./assets/ACBulb_pcb_rear.jpg?raw=true)
 
-![Demo](./assets/LEDLampAC_demo.jpg?raw=true)
+![Demo](./assets/ACBulb_demo.jpg?raw=true)
 
 ## Parts
 
@@ -79,4 +80,3 @@ So the 38 LEDs will require a total voltage drop of around 114V; not surprising 
 ## Credits and References
 * [38 LED Lamp DIY Kit](https://www.aliexpress.com/item/Free-Shipping-New-Energy-Saving-38-LEDs-Lamps-DIY-Kits-Electronic-Suite-1-Set/32266628111.html) - as purchased on AliExpress
 * [Inside some of my earliest DIY LED lamps](https://www.youtube.com/watch?v=Ju1CQF39DH8) - excellent video by bigclivedotcom, discussing circuit design and construction of LED lamps like this
-

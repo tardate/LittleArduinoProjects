@@ -2829,10 +2829,10 @@
     }, 
     {
         "description": "build and analyse a commercial LED lamp kit with capacitive power supply", 
-        "relative_path": "Electronics101/LEDLampAC", 
+        "relative_path": "Electronics101/LED/ACBulb", 
         "id": "#067", 
         "categories": "Power, LED", 
-        "name": "LEDLamp"
+        "name": "LED AC Bulb"
     }, 
     {
         "description": "small-signal n-channel MOSFET switch with turn-off delay", 
