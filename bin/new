@@ -72,7 +72,6 @@ __notes__
 ## Credits and References
 
 * [name](url)
-* [..as mentioned on my blog](https://blog.tardate.com/)
 EOS
 
   local catalog_file="${full_path}/.catalog_metadata"
