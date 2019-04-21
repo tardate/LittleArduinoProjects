@@ -1,6 +1,6 @@
 # #472 Capacitive Dropper Power Supply
 
-Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit.
+Understanding how to design a capacitive dropper, demonstrated with a low-voltage LED driver circuit.
 
 ![Build](./assets/CapacitiveDropper_build.jpg?raw=true)
 
@@ -12,7 +12,7 @@ are cheap and simple designs for generating a current-limited, rectified voltage
 See [LEAP#067](../../LED/ACBulb) for an example of this used for mains powered LED lamp.
 
 The essence of a capacitive dropper is to use a mains-rated capacitor in series with the power line.
-the capacitive reactance at the supply frequency will limit the current that can be drawn.
+The capacitive reactance at the supply frequency will limit the current that can be drawn.
 
 Give a capacitive reactance `Xc = 1/ωC = 1/2πfC`, the available current is `I = Vac/Xc`.
 
@@ -35,7 +35,7 @@ Voltage regulation may be added to the load circuit if it is important.
 
 ## Low-power Demonstation Circuit
 
-A good way of experimenting with dropper circuits is to avoid the high voltage risks of mains supply.
+A good way of experimenting with dropper circuits is to avoid the high voltage risks of mains supply and use a low voltage AC adapter.
 In this example, I'm using a 12V AC power adapter rated for 10VA.
 
 I am using a 0.1µF X2 capacitor for C1.
@@ -46,9 +46,9 @@ That's quite low, but ample for the LEDs I am driving.
 I've set R1 at 220kΩ, so the discharge time constant on power off is [22ms](https://www.wolframalpha.com/input/?i=0.1%CE%BCF*220k%CE%A9).
 This is perhaps on the low side for 50Hz, and would be better sized at say 1MΩ for a [100ms time constant](https://www.wolframalpha.com/input/?i=0.1%CE%BCF*1000k%CE%A9).
 
-I've used quite a chunky DC bypass capacitor of 220µF. This does provide very smooth power, but of course also means a slow ramp
-of the voltage at startup and shutdown.
-R3 is 100kΩ, so the discharge time constant on power off is also very slow at [22s](https://www.wolframalpha.com/input/?i=220%CE%BCF*100k%CE%A9).
+C2 is quite a chunky DC bypass capacitor of 220µF. This does provide very smooth power, but of course also means a slow ramp of the voltage at startup and shutdown.
+With R3 at 100kΩ, the discharge time constant on power off is also very slow at [22s](https://www.wolframalpha.com/input/?i=220%CE%BCF*100k%CE%A9).
+A better choice for C2 may be say 4.7µF, for a discharge time constant of [0.47s](https://www.wolframalpha.com/input/?i=4.7%C2%B5F*100k%CE%A9).
 
 ![Breadboard](./assets/CapacitiveDropper_bb.jpg?raw=true)
 
