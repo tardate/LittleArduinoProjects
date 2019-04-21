@@ -4,8 +4,6 @@ BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club.
 
 ![Build](./assets/binco_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The BINCO a binary counter that can be configured to count up or down. It uses Snaptron domes as buttons (on, slow/fast and reset).

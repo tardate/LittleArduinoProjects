@@ -4,8 +4,6 @@ Unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX ho
 
 ![Build](./assets/FirstLook_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 

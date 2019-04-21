@@ -5,8 +5,6 @@ Test 7-digit & 7-status indicator LED display
 [![LedPanelDisplay72R02](https://img.youtube.com/vi/dPpyn7SVoBo/0.jpg)](https://www.youtube.com/watch?v=dPpyn7SVoBo)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found this interesting LED display at Sim Lim Tower at SGD$3 each, and grabbed one to test.

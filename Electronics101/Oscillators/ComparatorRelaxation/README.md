@@ -4,8 +4,6 @@ Test a classic comparator-based relaxation oscillator, modified for single-suppl
 
 ![Build](./assets/ComparatorRelaxation_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The comparator-based relaxation oscillator is similar to the astable opamp oscillator -

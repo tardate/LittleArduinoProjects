@@ -6,8 +6,6 @@ Here's a quick video of the demo in action..
 
 [![Build](./assets/MCP23S17_build.jpg?raw=true)](https://www.youtube.com/watch?v=CuNJYUojNe0)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Microchip MCP23S17 is a 16-bit port expender:

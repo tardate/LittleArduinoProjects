@@ -4,8 +4,6 @@ Building a popular 30V/3A adjustable power supply kit, making an enclosure and t
 
 ![Build](./assets/AdjustablePowerSupplyKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [0-30V 2mA-3A Adjustable DC Regulated Power Supply DIY Kit](https://www.aliexpress.com/item/1Set-Red-0-30V-2mA-3A-Continuously-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-For-School/32789006670.html) is widely available from most hobby electronics markets (aliexpress, Banggood, eBay).

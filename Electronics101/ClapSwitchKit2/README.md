@@ -5,8 +5,6 @@ Practice some Boldport-style soldering on yet-another clap switch kit.
 ![ClapSwitchKit2_build_top](./assets/ClapSwitchKit2_build_top.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've had this clap-switch (voice activated) kit sculling around for a while (another "stocking stuffer" bargain on aliexpress).

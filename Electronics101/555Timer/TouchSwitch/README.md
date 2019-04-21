@@ -3,8 +3,6 @@
 Test a touch switch circuit based on a 555 timer
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is basically a 555 timer monostable, but triggered by touch pad on pin 2 (trigger).

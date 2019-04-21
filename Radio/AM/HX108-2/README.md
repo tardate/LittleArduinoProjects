@@ -4,8 +4,6 @@ Build and analyse the HX108-2 superheterodyne AM MW radio receiver kit.
 
 ![Build](./assets/HX108-2_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 AM/MW radios are of very little use these days in Singapore.

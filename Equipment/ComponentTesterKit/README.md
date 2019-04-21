@@ -4,8 +4,6 @@ Build and evaluate a popular ATMEGA328-based component tester kit
 
 ![Build](./assets/ComponentTesterKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I got a good deal recently on this [ATMEGA328-based component tester kit](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) (from seller on aliexpress). The kit is available from a few sources, but not all come with a case.

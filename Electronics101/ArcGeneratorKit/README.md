@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/ad8vV-S-dqo/0.jpg)](https://www.youtube.com/watch?v=ad8vV-S-dqo)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a version of a very common High Voltage Arc Kit.

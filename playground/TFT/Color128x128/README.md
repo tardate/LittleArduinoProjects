@@ -4,8 +4,6 @@ Testing a 128x128 colour TFT LCD with a couple of different Arduino libraries.
 
 ![Build](./assets/Color128x128_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I dug out a [1.44 inch Serial 128*128 SPI Color TFT LCD Module](https://www.aliexpress.com/item/5PCS-1-44-inch-TFT-LCD-module-SPI-serial-module-LCD-color-screen-only-4-IO/32805698103.html) from my parts drawer as a possible display for a project I'm working on. First .. put it to the test.

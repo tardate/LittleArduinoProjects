@@ -4,8 +4,6 @@ Figuring out how to use the H-83A "12 songs" music chip.
 
 ![Build](./assets/H83A_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The H-83A is yet another music chip, this time programmed with 12 tunes.

@@ -4,8 +4,6 @@ Simple unity-gain phase splitter in a little breadboard-compatible package.
 
 ![Build](./assets/PhaseSplitter_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Section 2.08 in the The Art of Electronics describes a unity-gain phase splitter which generates an output signal and its inverse (180˚ out of phase).

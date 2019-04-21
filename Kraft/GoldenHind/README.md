@@ -4,8 +4,6 @@ Building a mini metal model of the Golden Hind. No electronics involved .. yet.
 
 ![Build](./assets/GoldenHind_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A nice diversion .. a

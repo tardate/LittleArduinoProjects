@@ -5,8 +5,6 @@ Test a bi-directional 5/3.3V level shifter module.
 ![The Modules](./assets/BidirectionalLevelShifterModule_module.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 3.3/5V level-shifting modules are quite common, as the need to interface 5V microcontrollers with 3.3V devices/sensors (or vice versa) is pretty common. Often these are billed for

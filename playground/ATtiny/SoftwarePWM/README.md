@@ -4,8 +4,6 @@ Generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques.
 
 ![Build](./assets/SoftwarePWM_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 In most cases, direct hardware support is by far the preferred way of generating PWM signals with an ATtiny, but

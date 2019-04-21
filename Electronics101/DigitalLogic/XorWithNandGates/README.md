@@ -4,8 +4,6 @@ Construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's 
 
 ![Build](./assets/XorWithNandGates_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I recently needed an XOR gate, but only had NAND gates on hand.

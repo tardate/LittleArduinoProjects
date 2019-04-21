@@ -3,8 +3,6 @@
 Tests raw IR reception.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 An exploration of IR Sensor reception based on the [adafruit sample code available here](https://learn.adafruit.com/ir-sensor/using-an-ir-sensor).

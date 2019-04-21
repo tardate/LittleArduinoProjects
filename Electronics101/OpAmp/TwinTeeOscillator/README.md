@@ -4,8 +4,6 @@ A twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spec
 
 ![Build](./assets/TwinTeeOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A twin-tee filter in the feedback loop of an op-amp can be used to generate a sine wave.

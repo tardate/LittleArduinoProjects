@@ -5,8 +5,6 @@ Variable resistor is used to control the brightness of an LED with PWM.
 ![The Build](./assets/VariableLED_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 ![The Breadboard Schematic](./assets/VariableLED_bb.jpg?raw=true)

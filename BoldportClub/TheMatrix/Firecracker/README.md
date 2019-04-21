@@ -7,8 +7,6 @@ Here's a quick video showing it in action..
 [![Build](./assets/Firecracker_build.jpg?raw=true)](https://www.youtube.com/watch?v=0L34ye-Hupc)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I was a bit dubious about the possibility of creating a decent firecracker animation on the 24x5 Matrix display.

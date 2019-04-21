@@ -7,8 +7,6 @@ Here's a quick video of the module in action:
 [![LED7Segment/ShiftDriveModule](https://img.youtube.com/vi/7cgd1EV6CqY/0.jpg)](https://www.youtube.com/watch?v=7cgd1EV6CqY)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is my version of project 2 from the

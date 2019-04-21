@@ -4,8 +4,6 @@ Use a CD4096 to generate an oscillating waveform and plot the results
 
 ![Build](./assets/CMOSInverterOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found this oscillator circuit as part of the [LEAP#182 PowerSupply317Kit](../PowerSupply317Kit).

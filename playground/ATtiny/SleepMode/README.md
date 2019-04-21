@@ -6,8 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![SleepMode](https://img.youtube.com/vi/WhtLly1BM0U/0.jpg)](https://www.youtube.com/watch?v=WhtLly1BM0U)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a little test of sleep mode with an ATtiny85 microcontroller (8-pin DIP).

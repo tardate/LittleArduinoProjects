@@ -7,8 +7,6 @@ Here's a quick video showing it in action..
 [![Build](./assets/stringy_build.jpg?raw=true)](https://www.youtube.com/watch?v=pLeL9CwuKVM)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Stringy synthesizes guitar sounds on a PIC microcontroller using MadLab's implementation of the

@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/QLl-OWAFiy0/0.jpg)](https://www.youtube.com/watch?v=QLl-OWAFiy0)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [Wilf's Bird](http://solarbotics.net/library/circuits/misc_sound_wilfbird.html) is a pretty famous "bird chirp" sound effect by Wilf Rigter.

@@ -6,8 +6,6 @@ Here's a quick video demonstration:
 
 [![Build](./assets/TEA5767_build.jpg?raw=true)](https://www.youtube.com/watch?v=j-BBNMV8Iso)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A couple of TEA5767 Low-power FM stereo radio chips landed in my lap.

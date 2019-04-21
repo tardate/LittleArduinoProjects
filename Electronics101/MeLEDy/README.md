@@ -5,8 +5,6 @@ Use an electret microphone to light a series of LEDs in proportion to volume
 ![Prototype](./assets/MeLEDy_prototype.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a quick prototype of a circuit I've seen for sale as a DIY parts kit.

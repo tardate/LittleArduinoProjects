@@ -5,8 +5,6 @@ Build a simple single-stage FK702 FM Transmitter Kit by Future Kit.
 ![The Build](./assets/SingleStageTransmitterKit_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've been experimenting with FM, and the hardest thing to get right tends to be the hand-wound coils.

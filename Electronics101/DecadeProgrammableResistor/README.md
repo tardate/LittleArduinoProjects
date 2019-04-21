@@ -4,8 +4,6 @@ Building an old-fashioned 7-digit decade programmable resistor with push-button 
 
 ![Build](./assets/DecadeProgrammableResistor_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found some neat [pushwheel/thumbwheel decade switches](https://www.aliexpress.com/item/UXCELL-10-Pcs-Single-Unit-Pushwheel-Thumbwheel-Switch-Km1-0-9/32804224919.html),

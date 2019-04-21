@@ -3,8 +3,6 @@
 First test of an ESP8266 module - serial communication to the SoC
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The ESP8266 wifi SoC and derivative modules on offer caused a bit of a flurry in the IoT community (it seems).

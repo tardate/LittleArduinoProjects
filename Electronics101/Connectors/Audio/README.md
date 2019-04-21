@@ -4,8 +4,6 @@ Notes on miscellaneous audio connectors.
 
 ![Audio_build](./assets/Audio_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Audio signals can be carried by any kind of connection, but there are some more commonly used standard connectors for audio applications.

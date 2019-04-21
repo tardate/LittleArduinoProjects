@@ -4,8 +4,6 @@ Research the history and variants of the Pixie QRP transceiver, and build a basi
 
 ![Build](./assets/pixie_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Pixie is the name given to a class of QRP transceiver designs that evolved from the Foxx design described by George Burt GM3OXX in summer 1983 edition of SPRAT magazine.

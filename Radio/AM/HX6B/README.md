@@ -4,8 +4,6 @@ Build and analyse the HX-6B superheterodyne AM MW radio receiver kit.
 
 ![The Build](./assets/HX6B_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Just my notes on a build of [a HX-6B kit from a seller on aliexpress](https://www.aliexpress.com/item/DIY-Kits-Superheterodyne-Radio-Receiver-6-Transistor-sch-case-w-Speaker/32367150788.html).

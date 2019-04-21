@@ -3,8 +3,6 @@
 Generate a stair-step waveform with analog components.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Once again I'm inspired to go and build a circuit by  [yet another great tutorial from w2aew](https://youtu.be/Kqb5zcrgv7s?list=PL4ZSD4omd_Aw-ozOphzFCkhWMtBdyEIrP).

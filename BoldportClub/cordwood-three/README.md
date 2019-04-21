@@ -8,8 +8,6 @@ Here's a quick demo of the build on a custom test jig "LED Blinky Machine"..
 
 [![clip](https://img.youtube.com/vi/ol5FfNbUmC8/0.jpg)](https://www.youtube.com/watch?v=ol5FfNbUmC8)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is the third Boldport Club project in the Cordwood series.

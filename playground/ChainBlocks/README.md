@@ -5,8 +5,6 @@ Testing some "Chain Blocks" and demonstrate an XY Plotter block (with an MCP4201
 ![Build](./assets/ChainBlocks_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 My neighbour is developing a prototyping system called [Chain Blocks by PrexLab](http://www.prextron.com/chain),

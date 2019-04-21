@@ -4,8 +4,6 @@ Using a VL53L0X ranging sensor to make a short-range laser tape measure with an 
 
 ![Build](./assets/LaserTapeMeasure_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [VL53L0X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html)

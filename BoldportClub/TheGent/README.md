@@ -4,8 +4,6 @@ The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board
 
 ![Build](./assets/TheGent_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 

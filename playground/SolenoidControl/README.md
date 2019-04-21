@@ -7,8 +7,6 @@ Here's a quick demo of the circuit in action:
 [![SolenoidControl](https://img.youtube.com/vi/CDqSoQETEIg/0.jpg)](https://www.youtube.com/watch?v=CDqSoQETEIg)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [Solenoids](https://en.wikipedia.org/?title=Solenoid) are useful devices for converting electrical signals and digital logic into

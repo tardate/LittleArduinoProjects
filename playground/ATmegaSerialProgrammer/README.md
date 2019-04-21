@@ -4,8 +4,6 @@ All about bootloaders and how to program an ATMEGA328P chip over a serial connec
 
 ![Build](./assets/ATmegaSerialProgrammer_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 When one uses the Arduino IDE to program an Arduino Uno over a USB connection, this is what is going on:

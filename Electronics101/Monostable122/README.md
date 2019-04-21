@@ -3,8 +3,6 @@
 Simple pulse trigger using 74LS122 monostable with external timing configuration.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The 74LS122 monostable multivibrator in this circuit has pulse width programmed by selection of external resistance and capacitance values

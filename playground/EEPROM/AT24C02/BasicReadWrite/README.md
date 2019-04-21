@@ -5,8 +5,6 @@ Basic read/write operations to external EEPROM (AT24C02) with the Wire library
 ![The Build](./assets/BasicReadWrite_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I have some AT24C02BN Two-wire Serial EEPROM chips with a whopping capacity of 2K! (256 x 8)

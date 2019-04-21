@@ -7,8 +7,6 @@ Here's a quick video of the module in action:
 [![RGBLedModule Demo](https://img.youtube.com/vi/69Q7RoGBJaE/0.jpg)](https://www.youtube.com/watch?v=69Q7RoGBJaE)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The RGB LED module is a convenience since it builds-in 150Ω current-limiting resistors for the reg, green and blue anodes

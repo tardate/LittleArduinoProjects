@@ -4,8 +4,6 @@ Putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping.
 
 ![Build](./assets/DIYShield_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I'm finding myself using a Nokia 5110 display in various little projects, and wiring it up

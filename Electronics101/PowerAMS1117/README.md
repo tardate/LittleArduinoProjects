@@ -3,8 +3,6 @@
 Test an AMS1117 3.3V linear regulator
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LD1117 is a low drop fixed and adjustable voltage regulator, available from a number of manufacturers including UTC and ST.

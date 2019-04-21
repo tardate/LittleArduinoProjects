@@ -4,8 +4,6 @@ Scanning for I²C devices with an Arduino.
 
 ![Build](./assets/I2CScanner_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a simple sketch, inspired by

@@ -3,8 +3,6 @@
 A widely-adjustable square wave generator using the 555 timer
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This circuit is a variation on the basic 555 timer astable oscillator to allow the widest possible range of frequency and duty cycle adjustment.

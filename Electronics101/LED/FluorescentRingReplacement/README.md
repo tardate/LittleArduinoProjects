@@ -4,8 +4,6 @@ Understanding fluorescent lighting and installing an LED replacement.
 
 ![Build](./assets/FluorescentRingReplacement_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 My home has fluorescent lighting fixtures circa the late 1990s.

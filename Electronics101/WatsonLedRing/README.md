@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![WatsonLedRing](https://img.youtube.com/vi/Guscsbysltw/0.jpg)](https://www.youtube.com/watch?v=Guscsbysltw)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A neat and simple circuit that I found presented on the [rustybolt blog](http://rustybolt.info/wordpress/?p=664).

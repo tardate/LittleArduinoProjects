@@ -3,8 +3,6 @@
 Test a CMOS frequency counter circuit with a 100Hz - 5MHz range
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found this circuit published in Electronics magazine (Sep 16 1976).

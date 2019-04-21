@@ -4,8 +4,6 @@ Boldport puts the "pot" back in the resistance - a classic decade resistor box i
 
 ![Build](./assets/respot_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 As any good electronics hobbyist must have done,

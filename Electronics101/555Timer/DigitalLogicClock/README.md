@@ -4,8 +4,6 @@ Build a flexible, low-frequency digital logic clock module.
 
 ![Build](./assets/DigitalLogicClock_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This digital clock module was [designed by Ben Eater](https://www.youtube.com/watch?v=SmQ5K7UQPMM) as part of his 8-bit computer build.

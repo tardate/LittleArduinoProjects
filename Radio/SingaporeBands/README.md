@@ -4,8 +4,6 @@ Notes on official band plans for Singapore and my and personal observations on w
 
 ![Build](./assets/SingaporeBands_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Singapore is relatively progressive when it comes to radio spectrum allocation and use - for example, AM services disappeared by 2000 or so,

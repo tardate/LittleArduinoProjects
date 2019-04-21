@@ -3,8 +3,6 @@
 Using an OpAmp as a final buffer stage for TTL or similar circuits
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 TTL devices and other logic circuits often need to chain to other circuits.

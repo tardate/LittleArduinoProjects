@@ -4,8 +4,6 @@ Test and calibrate a DC Voltmeter/Ammeter panel module.
 
 ![Build](./assets/VoltmeterAmmeterModule_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I got [this DC 0-100V 10A Digital Voltmeter/Ammeter module](https://www.aliexpress.com/item/0-28-Red-Blue-LED-DC-0-100V-10A-Dual-display-Meter-Digital-Voltmeter-Ammeter-Panel/32310008404.html) from a seller on aliexpress at a nice price. But is it any good?

@@ -5,8 +5,6 @@ A fixed-frequency tone generator based on a Wien Bridge Oscillator
 ![The Build](./assets/WienBridgeAudioToneGenerator_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I wanted a simple tone generator to provide a test signal for audio projects:

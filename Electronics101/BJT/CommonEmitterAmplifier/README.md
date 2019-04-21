@@ -4,8 +4,6 @@ All about BJT common-emitter amplifier biasing and class of operation.
 
 ![Build](./assets/CommonEmitterAmplifier_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Time to revisit the basics of biasing a bipolar junction transistor in an NPN common-emitter amplifier configuration.

@@ -9,8 +9,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/hCzHK4Sgnn0/0.jpg)](https://www.youtube.com/watch?v=hCzHK4Sgnn0)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found this neat little circuit in the

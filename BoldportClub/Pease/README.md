@@ -7,8 +7,6 @@ Here's a quick demo video to show it works..
 [![Build](./assets/Pease_build.jpg?raw=true)](https://www.youtube.com/watch?v=-JQLJ-RI_1A)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Pease is a tribute to the legendary analogue designer Bob Pease.

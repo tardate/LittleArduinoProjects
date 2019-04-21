@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/11-BnUGQX18/0.jpg)](https://www.youtube.com/watch?v=11-BnUGQX18)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The MPR121 is a capacitive touch sensor.

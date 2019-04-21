@@ -4,8 +4,6 @@ Playing with the basic low voltage output circuit for the LM723 voltage regulato
 
 ![Build](./assets/LowVoltageRegulator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LM723 voltage regulator is a classic IC designed by Bob Widlar.

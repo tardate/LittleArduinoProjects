@@ -4,8 +4,6 @@ Low-side n-channel MOSFET switching of large loads with a microcontroller.
 
 ![Build](./assets/SwitchPowerNFET_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [LEAP#66 SwitchNFET](../SwitchNFET) project demonstrated basic n-channel enhancement mode switching.

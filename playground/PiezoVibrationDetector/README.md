@@ -4,8 +4,6 @@ Counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analo
 
 ![Build](./assets/PiezoVibrationDetector_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Some time back I picked up some [Piezo Transducers](http://www.dx.com/p/zx-18t9a1-18mm-piezo-transducer-sound-discs-w-leads-5-pcs-148144#.Wm3xP5P1XfA),

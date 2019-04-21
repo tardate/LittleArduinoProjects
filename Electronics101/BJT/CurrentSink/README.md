@@ -7,8 +7,6 @@ Here's a quick demo of the circuit in action:
 [![BJTCurrentSink](https://img.youtube.com/vi/Gg9dMxprlXM/0.jpg)](https://www.youtube.com/watch?v=Gg9dMxprlXM)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Current sources and sinks are excellently described in [w2aew's tutorial on YouTube](https://youtu.be/xR0RfmmRhDw).

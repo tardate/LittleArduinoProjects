@@ -5,8 +5,6 @@ A simple PCB breadboard adapter for 8-pin nRF24 modules
 ![Build](./assets/nRF24Breakout_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is my version of project 1 from the

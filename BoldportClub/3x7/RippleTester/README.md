@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/wn-WYp7O15c/0.jpg)](https://www.youtube.com/watch?v=wn-WYp7O15c)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 After building the [Boldport 3x7](../) I thought it would be nice to have a simple way

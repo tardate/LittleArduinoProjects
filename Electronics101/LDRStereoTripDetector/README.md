@@ -8,8 +8,6 @@ Here's a quick video of the circuit in action:
 
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This demonstrates two circuit concepts:

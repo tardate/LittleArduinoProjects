@@ -4,8 +4,6 @@ Building the Boldport 3x7, Project #29, with custom flip-top layout so you can s
 
 ![Build](./assets/3x7_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A lovely PCB and classic Boldport instructions:

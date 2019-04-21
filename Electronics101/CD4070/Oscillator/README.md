@@ -4,8 +4,6 @@ Examine a classic CD4070 oscillator design and variations.
 
 ![Build](./assets/Oscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 There's a widely-shared circuit of a "square wave generator with CD4070", for example a circuit that is intended to run at 2 MHz:

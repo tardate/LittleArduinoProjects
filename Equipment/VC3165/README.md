@@ -4,8 +4,6 @@ All about the Victor VC3165 frequency counter.
 
 ![Build](./assets/VC3165_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've been using the Victor VC3165 frequency counter for some time, and it's proven a very reliable

@@ -3,8 +3,6 @@
 This is an investigation of all the internal details of the Arduino Board from a programming perspective.
 Results are dumped to the serial port.
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a sketch that reports on a chip's capabilities. It runs on the chip itself, rather than examining externally.

@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![SwitchSoftLatch demo](https://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](https://www.youtube.com/watch?v=9lX_sPDjzDE)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a neat circuit with low component count that provides an on/off toggle with a momentary push-button.

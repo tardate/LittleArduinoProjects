@@ -4,8 +4,6 @@ A standard Stepper-compatible Arduino library that supports half-stepping the 28
 
 ![The Build](./assets/X113647StepperLibrary_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 It's common to find the 28BYJ-48 stepper motor and a X113647 Stepper Motor Driver Board in Arduino starter kits.

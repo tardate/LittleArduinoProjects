@@ -4,8 +4,6 @@ Testing a TL431 voltage reference (regulator) circuit with manual coarse and fin
 
 ![Build](./assets/ShuntRegulator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The TL431 Precision Programmable Reference is a cheap and easily adjustable shunt regulator.

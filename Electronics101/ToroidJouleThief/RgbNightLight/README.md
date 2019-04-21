@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/T3jprnHPbQM/0.jpg)](https://www.youtube.com/watch?v=T3jprnHPbQM)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I recently got hold of some

@@ -3,8 +3,6 @@
 A version of the runoffgroove Ruby LM386 guitar amp.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Ruby amp is similar to the [LittleGem](./LittleGem), however it introduces a JFET buffer on the input

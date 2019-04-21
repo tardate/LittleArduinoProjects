@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/RFV3R29ny8E/0.jpg)](https://www.youtube.com/watch?v=RFV3R29ny8E)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Inside most solar-powered garden lights is an ingenious little circuit comprising a rechargeable battery, solar cell,

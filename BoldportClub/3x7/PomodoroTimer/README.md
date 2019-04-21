@@ -8,8 +8,6 @@ Here's a demo of it running a 5-minute countdown (I would be surprised if anyone
 
 [![clip](https://img.youtube.com/vi/ZsGqnc2DhiA/0.jpg)](https://www.youtube.com/watch?v=ZsGqnc2DhiA)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Over the years, I've become habituated to working in a [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) style -

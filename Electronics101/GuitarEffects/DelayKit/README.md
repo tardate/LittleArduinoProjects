@@ -6,8 +6,6 @@ Here's a quick hit to demo the delay unit, with a clean guitar signal and all th
 
 [![Build](./assets/DelayKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=7I3Oxd9LHHg)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I have been reading up on the PT2399 echo audio processor, and a good way of seeing one action

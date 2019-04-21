@@ -4,8 +4,6 @@ The Cordwood Puzzle returns! Boldport Club Project #13, May 2017
 
 ![Build](./assets/cordwood-too_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The original [Cordwood Puzzle](../cordwood) became an instant classic with club members, and the concept returns this year with a brand new puzzle.

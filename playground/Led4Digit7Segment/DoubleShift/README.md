@@ -3,8 +3,6 @@
 Driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 See [Led4Digit7Segment](../) for general discussion of 4-digit 7-segment displays,

@@ -4,8 +4,6 @@ Build and analyse a commercial LED lamp kit with capacitive power supply.
 
 ![The Build](./assets/ACBulb_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 So I got this

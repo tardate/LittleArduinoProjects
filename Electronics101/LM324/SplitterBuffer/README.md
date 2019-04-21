@@ -3,8 +3,6 @@
 Demonstrate load-independance of an LM324 buffer and signal-splitter
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I'm considering using an LM324 as a buffer to split an input signal (up to 100kHz).

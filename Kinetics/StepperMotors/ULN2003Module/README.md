@@ -4,8 +4,6 @@ Investigating the common ULN2003A modules provided for unipolar stepper motor co
 
 ![Build](./assets/ULN2003Module_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Unipolar stepper motors are commonly used with microcontrollers.

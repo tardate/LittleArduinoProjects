@@ -4,8 +4,6 @@ Building the Silicon Chip USB Protector which demonstrates various methods of re
 
 ![Build](./assets/USBProtector_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I picked up the Silicon Chip USB Protector not so much because of need, but because it is an interesting study

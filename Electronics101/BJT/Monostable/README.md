@@ -6,8 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![BJTMonostable](https://img.youtube.com/vi/UpARBfVGHoU/0.jpg)](https://www.youtube.com/watch?v=UpARBfVGHoU)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The stable state:

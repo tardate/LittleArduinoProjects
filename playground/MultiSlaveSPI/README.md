@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![MultiSlaveSPI](https://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](https://www.youtube.com/watch?v=t2ncYWxmPbo)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [ShiftDriveSPI](../LED7Segment/ShiftDriveSPI) project demonstrated how hardware SPI can be used to control a system with a 74HC595 interface. The proposed benefit was that SPI allows multiple devices to be controlled with a minimal (+1) extension to the number of pins required.

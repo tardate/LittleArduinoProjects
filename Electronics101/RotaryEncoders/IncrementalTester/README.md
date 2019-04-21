@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/isxaXLsYxiY/0.jpg)](https://www.youtube.com/watch?v=isxaXLsYxiY)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Incremental [Rotary encoders](https://en.wikipedia.org/wiki/Rotary_encoder) typically provide quadrature output on two pins:

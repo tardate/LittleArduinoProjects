@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/t6bDAJE5T_M/0.jpg)](https://www.youtube.com/watch?v=t6bDAJE5T_M)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I recently "discovered" solar LED driver ICs that are mainly designed to drive solar-powered lights,

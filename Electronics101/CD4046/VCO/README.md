@@ -4,8 +4,6 @@ Audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC.
 
 ![Build](./assets/VCO_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The 4046 includes a VCO sub-system in addition to phase comparators and other components.

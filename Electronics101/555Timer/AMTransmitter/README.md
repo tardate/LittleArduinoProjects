@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action, transmitting [Lullaby/Колыб�
 [![555Timer/AMTransmitter](https://img.youtube.com/vi/1QtLAnv1PCg/0.jpg)](https://www.youtube.com/watch?v=1QtLAnv1PCg)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 There are quite a few circuits (see links below) that use a humble 555 timer chip as a medium-wave transmitter.

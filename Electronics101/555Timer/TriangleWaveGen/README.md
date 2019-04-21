@@ -3,8 +3,6 @@
 Uses an Arduino to monitor a 555 timer/RC integrator triangle wave generator and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Triangle waves can be a useful test signal, even taken to approximate a sine wave.

@@ -8,8 +8,6 @@ Here's a quick demo; just a sound check/smoke test..
 
 [![clip](https://img.youtube.com/vi/gXs6lWLlBx0/0.jpg)](https://www.youtube.com/watch?v=gXs6lWLlBx0)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I remember lusting after an Ibanez Tube Screamer back in the day - they really were the stuff of legend.

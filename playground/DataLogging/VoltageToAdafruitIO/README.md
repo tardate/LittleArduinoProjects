@@ -4,8 +4,6 @@ Using Adafruit IO and an Ethernet shield to collect analog measurements to the c
 
 ![Build](./assets/VoltageToAdafruitIO_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I wanted a simple way to log the voltage of the

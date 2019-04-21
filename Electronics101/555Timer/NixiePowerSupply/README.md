@@ -4,8 +4,6 @@ Using a 555 boost converter to test some Nixie IN3 and IN14 tubes.
 
 ![Build](./assets/NixiePowerSupply_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I managed to get hold of some Nixie tubes (haven't exactly decided what I'm going to do with them yet - a clock would be obvious, but maybe something different).

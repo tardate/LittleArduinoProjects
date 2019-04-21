@@ -4,8 +4,6 @@ Learning about conductive ink with the CircuitScribe LiteWings kit.
 
 ![Build](./assets/LiteWings_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 There seems to have been quite a boom in conductive paint/ink applications in recent years.

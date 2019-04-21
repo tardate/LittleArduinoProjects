@@ -4,8 +4,6 @@ Rainbow glow effects with an RGB LED and OpAmp oscillators.
 
 [![Build](https://img.youtube.com/vi/9PpOC6A96As/0.jpg)](https://www.youtube.com/watch?v=9PpOC6A96As)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 For a while I've been thinking of ways to generate a pseudo-random rainbow glow on a composite RBG LED.

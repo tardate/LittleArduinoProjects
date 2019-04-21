@@ -4,8 +4,6 @@ Playing with the basic high voltage output circuit for the LM723 voltage regulat
 
 ![Build](./assets/HighVoltageRegulator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LM723 voltage regulator is a classic IC designed by Bob Widlar.

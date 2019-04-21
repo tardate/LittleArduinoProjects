@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/KKEdPk3T3Iw/0.jpg)](https://www.youtube.com/watch?v=KKEdPk3T3Iw)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A solar-powered vibrobot is one of the more common BEAM designs: essentially using a photovoltaic cell

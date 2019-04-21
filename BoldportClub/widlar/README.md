@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/jR9F6w2ItQ8/0.jpg)](https://www.youtube.com/watch?v=jR9F6w2ItQ8)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [BoldportClub Widlar](http://www.boldport.com/widlar) project is really all about two things:

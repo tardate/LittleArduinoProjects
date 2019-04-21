@@ -2,8 +2,6 @@
 
 ![Year One Projects](./assets/BoldportClub_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Making space here for what I hope will be a steady stream of beautiful kits from The Boldport Club.

@@ -4,8 +4,6 @@ A quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) fiel
 
 ![Build](./assets/BEAM_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [BEAM (Biology, Electronics, Aesthetics and Mechanics) Robotics](https://en.wikipedia.org/wiki/BEAM_robotics) primarily use simple analogue circuits in their design.

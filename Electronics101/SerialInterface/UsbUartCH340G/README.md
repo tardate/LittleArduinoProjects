@@ -4,8 +4,6 @@ Build a USB to TTL serial interface on a breadboard using the CH340G interface c
 
 ![Build](./assets/UsbUartCH340G_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The CH340G is a USB to UART Interface chip. It is often used as a cheap alternative to

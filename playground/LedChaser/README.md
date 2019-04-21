@@ -5,8 +5,6 @@ Blinks a series of 12 LEDs in a continuous loop.
 ![The Build](./assets/LedChaser_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 There seems to a general mis-conception that resistors should be connected to the

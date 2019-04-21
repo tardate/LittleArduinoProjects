@@ -3,8 +3,6 @@
 The most basic LED blinking circuit.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 There's not much to note in this circuit other than it is a good test that everything is working OK.

@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/9xpNcJ_0jvI/0.jpg)](https://www.youtube.com/watch?v=9xpNcJ_0jvI)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Digital switches seem to be well suited for switching applications that are more complex than can be achieved with a simple FET or BJT,

@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![TransistorTester demo](https://img.youtube.com/vi/LyhCdzWy1SI/0.jpg)](https://www.youtube.com/watch?v=LyhCdzWy1SI)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A bipolar junction transistor (BJT) can be considered a back-to-back pair of diodes.

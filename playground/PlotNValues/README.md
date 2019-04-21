@@ -3,8 +3,6 @@
 Sample up to 6 analog inputs and stream the data to serial in ASCII format - for plotting with Processing for example.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a generic program for sampling up to 6 analog values on a fixed time base,

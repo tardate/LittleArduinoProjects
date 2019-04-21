@@ -5,8 +5,6 @@ a DIY devboard for an ESP-01 ESP8266
 ![DIYDevBoard_demo](./assets/DIYDevBoard_demo.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 With the funding of the [MicroPython on the ESP8266](https://www.kickstarter.com/projects/214379695/micropython-on-the-esp8266-beautifully-easy-iot) campaign, my interest in the ESP8266 is rekindled.

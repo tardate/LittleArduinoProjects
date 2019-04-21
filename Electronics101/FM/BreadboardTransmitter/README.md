@@ -4,8 +4,6 @@ Build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3.
 
 ![Build](./assets/BreadboardTransmitter_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [dazaro3](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg) Youtube channel has some of the simplest and most practical FM transmitter circuits around,

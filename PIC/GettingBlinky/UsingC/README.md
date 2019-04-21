@@ -5,8 +5,6 @@ Getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's 
 ![Build](./assets/UsingC_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [LEAP#331 GettingBlinky](../) project was a simple test of the PIC12F675 with PIC assembler.

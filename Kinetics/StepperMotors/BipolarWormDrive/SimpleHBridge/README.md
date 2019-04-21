@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/Mkn8nW2BEYc/0.jpg)](https://www.youtube.com/watch?v=Mkn8nW2BEYc)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Many CD/DVD drives use a biopolar stepper motor with worm gear for linear positioning of the laser head.

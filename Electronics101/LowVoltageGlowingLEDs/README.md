@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![LowVoltageGlowingLEDs](https://img.youtube.com/vi/Epwdpe0EQ0Y/0.jpg)](https://www.youtube.com/watch?v=Epwdpe0EQ0Y)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 So for another project I wanted some "glowing" LEDs, ideally powered from a single 1.5V AA or AAA battery.

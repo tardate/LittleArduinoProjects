@@ -5,8 +5,6 @@ Measure the resonant frequency of an LC coil or inductance of an inductor
 ![LCResonator_build](./assets/LCResonator_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Again I'm inspired by one of [w2aew's videos](https://www.youtube.com/watch?v=Ff5xOENID7w).

@@ -8,8 +8,6 @@ Here's a quick video of the board in action:
 
 [![clip](https://img.youtube.com/vi/YXwNq41K2Ik/0.jpg)](https://www.youtube.com/watch?v=YXwNq41K2Ik)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 
 ## Notes
 

@@ -5,8 +5,6 @@ Notes on miscellaneous mechanical switches used in electrical circuits.
 ![Build](./assets/Switches_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Switches are the most basic of "input" devices for electrical systems.

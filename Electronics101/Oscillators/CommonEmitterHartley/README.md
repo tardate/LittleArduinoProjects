@@ -4,8 +4,6 @@ Build and test a BJT common-emitter Hartley oscillator.
 
 ![Build](./assets/CommonEmitterHartley_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Hartley oscillator was invented in 1915 by American engineer Ralph Hartley.

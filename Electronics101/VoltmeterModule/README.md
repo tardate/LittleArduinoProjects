@@ -3,8 +3,6 @@
 Test a 3-wire voltmeter module
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I obtained a 3-wire voltmeter module as part of a kit, so a chance to test one out!

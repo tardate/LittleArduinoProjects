@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![LED7Segment/DirectDrive](https://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](https://www.youtube.com/watch?v=R90zCCvA7_M)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The 7-segment display unit I have is stamped "SMA42056". It appears to be fairly common, however I've yet to find a datasheet for it.

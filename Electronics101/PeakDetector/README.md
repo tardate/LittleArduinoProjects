@@ -3,8 +3,6 @@
 OpAmp-based peak detector
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [w2aew](https://youtu.be/Fn5kHhNRsz0)

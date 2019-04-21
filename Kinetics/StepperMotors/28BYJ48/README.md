@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/_UWj8lBsAHg/0.jpg)](https://www.youtube.com/watch?v=_UWj8lBsAHg)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The 28BYJ-48 stepper motor is pretty common in Arduino kits, and

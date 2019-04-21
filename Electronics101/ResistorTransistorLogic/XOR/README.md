@@ -3,8 +3,6 @@
 Test the basic resistor-transistor logic XOR gate.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 ![XOR_ANSI](https://upload.wikimedia.org/wikipedia/commons/0/01/XOR_ANSI.svg)

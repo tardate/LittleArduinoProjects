@@ -3,8 +3,6 @@
 Use an Arduino to demonstrate a basic 74LS02 Quad 2-input NOR gate circuit, and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The 74LS02 Quad 2-input NOR gate is from the [7400 series](http://en.wikipedia.org/wiki/7400_series) of TTL integrated circuits.

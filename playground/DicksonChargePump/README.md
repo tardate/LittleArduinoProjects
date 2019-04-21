@@ -4,8 +4,6 @@ Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM.
 
 ![Build](./assets/DicksonChargePump_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [Dickson Charge Pump](https://en.wikipedia.org/wiki/Voltage_multiplier#Dickson_charge_pump) is a very neat trick for multiplying an input voltage.

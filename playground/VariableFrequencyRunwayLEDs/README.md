@@ -6,8 +6,6 @@ Here's a quick demo video of the circuit in action:
 
 [![Build](./assets/VariableFrequencyRunwayLEDs_build.jpg?raw=true)](https://www.youtube.com/watch?v=qnxnlBLyGxo)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The idea for this circuit came from a desire to have an LED effects loop that could be

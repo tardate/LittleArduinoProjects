@@ -8,8 +8,6 @@ Here's a quick video of the module running the demo code:
 
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is my version of project 3 from the

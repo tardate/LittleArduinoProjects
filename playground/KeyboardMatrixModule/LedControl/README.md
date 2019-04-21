@@ -4,8 +4,6 @@ Demo controlling the LEDs on a simple pushbutton/LED matrix module
 
 ![Build](./assets/LedControl_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 See [LEAP#303 KeyboardMatrixModule](../) for details of the module I am testing here.

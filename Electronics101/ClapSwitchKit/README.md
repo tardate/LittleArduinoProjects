@@ -7,8 +7,6 @@ Here's a quick video of the kit in action:
 [![ClapSwitchKit Demo](https://img.youtube.com/vi/sou727DP5S4/0.jpg)](https://www.youtube.com/watch?v=sou727DP5S4)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Here's a simple circuit that's available as a cheap kit - "shopping-cart stuffing".

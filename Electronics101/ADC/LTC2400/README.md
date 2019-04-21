@@ -4,8 +4,6 @@ Exploring the tips and traps involved in getting accurate readings from the LTC2
 
 ![Build](./assets/LTC2400_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I used a combination of an LTC2400 ADC with LT1019 2.5V voltage reference and voltage divider front-end

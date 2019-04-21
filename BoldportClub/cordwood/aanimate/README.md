@@ -6,8 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/aanimate_build.jpg?raw=true)](https://www.youtube.com/watch?v=0WyH_XYZ9tg)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [The Cordwood library](https://github.com/aaronjasso/Cordwood) by aaronjasso provides a simple interface

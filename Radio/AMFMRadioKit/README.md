@@ -3,8 +3,6 @@
 Notes on an AM/FM radio kit build.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 AM/FM radios are pretty rare these days but I wanted one for checking the behaviour of some RF circuits.

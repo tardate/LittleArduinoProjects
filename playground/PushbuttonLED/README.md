@@ -3,8 +3,6 @@
 Momentary push button switch is used to toggle the LED on and off.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A simple circuit showing how to wire a pushbutton with a pull-down resistor for a digital input that is normally low

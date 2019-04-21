@@ -6,8 +6,6 @@ Here's a quick demo of it in action..
 
 [![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)](https://www.youtube.com/watch?v=CC7LnUj8XIc)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This circuit is another implementation of a Set-Reset flip-flip, this time using NAND gates.

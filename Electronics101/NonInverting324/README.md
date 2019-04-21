@@ -3,8 +3,6 @@
 Use an Arduino to monitor an LM324 OpAmp in non-inverting DC gain mode and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This circuit demonstrates the non-inverting DC gain mode of an LM324 Operational Amplifier.

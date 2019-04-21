@@ -4,8 +4,6 @@ Evaluating the Peak LCR45 inductance, capacitance and resistance meter.
 
 ![Build](./assets/LCR45_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LCR45 is one of the leading test instruments from [Peak Electronic Design](https://www.peakelec.co.uk/acatalog/peak-test-instruments.html) in the UK.

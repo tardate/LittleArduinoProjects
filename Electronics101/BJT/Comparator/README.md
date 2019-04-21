@@ -4,8 +4,6 @@ Investigating and testing a comparator design with discrete components.
 
 ![Build](./assets/Comparator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Comparators are used to compare two voltages, with a binary output (high or low).

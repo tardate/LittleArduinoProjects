@@ -4,8 +4,6 @@ Rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit usin
 
 ![Build](./assets/pips_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Pips circuit is based on "Dicing with LEDs" by Elektor (December 2006),

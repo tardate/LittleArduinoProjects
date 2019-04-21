@@ -6,8 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/GameOfLife_cover.jpg?raw=true)](https://www.youtube.com/watch?v=xJM7nuiDj8w)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a quick and dirty implementation of

@@ -4,8 +4,6 @@ Self-measurement of an Arduino's supply voltage (Vcc).
 
 ![Build](./assets/VoltageSelfMeasurement_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 One of the issues with analogue measurements on the Arduino is that typically we assume an accurate 5V reference.

@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/9vkSytXmmKg/0.jpg)](https://www.youtube.com/watch?v=9vkSytXmmKg)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Parrot is a reproduction of a "bird chirp" circuit from

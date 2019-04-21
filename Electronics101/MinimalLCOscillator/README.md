@@ -3,8 +3,6 @@
 Test an LC oscillator of just 5 components
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I borrowed this idea and circuit design from stoneslice's

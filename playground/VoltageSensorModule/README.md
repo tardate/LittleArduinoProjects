@@ -3,8 +3,6 @@
 Test a 25V voltage sensor module
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a quick test of a

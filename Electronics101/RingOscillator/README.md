@@ -4,8 +4,6 @@ test a ring oscillator built with a 74LS14 Inverter chip
 
 ![The Build](./assets/RingOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A [Ring Oscillator](https://en.wikipedia.org/wiki/Ring_oscillator) is constructed

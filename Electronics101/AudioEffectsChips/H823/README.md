@@ -4,8 +4,6 @@ Figuring out how to use the H823 "Happy Birthday" music chip.
 
 [![Build](https://img.youtube.com/vi/RdeabhoCZKI/0.jpg)](https://www.youtube.com/watch?v=RdeabhoCZKI)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The H823 chip arrived in this [CD4060 Dream Music Light DIY Kit](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html) and so far I have been unable to find a source for the H823 chip alone, or indeed anything approximating a datasheet.

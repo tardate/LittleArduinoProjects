@@ -4,8 +4,6 @@ How to increase the Arduino ADC analog sampling rate.
 
 ![Build](./assets/FastAnalogRead_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The ATmega328P features a 10-bit successive approximation ADC with 8-channel analog multiplexer (to support multiple analog pins).

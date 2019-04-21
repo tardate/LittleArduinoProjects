@@ -4,8 +4,6 @@ Build and test a common PIC-based frequency counter kit.
 
 ![Build](./assets/FrequencyCounterKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I picked up a kit [similar to this one](https://www.aliexpress.com/item/CNIM-Hot-50-MHz-Crystal-Oscillator-Frequency-counter-Testers-DIY-Kit-5-Resolution-Digital-Red/32772551581.html) after watching [Julian Ilett's videos on the kit build](https://www.youtube.com/watch?v=Nhb0MjQBvNo).

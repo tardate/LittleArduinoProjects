@@ -6,8 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![TotalSleep](https://img.youtube.com/vi/Id6DoiL4zDo/0.jpg)](https://www.youtube.com/watch?v=Id6DoiL4zDo)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [ATtiny SleepMode](../SleepMode) project showed me that even in CPU sleep mode, an ATtiny85 circuit can

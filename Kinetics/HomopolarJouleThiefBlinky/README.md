@@ -9,8 +9,6 @@ Here's a quick demo..
 [![clip](https://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](https://www.youtube.com/watch?v=tx0jU6hgwhY)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Here's a marriage of Homopolar motor and Joule thief that results in a truly impractical Rube-Goldberg mechanism for blinking an LED with a AAA battery.

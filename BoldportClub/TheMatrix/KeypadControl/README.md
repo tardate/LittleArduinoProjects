@@ -6,8 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/KeypadControl_build.jpg?raw=true)](https://www.youtube.com/watch?v=qg2Bs1Q0ACw)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 So... ways to get arbitrary messages onto the Boldport Matrix?

@@ -6,8 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/MorseBlinky_build.jpg?raw=true)](https://www.youtube.com/watch?v=WVuntJtxVK0)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)

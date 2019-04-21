@@ -5,8 +5,6 @@ AudioDSP boost effect based on the pedalSHIELD.
 ![waveform](./assets/Boost_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [Boost.ino](./Boost.ino) is a simple clean boost/volume control example from the pedalSHIELD examples.

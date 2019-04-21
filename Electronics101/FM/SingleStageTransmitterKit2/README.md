@@ -4,8 +4,6 @@ Build, tweak and tune another simple single-stage FM Transmitter Kit
 
 ![Build](./assets/SingleStageTransmitterKit2_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I picked up another [FM transmitter kit](https://www.aliexpress.com/item/Simple-FM-FM-wireless-microphone-FM-transmitter-board-parts-electronic-training-DIY-kit-Kit-not-including/32660667774.html) because it was too cheap to ignore.

@@ -5,8 +5,6 @@ Simple high-temperature monitor using Type K (differential) and LM35 (cold-junct
 ![The Build](./assets/TemperatureLoggerTypeK_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is an experiment in reading high temperatures on an Arduino - above those typically supported with semiconductor sensors

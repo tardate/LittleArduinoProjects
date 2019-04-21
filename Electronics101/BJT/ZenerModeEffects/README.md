@@ -6,8 +6,6 @@ Here's a quick video of the circuit in action. It also shows what happens when y
 
 [![BJTZenerModeEffects](https://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](https://www.youtube.com/watch?v=YW7aQzy5-SY)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've

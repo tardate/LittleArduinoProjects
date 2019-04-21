@@ -3,8 +3,6 @@
 Test the basic resistor-transistor logic NOR gate.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Resistor–transistor logic (RTL) is a class of digital circuits built using resistors as the input network and

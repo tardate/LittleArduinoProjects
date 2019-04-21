@@ -6,8 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/tuner_build.jpg?raw=true)](https://www.youtube.com/watch?v=mtyyQwaxYTk)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Cordwood has six LEDs. Six is one of my favourite numbers .. like the number of strings on a standard guitar.

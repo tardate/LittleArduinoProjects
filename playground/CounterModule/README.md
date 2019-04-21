@@ -7,8 +7,6 @@ Here's a quick video of the module in action:
 [![CounterModule](https://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](https://www.youtube.com/watch?v=fvmFiRvSUXc)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 See other projects like [RingCounterController](../RingCounterController) that play with the CD4017 decade counter.

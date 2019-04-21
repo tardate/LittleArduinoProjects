@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/8zqIqcZ_V-k/0.jpg)](https://www.youtube.com/watch?v=8zqIqcZ_V-k)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [D2-5 Intelligent Line Tracking Car Kit](https://www.aliexpress.com/item/1Pcs-D2-5-Intelligent-Tracking-Line-Car-DIY-Kit-TT-Motor-Electronic-Assembly-Smart-Automobile-Part/32823554018.html) is widely available from the usual online sources. There are a number of variations around, but they all share the same essential control circuit.

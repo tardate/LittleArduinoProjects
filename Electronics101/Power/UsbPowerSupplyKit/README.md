@@ -4,8 +4,6 @@ Building a USB Wall Wart and taking a look at how they work .. instead of taking
 
 ![Build](./assets/UsbPowerSupplyKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've taken apart and had enough "wall wart" power supplies blow up on me .. so perhaps it is about time to put one together instead!

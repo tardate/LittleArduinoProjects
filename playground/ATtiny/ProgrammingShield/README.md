@@ -4,8 +4,6 @@ A custom ATtiny programming shield for use with Arduino ISP
 
 ![Build](./assets/ProgrammingShield_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I covered programming an ATtiny with the Arduino ISP in the [ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) project.

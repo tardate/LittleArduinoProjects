@@ -6,8 +6,6 @@ Here's a quick video of it in action:
 
 [![Build](https://img.youtube.com/vi/Mg5YBKnUVIM/0.jpg)](https://www.youtube.com/watch?v=Mg5YBKnUVIM)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 PissOff is the Boldport Club Project #9 (November 2016).

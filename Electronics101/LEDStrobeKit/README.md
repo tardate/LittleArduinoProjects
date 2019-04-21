@@ -5,8 +5,6 @@ Build and analyse a common LED strobe kit.
 ![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Another cheap kit build, this time a [CD4017 + ne555 Strobe module](https://www.aliexpress.com/item/CD4017-ne555-Strobe-module-electronics-production-suite-DIY-Kits-electronic-diy-Learning-suite/32438304004.html)

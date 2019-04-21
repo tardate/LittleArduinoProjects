@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/OgvEktRaQ-w/0.jpg)](https://www.youtube.com/watch?v=OgvEktRaQ-w)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This project is a simple extension of blinking LEDs with the 8051 to explore the use of timers and interrupts.

@@ -4,8 +4,6 @@ Build and test an MC34063-based boost converter.
 
 ![Build](./assets/ModuleKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The MC34063 is a monolithic DC-to-DC switching controller that can be adapted to step-down, step-up and inverting applications with a minimum of external components.

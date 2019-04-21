@@ -7,8 +7,6 @@ Here's a quick video of the detector in action, probing a 555 astable oscillator
 [![RFDetectorProbe](https://img.youtube.com/vi/Rr9iLDhYq8k/0.jpg)](https://www.youtube.com/watch?v=Rr9iLDhYq8k)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a quick build of an RF detector based on the circuit presented

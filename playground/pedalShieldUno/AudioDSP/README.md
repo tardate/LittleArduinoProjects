@@ -4,8 +4,6 @@ Test and develop the AudioDSP library for programming the pedalSHIELD Uno.
 
 ![AudioDSP_build](./assets/AudioDSP_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 When I built the [AudioDSP](../../AudioDSP) pedalSHIELD UNO clone to investigate its operation,

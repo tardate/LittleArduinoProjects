@@ -5,8 +5,6 @@ Build and test a Music Box kit, and run a demonstration under Arduino control.
 ![The Build](./assets/MusicBoxKit_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a pretty common kit available from multiple sources, although it appears to have been originally produced by

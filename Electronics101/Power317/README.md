@@ -3,8 +3,6 @@
 Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LM317 can be used to provide an adjustable voltage or current supply.

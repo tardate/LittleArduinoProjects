@@ -4,8 +4,6 @@ Programming an AT28C16 EEPROM with an Arduino and MCP23S17 16-bit port expander.
 
 ![Build](./assets/PEProgrammer_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The AT28C16 is an old-school 2k x 8-bit parallel EEPROM. Since it has parallel addressing and data lines,

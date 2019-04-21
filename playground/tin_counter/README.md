@@ -4,8 +4,6 @@ A project by [novaprimexex](https://github.com/novaprimexex) to count tins as th
 
 ![The Build](./assets/tin_counter_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This project is basically to build a chute that would count tins as they roll by and detect tins without paper labels.

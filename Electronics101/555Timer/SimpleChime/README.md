@@ -3,8 +3,6 @@
 Play a sound for a fixed duration when a button is pressed - a poor man's door bell!
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a build of a simple "door bell" circuit published by [Circuitstoday](http://www.circuitstoday.com/door-bell-circuit-using-ne555).

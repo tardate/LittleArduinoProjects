@@ -3,8 +3,6 @@
 Can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is still a work-in-progress. I have been able to compile and deploy a simple program, but there remain a few rough edges.

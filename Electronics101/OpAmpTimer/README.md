@@ -3,8 +3,6 @@
 Test an OpAmp timer switch.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This circuit uses an OpAmp configured as a comparator to switch an output for a period of time

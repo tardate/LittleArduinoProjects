@@ -4,8 +4,6 @@ A basic LM386 audio amplifier with volume and gain control on a breadboard-compa
 
 ![Build](./assets/LM386AudioAmp_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Often I'll want to monitor an audio signal as part of a breadboard circuit.

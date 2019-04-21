@@ -4,8 +4,6 @@ Building a simple 3-transistor regenerative receiver for HF shortwave.
 
 ![Build](./assets/ThreeTransistorShortWaveReceiver_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found [this design](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio)

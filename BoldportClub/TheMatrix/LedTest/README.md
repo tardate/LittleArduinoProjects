@@ -4,8 +4,6 @@ Testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 li
 
 ![Build](./assets/LedTest_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Testing [LEAP#299 TheMatrix](../TheMatrix) - Boldport Club Project #11 - with the

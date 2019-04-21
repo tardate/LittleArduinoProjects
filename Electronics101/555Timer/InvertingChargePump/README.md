@@ -3,8 +3,6 @@
 Test an inverting charge pump circuit based on a 555 timer.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The classic charge pump circuit uses a switching mechanism to alternately:

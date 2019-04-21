@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/JySBTIIggoI/0.jpg)](https://www.youtube.com/watch?v=JySBTIIggoI)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've had the other half of the guitar I used for [LEAP#018 Fretboard](../../Fretboard) sitting on a shelf ever since.

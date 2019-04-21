@@ -6,8 +6,6 @@ Here's a quick demo of it in action:
 
 [![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)](https://www.youtube.com/watch?v=18vaX6bmDes)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The HC-SR04 Ultrasonic Ranging Module is commonly used with a microcontroller for obstacle detection and other autonomous control functions.

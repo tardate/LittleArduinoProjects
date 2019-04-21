@@ -6,8 +6,6 @@ AudioDSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD
 
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [SuperCrunch.ino](./SuperCrunch.ino) is a crunchy distortion effect from the pedalSHIELD examples.

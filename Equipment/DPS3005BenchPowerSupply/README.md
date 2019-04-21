@@ -4,8 +4,6 @@ Building an AC-powered 32V/5A variable bench power supply based on the DPS3005 D
 
 ![Build](./assets/DPS3005BenchPowerSupply_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The DPS3005 is one of a range of popular DC power supply modules; this one is designed for up to 32V/5A DC output.

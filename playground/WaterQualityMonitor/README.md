@@ -4,8 +4,6 @@ A project by oweibo to monitor water quality.
 
 ![The Build](./assets/WaterQualityMonitor_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 

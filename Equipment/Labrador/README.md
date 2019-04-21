@@ -4,8 +4,6 @@ First look at the EspoTek Labrador USB "lab-on-a-board" hardware and software.
 
 ![Build](./assets/Labrador_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [EspoTek Labrador](https://www.crowdsupply.com/espotek/labrador) is a crowd-funded

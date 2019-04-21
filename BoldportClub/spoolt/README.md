@@ -6,8 +6,6 @@ Here's a quick demo of it in action..
 
 [![Build](./assets/spoolt_build.jpg?raw=true)](https://www.youtube.com/watch?v=mSZUleERjIs)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The latest Boldport Club project is a neat exercise in using the PCB as a structural element, similar to the impressive

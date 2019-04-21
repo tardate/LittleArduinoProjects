@@ -5,8 +5,6 @@ this retro Boldport Club project is a classic.
 
 [![Build](./assets/tap_build.jpg?raw=true)](https://www.youtube.com/watch?v=WQKIWN_7tfE)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [Touch Activated Programmer (TAP) Sensor from Elektor magazine of December 1974](./assets/elektor-12-74-TAP.pdf?raw=true) was a very early

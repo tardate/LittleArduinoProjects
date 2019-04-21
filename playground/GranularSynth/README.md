@@ -8,8 +8,6 @@ Here's a quick demo .. if you can tolerate 5 minutes of me fiddling around!
 
 [![clip](https://img.youtube.com/vi/1UOCTyM_3Ns/0.jpg)](https://www.youtube.com/watch?v=1UOCTyM_3Ns)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I found out about the "Granular Synth" from [Notes & Volts](http://www.notesandvolts.com/2014/07/build-auduino-granular-synth-part-1.html),

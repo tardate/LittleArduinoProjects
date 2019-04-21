@@ -3,8 +3,6 @@
 Switch an independent power source using an Arduino and n-channel JFET.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a simple switching circuit using an n-channel JFET.

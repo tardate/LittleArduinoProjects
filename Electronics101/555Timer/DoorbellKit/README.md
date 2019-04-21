@@ -3,8 +3,6 @@
 Another two-tone doorbell using a 555 timer oscillator
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I picked up

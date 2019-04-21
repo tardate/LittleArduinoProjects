@@ -4,8 +4,6 @@ Notes on miscellaneous RF connectors.
 
 ![Build](./assets/RF_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 All about Radio Frequency connectors and cables, typical applications:

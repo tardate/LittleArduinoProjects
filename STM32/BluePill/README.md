@@ -5,8 +5,6 @@ Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE.
 ![Build](./assets/BluePill_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Popularly known as the [Blue Pill](http://wiki.stm32duino.com/index.php?title=Blue_Pill),

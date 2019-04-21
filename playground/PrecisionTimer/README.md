@@ -5,8 +5,6 @@ with some discussion of the timer/counter features of the chip.
 
 ![Build](./assets/PrecisionTimer_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Problem: need to measure an arbitrary elapsed time with a known resolution.

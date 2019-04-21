@@ -7,8 +7,6 @@ Here's a quick video of the test circuit in action:
 [![SCRLatch demo](https://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](https://www.youtube.com/watch?v=-pO0aRX99G0)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Silicon controlled rectifiers (SCR) are unidirectional devices, with the anode-cathode path controlled by a gate.

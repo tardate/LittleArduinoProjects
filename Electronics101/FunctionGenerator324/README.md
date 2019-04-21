@@ -3,8 +3,6 @@
 Use an Arduino to monitor the behaviour of a low-frequency LM324 OpAmp waveform generator (square,triangle,sine,cosine) and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The circuit uses the 4 OpAmps in an LM324 to drive four waveforms: square,triangle,sine,cosine.

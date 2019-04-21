@@ -5,8 +5,6 @@ Designing a two-stage common-emitter BJT amplifier.
 ![Build](./assets/TwoStageCommonEmitterAmplifier_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Cascading two common-emitter amplifiers is a means of achieving high voltage gain.

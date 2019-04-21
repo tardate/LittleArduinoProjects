@@ -7,8 +7,6 @@ Here's a quick video of the dice in action:
 [![555Timer/Dice](https://img.youtube.com/vi/5Vzk1R5ehA4/0.jpg)](https://www.youtube.com/watch?v=5Vzk1R5ehA4)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This circuit is a combination of circuit ideas freely available around the net.

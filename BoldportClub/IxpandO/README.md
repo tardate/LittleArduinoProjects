@@ -7,8 +7,6 @@ Here's a quick demo of it in action..
 
 [![IxpandO_build](./assets/IxpandO_build.jpg?raw=true)](https://www.youtube.com/watch?v=hQaYeF7REU8)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 IxpandO is an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16.

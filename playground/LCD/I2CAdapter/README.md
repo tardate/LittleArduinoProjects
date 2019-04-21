@@ -4,8 +4,6 @@ Using an I²C adapter to reduce the Arduino pins needed to drive an LCD.
 
 ![Build](./assets/I2CAdapter_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 LCDs based on the Hitachi HD44780 or a compatible chipset are a popular display option for Arduino project.

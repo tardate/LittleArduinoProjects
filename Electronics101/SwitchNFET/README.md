@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![SwitchNFET demo](https://img.youtube.com/vi/OQDaS_fVWGQ/0.jpg)](https://www.youtube.com/watch?v=OQDaS_fVWGQ)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 N-Channel Enhancement FETs are easy to use as a digital switch:

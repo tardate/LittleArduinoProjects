@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![5Id0RPrwmbw](https://img.youtube.com/vi/5Id0RPrwmbw/0.jpg)](https://www.youtube.com/watch?v=5Id0RPrwmbw)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've been having SPI conflicts with other libraries I've used for controlling the Nokia 5110 LCD,

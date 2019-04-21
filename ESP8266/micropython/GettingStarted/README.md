@@ -4,8 +4,6 @@ Getting MicroPython up and running with an ESP-01 ESP8266.
 
 ![Build](./assets/GettingStarted_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I first heard about MicroPython from the [kickstarter](http://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers)

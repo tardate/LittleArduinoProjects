@@ -7,8 +7,6 @@ Build and investigate an AT89S52-based "shake stick" kit
 ![PovShakeStickKit_demo](./assets/PovShakeStickKit_demo.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I picked up a [PoV shake-stick kit](https://www.aliexpress.com/item/LDE-Shake-Stick-Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-Blank-PCB-board/32496601767.html) for a few dollars recently. I'm interested in doing some persistence-of-vision projects,

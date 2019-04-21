@@ -4,8 +4,6 @@ Using the AMS AS3935 Franklin Lightning Sensor with an Arduino over I²C with th
 
 ![Build](./assets/AS3935_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I first heard about the AMS AS3935 Franklin Lightning Sensor in

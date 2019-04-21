@@ -3,8 +3,6 @@
 Use an Arduino to measure range with HC-SR04 module and output to 16x2 LCD.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The HC-SR04 ultrasonic ranging module provides 2cm-400cm non-contact measurement.

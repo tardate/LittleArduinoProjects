@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/0uDsgkrx91g/0.jpg)](https://www.youtube.com/watch?v=0uDsgkrx91g)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is perhaps **the** classic AM transmitter - a self-oscillating crystal with

@@ -6,8 +6,6 @@ Here's a quick demo of it working...
 
 [![GettingBlinky_build](./assets/GettingBlinky_build.jpg?raw=true)](https://www.youtube.com/watch?v=pw0WdkqDNsM)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 PIC is not necessarily everyone's first choice for embedded development these days,

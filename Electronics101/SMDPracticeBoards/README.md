@@ -3,8 +3,6 @@
 A collection of notes, kits and resources for hand-soldering surface mount devices
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Through-hole and DIP components have historically made it really easy for the electronics hobbyist to hand-solder a project together.

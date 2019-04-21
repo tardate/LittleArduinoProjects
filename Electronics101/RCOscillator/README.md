@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![RCOscillator](https://img.youtube.com/vi/OeX0hf5fvPA/0.jpg)](https://www.youtube.com/watch?v=OeX0hf5fvPA)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This oscillator is based on coupled RC circuits with associated switching transistors.

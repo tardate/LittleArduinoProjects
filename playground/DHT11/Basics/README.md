@@ -4,8 +4,6 @@ Test basic temperature and humidity readings with the DHT11 sensor.
 
 ![Build](./assets/Basics_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The DHT11 sensor is a very cheap and common sensor that provides readings of:

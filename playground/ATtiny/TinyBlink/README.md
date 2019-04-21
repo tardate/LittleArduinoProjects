@@ -7,8 +7,6 @@ Here's a quick video of it in action:
 [![ProgrammingWithArduinoISP](https://img.youtube.com/vi/eILb11BE6pY/0.jpg)](https://www.youtube.com/watch?v=eILb11BE6pY)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The objective here is to demonstrate an ATTINY85-20PU chip running independantly on a breadboard.

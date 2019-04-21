@@ -5,8 +5,6 @@ Testing a TDA7297 audio amplifier kit (Pump Up the Jam)
 [![TDA7297Kit](https://img.youtube.com/vi/nQl3t_fRrIQ/0.jpg)](https://www.youtube.com/watch?v=nQl3t_fRrIQ)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a super cheap amplifier kit built around the TDA7297 15+15W dual bridge amplifier chip.

@@ -4,8 +4,6 @@ Building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED m
 
 ![Build](./assets/TheMatrix_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Matrix is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver. It's made of 0.2mm thick circuit board so it can slightly bend. A few can be chained together for a larger display.

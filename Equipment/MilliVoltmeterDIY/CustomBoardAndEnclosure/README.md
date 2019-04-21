@@ -4,8 +4,6 @@ Custom PCB and enclosure for the ATmega328-based millivolt meter based on a desi
 
 ![Build](./assets/CustomBoardAndEnclosure_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a continuation of [LEAP#372 MilliVoltmeterDIY](../), a circuit based on the Scullcom Hobby Electronics #44 - Millivolt Meter MK2 project.

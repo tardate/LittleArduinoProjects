@@ -3,8 +3,6 @@
 Unboxing and first tests of a Hantek MSO5074FG oscilloscope
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 For a while I've been contemplating a new oscilloscope purchase.

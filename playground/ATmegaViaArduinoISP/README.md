@@ -4,8 +4,6 @@ Programming an ATMEGA328P-PU on a breadboard with Arduino ISP
 
 ![The Build](./assets/ATmegaViaArduinoISP_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The objective here is to setup an ATMEGA328P-PU chip on a breadboard, and program it via an Arduino operating as an in-system programmer.

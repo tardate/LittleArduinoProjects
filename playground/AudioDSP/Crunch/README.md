@@ -5,8 +5,6 @@ AudioDSP crunchy distortion effect based on the pedalSHIELD.
 ![waveform](./assets/Crunch_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [Crunch.ino](./Crunch.ino) is a crunchy distortion effect from the pedalSHIELD examples.

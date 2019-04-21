@@ -8,8 +8,6 @@ Here's quick demo to show it in action:
 
 [![Build](https://img.youtube.com/vi/QD8XAKR6MQo/0.jpg)](https://www.youtube.com/watch?v=QD8XAKR6MQo)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The MCP2200 has 8 GPIO pins that can be used for digital input and output.

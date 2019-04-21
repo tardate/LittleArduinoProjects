@@ -4,8 +4,6 @@ How to run an ATtiny85 microprocessor at 8MHz using the internal clock.
 
 ![Build](./assets/At8MHz_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The ATtiny85 runs at 1MHz by default. This project demonstrates how to run it

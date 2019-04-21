@@ -4,8 +4,6 @@ Testing an RC phase-shift oscillator using a BJT amplifier.
 
 ![Build](./assets/RCPhaseShiftBJT_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Given an inverting amplifier (180˚ phase shift),

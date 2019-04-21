@@ -10,8 +10,6 @@ Here's a quick demo..
 
 NB: or just a short [CuttleTalk clip](https://youtu.be/jYx-Odu2f3g)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Now I've built the Boldport lite2sound, time to test it out.

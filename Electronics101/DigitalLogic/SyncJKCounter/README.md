@@ -6,8 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![SynchJKCounter](https://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](https://www.youtube.com/watch?v=HGunGdTaNFQ)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A synchronous counter changes its output bits simultaneously, with no ripple.

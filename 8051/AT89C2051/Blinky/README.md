@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/HSkF3Fejx3c/0.jpg)](https://www.youtube.com/watch?v=HSkF3Fejx3c)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The main purpose of this program is simply to have something for testing the [LEAP#394 AT89C2051 Programmer](../Programmer),

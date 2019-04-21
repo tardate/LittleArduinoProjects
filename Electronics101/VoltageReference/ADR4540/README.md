@@ -4,8 +4,6 @@ Exploring the ADR4540 precision reference, tested with an Arduino as an external
 
 ![Build](./assets/ADR4540_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Analog Devices ADR4540 is an "Ultralow Noise, High Accuracy Voltage Reference" with a 4.096V output voltage.

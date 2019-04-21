@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![MotorControlPWM demo](https://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](https://www.youtube.com/watch?v=CYKtJfKv5ug)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Demonstrates using a PWM signal to control the current driving a DC motor, hence its speed.

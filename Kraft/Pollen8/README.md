@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](./assets/Pollen8_build.gif?raw=true)](https://www.youtube.com/watch?v=VEAgmHIxWKI)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 "Pollen8" is an exploration of contrasts and patterns in a freeform wire circuit.

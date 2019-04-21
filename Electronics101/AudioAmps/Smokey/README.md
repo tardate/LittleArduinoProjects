@@ -7,8 +7,6 @@ Here's a quick demo of the circuit in action:
 [![Smokey](https://img.youtube.com/vi/1Fk-NTBetNM/0.jpg)](https://www.youtube.com/watch?v=1Fk-NTBetNM)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [Smokey](http://www.smokeyamps.com/) is pretty much the grandfather of a range of LM386-based guitar amps,

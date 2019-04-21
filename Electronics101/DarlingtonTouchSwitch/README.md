@@ -4,8 +4,6 @@ Test a Darlington-pair touch switch.
 
 ![The Build](./assets/DarlingtonTouchSwitch_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A Darlington pair refers to a couple of bipolar transistors connected so that the amplified emmitter signal of one is used to drive the second. This results a multiplication of the gain, so the circuit is hyper-sensitive to any input signal.

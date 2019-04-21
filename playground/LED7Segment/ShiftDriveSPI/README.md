@@ -3,8 +3,6 @@
 Using SPI to control a 7-segment display via a 74HC595 shift register.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 In previous projects like [ShiftDrive](../ShiftDrive), the code has directly implemented the clock, latching and data transfer protocol expected by the 74HC595 shift register.

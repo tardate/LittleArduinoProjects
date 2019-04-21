@@ -4,8 +4,6 @@ Build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt 
 
 ![Build](./assets/PierceGateOscillator_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Pierce oscillator is named for its inventor, George W. Pierce (1872-1956). It is a derivative of the Colpitts oscillator,

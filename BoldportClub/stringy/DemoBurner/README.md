@@ -6,8 +6,6 @@ A quick video of the the new demo...
 
 [![Build](https://img.youtube.com/vi/Jn1iYxQHtXs/0.jpg)](https://youtu.be/Jn1iYxQHtXs)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 So, a long time after building the Boldport Club String, I decided to read the source ..

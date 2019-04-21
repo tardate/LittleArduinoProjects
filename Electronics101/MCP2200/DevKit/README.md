@@ -4,8 +4,6 @@ Exploring the capabilities of the MCP2200 USB-to-UART transceiver and program it
 
 ![Build](./assets/DevKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The MCP2200 is a USB-to-UART (Universal Serial Bus-to-Universal Asynchronous Receiver/Transmitter) serial converter device.

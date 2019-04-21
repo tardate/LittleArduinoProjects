@@ -3,8 +3,6 @@
 Demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LM7805 provides regulated 5V, ideal when current requirements are moderate (up to 1A with heatsink).

@@ -7,8 +7,6 @@ Here's a quick video of it in action:
 [![StayCreative](https://img.youtube.com/vi/lfrAL8ZSpl4/0.jpg)](https://www.youtube.com/watch?v=lfrAL8ZSpl4)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A simple project inspired by [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI).

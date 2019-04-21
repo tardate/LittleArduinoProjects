@@ -6,8 +6,6 @@ Here's a quick demo of my first Snow Flake running in solo mode...
 
 [![Build](https://img.youtube.com/vi/nJ68XZK5qAo/0.jpg)](https://www.youtube.com/watch?v=nJ68XZK5qAo)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 When @LuckResistor announced the [Snow Flake](https://luckyresistor.me/order-snow-flake-panel/)

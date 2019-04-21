@@ -4,8 +4,6 @@ Making a breadboard-compatible variable capacitor for radio circuits.
 
 ![Build](./assets/DuplexTuningCapacitor_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Duplex tuning capacitors aka radio or AM variable capcitors contain two sets of capacitor plates ganged together, with fine tuning adjustment screws for each capacitor.

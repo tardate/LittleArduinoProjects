@@ -6,8 +6,6 @@ Here's a quick video showing it in action on a quite overcast afternoon..
 
 [![Build](./assets/SolarPendulum_build.jpg?raw=true)](https://www.youtube.com/watch?v=buP3zrMjN94)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I have a spare BoldPort QSOP Breakout board and for a while I've been trying to find some interesting use for it. I think I've found one ...

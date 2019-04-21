@@ -4,8 +4,6 @@ Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host 
 
 ![Build](./assets/Programmer_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've been meaning to dive a bit deeper into

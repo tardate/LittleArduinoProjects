@@ -18,8 +18,6 @@ Done:
 
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 ### The Build Status Web Response

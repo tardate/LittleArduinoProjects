@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![VoiceLevelIndicatorKit](https://img.youtube.com/vi/6o-kOXPPcac/0.jpg)](https://www.youtube.com/watch?v=6o-kOXPPcac)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I was inspired to build this kit by [Julian Ilett's tutorial with a similar kit](https://youtu.be/07xyD7pLdmw) -

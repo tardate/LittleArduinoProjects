@@ -4,8 +4,6 @@ Making some breadboard-compatible potentiometers and covering some basics of ter
 
 ![Build](./assets/PotModules_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A simple little project to make breadboard prototyping just a little more efficient..

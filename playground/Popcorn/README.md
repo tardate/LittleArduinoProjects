@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![Popcorn](https://img.youtube.com/vi/ntVrqIyf4y8/0.jpg)](https://www.youtube.com/watch?v=ntVrqIyf4y8)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 ### Construction

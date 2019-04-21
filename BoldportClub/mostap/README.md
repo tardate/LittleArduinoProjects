@@ -7,8 +7,6 @@ Here's a quick demo of it in action..
 
 [![Build](./assets/mostap_build.jpg?raw=true)](https://www.youtube.com/watch?v=TFuhajrzV-M)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The MOS TAP circuit was originally published in Elektor magazine in Feb 1975.

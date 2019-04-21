@@ -3,8 +3,6 @@
 A simple LED game with LCD output.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a quick build in response to a

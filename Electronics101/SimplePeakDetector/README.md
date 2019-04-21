@@ -3,8 +3,6 @@
 The basic diode-RC peak detector.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [Afrotechmods](https://youtu.be/ic_yEUV7Y3c)

@@ -6,8 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/FidgetCube_build.jpg?raw=true)](https://www.youtube.com/watch?v=38SNS3a9aF8)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A colleague gave us all [Fidget Cubes](https://thefidgetcube.co/), I think mainly to keep idle hands from causing too much mayhem in the office.

@@ -8,8 +8,6 @@ Here's a quick demo...
 
 [![Build](https://img.youtube.com/vi/3f8TGjILb_U/0.jpg)](https://www.youtube.com/watch?v=3f8TGjILb_U)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The HS-088 chip produces a typical electronic doorbell "ding-dong", which repeats three times when triggered.

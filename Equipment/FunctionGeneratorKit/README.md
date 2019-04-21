@@ -4,8 +4,6 @@ Build and test a function generator kit based on the XR-2206 monolithic function
 
 ![Build](./assets/FunctionGeneratorKit_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I couldn't resist checking out this reasonably cheap [Function Generator Kit](https://www.aliexpress.com/item/Function-Signal-Generator-DIY-Kit-Sine-Triangle-Square-Output-1Hz-1MHz-Signal-Generator-Adjustable-Frequency-Amplitude/32733774803.html) from a seller on aliexpress.

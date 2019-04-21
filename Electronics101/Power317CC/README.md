@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![Power317CC](./assets/Power317CC_build3.jpg?raw=true)](https://www.youtube.com/watch?v=YYR-RNSDh-4)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The LM317 is typically used as an adjustable voltage supply as demonstrated in the [Power317](../Power317) project.

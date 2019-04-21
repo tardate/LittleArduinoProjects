@@ -4,8 +4,6 @@ Reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP
 
 ![Build](./assets/DHT11_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The DHT11 sensor is a very cheap and common sensor that provides readings of:

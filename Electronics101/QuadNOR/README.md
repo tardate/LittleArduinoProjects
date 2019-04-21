@@ -7,8 +7,6 @@ Here's the quick demo of the circuit in action:
 [![QuadNOR](https://img.youtube.com/vi/D_5Da_8R8Ek/0.jpg)](https://www.youtube.com/watch?v=D_5Da_8R8Ek)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 See the [NOR7402 project readme](../NOR7402) for more detail on the 74LS02.

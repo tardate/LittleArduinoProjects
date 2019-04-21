@@ -4,8 +4,6 @@ Getting started with some RFID research and using an RC522 RFID reader with MIFA
 
 ![Build](./assets/DeviceDumper_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [RC522 RFID modules](https://www.aliexpress.com/item/Free-Shipping-RFID-module-RC522-Kits-S50-13-56-Mhz-6cm-With-Tags-SPI-Write-Read/32523771442.html)

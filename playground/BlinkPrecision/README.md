@@ -3,8 +3,6 @@
 Blink an LED with precision timing.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is the same Blink test circuit used [here](../Blink), however this uses the

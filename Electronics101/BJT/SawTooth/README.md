@@ -4,8 +4,6 @@ Testing a simple BJT saw-tooth oscillator.
 
 ![The Build](./assets/SawTooth_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This circuit examines a simple method for generating a simple sawtooth oscillation using only NPN and PNP transistors.

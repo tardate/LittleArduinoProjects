@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![RFSwitch demo](https://img.youtube.com/vi/s8yCbDe15ms/0.jpg)](https://www.youtube.com/watch?v=s8yCbDe15ms)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Paired RF transmit/receive modules are widely available at low cost.

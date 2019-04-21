@@ -4,8 +4,6 @@ Exploring the LT1019 precision reference, tested with an Arduino as an external 
 
 ![Build](./assets/LT1019_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Linear Technology LT1019 precision reference is available in four voltages: 2.5V, 4.5V, 5V and 10V.

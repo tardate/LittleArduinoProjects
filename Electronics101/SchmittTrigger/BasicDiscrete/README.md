@@ -4,8 +4,6 @@ Exploring the classic emitter-coupled Schmitt Trigger circuit design.
 
 ![Build](./assets/BasicDiscrete_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 A Schmitt trigger is a comparator circuit with hysteresis such that:

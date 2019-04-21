@@ -4,8 +4,6 @@ A 50/60Hz oscillator locked to mains power frequency using a CD4046 PLL.
 
 ![Build](./assets/MainsLinkedPLL_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The CD4046 is common starting point for learning about phase-locked loops.

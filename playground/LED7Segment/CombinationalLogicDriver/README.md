@@ -6,8 +6,6 @@ Here's a quick video of it in action:
 
 [![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)](https://www.youtube.com/watch?v=aD_J83ZpXYY)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Ben Eater published a fantastic video/tutorial on [designing a 7-segment hex decoder](https://youtu.be/7zffjsXqATg)

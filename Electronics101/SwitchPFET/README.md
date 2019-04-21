@@ -3,8 +3,6 @@
 Using a small-signal p-channel MOSFET as a switch, with turn-on delay.
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 P-Channel Enhancement MOSFETs (like their n-channel cousins) are easy to use as a digital switch:

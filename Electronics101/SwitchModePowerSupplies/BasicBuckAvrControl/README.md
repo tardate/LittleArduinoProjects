@@ -5,8 +5,6 @@ A simple buck converter circuit from first principles.
 ![The Build](./assets/BasicBuckAvrControl_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Buck converters are switching power supplies configured such that the output voltage is lower than the input voltage.

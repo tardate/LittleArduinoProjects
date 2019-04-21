@@ -3,8 +3,6 @@
 Build and investigate a commercially available "mobile phone signal" detector kit
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I picked up a ["Mobile Phone Signal Flash Light Radiation Power DIY Kit"](https://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html) for USD1.15. Firstly to experiment with the kit/circuit, and secondly as its a pretty cheap way to get hold of a 1SS86 barrier diode.

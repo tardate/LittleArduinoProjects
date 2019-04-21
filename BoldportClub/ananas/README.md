@@ -8,8 +8,6 @@ Here's a quick demo .. (with special customisation)
 
 [![clip](https://img.youtube.com/vi/r5lmMHbLu4c/0.jpg)](https://www.youtube.com/watch?v=r5lmMHbLu4c)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Project #20 is the first designed by Ben, the new Boldporter. And it's a beauty!

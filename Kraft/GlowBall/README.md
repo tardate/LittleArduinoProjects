@@ -6,8 +6,6 @@ Here's is a video with a few soothing minutes of the glow effect;-)
 
 [![Build](./assets/GlowBall_build.jpg?raw=true)](https://www.youtube.com/watch?v=hcFyM52ok7U)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This [Glass Eye Studio "Celestial Super Nova"](http://www.glasseyestudio.com/492f-glass-eye-studio-celestial-super-nova/) was a gift.

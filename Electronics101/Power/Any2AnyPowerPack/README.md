@@ -4,8 +4,6 @@ A 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity con
 
 ![Build](./assets/Any2AnyPowerPack_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I recently got a flamenco metronome that has a 2.1mm power connector but in centre-negative configuration.

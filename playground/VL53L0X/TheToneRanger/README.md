@@ -6,8 +6,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/XjAN2eW-bek/0.jpg)](https://www.youtube.com/watch?v=XjAN2eW-bek)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [VL53L0X](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html)

@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![AnalogComparator](https://img.youtube.com/vi/lyO25PaMD3c/0.jpg)](https://www.youtube.com/watch?v=lyO25PaMD3c)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 So today I learned (from

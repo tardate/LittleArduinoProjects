@@ -4,8 +4,6 @@ Using the control pin to adjust duty cycle of a 555 Timer astable oscillator.
 
 ![Build](./assets/ControlAdjust_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The standard 555 astable configuration uses a built-in 2/3 x VCC upper threshold reference.

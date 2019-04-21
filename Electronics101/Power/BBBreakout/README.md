@@ -4,8 +4,6 @@ A little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, termi
 
 ![Build](./assets/BBBreakout_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Just a simple little project to clean up my desk a little, where I often have various power adapters and connectors cluttering up my space.

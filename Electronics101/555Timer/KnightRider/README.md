@@ -3,8 +3,6 @@
 The familiar "Knight-Rider" LED circuit using a 555 and 4017
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a well-known LED effects circuit using the 555 timer and 4017 decade counter.

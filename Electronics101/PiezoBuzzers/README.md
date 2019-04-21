@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/TUH7J-5sV4k/0.jpg)](https://www.youtube.com/watch?v=TUH7J-5sV4k)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 [Piezoelectric sensors](https://en.wikipedia.org/wiki/Piezoelectric_sensor) for generating sound are commonly found in two form factors:

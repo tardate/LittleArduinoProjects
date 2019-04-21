@@ -4,8 +4,6 @@ Using diode steering to achieve adjustable duty cycle at fixed frequency in a 55
 
 ![Build](./assets/DiodeSteering_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The classic 555 Timer astable circuit can be made adjustable by using variable resistors. However it is very difficult

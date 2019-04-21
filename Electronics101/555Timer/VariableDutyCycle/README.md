@@ -8,8 +8,6 @@ so that the duty cycle variation is clearly visible:
 [![555Timer/VariableDutyCycle](https://img.youtube.com/vi/UJAR0J1mjsE/0.jpg)](https://www.youtube.com/watch?v=UJAR0J1mjsE)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 For many applications we want variable duty cycle while maintaining a fixed frequency.

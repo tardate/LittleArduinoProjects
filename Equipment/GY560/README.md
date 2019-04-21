@@ -4,8 +4,6 @@ Checking out the GY560 Frequency Counter.
 
 ![Build](./assets/GY560_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](http://leap.tardate.com)
-
 ## Notes
 
 The GY560 Frequency Counter is an incredibly cheap but pretty effective bit of test gear, most useful for detecting radio frequency emissions

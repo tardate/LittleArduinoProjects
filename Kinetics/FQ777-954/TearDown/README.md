@@ -4,8 +4,6 @@ Teardown an FQ777-954 nano drone and figure out as much of the technical design 
 
 ![The Build](./assets/TearDown_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The FQ777-954 and its derivatives (RC Leading RC101W, Cheerson CX-10W..) is a pretty hot item if one can judge

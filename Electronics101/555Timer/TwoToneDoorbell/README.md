@@ -7,8 +7,6 @@ Here's a quick video of the circuit in action:
 [![TwoToneDoorbell](https://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](https://www.youtube.com/watch?v=yD5Hbg0qQJE)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 When the button is pressed, it triggers three actions:

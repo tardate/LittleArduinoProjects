@@ -4,8 +4,6 @@ Testing the canonical variable boost circuit using the MT3608 High Efficiency St
 
 ![Build](./assets/VariableBoost_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The MT3608 (parts also paroduced as the B6286) is a very efficient boost converter that can deliver up to 24V at 4A.

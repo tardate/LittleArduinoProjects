@@ -4,8 +4,6 @@ Using a NEMA-compatible GPS module for time and location with an Arduino.
 
 ![Build](./assets/GpsBasics_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The GPS module I obtained [(similar to this)](https://www.aliexpress.com/item/New-Arrival-Ublox-GY-NEO6MV2-GPS-Module-Aircraft-Flight-Controller-For-Arduino-APM-2-5-Module/32611452973.html)

@@ -6,8 +6,6 @@ Control the MCP4017 single 7-Bit I²C digital potentiometer with an Arduino.
 ![Build](./assets/MCP4017_build.jpg?raw=true)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I'm trying out some digital potentiometers for an application. This is a test of the MCP4017T-104E/LT (100kΩ rheostat version).

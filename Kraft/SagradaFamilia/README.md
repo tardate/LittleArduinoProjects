@@ -7,8 +7,6 @@ Here's a quick video of the finished kit:
 [![Sagrada Família](./assets/build_night.jpg?raw=true)](https://www.youtube.com/watch?v=RFkUJQybjwQ)
 
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The [Basílica i Temple Expiatori de la Sagrada Família](https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia)

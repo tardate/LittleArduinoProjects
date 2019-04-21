@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/ieotajn-im4/0.jpg)](https://www.youtube.com/watch?v=ieotajn-im4)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Capaci-meter is a Boldport remix of a classic capacitance measurement circuit designed in

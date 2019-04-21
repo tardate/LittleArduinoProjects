@@ -9,8 +9,6 @@ Here's a quick demo..
 
 ![Build](./assets/conehead_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Conocephalus is a genus of bush-crickets, known as coneheads:

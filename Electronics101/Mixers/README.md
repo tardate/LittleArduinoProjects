@@ -4,8 +4,6 @@ All about frequency mixers.
 
 ![Build](./assets/Mixers_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Frequency mixers are nonlinear devices that produce a signal at the sum and difference of the original frequencies of two signals applied to it.

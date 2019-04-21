@@ -4,8 +4,6 @@ Unboxing and initial review of the Saike 909D 3-in-1 hot air rework station.
 
 ![Build](./assets/Saike909D_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 > you know what it's like when you go search for the cheapest hot-air station on the 11-11 sale; think well, I may as well get one of the better ones; and since the price not that much different I should go for the 3-in-1 instead of the 2-in-1, then have to sneak it home past your partner? ... well, like that :smiley:

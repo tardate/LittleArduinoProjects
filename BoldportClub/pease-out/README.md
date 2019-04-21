@@ -9,8 +9,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/BdVmqKtpCnQ/0.jpg)](https://www.youtube.com/watch?v=BdVmqKtpCnQ)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 The Boldport Pease-out is another tribute to Bob Pease and the classic LM331.

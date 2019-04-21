@@ -4,8 +4,6 @@ Building Lite2Sound Boldport Club Project #26.
 
 ![Build](./assets/lite2sound-bc_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Lite2Sound BC is the 26th Boldport project, and is a collaboration with [Rare Waves LLC](http://rarewaves.net/).

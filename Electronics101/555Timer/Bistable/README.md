@@ -4,8 +4,6 @@ Using the 555 timer as a bistable latch (debouncer).
 
 ![Build](./assets/Bistable_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 Ben Eater's 8-bit computer yields more interesting circuits.

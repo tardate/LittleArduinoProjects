@@ -4,8 +4,6 @@ Build an "ugly-style in a can" version of dazaro3's 3-stage FM transmitter circu
 
 ![Build](./assets/ThreeStageTransmitter_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I got such good results with [LEAP#280 BreadboardTransmitter](../BreadboardTransmitter)

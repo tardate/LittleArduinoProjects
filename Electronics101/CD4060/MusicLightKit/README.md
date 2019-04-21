@@ -6,8 +6,6 @@ Here's a quick demo of the LED sequence in action..
 
 [![Build](./assets/MusicLightKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=oUgnn1maLc8)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This is a pretty common kit widely available from sellers on [aliexpress](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html), ebay and other outlets.

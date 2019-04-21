@@ -6,8 +6,6 @@ See [CustomBoardAndEnclosure](./CustomBoardAndEnclosure) for details of the cust
 
 ![Build](./assets/MilliVoltmeterDIY_build.jpg?raw=true)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 This project is based on the excellent build tutorial by Scullcom Hobby Electronics #44 - Millivolt Meter MK2
