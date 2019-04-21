@@ -1,5 +1,12 @@
 [
     {
+        "description": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit", 
+        "relative_path": "Electronics101/Power/CapacitiveDropper", 
+        "id": "#472", 
+        "categories": "Power", 
+        "name": "CapacitiveDropper"
+    }, 
+    {
         "description": "Understanding fluorescent lighting and installing an LED replacement", 
         "relative_path": "Electronics101/LED/FluorescentRingReplacement", 
         "id": "#471", 

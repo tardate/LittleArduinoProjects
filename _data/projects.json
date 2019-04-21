@@ -420,14 +420,16 @@
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
     }, 
-    "/OSHChip/LEDx16Module/": {
-        "summary": "driving an SPI LED module with the OSHChip", 
-        "id": 216, 
+    "/playground/XYplotter/": {
+        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
+        "id": 265, 
         "tags": [
-            "OSHChip", 
-            "SPI"
+            "Arduino", 
+            "Digital Pot", 
+            "MCP42010", 
+            "Oscilloscope"
         ], 
-        "title": "OSHChip/LEDx16Module"
+        "title": "XYplotter"
     }, 
     "/Electronics101/MinimalLCOscillator/": {
         "summary": "test an LC oscillator of just 5 components", 
@@ -456,13 +458,14 @@
         ], 
         "title": "LCResonator"
     }, 
-    "/playground/PrecisionTimer/": {
-        "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip", 
-        "id": 457, 
+    "/Equipment/LCR45/": {
+        "summary": "evaluating the Peak LCR45 inductance, capacitance and resistance meter", 
+        "id": 450, 
         "tags": [
-            "Arduino"
+            "Tools", 
+            "Test Equipment"
         ], 
-        "title": "PrecisionTimer"
+        "title": "LCR45"
     }, 
     "/Electronics101/MCP2200/DevKit/": {
         "summary": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host", 
@@ -1346,6 +1349,14 @@
             "Oscillators"
         ], 
         "title": "AudioEffects/Parrot"
+    }, 
+    "/Electronics101/Power/CapacitiveDropper/": {
+        "summary": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit", 
+        "id": 472, 
+        "tags": [
+            "Power"
+        ], 
+        "title": "CapacitiveDropper"
     }, 
     "/playground/LedChaser/": {
         "summary": "blinks a series of 12 LEDs in a coninuous loop", 
@@ -2830,16 +2841,14 @@
         ], 
         "title": "SchmittTrigger/BasicDiscrete"
     }, 
-    "/playground/XYplotter/": {
-        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
-        "id": 265, 
+    "/OSHChip/LEDx16Module/": {
+        "summary": "driving an SPI LED module with the OSHChip", 
+        "id": 216, 
         "tags": [
-            "Arduino", 
-            "Digital Pot", 
-            "MCP42010", 
-            "Oscilloscope"
+            "OSHChip", 
+            "SPI"
         ], 
-        "title": "XYplotter"
+        "title": "OSHChip/LEDx16Module"
     }, 
     "/playground/RFSwitchASK/": {
         "summary": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 
@@ -3042,14 +3051,13 @@
         ], 
         "title": "BoldportClub/cordwood-three"
     }, 
-    "/Equipment/LCR45/": {
-        "summary": "evaluating the Peak LCR45 inductance, capacitance and resistance meter", 
-        "id": 450, 
+    "/playground/PrecisionTimer/": {
+        "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip", 
+        "id": 457, 
         "tags": [
-            "Tools", 
-            "Test Equipment"
+            "Arduino"
         ], 
-        "title": "LCR45"
+        "title": "PrecisionTimer"
     }, 
     "/Electronics101/Monostable122/": {
         "summary": "simple pulse trigger using 74LS122 monostable with external timing configuration", 

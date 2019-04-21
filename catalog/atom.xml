@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-20T11:57:00Z</updated>
+  <updated>2019-04-21T07:59:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Power/CapacitiveDropper/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/CapacitiveDropper/"/>
+    <updated>2019-04-21T07:00:45Z</updated>
+    <title>#472 CapacitiveDropper</title>
+    <summary>Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/CapacitiveDropper/assets/CapacitiveDropper_build.jpg</g:image_link>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/"/>
