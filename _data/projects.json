@@ -205,7 +205,7 @@
         "id": 192, 
         "tags": [
             "LED", 
-            "Kraft"
+            "Craft"
         ], 
         "title": "Sagrada Fam\u00edlia"
     }, 
@@ -380,6 +380,15 @@
             "Oscillators"
         ], 
         "title": "RCPhaseShiftBJT"
+    }, 
+    "/Kraft/xdiskclk/": {
+        "summary": "An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock", 
+        "id": 473, 
+        "tags": [
+            "Craft", 
+            "Clock"
+        ], 
+        "title": "xdiskclk"
     }, 
     "/playground/PushbuttonLED/": {
         "summary": "Momentary push button switch is used to toggle the LED on and off", 
@@ -2272,7 +2281,8 @@
         "summary": "learning about conductive ink with the CircuitScribe LiteWings kit", 
         "id": 350, 
         "tags": [
-            "Conductive Ink"
+            "Conductive Ink", 
+            "Craft"
         ], 
         "title": "LiteWings"
     }, 
@@ -2328,7 +2338,8 @@
         "tags": [
             "LED", 
             "CMOS/TTL", 
-            "555 Timer"
+            "555 Timer", 
+            "Craft"
         ], 
         "title": "Pollen8"
     }, 
@@ -2790,7 +2801,8 @@
         "tags": [
             "LED", 
             "Oscillators", 
-            "Power"
+            "Power", 
+            "Craft"
         ], 
         "title": "GlowBall"
     }, 
@@ -3160,7 +3172,7 @@
         "summary": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project", 
         "id": 355, 
         "tags": [
-            "Kraft", 
+            "Craft", 
             "ARM", 
             "LED"
         ], 
@@ -3297,7 +3309,7 @@
         "summary": "building a mini metal model of the Golden Hind", 
         "id": 298, 
         "tags": [
-            "Kraft"
+            "Craft"
         ], 
         "title": "GoldenHind"
     }, 
@@ -3838,7 +3850,8 @@
         "tags": [
             "Arduino", 
             "LED", 
-            "Sensors"
+            "Sensors", 
+            "Craft"
         ], 
         "title": "Arza-matron"
     }, 

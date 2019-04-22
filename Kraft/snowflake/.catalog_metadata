@@ -1,7 +1,7 @@
 {
-    "id": "#355", 
-    "name": "Snow Flake", 
-    "description": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project", 
-    "categories": "Kraft, ARM, LED", 
+    "id": "#355",
+    "name": "Snow Flake",
+    "description": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project",
+    "categories": "Craft, ARM, LED",
     "relative_path": "Kraft/snowflake"
 }

@@ -1,6 +1,6 @@
-# 472 Little Electronics and Arduino Projects
+# 473 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Capacitive Dropper](./Electronics101/Power/CapacitiveDropper) - understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit.
+> Latest addition:sparkles: [xdiskclk](./Kraft/xdiskclk) - An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the "ex-disk clock".
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

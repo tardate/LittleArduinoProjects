@@ -1,5 +1,12 @@
 [
     {
+        "description": "An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock", 
+        "relative_path": "Kraft/xdiskclk", 
+        "id": "#473", 
+        "categories": "Craft, Clock", 
+        "name": "xdiskclk"
+    }, 
+    {
         "description": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit", 
         "relative_path": "Electronics101/Power/CapacitiveDropper", 
         "id": "#472", 
@@ -220,7 +227,7 @@
         "description": "a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit", 
         "relative_path": "Kraft/Pollen8", 
         "id": "#441", 
-        "categories": "LED, CMOS/TTL, 555 Timer", 
+        "categories": "LED, CMOS/TTL, 555 Timer, Craft", 
         "name": "Pollen8"
     }, 
     {
@@ -479,7 +486,7 @@
         "description": "whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips", 
         "relative_path": "Kraft/arzamatron", 
         "id": "#404", 
-        "categories": "Arduino, LED, Sensors", 
+        "categories": "Arduino, LED, Sensors, Craft", 
         "name": "Arza-matron"
     }, 
     {
@@ -822,7 +829,7 @@
         "description": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project", 
         "relative_path": "Kraft/snowflake", 
         "id": "#355", 
-        "categories": "Kraft, ARM, LED", 
+        "categories": "Craft, ARM, LED", 
         "name": "Snow Flake"
     }, 
     {
@@ -857,7 +864,7 @@
         "description": "learning about conductive ink with the CircuitScribe LiteWings kit", 
         "relative_path": "Kraft/CircuitScribe/LiteWings", 
         "id": "#350", 
-        "categories": "Conductive Ink", 
+        "categories": "Conductive Ink, Craft", 
         "name": "LiteWings"
     }, 
     {
@@ -941,7 +948,7 @@
         "description": "building LED effects for a Glass Eye Studio Celestial Planet Weight", 
         "relative_path": "Kraft/GlowBall", 
         "id": "#338", 
-        "categories": "LED, Oscillators, Power", 
+        "categories": "LED, Oscillators, Power, Craft", 
         "name": "GlowBall"
     }, 
     {
@@ -1221,7 +1228,7 @@
         "description": "building a mini metal model of the Golden Hind", 
         "relative_path": "Kraft/GoldenHind", 
         "id": "#298", 
-        "categories": "Kraft", 
+        "categories": "Craft", 
         "name": "GoldenHind"
     }, 
     {
@@ -1963,7 +1970,7 @@
         "description": "a paper model with some LED effects", 
         "relative_path": "Kraft/SagradaFamilia", 
         "id": "#192", 
-        "categories": "LED, Kraft", 
+        "categories": "LED, Craft", 
         "name": "Sagrada Fam\u00edlia"
     }, 
     {

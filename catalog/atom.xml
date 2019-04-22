@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-21T07:59:51Z</updated>
+  <updated>2019-04-22T12:29:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/xdiskclk/</id>
+    <link href="https://leap.tardate.com/Kraft/xdiskclk/"/>
+    <updated>2019-04-22T12:03:05Z</updated>
+    <title>#473 xdiskclk</title>
+    <summary>An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/xdiskclk/assets/xdiskclk_build.jpg</g:image_link>
+    <category term="Craft"/>
+    <category term="Clock"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Power/CapacitiveDropper/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/CapacitiveDropper/"/>
-    <updated>2019-04-21T07:00:45Z</updated>
+    <updated>2019-04-21T08:16:06Z</updated>
     <title>#472 CapacitiveDropper</title>
     <summary>Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/CapacitiveDropper/assets/CapacitiveDropper_build.jpg</g:image_link>
@@ -23,7 +33,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/"/>
-    <updated>2019-04-20T11:44:57Z</updated>
+    <updated>2019-04-21T08:16:06Z</updated>
     <title>#471 Fluorescent Ring LED Replacement</title>
     <summary>Understanding fluorescent lighting and installing an LED replacement</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/FluorescentRingReplacement/assets/FluorescentRingReplacement_build.jpg</g:image_link>
@@ -335,6 +345,7 @@
     <category term="LED"/>
     <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/DataLogging/VoltageToAdafruitIO/</id>
@@ -720,6 +731,7 @@
     <category term="Arduino"/>
     <category term="LED"/>
     <category term="Sensors"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/GY560/</id>
@@ -1222,7 +1234,7 @@
     <title>#355 Snow Flake</title>
     <summary>an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project</summary>
     <g:image_link>https://leap.tardate.com/Kraft/snowflake/assets/snowflake_build.jpg</g:image_link>
-    <category term="Kraft"/>
+    <category term="Craft"/>
     <category term="ARM"/>
     <category term="LED"/>
   </entry>
@@ -1274,6 +1286,7 @@
     <summary>learning about conductive ink with the CircuitScribe LiteWings kit</summary>
     <g:image_link>https://leap.tardate.com/Kraft/CircuitScribe/LiteWings/assets/LiteWings_build.jpg</g:image_link>
     <category term="Conductive Ink"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/BoldportClub/stringy/DemoBurner/</id>
@@ -1395,6 +1408,7 @@
     <category term="LED"/>
     <category term="Oscillators"/>
     <category term="Power"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/RgbLedGlow/</id>
@@ -1805,7 +1819,7 @@
     <title>#298 GoldenHind</title>
     <summary>building a mini metal model of the Golden Hind</summary>
     <g:image_link>https://leap.tardate.com/Kraft/GoldenHind/assets/GoldenHind_build.jpg</g:image_link>
-    <category term="Kraft"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4070/Oscillator/</id>
@@ -2920,7 +2934,7 @@
     <summary>a paper model with some LED effects</summary>
     <g:image_link>https://leap.tardate.com/Kraft/SagradaFamilia/assets/SagradaFamilia_build.jpg</g:image_link>
     <category term="LED"/>
-    <category term="Kraft"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/LowVoltageGlowingLEDs/</id>
@@ -4167,7 +4181,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/ACBulb/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/ACBulb/"/>
-    <updated>2015-06-04T13:47:47Z</updated>
+    <updated>2019-04-21T08:16:06Z</updated>
     <title>#067 LED AC Bulb</title>
     <summary>build and analyse a commercial LED lamp kit with capacitive power supply</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/ACBulb/assets/ACBulb_build.jpg</g:image_link>
