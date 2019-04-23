@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors", 
+        "relative_path": "Electronics101/AudioEffects/WhiteNoiseGenerator", 
+        "id": "#474", 
+        "categories": "Audio, BJT", 
+        "name": "BJT White Noise Generator"
+    }, 
+    {
         "description": "An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock", 
         "relative_path": "Kraft/xdiskclk", 
         "id": "#473", 

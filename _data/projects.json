@@ -1897,15 +1897,14 @@
         ], 
         "title": "Schmitt Inverter"
     }, 
-    "/playground/pedalShieldUno/AudioDSP/": {
-        "summary": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
-        "id": 250, 
+    "/Equipment/FY3200S/": {
+        "summary": "testing out the Feeltech FY3200S digital function generator", 
+        "id": 274, 
         "tags": [
-            "DSP", 
-            "Guitar", 
-            "Arduino"
+            "Tools", 
+            "Test Equipment"
         ], 
-        "title": "pedalShieldUno/AudioDSP"
+        "title": "FY3200S"
     }, 
     "/playground/tin_counter/": {
         "summary": "a project by novaprimexex to count tins as they roll by and detect tins without paper labels", 
@@ -2549,14 +2548,15 @@
         ], 
         "title": "FunctionGenerator324"
     }, 
-    "/Equipment/FY3200S/": {
-        "summary": "testing out the Feeltech FY3200S digital function generator", 
-        "id": 274, 
+    "/playground/pedalShieldUno/AudioDSP/": {
+        "summary": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
+        "id": 250, 
         "tags": [
-            "Tools", 
-            "Test Equipment"
+            "DSP", 
+            "Guitar", 
+            "Arduino"
         ], 
-        "title": "FY3200S"
+        "title": "pedalShieldUno/AudioDSP"
     }, 
     "/Equipment/MSO5074FG_unboxing/": {
         "summary": "unboxing and first tests of a Hantek MSO5074FG oscilloscope", 
@@ -2737,6 +2737,15 @@
             "RC"
         ], 
         "title": "Capacitorial"
+    }, 
+    "/Electronics101/AudioEffects/WhiteNoiseGenerator/": {
+        "summary": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors", 
+        "id": 474, 
+        "tags": [
+            "Audio", 
+            "BJT"
+        ], 
+        "title": "BJT White Noise Generator"
     }, 
     "/BoldportClub/capacimeter/": {
         "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
@@ -3027,14 +3036,14 @@
         ], 
         "title": "BJT Monostable"
     }, 
-    "/playground/GpsBasics/": {
-        "summary": "using a NEMA-compatible GPS module for time and location with an Arduino", 
-        "id": 387, 
+    "/Electronics101/555Timer/AMTransmitter/": {
+        "summary": "a simple 555-based AM transmitter", 
+        "id": 132, 
         "tags": [
-            "GPS", 
-            "Arduino"
+            "Radio", 
+            "555 Timer"
         ], 
-        "title": "GpsBasics"
+        "title": "AMTransmitter/555"
     }, 
     "/BoldportClub/TheLady/": {
         "summary": "a ladybird soldering and display kit from The Boldport Club (Project #4)", 
@@ -4149,14 +4158,14 @@
         ], 
         "title": "MPU6050/AccelGyroTest"
     }, 
-    "/Electronics101/555Timer/AMTransmitter/": {
-        "summary": "a simple 555-based AM transmitter", 
-        "id": 132, 
+    "/playground/GpsBasics/": {
+        "summary": "using a NEMA-compatible GPS module for time and location with an Arduino", 
+        "id": 387, 
         "tags": [
-            "Radio", 
-            "555 Timer"
+            "GPS", 
+            "Arduino"
         ], 
-        "title": "AMTransmitter/555"
+        "title": "GpsBasics"
     }, 
     "/Electronics101/AudioAmps/VolumeControlPowerAmp/": {
         "summary": "an LM386 fixed-gain audio power amp with volume control", 
