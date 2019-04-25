@@ -2339,10 +2339,10 @@
     }, 
     {
         "description": "playing around with some zener-mode sound effects", 
-        "relative_path": "Electronics101/BJT/ZenerModeEffects", 
+        "relative_path": "Electronics101/AudioEffects/ZenerModeEffects", 
         "id": "#140", 
-        "categories": "BJT, Zener, Oscillators", 
-        "name": "BJT ZenerMode Effects"
+        "categories": "Audio, BJT, Zener, Oscillators", 
+        "name": "BJT Zener-Mode Effects"
     }, 
     {
         "description": "test the Atmega328 built-in analog comparator", 

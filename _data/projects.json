@@ -1682,15 +1682,6 @@
         ], 
         "title": "DelayKit"
     }, 
-    "/Electronics101/DigitalLogic/SRLatch/": {
-        "summary": "Set/Reset latch with BJTs", 
-        "id": 61, 
-        "tags": [
-            "Logic Gates", 
-            "BJT"
-        ], 
-        "title": "SRLatch"
-    }, 
     "/playground/AudioDSP/SuperCrunch/": {
         "summary": "arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash", 
         "id": 239, 
@@ -2649,6 +2640,17 @@
         ], 
         "title": "LEDArrayDemos"
     }, 
+    "/Electronics101/AudioEffects/ZenerModeEffects/": {
+        "summary": "playing around with some zener-mode sound effects", 
+        "id": 140, 
+        "tags": [
+            "Audio", 
+            "BJT", 
+            "Zener", 
+            "Oscillators"
+        ], 
+        "title": "BJT Zener-Mode Effects"
+    }, 
     "/Electronics101/HighFrequencyOpAmpOscillators/": {
         "summary": "how fast can you push an Op-Amp oscillator?", 
         "id": 142, 
@@ -3167,15 +3169,14 @@
         ], 
         "title": "ML741/Comparator"
     }, 
-    "/Electronics101/BJT/ZenerModeEffects/": {
-        "summary": "playing around with some zener-mode sound effects", 
-        "id": 140, 
+    "/Electronics101/DigitalLogic/SRLatch/": {
+        "summary": "Set/Reset latch with BJTs", 
+        "id": 61, 
         "tags": [
-            "BJT", 
-            "Zener", 
-            "Oscillators"
+            "Logic Gates", 
+            "BJT"
         ], 
-        "title": "BJT ZenerMode Effects"
+        "title": "SRLatch"
     }, 
     "/Kraft/snowflake/": {
         "summary": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project", 

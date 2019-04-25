@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-25T14:59:10Z</updated>
+  <updated>2019-04-25T15:16:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/</id>
     <link href="https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/"/>
-    <updated>2019-04-25T14:45:44Z</updated>
+    <updated>2019-04-25T15:07:18Z</updated>
     <title>#474 BJT White Noise Generator</title>
     <summary>Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/assets/WhiteNoiseGenerator_build.jpg</g:image_link>
@@ -24,7 +24,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/xdiskclk/</id>
     <link href="https://leap.tardate.com/Kraft/xdiskclk/"/>
-    <updated>2019-04-22T12:03:05Z</updated>
+    <updated>2019-04-25T15:07:18Z</updated>
     <title>#473 xdiskclk</title>
     <summary>An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock</summary>
     <g:image_link>https://leap.tardate.com/Kraft/xdiskclk/assets/xdiskclk_build.jpg</g:image_link>
@@ -3453,12 +3453,13 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/BJT/ZenerModeEffects/</id>
-    <link href="https://leap.tardate.com/Electronics101/BJT/ZenerModeEffects/"/>
+    <id>https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/</id>
+    <link href="https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/"/>
     <updated>2018-02-13T01:35:19Z</updated>
-    <title>#140 BJT ZenerMode Effects</title>
+    <title>#140 BJT Zener-Mode Effects</title>
     <summary>playing around with some zener-mode sound effects</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/BJT/ZenerModeEffects/assets/ZenerModeEffects_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/assets/ZenerModeEffects_build.jpg</g:image_link>
+    <category term="Audio"/>
     <category term="BJT"/>
     <category term="Zener"/>
     <category term="Oscillators"/>
