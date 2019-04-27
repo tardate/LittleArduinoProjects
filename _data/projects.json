@@ -3668,6 +3668,16 @@
         ], 
         "title": "SRLatchWithNorGates"
     }, 
+    "/Equipment/ANG860B/": {
+        "summary": "specifications and notes on the ANENG ANG860B+ digital multimeter", 
+        "id": 475, 
+        "tags": [
+            "Tools", 
+            "Test Equipment", 
+            "DMM"
+        ], 
+        "title": "ANG860B"
+    }, 
     "/ESP8266/SerialTest/": {
         "summary": "first test of an ESP8266 module - serial communication to the SoC", 
         "id": 154, 

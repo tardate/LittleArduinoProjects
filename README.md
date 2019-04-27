@@ -1,4 +1,4 @@
-# 474 Little Electronics and Arduino Projects
+# 475 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [White Noise Generator](./Electronics101/AudioEffects/WhiteNoiseGenerator) - Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors.
 

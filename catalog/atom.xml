@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-25T15:16:26Z</updated>
+  <updated>2019-04-27T09:24:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Equipment/ANG860B/</id>
+    <link href="https://leap.tardate.com/Equipment/ANG860B/"/>
+    <updated>2019-04-27T09:21:09Z</updated>
+    <title>#475 ANG860B</title>
+    <summary>specifications and notes on the ANENG ANG860B+ digital multimeter</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/ANG860B/assets/ANG860B_build.jpg</g:image_link>
+    <category term="Tools"/>
+    <category term="Test Equipment"/>
+    <category term="DMM"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/</id>
     <link href="https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/"/>
@@ -3455,7 +3466,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/</id>
     <link href="https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/"/>
-    <updated>2018-02-13T01:35:19Z</updated>
+    <updated>2019-04-25T16:41:16Z</updated>
     <title>#140 BJT Zener-Mode Effects</title>
     <summary>playing around with some zener-mode sound effects</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/assets/ZenerModeEffects_build.jpg</g:image_link>
