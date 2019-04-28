@@ -33,6 +33,20 @@ Key Specifications:
 | Inductance Resolution   | 0.1µH |0.2uH  |  |
 
 
+## Measuring Complex Impedance
+
+The LCR45 measures [Complex Impedance](https://en.wikipedia.org/wiki/Electrical_impedance#Complex_impedance) span the full
+range of inductive, resistive and capacitive loads.
+
+The main display willshow Henries, Ohms or Farads as applicable, but the enter key switches the display to also show:
+
+* complex impedence
+* complex admittance (reciprocal of impedance)
+* magniture and phase
+
+![complex_impedance](./assets/complex_impedance.jpg?raw=true)
+
+
 ## Performance
 
 The out-of-the box experience is excellent. It comes with a printed user manual (also available for download online, along with the datasheet),
@@ -50,3 +64,5 @@ So far, so good. An excellent piece of equipment to have on hand.
 * [LCR45 Product Page](https://www.peakelec.co.uk/acatalog/lcr45-lcr-impedance-meter.html)
 * [LCR45 datasheet](http://www.peakelec.co.uk/downloads/lcr45-datasheet-en.pdf)
 * [LCR45 user guide](http://www.peakelec.co.uk/downloads/lcr45-userguide-en.pdf)
+* [Complex Impedance](https://en.wikipedia.org/wiki/Electrical_impedance#Complex_impedance) - wikipedia
+* [Admittance](https://en.wikipedia.org/wiki/Admittance) - wikipedia
