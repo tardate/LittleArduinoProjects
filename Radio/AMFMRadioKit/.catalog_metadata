@@ -1,7 +1,7 @@
 {
-    "id": "#131", 
-    "name": "AMFMRadioKit", 
-    "description": "notes on an AM/FM radio kit build", 
-    "categories": "Radio, AM, FM", 
+    "id": "#131",
+    "name": "AM/FM Radio Kit",
+    "description": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips",
+    "categories": "Radio, AM, FM",
     "relative_path": "Radio/AMFMRadioKit"
 }

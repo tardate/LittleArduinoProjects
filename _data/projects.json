@@ -592,14 +592,14 @@
         "title": "LEDCubes/Mini4"
     }, 
     "/Radio/AMFMRadioKit/": {
-        "summary": "notes on an AM/FM radio kit build", 
+        "summary": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips", 
         "id": 131, 
         "tags": [
             "Radio", 
             "AM", 
             "FM"
         ], 
-        "title": "AMFMRadioKit"
+        "title": "AM/FM Radio Kit"
     }, 
     "/BoldportClub/cordwood/": {
         "summary": "the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3", 

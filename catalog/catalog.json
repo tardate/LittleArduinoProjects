@@ -2408,11 +2408,11 @@
         "name": "AMTransmitter/555"
     }, 
     {
-        "description": "notes on an AM/FM radio kit build", 
+        "description": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips", 
         "relative_path": "Radio/AMFMRadioKit", 
         "id": "#131", 
         "categories": "Radio, AM, FM", 
-        "name": "AMFMRadioKit"
+        "name": "AM/FM Radio Kit"
     }, 
     {
         "description": "test a Darlington-pair touch switch", 

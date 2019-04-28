@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-27T09:24:26Z</updated>
+  <updated>2019-04-28T05:52:35Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/ANG860B/</id>
     <link href="https://leap.tardate.com/Equipment/ANG860B/"/>
-    <updated>2019-04-27T09:21:09Z</updated>
+    <updated>2019-04-27T11:59:59Z</updated>
     <title>#475 ANG860B</title>
     <summary>specifications and notes on the ANENG ANG860B+ digital multimeter</summary>
     <g:image_link>https://leap.tardate.com/Equipment/ANG860B/assets/ANG860B_build.jpg</g:image_link>
@@ -3557,9 +3557,9 @@
   <entry>
     <id>https://leap.tardate.com/Radio/AMFMRadioKit/</id>
     <link href="https://leap.tardate.com/Radio/AMFMRadioKit/"/>
-    <updated>2018-01-28T15:48:21Z</updated>
-    <title>#131 AMFMRadioKit</title>
-    <summary>notes on an AM/FM radio kit build</summary>
+    <updated>2019-04-28T05:51:19Z</updated>
+    <title>#131 AM/FM Radio Kit</title>
+    <summary>build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips</summary>
     <g:image_link>https://leap.tardate.com/Radio/AMFMRadioKit/assets/AMFMRadioKit_build.jpg</g:image_link>
     <category term="Radio"/>
     <category term="AM"/>
