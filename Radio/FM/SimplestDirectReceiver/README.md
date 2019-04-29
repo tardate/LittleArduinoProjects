@@ -59,28 +59,28 @@ The best version I've seen is perhaps the build by Lechoslowianin, "Proste radio
 The basic design I'm using here is from Mikroelektronika's
 [3.15.2 The Simplest FM Receiver with Audio Amplifier](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/the-simplest-fm-receiver-with-audio-amplifier).
 
-My first builds folliwng the schematic exactly were spectacularly unsuccessful:
+My first builds following the schematic exactly were spectacularly unsuccessful:
 
 * weak signal lost in the noise (if any signal at all)
 * virtually no selectivity
 
-After much experiementation, the lessons learned..
+After much experimentation, the lessons learned..
 
 If there is no signal at all, the operating voltage may be swamping the tank circuit:
 
 * R1 drops the battery voltage to tank circuit.
-* I had no success at all with the 9V battery and R1=10kΩ on many schematics.
+* I had no success at all with the 9V battery and R1=10kΩ shown on many schematics.
 * Try lower voltage or increasing R1... this circuit works well down to around 3V
 
-The sweet spot I settled on was 5V and R1=22kΩ
+The sweet spot I settled on was 5V supply and R1=22kΩ
 
 If the signal is weak and there is no selectivity:
 
-* then one is probably tuning on a mess of harmonics, not the actual signal
+* then one is probably tuning on a mess of harmonics/mirror images, not the actual signal
 * the inductor L1 is very wrong.
 
 I finally started to get good results with a 4 turn, 17mm diameter coil of 0.4mm enamelled wire.
-According to my LCR, this measures at around 0.54µH - much higher than the ~0.1µH
+According to my LCR meter, this measures at around 0.55µH - much higher than the ~0.1µH
 I was getting with the  coil I wound according to original instructions.
 
 Given the variable capacitor I'm using ranges from about 5pF to 22pF,
@@ -91,7 +91,7 @@ to
 That's a bit on the low side for the braodcast FM range, but I'll have a shot at shifting the range
 later (probably drop one turn from the coil).
 
-That corresponds to the performance I'm seeing - able to pick up all stations up to around 97.4 MHz very clearly
+That corresponds to the performance I'm seeing - able to pick up all stations up to around 97.4 MHz very clearly.
 
 ![L1_measurement](./assets/L1_measurement.jpg?raw=true)
 
@@ -124,7 +124,8 @@ The layout I used for the protoboard build:
 
 ![protoboard_layout](./assets/protoboard_layout.jpg?raw=true)
 
-Under test:
+Under test.. the variable capacitor is good for rough adjustment but for fine control it
+is much easier to adjustthe inductor with a bit of ferrite core.
 
 ![SimplestDirectReceiver_test](./assets/SimplestDirectReceiver_test.jpg?raw=true)
 
