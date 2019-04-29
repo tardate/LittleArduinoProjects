@@ -35,25 +35,25 @@ Key Specifications:
 
 ## Measuring Complex Impedance
 
-The LCR45 measures [Complex Impedance](https://en.wikipedia.org/wiki/Electrical_impedance#Complex_impedance) span the full
+The LCR45 measures [Complex Impedance](https://en.wikipedia.org/wiki/Electrical_impedance#Complex_impedance) spanning the full
 range of inductive, resistive and capacitive loads.
 
-The main display willshow Henries, Ohms or Farads as applicable, but the enter key switches the display to also show:
+The main display will show Henries, Ohms or Farads as applicable, but the enter key switches the display to also show:
 
 * complex impedence
 * complex admittance (reciprocal of impedance)
-* magniture and phase
+* magnitude and phase
 
-![complex_impedance](./assets/complex_impedance.jpg?raw=true)
-
+[![complex_impedance](./assets/complex_impedance.jpg?raw=true)](https://www.peakelec.co.uk/acatalog/lcr45-lcr-impedance-meter.html)
 
 ## Performance
 
 The out-of-the box experience is excellent. It comes with a printed user manual (also available for download online, along with the datasheet),
-but it really does not need much instruction.
+but it really does not need much instruction. The fact that it is a compact, portable and battery-powered is a bonus.
+
 
 Peak provide an option for the unit to be supplied with a certificate of conformance, which provides a detailed calibration and manual verification report.
-I sprung for this option, as I lack any other calibrated LCR equipment. The fact that it is a compact, portable and battery-powered is a bonus.
+I sprung for this option, as I lack any other calibrated LCR equipment.
 
 One of the main applications I had for the unit was inductance measurement of hand-wound coils. I've no other equipment that can measure accurately
 down into the µH range.
