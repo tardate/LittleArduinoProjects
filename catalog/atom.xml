@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-04-28T10:40:19Z</updated>
+  <updated>2019-05-01T07:52:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Audio/RakitDrumSynth/</id>
+    <link href="https://leap.tardate.com/Audio/RakitDrumSynth/"/>
+    <updated>2019-05-01T07:37:51Z</updated>
+    <title>#477 Rakit Drum Synth</title>
+    <summary>building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer</summary>
+    <g:image_link>https://leap.tardate.com/Audio/RakitDrumSynth/assets/RakitDrumSynth_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="Drum"/>
+    <category term="Synth"/>
+    <category term="Music"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Radio/FM/SimplestDirectReceiver/</id>
     <link href="https://leap.tardate.com/Radio/FM/SimplestDirectReceiver/"/>
-    <updated>2019-04-28T10:38:15Z</updated>
+    <updated>2019-04-28T10:42:00Z</updated>
     <title>#476 Simplest Direct FM Receiver</title>
     <summary>Taming a very simple direct conversion FM receiver</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/SimplestDirectReceiver/assets/SimplestDirectReceiver_build.jpg</g:image_link>

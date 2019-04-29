@@ -1,5 +1,12 @@
 [
     {
+        "description": "building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer", 
+        "relative_path": "Audio/RakitDrumSynth", 
+        "id": "#477", 
+        "categories": "Audio, Drum, Synth, Music", 
+        "name": "Rakit Drum Synth"
+    }, 
+    {
         "description": "Taming a very simple direct conversion FM receiver", 
         "relative_path": "Radio/FM/SimplestDirectReceiver", 
         "id": "#476", 

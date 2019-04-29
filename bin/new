@@ -11,6 +11,7 @@ Make a new project workspace..
 
 Usage:
   $0 51 ProjectName  # new 8051 project
+  $0 au ProjectName  # new Audio project
   $0 bp ProjectName  # new BoldportClub project
   $0 ee ProjectName  # new Electronics101 project
   $0 eq ProjectName  # new Equipment project
@@ -133,6 +134,10 @@ case ${op} in
 
 51|8051|mcs51)
   make_project "8051" "${2}"
+  ;;
+
+au)
+  make_project "Audio" "${2}"
   ;;
 
 bp)

@@ -1,4 +1,15 @@
 {
+    "/Audio/RakitDrumSynth/": {
+        "summary": "building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer", 
+        "id": 477, 
+        "tags": [
+            "Audio", 
+            "Drum", 
+            "Synth", 
+            "Music"
+        ], 
+        "title": "Rakit Drum Synth"
+    }, 
     "/playground/JarabeTapatio/": {
         "summary": "play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification", 
         "id": 51, 

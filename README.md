@@ -1,6 +1,6 @@
-# 476 Little Electronics and Arduino Projects
+# 477 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Simplest Direct FM Receiver](./Radio/FM/SimplestDirectReceiver) - Taming a very simple direct conversion FM receiver.
+> Latest addition:sparkles: [Rakit Drum Synth](./Audio/RakitDrumSynth) - building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
