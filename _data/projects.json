@@ -3309,13 +3309,13 @@
         "title": "VoltageControlledOscillator/555"
     }, 
     "/playground/LED8x8/MaxRawDemo/": {
-        "summary": "drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands", 
+        "summary": "drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands", 
         "id": 101, 
         "tags": [
             "8x8 LED", 
             "Arduino"
         ], 
-        "title": "MaxRawDemo"
+        "title": "8x8 LED Matrix Raw Drive"
     }, 
     "/playground/I2CScanner/": {
         "summary": "scanning for I\u00b2C devices with an Arduino", 
@@ -3490,7 +3490,7 @@
             "8x8 LED", 
             "Arduino"
         ], 
-        "title": "LedControlDemo"
+        "title": " 8x8 LED Matrix LedControl"
     }, 
     "/BoldportClub/conehead/": {
         "summary": "the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018", 
@@ -4053,6 +4053,17 @@
             "Sensors"
         ], 
         "title": "BoldportClub/Touchy"
+    }, 
+    "/playground/LED7Segment/MAX7219/RawDrive/": {
+        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
+        "id": 478, 
+        "tags": [
+            "7-Segment", 
+            "Arduino", 
+            "LED", 
+            "MAX7219"
+        ], 
+        "title": "Raw MAX7219 7-Segment LED Driver"
     }, 
     "/Electronics101/BJT/TwoStageCommonEmitterAmplifier/": {
         "summary": "designing a two-stage common-emitter BJT amplifier", 

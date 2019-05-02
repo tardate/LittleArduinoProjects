@@ -58,7 +58,7 @@ So the input to output transformation required for the digits 0-9 is as follows:
 
 NB: I'm calling the inputs 0xA-0xF "undefined". This approach could of course be extended for hexadecimal display, but I'm sticking to decimal for now.
 
-![SC56-11_mechanical](../assets/SC56-11_mechanical.png?raw=true)
+![SC56-11_mechanical](../assets/SC56-11_mechanical.jpg?raw=true)
 
 ### Deriving the Transformation Functions
 

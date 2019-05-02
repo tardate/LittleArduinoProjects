@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-05-01T07:52:00Z</updated>
+  <updated>2019-05-05T11:16:25Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/playground/LED7Segment/MAX7219/RawDrive/</id>
+    <link href="https://leap.tardate.com/playground/LED7Segment/MAX7219/RawDrive/"/>
+    <updated>2019-05-05T11:08:43Z</updated>
+    <title>#478 Raw MAX7219 7-Segment LED Driver</title>
+    <summary>Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands</summary>
+    <g:image_link>https://leap.tardate.com/playground/LED7Segment/MAX7219/RawDrive/assets/RawDrive_build.jpg</g:image_link>
+    <category term="7-Segment"/>
+    <category term="Arduino"/>
+    <category term="LED"/>
+    <category term="MAX7219"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/RakitDrumSynth/</id>
     <link href="https://leap.tardate.com/Audio/RakitDrumSynth/"/>
-    <updated>2019-05-01T07:37:51Z</updated>
+    <updated>2019-05-01T07:52:36Z</updated>
     <title>#477 Rakit Drum Synth</title>
     <summary>building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer</summary>
     <g:image_link>https://leap.tardate.com/Audio/RakitDrumSynth/assets/RakitDrumSynth_build.jpg</g:image_link>
@@ -3861,8 +3873,8 @@
   <entry>
     <id>https://leap.tardate.com/playground/LED8x8/LedControlDemo/</id>
     <link href="https://leap.tardate.com/playground/LED8x8/LedControlDemo/"/>
-    <updated>2015-06-30T13:49:11Z</updated>
-    <title>#103 LedControlDemo</title>
+    <updated>2019-05-05T11:11:52Z</updated>
+    <title>#103  8x8 LED Matrix LedControl</title>
     <summary>test driving and LED matrix with the LedControl library</summary>
     <g:image_link>https://leap.tardate.com/playground/LED8x8/LedControlDemo/assets/LedControlDemo_build.jpg</g:image_link>
     <category term="8x8 LED"/>
@@ -3881,9 +3893,9 @@
   <entry>
     <id>https://leap.tardate.com/playground/LED8x8/MaxRawDemo/</id>
     <link href="https://leap.tardate.com/playground/LED8x8/MaxRawDemo/"/>
-    <updated>2015-06-16T17:59:17Z</updated>
-    <title>#101 MaxRawDemo</title>
-    <summary>drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands</summary>
+    <updated>2019-05-05T11:12:56Z</updated>
+    <title>#101 8x8 LED Matrix Raw Drive</title>
+    <summary>drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands</summary>
     <g:image_link>https://leap.tardate.com/playground/LED8x8/MaxRawDemo/assets/MaxRawDemo_build.jpg</g:image_link>
     <category term="8x8 LED"/>
     <category term="Arduino"/>

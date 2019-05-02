@@ -1,9 +1,9 @@
 /*
 
-  MaxRawDemo
-  Drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands
+  LED7Segment/MAX7219/RawDrive
+  Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED8x8/MaxRawDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/MAX7219/RawDrive
 
  */
 
@@ -27,6 +27,11 @@ const uint8_t MAX7219_scanLimit   = 0x0b;
 const uint8_t MAX7219_shutdown    = 0x0c;
 const uint8_t MAX7219_displayTest = 0x0f;
 
+const uint8_t MAX7219_DECODE_NONE = 0x00;
+const uint8_t MAX7219_DECODE_0    = 0x01;
+const uint8_t MAX7219_DECODE_LOW  = 0x0f;
+const uint8_t MAX7219_DECODE_ALL  = 0xff;
+
 /*
   Send a 16-bit command packet to the device,
   comprising the +reg+ register selection and +data+ bytes.
@@ -48,8 +53,8 @@ digit, it will not decode data in the data registers, and
 the intensity register will be set to its minimum value.
 */
 void initialiseDisplay() {
-  maxWrite(MAX7219_scanLimit,   0x07); // scan digits 0 to 7
-  maxWrite(MAX7219_decodeMode,  0x00); // no decode
+  maxWrite(MAX7219_scanLimit,   0x01); // only scan digits 0, 1
+  maxWrite(MAX7219_decodeMode,  MAX7219_DECODE_LOW);
   maxWrite(MAX7219_displayTest, 0x00); // normal operation
   maxWrite(MAX7219_shutdown,    0x00); // display off
 }
@@ -74,17 +79,16 @@ void setup() {
 
 void loop() {
   // run a simple display test
-  scanner();
+  counter();
 }
 
 /*
- Scan through each digit ("row") turning on a single LED ("column") etc..
+ Run a looping second counter ..
  */
-void scanner() {
-  for (byte column=0; column<8; column++) {
-    for (byte row=MAX7219_digit0; row<=MAX7219_digit7; row++) {
-      maxWrite(row, 0x01 << column);
-      delay(50);
-    }
+void counter() {
+  for (byte value=0; value<100; ++value) {
+    maxWrite(MAX7219_digit0, value % 10 );
+    maxWrite(MAX7219_digit1, (value / 10) | 0x80);
+    delay(1000);
   }
 }

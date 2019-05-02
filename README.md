@@ -1,6 +1,6 @@
-# 477 Little Electronics and Arduino Projects
+# 478 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Rakit Drum Synth](./Audio/RakitDrumSynth) - building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer.
+> Latest addition:sparkles: [Raw MAX7219 7-Segment LED Driver](./playground/LED7Segment/MAX7219/RawDrive) - driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

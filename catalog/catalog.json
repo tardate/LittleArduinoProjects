@@ -1,5 +1,12 @@
 [
     {
+        "description": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
+        "relative_path": "playground/LED7Segment/MAX7219/RawDrive", 
+        "id": "#478", 
+        "categories": "7-Segment, Arduino, LED, MAX7219", 
+        "name": "Raw MAX7219 7-Segment LED Driver"
+    }, 
+    {
         "description": "building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer", 
         "relative_path": "Audio/RakitDrumSynth", 
         "id": "#477", 
@@ -2622,7 +2629,7 @@
         "relative_path": "playground/LED8x8/LedControlDemo", 
         "id": "#103", 
         "categories": "8x8 LED, Arduino", 
-        "name": "LedControlDemo"
+        "name": " 8x8 LED Matrix LedControl"
     }, 
     {
         "description": "controlling a mini solenoid with an Arduino", 
@@ -2632,11 +2639,11 @@
         "name": "SolenoidControl"
     }, 
     {
-        "description": "drive an 8x8 LED Matrix with a MAX7219 chip an raw SPI commands", 
+        "description": "drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands", 
         "relative_path": "playground/LED8x8/MaxRawDemo", 
         "id": "#101", 
         "categories": "8x8 LED, Arduino", 
-        "name": "MaxRawDemo"
+        "name": "8x8 LED Matrix Raw Drive"
     }, 
     {
         "description": "an Arduino & OLED version of a classic game", 
