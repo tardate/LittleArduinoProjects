@@ -1,5 +1,12 @@
 [
     {
+        "description": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library", 
+        "relative_path": "playground/LED7Segment/MAX7219/LedControlDemo", 
+        "id": "#479", 
+        "categories": "7-Segment, Arduino, LED, MAX7219", 
+        "name": "LedControl MAX7219 7-Segment LED Driver"
+    }, 
+    {
         "description": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
         "relative_path": "playground/LED7Segment/MAX7219/RawDrive", 
         "id": "#478", 

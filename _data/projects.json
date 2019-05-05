@@ -2158,6 +2158,17 @@
         ], 
         "title": "DPS3005BenchPowerSupply"
     }, 
+    "/playground/LED7Segment/MAX7219/LedControlDemo/": {
+        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library", 
+        "id": 479, 
+        "tags": [
+            "7-Segment", 
+            "Arduino", 
+            "LED", 
+            "MAX7219"
+        ], 
+        "title": "LedControl MAX7219 7-Segment LED Driver"
+    }, 
     "/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/": {
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
         "id": 315, 

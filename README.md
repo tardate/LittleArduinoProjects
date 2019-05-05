@@ -1,6 +1,6 @@
-# 478 Little Electronics and Arduino Projects
+# 479 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Raw MAX7219 7-Segment LED Driver](./playground/LED7Segment/MAX7219/RawDrive) - driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands.
+> Latest addition:sparkles: [LedControl MAX7219 7-Segment LED Driver](./playground/LED7Segment/MAX7219/LedControlDemo) - driving a series of 7-segment LED displays with the MAX7219 and the LedControl library.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
