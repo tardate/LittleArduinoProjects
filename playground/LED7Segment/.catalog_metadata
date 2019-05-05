@@ -1,0 +1,7 @@
+{
+    "id": "#480",
+    "name": "7-Segment LED Displays",
+    "description": "All about LED 7-segment displays",
+    "categories": "7-Segment, LED",
+    "relative_path": "playground/LED7Segment"
+}

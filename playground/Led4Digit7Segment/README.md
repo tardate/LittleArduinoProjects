@@ -9,6 +9,7 @@ Driving a 4-digit 7-segment display, various ways...
 
 There are a number of similar 4-digit 7-segment LED displays in the market.
 Although basically the same, they vary in critical ways:
+
 * common anode or common cathode configuration
 * number and assignment of pins
 
@@ -18,12 +19,14 @@ The additional pins are used to control punctuation and other effects such as th
 in 12/24 hour clock displays.
 
 Although pin assignments vary, they all operate in a similar manner:
+
 * a pin is common to a specific LED segment that is repeated across all digits e.g. pin 8 = "top bar of the digit"
 * another pin is common to all elements in a given digit e.g. pin 6 = "all elements in the first digit"
 * creating (powering) a circuit across the two pins will light the selected segment in the selected digit
-* the "common anode"/"common cathode" terminology basically indicates the polarity of the circuit. Common cathode means
+* the "common anode"/"common cathode" terminology basically indicates the polarity of the circuit. Common cathode means all the LED segments share a common cathode (negative pole) and are switched on by pulling segment pins high.
 
 ### SMA420564
+
 So much for theory; the hardest thing tends to be finding the right datasheet!
 I was unable to find a datasheet matching the part I have - stamped as an "SMA420564" -
 but figuring it out just takes a little poking around with a 5V + resistor probe.
@@ -54,8 +57,8 @@ And how we program the unit depends in turn on how we drive it. See the followin
 * [DoubleShift](./DoubleShift) - uses two 8-bit shift registers and some BJTs, total of 3 Arduino GPIO pins required
 * [DoubleShiftWithFETs](./DoubleShiftWithFETs) - uses two 8-bit shift registers and some n-channel FETs, total of 3 Arduino GPIO pins required
 
-
 ## Credits and references
+
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty standard example
 * a good [How to.. question at EE.SE](http://electronics.stackexchange.com/questions/34815/using-4-digit-7-segment-led)
 * [another great answer on Arduino.SE](http://arduino.stackexchange.com/questions/21608/how-to-use-a-common-anode-7-segment-4-digit-display/21609#21609)

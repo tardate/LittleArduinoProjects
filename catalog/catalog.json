@@ -1,5 +1,12 @@
 [
     {
+        "description": "All about LED 7-segment displays", 
+        "relative_path": "playground/LED7Segment", 
+        "id": "#480", 
+        "categories": "7-Segment, LED", 
+        "name": "7-Segment LED Displays"
+    }, 
+    {
         "description": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library", 
         "relative_path": "playground/LED7Segment/MAX7219/LedControlDemo", 
         "id": "#479", 

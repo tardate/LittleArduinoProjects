@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-05-05T11:58:54Z</updated>
+  <updated>2019-05-05T15:19:38Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/LED7Segment/</id>
+    <link href="https://leap.tardate.com/playground/LED7Segment/"/>
+    <updated>2016-06-23T14:50:15Z</updated>
+    <title>#480 7-Segment LED Displays</title>
+    <summary>All about LED 7-segment displays</summary>
+    <g:image_link>https://leap.tardate.com/playground/LED7Segment/assets/LED7Segment_build.jpg</g:image_link>
+    <category term="7-Segment"/>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/LED7Segment/MAX7219/LedControlDemo/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/MAX7219/LedControlDemo/"/>

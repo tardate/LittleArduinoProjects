@@ -4016,6 +4016,15 @@
         ], 
         "title": "Power317"
     }, 
+    "/playground/LED7Segment/": {
+        "summary": "All about LED 7-segment displays", 
+        "id": 480, 
+        "tags": [
+            "7-Segment", 
+            "LED"
+        ], 
+        "title": "7-Segment LED Displays"
+    }, 
     "/Electronics101/TransistorCurveTracer/": {
         "summary": "simple NPN transistor curve tracer using a Stairstep generator circuit", 
         "id": 228, 
