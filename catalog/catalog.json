@@ -1,5 +1,12 @@
 [
     {
+        "description": "investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller", 
+        "relative_path": "playground/LED7Segment/TM1638", 
+        "id": "#481", 
+        "categories": "7-Segment, Arduino, LED, TM1638", 
+        "name": "TM1638 7-Segment LED Driver"
+    }, 
+    {
         "description": "All about LED 7-segment displays", 
         "relative_path": "playground/LED7Segment", 
         "id": "#480", 

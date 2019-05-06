@@ -1,6 +1,6 @@
-# 479 Little Electronics and Arduino Projects
+# 481 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [LedControl MAX7219 7-Segment LED Driver](./playground/LED7Segment/MAX7219/LedControlDemo) - driving a series of 7-segment LED displays with the MAX7219 and the LedControl library.
+> Latest addition:sparkles: [TM1638 7-Segment LED Driver](./playground/LED7Segment/TM1638) - investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

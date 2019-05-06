@@ -5,12 +5,24 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-05-05T15:19:38Z</updated>
+  <updated>2019-05-20T03:13:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/LED7Segment/TM1638/</id>
+    <link href="https://leap.tardate.com/playground/LED7Segment/TM1638/"/>
+    <updated>2019-05-20T01:57:59Z</updated>
+    <title>#481 TM1638 7-Segment LED Driver</title>
+    <summary>investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller</summary>
+    <g:image_link>https://leap.tardate.com/playground/LED7Segment/TM1638/assets/TM1638_build.jpg</g:image_link>
+    <category term="7-Segment"/>
+    <category term="Arduino"/>
+    <category term="LED"/>
+    <category term="TM1638"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/LED7Segment/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/"/>

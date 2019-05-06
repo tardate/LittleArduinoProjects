@@ -2095,6 +2095,17 @@
         ], 
         "title": "DigitalInputWithAnalogPins"
     }, 
+    "/playground/LED7Segment/TM1638/": {
+        "summary": "investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller", 
+        "id": 481, 
+        "tags": [
+            "7-Segment", 
+            "Arduino", 
+            "LED", 
+            "TM1638"
+        ], 
+        "title": "TM1638 7-Segment LED Driver"
+    }, 
     "/Electronics101/555Timer/SimpleSiren/": {
         "summary": "classic timer circuit producing a two-tone oscillation", 
         "id": 45, 
