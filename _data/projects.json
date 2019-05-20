@@ -1189,14 +1189,15 @@
         ], 
         "title": "Mixers/RFDiodeRing"
     }, 
-    "/playground/Lcd5110/BareBack/": {
-        "summary": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set", 
-        "id": 85, 
+    "/Electronics101/Electret/SoundLevelTrigger/": {
+        "summary": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone", 
+        "id": 482, 
         "tags": [
-            "LCD", 
-            "Arduino"
+            "Electret", 
+            "Audio", 
+            "Sensor"
         ], 
-        "title": "Lcd5110/BareBack"
+        "title": "Electret Sound-level Trigger"
     }, 
     "/Electronics101/555Timer/Bistable/": {
         "summary": "using the 555 timer as a bistable latch and button debouncer", 
@@ -2820,6 +2821,15 @@
             "Test Equipment"
         ], 
         "title": "Labrador"
+    }, 
+    "/playground/Lcd5110/BareBack/": {
+        "summary": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set", 
+        "id": 85, 
+        "tags": [
+            "LCD", 
+            "Arduino"
+        ], 
+        "title": "Lcd5110/BareBack"
     }, 
     "/Electronics101/FM/ThreeStageTransmitter/": {
         "summary": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 

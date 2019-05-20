@@ -1,5 +1,12 @@
 [
     {
+        "description": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone", 
+        "relative_path": "Electronics101/Electret/SoundLevelTrigger", 
+        "id": "#482", 
+        "categories": "Electret, Audio, Sensor", 
+        "name": "Electret Sound-level Trigger"
+    }, 
+    {
         "description": "investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller", 
         "relative_path": "playground/LED7Segment/TM1638", 
         "id": "#481", 

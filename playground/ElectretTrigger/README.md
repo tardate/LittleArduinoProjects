@@ -7,7 +7,6 @@ Here's a quick video of the circuit in action:
 
 [![ElectretTrigger](https://img.youtube.com/vi/ql-fEP85yUc/0.jpg)](https://www.youtube.com/watch?v=ql-fEP85yUc)
 
-
 ## Notes
 
 The electret microphone is biased to about 1V, and the AC component of the signal tapped via C1.

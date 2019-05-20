@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-05-20T03:13:10Z</updated>
+  <updated>2019-05-20T09:40:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/</id>
+    <link href="https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/"/>
+    <updated>2019-05-20T09:16:11Z</updated>
+    <title>#482 Electret Sound-level Trigger</title>
+    <summary>a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/assets/SoundLevelTrigger_build.jpg</g:image_link>
+    <category term="Electret"/>
+    <category term="Audio"/>
+    <category term="Sensor"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/LED7Segment/TM1638/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/TM1638/"/>

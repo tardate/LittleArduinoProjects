@@ -1,6 +1,6 @@
-# 481 Little Electronics and Arduino Projects
+# 482 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [TM1638 7-Segment LED Driver](./playground/LED7Segment/TM1638) - investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller.
+> Latest addition:sparkles: [Electret Sound-level Trigger](./Electronics101/Electret/SoundLevelTrigger) - a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
