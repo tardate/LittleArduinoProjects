@@ -5,7 +5,7 @@
       {% for tag in project_tags  %}<span class="badge badge-success">{{ tag }}</span>{% endfor %}
       {% endif %}
   </div>
-  <a href="{{ site.repo_url | append: "/blob/master" | append: page.url }}" class="list-group-item" target="_blank">
+  <a href="{% if leap_id %}{{ site.repo_url | append: "/blob/master" | append: page.url }}{% else %}{{ site.repo_url}{% endif %}" class="list-group-item" target="_blank">
     <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
     Project Source on GitHub
   </a>
