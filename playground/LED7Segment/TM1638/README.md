@@ -6,7 +6,7 @@ Investigating the capabilities of the TM1638 as a 7-segment display driver and k
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/VvmC_Gq3Jks/0.jpg)](https://www.youtube.com/watch?v=VvmC_Gq3Jks)
 
 ## Notes
 
@@ -24,7 +24,7 @@ Unlike the MAX7219, it doesn't include a fonts or other decoding for display (no
 
 The 7-segment components I'm using here are similar to the [SC56-11](../../assets/SC56-11_datasheet.pdf?raw=true).
 
-![SC56-11_mechanical](../../assets/SC56-11_mechanical.jpg?raw=true)
+![SC56-11_mechanical](../assets/SC56-11_mechanical.jpg?raw=true)
 
 I'm using common cathode variants, so segments are wired to the TM1638 segment pins,
 and each digits cathode goes to the corresponding grid pin.
