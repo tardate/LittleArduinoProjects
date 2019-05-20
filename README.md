@@ -1,6 +1,6 @@
-# 482 Little Electronics and Arduino Projects
+# 483 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Electret Sound-level Trigger](./Electronics101/Electret/SoundLevelTrigger) - a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone.
+> Latest addition:sparkles: [WyLed](./Kraft/WyLed) - .. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

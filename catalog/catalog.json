@@ -1,5 +1,12 @@
 [
     {
+        "description": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
+        "relative_path": "Kraft/WyLed", 
+        "id": "#483", 
+        "categories": "Arduino, ATmel, LED, TM1638", 
+        "name": "WyLed"
+    }, 
+    {
         "description": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone", 
         "relative_path": "Electronics101/Electret/SoundLevelTrigger", 
         "id": "#482", 

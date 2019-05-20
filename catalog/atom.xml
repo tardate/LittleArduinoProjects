@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-05-20T09:40:01Z</updated>
+  <updated>2019-05-26T11:28:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/WyLed/</id>
+    <link href="https://leap.tardate.com/Kraft/WyLed/"/>
+    <updated>2019-05-26T11:22:46Z</updated>
+    <title>#483 WyLed</title>
+    <summary>.. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/WyLed/assets/WyLed_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="ATmel"/>
+    <category term="LED"/>
+    <category term="TM1638"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/</id>
     <link href="https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/"/>
-    <updated>2019-05-20T09:16:11Z</updated>
+    <updated>2019-05-20T09:44:36Z</updated>
     <title>#482 Electret Sound-level Trigger</title>
     <summary>a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/assets/SoundLevelTrigger_build.jpg</g:image_link>

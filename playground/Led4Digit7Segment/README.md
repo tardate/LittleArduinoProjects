@@ -4,7 +4,6 @@ Driving a 4-digit 7-segment display, various ways...
 
 ![Build](./assets/Led4Digit7Segment_build.jpg?raw=true)
 
-
 ## Notes
 
 There are a number of similar 4-digit 7-segment LED displays in the market.
@@ -32,21 +31,23 @@ I was unable to find a datasheet matching the part I have - stamped as an "SMA42
 but figuring it out just takes a little poking around with a 5V + resistor probe.
 Here's my 'reverse-engineered' datasheet:
 
-It's a 4-digit common cathode unit, with the common cathode for each digit on pins 7,10,11,6.
+It's a 4-digit common cathode unit, with the common cathode for each digit on pins 6, 8, 9, 12.
 
 The anode connections for each segment are mapped in the folliwng table.
 The LED segments are labelled clockwise from A (top bar) to F (top left bar); G is the centre bar; and 'dp' is the decimal point segment after the digit:
 
-| pin(digit) | 7 (D1)  | 10 (D2) | 11 (D3) | 6 (D4) |
-|------------|---------|---------|---------|--------|
-| 1          | E       | E       | E       | E      |
-| 2          | D       | D       | D       | D      |
-| 3          | dp      | dp      | dp      | dp     |
-| 4          | C       | C       | C       | C      |
-| 5          | G       | G       | G       | G      |
-| 8          | A       | A       | A       | A      |
-| 9          | F       | F       | F       | F      |
-| 12         | B       | B       | B       | B      |
+| pin    | 12 (D1) | 9 (D2)  | 8 (D3)  | 6 (D4) |
+|--------|---------|---------|---------|--------|
+| 1      | E       | E       | E       | E      |
+| 2      | D       | D       | D       | D      |
+| 3      | dp      | dp      | dp      | dp     |
+| 4      | C       | C       | C       | C      |
+| 5      | G       | G       | G       | G      |
+| 11     | A       | A       | A       | A      |
+| 10     | F       | F       | F       | F      |
+| 7      | B       | B       | B       | B      |
+
+![4digit_pinouts](./assets/4digit_pinouts.jpg?raw=true)
 
 ### Test Circuits
 

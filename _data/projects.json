@@ -1900,14 +1900,15 @@
         ], 
         "title": "Schmitt Inverter"
     }, 
-    "/Equipment/FY3200S/": {
-        "summary": "testing out the Feeltech FY3200S digital function generator", 
-        "id": 274, 
+    "/playground/pedalShieldUno/AudioDSP/": {
+        "summary": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
+        "id": 250, 
         "tags": [
-            "Tools", 
-            "Test Equipment"
+            "DSP", 
+            "Guitar", 
+            "Arduino"
         ], 
-        "title": "FY3200S"
+        "title": "pedalShieldUno/AudioDSP"
     }, 
     "/playground/tin_counter/": {
         "summary": "a project by novaprimexex to count tins as they roll by and detect tins without paper labels", 
@@ -2347,6 +2348,17 @@
         ], 
         "title": "MotorControlPWM"
     }, 
+    "/Kraft/WyLed/": {
+        "summary": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
+        "id": 483, 
+        "tags": [
+            "Arduino", 
+            "ATmel", 
+            "LED", 
+            "TM1638"
+        ], 
+        "title": "WyLed"
+    }, 
     "/playground/FastAnalogRead/": {
         "summary": "how to increase the Arduino ADC analog sampling rate", 
         "id": 458, 
@@ -2573,15 +2585,14 @@
         ], 
         "title": "FunctionGenerator324"
     }, 
-    "/playground/pedalShieldUno/AudioDSP/": {
-        "summary": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
-        "id": 250, 
+    "/Equipment/FY3200S/": {
+        "summary": "testing out the Feeltech FY3200S digital function generator", 
+        "id": 274, 
         "tags": [
-            "DSP", 
-            "Guitar", 
-            "Arduino"
+            "Tools", 
+            "Test Equipment"
         ], 
-        "title": "pedalShieldUno/AudioDSP"
+        "title": "FY3200S"
     }, 
     "/Equipment/MSO5074FG_unboxing/": {
         "summary": "unboxing and first tests of a Hantek MSO5074FG oscilloscope", 
