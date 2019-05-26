@@ -3,7 +3,7 @@
 .. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display.
 An ATTiny85 provides a little brain, and the TM1638 handles all input and output.
 
-![Build](./assets/Startle_build.jpg?raw=true)
+![Build](./assets/WyLed_build.jpg?raw=true)
 
 Here's a quick demo..
 
@@ -13,9 +13,9 @@ Here's a quick demo..
 
 I checked out the basic operation of the TM1638 in
 [LEAP#481](https://leap.tardate.com/playground/led7segment/tm1638/).
-This project just truies to do something a little more interesting with the chip.
+This project tries to do something a little more interesting with the chip.
 
-One thing lead to another ... and I ended up with a freeform sculpture that got a little out of hand!
+One thing led to another ... and I ended up with a freeform sculpture that got a little out of hand!
 
 ### Sound Detector
 
@@ -64,9 +64,9 @@ for how this is done.
 
 ## Construction
 
-![Breadboard](./assets/Startle_bb.jpg?raw=true)
+![Breadboard](./assets/WyLed_bb.jpg?raw=true)
 
-![Schematic](./assets/Startle_schematic.jpg?raw=true)
+![Schematic](./assets/WyLed_schematic.jpg?raw=true)
 
 ### Breadboard Build
 
@@ -99,9 +99,8 @@ Adding a little more bling to the base..
 
 Final build...
 
-![Build](./assets/Startle_build.jpg?raw=true)
+![Build](./assets/WyLed_build.jpg?raw=true)
 
 ## Credits and References
 
 * [Titam TM1638](http://www.titanmec.com/index.php/en/product/view/id/303.html) - info from the original manufacturer, Shenzhen Titan Micro Electronics Co., Ltd. (深圳市天微电子股份有限公司)
-
