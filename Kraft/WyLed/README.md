@@ -1,6 +1,6 @@
 # #483 WyLed!
 
-.. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display.
+.. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display.
 An ATTiny85 provides a little brain, and the TM1638 handles all input and output.
 
 ![Build](./assets/WyLed_build.jpg?raw=true)
@@ -53,6 +53,9 @@ Note: numbering the digits is pretty arbitrary - just need to follow a conventio
 * I have mapped these so that GRID1-GRID4 operate from right to left
 
 ### Programming the ATtiny85
+
+The [WyLed.ino](./WyLed.ino) has some supporting classes [TM1638.h](./TM1638.h) and [KeyController.h](./KeyController.h)
+for interfacing with the TM1638, but does not require any additional libraries.
 
 I used an ATtiny85 for the final build,
 and programmed it using the Arduino ISP.
