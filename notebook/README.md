@@ -35,8 +35,15 @@
 ## Circuit Collections
 
 * [1776 effects](http://1776effects.com/) - pedals and kits
-* [DIY stompboxes](https://www.diystompboxes.com/wpress/)
-* [General Guitar Gadgets](http://www.generalguitargadgets.com/)
 * [555-timer-circuits](http://www.555-timer-circuits.com/)
-* [electroschematics](http://www.electroschematics.com/)
 * [Dick Cappels' Project Pages](http://www.cappels.org/dproj/Home.htm)
+* [DIY stompboxes](https://www.diystompboxes.com/wpress/)
+* [DiscoverCircuits](http://www.discovercircuits.com/index.htm)
+* [electroschematics](http://www.electroschematics.com/)
+* [ePanorama.net - Circuits](http://www.epanorama.net/index.php?index=circuit)
+* [General Guitar Gadgets](http://www.generalguitargadgets.com/)
+* [LM555 and LM556 Timer Circuits](http://www.circuitous.ca/LM555.html)
+* [Max Robinson's Fun With Transistors](http://www.funwithtransistors.net/)
+* [Model Railroad & Misc. Electronics](http://www.circuitous.ca/CircuitIndex.html)
+* [N5ESE's Ham Radio Page](http://www.n5ese.com/)
+* [www.changpuak.ch](https://www.changpuak.ch/electronics/index.php) - An archive of useful, funny and educational projects
