@@ -21,7 +21,7 @@ One of the many sources for the design is a Silicon Chip article from Jan 2008 -
 
 ## Circuit Design
 
-this is a simple circuit in two basic parts:
+This is a simple circuit in two basic parts:
 
 * a 455 kHz crystal-locked oscillator providing the carrier
 * an RC astable multivibrator running at an audible frequency that is used to modulate the carrier
@@ -30,13 +30,19 @@ The circuit works across a wide voltage range (from about 3V and up).
 
 ![Schematic](./assets/CrystalLocked455kHzModulated_schematic.jpg?raw=true)
 
-The frequency of the audio signal is determined by the values of R2, R3, C1 and C2 (making R2==R3, and C1==C2 maintains ~50% duty cycle).
+The frequency of the audio signal is determined by the values of R1, R2, C1 and C2 (making R1==R2, and C1==C2 maintains ~50% duty cycle).
 With R1 = R2 = 33kHz, possible values of C1/C2 include:
 
-| C1, C2 | Measure Frequency | Note |
-|--------|-------------------|------|
-| 47nF   | 410Hz             | As used in the original and many derivative designs |
-| 22nF   | 1.0kHz            | What I decided to use |
+| C1, C2 | Predicted Frequency | Measured Frequency | Note |
+|--------|---------------------|--------------------|------|
+| 47nF   | [465Hz](https://www.wolframalpha.com/input/?i=1%2F(ln(2)(+2+*+33k%CE%A9+*+47nF))) | 410Hz  | As used in the original and many derivative designs |
+| 22nF   | [994Hz](https://www.wolframalpha.com/input/?i=1%2F(ln(2)(+2+*+33k%CE%A9+*+22nF))) | 1.0kHz | What I decided to use |
+
+The predicted frequency is calculated by:
+
+    f = 1/(ln(2) * ( R1 * C1 + R2 * C2))
+
+See [LEAP#049](../../RCOscillator) for more on the RC oscillator design.
 
 ## Breadboard Build
 
