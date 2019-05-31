@@ -2349,7 +2349,7 @@
         "title": "MotorControlPWM"
     }, 
     "/Kraft/WyLed/": {
-        "summary": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
+        "summary": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
         "id": 483, 
         "tags": [
             "Arduino", 
@@ -3992,6 +3992,15 @@
             "Solenoid"
         ], 
         "title": "SolenoidMotor"
+    }, 
+    "/Electronics101/Oscillators/CrystalLocked455kHzModulated/": {
+        "summary": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment", 
+        "id": 484, 
+        "tags": [
+            "Radio", 
+            "Oscillators"
+        ], 
+        "title": "Crystal-Locked 455 kHz AM Oscillator"
     }, 
     "/Electronics101/555Timer/Dice/": {
         "summary": "a 555/4017-based dice circuit with slow-down and auto power-off", 

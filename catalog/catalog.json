@@ -1,6 +1,13 @@
 [
     {
-        "description": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
+        "description": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment", 
+        "relative_path": "Electronics101/Oscillators/CrystalLocked455kHzModulated", 
+        "id": "#484", 
+        "categories": "Radio, Oscillators", 
+        "name": "Crystal-Locked 455 kHz AM Oscillator"
+    }, 
+    {
+        "description": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
         "relative_path": "Kraft/WyLed", 
         "id": "#483", 
         "categories": "Arduino, ATmel, LED, TM1638", 

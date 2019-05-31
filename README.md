@@ -1,6 +1,6 @@
-# 483 Little Electronics and Arduino Projects
+# 484 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [WyLed](./Kraft/WyLed) - .. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.
+> Latest addition:sparkles: [ Crystal-Locked 455 kHz AM Oscillator](./Electronics101/Oscillators/CrystalLocked455kHzModulated) - crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
