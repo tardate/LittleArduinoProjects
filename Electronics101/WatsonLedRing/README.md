@@ -1,4 +1,4 @@
-# #164 WatsonLedRing
+# #164 Watson LED Ring
 
 Test a Watson 3-LED Ring oscillator.
 
@@ -33,13 +33,12 @@ Here's a quick video of the circuit running on a breadboard:
 
 [![WatsonLedRing](https://img.youtube.com/vi/Guscsbysltw/0.jpg)](https://www.youtube.com/watch?v=Guscsbysltw)
 
-
 ## Running at 3V
 
 Since 5V is a bit inconvenient to package, it's possible to run off a lower voltage by adding 22kΩ resistors in parallel with the LEDs.
 It also helps to switch to LEDs with a lower forward voltage.
 
-I tested a this configuration with green LEDs, I was able to get it running very nicely on a 3V coin cell.
+I tested this configuration with green LEDs, and was able to get it running very nicely on a 3V coin cell.
 
 ![Breadboard](./assets/WatsonLedRing3V_bb.jpg?raw=true)
 
@@ -51,9 +50,7 @@ Here's a quick video of the 3V circuit running on a breadboard:
 
 [![WatsonLedRing](https://img.youtube.com/vi/AgwLT4MlFh8/0.jpg)](https://www.youtube.com/watch?v=AgwLT4MlFh8)
 
-
 ## Freeform Build
-
 
 This is a quick freeform build that arranges the 3-LED ring in a circular frame that holds a CR2032 coin cell
 
@@ -68,3 +65,4 @@ Here's a quick video of the circuit in action:
 ## Credits and References
 
 * [Watson’s 3 LED Ring Oscillator](http://rustybolt.info/wordpress/?p=664) - blog post describing the original circuit
+* [Ring oscillator](https://en.wikipedia.org/wiki/Ring_oscillator) - wikipedia
