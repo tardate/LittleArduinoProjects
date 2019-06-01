@@ -3046,10 +3046,10 @@
     }, 
     {
         "description": "simple RC/transistor multistable vibrator", 
-        "relative_path": "Electronics101/RCOscillator", 
+        "relative_path": "Electronics101/Oscillators/BjtRcOscillator", 
         "id": "#049", 
         "categories": "BJT, RC, Oscillators", 
-        "name": "RCOscillator"
+        "name": "BJT RC Oscillator"
     }, 
     {
         "description": "demo an interrupt-driven method for responding to LDR light threshold triggers", 

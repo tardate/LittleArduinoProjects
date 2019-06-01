@@ -1809,16 +1809,6 @@
         ], 
         "title": "BluePill"
     }, 
-    "/Electronics101/RCOscillator/": {
-        "summary": "simple RC/transistor multistable vibrator", 
-        "id": 49, 
-        "tags": [
-            "BJT", 
-            "RC", 
-            "Oscillators"
-        ], 
-        "title": "RCOscillator"
-    }, 
     "/Electronics101/AudioAmps/Smokey/": {
         "summary": "quick build of a Smokey-like LM386 guitar power amp", 
         "id": 96, 
@@ -3572,6 +3562,16 @@
             "OpAmp"
         ], 
         "title": "Comparator741"
+    }, 
+    "/Electronics101/Oscillators/BjtRcOscillator/": {
+        "summary": "simple RC/transistor multistable vibrator", 
+        "id": 49, 
+        "tags": [
+            "BJT", 
+            "RC", 
+            "Oscillators"
+        ], 
+        "title": "BJT RC Oscillator"
     }, 
     "/Radio/AM/SimpleCrystalTransmitter/": {
         "summary": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator", 

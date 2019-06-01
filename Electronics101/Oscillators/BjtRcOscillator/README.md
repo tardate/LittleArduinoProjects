@@ -1,13 +1,12 @@
-# #049 RCOscillator
+# #049 BJT RC Oscillator
 
 Demonstrates a simple RC/transistor multistable vibrator
 
-![The Build](./assets/RCOscillator_build.jpg?raw=true)
+![The Build](./assets/BjtRcOscillator_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
-[![RCOscillator](https://img.youtube.com/vi/OeX0hf5fvPA/0.jpg)](https://www.youtube.com/watch?v=OeX0hf5fvPA)
-
+[![BjtRcOscillator](https://img.youtube.com/vi/OeX0hf5fvPA/0.jpg)](https://www.youtube.com/watch?v=OeX0hf5fvPA)
 
 ## Notes
 
@@ -29,9 +28,9 @@ NB: I'm using S9013 but any small-signal NPN transistors will do.
 
 ## Construction
 
-![The Breadboard](./assets/RCOscillator_bb.jpg?raw=true)
+![The Breadboard](./assets/BjtRcOscillator_bb.jpg?raw=true)
 
-![The Schematic](./assets/RCOscillator_schematic.jpg?raw=true)
+![The Schematic](./assets/BjtRcOscillator_schematic.jpg?raw=true)
 
 ## Credits and References
 

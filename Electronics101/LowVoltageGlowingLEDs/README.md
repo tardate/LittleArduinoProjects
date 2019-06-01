@@ -13,8 +13,8 @@ So for another project I wanted some "glowing" LEDs, ideally powered from a sing
 That seemed like an interesting challenge, especially when the forward voltage of the LEDs I'm using is about 2.1V.
 
 I had a feeling I could cobble together a couple of ideas from other projects to get something going:
-* [RelaxationJouleThief](../RelaxationJouleThief) uses an inductor to pump an LED-driving voltage from a 1.5 cell
-* [RCOscillator](../RCOscillator) demonstrates the basic BJT-RC astable oscillator
+* [LEAP#129 RelaxationJouleThief](../RelaxationJouleThief) uses an inductor to pump an LED-driving voltage from a 1.5 cell
+* [LEAP#049 BJT RC Oscillator](../Oscillators/BjtRcOscillator) demonstrates the basic BJT-RC astable oscillator
 
 And it works! I've made a couple of modifications to the circuit along the way to get the result I wanted:
 * a diode and capacitor to couple the output of the voltage boost circuit and provide a stiffer though still load-dependent supply
@@ -22,7 +22,7 @@ And it works! I've made a couple of modifications to the circuit along the way t
 
 ### Boost Power Supply
 
-This is based on the [RelaxationJouleThief](../RelaxationJouleThief) circuit.
+This is based on the [LEAP#129 RelaxationJouleThief](../RelaxationJouleThief) circuit.
 
 I've added a diode on the output to prevent any of the negative voltage swings passing through.
 I used a 1N5819 because it has very low forward voltage drop. A 1N4148 also works.
@@ -48,7 +48,7 @@ Here's the power supply as built on a protoboard:
 
 ### "Glowing" Oscillator
 
-The [RCOscillator](../RCOscillator) circuit oscillates between two LED outputs. But it is a harsh transition.
+The [LEAP#049 BJT RC Oscillator](../Oscillators/BjtRcOscillator) circuit oscillates between two LED outputs. But it is a harsh transition.
 I really wanted two LEDS that oscillated in a much gentler fashion - "glowing" on and off.
 
 First step was just to get the basic oscillator working with the boost supply. Parts are a little bit critical.
@@ -106,6 +106,6 @@ This is the protoboard layout:
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
-* [RCOscillator](../RCOscillator) project
-* [RelaxationJouleThief](../RelaxationJouleThief) project
+* [LEAP#049 BJT RC Oscillator](../Oscillators/BjtRcOscillator) project
+* [LEAP#129 RelaxationJouleThief](../RelaxationJouleThief) project
 

@@ -42,7 +42,7 @@ The predicted frequency is calculated by:
 
     f = 1/(ln(2) * ( R1 * C1 + R2 * C2))
 
-See [LEAP#049](../../RCOscillator) for more on the RC oscillator design.
+See [LEAP#049](../BjtRcOscillator) for more on the RC oscillator design.
 
 ## Breadboard Build
 

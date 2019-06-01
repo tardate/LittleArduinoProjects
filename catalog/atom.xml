@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-05-31T13:59:20Z</updated>
+  <updated>2019-06-01T02:53:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzModulated/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzModulated/"/>
-    <updated>2019-05-31T13:53:32Z</updated>
+    <updated>2019-05-31T14:21:04Z</updated>
     <title>#484 Crystal-Locked 455 kHz AM Oscillator</title>
     <summary>crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzModulated/assets/CrystalLocked455kHzModulated_build.jpg</g:image_link>
@@ -4483,12 +4483,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/RCOscillator/</id>
-    <link href="https://leap.tardate.com/Electronics101/RCOscillator/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/BjtRcOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/BjtRcOscillator/"/>
     <updated>2015-04-04T02:21:41Z</updated>
-    <title>#049 RCOscillator</title>
+    <title>#049 BJT RC Oscillator</title>
     <summary>simple RC/transistor multistable vibrator</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/RCOscillator/assets/RCOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/BjtRcOscillator/assets/BjtRcOscillator_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RC"/>
     <category term="Oscillators"/>
