@@ -813,7 +813,7 @@
     }, 
     {
         "description": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?", 
-        "relative_path": "playground/GranularSynth", 
+        "relative_path": "Audio/GranularSynth", 
         "id": "#368", 
         "categories": "Audio, Arduino", 
         "name": "GranularSynth"

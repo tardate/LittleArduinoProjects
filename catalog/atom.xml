@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-06-01T02:53:42Z</updated>
+  <updated>2019-06-01T03:33:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1216,12 +1216,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/playground/GranularSynth/</id>
-    <link href="https://leap.tardate.com/playground/GranularSynth/"/>
+    <id>https://leap.tardate.com/Audio/GranularSynth/</id>
+    <link href="https://leap.tardate.com/Audio/GranularSynth/"/>
     <updated>2018-01-07T02:16:27Z</updated>
     <title>#368 GranularSynth</title>
     <summary>building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?</summary>
-    <g:image_link>https://leap.tardate.com/playground/GranularSynth/assets/GranularSynth_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/GranularSynth/assets/GranularSynth_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="Arduino"/>
   </entry>

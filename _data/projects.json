@@ -1388,15 +1388,6 @@
         ], 
         "title": "LEDChaser"
     }, 
-    "/playground/GranularSynth/": {
-        "summary": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?", 
-        "id": 368, 
-        "tags": [
-            "Audio", 
-            "Arduino"
-        ], 
-        "title": "GranularSynth"
-    }, 
     "/playground/HitTheLights/": {
         "summary": "simple LED game with LCD output and interrupt-driven button input", 
         "id": 43, 
@@ -1538,6 +1529,15 @@
             "Human Input"
         ], 
         "title": "KeyboardMatrixModule"
+    }, 
+    "/Audio/GranularSynth/": {
+        "summary": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?", 
+        "id": 368, 
+        "tags": [
+            "Audio", 
+            "Arduino"
+        ], 
+        "title": "GranularSynth"
     }, 
     "/Electronics101/AudioEffects/CANary/": {
         "summary": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture", 
