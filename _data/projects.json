@@ -3166,7 +3166,7 @@
         "tags": [
             "Oscillators"
         ], 
-        "title": "WatsonLedRing"
+        "title": "Watson LED Ring"
     }, 
     "/playground/CapacitiveTouchOrgan/": {
         "summary": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino", 
