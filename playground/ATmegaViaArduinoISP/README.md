@@ -70,7 +70,7 @@ If the board is already powered, it should not be connected.
 
 Whether the target host can or should be powered via the header depends largely on the design of target circuit.
 
-Here's a circuit (actually [LEAP#368 GranularSynth](../GranularSynth)) being programmed via an ICSP header:
+Here's a circuit (actually [LEAP#368 GranularSynth](../../Audio/GranularSynth)) being programmed via an ICSP header:
 
 ![programming_via_icsp](./assets/programming_via_icsp.jpg?raw=true)
 

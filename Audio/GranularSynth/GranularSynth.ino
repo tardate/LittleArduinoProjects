@@ -1,7 +1,7 @@
 /*
 
   GranularSynth
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/GranularSynth
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Audio/GranularSynth
 
   Based on Auduino, the Lo-Fi granular synthesiser
   by Peter Knight, Tinker.it http://tinker.it
