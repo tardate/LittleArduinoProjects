@@ -201,3 +201,5 @@ fit on a standard breadboard (only one side of the board will have space to conn
 * [The Complete ESP32 Projects Guide](https://www.goodreads.com/book/show/47562312-the-complete-esp32-projects-guide) by Dogan Ibrahim
 * [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/) - excellent resource by lastminuteengineers
 * [Arduino core for the ESP32](https://github.com/espressif/arduino-esp32) - GitHub
+* [Getting started with ESP32 and the Arduino IDE](https://www.elektormagazine.com/magazine/elektor-201707/40510) - elektormagazine
+* [ESP32 for Power Users - Native programming](https://www.elektormagazine.com/magazine/elektor-201709/40717) - elektormagazine

@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-29T05:38:36Z</updated>
+  <updated>2019-10-15T15:34:25Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/playground/RFID/Concentration/</id>
+    <link href="https://leap.tardate.com/playground/RFID/Concentration/"/>
+    <updated>2019-10-15T15:33:42Z</updated>
+    <title>#500 RFID Concentration Game</title>
+    <summary>Play a game of Concentration/Pairs with a stack of MIFARE Classic cards</summary>
+    <g:image_link>https://leap.tardate.com/playground/RFID/Concentration/assets/Concentration_build.jpg</g:image_link>
+    <category term="RFID"/>
+    <category term="Arduino"/>
+    <category term="Boldport"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/Amplified/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/HS088/Amplified/"/>
-    <updated>2019-09-29T04:41:20Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#499 HS088 Low-voltage Amplifier</title>
     <summary>adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/Amplified/assets/Amplified_build.jpg</g:image_link>
@@ -24,7 +36,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/</id>
     <link href="https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/"/>
-    <updated>2019-09-21T15:29:38Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#498 Tesla Coil Plasma Speaker Kit</title>
     <summary>playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/assets/MusicalKit_build.jpg</g:image_link>
@@ -35,7 +47,7 @@
   <entry>
     <id>https://leap.tardate.com/ESP32/PublishingInternals/</id>
     <link href="https://leap.tardate.com/ESP32/PublishingInternals/"/>
-    <updated>2019-09-18T18:27:45Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#497 Publishing Internals</title>
     <summary>Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization</summary>
     <g:image_link>https://leap.tardate.com/ESP32/PublishingInternals/assets/PublishingInternals_build.jpg</g:image_link>
@@ -47,7 +59,7 @@
   <entry>
     <id>https://leap.tardate.com/ESP32/GettingStarted/</id>
     <link href="https://leap.tardate.com/ESP32/GettingStarted/"/>
-    <updated>2019-09-16T15:25:24Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#496 ESP32 Getting Started</title>
     <summary>Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example</summary>
     <g:image_link>https://leap.tardate.com/ESP32/GettingStarted/assets/GettingStarted_build.jpg</g:image_link>
@@ -816,7 +828,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/SDR/LimeSDR/FirstLook/</id>
     <link href="https://leap.tardate.com/Radio/SDR/LimeSDR/FirstLook/"/>
-    <updated>2018-10-10T11:56:00Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#421 LimeSDR First Look</title>
     <summary>unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host</summary>
     <g:image_link>https://leap.tardate.com/Radio/SDR/LimeSDR/FirstLook/assets/FirstLook_build.jpg</g:image_link>
@@ -1314,7 +1326,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/PX835/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/PX835/"/>
-    <updated>2018-01-22T06:17:45Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#373 PX835 Audio Effects Chip</title>
     <summary>figuring out how to use the PX835 &quot;16 Kind of Sound Doorbell Chip&quot; music chip</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/PX835/assets/PX835_build.jpg</g:image_link>
@@ -1428,7 +1440,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/H83A/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/H83A/"/>
-    <updated>2017-12-24T18:46:29Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#362 H83A Audio Effects Chip</title>
     <summary>figuring out how to use the H-83A &quot;12 songs&quot; music chip</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/H83A/assets/H83A_build.jpg</g:image_link>
@@ -1459,7 +1471,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/HS088/"/>
-    <updated>2017-12-21T15:12:21Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#359 HS088 Audio Effects Chip</title>
     <summary>figuring out the HS088 &quot;Ding Dong&quot; audio effects chip</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/assets/HS088_build.jpg</g:image_link>
@@ -1490,7 +1502,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/PX088A/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/PX088A/"/>
-    <updated>2017-12-14T11:57:58Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#356 PX088A Audio Effects Chip</title>
     <summary>figuring out how to use the PX088A &quot;Für Elise&quot; music chip</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/PX088A/assets/PX088A_build.jpg</g:image_link>
@@ -1531,7 +1543,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/SDR/DecodingACARS/</id>
     <link href="https://leap.tardate.com/Radio/SDR/DecodingACARS/"/>
-    <updated>2017-10-29T07:37:36Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#352 Decoding ACARS</title>
     <summary>decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/Radio/SDR/DecodingACARS/assets/DecodingACARS_build.jpg</g:image_link>
@@ -1541,7 +1553,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/SDR/RtlSdrDongle/</id>
     <link href="https://leap.tardate.com/Radio/SDR/RtlSdrDongle/"/>
-    <updated>2017-10-29T07:37:36Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#351 RTL-SDR Dongle</title>
     <summary>getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)</summary>
     <g:image_link>https://leap.tardate.com/Radio/SDR/RtlSdrDongle/assets/RtlSdrDongle_build.jpg</g:image_link>
@@ -2147,7 +2159,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/H823/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/H823/"/>
-    <updated>2017-02-17T17:16:02Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#292 H823 Audio Effects Chip</title>
     <summary>figuring out how to use the H823 &quot;Happy Birthday&quot; music chip</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/H823/assets/H823_build.jpg</g:image_link>
@@ -4483,7 +4495,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/LPD433/RFSwitchASK/</id>
     <link href="https://leap.tardate.com/Radio/LPD433/RFSwitchASK/"/>
-    <updated>2015-06-04T13:47:48Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#064 ASK RF Switch</title>
     <summary>data communications using ASK protocol over 433Mhz RF transmitter and receiver set</summary>
     <g:image_link>https://leap.tardate.com/Radio/LPD433/RFSwitchASK/assets/RFSwitchASK_build.jpg</g:image_link>
@@ -4495,7 +4507,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/LPD433/RFSwitch/</id>
     <link href="https://leap.tardate.com/Radio/LPD433/RFSwitch/"/>
-    <updated>2015-06-04T13:47:48Z</updated>
+    <updated>2019-09-29T13:47:06Z</updated>
     <title>#063 RFSwitch</title>
     <summary>simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing</summary>
     <g:image_link>https://leap.tardate.com/Radio/LPD433/RFSwitch/assets/RFSwitch_build.jpg</g:image_link>

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Play a game of Concentration/Pairs with a stack of MIFARE Classic cards", 
+        "relative_path": "playground/RFID/Concentration", 
+        "id": "#500", 
+        "categories": "RFID, Arduino, Boldport, LED", 
+        "name": "RFID Concentration Game"
+    }, 
+    {
         "description": "adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip", 
         "relative_path": "Audio/AudioEffectsChips/HS088/Amplified", 
         "id": "#499", 

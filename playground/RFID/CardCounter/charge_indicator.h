@@ -56,7 +56,6 @@ class ChargeIndicator {
      */
     void hello();
 
-    //
     /**
      * Flash a specific pin
      */

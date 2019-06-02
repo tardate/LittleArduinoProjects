@@ -1,6 +1,6 @@
-# 499 Little Electronics and Arduino Projects
+# 500 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [HS088 Low-voltage Amplifier](./Audio/AudioEffectsChips/HS088/Amplified) - adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip.
+> Latest addition:sparkles: [RFID Concentration Game](./playground/RFID/Concentration) - play a game of Concentration/Pairs with a stack of MIFARE Classic cards.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
