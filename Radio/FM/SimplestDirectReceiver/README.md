@@ -39,9 +39,9 @@ Many variations of this ciruit are available around the web, often with the addi
 such as [this design](https://electronicsforu.com/electronics-projects/simple-fm-receiver)
 on electronicsforu.
 
-There are a number of Youtube videos of builds, demonstrating a wide degree of success.
+There are a number of YouTube videos of builds, demonstrating a wide degree of success.
 
-One of the first very impressive results I found was "How to make FM Radio receiver at home" by RJ Imagination:
+One of the first I found that demonstrated decent results was "How to make FM Radio receiver at home" by RJ Imagination:
 
 [![clip](https://img.youtube.com/vi/ljNVseTkQs4/0.jpg)](https://www.youtube.com/watch?v=ljNVseTkQs4)
 
@@ -52,7 +52,6 @@ Great Scott built a version but didn't get great results:
 The best version I've seen is perhaps the build by Lechoslowianin, "Proste radio FM jak zrobić":
 
 [![clip](https://img.youtube.com/vi/t3RExWNuqRI/0.jpg)](https://www.youtube.com/watch?v=t3RExWNuqRI)
-
 
 ## Construction
 
@@ -81,15 +80,15 @@ If the signal is weak and there is no selectivity:
 
 I finally started to get good results with a 4 turn, 17mm diameter coil of 0.4mm enamelled wire.
 According to my LCR meter, this measures at around 0.55µH - much higher than the ~0.1µH
-I was getting with the  coil I wound according to original instructions.
+I was getting with the coil I wound according to original instructions.
 
 Given the variable capacitor I'm using ranges from about 5pF to 22pF,
 that theoretically gives me a tuning range of
 [45.8 MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(0.55%C2%B5H*22pF)))
 to
-[96.0 MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(0.55%C2%B5H*5pF))).
-That's a bit on the low side for the braodcast FM range, but I'll have a shot at shifting the range
-later (probably drop one turn from the coil).
+[96.0 MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(0.55%C2%B5H*5pF)))
+(that's a bit on the low side for the braodcast FM range, but I'll have a shot at shifting the range
+later).
 
 That corresponds to the performance I'm seeing - able to pick up all stations up to around 97.4 MHz very clearly.
 
@@ -100,7 +99,7 @@ some have it in parallel going to the positive rail.
 I tried both combinations, with the final "good" circuit using the parallel arrangement (maybe it would work just as well going to ground, but I haven't testing it).
 
 
-Even though I have relatively strong FM broadcast singals in my area, I found an antenna indispensible.
+Even though I have relatively strong FM broadcast signals in my area, I found an antenna indispensible.
 I added 60cm of random wire, with a 10pF coupling capacitor.
 
 One other variation in my circuit was the choice of transistor.
@@ -125,7 +124,7 @@ The layout I used for the protoboard build:
 ![protoboard_layout](./assets/protoboard_layout.jpg?raw=true)
 
 Under test.. the variable capacitor is good for rough adjustment but for fine control it
-is much easier to adjustthe inductor with a bit of ferrite core.
+is much easier to adjust the inductor with a bit of ferrite core.
 
 ![SimplestDirectReceiver_test](./assets/SimplestDirectReceiver_test.jpg?raw=true)
 
@@ -135,3 +134,4 @@ is much easier to adjustthe inductor with a bit of ferrite core.
 * [3.15.2 The Simplest FM Receiver with Audio Amplifier](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/the-simplest-fm-receiver-with-audio-amplifier) - Radio Receivers, from crystal set to stereo
 * [Simple FM Receiver](https://electronicsforu.com/electronics-projects/simple-fm-receiver) - electronicsforu
 * [Small FM Radio Circuit](https://www.electroschematics.com/5150/tiny-fm-radio/)
+* [Lechoslowianin, "Proste radio FM jak zrobić"](https://www.youtube.com/watch?v=t3RExWNuqRI)
