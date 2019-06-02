@@ -8,8 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/jYyZfDl8ZHY/0.jpg)](https://www.youtube.com/watch?v=jYyZfDl8ZHY)
 
-[:arrow_forward: return to the LEAP Catalog](https://leap.tardate.com)
-
 ## Notes
 
 I've actually had "build a simple FM receiver" in my WIP bucket for years (literally).
