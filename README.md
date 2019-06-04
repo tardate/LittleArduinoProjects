@@ -1,6 +1,6 @@
-# 484 Little Electronics and Arduino Projects
+# 485 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ Crystal-Locked 455 kHz AM Oscillator](./Electronics101/Oscillators/CrystalLocked455kHzModulated) - crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment.
+> Latest addition:sparkles: [RFID Card Counter](./playground/RFID/CardCounter) - simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

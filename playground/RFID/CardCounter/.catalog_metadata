@@ -1,0 +1,7 @@
+{
+    "id": "#485",
+    "name": "RFID Card Counter",
+    "description": "Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards",
+    "categories": "RFID, Arduino",
+    "relative_path": "playground/RFID/CardCounter"
+}

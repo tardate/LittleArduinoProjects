@@ -815,6 +815,15 @@
         ], 
         "title": "MCP23S17"
     }, 
+    "/playground/RFID/CardCounter/": {
+        "summary": "Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards", 
+        "id": 485, 
+        "tags": [
+            "RFID", 
+            "Arduino"
+        ], 
+        "title": "RFID Card Counter"
+    }, 
     "/BoldportClub/cordwood-too/FidgetCube/": {
         "summary": "making a Fidget Cube controller for the Boldport Cordwood Too", 
         "id": 322, 
@@ -1964,16 +1973,15 @@
         ], 
         "title": "RelayControlTest"
     }, 
-    "/Equipment/USBProtector/": {
-        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
-        "id": 400, 
+    "/BoldportClub/capacimeter/": {
+        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
+        "id": 447, 
         "tags": [
-            "Power", 
-            "USB", 
+            "Boldport", 
             "Tools", 
             "Test Equipment"
         ], 
-        "title": "USBProtector"
+        "title": "BoldportClub/capacimeter"
     }, 
     "/playground/AvrHardwarePWM/": {
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
@@ -2552,9 +2560,10 @@
         "summary": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags", 
         "id": 438, 
         "tags": [
-            "RFID"
+            "RFID", 
+            "Arduino"
         ], 
-        "title": "RFID/DeviceDumper"
+        "title": "RFID Device Dumper"
     }, 
     "/playground/Audio/SimpleSamplePlayer/": {
         "summary": "playing short audio samples on an Arduino using some PWM tricks from the PCM library", 
@@ -2784,15 +2793,16 @@
         ], 
         "title": "BJT White Noise Generator"
     }, 
-    "/BoldportClub/capacimeter/": {
-        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
-        "id": 447, 
+    "/Equipment/USBProtector/": {
+        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
+        "id": 400, 
         "tags": [
-            "Boldport", 
+            "Power", 
+            "USB", 
             "Tools", 
             "Test Equipment"
         ], 
-        "title": "BoldportClub/capacimeter"
+        "title": "USBProtector"
     }, 
     "/Electronics101/UltrasonicAlarm/": {
         "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 

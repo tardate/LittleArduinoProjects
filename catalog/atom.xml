@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-06-01T17:10:37Z</updated>
+  <updated>2019-06-05T07:18:14Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/RFID/CardCounter/</id>
+    <link href="https://leap.tardate.com/playground/RFID/CardCounter/"/>
+    <updated>2019-06-05T07:14:26Z</updated>
+    <title>#485 RFID Card Counter</title>
+    <summary>Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards</summary>
+    <g:image_link>https://leap.tardate.com/playground/RFID/CardCounter/assets/CardCounter_build.jpg</g:image_link>
+    <category term="RFID"/>
+    <category term="Arduino"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzModulated/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzModulated/"/>
@@ -496,10 +506,11 @@
     <id>https://leap.tardate.com/playground/RFID/DeviceDumper/</id>
     <link href="https://leap.tardate.com/playground/RFID/DeviceDumper/"/>
     <updated>2019-01-01T04:55:02Z</updated>
-    <title>#438 RFID/DeviceDumper</title>
+    <title>#438 RFID Device Dumper</title>
     <summary>getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags</summary>
     <g:image_link>https://leap.tardate.com/playground/RFID/DeviceDumper/assets/DeviceDumper_build.jpg</g:image_link>
     <category term="RFID"/>
+    <category term="Arduino"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/LedDrivers/QX5252JouleThief/</id>
@@ -1218,7 +1229,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/GranularSynth/</id>
     <link href="https://leap.tardate.com/Audio/GranularSynth/"/>
-    <updated>2018-01-07T02:16:27Z</updated>
+    <updated>2019-06-02T04:21:51Z</updated>
     <title>#368 GranularSynth</title>
     <summary>building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?</summary>
     <g:image_link>https://leap.tardate.com/Audio/GranularSynth/assets/GranularSynth_build.jpg</g:image_link>
@@ -3338,7 +3349,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/WatsonLedRing/</id>
     <link href="https://leap.tardate.com/Electronics101/WatsonLedRing/"/>
-    <updated>2019-06-01T17:04:27Z</updated>
+    <updated>2019-06-02T04:21:51Z</updated>
     <title>#164 Watson LED Ring</title>
     <summary>test a Watson 3-LED Ring oscillator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/WatsonLedRing/assets/WatsonLedRing_build.jpg</g:image_link>
@@ -4485,7 +4496,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/BjtRcOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/BjtRcOscillator/"/>
-    <updated>2015-04-04T02:21:41Z</updated>
+    <updated>2019-06-02T04:21:51Z</updated>
     <title>#049 BJT RC Oscillator</title>
     <summary>simple RC/transistor multistable vibrator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/BjtRcOscillator/assets/BjtRcOscillator_build.jpg</g:image_link>

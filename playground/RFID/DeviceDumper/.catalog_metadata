@@ -1,7 +1,7 @@
 {
-    "id": "#438", 
-    "name": "RFID/DeviceDumper", 
-    "description": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags", 
-    "categories": "RFID", 
+    "id": "#438",
+    "name": "RFID Device Dumper",
+    "description": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags",
+    "categories": "RFID, Arduino",
     "relative_path": "playground/RFID/DeviceDumper"
 }

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards", 
+        "relative_path": "playground/RFID/CardCounter", 
+        "id": "#485", 
+        "categories": "RFID, Arduino", 
+        "name": "RFID Card Counter"
+    }, 
+    {
         "description": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment", 
         "relative_path": "Electronics101/Oscillators/CrystalLocked455kHzModulated", 
         "id": "#484", 
@@ -325,8 +332,8 @@
         "description": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags", 
         "relative_path": "playground/RFID/DeviceDumper", 
         "id": "#438", 
-        "categories": "RFID", 
-        "name": "RFID/DeviceDumper"
+        "categories": "RFID, Arduino", 
+        "name": "RFID Device Dumper"
     }, 
     {
         "description": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery", 
