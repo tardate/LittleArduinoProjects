@@ -65,10 +65,10 @@ I won't bother with a sophistocated user interface, simply:
 
 ## Structuring the Code
 
-See [CardCounter.ino](./CardCounter.ino) for the main applicaiton. I've split the code into some supporting classes:
+See [CardCounter.ino](./CardCounter.ino) for the main application. I've split the code into some supporting classes:
 
 * card_interface - encapsulates communication with the reader
-* charge_controller - manages the logic for deciding what to do with a card that is presented
+* charge_indicator - manages the charge/card control indicator LEDs
 
 ## Construction
 

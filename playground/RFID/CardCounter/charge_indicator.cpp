@@ -1,7 +1,7 @@
-#include "charge_controller.h"
+#include "charge_indicator.h"
 
 
-ChargeController::ChargeController(int reset_led_pin, int recharge_led_pin, int deduct_led_pin) {
+ChargeIndicator::ChargeIndicator(int reset_led_pin, int recharge_led_pin, int deduct_led_pin) {
   this->reset_led_pin = reset_led_pin;
   this->recharge_led_pin = recharge_led_pin;
   this->deduct_led_pin = deduct_led_pin;
@@ -9,7 +9,7 @@ ChargeController::ChargeController(int reset_led_pin, int recharge_led_pin, int 
 }
 
 
-void ChargeController::begin() {
+void ChargeIndicator::begin() {
   pinMode(reset_led_pin, OUTPUT);
   pinMode(recharge_led_pin, OUTPUT);
   pinMode(deduct_led_pin, OUTPUT);
@@ -17,25 +17,25 @@ void ChargeController::begin() {
 }
 
 
-void ChargeController::start_charge() {
+void ChargeIndicator::start_charge() {
   end_state_delay = CHARGE_DELAY;
   digitalWrite(recharge_led_pin, HIGH);
 }
 
 
-void ChargeController::start_reset() {
+void ChargeIndicator::start_reset() {
   end_state_delay = RESET_DELAY;
   digitalWrite(reset_led_pin, HIGH);
 }
 
 
-void ChargeController::start_deduct() {
+void ChargeIndicator::start_deduct() {
   end_state_delay = DEDUCT_DELAY;
   digitalWrite(deduct_led_pin, HIGH);
 }
 
 
-void ChargeController::end_state() {
+void ChargeIndicator::end_state() {
   delay(end_state_delay);
   end_state_delay = DEFAULT_DELAY;
   digitalWrite(reset_led_pin, LOW);
@@ -44,7 +44,7 @@ void ChargeController::end_state() {
 }
 
 
-void ChargeController::hello() {
+void ChargeIndicator::hello() {
   int duration = 100;
   flash(reset_led_pin, duration);
   flash(recharge_led_pin, duration);
@@ -52,7 +52,7 @@ void ChargeController::hello() {
 }
 
 
-void ChargeController::flash(int pin, int duration) {
+void ChargeIndicator::flash(int pin, int duration) {
   digitalWrite(pin, HIGH);
   delay(duration);
   digitalWrite(pin, LOW);

@@ -1,6 +1,6 @@
 /*
 
-  Implements charging/card control logic, and drives the indicator LEDs.
+  Controls charging/card control indicator LEDs.
 
 */
 
@@ -13,11 +13,11 @@ const int CHARGE_DELAY = 2000;
 const int RESET_DELAY = 2000;
 const int DEDUCT_DELAY = 200;
 
-class ChargeController {
+class ChargeIndicator {
 
   public:
 
-    ChargeController(int reset_led_pin, int recharge_led_pin, int deduct_led_pin);
+    ChargeIndicator(int reset_led_pin, int recharge_led_pin, int deduct_led_pin);
 
     /**
      * Initializes indictor LEDs

@@ -8,7 +8,7 @@
  */
 
 #include "card_interface.h"
-#include "charge_controller.h"
+#include "charge_indicator.h"
 
 const int RED_LED_PIN    = 5;
 const int GREEN_LED_PIN  = 6;
@@ -23,7 +23,7 @@ MFRC522::MIFARE_Key key = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff}; // factory defau
 
 CardInterface card(&mfrc522, &key);
 
-ChargeController charger(RED_LED_PIN, GREEN_LED_PIN, YELLOW_LED_PIN);
+ChargeIndicator charger(RED_LED_PIN, GREEN_LED_PIN, YELLOW_LED_PIN);
 
 
 /**
