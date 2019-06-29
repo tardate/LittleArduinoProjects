@@ -46,4 +46,5 @@
 * [Max Robinson's Fun With Transistors](http://www.funwithtransistors.net/)
 * [Model Railroad & Misc. Electronics](http://www.circuitous.ca/CircuitIndex.html)
 * [N5ESE's Ham Radio Page](http://www.n5ese.com/)
+* [Radio Frequency Schematics](http://rf-circuit-schematic.blogspot.com/)
 * [www.changpuak.ch](https://www.changpuak.ch/electronics/index.php) - An archive of useful, funny and educational projects
