@@ -22,6 +22,21 @@ One important point to note if you are copying code from the article:
 
 > The declaration and implementation of a function template have to be in a header file
 
+With Arduino IDE 1.8.2, I get a compiler error like this if I try and put templates in the main sketch file:
+
+    UsingTemplates:12: error: variable or field 'circularShift' declared void
+     void circularShift(Value &value) {
+                        ^
+    UsingTemplates:12: error: 'Value' was not declared in this scope
+    UsingTemplates:12: error: 'value' was not declared in this scope
+     void circularShift(Value &value) {
+                               ^
+    exit status 1
+    variable or field 'circularShift' declared void
+
+Putting the template in a header file fixes this.
+Also, Arduino IDE 1.8.9 does not have this issue - it can compile templates in the sketch file.
+
 ### Test Run
 
 From the console, the first iterations checkout - correct right shift on both values (should improve this to include leading 0s in the output)
