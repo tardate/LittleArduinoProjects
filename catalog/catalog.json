@@ -1,5 +1,12 @@
 [
     {
+        "description": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "relative_path": "playground/UsingTemplates", 
+        "id": "#486", 
+        "categories": "Arduino, C++", 
+        "name": "Using C++ Templates"
+    }, 
+    {
         "description": "Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards", 
         "relative_path": "playground/RFID/CardCounter", 
         "id": "#485", 

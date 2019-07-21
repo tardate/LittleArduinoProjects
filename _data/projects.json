@@ -1973,15 +1973,16 @@
         ], 
         "title": "RelayControlTest"
     }, 
-    "/BoldportClub/capacimeter/": {
-        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
-        "id": 447, 
+    "/Equipment/USBProtector/": {
+        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
+        "id": 400, 
         "tags": [
-            "Boldport", 
+            "Power", 
+            "USB", 
             "Tools", 
             "Test Equipment"
         ], 
-        "title": "BoldportClub/capacimeter"
+        "title": "USBProtector"
     }, 
     "/playground/AvrHardwarePWM/": {
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
@@ -2793,16 +2794,15 @@
         ], 
         "title": "BJT White Noise Generator"
     }, 
-    "/Equipment/USBProtector/": {
-        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection", 
-        "id": 400, 
+    "/BoldportClub/capacimeter/": {
+        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
+        "id": 447, 
         "tags": [
-            "Power", 
-            "USB", 
+            "Boldport", 
             "Tools", 
             "Test Equipment"
         ], 
-        "title": "USBProtector"
+        "title": "BoldportClub/capacimeter"
     }, 
     "/Electronics101/UltrasonicAlarm/": {
         "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
@@ -3892,6 +3892,15 @@
             "Logic Gates"
         ], 
         "title": "ClapSwitchKit2"
+    }, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
+        "tags": [
+            "Arduino", 
+            "C++"
+        ], 
+        "title": "Using C++ Templates"
     }, 
     "/BoldportClub/TheMatrix/GameOfLife/": {
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 

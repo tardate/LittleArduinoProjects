@@ -1,6 +1,6 @@
-# 485 Little Electronics and Arduino Projects
+# 486 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [RFID Card Counter](./playground/RFID/CardCounter) - simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards.
+> Latest addition:sparkles: [Using C++ Templates](./playground/UsingTemplates) - Learning how to use C++ template functions in embedded projects with an Arduino.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
