@@ -1233,10 +1233,10 @@
     }, 
     {
         "description": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
-        "relative_path": "Electronics101/FM/TEA5767", 
+        "relative_path": "Radio/FM/TEA5767", 
         "id": "#310", 
-        "categories": "FM, Arduino", 
-        "name": "FM/TEA5767"
+        "categories": "Radio, FM, Arduino", 
+        "name": "TEA5767 FM Receiver"
     }, 
     {
         "description": "notes on miscellaneous audio connectors", 
@@ -1435,25 +1435,25 @@
         "name": "FunctionGeneratorKit"
     }, 
     {
-        "description": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 
-        "relative_path": "Electronics101/FM/ThreeStageTransmitter", 
+        "description": "an ugly-style-in-a-can build of dazaro3's 3-stage FM transmitter circuit", 
+        "relative_path": "Radio/FM/ThreeStageTransmitter", 
         "id": "#281", 
         "categories": "Radio, FM", 
         "name": "ThreeStageTransmitter"
     }, 
     {
         "description": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3", 
-        "relative_path": "Electronics101/FM/BreadboardTransmitter", 
+        "relative_path": "Radio/FM/BreadboardTransmitter", 
         "id": "#280", 
-        "categories": "FM", 
+        "categories": "Radio, FM", 
         "name": "BreadboardTransmitter"
     }, 
     {
         "description": "build and tweak/tune another simple single-stage FM Transmitter Kit", 
-        "relative_path": "Electronics101/FM/SingleStageTransmitterKit2", 
+        "relative_path": "Radio/FM/SingleStageTransmitterKit2", 
         "id": "#279", 
         "categories": "Radio, FM, Transmitter", 
-        "name": "SingleStageTransmitterKit2"
+        "name": "Single-stage FM Transmitter Kit 2"
     }, 
     {
         "description": "build and evaluate a popular ATMEAG328-based component tester kit", 
@@ -1947,10 +1947,10 @@
     }, 
     {
         "description": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
-        "relative_path": "Electronics101/FM/SingleStageTransmitterKit", 
+        "relative_path": "Radio/FM/SingleStageTransmitterKit", 
         "id": "#208", 
         "categories": "Radio, FM, Transmitter", 
-        "name": "SingleStageTransmitterKit"
+        "name": "Single-stage FM Transmitter Kit"
     }, 
     {
         "description": "test a CMOS frequency counter circuit with 100Hz - 5MHz range", 

@@ -1,0 +1,7 @@
+{
+    "id": "#280",
+    "name": "BreadboardTransmitter",
+    "description": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3",
+    "categories": "Radio, FM",
+    "relative_path": "Radio/FM/BreadboardTransmitter"
+}

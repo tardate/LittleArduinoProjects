@@ -1,0 +1,7 @@
+{
+    "id": "#281",
+    "name": "ThreeStageTransmitter",
+    "description": "an ugly-style-in-a-can build of dazaro3's 3-stage FM transmitter circuit",
+    "categories": "Radio, FM",
+    "relative_path": "Radio/FM/ThreeStageTransmitter"
+}

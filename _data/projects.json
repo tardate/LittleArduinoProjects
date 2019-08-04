@@ -246,15 +246,6 @@
         ], 
         "title": "MobileRFDetectorKit"
     }, 
-    "/Electronics101/FM/TEA5767/": {
-        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
-        "id": 310, 
-        "tags": [
-            "FM", 
-            "Arduino"
-        ], 
-        "title": "FM/TEA5767"
-    }, 
     "/playground/LEDx16Module/": {
         "summary": "a custom 16 LED SMD PCB with 74HC595 shift register interface", 
         "id": 179, 
@@ -275,16 +266,6 @@
             "CMOS/TTL"
         ], 
         "title": "BoldportClub/binco"
-    }, 
-    "/Electronics101/FM/SingleStageTransmitterKit/": {
-        "summary": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
-        "id": 208, 
-        "tags": [
-            "Radio", 
-            "FM", 
-            "Transmitter"
-        ], 
-        "title": "SingleStageTransmitterKit"
     }, 
     "/playground/ElectretADC/": {
         "summary": "convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals", 
@@ -1899,6 +1880,15 @@
         ], 
         "title": "Schmitt Inverter"
     }, 
+    "/Radio/FM/ThreeStageTransmitter/": {
+        "summary": "an ugly-style-in-a-can build of dazaro3's 3-stage FM transmitter circuit", 
+        "id": 281, 
+        "tags": [
+            "Radio", 
+            "FM"
+        ], 
+        "title": "ThreeStageTransmitter"
+    }, 
     "/playground/pedalShieldUno/AudioDSP/": {
         "summary": "test and develop the AudioDSP library for programming the pedalSHIELD Uno", 
         "id": 250, 
@@ -1937,6 +1927,15 @@
             "Oscillators"
         ], 
         "title": "RingOscillator"
+    }, 
+    "/Radio/FM/BreadboardTransmitter/": {
+        "summary": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3", 
+        "id": 280, 
+        "tags": [
+            "Radio", 
+            "FM"
+        ], 
+        "title": "BreadboardTransmitter"
     }, 
     "/8051/AT89C2051/LedChaser/": {
         "summary": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX", 
@@ -2320,6 +2319,15 @@
         ], 
         "title": "TheMatrix/LedTest"
     }, 
+    "/playground/Blink/": {
+        "summary": "the simplest blinking LED, with some electrical measurements thrown in", 
+        "id": 9, 
+        "tags": [
+            "LED", 
+            "Arduino"
+        ], 
+        "title": "Blink"
+    }, 
     "/Electronics101/Oscillators/PierceOscillator/": {
         "summary": "test a Pierce Oscillator made with a minimum of components", 
         "id": 242, 
@@ -2623,14 +2631,15 @@
         ], 
         "title": "JoystickServoControl"
     }, 
-    "/playground/Blink/": {
-        "summary": "the simplest blinking LED, with some electrical measurements thrown in", 
-        "id": 9, 
+    "/Radio/FM/SingleStageTransmitterKit2/": {
+        "summary": "build and tweak/tune another simple single-stage FM Transmitter Kit", 
+        "id": 279, 
         "tags": [
-            "LED", 
-            "Arduino"
+            "Radio", 
+            "FM", 
+            "Transmitter"
         ], 
-        "title": "Blink"
+        "title": "Single-stage FM Transmitter Kit 2"
     }, 
     "/playground/SolenoidControl/": {
         "summary": "controlling a mini solenoid with an Arduino", 
@@ -2640,14 +2649,6 @@
             "Arduino"
         ], 
         "title": "SolenoidControl"
-    }, 
-    "/Electronics101/FM/BreadboardTransmitter/": {
-        "summary": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3", 
-        "id": 280, 
-        "tags": [
-            "FM"
-        ], 
-        "title": "BreadboardTransmitter"
     }, 
     "/Electronics101/ElectronicClockKit/": {
         "summary": "build and investigate a commercially available \"electronic clock\" kit", 
@@ -2722,14 +2723,15 @@
         ], 
         "title": "TwinTeeOscillator"
     }, 
-    "/playground/ATtiny/SleepMode/": {
-        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
-        "id": 127, 
+    "/Radio/FM/TEA5767/": {
+        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
+        "id": 310, 
         "tags": [
-            "Arduino", 
-            "ATmel"
+            "Radio", 
+            "FM", 
+            "Arduino"
         ], 
-        "title": "ATtiny/SleepMode"
+        "title": "TEA5767 FM Receiver"
     }, 
     "/Electronics101/DigitalLogic/SyncJKCounter/": {
         "summary": "a synchronous 8-bit counter built with JK Flip-Flops", 
@@ -2841,15 +2843,6 @@
             "Arduino"
         ], 
         "title": "Lcd5110/BareBack"
-    }, 
-    "/Electronics101/FM/ThreeStageTransmitter/": {
-        "summary": "build an \"ugly-style in a can\" version of dazaro3's 3-stage FM transmitter circuit", 
-        "id": 281, 
-        "tags": [
-            "Radio", 
-            "FM"
-        ], 
-        "title": "ThreeStageTransmitter"
     }, 
     "/STM32/BluePill/LCD16x2/": {
         "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
@@ -3118,6 +3111,25 @@
             "555 Timer"
         ], 
         "title": "RouletteKit"
+    }, 
+    "/playground/ATtiny/SleepMode/": {
+        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
+        "id": 127, 
+        "tags": [
+            "Arduino", 
+            "ATmel"
+        ], 
+        "title": "ATtiny/SleepMode"
+    }, 
+    "/Radio/FM/SingleStageTransmitterKit/": {
+        "summary": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
+        "id": 208, 
+        "tags": [
+            "Radio", 
+            "FM", 
+            "Transmitter"
+        ], 
+        "title": "Single-stage FM Transmitter Kit"
     }, 
     "/BoldportClub/cordwood-three/": {
         "summary": "custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism", 
@@ -3554,16 +3566,6 @@
             "Oscillators"
         ], 
         "title": "CMOS Oscillators"
-    }, 
-    "/Electronics101/FM/SingleStageTransmitterKit2/": {
-        "summary": "build and tweak/tune another simple single-stage FM Transmitter Kit", 
-        "id": 279, 
-        "tags": [
-            "Radio", 
-            "FM", 
-            "Transmitter"
-        ], 
-        "title": "SingleStageTransmitterKit2"
     }, 
     "/Electronics101/Comparator741/": {
         "summary": "demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)", 
