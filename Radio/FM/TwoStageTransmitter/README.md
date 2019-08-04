@@ -48,6 +48,7 @@ A breadboard build should work, although component values may need to be adjuste
 ![The Schematic](./assets/TwoStageTransmitter_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [Build A Long Range FM Transmitter (Spybug)](https://youtu.be/joFourugXvs) - by TechBuilder
 * [The Ultimate FM Transmitter (Long Range Spybug)](http://www.instructables.com/id/The-Ultimate-FM-Transmitter/) - instructables version
 * [Simple FM Voice Transmitter #1](http://www.angelfire.com/art2/artswan/fmtrans1.jpg) - original circuit by Art Swan

@@ -11,7 +11,6 @@ that I decided to make something more permanent than a breadboard.
 
 Since I have some Altoids tins collecting dust for just such an occasion, I'm doing this "ugly-style in a can".
 
-
 ### Performance
 
 In the initial circuit I have 33pF C4 in the tank circuit.
@@ -57,8 +56,8 @@ to the builds I've done already. Here are some pictures:
 
 ![fmtuk-back](./assets/fmtuk-back.jpg?raw=true)
 
-
 ## Credits and References
+
 * [LEAP#280 FM/BreadboardTransmitter](../BreadboardTransmitter)
 * [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
 * [dazaro3 channel](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg)

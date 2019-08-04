@@ -48,7 +48,6 @@ Around 90MHz is pretty clear for me, so I tried replacing C4 with [47pF](https:/
 This worked! I'm getting a signal at 84.15MHz, from which I infer the coil inductance might be closer to
 [76nH](https://www.wolframalpha.com/input/?i=(1%2F(2*%CF%80*84.15MHz))%5E2%2F0.047nF).
 
-
 ### Performance
 
 OK, I guess you shouldn't expect great things from such a dinky 1-transistor circuit. At least it works!
@@ -60,7 +59,6 @@ Here's and SDR capture of the device broadcasting on 84.15MHz. All the peaks in 
 harmonic noise from the device.
 
 ![broadcast_capture](./assets/broadcast_capture.png?raw=true)
-
 
 ## Construction
 
@@ -80,6 +78,7 @@ The schematic shown here has component values as per my final build, *not* as pr
 ![Build](./assets/SingleStageTransmitterKit2_build_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [DIY kit Simple FM wireless microphone FM transmitter board parts electronic training DIY kit radio fm microphone transmitter](https://www.aliexpress.com/item/Simple-FM-FM-wireless-microphone-FM-transmitter-board-parts-electronic-training-DIY-kit-Kit-not-including/32660667774.html) - from seller on aliexpress
 * [kit instructions](./assets/kit_instructions.pdf?raw=true)
 * [LEAP#208 SingleStageTransmitterKit](../SingleStageTransmitterKit) - another similar kit

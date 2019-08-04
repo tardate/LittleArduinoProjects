@@ -25,8 +25,6 @@ Two important factors for success:
 * appropriately sizing the coil in the resonant tank circuit.
 * selecting an appropriate operating voltage
 
-
-
 ## Background
 
 The most basic version of a simple direct conversion FM radio is covered in

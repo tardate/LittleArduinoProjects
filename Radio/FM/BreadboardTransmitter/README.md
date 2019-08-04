@@ -22,7 +22,6 @@ My first attempt was a complete flop - oscillation was very temperamental, and w
 
 Switching to a newer breadboard fixed the connection issues. Getting the coil right required a bit of trial and error.
 
-
 ### Getting the Coil Right
 
 I've learned to hate making coils, because no matter how precise the isntructions and how studiously I follow them,
@@ -41,7 +40,6 @@ The [LC resonance calculation](http://www.daycounter.com/Calculators/LC-Resonanc
 That's quite a bit different than the 44nH predicted by a simplified [air coil calculator](http://www.qsl.net/in3otd/indcalc.html).
 I suspect the variation may be largely due to the fact that I'm using unusually heavy AWG18 solid-core wire.
 
-
 ### Performance
 
 It is surprisingly good! With a 165cm AWG30 antenna connected, I can easily walk from one end of the house to the other and pickup a good signal.
@@ -57,6 +55,7 @@ It is surprisingly good! With a 165cm AWG30 antenna connected, I can easily walk
 ![Build](./assets/BreadboardTransmitter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#281 FM/ThreeStageTransmitter](../ThreeStageTransmitter) - the same circuit, built ugly-style in a can
 * [A Breadboard FM Transmitter Bug](https://www.youtube.com/watch?v=lUpujUAa2ZQ) - dazaro3
 * [dazaro3 channel](https://www.youtube.com/channel/UCU5ca_ymxbKi9GqVH7BMxbg)

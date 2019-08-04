@@ -3,7 +3,7 @@
   FM/TEA5767
   Control the TEA5767 low-power FM stereo radio chip with an Arduino.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/FM/TEA5767
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/FM/TEA5767
 
  */
 

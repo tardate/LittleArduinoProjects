@@ -14,7 +14,6 @@ so they should be ready to run without much external hardware.
 
 This project is a simple test drive under Arduino control.
 
-
 ### TEA5767 Key Features
 
 Picking the eyes from the data sheet:
@@ -27,7 +26,6 @@ Picking the eyes from the data sheet:
 * total harmonic distortion 1% max
 * supply voltage 2.5-5.0V
 * max total current approx 11mA @ 3V
-
 
 ### TEA5767 Module
 
@@ -47,9 +45,7 @@ components. It exposes only 10 pins:
 |  9  | MPXO    | FM demodulator MPX signal output             |
 |  10 | ANT     | antenna in                                   |
 
-
 ![TEA5767_module](./assets/TEA5767_module.jpg?raw=true)
-
 
 ### Test Program
 
@@ -60,7 +56,6 @@ The sketch simply skips through a selection of local FM stations.
 
 The output power of the chip is very low - to low to directly drive headphones for example.
 I used the [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) to amplify the output and drive stereo speakers.
-
 
 ## Construction
 
@@ -75,6 +70,7 @@ I mounted the module on protoboard with an [audio connector](../../AudioConnecto
 ![TEA5767_protoboard](./assets/TEA5767_protoboard.jpg?raw=true)
 
 ## Credits and References
+
 * [TEA5767 datahseet](https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf)
 * [FM radio receiver for your Arduino (TEA5767/TEA5768/TEA5757)](https://macduino.blogspot.sg/2014/12/FM-Radio-TEA5767.html)
 * [TEA5767 FM Radio Breakout Board for Arduino](https://www.instructables.com/id/TEA5767-FM-Radio-Breakout-Board-for-Arduino/)

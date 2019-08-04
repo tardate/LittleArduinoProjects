@@ -4,7 +4,6 @@ Build a simple single-stage FK702 FM Transmitter Kit by Future Kit.
 
 ![The Build](./assets/SingleStageTransmitterKit_build.jpg?raw=true)
 
-
 ## Notes
 
 I've been experimenting with FM, and the hardest thing to get right tends to be the hand-wound coils.
@@ -12,7 +11,6 @@ So to get a baseline, I picked up a 1-transistor kit during a recent visit to Si
 
 The kit is the FK702 by [Future Kit](http://futurekit.com/). It takes the hastle out of getting the LC circuit
 right by printing the inductor coil on the PCB (used in conjuction with a trimmer capacitor).
-
 
 ### Power Connections
 
@@ -22,7 +20,6 @@ The PCB includes +9V and GND connectors.
 
 The PCB includes connections for an optional transmit switch (not included).
 I put a switch in my build.
-
 
 ### Performance
 
@@ -49,5 +46,6 @@ Here's a trace of the signal and FFT when tuned at 83.25MHz:
 ![The Build](./assets/SingleStageTransmitterKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [FK702: FM WIRELESS MIC 1-STATE](http://futurekit.com/index.php/en/future-kit/radio-frequency-equipment/93-product/future-kit/series-7xx/series-7-fm-wireless-mic/1201-fk702-fm-wireless-mic-1-state.html)
 * [2SC458 datasheet](https://www.futurlec.com/Transistors/2SC458.shtml)
