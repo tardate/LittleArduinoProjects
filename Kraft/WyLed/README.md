@@ -107,3 +107,4 @@ Final build...
 ## Credits and References
 
 * [Titam TM1638](http://www.titanmec.com/index.php/en/product/view/id/303.html) - info from the original manufacturer, Shenzhen Titan Micro Electronics Co., Ltd. (深圳市天微电子股份有限公司)
+* [WyLed on hackaday.io](https://hackaday.io/project/167034-wyled)
