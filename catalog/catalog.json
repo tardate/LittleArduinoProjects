@@ -571,7 +571,7 @@
         "relative_path": "Electronics101/SerialInterface/UsbUartCH340G", 
         "id": "#406", 
         "categories": "USB, Serial, CH340", 
-        "name": "SerialInterface/UsbUartCH340G"
+        "name": "Custom CH340G USB to UART interface"
     }, 
     {
         "description": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP", 

@@ -1600,7 +1600,7 @@
             "Serial", 
             "CH340"
         ], 
-        "title": "SerialInterface/UsbUartCH340G"
+        "title": "Custom CH340G USB to UART interface"
     }, 
     "/Electronics101/Switches/DPDT/": {
         "summary": "all about double-pole, double-thow (DPDT) toggle switches", 

@@ -1,4 +1,4 @@
-# #406 SerialInterface/UsbUartCH340G
+# #406 Custom CH340G USB to UART interface
 
 Build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P.
 
@@ -52,7 +52,30 @@ Pinout:
 | 16  | VCC  | Supply rail for the chip                                |
 
 Notes:
+
 * V3: Decouple with a 4.7-20nF capacitor when in 5V operation, or tie to VCC when in 3.3V operation.
+
+### Drivers and Setup for MacOSX
+
+* see the offical [MacOSX setup notes](https://www.arduino.cc/en/Guide/MacOSX)
+* if the Arduino has an FTDI instead of CH340G, if necessary install the [FTDIUSBSerialDriver_v2_2_18.dmg](http://www.ftdichip.com/Drivers/VCP.htm)
+* see the [arduino forum](https://forum.arduino.cc/index.php?topic=261375.0) - general discussion and updates on the issue of USB drivers
+
+
+### CH340G Drivers
+
+If the CH340G serial chip is not recognised my MacOSX, a driver is required. See:
+
+* [How to use cheap Chinese Arduinos that come with with CH340G / CH341G Serial/USB chip](http://kiguino.moos.io/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html) - a great guide.
+* Updated driver (Sierra-compatible) is available at
+[github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver)
+* There also seems to be a professional drive kit available (at cost) from https://www.mac-usb-serial.com/
+
+I've "cached" copies of the drivers I've used in the past in the [drivers](./drivers) folder:
+
+* CH341SER_MAC.ZIP
+* CH34x_Install_V1.3.zip - latest version I've used
+
 
 ## Chips and DIPs
 
