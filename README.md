@@ -1,6 +1,6 @@
-# 486 Little Electronics and Arduino Projects
+# 487 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Using C++ Templates](./playground/UsingTemplates) - Learning how to use C++ template functions in embedded projects with an Arduino.
+> Latest addition:sparkles: [Crystal-locked 1kHz Oscillator](./Electronics101/Oscillators/CrystalLocked1khzOscillator) - a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
