@@ -2,10 +2,11 @@
 
 Use an Arduino to demonstrate the monostable mode of operation, and plot the results with [Processing](https://www.processing.org).
 
+![The Build](./assets/Monostable_build.jpg?raw=true)
+
 Here's a quick video of the circuit in action:
 
 [![555 Timer - Monostable Demo](https://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](https://www.youtube.com/watch?v=FJI0kTbzS4I)
-
 
 ## Notes
 
@@ -39,7 +40,6 @@ Here's a sample trace:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
-
 ### Construction
 
 ![The Breadboard](./assets/Monostable_bb.jpg?raw=true)
@@ -48,10 +48,10 @@ Here's a sample trace:
 
 ![The Build](./assets/Monostable_build.jpg?raw=true)
 
-
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC)
 * [Download Processing](https://www.processing.org/download/)
-* [#216: Back to Basics: 555 based monostable multivibrator | 555 tutorial](https://youtu.be/MbWc70ZzTlI) - another great video from w2aew that tells you all you ever wanted to know about 555 monostables
+* [#216: Back to Basics: 555 based monostable multivibrator - 555 tutorial](https://youtu.be/MbWc70ZzTlI) - another great video from w2aew that tells you all you ever wanted to know about 555 monostables
