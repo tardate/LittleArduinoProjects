@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-18T09:33:14Z</updated>
+  <updated>2019-08-18T10:04:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/</id>
+    <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/"/>
+    <updated>2019-08-18T09:58:48Z</updated>
+    <title>#490 555 Falling Edge Detector</title>
+    <summary>using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/assets/555FallingEdgeDetector_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/"/>

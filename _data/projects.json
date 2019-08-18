@@ -382,6 +382,16 @@
         ], 
         "title": "xdiskclk"
     }, 
+    "/BoldportClub/TheMatrix/LedTest/": {
+        "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
+        "id": 300, 
+        "tags": [
+            "Boldport", 
+            "LED", 
+            "AS1130"
+        ], 
+        "title": "TheMatrix/LedTest"
+    }, 
     "/playground/PushbuttonLED/": {
         "summary": "Momentary push button switch is used to toggle the LED on and off", 
         "id": 4, 
@@ -2333,15 +2343,13 @@
         ], 
         "title": "LM723/HighVoltageRegulator"
     }, 
-    "/BoldportClub/TheMatrix/LedTest/": {
-        "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
-        "id": 300, 
+    "/Electronics101/EdgeDetection/555FallingEdgeDetector/": {
+        "summary": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse", 
+        "id": 490, 
         "tags": [
-            "Boldport", 
-            "LED", 
-            "AS1130"
+            "555 Timer"
         ], 
-        "title": "TheMatrix/LedTest"
+        "title": "555 Falling Edge Detector"
     }, 
     "/playground/Blink/": {
         "summary": "the simplest blinking LED, with some electrical measurements thrown in", 

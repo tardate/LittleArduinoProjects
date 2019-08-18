@@ -1,5 +1,12 @@
 [
     {
+        "description": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse", 
+        "relative_path": "Electronics101/EdgeDetection/555FallingEdgeDetector", 
+        "id": "#490", 
+        "categories": "555 Timer", 
+        "name": "555 Falling Edge Detector"
+    }, 
+    {
         "description": "using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse", 
         "relative_path": "Electronics101/EdgeDetection/555RisingEdgeDetector", 
         "id": "#489", 
