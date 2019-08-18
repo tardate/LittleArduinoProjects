@@ -1,6 +1,6 @@
-# 490 Little Electronics and Arduino Projects
+# 491 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [555 Falling Edge Detector](./Electronics101/EdgeDetection/555FallingEdgeDetector) - using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse.
+> Latest addition:sparkles: [Magnet-switched Solenoid](./Kinetics/Solenoids/MagnetSwitchedSolenoid) - using a Hall effect sensor to trigger a solenoid with a fixed pulse.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -1,5 +1,12 @@
 [
     {
+        "description": "using a Hall effect sensor to trigger a solenoid with a fixed pulse", 
+        "relative_path": "Kinetics/Solenoids/MagnetSwitchedSolenoid", 
+        "id": "#491", 
+        "categories": "Solenoid, Sensors", 
+        "name": "Magnet-switched Solenoid"
+    }, 
+    {
         "description": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse", 
         "relative_path": "Electronics101/EdgeDetection/555FallingEdgeDetector", 
         "id": "#490", 

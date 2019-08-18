@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-18T10:04:30Z</updated>
+  <updated>2019-08-19T14:34:15Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kinetics/Solenoids/MagnetSwitchedSolenoid/</id>
+    <link href="https://leap.tardate.com/Kinetics/Solenoids/MagnetSwitchedSolenoid/"/>
+    <updated>2019-08-19T14:34:06Z</updated>
+    <title>#491 Magnet-switched Solenoid</title>
+    <summary>using a Hall effect sensor to trigger a solenoid with a fixed pulse</summary>
+    <g:image_link>https://leap.tardate.com/Kinetics/Solenoids/MagnetSwitchedSolenoid/assets/MagnetSwitchedSolenoid_build.jpg</g:image_link>
+    <category term="Solenoid"/>
+    <category term="Sensors"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/"/>
-    <updated>2019-08-18T09:58:48Z</updated>
+    <updated>2019-08-18T12:25:45Z</updated>
     <title>#490 555 Falling Edge Detector</title>
     <summary>using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/assets/555FallingEdgeDetector_build.jpg</g:image_link>
@@ -23,7 +33,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/"/>
-    <updated>2019-08-18T09:32:16Z</updated>
+    <updated>2019-08-18T12:25:45Z</updated>
     <title>#489 555 Rising Edge Detector</title>
     <summary>using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/assets/555RisingEdgeDetector_build.jpg</g:image_link>
@@ -32,7 +42,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/"/>
-    <updated>2019-08-18T09:32:59Z</updated>
+    <updated>2019-08-18T12:25:45Z</updated>
     <title>#488 XOR-RC Edge Detector</title>
     <summary>Dual edge detection with a 74LS86 XOR and RC circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/assets/XorRcEdgeDetector_build.jpg</g:image_link>

@@ -2644,6 +2644,15 @@
         ], 
         "title": "MSO5074FG_unboxing"
     }, 
+    "/Kinetics/Solenoids/MagnetSwitchedSolenoid/": {
+        "summary": "using a Hall effect sensor to trigger a solenoid with a fixed pulse", 
+        "id": 491, 
+        "tags": [
+            "Solenoid", 
+            "Sensors"
+        ], 
+        "title": "Magnet-switched Solenoid"
+    }, 
     "/Electronics101/ClapSwitchKit/": {
         "summary": "build and analyse a simple clap switch circuit available as a kit", 
         "id": 170, 
