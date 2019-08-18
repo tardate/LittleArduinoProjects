@@ -2,10 +2,11 @@
 
 Build and test basic electromechanical solenoid.
 
+![The Build](./assets/SolenoidDIY_build.jpg?raw=true)
+
 Here's a quick video of the solenoid in action:
 
 [![SolenoidDIY](https://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](https://www.youtube.com/watch?v=Lakz1MZA9wI)
-
 
 ## Notes
 
@@ -32,7 +33,6 @@ And that's what I measure when I insert an ammeter in the circuit.
 The armature is an old screw - some kind of mild steel I think.
 
 ![SolenoidDIY_component](./assets/SolenoidDIY_component.jpg?raw=true)
-
 
 ### The Circuit
 
@@ -62,6 +62,7 @@ increasing the force applied by the solenoid:
 ![The Build](./assets/SolenoidDIY_build.jpg?raw=true)
 
 ## Credits and References
+
 * [IRF540 datasheet](https://www.futurlec.com/Transistors/IRF540.shtml)
 * [Solenoid](https://en.wikipedia.org/wiki/Solenoid) - wikipedia
 * [Right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule) - wikipedia

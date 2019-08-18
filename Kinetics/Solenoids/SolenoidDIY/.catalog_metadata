@@ -1,0 +1,7 @@
+{
+    "id": "#117",
+    "name": "Solenoid DIY",
+    "description": "build and test a basic electromechanical solenoid",
+    "categories": "Solenoid, Arduino",
+    "relative_path": "Kinetics/Solenoids/SolenoidDIY"
+}

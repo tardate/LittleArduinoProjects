@@ -3,7 +3,7 @@
   SolenoidDIY
   Test a DIY solenoid
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SolenoidDIY
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/Solenoids/SolenoidDIY
 
  */
 

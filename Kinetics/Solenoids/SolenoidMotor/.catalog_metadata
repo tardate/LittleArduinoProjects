@@ -1,0 +1,7 @@
+{
+    "id": "#200",
+    "name": "Solenoid Motor",
+    "description": "a single-cylinder mini-solenoid engine",
+    "categories": "Solenoid",
+    "relative_path": "Kinetics/Solenoids/SolenoidMotor"
+}

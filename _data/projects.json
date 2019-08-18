@@ -2260,6 +2260,14 @@
         ], 
         "title": "LevelIndicatorLM3915"
     }, 
+    "/Kinetics/Solenoids/SolenoidMotor/": {
+        "summary": "a single-cylinder mini-solenoid engine", 
+        "id": 200, 
+        "tags": [
+            "Solenoid"
+        ], 
+        "title": "Solenoid Motor"
+    }, 
     "/Electronics101/Power/BBBreakout/": {
         "summary": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors", 
         "id": 408, 
@@ -3316,6 +3324,15 @@
         ], 
         "title": "DoorbellKit"
     }, 
+    "/Kinetics/Solenoids/SolenoidDIY/": {
+        "summary": "build and test a basic electromechanical solenoid", 
+        "id": 117, 
+        "tags": [
+            "Solenoid", 
+            "Arduino"
+        ], 
+        "title": "Solenoid DIY"
+    }, 
     "/playground/EEPROM/AT28C16/PEProgrammer/": {
         "summary": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander", 
         "id": 314, 
@@ -4014,14 +4031,6 @@
         ], 
         "title": "InvertingChargePump"
     }, 
-    "/Kinetics/SolenoidMotor/": {
-        "summary": "a single-cylinder mini-solenoid engine", 
-        "id": 200, 
-        "tags": [
-            "Solenoid"
-        ], 
-        "title": "SolenoidMotor"
-    }, 
     "/Electronics101/Oscillators/CrystalLocked455kHzModulated/": {
         "summary": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment", 
         "id": 484, 
@@ -4464,15 +4473,6 @@
             "Oscillators"
         ], 
         "title": "CD4070/Oscillator"
-    }, 
-    "/Electronics101/SolenoidDIY/": {
-        "summary": "build and test a basic electromechanical solenoid", 
-        "id": 117, 
-        "tags": [
-            "Solenoid", 
-            "Arduino"
-        ], 
-        "title": "SolenoidDIY"
     }, 
     "/Electronics101/ML741/Inverter/": {
         "summary": "test an inverter circuit using the ML741 discrete component opamp", 

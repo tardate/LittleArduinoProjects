@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-18T03:26:12Z</updated>
+  <updated>2019-08-18T03:39:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -3002,12 +3002,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kinetics/SolenoidMotor/</id>
-    <link href="https://leap.tardate.com/Kinetics/SolenoidMotor/"/>
+    <id>https://leap.tardate.com/Kinetics/Solenoids/SolenoidMotor/</id>
+    <link href="https://leap.tardate.com/Kinetics/Solenoids/SolenoidMotor/"/>
     <updated>2016-04-03T11:01:18Z</updated>
-    <title>#200 SolenoidMotor</title>
+    <title>#200 Solenoid Motor</title>
     <summary>a single-cylinder mini-solenoid engine</summary>
-    <g:image_link>https://leap.tardate.com/Kinetics/SolenoidMotor/assets/SolenoidMotor_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kinetics/Solenoids/SolenoidMotor/assets/SolenoidMotor_build.jpg</g:image_link>
     <category term="Solenoid"/>
   </entry>
   <entry>
@@ -3829,12 +3829,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/SolenoidDIY/</id>
-    <link href="https://leap.tardate.com/Electronics101/SolenoidDIY/"/>
+    <id>https://leap.tardate.com/Kinetics/Solenoids/SolenoidDIY/</id>
+    <link href="https://leap.tardate.com/Kinetics/Solenoids/SolenoidDIY/"/>
     <updated>2015-07-26T08:35:52Z</updated>
-    <title>#117 SolenoidDIY</title>
+    <title>#117 Solenoid DIY</title>
     <summary>build and test a basic electromechanical solenoid</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/SolenoidDIY/assets/SolenoidDIY_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kinetics/Solenoids/SolenoidDIY/assets/SolenoidDIY_build.jpg</g:image_link>
     <category term="Solenoid"/>
     <category term="Arduino"/>
   </entry>

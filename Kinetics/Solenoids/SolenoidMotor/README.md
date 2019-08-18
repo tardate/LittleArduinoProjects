@@ -1,6 +1,8 @@
-# #200 SolenoidMotor
+# #200 Solenoid Motor
 
-A single-cylinder mini-solenoid engine
+A single-cylinder mini-solenoid engine.
+
+![The Build](./assets/SolenoidMotor_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
@@ -40,6 +42,7 @@ The switch controls the power to the whole circuit:
 ![The Build](./assets/SolenoidMotor_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Tiny Solenoid Motor on a Credit Card](https://www.youtube.com/watch?v=8EaCermGrwM) - inspiration for this build
 * [Mini push-pull solenoids on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
 * [1N4001-1N4007 datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)

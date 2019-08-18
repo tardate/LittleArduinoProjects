@@ -2010,10 +2010,10 @@
     }, 
     {
         "description": "a single-cylinder mini-solenoid engine", 
-        "relative_path": "Kinetics/SolenoidMotor", 
+        "relative_path": "Kinetics/Solenoids/SolenoidMotor", 
         "id": "#200", 
         "categories": "Solenoid", 
-        "name": "SolenoidMotor"
+        "name": "Solenoid Motor"
     }, 
     {
         "description": "a CD4026 bucket-brigade for driving multiple 7-segment displays", 
@@ -2591,10 +2591,10 @@
     }, 
     {
         "description": "build and test a basic electromechanical solenoid", 
-        "relative_path": "Electronics101/SolenoidDIY", 
+        "relative_path": "Kinetics/Solenoids/SolenoidDIY", 
         "id": "#117", 
         "categories": "Solenoid, Arduino", 
-        "name": "SolenoidDIY"
+        "name": "Solenoid DIY"
     }, 
     {
         "description": "switch an independent power source using an Arduino and n-channel JFET", 

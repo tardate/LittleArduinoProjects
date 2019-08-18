@@ -1,7 +1,0 @@
-{
-    "id": "#117", 
-    "name": "SolenoidDIY", 
-    "description": "build and test a basic electromechanical solenoid", 
-    "categories": "Solenoid, Arduino", 
-    "relative_path": "Electronics101/SolenoidDIY"
-}
