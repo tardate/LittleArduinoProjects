@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-18T07:14:49Z</updated>
+  <updated>2019-08-18T09:33:14Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/</id>
+    <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/"/>
+    <updated>2019-08-18T09:32:16Z</updated>
+    <title>#489 555 Rising Edge Detector</title>
+    <summary>using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/assets/555RisingEdgeDetector_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/"/>
-    <updated>2014-01-08T15:14:14Z</updated>
+    <updated>2019-08-18T09:32:59Z</updated>
     <title>#488 XOR-RC Edge Detector</title>
     <summary>Dual edge detection with a 74LS86 XOR and RC circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/assets/XorRcEdgeDetector_build.jpg</g:image_link>

@@ -1,7 +1,6 @@
-# 488 Little Electronics and Arduino Projects
+# 489 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [XOR-RC Edge Detector](./Electronics101/EdgeDetection/XorRcEdgeDetector) - dual edge detection with a 74LS86 XOR and RC circuit.
-
+> Latest addition:sparkles: [555 Rising Edge Detector](./Electronics101/EdgeDetection/555RisingEdgeDetector) - using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -3260,6 +3260,14 @@
         ], 
         "title": "CommonEmitterAmplifier"
     }, 
+    "/playground/MakerUno/": {
+        "summary": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia", 
+        "id": 423, 
+        "tags": [
+            "Arduino"
+        ], 
+        "title": "MakerUno"
+    }, 
     "/Electronics101/ML741/Comparator/": {
         "summary": "test a comparator circuit with the ML741 discrete component opamp", 
         "id": 151, 
@@ -4362,13 +4370,13 @@
         ], 
         "title": "ML741/VoltageFollower"
     }, 
-    "/playground/MakerUno/": {
-        "summary": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia", 
-        "id": 423, 
+    "/Electronics101/EdgeDetection/555RisingEdgeDetector/": {
+        "summary": "using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse", 
+        "id": 489, 
         "tags": [
-            "Arduino"
+            "555 Timer"
         ], 
-        "title": "MakerUno"
+        "title": "555 Rising Edge Detector"
     }, 
     "/Electronics101/DarlingtonTouchSwitch/": {
         "summary": "test a Darlington-pair touch switch", 
