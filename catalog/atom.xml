@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-12T10:42:41Z</updated>
+  <updated>2019-08-18T03:26:12Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -3024,9 +3024,9 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/HallEffectSwitch/</id>
     <link href="https://leap.tardate.com/Electronics101/HallEffectSwitch/"/>
-    <updated>2016-03-21T13:44:31Z</updated>
-    <title>#198 HallEffectSwitch</title>
-    <summary>testing a Hall effect switch</summary>
+    <updated>2019-08-18T03:21:22Z</updated>
+    <title>#198 Hall Effect Switch</title>
+    <summary>using a Hall effect switch (A3144)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/HallEffectSwitch/assets/HallEffectSwitch_build.jpg</g:image_link>
     <category term="Sensors"/>
   </entry>

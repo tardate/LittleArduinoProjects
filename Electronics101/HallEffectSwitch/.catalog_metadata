@@ -1,7 +1,7 @@
 {
-    "id": "#198", 
-    "name": "HallEffectSwitch", 
-    "description": "testing a Hall effect switch", 
-    "categories": "Sensors", 
+    "id": "#198",
+    "name": "Hall Effect Switch",
+    "description": "using a Hall effect switch (A3144)",
+    "categories": "Sensors",
     "relative_path": "Electronics101/HallEffectSwitch"
 }

@@ -1,11 +1,12 @@
 # #198 HallEffectSwitch
 
-Testing a Hall effect switch.
+Using a Hall effect switch (A3144).
+
+![The Build](./assets/HallEffectSwitch_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
 [![HallEffectSwitch](https://img.youtube.com/vi/kvyXPPBrkeU/0.jpg)](https://www.youtube.com/watch?v=kvyXPPBrkeU)
-
 
 ## Notes
 
@@ -34,6 +35,8 @@ Pin | Use
 The chip is rated for continuous output current of 25mA, so that is sufficient to drive an LED (as demonstrated here).
 For other switching applications, the output can be used to switch a transistor or pull a microcontroller output low.
 
+It works across a wide supply voltage range of 4.5 to 24 volts - which is very handy!
+
 Since the chip is configured as open collector, the LED and and current-limiting resistor sink into the output pin (rather than be driven by the output pin).
 
 Testing with some neodymium magnets, I get a strong full-on when the south pole of the magnets are
@@ -48,6 +51,7 @@ within 23mm directly to the front of the chip. The output remains on until I pul
 ![The Build](./assets/HallEffectSwitch_build.jpg?raw=true)
 
 ## Credits and References
+
 * [OH3144 Datasheet](http://www.datasheet4u.com/pdf/OH3144-pdf/950724)
 * [A3144 Datasheet](https://e-radionica.com/productdata/A3141.pdf)
 * [Basic Hall Effect Sensors 1](https://www.youtube.com/watch?v=9BFdGtvo9JE) - video tutorial by Lewis Loflin

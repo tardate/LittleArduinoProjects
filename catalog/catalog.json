@@ -2023,11 +2023,11 @@
         "name": "LED7Segment/CD4026BucketBrigade"
     }, 
     {
-        "description": "testing a Hall effect switch", 
+        "description": "using a Hall effect switch (A3144)", 
         "relative_path": "Electronics101/HallEffectSwitch", 
         "id": "#198", 
         "categories": "Sensors", 
-        "name": "HallEffectSwitch"
+        "name": "Hall Effect Switch"
     }, 
     {
         "description": "fixed-frequency tone generator based on a Wien Bridge Oscillator", 

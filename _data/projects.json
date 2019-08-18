@@ -3667,12 +3667,12 @@
         "title": "SRLatchWithNandGates"
     }, 
     "/Electronics101/HallEffectSwitch/": {
-        "summary": "testing a Hall effect switch", 
+        "summary": "using a Hall effect switch (A3144)", 
         "id": 198, 
         "tags": [
             "Sensors"
         ], 
-        "title": "HallEffectSwitch"
+        "title": "Hall Effect Switch"
     }, 
     "/playground/ATmegaBreadboard/": {
         "summary": "running an ATMEGA328P-PU on a breadboard ", 
