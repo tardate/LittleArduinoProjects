@@ -1518,6 +1518,14 @@
         ], 
         "title": "KeyboardMatrixModule"
     }, 
+    "/Electronics101/EdgeDetection/XorRcEdgeDetector/": {
+        "summary": "Dual edge detection with a 74LS86 XOR and RC circuit", 
+        "id": 488, 
+        "tags": [
+            "CMOS/TTL"
+        ], 
+        "title": "XOR-RC Edge Detector"
+    }, 
     "/Audio/GranularSynth/": {
         "summary": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?", 
         "id": 368, 

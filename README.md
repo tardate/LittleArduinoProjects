@@ -1,6 +1,7 @@
-# 487 Little Electronics and Arduino Projects
+# 488 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Crystal-locked 1kHz Oscillator](./Electronics101/Oscillators/CrystalLocked1khzOscillator) - a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz.
+> Latest addition:sparkles: [XOR-RC Edge Detector](./Electronics101/EdgeDetection/XorRcEdgeDetector) - dual edge detection with a 74LS86 XOR and RC circuit.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

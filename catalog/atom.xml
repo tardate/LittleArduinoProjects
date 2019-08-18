@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-18T03:39:34Z</updated>
+  <updated>2019-08-18T07:14:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/</id>
+    <link href="https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/"/>
+    <updated>2014-01-08T15:14:14Z</updated>
+    <title>#488 XOR-RC Edge Detector</title>
+    <summary>Dual edge detection with a 74LS86 XOR and RC circuit</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/assets/XorRcEdgeDetector_build.jpg</g:image_link>
+    <category term="CMOS/TTL"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked1khzOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked1khzOscillator/"/>
