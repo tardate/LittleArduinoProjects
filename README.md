@@ -1,6 +1,6 @@
-# 491 Little Electronics and Arduino Projects
+# 492 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Magnet-switched Solenoid](./Kinetics/Solenoids/MagnetSwitchedSolenoid) - using a Hall effect sensor to trigger a solenoid with a fixed pulse.
+> Latest addition:sparkles: [Kicking Back](./Kraft/KickingBack) - s useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

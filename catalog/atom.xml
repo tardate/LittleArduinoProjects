@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-19T14:34:15Z</updated>
+  <updated>2019-08-31T11:36:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/KickingBack/</id>
+    <link href="https://leap.tardate.com/Kraft/KickingBack/"/>
+    <updated>2019-08-31T11:06:06Z</updated>
+    <title>#492 Kicking Back</title>
+    <summary>a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/KickingBack/assets/KickingBack_build.jpg</g:image_link>
+    <category term="Sensors"/>
+    <category term="Solenoid"/>
+    <category term="555 Timer"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kinetics/Solenoids/MagnetSwitchedSolenoid/</id>
     <link href="https://leap.tardate.com/Kinetics/Solenoids/MagnetSwitchedSolenoid/"/>
-    <updated>2019-08-19T14:34:06Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#491 Magnet-switched Solenoid</title>
     <summary>using a Hall effect sensor to trigger a solenoid with a fixed pulse</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/Solenoids/MagnetSwitchedSolenoid/assets/MagnetSwitchedSolenoid_build.jpg</g:image_link>
@@ -24,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/"/>
-    <updated>2019-08-18T12:25:45Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#490 555 Falling Edge Detector</title>
     <summary>using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/555FallingEdgeDetector/assets/555FallingEdgeDetector_build.jpg</g:image_link>
@@ -33,7 +44,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/"/>
-    <updated>2019-08-18T12:25:45Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#489 555 Rising Edge Detector</title>
     <summary>using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/555RisingEdgeDetector/assets/555RisingEdgeDetector_build.jpg</g:image_link>
@@ -42,7 +53,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/"/>
-    <updated>2019-08-18T12:25:45Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#488 XOR-RC Edge Detector</title>
     <summary>Dual edge detection with a 74LS86 XOR and RC circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/EdgeDetection/XorRcEdgeDetector/assets/XorRcEdgeDetector_build.jpg</g:image_link>
@@ -3041,7 +3052,7 @@
   <entry>
     <id>https://leap.tardate.com/Kinetics/Solenoids/SolenoidMotor/</id>
     <link href="https://leap.tardate.com/Kinetics/Solenoids/SolenoidMotor/"/>
-    <updated>2016-04-03T11:01:18Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#200 Solenoid Motor</title>
     <summary>a single-cylinder mini-solenoid engine</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/Solenoids/SolenoidMotor/assets/SolenoidMotor_build.jpg</g:image_link>
@@ -3061,7 +3072,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/HallEffectSwitch/</id>
     <link href="https://leap.tardate.com/Electronics101/HallEffectSwitch/"/>
-    <updated>2019-08-18T03:21:22Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#198 Hall Effect Switch</title>
     <summary>using a Hall effect switch (A3144)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/HallEffectSwitch/assets/HallEffectSwitch_build.jpg</g:image_link>
@@ -3868,7 +3879,7 @@
   <entry>
     <id>https://leap.tardate.com/Kinetics/Solenoids/SolenoidDIY/</id>
     <link href="https://leap.tardate.com/Kinetics/Solenoids/SolenoidDIY/"/>
-    <updated>2015-07-26T08:35:52Z</updated>
+    <updated>2019-08-19T14:38:51Z</updated>
     <title>#117 Solenoid DIY</title>
     <summary>build and test a basic electromechanical solenoid</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/Solenoids/SolenoidDIY/assets/SolenoidDIY_build.jpg</g:image_link>

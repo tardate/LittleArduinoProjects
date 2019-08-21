@@ -723,6 +723,15 @@
         ], 
         "title": "CD4060/CrystalOscillator"
     }, 
+    "/Electronics101/DigitalLogic/XorWithNandGates/": {
+        "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
+        "id": 283, 
+        "tags": [
+            "Logic Gates", 
+            "CMOS/TTL"
+        ], 
+        "title": "XorWithNandGates"
+    }, 
     "/Electronics101/TriacDimmer/": {
         "summary": "investigate the operation of triacs and build the basic dimmaer circuit", 
         "id": 205, 
@@ -1119,14 +1128,15 @@
         ], 
         "title": "Single Transistor AM Transmitter"
     }, 
-    "/Electronics101/DigitalLogic/XorWithNandGates/": {
-        "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
-        "id": 283, 
+    "/Kraft/KickingBack/": {
+        "summary": "a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)", 
+        "id": 492, 
         "tags": [
-            "Logic Gates", 
-            "CMOS/TTL"
+            "Sensors", 
+            "Solenoid", 
+            "555 Timer"
         ], 
-        "title": "XorWithNandGates"
+        "title": "Kicking Back"
     }, 
     "/Electronics101/Oscillators/CrystalLocked1khzOscillator/": {
         "summary": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz", 
