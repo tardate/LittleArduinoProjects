@@ -10,23 +10,29 @@ Here's a quick demo..
 
 ## Notes
 
-Kicking Back is a desktop toy that uses a hall-effect sensor picking up a magnet in the ball to trigger the player to kick back. The sensor input goes to an edge-detection circuit that triggers a 555 monostable, ensuring a reliable (and adjustable) "kick" pulse is delivered to the solenoid that controls the player, regardless of how fleeting the sensor input is.
+Kicking Back is a desktop toy that uses a hall-effect sensor picking up a magnet in a ball to trigger the player to kick it back. The sensor input goes to an edge-detection circuit that triggers a 555 monostable, ensuring a reliable (and adjustable) "kick" pulse is delivered to the solenoid that controls the player, regardless of how fleeting the sensor input is.
+
+The project started as an experiment with hall effect sensors and edge detection, but soon blossomed into a fully-fledged desktop toy.
+And along the way became a minor homage to [@mPinoe](https://twitter.com/mPinoe) - I just hope she's not offended by the rough and ready paint job!
+
+Does this also count as a "useless machine"? Perhaps?!! .. so on the off-chance I've entered it in the [MacroFab Design Contest: Useless Machine](https://macrofab.com/blog/macrofab-design-contest-useless-machine-sponsored-by-mouser-electronics/)
+
 
 ## Control Circuit
 
-The control circuit triggers a solenoid that provides the kenetic movement for the sculpture.
+The control circuit triggers a solenoid that provides the kinetic movement for the sculpture.
 
 The circuit breaks down into the following stages:
 
 * a hall-effect sensor detects a neodymium magnet in the ball
-* falling edge detection with a Q1 PNP inverter generates a pulse when edge detected
+* falling edge detection with a PNP inverter (Q1) generates a pulse when edge detected
 * the falling edge pulse triggers a 555 timer configured for monostable operation
 * the 555 timer's threshold input is normally pulled low (R6), and a diode (D1) is included to absorb the opposite edge pulse.
-* R2 (50kΩ pot) adjusts the monostable output pulse width
-* 555 output is active-low, so is used for Q2 PNP high-side switching of the solenoid and indicator LED
-* D2 provides flyback protection from the solenoid
+* a 50kΩ pot (R2) adjusts the monostable output pulse width
+* 555 output is active-low, so is used for PNP (Q2) high-side switching of the solenoid and indicator LED
+* a diode (D2) provides flyback protection from the solenoid
 
-The adjustable output pulse allows it to be set at an appropirate length to fully activate the solenoid with out it remaining on too long.
+The adjustable output pulse allows it to be set at an appropriate length to fully activate the solenoid with out it remaining on too long.
 
 ![Breadboard](./assets/KickingBack_bb.jpg?raw=true)
 
@@ -76,8 +82,11 @@ All done and painted..
 
 ![KickingBack_build2](./assets/KickingBack_build2.jpg?raw=true)
 
+![KickingBack_demo](./assets/KickingBack_demo.gif?raw=true)
+
 ## Credits and References
 
 * [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * Entered in the [MacroFab Design Contest: Useless Machine ](https://macrofab.com/blog/macrofab-design-contest-useless-machine-sponsored-by-mouser-electronics/) - [see all the contest entries](https://hackaday.io/projects?tag=MacroFab%20Design%20Contest%3A%20Useless%20Machine)
+* [MP4 to GIF converter](https://www.onlineconverter.com/mp4-to-gif) - the tool I used to create the animated GIFs (nice - supports scaling)

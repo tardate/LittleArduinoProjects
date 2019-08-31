@@ -1,6 +1,6 @@
 # 492 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Kicking Back](./Kraft/KickingBack) - s useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe).
+> Latest addition:sparkles: [Kicking Back](./Kraft/KickingBack) - a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
