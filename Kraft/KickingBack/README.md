@@ -90,3 +90,4 @@ All done and painted..
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * Entered in the [MacroFab Design Contest: Useless Machine ](https://macrofab.com/blog/macrofab-design-contest-useless-machine-sponsored-by-mouser-electronics/) - [see all the contest entries](https://hackaday.io/projects?tag=MacroFab%20Design%20Contest%3A%20Useless%20Machine)
 * [MP4 to GIF converter](https://www.onlineconverter.com/mp4-to-gif) - the tool I used to create the animated GIFs (nice - supports scaling)
+* [Kicking Back](https://hackaday.io/project/167412-kicking-back) - on hackaday.io
