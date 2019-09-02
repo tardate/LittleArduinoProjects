@@ -431,16 +431,14 @@
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
     }, 
-    "/playground/XYplotter/": {
-        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
-        "id": 265, 
+    "/OSHChip/LEDx16Module/": {
+        "summary": "driving an SPI LED module with the OSHChip", 
+        "id": 216, 
         "tags": [
-            "Arduino", 
-            "Digital Pot", 
-            "MCP42010", 
-            "Oscilloscope"
+            "OSHChip", 
+            "SPI"
         ], 
-        "title": "XYplotter"
+        "title": "OSHChip/LEDx16Module"
     }, 
     "/Electronics101/MinimalLCOscillator/": {
         "summary": "test an LC oscillator of just 5 components", 
@@ -678,6 +676,14 @@
             "Arduino"
         ], 
         "title": "DS3231RTC/TimeDemo"
+    }, 
+    "/FPGA/Fomu/GettingStarted/": {
+        "summary": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.", 
+        "id": 493, 
+        "tags": [
+            "FPGA"
+        ], 
+        "title": "Getting Started with Fomu"
     }, 
     "/Kinetics/HomopolarMotor/": {
         "summary": "build a basic homopolar motor", 
@@ -2962,14 +2968,16 @@
         ], 
         "title": "SchmittTrigger/BasicDiscrete"
     }, 
-    "/OSHChip/LEDx16Module/": {
-        "summary": "driving an SPI LED module with the OSHChip", 
-        "id": 216, 
+    "/playground/XYplotter/": {
+        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
+        "id": 265, 
         "tags": [
-            "OSHChip", 
-            "SPI"
+            "Arduino", 
+            "Digital Pot", 
+            "MCP42010", 
+            "Oscilloscope"
         ], 
-        "title": "OSHChip/LEDx16Module"
+        "title": "XYplotter"
     }, 
     "/playground/RFSwitchASK/": {
         "summary": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 

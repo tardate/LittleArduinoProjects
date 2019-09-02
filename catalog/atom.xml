@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-02T00:29:58Z</updated>
+  <updated>2019-09-04T14:50:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/FPGA/Fomu/GettingStarted/</id>
+    <link href="https://leap.tardate.com/FPGA/Fomu/GettingStarted/"/>
+    <updated>2019-09-04T13:02:09Z</updated>
+    <title>#493 Getting Started with Fomu</title>
+    <summary>first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.</summary>
+    <g:image_link>https://leap.tardate.com/FPGA/Fomu/GettingStarted/assets/GettingStarted_build.jpg</g:image_link>
+    <category term="FPGA"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/KickingBack/</id>
     <link href="https://leap.tardate.com/Kraft/KickingBack/"/>

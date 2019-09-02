@@ -16,6 +16,7 @@ Usage:
   $0 ee ProjectName  # new Electronics101 project
   $0 eq ProjectName  # new Equipment project
   $0 es ProjectName  # new ESP8266 project
+  $0 fp ProjectName  # new FPGA project
   $0 ki ProjectName  # new Kinetics project
   $0 kr ProjectName  # new Kraft project
   $0 os ProjectName  # new OSHChip project
@@ -156,8 +157,8 @@ es | esp)
   make_project "ESP8266" "${2}"
   ;;
 
-pg)
-  make_project "playground" "${2}"
+fp | fpga)
+  make_project "FPGA" "${2}"
   ;;
 
 ki)
@@ -170,6 +171,10 @@ kr)
 
 os)
   make_project "OSHChip" "${2}"
+  ;;
+
+pg)
+  make_project "playground" "${2}"
   ;;
 
 pi | pic)

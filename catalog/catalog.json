@@ -1,5 +1,12 @@
 [
     {
+        "description": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.", 
+        "relative_path": "FPGA/Fomu/GettingStarted", 
+        "id": "#493", 
+        "categories": "FPGA", 
+        "name": "Getting Started with Fomu"
+    }, 
+    {
         "description": "a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)", 
         "relative_path": "Kraft/KickingBack", 
         "id": "#492", 

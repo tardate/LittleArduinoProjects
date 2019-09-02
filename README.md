@@ -1,6 +1,6 @@
 # 492 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Kicking Back](./Kraft/KickingBack) - a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe).
+> Latest addition:sparkles: [Getting Started with Fomu](./FPGA/Fomu/GettingStarted) - first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -1,0 +1,7 @@
+{
+    "id": "#493",
+    "name": "Getting Started with Fomu",
+    "description": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.",
+    "categories": "FPGA",
+    "relative_path": "FPGA/Fomu/GettingStarted"
+}
