@@ -1,4 +1,4 @@
-# #267 TheCuttle/ScopeTag
+# #267 Cuttle Scope Tag
 
 Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer.
 

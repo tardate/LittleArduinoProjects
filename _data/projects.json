@@ -1265,7 +1265,7 @@
         "tags": [
             "Sensors"
         ], 
-        "title": "VoltmeterAmmeterModule"
+        "title": "Voltmeter/Ammeter Module"
     }, 
     "/playground/Led4Digit7Segment/DoubleShiftWithFETs/": {
         "summary": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
@@ -4274,7 +4274,7 @@
             "MCP42010", 
             "Oscilloscope"
         ], 
-        "title": "TheCuttle/ScopeTag"
+        "title": "Cuttle Scope Tag"
     }, 
     "/Electronics101/RFSwitch/": {
         "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 

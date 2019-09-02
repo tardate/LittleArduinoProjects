@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-08-31T11:36:06Z</updated>
+  <updated>2019-09-02T00:29:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/KickingBack/</id>
     <link href="https://leap.tardate.com/Kraft/KickingBack/"/>
-    <updated>2019-08-31T11:06:06Z</updated>
+    <updated>2019-08-31T12:28:56Z</updated>
     <title>#492 Kicking Back</title>
     <summary>a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/KickingBack/assets/KickingBack_build.jpg</g:image_link>
@@ -2108,7 +2108,7 @@
     <id>https://leap.tardate.com/Electronics101/VoltmeterAmmeterModule/</id>
     <link href="https://leap.tardate.com/Electronics101/VoltmeterAmmeterModule/"/>
     <updated>2017-01-30T05:46:17Z</updated>
-    <title>#289 VoltmeterAmmeterModule</title>
+    <title>#289 Voltmeter/Ammeter Module</title>
     <summary>test and calibrate a DC Voltmeter/Ammeter panel module</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/VoltmeterAmmeterModule/assets/VoltmeterAmmeterModule_build.jpg</g:image_link>
     <category term="Sensors"/>
@@ -2340,7 +2340,7 @@
     <id>https://leap.tardate.com/BoldportClub/TheCuttle/ScopeTag/</id>
     <link href="https://leap.tardate.com/BoldportClub/TheCuttle/ScopeTag/"/>
     <updated>2016-11-13T08:49:19Z</updated>
-    <title>#267 TheCuttle/ScopeTag</title>
+    <title>#267 Cuttle Scope Tag</title>
     <summary>Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/TheCuttle/ScopeTag/assets/ScopeTag_build.jpg</g:image_link>
     <category term="Boldport"/>

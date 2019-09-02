@@ -1,4 +1,4 @@
-# #289 VoltmeterAmmeterModule
+# #289 Voltmeter/Ammeter Module
 
 Test and calibrate a DC Voltmeter/Ammeter panel module.
 

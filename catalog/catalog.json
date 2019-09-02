@@ -1425,7 +1425,7 @@
         "relative_path": "Electronics101/VoltmeterAmmeterModule", 
         "id": "#289", 
         "categories": "Sensors", 
-        "name": "VoltmeterAmmeterModule"
+        "name": "Voltmeter/Ammeter Module"
     }, 
     {
         "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
@@ -1579,7 +1579,7 @@
         "relative_path": "BoldportClub/TheCuttle/ScopeTag", 
         "id": "#267", 
         "categories": "Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope", 
-        "name": "TheCuttle/ScopeTag"
+        "name": "Cuttle Scope Tag"
     }, 
     {
         "description": "the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6)", 

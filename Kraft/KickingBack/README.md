@@ -49,8 +49,11 @@ The output pulse is around 55ms, close to the calculated [52ms](https://visual55
 
 ## Construction
 
-The build (in fact this project) started with playing around with a rocker design (onto which the ball is mounted).
-It is quite well balanced, so that any impact on the ball generates a generous movement that oscillates freely.
+The build (in fact this project) started with playing around with a rocker design (onto which the ball is mounted), and evolved from there..
+
+![design_notes](./assets/design_notes.jpg?raw=true)
+
+The rocker is quite well balanced, so that any impact on the ball generates a generous movement that oscillates freely.
 
 ![build_ball_rocker](./assets/build_ball_rocker.jpg?raw=true)
 

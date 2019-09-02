@@ -1,7 +1,7 @@
 {
-    "id": "#289", 
-    "name": "VoltmeterAmmeterModule", 
-    "description": "test and calibrate a DC Voltmeter/Ammeter panel module", 
-    "categories": "Sensors", 
+    "id": "#289",
+    "name": "Voltmeter/Ammeter Module",
+    "description": "test and calibrate a DC Voltmeter/Ammeter panel module",
+    "categories": "Sensors",
     "relative_path": "Electronics101/VoltmeterAmmeterModule"
 }
