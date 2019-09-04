@@ -1,4 +1,4 @@
-# 492 Little Electronics and Arduino Projects
+# 493 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [Getting Started with Fomu](./FPGA/Fomu/GettingStarted) - first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.
 

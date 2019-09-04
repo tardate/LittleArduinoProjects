@@ -18,7 +18,7 @@ The bottom line:
 
 It turned out to be a good time to jump in, with a couple of resources just being released:
 
-* The "Fomu - an FPGA inside your USB port!" presentation by Tim 'mithro' Ansell and Sean 'xobs' Cross
+* The ["Fomu - an FPGA inside your USB port!"](https://www.youtube.com/watch?v=rBfC-oxvaqM) presentation by [Tim 'mithro' Ansell](https://twitter.com/mithro) and [Sean 'xobs' Cross](https://twitter.com/xobs)
 at CCC 2019 is really worth watching as a first start. It's more of a project overview,
 but helps to sort out the mess of jargon (tomu v TinyFPGA v fomu etc).
 * Followed by an appearance on The Amp Hour [#456.3 – Discussing Fomu with Tim Ansell and Sean Cross](https://theamphour.com/456-3-discussing-fomu-with-tim-ansell-and-sean-cross/)
@@ -222,7 +222,7 @@ that provides access to specific features of the Fomu board including SPI and th
     >>> rgb = fomu.rgb()
     >>> rgb.mode("error")
 
-There is no sleep function, so a little do-nothing loop can be used to anomate through
+There is no sleep function, so a little do-nothing loop can be used to animate through
 the defined RGB modes:
 
     >>> import fomu
