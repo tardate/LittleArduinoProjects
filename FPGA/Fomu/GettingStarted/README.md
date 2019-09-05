@@ -62,7 +62,7 @@ Packed on the little PCB are the components covering 4 main requirements:
 * the FPGA itself
 * user I/O: RGB LED and touch pads
 * power regulators
-* power filtering and ESB protection
+* power filtering and ESD protection
 
 ![Schematic](./assets/GettingStarted_schematic.jpg?raw=true)
 
@@ -253,12 +253,12 @@ i.e. this is a production 1.8.7 board
 ### Wishbone
 
 The CPU in Fomu is built on [LiteX](https://github.com/enjoy-digital/litex),
-which places every device on a [Wishbone bus](https://en.wikipedia.org/wiki/Wishbone_(computer_bus).
+which places every device on a [Wishbone bus](https://en.wikipedia.org/wiki/Wishbone_(computer_bus)).
 This is a 32-bit internal bus that maps peripherals into memory
 
 Fomu also enabled a bridge on the bus by default that makes the it available over USB.
 
-The `wishbone-tool` can then interact with the Fomu by basically peeking and poking memory!
+The `wishbone-tool` can then interact with the Fomu by basically peeking and poking memory.
 See [fomu/include/generated/csr.h](https://github.com/im-tomu/micropython/blob/fomu/ports/fomu/include/generated/csr.h)
 for memory addresses.
 
