@@ -15,14 +15,19 @@ for using at as a notification mechanism.
 
 Since I spend most of my time programming on a laptop with no external monitor, I often have a sliver of
 a console window showing beside my tools/editor. The console is showing the continuous builds running on the code I'm writing.
-It's low-distraction, yet I can always know if the tests are running red or green.
+It's low-distraction, yet I always know if the tests are running red or green.
 
-Now if the Fomu could give me the red/green indicator, I could save that little bit of screen real-estate, only switching to the console window if things are red.
+Now if the Fomu would give me a red/green indicator, I could save that little bit of screen real-estate, only switching to the console window if things are red.
 
 I'm often writing Ruby, so I'm using a Ruby project as an example, with two of my favourite tools for development:
 
 * [RSpec](https://rspec.info/) for tests
 * [Guard](https://guardgem.org/) for watching files and running the associated tests when changes are made
+
+The notes below follow the two stages of my playing around with this idea:
+
+* first a "proof of concept" that simply uses wishbone-tool integrated with Guard to poke the LED driver on the factory default Fomu
+* a final version that uses a RISC-V C program on the Fomu so that notification status changes require just a singe write over the wishbone bus
 
 ### The Proof-of-Concept
 
@@ -30,8 +35,8 @@ The [a_flakey_example](./a_flakey_example) folder contains a very simple Ruby pr
 It has [a test in examples_spec.rb](./a_flakey_example/spec/examples_spec.rb) that randomly fails about 50% of the time.
 Guard is setup to watch the files and run tests when things change (i.e. a file is saved or modified).
 
-My first step to prove the point simply integrates `wishbone-tool` from the [Fomu Toolchain](https://github.com/im-tomu/fomu-toolchain) with Guard,
-so that RGB control data is poked into the Fomu to control the LED corresponding to Guard events.
+My first step to prove the point by simply integrating `wishbone-tool` from the [Fomu Toolchain](https://github.com/im-tomu/fomu-toolchain) with Guard,
+so that RGB control data is poked into the Fomu to control the LED according to Guard events and test status.
 
 #### Using The Example Project
 
@@ -73,7 +78,7 @@ If you're "unlucky":
 
     rspec ./spec/examples_spec.rb:5 # 1 will sometimes fail!
 
-If you're lucky:
+If you're "lucky":
 
     $ rspec
     .
@@ -95,8 +100,8 @@ The [Guardfile](./a_flakey_example/Guardfile) is setup to change the Fomu LED on
 * when a test fails, displays an 'fail' colour (glowing red)
 * when a test succeeds, displays an 'pass' colour (glowing green)
 
-It requires a few tricks to make Guard dance this way with out building a whole plugin, of rely on
-some additional notification infrastructure like
+It requires a few tricks to make Guard dance this way without building a whole plugin, of relying on
+additional notification infrastructure like
 [Growl](http://growl.info/)
 or
 [Libnotify](http://developer.gnome.org/libnotify/).
