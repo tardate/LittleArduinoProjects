@@ -1,6 +1,6 @@
 # 494 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Fomu Build Notifier](./FPGA/Fomu/BuildNotifier) - using the Fomu's RGB-in-your-USB as a test results notifier (demonstrated with Ruby, RSpec and Guard).
+> Latest addition:sparkles: [Fomu Build Notifier](./FPGA/Fomu/BuildNotifier) - using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

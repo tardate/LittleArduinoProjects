@@ -1,12 +1,12 @@
 # #494 Fomu Build Notifier
 
-Using the Fomu's RGB-in-your-USB as a test results notifier (demonstrated with Ruby, RSpec and Guard)
+Using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)
 
 ![Build](./assets/BuildNotifier_build.jpg?raw=true)
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/FSXaPQCYACY/0.jpg)](https://www.youtube.com/watch?v=FSXaPQCYACY)
 
 ## Notes
 
@@ -129,40 +129,94 @@ Guard watches the results file and calls the FomuNotifier with the result of the
     end
 
 Now for the ugly part! The `set_rbg` method takes the status string and sends a bunch of 'poke' commands to the Fomu
-using the `wishbone-tool` to set the appropriate LED state. And that's  a minimum of six `wishbone-tool` calls (address and data for red, green and blue):
-
-    # Command: set the Fomu RGB LED state
-    def self.set_rbg(status)
-      case status
-      when 'idle'
-        puts "FomuNotifier ... #{status}!\n"
-        rgb = [0, 20, 60]
-      when 'running'
-        puts "FomuNotifier ... #{status}!\n"
-        rgb = [20, 20, 200]
-      when 'success'
-        puts "FomuNotifier √√√ #{status}!\n"
-        rgb = [20, 150, 20]
-      else
-        puts "FomuNotifier XXX #{status}!\n"
-        rgb = [200, 10, 10]
-      end
-      params = []
-      rgb.each_with_index do |value, i|
-        params << "#{CSR_RGB_ADDR_ADDR} #{ADDR[i]}"
-        params << "#{CSR_RGB_DAT_ADDR} #{value}"
-      end
-      command = params.map do |args|
-        "wishbone-tool #{args} 2> /dev/null"
-      end.join('; ')
-      system(command)
-    end
-
+using the `wishbone-tool` to set the appropriate LED state. And that's  a minimum of six `wishbone-tool` calls (address and data for red, green and blue).
 
 Note that it assumes `wishbone-tool` is on the PATH, so before running guard, set path to point to the bin
 directory of the [Fomu Toolchain](https://github.com/im-tomu/fomu-toolchain). Location will depend on your installation:
 
     export PATH=../fomu-toolchain-macos-v1.3/bin:$PATH
+
+The full Guardfile for this interim version:
+
+    # Guardfile that demonstrates hooking RSpec results
+    # and blinking notifyications on the Fomu RGB LED
+    # using the wishbone-tool
+
+    # The Fomu/wishbone-tool integration lives here
+    class Guard::FomuNotifier
+      LEDDPWRR = 1
+      LEDDPWRG = 2
+      LEDDPWRB = 3
+      ADDR = [LEDDPWRR, LEDDPWRG, LEDDPWRB]
+      CSR_RGB_DAT_ADDR = '0xe0006800'
+      CSR_RGB_ADDR_ADDR = '0xe0006804'
+
+      # Command: set the Fomu RGB LED state
+      def self.set_rbg(status)
+        case status
+        when 'idle'
+          puts "FomuNotifier ... #{status}!\n"
+          rgb = [0, 20, 60]
+        when 'running'
+          puts "FomuNotifier ... #{status}!\n"
+          rgb = [20, 20, 200]
+        when 'success'
+          puts "FomuNotifier √√√ #{status}!\n"
+          rgb = [20, 150, 20]
+        else
+          puts "FomuNotifier XXX #{status}!\n"
+          rgb = [200, 10, 10]
+        end
+        params = []
+        rgb.each_with_index do |value, i|
+          params << "#{CSR_RGB_ADDR_ADDR} #{ADDR[i]}"
+          params << "#{CSR_RGB_DAT_ADDR} #{value}"
+        end
+        command = params.map do |args|
+          "wishbone-tool #{args} 2> /dev/null"
+        end.join('; ')
+        system(command)
+      end
+
+      # callback target so we know when a build starts
+      def call(guard_class, event, *args)
+        case event
+        when :start_begin
+          self.class.set_rbg 'idle'
+        else
+          self.class.set_rbg 'running'
+        end
+      end
+    end
+
+    guard :rspec, cmd: "bundle exec rspec" do
+      require "guard/rspec/dsl"
+      dsl = Guard::RSpec::Dsl.new(self)
+
+      # RSpec files
+      rspec = dsl.rspec
+      watch(rspec.spec_helper) { rspec.spec_dir }
+      watch(rspec.spec_files)
+
+      # Ruby files
+      ruby = dsl.ruby
+      dsl.watch_spec_files_for(ruby.lib_files)
+
+      # rspec test results go to file (unfortunately cannot receive with callbacks)
+      notification :file, path: '.guard_result'
+
+      # setup the callbacks so we know when things start
+      callback(FomuNotifier.new, [
+        :run_all_begin, :run_on_additions_begin, :run_on_modifications_begin, :run_on_removals_begin, :start_begin
+      ])
+    end
+
+    # watch the rspec results file so can trigger Fomu depending on the result
+    guard :shell do
+      watch '.guard_result' do
+        Guard::FomuNotifier.set_rbg File.read('.guard_result').lines.first.strip
+      end
+    end
 
 
 #### The Proof-of-Concept Results
@@ -227,8 +281,6 @@ Note: I had to resort to specifying the device ID `-d 1209:5bf0`, as there's mor
 
 The Fomu can be reset (program cleared) with `wishbone-tool 0xe0006000 0xac`.
 
-
-
 ### LED Control
 
 A summary of the specs from the [iCE40 LED Driver Usage Guide](https://workshop.fomu.im/reference/FPGA-TN-1288-ICE40LEDDriverUsageGuide.pdf),
@@ -246,6 +298,91 @@ Appendix D. RGB PWM IP - LED Control Bus Addressable Registers:
 | 0010          | LEDDPWRG | LED Driver Pulse Width Register for GREEN | W      |
 | 0011          | LEDDPWRB | LED Driver Pulse Width Register for BLUE  | W      |
 
+A combination of breathe, blink and RGB settings are used to define four states (RUNNING, IDLE, SUCCESS, FAILED).
+
+See the source, especially [main.c](./riscv-notifier/src/main.c) for how these are controlled.
+
+### Controlling the Notifier over the Wishbone Bus
+
+The riscv-notifier program sets the LED state to one of four possible states, determined by `volatile int desired_state`. This is declared volatile so it doesn't get optimized away.
+
+The makefile is configured to generate a map file from which we can determin the memory address of `desired_state`:
+
+    .sdata.desired_state
+                    0x0000000010000230        0x4 .obj/main.o
+                    0x0000000010000230                desired_state
+
+Knowing that, we can control the notifier by poking a single value with the wishbone-tool e.g.
+
+    wishbone-tool 0x0000000010000230 2  # sets SUCCESS state
+
+### Final Revised Guardfile
+
+So with the riscv-notifier program loaded on the Fomu, the Guardfile can be simplified considerably. Here it is in full:
+
+    # Guardfile that demonstrates hooking RSpec results
+    # and blinking notifyications on the Fomu RGB LED
+    # using the wishbone-tool to control a RISC-V notification program running on the Fomu
+
+    # The Fomu/wishbone-tool integration lives here
+    class Guard::FomuNotifier
+      NOTIFIER_ADDR = '0x0000000010000230'
+      LED_STATES = ['running', 'idle', 'success', 'failed']
+
+      # Command: set the Fomu RGB LED state
+      def self.set_rbg(status)
+        command = "wishbone-tool #{NOTIFIER_ADDR} #{LED_STATES.index(status) || 3} 2> /dev/null"
+        system(command)
+      end
+
+      # callback target so we know when a build starts
+      def call(guard_class, event, *args)
+        status = if event == :start_begin
+          'idle'
+        else
+          'running'
+        end
+        self.class.set_rbg status
+      end
+    end
+
+    guard :rspec, cmd: "bundle exec rspec" do
+      require "guard/rspec/dsl"
+      dsl = Guard::RSpec::Dsl.new(self)
+
+      # RSpec files
+      rspec = dsl.rspec
+      watch(rspec.spec_helper) { rspec.spec_dir }
+      watch(rspec.spec_files)
+
+      # Ruby files
+      ruby = dsl.ruby
+      dsl.watch_spec_files_for(ruby.lib_files)
+
+      # rspec test results go to file (unfortunately cannot receive with callbacks)
+      notification :file, path: '.guard_result'
+
+      # setup the callbacks so we know when things start
+      callback(FomuNotifier.new, [
+        :run_all_begin, :run_on_additions_begin, :run_on_modifications_begin, :run_on_removals_begin, :start_begin
+      ])
+    end
+
+    # watch the rspec results file so can trigger Fomu depending on the result
+    guard :shell do
+      watch '.guard_result' do
+        Guard::FomuNotifier.set_rbg File.read('.guard_result').lines.first.strip
+      end
+    end
+
+
+## Conclusions
+
+I like it! Guard takes a bit of convincing to pipe the right results.
+
+Programming the Fomu with RISC-V C was quite straight-forward and posed no curly issues.
+The main downside is that the program is not permanently resident,
+though it's no big deal to script the reflash so I can use this as a regular tool in my developer workflow.
 
 ![Build](./assets/BuildNotifier_build.jpg?raw=true)
 
@@ -259,6 +396,4 @@ Appendix D. RGB PWM IP - LED Control Bus Addressable Registers:
 * [wishbone-utils](https://github.com/xobs/wishbone-utils) - github
 * [Guard Notifications](https://github.com/guard/guard/wiki/System-notifications#file)
 * [Guard Hooks and Callbacks](https://github.com/guard/guard/wiki/Hooks-and-callbacks)
-
 * [iCE40 LED Driver Usage Guide](https://workshop.fomu.im/reference/FPGA-TN-1288-ICE40LEDDriverUsageGuide.pdf)
-* [name](url)

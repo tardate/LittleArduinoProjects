@@ -1,5 +1,12 @@
 [
     {
+        "description": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
+        "relative_path": "FPGA/Fomu/BuildNotifier", 
+        "id": "#494", 
+        "categories": "FPGA, Ruby", 
+        "name": "Fomu Build Notifier"
+    }, 
+    {
         "description": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.", 
         "relative_path": "FPGA/Fomu/GettingStarted", 
         "id": "#493", 

@@ -1,51 +1,26 @@
 # Guardfile that demonstrates hooking RSpec results
 # and blinking notifyications on the Fomu RGB LED
-# using the wishbone-tool
+# using the wishbone-tool to control a RISC-V notification program running on the Fomu
 
 # The Fomu/wishbone-tool integration lives here
 class Guard::FomuNotifier
-  LEDDPWRR = 1
-  LEDDPWRG = 2
-  LEDDPWRB = 3
-  ADDR = [LEDDPWRR, LEDDPWRG, LEDDPWRB]
-  CSR_RGB_DAT_ADDR = '0xe0006800'
-  CSR_RGB_ADDR_ADDR = '0xe0006804'
+  NOTIFIER_ADDR = '0x0000000010000230'
+  LED_STATES = ['running', 'idle', 'success', 'failed']
 
   # Command: set the Fomu RGB LED state
   def self.set_rbg(status)
-    case status
-    when 'idle'
-      puts "FomuNotifier ... #{status}!\n"
-      rgb = [0, 20, 60]
-    when 'running'
-      puts "FomuNotifier ... #{status}!\n"
-      rgb = [20, 20, 200]
-    when 'success'
-      puts "FomuNotifier √√√ #{status}!\n"
-      rgb = [20, 150, 20]
-    else
-      puts "FomuNotifier XXX #{status}!\n"
-      rgb = [200, 10, 10]
-    end
-    params = []
-    rgb.each_with_index do |value, i|
-      params << "#{CSR_RGB_ADDR_ADDR} #{ADDR[i]}"
-      params << "#{CSR_RGB_DAT_ADDR} #{value}"
-    end
-    command = params.map do |args|
-      "wishbone-tool #{args} 2> /dev/null"
-    end.join('; ')
+    command = "wishbone-tool #{NOTIFIER_ADDR} #{LED_STATES.index(status) || 3} 2> /dev/null"
     system(command)
   end
 
   # callback target so we know when a build starts
   def call(guard_class, event, *args)
-    case event
-    when :start_begin
-      self.class.set_rbg 'idle'
+    status = if event == :start_begin
+      'idle'
     else
-      self.class.set_rbg 'running'
+      'running'
     end
+    self.class.set_rbg status
   end
 end
 

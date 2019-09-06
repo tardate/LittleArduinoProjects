@@ -976,6 +976,15 @@
         ], 
         "title": "SimplePeakDetector"
     }, 
+    "/playground/TFT/Color128x128/": {
+        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
+        "id": 361, 
+        "tags": [
+            "TFT LCD", 
+            "Arduino"
+        ], 
+        "title": "TFT/Color128x128"
+    }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment display via a 74HC595 shift register", 
         "id": 177, 
@@ -3223,14 +3232,14 @@
         ], 
         "title": "StirlingEngineHB13"
     }, 
-    "/playground/TFT/Color128x128/": {
-        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
-        "id": 361, 
+    "/FPGA/Fomu/BuildNotifier/": {
+        "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
+        "id": 494, 
         "tags": [
-            "TFT LCD", 
-            "Arduino"
+            "FPGA", 
+            "Ruby"
         ], 
-        "title": "TFT/Color128x128"
+        "title": "Fomu Build Notifier"
     }, 
     "/Kinetics/StepperMotors/ULN2003Module/": {
         "summary": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647", 
