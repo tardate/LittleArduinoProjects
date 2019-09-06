@@ -4,9 +4,9 @@ Using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonst
 
 ![Build](./assets/BuildNotifier_build.jpg?raw=true)
 
-Here's a quick demo..
+Here's a quick demo (click for the full video on Youtube)..
 
-[![clip](https://img.youtube.com/vi/FSXaPQCYACY/0.jpg)](https://www.youtube.com/watch?v=FSXaPQCYACY)
+[![clip](./assets/BuildNotifier_demo.gif?raw=true)](https://www.youtube.com/watch?v=FSXaPQCYACY)
 
 ## Notes
 
