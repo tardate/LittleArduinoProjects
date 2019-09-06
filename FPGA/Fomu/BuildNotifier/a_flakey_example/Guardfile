@@ -1,0 +1,79 @@
+# Guardfile that demonstrates hooking RSpec results
+# and blinking notifyications on the Fomu RGB LED
+# using the wishbone-tool
+
+# The Fomu/wishbone-tool integration lives here
+class Guard::FomuNotifier
+  LEDDPWRR = 1
+  LEDDPWRG = 2
+  LEDDPWRB = 3
+  ADDR = [LEDDPWRR, LEDDPWRG, LEDDPWRB]
+  CSR_RGB_DAT_ADDR = '0xe0006800'
+  CSR_RGB_ADDR_ADDR = '0xe0006804'
+
+  # Command: set the Fomu RGB LED state
+  def self.set_rbg(status)
+    case status
+    when 'idle'
+      puts "FomuNotifier ... #{status}!\n"
+      rgb = [0, 20, 60]
+    when 'running'
+      puts "FomuNotifier ... #{status}!\n"
+      rgb = [20, 20, 200]
+    when 'success'
+      puts "FomuNotifier √√√ #{status}!\n"
+      rgb = [20, 150, 20]
+    else
+      puts "FomuNotifier XXX #{status}!\n"
+      rgb = [200, 10, 10]
+    end
+    params = []
+    rgb.each_with_index do |value, i|
+      params << "#{CSR_RGB_ADDR_ADDR} #{ADDR[i]}"
+      params << "#{CSR_RGB_DAT_ADDR} #{value}"
+    end
+    command = params.map do |args|
+      "wishbone-tool #{args} 2> /dev/null"
+    end.join('; ')
+    system(command)
+  end
+
+  # callback target so we know when a build starts
+  def call(guard_class, event, *args)
+    case event
+    when :start_begin
+      self.class.set_rbg 'idle'
+    else
+      self.class.set_rbg 'running'
+    end
+  end
+end
+
+guard :rspec, cmd: "bundle exec rspec" do
+  require "guard/rspec/dsl"
+  dsl = Guard::RSpec::Dsl.new(self)
+
+  # RSpec files
+  rspec = dsl.rspec
+  watch(rspec.spec_helper) { rspec.spec_dir }
+  watch(rspec.spec_files)
+
+  # Ruby files
+  ruby = dsl.ruby
+  dsl.watch_spec_files_for(ruby.lib_files)
+
+  # rspec test results go to file (unfortunately cannot receive with callbacks)
+  notification :file, path: '.guard_result'
+
+  # setup the callbacks so we know when things start
+  callback(FomuNotifier.new, [
+    :run_all_begin, :run_on_additions_begin, :run_on_modifications_begin, :run_on_removals_begin, :start_begin
+  ])
+end
+
+# watch the rspec results file so can trigger Fomu depending on the result
+guard :shell do
+  watch '.guard_result' do
+    Guard::FomuNotifier.set_rbg File.read('.guard_result').lines.first.strip
+  end
+end
