@@ -291,6 +291,7 @@ Control the RGB LED (flash red)
 So far so good! Next steps:
 
 * Blink an LED with C for the RISC-V CPU
+  * See [LEAP#494 Fomu Build Notifier](../BuildNotifier) which has a RISC-V C implementation
 * Blink an LED with verilog
 * Blink an LED with Migen and LiteX
 

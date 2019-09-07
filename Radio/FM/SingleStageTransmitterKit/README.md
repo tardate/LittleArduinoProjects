@@ -1,4 +1,4 @@
-# #208 FM/SingleStageTransmitterKit
+# #208 Single-stage FM Transmitter Kit
 
 Build a simple single-stage FK702 FM Transmitter Kit by Future Kit.
 
@@ -36,6 +36,10 @@ Here's a trace of the signal and FFT when tuned at 83.25MHz:
 ![scope_signal](./assets/scope_signal.gif?raw=true)
 
 ![scope_fft](./assets/scope_fft.gif?raw=true)
+
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/zyDfYGtC2HI/0.jpg)](https://www.youtube.com/watch?v=zyDfYGtC2HI)
 
 ## Construction
 

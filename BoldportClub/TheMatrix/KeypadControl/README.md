@@ -45,6 +45,7 @@ fixed some issues with LED brightness control. Now everything is looking so much
 ![Build](./assets/KeypadControl_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#299 TheMatrix](../TheMatrix)
 * [LEAP#303 KeyboardMatrixModule](../../../playground/KeyboardMatrixModule)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-06T19:43:31Z</updated>
+  <updated>2019-09-07T08:50:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1440,7 +1440,7 @@
     <id>https://leap.tardate.com/Electronics101/AudioEffectsChips/PX088A/</id>
     <link href="https://leap.tardate.com/Electronics101/AudioEffectsChips/PX088A/"/>
     <updated>2017-12-14T11:57:58Z</updated>
-    <title>#356 AudioEffectsChips/PX088A</title>
+    <title>#356 PX088A Audio Effects Chip</title>
     <summary>figuring out how to use the PX088A &quot;Für Elise&quot; music chip</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioEffectsChips/PX088A/assets/PX088A_build.jpg</g:image_link>
     <category term="Audio"/>
@@ -1807,7 +1807,7 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/SyncJKCounter/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/SyncJKCounter/"/>
     <updated>2017-07-27T17:50:06Z</updated>
-    <title>#320 SyncJKCounter</title>
+    <title>#320 Synchronous JK Counter</title>
     <summary>a synchronous 8-bit counter built with JK Flip-Flops</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/SyncJKCounter/assets/SyncJKCounter_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
@@ -2564,7 +2564,7 @@
     <id>https://leap.tardate.com/Electronics101/AudioAmps/GuitarPracticeAmp/</id>
     <link href="https://leap.tardate.com/Electronics101/AudioAmps/GuitarPracticeAmp/"/>
     <updated>2017-07-27T17:50:06Z</updated>
-    <title>#249 GuitarPracticeAmp</title>
+    <title>#249 TDA2050 Guitar Practice Amp</title>
     <summary>single-channel 10W guitar practice amplifier based on the TDA2050</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/GuitarPracticeAmp/assets/GuitarPracticeAmp_build.jpg</g:image_link>
     <category term="OpAmp"/>
@@ -2972,7 +2972,7 @@
     <id>https://leap.tardate.com/Electronics101/AudioAmps/TDA7297Kit/</id>
     <link href="https://leap.tardate.com/Electronics101/AudioAmps/TDA7297Kit/"/>
     <updated>2016-05-07T13:08:14Z</updated>
-    <title>#210 AudioAmps/TDA7297Kit</title>
+    <title>#210 TDA7297 Audio Amp Kit</title>
     <summary>testing a TDA7297 audio amplifier kit (pump up the jam)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/TDA7297Kit/assets/TDA7297Kit_build.jpg</g:image_link>
     <category term="Audio"/>
@@ -3062,7 +3062,7 @@
     <id>https://leap.tardate.com/Electronics101/555Timer/DoorbellKit/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/DoorbellKit/"/>
     <updated>2016-04-05T17:55:07Z</updated>
-    <title>#201 DoorbellKit</title>
+    <title>#201 555 Timer Doorbell Kit</title>
     <summary>another two-tone doorbell using a 555 timer oscillator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/DoorbellKit/assets/DoorbellKit_build.jpg</g:image_link>
     <category term="555 Timer"/>
@@ -3161,7 +3161,7 @@
     <id>https://leap.tardate.com/Electronics101/LowVoltageGlowingLEDs/</id>
     <link href="https://leap.tardate.com/Electronics101/LowVoltageGlowingLEDs/"/>
     <updated>2016-02-28T05:38:25Z</updated>
-    <title>#191 LowVoltageGlowingLEDs</title>
+    <title>#191 Low-voltage Glowing LEDs</title>
     <summary>a dual-LED &quot;glowing&quot; oscillator from a 1.5V supply</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LowVoltageGlowingLEDs/assets/LowVoltageGlowingLEDs_build.jpg</g:image_link>
     <category term="BJT"/>
@@ -3215,7 +3215,7 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/AsyncJKCounter/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/AsyncJKCounter/"/>
     <updated>2017-05-25T13:46:13Z</updated>
-    <title>#186 AsyncJKCounter</title>
+    <title>#186 Asynchronous JK Counter</title>
     <summary>an asynchronous 4-bit counter built with JK Flip-Flops</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/AsyncJKCounter/assets/AsyncJKCounter_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
@@ -3617,7 +3617,7 @@
     <id>https://leap.tardate.com/Electronics101/555Timer/VariableDutyCycle/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/VariableDutyCycle/"/>
     <updated>2015-09-22T00:34:41Z</updated>
-    <title>#145 VariableDutyCycle</title>
+    <title>#145 Variable Duty-Cycle 555 Timer</title>
     <summary>a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/VariableDutyCycle/assets/VariableDutyCycle_build.jpg</g:image_link>
     <category term="555 Timer"/>
@@ -3647,7 +3647,7 @@
     <id>https://leap.tardate.com/Electronics101/HighFrequencyOpAmpOscillators/</id>
     <link href="https://leap.tardate.com/Electronics101/HighFrequencyOpAmpOscillators/"/>
     <updated>2015-09-13T06:21:44Z</updated>
-    <title>#142 HighFrequencyOpAmpOscillators</title>
+    <title>#142 High-frequency OpAmp Oscillators</title>
     <summary>how fast can you push an Op-Amp oscillator?</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/HighFrequencyOpAmpOscillators/assets/HighFrequencyOpAmpOscillators_build.jpg</g:image_link>
     <category term="OpAmp"/>
@@ -4239,7 +4239,7 @@
     <id>https://leap.tardate.com/Electronics101/TransistorTester/</id>
     <link href="https://leap.tardate.com/Electronics101/TransistorTester/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#083 TransistorTester</title>
+    <title>#083 Transistor Tester</title>
     <summary>use an Arduino to test NPN and PNP BJTs</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/TransistorTester/assets/TransistorTester_build.jpg</g:image_link>
     <category term="Arduino"/>
@@ -4323,7 +4323,7 @@
     <id>https://leap.tardate.com/Electronics101/Monostable122/</id>
     <link href="https://leap.tardate.com/Electronics101/Monostable122/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#075 Monostable122</title>
+    <title>#075 Monostable 74LS122</title>
     <summary>simple pulse trigger using 74LS122 monostable with external timing configuration</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Monostable122/assets/Monostable122_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>

@@ -1,11 +1,10 @@
-# #022 SchmittOscillator
+# #022 Schmitt Oscillator
 
-Use a 74LS14 to generate an oscillating waveform and plot the results.
+Using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave.
 
 Here's a quick video of the circuit in action:
 
 [![Schmitt Oscillator](https://img.youtube.com/vi/QV99ATHP2Xs/0.jpg)](https://www.youtube.com/watch?v=QV99ATHP2Xs)
-
 
 ## Notes
 
@@ -49,6 +48,7 @@ See the [RingOscillator](../RingOscillator) project for a related application of
 ![The Build](./assets/SchmittOscillator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
 * [Schmitt Trigger Oscillators?!](http://forum.arduino.cc/index.php?topic=147691.0) in the Arduino forums
 * [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html) - very informative; compares LS14 with alternatives for waveform generation.

@@ -33,6 +33,7 @@ The circuit and breadboard equivalent are shown below, however for the actual co
 ![RgbNightLight_layout](./assets/RgbNightLight_layout.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#137 ToroidJouleThief](../)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)

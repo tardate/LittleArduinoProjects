@@ -1,4 +1,4 @@
-# #249 AudioAmps/GuitarPracticeAmp
+# #249 TDA2050 Guitar Practice Amp
 
 Single-channel 10W guitar practice amplifier based on the TDA2050
 
@@ -92,6 +92,7 @@ Sample oscilloscope trace:
 ![GuitarPracticeAmp_protoboard_build](./assets/GuitarPracticeAmp_protoboard_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics](https://www.coursera.org/learn/audio-engineering)
 * [TDA2050 datasheet](http://parts.io/detail/1583208/TDA2050V)
 * [TL072 datasheet](http://parts.io/detail/12204535/TL072)

@@ -8,7 +8,6 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](https://www.youtube.com/watch?v=tx0jU6hgwhY)
 
-
 ## Notes
 
 Here's a marriage of Homopolar motor and Joule thief that results in a truly impractical Rube-Goldberg mechanism for blinking an LED with a AAA battery.
@@ -103,6 +102,7 @@ Here's the schematic of the charge pump/LED circuit:
 ![HomopolarJouleThiefBlinky_build](./assets/HomopolarJouleThiefBlinky_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#203 HomopolarMotor](../HomopolarMotor)
 * [LEAP#137 Joule Thief](../Electronics101/ToroidJouleThief)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap410-rube-goldberg-led-blinking-machine.html)

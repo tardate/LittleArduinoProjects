@@ -1,11 +1,10 @@
-# #083 TransistorTester
+# #083 Transistor Tester
 
 Use an Arduino to test NPN and PNP BJTs.
 
 Here's a quick video of the circuit in action:
 
 [![TransistorTester demo](https://img.youtube.com/vi/LyhCdzWy1SI/0.jpg)](https://www.youtube.com/watch?v=LyhCdzWy1SI)
-
 
 ## Notes
 
@@ -47,6 +46,7 @@ Some limitations and things to improve:
 ![The Build](./assets/TransistorTester_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Meter check of a diode - All About Circuits](http://www.allaboutcircuits.com/vol_3/chpt_3/2.html)
 * [How to test a diode - Circuits Today](http://www.circuitstoday.com/how-to-test-a-diode)
 * [Testing Transistors](http://www.learnabout-electronics.org/transistor_faults_04.php)

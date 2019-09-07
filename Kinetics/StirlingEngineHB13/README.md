@@ -6,7 +6,6 @@ Here's a quick video of the first firing of the engine:
 
 [![First Firing Demo](https://img.youtube.com/vi/SpzR4BYEarM/0.jpg)](https://www.youtube.com/watch?v=SpzR4BYEarM)
 
-
 ## Notes
 
 A [Stirling engine](https://en.wikipedia.org/wiki/Stirling_engine) is a closed-cycle regenerative heat engine with a permanently gaseous working fluid.
@@ -59,6 +58,7 @@ So where are the electronics? None involved so far! But some ideas I have in min
 ![Finished Build](./assets/StirlingEngineHB13_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Stirling engine](https://en.wikipedia.org/wiki/Stirling_engine) - wikipedia
 * [Stirling motor HB13 – Small Bonsai](http://www.en.boehm-stirling.com/hb13.html) product page
 * [Instructions Stirling Engine HB13](http://www.en.boehm-stirling.com/support.html?file=tl_files/stirling-technik.de/manuals/en/Anleitung%20HB13%20E%2024042015.doc)

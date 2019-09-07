@@ -970,7 +970,7 @@
         "relative_path": "Electronics101/AudioEffectsChips/PX088A", 
         "id": "#356", 
         "categories": "Audio, Music Chips", 
-        "name": "AudioEffectsChips/PX088A"
+        "name": "PX088A Audio Effects Chip"
     }, 
     {
         "description": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project", 
@@ -1222,7 +1222,7 @@
         "relative_path": "Electronics101/DigitalLogic/SyncJKCounter", 
         "id": "#320", 
         "categories": "CMOS/TTL, Digital Logic", 
-        "name": "SyncJKCounter"
+        "name": "Synchronous JK Counter"
     }, 
     {
         "description": "build a flexible, low-frequency digital logic clock module", 
@@ -1719,7 +1719,7 @@
         "relative_path": "Electronics101/AudioAmps/GuitarPracticeAmp", 
         "id": "#249", 
         "categories": "OpAmp, Audio", 
-        "name": "GuitarPracticeAmp"
+        "name": "TDA2050 Guitar Practice Amp"
     }, 
     {
         "description": "build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter", 
@@ -1992,7 +1992,7 @@
         "relative_path": "Electronics101/AudioAmps/TDA7297Kit", 
         "id": "#210", 
         "categories": "Audio", 
-        "name": "AudioAmps/TDA7297Kit"
+        "name": "TDA7297 Audio Amp Kit"
     }, 
     {
         "description": "test a 7-digit & 7-status indicator LED display", 
@@ -2055,7 +2055,7 @@
         "relative_path": "Electronics101/555Timer/DoorbellKit", 
         "id": "#201", 
         "categories": "555 Timer, Oscillators", 
-        "name": "DoorbellKit"
+        "name": "555 Timer Doorbell Kit"
     }, 
     {
         "description": "a single-cylinder mini-solenoid engine", 
@@ -2125,7 +2125,7 @@
         "relative_path": "Electronics101/LowVoltageGlowingLEDs", 
         "id": "#191", 
         "categories": "BJT, LED, Oscillators, Power", 
-        "name": "LowVoltageGlowingLEDs"
+        "name": "Low-voltage Glowing LEDs"
     }, 
     {
         "description": "using SPI to control multiple devices that support an SPIish interface", 
@@ -2160,7 +2160,7 @@
         "relative_path": "Electronics101/DigitalLogic/AsyncJKCounter", 
         "id": "#186", 
         "categories": "CMOS/TTL, Digital Logic", 
-        "name": "AsyncJKCounter"
+        "name": "Asynchronous JK Counter"
     }, 
     {
         "description": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine", 
@@ -2447,7 +2447,7 @@
         "relative_path": "Electronics101/555Timer/VariableDutyCycle", 
         "id": "#145", 
         "categories": "555 Timer, Oscillators", 
-        "name": "VariableDutyCycle"
+        "name": "Variable Duty-Cycle 555 Timer"
     }, 
     {
         "description": "test a ring oscillator built with a 74LS14 Inverter chip", 
@@ -2468,7 +2468,7 @@
         "relative_path": "Electronics101/HighFrequencyOpAmpOscillators", 
         "id": "#142", 
         "categories": "OpAmp, Oscillators", 
-        "name": "HighFrequencyOpAmpOscillators"
+        "name": "High-frequency OpAmp Oscillators"
     }, 
     {
         "description": "a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter", 
@@ -2881,7 +2881,7 @@
         "relative_path": "Electronics101/TransistorTester", 
         "id": "#083", 
         "categories": "Arduino, BJT", 
-        "name": "TransistorTester"
+        "name": "Transistor Tester"
     }, 
     {
         "description": "build and investigate a commercially available \"mobile phone signal\" detector kit", 
@@ -2937,7 +2937,7 @@
         "relative_path": "Electronics101/Monostable122", 
         "id": "#075", 
         "categories": "CMOS/TTL", 
-        "name": "Monostable122"
+        "name": "Monostable 74LS122"
     }, 
     {
         "description": "test raw IR reception with a TSOP1838-type IR sensor and an Arduino", 

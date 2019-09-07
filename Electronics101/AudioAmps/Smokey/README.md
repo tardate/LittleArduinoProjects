@@ -6,7 +6,6 @@ Here's a quick demo of the circuit in action:
 
 [![Smokey](https://img.youtube.com/vi/1Fk-NTBetNM/0.jpg)](https://www.youtube.com/watch?v=1Fk-NTBetNM)
 
-
 ## Notes
 
 The [Smokey](http://www.smokeyamps.com/) is pretty much the grandfather of a range of LM386-based guitar amps,
@@ -32,6 +31,7 @@ I had to make a couple of variations to get it to work properly:
 ![The Build](./assets/Smokey_build.jpg?raw=true)
 
 ## Credits and References
+
 * [my LittleGem/A386 build](../LittleGem)
 * [Smokey Amps](http://www.smokeyamps.com/) - official site
 * [Smokey Amp Analysis](http://www.electrosmash.com/smokey-amp-analysis) - excellent circuit analysis of the original Smokey amp.

@@ -1,11 +1,10 @@
-# #186 DigitalLogic/AsyncJKCounter
+# #186 Asynchronous JK Counter
 
 An asynchronous 4-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
 [![AsyncJKCounter](https://img.youtube.com/vi/dyn9gv996iY/0.jpg)](https://www.youtube.com/watch?v=dyn9gv996iY)
-
 
 ## Notes
 
@@ -59,6 +58,7 @@ The ripples are clear, taking place over about 42ns:
 ![The Build](./assets/AsyncJKCounter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS73 datasheet](https://www.futurlec.com/74LS/74LS73.shtml) - Dual JK Flip-Flop with Clear
 * [CD4096 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/66451/INTERSIL/CD4096BMS.html)
 * [Sequential Circuits - Asynchronous Counters](http://www.allaboutcircuits.com/textbook/digital/chpt-11/asynchronous-counters/)

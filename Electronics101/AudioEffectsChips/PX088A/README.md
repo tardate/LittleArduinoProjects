@@ -1,4 +1,4 @@
-# #356 AudioEffectsChips/PX088A
+# #356 PX088A Audio Effects Chip
 
 Figuring out how to use the PX088A "Für Elise" music chip.
 
@@ -62,8 +62,8 @@ And alternative configuration "C" for comparison:
 
 [![Build](https://img.youtube.com/vi/LwAlxbyrHlE/0.jpg)](https://www.youtube.com/watch?v=LwAlxbyrHlE)
 
-
 ## Credits and References
+
 * [Alice Music Voice Module Tone Loop Control IC Chip Board for DIY/Toy 3V-4.5V](https://www.aliexpress.com/item/10PCS-PX088-Alice-Music-Voice-Module-Tone-Loop-Control-IC-Chip-Board-High-Songs-3V-4/32821795206.html) - seller on aliexpress
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT
 * [Für Elise](https://en.wikipedia.org/wiki/F%C3%BCr_Elise)

@@ -124,6 +124,7 @@ variant that also sends bursts of serial output (to exercise the RX LED).
 [![clip](https://img.youtube.com/vi/SSdThKPhHV4/0.jpg)](https://www.youtube.com/watch?v=SSdThKPhHV4)
 
 ## Credits and References
+
 * [CH340G datasheet](http://androegg.de/wp-content/uploads/2016/07/CH340G_USB_TTL_Converter.pdf)
 * [FTDI FT232RL](http://www.ftdichip.com/Products/ICs/FT232R.htm)
 * [2TY S8550 PNP transistor datasheet](https://dirtypcbs.com/assets/datasheets/S8550-2TY.pdf)

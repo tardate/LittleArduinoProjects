@@ -6,7 +6,6 @@ Here's a quick video of it in action:
 
 [![StayCreative](https://img.youtube.com/vi/lfrAL8ZSpl4/0.jpg)](https://www.youtube.com/watch?v=lfrAL8ZSpl4)
 
-
 ## Notes
 
 A simple project inspired by [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI).
@@ -44,6 +43,7 @@ But it turns out that the current draw is about 50mA with all the LEDs fully on 
 ![StayCreative_layout](./assets/StayCreative_layout.jpg?raw=true)
 
 ## Credits and References
+
 * [2N7000 datasheet](url) n-channel MOSFET
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [IRF540N datasheet](url) n-channel MOSFET

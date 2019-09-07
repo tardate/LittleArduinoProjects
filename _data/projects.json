@@ -181,7 +181,7 @@
             "555 Timer", 
             "Oscillators"
         ], 
-        "title": "VariableDutyCycle"
+        "title": "Variable Duty-Cycle 555 Timer"
     }, 
     "/Electronics101/VoltageReference/ADR4540/": {
         "summary": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference", 
@@ -1477,7 +1477,7 @@
         "tags": [
             "Audio"
         ], 
-        "title": "AudioAmps/TDA7297Kit"
+        "title": "TDA7297 Audio Amp Kit"
     }, 
     "/Electronics101/NonInverting324/": {
         "summary": "demo LM324 OpAmp non-inverting DC gain mode", 
@@ -2098,7 +2098,7 @@
             "Oscillators", 
             "Power"
         ], 
-        "title": "LowVoltageGlowingLEDs"
+        "title": "Low-voltage Glowing LEDs"
     }, 
     "/Kinetics/BEAM/Vivian/": {
         "summary": "a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver", 
@@ -2162,7 +2162,7 @@
             "Audio", 
             "Music Chips"
         ], 
-        "title": "AudioEffectsChips/PX088A"
+        "title": "PX088A Audio Effects Chip"
     }, 
     "/Electronics101/SwitchPFET/": {
         "summary": "small-signal p-channel MOSFET switch with turn-on delay", 
@@ -2770,7 +2770,7 @@
             "OpAmp", 
             "Oscillators"
         ], 
-        "title": "HighFrequencyOpAmpOscillators"
+        "title": "High-frequency OpAmp Oscillators"
     }, 
     "/Electronics101/Power2662Inverter/": {
         "summary": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter", 
@@ -2806,7 +2806,7 @@
             "CMOS/TTL", 
             "Digital Logic"
         ], 
-        "title": "SyncJKCounter"
+        "title": "Synchronous JK Counter"
     }, 
     "/BoldportClub/TheMatrix/Firecracker/": {
         "summary": "a firecracker simulacrum running on the BoldportClub Matrix", 
@@ -3222,7 +3222,7 @@
         "tags": [
             "CMOS/TTL"
         ], 
-        "title": "Monostable122"
+        "title": "Monostable 74LS122"
     }, 
     "/Kinetics/StirlingEngineHB13/": {
         "summary": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine", 
@@ -3284,7 +3284,7 @@
             "CMOS/TTL", 
             "Digital Logic"
         ], 
-        "title": "AsyncJKCounter"
+        "title": "Asynchronous JK Counter"
     }, 
     "/Kinetics/HomopolarJouleThiefBlinky/": {
         "summary": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms", 
@@ -3382,7 +3382,7 @@
             "555 Timer", 
             "Oscillators"
         ], 
-        "title": "DoorbellKit"
+        "title": "555 Timer Doorbell Kit"
     }, 
     "/Kinetics/Solenoids/SolenoidDIY/": {
         "summary": "build and test a basic electromechanical solenoid", 
@@ -3567,7 +3567,7 @@
             "Arduino", 
             "BJT"
         ], 
-        "title": "TransistorTester"
+        "title": "Transistor Tester"
     }, 
     "/playground/ATtiny/TinyBlink/": {
         "summary": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
@@ -4267,7 +4267,7 @@
             "OpAmp", 
             "Audio"
         ], 
-        "title": "GuitarPracticeAmp"
+        "title": "TDA2050 Guitar Practice Amp"
     }, 
     "/BoldportClub/respot/": {
         "summary": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots", 

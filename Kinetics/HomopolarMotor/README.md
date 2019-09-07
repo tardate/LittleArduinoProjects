@@ -6,7 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![HomopolarMotor](https://img.youtube.com/vi/2aZ0dwhBsBo/0.jpg)](https://www.youtube.com/watch?v=2aZ0dwhBsBo)
 
-
 ## Notes
 
 The homopolar motor was the first electrical motor to be built.
@@ -39,6 +38,7 @@ establishing the electric field. In fact the demo video shows how easy it is to 
 ![The Build](./assets/HomopolarMotor_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Homopolar motor](https://en.wikipedia.org/wiki/Homopolar_motor) - wikipedia
 * [Homopolar Motor](https://youtu.be/wUqbvHOW6Us) - Boom! CrazyRussianHacker
 * [Homopolar Motors Explained](https://www.youtube.com/watch?v=ttD3Jw9OfOI) - Martin Simon

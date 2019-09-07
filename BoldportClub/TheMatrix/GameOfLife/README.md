@@ -51,6 +51,7 @@ But as it is, it runs perfectly fast enough - I even needed a delay between each
 ![Build](./assets/GameOfLife_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) - wikipedia
 * [AS1130 datasheet and info](ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.

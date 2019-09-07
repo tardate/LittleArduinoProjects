@@ -4,6 +4,10 @@ Understanding transconductance amplifiers and how they can be realised with an o
 
 ![Build](./assets/Transconductance_build.jpg?raw=true)
 
+Here's a quick demo
+
+[![clip](https://img.youtube.com/vi/VyAFWIHDLig/0.jpg)](https://www.youtube.com/watch?v=VyAFWIHDLig)
+
 ## Notes
 
 A Transconductance Amplifier is a circuit where differential input voltage produces a proportional output current. Specialised operational transconductance amplifiers such as the CA3080 used to be produced. The circuit here demonstrates how the effect can be achieved with a standard op-amp.

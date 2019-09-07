@@ -1,11 +1,10 @@
-# #191 LowVoltageGlowingLEDs
+# #191 Low-voltage Glowing LEDs
 
 A dual-LED glowing oscillator from a 1.5V supply
 
 Here's a quick video of the circuit in action:
 
 [![LowVoltageGlowingLEDs](https://img.youtube.com/vi/Epwdpe0EQ0Y/0.jpg)](https://www.youtube.com/watch?v=Epwdpe0EQ0Y)
-
 
 ## Notes
 
@@ -103,9 +102,9 @@ This is the protoboard layout:
 ![LowVoltageGlowingLEDs_pb_layout](./assets/LowVoltageGlowingLEDs_pb_layout.jpg?raw=true)
 
 ## Credits and References
+
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [LEAP#049 BJT RC Oscillator](../Oscillators/BjtRcOscillator) project
 * [LEAP#129 RelaxationJouleThief](../RelaxationJouleThief) project
-

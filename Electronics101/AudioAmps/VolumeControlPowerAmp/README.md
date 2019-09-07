@@ -2,7 +2,6 @@
 
 An LM386 fixed-gain audio power amp with volume control.
 
-
 ## Notes
 
 This variant in the line of LM386-based amplifiers is based on a design in [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=QUZ3GKIDBEXGNSG7).
@@ -28,6 +27,7 @@ How it performs:
 ![The Build](./assets/VolumeControlPowerAmp_build.jpg?raw=true)
 
 ## Credits and References
+
 * Based on "Project 05 - Variable-Gain Audio Power Amplifier" from [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=QUZ3GKIDBEXGNSG7)
 * [my LittleGem/A386 build](../LittleGem)
 * [Smokey Amps](http://www.smokeyamps.com/) - official site

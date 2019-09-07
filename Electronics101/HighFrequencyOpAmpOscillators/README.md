@@ -1,11 +1,10 @@
-# #142 HighFrequencyOpAmpOscillators
+# #142 High-frequency OpAmp Oscillators
 
 How fast can you push an Op-Amp oscillator?
 
 Here's a quick demo of the circuit in action:
 
 [![HighFrequencyOpAmpOscillators](https://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](https://www.youtube.com/watch?v=aBbVXSlS4nA)
-
 
 ## Notes
 
@@ -74,6 +73,7 @@ Maybe the components I have on hand are not up to normal spec: purchased online 
 ![The Build](./assets/HighFrequencyOpAmpOscillators_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Astable Multivibrator using Op-amp](http://www.electronics-tutorials.ws/opamp/op-amp-multivibrator.html)
 * [Op-amp Astables](http://www.learnabout-electronics.org/Oscillators/osc42.php)
 * [LM324N datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
@@ -81,4 +81,3 @@ Maybe the components I have on hand are not up to normal spec: purchased online 
 * [TL072CP datasheet](https://www.futurlec.com/Linear/TL072CP.shtml)
 * [LF347N datasheet](https://www.futurlec.com/Linear/LF347N.shtml)
 * [NE5534P datasheet](http://www.ti.com/product/NE5534/datasheet)
-

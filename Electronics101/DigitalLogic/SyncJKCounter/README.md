@@ -1,4 +1,4 @@
-# #320 DigitalLogic/SyncJKCounter
+# #320 Synchronous JK Counter
 
 A synchronous 8-bit counter built with JK Flip-Flops.
 
@@ -64,6 +64,7 @@ Protoboard build:
 ![Build](./assets/SyncJKCounter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS73 Datasheet](https://www.futurlec.com/74LS/74LS73.shtml)
 * [74LS08 Datasheet](https://www.futurlec.com/74LS/74LS08.shtml)
 * [LEAP#186 AsyncJKCounter](../AsyncJKCounter) - asynchronous 4-bit counter using JK Flip-Flops

@@ -6,7 +6,6 @@ Here's a quick video showing it in action..
 
 [![Build](./assets/Firecracker_build.jpg?raw=true)](https://www.youtube.com/watch?v=0L34ye-Hupc)
 
-
 ## Notes
 
 I was a bit dubious about the possibility of creating a decent firecracker animation on the 24x5 Matrix display.
@@ -30,6 +29,7 @@ Doxygen source documentation is available [here](https://leap.tardate.com/Boldpo
 ![Build](./assets/Firecracker_bb_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Wire library](https://www.arduino.cc/en/reference/wire)
 * [AS1130 datasheet and info](ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.

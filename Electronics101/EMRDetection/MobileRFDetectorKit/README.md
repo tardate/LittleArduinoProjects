@@ -2,7 +2,6 @@
 
 Build and investigate a commercially available "mobile phone signal" detector kit
 
-
 ## Notes
 
 I picked up a ["Mobile Phone Signal Flash Light Radiation Power DIY Kit"](https://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html) for USD1.15. Firstly to experiment with the kit/circuit, and secondly as its a pretty cheap way to get hold of a 1SS86 barrier diode.
@@ -17,6 +16,7 @@ Putting the circuit on a breadboard will I expect affect its behaviour, as I gue
 ![The Build](./assets/MobileRFDetectorKit_breadboard.jpg?raw=true)
 
 The breadboard build yields interesting (unexpected?) results:
+
 * with antenna attached, the circuit is permanently "on"
 * with no antenna, it detects a bunch of things:
   - flourescent light radiation
@@ -72,6 +72,7 @@ sensitivity of this circuit is incorrectly calibrated. I might come back to this
 |   2 | 10nF 103 ceramic capacitor    |
 
 ## Credits and references
+
 * [Mobile Phone Signal Flash Light Radiation Power DIY New Kit Components](https://www.aliexpress.com/item/Mobile-Phone-Signal-Flash-Light-Radiation-Power-DIY-New-Kit-Components/32298290064.html)
 * [1SS86 Datasheet](http://www.datasheetwiki.com/entry/1SS86-Datasheet-PDF)
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP

@@ -2,7 +2,6 @@
 
 A basic Smokey-inspired LM386 guitar power amp.
 
-
 ## Notes
 
 The "Little Gem" amplifier by [runoffgroove](http://www.runoffgroove.com/littlegem.html)
@@ -36,7 +35,6 @@ But even on a breadboard it's good enough to say it "basically works":
 
 I might put the components on a PCB next to get a better gauge of the true performance.
 
-
 ## Construction
 
 ![Breadboard](./assets/LittleGem_bb.jpg?raw=true)
@@ -46,6 +44,7 @@ I might put the components on a PCB next to get a better gauge of the true perfo
 ![The Build](./assets/LittleGem_build.jpg?raw=true)
 
 ## Credits and References
+
 * [my Smokey build](../Smokey)
 * [Little Gem & Little Gem MkII](http://www.runoffgroove.com/littlegem.html)
 * [General Guitar Gadgets A386 Amp](http://www.generalguitargadgets.com/effects-projects/amps/a386-amp/)

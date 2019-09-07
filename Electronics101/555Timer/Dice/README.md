@@ -1,11 +1,10 @@
-# #229 555Timer/Dice
+# #229 555 Timer Dice
 
 A 555/4017-based dice circuit with slow-down and auto power-off.
 
 Here's a quick video of the dice in action:
 
 [![555Timer/Dice](https://img.youtube.com/vi/5Vzk1R5ehA4/0.jpg)](https://www.youtube.com/watch?v=5Vzk1R5ehA4)
-
 
 ## Notes
 
@@ -163,6 +162,7 @@ All put together:
 ![The Build](./assets/Dice_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LED DICE (with Slow Down) Circuit](http://www.555-timer-circuits.com/led-dice.html) - 555-timer-circuits
 * [Electronic Dice Circuit](http://www.electroschematics.com/5011/electronic-dice/) - electroschematics
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)

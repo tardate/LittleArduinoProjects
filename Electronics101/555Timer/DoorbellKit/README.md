@@ -1,7 +1,8 @@
-# #201 555Timer/DoorbellKit
+# #201 555 Timer Doorbell Kit
 
 Another two-tone doorbell using a 555 timer oscillator
 
+![The Build](./assets/DoorbellKit_build.jpg?raw=true)
 
 ## Notes
 
@@ -50,9 +51,8 @@ The main point to note is the reset discharge over about 1.2s before the 555 shu
 
 ![The Schematic](./assets/DoorbellKit_schematic.jpg?raw=true)
 
-![The Build](./assets/DoorbellKit_build.jpg?raw=true)
-
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Doorbell DIY Kit](https://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html) - from a seller on aliexpress
 * [eBay Cheap: $0.75 Electronic Doorbell Kit NE555](https://youtu.be/zGkbNP23zo4) - Julian Ilett's build
