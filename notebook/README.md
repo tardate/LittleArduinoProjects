@@ -5,13 +5,14 @@
 
 ## Electronics Online/eBooks
 
-* [Circuit Theory](http://en.wikibooks.org/wiki/Circuit_Theory/All_Chapters)
 * [All About Circuits](http://www.allaboutcircuits.com/)
-* [Understanding Electronics Components](https://www.mikroe.com/ebooks/components-of-electronic-devices/introduction) - MikroElectronica Books
-* [Radio Receivers, from crystal set to stereo](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/introduction) - MikroElectronica Books
-* [Javascript® Electronic Notebook](http://www.k7mem.com/) by Martin E. Meserve
 * [American Radio History](http://www.americanradiohistory.com/) - archive of old electronics and radio mags
+* [Circuit Theory](http://en.wikibooks.org/wiki/Circuit_Theory/All_Chapters)
+* [Embedded Artistry](https://embeddedartistry.com) - an amazing website dedicated to designing, programming, manufacturing, and debugging embedded systems.
+* [Javascript® Electronic Notebook](http://www.k7mem.com/) by Martin E. Meserve
+* [Radio Receivers, from crystal set to stereo](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/introduction) - MikroElectronica Books
 * [Radio Hobbyist's Designbook](http://www.hanssummers.com/k6lha-design-book.html) by Hans Summers
+* [Understanding Electronics Components](https://www.mikroe.com/ebooks/components-of-electronic-devices/introduction) - MikroElectronica Books
 
 ## Design Guides
 
