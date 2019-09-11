@@ -1,9 +1,8 @@
-# #389 BJT/TwoStageCommonEmitterAmplifier
+# #389 Two-stage Common Emitter Amplifier
 
 Designing a two-stage common-emitter BJT amplifier.
 
 ![Build](./assets/TwoStageCommonEmitterAmplifier_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -16,7 +15,6 @@ Do *not* take my calculations as gospel. My main sources for the theory were
 and a [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE) YouTube tutorial by The Offset Volt:
 
 [![clip](https://img.youtube.com/vi/FbdZ46VdTjE/0.jpg)](https://www.youtube.com/watch?v=FbdZ46VdTjE)
-
 
 ### Designing a Single Stage for Gain ~ 10
 
@@ -34,7 +32,6 @@ and a [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46V
 Also:
 
 * r'e = hie/hFE = 10kΩ/400 = 25Ω
-
 
 #### Calculate collector + emmiter resistance for desired gain at the Q point
 
@@ -55,8 +52,7 @@ Base current at the q point
 
 Assume current through the gang at 10 x Ib as a rule of thumb to ensure "stiff" biasing i.e. 0.4 mA
 
-so combined resistance = [22.5kΩ](https://www.wolframalpha.com/input/?i=9V%2F0.4mA)
-
+So combined resistance = [22.5kΩ](https://www.wolframalpha.com/input/?i=9V%2F0.4mA)
 
 #### Calculate the resistance of R1 and R2 components of the bias gang
 
@@ -69,7 +65,6 @@ say 3kΩ (standard value)
 
 and therefore R1 = [19.5kΩ](https://www.wolframalpha.com/input/?i=22.5k%CE%A9+-+3k%CE%A9)
 say 20kΩ (standard value)
-
 
 #### Measure Performance - Single Stage
 
@@ -84,7 +79,6 @@ With 0.2V peak-peak 10kHz input, and Re = 100Ω (without emitter bypass), measur
 Conclusion: very close to design gain of 10, undistorted Class A performance.
 
 ![single-stage-10kHz](./assets/single-stage-10kHz.gif?raw=true)
-
 
 ### Adjusting Single Stage Design with Bypass
 
@@ -111,13 +105,12 @@ say 3.6kΩ (standard value)
 and therefore R1 = [18.9kΩ](https://www.wolframalpha.com/input/?i=22.5k%CE%A9-3.6k%CE%A9)
 say 20kΩ (standard value)
 
-
 ### Calculating Two-stage Performance with RL load
 
 With:
 
 * component values duplicated the from the single-stage design for two stages
-* with the extra 100Ω||100µF emitter bypass
+* with the extra `100Ω||100µF` emitter bypass
 * and RL = 2.2kΩ
 
 predicted performance calculated as follows:
@@ -136,15 +129,14 @@ Second stage:
 
 * assuming thermal voltage VT = kT/q = 25 mV
 * r'ej = VT/Ie = [7.5Ω](https://www.wolframalpha.com/input/?i=25mV%2F3.35mA)
-* A2 = Rc||RL/(Re2 + r'ej) = 1k||2.2kΩ/(100Ω + 7.5Ω) = [6.4](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9+%2B+1%2F2.2k%CE%A9)%2F(100%CE%A9%2B7.5%CE%A9))
+* A2 = `Rc||RL/(Re2 + r'ej)` = `1k||2.2kΩ/(100Ω + 7.5Ω)` = [6.4](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9+%2B+1%2F2.2k%CE%A9)%2F(100%CE%A9%2B7.5%CE%A9))
 * Rin(base) = ß(Re2 + r'ej) = 100(100Ω + 7.5Ω) = 10.75kΩ
-* Zin = Rin(base)||Rb1||Rb2 = 10.75kΩ||20kΩ||3.6kΩ = [2.38kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F10.75k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
-* A1 = Rc1||Zin/(Re1 + r'ej) = 1kΩ||2.38kΩ/(100Ω + 7.5Ω) = [6.55](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9%2B1%2F2.38k%CE%A9)%2F(100%CE%A9+%2B+7.5%CE%A9))
+* Zin = `Rin(base)||Rb1||Rb2` = `10.75kΩ||20kΩ||3.6kΩ` = [2.38kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F10.75k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
+* A1 = `Rc1||Zin/(Re1 + r'ej)` = `1kΩ||2.38kΩ/(100Ω + 7.5Ω)` = [6.55](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9%2B1%2F2.38k%CE%A9)%2F(100%CE%A9+%2B+7.5%CE%A9))
 * Total gain A = A1 * A2 = 6.4 * 6.55 = [41.92](https://www.wolframalpha.com/input/?i=6.4*6.55)
 
 Assuming headroom for say 7V peak-peak, input limit would be around [0.17V peak-peak](https://www.wolframalpha.com/input/?i=7V%2F41.92)
 before clipping.
-
 
 #### Measure Performance - Two Stage
 
@@ -158,9 +150,7 @@ With 0.1V peak-peak 10kHz input, and Re = 200Ω (with 100Ω/100µF bypass), meas
 Conclusion: predicted performance was quite close to the actual performance.
 And .. I have a functioning two-stage Class A amplifier to boot, with performance "in the ballpark" of the design.
 
-
 ![two-stage-10kHz](./assets/two-stage-10kHz.gif?raw=true)
-
 
 ### Performance With an Ugly-style Build
 
@@ -196,6 +186,7 @@ Testing with an ugly-style build:
 ![TwoStageCommonEmitterAmplifier_build](./assets/TwoStageCommonEmitterAmplifier_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE) by The Offset Volt
 * [Design of 2 stage BJT CE amplifier](http://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
 * [Electronic Principles by Albert Paul Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles)

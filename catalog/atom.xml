@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-07T08:50:44Z</updated>
+  <updated>2019-09-11T16:07:19Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/FPGA/Fomu/BuildNotifier/</id>
     <link href="https://leap.tardate.com/FPGA/Fomu/BuildNotifier/"/>
-    <updated>2019-09-06T19:35:50Z</updated>
+    <updated>2019-09-08T10:59:52Z</updated>
     <title>#494 Fomu Build Notifier</title>
     <summary>using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)</summary>
     <g:image_link>https://leap.tardate.com/FPGA/Fomu/BuildNotifier/assets/BuildNotifier_build.jpg</g:image_link>
@@ -24,7 +24,7 @@
   <entry>
     <id>https://leap.tardate.com/FPGA/Fomu/GettingStarted/</id>
     <link href="https://leap.tardate.com/FPGA/Fomu/GettingStarted/"/>
-    <updated>2019-09-04T14:52:19Z</updated>
+    <updated>2019-09-08T10:59:52Z</updated>
     <title>#493 Getting Started with Fomu</title>
     <summary>first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.</summary>
     <g:image_link>https://leap.tardate.com/FPGA/Fomu/GettingStarted/assets/GettingStarted_build.jpg</g:image_link>
@@ -1101,7 +1101,7 @@
     <id>https://leap.tardate.com/Electronics101/BJT/TwoStageCommonEmitterAmplifier/</id>
     <link href="https://leap.tardate.com/Electronics101/BJT/TwoStageCommonEmitterAmplifier/"/>
     <updated>2018-05-14T13:20:09Z</updated>
-    <title>#389 TwoStageCommonEmitterAmplifier</title>
+    <title>#389 Two-stage Common Emitter Amplifier</title>
     <summary>designing a two-stage common-emitter BJT amplifier</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BJT/TwoStageCommonEmitterAmplifier/assets/TwoStageCommonEmitterAmplifier_build.jpg</g:image_link>
     <category term="BJT"/>

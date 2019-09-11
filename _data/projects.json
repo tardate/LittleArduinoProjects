@@ -4231,7 +4231,7 @@
             "BJT", 
             "Amplifier"
         ], 
-        "title": "TwoStageCommonEmitterAmplifier"
+        "title": "Two-stage Common Emitter Amplifier"
     }, 
     "/BoldportClub/cordwood/aanimate/": {
         "summary": "run a demo animation using aaronjasso's Cordwood library", 
