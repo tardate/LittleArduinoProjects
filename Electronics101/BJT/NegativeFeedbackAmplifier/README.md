@@ -33,13 +33,25 @@ See [LEAP#389 TwoStageCommonEmitterAmplifier](../TwoStageCommonEmitterAmplifier)
 
 ![NegativeFeedbackAmplifier_bb_build](./assets/NegativeFeedbackAmplifier_bb_build.jpg?raw=true)
 
+Scope trace with a 1kHz 200mV peak-peak input and finely adjusted bias and feedback:
+
+CH1 (Yellow): input
+CH2 (Blue): output
+
 ![scope_bb](./assets/scope_bb.gif?raw=true)
 
 ## Protobaord Construction
 
-![protoboard_layout](./assets/protoboard_layout.jpg?raw=true)
+![protoboard_layout_and_board](./assets/protoboard_layout_and_board.jpg?raw=true)
+
+Under test:
 
 ![under_test](./assets/under_test.jpg?raw=true)
+
+Scope trace with a 1kHz 200mV peak-peak input and finely adjusted bias and feedback:
+
+CH1 (Yellow): input
+CH2 (Blue): output
 
 ![scope_out](./assets/scope_out.gif?raw=true)
 
