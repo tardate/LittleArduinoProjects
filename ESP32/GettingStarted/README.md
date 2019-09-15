@@ -23,12 +23,12 @@ The module I'm using is an ESP32-DevKitC V4 design:
 
 [![esp32-devkitc-functional-overview](./assets/esp32-devkitc-functional-overview.jpg?raw=true)](https://docs.espressif.com/projects/esp-idf/en/latest/hw-reference/get-started-devkitc.html)
 
-
 Some key features:
 
 * the EN button performs a reset
 * the BOOT button is used for programming (hold the button down while programming)
 * micro USB, for programming and/or power
+* 2 LEDs: one is a power indicator, the other is connected on port D2 and available for use.
 
 Power Supply Options:
 
@@ -38,6 +38,9 @@ Power Supply Options:
 
 Only one of the power options should be usde at a time.
 
+Pinout guide from lastminuteengineers:
+
+[![ESP32-Development-Board-Pinout.jpg](./assets/ESP32-Development-Board-Pinout.jpg?raw=true)](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
 
 ## MacOSX Installation
 
@@ -143,7 +146,7 @@ I (2173) wifi: mode : softAP (30:ae:a4:35:ef:55)
 
 Next step is to try and program it with the Arduino IDE. I'm using the IDE v1.8.9 at the time of writing.
 
-Beore programming the ESP32, it is necessary to isntall the appropriate board manager.
+Before programming the ESP32, it is necessary to isntall the appropriate board manager.
 The current list of 3rd party board managers is available at
 [https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls](https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls).
 
@@ -157,6 +160,7 @@ Once added, it is possible to search for and install esp32 in the Board Manager:
 ![ide_board_manager](./assets/ide_board_manager.png?raw=true)
 
 With that done, it is possible to select "ESP32 Dev Module" from the `Tools > Board` menu, and the examples will change accordingly.
+Compiling programs with this configuration is actually using [Arduino core for the ESP32](https://github.com/espressif/arduino-esp32).
 
 ### Programming Wifi Scanner
 
@@ -195,3 +199,5 @@ fit on a standard breadboard (only one side of the board will have space to conn
 * [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/) - espressif docs
 * [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 * [The Complete ESP32 Projects Guide](https://www.goodreads.com/book/show/47562312-the-complete-esp32-projects-guide) by Dogan Ibrahim
+* [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/) - excellent resource by lastminuteengineers
+* [Arduino core for the ESP32](https://github.com/espressif/arduino-esp32) - GitHub

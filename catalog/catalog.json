@@ -1,5 +1,12 @@
 [
     {
+        "description": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization", 
+        "relative_path": "ESP32/PublishingInternals", 
+        "id": "#497", 
+        "categories": "ESP32, JSON, WebServer, Sensors", 
+        "name": "Publishing Internals"
+    }, 
+    {
         "description": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example", 
         "relative_path": "ESP32/GettingStarted", 
         "id": "#496", 

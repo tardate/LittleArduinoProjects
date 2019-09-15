@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-15T15:36:48Z</updated>
+  <updated>2019-09-18T18:23:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/ESP32/PublishingInternals/</id>
+    <link href="https://leap.tardate.com/ESP32/PublishingInternals/"/>
+    <updated>2019-09-18T17:35:19Z</updated>
+    <title>#497 Publishing Internals</title>
+    <summary>Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization</summary>
+    <g:image_link>https://leap.tardate.com/ESP32/PublishingInternals/assets/PublishingInternals_build.jpg</g:image_link>
+    <category term="ESP32"/>
+    <category term="JSON"/>
+    <category term="WebServer"/>
+    <category term="Sensors"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/ESP32/GettingStarted/</id>
     <link href="https://leap.tardate.com/ESP32/GettingStarted/"/>
-    <updated>2019-09-15T15:35:09Z</updated>
+    <updated>2019-09-16T15:25:24Z</updated>
     <title>#496 ESP32 Getting Started</title>
     <summary>Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example</summary>
     <g:image_link>https://leap.tardate.com/ESP32/GettingStarted/assets/GettingStarted_build.jpg</g:image_link>

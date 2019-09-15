@@ -2136,6 +2136,17 @@
         ], 
         "title": "Shifty"
     }, 
+    "/ESP32/PublishingInternals/": {
+        "summary": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization", 
+        "id": 497, 
+        "tags": [
+            "ESP32", 
+            "JSON", 
+            "WebServer", 
+            "Sensors"
+        ], 
+        "title": "Publishing Internals"
+    }, 
     "/playground/Lcd5110/DIYShield/": {
         "summary": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping", 
         "id": 377, 

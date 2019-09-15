@@ -1,0 +1,7 @@
+{
+    "id": "#497",
+    "name": "Publishing Internals",
+    "description": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization",
+    "categories": "ESP32, JSON, WebServer, Sensors",
+    "relative_path": "ESP32/PublishingInternals"
+}

@@ -94,3 +94,6 @@
 [submodule "libraries/Adafruit_MQTT_Library"]
 	path = libraries/Adafruit_MQTT_Library
 	url = https://github.com/adafruit/Adafruit_MQTT_Library
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson

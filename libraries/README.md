@@ -7,6 +7,7 @@ Some projects require additional libraries. For example:
 * [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) - for monochrome OLED displays
 * [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
+* [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
 * [DS3232RTC](https://github.com/JChristensen/DS3232RTC) - DS3232-based realtime clock module control
 * [EnableInterrupt](https://github.com/GreyGnome/EnableInterrupt) - Flexible interrupt management

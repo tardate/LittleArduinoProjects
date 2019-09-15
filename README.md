@@ -1,6 +1,6 @@
-# 496 Little Electronics and Arduino Projects
+# 497 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ESP32 Getting Started](./ESP32/GettingStarted) - getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example.
+> Latest addition:sparkles: [Publishing Internals](./ESP32/PublishingInternals) - publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
