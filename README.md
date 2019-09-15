@@ -1,6 +1,6 @@
-# 495 Little Electronics and Arduino Projects
+# 496 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Negative Feedback Amplifier](.Electronics101/BJT/NegativeFeedbackAmplifier) - examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs.
+> Latest addition:sparkles: [ESP23 Getting Started](./ESP32/GettingStarted) - getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example", 
+        "relative_path": "ESP32/GettingStarted", 
+        "id": "#496", 
+        "categories": "ESP23", 
+        "name": "ESP23 Getting Started"
+    }, 
+    {
         "description": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
         "relative_path": "Electronics101/BJT/NegativeFeedbackAmplifier", 
         "id": "#495", 

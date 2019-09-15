@@ -1,0 +1,7 @@
+{
+    "id": "#496",
+    "name": "ESP23 Getting Started",
+    "description": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example",
+    "categories": "ESP23",
+    "relative_path": "ESP32/GettingStarted"
+}

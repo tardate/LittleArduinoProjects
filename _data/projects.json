@@ -382,6 +382,15 @@
         ], 
         "title": "xdiskclk"
     }, 
+    "/Electronics101/DiodeLogic/OR/": {
+        "summary": "test the basic diode-logic OR gate", 
+        "id": 109, 
+        "tags": [
+            "Diode", 
+            "Logic Gates"
+        ], 
+        "title": "DiodeLogic/OR"
+    }, 
     "/BoldportClub/TheMatrix/LedTest/": {
         "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
         "id": 300, 
@@ -1247,14 +1256,13 @@
         ], 
         "title": "Power/Any2AnyPowerPack"
     }, 
-    "/Electronics101/DiodeLogic/OR/": {
-        "summary": "test the basic diode-logic OR gate", 
-        "id": 109, 
+    "/ESP32/GettingStarted/": {
+        "summary": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example", 
+        "id": 496, 
         "tags": [
-            "Diode", 
-            "Logic Gates"
+            "ESP23"
         ], 
-        "title": "DiodeLogic/OR"
+        "title": "ESP23 Getting Started"
     }, 
     "/Equipment/Saike909D/": {
         "summary": "unboxing and initial review of the Saike 909D 3-in-1 hot air rework station", 
