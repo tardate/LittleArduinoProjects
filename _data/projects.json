@@ -1260,9 +1260,9 @@
         "summary": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example", 
         "id": 496, 
         "tags": [
-            "ESP23"
+            "ESP32"
         ], 
-        "title": "ESP23 Getting Started"
+        "title": "ESP32 Getting Started"
     }, 
     "/Equipment/Saike909D/": {
         "summary": "unboxing and initial review of the Saike 909D 3-in-1 hot air rework station", 
