@@ -63,6 +63,11 @@ The [page_design.html](./page_design.html) file was used during development. I l
 and it has a hard-coded reference to the IP that the ESP32 is sitting on. In this way, I could
 fine-tune the web page before building it into the code that is written to the ESP32 itself.
 
+The page uses some assets and libraries that are side-loaded i.e. not served directly from the ESP32:
+
+* [Bootstrap](https://getbootstrap.com/) - for some simple layout and format help
+* [Google Charts](https://developers.google.com/chart/)
+
 ### Building and Running the Example
 
 Copy `settings.h.template` to `settings.h` and fill in the WiFi access credentials before compiling.
@@ -85,3 +90,5 @@ There is no "circuit" to construct so far - simply plugging the ESP32 into the U
 
 * [LEAP#496 ESP32 Getting Started](../GettingStarted) - background on programming the ESP32 with the Arduino IDE
 * [ESP32 ArduinoJson v6: Serializing JSON](https://techtutorialsx.com/2019/05/02/esp32-arduinojson-v6-serializing-json/)
+* [Bootstrap](https://getbootstrap.com/) - for some simple layout and format help
+* [Google Charts](https://developers.google.com/chart/)
