@@ -1,4 +1,4 @@
-# #296 QSOPBreakout/SolarPendulum
+# #296 QSOPBreakout Solar Pendulum
 
 Build a solar-powered pendulum similar to the popular "solar wobble/flip-flop toys" on the Boldport QSOP breakout board.
 
@@ -61,7 +61,7 @@ ending the pulse becomes much more critical lest it act to dampen the pendulum o
 
 ## Sizing the Coil
 
-I fudged this also. The coil I'm using is perhaps 100+ turns of enamelled winding wire with 1cm outer diameter.
+I fudged this also. The coil I'm using is perhaps 100+ turns of 0.2mm enamelled winding wire with 1cm outer diameter.
 It is air-core. Works just well enough!
 
 ## Circuit
@@ -84,6 +84,9 @@ where through-hole.
 Rear of the board is where the coil is to ba attached. Only five bodge wires required, and they provided some fine pitch soldering practice!
 
 ![construction_2](./assets/construction_2.jpg?raw=true)
+
+The coil in the final build is an air coil perhaps 100+ turns of 0.2mm enamelled winding wire, with a coil diameter of 16mm and width of 5mm.
+With my LCR45 meter, it measures at 248µH, 3.6Ω (DC).
 
 With coil attached..
 
