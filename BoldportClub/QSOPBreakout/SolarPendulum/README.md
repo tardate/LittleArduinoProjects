@@ -46,6 +46,9 @@ I also tested a larger panel with open circuit voltage of around 3.5-4V; it work
 
 For this reason I also selected the very-low-forward-voltage 1N5819 as the diode. General purpose NPN and PNP transistors provide the switching (2N3904/2N3906).
 
+Note: if the pendulum is not swinging, gently hold the pendulum you should feel at least a weak pulse. If there's no pulse at all, take a closer look at the circuit to make
+sure it is built correctly, but also check that the voltage from the PVC is sufficient to at least overcome the forward voltage of the diode.
+
 ## Sizing the Pendulum
 
 The weight and arc of the pendulum are obviously important design factors as they influence the resonant frequency.
@@ -54,10 +57,12 @@ With such small electromagenetic pulses, we don't want the pendulum "fighting" t
 Now I must admit I skipped the calculations for now. What I do know is that the pendulum is not ideal in my current build.
 The weight is a little too much for the arc. It would probably work better with a longer arc (slowing it down).
 
-I have neodymium magents on the end of the pendulum, oriented to be repelled when the coil is pulsed.
+I have small but relatively strong neodymium magnets on the end of the pendulum, oriented to be repelled when the coil is pulsed.
 
 It also works when the magnets are oriented to be attracted when the coil is pulsed, but this tends not to work so well, as the timing of
 ending the pulse becomes much more critical lest it act to dampen the pendulum oscillation.
+
+I played around with the positioning to get the best effect - basically at rest, the pendulum is aligned just off-centre from the windings i.e. so when it is repelled, it will push the pendulum off in the right direction to start it swinging.
 
 ## Sizing the Coil
 
