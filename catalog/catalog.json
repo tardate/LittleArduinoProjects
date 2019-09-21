@@ -1,5 +1,12 @@
 [
     {
+        "description": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects", 
+        "relative_path": "Electronics101/TeslaCoil/MusicalKit", 
+        "id": "#498", 
+        "categories": "Audio, Power, Oscillators", 
+        "name": "Tesla Coil Plasma Speaker Kit"
+    }, 
+    {
         "description": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization", 
         "relative_path": "ESP32/PublishingInternals", 
         "id": "#497", 

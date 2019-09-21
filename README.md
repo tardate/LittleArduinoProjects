@@ -1,6 +1,6 @@
-# 497 Little Electronics and Arduino Projects
+# 498 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Publishing Internals](./ESP32/PublishingInternals) - publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization.
+> Latest addition:sparkles: [Tesla Coil Plasma Speaker Kit](./Electronics101/TeslaCoil/MusicalKit) - playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

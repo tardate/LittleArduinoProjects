@@ -1256,6 +1256,16 @@
         ], 
         "title": "Power/Any2AnyPowerPack"
     }, 
+    "/Electronics101/TeslaCoil/MusicalKit/": {
+        "summary": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects", 
+        "id": 498, 
+        "tags": [
+            "Audio", 
+            "Power", 
+            "Oscillators"
+        ], 
+        "title": "Tesla Coil Plasma Speaker Kit"
+    }, 
     "/ESP32/GettingStarted/": {
         "summary": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example", 
         "id": 496, 
