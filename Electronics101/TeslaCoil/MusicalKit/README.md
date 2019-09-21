@@ -87,6 +87,19 @@ with channels connected to J1, J2, J3 (see schematic).
 
 Note the frequency: 3.9 MHz, just a bit above the 80m amateur radio band. This is a few components away from being a morse/CW transmitter;-)
 
+My testing showed:
+
+* at takes about 14V to start arcing
+* increased up to 20V but after about 16V it doesn't have an appreciable affect on the arc or sound volume
+
+Some measurements of actual power consumption at different voltages:
+
+| Voltage | Current | Power |
+|---------|---------|-------|
+| 14V     | 0.5A    | 7W    |
+| 18V     | 0.7A    | 13W   |
+
+
 ## Testing the Completed Kit
 
 All finished:
@@ -108,3 +121,4 @@ It can even be used as a basic nixie tube tester!
 * [Tesla Transformer: Slayer-Exciter-Circuit](https://steemit.com/technology/@elektr1ker/tesla-transformer-slayer-exciter-circuit) - very good
 * [Slayer Exciter Circuit with a Tesla Coil](https://www.electroboom.com/?p=521)
 * [How to Build a Slayer Exciter](https://www.instructables.com/id/How-to-Build-a-Slayer-Exciter/) - but note theory of operation is a bit dodgy
+* [Switched on Pop](https://www.switchedonpop.com/baby-shark/) - for tips on recovering from Baby Shark
