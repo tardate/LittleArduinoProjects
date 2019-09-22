@@ -81,7 +81,7 @@ EOS
 {
     "id": "#xxx",
     "name": "${project_name}",
-    "description": "enter description",
+    "description": "description",
     "categories": "",
     "relative_path": "${full_path}"
 }
@@ -124,7 +124,7 @@ void loop() {
 
 EOS
 
-  cp bin/templates/template.fzz "${full_path}/${project_name}.fzz"
+  cp catalog/templates/template.fzz "${full_path}/${project_name}.fzz"
   echo "project initialised: ${full_path}"
   open "${full_path}"
 }
