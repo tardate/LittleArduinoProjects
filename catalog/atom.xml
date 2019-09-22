@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-21T15:28:05Z</updated>
+  <updated>2019-09-22T13:44:48Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/</id>
     <link href="https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/"/>
-    <updated>2019-09-21T14:15:43Z</updated>
+    <updated>2019-09-21T15:29:38Z</updated>
     <title>#498 Tesla Coil Plasma Speaker Kit</title>
     <summary>playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/assets/MusicalKit_build.jpg</g:image_link>
@@ -804,12 +804,12 @@
     <category term="LCD"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/SDR/LimeSDR/FirstLook/</id>
-    <link href="https://leap.tardate.com/SDR/LimeSDR/FirstLook/"/>
+    <id>https://leap.tardate.com/Radio/SDR/LimeSDR/FirstLook/</id>
+    <link href="https://leap.tardate.com/Radio/SDR/LimeSDR/FirstLook/"/>
     <updated>2018-10-10T11:56:00Z</updated>
-    <title>#421 LimeSDR/FirstLook</title>
+    <title>#421 LimeSDR First Look</title>
     <summary>unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host</summary>
-    <g:image_link>https://leap.tardate.com/SDR/LimeSDR/FirstLook/assets/FirstLook_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Radio/SDR/LimeSDR/FirstLook/assets/FirstLook_build.jpg</g:image_link>
     <category term="SDR"/>
   </entry>
   <entry>
@@ -1519,22 +1519,22 @@
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/SDR/DecodingACARS/</id>
-    <link href="https://leap.tardate.com/SDR/DecodingACARS/"/>
+    <id>https://leap.tardate.com/Radio/SDR/DecodingACARS/</id>
+    <link href="https://leap.tardate.com/Radio/SDR/DecodingACARS/"/>
     <updated>2017-10-29T07:37:36Z</updated>
     <title>#352 Decoding ACARS</title>
     <summary>decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX</summary>
-    <g:image_link>https://leap.tardate.com/SDR/DecodingACARS/assets/DecodingACARS_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Radio/SDR/DecodingACARS/assets/DecodingACARS_build.jpg</g:image_link>
     <category term="SDR"/>
     <category term="Radio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/SDR/RtlSdrDongle/</id>
-    <link href="https://leap.tardate.com/SDR/RtlSdrDongle/"/>
+    <id>https://leap.tardate.com/Radio/SDR/RtlSdrDongle/</id>
+    <link href="https://leap.tardate.com/Radio/SDR/RtlSdrDongle/"/>
     <updated>2017-10-29T07:37:36Z</updated>
     <title>#351 RTL-SDR Dongle</title>
     <summary>getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)</summary>
-    <g:image_link>https://leap.tardate.com/SDR/RtlSdrDongle/assets/RtlSdrDongle_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Radio/SDR/RtlSdrDongle/assets/RtlSdrDongle_build.jpg</g:image_link>
     <category term="SDR"/>
     <category term="Radio"/>
   </entry>

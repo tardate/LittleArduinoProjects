@@ -1,7 +1,0 @@
-{
-    "id": "#421", 
-    "name": "LimeSDR/FirstLook", 
-    "description": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
-    "categories": "SDR", 
-    "relative_path": "SDR/LimeSDR/FirstLook"
-}

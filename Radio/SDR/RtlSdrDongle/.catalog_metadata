@@ -1,0 +1,7 @@
+{
+    "id": "#351",
+    "name": "RTL-SDR Dongle",
+    "description": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)",
+    "categories": "SDR, Radio",
+    "relative_path": "Radio/SDR/RtlSdrDongle"
+}

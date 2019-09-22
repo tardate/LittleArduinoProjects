@@ -1,4 +1,4 @@
-# #352 DecodingACARS
+# #352 Decoding ACARS
 
 Decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX.
 

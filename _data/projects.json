@@ -467,15 +467,6 @@
         ], 
         "title": "MinimalLCOscillator"
     }, 
-    "/SDR/RtlSdrDongle/": {
-        "summary": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)", 
-        "id": 351, 
-        "tags": [
-            "SDR", 
-            "Radio"
-        ], 
-        "title": "RTL-SDR Dongle"
-    }, 
     "/Electronics101/LCResonator/": {
         "summary": "measure the resonant frequency of an LC circuit or inductance of an inductor ", 
         "id": 195, 
@@ -782,6 +773,15 @@
             "ATmel"
         ], 
         "title": "ATtiny/At8MHz"
+    }, 
+    "/Radio/SDR/DecodingACARS/": {
+        "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
+        "id": 352, 
+        "tags": [
+            "SDR", 
+            "Radio"
+        ], 
+        "title": "Decoding ACARS"
     }, 
     "/Electronics101/BreatheLamp/": {
         "summary": "build and test a common LED visual effect circuit", 
@@ -1230,6 +1230,23 @@
         ], 
         "title": "Mixers/RFDiodeRing"
     }, 
+    "/Radio/SDR/RtlSdrDongle/": {
+        "summary": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)", 
+        "id": 351, 
+        "tags": [
+            "SDR", 
+            "Radio"
+        ], 
+        "title": "RTL-SDR Dongle"
+    }, 
+    "/Radio/SDR/LimeSDR/FirstLook/": {
+        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
+        "id": 421, 
+        "tags": [
+            "SDR"
+        ], 
+        "title": "LimeSDR First Look"
+    }, 
     "/Electronics101/Electret/SoundLevelTrigger/": {
         "summary": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone", 
         "id": 482, 
@@ -1551,15 +1568,6 @@
             "Arduino"
         ], 
         "title": "DS18S20/OneWireReading"
-    }, 
-    "/SDR/DecodingACARS/": {
-        "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
-        "id": 352, 
-        "tags": [
-            "SDR", 
-            "Radio"
-        ], 
-        "title": "Decoding ACARS"
     }, 
     "/Electronics101/WienBridgeAudioToneGenerator/": {
         "summary": "fixed-frequency tone generator based on a Wien Bridge Oscillator", 
@@ -2022,14 +2030,6 @@
             "Piezo"
         ], 
         "title": "PiezoVibrationDetector"
-    }, 
-    "/SDR/LimeSDR/FirstLook/": {
-        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
-        "id": 421, 
-        "tags": [
-            "SDR"
-        ], 
-        "title": "LimeSDR/FirstLook"
     }, 
     "/playground/RelayControlTest/": {
         "summary": "quick test to drive a motor with a common relay using NPN switching circuit under Arduino control", 
@@ -4317,19 +4317,14 @@
         ], 
         "title": "BoldportClub/respot"
     }, 
-    "/BoldportClub/TheCuttle/ScopeTag/": {
-        "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
-        "id": 267, 
+    "/Electronics101/CD4070/Oscillator/": {
+        "summary": "examine a classic CD4070 oscillator design and variations", 
+        "id": 297, 
         "tags": [
-            "Boldport", 
-            "ATmega", 
-            "ATmel", 
-            "Arduino", 
-            "Digital Pot", 
-            "MCP42010", 
-            "Oscilloscope"
+            "CMOS", 
+            "Oscillators"
         ], 
-        "title": "Cuttle Scope Tag"
+        "title": "CD4070/Oscillator"
     }, 
     "/Electronics101/RFSwitch/": {
         "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 
@@ -4562,14 +4557,19 @@
         ], 
         "title": "Mixers"
     }, 
-    "/Electronics101/CD4070/Oscillator/": {
-        "summary": "examine a classic CD4070 oscillator design and variations", 
-        "id": 297, 
+    "/BoldportClub/TheCuttle/ScopeTag/": {
+        "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
+        "id": 267, 
         "tags": [
-            "CMOS", 
-            "Oscillators"
+            "Boldport", 
+            "ATmega", 
+            "ATmel", 
+            "Arduino", 
+            "Digital Pot", 
+            "MCP42010", 
+            "Oscilloscope"
         ], 
-        "title": "CD4070/Oscillator"
+        "title": "Cuttle Scope Tag"
     }, 
     "/Electronics101/ML741/Inverter/": {
         "summary": "test an inverter circuit using the ML741 discrete component opamp", 

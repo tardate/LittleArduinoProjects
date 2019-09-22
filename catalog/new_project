@@ -24,7 +24,6 @@ Usage:
   $0 pi ProjectName  # new PIC project
   $0 pg ProjectName  # new playground project
   $0 ra ProjectName  # new Radio project
-  $0 sd ProjectName  # new SDR project
   $0 st ProjectName  # new STM32 project
 
 EOF
@@ -188,10 +187,6 @@ pi | pic)
 
 ra | radio)
   make_project "Radio" "${2}"
-  ;;
-
-sd | sdr)
-  make_project "SDR" "${2}"
   ;;
 
 st | stm)

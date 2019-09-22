@@ -540,10 +540,10 @@
     }, 
     {
         "description": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
-        "relative_path": "SDR/LimeSDR/FirstLook", 
+        "relative_path": "Radio/SDR/LimeSDR/FirstLook", 
         "id": "#421", 
         "categories": "SDR", 
-        "name": "LimeSDR/FirstLook"
+        "name": "LimeSDR First Look"
     }, 
     {
         "description": "playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound", 
@@ -1023,14 +1023,14 @@
     }, 
     {
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
-        "relative_path": "SDR/DecodingACARS", 
+        "relative_path": "Radio/SDR/DecodingACARS", 
         "id": "#352", 
         "categories": "SDR, Radio", 
         "name": "Decoding ACARS"
     }, 
     {
         "description": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)", 
-        "relative_path": "SDR/RtlSdrDongle", 
+        "relative_path": "Radio/SDR/RtlSdrDongle", 
         "id": "#351", 
         "categories": "SDR, Radio", 
         "name": "RTL-SDR Dongle"
