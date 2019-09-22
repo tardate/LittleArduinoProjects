@@ -401,6 +401,17 @@
         ], 
         "title": "TheMatrix/LedTest"
     }, 
+    "/Radio/LPD433/RFSwitchASK/": {
+        "summary": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 
+        "id": 64, 
+        "tags": [
+            "Radio", 
+            "ASK", 
+            "Arduino", 
+            "LPD433"
+        ], 
+        "title": "ASK RF Switch"
+    }, 
     "/playground/PushbuttonLED/": {
         "summary": "Momentary push button switch is used to toggle the LED on and off", 
         "id": 4, 
@@ -3027,16 +3038,6 @@
         ], 
         "title": "XYplotter"
     }, 
-    "/playground/RFSwitchASK/": {
-        "summary": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 
-        "id": 64, 
-        "tags": [
-            "Radio", 
-            "ASK", 
-            "Arduino"
-        ], 
-        "title": "RFSwitchASK"
-    }, 
     "/BoldportClub/pips/": {
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter", 
         "id": 402, 
@@ -3306,6 +3307,16 @@
             "MPR121"
         ], 
         "title": "CapacitiveTouchOrgan"
+    }, 
+    "/Radio/LPD433/RFSwitch/": {
+        "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 
+        "id": 63, 
+        "tags": [
+            "Radio", 
+            "OpAmp", 
+            "LPD433"
+        ], 
+        "title": "RFSwitch"
     }, 
     "/Electronics101/Connectors/RF/": {
         "summary": "notes on miscellaneous RF connectors", 
@@ -4325,15 +4336,6 @@
             "Oscillators"
         ], 
         "title": "CD4070/Oscillator"
-    }, 
-    "/Electronics101/RFSwitch/": {
-        "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 
-        "id": 63, 
-        "tags": [
-            "Radio", 
-            "OpAmp"
-        ], 
-        "title": "RFSwitch"
     }, 
     "/Electronics101/GuitarEffects/Goblin/": {
         "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications", 

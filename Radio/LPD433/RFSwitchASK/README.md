@@ -1,6 +1,8 @@
-# #064 RFSwitchASK
+# #064 ASK RF Switch
 
 Simple data communications using ASK protocol over 433Mhz RF transmitter and receiver set.
+
+![The Build](./assets/RFSwitchASK_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
@@ -9,7 +11,7 @@ Here's a quick video of the circuit in action:
 
 ## Notes
 
-This is a continuation of the [RFSwitch](../../Electronics101/RFSwitch) project which demonstrated simple
+This is a continuation of the [LEAP#063 RFSwitch](../RFSwitch) project which demonstrated simple
 RF analog communication with a pair of inexpensive 433 MHz modules.
 
 This project adds microcontrollers at both ends and runs a digital transission over the RF link using an
@@ -18,7 +20,7 @@ This project adds microcontrollers at both ends and runs a digital transission o
 Here I'm using the ASK implementation provided by the [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/) library.
 
 One thing that became immediately clear is that the ASK protocol has done an excellent job of dealing with
-the noise that was so much in evidence with the analog [RFSwitch](../../Electronics101/RFSwitch) project.
+the noise that was so much in evidence with the analog RFSwitch project.
 
 I've only been transmitting at short distances however (5m max), but I've yet to even need to attach an antenna to the RF modules.
 
@@ -44,11 +46,10 @@ It then sets its LED in accordance. So when sender/receiver are running, their r
 
 ![The Schematic](./assets/RFSwitchASK_schematic.jpg?raw=true)
 
-![The Build](./assets/RFSwitchASK_build.jpg?raw=true)
-
 
 ## Credits and References
-* [RFSwitch](../../Electronics101/RFSwitch) project - simple RF analog communication without microcontrollers
+
+* [LEAP#063 RFSwitch](../RFSwitch) project - simple RF analog communication without microcontrollers
 * [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/) library original sources
 * [RadioHead on GitHub](https://github.com/tardate/RadioHead) - my fork
 * [1 pair (2pcs)433Mhz RF transmitter and receiver link kit](https://www.aliexpress.com/item/Best-prices-1-pair-2pcs-433Mhz-RF-transmitter-and-receiver-link-kit-for-Arduino/1973229871.html) - this is the product I am testing with. Not bad at 0.80USD with free shipping!

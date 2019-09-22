@@ -1,7 +1,0 @@
-{
-    "id": "#063", 
-    "name": "RFSwitch", 
-    "description": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 
-    "categories": "Radio, OpAmp", 
-    "relative_path": "Electronics101/RFSwitch"
-}

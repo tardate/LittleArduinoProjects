@@ -3039,16 +3039,16 @@
     }, 
     {
         "description": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set", 
-        "relative_path": "playground/RFSwitchASK", 
+        "relative_path": "Radio/LPD433/RFSwitchASK", 
         "id": "#064", 
-        "categories": "Radio, ASK, Arduino", 
-        "name": "RFSwitchASK"
+        "categories": "Radio, ASK, Arduino, LPD433", 
+        "name": "ASK RF Switch"
     }, 
     {
         "description": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing", 
-        "relative_path": "Electronics101/RFSwitch", 
+        "relative_path": "Radio/LPD433/RFSwitch", 
         "id": "#063", 
-        "categories": "Radio, OpAmp", 
+        "categories": "Radio, OpAmp, LPD433", 
         "name": "RFSwitch"
     }, 
     {
