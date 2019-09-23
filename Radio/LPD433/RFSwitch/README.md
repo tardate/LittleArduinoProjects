@@ -26,10 +26,19 @@ Before diving into using higher-level data protocols over the RF link, I was ins
 
 So in this circuit, there's no microcontroller or anything fancy, just the RF modules communicating with each other and transmitting a button press to blink a remote LED.
 
+### Module Specifications
+
+As much as I can glean from available datasheets:
+
+* Frequency: 433Mhz
+* Modulation: ASK
+* Receiver Data Output: High - 1/2 Vcc, Low - 0.7v
+* Transmitor Input Voltage: 3-12V (high voltage = more transmitting power)
+
 ### Sender
 
 Simply has a button wired up with LED indicator. When not pressed, the Data line is pulled low. When the button is pressed, it pulls the data pin high.
-The LEd incdicator on the sender-side is mrely to confirm that a data signal was raised.
+The LED indicator on the sender-side is merely to confirm that a data signal was raised.
 I've wired up the sender to a 9V battery.
 
 ### Receiver
@@ -50,9 +59,24 @@ Next up I'll be looking at using the RF links with an Arduino. I'm interested to
 
 ### Construction
 
+Here's the breadboard layout and schematic for the simple RF switch:
+
 ![The Breadboard](./assets/RFSwitch_bb.jpg?raw=true)
 
 ![The Schematic](./assets/RFSwitch_schematic.jpg?raw=true)
+
+### Modification - Low-Power Transmitter
+
+
+Looking at the transmitter-side, it remains powered up and keeping the channel open even when there's no button press.
+Perhaps we could only power up the transmitter when it is time to send a button press?
+
+This turns out to be very simple - just alter the transmitter layout so the pushbutton is a power switch for the transmitter configred for continuous transmission.
+From the little testing I've done, this works just fine!
+
+![The Breadboard](./assets/RFSwitch_LowPowerTx_bb.jpg?raw=true)
+
+![The Schematic](./assets/RFSwitch_LowPowerTx_schematic.jpg?raw=true)
 
 ## Credits and References
 
