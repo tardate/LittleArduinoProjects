@@ -1,11 +1,12 @@
-# #059 555Timer/TwoToneDoorbell
+# #059 Two-tone Doorbell
 
 A basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation.
+
+![The Build](./assets/TwoToneDoorbell_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
 [![TwoToneDoorbell](https://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](https://www.youtube.com/watch?v=yD5Hbg0qQJE)
-
 
 ## Notes
 
@@ -45,7 +46,9 @@ A couple of bypass capacitors minimize the impact of voltage spikes and noise on
 
 ![The Schematic](./assets/TwoToneDoorbell_schematic.jpg?raw=true)
 
-![The Build](./assets/TwoToneDoorbell_build.jpg?raw=true)
+Testing on a breadboard:
+
+![TwoToneDoorbell_bb_build](./assets/TwoToneDoorbell_bb_build.jpg?raw=true)
 
 ### Protoboard Build
 
@@ -56,8 +59,8 @@ short-term replacement for a corroded/failed bell.
 
 ![Protoboard layout](./assets/TwoToneDoorbell_pcb_layout.jpg?raw=true)
 
-
 ## Credits and References
+
 * [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)

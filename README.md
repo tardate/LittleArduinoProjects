@@ -1,4 +1,4 @@
-# 521 Little Electronics and Arduino Projects
+# 522 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [CK9561 Audio Effects Chip](./Audio/AudioEffectsChips/CK9561) - figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!.
 

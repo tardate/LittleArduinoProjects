@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-21T14:06:08Z</updated>
+  <updated>2019-12-26T15:24:02Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Radio/LPD433/RFDoorbell/</id>
+    <link href="https://leap.tardate.com/Radio/LPD433/RFDoorbell/"/>
+    <updated>2019-12-26T15:20:34Z</updated>
+    <title>#522 Remote Doorbell</title>
+    <summary>A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect</summary>
+    <g:image_link>https://leap.tardate.com/Radio/LPD433/RFDoorbell/assets/RFDoorbell_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="OpAmp"/>
+    <category term="LPD433"/>
+    <category term="Music Chips"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/CK9561/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/CK9561/"/>
-    <updated>2019-12-21T13:53:16Z</updated>
+    <updated>2019-12-22T04:55:25Z</updated>
     <title>#521 CK9561 Audio Effects Chip</title>
     <summary>Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/CK9561/assets/CK9561_build.jpg</g:image_link>
@@ -4765,8 +4777,8 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/TwoToneDoorbell/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/TwoToneDoorbell/"/>
-    <updated>2015-06-04T13:47:47Z</updated>
-    <title>#059 TwoToneDoorbell</title>
+    <updated>2019-12-26T15:21:44Z</updated>
+    <title>#059 Two-tone Doorbell</title>
     <summary>basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/TwoToneDoorbell/assets/TwoToneDoorbell_build.jpg</g:image_link>
     <category term="555 Timer"/>

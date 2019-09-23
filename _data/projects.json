@@ -1718,6 +1718,17 @@
         ], 
         "title": "VoltageDoublerChargePump"
     }, 
+    "/Radio/LPD433/RFDoorbell/": {
+        "summary": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect", 
+        "id": 522, 
+        "tags": [
+            "Radio", 
+            "OpAmp", 
+            "LPD433", 
+            "Music Chips"
+        ], 
+        "title": "Remote Doorbell"
+    }, 
     "/Electronics101/BidirectionalLevelShifter/": {
         "summary": "test a basic bi-directional 5/3.3V level shifter circuit", 
         "id": 133, 
@@ -3194,14 +3205,14 @@
         ], 
         "title": "RGBCalibrate"
     }, 
-    "/Electronics101/Oscillators/Colpitts/": {
-        "summary": "testing a basic Colpitts Oscillator circuit", 
-        "id": 180, 
+    "/Electronics101/AudioAmps/GuitarPracticeAmp/": {
+        "summary": "single-channel 10W guitar practice amplifier based on the TDA2050", 
+        "id": 249, 
         "tags": [
-            "LC", 
-            "Oscillators"
+            "OpAmp", 
+            "Audio"
         ], 
-        "title": "ColpittsOscillator"
+        "title": "TDA2050 Guitar Practice Amp"
     }, 
     "/Electronics101/RgbLedGlow/": {
         "summary": "rainbow glow effects with an RGB LED and OpAmp oscillators", 
@@ -4484,16 +4495,16 @@
             "555 Timer", 
             "Oscillators"
         ], 
-        "title": "TwoToneDoorbell"
+        "title": "Two-tone Doorbell"
     }, 
-    "/Electronics101/AudioAmps/GuitarPracticeAmp/": {
-        "summary": "single-channel 10W guitar practice amplifier based on the TDA2050", 
-        "id": 249, 
+    "/Electronics101/Oscillators/Colpitts/": {
+        "summary": "testing a basic Colpitts Oscillator circuit", 
+        "id": 180, 
         "tags": [
-            "OpAmp", 
-            "Audio"
+            "LC", 
+            "Oscillators"
         ], 
-        "title": "TDA2050 Guitar Practice Amp"
+        "title": "ColpittsOscillator"
     }, 
     "/BoldportClub/respot/": {
         "summary": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots", 

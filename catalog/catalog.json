@@ -1,5 +1,12 @@
 [
     {
+        "description": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect", 
+        "relative_path": "Radio/LPD433/RFDoorbell", 
+        "id": "#522", 
+        "categories": "Radio, OpAmp, LPD433, Music Chips", 
+        "name": "Remote Doorbell"
+    }, 
+    {
         "description": "Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!", 
         "relative_path": "Audio/AudioEffectsChips/CK9561", 
         "id": "#521", 
@@ -3238,7 +3245,7 @@
         "relative_path": "Electronics101/555Timer/TwoToneDoorbell", 
         "id": "#059", 
         "categories": "555 Timer, Oscillators", 
-        "name": "TwoToneDoorbell"
+        "name": "Two-tone Doorbell"
     }, 
     {
         "description": "overview of driving a 4-digit 7-segment display", 
