@@ -1,4 +1,4 @@
-# #359 AudioEffectsChips/HS088
+# #359 HS088 Audio Effects Chip
 
 Figuring out the HS-088 "Ding Dong" audio effects chip.
 
@@ -12,7 +12,7 @@ Here's a quick demo...
 
 The HS-088 chip produces a typical electronic doorbell "ding-dong", which repeats three times when triggered.
 It is very similar to - and not any more pleasant! - than the kind of effect you can get with common 555 circuits
-like [LEAP#059 TwoToneDoorbell](../../555Timer/TwoToneDoorbell).
+like [LEAP#059 TwoToneDoorbell](../../../Electronics101/555Timer/TwoToneDoorbell).
 
 ![HS088_chip](./assets/HS088_chip.jpg?raw=true)
 
@@ -37,7 +37,8 @@ A few things to note:
 ![Build](./assets/HS088_build.jpg?raw=true)
 
 ## Credits and References
+
 * [10pcs Dingdong Tone Doorbell Music Voice Module Board IC Sound Chip For DIY/Toy](https://www.aliexpress.com/item/10pcs-Dingdong-Tone-Doorbell-Music-Voice-Module-Board-IC-Chip-For-DIY-Toy/32661936820.html) - aliexpress seller
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT
-* [LEAP#059 TwoToneDoorbell](../../555Timer/TwoToneDoorbell)
+* [LEAP#059 TwoToneDoorbell](../../../Electronics101/555Timer/TwoToneDoorbell)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap359-hs-088-effects-chip.html)

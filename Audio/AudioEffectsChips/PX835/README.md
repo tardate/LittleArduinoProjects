@@ -1,4 +1,4 @@
-# #373 AudioEffectsChips/PX835
+# #373 PX835 Audio Effects Chip
 
 Figuring out how to use the PX835 "16 Kind of Sound Doorbell Chip" music chip.
 

@@ -1050,6 +1050,15 @@
         ], 
         "title": "PotModules"
     }, 
+    "/playground/PiezoVibrationDetector/": {
+        "summary": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator", 
+        "id": 376, 
+        "tags": [
+            "Arduino", 
+            "Piezo"
+        ], 
+        "title": "PiezoVibrationDetector"
+    }, 
     "/Electronics101/Connectors/Power/": {
         "summary": "obsessing over all manner of DC power connectors", 
         "id": 329, 
@@ -2033,14 +2042,23 @@
         ], 
         "title": "AT89C2051/LedChaser"
     }, 
-    "/playground/PiezoVibrationDetector/": {
-        "summary": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator", 
-        "id": 376, 
+    "/playground/nRF24/PingPong/": {
+        "summary": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF", 
+        "id": 187, 
         "tags": [
-            "Arduino", 
-            "Piezo"
+            "nRF24", 
+            "Arduino"
         ], 
-        "title": "PiezoVibrationDetector"
+        "title": "nRF24/PingPong"
+    }, 
+    "/Audio/AudioEffectsChips/H83A/": {
+        "summary": "figuring out how to use the H-83A \"12 songs\" music chip", 
+        "id": 362, 
+        "tags": [
+            "Audio", 
+            "Music Chips"
+        ], 
+        "title": "H83A Audio Effects Chip"
     }, 
     "/playground/RelayControlTest/": {
         "summary": "quick test to drive a motor with a common relay using NPN switching circuit under Arduino control", 
@@ -2203,15 +2221,6 @@
             "555 Timer"
         ], 
         "title": "SimpleSiren"
-    }, 
-    "/Electronics101/AudioEffectsChips/PX088A/": {
-        "summary": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip", 
-        "id": 356, 
-        "tags": [
-            "Audio", 
-            "Music Chips"
-        ], 
-        "title": "PX088A Audio Effects Chip"
     }, 
     "/Electronics101/SwitchPFET/": {
         "summary": "small-signal p-channel MOSFET switch with turn-on delay", 
@@ -3150,15 +3159,6 @@
         ], 
         "title": "ArcGeneratorKit"
     }, 
-    "/Electronics101/AudioEffectsChips/PX835/": {
-        "summary": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip", 
-        "id": 373, 
-        "tags": [
-            "Audio", 
-            "Music Chips"
-        ], 
-        "title": "AudioEffectsChips/PX835"
-    }, 
     "/Electronics101/555Timer/Monostable/": {
         "summary": "basic monostable mode using an Arduino and processing to plot the output", 
         "id": 17, 
@@ -3905,15 +3905,6 @@
         ], 
         "title": "PolarityTester"
     }, 
-    "/Electronics101/AudioEffectsChips/HS088/": {
-        "summary": "figuring out the HS088 \"Ding Dong\" audio effects chip", 
-        "id": 359, 
-        "tags": [
-            "Audio", 
-            "Music Chips"
-        ], 
-        "title": "AudioEffectsChips/HS088"
-    }, 
     "/Electronics101/Power7805/": {
         "summary": "test and graph a voltage supply built with an LM7805 5V Regulated Supply", 
         "id": 27, 
@@ -3947,15 +3938,6 @@
             "OpAmp"
         ], 
         "title": "Transconductance Amplifiers"
-    }, 
-    "/Electronics101/AudioEffectsChips/H83A/": {
-        "summary": "figuring out how to use the H-83A \"12 songs\" music chip", 
-        "id": 362, 
-        "tags": [
-            "Audio", 
-            "Music Chips"
-        ], 
-        "title": "AudioEffectsChips/H83A"
     }, 
     "/playground/nRF24/Scanner/": {
         "summary": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display", 
@@ -4093,6 +4075,15 @@
         ], 
         "title": "Arza-matron"
     }, 
+    "/Audio/AudioEffectsChips/PX088A/": {
+        "summary": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip", 
+        "id": 356, 
+        "tags": [
+            "Audio", 
+            "Music Chips"
+        ], 
+        "title": "PX088A Audio Effects Chip"
+    }, 
     "/Electronics101/RotaryEncoders/IncrementalTester/": {
         "summary": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic", 
         "id": 413, 
@@ -4223,14 +4214,14 @@
         ], 
         "title": "TransistorCurveTracer"
     }, 
-    "/playground/nRF24/PingPong/": {
-        "summary": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF", 
-        "id": 187, 
+    "/Audio/AudioEffectsChips/PX835/": {
+        "summary": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip", 
+        "id": 373, 
         "tags": [
-            "nRF24", 
-            "Arduino"
+            "Audio", 
+            "Music Chips"
         ], 
-        "title": "nRF24/PingPong"
+        "title": "PX835 Audio Effects Chip"
     }, 
     "/Electronics101/ResistorTransistorLogic/AND/": {
         "summary": "test the basic resistor-transistor logic AND gate ", 
@@ -4328,14 +4319,19 @@
         ], 
         "title": "BoldportClub/respot"
     }, 
-    "/Electronics101/CD4070/Oscillator/": {
-        "summary": "examine a classic CD4070 oscillator design and variations", 
-        "id": 297, 
+    "/BoldportClub/TheCuttle/ScopeTag/": {
+        "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
+        "id": 267, 
         "tags": [
-            "CMOS", 
-            "Oscillators"
+            "Boldport", 
+            "ATmega", 
+            "ATmel", 
+            "Arduino", 
+            "Digital Pot", 
+            "MCP42010", 
+            "Oscilloscope"
         ], 
-        "title": "CD4070/Oscillator"
+        "title": "Cuttle Scope Tag"
     }, 
     "/Electronics101/GuitarEffects/Goblin/": {
         "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications", 
@@ -4345,15 +4341,6 @@
             "Audio"
         ], 
         "title": "Goblin"
-    }, 
-    "/Electronics101/AudioEffectsChips/H823/": {
-        "summary": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
-        "id": 292, 
-        "tags": [
-            "Audio", 
-            "Music Chips"
-        ], 
-        "title": "AudioEffectsChips/H823"
     }, 
     "/Electronics101/DigitalPots/MCP42010/": {
         "summary": "control the MCP42010 dual 10k\u03a9 digital potentiometer with an Arduino and hardware SPI", 
@@ -4431,6 +4418,15 @@
             "OpAmp"
         ], 
         "title": "AudioDSP"
+    }, 
+    "/Audio/AudioEffectsChips/HS088/": {
+        "summary": "figuring out the HS088 \"Ding Dong\" audio effects chip", 
+        "id": 359, 
+        "tags": [
+            "Audio", 
+            "Music Chips"
+        ], 
+        "title": "HS088 Audio Effects Chip"
     }, 
     "/playground/CurrentSensorModule/": {
         "summary": "test an ACS712 current sensor module with display on a 5110 LCD", 
@@ -4559,19 +4555,14 @@
         ], 
         "title": "Mixers"
     }, 
-    "/BoldportClub/TheCuttle/ScopeTag/": {
-        "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer", 
-        "id": 267, 
+    "/Electronics101/CD4070/Oscillator/": {
+        "summary": "examine a classic CD4070 oscillator design and variations", 
+        "id": 297, 
         "tags": [
-            "Boldport", 
-            "ATmega", 
-            "ATmel", 
-            "Arduino", 
-            "Digital Pot", 
-            "MCP42010", 
-            "Oscilloscope"
+            "CMOS", 
+            "Oscillators"
         ], 
-        "title": "Cuttle Scope Tag"
+        "title": "CD4070/Oscillator"
     }, 
     "/Electronics101/ML741/Inverter/": {
         "summary": "test an inverter circuit using the ML741 discrete component opamp", 
@@ -4580,6 +4571,15 @@
             "OpAmp"
         ], 
         "title": "ML741/Inverter"
+    }, 
+    "/Audio/AudioEffectsChips/H823/": {
+        "summary": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
+        "id": 292, 
+        "tags": [
+            "Audio", 
+            "Music Chips"
+        ], 
+        "title": "H823 Audio Effects Chip"
     }, 
     "/Electronics101/PWM/GeneralPurposeHighSideController/": {
         "summary": "build and test a general-purpose high-side PWM controller", 

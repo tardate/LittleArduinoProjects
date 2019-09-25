@@ -876,10 +876,10 @@
     }, 
     {
         "description": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip", 
-        "relative_path": "Electronics101/AudioEffectsChips/PX835", 
+        "relative_path": "Audio/AudioEffectsChips/PX835", 
         "id": "#373", 
         "categories": "Audio, Music Chips", 
-        "name": "AudioEffectsChips/PX835"
+        "name": "PX835 Audio Effects Chip"
     }, 
     {
         "description": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference", 
@@ -953,10 +953,10 @@
     }, 
     {
         "description": "figuring out how to use the H-83A \"12 songs\" music chip", 
-        "relative_path": "Electronics101/AudioEffectsChips/H83A", 
+        "relative_path": "Audio/AudioEffectsChips/H83A", 
         "id": "#362", 
         "categories": "Audio, Music Chips", 
-        "name": "AudioEffectsChips/H83A"
+        "name": "H83A Audio Effects Chip"
     }, 
     {
         "description": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
@@ -974,10 +974,10 @@
     }, 
     {
         "description": "figuring out the HS088 \"Ding Dong\" audio effects chip", 
-        "relative_path": "Electronics101/AudioEffectsChips/HS088", 
+        "relative_path": "Audio/AudioEffectsChips/HS088", 
         "id": "#359", 
         "categories": "Audio, Music Chips", 
-        "name": "AudioEffectsChips/HS088"
+        "name": "HS088 Audio Effects Chip"
     }, 
     {
         "description": "build and test an MC34063-based boost converter", 
@@ -995,7 +995,7 @@
     }, 
     {
         "description": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip", 
-        "relative_path": "Electronics101/AudioEffectsChips/PX088A", 
+        "relative_path": "Audio/AudioEffectsChips/PX088A", 
         "id": "#356", 
         "categories": "Audio, Music Chips", 
         "name": "PX088A Audio Effects Chip"
@@ -1443,10 +1443,10 @@
     }, 
     {
         "description": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
-        "relative_path": "Electronics101/AudioEffectsChips/H823", 
+        "relative_path": "Audio/AudioEffectsChips/H823", 
         "id": "#292", 
         "categories": "Audio, Music Chips", 
-        "name": "AudioEffectsChips/H823"
+        "name": "H823 Audio Effects Chip"
     }, 
     {
         "description": "learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit", 

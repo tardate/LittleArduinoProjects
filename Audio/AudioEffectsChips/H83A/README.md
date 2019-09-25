@@ -1,4 +1,4 @@
-# #362 AudioEffectsChips/H83A
+# #362 H83A Audio Effects Chip
 
 Figuring out how to use the H-83A "12 songs" music chip.
 
@@ -34,5 +34,6 @@ Here's a demo FWIW. There is a bit of warbling, I think mainly due to imperfect 
 [![mdSMwFA3bzw](https://img.youtube.com/vi/mdSMwFA3bzw/0.jpg)](https://www.youtube.com/watch?v=mdSMwFA3bzw)
 
 ## Credits and References
+
 * [5PCS 12 Kind of Songs Sound Music IC Voice Chip Module for DIY/Toy Integrated Circuit 3-4.5V](https://www.aliexpress.com/item/5PCS-12-Kind-of-Sound-Music-IC-Voice-Chip-Module-for-DIY-Toy-Integrated-Circuit-3/32658454214.html) - from aliexpress seller
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap362-h-83a-12-song-music-chip.html)

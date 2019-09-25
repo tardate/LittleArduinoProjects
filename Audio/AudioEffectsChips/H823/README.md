@@ -1,4 +1,4 @@
-# #292 AudioEffectsChips/H823
+# #292 H823 Audio Effects Chip
 
 Figuring out how to use the H823 "Happy Birthday" music chip.
 
@@ -39,6 +39,7 @@ certainly far better than the piezo buzzer often seen used with these chips in k
 ![H823_build](./assets/H823_build.jpg?raw=true)
 
 ## Credits and References
+
 * [CD4060 Dream Music Light DIY Kit](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html) - from a seller on aliexpress
-* [LEAP#291: MusicLightKit](../../CD4060/MusicLightKit)
+* [LEAP#291: MusicLightKit](../../../Electronics101/CD4060/MusicLightKit)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap292-h823-audio-effects-chip.html)

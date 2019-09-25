@@ -1,0 +1,7 @@
+{
+    "id": "#373",
+    "name": "PX835 Audio Effects Chip",
+    "description": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip",
+    "categories": "Audio, Music Chips",
+    "relative_path": "Audio/AudioEffectsChips/PX835"
+}

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-22T13:55:04Z</updated>
+  <updated>2019-09-25T15:49:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1302,12 +1302,12 @@
     <category term="Voltage Reference"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffectsChips/PX835/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffectsChips/PX835/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/PX835/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/PX835/"/>
     <updated>2018-01-22T06:17:45Z</updated>
-    <title>#373 AudioEffectsChips/PX835</title>
+    <title>#373 PX835 Audio Effects Chip</title>
     <summary>figuring out how to use the PX835 &quot;16 Kind of Sound Doorbell Chip&quot; music chip</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffectsChips/PX835/assets/PX835_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/PX835/assets/PX835_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="Music Chips"/>
   </entry>
@@ -1416,12 +1416,12 @@
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffectsChips/H83A/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffectsChips/H83A/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/H83A/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/H83A/"/>
     <updated>2017-12-24T18:46:29Z</updated>
-    <title>#362 AudioEffectsChips/H83A</title>
+    <title>#362 H83A Audio Effects Chip</title>
     <summary>figuring out how to use the H-83A &quot;12 songs&quot; music chip</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffectsChips/H83A/assets/H83A_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/H83A/assets/H83A_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="Music Chips"/>
   </entry>
@@ -1447,12 +1447,12 @@
     <category term="Reference"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffectsChips/HS088/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffectsChips/HS088/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/HS088/"/>
     <updated>2017-12-21T15:12:21Z</updated>
-    <title>#359 AudioEffectsChips/HS088</title>
+    <title>#359 HS088 Audio Effects Chip</title>
     <summary>figuring out the HS088 &quot;Ding Dong&quot; audio effects chip</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffectsChips/HS088/assets/HS088_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/assets/HS088_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="Music Chips"/>
   </entry>
@@ -1478,12 +1478,12 @@
     <category term="LFSR"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffectsChips/PX088A/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffectsChips/PX088A/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/PX088A/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/PX088A/"/>
     <updated>2017-12-14T11:57:58Z</updated>
     <title>#356 PX088A Audio Effects Chip</title>
     <summary>figuring out how to use the PX088A &quot;Für Elise&quot; music chip</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffectsChips/PX088A/assets/PX088A_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/PX088A/assets/PX088A_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="Music Chips"/>
   </entry>
@@ -2135,12 +2135,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffectsChips/H823/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffectsChips/H823/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/H823/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/H823/"/>
     <updated>2017-02-17T17:16:02Z</updated>
-    <title>#292 AudioEffectsChips/H823</title>
+    <title>#292 H823 Audio Effects Chip</title>
     <summary>figuring out how to use the H823 &quot;Happy Birthday&quot; music chip</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffectsChips/H823/assets/H823_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/H823/assets/H823_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="Music Chips"/>
   </entry>
