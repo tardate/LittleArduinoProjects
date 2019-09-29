@@ -23,7 +23,7 @@ first I decided to try a descrete BJT design.
 My first test was with a simple single-stage common-emitter design (R1=6.8kΩ, R2=4.7kΩ, Rc=50Ω, Re=10Ω with 47µF bypass - designed for Icq=40mA).
 Unloaded, it achieved excellent amplification, but proved to be very poor at power transfer to the speaker.
 
-Adding a push-pull output stage started to produce some decent results with an 8Ω speaker.
+Adding a push-pull output stage started to produce some more decent results with an 8Ω speaker.
 The final circuit described below is an adaptation of a
 [design from deeptronic](https://www.deeptronic.com/electronic-circuit-design/small-audio-power-amplifier-using-3-transistors/)
 that was in turn inspired by a [design from Bowden's](http://www.bowdenshobbycircuits.info/page8.htm).
@@ -93,6 +93,10 @@ I used another strip of protoboard as the mainboard to mount the:
 
 ![Amplified_protoboard_modules](./assets/Amplified_protoboard_modules.jpg?raw=true)
 
+The final build, with volume adjusted for maximum output without distortion procudes an amplified
+output that is perhaps 3x the apparent volume of the unamplified HS088 module.
+I don't have an [SPL meter](https://en.wikipedia.org/wiki/Sound_level_meter) to verify this with a measurement (yet).
+
 ![Build](./assets/Amplified_build.jpg?raw=true)
 
 ## Credits and References
@@ -104,4 +108,3 @@ I used another strip of protoboard as the mainboard to mount the:
 * [TDA2822 datasheet](https://www.futurlec.com/Philips/TDA2822.shtml)
 * [Small Audio Power Amplifier Using 3 Transistors](https://www.deeptronic.com/electronic-circuit-design/small-audio-power-amplifier-using-3-transistors/) - deeptronic design use in this project
 * [3 Transistor Audio Amp (50 milliwatt)](http://www.bowdenshobbycircuits.info/page8.htm) - inspiration for the deeptronic design
-* [name](url)
