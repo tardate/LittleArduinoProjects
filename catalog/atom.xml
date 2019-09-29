@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-09-25T15:49:20Z</updated>
+  <updated>2019-09-29T05:38:36Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/Amplified/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/HS088/Amplified/"/>
+    <updated>2019-09-29T04:41:20Z</updated>
+    <title>#499 HS088 Low-voltage Amplifier</title>
+    <summary>adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip</summary>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/HS088/Amplified/assets/Amplified_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="Music Chips"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/</id>
     <link href="https://leap.tardate.com/Electronics101/TeslaCoil/MusicalKit/"/>

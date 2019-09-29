@@ -1,5 +1,12 @@
 [
     {
+        "description": "adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip", 
+        "relative_path": "Audio/AudioEffectsChips/HS088/Amplified", 
+        "id": "#499", 
+        "categories": "Audio, Music Chips", 
+        "name": "HS088 Low-voltage Amplifier"
+    }, 
+    {
         "description": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects", 
         "relative_path": "Electronics101/TeslaCoil/MusicalKit", 
         "id": "#498", 

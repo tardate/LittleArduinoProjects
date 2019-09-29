@@ -1,6 +1,6 @@
-# 498 Little Electronics and Arduino Projects
+# 499 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Tesla Coil Plasma Speaker Kit](./Electronics101/TeslaCoil/MusicalKit) - playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects.
+> Latest addition:sparkles: [HS088 Low-voltage Amplifier](./Audio/AudioEffectsChips/HS088/Amplified) - adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

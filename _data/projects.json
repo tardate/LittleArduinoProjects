@@ -1259,13 +1259,14 @@
         ], 
         "title": "RTL-SDR Dongle"
     }, 
-    "/Radio/SDR/LimeSDR/FirstLook/": {
-        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
-        "id": 421, 
+    "/Electronics101/RotaryEncoders/IncrementalTester/": {
+        "summary": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic", 
+        "id": 413, 
         "tags": [
-            "SDR"
+            "Sensor", 
+            "CMOS/TTL"
         ], 
-        "title": "LimeSDR First Look"
+        "title": "Rotary Encoder Tester"
     }, 
     "/Electronics101/Electret/SoundLevelTrigger/": {
         "summary": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone", 
@@ -3516,6 +3517,15 @@
         ], 
         "title": "I2CScanner"
     }, 
+    "/Audio/AudioEffectsChips/HS088/Amplified/": {
+        "summary": "adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip", 
+        "id": 499, 
+        "tags": [
+            "Audio", 
+            "Music Chips"
+        ], 
+        "title": "HS088 Low-voltage Amplifier"
+    }, 
     "/Equipment/VC3165/": {
         "summary": "all about the Victor VC3165 frequency counter", 
         "id": 466, 
@@ -4084,14 +4094,13 @@
         ], 
         "title": "PX088A Audio Effects Chip"
     }, 
-    "/Electronics101/RotaryEncoders/IncrementalTester/": {
-        "summary": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic", 
-        "id": 413, 
+    "/Radio/SDR/LimeSDR/FirstLook/": {
+        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host", 
+        "id": 421, 
         "tags": [
-            "Sensor", 
-            "CMOS/TTL"
+            "SDR"
         ], 
-        "title": "Rotary Encoder Tester"
+        "title": "LimeSDR First Look"
     }, 
     "/playground/ElectretTrigger/": {
         "summary": "uses an electret microphone and LM324 amplifier to trigger action when over audio threshold", 

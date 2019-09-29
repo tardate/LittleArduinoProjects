@@ -59,7 +59,9 @@ An approach and example for selecting values for a simple CE amplifier:
 
 #### 2. calculate collector + emitter resistance for desired gain at the Q point
 
-* Rc + Re = (5V - 2.5V) / 4mA = [625Ω](https://www.wolframalpha.com/input/?i=(5V+-+2.5V)+%2F+4mA)
+Aiming for Vcc/2
+
+* Rc + Re = (5V/2) / 4mA = [625Ω](https://www.wolframalpha.com/input/?i=(5V+-+2.5V)+%2F+4mA)
 
 
 #### 3. calculate Rc and Re for desired gain
@@ -79,9 +81,9 @@ An approach and example for selecting values for a simple CE amplifier:
 
 #### 5. calculate the combined bias gang resistance
 
-assume current through the gang at 10 x Ib as a rule of thumb to ensure "stiff" biasing i.e. 0.2667 mA
+assume current through the gang at 10 x Ib as a rule of thumb to ensure "stiff" biasing i.e. 0.2667mA
 
-so combined resistance = [18.8kΩ](https://www.wolframalpha.com/input/?i=5V%2F0.2667mA)
+so combined resistance = `5V/0.2667mA` = [18.8kΩ](https://www.wolframalpha.com/input/?i=5V%2F0.2667mA)
 
 
 #### 6. calculate the resistance of R1 and R2 components of the bias gang
