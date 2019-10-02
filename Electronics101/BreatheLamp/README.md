@@ -6,7 +6,7 @@ Build and test a common LED visual effect circuit.
 ## Notes
 
 The "Breathing Lamp" is commonly found from sellers on ebay and aliexpress as a cheap parts kit,
-for example: [M126 Blue Led 5MM Light LM358 Breathing Lamp Parts Kit](https://www.aliexpress.com/item/M126-Blue-Led-5MM-Light-LM358-Breathing-Lamp-Parts-Kit-DIY-Interesting-Product-Suite/1940760853.html)
+for example: [DIY Interesting Product Suite Blue Led 5MM Light LM358 Breathing Lamp Parts Kit](https://www.aliexpress.com/item/32579325045.html)
 
 So what exactly is a "Breathing Lamp"? That's what I wanted to know! It turns out to be quite prosaic:
 the circuit is just an op-amp oscillator controlling the intensity of an array of LEDs.
