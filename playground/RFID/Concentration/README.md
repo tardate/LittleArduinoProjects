@@ -39,6 +39,12 @@ Feedback states:
 
 The Doxygen documentation for the code is [available here](./doc/html/index.html).
 
+Additional libraries used in the Arduino code:
+
+* [MFRC522 RFID Library](https://github.com/miguelbalboa/rfid) - for reading/writing the cards
+* [FlexiTimer2](https://github.com/wimleers/flexitimer2) - for async triggering
+* [LedControl](https://github.com/wayoda/LedControl) - LED matrix control
+
 ### Setup
 
 The RFID cards need to be initialized before they can be used.
