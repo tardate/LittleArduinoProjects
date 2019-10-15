@@ -123,6 +123,9 @@ The final build in action:
 
 ## Credits and References
 
+* [The project on hackady.io](https://hackaday.io/project/168029-rfid-concentration-game)
 * [Concentration](https://en.wikipedia.org/wiki/Concentration_(card_game)) - the card game
 * [tone function](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/) - Standard library
 * [LEAP#269 Boldport Cordwood](../../../BoldportClub/cordwood)
+* [RFID module RC522 Kits](https://www.aliexpress.com/item/Free-Shipping-RFID-module-RC522-Kits-S50-13-56-Mhz-6cm-With-Tags-SPI-Write-Read/32523771442.html) - examples from a seller on aliexpress
+* [MAX7219 dot matrix module](https://www.aliexpress.com/item/32580532205.html) - example of the 8x8 LED matrix module used in the project
