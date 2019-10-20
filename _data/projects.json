@@ -1134,6 +1134,15 @@
         ], 
         "title": "ATtiny/HardwareInterrupt"
     }, 
+    "/Equipment/imaxRcB3LipoCharger/": {
+        "summary": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs", 
+        "id": 503, 
+        "tags": [
+            "Power", 
+            "BMS"
+        ], 
+        "title": "imaxRC B3 Lipo Charger"
+    }, 
     "/Electronics101/ML741/InvertingAmplifier/": {
         "summary": "test an inverting amplifier circuit using the ML741 discrete component opamp", 
         "id": 159, 

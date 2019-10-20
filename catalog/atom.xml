@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-10-20T13:52:10Z</updated>
+  <updated>2019-10-20T15:21:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/imaxRcB3LipoCharger/</id>
+    <link href="https://leap.tardate.com/Equipment/imaxRcB3LipoCharger/"/>
+    <updated>2019-10-20T14:42:15Z</updated>
+    <title>#503 imaxRC B3 Lipo Charger</title>
+    <summary>quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/imaxRcB3LipoCharger/assets/imaxRcB3LipoCharger_build.jpg</g:image_link>
+    <category term="Power"/>
+    <category term="BMS"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/Lii202SmartCharger/</id>
     <link href="https://leap.tardate.com/Equipment/Lii202SmartCharger/"/>
-    <updated>2019-10-20T13:36:49Z</updated>
+    <updated>2019-10-20T13:52:46Z</updated>
     <title>#502 LiitoKala Lii-202 Smart Charger</title>
     <summary>quick teardown and review of the Lii-202 18650 charger and power bank</summary>
     <g:image_link>https://leap.tardate.com/Equipment/Lii202SmartCharger/assets/Lii202SmartCharger_build.jpg</g:image_link>

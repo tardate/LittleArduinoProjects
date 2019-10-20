@@ -1,5 +1,12 @@
 [
     {
+        "description": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs", 
+        "relative_path": "Equipment/imaxRcB3LipoCharger", 
+        "id": "#503", 
+        "categories": "Power, BMS", 
+        "name": "imaxRC B3 Lipo Charger"
+    }, 
+    {
         "description": "quick teardown and review of the Lii-202 18650 charger and power bank", 
         "relative_path": "Equipment/Lii202SmartCharger", 
         "id": "#502", 
