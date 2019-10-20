@@ -1,5 +1,12 @@
 [
     {
+        "description": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules", 
+        "relative_path": "Electronics101/BatteryManagement/SingleCellLithiumCharger", 
+        "id": "#501", 
+        "categories": "Power, BMS", 
+        "name": "Single-cell Lithium Charger"
+    }, 
+    {
         "description": "Play a game of Concentration/Pairs with a stack of MIFARE Classic cards", 
         "relative_path": "playground/RFID/Concentration", 
         "id": "#500", 

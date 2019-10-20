@@ -2776,6 +2776,15 @@
         ], 
         "title": "SolenoidControl"
     }, 
+    "/Electronics101/BatteryManagement/SingleCellLithiumCharger/": {
+        "summary": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules", 
+        "id": 501, 
+        "tags": [
+            "Power", 
+            "BMS"
+        ], 
+        "title": "Single-cell Lithium Charger"
+    }, 
     "/Electronics101/ElectronicClockKit/": {
         "summary": "build and investigate a commercially available \"electronic clock\" kit", 
         "id": 88, 

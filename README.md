@@ -1,6 +1,6 @@
-# 500 Little Electronics and Arduino Projects
+# 501 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [RFID Concentration Game](./playground/RFID/Concentration) - play a game of Concentration/Pairs with a stack of MIFARE Classic cards.
+> Latest addition:sparkles: [Single-cell Lithium Charger](./Electronics101/BatteryManagement/SingleCellLithiumCharger) - how to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
