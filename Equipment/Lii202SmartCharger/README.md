@@ -21,20 +21,25 @@ Overall it is a good unit, although the power bank function is a bit of a gimmic
 | Item                   | Specification              |
 |------------------------|----------------------------|
 | Input                  | Micro USB DC 5V, 1A/2A     |
+| Standy current         | ≤ 15mAH                    |
 | USB Output no-Load     | 4.90V-5.30V                |
 | Weight                 | 200g / 7.05oz              |
 | Dimensions (L*W*H)     | 180*80*53mm                |
 
 Compatible batteries:
 
-* 3.7V Lion / 3.8V Lion / 3.2V Li-Fe / 1.2V NIHM
+* Li-ion 3.7V / Li-ion 3.8V / Li-Fe 3.2V / Ni-MH/Cd 1.2V
 * 26650, 22650, 18650, 18490, 18350, 17670, 17500, 17355, 16340, 14500, 10440, AAA, AA, SC, Setc
 * charges 2 batteries independently
 
 Charging features:
 
 * Charge Current: 500mA/1000mA
-* Output: 1.4V, 4.2V+0.05V, 3.65+0.05V, 4.35+0.05V (depending on battery chemistry)
+* Output Voltage:
+    * Ni-MH/Cd 1.2V: 1.42-1.55V
+    * Li-Fe 3.2V: 3.65+0.05V
+    * Li-ion 3.7V: 4.2V+0.05V
+    * Li-ion 3.8V: 4.35+0.05V
 * Quick Charge: Yes; Output Protection Voltage: 3.0+0.1V
 * Intelligent Charge: Battery anti-reverse, short circuit protection and overcharge protection
 
