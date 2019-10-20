@@ -13,7 +13,7 @@ being a bit dangerous if not treated properly, in particular:
 * over-discharge - increases battery resistance and hence heat/fire risk during recharge
 * over-charge - stresses the battery and compromises safety
 
-Get anything wrong, and there's heat & fire risk, maybe violent enough to be explosive. Great news for youtuber's like [Big Clive](https://youtu.be/0tGK1nqXr28)!
+Get anything wrong, and there's heat & fire risk, maybe violent enough to be explosive. Great news for youtubers like [Big Clive](https://youtu.be/0tGK1nqXr28)!
 
 Charging is where things can most commonly go wrong. A little bit of knowledge can go a long way, especially if buying "cheap" chargers or going the DIY route.
 
@@ -35,7 +35,7 @@ NB:
 Some guides to lithium battery charging:
 
 * [A Designer's Guide to Lithium (Li-ion) Battery Charging](https://www.digikey.sg/en/articles/techzone/2016/sep/a-designer-guide-fast-lithium-ion-battery-charging)
-* [BU-409: Charging Lithium-ion](https://batteryuniversity.com/learn/article/charging_lithium_ion_batteries) - batteryuniversity
+* [BU-409: Charging Lithium-ion](https://batteryuniversity.com/learn/article/charging_lithium_ion_batteries) - Battery University
 * [EEVblog #176](https://www.youtube.com/watch?v=A6mKd5_-abk) Lithium Ion/Polymer Battery Charging Tutorial:
 
 [![clip](https://img.youtube.com/vi/A6mKd5_-abk/0.jpg)](https://www.youtube.com/watch?v=A6mKd5_-abk)
@@ -76,7 +76,7 @@ The TP4056 charging module uses three main chips in addition to support passives
 
 * [TP4056A](http://www.tpwic.com/index.php?m=content&c=index&a=show&catid=173&id=52) for constant-Ccurrent/constant-voltage charge control
 * [DW01](https://www.digchip.com/datasheets/parts/datasheet/922/DW01.php) battery protection IC
-* [8205A Dual N-Channel MOSFET](https://www.datasheet4u.com/datasheet-pdf/RZCMicroelectronics/8205A/pdf.php?id=847696) provides load switching - apparently from [RZC Microelectronics](http://www.rzcsemi.com/) but not listed on their current web site.
+* [8205A Dual N-Channel MOSFET](https://www.datasheet4u.com/datasheet-pdf/RZCMicroelectronics/8205A/pdf.php?id=847696) provides load switching - apparently from [RZC Microelectronics](http://www.rzcsemi.com/) but not listed on their current web site. OR it could be [ML8205A](https://www.evelta.com/content/datasheets/130-ML8205A.pdf) by [Mei Lai 美莱创新](http://www.szmeilai.com/)
 
 ![kit_TP4056_module](./assets/kit_TP4056_module.jpg?raw=true)
 
@@ -94,7 +94,7 @@ The recommended configuration matching the parts in the kit is a simple wiring t
 
 However, since neither the charge or boost module include any auto-shutdown capability, this means an "always on" configuration.
 I added a [switch](https://www.aliexpress.com/item/32799198160.html) to the battery leads so that I can leave a battery in the holder
-without it being continually being discharged.
+without it being continually discharged.
 
 Charging:
 
@@ -121,6 +121,13 @@ This obviously allows for a much more compact product:
 
 ![kit2_board](./assets/kit2_board.jpg?raw=true)
 
+The ETA9635 features:
+
+* 2 in 1: integrated synchronous boost plus charger without external load switching
+* Short-circuit Protection
+* Reverse current Protection
+* Up to 1A Charging, 5W output
+* 50µA of quiescent current during no load
 
 ## Credits and References
 
@@ -130,6 +137,7 @@ This obviously allows for a much more compact product:
 * [DW01 Plus battery protection IC](https://www.digchip.com/datasheets/parts/datasheet/922/DW01.php)
 * [LTC4056-4.2](https://www.analog.com/en/products/ltc4056-4.2.html) - similar but not to be confused with the TP4056
 * [8205A Dual N-Channel MOSFET](https://www.datasheet4u.com/datasheet-pdf/RZCMicroelectronics/8205A/pdf.php?id=847696)
+* [ML8205A](https://www.evelta.com/content/datasheets/130-ML8205A.pdf) by [Mei Lai 美莱创新](http://www.szmeilai.com/)
 * [Dual mosfet 8205A - lithium battery protection circuit](https://electronics.stackexchange.com/questions/203463/dual-mosfet-8205a-lithium-battery-protection-circuit) - discussed on electronics.stackexchange
 * [CE8301 regulator](https://www.sunrom.com/p/5v-dc-dc-boost-step-up)
 * [Restoring/Recharging Over-discharged LiPo (Lithium Polymer) Batteries](https://www.electricrcaircraftguy.com/2014/10/restoring-over-discharged-LiPos.html)
