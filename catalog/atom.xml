@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-10-20T09:46:13Z</updated>
+  <updated>2019-10-20T13:52:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/Lii202SmartCharger/</id>
+    <link href="https://leap.tardate.com/Equipment/Lii202SmartCharger/"/>
+    <updated>2019-10-20T13:36:49Z</updated>
+    <title>#502 LiitoKala Lii-202 Smart Charger</title>
+    <summary>quick teardown and review of the Lii-202 18650 charger and power bank</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/Lii202SmartCharger/assets/Lii202SmartCharger_build.jpg</g:image_link>
+    <category term="Power"/>
+    <category term="BMS"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellLithiumCharger/</id>
     <link href="https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellLithiumCharger/"/>
-    <updated>2019-10-20T06:57:51Z</updated>
+    <updated>2019-10-20T13:00:35Z</updated>
     <title>#501 Single-cell Lithium Charger</title>
     <summary>How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellLithiumCharger/assets/SingleCellLithiumCharger_build.jpg</g:image_link>

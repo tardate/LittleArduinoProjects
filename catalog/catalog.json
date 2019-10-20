@@ -1,5 +1,12 @@
 [
     {
+        "description": "quick teardown and review of the Lii-202 18650 charger and power bank", 
+        "relative_path": "Equipment/Lii202SmartCharger", 
+        "id": "#502", 
+        "categories": "Power, BMS", 
+        "name": "LiitoKala Lii-202 Smart Charger"
+    }, 
+    {
         "description": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules", 
         "relative_path": "Electronics101/BatteryManagement/SingleCellLithiumCharger", 
         "id": "#501", 

@@ -968,15 +968,14 @@
         ], 
         "title": "CD4046/MainsLinkedPLL"
     }, 
-    "/Electronics101/ResistorTransistorLogic/NOR/": {
-        "summary": "test the basic resistor-transistor logic NOR gate ", 
-        "id": 111, 
+    "/Equipment/Lii202SmartCharger/": {
+        "summary": "quick teardown and review of the Lii-202 18650 charger and power bank", 
+        "id": 502, 
         "tags": [
-            "BJT", 
-            "RTL", 
-            "Logic Gates"
+            "Power", 
+            "BMS"
         ], 
-        "title": "ResistorTransistorLogic/NOR"
+        "title": "LiitoKala Lii-202 Smart Charger"
     }, 
     "/Electronics101/BoostBuckConverterModule/": {
         "summary": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module", 
@@ -1180,6 +1179,16 @@
             "Transmitter"
         ], 
         "title": "Single Transistor AM Transmitter"
+    }, 
+    "/Electronics101/ResistorTransistorLogic/NOR/": {
+        "summary": "test the basic resistor-transistor logic NOR gate ", 
+        "id": 111, 
+        "tags": [
+            "BJT", 
+            "RTL", 
+            "Logic Gates"
+        ], 
+        "title": "ResistorTransistorLogic/NOR"
     }, 
     "/Kraft/KickingBack/": {
         "summary": "a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)", 
