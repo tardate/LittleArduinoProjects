@@ -38,7 +38,6 @@ This charger probably falls into the "too dodgy, buy a decent one" category per:
 
 ![teardown-3-board](./assets/teardown-3-board.jpg?raw=true)
 
-
 The AC-DC rectification use the DK112 Switching Power Supply Control Chip:
 
 ![teardown-4-smps](./assets/teardown-4-smps.jpg?raw=true)
@@ -46,6 +45,26 @@ The AC-DC rectification use the DK112 Switching Power Supply Control Chip:
 Charge circuit uses a AD4056ES or TP4056 equivalent. I don't see any active re-balancing support, so not sure what would be generating so much heat.
 
 ![teardown-5-bms](./assets/teardown-5-bms.jpg?raw=true)
+
+## Circuit Design
+
+The high-voltage side is a conventional application of the DK112, similar to Typical application #1 from the datasheet (12V/1A output offline flyback switching power supply).
+
+![DK114_example_schematic](./assets/DK114_example_schematic.jpg?raw=true)
+
+The more interesting part is the low-voltage side and how the TP4056 has been used.
+Here's a partial re-drawing of the circuit.
+
+Essentially, there are three low-voltage windings that are half-wave rectified to power three TP4056 circuits (for each batter cell).
+Since the power supply is floating, these are stacked in series.
+
+Main things to note:
+
+* regulation is a bit howsyourfather. Single bulk filter capacitor after the half-wave rectification and a 750Ω bleed resistor
+* they've skimped on the thermal regulation. There's not NTC; the TEMP pin of the TP4056's is permanently pulled low.
+* Rprog = 1.8kΩ, corresponding the a charge current (Ibat) of ~600mA (each cell).
+
+![imaxRcB3LipoCharger_schematic](./assets/imaxRcB3LipoCharger_schematic.jpg?raw=true)
 
 ## Credits and References
 
