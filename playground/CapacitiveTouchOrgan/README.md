@@ -30,9 +30,9 @@ I think I first picked up one of these modules after watching Julian Ilett's vid
 
 The MPR121 is a <3.6V device, but I'm testing it here with an Arduino Uno running at 5V.
 The Uno conveniently provides 3.3V, which is fine to power the module,
-but that doesn't help the I2C bus and interrupt.
+but that doesn't help the I²C bus and interrupt.
 
-Although I believe some have run the I2C at 5V without immediately destroying the module, I'm running the bus through a level shiter module.
+Although I believe some have run the I²C at 5V without immediately destroying the module, I'm running the bus through a level shiter module.
 
 Since the interrupt is output from the module (active low), it doesn't need level shifting.
 
@@ -42,7 +42,7 @@ Since the interrupt is output from the module (active low), it doesn't need leve
 The [CapacitiveTouchOrgan](./CapacitiveTouchOrgan.ino) sketch implements a simple 12-tone (chromatic scale from C5/523.25Hz) organ:
 
 * on interrupt from the MPR121..
-* uses the Adafruit_MPR121 library to get touch state via I2C/Wire
+* uses the Adafruit_MPR121 library to get touch state via I²C/Wire
 * sounds the corresponding tone on pin 8
 
 Uses:

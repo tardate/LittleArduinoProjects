@@ -33,8 +33,8 @@ I'm going to drop an ATmega328P-AU TQFP on the board, rather than use an Arduino
 | D13         | SCK - ADC SPI clock, ICSP      | 17, PB5    |
 | A0          | BTN_CAL calibration button     | 23, PC0    |
 | A1          | VBATT_SENSE battery sensor     | 24, PC1    |
-| A4          | SDA optional I2C screen        | 27, PC4    |
-| A5          | SCL optional I2C screen        | 28, PC5    |
+| A4          | SDA optional I²C screen        | 27, PC4    |
+| A5          | SCL optional I²C screen        | 28, PC5    |
 | RESET       | ICSP header                    | 29, PC6    |
 |             | VCC                            | 4, 6       |
 |             | GND                            | 3, 5, 21   |
@@ -42,7 +42,7 @@ I'm going to drop an ATmega328P-AU TQFP on the board, rather than use an Arduino
 |             | XTAL                           | 7, PB6     |
 |             | XTAL                           | 8, PB7     |
 
-I decided to provision pin connections for either serial or I2C LCD displays.
+I decided to provision pin connections for either serial or I²C LCD displays.
 
 After finding that KiCad didn't have footprints for half the components I wanted to use in the standard library,
 I decided to try EasyEDA for PCB production:

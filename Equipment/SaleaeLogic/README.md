@@ -33,7 +33,7 @@ have a good looking site that recognises me as a MacOSX user and offers to downl
 If only more electronics equipment manufactururs would come to the multi-platform party!
 
 The software installed like a "real" Mac app, and immediately recognised the old Logic when I plugged it into the USB.
-Here's my first trace. Unfortunately not a standard I2C or SPI protocol so I'm not sure how well the protocol recognition/analysis works yet.
+Here's my first trace. Unfortunately not a standard I²C or SPI protocol so I'm not sure how well the protocol recognition/analysis works yet.
 
 ![custom_serial_protocol_example](./assets/custom_serial_protocol_example.png?raw=true)
 

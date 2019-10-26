@@ -15,7 +15,7 @@ This project is based on the excellent build tutorial by Scullcom Hobby Electron
 A few changes I've made:
 
 * LT1019 2.5V voltage reference instead of the ADR4540BRZ
-* direct LCD control instead of I2C (because it is what I had available)
+* direct LCD control instead of I²C (because it is what I had available)
 * some of the buttons moved to analog pins (digital mode) since the LCD uses a few too many pins
 * adjust the controls to a three-button command set.
 * discarded the op-amp buffer, as I found it skewed the reading at the top and bottom of the range
