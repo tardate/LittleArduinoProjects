@@ -1,6 +1,6 @@
 {
     "id": "#504",
-    "name": "IN226 High-side Monitor Basics",
+    "name": "INA226 High-side Monitor Basics",
     "description": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I²C",
     "categories": "INA226, Sensors",
     "relative_path": "Electronics101/INA226/HighSideMonitorBasics"

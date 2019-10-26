@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-10-26T18:19:01Z</updated>
+  <updated>2019-10-26T18:29:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,8 +14,8 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/INA226/HighSideMonitorBasics/</id>
     <link href="https://leap.tardate.com/Electronics101/INA226/HighSideMonitorBasics/"/>
-    <updated>2019-10-26T18:17:59Z</updated>
-    <title>#504 IN226 High-side Monitor Basics</title>
+    <updated>2019-10-26T18:25:20Z</updated>
+    <title>#504 INA226 High-side Monitor Basics</title>
     <summary>How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I²C</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/INA226/HighSideMonitorBasics/assets/HighSideMonitorBasics_build.jpg</g:image_link>
     <category term="INA226"/>

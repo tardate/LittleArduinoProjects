@@ -984,7 +984,7 @@
             "INA226", 
             "Sensors"
         ], 
-        "title": "IN226 High-side Monitor Basics"
+        "title": "INA226 High-side Monitor Basics"
     }, 
     "/playground/AudioDSP/Distortion/": {
         "summary": "arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash", 

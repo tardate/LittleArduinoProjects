@@ -1,6 +1,6 @@
 # 504 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [IN226 High-side Monitor Basics](./Electronics101/INA226/HighSideMonitorBasics) - how to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I²C.
+> Latest addition:sparkles: [INA226 High-side Monitor Basics](./Electronics101/INA226/HighSideMonitorBasics) - how to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I²C.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
