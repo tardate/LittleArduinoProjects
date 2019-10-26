@@ -1,5 +1,12 @@
 [
     {
+        "description": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I\u00b2C", 
+        "relative_path": "Electronics101/INA226/HighSideMonitorBasics", 
+        "id": "#504", 
+        "categories": "INA226, Sensors", 
+        "name": "IN226 High-side Monitor Basics"
+    }, 
+    {
         "description": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs", 
         "relative_path": "Equipment/imaxRcB3LipoCharger", 
         "id": "#503", 

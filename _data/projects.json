@@ -749,15 +749,6 @@
         ], 
         "title": "CD4060/CrystalOscillator"
     }, 
-    "/Electronics101/DigitalLogic/XorWithNandGates/": {
-        "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
-        "id": 283, 
-        "tags": [
-            "Logic Gates", 
-            "CMOS/TTL"
-        ], 
-        "title": "XorWithNandGates"
-    }, 
     "/Electronics101/TriacDimmer/": {
         "summary": "investigate the operation of triacs and build the basic dimmaer circuit", 
         "id": 205, 
@@ -977,13 +968,23 @@
         ], 
         "title": "LiitoKala Lii-202 Smart Charger"
     }, 
-    "/Electronics101/BoostBuckConverterModule/": {
-        "summary": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module", 
-        "id": 162, 
+    "/Electronics101/DigitalLogic/XorWithNandGates/": {
+        "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
+        "id": 283, 
         "tags": [
-            "Power"
+            "Logic Gates", 
+            "CMOS/TTL"
         ], 
-        "title": "BoostBuckConverterModule"
+        "title": "XorWithNandGates"
+    }, 
+    "/Electronics101/INA226/HighSideMonitorBasics/": {
+        "summary": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I\u00b2C", 
+        "id": 504, 
+        "tags": [
+            "INA226", 
+            "Sensors"
+        ], 
+        "title": "IN226 High-side Monitor Basics"
     }, 
     "/playground/AudioDSP/Distortion/": {
         "summary": "arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash", 
@@ -3875,6 +3876,14 @@
             "Test Equipment"
         ], 
         "title": "MilliVoltmeterDIY PCB and Enclosure"
+    }, 
+    "/Electronics101/BoostBuckConverterModule/": {
+        "summary": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module", 
+        "id": 162, 
+        "tags": [
+            "Power"
+        ], 
+        "title": "BoostBuckConverterModule"
     }, 
     "/Electronics101/555Timer/KnightRider/": {
         "summary": "the familiar \"Knight-Rider\" LED circuit using a 555 and 4017", 

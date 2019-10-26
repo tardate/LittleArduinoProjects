@@ -7,6 +7,7 @@ Some projects require additional libraries. For example:
 * [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) - for monochrome OLED displays
 * [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
+* [Arduino-INA226](https://github.com/jarzebski/Arduino-INA226) - INA226 Bi-directional Current/Power Monitor Arduino Library
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
 * [DS3232RTC](https://github.com/JChristensen/DS3232RTC) - DS3232-based realtime clock module control
@@ -23,6 +24,7 @@ Some projects require additional libraries. For example:
 * [RadioHead](https://github.com/tardate/RadioHead) - Packet Radio e.g. 433MHz projects. RadioHead is a successor the the [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/) library.
 * [RF24](https://github.com/maniacbug/RF24) - used by nRF24L01+ projects
 * [Rotary](https://github.com/brianlow/Rotary) - rotary Encoder input
+* [SV-Zanshin/INA](https://github.com/SV-Zanshin/INA) - Combined Arduino library for reading multiple INA2xx power monitor devices
 * [u8glib](https://github.com/olikraus/U8glib_Arduino) - for monochrome displays
 * [X113647Stepper](https://github.com/tardate/X113647Stepper) - used by some Stepper motor projects
 * [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) - Boldport 3x7 driver by LuckyResistor

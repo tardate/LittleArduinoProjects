@@ -97,3 +97,9 @@
 [submodule "libraries/ArduinoJson"]
 	path = libraries/ArduinoJson
 	url = https://github.com/bblanchon/ArduinoJson
+[submodule "libraries/INA"]
+	path = libraries/INA
+	url = https://github.com/SV-Zanshin/INA
+[submodule "libraries/Arduino-INA226"]
+	path = libraries/Arduino-INA226
+	url = https://github.com/jarzebski/Arduino-INA226
