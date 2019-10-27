@@ -180,7 +180,10 @@ Let's now try a couple of Arduino libraries I found...
 
 The [WithIna226Lib.ino](./WithIna226Lib/WithIna226Lib.ino) sketch is a demonstration using the [Arduino-INA226](https://github.com/jarzebski/Arduino-INA226) library.
 
-The Arduino-INA226 Library is a nice simple wrapper for the INA266 capabilities. Works just fine:
+The Arduino-INA226 Library is a nice simple wrapper for the INA266 capabilities.
+Easy to use, but seems we've lost precision on the current and power calculations.
+The library does some extra rounding of the calibration factor that make it unable to handle sub-mA or mW values accurately.
+Fine if you are working with multi-amp loads though:
 
 ![console_ina226](./assets/console_ina226.png?raw=true)
 
