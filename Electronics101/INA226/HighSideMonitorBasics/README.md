@@ -126,15 +126,15 @@ I'm going to do this in code, but a first pass by hand...
 
 Given a maximum current of 200mA:
 
-    current_LSB = [6.104µA](https://www.wolframalpha.com/input/?i=200mA%2F%282%5E15%29).
+* current_LSB = [6.104µA](https://www.wolframalpha.com/input/?i=200mA%2F%282%5E15%29).
 
 With a 0.22Ω resistor, this yields a calibration factor of:
 
-    CAL = [3813](https://www.wolframalpha.com/input/?i=0.00512%2F%286.104%C2%B5A*0.22%CE%A9%29)
+* CAL = [3813](https://www.wolframalpha.com/input/?i=0.00512%2F%286.104%C2%B5A*0.22%CE%A9%29)
 
 But maybe choose to calibrate for resolution of 8µA/bit (a nice binary number):
 
-    CAL = [2909](https://www.wolframalpha.com/input/?i=0.00512%2F%288%C2%B5A*0.22%CE%A9%29)
+* CAL = [2909](https://www.wolframalpha.com/input/?i=0.00512%2F%288%C2%B5A*0.22%CE%A9%29)
 
 
 ### Code - Using the Wire Library
