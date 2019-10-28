@@ -1,6 +1,6 @@
-# 504 Little Electronics and Arduino Projects
+# 505 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [INA226 High-side Monitor Basics](./Electronics101/INA226/HighSideMonitorBasics) - how to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I²C.
+> Latest addition:sparkles: [Rakit Baby8 Sequencer](./Audio/RakitBaby8Sequencer) - building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clock input..
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
