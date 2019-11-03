@@ -1,0 +1,222 @@
+# #506 PCBmodE
+
+Learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB.
+
+![Build](./assets/pcbmode_build.jpg?raw=true)
+
+## Notes
+
+I've long been aware that Saar uses his own EDA software called [PCBmodE](https://github.com/boldport/pcbmode) for all the Boldport designs.
+It is open source but this is the first itme I've made a serious effort to learn how it works and try to build a PCB with it.
+
+The following are my notes on getting up and running with PCBmodE, culminating in the design of a new
+board based on a simple 555 timer circuit.
+
+### Installing PCBmodE
+
+See the [setup docs](https://pcbmode.readthedocs.io/en/latest/setup.html). I have a Mac with all the pre-requisites already installed,
+so I just needed to clone the PCBmodE repo and run setup (in a dedicated Python 2.7 virtual environment)..
+
+    $ git clone https://github.com/boldport/pcbmode.git
+    $ virtualenv venv
+    $ source venv/bin/activate
+    $ cd pcbmode
+    $ python setup.py install
+
+#### Folder structure
+
+I'm running all my PCBmodE experiments from this folder. It has the following structure:
+
+    $ ls -1
+    README.md # thses notes
+    assets    # assets for these notes
+    boards  # <-- folder for project boards. `mkdir boards` if not already present
+    pcbmode # <-- PCBmodE cloned repo
+    venv    # <-- pythin virtual environment
+
+### Compiling an Example Board: widlar
+
+Boldport publish all the project design files. I've chosen the [widlar](https://boldport.com/shop/widlar) project for a quick test:
+
+    $ git clone https://github.com/boldport/widlar.git boards/widlar
+    $ pcbmode -b widlar -m
+    -- Processing PCBmodE's configuration file
+    -- Processing board's configuration file
+    -- Creating board
+     * Placing components:LED1 R4 R6 LED2 R1 R2 R3 T6 T2 R8 J1 J2 T3 R7 R5 µA723 C3 C2 C1 C4
+     * Placing routes
+     * Placing vias
+     * Placing shapes
+     * Placing documentation
+     * Placing drill index
+     * Placing layer index
+    -- Done!
+
+This generates two build files:
+
+* `boards/widlar/build/paths_db.json`
+* `boards/widlar/build/widlar.svg`
+
+Loading with `inkscape boards/widlar/build/widlar.svg` to inspect:
+
+![widlar_in_inkscape](./assets/widlar_in_inkscape.jpg?raw=true)
+
+Generating production files:
+
+    $ pcbmode -b widlar --fab
+    -- Processing PCBmodE's configuration file
+    -- Processing board's configuration file
+    -- Creating Gerbers
+    -- Creating excellon drill file
+    -- Done!
+
+This generates gerber files in a production (by default) folder:
+
+* boards/widlar/build/production/widlar_rev_A_bottom_conductor.ger
+* boards/widlar/build/production/widlar_rev_A_bottom_silkscreen.ger
+* boards/widlar/build/production/widlar_rev_A_bottom_soldermask.ger
+* boards/widlar/build/production/widlar_rev_A_bottom_solderpaste.ger
+* boards/widlar/build/production/widlar_rev_A_documentation.ger
+* boards/widlar/build/production/widlar_rev_A_drills.txt
+* boards/widlar/build/production/widlar_rev_A_outline.ger
+* boards/widlar/build/production/widlar_rev_A_top_conductor.ger
+* boards/widlar/build/production/widlar_rev_A_top_silkscreen.ger
+* boards/widlar/build/production/widlar_rev_A_top_soldermask.ger
+* boards/widlar/build/production/widlar_rev_A_top_solderpaste.ger
+
+I zipped up the production folder and uploaded to a randomly chosen viewer - [www.gerber-viewer.com](http://www.gerber-viewer.com/) - and it renders thus:
+
+![widlar_gerber_viewer](./assets/widlar_gerber_viewer.jpg?raw=true)
+
+
+### Generating for OSHPark
+
+I tried uploading the default production files to OSHPark only to discover they don't match the required [Naming Patterns](https://docs.oshpark.com/troubleshooting/naming-pattern/).
+
+A quick look at the source, discovered there's an 'oshpark' fab option. Let's try that:
+
+    $ pcbmode -b widlar --fab oshpark
+    -- Processing PCBmodE's configuration file
+    -- Processing board's configuration file
+    -- Creating Gerbers
+    -- Creating excellon drill file
+    -- Done!
+
+This generates gerber files in a production folder:
+
+* boards/widlar/build/production/widlar_rev_A_bottom_conductor.GBL
+* boards/widlar/build/production/widlar_rev_A_bottom_silkscreen.GBO
+* boards/widlar/build/production/widlar_rev_A_bottom_soldermask.GBS
+* boards/widlar/build/production/widlar_rev_A_bottom_solderpaste.GBP
+* boards/widlar/build/production/widlar_rev_A_documentation.GBR
+* boards/widlar/build/production/widlar_rev_A_drills.XLN
+* boards/widlar/build/production/widlar_rev_A_outline.GKO
+* boards/widlar/build/production/widlar_rev_A_top_conductor.GTL
+* boards/widlar/build/production/widlar_rev_A_top_silkscreen.GTO
+* boards/widlar/build/production/widlar_rev_A_top_soldermask.GTS
+* boards/widlar/build/production/widlar_rev_A_top_solderpaste.GTP
+
+These uploaded to OSHpark without issue - you can see the [generated project here](https://oshpark.com/shared_projects/MebJPxXR).
+
+[![widlar_oshpark](./assets/widlar_oshpark.jpg?raw=true)](https://oshpark.com/shared_projects/MebJPxXR)
+
+
+## PCBmodE Workflow
+
+I learned (the hard way) that if you don't read the [workflow docs](https://pcbmode.readthedocs.io/en/latest/workflow.html),
+then figuring out why and how to use PCBmodE will be a trial of massive fail. It is nothing like any other EDA tool I've ever come across!
+
+In essence, design is an iteractive processes shuttling between the JSON definitions and the SVG representation:
+
+    JSON board definition ->
+       compile with PCBmodE to SVG (`pcbmode -b board -m`) ->
+       view/edit the SVG ->
+       feedback any changes into the JSON files and repeat
+
+When the design is "ready", generate production files using PCBmodE (`pcbmode -b board --fab`).
+
+Saar's process/design tips (compiled from comments in discord):
+
+* sketch in my notebook while anticipating how that concept will be translated into physical form.
+* It's possible that I flesh-out 3 or 4 concepts in my notebook. Each can take an hour to make... it's not quick.
+* With the later sketches I will try to factor in the dimensional constraints that I know will affect the physical design.
+* Then I mock-up in Inkscape. I'll draw shapes 1:1 and often bring in footprints to give me perspective and context.
+* I try to nail down the shapes (mainly outline) before actually starting to design the PCB with PCBmodE.
+* Like @Ben B says, I have a shapes.svg in the repo where I create all the shapes I need, including intermediates so I can go backwards if I need to make changes.
+
+
+## Tutorial: PCBmodE Blinky
+
+A PCBmodE tutorial using a simple 555 timer LED blinky circuit as a case study.
+
+NB: the [hello-solder](https://github.com/boldport/hello-solder)tutorial mentioned in the docs appears to need some updating to be
+compatible with the current PCBmodE software. In particular, it seems the shapes structure out-dated.
+
+### A Simple Circuit
+
+For a simple tutorial, I'm buidling a standard astable 555 timer circuit with an LED on the output.
+The circuit will flash at [1Hz](https://visual555.tardate.com/?r1=10&r2=330&c=2)
+with R1=10kΩ, R2=330kΩ, C1=2µF.
+
+![PCBmodEBlinky_schematic](./assets/PCBmodEBlinky_schematic.jpg?raw=true)
+
+### Bootstrap with PCBmodEZero
+
+[PCBmodEZero](https://github.com/TheBubbleworks/python-pcbmode-zero/) is an experimental Python frontend to PCBmodE
+Installation:
+
+    pip install pcbmodezero
+
+I used PCBmodEZero in [generate_blinky.py](./generate_blinky.py) to generate an initial placement of components.
+
+    $ python generate_blinky.py
+    -- Processing PCBmodE's configuration file
+    -- Processing board's configuration file
+    -- Creating board
+     * Placing components:LED1 R1 R2 R3 J1 C2 IC1 C1
+     * Placing routes
+     * Placing vias
+     * Placing shapes
+     * Placing documentation
+     * Placing drill index
+     * Placing layer index
+    -- Creating Gerbers
+    -- Creating excellon drill file
+    -- Creating PNGs
+     * Generating PNGs for each layer of the board
+    ...
+    -- Done!
+
+The script generates an initial board definition and SVG in `board/blinky`.
+This worked pretty well, although I was unable to get it to generate routing with `connect_pins`.
+
+### Routing, Outline and Finishing Touches
+
+To finalise the board, I used the stanrad hand-crafted PCBmodE flow:
+
+* view/edit the SVG with inkscape
+* feed changes back into the board files (`blinky.json`, `blinky_routing.json`)
+* regenerate with `pcbmode -b blinky -m`
+
+
+### Generating Production Files
+
+I shopped around the various PCB houses, and it turns out that [OSHpark](https://oshpark.com) is happily the cheapest for this order (due to free shipping).
+
+Generating the production files for OSHpark:
+
+    pcbmode -b blinky --fab oshpark
+
+After checking the board in the gerber viewer and double-checking the circuit, I've put my order in.
+The project can be [found here on OSHpark](https://oshpark.com/shared_projects/fpZXhap7).
+
+[![PCBmodEBlinky_pcb](./assets/PCBmodEBlinky_pcb.jpg?raw=true)](https://oshpark.com/shared_projects/fpZXhap7)
+
+TODO: update after the boards have been delivered and I've tried them out;-)
+
+
+## Credits and References
+
+* [PCBmodE](https://github.com/boldport/pcbmode) - on GitHub
+* [PCBmodE docs](https://pcbmode.readthedocs.io/)
+* [OSHpark](https://oshpark.com)

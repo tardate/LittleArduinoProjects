@@ -1,0 +1,129 @@
+{
+    "pins": {
+        "1-LED": {
+            "layout": {
+                "pad": "pin", 
+                "location": [
+                    -1.27, 
+                    0
+                ]
+            }
+        }, 
+        "2-LED": {
+            "layout": {
+                "pad": "pin1", 
+                "location": [
+                    1.27, 
+                    0
+                ]
+            }
+        }
+    }, 
+    "pads": {
+        "pin1": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "width": 1.9, 
+                    "radii": {
+                        "bl": 0.3, 
+                        "tl": 0.3, 
+                        "tr": 0.3, 
+                        "br": 0.3
+                    }, 
+                    "type": "rect", 
+                    "height": 1.9
+                }
+            ], 
+            "drills": [
+                {
+                    "diameter": 1.1, 
+                    "offset": [
+                        0, 
+                        0
+                    ]
+                }
+            ]
+        }, 
+        "pin": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "diameter": 1.9, 
+                    "type": "circle", 
+                    "outline": 0, 
+                    "offset": [
+                        0, 
+                        0
+                    ]
+                }
+            ], 
+            "drills": [
+                {
+                    "diameter": 1.1, 
+                    "offset": [
+                        0, 
+                        0
+                    ]
+                }
+            ]
+        }
+    }, 
+    "layout": {
+        "silkscreen": {
+            "shapes": [
+                {
+                    "layers": [
+                        "bottom"
+                    ], 
+                    "style": "stroke", 
+                    "value": "m -1.274889,-37.897271 0,-1.204118 m 2.00312248,1.204118 0,-2.436576", 
+                    "location": [
+                        0, 
+                        2.8
+                    ], 
+                    "stroke-width": 0.4, 
+                    "type": "path"
+                }, 
+                {
+                    "layers": [
+                        "top"
+                    ], 
+                    "diameter": 3.5, 
+                    "type": "circle"
+                }, 
+                {
+                    "layers": [
+                        "top"
+                    ], 
+                    "diameter": 5.5, 
+                    "type": "circle"
+                }
+            ]
+        }, 
+        "assembly": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top"
+                    ], 
+                    "diameter": 3, 
+                    "type": "circle"
+                }, 
+                {
+                    "layers": [
+                        "top"
+                    ], 
+                    "diameter": 5, 
+                    "type": "circle"
+                }
+            ]
+        }
+    }
+}

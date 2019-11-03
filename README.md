@@ -1,4 +1,4 @@
-# 505 Little Electronics and Arduino Projects
+# 506 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [Rakit Baby8 Sequencer](./Audio/RakitBaby8Sequencer) - building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clock input..
 

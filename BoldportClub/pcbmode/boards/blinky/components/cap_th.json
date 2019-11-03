@@ -1,0 +1,112 @@
+{
+    "pins": {
+        "Neg": {
+            "layout": {
+                "pad": "th_sqr", 
+                "location": [
+                    1.27, 
+                    0
+                ]
+            }
+        }, 
+        "Pos": {
+            "layout": {
+                "pad": "th_round", 
+                "location": [
+                    -1.27, 
+                    0
+                ]
+            }
+        }
+    }, 
+    "pads": {
+        "th_sqr": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "width": 1.9, 
+                    "radii": {
+                        "bl": 0.25, 
+                        "tl": 0.25, 
+                        "tr": 0.25, 
+                        "br": 0.25
+                    }, 
+                    "type": "rect", 
+                    "height": 1.9
+                }
+            ], 
+            "drills": [
+                {
+                    "diameter": 0.8
+                }
+            ]
+        }, 
+        "th_round": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "diameter": 1.9, 
+                    "type": "circle"
+                }
+            ], 
+            "drills": [
+                {
+                    "diameter": 0.8
+                }
+            ]
+        }
+    }, 
+    "layout": {
+        "assembly": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "diameter": 6.5, 
+                    "style": "stroke", 
+                    "type": "circle", 
+                    "location": [
+                        0, 
+                        0
+                    ]
+                }, 
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "style": "fill", 
+                    "height": 0.2, 
+                    "width": 1, 
+                    "location": [
+                        1.27, 
+                        -4.3
+                    ], 
+                    "type": "rect"
+                }, 
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "style": "fill", 
+                    "height": 1, 
+                    "width": 0.2, 
+                    "location": [
+                        1.27, 
+                        -4.3
+                    ], 
+                    "type": "rect"
+                }
+            ]
+        }
+    }
+}

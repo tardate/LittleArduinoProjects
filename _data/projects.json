@@ -1059,13 +1059,13 @@
         ], 
         "title": "PiezoVibrationDetector"
     }, 
-    "/Electronics101/Connectors/Power/": {
-        "summary": "obsessing over all manner of DC power connectors", 
-        "id": 329, 
+    "/Electronics101/WatsonLedRing/": {
+        "summary": "test a Watson 3-LED Ring oscillator", 
+        "id": 164, 
         "tags": [
-            "Power"
+            "Oscillators"
         ], 
-        "title": "PowerConnectors"
+        "title": "Watson LED Ring"
     }, 
     "/Equipment/SaleaeLogic/": {
         "summary": "checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!)", 
@@ -2299,6 +2299,16 @@
         ], 
         "title": "LedControl MAX7219 7-Segment LED Driver"
     }, 
+    "/BoldportClub/pcbmode/": {
+        "summary": "learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB", 
+        "id": 506, 
+        "tags": [
+            "Boldport", 
+            "PCB Design", 
+            "EDA"
+        ], 
+        "title": "PCBmodE"
+    }, 
     "/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/": {
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
         "id": 315, 
@@ -3319,13 +3329,13 @@
         ], 
         "title": "StepperMotors/ULN2003Module"
     }, 
-    "/Electronics101/WatsonLedRing/": {
-        "summary": "test a Watson 3-LED Ring oscillator", 
-        "id": 164, 
+    "/Electronics101/Connectors/Power/": {
+        "summary": "obsessing over all manner of DC power connectors", 
+        "id": 329, 
         "tags": [
-            "Oscillators"
+            "Power"
         ], 
-        "title": "Watson LED Ring"
+        "title": "PowerConnectors"
     }, 
     "/playground/CapacitiveTouchOrgan/": {
         "summary": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino", 

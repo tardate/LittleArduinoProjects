@@ -1,0 +1,87 @@
+{
+    "pins": {
+        "1": {
+            "layout": {
+                "pad": "th_pin_1", 
+                "location": [
+                    -1, 
+                    0
+                ]
+            }
+        }, 
+        "2": {
+            "layout": {
+                "pad": "th_pin", 
+                "location": [
+                    1, 
+                    0
+                ]
+            }
+        }
+    }, 
+    "pads": {
+        "th_pin_1": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "width": 1.5, 
+                    "radii": {
+                        "bl": 0.15, 
+                        "tl": 0.15, 
+                        "tr": 0.15, 
+                        "br": 0.15
+                    }, 
+                    "type": "rect", 
+                    "height": 1.5
+                }
+            ], 
+            "drills": [
+                {
+                    "diameter": 0.7
+                }
+            ]
+        }, 
+        "th_pin": {
+            "shapes": [
+                {
+                    "layers": [
+                        "top", 
+                        "bottom"
+                    ], 
+                    "diameter": 1.5, 
+                    "type": "circle"
+                }
+            ], 
+            "drills": [
+                {
+                    "diameter": 0.7
+                }
+            ]
+        }
+    }, 
+    "layout": {
+        "silkscreen": {
+            "shapes": [
+                {
+                    "diameter": 4, 
+                    "style": "fill", 
+                    "type": "circle"
+                }, 
+                {
+                    "style": "stroke", 
+                    "stroke-width": 0.33, 
+                    "type": "path", 
+                    "location": [
+                        -2.8, 
+                        -1.5
+                    ], 
+                    "value": "m -14.446712,-26.923414 h -1.09181 m 0.545905,-0.545905 v 1.09181"
+                }
+            ]
+        }, 
+        "assembly": {}
+    }
+}

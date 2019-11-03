@@ -1,0 +1,26 @@
+{
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top"],
+          "font-family": "Overlock-Regular-OTF-webfont",
+          "font-size": "1.4mm",
+          "letter-spacing": "0mm",
+          "line-height": "1.4mm",
+          "location": [
+            0,
+            0
+          ],
+          "rotate": 0,
+          "style": "fill",
+          "type": "text",
+          "value": "PCBmodE-blinky"
+        }
+      ]
+    }
+  }
+}
