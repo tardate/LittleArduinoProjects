@@ -1,4 +1,4 @@
-# #506 PCBmodE
+# #506 Learning PCBmodE
 
 Learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB.
 
@@ -70,19 +70,19 @@ Generating production files:
     -- Creating excellon drill file
     -- Done!
 
-This generates gerber files in a production (by default) folder:
+This generates gerber files in a default `boards/widlar/build/production` folder:
 
-* boards/widlar/build/production/widlar_rev_A_bottom_conductor.ger
-* boards/widlar/build/production/widlar_rev_A_bottom_silkscreen.ger
-* boards/widlar/build/production/widlar_rev_A_bottom_soldermask.ger
-* boards/widlar/build/production/widlar_rev_A_bottom_solderpaste.ger
-* boards/widlar/build/production/widlar_rev_A_documentation.ger
-* boards/widlar/build/production/widlar_rev_A_drills.txt
-* boards/widlar/build/production/widlar_rev_A_outline.ger
-* boards/widlar/build/production/widlar_rev_A_top_conductor.ger
-* boards/widlar/build/production/widlar_rev_A_top_silkscreen.ger
-* boards/widlar/build/production/widlar_rev_A_top_soldermask.ger
-* boards/widlar/build/production/widlar_rev_A_top_solderpaste.ger
+    widlar_rev_A_bottom_conductor.ger
+    widlar_rev_A_bottom_silkscreen.ger
+    widlar_rev_A_bottom_soldermask.ger
+    widlar_rev_A_bottom_solderpaste.ger
+    widlar_rev_A_documentation.ger
+    widlar_rev_A_drills.txt
+    widlar_rev_A_outline.ger
+    widlar_rev_A_top_conductor.ger
+    widlar_rev_A_top_silkscreen.ger
+    widlar_rev_A_top_soldermask.ger
+    widlar_rev_A_top_solderpaste.ger
 
 I zipped up the production folder and uploaded to a randomly chosen viewer - [www.gerber-viewer.com](http://www.gerber-viewer.com/) - and it renders thus:
 
@@ -102,19 +102,19 @@ A quick look at the source, discovered there's an 'oshpark' fab option. Let's tr
     -- Creating excellon drill file
     -- Done!
 
-This generates gerber files in a production folder:
+This generates gerber files in the `boards/widlar/build/production` folder:
 
-* boards/widlar/build/production/widlar_rev_A_bottom_conductor.GBL
-* boards/widlar/build/production/widlar_rev_A_bottom_silkscreen.GBO
-* boards/widlar/build/production/widlar_rev_A_bottom_soldermask.GBS
-* boards/widlar/build/production/widlar_rev_A_bottom_solderpaste.GBP
-* boards/widlar/build/production/widlar_rev_A_documentation.GBR
-* boards/widlar/build/production/widlar_rev_A_drills.XLN
-* boards/widlar/build/production/widlar_rev_A_outline.GKO
-* boards/widlar/build/production/widlar_rev_A_top_conductor.GTL
-* boards/widlar/build/production/widlar_rev_A_top_silkscreen.GTO
-* boards/widlar/build/production/widlar_rev_A_top_soldermask.GTS
-* boards/widlar/build/production/widlar_rev_A_top_solderpaste.GTP
+    widlar_rev_A_bottom_conductor.GBL
+    widlar_rev_A_bottom_silkscreen.GBO
+    widlar_rev_A_bottom_soldermask.GBS
+    widlar_rev_A_bottom_solderpaste.GBP
+    widlar_rev_A_documentation.GBR
+    widlar_rev_A_drills.XLN
+    widlar_rev_A_outline.GKO
+    widlar_rev_A_top_conductor.GTL
+    widlar_rev_A_top_silkscreen.GTO
+    widlar_rev_A_top_soldermask.GTS
+    widlar_rev_A_top_solderpaste.GTP
 
 These uploaded to OSHpark without issue - you can see the [generated project here](https://oshpark.com/shared_projects/MebJPxXR).
 
@@ -149,7 +149,7 @@ Saar's process/design tips (compiled from comments in discord):
 
 A PCBmodE tutorial using a simple 555 timer LED blinky circuit as a case study.
 
-NB: the [hello-solder](https://github.com/boldport/hello-solder)tutorial mentioned in the docs appears to need some updating to be
+NB: the [hello-solder](https://github.com/boldport/hello-solder) tutorial mentioned in the docs appears to need some updating to be
 compatible with the current PCBmodE software. In particular, it seems the shapes structure out-dated.
 
 ### A Simple Circuit
@@ -162,12 +162,12 @@ with R1=10kΩ, R2=330kΩ, C1=2µF.
 
 ### Bootstrap with PCBmodEZero
 
-[PCBmodEZero](https://github.com/TheBubbleworks/python-pcbmode-zero/) is an experimental Python frontend to PCBmodE
+[PCBmodEZero](https://github.com/TheBubbleworks/python-pcbmode-zero/) is an experimental Python frontend to PCBmodE.
 Installation:
 
     pip install pcbmodezero
 
-I used PCBmodEZero in [generate_blinky.py](./generate_blinky.py) to generate an initial placement of components.
+I decided to use PCBmodEZero in [generate_blinky.py](./generate_blinky.py) to generate an initial placement of components.
 
     $ python generate_blinky.py
     -- Processing PCBmodE's configuration file
@@ -192,12 +192,16 @@ This worked pretty well, although I was unable to get it to generate routing wit
 
 ### Routing, Outline and Finishing Touches
 
-To finalise the board, I used the stanrad hand-crafted PCBmodE flow:
+To finalise the board, I used the standrad hand-crafted PCBmodE flow:
 
 * view/edit the SVG with inkscape
-* feed changes back into the board files (`blinky.json`, `blinky_routing.json`)
+* manually feed changes back into the board files (`blinky.json`, `blinky_routing.json`)
 * regenerate with `pcbmode -b blinky -m`
 
+After a few iterations, I had a design that was at least complete (electrically) and
+demonstrated some of the classic boldport tricks like wiggly traces, arbitrary outlines:
+
+![pcbmode_build](./assets/pcbmode_build.jpg?raw=true)
 
 ### Generating Production Files
 
@@ -219,4 +223,5 @@ TODO: update after the boards have been delivered and I've tried them out;-)
 
 * [PCBmodE](https://github.com/boldport/pcbmode) - on GitHub
 * [PCBmodE docs](https://pcbmode.readthedocs.io/)
+* [PCBmodEZero](https://github.com/TheBubbleworks/python-pcbmode-zero/)
 * [OSHpark](https://oshpark.com)

@@ -2307,7 +2307,7 @@
             "PCB Design", 
             "EDA"
         ], 
-        "title": "PCBmodE"
+        "title": "Learning PCBmodE"
     }, 
     "/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/": {
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 

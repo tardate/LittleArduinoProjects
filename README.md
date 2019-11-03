@@ -1,6 +1,6 @@
 # 506 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Rakit Baby8 Sequencer](./Audio/RakitBaby8Sequencer) - building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clock input..
+> Latest addition:sparkles: [Learning PCBmodE](./BoldportClub/pcbmode) - learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
