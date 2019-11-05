@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-11-03T23:38:10Z</updated>
+  <updated>2019-11-05T13:13:13Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Switches/SingleStageDelay/</id>
+    <link href="https://leap.tardate.com/Electronics101/Switches/SingleStageDelay/"/>
+    <updated>2019-11-05T13:12:35Z</updated>
+    <title>#507 Single-stage Delay Switch</title>
+    <summary>comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Switches/SingleStageDelay/assets/SingleStageDelay_build.jpg</g:image_link>
+    <category term="Switches"/>
+    <category term="RC"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/BoldportClub/pcbmode/</id>
     <link href="https://leap.tardate.com/BoldportClub/pcbmode/"/>

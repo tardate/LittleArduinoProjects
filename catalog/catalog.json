@@ -1,5 +1,12 @@
 [
     {
+        "description": "comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components", 
+        "relative_path": "Electronics101/Switches/SingleStageDelay", 
+        "id": "#507", 
+        "categories": "Switches, RC", 
+        "name": "Single-stage Delay Switch"
+    }, 
+    {
         "description": "learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB", 
         "relative_path": "BoldportClub/pcbmode", 
         "id": "#506", 

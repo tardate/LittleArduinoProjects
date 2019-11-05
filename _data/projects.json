@@ -868,6 +868,15 @@
         ], 
         "title": "BuckConverterModules"
     }, 
+    "/Electronics101/Switches/SingleStageDelay/": {
+        "summary": "comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components", 
+        "id": 507, 
+        "tags": [
+            "Switches", 
+            "RC"
+        ], 
+        "title": "Single-stage Delay Switch"
+    }, 
     "/playground/RotaryEncoderMethods/": {
         "summary": "finding the best method for reading a rotary-encoder", 
         "id": 118, 

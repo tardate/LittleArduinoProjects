@@ -1,6 +1,6 @@
-# 506 Little Electronics and Arduino Projects
+# 507 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Learning PCBmodE](./BoldportClub/pcbmode) - learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB.
+> Latest addition:sparkles: [Single-stage Delay Switch](./Electronics101/Switches/SingleStageDelay) - comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

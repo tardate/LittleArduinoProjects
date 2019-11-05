@@ -1,0 +1,7 @@
+{
+    "id": "#507",
+    "name": "Single-stage Delay Switch",
+    "description": "comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components",
+    "categories": "Switches, RC",
+    "relative_path": "Electronics101/Switches/SingleStageDelay"
+}
