@@ -198,8 +198,8 @@ To finalise the board, I used the standrad hand-crafted PCBmodE flow:
 * manually feed changes back into the board files (`blinky.json`, `blinky_routing.json`)
 * regenerate with `pcbmode -b blinky -m`
 
-After a few iterations, I had a design that was at least complete (electrically) and
-demonstrated some of the classic boldport tricks like wiggly traces, arbitrary outlines:
+After a few iterations, I had a design that was at least complete electrically and
+demonstrated a few of the boldport hallmarks such as wiggly traces and irregular outlines:
 
 ![pcbmode_build](./assets/pcbmode_build.jpg?raw=true)
 
