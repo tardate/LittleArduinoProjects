@@ -158,7 +158,7 @@ For a simple tutorial, I'm building a standard astable 555 timer circuit with an
 The circuit will flash at [1Hz](https://visual555.tardate.com/?r1=10&r2=330&c=2)
 with R1=10kΩ, R2=330kΩ, C1=2µF.
 
-![PCBmodEBlinky_schematic](./assets/PCBmodEBlinky_schematic.jpg?raw=true)
+[![PCBmodEBlinky_schematic](./assets/PCBmodEBlinky_schematic.jpg?raw=true)](https://visual555.tardate.com/?r1=10&r2=330&c=2)
 
 ### Bootstrap with PCBmodEZero
 
@@ -192,7 +192,7 @@ This worked pretty well, although I was unable to get it to generate routing wit
 
 ### Routing, Outline and Finishing Touches
 
-To finalise the board, I used the standrad hand-crafted PCBmodE flow:
+To finalise the board, I used the standard hand-crafted PCBmodE flow:
 
 * view/edit the SVG with inkscape
 * manually feed changes back into the board files (`blinky.json`, `blinky_routing.json`)
@@ -221,7 +221,7 @@ TODO: update after the boards have been delivered and I've tried them out;-)
 
 ## Conclusions
 
-I am still waiting for my first PCBmodE mode to arrive from OSHpark, so I don't know if I've even been able to produce
+I am still waiting for my first PCBmodE boards to arrive from OSHpark, so I don't know if I've even been able to produce
 something that works - hardly an expert yet. But some observations on the PCBmodE design process so far:
 
 * once one has all the components roughly laid out, designing in inkscape is wonderfully freeing compared to traditional EDA tools
@@ -231,8 +231,9 @@ something that works - hardly an expert yet. But some observations on the PCBmod
 With small boards, the process gets you up and personal with the intracicies of the baord design - which is great if
 one is trying to produce something startling and unique. I don't know how I'd go with much larger designs without added tool help.
 
-So far my bottom line: this is a really interesting way to build boards. I can't help thinking that
-improvements in tooling (especially WYSIWYG component selection and automated feedback of design changes) would make for something really powerful.
+So far my bottom line: this is a really liberating way to build boards, especially when you want to get creative.
+I can't help thinking that improvements in tooling (especially WYSIWYG component selection and automated feedback of design changes)
+would make for something really powerful that I'd want to use for even *regular* designs.
 
 More comments perhaps once I've got my first PCBmodE boards back, and done another design or two..
 
