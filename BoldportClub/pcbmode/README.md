@@ -32,7 +32,7 @@ I'm running all my PCBmodE experiments from this folder. It has the following st
     assets    # assets for these notes
     boards  # <-- folder for project boards. `mkdir boards` if not already present
     pcbmode # <-- PCBmodE cloned repo
-    venv    # <-- pythin virtual environment
+    venv    # <-- python virtual environment
 
 ### Compiling an Example Board: widlar
 
@@ -126,7 +126,7 @@ These uploaded to OSHpark without issue - you can see the [generated project her
 I learned (the hard way) that if you don't read the [workflow docs](https://pcbmode.readthedocs.io/en/latest/workflow.html),
 then figuring out why and how to use PCBmodE will be a trial of massive fail. It is nothing like any other EDA tool I've ever come across!
 
-In essence, design is an iteractive processes shuttling between the JSON definitions and the SVG representation:
+In essence, design is an iterative processes shuttling between the JSON definitions and the SVG representation:
 
     JSON board definition ->
        compile with PCBmodE to SVG (`pcbmode -b board -m`) ->
@@ -154,7 +154,7 @@ compatible with the current PCBmodE software. In particular, it seems the shapes
 
 ### A Simple Circuit
 
-For a simple tutorial, I'm buidling a standard astable 555 timer circuit with an LED on the output.
+For a simple tutorial, I'm building a standard astable 555 timer circuit with an LED on the output.
 The circuit will flash at [1Hz](https://visual555.tardate.com/?r1=10&r2=330&c=2)
 with R1=10kΩ, R2=330kΩ, C1=2µF.
 
@@ -198,8 +198,8 @@ To finalise the board, I used the standrad hand-crafted PCBmodE flow:
 * manually feed changes back into the board files (`blinky.json`, `blinky_routing.json`)
 * regenerate with `pcbmode -b blinky -m`
 
-After a few iterations, I had a design that was at least complete electrically and
-demonstrated a few of the boldport hallmarks such as wiggly traces and irregular outlines:
+After a few iterations, I had a design that was at least electrically complete and
+demonstrates a few of the boldport hallmarks such as wiggly traces and irregular outlines:
 
 ![pcbmode_build](./assets/pcbmode_build.jpg?raw=true)
 
@@ -218,6 +218,23 @@ The project can be [found here on OSHpark](https://oshpark.com/shared_projects/f
 
 TODO: update after the boards have been delivered and I've tried them out;-)
 
+
+## Conclusions
+
+I am still waiting for my first PCBmodE mode to arrive from OSHpark, so I don't know if I've even been able to produce
+something that works - hardly an expert yet. But some observations on the PCBmodE design process so far:
+
+* once one has all the components roughly laid out, designing in inkscape is wonderfully freeing compared to traditional EDA tools
+* but the process for feedbing back changes into the board design is a bit laborious - unless one is disciplined I can image it easily becoming a hot mess
+* it's important to remember to covert all strokes to paths (Path menu in inkscape) before trying to put them back into the PCBmodE JSON files
+
+With small boards, the process gets you up and personal with the intracicies of the baord design - which is great if
+one is trying to produce something startling and unique. I don't know how I'd go with much larger designs without added tool help.
+
+So far my bottom line: this is a really interesting way to build boards. I can't help thinking that
+improvements in tooling (especially WYSIWYG component selection and automated feedback of design changes) would make for something really powerful.
+
+More comments perhaps once I've got my first PCBmodE boards back, and done another design or two..
 
 ## Credits and References
 
