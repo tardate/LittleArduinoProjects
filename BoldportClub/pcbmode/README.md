@@ -88,7 +88,6 @@ I zipped up the production folder and uploaded to a randomly chosen viewer - [ww
 
 ![widlar_gerber_viewer](./assets/widlar_gerber_viewer.jpg?raw=true)
 
-
 ### Generating for OSHPark
 
 I tried uploading the default production files to OSHPark only to discover they don't match the required [Naming Patterns](https://docs.oshpark.com/troubleshooting/naming-pattern/).
@@ -120,7 +119,6 @@ These uploaded to OSHpark without issue - you can see the [generated project her
 
 [![widlar_oshpark](./assets/widlar_oshpark.jpg?raw=true)](https://oshpark.com/shared_projects/MebJPxXR)
 
-
 ## PCBmodE Workflow
 
 I learned (the hard way) that if you don't read the [workflow docs](https://pcbmode.readthedocs.io/en/latest/workflow.html),
@@ -143,7 +141,6 @@ Saar's process/design tips (compiled from comments in discord):
 * Then I mock-up in Inkscape. I'll draw shapes 1:1 and often bring in footprints to give me perspective and context.
 * I try to nail down the shapes (mainly outline) before actually starting to design the PCB with PCBmodE.
 * Like @Ben B says, I have a shapes.svg in the repo where I create all the shapes I need, including intermediates so I can go backwards if I need to make changes.
-
 
 ## Tutorial: PCBmodE Blinky
 
@@ -218,17 +215,16 @@ The project can be [found here on OSHpark](https://oshpark.com/shared_projects/f
 
 TODO: update after the boards have been delivered and I've tried them out;-)
 
-
 ## Conclusions
 
 I am still waiting for my first PCBmodE boards to arrive from OSHpark, so I don't know if I've even been able to produce
 something that works - hardly an expert yet. But some observations on the PCBmodE design process so far:
 
 * once one has all the components roughly laid out, designing in inkscape is wonderfully freeing compared to traditional EDA tools
-* but the process for feedbing back changes into the board design is a bit laborious - unless one is disciplined I can image it easily becoming a hot mess
+* but the process for feeding changes back into the board design is a bit laborious - unless one is disciplined I can image it easily becoming a hot mess
 * it's important to remember to covert all strokes to paths (Path menu in inkscape) before trying to put them back into the PCBmodE JSON files
 
-With small boards, the process gets you up and personal with the intracicies of the baord design - which is great if
+With small boards, the process gets you up and personal with the intricacies of the board design - which is great if
 one is trying to produce something startling and unique. I don't know how I'd go with much larger designs without added tool help.
 
 So far my bottom line: this is a really liberating way to build boards, especially when you want to get creative.
