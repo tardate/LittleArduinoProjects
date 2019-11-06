@@ -7,7 +7,7 @@ Learning how to use Boldport PCBmodE design software with an example of making a
 ## Notes
 
 I've long been aware that Saar uses his own EDA software called [PCBmodE](https://github.com/boldport/pcbmode) for all the Boldport designs.
-It is open source but this is the first itme I've made a serious effort to learn how it works and try to build a PCB with it.
+It is open source but this is the first time I've made a serious effort to learn how it works and try to build a PCB with it.
 
 The following are my notes on getting up and running with PCBmodE, culminating in the design of a new
 board based on a simple 555 timer circuit.
@@ -28,11 +28,13 @@ so I just needed to clone the PCBmodE repo and run setup (in a dedicated Python 
 I'm running all my PCBmodE experiments from this folder. It has the following structure:
 
     $ ls -1
-    README.md # thses notes
-    assets    # assets for these notes
-    boards  # <-- folder for project boards. `mkdir boards` if not already present
-    pcbmode # <-- PCBmodE cloned repo
-    venv    # <-- python virtual environment
+    README.md           # these notes
+    assets              # assets for these notes
+    boards              # <-- folder for project boards
+    generate_blinky.py  # <-- blinky board generator
+    pcbmode             # <-- cloned repo
+    python-pcbmode-zero # <-- cloned repo
+    venv                # <-- python virtual environment
 
 ### Compiling an Example Board: widlar
 
