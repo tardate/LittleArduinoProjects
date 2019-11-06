@@ -1,6 +1,6 @@
-# 507 Little Electronics and Arduino Projects
+# 508 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Single-stage Delay Switch](./Electronics101/Switches/SingleStageDelay) - comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components.
+> Latest addition:sparkles: [Using mDNS](./ESP32/UsingMDNS) - delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

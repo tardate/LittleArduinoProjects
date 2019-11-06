@@ -1,0 +1,7 @@
+{
+    "id": "#508",
+    "name": "Using mDNS",
+    "description": "delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network",
+    "categories": "ESP32, mDNS",
+    "relative_path": "ESP32/UsingMDNS"
+}

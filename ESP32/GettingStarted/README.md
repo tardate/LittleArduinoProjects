@@ -179,7 +179,7 @@ The GettingStarted.ino sketch will scan available SSIDs every 5 seconds and list
 ## Construction
 
 There is no "circuit" to construct so far - simply plugging the ESP32 into the USB port!
-But I ddi go searching for a suitable Fritzing Part.
+But I did go searching for a suitable Fritzing Part.
 
 The best I found was probably the [ESP32S_HiLetgo](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357?u=steelgoose), which I've started to use.
 The pinouts are however not correct for the Devkit board I have (so care will be required when wiring from a schematic).

@@ -1,5 +1,12 @@
 [
     {
+        "description": "delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network", 
+        "relative_path": "ESP32/UsingMDNS", 
+        "id": "#508", 
+        "categories": "ESP32, mDNS", 
+        "name": "Using mDNS"
+    }, 
+    {
         "description": "comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components", 
         "relative_path": "Electronics101/Switches/SingleStageDelay", 
         "id": "#507", 

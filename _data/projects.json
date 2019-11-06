@@ -451,15 +451,6 @@
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
     }, 
-    "/playground/UsingTemplates/": {
-        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
-        "id": 486, 
-        "tags": [
-            "Arduino", 
-            "C++"
-        ], 
-        "title": "Using C++ Templates"
-    }, 
     "/OSHChip/LEDx16Module/": {
         "summary": "driving an SPI LED module with the OSHChip", 
         "id": 216, 
@@ -2109,6 +2100,15 @@
         ], 
         "title": "USBProtector"
     }, 
+    "/ESP32/UsingMDNS/": {
+        "summary": "delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network", 
+        "id": 508, 
+        "tags": [
+            "ESP32", 
+            "mDNS"
+        ], 
+        "title": "Using mDNS"
+    }, 
     "/playground/AvrHardwarePWM/": {
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
         "id": 254, 
@@ -2325,6 +2325,16 @@
             "Power"
         ], 
         "title": "MT3608/VariableBoost"
+    }, 
+    "/Electronics101/RelaxationJouleThief/": {
+        "summary": "test a \"joule thief\" circuit based on a relaxation oscillator", 
+        "id": 129, 
+        "tags": [
+            "Power", 
+            "RLC", 
+            "Oscillators"
+        ], 
+        "title": "RelaxationJouleThief"
     }, 
     "/ESP8266/SerialTest/ruby/": {
         "summary": "exercising ESP8266 serial communications with Ruby", 
@@ -2569,15 +2579,13 @@
         ], 
         "title": "CD4047/AstableOscillator"
     }, 
-    "/Electronics101/RelaxationJouleThief/": {
-        "summary": "test a \"joule thief\" circuit based on a relaxation oscillator", 
-        "id": 129, 
+    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
+        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
+        "id": 495, 
         "tags": [
-            "Power", 
-            "RLC", 
-            "Oscillators"
+            "BJT"
         ], 
-        "title": "RelaxationJouleThief"
+        "title": "Negative Feedback Amplifier"
     }, 
     "/playground/HeartQuotes/": {
         "summary": "press a button to get a quote from the net and display on an LCD", 
@@ -4077,13 +4085,14 @@
         ], 
         "title": "ClapSwitchKit2"
     }, 
-    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
-        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
-        "id": 495, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
         "tags": [
-            "BJT"
+            "Arduino", 
+            "C++"
         ], 
-        "title": "Negative Feedback Amplifier"
+        "title": "Using C++ Templates"
     }, 
     "/BoldportClub/TheMatrix/GameOfLife/": {
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 
