@@ -4,7 +4,6 @@ Controlling a relay with an Arduino. Here's a quick demo:
 
 [![RelayControlTest](https://img.youtube.com/vi/lQ0w9EMgx1c/0.jpg)](https://www.youtube.com/watch?v=lQ0w9EMgx1c)
 
-
 ## Notes
 
 An equivalent test to [RelayModuleTest](../RelayModuleTest),
@@ -22,5 +21,7 @@ A [flyback diode](http://en.wikipedia.org/wiki/Flyback_diode) is added to protec
 ![The Build](./assets/RelayControlTest_build.jpg?raw=true)
 
 ## Credits and references
+
 * [SRD-05VDC-SL-C datasheet](https://www.ghielectronics.com/downloads/man/20084141716341001RelayX1.pdf)
 * [Relay Switching Circuits](http://www.electronics-tutorials.ws/blog/relay-switch-circuit.html)
+* [Transistors, Relays, and Controlling High-Current Loads](https://itp.nyu.edu/physcomp/lessons/electronics/transistors-relays-and-controlling-high-current-loads/)

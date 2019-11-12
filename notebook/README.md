@@ -12,6 +12,7 @@
 * [Javascript® Electronic Notebook](http://www.k7mem.com/) by Martin E. Meserve
 * [Radio Receivers, from crystal set to stereo](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/introduction) - MikroElectronica Books
 * [Radio Hobbyist's Designbook](http://www.hanssummers.com/k6lha-design-book.html) by Hans Summers
+* [Transistors](https://learn.sparkfun.com/tutorials/transistors) - sparkfun
 * [Understanding Electronics Components](https://www.mikroe.com/ebooks/components-of-electronic-devices/introduction) - MikroElectronica Books
 
 ## Design Guides
@@ -19,6 +20,8 @@
 * [Electronics Design Checklist](http://aqdi.com/articles/electronics-design-checklist-3/) - Hank Wallace
 * [A Short Guide On Motor Electrical Noise Reduction](http://www.kerrywong.com/2012/01/26/a-short-guide-on-motor-electrical-noise-reduction/)
 * [De-coupling](http://www.thebox.myzen.co.uk/Tutorial/De-coupling.html)
+* [List of 4000-series integrated circuits](https://en.wikipedia.org/wiki/List_of_4000-series_integrated_circuits)
+* [List of 7400-series integrated circuits](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits)
 
 ## Calculators
 
@@ -48,4 +51,9 @@
 * [Model Railroad & Misc. Electronics](http://www.circuitous.ca/CircuitIndex.html)
 * [N5ESE's Ham Radio Page](http://www.n5ese.com/)
 * [Radio Frequency Schematics](http://rf-circuit-schematic.blogspot.com/)
+* [Talking Electronics](http://www.talkingelectronics.com/te_interactive_index.html)
 * [www.changpuak.ch](https://www.changpuak.ch/electronics/index.php) - An archive of useful, funny and educational projects
+
+## Specialty Suppliers
+
+* [Tubes-Store](https://tubes-store.com/)
