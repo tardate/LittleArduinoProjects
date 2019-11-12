@@ -1,5 +1,12 @@
 [
     {
+        "description": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX", 
+        "relative_path": "Electronics101/SerialInterface/MAX3232/RS232TTLModule", 
+        "id": "#509", 
+        "categories": "RS232, Serial, USB", 
+        "name": "MAX3232 RS232 to TTL Module"
+    }, 
+    {
         "description": "delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network", 
         "relative_path": "ESP32/UsingMDNS", 
         "id": "#508", 

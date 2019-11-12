@@ -1059,6 +1059,16 @@
         ], 
         "title": "PiezoVibrationDetector"
     }, 
+    "/Electronics101/SerialInterface/MAX3232/RS232TTLModule/": {
+        "summary": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX", 
+        "id": 509, 
+        "tags": [
+            "RS232", 
+            "Serial", 
+            "USB"
+        ], 
+        "title": "MAX3232 RS232 to TTL Module"
+    }, 
     "/Electronics101/WatsonLedRing/": {
         "summary": "test a Watson 3-LED Ring oscillator", 
         "id": 164, 

@@ -91,7 +91,7 @@ Connections:
 In the screenshot here, I'm watching:
 
 * the serial output direct from the Arduino on the Arduino IDE Console (attached to `/dev/cu.usbmodem14531`)
-* simulatenously watching the same inut form the MCP2200 via screen attached to `/dev/cu.usbmodem14511`
+* simulatenously watching the same input from the MCP2200 via screen attached to `/dev/cu.usbmodem14511`
 
 As you can see, no trouble at all:
 
