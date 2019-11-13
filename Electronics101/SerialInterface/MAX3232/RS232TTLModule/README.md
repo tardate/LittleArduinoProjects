@@ -84,14 +84,26 @@ It can operate with 3.0V to 5.5V TTL, with transmission speeds up to 1Mbps.
 
 ![MAX3232](./assets/MAX3232.png?raw=true)
 
-
 ### MAX3232 Module Construction
 
 The MAX3232 module is a standard 3-wire configuration, with a DE-9 female connector.
+Here's a quick transcription of the module circuit. It follows the recommended
+examples provided in the datasheet:
 
 ![Breadboard](./assets/RS232TTLModule_bb.jpg?raw=true)
 
 ![Schematic](./assets/RS232TTLModule_schematic.jpg?raw=true)
+
+## Connecting the USB Adapter
+
+| CH340G USB Adapter Pinouts | MAX3232 Module Pins |
+|----------------------------|---------------------|
+| DTR                        | -                   |
+| RXD                        | RXD                 |
+| TXD                        | TXD                 |
+| VCC (5V)                   | VCC                 |
+| CTS                        | -                   |
+| GND                        | GND                 |
 
 ## Connecting with Screen
 
@@ -108,7 +120,7 @@ is started with the command:
 
 ![console_startup](./assets/console_startup.png?raw=true)
 
-The USB adapter and MAX3232 module connected the the serial device:
+The USB adapter and MAX3232 module connected to the serial device:
 
 ![RS232TTLModule_testing](./assets/RS232TTLModule_testing.jpg?raw=true)
 
