@@ -63,9 +63,10 @@ but the 9-pin DE-9 became the most common for computer applications.
 
 ## Flow Control
 
-In modern applications, a minimal "3-wire" RS-232 (transmit, receive, ground) connection is used. This has no hardware flow control.
+In modern applications, a minimal "3-wire" RS-232 (transmit, receive, ground) connection is often used.
+This configuration does not use any hardware flow control.
 
-Hardware flow control is most commonly added with some or all of the following lines: DTR, RTS, CTS.
+A "5-wire" configuration adds hardware flow control with RTS and CTS lines.
 
 ## Null Modem
 
