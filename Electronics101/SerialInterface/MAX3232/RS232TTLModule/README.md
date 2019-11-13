@@ -132,3 +132,5 @@ The USB adapter and MAX3232 module connected to the serial device:
 * [D-sub 9 Connector Pinout](https://www.db9-pinout.com/)
 * [Null modem](https://en.wikipedia.org/wiki/Null_modem) - wikipedia
 * [screen notes](http://www.noah.org/wiki/Screen_notes)
+* [Serial Communication – RS232 Basics](http://maxembedded.com/2013/09/serial-communication-rs232-basics/) - maxembedded
+* [Beginning Embedded Electronics - 4 - UART and Serial Communication](https://www.sparkfun.com/tutorials/104) - sparkfun tutorial
