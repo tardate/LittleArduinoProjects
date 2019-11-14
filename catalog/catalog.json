@@ -1,5 +1,12 @@
 [
     {
+        "description": "building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets", 
+        "relative_path": "Electronics101/SerialInterface/UsbToRs232", 
+        "id": "#510", 
+        "categories": "RS232, Serial, USB", 
+        "name": "USB to RS-232 Adapter"
+    }, 
+    {
         "description": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX", 
         "relative_path": "Electronics101/SerialInterface/MAX3232/RS232TTLModule", 
         "id": "#509", 

@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-11-13T14:28:49Z</updated>
+  <updated>2019-11-14T17:17:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/SerialInterface/UsbToRs232/</id>
+    <link href="https://leap.tardate.com/Electronics101/SerialInterface/UsbToRs232/"/>
+    <updated>2019-11-14T17:00:31Z</updated>
+    <title>#510 USB to RS-232 Adapter</title>
+    <summary>building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/SerialInterface/UsbToRs232/assets/UsbToRs232_build.jpg</g:image_link>
+    <category term="RS232"/>
+    <category term="Serial"/>
+    <category term="USB"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/SerialInterface/MAX3232/RS232TTLModule/</id>
     <link href="https://leap.tardate.com/Electronics101/SerialInterface/MAX3232/RS232TTLModule/"/>
-    <updated>2019-11-12T17:05:40Z</updated>
+    <updated>2019-11-13T14:58:15Z</updated>
     <title>#509 MAX3232 RS232 to TTL Module</title>
     <summary>Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SerialInterface/MAX3232/RS232TTLModule/assets/RS232TTLModule_build.jpg</g:image_link>

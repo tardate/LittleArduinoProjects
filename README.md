@@ -1,6 +1,6 @@
-# 509 Little Electronics and Arduino Projects
+# 510 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [MAX3232 RS232 to TTL Module](./Electronics101/SerialInterface/MAX3232/RS232TTLModule) - using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX.
+> Latest addition:sparkles: [USB to RS-232 Adapter](./Electronics101/SerialInterface/UsbToRs232) - building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -3600,6 +3600,16 @@
         ], 
         "title": "VC3165"
     }, 
+    "/Electronics101/SerialInterface/UsbToRs232/": {
+        "summary": "building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets", 
+        "id": 510, 
+        "tags": [
+            "RS232", 
+            "Serial", 
+            "USB"
+        ], 
+        "title": "USB to RS-232 Adapter"
+    }, 
     "/Kraft/GoldenHind/": {
         "summary": "building a mini metal model of the Golden Hind", 
         "id": 298, 
