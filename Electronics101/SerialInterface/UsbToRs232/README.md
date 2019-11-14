@@ -60,3 +60,5 @@ is started with the command:
 * [MAX3232 product info and datasheet](https://www.ti.com/product/MAX3232)
 * [Mini RS232 to TTL Converter Adaptor Module Board MAX3232](https://www.aliexpress.com/item/32649292208.html) - aliexpress
 * [screen notes](http://www.noah.org/wiki/Screen_notes)
+* [DIY USB to RS232 Adapter](http://www.electronics-diy.com/electronic_schematic.php?id=1006) - another project, uses the CP2102 and MAX3243 chips
+
