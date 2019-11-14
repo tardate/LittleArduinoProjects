@@ -11,9 +11,9 @@ I want to talk to a device on an RS232 DE-9 serial port, and it seems I have mod
 This is a quick exercise of combining two modules to allow RS232 serial communication over USB:
 
 * a [MAX3232 RS232 to TTL Serial Module](https://www.aliexpress.com/item/4000055222836.html),
-* with a [CH340G-based USB to TTL serial adapter](../UsbUartCH340G)
+* with a [CH340G-based USB to TTL serial adapter](../../UsbUartCH340G)
 
-See [LEAP#406](../UsbUartCH340G) for details of the USB to TTL serial adapter.
+See [LEAP#406](../../UsbUartCH340G) for details of the USB to TTL serial adapter.
 Here I'm going to take a closer look at the MAX3232 module, which can be found for pennies on aliexpress or ebay:
 
 ![RS232TTLModule_module](./assets/RS232TTLModule_module.jpg?raw=true)
