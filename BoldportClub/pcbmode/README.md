@@ -152,10 +152,10 @@ compatible with the current PCBmodE software. In particular, it seems the shapes
 ### A Simple Circuit
 
 For a simple tutorial, I'm building a standard astable 555 timer circuit with an LED on the output.
-The circuit will flash at [1Hz](https://visual555.tardate.com/?r1=10&r2=330&c=2)
-with R1=10kΩ, R2=330kΩ, C1=2µF.
+The circuit will flash at about [1Hz](https://visual555.tardate.com/?mode=astable&r1=10&r2=330&c=2.2)
+with R1=10kΩ, R2=330kΩ, C1=2.2µF.
 
-[![PCBmodEBlinky_schematic](./assets/PCBmodEBlinky_schematic.jpg?raw=true)](https://visual555.tardate.com/?r1=10&r2=330&c=2)
+[![PCBmodEBlinky_schematic](./assets/PCBmodEBlinky_schematic.jpg?raw=true)](https://visual555.tardate.com/?mode=astable&r1=10&r2=330&c=2.2)
 
 ### Bootstrap with PCBmodEZero
 
@@ -198,7 +198,7 @@ To finalise the board, I used the standard hand-crafted PCBmodE flow:
 After a few iterations, I had a design that was at least electrically complete and
 demonstrates a few of the boldport hallmarks such as wiggly traces and irregular outlines:
 
-![pcbmode_build](./assets/pcbmode_build.jpg?raw=true)
+![PCBmodEBlinky_in_inkscape](./assets/PCBmodEBlinky_in_inkscape.jpg?raw=true)
 
 ### Generating Production Files
 
@@ -213,12 +213,35 @@ The project can be [found here on OSHpark](https://oshpark.com/shared_projects/f
 
 [![PCBmodEBlinky_pcb](./assets/PCBmodEBlinky_pcb.jpg?raw=true)](https://oshpark.com/shared_projects/fpZXhap7)
 
-TODO: update after the boards have been delivered and I've tried them out;-)
+UPDATE: the boards have arrived thanks to some speedy shipping from OSHPark. Electrically, they check out perfectly..
+
+![PCBmodEBlinky_pcb_delivery](./assets/PCBmodEBlinky_pcb_delivery.jpg?raw=true)
+
+I built all three of the boards and decided to mount them on a little wire sculpture and a 9V battery adapter.
+
+The actual components I used:
+
+| Part | Description    |
+|------|----------------|
+| R1   | 10kΩ           |
+| R2   | 330kΩ          |
+| C1   | 2.2µF          |
+| C2   | 100nF          |
+| IC1  | NE555          |
+| LED1 | 3mm orange LED |
+
+![build_complete_front](./assets/build_complete_front.jpg?raw=true)
+
+![build_complete_rear](./assets/build_complete_rear.jpg?raw=true)
+
+Here's a quick demo of the boards in action..
+
+[![clip](https://img.youtube.com/vi/oPgU24y_iwU/0.jpg)](https://www.youtube.com/watch?v=oPgU24y_iwU)
 
 ## Conclusions
 
-I am still waiting for my first PCBmodE boards to arrive from OSHpark, so I don't know if I've even been able to produce
-something that works - hardly an expert yet. But some observations on the PCBmodE design process so far:
+Well, my first PCBmodE boards turned out just fine, at least I was able to produce
+something that works - hardly an expert yet. Some observations on the PCBmodE design process so far:
 
 * once one has all the components roughly laid out, designing in inkscape is wonderfully freeing compared to traditional EDA tools
 * but the process for feeding changes back into the board design is a bit laborious - unless one is disciplined I can image it easily becoming a hot mess
@@ -231,7 +254,7 @@ So far my bottom line: this is a really liberating way to build boards, especial
 I can't help thinking that improvements in tooling (especially WYSIWYG component selection and automated feedback of design changes)
 would make for something really powerful that I'd want to use for even *regular* designs.
 
-More comments perhaps once I've got my first PCBmodE boards back, and done another design or two..
+More comments perhaps once I've done another design or two..
 
 ## Credits and References
 

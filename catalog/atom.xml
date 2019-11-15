@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-11-14T17:17:42Z</updated>
+  <updated>2019-11-15T14:51:04Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SerialInterface/UsbToRs232/</id>
     <link href="https://leap.tardate.com/Electronics101/SerialInterface/UsbToRs232/"/>
-    <updated>2019-11-14T17:00:31Z</updated>
+    <updated>2019-11-14T17:23:18Z</updated>
     <title>#510 USB to RS-232 Adapter</title>
     <summary>building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SerialInterface/UsbToRs232/assets/UsbToRs232_build.jpg</g:image_link>
@@ -56,7 +56,7 @@
   <entry>
     <id>https://leap.tardate.com/BoldportClub/pcbmode/</id>
     <link href="https://leap.tardate.com/BoldportClub/pcbmode/"/>
-    <updated>2019-11-03T15:36:45Z</updated>
+    <updated>2019-11-15T14:48:53Z</updated>
     <title>#506 Learning PCBmodE</title>
     <summary>learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/pcbmode/assets/pcbmode_build.jpg</g:image_link>
