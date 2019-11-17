@@ -1,5 +1,12 @@
 [
     {
+        "description": "an AC-powered bridge doubler supply with DC output govered by 7815/7915 \u00b115V DC linear regulation", 
+        "relative_path": "Electronics101/Power/BridgeDoublerSplitSupply", 
+        "id": "#511", 
+        "categories": "Power", 
+        "name": "Bridge Doubler Split Supply"
+    }, 
+    {
         "description": "building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets", 
         "relative_path": "Electronics101/SerialInterface/UsbToRs232", 
         "id": "#510", 

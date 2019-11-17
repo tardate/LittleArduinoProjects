@@ -505,15 +505,13 @@
         ], 
         "title": "RGBLedModule"
     }, 
-    "/Electronics101/LedDrivers/QX5252SolarNightLight/": {
-        "summary": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller", 
-        "id": 439, 
+    "/Electronics101/OpAmp/Transconductance/": {
+        "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp", 
+        "id": 463, 
         "tags": [
-            "Power", 
-            "LED", 
-            "Solar"
+            "OpAmp"
         ], 
-        "title": "QX5252SolarNightLight"
+        "title": "Transconductance Amplifiers"
     }, 
     "/playground/CounterModule/": {
         "summary": "a general-purpose CD4017 counter module", 
@@ -3869,6 +3867,14 @@
         ], 
         "title": "HX6B"
     }, 
+    "/Electronics101/Power/BridgeDoublerSplitSupply/": {
+        "summary": "an AC-powered bridge doubler supply with DC output govered by 7815/7915 \u00b115V DC linear regulation", 
+        "id": 511, 
+        "tags": [
+            "Power"
+        ], 
+        "title": "Bridge Doubler Split Supply"
+    }, 
     "/Electronics101/DigitalLogic/SRLatchWithNandGates/": {
         "summary": "Set-Reset latch implemented with NAND gates", 
         "id": 346, 
@@ -4024,13 +4030,15 @@
         ], 
         "title": "CrystalTester"
     }, 
-    "/Electronics101/OpAmp/Transconductance/": {
-        "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp", 
-        "id": 463, 
+    "/Electronics101/LedDrivers/QX5252SolarNightLight/": {
+        "summary": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller", 
+        "id": 439, 
         "tags": [
-            "OpAmp"
+            "Power", 
+            "LED", 
+            "Solar"
         ], 
-        "title": "Transconductance Amplifiers"
+        "title": "QX5252SolarNightLight"
     }, 
     "/playground/nRF24/Scanner/": {
         "summary": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display", 

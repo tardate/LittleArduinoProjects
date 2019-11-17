@@ -1,6 +1,6 @@
-# 510 Little Electronics and Arduino Projects
+# 511 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [USB to RS-232 Adapter](./Electronics101/SerialInterface/UsbToRs232) - building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets.
+> Latest addition:sparkles: [Bridge Doubler Split Supply](./Electronics101/Power/BridgeDoublerSplitSupply) - an AC-powered bridge doubler supply with DC output govered by 7815/7915 ±15V DC linear regulation.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
