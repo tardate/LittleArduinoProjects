@@ -67,7 +67,9 @@ In the trace:
 
 ![scope_regulated_output](./assets/scope_regulated_output.gif?raw=true)
 
-Transferred to protoboard with the following layout:
+Transferred to protoboard with the following layout.
+I've included some gratuitous LEDs on each side of the supply - a pair of 5mm strawhat LEDs with 4.7kΩ current-limiting resistors.
+Green for the +15V rail, red for the -15V rail:
 
 ![BridgeDoublerSplitSupply_layout](./assets/BridgeDoublerSplitSupply_layout.jpg?raw=true)
 
