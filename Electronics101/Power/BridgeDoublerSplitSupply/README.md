@@ -1,18 +1,18 @@
 # #511 Bridge Doubler Split Supply
 
-An AC-powered bridge doubler supply with DC output govered by 7815/7915 ±15V DC linear regulation.
+An AC-powered bridge doubler supply with DC output governed by 7815/7915 ±15V DC linear regulation.
 
 ![Build](./assets/BridgeDoublerSplitSupply_build.jpg?raw=true)
 
 ## Notes
 
 Learnelectronics recently had a good video on Youtube covering the [Delon/full-wave bridge doubler](https://en.wikipedia.org/wiki/Voltage_doubler) circuit,
-which prompted me to also build up the circuit.
+which prompted me to take a closer look at this classic circuit.
 
 [![clip](https://img.youtube.com/vi/Rmq4OKhKX-4/0.jpg)](https://www.youtube.com/watch?v=Rmq4OKhKX-4)
 
 I've taken some measurements of the basic circuit powered by a 12VAC adapter,
-and then added ±15V linear (7815/7915) regulation for a handle split-supply unit for the bench.
+and then added ±15V linear (7815/7915) regulation for a handle split-supply unit that could be quite handy on the bench.
 
 ## The Basic Bridge Doubler
 
@@ -23,7 +23,7 @@ In my build, I'm using an isolated 12AVC power adapter. If mains supply is used 
 can be very unsafe unless care is taken to ensure this is wired to the neutral mains wire.
 
 Any sufficiently-rated rectifier would do for the bridge, however I'm using 1N5819 for low forward voltage to minimise loss.
-For testing, a 10kΩ resistor is in cicuit as a representative load.
+For testing, a 10kΩ resistor is in-circuit as a representative load.
 
 ![Breadboard](./assets/BridgeDoubler_bb.jpg?raw=true)
 
@@ -78,8 +78,9 @@ Under test with some 24V edison lamps:
 ## Credits and References
 
 * [Voltage doubler](https://en.wikipedia.org/wiki/Voltage_doubler) - wikipedia
+* [Voltage Multiplier](https://www.electronics-tutorials.ws/blog/voltage-multiplier-circuit.html) - electronics-tutorials
 * [7815 datasheet](https://www.futurlec.com/Linear/7815T.shtml) +15V regulator
 * [7915 datasheet](https://www.futurlec.com/Linear/7915T.shtml) -15V regulator
 * [1N4001 datasheet](https://www.futurlec.com/Diodes/1N4001.shtml) 50V standard recovery rectifier
-* [1N5819 datasheet](https://www.futurlec.com/Diodes/1N5819.shtml) - Shottky Barrier Diode
+* [1N5819 datasheet](https://www.futurlec.com/Diodes/1N5819.shtml) - Schottky Barrier Diode
 * [Edison indicator lamps 24V](https://www.aliexpress.com/item/32815636870.html) - aliexpress

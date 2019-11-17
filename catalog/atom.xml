@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-11-17T13:13:45Z</updated>
+  <updated>2019-11-17T13:20:04Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,9 +14,9 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/BridgeDoublerSplitSupply/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/BridgeDoublerSplitSupply/"/>
-    <updated>2019-11-17T13:12:01Z</updated>
+    <updated>2019-11-17T13:14:42Z</updated>
     <title>#511 Bridge Doubler Split Supply</title>
-    <summary>an AC-powered bridge doubler supply with DC output govered by 7815/7915 ±15V DC linear regulation</summary>
+    <summary>an AC-powered bridge doubler supply with DC output governed by 7815/7915 ±15V DC linear regulation</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/BridgeDoublerSplitSupply/assets/BridgeDoublerSplitSupply_build.jpg</g:image_link>
     <category term="Power"/>
   </entry>

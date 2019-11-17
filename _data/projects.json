@@ -3868,7 +3868,7 @@
         "title": "HX6B"
     }, 
     "/Electronics101/Power/BridgeDoublerSplitSupply/": {
-        "summary": "an AC-powered bridge doubler supply with DC output govered by 7815/7915 \u00b115V DC linear regulation", 
+        "summary": "an AC-powered bridge doubler supply with DC output governed by 7815/7915 \u00b115V DC linear regulation", 
         "id": 511, 
         "tags": [
             "Power"

@@ -1,7 +1,7 @@
 {
     "id": "#511",
     "name": "Bridge Doubler Split Supply",
-    "description": "an AC-powered bridge doubler supply with DC output govered by 7815/7915 ±15V DC linear regulation",
+    "description": "an AC-powered bridge doubler supply with DC output governed by 7815/7915 ±15V DC linear regulation",
     "categories": "Power",
     "relative_path": "Electronics101/Power/BridgeDoublerSplitSupply"
 }
