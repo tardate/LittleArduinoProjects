@@ -115,13 +115,42 @@ See [LEAP#405 ATmegaSerialProgrammer](../../../playground/ATmegaSerialProgrammer
 
 ![Schematic](./assets/UsbUartCH340G_schematic.jpg?raw=true)
 
-![Build](./assets/UsbUartCH340G_build.jpg?raw=true)
+![Build](./assets/UsbUartCH340G_bb_build.jpg?raw=true)
 
 Here's a quick demo (uploading a sketch).
 I'm programming the ATmega328 with the [UsbUartCH340G.ino](./UsbUartCH340G.ino) sketch - a simple blink
 variant that also sends bursts of serial output (to exercise the RX LED).
 
 [![clip](https://img.youtube.com/vi/SSdThKPhHV4/0.jpg)](https://www.youtube.com/watch?v=SSdThKPhHV4)
+
+## A Protoboard CH340G Demonstration
+
+A final prototype before doing anything more serious - I've switched to SMD components and built up for testing on some protoboard with DIP adapters.
+A few changes to the design:
+
+* added a 500mA resetable polyfuse on the USB supply
+* connected both DTR and CTS lines to the 6-pin device adapter
+* bumped up the LED current-limiting resistors to 2.7kΩ
+
+The device pinput sequence I've selected is as follows. This suits some devices, but may need wires crossed for others.
+
+| Pin | Name | Note                          |
+|-----|------|-------------------------------|
+| 1   | DTR  |                               |
+| 2   | RXD  | Connects to TX on the device  |
+| 3   | TXD  | Connects to RX on the device  |
+| 4   | VCC  |                               |
+| 5   | CTS  |                               |
+| 6   | GND  |                               |
+
+
+![CH340GProtoboard_bb](./assets/CH340GProtoboard_bb.jpg?raw=true)
+
+![CH340GProtoboard_schematic](./assets/CH340GProtoboard_schematic.jpg?raw=true)
+
+Here's a sketch of the layout I used:
+
+![CH340GProtoboard_layout](./assets/CH340GProtoboard_layout.jpg?raw=true)
 
 ## Credits and References
 
