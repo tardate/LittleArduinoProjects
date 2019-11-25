@@ -1,5 +1,12 @@
 [
     {
+        "description": "Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.", 
+        "relative_path": "Audio/GreaterSimpleSoundEffects", 
+        "id": "#512", 
+        "categories": "BEAM, CMOS/TTL, Sensors", 
+        "name": "Greater Simple Sound Effects"
+    }, 
+    {
         "description": "an AC-powered bridge doubler supply with DC output governed by 7815/7915 \u00b115V DC linear regulation", 
         "relative_path": "Electronics101/Power/BridgeDoublerSplitSupply", 
         "id": "#511", 

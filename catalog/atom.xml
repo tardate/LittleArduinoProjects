@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-11-19T12:19:36Z</updated>
+  <updated>2019-12-01T08:22:12Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/GreaterSimpleSoundEffects/</id>
+    <link href="https://leap.tardate.com/Audio/GreaterSimpleSoundEffects/"/>
+    <updated>2019-12-01T08:02:55Z</updated>
+    <title>#512 Greater Simple Sound Effects</title>
+    <summary>Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.</summary>
+    <g:image_link>https://leap.tardate.com/Audio/GreaterSimpleSoundEffects/assets/GreaterSimpleSoundEffects_build.jpg</g:image_link>
+    <category term="BEAM"/>
+    <category term="CMOS/TTL"/>
+    <category term="Sensors"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/BridgeDoublerSplitSupply/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/BridgeDoublerSplitSupply/"/>
@@ -1096,7 +1107,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SerialInterface/UsbUartCH340G/</id>
     <link href="https://leap.tardate.com/Electronics101/SerialInterface/UsbUartCH340G/"/>
-    <updated>2019-11-19T12:18:20Z</updated>
+    <updated>2019-11-20T11:41:26Z</updated>
     <title>#406 Custom CH340G USB to UART interface</title>
     <summary>build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SerialInterface/UsbUartCH340G/assets/UsbUartCH340G_build.jpg</g:image_link>

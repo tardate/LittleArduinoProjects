@@ -1,6 +1,6 @@
-# 511 Little Electronics and Arduino Projects
+# 512 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Bridge Doubler Split Supply](./Electronics101/Power/BridgeDoublerSplitSupply) - an AC-powered bridge doubler supply with DC output governed by 7815/7915 ±15V DC linear regulation.
+> Latest addition:sparkles: [Greater Simple Sound Effects](./Audio/GreaterSimpleSoundEffects) - Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
