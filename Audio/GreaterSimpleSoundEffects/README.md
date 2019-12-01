@@ -21,7 +21,7 @@ a CD4040 12-Stage Ripple Counter, and CD4049 inverter.
 
 [![sse_schematic](./assets/sse_schematic.png?raw=true)](https://www.elektormagazine.com/image/original/71612)
 
-How it works:
+Here's a basic description of how it works:
 
 * Counter and DAC stage
   * the CD4049 12-stage counter output drives a simple D/A converter comprising a resistor network
@@ -50,10 +50,10 @@ This is showing the lowest oscillator frequency is around 22Hz. The subsequent c
 
 ## The "Greater Simple Sound Effects" Circuit
 
-The "Greater Simple Sound Effects" circuit published in Elektor May 1980 added a second control voltageinput
-to the oscillator by using 4 counter stages that were unused in the original design to drive another transistors.
+The "Greater Simple Sound Effects" circuit published in Elektor May 1980 used another 4 counter stages (unused in the original design)
+to drive another transistor control voltage input to the oscillator.
 
-Specifically, this added R10-R14 and Q2.
+Specifically, this added R10-R14 and Q2 (see schematic below).
 
 The resulting sound effect is similar but more complex and seemingly randomised.
 
@@ -65,7 +65,7 @@ I did a little experimenting and settled on a few variations for my final circui
 * C1 set to 47nF. This shifted the operating frequency into a more interesting range; 120nF ran at frequencies a bit low for my taste. Personal choice though.
 * R15 - originally a 1MΩ variable resistor - replaced with an LDR for photosensitive control. I used an 5539 LDR (5MΩ dark; 30-90kΩ light)
 * Added Q3 bridging the LDR, so that the base can be used as a capacitive touch input
-* added an LM385 in default 20x configuration on the output to more effectively drive the output especially at very low voltages
+* added an LM386 in default 20x configuration on the output to more effectively drive the output especially at very low voltages
 
 I've been able to run the circuit quite satisfactorily from CR2032 3V coin cell, at the very boootm (and below) recommended voltages:
 
