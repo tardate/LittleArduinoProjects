@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-01T08:22:12Z</updated>
+  <updated>2019-12-02T16:15:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/DummyLoad/SimpleResistiveUsbLoad/</id>
+    <link href="https://leap.tardate.com/Electronics101/DummyLoad/SimpleResistiveUsbLoad/"/>
+    <updated>2019-12-02T15:23:34Z</updated>
+    <title>#513 Simple USB Dummy Load</title>
+    <summary>Examining and testing a simple USB resistive dummy load</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/DummyLoad/SimpleResistiveUsbLoad/assets/SimpleResistiveUsbLoad_build.jpg</g:image_link>
+    <category term="USB"/>
+    <category term="Dummy Load"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/GreaterSimpleSoundEffects/</id>
     <link href="https://leap.tardate.com/Audio/GreaterSimpleSoundEffects/"/>
-    <updated>2019-12-01T08:02:55Z</updated>
+    <updated>2019-12-01T08:56:42Z</updated>
     <title>#512 Greater Simple Sound Effects</title>
     <summary>Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.</summary>
     <g:image_link>https://leap.tardate.com/Audio/GreaterSimpleSoundEffects/assets/GreaterSimpleSoundEffects_build.jpg</g:image_link>

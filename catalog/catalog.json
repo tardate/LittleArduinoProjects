@@ -1,5 +1,12 @@
 [
     {
+        "description": "Examining and testing a simple USB resistive dummy load", 
+        "relative_path": "Electronics101/DummyLoad/SimpleResistiveUsbLoad", 
+        "id": "#513", 
+        "categories": "USB, Dummy Load", 
+        "name": "Simple USB Dummy Load"
+    }, 
+    {
         "description": "Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.", 
         "relative_path": "Audio/GreaterSimpleSoundEffects", 
         "id": "#512", 
