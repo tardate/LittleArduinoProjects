@@ -12,7 +12,7 @@ I picked one up to take a closer look.
 
 ![module](./assets/module.jpg?raw=true)
 
-These are the dumb end of [dummy load](https://en.wikipedia.org/wiki/Dummy_load) spectrum:
+These really are at the dumb end of the [dummy load](https://en.wikipedia.org/wiki/Dummy_load) spectrum. For example:
 
 * no over temp control
 * no over-discharge protection
@@ -20,7 +20,7 @@ These are the dumb end of [dummy load](https://en.wikipedia.org/wiki/Dummy_load)
 
 Probably a very bad idea to use these for battery discharge tests unless closely monitored.
 But fine when a simple resistive load is needed for crude bench tests.
-And if nothing else, a pretty cheap way of sourcing some nice retro 10W resistors!
+But if nothing else, a pretty cheap way of sourcing some nice retro 10W resistors!
 
 ## Construction
 
@@ -29,11 +29,11 @@ for three load settings, plus 'off' (both resistors switched out).
 
 With a 5V USB supply, expected current and power loads are as follows:
 
-| Resistance            | Current                                                                                           | Power |
-|-----------------------|---------------------------------------------------------------------------------------------------|-------|
-| `R1 (4.7Ω)`           | [1.06A](https://www.wolframalpha.com/input/?i=5V%2F4.7%CE%A9)                                     | [5.32W](https://www.wolframalpha.com/input/?i=5V*5V%2F4.7%CE%A9) |
-| `R2 (2.2Ω)`           | [2.27A](https://www.wolframalpha.com/input/?i=5V%2F2.2%CE%A9)                                     | [11.4W](https://www.wolframalpha.com/input/?i=5V*5V%2F2.2%CE%A9) |
-| `R1||R2 (4.7Ω||2.2Ω)` | [3.34A](https://www.wolframalpha.com/input/?i=5V%2F%281%2F%281%2F2.2%CE%A9%2B1%2F4.7%CE%A9%29%29) | [16.7W](https://www.wolframalpha.com/input/?i=5V*5V%2F%281%2F%281%2F2.2%CE%A9%2B1%2F4.7%CE%A9%29%29) |
+| Resistance        | Current                                                                                           | Power |
+|-------------------|---------------------------------------------------------------------------------------------------|-------|
+| R1 (4.7Ω)         | [1.06A](https://www.wolframalpha.com/input/?i=5V%2F4.7%CE%A9)                                     | [5.32W](https://www.wolframalpha.com/input/?i=5V*5V%2F4.7%CE%A9) |
+| R2 (2.2Ω)         | [2.27A](https://www.wolframalpha.com/input/?i=5V%2F2.2%CE%A9)                                     | [11.4W](https://www.wolframalpha.com/input/?i=5V*5V%2F2.2%CE%A9) |
+| R1‖R2 (4.7Ω‖2.2Ω) | [3.34A](https://www.wolframalpha.com/input/?i=5V%2F%281%2F%281%2F2.2%CE%A9%2B1%2F4.7%CE%A9%29%29) | [16.7W](https://www.wolframalpha.com/input/?i=5V*5V%2F%281%2F%281%2F2.2%CE%A9%2B1%2F4.7%CE%A9%29%29) |
 
 Three LEDs indicate the current operating state:
 
