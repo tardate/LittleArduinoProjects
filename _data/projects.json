@@ -1855,6 +1855,14 @@
         ], 
         "title": "R2RDAC"
     }, 
+    "/Electronics101/SubtractionLoopCounterKit/": {
+        "summary": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic", 
+        "id": 514, 
+        "tags": [
+            "CMOS/TTL"
+        ], 
+        "title": "Subtraction Loop Counter Kit"
+    }, 
     "/Electronics101/LDRComparator/": {
         "summary": "low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor", 
         "id": 34, 

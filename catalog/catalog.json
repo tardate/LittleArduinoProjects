@@ -1,5 +1,12 @@
 [
     {
+        "description": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic", 
+        "relative_path": "Electronics101/SubtractionLoopCounterKit", 
+        "id": "#514", 
+        "categories": "CMOS/TTL", 
+        "name": "Subtraction Loop Counter Kit"
+    }, 
+    {
         "description": "Examining and testing a simple USB resistive dummy load", 
         "relative_path": "Electronics101/DummyLoad/SimpleResistiveUsbLoad", 
         "id": "#513", 

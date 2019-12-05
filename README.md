@@ -1,6 +1,6 @@
-# 513 Little Electronics and Arduino Projects
+# 514 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Simple USB Dummy Load](./Electronics101/DummyLoad/SimpleResistiveUsbLoad) - examining and testing a simple USB resistive dummy load.
+> Latest addition:sparkles: [Subtraction Loop Counter Kit](./Electronics101/SubtractionLoopCounterKit) - investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
