@@ -569,15 +569,6 @@
         ], 
         "title": "BoldportClub/lite2sound-bc"
     }, 
-    "/Electronics101/DummyLoad/SimpleResistiveUsbLoad/": {
-        "summary": "Examining and testing a simple USB resistive dummy load", 
-        "id": 513, 
-        "tags": [
-            "USB", 
-            "Dummy Load"
-        ], 
-        "title": "Simple USB Dummy Load"
-    }, 
     "/BoldportClub/ligemdio/": {
         "summary": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)", 
         "id": 263, 
@@ -1011,6 +1002,15 @@
             "RC"
         ], 
         "title": "SimplePeakDetector"
+    }, 
+    "/playground/TFT/Color128x128/": {
+        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
+        "id": 361, 
+        "tags": [
+            "TFT LCD", 
+            "Arduino"
+        ], 
+        "title": "TFT/Color128x128"
     }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment display via a 74HC595 shift register", 
@@ -3032,17 +3032,6 @@
         ], 
         "title": "Labrador"
     }, 
-    "/playground/AudioDSP/": {
-        "summary": "build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash", 
-        "id": 235, 
-        "tags": [
-            "Audio", 
-            "Arduino", 
-            "DSP", 
-            "OpAmp"
-        ], 
-        "title": "AudioDSP"
-    }, 
     "/playground/Lcd5110/BareBack/": {
         "summary": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set", 
         "id": 85, 
@@ -3365,14 +3354,14 @@
         ], 
         "title": "StirlingEngineHB13"
     }, 
-    "/playground/TFT/Color128x128/": {
-        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
-        "id": 361, 
+    "/FPGA/Fomu/BuildNotifier/": {
+        "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
+        "id": 494, 
         "tags": [
-            "TFT LCD", 
-            "Arduino"
+            "FPGA", 
+            "Ruby"
         ], 
-        "title": "TFT/Color128x128"
+        "title": "Fomu Build Notifier"
     }, 
     "/Kinetics/StepperMotors/ULN2003Module/": {
         "summary": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647", 
@@ -4482,6 +4471,15 @@
         ], 
         "title": "DigitalPots/MCP42010"
     }, 
+    "/Equipment/DummyLoad/SimpleResistiveUsbLoad/": {
+        "summary": "Examining and testing a simple USB resistive dummy load", 
+        "id": 513, 
+        "tags": [
+            "USB", 
+            "Dummy Load"
+        ], 
+        "title": "Simple USB Dummy Load"
+    }, 
     "/playground/LED7Segment/CD4026Drive/": {
         "summary": "driving a 7-segment display with CD4026 Counter", 
         "id": 196, 
@@ -4549,14 +4547,16 @@
         ], 
         "title": "Variable LED brightness with PWM"
     }, 
-    "/FPGA/Fomu/BuildNotifier/": {
-        "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
-        "id": 494, 
+    "/playground/AudioDSP/": {
+        "summary": "build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash", 
+        "id": 235, 
         "tags": [
-            "FPGA", 
-            "Ruby"
+            "Audio", 
+            "Arduino", 
+            "DSP", 
+            "OpAmp"
         ], 
-        "title": "Fomu Build Notifier"
+        "title": "AudioDSP"
     }, 
     "/Audio/AudioEffectsChips/HS088/": {
         "summary": "figuring out the HS088 \"Ding Dong\" audio effects chip", 

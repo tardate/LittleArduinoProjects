@@ -8,7 +8,7 @@
     }, 
     {
         "description": "Examining and testing a simple USB resistive dummy load", 
-        "relative_path": "Electronics101/DummyLoad/SimpleResistiveUsbLoad", 
+        "relative_path": "Equipment/DummyLoad/SimpleResistiveUsbLoad", 
         "id": "#513", 
         "categories": "USB, Dummy Load", 
         "name": "Simple USB Dummy Load"

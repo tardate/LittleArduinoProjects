@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-05T11:11:24Z</updated>
+  <updated>2019-12-06T12:58:02Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,19 +14,19 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/</id>
     <link href="https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/"/>
-    <updated>2019-12-05T11:11:02Z</updated>
+    <updated>2019-12-05T11:14:57Z</updated>
     <title>#514 Subtraction Loop Counter Kit</title>
     <summary>Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/assets/SubtractionLoopCounterKit_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/DummyLoad/SimpleResistiveUsbLoad/</id>
-    <link href="https://leap.tardate.com/Electronics101/DummyLoad/SimpleResistiveUsbLoad/"/>
+    <id>https://leap.tardate.com/Equipment/DummyLoad/SimpleResistiveUsbLoad/</id>
+    <link href="https://leap.tardate.com/Equipment/DummyLoad/SimpleResistiveUsbLoad/"/>
     <updated>2019-12-03T11:50:38Z</updated>
     <title>#513 Simple USB Dummy Load</title>
     <summary>Examining and testing a simple USB resistive dummy load</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/DummyLoad/SimpleResistiveUsbLoad/assets/SimpleResistiveUsbLoad_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Equipment/DummyLoad/SimpleResistiveUsbLoad/assets/SimpleResistiveUsbLoad_build.jpg</g:image_link>
     <category term="USB"/>
     <category term="Dummy Load"/>
   </entry>
