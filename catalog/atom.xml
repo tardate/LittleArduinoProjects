@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-06T12:58:02Z</updated>
+  <updated>2019-12-07T16:18:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Radio/FM/FrequencyConverter/</id>
+    <link href="https://leap.tardate.com/Radio/FM/FrequencyConverter/"/>
+    <updated>2019-12-07T16:04:17Z</updated>
+    <title>#515 FM Converter</title>
+    <summary>Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning</summary>
+    <g:image_link>https://leap.tardate.com/Radio/FM/FrequencyConverter/assets/FrequencyConverter_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="FM"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/</id>
     <link href="https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/"/>

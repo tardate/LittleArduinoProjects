@@ -6,7 +6,6 @@ Here's a quick video of the detector in action, probing a 555 astable oscillator
 
 [![RFDetectorProbe](https://img.youtube.com/vi/Rr9iLDhYq8k/0.jpg)](https://www.youtube.com/watch?v=Rr9iLDhYq8k)
 
-
 ## Notes
 
 This is a quick build of an RF detector based on the circuit presented
@@ -49,5 +48,7 @@ The finished product..
 ![The Build](./assets/RFDetectorProbe_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Lets build a RF Pen detector](https://youtu.be/G7xf_qe8P3k) - by dazaro3
 * [#161: Circuit Fun: a simple RF detector / demodulator probe for DMM or scope](https://youtu.be/C8SKiyJUAlU) - by w2aew
+* [1N60P datasheet](https://www.futurlec.com/Diodes/1N60P.shtml)

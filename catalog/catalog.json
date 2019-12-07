@@ -1,5 +1,12 @@
 [
     {
+        "description": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning", 
+        "relative_path": "Radio/FM/FrequencyConverter", 
+        "id": "#515", 
+        "categories": "Radio, FM", 
+        "name": "FM Converter"
+    }, 
+    {
         "description": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic", 
         "relative_path": "Electronics101/SubtractionLoopCounterKit", 
         "id": "#514", 

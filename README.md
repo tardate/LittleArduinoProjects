@@ -1,6 +1,6 @@
-# 514 Little Electronics and Arduino Projects
+# 515 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Subtraction Loop Counter Kit](./Electronics101/SubtractionLoopCounterKit) - investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic.
+> Latest addition:sparkles: [FM Converter](./Radio/FM/FrequencyConverter) - playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

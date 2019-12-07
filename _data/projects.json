@@ -246,6 +246,15 @@
         ], 
         "title": "MobileRFDetectorKit"
     }, 
+    "/Radio/FM/FrequencyConverter/": {
+        "summary": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning", 
+        "id": 515, 
+        "tags": [
+            "Radio", 
+            "FM"
+        ], 
+        "title": "FM Converter"
+    }, 
     "/playground/LEDx16Module/": {
         "summary": "a custom 16 LED SMD PCB with 74HC595 shift register interface", 
         "id": 179, 
