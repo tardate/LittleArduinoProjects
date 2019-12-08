@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-07T16:18:31Z</updated>
+  <updated>2019-12-12T13:35:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Radio/FM/ZX2031Kit/</id>
+    <link href="https://leap.tardate.com/Radio/FM/ZX2031Kit/"/>
+    <updated>2019-12-12T13:34:42Z</updated>
+    <title>#516 ZX2031 FM Radio Kit</title>
+    <summary>Building an FM radio kit based on the Silan SC1088 FM receiver chip</summary>
+    <g:image_link>https://leap.tardate.com/Radio/FM/ZX2031Kit/assets/ZX2031Kit_build.jpg</g:image_link>
+    <category term="Radio"/>
+    <category term="FM"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Radio/FM/FrequencyConverter/</id>
     <link href="https://leap.tardate.com/Radio/FM/FrequencyConverter/"/>
-    <updated>2019-12-07T16:04:17Z</updated>
+    <updated>2019-12-08T03:41:36Z</updated>
     <title>#515 FM Converter</title>
     <summary>Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/FrequencyConverter/assets/FrequencyConverter_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/</id>
     <link href="https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/"/>
-    <updated>2019-12-05T11:14:57Z</updated>
+    <updated>2019-12-08T03:41:36Z</updated>
     <title>#514 Subtraction Loop Counter Kit</title>
     <summary>Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SubtractionLoopCounterKit/assets/SubtractionLoopCounterKit_build.jpg</g:image_link>
@@ -33,7 +43,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/DummyLoad/SimpleResistiveUsbLoad/</id>
     <link href="https://leap.tardate.com/Equipment/DummyLoad/SimpleResistiveUsbLoad/"/>
-    <updated>2019-12-03T11:50:38Z</updated>
+    <updated>2019-12-08T03:41:36Z</updated>
     <title>#513 Simple USB Dummy Load</title>
     <summary>Examining and testing a simple USB resistive dummy load</summary>
     <g:image_link>https://leap.tardate.com/Equipment/DummyLoad/SimpleResistiveUsbLoad/assets/SimpleResistiveUsbLoad_build.jpg</g:image_link>

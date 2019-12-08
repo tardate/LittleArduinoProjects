@@ -1,6 +1,6 @@
-# 515 Little Electronics and Arduino Projects
+# 516 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [FM Converter](./Radio/FM/FrequencyConverter) - playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning.
+> Latest addition:sparkles: [ZX2031 FM Radio Kit](./Radio/FM/ZX2031Kit) - building an FM radio kit based on the Silan SC1088 FM receiver chip.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

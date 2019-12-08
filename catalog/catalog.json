@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building an FM radio kit based on the Silan SC1088 FM receiver chip", 
+        "relative_path": "Radio/FM/ZX2031Kit", 
+        "id": "#516", 
+        "categories": "Radio, FM", 
+        "name": "ZX2031 FM Radio Kit"
+    }, 
+    {
         "description": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning", 
         "relative_path": "Radio/FM/FrequencyConverter", 
         "id": "#515", 
