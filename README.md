@@ -9,6 +9,7 @@ while many are trivial breadboard kata, intended to test or explore a single ide
 Many are variations of things found wild on the net, or inspired by ideas from the sources such as:
 
 * [Boldport Club](https://www.boldport.club/)
+* [Elektor magazine](https://www.elektormagazine.com/)
 * [Nuts & Volts magazine](https://www.nutsvolts.com/)
 * [Silicon Chip magazine](https://www.siliconchip.com.au/)
 * [Electrical Engineering StackExchange](https://electronics.stackexchange.com/)
@@ -22,6 +23,12 @@ Many are variations of things found wild on the net, or inspired by ideas from t
     * [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
     * [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
     * [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
+* and my favourite podcasts e.g.
+    * [Embedded.fm](https://embedded.fm/)
+    * [Ham Radio Workbench](https://www.hamradioworkbench.com/)
+    * [MacroFab Engineering Podcast](https://macrofab.com/blog/podcast/)
+    * [The Amp Hour](https://theamphour.com/)
+    * [Unnamed Reverse Engineering Podcast](https://unnamedre.com/)
 
 Feel free to borrow liberally, and if you spot any issues do let me know. See the individual projects for credits where due.
 There are even now a few projects contributed by others - send your own over in a pull request
