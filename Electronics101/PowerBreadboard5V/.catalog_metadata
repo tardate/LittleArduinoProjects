@@ -1,7 +1,0 @@
-{
-    "id": "#060", 
-    "name": "PowerBreadboard5V", 
-    "description": "custom regulated 5V power supply module for standard breadboard", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/PowerBreadboard5V"
-}

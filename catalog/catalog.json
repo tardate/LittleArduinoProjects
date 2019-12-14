@@ -3199,11 +3199,11 @@
         "name": "SRLatch"
     }, 
     {
-        "description": "custom regulated 5V power supply module for standard breadboard", 
-        "relative_path": "Electronics101/PowerBreadboard5V", 
+        "description": "an LM7805 5V regulated power supply on breadboard-compatible protobboard", 
+        "relative_path": "Electronics101/Power/Breadboard5V", 
         "id": "#060", 
-        "categories": "Power", 
-        "name": "PowerBreadboard5V"
+        "categories": "Breadboard Bling, Power", 
+        "name": "5V Breadboard Regulator"
     }, 
     {
         "description": "basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation", 

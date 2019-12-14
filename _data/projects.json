@@ -363,14 +363,6 @@
         ], 
         "title": "AudioDSP/Boost"
     }, 
-    "/Electronics101/PowerBreadboard5V/": {
-        "summary": "custom regulated 5V power supply module for standard breadboard", 
-        "id": 60, 
-        "tags": [
-            "Power"
-        ], 
-        "title": "PowerBreadboard5V"
-    }, 
     "/Electronics101/Oscillators/RCPhaseShiftBJT/": {
         "summary": "testing an RC phase-shift oscillator using a BJT amplifier", 
         "id": 332, 
@@ -3301,6 +3293,15 @@
             "RC"
         ], 
         "title": "BJT Monostable"
+    }, 
+    "/Electronics101/Power/Breadboard5V/": {
+        "summary": "an LM7805 5V regulated power supply on breadboard-compatible protobboard", 
+        "id": 60, 
+        "tags": [
+            "Breadboard Bling", 
+            "Power"
+        ], 
+        "title": "5V Breadboard Regulator"
     }, 
     "/Electronics101/555Timer/AMTransmitter/": {
         "summary": "a simple 555-based AM transmitter", 

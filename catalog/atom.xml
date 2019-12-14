@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-14T09:25:54Z</updated>
+  <updated>2019-12-14T09:55:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -4710,12 +4710,13 @@
     <category term="BJT"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/PowerBreadboard5V/</id>
-    <link href="https://leap.tardate.com/Electronics101/PowerBreadboard5V/"/>
-    <updated>2015-06-04T13:47:48Z</updated>
-    <title>#060 PowerBreadboard5V</title>
-    <summary>custom regulated 5V power supply module for standard breadboard</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PowerBreadboard5V/assets/PowerBreadboard5V_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/Electronics101/Power/Breadboard5V/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/Breadboard5V/"/>
+    <updated>2019-12-14T09:49:21Z</updated>
+    <title>#060 5V Breadboard Regulator</title>
+    <summary>an LM7805 5V regulated power supply on breadboard-compatible protobboard</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/Breadboard5V/assets/Breadboard5V_build.jpg</g:image_link>
+    <category term="Breadboard Bling"/>
     <category term="Power"/>
   </entry>
   <entry>
