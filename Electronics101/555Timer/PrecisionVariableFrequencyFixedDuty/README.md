@@ -6,7 +6,7 @@ Using an unconventional configuration of a variable frequency 555 timer oscillat
 
 Here's a quick demo:
 
-[![clip](https://img.youtube.com/vi/hp1hU5frSv/0.jpg)](https://www.youtube.com/watch?v=hp1hU5frSv)
+[![clip](https://img.youtube.com/vi/hp1hU5frSvs/0.jpg)](https://www.youtube.com/watch?v=hp1hU5frSvs)
 
 ## Notes
 
