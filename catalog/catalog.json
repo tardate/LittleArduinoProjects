@@ -1,5 +1,12 @@
 [
     {
+        "description": "Just a quick look at a 1S to 8S battery tester and alarm module.", 
+        "relative_path": "Equipment/LipoTesterModule", 
+        "id": "#518", 
+        "categories": "Power, BMS, Tools, Test Equipment", 
+        "name": "Lipo Tester Module"
+    }, 
+    {
         "description": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)", 
         "relative_path": "Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty", 
         "id": "#517", 

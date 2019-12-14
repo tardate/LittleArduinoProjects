@@ -478,14 +478,13 @@
         ], 
         "title": "LCResonator"
     }, 
-    "/Equipment/LCR45/": {
-        "summary": "evaluating the Peak LCR45 inductance, capacitance and resistance meter", 
-        "id": 450, 
+    "/playground/PrecisionTimer/": {
+        "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip", 
+        "id": 457, 
         "tags": [
-            "Tools", 
-            "Test Equipment"
+            "Arduino"
         ], 
-        "title": "LCR45"
+        "title": "PrecisionTimer"
     }, 
     "/Electronics101/MCP2200/DevKit/": {
         "summary": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host", 
@@ -1817,6 +1816,17 @@
             "Audio"
         ], 
         "title": "DelayKit"
+    }, 
+    "/Equipment/LipoTesterModule/": {
+        "summary": "Just a quick look at a 1S to 8S battery tester and alarm module.", 
+        "id": 518, 
+        "tags": [
+            "Power", 
+            "BMS", 
+            "Tools", 
+            "Test Equipment"
+        ], 
+        "title": "Lipo Tester Module"
     }, 
     "/playground/AudioDSP/SuperCrunch/": {
         "summary": "arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash", 
@@ -3358,13 +3368,14 @@
         ], 
         "title": "BoldportClub/cordwood-three"
     }, 
-    "/playground/PrecisionTimer/": {
-        "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip", 
-        "id": 457, 
+    "/Equipment/LCR45/": {
+        "summary": "evaluating the Peak LCR45 inductance, capacitance and resistance meter", 
+        "id": 450, 
         "tags": [
-            "Arduino"
+            "Tools", 
+            "Test Equipment"
         ], 
-        "title": "PrecisionTimer"
+        "title": "LCR45"
     }, 
     "/Electronics101/Monostable122/": {
         "summary": "simple pulse trigger using 74LS122 monostable with external timing configuration", 

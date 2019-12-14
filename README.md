@@ -1,4 +1,4 @@
-# 517 Little Electronics and Arduino Projects
+# 518 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [555 Timer Fixed-duty VFO](./Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty) - using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment).
 
