@@ -783,6 +783,15 @@
         ], 
         "title": "Decoding ACARS"
     }, 
+    "/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/": {
+        "summary": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)", 
+        "id": 517, 
+        "tags": [
+            "555 Timer", 
+            "Oscillators"
+        ], 
+        "title": "555 Timer Fixed-duty VFO"
+    }, 
     "/Electronics101/BreatheLamp/": {
         "summary": "build and test a common LED visual effect circuit", 
         "id": 89, 

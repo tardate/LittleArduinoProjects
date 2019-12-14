@@ -1,6 +1,6 @@
-# 516 Little Electronics and Arduino Projects
+# 517 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ZX2031 FM Radio Kit](./Radio/FM/ZX2031Kit) - building an FM radio kit based on the Silan SC1088 FM receiver chip.
+> Latest addition:sparkles: [555 Timer Fixed-duty VFO](./Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty) - using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

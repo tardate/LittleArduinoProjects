@@ -1,5 +1,12 @@
 [
     {
+        "description": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)", 
+        "relative_path": "Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty", 
+        "id": "#517", 
+        "categories": "555 Timer, Oscillators", 
+        "name": "555 Timer Fixed-duty VFO"
+    }, 
+    {
         "description": "Building an FM radio kit based on the Silan SC1088 FM receiver chip", 
         "relative_path": "Radio/FM/ZX2031Kit", 
         "id": "#516", 

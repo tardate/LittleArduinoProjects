@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-12T13:35:57Z</updated>
+  <updated>2019-12-14T09:25:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/"/>
+    <updated>2019-12-14T09:25:01Z</updated>
+    <title>#517 555 Timer Fixed-duty VFO</title>
+    <summary>Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/assets/PrecisionVariableFrequencyFixedDuty_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Radio/FM/ZX2031Kit/</id>
     <link href="https://leap.tardate.com/Radio/FM/ZX2031Kit/"/>
-    <updated>2019-12-12T13:34:42Z</updated>
+    <updated>2019-12-12T15:37:15Z</updated>
     <title>#516 ZX2031 FM Radio Kit</title>
     <summary>Building an FM radio kit based on the Silan SC1088 FM receiver chip</summary>
     <g:image_link>https://leap.tardate.com/Radio/FM/ZX2031Kit/assets/ZX2031Kit_build.jpg</g:image_link>
