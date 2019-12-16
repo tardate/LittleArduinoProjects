@@ -1952,6 +1952,16 @@
         ], 
         "title": "Led4Digit7Segment/DoubleShift"
     }, 
+    "/Electronics101/555Timer/ContinuityTester/": {
+        "summary": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.", 
+        "id": 520, 
+        "tags": [
+            "555 Timer", 
+            "Tools", 
+            "Test Equipment"
+        ], 
+        "title": "Continuity Tester"
+    }, 
     "/STM32/BluePill/": {
         "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
         "id": 386, 

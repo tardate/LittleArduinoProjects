@@ -1,5 +1,12 @@
 [
     {
+        "description": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.", 
+        "relative_path": "Electronics101/555Timer/ContinuityTester", 
+        "id": "#520", 
+        "categories": "555 Timer, Tools, Test Equipment", 
+        "name": "Continuity Tester"
+    }, 
+    {
         "description": "Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses", 
         "relative_path": "Electronics101/Fuses/PPTCPerformance", 
         "id": "#519", 

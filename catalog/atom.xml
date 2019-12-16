@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-16T16:41:17Z</updated>
+  <updated>2019-12-18T16:49:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/ContinuityTester/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/ContinuityTester/"/>
+    <updated>2019-12-18T16:30:09Z</updated>
+    <title>#520 Continuity Tester</title>
+    <summary>A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/ContinuityTester/assets/ContinuityTester_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+    <category term="Tools"/>
+    <category term="Test Equipment"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Fuses/PPTCPerformance/</id>
     <link href="https://leap.tardate.com/Electronics101/Fuses/PPTCPerformance/"/>
-    <updated>2019-12-16T15:51:13Z</updated>
+    <updated>2019-12-16T17:24:08Z</updated>
     <title>#519 PPTC Performance</title>
     <summary>Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Fuses/PPTCPerformance/assets/PPTCPerformance_build.jpg</g:image_link>
@@ -24,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/LipoTesterModule/</id>
     <link href="https://leap.tardate.com/Equipment/LipoTesterModule/"/>
-    <updated>2019-12-14T12:42:20Z</updated>
+    <updated>2019-12-16T17:24:08Z</updated>
     <title>#518 Lipo Tester Module</title>
     <summary>Just a quick look at a 1S to 8S battery tester and alarm module.</summary>
     <g:image_link>https://leap.tardate.com/Equipment/LipoTesterModule/assets/LipoTesterModule_build.jpg</g:image_link>
@@ -36,7 +47,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/"/>
-    <updated>2019-12-14T09:25:01Z</updated>
+    <updated>2019-12-16T17:24:08Z</updated>
     <title>#517 555 Timer Fixed-duty VFO</title>
     <summary>Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty/assets/PrecisionVariableFrequencyFixedDuty_build.jpg</g:image_link>
@@ -4734,7 +4745,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/Breadboard5V/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/Breadboard5V/"/>
-    <updated>2019-12-14T09:49:21Z</updated>
+    <updated>2019-12-16T17:24:08Z</updated>
     <title>#060 5V Breadboard Regulator</title>
     <summary>an LM7805 5V regulated power supply on breadboard-compatible protobboard</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/Breadboard5V/assets/Breadboard5V_build.jpg</g:image_link>
