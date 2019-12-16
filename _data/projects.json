@@ -1933,6 +1933,15 @@
         ], 
         "title": "LedTemperatureDisplay"
     }, 
+    "/Electronics101/Fuses/PPTCPerformance/": {
+        "summary": "Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses", 
+        "id": 519, 
+        "tags": [
+            "Fuse", 
+            "Power"
+        ], 
+        "title": "PPTC Performance"
+    }, 
     "/playground/Led4Digit7Segment/DoubleShift/": {
         "summary": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
         "id": 80, 

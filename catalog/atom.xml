@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-14T12:53:17Z</updated>
+  <updated>2019-12-16T16:41:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Fuses/PPTCPerformance/</id>
+    <link href="https://leap.tardate.com/Electronics101/Fuses/PPTCPerformance/"/>
+    <updated>2019-12-16T15:51:13Z</updated>
+    <title>#519 PPTC Performance</title>
+    <summary>Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Fuses/PPTCPerformance/assets/PPTCPerformance_build.jpg</g:image_link>
+    <category term="Fuse"/>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/LipoTesterModule/</id>
     <link href="https://leap.tardate.com/Equipment/LipoTesterModule/"/>

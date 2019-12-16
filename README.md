@@ -1,6 +1,6 @@
-# 518 Little Electronics and Arduino Projects
+# 519 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [555 Timer Fixed-duty VFO](./Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty) - using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment).
+> Latest addition:sparkles: [PPTC Performance](./Electronics101/Fuses/PPTCPerformance) - testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

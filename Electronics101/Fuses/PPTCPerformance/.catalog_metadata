@@ -1,0 +1,7 @@
+{
+    "id": "#519",
+    "name": "PPTC Performance",
+    "description": "Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses",
+    "categories": "Fuse, Power",
+    "relative_path": "Electronics101/Fuses/PPTCPerformance"
+}
