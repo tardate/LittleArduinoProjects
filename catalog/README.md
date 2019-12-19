@@ -9,10 +9,12 @@ Catalog data is loaded from [catalog.json](./catalog.json), which is consolidate
 The [make.py](./make.py) utility script is used to maintain the catalog:
 
 ```
-$ catalog/make.py rebuild  # regenerates catalog from the README.md
-$ catalog/make.py generate  # builds the catalog from catalog metadata
+$ catalog/make.py rebuild  # builds the catalog from catalog metadata
 ```
 
+## Jekyll Generation
+
+The site now uses Jekyll for page generation.
 
 ## Atom Feed
 

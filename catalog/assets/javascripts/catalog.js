@@ -48,7 +48,7 @@
         order: [[0, "desc"]],
         rowCallback: function(row, data, index) {
           var base_name;
-          var id_link, cell;
+          var cell, main_cell, description_cell;
           var description, project_url, hero_image_url, category_array, category_labels;
 
           base_name = data.relative_path.split('/').pop();
