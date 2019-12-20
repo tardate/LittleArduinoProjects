@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-18T16:49:08Z</updated>
+  <updated>2019-12-21T14:06:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/CK9561/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/CK9561/"/>
+    <updated>2019-12-21T13:53:16Z</updated>
+    <title>#521 CK9561 Audio Effects Chip</title>
+    <summary>Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!</summary>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/CK9561/assets/CK9561_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="Music Chips"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/ContinuityTester/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/ContinuityTester/"/>
-    <updated>2019-12-18T16:30:09Z</updated>
+    <updated>2019-12-19T14:39:43Z</updated>
     <title>#520 Continuity Tester</title>
     <summary>A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/ContinuityTester/assets/ContinuityTester_build.jpg</g:image_link>

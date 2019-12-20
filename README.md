@@ -1,6 +1,6 @@
-# 520 Little Electronics and Arduino Projects
+# 521 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Continuity Tester](./Electronics101/555Timer/ContinuityTester) - a low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.
+> Latest addition:sparkles: [CK9561 Audio Effects Chip](./Audio/AudioEffectsChips/CK9561) - figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

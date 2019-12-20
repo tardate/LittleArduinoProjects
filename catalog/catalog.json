@@ -1,5 +1,12 @@
 [
     {
+        "description": "Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!", 
+        "relative_path": "Audio/AudioEffectsChips/CK9561", 
+        "id": "#521", 
+        "categories": "Audio, Music Chips", 
+        "name": "CK9561 Audio Effects Chip"
+    }, 
+    {
         "description": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.", 
         "relative_path": "Electronics101/555Timer/ContinuityTester", 
         "id": "#520", 

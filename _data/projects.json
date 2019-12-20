@@ -648,6 +648,15 @@
         ], 
         "title": "AudioDSP/Crunch"
     }, 
+    "/Audio/AudioEffectsChips/CK9561/": {
+        "summary": "Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!", 
+        "id": 521, 
+        "tags": [
+            "Audio", 
+            "Music Chips"
+        ], 
+        "title": "CK9561 Audio Effects Chip"
+    }, 
     "/Electronics101/AudioLevelIndicatorKit/": {
         "summary": "an audio level indicator kit based on the LM3915", 
         "id": 202, 
