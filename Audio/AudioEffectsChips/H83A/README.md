@@ -6,8 +6,28 @@ Figuring out how to use the H-83A "12 songs" music chip.
 
 ## Notes
 
-The H-83A is yet another music chip, this time programmed with 12 tunes.
-I haven't figured out all the songs, but they sound like classic Chinese folk tunes.
+The H-83A is yet another music chip, this time programmed with 12 tunes - a selection of Chinese poo and folk tunes.
+I owe big thanks to [Ian Wang](https://github.com/whc2001) who provided the list of song titles.
+I've linked up some examples on YouTube:
+
+| No | Title |
+|----|-------|
+| 1  | [常回家看看](https://youtu.be/yxcu3cjk27E) |
+| 2  | [有一个姑娘](https://youtu.be/jcLIhYfXrs8) |
+| 3  | [心太软](https://youtu.be/ZSWeurc1yMw) (Richie Ren!) |
+| 4  | [妈妈的吻](https://youtu.be/AmDgzz-_0Ak) |
+| 5  | [爱拼才会赢](https://youtu.be/Lrf20rQzhp0) |
+| 6  | [月亮惹的祸](https://youtu.be/1YJ8wSH6HBU) |
+| 7  | [健康歌](https://youtu.be/21u1_SRIkyI) (purple people eater;-)
+| 8  | [涛声依旧](https://youtu.be/S8XyCNtqucg) |
+| 9  | [拨浪鼓](https://youtu.be/Gc2DBbQkKz0) |
+| 10 | [好日子](https://youtu.be/H74aVKUJmrc) |
+| 11 | [读书郎](https://youtu.be/eAjudMl7dqk) |
+| 12 | [懂你](https://youtu.be/53JidyqBQWY) |
+
+Ian also has a demo on YouTube (a better recording than mine):
+
+[![clip](https://img.youtube.com/vi/CIWCA4LYstM/0.jpg)](https://www.youtube.com/watch?v=CIWCA4LYstM)
 
 ![H83A_chip](./assets/H83A_chip.jpg?raw=true)
 
@@ -31,7 +51,8 @@ Volume is very decent without any amplification.
 
 Here's a demo FWIW. There is a bit of warbling, I think mainly due to imperfect breadboard connections.
 
-[![mdSMwFA3bzw](https://img.youtube.com/vi/mdSMwFA3bzw/0.jpg)](https://www.youtube.com/watch?v=mdSMwFA3bzw)
+[![clip](https://img.youtube.com/vi/mdSMwFA3bzw/0.jpg)](https://www.youtube.com/watch?v=mdSMwFA3bzw)
+
 
 ## Credits and References
 
