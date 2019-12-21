@@ -6,7 +6,7 @@ Figuring out how to use the H-83A "12 songs" music chip.
 
 ## Notes
 
-The H-83A is yet another music chip, this time programmed with 12 tunes - a selection of Chinese poo and folk tunes.
+The H-83A is yet another music chip, this time programmed with 12 tunes - a selection of Chinese pop and folk tunes.
 I owe big thanks to [Ian Wang](https://github.com/whc2001) who provided the list of song titles.
 I've linked up some examples on YouTube:
 
