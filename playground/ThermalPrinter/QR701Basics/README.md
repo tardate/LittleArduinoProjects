@@ -66,7 +66,7 @@ A diagnostic is printed. This worked for me without issue (using a 5V 2A power s
 
 ## Construction
 
-I have the TTL version of the JP-QR701, so driving it from an Arduino should present no problems.
+I have the TTL version of the JP-QR701, so driving it from an Arduino presents no problems.
 
 I put together a simple protoboard test base for a Nano, power supply and printer connections:
 
@@ -100,7 +100,8 @@ recognizable QR code, I can't scan it with my phone without first colouring it i
 
 * [Original GOOJPRT QR701 Mini 58mm Embedded Receipt Thermal Printer RS232/ TTL Mini Embedded Receipt Thermal Printer ESC/POS Print](https://www.aliexpress.com/item/32890205918.html) - my source on aliexpress
 * [JP-QR701 Product Info](http://www.xmjprt.com/bbx/2457738-2457758.html?id=52829&pid=2284264)
-* [A2 Micro panel thermal printer manual](https://www.sparkfun.com/datasheets/Components/General/A2-user%20manual-1.pdf) - similar/same product? contains full command code doc
+* [CSN A2 Micro panel thermal printer manual](https://cdn-shop.adafruit.com/datasheets/CSN-A2+User+Manual.pdf) - adafruit; similar/same product? contains full command code doc
+* [A2 Micro panel thermal printer manual](https://www.sparkfun.com/datasheets/Components/General/A2-user%20manual-1.pdf) - sparkfun; similar/same product?
 * [厦门精普电子科技有限公司 Xiamen Jingpu Electronic Technology Co Ltd](http://www.xmjprt.com/) - OEM
 * [Mini Thermal Receipt Printer](https://www.adafruit.com/product/597) - AdaFruit product ID 597
 * [Mini Thermal Receipt Printer tutorial](https://learn.adafruit.com/mini-thermal-receipt-printer?view=all) - adafruit

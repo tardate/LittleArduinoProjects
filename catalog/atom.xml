@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-28T09:19:59Z</updated>
+  <updated>2019-12-28T15:49:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/playground/ThermalPrinter/Lucky4DOracle/</id>
+    <link href="https://leap.tardate.com/playground/ThermalPrinter/Lucky4DOracle/"/>
+    <updated>2019-12-28T15:46:36Z</updated>
+    <title>#524 Lucky 4D Printer</title>
+    <summary>A Lucky 4D number generator, built a JP-QR701 Thermal Printer, including how to print Chinese (GB2312-80)</summary>
+    <g:image_link>https://leap.tardate.com/playground/ThermalPrinter/Lucky4DOracle/assets/Lucky4DOracle_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="Thermal Printer"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/ThermalPrinter/QR701Basics/</id>
     <link href="https://leap.tardate.com/playground/ThermalPrinter/QR701Basics/"/>
-    <updated>2019-12-28T09:10:57Z</updated>
+    <updated>2019-12-28T09:22:23Z</updated>
     <title>#523 JP-QR701 Thermal Printer Basics</title>
     <summary>Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python</summary>
     <g:image_link>https://leap.tardate.com/playground/ThermalPrinter/QR701Basics/assets/QR701Basics_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/LPD433/RFDoorbell/</id>
     <link href="https://leap.tardate.com/Radio/LPD433/RFDoorbell/"/>
-    <updated>2019-12-26T15:24:37Z</updated>
+    <updated>2019-12-28T09:22:23Z</updated>
     <title>#522 Remote Doorbell</title>
     <summary>A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect</summary>
     <g:image_link>https://leap.tardate.com/Radio/LPD433/RFDoorbell/assets/RFDoorbell_build.jpg</g:image_link>
@@ -4787,7 +4797,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/TwoToneDoorbell/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/TwoToneDoorbell/"/>
-    <updated>2019-12-26T15:24:37Z</updated>
+    <updated>2019-12-28T09:22:23Z</updated>
     <title>#059 Two-tone Doorbell</title>
     <summary>basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/TwoToneDoorbell/assets/TwoToneDoorbell_build.jpg</g:image_link>
