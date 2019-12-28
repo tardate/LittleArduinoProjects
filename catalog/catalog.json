@@ -1,5 +1,12 @@
 [
     {
+        "description": "Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python", 
+        "relative_path": "playground/ThermalPrinter/QR701Basics", 
+        "id": "#523", 
+        "categories": "Arduino, Thermal Printer", 
+        "name": "JP-QR701 Thermal Printer Basics"
+    }, 
+    {
         "description": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect", 
         "relative_path": "Radio/LPD433/RFDoorbell", 
         "id": "#522", 

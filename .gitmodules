@@ -103,3 +103,6 @@
 [submodule "libraries/Arduino-INA226"]
 	path = libraries/Arduino-INA226
 	url = https://github.com/jarzebski/Arduino-INA226
+[submodule "libraries/Adafruit-Thermal-Printer-Library"]
+	path = libraries/Adafruit-Thermal-Printer-Library
+	url = https://github.com/adafruit/Adafruit-Thermal-Printer-Library

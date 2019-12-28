@@ -1,6 +1,6 @@
-# 522 Little Electronics and Arduino Projects
+# 523 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [CK9561 Audio Effects Chip](./Audio/AudioEffectsChips/CK9561) - figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!.
+> Latest addition:sparkles: [JP-QR701 Thermal Printer Basics](./playground/ThermalPrinter/QR701Basics) - learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
