@@ -13,7 +13,7 @@ Here's a quick demo..
 So now I've figured out the basics of using the JP-QR701 Thermal Printer (see [LEAP#523 Basics](../QR701Basics)),
 time to do something a little more interesting(?)
 
-Singpore has a ["4D" (four digit) lottery](https://online.singaporepools.com/en/lottery/how-play-4d)
+Singapore has a ["4D" (four digit) lottery](https://online.singaporepools.com/en/lottery/how-play-4d)
 that is especially popular during festivals like Chinese New Year.
 
 This project generates "Lucky 4D" numbers at the press of a button.
@@ -22,7 +22,7 @@ It's a simple build, but I threw in an extra challenge - finding out how to get 
 ## Printing Chinese (GB2312-80)
 
 The JP-QR701 specifications indicate that it has GB2312 support.
-I think this also applies to similar proudcts that all seem to come from the same OEM or at least from the same design.
+I think this also applies to similar products that all seem to come from the same OEM or at least from the same design.
 
 Most documentation - especially that found on English-language distributors - is however lacking
 in any detail on how to use the Chinese language support.
@@ -102,6 +102,7 @@ All ready to play:
 
 ## Credits and References
 
+* [this project on hackaday.io](https://hackaday.io/project/169208-lucky-4d-printer)
 * [LEAP#523 JP-QR701 Thermal Printer Basics](../QR701Basics) - see this project for background on the printer
 * [QR701 Module Instruction Manual](http://jingpuprintercom86.s140.pc51.com/2151/701%E6%A8%A1%E7%BB%84BT-2%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6.doc)
 * [GB Code Tables](http://www.khngai.com/chinese/charmap/tblgb.php)
