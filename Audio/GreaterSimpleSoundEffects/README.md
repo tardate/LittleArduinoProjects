@@ -35,7 +35,7 @@ Here's a basic description of how it works:
   * this is a trick one doesn't see so much these days - while an individual inverter may not have much drive capability (up to 8.8mA at 15V),
 running a number in parallel aggregates the current that can be delivered and thus avoid an additional power amplifier stage.
 
-The resulting sound produced continually cycles through a number of modulation frquencies.
+The resulting sound produced continually cycles through a number of modulation frequencies.
 
 Here's a scope trace to illustrate the behaviour. For this test, the CD4040 reset is pulled high,
 so only one counter stage is operating to simplify things.
@@ -67,7 +67,7 @@ I did a little experimenting and settled on a few variations for my final circui
 * Added Q3 bridging the LDR, so that the base can be used as a capacitive touch input
 * added an LM386 in default 20x configuration on the output to more effectively drive the output especially at very low voltages
 
-I've been able to run the circuit quite satisfactorily from CR2032 3V coin cell, at the very boootm (and below) recommended voltages:
+I've been able to run the circuit quite satisfactorily from CR2032 3V coin cell, at the very bottom of (and below) recommended voltages:
 
 * CD4040: 1.0V to 15V
 * CD4049: 3.0V to 15V
@@ -109,6 +109,7 @@ The final result: some kind of robotic insect!
 
 ## Credits and References
 
+* [this project on hackaday.io](https://hackaday.io/project/169203-greater-simple-sound-effects)
 * Greater Simple Sound Effects, Elektor May 1980, p21, by H. Thienel
 * [Simple Sound Effects](https://www.elektormagazine.com/image/original/71612), Elektor May 1979
 * [Simple Sound Effects 2.0](https://www.elektormagazine.com/labs/simple-sound-effects-20) - elektor
