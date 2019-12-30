@@ -1,7 +1,7 @@
 {
     "id": "#524",
     "name": "Lucky 4D Printer",
-    "description": "A Lucky 4D number generator, built a JP-QR701 Thermal Printer, including how to print Chinese (GB2312-80)",
+    "description": "A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)",
     "categories": "Arduino, Thermal Printer",
     "relative_path": "playground/ThermalPrinter/Lucky4DOracle"
 }

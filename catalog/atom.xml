@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-28T15:49:39Z</updated>
+  <updated>2019-12-30T06:13:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,9 +14,9 @@
   <entry>
     <id>https://leap.tardate.com/playground/ThermalPrinter/Lucky4DOracle/</id>
     <link href="https://leap.tardate.com/playground/ThermalPrinter/Lucky4DOracle/"/>
-    <updated>2019-12-28T15:46:36Z</updated>
+    <updated>2019-12-30T04:27:25Z</updated>
     <title>#524 Lucky 4D Printer</title>
-    <summary>A Lucky 4D number generator, built a JP-QR701 Thermal Printer, including how to print Chinese (GB2312-80)</summary>
+    <summary>A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)</summary>
     <g:image_link>https://leap.tardate.com/playground/ThermalPrinter/Lucky4DOracle/assets/Lucky4DOracle_build.jpg</g:image_link>
     <category term="Arduino"/>
     <category term="Thermal Printer"/>

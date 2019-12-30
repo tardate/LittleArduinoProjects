@@ -470,7 +470,7 @@
         "title": "OSHChip/LEDx16Module"
     }, 
     "/playground/ThermalPrinter/Lucky4DOracle/": {
-        "summary": "A Lucky 4D number generator, built a JP-QR701 Thermal Printer, including how to print Chinese (GB2312-80)", 
+        "summary": "A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)", 
         "id": 524, 
         "tags": [
             "Arduino", 
