@@ -8,7 +8,6 @@ Here's a quick video of it in action:
 
 [![ProgrammingWithArduinoISP](https://img.youtube.com/vi/eILb11BE6pY/0.jpg)](https://www.youtube.com/watch?v=eILb11BE6pY)
 
-
 ## Notes
 
 The objective here is to demonstrate an ATTINY85-20PU chip running independantly on a breadboard.
@@ -22,6 +21,7 @@ I'm programming it with Arduino ISP, see the [ProgrammingWithArduinoISP](../Prog
 ![The Schematic](./assets/TinyBlink_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) shows programming an ATtiny with Arduino ISP
 * [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)

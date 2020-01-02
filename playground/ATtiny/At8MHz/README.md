@@ -15,7 +15,6 @@ To communicate with the ATtiny, I am using:
 * an Arduino Uno running the ArduinoISP programmer sketch as documented in [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
 * the [LEAP#253 ProgrammingShield](../ProgrammingShield) to mount the ATtiny85 on the Arduino for programming
 
-
 ### The 8MHz Internal Clock Configuration
 
 8MHz operation is achieved with fuse settings for:
@@ -124,6 +123,7 @@ It uses the update option:
 `-U memtype:op:filename[:format]`
 
 Where
+
 * `memtype` will be hfuse (high fuse byte), lfuse (low fuse byte), efuse (extended fuse byte).
 * `op` is `w`(rite)
 * `filename` is just the hex value itself
@@ -237,7 +237,6 @@ The LEDs will toggle roughly once every 4 seconds.
 Then reset the fuses for 8MHz internal clock with no prescaler (not reloading the program),
 and LEDs will toggle every half a second, which demonstrates that the processor is now running 8 times faster.
 
-
 ## Construction
 
 ![Breadboard](./assets/At8MHz_bb.jpg?raw=true)
@@ -247,6 +246,7 @@ and LEDs will toggle every half a second, which demonstrates that the processor 
 ![Build](./assets/At8MHz_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
 * [LEAP#253 ProgrammingShield](../ProgrammingShield)
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)

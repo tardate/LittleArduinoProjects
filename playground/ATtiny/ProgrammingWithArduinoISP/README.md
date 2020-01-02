@@ -29,6 +29,7 @@ After restarting Arduino, I now have new Tools menu options.
 ### Setup the Arduino ISP
 
 Setup the Arduino ISP. Note in this case I'm using an Arduino Uno as the programmer:
+
 * Select `Tools > Board > Arduino Uno`
 * Select `Tools > Port > (correct port for Arduino Uno)`
 * Upload Examples/ArduinoISP sketch to Arduino Uno
@@ -37,6 +38,7 @@ Setup the Arduino ISP. Note in this case I'm using an Arduino Uno as the program
 ### Selecting ATtiny options
 
 I went with the basics:
+
 * `Tools > Board > ATtiny`
 * `Tools > Processor > ATtiny85`
 * `Tools > Clock > 1MHz (internal)`
@@ -44,11 +46,13 @@ I went with the basics:
 ### Burning the Bootloader
 
 Depending on the state of the chip, this may not be necessary. But if in doubt, burn it again:
+
 * Select `Tools > Burn Bootloader`
 
 ### Uploading a Sketch
 
 I'm testing with [TinyBlink](../TinyBlink) which runs LEDs on digital pins 0 and 1.
+
 * Open desired sketch
 * Select `File > Upload Using Programmer` (or shift-click the normal upload icon)
 
@@ -86,7 +90,6 @@ avrdude done.  Thank you.
 The [engbedded fusecalc](http://www.engbedded.com/fusecalc) site is invaluable for decoding or calculating fuses values.
 
 It confirms that E:FF, H:DF, L:62 are factory defaults: 8 MHz internal oscillator with CKDIV8 prescaler: so it is running at 1 MHz.
-
 
 ### Programming with avrdude
 
@@ -196,6 +199,7 @@ NB: in the breadboard, pins 5 and 6 are wired LEDs. These are for a test scketch
 (but neither do they interfere with buring the bootloader and uploading a sketch).
 
 ## Credits and References
+
 * [LEAP#071 TinyBlink](../TinyBlink) - a simple ATtiny test sketch
 * [LEAP#253 ProgrammingShield](../ProgrammingShield) - a programming shield version of this project
 * [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
@@ -203,3 +207,4 @@ NB: in the breadboard, pins 5 and 6 are wired LEDs. These are for a test scketch
 * [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)
 * [Programming an ATtiny with Arduino ISP](http://scuola.arduino.cc/lesson/qX1117g/Programming_an_ATtiny_with_Arduino_ISP)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)
+* [Tiny AVR Programmer Hookup Guide](https://learn.sparkfun.com/tutorials/tiny-avr-programmer-hookup-guide/attiny85-use-hints)

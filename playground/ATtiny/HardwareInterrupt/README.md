@@ -6,7 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![HardwareInterrupt](https://img.youtube.com/vi/VTJ1ycVzYq0/0.jpg)](https://www.youtube.com/watch?v=VTJ1ycVzYq0)
 
-
 ## Notes
 
 This is a little test of hardware interrupts with an ATtiny85 microcontroller (8-pin DIP).
@@ -29,4 +28,5 @@ The ATtiny85 requires 1.8-5.5V to operate. I successfully tested with 3.3V and 5
 ![The Build](./assets/HardwareInterrupt_build.jpg?raw=true)
 
 ## Credits and References
+
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)

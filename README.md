@@ -1,6 +1,6 @@
-# 524 Little Electronics and Arduino Projects
+# 525 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Lucky 4D Printer](./playground/ThermalPrinter/Lucky4DOracle) - A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80).
+> Latest addition:sparkles: [Simple Sound Effects 2](./Audio/SimpleSoundEffects2) - Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

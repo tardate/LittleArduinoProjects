@@ -30,7 +30,6 @@ The basic idea:
 * trigger an interrupt on counter reset
 * in the interrupt, use the knowledge of the expected interrupt frequency to determine whether to flip the output of the desired waveform
 
-
 There are serious limitations to consider: if we want, say 2% resolution of the duty cycle (to generate a 98% wave):
 
 * then we need the interrupt to be 50 times the frequency of the desired output wave
@@ -45,7 +44,6 @@ So depending on the requirements, at this point we might start to consider alter
 * bump up the clock frequency to 16 or 20 MHz? But this requires an external crystal oscillator, so we lose 2 precious pins
 * switch to another microprocessor that can provide more timers, PWM channels and higher clock speeds - ATmega328P, ARM Cortex etc
 * or switch to external oscillators/PWM generators
-
 
 ### The Example
 
@@ -142,4 +140,5 @@ So how did it perform? Here are the resulting waves stacked on a scope:
 ![Build](./assets/SoftwarePWM_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Bit banging](https://en.wikipedia.org/wiki/Bit_banging) - wikipedia

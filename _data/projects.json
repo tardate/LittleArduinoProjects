@@ -531,13 +531,15 @@
         ], 
         "title": "RGBLedModule"
     }, 
-    "/Electronics101/OpAmp/Transconductance/": {
-        "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp", 
-        "id": 463, 
+    "/Electronics101/LedDrivers/QX5252SolarNightLight/": {
+        "summary": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller", 
+        "id": 439, 
         "tags": [
-            "OpAmp"
+            "Power", 
+            "LED", 
+            "Solar"
         ], 
-        "title": "Transconductance Amplifiers"
+        "title": "QX5252SolarNightLight"
     }, 
     "/playground/CounterModule/": {
         "summary": "a general-purpose CD4017 counter module", 
@@ -1707,6 +1709,15 @@
             "Audio"
         ], 
         "title": "CANary"
+    }, 
+    "/Audio/SimpleSoundEffects2/": {
+        "summary": "Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.", 
+        "id": 525, 
+        "tags": [
+            "Audio", 
+            "AVR"
+        ], 
+        "title": "Simple Sound Effects 2"
     }, 
     "/playground/MonostablePulseExtender/": {
         "summary": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino", 
@@ -4144,15 +4155,13 @@
         ], 
         "title": "CrystalTester"
     }, 
-    "/Electronics101/LedDrivers/QX5252SolarNightLight/": {
-        "summary": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller", 
-        "id": 439, 
+    "/Electronics101/OpAmp/Transconductance/": {
+        "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp", 
+        "id": 463, 
         "tags": [
-            "Power", 
-            "LED", 
-            "Solar"
+            "OpAmp"
         ], 
-        "title": "QX5252SolarNightLight"
+        "title": "Transconductance Amplifiers"
     }, 
     "/playground/nRF24/Scanner/": {
         "summary": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display", 

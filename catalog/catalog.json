@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.", 
+        "relative_path": "Audio/SimpleSoundEffects2", 
+        "id": "#525", 
+        "categories": "Audio, AVR", 
+        "name": "Simple Sound Effects 2"
+    }, 
+    {
         "description": "A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)", 
         "relative_path": "playground/ThermalPrinter/Lucky4DOracle", 
         "id": "#524", 

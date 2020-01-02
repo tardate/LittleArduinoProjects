@@ -17,6 +17,7 @@ The circuit then draws virtually no current (certainly less than 10µA - the res
 The trade-off is that the circuit requires an external trigger to wake-up again. Here it uses a push-button.
 
 How it works:
+
 * power is supplied to the ATtiny and other circuit elements through a p-channel MOSFET (I'm using a BS250 here)
 * when power is turned on, the 1MΩ resistor charges the 100nF capacitor with a time constant of [100ms](https://www.wolframalpha.com/input/?i=1M%CE%A9*100nF)
 * this keeps the FET Vgs negative long enough for the ATtiny to power up and apply a high signal to the base of the NPN transistor
@@ -36,6 +37,7 @@ This all seems to work very reliably.
 ![The Build](./assets/TotalSleep_build.jpg?raw=true)
 
 ## Credits and References
+
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)
