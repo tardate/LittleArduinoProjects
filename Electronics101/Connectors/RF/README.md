@@ -89,8 +89,10 @@ Typical Crimp Die sizes
 
 
 ## Credits and References
+
 * [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
 * [Tech Basics: Cables & Connectors](https://www.udemy.com/tech101-cables-and-connectors/) - udemy course
+* [Coax Connectors - Peculiar Parts, the series](https://www.elektormagazine.com/magazine/elektor-201511/28193/) - elektor article
 * [AN-02H1 RG58 RG59 RG62 crimper BNC fiber optic Crimping Tool for crimping coaxial cable connectors](https://www.aliexpress.com/item/AN-02H1-RG58-RG59-RG62-crimper-BNC-fiber-optic-Crimping-Tool-for-crimping-coaxial-cable-connectors/1537820281.html)
 * [BNC Connector Series](https://www.amphenolrf.com/connectors/bnc.html) - Amphenol. From 50 Ω to 75 Ω Impedance
 * [Coaxial cable](https://en.wikipedia.org/wiki/Coaxial_cable) - wikipedia
