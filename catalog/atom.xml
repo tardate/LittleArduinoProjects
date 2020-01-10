@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2019-12-30T06:13:39Z</updated>
+  <updated>2020-01-10T16:16:05Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -3180,10 +3180,10 @@
     <id>https://leap.tardate.com/playground/GccToolchain/</id>
     <link href="https://leap.tardate.com/playground/GccToolchain/"/>
     <updated>2016-06-23T13:26:23Z</updated>
-    <title>#220 GccToolchain</title>
+    <title>#220 AVR GCC Toolchain</title>
     <summary>programming an Arduino with C and a command line</summary>
     <g:image_link>https://leap.tardate.com/playground/GccToolchain/assets/GccToolchain_build.jpg</g:image_link>
-    <category term="avr-lib"/>
+    <category term="avr-gcc"/>
     <category term="avrdude"/>
   </entry>
   <entry>

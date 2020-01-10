@@ -2131,8 +2131,8 @@
         "description": "programming an Arduino with C and a command line", 
         "relative_path": "playground/GccToolchain", 
         "id": "#220", 
-        "categories": "avr-lib, avrdude", 
-        "name": "GccToolchain"
+        "categories": "avr-gcc, avrdude", 
+        "name": "AVR GCC Toolchain"
     }, 
     {
         "description": "basic interrogation of a DS18S20 using 1-wire protocol", 

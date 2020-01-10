@@ -1,7 +1,7 @@
 {
-    "id": "#220", 
-    "name": "GccToolchain", 
-    "description": "programming an Arduino with C and a command line", 
-    "categories": "avr-lib, avrdude", 
+    "id": "#220",
+    "name": "AVR GCC Toolchain",
+    "description": "programming an Arduino with C and a command line",
+    "categories": "avr-gcc, avrdude",
     "relative_path": "playground/GccToolchain"
 }

@@ -7,19 +7,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, DATA
   1 .text         000000b2  00000000  00000000  00000074  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .stab         00000078  00000000  00000000  00000128  2**2
-                  CONTENTS, READONLY, DEBUGGING
-  3 .stabstr      0000007b  00000000  00000000  000001a0  2**0
-                  CONTENTS, READONLY, DEBUGGING
-  4 .comment      00000011  00000000  00000000  0000021b  2**0
+  2 .comment      00000011  00000000  00000000  00000126  2**0
                   CONTENTS, READONLY
-  5 .debug_info   000005f4  00000000  00000000  0000022c  2**0
+  3 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000138  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  00000178  2**3
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 000005a2  00000000  00000000  00000820  2**0
+  5 .debug_info   0000061a  00000000  00000000  00000198  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   0000001d  00000000  00000000  00000dc2  2**0
+  6 .debug_abbrev 000005b6  00000000  00000000  000007b2  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_str    00000208  00000000  00000000  00000ddf  2**0
+  7 .debug_line   0000007e  00000000  00000000  00000d68  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    0000028c  00000000  00000000  00000de6  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:

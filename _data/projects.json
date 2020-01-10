@@ -1396,10 +1396,10 @@
         "summary": "programming an Arduino with C and a command line", 
         "id": 220, 
         "tags": [
-            "avr-lib", 
+            "avr-gcc", 
             "avrdude"
         ], 
-        "title": "GccToolchain"
+        "title": "AVR GCC Toolchain"
     }, 
     "/Electronics101/ToroidJouleThief/": {
         "summary": "test a \"joule thief\" circuit based on a ferrite toroid", 

@@ -1,7 +1,6 @@
-# #220 GccToolchain
+# #220 AVR GCC Toolchain
 
 Programming an Arduino with C and a command line.
-
 
 ## Notes
 
@@ -15,6 +14,8 @@ I'm using a few posts from the net as my guide, in particular
 [Setting up AVR-GCC Toolchain on Linux and Mac OS X](http://maxembedded.com/2015/06/setting-up-avr-gcc-toolchain-on-linux-and-mac-os-x/)
 from maxembedded.
 
+UPDATE: the installation procedure has [changed](https://github.com/JIC-CSB/kilombo/issues/42).
+The instructions are update below.
 
 ### Software Components
 
@@ -25,11 +26,11 @@ from maxembedded.
 
 ### Software Installation
 
-Installing `avr-libc` actually pulls in avr-gcc and avr-binutils.
+Installing `avr-gcc` actually pulls in avr-gcc and avr-binutils.
 
 ```
 brew tap osx-cross/avr
-brew install avr-libc
+brew install avr-gcc
 brew install avrdude --with-usb
 ```
 
@@ -39,8 +40,8 @@ brew install avrdude --with-usb
 $ which avr-gcc
 /usr/local/bin/avr-gcc
 $ avr-gcc --version
-avr-gcc (GCC) 4.9.3
-Copyright (C) 2015 Free Software Foundation, Inc.
+avr-gcc (GCC) 9.2.0
+Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 $ which avrdude
@@ -55,7 +56,7 @@ All good to go!
 
 ### Example: blinky.c
 
-Use avr-lib to compile and generate the Intel Hex format file.
+Use avr-gcc to compile and generate the Intel Hex format file.
 Source is `blinky/blinky.c` and is written for an atmega328p/Arduino Uno.
 
 ```
@@ -184,6 +185,7 @@ avrdude done.  Thank you.
 ```
 
 ## Credits and References
+
 * [homebrew](https://github.com/Homebrew/homebrew)
 * [avr-gcc](https://gcc.gnu.org/wiki/avr-gcc) - GCC Wiki
 * [avr-libc](http://www.nongnu.org/avr-libc/)
