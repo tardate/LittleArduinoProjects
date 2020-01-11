@@ -88,6 +88,101 @@ The [engbedded fusecalc](http://www.engbedded.com/fusecalc) site is invaluable f
 It confirms that E:FF, H:DF, L:62 are factory defaults: 8 MHz internal oscillator with CKDIV8 prescaler: so it is running at 1 MHz.
 
 
+### Programming with avrdude
+
+The Arduino IDE now includes the ability to export the compiled binary.
+This option, found in the "Sketch" menu produces [TinyBlink.ino.tiny8.hex](../TinyBlink/TinyBlink.ino.tiny8.hex)
+from the [TinyBlink](../TinyBlink) source.
+
+![export_compiled_binary](./assets/export_compiled_binary.png?raw=true)
+
+avrdude can then be used to directly upload the hex file via the Arduino ISP:
+
+```
+$ avrdude -v -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U flash:w:../TinyBlink/TinyBlink.ino.tiny8.hex:i
+
+avrdude: Version 6.3, compiled on Sep 21 2018 at 19:09:46
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2014 Joerg Wunsch
+
+         System wide configuration file is "/usr/local/Cellar/avrdude/6.3_1/etc/avrdude.conf"
+         User configuration file is "/Users/paulgallagher/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/cu.usbmodem14521
+         Using Programmer              : stk500v1
+         Overriding Baud Rate          : 19200
+         AVR Part                      : ATtiny85
+         Chip Erase delay              : 4500 us
+         PAGEL                         : P00
+         BS2                           : P00
+         RESET disposition             : possible i/o
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65     6     4    0 no        512    4      0  4000  4500 0xff 0xff
+           flash         65     6    32    0 yes      8192   64    128  4500  4500 0xff 0xff
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+           lock           0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+           lfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+           hfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+           efuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+
+         Programmer Type : STK500
+         Description     : Atmel STK500 Version 1.x firmware
+         Hardware Version: 2
+         Firmware Version: 1.18
+         Topcard         : Unknown
+         Vtarget         : 0.0 V
+         Varef           : 0.0 V
+         Oscillator      : Off
+         SCK period      : 0.1 us
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude: Device signature = 0x1e930b (probably t85)
+avrdude: safemode: hfuse reads as DF
+avrdude: safemode: efuse reads as FF
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "../TinyBlink/TinyBlink.ino.tiny8.hex"
+avrdude: writing flash (676 bytes):
+
+Writing | ################################################## | 100% 0.99s
+
+avrdude: 676 bytes of flash written
+avrdude: verifying flash memory against ../TinyBlink/TinyBlink.ino.tiny8.hex:
+avrdude: load data flash data from input file ../TinyBlink/TinyBlink.ino.tiny8.hex:
+avrdude: input file ../TinyBlink/TinyBlink.ino.tiny8.hex contains 676 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.50s
+
+avrdude: verifying ...
+avrdude: 676 bytes of flash verified
+
+avrdude: safemode: hfuse reads as DF
+avrdude: safemode: efuse reads as FF
+avrdude: safemode: Fuses OK (E:FF, H:DF, L:62)
+
+avrdude done.  Thank you.
+```
 
 ### Construction
 
