@@ -11,25 +11,28 @@ Here's a quick demo..
 ## Notes
 
 The [Simple Sound Effects 2.0](https://www.elektormagazine.com/magazine/elektor-201312/23876) design By Friedrich Lischeck
-is a microprocessor-based re-interpretation of the classic CMOS-based [Simple Sound Effects](../GreaterSimpleSoundEffects)
-circuit.
+is a microprocessor-based re-interpretation of the classic (Elektor May 1979) CMOS-based Simple Sound Effects circuit.
 
 Simple Sound Effects 2.0 was apparently published in Elektor Dec-2013, but perhaps it didn't make it into the English-language edition
 as I can't find it there. The article is [available online](https://www.elektormagazine.com/magazine/elektor-201312/23876) however.
+
+I've previously made a little BEAM adaptation of the CMOS-based circuit in [LEAP#512](../GreaterSimpleSoundEffects):
+
+[![Build](./assets/GreaterSimpleSoundEffects_build.jpg?raw=true)](../GreaterSimpleSoundEffects)
 
 ## Construction
 
 The ATtiny dispenses with much of the circuit complexity. What remains is just:
 
-* a pullup-enable resistor.
+* a pull-up enable resistor
 * pot for control input
-* low-side NPN driver for the speaker output.
+* low-side NPN driver for the speaker output
+
+I started with the circuit running from 5V on a breadboard:
 
 ![Breadboard](./assets/SimpleSoundEffects2_bb.jpg?raw=true)
 
 ![Schematic](./assets/SimpleSoundEffects2_schematic.jpg?raw=true)
-
-Running on a breadboard:
 
 ![SimpleSoundEffects2_bb_build](./assets/SimpleSoundEffects2_bb_build.jpg?raw=true)
 
@@ -39,7 +42,7 @@ Before going further, I wanted to verify the original source code and see what t
 
 The original source is available from the [elektor site](https://www.elektormagazine.com/magazine/elektor-201312/23876).
 It was written in the [BASCOM-AVR](https://avrhelp.mcselec.com/index.html) language.
-Since I am on a Mac right now, I'm not setup to recompile the source. I will just use the provided hex file.
+Since I am on a Mac right now, I'm not setup to recompile the source. I will just use the hex file provided.
 
 The code was originally written for an [ATtiny45](https://www.microchip.com/wwwproducts/en/ATTINY45).
 I'm using an [ATtiny85](https://www.microchip.com/wwwproducts/en/ATTINY85). this should be fine because
@@ -48,7 +51,7 @@ I think the main distinction is that the t85 has more memory.
 I'm using an Arduino ISP with a DIY programmer shield to program the ATtiny85,
 details are in the [LEAP#070](../../playground/ATtiny/ProgrammingWithArduinoISP) project.
 
-The Attiny can either be programmed on the shield, or it can be programmed in-circuit (as long as the pot is positioned midway):
+The Attiny can either be programmed on the shield, or it can be programmed in-circuit (as long as the pot is positioned roughly midway):
 
 ![SimpleSoundEffects2_bb_icsp](./assets/SimpleSoundEffects2_bb_icsp.jpg?raw=true)
 
@@ -209,6 +212,7 @@ The [original source](./original_source/BuheiTiny45.bas) is a little hard to rea
 The accompanying article helps a bit. Here's my attempt to understand what's going on..
 
 Setting up for an attiny45 running at 8MHz:
+
 ```
 'BUhei2 Tiny45
 'Frequenzerzeugung
@@ -216,8 +220,9 @@ $regfile = "attiny45.dat"
 $crystal = 8000000
 ```
 
-Set the DDRB register to set PORTB.4 (pin 3) for output, initially low.
+Set the `DDRB` register to set `PORTB.4` (pin 3) for output, initially low.
 This is the speaker driver output.
+
 ```
 'Pin B.0 wird Ausgang:
 Ddrb = &B00010000
@@ -226,6 +231,7 @@ Portb.4 = 0
 ```
 
 This is BASIC, so old habits for short variable names die hard! I've annotated each with my understanding of their use:
+
 ```
 Dim Preload As Byte  ' starting value for Timer0
 Dim F As Word        ' temporary variable used in recalculating the Preload value
@@ -265,13 +271,12 @@ Start Adc
 
 Initialises constants:
 
-* Tclk calculated as seconds per clock tick, based on clock frequency adjusted by the prescaler, [32µs](https://www.wolframalpha.com/input/?i=256+%2F+8000000Hz)
-* Tmax is the maximum time per clock overflow [8.192ms](https://www.wolframalpha.com/input/?i=256+*+256+%2F+8000000Hz)
+* `Tclk` calculated as seconds per clock tick, based on clock frequency adjusted by the prescaler, [32µs](https://www.wolframalpha.com/input/?i=256+%2F+8000000Hz)
+* `Tmax` is the maximum time per clock overflow [8.192ms](https://www.wolframalpha.com/input/?i=256+*+256+%2F+8000000Hz)
 
-Variables Fg and Fd are iniitalised to 100, but these values are recalculated in the main loop.
+Variables `Fg` and `Fd` are iniitalised to 100, but these values are recalculated in the main loop.
 
 ```
-'------------------------------------------------------------------------------
 'Init
 Tclk = 256 / 8000000
 Tmax = 256 * Tclk
@@ -282,14 +287,13 @@ Fd = 100
 Main loop:
 
 ```
-'------------------------------------------------------------------------------
 'Hauptprogramm
 'F=200-4000
 Do
 ```
 
 First step reads ADC1 to Fg, then effectively maps to `3*Fg + 200`
-i.e. ADC range of 0-1023, maps Fg to a range of 200 to 3269
+i.e. ADC range of 0-1023, maps `Fg` to a range of 200 to 3269
 
 ```
    Fg = Getadc(1)
@@ -305,7 +309,7 @@ The rest of the calculation is directly in proportion to the ADC1 input.
 The calculation is a little hard to follow as it reuses the variable H a few times, but is reduces to the following:
 
 It calculates `H = 1/(2 * (Fg + Fd))`, representing seconds/cycle.
-Given that Fg has a range of 200 to 3269, and Fd has a range of 100 to 1000, the limits of this calculation are as follows:
+Given that `Fg` has a range of 200 to 3269, and `Fd` has a range of 100 to 1000, the limits of this calculation are as follows:
 
 | Fg   | Fd   | 1/H  | H                                                                                  | Audio Frequency |
 |------|------|------|------------------------------------------------------------------------------------|-----------------|
@@ -314,22 +318,20 @@ Given that Fg has a range of 200 to 3269, and Fd has a range of 100 to 1000, the
 | 3269 | 100  | 6738 | [0.148ms](https://www.wolframalpha.com/input/?i=1%2F%282+*+%283269+%2B+100%29%29)  | [4.3kHz](https://www.wolframalpha.com/input/?i=8MHz%2F256%2F%28255-%288.192ms-1s%2F%282+*+%283269+%2B+100%29%29%29%2F%28256%2F8MHz%29%29%2F2)   |
 | 3269 | 1000 | 8538 | [0.117ms](https://www.wolframalpha.com/input/?i=1%2F%282+*+%283269+%2B+1000%29%29) | [5.87kHz](https://www.wolframalpha.com/input/?i=8MHz%2F256%2F%28255-%288.192ms-1s%2F%282+*+%283269+%2B+1000%29%29%29%2F%28256%2F8MHz%29%29%2F2) |
 
-H is then subtracted from Tmax, in other words the actual time per cycle varies from (Tmax - Hmax) to (Tmax - Hmin).
+`H` is then subtracted from `Tmax`, in other words the actual time per cycle varies from `Tmax - Hmax` to `Tmax - Hmin`.
 For example, when Fg=200 and Fd=100:
 
 * Tmax: 8.192ms
 * H: [1.667ms](https://www.wolframalpha.com/input/?i=1%2F%282+*+%28200+%2B+100%29%29)
 * Tmax - H: [6.525ms](https://www.wolframalpha.com/input/?i=%288.192ms-1.667ms%29)
-* Preload: [203](https://www.wolframalpha.com/input/?i=%288.192ms-1.667ms%29%2F%28256+%2F+8MHz%29) |
+* Preload: [203](https://www.wolframalpha.com/input/?i=%288.192ms-1.667ms%29%2F%28256+%2F+8MHz%29)
 * Timer0 overflow frequency: [601Hz](https://www.wolframalpha.com/input/?i=8MHz%2F256%2F%28255-203%29)
 * Audio out: [300Hz](https://www.wolframalpha.com/input/?i=8MHz%2F256%2F%28255-%288.192ms-1s%2F%282+*+%28200+%2B+100%29%29%29%2F%28256%2F8MHz%29%29%2F2)
 
-So when the pot is roughly midpoint, say Fg = 1700,
-the audio output will repeatedly rise from
+So when the pot is roughly midpoint, say Fg = 1700, the audio output will repeatedly rise from
 [2kHz](https://www.wolframalpha.com/input/?i=8MHz%2F256%2F%28255-%288.192ms-1s%2F%282+*+%281700+%2B+100%29%29%29%2F%28256%2F8MHz%29%29%2F2)
 to
 [3.26kHz](https://www.wolframalpha.com/input/?i=8MHz%2F256%2F%28255-%288.192ms-1s%2F%282+*+%281700+%2B+1000%29%29%29%2F%28256%2F8MHz%29%29%2F2).
-
 
 Bottom line: the base audio frequency is somewhere between 300Hz and 4.3kHz, which
 then rises by a value of around 1kHz before it gets reset to the start value again.
@@ -344,7 +346,7 @@ then rises by a value of around 1kHz before it gets reset to the start value aga
 ```
 
 The final bit of the loop appears to be a NOP.
-Has no descernable impact on behaviour since it only sets F and H to values that are never used.
+Has no discernible impact on behaviour since it only sets `F` and `H `to values that are never used.
 
 ```
    H = Preload * Tclk
@@ -360,14 +362,12 @@ toggles the PB4 output and increments Fd between 100 and 1000.
 Two interrupts comprise each audio cycle, producing a symmetrical square wave.
 
 ```
-'------------------------------------------------------------------------------
 Oszillator:
    Timer0 = Preload
    Portb.4 = Not Portb.4
    Incr Fd
    If Fd > 1000 Then Fd = 100
 Return
-'------------------------------------------------------------------------------
 ```
 
 ### An Arduino/C++ Port
@@ -404,12 +404,17 @@ We can however take a more direct approach given the understanding that:
 | 3269 | 100  | 6738 | 0.148ms | 8.0436ms | [250](https://www.wolframalpha.com/input/?i=%288.192ms+-+1s%2F6738%29%2F8.192ms*255)
 | 3269 | 1000 | 8538 | 0.117ms | 8.0749ms | [251](https://www.wolframalpha.com/input/?i=%288.192ms+-+1s%2F8538%29%2F8.192ms*255)
 
-Conclusion: in the original code, `Fg + Fd` range of 300-4269 is proportional to a TCNT1 Preset of 203-251
-
-this can be achieved with two map statements:
+Conclusion: in the original code, `Fg + Fd` range of 300-4269 is proportional to a TCNT1 Preset of 203-251.
+This can be achieved with two map statements:
 
     uint16_t Fg = map(analogRead(POT_INPUT_PIN), 0, 1023, 200, 3269);
     Preset = map(Fg + Fd, 300, 4269, 203,  251);
+
+I experiemented with slight variations. The code in [SimpleSoundEffects2.ino](./SimpleSoundEffects2.ino) corrently uses this approach:
+
+* the pot input is mapped to a `base_period` ranging from 203 to 240
+* the count of timer overflows - `modulation_period`, ranging from 100 to 1000 - modulates `base_period` to an upper limit of 253
+* the resulting value is set as the the TCNT1 preset
 
 ### Using Piezo Output
 
@@ -425,8 +430,8 @@ Testing on a breadboard:
 
 ### Mini Protoboard Layout
 
-I used the following layout to fix the circuit (with piezo speaker) in a little build,
-with a micro USB connector for 5V power.
+I used the following layout for a more permanent version of the circuit.
+It uses piezo speaker on a scrap of protoboard, with a micro USB connector for 5V power.
 
 ![SimpleSoundEffects2_build_layout](./assets/SimpleSoundEffects2_build_layout.jpg?raw=true)
 
