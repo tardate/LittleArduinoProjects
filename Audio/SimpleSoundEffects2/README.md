@@ -18,7 +18,7 @@ as I can't find it there. The article is [available online](https://www.elektorm
 
 I've previously made a little BEAM adaptation of the CMOS-based circuit in [LEAP#512](../GreaterSimpleSoundEffects):
 
-[![Build](./assets/GreaterSimpleSoundEffects_build.jpg?raw=true)](../GreaterSimpleSoundEffects)
+[![Build](../GreaterSimpleSoundEffects/assets/GreaterSimpleSoundEffects_build.jpg?raw=true)](../GreaterSimpleSoundEffects)
 
 ## Construction
 
