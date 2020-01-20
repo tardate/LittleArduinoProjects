@@ -93,7 +93,7 @@ This is the first time I've seen the TP4333. It's quite a capable little chip, c
 
 The module appears to closely follow the typical application circuit from the datasheet. It doesn't use the flashlight output though.
 
-![TP4333_typical_application](./assets/TP4333_typical_application.jpg?raw=true)
+![TP4333_typical_application](./assets/TP4333_typical_application.png?raw=true)
 
 Low battery protection:
 

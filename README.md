@@ -1,6 +1,6 @@
 # 526 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Simple Sound Effects 2](./Audio/SimpleSoundEffects2) - Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.
+> Latest addition:sparkles: [Metal Detector Kit](./Equipment/MetalDetectorKit) - An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
