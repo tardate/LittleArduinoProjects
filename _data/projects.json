@@ -724,6 +724,15 @@
         ], 
         "title": "DS3231RTC/TimeDemo"
     }, 
+    "/Equipment/MetalDetectorKit/": {
+        "summary": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit", 
+        "id": 526, 
+        "tags": [
+            "BMS", 
+            "RF"
+        ], 
+        "title": "Metal Detector Kit"
+    }, 
     "/FPGA/Fomu/GettingStarted/": {
         "summary": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.", 
         "id": 493, 

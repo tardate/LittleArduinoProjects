@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-01-15T16:19:32Z</updated>
+  <updated>2020-01-20T16:06:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/MetalDetectorKit/</id>
+    <link href="https://leap.tardate.com/Equipment/MetalDetectorKit/"/>
+    <updated>2020-01-19T15:43:54Z</updated>
+    <title>#526 Metal Detector Kit</title>
+    <summary>An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/MetalDetectorKit/assets/MetalDetectorKit_build.jpg</g:image_link>
+    <category term="BMS"/>
+    <category term="RF"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/SimpleSoundEffects2/</id>
     <link href="https://leap.tardate.com/Audio/SimpleSoundEffects2/"/>
-    <updated>2020-01-15T16:14:30Z</updated>
+    <updated>2020-01-15T16:25:24Z</updated>
     <title>#525 Simple Sound Effects 2</title>
     <summary>Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.</summary>
     <g:image_link>https://leap.tardate.com/Audio/SimpleSoundEffects2/assets/SimpleSoundEffects2_build.jpg</g:image_link>
@@ -4682,7 +4692,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/TinyBlink/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/TinyBlink/"/>
-    <updated>2020-01-11T10:51:29Z</updated>
+    <updated>2020-01-15T16:25:24Z</updated>
     <title>#071 TinyBlink</title>
     <summary>a simple blink sketch with an ATTINY85-20PU on a breadboard</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/TinyBlink/assets/TinyBlink_build.jpg</g:image_link>

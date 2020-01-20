@@ -1,4 +1,4 @@
-# 525 Little Electronics and Arduino Projects
+# 526 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [Simple Sound Effects 2](./Audio/SimpleSoundEffects2) - Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.
 
