@@ -106,3 +106,6 @@
 [submodule "libraries/Adafruit-Thermal-Printer-Library"]
 	path = libraries/Adafruit-Thermal-Printer-Library
 	url = https://github.com/adafruit/Adafruit-Thermal-Printer-Library
+[submodule "libraries/u8g2lib"]
+	path = libraries/u8g2lib
+	url = https://github.com/olikraus/U8g2_Arduino

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Testing an SSD1306 128x32 OLED with the new v2 u8g library", 
+        "relative_path": "playground/OLED/SSD1306_u8g2", 
+        "id": "#527", 
+        "categories": "OLED, Arduino", 
+        "name": "SSD1306 With u8g v2"
+    }, 
+    {
         "description": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit", 
         "relative_path": "Equipment/MetalDetectorKit", 
         "id": "#526", 
@@ -3077,14 +3084,14 @@
         "relative_path": "playground/OLED/SSD1306BareBack", 
         "id": "#087", 
         "categories": "OLED, Arduino", 
-        "name": "OLED/SSD1306BareBack"
+        "name": "SSD1306 OLED Bareback"
     }, 
     {
         "description": "running the AdaFruit example program with a monochrome 128x64 OLED Display", 
         "relative_path": "playground/OLED/SSD1306WithAdaFruitLibraries", 
         "id": "#086", 
         "categories": "OLED, Arduino", 
-        "name": "OLED/SSD1306WithAdaFruitLibraries"
+        "name": "SSD1306 OLED With AdaFruit Libraries"
     }, 
     {
         "description": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set", 

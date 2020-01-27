@@ -1004,6 +1004,15 @@
         ], 
         "title": "BoldportClub/whiteboard"
     }, 
+    "/playground/OLED/SSD1306_u8g2/": {
+        "summary": "Testing an SSD1306 128x32 OLED with the new v2 u8g library", 
+        "id": 527, 
+        "tags": [
+            "OLED", 
+            "Arduino"
+        ], 
+        "title": "SSD1306 With u8g v2"
+    }, 
     "/Electronics101/CD4046/MainsLinkedPLL/": {
         "summary": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL", 
         "id": 452, 
@@ -1085,7 +1094,7 @@
             "OLED", 
             "Arduino"
         ], 
-        "title": "OLED/SSD1306BareBack"
+        "title": "SSD1306 OLED Bareback"
     }, 
     "/Electronics101/SCRLatch/": {
         "summary": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)", 
@@ -1655,14 +1664,14 @@
         ], 
         "title": "SRLatchFlipper"
     }, 
-    "/BoldportClub/stringy/DemoBurner/": {
-        "summary": "burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler", 
-        "id": 349, 
+    "/Audio/AudioEffectsChips/H823/": {
+        "summary": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
+        "id": 292, 
         "tags": [
-            "Boldport", 
-            "PIC"
+            "Audio", 
+            "Music Chips"
         ], 
-        "title": "stringy/DemoBurner"
+        "title": "H823 Audio Effects Chip"
     }, 
     "/playground/DS18S20/OneWireReading/": {
         "summary": "basic interrogation of a DS18S20 using 1-wire protocol", 
@@ -1819,7 +1828,7 @@
             "OLED", 
             "Arduino"
         ], 
-        "title": "OLED/SSD1306WithAdaFruitLibraries"
+        "title": "SSD1306 OLED With AdaFruit Libraries"
     }, 
     "/Electronics101/SwitchNJFET/": {
         "summary": "switch an independent power source using an Arduino and n-channel JFET", 
@@ -4835,14 +4844,14 @@
         ], 
         "title": "ML741/Inverter"
     }, 
-    "/Audio/AudioEffectsChips/H823/": {
-        "summary": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
-        "id": 292, 
+    "/BoldportClub/stringy/DemoBurner/": {
+        "summary": "burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler", 
+        "id": 349, 
         "tags": [
-            "Audio", 
-            "Music Chips"
+            "Boldport", 
+            "PIC"
         ], 
-        "title": "H823 Audio Effects Chip"
+        "title": "stringy/DemoBurner"
     }, 
     "/Electronics101/PWM/GeneralPurposeHighSideController/": {
         "summary": "build and test a general-purpose high-side PWM controller", 

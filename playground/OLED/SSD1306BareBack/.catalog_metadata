@@ -1,7 +1,7 @@
 {
-    "id": "#087", 
-    "name": "OLED/SSD1306BareBack", 
-    "description": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set", 
-    "categories": "OLED, Arduino", 
+    "id": "#087",
+    "name": "SSD1306 OLED Bareback",
+    "description": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set",
+    "categories": "OLED, Arduino",
     "relative_path": "playground/OLED/SSD1306BareBack"
 }

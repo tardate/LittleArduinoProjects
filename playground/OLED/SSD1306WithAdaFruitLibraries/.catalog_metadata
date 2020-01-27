@@ -1,7 +1,7 @@
 {
-    "id": "#086", 
-    "name": "OLED/SSD1306WithAdaFruitLibraries", 
-    "description": "running the AdaFruit example program with a monochrome 128x64 OLED Display", 
-    "categories": "OLED, Arduino", 
+    "id": "#086",
+    "name": "SSD1306 OLED With AdaFruit Libraries",
+    "description": "running the AdaFruit example program with a monochrome 128x64 OLED Display",
+    "categories": "OLED, Arduino",
     "relative_path": "playground/OLED/SSD1306WithAdaFruitLibraries"
 }

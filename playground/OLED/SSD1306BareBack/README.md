@@ -1,11 +1,10 @@
-# #087 OLED/SSD1306BareBack
+# #087 SSD1306 OLED Bareback
 
 Test driving a monochrome 128x64 OLED Display with an Arduino and the raw command set
 
 Here's a quick video of the circuit in action:
 
 [![OLED/SSD1306BareBack demo](https://img.youtube.com/vi/nOg80VcqZtc/0.jpg)](https://www.youtube.com/watch?v=nOg80VcqZtc)
-
 
 ## Notes
 
@@ -52,6 +51,7 @@ are much less than if importing a full library:
 ![The Build](./assets/SSD1306BareBack_build.jpg?raw=true)
 
 ## Credits and References
+
 * AdaFruit's excellent [Monochrome OLED Breakouts](https://learn.adafruit.com/monochrome-oled-breakouts/overview) page
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [1-Day Project: Arduino Uno and I2C OLED Display Challenge](https://www.youtube.com/watch?v=VEZGn0zYHiE) - Julian Ilett's video exploring the OLED

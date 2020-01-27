@@ -1,4 +1,4 @@
-# #100 OLED/ArdWinVaders
+# #100 ArdWinVaders
 
 An Arduino & OLED version of a classic game.
 
@@ -7,7 +7,6 @@ Here's a quick video of the game in action:
 [![ArdWinVaders](https://img.youtube.com/vi/GBX0n_YXXcs/0.jpg)](https://www.youtube.com/watch?v=GBX0n_YXXcs)
 
 Or [see this earlier video](http://youtu.be/m0XgdGztr8s) before the screen optimisations or sound. There's a huge performance difference!
-
 
 ## Notes
 
@@ -30,6 +29,7 @@ Game performance/screen refresh is pretty awesome even with the processor at 8Mh
 for SPI rather than using the standard library methods (digitalWrite, shiftOut).
 
 ### TODO
+
 * put it in a hand-held form-factor
 
 ## Construction
@@ -41,6 +41,7 @@ for SPI rather than using the standard library methods (digitalWrite, shiftOut).
 ![The Build](./assets/ArdWinVaders_build.jpg?raw=true)
 
 ## Credits and References
+
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [SSD1306BareBack](../SSD1306BareBack) - a sketch the exlores and explains OLED driving basics
 * [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation

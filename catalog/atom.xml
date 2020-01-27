@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-01-20T16:06:39Z</updated>
+  <updated>2020-01-27T10:31:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/playground/OLED/SSD1306_u8g2/</id>
+    <link href="https://leap.tardate.com/playground/OLED/SSD1306_u8g2/"/>
+    <updated>2020-01-27T10:16:01Z</updated>
+    <title>#527 SSD1306 With u8g v2</title>
+    <summary>Testing an SSD1306 128x32 OLED with the new v2 u8g library</summary>
+    <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306_u8g2/assets/SSD1306_u8g2_build.jpg</g:image_link>
+    <category term="OLED"/>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/MetalDetectorKit/</id>
     <link href="https://leap.tardate.com/Equipment/MetalDetectorKit/"/>
-    <updated>2020-01-19T15:43:54Z</updated>
+    <updated>2020-01-22T13:37:56Z</updated>
     <title>#526 Metal Detector Kit</title>
     <summary>An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit</summary>
     <g:image_link>https://leap.tardate.com/Equipment/MetalDetectorKit/assets/MetalDetectorKit_build.jpg</g:image_link>
@@ -4531,7 +4541,7 @@
     <id>https://leap.tardate.com/playground/OLED/SSD1306BareBack/</id>
     <link href="https://leap.tardate.com/playground/OLED/SSD1306BareBack/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#087 OLED/SSD1306BareBack</title>
+    <title>#087 SSD1306 OLED Bareback</title>
     <summary>driving a monochrome 128x64 OLED Display with an Arduino and the raw command set</summary>
     <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306BareBack/assets/SSD1306BareBack_build.jpg</g:image_link>
     <category term="OLED"/>
@@ -4541,7 +4551,7 @@
     <id>https://leap.tardate.com/playground/OLED/SSD1306WithAdaFruitLibraries/</id>
     <link href="https://leap.tardate.com/playground/OLED/SSD1306WithAdaFruitLibraries/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#086 OLED/SSD1306WithAdaFruitLibraries</title>
+    <title>#086 SSD1306 OLED With AdaFruit Libraries</title>
     <summary>running the AdaFruit example program with a monochrome 128x64 OLED Display</summary>
     <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306WithAdaFruitLibraries/assets/SSD1306WithAdaFruitLibraries_build.jpg</g:image_link>
     <category term="OLED"/>

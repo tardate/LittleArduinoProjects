@@ -1,6 +1,6 @@
-# 526 Little Electronics and Arduino Projects
+# 527 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Metal Detector Kit](./Equipment/MetalDetectorKit) - An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit.
+> Latest addition:sparkles: [SSD1306 With u8g v2](./playground/OLED/SSD1306_u8g2) - Testing an SSD1306 128x32 OLED with the new v2 u8g library.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
