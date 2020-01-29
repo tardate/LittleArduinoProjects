@@ -15,16 +15,18 @@ void Ina226Driver::calibrate(float shunt_resistance, float max_current) {
   power_LSB = current_LSB * 25;
   calibration_value = (uint16_t)((512) / (current_LSB * 100000 * shunt_resistance));
 
-  Serial.print("Manufacturer ID : "); Serial.println(readRegister16(InaRegister::ManID), HEX);
-  Serial.print("Die ID          : "); Serial.println(readRegister16(InaRegister::DieID), HEX);
-  Serial.print("Calibrating for shunt resistance of ");
-    Serial.print(shunt_resistance, 3);
-    Serial.print("Ω and maximum current of ");
-    Serial.print(max_current, 3);
-    Serial.println("A");
-  Serial.print("  * current_LSB : "); Serial.print(current_LSB * 1000.0, 6); Serial.println("mA");
-  Serial.print("  * power_LSB   : "); Serial.print(power_LSB * 1000.0, 6); Serial.println("mW");
-  Serial.print("  * CAL         : "); Serial.println(calibration_value);
+  #ifdef HAVE_HWSERIAL0
+    Serial.print("Manufacturer ID : "); Serial.println(readRegister16(InaRegister::ManID), HEX);
+    Serial.print("Die ID          : "); Serial.println(readRegister16(InaRegister::DieID), HEX);
+    Serial.print("Calibrating for shunt resistance of ");
+      Serial.print(shunt_resistance, 3);
+      Serial.print("Ω and maximum current of ");
+      Serial.print(max_current, 3);
+      Serial.println("A");
+    Serial.print("  * current_LSB : "); Serial.print(current_LSB * 1000.0, 6); Serial.println("mA");
+    Serial.print("  * power_LSB   : "); Serial.print(power_LSB * 1000.0, 6); Serial.println("mW");
+    Serial.print("  * CAL         : "); Serial.println(calibration_value);
+  #endif
 
   writeRegister16(InaRegister::Calibration, calibration_value);
 }

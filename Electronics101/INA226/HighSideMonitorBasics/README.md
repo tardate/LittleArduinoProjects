@@ -62,7 +62,7 @@ The Calibration Register is critical for accurate current and power measurements
 It is explained (not very clearly!) in 7.5/7.5.1 of the data sheet.
 
 It essentially outlines a procedure for calculating the calibration factor
-that will be used within the chip to pwerform current and power calculations.
+that will be used within the chip to perform current and power calculations.
 The calibration factor is a function of two variables:
 
 * Current_LSB - scaled by the user to ensure appropriate current resolution for the application
@@ -79,24 +79,24 @@ lest the calculation under/over-flow.
 
 To read current:
 
-* multiple the value in the Current Register by `current_LSB`
+* multiply the value in the Current Register by `current_LSB`
 
 To read power:
 
-* multiple the value in the Power Register by `25 * current_LSB`
+* multiply the value in the Power Register by `25 * current_LSB`
 * the power LSB has a fixed ratio to the Current_LSB of 25
 
 To read bus voltage:
 
 * read the Bus Voltage Register and multiple by 1.25 mV
 * The Bus Voltage Register stores the most recent bus voltage reading, averaged if averaging is enabled
-* Full-scale range = 40.96 V (decimal = 7FFF); LSB = 1.25 mV
+* Full-scale range = 40.96 V (0x7FFF); LSB = 1.25 mV
 
 To read shunt voltage:
 
 * read the Shunt Voltage Register and multiple by 2.5 μV
 * Negative numbers are represented in two's complement format
-* Full-scale range = 81.92 mV (decimal = 7FFF); LSB: 2.5 μV
+* Full-scale range = 81.92 mV (0x7FFF); LSB: 2.5 μV
 
 
 ### Designing for Low Power Test Load

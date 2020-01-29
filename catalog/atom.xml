@@ -5,18 +5,30 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-11-08T12:15:28Z</updated>
+  <updated>2020-11-15T09:10:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/PowerMeter/</id>
+    <link href="https://leap.tardate.com/Equipment/PowerMeter/"/>
+    <updated>2020-11-15T09:07:57Z</updated>
+    <title>#572 PowerMeter</title>
+    <summary>A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/PowerMeter/assets/PowerMeter_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="INA226"/>
+    <category term="Sensors"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/TraceTogetherToken/</id>
     <link href="https://leap.tardate.com/Equipment/TraceTogetherToken/"/>
-    <updated>2020-11-08T12:12:56Z</updated>
+    <updated>2020-11-11T11:29:53Z</updated>
     <title>#571 TraceTogether Token</title>
-    <summary>Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing</summary>
+    <summary>Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code</summary>
     <g:image_link>https://leap.tardate.com/Equipment/TraceTogetherToken/assets/TraceTogetherToken_build.jpg</g:image_link>
     <category term="BLE"/>
     <category term="ARM"/>

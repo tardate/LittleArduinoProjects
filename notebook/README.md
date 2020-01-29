@@ -30,6 +30,7 @@
 * [Capacitor Code Calculator](https://www.electronics2000.co.uk/calc/capacitor-code-calculator.php)
 * [Coil Inductance Calculator](http://www.66pacific.com/calculators/coil-inductance-calculator.aspx)
 * [MUST online calculators for electronics](http://mustcalculate.com/)
+* [Online calculator - 4 digit SMD resistor](http://kiloohm.info/smd4-resistor/R020)
 * 555 Timer calculators:
     * [Visual555](https://visual555.tardate.com/) - my version of an astable/monostable calculator with animations
     * [555 calculator](http://web.udl.es/usuaris/p7806757/555-calculadora/555%20Calculator.htm)

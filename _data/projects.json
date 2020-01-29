@@ -703,6 +703,17 @@
         ], 
         "title": "LEDCubes/Mini4"
     }, 
+    "/Equipment/PowerMeter/": {
+        "summary": "A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.", 
+        "id": 572, 
+        "tags": [
+            "Arduino", 
+            "AVR", 
+            "INA226", 
+            "Sensors"
+        ], 
+        "title": "PowerMeter"
+    }, 
     "/Radio/AMFMRadioKit/": {
         "summary": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips", 
         "id": 131, 
@@ -4691,7 +4702,7 @@
         "title": "BoldportClub/QSOPBreakout"
     }, 
     "/Equipment/TraceTogetherToken/": {
-        "summary": "Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing", 
+        "summary": "Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code", 
         "id": 571, 
         "tags": [
             "BLE", 
