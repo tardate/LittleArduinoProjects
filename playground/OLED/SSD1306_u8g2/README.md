@@ -65,3 +65,4 @@ Testing a couple of fonts with the U8x8 library API. Flash size: 6764 bytes.
 
 * [white/blue OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate for ardunio](https://www.aliexpress.com/item/32672229793.html) - aliexpress
 * [U8glib V2 library for Arduino](https://github.com/olikraus/U8g2_Arduino)
+* [SSD1306 Datasheet](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf)

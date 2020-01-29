@@ -22,7 +22,7 @@ The INA226 operates only as an I²C or SMBus slave device:
 
 * supports fast mode (1 kHz to 400 kHz)
 * supports high-speed mode (1 kHz to 2.94 MHz).
-* All data bytes are transmitted most significant byte first.
+* All data bytes are transmitted most significant bit first.
 
 #### Address
 
@@ -169,7 +169,7 @@ With that value plugged into the sketch, the measurements from the INA226 are re
 
 ![console_calibrated](./assets/console_calibrated.png?raw=true)
 
-Swinging the pot full scale, measurements are withina few mV of what I'm reading on my DMM:
+Swinging the pot full scale, measurements are within a few mV of what I'm reading on my DMM:
 
 ![console_full_scale](./assets/console_full_scale.png?raw=true)
 
