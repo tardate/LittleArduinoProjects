@@ -3380,6 +3380,16 @@
         ], 
         "title": "AudioConnectors"
     }, 
+    "/BoldportClub/IxpandO/ATtinyController/": {
+        "summary": "Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I\u00b2C IO expansion board", 
+        "id": 528, 
+        "tags": [
+            "Boldport", 
+            "Port Expander", 
+            "AVR"
+        ], 
+        "title": "ATtiny IxpandO"
+    }, 
     "/Electronics101/BJT/Monostable/": {
         "summary": "test a 2-transistor monostable multivibrator", 
         "id": 138, 

@@ -47,7 +47,6 @@ Pin Connections as described on
 
 See the [Official Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) site for board details.
 
-
 ### Power
 
 Specs:
@@ -69,5 +68,7 @@ See also:
 ### Pins
 
 ![The nano_pins](./assets/nano_pins.png?raw=true)
+
+## Attiny
 
 [![attiny_generic_pinout_and_ISP_pins.png](./assets/attiny_generic_pinout_and_ISP_pins.png?raw=true)](https://arduino.pinout.guide/attiny_generic_pinout_and_ISP_pins.png)

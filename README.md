@@ -1,6 +1,6 @@
-# 527 Little Electronics and Arduino Projects
+# 528 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [SSD1306 With u8g v2](./playground/OLED/SSD1306_u8g2) - Testing an SSD1306 128x32 OLED with the new v2 u8g library.
+> Latest addition:sparkles: [ATtiny IxpandO](./BoldportClub/IxpandO/ATtinyController) - Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I²C IO expansion board.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

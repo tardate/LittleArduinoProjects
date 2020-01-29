@@ -109,3 +109,6 @@
 [submodule "libraries/u8g2lib"]
 	path = libraries/u8g2lib
 	url = https://github.com/olikraus/U8g2_Arduino
+[submodule "libraries/TinyWireM"]
+	path = libraries/TinyWireM
+	url = https://github.com/adafruit/TinyWireM

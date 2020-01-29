@@ -8,6 +8,7 @@ Some projects require additional libraries. For example:
 * [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
 * [Adafruit-Thermal-Printer-Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library) - for small thermal printers
+* [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) - I²C for the ATtiny
 * [Arduino-INA226](https://github.com/jarzebski/Arduino-INA226) - INA226 Bi-directional Current/Power Monitor Arduino Library
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)

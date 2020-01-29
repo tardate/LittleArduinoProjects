@@ -1,5 +1,12 @@
 [
     {
+        "description": "Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I\u00b2C IO expansion board", 
+        "relative_path": "BoldportClub/IxpandO/ATtinyController", 
+        "id": "#528", 
+        "categories": "Boldport, Port Expander, AVR", 
+        "name": "ATtiny IxpandO"
+    }, 
+    {
         "description": "Testing an SSD1306 128x32 OLED with the new v2 u8g library", 
         "relative_path": "playground/OLED/SSD1306_u8g2", 
         "id": "#527", 

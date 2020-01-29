@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-01-27T10:31:01Z</updated>
+  <updated>2020-01-30T12:51:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/</id>
+    <link href="https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/"/>
+    <updated>2020-01-30T11:04:47Z</updated>
+    <title>#528 ATtiny IxpandO</title>
+    <summary>Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I²C IO expansion board</summary>
+    <g:image_link>https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/assets/ATtinyController_build.jpg</g:image_link>
+    <category term="Boldport"/>
+    <category term="Port Expander"/>
+    <category term="AVR"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/OLED/SSD1306_u8g2/</id>
     <link href="https://leap.tardate.com/playground/OLED/SSD1306_u8g2/"/>
