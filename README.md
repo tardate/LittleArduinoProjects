@@ -1,6 +1,6 @@
-# 528 Little Electronics and Arduino Projects
+# 529 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ATtiny IxpandO](./BoldportClub/IxpandO/ATtinyController) - Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I²C IO expansion board.
+> Latest addition:sparkles: [ATtiny Pin Change Interrupts](./playground/ATtiny/PinChangeInterrupts) - how to use pin change interrupts with the ATtiny85.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

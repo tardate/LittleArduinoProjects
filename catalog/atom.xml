@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-01-30T12:51:23Z</updated>
+  <updated>2020-02-02T16:00:22Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/playground/ATtiny/PinChangeInterrupts/</id>
+    <link href="https://leap.tardate.com/playground/ATtiny/PinChangeInterrupts/"/>
+    <updated>2020-02-02T15:55:51Z</updated>
+    <title>#529 ATtiny Pin Change Interrupts</title>
+    <summary>How to use pin change interrupts with the ATtiny85</summary>
+    <g:image_link>https://leap.tardate.com/playground/ATtiny/PinChangeInterrupts/assets/PinChangeInterrupts_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="ATtiny"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/</id>
     <link href="https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/"/>
-    <updated>2020-01-30T11:04:47Z</updated>
+    <updated>2020-01-30T13:45:31Z</updated>
     <title>#528 ATtiny IxpandO</title>
     <summary>Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I²C IO expansion board</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/assets/ATtinyController_build.jpg</g:image_link>
@@ -25,7 +36,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/OLED/SSD1306_u8g2/</id>
     <link href="https://leap.tardate.com/playground/OLED/SSD1306_u8g2/"/>
-    <updated>2020-01-27T10:16:01Z</updated>
+    <updated>2020-01-30T13:45:31Z</updated>
     <title>#527 SSD1306 With u8g v2</title>
     <summary>Testing an SSD1306 128x32 OLED with the new v2 u8g library</summary>
     <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306_u8g2/assets/SSD1306_u8g2_build.jpg</g:image_link>

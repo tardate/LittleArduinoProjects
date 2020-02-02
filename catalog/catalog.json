@@ -1,5 +1,12 @@
 [
     {
+        "description": "How to use pin change interrupts with the ATtiny85", 
+        "relative_path": "playground/ATtiny/PinChangeInterrupts", 
+        "id": "#529", 
+        "categories": "Arduino, AVR, ATtiny", 
+        "name": "ATtiny Pin Change Interrupts"
+    }, 
+    {
         "description": "Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I\u00b2C IO expansion board", 
         "relative_path": "BoldportClub/IxpandO/ATtinyController", 
         "id": "#528", 

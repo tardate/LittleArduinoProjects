@@ -1113,15 +1113,6 @@
         ], 
         "title": "PotModules"
     }, 
-    "/playground/PiezoVibrationDetector/": {
-        "summary": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator", 
-        "id": 376, 
-        "tags": [
-            "Arduino", 
-            "Piezo"
-        ], 
-        "title": "PiezoVibrationDetector"
-    }, 
     "/Electronics101/SerialInterface/MAX3232/RS232TTLModule/": {
         "summary": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX", 
         "id": 509, 
@@ -1242,6 +1233,16 @@
             "HF"
         ], 
         "title": "ThreeTransistorShortWaveReceiver"
+    }, 
+    "/playground/ATtiny/PinChangeInterrupts/": {
+        "summary": "How to use pin change interrupts with the ATtiny85", 
+        "id": 529, 
+        "tags": [
+            "Arduino", 
+            "AVR", 
+            "ATtiny"
+        ], 
+        "title": "ATtiny Pin Change Interrupts"
     }, 
     "/Electronics101/555Timer/NixiePowerSupply/": {
         "summary": "using a 555 boost converter to test some Nixie IN3 and IN14 tubes", 
@@ -2193,14 +2194,14 @@
         ], 
         "title": "AT89C2051/LedChaser"
     }, 
-    "/playground/nRF24/PingPong/": {
-        "summary": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF", 
-        "id": 187, 
+    "/playground/PiezoVibrationDetector/": {
+        "summary": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator", 
+        "id": 376, 
         "tags": [
-            "nRF24", 
-            "Arduino"
+            "Arduino", 
+            "Piezo"
         ], 
-        "title": "nRF24/PingPong"
+        "title": "PiezoVibrationDetector"
     }, 
     "/Audio/AudioEffectsChips/H83A/": {
         "summary": "figuring out how to use the H-83A \"12 songs\" music chip", 
@@ -4156,6 +4157,15 @@
             "CMOS"
         ], 
         "title": "PolarityTester"
+    }, 
+    "/playground/nRF24/PingPong/": {
+        "summary": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF", 
+        "id": 187, 
+        "tags": [
+            "nRF24", 
+            "Arduino"
+        ], 
+        "title": "nRF24/PingPong"
     }, 
     "/Electronics101/Power7805/": {
         "summary": "test and graph a voltage supply built with an LM7805 5V Regulated Supply", 
