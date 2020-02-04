@@ -78,3 +78,4 @@ For better protection, a fuse and PPTC combination is probably a good idea:
 * [PolySwitch 0.5A 30V 1206](https://www.aliexpress.com/item/32876140005.html) - a "no brand name" from aliexpress
 * [Resettable fuse](https://en.wikipedia.org/wiki/Resettable_fuse) - wikipedia
 * [LittelFuse PPTC information](https://www.littelfuse.com/products/polyswitch-resettable-ptcs.aspx)
+* [PTC Fuses - Weird Component #3](https://www.elektormagazine.com/magazine/elektor-201403/24470/) - Elektor issue 3/2014
