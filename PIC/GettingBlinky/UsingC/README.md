@@ -4,7 +4,6 @@ Getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's 
 
 ![Build](./assets/UsingC_build.jpg?raw=true)
 
-
 ## Notes
 
 The [LEAP#331 GettingBlinky](../) project was a simple test of the PIC12F675 with PIC assembler.
@@ -21,13 +20,12 @@ I started with a useful tutorial by Luke Briner explaining the differences betwe
 
 [![clip](https://img.youtube.com/vi/myLBDtfnyRM/0.jpg)](https://www.youtube.com/watch?v=myLBDtfnyRM)
 
-
 ## Toolchain
 
 I'm using [MPLAB X IDE v3.51](http://www.microchip.com/mplab/mplab-x-ide)
 and [MPLAB XC8](http://www.microchip.com/mplab/compilers) running on MacOSX,
 and a [PicKit 3 programmer](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html).
-
+NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
 
 ### The New Project Wizard
 
@@ -126,6 +124,7 @@ And running independently with a 5V power supply.
 ![UsingC_running_standalone](./assets/UsingC_running_standalone.jpg?raw=true)
 
 ## Credits and References
+
 * [mikroC](https://www.mikroe.com/mikroc-pic)
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
 * [MPLAB XC8](http://www.microchip.com/mplab/compilers)

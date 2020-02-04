@@ -20,13 +20,16 @@ but now I am distracted and decided first to make some new demo tracks.
 It's great to see source code being released, thank you Boldport and MadLabs!
 
 I'm using [MPLAB X IDE v3.51](http://www.microchip.com/mplab/mplab-x-ide) on MacOSX.
+NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
 
 After loading the source files in a [new project CustomDemo.X](./CustomDemo.X),
 my first build failed with two errors:
+
 ```
 Error[151]   LittleArduinoProjects/BoldportClub/stringy/DemoBurner/CustomDemo.X/stringy.asm 1426 : Operand contains unresolvable labels or is too complex
 Error[151]   LittleArduinoProjects/BoldportClub/stringy/DemoBurner/CustomDemo.X/stringy.asm 469 : Operand contains unresolvable labels or is too complex
 ```
+
 It seems this is to do with addressing, so I switch to absolute mode:
 
 ![build_mode](./assets/build_mode.png?raw=true)
@@ -211,8 +214,8 @@ After investigating the original source, I've seen a few areas that might be wor
 * finer-grained duration control. 2 bits isn't enough for more complex scores
 * running longer tracks. When I tried longer pieces, I suspect I ran into memory addressing limits or possibly timing bugs  - not sure which yet, but 20 odd measures in, the stringy would go haywire.
 
-
 ## Credits and References
+
 * [LEAP#323 stringy](../) - my original stringy build and project info
 * [StringyFi](https://github.com/tardate/stringyfi) - source for the MusicXML conversion gem
 * [Original String Source](https://github.com/boldport/stringy/blob/master/software)

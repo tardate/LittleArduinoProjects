@@ -67,12 +67,12 @@ other end of the 10kΩ R5.
 
 I'm using [MPLAB X IDE v3.51](http://www.microchip.com/mplab/mplab-x-ide) which appears to be built on [NetBeans](https://netbeans.org/kb/index.html),
 and offers great cross-platform support. I'm running it on MacOSX.
+NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
 
 It's actually a great environment, although a little hard to find things at first.
 A real boon is the built-in simulator, allowing code execution, breakpoints and step-by-step debugging all without a target device or programmer attached.
 
 ![mplab_ide](./assets/mplab_ide.png?raw=true)
-
 
 ### Programmer
 
@@ -159,6 +159,7 @@ Surrounded by a few make-work loops, the result is an LED blinking at around 4Hz
 
 
 ## Credits and References
+
 * [PIC12F675 info and datasheet](http://www.microchip.com/wwwproducts/en/PIC12F675)
 * [PIC Assembly Language Tutorials: #0 - Shopping List & Mods](https://www.youtube.com/watch?v=p2rZwR9oM_k) - Julian Ilett
 * [PIC Assembly Language Tutorial: #1 - Config and Clock](https://www.youtube.com/watch?v=491StrMyqa4) - Julian Ilett
