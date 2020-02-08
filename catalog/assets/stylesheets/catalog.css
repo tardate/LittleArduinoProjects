@@ -54,23 +54,23 @@ body {
 }
 
 
-.btn-leap {
+.btn-tardate {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
 }
-.visible-xs-block .btn-leap {
+.visible-xs-block .btn-tardate {
   font-size: 14px;
   max-width: 280px;
 }
-.xleap-link {
+.xtardate-link {
   cursor: pointer; cursor: hand;
 }
 
-img.leap-hero {
+img.tardate-hero {
   height: 80px;
 }
 
-.visible-xs-block img.leap-hero {
+.visible-xs-block img.tardate-hero {
   width: 100%;
   height: auto;
   margin-top: 8px;
