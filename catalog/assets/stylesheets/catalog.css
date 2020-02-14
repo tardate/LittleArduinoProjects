@@ -218,3 +218,15 @@ footer .social-icons a:hover {
   font-size: inherit;
   font-weight: 800;
 }
+
+.tardate-gallery img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 0 0 3px 0;
+}
+
+.tardate-gallery > a {
+  display: inline-block;
+}
+

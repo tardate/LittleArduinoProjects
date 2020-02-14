@@ -26,8 +26,9 @@ class Catalog(object):
         path = os.path.dirname(os.path.abspath(__file__))
         self.collection_root = os.path.abspath(os.path.join(path, '..'))
         self.catalog_json = os.path.join(self.collection_root, 'catalog', 'catalog.json')
-        self.project_json = os.path.join(self.collection_root, '_data', 'projects.json')
         self.catalog_atom = os.path.join(self.collection_root, 'catalog', 'atom.xml')
+        self.data_project_json = os.path.join(self.collection_root, '_data', 'projects.json')
+        self.data_catalog_json = os.path.join(self.collection_root, '_data', 'catalog.json')
 
     def metadata_files(self):
         """ Returns the collection of catalog metadata files. """
@@ -56,6 +57,9 @@ class Catalog(object):
         print "Writing {}..".format(self.catalog_json)
         with open(self.catalog_json, 'w') as f:
             json.dump(self.metadata(), f, indent=4)
+        print "Writing {}..".format(self.data_catalog_json)
+        with open(self.data_catalog_json, 'w') as f:
+            json.dump(self.metadata(), f, indent=4)
 
     def generate_project_data(self):
         def project_data():
@@ -69,8 +73,8 @@ class Catalog(object):
                 }
             return result
 
-        print "Writing {}..".format(self.project_json)
-        with open(self.project_json, 'w') as f:
+        print "Writing {}..".format(self.data_project_json)
+        with open(self.data_project_json, 'w') as f:
             json.dump(project_data(), f, indent=4)
 
     def generate_atom_feed(self):
