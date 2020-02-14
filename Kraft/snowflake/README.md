@@ -40,7 +40,6 @@ which drives an array of 19 white LEDs.
 
 ![kit_unboxed](./assets/kit_unboxed.jpg?raw=true)
 
-
 ![pcb_front](./assets/pcb_front.jpg?raw=true)
 
 ![pcb_rear](./assets/pcb_rear.jpg?raw=true)
@@ -49,7 +48,6 @@ which drives an array of 19 white LEDs.
 ## Circuit Schematic
 
 ![Schematic](./assets/snowflake_schematic.jpg?raw=true)
-
 
 ### Power Board
 
@@ -60,7 +58,6 @@ I haven't used this yet.
 There's a BOM for the [Snow Flake Power Converter](https://octopart.com/bom-tool/dVbVIUxg) on octopart.
 
 ![power_adapter](./assets/power_adapter.jpg?raw=true)
-
 
 ### Construction
 
@@ -110,7 +107,6 @@ My final 4 Snow Flake's coming off the line:
 
 ![snowflake_build_batch](./assets/snowflake_build_batch.jpg?raw=true)
 
-
 ### Programming
 
 An SWD programmer is required to program the micro controller. Options inclde:
@@ -130,7 +126,6 @@ Note: @luckyresistor subsequently added [FirmwareBinaries](https://github.com/Lu
 
 The snow flakes have to be programmed individually using a SWD programmer.
 Perhaps someone will take up @luckyresistor's challenge to write a boot loader to automatically write the firmware from the first snow flake over the data connection to all other snow flakes;-)
-
 
 #### Flash with the Black Magic Probe
 
@@ -176,7 +171,6 @@ Section .relocate, range 0x33f4 -- 0x345c: matched.
 
 ![snowflake_programming](./assets/snowflake_programming.jpg?raw=true)
 
-
 ### Power and Wiring
 
 For now with one Snow Flake, I've simply wired a 2xAAA battery pack to the VCC and GND with some "invivible" 30AWG.
@@ -197,7 +191,6 @@ Here's what it looked like:
 
 [![qrp](https://img.youtube.com/vi/EzU4n3JtcQ4/0.jpg)](https://www.youtube.com/watch?v=EzU4n3JtcQ4)
 
-
 ### A Four-Flake Mobile
 
 I used four Snow Flake to make a little decoration for my [Fretboard](../../Fretboard) CI build status indicator.
@@ -217,11 +210,12 @@ I haven't really been able to capture the full effect in a photo. IRL it is much
 
 ![four_flake_mobile](./assets/four_flake_mobile.jpg?raw=true)
 
-
 ## Credits and References
+
 * [Snow Flake](https://luckyresistor.me/order-snow-flake-panel/) - original order form (currently inactive)
 * [SnowFlakeProject](https://github.com/LuckyResistor/SnowFlakeProject) - GitHub
 * [Snow Flake Power Converter BOM](https://octopart.com/bom-tool/dVbVIUxg) - octopart
 * [Black Magic Probe](https://1bitsquared.com/collections/frontpage/products/black-magic-probe)
 * [Atmel SAM D ARM Cortex M0 info](http://www.atmel.com/products/microcontrollers/arm/sam-d.aspx)
+* [LED ornaments](https://www.elektormagazine.com/magazine/elektor-198312/45175/) - interesting article in Elektor issue 12/1983 p30: various old-school oscillator and LED-driver ideas
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap355-snow-flake.html)
