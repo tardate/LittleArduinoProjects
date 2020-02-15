@@ -15,13 +15,13 @@ layout: default
               {% assign project_path = project["relative_path"] %}
               {% assign project_name = project_path | split: "/" | last %}
               {% assign project_id = project["id"] %}
-              {% assign leap_id = "LEAP#" | append: project_id %}
-              {% assign project_title = project["title"] %}
-              {% assign project_summary = project["summary"] %}
-              {% assign project_tags = project["tags"] %}
+              {% assign leap_id = "LEAP" | append: project_id %}
+              {% assign project_title = project["name"] %}
+              {% assign project_description = project["description"] %}
               {% assign hero_image_url = project_path  | prepend: site.baseurl | append: "/assets/" | append: project_name | append: "_build.jpg" %}
-              <a href="{{ project_path | prepend: site.baseurl }}" data-toggle="tooltip" data-placement="bottom" title="{{ leap_id }} {{ project_title }}">
-                <img class="media-object" src="{{ hero_image_url }}" alt="...">
+              <a href="{{ project_path | prepend: site.baseurl }}"
+                data-toggle="tooltip" data-placement="bottom" title="{{ leap_id }} {{ project_title }} - {{ project_description }}">
+                <img class="media-object" src="{{ hero_image_url }}" alt="{{ project_title }}">
               </a>
             {% endfor %}
           </div>
