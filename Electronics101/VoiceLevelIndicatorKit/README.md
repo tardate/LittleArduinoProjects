@@ -1,11 +1,10 @@
-# #125 VoiceLevelIndicatorKit
+# #125 Voice Level Indicator Kit
 
 Build and investigate a commercially available "3-band voice level indicator" kit.
 
 Here's a quick video of the circuit in action:
 
 [![VoiceLevelIndicatorKit](https://img.youtube.com/vi/6o-kOXPPcac/0.jpg)](https://www.youtube.com/watch?v=6o-kOXPPcac)
-
 
 ## Notes
 
@@ -67,6 +66,7 @@ If I can trust the CircuitLab frequency analysis, things do look a bit out of wh
 ![Filter Schematic](./assets/VoiceLevelIndicatorKit_filter_schematic.png?raw=true)
 
 #### LED Driver
+
 The three LED driver circuits are identical.
 A series of 1N4148 diodes provide a voltage ladder feeding 10 LED stages.
 
@@ -122,8 +122,8 @@ But obvioulsy works .. at least to a degree - I've never seen the 10th LED light
 | Electret microphone              | √ |
 | PCB board                        | √ no notes, but a great silkcreen|
 
-
 ## Credits and References
+
 * [kit from a seller on aliexpress](https://www.aliexpress.com/item/1Pcs-New-9-15V-Voice-Control-Level-Indicating-Voice-Indicator-Module-DIY-Kits/32351752901.html)
 * [Basic Electronics: Kit Build #1 - LEDs, Microphone & Dance Music](https://youtu.be/07xyD7pLdmw) - Julian Ilett, part 1
 * [Basic Electronics: Kit Build #2 - LEDs, Microphone & Dance Music](https://youtu.be/e6vDDMiYOU4) - Julian Ilett, part 2

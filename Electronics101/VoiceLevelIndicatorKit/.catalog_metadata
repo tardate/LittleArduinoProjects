@@ -1,7 +1,7 @@
 {
-    "id": "#125", 
-    "name": "VoiceLevelIndicatorKit", 
-    "description": "build and investigate a commercially available \"3-band voice level indicator\" kit", 
-    "categories": "LED, Kit", 
+    "id": "#125",
+    "name": "Voice Level Indicator Kit",
+    "description": "build and investigate a commercially available \"3-band voice level indicator\" kit",
+    "categories": "LED, Kit",
     "relative_path": "Electronics101/VoiceLevelIndicatorKit"
 }
