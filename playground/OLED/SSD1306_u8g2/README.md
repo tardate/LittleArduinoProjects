@@ -1,6 +1,6 @@
 # #527 SSD1306 With u8g v2
 
-Testing an SSD1306 128x32 OLED with the new v2 u8g library.
+Testing an SSD1306 128x32 OLED with the new v2 u8g library over I²C.
 
 ![Build](./assets/SSD1306_u8g2_build.jpg?raw=true)
 
@@ -28,12 +28,12 @@ I cobbled together two sketches to test each of the interfaces:
 * OLED Resolution: 128 x 32
 * I²C interface
 
-| Pin | Description          |
-|-----|----------------------|
-| GND | Power Ground         |
-| VCC | Power + (DC 3.3 ~5v) |
-| SCL | Clock Line           |
-| SDA | Data Line            |
+| Pin | Description         |
+|-----|---------------------|
+| GND | Power Ground        |
+| VCC | Power + (DC 3.3~5v) |
+| SCL | Clock Line          |
+| SDA | Data Line           |
 
 ![oled_mechanical1](./assets/oled_mechanical1.jpg?raw=true)
 ![oled_mechanical2](./assets/oled_mechanical2.jpg?raw=true)

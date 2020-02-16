@@ -1,5 +1,12 @@
 [
     {
+        "description": "Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I\u00b2C", 
+        "relative_path": "playground/OLED/SSD1306BareBackI2C", 
+        "id": "#530", 
+        "categories": "OLED, Arduino", 
+        "name": "SSD1306 OLED Bareback I\u00b2C"
+    }, 
+    {
         "description": "How to use pin change interrupts with the ATtiny85", 
         "relative_path": "playground/ATtiny/PinChangeInterrupts", 
         "id": "#529", 
@@ -14,7 +21,7 @@
         "name": "ATtiny IxpandO"
     }, 
     {
-        "description": "Testing an SSD1306 128x32 OLED with the new v2 u8g library", 
+        "description": "Testing an SSD1306 128x32 OLED with the new v2 u8g library over I\u00b2C", 
         "relative_path": "playground/OLED/SSD1306_u8g2", 
         "id": "#527", 
         "categories": "OLED, Arduino", 
@@ -3094,11 +3101,11 @@
         "name": "ElectronicClockKit"
     }, 
     {
-        "description": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set", 
+        "description": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set over SPI", 
         "relative_path": "playground/OLED/SSD1306BareBack", 
         "id": "#087", 
         "categories": "OLED, Arduino", 
-        "name": "SSD1306 OLED Bareback"
+        "name": "SSD1306 OLED Bareback SPI"
     }, 
     {
         "description": "running the AdaFruit example program with a monochrome 128x64 OLED Display", 

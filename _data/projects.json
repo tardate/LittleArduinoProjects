@@ -1005,7 +1005,7 @@
         "title": "BoldportClub/whiteboard"
     }, 
     "/playground/OLED/SSD1306_u8g2/": {
-        "summary": "Testing an SSD1306 128x32 OLED with the new v2 u8g library", 
+        "summary": "Testing an SSD1306 128x32 OLED with the new v2 u8g library over I\u00b2C", 
         "id": 527, 
         "tags": [
             "OLED", 
@@ -1088,13 +1088,13 @@
         "title": "LED7Segment/ShiftDrive"
     }, 
     "/playground/OLED/SSD1306BareBack/": {
-        "summary": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set", 
+        "summary": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set over SPI", 
         "id": 87, 
         "tags": [
             "OLED", 
             "Arduino"
         ], 
-        "title": "SSD1306 OLED Bareback"
+        "title": "SSD1306 OLED Bareback SPI"
     }, 
     "/Electronics101/SCRLatch/": {
         "summary": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)", 
@@ -4140,6 +4140,15 @@
             "DMM"
         ], 
         "title": "ANG860B"
+    }, 
+    "/playground/OLED/SSD1306BareBackI2C/": {
+        "summary": "Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I\u00b2C", 
+        "id": 530, 
+        "tags": [
+            "OLED", 
+            "Arduino"
+        ], 
+        "title": "SSD1306 OLED Bareback I\u00b2C"
     }, 
     "/ESP8266/SerialTest/": {
         "summary": "first test of an ESP8266 module - serial communication to the SoC", 

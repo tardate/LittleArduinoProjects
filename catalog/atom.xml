@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-02-15T09:52:49Z</updated>
+  <updated>2020-02-17T14:15:13Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/OLED/SSD1306BareBackI2C/</id>
+    <link href="https://leap.tardate.com/playground/OLED/SSD1306BareBackI2C/"/>
+    <updated>2020-02-17T13:59:34Z</updated>
+    <title>#530 SSD1306 OLED Bareback I²C</title>
+    <summary>Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I²C</summary>
+    <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306BareBackI2C/assets/SSD1306BareBackI2C_build.jpg</g:image_link>
+    <category term="OLED"/>
+    <category term="Arduino"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/PinChangeInterrupts/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/PinChangeInterrupts/"/>
@@ -38,7 +48,7 @@
     <link href="https://leap.tardate.com/playground/OLED/SSD1306_u8g2/"/>
     <updated>2020-01-30T13:45:31Z</updated>
     <title>#527 SSD1306 With u8g v2</title>
-    <summary>Testing an SSD1306 128x32 OLED with the new v2 u8g library</summary>
+    <summary>Testing an SSD1306 128x32 OLED with the new v2 u8g library over I²C</summary>
     <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306_u8g2/assets/SSD1306_u8g2_build.jpg</g:image_link>
     <category term="OLED"/>
     <category term="Arduino"/>
@@ -4563,8 +4573,8 @@
     <id>https://leap.tardate.com/playground/OLED/SSD1306BareBack/</id>
     <link href="https://leap.tardate.com/playground/OLED/SSD1306BareBack/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#087 SSD1306 OLED Bareback</title>
-    <summary>driving a monochrome 128x64 OLED Display with an Arduino and the raw command set</summary>
+    <title>#087 SSD1306 OLED Bareback SPI</title>
+    <summary>driving a monochrome 128x64 OLED Display with an Arduino and the raw command set over SPI</summary>
     <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306BareBack/assets/SSD1306BareBack_build.jpg</g:image_link>
     <category term="OLED"/>
     <category term="Arduino"/>

@@ -1,4 +1,4 @@
-# 529 Little Electronics and Arduino Projects
+# 530 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [ATtiny Pin Change Interrupts](./playground/ATtiny/PinChangeInterrupts) - how to use pin change interrupts with the ATtiny85.
 

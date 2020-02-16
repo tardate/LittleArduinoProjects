@@ -1,0 +1,7 @@
+{
+    "id": "#530",
+    "name": "SSD1306 OLED Bareback I²C",
+    "description": "Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I²C",
+    "categories": "OLED, Arduino",
+    "relative_path": "playground/OLED/SSD1306BareBackI2C"
+}

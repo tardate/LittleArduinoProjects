@@ -1,31 +1,30 @@
 /*
 
-  OLED/SSD1306BareBack
-  Test driving a monochrome 128x64 OLED Display with an Arduino and the raw command set.
+  OLED/SSD1306BareBackI2C
+  Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I²C
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/SSD1306BareBack
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/SSD1306BareBackI2C
 
  */
 
+#include <Wire.h>
 
-//** pin connections
-
-#define MOSI_PIN 9
-#define CLK_PIN 10
-#define DC_PIN 11
-#define CS_PIN 12
+const byte DEVICE_ADDRESS               = 0b00111100;
+const byte SSD1306_I2C_CMD              = 0b00000000;
+const byte SSD1306_I2C_DATA             = 0b01000000;
 
 //** dimensional settings
 
 #define SSD1306_PIXEL_WIDTH             128
-#define SSD1306_PIXEL_HEIGHT            64
-#define SSD1306_PAGE_COUNT              8
-#define SSD1306_PAGE_HEIGHT             SSD1306_PIXEL_HEIGHT / SSD1306_PAGE_COUNT
-#define SSD1306_SEGMENT_COUNT           SSD1306_PIXEL_WIDTH * SSD1306_PAGE_HEIGHT
+#define SSD1306_PIXEL_HEIGHT            32
+#define SSD1306_PAGE_HEIGHT             8
+#define SSD1306_PAGE_COUNT              SSD1306_PIXEL_HEIGHT / SSD1306_PAGE_HEIGHT
+#define SSD1306_SEGMENT_COUNT           SSD1306_PIXEL_WIDTH * SSD1306_PAGE_COUNT
 
 //** a simple font for testing
 #include "font.h"
 #define SSD1306_FONT_WIDTH              5
+#define SSD1306_FONT_ROWS               SSD1306_PAGE_COUNT
 
 //** fundamental commands
 
@@ -62,6 +61,7 @@
 
 #define SSD1306_SET_MULTIPLEX_RATIO     0b10101000 // 0xA8
 #define SSD1306_MULTIPLEX_RATIO_DEFAULT 0b00111111
+#define SSD1306_MULTIPLEX_RATIO_31      0b00011111
 
 #define SSD1306_SET_COM_SCAN            0b11000000 // 0xC0
 #define SSD1306_SET_COM_SCAN_DEFAULT    SSD1306_SET_COM_SCAN | 0b0000
@@ -72,6 +72,7 @@
 
 #define SSD1306_SET_COM_PINS            0b11011010 // 0xDA
 #define SSD1306_COM_PINS_DEFAULT        0b00010010
+#define SSD1306_COM_PINS_SEQUENTIAL     0b00000010
 
 //** timing and driving
 
@@ -88,25 +89,27 @@
 #define SSD1306_CHARGE_PUMP_ENABLE      0b00010100
 
 
-void OledWrite(byte cmd, byte dc) {
-  digitalWrite(DC_PIN, dc);
-  digitalWrite(CS_PIN, LOW);
-  shiftOut(MOSI_PIN, CLK_PIN, MSBFIRST, cmd);
-  digitalWrite(CS_PIN, HIGH);
+void writeRegister(uint8_t reg, uint8_t data) {
+  Wire.beginTransmission(DEVICE_ADDRESS);
+  Wire.write(reg);
+  Wire.write(data);
+  Wire.endTransmission(true);
 }
 
 void OledWriteCmd(byte cmd) {
-  OledWrite(cmd,LOW);
+  writeRegister(SSD1306_I2C_CMD, cmd);
 }
 
 void OledWriteData(byte cmd) {
-  OledWrite(cmd,HIGH);
+  writeRegister(SSD1306_I2C_DATA, cmd);
 }
 
 void OledClear() {
-  OledXY(0,0);
-  for(int i=0; i<SSD1306_SEGMENT_COUNT; i++) OledWriteData(0x00);
-  OledXY(0,0);
+  OledXY(0, 0);
+  for(int i = 0; i < SSD1306_SEGMENT_COUNT; ++i) {
+    OledWriteData(0x00);
+  }
+  OledXY(0, 0);
 }
 
 void OledXY(int x, int y) {
@@ -115,60 +118,37 @@ void OledXY(int x, int y) {
   OledWriteCmd(SSD1306_PIXEL_WIDTH - 1);
   OledWriteCmd(SSD1306_SET_PAGE);
   OledWriteCmd(y);
-  OledWriteCmd(SSD1306_PAGE_HEIGHT - 1);
+  OledWriteCmd(SSD1306_PAGE_COUNT - 1);
 }
 
 void OledWriteCharacter(char character) {
-  for(int i=0; i<5; i++) OledWriteData(ASCII[character - 0x20][i]);
+  for(int i=0; i<5; ++i) {
+    OledWriteData(ASCII[character - 0x20][i]);
+  }
   OledWriteData(0x00);
 }
 
 void OledWriteString(char *characters) {
-  while(*characters) OledWriteCharacter(*characters++);
+  while(*characters) {
+    OledWriteCharacter(*characters++);
+  }
 }
 
 void setup() {
-  pinMode(MOSI_PIN, OUTPUT);
-  pinMode(CLK_PIN, OUTPUT);
-  pinMode(DC_PIN, OUTPUT);
-  pinMode(CS_PIN, OUTPUT);
-
+  Wire.begin();
   OledWriteCmd(SSD1306_DISPLAY_SLEEP);
-
-  OledWriteCmd(SSD1306_SET_CLOCK_FREQUENCY);
-  OledWriteCmd(SSD1306_CLOCK_FREQUENCY_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_MULTIPLEX_RATIO);
-  OledWriteCmd(SSD1306_MULTIPLEX_RATIO_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_DISPLAY_OFFSET);
-  OledWriteCmd(SSD1306_DISPLAY_OFFSET_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_START_LINE | SSD1306_START_LINE_DEFAULT);
-
-  OledWriteCmd(SSD1306_ADDRESSING); OledWriteCmd(SSD1306_ADDRESSING_HORIZONTAL);
-
+  OledWriteCmd(SSD1306_ADDRESSING);
+  OledWriteCmd(SSD1306_ADDRESSING_HORIZONTAL);
   // setting seg and com scan reverse means our x,y origin is top left of the screen
-  OledWriteCmd(SSD1306_SET_SEG_SCAN_REVERSE);
   OledWriteCmd(SSD1306_SET_COM_SCAN_REVERSE);
-
+  OledWriteCmd(SSD1306_SET_SEG_SCAN_REVERSE);
+  OledWriteCmd(SSD1306_SET_MULTIPLEX_RATIO);
+  OledWriteCmd(SSD1306_MULTIPLEX_RATIO_31);
   OledWriteCmd(SSD1306_SET_COM_PINS);
-  OledWriteCmd(SSD1306_COM_PINS_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_CONTRAST);
-  OledWriteCmd(SSD1306_CONTRAST_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_PRECHARGE);
-  OledWriteCmd(SSD1306_PRECHARGE_DEFAULT);
-
-  OledWriteCmd(SSD1306_SET_VCOMH_DESELECT);
-  OledWriteCmd(SSD1306_VCOMH_DESELECT_DEFAULT);
-
-  OledWriteCmd(SSD1306_DISPLAY_RESET);
-
+  OledWriteCmd(SSD1306_COM_PINS_SEQUENTIAL);
   OledWriteCmd(SSD1306_SET_CHARGE_PUMP);
   OledWriteCmd(SSD1306_CHARGE_PUMP_ENABLE);
-
+  OledWriteCmd(SSD1306_DISPLAY_NORMAL);
   OledWriteCmd(SSD1306_DISPLAY_ON);
 }
 
@@ -176,22 +156,21 @@ void loop() {
   demoHatching();
   demoPositionedText();
   demoInversedText();
-  demoVoltageDisplay();
 }
 
 void demoHatching() {
   OledClear();
   delay(400);
-  for(int i=0; i< SSD1306_SEGMENT_COUNT / 2; i++) {
-    OledWriteData(0x55);
+  for(int i = 0; i < SSD1306_SEGMENT_COUNT / 2; i++) {
     OledWriteData(0xAA);
+    OledWriteData(0x55);
   }
   delay(600);
 }
 
 void demoPositionedText() {
   OledClear();
-  for(int i=0; i<SSD1306_PAGE_COUNT; i++) {
+  for(int i = 0; i < SSD1306_FONT_ROWS; ++i) {
     OledXY(i, i);
     OledWriteString("Demo!");
   }
@@ -199,22 +178,8 @@ void demoPositionedText() {
 }
 
 void demoInversedText() {
-  OledWriteCmd(SSD1306_DISPLAY_INVERSE);
   OledClear();
+  OledWriteCmd(SSD1306_DISPLAY_INVERSE);
   demoPositionedText();
   OledWriteCmd(SSD1306_DISPLAY_NORMAL);
-}
-
-void demoVoltageDisplay() {
-  char vString[8];
-  float vIn;
-  OledClear();
-  OledXY(4,2);
-  OledWriteString("VOLTAGE:");
-  for(int i=0; i<20; i++) {
-    OledXY(13,2);
-    vIn = analogRead(A0) * 3.3 / 1023;
-    OledWriteString(dtostrf(vIn,5,2,vString));
-    delay(200);
-  }
 }
