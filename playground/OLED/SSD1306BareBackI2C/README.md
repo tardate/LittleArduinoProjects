@@ -10,7 +10,7 @@ Here's a quick demo..
 
 ## Notes
 
-In [LEAP#087](../SSD1306BareBack) I investigated using the raw command set to drive and OLED display
+In [LEAP#087](../SSD1306BareBack) I investigated using the raw command set to drive an OLED display
 over SPI. This is the same idea, but using a display with an I²C interface.
 
 For this test, I'm using a [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html).

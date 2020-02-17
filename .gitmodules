@@ -112,3 +112,6 @@
 [submodule "libraries/TinyWireM"]
 	path = libraries/TinyWireM
 	url = https://github.com/adafruit/TinyWireM
+[submodule "libraries/Tiny4kOLED"]
+	path = libraries/Tiny4kOLED
+	url = https://github.com/datacute/Tiny4kOLED

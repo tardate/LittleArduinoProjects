@@ -1,6 +1,6 @@
-# 530 Little Electronics and Arduino Projects
+# 531 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ATtiny Pin Change Interrupts](./playground/ATtiny/PinChangeInterrupts) - how to use pin change interrupts with the ATtiny85.
+> Latest addition:sparkles: [ATtiny SSD1306 I²C](./playground/ATtiny/SSD1306/BasicDemo) - basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

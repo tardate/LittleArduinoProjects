@@ -332,15 +332,6 @@
         ], 
         "title": "BoldportClub/stringy"
     }, 
-    "/playground/ATtiny/SleepMode/": {
-        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
-        "id": 127, 
-        "tags": [
-            "Arduino", 
-            "AVR"
-        ], 
-        "title": "ATtiny SleepMode"
-    }, 
     "/playground/ATmegaSerialProgrammer/": {
         "summary": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP", 
         "id": 405, 
@@ -459,6 +450,15 @@
             "Data Logging"
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
+    }, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
+        "tags": [
+            "Arduino", 
+            "C++"
+        ], 
+        "title": "Using C++ Templates"
     }, 
     "/OSHChip/LEDx16Module/": {
         "summary": "driving an SPI LED module with the OSHChip", 
@@ -3036,13 +3036,15 @@
         ], 
         "title": "TwinTeeOscillator"
     }, 
-    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
-        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
-        "id": 495, 
+    "/Radio/FM/TEA5767/": {
+        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
+        "id": 310, 
         "tags": [
-            "BJT"
+            "Radio", 
+            "FM", 
+            "Arduino"
         ], 
-        "title": "Negative Feedback Amplifier"
+        "title": "TEA5767 FM Receiver"
     }, 
     "/Electronics101/DigitalLogic/SyncJKCounter/": {
         "summary": "a synchronous 8-bit counter built with JK Flip-Flops", 
@@ -3435,15 +3437,14 @@
         ], 
         "title": "RouletteKit"
     }, 
-    "/Radio/FM/TEA5767/": {
-        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
-        "id": 310, 
+    "/playground/ATtiny/SleepMode/": {
+        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
+        "id": 127, 
         "tags": [
-            "Radio", 
-            "FM", 
-            "Arduino"
+            "Arduino", 
+            "AVR"
         ], 
-        "title": "TEA5767 FM Receiver"
+        "title": "ATtiny SleepMode"
     }, 
     "/Radio/FM/SingleStageTransmitterKit/": {
         "summary": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
@@ -4282,14 +4283,13 @@
         ], 
         "title": "ClapSwitchKit2"
     }, 
-    "/playground/UsingTemplates/": {
-        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
-        "id": 486, 
+    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
+        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
+        "id": 495, 
         "tags": [
-            "Arduino", 
-            "C++"
+            "BJT"
         ], 
-        "title": "Using C++ Templates"
+        "title": "Negative Feedback Amplifier"
     }, 
     "/BoldportClub/TheMatrix/GameOfLife/": {
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 
@@ -4751,6 +4751,15 @@
             "BJT"
         ], 
         "title": "DarlingtonTouchSwitch"
+    }, 
+    "/playground/ATtiny/SSD1306/BasicDemo/": {
+        "summary": "Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I\u00b2C", 
+        "id": 531, 
+        "tags": [
+            "AVR", 
+            "OLED"
+        ], 
+        "title": "ATtiny SSD1306 I\u00b2C"
     }, 
     "/Electronics101/GuitarEffects/BazzFuss/": {
         "summary": "the Bazz Fuss \"chocolate noisette\" - a super-minimalist overdrive/distortion/fuzz effect circuit", 
