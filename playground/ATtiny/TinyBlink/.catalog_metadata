@@ -1,7 +1,7 @@
 {
-    "id": "#071", 
-    "name": "TinyBlink", 
-    "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
-    "categories": "Arduino, ATmel", 
+    "id": "#071",
+    "name": "TinyBlink",
+    "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard",
+    "categories": "Arduino, AVR",
     "relative_path": "playground/ATtiny/TinyBlink"
 }

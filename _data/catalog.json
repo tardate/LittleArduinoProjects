@@ -10,7 +10,7 @@
         "description": "How to use pin change interrupts with the ATtiny85", 
         "relative_path": "playground/ATtiny/PinChangeInterrupts", 
         "id": "#529", 
-        "categories": "Arduino, AVR, ATtiny", 
+        "categories": "Arduino, AVR", 
         "name": "ATtiny Pin Change Interrupts"
     }, 
     {
@@ -724,8 +724,8 @@
         "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques", 
         "relative_path": "playground/ATtiny/SoftwarePWM", 
         "id": "#427", 
-        "categories": "ATmel, PWM", 
-        "name": "ATtiny/SoftwarePWM"
+        "categories": "AVR, PWM", 
+        "name": "ATtiny Software PWM"
     }, 
     {
         "description": "using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7", 
@@ -1788,8 +1788,8 @@
         "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
         "relative_path": "playground/ATtiny/At8MHz", 
         "id": "#275", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtiny/At8MHz"
+        "categories": "Arduino, AVR", 
+        "name": "ATtiny at 8MHz"
     }, 
     {
         "description": "testing out the Feeltech FY3200S digital function generator", 
@@ -1942,8 +1942,8 @@
         "description": "a custom ATtiny programming shield for Arduino ISP", 
         "relative_path": "playground/ATtiny/ProgrammingShield", 
         "id": "#253", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtiny/ProgrammingShield"
+        "categories": "Arduino, AVR", 
+        "name": "ATtiny Programming Shield"
     }, 
     {
         "description": "two-LED flasher with a 555 and minimal components - turned into a \"message waiting\" indicator with some free-wired SMD construction", 
@@ -2817,22 +2817,22 @@
         "description": "test a total power shutdown with an ATtiny85 processor on a breadboard", 
         "relative_path": "playground/ATtiny/TotalSleep", 
         "id": "#128", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtiny/TotalSleep"
+        "categories": "Arduino, AVR", 
+        "name": "ATtiny TotalSleep"
     }, 
     {
         "description": "test sleep mode with an ATtiny85 processor on a breadboard", 
         "relative_path": "playground/ATtiny/SleepMode", 
         "id": "#127", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtiny/SleepMode"
+        "categories": "Arduino, AVR", 
+        "name": "ATtiny SleepMode"
     }, 
     {
         "description": "test hardware interrupts with an ATtiny85 processor on a breadboard", 
         "relative_path": "playground/ATtiny/HardwareInterrupt", 
         "id": "#126", 
-        "categories": "Arduino, ATmel", 
-        "name": "ATtiny/HardwareInterrupt"
+        "categories": "Arduino, AVR", 
+        "name": "ATtiny Hardware Interrupt"
     }, 
     {
         "description": "build and investigate a commercially available \"3-band voice level indicator\" kit", 
@@ -3216,15 +3216,15 @@
         "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard", 
         "relative_path": "playground/ATtiny/TinyBlink", 
         "id": "#071", 
-        "categories": "Arduino, ATmel", 
+        "categories": "Arduino, AVR", 
         "name": "TinyBlink"
     }, 
     {
         "description": "programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
         "relative_path": "playground/ATtiny/ProgrammingWithArduinoISP", 
         "id": "#070", 
-        "categories": "Arduino, ATmel, ICSP", 
-        "name": "ATtiny/ProgrammingWithArduinoISP"
+        "categories": "Arduino, AVR, ICSP", 
+        "name": "ATtiny Programming over ArduinoISP"
     }, 
     {
         "description": "running an ATMEGA328P-PU on a breadboard ", 

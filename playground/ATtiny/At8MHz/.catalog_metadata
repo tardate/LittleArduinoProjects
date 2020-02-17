@@ -1,7 +1,7 @@
 {
-    "id": "#275", 
-    "name": "ATtiny/At8MHz", 
-    "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock", 
-    "categories": "Arduino, ATmel", 
+    "id": "#275",
+    "name": "ATtiny at 8MHz",
+    "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock",
+    "categories": "Arduino, AVR",
     "relative_path": "playground/ATtiny/At8MHz"
 }

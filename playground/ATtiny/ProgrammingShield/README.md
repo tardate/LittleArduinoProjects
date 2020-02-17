@@ -1,4 +1,4 @@
-# #253 ProgrammingShield
+# #253 ATtiny Programming Shield
 
 A custom ATtiny programming shield for use with Arduino ISP
 

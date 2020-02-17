@@ -1,7 +1,7 @@
 {
-    "id": "#253", 
-    "name": "ATtiny/ProgrammingShield", 
-    "description": "a custom ATtiny programming shield for Arduino ISP", 
-    "categories": "Arduino, ATmel", 
+    "id": "#253",
+    "name": "ATtiny Programming Shield",
+    "description": "a custom ATtiny programming shield for Arduino ISP",
+    "categories": "Arduino, AVR",
     "relative_path": "playground/ATtiny/ProgrammingShield"
 }

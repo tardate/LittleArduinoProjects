@@ -88,9 +88,9 @@
         "id": 128, 
         "tags": [
             "Arduino", 
-            "ATmel"
+            "AVR"
         ], 
-        "title": "ATtiny/TotalSleep"
+        "title": "ATtiny TotalSleep"
     }, 
     "/Electronics101/555Timer/TriangleWaveGen/": {
         "summary": "generate a triangle wave with 555 timer astable oscillator and RC integrator", 
@@ -337,9 +337,9 @@
         "id": 127, 
         "tags": [
             "Arduino", 
-            "ATmel"
+            "AVR"
         ], 
-        "title": "ATtiny/SleepMode"
+        "title": "ATtiny SleepMode"
     }, 
     "/playground/ATmegaSerialProgrammer/": {
         "summary": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP", 
@@ -652,10 +652,10 @@
         "summary": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques", 
         "id": 427, 
         "tags": [
-            "ATmel", 
+            "AVR", 
             "PWM"
         ], 
-        "title": "ATtiny/SoftwarePWM"
+        "title": "ATtiny Software PWM"
     }, 
     "/Electronics101/UsbNotifier/": {
         "summary": "tear-down and demo code for some oldUSB Webmail Notifier devices", 
@@ -808,9 +808,9 @@
         "id": 275, 
         "tags": [
             "Arduino", 
-            "ATmel"
+            "AVR"
         ], 
-        "title": "ATtiny/At8MHz"
+        "title": "ATtiny at 8MHz"
     }, 
     "/Radio/SDR/DecodingACARS/": {
         "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
@@ -1195,9 +1195,9 @@
         "id": 126, 
         "tags": [
             "Arduino", 
-            "ATmel"
+            "AVR"
         ], 
-        "title": "ATtiny/HardwareInterrupt"
+        "title": "ATtiny Hardware Interrupt"
     }, 
     "/Equipment/imaxRcB3LipoCharger/": {
         "summary": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs", 
@@ -1239,8 +1239,7 @@
         "id": 529, 
         "tags": [
             "Arduino", 
-            "AVR", 
-            "ATtiny"
+            "AVR"
         ], 
         "title": "ATtiny Pin Change Interrupts"
     }, 
@@ -2472,10 +2471,10 @@
         "id": 70, 
         "tags": [
             "Arduino", 
-            "ATmel", 
+            "AVR", 
             "ICSP"
         ], 
-        "title": "ATtiny/ProgrammingWithArduinoISP"
+        "title": "ATtiny Programming over ArduinoISP"
     }, 
     "/playground/VL53L0X/TheToneRanger/": {
         "summary": "a simple modification of the basic VL53L0X example to add audio indication of range", 
@@ -3314,9 +3313,9 @@
         "id": 253, 
         "tags": [
             "Arduino", 
-            "ATmel"
+            "AVR"
         ], 
-        "title": "ATtiny/ProgrammingShield"
+        "title": "ATtiny Programming Shield"
     }, 
     "/Kinetics/LineFollowerKit/": {
         "summary": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp", 
@@ -3861,7 +3860,7 @@
         "id": 71, 
         "tags": [
             "Arduino", 
-            "ATmel"
+            "AVR"
         ], 
         "title": "TinyBlink"
     }, 

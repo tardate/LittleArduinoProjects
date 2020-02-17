@@ -41,7 +41,7 @@ const uint8_t OLATB     = 0x15;
  * Command: initialization
  */
 void setup() {
-  TinyWireM.begin();
+  Wire.begin();
   initIxpandO();
 }
 

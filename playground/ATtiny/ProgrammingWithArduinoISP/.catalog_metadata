@@ -1,7 +1,7 @@
 {
-    "id": "#070", 
-    "name": "ATtiny/ProgrammingWithArduinoISP", 
-    "description": "programming an ATTINY85-20PU on a breadboard with Arduino ISP", 
-    "categories": "Arduino, ATmel, ICSP", 
+    "id": "#070",
+    "name": "ATtiny Programming over ArduinoISP",
+    "description": "programming an ATTINY85-20PU on a breadboard with Arduino ISP",
+    "categories": "Arduino, AVR, ICSP",
     "relative_path": "playground/ATtiny/ProgrammingWithArduinoISP"
 }

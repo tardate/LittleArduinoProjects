@@ -1,4 +1,4 @@
-# #427 ATtiny/SoftwarePWM
+# #427 ATtiny Software PWM
 
 Generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques.
 

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-02-17T14:15:13Z</updated>
+  <updated>2020-02-21T07:02:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/OLED/SSD1306BareBackI2C/</id>
     <link href="https://leap.tardate.com/playground/OLED/SSD1306BareBackI2C/"/>
-    <updated>2020-02-17T13:59:34Z</updated>
+    <updated>2020-02-17T14:44:20Z</updated>
     <title>#530 SSD1306 OLED Bareback I²C</title>
     <summary>Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I²C</summary>
     <g:image_link>https://leap.tardate.com/playground/OLED/SSD1306BareBackI2C/assets/SSD1306BareBackI2C_build.jpg</g:image_link>
@@ -30,7 +30,6 @@
     <g:image_link>https://leap.tardate.com/playground/ATtiny/PinChangeInterrupts/assets/PinChangeInterrupts_build.jpg</g:image_link>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/BoldportClub/IxpandO/ATtinyController/</id>
@@ -1077,10 +1076,10 @@
     <id>https://leap.tardate.com/playground/ATtiny/SoftwarePWM/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/SoftwarePWM/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#427 ATtiny/SoftwarePWM</title>
+    <title>#427 ATtiny Software PWM</title>
     <summary>generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/SoftwarePWM/assets/SoftwarePWM_build.jpg</g:image_link>
-    <category term="ATmel"/>
+    <category term="AVR"/>
     <category term="PWM"/>
   </entry>
   <entry>
@@ -2649,11 +2648,11 @@
     <id>https://leap.tardate.com/playground/ATtiny/At8MHz/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/At8MHz/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#275 ATtiny/At8MHz</title>
+    <title>#275 ATtiny at 8MHz</title>
     <summary>how to run an ATtiny85 microprocessor at 8MHz using the internal clock</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/At8MHz/assets/At8MHz_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/FY3200S/</id>
@@ -2895,11 +2894,11 @@
     <id>https://leap.tardate.com/playground/ATtiny/ProgrammingShield/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/ProgrammingShield/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#253 ATtiny/ProgrammingShield</title>
+    <title>#253 ATtiny Programming Shield</title>
     <summary>a custom ATtiny programming shield for Arduino ISP</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/ProgrammingShield/assets/ProgrammingShield_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/MessageWaiting/</id>
@@ -4163,31 +4162,31 @@
     <id>https://leap.tardate.com/playground/ATtiny/TotalSleep/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/TotalSleep/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#128 ATtiny/TotalSleep</title>
+    <title>#128 ATtiny TotalSleep</title>
     <summary>test a total power shutdown with an ATtiny85 processor on a breadboard</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/TotalSleep/assets/TotalSleep_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/SleepMode/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/SleepMode/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#127 ATtiny/SleepMode</title>
+    <title>#127 ATtiny SleepMode</title>
     <summary>test sleep mode with an ATtiny85 processor on a breadboard</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/SleepMode/assets/SleepMode_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/HardwareInterrupt/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/HardwareInterrupt/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#126 ATtiny/HardwareInterrupt</title>
+    <title>#126 ATtiny Hardware Interrupt</title>
     <summary>test hardware interrupts with an ATtiny85 processor on a breadboard</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/HardwareInterrupt/assets/HardwareInterrupt_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/VoiceLevelIndicatorKit/</id>
@@ -4739,17 +4738,17 @@
     <summary>a simple blink sketch with an ATTINY85-20PU on a breadboard</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/TinyBlink/assets/TinyBlink_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/ProgrammingWithArduinoISP/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/ProgrammingWithArduinoISP/"/>
     <updated>2018-10-21T07:22:34Z</updated>
-    <title>#070 ATtiny/ProgrammingWithArduinoISP</title>
+    <title>#070 ATtiny Programming over ArduinoISP</title>
     <summary>programming an ATTINY85-20PU on a breadboard with Arduino ISP</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/ProgrammingWithArduinoISP/assets/ProgrammingWithArduinoISP_build.jpg</g:image_link>
     <category term="Arduino"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
     <category term="ICSP"/>
   </entry>
   <entry>
