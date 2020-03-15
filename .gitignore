@@ -8,3 +8,5 @@ sdcc
 _site
 .sass-cache
 .jekyll-metadata
+/PIC/PIC16F84A/Blinky/PIC16F84ABlinky.X/build/
+/PIC/PIC16F84A/Blinky/PIC16F84ABlinky.X/dist/

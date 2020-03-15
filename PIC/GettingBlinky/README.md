@@ -76,7 +76,7 @@ A real boon is the built-in simulator, allowing code execution, breakpoints and 
 
 ### Programmer
 
-Got myself a clone [PicKit 3 programmer](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html). It's been working for me like a charm.
+Got myself a clone [PicKit 3 programmer](https://www.aliexpress.com/item/1734894366.html). It's been working for me like a charm.
 
 One important configuration item is to enable the programmer to provide power to the target device, if it is not powered separately
 I enabled 4.75 V, as I've seen reports of intermittent communication issues if the full 5V is selected.
@@ -164,7 +164,7 @@ Surrounded by a few make-work loops, the result is an LED blinking at around 4Hz
 * [PIC Assembly Language Tutorials: #0 - Shopping List & Mods](https://www.youtube.com/watch?v=p2rZwR9oM_k) - Julian Ilett
 * [PIC Assembly Language Tutorial: #1 - Config and Clock](https://www.youtube.com/watch?v=491StrMyqa4) - Julian Ilett
 * [PIC Assembly Language Update: #1.1 - PCB schematic](https://www.youtube.com/watch?v=TneWtGyar6M) - Julian Ilett
-* [pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html) - example seller on aliexpress
+* [pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat](https://www.aliexpress.com/item/1734894366.html) - example seller on aliexpress
 * [5V PIC12F675 Development Board Learning Board Test Breadboard+USB Cable](https://www.aliexpress.com/item/5V-PIC12F675-Development-Board-Learning-Board-Test-Breadboard-USB-Cable/32803124346.html) - example seller on aliexpress
 * [5S1P balanced charger cable with a 6-pin JST XH female connector](https://www.aliexpress.com/item/10Pcs-5S1P-Balance-Charger-Silicon-Cable-Wire-JST-XH-Connector-Male-Female-Plug-For-Rc-Airplane/32657806702.html) - example seller on aliexpress
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)

@@ -1,5 +1,12 @@
 [
     {
+        "description": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)", 
+        "relative_path": "PIC/PIC16F84ABlinky", 
+        "id": "#532", 
+        "categories": "PIC, LED", 
+        "name": "PIC16F84A Blinky"
+    }, 
+    {
         "description": "Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I\u00b2C", 
         "relative_path": "playground/ATtiny/SSD1306/BasicDemo", 
         "id": "#531", 

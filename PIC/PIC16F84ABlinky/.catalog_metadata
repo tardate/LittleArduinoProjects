@@ -1,0 +1,7 @@
+{
+    "id": "#532",
+    "name": "PIC16F84A Blinky",
+    "description": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)",
+    "categories": "PIC, LED",
+    "relative_path": "PIC/PIC16F84ABlinky"
+}

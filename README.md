@@ -1,6 +1,7 @@
-# 531 Little Electronics and Arduino Projects
+# 532 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ATtiny SSD1306 I²C](./playground/ATtiny/SSD1306/BasicDemo) - basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C.
+> Latest addition:sparkles: [PIC16F84A Blinky](./PIC/PIC16F84ABlinky) - A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler).
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

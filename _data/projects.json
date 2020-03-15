@@ -3545,6 +3545,15 @@
         ], 
         "title": "RF Connectors"
     }, 
+    "/PIC/PIC16F84ABlinky/": {
+        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)", 
+        "id": 532, 
+        "tags": [
+            "PIC", 
+            "LED"
+        ], 
+        "title": "PIC16F84A Blinky"
+    }, 
     "/Electronics101/DigitalLogic/AsyncJKCounter/": {
         "summary": "an asynchronous 4-bit counter built with JK Flip-Flops", 
         "id": 186, 
