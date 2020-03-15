@@ -16,7 +16,7 @@ Exposing the LM35 to a naked flame is perhaps not such a good idea .. but it is 
 
 ## Code
 
-The [Firecracker.ino](./Firecracker.ino) sketch instantiates ["Sparklies"](./sparklies.h) which represent individual animation elements.
+The [Firecracker.ino](./Firecracker.ino) sketch instantiates ["Sparklies"](./sparklie.h) which represent individual animation elements.
 
 Doxygen source documentation is available [here](https://leap.tardate.com/BoldportClub/TheMatrix/Firecracker/doc/html/index.html).
 
