@@ -23,14 +23,14 @@ OS_CURRENT="$(shell uname -s)"
 # MP_CC is not defined
 # MP_CPPC is not defined
 # MP_BC is not defined
-MP_AS="/Applications/microchip/mplabx/v3.51/mpasmx/mpasmx"
-MP_LD="/Applications/microchip/mplabx/v3.51/mpasmx/mplink"
-MP_AR="/Applications/microchip/mplabx/v3.51/mpasmx/mplib"
+MP_AS="/Applications/microchip/mplabx/v5.30/mpasmx/mpasmx"
+MP_LD="/Applications/microchip/mplabx/v5.30/mpasmx/mplink"
+MP_AR="/Applications/microchip/mplabx/v5.30/mpasmx/mplib"
 DEP_GEN=${MP_JAVA_PATH}java -jar "/Applications/microchip/mplabx/v5.30/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
 # MP_CC_DIR is not defined
 # MP_CPPC_DIR is not defined
 # MP_BC_DIR is not defined
-MP_AS_DIR="/Applications/microchip/mplabx/v3.51/mpasmx"
-MP_LD_DIR="/Applications/microchip/mplabx/v3.51/mpasmx"
-MP_AR_DIR="/Applications/microchip/mplabx/v3.51/mpasmx"
+MP_AS_DIR="/Applications/microchip/mplabx/v5.30/mpasmx"
+MP_LD_DIR="/Applications/microchip/mplabx/v5.30/mpasmx"
+MP_AR_DIR="/Applications/microchip/mplabx/v5.30/mpasmx"
 # MP_BC_DIR is not defined
