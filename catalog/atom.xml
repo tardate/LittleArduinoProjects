@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-03-21T11:38:23Z</updated>
+  <updated>2020-03-21T12:16:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,17 +14,18 @@
   <entry>
     <id>https://leap.tardate.com/PIC/TedsClock/</id>
     <link href="https://leap.tardate.com/PIC/TedsClock/"/>
-    <updated>2020-03-21T10:30:45Z</updated>
+    <updated>2020-03-21T11:41:57Z</updated>
     <title>#533 Ted's LED Clock</title>
-    <summary>Building a freefrom 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A</summary>
+    <summary>Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A</summary>
     <g:image_link>https://leap.tardate.com/PIC/TedsClock/assets/TedsClock_build.jpg</g:image_link>
     <category term="PIC"/>
     <category term="LED"/>
+    <category term="freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/PIC/PIC16F84ABlinky/</id>
     <link href="https://leap.tardate.com/PIC/PIC16F84ABlinky/"/>
-    <updated>2020-03-19T13:41:48Z</updated>
+    <updated>2020-03-21T11:41:57Z</updated>
     <title>#532 PIC16F84A Blinky</title>
     <summary>A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)</summary>
     <g:image_link>https://leap.tardate.com/PIC/PIC16F84ABlinky/assets/PIC16F84ABlinky_build.jpg</g:image_link>

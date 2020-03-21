@@ -4544,11 +4544,12 @@
         "title": "Raw MAX7219 7-Segment LED Driver"
     }, 
     "/PIC/TedsClock/": {
-        "summary": "Building a freefrom 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A", 
+        "summary": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A", 
         "id": 533, 
         "tags": [
             "PIC", 
-            "LED"
+            "LED", 
+            "freeform"
         ], 
         "title": "Ted's LED Clock"
     }, 

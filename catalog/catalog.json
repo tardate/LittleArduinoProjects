@@ -1,9 +1,9 @@
 [
     {
-        "description": "Building a freefrom 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A", 
+        "description": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A", 
         "relative_path": "PIC/TedsClock", 
         "id": "#533", 
-        "categories": "PIC, LED", 
+        "categories": "PIC, LED, freeform", 
         "name": "Ted's LED Clock"
     }, 
     {

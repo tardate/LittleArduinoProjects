@@ -1,7 +1,7 @@
 {
     "id": "#533",
     "name": "Ted's LED Clock",
-    "description": "Building a freefrom 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A",
-    "categories": "PIC, LED",
+    "description": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A",
+    "categories": "PIC, LED, freeform",
     "relative_path": "PIC/TedsClock"
 }

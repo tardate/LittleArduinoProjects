@@ -1,6 +1,6 @@
 # 533 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Ted's LED Clock](./PIC/TedsClock) - Building a freefrom 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A.
+> Latest addition:sparkles: [Ted's LED Clock](./PIC/TedsClock) - Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
