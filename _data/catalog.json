@@ -1,5 +1,12 @@
 [
     {
+        "description": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
+        "relative_path": "ESP8266/ESP12Programming", 
+        "id": "#534", 
+        "categories": "ESP8266", 
+        "name": "ESP-12 Programming"
+    }, 
+    {
         "description": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A", 
         "relative_path": "PIC/TedsClock", 
         "id": "#533", 

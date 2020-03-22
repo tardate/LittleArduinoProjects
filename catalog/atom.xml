@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-03-21T12:16:33Z</updated>
+  <updated>2020-03-23T14:21:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/ESP8266/ESP12Programming/</id>
+    <link href="https://leap.tardate.com/ESP8266/ESP12Programming/"/>
+    <updated>2020-03-23T10:54:39Z</updated>
+    <title>#534 ESP-12 Programming</title>
+    <summary>The basics of programming an ESP-12 with the ESP8266 core for Arduino</summary>
+    <g:image_link>https://leap.tardate.com/ESP8266/ESP12Programming/assets/ESP12Programming_build.jpg</g:image_link>
+    <category term="ESP8266"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/PIC/TedsClock/</id>
     <link href="https://leap.tardate.com/PIC/TedsClock/"/>

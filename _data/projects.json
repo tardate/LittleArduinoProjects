@@ -4401,6 +4401,14 @@
         ], 
         "title": "BoldportClub/QSOPBreakout"
     }, 
+    "/ESP8266/ESP12Programming/": {
+        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
+        "id": 534, 
+        "tags": [
+            "ESP8266"
+        ], 
+        "title": "ESP-12 Programming"
+    }, 
     "/Electronics101/555Timer/InvertingChargePump/": {
         "summary": "test an inverting charge pump circuit based on a 555 timer", 
         "id": 146, 
