@@ -1,28 +1,27 @@
         LIST P=16F84
 ;;;
-;;; Clock test: 
+;;; Clock I driver - LED clock
 ;;; 2/19/2000/tcy
+;;; 2/29/2000/tcy updated
 ;;; Copyright (C) 2000, Theodore C. Yapo.  All rights reserved.
-;;; 
+;;;
 PORTA   EQU     0x05
-PORTB   EQU     0x06 
+PORTB   EQU     0x06
 TRISB   EQU     0x86
-TRISA	EQU     0x85
+TRISA   EQU     0x85
 ;
-BIT_OUT	EQU     0x00	; PORTA
-;
-OPTREG	EQU     0x81
+OPTREG  EQU     0x81
 INTCON  EQU     0x0b
-STATUS	EQU     0x03
-CARRY	EQU     0x00
+STATUS  EQU     0x03
+CARRY   EQU     0x00
 RP0     EQU     0x05
-W		EQU     0x00
+W               EQU     0x00
 PCL     EQU     0x02
 TMR0    EQU     0x01
 T0IF    EQU     0x02
 #define _Z STATUS, 2
 #define _C STATUS, 0
-;;; 
+;;;
 ;;; configuration word
 ;;; ~Code Protect|~PWRT Enable|WDT enable| OSC selection 2 bits|
 ;;;
@@ -33,9 +32,9 @@ T0IF    EQU     0x02
         HS      EQU     b'0010'; high-speed crystal osc
         XT      EQU     b'0001'; standard crystal osc
         LP      EQU     b'0000'; low-power crystal osc
-        
+
         __CONFIG        CPD | LP
-        
+
         CBLOCK 0x0C
                 tick            ; a tick is 1/32 second
                 hour            ; 0-11
@@ -43,12 +42,14 @@ T0IF    EQU     0x02
                 minute_5        ; minutes / 5
                 second_1        ; seconds mod 5
                 second_5        ; seconds / 5
-                porta_value
-                portb_value
+                porta_value     ; accumulates lit LEDs
+                portb_value     ; accumulates lit LEDs
+                minutes_button  ; saves left button state for debounce
+                hours_button    ; saves right button state for debounce
         ENDC
 ;;;
 ;;; on reset, call the startup code
-;;; 
+;;;
         ORG     0               ; reset vector
         GOTO    STARTUP
 ;;;
@@ -64,8 +65,16 @@ T0IF    EQU     0x02
         CLRF    tick            ; yes, a whole second has passed
 
         CALL    INC_SECONDS     ; increment to next second
-NO_SECOND:      
-        
+NO_SECOND:
+
+        CLRF    porta_value     ; clear display
+        CLRF    portb_value     ; clear display
+
+        ;; if minutes are being adjusted, don't display hours
+        ;;  note that minute_button is 1 if not being pressed, > 1 if pressed
+        DECF    minutes_button, W
+        BTFSS   _Z
+        GOTO    SKIP_HOUR_DISPLAY
         ;; set the hour LED values into the temp registers
         MOVF    hour, W
         CALL    HAND_PORTA
@@ -73,11 +82,25 @@ NO_SECOND:
         MOVF    hour, W
         CALL    HAND_PORTB
         MOVWF   portb_value
+SKIP_HOUR_DISPLAY:
 
-        ;; set the minute LED values only if tick > 16
+        ;; if hours are being adjusted, don't display minutes
+        ;;  note that hour_button is 1 if not being pressed, > 1 if pressed
+        DECF    hours_button, W
+        BTFSS   _Z
+        GOTO    BLINK_MINUTE
+
+        ;; if minutes are being adjusted, display minutes as solid
+        ;;  note that minute_button is 1 if not being pressed, > 1 if pressed
+        DECF    minutes_button, W
+        BTFSS   _Z
+        GOTO    SOLID_MINUTE
+
+        ;; set the minute LED values only if tick bit 4
         ;;   this "blinks" the minute LED at 1Hz
         BTFSC   tick, 4
         GOTO    BLINK_MINUTE
+SOLID_MINUTE:
         MOVF    minute_5, W
         CALL    HAND_PORTA
         XORWF   porta_value     ; XOR in the minute LED
@@ -86,9 +109,21 @@ NO_SECOND:
         XORWF   portb_value     ; XOR in the minute LED
 BLINK_MINUTE:
 
-        ;; set the second LED values only if tick bit 1 is set
-        ;;   this "blinks" the minute LED at 8Hz
-        BTFSC   tick, 1
+        ;; if minutes are being adjusted, don't display seconds
+        ;;  note that minute_button is 1 if not being pressed, > 1 if pressed
+        DECF    minutes_button, W
+        BTFSS   _Z
+        GOTO    BLINK_SECOND
+
+        ;; if hours are being adjusted, don't display seconds
+        ;;  note that hour_button is 1 if not being pressed, > 1 if pressed
+        DECF    hours_button, W
+        BTFSS   _Z
+        GOTO    BLINK_SECOND
+
+        ;; set the second LED values only if tick bit 2 is set
+        ;;   this "blinks" the minute LED at 4Hz
+        BTFSC   tick, 2
         GOTO    BLINK_SECOND
         MOVF    second_5, W
         CALL    HAND_PORTA
@@ -97,33 +132,58 @@ BLINK_MINUTE:
         CALL    HAND_PORTB
         XORWF   portb_value     ; XOR in the second LED
 BLINK_SECOND:
-        
+
         ;; check for button press
         BSF     STATUS, RP0     ;SELECT REGISTER BANK 1
         BSF     TRISB, 2        ; set RB2 to input
         BSF     TRISA, 3        ; set RA3 to input
         BCF     STATUS, RP0     ; select bank 0
-        BTFSC   PORTB, 2        ; test RB2
-        CALL    INC_MINUTES     ; increment minute, if pressed
-        BTFSC   PORTA, 3        ; test RA3
+        ;; check minutes (must be pressed for at least 4 ticks)
+        BTFSS   PORTB, 2        ; test RB2
+        CLRF    minutes_button  ; button not pressed, clear count
+        INCF    minutes_button  ; increment the minutes button count
+        BTFSS   minutes_button, 4; wait for press of at least 16 counts
+        GOTO    SKIP_MINUTE_INC
+        MOVLW   d'2'            ; reset the count
+        MOVWF  minutes_button   ;   to 2
+        ;; increment 5_minutes
+        CLRF    second_1        ; clear seconds (1x)
+        CLRF    second_5        ; clear seconds (5x)
+        CLRF    minute_1        ; clear the 1-minute inc
+        INCF    minute_5        ; next minute (5x)
+        MOVLW   d'12'           ; check for
+        SUBWF   minute_5, W
+        BTFSS   _Z              ; check minutes overflow
+        GOTO    SKIP_MINUTE_INC ; minutes didn't overflow, so ripple ends
+        CLRF    minute_5
+SKIP_MINUTE_INC:
+        ;; check hours (must be pressed for at least 4 ticks)
+        BTFSS   PORTA, 3        ; test RA3
+        CLRF    hours_button    ; button not pressed, clear count
+        INCF    hours_button    ; increment the hours button count
+        BTFSS   hours_button, 4 ; wait for press of at least 16 counts
+        GOTO    SKIP_HOUR_INC
+        MOVLW   d'2'            ; reset the count
+        MOVWF   hours_button    ; to '2'
         CALL    INC_HOURS       ; increment hour, if pressed
+SKIP_HOUR_INC:
         BSF     STATUS, RP0     ;SELECT REGISTER BANK 1
         BCF     TRISB, 2        ; set RB2 to output
         BCF     TRISA, 3        ; set RA3 to output
         BCF     STATUS, RP0     ; select bank 0
-        
+
         ;; light the appropriate LEDs
         MOVF    porta_value, W
         MOVWF   PORTA
         MOVF    portb_value, W
         MOVWF   PORTB
-        
+
         BCF     INTCON, T0IF    ; clear TMR0 interrupt
         RETFIE                  ; return from ISR
 ;;;
 ;;; INC_X routines: multiple entry points to increment seconds, minutes, hours
 ;;;   with appropriate ripple updating
-INC_SECONDS:    
+INC_SECONDS:
         INCF    second_1        ; increment to next second
         MOVLW   d'5'
         SUBWF   second_1, W
@@ -136,12 +196,13 @@ INC_SECONDS:
         BTFSS   _Z              ; check seconds overflow
         GOTO    INC_DONE        ; seconds didn't overflow, so ripple ends
         CLRF    second_5        ;   ripple continues, reset second_5
-INC_MINUTES:    
+INC_MINUTES:
         INCF    minute_1        ; next minute
         MOVLW   d'5'
         SUBWF   minute_1, W
         BTFSS   _Z              ; check minutes overflow
         GOTO    INC_DONE        ; minutes didn't overflow, so ripple ends
+INC_5MINUTES:
         CLRF    minute_1
         INCF    minute_5        ; next minute
         MOVLW   d'12'
@@ -149,7 +210,7 @@ INC_MINUTES:
         BTFSS   _Z              ; check minutes overflow
         GOTO    INC_DONE        ; minutes didn't overflow, so ripple ends
         CLRF    minute_5
-INC_HOURS:      
+INC_HOURS:
         INCF    hour            ; next hour
         MOVLW   d'12'
         SUBWF   hour, W
@@ -158,29 +219,29 @@ INC_HOURS:
         CLRF    hour            ; hours overflowed, so reset
 INC_DONE:
         RETURN
-        
+
 ;;;
 ;;; ---------------------------------------------------------------
-;;; 
-        
+;;;
+
 ;;;
 ;;; startup code executes on reset
-;;; 
-STARTUP:        
+;;;
+STARTUP:
         CLRF    PORTA           ; clear port A
-        CLRF	PORTB           ; clear port B
+        CLRF    PORTB           ; clear port B
         BSF     STATUS, RP0     ;SELECT REGISTER BANK 1
-        MOVLW	0x00            ; set portb to
-        MOVWF	TRISB           ;   all output
-        MOVLW	0x00            ; set porta to
-        MOVWF	TRISA           ;   all outout
+        MOVLW   0x00            ; set portb to
+        MOVWF   TRISB           ;   all output
+        MOVLW   0x00            ; set porta to
+        MOVWF   TRISA           ;   all outout
         MOVLW   b'11001000'     ; option
         MOVWF   OPTREG
         BCF     STATUS, RP0     ; select bank 0
         MOVLW   b'10100000'     ; enable TMR0 interrupt
         MOVWF   INTCON
 ;;;
-;;; set time to 0:0:0 (like VCR blinking 12:00)
+;;; set time to 0:0:0
 ;;;
         CLRF    tick
         CLRF    hour
@@ -188,15 +249,18 @@ STARTUP:
         CLRF    minute_5
         CLRF    second_1
         CLRF    second_5
-;;; 
+        ;; clear debounce flags
+        CLRF    minutes_button
+        CLRF    hours_button
+;;;
 ;;; the system is completely interrupt driven from the TMR0 overflow
 ;;;  interrupt, so this loop simply spins until interrupted
-;;; 
+;;;
 IDLE:   GOTO IDLE
 ;;;
 ;;;-----------------------------------------------------------------
 ;;;
-        
+
 ;;;
 ;;; return the value to output on PORTA for a specific "hand position" in W
 ;;; 0-11
@@ -232,5 +296,5 @@ HAND_PORTB:
         RETLW   0               ; 10 o'clock
         RETLW   0x80            ; 11 o'clock
         ;;;
-        ;;; 
-        END       
+        ;;;
+        END

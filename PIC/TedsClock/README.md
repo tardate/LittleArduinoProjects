@@ -1,6 +1,6 @@
 # #533 Ted's LED Clock
 
-Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A.
+Building a freeform 20th anniversary clone of [@tedyapo's](https://twitter.com/tedyapo) LED clock, driven with a PIC16F84A.
 
 ![Build](./assets/TedsClock_build.jpg?raw=true)
 
@@ -12,6 +12,8 @@ Here's a quick demo..
 
 I saw [@tedyapo's tweet](https://twitter.com/tedyapo/status/1228024969902379009) about the LED clock he made 20 years ago.
 It is controlled with a PIC16F84A and he shared the [original source code](https://gist.github.com/tedyapo/5a17257cfacd6c2447a9994b7962ac1a).
+
+[![teds_tweet](./assets/teds_tweet.png?raw=true)](https://twitter.com/tedyapo/status/1228024969902379009)
 
 Now if that isn't an invitation to attempt a replica of the project, I don't know what is!
 
@@ -61,8 +63,20 @@ The rest of the build was just done by eye on a lazy Saturday afternoon, with my
 
 ![Build](./assets/TedsClock_build.jpg?raw=true)
 
+### Updated Code
+
+Ted shared an
+[updated version of the code](https://gist.github.com/tedyapo/885f93b2383ac20441e33801e6f8812c),
+which improves the hour/minute adjust handling.
+It did work before but was really touchy. Now it is very easy to use.
+
+Local sources files updated; here's a quick demo:
+
+[![clip](https://img.youtube.com/vi/4HAepAYWl00/0.jpg)](https://www.youtube.com/watch?v=4HAepAYWl00)
+
 ## Credits and References
 
 * [@tedyapo's tweet about the project](https://twitter.com/tedyapo/status/1228024969902379009)
-* [original source code](https://gist.github.com/tedyapo/5a17257cfacd6c2447a9994b7962ac1a)
+* [original source code - clock_1.asm](https://gist.github.com/tedyapo/5a17257cfacd6c2447a9994b7962ac1a)
+* [original source code - clock_2.asm](https://gist.github.com/tedyapo/885f93b2383ac20441e33801e6f8812c)
 * [PIC16F84A datasheet and info](https://www.microchip.com/wwwproducts/en/PIC16F84A)
