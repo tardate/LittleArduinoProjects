@@ -11,3 +11,5 @@
 * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 * [electrodragon ESP8266 reference](http://www.electrodragon.com/w/ESP8266)
 * [ESP8266 Community Forum](http://www.esp8266.com/)
+* [A Beginner's Guide to the ESP8266](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html)
+* [ESP8266 Arduino Core](https://arduino-esp8266.readthedocs.io/en/2.6.3/index.html) - documentation
