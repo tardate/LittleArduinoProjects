@@ -1,6 +1,6 @@
-# 534 Little Electronics and Arduino Projects
+# 535 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ESP-12 Programming](./ESP8266/ESP12Programming) - The basics of programming an ESP-12 with the ESP8266 core for Arduino.
+> Latest addition:sparkles: [AC Line Detector](./Electronics101/Detectors/AcLineDetector) - Playing around with a simple AC line current detector.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

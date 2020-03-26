@@ -1,0 +1,7 @@
+{
+    "id": "#535",
+    "name": "AC Line Detector",
+    "description": "Playing around with a simple AC line current detector",
+    "categories": "power, detector",
+    "relative_path": "Electronics101/Detectors/AcLineDetector"
+}

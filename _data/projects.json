@@ -1551,6 +1551,15 @@
         ], 
         "title": "AudioEffects/Parrot"
     }, 
+    "/Electronics101/Detectors/AcLineDetector/": {
+        "summary": "Playing around with a simple AC line current detector", 
+        "id": 535, 
+        "tags": [
+            "power", 
+            "detector"
+        ], 
+        "title": "AC Line Detector"
+    }, 
     "/Electronics101/Power/CapacitiveDropper/": {
         "summary": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit", 
         "id": 472, 
