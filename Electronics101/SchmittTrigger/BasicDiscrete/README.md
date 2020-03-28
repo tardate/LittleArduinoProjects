@@ -1,6 +1,6 @@
-# #317 SchmittTrigger/BasicDiscrete
+# #317 Basic Discrete Schmitt Trigger
 
-Exploring the classic emitter-coupled Schmitt Trigger circuit design.
+Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components.
 
 ![Build](./assets/BasicDiscrete_build.jpg?raw=true)
 
@@ -73,6 +73,7 @@ Arranged and put on a protoboard for final tests:
 ![BasicDiscrete_protoboard_build](./assets/BasicDiscrete_protoboard_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Schmitt Trigger](https://en.wikipedia.org/wiki/Schmitt_trigger) - wikipedia
 * [Transistor Schmitt Trigger](http://howtomechatronics.com/how-it-works/electrical-engineering/transistor-schmitt-trigger/)
 * [Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - Second Edition p232

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14", 
+        "relative_path": "Electronics101/SchmittTrigger/PowerOkIndicator", 
+        "id": "#536", 
+        "categories": "Schmitt, CMOS/TTL", 
+        "name": "Power OK Indicator"
+    }, 
+    {
         "description": "Playing around with a simple AC line current detector", 
         "relative_path": "Electronics101/Detectors/AcLineDetector", 
         "id": "#535", 
@@ -1526,11 +1533,11 @@
         "name": "Bistable"
     }, 
     {
-        "description": "test the classic emitter-coupled Schmitt Trigger circuit design", 
+        "description": "Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components", 
         "relative_path": "Electronics101/SchmittTrigger/BasicDiscrete", 
         "id": "#317", 
         "categories": "Schmitt, BJT", 
-        "name": "SchmittTrigger/BasicDiscrete"
+        "name": "Discrete Schmitt Trigger"
     }, 
     {
         "description": "all about soldering and the Boldport Club QSOP breakout board", 

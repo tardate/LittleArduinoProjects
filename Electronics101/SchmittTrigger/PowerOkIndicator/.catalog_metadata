@@ -1,0 +1,7 @@
+{
+    "id": "#536",
+    "name": "Power OK Indicator",
+    "description": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14",
+    "categories": "Schmitt, CMOS/TTL",
+    "relative_path": "Electronics101/SchmittTrigger/PowerOkIndicator"
+}

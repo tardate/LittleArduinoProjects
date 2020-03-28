@@ -1,6 +1,6 @@
-# 535 Little Electronics and Arduino Projects
+# 536 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [AC Line Detector](./Electronics101/Detectors/AcLineDetector) - Playing around with a simple AC line current detector.
+> Latest addition:sparkles: [Power OK Indicator](./Electronics101/SchmittTrigger/PowerOkIndicator) - Testing a simple Schmitt Trigger power OK indicator using a 74HC14.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

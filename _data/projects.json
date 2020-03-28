@@ -1916,6 +1916,15 @@
         ], 
         "title": "AudioDSP/SuperCrunch"
     }, 
+    "/Electronics101/Oscillators/CommonEmitterHartley/": {
+        "summary": "build and test a BJT common-emitter Hartley oscillator", 
+        "id": 418, 
+        "tags": [
+            "BJT", 
+            "Oscillators"
+        ], 
+        "title": "CommonEmitterHartley"
+    }, 
     "/Girabot/": {
         "summary": "EE40LX Electronic Interfaces robot project", 
         "id": 50, 
@@ -3225,13 +3234,13 @@
         "title": "StayCreative"
     }, 
     "/Electronics101/SchmittTrigger/BasicDiscrete/": {
-        "summary": "test the classic emitter-coupled Schmitt Trigger circuit design", 
+        "summary": "Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components", 
         "id": 317, 
         "tags": [
             "Schmitt", 
             "BJT"
         ], 
-        "title": "SchmittTrigger/BasicDiscrete"
+        "title": "Discrete Schmitt Trigger"
     }, 
     "/playground/XYplotter/": {
         "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
@@ -4264,14 +4273,14 @@
         ], 
         "title": "PIC/GettingBlinky/UsingC"
     }, 
-    "/Electronics101/Oscillators/CommonEmitterHartley/": {
-        "summary": "build and test a BJT common-emitter Hartley oscillator", 
-        "id": 418, 
+    "/Electronics101/SchmittTrigger/PowerOkIndicator/": {
+        "summary": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14", 
+        "id": 536, 
         "tags": [
-            "BJT", 
-            "Oscillators"
+            "Schmitt", 
+            "CMOS/TTL"
         ], 
-        "title": "CommonEmitterHartley"
+        "title": "Power OK Indicator"
     }, 
     "/playground/LED7Segment/DirectDrive/": {
         "summary": "test a 7-segment common cathode display", 

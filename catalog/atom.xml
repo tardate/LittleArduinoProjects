@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-03-28T03:05:17Z</updated>
+  <updated>2020-03-28T11:39:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/SchmittTrigger/PowerOkIndicator/</id>
+    <link href="https://leap.tardate.com/Electronics101/SchmittTrigger/PowerOkIndicator/"/>
+    <updated>2020-03-28T11:35:48Z</updated>
+    <title>#536 Power OK Indicator</title>
+    <summary>Testing a simple Schmitt Trigger power OK indicator using a 74HC14</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/SchmittTrigger/PowerOkIndicator/assets/PowerOkIndicator_build.jpg</g:image_link>
+    <category term="Schmitt"/>
+    <category term="CMOS/TTL"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Detectors/AcLineDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/Detectors/AcLineDetector/"/>
@@ -2258,8 +2268,8 @@
     <id>https://leap.tardate.com/Electronics101/SchmittTrigger/BasicDiscrete/</id>
     <link href="https://leap.tardate.com/Electronics101/SchmittTrigger/BasicDiscrete/"/>
     <updated>2017-05-21T15:27:44Z</updated>
-    <title>#317 SchmittTrigger/BasicDiscrete</title>
-    <summary>test the classic emitter-coupled Schmitt Trigger circuit design</summary>
+    <title>#317 Discrete Schmitt Trigger</title>
+    <summary>Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SchmittTrigger/BasicDiscrete/assets/BasicDiscrete_build.jpg</g:image_link>
     <category term="Schmitt"/>
     <category term="BJT"/>
