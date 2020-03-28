@@ -1,5 +1,12 @@
 [
     {
+        "description": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14", 
+        "relative_path": "Electronics101/SchmittTrigger/SwitchDebouncer", 
+        "id": "#537", 
+        "categories": "Schmitt, CMOS/TTL", 
+        "name": "Schmitt Switch Debouncer"
+    }, 
+    {
         "description": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14", 
         "relative_path": "Electronics101/SchmittTrigger/PowerOkIndicator", 
         "id": "#536", 

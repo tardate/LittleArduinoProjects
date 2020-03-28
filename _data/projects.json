@@ -3643,6 +3643,15 @@
         ], 
         "title": "ESP8266/micropython/GettingStarted"
     }, 
+    "/Electronics101/SchmittTrigger/SwitchDebouncer/": {
+        "summary": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14", 
+        "id": 537, 
+        "tags": [
+            "Schmitt", 
+            "CMOS/TTL"
+        ], 
+        "title": "Schmitt Switch Debouncer"
+    }, 
     "/playground/Lcd5110/AdafruitHardwareSPI/": {
         "summary": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library", 
         "id": 365, 

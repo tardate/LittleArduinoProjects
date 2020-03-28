@@ -4,10 +4,6 @@ Testing a simple Schmitt Trigger power OK indicator using a 74HC14.
 
 ![Build](./assets/PowerOkIndicator_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 ## Notes
 
 A practical "power OK" indicator is a signal that ideally:

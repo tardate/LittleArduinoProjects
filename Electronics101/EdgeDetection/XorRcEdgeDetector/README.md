@@ -49,3 +49,4 @@ I'm using a 74LS86 Quad 2-Input Exclusive-OR Gate in this demo.
 * [74LS86 datasheet](https://www.futurlec.com/74LS/74LS86.shtml)
 * [Rising edge pulse detector from logic gates](https://electronics.stackexchange.com/questions/165552/rising-edge-pulse-detector-from-logic-gates)
 * [Dual edge detector](https://electronics.stackexchange.com/a/270908/52289)
+* [ARRL's Hands-On Radio Experiments Volume 3](https://www.goodreads.com/book/show/38899190-arrl-s-hands-on-radio-experiments-volume-3) Experiment #125 (covers Schmitt Trigger edge detection)

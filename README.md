@@ -1,6 +1,6 @@
-# 536 Little Electronics and Arduino Projects
+# 537 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Power OK Indicator](./Electronics101/SchmittTrigger/PowerOkIndicator) - Testing a simple Schmitt Trigger power OK indicator using a 74HC14.
+> Latest addition:sparkles: [Schmitt Switch Debouncer](./Electronics101/SchmittTrigger/SwitchDebouncer) -Testing a simple Schmitt Trigger debounce circuit using a 74HC14.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
