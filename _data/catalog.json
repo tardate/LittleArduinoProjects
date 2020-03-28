@@ -2899,17 +2899,17 @@
     }, 
     {
         "description": "test an OpAmp-based peak detector circuit", 
-        "relative_path": "Electronics101/PeakDetector", 
+        "relative_path": "Electronics101/Detectors/PeakDetector", 
         "id": "#121", 
         "categories": "OpAmp, RC", 
-        "name": "PeakDetector"
+        "name": "Peak Detector"
     }, 
     {
         "description": "test the basic diode-RC peak detector circuit", 
-        "relative_path": "Electronics101/SimplePeakDetector", 
+        "relative_path": "Electronics101/Detectors/SimplePeakDetector", 
         "id": "#120", 
         "categories": "RC", 
-        "name": "SimplePeakDetector"
+        "name": "Simple Peak Detector"
     }, 
     {
         "description": "testing a Rotary Encoder module controlling an LED 8x8 display", 

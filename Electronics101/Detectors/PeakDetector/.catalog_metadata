@@ -1,0 +1,7 @@
+{
+    "id": "#121",
+    "name": "Peak Detector",
+    "description": "test an OpAmp-based peak detector circuit",
+    "categories": "OpAmp, RC",
+    "relative_path": "Electronics101/Detectors/PeakDetector"
+}

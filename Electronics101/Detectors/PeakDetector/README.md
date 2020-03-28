@@ -1,14 +1,15 @@
-# #121 PeakDetector
+# #121 Peak Detector
 
 OpAmp-based peak detector
-
 
 ## Notes
 
 [w2aew](https://youtu.be/Fn5kHhNRsz0)
 has a nice, clear video on youtube explaining peak detector circuits.
 
-See [SimplePeakDetector](../SimplePeakDetector) for an example of the simplest diode-RC based peak detector.
+[![clip](https://img.youtube.com/vi/Fn5kHhNRsz0/0.jpg)](https://www.youtube.com/watch?v=Fn5kHhNRsz0)
+
+See [LEAP#120 Simple Peak Detector](../SimplePeakDetector) for an example of the simplest diode-RC based peak detector.
 
 This project adds an OpAmp (LM741) to eliminate the diode-forward voltage issue.
 The 741 is not the best choice for this since I'm running it with a single supply,
@@ -23,7 +24,7 @@ will be better served by a shorter time constant).
 
 Feedback from the output node to the inverting OpAmp input will force the OpAmp to eliminate the diode voltage drop in the output (as best it can).
 
-Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues)
+Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../../processing/PlotNValues)
 * upper trace is the output of the peak detector
 * lower trace is the signal input (a variable "triangle" wave in this test)
 
@@ -38,7 +39,6 @@ Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](
 ![The Build](./assets/PeakDetector_build.jpg?raw=true)
 
 ## Credits and References
-* [SimplePeakDetector](../SimplePeakDetector) - diode-RC based peak detector project
+
+* [LEAP#120 Simple Peak Detector](../SimplePeakDetector) - diode-RC based peak detector project
 * [#77: Op Amp Peak Detector Tutorial, with peak detector basics](https://youtu.be/Fn5kHhNRsz0) - w2aew's coverage of the basic circuit, and the improved OpAmp-based circuit
-
-

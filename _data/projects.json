@@ -47,15 +47,6 @@
         ], 
         "title": "LED7Segment/CombinationalLogicDriver"
     }, 
-    "/Electronics101/PeakDetector/": {
-        "summary": "test an OpAmp-based peak detector circuit", 
-        "id": 121, 
-        "tags": [
-            "OpAmp", 
-            "RC"
-        ], 
-        "title": "PeakDetector"
-    }, 
     "/Electronics101/MusicBoxKit/": {
         "summary": "build and test a Music Box kit, and run a demonstration under Arduino control", 
         "id": 226, 
@@ -331,6 +322,15 @@
             "Audio"
         ], 
         "title": "BoldportClub/stringy"
+    }, 
+    "/Electronics101/Detectors/PeakDetector/": {
+        "summary": "test an OpAmp-based peak detector circuit", 
+        "id": 121, 
+        "tags": [
+            "OpAmp", 
+            "RC"
+        ], 
+        "title": "Peak Detector"
     }, 
     "/playground/ATmegaSerialProgrammer/": {
         "summary": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP", 
@@ -1059,14 +1059,6 @@
             "OpAmp"
         ], 
         "title": "AudioDSP/Distortion"
-    }, 
-    "/Electronics101/SimplePeakDetector/": {
-        "summary": "test the basic diode-RC peak detector circuit", 
-        "id": 120, 
-        "tags": [
-            "RC"
-        ], 
-        "title": "SimplePeakDetector"
     }, 
     "/playground/TFT/Color128x128/": {
         "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
@@ -3147,6 +3139,14 @@
             "Oscillators"
         ], 
         "title": "Square Wave - LM324"
+    }, 
+    "/Electronics101/Detectors/SimplePeakDetector/": {
+        "summary": "test the basic diode-RC peak detector circuit", 
+        "id": 120, 
+        "tags": [
+            "RC"
+        ], 
+        "title": "Simple Peak Detector"
     }, 
     "/Equipment/Labrador/": {
         "summary": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software", 

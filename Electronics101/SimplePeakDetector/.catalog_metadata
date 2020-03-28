@@ -1,7 +1,0 @@
-{
-    "id": "#120", 
-    "name": "SimplePeakDetector", 
-    "description": "test the basic diode-RC peak detector circuit", 
-    "categories": "RC", 
-    "relative_path": "Electronics101/SimplePeakDetector"
-}
