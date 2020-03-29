@@ -1,6 +1,6 @@
-# 537 Little Electronics and Arduino Projects
+# 538 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Schmitt Switch Debouncer](./Electronics101/SchmittTrigger/SwitchDebouncer) -Testing a simple Schmitt Trigger debounce circuit using a 74HC14.
+> Latest addition:sparkles: [Single-cell Charge/Boost Board](./Electronics101/BatteryManagement/SingleCellChargeBoostBoard) - An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

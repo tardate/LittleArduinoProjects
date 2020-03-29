@@ -2384,6 +2384,15 @@
         ], 
         "title": "TM1638 7-Segment LED Driver"
     }, 
+    "/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/": {
+        "summary": "An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter", 
+        "id": 538, 
+        "tags": [
+            "Power", 
+            "BMS"
+        ], 
+        "title": "Single-cell Charge/Boost Board"
+    }, 
     "/Electronics101/555Timer/SimpleSiren/": {
         "summary": "classic timer circuit producing a two-tone oscillation", 
         "id": 45, 
@@ -3184,16 +3193,15 @@
         ], 
         "title": "BluePill 16x2 LCD"
     }, 
-    "/Kraft/GlowBall/": {
-        "summary": "building LED effects for a Glass Eye Studio Celestial Planet Weight", 
-        "id": 338, 
+    "/playground/LED7Segment/CD4026Drive/": {
+        "summary": "driving a 7-segment display with CD4026 Counter", 
+        "id": 196, 
         "tags": [
-            "LED", 
-            "Oscillators", 
-            "Power", 
-            "Craft"
+            "7-Segment", 
+            "CMOS", 
+            "Arduino"
         ], 
-        "title": "GlowBall"
+        "title": "LED7Segment/CD4026Drive"
     }, 
     "/Electronics101/CMOSInverterOscillator/": {
         "summary": "use a CD4096 to generate an oscillating waveform and plot the results", 
@@ -4685,15 +4693,16 @@
         ], 
         "title": "Simple USB Dummy Load"
     }, 
-    "/playground/LED7Segment/CD4026Drive/": {
-        "summary": "driving a 7-segment display with CD4026 Counter", 
-        "id": 196, 
+    "/Kraft/GlowBall/": {
+        "summary": "building LED effects for a Glass Eye Studio Celestial Planet Weight", 
+        "id": 338, 
         "tags": [
-            "7-Segment", 
-            "CMOS", 
-            "Arduino"
+            "LED", 
+            "Oscillators", 
+            "Power", 
+            "Craft"
         ], 
-        "title": "LED7Segment/CD4026Drive"
+        "title": "GlowBall"
     }, 
     "/Electronics101/DiodeLogic/AND/": {
         "summary": "test the basic diode-logic AND gate", 

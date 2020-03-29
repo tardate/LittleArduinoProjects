@@ -74,7 +74,7 @@ I picked up an 18650 charging & power pack kit from an aliexpress seller:
 
 The TP4056 charging module uses three main chips in addition to support passives and indicator LEDs:
 
-* [TP4056A](http://www.tpwic.com/index.php?m=content&c=index&a=show&catid=173&id=52) for constant-Ccurrent/constant-voltage charge control
+* [TP4056A](http://www.tpwic.com/index.php?m=content&c=index&a=show&catid=173&id=52) for constant-current/constant-voltage charge control
 * [DW01](https://www.digchip.com/datasheets/parts/datasheet/922/DW01.php) battery protection IC
 * [8205A Dual N-Channel MOSFET](https://www.datasheet4u.com/datasheet-pdf/RZCMicroelectronics/8205A/pdf.php?id=847696) provides load switching - apparently from [RZC Microelectronics](http://www.rzcsemi.com/) but not listed on their current web site. OR it could be [ML8205A](https://www.evelta.com/content/datasheets/130-ML8205A.pdf) by [Mei Lai 美莱创新](http://www.szmeilai.com/)
 
