@@ -72,6 +72,10 @@ Run mode is engaged by:
 * set GPIO0 to pull-up
 * toggle reset
 
+Compile and push the code with the Arduino IDE:
+
+![programming_upload](./assets/programming_upload.png?raw=true)
+
 ## Credits and References
 
 * [ESP-12E](https://www.aliexpress.com/item/32339917567.html) - aliexpress seller
