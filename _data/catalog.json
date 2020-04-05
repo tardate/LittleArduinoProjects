@@ -2839,7 +2839,7 @@
         "relative_path": "Electronics101/BidirectionalLevelShifterModule", 
         "id": "#134", 
         "categories": "FET", 
-        "name": "BidirectionalLevelShifterModule"
+        "name": "Bidirectional Level Shifter Module"
     }, 
     {
         "description": "test a basic bi-directional 5/3.3V level shifter circuit", 

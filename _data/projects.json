@@ -1307,7 +1307,7 @@
         "tags": [
             "FET"
         ], 
-        "title": "BidirectionalLevelShifterModule"
+        "title": "Bidirectional Level Shifter Module"
     }, 
     "/Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit/": {
         "summary": "build and test an MC34063-based boost converter", 

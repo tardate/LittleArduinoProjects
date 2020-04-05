@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-03-29T16:04:08Z</updated>
+  <updated>2020-04-05T09:11:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/</id>
     <link href="https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/"/>
-    <updated>2020-03-29T15:59:34Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#539 Metal Earth Lead Guitar</title>
     <summary>Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'</summary>
     <g:image_link>https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/assets/MetalEarthLeadGuitar_build.jpg</g:image_link>
@@ -25,7 +25,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/</id>
     <link href="https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/"/>
-    <updated>2020-03-29T10:07:56Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#538 Single-cell Charge/Boost Board</title>
     <summary>An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BatteryManagement/SingleCellChargeBoostBoard/assets/SingleCellChargeBoostBoard_build.jpg</g:image_link>
@@ -35,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SchmittTrigger/SwitchDebouncer/</id>
     <link href="https://leap.tardate.com/Electronics101/SchmittTrigger/SwitchDebouncer/"/>
-    <updated>2020-03-29T05:53:42Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#537 Schmitt Switch Debouncer</title>
     <summary>Testing a simple Schmitt Trigger debounce circuit using a 74HC14</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SchmittTrigger/SwitchDebouncer/assets/SwitchDebouncer_build.jpg</g:image_link>
@@ -45,7 +45,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SchmittTrigger/PowerOkIndicator/</id>
     <link href="https://leap.tardate.com/Electronics101/SchmittTrigger/PowerOkIndicator/"/>
-    <updated>2020-03-29T05:53:42Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#536 Power OK Indicator</title>
     <summary>Testing a simple Schmitt Trigger power OK indicator using a 74HC14</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SchmittTrigger/PowerOkIndicator/assets/PowerOkIndicator_build.jpg</g:image_link>
@@ -55,7 +55,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Detectors/AcLineDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/Detectors/AcLineDetector/"/>
-    <updated>2020-03-29T05:53:42Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#535 AC Line Detector</title>
     <summary>Playing around with a simple AC line current detector</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Detectors/AcLineDetector/assets/AcLineDetector_build.jpg</g:image_link>
@@ -4193,7 +4193,7 @@
     <id>https://leap.tardate.com/Electronics101/BidirectionalLevelShifterModule/</id>
     <link href="https://leap.tardate.com/Electronics101/BidirectionalLevelShifterModule/"/>
     <updated>2015-08-16T15:59:23Z</updated>
-    <title>#134 BidirectionalLevelShifterModule</title>
+    <title>#134 Bidirectional Level Shifter Module</title>
     <summary>test a bi-directional 5/3.3V level shifter module</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BidirectionalLevelShifterModule/assets/BidirectionalLevelShifterModule_build.jpg</g:image_link>
     <category term="FET"/>
@@ -4321,7 +4321,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Detectors/PeakDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/Detectors/PeakDetector/"/>
-    <updated>2020-03-29T05:53:42Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#121 Peak Detector</title>
     <summary>test an OpAmp-based peak detector circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Detectors/PeakDetector/assets/PeakDetector_build.jpg</g:image_link>
@@ -4331,7 +4331,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Detectors/SimplePeakDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/Detectors/SimplePeakDetector/"/>
-    <updated>2020-03-29T05:53:42Z</updated>
+    <updated>2020-03-31T15:20:15Z</updated>
     <title>#120 Simple Peak Detector</title>
     <summary>test the basic diode-RC peak detector circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Detectors/SimplePeakDetector/assets/SimplePeakDetector_build.jpg</g:image_link>
