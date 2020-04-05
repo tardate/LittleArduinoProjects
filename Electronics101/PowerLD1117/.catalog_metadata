@@ -1,7 +1,0 @@
-{
-    "id": "#152", 
-    "name": "PowerLD1117", 
-    "description": "test an LD1117 3.3V linear regulator", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/PowerLD1117"
-}

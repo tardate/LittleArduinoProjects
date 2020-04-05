@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-04-05T09:11:11Z</updated>
+  <updated>2020-04-05T09:41:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -4010,12 +4010,12 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/PowerLD1117/</id>
-    <link href="https://leap.tardate.com/Electronics101/PowerLD1117/"/>
+    <id>https://leap.tardate.com/Electronics101/Power/RegulatorLD1117/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/RegulatorLD1117/"/>
     <updated>2015-10-17T16:36:54Z</updated>
-    <title>#152 PowerLD1117</title>
+    <title>#152 LD1117 Regulator</title>
     <summary>test an LD1117 3.3V linear regulator</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PowerLD1117/assets/PowerLD1117_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/RegulatorLD1117/assets/RegulatorLD1117_build.jpg</g:image_link>
     <category term="Power"/>
   </entry>
   <entry>

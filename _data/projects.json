@@ -1143,14 +1143,13 @@
         ], 
         "title": "DigitalPots/M62429"
     }, 
-    "/playground/Lcd5110/JuliansU8glibDemo/": {
-        "summary": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library", 
-        "id": 149, 
+    "/Electronics101/Power/RegulatorLD1117/": {
+        "summary": "test an LD1117 3.3V linear regulator", 
+        "id": 152, 
         "tags": [
-            "LCD", 
-            "Arduino"
+            "Power"
         ], 
-        "title": "Lcd5110/JuliansU8glibDemo"
+        "title": "LD1117 Regulator"
     }, 
     "/Electronics101/CD4046/VCO/": {
         "summary": "audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC", 
@@ -1291,6 +1290,16 @@
             "Arduino"
         ], 
         "title": "EEPROM/AT24C02/BasicReadWrite"
+    }, 
+    "/Girabot/": {
+        "summary": "EE40LX Electronic Interfaces robot project", 
+        "id": 50, 
+        "tags": [
+            "Sensors", 
+            "OpAmp", 
+            "Arduino"
+        ], 
+        "title": "Girabot"
     }, 
     "/playground/RelayModuleTest/": {
         "summary": "quick test of a common relay board to switch a motor under Arduino control", 
@@ -1441,13 +1450,13 @@
         ], 
         "title": "Led4Digit7Segment/DoubleShiftWithFETs"
     }, 
-    "/Electronics101/PowerLD1117/": {
-        "summary": "test an LD1117 3.3V linear regulator", 
-        "id": 152, 
+    "/playground/R2RDAC/": {
+        "summary": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface", 
+        "id": 115, 
         "tags": [
-            "Power"
+            "Arduino"
         ], 
-        "title": "PowerLD1117"
+        "title": "R2RDAC"
     }, 
     "/playground/Lcd5110/AdafruitSoftwareSPI/": {
         "summary": "a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library", 
@@ -1925,15 +1934,14 @@
         ], 
         "title": "CommonEmitterHartley"
     }, 
-    "/Girabot/": {
-        "summary": "EE40LX Electronic Interfaces robot project", 
-        "id": 50, 
+    "/playground/Lcd5110/JuliansU8glibDemo/": {
+        "summary": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library", 
+        "id": 149, 
         "tags": [
-            "Sensors", 
-            "OpAmp", 
+            "LCD", 
             "Arduino"
         ], 
-        "title": "Girabot"
+        "title": "Lcd5110/JuliansU8glibDemo"
     }, 
     "/Electronics101/555Timer/SimpleChime/": {
         "summary": "play a sound for a fixed duration when a button is pressed", 
@@ -1952,14 +1960,6 @@
             "555 Timer"
         ], 
         "title": "DigitaSwitch/TS3A5018"
-    }, 
-    "/playground/R2RDAC/": {
-        "summary": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface", 
-        "id": 115, 
-        "tags": [
-            "Arduino"
-        ], 
-        "title": "R2RDAC"
     }, 
     "/Electronics101/SubtractionLoopCounterKit/": {
         "summary": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic", 

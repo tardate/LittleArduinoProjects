@@ -2710,10 +2710,10 @@
     }, 
     {
         "description": "test an LD1117 3.3V linear regulator", 
-        "relative_path": "Electronics101/PowerLD1117", 
+        "relative_path": "Electronics101/Power/RegulatorLD1117", 
         "id": "#152", 
         "categories": "Power", 
-        "name": "PowerLD1117"
+        "name": "LD1117 Regulator"
     }, 
     {
         "description": "test a comparator circuit with the ML741 discrete component opamp", 
