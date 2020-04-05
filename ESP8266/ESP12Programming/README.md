@@ -19,7 +19,9 @@ These notes cover the basics of programming the devices with ESP8266 core for Ar
 ### ESP-12 Features
 
 * 20 active pins
-  * GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino. GPIO16 has a built-in pull-down resistor.
+  * GPIO 0-15 all have a built-in pull-up resistor, just like in an Arduino.
+  * GPIO16 has a built-in pull-down resistor.
+  * GPIO2 has a built-in LED (may be on GPIO1 on other boards)
 * 4Mib flash
 * Requires 3.3V supply
 * PCB trace antenna
