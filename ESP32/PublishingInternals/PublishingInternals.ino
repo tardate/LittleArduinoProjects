@@ -82,7 +82,7 @@ function drawChart() {\
   sensor_chart.draw(sensor_data, sensor_options);\
   var sampler = function() {\
     $.ajax({\
-      url: 'http://192.168.1.181/stats.json',\
+      url: '/stats.json',\
       success: function( data ) {\
         sample = sample + 1;\
         $('#uptime').html( new Date(data.uptime).toISOString().substr(11, 8) );\

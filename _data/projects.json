@@ -19,6 +19,14 @@
         ], 
         "title": "El Jarabe Tapat\u00edo"
     }, 
+    "/ESP8266/YouTubeFootSwitch/": {
+        "summary": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)", 
+        "id": 545, 
+        "tags": [
+            "ESP8266"
+        ], 
+        "title": "Wireless YouTube Foot Switch"
+    }, 
     "/Electronics101/NORGateOscillator/": {
         "summary": "test a low-speed square wave oscillator using NOR gates", 
         "id": 114, 

@@ -1,0 +1,7 @@
+{
+    "id": "#545",
+    "name": "Wireless YouTube Foot Switch",
+    "description": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)",
+    "categories": "ESP8266",
+    "relative_path": "ESP8266/YouTubeFootSwitch"
+}

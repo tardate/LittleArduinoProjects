@@ -1,5 +1,12 @@
 [
     {
+        "description": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)", 
+        "relative_path": "ESP8266/YouTubeFootSwitch", 
+        "id": "#545", 
+        "categories": "ESP8266", 
+        "name": "Wireless YouTube Foot Switch"
+    }, 
+    {
         "description": "Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.", 
         "relative_path": "Electronics101/BatteryManagement/ShengYang18650BatteryShield", 
         "id": "#544", 

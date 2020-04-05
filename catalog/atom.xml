@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-04-12T15:28:33Z</updated>
+  <updated>2020-04-25T06:10:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/ESP8266/YouTubeFootSwitch/</id>
+    <link href="https://leap.tardate.com/ESP8266/YouTubeFootSwitch/"/>
+    <updated>2020-04-25T04:54:44Z</updated>
+    <title>#545 Wireless YouTube Foot Switch</title>
+    <summary>An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)</summary>
+    <g:image_link>https://leap.tardate.com/ESP8266/YouTubeFootSwitch/assets/YouTubeFootSwitch_build.jpg</g:image_link>
+    <category term="ESP8266"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/BatteryManagement/ShengYang18650BatteryShield/</id>
     <link href="https://leap.tardate.com/Electronics101/BatteryManagement/ShengYang18650BatteryShield/"/>
-    <updated>2020-04-12T14:43:16Z</updated>
+    <updated>2020-04-12T15:30:17Z</updated>
     <title>#544 ShengYang 18650 Battery Shield</title>
     <summary>Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BatteryManagement/ShengYang18650BatteryShield/assets/ShengYang18650BatteryShield_build.jpg</g:image_link>
@@ -24,7 +33,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4046/RampGenerator/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4046/RampGenerator/"/>
-    <updated>2020-04-12T14:58:39Z</updated>
+    <updated>2020-04-12T15:30:17Z</updated>
     <title>#543 PLL Ramp Generator</title>
     <summary>A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4046/RampGenerator/assets/RampGenerator_build.jpg</g:image_link>
@@ -34,7 +43,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/InputDevices/FootSwitch/</id>
     <link href="https://leap.tardate.com/Electronics101/InputDevices/FootSwitch/"/>
-    <updated>2020-04-12T14:57:32Z</updated>
+    <updated>2020-04-12T15:30:17Z</updated>
     <title>#542 DIY Foot Switch</title>
     <summary>A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/InputDevices/FootSwitch/assets/FootSwitch_build.jpg</g:image_link>

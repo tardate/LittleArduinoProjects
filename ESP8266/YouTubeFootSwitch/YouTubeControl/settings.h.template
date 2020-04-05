@@ -1,0 +1,12 @@
+/*
+
+  Private settings.
+
+  To compile, first copy settings.h.template to settings.h and fill in the required configuration.
+
+  NB: settings.h is *not* added to git version control, while settings.h.template is.
+
+ */
+
+const char *ssid = "YourSSID";
+const char *password = "yourPassword";
