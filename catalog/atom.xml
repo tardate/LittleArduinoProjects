@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-04-05T09:41:33Z</updated>
+  <updated>2020-04-06T16:18:19Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/</id>
+    <link href="https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/"/>
+    <updated>2020-04-06T12:57:37Z</updated>
+    <title>#540 ESP-12 DIY Dev Board</title>
+    <summary>Building a programming baord for the ESP8266 07/12 variants</summary>
+    <g:image_link>https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/assets/DIYDevBoard_build.jpg</g:image_link>
+    <category term="ESP8266"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/</id>
     <link href="https://leap.tardate.com/Kraft/MetalEarthLeadGuitar/"/>
@@ -63,12 +72,12 @@
     <category term="detector"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/ESP8266/ESP12Programming/</id>
-    <link href="https://leap.tardate.com/ESP8266/ESP12Programming/"/>
+    <id>https://leap.tardate.com/ESP8266/ESP12/Programming/</id>
+    <link href="https://leap.tardate.com/ESP8266/ESP12/Programming/"/>
     <updated>2020-03-26T12:11:26Z</updated>
     <title>#534 ESP-12 Programming</title>
     <summary>The basics of programming an ESP-12 with the ESP8266 core for Arduino</summary>
-    <g:image_link>https://leap.tardate.com/ESP8266/ESP12Programming/assets/ESP12Programming_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ESP8266/ESP12/Programming/assets/Programming_build.jpg</g:image_link>
     <category term="ESP8266"/>
   </entry>
   <entry>
@@ -4012,7 +4021,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/RegulatorLD1117/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/RegulatorLD1117/"/>
-    <updated>2015-10-17T16:36:54Z</updated>
+    <updated>2020-04-05T11:32:33Z</updated>
     <title>#152 LD1117 Regulator</title>
     <summary>test an LD1117 3.3V linear regulator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/RegulatorLD1117/assets/RegulatorLD1117_build.jpg</g:image_link>

@@ -2401,6 +2401,14 @@
         ], 
         "title": "SimpleSiren"
     }, 
+    "/ESP8266/ESP12/Programming/": {
+        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
+        "id": 534, 
+        "tags": [
+            "ESP8266"
+        ], 
+        "title": "ESP-12 Programming"
+    }, 
     "/Electronics101/SwitchPFET/": {
         "summary": "small-signal p-channel MOSFET switch with turn-on delay", 
         "id": 106, 
@@ -2851,6 +2859,14 @@
             "Power"
         ], 
         "title": "LEDDimmer/CurrentRegulator"
+    }, 
+    "/ESP8266/ESP12/DIYDevBoard/": {
+        "summary": "Building a programming baord for the ESP8266 07/12 variants", 
+        "id": 540, 
+        "tags": [
+            "ESP8266"
+        ], 
+        "title": "ESP-12 DIY Dev Board"
     }, 
     "/Electronics101/nRF24Breakout/": {
         "summary": "a simple PCB breadboard adapter for 8-pin nRF24 modules", 
@@ -4435,14 +4451,6 @@
             "Soldering"
         ], 
         "title": "BoldportClub/QSOPBreakout"
-    }, 
-    "/ESP8266/ESP12Programming/": {
-        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
-        "id": 534, 
-        "tags": [
-            "ESP8266"
-        ], 
-        "title": "ESP-12 Programming"
     }, 
     "/Electronics101/555Timer/InvertingChargePump/": {
         "summary": "test an inverting charge pump circuit based on a 555 timer", 

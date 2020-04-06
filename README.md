@@ -1,6 +1,6 @@
-# 539 Little Electronics and Arduino Projects
+# 540 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Metal Earth Lead Guitar](./Kraft/MetalEarthLeadGuitar) - Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'.
+> Latest addition:sparkles: [ESP-12 DIY Dev Board](./ESP8266/ESP12/DIYDevBoard) - Building a programming baord for the ESP8266 07/12 variants.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

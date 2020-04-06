@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building a programming baord for the ESP8266 07/12 variants", 
+        "relative_path": "ESP8266/ESP12/DIYDevBoard", 
+        "id": "#540", 
+        "categories": "ESP8266", 
+        "name": "ESP-12 DIY Dev Board"
+    }, 
+    {
         "description": "Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'", 
         "relative_path": "Kraft/MetalEarthLeadGuitar", 
         "id": "#539", 
@@ -36,7 +43,7 @@
     }, 
     {
         "description": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
-        "relative_path": "ESP8266/ESP12Programming", 
+        "relative_path": "ESP8266/ESP12/Programming", 
         "id": "#534", 
         "categories": "ESP8266", 
         "name": "ESP-12 Programming"

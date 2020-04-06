@@ -2,7 +2,7 @@
 
 The basics of programming an ESP-12 with the ESP8266 core for Arduino.
 
-![Build](./assets/ESP12Programming_build.jpg?raw=true)
+![Build](./assets/Programming_build.jpg?raw=true)
 
 Here's a quick demo..
 
@@ -35,9 +35,9 @@ I'm using a breadboard layout with:
 * CH340 USB to TTL adapter
 * level-shifter for 5V signals to/from the USB to TTL adapter
 
-![Breadboard](./assets/ESP12Programming_bb.jpg?raw=true)
+![Breadboard](./assets/Programming_bb.jpg?raw=true)
 
-![Schematic](./assets/ESP12Programming_schematic.jpg?raw=true)
+![Schematic](./assets/Programming_schematic.jpg?raw=true)
 
 ## Demo Sketch
 

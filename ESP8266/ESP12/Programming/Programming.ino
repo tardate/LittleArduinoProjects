@@ -1,9 +1,9 @@
 /*
 
-  ESP12Programming
+  ESP12/Programming
   The basics of programming an ESP-12 with the ESP8266 core for Arduino
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP8266/ESP12Programming
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP8266/ESP12/Programming
 
  */
 
