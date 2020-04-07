@@ -2,7 +2,7 @@
 
 Building a programming baord for the ESP8266 07/12 variants.
 
-![Build](./assets/ProgrammingBoard_build.jpg?raw=true)
+![Build](./assets/DIYDevBoard_build.jpg?raw=true)
 
 ## Notes
 
@@ -21,9 +21,9 @@ The circuit implements the [recommended](https://tttapa.github.io/ESP8266/Chap02
 circuit. Note that some of the pull-up resistors are actually on the
 [adapter board](https://www.aliexpress.com/item/32649040259.html) - these are marked as "built-in" in the schematic.
 
-![Breadboard](./assets/ProgrammingBoard_bb.jpg?raw=true)
+![Breadboard](./assets/DIYDevBoard_bb.jpg?raw=true)
 
-![Schematic](./assets/ProgrammingBoard_schematic.jpg?raw=true)
+![Schematic](./assets/DIYDevBoard_schematic.jpg?raw=true)
 
 ## Protoboard Construction
 
