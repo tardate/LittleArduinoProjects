@@ -1,5 +1,12 @@
 [
     {
+        "description": "an unusual multivibrator using a programmable reference with clean square wave output", 
+        "relative_path": "Electronics101/Oscillators/TL431Multivibrator", 
+        "id": "#541", 
+        "categories": "Oscillators", 
+        "name": "TL431 Multivibrator"
+    }, 
+    {
         "description": "Building a programming baord for the ESP8266 07/12 variants", 
         "relative_path": "ESP8266/ESP12/DIYDevBoard", 
         "id": "#540", 

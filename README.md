@@ -1,6 +1,6 @@
-# 540 Little Electronics and Arduino Projects
+# 541 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ESP-12 DIY Dev Board](./ESP8266/ESP12/DIYDevBoard) - Building a programming baord for the ESP8266 07/12 variants.
+> Latest addition:sparkles: [TL431 Multivibrator](./Electronics101/Oscillators/TL431Multivibrator) - an unusual multivibrator using a programmable reference with clean square wave output.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

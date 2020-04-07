@@ -3578,14 +3578,15 @@
         ], 
         "title": "RFSwitch"
     }, 
-    "/Electronics101/Connectors/RF/": {
-        "summary": "notes on miscellaneous RF connectors", 
-        "id": 347, 
+    "/playground/LED7Segment/CD4026BucketBrigade/": {
+        "summary": "a CD4026 bucket-brigade for driving multiple 7-segment displays", 
+        "id": 199, 
         "tags": [
-            "Radio", 
-            "Connectors"
+            "7-Segment", 
+            "CMOS", 
+            "Arduino"
         ], 
-        "title": "RF Connectors"
+        "title": "LED7Segment/CD4026BucketBrigade"
     }, 
     "/PIC/PIC16F84ABlinky/": {
         "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)", 
@@ -3943,15 +3944,14 @@
         ], 
         "title": "Decade Programmable Resistor"
     }, 
-    "/playground/LED7Segment/CD4026BucketBrigade/": {
-        "summary": "a CD4026 bucket-brigade for driving multiple 7-segment displays", 
-        "id": 199, 
+    "/Electronics101/Connectors/RF/": {
+        "summary": "notes on miscellaneous RF connectors", 
+        "id": 347, 
         "tags": [
-            "7-Segment", 
-            "CMOS", 
-            "Arduino"
+            "Radio", 
+            "Connectors"
         ], 
-        "title": "LED7Segment/CD4026BucketBrigade"
+        "title": "RF Connectors"
     }, 
     "/Electronics101/LM324/SplitterBuffer/": {
         "summary": "demonstrate load-independance of an LM324 buffer and signal splitter", 
@@ -4161,6 +4161,14 @@
             "LED"
         ], 
         "title": "KnightRider"
+    }, 
+    "/Electronics101/Oscillators/TL431Multivibrator/": {
+        "summary": "an unusual multivibrator using a programmable reference with clean square wave output", 
+        "id": 541, 
+        "tags": [
+            "Oscillators"
+        ], 
+        "title": "TL431 Multivibrator"
     }, 
     "/Kinetics/BEAM/": {
         "summary": "a quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) field", 

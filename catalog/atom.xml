@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-04-06T16:18:19Z</updated>
+  <updated>2020-04-07T16:20:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/TL431Multivibrator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/TL431Multivibrator/"/>
+    <updated>2020-04-07T16:17:35Z</updated>
+    <title>#541 TL431 Multivibrator</title>
+    <summary>an unusual multivibrator using a programmable reference with clean square wave output</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/TL431Multivibrator/assets/TL431Multivibrator_build.jpg</g:image_link>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/</id>
     <link href="https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/"/>
-    <updated>2020-04-06T12:57:37Z</updated>
+    <updated>2020-04-06T16:19:47Z</updated>
     <title>#540 ESP-12 DIY Dev Board</title>
     <summary>Building a programming baord for the ESP8266 07/12 variants</summary>
     <g:image_link>https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/assets/DIYDevBoard_build.jpg</g:image_link>
@@ -74,7 +83,7 @@
   <entry>
     <id>https://leap.tardate.com/ESP8266/ESP12/Programming/</id>
     <link href="https://leap.tardate.com/ESP8266/ESP12/Programming/"/>
-    <updated>2020-03-26T12:11:26Z</updated>
+    <updated>2020-04-06T16:19:47Z</updated>
     <title>#534 ESP-12 Programming</title>
     <summary>The basics of programming an ESP-12 with the ESP8266 core for Arduino</summary>
     <g:image_link>https://leap.tardate.com/ESP8266/ESP12/Programming/assets/Programming_build.jpg</g:image_link>

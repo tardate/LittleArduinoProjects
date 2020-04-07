@@ -1,0 +1,7 @@
+{
+    "id": "#541",
+    "name": "TL431 Multivibrator",
+    "description": "an unusual multivibrator using a programmable reference with clean square wave output",
+    "categories": "Oscillators",
+    "relative_path": "Electronics101/Oscillators/TL431Multivibrator"
+}
