@@ -26,7 +26,7 @@ There are only two external interrupt pins on the ATmega168/328 (ie, in the Ardu
 
 To get more external interrupts, you could instead use a Mega2560 for example, which supports external interrupts on digital GPIO pins 2, 3, 18, 19, 20, 21.
 
-Another approach (the one I'll use here) is to use pin change interrupts that be enabled
+Another approach (the one I'll use here) is to use pin change interrupts that can be enabled
 on any or all 20 of the pins of an ATmega168/328-based Arduinos.
 The [EnableInterrupt library](https://github.com/GreyGnome/EnableInterrupt) is a very easy way to do this.
 
@@ -42,8 +42,6 @@ Here's an example of the console output, with me pressing all the switches from 
 
 ![example_console_output](./assets/example_console_output.png?raw=true)
 
-
-
 ## Construction
 
 ![Breadboard](./assets/SwitchInterrupts_bb.jpg?raw=true)
@@ -53,6 +51,7 @@ Here's an example of the console output, with me pressing all the switches from 
 ![Build](./assets/SwitchInterrupts_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#303 KeyboardMatrixModule](../)
 * [arduinoBoardMega2560](https://www.arduino.cc/en/Main/arduinoBoardMega2560)
 * [Arduino Interrupts](http://playground.arduino.cc/Code/Interrupts)

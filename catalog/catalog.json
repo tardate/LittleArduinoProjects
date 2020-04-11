@@ -1,5 +1,12 @@
 [
     {
+        "description": "A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller", 
+        "relative_path": "Electronics101/InputDevices/FootSwitch", 
+        "id": "#542", 
+        "categories": "Human Input, LED", 
+        "name": "DIY Foot Switch"
+    }, 
+    {
         "description": "an unusual multivibrator using a programmable reference with clean square wave output", 
         "relative_path": "Electronics101/Oscillators/TL431Multivibrator", 
         "id": "#541", 

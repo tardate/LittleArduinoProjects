@@ -1413,6 +1413,15 @@
         ], 
         "title": "Saike909D"
     }, 
+    "/Electronics101/InputDevices/FootSwitch/": {
+        "summary": "A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller", 
+        "id": 542, 
+        "tags": [
+            "Human Input", 
+            "LED"
+        ], 
+        "title": "DIY Foot Switch"
+    }, 
     "/playground/GccToolchain/": {
         "summary": "programming an Arduino with C and a command line", 
         "id": 220, 

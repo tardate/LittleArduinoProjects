@@ -1,6 +1,6 @@
-# 541 Little Electronics and Arduino Projects
+# 542 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [TL431 Multivibrator](./Electronics101/Oscillators/TL431Multivibrator) - an unusual multivibrator using a programmable reference with clean square wave output.
+> Latest addition:sparkles: [DIY Foot Switch](./Electronics101/InputDevices/FootSwitch) - A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
