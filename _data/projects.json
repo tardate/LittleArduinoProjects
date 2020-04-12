@@ -3962,6 +3962,15 @@
         ], 
         "title": "RF Connectors"
     }, 
+    "/Electronics101/CD4046/RampGenerator/": {
+        "summary": "A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.", 
+        "id": 543, 
+        "tags": [
+            "CD4046", 
+            "Oscillators"
+        ], 
+        "title": "PLL Ramp Generator"
+    }, 
     "/Electronics101/LM324/SplitterBuffer/": {
         "summary": "demonstrate load-independance of an LM324 buffer and signal splitter", 
         "id": 160, 

@@ -1,6 +1,6 @@
-# 542 Little Electronics and Arduino Projects
+# 543 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [DIY Foot Switch](./Electronics101/InputDevices/FootSwitch) - A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller.
+> Latest addition:sparkles: [PLL Ramp Generator](./Electronics101/CD4046/RampGenerator) - A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

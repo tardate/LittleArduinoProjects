@@ -1,5 +1,12 @@
 [
     {
+        "description": "A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.", 
+        "relative_path": "Electronics101/CD4046/RampGenerator", 
+        "id": "#543", 
+        "categories": "CD4046, Oscillators", 
+        "name": "PLL Ramp Generator"
+    }, 
+    {
         "description": "A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller", 
         "relative_path": "Electronics101/InputDevices/FootSwitch", 
         "id": "#542", 

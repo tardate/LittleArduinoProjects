@@ -92,6 +92,7 @@ Measured maximum frequency:
 ![Build](./assets/VCO_build.jpg?raw=true)
 
 ## Credits and References
+
 * [CD4046 Datasheet](https://www.futurlec.com/4000Series/CD4046.shtml)
 * CMOS Clock Circuits - Ray Marston. Radio-Electronics, November 1984.
 * [Practical Oscillator Handbook](https://www.goodreads.com/book/show/3365243-practical-oscillator-handbook) - includes a page on CD4046 VCO
