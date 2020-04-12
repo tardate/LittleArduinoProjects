@@ -73,6 +73,7 @@ Protoboard Layout:
 
 
 ## Credits and References
+
 * [Current Controlled LED Dimmer](http://www.electroschematics.com/9256/led-dimmer-control/) - Jim Keith, electroschematics
 * [5M 60LED/M Led Strip Light 3014 SMD Fiexble Light Non-waterproof Indoor/Outdoor Lighting Holiday Decoration Brighter Than 3528](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html) - seller on aliexpress
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)

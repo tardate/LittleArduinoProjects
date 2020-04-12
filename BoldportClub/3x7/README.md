@@ -98,5 +98,6 @@ or paint their sides with an opaque coating to ensure all illumination only radi
 ![Build](./assets/3x7_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Boldport Club 3x7](https://www.boldport.com/products/3x7) - product page
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap425-look-inside-a-7-segment-with-the-boldport-3x7.html)

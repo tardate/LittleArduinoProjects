@@ -105,6 +105,7 @@ It's some enjoyable Sunday afternoon soldering therapy. Throw on your favourite 
 
 
 ## Credits and References
+
 * [5V 800mA Switching Regulated Power Supply Module DIY Kit AC-DC 220V to 5V Power Converter Electronic Circuit Kit Plug DIY Kit](https://www.aliexpress.com/item/Power-Plug-DIY-Kit-5V-800mA-Regulated-Power-Supply-AC-DC-220V-to-5V-Power-Converter/32582894778.html) - aliexpress seller site
 * [MJE13003 datasheet](https://www.futurlec.com/Transistors/MJE13003.shtml) - NPN Silicon Power Transistor
 * [TL431 datasheet](https://www.futurlec.com/Linear/TL431CLP.shtml) - Programmable Precision Reference

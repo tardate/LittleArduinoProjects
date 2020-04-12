@@ -25,5 +25,6 @@ In the standard configuration, all LEDs light up together, but brightness is pro
 #### Prototype Build
 ![Prototype Build](./assets/MeLEDy_prototype_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)

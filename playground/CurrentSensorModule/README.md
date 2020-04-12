@@ -84,6 +84,7 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 ![The Build](./assets/CurrentSensorModule_build.jpg?raw=true)
 
 ## Credits and References
+
 * [ACS712 current sensor module](https://www.aliexpress.com/item/NEW-5A-Hall-Current-Sensor-Module-ACS712-model-5A-In-stock-high-quality/1778579838.html) from a seller on aliexpress
 * [ACS712 datasheet](https://www.sparkfun.com/datasheets/BreakoutBoards/0712.pdf)
 * [ACS712 Current Sensor Module](../../FritzingParts/ACS712CurrentSensorModule) fritzing part

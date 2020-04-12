@@ -105,6 +105,7 @@ At maximum trim:
 ![Oscillator_build_solo](./assets/Oscillator_build_solo.jpg?raw=true)
 
 ## Credits and References
+
 * [CD4070 Datasheet](https://www.futurlec.com/4000Series/CD4070.shtml)
 * [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml)
 * [Square wave generator with CD4070](http://www.next.gr/circuits/Square-wave-generator-with-CD4070-l23572.html)

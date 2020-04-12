@@ -62,6 +62,7 @@ with perhaps R3 adjusted to limit current to the LED as required.
 ![The Build](./assets/OpAmpTimer_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [talkingelectronics timer circuit](http://www.talkingelectronics.com/projects/OP-AMP/OP-AMP-2.html) - a similar circuit that inspired this build (with a few modifications)
 

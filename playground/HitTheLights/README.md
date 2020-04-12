@@ -43,6 +43,7 @@ There is no debouncing implemented. Not that it matters much wiht this circuit, 
 ![The Build](./assets/HitTheLights_build.jpg?raw=true)
 
 ## Credits and References
+
 * See the [original question](http://electronics.stackexchange.com/questions/93269/arduino-uno-r3-plus-digital-pins-overused) on EE.SE
 * Arduino [LiquidCrystal](http://arduino.cc/en/Reference/LiquidCrystal) library reference
 * [AttachInterrupt](http://arduino.cc/en/Reference/AttachInterrupt) function reference

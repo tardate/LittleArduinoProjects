@@ -95,6 +95,7 @@ Side view..
 ![cordwood-three_build-side](./assets/cordwood-three_build-side.jpg?raw=true)
 
 ## Credits and References
+
 * [Cordwood Puzzle Three](https://www.boldport.com/products/cordwood-puzzle-three) - Boldport Product Page
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap411-cordwood-iii-archway-trigger-mod.html)

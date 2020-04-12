@@ -23,6 +23,7 @@ and is similar to [the one built by w2aew](https://youtu.be/blalAktxFoI) - excep
 ![The Build](./assets/CrystalTester_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Colpitts Oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
 * [G3PTO Xtal Tester](http://www.qsl.net/g3pto/xtest.html) - the original circuit reproduced here
 * [Single transistor crystal oscillator circuit](http://www.radio-electronics.com/info/circuits/transistor_crystal_oscillator/crystal_oscillator.php) - similar circuit, but with a single transistor

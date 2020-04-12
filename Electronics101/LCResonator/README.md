@@ -147,6 +147,7 @@ And now on a chopped-up PCB:
 ![LCResonator_build](./assets/LCResonator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LC circuit](https://en.wikipedia.org/wiki/LC_circuit) - wikipedia
 * [Measuring coil inductance and IF transformer resonant frequency](https://www.youtube.com/watch?v=Ff5xOENID7w) - w2aew
 * [The Coil Tester](http://archive.org/stream/73-magazine-1990-09/09_September_1990#page/n49/mode/1up) - article from 73 Amateur Radio - September 1990

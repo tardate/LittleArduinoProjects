@@ -203,6 +203,7 @@ Some console clips...
 ![The Build](./assets/GettingStarted_build.jpg?raw=true)
 
 ## Credits and References
+
 * [official site](http://www.micropython.org/)
 * [MicroPython ESP8266 docs](http://docs.micropython.org/en/latest/esp8266/)
 * [MicroPython ESP8266 downloads](http://micropython.org/download#esp8266)

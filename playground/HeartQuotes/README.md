@@ -62,6 +62,7 @@ This gets parsed down into just the actual "quote" part:
 * 16x2 LCD (I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
 
 
-## Credits and references
+## Credits and References
+
 * HTTP GET based on the Arduino WebClient example http://arduino.cc/en/Tutorial/WebClient
 * LCD output based on the Arduino LiquidCrystal examples http://arduino.cc/en/Tutorial/LiquidCrystal

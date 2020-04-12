@@ -65,6 +65,7 @@ Measuring the 1.1V reference:
 ![Build](./assets/VoltageSelfMeasurement_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Playing with: the Arduino Secret Voltmeter](https://www.youtube.com/watch?v=G6dvDgCOyqk) - Julian Ilett
 * [SecretVoltmeter](https://code.google.com/archive/p/tinkerit/wikis/SecretVoltmeter.wiki)
 * [AVR datasheet](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)

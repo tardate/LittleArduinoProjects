@@ -62,6 +62,7 @@ Pull-up resistors may need to be provided if they are not already present on the
 ![Build](./assets/I2CScanner_build.jpg?raw=true)
 
 ## Credits and References
+
 * [i2c_scanner](http://playground.arduino.cc/Main/I2cScanner) - Frode Grimstad Bang
 * [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) - wikipedia
 * Standard [Wire Library](https://www.arduino.cc/en/Reference/Wire)

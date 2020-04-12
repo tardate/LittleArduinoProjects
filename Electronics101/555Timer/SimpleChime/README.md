@@ -26,7 +26,8 @@ can be replaced with a resistor if a fixed frequency is acceptable.
 
 ![Breadboard Build](./assets/SimpleChime_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Door bell circuit using NE555](http://www.circuitstoday.com/door-bell-circuit-using-ne555) - original circuit from Circuitstoday

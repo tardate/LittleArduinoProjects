@@ -20,6 +20,7 @@ The part is packaged in [TheCuttle.fzpz](./TheCuttle.fzpz) and the source SVG fi
 See [cuttle_blinky_example](./cuttle_blinky_example) for an example sketch - simple D13 blinky using the Cuttle
 
 ## Credits and References
+
 * [TheCuttle](http://www.boldport.club/shop/product/390973459) - in the Boldport shop
 * [TheCuttle](http://www.boldport.com/tc/) - project page
 * [LEAP#266 TheCuttle](../../BoldportClub/TheCuttle/) - my build of the Boldport Cuttle

@@ -24,7 +24,7 @@ Thus audio voltage controls the frequency of the oscillator i.e. we have FM!
 
 ### Component Selection and Results
 
-The inductor I finally selected is a hand-wound aircoil made form 0.55mm copper wire.
+The inductor I finally selected is a hand-wound aircoil made from 0.55mm copper wire.
 Coil dimensions: 10mm long, 3.5mm diameter, 8 turns. Measured inductance: 0.11µH.
 Note: larger coils with higher resistance but similar inductance don't work so well (from my testing).
 

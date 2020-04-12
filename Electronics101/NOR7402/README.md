@@ -47,5 +47,6 @@ The HIGH output voltage measures at 3.42V (a tad over typical value according to
 
 
 ## Credits and References
+
 * [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
 * [7400 series](http://en.wikipedia.org/wiki/7400_series)

@@ -59,7 +59,8 @@ So I came back to the issue of accuracy, with some interesting findings:
 
 ![The Build](./assets/ServoTest_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [TowerPro SG90 datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) - 9g Micro Servo
 * [Servo library reference](http://arduino.cc/en/Reference/Servo)
 * Based on the [Arduino Sweep example](http://arduino.cc/en/Tutorial/Sweep)

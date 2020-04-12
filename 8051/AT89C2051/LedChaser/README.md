@@ -95,6 +95,7 @@ $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 ![Build](./assets/LedChaser_build.jpg?raw=true)
 
 ## Credits and References
+
 * [name](url)
 * [..as mentioned on my blog](https://blog.tardate.com/)
 

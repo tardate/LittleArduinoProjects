@@ -31,5 +31,6 @@ The [LedControl.ino](./LedControl.ino) sketch does no more than switch the LEDs 
 ![Build](./assets/LedControl_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#303 KeyboardMatrixModule](../)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap303-keyboard-matrix-module.html)

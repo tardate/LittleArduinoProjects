@@ -250,7 +250,8 @@ See [Girabot.ino](./Girabot.ino) and associated *.h files for all the code.
 | R16 | 200kΩ trimpot                   | mic OpAmp feedback (variable component) |
 
 
-## Credits and references
+## Credits and References
+
 * [EE40LX Electronic Interfaces](https://courses.edx.org/courses/BerkeleyX/EE40LX/1T2015/info)
 * [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge)
 * [Servo library reference](http://arduino.cc/en/Reference/Servo)

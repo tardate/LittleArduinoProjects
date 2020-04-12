@@ -83,6 +83,7 @@ Scope connections
 
 
 ## Credits and References
+
 * [ML741](../) - the ML741 discrete component project
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Non-Inverting amplifier](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Non-inverting_amplifier) - wikipedia

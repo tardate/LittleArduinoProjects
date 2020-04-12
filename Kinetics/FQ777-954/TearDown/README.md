@@ -140,6 +140,7 @@ The so-called receiver board also doubles as the structural component that holds
 
 
 ## Credits and References
+
 * [FQ777 954 FQ777-954 Mini Drone The Eyes RC Quadcopter WIFI FPV with 0.3MP Camera 4CH 6Axis APP Control BNF & RTF](https://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html) - example available from an aliexpress seller
 * [fuqitoys](http://fuqitoys.en.alibaba.com/) - manufacturer
 * [FQ777-954 Factory-direct](http://fuqitoys.en.alibaba.com/product/60415170562-801977057/FQ777_954_Nano_wifi_control_nano_drone_fpv_with_camera_rc_quadcopter.html)

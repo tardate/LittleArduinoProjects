@@ -121,6 +121,7 @@ Here's a quick demo..
 
 
 ## Credits and References
+
 * [Fixing your cheap nrf24l01+ pa/lna module](http://blog.blackoise.de/2016/02/fixing-your-cheap-nrf24l01-palna-module/)
 * [RF24 Library](https://github.com/maniacbug/RF24) - GitHub
 * [RF24 Library scanner example](https://github.com/maniacbug/RF24/tree/master/examples/scanner)

@@ -33,6 +33,7 @@ Increasing C1 or R2 will increase the "on" time accordingly.
 ![The Build](./assets/Monostable_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Monostable Multivibrator circuit](http://www.electronics-tutorials.ws/waveforms/monostable.html) - circuit and detailed explanation
 * [Monostable Multivibrator circuit](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - another version from pcbheaven
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)

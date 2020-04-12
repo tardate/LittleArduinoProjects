@@ -50,6 +50,7 @@ Wiring the protoboard. Note that by default I don't have the backlight on.
 ![Build](./assets/DIYShield_build.jpg?raw=true)
 
 ## Credits and References
+
 * [UNO Proto Shield](https://www.aliexpress.com/item/Free-Shipping-UNO-Proto-Shield-prototype-expansion-board-with-SYB-170-mini-bread-board-based-For/32502867722.html) - aliexpress seller
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - GitHub
 * [..as mentioned on my blog](https://blog.tardate.com/2018/02/leap377-diy-nokia-5110-shield.html)

@@ -30,7 +30,7 @@ The [TS3A5018.ino](./TS3A5018.ino) sketch uses two of the switches in a simple d
 * one switch alters the timing capacitor in a 555 astable oscillator, switching the frequency from [1 Hz](http://visual555.tardate.com/?mode=astable&r1=1&r2=300&c=2.2) to  [2.4 Hz](http://visual555.tardate.com/?mode=astable&r1=1&r2=300&c=1)
 * another switch changes the LED (color) running on the oscillator output
 
-The TS3A5018 is only rated for 1.8 to 3.6V, so a 3.3V rail is used for the offbaord circuit, and simple voltage divider level-shifts the Arduino output pin.
+The TS3A5018 is only rated for 1.8 to 3.6V, so a 3.3V rail is used for the offboard circuit, and simple voltage divider level-shifts the Arduino output pin.
 
 ## Construction
 
@@ -41,6 +41,7 @@ The TS3A5018 is only rated for 1.8 to 3.6V, so a 3.3V rail is used for the offba
 ![Build](./assets/TS3A5018_build.jpg?raw=true)
 
 ## Credits and References
+
 * [TS3A5018 Info and Datasheet](http://www.ti.com/product/TS3A5018)
 * [TS3A5018 module](https://www.aliexpress.com/item/5pcs-lot-5018-TS3A5018-10R-Quad-SPDT-Analog-Switch/32818493727.html) - from an aliexpress seller
 * [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap370-ts3a5018-digital-switch.html)

@@ -82,6 +82,7 @@ Protoboard build:
 ![Build](./assets/DigitalLogicClock_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)

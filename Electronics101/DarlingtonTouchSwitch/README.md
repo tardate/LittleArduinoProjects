@@ -35,6 +35,7 @@ It doesn't take much to activate the switch:
 
 
 ## Credits and References
+
 * [Darlington transistor/pair](https://en.wikipedia.org/wiki/Darlington_transistor) - wikipedia
 * [The Darlington pair](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - describes the touch switch circuit
 * [Touch switch with a darlington pair](https://youtu.be/XArtEkeSkt4) - video demo

@@ -128,6 +128,7 @@ The solar cell and battery are pretty small - but this was being sold on the Que
 
 
 ## Credits and References
+
 * [AAA battery](https://en.wikipedia.org/wiki/AAA_battery) - wikipedia
 * [Energizer HR03 Datasheet](http://data.energizer.com/pdfs/hr03-1000_eu.pdf)
 * [QX5252 product info](http://www.qxmd.com.cn/en/?product/QX5252.html)

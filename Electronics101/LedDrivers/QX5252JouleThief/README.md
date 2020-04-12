@@ -100,6 +100,7 @@ Carefully put together so that it forms a clip over the battery:
 ![build_03](./assets/build_03.jpg?raw=true)
 
 ## Credits and References
+
 * [QX5252 product info](http://www.qxmd.com.cn/en/?product/QX5252.html)
 * [List of battery sizes](https://en.wikipedia.org/wiki/List_of_battery_sizes) - wikipedia
 * [..as mentioned on my blog](https://blog.tardate.com/2018/11/leap437-qx5252-joule-thief.html)

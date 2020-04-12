@@ -107,6 +107,7 @@ Running at 300kHz, pretty accurate!
 ![The Build](./assets/BasicDemoCycle_build.jpg?raw=true)
 
 ## Credits and References
+
 * Thanks to Michaël via email for the idea of an "off" step in the demo cycle
 * [Module from a seller on aliexpress](https://www.aliexpress.com/item/E74-Free-Shipping-Programmable-Microprocessors-AD9833-Sine-Square-Wave-DDS-Signal-Generator-Module/32436878279.html)
 * [AD9833 datasheet](http://www.analog.com/en/products/rf-microwave/direct-digital-synthesis-modulators/ad9833.html)

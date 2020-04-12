@@ -69,7 +69,7 @@ A couple of features make this easy to deal with:
 ### Parsing the Web Request
 
 I'm using [TextFinder](https://github.com/tardate/TextFinder) to parse the web response. Note that the GitHub repository version of TextFinder is an
-enhanced version of the original library available form the [Arduino Playground](http://playground.arduino.cc/Code/TextFinder).
+enhanced version of the original library available from the [Arduino Playground](http://playground.arduino.cc/Code/TextFinder).
 
 Other libraries that could be used are [amcewen/HttpClient](https://github.com/amcewen/HttpClient)
 and [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient).
@@ -123,6 +123,7 @@ And then connectors etc depending on the physical housing.
 * Light Color: RGB FULL Color
 
 ## References
+
 * [fretboard.tardate.com](https://fretboard.tardate.com) - vanity site for the project
 * [The GitHub Stoplight](http://urbanhonking.com/ideasfordozens/2010/05/19/the_github_stoplight/)
 * [Monitoring Your Continuous Integration Server with Traffic Lights and an Arduino](http://isotope11.com/blog/monitoring-your-continuous-integration-server-with-traffic-lights-and-an-arduino)

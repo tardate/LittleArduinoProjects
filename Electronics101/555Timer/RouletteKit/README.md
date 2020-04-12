@@ -36,6 +36,7 @@ So how does it work? Basically like this I think:
 ![The Build](./assets/RouletteKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Basic Electronics: Surface Mount Components Kit - 555 Roulette](https://youtu.be/zgfJeZ20nhc) - excellent tutorial by Julian Ilett building the same kit
 * [1Pcs Electronic Lucky Rotary Suite DIY Kits Production Parts And Components New](https://www.aliexpress.com/item/1Pcs-Electronic-Lucky-Rotary-Suite-DIY-Kits-Production-Parts-And-Components-New/32319812188.html) - seller page on aliexpress
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)

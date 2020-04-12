@@ -42,7 +42,7 @@ It's pretty simple! On the ATtiny85 PDIP/SOIC/TSSOP package, hardware I²C is en
 
 I programmed the ATtiny85 with my DiY programmer shield for an Arduino Uno running the Arduino ISP sketch.
 Because of the use of pins 5 and 7 during programming, it means the ATtiny can't run the sketch successfully
-while still on the programming baord.
+while still on the programming board.
 
 ![Breadboard](./assets/ATtinyController_bb.jpg?raw=true)
 

@@ -37,6 +37,7 @@ Note: because the CD4060 does not expose Q11 counter stage, the pattern of segme
 ![Build](./assets/RippleTester_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#425 The Boldport 3x7](../)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)

@@ -40,6 +40,7 @@ See the [KiCad project](./kicad_project/nrf24_breakout.pro) for all the details.
 ![Build](./assets/nRF24Breakout_build.jpg?raw=true)
 
 ## Credits and References
+
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials
 * [This nRF24Breakout project on OSH Park](https://oshpark.com/shared_projects/Js6JrEyC)
 * [KiCad](http://kicad-pcb.org/)

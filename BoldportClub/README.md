@@ -13,6 +13,7 @@ for projects that while functional, few would ever really need, and they definit
 the focus here is on kits that are engaging, challenging, entertaining, and collectable.
 
 ## Credits and References
+
 * [Boldport Club](http://www.boldport.club/) - main site
 * [Boldport Club Community Site](http://community.boldport.club/) - packed with resources and details of builds by members
 * [Saar Drimer on The AmpHour podcast](http://www.theamphour.com/286-an-interview-with-saar-drimer/)

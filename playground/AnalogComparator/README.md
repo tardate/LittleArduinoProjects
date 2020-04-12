@@ -83,6 +83,7 @@ Debouncing is likely essential, unless your application does not care about the 
 ![Console Output](./assets/AnalogComparator_console.png?raw=true)
 
 ## Credits and References
+
 * [Using the Arduino Analog Comparator](http://www.gammon.com.au/forum/?id=11916) - inspired this test!
 * [AVR128: Setup and Use the Analog Comparator](http://www.atmel.com/Images/doc0934.pdf) - Atmel application note
 * [ATmega168 Analog Comparator example](https://gist.github.com/szczys/1428418)

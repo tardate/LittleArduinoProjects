@@ -141,6 +141,7 @@ Finally, a micro USB connector attached to the end of the PCB for 5V power.
 
 
 ## Credits and References
+
 * [peaseo](https://www.boldport.com/products/peaseo) - Boldport Product Page
 * [peaseo GitHub Repo](https://github.com/boldport/pease-out) - design sources including documentation
 * [LM331 Datasheet](http://www.ti.com/lit/ds/symlink/lm331.pdf)

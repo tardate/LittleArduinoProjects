@@ -56,6 +56,7 @@ Under test...
 ![PierceGateOscillator_test](./assets/PierceGateOscillator_test.jpg?raw=true)
 
 ## Credits and References
+
 * LEAP: [SchmittOscillator](../SchmittOscillator)
 * [Pierce oscillator](https://en.wikipedia.org/wiki/Pierce_oscillator) - wikipedia
 * [Building Pierce Gate Oscillator for 455kHz IF Alignment](https://www.youtube.com/watch?v=A73bUivWu60) - xraytonyb, a really informative

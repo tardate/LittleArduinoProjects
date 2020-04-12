@@ -151,6 +151,7 @@ In fact it makes things worse, because the program just gets better and better a
 
 
 ## Credits and References
+
 * [RotaryEncoders](http://playground.arduino.cc/Main/RotaryEncoders) - Arduino playground
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
 * [Rotary library](https://github.com/brianlow/Rotary)

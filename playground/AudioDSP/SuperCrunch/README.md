@@ -48,6 +48,7 @@ I may split this out as a stand-alone library at some point.
 ![Build](../assets/AudioDSP_build.jpg?raw=true)
 
 ## Credits and References
+
 * see the main [AudioDSP](../) project
 * [Several Codes based on PedalSHIELD Library](http://www.electrosmash.com/forum/software-pedalshield/133-several-codes-based-on-pedalshield-library?lang=en)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap236-9-audiodsp-effects.html)

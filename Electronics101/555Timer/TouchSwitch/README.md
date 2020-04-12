@@ -31,6 +31,7 @@ To improve the sensitivity, pin 2 could be pulled down via a transistor, with th
 ![The Build](./assets/TouchSwitch_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Touch Switch variants](http://www.555-timer-circuits.com/touch-switch.html) - touch, touch on-off, touch with BJT amplification
 * [Touch Sensor Switch Circuit with 555 timer](http://www.electroschematics.com/8433/touch-sensor-switch-circuit-with-555-timer/) - similar circuit

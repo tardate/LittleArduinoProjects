@@ -35,6 +35,7 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 ![The Build](./assets/JuliansU8glibDemo_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Julian's Ardutorials: Arduino, Nokia 5110 LCD & u8glib](https://youtu.be/t31n6Y-0bYg) - great tutorial and code as used here
 * [u8glib](https://github.com/olikraus/u8glib)
 * [Philips PCD8544 datasheet](http://eia.udg.edu/~forest/PCD8544_1.pdf)

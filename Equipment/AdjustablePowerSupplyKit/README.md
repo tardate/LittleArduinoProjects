@@ -192,6 +192,7 @@ All in all, a good general purpose power supply for the bench, especially where 
 I think I still prefer my DPS-3005-based power supply as a more accurate and featured solution - see [LEAP#407 DPS3005BenchPowerSupply](../DPS3005BenchPowerSupply) for more on that project.
 
 ## Credits and References
+
 * [0-30V 2mA-3A Adjustable DC Regulated Power Supply DIY Kit Short Circuit Current Limiting Protection For School Education Lab](https://www.aliexpress.com/item/1Set-Red-0-30V-2mA-3A-Continuously-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-For-School/32789006670.html)
 * [same/similar kit from banggood](https://sea.banggood.com/0-30V-2mA-3A-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-p-958308.html)
 * original (?) design from [SmartKit](https://www.smartkit.gr/stabilised-power-supply-0-30v-3a-m.html)

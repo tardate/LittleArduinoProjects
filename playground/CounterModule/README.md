@@ -43,6 +43,7 @@ But it depends on the specific LED ratings, as this subjects the LEDs to a rever
 ![The Build](./assets/CounterModule_build_breadboard.jpg?raw=true)
 
 ## Credits and References
+
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [RingCounterController](../RingCounterController) - similar project but just running on a breadboard
 

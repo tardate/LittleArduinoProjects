@@ -42,6 +42,7 @@ so I use MSBFIRST transfer.
 ![The Build](./assets/ShiftDrive_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LED7Segment/DirectDrive](../DirectDrive) - similar circuit but with direct control
 * [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [SC56-11 Datasheet](../assets/SC56-11_datasheet.pdf?raw=true)

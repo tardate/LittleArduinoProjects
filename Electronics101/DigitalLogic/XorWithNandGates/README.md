@@ -51,6 +51,7 @@ Here's a sample trace:
 ![Build](./assets/XorWithNandGates_build.jpg?raw=true)
 
 ## Credits and References
+
 * [XOR gate](https://en.wikipedia.org/wiki/XOR_gate) - wikipedia
 * [74LS132 datasheet](https://www.futurlec.com/74LS/74LS132.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap283-xor-with-nand-gates.html)

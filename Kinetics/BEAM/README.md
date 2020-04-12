@@ -89,6 +89,7 @@ And now for some new BEAM builds:
 * [LEAP#436 Vivian](./Vivian) - a vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver.
 
 ## Credits and References
+
 * [BEAM Robotics](https://en.wikipedia.org/wiki/BEAM_robotics) - wikipedia
 * [BEAM Reference Library](http://solarbotics.net/library.html)
 * [solarbotics.net](http://solarbotics.net/) - principal reference site for BEAM-related information

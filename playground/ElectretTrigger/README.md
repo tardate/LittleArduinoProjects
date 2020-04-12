@@ -43,4 +43,5 @@ NB: for simplicity, the circuit is powered from the Arduino 5V pin.
 That works fine, although it is equally possible to use a separate power supply (but ensuring there is a common ground connection).
 
 ## Credits and References
+
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)

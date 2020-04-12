@@ -63,6 +63,7 @@ Testing some other capacitor values:
 | 1 nF  | 10.1kHz        | [13.7kHz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.001) |
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Designing 555 Astables](http://www.learnabout-electronics.org/Oscillators/osc44.php) - learnabout-electronics
 * [555 Pulse Generator Circuit](https://www.electroschematics.com/5834/pulse-generator-with-555/) - electroschematics

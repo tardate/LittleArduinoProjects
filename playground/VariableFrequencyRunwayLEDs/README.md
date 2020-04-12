@@ -99,6 +99,7 @@ The specific PWM settings (255=100% duty cycle) and the corresponding output fre
 ![Build](./assets/VariableFrequencyRunwayLEDs_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM331 Datasheet](http://www.ti.com/lit/ds/symlink/lm331.pdf)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * [LEAP#256 BoldportClub Pease](../../BoldportClub/Pease)

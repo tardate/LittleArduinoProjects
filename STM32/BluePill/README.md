@@ -121,6 +121,7 @@ the board can be powered from USB with the program running:
 
 
 ## Credits and References
+
 * [ARM Cortex-M3 STM32F103C8T6 Minimum System Development Board STM32](https://www.aliexpress.com/item/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-Arduino/32667468626.html) - example from a seller on aliexpress
 * [STM32F103C8 Product Info and Datasheet](http://www.st.com/en/microcontrollers/stm32f103c8.html)
 * [Blue Pill](http://wiki.stm32duino.com/index.php?title=Blue_Pill) - stm32duino wiki

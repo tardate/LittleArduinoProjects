@@ -99,6 +99,7 @@ Here's an example session reading and writing selected data:
 ![Build](./assets/PEProgrammer_build.jpg?raw=true)
 
 ## Credits and References
+
 * [AT28C16 datasheet](http://www.atmel.com/images/doc0540.pdf)
 * [MCP23S17 datasheet and info](http://parts.io/detail/1371552/MCP23S17-E%2FSS) - parts.io
 * [Build an Arduino EEPROM programmer](https://youtu.be/K88pgWhEb1M) - Ben Eater; similar circuit but using shift registers

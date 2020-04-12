@@ -35,6 +35,7 @@ At 47uF, the capacitor is given enough time to fully charge (note the plateau), 
 ![1000uF](./assets/1000uF.png?raw=true)
 
 ## Credits and References
+
 * [Download Processing](https://www.processing.org/download/)
 * [How to Use a Charged Capacitor to Light an LED](http://www.learningaboutelectronics.com/Articles/How-to-use-a-charged-capacitor-to-light-an-led)
 * ["Most basic capacitor circuit." from the arduino forum](http://forum.arduino.cc/index.php?topic=52838.0)

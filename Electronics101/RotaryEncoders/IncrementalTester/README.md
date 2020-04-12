@@ -82,6 +82,7 @@ Here's a counter-clockwise (CCW) rotation capture:
 ![scope_ccw](./assets/scope_ccw.gif?raw=true)
 
 ## Credits and References
+
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
 * [74LS173 datasheet](https://www.futurlec.com/74LS/74LS173.shtml)
 * [JK flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#JK_flip-flop) - wikipedia

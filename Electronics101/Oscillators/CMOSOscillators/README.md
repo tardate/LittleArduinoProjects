@@ -77,6 +77,7 @@ Produces quite a clean square wave at 1MHz and 50% duty cycle.
 
 
 ## Credits and References
+
 * [SaRonix NCH060C](http://resume.wizzard.com/w1995/SaRonix/ttl.html#CMOS) - the only good information I've been able to find about this particular oscillator
 * [MCO-1510A datasheet](http://mklec.com/pdf/MCO-1510A.pdf)
 * [Oscillator FAQ](http://www.ecliptek.com/oscillators/faq/TEN10-001-012_EB52_54C5_Series_TCXO_Oscillator_FAQ.pdf) - useful guide although for another product range

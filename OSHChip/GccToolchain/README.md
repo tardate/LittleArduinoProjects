@@ -171,6 +171,7 @@ on the OSChip forum which points to the same issue.. a good place to start..
 ![The Build](./assets/GccToolchain_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Getting started with nRF51 development on Mac OS X](https://devzone.nordicsemi.com/blogs/22/getting-started-with-nrf51-development-on-mac-os-x/)
 * [GCC ARM Embedded](https://launchpad.net/gcc-arm-embedded)
 * [nordicsemi SDK](http://developer.nordicsemi.com/)

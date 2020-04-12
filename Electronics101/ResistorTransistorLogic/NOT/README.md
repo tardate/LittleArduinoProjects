@@ -40,6 +40,7 @@ We clearly lose significant voltage at the output because of the current-limitin
 ![The Build](./assets/NOT_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Resistor-Transistor Logic](https://en.wikipedia.org/wiki/Resistor%E2%80%93transistor_logic) - wikipedia page
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
 * [Logic NOT Gate Tutorial](http://www.electronics-tutorials.ws/logic/logic_4.html) - explains of the basic circuit used here.

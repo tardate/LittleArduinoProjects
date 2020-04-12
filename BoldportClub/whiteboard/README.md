@@ -63,6 +63,7 @@ on the breadboard, with outputs driving the LEDs on the shroud (essentially a 4-
 ![Build](./assets/whiteboard_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Whiteboard](http://www.boldport.club/shop/product/1296464803) - in the Boldport Club shop
 * [Whiteboard](http://www.boldport.com/whiteboard) - Boldport Club page
 * [LM317 datasheet](https://www.futurlec.com/Linear/LM317T.shtml)

@@ -80,7 +80,7 @@ Unlink
 
 [esptool.py](https://github.com/themadinventor/esptool) requires the board to be in flash mode:
 * SW1 "on" to pull-down GPIO_0 (flash mode)
-* SW2 toggled on then off (reset the baord)
+* SW2 toggled on then off (reset the board)
 
 Then the basic esptool.py commands to interrogate the board work fine:
 

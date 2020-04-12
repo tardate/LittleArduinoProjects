@@ -111,6 +111,7 @@ With a bit of adjustment, I'm now getting results within the 1% (± 1 digit) ran
 ![Build](./assets/VoltmeterAmmeterModule_build.jpg?raw=true)
 
 ## Credits and References
+
 * [DC 0-100V 10A Digital Voltmeter Ammeter Dual Display Voltage Detector Current Meter Panel Amp Volt Gauge 0.28" Red Blue LED](https://www.aliexpress.com/item/0-28-Red-Blue-LED-DC-0-100V-10A-Dual-display-Meter-Digital-Voltmeter-Ammeter-Panel/32310008404.html) - from a seller on aliexpress
 * [LEAP#181 VoltmeterModule](../VoltmeterModule)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap289-voltmeter-ammeter-module.html)

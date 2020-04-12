@@ -55,6 +55,7 @@ The time-domain plot for the generated output is like this:
 ![Build](./assets/XYplotter_breadboard.jpg?raw=true)
 
 ## Credits and References
+
 * [OSCILLOSCOPE CHRISTMAS TREE](http://www.johngineer.com/blog/?p=648) - uses PWM and RC filters
 * [#78: Use an Arduino to draw pictures on an oscilloscope using XY mode](https://youtu.be/Dx9N91FnPdo?list=PL049620539B359102) - w2aew
 * [MCP42010 datasheet](http://parts.io/detail/1372149/MCP42010-I%2FSL) - parts.io

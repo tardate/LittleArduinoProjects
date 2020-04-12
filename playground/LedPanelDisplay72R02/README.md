@@ -135,6 +135,7 @@ The [LedPanelDisplay72R02.ino](./LedPanelDisplay72R02.ino) sketch runs a series 
 ![The Build](./assets/LedPanelDisplay72R02_build.jpg?raw=true)
 
 ## Credits and References
+
 * [72R02 units available from a seller on aliexpress](https://www.aliexpress.com/item/Free-shipping-72R02PHIL-72R02-SMD28-new-imported-genuine-price-of-consultation/32518312413.html?spm=2114.01010208.3.2.iJ0ewF&ws_ab_test=searchweb201556_0,searchweb201602_3_10034_507_10032_10020_10017_10005_10006_10021_10022_10009_10008_10018_10019,searchweb201603_1&btsid=b0fc14c4-1c12-4987-9f61-bf519154bbb4)
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI Clock polarity and phase](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus#Clock_polarity_and_phase) - wikipedia

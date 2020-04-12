@@ -69,6 +69,7 @@ There's not much to the build. Basically hook together three modules:
 ![LEDx16Module_build](./assets/LEDx16Module_build.jpg?raw=true)
 
 ## Credits and References
+
 * [OSHChip](http://oshchip.org/)
 * [LEDx16Module](../playground/LEDx16Module)
 * [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-2)

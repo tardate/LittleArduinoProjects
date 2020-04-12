@@ -51,6 +51,7 @@ to drive the 5110 display with hardware [SPI](https://www.arduino.cc/en/Referenc
 ![ADR4540_module](./assets/ADR4540_module.jpg?raw=true)
 
 ## Credits and References
+
 * [ADR4540 Product Info and Datasheet](https://www.analog.com/en/products/adr4540.html)
 * [analogReference()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/)
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - GitHub

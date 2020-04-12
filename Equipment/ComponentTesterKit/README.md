@@ -505,6 +505,7 @@ I mainly used this to record part orientation and interconnection for testing th
 ![Build](./assets/ComponentTesterKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [2016 DIY kits ATMEGA328 M328 Transistor Tester LCR Diode Capacitance ESR meter PWM Square wave Frequency Signal Generator](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) - from seller on aliexpress
 * [P6KE6V8 data](http://parts.io/detail/6054925/P6KE6V8) - parts.io
 * [HT7750A-1 datasheet](http://file.yizimg.com/4677/2008030712103479.pdf)

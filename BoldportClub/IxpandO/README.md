@@ -141,6 +141,7 @@ The demo program has a very simple behaviour:
 ![IxpandO_build2](./assets/IxpandO_build2.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#313 MCP23S17](../../Electronics101/MCP23S17) - similar demonstration of the MCP23S17 SPI variant
 * [Boldport IxpandO](https://www.boldport.com/products/ixpando) - official product page
 * [MCP23017T-E/SO info and datasheet](http://www.microchip.com/wwwproducts/en/MCP23017)

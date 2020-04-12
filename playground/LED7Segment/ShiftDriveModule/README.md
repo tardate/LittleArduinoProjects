@@ -75,6 +75,7 @@ but if I do another I'll probably use female pin headers instead.
 ![Build](./assets/ShiftDriveModule_build.jpg?raw=true)
 
 ## Credits and References
+
 * [This ShiftDriveModule project on OSH Park](https://oshpark.com/shared_projects/gs9XjBpw)
 * [LED7Segment/ShiftDrive](../ShiftDrive) - breadboard version of the circuit
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials

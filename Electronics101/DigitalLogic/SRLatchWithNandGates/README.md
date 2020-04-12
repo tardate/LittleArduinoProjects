@@ -49,6 +49,7 @@ Here's a quick breadboard build using a 74LS00 quad two-input NAND gate, with so
 ![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
 * [NAND-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/nandlatch.html)
 * [SR Flip-Flop: NOR or NAND?](https://electronics.stackexchange.com/questions/163164/sr-flip-flop-nor-or-nand) - stackexchange

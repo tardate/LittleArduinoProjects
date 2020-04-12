@@ -146,6 +146,7 @@ When viewed from other angles, the LED display is more chaotic. This is mainly p
 
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [MP4 to GIF converter](https://www.onlineconverter.com/mp4-to-gif) - the tool I used to create the animated GIFs (nice - supports scaling)

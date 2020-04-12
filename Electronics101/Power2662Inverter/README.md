@@ -59,6 +59,7 @@ NB: Fritzing diagrams use the [LM2662 Switched Capacitor Voltage Converter - DIP
 ![The Build](./assets/Power2662Inverter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM2662M datasheet](https://www.futurlec.com/Linear/LM2662M.shtml)
 * [LM7805 datasheet](https://www.futurlec.com/Linear/7805T.shtml)
 * [SO16 SSOP16 TSSOP16 SOIC16 To DIP Adapter PCB Board Converter](https://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) - modules I used from an aliexpres seller to mount the SOP-8 chip

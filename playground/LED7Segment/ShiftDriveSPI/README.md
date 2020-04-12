@@ -76,6 +76,7 @@ This is "mode 0", aka SPI_MODE0.
 ![The Build](./assets/ShiftDriveSPI_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)
 * [SPI Clock polarity and phase](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus#Clock_polarity_and_phase) - wikipedia
 * [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)

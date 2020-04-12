@@ -309,6 +309,7 @@ also featured on the
 
 
 ## Credits and References
+
 * [RFID module RC522 Kits](https://www.aliexpress.com/item/Free-Shipping-RFID-module-RC522-Kits-S50-13-56-Mhz-6cm-With-Tags-SPI-Write-Read/32523771442.html) - examples from a seller on aliexpress
 * [RFID](https://en.wikipedia.org/wiki/Radio-frequency_identification) - Wikipedia
 * [MFRC522 product info](https://www.nxp.com/products/identification-and-security/nfc/nfc-reader-ics/standard-performance-mifare-and-ntag-frontend:MFRC52202HN1)

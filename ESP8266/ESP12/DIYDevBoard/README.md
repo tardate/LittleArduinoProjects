@@ -1,6 +1,6 @@
 # #540 ESP-12 DIY Dev Board
 
-Building a programming baord for the ESP8266 07/12 variants.
+Building a programming board for the ESP8266 07/12 variants.
 
 ![Build](./assets/DIYDevBoard_build.jpg?raw=true)
 
@@ -11,7 +11,7 @@ They both work with [adapter boards](https://www.aliexpress.com/item/32649040259
 
 However, it turns out that programming them on a breadboard can be a bit flakey - mainly due to power/connection issues.
 
-So I decided to try a quick build of a programming baord to see if performance was more reliable.
+So I decided to try a quick build of a programming board to see if performance was more reliable.
 
 The result - excellent. Very reliable programming.
 

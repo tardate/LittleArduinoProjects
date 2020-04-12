@@ -30,6 +30,7 @@ Next step is to start decoding the signals, however for that I might avoid re-in
 ![The Build](./assets/TestIR_build.jpg?raw=true)
 
 ## Credits and References
+
 * [IR Remote Control Theory](http://www.sbprojects.com/knowledge/ir/index.php) - the best reference I've found so far for IR theory and also protocol details.
 * [Using an IR Sensor](https://learn.adafruit.com/ir-sensor/using-an-ir-sensor) - a good IR tutorial that this project is based upon
 * [TSOP1838 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/26604/VISHAY/TSOP1838.html) - one of many similar IR sensors

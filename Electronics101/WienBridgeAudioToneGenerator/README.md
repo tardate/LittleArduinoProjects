@@ -108,6 +108,7 @@ And in the frequency domain we can see the waveform is reasonably clean:
 ![The Build](./assets/WienBridgeAudioToneGenerator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [The Wien Bridge Oscillator](http://www.electronics-tutorials.ws/oscillator/wien_bridge.html) - electronics-tutorials
 * [Wien Bridge Oscillators](http://www.learnabout-electronics.org/Oscillators/osc34.php) - learnabout-electronics
 * [Wien bridge oscillator](https://en.wikipedia.org/wiki/Wien_bridge_oscillator) - wikipedia

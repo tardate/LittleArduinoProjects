@@ -66,6 +66,7 @@ The [demo video](https://www.youtube.com/watch?v=9PpOC6A96As) is using the rever
 ![Build](./assets/RgbLedGlow_build.jpg?raw=true)
 
 ## Credits and References
+
 * [RGB LED datasheet](https://www.futurlec.com/LED/RGB5LED.shtml)
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [RGB LED](https://www.aliexpress.com/item/50pcs-4-pins-5mm-RGB-LED-full-color-Tri-Color-Common-Anode-LED-Red-Green-Blue/32802378189.html) - aliexpress seller

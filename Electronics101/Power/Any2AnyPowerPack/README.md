@@ -63,6 +63,7 @@ and demonstration of how these work.
 ![Build](./assets/Any2AnyPowerPack_build.jpg?raw=true)
 
 ## Credits and References
+
 * [EEVblog #1015 - Beware Evil (But Clever) DC Jacks!](https://www.youtube.com/watch?v=ix2fR-rh1vc)
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [1N4001-7 Datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)

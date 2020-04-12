@@ -46,6 +46,7 @@ Fits a single AA or AAA battery, with a switch added for convenience. Makes a de
 ![The Battery Pack Build](./assets/ToroidJouleThief_build_AA_pack.jpg?raw=true)
 
 ## Credits and References
+
 * [RelaxationJouleThief](../RelaxationJouleThief) - alternative circuit using a relaxation oscillator
 * [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) - wikipedia
 * [Make a Joule Thief for Zombie Batteries](https://www.youtube.com/watch?v=B61DU7yEsPM) - by RimstarOrg

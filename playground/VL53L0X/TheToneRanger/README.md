@@ -40,6 +40,7 @@ piezo buzzer built-in:
 ![Build](./assets/TheToneRanger_build.jpg?raw=true)
 
 ## Credits and References
+
 * [VL53L0X Product Info](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html)
 * [VL53L0X Datasheet](https://www.st.com/resource/en/datasheet/vl53l0x.pdf)
 * [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X) library

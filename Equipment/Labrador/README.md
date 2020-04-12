@@ -141,6 +141,7 @@ Here's a 3D render of the board in kicad:
 The board includes pinouts for 4 GPIO ports (PE0-3). However it appears these are not given any specific fucntion in the current AVR code.
 
 ## Credits and References
+
 * [EspoTek Labrador](https://www.crowdsupply.com/espotek/labrador) - crowdsupply
 * [Pre-release Software and Documentation](https://drive.google.com/open?id=0B7U0ulRLHf8cRVBkeFc2SHpUOGs)
 * [Labrador on GitHub](https://github.com/espotek/Labrador)

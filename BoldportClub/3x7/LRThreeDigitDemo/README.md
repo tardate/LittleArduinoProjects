@@ -49,5 +49,6 @@ The main things to note is that the library:
 ![Build](./assets/LRThreeDigitDemo_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#425 Boldport 3x7](../)
 * [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) library

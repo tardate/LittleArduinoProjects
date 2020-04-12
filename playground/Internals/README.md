@@ -70,7 +70,7 @@ first location not yet allocated.
 The EEPROM address size is reported based on the
 [E2END](https://www.nongnu.org/avr-libc/user-manual/group__avr__io.html) macro.
 
-This is correct according to the board selection, hwoever it doesn't actually verify that is the actual EEPROM on the baord.
+This is correct according to the board selection, hwoever it doesn't actually verify that is the actual EEPROM on the board.
 
 There are techniques for probing EEPROM to verify the actual size (not implemented in this sketch).
 See for example [Re: Runtime determination of EEPROM size](http://forum.arduino.cc/index.php?topic=120346.msg905783#msg905783)

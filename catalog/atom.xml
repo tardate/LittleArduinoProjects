@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-04-12T14:55:11Z</updated>
+  <updated>2020-04-12T15:28:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -24,7 +24,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4046/RampGenerator/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4046/RampGenerator/"/>
-    <updated>2020-04-12T13:05:54Z</updated>
+    <updated>2020-04-12T14:58:39Z</updated>
     <title>#543 PLL Ramp Generator</title>
     <summary>A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4046/RampGenerator/assets/RampGenerator_build.jpg</g:image_link>
@@ -34,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/InputDevices/FootSwitch/</id>
     <link href="https://leap.tardate.com/Electronics101/InputDevices/FootSwitch/"/>
-    <updated>2020-04-12T13:05:54Z</updated>
+    <updated>2020-04-12T14:57:32Z</updated>
     <title>#542 DIY Foot Switch</title>
     <summary>A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/InputDevices/FootSwitch/assets/FootSwitch_build.jpg</g:image_link>
@@ -55,7 +55,7 @@
     <link href="https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/"/>
     <updated>2020-04-07T16:33:52Z</updated>
     <title>#540 ESP-12 DIY Dev Board</title>
-    <summary>Building a programming baord for the ESP8266 07/12 variants</summary>
+    <summary>Building a programming board for the ESP8266 07/12 variants</summary>
     <g:image_link>https://leap.tardate.com/ESP8266/ESP12/DIYDevBoard/assets/DIYDevBoard_build.jpg</g:image_link>
     <category term="ESP8266"/>
   </entry>

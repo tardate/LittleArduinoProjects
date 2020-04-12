@@ -254,6 +254,7 @@ If you could get the Sleepy Bee in DIP24 package (or provide a DIP24 adapter), h
 ![Touchy_build_bottom](./assets/Touchy_build_bottom.jpg?raw=true)
 
 ## Credits and References
+
 * [Touchy](http://www.boldport.club/shop/product/437209749) - in the Boldport shop
 * [Touchy](https://www.boldport.com/products/touchy) - project page
 * [Touchy](https://github.com/boldport/touchy) - OSH files on GitHub

@@ -35,6 +35,7 @@ below the natural and harmonic frequencies. Well, we get a signal, but lots of n
 ![The Build](./assets/AMTransmitter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [My simple 555 AM transmitter circuit](http://soundation.blogspot.sg/2012/04/my-simple-555-based-am-transmitter.html) - Shadi Soundation
 * [AM Radio Transmitter Using 555 Chip](http://electronics-diy.com/am-radio-transmitter-using-555-chip.php)
 * [555 AM Transmitter](https://www.instructables.com/id/555-AM-Transmitter/)

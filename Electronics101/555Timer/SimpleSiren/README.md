@@ -42,7 +42,8 @@ The formula with variables as named in this circuit is:
 
 ![Breadboard Build](./assets/SimpleSiren_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [What is the equation for the 555 timer control voltage?](http://electronics.stackexchange.com/questions/101530/what-is-the-equation-for-the-555-timer-control-voltage) - Q&A on EE.SE

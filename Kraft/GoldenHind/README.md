@@ -37,6 +37,7 @@ the construction quality of the kit is excellent - all pieces perfectly laser cu
 ![Build](./assets/GoldenHind_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Model 9209 - "Mini Qute Piece Fun 3D vehicle Ford cars train Titanic ship Black Pearl Metal Puzzle adult assemble DIY models educational toy"](https://www.aliexpress.com/item/Mini-Qute-Piece-Fun-3D-vehicle-Ford-cars-train-Titanic-ship-Black-Pearl-Metal-Puzzle-adult/32613478600.html) - aliexpress seller listing
 * [Shantou Mini Qute Trading Co. Ltd.](https://mqfun.en.alibaba.com/)
 * [Kit Instructions](./assets/kit_instructions.pdf?raw=true)

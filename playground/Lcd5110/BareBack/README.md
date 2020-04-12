@@ -34,6 +34,7 @@ This is the module I'm using:
 ![The Build](./assets/BareBack_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Philips PCD8544 datasheet](http://eia.udg.edu/~forest/PCD8544_1.pdf)
 * [Arduino Nokia 5110 LCD Tutorial #1 - Connecting and Initial Programming](https://www.youtube.com/watch?v=RAlZ1DHw03g)
 * [Arduino Nokia 5110 LCD Tutorial #2 - Getting Text on the Display](https://www.youtube.com/watch?v=E6PUa4n2DnA)

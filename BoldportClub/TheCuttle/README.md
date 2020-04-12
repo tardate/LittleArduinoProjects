@@ -103,6 +103,7 @@ I also made a bit of a mistake with the pins - I pushed them flush from the top 
 ![kit_lower_points](./assets/kit_lower_points.jpg?raw=true)
 
 ## Credits and References
+
 * [TheCuttle](http://www.boldport.club/shop/product/390973459) - in the Boldport shop
 * [TheCuttle](http://www.boldport.com/tc/) - project page
 * [TheCuttle](https://github.com/boldport/thecuttle) - OSH files on GitHub

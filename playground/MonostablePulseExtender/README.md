@@ -35,5 +35,6 @@ Here's a trace of the behaviour. The lower trace is the trigger state, and the u
 ![The Build](./assets/MonostablePulseExtender_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS122 Datasheet](https://www.futurlec.com/74LS/74LS122.shtml)
 * [Monostable122](../../Electronics101/Monostable122) - similar circuit with manual input instead of an Arduino

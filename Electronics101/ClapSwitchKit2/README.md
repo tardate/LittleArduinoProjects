@@ -152,6 +152,7 @@ The board under test...
 ![ClapSwitchKit2_build_top](./assets/ClapSwitchKit2_build_top.jpg?raw=true)
 
 ## Credits and References
+
 * [The clap switch](https://www.aliexpress.com/item/Voice-control-switch-suite-DIY-kits-selling-electronic-circuit/32338281477.html) - from a seller on aliexpress
 * LEAP: [ClapSwitchKit](../ClapSwitchKit) - another clap-switch kit project
 * [Making beautiful solder points](https://www.youtube.com/watch?v=KXBbiXaq1ec) - the boldport way

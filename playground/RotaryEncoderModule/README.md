@@ -43,6 +43,7 @@ The rotary encoder module includes a switch (press on the encoder shaft). This i
 ![The Build](./assets/RotaryEncoderModule_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Rotary Encoder Module](https://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html) - from seller on aliexpress
 * [RotaryEncoderMethods](../RotaryEncoderMethods) - a project to test/find the best method for reading a mini rotary encoder
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page

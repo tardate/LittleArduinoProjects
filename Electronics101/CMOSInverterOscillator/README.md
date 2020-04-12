@@ -42,6 +42,7 @@ Scope trace for C1=1µF, R1(2-3)=40kΩ:
 ![Build](./assets/CMOSInverterOscillator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#182 PowerSupply317Kit](../PowerSupply317Kit) - a DIY kit project that included this oscillator
 * [LEAP#022 SchmittOscillator](../SchmittOscillator) - a similar (better performing) circuit using a 74LS14
 * [CD4096 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/66451/INTERSIL/CD4096BMS.html)

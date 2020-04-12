@@ -199,6 +199,7 @@ Presto, the OSHChip rebooted and is now blinking the Red onboard LED every half 
 ![The Build](./assets/YottaToolchain_build.jpg?raw=true)
 
 ## Credits and References
+
 * [yottadocs](http://yottadocs.mbed.com/)
 * [yotta](https://github.com/ARMmbed/yotta) - GitHub
 * [Official Yotta target for OSHChip using gcc](https://github.com/OSHChip/target-OSHChip-gcc)

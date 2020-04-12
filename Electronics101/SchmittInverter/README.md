@@ -32,5 +32,6 @@ Compared with a [simple BJT inverter](../ResistorTransistorLogic/NOT), we see a 
 
 
 ## Credits and References
+
 * [Download Processing](https://www.processing.org/download/)
 * [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)

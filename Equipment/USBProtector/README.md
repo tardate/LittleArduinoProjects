@@ -80,6 +80,7 @@ Recommended construction order:
 ![Build](./assets/USBProtector_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Complete kit for the USB Port Protector](http://www.siliconchip.com.au/Shop/20/4574) - writtten up in Silicon Chip May 2018 p57
 * [μArt](https://www.crowdsupply.com/pylo/muart) - a similar protection project but intended for UART applications, available on crowdsupply
 * [SK153 DIODE SCHOTTKY 30V 15A](https://www.digikey.sg/product-detail/en/micro-commercial-co/SK153-TP/SK153-TPCT-ND/1306216)

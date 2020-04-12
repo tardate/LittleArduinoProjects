@@ -2879,7 +2879,7 @@
         "title": "LEDDimmer/CurrentRegulator"
     }, 
     "/ESP8266/ESP12/DIYDevBoard/": {
-        "summary": "Building a programming baord for the ESP8266 07/12 variants", 
+        "summary": "Building a programming board for the ESP8266 07/12 variants", 
         "id": 540, 
         "tags": [
             "ESP8266"

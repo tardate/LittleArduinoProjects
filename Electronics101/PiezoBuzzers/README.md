@@ -42,6 +42,7 @@ A 2.2kΩ series resistor limits current without much impact on volume.
 ![Build](./assets/PiezoBuzzers_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Piezoelectric sensor](https://en.wikipedia.org/wiki/Piezoelectric_sensor) - wikipedia
 * [Piezoelectric speaker](https://en.wikipedia.org/wiki/Piezoelectric_speaker) - wikipedia
 * [Buzzer Basics - Technologies, Tones, and Drive Circuits](https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits)

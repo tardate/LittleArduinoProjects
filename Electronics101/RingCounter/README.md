@@ -40,6 +40,7 @@ Interesting side-note: a very similar circuit is used in some SMD soldering trai
 ![The Build](./assets/RingCounter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [RingCounterController](../../playground/RingCounterController) - same project but using an Arduino for control

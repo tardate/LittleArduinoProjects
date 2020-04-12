@@ -57,6 +57,7 @@ With it's twin, the [original Cordwood](../cordwood)..
 ![cordwood-too_twins](./assets/cordwood-too_twins.jpg?raw=true)
 
 ## Credits and References
+
 * [Cordwood Too](https://www.boldport.com/products/cordwood-puzzle-too/) - Boldport Product Page
 * [Cordwood Too](http://community.boldport.club/projects/p13-cordwood-too/) - on the community site
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)

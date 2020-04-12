@@ -46,6 +46,7 @@ for plotting with [PlotNValues](../../../processing/PlotNValues) (a simple Proce
 ![The Build](./assets/XOR_build.jpg?raw=true)
 
 ## Credits and References
+
 * [XOR](https://en.wikipedia.org/wiki/Exclusive_or) - wikipedia
 * [Implementing XOR and XNOR Logic Functions using Diode Bridge and Transistor](https://electrosome.com/xor-xnor-logic-function-diode-bridge-transistor/)
 * [How are logic gates created electronically?](http://electronics.stackexchange.com/questions/53142/how-are-logic-gates-created-electronically) - EE.SE

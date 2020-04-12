@@ -84,6 +84,7 @@ Here's the component layout design:
 ![The Build](./assets/R2RDAC_protoboard_layout.jpg?raw=true)
 
 ## Credits and References
+
 * [Resistor ladder](https://en.wikipedia.org/wiki/Resistor_ladder) - wikipedia
 * [#85: Basics of R2R Resistor Networks Digital Analog Conversion, Tutorial DAC Thevenin Superposition](https://www.youtube.com/watch?v=AulX1OM7RwE) - another great video by w2aew
 * [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)

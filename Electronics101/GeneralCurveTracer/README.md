@@ -77,6 +77,7 @@ NB: this curve is of two 1N4148's back-to-back - see note above.
 ![GeneralCurveTracer_protoboard_layout](./assets/GeneralCurveTracer_protoboard_layout.jpg?raw=true)
 
 ## Credits and References
+
 * [Simple Component Tester](https://www.youtube.com/watch?v=_WQi8oKzsD8) - stoneslice
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [#49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer](https://www.youtube.com/watch?v=Gwo3pEH7hUE) - w2aew demonstrating the classic AC version

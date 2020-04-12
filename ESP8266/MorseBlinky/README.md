@@ -119,6 +119,7 @@ closing bootloader
 ![Build](./assets/MorseBlinky_build.jpg?raw=true)
 
 ## Credits and References
+
 * [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)
 * [esptool.py](https://github.com/themadinventor/esptool) - used under the covers by the ESP8266 core for Arduino
 * [LEAP#194 DIYDevBoard](../DIYDevBoard) - the dev board I'm using to host the ESP-01

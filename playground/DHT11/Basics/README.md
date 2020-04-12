@@ -35,6 +35,7 @@ The [Basic.ino](./Basic.ino) sketch simply outputs current readings to the conso
 ![Build](./assets/Basics_build.jpg?raw=true)
 
 ## Credits and References
+
 * [DHT11Lib](http://playground.arduino.cc/Main/DHT11Lib) - library on the arduino playground
 * [DHT11 Humidity & Temperature Sensor](http://www.micropik.com/PDF/dht11.pdf) - D-Robotics UK
 * [DHTxx Sensors Guide](https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf) - adafruit

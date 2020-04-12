@@ -83,6 +83,7 @@ Some great tutorials:
 * [#160: Oscilloscope Basics, and how they can be used in the hamshack](https://youtu.be/067W7h1BhxE) - if you have 1.5 hours and want a thorough education in scopes, watch this great presentation by w2aew
 
 ## Credits and References
+
 * [Hantek MSO5074FG listing on aliexpress](https://www.aliexpress.com/item/High-quality-Hantek-MSO5074FG-70Mhz-4-Channel-Oscilloscope-8-Channel-Logic-Analyzer-25MHz-Arb-Waveform-Generator/1596199238.html) from seller [Shenzhen Laesent Technology Co., Ltd.](https://www.aliexpress.com/store/100653)
 * [Hantek MSO5054F(G)](http://www.hantek.com/en/ProductDetail_3_127.html) product listing, manuals and software
 * [Rigol DS1074Z](http://www.rigolna.com/products/digital-oscilloscopes/ds1000Z/ds1074z/)

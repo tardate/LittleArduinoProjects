@@ -57,6 +57,7 @@ Although the signals in and out are analog, the PT2399 appears to operate by dig
 ![Schematic](./assets/DelayKit_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [DIY Electric Guitar Delay Analog Effect Pedal guitarra delay with 1590B High Quality footswitch Effect pedal kits](https://www.aliexpress.com/item/NEW-DIY-electric-Guitar-Delay-analog-Effect-Pedals-Electric-pedal-guitarra-delay-Suite-Delay-1-pedals/32589004909.html) - from a seller on aliexpress
 * [PT2399 datasheet](https://www.futurlec.com/Others/PT2399.shtml)
 * [TL072CP datasheet](https://www.futurlec.com/Linear/TL072CP.shtml)

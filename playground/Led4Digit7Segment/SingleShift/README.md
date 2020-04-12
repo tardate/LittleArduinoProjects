@@ -30,7 +30,8 @@ The better way is to put a resistor on each segment pin. But this was good enoug
 
 ![The Build](./assets/SingleShift_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty stanrd example

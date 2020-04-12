@@ -39,6 +39,7 @@ The Arduino is not really a core part of the circuit. It only does the following
 ![The Build](./assets/TTLBufferDriver_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
 * [Resistor-Transistor Logic AND Gate](../ResistorTransistorLogic/AND) - the basic AND gate project without buffer

@@ -6,7 +6,7 @@ A diode ring double-balanced frequency mixer.
 
 ## Notes
 
-My build here is inspired by another great tutorial form w2aew -
+My build here is inspired by another great tutorial from w2aew -
 [#167: How a Diode Ring Mixer works | Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8).
 
 Section 5.2 of [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design)
@@ -71,6 +71,7 @@ For the transformers, I'm using 68-26 iron ferrite toroids with 30AWG solid wire
 ![Build](./assets/RFDiodeRing_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#326 Mixers](../) - my notes on mixer theory and types
 * [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design) - chapter 5.2
 * [#167: How a Diode Ring Mixer works | Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8) - w2aew

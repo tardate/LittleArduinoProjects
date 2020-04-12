@@ -56,6 +56,7 @@ Logic:
 
 
 ## Credits and References
+
 * [Logic Tech Specs](http://downloads.saleae.com/specs/Logic+Tech+Specs.pdf) - for the
 * [Saleae Downloads](https://www.saleae.com/downloads)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/03/leap260-saleae-logic.html)

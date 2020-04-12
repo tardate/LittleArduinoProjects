@@ -56,6 +56,7 @@ intuit. The short leg and flat edge are actually the collector and is connected 
 
 
 ## Credits and References
+
 * [TheGent](http://www.boldport.club/shop/product/584348507) - in the Boldport shop
 * [TheGent](https://www.boldport.com/gent) - Boldport project page
 * [TheGent](https://github.com/boldport/thegent) - OSH files on GitHub

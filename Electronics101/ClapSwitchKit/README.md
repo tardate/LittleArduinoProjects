@@ -43,6 +43,7 @@ And when the right-hand output of the flip-flip is "high":
 ![The Build](./assets/ClapSwitchKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * LEAP: [ClapSwitchKit2](../ClapSwitchKit2) - another clap-switch kit project
 * [Clap Switch DIY Kit](https://www.aliexpress.com/item/Brand-New-Clap-Switch-Suite-Electronic-Production-DIY-Kits-Red-Green-LED-Display-Circuit/32416781115.html) - from a seller on aliexpress, USD1.70 at time of purchase
 * [Wikipedia: Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29)

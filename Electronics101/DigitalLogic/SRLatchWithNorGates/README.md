@@ -32,6 +32,7 @@ Ben Eater has a great video explaining SR latch behaviour:
 ![The Build](./assets/SRLatchWithNorGates_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#061 SRLatch](../SRLatch)
 * [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
 * [NOR-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/norlatch.html)

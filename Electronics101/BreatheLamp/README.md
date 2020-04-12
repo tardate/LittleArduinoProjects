@@ -45,7 +45,8 @@ over, for example, a [555 timer-based triangle wave generator](../555Timer/Trian
 
 ![The Build](./assets/BreatheLamp_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [LM324N Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP

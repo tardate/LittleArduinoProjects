@@ -93,6 +93,7 @@ And here's the basic layout on to a protoboard "backpack" for the PissOff:
 ![SpiderBot_rear](./assets/SpiderBot_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#290 Boldport PissOff](../../BoldportClub/PissOff) - the original Boldport Club PissOff project
 * [diy spiderbot tech kit](https://www.fivebelow.com/diy-spiderbot-tech-kit.html) - fivebelow
 * [GuoKe GK4078-3VDC](https://www.aliexpress.com/store/product/GK4078-3VDC-GK4078-3VDC-GK4078-3VDC-1A-3V/1895287_32819750810.html)

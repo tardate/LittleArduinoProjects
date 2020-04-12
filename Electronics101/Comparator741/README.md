@@ -77,6 +77,7 @@ Arduino pins.
 ![The Build](./assets/Comparator741_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [How to Use the LM741 Op Amp as a Comparator](http://www.learningaboutelectronics.com/Articles/LM741-op-amp-comparator.php)
 * [Working of 741 IC Op-amp Comparator Circuit](http://www.circuitstoday.com/op-amp-comparator)

@@ -52,6 +52,7 @@ Here is a test run:
 ![Build](./assets/DHT11_build.jpg?raw=true)
 
 ## Credits and References
+
 * [DHT11 Humidity & Temperature Sensor](http://www.micropik.com/PDF/dht11.pdf) - D-Robotics UK
 * [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)
 * [Adafruit Unified Sensor Library](https://github.com/adafruit/Adafruit_Sensor)

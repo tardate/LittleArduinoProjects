@@ -57,6 +57,7 @@ But I tried some standard rectifier diodes, and a good old 1N4001 does a decent 
 ![The Build](./assets/ZenerModeEffects_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Steam Engine Simulator](http://www.talkingelectronics.com/projects/TheTransistorAmplifier/TheTransistorAmplifier-P2.html#MORE)
 * [Sound Simulator for Model Steam Engine US Patent 3,913,097](http://www.google.com/patents/US3913097)
 * [Stock Bachmann Sound Board](http://girr.org/girr/tips/tips1/big_hauler_tips.html)

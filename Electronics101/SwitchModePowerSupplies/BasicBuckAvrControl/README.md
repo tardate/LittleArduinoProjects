@@ -187,6 +187,7 @@ Conclusion?
 ![The Build](./assets/BasicBuckAvrControl_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Buck Converter](https://en.wikipedia.org/wiki/Buck_converter) - wikipedia
 * [DIY Buck Converter || How to step down DC voltage efficiently](https://www.youtube.com/watch?v=m8rK9gU30v4) - GreatScott!
 * [IRF9540 datasheet](https://www.futurlec.com/Transistors/IRF9540.shtml)

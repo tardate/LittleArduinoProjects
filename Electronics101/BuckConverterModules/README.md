@@ -110,11 +110,12 @@ Performance: quite impressive for the size. There's no scope capture below becau
 ![Breadboard](./assets/BuckConverterModules_bb.jpg?raw=true)
 
 In the test configuration, I have the buck converters adjusted to ~3V output,
-and two blue LEDs in parallel form the load. the LEDs have a forward voltage Vf of ~3V.
+and two blue LEDs in parallel with the load. The LEDs have a forward voltage Vf of ~3V.
 
 ![The Schematic](./assets/BuckConverterModules_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [LM2596 product page](http://www.ti.com/product/LM2596) - TI
 * [LM2596 datasheet](http://www.ti.com/lit/ds/symlink/lm2596.pdf) - TI
 * [LM2576 product page](http://www.ti.com/product/LM2576) - TI

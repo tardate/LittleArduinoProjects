@@ -104,6 +104,7 @@ And here are the 4 units blinking...
 ![PCB rear](./assets/UsbNotifier_pcb_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [USB Webmail Notifier](http://www.usbgeek.com/products/usb-webmail-notifier)
 * [USB Mail Notifier](http://club.dx.com/forums/forums.dx/threadid.382581) - dx.com
 * [SONiX SN8P2241 8-Bit OTP Microcontrollers product info](http://www.sonix.com.tw/article-en-1009-3146)

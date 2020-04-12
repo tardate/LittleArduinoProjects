@@ -28,6 +28,7 @@ The turn-off delay is implemented with a simple RC circuit: the R1=220kÎ© C1=10Î
 ![The Build](./assets/SwitchNFET_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#106 SwitchPFET](../SwitchPFET) - same circuit but using p-channel MOSFET
 * [LEAP#286 SwitchPowerNFET](../SwitchPowerNFET) - low-side power switching variation to this circuit
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)

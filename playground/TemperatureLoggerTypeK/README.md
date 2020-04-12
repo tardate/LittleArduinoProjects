@@ -148,6 +148,7 @@ Finally, it needs some calibration tests. It seems to be doing the right thing, 
 ![The Build](./assets/TemperatureLoggerTypeK_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LedTemperatureDisplay](../LedTemperatureDisplay) - project using LM35 to measure temperature
 * [Thermocouple#Type_K](https://en.wikipedia.org/wiki/Thermocouple#Type_K) - wikipedia
 * [EEVblog #419 - Thermocouple Tutorial](https://www.youtube.com/watch?v=AYblSfpKRUk)

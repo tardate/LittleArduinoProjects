@@ -150,6 +150,7 @@ Second, a trace of the sequential write update. The register updates are still n
 ![Build](./assets/MCP23S17_build.jpg?raw=true)
 
 ## Credits and References
+
 * [MCP23S17 datasheet and info](http://parts.io/detail/1371552/MCP23S17-E%2FSS) - parts.io
 * [MCP23S17 library](https://github.com/MajenkoLibraries/MCP23S17) - MajenkoLibraries - looks like an interesting library to try out
 * [MCP23S17 library](http://playground.arduino.cc/Main/MCP23S17) - n0mjs710 - another libary

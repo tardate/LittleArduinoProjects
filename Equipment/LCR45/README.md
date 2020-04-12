@@ -61,6 +61,7 @@ down into the µH range.
 So far, so good. An excellent piece of equipment to have on hand.
 
 ## Credits and References
+
 * [LCR45 Product Page](https://www.peakelec.co.uk/acatalog/lcr45-lcr-impedance-meter.html)
 * [LCR45 datasheet](http://www.peakelec.co.uk/downloads/lcr45-datasheet-en.pdf)
 * [LCR45 user guide](http://www.peakelec.co.uk/downloads/lcr45-userguide-en.pdf)

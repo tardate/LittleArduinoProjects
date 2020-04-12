@@ -106,6 +106,7 @@ Final construction .. the base is a repurposed box from the Boldport Club [Tap p
 ![Build](./assets/SolarPendulum_build.jpg?raw=true)
 
 ## Credits and References
+
 * [QSOP and 0805 breakout and soldering practice board](http://www.boldport.club/shop/product/437246682) - in the Boldport Shop
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)

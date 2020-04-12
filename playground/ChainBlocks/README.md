@@ -72,6 +72,7 @@ The time-domain plot for the generated output is like this:
 ![Build](./assets/ChainBlocks_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Chain Blocks](http://www.prextron.com/chain) - product site
 * [PrexLab](https://www.facebook.com/groups/1086037341416426/) - facebook
 * [LEAP#265 XYplotter](../XYplotter) - the scope XY plotting project

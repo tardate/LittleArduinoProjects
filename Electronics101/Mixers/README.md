@@ -90,6 +90,7 @@ Mixers are also available as packaged/connectorised units, for example:
 
 
 ## Credits and References
+
 * [Frequency mixer](https://en.wikipedia.org/wiki/Frequency_mixer) - wikipedia
 * [The Basics of Mixers](https://www.digikey.com/en/articles/techzone/2011/oct/the-basics-of-mixers) - digikey
 * [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design) - chapter 5.2

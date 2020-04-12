@@ -138,6 +138,7 @@ Here's a scope trace of the key-down output into a dummy load:
 
 
 ## Credits and References
+
 * [my redrawing of the Pixie schematic in EasyEDA](https://easyeda.com/tardate/pixie-4.3)
 * [QRP Pixie Kit CW 40 MeteShortwave Receiver Transmitter 7.023MHz DIY Kits With Buzzer Short-wave Radio Transmitter Receiver](https://www.aliexpress.com/item/QRP-Pixie-Kit-CW-40-MeteShortwave-Receiver-Transmitter-7-023MHz-DIY-Kits-With-Buzzer-Short-wave/32856804033.html)
 * [Similar Pixie Kit on banggood](https://www.banggood.com/DIY-CW-Transceiver-Radio-Shortwave-Radio-Telegraph-7_023-Kit-p-1063306.html) with an excellent [PDF manual here](http://files.banggood.com/2016/SKU420968%20S-Pixie%20User%20Manual.pdf)

@@ -40,6 +40,7 @@ NB: these diagrams use the [custom AMS1117 module fritzing part](../../FritzingP
 ![The Build](./assets/PowerAMS1117_build.jpg?raw=true)
 
 ## Credits and References
+
 * [AMS1117 datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
 * [Linear Regulator](https://en.wikipedia.org/wiki/Linear_regulator) - wikipedia
 * [item from aliexpress seller](https://www.aliexpress.com/item/1-Set-10Pcs-Useful-3-3V-1A-AMS1117-LM1117-1117-Voltage-Regulator-SR2985-Free-Shipping/32313333110.html)

@@ -50,6 +50,7 @@ up the current, redundant steering diodes could be added, or the current-limitin
 ![The Build](./assets/KnightRider_build.jpg?raw=true)
 
 ## Credits and References
+
 * [555-timer-circuits knight rider](http://www.555-timer-circuits.com/knight-rider.html) - the original circuit this project is based on.
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * [LM555 datasheet](https://www.futurlec.com/Linear/LM555CM.shtml)

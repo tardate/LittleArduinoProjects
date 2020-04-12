@@ -49,4 +49,5 @@ Quick peek inside. Not much to it - just a microcontroller with input signal and
 
 
 ## Credits and References
+
 * [GY560 Frequency Counter](https://www.aliexpress.com/item/GY560-Frequency-Counter-Mini-Handhold-Meter-for-Two-Way-Radio-Transceiver-GSM-50-MHz-2-4/32676085952.html) - from seller on aliexpress

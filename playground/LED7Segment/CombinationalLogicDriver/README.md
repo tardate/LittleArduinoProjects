@@ -280,6 +280,7 @@ Driving it with an Arduino, see the [CombinationalLogicDriver.ino](./Combination
 ![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Digital Logic & Computer Design](https://www.goodreads.com/book/show/325725.Digital_Logic_Computer_Design) - M. Morris Mano
 * [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) - wikipedia
 * [Combinational logic](https://en.wikipedia.org/wiki/Combinational_logic) - wikipedia

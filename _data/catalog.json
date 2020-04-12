@@ -28,7 +28,7 @@
         "name": "TL431 Multivibrator"
     }, 
     {
-        "description": "Building a programming baord for the ESP8266 07/12 variants", 
+        "description": "Building a programming board for the ESP8266 07/12 variants", 
         "relative_path": "ESP8266/ESP12/DIYDevBoard", 
         "id": "#540", 
         "categories": "ESP8266", 

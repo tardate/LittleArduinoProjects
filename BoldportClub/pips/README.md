@@ -44,6 +44,7 @@ I think I've fixed that. Can I interest you in my ICO?
 ![Build](./assets/pips_ico.jpg?raw=true)
 
 ## Credits and References
+
 * [Pips](https://www.boldport.com/products/pips) - official Boldport page
 * [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap402-rolling-with-the-boldportclub-pips.html)

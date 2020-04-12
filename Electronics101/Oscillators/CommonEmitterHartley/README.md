@@ -49,7 +49,7 @@ I used 1/4W RF chokes for the inductors and ceramic capacitors
 ![Schematic](./assets/CommonEmitterHartley_schematic.jpg?raw=true)
 
 
-## Breadbaord Construction
+## Breadboard Construction
 
 First testing with a breadboard build..
 
@@ -132,6 +132,7 @@ Scope trace for C1=100pF, R3=17Ω:
 
 
 ## Credits and References
+
 * [The Hartley Oscillator](http://www.learnabout-electronics.org/Oscillators/osc21.php) - www.learnabout-electronics.org
 * [Hartley Oscillator](https://en.wikipedia.org/wiki/Hartley_oscillator) - wikipedia
 * [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design) - section 4.2

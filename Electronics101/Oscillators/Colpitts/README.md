@@ -55,6 +55,7 @@ Here's the DC-coupled plot, with both channels shifted down -5V
 ![Protoboard Build](./assets/Colpitts_protoboard.jpg?raw=true)
 
 ## Credits and References
+
 * [Colpitts Oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
 * [The Colpitts Oscillator](http://www.electronics-tutorials.ws/oscillator/colpitts.html) - ElectronicsTutorials
 * [More Oscillators](http://www.talkingelectronics.com/projects/TheTransistorAmplifier/TheTransistorAmplifier-P2.html#MORE) - TE

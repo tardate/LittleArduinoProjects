@@ -29,6 +29,7 @@ This sketch is only using the very basic DS1307-compatible time functions, but t
 ![The Build](./assets/TimeDemo_build.jpg?raw=true)
 
 ## Credits and References
+
 * [DS3231 datasheet](https://www.maximintegrated.com/en/products/digital/real-time-clocks/DS3231.html)
 * [DS3232RTC library](https://github.com/JChristensen/DS3232RTC)
 * [Arduino Time library](http://playground.arduino.cc/Code/Time)

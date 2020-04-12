@@ -78,6 +78,7 @@ Closing the jumper straps the LM3915 mode-select pin 9 to V+, putting it into "b
 ![The Build](./assets/AudioLevelIndicatorKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM3915 datasheet](https://www.futurlec.com/Linear/LM3915N.shtml)
 * [LevelIndicatorLM3915](../../playground/LevelIndicatorLM3915) - project using the LM3915 to drive a display from an Arduino
 * [kit on aliexpress](https://www.aliexpress.com/item/Hot-Selling-1-PCS-LM3915-Audio-Level-Indicator-DIY-Kit-Electronic-Production-Suite-Good/32285582534.html)

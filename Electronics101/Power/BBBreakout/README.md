@@ -31,6 +31,7 @@ The end result:
 ![Build](./assets/BBBreakout_build.jpg?raw=true)
 
 ## Credits and References
+
 * [5.5x2.1mm centre-positive barrel jack](https://www.aliexpress.com/item/10PCS-5-5x2-1mm-Electrical-Socket-Outlet-DC-005-DC-Outlet-5000-Times-Black/32265586514.html)
 * [2-pin terminal block](https://www.aliexpress.com/item/Free-Shipping-20pcs-2-Pin-Screw-Terminal-Block-Connector-5mm-Pitch-B/663929906.html)
 * [XH2.54-2P connector](https://www.aliexpress.com/store/product/5OPCS-XH2-54-2P-2-54mm-2A-Pitch-White-Tower-Connector-Straight-Needle-Seat-XH2-54/1246743_32787163509.html)

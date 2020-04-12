@@ -211,6 +211,7 @@ Oscillator:
 ![The Build](./assets/InvertingChargePump_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Charge Pump](https://en.wikipedia.org/wiki/Charge_pump) - wikipedia
 * [555 DC boost converter circuits](http://www.eleccircuit.com/the-many-dc-to-dc-converters-using-ic-555/) - original source of circuit design
 * [NE555 Datasheet](http://www.ti.com/lit/ds/symlink/ne555.pdf)

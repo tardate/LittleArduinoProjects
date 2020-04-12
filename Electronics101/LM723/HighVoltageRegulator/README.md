@@ -81,5 +81,6 @@ As I reduce the supply voltage, it starts to lose regulation at about 10.6V.
 ![Build](./assets/HighVoltageRegulator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM723 Datasheet](https://www.futurlec.com/Linear/LM723CN.shtml)
 * [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)- Chapter 6, Second Edition

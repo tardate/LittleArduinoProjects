@@ -58,6 +58,7 @@ Replacing the LM324 with TL074CN, circuit loses some dynamic range and has signi
 ![The Build](./assets/VariableSawtoothGenerator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [#104: Circuit tutorial: sawtooth generator w/ current sources, diode switches, hysteresis comparator](https://youtu.be/ibnz5UjQ4u0) - w2aew
 * [Transistor current source with diode compensation](https://en.wikipedia.org/wiki/Current_source) - wikipedia
 * [Comparator Hysteresis](https://en.wikipedia.org/wiki/Comparator#Hysteresis) - wikipedia

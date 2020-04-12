@@ -94,7 +94,7 @@ The voltage at the join between R1 and R2 is given by the equation:
 
     V = R2 / (R1 + R2)
 
-This equation is actually derived form Ohm's Law.
+This equation is actually derived from Ohm's Law.
 
 A potentiometer is in effect a voltage divider in a single package, with the wiper tapping the connection of the upper and lower resistaances (R1, R2 respectively).
 
@@ -110,6 +110,7 @@ A simple experiment to demonstrate the reliability of the Voltage Divider equati
 
 
 ## Credits and References
+
 * [Potentiometer](https://en.wikipedia.org/wiki/Potentiometer)
 * [Rheostat](https://en.wikipedia.org/wiki/Potentiometer#Rheostat)
 * [Ohm's Law](https://en.wikipedia.org/wiki/Ohm%27s_law) - wikipedia

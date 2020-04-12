@@ -216,6 +216,7 @@ All told, this turned out pretty well, though there are a couple of things I wou
 
 
 ## Credits and References
+
 * [Scullcom Hobby Electronics #44 - Millivolt Meter MK2](https://www.youtube.com/watch?v=CiTPUmqE3Yg) - YouTube
 * [Millivolt Meter MK2](http://www.scullcom.uk/millivolt-meter-mk2/) - more info on on www.scullcom.uk
 * [LEAP#372 MilliVoltmeterDIY](../) - precursor: details my adaptation of the design and breadboard testing

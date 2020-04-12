@@ -154,6 +154,7 @@ Here's a video of the frame:
 ![bug_case_rear](./assets/bug_case_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [Monarch](https://www.boldport.com/products/the-monarch) - Boldport product information
 * [Monarch](http://www.boldport.club/shop/product/1033698228) - in the Boldport shop
 * [Monarch](https://github.com/boldport/monarch) - OSH files on GitHub

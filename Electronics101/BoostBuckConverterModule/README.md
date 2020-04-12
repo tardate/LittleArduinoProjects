@@ -118,6 +118,7 @@ Specifications:
 
 
 ## Credits and References
+
 * [module from seller on aliexpress](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
 * [LM2577 product info](http://www.ti.com/product/lm2577)
 * [LM2596 product info](http://www.ti.com/product/lm2596)

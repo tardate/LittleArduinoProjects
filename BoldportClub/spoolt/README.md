@@ -54,6 +54,7 @@ There are 10 LEDs in parallel, although there's actually space for more.
 ![Build](./assets/spoolt_build.jpg?raw=true)
 
 ## Credits and References
+
 * [spoolt](https://www.boldport.com/products/spoolt/) - Boldport Product Page
 * [spoolt](http://community.boldport.club/projects/p15-spoolt/) - on the community site
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)

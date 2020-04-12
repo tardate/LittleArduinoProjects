@@ -131,7 +131,8 @@ Functions:
 |   2 | J2,3       | 2-pin connector                 |
 |   1 |            | PCB                             |
 
-## Credits and references
+## Credits and References
+
 * [AT89C2051 Electronic Clock](https://www.aliexpress.com/item/1Pcs-New-DIY-Kits-AT89C2051-Electronic-Clock-Suite-Electronic-Parts-Components/2045978940.html)
 * [78L05 Datasheet](https://www.futurlec.com/Linear/78L05.shtml)
 * [S8550 Datasheet](http://www.unisonic.com.tw/datasheet/S8550.pdf)

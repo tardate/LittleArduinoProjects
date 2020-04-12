@@ -72,6 +72,7 @@ The finished noise maker..
 ![Build](./assets/krell_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Krell](http://boldport.com/krell) - product page
 * [Krell](https://www.boldport.club/shop/product/1736879828) - Boldport store
 * [Krell source code](https://github.com/clubmadlab/Krell)

@@ -99,6 +99,7 @@ Notes:
 ![The Build](./assets/SCRLatch_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Silicon controlled rectifier](https://en.wikipedia.org/wiki/Silicon_controlled_rectifier) - wikipedia
 * [BT169D datasheet](http://www.icpdf.com/PHILIPS_datasheet/BT169_pdf_855967/BT169_datasheet.html)
 * [Thyristors & Triacs - Ten Golden Rules for Success In Your Application](http://www.nxp.com/documents/application_note/AN_GOLDEN_RULES.pdf) - great document, pretty much all you need to know!

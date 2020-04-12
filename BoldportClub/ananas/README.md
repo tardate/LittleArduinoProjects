@@ -75,6 +75,7 @@ Installed in the ananas:
 ![chirpy_installation](./assets/chirpy_installation.jpg?raw=true)
 
 ## Credits and References
+
 * [ananas](https://www.boldport.com/products/ananas) - product page
 * [ananas](http://community.boldport.club/projects/p20-ananas/) - on the community site
 * [phase-shift oscillator](https://en.wikipedia.org/wiki/Phase-shift_oscillator) - wikipedia

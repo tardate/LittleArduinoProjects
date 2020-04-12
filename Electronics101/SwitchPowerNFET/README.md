@@ -65,6 +65,7 @@ With a pure 10kΩ resistive load, it's easier to see the hard on/off control.
 ![Build](./assets/SwitchPowerNFET_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#66 SwitchNFET](../SwitchNFET) - basic n-channel MOSFET switching
 * [IRF3205 datasheet](https://www.futurlec.com/Transistors/IRF3205.shtml)
 * [MOSFET as a Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html) - electronics-tutorials

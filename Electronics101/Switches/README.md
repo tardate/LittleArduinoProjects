@@ -33,6 +33,7 @@ The number of "throws" is the number of separate wiring path choices other than 
 * Snap-action -  typically used as sensors
 
 ## Credits and References
+
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
 * [Encyclopedia of Electronic Components Volume 1](https://www.goodreads.com/book/show/17017467-encyclopedia-of-electronic-components-volume-1)
 * [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)

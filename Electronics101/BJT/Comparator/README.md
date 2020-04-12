@@ -84,6 +84,7 @@ Here's a scope trace that captures some manual manipulation of the input and ref
 
 
 ## Credits and References
+
 * [Comparator](https://en.wikipedia.org/wiki/Comparator) - wikipedia
 * [how would one design a comparator using just discrete BJTs](https://www.physicsforums.com/threads/bjt-comparator.470946/)
 * [Voltage Comparator Circuits](http://www.bristolwatch.com/ele/vc.htm)

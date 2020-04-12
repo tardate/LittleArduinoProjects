@@ -19,7 +19,8 @@ I could swap the 10k resistor and the LDR to switch the readings scale: i.e. app
 
 ![The Breadboard Schematic](./assets/LightOrNot_bb.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * Based on the [Arduino AnalogInput](http://www.arduino.cc/en/Tutorial/AnalogInput) example
 * [Simple Light Reading With LDR + Arduino](http://bildr.org/2012/11/photoresistor-arduino/) project and discussion
 

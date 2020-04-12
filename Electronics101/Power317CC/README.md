@@ -53,6 +53,7 @@ Some notes on the circuit:
 ![The Build](./assets/Power317CC_build3.jpg?raw=true)
 
 ## Credits and References
+
 * [LM317 datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
 * [Laser / LED Driver and Constant Current Source Tutorial!](https://youtu.be/iuMngik0GR8) - excellent video on the subject
 

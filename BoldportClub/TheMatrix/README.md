@@ -65,6 +65,7 @@ After an initial inspection, I only had a couple of manual fixups required:
 ![Build](./assets/TheMatrix_build.jpg?raw=true)
 
 ## Credits and References
+
 * [The Matrix](http://www.boldport.club/shop/product/687424508) - in the Boldport shop
 * [The Matrix](http://boldport.com/matrix) - project page
 * [The Matrix](https://github.com/boldport/thematrix) - OSH files on GitHub

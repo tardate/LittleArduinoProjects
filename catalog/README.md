@@ -33,6 +33,7 @@ Note: I previously used GitHub Pages, but switched to NEtlify as that allows me 
 
 
 ## Credits and References
+
 * [Netlify](https://www.netlify.com/)
 * [LetsEncrypt](https://letsencrypt.org/)
 * [GitHub Pages](https://pages.github.com/)

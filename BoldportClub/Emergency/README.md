@@ -81,6 +81,7 @@ Power on, and it's blinking! Why? Because!
 ![Build](./assets/Emergency_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Emergency](http://www.boldport.com/blog/2014/02/the-tiny-engineer-superhero-emergency.html) - on the Boldport blog
 * [Emergency](http://www.boldport.club/shop/product/235066412) - in the Boldport shop
 * [Emergency](https://github.com/boldport/emergency) - OSH files on GitHub

@@ -50,5 +50,6 @@ Here's a very unexciting demonstration of a quick test:
 [![LISIbO5tJvY](https://img.youtube.com/vi/LISIbO5tJvY/0.jpg)](https://www.youtube.com/watch?v=LISIbO5tJvY)
 
 ## Credits and References
+
 * [TL431 datasheet](http://www.ti.com/lit/ds/symlink/tl431a.pdf)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap360-tl431-shunt-regulator.html)

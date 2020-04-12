@@ -35,6 +35,7 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 ![Build](./assets/AdafruitSoftwareSPI_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - GitHub
 * [LEAP#365 AdafruitHardwareSPI](../AdafruitHardwareSPI) - same project using hardware SPI
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap365366-driving-nokia-5110-lcd-with-adafruit-library.html)

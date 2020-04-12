@@ -87,7 +87,8 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 
 ![The Build](./assets/CapacitanceTester_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [RC time constant](http://en.wikipedia.org/wiki/RC_time_constant)
 * [Capacitor Code Calculator](http://www.electronics2000.co.uk/calc/capacitor-code-calculator.php) - good for looking up those pesky ceramics
 * [QC1602A 16x2 LCD datasheet](./assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))

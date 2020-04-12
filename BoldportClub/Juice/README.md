@@ -70,6 +70,7 @@ Here's the Juice replacing a 2xAA battery holder:
 ![Juice_2xAA_replacement](./assets/Juice_2xAA_replacement.jpg?raw=true)
 
 ## Credits and References
+
 * [ST LDF info/datasheet](http://www.st.com/content/st_com/en/products/power-management/linear-voltage-regulators/low-dropout-ldo-linear-regulators/ldf.html)
 * [Boldport Juice](https://www.boldport.com/products/juice) - official product page
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap311-the-boldport-club-juice.html)

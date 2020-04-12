@@ -34,6 +34,7 @@ The demo sketch does two things:
 ![The Build](./assets/MultiSlaveSPI_build.jpg?raw=true)
 
 ## Credits and References
+
 * [7-segment LED module](../LED7Segment/ShiftDriveModule)
 * [CounterModule](../CounterModule)
 * [Arduino SPI library](https://www.arduino.cc/en/Reference/SPI)

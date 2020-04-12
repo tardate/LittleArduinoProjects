@@ -146,6 +146,7 @@ but with the QX5252 boost it performs quite well:
 
 
 ## Credits and References
+
 * [FLED-based solar engines](http://solarbotics.net/library/circuits/se_t1_fled.html)
 * [QX5252 product info](http://www.qxmd.com.cn/en/?product/QX5252.html)
 * [1N5711 datasheet](https://www.futurlec.com/Diodes/1N5711.shtml)

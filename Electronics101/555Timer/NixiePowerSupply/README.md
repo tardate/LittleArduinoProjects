@@ -324,6 +324,7 @@ Removes active pulldown circuit and adjusts RC snubber component values
 
 
 ## Credits and References
+
 * [Nixie tube](https://en.wikipedia.org/wiki/Nixie_tube) - wikipedia
 * [A simple boost converter high voltage supply for NIXIEs](http://www.dos4ever.com/flyback/flyback.html#boost2) - perhaps one of the earliest exampels of a 555 boost circuit for Nixies
 * [HIGH VOLTAGE POWER SUPPLY FOR NIXIE AND VALVE TUBES by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/) - instructables

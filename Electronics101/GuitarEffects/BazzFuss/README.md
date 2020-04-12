@@ -63,6 +63,7 @@ Construction complete ... the internals:
 ![Build](./assets/BazzFuss_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Bazz Fuss](http://home-wrecker.com/bazz.html) - main home at home-wrecker.com
 * [Build a Guitar Pedal in 10 mins! (Fuzz)](https://www.youtube.com/watch?v=Rv5iQ_aenX8) - DIY Guitar Pedals
 * [S9013 datasheet](https://www.futurlec.com/Transistors/S9013.shtml)

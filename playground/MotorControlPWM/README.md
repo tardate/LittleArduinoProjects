@@ -29,6 +29,7 @@ the motor to drain any voltage spike as the motor load is switched.
 
 ![Breadboard Build](./assets/MotorControlPWM_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [brushed DC motors](http://en.wikipedia.org/wiki/Brushed_DC_electric_motor)

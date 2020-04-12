@@ -232,7 +232,7 @@ it would be reasonable to expect the further tests would fair no better, and lik
 
 So what could be contributing to the error levels I'm seeing. Some possibilities:
 
-1. excessive noise in the experimental setup. All the tests so far have been performed on a breadboard, using the 5V supply form the Arduino
+1. excessive noise in the experimental setup. All the tests so far have been performed on a breadboard, using the 5V supply from the Arduino
 2. the LMV324 op-amp buffer varies from the ideal buffer model and actively interferes with the switched-capacitor sampling model used by the LTC2400
 3. faulty components? The LT1019 and LTC2400 chips I'm using ware obtained from a reputable channel so I would not blame the parts in the first instance. I have also switched chips along the way and results remain consistent
 4. I've made some fundamental mistake here in the application, or understanding of how to correctly use the LTC2400
@@ -495,6 +495,7 @@ Some things I'd like to try next:
 
 
 ## Credits and References
+
 * [LTC2400 Product Info and Datasheet](http://www.linear.com/product/LTC2400)
 * [LT1019 Product Info and Datasheet](http://www.linear.com/product/LT1019)
 * [LMV324 Datasheet](https://www.fairchildsemi.com/datasheets/LM/LMV324.pdf)

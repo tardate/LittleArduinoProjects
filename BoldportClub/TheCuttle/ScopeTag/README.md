@@ -47,6 +47,7 @@ The time-domain plot for the generated output is like this:
 ![ScopeTag_breadboard](./assets/ScopeTag_breadboard.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#265 XYplotter](../../playground/XYplotter) - the scope XY plotting project
 * [LEAP#266 The Cuttle](../) - building the cuttle
 * [MCP42010 datasheet](http://parts.io/detail/1372149/MCP42010-I%2FSL) - parts.io

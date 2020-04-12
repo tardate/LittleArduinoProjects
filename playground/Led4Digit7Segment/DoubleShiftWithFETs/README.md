@@ -22,7 +22,8 @@ an average of about 2.47mA (compared to 2.87mA with BJTs).
 
 ![The Build](./assets/DoubleShiftWithFETs_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty stanrd example

@@ -130,6 +130,7 @@ Frequency reduced to ~4 Hz, and duty cycle over 50%..
 ![Build](./assets/Pease_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Pease](http://www.boldport.club/shop/product/206712811) - in the Boldport shop
 * [Pease](http://www.boldport.com/products/pease-second-edition/) - project page
 * [Pease](https://github.com/boldport/pease-2ed) - OSH files on GitHub

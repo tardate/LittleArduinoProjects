@@ -103,6 +103,7 @@ With the LED load attached, the waveform is more complex:
 ![Build](./assets/widlar_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Widlar](http://www.boldport.com/widlar) - official Boldport page
 * [μA723 Datasheet](http://www.ti.com/lit/ds/symlink/ua723.pdf)
 * [OpAmp Oscillators](https://www.allaboutcircuits.com/worksheets/opamp-oscillator-circuits/)

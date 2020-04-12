@@ -91,6 +91,7 @@ This is the schematic available from most vendors:
 ![Build](./assets/MusicLightKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [CD4060 Dream Music Light DIY Kit](https://www.aliexpress.com/item/CD4060-Dream-Music-Light-DIY-Kit-Birthday-Gift-Suite-Electronic-Production-of-DIY-Parts/32748833397.html) - from a seller on aliexpress
 * [C1815 datasheet](https://www.futurlec.com/Transistors/C1815.shtml)
 * [S9012 datasheet](https://www.futurlec.com/Transistors/S9012.shtml)

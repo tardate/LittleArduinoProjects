@@ -71,6 +71,7 @@ Hmm, there's not much guidance, but here ar ea few things that seem to apply (in
 
 
 ## Credits and References
+
 * [Fritzing](http://fritzing.org/home/)
 * [KiCad](http://kicad-pcb.org/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects223-fritzing-the-boldport-cuttle.html)

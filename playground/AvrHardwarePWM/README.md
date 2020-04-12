@@ -280,6 +280,7 @@ OCR2B  : 10111111
 ![AvrHardwarePWM_breadboard](./assets/AvrHardwarePWM_breadboard.jpg?raw=true)
 
 ## Credits and References
+
 * LEAP: [AvrHardwarePWM/ATtiny](./ATtiny) project for a similar treatment, specifically for the ATtiny85 processor
 * [analogWrite](https://www.arduino.cc/en/Reference/analogWrite)
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)

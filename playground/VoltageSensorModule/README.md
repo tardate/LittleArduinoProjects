@@ -79,6 +79,7 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 ![The Build](./assets/VoltageSensorModule_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Voltage Sensor Module](https://www.aliexpress.com/item/Standard-Voltage-Sensor-Module-Test-Electronic-Bricks-For-Robot-For-Arduino/32265558651.html) - from seller on aliexpress
 * [Voltage Sensor Module](../../FritzingParts/VoltageSensorModule) fritzing part
 * [SMD resistor code calculator](http://www.hobby-hour.com/electronics/smdcalc.php)

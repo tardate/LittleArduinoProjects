@@ -61,6 +61,7 @@ Note: the schematic shows 1kΩ current-limiting resistors R3, R4 for the red LED
 
 ![The Build](./assets/LevelIndicatorLM3915_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [LM3915 datasheet](https://www.futurlec.com/Linear/LM3915N.shtml)
 * [AudioLevelIndicatorKit](../../Electronics101/AudioLevelIndicatorKit) - project using the LM3915 in an audio level kit build

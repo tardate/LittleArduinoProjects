@@ -182,6 +182,7 @@ Doing more research on how it worked and writing these notes took far longer;-)
 
 
 ## Credits and References
+
 * [Adafruit IO](https://learn.adafruit.com/welcome-to-adafruit-io)
 * [Adafruit MQTT Library](https://github.com/adafruit/Adafruit_MQTT_Library)
 * [MQTT](https://en.wikipedia.org/wiki/MQTT) - wikipedia

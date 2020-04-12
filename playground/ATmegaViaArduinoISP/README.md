@@ -76,6 +76,7 @@ Here's a circuit (actually [LEAP#368 GranularSynth](../../Audio/GranularSynth)) 
 
 
 ## Credits and References
+
 * [LEAP#099 ATmegaISPShield](../ATmegaISPShield) - a DIY shield version of this project
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)

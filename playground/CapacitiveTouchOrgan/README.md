@@ -83,6 +83,7 @@ All connections on the underside of the cardboard base:
 ![CapacitiveTouchOrgan_build_reverse](./assets/CapacitiveTouchOrgan_build_reverse.jpg?raw=true)
 
 ## Credits and References
+
 * [MPR121: Proximity Capacitive Touch Sensor Controller](https://www.nxp.com/products/no-longer-manufactured/proximity-capacitive-touch-sensor-controller:MPR121) - archived product data
 * [MPR121 Hookup Guide](https://learn.sparkfun.com/tutorials/mpr121-hookup-guide) - sparkfun
 * [1-Day Project: MPR121 Capacitive Touch Sensor Music Organ](https://www.youtube.com/watch?v=AhVizoU8CB4) - Julian Ilett

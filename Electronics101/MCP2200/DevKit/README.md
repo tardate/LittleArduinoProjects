@@ -221,6 +221,7 @@ See [LEAP#335 Chaser](../Chaser) for a demonstration of input and output capabil
 
 
 ## Credits and References
+
 * [MCP2200 datasheet and info](http://www.microchip.com/wwwproducts/en/en546923)
 * [MCP2200 Breakout Module](http://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=ADM00393)
 * [MCP2200 HID Interface Command Description](http://ww1.microchip.com/downloads/en/DeviceDoc/93066A.pdf)

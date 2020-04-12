@@ -95,6 +95,7 @@ And here's the final module
 ![Build](./assets/Chaser_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#334 MCP2200/DevKit](../DevKit)
 * [MCP2200 HID Interface Command Description](http://ww1.microchip.com/downloads/en/DeviceDoc/93066A.pdf)
 * [hidapi source](http://www.signal11.us/oss/hidapi/)

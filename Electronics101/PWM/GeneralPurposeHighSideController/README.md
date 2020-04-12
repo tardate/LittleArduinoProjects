@@ -78,6 +78,7 @@ Protoboard/boxed construction:
 ![GeneralPurposeHighSideController_build](./assets/GeneralPurposeHighSideController_build.jpg?raw=true)
 
 ## Credits and References
+
 * [MOSFET as a switch?](http://electronics.stackexchange.com/questions/67343/mosfet-as-a-switch) - EE.SO
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)

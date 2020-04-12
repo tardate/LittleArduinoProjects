@@ -20,4 +20,5 @@ A project by oweibo to monitor water quality.
 ![The Schematic](./assets/WaterQualityMonitor_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [oweibo](https://github.com/oweibo) - author/contributor of this project

@@ -29,6 +29,7 @@ This circuit is a simple demonstration of a switch in the 5V circuit controlling
 ![The Build](./assets/BidirectionalLevelShifter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [BidirectionalLevelShifterModule](../BidirectionalLevelShifterModule) - similar project, but using a level-shift module
 * [Philips Application Note AN97055](http://cdn.sparkfun.com/tutorialimages/BD-LogicLevelConverter/an97055.pdf)
 * [Bi-Directional Logic Level Converter Hookup Guide](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide) - excellent resource from sparkfun

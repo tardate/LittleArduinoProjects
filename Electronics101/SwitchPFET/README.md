@@ -28,6 +28,7 @@ When the switch is opened, C1 takes some time to discharged, hence then FET is d
 ![The Build](./assets/SwitchPFET_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#66 SwitchNFET](../SwitchNFET) - same circuit but using n-channel MOSFET
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [P-channel MOSFET Switch](http://www.electronics-tutorials.ws/transistor/tran_7.html)

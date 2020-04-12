@@ -110,6 +110,7 @@ With stickers attached to the case:
 
 
 ## Credits and References
+
 * [Lite2Sound BC](https://www.boldport.com/products/lite2sound-bc) - product page
 * [Photodiode Daylight elimination](https://www.electronicspoint.com/threads/photodiode-daylight-elimination.259609/)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap419-boldport-lite2sound.html)

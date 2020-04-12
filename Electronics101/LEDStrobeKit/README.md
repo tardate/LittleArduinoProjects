@@ -122,6 +122,7 @@ This is exactly what Julian Ilett covered in
 ![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [S8050 Datasheet](http://electronics.se-ed.com/magic/s8050.pdf) - NPN BJT, note there are other S8050 transistor datasheets on the web that purport to be PNP e.g. [S8050 PNP Datasheet](https://www.futurlec.com/Transistors/S8050.shtml)

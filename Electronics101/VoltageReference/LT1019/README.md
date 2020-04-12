@@ -47,6 +47,7 @@ to drive the 5110 display with hardware [SPI](https://www.arduino.cc/en/Referenc
 ![Build](./assets/LT1019_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LT1019 info and datasheet](http://www.linear.com/product/LT1019)
 * [analogReference()](https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/)
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - GitHub

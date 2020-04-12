@@ -67,6 +67,7 @@ The ones I have are rated for at least 25V.
 ![Build](./assets/DicksonChargePump_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Dickson Charge Pump](https://en.wikipedia.org/wiki/Voltage_multiplier#Dickson_charge_pump) - wikipedia
 * [1N4742 datahseet](https://www.futurlec.com/Diodes/1N4742.shtml)
 * [12 Volt Arduino-based Charge Pump](https://sites.google.com/site/wayneholder/12-volt-charge-pump) - similar project used as inspiration

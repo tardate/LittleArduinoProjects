@@ -87,6 +87,7 @@ As I reduce the supply voltage, it starts to lose regulation at about 8.9V.
 ![Build](./assets/LowVoltageRegulator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM723 Datasheet](https://www.futurlec.com/Linear/LM723CN.shtml)
 * [Bob Widlar's 723 Chip Toolkit Adventures](https://www.boldport.com/blog/bob-widlar-723) - Jenny List, Boldport blog
 * [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)- Chapter 6, Second Edition

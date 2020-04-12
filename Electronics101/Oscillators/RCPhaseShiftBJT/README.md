@@ -107,6 +107,7 @@ Results with an ugly-style construction on a copper PCB are much closer to theor
 ![Build](./assets/RCPhaseShiftBJT_build.jpg?raw=true)
 
 ## Credits and References
+
 * [RC Oscillator](https://en.wikipedia.org/wiki/RC_oscillator) - wikipedia
 * [High-pass Filter](https://en.wikipedia.org/wiki/High-pass_filter) - wikipedia
 * [Phase Shift Oscillators](http://www.learnabout-electronics.org/Oscillators/osc31.php)

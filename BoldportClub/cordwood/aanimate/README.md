@@ -29,6 +29,7 @@ See the [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/Pi
 ![Build](./assets/aanimate_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Cordwood on GitHub](https://github.com/aaronjasso/Cordwood) - library by aaronjasso
 * [LEAP#269 cordwood](../) - building the BoldportClub cordwood
 * [LEAP#266 The Cuttle](../../TheCuttle) - building the BoldportClub Cuttle

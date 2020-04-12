@@ -48,6 +48,7 @@ for plotting with [PlotNValues](../../../processing/PlotNValues) (a simple Proce
 ![The Build](./assets/AND_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Resistor-Transistor Logic](https://en.wikipedia.org/wiki/Resistor%E2%80%93transistor_logic) - wikipedia page
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml) - the NPN used in this circuit
 * [AND Gate](http://en.wikipedia.org/wiki/AND_gate) - wikipedia

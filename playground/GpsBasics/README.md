@@ -189,6 +189,7 @@ And details logged to serial output:
 
 
 ## Credits and References
+
 * [LEAP#377 Nokia 5110 Shield](../Lcd5110/DIYShield)
 * [Ublox GY-NEO6MV2 GPS Module](https://www.aliexpress.com/item/New-Arrival-Ublox-GY-NEO6MV2-GPS-Module-Aircraft-Flight-Controller-For-Arduino-APM-2-5-Module/32611452973.html) - from seller on aliexpress
 * [GY-NEO6MV2 GPS Module](https://www.openimpulse.com/blog/products-page/product-category/gy-neo6mv2-gps-module/) - similar device, with datasheet available

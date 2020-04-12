@@ -22,6 +22,7 @@ That leaves the main loop() for doing other things.
 ![The Build](.././assets/LEDArrayDemos_build.jpg?raw=true)
 
 ## Credits and References
+
 * [FastLED library](http://fastled.io)
 * [FlexiTimer2 library](https://github.com/wimleers/flexitimer2)
 * [WS2811-based LED array](https://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) - the particular LED array I have been using

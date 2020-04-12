@@ -64,6 +64,7 @@ All the pot plants lined up:
 
 
 ## Credits and References
+
 * [respot](https://www.boldport.com/products/respot/) - product page
 * [respot](http://community.boldport.club/projects/p30-respot/) - on the community site
 * [LEAP#414 DecadeProgrammableResistor](../../Electronics101/DecadeProgrammableResistor)

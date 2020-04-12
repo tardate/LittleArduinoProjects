@@ -179,6 +179,7 @@ Passives selection:
 ![VariableBoost_build2](./assets/VariableBoost_build2.jpg?raw=true)
 
 ## Credits and References
+
 * [MT3608 datasheet](https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf)
 * [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)

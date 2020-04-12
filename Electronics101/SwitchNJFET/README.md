@@ -47,6 +47,7 @@ NB: in the schematic below, the FET symbol is not quite correct (shows n-channel
 ![The Build](./assets/SwitchNJFET_build.jpg?raw=true)
 
 ## Credits and References
+
 * [SwitchNFET](../SwitchNFET) - same circuit but using n-channel MOSFET
 * [SwitchPJFET](../SwitchPJFET) - similar circuit but using p-channel JFET
 * [J201 datasheet](https://www.futurlec.com/Transistors/J201.shtml)

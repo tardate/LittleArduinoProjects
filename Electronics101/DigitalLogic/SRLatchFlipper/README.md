@@ -44,6 +44,7 @@ The plot demonstrates:
 ![The Build](./assets/SRLatchFlipper_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#061 SRLatch](../SRLatch) - same project, but with manual inputs rather than Arduino control
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [SR latch](https://en.wikibooks.org/wiki/Digital_Circuits/Latches#SR_latch) - wikibooks

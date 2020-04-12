@@ -93,6 +93,7 @@ One just needs to include the corresponding header file in the main script.
 ![Build](./assets/SimpleSamplePlayer_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Simple Arduino audio samples](http://highlowtech.org/?p=1963) - blog post introducing the idea I usde for this project
 * [PCM](https://github.com/damellis/PCM) Arduino library by damellis
 * [audacity](https://www.audacityteam.org/)

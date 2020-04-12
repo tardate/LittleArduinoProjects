@@ -67,6 +67,7 @@ Here's a sample trace for [R1=10k, R2=330k and C1=2uF](http://visual555.tardate.
 ![The Build](./assets/AstableOscillator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC)

@@ -125,6 +125,7 @@ And powered up:
 Next steps - I'm thinking about adding a mount so that I can hook the unit to the top of my monitor. Later...
 
 ## Credits and References
+
 * [LEAP#425 Boldport 3x7](../)
 * [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) library
 * [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)

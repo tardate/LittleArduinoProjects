@@ -101,6 +101,7 @@ Measurements in action...
 ![probe city](./assets/Comparator_probe_city.jpg?raw=true)
 
 ## Credits and References
+
 * [ML741](../) - the ML741 discrete component project
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Comparator](https://en.wikipedia.org/wiki/Comparator) - wikipedia

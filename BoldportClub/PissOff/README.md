@@ -266,6 +266,7 @@ As part of verifying the circuit, I redrew the schematic in Fritzing:
 
 
 ## Credits and References
+
 * [PissOff](http://www.boldport.club/shop/product/527975670) - in the Boldport shop
 * [PissOff](http://boldport.com/pissoff) - project page
 * [PissOff](https://github.com/boldport/pissoff) - OSH files on GitHub

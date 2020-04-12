@@ -137,6 +137,7 @@ Finished:
 ![UltrasonicAlarm_build](./assets/UltrasonicAlarm_build.jpg?raw=true)
 
 ## Credits and References
+
 * [HC-SR04 Datasheet](http://www.micropik.com/PDF/HCSR04.pdf)
 * [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)

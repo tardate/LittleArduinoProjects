@@ -41,5 +41,6 @@ The circuit diagram uses a custom 74LS75 Fritzing Part [available here](../../Fr
 ![The Build](./assets/QuadLatch_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Download Processing](https://www.processing.org/download/)
 * [74LS75 Datasheet](https://www.futurlec.com/74LS/74LS75.shtml)

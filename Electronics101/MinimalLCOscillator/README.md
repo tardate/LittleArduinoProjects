@@ -45,6 +45,7 @@ is not particularly stable and there's a distinct second harmonic.
 ![The Build](./assets/MinimalLCOscillator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [1MHz Oscillator](https://www.youtube.com/watch?v=1IJ284kV6zY) - stoneslice
 * [Colpitts oscillator](https://en.wikipedia.org/wiki/Colpitts_oscillator) - wikipedia
 * [J201 datasheet](https://www.futurlec.com/Transistors/J201.shtml)

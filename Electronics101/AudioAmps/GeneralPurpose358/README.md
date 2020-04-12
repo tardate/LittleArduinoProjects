@@ -57,6 +57,7 @@ Laid out on a protoboard:
 ![Build](./assets/GeneralPurpose358_build_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [Op-Amp Audio Amplifier](http://www.techlib.com/electronics/audioamps.html#op-amp) - LM358
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [2N3904](http://parts.io/detail/5427230/2N3904)

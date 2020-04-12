@@ -72,6 +72,7 @@ Here's a quick demo, "fast mode".
 [![Zv6acP0ddqo](https://img.youtube.com/vi/Zv6acP0ddqo/0.jpg)](https://www.youtube.com/watch?v=Zv6acP0ddqo)
 
 ## Credits and References
+
 * [BINCO](https://www.boldport.com/products/binco) - product page
 * [BINCO](http://community.boldport.club/projects/p19-binco/) - on the community site
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)

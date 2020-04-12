@@ -48,6 +48,7 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 ![The Build](./assets/PowerZener_build.jpg?raw=true)
 
 ## Credits and References
+
 * [1N4733 datasheet](https://www.futurlec.com/Diodes/1N4733.shtml)
 * [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino
 * [Download Processing](https://www.processing.org/download/)

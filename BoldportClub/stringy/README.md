@@ -72,6 +72,7 @@ The [microchip PIC12F1840](http://www.microchip.com/wwwproducts/en/PIC12F1840) s
 ![Schematic](./assets/stringy_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [stringy](https://www.boldport.com/products/stringy/) - Boldport Product Page
 * [stringy](http://community.boldport.club/projects/p14-stringy/) - on the community site
 * [stringy software](https://github.com/boldport/stringy/tree/master/software)

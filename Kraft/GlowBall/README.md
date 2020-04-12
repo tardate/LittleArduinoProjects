@@ -70,6 +70,7 @@ FWIW, here are my scratchy notes on how I laid out the protoboard:
 ![GlowBall_build](./assets/GlowBall_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#337 RgbLedGlow](../../Electronics101/RgbLedGlow) - project where I experimented with the basic RGB LED glow circuit
 * [LEAP#231 LEDDimmer/CurrentRegulator](../../Electronics101/LEDDimmer/CurrentRegulator) - the project I borrowed the LED dimmer circuit from
 * [Glass Eye Studio](http://www.glasseyestudio.com/)

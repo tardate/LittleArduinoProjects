@@ -157,6 +157,7 @@ Here's the final unit, set for 5V output:
 ![The Build](./assets/PowerSupply317Kit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [EU/US LM317 1.25V-12V Continuously Adjustable Regulated Voltage Power Supply DIY Kit](https://www.aliexpress.com/item/EU-US-LM317-1-25V-12V-Continuously-Adjustable-Regulated-Voltage-Power-Supply-DIY-Kit/32463018423.html) - my source for the kit built here
 * [LM317T datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
 * [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml)

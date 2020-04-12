@@ -163,6 +163,7 @@ I'm using consistent scope connections in all examples:
 ![ATtiny_breadboard](./assets/ATtiny_breadboard.jpg?raw=true)
 
 ## Credits and References
+
 * LEAP: [AvrHardwarePWM](../) - All about hardware PWM with the Arduino UNO/ATmega328
 * [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny85 PWM: why does COM1A0 need to be set before PWM B will work?](http://electronics.stackexchange.com/questions/97596/attiny85-pwm-why-does-com1a0-need-to-be-set-before-pwm-b-will-work)

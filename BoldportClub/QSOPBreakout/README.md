@@ -164,6 +164,7 @@ a 63Sn/37Pb formulation, or if perhaps I just have some very poorly manufactured
 ![Build](./assets/QSOPBreakout_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [QSOP and 0805 breakout and soldering practice board](http://www.boldport.club/shop/product/437246682) - in the Boldport Shop
 * [Surface-mount technology](https://en.wikipedia.org/wiki/Surface-mount_technology) - wikipedia
 * [List of integrated circuit package dimensions](https://en.wikipedia.org/wiki/List_of_integrated_circuit_package_dimensions) - wikipedia

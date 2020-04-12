@@ -53,6 +53,7 @@ Here's a trace of the circuit with 4 probes at interesting points in the circuit
 ![The Build](./assets/RelaxationJouleThief_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) - wikipedia
 * [#187: Circuit Walkthrough: A single cell LED light supporting Ears to Our World](https://www.youtube.com/watch?v=qfgX93o8HzY) - another great video from w2aew; explains the circuit demonstrated here
 * [Relaxation oscillator](https://en.wikipedia.org/wiki/Relaxation_oscillator) - wikipedia

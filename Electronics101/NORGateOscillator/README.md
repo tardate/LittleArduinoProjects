@@ -44,5 +44,6 @@ It has four traces, from top to bottom:
 ![The Build](./assets/NORGateOscillator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
 * A similar circuit may be found in "Project 17 - NOR Gate Metronome" from [Beginning Digital Electronics Through Projects](http://www.amazon.com/gp/product/0750672692/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672692&linkCode=as2&tag=itsaprli-20&linkId=S6GVIV6DHZABMHTA)

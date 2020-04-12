@@ -64,6 +64,7 @@ That works fine, although it is equally possible to use a separate power supply 
 
 
 ## Credits and References
+
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 * [Op-amp Astables](http://www.learnabout-electronics.org/Oscillators/osc42.php)
 * [Op-amp Integrator](http://www.electronics-tutorials.ws/opamp/opamp_6.html)

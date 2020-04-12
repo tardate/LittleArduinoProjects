@@ -159,6 +159,7 @@ Conclusion: where clean power is required, this unit needs external filtering.
 
 
 ## Credits and References
+
 * [RD DPS3005 Constant Voltage current Step-down Programmable Power Supply module buck Voltage converter color LCD voltmeter](https://www.aliexpress.com/item/RD-DPS3005-Constant-Voltage-current-Step-down-Programmable-Power-Supply-module-buck-Voltage-converter-color-LCD/32684316119.html)
 * [OOTDTY 1Pc New Black Red AC 250V 10A 3 Terminal Power Socket with Fuse Holder](https://www.aliexpress.com/item/J34-Free-Shipping-1Pc-New-Black-Red-AC-250V-10A-3-Terminal-Power-Socket-with-Fuse/32578730682.html)
 * [6.7" x 5.1" x 3.1" Blue Metal Enclosure Project Case DIY Junction Box](https://www.aliexpress.com/item/6-7-x-5-1-x-3-1-Blue-Metal-Enclosure-Project-Case-DIY-Junction-Box/32825937652.html)

@@ -16,4 +16,5 @@ cathode part of the circuit. That's fine in this case because we're only going t
 ![The Breadboard Schematic](./assets/LedChaser_bb.jpg?raw=true)
 
 ## Credits and References
+
 * Similar to the [Arduino ForLoop example](http://arduino.cc/en/Tutorial/ForLoop)

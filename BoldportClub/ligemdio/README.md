@@ -85,6 +85,7 @@ More testing. 999 to go ;-)
 ![999_to_go](./assets/999_to_go.jpg?raw=true)
 
 ## Credits and References
+
 * [LIGEMDIO infographic](https://github.com/boldport/ligemdio/blob/master/docs/infographic.pdf)
 * [LIGEMDIO](http://www.boldport.club/shop/product/480066844) - in the Boldport shop
 * [LIGEMDIO](http://www.boldport.com/products/ligemdio) - project page

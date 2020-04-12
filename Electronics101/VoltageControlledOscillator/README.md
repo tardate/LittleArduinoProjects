@@ -140,6 +140,7 @@ The pin header provides convenient access to (from left to right):
 ![VoltageControlledOscillator_protoboard_layout](./assets/VoltageControlledOscillator_protoboard_layout.jpg?raw=true)
 
 ## Credits and References
+
 * [#147: Basics of Varactor Diodes | Voltage Controlled Oscillator VCO Example](https://youtu.be/icw8terKP-M) - from w2aew
 * [w2aew's notes](http://www.qsl.net/w/w2aew//youtube/Varactor_diodes_with_VCO_example.pdf)
 * [Varicap](https://en.wikipedia.org/wiki/Varicap) - wikipedia

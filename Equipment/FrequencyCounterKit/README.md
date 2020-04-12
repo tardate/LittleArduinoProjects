@@ -87,7 +87,7 @@ in all cases. Here's an example of a 7MHz crystal under test:
 
 ![test-crystal-7mhz](./assets/test-crystal-7mhz.jpg?raw=true)
 
-With a function generator, I also got accurate readings form 1kHz to 24MHz (the upper limit of the function generator).
+With a function generator, I also got accurate readings from 1kHz to 24MHz (the upper limit of the function generator).
 The input signal is a 0V to 5V square wave:
 
 ![test-fgen-1khz](./assets/test-fgen-1khz.jpg?raw=true)
@@ -141,6 +141,7 @@ So perhaps next things I'll do with this kit:
 
 
 ## Credits and References
+
 * [Frequency counter with a PIC and minimum hardware](http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html) - original circuit design and description by Wolfgang "Wolf" Büscher, DL4YHF
 * [50 MHz Crystal Oscillator Frequency counter Testers DIY Kit](https://www.aliexpress.com/item/CNIM-Hot-50-MHz-Crystal-Oscillator-Frequency-counter-Testers-DIY-Kit-5-Resolution-Digital-Red/32772551581.html) - similar product from an aliexpress seller
 * [Fairly Easy - Frequency Counter - Electronic Kit Build (part 1)](https://www.youtube.com/watch?v=Nhb0MjQBvNo)

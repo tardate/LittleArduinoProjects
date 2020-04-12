@@ -121,6 +121,7 @@ The mostap was mounted in my test jig for this, and the supply voltage set at 5V
 ![scope_trigger](./assets/scope_trigger.gif?raw=true)
 
 ## Credits and References
+
 * [MOS TAP](./assets/elektor-02-75-MOSTAP.pdf?raw=true) - original circuit and article from Elektor magazine February 1975
 * [LEAP#285 The Tap](../tap) - Boldport Club project for the original BJT design
 * [MOSTAP](https://www.boldport.com/products/mostap) - Boldport product information

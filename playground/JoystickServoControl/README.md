@@ -27,6 +27,7 @@ See the [ServoTest](../ServoTest) project for more exploration of servo control 
 
 ![The Build](./assets/JoystickServoControl_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [TowerPro SG90 datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) - 9g Micro Servo
 * [Servo library reference](http://arduino.cc/en/Reference/Servo)

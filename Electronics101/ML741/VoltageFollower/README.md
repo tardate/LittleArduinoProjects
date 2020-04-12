@@ -82,6 +82,7 @@ Measurements in action...
 ![VoltageFollower_benchtest](./assets/VoltageFollower_benchtest.jpg?raw=true)
 
 ## Credits and References
+
 * [ML741](../) - the ML741 discrete component project
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Buffer amplifier](https://en.wikipedia.org/wiki/Buffer_amplifier) - wikipedia

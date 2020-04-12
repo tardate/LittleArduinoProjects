@@ -58,6 +58,7 @@ which root note is playing.
 ![Build](./assets/tuner_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Arduino Guitar Tuner](https://www.instructables.com/id/Arduino-Guitar-Tuner/?ALLSTEPS) by nikoala3/Nicole Grimwood
 * [Arduino Frequency Detection](https://www.instructables.com/id/Arduino-Frequency-Detection/?ALLSTEPS) by amandaghassaei
 * [Guitar tunings](https://en.wikipedia.org/wiki/Guitar_tunings) - wikipedia

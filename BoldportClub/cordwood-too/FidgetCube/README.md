@@ -160,6 +160,7 @@ Power and Cordwood pins terminate on a small strip of protoboard:
 ![Build](./assets/FidgetCube_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Fidget Cube](https://thefidgetcube.co/)
 * [LEAP#321 Cordwood Too](./..)
 * [Zener Diode tutorial](http://www.electronics-tutorials.ws/diode/diode_7.html)

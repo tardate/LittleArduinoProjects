@@ -55,6 +55,7 @@ The [I2CAdapter.ino](./I2CAdapter.ino) sketch is a simple test of the library.
 ![Build](./assets/I2CAdapter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [1602 2004 LCD Adapter Plate IIC I2C / Interface lcd1602 I2C LCD Adapter for arduino new  ](https://www.aliexpress.com/item/5pcs-1602-2004-LCD-Adapter-Plate-IIC-I2C-Interface-lcd1602-I2C-LCD-Adapter-for-arduino-new/32656254948.html)
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - library I am using
 * Standard [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal) library

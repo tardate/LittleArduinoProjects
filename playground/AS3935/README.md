@@ -197,6 +197,7 @@ This is using the indoor mode and default tuning.
 
 
 ## Credits and References
+
 * [LEAP#377 Nokia 5110 Shield](../Lcd5110/DIYShield)
 * [AS3935 Digital Sensor Breakout Board Module SPI I²C Interface Strikes Thunder Rainstorm Storm Distance Detection 2.4V to 5.5V](https://www.aliexpress.com/item/AS3935-Digital-Sensor-Breakout-Board-Module-SPI-I²C-Interface-Strikes-Thunder-Rainstorm-Storm-Distance-Detection-2/32841367748.html)
 * [AMS AS3935 Franklin Lightning Sensor](http://ams.com/eng/Products/Wireless-Connectivity/Wireless-Sensor-Connectivity/AS3935) - product page

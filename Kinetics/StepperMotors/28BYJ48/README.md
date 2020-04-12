@@ -214,6 +214,7 @@ Note the crossover of the wires eminating from the 28BYJ-48. This is actually do
 ![Build](./assets/28BYJ48_build.jpg?raw=true)
 
 ## Credits and References
+
 * [28BYJ-48 stepper motor teardown](http://youtu.be/Dc16mKFA7Fo) - by Gaven MacDonald
 * [this geeetech page](http://www.geeetech.com/wiki/index.php/Stepper_Motor_5V_4-Phase_5-Wire_%26_ULN2003_Driver_Board_for_Arduino)
 * [Arduino Stepper library](https://www.arduino.cc/en/Reference/Stepper)

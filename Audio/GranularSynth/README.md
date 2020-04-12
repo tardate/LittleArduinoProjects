@@ -116,6 +116,7 @@ Finished and under test:
 ![Build](./assets/GranularSynth_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Granular synthesis](https://en.wikipedia.org/wiki/Granular_synthesis) - wikipedia
 * [Build the Auduino Granular Synth - Part 1](http://www.notesandvolts.com/2014/07/build-auduino-granular-synth-part-1.html) - Notes & Volts
 * [Auduino](http://code.google.com/p/tinkerit/wiki/Auduino) - original sources

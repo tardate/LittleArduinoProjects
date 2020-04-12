@@ -117,6 +117,7 @@ VREF adjusted to a mid-point:
 ![Build](./assets/BasicInvertingBuckBoostAvrControl_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#255 AvrHardwarePWM/ATtiny](../AvrHardwarePWM/ATtiny)
 * [DIY Buck/Boost Converter (Flyback) || How to step up/down DC voltage efficiently](https://www.youtube.com/watch?v=ZiD_X-uo_TQ) - video by GreatScott!
 * [DIY Buck/Boost Converter](https://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS) - instructables

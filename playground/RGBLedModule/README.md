@@ -27,6 +27,7 @@ NB: on my module, the red and blue pins are incorrectly labeled (swapped around)
 ![The Build](./assets/RGBLedModule_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Red-Green-Blue 5mm Round LED datasheet](https://www.futurlec.com/LED/RGB5LED.shtml)
 * [Arduino, Lesson 3. RGB LEDs](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/overview) - adafruit tutorial
 * [Arduino Lesson 7. Make an RGB LED Fader](https://learn.adafruit.com/adafruit-arduino-lesson-7-make-an-rgb-led-fader/overview) - adafruit tutorial

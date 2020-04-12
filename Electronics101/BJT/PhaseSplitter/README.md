@@ -75,6 +75,7 @@ I put on a piece of protoboard in a breadboard-compatible layout:
 ![Build](./assets/PhaseSplitter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [The Art of Electronics, 2nd Edition](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - 2.08 Unity-gain phase splitter, p77.
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/02/leap378-bjt-phase-splitter.html)

@@ -159,6 +159,7 @@ A very clean 50 Hz square wave output
 ![scope](./assets/scope.gif?raw=true)
 
 ## Credits and References
+
 * [CD4046 Datasheet](https://www.futurlec.com/4000Series/CD4046.shtml)
 * [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
 * [4N35 datasheet](https://www.futurlec.com/LED/4N35.shtml)

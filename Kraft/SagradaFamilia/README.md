@@ -52,6 +52,7 @@ There's not too much to the build. Just follow the instructions! A few points to
 ![build_complete](./assets/build_complete.jpg?raw=true)
 
 ## Credits and References
+
 * [Paper Sagrada Familia](http://www.amazon.com/gp/product/B00HFO3MIQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00HFO3MIQ&linkCode=as2&tag=itsaprli-20&linkId=UUSQ6CYPF5HQIMLK) - the kit on amazon
 * [Sagrada Família](https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia) - wikipedia
 * [LowVoltageGlowingLEDs](../../Electronics101/LowVoltageGlowingLEDs) project - dual-LED "glowing" oscillator from a 1.5V supply

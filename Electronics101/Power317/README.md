@@ -72,6 +72,7 @@ Here's the reference measurement with fixed/known R1 and R2 values:
 ![The Build](./assets/Power317_build_ref.jpg?raw=true)
 
 ## Credits and References
+
 * [LM317 datasheet](https://www.futurlec.com/Linear/LM317T.shtml)
 * [LM317 Voltage Calculator](http://toolbox.tardate.com/#LM317Voltage) - my version
 * [LM317 Voltage Calculator](http://www.reuk.co.uk/LM317-Voltage-Calculator.htm) - another

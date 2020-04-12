@@ -85,6 +85,7 @@ Googling for 8051 circuit schematics, I see a common combination is 8.2kΩ pull-
 ![Build](./assets/Blinky_build.jpg?raw=true)
 
 ## Credits and References
+
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
 * [SDCC](http://sdcc.sourceforge.net) - Small Device C Compiler
 * [LEAP#394 AT89C2051 Programmer](../Programmer)

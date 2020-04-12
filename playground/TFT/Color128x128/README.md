@@ -60,6 +60,7 @@ Global variables use 163 bytes (7%) of dynamic memory, leaving 1885 bytes for lo
 ![Build](./assets/Color128x128_build.jpg?raw=true)
 
 ## Credits and References
+
 * [1.44 inch Serial 128*128 SPI Color TFT LCD Module](https://www.aliexpress.com/item/5PCS-1-44-inch-TFT-LCD-module-SPI-serial-module-LCD-color-screen-only-4-IO/32805698103.html) - example from aliexpress seller
 * [Arduino TFT](https://www.arduino.cc/en/Guide/TFT)
 * [Arduino 1.44 in SPI TFT Display Tutorial](http://henrysbench.capnfatz.com/henrys-bench/arduino-displays/arduino-1-44-in-spi-tft-display-tutorial/)

@@ -136,6 +136,7 @@ NB: see the assets folder for more pictures of the build
 ![Mainboard Construction](./assets/build_mainboard_construction.jpg?raw=true)
 
 ## Credits and References
+
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)
 * [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)

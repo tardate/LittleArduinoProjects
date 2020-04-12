@@ -33,6 +33,7 @@ Some clarifications/intepretations of the instructions. Yes, its's all in simpli
 ![The Build - PCB rear](./assets/AMFMRadioKit_pcb_build_rear.jpg?raw=true)
 
 ## Credits and References
+
 * [kit from a seller on aliexpress](https://www.aliexpress.com/item/Free-Shipping-AM-FM-stereo-AM-radio-kit-DIY-CF210SP-electronic-production-suite/32326761697.html)
 * [CD7642 datasheet](http://www.datasheetarchive.com/CD7642CP-datasheet.html) / [TA7642 datasheet](https://www.futurlec.com/Others/TA7642.shtml)
 * [CD9088 datasheet](http://www.datasheetbank.com/CD9088-Datasheet-ETC.html)

@@ -128,6 +128,7 @@ NB: diagrams drawn with the custom parts from [ESP8266_fritzing](https://github.
 ![The Build](../assets/SerialTest_build.jpg?raw=true)
 
 ## Credits and References
+
 * [serialport gem](https://rubygems.org/gems/serialport)
 * [ESP8266 English datasheet](https://nurdspace.nl/File:ESP8266_Specifications_English.pdf)
 * [LD1117 datasheet](http://pdf1.alldatasheet.com/datasheet-pdf/view/173710/UTC/LD1117AL-15-TA3-A-R.html)

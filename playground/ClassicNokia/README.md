@@ -31,6 +31,7 @@ For a quick test, I'm not using any amplification, simply an 8Ω speaker and a 1
 ![Build](./assets/ClassicNokia_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#051](../JarabeTapatio) -  El Jarabe Tapatío
 * [Arduino library: tone](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap364-classic-nokia-ringtone.html)

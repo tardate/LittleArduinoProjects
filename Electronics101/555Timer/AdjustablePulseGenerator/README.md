@@ -58,6 +58,7 @@ And corresponding [duty cycle](https://www.wolframalpha.com/input/?i=plot3d+|+d+
 ![The Build](./assets/AdjustablePulseGenerator_build.jpg?raw=true)
 
 ## Credits and References
+
 * [NE555 Duty Cycle Frequency Adjustable Square Wave Module](https://www.aliexpress.com/item/E74-Free-Shipping-NE555-Duty-Cycle-Frequency-Adjustable-Square-Wave-Module-Parts-Components/32444736970.html) - basically this circuit in kit form
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)

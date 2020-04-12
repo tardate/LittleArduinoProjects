@@ -43,6 +43,7 @@ with the resulting logic table:
 
 
 ## Credits and References
+
 * [NOR7402](../NOR7402) project
 * [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
 * [7400 series](http://en.wikipedia.org/wiki/7400_series)

@@ -75,6 +75,7 @@ This second trace shows output Q transitioning from high to low. Note:
 ![Build](./assets/DFlipFlop_build.jpg?raw=true)
 
 ## Credits and References
+
 * [74LS00 datasheet](https://www.futurlec.com/74LS/74LS00.shtml)
 * [74LS14 datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
 * [D flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#D_flip-flop) - wikipedia

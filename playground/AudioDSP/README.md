@@ -162,6 +162,7 @@ The correct orientation is:
 ![The Build](./assets/AudioDSP_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LEAP#247 pedalShieldUno](../pedalShieldUno) - my build of the genuine kit
 * [pedalSHIELD UNO Arduino Guitar Pedal](http://www.electrosmash.com/pedalshield-uno)
 * [pedalSHIELD UNO @ arduino.cc](https://create.arduino.cc/projecthub/electrosmash/arduino-uno-guitar-pedal-b2ba96)

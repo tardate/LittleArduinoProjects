@@ -40,7 +40,7 @@ CH2 (Blue): output
 
 ![scope_bb](./assets/scope_bb.gif?raw=true)
 
-## Protobaord Construction
+## Protoboard Construction
 
 ![protoboard_layout_and_board](./assets/protoboard_layout_and_board.jpg?raw=true)
 

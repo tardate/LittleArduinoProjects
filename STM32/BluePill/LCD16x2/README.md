@@ -80,5 +80,6 @@ All good:
 ![LCD16x2_verification_build](./assets/LCD16x2_verification_build.jpg?raw=true)
 
 ## Credits and References
+
 * [ARM Cortex-M3 STM32F103C8T6 Minimum System Development Board STM32](https://www.aliexpress.com/item/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-Arduino/32667468626.html) - example from a seller on aliexpress
 * [STM32F103C8 Product Info and Datasheet](http://www.st.com/en/microcontrollers/stm32f103c8.html)

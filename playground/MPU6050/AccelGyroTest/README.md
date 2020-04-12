@@ -58,6 +58,7 @@ It sends the readings out the serial connection:
 ![The Build](./assets/AccelGyroTest_build.jpg?raw=true)
 
 ## Credits and References
+
 * [MPU-6050 module](https://www.aliexpress.com/item/3-Axes-Accelerometer-Gyroscope-Module-For-MPU-6050-Top-Sale/32579065183.html) - from aliexpress seller
 * [similar module from sparkfun](https://www.sparkfun.com/products/11028)
 * [MPU-6050](https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/) - Invensense product page

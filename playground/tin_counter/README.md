@@ -21,5 +21,6 @@ A change in voltage means the red led would blink once.. one blink for ever labe
 ![The Schematic](./assets/tin_counter_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [novaprimexex](https://github.com/novaprimexex) - author/contributor of this project
 * [HC-SR04 datasheet](http://www.micropik.com/PDF/HCSR04.pdf)

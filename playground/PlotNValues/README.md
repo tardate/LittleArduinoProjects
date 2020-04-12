@@ -33,7 +33,8 @@ Here's an example 6-input trace:
 
 ![The Build](./assets/PlotNValues_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) library
 * [PlotNValues](../../processing/PlotNValues) Processing sketch
 

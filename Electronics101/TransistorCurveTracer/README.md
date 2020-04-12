@@ -115,6 +115,7 @@ Final protoboard build:
 ![The Build](./assets/TransistorCurveTracer_build.jpg?raw=true)
 
 ## Credits and References
+
 * [StairStepGenerator](../StairStepGenerator) project
 * [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24)
 * [w2aew's circuit](http://www.qsl.net/w2aew//youtube/curvetracer.pdf)

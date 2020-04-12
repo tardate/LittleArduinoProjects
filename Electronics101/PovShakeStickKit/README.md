@@ -83,6 +83,7 @@ Here's my transcription of the circuit. The subsystems break down quite simply:
 ![The Build](./assets/PovShakeStickKit_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LDE Shake Stick Flash Stick AT89S52 DIY Kit Magic Wand Blank PCB board](https://www.aliexpress.com/item/LDE-Shake-Stick-Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-Blank-PCB-board/32496601767.html) - where I sourced the kit
 * [兴向荣电子 taobao store](https://792758921.world.taobao.com/shop/view_shop.htm?user_number_id=155126737) - I think the store of the original author where this kit and others are available
 * [Shake stick - Persistence of vision wand kit](http://mattnorman.co.uk/2015/Flash-Stick-AT89S52-DIY-Kit-Magic-Wand-review/) - Matthew Norman's review of the same/similar kit

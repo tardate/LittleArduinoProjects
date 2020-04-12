@@ -153,6 +153,7 @@ Great effect. The scope trace doesn't tell the story though .. it swells the vol
 ![Build](./assets/pedalShieldUno_assembled.jpg?raw=true)
 
 ## Credits and References
+
 * [pedalSHIELD UNO](https://www.electrosmash.com/pedalshield-uno-start) - getting started guide
 * [pedalSHIELD UNO](https://www.electrosmash.com/pedalshield-uno) - main page
 * [pedalSHIELD UNO Schematic](https://www.electrosmash.com/images/tech/pedalshield-uno/pedalshield-uno-schematic.png)

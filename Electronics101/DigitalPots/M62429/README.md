@@ -110,6 +110,7 @@ Next test was with a 5V DC signal on left and right channel input.
 ![Build](./assets/M62429_build.jpg?raw=true)
 
 ## Credits and References
+
 * [M62429FP info & datasheet](http://parts.io/detail/5005065/M62429FP) - parts.io
 * [AD5171 Digital Potentiometer](https://www.arduino.cc/en/Tutorial/DigitalPotentiometer) - tutorial
 * [krupski/M62429](https://github.com/krupski/M62429) - M62429 support encapsulated in a library

@@ -48,5 +48,6 @@ as it is the same as seen when just a single opamp is used.
 ![The Build](./assets/SplitterBuffer_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
 

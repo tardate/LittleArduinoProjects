@@ -82,6 +82,7 @@ In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu
 ![The Build](./assets/VariableDutyCycle_build.jpg?raw=true)
 
 ## Credits and References
+
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [LEAP#016 AstableOscillator](../AstableOscillator) - the basic 555 timer astable circuit
 * [Visual 555 Calculator](http://visual555.tardate.com)

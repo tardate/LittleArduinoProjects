@@ -70,6 +70,7 @@ Here's a chart of the error from 1Ω to 1MΩ:
 
 
 ## Credits and References
+
 * [Decade box](https://en.wikipedia.org/wiki/Decade_box) - wikipedia
 * [pushwheel/thumbwheel decade switches](https://www.aliexpress.com/item/UXCELL-10-Pcs-Single-Unit-Pushwheel-Thumbwheel-Switch-Km1-0-9/32804224919.html) - from seller on aliexpress
 * [..as mentioned on my blog](https://blog.tardate.com/2018/09/leap414-7-digit-decade-resistor-box.html)

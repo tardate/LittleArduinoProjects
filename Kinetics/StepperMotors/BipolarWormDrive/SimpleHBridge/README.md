@@ -132,6 +132,7 @@ Not much to see here. However, this is a capture of the onset of one coil being 
 ![scope](./assets/scope.gif?raw=true)
 
 ## Credits and References
+
 * [HL GCR-8483B CD-ROM, complete disassembly](http://wasp.kz/articles.php?article_id=959)
 * [Stepper Library](https://www.arduino.cc/en/reference/Stepper)
 * [H bridge](https://en.wikipedia.org/wiki/H_bridge) - wikipedia

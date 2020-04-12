@@ -20,4 +20,5 @@ The library is in a separate GitHub repository.
 See the [X113647Stepper repo](https://github.com/tardate/X113647Stepper) for more details.
 
 ## Credits and References
+
 * [X113647Stepper library](https://github.com/tardate/X113647Stepper)

@@ -74,6 +74,7 @@ Note that I have surface mount AT24C02BN chips, so I used a SO-16 to DIP breadbo
 ![The Build](./assets/BasicReadWrite_build.jpg?raw=true)
 
 ## Credits and References
+
 * [AT24C02B datasheet](http://www.atmel.com/Images/doc5126.pdf)
 * [Wire library](https://www.arduino.cc/en/Reference/Wire)
 * [Adding External I2C EEPROM to Arduino (24LC256)](http://www.hobbytronics.co.uk/arduino-external-eeprom)

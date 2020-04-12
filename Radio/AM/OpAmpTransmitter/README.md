@@ -52,6 +52,7 @@ Interesting.. play for another day!
 ![The Build](./assets/OpAmpTransmitter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Amplitude Modulation tutorial and AM radio transmitter circuit](https://youtu.be/3I_e7gIyfQg) - another great Afrotechmods video
 * [AM Modulator Mixer Circuit](http://electronics.stackexchange.com/questions/74351/am-modulator-mixer-circuit) - related question on EE.SE
 * [LF347N datasheet](https://www.futurlec.com/Linear/LF347N.shtml)

@@ -60,6 +60,7 @@ NB: in the schematic below, the FET symbol is not quite correct (shows p-channel
 ![The Build](./assets/SwitchPJFET_build.jpg?raw=true)
 
 ## Credits and References
+
 * [J175 datasheet](https://www.fairchildsemi.com/datasheets/MM/MMBFJ175.pdf)
 * [JFET wikipedia](http://en.wikipedia.org/wiki/JFET)
 * [P-channel JFET Basics](http://www.learningaboutelectronics.com/Articles/P-channel-JFET)

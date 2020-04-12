@@ -52,6 +52,7 @@ It constantly polls the DS18S20 device and logs to the serial output. Here's an 
 ![The Build](./assets/OneWireReading_build.jpg?raw=true)
 
 ## Credits and References
+
 * [DS18S20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18S20.html) product page and datasheet
 * [OneWire library](https://github.com/PaulStoffregen/OneWire)
 * [OneWire](http://playground.arduino.cc/Learning/OneWire) - Arduino playground page

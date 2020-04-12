@@ -132,6 +132,7 @@ Wired up with an Arduino for the demo (includes LEDs to indicate signal state):
 ![The Schematic](./assets/MusicBoxKit_schematic.jpg?raw=true)
 
 ## Credits and References
+
 * [DIY Kits BOX-16 16-tone Tool 16 Music Box 16 Sound Box electronic production #70448](https://www.aliexpress.com/item/DIY-Kits-BOX-16-16-tone-Tool-16-Music-Box-16-Sound-Box-electronic-production-70448/32361863021.html) - seller on aliexpress
 * [16 Music Box/16 Sound Box/Electronic Production/DIY Kits](http://www.icstation.com/music-box16-sound-boxelectronic-productiondiy-kits-p-1750.html) - icstation
 * [KD9561 CK9561 Alarm sound chip Four voices Music IC Music integrated block Toy sound IC](https://www.aliexpress.com/item/KD9561-CK9561-Alarm-sound-chip-Four-voices-Music-IC-Music-integrated-block-Toy-sound-IC/32666515252.html?spm=2114.30010308.3.237.VB9BEX&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_405_507_10033_406_10032,searchweb201603_1&btsid=9e0eeb93-3a5d-405e-bfd5-05782cf1de0c) - the sound chip module used in the kit.

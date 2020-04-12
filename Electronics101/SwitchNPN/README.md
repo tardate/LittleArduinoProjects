@@ -41,6 +41,7 @@ Here's a sample trace. It also illustrates the impact of the filter capacitor C1
 
 
 ## Credits and References
+
 * [SwitchPNP](../SwitchPNP) - equivalent circuit using PNP transistors
 * [The Transistor as a Switch](http://www.electronics-tutorials.ws/transistor/tran_4.html)
 * [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)

@@ -19,6 +19,7 @@ Yes, it just works.
 ![The Build](./assets/ATmegaBreadboard_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
 * [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)
 * [Building an Arduino on a Breadboard](http://www.arduino.cc/en/Main/Standalone)

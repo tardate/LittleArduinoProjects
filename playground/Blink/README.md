@@ -34,6 +34,7 @@ I guess that's the accuracy and the affect of my multimeter on the circuit when 
 
 ![The Build](./assets/Blink_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [Arduino Blink tutorial](http://www.arduino.cc/en/Tutorial/Blink)
 

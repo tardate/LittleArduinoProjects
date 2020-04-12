@@ -109,6 +109,7 @@ Finished "tap pad":
 ![tap_pad](./assets/tap_pad.jpg?raw=true)
 
 ## Credits and References
+
 * [Piezoelectric sensor](https://en.wikipedia.org/wiki/Piezoelectric_sensor) - wikipedia
 * [ZX-18T9A1 18mm Piezo Transducer Sound Discs](http://www.dx.com/p/zx-18t9a1-18mm-piezo-transducer-sound-discs-w-leads-5-pcs-148144#.Wm3xP5P1XfA)
 * [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)

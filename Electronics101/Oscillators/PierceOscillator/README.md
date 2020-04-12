@@ -65,6 +65,7 @@ And 16MHz crystal, 9V supply:
 ![16.000](./assets/16.000.gif?raw=true)
 
 ## Credits and References
+
 * [Pierce oscillator](https://en.wikipedia.org/wiki/Pierce_oscillator) - wikipedia
 * [KF5OBS #5: Crystal oscillator frequency pulling](https://www.youtube.com/watch?v=_OsvXQe_l2E)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap242-minimal-pierce-oscillator.html)

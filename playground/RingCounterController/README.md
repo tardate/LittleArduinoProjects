@@ -39,6 +39,7 @@ But it depends on the specific LED ratings, as this subjects all the "off" LEDs 
 ![The Build](./assets/RingCounterController_build.jpg?raw=true)
 
 ## Credits and References
+
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [kit link](https://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit
 * [RingCounter](../../Electronics101/RingCounter) - same project but in classic configuration with 555 timer

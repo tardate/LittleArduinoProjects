@@ -58,6 +58,7 @@ So perhaps I'll need to try some improvements or test some alternative circuits 
 ![The Build](./assets/SwitchSoftLatch_build.jpg?raw=true)
 
 ## Credits and References
+
 * [EEVblog #262 - World's Simplest Soft Latching Power Switch Circuit](https://www.youtube.com/watch?v=Foc9R0dC2iI) - original version of this circuit
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)

@@ -82,6 +82,7 @@ At 5MHz, the NE5534P op amp output is quite distorted, however it is still good 
 ![The Build](./assets/FrequencyCounter_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Frequency Counter Design](http://www.epanorama.net/sff/Test_equipment/Counters/Minimum%20Parts%20Count%20Frequency%20Counter.pdf) - Lloyd F. Botway, Electronics Sep 16 1976
 * [CD4026 Datasheet](https://www.futurlec.com/4000Series/CD4026.shtml)
 * [CD4047 datasheet](https://www.futurlec.com/4000Series/CD4047.shtml)

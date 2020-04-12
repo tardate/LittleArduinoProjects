@@ -35,6 +35,7 @@ NB: schematics use non-standard [HC-SR04 Fritzing Part](../../FritzingParts)
 
 ![The Build](./assets/RangeFinder_build.jpg?raw=true)
 
-## Credits and references
+## Credits and References
+
 * [HC-SR04 datasheet](http://www.micropik.com/PDF/HCSR04.pdf)
 * [HC-SR04 Project](http://fritzing.org/projects/hc-sr04-project) - example on the Fritzing site

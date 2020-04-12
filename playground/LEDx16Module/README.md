@@ -56,6 +56,7 @@ The [LEDx16Module.ino](./LEDx16Module.ino) sketch runs a simple demo sequence on
 ![LEDx16Module_build](./assets/LEDx16Module_build.jpg?raw=true)
 
 ## Credits and References
+
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials
 * [KiCad](http://kicad-pcb.org/)
 * [gerblook](http://gerblook.org/) - nice tool for testing a set of gerber files

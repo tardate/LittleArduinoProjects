@@ -56,6 +56,7 @@ NB: since I don't have a differential probe, these scope traces are the X+Y mix 
 ![The Build](./assets/TriacDimmer_build.jpg?raw=true)
 
 ## Credits and References
+
 * [Triacs](https://en.wikipedia.org/wiki/TRIAC) - wikipedia
 * [Thyristors & Triacs - Ten Golden Rules for Success In Your Application](http://www.nxp.com/documents/application_note/AN_GOLDEN_RULES.pdf) - great document, pretty much all you need to know!
 * [BTA12-600 Datasheet](https://www.futurlec.com/Diodes/BTA12-600.shtml)

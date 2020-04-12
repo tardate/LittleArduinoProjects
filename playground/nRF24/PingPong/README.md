@@ -63,6 +63,7 @@ In practice, I'm seeing no more than 14.8mA drawn by the nRF24L01+ module (send 
 ![The Build](./assets/PingPong_build.jpg?raw=true)
 
 ## Credits and References
+
 * [nRF24L01+ fritzing part](https://github.com/vdemay/fritzing-parts) - vdemay's GitHub repo
 * [nRF24L01+ datasheet](http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf)
 * [maniacbug RF24](https://github.com/maniacbug/RF24) library

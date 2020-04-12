@@ -56,10 +56,11 @@ The better way is to put a resistor on each segment pin. But this was good enoug
 ![The Build](./assets/LedTemperatureDisplay_build.jpg?raw=true)
 
 ## Credits and references
+
 * [LM35 Datasheet](https://www.futurlec.com/Linear/LM35DZ.shtml)
 * [74HC595 Datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [KW4-561 Datasheet](http://www.sme.com.hk/globetec/LED%20Displays/Four%20Digit%20Display/KW4-561.pdf) - not matching the part I have, but a pretty stanrd example
 * [Arduino AnalogReference](http://www.arduino.cc/en/Reference/AnalogReference)
 * [High-resolution LM35 readings](http://playground.arduino.cc/Main/LM35HigherResolution)
-* [Get Accurate Temperature form LM35 on Arduino - correctly!](https://www.timdejong.nl/blog/get-accurate-temperature-lm35-arduino-correctly)
+* [Get Accurate Temperature from LM35 on Arduino - correctly!](https://www.timdejong.nl/blog/get-accurate-temperature-lm35-arduino-correctly)

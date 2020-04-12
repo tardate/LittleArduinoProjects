@@ -221,6 +221,7 @@ Philip's recommendation: use active low drive the same as the on-board LEDs and 
 ![The Build](./assets/blinky_build.jpg?raw=true)
 
 ## Credits and References
+
 * [OSHChip](http://oshchip.org/) - main site
 * [OSHChip](https://github.com/oshchip) - on GitHub
 * [OSHChip](https://www.tindie.com/products/OSHChip/oshchip-v10/) - on tindie
