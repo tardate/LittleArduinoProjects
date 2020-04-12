@@ -210,14 +210,14 @@
         ], 
         "title": "Sagrada Fam\u00edlia"
     }, 
-    "/playground/LedPanelDisplay72R02/": {
-        "summary": "test a 7-digit & 7-status indicator LED display", 
-        "id": 209, 
+    "/Electronics101/BatteryManagement/ShengYang18650BatteryShield/": {
+        "summary": "Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.", 
+        "id": 544, 
         "tags": [
-            "LED", 
-            "Arduino"
+            "Power", 
+            "BMS"
         ], 
-        "title": "LedPanelDisplay72R02"
+        "title": "ShengYang 18650 Battery Shield"
     }, 
     "/Electronics101/BreadboardBling/DuplexTuningCapacitor/": {
         "summary": "making a breadboard-compatible variable capacitor for radio circuits", 
@@ -1333,6 +1333,15 @@
             "Radio"
         ], 
         "title": "SingaporeBands"
+    }, 
+    "/playground/LedPanelDisplay72R02/": {
+        "summary": "test a 7-digit & 7-status indicator LED display", 
+        "id": 209, 
+        "tags": [
+            "LED", 
+            "Arduino"
+        ], 
+        "title": "LedPanelDisplay72R02"
     }, 
     "/Electronics101/Mixers/RFDiodeRing/": {
         "summary": "a diode ring double-balanced frequency mixer", 

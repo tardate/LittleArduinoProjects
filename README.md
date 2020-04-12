@@ -1,6 +1,6 @@
-# 543 Little Electronics and Arduino Projects
+# 544 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [PLL Ramp Generator](./Electronics101/CD4046/RampGenerator) - A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.
+> Latest addition:sparkles: [ShengYang 18650 Battery Shield](./Electronics101/BatteryManagement/ShengYang18650BatteryShield) - Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
