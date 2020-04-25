@@ -80,3 +80,4 @@ Local sources files updated; here's a quick demo:
 * [original source code - clock_1.asm](https://gist.github.com/tedyapo/5a17257cfacd6c2447a9994b7962ac1a)
 * [original source code - clock_2.asm](https://gist.github.com/tedyapo/885f93b2383ac20441e33801e6f8812c)
 * [PIC16F84A datasheet and info](https://www.microchip.com/wwwproducts/en/PIC16F84A)
+* [the project on hackaday.io](https://hackaday.io/project/171175-teds-led-clock)

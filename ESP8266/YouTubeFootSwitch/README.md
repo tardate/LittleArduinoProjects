@@ -173,3 +173,4 @@ It's working just great, but some improvements I've been putting on a wishlist:
 * Videos used in the demo:
   * [TIENTOS FALSETA TUTORIAL FACIL * GUITARRA FLAMENCA](https://www.youtube.com/watch?v=cPlrskC9pfY)
   * [Bulerias de Jerez avanzadas por La bailaora Beatriz Morales](https://www.youtube.com/watch?v=kwJ_GCAD298)
+* [the project on hackaday.io](https://hackaday.io/project/171176-wireless-looping-youtube-foot-controller)
