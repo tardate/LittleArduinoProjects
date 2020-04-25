@@ -23,64 +23,17 @@ Here's a selection...
 
 ### K7QO HX108-2 AM Receiver: Theory and Construction
 
-Part 01
+[K7QO](https://www.youtube.com/channel/UC7CSitIbrMxj6jIldSWjJQg/featured) had a series covering the build
+that appears to have been subsequently re-cut into a series on RF Receivers. The main videos
+covering this particular radio are part 6 and 7:
 
-* kit overview
-* power section build
+RF RECEIVERS -- 6 -- Audio Amp, Driver and Demodulation Circuits
 
-[![clip](https://img.youtube.com/vi/8hAOf0AMsa4/0.jpg)](https://www.youtube.com/watch?v=8hAOf0AMsa4)
+[![clip](https://img.youtube.com/vi/YFb96ChJuOs/0.jpg)](https://www.youtube.com/watch?v=YFb96ChJuOs)
 
-Part 02
+RF RECEIVERS -- 7 -- First and Second IF Amps
 
-* construction tips
-* test equipment review: function generator, frequency counter
-
-[![clip](https://img.youtube.com/vi/VifN867HpfU/0.jpg)](https://www.youtube.com/watch?v=VifN867HpfU)
-
-Part 03
-
-* audio section build
-
-[![clip](https://img.youtube.com/vi/STzgJLl9LVg/0.jpg)](https://www.youtube.com/watch?v=STzgJLl9LVg)
-
-Part 04
-
-* audio section measurements
-* IF Transformer tuning
-
-[![clip](https://img.youtube.com/vi/1LgoohmspVY/0.jpg)](https://www.youtube.com/watch?v=1LgoohmspVY)
-
-Part 05
-
-* demodulator build
-* using a 455kHz AM signal for testing
-
-[![clip](https://img.youtube.com/vi/71v72Z_01fg/0.jpg)](https://www.youtube.com/watch?v=71v72Z_01fg)
-
-Part 06
-
-* bandpass filter and second IF alignment
-
-[![clip](https://img.youtube.com/vi/LDArXTmcJz0/0.jpg)](https://www.youtube.com/watch?v=LDArXTmcJz0)
-
-Part 07
-
-* bandpass filter and first IF alignment
-
-[![clip](https://img.youtube.com/vi/ur2G5riznDU/0.jpg)](https://www.youtube.com/watch?v=ur2G5riznDU)
-
-Part 08
-
-* final RF front end (autodyne/mixer and antenna)
-* final test and alignment
-
-[![clip](https://img.youtube.com/vi/rNSpaUG2MYQ/0.jpg)](https://www.youtube.com/watch?v=rNSpaUG2MYQ)
-
-Part 09
-
-* Showing the location of some noise sources using an AM radio receiver
-
-[![clip](https://img.youtube.com/vi/35BD2uGXeJ0/0.jpg)](https://www.youtube.com/watch?v=35BD2uGXeJ0)
+[![clip](https://img.youtube.com/vi/CXo6soviP28/0.jpg)](https://www.youtube.com/watch?v=CXo6soviP28)
 
 ### Other Tutorials
 
