@@ -10,8 +10,8 @@ Here's a quick demo..
 
 ## Notes
 
-YouTube can be a brilliant place to learn something new, esqpecially in the realm of musical/dance performance and technique.
-But if you are learning something like guitar, controlling YouTube playback can be a pain because we don't have three hands!
+YouTube can be a brilliant place to learn new tricks, especially in the realm of musical/dance performance and technique.
+But if we are learning something like guitar, controlling YouTube playback can be a pain because we don't have three hands!
 
 Hence the idea for a foot switch - allowing stop/start, skip and loop control by foot.
 
@@ -52,7 +52,7 @@ This provides 3.2V regulated output, which so far has proven quite sufficient fo
 On the plus side, this makes the unit 100% wireless, however since it is only a single cell, the running time between recharge can be limited.
 
 I'm having second thoughts, as I can see myself using the unit for many hours at a time.
-I may replace the battery module with a 3.3V regulator and power jack for a mains adapter (wall wart) and live with the power cord being attached.
+I may replace the battery module with a 3.3V regulator and power jack for a mains adapter and live with the power cord being attached.
 
 Charging the battery over USB to the micro connector:
 
@@ -63,9 +63,9 @@ Charging the battery over USB to the micro connector:
 I'm using the ESP8266 core for Arduino and the Arduino IDE to program the ESP-12 module.
 Programming is done on the [LEAP#540 DIY Dev Board](../ESP12/DIYDevBoard).
 
-To compile the sources, there are two things required:
+To compile the sources, two things to remember:
 
-* When compiling `YouTubeControl`, use the `update_index_page.rb` script to regenerate the index page centent if `page_design.html` has been modified (see discussion below for what this is)
+* When compiling `YouTubeControl`, use the `update_index_page.rb` script to regenerate the index page content if `page_design.html` has been modified (see discussion below for what this is)
 * Copy `settings.h.template` to `settings.h` and fill in the WiFi access credentials before compiling (`settings.h` is excluded from the repository and is not shared).
 
 Uploading the compiled application to the ESP8266 on the programming board:
@@ -98,8 +98,8 @@ The javascript automation of YouTube is based on some earlier experiments from [
 
 Control Design - Buttons
 
-| Button      | Action        | LED States
-|-------------|---------------|
+| Button      | Action        | LED States |
+|-------------|---------------|------------|
 | SW0 (left)  | skip back 10s | Normally off, flash green when skipping |
 | SW1         | play/stop     | Red - stopped; green - playing          |
 | SW2         | skip fwd 10s  | Normally off, flash green when skipping |
@@ -149,6 +149,15 @@ Generating index_page.h from page_design.html...
 
 ![app_how_it_works](./assets/app_how_it_works.jpg?raw=true)
 
+### Improvements?
+
+It's working just great, but some improvements I've been putting on a wishlist:
+
+* I'm waiting for some non-slip pads to be delivered. This will stop the unit sliding around under rough handling by foot.
+* As mentioned above, I may replace the battery pack with a mains adapter and 3.3V regulator for extended playing sessions
+* Add some more features to the web application, e.g.
+  * maintain a playing history/library of vidoes
+  * save and recall particular loop sections
 
 ## Credits and References
 
