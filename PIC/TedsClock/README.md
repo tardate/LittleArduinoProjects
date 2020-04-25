@@ -59,6 +59,9 @@ I used an old cardboard box as formwork for the dial:
 
 ![build_wip](./assets/build_wip.jpg?raw=true)
 
+The dial part uses 0.9mm copper wire, with some 1.2mm copper wire for the more structural stand parts. It solders really well with my favourite "shiny" 2% silver solder.
+I never forget to pick up more copper wire from the jewelry/craft section if I find myself in a Daiso or Tokyo Hands!
+
 The rest of the build was just done by eye on a lazy Saturday afternoon, with my usual preference for "anything but straight lines";-)
 
 ![Build](./assets/TedsClock_build.jpg?raw=true)
