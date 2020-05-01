@@ -1,6 +1,7 @@
-# 545 Little Electronics and Arduino Projects
+# 546 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Wireless YouTube Foot Switch](./ESP8266/YouTubeFootSwitch) - An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice).
+> Latest addition:sparkles: [STM32F103C8T6 Dev Board](./STM32/STM32F103C8T6/48pinDevBoard) - Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

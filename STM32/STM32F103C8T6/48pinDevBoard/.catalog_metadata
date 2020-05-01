@@ -1,0 +1,7 @@
+{
+    "id": "#546",
+    "name": "STM32F103C8T6 Dev Board",
+    "description": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE",
+    "categories": "STM32",
+    "relative_path": "STM32/STM32F103C8T6/48pinDevBoard"
+}

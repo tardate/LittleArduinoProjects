@@ -21,4 +21,3 @@ void loop() {
 
   output = !output;
 }
-

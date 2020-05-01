@@ -1,5 +1,12 @@
 [
     {
+        "description": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE", 
+        "relative_path": "STM32/STM32F103C8T6/48pinDevBoard", 
+        "id": "#546", 
+        "categories": "STM32", 
+        "name": "STM32F103C8T6 Dev Board"
+    }, 
+    {
         "description": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)", 
         "relative_path": "ESP8266/YouTubeFootSwitch", 
         "id": "#545", 

@@ -3739,6 +3739,14 @@
         ], 
         "title": "555 Timer Doorbell Kit"
     }, 
+    "/STM32/STM32F103C8T6/48pinDevBoard/": {
+        "summary": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE", 
+        "id": 546, 
+        "tags": [
+            "STM32"
+        ], 
+        "title": "STM32F103C8T6 Dev Board"
+    }, 
     "/Kinetics/Solenoids/SolenoidDIY/": {
         "summary": "build and test a basic electromechanical solenoid", 
         "id": 117, 

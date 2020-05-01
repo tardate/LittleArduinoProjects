@@ -108,6 +108,12 @@ The default settings that work with this board are as follows:
 The [Blink.ino](./Blink/Blink.ino) sketch is just about the simplest thing possible - blinks the LED connected on port PC13.
 This is not showing off the board capabilities at all - I'm just trying to verify the programming process.
 
+| BOOT0 | BOOT1 | Mode |
+|-------|-------|------|
+| 0     | x     | Boot from User Flash. This is normal operating mode. |
+| 1     | 0     | Boot from System Memory. This contains the embedded bootloader, and is used for programming |
+| 1     | 1     | Boot from embedded SRAM. Used for other STM32 variants, but not the STM32F10x |
+
 For programming, the BluePill Boot0 jumper is set to 1 (pulled high).
 
 From the Arduino IDE, the program compiled and uploaded over serial without any issue..
@@ -125,5 +131,6 @@ the board can be powered from USB with the program running:
 * [ARM Cortex-M3 STM32F103C8T6 Minimum System Development Board STM32](https://www.aliexpress.com/item/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-Module-For-Arduino/32667468626.html) - example from a seller on aliexpress
 * [STM32F103C8 Product Info and Datasheet](http://www.st.com/en/microcontrollers/stm32f103c8.html)
 * [Blue Pill](http://wiki.stm32duino.com/index.php?title=Blue_Pill) - stm32duino wiki
+* [Getting Started with STM32F103C8T6 Blue Pill](https://www.electronicshub.org/getting-started-with-stm32f103c8t6-blue-pill/)
 * [Blue Pill Fritzing Part source](http://blog.naver.com/PostView.nhn?blogId=chandong83&logNo=221026011343&categoryNo=0&parentCategoryNo=39&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/05/leap386-the-blue-pill.html)

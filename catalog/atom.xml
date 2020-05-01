@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-04-25T06:10:26Z</updated>
+  <updated>2020-05-01T08:44:25Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/</id>
+    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/"/>
+    <updated>2020-05-01T08:37:11Z</updated>
+    <title>#546 STM32F103C8T6 Dev Board</title>
+    <summary>Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE</summary>
+    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/assets/48pinDevBoard_build.jpg</g:image_link>
+    <category term="STM32"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/ESP8266/YouTubeFootSwitch/</id>
     <link href="https://leap.tardate.com/ESP8266/YouTubeFootSwitch/"/>
-    <updated>2020-04-25T04:54:44Z</updated>
+    <updated>2020-04-25T06:10:54Z</updated>
     <title>#545 Wireless YouTube Foot Switch</title>
     <summary>An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)</summary>
     <g:image_link>https://leap.tardate.com/ESP8266/YouTubeFootSwitch/assets/YouTubeFootSwitch_build.jpg</g:image_link>
