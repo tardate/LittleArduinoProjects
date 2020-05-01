@@ -1,5 +1,12 @@
 [
     {
+        "description": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 
+        "relative_path": "STM32/STM32F103C8T6/BareMetal", 
+        "id": "#549", 
+        "categories": "STM32, C", 
+        "name": "Bare Metal C on the Blue Pill"
+    }, 
+    {
         "description": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX", 
         "relative_path": "STM32/STM32F103C8T6/BluePill/DebugWithStlink", 
         "id": "#548", 

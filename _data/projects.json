@@ -1103,6 +1103,15 @@
         ], 
         "title": "TFT/Color128x128"
     }, 
+    "/STM32/STM32F103C8T6/BareMetal/": {
+        "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 
+        "id": 549, 
+        "tags": [
+            "STM32", 
+            "C"
+        ], 
+        "title": "Bare Metal C on the Blue Pill"
+    }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment display via a 74HC595 shift register", 
         "id": 177, 

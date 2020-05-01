@@ -272,7 +272,6 @@ For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>.
 ```
 
-
 ### Examining the Program to Orient Debugging
 
 The map file [DebugWithStlink.ino.map](./build/DebugWithStlink.ino.map) provides the full layout of the file,
