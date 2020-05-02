@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-02T07:22:25Z</updated>
+  <updated>2020-05-02T08:19:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -36,7 +36,7 @@
     <link href="https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/"/>
     <updated>2020-05-01T08:37:11Z</updated>
     <title>#546 STM32F103C8T6 Dev Board</title>
-    <summary>Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE</summary>
+    <summary>Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX</summary>
     <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/assets/48pinDevBoard_build.jpg</g:image_link>
     <category term="STM32"/>
   </entry>

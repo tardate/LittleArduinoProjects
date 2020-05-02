@@ -1,6 +1,7 @@
 # #546 STM32F103C8T6 Dev Board
 
-Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE.
+Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE,
+with examples of programming using USB-Serial or ST-Link v2 from MacOSX.
 
 ![Build](./assets/48pinDevBoard_build.jpg?raw=true)
 
@@ -110,6 +111,35 @@ Starting execution at address 0x08000000... done.
 ```
 
 ![Build](./assets/48pinDevBoard_build.jpg?raw=true)
+
+### Using ST-LINK v2 Programmer
+
+An alternative way of programming the device us using the SWD interface and ST-Link programmer.
+
+Compared with using a USB-Serial programmer, this has the advantage of being much more convenient because there is no need
+to adjust jumpers on the board and boot the device into bootloarder mode.
+
+I have a third-party [ST-Link/V2 programmer](https://www.aliexpress.com/item/32867333890.html), and this works just fine
+with the Arduino IDE.
+
+The SWD connections are on the top right of the board. For wire connections are required to the ST-Link v2 as follows:
+
+| ST-Link v2 | Board    |
+|------------|----------|
+|  GND       |  GND     |
+|  SWCLK     |  TCK     |
+|  SWDIO     |  TMs     |
+|  3.3V      |  3.3V    |
+
+![swd_connector](./assets/swd_connector.jpg?raw=true)
+
+To use the ST-Link v2 programmer, the upload method in the Arduino IDE just needs to be changed to "STLink":
+
+![swd_settings](./assets/swd_settings.png?raw=true)
+
+Programming doesn't need any jumper changes etc. Just click "Upload" in the IDE and off it goes...
+
+![swd_programming](./assets/swd_programming.png?raw=true)
 
 ## Credits and References
 
