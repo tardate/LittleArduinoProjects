@@ -98,7 +98,7 @@ Flash page at addr: 0x08003c00 erased
 ```
 
 Grabbing a copy of the compiled assets for examples below.
-The Arudino IDE builds these in a temp filder and they'll be automatically cleaned up when we exit the Arduino IDE if we don't take a copy,
+The Arudino IDE builds these in a temp filder and they'll be automatically cleaned up when we exit the Arduino IDE if we don't take a copy.
 This step is actually optional if I remember not to quit the IDE.
 
 ```
@@ -111,7 +111,7 @@ DebugWithStlink.ino.map
 
 ### Installing stlink
 
-For Mac users, [stlink](https://github.com/stlink-org/stlink) is perhaps most conveniently available with brew:
+For Mac users, [stlink](https://github.com/stlink-org/stlink) is perhaps most conveniently installed with homebrew:
 
 ```
 $ brew install stlink
@@ -140,7 +140,6 @@ st-flash  st-info   st-util
 ### Getting Programmer Information
 
 The `st-info` utility provides a few options to interrogate the programmer.
-Note that this interrupts the program running on the device and it will need a reboot.
 
 ```
 $ st-info --probe
@@ -153,10 +152,21 @@ openocd: "\x54\x3f\x76\x06\x50\x3f\x49\x53\x46\x14\x01\x3f"
   descr: F1 Medium-density device
 ```
 
+Note that this interrupts the program running on the device and it will need a reset.
+e.g. this gets the device running again:
+
+```
+$ st-flash reset
+st-flash 1.6.0
+2020-05-02T15:25:41 INFO common.c: Loading device parameters....
+2020-05-02T15:25:41 INFO common.c: Device connected is: F1 Medium-density device, id 0x20036410
+2020-05-02T15:25:41 INFO common.c: SRAM size: 0x5000 bytes (20 KiB), Flash: 0x10000 bytes (64 KiB) in pages of 1024 bytes
+```
+
 ### Flashing the Device
 
-Although the Arduino IDE has the built-in upload capabiltiy,
-it is possible to flash a new image directly
+Although the Arduino IDE has the built-in upload capability,
+it is possible to flash a new image directly:
 
 ```
 $ st-flash write build/DebugWithStlink.ino.bin 0x08000000
@@ -177,6 +187,8 @@ Flash page at addr: 0x08003c00 erased
 
 
 ### Starting Debug Host
+
+`st-util` will start a debug host with the first stlink device it can find by default:
 
 ```
 $ st-util -v
@@ -491,7 +503,7 @@ GDB connected via stlink:
 
 ## Construction
 
-ST-Link V2 connections to the Blu Pill:
+ST-Link V2 connections to the "Blue Pill":
 
 ![Breadboard](./assets/DebugWithStlink_bb.jpg?raw=true)
 
