@@ -4,7 +4,6 @@ Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE.
 
 ![Build](./assets/BluePill_build.jpg?raw=true)
 
-
 ## Notes
 
 Popularly known as the [Blue Pill](http://wiki.stm32duino.com/index.php?title=Blue_Pill),
@@ -40,7 +39,6 @@ The STM32F103C8 operates from 2.0 to 3.6V.
 The development board includes a 3.3V LDO regulator, and since many pins are 5V-tolerant, this allows the board to be used
 with 5V USB power.
 
-
 ## Programming with the Arduino IDE
 
 I'm following the
@@ -67,7 +65,6 @@ Install the `STM32F1xx/GD32F1xx boards` package by stm32duino in the Board Manag
 ![setup_install_boards](./assets/setup_install_boards.png?raw=true)
 
 
-
 ### Connecting a Serial Programmer
 
 I'm using a CH340G USB-serial adapter from MacOSX (similar but different to FTDI-based adapters).
@@ -81,14 +78,11 @@ Connections are as follows:
 |  RXD       |  A9      |
 |  TXD       |  A10     |
 
-
 ![Breadboard](./assets/BluePill_bb.jpg?raw=true)
 
 ![Schematic](./assets/BluePill_schematic.jpg?raw=true)
 
-
 ![Build](./assets/BluePill_build.jpg?raw=true)
-
 
 ### Configuring the IDE
 
@@ -101,7 +95,6 @@ The default settings that work with this board are as follows:
 * Port: (as selected based on USB connection)
 
 ![setup_serial](./assets/setup_serial.png?raw=true)
-
 
 ### Uploading Sketch
 
@@ -124,7 +117,6 @@ After disconnecting the serial programmer and switching the BluePill Boot0 jumpe
 the board can be powered from USB with the program running:
 
 ![BluePill_usb_powered](./assets/BluePill_usb_powered.jpg?raw=true)
-
 
 ## Credits and References
 

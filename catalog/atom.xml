@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-01T08:44:25Z</updated>
+  <updated>2020-05-02T04:14:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/UsingSTLink/</id>
+    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/UsingSTLink/"/>
+    <updated>2020-05-02T04:00:58Z</updated>
+    <title>#547 Using STLink with the Arduino IDE</title>
+    <summary>Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE</summary>
+    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/UsingSTLink/assets/UsingSTLink_build.jpg</g:image_link>
+    <category term="STM32"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/</id>
     <link href="https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/"/>
@@ -1062,12 +1071,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/BluePill/LCD16x2/</id>
-    <link href="https://leap.tardate.com/STM32/BluePill/LCD16x2/"/>
+    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/LCD16x2/</id>
+    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/LCD16x2/"/>
     <updated>2019-01-01T05:58:40Z</updated>
     <title>#443 BluePill 16x2 LCD</title>
     <summary>using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE</summary>
-    <g:image_link>https://leap.tardate.com/STM32/BluePill/LCD16x2/assets/LCD16x2_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/LCD16x2/assets/LCD16x2_build.jpg</g:image_link>
     <category term="STM32"/>
     <category term="LCD"/>
   </entry>
@@ -1656,12 +1665,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/BluePill/</id>
-    <link href="https://leap.tardate.com/STM32/BluePill/"/>
+    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/</id>
+    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/"/>
     <updated>2018-05-02T16:55:49Z</updated>
     <title>#386 BluePill</title>
     <summary>programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE</summary>
-    <g:image_link>https://leap.tardate.com/STM32/BluePill/assets/BluePill_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/assets/BluePill_build.jpg</g:image_link>
     <category term="STM32"/>
   </entry>
   <entry>

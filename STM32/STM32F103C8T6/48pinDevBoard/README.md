@@ -7,7 +7,7 @@ Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the
 ## Notes
 
 This a [48-pin ARM Cortex-M3 STM32F103C8T6 Core Board](https://www.aliexpress.com/item/32952591766.html) that one sees around quite a bit.
-As far as I can tell, it's electrically similar to the ["Blue Pill"](../../BluePill) board, but just breaks out more of the pins to
+As far as I can tell, it's electrically similar to the ["Blue Pill"](../BluePill) board, but just breaks out more of the pins to
 convenient headers.
 
 In this project, I'm just going to investigate the board in a bit more detail, and program it with the Arduino IDE
@@ -37,7 +37,6 @@ so I have left that well alone.
 
 ![module_layout](./assets/module_layout.jpg?raw=true)
 
-
 ### Programming with the Arduino IDE
 
 Adding Board Support to the IDE
@@ -60,7 +59,6 @@ Connections are as follows:
 |  RXD       |  TXD     |
 |  TXD       |  RXD     |
 
-
 ### Uploading Sketch
 
 The [Blinky.ino](./Blinky/Blinky.ino) sketch is just about the simplest thing possible - blinks the LED connected on port PC13.
@@ -73,13 +71,11 @@ Selecting programming options:
 To program, BOOT0 needs to be pulled high to 3.3V, and BOOT1 pulled to ground.
 On the 48pin board, this requires adding a patch wire on each pin.
 
-
 | BOOT0 | BOOT1 | Mode |
 |-------|-------|------|
 | 0     | x     | Boot from User Flash. This is normal operating mode. |
 | 1     | 0     | Boot from System Memory. This contains the embedded bootloader, and is used for programming |
 | 1     | 1     | Boot from embedded SRAM. Used for other STM32 variants, but not the STM32F10x |
-
 
 Console log from the programming phase:
 
@@ -112,7 +108,6 @@ Wrote address 0x080036bc (100.00%) Done.
 
 Starting execution at address 0x08000000... done.
 ```
-
 
 ![Build](./assets/48pinDevBoard_build.jpg?raw=true)
 

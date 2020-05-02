@@ -163,6 +163,15 @@
         ], 
         "title": "Pixie"
     }, 
+    "/Electronics101/TriacDimmer/": {
+        "summary": "investigate the operation of triacs and build the basic dimmaer circuit", 
+        "id": 205, 
+        "tags": [
+            "Triac", 
+            "Thyristor"
+        ], 
+        "title": "TriacDimmer"
+    }, 
     "/BoldportClub/ananas/": {
         "summary": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!", 
         "id": 369, 
@@ -723,6 +732,15 @@
         ], 
         "title": "DicksonChargePump"
     }, 
+    "/STM32/STM32F103C8T6/BluePill/LCD16x2/": {
+        "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
+        "id": 443, 
+        "tags": [
+            "STM32", 
+            "LCD"
+        ], 
+        "title": "BluePill 16x2 LCD"
+    }, 
     "/playground/DS3231RTC/TimeDemo/": {
         "summary": "prints the system time synced from the RTC to the serial output", 
         "id": 166, 
@@ -793,14 +811,14 @@
         ], 
         "title": "CD4060/CrystalOscillator"
     }, 
-    "/Electronics101/TriacDimmer/": {
-        "summary": "investigate the operation of triacs and build the basic dimmaer circuit", 
-        "id": 205, 
+    "/Electronics101/Oscillators/CommonEmitterHartley/": {
+        "summary": "build and test a BJT common-emitter Hartley oscillator", 
+        "id": 418, 
         "tags": [
-            "Triac", 
-            "Thyristor"
+            "BJT", 
+            "Oscillators"
         ], 
-        "title": "TriacDimmer"
+        "title": "CommonEmitterHartley"
     }, 
     "/Electronics101/BJT/PhaseSplitter/": {
         "summary": "simple unity-gain phase splitter in a little breadboard-compatible package", 
@@ -856,6 +874,14 @@
             "Test Equipment"
         ], 
         "title": "GY560"
+    }, 
+    "/STM32/STM32F103C8T6/BluePill/UsingSTLink/": {
+        "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
+        "id": 547, 
+        "tags": [
+            "STM32"
+        ], 
+        "title": "Using STLink with the Arduino IDE"
     }, 
     "/Electronics101/555Timer/VariableDutyCycle/ControlAdjust/": {
         "summary": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator", 
@@ -1951,15 +1977,6 @@
         ], 
         "title": "AudioDSP/SuperCrunch"
     }, 
-    "/Electronics101/Oscillators/CommonEmitterHartley/": {
-        "summary": "build and test a BJT common-emitter Hartley oscillator", 
-        "id": 418, 
-        "tags": [
-            "BJT", 
-            "Oscillators"
-        ], 
-        "title": "CommonEmitterHartley"
-    }, 
     "/playground/Lcd5110/JuliansU8glibDemo/": {
         "summary": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library", 
         "id": 149, 
@@ -2074,13 +2091,14 @@
         ], 
         "title": "Continuity Tester"
     }, 
-    "/STM32/BluePill/": {
-        "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
-        "id": 386, 
+    "/Electronics101/RingOscillator/": {
+        "summary": "test a ring oscillator built with a 74LS14 Inverter chip", 
+        "id": 144, 
         "tags": [
-            "STM32"
+            "CMOS/TTL", 
+            "Oscillators"
         ], 
-        "title": "BluePill"
+        "title": "RingOscillator"
     }, 
     "/Electronics101/AudioAmps/Smokey/": {
         "summary": "quick build of a Smokey-like LM386 guitar power amp", 
@@ -2201,15 +2219,6 @@
             "NXP"
         ], 
         "title": "BoldportClub/PissOff"
-    }, 
-    "/Electronics101/RingOscillator/": {
-        "summary": "test a ring oscillator built with a 74LS14 Inverter chip", 
-        "id": 144, 
-        "tags": [
-            "CMOS/TTL", 
-            "Oscillators"
-        ], 
-        "title": "RingOscillator"
     }, 
     "/Radio/FM/BreadboardTransmitter/": {
         "summary": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3", 
@@ -3226,15 +3235,6 @@
         ], 
         "title": "Lcd5110/BareBack"
     }, 
-    "/STM32/BluePill/LCD16x2/": {
-        "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
-        "id": 443, 
-        "tags": [
-            "STM32", 
-            "LCD"
-        ], 
-        "title": "BluePill 16x2 LCD"
-    }, 
     "/playground/LED7Segment/CD4026Drive/": {
         "summary": "driving a 7-segment display with CD4026 Counter", 
         "id": 196, 
@@ -4232,6 +4232,14 @@
             "LFSR"
         ], 
         "title": "BoldportClub/TheMonarch"
+    }, 
+    "/STM32/STM32F103C8T6/BluePill/": {
+        "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
+        "id": 386, 
+        "tags": [
+            "STM32"
+        ], 
+        "title": "BluePill"
     }, 
     "/Electronics101/DigitalLogic/SRLatchWithNorGates/": {
         "summary": "Set-Reset latch implemented with NOR gates", 

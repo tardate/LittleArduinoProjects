@@ -3,7 +3,7 @@
   Blinky
   Simplest example possible: programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/STM32/BluePill/Blinky
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/STM32/STM32F103C8T6/BluePill/Blinky
 
  */
 

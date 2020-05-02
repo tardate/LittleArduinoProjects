@@ -1,5 +1,12 @@
 [
     {
+        "description": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
+        "relative_path": "STM32/STM32F103C8T6/BluePill/UsingSTLink", 
+        "id": "#547", 
+        "categories": "STM32", 
+        "name": "Using STLink with the Arduino IDE"
+    }, 
+    {
         "description": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE", 
         "relative_path": "STM32/STM32F103C8T6/48pinDevBoard", 
         "id": "#546", 
@@ -722,7 +729,7 @@
     }, 
     {
         "description": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
-        "relative_path": "STM32/BluePill/LCD16x2", 
+        "relative_path": "STM32/STM32F103C8T6/BluePill/LCD16x2", 
         "id": "#443", 
         "categories": "STM32, LCD", 
         "name": "BluePill 16x2 LCD"
@@ -1121,7 +1128,7 @@
     }, 
     {
         "description": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
-        "relative_path": "STM32/BluePill", 
+        "relative_path": "STM32/STM32F103C8T6/BluePill", 
         "id": "#386", 
         "categories": "STM32", 
         "name": "BluePill"

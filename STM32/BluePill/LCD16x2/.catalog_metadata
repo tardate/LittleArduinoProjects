@@ -1,7 +1,0 @@
-{
-    "id": "#443", 
-    "name": "BluePill 16x2 LCD", 
-    "description": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
-    "categories": "STM32, LCD", 
-    "relative_path": "STM32/BluePill/LCD16x2"
-}

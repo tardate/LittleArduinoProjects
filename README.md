@@ -1,7 +1,6 @@
-# 546 Little Electronics and Arduino Projects
+# 547 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [STM32F103C8T6 Dev Board](./STM32/STM32F103C8T6/48pinDevBoard) - Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE.
-
+> Latest addition:sparkles: [Using STLink with the Arduino IDE](./STM32/STM32F103C8T6/BluePill/UsingSTLink) - Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
