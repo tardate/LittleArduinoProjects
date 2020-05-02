@@ -1,0 +1,7 @@
+{
+    "id": "#548",
+    "name": "Debug Arduino STM32 with stlink",
+    "description": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX",
+    "categories": "STM32, gdb, stlink",
+    "relative_path": "STM32/STM32F103C8T6/BluePill/DebugWithStlink"
+}

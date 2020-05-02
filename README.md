@@ -1,6 +1,6 @@
-# 547 Little Electronics and Arduino Projects
+# 548 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Using STLink with the Arduino IDE](./STM32/STM32F103C8T6/BluePill/UsingSTLink) - Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE.
+> Latest addition:sparkles: [Debug Arduino STM32 with stlink](./STM32/STM32F103C8T6/BluePill/DebugWithStlink) - Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

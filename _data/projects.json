@@ -1422,13 +1422,14 @@
         ], 
         "title": "Bistable"
     }, 
-    "/Electronics101/Power/Any2AnyPowerPack/": {
-        "summary": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors", 
-        "id": 330, 
+    "/Electronics101/GuitarEffects/DelayKit/": {
+        "summary": "build and test a PT2399-based analogue delay pedal kit", 
+        "id": 339, 
         "tags": [
-            "Power"
+            "Guitar Effects", 
+            "Audio"
         ], 
-        "title": "Power/Any2AnyPowerPack"
+        "title": "DelayKit"
     }, 
     "/Electronics101/TeslaCoil/MusicalKit/": {
         "summary": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects", 
@@ -1946,14 +1947,13 @@
         ], 
         "title": "BoldportClub/3x7"
     }, 
-    "/Electronics101/GuitarEffects/DelayKit/": {
-        "summary": "build and test a PT2399-based analogue delay pedal kit", 
-        "id": 339, 
+    "/Electronics101/Power/Any2AnyPowerPack/": {
+        "summary": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors", 
+        "id": 330, 
         "tags": [
-            "Guitar Effects", 
-            "Audio"
+            "Power"
         ], 
-        "title": "DelayKit"
+        "title": "Power/Any2AnyPowerPack"
     }, 
     "/Equipment/LipoTesterModule/": {
         "summary": "Just a quick look at a 1S to 8S battery tester and alarm module.", 
@@ -3302,6 +3302,16 @@
             "Oscilloscope"
         ], 
         "title": "XYplotter"
+    }, 
+    "/STM32/STM32F103C8T6/BluePill/DebugWithStlink/": {
+        "summary": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX", 
+        "id": 548, 
+        "tags": [
+            "STM32", 
+            "gdb", 
+            "stlink"
+        ], 
+        "title": "Debug Arduino STM32 with stlink"
     }, 
     "/BoldportClub/pips/": {
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter", 
