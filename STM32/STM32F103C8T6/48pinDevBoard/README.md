@@ -114,21 +114,21 @@ Starting execution at address 0x08000000... done.
 
 ### Using ST-LINK v2 Programmer
 
-An alternative way of programming the device us using the SWD interface and ST-Link programmer.
+An alternative way of programming the device is to use the SWD interface and an ST-Link programmer.
 
-Compared with using a USB-Serial programmer, this has the advantage of being much more convenient because there is no need
-to adjust jumpers on the board and boot the device into bootloarder mode.
+Compared with using a USB-Serial programmer, this is more convenient because there is no need
+to adjust jumpers on the board and boot the device into a bootloader.
 
 I have a third-party [ST-Link/V2 programmer](https://www.aliexpress.com/item/32867333890.html), and this works just fine
 with the Arduino IDE.
 
-The SWD connections are on the top right of the board. For wire connections are required to the ST-Link v2 as follows:
+The SWD connections are on the top right of the board. Four wire connections are required to the ST-Link v2 as follows:
 
 | ST-Link v2 | Board    |
 |------------|----------|
 |  GND       |  GND     |
 |  SWCLK     |  TCK     |
-|  SWDIO     |  TMs     |
+|  SWDIO     |  TMS     |
 |  3.3V      |  3.3V    |
 
 ![swd_connector](./assets/swd_connector.jpg?raw=true)
@@ -137,7 +137,7 @@ To use the ST-Link v2 programmer, the upload method in the Arduino IDE just need
 
 ![swd_settings](./assets/swd_settings.png?raw=true)
 
-Programming doesn't need any jumper changes etc. Just click "Upload" in the IDE and off it goes...
+Programming doesn't need any jumper changes or reboots. Just click "Upload" in the IDE and off it goes...
 
 ![swd_programming](./assets/swd_programming.png?raw=true)
 
