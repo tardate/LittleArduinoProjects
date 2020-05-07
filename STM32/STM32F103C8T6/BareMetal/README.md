@@ -10,18 +10,18 @@ The STM32F103C8T6 is an ARM Cortex-M3 processor thats very popular in cheap deve
 [Blue Pill](../BluePill).
 
 Usually one would program the device with an IDE such as STM32CubeIDE, Keil, or even the Arduino IDE with STM32 extensions.
-Hoever, that hides awaay alot of the "fun" of programming a specific device, so here I thought I would
+Hoever, that hides much of the "fun" of programming a specific device, so here I thought I would
 investigate pure bare metal coding to see what it takes to get the most minimal program up and running.
 
-I was inspired to try this after seeing the [bare metal embedded lecture series](https://www.youtube.com/watch?v=qWqlkCLmZoE) from Fastbit Embedded Brain Academy
+I was inspired to try this after watching the [bare metal embedded lecture series](https://www.youtube.com/watch?v=qWqlkCLmZoE) from Fastbit Embedded Brain Academy
 on YouTube. It focused on a different STM32 model, but the details of the approach were very useful for working with the STM32F103C8T6.
 
-My goal is modest - blink the LED that's usually attached to PC13 on most developent boards.
+My goal is modest - blink the LED that's usually attached to PC13 on most development boards.
 
-I'm running this on MacOSX, and for tooling, I'm using:
+I'm running this on MacOSX, and for tooling I'm using:
 
 * [GNU Arm Embedded Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain) - C compiler, linker, gdb debugger
-* [ST-Link/V2 programmer](https://www.aliexpress.com/item/32867333890.html) - simpled USB attachment to the SWD pins on the development board
+* [ST-Link/V2 programmer](https://www.aliexpress.com/item/32867333890.html) - simple USB attachment to the SWD pins on the development board
 * [stlink](https://github.com/stlink-org/stlink) - open source STM32 MCU programming toolset for flashing the device and running a debug host if required.
 
 Note that all the details that follow are specific to the STM32F103C8T6. The specifics may vary (a lot) for other STM32 models.
