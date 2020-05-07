@@ -28,14 +28,14 @@ Note that all the details that follow are specific to the STM32F103C8T6. The spe
 
 ## Bare Metal Programming Overview
 
-* write the core C program. I am not using any C standard library functions so far, which simplifies the linking process. The program comprises:
+* write the main C program. I am not using any C standard library functions so far, which simplifies the linking process. The program comprises:
   * blinky.c/h - the main program
-  * led.c/h - all the functions to enabled and blink the LED on GPIO PC13
-  * delay.c/h - a simple delay function implementation that approximates a millisecond-resolution
-* implement the start up code - see stm32_startup.c
+  * led.c/h - all the functions to enable and blink the LED on GPIO PC13
+  * delay.c/h - a simple delay function that approximates a millisecond-resolution
+* implement the start up code - see [stm32_startup.c](./blinky/stm32_startup.c)
   * defines the ISR vector map and implements the main reset handler
-  * the reset handler sets up memory for execution then hands of control to the main program
-* write the linker script stm32_ls.ld which defines where all the code pieces should be assembled in memory
+  * the reset handler sets up memory for execution then hands over control to the main program
+* write the linker script [stm32_ls.ld](./blinky/stm32_ls.ld) which defines where all the code pieces should be assembled in memory
 * compile and link everything with gcc
 * use objcopy to produce the binary image to be flashed on the device
 * use the stlink tools to flash the device
@@ -49,7 +49,7 @@ To program bare metal, it's necessary to know the precise hardware details, in p
 The two critical resources I've used for this can be obtained from the [STM32F103 product info](https://www.st.com/en/microcontrollers-microprocessors/stm32f103.html) page:
 
 * DS5319: STM32F103x8/B datasheet
-* RM0008: STM32F103xx (Etc) reference manual
+* RM0008: STM32F103xx (etc) reference manual
 
 Some of the main details follow..
 
@@ -79,8 +79,8 @@ Numbering scheme from datasheet section 7
 STM32F103C8T6:
 
 * STM32 = ARM-based 32-bit microcontroller
-* F = Product type:general-purpose
-* 103 = Device subfamily:performance line
+* F = Product type: general-purpose
+* 103 = Device subfamily: performance line
 * C = Pin count: 48 pins
 * 8 = Flash memory size: 64 Kbytes of Flash memory
 * T = Package: LQFP
@@ -99,7 +99,7 @@ STM32F103C8T6 is classified by ST as a "Medium-density performance line" device.
 Interrupt and exception vectors are detailed in
 RM0008 10.1.2, Table 63: Vector table for other STM32F10xxx devices.
 
-The details were used to generate the isr vector table in [stm32_startup.c](./blinky/stm32_startup.c)
+The details were used to create the isr vector table in [stm32_startup.c](./blinky/stm32_startup.c)
 
 ### Linker Script
 
@@ -123,10 +123,10 @@ I'm going to use Push-Pull mode, so that it doesn't matter whether the LED is wi
 
 Note:
 
-* whether the LED is wired to source or sink from PC13 will deterine of the pin logice is active high or low
-* the current handling of PC13 is very limited (+/-3mA) but I trust that the devlopment board makers have sized the LED current limiting resistor accordingly.
+* whether the LED is wired to source or sink from PC13 will determine if the pin logic is active high or low
+* the current handling of PC13 is very limited (+/-3mA) but I trust that the development board makers have sized the LED current limiting resistor accordingly.
 
-There are four steps required to output on a GPIO pin:
+There are four steps required to drive a GPIO pin output:
 
 * The GPIO port clock must be enabled for anything to work (RCC_APB2ENR register)
 * the GPIO pin configuration must be set correctly (GPIOCx_CRH or GPIOCx_CRH registers depending on the port and pin in question)
@@ -205,9 +205,9 @@ Flash page at addr: 0x08000000 erased
 
 The delay function used in the program is not timer based - it just does a NOP loop for an appropriate number of cycles.
 
-I changed the program to use a 10ms delay between on and off transitions, used the scope to measure the resulting waveform,
+I changed the program to use a 10ms delay between on and off transitions, used a scope to measure the resulting waveform,
 and then calcualted what the correct number of loops per millisecond should be.
-(an alternative approach would be to disassemble the code and count the operations and operation timing, but this was quicker!)
+An alternative approach would be to disassemble the code and count the operations and operation timing, but this was quicker!
 
 At 10ms per transition (20ms full cycle), we should see a [50Hz](https://www.wolframalpha.com/input/?i=1%2F%282+*+10ms%29) square wave.
 Hooking up to an oscilloscope, that's exactly what I'm recording:
@@ -217,11 +217,12 @@ Hooking up to an oscilloscope, that's exactly what I'm recording:
 
 ### Debugging with GDB
 
-The make file is set to build the project with debug symbols, so inspecting the program operation with gdb is made a little easier.
+The makefile is set to build the project with debug symbols, so inspecting program operation with gdb is made a little easier.
 
-Running st-util debug host in one terminal window:
+Running st-util in one terminal window:
 ```
-$ st-util
+$ make debughost
+st-util
 st-util 1.6.0
 2020-05-07T23:23:51 INFO common.c: Loading device parameters....
 2020-05-07T23:23:51 INFO common.c: Device connected is: F1 Medium-density device, id 0x20036410
@@ -233,10 +234,10 @@ st-util 1.6.0
 ...
 ```
 
-Then connecting with gdb. Here's a session where I break on the `led_on` function and examin the effecton the GPIOC_ODR register:
-
+Then connecting with gdb. Here's a session where I break on the `led_on` function and examine the effect on the GPIOC_ODR register:
 ```
-$ arm-none-eabi-gdb $(pwd)/blinky.elf
+$ make gdb
+arm-none-eabi-gdb blinky.elf
 GNU gdb (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 8.3.0.20190709-git
 Copyright (C) 2019 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -252,13 +253,13 @@ Find the GDB manual and other documentation resources online at:
 
 For help, type "help".
 Type "apropos word" to search for commands related to "word"...
-Reading symbols from /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BareMetal/blinky/blinky.elf...
+Reading symbols from blinky.elf...
 (gdb) target extended localhost:4242
 Remote debugging using localhost:4242
 Reset_Handler () at stm32_startup.c:179
 179 void Reset_Handler(void) {
 (gdb) break led_on
-Breakpoint 1 at 0x80001f2: file led.c, line 27.
+Breakpoint 1 at 0x800021e: file led.c, line 27.
 (gdb) cont
 Continuing.
 Note: automatically using hardware breakpoints for read-only addresses.
@@ -286,7 +287,7 @@ Breakpoint 1, led_on () at led.c:27
 0x4001100c: 0x00002000
 (gdb) info breakpoints
 Num     Type           Disp Enb Address    What
-1       breakpoint     keep y   0x080001f2 in led_on at led.c:27
+1       breakpoint     keep y   0x0800021e in led_on at led.c:27
   breakpoint already hit 1 time
 (gdb) delete 1
 (gdb) cont

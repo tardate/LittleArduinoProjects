@@ -5,8 +5,7 @@ MACH=cortex-m3
 CFLAGS= -c -mcpu=$(MACH) -mthumb -std=gnu11 -Wall -g -O0
 LDFLAGS= -T stm32_ls.ld -nostdlib -Wl,-Map=blinky.map
 
-.PHONY: all
-all: blinky.bin blinky.elf
+all: blinky.bin
 
 blinky.bin: blinky.elf
 	$(OBJCOPY) -O binary $^ $@
@@ -25,3 +24,11 @@ flash: all
 .PHONY: reset
 reset:
 	st-flash reset
+
+.PHONY: debughost
+debughost:
+	st-util
+
+.PHONY: gdb
+gdb: blinky.elf
+	arm-none-eabi-gdb blinky.elf
