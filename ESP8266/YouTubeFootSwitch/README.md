@@ -149,11 +149,23 @@ Generating index_page.h from page_design.html...
 
 ![app_how_it_works](./assets/app_how_it_works.jpg?raw=true)
 
+### Adding Some Feet
+
+I found some [Adhesive 6mm Silicon Pads](https://www.aliexpress.com/item/4000139088828.html).
+They are very cheap and proved extremely effective.
+
+![silicon_pads](./assets/silicon_pads.jpg?raw=true)
+
+No problems sticking to the wood without any additional adhesive, and they provide a high degree of grip,
+stopping the unit sliding around under rough handling by foot.
+
+![with_feet](./assets/with_feet.jpg?raw=true)
+
 ### Improvements?
 
 It's working just great, but some improvements I've been putting on a wishlist:
 
-* I'm waiting for some non-slip pads to be delivered. This will stop the unit sliding around under rough handling by foot.
+* I'm waiting for some non-slip pads to be delivered. This will stop the unit sliding around under rough handling by foot. DONE√ (see above)
 * As mentioned above, I may replace the battery pack with a mains adapter and 3.3V regulator for extended playing sessions
 * Add some more features to the web application, e.g.
   * maintain a playing history/library of vidoes
