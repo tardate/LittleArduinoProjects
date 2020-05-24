@@ -8,22 +8,24 @@ Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, w
 
 The Black Magic Probe (BMP) is a JTAG and SWD Adapter used for programming and debugging ARM Cortex MCUs.
 I got a [Black Magic Probe V2.1](https://github.com/blacksphere/blackmagic/wiki) from the associated
-kickstarter but it's only now that I've taking it for a full test drive.
-For the examples I'm demonstrating below, I'm running on MacOSX.
+kickstarter but this is my first full test drive. For the examples below, I'm running on MacOSX.
 
 ![bmp_front](./assets/bmp_front.jpg?raw=true)
+
+The pictures show the JTAG ribbon connected on the top, and a (slightly skewed!) serial adapter connected on the bottom.
+
 ![bmp_rear](./assets/bmp_rear.jpg?raw=true)
 
 The Black Magic Probe:
 
 * plugs into the programming workstation (Windows, Mac, Linux) over USB
-* runs an embedded gbd debug host - no other software required to connect a debugger (e.g. gdb)
+* runs an embedded GDB debug host - no other software required to connect a debugger
 * supports three methods of connecting the target device:
   * JTAG
   * SWD
   * serial
 
-This is all handled by the STM32F103CBUx on the BMP. Here's the schematic v2.1:
+This is all handled by the STM32F103CBUx chip on the BMP itself. Here's the schematic v2.1:
 
 [![Schematic](./assets/BlackMagicProbe_schematic.jpg?raw=true)](https://github.com/blacksphere/blackmagic/wiki/files/bmpm_v2_1c_schematic.pdf)
 
