@@ -732,15 +732,6 @@
         ], 
         "title": "DicksonChargePump"
     }, 
-    "/STM32/STM32F103C8T6/BluePill/LCD16x2/": {
-        "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
-        "id": 443, 
-        "tags": [
-            "STM32", 
-            "LCD"
-        ], 
-        "title": "BluePill 16x2 LCD"
-    }, 
     "/playground/DS3231RTC/TimeDemo/": {
         "summary": "prints the system time synced from the RTC to the serial output", 
         "id": 166, 
@@ -874,14 +865,6 @@
             "Test Equipment"
         ], 
         "title": "GY560"
-    }, 
-    "/STM32/STM32F103C8T6/BluePill/UsingSTLink/": {
-        "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
-        "id": 547, 
-        "tags": [
-            "STM32"
-        ], 
-        "title": "Using STLink with the Arduino IDE"
     }, 
     "/Electronics101/555Timer/VariableDutyCycle/ControlAdjust/": {
         "summary": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator", 
@@ -1103,15 +1086,6 @@
         ], 
         "title": "TFT/Color128x128"
     }, 
-    "/STM32/STM32F103C8T6/BareMetal/": {
-        "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 
-        "id": 549, 
-        "tags": [
-            "STM32", 
-            "C"
-        ], 
-        "title": "Bare Metal C on the Blue Pill"
-    }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment display via a 74HC595 shift register", 
         "id": 177, 
@@ -1139,6 +1113,14 @@
             "Thyristor"
         ], 
         "title": "SCRLatch"
+    }, 
+    "/ARM/STM32F103C8T6/48pinDevBoard/": {
+        "summary": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX", 
+        "id": 546, 
+        "tags": [
+            "STM32"
+        ], 
+        "title": "STM32F103C8T6 Dev Board"
     }, 
     "/Electronics101/BreadboardBling/PotModules/": {
         "summary": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers", 
@@ -1441,14 +1423,13 @@
         ], 
         "title": "Bistable"
     }, 
-    "/Electronics101/GuitarEffects/DelayKit/": {
-        "summary": "build and test a PT2399-based analogue delay pedal kit", 
-        "id": 339, 
+    "/Electronics101/Power/Any2AnyPowerPack/": {
+        "summary": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors", 
+        "id": 330, 
         "tags": [
-            "Guitar Effects", 
-            "Audio"
+            "Power"
         ], 
-        "title": "DelayKit"
+        "title": "Power/Any2AnyPowerPack"
     }, 
     "/Electronics101/TeslaCoil/MusicalKit/": {
         "summary": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects", 
@@ -1746,6 +1727,16 @@
         ], 
         "title": "SRLatchFlipper"
     }, 
+    "/ARM/STM32F103C8T6/BluePill/DebugWithStlink/": {
+        "summary": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX", 
+        "id": 548, 
+        "tags": [
+            "STM32", 
+            "gdb", 
+            "stlink"
+        ], 
+        "title": "Debug Arduino STM32 with stlink"
+    }, 
     "/Audio/AudioEffectsChips/H823/": {
         "summary": "figuring out how to use the H823 \"Happy Birthday\" music chip", 
         "id": 292, 
@@ -1966,13 +1957,14 @@
         ], 
         "title": "BoldportClub/3x7"
     }, 
-    "/Electronics101/Power/Any2AnyPowerPack/": {
-        "summary": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors", 
-        "id": 330, 
+    "/Electronics101/GuitarEffects/DelayKit/": {
+        "summary": "build and test a PT2399-based analogue delay pedal kit", 
+        "id": 339, 
         "tags": [
-            "Power"
+            "Guitar Effects", 
+            "Audio"
         ], 
-        "title": "Power/Any2AnyPowerPack"
+        "title": "DelayKit"
     }, 
     "/Equipment/LipoTesterModule/": {
         "summary": "Just a quick look at a 1S to 8S battery tester and alarm module.", 
@@ -2409,6 +2401,14 @@
             "Sensors"
         ], 
         "title": "Publishing Internals"
+    }, 
+    "/ARM/STM32F103C8T6/BluePill/": {
+        "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
+        "id": 386, 
+        "tags": [
+            "STM32"
+        ], 
+        "title": "BluePill"
     }, 
     "/playground/Lcd5110/DIYShield/": {
         "summary": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping", 
@@ -3079,6 +3079,15 @@
         ], 
         "title": "TTLBufferDriver"
     }, 
+    "/Electronics101/VoiceLevelIndicatorKit/": {
+        "summary": "build and investigate a commercially available \"3-band voice level indicator\" kit", 
+        "id": 125, 
+        "tags": [
+            "LED", 
+            "Kit"
+        ], 
+        "title": "Voice Level Indicator Kit"
+    }, 
     "/LEDArrayDemos/": {
         "summary": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...", 
         "id": 7, 
@@ -3322,16 +3331,6 @@
         ], 
         "title": "XYplotter"
     }, 
-    "/STM32/STM32F103C8T6/BluePill/DebugWithStlink/": {
-        "summary": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX", 
-        "id": 548, 
-        "tags": [
-            "STM32", 
-            "gdb", 
-            "stlink"
-        ], 
-        "title": "Debug Arduino STM32 with stlink"
-    }, 
     "/BoldportClub/pips/": {
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter", 
         "id": 402, 
@@ -3453,6 +3452,15 @@
             "Power"
         ], 
         "title": "ArcGeneratorKit"
+    }, 
+    "/ARM/STM32F103C8T6/BluePill/LCD16x2/": {
+        "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
+        "id": 443, 
+        "tags": [
+            "STM32", 
+            "LCD"
+        ], 
+        "title": "BluePill 16x2 LCD"
     }, 
     "/Electronics101/555Timer/Monostable/": {
         "summary": "basic monostable mode using an Arduino and processing to plot the output", 
@@ -3652,14 +3660,13 @@
         ], 
         "title": "PIC16F84A Blinky"
     }, 
-    "/Electronics101/DigitalLogic/AsyncJKCounter/": {
-        "summary": "an asynchronous 4-bit counter built with JK Flip-Flops", 
-        "id": 186, 
+    "/ARM/STM32F103C8T6/BluePill/UsingSTLink/": {
+        "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
+        "id": 547, 
         "tags": [
-            "CMOS/TTL", 
-            "Digital Logic"
+            "STM32"
         ], 
-        "title": "Asynchronous JK Counter"
+        "title": "Using STLink with the Arduino IDE"
     }, 
     "/Kinetics/HomopolarJouleThiefBlinky/": {
         "summary": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms", 
@@ -3767,14 +3774,6 @@
             "Oscillators"
         ], 
         "title": "555 Timer Doorbell Kit"
-    }, 
-    "/STM32/STM32F103C8T6/48pinDevBoard/": {
-        "summary": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX", 
-        "id": 546, 
-        "tags": [
-            "STM32"
-        ], 
-        "title": "STM32F103C8T6 Dev Board"
     }, 
     "/Kinetics/Solenoids/SolenoidDIY/": {
         "summary": "build and test a basic electromechanical solenoid", 
@@ -3914,14 +3913,14 @@
         ], 
         "title": "Ruby"
     }, 
-    "/Electronics101/VoiceLevelIndicatorKit/": {
-        "summary": "build and investigate a commercially available \"3-band voice level indicator\" kit", 
-        "id": 125, 
+    "/ARM/STM32F103C8T6/BareMetal/": {
+        "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 
+        "id": 549, 
         "tags": [
-            "LED", 
-            "Kit"
+            "STM32", 
+            "C"
         ], 
-        "title": "Voice Level Indicator Kit"
+        "title": "Bare Metal C on the Blue Pill"
     }, 
     "/FritzingParts/": {
         "summary": "my collection of custom Fritzing Parts", 
@@ -4262,14 +4261,6 @@
         ], 
         "title": "BoldportClub/TheMonarch"
     }, 
-    "/STM32/STM32F103C8T6/BluePill/": {
-        "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE", 
-        "id": 386, 
-        "tags": [
-            "STM32"
-        ], 
-        "title": "BluePill"
-    }, 
     "/Electronics101/DigitalLogic/SRLatchWithNorGates/": {
         "summary": "Set-Reset latch implemented with NOR gates", 
         "id": 77, 
@@ -4393,6 +4384,15 @@
             "LED"
         ], 
         "title": "PIC/GettingBlinky/UsingC"
+    }, 
+    "/Electronics101/DigitalLogic/AsyncJKCounter/": {
+        "summary": "an asynchronous 4-bit counter built with JK Flip-Flops", 
+        "id": 186, 
+        "tags": [
+            "CMOS/TTL", 
+            "Digital Logic"
+        ], 
+        "title": "Asynchronous JK Counter"
     }, 
     "/Electronics101/SchmittTrigger/PowerOkIndicator/": {
         "summary": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14", 

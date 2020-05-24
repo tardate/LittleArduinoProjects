@@ -3,5 +3,5 @@
     "name": "STM32F103C8T6 Dev Board",
     "description": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX",
     "categories": "STM32",
-    "relative_path": "STM32/STM32F103C8T6/48pinDevBoard"
+    "relative_path": "ARM/STM32F103C8T6/48pinDevBoard"
 }

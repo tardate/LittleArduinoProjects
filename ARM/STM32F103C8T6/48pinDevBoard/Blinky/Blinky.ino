@@ -3,7 +3,7 @@
   STM32F103C8T6/48pinDevBoard
   Simplest example possible: programming a 48 pin ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/STM32/STM32F103C8T6/48pinDevBoard
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ARM/STM32F103C8T6/48pinDevBoard
 
  */
 

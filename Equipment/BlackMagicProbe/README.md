@@ -145,8 +145,8 @@ This makes it easier to wire up the SWD connections on the Blue Pill:
 ![swd_programming](./assets/swd_programming.jpg?raw=true)
 
 Here's a transcript of a GDB session to program and debug the Blue Pill.
-I'm using the [blinky.elf](https://github.com/tardate/LittleArduinoProjects/tree/master/STM32/STM32F103C8T6/BareMetal/blinky)
-from [LEAP#549 Bare Metal C on the Blue Pill](https://leap.tardate.com/stm32/stm32f103c8t6/baremetal/) as my example program.
+I'm using the [blinky.elf](https://github.com/tardate/LittleArduinoProjects/tree/master/ARM/STM32F103C8T6/BareMetal/blinky)
+from [LEAP#549 Bare Metal C on the Blue Pill](https://leap.tardate.com/ARM/STM32F103C8T6/baremetal/) as my example program.
 
 Start GDB with the ELF of the program I'll load into the device:
 
@@ -163,7 +163,7 @@ This is really the only step that is different when using SWD: I'll use the `swd
     No. Att Driver
      1      STM32F1 medium density
     (gdb) attach 1
-    Attaching to program: /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BareMetal/blinky/blinky.elf, Remote target
+    Attaching to program: /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BareMetal/blinky/blinky.elf, Remote target
     0x080001a8 in delay (ms=500) at delay.c:7
     7   for(uint32_t i = 0 ; i < ms * DELAY_COUNT_1MS ; i++);
 
@@ -179,7 +179,7 @@ Run the program, do all of the usual GDB type things: interrupt execution, step,
     (gdb) run
     The program being debugged has been started already.
     Start it from the beginning? (y or n) y
-    Starting program: /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BareMetal/blinky/blinky.elf
+    Starting program: /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BareMetal/blinky/blinky.elf
     ^C
     Program received signal SIGINT, Interrupt.
     0x080001a2 in delay (ms=500) at delay.c:7

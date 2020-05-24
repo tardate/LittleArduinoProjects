@@ -26,8 +26,8 @@ I'm using a simple blinky sketch [DebugWithStlink.ino](./DebugWithStlink.ino), c
 Here's a transcript from the IDE console:
 
 ```
-/Applications/Arduino.app/Contents/Java/arduino-builder -dump-prefs -logger=machine -hardware /Applications/Arduino.app/Contents/Java/hardware -hardware /Users/paulgallagher/Library/Arduino15/packages -hardware /Users/paulgallagher/MyGithub/LittleArduinoProjects/hardware -tools /Applications/Arduino.app/Contents/Java/tools-builder -tools /Applications/Arduino.app/Contents/Java/hardware/tools/avr -tools /Users/paulgallagher/Library/Arduino15/packages -built-in-libraries /Applications/Arduino.app/Contents/Java/libraries -libraries /Users/paulgallagher/MyGithub/LittleArduinoProjects/libraries -fqbn=stm32duino:STM32F1:genericSTM32F103C:device_variant=STM32F103C8,upload_method=STLinkMethod,cpu_speed=speed_72mhz,opt=osstd -ide-version=10810 -build-path /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_279421 -warnings=all -build-cache /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_cache_261188 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.stm32tools.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -prefs=runtime.tools.stm32tools-2018.4.29.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -verbose /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino
-/Applications/Arduino.app/Contents/Java/arduino-builder -compile -logger=machine -hardware /Applications/Arduino.app/Contents/Java/hardware -hardware /Users/paulgallagher/Library/Arduino15/packages -hardware /Users/paulgallagher/MyGithub/LittleArduinoProjects/hardware -tools /Applications/Arduino.app/Contents/Java/tools-builder -tools /Applications/Arduino.app/Contents/Java/hardware/tools/avr -tools /Users/paulgallagher/Library/Arduino15/packages -built-in-libraries /Applications/Arduino.app/Contents/Java/libraries -libraries /Users/paulgallagher/MyGithub/LittleArduinoProjects/libraries -fqbn=stm32duino:STM32F1:genericSTM32F103C:device_variant=STM32F103C8,upload_method=STLinkMethod,cpu_speed=speed_72mhz,opt=osstd -ide-version=10810 -build-path /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_279421 -warnings=all -build-cache /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_cache_261188 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.stm32tools.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -prefs=runtime.tools.stm32tools-2018.4.29.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -verbose /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino
+/Applications/Arduino.app/Contents/Java/arduino-builder -dump-prefs -logger=machine -hardware /Applications/Arduino.app/Contents/Java/hardware -hardware /Users/paulgallagher/Library/Arduino15/packages -hardware /Users/paulgallagher/MyGithub/LittleArduinoProjects/hardware -tools /Applications/Arduino.app/Contents/Java/tools-builder -tools /Applications/Arduino.app/Contents/Java/hardware/tools/avr -tools /Users/paulgallagher/Library/Arduino15/packages -built-in-libraries /Applications/Arduino.app/Contents/Java/libraries -libraries /Users/paulgallagher/MyGithub/LittleArduinoProjects/libraries -fqbn=stm32duino:STM32F1:genericSTM32F103C:device_variant=STM32F103C8,upload_method=STLinkMethod,cpu_speed=speed_72mhz,opt=osstd -ide-version=10810 -build-path /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_279421 -warnings=all -build-cache /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_cache_261188 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.stm32tools.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -prefs=runtime.tools.stm32tools-2018.4.29.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -verbose /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino
+/Applications/Arduino.app/Contents/Java/arduino-builder -compile -logger=machine -hardware /Applications/Arduino.app/Contents/Java/hardware -hardware /Users/paulgallagher/Library/Arduino15/packages -hardware /Users/paulgallagher/MyGithub/LittleArduinoProjects/hardware -tools /Applications/Arduino.app/Contents/Java/tools-builder -tools /Applications/Arduino.app/Contents/Java/hardware/tools/avr -tools /Users/paulgallagher/Library/Arduino15/packages -built-in-libraries /Applications/Arduino.app/Contents/Java/libraries -libraries /Users/paulgallagher/MyGithub/LittleArduinoProjects/libraries -fqbn=stm32duino:STM32F1:genericSTM32F103C:device_variant=STM32F103C8,upload_method=STLinkMethod,cpu_speed=speed_72mhz,opt=osstd -ide-version=10810 -build-path /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_279421 -warnings=all -build-cache /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_cache_261188 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arm-none-eabi-gcc.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path=/Users/paulgallagher/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1 -prefs=runtime.tools.stm32tools.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -prefs=runtime.tools.stm32tools-2018.4.29.path=/Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29 -verbose /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino
 Using board 'genericSTM32F103C' from platform in folder: /Users/paulgallagher/Library/Arduino15/packages/stm32duino/hardware/STM32F1/2018.4.29
 Using core 'maple' from platform in folder: /Users/paulgallagher/Library/Arduino15/packages/stm32duino/hardware/STM32F1/2018.4.29
 Detecting libraries used...
@@ -339,7 +339,7 @@ and "show warranty" for details.
 This GDB was configured as "--host=x86_64-apple-darwin10 --target=arm-none-eabi".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/build/DebugWithStlink.ino.elf...done.
+Reading symbols from /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/build/DebugWithStlink.ino.elf...done.
 ```
 
 Connecting to the stlink debug host on port 4242 (making sure I have `st-util` running in a separate console):
@@ -355,12 +355,12 @@ Setting a breakpoint on the `loop` function and letting the program run to the b
 
 ```
 (gdb) break loop
-Breakpoint 1 at 0x8000148: file /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino, line 20.
+Breakpoint 1 at 0x8000148: file /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino, line 20.
 (gdb) cont
 Continuing.
 Note: automatically using hardware breakpoints for read-only addresses.
 
-Breakpoint 1, loop () at /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
+Breakpoint 1, loop () at /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
 20    output = !output;
 ```
 
@@ -402,7 +402,7 @@ Continue to next breakpoint and examine the change in variables:
 (gdb) cont
 Continuing.
 
-Breakpoint 1, loop () at /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
+Breakpoint 1, loop () at /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
 20    output = !output;
 (gdb) info locals
 output = true
@@ -450,7 +450,7 @@ $1 = 3
 (gdb) cont
 Continuing.
 
-Breakpoint 1, loop () at /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
+Breakpoint 1, loop () at /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
 20    output = !output;
 (gdb) p global_counter
 $2 = 11
@@ -484,7 +484,7 @@ Checking and clearing breakpoints:
 (gdb) info breakpoints
 Num     Type           Disp Enb Address    What
 1       breakpoint     keep y   0x08000148 in loop()
-                                           at /Users/paulgallagher/MyGithub/LittleArduinoProjects/STM32/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
+                                           at /Users/paulgallagher/MyGithub/LittleArduinoProjects/ARM/STM32F103C8T6/BluePill/DebugWithStlink/DebugWithStlink.ino:20
   breakpoint already hit 3 times
 (gdb) delete 1
 (gdb) cont

@@ -11,6 +11,7 @@ Make a new project workspace..
 
 Usage:
   $0 51 ProjectName  # new 8051 project
+  $0 ar ProjectName  # new ARM/STM32 project
   $0 au ProjectName  # new Audio project
   $0 bp ProjectName  # new BoldportClub project
   $0 ee ProjectName  # new Electronics101 project
@@ -22,9 +23,8 @@ Usage:
   $0 kr ProjectName  # new Kraft project
   $0 os ProjectName  # new OSHChip project
   $0 pi ProjectName  # new PIC project
-  $0 pg ProjectName  # new playground project
+  $0 pg ProjectName  # new Arduino playground project
   $0 ra ProjectName  # new Radio project
-  $0 st ProjectName  # new STM32 project
 
 EOF
   exit
@@ -141,6 +141,10 @@ au)
   make_project "Audio" "${2}"
   ;;
 
+ar | arm | st | stm)
+  make_project "ARM" "${2}"
+  ;;
+
 bp)
   make_project "BoldportClub" "${2}"
   ;;
@@ -187,10 +191,6 @@ pi | pic)
 
 ra | radio)
   make_project "Radio" "${2}"
-  ;;
-
-st | stm)
-  make_project "STM32" "${2}"
   ;;
 
 *)

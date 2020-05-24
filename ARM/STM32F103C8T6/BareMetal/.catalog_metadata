@@ -3,5 +3,5 @@
     "name": "Bare Metal C on the Blue Pill",
     "description": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset",
     "categories": "STM32, C",
-    "relative_path": "STM32/STM32F103C8T6/BareMetal"
+    "relative_path": "ARM/STM32F103C8T6/BareMetal"
 }

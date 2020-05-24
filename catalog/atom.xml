@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-24T09:37:29Z</updated>
+  <updated>2020-05-24T09:46:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/BlackMagicProbe/</id>
     <link href="https://leap.tardate.com/Equipment/BlackMagicProbe/"/>
-    <updated>2020-05-24T09:21:33Z</updated>
+    <updated>2020-05-24T09:38:29Z</updated>
     <title>#550 Black Magic Probe</title>
     <summary>Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/Equipment/BlackMagicProbe/assets/BlackMagicProbe_build.jpg</g:image_link>
@@ -23,42 +23,42 @@
     <category term="SWD"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BareMetal/</id>
-    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BareMetal/"/>
+    <id>https://leap.tardate.com/ARM/STM32F103C8T6/BareMetal/</id>
+    <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BareMetal/"/>
     <updated>2020-05-23T07:47:13Z</updated>
     <title>#549 Bare Metal C on the Blue Pill</title>
     <summary>Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset</summary>
-    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BareMetal/assets/BareMetal_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BareMetal/assets/BareMetal_build.jpg</g:image_link>
     <category term="STM32"/>
     <category term="C"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/DebugWithStlink/</id>
-    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/DebugWithStlink/"/>
+    <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/DebugWithStlink/</id>
+    <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/DebugWithStlink/"/>
     <updated>2020-05-05T16:39:47Z</updated>
     <title>#548 Debug Arduino STM32 with stlink</title>
     <summary>Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX</summary>
-    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/DebugWithStlink/assets/DebugWithStlink_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/DebugWithStlink/assets/DebugWithStlink_build.jpg</g:image_link>
     <category term="STM32"/>
     <category term="gdb"/>
     <category term="stlink"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/UsingSTLink/</id>
-    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/UsingSTLink/"/>
+    <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/UsingSTLink/</id>
+    <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/UsingSTLink/"/>
     <updated>2020-05-05T16:39:47Z</updated>
     <title>#547 Using STLink with the Arduino IDE</title>
     <summary>Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE</summary>
-    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/UsingSTLink/assets/UsingSTLink_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/UsingSTLink/assets/UsingSTLink_build.jpg</g:image_link>
     <category term="STM32"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/</id>
-    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/"/>
+    <id>https://leap.tardate.com/ARM/STM32F103C8T6/48pinDevBoard/</id>
+    <link href="https://leap.tardate.com/ARM/STM32F103C8T6/48pinDevBoard/"/>
     <updated>2020-05-05T16:39:47Z</updated>
     <title>#546 STM32F103C8T6 Dev Board</title>
     <summary>Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX</summary>
-    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/48pinDevBoard/assets/48pinDevBoard_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/48pinDevBoard/assets/48pinDevBoard_build.jpg</g:image_link>
     <category term="STM32"/>
   </entry>
   <entry>
@@ -1103,12 +1103,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/LCD16x2/</id>
-    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/LCD16x2/"/>
+    <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/LCD16x2/</id>
+    <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/LCD16x2/"/>
     <updated>2020-05-05T16:39:47Z</updated>
     <title>#443 BluePill 16x2 LCD</title>
     <summary>using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE</summary>
-    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/LCD16x2/assets/LCD16x2_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/LCD16x2/assets/LCD16x2_build.jpg</g:image_link>
     <category term="STM32"/>
     <category term="LCD"/>
   </entry>
@@ -1697,12 +1697,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/</id>
-    <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/"/>
+    <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/</id>
+    <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/"/>
     <updated>2020-05-05T16:39:47Z</updated>
     <title>#386 BluePill</title>
     <summary>programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE</summary>
-    <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BluePill/assets/BluePill_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/assets/BluePill_build.jpg</g:image_link>
     <category term="STM32"/>
   </entry>
   <entry>

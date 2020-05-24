@@ -3,5 +3,5 @@
     "name": "BluePill",
     "description": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE",
     "categories": "STM32",
-    "relative_path": "STM32/STM32F103C8T6/BluePill"
+    "relative_path": "ARM/STM32F103C8T6/BluePill"
 }

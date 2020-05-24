@@ -3,7 +3,7 @@
   STM32F103C8T6/BluePill/DebugWithStlink
   A simple sketch for testing gdb and stlink debugging techniques.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/STM32/STM32F103C8T6/BluePill/DebugWithStlink
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ARM/STM32F103C8T6/BluePill/DebugWithStlink
 
  */
 
