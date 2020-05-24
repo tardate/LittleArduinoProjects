@@ -1,0 +1,7 @@
+{
+    "id": "#550",
+    "name": "Black Magic Probe",
+    "description": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX",
+    "categories": "ARM, JTAG, SWD",
+    "relative_path": "Equipment/BlackMagicProbe"
+}

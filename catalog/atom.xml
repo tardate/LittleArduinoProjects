@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-07T15:32:14Z</updated>
+  <updated>2020-05-24T09:37:29Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/BlackMagicProbe/</id>
+    <link href="https://leap.tardate.com/Equipment/BlackMagicProbe/"/>
+    <updated>2020-05-24T09:21:33Z</updated>
+    <title>#550 Black Magic Probe</title>
+    <summary>Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/BlackMagicProbe/assets/BlackMagicProbe_build.jpg</g:image_link>
+    <category term="ARM"/>
+    <category term="JTAG"/>
+    <category term="SWD"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/STM32/STM32F103C8T6/BareMetal/</id>
     <link href="https://leap.tardate.com/STM32/STM32F103C8T6/BareMetal/"/>
-    <updated>2020-05-07T15:17:45Z</updated>
+    <updated>2020-05-23T07:47:13Z</updated>
     <title>#549 Bare Metal C on the Blue Pill</title>
     <summary>Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset</summary>
     <g:image_link>https://leap.tardate.com/STM32/STM32F103C8T6/BareMetal/assets/BareMetal_build.jpg</g:image_link>

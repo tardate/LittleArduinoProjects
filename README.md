@@ -1,6 +1,6 @@
-# 549 Little Electronics and Arduino Projects
+# 550 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Bare Metal C on the Blue Pill](./STM32/STM32F103C8T6/BareMetal) - Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset.
+> Latest addition:sparkles: [Black Magic Probe](./Equipment/BlackMagicProbe) - Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

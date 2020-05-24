@@ -1,5 +1,12 @@
 [
     {
+        "description": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX", 
+        "relative_path": "Equipment/BlackMagicProbe", 
+        "id": "#550", 
+        "categories": "ARM, JTAG, SWD", 
+        "name": "Black Magic Probe"
+    }, 
+    {
         "description": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 
         "relative_path": "STM32/STM32F103C8T6/BareMetal", 
         "id": "#549", 

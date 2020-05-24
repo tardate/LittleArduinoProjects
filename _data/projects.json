@@ -1334,6 +1334,16 @@
         ], 
         "title": "EEPROM/AT24C02/BasicReadWrite"
     }, 
+    "/Equipment/BlackMagicProbe/": {
+        "summary": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX", 
+        "id": 550, 
+        "tags": [
+            "ARM", 
+            "JTAG", 
+            "SWD"
+        ], 
+        "title": "Black Magic Probe"
+    }, 
     "/Girabot/": {
         "summary": "EE40LX Electronic Interfaces robot project", 
         "id": 50, 
