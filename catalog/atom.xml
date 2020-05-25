@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-24T09:46:33Z</updated>
+  <updated>2020-05-25T08:56:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/"/>
+    <updated>2020-05-25T07:27:23Z</updated>
+    <title>#551 SN76477 Prop Plane</title>
+    <summary>Testing the SN76477 propeller plane sound effect configuration</summary>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/assets/PropPlane_build.jpg</g:image_link>
+    <category term="Audio"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/BlackMagicProbe/</id>
     <link href="https://leap.tardate.com/Equipment/BlackMagicProbe/"/>

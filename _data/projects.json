@@ -3320,6 +3320,14 @@
         ], 
         "title": "Discrete Schmitt Trigger"
     }, 
+    "/Audio/AudioEffectsChips/SN76477/PropPlane/": {
+        "summary": "Testing the SN76477 propeller plane sound effect configuration", 
+        "id": 551, 
+        "tags": [
+            "Audio"
+        ], 
+        "title": "SN76477 Prop Plane"
+    }, 
     "/playground/XYplotter/": {
         "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
         "id": 265, 

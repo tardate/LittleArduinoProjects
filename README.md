@@ -1,6 +1,6 @@
-# 550 Little Electronics and Arduino Projects
+# 551 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Black Magic Probe](./Equipment/BlackMagicProbe) - Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX.
+> Latest addition:sparkles: [SN76477 Prop Plane](./Audio/AudioEffectsChips/SN76477/PropPlane) - Testing the SN76477 propeller plane sound effect configuration.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

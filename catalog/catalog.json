@@ -1,5 +1,12 @@
 [
     {
+        "description": "Testing the SN76477 propeller plane sound effect configuration", 
+        "relative_path": "Audio/AudioEffectsChips/SN76477/PropPlane", 
+        "id": "#551", 
+        "categories": "Audio", 
+        "name": "SN76477 Prop Plane"
+    }, 
+    {
         "description": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX", 
         "relative_path": "Equipment/BlackMagicProbe", 
         "id": "#550", 
