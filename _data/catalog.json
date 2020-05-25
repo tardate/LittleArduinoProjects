@@ -3322,7 +3322,7 @@
         "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates", 
         "id": "#077", 
         "categories": "Logic Gates, CMOS/TTL", 
-        "name": "SRLatchWithNorGates"
+        "name": "NOR Gate SR Latch"
     }, 
     {
         "description": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino", 

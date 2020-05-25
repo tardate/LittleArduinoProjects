@@ -4276,7 +4276,7 @@
             "Logic Gates", 
             "CMOS/TTL"
         ], 
-        "title": "SRLatchWithNorGates"
+        "title": "NOR Gate SR Latch"
     }, 
     "/Equipment/ANG860B/": {
         "summary": "specifications and notes on the ANENG ANG860B+ digital multimeter", 

@@ -1,10 +1,12 @@
-# #077 SRLatchWithNorGates
+# #077 NOR Gate SR Latch
 
 Set-Reset latch implemented with NOR gates.
 
+![The Build](./assets/SRLatchWithNorGates_build.jpg?raw=true)
+
 ## Notes
 
-This circuit is another implementation of a Set-Reset flip-flip, this time using NOR gates.
+This circuit is another implementation of a Set-Reset flip-flop, this time using NOR gates.
 Sometimes this is referred to as a "NOR Latch".
 A 74LS02 is used to provide the two NOR gates required.
 
