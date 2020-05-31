@@ -1,6 +1,7 @@
-# 551 Little Electronics and Arduino Projects
+# 552 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [SN76477 Prop Plane](./Audio/AudioEffectsChips/SN76477/PropPlane) - Testing the SN76477 propeller plane sound effect configuration.
+> Latest addition:sparkles: [Aircraft Navigation Lights](./Electronics101/555Timer/AircraftNavigationLights) - Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

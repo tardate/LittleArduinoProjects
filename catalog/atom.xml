@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-25T16:30:06Z</updated>
+  <updated>2020-05-31T20:35:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/"/>
+    <updated>2020-05-31T19:54:07Z</updated>
+    <title>#552 Aircraft Navigation Lights</title>
+    <summary>Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/assets/AircraftNavigationLights_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="555 Timer"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/"/>

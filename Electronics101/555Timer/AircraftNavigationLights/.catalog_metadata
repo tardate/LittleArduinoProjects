@@ -1,0 +1,7 @@
+{
+    "id": "#552",
+    "name": "Aircraft Navigation Lights",
+    "description": "Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers",
+    "categories": "LED, 555 Timer",
+    "relative_path": "Electronics101/555Timer/AircraftNavigationLights"
+}
