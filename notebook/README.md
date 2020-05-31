@@ -46,6 +46,7 @@
 * [electroschematics](http://www.electroschematics.com/)
 * [ePanorama.net - Circuits](http://www.epanorama.net/index.php?index=circuit)
 * [General Guitar Gadgets](http://www.generalguitargadgets.com/)
+* [Homebrew RF Circuit Design Ideas](http://konstruktor.ha5khc.hu/linkgyujtemeny/linkgyujtemeny.htm)
 * [LM555 and LM556 Timer Circuits](http://www.circuitous.ca/LM555.html)
 * [Max Robinson's Fun With Transistors](http://www.funwithtransistors.net/)
 * [Model Railroad & Misc. Electronics](http://www.circuitous.ca/CircuitIndex.html)
