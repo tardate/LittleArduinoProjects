@@ -1,6 +1,6 @@
-# 554 Little Electronics and Arduino Projects
+# 555 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Jet Engine Startup Effect](./Audio/AudioEffects/JetEngine) - Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO.
+> Latest addition:sparkles: [555 Beat Bot](./Electronics101/555Timer/BeatBot) - A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

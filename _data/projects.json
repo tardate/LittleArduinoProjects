@@ -2474,13 +2474,16 @@
         ], 
         "title": "SimpleSiren"
     }, 
-    "/ESP8266/ESP12/Programming/": {
-        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
-        "id": 534, 
+    "/playground/LED7Segment/MAX7219/RawDrive/": {
+        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
+        "id": 478, 
         "tags": [
-            "ESP8266"
+            "7-Segment", 
+            "Arduino", 
+            "LED", 
+            "MAX7219"
         ], 
-        "title": "ESP-12 Programming"
+        "title": "Raw MAX7219 7-Segment LED Driver"
     }, 
     "/Electronics101/SwitchPFET/": {
         "summary": "small-signal p-channel MOSFET switch with turn-on delay", 
@@ -4697,16 +4700,13 @@
         ], 
         "title": "BoldportClub/Touchy"
     }, 
-    "/playground/LED7Segment/MAX7219/RawDrive/": {
-        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
-        "id": 478, 
+    "/ESP8266/ESP12/Programming/": {
+        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
+        "id": 534, 
         "tags": [
-            "7-Segment", 
-            "Arduino", 
-            "LED", 
-            "MAX7219"
+            "ESP8266"
         ], 
-        "title": "Raw MAX7219 7-Segment LED Driver"
+        "title": "ESP-12 Programming"
     }, 
     "/Audio/AudioAmps/Ruby/": {
         "summary": "a version of the runoffgroove Ruby LM386 guitar amp", 
@@ -4973,6 +4973,15 @@
             "Power"
         ], 
         "title": "PowerAMS1117"
+    }, 
+    "/Electronics101/555Timer/BeatBot/": {
+        "summary": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune", 
+        "id": 555, 
+        "tags": [
+            "555 Timer", 
+            "Kinetics"
+        ], 
+        "title": "Beat Bot"
     }, 
     "/Electronics101/Oscillators/ComparatorRelaxation/": {
         "summary": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp", 

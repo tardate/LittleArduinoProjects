@@ -1,5 +1,12 @@
 [
     {
+        "description": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune", 
+        "relative_path": "Electronics101/555Timer/BeatBot", 
+        "id": "#555", 
+        "categories": "555 Timer, Kinetics", 
+        "name": "Beat Bot"
+    }, 
+    {
         "description": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO", 
         "relative_path": "Audio/AudioEffects/JetEngine", 
         "id": "#554", 
