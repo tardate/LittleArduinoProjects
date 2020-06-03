@@ -351,6 +351,15 @@
         ], 
         "title": "BoldportClub/stringy"
     }, 
+    "/playground/ATtiny/SleepMode/": {
+        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
+        "id": 127, 
+        "tags": [
+            "Arduino", 
+            "AVR"
+        ], 
+        "title": "ATtiny SleepMode"
+    }, 
     "/Electronics101/Detectors/PeakDetector/": {
         "summary": "test an OpAmp-based peak detector circuit", 
         "id": 121, 
@@ -487,23 +496,16 @@
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
     }, 
-    "/playground/UsingTemplates/": {
-        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
-        "id": 486, 
+    "/playground/XYplotter/": {
+        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
+        "id": 265, 
         "tags": [
             "Arduino", 
-            "C++"
+            "Digital Pot", 
+            "MCP42010", 
+            "Oscilloscope"
         ], 
-        "title": "Using C++ Templates"
-    }, 
-    "/OSHChip/LEDx16Module/": {
-        "summary": "driving an SPI LED module with the OSHChip", 
-        "id": 216, 
-        "tags": [
-            "OSHChip", 
-            "SPI"
-        ], 
-        "title": "OSHChip/LEDx16Module"
+        "title": "XYplotter"
     }, 
     "/playground/ThermalPrinter/Lucky4DOracle/": {
         "summary": "A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)", 
@@ -3173,15 +3175,13 @@
         ], 
         "title": "TwinTeeOscillator"
     }, 
-    "/Radio/FM/TEA5767/": {
-        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
-        "id": 310, 
+    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
+        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
+        "id": 495, 
         "tags": [
-            "Radio", 
-            "FM", 
-            "Arduino"
+            "BJT"
         ], 
-        "title": "TEA5767 FM Receiver"
+        "title": "Negative Feedback Amplifier"
     }, 
     "/Electronics101/DigitalLogic/SyncJKCounter/": {
         "summary": "a synchronous 8-bit counter built with JK Flip-Flops", 
@@ -3357,16 +3357,14 @@
         ], 
         "title": "SN76477 Prop Plane"
     }, 
-    "/playground/XYplotter/": {
-        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
-        "id": 265, 
+    "/OSHChip/LEDx16Module/": {
+        "summary": "driving an SPI LED module with the OSHChip", 
+        "id": 216, 
         "tags": [
-            "Arduino", 
-            "Digital Pot", 
-            "MCP42010", 
-            "Oscilloscope"
+            "OSHChip", 
+            "SPI"
         ], 
-        "title": "XYplotter"
+        "title": "OSHChip/LEDx16Module"
     }, 
     "/BoldportClub/pips/": {
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter", 
@@ -3579,14 +3577,15 @@
         ], 
         "title": "RouletteKit"
     }, 
-    "/playground/ATtiny/SleepMode/": {
-        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
-        "id": 127, 
+    "/Radio/FM/TEA5767/": {
+        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
+        "id": 310, 
         "tags": [
-            "Arduino", 
-            "AVR"
+            "Radio", 
+            "FM", 
+            "Arduino"
         ], 
-        "title": "ATtiny SleepMode"
+        "title": "TEA5767 FM Receiver"
     }, 
     "/Radio/FM/SingleStageTransmitterKit/": {
         "summary": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
@@ -3696,6 +3695,14 @@
             "LED"
         ], 
         "title": "PIC16F84A Blinky"
+    }, 
+    "/Electronics101/LM324/SplitterBuffer/": {
+        "summary": "demonstrate load-independance of an LM324 buffer and signal splitter", 
+        "id": 160, 
+        "tags": [
+            "OpAmp"
+        ], 
+        "title": "LM324/SplitterBuffer"
     }, 
     "/playground/CurrentSensorModule/": {
         "summary": "test an ACS712 current sensor module with display on a 5110 LCD", 
@@ -4062,13 +4069,14 @@
         ], 
         "title": "PLL Ramp Generator"
     }, 
-    "/Electronics101/LM324/SplitterBuffer/": {
-        "summary": "demonstrate load-independance of an LM324 buffer and signal splitter", 
-        "id": 160, 
+    "/Kraft/HarrierGR1/": {
+        "summary": "Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970)", 
+        "id": 558, 
         "tags": [
-            "OpAmp"
+            "scale models", 
+            "Craft"
         ], 
-        "title": "LM324/SplitterBuffer"
+        "title": "Harrier GR.1"
     }, 
     "/Radio/FM/SimplestDirectReceiver/": {
         "summary": "Taming a very simple direct conversion FM receiver", 
@@ -4469,13 +4477,14 @@
         ], 
         "title": "ClapSwitchKit2"
     }, 
-    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
-        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
-        "id": 495, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
         "tags": [
-            "BJT"
+            "Arduino", 
+            "C++"
         ], 
-        "title": "Negative Feedback Amplifier"
+        "title": "Using C++ Templates"
     }, 
     "/BoldportClub/TheMatrix/GameOfLife/": {
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 

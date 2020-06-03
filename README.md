@@ -1,6 +1,6 @@
-# 557 Little Electronics and Arduino Projects
+# 558 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [LED 8x8 Module](./Electronics101/LED/LED8x8Module) - Building and using an 8x8 LED matrix with MAX7219 driver module.
+> Latest addition:sparkles: [Harrier GR.1](./Kraft/HarrierGR1) - Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

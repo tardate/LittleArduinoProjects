@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970)", 
+        "relative_path": "Kraft/HarrierGR1", 
+        "id": "#558", 
+        "categories": "scale models, Craft", 
+        "name": "Harrier GR.1"
+    }, 
+    {
         "description": "Building and using an 8x8 LED matrix with MAX7219 driver module", 
         "relative_path": "Electronics101/LED/LED8x8Module", 
         "id": "#557", 
