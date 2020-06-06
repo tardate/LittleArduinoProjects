@@ -1,0 +1,7 @@
+{
+    "id": "#104",
+    "name": "Ruby Guitar Amp",
+    "description": "a version of the runoffgroove Ruby LM386 guitar amp",
+    "categories": "OpAmp, Audio",
+    "relative_path": "Audio/AudioAmps/Ruby"
+}

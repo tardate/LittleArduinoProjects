@@ -207,6 +207,17 @@
         ], 
         "title": "PierceGateOscillator"
     }, 
+    "/Audio/AudioEffects/ZenerModeEffects/": {
+        "summary": "playing around with some zener-mode sound effects", 
+        "id": 140, 
+        "tags": [
+            "Audio", 
+            "BJT", 
+            "Zener", 
+            "Oscillators"
+        ], 
+        "title": "BJT Zener-Mode Effects"
+    }, 
     "/BoldportClub/cordwood/tuner/": {
         "summary": "use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp", 
         "id": 271, 
@@ -1011,15 +1022,6 @@
         ], 
         "title": "BoldportClub/Emergency"
     }, 
-    "/Electronics101/AudioAmps/LittleGem/": {
-        "summary": "a basic Smokey-inspired LM386 guitar power amp", 
-        "id": 95, 
-        "tags": [
-            "OpAmp", 
-            "Audio"
-        ], 
-        "title": "LittleGem/A386"
-    }, 
     "/BoldportClub/whiteboard/": {
         "summary": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD4060 ripple counter", 
         "id": 392, 
@@ -1604,16 +1606,6 @@
         ], 
         "title": "LCD I2C Adapter"
     }, 
-    "/Electronics101/AudioEffects/Parrot/": {
-        "summary": "playing with a 1-transistor, dual oscillator chirping sound effect circuit", 
-        "id": 449, 
-        "tags": [
-            "Audio", 
-            "BEAM", 
-            "Oscillators"
-        ], 
-        "title": "AudioEffects/Parrot"
-    }, 
     "/Electronics101/Detectors/AcLineDetector/": {
         "summary": "Playing around with a simple AC line current detector", 
         "id": 535, 
@@ -1699,14 +1691,6 @@
             "OpAmp"
         ], 
         "title": "ML741/NonInvertingAmplifier"
-    }, 
-    "/Electronics101/AudioAmps/TDA7297Kit/": {
-        "summary": "testing a TDA7297 audio amplifier kit (pump up the jam)", 
-        "id": 210, 
-        "tags": [
-            "Audio"
-        ], 
-        "title": "TDA7297 Audio Amp Kit"
     }, 
     "/Electronics101/NonInverting324/": {
         "summary": "demo LM324 OpAmp non-inverting DC gain mode", 
@@ -1800,16 +1784,6 @@
         ], 
         "title": "GranularSynth"
     }, 
-    "/Electronics101/AudioEffects/CANary/": {
-        "summary": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture", 
-        "id": 460, 
-        "tags": [
-            "BEAM", 
-            "Oscillators", 
-            "Audio"
-        ], 
-        "title": "CANary"
-    }, 
     "/Audio/SimpleSoundEffects2/": {
         "summary": "Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.", 
         "id": 525, 
@@ -1855,6 +1829,23 @@
             "Power"
         ], 
         "title": "VoltageDoublerChargePump"
+    }, 
+    "/Audio/AudioAmps/TDA7297Kit/": {
+        "summary": "testing a TDA7297 audio amplifier kit (pump up the jam)", 
+        "id": 210, 
+        "tags": [
+            "Audio"
+        ], 
+        "title": "TDA7297 Audio Amp Kit"
+    }, 
+    "/Audio/AudioAmps/VolumeControlPowerAmp/": {
+        "summary": "an LM386 fixed-gain audio power amp with volume control", 
+        "id": 97, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "Volume Control Power Amp"
     }, 
     "/Radio/LPD433/RFDoorbell/": {
         "summary": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect", 
@@ -2120,15 +2111,6 @@
         ], 
         "title": "RingOscillator"
     }, 
-    "/Electronics101/AudioAmps/Smokey/": {
-        "summary": "quick build of a Smokey-like LM386 guitar power amp", 
-        "id": 96, 
-        "tags": [
-            "Amp", 
-            "Audio"
-        ], 
-        "title": "Smokey"
-    }, 
     "/Electronics101/RingCounter/": {
         "summary": "test the classic CD4017 walking-ring counter", 
         "id": 107, 
@@ -2304,6 +2286,15 @@
             "mDNS"
         ], 
         "title": "Using mDNS"
+    }, 
+    "/Audio/AudioAmps/GuitarHeadphoneAmp/": {
+        "summary": "an LM386 fixed-gain guitar headphone amp", 
+        "id": 98, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "Guitar Headphone Amp"
     }, 
     "/playground/AvrHardwarePWM/": {
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 
@@ -2704,6 +2695,15 @@
         ], 
         "title": "Blink"
     }, 
+    "/Audio/AudioAmps/GeneralPurpose358/": {
+        "summary": "test a general-purpose LM358 amplifier circuit", 
+        "id": 241, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "General Purpose 358"
+    }, 
     "/Electronics101/Oscillators/PierceOscillator/": {
         "summary": "test a Pierce Oscillator made with a minimum of components", 
         "id": 242, 
@@ -2923,6 +2923,16 @@
         ], 
         "title": "LEDDimmer/CurrentRegulator"
     }, 
+    "/Audio/AudioEffects/CANary/": {
+        "summary": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture", 
+        "id": 460, 
+        "tags": [
+            "BEAM", 
+            "Oscillators", 
+            "Audio"
+        ], 
+        "title": "CANary"
+    }, 
     "/ESP8266/ESP12/DIYDevBoard/": {
         "summary": "Building a programming board for the ESP8266 07/12 variants", 
         "id": 540, 
@@ -2939,15 +2949,6 @@
             "PCB"
         ], 
         "title": "nRF24Breakout"
-    }, 
-    "/Electronics101/AudioAmps/GeneralPurpose358/": {
-        "summary": "test a general-purpose LM358 amplifier circuit", 
-        "id": 241, 
-        "tags": [
-            "OpAmp", 
-            "Audio"
-        ], 
-        "title": "GeneralPurpose358"
     }, 
     "/playground/RFID/DeviceDumper/": {
         "summary": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags", 
@@ -2995,6 +2996,15 @@
             "Oscilloscope"
         ], 
         "title": "MSO5074FG_unboxing"
+    }, 
+    "/Audio/AudioEffects/WhiteNoiseGenerator/": {
+        "summary": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors", 
+        "id": 474, 
+        "tags": [
+            "Audio", 
+            "BJT"
+        ], 
+        "title": "BJT White Noise Generator"
     }, 
     "/Kinetics/Solenoids/MagnetSwitchedSolenoid/": {
         "summary": "using a Hall effect sensor to trigger a solenoid with a fixed pulse", 
@@ -3106,17 +3116,6 @@
         ], 
         "title": "LEDArrayDemos"
     }, 
-    "/Electronics101/AudioEffects/ZenerModeEffects/": {
-        "summary": "playing around with some zener-mode sound effects", 
-        "id": 140, 
-        "tags": [
-            "Audio", 
-            "BJT", 
-            "Zener", 
-            "Oscillators"
-        ], 
-        "title": "BJT Zener-Mode Effects"
-    }, 
     "/Electronics101/HighFrequencyOpAmpOscillators/": {
         "summary": "how fast can you push an Op-Amp oscillator?", 
         "id": 142, 
@@ -3206,15 +3205,6 @@
             "RC"
         ], 
         "title": "Capacitorial"
-    }, 
-    "/Electronics101/AudioEffects/WhiteNoiseGenerator/": {
-        "summary": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors", 
-        "id": 474, 
-        "tags": [
-            "Audio", 
-            "BJT"
-        ], 
-        "title": "BJT White Noise Generator"
     }, 
     "/BoldportClub/capacimeter/": {
         "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018", 
@@ -3366,14 +3356,14 @@
         ], 
         "title": "RGBCalibrate"
     }, 
-    "/Electronics101/AudioAmps/GuitarPracticeAmp/": {
-        "summary": "single-channel 10W guitar practice amplifier based on the TDA2050", 
-        "id": 249, 
+    "/Electronics101/Oscillators/Colpitts/": {
+        "summary": "testing a basic Colpitts Oscillator circuit", 
+        "id": 180, 
         "tags": [
-            "OpAmp", 
-            "Audio"
+            "LC", 
+            "Oscillators"
         ], 
-        "title": "TDA2050 Guitar Practice Amp"
+        "title": "ColpittsOscillator"
     }, 
     "/Electronics101/RgbLedGlow/": {
         "summary": "rainbow glow effects with an RGB LED and OpAmp oscillators", 
@@ -3677,6 +3667,15 @@
         ], 
         "title": "PIC16F84A Blinky"
     }, 
+    "/playground/CurrentSensorModule/": {
+        "summary": "test an ACS712 current sensor module with display on a 5110 LCD", 
+        "id": 168, 
+        "tags": [
+            "Sensors", 
+            "Arduino"
+        ], 
+        "title": "CurrentSensorModule"
+    }, 
     "/ARM/STM32F103C8T6/BluePill/UsingSTLink/": {
         "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
         "id": 547, 
@@ -3920,15 +3919,6 @@
             "Test Equipment"
         ], 
         "title": "MilliVoltmeterDIY"
-    }, 
-    "/Electronics101/AudioAmps/Ruby/": {
-        "summary": "a version of the runoffgroove Ruby LM386 guitar amp", 
-        "id": 104, 
-        "tags": [
-            "OpAmp", 
-            "Audio"
-        ], 
-        "title": "Ruby"
     }, 
     "/ARM/STM32F103C8T6/BareMetal/": {
         "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 
@@ -4203,15 +4193,6 @@
         ], 
         "title": "ATmegaBreadboard"
     }, 
-    "/Electronics101/AudioAmps/GuitarHeadphoneAmp/": {
-        "summary": "an LM386 fixed-gain guitar headphone amp", 
-        "id": 98, 
-        "tags": [
-            "OpAmp", 
-            "Audio"
-        ], 
-        "title": "GuitarHeadphoneAmp"
-    }, 
     "/playground/Led4Digit7Segment/": {
         "summary": "overview of driving a 4-digit 7-segment display", 
         "id": 58, 
@@ -4249,6 +4230,15 @@
             "LED"
         ], 
         "title": "KnightRider"
+    }, 
+    "/Audio/AudioAmps/Smokey/": {
+        "summary": "quick build of a Smokey-like LM386 guitar power amp", 
+        "id": 96, 
+        "tags": [
+            "Amp", 
+            "Audio"
+        ], 
+        "title": "Smokey"
     }, 
     "/Electronics101/Oscillators/TL431Multivibrator/": {
         "summary": "an unusual multivibrator using a programmable reference with clean square wave output", 
@@ -4699,6 +4689,15 @@
         ], 
         "title": "Raw MAX7219 7-Segment LED Driver"
     }, 
+    "/Audio/AudioAmps/Ruby/": {
+        "summary": "a version of the runoffgroove Ruby LM386 guitar amp", 
+        "id": 104, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "Ruby Guitar Amp"
+    }, 
     "/PIC/TedsClock/": {
         "summary": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A", 
         "id": 533, 
@@ -4744,15 +4743,6 @@
             "Oscillators"
         ], 
         "title": "Two-tone Doorbell"
-    }, 
-    "/Electronics101/Oscillators/Colpitts/": {
-        "summary": "testing a basic Colpitts Oscillator circuit", 
-        "id": 180, 
-        "tags": [
-            "LC", 
-            "Oscillators"
-        ], 
-        "title": "ColpittsOscillator"
     }, 
     "/BoldportClub/respot/": {
         "summary": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots", 
@@ -4866,15 +4856,6 @@
         ], 
         "title": "RFID Concentration Game"
     }, 
-    "/Electronics101/AudioAmps/VolumeControlPowerAmp/": {
-        "summary": "an LM386 fixed-gain audio power amp with volume control", 
-        "id": 97, 
-        "tags": [
-            "OpAmp", 
-            "Audio"
-        ], 
-        "title": "VolumeControlPowerAmp"
-    }, 
     "/playground/VariableLED/": {
         "summary": "variable resistor is used to control the brightness of an LED with PWM", 
         "id": 2, 
@@ -4904,14 +4885,15 @@
         ], 
         "title": "HS088 Audio Effects Chip"
     }, 
-    "/playground/CurrentSensorModule/": {
-        "summary": "test an ACS712 current sensor module with display on a 5110 LCD", 
-        "id": 168, 
+    "/Audio/AudioEffects/Parrot/": {
+        "summary": "playing with a 1-transistor, dual oscillator chirping sound effect circuit", 
+        "id": 449, 
         "tags": [
-            "Sensors", 
-            "Arduino"
+            "Audio", 
+            "BEAM", 
+            "Oscillators"
         ], 
-        "title": "CurrentSensorModule"
+        "title": "Parrot"
     }, 
     "/Electronics101/ML741/VoltageFollower/": {
         "summary": "test a voltage follower/buffer circuit with the ML741 discrete component opamp", 
@@ -4937,6 +4919,15 @@
             "BJT"
         ], 
         "title": "DarlingtonTouchSwitch"
+    }, 
+    "/Audio/AudioAmps/LittleGem/": {
+        "summary": "a basic Smokey-inspired LM386 guitar power amp", 
+        "id": 95, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "Little Gem"
     }, 
     "/playground/ATtiny/SSD1306/BasicDemo/": {
         "summary": "Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I\u00b2C", 
@@ -4981,6 +4972,15 @@
             "Arduino"
         ], 
         "title": "X113647StepperLibrary"
+    }, 
+    "/Audio/AudioAmps/GuitarPracticeAmp/": {
+        "summary": "single-channel 10W guitar practice amplifier based on the TDA2050", 
+        "id": 249, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "TDA2050 Guitar Practice Amp"
     }, 
     "/Electronics101/PowerSupply317Kit/": {
         "summary": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit", 

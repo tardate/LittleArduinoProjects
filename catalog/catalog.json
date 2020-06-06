@@ -547,7 +547,7 @@
     }, 
     {
         "description": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors", 
-        "relative_path": "Electronics101/AudioEffects/WhiteNoiseGenerator", 
+        "relative_path": "Audio/AudioEffects/WhiteNoiseGenerator", 
         "id": "#474", 
         "categories": "Audio, BJT", 
         "name": "BJT White Noise Generator"
@@ -645,7 +645,7 @@
     }, 
     {
         "description": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture", 
-        "relative_path": "Electronics101/AudioEffects/CANary", 
+        "relative_path": "Audio/AudioEffects/CANary", 
         "id": "#460", 
         "categories": "BEAM, Oscillators, Audio", 
         "name": "CANary"
@@ -722,10 +722,10 @@
     }, 
     {
         "description": "playing with a 1-transistor, dual oscillator chirping sound effect circuit", 
-        "relative_path": "Electronics101/AudioEffects/Parrot", 
+        "relative_path": "Audio/AudioEffects/Parrot", 
         "id": "#449", 
         "categories": "Audio, BEAM, Oscillators", 
-        "name": "AudioEffects/Parrot"
+        "name": "Parrot"
     }, 
     {
         "description": "exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC", 
@@ -2122,7 +2122,7 @@
     }, 
     {
         "description": "single-channel 10W guitar practice amplifier based on the TDA2050", 
-        "relative_path": "Electronics101/AudioAmps/GuitarPracticeAmp", 
+        "relative_path": "Audio/AudioAmps/GuitarPracticeAmp", 
         "id": "#249", 
         "categories": "OpAmp, Audio", 
         "name": "TDA2050 Guitar Practice Amp"
@@ -2178,10 +2178,10 @@
     }, 
     {
         "description": "test a general-purpose LM358 amplifier circuit", 
-        "relative_path": "Electronics101/AudioAmps/GeneralPurpose358", 
+        "relative_path": "Audio/AudioAmps/GeneralPurpose358", 
         "id": "#241", 
         "categories": "OpAmp, Audio", 
-        "name": "GeneralPurpose358"
+        "name": "General Purpose 358"
     }, 
     {
         "description": "demonstrate how analog pins can also be used as a digital GPIO", 
@@ -2395,7 +2395,7 @@
     }, 
     {
         "description": "testing a TDA7297 audio amplifier kit (pump up the jam)", 
-        "relative_path": "Electronics101/AudioAmps/TDA7297Kit", 
+        "relative_path": "Audio/AudioAmps/TDA7297Kit", 
         "id": "#210", 
         "categories": "Audio", 
         "name": "TDA7297 Audio Amp Kit"
@@ -2885,7 +2885,7 @@
     }, 
     {
         "description": "playing around with some zener-mode sound effects", 
-        "relative_path": "Electronics101/AudioEffects/ZenerModeEffects", 
+        "relative_path": "Audio/AudioEffects/ZenerModeEffects", 
         "id": "#140", 
         "categories": "Audio, BJT, Zener, Oscillators", 
         "name": "BJT Zener-Mode Effects"
@@ -3137,10 +3137,10 @@
     }, 
     {
         "description": "a version of the runoffgroove Ruby LM386 guitar amp", 
-        "relative_path": "Electronics101/AudioAmps/Ruby", 
+        "relative_path": "Audio/AudioAmps/Ruby", 
         "id": "#104", 
         "categories": "OpAmp, Audio", 
-        "name": "Ruby"
+        "name": "Ruby Guitar Amp"
     }, 
     {
         "description": "test driving and LED matrix with the LedControl library", 
@@ -3179,31 +3179,31 @@
     }, 
     {
         "description": "an LM386 fixed-gain guitar headphone amp", 
-        "relative_path": "Electronics101/AudioAmps/GuitarHeadphoneAmp", 
+        "relative_path": "Audio/AudioAmps/GuitarHeadphoneAmp", 
         "id": "#098", 
         "categories": "OpAmp, Audio", 
-        "name": "GuitarHeadphoneAmp"
+        "name": "Guitar Headphone Amp"
     }, 
     {
         "description": "an LM386 fixed-gain audio power amp with volume control", 
-        "relative_path": "Electronics101/AudioAmps/VolumeControlPowerAmp", 
+        "relative_path": "Audio/AudioAmps/VolumeControlPowerAmp", 
         "id": "#097", 
         "categories": "OpAmp, Audio", 
-        "name": "VolumeControlPowerAmp"
+        "name": "Volume Control Power Amp"
     }, 
     {
         "description": "quick build of a Smokey-like LM386 guitar power amp", 
-        "relative_path": "Electronics101/AudioAmps/Smokey", 
+        "relative_path": "Audio/AudioAmps/Smokey", 
         "id": "#096", 
         "categories": "Amp, Audio", 
         "name": "Smokey"
     }, 
     {
         "description": "a basic Smokey-inspired LM386 guitar power amp", 
-        "relative_path": "Electronics101/AudioAmps/LittleGem", 
+        "relative_path": "Audio/AudioAmps/LittleGem", 
         "id": "#095", 
         "categories": "OpAmp, Audio", 
-        "name": "LittleGem/A386"
+        "name": "Little Gem"
     }, 
     {
         "description": "test the basic BJT \"long-tail\" differential amplifier circuit", 

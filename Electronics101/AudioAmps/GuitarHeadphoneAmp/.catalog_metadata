@@ -1,7 +1,0 @@
-{
-    "id": "#098", 
-    "name": "GuitarHeadphoneAmp", 
-    "description": "an LM386 fixed-gain guitar headphone amp", 
-    "categories": "OpAmp, Audio", 
-    "relative_path": "Electronics101/AudioAmps/GuitarHeadphoneAmp"
-}

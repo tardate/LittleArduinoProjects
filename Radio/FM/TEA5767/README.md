@@ -55,7 +55,7 @@ It uses the [Wire library](https://www.arduino.cc/en/reference/wire) to send the
 The sketch simply skips through a selection of local FM stations.
 
 The output power of the chip is very low - to low to directly drive headphones for example.
-I used the [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) to amplify the output and drive stereo speakers.
+I used the [LEAP#210 TDA7297Kit](../../../Audio/AudioAmps/TDA7297Kit) to amplify the output and drive stereo speakers.
 
 ## Construction
 
@@ -79,7 +79,7 @@ I mounted the module on protoboard with an [audio connector](../../AudioConnecto
 * [Arduino Radio Library](http://www.mathertel.de/Arduino/RadioLibrary.aspx)
 * [Radio FM TEA5767](https://developer.mbed.org/users/edodm85/notebook/radio-fm-tea5767/) - ARM mbed example
 * [Wire library](https://www.arduino.cc/en/reference/wire)
-* [LEAP#210 TDA7297Kit](../../AudioAmps/TDA7297Kit) - TDA7297 amplifier
+* [LEAP#210 TDA7297Kit](../../../Audio/AudioAmps/TDA7297Kit) - TDA7297 amplifier
 * [Singapore Radio Stations](http://streema.com/radios/country/Singapore)
 * [List of radio stations in Singapore](https://en.wikipedia.org/wiki/List_of_radio_stations_in_Singapore) - wikipedia
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap310-tea5767-fm-stereo-chip.html)

@@ -1,7 +1,0 @@
-{
-    "id": "#096", 
-    "name": "Smokey", 
-    "description": "quick build of a Smokey-like LM386 guitar power amp", 
-    "categories": "Amp, Audio", 
-    "relative_path": "Electronics101/AudioAmps/Smokey"
-}

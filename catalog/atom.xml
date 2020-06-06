@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-05-31T20:35:01Z</updated>
+  <updated>2020-06-06T05:34:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/"/>
-    <updated>2020-05-31T19:54:07Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#552 Aircraft Navigation Lights</title>
     <summary>Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/assets/AircraftNavigationLights_build.jpg</g:image_link>
@@ -24,7 +24,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/"/>
-    <updated>2020-05-25T07:27:23Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#551 SN76477 Prop Plane</title>
     <summary>Testing the SN76477 propeller plane sound effect configuration</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/assets/PropPlane_build.jpg</g:image_link>
@@ -33,7 +33,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/BlackMagicProbe/</id>
     <link href="https://leap.tardate.com/Equipment/BlackMagicProbe/"/>
-    <updated>2020-05-24T09:38:29Z</updated>
+    <updated>2020-05-31T20:36:42Z</updated>
     <title>#550 Black Magic Probe</title>
     <summary>Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/Equipment/BlackMagicProbe/assets/BlackMagicProbe_build.jpg</g:image_link>
@@ -44,7 +44,7 @@
   <entry>
     <id>https://leap.tardate.com/ARM/STM32F103C8T6/BareMetal/</id>
     <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BareMetal/"/>
-    <updated>2020-05-23T07:47:13Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#549 Bare Metal C on the Blue Pill</title>
     <summary>Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset</summary>
     <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BareMetal/assets/BareMetal_build.jpg</g:image_link>
@@ -54,7 +54,7 @@
   <entry>
     <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/DebugWithStlink/</id>
     <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/DebugWithStlink/"/>
-    <updated>2020-05-05T16:39:47Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#548 Debug Arduino STM32 with stlink</title>
     <summary>Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/DebugWithStlink/assets/DebugWithStlink_build.jpg</g:image_link>
@@ -65,7 +65,7 @@
   <entry>
     <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/UsingSTLink/</id>
     <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/UsingSTLink/"/>
-    <updated>2020-05-05T16:39:47Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#547 Using STLink with the Arduino IDE</title>
     <summary>Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE</summary>
     <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/UsingSTLink/assets/UsingSTLink_build.jpg</g:image_link>
@@ -74,7 +74,7 @@
   <entry>
     <id>https://leap.tardate.com/ARM/STM32F103C8T6/48pinDevBoard/</id>
     <link href="https://leap.tardate.com/ARM/STM32F103C8T6/48pinDevBoard/"/>
-    <updated>2020-05-05T16:39:47Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#546 STM32F103C8T6 Dev Board</title>
     <summary>Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX</summary>
     <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/48pinDevBoard/assets/48pinDevBoard_build.jpg</g:image_link>
@@ -809,12 +809,12 @@
     <category term="DMM"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffects/WhiteNoiseGenerator/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffects/WhiteNoiseGenerator/"/>
     <updated>2020-03-14T16:56:38Z</updated>
     <title>#474 BJT White Noise Generator</title>
     <summary>Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/WhiteNoiseGenerator/assets/WhiteNoiseGenerator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffects/WhiteNoiseGenerator/assets/WhiteNoiseGenerator_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="BJT"/>
   </entry>
@@ -952,12 +952,12 @@
     <category term="Audio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffects/CANary/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffects/CANary/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffects/CANary/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffects/CANary/"/>
     <updated>2019-03-07T11:13:46Z</updated>
     <title>#460 CANary</title>
     <summary>playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/CANary/assets/CANary_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffects/CANary/assets/CANary_build.jpg</g:image_link>
     <category term="BEAM"/>
     <category term="Oscillators"/>
     <category term="Audio"/>
@@ -1061,12 +1061,12 @@
     <category term="Test Equipment"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffects/Parrot/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffects/Parrot/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffects/Parrot/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffects/Parrot/"/>
     <updated>2019-01-28T18:20:45Z</updated>
-    <title>#449 AudioEffects/Parrot</title>
+    <title>#449 Parrot</title>
     <summary>playing with a 1-transistor, dual oscillator chirping sound effect circuit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/Parrot/assets/Parrot_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffects/Parrot/assets/Parrot_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="BEAM"/>
     <category term="Oscillators"/>
@@ -1124,7 +1124,7 @@
   <entry>
     <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/LCD16x2/</id>
     <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/LCD16x2/"/>
-    <updated>2020-05-05T16:39:47Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#443 BluePill 16x2 LCD</title>
     <summary>using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE</summary>
     <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/LCD16x2/assets/LCD16x2_build.jpg</g:image_link>
@@ -1718,7 +1718,7 @@
   <entry>
     <id>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/</id>
     <link href="https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/"/>
-    <updated>2020-05-05T16:39:47Z</updated>
+    <updated>2020-05-31T20:36:41Z</updated>
     <title>#386 BluePill</title>
     <summary>programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE</summary>
     <g:image_link>https://leap.tardate.com/ARM/STM32F103C8T6/BluePill/assets/BluePill_build.jpg</g:image_link>
@@ -3150,12 +3150,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/GuitarPracticeAmp/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/GuitarPracticeAmp/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/GuitarPracticeAmp/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/GuitarPracticeAmp/"/>
     <updated>2017-07-27T17:50:06Z</updated>
     <title>#249 TDA2050 Guitar Practice Amp</title>
     <summary>single-channel 10W guitar practice amplifier based on the TDA2050</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/GuitarPracticeAmp/assets/GuitarPracticeAmp_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/GuitarPracticeAmp/assets/GuitarPracticeAmp_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Audio"/>
   </entry>
@@ -3229,12 +3229,12 @@
     <category term="Crystal"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/GeneralPurpose358/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/GeneralPurpose358/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/GeneralPurpose358/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/GeneralPurpose358/"/>
     <updated>2016-09-05T14:27:19Z</updated>
-    <title>#241 GeneralPurpose358</title>
+    <title>#241 General Purpose 358</title>
     <summary>test a general-purpose LM358 amplifier circuit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/GeneralPurpose358/assets/GeneralPurpose358_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/GeneralPurpose358/assets/GeneralPurpose358_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Audio"/>
   </entry>
@@ -3558,12 +3558,12 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/TDA7297Kit/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/TDA7297Kit/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/TDA7297Kit/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/TDA7297Kit/"/>
     <updated>2016-05-07T13:08:14Z</updated>
     <title>#210 TDA7297 Audio Amp Kit</title>
     <summary>testing a TDA7297 audio amplifier kit (pump up the jam)</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/TDA7297Kit/assets/TDA7297Kit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/TDA7297Kit/assets/TDA7297Kit_build.jpg</g:image_link>
     <category term="Audio"/>
   </entry>
   <entry>
@@ -4253,12 +4253,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/"/>
+    <id>https://leap.tardate.com/Audio/AudioEffects/ZenerModeEffects/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffects/ZenerModeEffects/"/>
     <updated>2019-04-25T16:41:16Z</updated>
     <title>#140 BJT Zener-Mode Effects</title>
     <summary>playing around with some zener-mode sound effects</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioEffects/ZenerModeEffects/assets/ZenerModeEffects_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffects/ZenerModeEffects/assets/ZenerModeEffects_build.jpg</g:image_link>
     <category term="Audio"/>
     <category term="BJT"/>
     <category term="Zener"/>
@@ -4616,12 +4616,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/Ruby/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/Ruby/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/Ruby/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/Ruby/"/>
     <updated>2015-07-26T08:35:52Z</updated>
-    <title>#104 Ruby</title>
+    <title>#104 Ruby Guitar Amp</title>
     <summary>a version of the runoffgroove Ruby LM386 guitar amp</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/Ruby/assets/Ruby_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/Ruby/assets/Ruby_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Audio"/>
   </entry>
@@ -4677,42 +4677,42 @@
     <category term="ICSP"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/GuitarHeadphoneAmp/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/GuitarHeadphoneAmp/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/GuitarHeadphoneAmp/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/GuitarHeadphoneAmp/"/>
     <updated>2015-06-15T11:47:35Z</updated>
-    <title>#098 GuitarHeadphoneAmp</title>
+    <title>#098 Guitar Headphone Amp</title>
     <summary>an LM386 fixed-gain guitar headphone amp</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/GuitarHeadphoneAmp/assets/GuitarHeadphoneAmp_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/GuitarHeadphoneAmp/assets/GuitarHeadphoneAmp_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Audio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/VolumeControlPowerAmp/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/VolumeControlPowerAmp/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/VolumeControlPowerAmp/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/VolumeControlPowerAmp/"/>
     <updated>2015-06-15T11:47:35Z</updated>
-    <title>#097 VolumeControlPowerAmp</title>
+    <title>#097 Volume Control Power Amp</title>
     <summary>an LM386 fixed-gain audio power amp with volume control</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/VolumeControlPowerAmp/assets/VolumeControlPowerAmp_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/VolumeControlPowerAmp/assets/VolumeControlPowerAmp_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Audio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/Smokey/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/Smokey/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/Smokey/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/Smokey/"/>
     <updated>2015-06-15T11:47:35Z</updated>
     <title>#096 Smokey</title>
     <summary>quick build of a Smokey-like LM386 guitar power amp</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/Smokey/assets/Smokey_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/Smokey/assets/Smokey_build.jpg</g:image_link>
     <category term="Amp"/>
     <category term="Audio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioAmps/LittleGem/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioAmps/LittleGem/"/>
+    <id>https://leap.tardate.com/Audio/AudioAmps/LittleGem/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/LittleGem/"/>
     <updated>2015-06-15T11:47:35Z</updated>
-    <title>#095 LittleGem/A386</title>
+    <title>#095 Little Gem</title>
     <summary>a basic Smokey-inspired LM386 guitar power amp</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioAmps/LittleGem/assets/LittleGem_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/LittleGem/assets/LittleGem_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Audio"/>
   </entry>

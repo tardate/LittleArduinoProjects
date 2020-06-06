@@ -1,0 +1,7 @@
+{
+    "id": "#210",
+    "name": "TDA7297 Audio Amp Kit",
+    "description": "testing a TDA7297 audio amplifier kit (pump up the jam)",
+    "categories": "Audio",
+    "relative_path": "Audio/AudioAmps/TDA7297Kit"
+}

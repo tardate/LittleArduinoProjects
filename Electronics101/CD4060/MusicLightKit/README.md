@@ -45,7 +45,7 @@ However the piezzo speaker included in the kit sounds terrible; it works much be
 But since there is no room on the board for a speaker, I decided not to build the music circuit in this kit.
 
 Instead I've tested the H823 chip in a separate project -
-[LEAP#292: AudioEffectsChips/H823](../../AudioEffectsChips/H823).
+[LEAP#292: AudioEffectsChips/H823](../../../Audio/AudioEffectsChips/H823).
 
 ## Parts
 
@@ -97,6 +97,6 @@ This is the schematic available from most vendors:
 * [S9012 datasheet](https://www.futurlec.com/Transistors/S9012.shtml)
 * [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
 * [1N4148 datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
-* [LEAP#292 AudioEffectsChips/H823](../../AudioEffectsChips/H823) - testing the music chip that came with this kit
+* [LEAP#292 AudioEffectsChips/H823](../../../Audio/AudioEffectsChips/H823) - testing the music chip that came with this kit
 * [LEAP#293 CD4060/RCOscillator](../RCOscillator) - testing an CD4060 driven by an RC oscillator
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap291-cd4060-music-light-kit.html)
