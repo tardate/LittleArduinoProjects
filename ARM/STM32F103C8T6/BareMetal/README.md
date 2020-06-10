@@ -74,9 +74,8 @@ Device overview from datasheet section 2.1
 | Operating Temperature     | –40 to 85 °C  |
 | Package                   | LQFP48        |
 
-Numbering scheme from datasheet section 7
 
-STM32F103C8T6:
+STM32F103C8T6 (numbering scheme from datasheet section 7):
 
 * STM32 = ARM-based 32-bit microcontroller
 * F = Product type: general-purpose

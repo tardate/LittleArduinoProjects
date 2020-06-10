@@ -5,12 +5,24 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-06-06T05:34:39Z</updated>
+  <updated>2020-06-11T12:53:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/ARM/1bitsy/BareMetalBlinky/</id>
+    <link href="https://leap.tardate.com/ARM/1bitsy/BareMetalBlinky/"/>
+    <updated>2020-06-11T12:49:26Z</updated>
+    <title>#553 1bitsy Bare Metal C</title>
+    <summary>Bare metal programming the 1bitsy STM32F415RGT6by hand with gcc and the Black Magic Probe</summary>
+    <g:image_link>https://leap.tardate.com/ARM/1bitsy/BareMetalBlinky/assets/BareMetalBlinky_build.jpg</g:image_link>
+    <category term="STM32"/>
+    <category term="C"/>
+    <category term="ARM"/>
+    <category term="JTAG"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/"/>
@@ -811,7 +823,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffects/WhiteNoiseGenerator/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffects/WhiteNoiseGenerator/"/>
-    <updated>2020-03-14T16:56:38Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#474 BJT White Noise Generator</title>
     <summary>Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffects/WhiteNoiseGenerator/assets/WhiteNoiseGenerator_build.jpg</g:image_link>
@@ -954,7 +966,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffects/CANary/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffects/CANary/"/>
-    <updated>2019-03-07T11:13:46Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#460 CANary</title>
     <summary>playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffects/CANary/assets/CANary_build.jpg</g:image_link>
@@ -1063,7 +1075,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffects/Parrot/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffects/Parrot/"/>
-    <updated>2019-01-28T18:20:45Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#449 Parrot</title>
     <summary>playing with a 1-transistor, dual oscillator chirping sound effect circuit</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffects/Parrot/assets/Parrot_build.jpg</g:image_link>
@@ -3152,7 +3164,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/GuitarPracticeAmp/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/GuitarPracticeAmp/"/>
-    <updated>2017-07-27T17:50:06Z</updated>
+    <updated>2020-06-06T18:36:42Z</updated>
     <title>#249 TDA2050 Guitar Practice Amp</title>
     <summary>single-channel 10W guitar practice amplifier based on the TDA2050</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/GuitarPracticeAmp/assets/GuitarPracticeAmp_build.jpg</g:image_link>
@@ -3231,7 +3243,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/GeneralPurpose358/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/GeneralPurpose358/"/>
-    <updated>2016-09-05T14:27:19Z</updated>
+    <updated>2020-06-06T18:36:42Z</updated>
     <title>#241 General Purpose 358</title>
     <summary>test a general-purpose LM358 amplifier circuit</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/GeneralPurpose358/assets/GeneralPurpose358_build.jpg</g:image_link>
@@ -3560,7 +3572,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/TDA7297Kit/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/TDA7297Kit/"/>
-    <updated>2016-05-07T13:08:14Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#210 TDA7297 Audio Amp Kit</title>
     <summary>testing a TDA7297 audio amplifier kit (pump up the jam)</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/TDA7297Kit/assets/TDA7297Kit_build.jpg</g:image_link>
@@ -4255,7 +4267,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffects/ZenerModeEffects/</id>
     <link href="https://leap.tardate.com/Audio/AudioEffects/ZenerModeEffects/"/>
-    <updated>2019-04-25T16:41:16Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#140 BJT Zener-Mode Effects</title>
     <summary>playing around with some zener-mode sound effects</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioEffects/ZenerModeEffects/assets/ZenerModeEffects_build.jpg</g:image_link>
@@ -4618,7 +4630,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/Ruby/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/Ruby/"/>
-    <updated>2015-07-26T08:35:52Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#104 Ruby Guitar Amp</title>
     <summary>a version of the runoffgroove Ruby LM386 guitar amp</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/Ruby/assets/Ruby_build.jpg</g:image_link>
@@ -4679,7 +4691,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/GuitarHeadphoneAmp/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/GuitarHeadphoneAmp/"/>
-    <updated>2015-06-15T11:47:35Z</updated>
+    <updated>2020-06-06T18:36:42Z</updated>
     <title>#098 Guitar Headphone Amp</title>
     <summary>an LM386 fixed-gain guitar headphone amp</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/GuitarHeadphoneAmp/assets/GuitarHeadphoneAmp_build.jpg</g:image_link>
@@ -4689,7 +4701,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/VolumeControlPowerAmp/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/VolumeControlPowerAmp/"/>
-    <updated>2015-06-15T11:47:35Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#097 Volume Control Power Amp</title>
     <summary>an LM386 fixed-gain audio power amp with volume control</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/VolumeControlPowerAmp/assets/VolumeControlPowerAmp_build.jpg</g:image_link>
@@ -4699,7 +4711,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/Smokey/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/Smokey/"/>
-    <updated>2015-06-15T11:47:35Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#096 Smokey</title>
     <summary>quick build of a Smokey-like LM386 guitar power amp</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/Smokey/assets/Smokey_build.jpg</g:image_link>
@@ -4709,7 +4721,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/LittleGem/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/LittleGem/"/>
-    <updated>2015-06-15T11:47:35Z</updated>
+    <updated>2020-06-06T18:36:43Z</updated>
     <title>#095 Little Gem</title>
     <summary>a basic Smokey-inspired LM386 guitar power amp</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/LittleGem/assets/LittleGem_build.jpg</g:image_link>

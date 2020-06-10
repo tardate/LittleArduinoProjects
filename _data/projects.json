@@ -1720,6 +1720,15 @@
         ], 
         "title": "SRLatchFlipper"
     }, 
+    "/Audio/AudioAmps/GuitarHeadphoneAmp/": {
+        "summary": "an LM386 fixed-gain guitar headphone amp", 
+        "id": 98, 
+        "tags": [
+            "OpAmp", 
+            "Audio"
+        ], 
+        "title": "Guitar Headphone Amp"
+    }, 
     "/ARM/STM32F103C8T6/BluePill/DebugWithStlink/": {
         "summary": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX", 
         "id": 548, 
@@ -2287,14 +2296,16 @@
         ], 
         "title": "Using mDNS"
     }, 
-    "/Audio/AudioAmps/GuitarHeadphoneAmp/": {
-        "summary": "an LM386 fixed-gain guitar headphone amp", 
-        "id": 98, 
+    "/ARM/1bitsy/BareMetalBlinky/": {
+        "summary": "Bare metal programming the 1bitsy STM32F415RGT6by hand with gcc and the Black Magic Probe", 
+        "id": 553, 
         "tags": [
-            "OpAmp", 
-            "Audio"
+            "STM32", 
+            "C", 
+            "ARM", 
+            "JTAG"
         ], 
-        "title": "Guitar Headphone Amp"
+        "title": "1bitsy Bare Metal C"
     }, 
     "/playground/AvrHardwarePWM/": {
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328", 

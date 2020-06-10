@@ -1,7 +1,6 @@
-# 552 Little Electronics and Arduino Projects
+# 553 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Aircraft Navigation Lights](./Electronics101/555Timer/AircraftNavigationLights) - Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers.
-
+> Latest addition:sparkles: [1bitsy Bare Metal C](./ARM/1bitsy/BareMetalBlinky) - Bare metal programming the 1bitsy STM32F415RGT6by hand with gcc and the Black Magic Probe
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
