@@ -30,8 +30,8 @@ The 1bitsy itself was designed to be small, framework agnostic and with great de
 
 Pinouts:
 
-[![1bitsy_v1_0d_legend](1bitsy_v1_0d_legend.png?raw=true)](https://github.com/1Bitsy/1bitsy-hardware)
-[![1bitsy_v1_0d_legend2](1bitsy_v1_0d_legend2.png?raw=true)](https://github.com/1Bitsy/1bitsy-hardware)
+[![1bitsy_v1_0d_legend](./assets/1bitsy_v1_0d_legend.png?raw=true)](https://github.com/1Bitsy/1bitsy-hardware)
+[![1bitsy_v1_0d_legend2](./assets/1bitsy_v1_0d_legend2.png?raw=true)](https://github.com/1Bitsy/1bitsy-hardware)
 
 ### STM32F415RGT6 Overview
 
