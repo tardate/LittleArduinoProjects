@@ -1,6 +1,6 @@
-# 553 Little Electronics and Arduino Projects
+# 554 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [1bitsy Bare Metal C](./ARM/1bitsy/BareMetalBlinky) - Bare metal programming the 1bitsy STM32F415RGT6 by hand with gcc and the Black Magic Probe
+> Latest addition:sparkles: [Jet Engine Startup Effect](./Audio/AudioEffects/JetEngine) - Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

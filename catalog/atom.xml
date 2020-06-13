@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-06-11T13:12:59Z</updated>
+  <updated>2020-06-13T17:31:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/AudioEffects/JetEngine/</id>
+    <link href="https://leap.tardate.com/Audio/AudioEffects/JetEngine/"/>
+    <updated>2020-06-13T16:32:40Z</updated>
+    <title>#554 Jet Engine Startup Effect</title>
+    <summary>Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO</summary>
+    <g:image_link>https://leap.tardate.com/Audio/AudioEffects/JetEngine/assets/JetEngine_build.jpg</g:image_link>
+    <category term="Audio"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/ARM/1bitsy/BareMetalBlinky/</id>
     <link href="https://leap.tardate.com/ARM/1bitsy/BareMetalBlinky/"/>

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO", 
+        "relative_path": "Audio/AudioEffects/JetEngine", 
+        "id": "#554", 
+        "categories": "Audio", 
+        "name": "Jet Engine Startup Effect"
+    }, 
+    {
         "description": "Bare metal programming the 1bitsy STM32F415RGT6 by hand with gcc and the Black Magic Probe", 
         "relative_path": "ARM/1bitsy/BareMetalBlinky", 
         "id": "#553", 

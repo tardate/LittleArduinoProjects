@@ -360,6 +360,14 @@
         ], 
         "title": "Peak Detector"
     }, 
+    "/Audio/AudioEffects/JetEngine/": {
+        "summary": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO", 
+        "id": 554, 
+        "tags": [
+            "Audio"
+        ], 
+        "title": "Jet Engine Startup Effect"
+    }, 
     "/playground/ATmegaSerialProgrammer/": {
         "summary": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP", 
         "id": 405, 

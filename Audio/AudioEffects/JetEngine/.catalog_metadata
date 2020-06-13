@@ -1,0 +1,7 @@
+{
+    "id": "#554",
+    "name": "Jet Engine Startup Effect",
+    "description": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO",
+    "categories": "Audio",
+    "relative_path": "Audio/AudioEffects/JetEngine"
+}
