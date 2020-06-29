@@ -3238,16 +3238,15 @@
         ], 
         "title": "BoldportClub/capacimeter"
     }, 
-    "/Electronics101/UltrasonicAlarm/": {
-        "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
-        "id": 287, 
+    "/BoldportClub/Pease/": {
+        "summary": "a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1)", 
+        "id": 256, 
         "tags": [
-            "555 Timer", 
-            "Sensors", 
-            "CMOS/TTL", 
-            "HC-SR04"
+            "Boldport", 
+            "PCB Design", 
+            "LM331"
         ], 
-        "title": "UltrasonicAlarm"
+        "title": "BoldportClub/Pease"
     }, 
     "/Electronics101/Oscillators/AstableOpamp/": {
         "summary": "using an LM324 OpAmp to generate a square wave (astable opamp oscillator)", 
@@ -3840,15 +3839,16 @@
         ], 
         "title": "TestIR"
     }, 
-    "/BoldportClub/Pease/": {
-        "summary": "a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1)", 
-        "id": 256, 
+    "/Electronics101/UltrasonicAlarm/": {
+        "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic", 
+        "id": 287, 
         "tags": [
-            "Boldport", 
-            "PCB Design", 
-            "LM331"
+            "555 Timer", 
+            "Sensors", 
+            "CMOS/TTL", 
+            "HC-SR04"
         ], 
-        "title": "BoldportClub/Pease"
+        "title": "UltrasonicAlarm"
     }, 
     "/Electronics101/VoltmeterModule/": {
         "summary": "test a 3-wire voltmeter module", 
@@ -5114,6 +5114,15 @@
             "Power"
         ], 
         "title": "PWM/GeneralPurposeHighSideController"
+    }, 
+    "/Electronics101/555Timer/SRLatch/": {
+        "summary": "Set/Reset latch with a 555 timer", 
+        "id": 556, 
+        "tags": [
+            "555 Timer", 
+            "Logic Gates"
+        ], 
+        "title": "555 SR Latch"
     }, 
     "/Electronics101/ToroidJouleThief/RgbNightLight/": {
         "summary": "testing a slow-flash RGB LED with a 1.5V joule thief power supply", 

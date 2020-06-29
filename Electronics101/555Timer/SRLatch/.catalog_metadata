@@ -1,0 +1,7 @@
+{
+    "id": "#556",
+    "name": "555 SR Latch",
+    "description": "Set/Reset latch with a 555 timer",
+    "categories": "555 Timer, Logic Gates",
+    "relative_path": "Electronics101/555Timer/SRLatch"
+}

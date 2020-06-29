@@ -1,5 +1,12 @@
 [
     {
+        "description": "Set/Reset latch with a 555 timer", 
+        "relative_path": "Electronics101/555Timer/SRLatch", 
+        "id": "#556", 
+        "categories": "555 Timer, Logic Gates", 
+        "name": "555 SR Latch"
+    }, 
+    {
         "description": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune", 
         "relative_path": "Electronics101/555Timer/BeatBot", 
         "id": "#555", 

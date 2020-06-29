@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-06-21T15:51:13Z</updated>
+  <updated>2020-06-29T16:19:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/SRLatch/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/SRLatch/"/>
+    <updated>2020-06-29T16:17:15Z</updated>
+    <title>#556 555 SR Latch</title>
+    <summary>Set/Reset latch with a 555 timer</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/SRLatch/assets/SRLatch_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+    <category term="Logic Gates"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/BeatBot/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/BeatBot/"/>
-    <updated>2020-06-21T15:50:08Z</updated>
+    <updated>2020-06-21T15:55:04Z</updated>
     <title>#555 Beat Bot</title>
     <summary>A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/BeatBot/assets/BeatBot_build.jpg</g:image_link>

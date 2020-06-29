@@ -1,6 +1,6 @@
-# 555 Little Electronics and Arduino Projects
+# 556 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [555 Beat Bot](./Electronics101/555Timer/BeatBot) - A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune.
+> Latest addition:sparkles: [555 SR Latch](./Electronics101/555Timer/SRLatch) - Set/Reset latch with a 555 timer.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
