@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-06-29T16:19:31Z</updated>
+  <updated>2020-06-30T18:33:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/LED/LED8x8Module/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/LED8x8Module/"/>
+    <updated>2020-06-30T18:24:22Z</updated>
+    <title>#557 LED 8x8 Module</title>
+    <summary>Building and using an 8x8 LED matrix with MAX7219 driver module</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/LED8x8Module/assets/LED8x8Module_build.jpg</g:image_link>
+    <category term="8x8 LED"/>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/SRLatch/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/SRLatch/"/>
-    <updated>2020-06-29T16:17:15Z</updated>
+    <updated>2020-06-29T16:21:37Z</updated>
     <title>#556 555 SR Latch</title>
     <summary>Set/Reset latch with a 555 timer</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/SRLatch/assets/SRLatch_build.jpg</g:image_link>

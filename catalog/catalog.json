@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building and using an 8x8 LED matrix with MAX7219 driver module", 
+        "relative_path": "Electronics101/LED/LED8x8Module", 
+        "id": "#557", 
+        "categories": "8x8 LED, Arduino", 
+        "name": "LED 8x8 Module"
+    }, 
+    {
         "description": "Set/Reset latch with a 555 timer", 
         "relative_path": "Electronics101/555Timer/SRLatch", 
         "id": "#556", 

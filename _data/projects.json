@@ -303,14 +303,14 @@
         ], 
         "title": "ElectretADC"
     }, 
-    "/Electronics101/NOR7402/": {
-        "summary": "demo the 74LS02 Quad 2-input NOR gate with an Arduino", 
-        "id": 72, 
+    "/Electronics101/LED/LED8x8Module/": {
+        "summary": "Building and using an 8x8 LED matrix with MAX7219 driver module", 
+        "id": 557, 
         "tags": [
-            "CMOS/TTL", 
+            "8x8 LED", 
             "Arduino"
         ], 
-        "title": "NOR7402"
+        "title": "LED 8x8 Module"
     }, 
     "/BoldportClub/IxpandO/": {
         "summary": "an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input", 
@@ -1874,6 +1874,15 @@
             "Music Chips"
         ], 
         "title": "Remote Doorbell"
+    }, 
+    "/Electronics101/NOR7402/": {
+        "summary": "demo the 74LS02 Quad 2-input NOR gate with an Arduino", 
+        "id": 72, 
+        "tags": [
+            "CMOS/TTL", 
+            "Arduino"
+        ], 
+        "title": "NOR7402"
     }, 
     "/Electronics101/BidirectionalLevelShifter/": {
         "summary": "test a basic bi-directional 5/3.3V level shifter circuit", 

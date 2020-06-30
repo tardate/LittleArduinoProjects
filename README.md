@@ -1,6 +1,6 @@
-# 556 Little Electronics and Arduino Projects
+# 557 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [555 SR Latch](./Electronics101/555Timer/SRLatch) - Set/Reset latch with a 555 timer.
+> Latest addition:sparkles: [LED 8x8 Module](./Electronics101/LED/LED8x8Module) - Building and using an 8x8 LED matrix with MAX7219 driver module.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
