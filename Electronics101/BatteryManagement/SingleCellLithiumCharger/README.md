@@ -82,9 +82,9 @@ The TP4056 charging module uses three main chips in addition to support passives
 
 The boost module is a standard switching circuit using a switching regulator marked E50D.
 Although [some listings](https://www.sunrom.com/p/5v-dc-dc-boost-step-up) identify this as a CE8301 regulator, the package marking don't seem quite correct
-(appears more like a SOT-89-3 CE8301A which I would expect to be marked "A50P"). Regardless, this is the simplest form of fixed output converter without frill like auto-shutdown.
+(appears more like a SOT-89-3 CE8301A which I would expect to be marked "A50P"). Regardless, this is the simplest form of fixed output converter without frills such as auto-shutdown.
 
-Rprog/R3 is populated as 1.2kΩ, which correcponds to programs a charge current of 1000mA.
+Rprog/R3 is populated as 1.2kΩ, which corresponds to programmed charge current of 1000mA.
 
 ![kit_boost_module](./assets/kit_boost_module.jpg?raw=true)
 
