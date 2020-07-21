@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-06-30T18:33:08Z</updated>
+  <updated>2020-07-21T16:59:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/LED8x8Module/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/LED8x8Module/"/>
-    <updated>2020-06-30T18:24:22Z</updated>
+    <updated>2020-06-30T18:37:31Z</updated>
     <title>#557 LED 8x8 Module</title>
     <summary>Building and using an 8x8 LED matrix with MAX7219 driver module</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/LED8x8Module/assets/LED8x8Module_build.jpg</g:image_link>
@@ -2496,7 +2496,7 @@
     <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/"/>
     <updated>2017-10-08T12:09:10Z</updated>
-    <title>#315 MT3608/VariableBoost</title>
+    <title>#315 MT3608 Variable Boost</title>
     <summary>testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/assets/VariableBoost_build.jpg</g:image_link>
     <category term="Power"/>

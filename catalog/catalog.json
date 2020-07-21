@@ -1698,7 +1698,7 @@
         "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost", 
         "id": "#315", 
         "categories": "Power", 
-        "name": "MT3608/VariableBoost"
+        "name": "MT3608 Variable Boost"
     }, 
     {
         "description": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander", 

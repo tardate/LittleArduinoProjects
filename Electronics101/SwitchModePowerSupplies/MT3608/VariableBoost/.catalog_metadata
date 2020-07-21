@@ -1,7 +1,7 @@
 {
-    "id": "#315", 
-    "name": "MT3608/VariableBoost", 
-    "description": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
-    "categories": "Power", 
+    "id": "#315",
+    "name": "MT3608 Variable Boost",
+    "description": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter",
+    "categories": "Power",
     "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost"
 }

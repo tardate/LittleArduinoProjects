@@ -1,4 +1,4 @@
-# #315 MT3608/VariableBoost
+# #315 MT3608 Variable Boost
 
 Testing the canonical variable boost circuit using the MT3608 High Efficiency Step Up Converter.
 
@@ -6,7 +6,7 @@ Testing the canonical variable boost circuit using the MT3608 High Efficiency St
 
 ## Notes
 
-The MT3608 (parts also paroduced as the B6286) is a very efficient boost converter that can deliver up to 24V at 4A.
+The MT3608 (parts also produced as the B6286) is a very efficient boost converter that can deliver up to 24V at 4A.
 It requires only 6 external passive components, and is readily available as a complete module for as little as $0.40.
 
 In this project, I wanted to build up the standard variable converter circuit from scratch and verify its performance.
@@ -61,7 +61,8 @@ Adding a 100kΩ variable resistor for R1 means a theoretical output voltage rang
 [0.6V](https://www.wolframalpha.com/input/?i=0.6V+*(1+%2B+0k%CE%A9%2F2.2k%CE%A9)) to
 [27.9V](https://www.wolframalpha.com/input/?i=0.6V+*(1+%2B+100k%CE%A9%2F2.2k%CE%A9)).
 
-The lowest output voltage is in fact not that low. It should be limited to around 1 diode drop less than the input voltage.
+The lowest output voltage is in fact not that low.
+In practice it would be limited to around 1 diode drop less than the input voltage.
 
 ### Enable Pin Connection
 
@@ -75,7 +76,7 @@ Grounding (pulling down) the enable pin disables the converter.
 But this does not cut output. It just removes the voltage boost, and output passes directly through
 the inductor and diode to output (less a diode drop).
 
-With `Vin=4.97V`, Vout drops to 4.40V when disabled (given my choice of and diode).
+With `Vin=4.97V`, Vout drops to 4.40V when disabled (given my choice of diode).
 
 Note: one of the disadvantages of most commercial modules is that they tie the enable pin to Vin
 so the enable functionality is not available (without cutting and patching the board traces).
@@ -130,7 +131,7 @@ from a seller on aliexpress. The module has very similar parts selection to my D
 * SS34 SMD schottky diode
 * Enable pin tied directly to Vin
 * 22µH SMD inductor
-* ceramic caps - apepars ~15µF on the output and the input cap appears to be higher, but I can't measure it reliably in-circuit.
+* ceramic caps - appears ~15µF on the output and the input cap appears to be higher, but I can't measure it reliably in-circuit.
 
 Performance is slightly better. This may be due to the layout which follows the guidelines in the datasheet very closely.
 

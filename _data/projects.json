@@ -2567,7 +2567,7 @@
         "tags": [
             "Power"
         ], 
-        "title": "MT3608/VariableBoost"
+        "title": "MT3608 Variable Boost"
     }, 
     "/ESP8266/SerialTest/ruby/": {
         "summary": "exercising ESP8266 serial communications with Ruby", 
