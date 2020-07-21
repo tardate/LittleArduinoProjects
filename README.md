@@ -1,6 +1,6 @@
-# 560 Little Electronics and Arduino Projects
+# 561 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Hurst Point Lighthouse](./Kraft/HurstPointLighthouse) - building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array.
+> Latest addition:sparkles: [Aguhajsu 1S/3A BMS](./Electronics101/BatteryManagement/Aguhajsu1S3A) - reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

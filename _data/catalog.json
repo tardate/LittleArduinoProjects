@@ -1,5 +1,12 @@
 [
     {
+        "description": "Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell", 
+        "relative_path": "Electronics101/BatteryManagement/Aguhajsu1S3A", 
+        "id": "#561", 
+        "categories": "Power, BMS", 
+        "name": "Aguhajsu 1S/3A BMS"
+    }, 
+    {
         "description": "Building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array", 
         "relative_path": "Kraft/HurstPointLighthouse", 
         "id": "#560", 

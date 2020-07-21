@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-10T17:53:58Z</updated>
+  <updated>2020-09-15T18:06:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/BatteryManagement/Aguhajsu1S3A/</id>
+    <link href="https://leap.tardate.com/Electronics101/BatteryManagement/Aguhajsu1S3A/"/>
+    <updated>2020-09-15T16:45:21Z</updated>
+    <title>#561 Aguhajsu 1S/3A BMS</title>
+    <summary>Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BatteryManagement/Aguhajsu1S3A/assets/Aguhajsu1S3A_build.jpg</g:image_link>
+    <category term="Power"/>
+    <category term="BMS"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/HurstPointLighthouse/</id>
     <link href="https://leap.tardate.com/Kraft/HurstPointLighthouse/"/>
-    <updated>2020-09-10T15:00:19Z</updated>
+    <updated>2020-09-11T03:39:03Z</updated>
     <title>#560 Hurst Point Lighthouse</title>
     <summary>Building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array</summary>
     <g:image_link>https://leap.tardate.com/Kraft/HurstPointLighthouse/assets/HurstPointLighthouse_build.jpg</g:image_link>
@@ -25,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/SlowGlow/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/SlowGlow/"/>
-    <updated>2020-09-05T09:27:31Z</updated>
+    <updated>2020-09-11T03:39:03Z</updated>
     <title>#559 Slow Glow</title>
     <summary>A simple slowly-glowing LED effect using a 555 timer</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/SlowGlow/assets/SlowGlow_build.jpg</g:image_link>

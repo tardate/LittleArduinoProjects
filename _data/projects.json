@@ -351,15 +351,6 @@
         ], 
         "title": "BoldportClub/stringy"
     }, 
-    "/playground/ATtiny/SleepMode/": {
-        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
-        "id": 127, 
-        "tags": [
-            "Arduino", 
-            "AVR"
-        ], 
-        "title": "ATtiny SleepMode"
-    }, 
     "/Electronics101/Detectors/PeakDetector/": {
         "summary": "test an OpAmp-based peak detector circuit", 
         "id": 121, 
@@ -495,6 +486,15 @@
             "Data Logging"
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
+    }, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
+        "tags": [
+            "Arduino", 
+            "C++"
+        ], 
+        "title": "Using C++ Templates"
     }, 
     "/playground/XYplotter/": {
         "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
@@ -3184,13 +3184,15 @@
         ], 
         "title": "TwinTeeOscillator"
     }, 
-    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
-        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
-        "id": 495, 
+    "/Radio/FM/TEA5767/": {
+        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
+        "id": 310, 
         "tags": [
-            "BJT"
+            "Radio", 
+            "FM", 
+            "Arduino"
         ], 
-        "title": "Negative Feedback Amplifier"
+        "title": "TEA5767 FM Receiver"
     }, 
     "/Electronics101/DigitalLogic/SyncJKCounter/": {
         "summary": "a synchronous 8-bit counter built with JK Flip-Flops", 
@@ -3586,15 +3588,14 @@
         ], 
         "title": "RouletteKit"
     }, 
-    "/Radio/FM/TEA5767/": {
-        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino", 
-        "id": 310, 
+    "/playground/ATtiny/SleepMode/": {
+        "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
+        "id": 127, 
         "tags": [
-            "Radio", 
-            "FM", 
-            "Arduino"
+            "Arduino", 
+            "AVR"
         ], 
-        "title": "TEA5767 FM Receiver"
+        "title": "ATtiny SleepMode"
     }, 
     "/Radio/FM/SingleStageTransmitterKit/": {
         "summary": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit", 
@@ -4498,14 +4499,13 @@
         ], 
         "title": "ClapSwitchKit2"
     }, 
-    "/playground/UsingTemplates/": {
-        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
-        "id": 486, 
+    "/Electronics101/BJT/NegativeFeedbackAmplifier/": {
+        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs", 
+        "id": 495, 
         "tags": [
-            "Arduino", 
-            "C++"
+            "BJT"
         ], 
-        "title": "Using C++ Templates"
+        "title": "Negative Feedback Amplifier"
     }, 
     "/BoldportClub/TheMatrix/GameOfLife/": {
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix", 
@@ -4652,6 +4652,15 @@
             "Arduino"
         ], 
         "title": "ClassicNokia"
+    }, 
+    "/Electronics101/BatteryManagement/Aguhajsu1S3A/": {
+        "summary": "Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell", 
+        "id": 561, 
+        "tags": [
+            "Power", 
+            "BMS"
+        ], 
+        "title": "Aguhajsu 1S/3A BMS"
     }, 
     "/OSHChip/GccToolchain/": {
         "summary": "can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?", 
