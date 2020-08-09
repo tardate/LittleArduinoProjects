@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-08-09T11:33:47Z</updated>
+  <updated>2020-08-09T13:53:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,12 +14,14 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/HarrierGR1/</id>
     <link href="https://leap.tardate.com/Kraft/HarrierGR1/"/>
-    <updated>2020-08-09T11:22:26Z</updated>
+    <updated>2020-08-09T11:34:11Z</updated>
     <title>#558 Harrier GR.1</title>
     <summary>Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/HarrierGR1/assets/HarrierGR1_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="Audio"/>
+    <category term="LED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/LED8x8Module/</id>

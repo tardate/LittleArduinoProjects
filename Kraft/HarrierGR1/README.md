@@ -19,7 +19,7 @@ I haven't built a model plane in (many) decades, so it was a bit of a walk down 
 to browse the current offerings of my old favourite, [Airfix](https://www.airfix.com).
 Little did I realise how lucky I am to be able to do that - I learned from maxsmodels' excellent
 [Airfix kit models: a brief history movie](https://www.youtube.com/watch?v=KjxaJgxXavc)
-how many times that company came so close to folding in the intervening years.
+how many times the company came so close to folding in the intervening years.
 
 The good news is that the company now seems in good health as part of the Hornby group,
 with many of the models in the current catalog using new tools and the quality of the kits far superior to what I remember.
@@ -37,7 +37,7 @@ The [Airfix A55205 Medium Starter Set - Hawker Harrier GR.1](https://www.airfix.
 Plan for the build:
 
 * build the jet-engine sound effect and navigation lights for installation in the kit
-* build the kit(!), with control wires sneeakily coming out of the rear langing gear
+* build the kit(!), with control wires sneakily coming out of the rear langing gear
 * build a controller for the engines and lights with 18650 battery, charger, and boost mode switching power supply (to provide the voltage necessary for the jet engine)
 * a diorama based on a classic photograph of a Harrier GR1 on forward deployment in (West) German forest around 1970
 
@@ -51,6 +51,7 @@ In 1977, the squadrons were moved forward to the air base at Gütersloh, closer 
 Some good resources for more information:
 
 * [Hawker Siddeley Harrier](https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier) - wikipedia
+* [Hawker Siddeley BAe Harrier](https://www.baesystems.com/en/heritage/hawker-siddeley-harrier) - BAe Systems
 * [Zarco Macross](http://zarco-macross.wikidot.com/wiki:harriers) - great collection of resources
 * [Hawker Harrier model blueprints](https://www.the-blueprints.com/blueprints/modernplanes/hawker/28015/view/hawker_harrier/)
 
@@ -97,21 +98,21 @@ In this spectrum view, the peak to the left is the tone that rises from about 42
 ### Onboard Electronics Build
 
 Making sure it all fits inside the fuselage is the main constraint. I used a mix of DIP, through-hole and SMT parts and a freeform/dead-bug
-contruction to pack it all in.
+construction to pack it all in.
 
 The jet engine is built around the CD4046. The arrangement of components was a meditative evening's work!
-The result has the piezo speak forward, and power connections to the rear.
-I retained the trimpots for volume and mix (noise/tone) so that I could make fine adjustments after installation.
+The result has the piezo speaker forward, and power connections to the rear.
+I retained the trimpots for volume and noise/tone mix so that I could make fine adjustments after installation.
 
 ![build_jet_engine](./assets/build_jet_engine.jpg?raw=true)
 
-The navigation strobe circuit is two 555 timers and supporting components that is installed to th rear.
-Although there is enough room to use through-hole oponents, I switch to surface mount resistors and capacitors for this module (just because)
+The navigation strobe circuit is two 555 timers and supporting components that is installed to the rear.
+Although there is enough room to use through-hole oponents, I switched to surface mount resistors and capacitors for this module (just because).
 
 Note: here's where I made an irreversible mistake: I tested the stobe circuit for basic operation before installation,
-BUT DIDN'T CHECK THE TIMING. I think my SMT components had very different tolerances and actual comonent values than the through-hole
-componetns I used on the breadboard test. I only noticed it was off after sealing the fuselage (and my fate!).
-So my navigation strobe in the final build is a bit disappointing - in particular, the on time it too short for it to flash with a decent brightness
+BUT DIDN'T CHECK THE TIMING. I think my SMT components had very different tolerances and actual component values than the through-hole
+components I used on the breadboard test. I only noticed it was off after sealing the fuselage (and my fate!).
+So my navigation strobe in the final build is a bit disappointing - in particular, the on-time is too short for it to flash with a decent brightness.
 
 ![build_nav_strobe](./assets/build_nav_strobe.jpg?raw=true)
 
@@ -128,7 +129,7 @@ This cross-section shot shows the basic layout:
 
 Wingtip navigation LEDs have their wiring (0.2mm enamelled widing wire) routed inside the wing, with the navigation beacon attached to the upper fuselage.
 It was only after finishing the fuselage construction that I discovered there is another navigation beacon on the lower fuselage near the rear landing gear.
-Unfortunately too late in the build to wire this up and activate it also.
+Unfortunately too late in the build to also wire this up.
 
 ![build_wing_lights](./assets/build_wing_lights.jpg?raw=true)
 
@@ -264,7 +265,7 @@ I followed Luke Towan's [Tall Forest Pine Trees](https://www.youtube.com/watch?v
 
 ![diorama_making_trees](./assets/diorama_making_trees.jpg?raw=true)
 
-Here's the diorame base pretty much complete now: additional foliage and forest litter added; and a hand-painted backdrop for some depth.
+Here's the diorama base pretty much complete now: additional foliage and forest litter added; and a hand-painted backdrop for some depth.
 
 ![diorama_base_complete](./assets/diorama_base_complete.jpg?raw=true)
 
@@ -278,6 +279,8 @@ Here's the diorame base pretty much complete now: additional foliage and forest 
 ![gallery_4](./assets/gallery_4.jpg?raw=true)
 ![gallery_5](./assets/gallery_5.jpg?raw=true)
 ![gallery_6](./assets/gallery_6.jpg?raw=true)
+
+Some demonstration videos:
 
 [![clip](https://img.youtube.com/vi/ntyk_z7kn18/0.jpg)](https://www.youtube.com/watch?v=ntyk_z7kn18)
 [![clip](https://img.youtube.com/vi/X3xzvHmxe28/0.jpg)](https://www.youtube.com/watch?v=X3xzvHmxe28)
