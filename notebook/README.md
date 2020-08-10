@@ -31,7 +31,7 @@
 * [Coil Inductance Calculator](http://www.66pacific.com/calculators/coil-inductance-calculator.aspx)
 * [MUST online calculators for electronics](http://mustcalculate.com/)
 * 555 Timer calculators:
-    * [Visual555](https://visual555.tardate.com/) - my version of an astable/monostrable calculator with animations
+    * [Visual555](https://visual555.tardate.com/) - my version of an astable/monostable calculator with animations
     * [555 calculator](http://web.udl.es/usuaris/p7806757/555-calculadora/555%20Calculator.htm)
     * [555 Timer - Frequency and Duty Cycle Calculator](http://www.bowdenshobbycircuits.info/555.htm)
     * [555 astable calculator](http://www.ohmslawcalculator.com/555-astable-calculator)

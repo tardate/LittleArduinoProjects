@@ -37,14 +37,14 @@ The [Airfix A55205 Medium Starter Set - Hawker Harrier GR.1](https://www.airfix.
 Plan for the build:
 
 * build the jet-engine sound effect and navigation lights for installation in the kit
-* build the kit(!), with control wires sneakily coming out of the rear langing gear
+* build the kit(!), with control wires sneakily coming out of the rear landing gear
 * build a controller for the engines and lights with 18650 battery, charger, and boost mode switching power supply (to provide the voltage necessary for the jet engine)
 * a diorama based on a classic photograph of a Harrier GR1 on forward deployment in (West) German forest around 1970
 
 
 ## About the Harrier
 
-I won't recount the history of the Harrier, except say that the GR1 was the first to see service with the RAF, with  No. 1 Squadron starting to convert to the aircraft at RAF Wittering in April 1969.
+I won't recount the history of the Harrier, except to say that the GR1 was the first to see service with the RAF, with  No. 1 Squadron starting to convert to the aircraft at RAF Wittering in April 1969.
 Two Harrier squadrons were established in 1970 at the RAF's air base in Wildenrath to be part of its air force in Germany.
 In 1977, the squadrons were moved forward to the air base at Gütersloh, closer to the prospective front line in the event of an outbreak of a European war.
 
@@ -60,7 +60,7 @@ Some good resources for more information:
 The onboard electronics comprise:
 
 * the jet engine sound simulator (zener noise source, CD4046 PLL, LM386 amplifier with piezo speaker), powered with ~9.4V (needs to be > 9V for the zener noise source to fire)
-* a dual 555 timer to flash the dome navigation stobe beacon (red LED)
+* a dual 555 timer to flash the dome navigation strobe beacon (red LED)
 * wingtip navigation read/green LEDs and a white flood LED on the forward landing gear
 * power is externally switched, with separate power lines for the engine (VENG) and the LEDs (VNAV)
 
@@ -77,7 +77,7 @@ These circuits were first verified on a breadboard
 The red light on the upper fuselage uses two 555 timers to blink once every second:
 
 * astable with R1=47kΩ, R2=680kΩ, C1=1µF for a frequency of [1.023 Hz](https://visual555.tardate.com/?mode=astable&r1=47&r2=680&c=1)
-* monostrable with R1=100kΩ, C1=1µF for an on-time of [110.000 ms](https://visual555.tardate.com/?mode=monostable&r1=100&c=1)
+* monostable with R1=100kΩ, C1=1µF for an on-time of [110.000 ms](https://visual555.tardate.com/?mode=monostable&r1=100&c=1)
 
 Here's the scope trace of the flasher running on the breadboard:
 
@@ -106,10 +106,10 @@ I retained the trimpots for volume and noise/tone mix so that I could make fine 
 
 ![build_jet_engine](./assets/build_jet_engine.jpg?raw=true)
 
-The navigation strobe circuit is two 555 timers and supporting components that is installed to the rear.
-Although there is enough room to use through-hole oponents, I switched to surface mount resistors and capacitors for this module (just because).
+The navigation strobe circuit is two 555 timers and supporting components that installed to the rear.
+Although there is enough room to use through-hole components, I switched to surface mount resistors and capacitors for this module (just because).
 
-Note: here's where I made an irreversible mistake: I tested the stobe circuit for basic operation before installation,
+Note: here's where I made an irreversible mistake: I tested the strobe circuit for basic operation before installation,
 BUT DIDN'T CHECK THE TIMING. I think my SMT components had very different tolerances and actual component values than the through-hole
 components I used on the breadboard test. I only noticed it was off after sealing the fuselage (and my fate!).
 So my navigation strobe in the final build is a bit disappointing - in particular, the on-time is too short for it to flash with a decent brightness.
@@ -121,13 +121,13 @@ So my navigation strobe in the final build is a bit disappointing - in particula
 This cross-section shot shows the basic layout:
 
 * jet engine circuit forward
-* storbe flasher in the rear
+* strobe flasher in the rear
 * a small SMD DIP adapter board in the middle for mounting connections and the current-limiting resistors for the LEDs
 * power connections come out of the rear landing gear housing
 
 ![build_electronics_installation1](./assets/build_electronics_installation1.jpg?raw=true)
 
-Wingtip navigation LEDs have their wiring (0.2mm enamelled widing wire) routed inside the wing, with the navigation beacon attached to the upper fuselage.
+Wingtip navigation LEDs have their wiring (0.2mm enamelled winding wire) routed inside the wing, with the navigation beacon attached to the upper fuselage.
 It was only after finishing the fuselage construction that I discovered there is another navigation beacon on the lower fuselage near the rear landing gear.
 Unfortunately too late in the build to also wire this up.
 
@@ -166,10 +166,10 @@ These are all parts that I had on hand, generally purchased from aliexpress:
 * [MT3608 boost module](https://www.aliexpress.com/item/32948417810.html)
 * [18650 3.7V 5000mAh Battery](https://www.aliexpress.com/item/33024456380.html) (the one I'm using right now is actually 3300mAh)
 * [10*15mm SPST rocker switch](https://www.aliexpress.com/item/32997395813.html) - for power
-* [3-Pin SPDT Toggle Switch](https://www.aliexpress.com/item/32944145213.html) - for engin and nav lights control
+* [3-Pin SPDT Toggle Switch](https://www.aliexpress.com/item/32944145213.html) - for engine and nav lights control
 
-The following diagram shows the basic wiring of the controller (not including LEDs, smoothing capcitors and diodes).
-See the main schematic for the smoothing capcitors and diodes.
+The following diagram shows the basic wiring of the controller (not including LEDs, smoothing capacitors and diodes).
+See the main schematic for the smoothing capacitors and diodes.
 For the indicator LEDs, there are wired with suitable currently limiting resistors as follows:
 
 | LED                         | Resistor |
@@ -186,7 +186,7 @@ I still need to find some decent lettering to label the switches.
 
 ![controller_on](./assets/controller_on.jpg?raw=true)
 
-Components pack in quite snuggly to the project box.
+Components pack in quite snugly to the project box.
 Note the piece of clear sprue cut, polished and hot-glued to the charging status LEDs, forming a light channel so that status can be monitored from the outside -
 I learned this trick from a [SteamGeezer and Son Independent Traders](https://www.youtube.com/watch?v=Y5XRY_WaHYA) video.
 
@@ -225,7 +225,7 @@ The wind indicator(?) near the canopy is not yet attached in this upper shot, as
 
 ![build_plane_complete_upper](./assets/build_plane_complete_upper.jpg?raw=true)
 
-The control wires can be seen coming out form under the rear landing gear in this lower shot.
+The control wires can be seen coming out from under the rear landing gear in this lower shot.
 In this photo, the wires are still terminated with a scrap of protoboard used for testing during construction.
 This is replaced in the final build with a "scenery plug" and the wires painted to blend in.
 
@@ -252,14 +252,14 @@ This work-in-progress shot shows the base starting to build up, but also feature
 
 ![diorama_base_1](./assets/diorama_base_1.jpg?raw=true)
 
-The "scenary plug" is wired to the plane but gets disguised as scenary so that the plane can be plugged/unplugged from the base at will.
+The "scenery plug" is wired to the plane but gets disguised as scenery so that the plane can be plugged/unplugged from the base at will.
 
 ![diorama_base_2](./assets/diorama_base_2.jpg?raw=true)
 
 I followed Luke Towan's [Tall Forest Pine Trees](https://www.youtube.com/watch?v=Hztif1KoJ-g) tutorial for making the trees, and I think they turned out great!
 
 * some large BBQ skewers
-* [Round Coconut Liner Coco Fiber Replacement Liner SGD$1.89](https://shopee.sg/product/83440644/4533824991) - for making
+* [Round Coconut Liner Coco Fiber Replacement Liner SGD$1.89](https://shopee.sg/product/83440644/4533824991)
 * [Sponge Foliage Model Scenic Material](https://shopee.sg/product/140624501/5708148543) - dark green, medium green SGD$1.67 each
 * [Tamiya Linoleum Deck Brown Paint Spray TS-69](https://shopee.sg/product/182871175/3603478107)
 
@@ -291,7 +291,7 @@ Some demonstration videos:
 
 A few things I may come back and take care of later:
 
-* camo netting - would match the source potographs better, but I don't want to obscure the plane too much
+* camo netting - would match the source photographs better, but I don't want to obscure the plane too much
 * weathering - especially for the undercarriage and gun pods
 
 ## Credits and References
