@@ -16,9 +16,26 @@ All about Radio Frequency connectors and cables, typical applications:
 
 Typically use coaxial cable.
 
+### "UHF" Connector
+
+UHF Connector is dated terminology for RF connections using SO-239 (socket) and PL-259 (plug).
+
+* most common type used on HF, also used for VHF, UHF
+* scientific, test equipment
+* see [UHF connector](https://en.wikipedia.org/wiki/UHF_connector) - wikipedia
+
+![uhf_connector](./assets/uhf_connector.jpg?raw=true)
+
+![SO-239](./assets/SO-239.jpg?raw=true)
+
+[![uhf](https://upload.wikimedia.org/wikipedia/commons/2/26/UHF-Connector.png)](https://en.wikipedia.org/wiki/UHF_connector#/media/File:UHF-Connector.png)
+
 ### BNC Connectors
 
 BNC - Bayonet Neill–Concelman.
+
+* used on VHF, UHF, sometiems HF. Use in RF applications is gradually fading.
+* widely used outside of RF e.g. test equipment etc
 
 See also:
 
@@ -44,7 +61,26 @@ crimping tool, which conveniently handles RG58 and RG174, among many others.
 ![crimp_tool](./assets/crimp_tool.jpg?raw=true)
 
 
-## F Connector
+
+### SMA connector
+
+* commonly used on VHF and above
+* used in low-power, mobile
+
+SMA (SubMiniature version A) connectors are semi-precision coaxial RF connectors.
+SMA connectors can be visually confused with the standard household 75-ohm type F coax connector
+
+[![sma](https://upload.wikimedia.org/wikipedia/commons/d/d5/Male_50_ohm_SMA_connector.jpg)](https://en.wikipedia.org/wiki/SMA_connector#/media/File:Male_50_ohm_SMA_connector.jpg)
+
+### Type N
+
+The N connector is a threaded, weatherproof, medium-size RF connector used to join coaxial cables.
+
+* used for high power on VHF, UHF and above
+
+[![type_n_connector](./assets/type_n_connector.jpg?raw=true)](https://en.wikipedia.org/wiki/N_connector)
+
+### F Connector
 
 * F Quick Connect - non-threaded, goes over thread
 * used RF splitter
@@ -52,26 +88,10 @@ crimping tool, which conveniently handles RG58 and RG174, among many others.
 * [F connector](https://en.wikipedia.org/wiki/F_connector) - wikipedia
 * [F-Type connector series](https://www.amphenolrf.com/connectors/f-type.html) - Amphenol’s F-Type is a 75 Ω connector featuring 30 dB return loss at 1GHz.
 
-
 [![f](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/F_Connector_Side.jpg/500px-F_Connector_Side.jpg)](https://en.wikipedia.org/wiki/F_connector#/media/File:F_Connector_Side.jpg)
 
-## SMA connector
 
-SMA (SubMiniature version A) connectors are semi-precision coaxial RF connectors.
-SMA connectors can be visually confused with the standard household 75-ohm type F coax connector
-
-[![sma](https://upload.wikimedia.org/wikipedia/commons/d/d5/Male_50_ohm_SMA_connector.jpg)](https://en.wikipedia.org/wiki/SMA_connector#/media/File:Male_50_ohm_SMA_connector.jpg)
-
-## UHF Connector
-
-![uhf_connector](./assets/uhf_connector.png?raw=true)
-
-* scientific, test equipment
-* [UHF connector](https://en.wikipedia.org/wiki/UHF_connector) - wikipedia
-
-[![uhf](https://upload.wikimedia.org/wikipedia/commons/2/26/UHF-Connector.png)](https://en.wikipedia.org/wiki/UHF_connector#/media/File:UHF-Connector.png)
-
-## Coaxial Cable
+### Coaxial Cable
 
 * [Coaxial cable](https://en.wikipedia.org/wiki/Coaxial_cable) - wikipedia
 * RG-58/U - 50Ω Used for radiocommunication and amateur radio, thin Ethernet (10BASE2) and NIM electronics, Loss 1.056 dB/m @ 2.4 GHz. Common.[22]
@@ -87,6 +107,12 @@ Typical Crimp Die sizes
 | RG-59  | 0.068/1.72 | .255/6.48    |
 | RG-174 | 0.068/1.72 | .178/4.52    |
 
+## Resources and Tutorials
+
+[RF Connectors and what they're for: AD#35](https://youtu.be/ol36eqfEtlw)
+
+[![clip](https://img.youtube.com/vi/ol36eqfEtlw/0.jpg)](https://www.youtube.com/watch?v=ol36eqfEtlw)
+
 
 ## Credits and References
 
@@ -100,3 +126,4 @@ Typical Crimp Die sizes
 * [F connector](https://en.wikipedia.org/wiki/F_connector) - wikipedia
 * [F-Type connector series](https://www.amphenolrf.com/connectors/f-type.html) - Amphenol’s F-Type is a 75 Ω connector featuring 30 dB return loss at 1GHz.
 * [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap347-rf-connectors.html)
+

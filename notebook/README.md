@@ -58,3 +58,17 @@
 ## Specialty Suppliers
 
 * [Tubes-Store](https://tubes-store.com/)
+
+## Radio-related Kits Suppliers
+
+* [4sqrp](http://www.4sqrp.com/index.php)
+* [DZKit](http://www.dzkit.com/)
+* [Elecraft](https://elecraft.com/)
+* [Elenco](https://www.elenco.com/)
+* [MFJ](https://mfjenterprises.com/)
+* [Nightfire / vqkits](http://vakits.com/)
+* [QRP Guys](https://qrpguys.com/)
+* [QRP Kits](http://qrpkits.com/)
+* [QRP me](http://qrpme.com/)
+* [Velleman](https://www.velleman.eu/)
+
