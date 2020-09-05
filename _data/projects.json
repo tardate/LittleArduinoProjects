@@ -1616,6 +1616,15 @@
         ], 
         "title": "LCD I2C Adapter"
     }, 
+    "/Electronics101/555Timer/SlowGlow/": {
+        "summary": "A simple slowly-glowing LED effect using a 555 timer", 
+        "id": 559, 
+        "tags": [
+            "555 Timer", 
+            "LED"
+        ], 
+        "title": "Slow Glow"
+    }, 
     "/Electronics101/Detectors/AcLineDetector/": {
         "summary": "Playing around with a simple AC line current detector", 
         "id": 535, 

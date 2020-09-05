@@ -1,6 +1,6 @@
-# 558 Little Electronics and Arduino Projects
+# 559 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Harrier GR.1](./Kraft/HarrierGR1) - Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970).
+> Latest addition:sparkles: [Slow Glow](./Electronics101/555Timer/SlowGlow) - A simple slowly-glowing LED effect using a 555 timer.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

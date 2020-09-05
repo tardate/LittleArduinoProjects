@@ -1,5 +1,12 @@
 [
     {
+        "description": "A simple slowly-glowing LED effect using a 555 timer", 
+        "relative_path": "Electronics101/555Timer/SlowGlow", 
+        "id": "#559", 
+        "categories": "555 Timer, LED", 
+        "name": "Slow Glow"
+    }, 
+    {
         "description": "Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970)", 
         "relative_path": "Kraft/HarrierGR1", 
         "id": "#558", 
