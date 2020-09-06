@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-05T09:30:24Z</updated>
+  <updated>2020-09-10T17:53:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/HurstPointLighthouse/</id>
+    <link href="https://leap.tardate.com/Kraft/HurstPointLighthouse/"/>
+    <updated>2020-09-10T15:00:19Z</updated>
+    <title>#560 Hurst Point Lighthouse</title>
+    <summary>Building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/HurstPointLighthouse/assets/HurstPointLighthouse_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+    <category term="Craft"/>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/SlowGlow/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/SlowGlow/"/>

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array", 
+        "relative_path": "Kraft/HurstPointLighthouse", 
+        "id": "#560", 
+        "categories": "555 Timer, Craft, LED", 
+        "name": "Hurst Point Lighthouse"
+    }, 
+    {
         "description": "A simple slowly-glowing LED effect using a 555 timer", 
         "relative_path": "Electronics101/555Timer/SlowGlow", 
         "id": "#559", 

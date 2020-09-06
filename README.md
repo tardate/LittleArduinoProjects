@@ -1,6 +1,6 @@
-# 559 Little Electronics and Arduino Projects
+# 560 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Slow Glow](./Electronics101/555Timer/SlowGlow) - A simple slowly-glowing LED effect using a 555 timer.
+> Latest addition:sparkles: [Hurst Point Lighthouse](./Kraft/HurstPointLighthouse) - building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

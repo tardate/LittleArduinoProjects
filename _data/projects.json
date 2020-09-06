@@ -1496,15 +1496,15 @@
         ], 
         "title": "AVR GCC Toolchain"
     }, 
-    "/Electronics101/ToroidJouleThief/": {
-        "summary": "test a \"joule thief\" circuit based on a ferrite toroid", 
-        "id": 137, 
+    "/Kraft/HurstPointLighthouse/": {
+        "summary": "Building the wonderful Paper Shipwright model of the historic Hurst Point Lighthouse, and bringing it to life with a Fl(4) W 15s LED array", 
+        "id": 560, 
         "tags": [
-            "Power", 
-            "RL", 
-            "Oscillators"
+            "555 Timer", 
+            "Craft", 
+            "LED"
         ], 
-        "title": "ToroidJouleThief"
+        "title": "Hurst Point Lighthouse"
     }, 
     "/Electronics101/VoltmeterAmmeterModule/": {
         "summary": "test and calibrate a DC Voltmeter/Ammeter panel module", 
@@ -3836,6 +3836,16 @@
             "Oscillators"
         ], 
         "title": "555 Timer Doorbell Kit"
+    }, 
+    "/Electronics101/ToroidJouleThief/": {
+        "summary": "test a \"joule thief\" circuit based on a ferrite toroid", 
+        "id": 137, 
+        "tags": [
+            "Power", 
+            "RL", 
+            "Oscillators"
+        ], 
+        "title": "ToroidJouleThief"
     }, 
     "/Kinetics/Solenoids/SolenoidDIY/": {
         "summary": "build and test a basic electromechanical solenoid", 
