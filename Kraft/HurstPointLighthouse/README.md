@@ -29,9 +29,9 @@ The paper model is a 1:250 rendition of Hurst Point Lighthouse (Hampshire, UK). 
 
 The [lighthouse characteristics](https://en.wikipedia.org/wiki/Light_characteristic) are recorded as "Fl(4) WR 15s 14nm".
 
-Translated, this means flashing 4 times every 15 seconds, visible to 14 nautical miles. "WR" I think means alternative white and red, but I'm not too sure and wasn't able to find any clear confirmation. For the build, I'm going to simply do a flashing white light.
+Translated, this means flashing 4 times every 15 seconds, visible to 14 nautical miles. "WR" I think means alternating white and red, but I'm not too sure and wasn't able to find any clear confirmation. For the build, I'm going to simply do a flashing white light.
 
-I decided to use a simple 555 time circuit comprising two cascaded timers: the first provides the overall 15 second window with an on period long enough to enable the second timer to perform the 4 flashes at about [0.65 Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=330&c=3.3).
+I decided to use a simple 555 timer circuit comprising two cascaded timers: the first provides the overall 15 second window with an on-period long enough to enable the second timer to perform 4 flashes at about [0.65 Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=330&c=3.3).
 
 ![Breadboard](./assets/HurstPointLighthouse_bb.jpg?raw=true)
 
@@ -44,7 +44,10 @@ First testing the basic circuit on a breadboard:
 Some circuit notes:
 
 * diode D2 is not required (I had it in circuit as originally I was using a smoothing RC circuit on the LEDs, but removed this in the final build as it wasnt adding much to the effect)
-* timing is not 100% accurate, as it is at the whim of component values and tolerances. But I have it close enough for my liking. Here's a scope trace:
+* timing is not 100% accurate, as it is at the whim of component values and tolerances. But I have it close enough for my liking.
+* the first flash is a little longer than the following ones, as C5 must charge from fully discharged to 2/3 VCC and then oscillating between 1/3 and 2/3 VCC. There is probably a way to avoid this but I haven't solved that problem yet.
+
+Here's a scope trace of the flashing sequence:
 
 ![timing](./assets/timing.gif?raw=true)
 
@@ -77,7 +80,7 @@ The base is made from some random balsa wood that I had on hand, and painted wit
 
 ![build_base](./assets/build_base.jpg?raw=true)
 
-The base after varnish and switch installation. Read for the electronics and final assembly.
+The base after varnish and switch installation. Ready for the electronics and final assembly.
 
 ![build_base_final](./assets/build_base_final.jpg?raw=true)
 
@@ -89,7 +92,7 @@ All assembled:
 
 ![build_final](./assets/build_final.jpg?raw=true)
 
-With a drammatic backdrop!
+With a dramatic backdrop!
 
 ![build_final2](./assets/build_final2.jpg?raw=true)
 
