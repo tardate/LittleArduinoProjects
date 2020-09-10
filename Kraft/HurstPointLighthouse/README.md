@@ -25,6 +25,8 @@ The paper model is a 1:250 rendition of Hurst Point Lighthouse (Hampshire, UK). 
 * Built: 1867
 * Light: Fl(4) WR 15s 14nm
 
+![kit](./assets/kit.jpg?raw=true)
+
 ## The Light
 
 The [lighthouse characteristics](https://en.wikipedia.org/wiki/Light_characteristic) are recorded as "Fl(4) WR 15s 14nm".
