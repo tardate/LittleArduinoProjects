@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register", 
+        "relative_path": "Electronics101/DigitalLogic/1bitRegister", 
+        "id": "#562", 
+        "categories": "Logic Gates, CMOS/TTL", 
+        "name": "1-bit Register"
+    }, 
+    {
         "description": "Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell", 
         "relative_path": "Electronics101/BatteryManagement/Aguhajsu1S3A", 
         "id": "#561", 

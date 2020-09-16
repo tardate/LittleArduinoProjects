@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-15T18:06:56Z</updated>
+  <updated>2020-09-16T21:04:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/</id>
+    <link href="https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/"/>
+    <updated>2020-09-16T18:33:51Z</updated>
+    <title>#562 1-bit Register</title>
+    <summary>Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/assets/1bitRegister_build.jpg</g:image_link>
+    <category term="Logic Gates"/>
+    <category term="CMOS/TTL"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/BatteryManagement/Aguhajsu1S3A/</id>
     <link href="https://leap.tardate.com/Electronics101/BatteryManagement/Aguhajsu1S3A/"/>
-    <updated>2020-09-15T16:45:21Z</updated>
+    <updated>2020-09-15T18:12:37Z</updated>
     <title>#561 Aguhajsu 1S/3A BMS</title>
     <summary>Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BatteryManagement/Aguhajsu1S3A/assets/Aguhajsu1S3A_build.jpg</g:image_link>

@@ -1,6 +1,6 @@
-# 561 Little Electronics and Arduino Projects
+# 562 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Aguhajsu 1S/3A BMS](./Electronics101/BatteryManagement/Aguhajsu1S3A) - reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell.
+> Latest addition:sparkles: [1-bit Register](./Electronics101/DigitalLogic/1bitRegister) - building a basic manually controlled 1-bit register that demonstrates the key features of a digital register.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
