@@ -71,6 +71,8 @@ The design can be realised with fundamental building blocks from the 7000-series
 * 74LS32 - provides the OR gates (only 1 of 4 used)
 * 74LS374 - provides the D lath and tri-state output (only 1 of 8 used)
 
+I've drawn the schematic for the circuit [here (EasyEDA)](https://easyeda.com/tardate/1bitRegister).
+
 ![Schematic](./assets/1bitRegister_schematic.jpg?raw=true)
 
 I built the circuit on a bread board, with additional components for manual control:
