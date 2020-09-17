@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-16T21:04:44Z</updated>
+  <updated>2020-09-17T15:17:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/"/>
+    <updated>2020-09-17T15:17:15Z</updated>
+    <title>#563 Dual Variable Mode Oscillator</title>
+    <summary>Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/assets/DualModeVariableFrequencyOrDuty_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/"/>
-    <updated>2020-09-16T18:33:51Z</updated>
+    <updated>2020-09-16T21:11:00Z</updated>
     <title>#562 1-bit Register</title>
     <summary>Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/assets/1bitRegister_build.jpg</g:image_link>

@@ -1,5 +1,12 @@
 [
     {
+        "description": "Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency", 
+        "relative_path": "Electronics101/555Timer/DualModeVariableFrequencyOrDuty", 
+        "id": "#563", 
+        "categories": "555 Timer, Oscillators", 
+        "name": "Dual Variable Mode Oscillator"
+    }, 
+    {
         "description": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register", 
         "relative_path": "Electronics101/DigitalLogic/1bitRegister", 
         "id": "#562", 

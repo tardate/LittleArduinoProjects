@@ -1,6 +1,6 @@
-# 562 Little Electronics and Arduino Projects
+# 563 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [1-bit Register](./Electronics101/DigitalLogic/1bitRegister) - building a basic manually controlled 1-bit register that demonstrates the key features of a digital register.
+> Latest addition:sparkles: [Dual Variable Mode Oscillator](./Electronics101/555Timer/DualModeVariableFrequencyOrDuty) - testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

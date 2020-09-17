@@ -3113,6 +3113,15 @@
         ], 
         "title": "ZX2031 FM Radio Kit"
     }, 
+    "/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/": {
+        "summary": "Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency", 
+        "id": 563, 
+        "tags": [
+            "555 Timer", 
+            "Oscillators"
+        ], 
+        "title": "Dual Variable Mode Oscillator"
+    }, 
     "/Electronics101/BatteryManagement/SingleCellLithiumCharger/": {
         "summary": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules", 
         "id": 501, 
