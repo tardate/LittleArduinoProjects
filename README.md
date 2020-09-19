@@ -1,6 +1,6 @@
-# 563 Little Electronics and Arduino Projects
+# 564 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Dual Variable Mode Oscillator](./Electronics101/555Timer/DualModeVariableFrequencyOrDuty) - testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency.
+> Latest addition:sparkles: [USB Blinky Toy](./Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky) - A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

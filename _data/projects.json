@@ -1391,6 +1391,14 @@
         ], 
         "title": "MC34063/ModuleKit"
     }, 
+    "/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/": {
+        "summary": "A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit", 
+        "id": 564, 
+        "tags": [
+            ""
+        ], 
+        "title": "USB Blinky Toy"
+    }, 
     "/Radio/SingaporeBands/": {
         "summary": "notes on official band plans for Singapore and my and personal observations on where the activity is found", 
         "id": 388, 
@@ -2503,16 +2511,13 @@
         ], 
         "title": "SimpleSiren"
     }, 
-    "/playground/LED7Segment/MAX7219/RawDrive/": {
-        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
-        "id": 478, 
+    "/ESP8266/ESP12/Programming/": {
+        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
+        "id": 534, 
         "tags": [
-            "7-Segment", 
-            "Arduino", 
-            "LED", 
-            "MAX7219"
+            "ESP8266"
         ], 
-        "title": "Raw MAX7219 7-Segment LED Driver"
+        "title": "ESP-12 Programming"
     }, 
     "/Electronics101/SwitchPFET/": {
         "summary": "small-signal p-channel MOSFET switch with turn-on delay", 
@@ -4766,13 +4771,16 @@
         ], 
         "title": "BoldportClub/Touchy"
     }, 
-    "/ESP8266/ESP12/Programming/": {
-        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino", 
-        "id": 534, 
+    "/playground/LED7Segment/MAX7219/RawDrive/": {
+        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands", 
+        "id": 478, 
         "tags": [
-            "ESP8266"
+            "7-Segment", 
+            "Arduino", 
+            "LED", 
+            "MAX7219"
         ], 
-        "title": "ESP-12 Programming"
+        "title": "Raw MAX7219 7-Segment LED Driver"
     }, 
     "/Audio/AudioAmps/Ruby/": {
         "summary": "a version of the runoffgroove Ruby LM386 guitar amp", 

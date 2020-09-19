@@ -1,5 +1,12 @@
 [
     {
+        "description": "A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit", 
+        "relative_path": "Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky", 
+        "id": "#564", 
+        "categories": "", 
+        "name": "USB Blinky Toy"
+    }, 
+    {
         "description": "Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency", 
         "relative_path": "Electronics101/555Timer/DualModeVariableFrequencyOrDuty", 
         "id": "#563", 

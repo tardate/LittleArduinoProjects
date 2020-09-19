@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-17T15:17:20Z</updated>
+  <updated>2020-09-19T04:02:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/"/>
+    <updated>2020-09-19T03:56:47Z</updated>
+    <title>#564 USB Blinky Toy</title>
+    <summary>A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/assets/USBlinky_build.jpg</g:image_link>
+    <category term=""/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/"/>
-    <updated>2020-09-17T15:17:15Z</updated>
+    <updated>2020-09-18T00:25:37Z</updated>
     <title>#563 Dual Variable Mode Oscillator</title>
     <summary>Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/assets/DualModeVariableFrequencyOrDuty_build.jpg</g:image_link>
