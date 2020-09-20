@@ -1,0 +1,7 @@
+{
+    "id": "#565",
+    "name": "Single-Shot Trigger",
+    "description": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard",
+    "categories": "Breadboard Bling, 555 Timer, CD4049",
+    "relative_path": "Electronics101/BreadboardBling/SingleShotTrigger"
+}

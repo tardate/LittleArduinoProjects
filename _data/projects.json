@@ -3062,6 +3062,16 @@
         ], 
         "title": "BJT White Noise Generator"
     }, 
+    "/Electronics101/BreadboardBling/SingleShotTrigger/": {
+        "summary": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard", 
+        "id": 565, 
+        "tags": [
+            "Breadboard Bling", 
+            "555 Timer", 
+            "CD4049"
+        ], 
+        "title": "Single-Shot Trigger"
+    }, 
     "/Kinetics/Solenoids/MagnetSwitchedSolenoid/": {
         "summary": "using a Hall effect sensor to trigger a solenoid with a fixed pulse", 
         "id": 491, 

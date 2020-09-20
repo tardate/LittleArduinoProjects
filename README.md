@@ -1,6 +1,7 @@
-# 564 Little Electronics and Arduino Projects
+# 565 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [USB Blinky Toy](./Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky) - A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit.
+> Latest addition:sparkles: [Single-Shot Trigger](./Electronics101/BreadboardBling/SingleShotTrigger) - A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

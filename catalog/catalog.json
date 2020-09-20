@@ -1,5 +1,12 @@
 [
     {
+        "description": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard", 
+        "relative_path": "Electronics101/BreadboardBling/SingleShotTrigger", 
+        "id": "#565", 
+        "categories": "Breadboard Bling, 555 Timer, CD4049", 
+        "name": "Single-Shot Trigger"
+    }, 
+    {
         "description": "A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit", 
         "relative_path": "Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky", 
         "id": "#564", 

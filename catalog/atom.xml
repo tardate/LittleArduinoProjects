@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-20T04:38:26Z</updated>
+  <updated>2020-09-20T15:35:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/BreadboardBling/SingleShotTrigger/</id>
+    <link href="https://leap.tardate.com/Electronics101/BreadboardBling/SingleShotTrigger/"/>
+    <updated>2020-09-20T15:13:03Z</updated>
+    <title>#565 Single-Shot Trigger</title>
+    <summary>A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/SingleShotTrigger/assets/SingleShotTrigger_build.jpg</g:image_link>
+    <category term="Breadboard Bling"/>
+    <category term="555 Timer"/>
+    <category term="CD4049"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/"/>
