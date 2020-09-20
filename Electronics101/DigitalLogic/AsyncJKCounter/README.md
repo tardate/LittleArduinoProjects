@@ -30,16 +30,17 @@ Here's a logic trace captured with the clock souped up to [470Hz](http://visual5
 ### How Asynchronous is it?
 
 The "asynchronous" description of the counter reflects the fact that the output transitions are not all synchronised to the same clock signal.
+
 * only the first flip-flop is directly triggered by the input clock signal
 * subsequent flip-flops are clocked by the output of the previous stage
 
 For display purposes (like this circuit), this is not an issue.
 But if the counter is in turn an input to subsequent digital logic stages, the lack of synchronisation may raise havoc due to the rippling changes.
 
-There is a "synchronous" version of this circuit (that I haven't built yet); for more information see
-[Sequential Circuits - Synchronous Counters](http://www.allaboutcircuits.com/textbook/digital/chpt-11/synchronous-counters/).
+There is a "synchronous" version of this circuit - see [LEAP#320](../SyncJKCounter) for this circuit.
 
 Here's a trace of 4 digit signals captured in analog with the clock souped up to [470Hz](http://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1):
+
 * CH1 is digit D3 (per the schematic) (MSB) - used for triggering on the falling edge, so we see all digit transitions together
 * CH2 is digit D2 (per the schematic)
 * CH2 is digit D1 (per the schematic)

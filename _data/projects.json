@@ -427,14 +427,16 @@
         ], 
         "title": "xdiskclk"
     }, 
-    "/Electronics101/DiodeLogic/OR/": {
-        "summary": "test the basic diode-logic OR gate", 
-        "id": 109, 
+    "/Electronics101/DigitalLogic/4bitSynchonousCounter/": {
+        "summary": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear", 
+        "id": 566, 
         "tags": [
-            "Diode", 
-            "Digital Logic"
+            "74LS161", 
+            "74LS245", 
+            "Digital Logic", 
+            "CMOS/TTL"
         ], 
-        "title": "OR Gate with Diode Logic"
+        "title": "4-bit Synchonous Counter"
     }, 
     "/BoldportClub/TheMatrix/LedTest/": {
         "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
@@ -3409,6 +3411,15 @@
             "SPI"
         ], 
         "title": "OSHChip/LEDx16Module"
+    }, 
+    "/Electronics101/DiodeLogic/OR/": {
+        "summary": "test the basic diode-logic OR gate", 
+        "id": 109, 
+        "tags": [
+            "Diode", 
+            "Digital Logic"
+        ], 
+        "title": "OR Gate with Diode Logic"
     }, 
     "/BoldportClub/pips/": {
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter", 

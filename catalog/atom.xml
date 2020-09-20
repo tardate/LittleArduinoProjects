@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-20T15:35:41Z</updated>
+  <updated>2020-09-21T13:35:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/DigitalLogic/4bitSynchonousCounter/</id>
+    <link href="https://leap.tardate.com/Electronics101/DigitalLogic/4bitSynchonousCounter/"/>
+    <updated>2020-09-21T13:34:54Z</updated>
+    <title>#566 4-bit Synchonous Counter</title>
+    <summary>An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/4bitSynchonousCounter/assets/4bitSynchonousCounter_build.jpg</g:image_link>
+    <category term="74LS161"/>
+    <category term="74LS245"/>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/BreadboardBling/SingleShotTrigger/</id>
     <link href="https://leap.tardate.com/Electronics101/BreadboardBling/SingleShotTrigger/"/>
-    <updated>2020-09-20T15:13:03Z</updated>
+    <updated>2020-09-20T15:37:15Z</updated>
     <title>#565 Single-Shot Trigger</title>
     <summary>A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BreadboardBling/SingleShotTrigger/assets/SingleShotTrigger_build.jpg</g:image_link>

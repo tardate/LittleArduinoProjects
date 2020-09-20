@@ -1,5 +1,12 @@
 [
     {
+        "description": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear", 
+        "relative_path": "Electronics101/DigitalLogic/4bitSynchonousCounter", 
+        "id": "#566", 
+        "categories": "74LS161, 74LS245, Digital Logic, CMOS/TTL", 
+        "name": "4-bit Synchonous Counter"
+    }, 
+    {
         "description": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard", 
         "relative_path": "Electronics101/BreadboardBling/SingleShotTrigger", 
         "id": "#565", 

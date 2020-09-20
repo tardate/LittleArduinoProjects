@@ -1,7 +1,6 @@
-# 565 Little Electronics and Arduino Projects
+# 566 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Single-Shot Trigger](./Electronics101/BreadboardBling/SingleShotTrigger) - A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard.
-
+> Latest addition:sparkles: [4-bit Synchonous Counter](./Electronics101/DigitalLogic/4bitSynchonousCounter) - An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
