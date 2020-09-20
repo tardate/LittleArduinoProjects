@@ -1,7 +1,6 @@
-# #112 ResistorTransistorLogic/OR
+# #112 OR Gate with Resistor-Transistor Logic
 
 Test the basic resistor-transistor logic OR gate.
-
 
 ## Notes
 

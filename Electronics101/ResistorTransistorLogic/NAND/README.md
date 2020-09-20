@@ -1,7 +1,6 @@
-# #023 ResistorTransistorLogic/NAND
+# #023 NAND Gate with Resistor-Transistor Logic
 
 Test the basic resistor-transistor logic NAND gate.
-
 
 ## Notes
 

@@ -1,7 +1,7 @@
 {
-    "id": "#013", 
-    "name": "ResistorTransistorLogic/NOT", 
-    "description": "test the basic resistor-transistor logic NOT gate (Inverter)", 
-    "categories": "BJT, RTL, Logic Gates", 
+    "id": "#013",
+    "name": "NOT Gate with Resistor-Transistor Logic",
+    "description": "test the basic resistor-transistor logic NOT gate (Inverter)",
+    "categories": "BJT, RTL, Digital Logic",
     "relative_path": "Electronics101/ResistorTransistorLogic/NOT"
 }

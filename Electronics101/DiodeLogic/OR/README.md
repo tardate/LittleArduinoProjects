@@ -1,7 +1,6 @@
-# #109 DiodeLogic/OR
+# #109 OR Gate with Diode Logic
 
 Test the basic diode-logic OR gate
-
 
 ## Notes
 

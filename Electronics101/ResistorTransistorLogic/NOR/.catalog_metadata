@@ -1,7 +1,7 @@
 {
-    "id": "#111", 
-    "name": "ResistorTransistorLogic/NOR", 
-    "description": "test the basic resistor-transistor logic NOR gate ", 
-    "categories": "BJT, RTL, Logic Gates", 
+    "id": "#111",
+    "name": "NOR Gate with Resistor-Transistor Logic",
+    "description": "test the basic resistor-transistor logic NOR gate ",
+    "categories": "BJT, RTL, Digital Logic",
     "relative_path": "Electronics101/ResistorTransistorLogic/NOR"
 }

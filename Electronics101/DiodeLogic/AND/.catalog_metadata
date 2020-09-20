@@ -1,7 +1,7 @@
 {
-    "id": "#110", 
-    "name": "DiodeLogic/AND", 
-    "description": "test the basic diode-logic AND gate", 
-    "categories": "Diode, Logic Gates", 
+    "id": "#110",
+    "name": "AND Gate with Diode Logic",
+    "description": "test the basic diode-logic AND gate",
+    "categories": "Diode, Digital Logic",
     "relative_path": "Electronics101/DiodeLogic/AND"
 }

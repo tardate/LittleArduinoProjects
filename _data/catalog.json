@@ -17,7 +17,7 @@
         "description": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register", 
         "relative_path": "Electronics101/DigitalLogic/1bitRegister", 
         "id": "#562", 
-        "categories": "Logic Gates, CMOS/TTL", 
+        "categories": "Digital Logic, CMOS/TTL", 
         "name": "1-bit Register"
     }, 
     {
@@ -59,7 +59,7 @@
         "description": "Set/Reset latch with a 555 timer", 
         "relative_path": "Electronics101/555Timer/SRLatch", 
         "id": "#556", 
-        "categories": "555 Timer, Logic Gates", 
+        "categories": "555 Timer, Digital Logic", 
         "name": "555 SR Latch"
     }, 
     {
@@ -1480,8 +1480,8 @@
         "description": "building a clocked D Flip-flop with 74LS00 NAND gates", 
         "relative_path": "Electronics101/DigitalLogic/DFlipFlop", 
         "id": "#353", 
-        "categories": "Logic Gates, CMOS/TTL", 
-        "name": "DFlipFlop"
+        "categories": "Digital Logic, CMOS/TTL", 
+        "name": "D Flip-Flop"
     }, 
     {
         "description": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX", 
@@ -1515,8 +1515,8 @@
         "description": "building a D Latch with 74LS00 NAND gates", 
         "relative_path": "Electronics101/DigitalLogic/DLatch", 
         "id": "#348", 
-        "categories": "Logic Gates, CMOS/TTL", 
-        "name": "DLatch"
+        "categories": "Digital Logic, CMOS/TTL", 
+        "name": "D Latch"
     }, 
     {
         "description": "notes on miscellaneous RF connectors", 
@@ -1529,8 +1529,8 @@
         "description": "Set-Reset latch implemented with NAND gates", 
         "relative_path": "Electronics101/DigitalLogic/SRLatchWithNandGates", 
         "id": "#346", 
-        "categories": "Logic Gates, CMOS/TTL", 
-        "name": "SRLatchWithNandGates"
+        "categories": "Digital Logic, CMOS/TTL", 
+        "name": "NAND Gate SR Latch"
     }, 
     {
         "description": "upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.", 
@@ -1970,8 +1970,8 @@
         "description": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
         "relative_path": "Electronics101/DigitalLogic/XorWithNandGates", 
         "id": "#283", 
-        "categories": "Logic Gates, CMOS/TTL", 
-        "name": "XorWithNandGates"
+        "categories": "Digital Logic, CMOS/TTL", 
+        "name": "XOR With NAND Gates"
     }, 
     {
         "description": "build and test a function generator kit based on the XR-2206 monolithic function generator", 
@@ -2145,7 +2145,7 @@
         "description": "practice some Boldport-style soldering on yet-another clap switch kit", 
         "relative_path": "Electronics101/ClapSwitchKit2", 
         "id": "#258", 
-        "categories": "Oscillators, BJT, Logic Gates", 
+        "categories": "Oscillators, BJT, Digital Logic", 
         "name": "ClapSwitchKit2"
     }, 
     {
@@ -2404,8 +2404,8 @@
         "description": "test the basic resistor-transistor logic XOR gate/XOR", 
         "relative_path": "Electronics101/ResistorTransistorLogic/XOR", 
         "id": "#221", 
-        "categories": "BJT, RTL, Logic Gates", 
-        "name": "ResistorTransistorLogic/XOR"
+        "categories": "BJT, RTL, Digital Logic", 
+        "name": "XOR Gate with Resistor-Transistor Logic"
     }, 
     {
         "description": "programming an Arduino with C and a command line", 
@@ -2761,7 +2761,7 @@
         "description": "build and analyse a simple clap switch circuit available as a kit", 
         "relative_path": "Electronics101/ClapSwitchKit", 
         "id": "#170", 
-        "categories": "Oscillators, BJT, Logic Gates", 
+        "categories": "Oscillators, BJT, Digital Logic", 
         "name": "ClapSwitchKit"
     }, 
     {
@@ -3167,29 +3167,29 @@
         "description": "test the basic resistor-transistor logic OR gate", 
         "relative_path": "Electronics101/ResistorTransistorLogic/OR", 
         "id": "#112", 
-        "categories": "BJT, RTL, Logic Gates", 
-        "name": "ResistorTransistorLogic/OR"
+        "categories": "BJT, RTL, Digital Logic", 
+        "name": "OR Gate with Resistor-Transistor Logic"
     }, 
     {
         "description": "test the basic resistor-transistor logic NOR gate ", 
         "relative_path": "Electronics101/ResistorTransistorLogic/NOR", 
         "id": "#111", 
-        "categories": "BJT, RTL, Logic Gates", 
-        "name": "ResistorTransistorLogic/NOR"
+        "categories": "BJT, RTL, Digital Logic", 
+        "name": "NOR Gate with Resistor-Transistor Logic"
     }, 
     {
         "description": "test the basic diode-logic AND gate", 
         "relative_path": "Electronics101/DiodeLogic/AND", 
         "id": "#110", 
-        "categories": "Diode, Logic Gates", 
-        "name": "DiodeLogic/AND"
+        "categories": "Diode, Digital Logic", 
+        "name": "AND Gate with Diode Logic"
     }, 
     {
         "description": "test the basic diode-logic OR gate", 
         "relative_path": "Electronics101/DiodeLogic/OR", 
         "id": "#109", 
-        "categories": "Diode, Logic Gates", 
-        "name": "DiodeLogic/OR"
+        "categories": "Diode, Digital Logic", 
+        "name": "OR Gate with Diode Logic"
     }, 
     {
         "description": "control the classic CD4017 walking-ring counter with an Arduino", 
@@ -3412,7 +3412,7 @@
         "description": "Set-Reset latch implemented with NOR gates", 
         "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates", 
         "id": "#077", 
-        "categories": "Logic Gates, CMOS/TTL", 
+        "categories": "Digital Logic, CMOS/TTL", 
         "name": "NOR Gate SR Latch"
     }, 
     {
@@ -3517,15 +3517,15 @@
         "description": "Set/Reset latch with BJTs, controlled and monitored by an Arduino", 
         "relative_path": "Electronics101/DigitalLogic/SRLatchFlipper", 
         "id": "#062", 
-        "categories": "Logic Gates, BJT, Arduino", 
-        "name": "SRLatchFlipper"
+        "categories": "Digital Logic, BJT, Arduino", 
+        "name": "SR Latch Flipper"
     }, 
     {
         "description": "Set/Reset latch with BJTs", 
         "relative_path": "Electronics101/DigitalLogic/SRLatch", 
         "id": "#061", 
-        "categories": "Logic Gates, BJT", 
-        "name": "SRLatch"
+        "categories": "Digital Logic, BJT", 
+        "name": "SR Latch"
     }, 
     {
         "description": "an LM7805 5V regulated power supply on breadboard-compatible protobboard", 
@@ -3783,15 +3783,15 @@
         "description": "test the basic resistor-transistor logic AND gate ", 
         "relative_path": "Electronics101/ResistorTransistorLogic/AND", 
         "id": "#024", 
-        "categories": "BJT, RTL, Logic Gates", 
-        "name": "ResistorTransistorLogic/AND"
+        "categories": "BJT, RTL, Digital Logic", 
+        "name": "AND Gate with Resistor-Transistor Logic"
     }, 
     {
         "description": "test the basic resistor-transistor logic NAND gate ", 
         "relative_path": "Electronics101/ResistorTransistorLogic/NAND", 
         "id": "#023", 
-        "categories": "BJT, RTL, Logic Gates", 
-        "name": "ResistorTransistorLogic/NAND"
+        "categories": "BJT, RTL, Digital Logic", 
+        "name": "NAND Gate with Resistor-Transistor Logic"
     }, 
     {
         "description": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave", 
@@ -3860,8 +3860,8 @@
         "description": "test the basic resistor-transistor logic NOT gate (Inverter)", 
         "relative_path": "Electronics101/ResistorTransistorLogic/NOT", 
         "id": "#013", 
-        "categories": "BJT, RTL, Logic Gates", 
-        "name": "ResistorTransistorLogic/NOT"
+        "categories": "BJT, RTL, Digital Logic", 
+        "name": "NOT Gate with Resistor-Transistor Logic"
     }, 
     {
         "description": "graphing capacitor discharge with Processing", 

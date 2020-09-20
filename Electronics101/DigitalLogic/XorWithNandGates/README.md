@@ -1,4 +1,4 @@
-# #283 DigitalLogic/XorWithNandGates
+# #283 XOR With NAND Gates
 
 Construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate it's behaviour with an Arduino and Processing.
 

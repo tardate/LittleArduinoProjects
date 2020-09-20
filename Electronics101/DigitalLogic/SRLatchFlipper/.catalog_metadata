@@ -1,7 +1,7 @@
 {
-    "id": "#062", 
-    "name": "SRLatchFlipper", 
-    "description": "Set/Reset latch with BJTs, controlled and monitored by an Arduino", 
-    "categories": "Logic Gates, BJT, Arduino", 
+    "id": "#062",
+    "name": "SR Latch Flipper",
+    "description": "Set/Reset latch with BJTs, controlled and monitored by an Arduino",
+    "categories": "Digital Logic, BJT, Arduino",
     "relative_path": "Electronics101/DigitalLogic/SRLatchFlipper"
 }

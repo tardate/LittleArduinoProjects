@@ -1,7 +1,6 @@
-# #024 ResistorTransistorLogic/AND
+# #024 AND Gate with Resistor-Transistor Logic
 
 Test the basic resistor-transistor logic AND gate.
-
 
 ## Notes
 
@@ -57,4 +56,3 @@ for plotting with [PlotNValues](../../../processing/PlotNValues) (a simple Proce
 * [Logic Gates using Transistors #2](https://electrosome.com/logic-gates-using-transistors/) - note, when last checked, the AND circuit is wrong?
 * [Logic AND Gate Tutorial](http://www.electronics-tutorials.ws/logic/logic_2.html) - explains of the basic circuit used here.
 * [TTLBufferDriver project](../../TTLBufferDriver) - a version of this basic AND gate project but with an additional output buffer
-

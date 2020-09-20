@@ -1,7 +1,7 @@
 {
-    "id": "#024", 
-    "name": "ResistorTransistorLogic/AND", 
-    "description": "test the basic resistor-transistor logic AND gate ", 
-    "categories": "BJT, RTL, Logic Gates", 
+    "id": "#024",
+    "name": "AND Gate with Resistor-Transistor Logic",
+    "description": "test the basic resistor-transistor logic AND gate ",
+    "categories": "BJT, RTL, Digital Logic",
     "relative_path": "Electronics101/ResistorTransistorLogic/AND"
 }

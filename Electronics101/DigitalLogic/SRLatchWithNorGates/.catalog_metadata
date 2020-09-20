@@ -2,6 +2,6 @@
     "id": "#077",
     "name": "NOR Gate SR Latch",
     "description": "Set-Reset latch implemented with NOR gates",
-    "categories": "Logic Gates, CMOS/TTL",
+    "categories": "Digital Logic, CMOS/TTL",
     "relative_path": "Electronics101/DigitalLogic/SRLatchWithNorGates"
 }

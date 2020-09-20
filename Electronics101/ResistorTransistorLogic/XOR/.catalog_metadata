@@ -1,7 +1,7 @@
 {
-    "id": "#221", 
-    "name": "ResistorTransistorLogic/XOR", 
-    "description": "test the basic resistor-transistor logic XOR gate/XOR", 
-    "categories": "BJT, RTL, Logic Gates", 
+    "id": "#221",
+    "name": "XOR Gate with Resistor-Transistor Logic",
+    "description": "test the basic resistor-transistor logic XOR gate/XOR",
+    "categories": "BJT, RTL, Digital Logic",
     "relative_path": "Electronics101/ResistorTransistorLogic/XOR"
 }

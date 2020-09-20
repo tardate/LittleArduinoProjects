@@ -1,7 +1,6 @@
-# #221 ResistorTransistorLogic/XOR
+# #221 XOR Gate with Resistor-Transistor Logic
 
 Test the basic resistor-transistor logic XOR gate.
-
 
 ## Notes
 

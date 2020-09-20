@@ -1,11 +1,10 @@
-# #013 ResistorTransistorLogic/NOT
+# #013 NOT Gate with Resistor-Transistor Logic
 
 Test the basic resistor-transistor logic NOT gate (inverter)
 
 Here's a quick video of the circuit in action:
 
 [![ResistorTransistorLogic/NOT](https://img.youtube.com/vi/JQzt-ZaF9fw/0.jpg)](https://www.youtube.com/watch?v=JQzt-ZaF9fw)
-
 
 ## Notes
 

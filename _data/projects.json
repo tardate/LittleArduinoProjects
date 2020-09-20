@@ -114,7 +114,7 @@
         "summary": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register", 
         "id": 562, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "CMOS/TTL"
         ], 
         "title": "1-bit Register"
@@ -337,9 +337,9 @@
         "tags": [
             "BJT", 
             "RTL", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "ResistorTransistorLogic/XOR"
+        "title": "XOR Gate with Resistor-Transistor Logic"
     }, 
     "/Electronics101/BJT/CurrentSink/": {
         "summary": "test a BJT constant current sink circuit", 
@@ -432,9 +432,9 @@
         "id": 109, 
         "tags": [
             "Diode", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "DiodeLogic/OR"
+        "title": "OR Gate with Diode Logic"
     }, 
     "/BoldportClub/TheMatrix/LedTest/": {
         "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
@@ -611,10 +611,10 @@
         "summary": "building a D Latch with 74LS00 NAND gates", 
         "id": 348, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "CMOS/TTL"
         ], 
-        "title": "DLatch"
+        "title": "D Latch"
     }, 
     "/Electronics101/LED/ACBulb/": {
         "summary": "build and analyse a commercial LED lamp kit with capacitive power supply", 
@@ -1082,10 +1082,10 @@
         "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing", 
         "id": 283, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "CMOS/TTL"
         ], 
-        "title": "XorWithNandGates"
+        "title": "XOR With NAND Gates"
     }, 
     "/Electronics101/INA226/HighSideMonitorBasics/": {
         "summary": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I\u00b2C", 
@@ -1315,9 +1315,9 @@
         "tags": [
             "BJT", 
             "RTL", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "ResistorTransistorLogic/NOR"
+        "title": "NOR Gate with Resistor-Transistor Logic"
     }, 
     "/Kraft/KickingBack/": {
         "summary": "a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)", 
@@ -1600,10 +1600,10 @@
         "summary": "building a clocked D Flip-flop with 74LS00 NAND gates", 
         "id": 353, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "CMOS/TTL"
         ], 
-        "title": "DFlipFlop"
+        "title": "D Flip-Flop"
     }, 
     "/Electronics101/Power/UsbPowerSupplyKit/": {
         "summary": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up", 
@@ -1620,9 +1620,9 @@
         "tags": [
             "BJT", 
             "RTL", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "ResistorTransistorLogic/OR"
+        "title": "OR Gate with Resistor-Transistor Logic"
     }, 
     "/playground/LCD/I2CAdapter/": {
         "summary": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD", 
@@ -1750,11 +1750,11 @@
         "summary": "Set/Reset latch with BJTs, controlled and monitored by an Arduino", 
         "id": 62, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "BJT", 
             "Arduino"
         ], 
-        "title": "SRLatchFlipper"
+        "title": "SR Latch Flipper"
     }, 
     "/Audio/AudioAmps/GuitarHeadphoneAmp/": {
         "summary": "an LM386 fixed-gain guitar headphone amp", 
@@ -3077,7 +3077,7 @@
         "tags": [
             "Oscillators", 
             "BJT", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
         "title": "ClapSwitchKit"
     }, 
@@ -3510,9 +3510,9 @@
         "tags": [
             "BJT", 
             "RTL", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "ResistorTransistorLogic/NAND"
+        "title": "NAND Gate with Resistor-Transistor Logic"
     }, 
     "/Electronics101/ArcGeneratorKit/": {
         "summary": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor", 
@@ -3792,10 +3792,10 @@
         "summary": "Set/Reset latch with BJTs", 
         "id": 61, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "BJT"
         ], 
-        "title": "SRLatch"
+        "title": "SR Latch"
     }, 
     "/Kraft/snowflake/": {
         "summary": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project", 
@@ -4024,9 +4024,9 @@
         "tags": [
             "BJT", 
             "RTL", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "ResistorTransistorLogic/NOT"
+        "title": "NOT Gate with Resistor-Transistor Logic"
     }, 
     "/BoldportClub/spoolt/": {
         "summary": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)", 
@@ -4255,10 +4255,10 @@
         "summary": "Set-Reset latch implemented with NAND gates", 
         "id": 346, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "CMOS/TTL"
         ], 
-        "title": "SRLatchWithNandGates"
+        "title": "NAND Gate SR Latch"
     }, 
     "/Electronics101/HallEffectSwitch/": {
         "summary": "using a Hall effect switch (A3144)", 
@@ -4356,7 +4356,7 @@
         "summary": "Set-Reset latch implemented with NOR gates", 
         "id": 77, 
         "tags": [
-            "Logic Gates", 
+            "Digital Logic", 
             "CMOS/TTL"
         ], 
         "title": "NOR Gate SR Latch"
@@ -4518,7 +4518,7 @@
         "tags": [
             "Oscillators", 
             "BJT", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
         "title": "ClapSwitchKit2"
     }, 
@@ -4747,9 +4747,9 @@
         "tags": [
             "BJT", 
             "RTL", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "ResistorTransistorLogic/AND"
+        "title": "AND Gate with Resistor-Transistor Logic"
     }, 
     "/Electronics101/BreadboardBling/LM386AudioAmp/": {
         "summary": "A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting", 
@@ -4905,9 +4905,9 @@
         "id": 110, 
         "tags": [
             "Diode", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
-        "title": "DiodeLogic/AND"
+        "title": "AND Gate with Diode Logic"
     }, 
     "/playground/MPU6050/AccelGyroTest/": {
         "summary": "first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module", 
@@ -5194,7 +5194,7 @@
         "id": 556, 
         "tags": [
             "555 Timer", 
-            "Logic Gates"
+            "Digital Logic"
         ], 
         "title": "555 SR Latch"
     }, 

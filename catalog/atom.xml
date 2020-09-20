@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-19T04:02:32Z</updated>
+  <updated>2020-09-20T04:38:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/"/>
-    <updated>2020-09-19T03:56:47Z</updated>
+    <updated>2020-09-19T09:46:05Z</updated>
     <title>#564 USB Blinky Toy</title>
     <summary>A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky/assets/USBlinky_build.jpg</g:image_link>
@@ -37,7 +37,7 @@
     <title>#562 1-bit Register</title>
     <summary>Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/1bitRegister/assets/1bitRegister_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -101,7 +101,7 @@
     <summary>Set/Reset latch with a 555 timer</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/SRLatch/assets/SRLatch_build.jpg</g:image_link>
     <category term="555 Timer"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/BeatBot/</id>
@@ -2183,10 +2183,10 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/DFlipFlop/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/DFlipFlop/"/>
     <updated>2017-10-30T13:40:33Z</updated>
-    <title>#353 DFlipFlop</title>
+    <title>#353 D Flip-Flop</title>
     <summary>building a clocked D Flip-flop with 74LS00 NAND gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/DFlipFlop/assets/DFlipFlop_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -2233,10 +2233,10 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/DLatch/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/DLatch/"/>
     <updated>2017-10-10T15:54:26Z</updated>
-    <title>#348 DLatch</title>
+    <title>#348 D Latch</title>
     <summary>building a D Latch with 74LS00 NAND gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/DLatch/assets/DLatch_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -2253,10 +2253,10 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchWithNandGates/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchWithNandGates/"/>
     <updated>2017-10-06T01:44:22Z</updated>
-    <title>#346 SRLatchWithNandGates</title>
+    <title>#346 NAND Gate SR Latch</title>
     <summary>Set-Reset latch implemented with NAND gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchWithNandGates/assets/SRLatchWithNandGates_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -2903,10 +2903,10 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/XorWithNandGates/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/XorWithNandGates/"/>
     <updated>2020-03-14T16:56:38Z</updated>
-    <title>#283 XorWithNandGates</title>
+    <title>#283 XOR With NAND Gates</title>
     <summary>construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/XorWithNandGates/assets/XorWithNandGates_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -3182,7 +3182,7 @@
     <g:image_link>https://leap.tardate.com/Electronics101/ClapSwitchKit2/assets/ClapSwitchKit2_build.jpg</g:image_link>
     <category term="Oscillators"/>
     <category term="BJT"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/BoldportClub/Emergency/</id>
@@ -3570,12 +3570,12 @@
     <id>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/XOR/</id>
     <link href="https://leap.tardate.com/Electronics101/ResistorTransistorLogic/XOR/"/>
     <updated>2016-06-09T16:47:20Z</updated>
-    <title>#221 ResistorTransistorLogic/XOR</title>
+    <title>#221 XOR Gate with Resistor-Transistor Logic</title>
     <summary>test the basic resistor-transistor logic XOR gate/XOR</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/XOR/assets/XOR_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RTL"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/GccToolchain/</id>
@@ -4095,7 +4095,7 @@
     <g:image_link>https://leap.tardate.com/Electronics101/ClapSwitchKit/assets/ClapSwitchKit_build.jpg</g:image_link>
     <category term="Oscillators"/>
     <category term="BJT"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/RGBLedModule/</id>
@@ -4661,43 +4661,43 @@
     <id>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/OR/</id>
     <link href="https://leap.tardate.com/Electronics101/ResistorTransistorLogic/OR/"/>
     <updated>2015-07-06T10:56:17Z</updated>
-    <title>#112 ResistorTransistorLogic/OR</title>
+    <title>#112 OR Gate with Resistor-Transistor Logic</title>
     <summary>test the basic resistor-transistor logic OR gate</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/OR/assets/OR_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RTL"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NOR/</id>
     <link href="https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NOR/"/>
     <updated>2015-07-06T10:56:17Z</updated>
-    <title>#111 ResistorTransistorLogic/NOR</title>
+    <title>#111 NOR Gate with Resistor-Transistor Logic</title>
     <summary>test the basic resistor-transistor logic NOR gate </summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NOR/assets/NOR_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RTL"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/DiodeLogic/AND/</id>
     <link href="https://leap.tardate.com/Electronics101/DiodeLogic/AND/"/>
     <updated>2015-07-06T10:56:17Z</updated>
-    <title>#110 DiodeLogic/AND</title>
+    <title>#110 AND Gate with Diode Logic</title>
     <summary>test the basic diode-logic AND gate</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DiodeLogic/AND/assets/AND_build.jpg</g:image_link>
     <category term="Diode"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/DiodeLogic/OR/</id>
     <link href="https://leap.tardate.com/Electronics101/DiodeLogic/OR/"/>
     <updated>2015-07-06T10:56:17Z</updated>
-    <title>#109 DiodeLogic/OR</title>
+    <title>#109 OR Gate with Diode Logic</title>
     <summary>test the basic diode-logic OR gate</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DiodeLogic/OR/assets/OR_build.jpg</g:image_link>
     <category term="Diode"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/RingCounterController/</id>
@@ -5018,7 +5018,7 @@
     <title>#077 NOR Gate SR Latch</title>
     <summary>Set-Reset latch implemented with NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchWithNorGates/assets/SRLatchWithNorGates_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -5168,10 +5168,10 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchFlipper/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchFlipper/"/>
     <updated>2017-04-30T06:29:37Z</updated>
-    <title>#062 SRLatchFlipper</title>
+    <title>#062 SR Latch Flipper</title>
     <summary>Set/Reset latch with BJTs, controlled and monitored by an Arduino</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatchFlipper/assets/SRLatchFlipper_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="BJT"/>
     <category term="Arduino"/>
   </entry>
@@ -5179,10 +5179,10 @@
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatch/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/SRLatch/"/>
     <updated>2017-04-30T06:29:37Z</updated>
-    <title>#061 SRLatch</title>
+    <title>#061 SR Latch</title>
     <summary>Set/Reset latch with BJTs</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/SRLatch/assets/SRLatch_build.jpg</g:image_link>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
     <category term="BJT"/>
   </entry>
   <entry>
@@ -5546,23 +5546,23 @@
     <id>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/AND/</id>
     <link href="https://leap.tardate.com/Electronics101/ResistorTransistorLogic/AND/"/>
     <updated>2015-07-06T10:56:17Z</updated>
-    <title>#024 ResistorTransistorLogic/AND</title>
+    <title>#024 AND Gate with Resistor-Transistor Logic</title>
     <summary>test the basic resistor-transistor logic AND gate </summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/AND/assets/AND_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RTL"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NAND/</id>
     <link href="https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NAND/"/>
     <updated>2015-07-06T10:56:17Z</updated>
-    <title>#023 ResistorTransistorLogic/NAND</title>
+    <title>#023 NAND Gate with Resistor-Transistor Logic</title>
     <summary>test the basic resistor-transistor logic NAND gate </summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NAND/assets/NAND_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RTL"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/SchmittOscillator/</id>
@@ -5656,12 +5656,12 @@
     <id>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NOT/</id>
     <link href="https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NOT/"/>
     <updated>2020-03-14T16:56:38Z</updated>
-    <title>#013 ResistorTransistorLogic/NOT</title>
+    <title>#013 NOT Gate with Resistor-Transistor Logic</title>
     <summary>test the basic resistor-transistor logic NOT gate (Inverter)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/ResistorTransistorLogic/NOT/assets/NOT_build.jpg</g:image_link>
     <category term="BJT"/>
     <category term="RTL"/>
-    <category term="Logic Gates"/>
+    <category term="Digital Logic"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Capacitorial/</id>

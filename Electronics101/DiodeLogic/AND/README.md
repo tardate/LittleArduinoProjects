@@ -1,7 +1,6 @@
-# #110 DiodeLogic/AND
+# #110 AND Gate with Diode Logic
 
 Test the basic diode-logic AND gate
-
 
 ## Notes
 

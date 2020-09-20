@@ -1,4 +1,4 @@
-# #346 DigitalLogic/SRLatchWithNandGates
+# #346 NAND Gate SR Latch
 
 Set-Reset latch implemented with NAND gates.
 

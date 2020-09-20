@@ -1,11 +1,10 @@
-# #062 SRLatchFlipper
+# #062 SR Latch Flipper
 
 Set/Reset latch with BJTs, controlled and monitored by an Arduino.
 
 Here's a quick video of the circuit in action:
 
 [![SRLatchFlipper demo](https://img.youtube.com/vi/KXwm6WrVOow/0.jpg)](https://www.youtube.com/watch?v=KXwm6WrVOow)
-
 
 ## Notes
 

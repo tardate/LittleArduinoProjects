@@ -1,7 +1,7 @@
 {
-    "id": "#061", 
-    "name": "SRLatch", 
-    "description": "Set/Reset latch with BJTs", 
-    "categories": "Logic Gates, BJT", 
+    "id": "#061",
+    "name": "SR Latch",
+    "description": "Set/Reset latch with BJTs",
+    "categories": "Digital Logic, BJT",
     "relative_path": "Electronics101/DigitalLogic/SRLatch"
 }

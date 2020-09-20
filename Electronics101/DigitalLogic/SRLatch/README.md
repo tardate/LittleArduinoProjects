@@ -1,4 +1,4 @@
-# #061 SRLatch
+# #061 SR Latch
 
 Set/Reset latch with BJTs.
 

@@ -1,7 +1,7 @@
 {
-    "id": "#112", 
-    "name": "ResistorTransistorLogic/OR", 
-    "description": "test the basic resistor-transistor logic OR gate", 
-    "categories": "BJT, RTL, Logic Gates", 
+    "id": "#112",
+    "name": "OR Gate with Resistor-Transistor Logic",
+    "description": "test the basic resistor-transistor logic OR gate",
+    "categories": "BJT, RTL, Digital Logic",
     "relative_path": "Electronics101/ResistorTransistorLogic/OR"
 }

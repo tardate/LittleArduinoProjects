@@ -1,4 +1,4 @@
-# #353 DigitalLogic/DFlipFlop
+# #353 D Flip-Flop
 
 Building a clocked D Flip-flop with 74LS00 NAND gates.
 

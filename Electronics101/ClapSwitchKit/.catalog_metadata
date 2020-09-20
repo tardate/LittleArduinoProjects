@@ -1,7 +1,7 @@
 {
-    "id": "#170", 
-    "name": "ClapSwitchKit", 
-    "description": "build and analyse a simple clap switch circuit available as a kit", 
-    "categories": "Oscillators, BJT, Logic Gates", 
+    "id": "#170",
+    "name": "ClapSwitchKit",
+    "description": "build and analyse a simple clap switch circuit available as a kit",
+    "categories": "Oscillators, BJT, Digital Logic",
     "relative_path": "Electronics101/ClapSwitchKit"
 }
