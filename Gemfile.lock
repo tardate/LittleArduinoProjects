@@ -63,11 +63,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (= 2.1.4)
+  bundler (= 2.0.1)
   jekyll (~> 4.0.0)
   jekyll-readme-index
   kramdown (>= 2.3.0)
   tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   2.0.1
