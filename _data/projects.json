@@ -350,6 +350,14 @@
         ], 
         "title": "BJT CurrentSink"
     }, 
+    "/Electronics101/LM324/SplitterBuffer/": {
+        "summary": "demonstrate load-independance of an LM324 buffer and signal splitter", 
+        "id": 160, 
+        "tags": [
+            "OpAmp"
+        ], 
+        "title": "LM324/SplitterBuffer"
+    }, 
     "/BoldportClub/stringy/": {
         "summary": "building and playing (mainly playing) the Boldport Club Stringy (Project #14)", 
         "id": 323, 
@@ -3750,13 +3758,15 @@
         ], 
         "title": "PIC16F84A Blinky"
     }, 
-    "/Electronics101/LM324/SplitterBuffer/": {
-        "summary": "demonstrate load-independance of an LM324 buffer and signal splitter", 
-        "id": 160, 
+    "/Radio/RandomCodePractice/": {
+        "summary": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.", 
+        "id": 567, 
         "tags": [
-            "OpAmp"
+            "Radio", 
+            "CW", 
+            "Arduino"
         ], 
-        "title": "LM324/SplitterBuffer"
+        "title": "Random Code Practice"
     }, 
     "/playground/CurrentSensorModule/": {
         "summary": "test an ACS712 current sensor module with display on a 5110 LCD", 

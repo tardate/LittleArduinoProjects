@@ -18,6 +18,7 @@ Some projects require additional libraries. For example:
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) - generally used for precision timing
 * [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient) - EthernetShield projects
 * [LedControl](https://github.com/wayoda/LedControl) - LED matrix control
+* [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C
 * [LRAS1130](https://github.com/LuckyResistor/LRAS1130) - AMS AS1130 LED Driver control
 * [MFRC522](https://github.com/miguelbalboa/rfid) - MFRC522 RFID library by miguelbalboa
 * [OneWire](https://github.com/PaulStoffregen/OneWire) - 1-wire compatible components

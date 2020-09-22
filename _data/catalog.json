@@ -1,5 +1,12 @@
 [
     {
+        "description": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.", 
+        "relative_path": "Radio/RandomCodePractice", 
+        "id": "#567", 
+        "categories": "Radio, CW, Arduino", 
+        "name": "Random Code Practice"
+    }, 
+    {
         "description": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear", 
         "relative_path": "Electronics101/DigitalLogic/4bitSynchonousCounter", 
         "id": "#566", 

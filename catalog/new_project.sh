@@ -67,7 +67,7 @@ __notes__
 
 ![Schematic](./assets/${project_name}_schematic.jpg?raw=true)
 
-![Build](./assets/${project_name}_build.jpg?raw=true)
+![Breadboard Build](./assets/${project_name}_bb_build.jpg?raw=true)
 
 ## Credits and References
 

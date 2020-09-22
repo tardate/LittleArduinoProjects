@@ -28,10 +28,9 @@ These are new parts I've created because I wasn't able to find an existing alter
 * [Stepper Driver Board X113647](./X113647)
 * [Voltage Sensor Module](./VoltageSensorModule)
 
-
 ## Locally Cached Parts
 
-If the part source is not in a reliable repository (e.g. GitHub), I may copy the part here with a note on its providence.
+If the part source is not in a reliable repository (e.g. GitHub), I may copy the part here with a note on its provenance.
 
 * [CD4017 (local copy)](./cached/CD4017.fzpz) - [original source](https://code.google.com/p/fritzing/issues/detail?id=875#c526)
 * [HC-SR04 (local copy)](./cached/HC-SR04.fzpz) - [original source](http://fritzing.org/projects/hc-sr04-project)
@@ -50,7 +49,7 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [SFE Fritzing parts](https://github.com/sparkfun/Fritzing_Parts)
 * [una1veritas/EagleDocs](https://github.com/una1veritas/EagleDocs) - Eagle and Fritzing sources
 * [ESP8266 parts](https://github.com/ydonnelly/ESP8266_fritzing)
-
+* [e-radionica.com](https://github.com/e-radionicacom/e-radionica.com-Fritzing-Library-parts-)
 
 ## Creating Fritzing Parts
 
@@ -68,7 +67,6 @@ Hmm, there's not much guidance, but here ar ea few things that seem to apply (in
 * breadboard views expect connector elements named with an ID indexed from 0 i.e. pin 0 should be named `connector0pin`
 * schematic views expect(?) pins and terminals with an ID indexed from 0 i.e. pin 0 should be named `connector0pin` and have a terminal named `connector0terminal`
 * render all non-standard fonts as objects
-
 
 ## Credits and References
 
