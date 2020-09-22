@@ -7,6 +7,8 @@
 //
 // Version 0.2
 //
+// Corrected Morse Code errors , Glen Popiel KW5GP
+//
 // Usage:
 //         Morse <handle>(<outputpin>, <speed>);
 //         <handle>.sendmsg (*str);
@@ -20,22 +22,22 @@
   byte _beep; // 1 == beep to speaker, 0 == toggle pin high and low
   int _dashlen; // Length of dash
   int _dotlen;  // Length of dot
-  byte _morsetab[] = {  // Those with value 1 has no morsecode
-    107, //ASCII 33 !
+const  byte _morsetab[] = { // Those with value 1 has no morsecode - code is decimal - but converted to reverse binary to send
+    117, //ASCII 33 !
     82,  //ASCII 34 "
     1,   //ASCII 35 #
-    137, //ASCII 36 $
+    200, //ASCII 36 $
     1,   //ASCII 37 %
-    40,  //ASCII 38 &
+    34,  //ASCII 38 &
     94,  //ASCII 39 '
-    109, //ASCII 40 (
+    45, //ASCII 40 (
     109, //ASCII 41 )
     1,   //ASCII 42 *
     42,  //ASCII 43 +
     115, //ASCII 44 ,
     97,  //ASCII 45 -
-    85,  //ASCII 46 .
-    50,  //ASCII 47 /
+    106,  //ASCII 46 .
+    41,  //ASCII 47 /
     63,  //ASCII 48 0
     62,  //ASCII 49 1
     60,  //ASCII 50 2
@@ -46,13 +48,13 @@
     35,  //ASCII 55 7
     39,  //ASCII 56 8
     47,  //ASCII 57 9
-    120, //ASCII 58 :
-    53,  //ASCII 59 ;
+    71, //ASCII 58 :
+    85,  //ASCII 59 ;
     1,   //ASCII 60 <
     49,  //ASCII 61 =
     1,   //ASCII 62 >
     76,  //ASCII 63 ?
-    69,  //ASCII 64 @
+    86,  //ASCII 64 @
     6,   //ASCII 65 A
     17,  //ASCII 66 B
     21,  //ASCII 67 C
@@ -80,10 +82,10 @@
     29,  //ASCII 89 Y
     19,  //ASCII 90 Z
     1,   //ASCII 91 [
-    1,   //ASCII 92 \
+    64,   //ASCII 92 backslash
     1,   //ASCII 93 ]
     1,   //ASCII 94 ^
-    77,  //ASCII 95 _
+    108,  //ASCII 95 _
     94,  //ASCII 96 `
     6,   //ASCII 97 a
     17,  //ASCII 98 b
@@ -110,7 +112,11 @@
     14,  //ASCII 119 w
     25,  //ASCII 120 x
     29,  //ASCII 121 y
-    19   //ASCII 122 z
+    19,   //ASCII 122 z
+    1,   //ASCII 123 left brace
+    1,   //ASCII 124 vertical bar
+    1,   //ASCII 125 right brace
+    1,   //ASCII 126 tilde
     };
 
 Morse::Morse(byte pin, byte speed, byte beep)
@@ -162,6 +168,7 @@ void Morse::bdit()
 
 void Morse::send(char c)
 {
+
   byte _i;
   byte _p;
 
@@ -175,6 +182,8 @@ void Morse::send(char c)
   else {
     _i = ((byte) c) - 33;
     _p = _morsetab[_i];
+
+
   }
 
   // Main algoritm for each morse sign
