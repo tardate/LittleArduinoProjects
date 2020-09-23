@@ -38,9 +38,11 @@ A SPDT Centre Off switch is used as a tri-state toggle for the character select:
 
 ![Schematic](./assets/RandomCodePractice_schematic.jpg?raw=true)
 
+First testing the circuit on a breadboard:
+
 ![Breadboard Build](./assets/RandomCodePractice_bb_build.jpg?raw=true)
 
-## Libraries
+## Code & Libraries
 
 * [Arduino Wire library](https://www.arduino.cc/en/reference/wire)
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C
@@ -48,6 +50,15 @@ A SPDT Centre Off switch is used as a tri-state toggle for the character select:
   - I cannot find a link to the original source (Version 0.2), so it is included in the project folder.
   - Includes Glen Popiel KW5GP's fixes for Morse encoding
   - extended by me to allow dynamic speed adjustment
+
+
+## Putting it in a Box
+
+For a final build, I switched the Uno for an Arduino Nano and mounted it all in a suitably sized chocolate box.
+
+![internal_build](./assets/internal_build.jpg?raw=true)
+
+![RandomCodePractice_build](./assets/RandomCodePractice_build.jpg?raw=true)
 
 ## Credits and References
 
