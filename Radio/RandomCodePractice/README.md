@@ -65,3 +65,4 @@ For a final build, I switched the Uno for an Arduino Nano and mounted it all in 
 * [Arduino for Ham Radio](https://www.goodreads.com/book/show/23432504-arduino-for-ham-radio) - goodreads
 * [Arduino for Ham Radio](http://www.arrl.org/arduino) - ARRL support page (book sources available)
 * [Morse code](https://en.wikipedia.org/wiki/Morse_code) - wikipedia
+* [fun with morse code](https://docs.google.com/presentation/d/e/2PACX-1vQ1wCN2WNHQ8JHC16zOAehkV6TV5PAG0DpXSQE45hlHU4hbF2h3YgiZJj5Iy-RTNDrDjJ21saaD4Rp-/pub?start=false&loop=false&delayms=3000&slide=id.p) - presentation on learning CW by Anthony Luscre K8ZT
