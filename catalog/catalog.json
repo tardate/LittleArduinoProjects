@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015", 
+        "relative_path": "Equipment/BeepLogicProbe", 
+        "id": "#568", 
+        "categories": "Digital Logic, CMOS/TTL, Test Equipment", 
+        "name": "Beep Logic Probe"
+    }, 
+    {
         "description": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.", 
         "relative_path": "Radio/RandomCodePractice", 
         "id": "#567", 

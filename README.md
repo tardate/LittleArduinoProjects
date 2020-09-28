@@ -1,6 +1,6 @@
-# 567 Little Electronics and Arduino Projects
+# 568 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Random Code Practice](./Radio/RandomCodePractice) - A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.
+> Latest addition:sparkles: [Beep Logic Probe](./Equipment/BeepLogicProbe) - Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

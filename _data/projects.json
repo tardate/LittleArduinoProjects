@@ -486,6 +486,15 @@
         ], 
         "title": "CuttleTalk"
     }, 
+    "/Electronics101/555Timer/TwoToneDoorbell/": {
+        "summary": "basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation", 
+        "id": 59, 
+        "tags": [
+            "555 Timer", 
+            "Oscillators"
+        ], 
+        "title": "Two-tone Doorbell"
+    }, 
     "/Radio/AM/HX108-2/": {
         "summary": "build and analyse the HX108-2 superheterodyne AM MW radio receiver kit", 
         "id": 462, 
@@ -2276,15 +2285,14 @@
         ], 
         "title": "Tin Counter"
     }, 
-    "/BoldportClub/PissOff/": {
-        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
-        "id": 290, 
+    "/Radio/FM/TwoStageTransmitter/": {
+        "summary": "build and test a simple two-stage FM transmitter", 
+        "id": 467, 
         "tags": [
-            "Boldport", 
-            "PCB Design", 
-            "NXP"
+            "Radio", 
+            "FM"
         ], 
-        "title": "BoldportClub/PissOff"
+        "title": "Two-stage FM Transmitter"
     }, 
     "/Radio/FM/BreadboardTransmitter/": {
         "summary": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3", 
@@ -2951,15 +2959,6 @@
             "Sensors"
         ], 
         "title": "Greater Simple Sound Effects"
-    }, 
-    "/Radio/FM/TwoStageTransmitter/": {
-        "summary": "build and test a simple two-stage FM transmitter", 
-        "id": 467, 
-        "tags": [
-            "Radio", 
-            "FM"
-        ], 
-        "title": "Two-stage FM Transmitter"
     }, 
     "/Electronics101/LEDStrobeKit/": {
         "summary": "build and analyse a common LED strobe kit", 
@@ -4859,14 +4858,15 @@
         ], 
         "title": "ESP8266/DIYDevBoard"
     }, 
-    "/Electronics101/555Timer/TwoToneDoorbell/": {
-        "summary": "basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation", 
-        "id": 59, 
+    "/Equipment/BeepLogicProbe/": {
+        "summary": "Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015", 
+        "id": 568, 
         "tags": [
-            "555 Timer", 
-            "Oscillators"
+            "Digital Logic", 
+            "CMOS/TTL", 
+            "Test Equipment"
         ], 
-        "title": "Two-tone Doorbell"
+        "title": "Beep Logic Probe"
     }, 
     "/BoldportClub/respot/": {
         "summary": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots", 
@@ -5191,6 +5191,16 @@
             "Oscillators"
         ], 
         "title": "CD4070/Oscillator"
+    }, 
+    "/BoldportClub/PissOff/": {
+        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
+        "id": 290, 
+        "tags": [
+            "Boldport", 
+            "PCB Design", 
+            "NXP"
+        ], 
+        "title": "BoldportClub/PissOff"
     }, 
     "/Electronics101/ML741/Inverter/": {
         "summary": "test an inverter circuit using the ML741 discrete component opamp", 
