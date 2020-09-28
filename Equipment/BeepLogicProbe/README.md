@@ -15,14 +15,14 @@ and is a nice little circuit for probing digital circuits. Main features:
 
 * "high" and "low" states generate a beep with high and low frequencies respectively
 * high Z/disconnected state is silent
-* has a separate frequency counter trigger that allows it to generate an audio tone for high frequency signals (I've used it to detected signals all the way up to 24MHz)
-* powered from the circuit under test, and since uses 4000-series CMOS devices has a wide voltage range (3-15V)
+* a separate frequency counter triggers an audio tone for high frequency signals (I've used it to detected signals all the way up to 24MHz)
+* powered from the circuit under test with a wide voltage range (3-15V) since it uses 4000-series CMOS devices
 
-I've made a few modifications to the Elektor circuit:
+I've made a few modifications to the original Elektor circuit:
 
-* the three-stage voltage divider front-end in the original circuit did not work very well for me, as it would not unlatch low signals effectively (the transition voltages of the CD4040 NAND gate I'm using appeared to be on the high end of the specs, and thus defeated the "high Z" state of the circuit.
-  * I replaced this with dual comparators using an LM358, so that the high-Z range is explicitly between 1/3 and 2/3 of VCC
-* although this circuit is primarily audio, I've added LED indicators just for fun
+* the front-end is replaced by dual comparators using an LM358, so that the high-Z range is explicitly set between 1/3 and 2/3 of VCC
+  * the three-stage voltage divider front-end in the original circuit did not work very well for me, as it would not unlatch low signals effectively -the transition voltages of the CD4040 NAND gate I'm using appeared to be on the high end of the specs, and thus defeated the "high Z" state of the circuit
+* although this circuit is primarily audio, I've added LED indicators just for fun:
   * red - low voltage indicator
   * green - high voltage indicator
   * orange - high frequency detection indicator
@@ -61,7 +61,7 @@ I transferred the circuit to a piece of protoboard using the following layout an
 
 ## A Quick Test
 
-In the following demo, I'm probing a simple [555 astable socillator](https://visual555.tardate.com/?mode=astable&r1=1&r2=330&c=2.2),
+In the following demo, I'm probing a simple [555 astable oscillator](https://visual555.tardate.com/?mode=astable&r1=1&r2=330&c=2.2),
 and then monitoring the output of a function generator all the way up to 24MHz
 
 [![clip](https://img.youtube.com/vi/xb3lunPgPRM/0.jpg)](https://www.youtube.com/watch?v=xb3lunPgPRM)
