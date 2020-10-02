@@ -1,7 +1,8 @@
-# #189 LED7Segment/ShiftDriveSPI
+# #189 7-Segment Shift Drive SPI
 
-Using SPI to control a 7-segment display via a 74HC595 shift register.
+Using SPI to control a 7-segment LED display via a 74HC595 shift register.
 
+![The Build](./assets/ShiftDriveSPI_build.jpg?raw=true)
 
 ## Notes
 

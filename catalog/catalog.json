@@ -1782,7 +1782,7 @@
         "relative_path": "playground/EEPROM/AT28C16/PEProgrammer", 
         "id": "#314", 
         "categories": "EEPROM, Arduino", 
-        "name": "EEPROM/AT28C16/PEProgrammer"
+        "name": "AT28C16 EEPROM Programmer"
     }, 
     {
         "description": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface", 
@@ -1823,8 +1823,8 @@
         "description": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic", 
         "relative_path": "playground/LED7Segment/CombinationalLogicDriver", 
         "id": "#308", 
-        "categories": "7-Segment, CMOS/TTL, Arduino", 
-        "name": "LED7Segment/CombinationalLogicDriver"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino", 
+        "name": "7-Segment Combinational Logic"
     }, 
     {
         "description": "use a 20-button keypad to write a scrolling message on the Boldport Matrix", 
@@ -2583,11 +2583,11 @@
         "name": "Solenoid Motor"
     }, 
     {
-        "description": "a CD4026 bucket-brigade for driving multiple 7-segment displays", 
+        "description": "a CD4026 bucket-brigade for driving multiple 7-segment LED displays", 
         "relative_path": "playground/LED7Segment/CD4026BucketBrigade", 
         "id": "#199", 
-        "categories": "7-Segment, CMOS, Arduino", 
-        "name": "LED7Segment/CD4026BucketBrigade"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino", 
+        "name": "7-Segment CD4026 Bucket-brigade"
     }, 
     {
         "description": "using a Hall effect switch (A3144)", 
@@ -2604,11 +2604,11 @@
         "name": "WienBridgeAudioToneGenerator"
     }, 
     {
-        "description": "driving a 7-segment display with CD4026 Counter", 
+        "description": "driving a 7-segment LED display with CD4026 Counter", 
         "relative_path": "playground/LED7Segment/CD4026Drive", 
         "id": "#196", 
-        "categories": "7-Segment, CMOS, Arduino", 
-        "name": "LED7Segment/CD4026Drive"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino", 
+        "name": "7-Segment CD4026 Drive"
     }, 
     {
         "description": "measure the resonant frequency of an LC circuit or inductance of an inductor ", 
@@ -2653,18 +2653,18 @@
         "name": "MultiSlaveSPI"
     }, 
     {
-        "description": "using SPI to control a 7-segment display via a 74HC595 shift register", 
+        "description": "using SPI to control a 7-segment LED display via a 74HC595 shift register", 
         "relative_path": "playground/LED7Segment/ShiftDriveSPI", 
         "id": "#189", 
-        "categories": "7-Segment, CMOS/TTL, Arduino, SPI", 
-        "name": "LED7Segment/ShiftDriveSPI"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino, SPI", 
+        "name": "7-Segment Shift Drive SPI"
     }, 
     {
         "description": "basic read/write operations to external EEPROM (AT24C02) with the Wire library", 
         "relative_path": "playground/EEPROM/AT24C02/BasicReadWrite", 
         "id": "#188", 
         "categories": "EEPROM, Arduino", 
-        "name": "EEPROM/AT24C02/BasicReadWrite"
+        "name": "Basic AT24C02 EEPROM Read/Write"
     }, 
     {
         "description": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF", 
@@ -2730,18 +2730,18 @@
         "name": "LEDx16Module"
     }, 
     {
-        "description": "a custom 7-segment display module PCB with 74HC595 shift register interface", 
+        "description": "a custom 7-segment LED display module PCB with 74HC595 shift register interface", 
         "relative_path": "playground/LED7Segment/ShiftDriveModule", 
         "id": "#178", 
         "categories": "7-Segment, CMOS/TTL, Arduino, PCB", 
-        "name": "LED7Segment/ShiftDriveModule"
+        "name": "7-Segment Shift Drive Module"
     }, 
     {
-        "description": "test control of a 7-segment display via a 74HC595 shift register", 
+        "description": "test control of a 7-segment LED display via a 74HC595 shift register", 
         "relative_path": "playground/LED7Segment/ShiftDrive", 
         "id": "#177", 
-        "categories": "7-Segment, CMOS/TTL, Arduino", 
-        "name": "LED7Segment/ShiftDrive"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino", 
+        "name": "7-Segment Shift Drive"
     }, 
     {
         "description": "a simple PCB breadboard adapter for 8-pin nRF24 modules", 
@@ -3409,18 +3409,18 @@
         "name": "MobileRFDetectorKit"
     }, 
     {
-        "description": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
+        "description": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
         "relative_path": "playground/Led4Digit7Segment/DoubleShiftWithFETs", 
         "id": "#081", 
-        "categories": "7-Segment, CMOS/TTL, Arduino", 
-        "name": "Led4Digit7Segment/DoubleShiftWithFETs"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino", 
+        "name": "4x7-Segment Double Shift With FETs"
     }, 
     {
-        "description": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
+        "description": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
         "relative_path": "playground/Led4Digit7Segment/DoubleShift", 
         "id": "#080", 
-        "categories": "7-Segment, CMOS/TTL, Arduino", 
-        "name": "Led4Digit7Segment/DoubleShift"
+        "categories": "LED, 7-Segment, CMOS/TTL, Arduino", 
+        "name": "4x7-Segment Double Shift"
     }, 
     {
         "description": "measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit", 
@@ -3430,11 +3430,11 @@
         "name": "LedTemperatureDisplay"
     }, 
     {
-        "description": "driving a 4-digit 7-segment display with a shift register and a few BJTs", 
+        "description": "driving a 4-digit 7-segment LED display with a shift register and a few BJTs", 
         "relative_path": "playground/Led4Digit7Segment/SingleShift", 
         "id": "#078", 
-        "categories": "7-Segment, CMOS/TTL, Arduino", 
-        "name": "Led4Digit7Segment/SingleShift"
+        "categories": "LED 7-Segment, CMOS/TTL, Arduino", 
+        "name": "4x7-Segment Single Shift"
     }, 
     {
         "description": "Set-Reset latch implemented with NOR gates", 
@@ -3574,7 +3574,7 @@
         "relative_path": "playground/Led4Digit7Segment", 
         "id": "#058", 
         "categories": "7-Segment, Arduino", 
-        "name": "Led4Digit7Segment"
+        "name": "4 Digit 7-Segment LED Displays"
     }, 
     {
         "description": "capacitor tester with LCD output", 
@@ -3969,10 +3969,10 @@
         "name": "Variable LED brightness with PWM"
     }, 
     {
-        "description": "test a 7-segment common cathode display", 
+        "description": "test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0", 
         "relative_path": "playground/LED7Segment/DirectDrive", 
         "id": "#001", 
-        "categories": "7-Segment, Arduino", 
-        "name": "LED7Segment/DirectDrive"
+        "categories": "LED, 7-Segment, Arduino", 
+        "name": "7-Segment Direct Drive"
     }
 ]

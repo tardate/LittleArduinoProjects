@@ -1,7 +1,7 @@
 {
-    "id": "#078", 
-    "name": "Led4Digit7Segment/SingleShift", 
-    "description": "driving a 4-digit 7-segment display with a shift register and a few BJTs", 
-    "categories": "7-Segment, CMOS/TTL, Arduino", 
+    "id": "#078",
+    "name": "4x7-Segment Single Shift",
+    "description": "driving a 4-digit 7-segment LED display with a shift register and a few BJTs",
+    "categories": "LED 7-Segment, CMOS/TTL, Arduino",
     "relative_path": "playground/Led4Digit7Segment/SingleShift"
 }

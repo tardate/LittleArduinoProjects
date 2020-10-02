@@ -1,7 +1,8 @@
-# #081 DoubleShiftWithFETs
+# #081 4x7-Segment Double Shift With FETs
 
-Driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs
+Driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs
 
+![The Build](./assets/DoubleShiftWithFETs_build.jpg?raw=true)
 
 ## Notes
 

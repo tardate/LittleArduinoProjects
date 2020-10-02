@@ -1,9 +1,8 @@
-# #188 EEPROM/AT24C02/BasicReadWrite
+# #188 Basic AT24C02 EEPROM Read/Write
 
 Basic read/write operations to external EEPROM (AT24C02) with the Wire library
 
 ![The Build](./assets/BasicReadWrite_build.jpg?raw=true)
-
 
 ## Notes
 

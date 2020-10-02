@@ -1,7 +1,8 @@
-# #078 SingleShift
+# #078 4x7-Segment Single Shift
 
-Driving a 4-digit 7-segment display with a shift register and a few BJTs
+Driving a 4-digit 7-segment LED display with a shift register and a few BJTs
 
+![The Build](./assets/SingleShift_build.jpg?raw=true)
 
 ## Notes
 

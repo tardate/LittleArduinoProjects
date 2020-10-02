@@ -1,11 +1,12 @@
-# #001 LED7Segment/DirectDrive
+# #001 7-Segment Direct Drive
 
-Test direct control of a 7-segment display, performing a countdown from 9 to 0.
+Test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0.
+
+![The Build](./assets/DirectDrive_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
 [![LED7Segment/DirectDrive](https://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](https://www.youtube.com/watch?v=R90zCCvA7_M)
-
 
 ## Notes
 

@@ -1,6 +1,6 @@
-# #177 LED7Segment/ShiftDrive
+# #177 7-Segment Shift Drive
 
-Test control of a 7-segment display via a 74HC595 shift register.
+Test control of a 7-segment LED display via a 74HC595 shift register.
 
 Here's a quick video of the circuit in action:
 

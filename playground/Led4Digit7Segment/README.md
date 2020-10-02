@@ -1,4 +1,4 @@
-# #058 Led4Digit7Segment
+# #058 4 Digit 7-Segment LED Displays
 
 Driving a 4-digit 7-segment display, various ways...
 

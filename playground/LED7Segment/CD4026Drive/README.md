@@ -1,7 +1,8 @@
-# #196 LED7Segment/CD4026Drive
+# #196 7-Segment CD4026 Drive
 
-Driving a 7-segment display with CD4026 Counter
+Driving a 7-segment LED display with CD4026 Counter
 
+![The Build](./assets/CD4026Drive_build.jpg?raw=true)
 
 ## Notes
 

@@ -1,11 +1,10 @@
-# #199 LED7Segment/CD4026BucketBrigade
+# #199 7-Segment CD4026 Bucket-brigade
 
-A CD4026 bucket-brigade for driving multiple 7-segment displays
+A CD4026 bucket-brigade for driving multiple 7-segment LED displays
 
 Here's a quick video of the circuit in action:
 
-[![LED7Segment/CD4026BucketBrigade](https://img.youtube.com/vi/-gfQWZTg-N8/0.jpg)](https://www.youtube.com/watch?v=-gfQWZTg-N8)
-
+[![clip](https://img.youtube.com/vi/-gfQWZTg-N8/0.jpg)](https://www.youtube.com/watch?v=-gfQWZTg-N8)
 
 ## Notes
 

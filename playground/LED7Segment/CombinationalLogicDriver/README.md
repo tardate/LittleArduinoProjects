@@ -1,6 +1,8 @@
-# #308 LED7Segment/CombinationalLogicDriver
+# #308 7-Segment Combinational Logic
 
 Dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic.
+
+![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)
 
 Here's a quick video of it in action:
 
@@ -265,7 +267,6 @@ Power Consumption when tested on the breadboard with VCC=5V
 * maximum current for any of the input lines (w,x,y,z) is less than 2mA
 
 So therefore, quite safe to power and drive with an Arduino Uno. Just checking!
-
 
 ![Breadboard](./assets/CombinationalLogicDriver_bb.jpg?raw=true)
 

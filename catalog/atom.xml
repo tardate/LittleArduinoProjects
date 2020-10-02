@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-09-28T16:42:00Z</updated>
+  <updated>2020-10-02T13:02:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/BeepLogicProbe/</id>
     <link href="https://leap.tardate.com/Equipment/BeepLogicProbe/"/>
-    <updated>2020-09-28T16:32:26Z</updated>
+    <updated>2020-09-28T16:49:44Z</updated>
     <title>#568 Beep Logic Probe</title>
     <summary>Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015</summary>
     <g:image_link>https://leap.tardate.com/Equipment/BeepLogicProbe/assets/BeepLogicProbe_build.jpg</g:image_link>
@@ -2622,7 +2622,7 @@
     <id>https://leap.tardate.com/playground/EEPROM/AT28C16/PEProgrammer/</id>
     <link href="https://leap.tardate.com/playground/EEPROM/AT28C16/PEProgrammer/"/>
     <updated>2017-05-11T12:01:51Z</updated>
-    <title>#314 EEPROM/AT28C16/PEProgrammer</title>
+    <title>#314 AT28C16 EEPROM Programmer</title>
     <summary>programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander</summary>
     <g:image_link>https://leap.tardate.com/playground/EEPROM/AT28C16/PEProgrammer/assets/PEProgrammer_build.jpg</g:image_link>
     <category term="EEPROM"/>
@@ -2686,9 +2686,10 @@
     <id>https://leap.tardate.com/playground/LED7Segment/CombinationalLogicDriver/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/CombinationalLogicDriver/"/>
     <updated>2017-04-23T18:59:24Z</updated>
-    <title>#308 LED7Segment/CombinationalLogicDriver</title>
+    <title>#308 7-Segment Combinational Logic</title>
     <summary>- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/CombinationalLogicDriver/assets/CombinationalLogicDriver_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
@@ -3838,11 +3839,12 @@
     <id>https://leap.tardate.com/playground/LED7Segment/CD4026BucketBrigade/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/CD4026BucketBrigade/"/>
     <updated>2016-03-21T15:45:43Z</updated>
-    <title>#199 LED7Segment/CD4026BucketBrigade</title>
-    <summary>a CD4026 bucket-brigade for driving multiple 7-segment displays</summary>
+    <title>#199 7-Segment CD4026 Bucket-brigade</title>
+    <summary>a CD4026 bucket-brigade for driving multiple 7-segment LED displays</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/CD4026BucketBrigade/assets/CD4026BucketBrigade_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -3868,11 +3870,12 @@
     <id>https://leap.tardate.com/playground/LED7Segment/CD4026Drive/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/CD4026Drive/"/>
     <updated>2016-03-14T12:09:16Z</updated>
-    <title>#196 LED7Segment/CD4026Drive</title>
-    <summary>driving a 7-segment display with CD4026 Counter</summary>
+    <title>#196 7-Segment CD4026 Drive</title>
+    <summary>driving a 7-segment LED display with CD4026 Counter</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/CD4026Drive/assets/CD4026Drive_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -3940,9 +3943,10 @@
     <id>https://leap.tardate.com/playground/LED7Segment/ShiftDriveSPI/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/ShiftDriveSPI/"/>
     <updated>2016-02-22T01:16:33Z</updated>
-    <title>#189 LED7Segment/ShiftDriveSPI</title>
-    <summary>using SPI to control a 7-segment display via a 74HC595 shift register</summary>
+    <title>#189 7-Segment Shift Drive SPI</title>
+    <summary>using SPI to control a 7-segment LED display via a 74HC595 shift register</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/ShiftDriveSPI/assets/ShiftDriveSPI_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
@@ -3952,7 +3956,7 @@
     <id>https://leap.tardate.com/playground/EEPROM/AT24C02/BasicReadWrite/</id>
     <link href="https://leap.tardate.com/playground/EEPROM/AT24C02/BasicReadWrite/"/>
     <updated>2016-02-22T01:16:33Z</updated>
-    <title>#188 EEPROM/AT24C02/BasicReadWrite</title>
+    <title>#188 Basic AT24C02 EEPROM Read/Write</title>
     <summary>basic read/write operations to external EEPROM (AT24C02) with the Wire library</summary>
     <g:image_link>https://leap.tardate.com/playground/EEPROM/AT24C02/BasicReadWrite/assets/BasicReadWrite_build.jpg</g:image_link>
     <category term="EEPROM"/>
@@ -4050,8 +4054,8 @@
     <id>https://leap.tardate.com/playground/LED7Segment/ShiftDriveModule/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/ShiftDriveModule/"/>
     <updated>2016-02-22T01:16:33Z</updated>
-    <title>#178 LED7Segment/ShiftDriveModule</title>
-    <summary>a custom 7-segment display module PCB with 74HC595 shift register interface</summary>
+    <title>#178 7-Segment Shift Drive Module</title>
+    <summary>a custom 7-segment LED display module PCB with 74HC595 shift register interface</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/ShiftDriveModule/assets/ShiftDriveModule_build.jpg</g:image_link>
     <category term="7-Segment"/>
     <category term="CMOS/TTL"/>
@@ -4062,9 +4066,10 @@
     <id>https://leap.tardate.com/playground/LED7Segment/ShiftDrive/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/ShiftDrive/"/>
     <updated>2016-01-26T14:06:56Z</updated>
-    <title>#177 LED7Segment/ShiftDrive</title>
-    <summary>test control of a 7-segment display via a 74HC595 shift register</summary>
+    <title>#177 7-Segment Shift Drive</title>
+    <summary>test control of a 7-segment LED display via a 74HC595 shift register</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/ShiftDrive/assets/ShiftDrive_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
@@ -5015,9 +5020,10 @@
     <id>https://leap.tardate.com/playground/Led4Digit7Segment/DoubleShiftWithFETs/</id>
     <link href="https://leap.tardate.com/playground/Led4Digit7Segment/DoubleShiftWithFETs/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#081 Led4Digit7Segment/DoubleShiftWithFETs</title>
-    <summary>driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs</summary>
+    <title>#081 4x7-Segment Double Shift With FETs</title>
+    <summary>driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs</summary>
     <g:image_link>https://leap.tardate.com/playground/Led4Digit7Segment/DoubleShiftWithFETs/assets/DoubleShiftWithFETs_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
@@ -5026,9 +5032,10 @@
     <id>https://leap.tardate.com/playground/Led4Digit7Segment/DoubleShift/</id>
     <link href="https://leap.tardate.com/playground/Led4Digit7Segment/DoubleShift/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#080 Led4Digit7Segment/DoubleShift</title>
-    <summary>driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs</summary>
+    <title>#080 4x7-Segment Double Shift</title>
+    <summary>driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs</summary>
     <g:image_link>https://leap.tardate.com/playground/Led4Digit7Segment/DoubleShift/assets/DoubleShift_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
@@ -5049,10 +5056,10 @@
     <id>https://leap.tardate.com/playground/Led4Digit7Segment/SingleShift/</id>
     <link href="https://leap.tardate.com/playground/Led4Digit7Segment/SingleShift/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#078 Led4Digit7Segment/SingleShift</title>
-    <summary>driving a 4-digit 7-segment display with a shift register and a few BJTs</summary>
+    <title>#078 4x7-Segment Single Shift</title>
+    <summary>driving a 4-digit 7-segment LED display with a shift register and a few BJTs</summary>
     <g:image_link>https://leap.tardate.com/playground/Led4Digit7Segment/SingleShift/assets/SingleShift_build.jpg</g:image_link>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -5254,7 +5261,7 @@
     <id>https://leap.tardate.com/playground/Led4Digit7Segment/</id>
     <link href="https://leap.tardate.com/playground/Led4Digit7Segment/"/>
     <updated>2016-10-03T13:11:01Z</updated>
-    <title>#058 Led4Digit7Segment</title>
+    <title>#058 4 Digit 7-Segment LED Displays</title>
     <summary>overview of driving a 4-digit 7-segment display</summary>
     <g:image_link>https://leap.tardate.com/playground/Led4Digit7Segment/assets/Led4Digit7Segment_build.jpg</g:image_link>
     <category term="7-Segment"/>
@@ -5822,9 +5829,10 @@
     <id>https://leap.tardate.com/playground/LED7Segment/DirectDrive/</id>
     <link href="https://leap.tardate.com/playground/LED7Segment/DirectDrive/"/>
     <updated>2016-01-26T14:06:56Z</updated>
-    <title>#001 LED7Segment/DirectDrive</title>
-    <summary>test a 7-segment common cathode display</summary>
+    <title>#001 7-Segment Direct Drive</title>
+    <summary>test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0</summary>
     <g:image_link>https://leap.tardate.com/playground/LED7Segment/DirectDrive/assets/DirectDrive_build.jpg</g:image_link>
+    <category term="LED"/>
     <category term="7-Segment"/>
     <category term="Arduino"/>
   </entry>

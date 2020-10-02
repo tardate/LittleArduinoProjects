@@ -1,6 +1,6 @@
-# #178 LED7Segment/ShiftDriveModule
+# #178 7-Segment Shift Drive Module
 
-A custom 7-segment display module PCB with 74HC595 shift register interface.
+A custom 7-segment LED display module PCB with 74HC595 shift register interface.
 
 Here's a quick video of the module in action:
 

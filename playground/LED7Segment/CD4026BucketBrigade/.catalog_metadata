@@ -1,7 +1,7 @@
 {
-    "id": "#199", 
-    "name": "LED7Segment/CD4026BucketBrigade", 
-    "description": "a CD4026 bucket-brigade for driving multiple 7-segment displays", 
-    "categories": "7-Segment, CMOS, Arduino", 
+    "id": "#199",
+    "name": "7-Segment CD4026 Bucket-brigade",
+    "description": "a CD4026 bucket-brigade for driving multiple 7-segment LED displays",
+    "categories": "LED, 7-Segment, CMOS/TTL, Arduino",
     "relative_path": "playground/LED7Segment/CD4026BucketBrigade"
 }

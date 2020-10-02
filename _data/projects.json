@@ -49,11 +49,12 @@
         "summary": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic", 
         "id": 308, 
         "tags": [
+            "LED", 
             "7-Segment", 
             "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "LED7Segment/CombinationalLogicDriver"
+        "title": "7-Segment Combinational Logic"
     }, 
     "/Electronics101/MusicBoxKit/": {
         "summary": "build and test a Music Box kit, and run a demonstration under Arduino control", 
@@ -1136,14 +1137,15 @@
         "title": "TFT/Color128x128"
     }, 
     "/playground/LED7Segment/ShiftDrive/": {
-        "summary": "test control of a 7-segment display via a 74HC595 shift register", 
+        "summary": "test control of a 7-segment LED display via a 74HC595 shift register", 
         "id": 177, 
         "tags": [
+            "LED", 
             "7-Segment", 
             "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "LED7Segment/ShiftDrive"
+        "title": "7-Segment Shift Drive"
     }, 
     "/playground/OLED/SSD1306BareBack/": {
         "summary": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set over SPI", 
@@ -1363,7 +1365,7 @@
             "EEPROM", 
             "Arduino"
         ], 
-        "title": "EEPROM/AT24C02/BasicReadWrite"
+        "title": "Basic AT24C02 EEPROM Read/Write"
     }, 
     "/Equipment/BlackMagicProbe/": {
         "summary": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX", 
@@ -1551,14 +1553,15 @@
         "title": "Voltmeter/Ammeter Module"
     }, 
     "/playground/Led4Digit7Segment/DoubleShiftWithFETs/": {
-        "summary": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
+        "summary": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs", 
         "id": 81, 
         "tags": [
+            "LED", 
             "7-Segment", 
             "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "Led4Digit7Segment/DoubleShiftWithFETs"
+        "title": "4x7-Segment Double Shift With FETs"
     }, 
     "/playground/R2RDAC/": {
         "summary": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface", 
@@ -2156,14 +2159,15 @@
         "title": "PPTC Performance"
     }, 
     "/playground/Led4Digit7Segment/DoubleShift/": {
-        "summary": "driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
+        "summary": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs", 
         "id": 80, 
         "tags": [
+            "LED", 
             "7-Segment", 
             "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "Led4Digit7Segment/DoubleShift"
+        "title": "4x7-Segment Double Shift"
     }, 
     "/Electronics101/555Timer/ContinuityTester/": {
         "summary": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.", 
@@ -2837,15 +2841,16 @@
         "title": "Pollen8"
     }, 
     "/playground/LED7Segment/ShiftDriveSPI/": {
-        "summary": "using SPI to control a 7-segment display via a 74HC595 shift register", 
+        "summary": "using SPI to control a 7-segment LED display via a 74HC595 shift register", 
         "id": 189, 
         "tags": [
+            "LED", 
             "7-Segment", 
             "CMOS/TTL", 
             "Arduino", 
             "SPI"
         ], 
-        "title": "LED7Segment/ShiftDriveSPI"
+        "title": "7-Segment Shift Drive SPI"
     }, 
     "/Electronics101/ML741/": {
         "summary": "an LM741-style OpAmp built with discrete components", 
@@ -2885,14 +2890,14 @@
         "title": "HeartQuotes"
     }, 
     "/playground/Led4Digit7Segment/SingleShift/": {
-        "summary": "driving a 4-digit 7-segment display with a shift register and a few BJTs", 
+        "summary": "driving a 4-digit 7-segment LED display with a shift register and a few BJTs", 
         "id": 78, 
         "tags": [
-            "7-Segment", 
+            "LED 7-Segment", 
             "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "Led4Digit7Segment/SingleShift"
+        "title": "4x7-Segment Single Shift"
     }, 
     "/Electronics101/FrequencyCounter/": {
         "summary": "test a CMOS frequency counter circuit with 100Hz - 5MHz range", 
@@ -3346,14 +3351,15 @@
         "title": "Lcd5110/BareBack"
     }, 
     "/playground/LED7Segment/CD4026Drive/": {
-        "summary": "driving a 7-segment display with CD4026 Counter", 
+        "summary": "driving a 7-segment LED display with CD4026 Counter", 
         "id": 196, 
         "tags": [
+            "LED", 
             "7-Segment", 
-            "CMOS", 
+            "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "LED7Segment/CD4026Drive"
+        "title": "7-Segment CD4026 Drive"
     }, 
     "/Electronics101/CMOSInverterOscillator/": {
         "summary": "use a CD4096 to generate an oscillating waveform and plot the results", 
@@ -3739,14 +3745,15 @@
         "title": "RFSwitch"
     }, 
     "/playground/LED7Segment/CD4026BucketBrigade/": {
-        "summary": "a CD4026 bucket-brigade for driving multiple 7-segment displays", 
+        "summary": "a CD4026 bucket-brigade for driving multiple 7-segment LED displays", 
         "id": 199, 
         "tags": [
+            "LED", 
             "7-Segment", 
-            "CMOS", 
+            "CMOS/TTL", 
             "Arduino"
         ], 
-        "title": "LED7Segment/CD4026BucketBrigade"
+        "title": "7-Segment CD4026 Bucket-brigade"
     }, 
     "/PIC/PIC16F84ABlinky/": {
         "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)", 
@@ -3917,7 +3924,7 @@
             "EEPROM", 
             "Arduino"
         ], 
-        "title": "EEPROM/AT28C16/PEProgrammer"
+        "title": "AT28C16 EEPROM Programmer"
     }, 
     "/playground/TestIR/": {
         "summary": "test raw IR reception with a TSOP1838-type IR sensor and an Arduino", 
@@ -4314,7 +4321,7 @@
             "7-Segment", 
             "Arduino"
         ], 
-        "title": "Led4Digit7Segment"
+        "title": "4 Digit 7-Segment LED Displays"
     }, 
     "/Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure/": {
         "summary": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference", 
@@ -4525,13 +4532,14 @@
         "title": "Power OK Indicator"
     }, 
     "/playground/LED7Segment/DirectDrive/": {
-        "summary": "test a 7-segment common cathode display", 
+        "summary": "test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0", 
         "id": 1, 
         "tags": [
+            "LED", 
             "7-Segment", 
             "Arduino"
         ], 
-        "title": "LED7Segment/DirectDrive"
+        "title": "7-Segment Direct Drive"
     }, 
     "/playground/StereoLightTrigger/": {
         "summary": "demo an interrupt-driven method for responding to LDR light threshold triggers", 
@@ -5134,7 +5142,7 @@
         "title": "pedalShieldUno"
     }, 
     "/playground/LED7Segment/ShiftDriveModule/": {
-        "summary": "a custom 7-segment display module PCB with 74HC595 shift register interface", 
+        "summary": "a custom 7-segment LED display module PCB with 74HC595 shift register interface", 
         "id": 178, 
         "tags": [
             "7-Segment", 
@@ -5142,7 +5150,7 @@
             "Arduino", 
             "PCB"
         ], 
-        "title": "LED7Segment/ShiftDriveModule"
+        "title": "7-Segment Shift Drive Module"
     }, 
     "/playground/AS3935/": {
         "summary": "using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library", 
