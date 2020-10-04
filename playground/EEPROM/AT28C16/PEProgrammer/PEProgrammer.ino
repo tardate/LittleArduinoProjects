@@ -15,7 +15,7 @@ EepromController controller;
  * Command: setup SPI, ports and interrupts.
  */
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   controller.begin();
   printBanner();
 }
@@ -89,7 +89,7 @@ void readRange(uint16_t start_address, uint16_t end_address) {
   for(uint16_t address=start_address; address <= end_address; ++address) {
     uint8_t data = controller.read(address);
     char buffer[80];
-    sprintf(buffer, "%03x %04u:  %02x %03u", address, address, data, data);
+    sprintf(buffer, "0x%03x %04u:  %02x %03u", address, address, data, data);
     Serial.println(buffer);
   }
 }

@@ -67,7 +67,7 @@ Internally, the device performs a self-clear before write. Once a byte write has
 
 #### Device Identification
 
-The chip provides 32 bytes of device identification memory between addresses 0x7E0 to 0x7FF.
+The chip provides 32 bytes of device identification memory between addresses 0x7E0 to 0x7FF (2016 to 2047).
 
 I haven't tried reading or writing the device info yet, but this is how I believe it works:
 
@@ -75,7 +75,6 @@ To read or write these addresses, A9 needs to be raised to 12 ± 0.5V. Note that
 All other pins have maximum ratings of -0.6V to +6.25V with respect to ground.
 
 If A9 is raised to normal voltages (to +6.25V), then the normal memory between 0x7E0 to 0x7FF is accessed for read and write.
-
 
 ### PEProgrammer Sketch
 
@@ -88,7 +87,6 @@ The [PEProgrammer.ino](./PEProgrammer.ino) sketch is controlled via the serial p
 Here's an example session reading and writing selected data:
 
 ![console_read_write_fill_example](./assets/console_read_write_fill_example.png?raw=true)
-
 
 ## Construction
 
