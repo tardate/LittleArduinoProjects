@@ -8,7 +8,7 @@ Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host 
 
 I've been meaning to dive a bit deeper into
 [Intel MCS-51/8051](https://en.wikipedia.org/wiki/Intel_MCS-51) devices and programming
-ever since I built the LEAP#088 ElectronicClockKit.
+ever since I built the [LEAP#088 ElectronicClockKit](../../../Electronics101/ElectronicClockKit).
 While it's long been EOL at Intel, [this article By Jon Wilder](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/)
 is a valiant argument for why they are still around.
 
@@ -56,9 +56,9 @@ Boiling down my wishlist/plan:
 We need to switch between 12V, 5V and 0V on the VPP/RST pin for the range of programming modes.
 From the datasheet
 
-* for HIGH with 5V supply: actually require 0.7 * VCC  i.e. 3.5V minimum
+* VPP Programming Enable Voltage: 12V ± 0.5V (programming current is only 250µA)
+* for HIGH with 5V supply: actually require 0.7 * VCC i.e. 3.5V minimum
 * for LOW: actually require 0.2 * VCC - 0.1V i.e 0.9V maximum
-
 
 My goal was to achieve this with as few Arduino pins as possible, and without requiring an external 12V power supply.
 I can't find the specs, but I'm pretty sure we need negligible current/power at any of these levels, which simplifies things.
@@ -169,6 +169,7 @@ Now it's easy to program an AT89C2051..
 
 * [LEAP#395 AT89C2051 Blinky](../Blinky)
 * [LEAP#393 DicksonChargePump](../../../playground/DicksonChargePump)
+* [LEAP#088 ElectronicClockKit](../../../Electronics101/ElectronicClockKit)
 * [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
 * [Intel’s MCS-51 Microcontroller Family – It’s Here to Stay](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/) by Jon Wilder
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
