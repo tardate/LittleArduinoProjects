@@ -69,7 +69,7 @@ The ones I have are rated for at least 25V.
 ## Credits and References
 
 * [Dickson Charge Pump](https://en.wikipedia.org/wiki/Voltage_multiplier#Dickson_charge_pump) - wikipedia
-* [1N4742 datahseet](https://www.futurlec.com/Diodes/1N4742.shtml)
+* [1N4742 datasheet](https://www.futurlec.com/Diodes/1N4742.shtml)
 * [12 Volt Arduino-based Charge Pump](https://sites.google.com/site/wayneholder/12-volt-charge-pump) - similar project used as inspiration
 * [An Arduino-based programmer for the AT89C2051 chip](http://ceptimus.co.uk/?p=216) - another project example of a charge pump used for VPP generation
 * [..as mentioned on my blog](https://blog.tardate.com/2018/06/leap393-dickson-charge-pump.html)

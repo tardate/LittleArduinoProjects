@@ -146,7 +146,7 @@ The board includes pinouts for 4 GPIO ports (PE0-3). However it appears these ar
 * [Pre-release Software and Documentation](https://drive.google.com/open?id=0B7U0ulRLHf8cRVBkeFc2SHpUOGs)
 * [Labrador on GitHub](https://github.com/espotek/Labrador)
 * [ATXMEGA32A4U-AU product info and datasheet](http://www.microchip.com/wwwproducts/en/ATxmega32A4U)
-* [DMN63D8LDW datahseet](https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf) - dual n-channel MOSFET
+* [DMN63D8LDW datasheet](https://www.diodes.com/assets/Datasheets/DMN63D8LDW.pdf) - dual n-channel MOSFET
 * [Qt Creator](https://www.qt.io/ide/)
 * [KiCad](http://kicad-pcb.org/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/07/leap324-espotek-labrador.html)

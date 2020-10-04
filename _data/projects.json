@@ -1657,14 +1657,13 @@
         ], 
         "title": "LCD I2C Adapter"
     }, 
-    "/Electronics101/555Timer/SlowGlow/": {
-        "summary": "A simple slowly-glowing LED effect using a 555 timer", 
-        "id": 559, 
+    "/ARM/STM32F103C8T6/BluePill/UsingSTLink/": {
+        "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
+        "id": 547, 
         "tags": [
-            "555 Timer", 
-            "LED"
+            "STM32"
         ], 
-        "title": "Slow Glow"
+        "title": "Using STLink with the Arduino IDE"
     }, 
     "/Electronics101/Detectors/AcLineDetector/": {
         "summary": "Playing around with a simple AC line current detector", 
@@ -3785,13 +3784,14 @@
         ], 
         "title": "CurrentSensorModule"
     }, 
-    "/ARM/STM32F103C8T6/BluePill/UsingSTLink/": {
-        "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE", 
-        "id": 547, 
+    "/Electronics101/555Timer/SlowGlow/": {
+        "summary": "A simple slowly-glowing LED effect using a 555 timer", 
+        "id": 559, 
         "tags": [
-            "STM32"
+            "555 Timer", 
+            "LED"
         ], 
-        "title": "Using STLink with the Arduino IDE"
+        "title": "Slow Glow"
     }, 
     "/Kinetics/HomopolarJouleThiefBlinky/": {
         "summary": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms", 
@@ -4039,6 +4039,15 @@
             "Test Equipment"
         ], 
         "title": "MilliVoltmeterDIY"
+    }, 
+    "/playground/Power/MultiVoltageGPIO/": {
+        "summary": "A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin", 
+        "id": 569, 
+        "tags": [
+            "Arduino", 
+            "Power"
+        ], 
+        "title": "Multi-voltage GPIO"
     }, 
     "/ARM/STM32F103C8T6/BareMetal/": {
         "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset", 

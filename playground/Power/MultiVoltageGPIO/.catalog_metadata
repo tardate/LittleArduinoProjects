@@ -1,0 +1,7 @@
+{
+    "id": "#569",
+    "name": "Multi-voltage GPIO",
+    "description": "A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin",
+    "categories": "Arduino, Power",
+    "relative_path": "playground/Power/MultiVoltageGPIO"
+}

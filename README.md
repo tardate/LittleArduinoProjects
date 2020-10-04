@@ -1,6 +1,6 @@
-# 568 Little Electronics and Arduino Projects
+# 569 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Beep Logic Probe](./Equipment/BeepLogicProbe) - Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015.
+> Latest addition:sparkles: [Multi-voltage GPIO](./playground/Power/MultiVoltageGPIO) - A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

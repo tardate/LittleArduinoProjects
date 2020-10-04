@@ -39,5 +39,5 @@ But they're convenient!
 
 ## Credits and References
 
-* [LD1117 datahseet](http://pdf1.alldatasheet.com/datasheet-pdf/view/173710/UTC/LD1117AL-15-TA3-A-R.html)
+* [LD1117 datasheet](http://pdf1.alldatasheet.com/datasheet-pdf/view/173710/UTC/LD1117AL-15-TA3-A-R.html)
 * [Linear Regulator](https://en.wikipedia.org/wiki/Linear_regulator) - wikipedia

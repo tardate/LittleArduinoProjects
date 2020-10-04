@@ -2,6 +2,8 @@
 
 Control the TEA5767 low-power FM stereo radio chip with an Arduino.
 
+![Build](./assets/TEA5767_build.jpg?raw=true)
+
 Here's a quick video demonstration:
 
 [![Build](./assets/TEA5767_build.jpg?raw=true)](https://www.youtube.com/watch?v=j-BBNMV8Iso)
@@ -71,7 +73,7 @@ I mounted the module on protoboard with an [audio connector](../../AudioConnecto
 
 ## Credits and References
 
-* [TEA5767 datahseet](https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf)
+* [TEA5767 datasheet](https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf)
 * [FM radio receiver for your Arduino (TEA5767/TEA5768/TEA5757)](https://macduino.blogspot.sg/2014/12/FM-Radio-TEA5767.html)
 * [TEA5767 FM Radio Breakout Board for Arduino](https://www.instructables.com/id/TEA5767-FM-Radio-Breakout-Board-for-Arduino/)
 * [Arduino FM receiver with TEA5767](https://www.electronicsblog.net/arduino-fm-receiver-with-tea5767/) - nice example using the Wire library

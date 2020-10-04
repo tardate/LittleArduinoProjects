@@ -1,5 +1,12 @@
 [
     {
+        "description": "A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin", 
+        "relative_path": "playground/Power/MultiVoltageGPIO", 
+        "id": "#569", 
+        "categories": "Arduino, Power", 
+        "name": "Multi-voltage GPIO"
+    }, 
+    {
         "description": "Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015", 
         "relative_path": "Equipment/BeepLogicProbe", 
         "id": "#568", 
