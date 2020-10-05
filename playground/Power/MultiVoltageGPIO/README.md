@@ -23,9 +23,9 @@ This project outlines one approach, I'm sure there may be improvements or altern
 
 The net result is a 3-level output voltage (0V, 5V, 12V), using 4 GPIO from an Arduino.
 
-* 2 pins are actually used to drive the PWM charge pump. These would not be required if a separate 12V supply or boost converter was used.
-* 1 pin acts as the "high voltage" enable/disable
-* 1 pin acts as the output high/low selector
+* 2 pins are actually used to drive the PWM charge pump - pins D3, D11 using Timer2 for PSM generation. These would not be required if a separate 12V supply or boost converter was used.
+* 1 pin (D4 in the example sketch) acts as the "high voltage" enable/disable
+* 1 pin (D5 in the example sketch) acts as the output high/low selector
 
 ## Construction
 
@@ -37,14 +37,14 @@ I tested the circuit on a breadboard:
 
 I've added a voltage display unit to measure the actual output voltage (to within a few 10's of mV):
 
-![Breadboard Build](./assets/MultiVoltageGPIO_bb_build.jpg?raw=true)
+![Breadboard Build](./assets/MultiVoltageGPIO_build.jpg?raw=true)
 
 ## Test
 
 The test script [MultiVoltageGPIO.ino](./MultiVoltageGPIO.ino?raw=true) exercises the circuit:
 it switches from 0V to 5V to 12V output on a loop, with each output change every 1 second.
 
-To capture a scope trace of the output (below), I switch to a 100ms transition delay, and
+To capture a scope trace of the output (below), I switched to a 100ms transition delay, and
 plotted the output with a -5V offset:
 
 ![scope](./assets/scope.gif?raw=true)
