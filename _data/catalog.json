@@ -1,5 +1,12 @@
 [
     {
+        "description": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit", 
+        "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded", 
+        "id": "#570", 
+        "categories": "Power, SMPS", 
+        "name": "MT3608 on a Breadboard"
+    }, 
+    {
         "description": "A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin", 
         "relative_path": "playground/Power/MultiVoltageGPIO", 
         "id": "#569", 
@@ -1781,7 +1788,7 @@
         "description": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
         "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost", 
         "id": "#315", 
-        "categories": "Power", 
+        "categories": "Power, SMPS", 
         "name": "MT3608 Variable Boost"
     }, 
     {

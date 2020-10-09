@@ -21,7 +21,7 @@ In this project, I wanted to build up the standard variable converter circuit fr
 * Automatic Pulse Frequency Modulation Mode at Light Loads
 * up to 97% Efficiency
 
-![MT3608_functional](./assets/MT3608_functional.png?raw=true)
+![MT3608_functional](../assets/MT3608_functional.png?raw=true)
 
 ## Circuit Layout
 
@@ -43,7 +43,6 @@ I'm using a 22µH CDRH104R SMD power inductor.
 
 22µF input and output ceramic capacitors are recommended. I don't have any ceramics of that capacity on hand,
 so I'm using through-hole electrolytics. They are rated for 50V.
-
 
 ### Diode Selection
 

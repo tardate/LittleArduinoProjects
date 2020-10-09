@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-10-05T19:50:53Z</updated>
+  <updated>2020-10-09T15:26:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/</id>
+    <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/"/>
+    <updated>2020-10-09T14:50:47Z</updated>
+    <title>#570 MT3608 on a Breadboard</title>
+    <summary>A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/assets/Breadboarded_build.jpg</g:image_link>
+    <category term="Power"/>
+    <category term="SMPS"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/Power/MultiVoltageGPIO/</id>
     <link href="https://leap.tardate.com/playground/Power/MultiVoltageGPIO/"/>
-    <updated>2020-10-04T17:53:14Z</updated>
+    <updated>2020-10-05T19:58:50Z</updated>
     <title>#569 Multi-voltage GPIO</title>
     <summary>A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin</summary>
     <g:image_link>https://leap.tardate.com/playground/Power/MultiVoltageGPIO/assets/MultiVoltageGPIO_build.jpg</g:image_link>
@@ -2629,6 +2639,7 @@
     <summary>testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/VariableBoost/assets/VariableBoost_build.jpg</g:image_link>
     <category term="Power"/>
+    <category term="SMPS"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/EEPROM/AT28C16/PEProgrammer/</id>

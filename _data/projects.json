@@ -664,6 +664,14 @@
         ], 
         "title": "BoldportClub/lite2sound-bc"
     }, 
+    "/Electronics101/555Timer/RouletteKit/": {
+        "summary": "build and examine the workings of a commercial 555 Roulette kit", 
+        "id": 84, 
+        "tags": [
+            "555 Timer"
+        ], 
+        "title": "RouletteKit"
+    }, 
     "/BoldportClub/ligemdio/": {
         "summary": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)", 
         "id": 263, 
@@ -2613,7 +2621,8 @@
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter", 
         "id": 315, 
         "tags": [
-            "Power"
+            "Power", 
+            "SMPS"
         ], 
         "title": "MT3608 Variable Boost"
     }, 
@@ -3638,13 +3647,14 @@
         ], 
         "title": "BoldportClub/TheLady"
     }, 
-    "/Electronics101/555Timer/RouletteKit/": {
-        "summary": "build and examine the workings of a commercial 555 Roulette kit", 
-        "id": 84, 
+    "/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/": {
+        "summary": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit", 
+        "id": 570, 
         "tags": [
-            "555 Timer"
+            "Power", 
+            "SMPS"
         ], 
-        "title": "RouletteKit"
+        "title": "MT3608 on a Breadboard"
     }, 
     "/playground/ATtiny/SleepMode/": {
         "summary": "test sleep mode with an ATtiny85 processor on a breadboard", 
