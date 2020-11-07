@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-10-09T15:26:39Z</updated>
+  <updated>2020-11-08T12:15:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/TraceTogetherToken/</id>
+    <link href="https://leap.tardate.com/Equipment/TraceTogetherToken/"/>
+    <updated>2020-11-08T12:12:56Z</updated>
+    <title>#571 TraceTogether Token</title>
+    <summary>Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/TraceTogetherToken/assets/TraceTogetherToken_build.jpg</g:image_link>
+    <category term="BLE"/>
+    <category term="ARM"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/"/>
-    <updated>2020-10-09T14:50:47Z</updated>
+    <updated>2020-10-11T08:32:15Z</updated>
     <title>#570 MT3608 on a Breadboard</title>
     <summary>A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded/assets/Breadboarded_build.jpg</g:image_link>

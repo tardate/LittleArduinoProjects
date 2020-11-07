@@ -1,5 +1,12 @@
 [
     {
+        "description": "Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing", 
+        "relative_path": "Equipment/TraceTogetherToken", 
+        "id": "#571", 
+        "categories": "BLE, ARM", 
+        "name": "TraceTogether Token"
+    }, 
+    {
         "description": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit", 
         "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded", 
         "id": "#570", 
