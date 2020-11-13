@@ -112,3 +112,6 @@
 [submodule "libraries/Tiny4kOLED"]
 	path = libraries/Tiny4kOLED
 	url = https://github.com/datacute/Tiny4kOLED
+[submodule "libraries/arduino-new-ping"]
+	path = libraries/arduino-new-ping
+	url = https://github.com/tardate/arduino-new-ping

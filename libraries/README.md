@@ -10,6 +10,7 @@ Some projects require additional libraries. For example:
 * [Adafruit-Thermal-Printer-Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library) - for small thermal printers
 * [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) - I²C for the ATtiny
 * [Arduino-INA226](https://github.com/jarzebski/Arduino-INA226) - INA226 Bi-directional Current/Power Monitor Arduino Library
+* [Arduino-Temperature-Control-Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
 * [DS3232RTC](https://github.com/JChristensen/DS3232RTC) - DS3232-based realtime clock module control
@@ -21,6 +22,7 @@ Some projects require additional libraries. For example:
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C
 * [LRAS1130](https://github.com/LuckyResistor/LRAS1130) - AMS AS1130 LED Driver control
 * [MFRC522](https://github.com/miguelbalboa/rfid) - MFRC522 RFID library by miguelbalboa
+* [NewPing](https://github.com/tardate/arduino-new-ping) original source is in bitbucket: [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home)
 * [OneWire](https://github.com/PaulStoffregen/OneWire) - 1-wire compatible components
 * [PCM](https://github.com/damellis/PCM) - Playback of short audio samples.
 * [Radio](http://www.mathertel.de/Arduino/RadioLibrary.aspx) - Arduino Radio Library
