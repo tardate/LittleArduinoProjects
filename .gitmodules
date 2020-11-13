@@ -64,9 +64,6 @@
 [submodule "libraries/Adafruit_PCD8544"]
 	path = libraries/Adafruit_PCD8544
 	url = https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library
-[submodule "libraries/arduino-new-ping"]
-	path = libraries/arduino-new-ping
-	url = https://bitbucket.org/teckel12/arduino-new-ping
 [submodule "libraries/Arduino-Temperature-Control-Library"]
 	path = libraries/Arduino-Temperature-Control-Library
 	url = https://github.com/milesburton/Arduino-Temperature-Control-Library
