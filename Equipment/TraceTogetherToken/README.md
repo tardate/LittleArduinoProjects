@@ -24,7 +24,7 @@ The TraceTogether Mobile Applications implement the [BlueTrace Protocol](https:/
 which has been open-sourced as [OpenTrace](https://github.com/OpenTrace-community) with reference implementation.
 
 The [BlueTrace White Paper](https://bluetrace.io/static/bluetrace_whitepaper-938063656596c104632def383eb33b3c.pdf) describes its operation.
-It uses a hybrid centralised/distributed architecture to ensure privacy while everything is "fine", but provides a mechanism for contract tracers
+It uses a hybrid centralised/distributed architecture to ensure privacy while everything is "fine", but provides a mechanism for contact tracers
 to contact and request the upload of pseudonymised logs when needed for tracing. I believe in essence:
 
 * the application is registered centrally (so the health service has basic contact details when needed to chase down contacts)
@@ -35,7 +35,7 @@ to contact and request the upload of pseudonymised logs when needed for tracing.
 
 Key points to note with the TraceTogether app implementation:
 
-* it requires period connectivity to the central service to get new TempIds
+* it requires periodic connectivity to the central service to get new tempIds
 * tempIds are symmetrically encrypted by the central service, cannot be decrypted by the app, and only decrypted if uploaded to the central service as part of a contact tracing exercise.
 
 Encounter messages are a JSON format. Here's an example:
@@ -57,8 +57,8 @@ TraceTogether Tokens only have BLE connectivity and run under tight hardware and
 
 They run a modified protocol called "BlueTrace Lite" which is described in the
 [TraceTogether Token Technical Write-up](https://www.developer.tech.gov.sg/assets/files/TT_Token_Technical_Writeup.pdf).
-As far as I am aware, we have yet to see an open-sourced reference implentation. Full details are only available to
-manufacturers and partners that have signed up to the Interoperability programme.
+As far as I am aware, we have yet to see an open-sourced reference implementation. Full details are only available to
+manufacturers and partners that have signed up to the interoperability programme.
 
 If I am reading the official documentation correctly, tokens are pre-loaded with an assigned Company ID (Version & ID) and Global Replay Protection Key (RPK).
 These are used to calculate the Message Authentication Code (MAC) for each encounter token packet, also including a "Company Encoded UUID".
@@ -71,9 +71,9 @@ When required for contact tracing, the current encounter log can apparently be r
 ![token_algo_summary](./assets/token_algo_summary.jpg?raw=true)
 
 Publically available [TraceTogether](https://www.developer.tech.gov.sg/technologies/digital-solutions-to-address-covid-19/tracetogether)
-information indicates that app and tokens are able to communicate with each other.
-I presume this means that the TraceTogether applications have had BlueTrace Lite compatibility added
-(though this is not included in the OpenTrace reference implementation).
+information appears to imply that the app and tokens are able to communicate with each other.
+I presume this means that the TraceTogether applications have had BlueTrace Lite compatibility added,
+though this is not included in the OpenTrace reference implementation.
 NB: I don't see this specifically mentioned in the [release notes](https://support.tracetogether.gov.sg/hc/en-sg/articles/360046481013-App-Release-Notes),
 so I am just guessing.
 
@@ -84,7 +84,7 @@ See the [TraceTogether Token Technical Write-up](https://www.developer.tech.gov.
 The token I'm looking at is I think is the second major version.
 
 It's a well made case that is designed for access and repair e.g. battery replacement. No permanent bonding, yeah!
-It could probably be scaled down & slimmed down quite a bit, however absolute minimal size was probably not a leading design requirement (a more chunky fob does make it easier to handle and less likely to be lost I guess).
+It could probably be scaled down & slimmed down quite a bit, however absolute minimal size may not have been a key design requirement (a more chunky fob does make it easier to handle and less likely to be lost I guess).
 
 Basic observations:
 
@@ -92,7 +92,7 @@ Basic observations:
   * Ultra-low-power dual core Arm Cortex-M4 MCU 64 MHz, Cortex-M0+ 32MHz with 1 Mbyte of Flash memory, Bluetooth LE 5.0, 802.15.4, Zigbee, Thread, USB, LCD, AES-256
 * 64Mb flash storage - [MX25R6435F](https://www.macronix.com/en-us/products/NOR-Flash/Serial-NOR-Flash/Pages/spec.aspx?p=MX25R6435F&m=Serial%20NOR%20Flash&n=PM2138)
 * powered by a replaceable CR2477 lithium battery
-* a separate RTC and lithium battery backup. Not sure what it is - possibly something like a Maxim DS1390U-33 or Microchip MCP79510-I/MS. Prevents losing real time even during main battery replacement. Interesting that the design still uses a seperate external RTC, even though the STM32WB55CGU6 has an integrated RTC.
+* a separate RTC and lithium battery backup. Not sure what it is - possibly something like a Maxim DS1390U-33 or Microchip MCP79510-I/MS. Prevents losing real time even during main battery replacement. Interesting that the design uses a seperate external RTC, even though the STM32WB55CGU6 has an integrated RTC.
 
 A look inside the token:
 
@@ -100,13 +100,14 @@ A look inside the token:
 
 ![token_pcb_annotated](./assets/token_pcb_annotated.jpg?raw=true)
 
-As far as I can gather from public information, the basic functional architecture is something like this:
+As far as I can gather, the basic functional architecture is something like this:
 
 ![token_architecture](./assets/token_architecture.jpg?raw=true)
 
 ## Sniffing the BLE Advertisements
 
-See [TTTScan](./TTTScan) for a little bit of MacOSX Swift code for sniffing BLE advertisements.
+See [TTTScan](./TTTScan) for a little bit of MacOSX Swift code for sniffing BLE advertisements,
+made with some code and ideas I borrowed from [BLE_Scan](https://github.com/tisseurdetoile/BLE_Scan).
 The project needs to be built with xcode.
 
 I can't vouch for the accuracy of this or whether I'm reading the advertisements correctly,
@@ -192,3 +193,4 @@ $
 * [Exposure_Notification](https://en.wikipedia.org/wiki/Exposure_Notification)
 * [TraceTogether (iOS app store)](https://apps.apple.com/sg/app/tracetogether/id1498276074)
 * [TraceTogether (play store)](https://play.google.com/store/apps/details?id=sg.gov.tech.bluetrace&hl=en_SG&gl=US)
+* [BLE_Scan](https://github.com/tisseurdetoile/BLE_Scan)
