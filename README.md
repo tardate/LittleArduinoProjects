@@ -1,6 +1,6 @@
-# 570 Little Electronics and Arduino Projects
+# 571 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [MT3608 on a Breadboard](./Electronics101/SwitchModePowerSupplies/MT3608/Breadboarded) - A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit.
+> Latest addition:sparkles: [TraceTogether Token](./Equipment/TraceTogetherToken) - Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
