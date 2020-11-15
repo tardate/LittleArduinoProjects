@@ -1,6 +1,6 @@
-# 571 Little Electronics and Arduino Projects
+# 572 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [TraceTogether Token](./Equipment/TraceTogetherToken) - Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code.
+> Latest addition:sparkles: [PowerMeter](./Equipment/PowerMeter) - A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

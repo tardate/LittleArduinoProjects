@@ -139,6 +139,14 @@ And all installed in a small project box:
 
 ![PowerMeterATTiny_build_startup](./assets/PowerMeterATTiny_build_startup.jpg?raw=true)
 
+## Next Steps - Improvements?
+
+A few ideas:
+
+* add auto-ranging (adjust the calibration when readings are heading under/over range)
+* design a PCB for the circiut
+* find a DC switched jack with a normally open 3rd pin?
+
 ## Credits and References
 
 * [LEAP#504 INA226 High-side Monitor Basics](../../Electronics101/INA226/HighSideMonitorBasics)
