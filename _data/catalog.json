@@ -1,5 +1,12 @@
 [
     {
+        "description": "Testing small DC motor control with a 555 time PWM signal", 
+        "relative_path": "Electronics101/555Timer/PwmMotorControl", 
+        "id": "#573", 
+        "categories": "555 Timer, Motors", 
+        "name": "555 PWM Motor Control"
+    }, 
+    {
         "description": "A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.", 
         "relative_path": "Equipment/PowerMeter", 
         "id": "#572", 
@@ -2384,7 +2391,7 @@
         "relative_path": "Electronics101/LEDDimmer/555PWM", 
         "id": "#232", 
         "categories": "LED, Power, 555 Timer", 
-        "name": "LEDDimmer/555PWM"
+        "name": "555 PWM LED Dimmer"
     }, 
     {
         "description": "test a current-regulator style LED dimmer circuit", 
@@ -3682,11 +3689,11 @@
         "name": "LDRStereoTripDetector"
     }, 
     {
-        "description": "tests PWM speed control of a DC motor driven by an Arduino", 
+        "description": "Testing DC motor speed control using an Arduino-generated PWM signal", 
         "relative_path": "playground/MotorControlPWM", 
         "id": "#046", 
         "categories": "Motors, Arduino", 
-        "name": "MotorControlPWM"
+        "name": "PWM Motor Control"
     }, 
     {
         "description": "classic timer circuit producing a two-tone oscillation", 

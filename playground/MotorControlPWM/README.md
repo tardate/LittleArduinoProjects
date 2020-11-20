@@ -1,11 +1,12 @@
-# #046 MotorControlPWM
+# #046 PWM Motor Control
 
-Tests PWM speed control of a DC motor.
+Testing DC motor speed control using an Arduino-generated PWM signal.
+
+![Build](./assets/MotorControlPWM_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
 [![MotorControlPWM demo](https://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](https://www.youtube.com/watch?v=CYKtJfKv5ug)
-
 
 ## Notes
 
@@ -20,14 +21,13 @@ An S9013 transistor is used in this case, primarily because:
 A [fly-back diode](http://en.wikipedia.org/wiki/Flyback_diode) is placed across
 the motor to drain any voltage spike as the motor load is switched.
 
-
 ### Construction
 
 ![The Breadboard](./assets/MotorControlPWM_bb.jpg?raw=true)
 
 ![The Schematic](./assets/MotorControlPWM_schematic.jpg?raw=true)
 
-![Breadboard Build](./assets/MotorControlPWM_build.jpg?raw=true)
+![Build](./assets/MotorControlPWM_build.jpg?raw=true)
 
 ## Credits and References
 

@@ -2777,6 +2777,15 @@
         ], 
         "title": "LM723/HighVoltageRegulator"
     }, 
+    "/playground/JoystickServoControl/": {
+        "summary": "controlling two SG90 servos with a joystick", 
+        "id": 56, 
+        "tags": [
+            "Human Input", 
+            "Arduino"
+        ], 
+        "title": "JoystickServoControl"
+    }, 
     "/Electronics101/EdgeDetection/555FallingEdgeDetector/": {
         "summary": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse", 
         "id": 490, 
@@ -2822,13 +2831,13 @@
         "title": "StepperMotors/28BYJ48"
     }, 
     "/playground/MotorControlPWM/": {
-        "summary": "tests PWM speed control of a DC motor driven by an Arduino", 
+        "summary": "Testing DC motor speed control using an Arduino-generated PWM signal", 
         "id": 46, 
         "tags": [
             "Motors", 
             "Arduino"
         ], 
-        "title": "MotorControlPWM"
+        "title": "PWM Motor Control"
     }, 
     "/Kraft/WyLed/": {
         "summary": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.", 
@@ -3005,14 +3014,15 @@
         ], 
         "title": "FretBoard"
     }, 
-    "/Electronics101/LEDDimmer/CurrentRegulator/": {
-        "summary": "test a current-regulator style LED dimmer circuit", 
-        "id": 231, 
+    "/BoldportClub/PissOff/": {
+        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
+        "id": 290, 
         "tags": [
-            "LED", 
-            "Power"
+            "Boldport", 
+            "PCB Design", 
+            "NXP"
         ], 
-        "title": "LEDDimmer/CurrentRegulator"
+        "title": "BoldportClub/PissOff"
     }, 
     "/Audio/AudioEffects/CANary/": {
         "summary": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture", 
@@ -3126,14 +3136,14 @@
         ], 
         "title": "ClapSwitchKit"
     }, 
-    "/playground/JoystickServoControl/": {
-        "summary": "controlling two SG90 servos with a joystick", 
-        "id": 56, 
+    "/Electronics101/LEDDimmer/CurrentRegulator/": {
+        "summary": "test a current-regulator style LED dimmer circuit", 
+        "id": 231, 
         "tags": [
-            "Human Input", 
-            "Arduino"
+            "LED", 
+            "Power"
         ], 
-        "title": "JoystickServoControl"
+        "title": "LEDDimmer/CurrentRegulator"
     }, 
     "/Radio/FM/SingleStageTransmitterKit2/": {
         "summary": "build and tweak/tune another simple single-stage FM Transmitter Kit", 
@@ -3519,7 +3529,7 @@
             "Power", 
             "555 Timer"
         ], 
-        "title": "LEDDimmer/555PWM"
+        "title": "555 PWM LED Dimmer"
     }, 
     "/Kinetics/StepperMotors/BipolarWormDrive/SimpleHBridge/": {
         "summary": "testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!", 
@@ -3576,6 +3586,15 @@
             "Power"
         ], 
         "title": "ArcGeneratorKit"
+    }, 
+    "/Electronics101/555Timer/PwmMotorControl/": {
+        "summary": "Testing small DC motor control with a 555 time PWM signal", 
+        "id": 573, 
+        "tags": [
+            "555 Timer", 
+            "Motors"
+        ], 
+        "title": "555 PWM Motor Control"
     }, 
     "/ARM/STM32F103C8T6/BluePill/LCD16x2/": {
         "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE", 
@@ -5240,16 +5259,6 @@
             "Oscillators"
         ], 
         "title": "CD4070/Oscillator"
-    }, 
-    "/BoldportClub/PissOff/": {
-        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
-        "id": 290, 
-        "tags": [
-            "Boldport", 
-            "PCB Design", 
-            "NXP"
-        ], 
-        "title": "BoldportClub/PissOff"
     }, 
     "/Electronics101/ML741/Inverter/": {
         "summary": "test an inverter circuit using the ML741 discrete component opamp", 

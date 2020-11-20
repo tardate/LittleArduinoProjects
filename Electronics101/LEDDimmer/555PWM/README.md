@@ -1,9 +1,8 @@
-# #232 LEDDimmer/555PWM
+# #232 555 PWM LED Dimmer
 
 Test a PWM LED dimmer circuit using a 555 timer.
 
 ![The Build](./assets/555PWM_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -18,12 +17,10 @@ I'm using a 1m (60 LED) stretch of a 12V LED strip, and the maximum current draw
 Since this is quite low power, I'm using a 2N7000 MOSFET which is rated for
 200mA continuous/500mA pulsed.
 
-
 ### Performance
 
 At maximum duty cycle (almost 100%), LED current measures 133mA
 and the voltage drop over the FET drain-source is 0.71 V.
-
 
 The minimum duty cycle of ~1.25% does not completely turn off the LEDs.
 At this point the LED current measures 3.2mA
@@ -34,7 +31,6 @@ and the voltage drop over the FET drain-source is 4.45 V.
 At midpoint of the pot, duty cycle is ~50%:
 
 ![scope_mid](./assets/scope_mid.gif?raw=true)
-
 
 ### LED Strip Specifications
 

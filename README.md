@@ -1,6 +1,6 @@
-# 572 Little Electronics and Arduino Projects
+# 573 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [PowerMeter](./Equipment/PowerMeter) - A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.
+> Latest addition:sparkles: [555 PWM Motor Control](./Electronics101/555Timer/PwmMotorControl) - testing small DC motor control with a 555 time PWM signal.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

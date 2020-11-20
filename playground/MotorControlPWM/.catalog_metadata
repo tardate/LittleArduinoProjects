@@ -1,7 +1,7 @@
 {
-    "id": "#046", 
-    "name": "MotorControlPWM", 
-    "description": "tests PWM speed control of a DC motor driven by an Arduino", 
-    "categories": "Motors, Arduino", 
+    "id": "#046",
+    "name": "PWM Motor Control",
+    "description": "Testing DC motor speed control using an Arduino-generated PWM signal",
+    "categories": "Motors, Arduino",
     "relative_path": "playground/MotorControlPWM"
 }
