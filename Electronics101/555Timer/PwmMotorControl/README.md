@@ -6,7 +6,7 @@ Testing small DC motor control with a 555 time PWM signal
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/e2mwX65UjqU/0.jpg)](https://www.youtube.com/watch?v=e2mwX65UjqU)
 
 ## Notes
 
