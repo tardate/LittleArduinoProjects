@@ -1,11 +1,12 @@
-# #132 555Timer/AMTransmitter
+# #132 555 AM Transmitter
 
 A simple 555-based AM transmitter.
+
+![The Build](./assets/AMTransmitter_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action, transmitting [Lullaby/Колыбельная](https://youtu.be/8etPN7Or8ZE) by Аіда Николайчук:
 
 [![555Timer/AMTransmitter](https://img.youtube.com/vi/1QtLAnv1PCg/0.jpg)](https://www.youtube.com/watch?v=1QtLAnv1PCg)
-
 
 ## Notes
 
@@ -28,11 +29,11 @@ below the natural and harmonic frequencies. Well, we get a signal, but lots of n
 
 ## Construction
 
-![Breadboard](./assets/AMTransmitter_bb.jpg?raw=true)
+![AMTransmitter_bb](./assets/AMTransmitter_bb.jpg?raw=true)
 
-![The Schematic](./assets/AMTransmitter_schematic.jpg?raw=true)
+![AMTransmitter_schematic](./assets/AMTransmitter_schematic.jpg?raw=true)
 
-![The Build](./assets/AMTransmitter_build.jpg?raw=true)
+![AMTransmitter_bb_build](./assets/AMTransmitter_bb_build.jpg?raw=true)
 
 ## Credits and References
 

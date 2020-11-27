@@ -3091,7 +3091,7 @@
         "relative_path": "Electronics101/555Timer/AMTransmitter", 
         "id": "#132", 
         "categories": "Radio, 555 Timer", 
-        "name": "AMTransmitter/555"
+        "name": "555 AM Transmitter"
     }, 
     {
         "description": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips", 

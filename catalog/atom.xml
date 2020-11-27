@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-11-20T14:41:31Z</updated>
+  <updated>2020-11-27T17:47:40Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/PwmMotorControl/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/PwmMotorControl/"/>
-    <updated>2020-11-20T14:13:48Z</updated>
+    <updated>2020-11-20T14:51:31Z</updated>
     <title>#573 555 PWM Motor Control</title>
     <summary>Testing small DC motor control with a 555 time PWM signal</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/PwmMotorControl/assets/PwmMotorControl_build.jpg</g:image_link>
@@ -4564,8 +4564,8 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/AMTransmitter/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/AMTransmitter/"/>
-    <updated>2020-03-14T16:56:38Z</updated>
-    <title>#132 AMTransmitter/555</title>
+    <updated>2020-11-27T17:46:11Z</updated>
+    <title>#132 555 AM Transmitter</title>
     <summary>a simple 555-based AM transmitter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/AMTransmitter/assets/AMTransmitter_build.jpg</g:image_link>
     <category term="Radio"/>
