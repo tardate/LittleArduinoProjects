@@ -279,6 +279,8 @@ Here's the diorama base pretty much complete now: additional foliage and forest 
 ![gallery_4](./assets/gallery_4.jpg?raw=true)
 ![gallery_5](./assets/gallery_5.jpg?raw=true)
 ![gallery_6](./assets/gallery_6.jpg?raw=true)
+![gallery_7](./assets/gallery_7.jpg?raw=true)
+![gallery_8](./assets/gallery_8.jpg?raw=true)
 
 Some demonstration videos:
 
@@ -287,12 +289,31 @@ Some demonstration videos:
 [![clip](https://img.youtube.com/vi/yGEwxE6NhOA/0.jpg)](https://www.youtube.com/watch?v=yGEwxE6NhOA)
 [![clip](https://img.youtube.com/vi/oKDRqEsg5nY/0.jpg)](https://www.youtube.com/watch?v=oKDRqEsg5nY)
 
-## Final?
+## Final Thoughts
+
+This is the first model I've made in mumble-mumble decades. The electronics were the easy bit as that's what I've been doing more recently.
+On reflection, I have mixed feelings about the paint job: it's not a "magazine quality" finish,
+but probably better than anything I achieved back in the day, and I was just brush painting using the paints from the starter kit.
+Some of the Humbrol colours (notably 33 matt black and 163 dark green) seemed prone to be a bit gritty with undisolved pigment,
+but it was a good opportunity to "brush up" on my technique. Looking forward to do better in another project.
 
 A few things I may come back and take care of later:
 
 * camo netting - would match the source photographs better, but I don't want to obscure the plane too much
 * weathering - especially for the undercarriage and gun pods
+
+## Out and About
+
+I experimented with creating my first [project page on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=88607).
+
+Appearing as a contribution on the [Airfix product page](https://www.airfix.com/uk-en/hawker-harrier-gr1-starter-set-1-72.html):
+
+[![oaa_airfix](./assets/oaa_airfix.jpg?raw=true)](https://www.airfix.com/uk-en/hawker-harrier-gr1-starter-set-1-72.html)
+
+I entered the project into the "social distanced" [Singapore Airfix Cup 2020](https://www.airfixcup.com/).
+No prize, but at least I think I held my own amongst a truly impressive showing.
+
+[![oaa_airfixcup](./assets/oaa_airfixcup.jpg?raw=true)](https://www.airfixcup.com/)
 
 ## Credits and References
 
@@ -307,4 +328,3 @@ Some great resources I found for learning or brushing up my modeling skills:
 * [Quick Kits](https://www.youtube.com/user/quickkits) - Owen's YouTube channel, especially good for brush painting models
 * [Luke Towan's Boulder Creek Railroad](https://www.youtube.com/channel/UCjRkUtHQ774mTg1vrQ6uA5A) YouTube channel - tricks for modeling amazingly realistic scenery
 * [Building an infantry diorama with lights and a twist](https://www.youtube.com/watch?v=Y5XRY_WaHYA) - SteamGeezer and Son Independent Traders; where I learned the trick of using some clear sprue as a light channel for internal LEDs
-
