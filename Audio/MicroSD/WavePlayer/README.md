@@ -53,7 +53,7 @@ I've kept the demo code in `WavePlayer.ino` super-simple - it just plays a singl
 
 I'm using a short sample - included in the `sample` folder as an [Audacity](https://www.audacityteam.org/) project.
 
-The samplehas been reduced to mono 16kHz, and exported to `sample.wav` as an unsigned 8-bit PCM file.
+The sample has been reduced to mono 16kHz, and exported to `sample.wav` as an unsigned 8-bit PCM file.
 This file is then written to the SD card.
 
 ![audacity_export](./assets/audacity_export.jpg?raw=true)
@@ -65,3 +65,5 @@ This file is then written to the SD card.
 * [Arduino SD Library](https://www.arduino.cc/en/reference/SD)
 * [SD card](https://en.wikipedia.org/wiki/SD_card) - wikipedia
 * [Audacity](https://www.audacityteam.org/)
+* [Arduino Wave Audio Player with SD Card](https://simple-circuit.com/arduino-wave-audio-player-sd-card/)
+

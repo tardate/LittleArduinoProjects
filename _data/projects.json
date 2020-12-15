@@ -1173,15 +1173,6 @@
         ], 
         "title": "AudioDSP/Distortion"
     }, 
-    "/playground/TFT/Color128x128/": {
-        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
-        "id": 361, 
-        "tags": [
-            "TFT LCD", 
-            "Arduino"
-        ], 
-        "title": "TFT/Color128x128"
-    }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment LED display via a 74HC595 shift register", 
         "id": 177, 
@@ -3399,6 +3390,17 @@
         ], 
         "title": "Labrador"
     }, 
+    "/playground/AudioDSP/": {
+        "summary": "build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash", 
+        "id": 235, 
+        "tags": [
+            "Audio", 
+            "Arduino", 
+            "DSP", 
+            "OpAmp"
+        ], 
+        "title": "AudioDSP"
+    }, 
     "/playground/Lcd5110/BareBack/": {
         "summary": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set", 
         "id": 85, 
@@ -3766,14 +3768,14 @@
         ], 
         "title": "StirlingEngineHB13"
     }, 
-    "/FPGA/Fomu/BuildNotifier/": {
-        "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
-        "id": 494, 
+    "/playground/TFT/Color128x128/": {
+        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries", 
+        "id": 361, 
         "tags": [
-            "FPGA", 
-            "Ruby"
+            "TFT LCD", 
+            "Arduino"
         ], 
-        "title": "Fomu Build Notifier"
+        "title": "TFT/Color128x128"
     }, 
     "/Kinetics/StepperMotors/ULN2003Module/": {
         "summary": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647", 
@@ -3912,6 +3914,17 @@
             "LED"
         ], 
         "title": "Snow Flake"
+    }, 
+    "/Kraft/YataiRamenDoorbell/": {
+        "summary": "A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound", 
+        "id": 577, 
+        "tags": [
+            "scale models", 
+            "Craft", 
+            "Audio", 
+            "LED"
+        ], 
+        "title": "\u5c4b\u53f0\u30e9\u30fc\u30e1\u30f3 The Yatai Ramen Doorbell"
     }, 
     "/ESP8266/micropython/GettingStarted/": {
         "summary": "getting MicroPython up and running with an ESP-01 ESP8266", 
@@ -5084,16 +5097,14 @@
         ], 
         "title": "Variable LED brightness with PWM"
     }, 
-    "/playground/AudioDSP/": {
-        "summary": "build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash", 
-        "id": 235, 
+    "/FPGA/Fomu/BuildNotifier/": {
+        "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)", 
+        "id": 494, 
         "tags": [
-            "Audio", 
-            "Arduino", 
-            "DSP", 
-            "OpAmp"
+            "FPGA", 
+            "Ruby"
         ], 
-        "title": "AudioDSP"
+        "title": "Fomu Build Notifier"
     }, 
     "/Audio/AudioEffectsChips/HS088/": {
         "summary": "figuring out the HS088 \"Ding Dong\" audio effects chip", 

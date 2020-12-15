@@ -1,6 +1,6 @@
-# 576 Little Electronics and Arduino Projects
+# 577 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Spray Booth](./Equipment/SprayBooth") - Building a $10 spray booth for light airbrush spray painting and soldering.
+> Latest addition:sparkles: [屋台ラーメン The Yatai Ramen Doorbell](./Kraft/YataiRamenDoorbell") - A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

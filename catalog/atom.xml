@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-12-30T10:11:05Z</updated>
+  <updated>2021-01-10T14:03:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/YataiRamenDoorbell/</id>
+    <link href="https://leap.tardate.com/Kraft/YataiRamenDoorbell/"/>
+    <updated>2021-01-10T14:02:06Z</updated>
+    <title>#577 屋台ラーメン The Yatai Ramen Doorbell</title>
+    <summary>A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/YataiRamenDoorbell/assets/YataiRamenDoorbell_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="Audio"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/SprayBooth/</id>
     <link href="https://leap.tardate.com/Equipment/SprayBooth/"/>
-    <updated>2020-12-30T09:08:26Z</updated>
+    <updated>2021-01-02T08:40:53Z</updated>
     <title>#576 Spray Booth</title>
     <summary>Building a $10 spray booth for light airbrush spray painting and soldering</summary>
     <g:image_link>https://leap.tardate.com/Equipment/SprayBooth/assets/SprayBooth_build.jpg</g:image_link>
@@ -23,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/MotorizedMusicBox/</id>
     <link href="https://leap.tardate.com/Audio/MotorizedMusicBox/"/>
-    <updated>2020-12-20T15:32:44Z</updated>
+    <updated>2021-01-02T08:40:53Z</updated>
     <title>#575 Motorized Music Box</title>
     <summary>A quick test of motorizing a hand-cranked music box</summary>
     <g:image_link>https://leap.tardate.com/Audio/MotorizedMusicBox/assets/MotorizedMusicBox_build.jpg</g:image_link>
