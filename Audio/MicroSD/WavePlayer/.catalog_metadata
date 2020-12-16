@@ -1,0 +1,7 @@
+{
+    "id": "#574",
+    "name": "MicroSD WAV Player",
+    "description": "A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino",
+    "categories": "Audio, Arduino, SD",
+    "relative_path": "Audio/MicroSD/WavePlayer"
+}

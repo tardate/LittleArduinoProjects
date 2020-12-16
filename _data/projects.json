@@ -436,6 +436,16 @@
         ], 
         "title": "xdiskclk"
     }, 
+    "/Audio/MicroSD/WavePlayer/": {
+        "summary": "A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino", 
+        "id": 574, 
+        "tags": [
+            "Audio", 
+            "Arduino", 
+            "SD"
+        ], 
+        "title": "MicroSD WAV Player"
+    }, 
     "/Electronics101/DigitalLogic/4bitSynchonousCounter/": {
         "summary": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear", 
         "id": 566, 

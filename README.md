@@ -1,6 +1,6 @@
-# 573 Little Electronics and Arduino Projects
+# 574 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [555 PWM Motor Control](./Electronics101/555Timer/PwmMotorControl) - testing small DC motor control with a 555 time PWM signal.
+> Latest addition:sparkles: [MicroSD WAV Player](./Audio/MicroSD/WavePlayer) - A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

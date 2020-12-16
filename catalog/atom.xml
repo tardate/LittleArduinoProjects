@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-11-27T17:47:40Z</updated>
+  <updated>2020-12-16T15:14:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/MicroSD/WavePlayer/</id>
+    <link href="https://leap.tardate.com/Audio/MicroSD/WavePlayer/"/>
+    <updated>2020-12-16T15:09:40Z</updated>
+    <title>#574 MicroSD WAV Player</title>
+    <summary>A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino</summary>
+    <g:image_link>https://leap.tardate.com/Audio/MicroSD/WavePlayer/assets/WavePlayer_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="Arduino"/>
+    <category term="SD"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/PwmMotorControl/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/PwmMotorControl/"/>
@@ -4564,7 +4575,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/AMTransmitter/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/AMTransmitter/"/>
-    <updated>2020-11-27T17:46:11Z</updated>
+    <updated>2020-12-05T07:01:53Z</updated>
     <title>#132 555 AM Transmitter</title>
     <summary>a simple 555-based AM transmitter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/AMTransmitter/assets/AMTransmitter_build.jpg</g:image_link>

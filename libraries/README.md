@@ -31,6 +31,7 @@ Some projects require additional libraries. For example:
 * [Rotary](https://github.com/brianlow/Rotary) - rotary Encoder input
 * [SV-Zanshin/INA](https://github.com/SV-Zanshin/INA) - Combined Arduino library for reading multiple INA2xx power monitor devices
 * [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED) - OLED driver for ATtiny
+* [TMRpcm](https://github.com/TMRh20/TMRpcm) - asynchronous playback of PCM/WAV files direct from SD card
 * [u8glib](https://github.com/olikraus/U8glib_Arduino) - for monochrome displays
 * [u8g2lib](https://github.com/olikraus/U8g2_Arduino) - v2 for monochrome displays
 * [X113647Stepper](https://github.com/tardate/X113647Stepper) - used by some Stepper motor projects

@@ -115,3 +115,6 @@
 [submodule "libraries/arduino-new-ping"]
 	path = libraries/arduino-new-ping
 	url = https://github.com/tardate/arduino-new-ping
+[submodule "libraries/TMRpcm"]
+	path = libraries/TMRpcm
+	url = https://github.com/TMRh20/TMRpcm

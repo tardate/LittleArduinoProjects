@@ -1,5 +1,12 @@
 [
     {
+        "description": "A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino", 
+        "relative_path": "Audio/MicroSD/WavePlayer", 
+        "id": "#574", 
+        "categories": "Audio, Arduino, SD", 
+        "name": "MicroSD WAV Player"
+    }, 
+    {
         "description": "Testing small DC motor control with a 555 time PWM signal", 
         "relative_path": "Electronics101/555Timer/PwmMotorControl", 
         "id": "#573", 
