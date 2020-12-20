@@ -1,6 +1,6 @@
-# 575 Little Electronics and Arduino Projects
+# 576 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Motorized Music Box](./Audio/MotorizedMusicBox") - A quick test of motorizing a hand-cranked music box.
+> Latest addition:sparkles: [Spray Booth](./Equipment/SprayBooth") - Building a $10 spray booth for light airbrush spray painting and soldering.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

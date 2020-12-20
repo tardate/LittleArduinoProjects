@@ -1,5 +1,12 @@
 [
     {
+        "description": "Building a $10 spray booth for light airbrush spray painting and soldering", 
+        "relative_path": "Equipment/SprayBooth", 
+        "id": "#576", 
+        "categories": "Tools", 
+        "name": "Spray Booth"
+    }, 
+    {
         "description": "A quick test of motorizing a hand-cranked music box", 
         "relative_path": "Audio/MotorizedMusicBox", 
         "id": "#575", 

@@ -466,6 +466,14 @@
         ], 
         "title": "4-bit Synchonous Counter"
     }, 
+    "/Equipment/SprayBooth/": {
+        "summary": "Building a $10 spray booth for light airbrush spray painting and soldering", 
+        "id": 576, 
+        "tags": [
+            "Tools"
+        ], 
+        "title": "Spray Booth"
+    }, 
     "/BoldportClub/TheMatrix/LedTest/": {
         "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library", 
         "id": 300, 

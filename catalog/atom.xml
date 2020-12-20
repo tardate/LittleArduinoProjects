@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-12-20T15:23:23Z</updated>
+  <updated>2020-12-30T10:11:05Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/SprayBooth/</id>
+    <link href="https://leap.tardate.com/Equipment/SprayBooth/"/>
+    <updated>2020-12-30T09:08:26Z</updated>
+    <title>#576 Spray Booth</title>
+    <summary>Building a $10 spray booth for light airbrush spray painting and soldering</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/SprayBooth/assets/SprayBooth_build.jpg</g:image_link>
+    <category term="Tools"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/MotorizedMusicBox/</id>
     <link href="https://leap.tardate.com/Audio/MotorizedMusicBox/"/>
-    <updated>2020-12-20T15:05:29Z</updated>
+    <updated>2020-12-20T15:32:44Z</updated>
     <title>#575 Motorized Music Box</title>
     <summary>A quick test of motorizing a hand-cranked music box</summary>
     <g:image_link>https://leap.tardate.com/Audio/MotorizedMusicBox/assets/MotorizedMusicBox_build.jpg</g:image_link>
@@ -24,7 +33,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/MicroSD/WavePlayer/</id>
     <link href="https://leap.tardate.com/Audio/MicroSD/WavePlayer/"/>
-    <updated>2020-12-16T15:09:40Z</updated>
+    <updated>2020-12-20T15:32:44Z</updated>
     <title>#574 MicroSD WAV Player</title>
     <summary>A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino</summary>
     <g:image_link>https://leap.tardate.com/Audio/MicroSD/WavePlayer/assets/WavePlayer_build.jpg</g:image_link>
