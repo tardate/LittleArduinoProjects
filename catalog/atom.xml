@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2020-12-16T15:14:45Z</updated>
+  <updated>2020-12-20T15:23:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/MotorizedMusicBox/</id>
+    <link href="https://leap.tardate.com/Audio/MotorizedMusicBox/"/>
+    <updated>2020-12-20T15:05:29Z</updated>
+    <title>#575 Motorized Music Box</title>
+    <summary>A quick test of motorizing a hand-cranked music box</summary>
+    <g:image_link>https://leap.tardate.com/Audio/MotorizedMusicBox/assets/MotorizedMusicBox_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="Motor"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Audio/MicroSD/WavePlayer/</id>
     <link href="https://leap.tardate.com/Audio/MicroSD/WavePlayer/"/>

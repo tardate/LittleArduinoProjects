@@ -1,6 +1,6 @@
-# 574 Little Electronics and Arduino Projects
+# 575 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [MicroSD WAV Player](./Audio/MicroSD/WavePlayer) - A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino.
+> Latest addition:sparkles: [Motorized Music Box](./Audio/MotorizedMusicBox") - A quick test of motorizing a hand-cranked music box.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

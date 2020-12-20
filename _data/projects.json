@@ -74,6 +74,15 @@
         ], 
         "title": "Switch - PJFET"
     }, 
+    "/Audio/MotorizedMusicBox/": {
+        "summary": "A quick test of motorizing a hand-cranked music box", 
+        "id": 575, 
+        "tags": [
+            "Audio", 
+            "Motor"
+        ], 
+        "title": "Motorized Music Box"
+    }, 
     "/Electronics101/OpAmpTimer/": {
         "summary": "testing an OpAmp timer switch", 
         "id": 122, 

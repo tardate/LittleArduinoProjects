@@ -1,0 +1,7 @@
+{
+    "id": "#575",
+    "name": "Motorized Music Box",
+    "description": "A quick test of motorizing a hand-cranked music box",
+    "categories": "Audio, Motor",
+    "relative_path": "Audio/MotorizedMusicBox"
+}
