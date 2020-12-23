@@ -1,6 +1,6 @@
-# 577 Little Electronics and Arduino Projects
+# 578 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [屋台ラーメン The Yatai Ramen Doorbell](./Kraft/YataiRamenDoorbell) - A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound.
+> Latest addition:sparkles: [Hawker Typhoon](./Kraft/Typhoon) - Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

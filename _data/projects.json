@@ -552,6 +552,17 @@
         ], 
         "title": "Using C++ Templates"
     }, 
+    "/Kraft/Typhoon/": {
+        "summary": "Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette", 
+        "id": 578, 
+        "tags": [
+            "scale models", 
+            "Craft", 
+            "Audio", 
+            "LED"
+        ], 
+        "title": "Hawker Typhoon"
+    }, 
     "/playground/XYplotter/": {
         "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
         "id": 265, 
