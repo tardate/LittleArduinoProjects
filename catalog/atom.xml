@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-02-19T18:49:35Z</updated>
+  <updated>2021-02-24T16:49:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Schnellboot/</id>
+    <link href="https://leap.tardate.com/Kraft/Schnellboot/"/>
+    <updated>2021-02-24T16:21:26Z</updated>
+    <title>#582 Schnellboot</title>
+    <summary>Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Schnellboot/assets/Schnellboot_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="LED"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/PLANType054A/</id>
     <link href="https://leap.tardate.com/Kraft/PLANType054A/"/>
-    <updated>2021-02-19T18:45:14Z</updated>
+    <updated>2021-02-20T09:03:03Z</updated>
     <title>#581 PLA Navy Type 054A</title>
     <summary>Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLANType054A/assets/PLANType054A_build.jpg</g:image_link>

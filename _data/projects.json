@@ -1182,6 +1182,17 @@
         ], 
         "title": "Using C++ Templates"
     }, 
+    "/Kraft/Schnellboot/": {
+        "summary": "Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects", 
+        "id": 582, 
+        "tags": [
+            "scale models", 
+            "Craft", 
+            "LED", 
+            "Oscillators"
+        ], 
+        "title": "Schnellboot"
+    }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment LED display via a 74HC595 shift register", 
         "id": 177, 

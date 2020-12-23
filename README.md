@@ -1,6 +1,6 @@
-# 581 Little Electronics and Arduino Projects
+# 582 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [PLA Navy Type 054A](./Kraft/PLANType054A) - Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet).
+> Latest addition:sparkles: [Schnellboot](./Kraft/Schnellboot) - Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
