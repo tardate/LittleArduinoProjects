@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/radio/lpd433/modules/": {
+        "id": 712,
+        "title": "LPD433 Modules",
+        "summary": "description",
+        "tags": [
+            "Radio",
+            "LPD433"
+        ]
+    },
     "/books/solid-state-design-for-the-radio-amateur/": {
         "id": 711,
         "title": "Solid State Design for the Radio Amateur",
@@ -6189,7 +6198,7 @@
     },
     "/radio/lpd433/rfswitch/": {
         "id": 63,
-        "title": "RFSwitch",
+        "title": "RF Switch",
         "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing",
         "tags": [
             "Radio",

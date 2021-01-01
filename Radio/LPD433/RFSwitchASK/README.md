@@ -8,7 +8,6 @@ Here's a quick video of the circuit in action:
 
 [![RFSwitchASK demo](https://img.youtube.com/vi/mY-AEeIW1pc/0.jpg)](https://www.youtube.com/watch?v=mY-AEeIW1pc)
 
-
 ## Notes
 
 This is a continuation of the [LEAP#063 RFSwitch](../RFSwitch) project which demonstrated simple
@@ -45,7 +44,6 @@ It then sets its LED in accordance. So when sender/receiver are running, their r
 ![The Breadboard](./assets/RFSwitchASK_bb.jpg?raw=true)
 
 ![The Schematic](./assets/RFSwitchASK_schematic.jpg?raw=true)
-
 
 ## Credits and References
 

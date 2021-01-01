@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-17T09:13:00Z</updated>
+  <updated>2025-03-18T05:12:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -234,6 +234,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/radio/lpd433/modules/</id>
+    <link href="https://leap.tardate.com/radio/lpd433/modules/"/>
+    <g:image_link>https://leap.tardate.com/radio/lpd433/modules/assets/modules_build.jpg</g:image_link>
+    <updated>2025-03-18T05:12:00Z</updated>
+    <title>#712 LPD433 Modules</title>
+    <summary>description</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;description&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/lpd433/modules/assets/modules_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
+    <category term="LPD433"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/solid-state-design-for-the-radio-amateur/</id>
@@ -7540,7 +7551,7 @@
     <link href="https://leap.tardate.com/radio/lpd433/rfswitch/"/>
     <g:image_link>https://leap.tardate.com/radio/lpd433/rfswitch/assets/rfswitch_build.jpg</g:image_link>
     <updated>2019-09-22T13:54:58Z</updated>
-    <title>#063 RFSwitch</title>
+    <title>#063 RF Switch</title>
     <summary>simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/lpd433/rfswitch/assets/rfswitch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
