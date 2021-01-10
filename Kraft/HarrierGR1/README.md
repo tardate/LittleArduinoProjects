@@ -102,11 +102,11 @@ construction to pack it all in.
 
 The jet engine is built around the CD4046. The arrangement of components was a meditative evening's work!
 The result has the piezo speaker forward, and power connections to the rear.
-I retained the trimpots for volume and noise/tone mix so that I could make fine adjustments after installation.
+I retained the trim pots for volume and noise/tone mix so that I could make fine adjustments after installation.
 
 ![build_jet_engine](./assets/build_jet_engine.jpg?raw=true)
 
-The navigation strobe circuit is two 555 timers and supporting components that installed to the rear.
+The navigation strobe circuit comprises two 555 timers and supporting components installed to the rear.
 Although there is enough room to use through-hole components, I switched to surface mount resistors and capacitors for this module (just because).
 
 Note: here's where I made an irreversible mistake: I tested the strobe circuit for basic operation before installation,
@@ -205,8 +205,8 @@ The controller can either be plugged directly into the diorama base, or attached
 The new tool version of Hawker Harrier GR.1 was released in 2013 as [item code A03003](https://www.airfix.com/uk-en/hawker-siddeley-harrier-gr1-1-72.html).
 Currently it is marketed by Airfix packaged as a starter kit with [item code A55205](https://www.airfix.com/uk-en/hawker-harrier-gr1-starter-set-1-72.html).
 
-I obtained my ket from [Hobby Bounties in Singapore](https://hobbybounties.com/airfix-medium-starter-set-hawker-siddeley-harrier-gr1-1-72-scale-model-kit/)
-for SGD$41.50. At the time pretty much everything was closed for COVID19 containment, but I was so glad to find that they were still shipping online orders.
+I obtained my kit from [Hobby Bounties in Singapore](https://hobbybounties.com/airfix-medium-starter-set-hawker-siddeley-harrier-gr1-1-72-scale-model-kit/)
+for SGD$41.50. At the time pretty much everything was closed for COVID19 containment, but I was glad to find that they were still shipping online orders.
 
 The kit comes in 89 parts on 5 sprues (one transparent).
 
@@ -233,8 +233,8 @@ This is replaced in the final build with a "scenery plug" and the wires painted 
 
 > Whether to weather or not? That is the question!
 
-I'm so impressed by my paint job - far better than I think I ever achieved back in the day, that I am now faced with a dilemma:
-should I attempt some weathering or not? ESpecially in this environment, one would expect a pretty grimy finish, especially on the underside.
+I'm so impressed by my paint job - far better than I think I ever achieved back in the day - that I am now faced with a dilemma:
+should I attempt some weathering or not? Especially in this environment, one would expect a pretty grimy finish, particularly on the underside.
 I will have to think on it - don't want to steal defeat from the jaws of victory by fiddling around with the model too much!
 
 ## Diorama
@@ -291,11 +291,13 @@ Some demonstration videos:
 
 ## Final Thoughts
 
-This is the first model I've made in mumble-mumble decades. The electronics were the easy bit as that's what I've been doing more recently.
+This is the first model I've made in *mumble-mumble* decades.
+The electronics were the easy part as that's what I've been playing with more recently.
+
 On reflection, I have mixed feelings about the paint job: it's not a "magazine quality" finish,
 but probably better than anything I achieved back in the day, and I was just brush painting using the paints from the starter kit.
-Some of the Humbrol colours (notably 33 matt black and 163 dark green) seemed prone to be a bit gritty with undisolved pigment,
-but it was a good opportunity to "brush up" on my technique. Looking forward to do better in another project.
+Some of the Humbrol colours (notably 33 matt black and 163 dark green) seemed prone to be a bit gritty with undissolved pigment,
+but it was a good opportunity to "brush up" on my technique. Looking forward to doing better in another project.
 
 A few things I may come back and take care of later:
 

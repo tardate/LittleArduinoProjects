@@ -1,6 +1,6 @@
 # 577 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [屋台ラーメン The Yatai Ramen Doorbell](./Kraft/YataiRamenDoorbell") - A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound.
+> Latest addition:sparkles: [屋台ラーメン The Yatai Ramen Doorbell](./Kraft/YataiRamenDoorbell) - A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -106,7 +106,12 @@ Code for the transmitter is in [Transmitter/Transmitter.ino](./Transmitter/Trans
 
 ### Building the Transmitter
 
+Final assembly in my old doorbell housing:
+
 ![build_tx](./assets/build_tx.jpg?raw=true)
+
+My notes on the protoboard layout I used:
+
 ![build_tx_layout](./assets/build_tx_layout.jpg?raw=true)
 
 ### Base Station (Receiver) Circuit
@@ -118,8 +123,8 @@ When triggered, the code:
 * turns on the audio power via Q3 high-side p-channel MOSFET
 * plays sound file from the SD card using the [TMRpcm library](https://github.com/TMRh20/TMRpcm)
 
-Note that because RH_ASK and TMRpcm libraries both use Timer 1 by default, and this cannot be changed without modifying the library source code,
-the sketch avoids the conflict by re-initializing the RH_ASK driver after the sound has played
+Note that the RH_ASK and TMRpcm libraries both use Timer 1 by default, and this cannot be changed without modifying the library source code.
+The sketch avoids the conflict by re-initializing the RH_ASK driver after the sound has played.
 
 Code for the receiver is in [Receiver/Receiver.ino](./Receiver/Receiver.ino).
 
@@ -133,7 +138,12 @@ Testing transmitter and receiver on breadboards:
 
 ### Building the Receiver
 
+Installed in the base of the kit:
+
 ![build_rx](./assets/build_rx.jpg?raw=true)
+
+My notes on the protoboard layout I used:
+
 ![build_rx_layout](./assets/build_rx_layout.jpg?raw=true)
 
 Bench-testing the complete build:
@@ -142,7 +152,8 @@ Bench-testing the complete build:
 
 ## Conclusions / Next Steps
 
-Works pretty well, however the audio volume is a bit low. I'd like to look at some ways to improve that.
+Works pretty well, however the audio volume is a bit low (even with the LM386 wired for maximum 200x amplification).
+I'd like to look at some ways to improve that.
 
 ## Credits and References
 
