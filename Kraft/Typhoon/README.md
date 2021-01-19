@@ -44,7 +44,7 @@ Hawker Typhoon Mk.Ib A55208 kit from Airfix is a new tool (2013) and packaged as
 The kit is designed to have a free spinning propeller, but I don't think particularly designed to have an electric motor installed.
 There is ample room however, and I installed
 a 6.5 x 8mm micro DC Motor rated for 1.5V 0.005A and 20000RPM.
-This was from my stash or parts - but originally purchased from aliexpress.
+This was from my stash of parts - but originally purchased from aliexpress.
 
 Installing the motor means changing the sequence of assembly slightly, and also solving a few problems:
 
@@ -166,7 +166,7 @@ Testing the circuit on a breadboard:
 
 ## Gallery
 
-Some shots of the final build:
+Some glamour shots of the final build:
 
 ![Build](./assets/Typhoon_build.jpg?raw=true)
 ![hero3](./assets/hero3.jpg?raw=true)
@@ -179,6 +179,10 @@ Some shots of the final build:
 And a demo video:
 
 [![clip](https://img.youtube.com/vi/o29N3J2DKiA/0.jpg)](https://www.youtube.com/watch?v=o29N3J2DKiA)
+
+## Out and About
+
+Added a [project page on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=92160).
 
 ## Credits and References
 
