@@ -4416,14 +4416,14 @@
         ], 
         "title": "ATmegaBreadboard"
     }, 
-    "/playground/Led4Digit7Segment/": {
-        "summary": "overview of driving a 4-digit 7-segment display", 
-        "id": 58, 
+    "/Kraft/RWD8DWL/": {
+        "summary": "A simple build of the RWD-8 DWL Polish trainer 1:72 kit 72502 from IBG Models (no electronics - yet)", 
+        "id": 580, 
         "tags": [
-            "7-Segment", 
-            "Arduino"
+            "scale models", 
+            "Craft"
         ], 
-        "title": "4 Digit 7-Segment LED Displays"
+        "title": "RWD-8 DWL"
     }, 
     "/Equipment/MilliVoltmeterDIY/CustomBoardAndEnclosure/": {
         "summary": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference", 
@@ -5019,6 +5019,15 @@
             "Oscilloscope"
         ], 
         "title": "Cuttle Scope Tag"
+    }, 
+    "/playground/Led4Digit7Segment/": {
+        "summary": "overview of driving a 4-digit 7-segment display", 
+        "id": 58, 
+        "tags": [
+            "7-Segment", 
+            "Arduino"
+        ], 
+        "title": "4 Digit 7-Segment LED Displays"
     }, 
     "/Electronics101/GuitarEffects/Goblin/": {
         "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications", 

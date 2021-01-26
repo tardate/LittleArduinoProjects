@@ -1,6 +1,6 @@
-# 579 Little Electronics and Arduino Projects
+# 580 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Jie Fang CA-30 Fuel Truck](./Kraft/CA30FuelTransporter) - A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).
+> Latest addition:sparkles: [RWD-8 DWL](./Kraft/RWD8DWL) - A simple build of the RWD-8 DWL Polish trainer 1:72 kit 72502 from IBG Models (no electronics - yet).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

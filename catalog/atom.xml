@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-02-02T13:04:56Z</updated>
+  <updated>2021-02-10T14:02:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/RWD8DWL/</id>
+    <link href="https://leap.tardate.com/Kraft/RWD8DWL/"/>
+    <updated>2021-02-10T13:59:00Z</updated>
+    <title>#580 RWD-8 DWL</title>
+    <summary>A simple build of the RWD-8 DWL Polish trainer 1:72 kit 72502 from IBG Models (no electronics - yet)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RWD8DWL/assets/RWD8DWL_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/CA30FuelTransporter/</id>
     <link href="https://leap.tardate.com/Kraft/CA30FuelTransporter/"/>
-    <updated>2021-02-02T11:17:27Z</updated>
+    <updated>2021-02-02T13:39:25Z</updated>
     <title>#579 Jie Fang CA-30 Fuel Truck</title>
     <summary>A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).</summary>
     <g:image_link>https://leap.tardate.com/Kraft/CA30FuelTransporter/assets/CA30FuelTransporter_build.jpg</g:image_link>

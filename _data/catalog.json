@@ -1,5 +1,12 @@
 [
     {
+        "description": "A simple build of the RWD-8 DWL Polish trainer 1:72 kit 72502 from IBG Models (no electronics - yet)", 
+        "relative_path": "Kraft/RWD8DWL", 
+        "id": "#580", 
+        "categories": "scale models, Craft", 
+        "name": "RWD-8 DWL"
+    }, 
+    {
         "description": "A simple build of the \u89e3\u653e Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).", 
         "relative_path": "Kraft/CA30FuelTransporter", 
         "id": "#579", 
