@@ -1,5 +1,12 @@
 [
     {
+        "description": "A simple build of the \u89e3\u653e Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).", 
+        "relative_path": "Kraft/CA30FuelTransporter", 
+        "id": "#579", 
+        "categories": "scale models, Craft", 
+        "name": "Jie Fang CA-30 Fuel Truck"
+    }, 
+    {
         "description": "Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette", 
         "relative_path": "Kraft/Typhoon", 
         "id": "#578", 

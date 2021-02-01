@@ -1,6 +1,6 @@
-# 578 Little Electronics and Arduino Projects
+# 579 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Hawker Typhoon](./Kraft/Typhoon) - Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette.
+> Latest addition:sparkles: [Jie Fang CA-30 Fuel Truck](./Kraft/CA30FuelTransporter) - A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

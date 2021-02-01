@@ -543,15 +543,6 @@
         ], 
         "title": "DataLogging/VoltageToAdafruitIO"
     }, 
-    "/playground/UsingTemplates/": {
-        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
-        "id": 486, 
-        "tags": [
-            "Arduino", 
-            "C++"
-        ], 
-        "title": "Using C++ Templates"
-    }, 
     "/Kraft/Typhoon/": {
         "summary": "Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette", 
         "id": 578, 
@@ -1173,16 +1164,14 @@
         ], 
         "title": "INA226 High-side Monitor Basics"
     }, 
-    "/playground/AudioDSP/Distortion/": {
-        "summary": "arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash", 
-        "id": 237, 
+    "/playground/UsingTemplates/": {
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino", 
+        "id": 486, 
         "tags": [
-            "Audio", 
             "Arduino", 
-            "DSP", 
-            "OpAmp"
+            "C++"
         ], 
-        "title": "AudioDSP/Distortion"
+        "title": "Using C++ Templates"
     }, 
     "/playground/LED7Segment/ShiftDrive/": {
         "summary": "test control of a 7-segment LED display via a 74HC595 shift register", 
@@ -1424,6 +1413,17 @@
             "SWD"
         ], 
         "title": "Black Magic Probe"
+    }, 
+    "/playground/AudioDSP/Distortion/": {
+        "summary": "arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash", 
+        "id": 237, 
+        "tags": [
+            "Audio", 
+            "Arduino", 
+            "DSP", 
+            "OpAmp"
+        ], 
+        "title": "AudioDSP/Distortion"
     }, 
     "/Girabot/": {
         "summary": "EE40LX Electronic Interfaces robot project", 
@@ -3514,14 +3514,14 @@
         ], 
         "title": "BoldportClub/pips"
     }, 
-    "/LEDArrayDemos/RGBCalibrate/": {
-        "summary": "quick test to make sure LEDs are correctly addressable and their color can be set correctly", 
-        "id": 8, 
+    "/Kraft/CA30FuelTransporter/": {
+        "summary": "A simple build of the \u89e3\u653e Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).", 
+        "id": 579, 
         "tags": [
-            "LED Array", 
-            "Arduino"
+            "scale models", 
+            "Craft"
         ], 
-        "title": "RGBCalibrate"
+        "title": "Jie Fang CA-30 Fuel Truck"
     }, 
     "/Electronics101/Oscillators/Colpitts/": {
         "summary": "testing a basic Colpitts Oscillator circuit", 
@@ -4949,6 +4949,15 @@
             "freeform"
         ], 
         "title": "Ted's LED Clock"
+    }, 
+    "/LEDArrayDemos/RGBCalibrate/": {
+        "summary": "quick test to make sure LEDs are correctly addressable and their color can be set correctly", 
+        "id": 8, 
+        "tags": [
+            "LED Array", 
+            "Arduino"
+        ], 
+        "title": "RGBCalibrate"
     }, 
     "/Electronics101/BJT/TwoStageCommonEmitterAmplifier/": {
         "summary": "designing a two-stage common-emitter BJT amplifier", 

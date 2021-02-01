@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-01-19T15:21:11Z</updated>
+  <updated>2021-02-02T13:04:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/CA30FuelTransporter/</id>
+    <link href="https://leap.tardate.com/Kraft/CA30FuelTransporter/"/>
+    <updated>2021-02-02T11:17:27Z</updated>
+    <title>#579 Jie Fang CA-30 Fuel Truck</title>
+    <summary>A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/CA30FuelTransporter/assets/CA30FuelTransporter_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Typhoon/</id>
     <link href="https://leap.tardate.com/Kraft/Typhoon/"/>
-    <updated>2021-01-19T15:14:30Z</updated>
+    <updated>2021-01-19T16:54:32Z</updated>
     <title>#578 Hawker Typhoon</title>
     <summary>Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Typhoon/assets/Typhoon_build.jpg</g:image_link>
