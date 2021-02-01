@@ -1,6 +1,6 @@
-# 580 Little Electronics and Arduino Projects
+# 581 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [RWD-8 DWL](./Kraft/RWD8DWL) - A simple build of the RWD-8 DWL Polish trainer 1:72 kit 72502 from IBG Models (no electronics - yet).
+> Latest addition:sparkles: [PLA Navy Type 054A](./Kraft/PLANType054A) - Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

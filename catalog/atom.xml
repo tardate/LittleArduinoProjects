@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-02-10T14:02:10Z</updated>
+  <updated>2021-02-19T18:49:35Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/PLANType054A/</id>
+    <link href="https://leap.tardate.com/Kraft/PLANType054A/"/>
+    <updated>2021-02-19T18:45:14Z</updated>
+    <title>#581 PLA Navy Type 054A</title>
+    <summary>Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/PLANType054A/assets/PLANType054A_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RWD8DWL/</id>
     <link href="https://leap.tardate.com/Kraft/RWD8DWL/"/>
-    <updated>2021-02-10T13:59:00Z</updated>
+    <updated>2021-02-10T15:41:54Z</updated>
     <title>#580 RWD-8 DWL</title>
     <summary>A simple build of the RWD-8 DWL Polish trainer 1:72 kit 72502 from IBG Models (no electronics - yet)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RWD8DWL/assets/RWD8DWL_build.jpg</g:image_link>

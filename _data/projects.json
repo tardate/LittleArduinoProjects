@@ -495,6 +495,15 @@
         ], 
         "title": "ASK RF Switch"
     }, 
+    "/Kraft/PLANType054A/": {
+        "summary": "Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet)", 
+        "id": 581, 
+        "tags": [
+            "scale models", 
+            "Craft"
+        ], 
+        "title": "PLA Navy Type 054A"
+    }, 
     "/playground/PushbuttonLED/": {
         "summary": "Momentary push button switch is used to toggle the LED on and off", 
         "id": 4, 
