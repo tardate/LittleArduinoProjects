@@ -1,6 +1,6 @@
-# 587 Little Electronics and Arduino Projects
+# 588 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [RGB Auto-ranging Ohmmeter](./playground/RgbOhmMeter) - An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance.
+> Latest addition:sparkles: [Nanchang Y-5](./Kraft/NanChangY5) - A simple build of the Antonov An-2 Colt/Nanchang Y-5 1:72 model 01602 from Trumpeter. I've spied opportunities for electronics in this kit but not added any yet.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-17T17:54:37Z</updated>
+  <updated>2021-03-21T13:16:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/NanChangY5/</id>
+    <link href="https://leap.tardate.com/Kraft/NanChangY5/"/>
+    <updated>2021-03-21T13:05:37Z</updated>
+    <title>#588 Nanchang Y-5</title>
+    <summary>A simple build of the Antonov An-2 Colt/Nanchang Y-5 1:72 model 01602 from Trumpeter. I've spied opportunities for electronics in this kit but not added any yet.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/NanChangY5/assets/NanChangY5_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/RgbOhmMeter/</id>
     <link href="https://leap.tardate.com/playground/RgbOhmMeter/"/>

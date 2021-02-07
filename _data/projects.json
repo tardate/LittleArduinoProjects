@@ -1,4 +1,13 @@
 {
+    "/Kraft/NanChangY5/": {
+        "id": 588,
+        "title": "Nanchang Y-5",
+        "summary": "A simple build of the Antonov An-2 Colt/Nanchang Y-5 1:72 model 01602 from Trumpeter. I've spied opportunities for electronics in this kit but not added any yet.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/playground/RgbOhmMeter/": {
         "id": 587,
         "title": "RGB Auto-ranging Ohmmeter",
