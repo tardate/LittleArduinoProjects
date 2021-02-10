@@ -49,11 +49,13 @@ The kit goes together very easily:
 
 * parts fit well with virtually no flash
 * quite simple - only 31 parts
-* exterior surfaces are resonably detailed, but detail in the cockpit is quite limited
+* exterior surfaces are reasonably detailed, but detail in the cockpit is quite limited
 
-The kit could probably do with some photo-etch for detail. The only addition I've made is
-adding control wires with [QW-Model Q04004 0.047mm rubber rigging](http://www.qw-model.com/nd.jsp?id=59#_np=111_356)
+The kit could probably do with some after-market detail.
 
+The only addition I've made is tail control wires with [QW-Model Q04004 0.047mm rubber rigging](http://www.qw-model.com/nd.jsp?id=59#_np=111_356).
+
+I subsequently found some suitable photoetch  - [PART S72086 1/72 RWD-8 Siedlce](http://en.ibg.com.pl/en,part-s72086-1-72-rwd-8-siedlce,3,82,84,86,2880.html#.YCPpiukzaL4) - that adds mainly cockpit detail I am missing. I might just have to build another RWD-8.. IBG have at least 4 variants to choose from!
 
 ![build_01](./assets/build_01.jpg?raw=true)
 
@@ -65,16 +67,20 @@ adding control wires with [QW-Model Q04004 0.047mm rubber rigging](http://www.qw
 
 This is a great little plane that I'd never heard of before. It's very nicely rendered by IBG Models - excellent mould quality.
 It's are very simple kit but also very cheap, which is nice.
-I'd like to try another kit from this company.
-It seems many of their other 1/72 subjects e.g. [1/72 PZL.42](http://www.ibgmodels.com/72509-2/) come with photo-etch,
-as do many of their more detailed 1/32 planes and 1/35 vehicles.
 
 The only real negative was the decals - I found the carrier material seems not to be completely transparent; I'm seeing distinct yellow tint (at least from some angles). I don't **think** that was my fault in application.
+
+I'd like to try another kit from this company.
+Perhaps one of their other 1/72 subjects e.g. [1/72 PZL.42](http://www.ibgmodels.com/72509-2/) that come with photo-etch,
+or their more detailed 1/32 planes and 1/35 vehicles.
+Or perhaps another RWD-8 from the 4 variants IBG have to choose from, along with [after-market PE](http://en.ibg.com.pl/en,part-s72086-1-72-rwd-8-siedlce,3,82,84,86,2880.html#.YCPpiukzaL4) to detail the cockpit.
 
 
 ## Credits and References
 
 * [RWD-8 DWL](http://www.ibgmodels.com/72502-2/) - IBG models site
 * [RWD-8 DWL](https://www.scalemates.com/kits/ibg-models-72502-rwd-8-dwl--938420) - on Scalemates
+* [PART S72086 1/72 RWD-8 Siedlce](http://en.ibg.com.pl/en,part-s72086-1-72-rwd-8-siedlce,3,82,84,86,2880.html#.YCPpiukzaL4) - photoetch
+* [QW-Model Q04004 0.047mm rubber rigging](http://www.qw-model.com/nd.jsp?id=59#_np=111_356)
 * [RWD-8](https://en.wikipedia.org/wiki/RWD_8) - wikipedia
 * [IBG Models](http://www.ibgmodels.com)
