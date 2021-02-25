@@ -54,10 +54,10 @@ class Catalog(object):
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
-        print "Writing {}..".format(self.catalog_json)
+        print("Writing {}..".format(self.catalog_json))
         with open(self.catalog_json, 'w') as f:
             json.dump(self.metadata(), f, indent=4)
-        print "Writing {}..".format(self.data_catalog_json)
+        print("Writing {}..".format(self.data_catalog_json))
         with open(self.data_catalog_json, 'w') as f:
             json.dump(self.metadata(), f, indent=4)
 
@@ -73,7 +73,7 @@ class Catalog(object):
                 }
             return result
 
-        print "Writing {}..".format(self.data_project_json)
+        print("Writing {}..".format(self.data_project_json))
         with open(self.data_project_json, 'w') as f:
             json.dump(project_data(), f, indent=4)
 
@@ -85,9 +85,9 @@ class Catalog(object):
                 ElementTree.tostring(doc, 'utf-8')
             ).toprettyxml(indent="  ")
             with open(file, 'w') as f:
-                f.write(pretty_xml.encode('utf8'))
+                f.write(pretty_xml)
 
-        print "Writing {}..".format(self.catalog_atom)
+        print("Writing {}..".format(self.catalog_atom))
         root = ElementTree.Element('feed', xmlns='http://www.w3.org/2005/Atom')
         root.set('xmlns:g', 'http://base.google.com/ns/1.0')
         ElementTree.SubElement(root, "title").text = "LEAP: Little Electronic and Arduino Projects"
