@@ -1,6 +1,7 @@
-# 582 Little Electronics and Arduino Projects
+# 583 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Schnellboot](./Kraft/Schnellboot) - Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects.
+> Latest addition:sparkles: [LED Sequencer Module](./Electronics101/LED/YSJ181222) - Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222).
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

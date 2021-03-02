@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-02-25T15:20:24Z</updated>
+  <updated>2021-03-02T14:56:36Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/LED/YSJ181222/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/YSJ181222/"/>
+    <updated>2021-03-02T13:13:53Z</updated>
+    <title>#583 LED Sequencer Module</title>
+    <summary>Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222)</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/YSJ181222/assets/YSJ181222_build.jpg</g:image_link>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/Schnellboot/</id>
     <link href="https://leap.tardate.com/Kraft/Schnellboot/"/>
@@ -62,7 +71,6 @@
     <g:image_link>https://leap.tardate.com/Kraft/Typhoon/assets/Typhoon_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
-    <category term="Audio"/>
     <category term="LED"/>
   </entry>
   <entry>

@@ -1,4 +1,12 @@
 {
+    "/Electronics101/LED/YSJ181222/": {
+        "id": 583,
+        "title": "LED Sequencer Module",
+        "summary": "Testing a simple 6xLED sequencer module (YuSiJie \u5b87\u601d\u6377 YSJ181222)",
+        "tags": [
+            "LED"
+        ]
+    },
     "/Kraft/Schnellboot/": {
         "id": 582,
         "title": "Schnellboot",
@@ -44,7 +52,6 @@
         "tags": [
             "scale models",
             "Craft",
-            "Audio",
             "LED"
         ]
     },
