@@ -118,3 +118,6 @@
 [submodule "libraries/TMRpcm"]
 	path = libraries/TMRpcm
 	url = https://github.com/TMRh20/TMRpcm
+[submodule "libraries/HPDL1414"]
+	path = libraries/HPDL1414
+	url = https://github.com/marecl/HPDL1414

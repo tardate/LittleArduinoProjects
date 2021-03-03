@@ -1,7 +1,6 @@
-# 583 Little Electronics and Arduino Projects
+# 584 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [LED Sequencer Module](./Electronics101/LED/YSJ181222) - Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222).
-
+> Latest addition:sparkles: [HPDL1414](./Electronics101/LED/HPDL1414) - Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

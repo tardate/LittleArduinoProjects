@@ -17,6 +17,7 @@ Some projects require additional libraries. For example:
 * [EnableInterrupt](https://github.com/GreyGnome/EnableInterrupt) - Flexible interrupt management
 * [FastLED](http://fastled.io/) - used by LED array projects
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) - generally used for precision timing
+* [HPDL1414](https://github.com/marecl/HPDL1414) - used for driving HPDL1414 displays
 * [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient) - EthernetShield projects
 * [LedControl](https://github.com/wayoda/LedControl) - LED matrix control
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C

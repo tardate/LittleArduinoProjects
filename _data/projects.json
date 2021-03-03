@@ -1,4 +1,12 @@
 {
+    "/Electronics101/LED/HPDL1414/": {
+        "id": 584,
+        "title": "HPDL1414",
+        "summary": "Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino",
+        "tags": [
+            "LED"
+        ]
+    },
     "/Electronics101/LED/YSJ181222/": {
         "id": 583,
         "title": "LED Sequencer Module",
