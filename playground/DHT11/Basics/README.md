@@ -1,4 +1,4 @@
-# #301 DHT11/Basics
+# #301 DHT11 Basics
 
 Test basic temperature and humidity readings with the DHT11 sensor.
 
@@ -23,8 +23,7 @@ Adafruit have support for the DHT11 within their sensor framework; I'll try that
 
 The [Basic.ino](./Basic.ino) sketch simply outputs current readings to the console:
 
-![console-output](./assets/console-output.jpg?raw=true)
-
+![console-output](./assets/console-output.png?raw=true)
 
 ## Construction
 

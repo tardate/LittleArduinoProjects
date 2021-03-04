@@ -2632,7 +2632,7 @@
     },
     "/playground/DHT11/Basics/": {
         "id": 301,
-        "title": "DHT11/Basics",
+        "title": "DHT11 Basics",
         "summary": "test basic temperature and humidity readings with the DHT11 sensor",
         "tags": [
             "Sensors",
