@@ -1,4 +1,15 @@
 {
+    "/Electronics101/TemperatureSensors/LM335/": {
+        "id": 598,
+        "title": "LM335 Temperature Sensor",
+        "summary": "Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD",
+        "tags": [
+            "Sensors",
+            "LM335",
+            "LCD",
+            "Arduino"
+        ]
+    },
     "/Electronics101/Power/WirelessLed/": {
         "id": 597,
         "title": "Simple Wireless Power LED",

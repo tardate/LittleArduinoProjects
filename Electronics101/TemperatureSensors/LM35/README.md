@@ -11,11 +11,11 @@ and display the result on a Nokia 5110 comptible LCD.
 
 The LM35 is part of a series of easy to use temperature sensors:
 
-|Sensor           | Output Voltage                                 | Linearity |
-|-----------------|------------------------------------------------|-----------|
-|LM35 (LM35DZ)    | proportional to temperature in Celsius (ºC)    | 10mV/ºC   |
-|LM335            | proportional to temperature in Kelvin (ºK)     | 10mV/ºK   |
-|LM34             | proportional to temperature in Fahrenheit (ºF) | 10mV/ºF   |
+| Sensor | Output Voltage                                 | Linearity |
+|--------|------------------------------------------------|-----------|
+| LM34   | proportional to temperature in Fahrenheit (ºF) | 10mV/ºF   |
+| LM35   | proportional to temperature in Celsius (ºC)    | 10mV/ºC   |
+| LM335  | proportional to temperature in Kelvin (ºK)     | 10mV/ºK   |
 
 Specifications for the LM35:
 

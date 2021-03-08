@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-08-19T14:18:40Z</updated>
+  <updated>2021-08-23T10:28:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/TemperatureSensors/LM335/</id>
+    <link href="https://leap.tardate.com/Electronics101/TemperatureSensors/LM335/"/>
+    <updated>2021-08-23T10:15:06Z</updated>
+    <title>#598 LM335 Temperature Sensor</title>
+    <summary>Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/TemperatureSensors/LM335/assets/LM335_build.jpg</g:image_link>
+    <category term="Sensors"/>
+    <category term="LM335"/>
+    <category term="LCD"/>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Power/WirelessLed/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/WirelessLed/"/>
-    <updated>2021-08-19T14:15:41Z</updated>
+    <updated>2021-08-19T14:45:20Z</updated>
     <title>#597 Simple Wireless Power LED</title>
     <summary>Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/WirelessLed/assets/WirelessLed_build.jpg</g:image_link>

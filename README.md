@@ -1,7 +1,6 @@
-# 597 Little Electronics and Arduino Projects
+# 598 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Simple Wireless Power LED](./Electronics101/Power/WirelessLed) - Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration.
-
+> Latest addition:sparkles: [LM335 Temperature Sensor](./Electronics101/TemperatureSensors/LM335) - Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
