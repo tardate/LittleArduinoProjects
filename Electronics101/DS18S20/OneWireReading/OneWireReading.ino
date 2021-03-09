@@ -51,12 +51,10 @@ void print_address() {
   else {
       Serial.println(" (Unknown)");
   }
-
 }
 
 
 bool find_device() {
-
   ds.reset_search();
   if ( !ds.search(ds_address)) {
       Serial.print("No more ds_addressesses.\n");

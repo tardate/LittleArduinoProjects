@@ -1,4 +1,4 @@
-# #219 DS18S20/OneWireReading
+# #219 DS18S20 1-Wire Reading
 
 Basic interrogation of a DS18S20 using 1-wire protocol
 

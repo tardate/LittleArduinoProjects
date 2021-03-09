@@ -3424,9 +3424,9 @@
             "avrdude"
         ]
     },
-    "/playground/DS18S20/OneWireReading/": {
+    "/Electronics101/DS18S20/OneWireReading/": {
         "id": 219,
-        "title": "DS18S20/OneWireReading",
+        "title": "DS18S20 1-Wire Reading",
         "summary": "basic interrogation of a DS18S20 using 1-wire protocol",
         "tags": [
             "Sensors",

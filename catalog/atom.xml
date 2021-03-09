@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-04T11:34:54Z</updated>
+  <updated>2021-03-09T14:31:46Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -3802,12 +3802,12 @@
     <category term="avrdude"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/playground/DS18S20/OneWireReading/</id>
-    <link href="https://leap.tardate.com/playground/DS18S20/OneWireReading/"/>
+    <id>https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/</id>
+    <link href="https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/"/>
     <updated>2016-06-06T16:28:39Z</updated>
-    <title>#219 DS18S20/OneWireReading</title>
+    <title>#219 DS18S20 1-Wire Reading</title>
     <summary>basic interrogation of a DS18S20 using 1-wire protocol</summary>
-    <g:image_link>https://leap.tardate.com/playground/DS18S20/OneWireReading/assets/OneWireReading_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/assets/OneWireReading_build.jpg</g:image_link>
     <category term="Sensors"/>
     <category term="Arduino"/>
   </entry>
