@@ -4,7 +4,6 @@ Reads a photocell/light-dependent resistor and adjusts the blink rate of an LED 
 
 ![The Build](./assets/LightOrNot_build.jpg?raw=true)
 
-
 ## Notes
 
 The LDR and 10k resistor act as a voltage divider. The sequence and resistor selection depends on the LDR.
@@ -17,12 +16,15 @@ so this will approach 1023 in strong light, and approach 0 in darkness. So the f
 
 I could swap the 10k resistor and the LDR to switch the readings scale: i.e. approach 1023 when dark, and approach 0 when light.
 
-![The Breadboard Schematic](./assets/LightOrNot_bb.jpg?raw=true)
+## Construction
+
+![The Breadboard](./assets/LightOrNot_bb.jpg?raw=true)
+
+![The Schematic](./assets/LightOrNot_schematic.jpg?raw=true)
+
+![The Build](./assets/LightOrNot_build.jpg?raw=true)
 
 ## Credits and References
 
 * Based on the [Arduino AnalogInput](http://www.arduino.cc/en/Tutorial/AnalogInput) example
 * [Simple Light Reading With LDR + Arduino](http://bildr.org/2012/11/photoresistor-arduino/) project and discussion
-
-
-

@@ -1,7 +1,7 @@
 {
-    "id": "#014", 
-    "name": "AsyncLedStripEffects", 
-    "description": "demo effects on the LED strip driven using timer interrupt", 
-    "categories": "LED Array, Timing, Arduino", 
+    "id": "#014",
+    "name": "LED Array Async Effects",
+    "description": "demo effects on the LED strip driven using timer interrupt",
+    "categories": "LED Array, Timing, Arduino",
     "relative_path": "LEDArrayDemos/AsyncLedStripEffects"
 }

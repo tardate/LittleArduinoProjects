@@ -26,16 +26,15 @@
 
  */
 
-// These constants won't change.  They're used to give names
-// to the pins used:
-const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
-const int analogOutPin = 9; // Analog output pin that the LED is attached to
+// These constants won't change.  They're used to give names to the pins used:
+const int analogInPin = A0; // Analog input pin that the potentiometer is attached to
+const int analogOutPin = 9; // PWM output pin that the LED is attached to
 
-int sensorValue = 0;        // value read from the pot
-int outputValue = 0;        // value output to the PWM (analog out)
+int sensorValue = 0; // value read from the pot
+int outputValue = 0; // value output to the PWM (analog out)
 
 void setup() {
-  Serial.begin(115200);  // initialize serial communications
+  Serial.begin(115200); // initialize serial communications
 }
 
 void loop() {
@@ -46,7 +45,7 @@ void loop() {
 
   // change the analog out value:
   analogWrite(analogOutPin, outputValue);
-  logSettings(sensorValue,outputValue);
+  logSettings(sensorValue, outputValue);
 
   // wait 2 milliseconds before the next loop
   // for the analog-to-digital converter to settle
@@ -55,7 +54,7 @@ void loop() {
 }
 
 // print the results to the serial monitor:
-void logSettings(int reading,int setting) {
+void logSettings(int reading, int setting) {
   Serial.print("Sensor: ");
   Serial.print(reading);
   Serial.print(", LED: ");

@@ -1,11 +1,10 @@
-# #014 AsyncLedStripEffects
+# #014 LED Array Async Effects
 
 Demonstrates timer-interrupt triggering of addressable LED array effects using the [FlexiTimer2 library](https://github.com/wimleers/flexitimer2).
 
 Here's a quick video of the demo:
 
 [![AsyncLedStripEffects - using a timer interrupt to run effects on an LED array](https://img.youtube.com/vi/oE8yIUtl858/0.jpg)](https://www.youtube.com/watch?v=oE8yIUtl858)
-
 
 ## Notes
 

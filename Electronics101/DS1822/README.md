@@ -53,4 +53,3 @@ The sketch was written to work with the DS1822, but it can also handle DS18S20 a
 
 * [DS1822 product info and datasheet](https://www.maximintegrated.com/en/products/sensors/DS1822.html)
 * [APPLICATION NOTE 4377 1-WIRE PROTOCOL PDF OF DS18S20 VS DS18B20 DIGITAL THERMOMETERS](https://www.maximintegrated.com/en/design/technical-documents/app-notes/4/4377.html)
-* [name](url)

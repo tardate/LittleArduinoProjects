@@ -54,7 +54,6 @@ Note: the schematic shows 1kΩ current-limiting resistors R3, R4 for the red LED
 
 ## Construction
 
-
 ![The Breadboard](./assets/LevelIndicatorLM3915_bb.jpg?raw=true)
 
 ![The Schematic](./assets/LevelIndicatorLM3915_schematic.jpg?raw=true)

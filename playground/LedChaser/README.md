@@ -1,9 +1,8 @@
-# #003 LedChaser
+# #003 LED Chaser
 
 Blinks a series of 12 LEDs in a continuous loop.
 
 ![The Build](./assets/LedChaser_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -13,7 +12,11 @@ anode of a LED: [not true](http://electronics.stackexchange.com/questions/13746/
 This circuit simplifies things with a single resistor (1k is about right for the LEDs I used) on the common
 cathode part of the circuit. That's fine in this case because we're only going to have one LED on at any time.
 
-![The Breadboard Schematic](./assets/LedChaser_bb.jpg?raw=true)
+## Construction
+
+![Breadboard](./assets/LedChaser_bb.jpg?raw=true)
+
+![Schematic](./assets/LedChaser_schematic.jpg?raw=true)
 
 ## Credits and References
 

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-09T16:29:46Z</updated>
+  <updated>2021-03-12T14:50:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/DS1822/</id>
     <link href="https://leap.tardate.com/Electronics101/DS1822/"/>
-    <updated>2021-03-09T16:24:29Z</updated>
+    <updated>2021-03-09T16:32:05Z</updated>
     <title>#585 DS1822 1-Wire Reading</title>
     <summary>Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DS1822/assets/DS1822_build.jpg</g:image_link>
@@ -3815,7 +3815,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/</id>
     <link href="https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/"/>
-    <updated>2021-03-09T16:16:10Z</updated>
+    <updated>2021-03-09T16:32:05Z</updated>
     <title>#219 DS18S20 1-Wire Reading</title>
     <summary>basic interrogation of a DS18S20 using 1-wire protocol</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/assets/OneWireReading_build.jpg</g:image_link>
@@ -5876,7 +5876,7 @@
     <id>https://leap.tardate.com/LEDArrayDemos/AsyncLedStripEffects/</id>
     <link href="https://leap.tardate.com/LEDArrayDemos/AsyncLedStripEffects/"/>
     <updated>2016-06-23T14:50:15Z</updated>
-    <title>#014 AsyncLedStripEffects</title>
+    <title>#014 LED Array Async Effects</title>
     <summary>demo effects on the LED strip driven using timer interrupt</summary>
     <g:image_link>https://leap.tardate.com/LEDArrayDemos/AsyncLedStripEffects/assets/AsyncLedStripEffects_build.jpg</g:image_link>
     <category term="LED Array"/>
@@ -5937,7 +5937,7 @@
     <id>https://leap.tardate.com/LEDArrayDemos/RGBCalibrate/</id>
     <link href="https://leap.tardate.com/LEDArrayDemos/RGBCalibrate/"/>
     <updated>2016-06-23T14:50:15Z</updated>
-    <title>#008 RGBCalibrate</title>
+    <title>#008 LED Array RGB Calibration</title>
     <summary>quick test to make sure LEDs are correctly addressable and their color can be set correctly</summary>
     <g:image_link>https://leap.tardate.com/LEDArrayDemos/RGBCalibrate/assets/RGBCalibrate_build.jpg</g:image_link>
     <category term="LED Array"/>
@@ -5947,7 +5947,7 @@
     <id>https://leap.tardate.com/LEDArrayDemos/</id>
     <link href="https://leap.tardate.com/LEDArrayDemos/"/>
     <updated>2016-06-23T14:50:15Z</updated>
-    <title>#007 LEDArrayDemos</title>
+    <title>#007 Programmable LED Arrays</title>
     <summary>Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...</summary>
     <g:image_link>https://leap.tardate.com/LEDArrayDemos/assets/LEDArrayDemos_build.jpg</g:image_link>
     <category term="LED Array"/>
@@ -5988,7 +5988,7 @@
     <id>https://leap.tardate.com/playground/LedChaser/</id>
     <link href="https://leap.tardate.com/playground/LedChaser/"/>
     <updated>2016-06-23T14:50:15Z</updated>
-    <title>#003 LEDChaser</title>
+    <title>#003 LED Chaser</title>
     <summary>blinks a series of 12 LEDs in a coninuous loop</summary>
     <g:image_link>https://leap.tardate.com/playground/LedChaser/assets/LedChaser_build.jpg</g:image_link>
     <category term="LED"/>

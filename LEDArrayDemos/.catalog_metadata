@@ -1,7 +1,7 @@
 {
-    "id": "#007", 
-    "name": "LEDArrayDemos", 
-    "description": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...", 
-    "categories": "LED Array, Arduino", 
+    "id": "#007",
+    "name": "Programmable LED Arrays",
+    "description": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...",
+    "categories": "LED Array, Arduino",
     "relative_path": "LEDArrayDemos"
 }

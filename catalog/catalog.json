@@ -3998,7 +3998,7 @@
     },
     {
         "id": "#014",
-        "name": "AsyncLedStripEffects",
+        "name": "LED Array Async Effects",
         "description": "demo effects on the LED strip driven using timer interrupt",
         "categories": "LED Array, Timing, Arduino",
         "relative_path": "LEDArrayDemos/AsyncLedStripEffects"
@@ -4040,14 +4040,14 @@
     },
     {
         "id": "#008",
-        "name": "RGBCalibrate",
+        "name": "LED Array RGB Calibration",
         "description": "quick test to make sure LEDs are correctly addressable and their color can be set correctly",
         "categories": "LED Array, Arduino",
         "relative_path": "LEDArrayDemos/RGBCalibrate"
     },
     {
         "id": "#007",
-        "name": "LEDArrayDemos",
+        "name": "Programmable LED Arrays",
         "description": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...",
         "categories": "LED Array, Arduino",
         "relative_path": "LEDArrayDemos"
@@ -4075,7 +4075,7 @@
     },
     {
         "id": "#003",
-        "name": "LEDChaser",
+        "name": "LED Chaser",
         "description": "blinks a series of 12 LEDs in a coninuous loop",
         "categories": "LED, Arduino",
         "relative_path": "playground/LedChaser"

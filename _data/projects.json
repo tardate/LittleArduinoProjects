@@ -5291,7 +5291,7 @@
     },
     "/LEDArrayDemos/AsyncLedStripEffects/": {
         "id": 14,
-        "title": "AsyncLedStripEffects",
+        "title": "LED Array Async Effects",
         "summary": "demo effects on the LED strip driven using timer interrupt",
         "tags": [
             "LED Array",
@@ -5346,7 +5346,7 @@
     },
     "/LEDArrayDemos/RGBCalibrate/": {
         "id": 8,
-        "title": "RGBCalibrate",
+        "title": "LED Array RGB Calibration",
         "summary": "quick test to make sure LEDs are correctly addressable and their color can be set correctly",
         "tags": [
             "LED Array",
@@ -5355,7 +5355,7 @@
     },
     "/LEDArrayDemos/": {
         "id": 7,
-        "title": "LEDArrayDemos",
+        "title": "Programmable LED Arrays",
         "summary": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...",
         "tags": [
             "LED Array",
@@ -5392,7 +5392,7 @@
     },
     "/playground/LedChaser/": {
         "id": 3,
-        "title": "LEDChaser",
+        "title": "LED Chaser",
         "summary": "blinks a series of 12 LEDs in a coninuous loop",
         "tags": [
             "LED",

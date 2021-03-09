@@ -1,14 +1,14 @@
 # #007 Programmable LED Arrays
 
+![The Build](./assets/LEDArrayDemos_build.jpg?raw=true)
+
+## Notes
+
 I bought some [WS2811-based LED Strips](https://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) with a specific project in mind. But first, need to get them working. Here are the first tests... all good so far!
 
 * [RGBCalibrate](./RGBCalibrate) - quick test to make sure LEDs are correctly addressable and their color can be set correctly
 * [StripTease](./StripTease) - demo a range of effects on the LED strip
 * [AsyncLedStripEffects](./AsyncLedStripEffects) - timer-interrupt triggering of addressable LED array effects
-
-
-## Notes
-
 
 ### Construction
 
