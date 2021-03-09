@@ -1,6 +1,6 @@
-# 584 Little Electronics and Arduino Projects
+# 585 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [HPDL1414](./Electronics101/LED/HPDL1414) - Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino.
+> Latest addition:sparkles: [DS1822 1-Wire Reading](./Electronics101/DS1822) - Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

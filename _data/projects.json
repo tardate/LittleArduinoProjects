@@ -1,4 +1,14 @@
 {
+    "/Electronics101/DS1822/": {
+        "id": 585,
+        "title": "DS1822 1-Wire Reading",
+        "summary": "Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "LCD"
+        ]
+    },
     "/Electronics101/LED/HPDL1414/": {
         "id": 584,
         "title": "HPDL1414",

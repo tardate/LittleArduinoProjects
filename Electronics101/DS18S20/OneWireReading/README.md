@@ -2,8 +2,7 @@
 
 Basic interrogation of a DS18S20 using 1-wire protocol
 
-![DS18S20](./assets/DS18S20.jpg?raw=true)
-
+![Build](./assets/OneWireReading_build.jpg?raw=true)
 
 ## Notes
 
@@ -12,6 +11,8 @@ with a range of -55°C to +125°C, at ±0.5°C Accuracy from -10°C to +85°C.
 
 It comes in TO-92 packaging and may be powered directly (using three pins),
 or take parasitic power from the data line (using two pins).
+
+![DS18S20](./assets/DS18S20.jpg?raw=true)
 
 ### Basic Operation
 
@@ -49,11 +50,12 @@ It constantly polls the DS18S20 device and logs to the serial output. Here's an 
 
 ![The Schematic](./assets/OneWireReading_schematic.jpg?raw=true)
 
-![The Build](./assets/OneWireReading_build.jpg?raw=true)
+![Build](./assets/OneWireReading_build.jpg?raw=true)
 
 ## Credits and References
 
-* [DS18S20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18S20.html) product page and datasheet
+* [DS18S20](https://www.maximintegrated.com/en/products/sensors/DS18S20.html) product page and datasheet
+* [APPLICATION NOTE 4377 1-WIRE PROTOCOL PDF OF DS18S20 VS DS18B20 DIGITAL THERMOMETERS](https://www.maximintegrated.com/en/design/technical-documents/app-notes/4/4377.html)
 * [OneWire library](https://github.com/PaulStoffregen/OneWire)
 * [OneWire](http://playground.arduino.cc/Learning/OneWire) - Arduino playground page
 * [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects219-ds18s20-1-wire.html)
