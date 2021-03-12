@@ -1,6 +1,6 @@
-# 598 Little Electronics and Arduino Projects
+# 599 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [LM335 Temperature Sensor](./Electronics101/TemperatureSensors/LM335) - Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD.
+> Latest addition:sparkles: [Kawanishi K5Y1 Tensegrity Stand](./Kraft/K5Y1) - Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

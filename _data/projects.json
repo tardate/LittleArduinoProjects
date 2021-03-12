@@ -1,4 +1,13 @@
 {
+    "/Kraft/K5Y1/": {
+        "id": 599,
+        "title": "Kawanishi K5Y1 Tensegrity Stand",
+        "summary": "Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 \u8d64\u3068\u3093\u307c (Willow)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/TemperatureSensors/LM335/": {
         "id": 598,
         "title": "LM335 Temperature Sensor",

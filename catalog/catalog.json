@@ -1,5 +1,12 @@
 [
     {
+        "id": "#599",
+        "name": "Kawanishi K5Y1 Tensegrity Stand",
+        "description": "Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 \u8d64\u3068\u3093\u307c (Willow)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/K5Y1"
+    },
+    {
         "id": "#598",
         "name": "LM335 Temperature Sensor",
         "description": "Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD",
