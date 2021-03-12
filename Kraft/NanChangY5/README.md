@@ -96,9 +96,9 @@ Perhaps Trumpeter will one day do a new tool for the 1:72 kit. IT might also be 
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=96498)
 * [Trumpeter Antonov An-2 Colt/Nanchang Y-5 1:72, 01602](http://www.trumpeter-china.com/index.php?g=home&m=product&a=show&id=2333&l=en)
 * [Trumpeter Antonov An-2 Colt/Nanchang Y-5](https://www.aliexpress.com/item/32972860834.html) - aliexpress seller
 * [Trumpeter Antonov An-2 Colt/Nanchang Y-5](https://www.scalemates.com/kits/trumpeter-01602-antonov-an-2-colt-nanchang-y-5--102676) - scalemates
 * [Antonov An-2](https://en.wikipedia.org/wiki/Antonov_An-2) - wikipedia
 * [Hongdu Aviation Industry Group Ltd.](https://en.wikipedia.org/wiki/Hongdu) - wikipedia, formerly China Nanchang Aircraft Manufacturing Corporation
-* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=96498)

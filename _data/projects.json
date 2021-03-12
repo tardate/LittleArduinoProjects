@@ -1,8 +1,17 @@
 {
+    "/Kraft/25pdr/": {
+        "id": 593,
+        "title": "25 Pounder Field Gun and Quad",
+        "summary": "Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/snowflake/lamp/": {
         "id": 592,
         "title": "Snowflake Lamp",
-        "summary": "description",
+        "summary": "Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand",
         "tags": [
             "Craft",
             "ARM",

@@ -85,6 +85,7 @@ The final build uses a USB adapter module and the oscillator circuits are constr
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=94846)
 * [Bronco Model kit NB5004 1/350 German S-100 Class Schnellboot](http://www.cn-bronco.com/en/product/html/?316.html)
 * [Bronco NB5004 at scalemates](https://www.scalemates.com/kits/bronco-nb5004-german-s-100-class-schnellboot--224486)
 * [Bronco NB5004](https://www.aliexpress.com/item/32975158986.html) - aliexpress seller (Colorfulday Store)

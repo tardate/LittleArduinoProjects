@@ -78,6 +78,7 @@ Or perhaps another RWD-8 from the 4 variants IBG have to choose from, along with
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=93910)
 * [RWD-8 DWL](http://www.ibgmodels.com/72502-2/) - IBG models site
 * [RWD-8 DWL](https://www.scalemates.com/kits/ibg-models-72502-rwd-8-dwl--938420) - on Scalemates
 * [PART S72086 1/72 RWD-8 Siedlce](http://en.ibg.com.pl/en,part-s72086-1-72-rwd-8-siedlce,3,82,84,86,2880.html#.YCPpiukzaL4) - photoetch

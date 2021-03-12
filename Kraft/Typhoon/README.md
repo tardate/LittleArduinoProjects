@@ -121,7 +121,7 @@ The backdrop is a quick hand-painted generic "cloudy sky". This is from a trial 
 
 ![build_08_trial_fit](./assets/build_08_trial_fit.jpg?raw=true)
 
-## Final Assmbly
+## Final Assembly
 
 The motor control wires cut to length and terminated with pin headers. These plug into a socket embedded in the stardboard rocket tail.
 I've added some small stand-offs (actually through-hole compomenent wire trimmings) to the empty rocket pylon.
@@ -191,6 +191,7 @@ and was chuffed with a consolation prize.
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=92160)
 * [Medium Starter Set - Hawker Typhoon Mk.Ib A55208](https://www.airfix.com/uk-en/hawker-typhoon-ib-starter-set-1-72.html)
 * [Hobby Bounties](https://hobbybounties.com/airfix-hawker-typhoon-1b-kit-1-72/) - where I got my kit
 * [A55208 at scalemates](https://www.scalemates.com/kits/airfix-a55208-hawker-typhoon-ib--174715)

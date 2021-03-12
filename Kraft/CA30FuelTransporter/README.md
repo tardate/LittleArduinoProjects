@@ -73,6 +73,7 @@ Would/could I electrify this? Perhaps LED headlights and/or interior dome lighti
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=93196)
 * [Trumpeter Jie Fang CA-30 Fuel Truck 01104](http://www.trumpeter-china.com/index.php?g=home&m=product&a=show&id=2796&l=en)
 * [Jiefang CA-30](https://www.scalemates.com/kits/trumpeter-01104-jiefang-ca-30--195821) - scalemates
 * [Jiefang CA-30](https://en.wikipedia.org/wiki/Jiefang_CA-30) - wikipedia

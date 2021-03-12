@@ -122,5 +122,6 @@ I was lucky that day!
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=96413)
 * [Airfix De Havilland DH.82a Tiger Moth 1:72 A02106](https://www.scalemates.com/kits/airfix-a02106-havilland-dh82a-tiger-moth--1121408) - scalemates
 * [BRL72108 Brengun PE set](http://www.brengun.cz/e-shop/1-72-accessories-21/dh-82a-tiger-moth-(airfix)-1247)

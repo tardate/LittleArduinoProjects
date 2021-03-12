@@ -5,18 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-07-20T17:11:37Z</updated>
+  <updated>2021-08-01T03:06:16Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/25pdr/</id>
+    <link href="https://leap.tardate.com/Kraft/25pdr/"/>
+    <updated>2021-08-01T02:48:53Z</updated>
+    <title>#593 25 Pounder Field Gun and Quad</title>
+    <summary>Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/25pdr/assets/25pdr_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/snowflake/lamp/</id>
     <link href="https://leap.tardate.com/Kraft/snowflake/lamp/"/>
-    <updated>2021-07-20T17:10:53Z</updated>
+    <updated>2021-07-20T17:22:12Z</updated>
     <title>#592 Snowflake Lamp</title>
-    <summary>description</summary>
+    <summary>Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand</summary>
     <g:image_link>https://leap.tardate.com/Kraft/snowflake/lamp/assets/lamp_build.jpg</g:image_link>
     <category term="Craft"/>
     <category term="ARM"/>
@@ -4569,7 +4579,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/AMS1117/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/AMS1117/"/>
-    <updated>2015-10-17T16:36:54Z</updated>
+    <updated>2021-07-20T17:22:12Z</updated>
     <title>#153 AMS1117 Regulator</title>
     <summary>test an AMS1117 3.3V linear regulator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/AMS1117/assets/AMS1117_build.jpg</g:image_link>
@@ -4578,7 +4588,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LD1117/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/LD1117/"/>
-    <updated>2020-04-07T16:33:52Z</updated>
+    <updated>2021-07-20T17:22:12Z</updated>
     <title>#152 LD1117 Regulator</title>
     <summary>test an LD1117 3.3V linear regulator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LD1117/assets/LD1117_build.jpg</g:image_link>
@@ -5819,7 +5829,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/Zener/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/Zener/"/>
-    <updated>2015-03-15T05:44:03Z</updated>
+    <updated>2021-07-20T17:22:12Z</updated>
     <title>#029 Zener Regulator</title>
     <summary>demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/Zener/assets/Zener_build.jpg</g:image_link>
@@ -5837,7 +5847,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM7805/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM7805/"/>
-    <updated>2015-03-15T05:44:03Z</updated>
+    <updated>2021-07-20T17:22:12Z</updated>
     <title>#027 LM7805 Regulator</title>
     <summary>demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM7805/assets/LM7805_build.jpg</g:image_link>
@@ -5846,7 +5856,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317/"/>
-    <updated>2016-06-23T14:50:15Z</updated>
+    <updated>2021-07-20T17:22:12Z</updated>
     <title>#026 LM317 Adjustable Regulator</title>
     <summary>Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317/assets/LM317_build.jpg</g:image_link>

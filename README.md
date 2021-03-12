@@ -1,6 +1,6 @@
-# 591 Little Electronics and Arduino Projects
+# 593 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Tydirium Strobe Module](./Kraft/TydiriumStrobe/Module) - Packaging the ATtiny85 Lambda-class shuttle "Tydirium" navigation strobe circuit as a small board that can be added to an existing lighting setup.
+> Latest addition:sparkles: [25 Pounder Field Gun and Quad](./Kraft/25pdr) - Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
