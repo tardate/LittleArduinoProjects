@@ -1,5 +1,12 @@
 [
     {
+        "id": "#590",
+        "name": "Tiger Moth",
+        "description": "Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller",
+        "categories": "scale models, Craft, motor, 555 Timer",
+        "relative_path": "Kraft/TigerMoth"
+    },
+    {
         "id": "#589",
         "name": "Tydirium Strobe",
         "description": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
@@ -80,7 +87,7 @@
         "id": "#578",
         "name": "Hawker Typhoon",
         "description": "Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette",
-        "categories": "scale models, Craft, LED",
+        "categories": "scale models, Craft, LED, motor",
         "relative_path": "Kraft/Typhoon"
     },
     {

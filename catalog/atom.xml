@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-24T20:27:40Z</updated>
+  <updated>2021-04-03T17:57:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/TigerMoth/</id>
+    <link href="https://leap.tardate.com/Kraft/TigerMoth/"/>
+    <updated>2021-04-03T16:20:22Z</updated>
+    <title>#590 Tiger Moth</title>
+    <summary>Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/TigerMoth/assets/TigerMoth_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="motor"/>
+    <category term="555 Timer"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/TydiriumStrobe/</id>
     <link href="https://leap.tardate.com/Kraft/TydiriumStrobe/"/>
-    <updated>2021-03-24T19:48:00Z</updated>
+    <updated>2021-03-24T20:38:51Z</updated>
     <title>#589 Tydirium Strobe</title>
     <summary>Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/TydiriumStrobe/assets/TydiriumStrobe_build.jpg</g:image_link>
@@ -134,6 +146,7 @@
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="LED"/>
+    <category term="motor"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/YataiRamenDoorbell/</id>

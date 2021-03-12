@@ -1,4 +1,15 @@
 {
+    "/Kraft/TigerMoth/": {
+        "id": 590,
+        "title": "Tiger Moth",
+        "summary": "Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller",
+        "tags": [
+            "scale models",
+            "Craft",
+            "motor",
+            "555 Timer"
+        ]
+    },
     "/Kraft/TydiriumStrobe/": {
         "id": 589,
         "title": "Tydirium Strobe",
@@ -108,7 +119,8 @@
         "tags": [
             "scale models",
             "Craft",
-            "LED"
+            "LED",
+            "motor"
         ]
     },
     "/Kraft/YataiRamenDoorbell/": {
