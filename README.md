@@ -1,6 +1,6 @@
-# 586 Little Electronics and Arduino Projects
+# 587 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [RGB LED Fiddler](./ESP8266/RgbLedFiddler) - Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.
+> Latest addition:sparkles: [RGB Auto-ranging Ohmmeter](./playground/RgbOhmMeter) - An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

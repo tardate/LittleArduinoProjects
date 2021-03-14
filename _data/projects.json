@@ -1,4 +1,14 @@
 {
+    "/playground/RgbOhmMeter/": {
+        "id": 587,
+        "title": "RGB Auto-ranging Ohmmeter",
+        "summary": "An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance",
+        "tags": [
+            "Arduino",
+            "LED",
+            "Sensors"
+        ]
+    },
     "/ESP8266/RgbLedFiddler/": {
         "id": 586,
         "title": "RGB LED Fiddler",

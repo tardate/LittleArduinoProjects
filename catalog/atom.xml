@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-16T16:09:11Z</updated>
+  <updated>2021-03-17T17:33:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/playground/RgbOhmMeter/</id>
+    <link href="https://leap.tardate.com/playground/RgbOhmMeter/"/>
+    <updated>2021-03-17T17:14:49Z</updated>
+    <title>#587 RGB Auto-ranging Ohmmeter</title>
+    <summary>An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance</summary>
+    <g:image_link>https://leap.tardate.com/playground/RgbOhmMeter/assets/RgbOhmMeter_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="LED"/>
+    <category term="Sensors"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/ESP8266/RgbLedFiddler/</id>
     <link href="https://leap.tardate.com/ESP8266/RgbLedFiddler/"/>
-    <updated>2021-03-16T14:42:02Z</updated>
+    <updated>2021-03-16T16:45:49Z</updated>
     <title>#586 RGB LED Fiddler</title>
     <summary>Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.</summary>
     <g:image_link>https://leap.tardate.com/ESP8266/RgbLedFiddler/assets/RgbLedFiddler_build.jpg</g:image_link>

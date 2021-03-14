@@ -17,8 +17,7 @@ To save pins and simplify wiring, there are I²C adapters available - either sep
 These board basically use some form of Remote 8-Bit I/O Expander chip, such as the
 [TI PCF8574](http://www.ti.com/product/PCF8574).
 
-Another [product that is very common on aliexpress](https://www.aliexpress.com/item/5pcs-1602-2004-LCD-Adapter-Plate-IIC-I2C-Interface-lcd1602-I2C-LCD-Adapter-for-arduino-new/32656254948.html) and eBay users a part apparently from Philips, but I haven't found d datasheet for it yet.
-
+Another [product that is very common on aliexpress](https://www.aliexpress.com/item/32656254948.html) and eBay users a part apparently from Philips, but I haven't found d datasheet for it yet.
 
 ![module](./assets/module.jpg?raw=true)
 
@@ -28,7 +27,6 @@ The default address for my module turns out to be 0x3F (other common default add
 although I had to scan the address space to discover this!
 
 There are 3 unsoldered address pads on the module which I presume will allow adjusting the unit address.
-
 
 
 ## Code and Libraries
@@ -56,7 +54,8 @@ The [I2CAdapter.ino](./I2CAdapter.ino) sketch is a simple test of the library.
 
 ## Credits and References
 
-* [1602 2004 LCD Adapter Plate IIC I2C / Interface lcd1602 I2C LCD Adapter for arduino new  ](https://www.aliexpress.com/item/5pcs-1602-2004-LCD-Adapter-Plate-IIC-I2C-Interface-lcd1602-I2C-LCD-Adapter-for-arduino-new/32656254948.html)
+* [5pcs 1602 2004 LCD Adapter Plate IIC I2C / Interface lcd1602 I2C LCD Adapter for new](https://www.aliexpress.com/item/32656254948.html) - aliexpress
+* [1pcs LCD1602 LCD monitor 1602 5V blue screen](https://www.aliexpress.com/item/32663355189.html) - aliexpress
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - library I am using
 * Standard [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal) library
 * [TI PCF8574](http://www.ti.com/product/PCF8574)
