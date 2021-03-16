@@ -1,4 +1,13 @@
 {
+    "/ESP8266/RgbLedFiddler/": {
+        "id": 586,
+        "title": "RGB LED Fiddler",
+        "summary": "Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.",
+        "tags": [
+            "LED",
+            "ESP8266"
+        ]
+    },
     "/Electronics101/DS1822/": {
         "id": 585,
         "title": "DS1822 1-Wire Reading",

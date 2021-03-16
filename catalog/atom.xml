@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-12T14:50:34Z</updated>
+  <updated>2021-03-16T16:09:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/ESP8266/RgbLedFiddler/</id>
+    <link href="https://leap.tardate.com/ESP8266/RgbLedFiddler/"/>
+    <updated>2021-03-16T14:42:02Z</updated>
+    <title>#586 RGB LED Fiddler</title>
+    <summary>Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.</summary>
+    <g:image_link>https://leap.tardate.com/ESP8266/RgbLedFiddler/assets/RgbLedFiddler_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="ESP8266"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/DS1822/</id>
     <link href="https://leap.tardate.com/Electronics101/DS1822/"/>
-    <updated>2021-03-09T16:32:05Z</updated>
+    <updated>2021-03-12T15:12:34Z</updated>
     <title>#585 DS1822 1-Wire Reading</title>
     <summary>Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DS1822/assets/DS1822_build.jpg</g:image_link>
@@ -3815,7 +3825,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/</id>
     <link href="https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/"/>
-    <updated>2021-03-09T16:32:05Z</updated>
+    <updated>2021-03-12T15:12:34Z</updated>
     <title>#219 DS18S20 1-Wire Reading</title>
     <summary>basic interrogation of a DS18S20 using 1-wire protocol</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DS18S20/OneWireReading/assets/OneWireReading_build.jpg</g:image_link>

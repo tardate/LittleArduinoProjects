@@ -1,5 +1,12 @@
 [
     {
+        "id": "#586",
+        "name": "RGB LED Fiddler",
+        "description": "Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.",
+        "categories": "LED, ESP8266",
+        "relative_path": "ESP8266/RgbLedFiddler"
+    },
+    {
         "id": "#585",
         "name": "DS1822 1-Wire Reading",
         "description": "Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD",

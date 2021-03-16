@@ -1,0 +1,7 @@
+{
+    "id": "#586",
+    "name": "RGB LED Fiddler",
+    "description": "Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.",
+    "categories": "LED, ESP8266",
+    "relative_path": "ESP8266/RgbLedFiddler"
+}

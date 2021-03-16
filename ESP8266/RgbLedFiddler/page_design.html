@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      body { background-color: #ccc; }
+      .card { background-color: antiquewhite; }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3">
+                  <h5>LEAP#585 RGB Fiddler</h5>
+                  <p class="card-text">Compiled on Apr 23 2020 at 23:58:29</p>
+                </div>
+                <div class="col-4">
+
+                </div>
+                <div class="col-5">
+                  <div>
+                    <input type="color" id="color_picker" name="color_picker" value="#ffffff">
+                    <label for="color_picker">Choose a Color</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div>
+            <input type="text" id="rgb_red" name="rgb_red">
+            <label for="rgb_red">Red</label>
+          </div>
+
+          <div>
+            <input type="text" id="rgb_green" name="rgb_green">
+            <label for="rgb_green">Green</label>
+          </div>
+
+          <div>
+            <input type="text" id="rgb_blue" name="rgb_blue">
+            <label for="rgb_blue">Blue</label>
+          </div>
+
+          <div>
+            <input type="text" id="rgb_hex" name="rgb_hex">
+            <label for="rgb_hex">Hex</label>
+          </div>
+
+          <div>
+            <input type="text" id="server_response" name="server_response">
+            <label for="server_response">Server Response</label>
+          </div>
+        </div>
+        <div id="color_preview" class="col-6">
+          Color Preview
+        </div>
+      </div>
+    </div>
+
+<script type="text/javascript">
+window.addEventListener("load", startup, false);
+
+function hexToRgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    red: parseInt(result[1], 16),
+    green: parseInt(result[2], 16),
+    blue: parseInt(result[3], 16)
+  } : null;
+}
+
+function startup() {
+  var color_picker;
+  var default_color = "#ffffff";
+
+  color_picker = document.querySelector("#color_picker");
+  color_picker.value = default_color;
+  color_picker.addEventListener("input", handle_color_picker_selection, false);
+  color_picker.addEventListener("change", handle_color_picker_selection, false);
+  color_picker.select();
+}
+
+function handle_color_picker_selection(event) {
+  var element = document.querySelector("#color_preview");
+  var hex_color = event.target.value;
+  var rgb_color = hexToRgb(event.target.value);
+  if (rgb_color) {
+    element.style.backgroundColor = hex_color;
+    document.querySelector("#rgb_hex").value = hex_color;
+    document.querySelector("#rgb_red").value = rgb_color.red;
+    document.querySelector("#rgb_green").value = rgb_color.green;
+    document.querySelector("#rgb_blue").value = rgb_color.blue;
+    send_update(rgb_color);
+  }
+}
+
+var cts = true;
+
+function send_update(rgb_color) {
+  if (cts) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'http://rgb-fiddler.local/update?red=' + rgb_color.red + '&green=' + rgb_color.green + '&blue=' + rgb_color.blue);
+    xhr.onload = function() {
+      cts = true;
+      if (xhr.status === 200) {
+        document.querySelector("#server_response").value = xhr.responseText;
+      }
+    };
+    cts = false;
+    xhr.send();
+  }
+}
+</script>
+  </body>
+</html>

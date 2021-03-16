@@ -1,6 +1,6 @@
-# 585 Little Electronics and Arduino Projects
+# 586 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [DS1822 1-Wire Reading](./Electronics101/DS1822) - Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD.
+> Latest addition:sparkles: [RGB LED Fiddler](./ESP8266/RgbLedFiddler) - Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
