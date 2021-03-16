@@ -184,6 +184,11 @@ And a demo video:
 
 Added a [project page on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=92160).
 
+Entered the [Mini-Airfix Hawker aircraft model competition](https://www.facebook.com/events/432841337918315/?active_tab=discussion)
+and was chuffed with a consolation prize.
+
+![consolation_prize](./assets/consolation_prize.jpg?raw=true)
+
 ## Credits and References
 
 * [Medium Starter Set - Hawker Typhoon Mk.Ib A55208](https://www.airfix.com/uk-en/hawker-typhoon-ib-starter-set-1-72.html)
