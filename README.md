@@ -1,4 +1,4 @@
-# 606 Little Electronics and Arduino Projects
+# 607 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [Firefly](./Kraft/Firefly) - Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic
 
