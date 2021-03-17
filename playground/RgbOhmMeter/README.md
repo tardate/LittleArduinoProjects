@@ -1,6 +1,6 @@
 # #587 RGB Auto-ranging Ohmmeter
 
-An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance.
+An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance.
 
 ![Build](./assets/RgbOhmMeter_build.jpg?raw=true)
 
@@ -173,12 +173,11 @@ For the LCD, I'm using an
 and a common
 [1602/2004 I²C LCD Adapter](https://www.aliexpress.com/item/32656254948.html). Often these can be found sold as a pair/single unit.
 
-
 ![Breadboard](./assets/RgbOhmMeter_bb.jpg?raw=true)
 
 ![Schematic](./assets/RgbOhmMeter_schematic.jpg?raw=true)
 
-![Breadboard Build](./assets/RgbOhmMeter_bb_build.jpg?raw=true)
+![Build](./assets/RgbOhmMeter_build.jpg?raw=true)
 
 ## Credits and References
 
@@ -188,3 +187,4 @@ and a common
 * [Displaying digits using single RGB LEDs - Benabadji Mohammed Salim, Oran, Algeria](https://www.siliconchip.com.au/Issue/2021/March/Displaying+digits+using+single+RGB+LEDs) - Silicon Chip 2021-03, p41
 * [1602/2004 I²C LCD Adapter](https://www.aliexpress.com/item/32656254948.html) - aliexpress
 * [LCD1602 LCD monitor 1602 5V blue screen](https://www.aliexpress.com/item/32663355189.html)
+* [RGB LED Common anode](https://www.aliexpress.com/item/1895398667.html) - example from an aliexpress seller

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-03-17T17:33:18Z</updated>
+  <updated>2021-03-17T17:54:37Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,9 +14,9 @@
   <entry>
     <id>https://leap.tardate.com/playground/RgbOhmMeter/</id>
     <link href="https://leap.tardate.com/playground/RgbOhmMeter/"/>
-    <updated>2021-03-17T17:14:49Z</updated>
+    <updated>2021-03-17T17:37:59Z</updated>
     <title>#587 RGB Auto-ranging Ohmmeter</title>
-    <summary>An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance</summary>
+    <summary>An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance</summary>
     <g:image_link>https://leap.tardate.com/playground/RgbOhmMeter/assets/RgbOhmMeter_build.jpg</g:image_link>
     <category term="Arduino"/>
     <category term="LED"/>

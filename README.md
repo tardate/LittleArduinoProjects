@@ -1,6 +1,6 @@
 # 587 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [RGB Auto-ranging Ohmmeter](./playground/RgbOhmMeter) - An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance.
+> Latest addition:sparkles: [RGB Auto-ranging Ohmmeter](./playground/RgbOhmMeter) - An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -1,7 +1,7 @@
 {
     "id": "#587",
     "name": "RGB Auto-ranging Ohmmeter",
-    "description": "An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance",
+    "description": "An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance",
     "categories": "Arduino, LED, Sensors",
     "relative_path": "playground/RgbOhmMeter"
 }
