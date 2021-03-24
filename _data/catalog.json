@@ -1,5 +1,12 @@
 [
     {
+        "id": "#589",
+        "name": "Tydirium Strobe",
+        "description": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
+        "categories": "Arduino, ATmel, LED",
+        "relative_path": "Kraft/TydiriumStrobe"
+    },
+    {
         "id": "#588",
         "name": "Nanchang Y-5",
         "description": "A simple build of the Antonov An-2 Colt/Nanchang Y-5 1:72 model 01602 from Trumpeter. I've spied opportunities for electronics in this kit but not added any yet.",

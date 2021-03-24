@@ -1,6 +1,6 @@
-# 588 Little Electronics and Arduino Projects
+# 589 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Nanchang Y-5](./Kraft/NanChangY5) - A simple build of the Antonov An-2 Colt/Nanchang Y-5 1:72 model 01602 from Trumpeter. I've spied opportunities for electronics in this kit but not added any yet.
+> Latest addition:sparkles: [Tydirium Strobe](./Kraft/TydiriumStrobe) - Figuring out the navigation light strobe frequency of the Lambda-class shuttle "Tydirium" and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V).
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

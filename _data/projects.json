@@ -1,4 +1,14 @@
 {
+    "/Kraft/TydiriumStrobe/": {
+        "id": 589,
+        "title": "Tydirium Strobe",
+        "summary": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED"
+        ]
+    },
     "/Kraft/NanChangY5/": {
         "id": 588,
         "title": "Nanchang Y-5",
