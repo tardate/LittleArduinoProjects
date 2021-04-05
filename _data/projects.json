@@ -1,4 +1,14 @@
 {
+    "/Kraft/TydiriumStrobe/Module/": {
+        "id": 591,
+        "title": "Tydirium Strobe Module",
+        "summary": "Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED"
+        ]
+    },
     "/Kraft/TigerMoth/": {
         "id": 590,
         "title": "Tiger Moth",
@@ -17,7 +27,9 @@
         "tags": [
             "Arduino",
             "ATmel",
-            "LED"
+            "LED",
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/Kraft/NanChangY5/": {
@@ -536,7 +548,8 @@
         "tags": [
             "PIC",
             "LED",
-            "freeform"
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/PIC/PIC16F84ABlinky/": {
@@ -731,7 +744,9 @@
         "tags": [
             "BEAM",
             "CMOS/TTL",
-            "Sensors"
+            "Sensors",
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/Electronics101/Power/BridgeDoublerSplitSupply/": {
@@ -996,7 +1011,9 @@
             "Arduino",
             "ATmel",
             "LED",
-            "TM1638"
+            "TM1638",
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/Electronics101/Electret/SoundLevelTrigger/": {
@@ -1171,7 +1188,9 @@
         "tags": [
             "BJT",
             "Test Equipment",
-            "Oscillators"
+            "Oscillators",
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/Radio/AM/SingleTransistorTransmitter/": {
@@ -1390,7 +1409,9 @@
             "LED",
             "CMOS/TTL",
             "555 Timer",
-            "Craft"
+            "Craft",
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/playground/DataLogging/VoltageToAdafruitIO/": {

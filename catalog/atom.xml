@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-04-03T17:57:37Z</updated>
+  <updated>2021-04-06T16:08:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/TydiriumStrobe/Module/</id>
+    <link href="https://leap.tardate.com/Kraft/TydiriumStrobe/Module/"/>
+    <updated>2021-04-06T14:47:32Z</updated>
+    <title>#591 Tydirium Strobe Module</title>
+    <summary>Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/TydiriumStrobe/Module/assets/Module_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="ATmel"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/TigerMoth/</id>
     <link href="https://leap.tardate.com/Kraft/TigerMoth/"/>
-    <updated>2021-04-03T16:20:22Z</updated>
+    <updated>2021-04-03T18:06:03Z</updated>
     <title>#590 Tiger Moth</title>
     <summary>Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller</summary>
     <g:image_link>https://leap.tardate.com/Kraft/TigerMoth/assets/TigerMoth_build.jpg</g:image_link>
@@ -33,6 +44,8 @@
     <category term="Arduino"/>
     <category term="ATmel"/>
     <category term="LED"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/NanChangY5/</id>
@@ -607,7 +620,8 @@
     <g:image_link>https://leap.tardate.com/PIC/TedsClock/assets/TedsClock_build.jpg</g:image_link>
     <category term="PIC"/>
     <category term="LED"/>
-    <category term="freeform"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/PIC/PIC16F84ABlinky/</id>
@@ -824,6 +838,8 @@
     <category term="BEAM"/>
     <category term="CMOS/TTL"/>
     <category term="Sensors"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/BridgeDoublerSplitSupply/</id>
@@ -1118,6 +1134,8 @@
     <category term="ATmel"/>
     <category term="LED"/>
     <category term="TM1638"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Electret/SoundLevelTrigger/</id>
@@ -1311,6 +1329,8 @@
     <category term="BJT"/>
     <category term="Test Equipment"/>
     <category term="Oscillators"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Radio/AM/SingleTransistorTransmitter/</id>
@@ -1554,6 +1574,8 @@
     <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
     <category term="Craft"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/DataLogging/VoltageToAdafruitIO/</id>

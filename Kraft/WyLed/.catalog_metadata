@@ -2,6 +2,6 @@
     "id": "#483",
     "name": "WyLed",
     "description": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.",
-    "categories": "Arduino, ATmel, LED, TM1638",
+    "categories": "Arduino, ATmel, LED, TM1638, Circuit Sculpture, Freeform",
     "relative_path": "Kraft/WyLed"
 }

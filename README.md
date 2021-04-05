@@ -1,6 +1,6 @@
-# 590 Little Electronics and Arduino Projects
+# 591 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Tiger Moth](./Kraft/TigerMoth) - Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller.
+> Latest addition:sparkles: [Tydirium Strobe Module](./Kraft/TydiriumStrobe/Module) - Packaging the ATtiny85 Lambda-class shuttle "Tydirium" navigation strobe circuit as a small board that can be added to an existing lighting setup.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

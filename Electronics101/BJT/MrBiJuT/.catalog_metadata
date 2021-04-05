@@ -1,7 +1,7 @@
 {
-    "id": "#465", 
-    "name": "MrBiJuT", 
-    "description": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator", 
-    "categories": "BJT, Test Equipment, Oscillators", 
+    "id": "#465",
+    "name": "MrBiJuT",
+    "description": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator",
+    "categories": "BJT, Test Equipment, Oscillators, Circuit Sculpture, Freeform",
     "relative_path": "Electronics101/BJT/MrBiJuT"
 }

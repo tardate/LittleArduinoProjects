@@ -1,5 +1,12 @@
 [
     {
+        "id": "#591",
+        "name": "Tydirium Strobe Module",
+        "description": "Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.",
+        "categories": "Arduino, ATmel, LED",
+        "relative_path": "Kraft/TydiriumStrobe/Module"
+    },
+    {
         "id": "#590",
         "name": "Tiger Moth",
         "description": "Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller",
@@ -10,7 +17,7 @@
         "id": "#589",
         "name": "Tydirium Strobe",
         "description": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
-        "categories": "Arduino, ATmel, LED",
+        "categories": "Arduino, ATmel, LED, Circuit Sculpture, Freeform",
         "relative_path": "Kraft/TydiriumStrobe"
     },
     {
@@ -402,7 +409,7 @@
         "id": "#533",
         "name": "Ted's LED Clock",
         "description": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A",
-        "categories": "PIC, LED, freeform",
+        "categories": "PIC, LED, Circuit Sculpture, Freeform",
         "relative_path": "PIC/TedsClock"
     },
     {
@@ -549,7 +556,7 @@
         "id": "#512",
         "name": "Greater Simple Sound Effects",
         "description": "Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.",
-        "categories": "BEAM, CMOS/TTL, Sensors",
+        "categories": "BEAM, CMOS/TTL, Sensors, Circuit Sculpture, Freeform",
         "relative_path": "Audio/GreaterSimpleSoundEffects"
     },
     {
@@ -752,7 +759,7 @@
         "id": "#483",
         "name": "WyLed",
         "description": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.",
-        "categories": "Arduino, ATmel, LED, TM1638",
+        "categories": "Arduino, ATmel, LED, TM1638, Circuit Sculpture, Freeform",
         "relative_path": "Kraft/WyLed"
     },
     {
@@ -878,7 +885,7 @@
         "id": "#465",
         "name": "MrBiJuT",
         "description": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator",
-        "categories": "BJT, Test Equipment, Oscillators",
+        "categories": "BJT, Test Equipment, Oscillators, Circuit Sculpture, Freeform",
         "relative_path": "Electronics101/BJT/MrBiJuT"
     },
     {
@@ -1046,7 +1053,7 @@
         "id": "#441",
         "name": "Pollen8",
         "description": "a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit",
-        "categories": "LED, CMOS/TTL, 555 Timer, Craft",
+        "categories": "LED, CMOS/TTL, 555 Timer, Craft, Circuit Sculpture, Freeform",
         "relative_path": "Kraft/Pollen8"
     },
     {
