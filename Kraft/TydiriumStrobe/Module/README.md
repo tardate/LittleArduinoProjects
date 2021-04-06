@@ -50,6 +50,13 @@ For example:
 * a 12V power pack is powering a LED array
 * will work fine, as long as the negative of the 12V power pack is also connected to the negative of the battery pack
 
+## Demonstration
+
+Here's a quick test with a 3V (2xAAA) battery pack. At this voltage, an LEd doesn't really need a curret limiting resistor,
+so in this example, an LED is just directly wired from #v to the LED- control terminal.
+
+![Module_test](./assets/Module_test.jpg?raw=true)
+
 ## Programming
 
 The ATtiny85 is programmed with the [TydiriumStrobe.ino](../TydiriumStrobe.ino) sketch.
