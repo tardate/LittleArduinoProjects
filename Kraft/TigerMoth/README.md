@@ -112,6 +112,14 @@ Final engine test before committing to assembly..
 
 [![clip](https://img.youtube.com/vi/O2OxTApTwp4/0.jpg)](https://www.youtube.com/watch?v=O2OxTApTwp4)
 
+## Out and About
+
+After a last minute scramble, I had the model ready just in time to give it a showing at
+the Mini-Airfix de Havilland Competition run by [Hobby Bounties](https://hobbybounties.com/).
+I was lucky that day!
+
+![dehavilland_competition_2021](./assets/dehavilland_competition_2021.jpg?raw=true)
+
 ## Credits and References
 
 * [Airfix De Havilland DH.82a Tiger Moth 1:72 A02106](https://www.scalemates.com/kits/airfix-a02106-havilland-dh82a-tiger-moth--1121408) - scalemates
