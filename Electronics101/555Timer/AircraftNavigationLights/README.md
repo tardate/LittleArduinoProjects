@@ -6,7 +6,7 @@ Demonstrating a simple aircraft navigation beacon sequence implemented with a co
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Fff-AiNyPPc/0.jpg)](https://www.youtube.com/watch?v=Fff-AiNyPPc)
+[![clip](https://img.youtube.com/vi/AiXiwGwCQng/0.jpg)](https://www.youtube.com/watch?v=AiXiwGwCQng)
 
 ## Notes
 
@@ -15,9 +15,9 @@ It runs white LED beacons that flash twice then delay 2 seconds before repeating
 
 These apparently simulate [anti-collision strobe lights](https://en.wikipedia.org/wiki/Navigation_light#Aviation_navigation_lights) for aircraft.
 
-After a few tweaks found the circuit works reasonably well, however it is very touchy and component values need to be carefully selected in order ot get the timing right.
+After a few tweaks found the circuit works reasonably well, however it is very touchy and component values need to be carefully selected in order to get the timing right.
 
-To show the circuit off a littly better, I fashioned a little aeroplane model from some popsicle sticks that sits proudly atop a 9V battery.
+To show the circuit off a little better, I fashioned a little aeroplane model from some popsicle sticks that sits proudly atop a 9V battery.
 
 ## Construction
 
@@ -50,6 +50,7 @@ In order to ensure two LED flashes each cycle, the on time of the first timer mu
 
 ## Credits and References
 
+* [project page on hackaday.io](https://hackaday.io/project/179479-freeform-popsicle-airways)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](http://visual555.tardate.com)
 * [Aircraft Navigation Beacon](http://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html#Beacon) - talkingelectronics
