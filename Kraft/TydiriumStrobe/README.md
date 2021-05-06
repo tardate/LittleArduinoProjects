@@ -82,6 +82,7 @@ wire off-cuts!
 
 ## Credits and References
 
+* [project page on hackaday.io](https://hackaday.io/project/179600-tydirium-strobe-lights)
 * [ModelGeek's Podcast Episode 1; Who the Heck Are the ModelGeeks, What Do They Build and Why?](https://www.modelgeekspodcast.com/1568581/7191259-modelgeeks-episode-1-who-the-heck-are-the-modelgeeks-what-do-they-build-and-why)
 * [Star Wars Shuttle Tydirium AMT/ERTL | No. 8783 | 1:89](https://www.scalemates.com/kits/amt-ertl-8783-shuttle-tydirium--237585) - scalemates
 * [Lambda-class Shuttles](https://www.theforce.net/swtc/lambda.html)
