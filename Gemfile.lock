@@ -66,7 +66,7 @@ DEPENDENCIES
   bundler (= 2.0.1)
   jekyll (~> 4.0.0)
   jekyll-readme-index
-  kramdown (>= 2.3.0)
+  kramdown (>= 2.3.1)
   tzinfo-data
 
 BUNDLED WITH
