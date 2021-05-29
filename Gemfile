@@ -29,4 +29,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # security updates
 gem "kramdown", ">= 2.3.1"
-
+gem "rexml", ">= 3.2.5"
