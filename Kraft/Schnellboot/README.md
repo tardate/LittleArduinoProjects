@@ -90,3 +90,4 @@ The final build uses a USB adapter module and the oscillator circuits are constr
 * [Bronco NB5004](https://www.aliexpress.com/item/32975158986.html) - aliexpress seller (Colorfulday Store)
 * [E-boat](https://en.wikipedia.org/wiki/E-boat) - wikipedia
 * [LM324N Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
+* [Bronco Models: Schnellboot-Klasse S-100 der Deutschen Kriegsmarine, 1/350](http://www.modellmarine.de/index.php/bausatzvorstellungen/286-bro/2061-bronco-models-deutsche-schnellboot-klasse-s-100-1350) - good kit review at modellmarine.de
