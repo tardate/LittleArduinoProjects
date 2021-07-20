@@ -1,7 +1,0 @@
-{
-    "id": "#029", 
-    "name": "PowerZener", 
-    "description": "test and graph a power supply regulated with a 1N4733 zener diode", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/PowerZener"
-}

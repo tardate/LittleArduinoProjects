@@ -1,7 +1,8 @@
-# #029 Power Supply - Zener Regulated 5V Source
+# #029 Zener Regulator
 
-Demonstrates a Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
+Demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
+![The Build](./assets/Zener_build.jpg?raw=true)
 
 ## Notes
 
@@ -41,11 +42,9 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard](./assets/PowerZener_bb.jpg?raw=true)
+![The Breadboard](./assets/Zener_bb.jpg?raw=true)
 
-![The Schematic](./assets/PowerZener_schematic.jpg?raw=true)
-
-![The Build](./assets/PowerZener_build.jpg?raw=true)
+![The Schematic](./assets/Zener_schematic.jpg?raw=true)
 
 ## Credits and References
 

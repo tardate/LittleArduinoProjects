@@ -122,5 +122,5 @@ The end result:
 * [esptool.py](https://github.com/themadinventor/esptool)
 * [LEAP#134 BidirectionalLevelShifterModule](../../Electronics101/BidirectionalLevelShifterModule)
 * [LEAP#154 SerialTest](../SerialTest) - my first test of the ESP8266, with more details of board use
-* [LEAP#152 LD1117 Regulator](../../Electronics101/Power/RegulatorLD1117) - LD1117 circuit and notes
+* [LEAP#152 LD1117 Regulator](../../Electronics101/Power/LinearRegulators/LD1117) - LD1117 circuit and notes
 * [..as mentioned on my blog](https://blog.tardate.com/2016/03/littlearduinoprojects194-diy-esp8266.html)

@@ -3,7 +3,7 @@
   PowerZener
   Use an Arduino to monitor 5V Zener regulated power supply and plot the results with Processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PowerZener
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power/LinearRegulators/Zener
 
  */
 

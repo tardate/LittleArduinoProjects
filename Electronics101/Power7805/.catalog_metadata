@@ -1,7 +1,0 @@
-{
-    "id": "#027", 
-    "name": "Power7805", 
-    "description": "test and graph a voltage supply built with an LM7805 5V Regulated Supply", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/Power7805"
-}

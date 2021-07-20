@@ -1,7 +1,8 @@
-# #027 Power Supply - LM7805 Stable 5V Source
+# #027 LM7805 Regulator
 
 Demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
+![The Build](./assets/LM7805_build.jpg?raw=true)
 
 ## Notes
 
@@ -32,7 +33,6 @@ This must be measured with a multimeter and the `vref_mv` constant changed to th
 
 For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
 
-
 ### Construction
 
 The Arduino only acts as a measurement device in this circuit.
@@ -40,11 +40,9 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard](./assets/Power7805_bb.jpg?raw=true)
+![The Breadboard](./assets/LM7805_bb.jpg?raw=true)
 
-![The Schematic](./assets/Power7805_schematic.jpg?raw=true)
-
-![The Build](./assets/Power7805_build.jpg?raw=true)
+![The Schematic](./assets/LM7805_schematic.jpg?raw=true)
 
 ## Credits and References
 

@@ -1,0 +1,7 @@
+{
+    "id": "#153",
+    "name": "AMS1117 Regulator",
+    "description": "test an AMS1117 3.3V linear regulator",
+    "categories": "Power",
+    "relative_path": "Electronics101/Power/LinearRegulators/AMS1117"
+}

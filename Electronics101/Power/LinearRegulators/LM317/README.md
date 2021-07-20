@@ -1,7 +1,8 @@
-# #026 Power Supply - LM317 Adjustable Regulator
+# #026 LM317 Adjustable Regulator
 
 Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
+![The Build](./assets/LM317_build.jpg?raw=true)
 
 ## Notes
 
@@ -53,7 +54,6 @@ This must be measured with a multimeter and the `vref_mv` constant changed to th
 
 For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
 
-
 ### Construction
 
 The Arduino only acts as a measurement device in this circuit.
@@ -61,15 +61,17 @@ Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage div
 
 [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard](./assets/Power317_bb.jpg?raw=true)
+![The Breadboard](./assets/LM317_bb.jpg?raw=true)
 
-![The Schematic](./assets/Power317_schematic.jpg?raw=true)
+![The Schematic](./assets/LM317_schematic.jpg?raw=true)
 
 Here's the breadboard with the variable R2, note a little more spread out than my original Fritzing diagram:
-![The Build](./assets/Power317_build_var.jpg?raw=true)
+
+![The Build](./assets/LM317_build_var.jpg?raw=true)
 
 Here's the reference measurement with fixed/known R1 and R2 values:
-![The Build](./assets/Power317_build_ref.jpg?raw=true)
+
+![The Build](./assets/LM317_build_ref.jpg?raw=true)
 
 ## Credits and References
 

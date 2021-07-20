@@ -2,11 +2,12 @@
 
 Test an LD1117 3.3V linear regulator
 
-![The Build](./assets/RegulatorLD1117_build.jpg?raw=true)
+![The Build](./assets/LD1117_build.jpg?raw=true)
 
 ## Notes
 
 The LD1117 is a low drop fixed and adjustable voltage regulator, available from a number of manufacturers including UTC and ST.
+Parts are available for a range of output voltages, including: 1.2V, 1.5V, 1.8V, 2.5V, 2.85V, 3.0V, 3.3V, 3.6V, 5.0V, and ADJ.
 
 The component I have is marked: UTC LD1117AL 33D010HT5
 
@@ -31,11 +32,11 @@ But they're convenient!
 
 ## Construction
 
-![Breadboard](./assets/RegulatorLD1117_bb.jpg?raw=true)
+![Breadboard](./assets/LD1117_bb.jpg?raw=true)
 
-![The Schematic](./assets/RegulatorLD1117_schematic.jpg?raw=true)
+![The Schematic](./assets/LD1117_schematic.jpg?raw=true)
 
-![The Build](./assets/RegulatorLD1117_build.jpg?raw=true)
+![The Build](./assets/LD1117_build.jpg?raw=true)
 
 ## Credits and References
 

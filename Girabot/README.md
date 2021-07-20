@@ -173,9 +173,9 @@ Either can work, although it is perhaps more efficient to power the Arduino with
 need to use the Arduino's (now redundant) internal regulator.
 
 ### Proof-of-concept/Explorations
-* [LM317 Adjustable Regulator](../Electronics101/Power317) - test and graph the adjustable voltage supply
-* [LM7805 5V Regulated Supply](../Electronics101/Power7805) - test and graph the voltage supply
-* [Zener Regulated 5V Source](../Electronics101/PowerZener) - test and graph a power supply regulated with a 1N4733 zener diode
+* [LM317 Adjustable Regulator](../Electronics101/Power/LinearRegulators/LM317) - test and graph the adjustable voltage supply
+* [LM7805 5V Regulated Supply](../Electronics101/Power/LinearRegulators/LM7805) - test and graph the voltage supply
+* [Zener Regulated 5V Source](../Electronics101/Power/LinearRegulators/Zener) - test and graph a power supply regulated with a 1N4733 zener diode
 
 ## Issues and Workarounds
 
