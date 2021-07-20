@@ -1,4 +1,14 @@
 {
+    "/Kraft/snowflake/lamp/": {
+        "id": 592,
+        "title": "Snowflake Lamp",
+        "summary": "description",
+        "tags": [
+            "Craft",
+            "ARM",
+            "LED"
+        ]
+    },
     "/Kraft/TydiriumStrobe/Module/": {
         "id": 591,
         "title": "Tydirium Strobe Module",
@@ -4105,15 +4115,15 @@
             "ESP8266"
         ]
     },
-    "/Electronics101/PowerAMS1117/": {
+    "/Electronics101/Power/LinearRegulators/AMS1117/": {
         "id": 153,
-        "title": "PowerAMS1117",
+        "title": "AMS1117 Regulator",
         "summary": "test an AMS1117 3.3V linear regulator",
         "tags": [
             "Power"
         ]
     },
-    "/Electronics101/Power/RegulatorLD1117/": {
+    "/Electronics101/Power/LinearRegulators/LD1117/": {
         "id": 152,
         "title": "LD1117 Regulator",
         "summary": "test an LD1117 3.3V linear regulator",
@@ -5231,10 +5241,10 @@
             "Arduino"
         ]
     },
-    "/Electronics101/PowerZener/": {
+    "/Electronics101/Power/LinearRegulators/Zener/": {
         "id": 29,
-        "title": "PowerZener",
-        "summary": "test and graph a power supply regulated with a 1N4733 zener diode",
+        "title": "Zener Regulator",
+        "summary": "demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
         "tags": [
             "Power"
         ]
@@ -5247,18 +5257,18 @@
             "Power"
         ]
     },
-    "/Electronics101/Power7805/": {
+    "/Electronics101/Power/LinearRegulators/LM7805/": {
         "id": 27,
-        "title": "Power7805",
-        "summary": "test and graph a voltage supply built with an LM7805 5V Regulated Supply",
+        "title": "LM7805 Regulator",
+        "summary": "demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
         "tags": [
             "Power"
         ]
     },
-    "/Electronics101/Power317/": {
+    "/Electronics101/Power/LinearRegulators/LM317/": {
         "id": 26,
-        "title": "Power317",
-        "summary": "test/graph an adjustable voltage supply built with the LM317 Adjustable Regulator",
+        "title": "LM317 Adjustable Regulator",
+        "summary": "Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
         "tags": [
             "Power"
         ]

@@ -8,7 +8,7 @@ Here's a quick demo of my first Snow Flake running in solo mode...
 
 ## Notes
 
-When @LuckResistor announced the [Snow Flake](https://luckyresistor.me/order-snow-flake-panel/)
+When [@LuckyResistor](https://twitter.com/LuckyResistor) announced the [Snow Flake](https://luckyresistor.me/order-snow-flake-panel/)
 to the Boldport Club community, I knew I had to join in!
 It was fascinating watching the design evolve and the production process get underway. And then one day
 my batch of 5 snow flake kits arrived!
