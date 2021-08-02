@@ -1,5 +1,12 @@
 [
     {
+        "id": "#594",
+        "name": "I-16 and I-58",
+        "description": "Building the Tamiya 1:700 I-16 and I-58 waterline kit 31453. No electronics in this one - more an experiment in rust and water effects.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/i16i58"
+    },
+    {
         "id": "#593",
         "name": "25 Pounder Field Gun and Quad",
         "description": "Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.",
