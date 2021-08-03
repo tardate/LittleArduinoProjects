@@ -1,5 +1,12 @@
 [
     {
+        "id": "#602",
+        "name": "HMAS Vampire",
+        "description": "Remembering Force Z with a build of the HMAS Vampire from the Tamiya 1:700 waterline series. No electronics for this one.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/ForceZ/HMASVampire"
+    },
+    {
         "id": "#601",
         "name": "Low Power Mini Servos",
         "description": "Testing a few low power mini servo motors with an Arduino and MOSFET level shifter",

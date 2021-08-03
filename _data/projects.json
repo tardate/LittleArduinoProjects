@@ -1,4 +1,13 @@
 {
+    "/Kraft/ForceZ/HMASVampire/": {
+        "id": 602,
+        "title": "HMAS Vampire",
+        "summary": "Remembering Force Z with a build of the HMAS Vampire from the Tamiya 1:700 waterline series. No electronics for this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kinetics/ServoMotors/LowPowerMiniServos/": {
         "id": 601,
         "title": "Low Power Mini Servos",

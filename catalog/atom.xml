@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-09-12T08:11:55Z</updated>
+  <updated>2021-09-12T14:05:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/ForceZ/HMASVampire/</id>
+    <link href="https://leap.tardate.com/Kraft/ForceZ/HMASVampire/"/>
+    <updated>2021-09-12T14:04:06Z</updated>
+    <title>#602 HMAS Vampire</title>
+    <summary>Remembering Force Z with a build of the HMAS Vampire from the Tamiya 1:700 waterline series. No electronics for this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/ForceZ/HMASVampire/assets/HMASVampire_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kinetics/ServoMotors/LowPowerMiniServos/</id>
     <link href="https://leap.tardate.com/Kinetics/ServoMotors/LowPowerMiniServos/"/>
-    <updated>2021-09-12T07:55:35Z</updated>
+    <updated>2021-09-12T11:16:07Z</updated>
     <title>#601 Low Power Mini Servos</title>
     <summary>Testing a few low power mini servo motors with an Arduino and MOSFET level shifter</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/LowPowerMiniServos/assets/LowPowerMiniServos_build.jpg</g:image_link>
@@ -5644,7 +5654,7 @@
   <entry>
     <id>https://leap.tardate.com/Kinetics/ServoMotors/JoystickServoControl/</id>
     <link href="https://leap.tardate.com/Kinetics/ServoMotors/JoystickServoControl/"/>
-    <updated>2015-06-04T13:47:48Z</updated>
+    <updated>2021-09-12T11:16:07Z</updated>
     <title>#056 JoystickServoControl</title>
     <summary>controlling two SG90 servos with a joystick</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/JoystickServoControl/assets/JoystickServoControl_build.jpg</g:image_link>
@@ -5783,7 +5793,7 @@
   <entry>
     <id>https://leap.tardate.com/Kinetics/ServoMotors/ServoTest/</id>
     <link href="https://leap.tardate.com/Kinetics/ServoMotors/ServoTest/"/>
-    <updated>2015-03-15T05:44:04Z</updated>
+    <updated>2021-09-12T11:16:07Z</updated>
     <title>#042 ServoTest</title>
     <summary>test the positioning accuracy of an SG90 servo motor driven by an Arduino</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/ServoTest/assets/ServoTest_build.jpg</g:image_link>

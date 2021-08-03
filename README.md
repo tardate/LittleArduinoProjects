@@ -1,6 +1,6 @@
-# 601 Little Electronics and Arduino Projects
+# 602 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Low Power Mini Servos](./Kinetics/ServoMotors/LowPowerMiniServos) - Testing a few low power mini servo motors with an Arduino and MOSFET level shifter.
+> Latest addition:sparkles: [HMAS Vampire](./Kraft/ForceZ/HMASVampire) - Remembering Force Z with a build of the HMAS Vampire from the Tamiya 1:700 waterline series. No electronics for this one.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
