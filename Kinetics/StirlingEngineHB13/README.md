@@ -1,4 +1,4 @@
-# #185 Kinetics/StirlingEngineHB13
+# #185 HB13 Stirling Engine
 
 Building the Böhm Stirling-Technik HB13 Small Bonsai kit.
 
@@ -56,6 +56,28 @@ So where are the electronics? None involved so far! But some ideas I have in min
 ### The Finsihed Kit
 
 ![Finished Build](./assets/StirlingEngineHB13_build.jpg?raw=true)
+
+### Notes on the Fuel
+
+According to the [FAQ](https://www.boehm-stirling.com/en/general-tips.html):
+
+> Only use 94% alc methylated alcohol. Never use paraffinic fuels such as oil or tea lights! This leads to extreme contamination and standstill.
+
+Methylated alcohol is also known as methylated spirits - or generically "denatured alcohol", but without undesirable additives. All the formulations of alcohol can be confusing and misleading, here's my memory jogger:
+
+* [Denatured alcohol](https://en.wikipedia.org/wiki/Denatured_alcohol) aka methylated alcohol, methylated spirits.
+  * typically ethyl alcohol (95%) and methyl alcohol (%5)
+  * may have other additives and colourings, especially if marketed for medical applications
+  * hobby use: fuel for alcohol burners; solvent for some cleaning applications
+* [Rubbing alcohol](https://en.wikipedia.org/wiki/Rubbing_alcohol) approximately 70% alcohol but with other additives
+  * if isopropyl alcohol, also known as "surgical spirit"
+  * alternatively may be denatured alcohol
+  * even if high percentage IPA, additives make it unsuitable for hobby use
+* [Isopropyl alcohol](https://en.wikipedia.org/wiki/Isopropyl_alcohol)
+  * pure CH3CHOHCH3
+  * hobby use: solvent, especially for PCB cleaning
+
+[![ipa_v_denatured](./assets/ipa_v_denatured.jpg?raw=true)](https://www.chemicals.co.uk/blog/isopropyl-alcohol-vs-denatured-alcohol)
 
 ## Credits and References
 

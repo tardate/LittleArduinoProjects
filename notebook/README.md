@@ -72,4 +72,3 @@
 * [QRP Kits](http://qrpkits.com/)
 * [QRP me](http://qrpme.com/)
 * [Velleman](https://www.velleman.eu/)
-

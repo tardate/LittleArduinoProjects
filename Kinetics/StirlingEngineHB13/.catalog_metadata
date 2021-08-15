@@ -1,7 +1,7 @@
 {
-    "id": "#185", 
-    "name": "StirlingEngineHB13", 
-    "description": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine", 
-    "categories": "Kinetics", 
+    "id": "#185",
+    "name": "HB13 Stirling Engine",
+    "description": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine",
+    "categories": "Kinetics",
     "relative_path": "Kinetics/StirlingEngineHB13"
 }

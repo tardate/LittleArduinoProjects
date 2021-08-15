@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-08-04T12:27:42Z</updated>
+  <updated>2021-08-15T07:08:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/i16i58/</id>
     <link href="https://leap.tardate.com/Kraft/i16i58/"/>
-    <updated>2021-08-04T04:47:17Z</updated>
+    <updated>2021-08-04T12:29:23Z</updated>
     <title>#594 I-16 and I-58</title>
     <summary>Building the Tamiya 1:700 I-16 and I-58 waterline kit 31453. No electronics in this one - more an experiment in rust and water effects.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/i16i58/assets/i16i58_build.jpg</g:image_link>
@@ -24,7 +24,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/25pdr/</id>
     <link href="https://leap.tardate.com/Kraft/25pdr/"/>
-    <updated>2021-08-01T03:20:39Z</updated>
+    <updated>2021-08-04T16:02:38Z</updated>
     <title>#593 25 Pounder Field Gun and Quad</title>
     <summary>Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/25pdr/assets/25pdr_build.jpg</g:image_link>
@@ -4273,7 +4273,7 @@
     <id>https://leap.tardate.com/Kinetics/StirlingEngineHB13/</id>
     <link href="https://leap.tardate.com/Kinetics/StirlingEngineHB13/"/>
     <updated>2016-02-09T11:41:05Z</updated>
-    <title>#185 StirlingEngineHB13</title>
+    <title>#185 HB13 Stirling Engine</title>
     <summary>building the Böhm Stirling-Technik HB13 Small Bonsai engine</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/StirlingEngineHB13/assets/StirlingEngineHB13_build.jpg</g:image_link>
     <category term="Kinetics"/>

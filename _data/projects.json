@@ -3850,7 +3850,7 @@
     },
     "/Kinetics/StirlingEngineHB13/": {
         "id": 185,
-        "title": "StirlingEngineHB13",
+        "title": "HB13 Stirling Engine",
         "summary": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine",
         "tags": [
             "Kinetics"
