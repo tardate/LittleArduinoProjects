@@ -1,9 +1,8 @@
-# #079 LedTemperatureDisplay
+# #079 7-Segment Temperature Display
 
-Measure ambient temperature and display with a 4-digit 7-segment LED unit
+Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit
 
 ![The Build](./assets/LedTemperatureDisplay_demo.jpg?raw=true)
-
 
 ## Notes
 

@@ -1,4 +1,15 @@
 {
+    "/Electronics101/TemperatureSensors/LM35/": {
+        "id": 595,
+        "title": "LM35 Temperature Sensor",
+        "summary": "Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD",
+        "tags": [
+            "Sensors",
+            "LM35",
+            "LCD",
+            "Arduino"
+        ]
+    },
     "/Kraft/i16i58/": {
         "id": 594,
         "title": "I-16 and I-58",
@@ -3673,7 +3684,7 @@
     },
     "/playground/TemperatureLoggerTypeK/": {
         "id": 204,
-        "title": "TemperatureLoggerTypeK",
+        "title": "Type K Temperature Logger",
         "summary": "simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors",
         "tags": [
             "Sensors",
@@ -4802,8 +4813,8 @@
     },
     "/playground/LedTemperatureDisplay/": {
         "id": 79,
-        "title": "LedTemperatureDisplay",
-        "summary": "measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit",
+        "title": "7-Segment Temperature Display",
+        "summary": "Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit",
         "tags": [
             "Sensors",
             "LM35",

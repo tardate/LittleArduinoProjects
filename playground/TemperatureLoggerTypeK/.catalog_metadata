@@ -1,7 +1,7 @@
 {
-    "id": "#204", 
-    "name": "TemperatureLoggerTypeK", 
-    "description": "simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors", 
-    "categories": "Sensors, Thermocouple, Arduino", 
+    "id": "#204",
+    "name": "Type K Temperature Logger",
+    "description": "simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors",
+    "categories": "Sensors, Thermocouple, Arduino",
     "relative_path": "playground/TemperatureLoggerTypeK"
 }

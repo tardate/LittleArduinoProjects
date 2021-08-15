@@ -5,12 +5,24 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-08-15T07:08:33Z</updated>
+  <updated>2021-08-15T14:05:38Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/TemperatureSensors/LM35/</id>
+    <link href="https://leap.tardate.com/Electronics101/TemperatureSensors/LM35/"/>
+    <updated>2021-08-15T13:42:14Z</updated>
+    <title>#595 LM35 Temperature Sensor</title>
+    <summary>Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/TemperatureSensors/LM35/assets/LM35_build.jpg</g:image_link>
+    <category term="Sensors"/>
+    <category term="LM35"/>
+    <category term="LCD"/>
+    <category term="Arduino"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/i16i58/</id>
     <link href="https://leap.tardate.com/Kraft/i16i58/"/>
@@ -4077,7 +4089,7 @@
     <id>https://leap.tardate.com/playground/TemperatureLoggerTypeK/</id>
     <link href="https://leap.tardate.com/playground/TemperatureLoggerTypeK/"/>
     <updated>2016-04-16T00:37:20Z</updated>
-    <title>#204 TemperatureLoggerTypeK</title>
+    <title>#204 Type K Temperature Logger</title>
     <summary>simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors</summary>
     <g:image_link>https://leap.tardate.com/playground/TemperatureLoggerTypeK/assets/TemperatureLoggerTypeK_build.jpg</g:image_link>
     <category term="Sensors"/>
@@ -5331,8 +5343,8 @@
     <id>https://leap.tardate.com/playground/LedTemperatureDisplay/</id>
     <link href="https://leap.tardate.com/playground/LedTemperatureDisplay/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#079 LedTemperatureDisplay</title>
-    <summary>measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit</summary>
+    <title>#079 7-Segment Temperature Display</title>
+    <summary>Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit</summary>
     <g:image_link>https://leap.tardate.com/playground/LedTemperatureDisplay/assets/LedTemperatureDisplay_build.jpg</g:image_link>
     <category term="Sensors"/>
     <category term="LM35"/>

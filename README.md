@@ -1,6 +1,6 @@
-# 594 Little Electronics and Arduino Projects
+# 595 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [I-16 and I-58](./Kraft/i16i58) - Building the Tamiya 1:700 I-16 & I-58 waterline kit 31453. No electronics in this one yet - more an experiment in rust and water effects.
+> Latest addition:sparkles: [LM35 Temperature Sensor](./Electronics101/TemperatureSensors/LM35) - Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

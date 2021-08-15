@@ -1,9 +1,8 @@
-# #204 TemperatureLoggerTypeK
+# #204 Type K Temperature Logger
 
 Simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors.
 
 ![The Build](./assets/TemperatureLoggerTypeK_build.jpg?raw=true)
-
 
 ## Notes
 

@@ -1,5 +1,12 @@
 [
     {
+        "id": "#595",
+        "name": "LM35 Temperature Sensor",
+        "description": "Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD",
+        "categories": "Sensors, LM35, LCD, Arduino",
+        "relative_path": "Electronics101/TemperatureSensors/LM35"
+    },
+    {
         "id": "#594",
         "name": "I-16 and I-58",
         "description": "Building the Tamiya 1:700 I-16 and I-58 waterline kit 31453. No electronics in this one - more an experiment in rust and water effects.",
@@ -2731,7 +2738,7 @@
     },
     {
         "id": "#204",
-        "name": "TemperatureLoggerTypeK",
+        "name": "Type K Temperature Logger",
         "description": "simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors",
         "categories": "Sensors, Thermocouple, Arduino",
         "relative_path": "playground/TemperatureLoggerTypeK"
@@ -3606,8 +3613,8 @@
     },
     {
         "id": "#079",
-        "name": "LedTemperatureDisplay",
-        "description": "measure ambient temperature using LM35 and display with a 4-digit 7-segment LED unit",
+        "name": "7-Segment Temperature Display",
+        "description": "Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit",
         "categories": "Sensors, LM35, 7-Segment, Arduino",
         "relative_path": "playground/LedTemperatureDisplay"
     },
