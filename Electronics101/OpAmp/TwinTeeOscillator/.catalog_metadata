@@ -1,7 +1,7 @@
 {
-    "id": "#459", 
-    "name": "TwinTeeOscillator", 
-    "description": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum", 
-    "categories": "OpAmp, Oscillators", 
+    "id": "#459",
+    "name": "Twin-Tee OpAmp Oscillator",
+    "description": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum",
+    "categories": "OpAmp, Oscillators",
     "relative_path": "Electronics101/OpAmp/TwinTeeOscillator"
 }

@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-08-15T14:05:38Z</updated>
+  <updated>2021-08-17T08:14:24Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/PiezoBuzzers/OpAmpDriver/</id>
+    <link href="https://leap.tardate.com/Electronics101/PiezoBuzzers/OpAmpDriver/"/>
+    <updated>2021-08-17T03:02:14Z</updated>
+    <title>#596 OpAmp Piezo Driver</title>
+    <summary>Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/PiezoBuzzers/OpAmpDriver/assets/OpAmpDriver_build.jpg</g:image_link>
+    <category term="Oscillators"/>
+    <category term="Crystal"/>
+    <category term="Audio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/TemperatureSensors/LM35/</id>
     <link href="https://leap.tardate.com/Electronics101/TemperatureSensors/LM35/"/>
-    <updated>2021-08-15T13:42:14Z</updated>
+    <updated>2021-08-16T04:20:48Z</updated>
     <title>#595 LM35 Temperature Sensor</title>
     <summary>Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/TemperatureSensors/LM35/assets/LM35_build.jpg</g:image_link>
@@ -1390,7 +1401,7 @@
     <id>https://leap.tardate.com/Electronics101/OpAmp/Transconductance/</id>
     <link href="https://leap.tardate.com/Electronics101/OpAmp/Transconductance/"/>
     <updated>2019-03-22T15:06:42Z</updated>
-    <title>#463 Transconductance Amplifiers</title>
+    <title>#463 OpAmp Transconductance Amplifiers</title>
     <summary>understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/Transconductance/assets/Transconductance_build.jpg</g:image_link>
     <category term="OpAmp"/>
@@ -1430,7 +1441,7 @@
     <id>https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/"/>
     <updated>2019-03-05T14:24:38Z</updated>
-    <title>#459 TwinTeeOscillator</title>
+    <title>#459 Twin-Tee OpAmp Oscillator</title>
     <summary>a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmp/TwinTeeOscillator/assets/TwinTeeOscillator_build.jpg</g:image_link>
     <category term="OpAmp"/>
@@ -1470,7 +1481,7 @@
     <id>https://leap.tardate.com/Electronics101/PiezoBuzzers/</id>
     <link href="https://leap.tardate.com/Electronics101/PiezoBuzzers/"/>
     <updated>2019-02-21T14:50:29Z</updated>
-    <title>#455 PiezoBuzzers</title>
+    <title>#455 Piezo Transducers and Buzzers</title>
     <summary>exploring techniques for driving piezo transducers and buzzer units for audio output</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/PiezoBuzzers/assets/PiezoBuzzers_build.jpg</g:image_link>
     <category term="Oscillators"/>
@@ -2698,7 +2709,7 @@
     <id>https://leap.tardate.com/Electronics101/Oscillators/ComparatorRelaxation/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/ComparatorRelaxation/"/>
     <updated>2017-08-19T13:50:42Z</updated>
-    <title>#336 Oscillators/ComparatorRelaxation</title>
+    <title>#336 Comparator Relaxation Oscillator</title>
     <summary>test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/ComparatorRelaxation/assets/ComparatorRelaxation_build.jpg</g:image_link>
     <category term="OpAmp"/>

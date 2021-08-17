@@ -1,4 +1,14 @@
 {
+    "/Electronics101/PiezoBuzzers/OpAmpDriver/": {
+        "id": 596,
+        "title": "OpAmp Piezo Driver",
+        "summary": "Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator",
+        "tags": [
+            "Oscillators",
+            "Crystal",
+            "Audio"
+        ]
+    },
     "/Electronics101/TemperatureSensors/LM35/": {
         "id": 595,
         "title": "LM35 Temperature Sensor",
@@ -1244,7 +1254,7 @@
     },
     "/Electronics101/OpAmp/Transconductance/": {
         "id": 463,
-        "title": "Transconductance Amplifiers",
+        "title": "OpAmp Transconductance Amplifiers",
         "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp",
         "tags": [
             "OpAmp"
@@ -1280,7 +1290,7 @@
     },
     "/Electronics101/OpAmp/TwinTeeOscillator/": {
         "id": 459,
-        "title": "TwinTeeOscillator",
+        "title": "Twin-Tee OpAmp Oscillator",
         "summary": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum",
         "tags": [
             "OpAmp",
@@ -1316,7 +1326,7 @@
     },
     "/Electronics101/PiezoBuzzers/": {
         "id": 455,
-        "title": "PiezoBuzzers",
+        "title": "Piezo Transducers and Buzzers",
         "summary": "exploring techniques for driving piezo transducers and buzzer units for audio output",
         "tags": [
             "Oscillators",
@@ -2425,7 +2435,7 @@
     },
     "/Electronics101/Oscillators/ComparatorRelaxation/": {
         "id": 336,
-        "title": "Oscillators/ComparatorRelaxation",
+        "title": "Comparator Relaxation Oscillator",
         "summary": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp",
         "tags": [
             "OpAmp",

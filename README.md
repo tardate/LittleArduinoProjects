@@ -1,6 +1,6 @@
-# 595 Little Electronics and Arduino Projects
+# 596 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [LM35 Temperature Sensor](./Electronics101/TemperatureSensors/LM35) - Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD.
+> Latest addition:sparkles: [OpAmp Piezo Driver](./Electronics101/PiezoBuzzers/OpAmpDriver) - Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

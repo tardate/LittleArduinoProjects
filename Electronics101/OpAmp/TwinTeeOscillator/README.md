@@ -1,4 +1,4 @@
-# #459 OpAmp/TwinTeeOscillator
+# #459 Twin-Tee OpAmp Oscillator
 
 A twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum.
 

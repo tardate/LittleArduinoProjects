@@ -1,7 +1,7 @@
 {
-    "id": "#336", 
-    "name": "Oscillators/ComparatorRelaxation", 
-    "description": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp", 
-    "categories": "OpAmp, Oscillators", 
+    "id": "#336",
+    "name": "Comparator Relaxation Oscillator",
+    "description": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp",
+    "categories": "OpAmp, Oscillators",
     "relative_path": "Electronics101/Oscillators/ComparatorRelaxation"
 }

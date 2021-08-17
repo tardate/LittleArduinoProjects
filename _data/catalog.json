@@ -1,5 +1,12 @@
 [
     {
+        "id": "#596",
+        "name": "OpAmp Piezo Driver",
+        "description": "Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator",
+        "categories": "Oscillators, Crystal, Audio",
+        "relative_path": "Electronics101/PiezoBuzzers/OpAmpDriver"
+    },
+    {
         "id": "#595",
         "name": "LM35 Temperature Sensor",
         "description": "Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD",
@@ -925,7 +932,7 @@
     },
     {
         "id": "#463",
-        "name": "Transconductance Amplifiers",
+        "name": "OpAmp Transconductance Amplifiers",
         "description": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp",
         "categories": "OpAmp",
         "relative_path": "Electronics101/OpAmp/Transconductance"
@@ -953,7 +960,7 @@
     },
     {
         "id": "#459",
-        "name": "TwinTeeOscillator",
+        "name": "Twin-Tee OpAmp Oscillator",
         "description": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum",
         "categories": "OpAmp, Oscillators",
         "relative_path": "Electronics101/OpAmp/TwinTeeOscillator"
@@ -981,7 +988,7 @@
     },
     {
         "id": "#455",
-        "name": "PiezoBuzzers",
+        "name": "Piezo Transducers and Buzzers",
         "description": "exploring techniques for driving piezo transducers and buzzer units for audio output",
         "categories": "Oscillators, Crystal, Audio",
         "relative_path": "Electronics101/PiezoBuzzers"
@@ -1814,7 +1821,7 @@
     },
     {
         "id": "#336",
-        "name": "Oscillators/ComparatorRelaxation",
+        "name": "Comparator Relaxation Oscillator",
         "description": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp",
         "categories": "OpAmp, Oscillators",
         "relative_path": "Electronics101/Oscillators/ComparatorRelaxation"
