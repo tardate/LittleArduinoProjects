@@ -1,0 +1,7 @@
+{
+    "id": "#597",
+    "name": "Simple Wireless Power LED",
+    "description": "Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration",
+    "categories": "Power, Wireless, LED",
+    "relative_path": "Electronics101/Power/WirelessLed"
+}

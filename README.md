@@ -1,6 +1,7 @@
-# 596 Little Electronics and Arduino Projects
+# 597 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [OpAmp Piezo Driver](./Electronics101/PiezoBuzzers/OpAmpDriver) - Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator.
+> Latest addition:sparkles: [Simple Wireless Power LED](./Electronics101/Power/WirelessLed) - Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration.
+
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

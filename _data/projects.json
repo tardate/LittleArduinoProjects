@@ -1,4 +1,14 @@
 {
+    "/Electronics101/Power/WirelessLed/": {
+        "id": 597,
+        "title": "Simple Wireless Power LED",
+        "summary": "Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration",
+        "tags": [
+            "Power",
+            "Wireless",
+            "LED"
+        ]
+    },
     "/Electronics101/PiezoBuzzers/OpAmpDriver/": {
         "id": 596,
         "title": "OpAmp Piezo Driver",
