@@ -1,5 +1,12 @@
 [
     {
+        "id": "#600",
+        "name": "The Red Eyed Space Marine",
+        "description": "Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/RedEyeSpaceMarine"
+    },
+    {
         "id": "#599",
         "name": "Kawanishi K5Y1 Tensegrity Stand",
         "description": "Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 \u8d64\u3068\u3093\u307c (Willow)",

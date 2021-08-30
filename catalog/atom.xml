@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-08-25T16:04:43Z</updated>
+  <updated>2021-09-05T16:14:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/RedEyeSpaceMarine/</id>
+    <link href="https://leap.tardate.com/Kraft/RedEyeSpaceMarine/"/>
+    <updated>2021-09-05T15:51:27Z</updated>
+    <title>#600 The Red Eyed Space Marine</title>
+    <summary>Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RedEyeSpaceMarine/assets/RedEyeSpaceMarine_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/K5Y1/</id>
     <link href="https://leap.tardate.com/Kraft/K5Y1/"/>
-    <updated>2021-08-22T06:01:20Z</updated>
+    <updated>2021-08-25T16:09:45Z</updated>
     <title>#599 Kawanishi K5Y1 Tensegrity Stand</title>
     <summary>Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/K5Y1/assets/K5Y1_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/TemperatureSensors/LM335/</id>
     <link href="https://leap.tardate.com/Electronics101/TemperatureSensors/LM335/"/>
-    <updated>2021-08-23T10:28:51Z</updated>
+    <updated>2021-08-25T16:09:45Z</updated>
     <title>#598 LM335 Temperature Sensor</title>
     <summary>Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/TemperatureSensors/LM335/assets/LM335_build.jpg</g:image_link>

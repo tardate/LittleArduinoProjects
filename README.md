@@ -1,6 +1,6 @@
-# 599 Little Electronics and Arduino Projects
+# 600 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Kawanishi K5Y1 Tensegrity Stand](./Kraft/K5Y1) - Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow).
+> Latest addition:sparkles: [The Red Eyed Space Marine](./Kraft/RedEyeSpaceMarine) - Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
