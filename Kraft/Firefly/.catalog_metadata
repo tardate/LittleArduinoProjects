@@ -1,0 +1,7 @@
+{
+    "id": "#606",
+    "name": "Firefly",
+    "description": "Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic",
+    "categories": "scale models, Craft, Arduino, AVR, Sensor, OpAmp, Servo",
+    "relative_path": "Kraft/Firefly"
+}

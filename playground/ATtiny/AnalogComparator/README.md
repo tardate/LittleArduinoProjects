@@ -73,4 +73,3 @@ Here is a trace of the behaviour:
 ## Credits and References
 
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
-* [name](url)

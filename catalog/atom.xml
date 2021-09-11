@@ -5,16 +5,31 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-09-16T18:09:35Z</updated>
+  <updated>2021-09-18T03:58:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Firefly/</id>
+    <link href="https://leap.tardate.com/Kraft/Firefly/"/>
+    <updated>2021-09-18T03:58:07Z</updated>
+    <title>#606 Firefly</title>
+    <summary>Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Firefly/assets/Firefly_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="Sensor"/>
+    <category term="OpAmp"/>
+    <category term="Servo"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/ATtiny/AnalogComparator/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/AnalogComparator/"/>
-    <updated>2021-09-16T17:58:54Z</updated>
+    <updated>2021-09-16T18:16:48Z</updated>
     <title>#605 ATtiny Analog Comparator</title>
     <summary>Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/AnalogComparator/assets/AnalogComparator_build.jpg</g:image_link>

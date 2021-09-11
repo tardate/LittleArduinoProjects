@@ -1,4 +1,18 @@
 {
+    "/Kraft/Firefly/": {
+        "id": 606,
+        "title": "Firefly",
+        "summary": "Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic",
+        "tags": [
+            "scale models",
+            "Craft",
+            "Arduino",
+            "AVR",
+            "Sensor",
+            "OpAmp",
+            "Servo"
+        ]
+    },
     "/playground/ATtiny/AnalogComparator/": {
         "id": 605,
         "title": "ATtiny Analog Comparator",

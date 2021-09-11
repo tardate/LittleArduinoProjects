@@ -1,4 +1,4 @@
-# 605 Little Electronics and Arduino Projects
+# 606 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [ATtiny Analog Comparator](./playground/ATtiny/AnalogComparator) - testing sound-triggered interrupts with the ATtiny85 built-in analog comparator
 
