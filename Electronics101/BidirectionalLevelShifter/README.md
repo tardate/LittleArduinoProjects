@@ -1,7 +1,8 @@
-# #133 BidirectionalLevelShifter
+# #133 Bi-directional Level Shifter
 
 Test a basic bi-directional 5/3.3V level shifter circuit
 
+![Build](./assets/BidirectionalLevelShifter_build.jpg?raw=true)
 
 ## Notes
 

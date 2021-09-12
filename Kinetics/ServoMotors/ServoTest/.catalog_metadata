@@ -1,0 +1,7 @@
+{
+    "id": "#042",
+    "name": "ServoTest",
+    "description": "test the positioning accuracy of an SG90 servo motor driven by an Arduino",
+    "categories": "Servo, Arduino",
+    "relative_path": "Kinetics/ServoMotors/ServoTest"
+}

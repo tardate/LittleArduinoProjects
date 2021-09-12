@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-09-05T16:14:30Z</updated>
+  <updated>2021-09-12T08:11:55Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kinetics/ServoMotors/LowPowerMiniServos/</id>
+    <link href="https://leap.tardate.com/Kinetics/ServoMotors/LowPowerMiniServos/"/>
+    <updated>2021-09-12T07:55:35Z</updated>
+    <title>#601 Low Power Mini Servos</title>
+    <summary>Testing a few low power mini servo motors with an Arduino and MOSFET level shifter</summary>
+    <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/LowPowerMiniServos/assets/LowPowerMiniServos_build.jpg</g:image_link>
+    <category term="Servo"/>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RedEyeSpaceMarine/</id>
     <link href="https://leap.tardate.com/Kraft/RedEyeSpaceMarine/"/>
-    <updated>2021-09-05T15:51:27Z</updated>
+    <updated>2021-09-05T16:33:45Z</updated>
     <title>#600 The Red Eyed Space Marine</title>
     <summary>Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RedEyeSpaceMarine/assets/RedEyeSpaceMarine_build.jpg</g:image_link>
@@ -4854,7 +4864,7 @@
     <id>https://leap.tardate.com/Electronics101/BidirectionalLevelShifter/</id>
     <link href="https://leap.tardate.com/Electronics101/BidirectionalLevelShifter/"/>
     <updated>2015-08-16T15:59:23Z</updated>
-    <title>#133 BidirectionalLevelShifter</title>
+    <title>#133 Bi-directional Level Shifter</title>
     <summary>test a basic bi-directional 5/3.3V level shifter circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/BidirectionalLevelShifter/assets/BidirectionalLevelShifter_build.jpg</g:image_link>
     <category term="FET"/>
@@ -5632,12 +5642,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/playground/JoystickServoControl/</id>
-    <link href="https://leap.tardate.com/playground/JoystickServoControl/"/>
+    <id>https://leap.tardate.com/Kinetics/ServoMotors/JoystickServoControl/</id>
+    <link href="https://leap.tardate.com/Kinetics/ServoMotors/JoystickServoControl/"/>
     <updated>2015-06-04T13:47:48Z</updated>
     <title>#056 JoystickServoControl</title>
     <summary>controlling two SG90 servos with a joystick</summary>
-    <g:image_link>https://leap.tardate.com/playground/JoystickServoControl/assets/JoystickServoControl_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/JoystickServoControl/assets/JoystickServoControl_build.jpg</g:image_link>
     <category term="Human Input"/>
     <category term="Arduino"/>
   </entry>
@@ -5771,12 +5781,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/playground/ServoTest/</id>
-    <link href="https://leap.tardate.com/playground/ServoTest/"/>
+    <id>https://leap.tardate.com/Kinetics/ServoMotors/ServoTest/</id>
+    <link href="https://leap.tardate.com/Kinetics/ServoMotors/ServoTest/"/>
     <updated>2015-03-15T05:44:04Z</updated>
     <title>#042 ServoTest</title>
     <summary>test the positioning accuracy of an SG90 servo motor driven by an Arduino</summary>
-    <g:image_link>https://leap.tardate.com/playground/ServoTest/assets/ServoTest_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/ServoTest/assets/ServoTest_build.jpg</g:image_link>
     <category term="Servo"/>
     <category term="Arduino"/>
   </entry>

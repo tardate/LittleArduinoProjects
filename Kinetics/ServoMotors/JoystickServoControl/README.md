@@ -1,9 +1,12 @@
 # #056 JoystickServoControl
 
-Control two SG90 servos with a joystick. Here's a quick demo:
+Control two SG90 servos with a joystick.
+
+![Build](./assets/JoystickServoControl_build.jpg?raw=true)
+
+Here's a quick demo:
 
 [![JoystickServoControl](https://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](https://www.youtube.com/watch?v=P8883DkE3Jo)
-
 
 ## Notes
 
@@ -30,4 +33,4 @@ See the [ServoTest](../ServoTest) project for more exploration of servo control 
 ## Credits and References
 
 * [TowerPro SG90 datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) - 9g Micro Servo
-* [Servo library reference](http://arduino.cc/en/Reference/Servo)
+* [Servo library reference](https://www.arduino.cc/reference/en/libraries/servo/)

@@ -1,7 +1,7 @@
 {
-    "id": "#133", 
-    "name": "BidirectionalLevelShifter", 
-    "description": "test a basic bi-directional 5/3.3V level shifter circuit", 
-    "categories": "FET", 
+    "id": "#133",
+    "name": "Bi-directional Level Shifter",
+    "description": "test a basic bi-directional 5/3.3V level shifter circuit",
+    "categories": "FET",
     "relative_path": "Electronics101/BidirectionalLevelShifter"
 }

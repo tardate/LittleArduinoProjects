@@ -1,4 +1,13 @@
 {
+    "/Kinetics/ServoMotors/LowPowerMiniServos/": {
+        "id": 601,
+        "title": "Low Power Mini Servos",
+        "summary": "Testing a few low power mini servo motors with an Arduino and MOSFET level shifter",
+        "tags": [
+            "Servo",
+            "Arduino"
+        ]
+    },
     "/Kraft/RedEyeSpaceMarine/": {
         "id": 600,
         "title": "The Red Eyed Space Marine",
@@ -4373,7 +4382,7 @@
     },
     "/Electronics101/BidirectionalLevelShifter/": {
         "id": 133,
-        "title": "BidirectionalLevelShifter",
+        "title": "Bi-directional Level Shifter",
         "summary": "test a basic bi-directional 5/3.3V level shifter circuit",
         "tags": [
             "FET"
@@ -5075,7 +5084,7 @@
             "Arduino"
         ]
     },
-    "/playground/JoystickServoControl/": {
+    "/Kinetics/ServoMotors/JoystickServoControl/": {
         "id": 56,
         "title": "JoystickServoControl",
         "summary": "controlling two SG90 servos with a joystick",
@@ -5200,7 +5209,7 @@
             "Arduino"
         ]
     },
-    "/playground/ServoTest/": {
+    "/Kinetics/ServoMotors/ServoTest/": {
         "id": 42,
         "title": "ServoTest",
         "summary": "test the positioning accuracy of an SG90 servo motor driven by an Arduino",

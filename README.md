@@ -1,6 +1,6 @@
-# 600 Little Electronics and Arduino Projects
+# 601 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [The Red Eyed Space Marine](./Kraft/RedEyeSpaceMarine) - Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries.
+> Latest addition:sparkles: [Low Power Mini Servos](./Kinetics/ServoMotors/LowPowerMiniServos) - Testing a few low power mini servo motors with an Arduino and MOSFET level shifter.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

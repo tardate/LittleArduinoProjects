@@ -10,6 +10,8 @@ According the the [datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf), th
 ServoTest accepts a range of commands over the serial interface to perform various servo positioning tasks.
 See the spash screen when you open the console window for options.
 
+![console](./assets/console.png?raw=true)
+
 ### Cable connections
 
 The three cable connections to the servo are identified as follows:
@@ -33,6 +35,7 @@ First up, the servo is pretty zippy.
 
 But as can be seen in the chart below, the default positioning using the Servo library with this specific servo is a bit off.
 Specifically:
+
 * The full sweep is accurate - very close to 180 degrees.
 * When positioning at 0 or 180, it overshoots by 5 degrees or so before rebounding to the correct position. It doesn't have this behaviour for intermediate settings. Curious.
 * The step positioning between 0 and 180 under by about 15 degrees e.g. the request top position at 45 degrees results in an actual position of about 30 degrees.
@@ -62,5 +65,5 @@ So I came back to the issue of accuracy, with some interesting findings:
 ## Credits and References
 
 * [TowerPro SG90 datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) - 9g Micro Servo
-* [Servo library reference](http://arduino.cc/en/Reference/Servo)
+* [Servo library reference](https://www.arduino.cc/reference/en/libraries/servo/)
 * Based on the [Arduino Sweep example](http://arduino.cc/en/Tutorial/Sweep)

@@ -145,7 +145,7 @@ Worst case, Girabot is going to be a crappy walking but an outstanding dancer..
 ### Proof-of-concept/Explorations
 
 * [MotorControlPWM](../playground/MotorControlPWM) - tests PWM speed control of a DC motor driven by an Arduino
-* [ServoTest](../playground/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
+* [ServoTest](../Kinetics/ServoMotors/ServoTest) - test the positioning accuracy of a servo motor driven by an Arduino
 
 
 ## Power

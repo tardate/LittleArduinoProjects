@@ -1,7 +1,0 @@
-{
-    "id": "#056", 
-    "name": "JoystickServoControl", 
-    "description": "controlling two SG90 servos with a joystick", 
-    "categories": "Human Input, Arduino", 
-    "relative_path": "playground/JoystickServoControl"
-}

@@ -1,5 +1,12 @@
 [
     {
+        "id": "#601",
+        "name": "Low Power Mini Servos",
+        "description": "Testing a few low power mini servo motors with an Arduino and MOSFET level shifter",
+        "categories": "Servo, Arduino",
+        "relative_path": "Kinetics/ServoMotors/LowPowerMiniServos"
+    },
+    {
         "id": "#600",
         "name": "The Red Eyed Space Marine",
         "description": "Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries",
@@ -3270,7 +3277,7 @@
     },
     {
         "id": "#133",
-        "name": "BidirectionalLevelShifter",
+        "name": "Bi-directional Level Shifter",
         "description": "test a basic bi-directional 5/3.3V level shifter circuit",
         "categories": "FET",
         "relative_path": "Electronics101/BidirectionalLevelShifter"
@@ -3812,7 +3819,7 @@
         "name": "JoystickServoControl",
         "description": "controlling two SG90 servos with a joystick",
         "categories": "Human Input, Arduino",
-        "relative_path": "playground/JoystickServoControl"
+        "relative_path": "Kinetics/ServoMotors/JoystickServoControl"
     },
     {
         "id": "#055",
@@ -3910,7 +3917,7 @@
         "name": "ServoTest",
         "description": "test the positioning accuracy of an SG90 servo motor driven by an Arduino",
         "categories": "Servo, Arduino",
-        "relative_path": "playground/ServoTest"
+        "relative_path": "Kinetics/ServoMotors/ServoTest"
     },
     {
         "id": "#041",
