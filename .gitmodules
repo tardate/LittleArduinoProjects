@@ -121,3 +121,9 @@
 [submodule "libraries/HPDL1414"]
 	path = libraries/HPDL1414
 	url = https://github.com/marecl/HPDL1414
+[submodule "libraries/Servo8Bit"]
+	path = libraries/Servo8Bit
+	url = https://github.com/fri000/Servo8Bit
+[submodule "libraries/PrecisionServo"]
+	path = libraries/PrecisionServo
+	url = https://github.com/ElizabethTeaches/PrecisionServo

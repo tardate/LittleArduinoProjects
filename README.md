@@ -1,6 +1,6 @@
-# 602 Little Electronics and Arduino Projects
+# 603 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [HMAS Vampire](./Kraft/ForceZ/HMASVampire) - Remembering Force Z with a build of the HMAS Vampire from the Tamiya 1:700 waterline series. No electronics for this one.
+> Latest addition:sparkles: [ATTiny Servo Drive](./Kinetics/ServoMotors/ATTinyServo) - Testing various methods and libraries for driving servo motors with an ATtiny85.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

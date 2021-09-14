@@ -26,10 +26,13 @@ Some projects require additional libraries. For example:
 * [NewPing](https://github.com/tardate/arduino-new-ping) original source is in bitbucket: [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home)
 * [OneWire](https://github.com/PaulStoffregen/OneWire) - 1-wire compatible components
 * [PCM](https://github.com/damellis/PCM) - Playback of short audio samples.
+* [PrecisionServo](https://github.com/ElizabethTeaches/PrecisionServo) - cloned here, as the repo is not setup correctly to be imported directly as a module
 * [Radio](http://www.mathertel.de/Arduino/RadioLibrary.aspx) - Arduino Radio Library
 * [RadioHead](https://github.com/tardate/RadioHead) - Packet Radio e.g. 433MHz projects. RadioHead is a successor the the [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/) library.
 * [RF24](https://github.com/maniacbug/RF24) - used by nRF24L01+ projects
 * [Rotary](https://github.com/brianlow/Rotary) - rotary Encoder input
+* [Servo8Bit](https://github.com/fri000/Servo8Bit) - servo control with 8-bit timers (e.g ATTiny)
+* [SoftwareServo](https://github.com/ttseng/SoftwareServo) - cloned here, as the repo is not setup correctly to be imported directly as a module
 * [SV-Zanshin/INA](https://github.com/SV-Zanshin/INA) - Combined Arduino library for reading multiple INA2xx power monitor devices
 * [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED) - OLED driver for ATtiny
 * [TMRpcm](https://github.com/TMRh20/TMRpcm) - asynchronous playback of PCM/WAV files direct from SD card

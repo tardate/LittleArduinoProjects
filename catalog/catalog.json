@@ -1,5 +1,12 @@
 [
     {
+        "id": "#603",
+        "name": "ATTiny Servo Drive",
+        "description": "Testing various methods and libraries for driving servo motors with an ATtiny85",
+        "categories": "Arduino, AVR, Servo",
+        "relative_path": "Kinetics/ServoMotors/ATTinyServo"
+    },
+    {
         "id": "#602",
         "name": "HMAS Vampire",
         "description": "Remembering Force Z with a build of the HMAS Vampire from the Tamiya 1:700 waterline series. No electronics for this one.",

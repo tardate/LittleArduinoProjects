@@ -1,4 +1,14 @@
 {
+    "/Kinetics/ServoMotors/ATTinyServo/": {
+        "id": 603,
+        "title": "ATTiny Servo Drive",
+        "summary": "Testing various methods and libraries for driving servo motors with an ATtiny85",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Servo"
+        ]
+    },
     "/Kraft/ForceZ/HMASVampire/": {
         "id": 602,
         "title": "HMAS Vampire",

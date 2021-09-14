@@ -1,0 +1,7 @@
+{
+    "id": "#603",
+    "name": "ATTiny Servo Drive",
+    "description": "Testing various methods and libraries for driving servo motors with an ATtiny85",
+    "categories": "Arduino, AVR, Servo",
+    "relative_path": "Kinetics/ServoMotors/ATTinyServo"
+}
