@@ -13,7 +13,7 @@ Here's a quick demo..
 
 My first miniature - starting with a classic Games Workshop Space Marine thanks to a freebie from a local hobby store.
 I've always been intrigued by the miniature scene, but never really indulged my curiosity.
-Perhpas getting into the [Small Subjects](http://www.boxdioramas.com/smallsubjects) podcast finally pushed me over the edge.
+Perhaps getting into the [Small Subjects](http://www.boxdioramas.com/smallsubjects) podcast finally pushed me over the edge.
 
 It doesn't take long to realise that miniatures require a whole new set of mad skills, and the standard of work out there is absolutely incredible.
 I bindged to a range of miniature artists on YouTube to get the leg up I needed -
@@ -62,6 +62,7 @@ On a wireless charging mat. The device sense protocol is probing for a device to
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=107099)
+* [this project on hackaday.io](https://hackaday.io/project/181712-the-red-eyed-space-marine)
 * [Primaris Intercessors](https://www.games-workshop.com/en-WW/Space-Marines-Primaris-Intercessors-2020?Pmp=classic&Pep=prod4210284,prod4210429-prod4210315,prod4210325) - games-workshop
 * [Primaris Intercessors](https://www.scalemates.com/kits/games-workshop-48-75-primaris-intercessors--1266067) - scalemates
 * [Intercessor](https://warhammer40k.fandom.com/wiki/Intercessor) - warhammer40k wiki
