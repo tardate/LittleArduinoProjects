@@ -492,11 +492,13 @@
     },
     "/Electronics101/555Timer/AircraftNavigationLights/": {
         "id": 552,
-        "title": "Aircraft Navigation Lights",
+        "title": "Freeform Popsicle Airways",
         "summary": "Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers",
         "tags": [
             "LED",
-            "555 Timer"
+            "555 Timer",
+            "Circuit Sculpture",
+            "Freeform"
         ]
     },
     "/Audio/AudioEffectsChips/SN76477/PropPlane/": {

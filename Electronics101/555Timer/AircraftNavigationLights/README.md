@@ -1,4 +1,6 @@
-# #552 Aircraft Navigation Lights
+# #552 Freeform Popsicle Airways
+
+aka Aircraft Navigation Lights!
 
 Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers.
 

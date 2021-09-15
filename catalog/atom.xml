@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-09-15T17:28:30Z</updated>
+  <updated>2021-09-15T17:43:59Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kinetics/ServoMotors/ATTinyServo/</id>
     <link href="https://leap.tardate.com/Kinetics/ServoMotors/ATTinyServo/"/>
-    <updated>2021-09-15T17:22:38Z</updated>
+    <updated>2021-09-15T17:34:42Z</updated>
     <title>#603 ATTiny Servo Drive</title>
     <summary>Testing various methods and libraries for driving servo motors with an ATtiny85</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/ATTinyServo/assets/ATTinyServo_build.jpg</g:image_link>
@@ -557,11 +557,13 @@
     <id>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/"/>
     <updated>2020-05-31T20:36:41Z</updated>
-    <title>#552 Aircraft Navigation Lights</title>
+    <title>#552 Freeform Popsicle Airways</title>
     <summary>Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/AircraftNavigationLights/assets/AircraftNavigationLights_build.jpg</g:image_link>
     <category term="LED"/>
     <category term="555 Timer"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Audio/AudioEffectsChips/SN76477/PropPlane/</id>
