@@ -38,7 +38,7 @@ This all seems to work very reliably.
 
 ## Credits and References
 
-* [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)
 * [Arduino DigitalPins reference](https://www.arduino.cc/en/Tutorial/DigitalPins)

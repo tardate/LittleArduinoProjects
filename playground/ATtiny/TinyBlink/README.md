@@ -23,5 +23,5 @@ I'm programming it with Arduino ISP, see the [ProgrammingWithArduinoISP](../Prog
 ## Credits and References
 
 * [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) shows programming an ATtiny with Arduino ISP
-* [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)

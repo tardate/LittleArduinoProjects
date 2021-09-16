@@ -1,6 +1,6 @@
-# 604 Little Electronics and Arduino Projects
+# 605 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Mini Linear Servos](./Kinetics/ServoMotors/MiniLinearServos) - Testing some mini/micro linear servo motors with an ATtiny85
+> Latest addition:sparkles: [ATtiny Analog Comparator](./playground/ATtiny/AnalogComparator) - testing sound-triggered interrupts with the ATtiny85 built-in analog comparator
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

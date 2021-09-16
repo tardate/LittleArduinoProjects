@@ -40,7 +40,7 @@ The main extra change is to disable brownout detection, which requires a change 
 
 ## Credits and References
 
-* [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [ArduinoSleepCode](http://playground.arduino.cc/Learning/ArduinoSleepCode)
 * [<avr/sleep.h>: Power Management and Sleep Modes](http://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html)
 * [Adventures in Low Power Land](https://www.sparkfun.com/tutorials/309) - excellent sparkfun tutorial

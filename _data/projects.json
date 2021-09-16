@@ -1,4 +1,15 @@
 {
+    "/playground/ATtiny/AnalogComparator/": {
+        "id": 605,
+        "title": "ATtiny Analog Comparator",
+        "summary": "Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Sensor",
+            "OpAmp"
+        ]
+    },
     "/Kinetics/ServoMotors/MiniLinearServos/": {
         "id": 604,
         "title": "Mini Linear Servos",
@@ -4359,7 +4370,7 @@
     },
     "/playground/AnalogComparator/": {
         "id": 139,
-        "title": "AnalogComparator",
+        "title": "Analog Comparator",
         "summary": "test the Atmega328 built-in analog comparator",
         "tags": [
             "Arduino",

@@ -51,6 +51,7 @@ which uses the [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) I²C 
 
 ## Credits and References
 
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html)
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED)

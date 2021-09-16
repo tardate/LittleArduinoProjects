@@ -142,3 +142,5 @@ So how did it perform? Here are the resulting waves stacked on a scope:
 ## Credits and References
 
 * [Bit banging](https://en.wikipedia.org/wiki/Bit_banging) - wikipedia
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
+

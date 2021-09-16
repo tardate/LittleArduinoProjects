@@ -1,4 +1,4 @@
-# #139 AnalogComparator
+# #139 Analog Comparator
 
 Testing the Atmega328 built-in analog comparator
 
@@ -15,16 +15,17 @@ So today I learned (from
 
 The Analog Comparator is introduced in section 23 of the AVR datasheet:
 
-    The Analog Comparator compares the input values on the positive pin AIN0 and negative pin AIN1. When the
-    voltage on the positive pin AIN0 is higher than the voltage on the negative pin AIN1, the Analog Comparator
-    output, ACO, is set. The comparator’s output can be set to trigger the Timer/Counter1 Input Capture function. In
-    addition, the comparator can trigger a separate interrupt, exclusive to the Analog Comparator. The user can
-    select Interrupt triggering on comparator output rise, fall or toggle.
+> The Analog Comparator compares the input values on the positive pin AIN0 and negative pin AIN1. When the
+> voltage on the positive pin AIN0 is higher than the voltage on the negative pin AIN1, the Analog Comparator
+> output, ACO, is set. The comparator’s output can be set to trigger the Timer/Counter1 Input Capture function. In
+> addition, the comparator can trigger a separate interrupt, exclusive to the Analog Comparator. The user can
+> select Interrupt triggering on comparator output rise, fall or toggle.
 
 Note that it's not just the Atmega328 that supports this feature.
 
 The ACSR (Analog Comparator Control and Status Register) determines the behaviour of the Analog Comparator.
 In the program setup, we:
+
 * disable multiplexed input to the comparator, so AIN1 is used as negative input
 * clear any existing comparator interrupts
 * enable Analog Comparator interrupts
@@ -34,6 +35,7 @@ The code defines an interrupt service routine on [ANALOG_COMP_vect](http://www.n
 
 Now that's all well and good, but "pin AIN0" and "pin AIN1" sound pretty alien to most Arduino users!
 A quick check of the [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168) verify:
+
 * Arduino digital pin 6 = AIN0 = pin 12 of the DIP28 chip
 * Arduino digital pin 7 = AIN1 = pin 13 of the DIP28 chip
 

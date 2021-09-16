@@ -59,6 +59,6 @@ See [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) for more 
 
 ## Credits and References
 
-* [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [PinChangeInterrupt-0001.zip](https://code.google.com/archive/p/arduino-tiny/downloads?page=2) - library source (not used here)
 * [ATtiny85 Interrupt Barebones Example](https://www.instructables.com/id/ATtiny85-Interrupt-Barebones-Example/)

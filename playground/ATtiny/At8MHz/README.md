@@ -249,7 +249,7 @@ and LEDs will toggle every half a second, which demonstrates that the processor 
 
 * [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
 * [LEAP#253 ProgrammingShield](../ProgrammingShield)
-* [ATtiny85 datasheet](http://www.atmel.com/devices/ATTINY85.aspx)
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)
 * [avrdude](http://savannah.nongnu.org/projects/avrdude/)
 * [avrdude manual](http://ftp.yzu.edu.tw/nongnu//avrdude/avrdude-doc-5.10.pdf)
