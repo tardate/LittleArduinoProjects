@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-09-15T17:43:59Z</updated>
+  <updated>2021-09-16T15:55:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kinetics/ServoMotors/MiniLinearServos/</id>
+    <link href="https://leap.tardate.com/Kinetics/ServoMotors/MiniLinearServos/"/>
+    <updated>2021-09-16T15:46:31Z</updated>
+    <title>#604 Mini Linear Servos</title>
+    <summary>Testing some mini/micro linear servo motors with an ATtiny85</summary>
+    <g:image_link>https://leap.tardate.com/Kinetics/ServoMotors/MiniLinearServos/assets/MiniLinearServos_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="Servo"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kinetics/ServoMotors/ATTinyServo/</id>
     <link href="https://leap.tardate.com/Kinetics/ServoMotors/ATTinyServo/"/>

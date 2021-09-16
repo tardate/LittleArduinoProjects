@@ -27,7 +27,7 @@ void loop() {
   for(int pos = start_angle; pos <= end_angle; pos += 1)  {
     stepTo(pos);
   }
-  for(int pos = end_angle; pos>=start_angle; pos-=1) {
+  for(int pos = end_angle; pos >= start_angle; pos -= 1) {
     stepTo(pos);
   }
 }

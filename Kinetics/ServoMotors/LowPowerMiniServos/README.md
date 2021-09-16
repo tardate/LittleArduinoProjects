@@ -40,8 +40,8 @@ In practice, the servos I got worked smoothly from ~3.5V
 
 Available from [shopee.sg](https://shopee.sg/Hot-%E3%80%90IN-STOCK%E3%80%91T-power-1.7G-Low-Voltage-Digital-Servo-JST-Connector-KIT-RC-Mini-Car-Drone-i.340360558.8423268127), aliexpress and other sources.
 
-| Item | Specification |
-|------|----------------|
+| Item              | Specification |
+|-------------------|----------------|
 | Brand             | T-power                                       |
 | Operating voltage | 2.8V-4.2V (No more than 4.2 V, or be damaged) |
 | Operating speed   | 0.06s/60°2.8V, 0.05s/60°3.7V                  |

@@ -1,6 +1,6 @@
-# 603 Little Electronics and Arduino Projects
+# 604 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ATTiny Servo Drive](./Kinetics/ServoMotors/ATTinyServo) - Testing various methods and libraries for driving servo motors with an ATtiny85.
+> Latest addition:sparkles: [Mini Linear Servos](./Kinetics/ServoMotors/MiniLinearServos) - Testing some mini/micro linear servo motors with an ATtiny85
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

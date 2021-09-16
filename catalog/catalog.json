@@ -1,5 +1,12 @@
 [
     {
+        "id": "#604",
+        "name": "Mini Linear Servos",
+        "description": "Testing some mini/micro linear servo motors with an ATtiny85",
+        "categories": "Arduino, AVR, Servo",
+        "relative_path": "Kinetics/ServoMotors/MiniLinearServos"
+    },
+    {
         "id": "#603",
         "name": "ATTiny Servo Drive",
         "description": "Testing various methods and libraries for driving servo motors with an ATtiny85",
