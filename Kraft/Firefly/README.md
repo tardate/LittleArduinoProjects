@@ -4,7 +4,7 @@ Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animati
 
 ![Build](./assets/Firefly_build.jpg?raw=true)
 
-Here's a first look (before building base)..
+Here's a first look (before building a base)..
 
 [![clip](https://img.youtube.com/vi/nX1w4FhQlrQ/0.jpg)](https://www.youtube.com/watch?v=nX1w4FhQlrQ)
 
@@ -21,7 +21,7 @@ is a nice little weekender - can be built in a few hours (depending on options c
 
 ### Paint
 
-I'm going to base the finish around sheme A from the kit - bit without the unconfirmed black camo pattern.
+I'm going to base the finish around scheme A from the kit - but without the unconfirmed black camo pattern.
 I'll be using this kit as a "finishing techniques" test subject, so everything after the initial base coat will
 start to go its own way!
 
@@ -42,12 +42,12 @@ I'm using the Vallejo Model Color equivalents:
 
 ### The Build
 
-I kept the build as simple as possible - went with the pre-molded tracks instead of the link-and-length option also included in the kit.
-This saves alot of time in the build - time I banked, now interested to see if they hold up to final scrutiny.
+I kept the build as simple as possible and went with the pre-molded tracks instead of the link-and-length option also included in the kit.
+This saves alot of time in the build - interested to see if they hold up to final scrutiny.
 
 ![build_01](./assets/build_01.jpg?raw=true)
 
-Primed in black so I don't need to worry too much about unpainted nooks and crannnies.
+Primed in black so I don't need to worry too much about unpainted nooks and crannies.
 
 ![build_02_primed](./assets/build_02_primed.jpg?raw=true)
 
@@ -112,7 +112,7 @@ Since the circuit runs fine on 5V, I'm using a USB adapter for power over USB ca
 
 ![build_05a_electronics_inside](./assets/build_05a_electronics_inside.jpg?raw=true)
 
-Here's a first look, before building base..
+Here's a first look, before building a base..
 
 [![clip](https://img.youtube.com/vi/nX1w4FhQlrQ/0.jpg)](https://www.youtube.com/watch?v=nX1w4FhQlrQ)
 

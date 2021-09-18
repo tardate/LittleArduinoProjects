@@ -1,6 +1,6 @@
 # 606 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [ATtiny Analog Comparator](./playground/ATtiny/AnalogComparator) - testing sound-triggered interrupts with the ATtiny85 built-in analog comparator
+> Latest addition:sparkles: [Firefly](./Kraft/Firefly) - Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
