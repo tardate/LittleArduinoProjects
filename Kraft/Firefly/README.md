@@ -6,7 +6,7 @@ Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animati
 
 Here's a demo..
 
-[![clip](https://img.youtube.com/vi/Nik9dn1R260/0.jpg)](https://www.youtube.com/watch?v=Nik9dn1R260)
+[![clip](https://img.youtube.com/vi/c3XtI6FQ8cQ/0.jpg)](https://www.youtube.com/watch?v=c3XtI6FQ8cQ)
 
 ## Notes
 
@@ -139,8 +139,7 @@ Finished? I could do with some more foliage but coming up short on materials at 
 
 Here's a demo of it on the base..
 
-[![clip](https://img.youtube.com/vi/Nik9dn1R260/0.jpg)](https://www.youtube.com/watch?v=Nik9dn1R260)
-
+[![clip](https://img.youtube.com/vi/c3XtI6FQ8cQ/0.jpg)](https://www.youtube.com/watch?v=c3XtI6FQ8cQ)
 
 ## Credits and References
 
