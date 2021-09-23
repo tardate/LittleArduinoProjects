@@ -4,9 +4,9 @@ Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animati
 
 ![Build](./assets/Firefly_build.jpg?raw=true)
 
-Here's a first look (before building a base)..
+Here's a demo..
 
-[![clip](https://img.youtube.com/vi/nX1w4FhQlrQ/0.jpg)](https://www.youtube.com/watch?v=nX1w4FhQlrQ)
+[![clip](https://img.youtube.com/vi/Nik9dn1R260/0.jpg)](https://www.youtube.com/watch?v=Nik9dn1R260)
 
 ## Notes
 
@@ -112,16 +112,34 @@ Since the circuit runs fine on 5V, I'm using a USB adapter for power over USB ca
 
 ![build_05a_electronics_inside](./assets/build_05a_electronics_inside.jpg?raw=true)
 
-Here's a first look, before building a base..
+Here's an initial demo, before building a base..
 
 [![clip](https://img.youtube.com/vi/nX1w4FhQlrQ/0.jpg)](https://www.youtube.com/watch?v=nX1w4FhQlrQ)
 
 
-### Next Step - A Vignette Base
+### A Vignette Base
 
-WIP! Power connector pin built-in, with USB micro connector at the rear of the hillock:
+Laying down the basics on an old ceramic tile. Power connector pin built-in, with USB micro connector at the rear of the hillock:
 
 ![build_06a_starting_a_base](./assets/build_06a_starting_a_base.jpg?raw=true)
+
+Finished? I could do with some more foliage but coming up short on materials at the moment.
+
+![build_07a](./assets/build_07a.jpg?raw=true)
+
+## Final Gallery
+
+![build_08a](./assets/build_08a.jpg?raw=true)
+
+![build_08b](./assets/build_08b.jpg?raw=true)
+
+![build_08c](./assets/build_08c.jpg?raw=true)
+
+![build_08d](./assets/build_08d.jpg?raw=true)
+
+Here's a demo of it on the base..
+
+[![clip](https://img.youtube.com/vi/Nik9dn1R260/0.jpg)](https://www.youtube.com/watch?v=Nik9dn1R260)
 
 
 ## Credits and References
