@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-10-18T14:53:49Z</updated>
+  <updated>2021-11-03T14:19:38Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/JF-17/</id>
+    <link href="https://leap.tardate.com/Kraft/JF-17/"/>
+    <updated>2021-11-03T13:48:17Z</updated>
+    <title>#609 JF-17</title>
+    <summary>Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/JF-17/assets/JF-17_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/LedCurrentControl/</id>
     <link href="https://leap.tardate.com/playground/LedCurrentControl/"/>
-    <updated>2021-10-18T01:35:12Z</updated>
+    <updated>2021-10-18T14:55:20Z</updated>
     <title>#608 LED Current Control</title>
     <summary>Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror</summary>
     <g:image_link>https://leap.tardate.com/playground/LedCurrentControl/assets/LedCurrentControl_build.jpg</g:image_link>

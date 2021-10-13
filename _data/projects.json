@@ -1,4 +1,13 @@
 {
+    "/Kraft/JF-17/": {
+        "id": 609,
+        "title": "JF-17",
+        "summary": "Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/playground/LedCurrentControl/": {
         "id": 608,
         "title": "LED Current Control",

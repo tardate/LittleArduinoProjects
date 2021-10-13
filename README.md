@@ -1,4 +1,4 @@
-# 608 Little Electronics and Arduino Projects
+# 609 Little Electronics and Arduino Projects
 
 > Latest addition:sparkles: [LED Current Control](./playground/LedCurrentControl) - Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror.
 
