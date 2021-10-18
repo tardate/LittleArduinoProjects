@@ -43,6 +43,8 @@ function make_project() {
   mkdir -p ${full_path}
   mkdir ${full_path}/assets
   mkdir ${full_path}/assets/wip
+  mkdir ${full_path}/assets/wip/demo
+  mkdir ${full_path}/assets/wip/hires
 
   local readme_file="${full_path}/README.md"
   echo "making ${readme_file}"
@@ -63,11 +65,11 @@ __notes__
 
 ## Construction
 
-![Breadboard](./assets/${project_name}_bb.jpg?raw=true)
+![bb](./assets/${project_name}_bb.jpg?raw=true)
 
-![Schematic](./assets/${project_name}_schematic.jpg?raw=true)
+![schematic](./assets/${project_name}_schematic.jpg?raw=true)
 
-![Breadboard Build](./assets/${project_name}_bb_build.jpg?raw=true)
+![bb_build](./assets/${project_name}_bb_build.jpg?raw=true)
 
 ## Credits and References
 
@@ -124,6 +126,8 @@ void loop() {
 EOS
 
   cp catalog/templates/template.fzz "${full_path}/${project_name}.fzz"
+  cp catalog/templates/cover1440x400.jpg ${full_path}/assets
+  cp catalog/templates/1080p_bg.* ${full_path}/assets/wip/demo
   echo "project initialised: ${full_path}"
   open "${full_path}"
 }
