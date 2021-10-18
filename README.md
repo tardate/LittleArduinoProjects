@@ -1,6 +1,6 @@
-# 607 Little Electronics and Arduino Projects
+# 608 Little Electronics and Arduino Projects
 
-> Latest addition:sparkles: [Firefly](./Kraft/Firefly) - Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic
+> Latest addition:sparkles: [LED Current Control](./playground/LedCurrentControl) - Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror.
 
 Just my collection of electronics projects, many involving an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

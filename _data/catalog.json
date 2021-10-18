@@ -1,5 +1,12 @@
 [
     {
+        "id": "#608",
+        "name": "LED Current Control",
+        "description": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",
+        "categories": "LED, Arduino",
+        "relative_path": "playground/LedCurrentControl"
+    },
+    {
         "id": "#607",
         "name": "PZL P.7a",
         "description": "Building the Arma Hobby PZL P.7a 1:72 expert set.  No electronics added - just enjoying this wonderfully detailed kit.",

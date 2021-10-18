@@ -1,4 +1,13 @@
 {
+    "/playground/LedCurrentControl/": {
+        "id": 608,
+        "title": "LED Current Control",
+        "summary": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
     "/Kraft/PZLP7a/": {
         "id": 607,
         "title": "PZL P.7a",
