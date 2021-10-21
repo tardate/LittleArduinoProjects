@@ -1,4 +1,15 @@
 {
+    "/Kraft/TornadoECR/": {
+        "id": 613,
+        "title": "Tornado ECR",
+        "summary": "Building the 1:144 Tornado ECR from Revell with wireless LEDs in the Tailpipe.",
+        "tags": [
+            "scale models",
+            "Craft",
+            "Wireless",
+            "LED"
+        ]
+    },
     "/Equipment/HiLoLogicTesterKit/": {
         "id": 612,
         "title": "Hi-Lo Logic Tester Kit",
@@ -131,7 +142,9 @@
         "summary": "Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries",
         "tags": [
             "scale models",
-            "Craft"
+            "Craft",
+            "Wireless",
+            "LED"
         ]
     },
     "/Kraft/K5Y1/": {

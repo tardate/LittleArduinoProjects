@@ -1,7 +1,6 @@
-# 612 Little Electronic Art Projects
+# 613 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Hi-Lo Logic Tester Kit](./Equipment/HiLoLogicTesterKit) - Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.
-
+> Latest addition:sparkles: [Tornado ECR](./Kraft/TornadoECR) - Building the 1:144 Tornado ECR from Revell with wireless LEDs in the Tailpipe.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

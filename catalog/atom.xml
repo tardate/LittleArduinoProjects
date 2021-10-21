@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-12-03T18:16:55Z</updated>
+  <updated>2021-12-22T05:32:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/TornadoECR/</id>
+    <link href="https://leap.tardate.com/Kraft/TornadoECR/"/>
+    <updated>2021-12-22T05:10:09Z</updated>
+    <title>#613 Tornado ECR</title>
+    <summary>Building the 1:144 Tornado ECR from Revell with wireless LEDs in the Tailpipe.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/TornadoECR/assets/TornadoECR_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="Wireless"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/HiLoLogicTesterKit/</id>
     <link href="https://leap.tardate.com/Equipment/HiLoLogicTesterKit/"/>
-    <updated>2021-12-03T18:02:24Z</updated>
+    <updated>2021-12-03T18:20:12Z</updated>
     <title>#612 Hi-Lo Logic Tester Kit</title>
     <summary>Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.</summary>
     <g:image_link>https://leap.tardate.com/Equipment/HiLoLogicTesterKit/assets/HiLoLogicTesterKit_build.jpg</g:image_link>
@@ -159,6 +171,8 @@
     <g:image_link>https://leap.tardate.com/Kraft/RedEyeSpaceMarine/assets/RedEyeSpaceMarine_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="Wireless"/>
+    <category term="LED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/K5Y1/</id>

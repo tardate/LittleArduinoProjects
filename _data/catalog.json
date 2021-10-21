@@ -1,5 +1,12 @@
 [
     {
+        "id": "#613",
+        "name": "Tornado ECR",
+        "description": "Building the 1:144 Tornado ECR from Revell with wireless LEDs in the Tailpipe.",
+        "categories": "scale models, Craft, Wireless, LED",
+        "relative_path": "Kraft/TornadoECR"
+    },
+    {
         "id": "#612",
         "name": "Hi-Lo Logic Tester Kit",
         "description": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
@@ -94,7 +101,7 @@
         "id": "#600",
         "name": "The Red Eyed Space Marine",
         "description": "Inspired by all the mad miniature skills out there these days, I delve into the world of space marines with eyes that glow - no wires or batteries",
-        "categories": "scale models, Craft",
+        "categories": "scale models, Craft, Wireless, LED",
         "relative_path": "Kraft/RedEyeSpaceMarine"
     },
     {
