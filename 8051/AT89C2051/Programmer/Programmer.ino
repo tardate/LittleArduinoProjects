@@ -88,6 +88,10 @@ void advance_counter() {
 
 void init_prog() {
   digitalWrite(XTAL1_PIN, LOW);
+  // Reset the internal address counter to 000H by bringing RST from "L" to "H".
+  // So, we have to push RST low, and wait for it to settle low, then only go high.
+  RST_VPP::setVoltage(0);
+  delay(1);
   RST_VPP::setVoltage(5);
   digitalWrite(P32_PIN, HIGH);
   delay(1);
