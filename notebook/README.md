@@ -1,7 +1,7 @@
 # Electronics Notebook
 
-* [Arduino Tech Notes](./arduino.md)
-* [PCB Fabrication](./pcb_fab.md)
+* [Arduino Tech Notes](./arduino/)
+* [PCB Fabrication](./pcb_fab/)
 
 ## Electronics Online/eBooks
 
