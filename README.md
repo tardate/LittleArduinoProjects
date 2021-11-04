@@ -1,8 +1,8 @@
-# 609 Little Electronics and Arduino Projects
+# 609 Little Electronic Art Projects
 
 > Latest addition:sparkles: [LED Current Control](./playground/LedCurrentControl) - Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror.
 
-Just my collection of electronics projects, many involving an Arduino in one way or another.
+Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
 while many are trivial breadboard kata, intended to test or explore a single idea.
 

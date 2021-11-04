@@ -1,7 +1,8 @@
-# Electronics Notebook
+# Notebook
 
 * [Arduino Tech Notes](./arduino/)
 * [PCB Fabrication](./pcb_fab/)
+* [Scale Model](./scale_model/)
 
 ## Electronics Online/eBooks
 

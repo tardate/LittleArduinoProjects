@@ -6,15 +6,15 @@
       {% endif %}
   </div>
   <a href="{% if leap_id %}{{ site.repo_url | append: "/blob/master" | append: page.url }}{% else %}{{ site.repo_url}}{% endif %}" class="list-group-item" target="_blank">
-    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+    <span class="fa fa-link" aria-hidden="true"></span>
     Project Source on GitHub
   </a>
   <a href="{{ "/gallery.html" | prepend: site.baseurl }}" class="list-group-item">
-    <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
+    <span class="fa fa-film" aria-hidden="true"></span>
     Project Gallery
   </a>
   <a href="{{ site.url }}" class="list-group-item">
-    <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+    <span class="fa fa-backward" aria-hidden="true"></span>
     Return to the LEAP Catalog
   </a>
   <div class="list-group-item">
