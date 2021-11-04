@@ -74,17 +74,20 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 
 | Country          | Name                                                                     | Notes |
 |------------------|--------------------------------------------------------------------------|-------|
+| China            | [Border Models](https://www.bordermodel.com/)                            | |
 | China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | |
 | China            | [HobbyBoss](http://www.hobbyboss.com/index.php?l=en)                     | |
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
 | China            | [小号手 TRUMPETER](http://www.trumpeter-china.com/index.php?l=en)         | awesome range of kits |
 | China            | [首页-Bronco Mould & Plastic Co.,Ltd.](http://www.cn-bronco.com/en/)      | |
+| Czech            | [AVI Models](https://avimodels.com/)                                     | |
 | Czech            | [AZ model](https://www.azmodel.cz/)                                      | |
+| Czech            | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focis on rasin kits and accessories |
 | Czech            | [Eduard](https://www.eduard.com/)                                        | |
 | Czech            | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | |
+| Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | |
 | Czech            | [Kovozávody Prostějov](https://www.kovozavody.cz/)                       | |
 | Czech            | [Special Hobby](https://www.specialhobby.eu/)                            | |
-| Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | |
 | France           | [Heller](https://www.heller.fr/)                                         | |
 | France           | [L'Arsenal](http://www.larsenal.com/)                                    | resin kits |
 | France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
@@ -134,6 +137,7 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | USA              | [[Diemension Games](https://www.facebook.com/diemensiongames/)           | kickstarter games with miniatures |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | OOB |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
+| USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
 | USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | OOB |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
@@ -141,7 +145,7 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
 | USA              | Lindberg                                                                 | OOB |
-| USA              | MiniCraft                                                                | |
+| USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
 | USA              | Model Products Corporation MPC                                           | OOB |
 
 ## Retailers
@@ -149,9 +153,11 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Country          | Name                                                                  | Notes |
 |------------------|-----------------------------------------------------------------------|-------|
 | Australia        | [BNA Model World](https://www.bnamodelworld.com/)                     | |
-| China/aliexpress | [Colorfulday](https://www.aliexpress.com/store/4691061)               | |
+| China/aliexpress | [Colorfulday Store](https://www.aliexpress.com/store/4691061)         | great range of models, often good deals |
+| China/aliexpress | [JZ Hobby Store](https://www.aliexpress.com/store/4683015)            | good range of kits, often good deals |
 | China/aliexpress | [KNL HOBBY No.2 Store](https://knlhobby.aliexpress.com/store/3107041) | prices^^ |
-| China/aliexpress | [real toys](https://realtoys.aliexpress.com/store/1270215)            | |
+| China/aliexpress | [No.3 Model Store](https://www.aliexpress.com/store/1756519)          | modelling accessories|
+| China/aliexpress | [Real-toys Store](https://realtoys.aliexpress.com/store/1270215)      | good range of kits, often good deals |
 | China/taobao     | [shop291689990](https://shop291689990.world.taobao.com/index.htm)     | |
 | EU               | [SMK](https://www.scale-model-kits.com/)                              | |
 | EU               | [Super-Hobby](https://www.super-hobby.com/)                           | |
@@ -166,18 +172,18 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Singapore        | [M WORKSHOP](https://www.facebook.com/themworkshop)                   | |
 | Singapore        | [Miniature Hobby International](http://miniaturehobby.sg/)            | the best place for kits - huge range and great prices |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
-| UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
+| UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
 
 ## Tool & Accessory Suppliers
 
-| Country | Name                                                | Notes |
-|---------|-----------------------------------------------------|-------|
-| Japan   | [mr-hobby](http://www.mr-hobby.com/en/)             | |
-|         | [micromark](https://www.micromark.com/)             | |
-|         | [77propeller](https://77propeller.com/)             |  airbrush stencils |
-|         | [greenstuffworld](https://www.greenstuffworld.com/) | |
-| Spain   | [Vallejo](https://acrylicosvallejo.com/en/)         | paint |
-| UK      | [Humbrol](https://uk.humbrol.com/)                  | paint |
+| Country  | Name                                                | Notes |
+|----------|-----------------------------------------------------|-------|
+| Japan    | [Mr Hobby](http://www.mr-hobby.com/en/)             | |
+| Slovakia | [77propeller](https://77propeller.com/)             |  airbrush stencils |
+| Spain    | [greenstuffworld](https://www.greenstuffworld.com/) | |
+| Spain    | [Vallejo](https://acrylicosvallejo.com/en/)         | paint |
+| UK       | [Humbrol](https://uk.humbrol.com/)                  | paint |
+| USA      | [micromark](https://www.micromark.com/)             | small tool specialists |
