@@ -139,7 +139,7 @@ The controller plugs into a wiring socket on the back of the backdrop:
 
 ![build_11_rear_connections](./assets/build_11_rear_connections.jpg?raw=true)
 
-The finished project is housed in a 30x20x20cm Acrylic Display Case:
+The finished project is housed in a [30x20x20cm Acrylic Display Case](https://shopee.sg/30x20x20cm-Acrylic-Display-Case-Black-Gloss-Base-Dustproof-Assembled-Box-i.140392383.6714630351):
 
 ![build_12_case](./assets/build_12_case.jpg?raw=true)
 

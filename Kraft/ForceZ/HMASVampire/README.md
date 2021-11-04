@@ -93,7 +93,7 @@ A watery base. some fine touchups still to do
 ![build_07b](./assets/build_07b.jpg?raw=true)
 
 As far as I've taken it so far.
-The model base forms part of a 20 x 10 x 10cm acrylic display case.
+The model base forms part of a [20 x 12 x 9cm acrylic display case](https://shopee.sg/-BLESIYA-Acrylic-Display-Box-Transparent-Plastic-Protection-Case-for-Toys-Collection-i.140392305.2995490477).
 
 ![build_08a](./assets/build_08a.jpg?raw=true)
 ![build_08b](./assets/build_08b.jpg?raw=true)

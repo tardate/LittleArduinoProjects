@@ -50,25 +50,23 @@
 
 ## Information Sites/Forums
 
-* [freeshipplans.com](http://freeshipplans.com/)
-* [www.modellmarine.de](http://www.modellmarine.de/)
-* [www.plasticsoldierreview.com](http://www.plasticsoldierreview.com/)
-* [armorama.com](https://armorama.com/)
-* [esm.fandom.com](https://esm.fandom.com)
-* [esm.fandom.com/wiki/Arii](https://esm.fandom.com/wiki/Arii)
-* [esm.fandom.com/wiki/Trumpeter](https://esm.fandom.com/wiki/Trumpeter)
-* [forum.largescalemodeller.com](https://forum.largescalemodeller.com/)
-* [intscalemodeller.com](https://intscalemodeller.com/)
-* [spruepiewithfrets.wordpress.com](https://spruepiewithfrets.wordpress.com/)
-* [www.britmodeller.com](https://www.britmodeller.com/)
-* [www.frogmodelaircraft.co.uk](https://www.frogmodelaircraft.co.uk/) - document the plastic models produced by FROG from the period of the 1950’s to 1976 as well as the Frog spawn that followed
-* [www.scalemates.com](https://www.scalemates.com/kits/)
-* [www.scalemodeladdict.com](https://www.scalemodeladdict.com/)
-* [www.scalemodellingnow.com](https://www.scalemodellingnow.com/)
-* [www.tapatalk.com/groups/airfixtributeforum](https://www.tapatalk.com/groups/airfixtributeforum/)
-* [www.themodellingnews.com](https://www.themodellingnews.com/)
-* [www.themodellingnews.com](https://www.themodellingnews.com/)
-* [www.track-link.com](https://www.track-link.com/)
+* [Airfix Tribute Forum](https://www.tapatalk.com/groups/airfixtributeforum/)
+* [Armorama.com](https://armorama.com/)
+* [Britmodeller.com](https://www.britmodeller.com/)
+* [Encyclopedia of Scale Models Wiki](https://esm.fandom.com)
+* [Free Ship Plans](http://freeshipplans.com/)
+* [Frog Model Aircraft](https://www.frogmodelaircraft.co.uk/) - document the plastic models produced by FROG from the period of the 1950’s to 1976 as well as the Frog spawn that followed
+* [International Scale Modeller](https://intscalemodeller.com/)
+* [Large Scale Modeller](https://forum.largescalemodeller.com/)
+* [Miniature scales](https://en.wikipedia.org/wiki/Miniature_model_(gaming)#Scales)
+* [modellmarine.de](http://www.modellmarine.de/)
+* [Plastic Soldier Review](http://www.plasticsoldierreview.com/)
+* [scalemates.com](https://www.scalemates.com/kits/)
+* [scalemodeladdict.com](https://www.scalemodeladdict.com/)
+* [scalemodellingnow.com](https://www.scalemodellingnow.com/)
+* [spruepiewithfrets](https://spruepiewithfrets.wordpress.com/)
+* [themodellingnews.com](https://www.themodellingnews.com/)
+* [track-link.com](https://www.track-link.com/)
 
 ## Manufacturers
 
@@ -76,16 +74,6 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 
 | Country          | Name                                                                     | Notes |
 |------------------|--------------------------------------------------------------------------|-------|
-|                  | [ION Model](http://ionmodel.com/)                                        | resin figures |
-|                  | [brother-vinni](http://www.brother-vinni.com/index_eng.htm)              | miniatures |
-|                  | [boldminiatures](https://boldminiatures.com/)                            | miniatures |
-|                  | [hfminis](https://hfminis.co.uk/)                                        | miniatures     |
-|                  | [celestialgame](https://shop.celestialgame.com/)                         | miniatures |
-|                  | [wizkids](https://wizkids.com/unpainted/)                                | miniatures |
-|                  | [darkswordminiatures](https://www.darkswordminiatures.com/)              | miniatures |
-|                  | [games-workshop](https://www.games-workshop.com/)                        | miniatures |
-|                  | [ragingheroes](https://www.ragingheroes.com/)                            | miniatures |
-|                  | [reapermini](https://www.reapermini.com/)                                | miniatures |
 | China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | |
 | China            | [HobbyBoss](http://www.hobbyboss.com/index.php?l=en)                     | |
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
@@ -94,20 +82,21 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Czech            | [AZ model](https://www.azmodel.cz/)                                      | |
 | Czech            | [Eduard](https://www.eduard.com/)                                        | |
 | Czech            | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | |
-| Czech            | HPH                                                                      | |
 | Czech            | [Kovozávody Prostějov](https://www.kovozavody.cz/)                       | |
-| Czech            | MPM                                                                      | |
 | Czech            | [Special Hobby](https://www.specialhobby.eu/)                            | |
+| Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | |
 | France           | [Heller](https://www.heller.fr/)                                         | |
 | France           | [L'Arsenal](http://www.larsenal.com/)                                    | resin kits |
+| France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
 | Germany          | [Faller](https://www.faller.de/)                                         | |
 | Germany          | [fentens Kartonmodellbau](http://www.papermodel.com/)                    | |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
+| Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
 | Hong Kong        | [Hong Kong Models](https://www.hk-models.com/hkm/)                       | |
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
 | Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)            |  |
-| Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 |  now part of Microace |
+| Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 | now part of Microace |
 | Japan            | [Bandai](https://p-bandai.com/)                                          |  |
 | Japan            | [Fine molds](https://www.finemolds.co.jp/)                               |  |
 | Japan            | [Fujimi](https://www.fujimimokei.com/)                                   |  |
@@ -117,34 +106,43 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Latvia & Ukraine | [North Star Models](https://northstarmodels.com/)                        | |
 | Poland           | [Arma Hobby](https://www.armahobby.com/)                                 | |
 | Poland           | [IBG](http://www.ibgmodels.com/)                                         | [webstore](http://en.ibg.com.pl/) also carries other manufacturers |
+| Poland           | [ION Model](http://ionmodel.com/)                                        | resin figures |
 | Poland           | [Mirage](http://www.mirage-hobby.com.pl/)                                | |
 | Poland           | [RPM](https://www.jadarhobby.pl/rpm-poland-m-62.html?language=en&str=30) | |
 | Poland           | [Yahu](http://www.yahumodels.com/)                                       | |
+| Russia           | [Brother Vinni's](http://www.brother-vinni.com/index_eng.htm)            | miniatures |
 | Russia           | [Combrig Models](http://combrig-models.com/)                             | |
 | Russia           | [Zvesda](https://en.zvezda.org.ru/)                                      |  |
 | South Korea      | [Academy Plastic Model](https://www.academyhobby.com/)                   | |
+| Sweden           | [Bold Miniatures](https://boldminiatures.com/)                           | miniatures - resin, STL |
 | Taiwan           | [AFV Club](http://www.hobbyfan.com.tw/index.php?&lang=en)                | |
 | UK               | [AirFix](https://uk.airfix.com/)                                         | now part of Hornby Hobbies |
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
-| UK               | Frog                                                                     | |
+| UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
+| UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
 | UK               | [Hornby](https://uk.hornby.com/)                                         | |
+| UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
+| UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
+| UK               | Frog                                                                     | |
 | UK               | Impact                                                                   | OOB |
 | UK               | Matchbox                                                                 | OOB (many kits via Revell)
-| UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | Pegasus - Blue Max                                                       | OOB |
-| UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dorawings](https://dorawings.com/)                                      | |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
 | Ukraine          | [Miniart Models](https://miniart-models.com/)                            | |
+| USA              | [[Diemension Games](https://www.facebook.com/diemensiongames/)           | kickstarter games with miniatures |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | OOB |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
+| USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | OOB |
+| USA              | [MRC](https://www.modelrectifier.com/)                                   | |
+| USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
+| USA              | [Revell](https://www.revell.com/)                                        | |
+| USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
 | USA              | Lindberg                                                                 | OOB |
 | USA              | MiniCraft                                                                | |
 | USA              | Model Products Corporation MPC                                           | OOB |
-| USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | OOB |
-| USA              | [MRC](https://www.modelrectifier.com/)                                   | |
-| USA              | [Revell](https://www.revell.com/)                                        | |
 
 ## Retailers
 
@@ -172,7 +170,6 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
-
 
 ## Tool & Accessory Suppliers
 
