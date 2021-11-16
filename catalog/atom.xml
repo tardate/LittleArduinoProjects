@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-11-24T13:15:45Z</updated>
+  <updated>2021-11-24T13:59:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/ThatIsNotaToy/</id>
+    <link href="https://leap.tardate.com/Kraft/ThatIsNotaToy/"/>
+    <updated>2021-11-24T13:57:24Z</updated>
+    <title>#611 That is not a toy, my boy!</title>
+    <summary>A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/ThatIsNotaToy/assets/ThatIsNotaToy_build.jpg</g:image_link>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/LaserRay/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/LaserRay/"/>
-    <updated>2021-11-24T12:56:27Z</updated>
+    <updated>2021-11-24T13:17:38Z</updated>
     <title>#610 LaserRay</title>
     <summary>Testing a laser ray light and sound effectbased on the 555 timer</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/LaserRay/assets/LaserRay_build.jpg</g:image_link>

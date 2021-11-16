@@ -1,4 +1,12 @@
 {
+    "/Kraft/ThatIsNotaToy/": {
+        "id": 611,
+        "title": "That is not a toy, my boy!",
+        "summary": "A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!",
+        "tags": [
+            "Craft"
+        ]
+    },
     "/Electronics101/555Timer/LaserRay/": {
         "id": 610,
         "title": "LaserRay",
