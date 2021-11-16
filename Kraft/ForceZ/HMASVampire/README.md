@@ -7,14 +7,14 @@ No electronics for this one.
 
 ## Notes
 
-As we are coming up to the 80th anniversary of the sinking of HMS Prince of Wales Force Z, I've been looking at the
+As we are coming up to the 80th anniversary of the sinking of HMS Prince of Wales and HMS Repulse,
 I noticed that Tamiya have a representation of all the vessels in their 1:700 waterline series.
 
 Will I make them all? Perhaps! For now, I've started with the Australian destroyer [HMAS Vampire](https://en.wikipedia.org/wiki/HMAS_Vampire_(D68)).
 
 ### Force Z
 
-[Force Z](https://en.wikipedia.org/wiki/Force_Z) sailed from Singapore at 1710 on 8 December after receiving word of a Japanese convoy bound for Malaya.
+[Force Z](https://en.wikipedia.org/wiki/Force_Z) sailed from Singapore at 1710 on 8 December 1941 after receiving word of a Japanese convoy bound for Malaya.
 It consisted of
 the battleship [HMS Prince of Wales](https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53),
 battlecruiser [HMS Repulse](https://en.wikipedia.org/wiki/HMS_Repulse_(1916)),
@@ -24,7 +24,7 @@ with destroyer escorts
 [HMAS Vampire](https://en.wikipedia.org/wiki/HMAS_Vampire_(D68)) and
 [HMS Tenedos](https://en.wikipedia.org/wiki/HMS_Tenedos_(H04)).
 
-On 9 December, Japanese submarine and reconnaissance aircraft reported on Force Z without their knowledge.
+On 9 December 1941, Japanese submarine and reconnaissance aircraft reported on Force Z without their knowledge.
 HMS Tenedos was also detacted to return to Singapore as she was running low on fuel.
 Overnight, flares dropped by Japanese aircraft alerted Force Z to their discovery.
 Having lost the element of surprise, the force was ordered to return to Singapore.
