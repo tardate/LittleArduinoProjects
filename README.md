@@ -1,6 +1,7 @@
-# 609 Little Electronic Art Projects
+# 610 Little Electronic Art Projects
 
-> Latest addition:sparkles: [LED Current Control](./playground/LedCurrentControl) - Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror.
+> Latest addition:sparkles: [LaserRay](./Electronics101/555Timer/LaserRay) - Testing a laser ray light and sound effectbased on the 555 timer.
+
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

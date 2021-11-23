@@ -1,4 +1,14 @@
 {
+    "/Electronics101/555Timer/LaserRay/": {
+        "id": 610,
+        "title": "LaserRay",
+        "summary": "Testing a laser ray light and sound effectbased on the 555 timer",
+        "tags": [
+            "555 Timer",
+            "Audio",
+            "LED"
+        ]
+    },
     "/Kraft/JF-17/": {
         "id": 609,
         "title": "JF-17",

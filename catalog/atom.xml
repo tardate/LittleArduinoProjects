@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-11-23T11:13:56Z</updated>
+  <updated>2021-11-24T13:15:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/LaserRay/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/LaserRay/"/>
+    <updated>2021-11-24T12:56:27Z</updated>
+    <title>#610 LaserRay</title>
+    <summary>Testing a laser ray light and sound effectbased on the 555 timer</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/LaserRay/assets/LaserRay_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+    <category term="Audio"/>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/JF-17/</id>
     <link href="https://leap.tardate.com/Kraft/JF-17/"/>
