@@ -1527,7 +1527,7 @@
     },
     "/BoldportClub/capacimeter/": {
         "id": 447,
-        "title": "BoldportClub/capacimeter",
+        "title": "Capacimeter",
         "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018",
         "tags": [
             "Boldport",
@@ -1886,8 +1886,8 @@
     },
     "/BoldportClub/conehead/": {
         "id": 409,
-        "title": "BoldportClub/conehead",
-        "summary": "the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018",
+        "title": "Conehead",
+        "summary": "The Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018. This one chirps in response to light.",
         "tags": [
             "Boldport",
             "Oscillators",
@@ -2262,7 +2262,7 @@
     },
     "/BoldportClub/ananas/": {
         "id": 369,
-        "title": "BoldportClub/ananas",
+        "title": "Ananas",
         "summary": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!",
         "tags": [
             "Boldport",
@@ -2316,7 +2316,7 @@
     },
     "/BoldportClub/binco/": {
         "id": 363,
-        "title": "BoldportClub/binco",
+        "title": "BINCO",
         "summary": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club",
         "tags": [
             "Boldport",
@@ -3612,8 +3612,8 @@
     },
     "/Electronics101/555Timer/KnightRider/": {
         "id": 227,
-        "title": "KnightRider",
-        "summary": "the familiar \"Knight-Rider\" LED circuit using a 555 and 4017",
+        "title": "Knight Rider",
+        "summary": "the familiar Knight Rider LED circuit using a 555 and 4017",
         "tags": [
             "555 Timer",
             "CMOS",

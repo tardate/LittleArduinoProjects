@@ -1135,7 +1135,7 @@
     },
     {
         "id": "#447",
-        "name": "BoldportClub/capacimeter",
+        "name": "Capacimeter",
         "description": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018",
         "categories": "Boldport, Tools, Test Equipment",
         "relative_path": "BoldportClub/capacimeter"
@@ -1401,8 +1401,8 @@
     },
     {
         "id": "#409",
-        "name": "BoldportClub/conehead",
-        "description": "the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018",
+        "name": "Conehead",
+        "description": "The Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018. This one chirps in response to light.",
         "categories": "Boldport, Oscillators, CMOS/TTL, Audio",
         "relative_path": "BoldportClub/conehead"
     },
@@ -1681,7 +1681,7 @@
     },
     {
         "id": "#369",
-        "name": "BoldportClub/ananas",
+        "name": "Ananas",
         "description": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!",
         "categories": "Boldport, Oscillators",
         "relative_path": "BoldportClub/ananas"
@@ -1723,7 +1723,7 @@
     },
     {
         "id": "#363",
-        "name": "BoldportClub/binco",
+        "name": "BINCO",
         "description": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club",
         "categories": "Boldport, PCB Design, LED, CMOS/TTL",
         "relative_path": "BoldportClub/binco"
@@ -2675,8 +2675,8 @@
     },
     {
         "id": "#227",
-        "name": "KnightRider",
-        "description": "the familiar \"Knight-Rider\" LED circuit using a 555 and 4017",
+        "name": "Knight Rider",
+        "description": "the familiar Knight Rider LED circuit using a 555 and 4017",
         "categories": "555 Timer, CMOS, LED",
         "relative_path": "Electronics101/555Timer/KnightRider"
     },

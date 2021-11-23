@@ -1,4 +1,4 @@
-# #369 ananas
+# #369 Ananas
 
 Building the tropical end-of-year present from Boldport Club, Project #20 - ananas!
 

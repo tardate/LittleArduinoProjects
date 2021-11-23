@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-11-03T14:19:38Z</updated>
+  <updated>2021-11-23T11:13:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/JF-17/</id>
     <link href="https://leap.tardate.com/Kraft/JF-17/"/>
-    <updated>2021-11-03T13:48:17Z</updated>
+    <updated>2021-11-03T14:50:09Z</updated>
     <title>#609 JF-17</title>
     <summary>Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/JF-17/assets/JF-17_build.jpg</g:image_link>
@@ -1703,7 +1703,7 @@
     <id>https://leap.tardate.com/BoldportClub/capacimeter/</id>
     <link href="https://leap.tardate.com/BoldportClub/capacimeter/"/>
     <updated>2020-03-14T16:56:38Z</updated>
-    <title>#447 BoldportClub/capacimeter</title>
+    <title>#447 Capacimeter</title>
     <summary>measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/capacimeter/assets/capacimeter_build.jpg</g:image_link>
     <category term="Boldport"/>
@@ -2100,8 +2100,8 @@
     <id>https://leap.tardate.com/BoldportClub/conehead/</id>
     <link href="https://leap.tardate.com/BoldportClub/conehead/"/>
     <updated>2018-08-12T16:16:08Z</updated>
-    <title>#409 BoldportClub/conehead</title>
-    <summary>the Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018</summary>
+    <title>#409 Conehead</title>
+    <summary>The Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018. This one chirps in response to light.</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/conehead/assets/conehead_build.jpg</g:image_link>
     <category term="Boldport"/>
     <category term="Oscillators"/>
@@ -2516,7 +2516,7 @@
     <id>https://leap.tardate.com/BoldportClub/ananas/</id>
     <link href="https://leap.tardate.com/BoldportClub/ananas/"/>
     <updated>2018-01-07T12:30:07Z</updated>
-    <title>#369 BoldportClub/ananas</title>
+    <title>#369 Ananas</title>
     <summary>building the tropical end-of-year present from Boldport Club, Project #20 - ananas!</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/ananas/assets/ananas_build.jpg</g:image_link>
     <category term="Boldport"/>
@@ -2576,7 +2576,7 @@
     <id>https://leap.tardate.com/BoldportClub/binco/</id>
     <link href="https://leap.tardate.com/BoldportClub/binco/"/>
     <updated>2017-12-29T13:50:08Z</updated>
-    <title>#363 BoldportClub/binco</title>
+    <title>#363 BINCO</title>
     <summary>BINCO is a little up or down &quot;fidget&quot; counter, Project #19 of the Boldport Club</summary>
     <g:image_link>https://leap.tardate.com/BoldportClub/binco/assets/binco_build.jpg</g:image_link>
     <category term="Boldport"/>
@@ -4008,8 +4008,8 @@
     <id>https://leap.tardate.com/Electronics101/555Timer/KnightRider/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/KnightRider/"/>
     <updated>2016-07-11T14:13:48Z</updated>
-    <title>#227 KnightRider</title>
-    <summary>the familiar &quot;Knight-Rider&quot; LED circuit using a 555 and 4017</summary>
+    <title>#227 Knight Rider</title>
+    <summary>the familiar Knight Rider LED circuit using a 555 and 4017</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/KnightRider/assets/KnightRider_build.jpg</g:image_link>
     <category term="555 Timer"/>
     <category term="CMOS"/>

@@ -1,6 +1,7 @@
-# #409 conehead
+# #409 Conehead
 
 The Conehead is the fourth in a series of beautiful electronic bug boards from the Boldport Club, Project #24 April 2018.
+This one chirps in response to light.
 
 Here's a quick demo..
 

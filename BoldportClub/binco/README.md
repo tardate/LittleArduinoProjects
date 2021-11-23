@@ -1,4 +1,4 @@
-# #363 binco
+# #363 BINCO
 
 BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club.
 

@@ -1,7 +1,7 @@
 {
-    "id": "#363", 
-    "name": "BoldportClub/binco", 
-    "description": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club", 
-    "categories": "Boldport, PCB Design, LED, CMOS/TTL", 
+    "id": "#363",
+    "name": "BINCO",
+    "description": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club",
+    "categories": "Boldport, PCB Design, LED, CMOS/TTL",
     "relative_path": "BoldportClub/binco"
 }

@@ -1,7 +1,8 @@
-# #227 555Timer/KnightRider
+# #227 Knight Rider
 
 The familiar "Knight-Rider" LED circuit using a 555 and 4017
 
+![The Build](./assets/KnightRider_build.jpg?raw=true)
 
 ## Notes
 
