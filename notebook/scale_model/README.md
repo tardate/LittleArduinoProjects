@@ -125,6 +125,7 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
 | UK               | [Hornby](https://uk.hornby.com/)                                         | |
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
+| UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
 | UK               | Frog                                                                     | |
 | UK               | Impact                                                                   | OOB |
@@ -139,13 +140,13 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
 | USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | OOB |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
 | USA              | Lindberg                                                                 | OOB |
-| USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
 | USA              | Model Products Corporation MPC                                           | OOB |
 
 ## Retailers
@@ -173,6 +174,7 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Singapore        | [Miniature Hobby International](http://miniaturehobby.sg/)            | the best place for kits - huge range and great prices |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
+| UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
 | UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
