@@ -105,6 +105,7 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Japan            | [Fujimi](https://www.fujimimokei.com/)                                   |  |
 | Japan            | [Hasegawa](http://www.hasegawa-model.co.jp/gsite/)                       |  |
 | Japan            | [Microace](http://www.microace-arii.co.jp/)                              |  |
+| Japan            | [Pit-road](https://pit-road.jp/)                                         | |
 | Japan            | [Tamiya](https://www.tamiya.com/english/e-home.htm)                      |  |
 | Latvia & Ukraine | [North Star Models](https://northstarmodels.com/)                        | |
 | Poland           | [Arma Hobby](https://www.armahobby.com/)                                 | |
