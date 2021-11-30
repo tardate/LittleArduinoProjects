@@ -1,4 +1,13 @@
 {
+    "/Electronics101/Power/DicksonChargePump/HalfWave/": {
+        "id": 611,
+        "title": "Half-Wave Dickson Charge Pump",
+        "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.",
+        "tags": [
+            "Arduino",
+            "Power"
+        ]
+    },
     "/Kraft/ThatIsNotaToy/": {
         "id": 611,
         "title": "That is not a toy, my boy!",
@@ -2056,7 +2065,7 @@
     },
     "/playground/DicksonChargePump/": {
         "id": 393,
-        "title": "DicksonChargePump",
+        "title": "Dickson Charge Pump",
         "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM",
         "tags": [
             "Arduino",

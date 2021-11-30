@@ -1,6 +1,13 @@
 [
     {
         "id": "#611",
+        "name": "Half-Wave Dickson Charge Pump",
+        "description": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.",
+        "categories": "Arduino, Power",
+        "relative_path": "Electronics101/Power/DicksonChargePump/HalfWave"
+    },
+    {
+        "id": "#611",
         "name": "That is not a toy, my boy!",
         "description": "A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!",
         "categories": "Craft",
@@ -1527,7 +1534,7 @@
     },
     {
         "id": "#393",
-        "name": "DicksonChargePump",
+        "name": "Dickson Charge Pump",
         "description": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM",
         "categories": "Arduino, Power",
         "relative_path": "playground/DicksonChargePump"

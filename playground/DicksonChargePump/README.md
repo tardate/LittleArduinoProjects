@@ -1,4 +1,4 @@
-# #393 DicksonChargePump
+# #393 Dickson Charge Pump
 
 Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM.
 

@@ -1,7 +1,7 @@
 {
-    "id": "#393", 
-    "name": "DicksonChargePump", 
-    "description": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM", 
-    "categories": "Arduino, Power", 
+    "id": "#393",
+    "name": "Dickson Charge Pump",
+    "description": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM",
+    "categories": "Arduino, Power",
     "relative_path": "playground/DicksonChargePump"
 }

@@ -1,6 +1,6 @@
-# 610 Little Electronic Art Projects
+# 611 Little Electronic Art Projects
 
-> Latest addition:sparkles: [LaserRay](./Electronics101/555Timer/LaserRay) - Testing a laser ray light and sound effectbased on the 555 timer.
+> Latest addition:sparkles: [Half-Wave Dickson Charge Pump](./Electronics101/Power/DicksonChargePump/HalfWave) - Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.
 
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.

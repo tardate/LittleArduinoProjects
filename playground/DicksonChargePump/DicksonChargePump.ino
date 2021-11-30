@@ -10,7 +10,6 @@
 const int PUMP_A=3;
 const int PUMP_B=11;
 
-
 /*
  * Enable Timer2 Fast PWM on pin 3, 11
  *   NB: pins must be set to OUTPUT for PWM to appear on the pins
@@ -42,7 +41,6 @@ void PwmOff() {
 void setup() {
   startPwm();
 }
-
 
 void loop() {
   PwmOn();

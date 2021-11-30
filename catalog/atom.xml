@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-11-24T13:59:09Z</updated>
+  <updated>2021-11-30T13:51:22Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/Power/DicksonChargePump/HalfWave/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/DicksonChargePump/HalfWave/"/>
+    <updated>2021-11-30T13:49:28Z</updated>
+    <title>#611 Half-Wave Dickson Charge Pump</title>
+    <summary>Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/DicksonChargePump/HalfWave/assets/HalfWave_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="Power"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/ThatIsNotaToy/</id>
     <link href="https://leap.tardate.com/Kraft/ThatIsNotaToy/"/>
-    <updated>2021-11-24T13:57:24Z</updated>
+    <updated>2021-11-24T14:02:34Z</updated>
     <title>#611 That is not a toy, my boy!</title>
     <summary>A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!</summary>
     <g:image_link>https://leap.tardate.com/Kraft/ThatIsNotaToy/assets/ThatIsNotaToy_build.jpg</g:image_link>
@@ -2288,7 +2298,7 @@
     <id>https://leap.tardate.com/playground/DicksonChargePump/</id>
     <link href="https://leap.tardate.com/playground/DicksonChargePump/"/>
     <updated>2018-06-06T15:28:00Z</updated>
-    <title>#393 DicksonChargePump</title>
+    <title>#393 Dickson Charge Pump</title>
     <summary>Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM</summary>
     <g:image_link>https://leap.tardate.com/playground/DicksonChargePump/assets/DicksonChargePump_build.jpg</g:image_link>
     <category term="Arduino"/>
