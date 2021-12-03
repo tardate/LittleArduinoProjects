@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-11-30T13:51:22Z</updated>
+  <updated>2021-12-03T18:16:55Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/HiLoLogicTesterKit/</id>
+    <link href="https://leap.tardate.com/Equipment/HiLoLogicTesterKit/"/>
+    <updated>2021-12-03T18:02:24Z</updated>
+    <title>#612 Hi-Lo Logic Tester Kit</title>
+    <summary>Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/HiLoLogicTesterKit/assets/HiLoLogicTesterKit_build.jpg</g:image_link>
+    <category term="CMOS/TTL"/>
+    <category term="Digital Logic"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Power/DicksonChargePump/HalfWave/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/DicksonChargePump/HalfWave/"/>
-    <updated>2021-11-30T13:49:28Z</updated>
+    <updated>2021-11-30T13:52:48Z</updated>
     <title>#611 Half-Wave Dickson Charge Pump</title>
     <summary>Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/DicksonChargePump/HalfWave/assets/HalfWave_build.jpg</g:image_link>

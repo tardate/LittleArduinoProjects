@@ -1,4 +1,13 @@
 {
+    "/Equipment/HiLoLogicTesterKit/": {
+        "id": 612,
+        "title": "Hi-Lo Logic Tester Kit",
+        "summary": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
+        "tags": [
+            "CMOS/TTL",
+            "Digital Logic"
+        ]
+    },
     "/Electronics101/Power/DicksonChargePump/HalfWave/": {
         "id": 611,
         "title": "Half-Wave Dickson Charge Pump",

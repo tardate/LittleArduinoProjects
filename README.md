@@ -1,6 +1,6 @@
-# 611 Little Electronic Art Projects
+# 612 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Half-Wave Dickson Charge Pump](./Electronics101/Power/DicksonChargePump/HalfWave) - Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.
+> Latest addition:sparkles: [Hi-Lo Logic Tester Kit](./Equipment/HiLoLogicTesterKit) - Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.
 
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
