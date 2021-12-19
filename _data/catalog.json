@@ -1,5 +1,12 @@
 [
     {
+        "id": "#615",
+        "name": "I-153",
+        "description": "Building the Polikarpov I-153 as used by the Guomindang Air Force - ICM 1:72 kit 72076",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/Polikarpov/I-153"
+    },
+    {
         "id": "#614",
         "name": "HMS Prince Of Wales",
         "description": "Remembering Force Z with a build of the HMS Prince Of Wales from the Tamiya 1:700 waterline series. No electronics for this one.",

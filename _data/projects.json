@@ -1,4 +1,13 @@
 {
+    "/Kraft/Polikarpov/I-153/": {
+        "id": 615,
+        "title": "I-153",
+        "summary": "Building the Polikarpov I-153 as used by the Guomindang Air Force - ICM 1:72 kit 72076",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/ForceZ/HMSPrinceOfWales/": {
         "id": 614,
         "title": "HMS Prince Of Wales",

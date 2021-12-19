@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2021-12-28T03:47:26Z</updated>
+  <updated>2021-12-29T10:09:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Polikarpov/I-153/</id>
+    <link href="https://leap.tardate.com/Kraft/Polikarpov/I-153/"/>
+    <updated>2021-12-29T03:43:45Z</updated>
+    <title>#615 I-153</title>
+    <summary>Building the Polikarpov I-153 as used by the Guomindang Air Force - ICM 1:72 kit 72076</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Polikarpov/I-153/assets/I-153_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/ForceZ/HMSPrinceOfWales/</id>
     <link href="https://leap.tardate.com/Kraft/ForceZ/HMSPrinceOfWales/"/>
-    <updated>2021-12-28T03:07:10Z</updated>
+    <updated>2021-12-28T03:50:10Z</updated>
     <title>#614 HMS Prince Of Wales</title>
     <summary>Remembering Force Z with a build of the HMS Prince Of Wales from the Tamiya 1:700 waterline series. No electronics for this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/ForceZ/HMSPrinceOfWales/assets/HMSPrinceOfWales_build.jpg</g:image_link>

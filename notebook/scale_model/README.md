@@ -130,10 +130,12 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Russia           | [Zvesda](https://en.zvezda.org.ru/)                                      |  |
 | Slovakia         | [77propeller](https://77propeller.com/)                                  | airbrush stencils |
 | South Korea      | [Academy Plastic Model](https://www.academyhobby.com/)                   | |
+| South Korea      | [Tetra Model Works](http://www.tetramodel.com/)                          | detail parts for scale models |
 | Spain            | [greenstuffworld](https://www.greenstuffworld.com/)                      | tools, putties, materials and accessories |
 | Spain            | [Vallejo](https://acrylicosvallejo.com/en/)                              | paint |
 | Sweden           | [Bold Miniatures](https://boldminiatures.com/)                           | miniatures - resin, STL |
 | Taiwan           | [AFV Club](http://www.hobbyfan.com.tw/index.php?&lang=en)                | |
+| Turkey           | [Tan Model](http://www.tanmodel.com/en/)                                 | Turkey's international scale modelling brand.  |
 | UK               | [AirFix](https://uk.airfix.com/)                                         | now part of Hornby Hobbies |
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
 | UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
@@ -145,7 +147,6 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
 | UK               | Frog                                                                     | 1955-1976|
 | UK               | Matchbox                                                                 | bankrupt, moulds bought by Revell and others |
-| USA              | [Pegasus Hobbies](https://pegasushobbies.net)                            | miniatures |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dorawings](https://dorawings.com/)                                      | |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
@@ -155,10 +156,12 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [Imperial Hobby Productions](https://ihphobby.tripod.com/)               | 1/700 scale ships, HO scale commuter and transit vehicles |
 | USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
 | USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
 | USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | Company defunct |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
+| USA              | [Pegasus Hobbies](https://pegasushobbies.net)                            | miniatures |
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
