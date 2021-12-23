@@ -2,17 +2,21 @@
 
 ## Podcasts
 
+* [Built Sideways Podcast](https://podcasts.apple.com/us/podcast/built-sideways-podcast/id1578246351)
 * [Just Making Conversation](https://podcasts.apple.com/us/podcast/just-making-conversation/id1539297245)
 * [ModelGeek's Podcast](https://www.modelgeekspodcast.com/)
 * [On the Bench](https://otbmodellerspodcast.libsyn.com/website)
 * [Plastic Model Mojo](https://www.plasticmodelmojo.com/)
 * [Plastic Posse Podcast](https://plasticpossepodcast.buzzsprout.com/)
 * [Scale Model Podcast](https://scalemodelpodcast.com/)
+* [Scale Model Shed](http://scalemodelshed.com/) - defunct, but evergreen
 * [Small Subjects Podcast](http://www.boxdioramas.com/smallsubjects)
 * [Sprue Cutters' Union](https://spruecuttersu.buzzsprout.com/)
-* [Scale Model Shed](http://scalemodelshed.com/) - defunct, but evergreen
+* [The Cutting Mat Podcast](https://www.thecuttingmatpodcast.com/)
 
-## Video
+See also [Model Podcasts](http://modelpodcasts.com/) curated list.
+
+## Video/Youtube
 
 * [AMMO of MIGJIMENEZ](https://www.youtube.com/user/AMMOofMIGJIMENEZ)
 * [AndysHobbyHeadquarters](https://www.youtube.com/c/AndysHobbyHeadquarters)
@@ -70,11 +74,16 @@
 
 ## Manufacturers
 
-See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedia.org/wiki/List_of_scale_model_kit_manufacturers)
+Including Tool & Accessory Suppliers.
+See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedia.org/wiki/List_of_scale_model_kit_manufacturers).
+
+This is not an exhaustive list - mainly just companies with products that have caught my eue for one reason or another.
 
 | Country          | Name                                                                     | Notes |
 |------------------|--------------------------------------------------------------------------|-------|
+| Belgium          | [PJ Production](https://www.pj-production.be/en/)                        | resin scale models and accessories |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
+| China            | [dspiae](https://www.dspiae.com/)                                        | tools |
 | China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | |
 | China            | [HobbyBoss](http://www.hobbyboss.com/index.php?l=en)                     | |
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
@@ -105,7 +114,9 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Japan            | [Fujimi](https://www.fujimimokei.com/)                                   |  |
 | Japan            | [Hasegawa](http://www.hasegawa-model.co.jp/gsite/)                       |  |
 | Japan            | [Microace](http://www.microace-arii.co.jp/)                              |  |
+| Japan            | [Mr Hobby](http://www.mr-hobby.com/en/)                                  | paint and accessories |
 | Japan            | [Pit-road](https://pit-road.jp/)                                         | |
+| Japan            | [Rokuhan](https://www.rokuhan.com/)                                      | Manufacturing and sales of model railroad items in Z scale |
 | Japan            | [Tamiya](https://www.tamiya.com/english/e-home.htm)                      |  |
 | Latvia & Ukraine | [North Star Models](https://northstarmodels.com/)                        | |
 | Poland           | [Arma Hobby](https://www.armahobby.com/)                                 | |
@@ -117,7 +128,10 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | Russia           | [Brother Vinni's](http://www.brother-vinni.com/index_eng.htm)            | miniatures |
 | Russia           | [Combrig Models](http://combrig-models.com/)                             | |
 | Russia           | [Zvesda](https://en.zvezda.org.ru/)                                      |  |
+| Slovakia         | [77propeller](https://77propeller.com/)                                  | airbrush stencils |
 | South Korea      | [Academy Plastic Model](https://www.academyhobby.com/)                   | |
+| Spain            | [greenstuffworld](https://www.greenstuffworld.com/)                      | tools, putties, materials and accessories |
+| Spain            | [Vallejo](https://acrylicosvallejo.com/en/)                              | paint |
 | Sweden           | [Bold Miniatures](https://boldminiatures.com/)                           | miniatures - resin, STL |
 | Taiwan           | [AFV Club](http://www.hobbyfan.com.tw/index.php?&lang=en)                | |
 | UK               | [AirFix](https://uk.airfix.com/)                                         | now part of Hornby Hobbies |
@@ -125,30 +139,31 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
 | UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
 | UK               | [Hornby](https://uk.hornby.com/)                                         | |
+| UK               | [Humbrol](https://uk.humbrol.com/)                                       | paint |
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
-| UK               | Frog                                                                     | |
-| UK               | Impact                                                                   | OOB |
-| UK               | Matchbox                                                                 | OOB (many kits via Revell)
-| UK               | Pegasus - Blue Max                                                       | OOB |
+| UK               | Frog                                                                     | 1955-1976|
+| UK               | Matchbox                                                                 | bankrupt, moulds bought by Revell and others |
+| USA              | [Pegasus Hobbies](https://pegasushobbies.net)                            | miniatures |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dorawings](https://dorawings.com/)                                      | |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
 | Ukraine          | [Miniart Models](https://miniart-models.com/)                            | |
 | USA              | [[Diemension Games](https://www.facebook.com/diemensiongames/)           | kickstarter games with miniatures |
-| USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | OOB |
+| USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
 | USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
-| USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | OOB |
+| USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | Company defunct |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
-| USA              | Lindberg                                                                 | OOB |
-| USA              | Model Products Corporation MPC                                           | OOB |
+| USA              | Lindberg                                                                 | Defunct |
+| USA              | Model Products Corporation MPC                                           | Defunct |
 
 ## Retailers
 
@@ -179,14 +194,4 @@ See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedi
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
 | UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
-
-## Tool & Accessory Suppliers
-
-| Country  | Name                                                | Notes |
-|----------|-----------------------------------------------------|-------|
-| Japan    | [Mr Hobby](http://www.mr-hobby.com/en/)             | |
-| Slovakia | [77propeller](https://77propeller.com/)             |  airbrush stencils |
-| Spain    | [greenstuffworld](https://www.greenstuffworld.com/) | |
-| Spain    | [Vallejo](https://acrylicosvallejo.com/en/)         | paint |
-| UK       | [Humbrol](https://uk.humbrol.com/)                  | paint |
-| USA      | [micromark](https://www.micromark.com/)             | small tool specialists |
+| Singapore        | [HPM Hobbies](https://www.hpmhobbies.com/)                            | |
