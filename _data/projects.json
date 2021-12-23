@@ -1,4 +1,13 @@
 {
+    "/Kraft/PLAAF/J10S/": {
+        "id": 618,
+        "title": "Chengdu J-10S",
+        "summary": "Building the Trumpeter 1:72 Chengdu J-10S in early Ba Yi Aerobatics Team colours. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/WeevilEyeKit/": {
         "id": 617,
         "title": "Weevil Eye Kit",
@@ -82,7 +91,7 @@
             "LED"
         ]
     },
-    "/Kraft/JF-17/": {
+    "/Kraft/PLAAF/JF-17/": {
         "id": 609,
         "title": "JF-17",
         "summary": "Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.",
@@ -360,7 +369,7 @@
             "Oscillators"
         ]
     },
-    "/Kraft/PLANType054A/": {
+    "/Kraft/PLAN/Type054A/": {
         "id": 581,
         "title": "PLA Navy Type 054A",
         "summary": "Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet)",

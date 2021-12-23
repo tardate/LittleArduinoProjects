@@ -1,4 +1,4 @@
-# 617 Little Electronic Art Projects
+# 618 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Weevil Eye Kit](./Electronics101/WeevilEyeKit) - Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.
 

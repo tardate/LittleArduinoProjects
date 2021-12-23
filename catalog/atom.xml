@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-01-18T14:23:09Z</updated>
+  <updated>2022-01-18T15:08:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/PLAAF/J10S/</id>
+    <link href="https://leap.tardate.com/Kraft/PLAAF/J10S/"/>
+    <updated>2022-01-18T15:08:10Z</updated>
+    <title>#618 Chengdu J-10S</title>
+    <summary>Building the Trumpeter 1:72 Chengdu J-10S in early Ba Yi Aerobatics Team colours. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/PLAAF/J10S/assets/J10S_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/WeevilEyeKit/</id>
     <link href="https://leap.tardate.com/Electronics101/WeevilEyeKit/"/>
-    <updated>2022-01-18T14:02:08Z</updated>
+    <updated>2022-01-18T14:25:28Z</updated>
     <title>#617 Weevil Eye Kit</title>
     <summary>Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/WeevilEyeKit/assets/WeevilEyeKit_build.jpg</g:image_link>
@@ -104,12 +114,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/JF-17/</id>
-    <link href="https://leap.tardate.com/Kraft/JF-17/"/>
+    <id>https://leap.tardate.com/Kraft/PLAAF/JF-17/</id>
+    <link href="https://leap.tardate.com/Kraft/PLAAF/JF-17/"/>
     <updated>2021-11-03T14:50:09Z</updated>
     <title>#609 JF-17</title>
     <summary>Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/JF-17/assets/JF-17_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/PLAAF/JF-17/assets/JF-17_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
@@ -410,12 +420,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/PLANType054A/</id>
-    <link href="https://leap.tardate.com/Kraft/PLANType054A/"/>
+    <id>https://leap.tardate.com/Kraft/PLAN/Type054A/</id>
+    <link href="https://leap.tardate.com/Kraft/PLAN/Type054A/"/>
     <updated>2021-02-20T09:03:03Z</updated>
     <title>#581 PLA Navy Type 054A</title>
     <summary>Building the Trumpeter 1:700 PLAN 054A Frigate (no electronics - yet)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/PLANType054A/assets/PLANType054A_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/PLAN/Type054A/assets/Type054A_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
