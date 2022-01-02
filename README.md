@@ -1,6 +1,6 @@
-# 615 Little Electronic Art Projects
+# 616 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Tornado ECR](./Kraft/TornadoECR) - Building the 1:144 Tornado ECR from Revell with wireless LEDs in the Tailpipe.
+> Latest addition:sparkles: [Candle Emulator](./Electronics101/LED/CandleEmulator) - An Arduino LED candle emulation.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
