@@ -1,4 +1,13 @@
 {
+    "/Electronics101/LED/CandleEmulator/": {
+        "id": 616,
+        "title": "Candle Emulator",
+        "summary": "An Arduino LED candle emulation",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
     "/Kraft/Polikarpov/I-153/": {
         "id": 615,
         "title": "I-153",

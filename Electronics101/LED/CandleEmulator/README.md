@@ -11,7 +11,7 @@ Here's a quick demo..
 ## Notes
 
 LEDs and candle lights that appear to flicker like real candles have become quite mainstream.
-There are many imitation candle products available, cheaply and some even with wireless control.
+There are many imitation candle products available, and some even with wireless control.
 
 This all seems to have been enabled by low-cost microcontrollers with a smart flicker emulator embedded into LED package itself:
 
@@ -26,26 +26,26 @@ concerning LED candles:
 * [making a LED-Candle based on the 3 cent MCU](https://cpldcpu.wordpress.com/2019/09/28/a-led-candle-based-on-the-3-cent-mcu/)
 
 In this little project I am simply exploring the [emulator code](https://github.com/cpldcpu/CandleLEDhack)
-that Tim relesaed and adapting it for Arduino.
+that Tim released and adapting it for Arduino.
 
 ## Emultion Algorithm Essentials
 
-[Tim's work](https://cpldcpu.wordpress.com/2013/12/08/hacking-a-candleflicker-led/) basically established that the LED emultation:
+[Tim's work](https://cpldcpu.wordpress.com/2013/12/08/hacking-a-candleflicker-led/) basically established that flicker LEDs:
 
-* LED is driven with a PWM signal at around 440Hz
-* 16 levels of brightness are used
+* drive the LED with a PWM signal at around 440Hz
+* use 16 levels of brightness
   - the lowest 4 hardly ever used (<0.4% of samples)
   - 50% of samples are max brightness
   - the other 12 levels are almost evenly distributed
-* the brigthness level is changed every 32 cycles (Tim calls a "frame")
+* changes the brightness level every 32 cycles (Tim calls a "frame")
 
 ## Construction
 
-Randomply selected pin 11 on the Arduino for the LED. The code implements a pulse-width modulation (PWM) algorithm but
+Randomly selected pin 11 on the Arduino for the LED. The code implements a pulse-width modulation (PWM) algorithm but
 just uses a GPIO pin to drive the LED (so does not need a pin with hardware PWM).
 
 A low value (220Ω) current-limiting resistor ensures decent brightness
-with a yellow LED while keeping current in-spec.
+with a yellow LED while keeping current within spec.
 
 ![bb](./assets/CandleEmulator_bb.jpg?raw=true)
 
@@ -64,3 +64,4 @@ The [CandleEmulator.ino](./CandleEmulator.ino) code is a refactored version of [
 
 * [Hacking a Candleflicker LED](https://cpldcpu.wordpress.com/2013/12/08/hacking-a-candleflicker-led/)
 * [CandleLEDhack](https://github.com/cpldcpu/CandleLEDhack) - github
+* [5mm LED Flicker Diodes](https://www.aliexpress.com/item/32782781815.html) - example LED product on aliexpress
