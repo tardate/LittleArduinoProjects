@@ -1,5 +1,12 @@
 [
     {
+        "id": "#621",
+        "name": "KubelMagic",
+        "description": "A walnut, Brengun 1:144 K\u00fcbelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.",
+        "categories": "LED, Oscillators, scale models, Craft",
+        "relative_path": "Kraft/KubelMagic"
+    },
+    {
         "id": "#620",
         "name": "Glowing Star SMD Practice Board",
         "description": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",

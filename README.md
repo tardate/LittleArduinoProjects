@@ -1,6 +1,6 @@
-# 620 Little Electronic Art Projects
+# 621 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Glowing Star SMD Practice Board](./Electronics101/SMDPracticeBoards/Star) - Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.
+> Latest addition:sparkles: [KubelMagic](./Kraft/KubelMagic) - A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

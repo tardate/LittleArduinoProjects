@@ -1,4 +1,15 @@
 {
+    "/Kraft/KubelMagic/": {
+        "id": 621,
+        "title": "KubelMagic",
+        "summary": "A walnut, Brengun 1:144 K\u00fcbelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.",
+        "tags": [
+            "LED",
+            "Oscillators",
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/SMDPracticeBoards/Star/": {
         "id": 620,
         "title": "Glowing Star SMD Practice Board",

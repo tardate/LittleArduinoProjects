@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-01-20T14:40:07Z</updated>
+  <updated>2022-01-30T10:35:59Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/KubelMagic/</id>
+    <link href="https://leap.tardate.com/Kraft/KubelMagic/"/>
+    <updated>2022-01-30T10:04:48Z</updated>
+    <title>#621 KubelMagic</title>
+    <summary>A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/KubelMagic/assets/KubelMagic_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="Oscillators"/>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/SMDPracticeBoards/Star/</id>
     <link href="https://leap.tardate.com/Electronics101/SMDPracticeBoards/Star/"/>
-    <updated>2022-01-20T14:23:54Z</updated>
+    <updated>2022-01-20T14:43:57Z</updated>
     <title>#620 Glowing Star SMD Practice Board</title>
     <summary>Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SMDPracticeBoards/Star/assets/Star_build.jpg</g:image_link>
