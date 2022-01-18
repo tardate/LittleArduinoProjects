@@ -1,6 +1,6 @@
-# 616 Little Electronic Art Projects
+# 617 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Candle Emulator](./Electronics101/LED/CandleEmulator) - An Arduino LED candle emulation.
+> Latest addition:sparkles: [Weevil Eye Kit](./Electronics101/WeevilEyeKit) - Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

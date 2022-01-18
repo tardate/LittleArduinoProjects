@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-01-10T14:38:22Z</updated>
+  <updated>2022-01-18T14:23:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/WeevilEyeKit/</id>
+    <link href="https://leap.tardate.com/Electronics101/WeevilEyeKit/"/>
+    <updated>2022-01-18T14:02:08Z</updated>
+    <title>#617 Weevil Eye Kit</title>
+    <summary>Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/WeevilEyeKit/assets/WeevilEyeKit_build.jpg</g:image_link>
+    <category term="LDR"/>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/CandleEmulator/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/CandleEmulator/"/>
