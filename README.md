@@ -1,6 +1,6 @@
-# 618 Little Electronic Art Projects
+# 619 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Weevil Eye Kit](./Electronics101/WeevilEyeKit) - Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.
+> Latest addition:sparkles: [SYN6288 Module](./Audio/SpeechSynthesis/SYN6288Module) - Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

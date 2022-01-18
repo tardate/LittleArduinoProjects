@@ -1,4 +1,14 @@
 {
+    "/Audio/SpeechSynthesis/SYN6288Module/": {
+        "id": 619,
+        "title": "SYN6288 Module",
+        "summary": "Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.",
+        "tags": [
+            "Arduino",
+            "Speech Synthesis",
+            "Audio"
+        ]
+    },
     "/Kraft/PLAAF/J10S/": {
         "id": 618,
         "title": "Chengdu J-10S",
