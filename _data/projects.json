@@ -1,4 +1,14 @@
 {
+    "/Kraft/Spitfire/Vc/": {
+        "id": 630,
+        "title": "Spitfire Mk.Vc",
+        "summary": "Building a diorama inspired by the box-art of Airfix's 1:72 scale Spitfire Mk.Vc flying over La S\u00e9nia Algeria 1942, enhanced with some LED candle effects and some targets of opportunity.",
+        "tags": [
+            "scale models",
+            "Craft",
+            "LED"
+        ]
+    },
     "/Equipment/WaterLevelControlKit/": {
         "id": 629,
         "title": "Water-Level Control Kit",

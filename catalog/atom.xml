@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-04-07T14:35:28Z</updated>
+  <updated>2022-05-01T06:58:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Spitfire/Vc/</id>
+    <link href="https://leap.tardate.com/Kraft/Spitfire/Vc/"/>
+    <updated>2022-05-01T06:44:35Z</updated>
+    <title>#630 Spitfire Mk.Vc</title>
+    <summary>Building a diorama inspired by the box-art of Airfix's 1:72 scale Spitfire Mk.Vc flying over La Sénia Algeria 1942, enhanced with some LED candle effects and some targets of opportunity.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Spitfire/Vc/assets/Vc_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/WaterLevelControlKit/</id>
     <link href="https://leap.tardate.com/Equipment/WaterLevelControlKit/"/>
-    <updated>2022-04-07T14:20:53Z</updated>
+    <updated>2022-04-07T15:16:00Z</updated>
     <title>#629 Water-Level Control Kit</title>
     <summary>Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.</summary>
     <g:image_link>https://leap.tardate.com/Equipment/WaterLevelControlKit/assets/WaterLevelControlKit_build.jpg</g:image_link>
@@ -24,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WestlandLynx/</id>
     <link href="https://leap.tardate.com/Kraft/WestlandLynx/"/>
-    <updated>2022-04-07T13:02:58Z</updated>
+    <updated>2022-04-07T15:16:00Z</updated>
     <title>#628 Westland Lynx</title>
     <summary>Building the Royal Navy Westland Lynx HAS.3 from HobbyBoss (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WestlandLynx/assets/WestlandLynx_build.jpg</g:image_link>
