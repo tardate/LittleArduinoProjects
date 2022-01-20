@@ -1,6 +1,6 @@
-# 619 Little Electronic Art Projects
+# 620 Little Electronic Art Projects
 
-> Latest addition:sparkles: [SYN6288 Module](./Audio/SpeechSynthesis/SYN6288Module) - Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.
+> Latest addition:sparkles: [Glowing Star SMD Practice Board](./Electronics101/SMDPracticeBoards/Star) - Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

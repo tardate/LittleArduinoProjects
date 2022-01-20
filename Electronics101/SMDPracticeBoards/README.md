@@ -1,4 +1,4 @@
-# #171 SMDPracticeBoards
+# #171 SMD Practice Boards
 
 A collection of notes, kits and resources for hand-soldering surface mount devices
 

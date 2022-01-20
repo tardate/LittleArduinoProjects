@@ -1,0 +1,7 @@
+{
+    "id": "#620",
+    "name": "Glowing Star SMD Practice Board",
+    "description": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
+    "categories": "SMD, OpAmp",
+    "relative_path": "Electronics101/SMDPracticeBoards/Star"
+}

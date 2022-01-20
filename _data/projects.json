@@ -1,4 +1,13 @@
 {
+    "/Electronics101/SMDPracticeBoards/Star/": {
+        "id": 620,
+        "title": "Glowing Star SMD Practice Board",
+        "summary": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
+        "tags": [
+            "SMD",
+            "OpAmp"
+        ]
+    },
     "/Audio/SpeechSynthesis/SYN6288Module/": {
         "id": 619,
         "title": "SYN6288 Module",
@@ -4235,7 +4244,7 @@
     },
     "/Electronics101/SMDPracticeBoards/": {
         "id": 171,
-        "title": "SMDPracticeBoards",
+        "title": "SMD Practice Boards",
         "summary": "a collection of notes, kits and resources for hand-soldering surface mount devices",
         "tags": [
             "SMD",

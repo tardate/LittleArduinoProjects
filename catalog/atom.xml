@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-01-19T15:18:10Z</updated>
+  <updated>2022-01-20T14:40:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/SMDPracticeBoards/Star/</id>
+    <link href="https://leap.tardate.com/Electronics101/SMDPracticeBoards/Star/"/>
+    <updated>2022-01-20T14:23:54Z</updated>
+    <title>#620 Glowing Star SMD Practice Board</title>
+    <summary>Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/SMDPracticeBoards/Star/assets/Star_build.jpg</g:image_link>
+    <category term="SMD"/>
+    <category term="OpAmp"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/SpeechSynthesis/SYN6288Module/</id>
     <link href="https://leap.tardate.com/Audio/SpeechSynthesis/SYN6288Module/"/>
-    <updated>2022-01-19T15:10:16Z</updated>
+    <updated>2022-01-19T15:20:07Z</updated>
     <title>#619 SYN6288 Module</title>
     <summary>Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.</summary>
     <g:image_link>https://leap.tardate.com/Audio/SpeechSynthesis/SYN6288Module/assets/SYN6288Module_build.jpg</g:image_link>
@@ -4698,7 +4708,7 @@
     <id>https://leap.tardate.com/Electronics101/SMDPracticeBoards/</id>
     <link href="https://leap.tardate.com/Electronics101/SMDPracticeBoards/"/>
     <updated>2016-06-23T14:50:15Z</updated>
-    <title>#171 SMDPracticeBoards</title>
+    <title>#171 SMD Practice Boards</title>
     <summary>a collection of notes, kits and resources for hand-soldering surface mount devices</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SMDPracticeBoards/assets/SMDPracticeBoards_build.jpg</g:image_link>
     <category term="SMD"/>
