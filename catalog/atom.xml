@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-02-22T13:49:25Z</updated>
+  <updated>2022-02-22T14:11:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Wirraway/</id>
+    <link href="https://leap.tardate.com/Kraft/Wirraway/"/>
+    <updated>2022-02-22T14:06:15Z</updated>
+    <title>#623 Wirraway</title>
+    <summary>Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no eletronics)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Wirraway/assets/Wirraway_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/T34-1942/</id>
     <link href="https://leap.tardate.com/Kraft/T34-1942/"/>
-    <updated>2022-02-22T13:39:25Z</updated>
+    <updated>2022-02-22T13:50:09Z</updated>
     <title>#622 T34 1942</title>
     <summary>Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/T34-1942/assets/T34-1942_build.jpg</g:image_link>

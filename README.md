@@ -1,4 +1,4 @@
-# 622 Little Electronic Art Projects
+# 623 Little Electronic Art Projects
 
 > Latest addition:sparkles: [KubelMagic](./Kraft/KubelMagic) - A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.
 
