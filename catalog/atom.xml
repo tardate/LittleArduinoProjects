@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-01-30T10:35:59Z</updated>
+  <updated>2022-02-22T13:49:25Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/T34-1942/</id>
+    <link href="https://leap.tardate.com/Kraft/T34-1942/"/>
+    <updated>2022-02-22T13:39:25Z</updated>
+    <title>#622 T34 1942</title>
+    <summary>Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/T34-1942/assets/T34-1942_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/KubelMagic/</id>
     <link href="https://leap.tardate.com/Kraft/KubelMagic/"/>
-    <updated>2022-01-30T10:04:48Z</updated>
+    <updated>2022-01-30T12:37:32Z</updated>
     <title>#621 KubelMagic</title>
     <summary>A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/KubelMagic/assets/KubelMagic_build.jpg</g:image_link>
@@ -5686,7 +5696,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/TestIR/</id>
     <link href="https://leap.tardate.com/playground/TestIR/"/>
-    <updated>2015-06-04T13:47:48Z</updated>
+    <updated>2022-02-22T13:39:25Z</updated>
     <title>#074 TestIR</title>
     <summary>test raw IR reception with a TSOP1838-type IR sensor and an Arduino</summary>
     <g:image_link>https://leap.tardate.com/playground/TestIR/assets/TestIR_build.jpg</g:image_link>
