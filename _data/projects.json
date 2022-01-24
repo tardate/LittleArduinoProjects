@@ -1,4 +1,13 @@
 {
+    "/Kraft/Buccaneer/": {
+        "id": 626,
+        "title": "Blackburn Buccaneer S.2C",
+        "summary": "An excuse to build another sea base - this time for an aircraft - the RN Blackburn Buccaneer S.2C from Airfix in 1:72 scale, tooling around the North Sea at 30ft.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/LED/RemoteControlCandles/": {
         "id": 625,
         "title": "Remote Control Candles",
