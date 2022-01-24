@@ -91,9 +91,11 @@ This is not an exhaustive list - mainly just companies with products that have c
 | China            | [首页-Bronco Mould & Plastic Co.,Ltd.](http://www.cn-bronco.com/en/)      | |
 | Czech            | [AVI Models](https://avimodels.com/)                                     | |
 | Czech            | [AZ model](https://www.azmodel.cz/)                                      | |
+| Czech            | [Brengun](http://www.brengun.cz/)                                        | photoetch and resin parts and kits |
 | Czech            | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focis on rasin kits and accessories |
 | Czech            | [Eduard](https://www.eduard.com/)                                        | |
 | Czech            | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | |
+| Czech            | [Hauler](http://www.hauler.cz/)                                          | photoetch and resin parts and kits |
 | Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | |
 | Czech            | [Kovozávody Prostějov](https://www.kovozavody.cz/)                       | |
 | Czech            | [Special Hobby](https://www.specialhobby.eu/)                            | |
@@ -102,6 +104,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
 | Germany          | [Faller](https://www.faller.de/)                                         | |
 | Germany          | [fentens Kartonmodellbau](http://www.papermodel.com/)                    | |
+| Germany          | [ModellbauRay](https://modellbauray.com/)                                          | 3D printed kits |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
@@ -182,15 +185,15 @@ This is not an exhaustive list - mainly just companies with products that have c
 | EU               | [SMK](https://www.scale-model-kits.com/)                              | |
 | EU               | [Super-Hobby](https://www.super-hobby.com/)                           | |
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
-| Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | |
-| Singapore        | [Battle Quarters Singapore](https://battlequarters.com/)              | good source Vallejo
+| Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | great source at good prices for all the main Japanese brands - incl Aoshima, Fine Molds, Fujimi, Hasegawa, Tamiya  |
+| Singapore        | [Battle Quarters Singapore](https://battlequarters.com/)              | board games, war games and good source of paints and supplies inc Vallejo, Humbrol, AMMO BY MIG |
 | Singapore        | [Hobby Art](https://www.hobbyartwebshop.com/)                         | mainly gundam |
 | Singapore        | [Hobby Bounties Singapore](https://hobbybounties.com/)                | best place for Airfix, Hornby.. |
-| Singapore        | [Hobby Mate](https://myhmshop.com/)                                   | best place for paints and supplies |
-| Singapore        | [Hobby Point Bras Basah](http://www.hobbypoint.com.sg/index.html)     | great range of kits, inc. bandai |
+| Singapore        | [Hobby Mate](https://myhmshop.com/)                                   | great place for paints and supplies - Vallejo |
+| Singapore        | [Hobby Point Bras Basah](http://www.hobbypoint.com.sg/index.html)     | great range of kits, paints and supplies - Bandai, Bronco, ICM, Academy. Mr Hobby, AK, Tamiya |
 | Singapore        | [Hobby Square](https://hobbysquare.com.sg/)                           | mainly drones and RC    |
 | Singapore        | [M WORKSHOP](https://www.facebook.com/themworkshop)                   | |
-| Singapore        | [Miniature Hobby International](http://miniaturehobby.sg/)            | the best place for kits - huge range and great prices |
+| Singapore        | [Miniature Hobby International](http://miniaturehobby.sg/)            | awesome place for kits - huge range and great prices |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
