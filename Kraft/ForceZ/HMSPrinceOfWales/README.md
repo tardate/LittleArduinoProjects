@@ -258,6 +258,6 @@ HMS Prince of Wales (Tamiya 1:700). Faux Movietone News version;-)
 * [HMS Prince of Wales](https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53)) - wikipedia
 * [HMS Prince of Wales, Tamiya No. 31615 1:700](https://www.tamiya.com/english/products/31615prince/index.htm) - Tamiya
 * [HMS Prince of Wales, Tamiya No. 31615 1:700](https://www.scalemates.com/kits/tamiya-31615-prince-wales--104795) - scalemates
-* [King George V Class, White Ensign Models | No. PE 738 | 1:700](https://www.whiteensignmodels.com/p/WEM+1700+King+George+V+Class+Battleship+PE+738/5467/#.YaRXQfFByL4) - White Ensign Models
-* [King George V Class, White Ensign Models | No. PE 738 | 1:700](https://www.scalemates.com/kits/white-ensign-models-pe-738-king-george-v-prince-wales-with-parts-anson-howe-duke-york--310823) - scalemates
-* [Royal Navy - Chilling on deck 1/700 ION Model | No. R700-001 | 1:700](https://www.scalemates.com/kits/ion-model-r700-001-royal-navy-chilling-on-deck-1-700--1352340)
+* [King George V Class, White Ensign Models - No. PE 738 - 1:700](https://www.whiteensignmodels.com/p/WEM+1700+King+George+V+Class+Battleship+PE+738/5467/#.YaRXQfFByL4) - White Ensign Models
+* [King George V Class, White Ensign Models - No. PE 738 - 1:700](https://www.scalemates.com/kits/white-ensign-models-pe-738-king-george-v-prince-wales-with-parts-anson-howe-duke-york--310823) - scalemates
+* [Royal Navy - Chilling on deck 1/700 ION Model - No. R700-001 - 1:700](https://www.scalemates.com/kits/ion-model-r700-001-royal-navy-chilling-on-deck-1-700--1352340)

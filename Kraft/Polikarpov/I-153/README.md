@@ -58,6 +58,6 @@ Parts primed in black..
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=115624)
 * [I-153 WWII China Guomindang AF Fighter](https://icm.com.ua/aviation/i-153-2/) - ICM
-* [I-153 WWII China Guomindang AF Fighter ICM | No. 72076 | 1:72](https://www.scalemates.com/kits/icm-72076-i-153-wwii-china-guomindang-af-fighter--1191470) - scalemates
+* [I-153 WWII China Guomindang AF Fighter ICM - No. 72076 - 1:72](https://www.scalemates.com/kits/icm-72076-i-153-wwii-china-guomindang-af-fighter--1191470) - scalemates
 * [Polikarpov I-153](https://en.wikipedia.org/wiki/Polikarpov_I-153)
 * [Development of Chinese Nationalist air force (1937–1945)](https://en.wikipedia.org/wiki/Development_of_Chinese_Nationalist_air_force_(1937%E2%80%931945))

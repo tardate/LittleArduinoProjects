@@ -81,5 +81,5 @@ Don't know exectly what happened, but it was pretty devastating!
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=117579)
 * [Volkswagen Kübelwagen](https://en.wikipedia.org/wiki/Volkswagen_K%C3%BCbelwagen) - wikipedia
-* [Kübelwagen | Brengun BRS144052 | 1:144](https://www.scalemates.com/kits/brengun-brs144052-kubelwagen--1315976) - scalemates
-* [Kübelwagen | Brengun BRS144052 | 1:144](http://www.brengun.cz/e-shop/1-144-construction-kits-18/kubelwagen-(2pcs)-1768) - brengun
+* [Kübelwagen - Brengun BRS144052 - 1:144](https://www.scalemates.com/kits/brengun-brs144052-kubelwagen--1315976) - scalemates
+* [Kübelwagen - Brengun BRS144052 - 1:144](http://www.brengun.cz/e-shop/1-144-construction-kits-18/kubelwagen-(2pcs)-1768) - brengun

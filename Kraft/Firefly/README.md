@@ -144,7 +144,7 @@ Here's a demo of it on the base..
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=107359)
-* [Sherman Firefly Vc Airfix | No. A02341 | 1:72](https://www.scalemates.com/kits/airfix-a02341-sherman-firefly-vc--1260489) - scalemates
+* [Sherman Firefly Vc Airfix No. A02341 1:72](https://www.scalemates.com/kits/airfix-a02341-sherman-firefly-vc--1260489) - scalemates
 * [A02341 Sherman Firefly](https://uk.airfix.com/products/sherman-firefly-a02341) - airfix page
 * [Sherman Firefly](https://en.wikipedia.org/wiki/Sherman_Firefly) - wikipedia
 * [The Firefly VC](http://www.theshermantank.com/the-sherman-tank-variant-page-pages-for-each-type-of-sherman-tank/the-firefly-vc/) - theshermantank.com

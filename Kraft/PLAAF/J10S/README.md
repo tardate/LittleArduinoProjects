@@ -146,8 +146,8 @@ Trying again in daylight and after losing the acrylic protective sheet over the 
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=115278)
-* [Chinese J-10S fighter Twin seater Trumpeter | No. 01644 | 1:72](https://www.scalemates.com/kits/trumpeter-01644-j-10s-fighter--107127) - scalemates
-* [US Pilots with JHMCS helmet seated in a/c PJ Production | No. 721142 | 1:72](https://www.scalemates.com/kits/pj-production-721142-us-pilots-with-jhmcs-helmet-seated-in-a-c--1313013) - scalemates
+* [Chinese J-10S fighter Twin seater Trumpeter - No. 01644 - 1:72](https://www.scalemates.com/kits/trumpeter-01644-j-10s-fighter--107127) - scalemates
+* [US Pilots with JHMCS helmet seated in a/c PJ Production - No. 721142 - 1:72](https://www.scalemates.com/kits/pj-production-721142-us-pilots-with-jhmcs-helmet-seated-in-a-c--1313013) - scalemates
 * [Chengdu J-10](https://en.wikipedia.org/wiki/Chengdu_J-10)
 * [Ba Yi (August 1st) Aerobatics Team 八一飞行表演队](https://en.wikipedia.org/wiki/August_1st_(aerobatic_team))
 * [Yu Xu 余旭](https://en.wikipedia.org/wiki/Yu_Xu)
