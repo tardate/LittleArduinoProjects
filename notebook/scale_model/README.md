@@ -132,6 +132,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Russia           | [Combrig Models](http://combrig-models.com/)                             | |
 | Russia           | [Zvesda](https://en.zvezda.org.ru/)                                      |  |
 | Slovakia         | [77propeller](https://77propeller.com/)                                  | airbrush stencils |
+| Slovakia         | [Vertigo Miniatures](https://www.vertigo-miniatures.com/)                | Jigs, tools and accessories |
 | South Korea      | [Academy Plastic Model](https://www.academyhobby.com/)                   | |
 | South Korea      | [Tetra Model Works](http://www.tetramodel.com/)                          | detail parts for scale models |
 | Spain            | [greenstuffworld](https://www.greenstuffworld.com/)                      | tools, putties, materials and accessories |
