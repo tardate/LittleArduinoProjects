@@ -18,7 +18,7 @@ artwork for an episode of the
 [just making conversation](https://podcasts.apple.com/us/podcast/just-making-conversation/id1539297245) podcast
 (IIRC an amphibious vehicle in a walnut shell).
 
-I wondered if I could use the two vehicles with a bit of slight of hand...
+I wondered if I could use the two vehicles with a bit of sleight of hand...
 
 [![BRS144052-1](./assets/BRS144052-1.jpg?raw=true)](http://www.brengun.cz/e-shop/1-144-construction-kits-18/kubelwagen-(2pcs)-1768)
 
@@ -79,7 +79,7 @@ Don't know exectly what happened, but it was pretty devastating!
 
 ## Credits and References
 
-* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=96498)
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=117579)
 * [Volkswagen Kübelwagen](https://en.wikipedia.org/wiki/Volkswagen_K%C3%BCbelwagen) - wikipedia
 * [Kübelwagen | Brengun BRS144052 | 1:144](https://www.scalemates.com/kits/brengun-brs144052-kubelwagen--1315976) - scalemates
 * [Kübelwagen | Brengun BRS144052 | 1:144](http://www.brengun.cz/e-shop/1-144-construction-kits-18/kubelwagen-(2pcs)-1768) - brengun
