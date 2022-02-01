@@ -188,11 +188,13 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
 | Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | great source at good prices for all the main Japanese brands - incl Aoshima, Fine Molds, Fujimi, Hasegawa, Tamiya  |
 | Singapore        | [Battle Quarters Singapore](https://battlequarters.com/)              | board games, war games and good source of paints and supplies inc Vallejo, Humbrol, AMMO BY MIG |
+| Singapore        | [HammerHouse](https://hammerhouse.com.sg/)                            | miniatures, games, paints (Citadel, Mr Hobby) and accessories |
 | Singapore        | [Hobby Art](https://www.hobbyartwebshop.com/)                         | mainly gundam |
 | Singapore        | [Hobby Bounties Singapore](https://hobbybounties.com/)                | best place for Airfix, Hornby.. |
 | Singapore        | [Hobby Mate](https://myhmshop.com/)                                   | great place for paints and supplies - Vallejo |
 | Singapore        | [Hobby Point Bras Basah](http://www.hobbypoint.com.sg/index.html)     | great range of kits, paints and supplies - Bandai, Bronco, ICM, Academy. Mr Hobby, AK, Tamiya |
 | Singapore        | [Hobby Square](https://hobbysquare.com.sg/)                           | mainly drones and RC    |
+| Singapore        | [HPM Hobbies](https://www.hpmhobbies.com/)                            | |
 | Singapore        | [M WORKSHOP](https://www.facebook.com/themworkshop)                   | |
 | Singapore        | [Miniature Hobby International](http://miniaturehobby.sg/)            | awesome place for kits - huge range and great prices |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
@@ -201,4 +203,3 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
 | UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
-| Singapore        | [HPM Hobbies](https://www.hpmhobbies.com/)                            | |
