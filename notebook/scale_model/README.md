@@ -152,9 +152,10 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | Frog                                                                     | 1955-1976|
 | UK               | Matchbox                                                                 | bankrupt, moulds bought by Revell and others |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
-| Ukraine          | [Dorawings](https://dorawings.com/)                                      | |
+| Ukraine          | [Dora Wings](https://dorawings.com/)                                     | |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
-| Ukraine          | [Miniart Models](https://miniart-models.com/)                            | |
+| Ukraine          | [MasterBox](http://www.mbltd.info/)                                      | figures, vehicles |
+| Ukraine          | [MiniArt Models](https://miniart-models.com/)                            | |
 | USA              | [[Diemension Games](https://www.facebook.com/diemensiongames/)           | kickstarter games with miniatures |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
