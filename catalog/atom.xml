@@ -5,16 +5,37 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-02-22T14:11:32Z</updated>
+  <updated>2022-02-22T14:21:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/LED/RemoteControlCandles/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/RemoteControlCandles/"/>
+    <updated>2022-02-22T14:13:08Z</updated>
+    <title>#625 Remote Control Candles</title>
+    <summary>Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/RemoteControlCandles/assets/RemoteControlCandles_build.jpg</g:image_link>
+    <category term="IR"/>
+    <category term="Arduino"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/playground/IR/Dumper/</id>
+    <link href="https://leap.tardate.com/playground/IR/Dumper/"/>
+    <updated>2022-02-22T14:13:08Z</updated>
+    <title>#624 IR Dumper</title>
+    <summary>Reverse-engineering infrared protocols using the Arduino-IRremote library.</summary>
+    <g:image_link>https://leap.tardate.com/playground/IR/Dumper/assets/Dumper_build.jpg</g:image_link>
+    <category term="IR"/>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Wirraway/</id>
     <link href="https://leap.tardate.com/Kraft/Wirraway/"/>
-    <updated>2022-02-22T14:06:15Z</updated>
+    <updated>2022-02-22T14:13:07Z</updated>
     <title>#623 Wirraway</title>
     <summary>Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no eletronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Wirraway/assets/Wirraway_build.jpg</g:image_link>
@@ -24,7 +45,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/T34-1942/</id>
     <link href="https://leap.tardate.com/Kraft/T34-1942/"/>
-    <updated>2022-02-22T13:50:09Z</updated>
+    <updated>2022-02-22T14:13:06Z</updated>
     <title>#622 T34 1942</title>
     <summary>Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/T34-1942/assets/T34-1942_build.jpg</g:image_link>
@@ -5704,12 +5725,12 @@
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/playground/TestIR/</id>
-    <link href="https://leap.tardate.com/playground/TestIR/"/>
-    <updated>2022-02-22T13:39:25Z</updated>
-    <title>#074 TestIR</title>
+    <id>https://leap.tardate.com/playground/IR/TestIR/</id>
+    <link href="https://leap.tardate.com/playground/IR/TestIR/"/>
+    <updated>2022-02-22T14:13:08Z</updated>
+    <title>#074 Raw Arduino Infrared</title>
     <summary>test raw IR reception with a TSOP1838-type IR sensor and an Arduino</summary>
-    <g:image_link>https://leap.tardate.com/playground/TestIR/assets/TestIR_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/playground/IR/TestIR/assets/TestIR_build.jpg</g:image_link>
     <category term="IR"/>
     <category term="Arduino"/>
   </entry>

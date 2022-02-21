@@ -1,7 +1,6 @@
-# #074 TestIR
+# #074 Raw Arduino Infrared
 
 Tests raw IR reception.
-
 
 ## Notes
 

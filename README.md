@@ -1,6 +1,6 @@
-# 623 Little Electronic Art Projects
+# 625 Little Electronic Art Projects
 
-> Latest addition:sparkles: [KubelMagic](./Kraft/KubelMagic) - A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.
+> Latest addition:sparkles: [Remote Control Candles](./Electronics101/LED/RemoteControlCandles) - Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

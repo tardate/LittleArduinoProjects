@@ -1,5 +1,19 @@
 [
     {
+        "id": "#625",
+        "name": "Remote Control Candles",
+        "description": "Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.",
+        "categories": "IR, Arduino, LED",
+        "relative_path": "Electronics101/LED/RemoteControlCandles"
+    },
+    {
+        "id": "#624",
+        "name": "IR Dumper",
+        "description": "Reverse-engineering infrared protocols using the Arduino-IRremote library.",
+        "categories": "IR, Arduino",
+        "relative_path": "playground/IR/Dumper"
+    },
+    {
         "id": "#623",
         "name": "Wirraway",
         "description": "Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no eletronics)",
@@ -3851,10 +3865,10 @@
     },
     {
         "id": "#074",
-        "name": "TestIR",
+        "name": "Raw Arduino Infrared",
         "description": "test raw IR reception with a TSOP1838-type IR sensor and an Arduino",
         "categories": "IR, Arduino",
-        "relative_path": "playground/TestIR"
+        "relative_path": "playground/IR/TestIR"
     },
     {
         "id": "#073",

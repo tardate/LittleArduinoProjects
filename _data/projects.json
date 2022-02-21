@@ -1,4 +1,23 @@
 {
+    "/Electronics101/LED/RemoteControlCandles/": {
+        "id": 625,
+        "title": "Remote Control Candles",
+        "summary": "Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.",
+        "tags": [
+            "IR",
+            "Arduino",
+            "LED"
+        ]
+    },
+    "/playground/IR/Dumper/": {
+        "id": 624,
+        "title": "IR Dumper",
+        "summary": "Reverse-engineering infrared protocols using the Arduino-IRremote library.",
+        "tags": [
+            "IR",
+            "Arduino"
+        ]
+    },
     "/Kraft/Wirraway/": {
         "id": 623,
         "title": "Wirraway",
@@ -5141,9 +5160,9 @@
             "CMOS/TTL"
         ]
     },
-    "/playground/TestIR/": {
+    "/playground/IR/TestIR/": {
         "id": 74,
-        "title": "TestIR",
+        "title": "Raw Arduino Infrared",
         "summary": "test raw IR reception with a TSOP1838-type IR sensor and an Arduino",
         "tags": [
             "IR",

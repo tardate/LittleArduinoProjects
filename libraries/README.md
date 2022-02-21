@@ -3,13 +3,14 @@
 Some projects require additional libraries. For example:
 
 * [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) - dependency of AdaFruit display libraries
-* [Adafruit_Sensor](https://github.com/adafruit/Adafruit_Sensor) - Adafruit Unified Sensor Library
-* [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) - for monochrome OLED displays
-* [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
 * [Adafruit-Thermal-Printer-Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library) - for small thermal printers
 * [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) - I²C for the ATtiny
+* [Adafruit_Sensor](https://github.com/adafruit/Adafruit_Sensor) - Adafruit Unified Sensor Library
+* [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) - for monochrome OLED displays
+* [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
 * [Arduino-INA226](https://github.com/jarzebski/Arduino-INA226) - INA226 Bi-directional Current/Power Monitor Arduino Library
+* [Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote)
 * [Arduino-Temperature-Control-Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
@@ -22,6 +23,7 @@ Some projects require additional libraries. For example:
 * [LedControl](https://github.com/wayoda/LedControl) - LED matrix control
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C
 * [LRAS1130](https://github.com/LuckyResistor/LRAS1130) - AMS AS1130 LED Driver control
+* [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) - Boldport 3x7 driver by LuckyResistor
 * [MFRC522](https://github.com/miguelbalboa/rfid) - MFRC522 RFID library by miguelbalboa
 * [NewPing](https://github.com/tardate/arduino-new-ping) original source is in bitbucket: [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home)
 * [OneWire](https://github.com/PaulStoffregen/OneWire) - 1-wire compatible components
@@ -36,10 +38,9 @@ Some projects require additional libraries. For example:
 * [SV-Zanshin/INA](https://github.com/SV-Zanshin/INA) - Combined Arduino library for reading multiple INA2xx power monitor devices
 * [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED) - OLED driver for ATtiny
 * [TMRpcm](https://github.com/TMRh20/TMRpcm) - asynchronous playback of PCM/WAV files direct from SD card
-* [u8glib](https://github.com/olikraus/U8glib_Arduino) - for monochrome displays
 * [u8g2lib](https://github.com/olikraus/U8g2_Arduino) - v2 for monochrome displays
+* [u8glib](https://github.com/olikraus/U8glib_Arduino) - for monochrome displays
 * [X113647Stepper](https://github.com/tardate/X113647Stepper) - used by some Stepper motor projects
-* [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) - Boldport 3x7 driver by LuckyResistor
 
 These libraries are included as submodules of this repository and can be installed with git.
 

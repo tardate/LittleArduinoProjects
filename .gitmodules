@@ -127,3 +127,6 @@
 [submodule "libraries/PrecisionServo"]
 	path = libraries/PrecisionServo
 	url = https://github.com/ElizabethTeaches/PrecisionServo
+[submodule "libraries/Arduino-IRremote"]
+	path = libraries/Arduino-IRremote
+	url = https://github.com/Arduino-IRremote/Arduino-IRremote
