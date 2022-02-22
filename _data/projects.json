@@ -1982,8 +1982,8 @@
     },
     "/Kinetics/LineFollowerKit/": {
         "id": 416,
-        "title": "LineFollowerKit",
-        "summary": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp",
+        "title": "Line Follower Kit",
+        "summary": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM393 comparator",
         "tags": [
             "Sensors",
             "Kinetics",

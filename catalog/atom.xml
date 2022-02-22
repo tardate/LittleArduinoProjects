@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-02-22T14:21:42Z</updated>
+  <updated>2022-02-22T14:30:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/RemoteControlCandles/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/RemoteControlCandles/"/>
-    <updated>2022-02-22T14:13:08Z</updated>
+    <updated>2022-02-22T14:22:51Z</updated>
     <title>#625 Remote Control Candles</title>
     <summary>Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/RemoteControlCandles/assets/RemoteControlCandles_build.jpg</g:image_link>
@@ -25,7 +25,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/IR/Dumper/</id>
     <link href="https://leap.tardate.com/playground/IR/Dumper/"/>
-    <updated>2022-02-22T14:13:08Z</updated>
+    <updated>2022-02-22T14:22:51Z</updated>
     <title>#624 IR Dumper</title>
     <summary>Reverse-engineering infrared protocols using the Arduino-IRremote library.</summary>
     <g:image_link>https://leap.tardate.com/playground/IR/Dumper/assets/Dumper_build.jpg</g:image_link>
@@ -2206,8 +2206,8 @@
     <id>https://leap.tardate.com/Kinetics/LineFollowerKit/</id>
     <link href="https://leap.tardate.com/Kinetics/LineFollowerKit/"/>
     <updated>2018-10-02T15:49:18Z</updated>
-    <title>#416 LineFollowerKit</title>
-    <summary>building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp</summary>
+    <title>#416 Line Follower Kit</title>
+    <summary>building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM393 comparator</summary>
     <g:image_link>https://leap.tardate.com/Kinetics/LineFollowerKit/assets/LineFollowerKit_build.jpg</g:image_link>
     <category term="Sensors"/>
     <category term="Kinetics"/>
@@ -5727,7 +5727,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/IR/TestIR/</id>
     <link href="https://leap.tardate.com/playground/IR/TestIR/"/>
-    <updated>2022-02-22T14:13:08Z</updated>
+    <updated>2022-02-22T14:22:51Z</updated>
     <title>#074 Raw Arduino Infrared</title>
     <summary>test raw IR reception with a TSOP1838-type IR sensor and an Arduino</summary>
     <g:image_link>https://leap.tardate.com/playground/IR/TestIR/assets/TestIR_build.jpg</g:image_link>

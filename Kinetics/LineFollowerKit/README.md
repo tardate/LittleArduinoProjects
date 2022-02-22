@@ -1,6 +1,6 @@
-# #416 LineFollowerKit
+# #416 Line Follower Kit
 
-Building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM358 op-amp.
+Building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM393 comparator.
 
 ![Build](./assets/LineFollowerKit_build.jpg?raw=true)
 
@@ -93,8 +93,8 @@ As it's all running at low voltage, the circuit avoids many complexities (such a
 Some key points to note:
 
 * each motor is high-side switched, with an LED in parallel for visual feedback of "ON"
-* the two op-amps in the LM358 and take the same inputs but inverted, for complementary left and right control
-* the op-amp is wired as a simple comparator of two voltages:
+* the two comparator units in the LM393 take the same inputs but inverted, for complementary left and right control
+* the comparator is wired as a simple comparison of two voltages:
     - one from the left-hand LDR, the other from the right-hand LDR
 * the LDRs are detecting reflected light from their partnered LED:
     - white/light surfaces will reflect more energy than black/dark
@@ -134,12 +134,11 @@ in my lighting conditions and with the printed test track. YMMV, and adjustment 
 
 ![Build](./assets/LineFollowerKit_build.jpg?raw=true)
 
-
 ## Credits and References
 
 * [D2-5 Intelligent Tracking Line Car DIY Kit TT Motor Electronic Assembly Smart Automobile Part Car Electronic Diy Kit](https://www.aliexpress.com/item/1Pcs-D2-5-Intelligent-Tracking-Line-Car-DIY-Kit-TT-Motor-Electronic-Assembly-Smart-Automobile-Part/32823554018.html)
 * [Zoomx's postbag D2-1 review](https://www.stm32duino.com/viewtopic.php?f=50&t=2198)
 * [Line Follower Robots](https://www.elprocus.com/line-follower-robot-basics-controlling/) - a nice introduction
-* [LM393 datasheet](https://www.futurlec.com/Linear/LM393N.shtml)
+* [LM393 datasheet](https://www.futurlec.com/Linear/LM393N.shtml) - Low Power Low Offset Voltage Dual Comparators
 * [Line-following Car](https://en.wikipedia.org/wiki/Mobile_robot#Line-following_Car) - wikipedia
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap416-simple-line-follower.html)
