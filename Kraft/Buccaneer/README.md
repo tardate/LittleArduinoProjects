@@ -106,6 +106,17 @@ before final finishing
 ![build03e](./assets/build03e.jpg?raw=true)
 ![build03f](./assets/build03f.jpg?raw=true)
 
+![build04a](./assets/build04a.jpg?raw=true)
+
+![build05a](./assets/build05a.jpg?raw=true)
+![build05b](./assets/build05b.jpg?raw=true)
+![build05c](./assets/build05c.jpg?raw=true)
+![build05d](./assets/build05d.jpg?raw=true)
+![build05e](./assets/build05e.jpg?raw=true)
+![build05f](./assets/build05f.jpg?raw=true)
+![build05g](./assets/build05g.jpg?raw=true)
+![build05h](./assets/build05h.jpg?raw=true)
+![build05i](./assets/build05i.jpg?raw=true)
 
 ## Credits and References
 
