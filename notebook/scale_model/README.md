@@ -93,18 +93,19 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czech            | [AZ model](https://www.azmodel.cz/)                                      | |
 | Czech            | [Brengun](http://www.brengun.cz/)                                        | photoetch and resin parts and kits |
 | Czech            | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focis on rasin kits and accessories |
-| Czech            | [Eduard](https://www.eduard.com/)                                        | |
-| Czech            | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | |
+| Czech            | [Eduard](https://www.eduard.com/)                                        | plastic kitsm resin, photoetch, 3D |
+| Czech            | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | limited edition plastic kits |
 | Czech            | [Hauler](http://www.hauler.cz/)                                          | photoetch and resin parts and kits |
-| Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | |
-| Czech            | [Kovozávody Prostějov](https://www.kovozavody.cz/)                       | |
+| Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | limited edition vacuum kits, mainly civil aircraft |
+| Czech            | [Kovozávody Prostějov](https://www.kovozavody.cz/)                       | aircraft plastic kits |
+| Czech            | [R & P Models](https://randpmodels.jex.cz/)                              | paper kits |
 | Czech            | [Special Hobby](https://www.specialhobby.eu/)                            | |
 | France           | [Heller](https://www.heller.fr/)                                         | |
 | France           | [L'Arsenal](http://www.larsenal.com/)                                    | resin kits |
 | France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
 | Germany          | [Faller](https://www.faller.de/)                                         | |
 | Germany          | [fentens Kartonmodellbau](http://www.papermodel.com/)                    | |
-| Germany          | [ModellbauRay](https://modellbauray.com/)                                          | 3D printed kits |
+| Germany          | [ModellbauRay](https://modellbauray.com/)                                | 3D printed kits |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |

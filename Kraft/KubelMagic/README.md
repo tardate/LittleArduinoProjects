@@ -13,14 +13,21 @@ Here's a quick demo..
 I picked up this pair of [1:144 Kübelwagen](http://www.brengun.cz/e-shop/1-144-construction-kits-18/kubelwagen-(2pcs)-1768)
 on impulse when buying a PE kit from Hauler/Brengun.
 
-They sat on the shelf for sometime. I think it was seeing some
-artwork for an episode of the
-[just making conversation](https://podcasts.apple.com/us/podcast/just-making-conversation/id1539297245) podcast
-(IIRC an amphibious vehicle in a walnut shell).
-
-I wondered if I could use the two vehicles with a bit of sleight of hand...
-
 [![BRS144052-1](./assets/BRS144052-1.jpg?raw=true)](http://www.brengun.cz/e-shop/1-144-construction-kits-18/kubelwagen-(2pcs)-1768)
+
+They sat on the shelf for some time. I think it was seeing some
+artwork for Episode 21 "Going small" of the
+[just making conversation](https://podcasts.apple.com/us/podcast/just-making-conversation/id1539297245) podcast
+that inspired me to wonder if I could use the two vehicles with a bit of sleight of hand...
+
+I asked James & Malcolm from the podcast about the artwork and they clued me in:
+The original model was by Mike Zax. He has a video covering the build:
+
+[![clip](https://img.youtube.com/vi/S6vDsUlAK-o/0.jpg)](https://www.youtube.com/watch?v=S6vDsUlAK-o)
+
+The vehicle he used was a
+1:150 Ford GPA Amphibious Jeep/Seep,
+rescaled from a [1:87 R & P Models paper kit](https://randpmodels.jex.cz/rubriky/models-1-87).
 
 ## Electronic Circuit Design
 
