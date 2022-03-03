@@ -78,11 +78,13 @@ In one half we have a "peaceful" scene with a tree and some kind of bowser (actu
 With the Kübelwagen in place.
 
 ![build03b](./assets/build03b.jpg?raw=true)
+![build03c](./assets/build03c.jpg?raw=true)
+![build03d](./assets/build03d.jpg?raw=true)
 
 On the reverse, we have the destroyed Kübelwagen with a plume of smoke and the LEDs flickering like flames.
 Don't know exectly what happened, but it was pretty devastating!
 
-![build03c](./assets/build03c.jpg?raw=true)
+![build04c](./assets/build04c.jpg?raw=true)
 
 ## Credits and References
 
