@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-04-03T16:08:21Z</updated>
+  <updated>2022-04-07T13:01:47Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/WestlandLynx/</id>
+    <link href="https://leap.tardate.com/Kraft/WestlandLynx/"/>
+    <updated>2022-04-07T13:01:40Z</updated>
+    <title>#628 Westland Lynx</title>
+    <summary>Building the Royal Navy Westland Lynx HAS.3 from HobbyBoss (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/WestlandLynx/assets/WestlandLynx_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/VauxhallDTypeAmbulance/</id>
     <link href="https://leap.tardate.com/Kraft/VauxhallDTypeAmbulance/"/>
