@@ -157,6 +157,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
 | Ukraine          | [MasterBox](http://www.mbltd.info/)                                      | figures, vehicles |
 | Ukraine          | [MiniArt Models](https://miniart-models.com/)                            | |
+| Ukraine          | [Roden](http://www.roden.eu/)                                            | |
 | USA              | [[Diemension Games](https://www.facebook.com/diemensiongames/)           | kickstarter games with miniatures |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
@@ -198,7 +199,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Singapore        | [Hobby Square](https://hobbysquare.com.sg/)                           | mainly drones and RC    |
 | Singapore        | [HPM Hobbies](https://www.hpmhobbies.com/)                            | |
 | Singapore        | [M WORKSHOP](https://www.facebook.com/themworkshop)                   | |
-| Singapore        | [Miniature Hobby International](http://miniaturehobby.sg/)            | awesome place for kits - huge range and great prices |
+| Singapore        | [Miniature Hobby International](http://miniaturehobby.com/)           | awesome place for kits - huge range and great prices |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
