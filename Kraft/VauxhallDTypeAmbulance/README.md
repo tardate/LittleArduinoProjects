@@ -1,6 +1,6 @@
 # #627 Vauxhall D-Type Ambulance
 
-Building the wonderful little 1:72 Vauxhall D-Type Ambulance kit from Ukranian manufacturer Roden.
+Building the wonderful little 1:72 Vauxhall D-Type Ambulance kit from Ukrainian manufacturer Roden.
 Dedicated to the memory of Valery Grygorenko. Valery created some of the most amazing box art for Roden but tragically he was killed in a Russian attack near his home in March 2022.
 
 ![Build](./assets/VauxhallDTypeAmbulance_build.jpg?raw=true)
@@ -18,20 +18,19 @@ The Vauxhall D-Type Ambulance is Roden kit #717. The have a few variants of the 
 ![kit_717](./assets/kit_717.jpg?raw=true)
 ![kit_sprues](./assets/kit_sprues.jpg?raw=true)
 
-As I was finishing up this little 1:72 Vauxhall D-Type Ambulance from Ukrainian manufacturer Roden
-I heard the news that Valery Grygorenko was killed in a Russian attack near his home, [as shared by Roden](http://www.roden.eu/IMG/Valeriy_Grygorenko.JPG). Valery created some of the most amazing box art for Roden.
+As I was finishing up the model, I heard the news that Valery Grygorenko was killed in a Russian attack near his home, [as shared by Roden](http://www.roden.eu/IMG/Valeriy_Grygorenko.JPG). Valery created some of the most amazing box art for Roden.
 
 I can't find words strong enough.. so instead I choose to celebrate Valery's creative legacy. It will live on to inspire artists and modellers for generations to come who will remember him as one of the greats along with the likes of Airfix's Roy Cross.
 
 [![Vale_Valeriy_Grygorenko](./assets/Vale_Valeriy_Grygorenko.jpg?raw=true)](http://www.roden.eu/IMG/Valeriy_Grygorenko.JPG)
 
-### Paint Schema
+### Paint Scheme
 
 | Ref | Colour            | Recommended | Paint Used  | Feature       |
 |-----|-------------------|-------------|-------------|---------------|
 | A   | Deep Green        | 70.970      | 70.969 Park Green Flat + 70.897 Bronce Green             | main body              |
-| B   | Gold              | 70.996      |             | grille and fittings              |
-| C   | Gloss Black       | 70.950      |             | tyres; steering column; levers               |
+| B   | Gold              | 70.996      | 70.996            | grille and fittings              |
+| C   | Gloss Black       | 70.950      | 70.950 Black      | tyres; steering column; levers               |
 | D   | Rust              | 70.080      |             | muffler              |
 | E   | Leather           | 70.818      |             | seats              |
 | F   | Matt Neutral Wood | 70.077      |             | stretcher handles; steering wheel; bed base              |
@@ -40,7 +39,6 @@ I can't find words strong enough.. so instead I choose to celebrate Valery's cre
 | I   | Dark Grey         | 70.994      |             |               |
 | J   | Stone Grey        | 70.882      | 70.887 + 70.870 (2:1)            | canvas              |
 |     |                   |             | 70.993 + 70.923 (10:1)           | stretcher canvas              |
-
 
 ### The Build
 
@@ -67,6 +65,6 @@ Quick session in the spray booth..
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=120359)
-* [Vauxhall D-type Red cross Roden | No. 717 | 1:72](https://www.scalemates.com/kits/roden-717-vauxhall-d-type-red-cross--1048054)
+* [Vauxhall D-type Red cross Roden  No. 717 1:72](https://www.scalemates.com/kits/roden-717-vauxhall-d-type-red-cross--1048054)
 * [Vauxhall D-type Staff Ambulance](http://www.roden.eu/HTML/717.html) - roden
 * [Vauxhall D-type](https://en.wikipedia.org/wiki/Vauxhall_D-Type) - wikipedia

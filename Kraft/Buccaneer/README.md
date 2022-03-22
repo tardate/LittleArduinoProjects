@@ -122,6 +122,6 @@ before final finishing
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=117576)
 * [Blackburn Buccaneer](https://en.wikipedia.org/wiki/Blackburn_Buccaneer) - wikipedia
-* [Blackburn Buccaneer S.2C Airfix | No. A06021 | 1:72](https://uk.airfix.com/products/blackburn-buccaneer-s2-rn-a06021) - airfix
-* [Blackburn Buccaneer S.2C Airfix | No. A06021 | 1:72](https://www.scalemates.com/kits/airfix-a06021-blackburn-buccaneer-s2c--1190161) - scalemates
-* [Modern RAF seated in aircraft PJ Production | No. 721118 | 1:72](https://www.scalemates.com/kits/pj-production-721118-modern-raf-seated-in-aircraft--180890) - scalemates
+* [Blackburn Buccaneer S.2C Airfix No. A06021 1:72](https://uk.airfix.com/products/blackburn-buccaneer-s2-rn-a06021) - airfix
+* [Blackburn Buccaneer S.2C Airfix No. A06021 1:72](https://www.scalemates.com/kits/airfix-a06021-blackburn-buccaneer-s2c--1190161) - scalemates
+* [Modern RAF seated in aircraft PJ Production No. 721118 1:72](https://www.scalemates.com/kits/pj-production-721118-modern-raf-seated-in-aircraft--180890) - scalemates
