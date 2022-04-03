@@ -3,6 +3,7 @@ wip
 venv
 _autosave*
 sdcc
+.vscode
 
 # jekyll intermediates
 _site
