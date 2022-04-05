@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-04-07T13:01:47Z</updated>
+  <updated>2022-04-07T14:35:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/WaterLevelControlKit/</id>
+    <link href="https://leap.tardate.com/Equipment/WaterLevelControlKit/"/>
+    <updated>2022-04-07T14:20:53Z</updated>
+    <title>#629 Water-Level Control Kit</title>
+    <summary>Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/WaterLevelControlKit/assets/WaterLevelControlKit_build.jpg</g:image_link>
+    <category term="OpAmp"/>
+    <category term="Control"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/WestlandLynx/</id>
     <link href="https://leap.tardate.com/Kraft/WestlandLynx/"/>
-    <updated>2022-04-07T13:01:40Z</updated>
+    <updated>2022-04-07T13:02:58Z</updated>
     <title>#628 Westland Lynx</title>
     <summary>Building the Royal Navy Westland Lynx HAS.3 from HobbyBoss (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WestlandLynx/assets/WestlandLynx_build.jpg</g:image_link>

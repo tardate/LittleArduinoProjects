@@ -1,4 +1,13 @@
 {
+    "/Equipment/WaterLevelControlKit/": {
+        "id": 629,
+        "title": "Water-Level Control Kit",
+        "summary": "Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.",
+        "tags": [
+            "OpAmp",
+            "Control"
+        ]
+    },
     "/Kraft/WestlandLynx/": {
         "id": 628,
         "title": "Westland Lynx",
