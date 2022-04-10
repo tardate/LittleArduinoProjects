@@ -89,6 +89,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
 | China            | [小号手 TRUMPETER](http://www.trumpeter-china.com/index.php?l=en)         | awesome range of kits |
 | China            | [首页-Bronco Mould & Plastic Co.,Ltd.](http://www.cn-bronco.com/en/)      | |
+| Czech            | [Airone Hobby](https://www.aironehobby.com/)                             | aftermarket items in 1/72 and 1/48 scale |
 | Czech            | [AVI Models](https://avimodels.com/)                                     | |
 | Czech            | [AZ model](https://www.azmodel.cz/)                                      | |
 | Czech            | [Brengun](http://www.brengun.cz/)                                        | photoetch and resin parts and kits |
@@ -163,6 +164,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [Flying Leathernecks Decals](https://www.flyingleathernecksdecals.com/)  | Decals and aftermarket kits - US Marine aviation |
 | USA              | [Imperial Hobby Productions](https://ihphobby.tripod.com/)               | 1/700 scale ships, HO scale commuter and transit vehicles |
 | USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
 | USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
