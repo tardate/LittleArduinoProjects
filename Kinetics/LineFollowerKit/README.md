@@ -80,7 +80,7 @@ The instructions and parts list is Chinese, and there's a clear schematic provid
 There is a variation of the kit called the D2-1. I don't have this version, but by some reports
 the motors (being enclosed units) are actually easier to install and align.
 
-See [Zoomx's postbag review](https://www.stm32duino.com/viewtopic.php?f=50&t=2198) for more info.
+See [Zoomx's postbag review](https://stm32duinoforum.com/forum/viewtopic_f_50_t_2198.html) for more info.
 
 [![D2-1_kit](./assets/D2-1_kit.jpg?raw=true)](https://www.aliexpress.com/item/D2-1-DIY-Kit-Intelligent-Tracking-Line-Smart-Car-Kit-Suite-TT-Motor-Electronic-Production-Smart/32767691720.html)
 
