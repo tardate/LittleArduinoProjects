@@ -141,6 +141,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Spain            | [Vallejo](https://acrylicosvallejo.com/en/)                              | paint |
 | Sweden           | [Bold Miniatures](https://boldminiatures.com/)                           | miniatures - resin, STL |
 | Taiwan           | [AFV Club](http://www.hobbyfan.com.tw/index.php?&lang=en)                | |
+| Taiwan           | [Caesar Miniatures](http://www.minitoysoldier.com/)                      | miniatures |
 | Turkey           | [Tan Model](http://www.tanmodel.com/en/)                                 | Turkey's international scale modelling brand.  |
 | UK               | [AirFix](https://uk.airfix.com/)                                         | now part of Hornby Hobbies |
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
