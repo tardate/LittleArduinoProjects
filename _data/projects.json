@@ -1,4 +1,13 @@
 {
+    "/Electronics101/555Timer/LongRunning/": {
+        "id": 631,
+        "title": "Long Running Timer",
+        "summary": "Building a very low frequency 555 timer circuit",
+        "tags": [
+            "555 Timer",
+            "Arduino"
+        ]
+    },
     "/Kraft/Spitfire/Vc/": {
         "id": 630,
         "title": "Spitfire Mk.Vc",

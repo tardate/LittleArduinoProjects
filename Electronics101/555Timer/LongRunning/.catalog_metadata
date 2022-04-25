@@ -1,0 +1,7 @@
+{
+    "id": "#631",
+    "name": "Long Running Timer",
+    "description": "Building a very low frequency 555 timer circuit",
+    "categories": "555 Timer, Arduino",
+    "relative_path": "Electronics101/555Timer/LongRunning"
+}

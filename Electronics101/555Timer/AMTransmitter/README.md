@@ -41,5 +41,6 @@ below the natural and harmonic frequencies. Well, we get a signal, but lots of n
 * [AM Radio Transmitter Using 555 Chip](http://electronics-diy.com/am-radio-transmitter-using-555-chip.php)
 * [555 AM Transmitter](https://www.instructables.com/id/555-AM-Transmitter/)
 * [Simple 555 Timer AM Transmitter Schematic for Science Fair Project](http://www.circuitsgallery.com/2013/08/555-AM-transmitter-circuit.html)
+* [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)
 * [Lullaby/Колыбельная](https://youtu.be/8etPN7Or8ZE) performed by Аіда Николайчук, originally by Polina Gagarina/Полина Гагарина.

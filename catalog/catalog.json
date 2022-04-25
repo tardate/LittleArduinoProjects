@@ -1,5 +1,12 @@
 [
     {
+        "id": "#631",
+        "name": "Long Running Timer",
+        "description": "Building a very low frequency 555 timer circuit",
+        "categories": "555 Timer, Arduino",
+        "relative_path": "Electronics101/555Timer/LongRunning"
+    },
+    {
         "id": "#630",
         "name": "Spitfire Mk.Vc",
         "description": "Building a diorama inspired by the box-art of Airfix's 1:72 scale Spitfire Mk.Vc flying over La S\u00e9nia Algeria 1942, enhanced with some LED candle effects and targets of opportunity.",

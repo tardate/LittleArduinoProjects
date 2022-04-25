@@ -1,6 +1,6 @@
-# 630 Little Electronic Art Projects
+# 631 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Remote Control Candles](./Electronics101/LED/RemoteControlCandles) - Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.
+> Latest addition:sparkles: [Long Running Timer](./Electronics101/555Timer/LongRunning) - Building a very low frequency 555 timer circuit.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
