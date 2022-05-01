@@ -1,6 +1,6 @@
-# Spitfire Mk.Vc
+# #630 Spitfire Mk.Vc
 
-Building a diorama inspired by the box-art of Airfix's 1:72 scale Spitfire Mk.Vc flying over La Sénia Algeria 1942, enhanced with some LED candle effects and some targets of opportunity.
+Building a diorama inspired by the box-art of Airfix's 1:72 scale Spitfire Mk.Vc flying over La Sénia Algeria 1942, enhanced with some LED candle effects and targets of opportunity.
 
 ![Build](./assets/Vc_build.jpg?raw=true)
 
@@ -8,7 +8,7 @@ Building a diorama inspired by the box-art of Airfix's 1:72 scale Spitfire Mk.Vc
 
 ### The Kit
 
-[Supermarine Spitfire Mk.Vc Airfix, No. A02108, 1:72](https://www.scalemates.com/kits/airfix-a02108-supermarine-spitfire-mkvc--1260494)
+The kit - [Supermarine Spitfire Mk.Vc; Airfix No. A02108, 1:72](https://www.scalemates.com/kits/airfix-a02108-supermarine-spitfire-mkvc--1260494) - is a nice new mould from 2020.
 
 ![kit_box](./assets/kit_box.jpg?raw=true)
 
@@ -30,13 +30,15 @@ Main paint scheme:
 | lower camo                  | Middle Blue/Azure Blue | Humbrol 89   | 70.907 Pale Gre Blue + 70.839 Ultramarine ~ 1:1 |
 | upper camo                  | Middle Stone           | Humbrol 225  | blend 70.843 cork brown, 70.824 German Camo Orange Ochre, 70.917 Beige, 70.907 Pale Grey Blue |
 
-Recommended colours for the pilot (I used a grab-bag of similar colours from my paint stash, mainly Vallejo Model Color):
+Recommended colours for the pilot:
 
 * Humbrol 33 Black
 * Humbrol 24 Trainer Yellow
 * Humbrol 61 Flesh
 * Humbrol 62 Leather
 * Humbrol 121 Pale Stone
+
+For the pilot, I used a grab-bag of similar colours from my paint stash, mainly Vallejo Model Color.
 
 ### The Build
 
