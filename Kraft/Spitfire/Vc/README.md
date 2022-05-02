@@ -204,6 +204,10 @@ I still have some Pit-road 1:144 and 1:700 on the way to try later to see how fa
 ![build13d](./assets/build13d.jpg?raw=true)
 ![build13e](./assets/build13e.jpg?raw=true)
 
+How it now looks compared to the box art:
+
+![build13f](./assets/build13f.jpg?raw=true)
+
 ## Credits and References
 
 * [Supermarine Spitfire Mk.Vc; Airfix No. A02108, 1:72](https://www.scalemates.com/kits/airfix-a02108-supermarine-spitfire-mkvc--1260494)
