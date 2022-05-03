@@ -1,4 +1,13 @@
 {
+    "/Equipment/FoamCutter/": {
+        "id": 632,
+        "title": "Foam Cutters",
+        "summary": "Examining various foam cutter designs and building a couple for small-scale foam sculpting",
+        "tags": [
+            "Craft",
+            "Tools"
+        ]
+    },
     "/Electronics101/555Timer/LongRunning/": {
         "id": 631,
         "title": "Long Running Timer",

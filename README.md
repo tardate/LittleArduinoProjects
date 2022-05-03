@@ -1,6 +1,6 @@
-# 631 Little Electronic Art Projects
+# 632 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Long Running Timer](./Electronics101/555Timer/LongRunning) - Building a very low frequency 555 timer circuit.
+> Latest addition:sparkles: [Foam Cutters](./Equipment/FoamCutter) - Examining various foam cutter designs and building a couple for small-scale foam sculpting.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
