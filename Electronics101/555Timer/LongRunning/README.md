@@ -152,6 +152,23 @@ So my conclusion for now: if I need a low frequency timer circuit (like over 5 m
 * use a 555 with electrolytics but accept that accuracy and stability issues
 * or save all this bother and just use a microprocessor!
 
+Hmm, do we really need a microprocessor?
+
+[Steve Schnepp](https://github.com/steveschnepp) makes a
+[good point](https://github.com/tardate/LittleArduinoProjects/issues/28)
+that cascading CD4060 counters is a perfectly good digital solution that provides the accuracy and reliability without need to
+go all-in on a microprocessor:
+
+> To have long delays, you are right, to avoid analogic error margins, one usually needs to go digital.
+>
+> But I'm not sold on always using an MCU. It is the "too easy" road.
+>
+> As soon as you realize you will only leverage its counter/timer it makes a CD4060 rather well suited to the task. You can cascade them if very long delays are needed, or use it with a quartz if precision is important.
+>
+> Only power of 2 are available, but if you go with a watch clock quartz of 32kHz, 2 CD4060 in cascade & some DIP-switch and diode logic, you can have a very easy programmable timer.
+>
+> Note: if you really want to go the no-surprise road, you might need to leverage a CD4040 instead of the 2nd CD4060, as the latter has "holes" (to offer bigger divisions without increasing of the DIP form factor).
+
 ## Credits and References
 
 * [Zero-Electrolytics 555 Timer](https://www.elektormagazine.com/magazine/elektor-201405/26447) By Albert van Dalen Published in Elektor 5/2014 on page 74
