@@ -11,7 +11,7 @@ for example
 [5 minutes (300346.200 ms) @ 50.254% duty](https://visual555.tardate.com/?mode=astable&r1=10&r2=980&c=220)
 using R1=10kΩ, R2=1MΩ, C1=220µF.
 
-I tried to use a "zero electrolytics" approach with very large (1GΩ) capacitors to compenstate,
+I tried to use a "zero electrolytics" approach with very large (1GΩ) capacitors to compensate,
 following a design published in Elektor Magazine.
 Bottom line: I suspect leakage in my 555 timers sabotaged this attempt. I have documented the failure,
 and also covered circuit combinations that do work.
@@ -36,18 +36,18 @@ The application in the article was for a timer to turn on a vacuum pump for a sh
 ### First Attempt
 
 I obtained some [1GΩ](https://www.aliexpress.com/item/32880593944.html) resistors and got to work.
-Measureing 5 in parallel (the only way to get them within the range of any meters I own!) the average resistance clock in
-t around 940MΩ - within the surpirsingly large 10% tolerance.
+Measuring 5 in parallel (the only way to get them within the range of any meters I own!) the average resistance clock in
+t around 940MΩ - within the surprisingly large 10% tolerance.
 
 I simplified the circuit for testing purposes as I don't need to control an actual pump. Specific changes:
 
-* using two LM555 timers rarther than single TLC556CN
+* using two LM555 timers rather than single TLC556CN
 * powered by 5V instead of 12V
 * switch R1 and R2 so that R2 has the high-value resistor. This produces a duty cycle approaching 50% instead of 100%.
 * added edge-trigger between oscillator (IC1) output and the monostable switch (IC2)
 * changed the monostable switch (IC2) period to a short pulse of [510ms](https://visual555.tardate.com/?mode=monostable&r1=1000&c=0.47)
 
-### Measuring with an Arudino
+### Measuring with an Arduino
 
 Since the frequency is far too low to measure with any frequency counters or scopes I have to hand,
 I've also employed an Arduino Uno to monitor and log the actual period of each timer cycle.
@@ -85,7 +85,6 @@ Sample results logged by the Arduino:
     Triggered ON after : 11065 ms
     Triggered ON after : 11070 ms
 
-
 ### Adding a 1GΩ
 
 With a 1GΩ resistors in parallel with 10MΩ for R2,
@@ -102,25 +101,22 @@ Sample results logged by the Arduino:
     Triggered ON after : 11014 ms
     Triggered ON after : 11012 ms
 
-
-
 ## Protoboard Build
 
 I thought perhaps I'd have better luck putting the circuit on a breadboard.
 
 TLDR: no! The best I could achieve was with two 1GΩ in parallel (500MΩ) but in that case
-I could no sustain oscillation with anything higer than 680pF for ~475ms frequency. Which kind
-of defeats the purpose of using a high resistance for low frequancy timing.
+I could no sustain oscillation with anything higher than 680pF for ~475ms frequency. Which kind
+of defeats the purpose of using a high resistance for low frequency timing.
 
-The initial protoboard had fixed R1=10MΩ, R2=1GΩ, C1=470nF, with cockets for putting additional resistors in parallel with R2.
+The initial protoboard had fixed R1=10MΩ, R2=1GΩ, C1=470nF, with sockets for putting additional resistors in parallel with R2.
 As with the breadboard, I could only get it to run with 10MΩ in parallel with R2:
 
 ![protoboard-initial](./assets/protoboard-initial.jpg?raw=true)
 
-
 I do however get good results with 10MΩ resistors. Two examples:
 
-R1=10MΩ, R2 = 10MΩ, C1 = 105 cermamic (1µF)
+R1=10MΩ, R2 = 10MΩ, C1 = 105 ceramic (1µF)
 [20790.000 ms](https://visual555.tardate.com/?mode=astable&r1=10000&r2=10000&c=1)
 measured: 21879 ms
 
@@ -143,9 +139,9 @@ Stability is not too bad?? (±500ms).
 I don't like giving up aon a circuit idea. But I am going to do that here.
 
 The idea of using a 1GΩ resistor for a low frequency 555 counter without using electrolytics
-is perhaps fine in theory. However it appears to be very finnecky and hard to achieve in practice.
+is perhaps fine in theory. However it appears to be very finnicky and hard to achieve in practice.
 
-The Elektor labs did report success, but with a few caveats about circuit design and careful component handling in order to achieve resonable results. I wasn't able to acheive anything even close. I primarily suspect excessive leakage that totally defeats the 1GΩ resistor; it is possible my "cheap 555 timers" are responsible, compared to the quality components used in the Elektor Lab.
+The Elektor labs did report success, but with a few caveats about circuit design and careful component handling in order to achieve reasonable results. I wasn't able to achieve anything even close. I primarily suspect excessive leakage that totally defeats the 1GΩ resistor; it is possible my "cheap 555 timers" are responsible, compared to the quality components used in the Elektor Lab.
 
 So my conclusion for now: if I need a low frequency timer circuit (like over 5 minutes), then:
 

@@ -33,28 +33,28 @@ for large straight cuts. Good for basic structural shapes. They have built-in po
 
 [![Proxxon37080.jpg](./assets/Proxxon37080.jpg?raw=true)](https://amzn.to/3w9DWIr)
 
-At the cheaper end, and designed more for sculting than cutting are tools like the
+At the cheaper end, and designed more for sculpting than cutting are tools like the
 [Cooltop Hot Wire Foam Cutter kit](https://amzn.to/3MSdUQz) (~$27).
 It is powered from a small AC adapter and doesn't appear to have any active regulation/feedback. Just the on/off switch!
 
 [[![Cooltop.jpg](./assets/Cooltop.jpg?raw=true)](https://amzn.to/3MSdUQz)
 
 For a little more, one can find tools like the
-[GOCHANGE 4 in 1 Foam Cutter](https://amzn.to/3KLy912) (~$37) that offer a similar range of acessories
+[GOCHANGE 4 in 1 Foam Cutter](https://amzn.to/3KLy912) (~$37) that offer a similar range of accessories
 but what appears to be a little more advanced regulator, though still manually controlled it seems.
 
 [[![Gochange4in1.jpg](./assets/Gochange4in1.jpg?raw=true)](https://amzn.to/3KLy912)
 
 ### DIY Options
 
-So we are basically talkign about heating up a wire, so as one would expect a simple web search yields
+So we are basically talking about heating up a wire, so as one would expect a simple web search yields
 thousands of examples of how people have built their own.
 
 A common approach is to scavenge some [nichrome](https://en.wikipedia.org/wiki/Nichrome) wire from a soldering iron, hair dryer or other equipment with a heating element.
 
 Nichrome (nickel-chromium alloy) is commonly used as a resistive heating element as it has  an electrical resistivity of around 112 microOhm-cm.
 This is about 66 times higher than copper.
-i.e. for a given current, Nichrome will disipate more power as heat (I²R).
+i.e. for a given current, Nichrome will dissipate more power as heat (I²R).
 
 What is quite alarming about many of these DIY solutions is the lack of consideration given to limiting the power draw.
 
@@ -99,7 +99,7 @@ The circuit is simple a 2xAA battery pack and momentary switch to power the nich
 
 ![schematic](./assets/FoamCutter_schematic.jpg?raw=true)
 
-I hot-glued two posicle sticks the the AA battery holder, used a small piece of protoboard to mount the switch,
+I hot-glued two popsicle sticks the the AA battery holder, used a small piece of protoboard to mount the switch,
 and used some nuts and bolts to attached a small piece of nichrome wire in a loop.
 
 This make a convenient cutting tool for fine work:
@@ -119,7 +119,7 @@ Rather than build a custom regulator, I am just using a bench power supply with 
 
 I used some heavy gauge wire to connect the DC power jack to the steel wire with a momentary switch in the circuit.
 
-Nuts and bolts are used to afix the steel wire. In this first example, I have it running in a relatively large semi-circle.
+Nuts and bolts are used to affix the steel wire. In this first example, I have it running in a relatively large semi-circle.
 this allows for some relatively fine sculpting of complex surfaces:
 
 ![demo-steel](./assets/demo-steel.jpg?raw=true)

@@ -13,12 +13,11 @@ Will I make them all? Perhaps! I completed
 the Australian destroyer [HMAS Vampire](../HMASVampire) and have now added HMS Prince Of Wales to the collection.
 Perhaps I'll keep HMS Repulse for next year?
 
-
 ### Force Z
 
 [Force Z](https://en.wikipedia.org/wiki/Force_Z) sailed from Singapore at 1710 on 8 December 1941 after receiving word of a Japanese convoy bound for Malaya.
 It consisted of
-the battleship [HMS Prince of Wales](https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53),
+the battleship [HMS Prince of Wales](https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53)),
 battlecruiser [HMS Repulse](https://en.wikipedia.org/wiki/HMS_Repulse_(1916)),
 with destroyer escorts
 [HMS Electra](https://en.wikipedia.org/wiki/HMS_Electra_(H27)),
@@ -27,7 +26,7 @@ with destroyer escorts
 [HMS Tenedos](https://en.wikipedia.org/wiki/HMS_Tenedos_(H04)).
 
 On 9 December 1941, Japanese submarine and reconnaissance aircraft reported on Force Z without their knowledge.
-HMS Tenedos was also detacted to return to Singapore as she was running low on fuel.
+HMS Tenedos was also detected to return to Singapore as she was running low on fuel.
 Overnight, flares dropped by Japanese aircraft alerted Force Z to their discovery.
 Having lost the element of surprise, the force was ordered to return to Singapore.
 
@@ -35,7 +34,7 @@ On the return voyage, the force was intercepted by land-based bombers and torped
 Prince of Wales and Repulse were sunk by Japanese aircraft on 10 December 1941.
 Destroyers Electra and Vampire moved in to rescue survivors of Repulse, while Express rescued those from the Prince of Wales.
 
-Occuring just a few days after the Pearl Harbor attacks, this was Britain's turn to learn how vulnerable capital ships were to air power.
+Occurring just a few days after the Pearl Harbor attacks, this was Britain's turn to learn how vulnerable capital ships were to air power.
 There was no attempt to alert or scramble RAF air cover for Force Z, though it is likely to have made little difference
 as the number and vintage of the planes on hand were totally outclassed by the Japanese forces in play.
 
@@ -65,20 +64,19 @@ Thi sis an old tooling from 1975 but it still stands up to scrutiny. Later boxin
 
 [![kit-box](./assets/kit-box.jpg?raw=true)](https://www.scalemates.com/kits/tamiya-31615-prince-wales--104795)
 
-#### Photoetch Customization
+#### Photo-etch Customization
 
-While the Tamiya kit is areasonably well detailed, I think it needs some PE to bring it to life, even if just for the railings.
+While the Tamiya kit is a reasonably well detailed, I think it needs some PE to bring it to life, even if just for the railings.
 
-I'm using a pretty wonderful photoetch set from
+I'm using a pretty wonderful photo-etch set from
 [White Ensign Models (PE 738, 1:700)](https://www.whiteensignmodels.com/p/WEM+1700+King+George+V+Class+Battleship+PE+738/5467/#.YaRXQfFByL4)
 that caters for all ships in the King George V Class.
 
 Here are my notes on how the PE was applied:
 
-
 | PE | Name                               | Used |
 |----|------------------------------------|------|
-|  1 | 20mm Single Oerlikon               | 3x stern, 4x miships |
+|  1 | 20mm Single Oerlikon               | 3x stern, 4x midships |
 |  2 | 8 barrel pom-pom                   | replace A25+A26 4x midships |
 |  3 | 4 barrel pom-pom                   | replace A25+A26 on 2nd and 3rd turret |
 |  4 | 20mm twin-barrels for Mk5          | n/a |
@@ -89,7 +87,7 @@ Here are my notes on how the PE was applied:
 |  9 | assorted hatches                   | added over hatches |
 | 10 | 27' whaler oars and rudder         | add to A20,C22 |
 | 11 | 32' cutter oars and rudder         | add to A24 |
-| 12 | 27' whaler craddles                | not used |
+| 12 | 27' whaler cradles                 | not used |
 | 13 | forward ER vent grilles            | added to B30 |
 | 14 | aft ER vent grilles                | wrap around under B11 x2 |
 | 15 | vertical and inclined rails        | 2nd turret |
@@ -118,7 +116,7 @@ Here are my notes on how the PE was applied:
 | 38 | mainmast starfish (early)          | added to mainmast  |
 | 39 | funnel cap grilles                 | replace top of B33, B41 |
 | 40 | headache aerials (Anson/Howe)      | n/a |
-| 41 | Foremasst IFF aerials              | n/a |
+| 41 | Foremast IFF aerials               | n/a |
 | 42 | Foremast yards                     | replace part on foremast |
 | 43 | Top 86 TBS aerial                  | n/a |
 | 44 | Headache aerials (KG5/DOY)         | n/a |
@@ -138,7 +136,6 @@ Here are my notes on how the PE was applied:
 | 58 | anchor cable                       | not used |
 | 59 | 2 bar rails                        | turret and platform railings |
 | 60 | 3 bar rails                        | gunnel rails |
-
 
 ##### Paint
 
@@ -167,12 +164,11 @@ Here are my notes on how the PE was applied:
 | Camo D: Medium Blue           | X-14:1 + XF-2:2 + XF-7:smidgeon | 70.963 Medium Blue + 70.989 Sky Grey (1:1) |
 | Camo E: Light Grey Green      | XF-2:1 + XF-21:2                | 70.870 Medium Sea Grey + 70.893 US Dark Green (6:1) |
 | Camo F: Light Grey            | XF-2:1 + XF-12:1                | 70.990 Light Grey |
-| liferafts                     | XF-2                            | 70.993 White Grey |
-
+| life rafts                    | XF-2                            | 70.993 White Grey |
 
 ###### Figures
 
-Adding some figures brigns the deck to life.
+Adding some figures brings the deck to life.
 I'm using a set from ION Model:
 [Royal Navy - Chilling on deck | No. R700-001 | 1:700](https://www.scalemates.com/kits/ion-model-r700-001-royal-navy-chilling-on-deck-1-700--1352340)
 
@@ -233,7 +229,6 @@ Planning a seascape base, the foam on photo-frame technique ($2 from Daiso)...
 Planning my seascape for HMS Prince of Wales aka "Time Tunnel 1941"
 
 ![build04b](./assets/build04b.jpg?raw=true)
-
 
 Making waves today😊 .. HMS Prince of Wales (Tamiya 1:700, White Ensign PE and crewed by #ionmodel)
 
