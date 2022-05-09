@@ -208,9 +208,41 @@ How it now looks compared to the box art:
 
 ![build13f](./assets/build13f.jpg?raw=true)
 
+### Revised with a 1:144 Convoy
+
+I was interseted in pushing the forced-perspective experiment further with a 1:144 convoy.
+I picked up the new 2020 tool Pit-Road kit of
+[WWII German army military vehicles set 1 No. SGK02 1:144](https://www.scalemates.com/kits/pit-road-sgk02-wwii-german-army-military-vehicles-set-1--1305590).
+
+The molding is sublime, and the kit contains parts for 2 each of:
+
+* Kfz. 305 Opel Blitz
+* Pz.Kpfw. II Ausf. F
+* Sd.Kfz. 250
+* Sd.Kfz. 251
+
+I built a few of the vehicles and gave them a quick desert camo paintjob:
+
+![build14a](./assets/build14a.jpg?raw=true)
+
+NB: I did also checkout [Pit-Road WWII German Military Vehicle Set 1 No. MI02](https://www.scalemates.com/kits/pit-road-mi02-wwii-german-military-vehicle-set-1--1338389), but I think the 1:700 scale is a bit too extreme for this diorama.
+
+#### Updated Diorama (1:72, 1:144 Scale)
+
+Some updated shots with the new convoy vehicles and re-scaled the "explosion" to suit.
+
+![build14b](./assets/build14b.jpg?raw=true)
+
+The 1:72 to 1:144 forced-perspective seems to work even better; even closer to the box art.
+
+![build15a](./assets/build15a.jpg?raw=true)
+![build15b](./assets/build15b.jpg?raw=true)
+
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=122461)
 * [Supermarine Spitfire Mk.Vc; Airfix No. A02108, 1:72](https://www.scalemates.com/kits/airfix-a02108-supermarine-spitfire-mkvc--1260494)
 * [Opel Kapitän German staff car (hardtop); Hauler No. HTT120076, 1:120](https://www.scalemates.com/kits/hauler-htt120076-german-staff-car-hardtop-2-in-set--1200533)
 * [Tiger I Ausf. E; Hauler No. HTT120002, 1:120](https://www.scalemates.com/kits/hauler-htt120002-tiger-i-ausf-e--109252)
+* [WWII German army military vehicles set 1 Pit-Road, No. SGK02 1:144](https://www.scalemates.com/kits/pit-road-sgk02-wwii-german-army-military-vehicles-set-1--1305590)
 * [5mm Yellow Blinking Candle Effect LEDs](https://www.aliexpress.com/item/32782781815.html) from aliexpress
