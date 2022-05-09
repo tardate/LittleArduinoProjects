@@ -109,6 +109,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Germany          | [ModellbauRay](https://modellbauray.com/)                                | 3D printed kits |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
+| Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
 | Hong Kong        | [Hong Kong Models](https://www.hk-models.com/hkm/)                       | |
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
