@@ -238,6 +238,22 @@ The 1:72 to 1:144 forced-perspective seems to work even better; even closer to t
 ![build15a](./assets/build15a.jpg?raw=true)
 ![build15b](./assets/build15b.jpg?raw=true)
 
+## Never Finished
+
+OK, after calling this done for a second time, I came back to fiddle the groundwork and decal the convoy.
+
+[build16a](./assets/build16a.jpg?raw=true)
+[build16b](./assets/build16b.jpg?raw=true)
+[build16c](./assets/build16c.jpg?raw=true)
+[build16d](./assets/build16d.jpg?raw=true)
+[build16e](./assets/build16e.jpg?raw=true)
+[build17a](./assets/build17a.jpg?raw=true)
+[build17b](./assets/build17b.jpg?raw=true)
+[build17c](./assets/build17c.jpg?raw=true)
+[build17d](./assets/build17d.jpg?raw=true)
+
+Maybe now I can say I'm finished?
+
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=122461)
