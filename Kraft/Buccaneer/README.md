@@ -69,7 +69,6 @@ Pilots
 | Steel Grey                | Humbrol 87  | 70.973 Light Sea Grey        |  breathing |
 | Khaki Drab                | Humbrol 159 | 70.924 Russian Unf. WWII     |  uniform |
 
-
 ## Construction Gallery
 
 the build is a breeze - really well engineered. Doesn't take long to get to priming.
