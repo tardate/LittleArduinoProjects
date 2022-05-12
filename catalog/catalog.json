@@ -1,5 +1,12 @@
 [
     {
+        "id": "#633",
+        "name": "USB to RJ45 Adapter",
+        "description": "building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets",
+        "categories": "RS232, Serial, USB, RJ45",
+        "relative_path": "Electronics101/SerialInterface/UsbToRJ45"
+    },
+    {
         "id": "#632",
         "name": "Foam Cutters",
         "description": "Examining various foam cutter designs and building a couple for small-scale foam sculpting",

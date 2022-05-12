@@ -11,7 +11,6 @@ This project implements a USB to 3-wire RS-232 adapter by combining two chips an
 * CH340G USB to TTL UART
 * MAX3232 TTL to RS-232
 
-
 As a cheat, I'm using a [MAX3232 adapter module](https://www.aliexpress.com/item/32649292208.html) - widely availably from aliexpress/ebay sellers.
 The module connects two TTL to RS-232 lines with all the supporting capacitors per the datasheet.
 
@@ -61,4 +60,3 @@ is started with the command:
 * [Mini RS232 to TTL Converter Adaptor Module Board MAX3232](https://www.aliexpress.com/item/32649292208.html) - aliexpress
 * [screen notes](http://www.noah.org/wiki/Screen_notes)
 * [DIY USB to RS232 Adapter](http://www.electronics-diy.com/electronic_schematic.php?id=1006) - another project, uses the CP2102 and MAX3243 chips
-
