@@ -8,7 +8,7 @@ Building the Airfix 1:72 Nakajima B5N2 Kate - an exercise in weathering, no elec
 
 In 2020 Airfix released a special Airfix Club Limited Edition of their [Nakajima B5N2 Kate No. A73012, 1:72](https://www.scalemates.com/kits/airfix-a73012-nakajima-b5n2-kate--1293106) and it has been sitting in my stash ever since.
 
-The kit is a relatively new tool (2015) and builds beutifully. The main distinction of the special edition is the inclusion of two unusual end/post-war schemes. I've never built a Kate before, so didn't do anything unusual here. I even went for a convention marking scheme over one of the special.
+The kit is a relatively new tool (2015) and builds beautifully. The main distinction of the special edition is the inclusion of two unusual end/post-war schemes. I've never built a Kate before, so didn't do anything unusual here. I even went for a convention marking scheme over one of the special.
 
 ### About the Nakajima B5N2
 
@@ -32,7 +32,7 @@ There are four schemes offered in the kit:
 * Nakajima B5N2 Kate Surrender markings, 1945
 * Nakajima B5N2 Kate Technical Air Intelligence Centre, 1945
 
-While the Surrender markings and Technical Air Intelligence Centre schemes are very unusual, I went striaght for a traditional
+While the Surrender markings and Technical Air Intelligence Centre schemes are very unusual, I went straight for a traditional
 scheme for 553rd Kokutai, April-October 1944. Main paints used:
 
 | Feature                             | Color            | Recommended | Paint Used |
@@ -48,7 +48,6 @@ scheme for 553rd Kokutai, April-October 1944. Main paints used:
 | Cockpit gas bottles                 | White            | Humbrol 34  |   |
 | Cockpit equipment                   | Dark Green       | Humbrol 149 |   |
 | Cockpit floor                       | Forest Green     | Humbrol 150 | Humbrol 78  |
-
 
 ### Construction Log
 
@@ -68,10 +67,9 @@ All primed in black..
 
 Basic body color:
 
-
 ![build02a](./assets/build02a.jpg?raw=true)
 
-Pristine paintjob:
+Pristine paint job:
 
 ![build02b](./assets/build02b.jpg?raw=true)
 
@@ -92,7 +90,7 @@ Some more heavy weathering of the upper surface, and with HF antenna attached:
 
 ## Conclusion
 
-Not particular happy with this build - uninsired and I think the weathering doesn't quite fit the scale very well.
+Not particular happy with this build - uninspired and I think the weathering doesn't quite fit the scale very well.
 An interesting subject and well engineered kit. Very well detailed by Airfix standards.
 
 ## Credits and References
