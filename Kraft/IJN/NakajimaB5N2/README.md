@@ -1,4 +1,4 @@
-# Nakajima B5N2
+# #634 Nakajima B5N2
 
 Building the Airfix 1:72 Nakajima B5N2 Kate - an exercise in weathering, no electronics.
 
@@ -97,5 +97,6 @@ An interesting subject and well engineered kit. Very well detailed by Airfix sta
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=124012)
 * [Nakajima B5N2 Kate Airfix Club Limited Edition, No. A73012, 1:72](https://www.scalemates.com/kits/airfix-a73012-nakajima-b5n2-kate--1293106)
 * [Nakajima B5N](https://en.wikipedia.org/wiki/Nakajima_B5N) - wikipedia
