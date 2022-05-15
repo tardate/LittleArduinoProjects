@@ -16,7 +16,6 @@ Turns out the answer is yes! It is however highly dependent on the aircraft geom
 Besides being an interesting subject, the Kawanishi K5Y1 works well given
 the fixed landing gear and relatively forward centre of gravity.
 
-
 ### The Subject
 
 The K5Y1 is the Imperial Japanese Navy two-seat intermediate trainer version of the
@@ -30,7 +29,6 @@ there is a full size replica in the
 [Nishiki Secret Base Museum](https://goo.gl/maps/WrxG3Mx5ymYj8E8V6).
 
 [![clip](https://img.youtube.com/vi/rC79uFYIRC4/0.jpg)](https://www.youtube.com/watch?v=rC79uFYIRC4)
-
 
 ### The Kit
 
@@ -116,7 +114,6 @@ At home on a bookshelf:
 ![build_12a](./assets/build_12a.jpg?raw=true)
 ![build_12b](./assets/build_12b.jpg?raw=true)
 ![build_12c](./assets/build_12c.jpg?raw=true)
-
 
 ## Credits and References
 
