@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-05-15T15:17:32Z</updated>
+  <updated>2022-05-15T15:23:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -392,12 +392,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/K5Y1/</id>
-    <link href="https://leap.tardate.com/Kraft/K5Y1/"/>
+    <id>https://leap.tardate.com/Kraft/IJN/K5Y1/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/K5Y1/"/>
     <updated>2021-08-25T16:09:45Z</updated>
     <title>#599 Kawanishi K5Y1 Tensegrity Stand</title>
     <summary>Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/K5Y1/assets/K5Y1_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/K5Y1/assets/K5Y1_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
@@ -448,12 +448,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/i16i58/</id>
-    <link href="https://leap.tardate.com/Kraft/i16i58/"/>
+    <id>https://leap.tardate.com/Kraft/IJN/i16i58/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/i16i58/"/>
     <updated>2021-08-04T12:29:23Z</updated>
     <title>#594 I-16 and I-58</title>
     <summary>Building the Tamiya 1:700 I-16 and I-58 waterline kit 31453. No electronics in this one - more an experiment in rust and water effects.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/i16i58/assets/i16i58_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/i16i58/assets/i16i58_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
