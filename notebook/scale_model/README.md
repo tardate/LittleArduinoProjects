@@ -145,6 +145,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Taiwan           | [Caesar Miniatures](http://www.minitoysoldier.com/)                      | miniatures |
 | Turkey           | [Tan Model](http://www.tanmodel.com/en/)                                 | Turkey's international scale modelling brand.  |
 | UK               | [AirFix](https://uk.airfix.com/)                                         | now part of Hornby Hobbies |
+| UK               | [Atlantic Models](https://atlanticmodels.net/)                           | PE |
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
 | UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
 | UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
@@ -203,6 +204,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Singapore        | [Hobby Square](https://hobbysquare.com.sg/)                           | mainly drones and RC    |
 | Singapore        | [HPM Hobbies](https://www.hpmhobbies.com/)                            | |
 | Singapore        | [M WORKSHOP](https://www.facebook.com/themworkshop)                   | |
+| Singapore        | [MediaMix Hobby](https://www.mediamixhobby.com.sg/shop/index.php)     | motor-related scale models, but also tools and accessories |
 | Singapore        | [Miniature Hobby International](http://miniaturehobby.com/)           | awesome place for kits - huge range and great prices |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
