@@ -6,7 +6,6 @@ Here's the quick demo of the circuit in action:
 
 [![QuadNOR](https://img.youtube.com/vi/D_5Da_8R8Ek/0.jpg)](https://www.youtube.com/watch?v=D_5Da_8R8Ek)
 
-
 ## Notes
 
 See the [NOR7402 project readme](../NOR7402) for more detail on the 74LS02.
@@ -32,7 +31,6 @@ with the resulting logic table:
 | 1  | 1  | 0     | 1  | 0  | 0     | 1  |
 | 1  | 1  | 0     | 1  | 1  | 0     | 1  |
 
-
 ### Construction
 
 ![The Breadboard](./assets/QuadNOR_bb.jpg?raw=true)
@@ -40,7 +38,6 @@ with the resulting logic table:
 ![The Schematic](./assets/QuadNOR_schematic.jpg?raw=true)
 
 ![The Build](./assets/QuadNOR_build.jpg?raw=true)
-
 
 ## Credits and References
 

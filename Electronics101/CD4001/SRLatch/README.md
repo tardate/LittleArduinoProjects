@@ -1,16 +1,20 @@
-# #077 NOR Gate SR Latch
+# #635 CD4001 SR Latch
 
-Set-Reset latch implemented with 74LS02 NOR gates.
+Set-Reset latch implemented with CD4001 NOR gates.
 
-![The Build](./assets/SRLatchWithNorGates_build.jpg?raw=true)
+![Build](./assets/SRLatch_build.jpg?raw=true)
+
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/95eyO3oV5bk/0.jpg)](https://www.youtube.com/watch?v=95eyO3oV5bk)
 
 ## Notes
 
 This circuit is another implementation of a Set-Reset flip-flop, this time using NOR gates.
 Sometimes this is referred to as a "NOR Latch".
-A 74LS02 is used to provide the two NOR gates required.
+A CD4001 is used to provide the two NOR gates required.
 
-See the [LEAP#061 SRLatch](../SRLatch) circuit for an implementation using BJTs.
+See the [LEAP#061 SRLatch](../DigitalLogic/SRLatch) circuit for an implementation using BJTs.
 
 Ben Eater has a great video explaining SR latch behaviour:
 
@@ -25,18 +29,17 @@ Ben Eater has a great video explaining SR latch behaviour:
 |      1 |        0 | 1             |
 |      1 |        1 | invalid state |
 
-### Construction
+## Construction
 
-![The Breadboard](./assets/SRLatchWithNorGates_bb.jpg?raw=true)
+![bb](./assets/SRLatch_bb.jpg?raw=true)
 
-![The Schematic](./assets/SRLatchWithNorGates_schematic.jpg?raw=true)
+![schematic](./assets/SRLatch_schematic.jpg?raw=true)
 
-![The Build](./assets/SRLatchWithNorGates_build.jpg?raw=true)
+![Build](./assets/SRLatch_build.jpg?raw=true)
 
 ## Credits and References
 
-* [LEAP#061 SRLatch](../SRLatch)
-* [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
+* [LEAP#061 SRLatch](../DigitalLogic/SRLatch)
+* [CD4001 datasheet](https://www.futurlec.com/4000Series/CD4001.shtml)
 * [NOR-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/norlatch.html)
 * [NOR gate S-R latch](http://www.allaboutcircuits.com/vol_6/chpt_7/3.html)
-* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap061-set-reset-latches.html)

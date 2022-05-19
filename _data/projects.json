@@ -1,4 +1,13 @@
 {
+    "/Electronics101/CD4001/SRLatch/": {
+        "id": 635,
+        "title": "CD4001 SR Latch",
+        "summary": "Set-Reset latch implemented with CD4001 NOR gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
     "/Kraft/IJN/NakajimaB5N2/": {
         "id": 634,
         "title": "Nakajima B5N2 Kate",

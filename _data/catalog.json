@@ -1,5 +1,12 @@
 [
     {
+        "id": "#635",
+        "name": "CD4001 SR Latch",
+        "description": "Set-Reset latch implemented with CD4001 NOR gates",
+        "categories": "Digital Logic, CMOS/TTL",
+        "relative_path": "Electronics101/CD4001/SRLatch"
+    },
+    {
         "id": "#634",
         "name": "Nakajima B5N2 Kate",
         "description": "Building the Airfix 1:72 Nakajima B5N2 Kate - an exercise in weathering, no electronics.",
