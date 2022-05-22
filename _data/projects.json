@@ -1,4 +1,13 @@
 {
+    "/Electronics101/CD4001/LogicProbe/": {
+        "id": 636,
+        "title": "CD4001 Logic Probe",
+        "summary": "A simple logic probe using NOR gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
     "/Electronics101/CD4001/SRLatch/": {
         "id": 635,
         "title": "CD4001 SR Latch",

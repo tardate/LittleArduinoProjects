@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-05-19T11:15:24Z</updated>
+  <updated>2022-05-22T09:33:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/CD4001/LogicProbe/</id>
+    <link href="https://leap.tardate.com/Electronics101/CD4001/LogicProbe/"/>
+    <updated>2022-05-22T09:31:37Z</updated>
+    <title>#636 CD4001 Logic Probe</title>
+    <summary>A simple logic probe using NOR gates</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/CD4001/LogicProbe/assets/LogicProbe_build.jpg</g:image_link>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4001/SRLatch/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4001/SRLatch/"/>

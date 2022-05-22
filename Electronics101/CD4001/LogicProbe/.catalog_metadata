@@ -1,0 +1,7 @@
+{
+    "id": "#636",
+    "name": "CD4001 Logic Probe",
+    "description": "A simple logic probe using NOR gates",
+    "categories": "Digital Logic, CMOS/TTL",
+    "relative_path": "Electronics101/CD4001/LogicProbe"
+}

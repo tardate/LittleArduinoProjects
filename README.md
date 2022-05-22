@@ -1,6 +1,6 @@
-# 635 Little Electronic Art Projects
+# 636 Little Electronic Art Projects
 
-> Latest addition:sparkles: [USB to RJ45 Adapter](./Electronics101/SerialInterface/UsbToRJ45) - building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets.
+> Latest addition:sparkles: [CD4001 Logic Probe](./Electronics101/CD4001/LogicProbe) - A simple logic probe using NOR gates.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
