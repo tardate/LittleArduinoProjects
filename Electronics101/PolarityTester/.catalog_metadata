@@ -1,7 +1,7 @@
 {
-    "id": "#183", 
-    "name": "PolarityTester", 
-    "description": "demonstrate a polarity-testing circuit", 
-    "categories": "Inverter, CMOS", 
+    "id": "#183",
+    "name": "Polarity Tester",
+    "description": "Demonstrate a polarity-testing circuit using the CD4069 inverter",
+    "categories": "CMOS/TTL",
     "relative_path": "Electronics101/PolarityTester"
 }

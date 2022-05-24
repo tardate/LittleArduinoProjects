@@ -12,7 +12,18 @@ This logic probe design can detect and indicate:
 * logic low (green LED on)
 * oscillating signal (yellow LED on)
 
-## Construction
+### About the CD4001
+
+The CD4001BC is a Quad 2-Input NOR Buffered B Series Gate. Key features:
+
+* operating range (VDD): 3-15V
+* monolithic CMOS
+* low power TTL compatibility
+* all inputs protected by standard CMOS protection circuit; voltage at any pin −0.5V to VDD+0.5V
+
+See the [CD4001 datasheet](https://www.futurlec.com/4000Series/CD4001.shtml) for more.
+
+### Construction
 
 The first NOR gate is used as an inverting buffer of the input signal.
 
@@ -36,6 +47,14 @@ When input is oscillating:
 * oscillating input to the 2nd NOR gate will enable the oscillator on 2nd and 3rd NOR gates
 * final NOR gate output will oscillate, causing D3 (yellow) to light up
 
+Note:
+
+* R4, R5 values are not critical. High values such as 1MΩ are satisfactory
+* R5 is optional - it prevents oscillation when input is high Z/not connected.
+* the link/short between the anode of D1 and cathode of D2 is used to inhibit D1/D2 when there is no strong input signal high or low
+  * this is optional; the circuit works without it.
+  * removing it will reduce power consumption of the circuit but D1/D2 will tend to be on when there is no strong input signal
+
 ![bb](./assets/LogicProbe_bb.jpg?raw=true)
 
 ![schematic](./assets/LogicProbe_schematic.jpg?raw=true)
@@ -52,7 +71,7 @@ Breadboard test, with oscillating input (10kHz square wave from FY3200S signal g
 
 ![LogicProbe_bb_build_osc](./assets/LogicProbe_bb_build_osc.jpg?raw=true)
 
-## Protoboard Build
+### Protoboard Build
 
 I transferred the design to a piece of protoboard to capture the circuit for future use. A quick sketch of the layout:
 

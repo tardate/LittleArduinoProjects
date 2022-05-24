@@ -1,6 +1,6 @@
-# 636 Little Electronic Art Projects
+# 637 Little Electronic Art Projects
 
-> Latest addition:sparkles: [CD4001 Logic Probe](./Electronics101/CD4001/LogicProbe) - A simple logic probe using NOR gates.
+> Latest addition:sparkles: [CD4069 Logic Probe](./Electronics101/CD4069/LogicProbe) - A simple logic probe using inverter gates.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

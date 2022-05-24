@@ -1,4 +1,13 @@
 {
+    "/Electronics101/CD4069/LogicProbe/": {
+        "id": 637,
+        "title": "CD4069 Logic Probe",
+        "summary": "A simple logic probe using inverter gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
     "/Electronics101/CD4001/LogicProbe/": {
         "id": 636,
         "title": "CD4001 Logic Probe",
@@ -4282,11 +4291,10 @@
     },
     "/Electronics101/PolarityTester/": {
         "id": 183,
-        "title": "PolarityTester",
-        "summary": "demonstrate a polarity-testing circuit",
+        "title": "Polarity Tester",
+        "summary": "Demonstrate a polarity-testing circuit using the CD4069 inverter",
         "tags": [
-            "Inverter",
-            "CMOS"
+            "CMOS/TTL"
         ]
     },
     "/Electronics101/PowerSupply317Kit/": {
