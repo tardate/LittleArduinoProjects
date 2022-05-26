@@ -11,12 +11,12 @@ for example
 [5 minutes (300346.200 ms) @ 50.254% duty](https://visual555.tardate.com/?mode=astable&r1=10&r2=980&c=220)
 using R1=10kΩ, R2=1MΩ, C1=220µF.
 
-I tried to use a "zero electrolytics" approach with very large (1GΩ) capacitors to compensate,
+I tried to use a "zero electrolytics" approach with a very large (1GΩ) resistor to compensate,
 following a design published in Elektor Magazine.
 
 I didn't have any success with this at first, as represented in the first design and set of conclusions below ("Zero Electrolytics - Round 1").
 
-It turned out that to discharge leakage overwhelmed the low currents with a 1GΩ resistor.
+It turned out that discharge leakage overwhelmed the low currents with a 1GΩ resistor.
 
 I ran a second round of tests using a low-leakage TLC556C. This was much more successful - a true long-running zero-electrolytic solution.
 See "Zero Electrolytics - Round 2".
@@ -37,16 +37,15 @@ Electrolytics are not ideal and can makes the circuit less accurate and reliable
 relatively high leakage current compared to ceramic film capacitors.
 
 I saw a design for a Zero-Electrolytics 555 Timer by Albert van Dalen [Published in Elektor 5/2014 on page 74](https://www.elektormagazine.com/magazine/elektor-201405/26447). The solution is of course to use some very high resistances to compensate for lower capacitor values,
-in this case a might 1GΩ!
+in this case a mighty 1GΩ!
 
 The application in the article was for a timer to turn on a vacuum pump for a short period roughly every five minutes.
 
 ### First Attempt
 
 I obtained some [1GΩ](https://www.aliexpress.com/item/32880593944.html) resistors and got to work.
-Measuring 5 in parallel (the only way to get them within the range of any meters I own!) the average resistance clock in
-t around 940MΩ - within the surprisingly large 10% tolerance.
-
+Measuring 5 in parallel (the only way to get them within the range of any meters I own!), the average resistance was
+around 940MΩ - within the surprisingly large 10% tolerance.
 I simplified the circuit for testing purposes as I don't need to control an actual pump. Specific changes:
 
 * using two LM555 timers rather than single TLC556CN
@@ -73,7 +72,7 @@ See the [LongRunning.ino](./LongRunning.ino) sketch for details. It logs measure
 Hmmm. I was unable to get the breadboard circuit working with a single 1GΩ resistor.
 It seems that leakage current or stray capacitances are too much for such a high resistance.
 
-The best I could achieve was with 1GΩ cut down with 10mΩ in parallel. Some results:
+The best I could achieve was with 1GΩ cut down with 10MΩ in parallel. Some results:
 
 ### R2 = 10MΩ
 
