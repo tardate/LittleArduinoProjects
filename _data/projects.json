@@ -58,7 +58,7 @@
     "/Electronics101/555Timer/LongRunning/": {
         "id": 631,
         "title": "Long Running Timer",
-        "summary": "Building a very low frequency 555 timer circuit",
+        "summary": "Building a very low frequency 555 timer circuit, and pushing the envelope with a 1G\u03a9 zero-electrolytic design using the low-leakage TLC5556C",
         "tags": [
             "555 Timer",
             "Arduino"

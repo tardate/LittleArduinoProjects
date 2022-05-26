@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-05-24T04:47:11Z</updated>
+  <updated>2022-05-26T14:20:02Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -78,7 +78,7 @@
     <link href="https://leap.tardate.com/Electronics101/555Timer/LongRunning/"/>
     <updated>2022-05-01T09:17:14Z</updated>
     <title>#631 Long Running Timer</title>
-    <summary>Building a very low frequency 555 timer circuit</summary>
+    <summary>Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC5556C</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/LongRunning/assets/LongRunning_build.jpg</g:image_link>
     <category term="555 Timer"/>
     <category term="Arduino"/>

@@ -1,6 +1,6 @@
 # #631 Long Running Timer
 
-Building a very low frequency 555 timer circuit.
+Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC5556C.
 
 ![Build](./assets/LongRunning_build.jpg?raw=true)
 
@@ -13,14 +13,22 @@ using R1=10kΩ, R2=1MΩ, C1=220µF.
 
 I tried to use a "zero electrolytics" approach with very large (1GΩ) capacitors to compensate,
 following a design published in Elektor Magazine.
-Bottom line: I suspect leakage in my 555 timers sabotaged this attempt. I have documented the failure,
-and also covered circuit combinations that do work.
 
-So my conclusion for now: if I need a low frequency timer circuit (like over 5 minutes), then:
+I didn't have any success with this at first, as represented in the first design and set of conclusions below ("Zero Electrolytics - Round 1").
 
-* use a 555 with electrolytics but accept that accuracy and stability issues
-* or save all this bother and just use a microprocessor!
+It turned out that to discharge leakage overwhelmed the low currents with a 1GΩ resistor.
 
+I ran a second round of tests using a low-leakage TLC556C. This was much more successful - a true long-running zero-electrolytic solution.
+See "Zero Electrolytics - Round 2".
+
+So my final conclusion:
+
+* long running timer circuits using high value (1GΩ) resistors and zero-elecrtolytics is possible, but requires a low-leakage timer. The TLC556C is the only variant I currently know that satisfies this requirement.
+* if one does not have a low-leakage TLC556C, then:
+    * use a 555 with electrolytics but accept that accuracy and stability issues
+    * or save all this bother and use a microprocessor or other digital circuit timing circuit!
+
+## Zero Electrolytics - Round 1
 ### Zero Electrolytics
 
 With a normal stock of components it is hard to achieve very long periods without using electrolytic capacitors.
@@ -134,9 +142,9 @@ measured: 270739 ms
 
 Stability is not too bad?? (±500ms).
 
-## Conclusions
+## Conclusions - Round 1
 
-I don't like giving up aon a circuit idea. But I am going to do that here.
+I don't like giving up on a circuit idea. But I did for a time!
 
 The idea of using a 1GΩ resistor for a low frequency 555 counter without using electrolytics
 is perhaps fine in theory. However it appears to be very finnicky and hard to achieve in practice.
@@ -165,9 +173,68 @@ go all-in on a microprocessor:
 >
 > Note: if you really want to go the no-surprise road, you might need to leverage a CD4040 instead of the 2nd CD4060, as the latter has "holes" (to offer bigger divisions without increasing of the DIP form factor).
 
+
+## Zero Electrolytics - Round 2
+
+### Revisiting the 1GΩ Zero-Electrolytic Design
+
+The [TLC556CD](https://www.ti.com/product/TLC556) used in the original Elektor circuit is not your normal 556.
+
+Looking closer at the datahseet, it promises:
+
+> Accurate time delays and oscillations are possible with smaller, less-expensive timing capacitors than the NE556 because of the high input impedance.
+
+I was steered torwards the critical [discharge leakage](https://github.com/tardate/LittleArduinoProjects/issues/28) specification
+by [Steve Schnepp](https://github.com/steveschnepp).
+At VCC=5V, the TLC556C discharge off-state current is 0.5nA max.
+
+This compares to the 200x larger 100nA max for the [LM555](https://www.futurlec.com/Linear/LM555CN.shtml) and most other 555/556 variants I have seen.
+
+I purchased some [TLC556CD](https://www.ti.com/product/TLC556), so time to see if the reduced leakage current makes a big enough difference.
+
+### Revised Circuit
+
+![bb](./assets/LongRunning-TLC556_bb.jpg?raw=true)
+
+![schematic](./assets/LongRunning-TLC556_schematic.jpg?raw=true)
+
+![bb_build](./assets/LongRunning-TLC556_bb_build.jpg?raw=true)
+
+### Measured Results
+
+With R1=10MΩ, R2 = 1GΩ, C1 = 474 ceramic (470nF) the expected duration is
+[654677 ms](https://visual555.tardate.com/?mode=astable&r1=10000&r2=1000000&c=0.47)
+
+Again I'm using  the Arduino sketch [LongRunning.ino](./LongRunning.ino) to log measurements to the serial console.
+
+While running in steady state, I collected the following samples, for an average of 628516ms.
+this is pretty good result: fairly stable ±1%, and only 4% lower than the predicted value.
+
+    Triggered ON after : 633412 ms
+    Triggered ON after : 631109 ms
+    Triggered ON after : 629737 ms
+    Triggered ON after : 628732 ms
+    Triggered ON after : 627938 ms
+    Triggered ON after : 627244 ms
+    Triggered ON after : 626650 ms
+    Triggered ON after : 626099 ms
+    Triggered ON after : 625724 ms
+
+![LongRunning-TLC556_console](./assets/LongRunning-TLC556_console.jpg?raw=true)
+
+## Conclusions - Round 2
+
+A low leakage timer like the [TLC556C](https://www.ti.com/product/TLC556) makes it possible to
+configure a long running timer with high value resistors and no electrolytics.
+
+Results, even on a breadboard, are very stable and close to predicted timings.
+
+The caveat is that the timer component is critical: it must have a very low discharge off-state current like the TLC556C.
+
 ## Credits and References
 
 * [Zero-Electrolytics 555 Timer](https://www.elektormagazine.com/magazine/elektor-201405/26447) By Albert van Dalen Published in Elektor 5/2014 on page 74
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [TLC556 Datasheet](https://www.ti.com/product/TLC556)
 * [AttachInterrupt](https://www.arduino.cc/en/Reference/AttachInterrupt) function reference
 * [RI40 0.25W 1G ohm glass glaze thick film resistors 10%](https://www.aliexpress.com/item/32880593944.html)
