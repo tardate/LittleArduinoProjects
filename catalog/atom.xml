@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-05-26T14:20:02Z</updated>
+  <updated>2022-06-04T03:41:30Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/</id>
+    <link href="https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/"/>
+    <updated>2022-06-04T03:33:20Z</updated>
+    <title>#638 Man Overboard</title>
+    <summary>A little 1:700 diorama in a walnut featuring a little drama while mooring a Mitsubishi F1M2 observation seaplane. Part of the Just Making Conversation podcast Walnut Challenge group build. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/assets/Overboard_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4069/LogicProbe/"/>
