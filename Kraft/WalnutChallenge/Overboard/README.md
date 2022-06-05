@@ -14,7 +14,7 @@ is organised by James and Malcolm of the Just Making Conversation podcast. Essen
 
 > Make a diorama entirely inside of your Walnut. Opening the walnut will reveal your work. Closing the walnut will hide what is inside.
 
-It sounded like a very nich idea, but amazingly at the time of writing, there are 89 members of the facebook group and at least a dozen finished builds.
+It sounded like a very niche idea, but amazingly at the time of writing, there are 89 members of the facebook group and at least a dozen finished builds.
 
 ### Man Overboard
 
@@ -67,7 +67,6 @@ A first resin pour to make the water, parts ready for assembly.
 
 ![build02d](./assets/build02d.jpg?raw=true)
 
-
 First assembly:
 
 ![build03a](./assets/build03a.jpg?raw=true)
@@ -76,7 +75,7 @@ Not too happy with this - the rope is a single strang from a white cotton thread
 
 ![build03b](./assets/build03b.jpg?raw=true)
 
-With some 1:700 white rigging to replace the cottin. A much more believable rope?
+With some 1:700 white rigging to replace the cotton. A much more believable rope?
 
 ![build04a](./assets/build04a.jpg?raw=true)
 ![build04b](./assets/build04b.jpg?raw=true)
