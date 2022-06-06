@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-06-04T03:41:30Z</updated>
+  <updated>2022-06-06T16:14:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/Spitfire/XIV/</id>
+    <link href="https://leap.tardate.com/Kraft/Spitfire/XIV/"/>
+    <updated>2022-06-06T15:37:20Z</updated>
+    <title>#639 Spitfire Mk.XIV</title>
+    <summary>Building the beutiful candy red G-Fire Spitfire Mk.XIV from Airfix in 1:48 scale. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Spitfire/XIV/assets/XIV_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/</id>
     <link href="https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/"/>
