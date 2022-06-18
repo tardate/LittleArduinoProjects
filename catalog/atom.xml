@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-06-06T16:31:15Z</updated>
+  <updated>2022-06-18T11:59:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/</id>
+    <link href="https://leap.tardate.com/Kraft/Falklands/HMSSheffield/"/>
+    <updated>2022-06-18T11:57:43Z</updated>
+    <title>#640 HMS Sheffield</title>
+    <summary>Reproducing a famous photograph of the fire-fighting efforts aboard the HMS Sheffield after is was hit by an Exocet on 4 May 1982</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/assets/HMSSheffield_build.jpg</g:image_link>
+    <category term="Craft"/>
+    <category term="Falklands"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/Spitfire/XIV/</id>
     <link href="https://leap.tardate.com/Kraft/Spitfire/XIV/"/>

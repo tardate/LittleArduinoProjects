@@ -1,4 +1,4 @@
-# 639 Little Electronic Art Projects
+# 640 Little Electronic Art Projects
 
 > Latest addition:sparkles: [CD4069 Logic Probe](./Electronics101/CD4069/LogicProbe) - A simple logic probe using inverter gates.
 

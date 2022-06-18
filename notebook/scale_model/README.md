@@ -206,6 +206,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Singapore        | [M WORKSHOP](https://www.facebook.com/themworkshop)                   | |
 | Singapore        | [MediaMix Hobby](https://www.mediamixhobby.com.sg/shop/index.php)     | motor-related scale models, but also tools and accessories |
 | Singapore        | [Miniature Hobby International](http://miniaturehobby.com/)           | awesome place for kits - huge range and great prices |
+| Singapore        | [On-line Acrylic Factory](https://www.acrylic.com.sg/)                | acrylic display cases etc |
+| Singapore        | [Pendec Art and Design](http://pendec.com.sg/)                        | acrylic display cases etc |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
