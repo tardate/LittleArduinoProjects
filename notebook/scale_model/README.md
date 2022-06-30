@@ -77,7 +77,7 @@ See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 Including Tool & Accessory Suppliers.
 See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedia.org/wiki/List_of_scale_model_kit_manufacturers).
 
-This is not an exhaustive list - mainly just companies with products that have caught my eue for one reason or another.
+This is not an exhaustive list - mainly just companies with products that have caught my eye for one reason or another.
 
 | Country          | Name                                                                     | Notes |
 |------------------|--------------------------------------------------------------------------|-------|
@@ -112,6 +112,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
 | Hong Kong        | [Hong Kong Models](https://www.hk-models.com/hkm/)                       | |
+| Italy            | [astromodel](https://www.astromodel.it/)                                 | LifeColor |
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
 | Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)            |  |
 | Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 | now part of Microace |
@@ -137,6 +138,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Slovakia         | [77propeller](https://77propeller.com/)                                  | airbrush stencils |
 | Slovakia         | [Vertigo Miniatures](https://www.vertigo-miniatures.com/)                | Jigs, tools and accessories |
 | South Korea      | [Academy Plastic Model](https://www.academyhobby.com/)                   | |
+| South Korea      | [KA Models / MK1 Design](http://www.ka-models.com/)                      | PE, after-market |
 | South Korea      | [Tetra Model Works](http://www.tetramodel.com/)                          | detail parts for scale models |
 | Spain            | [greenstuffworld](https://www.greenstuffworld.com/)                      | tools, putties, materials and accessories |
 | Spain            | [Vallejo](https://acrylicosvallejo.com/en/)                              | paint |
@@ -147,6 +149,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [AirFix](https://uk.airfix.com/)                                         | now part of Hornby Hobbies |
 | UK               | [Atlantic Models](https://atlanticmodels.net/)                           | PE |
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
+| UK               | [DELUXE Materials](https://deluxematerials.co.uk/)                       | Glues, foams and other construction accessories  |
+| UK               | [Everbuild](https://www.everbuild.co.uk/)                                | industrial CA and other building supplies |
 | UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
 | UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
 | UK               | [Hornby](https://uk.hornby.com/)                                         | |
@@ -171,6 +175,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Imperial Hobby Productions](https://ihphobby.tripod.com/)               | 1/700 scale ships, HO scale commuter and transit vehicles |
 | USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
 | USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
+| USA              | [Model Monkey](https://www.model-monkey.com/)                            | 3D printed after-market accessories |
 | USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | Company defunct |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
 | USA              | [Pegasus Hobbies](https://pegasushobbies.net)                            | miniatures |
@@ -208,8 +213,10 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Singapore        | [Miniature Hobby International](http://miniaturehobby.com/)           | awesome place for kits - huge range and great prices |
 | Singapore        | [On-line Acrylic Factory](https://www.acrylic.com.sg/)                | acrylic display cases etc |
 | Singapore        | [Pendec Art and Design](http://pendec.com.sg/)                        | acrylic display cases etc |
+| Singapore        | [Singapore Hobby Supplies](https://www.singahobby.com/)               | RC, DELUXE incl liquid gravity |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
+| UK               | [Hannants](https://www.hannants.co.uk/)                               | everything! |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
