@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-07-03T02:45:17Z</updated>
+  <updated>2022-07-03T14:29:50Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/</id>
+    <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/"/>
+    <updated>2022-07-03T14:29:38Z</updated>
+    <title>#642 MT3608 Safe Control</title>
+    <summary>Configuring variable boost control with the MT3608 that is safe for all rated input voltages</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/assets/SafeControl_build.jpg</g:image_link>
+    <category term="Power"/>
+    <category term="SMPS"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Fubuki/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Fubuki/"/>

@@ -1,4 +1,13 @@
 {
+    "/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/": {
+        "id": 642,
+        "title": "MT3608 Safe Control",
+        "summary": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
+        "tags": [
+            "Power",
+            "SMPS"
+        ]
+    },
     "/Kraft/IJN/Fubuki/": {
         "id": 641,
         "title": "Fubuki",

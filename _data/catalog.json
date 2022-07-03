@@ -1,5 +1,12 @@
 [
     {
+        "id": "#642",
+        "name": "MT3608 Safe Control",
+        "description": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
+        "categories": "Power, SMPS",
+        "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/SafeControl"
+    },
+    {
         "id": "#641",
         "name": "Fubuki",
         "description": "Building the Japanese destroyer Fubuki (\u5439\u96ea, 1927) from a beautifully detailed 1:700 Yamashita Hobby kit with Tetra Model Works PE",

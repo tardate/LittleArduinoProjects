@@ -1,6 +1,6 @@
-# 641 Little Electronic Art Projects
+# 642 Little Electronic Art Projects
 
-> Latest addition:sparkles: [CD4069 Logic Probe](./Electronics101/CD4069/LogicProbe) - A simple logic probe using inverter gates.
+> Latest addition:sparkles: [MT3608 Safe Control](./Electronics101/SwitchModePowerSupplies/MT3608/SafeControl) - Configuring variable boost control with the MT3608 that is safe for all rated input voltages.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
