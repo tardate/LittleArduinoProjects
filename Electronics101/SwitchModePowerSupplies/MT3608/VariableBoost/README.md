@@ -11,6 +11,8 @@ It requires only 6 external passive components, and is readily available as a co
 
 In this project, I wanted to build up the standard variable converter circuit from scratch and verify its performance.
 
+WARNING: all these boards share a common circuit design that is only really safe if the input voltage is below about 7V, since otherwise it is possible to push the FB pin beyond the rated 6V when the pot is turned to the extreme. See [LEAP#642 MT3608 Safe Control](../SafeControl) for an alternative that is safe for higher input voltages.
+
 ### MT3608
 
 * 2V to 24V Input Voltage
@@ -47,7 +49,7 @@ so I'm using through-hole electrolytics. They are rated for 50V.
 ### Diode Selection
 
 A low forward-voltage schottky diode is recommended. Seems like a 1N5819 would be a good choice, but I don't have any available right now.
-I'm using a 1N4148 instead - not ideal, but satisfactory as reverse breakdown voltage is suffificiently high at 75V.
+I'm using a 1N4148 instead - not ideal, but satisfactory as reverse breakdown voltage is sufficiently high at 75V.
 
 ### Feedback Resistors
 
@@ -66,7 +68,7 @@ In practice it would be limited to around 1 diode drop less than the input volta
 ### Enable Pin Connection
 
 The enable pin is active high. If the chip should always be on, the pin can be connected directly to the input voltage.
-Since I want to test the enable functionality, I connect it with a 10kΩ pull-up resistor, so I can gound the enable pin
+Since I want to test the enable functionality, I connect it with a 10kΩ pull-up resistor, so I can ground the enable pin
 to turn off the output.
 
 When running with `Vin=4.97V` and `Vout=16V`, the enable pin is pulled-up to Vin with a 10kΩ resistor.
@@ -85,7 +87,7 @@ so the enable functionality is not available (without cutting and patching the b
 I'm not getting efficiencies anywhere near what the datasheet claims,
 but I suspect this is mainly due to the low currents I am testing at.
 My component selection might be responsible for most of the losses: the forward voltage of the diode,
-and I'm not sure how well the electolytic capacitors perform at 1.2MHz.
+and I'm not sure how well the electrolytic capacitors perform at 1.2MHz.
 
 | Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%) | Note         |
 |--------|--------|---------|---------|---------|----------|----------|---------------|--------------|
@@ -108,7 +110,6 @@ and built a new board. Interestingly, results are approximately the same, althou
 The maximum voltage I'm getting (38.2V with a 10kΩ load) is way over spec - SW Voltage maximum is 30V.
 I still ran the test and everything seemed to survive the short over-voltage.
 
-
 | Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%) | Note         |
 |--------|--------|---------|---------|---------|----------|----------|---------------|--------------|
 | n/c    | 4.96   | 1.0     |         | 4.75    | 0        |          | n/a           | minimum Vout |
@@ -117,8 +118,6 @@ I still ran the test and everything seemed to survive the short over-voltage.
 | 10kΩ   | 4.96   | 41.6    | 206.752 | 38.2    | 3.94     | 150.508  | [72.8%](https://www.wolframalpha.com/input/?i=(38.2V*3.94mA)%2F(4.97V*41.6mA))  | maximum Vout |
 | 10kΩ   | 4.96   | 4.71    | 23.4087 | 12.16   | 1.24     | 15.0784  | [64.4%](https://www.wolframalpha.com/input/?i=(12.16V*1.24mA)%2F(4.97V*4.71mA)) | |
 | 50Ω    | 4.95   | 139.2   | 689.0   | 5.00    | 93.3     | 466.5    | [67.7%](https://www.wolframalpha.com/input/?i=(5.00V*93.3mA)%2F(4.95V*139.2mA)) | |
-
-
 
 ## Performance - Commercial Module
 
@@ -134,7 +133,6 @@ from a seller on aliexpress. The module has very similar parts selection to my D
 
 Performance is slightly better. This may be due to the layout which follows the guidelines in the datasheet very closely.
 
-
 | Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%) | Note         |
 |--------|--------|---------|---------|---------|----------|----------|---------------|--------------|
 | n/c    | 4.96   |         |         |         | 0        |          | n/a           | minimum Vout |
@@ -144,9 +142,7 @@ Performance is slightly better. This may be due to the layout which follows the 
 | 10kΩ   | 4.96   | 4.25    | 21.08   | 12.01   | 1.251    | 15.025   | [71.3%](https://www.wolframalpha.com/input/?i=(12.01V*1.251mA)%2F(4.96V*4.25mA)) | |
 | 50Ω    | 4.95   | 135.7   | 671.7   | 5.00    | 92.8     | 464      | [69.1%](https://www.wolframalpha.com/input/?i=(5.00V*92.8mA)%2F(4.95V*135.7mA))  | |
 
-
 ## Construction
-
 
 ![Schematic](./assets/VariableBoost_schematic.jpg?raw=true)
 

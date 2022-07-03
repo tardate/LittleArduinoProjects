@@ -65,6 +65,8 @@ hence there is a bit of dead zone at the lower adjustment.
 Note: some boards/schematics will wire the R1 variable resistor in a potentiometer configuration, with the wiper connected to the FB pin.
 The same principle applies, however the voltage divider calculations of course change.
 
+WARNING: this configuration is only really safe if the input voltage is below about 7V, since otherwise it is possible to push the FB pin beyond the rated 6V when R1 is turned to the extreme. See [LEAP#642 MT3608 Safe Control](../SafeControl) for an alternative that is safe for higher input voltages.
+
 ### Enable Pin Connection
 
 I've chosen not to use this in this build, so it is pulled high to the input power rail (always enabled).
