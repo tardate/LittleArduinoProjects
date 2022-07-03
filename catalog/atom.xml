@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-06-18T11:59:39Z</updated>
+  <updated>2022-07-03T02:45:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/Fubuki/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/Fubuki/"/>
+    <updated>2022-07-03T02:44:24Z</updated>
+    <title>#641 Fubuki</title>
+    <summary>Building the Japanese destroyer Fubuki (吹雪, 1927) from a beautifully detailed 1:700 Yamashita Hobby kit with Tetra Model Works PE</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/Fubuki/assets/Fubuki_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/</id>
     <link href="https://leap.tardate.com/Kraft/Falklands/HMSSheffield/"/>
-    <updated>2022-06-18T11:57:43Z</updated>
+    <updated>2022-06-18T12:01:34Z</updated>
     <title>#640 HMS Sheffield</title>
     <summary>Reproducing a famous photograph of the fire-fighting efforts aboard the HMS Sheffield after is was hit by an Exocet on 4 May 1982</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/assets/HMSSheffield_build.jpg</g:image_link>

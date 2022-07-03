@@ -75,7 +75,6 @@ Perhaps one of their other 1/72 subjects e.g. [1/72 PZL.42](http://www.ibgmodels
 or their more detailed 1/32 planes and 1/35 vehicles.
 Or perhaps another RWD-8 from the 4 variants IBG have to choose from, along with [after-market PE](http://en.ibg.com.pl/en,part-s72086-1-72-rwd-8-siedlce,3,82,84,86,2880.html#.YCPpiukzaL4) to detail the cockpit.
 
-
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=93910)
