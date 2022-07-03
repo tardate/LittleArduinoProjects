@@ -83,3 +83,5 @@ Job done, with just 1 extra component required.
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [LEAP#570](../Breadboarded) MT3608 on a Breadboard
 * [Having problems with a step up converter](https://www.eevblog.com/forum/beginners/having-problems-with-a-step-up-converter/) - eevblog
+* [MT3608 problems](https://www.thebackshed.com/forum/ViewTopic.php?TID=11369)
+
