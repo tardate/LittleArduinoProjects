@@ -2,7 +2,7 @@
 
 Building the Arma Hobby PZL P.7a 1:72 expert set.  No electronics added - just enjoying this wonderfully detailed kit.
 
-![Build](./assets/PZLP7a_build.jpg?raw=true)
+![Build](./assets/P7a_build.jpg?raw=true)
 
 ## Notes
 

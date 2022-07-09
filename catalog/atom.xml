@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-07-03T14:29:50Z</updated>
+  <updated>2022-07-09T08:13:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -381,12 +381,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/PZLP7a/</id>
-    <link href="https://leap.tardate.com/Kraft/PZLP7a/"/>
+    <id>https://leap.tardate.com/Kraft/PZL/P7a/</id>
+    <link href="https://leap.tardate.com/Kraft/PZL/P7a/"/>
     <updated>2021-09-26T17:22:14Z</updated>
     <title>#607 PZL P.7a</title>
     <summary>Building the Arma Hobby PZL P.7a 1:72 expert set.  No electronics added - just enjoying this wonderfully detailed kit.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/PZLP7a/assets/PZLP7a_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/PZL/P7a/assets/P7a_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
