@@ -1,4 +1,14 @@
 {
+    "/Electronics101/Power/WirelessLedModule/": {
+        "id": 643,
+        "title": "XKT-511 Wireless LED Module",
+        "summary": "Investigating a wireless LED power module based on the XKT-511 chip",
+        "tags": [
+            "Power",
+            "Wireless",
+            "LED"
+        ]
+    },
     "/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/": {
         "id": 642,
         "title": "MT3608 Safe Control",

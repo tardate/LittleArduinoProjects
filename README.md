@@ -1,6 +1,6 @@
-# 642 Little Electronic Art Projects
+# 643 Little Electronic Art Projects
 
-> Latest addition:sparkles: [MT3608 Safe Control](./Electronics101/SwitchModePowerSupplies/MT3608/SafeControl) - Configuring variable boost control with the MT3608 that is safe for all rated input voltages.
+> Latest addition:sparkles: [XKT-511 Wireless LED Module](./Electronics101/Power/WirelessLedModule) - Investigating a wireless LED power module based on the XKT-511 chip.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

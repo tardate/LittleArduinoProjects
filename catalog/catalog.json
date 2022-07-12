@@ -1,5 +1,12 @@
 [
     {
+        "id": "#643",
+        "name": "XKT-511 Wireless LED Module",
+        "description": "Investigating a wireless LED power module based on the XKT-511 chip",
+        "categories": "Power, Wireless, LED",
+        "relative_path": "Electronics101/Power/WirelessLedModule"
+    },
+    {
         "id": "#642",
         "name": "MT3608 Safe Control",
         "description": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
