@@ -14,18 +14,21 @@ that uses the XKT-511 chip on the transmitter end and came with 3 LED modules.
 ![module_1](./assets/module_1.jpg?raw=true)
 
 After examining the module, it is quite straight-forward:
-the XKT-511 chip is fully integrated ASIC to monitor and control the oscillation on the transmitting coil. It seems to only require 4 additional components:
+the XKT-511 chip is fully integrated ASIC used to monitor and control the oscillation on the transmitting coil. It seems to only require 4 additional components:
 
 * two capacitors (input and output side)
 * two resistors forming a voltage divider for feedback control
+
+The XKT-511 appears to be the latest generation of wireless power control technology from [深圳芯科泰半导体有限公司 Shenzhen Coretech Semiconductor Co., Ltd.](http://www.xktbdt.com/). While they haven't published the datasheet on their website, they have excellent customer service and provided me the full specs in response to an email.
 
 ![module_3](./assets/module_3.jpg?raw=true)
 
 ### Module Specs
 
-From the [vendor page](https://www.aliexpress.com/item/32944450041.html):
+From the [aliexpress vendor page](https://www.aliexpress.com/item/32944450041.html):
 
-Claims to use a "XKT-515 DC long-distance chip to design", but the chip on the module is labelled XKT-511.
+The combined kit (regulator, coil and LEDs) is designated the XKT515-09.
+The chip on the module is marked XKT-511.
 
 The main parameters:
 
@@ -40,22 +43,16 @@ They also offer [additional LED modules](https://www.aliexpress.com/item/1005003
 
 ### XKT-511
 
-The main problem I ran into is that while the XKT-511 chip is available for sale, I've yet to find a specific datasheet for it.
-It appears to come from [深圳芯科泰半导体有限公司 Shenzhen Coretech Semiconductor Co., Ltd.](http://www.xktbdt.com/) who produce similar chips like the XKT-510.
+The main problem I ran into is that while the XKT-511 chip is available for sale, I wasn't able to find product information or a datasheet.
+I was able to find the XKT-511 chips for sale in various places such as this [listing on taobao](https://world.taobao.com/item/628744807932.htm).
 
-I found the XKT-511 chips for sale in various places. For example, the following specification is form a listing on
-[taobao](https://world.taobao.com/item/628744807932.htm):
+I figured it was produced by [深圳芯科泰半导体有限公司 Shenzhen Coretech Semiconductor Co., Ltd.](http://www.xktbdt.com/) who produce similar chips like the XKT-510.
+Although their website does not list it, I was pleasantly surprised when a simple email to them produced a quick reply with a full set of datasheet.
+Excellent service! They are in Chinese of course, but that is my problem;-)
 
-深圳芯科泰半导体有限公司 Shenzhen Coretech Semiconductor Co., Ltd.
+Selected extracts from the datasheet:
 
-XKT-511 The chip is a new wireless charging solution launched by Shenzhen xinketai semiconductor，The working voltage is 3.3V to 18V，In special
-Under demand，It can be used directly 4.2V The lithium battery provides power for the transmitting part directly。Chip uses SOP-8 encapsulation，The dimensions are further compressed
-shrink。A lot of optimization has also been done on the peripheral devices，Further reduce the size of the finished product，The production process and cost were further optimized。Chip designer
-The working frequency range is 1KHz-3.5MKHz，So that the chip has more frequency choice in the circuit design。Its high frequency output can be used PCB Printed coil
-Alternative winding coil，And realize high power output，It can greatly simplify the production process。The chip has reserved a high sensitivity control pin（8 foot）Set high
-To open，Set low as off，In engineering design，The control signal can be applied to achieve the special requirements of low power consumption。It can also be subject to lower than working pressure
-Frequency control signal，To control the working state of the working end of the receiving part。Make the back-end function design more diversity and freedom。
-two、characteristic
+#### Features
 
 * Small size，Packaged as SOP-8
 * High working frequency
@@ -69,21 +66,49 @@ two、characteristic
 * The coil can be printed PCB Board
 * The optimum state of quiescent current can be designed to be lower than 5mA。
 
+#### SOP8 Pin Configuration
+
+| Pin | Label | Function |
+|-----|-------|----------|
+| 1   | R     | Frequency Modification Resistor |
+| 2   | R     | Frequency Modification Resistor/Voltage Monitor Resistor |
+| 3   | Drive GND | Digital drive low voltage power ground |
+| 4   | Load GND  | Load ground (for function expansion use) |
+| 5   | VIN   | Load source |
+| 6   | TEST  | Working frequency test |
+| 7   | VDD   | Power supply (0-18V) |
+| 8   | N/F   | Control terminal, set high to work, set low to close output, can access custom control signals |
+
+#### Example Circuit 1
+
+This example from the datasheet is I think identical to the circuit used in the XKT515-09 package I have.
+
+Notes on the circuit:
+
+* designed for 5V power supply
+* The emission quiescent current is 60mA±10mA, the output power of this circuit is relatively large, and the coil area and distance determine the actual output power.
+* Transmitting circuit stability test method:
+    * power on the transmitting part, record the static current parameters, normally it should be 60mA±20mA (the maximum limit value is not more than 100mA).
+    * If the current deviation is not large, you can make fine adjustments by adjusting the number of coil turns.
+    * PS: If you are worried about the high temperature after the transmitter chip is damaged, you can string a resettable fuse in the power supply part as a short circuit protection.
+
+![example_circuit_1](./assets/example_circuit_1.jpg?raw=true)
+
 ### Similar Products
 
-* [XKT-412](http://www.xktbdt.com/page6?product_id=248) - much older product also for wireless power transmission, usually paired with T5336 chip and many external passives. Circuit and datahseet widely available.
-* [XKT-510](http://www.xktbdt.com/page6?product_id=249) - appears to be a very similar, perhaps immediate precursor. Requires more external components and has a very different pinout than the XKT-511.
-* [XKT-515](http://www.xktbdt.com/page6?product_id=259) - allegedly simialr to the XKT-511, but also no datasheet available.
+The XKT-511 information is not widely available on the internet as yet. A search will likely yield results for the following chips.
+Be careful not to get confused - these chips are similar in function but quite different in the particulars:
 
-I'm still trying tyo source a datasheet for the XKT-511, but my interpretation of what I've found so far:
-XKT-412 was the first gen product. XKT-510 was 2nd gen, but has been refined in XKT-511,515 perhaps under specific supply contract.
+* [XKT-412](http://www.xktbdt.com/page6?product_id=248) - much older product also for wireless power transmission, usually paired with T5336 chip and many external passives. Circuit and datasheet widely available. appears to be the 1st generation product before a 2nd generation of XKT-5xx chips.
+* [XKT-510](http://www.xktbdt.com/page6?product_id=249) - appears to be a very similar, perhaps immediate precursor. Requires more external components and has a very different pinout than the XKT-511.
+* [XKT-515](http://www.xktbdt.com/page6?product_id=259) - allegedly similar to the XKT-511, but I haven't seen the datasheet.
 
 ## Construction
 
 Here is my rough redrawing of the XKT-511 transmitter module. Note:
 
-* don't know the values of C1, C2
-* R2 value is questionable. Part labelled "098" i.e 900MΩ, but measures about 75kΩ in-circuit.
+* I haven't measured the values of C1, C2; I am assuming they follow the example circuit from the datasheet
+* R2 measures about 75kΩ in-circuit, which matches the example circuit from the datasheet. The part appears to be labelled "098" (900MΩ?!!) but that doesn't seem right.
 
 ![bb](./assets/WirelessLedModule_bb.jpg?raw=true)
 
