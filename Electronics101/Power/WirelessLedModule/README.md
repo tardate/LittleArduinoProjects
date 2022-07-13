@@ -102,6 +102,8 @@ Be careful not to get confused - these chips are similar in function but quite d
 * [XKT-412](http://www.xktbdt.com/page6?product_id=248) - much older product also for wireless power transmission, usually paired with T5336 chip and many external passives. Circuit and datasheet widely available. appears to be the 1st generation product before a 2nd generation of XKT-5xx chips.
 * [XKT-510](http://www.xktbdt.com/page6?product_id=249) - appears to be a very similar, perhaps immediate precursor. Requires more external components and has a very different pinout than the XKT-511.
 * [XKT-515](http://www.xktbdt.com/page6?product_id=259) - allegedly similar to the XKT-511, but I haven't seen the datasheet.
+* [T3168 / XKT-3168](http://www.xktbdt.com/page6?product_id=250) is a general-purpose receiving integrated circuit for wireless charging. It could be used on the receiving end of the XKT-511 transmitter.
+* [XKT-R2](http://www.xktbdt.com/page6?product_id=193) - appears to be the big broether of the XKT-511. DEsigned for high-voltage/high-current charging.
 
 ## Construction
 
