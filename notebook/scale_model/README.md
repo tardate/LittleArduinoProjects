@@ -84,9 +84,10 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Belgium          | [PJ Production](https://www.pj-production.be/en/)                        | resin scale models and accessories |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
 | China            | [dspiae](https://www.dspiae.com/)                                        | tools |
-| China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | |
+| China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | Detail and upgrade sets |
 | China            | [HobbyBoss](http://www.hobbyboss.com/index.php?l=en)                     | |
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
+| China            | [shipyardworks](http://www.shipyardworks.com/?l=en)]                     | Detail and upgrade sets for ships, afv |
 | China            | [小号手 TRUMPETER](http://www.trumpeter-china.com/index.php?l=en)         | awesome range of kits |
 | China            | [首页-Bronco Mould & Plastic Co.,Ltd.](http://www.cn-bronco.com/en/)      | |
 | Czech            | [Airone Hobby](https://www.aironehobby.com/)                             | aftermarket items in 1/72 and 1/48 scale |
@@ -126,6 +127,9 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Rokuhan](https://www.rokuhan.com/)                                      | Manufacturing and sales of model railroad items in Z scale |
 | Japan            | [Tamiya](https://www.tamiya.com/english/e-home.htm)                      |  |
 | Latvia & Ukraine | [North Star Models](https://northstarmodels.com/)                        | |
+| New Zealand      | [Kotare Models](https://www.kotare-models.com/)                          | From the ashes of Wingnut Wings, expecting K32001 Kotare 1/32 Spitfire Mk.Ia (Mid) |
+| New Zealand      | [Micro Master](https://micromaster.co.nz/)                               | 3D printed hobby parts |
+| New Zealand      | [Wingnut Wings](http://www.wingnutwings.com/ww/)                         | Defunct, mainly WWI planes in extreme detail |
 | Poland           | [Arma Hobby](https://www.armahobby.com/)                                 | |
 | Poland           | [IBG](http://www.ibgmodels.com/)                                         | [webstore](http://en.ibg.com.pl/) also carries other manufacturers |
 | Poland           | [ION Model](http://ionmodel.com/)                                        | resin figures |
@@ -158,32 +162,33 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
-| UK               | Frog                                                                     | 1955-1976|
-| UK               | Matchbox                                                                 | bankrupt, moulds bought by Revell and others |
+| UK               | [Frog](https://en.wikipedia.org/wiki/Frog_(models))                      | 1955-1976, |
+| UK               | [Matchbox](https://en.wikipedia.org/wiki/Matchbox_(brand))               | bankrupt, moulds bought by Revell and others |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dora Wings](https://dorawings.com/)                                     | |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
 | Ukraine          | [MasterBox](http://www.mbltd.info/)                                      | figures, vehicles |
 | Ukraine          | [MiniArt Models](https://miniart-models.com/)                            | |
 | Ukraine          | [Roden](http://www.roden.eu/)                                            | |
-| USA              | [[Diemension Games](https://www.facebook.com/diemensiongames/)           | kickstarter games with miniatures |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [Diemension Games](https://www.facebook.com/diemensiongames/)            | kickstarter games with miniatures |
 | USA              | [Flying Leathernecks Decals](https://www.flyingleathernecksdecals.com/)  | Decals and aftermarket kits - US Marine aviation |
 | USA              | [Imperial Hobby Productions](https://ihphobby.tripod.com/)               | 1/700 scale ships, HO scale commuter and transit vehicles |
+| USA              | [Lindberg](https://www.round2corp.com/brand/lindberg/) | Defunct, brand now owned by Round 2 - [wikipedia](https://en.wikipedia.org/wiki/Round_2_(company)#Lindberg) |
 | USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
 | USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
 | USA              | [Model Monkey](https://www.model-monkey.com/)                            | 3D printed after-market accessories |
+| USA              | [Model Products Corporation MPC](https://www.round2corp.com/brand/mpc/)  | Defunct, brand now owned by Round 2 - [wikipedia](https://en.wikipedia.org/wiki/Model_Products_Corporation) |
 | USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | Company defunct |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
 | USA              | [Pegasus Hobbies](https://pegasushobbies.net)                            | miniatures |
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
+| USA              | [Round 2](https://www.round2corp.com/)                                   | scale models including die-cast, plastic, slot cars, and other hobby products |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
-| USA              | Lindberg                                                                 | Defunct |
-| USA              | Model Products Corporation MPC                                           | Defunct |
 
 ## Retailers
 
