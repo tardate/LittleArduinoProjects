@@ -170,6 +170,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Ukraine          | [MasterBox](http://www.mbltd.info/)                                      | figures, vehicles |
 | Ukraine          | [MiniArt Models](https://miniart-models.com/)                            | |
 | Ukraine          | [Roden](http://www.roden.eu/)                                            | |
+| Ukraine          | [The Red Box](https://theredbox.com.ua/)                                 | historical miniatures |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |

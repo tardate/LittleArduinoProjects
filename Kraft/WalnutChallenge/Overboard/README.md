@@ -84,6 +84,7 @@ With some 1:700 white rigging to replace the cotton. A much more believable rope
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=125020)
+* [Walnut GB Album](https://www.facebook.com/media/set/?set=oa.3155269641407893&type=3)
 * [Mitsubishi F1M](https://en.wikipedia.org/wiki/Mitsubishi_F1M)
 * [North Star Models 1/700 IJN navy Pilots WW2 3D Figures](https://northstarmodels.com/product/1700-ijn-navy-pilots-ww2-3d-figures/)
 * [North Star Models 1/700 IJN navy Pilots WW2 3D Figures](https://www.scalemates.com/kits/north-star-models-nsa700516-ijn-navy-pilots-ww2-3d-figures--1194651) - scalemates

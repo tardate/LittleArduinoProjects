@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-07-12T16:13:11Z</updated>
+  <updated>2022-07-17T10:37:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/</id>
+    <link href="https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/"/>
+    <updated>2022-07-17T10:32:25Z</updated>
+    <title>#644 Ukrainian Cossack</title>
+    <summary>An heroic pose in a walnut with a figure from the Orion Ukrainian Mounted Cossacks set. No, this is not  meant to be political - but if you come and try to steal my nuts, expect to fight this guy! (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/assets/Cossack_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/WirelessLedModule/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/WirelessLedModule/"/>

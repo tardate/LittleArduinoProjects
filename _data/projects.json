@@ -1,4 +1,13 @@
 {
+    "/Kraft/WalnutChallenge/Cossack/": {
+        "id": 644,
+        "title": "Ukrainian Cossack",
+        "summary": "An heroic pose in a walnut with a figure from the Orion Ukrainian Mounted Cossacks set. No, this is not  meant to be political - but if you come and try to steal my nuts, expect to fight this guy! (no electronics in this one)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/Power/WirelessLedModule/": {
         "id": 643,
         "title": "XKT-511 Wireless LED Module",
