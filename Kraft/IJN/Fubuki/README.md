@@ -26,7 +26,13 @@ Those were the basics used, plus some oils for weathering.
 
 ## Build Log
 
-The kit has beautifully detailed plastic. Dry fit and thinking about how this build will go..
+The kit has beautifully detailed plastic.
+
+![kit_box](./assets/kit_box.jpg?raw=true)
+
+![kit_parts](./assets/kit_parts.jpg?raw=true)
+
+Dry fit and thinking about how this build will go..
 
 ![build01a](./assets/build01a.jpg?raw=true)
 
