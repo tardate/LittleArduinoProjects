@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-07-17T10:37:44Z</updated>
+  <updated>2022-07-18T15:05:35Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/Ki55/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/Ki55/"/>
+    <updated>2022-07-18T14:54:28Z</updated>
+    <title>#645 Tachikawa Ki-55</title>
+    <summary>Building a $5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/Ki55/assets/Ki55_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/</id>
     <link href="https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/"/>
