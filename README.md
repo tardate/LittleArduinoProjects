@@ -1,4 +1,4 @@
-# 645 Little Electronic Art Projects
+# 646 Little Electronic Art Projects
 
 > Latest addition:sparkles: [XKT-511 Wireless LED Module](./Electronics101/Power/WirelessLedModule) - Investigating a wireless LED power module based on the XKT-511 chip.
 

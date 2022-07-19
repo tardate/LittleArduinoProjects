@@ -1,4 +1,13 @@
 {
+    "/Kraft/Fairey/Gannet/": {
+        "id": 646,
+        "title": "Fairey Gannet",
+        "summary": "Building the ost beautifully ugly Fairey Gannet from the Trumpeter 1:72 kit (no electronics in this one)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/IJN/Ki55/": {
         "id": 645,
         "title": "Tachikawa Ki-55",
