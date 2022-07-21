@@ -1,6 +1,6 @@
-# 646 Little Electronic Art Projects
+# 647 Little Electronic Art Projects
 
-> Latest addition:sparkles: [XKT-511 Wireless LED Module](./Electronics101/Power/WirelessLedModule) - Investigating a wireless LED power module based on the XKT-511 chip.
+> Latest addition:sparkles: [USB Humidifier Module](./Equipment/HumidifierModule) - Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
@@ -57,8 +57,8 @@ or you can just install them separately as you would any other library.
 
 If you clone this repo, also update the submodules to have them available for compilation:
 
-    $ git submodule update --init
+    git submodule update --init
 
 To pull submodule updates later on:
 
-    $ git submodule foreach git pull
+    git submodule foreach git pull

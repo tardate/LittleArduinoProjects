@@ -1,5 +1,12 @@
 [
     {
+        "id": "#647",
+        "name": "USB Humidifier Module",
+        "description": "Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist",
+        "categories": "USB, environmental",
+        "relative_path": "Equipment/HumidifierModule"
+    },
+    {
         "id": "#646",
         "name": "Fairey Gannet",
         "description": "Building the ost beautifully ugly Fairey Gannet from the Trumpeter 1:72 kit (no electronics in this one)",

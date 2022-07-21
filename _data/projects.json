@@ -1,4 +1,13 @@
 {
+    "/Equipment/HumidifierModule/": {
+        "id": 647,
+        "title": "USB Humidifier Module",
+        "summary": "Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist",
+        "tags": [
+            "USB",
+            "environmental"
+        ]
+    },
     "/Kraft/Fairey/Gannet/": {
         "id": 646,
         "title": "Fairey Gannet",
