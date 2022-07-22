@@ -93,6 +93,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czech            | [Airone Hobby](https://www.aironehobby.com/)                             | aftermarket items in 1/72 and 1/48 scale |
 | Czech            | [AVI Models](https://avimodels.com/)                                     | |
 | Czech            | [AZ model](https://www.azmodel.cz/)                                      | |
+| Czech            | [Black Dog](https://blackdog.cz/)                                        | resin kits, figures|
 | Czech            | [Brengun](http://www.brengun.cz/)                                        | photoetch and resin parts and kits |
 | Czech            | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focis on rasin kits and accessories |
 | Czech            | [Eduard](https://www.eduard.com/)                                        | plastic kitsm resin, photoetch, 3D |
@@ -131,6 +132,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | New Zealand      | [Micro Master](https://micromaster.co.nz/)                               | 3D printed hobby parts |
 | New Zealand      | [Wingnut Wings](http://www.wingnutwings.com/ww/)                         | Defunct, mainly WWI planes in extreme detail |
 | Poland           | [Arma Hobby](https://www.armahobby.com/)                                 | |
+| Poland           | [Hataka Hobby](https://www.hataka-hobby.com/)                            | paint |
 | Poland           | [IBG](http://www.ibgmodels.com/)                                         | [webstore](http://en.ibg.com.pl/) also carries other manufacturers |
 | Poland           | [ION Model](http://ionmodel.com/)                                        | resin figures |
 | Poland           | [Mirage](http://www.mirage-hobby.com.pl/)                                | |
@@ -155,15 +157,15 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
 | UK               | [DELUXE Materials](https://deluxematerials.co.uk/)                       | Glues, foams and other construction accessories  |
 | UK               | [Everbuild](https://www.everbuild.co.uk/)                                | industrial CA and other building supplies |
+| UK               | [Frog](https://en.wikipedia.org/wiki/Frog_(models))                      | 1955-1976, |
 | UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
 | UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
 | UK               | [Hornby](https://uk.hornby.com/)                                         | |
 | UK               | [Humbrol](https://uk.humbrol.com/)                                       | paint |
+| UK               | [Matchbox](https://en.wikipedia.org/wiki/Matchbox_(brand))               | bankrupt, moulds bought by Revell and others |
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
-| UK               | [Frog](https://en.wikipedia.org/wiki/Frog_(models))                      | 1955-1976, |
-| UK               | [Matchbox](https://en.wikipedia.org/wiki/Matchbox_(brand))               | bankrupt, moulds bought by Revell and others |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dora Wings](https://dorawings.com/)                                     | |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
