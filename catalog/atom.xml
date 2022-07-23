@@ -5,16 +5,36 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-07-21T14:36:26Z</updated>
+  <updated>2022-07-23T04:31:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/P40/AFVClub68/</id>
+    <link href="https://leap.tardate.com/Kraft/P40/AFVClub68/"/>
+    <updated>2022-07-23T04:31:41Z</updated>
+    <title>#649 P-40B Flying Tiger in 1:144</title>
+    <summary>Improving the already well-detailed 1:144 AFV Club Flying Tigers P-40B with a scratch built cockpit (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/P40/AFVClub68/assets/AFVClub68_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/P40/FlyingTigers/</id>
+    <link href="https://leap.tardate.com/Kraft/P40/FlyingTigers/"/>
+    <updated>2022-07-23T03:52:12Z</updated>
+    <title>#648 P-40B Flying Tiger in 1:72</title>
+    <summary>Building the most excellent Airfix P-40B H81-A2 1:72 in Flying Tigers livery (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/P40/FlyingTigers/assets/FlyingTigers_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/HumidifierModule/</id>
     <link href="https://leap.tardate.com/Equipment/HumidifierModule/"/>
-    <updated>2022-07-21T14:21:20Z</updated>
+    <updated>2022-07-21T14:36:49Z</updated>
     <title>#647 USB Humidifier Module</title>
     <summary>Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist</summary>
     <g:image_link>https://leap.tardate.com/Equipment/HumidifierModule/assets/HumidifierModule_build.jpg</g:image_link>

@@ -1,5 +1,19 @@
 [
     {
+        "id": "#649",
+        "name": "P-40B Flying Tiger in 1:144",
+        "description": "Improving the already well-detailed 1:144 AFV Club Flying Tigers P-40B with a scratch built cockpit (no electronics in this one)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/P40/AFVClub68"
+    },
+    {
+        "id": "#648",
+        "name": "P-40B Flying Tiger in 1:72",
+        "description": "Building the most excellent Airfix P-40B H81-A2 1:72 in Flying Tigers livery (no electronics in this one)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/P40/FlyingTigers"
+    },
+    {
         "id": "#647",
         "name": "USB Humidifier Module",
         "description": "Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist",

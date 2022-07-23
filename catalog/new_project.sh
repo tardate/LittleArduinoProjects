@@ -49,7 +49,7 @@ function make_project() {
   local readme_file="${full_path}/README.md"
   echo "making ${readme_file}"
   cat > "${readme_file}" <<EOS
-# ${full_project_name}
+# #xxx ${full_project_name}
 
 __subtitle__
 
@@ -63,7 +63,13 @@ Here's a quick demo..
 
 __notes__
 
-## Construction
+### Paint Scheme
+
+| Feature               | Color                | Recommended | Paint Used |
+|-----------------------|----------------------|-------------|------------|
+|                       |                      |             |            |
+
+### Circuit Design
 
 ![bb](./assets/${project_name}_bb.jpg?raw=true)
 
@@ -71,8 +77,13 @@ __notes__
 
 ![bb_build](./assets/${project_name}_bb_build.jpg?raw=true)
 
+### Build Log
+
+![build01a](./assets/build01a.jpg?raw=true)
+
 ## Credits and References
 
+* [this project on scalemates](xxx)
 * [name](url)
 EOS
 
