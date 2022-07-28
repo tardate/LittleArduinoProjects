@@ -179,6 +179,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
 | USA              | [Diemension Games](https://www.facebook.com/diemensiongames/)            | kickstarter games with miniatures |
 | USA              | [Flying Leathernecks Decals](https://www.flyingleathernecksdecals.com/)  | Decals and aftermarket kits - US Marine aviation |
+| USA              | [HäT (Hat Toy Soldiers)](http://www.hat.com/)                            | miniatures |
 | USA              | [Imperial Hobby Productions](https://ihphobby.tripod.com/)               | 1/700 scale ships, HO scale commuter and transit vehicles |
 | USA              | [Lindberg](https://www.round2corp.com/brand/lindberg/) | Defunct, brand now owned by Round 2 - [wikipedia](https://en.wikipedia.org/wiki/Round_2_(company)#Lindberg) |
 | USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
