@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-10-04T13:15:44Z</updated>
+  <updated>2022-10-09T02:41:13Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/P40/WarHawk40K/</id>
+    <link href="https://leap.tardate.com/Kraft/P40/WarHawk40K/"/>
+    <updated>2022-10-09T02:07:27Z</updated>
+    <title>#660 WarHawk 40K</title>
+    <summary>Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/P40/WarHawk40K/assets/WarHawk40K_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="scale models"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Strv103/</id>
     <link href="https://leap.tardate.com/Kraft/Strv103/"/>
-    <updated>2022-10-04T12:55:30Z</updated>
+    <updated>2022-10-05T00:33:26Z</updated>
     <title>#659 Stridsvagn 103</title>
     <summary>Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Strv103/assets/Strv103_build.jpg</g:image_link>

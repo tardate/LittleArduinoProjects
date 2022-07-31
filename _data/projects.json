@@ -1,4 +1,13 @@
 {
+    "/Kraft/P40/WarHawk40K/": {
+        "id": 660,
+        "title": "WarHawk 40K",
+        "summary": "Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects",
+        "tags": [
+            "LED",
+            "scale models"
+        ]
+    },
     "/Kraft/Strv103/": {
         "id": 659,
         "title": "Stridsvagn 103",

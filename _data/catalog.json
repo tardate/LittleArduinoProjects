@@ -1,5 +1,12 @@
 [
     {
+        "id": "#660",
+        "name": "WarHawk 40K",
+        "description": "Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects",
+        "categories": "LED, scale models",
+        "relative_path": "Kraft/P40/WarHawk40K"
+    },
+    {
         "id": "#659",
         "name": "Stridsvagn 103",
         "description": "Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)",
