@@ -14,7 +14,7 @@ This circuit is another implementation of a Set-Reset flip-flop, this time using
 Sometimes this is referred to as a "NOR Latch".
 A CD4001 is used to provide the two NOR gates required.
 
-See the [LEAP#061 SRLatch](../DigitalLogic/SRLatch) circuit for an implementation using BJTs.
+See the [LEAP#061 SRLatch](../../DigitalLogic/SRLatch) circuit for an implementation using BJTs.
 
 Ben Eater has a great video explaining SR latch behaviour:
 
