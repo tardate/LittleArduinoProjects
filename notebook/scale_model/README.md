@@ -74,13 +74,14 @@ See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 
 ## Manufacturers
 
-Including Tool & Accessory Suppliers.
+Including Publications, Tool & Accessory makers.
 See also [List of scale model kit manufacturers (wikipedia)](https://en.wikipedia.org/wiki/List_of_scale_model_kit_manufacturers).
 
 This is not an exhaustive list - mainly just companies with products that have caught my eye for one reason or another.
 
 | Country          | Name                                                                     | Notes |
 |------------------|--------------------------------------------------------------------------|-------|
+| Australia        | [KLP](https://www.klp.com.au/)                                           | publisher of scale modelling guide books |
 | Belgium          | [PJ Production](https://www.pj-production.be/en/)                        | resin scale models and accessories |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
 | China            | [dspiae](https://www.dspiae.com/)                                        | tools |
@@ -118,6 +119,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
 | Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)            |  |
 | Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 | now part of Microace |
+| Japan            | [Aurora Model](https://aurora-model.jp/)                                 | miniatures, figures |
 | Japan            | [Bandai](https://p-bandai.com/)                                          |  |
 | Japan            | [Fine molds](https://www.finemolds.co.jp/)                               |  |
 | Japan            | [Fujimi](https://www.fujimimokei.com/)                                   |  |
@@ -127,6 +129,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Pit-road](https://pit-road.jp/)                                         | |
 | Japan            | [Rokuhan](https://www.rokuhan.com/)                                      | Manufacturing and sales of model railroad items in Z scale |
 | Japan            | [Tamiya](https://www.tamiya.com/english/e-home.htm)                      |  |
+| Japan            | [ZOUKEI-MURA](https://www.zoukeimura.co.jp/en/)                          | |
 | Latvia & Ukraine | [North Star Models](https://northstarmodels.com/)                        | |
 | New Zealand      | [Kotare Models](https://www.kotare-models.com/)                          | From the ashes of Wingnut Wings, expecting K32001 Kotare 1/32 Spitfire Mk.Ia (Mid) |
 | New Zealand      | [Micro Master](https://micromaster.co.nz/)                               | 3D printed hobby parts |
@@ -209,6 +212,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | EU               | [Super-Hobby](https://www.super-hobby.com/)                           | |
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
 | Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | great source at good prices for all the main Japanese brands - incl Aoshima, Fine Molds, Fujimi, Hasegawa, Tamiya  |
+| Japan            | [VOLKS Hobby Paradise Online Store](https://hobby.ec.volks.co.jp/)    | ZOUKEI-MURA |
 | Singapore        | [Battle Quarters Singapore](https://battlequarters.com/)              | board games, war games and good source of paints and supplies inc Vallejo, Humbrol, AMMO BY MIG |
 | Singapore        | [HammerHouse](https://hammerhouse.com.sg/)                            | miniatures, games, paints (Citadel, Mr Hobby) and accessories |
 | Singapore        | [Hobby Art](https://www.hobbyartwebshop.com/)                         | mainly gundam |
