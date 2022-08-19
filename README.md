@@ -1,4 +1,4 @@
-# 650 Little Electronic Art Projects
+# 651 Little Electronic Art Projects
 
 > Latest addition:sparkles: [USB Humidifier Module](./Equipment/HumidifierModule) - Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist.
 
