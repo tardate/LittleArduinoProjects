@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-08-19T14:45:22Z</updated>
+  <updated>2022-08-20T02:13:14Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/DaihatsuMidget/</id>
+    <link href="https://leap.tardate.com/Kraft/DaihatsuMidget/"/>
+    <updated>2022-08-20T01:52:10Z</updated>
+    <title>#652 Daihatsu Midget</title>
+    <summary>Building the iconic 1957 Daihatsu Midget DMK from a Micro Ace/Arii kit with some scratch modifications. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/DaihatsuMidget/assets/DaihatsuMidget_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/PZL/TS-11/</id>
     <link href="https://leap.tardate.com/Kraft/PZL/TS-11/"/>
-    <updated>2022-08-19T14:44:27Z</updated>
+    <updated>2022-08-19T14:46:09Z</updated>
     <title>#651 TS-11 Iskra</title>
     <summary>Building the beautiful Arma Hobby 1:72 PZL TS-11 Iskra. No electronics in this one, just enjoying the build.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PZL/TS-11/assets/TS-11_build.jpg</g:image_link>

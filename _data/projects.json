@@ -1,4 +1,13 @@
 {
+    "/Kraft/DaihatsuMidget/": {
+        "id": 652,
+        "title": "Daihatsu Midget",
+        "summary": "Building the iconic 1957 Daihatsu Midget DMK from a Micro Ace/Arii kit with some scratch modifications. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/PZL/TS-11/": {
         "id": 651,
         "title": "TS-11 Iskra",
