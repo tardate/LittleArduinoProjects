@@ -102,6 +102,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czech            | [Hauler](http://www.hauler.cz/)                                          | photoetch and resin parts and kits |
 | Czech            | [HPH Models](http://www.hphmodels.cz/)                                   | limited edition vacuum kits, mainly civil aircraft |
 | Czech            | [Kovozávody Prostějov](https://www.kovozavody.cz/)                       | aircraft plastic kits |
+| Czech            | [Offset Scale Models](https://www.facebook.com/Offsetmodels/)            | miniatures |
 | Czech            | [R & P Models](https://randpmodels.jex.cz/)                              | paper kits |
 | Czech            | [Special Hobby](https://www.specialhobby.eu/)                            | |
 | France           | [Heller](https://www.heller.fr/)                                         | |
@@ -140,6 +141,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Poland           | [ION Model](http://ionmodel.com/)                                        | resin figures |
 | Poland           | [Mirage](http://www.mirage-hobby.com.pl/)                                | |
 | Poland           | [RPM](https://www.jadarhobby.pl/rpm-poland-m-62.html?language=en&str=30) | |
+| Poland           | [White Stork Miniatures](https://whitestorkminiatures.com/)              | miniatures |
 | Poland           | [Yahu](http://www.yahumodels.com/)                                       | |
 | Russia           | [Brother Vinni's](http://www.brother-vinni.com/index_eng.htm)            | miniatures |
 | Russia           | [Combrig Models](http://combrig-models.com/)                             | |
@@ -169,13 +171,23 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
+| Ukraine          | [AMG Arsenal Model Group](https://amg-models.net/)                       | aircraft, 1:72 |
+| Ukraine          | [Armory Models](https://armorymodels.com/)                               | aircraft,resin |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dora Wings](https://dorawings.com/)                                     | |
+| Ukraine          | [FOXBOT](http://foxbot.com.ua)                                           | decals |
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
 | Ukraine          | [MasterBox](http://www.mbltd.info/)                                      | figures, vehicles |
+| Ukraine          | [Metallic Details](http://metdetails.com/)                               | PE, resin |
+| Ukraine          | [Mikro Mir](http://mikro-mir.com)                                        | rare custom-made military equipment |
 | Ukraine          | [MiniArt Models](https://miniart-models.com/)                            | |
+| Ukraine          | [Print Scale](https://printscale.org/)                                   | decals |
+| Ukraine          | [Proper Plane](https://properplane.com/)                                 | Wooden propellers |
+| Ukraine          | [Reskit Models](https://reskit-models.com/)                              | kits, accessories and parts |
 | Ukraine          | [Roden](http://www.roden.eu/)                                            | |
+| Ukraine          | [SP Designs](https://afv1-35.wixsite.com/spdesigns)                      | resin accessories |
 | Ukraine          | [The Red Box](https://theredbox.com.ua/)                                 | historical miniatures |
+| Ukraine          | [Wingsy Kits](https://www.wingsykits.com/)                               | kits |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
