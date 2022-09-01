@@ -1,6 +1,6 @@
 # #646 Fairey Gannet
 
-Building the ost beautifully ugly Fairey Gannet from the Trumpeter 1:72 kit.
+Building the most beautifully ugly Fairey Gannet from the Trumpeter 1:72 kit.
 
 No electronics in this one.
 
