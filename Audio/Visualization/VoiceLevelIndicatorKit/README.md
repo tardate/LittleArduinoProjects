@@ -24,19 +24,21 @@ However there seem to be a couple of issues that could be improved:
 As in: trimming the pots for master control and band control will affect the whole balance of the circuit.
 Perhaps isolating the 3 filter circuits with say a unity gain OpAmp would help.
 
-2. The 3 filter bands seem pretty poorly selected/tuned for a nice balanced display. Generally the low and mid range bands should be moved up a bit, and the ampliciation of the high band brought in line with the others.
+2. The 3 filter bands seem pretty poorly selected/tuned for a nice balanced display. Generally the low and mid range bands should be moved up a bit, and the amplification of the high band brought in line with the others.
 
 Should I try an improved circuit? Perhaps .. a project to save for another rainy day.
 
 ### Circuit Analysis
 
 The circuit breaks down into 4 basic modules:
+
 * power supply
 * mic input and audio amp
 * filter (x3)
 * LED driver (x3)
 
 #### Power Circuit
+
 The input voltage of 8.5-15V is regulated down to a stable 6V by an L7806CV regulator.
 A 1n4007 diode provides reverse voltage protection, and chunky 220µF caps provide smoothing before and after the regulator.
 
@@ -45,20 +47,23 @@ Rather than use the JST connectors provided, I replaced the power connector with
 Since this makes reverse polarity connection extremely unlikely, I probably could have just skipped the 1n4007 and shorted the connection instead.
 
 #### Audio Amplifier
+
 Audio input is captured with an electret microphone and amplified in two stages with S9013 PNP transistors.
 A 50kΩ pot provides master gain control for the second stage
 
 #### Filters
+
 The amplified audio is presented to 3 filter/LED driver chains.
 Each filter is tuned for a specific pass-band, and has a 50kΩ pot for individual level control.
 
-The fiters seemed a bit unbalanced and it's a little touchy to trim the individual pots for a given input level.
+The filters seemed a bit unbalanced and it's a little touchy to trim the individual pots for a given input level.
 
 Taking a closer look at the filter circuits, each is a combination of two RC filters and NPN transistor
 to bother selectively pass frequencies and also amplify the signal. That's a bit too complex
 for my entry level RC filter analysis skills, so I modeled the filters in [this CircuitLab project](https://www.circuitlab.com/circuit/m5cfrs/voicelevelindicatorkit-filters/).
 
 If I can trust the CircuitLab frequency analysis, things do look a bit out of whack and this matches observations of the circuit:
+
 * low-frequency bandpass is tuned too low, peaking around 10Hz!? This might explain why it seems prone to oscillate when idle
 * mid-range doesn't get much boost compared to the other bands, and again it is probably tuned too low; I think ideally it would be peaking around 1-5kHz
 * high-frequency dominates, getting maximum amplification. This is what happens in practice too.
@@ -84,7 +89,7 @@ On spec, it seems there would be no way to drive all 10 LEDs, since the forward 
 However, the circuit seems to be getting a bit tricky here, as the diodes are actually driven way down the IV curve
 where in practice the peak forward voltage measures in the region of 0.38V.
 That's off the graph in most data sheets, and one would expect this makes the circuit quite susceptible to individual variations in the diodes.
-But obvioulsy works .. at least to a degree - I've never seen the 10th LED light up so far.
+But obviously works .. at least to a degree - I've never seen the 10th LED light up so far.
 
 ## Construction
 
@@ -122,7 +127,7 @@ But obvioulsy works .. at least to a degree - I've never seen the 10th LED light
 | XH2.54-2P Cable Terminal         | √ but I replaced with a 2.1mm barrel jack |
 | XH2.54-2P Power wire             | √ but I replaced with a 2.1mm barrel jack |
 | Electret microphone              | √ |
-| PCB board                        | √ no notes, but a great silkcreen|
+| PCB board                        | √ no notes, but a great silkscreen|
 
 ## Credits and References
 

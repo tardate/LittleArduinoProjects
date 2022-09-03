@@ -1,6 +1,6 @@
 # 653 Little Electronic Art Projects
 
-> Latest addition:sparkles: [USB Humidifier Module](./Equipment/HumidifierModule) - Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist.
+> Latest addition:sparkles: [USB Audio Level Indicator Kit](./Audio/Visualization/UsbLedVolumeIndicatorKit) - An electret-input audio level kit based on cascading LM358 stages with LED indicators
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

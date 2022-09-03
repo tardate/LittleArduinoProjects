@@ -23,11 +23,11 @@ but it does vary from the reference circuit in a couple of ways.
 
 The upper reference voltage on the LM3915 is set with pin 6 REF HI.
 
-In this circuit, it is set independantly of REF OUT/REF ADJ with a simple R6/R9 voltage divider:
+In this circuit, it is set independently of REF OUT/REF ADJ with a simple R6/R9 voltage divider:
 
 * REF HI = [245mV](https://www.wolframalpha.com/input/?i=560%CE%A9%2F%2820k%CE%A9+%2B+560%CE%A9%29+*+9V) for 9V supply
 
-This is below even −10 dBV, so the input signal requires futher attenuation before it can drive the LM3915 effectively
+This is below even −10 dBV, so the input signal requires further attenuation before it can drive the LM3915 effectively
 
 ### Input Signal Processing
 
@@ -61,7 +61,7 @@ and therefore the power it needs to dissipate.
 
 ### Mode Select
 
-Jumper pin terminals are provided to seect either the dot or bar display mode:
+Jumper pin terminals are provided to select either the dot or bar display mode:
 
 * open: "dot" mode is where a single element lights to display the peak value
 * closed: "bar" mode is where all elements light up in bar-graph fashion

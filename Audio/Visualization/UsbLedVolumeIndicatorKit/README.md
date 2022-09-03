@@ -60,11 +60,11 @@ Board size: 160mm x 18.5mm
 Here's my redrawing of the circuit using Fritzing, so any errors are mine.
 Layed out this way, the circuit behaviour is easily apparent. A quick summary:
 
-* the eltret mic is based with a conventional input circuit wit the AC signal offset and fed to LM358 (U1a) OpAmp, configured as a non-inverting amplifier with the amplification (sensitivity) set with RP1
+* the electret mic is based with a conventional input circuit wit the AC signal offset and fed to LM358 (U1a) op-amp, configured as a non-inverting amplifier with the amplification (sensitivity) set with RP1
 * LM358 (U1b) buffers the signal and outputs the "audio reference signal"
-* the audio reference signal is fed to 10 opamp units used as comparators against 10 discrete voltage levels
-  * the 10 discrete voltage levels are set with a multi-stage voltage divider
-  * each opamp output drives two LEDs (left and right)
+* the audio reference signal is fed to 10 op-amp units used as comparators against 10 discrete voltage levels
+    * the 10 discrete voltage levels are set with a multi-stage voltage divider
+    * each op-amp output drives two LEDs (left and right)
 
 ![schematic](./assets/UsbLedVolumeIndicatorKit_schematic.jpg?raw=true)
 
@@ -74,7 +74,7 @@ Construction complete:
 
 ## Next Step
 
-The unit works very weel, even on 4.5V (3xAA).
+The unit works very well, even on 4.5V (3xAA).
 I'm thinking of making a case for it next with option of battery or USB power.
 
 ## Credits and References
