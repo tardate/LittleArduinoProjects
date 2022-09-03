@@ -1,9 +1,8 @@
-# #202 AudioLevelIndicatorKit
+# #202 Audio Level Indicator Kit
 
-test an audio level indicator kit based on the LM3915
+Test an audio level indicator kit based on the LM3915
 
 ![The Build](./assets/AudioLevelIndicatorKit_build.jpg?raw=true)
-
 
 ## Notes
 

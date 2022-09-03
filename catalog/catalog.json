@@ -1,5 +1,12 @@
 [
     {
+        "id": "#653",
+        "name": "USB Audio Level Indicator Kit",
+        "description": "An electret-input audio level kit based on cascading LM358 stages with LED indicators",
+        "categories": "LM358, Audio, LED",
+        "relative_path": "Audio/Visualization/UsbLedVolumeIndicatorKit"
+    },
+    {
         "id": "#652",
         "name": "Daihatsu Midget",
         "description": "Building the iconic 1957 Daihatsu Midget DMK from a Micro Ace/Arii kit with some scratch modifications. No electronics in this one.",
@@ -3158,10 +3165,10 @@
     },
     {
         "id": "#202",
-        "name": "AudioLevelIndicatorKit",
+        "name": "Audio Level Indicator Kit",
         "description": "an audio level indicator kit based on the LM3915",
-        "categories": "LM3915, Audio",
-        "relative_path": "Electronics101/AudioLevelIndicatorKit"
+        "categories": "LM3915, Audio, LED",
+        "relative_path": "Audio/Visualization/AudioLevelIndicatorKit"
     },
     {
         "id": "#201",
@@ -3699,8 +3706,8 @@
         "id": "#125",
         "name": "Voice Level Indicator Kit",
         "description": "build and investigate a commercially available \"3-band voice level indicator\" kit",
-        "categories": "LED, Kit",
-        "relative_path": "Electronics101/VoiceLevelIndicatorKit"
+        "categories": "LED, Audio",
+        "relative_path": "Audio/Visualization/VoiceLevelIndicatorKit"
     },
     {
         "id": "#124",

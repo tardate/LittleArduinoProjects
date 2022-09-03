@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-01T10:53:00Z</updated>
+  <updated>2022-09-03T13:33:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/</id>
+    <link href="https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/"/>
+    <updated>2022-09-03T13:32:50Z</updated>
+    <title>#653 USB Audio Level Indicator Kit</title>
+    <summary>An electret-input audio level kit based on cascading LM358 stages with LED indicators</summary>
+    <g:image_link>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/assets/UsbLedVolumeIndicatorKit_build.jpg</g:image_link>
+    <category term="LM358"/>
+    <category term="Audio"/>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/DaihatsuMidget/</id>
     <link href="https://leap.tardate.com/Kraft/DaihatsuMidget/"/>
@@ -4714,14 +4725,15 @@
     <category term="Kinetics"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/AudioLevelIndicatorKit/</id>
-    <link href="https://leap.tardate.com/Electronics101/AudioLevelIndicatorKit/"/>
-    <updated>2016-04-10T04:29:26Z</updated>
-    <title>#202 AudioLevelIndicatorKit</title>
+    <id>https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/</id>
+    <link href="https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/"/>
+    <updated>2022-09-03T13:32:50Z</updated>
+    <title>#202 Audio Level Indicator Kit</title>
     <summary>an audio level indicator kit based on the LM3915</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/AudioLevelIndicatorKit/assets/AudioLevelIndicatorKit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/assets/AudioLevelIndicatorKit_build.jpg</g:image_link>
     <category term="LM3915"/>
     <category term="Audio"/>
+    <category term="LED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/DoorbellKit/</id>
@@ -5485,14 +5497,14 @@
     <category term="AVR"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/VoiceLevelIndicatorKit/</id>
-    <link href="https://leap.tardate.com/Electronics101/VoiceLevelIndicatorKit/"/>
-    <updated>2020-03-14T16:56:38Z</updated>
+    <id>https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/</id>
+    <link href="https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/"/>
+    <updated>2022-09-03T13:32:50Z</updated>
     <title>#125 Voice Level Indicator Kit</title>
     <summary>build and investigate a commercially available &quot;3-band voice level indicator&quot; kit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/VoiceLevelIndicatorKit/assets/VoiceLevelIndicatorKit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/assets/VoiceLevelIndicatorKit_build.jpg</g:image_link>
     <category term="LED"/>
-    <category term="Kit"/>
+    <category term="Audio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/EMRDetection/RFDetectorProbe/</id>

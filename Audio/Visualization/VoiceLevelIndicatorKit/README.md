@@ -2,6 +2,8 @@
 
 Build and investigate a commercially available "3-band voice level indicator" kit.
 
+![The Build](./assets/VoiceLevelIndicatorKit_build.jpg?raw=true)
+
 Here's a quick video of the circuit in action:
 
 [![VoiceLevelIndicatorKit](https://img.youtube.com/vi/6o-kOXPPcac/0.jpg)](https://www.youtube.com/watch?v=6o-kOXPPcac)

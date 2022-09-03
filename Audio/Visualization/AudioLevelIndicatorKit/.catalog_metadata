@@ -1,0 +1,7 @@
+{
+    "id": "#202",
+    "name": "Audio Level Indicator Kit",
+    "description": "an audio level indicator kit based on the LM3915",
+    "categories": "LM3915, Audio, LED",
+    "relative_path": "Audio/Visualization/AudioLevelIndicatorKit"
+}

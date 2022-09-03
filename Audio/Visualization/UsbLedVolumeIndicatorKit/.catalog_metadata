@@ -1,0 +1,7 @@
+{
+    "id": "#653",
+    "name": "USB Audio Level Indicator Kit",
+    "description": "An electret-input audio level kit based on cascading LM358 stages with LED indicators",
+    "categories": "LM358, Audio, LED",
+    "relative_path": "Audio/Visualization/UsbLedVolumeIndicatorKit"
+}

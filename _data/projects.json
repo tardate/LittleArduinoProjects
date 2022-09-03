@@ -1,4 +1,14 @@
 {
+    "/Audio/Visualization/UsbLedVolumeIndicatorKit/": {
+        "id": 653,
+        "title": "USB Audio Level Indicator Kit",
+        "summary": "An electret-input audio level kit based on cascading LM358 stages with LED indicators",
+        "tags": [
+            "LM358",
+            "Audio",
+            "LED"
+        ]
+    },
     "/Kraft/DaihatsuMidget/": {
         "id": 652,
         "title": "Daihatsu Midget",
@@ -4250,13 +4260,14 @@
             "Kinetics"
         ]
     },
-    "/Electronics101/AudioLevelIndicatorKit/": {
+    "/Audio/Visualization/AudioLevelIndicatorKit/": {
         "id": 202,
-        "title": "AudioLevelIndicatorKit",
+        "title": "Audio Level Indicator Kit",
         "summary": "an audio level indicator kit based on the LM3915",
         "tags": [
             "LM3915",
-            "Audio"
+            "Audio",
+            "LED"
         ]
     },
     "/Electronics101/555Timer/DoorbellKit/": {
@@ -4944,13 +4955,13 @@
             "AVR"
         ]
     },
-    "/Electronics101/VoiceLevelIndicatorKit/": {
+    "/Audio/Visualization/VoiceLevelIndicatorKit/": {
         "id": 125,
         "title": "Voice Level Indicator Kit",
         "summary": "build and investigate a commercially available \"3-band voice level indicator\" kit",
         "tags": [
             "LED",
-            "Kit"
+            "Audio"
         ]
     },
     "/Electronics101/EMRDetection/RFDetectorProbe/": {
