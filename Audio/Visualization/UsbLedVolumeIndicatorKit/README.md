@@ -68,6 +68,11 @@ Layed out this way, the circuit behaviour is easily apparent. A quick summary:
 
 ![schematic](./assets/UsbLedVolumeIndicatorKit_schematic.jpg?raw=true)
 
+The circuit is actually the basis of the LM3915 that I covered in 
+[#065 LevelIndicatorLM3915](https://leap.tardate.com/playground/LevelIndicatorLM3915/) and 
+[#202 Audio Level Indicator Kit](https://leap.tardate.com/audio/visualization/audiolevelindicatorkit/).
+Note that the resistors are not identical on the LM3915, but form a logarithmic scale. If a linear scale is needed, there is the LM3914 that is otherwise identical. Linear scale is usually better for voltage control of batteries, and logarithmic one for audio level.
+
 Construction complete:
 
 ![build01](./assets/build01.jpg?raw=true)
