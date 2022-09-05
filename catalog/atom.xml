@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-03T13:33:09Z</updated>
+  <updated>2022-09-05T16:02:27Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/No13SubChaser/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/No13SubChaser/"/>
+    <updated>2022-09-05T16:02:19Z</updated>
+    <title>#654 IJN No.13 Sub-chaser</title>
+    <summary>IJN No.13 class submarine chaser 第十三号型駆潜艇 on a quiet island patrol</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/No13SubChaser/assets/No13SubChaser_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/"/>

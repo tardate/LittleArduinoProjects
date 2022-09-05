@@ -1,4 +1,13 @@
 {
+    "/Kraft/IJN/No13SubChaser/": {
+        "id": 654,
+        "title": "IJN No.13 Sub-chaser",
+        "summary": "IJN No.13 class submarine chaser \u7b2c\u5341\u4e09\u53f7\u578b\u99c6\u6f5c\u8247 on a quiet island patrol",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Audio/Visualization/UsbLedVolumeIndicatorKit/": {
         "id": 653,
         "title": "USB Audio Level Indicator Kit",
