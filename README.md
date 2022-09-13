@@ -1,4 +1,4 @@
-# 654 Little Electronic Art Projects
+# 655 Little Electronic Art Projects
 
 > Latest addition:sparkles: [USB Audio Level Indicator Kit](./Audio/Visualization/UsbLedVolumeIndicatorKit) - An electret-input audio level kit based on cascading LM358 stages with LED indicators
 

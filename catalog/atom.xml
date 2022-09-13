@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-05T16:02:27Z</updated>
+  <updated>2022-09-16T11:38:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/</id>
+    <link href="https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/"/>
+    <updated>2022-09-16T11:29:24Z</updated>
+    <title>#655 HMS Revenge</title>
+    <summary>HMS Revenge heading out from Faslane on patrol - an attempt at capturing the distinctive wake of a sub cruising on the surface. Dragon 1:700 kit.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/assets/HMSRevengeS27_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/No13SubChaser/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/No13SubChaser/"/>
