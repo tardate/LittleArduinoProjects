@@ -1,0 +1,7 @@
+{
+    "id": "#234",
+    "name": "CMOS Inverter Oscillator",
+    "description": "use a CD4096 to generate an oscillating waveform and plot the results",
+    "categories": "CMOS, Oscillators",
+    "relative_path": "Electronics101/Oscillators/CMOSInverterOscillator"
+}

@@ -1,7 +1,8 @@
-# #206 CD4047/AstableOscillator
+# #206 CD4047 Astable Oscillator
 
 Test the astable operating mode of the CD4047
 
+![The Build](./assets/AstableOscillator_build.jpg?raw=true)
 
 ## Notes
 
@@ -10,7 +11,6 @@ with operating frequency configured by an external RC network.
 So in one sense, sounds like the 555 timer!
 
 Unlike the 555, the CD4047 provides a fixed 50% duty cycle with good frequency stability (+/- 2% @ 100KHz).
-
 
 ### Astable Oscillation Frequency
 

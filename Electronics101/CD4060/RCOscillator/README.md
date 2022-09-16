@@ -1,4 +1,4 @@
-# #293 CD4060/RCOscillator
+# #293 CD4060 RC Oscillator
 
 Exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator.
 

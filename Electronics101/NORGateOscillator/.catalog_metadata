@@ -1,7 +1,0 @@
-{
-    "id": "#114", 
-    "name": "NORGateOscillator", 
-    "description": "test a low-speed square wave oscillator using NOR gates", 
-    "categories": "CMOS/TTL, Oscillators, Arduino", 
-    "relative_path": "Electronics101/NORGateOscillator"
-}

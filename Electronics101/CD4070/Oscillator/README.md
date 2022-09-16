@@ -1,4 +1,4 @@
-# #297 CD4070/Oscillator
+# #297 CD4070 Oscillator
 
 Examine a classic CD4070 oscillator design and variations.
 

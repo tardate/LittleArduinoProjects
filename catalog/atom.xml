@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-16T11:38:06Z</updated>
+  <updated>2022-09-16T13:34:50Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/"/>
+    <updated>2022-09-16T13:28:05Z</updated>
+    <title>#656 Crystal-Locked Schmitt Oscillator</title>
+    <summary>Testing a basic crystal-locked Schmitt oscillator using a 74HC14</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/assets/SchmittCrystalLockedOscillator_build.jpg</g:image_link>
+    <category term="CMOS/TTL"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/</id>
     <link href="https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/"/>
-    <updated>2022-09-16T11:29:24Z</updated>
+    <updated>2022-09-16T11:46:28Z</updated>
     <title>#655 HMS Revenge</title>
     <summary>HMS Revenge heading out from Faslane on patrol - an attempt at capturing the distinctive wake of a sub cruising on the surface. Dragon 1:700 kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/assets/HMSRevengeS27_build.jpg</g:image_link>
@@ -3741,7 +3751,7 @@
     <id>https://leap.tardate.com/Electronics101/CD4070/Oscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4070/Oscillator/"/>
     <updated>2017-04-08T15:05:03Z</updated>
-    <title>#297 CD4070/Oscillator</title>
+    <title>#297 CD4070 Oscillator</title>
     <summary>examine a classic CD4070 oscillator design and variations</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4070/Oscillator/assets/Oscillator_build.jpg</g:image_link>
     <category term="CMOS"/>
@@ -3773,7 +3783,7 @@
     <id>https://leap.tardate.com/Electronics101/CD4060/CrystalOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4060/CrystalOscillator/"/>
     <updated>2017-03-07T23:48:34Z</updated>
-    <title>#294 CD4060/CrystalOscillator</title>
+    <title>#294 CD4060 Crystal Oscillator</title>
     <summary>exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4060/CrystalOscillator/assets/CrystalOscillator_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
@@ -3783,7 +3793,7 @@
     <id>https://leap.tardate.com/Electronics101/CD4060/RCOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4060/RCOscillator/"/>
     <updated>2017-03-07T11:41:47Z</updated>
-    <title>#293 CD4060/RCOscillator</title>
+    <title>#293 CD4060 RC Oscillator</title>
     <summary>exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4060/RCOscillator/assets/RCOscillator_build.jpg</g:image_link>
     <category term="CMOS"/>
@@ -4415,12 +4425,12 @@
     <category term="OpAmp"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/CMOSInverterOscillator/</id>
-    <link href="https://leap.tardate.com/Electronics101/CMOSInverterOscillator/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/"/>
     <updated>2016-08-13T07:39:10Z</updated>
-    <title>#234 CMOSInverterOscillator</title>
+    <title>#234 CMOS Inverter Oscillator</title>
     <summary>use a CD4096 to generate an oscillating waveform and plot the results</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/CMOSInverterOscillator/assets/CMOSInverterOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/assets/CMOSInverterOscillator_build.jpg</g:image_link>
     <category term="CMOS"/>
     <category term="Oscillators"/>
   </entry>
@@ -4708,7 +4718,7 @@
     <id>https://leap.tardate.com/Electronics101/CD4047/AstableOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4047/AstableOscillator/"/>
     <updated>2016-04-22T22:42:25Z</updated>
-    <title>#206 CD4047/AstableOscillator</title>
+    <title>#206 CD4047 Astable Oscillator</title>
     <summary>test the astable operating mode of the CD4047</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4047/AstableOscillator/assets/AstableOscillator_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
@@ -5625,12 +5635,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/NORGateOscillator/</id>
-    <link href="https://leap.tardate.com/Electronics101/NORGateOscillator/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/"/>
     <updated>2015-07-11T09:36:53Z</updated>
-    <title>#114 NORGateOscillator</title>
+    <title>#114 NOR Gate Oscillator</title>
     <summary>test a low-speed square wave oscillator using NOR gates</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/NORGateOscillator/assets/NORGateOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/assets/NORGateOscillator_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
     <category term="Arduino"/>
@@ -6555,12 +6565,12 @@
     <category term="Digital Logic"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/SchmittOscillator/</id>
-    <link href="https://leap.tardate.com/Electronics101/SchmittOscillator/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/"/>
     <updated>2015-09-18T12:20:06Z</updated>
-    <title>#022 Square Wave - Schmitt</title>
+    <title>#022 Square Wave - Schmitt Oscillator</title>
     <summary>using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/SchmittOscillator/assets/SchmittOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/assets/SchmittOscillator_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
   </entry>

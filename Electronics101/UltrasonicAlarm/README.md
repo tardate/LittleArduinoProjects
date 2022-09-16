@@ -44,7 +44,7 @@ The module uses TCT40-16T "air ultrasonic ceramic transducers" that operate at 4
 ### Trigger Signal
 
 The 74LS14 schmitt inverter is used as a free-running oscilator. The LS variant I'm using here is not great with high resistance values
-in an oscillator configuration - see [LEAP#022 SchmittOscillator](../SchmittOscillator) for more.
+in an oscillator configuration - see [LEAP#022 SchmittOscillator](../Oscillators/SchmittOscillator) for more.
 
 So I've beefed up the capacitor to 10µF and fiddled the resistors to produce an
 [80Hz](https://www.wolframalpha.com/input/?i=2%2F((1.2+*+10%C2%B5F+*+1.2k%CE%A9)+%2B+(1.2+*+10%C2%B5F+*+890%CE%A9)))

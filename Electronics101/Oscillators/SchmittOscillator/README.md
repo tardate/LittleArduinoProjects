@@ -1,4 +1,4 @@
-# #022 Schmitt Oscillator
+# #022 Square Wave - Schmitt Oscillator
 
 Using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave.
 

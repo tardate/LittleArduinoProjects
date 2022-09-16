@@ -1,11 +1,12 @@
-# #114 NORGateOscillator
+# #114 NOR Gate Oscillator
 
 Test a low-speed square wave oscillator using NOR gates.
+
+![The Build](./assets/NORGateOscillator_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
 [![NORGateOscillator demo](https://img.youtube.com/vi/D6UURcxSMp0/0.jpg)](https://www.youtube.com/watch?v=D6UURcxSMp0)
-
 
 ## Notes
 

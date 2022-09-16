@@ -1,5 +1,12 @@
 [
     {
+        "id": "#656",
+        "name": "Crystal-Locked Schmitt Oscillator",
+        "description": "Testing a basic crystal-locked Schmitt oscillator using a 74HC14",
+        "categories": "CMOS/TTL, Oscillators",
+        "relative_path": "Electronics101/Oscillators/SchmittCrystalLockedOscillator"
+    },
+    {
         "id": "#655",
         "name": "HMS Revenge",
         "description": "HMS Revenge heading out from Faslane on patrol - an attempt at capturing the distinctive wake of a sub cruising on the surface. Dragon 1:700 kit.",
@@ -2514,7 +2521,7 @@
     },
     {
         "id": "#297",
-        "name": "CD4070/Oscillator",
+        "name": "CD4070 Oscillator",
         "description": "examine a classic CD4070 oscillator design and variations",
         "categories": "CMOS, Oscillators",
         "relative_path": "Electronics101/CD4070/Oscillator"
@@ -2535,14 +2542,14 @@
     },
     {
         "id": "#294",
-        "name": "CD4060/CrystalOscillator",
+        "name": "CD4060 Crystal Oscillator",
         "description": "exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator",
         "categories": "CMOS/TTL, Oscillators",
         "relative_path": "Electronics101/CD4060/CrystalOscillator"
     },
     {
         "id": "#293",
-        "name": "CD4060/RCOscillator",
+        "name": "CD4060 RC Oscillator",
         "description": "exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator",
         "categories": "CMOS, Oscillators",
         "relative_path": "Electronics101/CD4060/RCOscillator"
@@ -2955,10 +2962,10 @@
     },
     {
         "id": "#234",
-        "name": "CMOSInverterOscillator",
+        "name": "CMOS Inverter Oscillator",
         "description": "use a CD4096 to generate an oscillating waveform and plot the results",
         "categories": "CMOS, Oscillators",
-        "relative_path": "Electronics101/CMOSInverterOscillator"
+        "relative_path": "Electronics101/Oscillators/CMOSInverterOscillator"
     },
     {
         "id": "#233",
@@ -3151,7 +3158,7 @@
     },
     {
         "id": "#206",
-        "name": "CD4047/AstableOscillator",
+        "name": "CD4047 Astable Oscillator",
         "description": "test the astable operating mode of the CD4047",
         "categories": "CMOS/TTL, Oscillators",
         "relative_path": "Electronics101/CD4047/AstableOscillator"
@@ -3795,10 +3802,10 @@
     },
     {
         "id": "#114",
-        "name": "NORGateOscillator",
+        "name": "NOR Gate Oscillator",
         "description": "test a low-speed square wave oscillator using NOR gates",
         "categories": "CMOS/TTL, Oscillators, Arduino",
-        "relative_path": "Electronics101/NORGateOscillator"
+        "relative_path": "Electronics101/Oscillators/NORGateOscillator"
     },
     {
         "id": "#113",
@@ -4439,10 +4446,10 @@
     },
     {
         "id": "#022",
-        "name": "Square Wave - Schmitt",
+        "name": "Square Wave - Schmitt Oscillator",
         "description": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave",
         "categories": "CMOS/TTL, Oscillators",
-        "relative_path": "Electronics101/SchmittOscillator"
+        "relative_path": "Electronics101/Oscillators/SchmittOscillator"
     },
     {
         "id": "#021",

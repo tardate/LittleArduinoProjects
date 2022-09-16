@@ -21,7 +21,7 @@ The D flip-flop circuit here is only slightly modified from the latch circuit:
 
 As a result, output changes only occur on the rising edge of the clock.
 
-As a clock source, I've wired up a simple 74LS14 [Schmitt oscillator](../../SchmittOscillator), with a pretty slow frequency of around
+As a clock source, I've wired up a simple 74LS14 [Schmitt oscillator](../../Oscillators/SchmittOscillator), with a pretty slow frequency of around
 [1.77Hz](https://www.wolframalpha.com/input/?i=1%2F(1.2+*+1k%CE%A9+*+470%C2%B5F)).
 
 The edge detector is an RC integrator with a time constant of

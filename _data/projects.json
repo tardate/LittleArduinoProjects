@@ -1,4 +1,13 @@
 {
+    "/Electronics101/Oscillators/SchmittCrystalLockedOscillator/": {
+        "id": 656,
+        "title": "Crystal-Locked Schmitt Oscillator",
+        "summary": "Testing a basic crystal-locked Schmitt oscillator using a 74HC14",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
     "/Kraft/RoyalNavy/HMSRevengeS27/": {
         "id": 655,
         "title": "HMS Revenge",
@@ -3368,7 +3377,7 @@
     },
     "/Electronics101/CD4070/Oscillator/": {
         "id": 297,
-        "title": "CD4070/Oscillator",
+        "title": "CD4070 Oscillator",
         "summary": "examine a classic CD4070 oscillator design and variations",
         "tags": [
             "CMOS",
@@ -3397,7 +3406,7 @@
     },
     "/Electronics101/CD4060/CrystalOscillator/": {
         "id": 294,
-        "title": "CD4060/CrystalOscillator",
+        "title": "CD4060 Crystal Oscillator",
         "summary": "exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator",
         "tags": [
             "CMOS/TTL",
@@ -3406,7 +3415,7 @@
     },
     "/Electronics101/CD4060/RCOscillator/": {
         "id": 293,
-        "title": "CD4060/RCOscillator",
+        "title": "CD4060 RC Oscillator",
         "summary": "exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator",
         "tags": [
             "CMOS",
@@ -3980,9 +3989,9 @@
             "OpAmp"
         ]
     },
-    "/Electronics101/CMOSInverterOscillator/": {
+    "/Electronics101/Oscillators/CMOSInverterOscillator/": {
         "id": 234,
-        "title": "CMOSInverterOscillator",
+        "title": "CMOS Inverter Oscillator",
         "summary": "use a CD4096 to generate an oscillating waveform and plot the results",
         "tags": [
             "CMOS",
@@ -4244,7 +4253,7 @@
     },
     "/Electronics101/CD4047/AstableOscillator/": {
         "id": 206,
-        "title": "CD4047/AstableOscillator",
+        "title": "CD4047 Astable Oscillator",
         "summary": "test the astable operating mode of the CD4047",
         "tags": [
             "CMOS/TTL",
@@ -5070,9 +5079,9 @@
             "Arduino"
         ]
     },
-    "/Electronics101/NORGateOscillator/": {
+    "/Electronics101/Oscillators/NORGateOscillator/": {
         "id": 114,
-        "title": "NORGateOscillator",
+        "title": "NOR Gate Oscillator",
         "summary": "test a low-speed square wave oscillator using NOR gates",
         "tags": [
             "CMOS/TTL",
@@ -5908,9 +5917,9 @@
             "Digital Logic"
         ]
     },
-    "/Electronics101/SchmittOscillator/": {
+    "/Electronics101/Oscillators/SchmittOscillator/": {
         "id": 22,
-        "title": "Square Wave - Schmitt",
+        "title": "Square Wave - Schmitt Oscillator",
         "summary": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave",
         "tags": [
             "CMOS/TTL",

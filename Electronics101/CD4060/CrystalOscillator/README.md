@@ -1,4 +1,4 @@
-# #294 CD4060/CrystalOscillator
+# #294 CD4060 Crystal Oscillator
 
 Exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator.
 

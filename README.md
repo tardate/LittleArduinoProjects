@@ -1,6 +1,6 @@
-# 655 Little Electronic Art Projects
+# 656 Little Electronic Art Projects
 
-> Latest addition:sparkles: [USB Audio Level Indicator Kit](./Audio/Visualization/UsbLedVolumeIndicatorKit) - An electret-input audio level kit based on cascading LM358 stages with LED indicators
+> Latest addition:sparkles: [Crystal-Locked Schmitt Oscillator](./Electronics101/Oscillators/SchmittCrystalLockedOscillator) - Testing a basic crystal-locked Schmitt oscillator using a 74HC14.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
