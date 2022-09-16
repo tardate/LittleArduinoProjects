@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-16T13:34:50Z</updated>
+  <updated>2022-09-18T13:08:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/P40/EggScale/</id>
+    <link href="https://leap.tardate.com/Kraft/P40/EggScale/"/>
+    <updated>2022-09-18T12:54:57Z</updated>
+    <title>#657 Flying Tigers Egg-Scale</title>
+    <summary>Building the Tiger Model egg-scale P-40 so it can join its 1:72 and 1:144 Brothers in Arms (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/P40/EggScale/assets/EggScale_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/"/>
-    <updated>2022-09-16T13:28:05Z</updated>
+    <updated>2022-09-16T14:20:37Z</updated>
     <title>#656 Crystal-Locked Schmitt Oscillator</title>
     <summary>Testing a basic crystal-locked Schmitt oscillator using a 74HC14</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/assets/SchmittCrystalLockedOscillator_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/</id>
     <link href="https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/"/>
-    <updated>2022-09-16T11:46:28Z</updated>
+    <updated>2022-09-16T14:20:37Z</updated>
     <title>#655 HMS Revenge</title>
     <summary>HMS Revenge heading out from Faslane on patrol - an attempt at capturing the distinctive wake of a sub cruising on the surface. Dragon 1:700 kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/assets/HMSRevengeS27_build.jpg</g:image_link>
@@ -4427,7 +4437,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/"/>
-    <updated>2016-08-13T07:39:10Z</updated>
+    <updated>2022-09-16T14:20:37Z</updated>
     <title>#234 CMOS Inverter Oscillator</title>
     <summary>use a CD4096 to generate an oscillating waveform and plot the results</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/assets/CMOSInverterOscillator_build.jpg</g:image_link>
@@ -5637,7 +5647,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/"/>
-    <updated>2015-07-11T09:36:53Z</updated>
+    <updated>2022-09-16T14:20:37Z</updated>
     <title>#114 NOR Gate Oscillator</title>
     <summary>test a low-speed square wave oscillator using NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/assets/NORGateOscillator_build.jpg</g:image_link>
@@ -6567,7 +6577,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/"/>
-    <updated>2015-09-18T12:20:06Z</updated>
+    <updated>2022-09-16T14:20:37Z</updated>
     <title>#022 Square Wave - Schmitt Oscillator</title>
     <summary>using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/assets/SchmittOscillator_build.jpg</g:image_link>
