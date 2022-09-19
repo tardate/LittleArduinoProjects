@@ -31,27 +31,21 @@ See the [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml) for
 
 ### Construction
 
-The first inverter is used as a buffer of the input signal.
+The first inverter (IC1a) is used as a buffer of the input signal.
 
 When LOW input:
 
 * first inverter output will be high
 * with high output, D2 (green) on, D1 (red) off
-* a fixed high signal will stall the oscillator on the 5th and 6th inverter gates
-* R4 pulls the 5th inverter input high, thus final inverter output will also be high, and D3 (yellow) off
 
 When HIGH input:
 
 * first inverter output will be low
 * with low output, D2 (green) off, D1 (red) on
-* a fixed low signal will stall the oscillator on the 2nd and 3rd NOR gates
-* R4 pulls the 5th inverter input high, thus final inverter output will also be high, and D3 (yellow) off
 
-When input is oscillating:
-
-* D2 (green), D1 (red) will flicker based on instantaneous input state
-* oscillating input to the 5th inverter will enable the oscillator on 5th and 6th inverter gates
-* final inverter output will oscillate, causing D3 (yellow) to light up
+The second inverter (IC1f) feeds a simple RC high-pass filter i.e. edge detector (C1,R4).
+This is buffered by IC1e and triggers an LED driven by IC1d; note these could be combined on one inverter.
+With an oscillating input, the edge detector will cause D3 (yellow) to flicker at the same frequency (limited by the RC time constant).
 
 ![bb](./assets/LogicProbe_bb.jpg?raw=true)
 
@@ -65,18 +59,24 @@ Breadboard test, with logic low input:
 
 ![LogicProbe_bb_build_low](./assets/LogicProbe_bb_build_low.jpg?raw=true)
 
-Breadboard test, with oscillating input (10kHz square wave from FY3200S signal generator):
+Breadboard test, with oscillating input (500Hz square wave from FY3200S signal generator):
 
 ![LogicProbe_bb_build_osc](./assets/LogicProbe_bb_build_osc.jpg?raw=true)
 
+Scope trace showing CH1 input (IC1 pin 1) and CH2 output (IC1 pin 8):
+
+![scope_500hz](./assets/scope_500hz.jpg?raw=true)
+
 ### Circuit Simulation
 
-Follow
-[![simulation](./assets/simulation.jpg?raw=true)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l5AWAnC1b0DZzQExgBw7IDMSGkA7JMQhcSAlgKwhOSsCmAtGGAFAB3VhSw4KOEBiIgxEyHzBTJ0sEglSEM8TJAATDgDMAhgFcANgBcuZjrvBQHMSP0Xrps5ZuI52E-cfMrGzt2CHYnfgAnT3A1GLAcfAcweD5ojRBvdgzifE1Q1KEMhKSEb3BEqD4AcxjczQyEOEc+ACUGcpKOiXxwhybWRyhoJjaGMi0JBAQkj18ZXxGZJfCRwRAqLwwklMgk4m2qgGMQXt9tPNntUNh4O-u4MG4KbEVGJCYEHCZ8DGICGjDe5RU4zSagnaVAr3BRKXg+GQqBLnCR+QymSzWWz2MJA-hCXZXCSEzKHeRFFSVcShKHrakVJKXBlVIRMcgyNmsdlzdZslFc3z4JLkgXgpgicEipgJGQDaWo668mUeeWZRAs1jK7TIUSK9p8xGaA2qOT9dgsPowUa1A1ZUXEA4tAya1Fy7kDB3YC2wHB8Z2q4jq23qzorH1+jaOwOaCh5NVeYlhyC+510UQDWOaIjsT1gJO+2qZzIIosOrDhMZFnDSIsmoZyoZWumOjybSXN9PsNPtoRVi7NHm9uOt4dCjVVzl9uQRpDTeMgFASaPFr1AlMLufZhdxLe5-M1bdLhGLzKOivtE-VzQnut9BuWtZCWdZi4TQcbl8SZ-zkXfrd-xUnx3bQSXfS9tEvMdfx3TlwOnZ0UmkZcUm0ZdQ29ZMI0QrMBhQ10c3oPMMILcBKCPApULPKp2jww1SJAuI73NRtH1I9wQLgIkNWw8EeOXEUeK3QTAPohViT2LiBLI3jpMSYV1lo74sEUxU7DbA4kjbDxiQAOQQMAZj4OwMlbdVtPAPSDPwDtwW7fiFIk3jkXbaJ4V8JEES6aEBOcromS8g98AmO0gqwMsWjsULi3YKLzP8DELHWWKLjBHlIrfV9RHcPR0UCMZYukKLbzNQYH1GAAjU4JWIJgvzAQj8HoeQAA9TgwZSMCQUjnHAbUKhAABJABhAAdABnAaADsAAcTAscaABEAEsAHt9HGoazCMABbaalsm6o+BW-rFEyCocCQZinEeBx6GFU5MiOk7y3AMpiDoIEbuu7wRDKb53tUGYKA++YZWIPhcgegAxCAmoWdgeBAKHIg4ABHEwOEmo4AE8+CAA)
+Follow the link to see the simulation create by [Steve Schnepp](https://github.com/steveschnepp) for this circuit concept:
+
+[![simulation](./assets/simulation.jpg?raw=true)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l5AWAnC1b0DYQHZobEtgBwCsGJ2ATIZBSAliSCZMwKYC0YYAUAO7NsWSlRAZKCECMpQeYcWIngkM8ZOlSQAEzYAzAIYBXADYAXDsbZbwUWzEi95qpRrUgAzJVYydBk+ctrVghWe14AJ0VJAmdoyiJbMHgeSLdPVjSiSWDkgTcwePpPcELIHgBzKI8sqoQ4Ox4AJSKZAoSEYqJQ2zrmOyhoEib6JGFRBAQEjW96KUG5plDBngBjEC7vUSyp0WDYeAPDuDBObBAuaCR3FGJsKiSC92wQ-fgI9cnqyW2pXfAjuQKJK9ShKYGbGQ+PRGMwWKw2EIDBz8KptHBeEoJMoCKjBQo-NHY5gYbxkYkQ2QCMgU6lSIhYlG0jQUMYyIkkApSXocyG7Rmc5mc9yISnMAXjUa-NnDJlKWkxfrc-owIaVWnpckedxYUI8XRiyHcklc1judzgeb2Sh6g0eEXqkXFMCW2DW-XYbV2yTESTC32tF2QN04T0SVg+k1ai2LV0VHA1DURs062TNCOg701BXdJXdFUoj2snAi6YF0O9QtS0Xprb1Us4moadP06uNsk16X6pATL0gFAyP0eAMxoM27vqXr9yNm6NI62VKcaxee3XNKcZvsqZRsnqsRZ2ZYCcdVoiS+t9nsaY+DonHsMX9R8o9bjRJSA7aXP3kydct28vsl1yfEMi0rG8Un+Xo0XBKQlByOA41PLANSQrUUzKaxUJQs9RChPwzBRVCNB+UtMJwmQiJcbRoX8YZKO+SVs13Po82WAAjdYiAHEgmAeXiiB1FE3CbEtgIJQoYMJFE3w-SCKTKSofncGofjqPMeA454kA8EhzS6aIajKDjkASdxdOYIhzTAQyeAAe3ACB5A8EpqD3JFjlsPTbFMuyHPAFMwA6J5zXsDzQs8IgwG1SgMFPLp4gQIRbFaCB3B4ZT1hAAAxVLkvqLhsvCNgAEdDDYAA7FYAE8eCAA)
 
 ## Credits and References
 
 * [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml)
 * [LEAP#636 CD4001 Logic Probe](../../CD4001/LogicProbe)
 * [CD4001/LogicProbe Improvement using CD4069UB](https://github.com/tardate/LittleArduinoProjects/issues/29) - suggestion from [Steve Schnepp](https://github.com/steveschnepp)
-* [circuit simulation](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l5AWAnC1b0DZzQExgBw7IDMSGkA7JMQhcSAlgKwhOSsCmAtGGAFAB3VhSw4KOEBiIgxEyHzBTJ0sEglSEM8TJAATDgDMAhgFcANgBcuZjrvBQHMSP0Xrps5ZuI52E-cfMrGzt2CHYnfgAnT3A1GLAcfAcweD5ojRBvdgzifE1Q1KEMhKSEb3BEqD4AcxjczQyEOEc+ACUGcpKOiXxwhybWRyhoJjaGMi0JBAQkj18ZXxGZJfCRwRAqLwwklMgk4m2qgGMQXt9tPNntUNh4O-u4MG4KbEVGJCYEHCZ8DGICGjDe5RU4zSagnaVAr3BRKXg+GQqBLnCR+QymSzWWz2MJA-hCXZXCSEzKHeRFFSVcShKHrakVJKXBlVIRMcgyNmsdlzdZslFc3z4JLkgXgpgicEipgJGQDaWo668mUeeWZRAs1jK7TIUSK9p8xGaA2qOT9dgsPowUa1A1ZUXEA4tAya1Fy7kDB3YC2wHB8Z2q4jq23qzorH1+jaOwOaCh5NVeYlhyC+510UQDWOaIjsT1gJO+2qZzIIosOrDhMZFnDSIsmoZyoZWumOjybSXN9PsNPtoRVi7NHm9uOt4dCjVVzl9uQRpDTeMgFASaPFr1AlMLufZhdxLe5-M1bdLhGLzKOivtE-VzQnut9BuWtZCWdZi4TQcbl8SZ-zkXfrd-xUnx3bQSXfS9tEvMdfx3TlwOnZ0UmkZcUm0ZdQ29ZMI0QrMBhQ10c3oPMMILcBKCPApULPKp2jww1SJAuI73NRtH1I9wQLgIkNWw8EeOXEUeK3QTAPohViT2LiBLI3jpMSYV1lo74sEUxU7DbA4kjbDxiQAOQQMAZj4OwMlbdVtPAPSDPwDtwW7fiFIk3jkXbaJ4V8JEES6aEBOcromS8g98AmO0gqwMsWjsULi3YKLzP8DELHWWKLjBHlIrfV9RHcPR0UCMZYukKLbzNQYH1GAAjU4JWIJgvzAQj8HoeQAA9TgwZSMCQUjnHAbUKhAABJABhAAdABnAaADsAAcTAscaABEAEsAHt9HGoazCMABbaalsm6o+BW-rFEyCocCQZinEeBx6GFU5MiOk7y3AMpiDoIEbuu7wRDKb53tUGYKA++YZWIPhcgegAxCAmoWdgeBAKHIg4ABHEwOEmo4AE8+CAA)
+* [CD4069/LogicProbe Another Improvement and some explanations](https://github.com/tardate/LittleArduinoProjects/issues/30) - another suggestion from [Steve Schnepp](https://github.com/steveschnepp)
+* [circuit simulation](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l5AWAnC1b0DYQHZobEtgBwCsGJ2ATIZBSAliSCZMwKYC0YYAUAO7NsWSlRAZKCECMpQeYcWIngkM8ZOlSQAEzYAzAIYBXADYAXDsbZbwUWzEi95qpRrUgAzJVYydBk+ctrVghWe14AJ0VJAmdoyiJbMHgeSLdPVjSiSWDkgTcwePpPcELIHgBzKI8sqoQ4Ox4AJSKZAoSEYqJQ2zrmOyhoEib6JGFRBAQEjW96KUG5plDBngBjEC7vUSyp0WDYeAPDuDBObBAuaCR3FGJsKiSC92wQ-fgI9cnqyW2pXfAjuQKJK9ShKYGbGQ+PRGMwWKw2EIDBz8KptHBeEoJMoCKjBQo-NHY5gYbxkYkQ2QCMgU6lSIhYlG0jQUMYyIkkApSXocyG7Rmc5mc9yISnMAXjUa-NnDJlKWkxfrc-owIaVWnpckedxYUI8XRiyHcklc1judzgeb2Sh6g0eEXqkXFMCW2DW-XYbV2yTESTC32tF2QN04T0SVg+k1ai2LV0VHA1DURs062TNCOg701BXdJXdFUoj2snAi6YF0O9QtS0Xprb1Us4moadP06uNsk16X6pATL0gFAyP0eAMxoM27vqXr9yNm6NI62VKcaxee3XNKcZvsqZRsnqsRZ2ZYCcdVoiS+t9nsaY+DonHsMX9R8o9bjRJSA7aXP3kydct28vsl1yfEMi0rG8Un+Xo0XBKQlByOA41PLANSQrUUzKaxUJQs9RChPwzBRVCNB+UtMJwmQiJcbRoX8YZKO+SVs13Po82WAAjdYiAHEgmAeXiiB1FE3CbEtgIJQoYMJFE3w-SCKTKSofncGofjqPMeA454kA8EhzS6aIajKDjkASdxdOYIhzTAQyeAAe3ACB5A8EpqD3JFjlsPTbFMuyHPAFMwA6J5zXsDzQs8IgwG1SgMFPLp4gQIRbFaCB3B4ZT1hAAAxVLkvqLhsvCNgAEdDDYAA7FYAE8eCAA)
