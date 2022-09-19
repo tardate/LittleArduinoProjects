@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-18T13:08:52Z</updated>
+  <updated>2022-09-19T10:29:26Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/RAAF/Boomerang/</id>
+    <link href="https://leap.tardate.com/Kraft/RAAF/Boomerang/"/>
+    <updated>2022-09-19T10:28:26Z</updated>
+    <title>#658 CA-19 Boomerang</title>
+    <summary>Building the Special Hobby 1:72 RAAF CA-19 Boomerang, as stationed in New Britain 1945 (no electronics)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RAAF/Boomerang/assets/Boomerang_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/P40/EggScale/</id>
     <link href="https://leap.tardate.com/Kraft/P40/EggScale/"/>
-    <updated>2022-09-18T12:54:57Z</updated>
+    <updated>2022-09-18T13:09:13Z</updated>
     <title>#657 Flying Tigers Egg-Scale</title>
     <summary>Building the Tiger Model egg-scale P-40 so it can join its 1:72 and 1:144 Brothers in Arms (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/EggScale/assets/EggScale_build.jpg</g:image_link>
@@ -359,12 +369,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/Wirraway/</id>
-    <link href="https://leap.tardate.com/Kraft/Wirraway/"/>
+    <id>https://leap.tardate.com/Kraft/RAAF/Wirraway/</id>
+    <link href="https://leap.tardate.com/Kraft/RAAF/Wirraway/"/>
     <updated>2022-02-22T14:48:48Z</updated>
     <title>#623 Wirraway</title>
     <summary>Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no electronics)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/Wirraway/assets/Wirraway_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/RAAF/Wirraway/assets/Wirraway_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>

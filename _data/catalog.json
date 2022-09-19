@@ -1,5 +1,12 @@
 [
     {
+        "id": "#658",
+        "name": "CA-19 Boomerang",
+        "description": "Building the Special Hobby 1:72 RAAF CA-19 Boomerang, as stationed in New Britain 1945 (no electronics)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/RAAF/Boomerang"
+    },
+    {
         "id": "#657",
         "name": "Flying Tigers Egg-Scale",
         "description": "Building the Tiger Model egg-scale P-40 so it can join its 1:72 and 1:144 Brothers in Arms (no electronics in this one)",
@@ -242,7 +249,7 @@
         "name": "Wirraway",
         "description": "Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no electronics)",
         "categories": "scale models, Craft",
-        "relative_path": "Kraft/Wirraway"
+        "relative_path": "Kraft/RAAF/Wirraway"
     },
     {
         "id": "#622",
