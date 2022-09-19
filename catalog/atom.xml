@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-19T14:50:12Z</updated>
+  <updated>2022-09-19T14:53:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -227,7 +227,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4069/LogicProbe/"/>
-    <updated>2022-09-19T14:49:48Z</updated>
+    <updated>2022-09-19T14:53:10Z</updated>
     <title>#637 CD4069 Logic Probe</title>
     <summary>A simple logic probe using inverter gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/assets/LogicProbe_build.jpg</g:image_link>

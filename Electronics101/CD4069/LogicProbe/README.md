@@ -65,7 +65,7 @@ Breadboard test, with oscillating input (500Hz square wave from FY3200S signal g
 
 Scope trace showing CH1 input (IC1 pin 1) and CH2 output (IC1 pin 8):
 
-![scope_500hz](./assets/scope_500hz.jpg?raw=true)
+![scope_500hz](./assets/scope_500hz.gif?raw=true)
 
 ### Circuit Simulation
 
