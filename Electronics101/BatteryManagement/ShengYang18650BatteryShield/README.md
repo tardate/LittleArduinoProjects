@@ -37,6 +37,15 @@ Core components:
 
 ## Use
 
+Charging is vie the micro USB marked "Input" (5V).
+
+Indicators:
+
+| LED        | Meaning |
+|------------|---------|
+| L1 (green) | Charged |
+| L2 (red )  | Charging |
+
 Charging:
 
 ![charging](./assets/charging.jpg?raw=true)

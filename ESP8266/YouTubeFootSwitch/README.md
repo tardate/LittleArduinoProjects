@@ -54,7 +54,12 @@ On the plus side, this makes the unit 100% wireless, however since it is only a 
 I'm having second thoughts, as I can see myself using the unit for many hours at a time.
 I may replace the battery module with a 3.3V regulator and power jack for a mains adapter and live with the power cord being attached.
 
-Charging the battery over USB to the micro connector:
+Charging the battery over USB to the micro USB connector. Indicators:
+
+| LED        | Meaning |
+|------------|---------|
+| L1 (green) | Charged |
+| L2 (red )  | Charging |
 
 ![build_charging](./assets/build_charging.jpg?raw=true)
 
