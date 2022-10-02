@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-09-19T14:53:21Z</updated>
+  <updated>2022-10-04T13:15:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Strv103/</id>
+    <link href="https://leap.tardate.com/Kraft/Strv103/"/>
+    <updated>2022-10-04T12:55:30Z</updated>
+    <title>#659 Stridsvagn 103</title>
+    <summary>Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Strv103/assets/Strv103_build.jpg</g:image_link>
+    <category term=""/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RAAF/Boomerang/</id>
     <link href="https://leap.tardate.com/Kraft/RAAF/Boomerang/"/>
-    <updated>2022-09-19T10:30:15Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#658 CA-19 Boomerang</title>
     <summary>Building the Special Hobby 1:72 RAAF CA-19 Boomerang, as stationed in New Britain 1945 (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAAF/Boomerang/assets/Boomerang_build.jpg</g:image_link>
@@ -24,7 +33,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/P40/EggScale/</id>
     <link href="https://leap.tardate.com/Kraft/P40/EggScale/"/>
-    <updated>2022-09-18T13:09:13Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#657 Flying Tigers Egg-Scale</title>
     <summary>Building the Tiger Model egg-scale P-40 so it can join its 1:72 and 1:144 Brothers in Arms (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/EggScale/assets/EggScale_build.jpg</g:image_link>
@@ -34,7 +43,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/"/>
-    <updated>2022-09-16T14:20:37Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#656 Crystal-Locked Schmitt Oscillator</title>
     <summary>Testing a basic crystal-locked Schmitt oscillator using a 74HC14</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/assets/SchmittCrystalLockedOscillator_build.jpg</g:image_link>
@@ -44,7 +53,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/</id>
     <link href="https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/"/>
-    <updated>2022-09-16T14:20:37Z</updated>
+    <updated>2022-09-24T02:04:02Z</updated>
     <title>#655 HMS Revenge</title>
     <summary>HMS Revenge heading out from Faslane on patrol - an attempt at capturing the distinctive wake of a sub cruising on the surface. Dragon 1:700 kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/assets/HMSRevengeS27_build.jpg</g:image_link>
@@ -54,7 +63,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/No13SubChaser/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/No13SubChaser/"/>
-    <updated>2022-09-05T16:02:19Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#654 IJN No.13 Sub-chaser</title>
     <summary>IJN No.13 class submarine chaser 第十三号型駆潜艇 on a quiet island patrol</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/No13SubChaser/assets/No13SubChaser_build.jpg</g:image_link>
@@ -64,7 +73,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/"/>
-    <updated>2022-09-03T13:32:50Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#653 USB Audio Level Indicator Kit</title>
     <summary>An electret-input audio level kit based on cascading LM358 stages with LED indicators</summary>
     <g:image_link>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/assets/UsbLedVolumeIndicatorKit_build.jpg</g:image_link>
@@ -75,7 +84,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/DaihatsuMidget/</id>
     <link href="https://leap.tardate.com/Kraft/DaihatsuMidget/"/>
-    <updated>2022-08-20T01:52:10Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#652 Daihatsu Midget</title>
     <summary>Building the iconic 1957 Daihatsu Midget DMK from a Micro Ace/Arii kit with some scratch modifications. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/DaihatsuMidget/assets/DaihatsuMidget_build.jpg</g:image_link>
@@ -85,7 +94,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PZL/TS-11/</id>
     <link href="https://leap.tardate.com/Kraft/PZL/TS-11/"/>
-    <updated>2022-08-19T14:46:09Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#651 TS-11 Iskra</title>
     <summary>Building the beautiful Arma Hobby 1:72 PZL TS-11 Iskra. No electronics in this one, just enjoying the build.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PZL/TS-11/assets/TS-11_build.jpg</g:image_link>
@@ -227,7 +236,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4069/LogicProbe/"/>
-    <updated>2022-09-19T14:53:10Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#637 CD4069 Logic Probe</title>
     <summary>A simple logic probe using inverter gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/assets/LogicProbe_build.jpg</g:image_link>
@@ -371,7 +380,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RAAF/Wirraway/</id>
     <link href="https://leap.tardate.com/Kraft/RAAF/Wirraway/"/>
-    <updated>2022-09-19T10:30:15Z</updated>
+    <updated>2022-09-24T02:04:02Z</updated>
     <title>#623 Wirraway</title>
     <summary>Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAAF/Wirraway/assets/Wirraway_build.jpg</g:image_link>
@@ -4447,7 +4456,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/"/>
-    <updated>2022-09-16T14:20:37Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#234 CMOS Inverter Oscillator</title>
     <summary>use a CD4096 to generate an oscillating waveform and plot the results</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/assets/CMOSInverterOscillator_build.jpg</g:image_link>
@@ -4777,7 +4786,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/"/>
-    <updated>2022-09-03T13:32:50Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#202 Audio Level Indicator Kit</title>
     <summary>an audio level indicator kit based on the LM3915</summary>
     <g:image_link>https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/assets/AudioLevelIndicatorKit_build.jpg</g:image_link>
@@ -5549,7 +5558,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/"/>
-    <updated>2022-09-03T13:32:50Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#125 Voice Level Indicator Kit</title>
     <summary>build and investigate a commercially available &quot;3-band voice level indicator&quot; kit</summary>
     <g:image_link>https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/assets/VoiceLevelIndicatorKit_build.jpg</g:image_link>
@@ -5657,7 +5666,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/"/>
-    <updated>2022-09-16T14:20:37Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#114 NOR Gate Oscillator</title>
     <summary>test a low-speed square wave oscillator using NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/assets/NORGateOscillator_build.jpg</g:image_link>
@@ -6587,7 +6596,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/"/>
-    <updated>2022-09-16T14:20:37Z</updated>
+    <updated>2022-09-24T02:04:01Z</updated>
     <title>#022 Square Wave - Schmitt Oscillator</title>
     <summary>using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/assets/SchmittOscillator_build.jpg</g:image_link>

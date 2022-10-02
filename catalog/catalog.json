@@ -1,5 +1,12 @@
 [
     {
+        "id": "#659",
+        "name": "Stridsvagn 103",
+        "description": "Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)",
+        "categories": "",
+        "relative_path": "Kraft/Strv103"
+    },
+    {
         "id": "#658",
         "name": "CA-19 Boomerang",
         "description": "Building the Special Hobby 1:72 RAAF CA-19 Boomerang, as stationed in New Britain 1945 (no electronics)",
