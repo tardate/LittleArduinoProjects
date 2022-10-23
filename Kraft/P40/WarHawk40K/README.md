@@ -1,6 +1,6 @@
 # #660 WarHawk 40K
 
-Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects.
+Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects driven by a CD4060 ripple counter.
 
 ![Build](./assets/WarHawk40K_build.jpg?raw=true)
 

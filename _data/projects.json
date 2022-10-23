@@ -19,10 +19,11 @@
     "/Kraft/P40/WarHawk40K/": {
         "id": 660,
         "title": "WarHawk 40K",
-        "summary": "Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects",
+        "summary": "Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects driven by a CD4060 ripple counter",
         "tags": [
             "LED",
-            "scale models"
+            "scale models",
+            "CMOS/TTL"
         ]
     },
     "/Kraft/Strv103/": {

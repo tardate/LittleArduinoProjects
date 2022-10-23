@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-10-23T07:51:22Z</updated>
+  <updated>2022-10-23T07:57:03Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -35,10 +35,11 @@
     <link href="https://leap.tardate.com/Kraft/P40/WarHawk40K/"/>
     <updated>2022-10-16T18:24:50Z</updated>
     <title>#660 WarHawk 40K</title>
-    <summary>Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects</summary>
+    <summary>Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects driven by a CD4060 ripple counter</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/WarHawk40K/assets/WarHawk40K_build.jpg</g:image_link>
     <category term="LED"/>
     <category term="scale models"/>
+    <category term="CMOS/TTL"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/Strv103/</id>
