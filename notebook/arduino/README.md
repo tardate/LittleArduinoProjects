@@ -22,12 +22,16 @@
 
 * The Servo library uses the same timer as analogWrite on pins 9 and 10, so you can’t use analogWrite with these pins when using the Servo library.
 
+## ATmega328
+
+### DIP Pins
+
+![The atmega328_pins](./assets/atmega328_pins.jpg?raw=true)
 
 ## Arduino Pro Mini
 
 * [Official Arduino Pro Mini site](http://www.arduino.cc/en/Main/ArduinoBoardProMini)
 * [Arduino USB-to-Serial Tutorial - Programming the Pro Mini](https://youtu.be/Vawhrr4COjI) - great in-depth tests with various USB to serial devices by Julian Ilett.
-
 
 ### USB-to-Serial Programming
 
@@ -41,7 +45,6 @@ Pin Connections as described on
 * Connect USB Ground to Arduino BLK, aka GND on some boards
 
 ![The pro_mini_usb_serial_connection](./assets/pro_mini_usb_serial_connection.jpg?raw=true)
-
 
 ## Arduino Nano
 

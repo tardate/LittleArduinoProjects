@@ -1,4 +1,13 @@
 {
+    "/Electronics101/Displays/Lcd3Digit/": {
+        "id": 663,
+        "title": "3-Digit LCD Panel",
+        "summary": "Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
     "/Kraft/IJN/TachikawaKKY1/": {
         "id": 662,
         "title": "Tachikawa KKY-1",

@@ -1,4 +1,4 @@
-# 662 Little Electronic Art Projects
+# 663 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Crystal-Locked Schmitt Oscillator](./Electronics101/Oscillators/SchmittCrystalLockedOscillator) - Testing a basic crystal-locked Schmitt oscillator using a 74HC14.
 

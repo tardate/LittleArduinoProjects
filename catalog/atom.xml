@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-10-23T07:57:03Z</updated>
+  <updated>2022-10-24T08:53:55Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/</id>
+    <link href="https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/"/>
+    <updated>2022-10-24T08:39:58Z</updated>
+    <title>#663 3-Digit LCD Panel</title>
+    <summary>Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/assets/Lcd3Digit_build.jpg</g:image_link>
+    <category term="LCD"/>
+    <category term="Arduino"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/"/>
