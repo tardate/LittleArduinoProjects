@@ -1,5 +1,12 @@
 [
     {
+        "id": "#662",
+        "name": "Tachikawa KKY-1",
+        "description": "Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.",
+        "categories": "scale models",
+        "relative_path": "Kraft/IJN/TachikawaKKY1"
+    },
+    {
         "id": "#661",
         "name": "Concorde",
         "description": "Last flight of the Concorde - the Airfix 1:114 with LED effects in 1970s travel-agent chic ",
@@ -17,7 +24,7 @@
         "id": "#659",
         "name": "Stridsvagn 103",
         "description": "Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)",
-        "categories": "",
+        "categories": "scale models, AFV",
         "relative_path": "Kraft/Strv103"
     },
     {
@@ -276,7 +283,7 @@
         "id": "#622",
         "name": "T34 1942",
         "description": "Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)",
-        "categories": "scale models, Craft",
+        "categories": "scale models, Craft, AFV",
         "relative_path": "Kraft/T34-1942"
     },
     {
@@ -360,7 +367,7 @@
         "id": "#611",
         "name": "That is not a toy, my boy!",
         "description": "A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!",
-        "categories": "Craft",
+        "categories": "Craft, scale models, AFV",
         "relative_path": "Kraft/ThatIsNotaToy"
     },
     {
@@ -395,7 +402,7 @@
         "id": "#606",
         "name": "Firefly",
         "description": "Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic",
-        "categories": "scale models, Craft, Arduino, AVR, Sensor, OpAmp, Servo",
+        "categories": "scale models, Craft, Arduino, AVR, Sensor, OpAmp, Servo, AFV",
         "relative_path": "Kraft/Firefly"
     },
     {
@@ -486,7 +493,7 @@
         "id": "#593",
         "name": "25 Pounder Field Gun and Quad",
         "description": "Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.",
-        "categories": "scale models, Craft",
+        "categories": "scale models, Craft, AFV",
         "relative_path": "Kraft/25pdr"
     },
     {

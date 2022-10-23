@@ -1,4 +1,12 @@
 {
+    "/Kraft/IJN/TachikawaKKY1/": {
+        "id": 662,
+        "title": "Tachikawa KKY-1",
+        "summary": "Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.",
+        "tags": [
+            "scale models"
+        ]
+    },
     "/Kraft/Concorde/": {
         "id": 661,
         "title": "Concorde",
@@ -22,7 +30,8 @@
         "title": "Stridsvagn 103",
         "summary": "Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)",
         "tags": [
-            ""
+            "scale models",
+            "AFV"
         ]
     },
     "/Kraft/RAAF/Boomerang/": {
@@ -362,7 +371,8 @@
         "summary": "Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)",
         "tags": [
             "scale models",
-            "Craft"
+            "Craft",
+            "AFV"
         ]
     },
     "/Kraft/KubelMagic/": {
@@ -474,7 +484,9 @@
         "title": "That is not a toy, my boy!",
         "summary": "A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!",
         "tags": [
-            "Craft"
+            "Craft",
+            "scale models",
+            "AFV"
         ]
     },
     "/Electronics101/555Timer/LaserRay/": {
@@ -525,7 +537,8 @@
             "AVR",
             "Sensor",
             "OpAmp",
-            "Servo"
+            "Servo",
+            "AFV"
         ]
     },
     "/playground/ATtiny/AnalogComparator/": {
@@ -654,7 +667,8 @@
         "summary": "Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.",
         "tags": [
             "scale models",
-            "Craft"
+            "Craft",
+            "AFV"
         ]
     },
     "/Kraft/snowflake/lamp/": {

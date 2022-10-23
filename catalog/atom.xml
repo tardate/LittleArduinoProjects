@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-10-22T07:06:05Z</updated>
+  <updated>2022-10-23T07:51:22Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/"/>
+    <updated>2022-10-23T07:38:15Z</updated>
+    <title>#662 Tachikawa KKY-1</title>
+    <summary>Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/assets/TachikawaKKY1_build.jpg</g:image_link>
+    <category term="scale models"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Concorde/</id>
     <link href="https://leap.tardate.com/Kraft/Concorde/"/>
-    <updated>2022-10-22T06:55:58Z</updated>
+    <updated>2022-10-22T07:06:36Z</updated>
     <title>#661 Concorde</title>
     <summary>Last flight of the Concorde - the Airfix 1:114 with LED effects in 1970s travel-agent chic </summary>
     <g:image_link>https://leap.tardate.com/Kraft/Concorde/assets/Concorde_build.jpg</g:image_link>
@@ -38,7 +47,8 @@
     <title>#659 Stridsvagn 103</title>
     <summary>Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Strv103/assets/Strv103_build.jpg</g:image_link>
-    <category term=""/>
+    <category term="scale models"/>
+    <category term="AFV"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/RAAF/Boomerang/</id>
@@ -416,6 +426,7 @@
     <g:image_link>https://leap.tardate.com/Kraft/T34-1942/assets/T34-1942_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="AFV"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/KubelMagic/</id>
@@ -540,6 +551,8 @@
     <summary>A somewhat unconventional diorama featuring an Airfix 1:35 M7 Priest, some MasterBox figures and a bonsai tree!</summary>
     <g:image_link>https://leap.tardate.com/Kraft/ThatIsNotaToy/assets/ThatIsNotaToy_build.jpg</g:image_link>
     <category term="Craft"/>
+    <category term="scale models"/>
+    <category term="AFV"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/555Timer/LaserRay/</id>
@@ -596,6 +609,7 @@
     <category term="Sensor"/>
     <category term="OpAmp"/>
     <category term="Servo"/>
+    <category term="AFV"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/AnalogComparator/</id>
@@ -738,6 +752,7 @@
     <g:image_link>https://leap.tardate.com/Kraft/25pdr/assets/25pdr_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="AFV"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/snowflake/lamp/</id>
