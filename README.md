@@ -1,6 +1,6 @@
 # 663 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Crystal-Locked Schmitt Oscillator](./Electronics101/Oscillators/SchmittCrystalLockedOscillator) - Testing a basic crystal-locked Schmitt oscillator using a 74HC14.
+> Latest addition:sparkles: [3-Digit LCD Panel](./Electronics101/Displays/Lcd3Digit) - Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
