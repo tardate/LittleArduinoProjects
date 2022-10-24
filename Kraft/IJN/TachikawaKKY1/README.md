@@ -77,6 +77,10 @@ And we have take-off! The pose is inspired by the box art.
 ![build04f](./assets/build04f.jpg?raw=true)
 ![build04g](./assets/build04g.jpg?raw=true)
 
+With some prop blur;-)
+
+![build04h](./assets/build04h.jpg?raw=true)
+
 Found a space on the bookshelf pending a proper home..
 
 ![build05a](./assets/build05a.jpg?raw=true)
