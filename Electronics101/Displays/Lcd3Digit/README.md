@@ -1,6 +1,6 @@
 # #663 3-Digit LCD Panel
 
-Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.
+Testing a small 3V, 3-digit LCD panel with an example of driving the multiplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.
 
 ![Build](./assets/Lcd3Digit_build.jpg?raw=true)
 
@@ -73,7 +73,7 @@ Digit segments are "lettered" in the conventional order:
 Each digit is encoded with two segment lines ("d0, d1") over the 4 COM states.
 So the encoding table is as follows:
 
-    | com:  | COM 4   | COM3    | COM2    | COM1    |
+    | com:  |  COM 4  |  COM 3  |  COM 2  |  COM 1  |
     |-------|----|----|----|----|----|----|----|----|
     | line: | d1 | d0 | d1 | d0 | d1 | d0 | d1 | d0 |
     |-------|----|----|----|----|----|----|----|----|
@@ -146,7 +146,7 @@ For each COM step:
 
 ### Simple (Unoptimised) Approach
 
-All the GPIO opertions can be performed with standard
+All the GPIO operations can be performed with standard
 [pinMode](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/)
 [digitalWrite](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
 
@@ -164,7 +164,7 @@ The LCD refresh is fully determined by the
 [register configuration](https://exploreembedded.com/wiki/AVR_I/O_Register_Configuration)
 of the DDRx and PORTx registers.
 
-So instead of using the sndard AVR functions, it is much easier and efficient (though perhaps a little more opaque)
+So instead of using the standard AVR functions, it is much easier and efficient (though perhaps a little more opaque)
 to simply update the 4 registers of concern: DDRB, DDRC, PORTB, PORTC.
 
 I haven't implemented this version (yet).
