@@ -1,4 +1,14 @@
 {
+    "/Kraft/PLAN/Type051C/": {
+        "id": 669,
+        "title": "PLAN Type 051C",
+        "summary": "Building the PLAN Type 051C destroyer DDG 115 \u6c88\u9633 (Shenyang) with a little LED illumination.",
+        "tags": [
+            "Craft",
+            "scale models",
+            "LED"
+        ]
+    },
     "/Radio/CodePracticeOscillator/": {
         "id": 668,
         "title": "Code Practice Oscillator",
