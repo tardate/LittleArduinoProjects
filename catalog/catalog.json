@@ -1,5 +1,12 @@
 [
     {
+        "id": "#664",
+        "name": "Light Control Switch Kit",
+        "description": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
+        "categories": "LDR, CMOS/TTL",
+        "relative_path": "Equipment/LightControlSwitchKit"
+    },
+    {
         "id": "#663",
         "name": "3-Digit LCD Panel",
         "description": "Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.",

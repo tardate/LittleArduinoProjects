@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-10-24T08:53:55Z</updated>
+  <updated>2022-10-28T16:26:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/LightControlSwitchKit/</id>
+    <link href="https://leap.tardate.com/Equipment/LightControlSwitchKit/"/>
+    <updated>2022-10-28T16:22:44Z</updated>
+    <title>#664 Light Control Switch Kit</title>
+    <summary>Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/LightControlSwitchKit/assets/LightControlSwitchKit_build.jpg</g:image_link>
+    <category term="LDR"/>
+    <category term="CMOS/TTL"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/</id>
     <link href="https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/"/>
-    <updated>2022-10-24T08:39:58Z</updated>
+    <updated>2022-10-24T08:54:42Z</updated>
     <title>#663 3-Digit LCD Panel</title>
     <summary>Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/assets/Lcd3Digit_build.jpg</g:image_link>
@@ -4395,7 +4405,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Switches/DPDT/</id>
     <link href="https://leap.tardate.com/Electronics101/Switches/DPDT/"/>
-    <updated>2016-09-21T17:26:16Z</updated>
+    <updated>2022-10-28T16:22:44Z</updated>
     <title>#244 Switches/DPDT</title>
     <summary>all about double-pole, double-thow (DPDT) toggle switches</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Switches/DPDT/assets/DPDT_build.jpg</g:image_link>

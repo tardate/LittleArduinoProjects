@@ -1,4 +1,13 @@
 {
+    "/Equipment/LightControlSwitchKit/": {
+        "id": 664,
+        "title": "Light Control Switch Kit",
+        "summary": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
+        "tags": [
+            "LDR",
+            "CMOS/TTL"
+        ]
+    },
     "/Electronics101/Displays/Lcd3Digit/": {
         "id": 663,
         "title": "3-Digit LCD Panel",

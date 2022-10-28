@@ -1,6 +1,6 @@
-# 663 Little Electronic Art Projects
+# 664 Little Electronic Art Projects
 
-> Latest addition:sparkles: [3-Digit LCD Panel](./Electronics101/Displays/Lcd3Digit) - Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.
+> Latest addition:sparkles: [Light Control Switch Kit](./Equipment/LightControlSwitchKit) - Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
