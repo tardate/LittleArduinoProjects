@@ -111,6 +111,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Germany          | [Faller](https://www.faller.de/)                                         | |
 | Germany          | [fentens Kartonmodellbau](http://www.papermodel.com/)                    | |
 | Germany          | [ModellbauRay](https://modellbauray.com/)                                | 3D printed kits |
+| Germany          | [modellNatur](https://www.modellnatur.de/)                               | landscaping products  |
+| Germany          | [Noch](https://www.noch.com/)                                            | model landscaping products |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
 | Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
@@ -161,6 +163,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Atlantic Models](https://atlanticmodels.net/)                           | PE |
 | UK               | [Dapol](https://www.dapol.co.uk/)                                        | |
 | UK               | [DELUXE Materials](https://deluxematerials.co.uk/)                       | Glues, foams and other construction accessories  |
+| UK               | [elan13](https://elan13.co.uk/)                                          | boutique for figure painters |
 | UK               | [Everbuild](https://www.everbuild.co.uk/)                                | industrial CA and other building supplies |
 | UK               | [Frog](https://en.wikipedia.org/wiki/Frog_(models))                      | 1955-1976, |
 | UK               | [Games Workshop](https://www.games-workshop.com/)                        | miniatures |
@@ -170,6 +173,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Matchbox](https://en.wikipedia.org/wiki/Matchbox_(brand))               | bankrupt, moulds bought by Revell and others |
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
+| UK               | [Treemendus Scenics](https://www.treemendus-scenics.co.uk/home/)         | landscaping products  |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
 | Ukraine          | [AMG Arsenal Model Group](https://amg-models.net/)                       | aircraft, 1:72 |
 | Ukraine          | [Armory Models](https://armorymodels.com/)                               | aircraft,resin |
@@ -207,6 +211,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Round 2](https://www.round2corp.com/)                                   | scale models including die-cast, plastic, slot cars, and other hobby products |
+| USA              | [Scenic Express](https://www.scenicexpress.com/)                         | landscaping products  |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
 
 ## Retailers
