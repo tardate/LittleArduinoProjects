@@ -1,5 +1,12 @@
 [
     {
+        "id": "#665",
+        "name": "ORP \u015al\u0105zak",
+        "description": "Building the ORP \u015al\u0105zak Hunt-class destroyer in 1:700 scale in a Baltic Winter Patrol setting. My first venture into IBG ship kits - no electronics here, just a very fine kit experience.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/PMW/ORPSlazak"
+    },
+    {
         "id": "#664",
         "name": "Light Control Switch Kit",
         "description": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",

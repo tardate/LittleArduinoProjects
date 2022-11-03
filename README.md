@@ -1,4 +1,4 @@
-# 664 Little Electronic Art Projects
+# 665 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Light Control Switch Kit](./Equipment/LightControlSwitchKit) - Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)
 
