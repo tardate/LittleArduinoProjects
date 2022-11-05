@@ -56,7 +56,7 @@ To the extent I kept track of this...
 | ship's boats    | Wood Brown           | H37         | |
 | deck            | dark grey            | H82         | |
 | life rafts      | grey                 | H325        | |
-| upper hull      | Grey Blue            | H337        | 70.989 Sky Grey + smidge 70.992 Neutral Grey |
+| upper hull      | Grey Blue            | H337        | 70.989 Sky Grey + smidgen 70.992 Neutral Grey |
 | superstructure  |                      |             | 70.973 Light Sea Grey |
 | various details |                      |             | 70.992 Neutral Grey, 70.993 White Grey |
 

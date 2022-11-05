@@ -14,7 +14,7 @@ I do have plans to motorize/animate the Quad, but I'll probably come back to tha
 
 The [Ordnance QF 25-pounder](https://en.wikipedia.org/wiki/Ordnance_QF_25-pounder) saw service throughout World War II with British and Commonwealth forces and it was generally thought to be one of the best field guns of the war.
 
-For transportation, the gun attached to its limber and was towed by the[ Morris Commercial C8 FAT (Field Artillery Tractor)](https://en.wikipedia.org/wiki/Morris_C8), commonly known as a Quad. 32 rounds of ammunition were carried in the limbers.
+For transportation, the gun attached to its limber and was towed by the[Morris Commercial C8 FAT (Field Artillery Tractor)](https://en.wikipedia.org/wiki/Morris_C8), commonly known as a Quad. 32 rounds of ammunition were carried in the limbers.
 
 ### The Kit
 
@@ -44,7 +44,7 @@ Main paints used...
 | camouflage    | Dark Earth | 29        | 70.921 English Uniform |
 | camouflage    | Dark Green | 30        | Humbrol 30 |
 | boots, wheels | Black      | 33        | Humbrol 33 |
-| skin          | Flesh      | 61        | Valejo 70.845 Sunny Skin Tone |
+| skin          | Flesh      | 61        | Vallejo 70.845 Sunny Skin Tone |
 
 ### Construction
 

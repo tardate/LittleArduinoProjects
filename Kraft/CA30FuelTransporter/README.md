@@ -48,7 +48,7 @@ Primed with Vallejo Surface Primer 70.601:
 | body                               | H304, FS34087 olive drab | Vallejo 70.891 Intermediate Green + ~30% 70.889 Olive Brown/USA Olive Drab |
 | tires                              | H77 tire black           | Vallejo 70.950 Black + chalk effects/weathering with 70.907 Pale Grey Blue |
 
-Inital spray (body is pure 70.889 Olive Brown at this point)
+Initial spray (body is pure 70.889 Olive Brown at this point)
 
 ![build_02](./assets/build_02.jpg?raw=true)
 
@@ -67,7 +67,7 @@ On the kit:
 * very happy with the end result (especially after painting)
 * window parts are a bit thick and crude. I should have tested the fit before painting and final construction.
 * windshield wipers are fragile parts
-* glue behind the decals was a bit rough and overdone. Some decals required quite a soak to softwn and remove the excess
+* glue behind the decals was a bit rough and overdone. Some decals required quite a soak to soften and remove the excess
 
 Would/could I electrify this? Perhaps LED headlights and/or interior dome lighting. At this scale it is a bit small for RC conversion.
 

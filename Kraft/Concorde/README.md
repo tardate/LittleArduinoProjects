@@ -20,7 +20,7 @@ But it achieves the most important thing - captures the wing geometry beautifull
 
 It's white!
 
-Altohugh I had the "gift set" boxing with Humbrol paint cups,
+Although I had the "gift set" boxing with Humbrol paint cups,
 I didn't use them.
 
 The pain is mostly Mr Hobby Aqueous H1 gloss white,

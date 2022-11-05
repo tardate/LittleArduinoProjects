@@ -41,8 +41,7 @@ There's not much cockpit detail in the two modules that fit neatly into the fuse
 ![build01a](./assets/build01a.jpg?raw=true)
 
 All stitched up and ready for painting. Attempting this "armour style" for a speedy build.
-
-All stiched up and ready for painting. It seemed like I could manage to paint the cockpit after the fuselage was closed up.
+It seemed like I could manage to paint the cockpit after the fuselage was closed up.
 
 ![build01b](./assets/build01b.jpg?raw=true)
 

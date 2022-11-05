@@ -14,7 +14,6 @@ In total there were [317152 units](http://route0030.blog.fc2.com/blog-entry-147.
 
 ### The Kit
 
-
 ### Paint Scheme
 
 To the extent I kept track of this...
@@ -25,13 +24,11 @@ To the extent I kept track of this...
 | lower           | green    | | 70.885 Pastel Green |
 | seat            | brown    | | 70.846 Mahogany Brown + 70.889 Olive Brown 4:1 |
 
-
 ### Build Log
 
 The kit itself is quite basic but a lot of fun for just ¥750.
 
 ![build01a](./assets/build01a.jpg?raw=true)
-
 
 I decided to discard the hard roof from the kit and refine the frame and tray. Later I'll add "vinyl roof" like the original Daihatsu Midget DMK from 1957.
 

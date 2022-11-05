@@ -16,7 +16,6 @@ It took quite a few weeks to make the pieces and a couple of modelling sessions 
 The chess tiles are actually plywood decals from
 [@proper.plane](https://www.instagram.com/proper.plane/); I was originally going to do two shades of wood tile, but I stopped at this midway point that I really like - gives the impression of a marble and wood hand-crafted board, though it's actually just plastic and decals;-)
 
-
 ### The Kit
 
 I love these 1:700 vehicle sets from Pit-Road.
@@ -41,7 +40,7 @@ features:
 * 6 x [88mm Flak 37](https://en.wikipedia.org/wiki/8.8_cm_Flak_18/36/37/41)
 * 6 x [75mm Pak 40](https://en.wikipedia.org/wiki/7.5_cm_Pak_40)
 
-I decided to assign the peices as follows:
+I decided to assign the pieces as follows:
 
 ![aoc_axis_pieces](./assets/aoc_axis_pieces.jpg?raw=true)
 
@@ -63,7 +62,7 @@ The Pit-Road 1:700 military vehicles are both incredibly small and also incredib
 ![build01a](./assets/build01a.jpg?raw=true)
 ![build01b](./assets/build01b.jpg?raw=true)
 
-A bunch of 10c (S$) coins and primed models from the Pit-Road kits - perfect together.
+A bunch of 5c (S$) coins and primed models from the Pit-Road kits - perfect together.
 
 ![build02a](./assets/build02a.jpg?raw=true)
 

@@ -26,7 +26,7 @@ and proved to be exceptionally well engineered. It is a great build.
 [![kit_box](./assets/kit_box.jpg?raw=true)](https://uk.airfix.com/products/blackburn-buccaneer-s2-rn-a06021)
 
 Since the kit-supplied aircrew are identical and not pose-able,
-I picked up some rpelacements from PJ Productions.
+I picked up some replacements from PJ Productions.
 These are a little more detailed: [Modern RAF seated in aircraft PJ Production | No. 721118 | 1:72](https://www.scalemates.com/kits/pj-production-721118-modern-raf-seated-in-aircraft--180890)
 
 ### Some Build Reviews

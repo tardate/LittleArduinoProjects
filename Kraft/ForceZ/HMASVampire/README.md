@@ -16,7 +16,7 @@ Will I make them all? Perhaps! For now, I've started with the Australian destroy
 
 [Force Z](https://en.wikipedia.org/wiki/Force_Z) sailed from Singapore at 1710 on 8 December 1941 after receiving word of a Japanese convoy bound for Malaya.
 It consisted of
-the battleship [HMS Prince of Wales](https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53),
+the battleship [HMS Prince of Wales](<https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53>),
 battlecruiser [HMS Repulse](https://en.wikipedia.org/wiki/HMS_Repulse_(1916)),
 with destroyer escorts
 [HMS Electra](https://en.wikipedia.org/wiki/HMS_Electra_(H27)),
@@ -25,7 +25,7 @@ with destroyer escorts
 [HMS Tenedos](https://en.wikipedia.org/wiki/HMS_Tenedos_(H04)).
 
 On 9 December 1941, Japanese submarine and reconnaissance aircraft reported on Force Z without their knowledge.
-HMS Tenedos was also detacted to return to Singapore as she was running low on fuel.
+HMS Tenedos was also detected to return to Singapore as she was running low on fuel.
 Overnight, flares dropped by Japanese aircraft alerted Force Z to their discovery.
 Having lost the element of surprise, the force was ordered to return to Singapore.
 
@@ -33,10 +33,9 @@ On the return voyage, the force was intercepted by land-based bombers and torped
 Prince of Wales and Repulse were sunk by Japanese aircraft on 10 December 1941.
 Destroyers Electra and Vampire moved in to rescue survivors of Repulse, while Express rescued those from the Prince of Wales.
 
-Occuring just a few days after the Pearl Harbor attacks, this was Britain's turn to learn how vulnerable capital ships were to air power.
+Occurring just a few days after the Pearl Harbor attacks, this was Britain's turn to learn how vulnerable capital ships were to air power.
 There was no attempt to alert or scramble RAF air cover for Force Z, though it is likely to have made little difference
 as the number and vintage of the planes on hand were totally outclassed by the Japanese forces in play.
-
 
 ### HMAS Vampire
 
@@ -47,7 +46,7 @@ as the number and vintage of the planes on hand were totally outclassed by the J
 
 #### Paint
 
-Basic callouts..
+Basic call-outs..
 
 | Feature                 | Recommended | Name             | Paint Used |
 |-------------------------|-------------|------------------|------------|
@@ -59,7 +58,6 @@ Basic callouts..
 | anchor chains           | XF-56       | Metallic Grey    | Humbrol 56 |
 | hull and superstructure | XF-80/TS-81 | Royal Light Grey | Vallejo 70.989 sky grey |
 | primer                  |             |                  | Vallejo 74.602 Black Surface Primer |
-
 
 ## Construction
 

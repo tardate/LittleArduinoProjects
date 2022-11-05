@@ -39,11 +39,10 @@ I'm using the Vallejo Model Color equivalents:
 | 53      | 70.863 Gunmetal Grey               |
 | 110     | 70.875 Beige Brown                 |
 
-
 ### The Build
 
 I kept the build as simple as possible and went with the pre-molded tracks instead of the link-and-length option also included in the kit.
-This saves alot of time in the build - interested to see if they hold up to final scrutiny.
+This saves a lot of time in the build - interested to see if they hold up to final scrutiny.
 
 ![build_01](./assets/build_01.jpg?raw=true)
 
@@ -66,7 +65,7 @@ ready for next round of effects - some oils, dust and chipping
 ![build_04b](./assets/build_04b.jpg?raw=true)
 ![build_04c](./assets/build_04c.jpg?raw=true)
 
-## Time for some Animation!
+## Time for some Animation
 
 The weathering is going well, but now I'm thinking: how about an animated turret?
 
@@ -90,20 +89,20 @@ Testing the circuit on a breadboard:
 
 ### About the Program
 
-The ATtniy85 is configured to run at 8MHz, and programmed with the [Firefly](./Firefly.ino) sketch. The sketch:
+The ATtiny85 is configured to run at 8MHz, and programmed with the [Firefly](./Firefly.ino) sketch. The sketch:
 
 * sets up an interrupt handler on the analog comparator:
-  * when voltage in from the electret microphone goes above the diode-regulated reference voltage of about 0.4V, it triggers the ANA_COMP_vect
-  * ANA_COMP_vect sets a "triggered" flag
+    * when voltage in from the electret microphone goes above the diode-regulated reference voltage of about 0.4V, it triggers the ANA_COMP_vect
+    * ANA_COMP_vect sets a "triggered" flag
 * the main look checks for the "triggered" flag, an initiates the animation if fired.
 * the animate traverses the turret by driving a linear servo using the [SoftwareServo](https://github.com/ttseng/SoftwareServo) library
-  * it provides some "realistic" behaviour by stepping through a series of animation sequences
-  * the animations sequences basically define a series of waypoints (degrees of arc) and how fast to traverse to the waypoint (in degrees per increment)
-  * it could randomise the animation but I haven't done that yet
+    * it provides some "realistic" behaviour by stepping through a series of animation sequences
+    * the animations sequences basically define a series of waypoints (degrees of arc) and how fast to traverse to the waypoint (in degrees per increment)
+    * it could randomise the animation but I haven't done that yet
 
 ### Animated Turret Construction
 
-After confirming the circuit on a breadboard, I transfered to a small piece of protoboard:
+After confirming the circuit on a breadboard, I transferred to a small piece of protoboard:
 
 ![build_05b_module](./assets/build_05b_module.jpg?raw=true)
 
@@ -115,7 +114,6 @@ Since the circuit runs fine on 5V, I'm using a USB adapter for power over USB ca
 Here's an initial demo, before building a base..
 
 [![clip](https://img.youtube.com/vi/nX1w4FhQlrQ/0.jpg)](https://www.youtube.com/watch?v=nX1w4FhQlrQ)
-
 
 ### A Vignette Base
 
