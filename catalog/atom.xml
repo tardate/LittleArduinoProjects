@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-11-03T15:27:26Z</updated>
+  <updated>2022-11-05T06:47:47Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/AxisOfChess/</id>
+    <link href="https://leap.tardate.com/Kraft/AxisOfChess/"/>
+    <updated>2022-11-05T06:32:14Z</updated>
+    <title>#666 Axis Of Chess</title>
+    <summary>Welcome to Axis of Chess, my little excuse for using up a bunch of spare Pit-Road 1:700 vehicles. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/AxisOfChess/assets/AxisOfChess_build.jpg</g:image_link>
+    <category term="Game"/>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/PMW/ORPSlazak/</id>
     <link href="https://leap.tardate.com/Kraft/PMW/ORPSlazak/"/>
-    <updated>2022-11-03T15:27:04Z</updated>
+    <updated>2022-11-03T17:01:16Z</updated>
     <title>#665 ORP Ślązak</title>
     <summary>Building the ORP Ślązak Hunt-class destroyer in 1:700 scale in a Baltic Winter Patrol setting. My first venture into IBG ship kits - no electronics here, just a very fine kit experience.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PMW/ORPSlazak/assets/ORPSlazak_build.jpg</g:image_link>

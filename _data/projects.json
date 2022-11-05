@@ -1,4 +1,14 @@
 {
+    "/Kraft/AxisOfChess/": {
+        "id": 666,
+        "title": "Axis Of Chess",
+        "summary": "Welcome to Axis of Chess, my little excuse for using up a bunch of spare Pit-Road 1:700 vehicles. No electronics in this one.",
+        "tags": [
+            "Game",
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/PMW/ORPSlazak/": {
         "id": 665,
         "title": "ORP \u015al\u0105zak",
