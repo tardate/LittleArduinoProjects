@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-11-05T06:47:47Z</updated>
+  <updated>2022-11-07T15:38:40Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/</id>
+    <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/"/>
+    <updated>2022-11-07T15:36:05Z</updated>
+    <title>#667 MC34063 Buck Converter</title>
+    <summary>Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/assets/BuckConverter_build.jpg</g:image_link>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/AxisOfChess/</id>
     <link href="https://leap.tardate.com/Kraft/AxisOfChess/"/>
@@ -3229,7 +3238,7 @@
     <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit/"/>
     <updated>2017-12-20T14:33:54Z</updated>
-    <title>#358 MC34063/ModuleKit</title>
+    <title>#358 MC34063 Boost Converter Kit</title>
     <summary>build and test an MC34063-based boost converter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit/assets/ModuleKit_build.jpg</g:image_link>
     <category term="Power"/>

@@ -1,7 +1,7 @@
 {
-    "id": "#358", 
-    "name": "MC34063/ModuleKit", 
-    "description": "build and test an MC34063-based boost converter", 
-    "categories": "Power", 
+    "id": "#358",
+    "name": "MC34063 Boost Converter Kit",
+    "description": "build and test an MC34063-based boost converter",
+    "categories": "Power",
     "relative_path": "Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit"
 }

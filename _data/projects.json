@@ -1,4 +1,12 @@
 {
+    "/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/": {
+        "id": 667,
+        "title": "MC34063 Buck Converter",
+        "summary": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
+        "tags": [
+            "Power"
+        ]
+    },
     "/Kraft/AxisOfChess/": {
         "id": 666,
         "title": "Axis Of Chess",
@@ -2906,7 +2914,7 @@
     },
     "/Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit/": {
         "id": 358,
-        "title": "MC34063/ModuleKit",
+        "title": "MC34063 Boost Converter Kit",
         "summary": "build and test an MC34063-based boost converter",
         "tags": [
             "Power"

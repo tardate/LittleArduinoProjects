@@ -1,0 +1,7 @@
+{
+    "id": "#667",
+    "name": "MC34063 Buck Converter",
+    "description": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
+    "categories": "Power",
+    "relative_path": "Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter"
+}

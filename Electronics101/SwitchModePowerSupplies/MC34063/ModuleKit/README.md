@@ -1,4 +1,4 @@
-# #358 MC34063/ModuleKit
+# #358 MC34063 Boost Converter Kit
 
 Build and test an MC34063-based boost converter.
 
@@ -11,7 +11,7 @@ The MC34063 is a monolithic DC-to-DC switching controller that can be adapted to
 This module is a very cheap kit designed by ICStation [ICSK034A](http://www.icstation.com/icstation-step-module-boost-converter-power-supply-module-p-4151.html)
 but now available from many sellers on aliexpress, ebay etc.
 
-It has a fixed converiguration to boost 5V in to 12V out.
+It has a fixed configuration to boost 5V in to 12V out.
 
 ### Parts
 
@@ -31,7 +31,6 @@ It has a fixed converiguration to boost 5V in to 12V out.
 ![pcb_front](./assets/pcb_front.jpg?raw=true)
 
 ![pcb_rear](./assets/pcb_rear.jpg?raw=true)
-
 
 ## Construction
 

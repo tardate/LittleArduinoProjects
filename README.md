@@ -1,6 +1,6 @@
-# 666 Little Electronic Art Projects
+# 667 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Light Control Switch Kit](./Equipment/LightControlSwitchKit) - Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)
+> Latest addition:sparkles: [MC34063 Buck Converter](./Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter) - Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
