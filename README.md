@@ -1,6 +1,6 @@
-# 667 Little Electronic Art Projects
+# 668 Little Electronic Art Projects
 
-> Latest addition:sparkles: [MC34063 Buck Converter](./Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter) - Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.
+> Latest addition:sparkles: [Code Practice Oscillator](./Radio/CodePracticeOscillator) - Build and test a simple 2-transistor code practice oscillator.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

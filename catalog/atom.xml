@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-11-07T15:38:40Z</updated>
+  <updated>2022-11-08T15:35:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Radio/CodePracticeOscillator/</id>
+    <link href="https://leap.tardate.com/Radio/CodePracticeOscillator/"/>
+    <updated>2022-11-08T15:26:40Z</updated>
+    <title>#668 Code Practice Oscillator</title>
+    <summary>Build and test a simple 2-transistor code practice oscillator</summary>
+    <g:image_link>https://leap.tardate.com/Radio/CodePracticeOscillator/assets/CodePracticeOscillator_build.jpg</g:image_link>
+    <category term="BJT"/>
+    <category term="RC"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/"/>

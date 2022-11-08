@@ -1,5 +1,12 @@
 [
     {
+        "id": "#668",
+        "name": "Code Practice Oscillator",
+        "description": "Build and test a simple 2-transistor code practice oscillator",
+        "categories": "BJT, RC, Oscillators",
+        "relative_path": "Radio/CodePracticeOscillator"
+    },
+    {
         "id": "#667",
         "name": "MC34063 Buck Converter",
         "description": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",

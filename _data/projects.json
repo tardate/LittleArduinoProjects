@@ -1,4 +1,14 @@
 {
+    "/Radio/CodePracticeOscillator/": {
+        "id": 668,
+        "title": "Code Practice Oscillator",
+        "summary": "Build and test a simple 2-transistor code practice oscillator",
+        "tags": [
+            "BJT",
+            "RC",
+            "Oscillators"
+        ]
+    },
     "/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/": {
         "id": 667,
         "title": "MC34063 Buck Converter",
