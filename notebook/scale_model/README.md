@@ -176,8 +176,11 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [Treemendus Scenics](https://www.treemendus-scenics.co.uk/home/)         | landscaping products  |
 | UK               | [White Ensign Models](https://www.whiteensignmodels.com/)                | photoetch |
+| Ukraine          | [A&A Models](https://www.facebook.com/AA-Models-1048501705294464/)       |  |
+| Ukraine          | [ACE Models](http://acemodel.com.ua/en)                                  | mainly afv 1:72 |
 | Ukraine          | [AMG Arsenal Model Group](https://amg-models.net/)                       | aircraft, 1:72 |
 | Ukraine          | [Armory Models](https://armorymodels.com/)                               | aircraft,resin |
+| Ukraine          | [ART Model](https://modelsvit-eshop.com/)                                | |
 | Ukraine          | [Clear Prop models](https://clearpropmodels.com/)                        | |
 | Ukraine          | [Dora Wings](https://dorawings.com/)                                     | |
 | Ukraine          | [FOXBOT](http://foxbot.com.ua)                                           | decals |
@@ -186,13 +189,15 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Ukraine          | [Metallic Details](http://metdetails.com/)                               | PE, resin |
 | Ukraine          | [Mikro Mir](http://mikro-mir.com)                                        | rare custom-made military equipment |
 | Ukraine          | [MiniArt Models](https://miniart-models.com/)                            | |
+| Ukraine          | [Modelsvit](https://www.facebook.com/modelsvit/)                         | kits, aircraft |
 | Ukraine          | [Print Scale](https://printscale.org/)                                   | decals |
-| Ukraine          | [Proper Plane](https://properplane.com/)                                 | Wooden propellers |
+| Ukraine          | [Proper Plane](https://properplane.com/)                                 | wooden propellers |
 | Ukraine          | [Reskit Models](https://reskit-models.com/)                              | kits, accessories and parts |
 | Ukraine          | [Roden](http://www.roden.eu/)                                            | |
+| Ukraine          | [SOVA-M](https://www.facebook.com/Sova.M.kits/)                          | kits, aircraft |
 | Ukraine          | [SP Designs](https://afv1-35.wixsite.com/spdesigns)                      | resin accessories |
 | Ukraine          | [The Red Box](https://theredbox.com.ua/)                                 | historical miniatures |
-| Ukraine          | [Wingsy Kits](https://www.wingsykits.com/)                               | kits |
+| Ukraine          | [Wingsy Kits](https://www.wingsykits.com/)                               | kits, aircraft |
 | USA              | [Aurora](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation)      | Defunct |
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
@@ -220,6 +225,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Country          | Name                                                                  | Notes |
 |------------------|-----------------------------------------------------------------------|-------|
 | Australia        | [BNA Model World](https://www.bnamodelworld.com/)                     | |
+| Bulgaria         | [Modelsvit Balkans](https://modelsvit-eshop.com/)                     | A&A Models, Modelsvit, SOVA-M, Art Model |
 | China/aliexpress | [Colorfulday Store](https://www.aliexpress.com/store/4691061)         | great range of models, often good deals |
 | China/aliexpress | [JZ Hobby Store](https://www.aliexpress.com/store/4683015)            | good range of kits, often good deals |
 | China/aliexpress | [KNL HOBBY No.2 Store](https://knlhobby.aliexpress.com/store/3107041) | prices^^ |
@@ -231,6 +237,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
 | Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | great source at good prices for all the main Japanese brands - incl Aoshima, Fine Molds, Fujimi, Hasegawa, Tamiya  |
 | Japan            | [VOLKS Hobby Paradise Online Store](https://hobby.ec.volks.co.jp/)    | ZOUKEI-MURA |
+| Poland           | [IBG](http://en.ibg.com.pl/)                                          | also carries other manufacturers |
 | Singapore        | [Battle Quarters Singapore](https://battlequarters.com/)              | board games, war games and good source of paints and supplies inc Vallejo, Humbrol, AMMO BY MIG |
 | Singapore        | [HammerHouse](https://hammerhouse.com.sg/)                            | miniatures, games, paints (Citadel, Mr Hobby) and accessories |
 | Singapore        | [Hobby Art](https://www.hobbyartwebshop.com/)                         | mainly gundam |
@@ -252,3 +259,4 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
 | UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
+| Ukraine          | [Hobby.dn.ua](https://www.hobby.dn.ua/en/)                            | |
