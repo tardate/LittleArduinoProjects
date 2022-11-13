@@ -53,7 +53,6 @@ The kit has a nice rigging guide that's quite easy to follow.
 
 ![build02a](./assets/build02a.jpg?raw=true)
 
-
 ![build02b](./assets/build02b.jpg?raw=true)
 ![build02c](./assets/build02c.jpg?raw=true)
 ![build02d](./assets/build02d.jpg?raw=true)

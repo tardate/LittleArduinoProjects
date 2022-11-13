@@ -35,7 +35,7 @@ Found an actual photo in the hyperscale review:
 | A: seat, dashboard                            | Matt Black FS37038           | HTK-A041/C041 | 70.950 Black |
 | B: seat; cockpit floor and walls; wheel wells | Dark Ghost Grey FS36320      | HTK-A035/C035 | 70.990 Light Grey FS36375 |
 | C: cockpit floor                              | Green FS34128                | HTK-A221/C221 | 70.893 US Dark Green |
-| D: pedals                                     | Alumimium FS17178            | HTK-A078/C078 | 70.997 Silver |
+| D: pedals                                     | Aluminium FS17178            | HTK-A078/C078 | 70.997 Silver |
 | E: seat                                       | Insignia Red FS11136         | HTK-A219/C219 | 70.909 Vermillion |
 | F: camo3                                      | Dark Grey FS36176            | HTK-A158/C158 | 70.992 Neutral Grey |
 | G: camo3                                      | Light Ghost Grey FS36375     | HTK-A037/C037 | 70.990 Light Grey |
@@ -79,7 +79,6 @@ Ready for the spray booth.
 I decided to try masking using silicon therapy putty (Spencer Pollard's influence). Worked great, though starts to flow after a while in our weather.
 
 ![build02e](./assets/build02e.jpg?raw=true)
-
 
 Finally back to lay down a most interesting camo scheme on the Arma Hobby 1:72 PZL TS-11 Iskra. Lovely little jet trainer.
 

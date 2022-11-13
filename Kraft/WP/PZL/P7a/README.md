@@ -12,8 +12,8 @@ The [PZL P.7a](https://en.wikipedia.org/wiki/PZL_P.7) was the main fighter for t
 
 The [Arma Hobby 70006 PZL P.7a Expert Set 1/72](https://www.armahobby.com/pzl-p-7a-expert-set.html)
 is the first kit I've bought from this manufacturer. I have heard really good things about them,
-and I was certainly not disappointed. the expert set is beautifully puttogether and includes everything needed
-to produce a great rendering of this intersting aircraft from the interwar years.
+and I was certainly not disappointed. The expert set is beautifully put together and includes everything needed
+to produce a great rendering of this interesting aircraft from the interwar years.
 
 [![kit-box](./assets/kit-box.jpg?raw=true)](https://www.armahobby.com/pzl-p-7a-expert-set.html)
 
@@ -32,7 +32,6 @@ PZL P.7a, 123. Eskadra Myśliwska z Krakowa. Samolot dowódcy Eskadry kpt. pil. 
 | D - underbody               | Polish Light Blue-Grey | FS36473 - HTK-A036/C036 | 79.907 Pale Grey Blue  |
 | E - unused                  | Dark Polish Khaki      | FS30118 | HTK-A010/C010 | 70.873 US Field Drab |
 | F - main fuselage and wings | Light Polish Khaki     | FS30095 - HTK-A011/C011 | 70.921 English Uniform |
-
 
 ### Construction
 
