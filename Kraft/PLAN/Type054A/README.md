@@ -13,7 +13,7 @@ The [Type 054A](https://en.wikipedia.org/wiki/Type_054A_frigate) is a multi-role
 and the class first entered service in 2005.
 The 黄山/Huangshan (570) I've modelled here is still in active service.
 
-In retrospect, I think I chose the wrong scale. At 1:700, the Trumpter kit has noticable structural differences from photos I've seen of the ships, and there's not much scope for even photo-etch to make up for missing detail.
+In retrospect, I think I chose the wrong scale. At 1:700, the Trumpeter kit has noticeable structural differences from photos I've seen of the ships, and there's not much scope for even photo-etch to make up for missing detail.
 
 It also turned out to be a bit too small to do anything particularly interesting with custom electronics.
 I've set my eye on some 1:350 subjects for Trumpeter to have another go.

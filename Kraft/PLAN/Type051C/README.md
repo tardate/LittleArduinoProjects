@@ -98,7 +98,6 @@ Greeblies and aerials copied from some reference photos... at 1:350, the ship re
 
 ![build02c](./assets/build02c.jpg?raw=true)
 
-
 ![build03a](./assets/build03a.jpg?raw=true)
 ![build03b](./assets/build03b.jpg?raw=true)
 ![build03c](./assets/build03c.jpg?raw=true)
@@ -108,6 +107,8 @@ Greeblies and aerials copied from some reference photos... at 1:350, the ship re
 ![build04c](./assets/build04c.jpg?raw=true)
 
 It could still do with a bit more detailing, and I've been thinking about placing it in a seascape, but that's all for now!
+
+tbh, I think this one convinced me that 1:350 not really my scale - too much blank canvas and standard level of detail even with PE is far from convincing, so quite a big job to fill the gap. I can see myself returning to this build to add detail and weathering over the next year or more! But in the meantime I think I'll be retreating back to 1:700..
 
 ## Credits and References
 
