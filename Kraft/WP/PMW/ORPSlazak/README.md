@@ -14,7 +14,8 @@ until being transferred back to the Royal Navy in 1946.
 NB:
 
 * [ORP](https://en.wikipedia.org/wiki/Polish_Navy): Okręt Rzeczypospolitej Polskiej (Warship of the Republic of Poland)
-* PWM: Polska Marynarka Wojenna (Polish Navy)
+* [PWM](https://en.wikipedia.org/wiki/Polish_Navy): Polska Marynarka Wojenna (Polish Navy)
+* [WP](https://en.wikipedia.org/wiki/Polish_Armed_Forces): Wojsko Polskie (Polish Military)
 
 ### The Kit
 
