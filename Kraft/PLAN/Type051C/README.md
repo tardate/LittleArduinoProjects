@@ -75,6 +75,8 @@ I installed a series of red LEDs (0604 SMD) powered by a CR2032 coin cell:
 
 ![schematic](./assets/Type051C_schematic.jpg?raw=true)
 
+![build03d](./assets/build03d.jpg?raw=true)
+
 ## Build Log
 
 I carved out the bridge windows and fitted some tinted windows (IC component bags)
