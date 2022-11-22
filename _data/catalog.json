@@ -1,5 +1,12 @@
 [
     {
+        "id": "#670",
+        "name": "Nano Expansion Board",
+        "description": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
+        "categories": "Arduino",
+        "relative_path": "playground/Nano/ExpansionBoard"
+    },
+    {
         "id": "#669",
         "name": "PLAN Type 051C",
         "description": "Building the PLAN Type 051C destroyer DDG 115 \u6c88\u9633 (Shenyang) with a little LED illumination.",

@@ -1,6 +1,6 @@
-# 669 Little Electronic Art Projects
+# 670 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Code Practice Oscillator](./Radio/CodePracticeOscillator) - Build and test a simple 2-transistor code practice oscillator.
+> Latest addition:sparkles: [Nano Expansion Board](./playground/Nano/ExpansionBoard) - Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

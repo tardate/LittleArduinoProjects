@@ -1,4 +1,12 @@
 {
+    "/playground/Nano/ExpansionBoard/": {
+        "id": 670,
+        "title": "Nano Expansion Board",
+        "summary": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
+        "tags": [
+            "Arduino"
+        ]
+    },
     "/Kraft/PLAN/Type051C/": {
         "id": 669,
         "title": "PLAN Type 051C",
