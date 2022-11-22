@@ -214,6 +214,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Monogram](https://en.wikipedia.org/wiki/Monogram_(company))             | Company defunct |
 | USA              | [MRC](https://www.modelrectifier.com/)                                   | |
 | USA              | [Pegasus Hobbies](https://pegasushobbies.net)                            | miniatures |
+| USA              | [propblur](http://www.propblur.com/)                                     | prop blur accessories |
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Round 2](https://www.round2corp.com/)                                   | scale models including die-cast, plastic, slot cars, and other hobby products |
