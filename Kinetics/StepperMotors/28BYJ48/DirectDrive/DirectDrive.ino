@@ -130,6 +130,7 @@ void fullStepDemo() {
   }
   delay(DEMO_DELAY);
 
+  step=3; //counter clockwise rotation should start with the 4th step
   for(int i=0; i < STEPS_PER_REVOLUTION; ++i) {
     clockwise = false;
     fullStep();
