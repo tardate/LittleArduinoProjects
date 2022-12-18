@@ -2,7 +2,6 @@
 
 Use an Arduino to monitor an LM324 OpAmp in non-inverting DC gain mode and plot the results with [Processing](https://www.processing.org).
 
-
 ## Notes
 
 This circuit demonstrates the non-inverting DC gain mode of an LM324 Operational Amplifier.
@@ -29,7 +28,7 @@ the upper trace is the amplified signal output from the OpAmp:
 
 The Arduino only acts as a measurement device in this circuit.
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
 ![The Breadboard](./assets/NonInverting324_bb.jpg?raw=true)
 

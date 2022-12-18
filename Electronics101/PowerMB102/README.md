@@ -4,7 +4,6 @@ Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using an Arduino to measur
 
 ![MB102 unit](./assets/MB102_product_image.jpg?raw=true)
 
-
 ## Notes
 
 Various 3.3/5V MB102 Breadboard Power Supplies are a widely available for providing regulated 3.3V and 5V for projects on a breadboard.
@@ -26,7 +25,6 @@ Measurement results:
 | 3.3V             | 3.33       | 3.31
 | 5V               | 5.00       | 4.99
 
-
 Here's a sample trace of the two voltage rails as measured by the Arduino:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
@@ -44,14 +42,13 @@ This must be measured with a multimeter and the `vref_mv` constant changed to th
 
 For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
 
-
 ### Construction
 
 The Arduino only acts as a measurement device in this circuit.
 Analog pins are used to read Vout via voltage dividers (Rd1/Rd2 and Rd3/Rd4).
 The voltage dividers are to ensure that the Arduino never sees more than half the battery voltage (4.5V) on the analog pin.
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
 ![The Breadboard](./assets/PowerMB102_bb.jpg?raw=true)
 

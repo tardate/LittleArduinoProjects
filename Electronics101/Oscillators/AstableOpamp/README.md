@@ -2,7 +2,6 @@
 
 Use an Arduino to monitor the behaviour of an LM324 OpAmp astable oscillator and plot the results with [Processing](https://www.processing.org).
 
-
 ## Notes
 
 Demos the generation of a low-frequency square wave with an LM324 OpAmp.
@@ -31,7 +30,7 @@ The lower trace is at the inverted input, the upper trace is the output.
 
 The Arduino only acts as a measurement device in this circuit.
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
 ![The Breadboard](./assets/AstableOpamp_bb.jpg?raw=true)
 

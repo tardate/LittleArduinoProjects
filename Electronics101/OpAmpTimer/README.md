@@ -2,7 +2,6 @@
 
 Test an OpAmp timer switch.
 
-
 ## Notes
 
 This circuit uses an OpAmp configured as a comparator to switch an output for a period of time
@@ -14,7 +13,7 @@ So with a 5V supply, the switching point is 2.5V.
 At steady-state, C1 is fully charged to positive supply and this sets the inverting OpAmp input well above the
 non-inverting threshold and therefore the OpAmp output is off (low).
 
-When S1 is pressed, C1 is fully discharged and the inverting OpAmp input pulled low, so OpAmp output swithes on (high).
+When S1 is pressed, C1 is fully discharged and the inverting OpAmp input pulled low, so OpAmp output switches on (high).
 
 When S1 is released, C1 charges through R4+R5, and the OpAmp output remains high until the C1 voltage reaches the
 switching threshold. R4 is a 50kΩ pot, which allows the switching time to be adjusted.
@@ -32,6 +31,7 @@ t = - 𝛕 ln(0.5)
 ```
 
 So the low and high timing limits are:
+
 * when R4+R5=1kΩ and C=47µF: [32ms](https://www.wolframalpha.com/input/?i=-+%281k%CE%A9*47%C2%B5F%29+*++ln%280.5%29)
 * when R4+R5=51kΩ and C=47µF: [1.6s](https://www.wolframalpha.com/input/?i=-+%2851k%CE%A9*47%C2%B5F%29+*++ln%280.5%29)
 
@@ -39,10 +39,12 @@ Note that the switching logic may be flipped to normally on with a timed off per
 
 The LM741 is not capable or rail-to-rail operation. In fact it is not a particularly good OpAmp - but it is convenient.
 With a 5V supply, the particular unit used here only measures a 2.6V swing:
+
 * output low: 1.6V
 * output high: 4.2V
 
-Here's a sample trace of the circuit behaviour recorded using [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues)
+Here's a sample trace of the circuit behaviour recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues)
+
 * upper trace is the OpAmp output
 * lower trace is the non-inverting input (i.e. C1 voltage)
 
@@ -65,4 +67,3 @@ with perhaps R3 adjusted to limit current to the LED as required.
 
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [talkingelectronics timer circuit](http://www.talkingelectronics.com/projects/OP-AMP/OP-AMP-2.html) - a similar circuit that inspired this build (with a few modifications)
-

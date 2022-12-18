@@ -4906,7 +4906,7 @@
     },
     "/playground/AD9833/BasicDemoCycle/": {
         "id": 148,
-        "title": "AD9833/BasicDemoCycle",
+        "title": "AD9833 Basic Demo Cycle",
         "summary": "run a basic waveform demo with an AD9833 module",
         "tags": [
             "Arduino",
@@ -5562,7 +5562,7 @@
     },
     "/playground/MonostablePulseExtender/": {
         "id": 76,
-        "title": "MonostablePulseExtender",
+        "title": "Monostable Pulse Extender",
         "summary": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino",
         "tags": [
             "CMOS/TTL",

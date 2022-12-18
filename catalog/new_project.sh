@@ -85,6 +85,8 @@ __notes__
 
 * [this project on scalemates](xxx)
 * [name](url)
+* [name](url)
+* [name](url)
 EOS
 
   local catalog_file="${full_path}/.catalog_metadata"

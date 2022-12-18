@@ -1,6 +1,8 @@
-# #148 AD9833/BasicDemoCycle
+# #148 AD9833 Basic Demo Cycle
 
 Run a basic waveform demo with an AD9833 module
+
+![The Build](./assets/BasicDemoCycle_build.jpg?raw=true)
 
 ## Notes
 
@@ -9,11 +11,13 @@ I bought an
 with the intention of using it to build a function generator to add to my collection of test gear.
 
 This project is a first test to explore:
+
 * the SPI protocol it supports
 * different waveforms it can produce
 * controlling the frequency
 
 Conclusion:
+
 * once you get the SPI configuration correct, it works extremely well, and is very easy to control.
 * accuracy at frequencies under 1MHz or so is very good
 * accuracy over 1MHz inconclusive .. I need to do some more testing
@@ -43,11 +47,11 @@ NB: the "analog ground" is internally linked to "digital ground" according to th
 ### SPI Specifics
 
 The module operates in SPI_MODE2 with MSBFIRST:
+
 * data shifted on falling edge
 * FSYNC pin is active low,
 * accepts the most significant bit (MSB) of each transfer first.
 * The SCLK pin is also specified to be kept high when not in use
-
 
 ### Waveform demo
 
@@ -58,9 +62,10 @@ it is redundant to wrap each command sequence in a transaction. But it is a good
 NB: many other scripts found on the net pre-date this syntax.
 
 It is running at very low frequencies in order to produce a visual demo. It sends the measure waveform to the serial port.
-[PlotNValues (a simple Processing sketch)](../../../processing/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
 Here's a sample trace. It shows a few cycles of each waveform. From the left:
+
 * sine wave
 * square wave (normal cycle time)
 * triangle wave
@@ -92,11 +97,10 @@ By 12MHz, it has devolved to a heavily-modulated mess:
 
 ![scope_12MHz trace](./assets/scope_12MHz.gif?raw=true)
 
-
 ## Construction
 
 NB: I created a
-[custom Fritzing Part available here](../../../FritzingParts/AD9833_Module) for these diagrams.
+[custom Fritzing Part available here](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/AD9833_Module) for these diagrams.
 
 ![Breadboard](./assets/BasicDemoCycle_bb.jpg?raw=true)
 

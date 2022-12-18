@@ -2,13 +2,14 @@
 
 Sample up to 6 analog inputs and stream the data to serial in ASCII format - for plotting with Processing for example.
 
+![The Build](./assets/PlotNValues_build.jpg?raw=true)
 
 ## Notes
 
 This is a generic program for sampling up to 6 analog values on a fixed time base,
 and streaming the data to the serial port in ASCII, comma-separated format.
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) can be used to read the data from the serial port
+[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues/PlotNValues.pde) can be used to read the data from the serial port
 and plot the values over time, with some coloration effects thrown in for good measure.
 
 In other words, we're using Arduino and Processing as a basic oscilloscope or waveform plotter.
@@ -36,5 +37,4 @@ Here's an example 6-input trace:
 ## Credits and References
 
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) library
-* [PlotNValues](../../processing/PlotNValues) Processing sketch
-
+* [PlotNValues](../../processing/PlotNValues/PlotNValues.pde) Processing sketch

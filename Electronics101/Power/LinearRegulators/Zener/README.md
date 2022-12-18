@@ -6,7 +6,7 @@ Demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to m
 
 ## Notes
 
-The 1N4733 zener diode is rated at 5.1V reverse-bias beakdown voltage.
+The 1N4733 zener diode is rated at 5.1V reverse-bias breakdown voltage.
 In reverse bias mode, it is able to sustain high current at a very constant value of the reverse-breakdown voltage.
 Note that other diodes in the 1N4728 - 1N4764 range are available for other zener voltages.
 
@@ -34,13 +34,12 @@ This must be measured with a multimeter and the `vref_mv` constant changed to th
 
 For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
 
-
 ### Construction
 
 The Arduino only acts as a measurement device in this circuit.
 Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage divider is to ensure that the Arduino never sees more than half the battery voltage (4.5V) on the analog pin.
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
 ![The Breadboard](./assets/Zener_bb.jpg?raw=true)
 

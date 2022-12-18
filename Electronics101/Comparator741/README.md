@@ -2,9 +2,7 @@
 
 Uses an Arduino to test LM741 comparator behaviour and plot the results with processing
 
-
 ## Notes
-
 
 ### Testing Characteristic Comparator Behaviour
 
@@ -34,7 +32,7 @@ The objective of the Arduino sketch is to drive the non-inverting to various vol
 with the inverting reference voltage set to Vcc/2 (2.5V) with a simple voltage divider.
 
 Since the Arduino's [analogWrite](http://arduino.cc/en/Reference/analogWrite) is actually a PWM signal,
-it is necessary to peform a PWM-to-analogue conversion, otherwise the 741 would simply oscillate according to the PWM signal.
+it is necessary to perform a PWM-to-analogue conversion, otherwise the 741 would simply oscillate according to the PWM signal.
 
 The circuit uses a simple [RC low-pass filter](http://en.wikipedia.org/wiki/Low-pass_filter) to perform the conversion.
 This introduces a time constant to the non-inverting voltage that inhibits instantaneous change.
@@ -53,13 +51,14 @@ for the OpAmp comparator. But there is also an appreciable lag behind that actua
 ### Measured Results
 
 The comparator behaviour is demonstrated in the following trace with R=22kΩ and C=10μF.
+
 * upper trace it the OpAmp output voltage
 * middle trace is the inverting input voltage
 * lower trace is the actual PWM output value
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope .. and it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope .. and it kind of works, mainly because the frequency is so low.
 
 ### Construction
 
@@ -68,7 +67,6 @@ The Arduino acts as a controller and measurement device in this circuit.
 The circuit is powered directly from the Arduino 5V pin, although it could also be powered by an independent 5V supply.
 Note that if the external power supply is over 5V, the analog inputs should be scaled back with a voltage divider to avoid overloading
 Arduino pins.
-
 
 ![The Breadboard](./assets/Comparator741_bb.jpg?raw=true)
 
@@ -85,4 +83,3 @@ Arduino pins.
 * [Arduino’s AnalogWrite – Converting PWM to a Voltage](http://provideyourown.com/2011/analogwrite-convert-pwm-to-voltage/)
 * [Secrets of Arduino PWM](http://arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
 * [PWM-Analog design calculator](http://sim.okawa-denshi.jp/en/PWMtool.php)
-

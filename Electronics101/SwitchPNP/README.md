@@ -2,7 +2,6 @@
 
 Use an Arduino to demonstrate a digital switch using an PNP BJT, and plot the results with [Processing](https://www.processing.org).
 
-
 ## Notes
 
 This is a demonstration a standard small-signal switching circuit using an PNP transistor.
@@ -23,13 +22,11 @@ Looking at my parts box, I picked 330kΩ instead. Actual current measurements wi
 | Ic  | 2mA    | 2.85mA   |
 | Ib  | 9uA    | 12uA     |
 
-
-Aside from the LED, an analog input pin is used to read a voltage in the load chain to see what is going on and send the data to [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) for plotting over time.
+Aside from the LED, an analog input pin is used to read a voltage in the load chain to see what is going on and send the data to [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) for plotting over time.
 
 Here's a sample trace. It also illustrates the impact of the filter capacitor C1 - the first 5 cycles in the plot are without C1, the remainder with C1 in place.
 
 ![processing trace](./assets/processing_trace.png?raw=true)
-
 
 ### Construction
 
@@ -38,7 +35,6 @@ Here's a sample trace. It also illustrates the impact of the filter capacitor C1
 ![The Schematic](./assets/SwitchPNP_schematic.jpg?raw=true)
 
 ![The Build](./assets/SwitchPNP_build.jpg?raw=true)
-
 
 ## Credits and References
 

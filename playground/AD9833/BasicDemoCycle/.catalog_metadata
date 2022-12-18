@@ -1,7 +1,7 @@
 {
-    "id": "#148", 
-    "name": "AD9833/BasicDemoCycle", 
-    "description": "run a basic waveform demo with an AD9833 module", 
-    "categories": "Arduino, Oscillators", 
+    "id": "#148",
+    "name": "AD9833 Basic Demo Cycle",
+    "description": "run a basic waveform demo with an AD9833 module",
+    "categories": "Arduino, Oscillators",
     "relative_path": "playground/AD9833/BasicDemoCycle"
 }

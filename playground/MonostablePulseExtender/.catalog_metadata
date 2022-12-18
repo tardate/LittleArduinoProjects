@@ -1,7 +1,7 @@
 {
-    "id": "#076", 
-    "name": "MonostablePulseExtender", 
-    "description": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino", 
-    "categories": "CMOS/TTL, Arduino", 
+    "id": "#076",
+    "name": "Monostable Pulse Extender",
+    "description": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino",
+    "categories": "CMOS/TTL, Arduino",
     "relative_path": "playground/MonostablePulseExtender"
 }

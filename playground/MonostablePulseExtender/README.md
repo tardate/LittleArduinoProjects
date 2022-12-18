@@ -1,7 +1,6 @@
-# #076 MonostablePulseExtender
+# #076 Monostable Pulse Extender
 
 Use an Arduino to test the behaviour of a 74LS122 monostable with external timing configuration and plot the results.
-
 
 ## Notes
 
@@ -20,11 +19,10 @@ or be reduced by use of the overriding clear.
 In this circuit an Arduino sends high-level-active (B) input pulses to trigger the monostable.
 LEDs are separately connected to output Q and Q complement, so they will toggle as the pulse goes high and low respectively.
 
-The Arduino also reads output Q with an analog input pin and sends the data to [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues).
+The Arduino also reads output Q with an analog input pin and sends the data to [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues).
 Here's a trace of the behaviour. The lower trace is the trigger state, and the upper trace is the gate output.
 
 ![processing trace](./assets/processing_trace.png?raw=true)
-
 
 ### Construction
 

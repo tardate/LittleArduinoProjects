@@ -2,7 +2,6 @@
 
 Use an Arduino to monitor the behaviour of a low-frequency LM324 OpAmp waveform generator (square,triangle,sine,cosine) and plot the results with [Processing](https://www.processing.org).
 
-
 ## Notes
 
 The circuit uses the 4 OpAmps in an LM324 to drive four waveforms: square,triangle,sine,cosine.
@@ -28,7 +27,6 @@ Note that the reference voltage is not shared to avoid cross-over problems.
 The square wave from stage 1 is fed to the second stage configured as an [integrating amplifier](http://en.wikipedia.org/wiki/Op_amp_integrator).
 This results in a triangle wave.
 
-
 ### Stage 3: Sine Wave Integrator
 
 The triangle wave from stage 1 is fed to the third stage to perform a second [integration](http://en.wikipedia.org/wiki/Op_amp_integrator).
@@ -40,16 +38,16 @@ To transform the output from stage 3 (sine) to cosine, we use the final OpAmp un
 
 ### Measured Behaviour
 
-[PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) reads the data from the serial port and plots the output values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope ... and it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the output values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope ... and it kind of works, mainly because the frequency is so low.
 
 The behaviour is demonstrated in the following trace with R4 variable resistor at about 10kΩ.
+
 * Stage 4 (upper trace) is the cosine output
 * Stage 3 (upper middle trace) is the sine wave output
 * Stage 2 (lower middle trace) is the triangle wave output
 * Stage 1 (lower trace) is the square wave output
 
 ![processing trace](./assets/processing_trace.png?raw=true)
-
 
 ### Construction
 
@@ -61,7 +59,6 @@ That works fine, although it is equally possible to use a separate power supply 
 ![The Schematic](./assets/FunctionGenerator324_schematic.jpg?raw=true)
 
 ![The Build](./assets/FunctionGenerator324_build.jpg?raw=true)
-
 
 ## Credits and References
 

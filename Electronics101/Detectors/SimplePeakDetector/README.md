@@ -23,7 +23,7 @@ will be better served by a shorter time constant).
 
 The main problem with this circuit is the fact we lose the diode forward voltage from the output, resulting in offset measurements and an equivalent minimum input voltage sensitivity.
 
-Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../../processing/PlotNValues)
+Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues)
 
 * upper trace is the output of the peak detector
 * lower trace is the signal input (a rough triangle wave source in this test)

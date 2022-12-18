@@ -22,7 +22,7 @@ The frequency of the oscillation is calculated as:
 The oscillating output from the inverter is used to drive the base of a general-purpose NPN transistor, switching a LED on and off in turn.
 The transistor is used to isolate the 74LS14 from the load, as it is not designed to directly handle any significant current.
 
-Here's a sample trace recorded using [PlotNValues (a simple Processing sketch)](../../processing/PlotNValues) to
+Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) to
 read the data collected by the [SchmittOscillator.ino](./SchmittOscillator.ino) program.
 The lower trace is the input, and the upper trace is the output of the inverter:
 
@@ -32,7 +32,7 @@ Schmitt inverters produce a non-symmetrical waveform. The duty cycle is about 33
 This is particular to the LS (low-power Schottky) version of the 7414.
 To oscillate at all, R values must be kept between 100Ω and 1kΩ, and C between 1nF and 1000µF.
 
-Apparently 74HC14 has a duty cycle more like 50% and can handle higher values of R (but I don't have one handly to test).
+Apparently 74HC14 has a duty cycle more like 50% and can handle higher values of R (but I don't have one handy to test).
 
 See [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html) for more, and
 [Circuit Properties of LS and HC Digital Logic](http://mysite.du.edu/~etuttle/electron/elect13.htm) for comparison of LS and HC characteristics.

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-11-22T15:39:04Z</updated>
+  <updated>2022-12-18T01:02:19Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -5443,7 +5443,7 @@
     <id>https://leap.tardate.com/playground/AD9833/BasicDemoCycle/</id>
     <link href="https://leap.tardate.com/playground/AD9833/BasicDemoCycle/"/>
     <updated>2015-10-03T17:01:45Z</updated>
-    <title>#148 AD9833/BasicDemoCycle</title>
+    <title>#148 AD9833 Basic Demo Cycle</title>
     <summary>run a basic waveform demo with an AD9833 module</summary>
     <g:image_link>https://leap.tardate.com/playground/AD9833/BasicDemoCycle/assets/BasicDemoCycle_build.jpg</g:image_link>
     <category term="Arduino"/>
@@ -6171,7 +6171,7 @@
     <id>https://leap.tardate.com/playground/MonostablePulseExtender/</id>
     <link href="https://leap.tardate.com/playground/MonostablePulseExtender/"/>
     <updated>2015-06-04T13:47:48Z</updated>
-    <title>#076 MonostablePulseExtender</title>
+    <title>#076 Monostable Pulse Extender</title>
     <summary>test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino</summary>
     <g:image_link>https://leap.tardate.com/playground/MonostablePulseExtender/assets/MonostablePulseExtender_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
