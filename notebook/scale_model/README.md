@@ -236,8 +236,19 @@ This is not an exhaustive list - mainly just companies with products that have c
 | EU               | [SMK](https://www.scale-model-kits.com/)                              | |
 | EU               | [Super-Hobby](https://www.super-hobby.com/)                           | |
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
+| Japan            | [Leonardo ET レオナルドET](https://goo.gl/maps/HkkXsd4qUW9FxmsH7)                                                       | not as good a range as LG |
+| Japan            | [Leonardo LG レオナルドLG](https://goo.gl/maps/GyN7PMrpkHRUaREU9)                                                       | range bit more diverse than LG2 but not so much my interests. Good prices, but sometimes premium for old stock. |
+| Japan            | [Leonardo LG2 レオナルドLG ２号店](https://goo.gl/maps/7ajGEkACaNDxaYfq9)                                                | fantastic range of planes, ships in all scales. |
 | Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | great source at good prices for all the main Japanese brands - incl Aoshima, Fine Molds, Fujimi, Hasegawa, Tamiya  |
+| Japan            | [Surugaya Akihabara Plastic model Hall 駿河屋 秋葉原プラモデル館](https://goo.gl/maps/8XbFWjgic6UBCLZk6)                  | gunpla and misc models and tools |
+| Japan            | [TAMIYA Plamodel Factory Shimbashi タミヤ プラモデルファクトリー 新橋店](https://goo.gl/maps/cS8ZMSZtWfaxNUMz8)            | must-see, but prices are premium/undiscounted of course, also cannot duty free |
+| Japan            | [Tamtam Hobby Shop ホビーショップ タムタム 秋葉原店](https://goo.gl/maps/CuQQnq8TeJ9kJhqDA)                                | good rail section |
+| Japan            | [Volks Akihabara Hobby Paradise ボークス秋葉原ホビー天国2](https://goo.gl/maps/ZtUs23EJanoKD35L8)                         | great for tools and supplies (God Hand, Tamiya etc). Can duty free. |
 | Japan            | [VOLKS Hobby Paradise Online Store](https://hobby.ec.volks.co.jp/)    | ZOUKEI-MURA |
+| Japan            | [YAMADA Denki LABI Shinjuku ヤマダデンキ LABI新宿西口館](https://goo.gl/maps/t5cBfw9jfsmF5MsM9)                           | has the best prices on new kits (Shinjuku outlet pretty good range; Shibuya about 25% the size). Can duty free |
+| Japan            | [Yellow Submarine Akihabara Scale Shop イエローサブマリン 秋葉原スケールショップ](https://goo.gl/maps/PyZyomfSEKMBY4t5A)    | haven't personally been to this one yet |
+| Japan            | [YFS ミニチュア人形のYFS](https://goo.gl/maps/S5KtH56RwSksh9EfA)                                                         | rail-oriented figures. haven't personally been to this one yet |
+| Japan            | [Yodabashi Shinjuku West Main Store ヨドバシカメラ 新宿西口本店 ゲーム館](https://goo.gl/maps/uN9fHBQjoBJdZijQA)           | large range of new kits and tools at reasonable prices. Can duty free. |
 | Poland           | [IBG](http://en.ibg.com.pl/)                                          | also carries other manufacturers |
 | Singapore        | [Battle Quarters Singapore](https://battlequarters.com/)              | board games, war games and good source of paints and supplies inc Vallejo, Humbrol, AMMO BY MIG |
 | Singapore        | [HammerHouse](https://hammerhouse.com.sg/)                            | miniatures, games, paints (Citadel, Mr Hobby) and accessories |
