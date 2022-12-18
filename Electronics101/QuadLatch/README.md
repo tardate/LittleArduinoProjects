@@ -31,7 +31,7 @@ In other words, we're using Arduino and Processing as a basic oscilloscope! And 
 The circuit uses a digital output pins to sequence inputs to D1-4 and latch the value.
 Four analog input pins are used to sample the latched output Q1-4, with the values is echoed to the Arduino serial port.
 
-The circuit diagram uses a custom 74LS75 Fritzing Part [available here](../../FritzingParts/74LS75).
+The circuit diagram uses a custom 74LS75 Fritzing Part [available here](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/74LS75).
 
 ![The Breadboard](./assets/QuadLatch_bb.jpg?raw=true)
 

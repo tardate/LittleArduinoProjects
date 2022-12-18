@@ -27,7 +27,7 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 
 ## Construction
 
-NB: schematics use non-standard [HC-SR04 Fritzing Part](../../FritzingParts)
+NB: schematics use non-standard [HC-SR04 Fritzing Part](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts)
 
 ![The Breadboard](./assets/RangeFinder_bb.jpg?raw=true)
 

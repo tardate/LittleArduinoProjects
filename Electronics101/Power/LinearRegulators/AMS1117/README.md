@@ -37,7 +37,7 @@ But they're convenient!
 
 ## Construction
 
-NB: these diagrams use the [custom AMS1117 module fritzing part](../../../../FritzingParts/AMS1117)
+NB: these diagrams use the [custom AMS1117 module fritzing part](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/AMS1117)
 
 ![Breadboard](./assets/AMS1117_bb.jpg?raw=true)
 

@@ -199,8 +199,8 @@ I tried my hand at creating some custom parts (using the new part formats - most
 Note that these parts are not suitable for etching your own stepper drive board,
 but they do work nicely enough for drawing circuits involving and X113647 or 28BYJ-48 components.
 
-* [28BYJ-48 Stepper Motor](../../../FritzingParts//28BYJ48)
-* [X113647 Stepper Driver Board](../../../FritzingParts/X113647) is a part for the board.
+* [28BYJ-48 Stepper Motor](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/28BYJ48)
+* [X113647 Stepper Driver Board](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/X113647) is a part for the board.
 
 
 With these parts you can draw stepper motor circuits like this canonical hookup of the X113647 and 28BYJ-48 to an Arduino Uno, with external power supply for the motor. In this case, the breadboard is just a glorified cable connector.
