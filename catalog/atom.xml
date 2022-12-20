@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-20T13:12:43Z</updated>
+  <updated>2022-12-20T14:53:04Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/PLAAF/J20/</id>
+    <link href="https://leap.tardate.com/Kraft/PLAAF/J20/"/>
+    <updated>2022-12-20T14:51:20Z</updated>
+    <title>#672 J-20</title>
+    <summary>Building the Trumpeter 1:144 kit of the Chengdu J-20 fifth-generation fighter of the PLAAF (no electronics here, just a great little kit)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/PLAAF/J20/assets/J20_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Ki46/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Ki46/"/>
@@ -658,12 +668,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/PLAAF/JF-17/</id>
-    <link href="https://leap.tardate.com/Kraft/PLAAF/JF-17/"/>
+    <id>https://leap.tardate.com/Kraft/PLAAF/JF17/</id>
+    <link href="https://leap.tardate.com/Kraft/PLAAF/JF17/"/>
     <updated>2022-01-18T15:15:51Z</updated>
     <title>#609 JF-17</title>
     <summary>Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/PLAAF/JF-17/assets/JF-17_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/PLAAF/JF17/assets/JF17_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>

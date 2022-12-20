@@ -1,4 +1,13 @@
 {
+    "/Kraft/PLAAF/J20/": {
+        "id": 672,
+        "title": "J-20",
+        "summary": "Building the Trumpeter 1:144 kit of the Chengdu J-20 fifth-generation fighter of the PLAAF (no electronics here, just a great little kit)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/IJA/Ki46/": {
         "id": 671,
         "title": "Mitsubishi Ki-46 Trainer",
@@ -582,7 +591,7 @@
             "LED"
         ]
     },
-    "/Kraft/PLAAF/JF-17/": {
+    "/Kraft/PLAAF/JF17/": {
         "id": 609,
         "title": "JF-17",
         "summary": "Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.",

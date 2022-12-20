@@ -1,4 +1,4 @@
-# 671 Little Electronic Art Projects
+# 672 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Nano Expansion Board](./playground/Nano/ExpansionBoard) - Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.
 
