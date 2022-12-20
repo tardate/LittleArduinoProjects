@@ -121,6 +121,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Hong Kong        | [Hong Kong Models](https://www.hk-models.com/hkm/)                       | |
 | Italy            | [astromodel](https://www.astromodel.it/)                                 | LifeColor |
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
+| Japan            | [Aerobase](https://www.aerobase.jp/)                                     | metal frame aircraft model kits |
 | Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)            |  |
 | Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 | now part of Microace |
 | Japan            | [Aurora Model](https://aurora-model.jp/)                                 | miniatures, figures |

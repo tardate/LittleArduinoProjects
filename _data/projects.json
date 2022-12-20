@@ -1,4 +1,13 @@
 {
+    "/Kraft/IJA/Ki46/": {
+        "id": 671,
+        "title": "Mitsubishi Ki-46 Trainer",
+        "summary": "Building a SG$5 bargain ARII 1:72 kit of the Mitsubishi Ki-46-II Dinah Trainer (no electronics)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/playground/Nano/ExpansionBoard/": {
         "id": 670,
         "title": "Nano Expansion Board",
@@ -227,10 +236,10 @@
             "Craft"
         ]
     },
-    "/Kraft/IJN/Ki55/": {
+    "/Kraft/IJA/Ki55/": {
         "id": 645,
         "title": "Tachikawa Ki-55",
-        "summary": "Building a $5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)",
+        "summary": "Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)",
         "tags": [
             "scale models",
             "Craft"

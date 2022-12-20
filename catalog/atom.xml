@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-18T01:02:19Z</updated>
+  <updated>2022-12-20T13:12:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/Ki46/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/Ki46/"/>
+    <updated>2022-12-20T13:12:31Z</updated>
+    <title>#671 Mitsubishi Ki-46 Trainer</title>
+    <summary>Building a SG$5 bargain ARII 1:72 kit of the Mitsubishi Ki-46-II Dinah Trainer (no electronics)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/Ki46/assets/Ki46_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/Nano/ExpansionBoard/</id>
     <link href="https://leap.tardate.com/playground/Nano/ExpansionBoard/"/>
@@ -265,12 +275,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/IJN/Ki55/</id>
-    <link href="https://leap.tardate.com/Kraft/IJN/Ki55/"/>
+    <id>https://leap.tardate.com/Kraft/IJA/Ki55/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/Ki55/"/>
     <updated>2022-07-18T14:54:28Z</updated>
     <title>#645 Tachikawa Ki-55</title>
-    <summary>Building a $5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJN/Ki55/assets/Ki55_build.jpg</g:image_link>
+    <summary>Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/Ki55/assets/Ki55_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
