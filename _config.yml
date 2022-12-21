@@ -45,6 +45,9 @@ facebook_comments_number: 10
 github_username:  tardate
 bitbucket_username:
 stackoverflow_id: 6329
+mastodon_url: "https://ruby.social/@tardate"
+mastodon_name: "@tardate@ruby.social"
+instagram_username: "little.electronic.art.projects"
 twitter_username: tardate
 skype_username:
 steam_nickname:
@@ -55,7 +58,6 @@ medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
-instagram_username: little.electronic.art.projects
 
 # Build settings
 markdown: kramdown
