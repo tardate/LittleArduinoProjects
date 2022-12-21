@@ -115,3 +115,4 @@ The full effect of the propblur thundering along a dusty runway!
 * [Mitsubishi Ki-46-II Dinah Trainer ARII No. 53016 1:72](https://www.scalemates.com/kits/arii-53016-mitsubishi-ki-46-ii-dinah-trainer--371434) - scalemates
 * [Japanese Navy Airmen Set Hasegawa No. X72-16 1:72](https://www.scalemates.com/kits/hasegawa-x72-16-japanese-navy-airmen-set--1123725)
 * [Mitsubishi Ki-46](https://en.wikipedia.org/wiki/Mitsubishi_Ki-46) - wikipedia
+* [0.94" Off Hub PropBlur Blades](https://www.scalemates.com/kits/propblur-pboffh72-off-hub-propblur-blades--1225584) - scalemates
