@@ -18,7 +18,7 @@ layout: default
               {% assign leap_id = "LEAP" | append: project_id %}
               {% assign project_title = project["name"] %}
               {% assign project_description = project["description"] %}
-              {% assign hero_image_url = project_path  | prepend: site.baseurl | append: "/assets/" | append: project_name | append: "_build.jpg" %}
+              {% assign hero_image_url = project_path  | prepend: site.baseurl | append: "/assets/" | append: project_name | append: "_build_thumbnail.jpg" %}
               <a href="{{ project_path | prepend: site.baseurl }}"
                 data-toggle="tooltip" data-placement="bottom" title="{{ leap_id }} {{ project_title }} - {{ project_description }}">
                 <img class="media-object" src="{{ hero_image_url }}" alt="{{ project_title }}">

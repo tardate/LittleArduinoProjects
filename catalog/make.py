@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """ A script to build the catalog.json file.
 
-Collates all project metadata into a simple JSON file used by the catalog index.
-It also generates a data file used by jekyll page generation.
-(These are currently two separate files because of the different
-access pattern requirements for each)
+* Collates all project metadata into a simple JSON file used by the catalog index.
+* Generates a data file used by jekyll page generation.
+    * These are currently two separate files because of the different access pattern requirements for each
+* Generates thumbnails for gallery view
 
 This should be re-run after adding a project or updating any project metadata.
 
@@ -17,6 +17,29 @@ import fnmatch
 from datetime import datetime
 from xml.etree import ElementTree
 from xml.dom import minidom
+from PIL import Image
+from PIL import ImageOps
+
+
+def remove_orientation(image):
+    exif = image.getexif()
+    for tag in exif.keys():
+        if tag != 0x0112:  # only keep orientation tag
+            exif[tag] = None
+            del exif[tag]
+    image.info['exif'] = exif.tobytes()
+    return ImageOps.exif_transpose(image)
+
+
+def update_thumbnail(file_name):
+    root, ext = os.path.splitext(file_name)
+    new_file_name = f'{root}_thumbnail{ext}'
+    if os.path.exists(new_file_name):
+        return
+
+    image = remove_orientation(Image.open(file_name))
+    new_size = (60, 60)
+    image.resize(new_size).save(new_file_name)
 
 
 class Catalog(object):
@@ -51,6 +74,7 @@ class Catalog(object):
     def get_project_modified_datetime(self, relative_path, filename='README.md'):
         indicative_file = self.get_project_file(relative_path, filename)
         return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
+
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
@@ -110,6 +134,7 @@ class Catalog(object):
                 asset_path,
                 hero_image_file
             )
+            update_thumbnail(self.get_project_file(asset_path, hero_image_file))
             updated_at = self.get_project_modified_datetime(asset_path, hero_image_file)
             doc = ElementTree.SubElement(root, "entry")
             ElementTree.SubElement(doc, "id").text = url
@@ -124,7 +149,7 @@ class Catalog(object):
         pretty_write(root, self.catalog_atom)
 
     def rebuild(self):
-        """ Command: rebuild catalogcatalog assets from metadata. """
+        """ Command: rebuild catalog assets from metadata. """
         self.generate_catalog()
         self.generate_project_data()
         self.generate_atom_feed()
