@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-21T08:28:22Z</updated>
+  <updated>2022-12-21T14:04:02Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/Soviet/VictorIII/</id>
+    <link href="https://leap.tardate.com/Kraft/Soviet/VictorIII/"/>
+    <updated>2022-12-21T14:03:39Z</updated>
+    <title>#673 Empire in Decay - Victor III</title>
+    <summary>A Soviet Victor III tied up to a wharf and left to decay in the toxic sludge ... modelled from the Dragon 1:700 kit (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Soviet/VictorIII/assets/VictorIII_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/PLAAF/J20/</id>
     <link href="https://leap.tardate.com/Kraft/PLAAF/J20/"/>
@@ -520,12 +530,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/T34-1942/</id>
-    <link href="https://leap.tardate.com/Kraft/T34-1942/"/>
+    <id>https://leap.tardate.com/Kraft/Soviet/T34-1942/</id>
+    <link href="https://leap.tardate.com/Kraft/Soviet/T34-1942/"/>
     <updated>2022-02-22T14:48:48Z</updated>
     <title>#622 T34 1942</title>
     <summary>Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/T34-1942/assets/T34-1942_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/Soviet/T34-1942/assets/T34-1942_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="AFV"/>
@@ -6486,7 +6496,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDRStereoTripDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/LDRStereoTripDetector/"/>
-    <updated>2015-04-04T02:21:41Z</updated>
+    <updated>2022-12-21T13:09:31Z</updated>
     <title>#047 LDRStereoTripDetector</title>
     <summary>demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDRStereoTripDetector/assets/LDRStereoTripDetector_build.jpg</g:image_link>
@@ -6616,7 +6626,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDRComparator/</id>
     <link href="https://leap.tardate.com/Electronics101/LDRComparator/"/>
-    <updated>2015-03-15T05:44:03Z</updated>
+    <updated>2022-12-21T13:09:31Z</updated>
     <title>#034 LDRComparator</title>
     <summary>low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDRComparator/assets/LDRComparator_build.jpg</g:image_link>

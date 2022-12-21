@@ -1,5 +1,12 @@
 [
     {
+        "id": "#673",
+        "name": "Empire in Decay - Victor III",
+        "description": "A Soviet Victor III tied up to a wharf and left to decay in the toxic sludge ... modelled from the Dragon 1:700 kit (no electronics in this one)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/Soviet/VictorIII"
+    },
+    {
         "id": "#672",
         "name": "J-20",
         "description": "Building the Trumpeter 1:144 kit of the Chengdu J-20 fifth-generation fighter of the PLAAF (no electronics here, just a great little kit)",
@@ -354,7 +361,7 @@
         "name": "T34 1942",
         "description": "Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)",
         "categories": "scale models, Craft, AFV",
-        "relative_path": "Kraft/T34-1942"
+        "relative_path": "Kraft/Soviet/T34-1942"
     },
     {
         "id": "#621",

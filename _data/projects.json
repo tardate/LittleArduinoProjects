@@ -1,4 +1,13 @@
 {
+    "/Kraft/Soviet/VictorIII/": {
+        "id": 673,
+        "title": "Empire in Decay - Victor III",
+        "summary": "A Soviet Victor III tied up to a wharf and left to decay in the toxic sludge ... modelled from the Dragon 1:700 kit (no electronics in this one)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/PLAAF/J20/": {
         "id": 672,
         "title": "J-20",
@@ -457,7 +466,7 @@
             "Craft"
         ]
     },
-    "/Kraft/T34-1942/": {
+    "/Kraft/Soviet/T34-1942/": {
         "id": 622,
         "title": "T34 1942",
         "summary": "Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)",
