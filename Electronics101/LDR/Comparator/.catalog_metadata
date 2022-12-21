@@ -1,0 +1,7 @@
+{
+    "id": "#034",
+    "name": "LDR Comparator",
+    "description": "low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor",
+    "categories": "Sensors, OpAmp, Arduino",
+    "relative_path": "Electronics101/LDR/Comparator"
+}

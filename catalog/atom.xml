@@ -5,16 +5,36 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-21T14:04:02Z</updated>
+  <updated>2022-12-22T04:07:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/LDR/DataSlicer/</id>
+    <link href="https://leap.tardate.com/Electronics101/LDR/DataSlicer/"/>
+    <updated>2022-12-22T04:05:30Z</updated>
+    <title>#675 LDR Data Slicer Trigger</title>
+    <summary>Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LDR/DataSlicer/assets/DataSlicer_build.jpg</g:image_link>
+    <category term="Sensors"/>
+    <category term="OpAmp"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/</id>
+    <link href="https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/"/>
+    <updated>2022-12-22T04:05:11Z</updated>
+    <title>#674 LDR Differential Comparator</title>
+    <summary>Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/assets/DifferentialComparator_build.jpg</g:image_link>
+    <category term="Sensors"/>
+    <category term="OpAmp"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Soviet/VictorIII/</id>
     <link href="https://leap.tardate.com/Kraft/Soviet/VictorIII/"/>
-    <updated>2022-12-21T14:03:39Z</updated>
+    <updated>2022-12-21T14:55:32Z</updated>
     <title>#673 Empire in Decay - Victor III</title>
     <summary>A Soviet Victor III tied up to a wharf and left to decay in the toxic sludge ... modelled from the Dragon 1:700 kit (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Soviet/VictorIII/assets/VictorIII_build.jpg</g:image_link>
@@ -532,7 +552,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Soviet/T34-1942/</id>
     <link href="https://leap.tardate.com/Kraft/Soviet/T34-1942/"/>
-    <updated>2022-02-22T14:48:48Z</updated>
+    <updated>2022-12-21T14:55:32Z</updated>
     <title>#622 T34 1942</title>
     <summary>Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Soviet/T34-1942/assets/T34-1942_build.jpg</g:image_link>
@@ -6494,12 +6514,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/LDRStereoTripDetector/</id>
-    <link href="https://leap.tardate.com/Electronics101/LDRStereoTripDetector/"/>
-    <updated>2022-12-21T13:09:31Z</updated>
-    <title>#047 LDRStereoTripDetector</title>
+    <id>https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/</id>
+    <link href="https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/"/>
+    <updated>2022-12-22T03:01:32Z</updated>
+    <title>#047 LDR Stereo Trip Detector</title>
     <summary>demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/LDRStereoTripDetector/assets/LDRStereoTripDetector_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/assets/StereoTripDetector_build.jpg</g:image_link>
     <category term="OpAmp"/>
   </entry>
   <entry>
@@ -6624,12 +6644,12 @@
     <category term="HC-SR04"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/LDRComparator/</id>
-    <link href="https://leap.tardate.com/Electronics101/LDRComparator/"/>
-    <updated>2022-12-21T13:09:31Z</updated>
-    <title>#034 LDRComparator</title>
+    <id>https://leap.tardate.com/Electronics101/LDR/Comparator/</id>
+    <link href="https://leap.tardate.com/Electronics101/LDR/Comparator/"/>
+    <updated>2022-12-22T03:01:32Z</updated>
+    <title>#034 LDR Comparator</title>
     <summary>low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/LDRComparator/assets/LDRComparator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/LDR/Comparator/assets/Comparator_build.jpg</g:image_link>
     <category term="Sensors"/>
     <category term="OpAmp"/>
     <category term="Arduino"/>

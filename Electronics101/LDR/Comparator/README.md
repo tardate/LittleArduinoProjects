@@ -1,6 +1,8 @@
-# #034 LDRComparator - Low-light Trip Detector
+# #034 Low-light Trip Detector
 
 Use an Arduino to monitor an LDR sensor, and plot the results with [Processing](https://www.processing.org).
+
+![The Build](./assets/Comparator_build.jpg?raw=true)
 
 ## Notes
 
@@ -45,11 +47,11 @@ flips high when the light level goes below the preset threshold.
 
 ### Construction
 
-![The Breadboard](./assets/LDRComparator_bb.jpg?raw=true)
+![The Breadboard](./assets/Comparator_bb.jpg?raw=true)
 
-![The Schematic](./assets/LDRComparator_schematic.jpg?raw=true)
+![The Schematic](./assets/Comparator_schematic.jpg?raw=true)
 
-![The Build](./assets/LDRComparator_build.jpg?raw=true)
+![The Build](./assets/Comparator_build.jpg?raw=true)
 
 ## Credits and References
 

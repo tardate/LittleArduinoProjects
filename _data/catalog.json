@@ -1,5 +1,19 @@
 [
     {
+        "id": "#675",
+        "name": "LDR Data Slicer Trigger",
+        "description": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
+        "categories": "Sensors, OpAmp",
+        "relative_path": "Electronics101/LDR/DataSlicer"
+    },
+    {
+        "id": "#674",
+        "name": "LDR Differential Comparator",
+        "description": "Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)",
+        "categories": "Sensors, OpAmp",
+        "relative_path": "Electronics101/LDR/DifferentialComparator"
+    },
+    {
         "id": "#673",
         "name": "Empire in Decay - Victor III",
         "description": "A Soviet Victor III tied up to a wharf and left to decay in the toxic sludge ... modelled from the Dragon 1:700 kit (no electronics in this one)",
@@ -4390,10 +4404,10 @@
     },
     {
         "id": "#047",
-        "name": "LDRStereoTripDetector",
+        "name": "LDR Stereo Trip Detector",
         "description": "demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor",
         "categories": "OpAmp",
-        "relative_path": "Electronics101/LDRStereoTripDetector"
+        "relative_path": "Electronics101/LDR/StereoTripDetector"
     },
     {
         "id": "#046",
@@ -4481,10 +4495,10 @@
     },
     {
         "id": "#034",
-        "name": "LDRComparator",
+        "name": "LDR Comparator",
         "description": "low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor",
         "categories": "Sensors, OpAmp, Arduino",
-        "relative_path": "Electronics101/LDRComparator"
+        "relative_path": "Electronics101/LDR/Comparator"
     },
     {
         "id": "#033",

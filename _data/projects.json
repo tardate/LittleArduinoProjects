@@ -1,4 +1,22 @@
 {
+    "/Electronics101/LDR/DataSlicer/": {
+        "id": 675,
+        "title": "LDR Data Slicer Trigger",
+        "summary": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
+        "tags": [
+            "Sensors",
+            "OpAmp"
+        ]
+    },
+    "/Electronics101/LDR/DifferentialComparator/": {
+        "id": 674,
+        "title": "LDR Differential Comparator",
+        "summary": "Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)",
+        "tags": [
+            "Sensors",
+            "OpAmp"
+        ]
+    },
     "/Kraft/Soviet/VictorIII/": {
         "id": 673,
         "title": "Empire in Decay - Victor III",
@@ -5854,9 +5872,9 @@
             "Arduino"
         ]
     },
-    "/Electronics101/LDRStereoTripDetector/": {
+    "/Electronics101/LDR/StereoTripDetector/": {
         "id": 47,
-        "title": "LDRStereoTripDetector",
+        "title": "LDR Stereo Trip Detector",
         "summary": "demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor",
         "tags": [
             "OpAmp"
@@ -5971,9 +5989,9 @@
             "HC-SR04"
         ]
     },
-    "/Electronics101/LDRComparator/": {
+    "/Electronics101/LDR/Comparator/": {
         "id": 34,
-        "title": "LDRComparator",
+        "title": "LDR Comparator",
         "summary": "low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor",
         "tags": [
             "Sensors",

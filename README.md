@@ -1,6 +1,6 @@
-# 673 Little Electronic Art Projects
+# 675 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Nano Expansion Board](./playground/Nano/ExpansionBoard) - Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.
+> Latest addition:sparkles: [LDR Data Slicer Trigger](./Electronics101/LDR/DataSlicer) - Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR).
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
