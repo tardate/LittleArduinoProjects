@@ -18,7 +18,7 @@
       <a class="fa fa-solid fa-rss" href="{{ site.feed_path | prepend: site.baseurl }}"></a>
     {% endif %}
     {% if site.mastodon_url %}
-      <a class="fa fa-brands fa-mastodon" href="{{ site.mastodon_url }}"></a>
+      <a class="fa fa-brands fa-mastodon" rel="me" href="{{ site.mastodon_url }}"></a>
     {% endif %}
     {% if site.instagram_username %}
       <a class="fa fa-brands fa-instagram" href="https://www.instagram.com/{{ site.instagram_username }}/"></a>
