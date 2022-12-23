@@ -2,6 +2,6 @@
     "id": "#164",
     "name": "Watson LED Ring",
     "description": "test a Watson 3-LED Ring oscillator",
-    "categories": "Oscillators",
-    "relative_path": "Electronics101/WatsonLedRing"
+    "categories": "Oscillators, LED",
+    "relative_path": "Electronics101/Oscillators/WatsonLedRing"
 }

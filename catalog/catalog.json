@@ -1,5 +1,12 @@
 [
     {
+        "id": "#676",
+        "name": "LED-LDR Ring Oscillator",
+        "description": "Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.",
+        "categories": "Oscillators, LED, LDR",
+        "relative_path": "Electronics101/Oscillators/LdrLedRing"
+    },
+    {
         "id": "#675",
         "name": "LDR Data Slicer Trigger",
         "description": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
@@ -3587,8 +3594,8 @@
         "id": "#164",
         "name": "Watson LED Ring",
         "description": "test a Watson 3-LED Ring oscillator",
-        "categories": "Oscillators",
-        "relative_path": "Electronics101/WatsonLedRing"
+        "categories": "Oscillators, LED",
+        "relative_path": "Electronics101/Oscillators/WatsonLedRing"
     },
     {
         "id": "#163",

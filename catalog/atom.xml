@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-22T04:07:00Z</updated>
+  <updated>2022-12-23T09:30:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/"/>
+    <updated>2022-12-23T09:28:53Z</updated>
+    <title>#676 LED-LDR Ring Oscillator</title>
+    <summary>Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/assets/LdrLedRing_build.jpg</g:image_link>
+    <category term="Oscillators"/>
+    <category term="LED"/>
+    <category term="LDR"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/DataSlicer/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/DataSlicer/"/>
-    <updated>2022-12-22T04:05:30Z</updated>
+    <updated>2022-12-22T04:08:30Z</updated>
     <title>#675 LDR Data Slicer Trigger</title>
     <summary>Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/DataSlicer/assets/DataSlicer_build.jpg</g:image_link>
@@ -24,7 +35,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/"/>
-    <updated>2022-12-22T04:05:11Z</updated>
+    <updated>2022-12-22T04:08:30Z</updated>
     <title>#674 LDR Differential Comparator</title>
     <summary>Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/assets/DifferentialComparator_build.jpg</g:image_link>
@@ -5341,13 +5352,14 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/WatsonLedRing/</id>
-    <link href="https://leap.tardate.com/Electronics101/WatsonLedRing/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/WatsonLedRing/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/WatsonLedRing/"/>
     <updated>2019-06-02T04:21:51Z</updated>
     <title>#164 Watson LED Ring</title>
     <summary>test a Watson 3-LED Ring oscillator</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/WatsonLedRing/assets/WatsonLedRing_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/WatsonLedRing/assets/WatsonLedRing_build.jpg</g:image_link>
     <category term="Oscillators"/>
+    <category term="LED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/VariableSawtoothGenerator/</id>
@@ -6516,7 +6528,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/"/>
-    <updated>2022-12-22T03:01:32Z</updated>
+    <updated>2022-12-22T04:08:30Z</updated>
     <title>#047 LDR Stereo Trip Detector</title>
     <summary>demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/assets/StereoTripDetector_build.jpg</g:image_link>
@@ -6646,7 +6658,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/Comparator/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/Comparator/"/>
-    <updated>2022-12-22T03:01:32Z</updated>
+    <updated>2022-12-22T04:08:30Z</updated>
     <title>#034 LDR Comparator</title>
     <summary>low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/Comparator/assets/Comparator_build.jpg</g:image_link>
