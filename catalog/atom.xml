@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-23T09:30:33Z</updated>
+  <updated>2022-12-25T11:38:39Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/WP/WZ34/</id>
+    <link href="https://leap.tardate.com/Kraft/WP/WZ34/"/>
+    <updated>2022-12-25T11:34:41Z</updated>
+    <title>#677 wz. 34</title>
+    <summary>Building the Polish Samochód pancerny wz. 34 from the 1:35 Mirage Hobby kit, with some figures from MiniArt: The Lost Christmas</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/WP/WZ34/assets/WZ34_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/"/>

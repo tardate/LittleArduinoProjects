@@ -1,4 +1,4 @@
-# 676 Little Electronic Art Projects
+# 677 Little Electronic Art Projects
 
 > Latest addition:sparkles: [LDR Data Slicer Trigger](./Electronics101/LDR/DataSlicer) - Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR).
 
