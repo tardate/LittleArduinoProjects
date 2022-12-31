@@ -2,11 +2,7 @@
 
 Perhaps my final build for 2022. Fittingly, figures from MasterBox of Ukraine, in a diorama that attempts to capture my greatest hope for what will come in the new year..
 
-![Build](./assets/InSpring_build.jpg?raw=true)
-
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+![InSpring_slide1](./assets/InSpring_slide1.jpg?raw=true)
 
 ## Notes
 
