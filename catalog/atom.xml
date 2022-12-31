@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2022-12-25T11:38:39Z</updated>
+  <updated>2022-12-31T06:37:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/InSpring/</id>
+    <link href="https://leap.tardate.com/Kraft/InSpring/"/>
+    <updated>2022-12-31T06:36:54Z</updated>
+    <title>#678 In Spring</title>
+    <summary>Perhaps my final build for 2022. Fittingly, figures from MasterBox of Ukraine, in a diorama that attempts to capture my greatest hope for what will come in the new year.. (no electronics)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/InSpring/assets/InSpring_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/WP/WZ34/</id>
     <link href="https://leap.tardate.com/Kraft/WP/WZ34/"/>

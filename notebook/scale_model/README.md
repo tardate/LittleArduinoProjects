@@ -109,6 +109,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | France           | [Heller](https://www.heller.fr/)                                         | |
 | France           | [L'Arsenal](http://www.larsenal.com/)                                    | resin kits |
 | France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
+| France           | [Readoak](http://reedoak.com/)                                           | 3D printed figures |
 | Germany          | [Faller](https://www.faller.de/)                                         | |
 | Germany          | [fentens Kartonmodellbau](http://www.papermodel.com/)                    | |
 | Germany          | [ModellbauRay](https://modellbauray.com/)                                | 3D printed kits |
