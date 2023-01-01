@@ -1,6 +1,6 @@
-# 678 Little Electronic Art Projects
+# 679 Little Electronic Art Projects
 
-> Latest addition:sparkles: [LDR Data Slicer Trigger](./Electronics101/LDR/DataSlicer) - Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR).
+> Latest addition:sparkles: [Yawatamaru / Un'yō](./Kraft/IJN/YawataMaruUnyo) - Using a Pepper's Ghost effect in a box diorama to capture the Yawatamaru (八幡丸) conversion to Taiyō-class escort carrier Un'yō (雲鷹).
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

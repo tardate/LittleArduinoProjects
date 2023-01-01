@@ -72,6 +72,9 @@ See also:
 
 ![The nano_pins](./assets/nano_pins.png?raw=true)
 
-## Attiny
+## ATtiny
+
+* <https://learn.sparkfun.com/tutorials/tiny-avr-programmer-hookup-guide/attiny85-use-hints>
+* <https://mjvo.github.io/tutorials/circuits/attiny85/>
 
 [![attiny_generic_pinout_and_ISP_pins.png](./assets/attiny_generic_pinout_and_ISP_pins.png?raw=true)](https://arduino.pinout.guide/attiny_generic_pinout_and_ISP_pins.png)
