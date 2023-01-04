@@ -8,6 +8,10 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/mHR9h1_hlYA/0.jpg)](https://www.youtube.com/watch?v=mHR9h1_hlYA)
 
+And here's a behind-the-scenes view of the box diorama in action:
+
+[![clip](https://img.youtube.com/vi/TQ0gLDy1ZRg/0.jpg)](https://www.youtube.com/watch?v=TQ0gLDy1ZRg)
+
 ## Notes
 
 Yawatamaru (八幡丸) is one of three Nitta Maru-class cargo liners built in Japan during the late 1930s to be transferred to the Imperial Japanese Navy (IJN) for conversion to escort carrier. The Yawatamaru was converted in 1942 to Taiyō-class escort carrier Un'yō (雲鷹, Cloud Hawk).
@@ -161,6 +165,10 @@ Looking through the window when the Un'yō is illuminated:
 Here's a demo of the final effect:
 
 [![clip](https://img.youtube.com/vi/mHR9h1_hlYA/0.jpg)](https://www.youtube.com/watch?v=mHR9h1_hlYA)
+
+And here's a behind-the-scenes view of the box diorama in action:
+
+[![clip](https://img.youtube.com/vi/TQ0gLDy1ZRg/0.jpg)](https://www.youtube.com/watch?v=TQ0gLDy1ZRg)
 
 ## Credits and References
 
