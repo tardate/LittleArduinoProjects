@@ -4,6 +4,8 @@ Perhaps my final build for 2022. Fittingly, figures from MasterBox of Ukraine, i
 
 ![InSpring_slide1](./assets/InSpring_slide1.jpg?raw=true)
 
+![build03h](./assets/build03h.jpg?raw=true)
+
 ## Notes
 
 Title: "In spring.."
