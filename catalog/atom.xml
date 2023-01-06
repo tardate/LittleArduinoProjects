@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-02T08:55:56Z</updated>
+  <updated>2023-01-06T13:41:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/MiniRotaryTool/</id>
+    <link href="https://leap.tardate.com/Equipment/MiniRotaryTool/"/>
+    <updated>2023-01-06T13:41:01Z</updated>
+    <title>#680 Mini Rotary Tool</title>
+    <summary>unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/MiniRotaryTool/assets/MiniRotaryTool_build.jpg</g:image_link>
+    <category term="Tools"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJN/YawataMaruUnyo/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/YawataMaruUnyo/"/>
-    <updated>2023-01-02T08:50:59Z</updated>
+    <updated>2023-01-02T08:57:00Z</updated>
     <title>#679 Yawatamaru / Un'yō</title>
     <summary>Using a Pepper's Ghost effect in a box diorama to capture the Yawatamaru (八幡丸) conversion to Taiyō-class escort carrier Un'yō (雲鷹).</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/YawataMaruUnyo/assets/YawataMaruUnyo_build.jpg</g:image_link>

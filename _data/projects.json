@@ -1,4 +1,12 @@
 {
+    "/Equipment/MiniRotaryTool/": {
+        "id": 680,
+        "title": "Mini Rotary Tool",
+        "summary": "unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving",
+        "tags": [
+            "Tools"
+        ]
+    },
     "/Kraft/IJN/YawataMaruUnyo/": {
         "id": 679,
         "title": "Yawatamaru / Un'y\u014d",
