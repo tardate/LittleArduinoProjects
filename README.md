@@ -1,6 +1,6 @@
-# 680 Little Electronic Art Projects
+# 681 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Yawatamaru / Un'yō](./Kraft/IJN/YawataMaruUnyo) - Using a Pepper's Ghost effect in a box diorama to capture the Yawatamaru (八幡丸) conversion to Taiyō-class escort carrier Un'yō (雲鷹).
+> Latest addition:sparkles: [Electret Audio Pre-amplifier](./Audio/AudioAmps/ElectretPreamp) - Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

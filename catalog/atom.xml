@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-07T03:26:40Z</updated>
+  <updated>2023-01-08T03:20:22Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Audio/AudioAmps/ElectretPreamp/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/ElectretPreamp/"/>
+    <updated>2023-01-08T03:19:39Z</updated>
+    <title>#681 Electret Audio Pre-amplifier</title>
+    <summary>Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.</summary>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/ElectretPreamp/assets/ElectretPreamp_build.jpg</g:image_link>
+    <category term="Breadboard Bling"/>
+    <category term="OpAmp"/>
+    <category term="Audio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Equipment/MiniRotaryTool/</id>
     <link href="https://leap.tardate.com/Equipment/MiniRotaryTool/"/>
-    <updated>2023-01-06T13:42:34Z</updated>
+    <updated>2023-01-07T04:28:14Z</updated>
     <title>#680 Mini Rotary Tool</title>
     <summary>unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving</summary>
     <g:image_link>https://leap.tardate.com/Equipment/MiniRotaryTool/assets/MiniRotaryTool_build.jpg</g:image_link>
@@ -23,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/YawataMaruUnyo/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/YawataMaruUnyo/"/>
-    <updated>2023-01-02T08:57:00Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#679 Yawatamaru / Un'yō</title>
     <summary>Using a Pepper's Ghost effect in a box diorama to capture the Yawatamaru (八幡丸) conversion to Taiyō-class escort carrier Un'yō (雲鷹).</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/YawataMaruUnyo/assets/YawataMaruUnyo_build.jpg</g:image_link>
@@ -34,7 +45,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/InSpring/</id>
     <link href="https://leap.tardate.com/Kraft/InSpring/"/>
-    <updated>2022-12-31T06:36:54Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#678 In Spring</title>
     <summary>Perhaps my final build for 2022. Fittingly, figures from MasterBox of Ukraine, in a diorama that attempts to capture my greatest hope for what will come in the new year.. (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/InSpring/assets/InSpring_build.jpg</g:image_link>
@@ -44,7 +55,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WP/WZ34/</id>
     <link href="https://leap.tardate.com/Kraft/WP/WZ34/"/>
-    <updated>2022-12-25T11:34:41Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#677 wz. 34</title>
     <summary>Building the Polish Samochód pancerny wz. 34 from the 1:35 Mirage Hobby kit, with some figures from MiniArt: The Lost Christmas</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WP/WZ34/assets/WZ34_build.jpg</g:image_link>
@@ -54,7 +65,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/"/>
-    <updated>2022-12-23T09:28:53Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#676 LED-LDR Ring Oscillator</title>
     <summary>Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/LdrLedRing/assets/LdrLedRing_build.jpg</g:image_link>
@@ -65,7 +76,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/DataSlicer/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/DataSlicer/"/>
-    <updated>2022-12-22T04:08:30Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#675 LDR Data Slicer Trigger</title>
     <summary>Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/DataSlicer/assets/DataSlicer_build.jpg</g:image_link>
@@ -75,7 +86,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/"/>
-    <updated>2022-12-22T04:08:30Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#674 LDR Differential Comparator</title>
     <summary>Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/DifferentialComparator/assets/DifferentialComparator_build.jpg</g:image_link>
@@ -85,7 +96,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Soviet/VictorIII/</id>
     <link href="https://leap.tardate.com/Kraft/Soviet/VictorIII/"/>
-    <updated>2022-12-21T14:55:32Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#673 Empire in Decay - Victor III</title>
     <summary>A Soviet Victor III tied up to a wharf and left to decay in the toxic sludge ... modelled from the Dragon 1:700 kit (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Soviet/VictorIII/assets/VictorIII_build.jpg</g:image_link>
@@ -95,7 +106,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PLAAF/J20/</id>
     <link href="https://leap.tardate.com/Kraft/PLAAF/J20/"/>
-    <updated>2022-12-20T14:51:20Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#672 J-20</title>
     <summary>Building the Trumpeter 1:144 kit of the Chengdu J-20 fifth-generation fighter of the PLAAF (no electronics here, just a great little kit)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLAAF/J20/assets/J20_build.jpg</g:image_link>
@@ -105,7 +116,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Ki46/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Ki46/"/>
-    <updated>2022-12-20T13:12:31Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#671 Mitsubishi Ki-46 Trainer</title>
     <summary>Building a SG$5 bargain ARII 1:72 kit of the Mitsubishi Ki-46-II Dinah Trainer (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/Ki46/assets/Ki46_build.jpg</g:image_link>
@@ -115,7 +126,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/Nano/ExpansionBoard/</id>
     <link href="https://leap.tardate.com/playground/Nano/ExpansionBoard/"/>
-    <updated>2022-11-22T15:36:53Z</updated>
+    <updated>2023-01-07T03:51:26Z</updated>
     <title>#670 Nano Expansion Board</title>
     <summary>Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.</summary>
     <g:image_link>https://leap.tardate.com/playground/Nano/ExpansionBoard/assets/ExpansionBoard_build.jpg</g:image_link>
@@ -124,7 +135,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PLAN/Type051C/</id>
     <link href="https://leap.tardate.com/Kraft/PLAN/Type051C/"/>
-    <updated>2022-11-12T10:45:12Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#669 PLAN Type 051C</title>
     <summary>Building the PLAN Type 051C destroyer DDG 115 沈阳 (Shenyang) with a little LED illumination.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLAN/Type051C/assets/Type051C_build.jpg</g:image_link>
@@ -135,7 +146,7 @@
   <entry>
     <id>https://leap.tardate.com/Radio/CodePracticeOscillator/</id>
     <link href="https://leap.tardate.com/Radio/CodePracticeOscillator/"/>
-    <updated>2022-11-12T07:57:00Z</updated>
+    <updated>2023-01-07T03:51:26Z</updated>
     <title>#668 Code Practice Oscillator</title>
     <summary>Build and test a simple 2-transistor code practice oscillator</summary>
     <g:image_link>https://leap.tardate.com/Radio/CodePracticeOscillator/assets/CodePracticeOscillator_build.jpg</g:image_link>
@@ -146,7 +157,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/"/>
-    <updated>2022-11-12T07:57:00Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#667 MC34063 Buck Converter</title>
     <summary>Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MC34063/BuckConverter/assets/BuckConverter_build.jpg</g:image_link>
@@ -155,7 +166,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/AxisOfChess/</id>
     <link href="https://leap.tardate.com/Kraft/AxisOfChess/"/>
-    <updated>2022-11-12T07:57:00Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#666 Axis Of Chess</title>
     <summary>Welcome to Axis of Chess, my little excuse for using up a bunch of spare Pit-Road 1:700 vehicles. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/AxisOfChess/assets/AxisOfChess_build.jpg</g:image_link>
@@ -166,7 +177,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WP/PMW/ORPSlazak/</id>
     <link href="https://leap.tardate.com/Kraft/WP/PMW/ORPSlazak/"/>
-    <updated>2022-11-13T01:17:02Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#665 ORP Ślązak</title>
     <summary>Building the ORP Ślązak Hunt-class destroyer in 1:700 scale in a Baltic Winter Patrol setting. My first venture into IBG ship kits - no electronics here, just a very fine kit experience.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WP/PMW/ORPSlazak/assets/ORPSlazak_build.jpg</g:image_link>
@@ -176,7 +187,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/LightControlSwitchKit/</id>
     <link href="https://leap.tardate.com/Equipment/LightControlSwitchKit/"/>
-    <updated>2022-10-28T16:27:34Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#664 Light Control Switch Kit</title>
     <summary>Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)</summary>
     <g:image_link>https://leap.tardate.com/Equipment/LightControlSwitchKit/assets/LightControlSwitchKit_build.jpg</g:image_link>
@@ -186,7 +197,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/</id>
     <link href="https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/"/>
-    <updated>2022-10-24T08:54:42Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#663 3-Digit LCD Panel</title>
     <summary>Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Displays/Lcd3Digit/assets/Lcd3Digit_build.jpg</g:image_link>
@@ -196,7 +207,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/"/>
-    <updated>2022-10-23T07:38:15Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#662 Tachikawa KKY-1</title>
     <summary>Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/assets/TachikawaKKY1_build.jpg</g:image_link>
@@ -205,7 +216,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Concorde/</id>
     <link href="https://leap.tardate.com/Kraft/Concorde/"/>
-    <updated>2022-10-22T07:06:36Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#661 Concorde</title>
     <summary>Last flight of the Concorde - the Airfix 1:114 with LED effects in 1970s travel-agent chic </summary>
     <g:image_link>https://leap.tardate.com/Kraft/Concorde/assets/Concorde_build.jpg</g:image_link>
@@ -215,7 +226,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/P40/WarHawk40K/</id>
     <link href="https://leap.tardate.com/Kraft/P40/WarHawk40K/"/>
-    <updated>2022-10-16T18:24:50Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#660 WarHawk 40K</title>
     <summary>Taking the Airfix 1:72 Curtiss Warhawk in a slightly unusual direction, with LED effects driven by a CD4060 ripple counter</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/WarHawk40K/assets/WarHawk40K_build.jpg</g:image_link>
@@ -226,7 +237,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Strv103/</id>
     <link href="https://leap.tardate.com/Kraft/Strv103/"/>
-    <updated>2022-10-16T18:24:51Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#659 Stridsvagn 103</title>
     <summary>Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Strv103/assets/Strv103_build.jpg</g:image_link>
@@ -236,7 +247,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RAAF/Boomerang/</id>
     <link href="https://leap.tardate.com/Kraft/RAAF/Boomerang/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#658 CA-19 Boomerang</title>
     <summary>Building the Special Hobby 1:72 RAAF CA-19 Boomerang, as stationed in New Britain 1945 (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAAF/Boomerang/assets/Boomerang_build.jpg</g:image_link>
@@ -246,7 +257,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/P40/EggScale/</id>
     <link href="https://leap.tardate.com/Kraft/P40/EggScale/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#657 Flying Tigers Egg-Scale</title>
     <summary>Building the Tiger Model egg-scale P-40 so it can join its 1:72 and 1:144 Brothers in Arms (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/EggScale/assets/EggScale_build.jpg</g:image_link>
@@ -256,7 +267,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#656 Crystal-Locked Schmitt Oscillator</title>
     <summary>Testing a basic crystal-locked Schmitt oscillator using a 74HC14</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittCrystalLockedOscillator/assets/SchmittCrystalLockedOscillator_build.jpg</g:image_link>
@@ -266,7 +277,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/</id>
     <link href="https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/"/>
-    <updated>2022-09-24T02:04:02Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#655 HMS Revenge</title>
     <summary>HMS Revenge heading out from Faslane on patrol - an attempt at capturing the distinctive wake of a sub cruising on the surface. Dragon 1:700 kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/HMSRevengeS27/assets/HMSRevengeS27_build.jpg</g:image_link>
@@ -276,7 +287,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/No13SubChaser/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/No13SubChaser/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#654 IJN No.13 Sub-chaser</title>
     <summary>IJN No.13 class submarine chaser 第十三号型駆潜艇 on a quiet island patrol</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/No13SubChaser/assets/No13SubChaser_build.jpg</g:image_link>
@@ -286,7 +297,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#653 USB Audio Level Indicator Kit</title>
     <summary>An electret-input audio level kit based on cascading LM358 stages with LED indicators</summary>
     <g:image_link>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/assets/UsbLedVolumeIndicatorKit_build.jpg</g:image_link>
@@ -297,7 +308,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/DaihatsuMidget/</id>
     <link href="https://leap.tardate.com/Kraft/DaihatsuMidget/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#652 Daihatsu Midget</title>
     <summary>Building the iconic 1957 Daihatsu Midget DMK from a Micro Ace/Arii kit with some scratch modifications. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/DaihatsuMidget/assets/DaihatsuMidget_build.jpg</g:image_link>
@@ -307,7 +318,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WP/PZL/TS-11/</id>
     <link href="https://leap.tardate.com/Kraft/WP/PZL/TS-11/"/>
-    <updated>2022-11-13T01:17:02Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#651 TS-11 Iskra</title>
     <summary>Building the beautiful Arma Hobby 1:72 PZL TS-11 Iskra. No electronics in this one, just enjoying the build.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WP/PZL/TS-11/assets/TS-11_build.jpg</g:image_link>
@@ -317,7 +328,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/MongolWarriors/</id>
     <link href="https://leap.tardate.com/Kraft/MongolWarriors/"/>
-    <updated>2022-07-28T15:07:54Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#650 Mongol Warriors</title>
     <summary>Using select 1:72 figures from HäT set 8298 to make a little diorama in an Ikea picture frame with LED lighting</summary>
     <g:image_link>https://leap.tardate.com/Kraft/MongolWarriors/assets/MongolWarriors_build.jpg</g:image_link>
@@ -328,7 +339,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/P40/AFVClub68/</id>
     <link href="https://leap.tardate.com/Kraft/P40/AFVClub68/"/>
-    <updated>2022-07-23T04:31:41Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#649 P-40B Flying Tiger in 1:144</title>
     <summary>Improving the already well-detailed 1:144 AFV Club Flying Tigers P-40B with a scratch built cockpit (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/AFVClub68/assets/AFVClub68_build.jpg</g:image_link>
@@ -338,7 +349,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/P40/FlyingTigers/</id>
     <link href="https://leap.tardate.com/Kraft/P40/FlyingTigers/"/>
-    <updated>2022-07-23T03:52:12Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#648 P-40B Flying Tiger in 1:72</title>
     <summary>Building the most excellent Airfix P-40B H81-A2 1:72 in Flying Tigers livery (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/P40/FlyingTigers/assets/FlyingTigers_build.jpg</g:image_link>
@@ -348,7 +359,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/HumidifierModule/</id>
     <link href="https://leap.tardate.com/Equipment/HumidifierModule/"/>
-    <updated>2022-07-21T14:36:49Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#647 USB Humidifier Module</title>
     <summary>Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist</summary>
     <g:image_link>https://leap.tardate.com/Equipment/HumidifierModule/assets/HumidifierModule_build.jpg</g:image_link>
@@ -358,7 +369,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Fairey/Gannet/</id>
     <link href="https://leap.tardate.com/Kraft/Fairey/Gannet/"/>
-    <updated>2022-07-19T11:41:19Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#646 Fairey Gannet</title>
     <summary>Building the most beautifully ugly Fairey Gannet from the Trumpeter 1:72 kit (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Fairey/Gannet/assets/Gannet_build.jpg</g:image_link>
@@ -368,7 +379,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Ki55/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Ki55/"/>
-    <updated>2022-07-18T14:54:28Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#645 Tachikawa Ki-55</title>
     <summary>Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/Ki55/assets/Ki55_build.jpg</g:image_link>
@@ -378,7 +389,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/</id>
     <link href="https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/"/>
-    <updated>2022-07-17T10:32:25Z</updated>
+    <updated>2023-01-07T03:51:26Z</updated>
     <title>#644 Ukrainian Cossack</title>
     <summary>An heroic pose in a walnut with a figure from the Orion Ukrainian Mounted Cossacks set. No, this is not  meant to be political - but if you come and try to steal my nuts, expect to fight this guy! (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WalnutChallenge/Cossack/assets/Cossack_build.jpg</g:image_link>
@@ -388,7 +399,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/WirelessLedModule/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/WirelessLedModule/"/>
-    <updated>2022-07-12T16:11:04Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#643 XKT-511 Wireless LED Module</title>
     <summary>Investigating a wireless LED power module based on the XKT-511 chip</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/WirelessLedModule/assets/WirelessLedModule_build.jpg</g:image_link>
@@ -399,7 +410,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/"/>
-    <updated>2022-07-03T14:29:38Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#642 MT3608 Safe Control</title>
     <summary>Configuring variable boost control with the MT3608 that is safe for all rated input voltages</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchModePowerSupplies/MT3608/SafeControl/assets/SafeControl_build.jpg</g:image_link>
@@ -409,7 +420,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Fubuki/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Fubuki/"/>
-    <updated>2022-07-03T02:44:24Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#641 Fubuki</title>
     <summary>Building the Japanese destroyer Fubuki (吹雪, 1927) from a beautifully detailed 1:700 Yamashita Hobby kit with Tetra Model Works PE</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/Fubuki/assets/Fubuki_build.jpg</g:image_link>
@@ -419,7 +430,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/</id>
     <link href="https://leap.tardate.com/Kraft/Falklands/HMSSheffield/"/>
-    <updated>2022-06-18T12:01:34Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#640 HMS Sheffield</title>
     <summary>Reproducing a famous photograph of the fire-fighting efforts aboard the HMS Sheffield after is was hit by an Exocet on 4 May 1982</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/assets/HMSSheffield_build.jpg</g:image_link>
@@ -429,7 +440,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Spitfire/XIV/</id>
     <link href="https://leap.tardate.com/Kraft/Spitfire/XIV/"/>
-    <updated>2022-06-06T15:37:20Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#639 Spitfire Mk.XIV</title>
     <summary>Building the beautiful candy red G-Fire Spitfire Mk.XIV from Airfix in 1:48 scale. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Spitfire/XIV/assets/XIV_build.jpg</g:image_link>
@@ -439,7 +450,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/</id>
     <link href="https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/"/>
-    <updated>2022-06-04T03:33:20Z</updated>
+    <updated>2023-01-07T03:51:26Z</updated>
     <title>#638 Man Overboard</title>
     <summary>A little 1:700 diorama in a walnut featuring a little drama while mooring a Mitsubishi F1M2 observation seaplane. Part of the Just Making Conversation podcast Walnut Challenge group build. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WalnutChallenge/Overboard/assets/Overboard_build.jpg</g:image_link>
@@ -449,7 +460,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4069/LogicProbe/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#637 CD4069 Logic Probe</title>
     <summary>A simple logic probe using inverter gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4069/LogicProbe/assets/LogicProbe_build.jpg</g:image_link>
@@ -459,7 +470,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4001/LogicProbe/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4001/LogicProbe/"/>
-    <updated>2022-05-22T09:31:37Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#636 CD4001 Logic Probe</title>
     <summary>A simple logic probe using NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4001/LogicProbe/assets/LogicProbe_build.jpg</g:image_link>
@@ -469,7 +480,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/CD4001/SRLatch/</id>
     <link href="https://leap.tardate.com/Electronics101/CD4001/SRLatch/"/>
-    <updated>2022-05-19T11:07:48Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#635 CD4001 SR Latch</title>
     <summary>Set-Reset latch implemented with CD4001 NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/CD4001/SRLatch/assets/SRLatch_build.jpg</g:image_link>
@@ -479,7 +490,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/NakajimaB5N2/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/NakajimaB5N2/"/>
-    <updated>2022-05-15T15:09:29Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#634 Nakajima B5N2 Kate</title>
     <summary>Building the Airfix 1:72 Nakajima B5N2 Kate - an exercise in weathering, no electronics.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/NakajimaB5N2/assets/NakajimaB5N2_build.jpg</g:image_link>
@@ -489,7 +500,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/SerialInterface/UsbToRJ45/</id>
     <link href="https://leap.tardate.com/Electronics101/SerialInterface/UsbToRJ45/"/>
-    <updated>2022-05-12T16:24:56Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#633 USB to RJ45 Adapter</title>
     <summary>building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SerialInterface/UsbToRJ45/assets/UsbToRJ45_build.jpg</g:image_link>
@@ -593,7 +604,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RAAF/Wirraway/</id>
     <link href="https://leap.tardate.com/Kraft/RAAF/Wirraway/"/>
-    <updated>2022-09-24T02:04:02Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#623 Wirraway</title>
     <summary>Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - just up the road from me (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAAF/Wirraway/assets/Wirraway_build.jpg</g:image_link>
@@ -603,7 +614,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Soviet/T34-1942/</id>
     <link href="https://leap.tardate.com/Kraft/Soviet/T34-1942/"/>
-    <updated>2022-12-21T14:55:32Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#622 T34 1942</title>
     <summary>Building the Trumpeter 1:72 T-34 Model 1942 with some CMK figures (no electronics - just practicing weathering at small scale)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Soviet/T34-1942/assets/T34-1942_build.jpg</g:image_link>
@@ -751,7 +762,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PLAAF/JF17/</id>
     <link href="https://leap.tardate.com/Kraft/PLAAF/JF17/"/>
-    <updated>2022-01-18T15:15:51Z</updated>
+    <updated>2023-01-07T03:51:24Z</updated>
     <title>#609 JF-17</title>
     <summary>Buidling the JF-17 Thunder with the striking livery it sported during the 2007 Pakistan Day Joint Services Parade. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLAAF/JF17/assets/JF17_build.jpg</g:image_link>
@@ -771,7 +782,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/WP/PZL/P7a/</id>
     <link href="https://leap.tardate.com/Kraft/WP/PZL/P7a/"/>
-    <updated>2022-11-13T01:17:02Z</updated>
+    <updated>2023-01-07T03:51:25Z</updated>
     <title>#607 PZL P.7a</title>
     <summary>Building the Arma Hobby PZL P.7a 1:72 expert set.  No electronics added - just enjoying this wonderfully detailed kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/WP/PZL/P7a/assets/P7a_build.jpg</g:image_link>
@@ -863,7 +874,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/K5Y1/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/K5Y1/"/>
-    <updated>2021-08-25T16:09:45Z</updated>
+    <updated>2023-01-07T03:51:22Z</updated>
     <title>#599 Kawanishi K5Y1 Tensegrity Stand</title>
     <summary>Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/K5Y1/assets/K5Y1_build.jpg</g:image_link>
@@ -919,7 +930,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/i16i58/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/i16i58/"/>
-    <updated>2021-08-04T12:29:23Z</updated>
+    <updated>2023-01-07T03:51:23Z</updated>
     <title>#594 I-16 and I-58</title>
     <summary>Building the Tamiya 1:700 I-16 and I-58 waterline kit 31453. No electronics in this one - more an experiment in rust and water effects.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/i16i58/assets/i16i58_build.jpg</g:image_link>
@@ -4567,7 +4578,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Switches/DPDT/</id>
     <link href="https://leap.tardate.com/Electronics101/Switches/DPDT/"/>
-    <updated>2022-10-28T16:27:34Z</updated>
+    <updated>2023-01-07T03:51:21Z</updated>
     <title>#244 Switches/DPDT</title>
     <summary>all about double-pole, double-thow (DPDT) toggle switches</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Switches/DPDT/assets/DPDT_build.jpg</g:image_link>
@@ -4674,7 +4685,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#234 CMOS Inverter Oscillator</title>
     <summary>use a CD4096 to generate an oscillating waveform and plot the results</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CMOSInverterOscillator/assets/CMOSInverterOscillator_build.jpg</g:image_link>
@@ -5004,7 +5015,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#202 Audio Level Indicator Kit</title>
     <summary>an audio level indicator kit based on the LM3915</summary>
     <g:image_link>https://leap.tardate.com/Audio/Visualization/AudioLevelIndicatorKit/assets/AudioLevelIndicatorKit_build.jpg</g:image_link>
@@ -5394,7 +5405,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/WatsonLedRing/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/WatsonLedRing/"/>
-    <updated>2019-06-02T04:21:51Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#164 Watson LED Ring</title>
     <summary>test a Watson 3-LED Ring oscillator</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/WatsonLedRing/assets/WatsonLedRing_build.jpg</g:image_link>
@@ -5777,7 +5788,7 @@
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/</id>
     <link href="https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#125 Voice Level Indicator Kit</title>
     <summary>build and investigate a commercially available &quot;3-band voice level indicator&quot; kit</summary>
     <g:image_link>https://leap.tardate.com/Audio/Visualization/VoiceLevelIndicatorKit/assets/VoiceLevelIndicatorKit_build.jpg</g:image_link>
@@ -5885,7 +5896,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#114 NOR Gate Oscillator</title>
     <summary>test a low-speed square wave oscillator using NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/NORGateOscillator/assets/NORGateOscillator_build.jpg</g:image_link>
@@ -6568,7 +6579,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/"/>
-    <updated>2022-12-22T04:08:30Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#047 LDR Stereo Trip Detector</title>
     <summary>demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/StereoTripDetector/assets/StereoTripDetector_build.jpg</g:image_link>
@@ -6698,7 +6709,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LDR/Comparator/</id>
     <link href="https://leap.tardate.com/Electronics101/LDR/Comparator/"/>
-    <updated>2022-12-22T04:08:30Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#034 LDR Comparator</title>
     <summary>low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LDR/Comparator/assets/Comparator_build.jpg</g:image_link>
@@ -6815,7 +6826,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/"/>
-    <updated>2022-09-24T02:04:01Z</updated>
+    <updated>2023-01-07T03:51:20Z</updated>
     <title>#022 Square Wave - Schmitt Oscillator</title>
     <summary>using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/SchmittOscillator/assets/SchmittOscillator_build.jpg</g:image_link>

@@ -1,4 +1,14 @@
 {
+    "/Audio/AudioAmps/ElectretPreamp/": {
+        "id": 681,
+        "title": "Electret Audio Pre-amplifier",
+        "summary": "Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.",
+        "tags": [
+            "Breadboard Bling",
+            "OpAmp",
+            "Audio"
+        ]
+    },
     "/Equipment/MiniRotaryTool/": {
         "id": 680,
         "title": "Mini Rotary Tool",
