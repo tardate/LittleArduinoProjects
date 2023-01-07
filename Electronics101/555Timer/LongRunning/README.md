@@ -1,6 +1,6 @@
 # #631 Long Running Timer
 
-Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC5556C.
+Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC556C.
 
 ![Build](./assets/LongRunning_build.jpg?raw=true)
 
@@ -23,12 +23,13 @@ See "Zero Electrolytics - Round 2".
 
 So my final conclusion:
 
-* long running timer circuits using high value (1GΩ) resistors and zero-elecrtolytics is possible, but requires a low-leakage timer. The TLC556C is the only variant I currently know that satisfies this requirement.
+* long running timer circuits using high value (1GΩ) resistors and zero-electrolytics is possible, but requires a low-leakage timer. The TLC556C is the only variant I currently know that satisfies this requirement.
 * if one does not have a low-leakage TLC556C, then:
     * use a 555 with electrolytics but accept that accuracy and stability issues
     * or save all this bother and use a microprocessor or other digital circuit timing circuit!
 
 ## Zero Electrolytics - Round 1
+
 ### Zero Electrolytics
 
 With a normal stock of components it is hard to achieve very long periods without using electrolytic capacitors.
@@ -172,18 +173,17 @@ go all-in on a microprocessor:
 >
 > Note: if you really want to go the no-surprise road, you might need to leverage a CD4040 instead of the 2nd CD4060, as the latter has "holes" (to offer bigger divisions without increasing of the DIP form factor).
 
-
 ## Zero Electrolytics - Round 2
 
 ### Revisiting the 1GΩ Zero-Electrolytic Design
 
 The [TLC556CD](https://www.ti.com/product/TLC556) used in the original Elektor circuit is not your normal 556.
 
-Looking closer at the datahseet, it promises:
+Looking closer at the datasheet, it promises:
 
 > Accurate time delays and oscillations are possible with smaller, less-expensive timing capacitors than the NE556 because of the high input impedance.
 
-I was steered torwards the critical [discharge leakage](https://github.com/tardate/LittleArduinoProjects/issues/28) specification
+I was steered towards the critical [discharge leakage](https://github.com/tardate/LittleArduinoProjects/issues/28) specification
 by [Steve Schnepp](https://github.com/steveschnepp).
 At VCC=5V, the TLC556C discharge off-state current is 0.5nA max.
 
