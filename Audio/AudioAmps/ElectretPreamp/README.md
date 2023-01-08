@@ -19,6 +19,11 @@ a common approach is obviously an op-amp high-pass active filter with gain in th
 
 So that's the approach I'll take here.
 
+Note: there are also many electret input modules, usually marketed as "sound detectors",
+that are not actually audio pre-amplifiers.
+They are actually configured as binary sound level triggers. An example is covered in
+[LEAP#682](../ElectretPreamp).
+
 ### Circuit Design
 
 The electret output is fed to an active high-pass filter:

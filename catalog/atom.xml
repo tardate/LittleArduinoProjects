@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-08T03:20:22Z</updated>
+  <updated>2023-01-08T10:29:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Audio/AudioAmps/ElectretSoundDetectionModule/</id>
+    <link href="https://leap.tardate.com/Audio/AudioAmps/ElectretSoundDetectionModule/"/>
+    <updated>2023-01-08T10:29:35Z</updated>
+    <title>#682 Electret Sound Detection Module</title>
+    <summary>Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).</summary>
+    <g:image_link>https://leap.tardate.com/Audio/AudioAmps/ElectretSoundDetectionModule/assets/ElectretSoundDetectionModule_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="Audio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/ElectretPreamp/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/ElectretPreamp/"/>
-    <updated>2023-01-08T03:19:39Z</updated>
+    <updated>2023-01-08T03:22:11Z</updated>
     <title>#681 Electret Audio Pre-amplifier</title>
     <summary>Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.</summary>
     <g:image_link>https://leap.tardate.com/Audio/AudioAmps/ElectretPreamp/assets/ElectretPreamp_build.jpg</g:image_link>

@@ -1,6 +1,6 @@
-# 681 Little Electronic Art Projects
+# 682 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Electret Audio Pre-amplifier](./Audio/AudioAmps/ElectretPreamp) - Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.
+> Latest addition:sparkles: [Electret Sound Detection Module](./Audio/AudioAmps/ElectretSoundDetectionModule) - Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
