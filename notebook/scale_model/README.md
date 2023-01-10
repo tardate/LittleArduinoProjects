@@ -116,6 +116,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Germany          | [modellNatur](https://www.modellnatur.de/)                               | landscaping products  |
 | Germany          | [Noch](https://www.noch.com/)                                            | model landscaping products |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
+| Greece           | [Hellenic Ship Model](https://hellenicshipmodel.gr/)                     | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
 | Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
