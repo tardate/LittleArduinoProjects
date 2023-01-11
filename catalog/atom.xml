@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-08T10:29:56Z</updated>
+  <updated>2023-01-11T13:52:46Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/BleriotXI/</id>
+    <link href="https://leap.tardate.com/Kraft/BleriotXI/"/>
+    <updated>2023-01-11T13:48:46Z</updated>
+    <title>#683 Blériot XI</title>
+    <summary>Making a Blériot XI keeper of the spare keys - an Aerobase kit from Japan encased in epoxy resin (no electronics).</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/BleriotXI/assets/BleriotXI_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="resin"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Audio/AudioAmps/ElectretSoundDetectionModule/</id>
     <link href="https://leap.tardate.com/Audio/AudioAmps/ElectretSoundDetectionModule/"/>

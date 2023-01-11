@@ -1,4 +1,14 @@
 {
+    "/Kraft/BleriotXI/": {
+        "id": 683,
+        "title": "Bl\u00e9riot XI",
+        "summary": "Making a Bl\u00e9riot XI keeper of the spare keys - an Aerobase kit from Japan encased in epoxy resin (no electronics).",
+        "tags": [
+            "scale models",
+            "Craft",
+            "resin"
+        ]
+    },
     "/Audio/AudioAmps/ElectretSoundDetectionModule/": {
         "id": 682,
         "title": "Electret Sound Detection Module",
