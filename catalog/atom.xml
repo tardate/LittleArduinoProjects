@@ -5,16 +5,46 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-24T01:32:11Z</updated>
+  <updated>2023-01-27T13:15:33Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/ProgrammableFrequencyReference/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/ProgrammableFrequencyReference/"/>
+    <updated>2023-01-27T13:10:59Z</updated>
+    <title>#689 Programmable Frequency Reference</title>
+    <summary>Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/ProgrammableFrequencyReference/assets/ProgrammableFrequencyReference_build.jpg</g:image_link>
+    <category term="CMOS/TTL"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked4MHzCD4001/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked4MHzCD4001/"/>
+    <updated>2023-01-26T14:41:37Z</updated>
+    <title>#688 Crystal-locked 4MHz Oscillator</title>
+    <summary>Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked4MHzCD4001/assets/CrystalLocked4MHzCD4001_build.jpg</g:image_link>
+    <category term="CMOS/TTL"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzCD4001/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzCD4001/"/>
+    <updated>2023-01-26T14:41:37Z</updated>
+    <title>#687 Crystal-locked 455kHz Oscillator</title>
+    <summary>Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzCD4001/assets/CrystalLocked455kHzCD4001_build.jpg</g:image_link>
+    <category term="CMOS/TTL"/>
+    <category term="Oscillators"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/UNCFDreadnought/</id>
     <link href="https://leap.tardate.com/Kraft/UNCFDreadnought/"/>
-    <updated>2023-01-24T01:18:10Z</updated>
+    <updated>2023-01-24T02:09:00Z</updated>
     <title>#686 U.N.C.F. Dreadnoughts</title>
     <summary>Electrifying a pair of Bandai Spirits Dreadnought-class battleships with LED effect and fibre optics</summary>
     <g:image_link>https://leap.tardate.com/Kraft/UNCFDreadnought/assets/UNCFDreadnought_build.jpg</g:image_link>

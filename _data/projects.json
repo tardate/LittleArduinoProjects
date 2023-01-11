@@ -1,4 +1,31 @@
 {
+    "/Electronics101/Oscillators/ProgrammableFrequencyReference/": {
+        "id": 689,
+        "title": "Programmable Frequency Reference",
+        "summary": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/Electronics101/Oscillators/CrystalLocked4MHzCD4001/": {
+        "id": 688,
+        "title": "Crystal-locked 4MHz Oscillator",
+        "summary": "Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/Electronics101/Oscillators/CrystalLocked455kHzCD4001/": {
+        "id": 687,
+        "title": "Crystal-locked 455kHz Oscillator",
+        "summary": "Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
     "/Kraft/UNCFDreadnought/": {
         "id": 686,
         "title": "U.N.C.F. Dreadnoughts",

@@ -1,0 +1,7 @@
+{
+    "id": "#688",
+    "name": "Crystal-locked 4MHz Oscillator",
+    "description": "Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
+    "categories": "CMOS/TTL, Oscillators",
+    "relative_path": "Electronics101/Oscillators/CrystalLocked4MHzCD4001"
+}

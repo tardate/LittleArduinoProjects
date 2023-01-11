@@ -1,6 +1,6 @@
-# 686 Little Electronic Art Projects
+# 689 Little Electronic Art Projects
 
-> Latest addition:sparkles: [U.N.C.F. Dreadnoughts](./Kraft/UNCFDreadnought) - Electrifying a pair of Bandai Spirits Dreadnought-class battleships with LED effect and fibre optics.
+> Latest addition:sparkles: [Programmable Frequency Reference](./Electronics101/Oscillators/ProgrammableFrequencyReference) - Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
