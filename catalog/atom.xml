@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-11T13:52:46Z</updated>
+  <updated>2023-01-20T14:54:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Westland/WhirlwindHAS22/</id>
+    <link href="https://leap.tardate.com/Kraft/Westland/WhirlwindHAS22/"/>
+    <updated>2023-01-20T14:54:16Z</updated>
+    <title>#684 Westland Whirlwind HAS.22</title>
+    <summary>Building the Westland Whirlwind HAS.22 from Airfix (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Westland/WhirlwindHAS22/assets/WhirlwindHAS22_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/BleriotXI/</id>
     <link href="https://leap.tardate.com/Kraft/BleriotXI/"/>
-    <updated>2023-01-11T13:48:46Z</updated>
+    <updated>2023-01-12T16:43:02Z</updated>
     <title>#683 Blériot XI</title>
     <summary>Making a Blériot XI keeper of the spare keys - an Aerobase kit from Japan encased in epoxy resin (no electronics).</summary>
     <g:image_link>https://leap.tardate.com/Kraft/BleriotXI/assets/BleriotXI_build.jpg</g:image_link>
@@ -572,12 +582,12 @@
     <category term="Control"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/WestlandLynx/</id>
-    <link href="https://leap.tardate.com/Kraft/WestlandLynx/"/>
+    <id>https://leap.tardate.com/Kraft/Westland/Lynx/</id>
+    <link href="https://leap.tardate.com/Kraft/Westland/Lynx/"/>
     <updated>2022-04-07T15:16:00Z</updated>
     <title>#628 Westland Lynx</title>
     <summary>Building the Royal Navy Westland Lynx HAS.3 from HobbyBoss (no electronics in this one)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/WestlandLynx/assets/WestlandLynx_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/Westland/Lynx/assets/Lynx_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>

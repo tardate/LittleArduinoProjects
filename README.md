@@ -1,4 +1,4 @@
-# 683 Little Electronic Art Projects
+# 684 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Electret Sound Detection Module](./Audio/AudioAmps/ElectretSoundDetectionModule) - Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).
 

@@ -1,4 +1,13 @@
 {
+    "/Kraft/Westland/WhirlwindHAS22/": {
+        "id": 684,
+        "title": "Westland Whirlwind HAS.22",
+        "summary": "Building the Westland Whirlwind HAS.22 from Airfix (no electronics in this one)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/BleriotXI/": {
         "id": 683,
         "title": "Bl\u00e9riot XI",
@@ -504,7 +513,7 @@
             "Control"
         ]
     },
-    "/Kraft/WestlandLynx/": {
+    "/Kraft/Westland/Lynx/": {
         "id": 628,
         "title": "Westland Lynx",
         "summary": "Building the Royal Navy Westland Lynx HAS.3 from HobbyBoss (no electronics in this one)",
