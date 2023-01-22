@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-20T14:54:42Z</updated>
+  <updated>2023-01-22T08:49:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/RAF/Mosquito/MozzieBite/</id>
+    <link href="https://leap.tardate.com/Kraft/RAF/Mosquito/MozzieBite/"/>
+    <updated>2023-01-22T08:32:06Z</updated>
+    <title>#685 Mozzie Bite!</title>
+    <summary>A little 1:700 diorama in an epoxy resin paper-weight featuring Pit-Road Mosquito and Tiger I models (no electronics).</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RAF/Mosquito/MozzieBite/assets/MozzieBite_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Westland/WhirlwindHAS22/</id>
     <link href="https://leap.tardate.com/Kraft/Westland/WhirlwindHAS22/"/>
-    <updated>2023-01-20T14:54:16Z</updated>
+    <updated>2023-01-21T02:24:48Z</updated>
     <title>#684 Westland Whirlwind HAS.22</title>
     <summary>Building the Westland Whirlwind HAS.22 from Airfix (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Westland/WhirlwindHAS22/assets/WhirlwindHAS22_build.jpg</g:image_link>
@@ -584,7 +594,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Westland/Lynx/</id>
     <link href="https://leap.tardate.com/Kraft/Westland/Lynx/"/>
-    <updated>2022-04-07T15:16:00Z</updated>
+    <updated>2023-01-21T02:24:48Z</updated>
     <title>#628 Westland Lynx</title>
     <summary>Building the Royal Navy Westland Lynx HAS.3 from HobbyBoss (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Westland/Lynx/assets/Lynx_build.jpg</g:image_link>
