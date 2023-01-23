@@ -1,6 +1,6 @@
-# 685 Little Electronic Art Projects
+# 686 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Electret Sound Detection Module](./Audio/AudioAmps/ElectretSoundDetectionModule) - Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).
+> Latest addition:sparkles: [U.N.C.F. Dreadnoughts](./Kraft/UNCFDreadnought) - Electrifying a pair of Bandai Spirits Dreadnought-class battleships with LED effect and fibre optics.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

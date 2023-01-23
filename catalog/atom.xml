@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-22T08:49:57Z</updated>
+  <updated>2023-01-24T01:32:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/UNCFDreadnought/</id>
+    <link href="https://leap.tardate.com/Kraft/UNCFDreadnought/"/>
+    <updated>2023-01-24T01:18:10Z</updated>
+    <title>#686 U.N.C.F. Dreadnoughts</title>
+    <summary>Electrifying a pair of Bandai Spirits Dreadnought-class battleships with LED effect and fibre optics</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/UNCFDreadnought/assets/UNCFDreadnought_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RAF/Mosquito/MozzieBite/</id>
     <link href="https://leap.tardate.com/Kraft/RAF/Mosquito/MozzieBite/"/>
-    <updated>2023-01-22T08:32:06Z</updated>
+    <updated>2023-01-22T09:00:05Z</updated>
     <title>#685 Mozzie Bite!</title>
     <summary>A little 1:700 diorama in an epoxy resin paper-weight featuring Pit-Road Mosquito and Tiger I models (no electronics).</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAF/Mosquito/MozzieBite/assets/MozzieBite_build.jpg</g:image_link>
