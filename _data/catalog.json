@@ -1,5 +1,12 @@
 [
     {
+        "id": "#690",
+        "name": "de Havilland Mosquito B Mk.XVI",
+        "description": "Building the Airfix de Havilland Mosquito B Mk.XVI (no electronics)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/RAF/Mosquito"
+    },
+    {
         "id": "#689",
         "name": "Programmable Frequency Reference",
         "description": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",

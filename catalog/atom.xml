@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-01-27T13:15:33Z</updated>
+  <updated>2023-02-01T12:29:28Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/RAF/Mosquito/</id>
+    <link href="https://leap.tardate.com/Kraft/RAF/Mosquito/"/>
+    <updated>2023-02-01T12:29:10Z</updated>
+    <title>#690 de Havilland Mosquito B Mk.XVI</title>
+    <summary>Building the Airfix de Havilland Mosquito B Mk.XVI (no electronics)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RAF/Mosquito/assets/Mosquito_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/ProgrammableFrequencyReference/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/ProgrammableFrequencyReference/"/>
-    <updated>2023-01-27T13:10:59Z</updated>
+    <updated>2023-01-27T13:23:37Z</updated>
     <title>#689 Programmable Frequency Reference</title>
     <summary>Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/ProgrammableFrequencyReference/assets/ProgrammableFrequencyReference_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked4MHzCD4001/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked4MHzCD4001/"/>
-    <updated>2023-01-26T14:41:37Z</updated>
+    <updated>2023-01-27T13:23:37Z</updated>
     <title>#688 Crystal-locked 4MHz Oscillator</title>
     <summary>Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked4MHzCD4001/assets/CrystalLocked4MHzCD4001_build.jpg</g:image_link>
@@ -34,7 +44,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzCD4001/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzCD4001/"/>
-    <updated>2023-01-26T14:41:37Z</updated>
+    <updated>2023-01-27T13:23:37Z</updated>
     <title>#687 Crystal-locked 455kHz Oscillator</title>
     <summary>Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/CrystalLocked455kHzCD4001/assets/CrystalLocked455kHzCD4001_build.jpg</g:image_link>

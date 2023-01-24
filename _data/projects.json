@@ -1,4 +1,13 @@
 {
+    "/Kraft/RAF/Mosquito/": {
+        "id": 690,
+        "title": "de Havilland Mosquito B Mk.XVI",
+        "summary": "Building the Airfix de Havilland Mosquito B Mk.XVI (no electronics)",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/Oscillators/ProgrammableFrequencyReference/": {
         "id": 689,
         "title": "Programmable Frequency Reference",

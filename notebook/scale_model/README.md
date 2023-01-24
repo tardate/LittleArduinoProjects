@@ -93,6 +93,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | China            | [首页-Bronco Mould & Plastic Co.,Ltd.](http://www.cn-bronco.com/en/)      | |
 | Czech Republic   | [Airone Hobby](https://www.aironehobby.com/)                             | aftermarket items in 1/72 and 1/48 scale |
 | Czech Republic   | [ASK](https://www.artscale.eu/)                                          | accessories and masks |
+| Czech Republic   | [Avalon Decals](https://www.avalondecals.com/)                           | decals |
 | Czech Republic   | [AVI Models](https://avimodels.com/)                                     | |
 | Czech Republic   | [AZ model](https://www.azmodel.cz/)                                      | |
 | Czech Republic   | [Black Dog](https://blackdog.cz/)                                        | resin kits, figures|
@@ -121,6 +122,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
 | Hong Kong        | [Hong Kong Models](https://www.hk-models.com/hkm/)                       | |
+| Hungary          | [SBS Model](https://www.sbsmodel.com/)                                   | High quality resin kits and accessories |
 | Italy            | [astromodel](https://www.astromodel.it/)                                 | LifeColor |
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
 | Japan            | [Aerobase](https://www.aerobase.jp/)                                     | metal frame aircraft model kits |
@@ -146,6 +148,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Poland           | [IBG](http://www.ibgmodels.com/)                                         | [webstore](http://en.ibg.com.pl/) also carries other manufacturers |
 | Poland           | [ION Model](http://ionmodel.com/)                                        | resin figures |
 | Poland           | [Mirage](http://www.mirage-hobby.com.pl/)                                | |
+| Poland           | [Niko Models](http://www.nikomodel.pl/)                                  | resin kits and accessories|
 | Poland           | [RPM](https://www.jadarhobby.pl/rpm-poland-m-62.html?language=en&str=30) | |
 | Poland           | [White Stork Miniatures](https://whitestorkminiatures.com/)              | miniatures |
 | Poland           | [Yahu](http://www.yahumodels.com/)                                       | |
