@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-02-04T02:37:09Z</updated>
+  <updated>2023-02-07T10:25:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Equipment/CH2PC4/</id>
+    <link href="https://leap.tardate.com/Equipment/CH2PC4/"/>
+    <updated>2023-02-07T10:24:45Z</updated>
+    <title>#691 CH2PC4 NiMH Charger</title>
+    <summary>A few quick notes on the Energizer NiMH charger CH2PC4</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/CH2PC4/assets/CH2PC4_build.jpg</g:image_link>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/RAF/Mosquito/</id>
     <link href="https://leap.tardate.com/Kraft/RAF/Mosquito/"/>

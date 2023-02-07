@@ -1,4 +1,4 @@
-# 690 Little Electronic Art Projects
+# 691 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Programmable Frequency Reference](./Electronics101/Oscillators/ProgrammableFrequencyReference) - Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz.
 

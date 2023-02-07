@@ -1,5 +1,12 @@
 [
     {
+        "id": "#691",
+        "name": "CH2PC4 NiMH Charger",
+        "description": "A few quick notes on the Energizer NiMH charger CH2PC4",
+        "categories": "Power",
+        "relative_path": "Equipment/CH2PC4"
+    },
+    {
         "id": "#690",
         "name": "de Havilland Mosquito B Mk.XVI",
         "description": "Building the Airfix de Havilland Mosquito B Mk.XVI (no electronics)",

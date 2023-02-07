@@ -1,4 +1,12 @@
 {
+    "/Equipment/CH2PC4/": {
+        "id": 691,
+        "title": "CH2PC4 NiMH Charger",
+        "summary": "A few quick notes on the Energizer NiMH charger CH2PC4",
+        "tags": [
+            "Power"
+        ]
+    },
     "/Kraft/RAF/Mosquito/": {
         "id": 690,
         "title": "de Havilland Mosquito B Mk.XVI",
