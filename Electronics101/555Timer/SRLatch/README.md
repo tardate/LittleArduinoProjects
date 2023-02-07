@@ -27,9 +27,9 @@ is possible to build an SR Latch with the chip.
 
 The trick is to essentially by-pass the "5-5-5" stacked comparators:
 
-* threshold (4) is pulled to ground, the it can never activate and reset in the internal SR Latch
-* trigger (2) is the "set" input - normally pulled to ground, but when triggered will immediately set the internal SR Latch
-* reset (4) directly triggers the internal SR Latch reset
+* threshold (4) is pulled to ground, thus it can never activate and reset in the internal SR Latch
+* trigger (2) is the "set" input - normally pulled high, but when triggered (pulled low) will immediately set the internal SR Latch
+* reset (4) directly triggers the internal SR Latch reset when pulled low
 
 ![555_simplified_schematic](./assets/555_simplified_schematic.png?raw=true)
 

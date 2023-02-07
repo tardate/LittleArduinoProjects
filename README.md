@@ -1,6 +1,6 @@
-# 691 Little Electronic Art Projects
+# 692 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Programmable Frequency Reference](./Electronics101/Oscillators/ProgrammableFrequencyReference) - Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz.
+> Latest addition:sparkles: [Push-button Latch](./Electronics101/555Timer/Latch) - Testing a simple push-button latched switch circuit for on/off control using the 555 timer.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

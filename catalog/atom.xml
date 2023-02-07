@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-02-07T10:25:07Z</updated>
+  <updated>2023-02-07T13:38:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Electronics101/555Timer/Latch/</id>
+    <link href="https://leap.tardate.com/Electronics101/555Timer/Latch/"/>
+    <updated>2023-02-07T13:28:45Z</updated>
+    <title>#692 Push-button Latch</title>
+    <summary>Testing a simple push-button latched switch circuit for on/off control using the 555 timer</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/555Timer/Latch/assets/Latch_build.jpg</g:image_link>
+    <category term="555 Timer"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/CH2PC4/</id>
     <link href="https://leap.tardate.com/Equipment/CH2PC4/"/>

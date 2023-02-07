@@ -1,5 +1,12 @@
 [
     {
+        "id": "#692",
+        "name": "Push-button Latch",
+        "description": "Testing a simple push-button latched switch circuit for on/off control using the 555 timer",
+        "categories": "555 Timer",
+        "relative_path": "Electronics101/555Timer/Latch"
+    },
+    {
         "id": "#691",
         "name": "CH2PC4 NiMH Charger",
         "description": "A few quick notes on the Energizer NiMH charger CH2PC4",
