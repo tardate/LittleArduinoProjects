@@ -49,5 +49,5 @@ Transfering the design to a small protoboard so that it can be used as a latched
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Simple Latching Circuit using 555 timer](https://www.circuits-diy.com/simple-latching-circuit-using-555-timer/)
-* [Build a 555 Timer IC based Simple Push-on Push-off Circuit](https://circuitdigest.com/electronic-circuits/555-timer-push-on-push-off-circuit)
-* [555 LATCH Circuit](https://www.555-timer-circuits.com/latch.html)
+* [Build a 555 Timer IC based Simple Push-on Push-off Circuit](https://circuitdigest.com/electronic-circuits/555-timer-push-on-push-off-circuit) - dodgy schematic and poor description
+* [555 LATCH Circuit](https://www.555-timer-circuits.com/latch.html) - another 555 "latch" circuit but this is different - uses an external latching circuit to enabled/disable a 555 astable.
