@@ -1,7 +1,7 @@
 {
-    "id": "#122", 
-    "name": "OpAmpTimer", 
-    "description": "testing an OpAmp timer switch", 
-    "categories": "OpAmp, Timer", 
+    "id": "#122",
+    "name": "Op-amp Timer",
+    "description": "testing an op-amp timer switch",
+    "categories": "OpAmp, Timer",
     "relative_path": "Electronics101/OpAmpTimer"
 }

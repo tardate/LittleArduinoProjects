@@ -1,11 +1,12 @@
-# #175 SwitchSoftLatch
+# #175 Soft-latch Switch
 
-Test a soft-latching power switching circuit.
+Test a soft-latching power switching circuit based on a p-channel MOSFET.
+
+![Build](./assets/SwitchSoftLatch_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
 [![SwitchSoftLatch demo](https://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](https://www.youtube.com/watch?v=9lX_sPDjzDE)
-
 
 ## Notes
 
@@ -16,12 +17,14 @@ Dave Jones explains it best in [EEVblog #262 - World's Simplest Soft Latching Po
 but the essence of the circuit is this:
 
 When Q1 (power) MOSFET is off:
+
 * pressing the switch pulls up the base of Q2 NPN
 * Q2 turns on
 * Q2 in turn pulls down Q1 gate and Q1 turns on
 * Q2 kept on via R2
 
 When Q1 (power) MOSFET is on:
+
 * Q3 NPN turns on once C1 is charged (per R4, C1 time constant)
 * with Q3 on, pressing the switch pulls down the base of Q2 NPN
 * Q2 turns off
@@ -55,7 +58,7 @@ So perhaps I'll need to try some improvements or test some alternative circuits 
 
 ![The Schematic](./assets/SwitchSoftLatch_schematic.jpg?raw=true)
 
-![The Build](./assets/SwitchSoftLatch_build.jpg?raw=true)
+![Build](./assets/SwitchSoftLatch_build.jpg?raw=true)
 
 ## Credits and References
 

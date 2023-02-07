@@ -1,7 +1,7 @@
 {
-    "id": "#135", 
-    "name": "TouchSwitch/555", 
-    "description": "test a touch switch circuit based on a 555 timer", 
-    "categories": "555 Timer", 
+    "id": "#135",
+    "name": "555 Timer Touch Switch",
+    "description": "test a touch switch circuit based on a 555 timer",
+    "categories": "555 Timer",
     "relative_path": "Electronics101/555Timer/TouchSwitch"
 }

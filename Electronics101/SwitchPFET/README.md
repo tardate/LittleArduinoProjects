@@ -1,7 +1,8 @@
-# #106 SwitchPFET
+# #106 PFET Switch with Delay
 
 Using a small-signal p-channel MOSFET as a switch, with turn-on delay.
 
+![Build](./assets/SwitchPFET_build.jpg?raw=true)
 
 ## Notes
 
@@ -23,9 +24,9 @@ When the switch is opened, C1 takes some time to discharged, hence then FET is d
 
 ![Breadboard](./assets/SwitchPFET_bb.jpg?raw=true)
 
-![The Schematic](./assets/SwitchPFET_schematic.jpg?raw=true)
+![Schematic](./assets/SwitchPFET_schematic.jpg?raw=true)
 
-![The Build](./assets/SwitchPFET_build.jpg?raw=true)
+![Build](./assets/SwitchPFET_build.jpg?raw=true)
 
 ## Credits and References
 

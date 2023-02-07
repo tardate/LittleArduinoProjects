@@ -1,7 +1,7 @@
 {
-    "id": "#175", 
-    "name": "SwitchSoftLatch", 
-    "description": "test a soft-latching power switching circuit", 
-    "categories": "MOSFET, BJT", 
+    "id": "#175",
+    "name": "Soft-latch Switch",
+    "description": "Test a soft-latching power switching circuit based on a p-channel MOSFET",
+    "categories": "MOSFET, BJT",
     "relative_path": "Electronics101/SwitchSoftLatch"
 }

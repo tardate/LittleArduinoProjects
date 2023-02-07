@@ -4856,8 +4856,8 @@
     },
     "/Electronics101/SwitchSoftLatch/": {
         "id": 175,
-        "title": "SwitchSoftLatch",
-        "summary": "test a soft-latching power switching circuit",
+        "title": "Soft-latch Switch",
+        "summary": "Test a soft-latching power switching circuit based on a p-channel MOSFET",
         "tags": [
             "MOSFET",
             "BJT"
@@ -5212,7 +5212,7 @@
     },
     "/Electronics101/555Timer/TouchSwitch/": {
         "id": 135,
-        "title": "TouchSwitch/555",
+        "title": "555 Timer Touch Switch",
         "summary": "test a touch switch circuit based on a 555 timer",
         "tags": [
             "555 Timer"
@@ -5255,7 +5255,7 @@
     },
     "/Electronics101/DarlingtonTouchSwitch/": {
         "id": 130,
-        "title": "DarlingtonTouchSwitch",
+        "title": "Darlington Touch Switch",
         "summary": "test a Darlington-pair touch switch",
         "tags": [
             "Sensors",
@@ -5327,8 +5327,8 @@
     },
     "/Electronics101/OpAmpTimer/": {
         "id": 122,
-        "title": "OpAmpTimer",
-        "summary": "testing an OpAmp timer switch",
+        "title": "Op-amp Timer",
+        "summary": "testing an op-amp timer switch",
         "tags": [
             "OpAmp",
             "Timer"
@@ -5473,7 +5473,7 @@
     },
     "/Electronics101/SwitchPFET/": {
         "id": 106,
-        "title": "Switch - PFET",
+        "title": "PFET Switch with Delay",
         "summary": "small-signal p-channel MOSFET switch with turn-on delay",
         "tags": [
             "MOSFET"

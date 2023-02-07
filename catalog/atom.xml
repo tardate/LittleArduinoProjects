@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-02-01T12:29:28Z</updated>
+  <updated>2023-02-04T02:37:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RAF/Mosquito/</id>
     <link href="https://leap.tardate.com/Kraft/RAF/Mosquito/"/>
-    <updated>2023-02-01T12:29:10Z</updated>
+    <updated>2023-02-01T12:30:00Z</updated>
     <title>#690 de Havilland Mosquito B Mk.XVI</title>
     <summary>Building the Airfix de Havilland Mosquito B Mk.XVI (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAF/Mosquito/assets/Mosquito_build.jpg</g:image_link>
@@ -5386,8 +5386,8 @@
     <id>https://leap.tardate.com/Electronics101/SwitchSoftLatch/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchSoftLatch/"/>
     <updated>2016-01-07T01:28:46Z</updated>
-    <title>#175 SwitchSoftLatch</title>
-    <summary>test a soft-latching power switching circuit</summary>
+    <title>#175 Soft-latch Switch</title>
+    <summary>Test a soft-latching power switching circuit based on a p-channel MOSFET</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchSoftLatch/assets/SwitchSoftLatch_build.jpg</g:image_link>
     <category term="MOSFET"/>
     <category term="BJT"/>
@@ -5782,7 +5782,7 @@
     <id>https://leap.tardate.com/Electronics101/555Timer/TouchSwitch/</id>
     <link href="https://leap.tardate.com/Electronics101/555Timer/TouchSwitch/"/>
     <updated>2015-08-17T16:33:53Z</updated>
-    <title>#135 TouchSwitch/555</title>
+    <title>#135 555 Timer Touch Switch</title>
     <summary>test a touch switch circuit based on a 555 timer</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/555Timer/TouchSwitch/assets/TouchSwitch_build.jpg</g:image_link>
     <category term="555 Timer"/>
@@ -5830,7 +5830,7 @@
     <id>https://leap.tardate.com/Electronics101/DarlingtonTouchSwitch/</id>
     <link href="https://leap.tardate.com/Electronics101/DarlingtonTouchSwitch/"/>
     <updated>2015-08-15T10:31:15Z</updated>
-    <title>#130 DarlingtonTouchSwitch</title>
+    <title>#130 Darlington Touch Switch</title>
     <summary>test a Darlington-pair touch switch</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DarlingtonTouchSwitch/assets/DarlingtonTouchSwitch_build.jpg</g:image_link>
     <category term="Sensors"/>
@@ -5910,8 +5910,8 @@
     <id>https://leap.tardate.com/Electronics101/OpAmpTimer/</id>
     <link href="https://leap.tardate.com/Electronics101/OpAmpTimer/"/>
     <updated>2015-08-01T08:29:59Z</updated>
-    <title>#122 OpAmpTimer</title>
-    <summary>testing an OpAmp timer switch</summary>
+    <title>#122 Op-amp Timer</title>
+    <summary>testing an op-amp timer switch</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/OpAmpTimer/assets/OpAmpTimer_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Timer"/>
@@ -6072,7 +6072,7 @@
     <id>https://leap.tardate.com/Electronics101/SwitchPFET/</id>
     <link href="https://leap.tardate.com/Electronics101/SwitchPFET/"/>
     <updated>2020-03-14T16:56:38Z</updated>
-    <title>#106 Switch - PFET</title>
+    <title>#106 PFET Switch with Delay</title>
     <summary>small-signal p-channel MOSFET switch with turn-on delay</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/SwitchPFET/assets/SwitchPFET_build.jpg</g:image_link>
     <category term="MOSFET"/>

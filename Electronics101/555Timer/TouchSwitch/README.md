@@ -1,7 +1,6 @@
-# #135 555Timer/TouchSwitch
+# #135 555 Timer Touch Switch
 
 Test a touch switch circuit based on a 555 timer
-
 
 ## Notes
 

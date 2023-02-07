@@ -3613,8 +3613,8 @@
     },
     {
         "id": "#175",
-        "name": "SwitchSoftLatch",
-        "description": "test a soft-latching power switching circuit",
+        "name": "Soft-latch Switch",
+        "description": "Test a soft-latching power switching circuit based on a p-channel MOSFET",
         "categories": "MOSFET, BJT",
         "relative_path": "Electronics101/SwitchSoftLatch"
     },
@@ -3893,7 +3893,7 @@
     },
     {
         "id": "#135",
-        "name": "TouchSwitch/555",
+        "name": "555 Timer Touch Switch",
         "description": "test a touch switch circuit based on a 555 timer",
         "categories": "555 Timer",
         "relative_path": "Electronics101/555Timer/TouchSwitch"
@@ -3928,7 +3928,7 @@
     },
     {
         "id": "#130",
-        "name": "DarlingtonTouchSwitch",
+        "name": "Darlington Touch Switch",
         "description": "test a Darlington-pair touch switch",
         "categories": "Sensors, BJT",
         "relative_path": "Electronics101/DarlingtonTouchSwitch"
@@ -3984,8 +3984,8 @@
     },
     {
         "id": "#122",
-        "name": "OpAmpTimer",
-        "description": "testing an OpAmp timer switch",
+        "name": "Op-amp Timer",
+        "description": "testing an op-amp timer switch",
         "categories": "OpAmp, Timer",
         "relative_path": "Electronics101/OpAmpTimer"
     },
@@ -4096,7 +4096,7 @@
     },
     {
         "id": "#106",
-        "name": "Switch - PFET",
+        "name": "PFET Switch with Delay",
         "description": "small-signal p-channel MOSFET switch with turn-on delay",
         "categories": "MOSFET",
         "relative_path": "Electronics101/SwitchPFET"
