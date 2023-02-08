@@ -1,6 +1,6 @@
-# 692 Little Electronic Art Projects
+# 693 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Push-button Latch](./Electronics101/555Timer/Latch) - Testing a simple push-button latched switch circuit for on/off control using the 555 timer.
+> Latest addition:sparkles: [Porco Rosso](./Kraft/PorcoRosso) - Revisiting one of my favourite films after so many years thanks to a wonderful 1:72 kit or Porco Rosso Savoia S.21 from Fine Molds.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

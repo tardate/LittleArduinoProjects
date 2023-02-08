@@ -1,5 +1,12 @@
 [
     {
+        "id": "#693",
+        "name": "Porco Rosso",
+        "description": "Revisiting one of my favourite films after so many years thanks to a wonderful 1:72 kit or Porco Rosso Savoia S.21 from Fine Molds",
+        "categories": "scale models, Craft, 555 Timer, motor",
+        "relative_path": "Kraft/PorcoRosso"
+    },
+    {
         "id": "#692",
         "name": "Push-button Latch",
         "description": "Testing a simple push-button latched switch circuit for on/off control using the 555 timer",
