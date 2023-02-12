@@ -1,6 +1,6 @@
 # #693 PorcoRosso
 
-Revisiting one of my favourite films after so many years thanks to a wonderful 1:72 kit or Porco Rosso Savoia S.21 from Fine Molds.
+Revisiting one of my favourite films after so many years thanks to a wonderful 1:72 kit of the Porco Rosso Savoia S.21 from Fine Molds.
 
 ![Build](./assets/PorcoRosso_build.jpg?raw=true)
 
@@ -12,7 +12,7 @@ Here's a quick demo..
 
 [Porco Rosso](https://www.imdb.com/title/tt0104652/) is one of my favourite films of all time.
 
-I doscivered that Fine Molds have both a 1:72 and 1:48 model of Marco's Savois S.21.
+I discovered that Fine Molds have both a 1:72 and 1:48 model of Marco's Savoia S.21.
 
 Here I'm building the
 [Porco Rosso Savoia S.21 Idroplano da Caccia Sperimentale 1:72](https://www.scalemates.com/kits/finemolds-fj1-savoia-s21--157816)
