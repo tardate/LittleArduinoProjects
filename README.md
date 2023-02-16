@@ -1,4 +1,4 @@
-# 693 Little Electronic Art Projects
+# 694 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Porco Rosso](./Kraft/PorcoRosso) - Revisiting one of my favourite films after so many years thanks to a wonderful 1:72 kit or Porco Rosso Savoia S.21 from Fine Molds.
 

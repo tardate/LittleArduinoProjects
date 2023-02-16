@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-02-12T14:29:48Z</updated>
+  <updated>2023-02-17T16:06:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/WalnutChallenge/TeddyBearViking/</id>
+    <link href="https://leap.tardate.com/Kraft/WalnutChallenge/TeddyBearViking/"/>
+    <updated>2023-02-17T15:45:08Z</updated>
+    <title>#694 Teddy Bear Viking</title>
+    <summary>If you go down in the woods today, you're sure of a big surprise ... a Teddy Bear Viking in a Walnut!</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/WalnutChallenge/TeddyBearViking/assets/TeddyBearViking_build.jpg</g:image_link>
+    <category term="LED"/>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/PorcoRosso/</id>
     <link href="https://leap.tardate.com/Kraft/PorcoRosso/"/>
