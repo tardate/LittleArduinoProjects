@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-19T13:55:52Z</updated>
+  <updated>2023-03-24T14:17:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Gloster/PioneerE.28-39/</id>
+    <link href="https://leap.tardate.com/Kraft/Gloster/PioneerE.28-39/"/>
+    <updated>2023-03-24T12:07:27Z</updated>
+    <title>#699 Gloster Pioneer E.28-39</title>
+    <summary>Building the Gloster Pioneer E.28-39 from Clear Prop models of Ukraine</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Gloster/PioneerE.28-39/assets/PioneerE.28-39_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Bellanca/Pacemaker/</id>
     <link href="https://leap.tardate.com/Kraft/Bellanca/Pacemaker/"/>
-    <updated>2023-03-19T13:52:14Z</updated>
+    <updated>2023-03-24T12:07:24Z</updated>
     <title>#698 Bellanca CH-300 Pacemaker</title>
     <summary>Building the Dora Wings kit of the Bellanca CH-300 Pacemaker with an appropriately? kitsch presentation: Inter Island Airways livery over the beaches of Hawaii.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Bellanca/Pacemaker/assets/Pacemaker_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/"/>
-    <updated>2023-03-14T10:09:31Z</updated>
+    <updated>2023-03-24T12:07:25Z</updated>
     <title>#697 Mitsubishi A5M2b</title>
     <summary>Building the Wingsy Kits A5M2b in-flight for the 2023 Model Officers Mess birthday bash raising money and awareness for the Models for Heroes charity.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/assets/MitsubishiA5M2b_build.jpg</g:image_link>
@@ -36,7 +46,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/FlickeringFireEffect/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/FlickeringFireEffect/"/>
-    <updated>2023-03-14T10:09:31Z</updated>
+    <updated>2023-03-24T12:07:26Z</updated>
     <title>#696 Flickering Fire Effect</title>
     <summary>A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/FlickeringFireEffect/assets/FlickeringFireEffect_build.jpg</g:image_link>
@@ -47,7 +57,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/PwmMotorControl/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/PwmMotorControl/"/>
-    <updated>2023-03-14T10:09:31Z</updated>
+    <updated>2023-03-24T12:07:26Z</updated>
     <title>#695 ATtiny PMW Motor Control</title>
     <summary>Variable speed PWM motor control with an ATtiny85</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/PwmMotorControl/assets/PwmMotorControl_build.jpg</g:image_link>
@@ -1268,7 +1278,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PLA/CA30FuelTransporter/</id>
     <link href="https://leap.tardate.com/Kraft/PLA/CA30FuelTransporter/"/>
-    <updated>2021-02-02T13:39:25Z</updated>
+    <updated>2023-03-24T12:07:25Z</updated>
     <title>#579 Jie Fang CA-30 Fuel Truck</title>
     <summary>A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLA/CA30FuelTransporter/assets/CA30FuelTransporter_build.jpg</g:image_link>

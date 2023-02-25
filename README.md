@@ -1,4 +1,4 @@
-# 698 Little Electronic Art Projects
+# 699 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Mitsubishi A5M2b](./Kraft/IJN/MitsubishiA5M2b) - Building the Wingsy Kits A5M2b in-flight for the 2023 Model Officers Mess birthday bash raising money and awareness for the Models for Heroes charity.
 
