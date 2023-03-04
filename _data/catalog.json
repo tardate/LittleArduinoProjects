@@ -1,5 +1,12 @@
 [
     {
+        "id": "#698",
+        "name": "Bellanca CH-300 Pacemaker",
+        "description": "Building the Dora Wings kit of the Bellanca CH-300 Pacemaker with an appropriately? kitsch presentation: Inter Island Airways livery over the beaches of Hawaii.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/Bellanca/Pacemaker"
+    },
+    {
         "id": "#697",
         "name": "Mitsubishi A5M2b",
         "description": "Building the Wingsy Kits A5M2b in-flight for the 2023 Model Officers Mess birthday bash raising money and awareness for the Models for Heroes charity.",
@@ -248,7 +255,7 @@
         "id": "#662",
         "name": "Tachikawa KKY-1",
         "description": "Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.",
-        "categories": "scale models",
+        "categories": "scale models, Craft",
         "relative_path": "Kraft/IJN/TachikawaKKY1"
     },
     {

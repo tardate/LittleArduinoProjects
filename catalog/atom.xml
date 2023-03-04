@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-13T01:59:25Z</updated>
+  <updated>2023-03-19T13:51:36Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Bellanca/Pacemaker/</id>
+    <link href="https://leap.tardate.com/Kraft/Bellanca/Pacemaker/"/>
+    <updated>2023-03-19T13:29:26Z</updated>
+    <title>#698 Bellanca CH-300 Pacemaker</title>
+    <summary>Building the Dora Wings kit of the Bellanca CH-300 Pacemaker with an appropriately? kitsch presentation: Inter Island Airways livery over the beaches of Hawaii.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Bellanca/Pacemaker/assets/Pacemaker_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/"/>
-    <updated>2023-03-12T12:11:55Z</updated>
+    <updated>2023-03-14T10:09:31Z</updated>
     <title>#697 Mitsubishi A5M2b</title>
     <summary>Building the Wingsy Kits A5M2b in-flight for the 2023 Model Officers Mess birthday bash raising money and awareness for the Models for Heroes charity.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/assets/MitsubishiA5M2b_build.jpg</g:image_link>
@@ -26,7 +36,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/FlickeringFireEffect/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/FlickeringFireEffect/"/>
-    <updated>2023-03-08T15:14:31Z</updated>
+    <updated>2023-03-14T10:09:31Z</updated>
     <title>#696 Flickering Fire Effect</title>
     <summary>A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/FlickeringFireEffect/assets/FlickeringFireEffect_build.jpg</g:image_link>
@@ -37,7 +47,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/ATtiny/PwmMotorControl/</id>
     <link href="https://leap.tardate.com/playground/ATtiny/PwmMotorControl/"/>
-    <updated>2023-03-06T15:01:49Z</updated>
+    <updated>2023-03-14T10:09:31Z</updated>
     <title>#695 ATtiny PMW Motor Control</title>
     <summary>Variable speed PWM motor control with an ATtiny85</summary>
     <g:image_link>https://leap.tardate.com/playground/ATtiny/PwmMotorControl/assets/PwmMotorControl_build.jpg</g:image_link>
@@ -379,6 +389,7 @@
     <summary>Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/TachikawaKKY1/assets/TachikawaKKY1_build.jpg</g:image_link>
     <category term="scale models"/>
+    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/Concorde/</id>

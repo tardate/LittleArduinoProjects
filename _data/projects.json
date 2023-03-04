@@ -1,4 +1,13 @@
 {
+    "/Kraft/Bellanca/Pacemaker/": {
+        "id": 698,
+        "title": "Bellanca CH-300 Pacemaker",
+        "summary": "Building the Dora Wings kit of the Bellanca CH-300 Pacemaker with an appropriately? kitsch presentation: Inter Island Airways livery over the beaches of Hawaii.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/IJN/MitsubishiA5M2b/": {
         "id": 697,
         "title": "Mitsubishi A5M2b",
@@ -329,7 +338,8 @@
         "title": "Tachikawa KKY-1",
         "summary": "Building the rare Tachikawa KKY1 from Ukrainian model company Amodel. No electronics in this one.",
         "tags": [
-            "scale models"
+            "scale models",
+            "Craft"
         ]
     },
     "/Kraft/Concorde/": {
