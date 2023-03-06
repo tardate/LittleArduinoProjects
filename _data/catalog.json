@@ -1,5 +1,12 @@
 [
     {
+        "id": "#695",
+        "name": "ATtiny PMW Motor Control",
+        "description": "Variable speed PWM motor control with an ATtiny85",
+        "categories": "Motors, Arduino, AVR",
+        "relative_path": "playground/ATtiny/PwmMotorControl"
+    },
+    {
         "id": "#694",
         "name": "Teddy Bear Viking",
         "description": "If you go down in the woods today, you're sure of a big surprise ... a Teddy Bear Viking in a Walnut!",

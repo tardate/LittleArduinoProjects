@@ -1,4 +1,14 @@
 {
+    "/playground/ATtiny/PwmMotorControl/": {
+        "id": 695,
+        "title": "ATtiny PMW Motor Control",
+        "summary": "Variable speed PWM motor control with an ATtiny85",
+        "tags": [
+            "Motors",
+            "Arduino",
+            "AVR"
+        ]
+    },
     "/Kraft/WalnutChallenge/TeddyBearViking/": {
         "id": 694,
         "title": "Teddy Bear Viking",

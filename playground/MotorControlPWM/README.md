@@ -12,7 +12,7 @@ Here's a quick video of the circuit in action:
 
 Demonstrates using a PWM signal to control the current driving a DC motor, hence its speed.
 
-The small PWM signal is amplied with an NPN transistor.
+The small PWM signal is amplified with an NPN transistor.
 An S9013 transistor is used in this case, primarily because:
 
 * it has relative high hfe(β); for class H it typically ranges 144-202

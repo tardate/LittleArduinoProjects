@@ -1,6 +1,6 @@
-# 694 Little Electronic Art Projects
+# 695 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Porco Rosso](./Kraft/PorcoRosso) - Revisiting one of my favourite films after so many years thanks to a wonderful 1:72 kit or Porco Rosso Savoia S.21 from Fine Molds.
+> Latest addition:sparkles: [ATtiny PMW Motor Control](./playground/ATtiny/PwmMotorControl) - Variable speed PWM motor control with an ATtiny85.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
