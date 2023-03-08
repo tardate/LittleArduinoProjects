@@ -1,4 +1,14 @@
 {
+    "/playground/ATtiny/FlickeringFireEffect/": {
+        "id": 696,
+        "title": "Flickering Fire Effect",
+        "summary": "A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85",
+        "tags": [
+            "LED",
+            "Arduino",
+            "AVR"
+        ]
+    },
     "/playground/ATtiny/PwmMotorControl/": {
         "id": 695,
         "title": "ATtiny PMW Motor Control",

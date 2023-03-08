@@ -1,5 +1,12 @@
 [
     {
+        "id": "#696",
+        "name": "Flickering Fire Effect",
+        "description": "A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85",
+        "categories": "LED, Arduino, AVR",
+        "relative_path": "playground/ATtiny/FlickeringFireEffect"
+    },
+    {
         "id": "#695",
         "name": "ATtiny PMW Motor Control",
         "description": "Variable speed PWM motor control with an ATtiny85",

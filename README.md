@@ -1,6 +1,6 @@
-# 695 Little Electronic Art Projects
+# 696 Little Electronic Art Projects
 
-> Latest addition:sparkles: [ATtiny PMW Motor Control](./playground/ATtiny/PwmMotorControl) - Variable speed PWM motor control with an ATtiny85.
+> Latest addition:sparkles: [Flickering Fire Effect](./playground/ATtiny/FlickeringFireEffect) - A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
