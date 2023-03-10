@@ -1,6 +1,6 @@
-# 696 Little Electronic Art Projects
+# 697 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Flickering Fire Effect](./playground/ATtiny/FlickeringFireEffect) - A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85.
+> Latest addition:sparkles: [Mitsubishi A5M2b](./Kraft/IJN/MitsubishiA5M2b) - Building the Wingsey Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

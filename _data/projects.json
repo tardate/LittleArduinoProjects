@@ -1,4 +1,15 @@
 {
+    "/Kraft/IJN/MitsubishiA5M2b/": {
+        "id": 697,
+        "title": "Mitsubishi A5M2b",
+        "summary": "Building the Wingsey Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.",
+        "tags": [
+            "AVR",
+            "LED",
+            "scale models",
+            "Craft"
+        ]
+    },
     "/playground/ATtiny/FlickeringFireEffect/": {
         "id": 696,
         "title": "Flickering Fire Effect",
