@@ -1,6 +1,6 @@
 # #697 IJN/Mitsubishi A5M2b
 
-Building the Wingsey Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.
+Building the Wingsy Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.
 
 ![Build](./assets/MitsubishiA5M2b_build.jpg?raw=true)
 
@@ -65,7 +65,7 @@ I've got the Wingsy Kits A5M2b "Claude" (early version) a micro motor, a pilot s
 ![build01c](./assets/build01c.jpg?raw=true)
 ![build01d](./assets/build01d.jpg?raw=true)
 
-we have ignition! motorising was a stretch goal, but the way Wingsey have designed the engine makes it quite easy to mount a micro motor .. controlled by a microprocessor .. it's a micro machine;-)
+we have ignition! motorising was a stretch goal, but the way Wingsy have designed the engine makes it quite easy to mount a micro motor .. controlled by a microprocessor .. it's a micro machine;-)
 
 ![build01e](./assets/build01e.jpg?raw=true)
 

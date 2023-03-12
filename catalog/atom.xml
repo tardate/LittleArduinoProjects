@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-12T12:07:37Z</updated>
+  <updated>2023-03-12T12:48:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,9 +14,9 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/"/>
-    <updated>2023-03-12T11:37:57Z</updated>
+    <updated>2023-03-12T12:11:55Z</updated>
     <title>#697 Mitsubishi A5M2b</title>
-    <summary>Building the Wingsey Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.</summary>
+    <summary>Building the Wingsy Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA5M2b/assets/MitsubishiA5M2b_build.jpg</g:image_link>
     <category term="AVR"/>
     <category term="LED"/>
