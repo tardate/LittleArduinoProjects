@@ -161,6 +161,14 @@ smoke trails..
 ![build08g](./assets/build08g.jpg?raw=true)
 ![build08h](./assets/build08h.jpg?raw=true)
 
+Wingsy Kits A5M2b "bring it home through the fire and flames". Had a little fun with an ATtiny for motor and flame effects.
+
+![build09a](./assets/build09a.jpg?raw=true)
+![build09b](./assets/build09b.jpg?raw=true)
+![build09c](./assets/build09c.jpg?raw=true)
+![build09d](./assets/build09d.jpg?raw=true)
+![build09e](./assets/build09e.jpg?raw=true)
+![build09f](./assets/build09f.jpg?raw=true)
 
 ## Credits and References
 
