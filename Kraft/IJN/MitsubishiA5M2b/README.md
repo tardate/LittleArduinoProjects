@@ -175,6 +175,12 @@ smoke trails..
 
 ![build07d](./assets/build07d.jpg?raw=true)
 
+I was impressed by the kit decals: good strong white over red, and they settled down major rudder parts with nothing more than Mr Mark Setter and time.
+
+![build07e](./assets/build07e.jpg?raw=true)
+
+Mounted on the wall (velcro sticky strips - nice and secure).
+
 ![build08a](./assets/build08a.jpg?raw=true)
 ![build08b](./assets/build08b.jpg?raw=true)
 ![build08c](./assets/build08c.jpg?raw=true)
@@ -192,6 +198,7 @@ Wingsy Kits A5M2b "bring it home through the fire and flames". Had a little fun 
 ![build09d](./assets/build09d.jpg?raw=true)
 ![build09e](./assets/build09e.jpg?raw=true)
 ![build09f](./assets/build09f.jpg?raw=true)
+![build09g](./assets/build09g.jpg?raw=true)
 
 ## Credits and References
 
