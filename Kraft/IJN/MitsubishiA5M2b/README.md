@@ -1,6 +1,6 @@
 # #697 IJN/Mitsubishi A5M2b
 
-Building the Wingsy Kits A5M2b in-flight for the 2023 Model Offiers Mess birthday bash raising money and awareness for the Models for Heroes charity.
+Building the Wingsy Kits A5M2b in-flight for the 2023 Model Officers Mess birthday bash raising money and awareness for the Models for Heroes charity.
 
 ![Build](./assets/MitsubishiA5M2b_build.jpg?raw=true)
 
@@ -45,13 +45,39 @@ IJN Type 96 carrier-based fighter II Hyakurihara Kokutai, Ibaraki, 1940-1941 (11
 
 ### Circuit Design
 
+The controller is implemented in code on an ATtiny85. Some circuit notes:
+
+* the PWM outputs are used to control low-side n-channel FETs rather than directly drive the outputs. This ensures that current load on the ATtiny85 does not exceed limits (10mA per pin, 60mA total).
+* the LEDs and accompanying current-limiting resistors are just for demonstration purposes - these can be changed as required for a particular application.
+* the duty cycle of the motor control is set based on reading a variable resistor.
+* a [fly-back diode](http://en.wikipedia.org/wiki/Flyback_diode) is placed across the motor to drain any voltage spike as the motor load is switched
+* I initially built this to be run from 5V USB but got stumped trying to hide a suitable power supply in the picture frame. Luckily, the circuit also works just fin on 3V (2xAAA) - though I don't know how long the batteries will last.
+
 ![bb](./assets/MitsubishiA5M2b_bb.jpg?raw=true)
 
 ![schematic](./assets/MitsubishiA5M2b_schematic.jpg?raw=true)
 
-![bb_build](./assets/MitsubishiA5M2b_bb_build.jpg?raw=true)
+Testing the circuits on a breadboard:
+
+![bb_build](./assets/build05b.jpg?raw=true)
 
 Note: with this motor and propeller, I needed the motor connected in "reverse" for correct prop rotation.
+
+### Code Organisation
+
+The main script [MitsubishiA5M2b.ino](./MitsubishiA5M2b.ino) runs the main loop. It uses two support classes to orchestrate the effects:
+
+* `pwm_motor.h`/`pwm_motor.cpp` encapsulates the PWM motor drive, using variable resistor input to set the duty cycle.
+* `flame.h`/`flame.cpp` implements the flickering algorithm for a the flames.
+    * on each update it adjusts the flames brightness
+    * the maximum change per update is set by the brightness input
+    * the actual change in brightness is determined by the `mix` value for each flame. This sets the percentage of the new value that is mixed with the old value. Lower values will mean more slowly changing updates
+
+See the [GitHub repo](https://github.com/tardate/LittleArduinoProjects/tree/master/Kraft/IJN/MitsubishiA5M2b) for sources.
+
+The ATtiny85 is programmed using an Arduino Uno as the in-circuit programmer
+
+![programming_the_attiny](./assets/programming_the_attiny.png?raw=true)
 
 ### Build Log
 
@@ -77,11 +103,9 @@ Saying goodnight from UTC+8 for now and see you all in the morning. Great time s
 
 ![fri-night-close](./assets/fri-night-close.jpg?raw=true)
 
-
 a bit of head-scratching later and I figured out how all the engine parts fit together!
 
 ![build01g](./assets/build01g.jpg?raw=true)
-
 
 ![build02a](./assets/build02a.jpg?raw=true)
 ![build02b](./assets/build02b.jpg?raw=true)
@@ -92,7 +116,6 @@ a bit of head-scratching later and I figured out how all the engine parts fit to
 ![build02g](./assets/build02g.jpg?raw=true)
 ![build02h](./assets/build02h.jpg?raw=true)
 ![build02i](./assets/build02i.jpg?raw=true)
-
 
 a pity it's all going to be hidden away, but I blew my morning time budget on the cockpit. the kit makes it pretty irresistible!
 
@@ -179,3 +202,6 @@ Wingsy Kits A5M2b "bring it home through the fire and flames". Had a little fun 
 * [A5M2b 'Claude' (Early) D5-03 Build By Chris Meddings - Models for Ukraine Vol2 p114](https://www.insidethearmour.com/product-page/models-for-ukraine-vol-2-preorder)
 * [A5M4 D5-02 Build By Jeremy Moore - Models for Ukraine Vol1 p11](https://www.insidethearmour.com/product-page/models-for-ukraine-ebook)
 * [Kawasaki Ki-61-Id Hien (Tony) Tamiya No. 61115 1:48](https://www.scalemates.com/kits/tamiya-61115-kawasaki-ki-61-id-hien-tony--1017255)
+* [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+* [1N4001 Datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)
