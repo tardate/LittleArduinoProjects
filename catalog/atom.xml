@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-19T13:51:36Z</updated>
+  <updated>2023-03-19T13:55:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Bellanca/Pacemaker/</id>
     <link href="https://leap.tardate.com/Kraft/Bellanca/Pacemaker/"/>
-    <updated>2023-03-19T13:29:26Z</updated>
+    <updated>2023-03-19T13:52:14Z</updated>
     <title>#698 Bellanca CH-300 Pacemaker</title>
     <summary>Building the Dora Wings kit of the Bellanca CH-300 Pacemaker with an appropriately? kitsch presentation: Inter Island Airways livery over the beaches of Hawaii.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Bellanca/Pacemaker/assets/Pacemaker_build.jpg</g:image_link>
@@ -1266,12 +1266,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/CA30FuelTransporter/</id>
-    <link href="https://leap.tardate.com/Kraft/CA30FuelTransporter/"/>
+    <id>https://leap.tardate.com/Kraft/PLA/CA30FuelTransporter/</id>
+    <link href="https://leap.tardate.com/Kraft/PLA/CA30FuelTransporter/"/>
     <updated>2021-02-02T13:39:25Z</updated>
     <title>#579 Jie Fang CA-30 Fuel Truck</title>
     <summary>A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/CA30FuelTransporter/assets/CA30FuelTransporter_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/PLA/CA30FuelTransporter/assets/CA30FuelTransporter_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
