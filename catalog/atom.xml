@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-29T13:28:46Z</updated>
+  <updated>2023-03-30T14:02:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/"/>
+    <updated>2023-03-30T14:02:50Z</updated>
+    <title>#701 Nakajima Ki-84 Egg-Scale</title>
+    <summary>An egg-scale warm up before I move on to the Arma Hobby Ki-84 Hayate</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/assets/EggScale_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Audio/LaserHarpKit/</id>
     <link href="https://leap.tardate.com/Audio/LaserHarpKit/"/>
-    <updated>2023-03-27T14:16:28Z</updated>
+    <updated>2023-03-30T13:19:11Z</updated>
     <title>#700 Laser Harp Kit</title>
     <summary>Build and test an 8051-based laser harp kit</summary>
     <g:image_link>https://leap.tardate.com/Audio/LaserHarpKit/assets/LaserHarpKit_build.jpg</g:image_link>
@@ -5307,7 +5317,7 @@
   <entry>
     <id>https://leap.tardate.com/8051/PovShakeStickKit/</id>
     <link href="https://leap.tardate.com/8051/PovShakeStickKit/"/>
-    <updated>2016-03-03T01:22:05Z</updated>
+    <updated>2023-03-30T13:19:11Z</updated>
     <title>#193 PoV Shake Stick Kit</title>
     <summary>build and investigate an AT89S52-based &quot;shake stick&quot; kit</summary>
     <g:image_link>https://leap.tardate.com/8051/PovShakeStickKit/assets/PovShakeStickKit_build.jpg</g:image_link>
@@ -6358,7 +6368,7 @@
   <entry>
     <id>https://leap.tardate.com/8051/ElectronicClockKit/</id>
     <link href="https://leap.tardate.com/8051/ElectronicClockKit/"/>
-    <updated>2015-06-04T13:47:47Z</updated>
+    <updated>2023-03-30T13:19:11Z</updated>
     <title>#088 Electronic Clock Kit</title>
     <summary>build and investigate a commercially available &quot;electronic clock&quot; kit</summary>
     <g:image_link>https://leap.tardate.com/8051/ElectronicClockKit/assets/ElectronicClockKit_build.jpg</g:image_link>
