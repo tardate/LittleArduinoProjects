@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-24T14:17:11Z</updated>
+  <updated>2023-03-29T13:28:46Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Audio/LaserHarpKit/</id>
+    <link href="https://leap.tardate.com/Audio/LaserHarpKit/"/>
+    <updated>2023-03-27T14:16:28Z</updated>
+    <title>#700 Laser Harp Kit</title>
+    <summary>Build and test an 8051-based laser harp kit</summary>
+    <g:image_link>https://leap.tardate.com/Audio/LaserHarpKit/assets/LaserHarpKit_build.jpg</g:image_link>
+    <category term="Audio"/>
+    <category term="Laser"/>
+    <category term="LED"/>
+    <category term="8051"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Gloster/PioneerE.28-39/</id>
     <link href="https://leap.tardate.com/Kraft/Gloster/PioneerE.28-39/"/>
-    <updated>2023-03-24T12:07:27Z</updated>
+    <updated>2023-03-24T14:18:48Z</updated>
     <title>#699 Gloster Pioneer E.28-39</title>
     <summary>Building the Gloster Pioneer E.28-39 from Clear Prop models of Ukraine</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Gloster/PioneerE.28-39/assets/PioneerE.28-39_build.jpg</g:image_link>
@@ -3148,7 +3160,7 @@
     <id>https://leap.tardate.com/8051/AT89C2051/LedChaser/</id>
     <link href="https://leap.tardate.com/8051/AT89C2051/LedChaser/"/>
     <updated>2018-07-02T00:07:52Z</updated>
-    <title>#399 AT89C2051/LedChaser</title>
+    <title>#399 AT89C2051 LED Chaser</title>
     <summary>run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/8051/AT89C2051/LedChaser/assets/LedChaser_build.jpg</g:image_link>
     <category term="8051"/>
@@ -3189,7 +3201,7 @@
     <id>https://leap.tardate.com/8051/AT89C2051/Blinky/</id>
     <link href="https://leap.tardate.com/8051/AT89C2051/Blinky/"/>
     <updated>2018-06-06T15:28:00Z</updated>
-    <title>#395 AT89C2051/Blinky</title>
+    <title>#395 AT89C2051 Blinky</title>
     <summary>Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/8051/AT89C2051/Blinky/assets/Blinky_build.jpg</g:image_link>
     <category term="8051"/>
@@ -3199,7 +3211,7 @@
     <id>https://leap.tardate.com/8051/AT89C2051/Programmer/</id>
     <link href="https://leap.tardate.com/8051/AT89C2051/Programmer/"/>
     <updated>2018-06-06T15:28:00Z</updated>
-    <title>#394 AT89C2051/Programmer</title>
+    <title>#394 AT89C2051 Programmer</title>
     <summary>building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX</summary>
     <g:image_link>https://leap.tardate.com/8051/AT89C2051/Programmer/assets/Programmer_build.jpg</g:image_link>
     <category term="8051"/>
@@ -5293,12 +5305,12 @@
     <category term="ESP8266"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/PovShakeStickKit/</id>
-    <link href="https://leap.tardate.com/Electronics101/PovShakeStickKit/"/>
+    <id>https://leap.tardate.com/8051/PovShakeStickKit/</id>
+    <link href="https://leap.tardate.com/8051/PovShakeStickKit/"/>
     <updated>2016-03-03T01:22:05Z</updated>
-    <title>#193 PovShakeStickKit</title>
+    <title>#193 PoV Shake Stick Kit</title>
     <summary>build and investigate an AT89S52-based &quot;shake stick&quot; kit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PovShakeStickKit/assets/PovShakeStickKit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/8051/PovShakeStickKit/assets/PovShakeStickKit_build.jpg</g:image_link>
     <category term="8051"/>
     <category term="LED"/>
   </entry>
@@ -6344,14 +6356,14 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/ElectronicClockKit/</id>
-    <link href="https://leap.tardate.com/Electronics101/ElectronicClockKit/"/>
+    <id>https://leap.tardate.com/8051/ElectronicClockKit/</id>
+    <link href="https://leap.tardate.com/8051/ElectronicClockKit/"/>
     <updated>2015-06-04T13:47:47Z</updated>
-    <title>#088 ElectronicClockKit</title>
+    <title>#088 Electronic Clock Kit</title>
     <summary>build and investigate a commercially available &quot;electronic clock&quot; kit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/ElectronicClockKit/assets/ElectronicClockKit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/8051/ElectronicClockKit/assets/ElectronicClockKit_build.jpg</g:image_link>
     <category term="LCD"/>
-    <category term="Kit"/>
+    <category term="8051"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/OLED/SSD1306BareBack/</id>

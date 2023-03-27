@@ -1,4 +1,4 @@
-# #395 AT89C2051/Blinky
+# #395 AT89C2051 Blinky
 
 Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX.
 
@@ -16,7 +16,6 @@ and also my first trial of [SDCC - Small Device C Compiler](http://sdcc.sourcefo
 It is almost but not quite the simplest LED blinky program possible.
 It blinks an LED on P1_0, using a do-nothing loop to approximate 1Hz cycle time.
 
-
 ## Installing SDCC
 
 SDCC can be compiled from source or installed with a range of pre-compiled distributions available for Linux, Mac and Windows.
@@ -24,7 +23,6 @@ SDCC can be compiled from source or installed with a range of pre-compiled distr
 I am [using a distribution for MacOSX](http://sdcc.sourceforge.net/snap.php#MacOSX).
 
 Here's a command line replay of what I installed:
-
 
 ```
 wget https://excellmedia.dl.sourceforge.net/project/sdcc/snapshot_builds/i386_universal-apple-macosx/sdcc-snapshot-i386_universal-apple-macosx-20150214-9180.tar.bz2
@@ -64,8 +62,6 @@ I've checked-in all the products of the compilation for study purposes:
 | Blinky.rst | Assembler listing file updated with linkedit information, created by linkage editor  |
 | Blinky.sym | Symbol listing for the sourcefile, created by the assembler |
 
-
-
 ## Controlling the RST line
 
 I haven't found the definitive specification for this yet - but I quickly learned that you can't just ground the RST pin
@@ -74,7 +70,6 @@ and have the chip run!
 The AT89C2051 data sheet actually specifies a RST pull-down of 50kΩ-300kΩ, but it seems to be important to also
 couple to VCC with a capacitor of say 2.2µF or more.
 Googling for 8051 circuit schematics, I see a common combination is 8.2kΩ pull-down and 2.2µF or 10µF to VCC.
-
 
 ## Construction
 

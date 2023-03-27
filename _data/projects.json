@@ -1,4 +1,15 @@
 {
+    "/Audio/LaserHarpKit/": {
+        "id": 700,
+        "title": "Laser Harp Kit",
+        "summary": "Build and test an 8051-based laser harp kit",
+        "tags": [
+            "Audio",
+            "Laser",
+            "LED",
+            "8051"
+        ]
+    },
     "/Kraft/Gloster/PioneerE.28-39/": {
         "id": 699,
         "title": "Gloster Pioneer E.28-39",
@@ -2833,7 +2844,7 @@
     },
     "/8051/AT89C2051/LedChaser/": {
         "id": 399,
-        "title": "AT89C2051/LedChaser",
+        "title": "AT89C2051 LED Chaser",
         "summary": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX",
         "tags": [
             "8051",
@@ -2870,7 +2881,7 @@
     },
     "/8051/AT89C2051/Blinky/": {
         "id": 395,
-        "title": "AT89C2051/Blinky",
+        "title": "AT89C2051 Blinky",
         "summary": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX",
         "tags": [
             "8051",
@@ -2879,7 +2890,7 @@
     },
     "/8051/AT89C2051/Programmer/": {
         "id": 394,
-        "title": "AT89C2051/Programmer",
+        "title": "AT89C2051 Programmer",
         "summary": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
         "tags": [
             "8051"
@@ -4773,9 +4784,9 @@
             "ESP8266"
         ]
     },
-    "/Electronics101/PovShakeStickKit/": {
+    "/8051/PovShakeStickKit/": {
         "id": 193,
-        "title": "PovShakeStickKit",
+        "title": "PoV Shake Stick Kit",
         "summary": "build and investigate an AT89S52-based \"shake stick\" kit",
         "tags": [
             "8051",
@@ -5719,13 +5730,13 @@
             "LED"
         ]
     },
-    "/Electronics101/ElectronicClockKit/": {
+    "/8051/ElectronicClockKit/": {
         "id": 88,
-        "title": "ElectronicClockKit",
+        "title": "Electronic Clock Kit",
         "summary": "build and investigate a commercially available \"electronic clock\" kit",
         "tags": [
             "LCD",
-            "Kit"
+            "8051"
         ]
     },
     "/playground/OLED/SSD1306BareBack/": {

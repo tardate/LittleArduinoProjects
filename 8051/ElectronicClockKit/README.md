@@ -1,7 +1,8 @@
-# #088 ElectronicClockKit
+# #088 Electronic Clock Kit
 
 Build and investigate a commercially available "electronic clock" kit
 
+![The Build](./assets/ElectronicClockKit_build.jpg?raw=true)
 
 ## Notes
 
@@ -94,10 +95,7 @@ Functions:
 * Press S2 to increment counter
 * Press S2 to reset
 
-
 ## Construction
-
-![The Build](./assets/ElectronicClockKit_build.jpg?raw=true)
 
 ![The Schematic](./assets/ElectronicClockKit_schematic.jpg?raw=true)
 

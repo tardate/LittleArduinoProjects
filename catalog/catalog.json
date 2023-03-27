@@ -1,5 +1,12 @@
 [
     {
+        "id": "#700",
+        "name": "Laser Harp Kit",
+        "description": "Build and test an 8051-based laser harp kit",
+        "categories": "Audio, Laser, LED, 8051",
+        "relative_path": "Audio/LaserHarpKit"
+    },
+    {
         "id": "#699",
         "name": "Gloster Pioneer E.28-39",
         "description": "Building the Gloster Pioneer E.28-39 from Clear Prop models of Ukraine",
@@ -2108,7 +2115,7 @@
     },
     {
         "id": "#399",
-        "name": "AT89C2051/LedChaser",
+        "name": "AT89C2051 LED Chaser",
         "description": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX",
         "categories": "8051, LED",
         "relative_path": "8051/AT89C2051/LedChaser"
@@ -2136,14 +2143,14 @@
     },
     {
         "id": "#395",
-        "name": "AT89C2051/Blinky",
+        "name": "AT89C2051 Blinky",
         "description": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX",
         "categories": "8051, LED",
         "relative_path": "8051/AT89C2051/Blinky"
     },
     {
         "id": "#394",
-        "name": "AT89C2051/Programmer",
+        "name": "AT89C2051 Programmer",
         "description": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
         "categories": "8051",
         "relative_path": "8051/AT89C2051/Programmer"
@@ -3550,10 +3557,10 @@
     },
     {
         "id": "#193",
-        "name": "PovShakeStickKit",
+        "name": "PoV Shake Stick Kit",
         "description": "build and investigate an AT89S52-based \"shake stick\" kit",
         "categories": "8051, LED",
-        "relative_path": "Electronics101/PovShakeStickKit"
+        "relative_path": "8051/PovShakeStickKit"
     },
     {
         "id": "#192",
@@ -4285,10 +4292,10 @@
     },
     {
         "id": "#088",
-        "name": "ElectronicClockKit",
+        "name": "Electronic Clock Kit",
         "description": "build and investigate a commercially available \"electronic clock\" kit",
-        "categories": "LCD, Kit",
-        "relative_path": "Electronics101/ElectronicClockKit"
+        "categories": "LCD, 8051",
+        "relative_path": "8051/ElectronicClockKit"
     },
     {
         "id": "#087",

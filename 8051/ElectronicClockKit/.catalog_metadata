@@ -1,0 +1,7 @@
+{
+    "id": "#088", 
+    "name": "Electronic Clock Kit",
+    "description": "build and investigate a commercially available \"electronic clock\" kit", 
+    "categories": "LCD, 8051",
+    "relative_path": "8051/ElectronicClockKit"
+}

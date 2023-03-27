@@ -1,4 +1,4 @@
-# #394 AT89C2051/Programmer
+# #394 AT89C2051 Programmer
 
 Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX.
 
@@ -8,7 +8,7 @@ Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host 
 
 I've been meaning to dive a bit deeper into
 [Intel MCS-51/8051](https://en.wikipedia.org/wiki/Intel_MCS-51) devices and programming
-ever since I built the [LEAP#088 ElectronicClockKit](../../../Electronics101/ElectronicClockKit).
+ever since I built the [LEAP#088 ElectronicClockKit](../../ElectronicClockKit).
 While it's long been EOL at Intel, [this article By Jon Wilder](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/)
 is a valiant argument for why they are still around.
 
@@ -23,26 +23,24 @@ So while I could go out and buy a programmer, the idea of building my own is ver
 * it is a bit of a short cut to building familiarity with the chip and datasheet
 * I can make sure it supports my host platform of choice - MacOSX
 
-
 ### Inspirations and Prior Art
 
 I found a couple of interesting projects that provided a good starting point.
 I'd recommend checking these out. In summary:
 
 1. [AT89C2051_programmer](https://github.com/piotrb5e3/AT89C2051_programmer)
-    - by [piotrb5e3](https://github.com/piotrb5e3)
-    - uses separate 12V programming voltage power supply [**negative**]
-    - open source python host programming software distributed via PyPI (at89overlord) [**positive**]
-    - uses Arduino Uno as a programmer [**positive**]
-
+    * by [piotrb5e3](https://github.com/piotrb5e3)
+    * uses separate 12V programming voltage power supply [**negative**]
+    * open source python host programming software distributed via PyPI (at89overlord) [**positive**]
+    * uses Arduino Uno as a programmer [**positive**]
 
 2. [An Arduino-based programmer for the AT89C2051 chip](http://ceptimus.co.uk/?p=216)
-    - by [ceptimus](http://ceptimus.co.uk/)
-    - uses a charge pump for 12V programming voltage [**positive**]
-    - charge pump control is quite naive (bit-banging) [**negative**]
-    - C# host programming software, open sourced but not in collaborative version control [**negative**]
-    - uses Arduino as a programmer [**positive**]
-    - quite wasteful of GPIO pins, so requires Arduino Mega/ATmega2560 [**negative**]
+    * by [ceptimus](http://ceptimus.co.uk/)
+    * uses a charge pump for 12V programming voltage [**positive**]
+    * charge pump control is quite naive (bit-banging) [**negative**]
+    * C# host programming software, open sourced but not in collaborative version control [**negative**]
+    * uses Arduino as a programmer [**positive**]
+    * quite wasteful of GPIO pins, so requires Arduino Mega/ATmega2560 [**negative**]
 
 Boiling down my wishlist/plan:
 
@@ -82,7 +80,6 @@ Here's a breakdown of the control states. In this table:
 * RST_PIN - pin A0 output
 * Charge Pump PWM - pins 3,11 output
 
-
 | RST_PIN  | Charge Pump PWM | Charge Pump Voltage | Q1c  | Q2  | VPP/RST       |
 |----------|-----------------|---------------------|------|-----|---------------|
 | High, 5V | On              | 12V                 | Low  | Off | ~12V          |
@@ -90,13 +87,10 @@ Here's a breakdown of the control states. In this table:
 | High, 5V | Off             | ~2V                 | Low  | Off | ~4.4V         |
 | Low, 0V  | Off             | ~2V                 | High | On  | ~0V           |
 
-
 Possible improvement: I could probably reduce this to requiring 2 pins in total with the addition of an inverter IC to:
 
 * invert a single PWM signal for charge pump control
 * replace the 2 x NPN inverter for the 0V pull-down
-
-
 
 ## Installing at89overlord
 
@@ -133,7 +127,6 @@ $ at89overlord -p /dev/tty.usbmodem14511 -f ../Blinky/Blinky.hex
 # Done!
 ```
 
-
 ## Breadboard Construction
 
 ![Breadboard](./assets/Programmer_bb.jpg?raw=true)
@@ -141,7 +134,6 @@ $ at89overlord -p /dev/tty.usbmodem14511 -f ../Blinky/Blinky.hex
 ![Schematic](./assets/Programmer_schematic.jpg?raw=true)
 
 ![Programmer_bb_build](./assets/Programmer_bb_build.jpg?raw=true)
-
 
 ## Putting it on a Prototyping Shield
 
@@ -153,7 +145,6 @@ It looks like a nice project to build a custom board, with ATmega328 built in ..
 I have a spare prototyping shield for an Uno, so for now I've put the circuit on that.
 Here's a sketch of the layout I used:
 
-
 ![Programmer_pb_layout](./assets/Programmer_pb_layout.jpg?raw=true)
 
 The finished shield:
@@ -164,12 +155,11 @@ Now it's easy to program an AT89C2051..
 
 ![Programmer_build](./assets/Programmer_build.jpg?raw=true)
 
-
 ## Credits and References
 
 * [LEAP#395 AT89C2051 Blinky](../Blinky)
 * [LEAP#393 DicksonChargePump](../../../playground/DicksonChargePump)
-* [LEAP#088 ElectronicClockKit](../../../Electronics101/ElectronicClockKit)
+* [LEAP#088 ElectronicClockKit](../../ElectronicClockKit)
 * [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
 * [Intel’s MCS-51 Microcontroller Family – It’s Here to Stay](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/) by Jon Wilder
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)

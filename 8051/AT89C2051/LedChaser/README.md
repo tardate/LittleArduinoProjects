@@ -1,4 +1,4 @@
-# #399 AT89C2051/LedChaser
+# #399 AT89C2051 LED Chaser
 
 Run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX.
 
@@ -19,15 +19,14 @@ and conigure to fire interrupt 1 on overflow.
 Register usage:
 
 * `TMOD` sets the mode and gating for Timer0 and Timer1. In this case, Timer1 is ignored, and Timer0 set for:
-    - Mode 3: uses TL0 as an 8-bit timer/counter.
-    - Timer0 counts based on the divided-down system clock (clock / 12)
-    - Timer0 is enabled when the TR0 bit is set
+    * Mode 3: uses TL0 as an 8-bit timer/counter.
+    * Timer0 counts based on the divided-down system clock (clock / 12)
+    * Timer0 is enabled when the TR0 bit is set
 * `TL0` is the low 8 bits of the Timer0 register
 * `ET0=1` enables Timer0 interrupt.
 * `EA=1`  enables global interrupt.
 * `TR0=1` sets Timer0 running.
 * `TF0` is the Timer0 flag set every time an overflow occurs. Flags are cleared before calling the timer interrupt routine.
-
 
 ## Interrupt Service Routine
 
@@ -42,7 +41,6 @@ void timer0_isr(void) __interrupt (1) {
 
 The interrupt routine is setup in this program to count interrupts and trigger an LED state change at a frequency of 2Hz.
 
-
 ## Driving LEDs with Port 1
 
 Eight LEDs are used by this program in a simple "chase" sequence, which maps nicely to the 8 bits or Port 1.
@@ -50,7 +48,6 @@ All the Port 1 output buffers can sink 20 mA, more than enough for the LEDs I'm 
 
 Only pins P1.2 to P1.7 provide internal pull-ups and can source current. P1.0 and P1.1 require external pull-ups for this,
 so the most convenient arrangement for this design is low-side control of the LEDs i.e. active-low logic.
-
 
 ## Code and Compilation
 
@@ -63,7 +60,6 @@ sdcc -mmcs51 --code-size 2048 LedChaser.c -o LedChaser.ihx
 packihx LedChaser.ihx > LedChaser.hex
 packihx: read 15 lines, wrote 19: OK.
 ```
-
 
 ## Programming
 
@@ -85,7 +81,6 @@ $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 
 ```
 
-
 ## Construction
 
 ![Breadboard](./assets/LedChaser_bb.jpg?raw=true)
@@ -96,6 +91,4 @@ $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 
 ## Credits and References
 
-* [name](url)
-* [..as mentioned on my blog](https://blog.tardate.com/)
-
+* [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
