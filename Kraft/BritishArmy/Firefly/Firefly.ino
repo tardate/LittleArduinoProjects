@@ -3,7 +3,7 @@
   Firefly
   Testing some mini/micro linear servo motors with an ATtiny85
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kraft/Firefly
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kraft/BritishArmy/Firefly
 
  */
 

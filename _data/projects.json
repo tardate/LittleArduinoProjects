@@ -684,7 +684,7 @@
             "Craft"
         ]
     },
-    "/Kraft/VauxhallDTypeAmbulance/": {
+    "/Kraft/BritishArmy/VauxhallDTypeAmbulance/": {
         "id": 627,
         "title": "Vauxhall D-Type Ambulance",
         "summary": "Building the wonderful little 1:72 Vauxhall D-Type Ambulance kit from Ukrainian manufacturer Roden. Dedicated to the memory of Valery Grygorenko. Valery created some of the most amazing box art for Roden but tragically he was killed in a Russian attack near his home in March 2022.",
@@ -693,7 +693,7 @@
             "Craft"
         ]
     },
-    "/Kraft/Buccaneer/": {
+    "/Kraft/RoyalNavy/Buccaneer/": {
         "id": 626,
         "title": "Blackburn Buccaneer S.2C",
         "summary": "An excuse to build another sea base - this time for an aircraft - the RN Blackburn Buccaneer S.2C from Airfix in 1:72 scale, tooling around the North Sea at 30ft.",
@@ -891,7 +891,7 @@
             "Craft"
         ]
     },
-    "/Kraft/Firefly/": {
+    "/Kraft/BritishArmy/Firefly/": {
         "id": 606,
         "title": "Firefly",
         "summary": "Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic",
@@ -1026,7 +1026,7 @@
             "Craft"
         ]
     },
-    "/Kraft/25pdr/": {
+    "/Kraft/BritishArmy/25pdr/": {
         "id": 593,
         "title": "25 Pounder Field Gun and Quad",
         "summary": "Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.",
@@ -1056,7 +1056,7 @@
             "LED"
         ]
     },
-    "/Kraft/TigerMoth/": {
+    "/Kraft/RoyalNavy/TigerMoth/": {
         "id": 590,
         "title": "Tiger Moth",
         "summary": "Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller",
@@ -1133,7 +1133,7 @@
             "LED"
         ]
     },
-    "/Kraft/Schnellboot/": {
+    "/Kraft/Wehrmacht/Schnellboot/": {
         "id": 582,
         "title": "Schnellboot",
         "summary": "Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects",

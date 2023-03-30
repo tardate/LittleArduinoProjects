@@ -76,7 +76,7 @@ To be packed inside the body, with only a 5V power supply (through the bottom of
 * [ATtiny85](https://www.microchip.com/en-us/product/ATTINY85) microcontroller, programmed with the [Firefly](./Firefly.ino) sketch
 * an electret microphone and [TL072](http://parts.io/detail/12204535/TL072) opamp to amplify the incoming sound
 * a resistor/diode pair, used to set the sound threshold voltage to around 0.4V (an input sound above that level will trigger the animation)
-* a "firing pin" GPIO out - am still thinking about finding/making a suitable cannonfire sound effect, however for now it just blinks an LED for diagnostic purposes
+* a "firing pin" GPIO out - am still thinking about finding/making a suitable cannon-fire sound effect, however for now it just blinks an LED for diagnostic purposes
 * a [Micro Linear Servo GS-1502](https://shopee.sg/2x-1.5g-Digital-Ultra-Micro-Linear-Servo-V-Tail-Function-GS-1502-Left-Right-i.70675888.1608865461), used to rotate the turret
 
 ![Breadboard](./assets/Firefly_bb.jpg?raw=true)
@@ -92,8 +92,8 @@ Testing the circuit on a breadboard:
 The ATtiny85 is configured to run at 8MHz, and programmed with the [Firefly](./Firefly.ino) sketch. The sketch:
 
 * sets up an interrupt handler on the analog comparator:
-    * when voltage in from the electret microphone goes above the diode-regulated reference voltage of about 0.4V, it triggers the ANA_COMP_vect
-    * ANA_COMP_vect sets a "triggered" flag
+    * when voltage in from the electret microphone goes above the diode-regulated reference voltage of about 0.4V, it triggers the `ANA_COMP_vect`
+    * `ANA_COMP_vect` sets a "triggered" flag
 * the main look checks for the "triggered" flag, an initiates the animation if fired.
 * the animate traverses the turret by driving a linear servo using the [SoftwareServo](https://github.com/ttseng/SoftwareServo) library
     * it provides some "realistic" behaviour by stepping through a series of animation sequences

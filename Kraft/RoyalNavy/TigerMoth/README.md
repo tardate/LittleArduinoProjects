@@ -39,7 +39,6 @@ Basic colors:
 | cockpit interiors           | Cockpit Green | 78        | Humbrol 78 |
 | crew/uniform                | RAF Blue      | 96        | mixed acrylics |
 
-
 ## Installing the Engine
 
 My chosen elctronics challenge with this build is to motorise the propeller.
@@ -67,7 +66,6 @@ I built the circuit as deadbug/freeform and attached to a 2xAAA battery box.
 Here's a scope trace of the PWM signal at ~60% duty cycle:
 
 ![pwm_motor_drive](./assets/pwm_motor_drive.gif?raw=true)
-
 
 ## Construction
 

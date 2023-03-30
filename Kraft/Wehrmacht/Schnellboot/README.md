@@ -31,7 +31,7 @@ The basic build is quite straight-forward, with the only fiddly bit being the ph
 
 ## Paint Scheme
 
-| Part                               | Recommmended       | Paint Used                       |
+| Part                               | Recommended        | Paint Used                       |
 |------------------------------------|--------------------|----------------------------------|
 | propeller                          | Tamiya X-12        | Vallejo 70.878 old gold          |
 | deck surface                       | Dark grey FS26187  | Vallejo 70.870 Medium Sea Grey   |
@@ -42,7 +42,7 @@ The basic build is quite straight-forward, with the only fiddly bit being the ph
 ## Diorama Base
 
 The diorama base is imaginary dock scene. I was mainly interested in trying the idea of a split waterline display.
-It came together in a failrly ad-hoc manner, and I suspect my scale might be a bit off!
+It came together in a fairly ad-hoc manner, and I suspect my scale might be a bit off!
 
 ![build_10](./assets/build_10.jpg?raw=true)
 
@@ -63,7 +63,7 @@ Testing the oscillators on a breadboard:
 
 ![Breadboard Build](./assets/Schnellboot_bb_build.jpg?raw=true)
 
-The final build uses a USB adapter module and the oscillator circuits are constructed "dead bug" stlye on the LM324 chip
+The final build uses a USB adapter module and the oscillator circuits are constructed "dead bug" style on the LM324 chip
 
 ![build_11](./assets/build_11.jpg?raw=true)
 

@@ -522,14 +522,14 @@
         "name": "Vauxhall D-Type Ambulance",
         "description": "Building the wonderful little 1:72 Vauxhall D-Type Ambulance kit from Ukrainian manufacturer Roden. Dedicated to the memory of Valery Grygorenko. Valery created some of the most amazing box art for Roden but tragically he was killed in a Russian attack near his home in March 2022.",
         "categories": "scale models, Craft",
-        "relative_path": "Kraft/VauxhallDTypeAmbulance"
+        "relative_path": "Kraft/BritishArmy/VauxhallDTypeAmbulance"
     },
     {
         "id": "#626",
         "name": "Blackburn Buccaneer S.2C",
         "description": "An excuse to build another sea base - this time for an aircraft - the RN Blackburn Buccaneer S.2C from Airfix in 1:72 scale, tooling around the North Sea at 30ft.",
         "categories": "scale models, Craft",
-        "relative_path": "Kraft/Buccaneer"
+        "relative_path": "Kraft/RoyalNavy/Buccaneer"
     },
     {
         "id": "#625",
@@ -676,7 +676,7 @@
         "name": "Firefly",
         "description": "Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic",
         "categories": "scale models, Craft, Arduino, AVR, Sensor, OpAmp, Servo, AFV",
-        "relative_path": "Kraft/Firefly"
+        "relative_path": "Kraft/BritishArmy/Firefly"
     },
     {
         "id": "#605",
@@ -767,7 +767,7 @@
         "name": "25 Pounder Field Gun and Quad",
         "description": "Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.",
         "categories": "scale models, Craft, AFV",
-        "relative_path": "Kraft/25pdr"
+        "relative_path": "Kraft/BritishArmy/25pdr"
     },
     {
         "id": "#592",
@@ -788,7 +788,7 @@
         "name": "Tiger Moth",
         "description": "Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller",
         "categories": "scale models, Craft, motor, 555 Timer",
-        "relative_path": "Kraft/TigerMoth"
+        "relative_path": "Kraft/RoyalNavy/TigerMoth"
     },
     {
         "id": "#589",
@@ -844,7 +844,7 @@
         "name": "Schnellboot",
         "description": "Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects",
         "categories": "scale models, Craft, LED, Oscillators",
-        "relative_path": "Kraft/Schnellboot"
+        "relative_path": "Kraft/Wehrmacht/Schnellboot"
     },
     {
         "id": "#581",

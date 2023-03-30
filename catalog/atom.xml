@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-30T14:51:43Z</updated>
+  <updated>2023-03-30T15:09:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -771,22 +771,22 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/VauxhallDTypeAmbulance/</id>
-    <link href="https://leap.tardate.com/Kraft/VauxhallDTypeAmbulance/"/>
+    <id>https://leap.tardate.com/Kraft/BritishArmy/VauxhallDTypeAmbulance/</id>
+    <link href="https://leap.tardate.com/Kraft/BritishArmy/VauxhallDTypeAmbulance/"/>
     <updated>2022-03-22T13:16:55Z</updated>
     <title>#627 Vauxhall D-Type Ambulance</title>
     <summary>Building the wonderful little 1:72 Vauxhall D-Type Ambulance kit from Ukrainian manufacturer Roden. Dedicated to the memory of Valery Grygorenko. Valery created some of the most amazing box art for Roden but tragically he was killed in a Russian attack near his home in March 2022.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/VauxhallDTypeAmbulance/assets/VauxhallDTypeAmbulance_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/BritishArmy/VauxhallDTypeAmbulance/assets/VauxhallDTypeAmbulance_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/Buccaneer/</id>
-    <link href="https://leap.tardate.com/Kraft/Buccaneer/"/>
+    <id>https://leap.tardate.com/Kraft/RoyalNavy/Buccaneer/</id>
+    <link href="https://leap.tardate.com/Kraft/RoyalNavy/Buccaneer/"/>
     <updated>2022-03-01T16:09:24Z</updated>
     <title>#626 Blackburn Buccaneer S.2C</title>
     <summary>An excuse to build another sea base - this time for an aircraft - the RN Blackburn Buccaneer S.2C from Airfix in 1:72 scale, tooling around the North Sea at 30ft.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/Buccaneer/assets/Buccaneer_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/Buccaneer/assets/Buccaneer_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
@@ -1000,12 +1000,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/Firefly/</id>
-    <link href="https://leap.tardate.com/Kraft/Firefly/"/>
+    <id>https://leap.tardate.com/Kraft/BritishArmy/Firefly/</id>
+    <link href="https://leap.tardate.com/Kraft/BritishArmy/Firefly/"/>
     <updated>2021-09-23T15:59:55Z</updated>
     <title>#606 Firefly</title>
     <summary>Practicing finishing techniques on the Airfix 1:72 Sherman Firefly, then animating the turret with some ATtiny85 magic</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/Firefly/assets/Firefly_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/BritishArmy/Firefly/assets/Firefly_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="Arduino"/>
@@ -1148,12 +1148,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/25pdr/</id>
-    <link href="https://leap.tardate.com/Kraft/25pdr/"/>
+    <id>https://leap.tardate.com/Kraft/BritishArmy/25pdr/</id>
+    <link href="https://leap.tardate.com/Kraft/BritishArmy/25pdr/"/>
     <updated>2021-08-04T16:02:38Z</updated>
     <title>#593 25 Pounder Field Gun and Quad</title>
     <summary>Building the Airfix 1:76 scale 25 Pounder Field Gun and Quad A01305. No electronics in this one yet.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/25pdr/assets/25pdr_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/BritishArmy/25pdr/assets/25pdr_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="AFV"/>
@@ -1181,12 +1181,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/TigerMoth/</id>
-    <link href="https://leap.tardate.com/Kraft/TigerMoth/"/>
+    <id>https://leap.tardate.com/Kraft/RoyalNavy/TigerMoth/</id>
+    <link href="https://leap.tardate.com/Kraft/RoyalNavy/TigerMoth/"/>
     <updated>2021-04-03T18:06:03Z</updated>
     <title>#590 Tiger Moth</title>
     <summary>Royal Navy Fleet Air Arm Tiger Moth XL717 heading out over the rocky shors near Abbotsinch, Scotland - a small vignette featuring the Airfix De Havilland DH.82a Tiger Moth 1:72 A02106 with a custom motorised propeller</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/TigerMoth/assets/TigerMoth_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/RoyalNavy/TigerMoth/assets/TigerMoth_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="motor"/>
@@ -1266,12 +1266,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/Schnellboot/</id>
-    <link href="https://leap.tardate.com/Kraft/Schnellboot/"/>
+    <id>https://leap.tardate.com/Kraft/Wehrmacht/Schnellboot/</id>
+    <link href="https://leap.tardate.com/Kraft/Wehrmacht/Schnellboot/"/>
     <updated>2021-02-24T17:10:58Z</updated>
     <title>#582 Schnellboot</title>
     <summary>Building the Bronco NB5004 1/350 German S-100 Class Schnellboot with a dockside diorama with LED effects</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/Schnellboot/assets/Schnellboot_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/Wehrmacht/Schnellboot/assets/Schnellboot_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="LED"/>
