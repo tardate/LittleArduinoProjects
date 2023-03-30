@@ -27,7 +27,7 @@ over a couple of months.
 
 The end result:
 
-* Hawker Typoon with motorized propeller
+* Hawker Typhoon with motorized propeller
 * rocket trails with LED effects
 * a diorama base showing the plane on low altitude attack over generic countryside
 
@@ -66,13 +66,11 @@ With the lower wing installed, motor control wires exit near the rocket pylons:
 
 ![build_03_lower_wing](./assets/build_03_lower_wing.jpg?raw=true)
 
-
 ### Painting the Typhoon
 
 I'm brush painting the kit with mainly the Humbrol paints supplied in the kit.
 Getting a reasonable finish takes many layers of thinned paint, but it's hard to get a solid coverage without having the paint end up quite thick.
 PS: I now have an airbrush, so I think this may be the last time I brush paint larger surfaces!
-
 
 |  Colour       | Paint                        | Notes |
 |---------------|------------------------------|-------|
@@ -93,7 +91,6 @@ After painting, the plane was finished with Mr Hobby Flat Matt Topcoat.
 
 ![build_05_plane_paint_lower](./assets/build_05_plane_paint_lower.jpg?raw=true)
 
-
 ### Building the Vignette Base
 
 The vignette base is an ad-hoc rendition of an imaginary field with a stone wall and stream. Construction basics:
@@ -113,7 +110,7 @@ Detailing:
 
 ![build_06_base](./assets/build_06_base.jpg?raw=true)
 
-The rocket trails a BBQ sticks with LEDs and current-limiting resistor swathed in cotton wool and air-brished for highlights.
+The rocket trails a BBQ sticks with LEDs and current-limiting resistor swathed in cotton wool and air-brushed for highlights.
 
 ![build_07_led_install](./assets/build_07_led_install.jpg?raw=true)
 
@@ -123,15 +120,15 @@ The backdrop is a quick hand-painted generic "cloudy sky". This is from a trial 
 
 ## Final Assembly
 
-The motor control wires cut to length and terminated with pin headers. These plug into a socket embedded in the stardboard rocket tail.
-I've added some small stand-offs (actually through-hole compomenent wire trimmings) to the empty rocket pylon.
+The motor control wires cut to length and terminated with pin headers. These plug into a socket embedded in the starboard rocket tail.
+I've added some small stand-offs (actually through-hole component wire trimmings) to the empty rocket pylon.
 These will allow the Typhoon to be positioned slightly above the rocket smoke trail.
 
 ![build_09_plane_final_assembly](./assets/build_09_plane_final_assembly.jpg?raw=true)
 
 The external electronics are packed into a 100x60x25mm black plastic electronic project box.
 The cover was airbrushed lemon yellow with the Airfix kit identification decals attached,
-and finsihed with Mr Hobby Semi-gloss Premium Topcoat.
+and finished with Mr Hobby Semi-gloss Premium Topcoat.
 
 ![build_10_controller](./assets/build_10_controller.jpg?raw=true)
 
@@ -149,12 +146,12 @@ The electronics comprise:
 
 * 3V battery power supply with switch
 * RGB fast flashing 5mm LEDs with 100Ω current-limiting resistor
-  * the RGB LEDs run a fast animation sequence
-  * by having two in parallel for each rocket, the effects are randomized somewhat
-  * a better effect could probably be achieved with red fast flash LEDs or custom flashing circuitry but since I had some of these RGB fast flash LEDs on hand I went with those - the effect is not bad despite some of the colours not being that authentic
+    * the RGB LEDs run a fast animation sequence
+    * by having two in parallel for each rocket, the effects are randomized somewhat
+    * a better effect could probably be achieved with red fast flash LEDs or custom flashing circuitry but since I had some of these RGB fast flash LEDs on hand I went with those - the effect is not bad despite some of the colours not being that authentic
 * a simple high-side current control circuit for the motor with variable resistor for some degree of speed control. The current-control approach is smoother than PWM, however it does sacrifice torque at "lower speeds".
 
-Since the moter control is high-side, only 3 wires are needed to connect to the project: ground; LED power; motor power.
+Since the motor control is high-side, only 3 wires are needed to connect to the project: ground; LED power; motor power.
 
 ![Breadboard](./assets/Typhoon_bb.jpg?raw=true)
 

@@ -1171,7 +1171,7 @@
             "Craft"
         ]
     },
-    "/Kraft/Typhoon/": {
+    "/Kraft/RAF/Typhoon/": {
         "id": 578,
         "title": "Hawker Typhoon",
         "summary": "Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette",
@@ -1364,7 +1364,7 @@
             "LED"
         ]
     },
-    "/Kraft/HarrierGR1/": {
+    "/Kraft/RAF/HarrierGR1/": {
         "id": 558,
         "title": "Harrier GR.1",
         "summary": "Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970)",

@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-30T14:02:57Z</updated>
+  <updated>2023-03-30T14:51:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/"/>
-    <updated>2023-03-30T14:02:50Z</updated>
+    <updated>2023-03-30T14:03:39Z</updated>
     <title>#701 Nakajima Ki-84 Egg-Scale</title>
     <summary>An egg-scale warm up before I move on to the Arma Hobby Ki-84 Hayate</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/assets/EggScale_build.jpg</g:image_link>
@@ -1308,12 +1308,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/Typhoon/</id>
-    <link href="https://leap.tardate.com/Kraft/Typhoon/"/>
+    <id>https://leap.tardate.com/Kraft/RAF/Typhoon/</id>
+    <link href="https://leap.tardate.com/Kraft/RAF/Typhoon/"/>
     <updated>2021-01-19T16:54:32Z</updated>
     <title>#578 Hawker Typhoon</title>
     <summary>Building the Airfix 1:72 Hawker Typhoon Mk.Ib, electrifying it with an engine and rocket effects and displaying it with a ground attack vignette</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/Typhoon/assets/Typhoon_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/RAF/Typhoon/assets/Typhoon_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="LED"/>
@@ -1521,12 +1521,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/HarrierGR1/</id>
-    <link href="https://leap.tardate.com/Kraft/HarrierGR1/"/>
+    <id>https://leap.tardate.com/Kraft/RAF/HarrierGR1/</id>
+    <link href="https://leap.tardate.com/Kraft/RAF/HarrierGR1/"/>
     <updated>2020-08-16T14:08:47Z</updated>
     <title>#558 Harrier GR.1</title>
     <summary>Building the Airfix 1:72 Hawker Siddeley Harrier GR.1, electrifying it with lights and engine sounds and putting it in a cold war forward deployment diorama (somewhere in a German forest circa 1970)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/HarrierGR1/assets/HarrierGR1_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/RAF/HarrierGR1/assets/HarrierGR1_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
     <category term="Audio"/>

@@ -41,7 +41,6 @@ Plan for the build:
 * build a controller for the engines and lights with 18650 battery, charger, and boost mode switching power supply (to provide the voltage necessary for the jet engine)
 * a diorama based on a classic photograph of a Harrier GR1 on forward deployment in (West) German forest around 1970
 
-
 ## About the Harrier
 
 I won't recount the history of the Harrier, except to say that the GR1 was the first to see service with the RAF, with  No. 1 Squadron starting to convert to the aircraft at RAF Wittering in April 1969.
@@ -136,7 +135,6 @@ Unfortunately too late in the build to also wire this up.
 The flood light on the forward landing gear has it control wires snaking up through the engine compartment:
 
 ![build_front_wheel](./assets/build_front_wheel.jpg?raw=true)
-
 
 I had to make some fine adjustments to the engine mounting, volume and mix settings before glueing the fuselage together.
 I wanted sufficient volume and a good mix without vibrations.
