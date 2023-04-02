@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-03-30T15:09:54Z</updated>
+  <updated>2023-04-02T13:21:56Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/BritishArmy/Tilly10HP/</id>
+    <link href="https://leap.tardate.com/Kraft/BritishArmy/Tilly10HP/"/>
+    <updated>2023-04-02T13:21:00Z</updated>
+    <title>#702 Austin Tilly 10HP</title>
+    <summary>Buidling a fantastic little 1:72 Austin Tilly 10hp from ACE Models of Ukraine. No electronics in this one - just a quick weekend build.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/BritishArmy/Tilly10HP/assets/Tilly10HP_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi84/EggScale/"/>
