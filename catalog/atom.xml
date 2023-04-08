@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-04-02T13:21:56Z</updated>
+  <updated>2023-04-08T13:27:06Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/Zero/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/Zero/"/>
+    <updated>2023-04-08T12:53:31Z</updated>
+    <title>#703 Mitsubishi A6M Zero on the Zuikaku</title>
+    <summary>Building the amazing little Sweet 1:144 kit of the Zero with Flight Deck</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/Zero/assets/Zero_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/BritishArmy/Tilly10HP/</id>
     <link href="https://leap.tardate.com/Kraft/BritishArmy/Tilly10HP/"/>
