@@ -10,6 +10,8 @@ The IJN Fubuki (吹雪, "Blizzard") was one of the most advanced destroyers when
 
 Fubuki was the lead ship of twenty-four Fubuki-class destroyers. They served as first-line destroyers through the 1930s, and remained formidable weapons systems well into the Pacific War.
 
+4 December 1941-30 January 1942: escorted KUMANO, SUZUYA, MOGAMI and MIKUMA out of Samah and Camranh Bay in support of Malaya, British Borneo and Anambas Islands invasion operations; also briefly escorted troop convoys during this period.
+
 This is my first kit from Yamashita Hobby, along with Tetra Model Works PE, after hearing @chris.meddings bang on about them and add as one of a few 3rd party products to sell through his [Inside the Armour](https://www.insidethearmour.com/yamashita-hobby-kits). Oh, he is not wrong - these are new tools and designs with much finer detail than we'll typically get in the otherwise great (but aging) offerings from Tamiya, Aoshima, Fujimi and the like.
 
 ## Paint Scheme
@@ -89,6 +91,7 @@ IJN Fubuki 吹雪 tooling along at flank speed. That would be about 38(!) knots.
 * [IJN Destroyer Fubuki 1941 Detail Up Set Tetra Model Works - No. SE-70007 - 1:700](https://www.scalemates.com/kits/tetra-model-works-se-70007-ijn-destroyer-fubuki-1941-detail-up-set--965743)
 * [Inside the Armour](https://www.insidethearmour.com/yamashita-hobby-kits)
 * [Japanese destroyer Fubuki (1927)](https://en.wikipedia.org/wiki/Japanese_destroyer_Fubuki_(1927)) - wikipedia
+* [IJN Fubuki: Tabular Record of Movement](http://www.combinedfleet.com/fubuki_t.htm)
 * [Yamashita Hobby Fubuki review](http://www.modelwarships.com/reviews/ships/ijn/dd/Fubuki-700-yh-dk/index.htm) - modelwarships.com
 * [QW-Model Q04004 0.047mm rubber rigging](http://www.qw-model.com/nd.jsp?id=59#_np=111_356)
 * [Wave Patterns by Donald C. Simon](https://web.archive.org/web/20090124171948/http://steelnavy.com/WavePatterns.htm)

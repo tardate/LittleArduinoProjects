@@ -85,5 +85,6 @@ Added some final touches and obligatory matchstick.
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=126455)
 * [No.13-class submarine chaser](https://en.wikipedia.org/wiki/No.13-class_submarine_chaser) - wikipedia
+* [IJN Subchaser CH-13: Tabular Record of Movement](http://www.combinedfleet.com/CH-13_t.htm)
 * [U.S. Submarine Gato Class & Japanese Submarine Chaser No.13 Tamiya No. 31903 1:700](https://www.scalemates.com/kits/tamiya-31903-us-submarine-gato-class-and-japanese-submarine-chaser-no13--146858)
 * [IJN SUBMARINE-CHASER NO.13 CLASS 1940/1941 Rainbow No. RB7135 1:700](https://www.scalemates.com/kits/rainbow-rb7135-ijn-submarine-chaser-no13-class-1940-1941--1377252)
