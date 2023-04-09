@@ -27,7 +27,7 @@ I-153 China Guomindang AF, 1940
 
 | Reference | Colour          | Tamiya | Paint Used                       | Feature |
 |-----------|-----------------|--------|----------------------------------|---------|
-| Priming   |                 |        | Vellejo 74.602 Black             |  |
+| Priming   |                 |        | Vallejo 74.602 Black             |  |
 | A         | Flat Black      | XF1    | 70.950 Black                     | tires |
 | B         | Olive Green     | XF62   | 70.893 US Dark Green             | upper body |
 | C         | Flat Light Blue | XF23   | 70.907 Pale Grey Blue + 70.839 Ultramarine + 70.953 Flat Yellow, approx 6:2:1 | lower body |
