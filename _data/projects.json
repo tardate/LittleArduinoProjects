@@ -1,4 +1,13 @@
 {
+    "/Kraft/IJN/Hashidate/": {
+        "id": 704,
+        "title": "IJN Hashidate",
+        "summary": "Building the Tamiya 1:700 kit of the IJN Gunboat Hashidate \u6a4b\u7acb",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/IJN/Zero/": {
         "id": 703,
         "title": "Mitsubishi A6M Zero on the Zuikaku",
