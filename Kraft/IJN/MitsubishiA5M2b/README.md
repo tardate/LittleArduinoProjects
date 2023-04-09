@@ -200,6 +200,10 @@ Wingsy Kits A5M2b "bring it home through the fire and flames". Had a little fun 
 ![build09f](./assets/build09f.jpg?raw=true)
 ![build09g](./assets/build09g.jpg?raw=true)
 
+Amazing - the model got featured as the Model Officers' Mess banner for April 2023..
+
+![mom-april-banner](./assets/mom-april-banner.jpg?raw=true)
+
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=141873)
