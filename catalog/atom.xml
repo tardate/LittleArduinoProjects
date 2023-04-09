@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-04-08T13:27:06Z</updated>
+  <updated>2023-04-09T04:45:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -916,12 +916,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/Polikarpov/I-153/</id>
-    <link href="https://leap.tardate.com/Kraft/Polikarpov/I-153/"/>
+    <id>https://leap.tardate.com/Kraft/Soviet/Polikarpov/I-153/</id>
+    <link href="https://leap.tardate.com/Kraft/Soviet/Polikarpov/I-153/"/>
     <updated>2021-12-29T10:15:48Z</updated>
     <title>#615 I-153</title>
     <summary>Building the Polikarpov I-153 as used by the Guomindang Air Force - ICM 1:72 kit 72076</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/Polikarpov/I-153/assets/I-153_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/Soviet/Polikarpov/I-153/assets/I-153_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
