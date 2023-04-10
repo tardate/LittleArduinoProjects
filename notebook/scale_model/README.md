@@ -109,6 +109,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czechia          | [quickboost](http://www.quickboost.net/)                                 | resin accessories |
 | Czechia          | [R & P Models](https://randpmodels.jex.cz/)                              | paper kits |
 | Czechia          | [Special Hobby](https://www.specialhobby.eu/)                            | |
+| Czechia          | [Valom](https://www.valom.net/)                                          | |
 | France           | [Heller](https://www.heller.fr/)                                         | |
 | France           | [L'Arsenal](http://www.larsenal.com/)                                    | resin kits |
 | France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
