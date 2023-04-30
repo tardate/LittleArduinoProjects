@@ -40,7 +40,6 @@ It was designed as a replacement for the [Nakajima Ki-43 Hayabusa](https://en.wi
 |                       | K Insignia White                          | C1          |            |
 | propeller             | L Propeller Green                         | 70.830      | H68        |
 
-
 ### Build Log
 
 ![build01a](./assets/build01a.jpg?raw=true)
@@ -73,6 +72,10 @@ As I work through my stash of @armahobby kits, I continue to be amazed by their 
 ![build04f](./assets/build04f.jpg?raw=true)
 ![build04g](./assets/build04g.jpg?raw=true)
 ![build04h](./assets/build04h.jpg?raw=true)
+
+![build05a](./assets/build05a.jpg?raw=true)
+![build05b](./assets/build05b.jpg?raw=true)
+![build05c](./assets/build05c.jpg?raw=true)
 
 ## Credits and References
 
