@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-04-09T10:16:00Z</updated>
+  <updated>2023-04-30T13:38:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi84/"/>
+    <updated>2023-04-30T13:38:07Z</updated>
+    <title>#705 Nakajima Ki84</title>
+    <summary>Building the Arma Hobby 1:72 representation of the Nakajima Ki-84 Hayate (キ84 疾風)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/assets/NakajimaKi84_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Hashidate/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Hashidate/"/>
-    <updated>2023-04-09T10:06:57Z</updated>
+    <updated>2023-04-09T10:16:23Z</updated>
     <title>#704 IJN Hashidate</title>
     <summary>Building the Tamiya 1:700 kit of the IJN Gunboat Hashidate 橋立</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/Hashidate/assets/Hashidate_build.jpg</g:image_link>

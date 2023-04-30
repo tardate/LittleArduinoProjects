@@ -1,5 +1,12 @@
 [
     {
+        "id": "#705",
+        "name": "Nakajima Ki84",
+        "description": "Building the Arma Hobby 1:72 representation of the Nakajima Ki-84 Hayate (\u30ad84 \u75be\u98a8)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/IJA/NakajimaKi84"
+    },
+    {
         "id": "#704",
         "name": "IJN Hashidate",
         "description": "Building the Tamiya 1:700 kit of the IJN Gunboat Hashidate \u6a4b\u7acb",

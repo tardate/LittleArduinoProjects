@@ -45,5 +45,5 @@ Quick snap-fit test before moving on to painting.. a fun little 15 minutes;-)
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=140416)
 * [WWII Japanese Nakajima Ki-84 Hayate Tiger Model No. TM-102 1:Egg](https://www.scalemates.com/kits/tiger-model-tm-102-nakajima-ki-84-hayate--938381)
-* [Nakajima Ki-84](https://en.wikipedia.org/wiki/Nakajima_Ki-84)
-* [Nakajima Ki-43 Hayabusa](https://en.wikipedia.org/wiki/Nakajima_Ki-43_Hayabusa)
+* [Nakajima Ki-84](https://en.wikipedia.org/wiki/Nakajima_Ki-84) - wikipedia
+* [Nakajima Ki-43 Hayabusa](https://en.wikipedia.org/wiki/Nakajima_Ki-43_Hayabusa) - wikipedia
