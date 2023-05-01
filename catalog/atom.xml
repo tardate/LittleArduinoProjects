@@ -5,12 +5,23 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-04-30T13:38:20Z</updated>
+  <updated>2023-05-01T03:08:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/Ayanami/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/Ayanami/"/>
+    <updated>2023-05-01T03:07:41Z</updated>
+    <title>#706 IJN Destroyer Ayanami</title>
+    <summary>Building the Tamiya 1:700 representation of the IJN Destroyer Ayanami 綾波</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/Ayanami/assets/Ayanami_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="IJN"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi84/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi84/"/>
@@ -30,6 +41,7 @@
     <g:image_link>https://leap.tardate.com/Kraft/IJN/Hashidate/assets/Hashidate_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="IJN"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Zero/</id>
@@ -290,6 +302,7 @@
     <category term="Arduino"/>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="IJN"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/InSpring/</id>
@@ -543,6 +556,7 @@
     <g:image_link>https://leap.tardate.com/Kraft/IJN/No13SubChaser/assets/No13SubChaser_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="IJN"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Audio/Visualization/UsbLedVolumeIndicatorKit/</id>
@@ -676,6 +690,7 @@
     <g:image_link>https://leap.tardate.com/Kraft/IJN/Fubuki/assets/Fubuki_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
+    <category term="IJN"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/Falklands/HMSSheffield/</id>

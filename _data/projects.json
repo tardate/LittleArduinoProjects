@@ -1,4 +1,14 @@
 {
+    "/Kraft/IJN/Ayanami/": {
+        "id": 706,
+        "title": "IJN Destroyer Ayanami",
+        "summary": "Building the Tamiya 1:700 representation of the IJN Destroyer Ayanami \u7dbe\u6ce2",
+        "tags": [
+            "scale models",
+            "Craft",
+            "IJN"
+        ]
+    },
     "/Kraft/IJA/NakajimaKi84/": {
         "id": 705,
         "title": "Nakajima Ki84",
@@ -14,7 +24,8 @@
         "summary": "Building the Tamiya 1:700 kit of the IJN Gunboat Hashidate \u6a4b\u7acb",
         "tags": [
             "scale models",
-            "Craft"
+            "Craft",
+            "IJN"
         ]
     },
     "/Kraft/IJN/Zero/": {
@@ -249,7 +260,8 @@
         "tags": [
             "Arduino",
             "scale models",
-            "Craft"
+            "Craft",
+            "IJN"
         ]
     },
     "/Kraft/InSpring/": {
@@ -477,7 +489,8 @@
         "summary": "IJN No.13 class submarine chaser \u7b2c\u5341\u4e09\u53f7\u578b\u99c6\u6f5c\u8247 on a quiet island patrol",
         "tags": [
             "scale models",
-            "Craft"
+            "Craft",
+            "IJN"
         ]
     },
     "/Audio/Visualization/UsbLedVolumeIndicatorKit/": {
@@ -597,7 +610,8 @@
         "summary": "Building the Japanese destroyer Fubuki (\u5439\u96ea, 1927) from a beautifully detailed 1:700 Yamashita Hobby kit with Tetra Model Works PE",
         "tags": [
             "scale models",
-            "Craft"
+            "Craft",
+            "IJN"
         ]
     },
     "/Kraft/Falklands/HMSSheffield/": {
