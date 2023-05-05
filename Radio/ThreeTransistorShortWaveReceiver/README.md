@@ -6,7 +6,7 @@ Building a simple 3-transistor regenerative receiver for HF shortwave.
 
 ## Notes
 
-I found [this design](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio)
+I found [this design](https://web.archive.org/web/20180114085548/http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio)
 for a 3 Transistor Short Wave Radio by netZener. It is a restoration and update of an old
 Science Fair #28-110 kit from Radio Shack.
 
@@ -137,8 +137,9 @@ However I can't seem to tame the regen: I can get a very faint signal on 9740 kH
 
 ## Credits and References
 
-* [3 Transistor Short Wave Radio](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) - original article by netZener
-* [Instructables](https://www.instructables.com/id/Three-Transistor-Short-Wave-Radio/) - updated post by netZener
+* [3 Transistor Short Wave Radio](https://web.archive.org/web/20180114085548/http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) article by netZener on the web archive
+  * [original article](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) is no longer online
+  * related [Instructables post](https://www.instructables.com/id/Three-Transistor-Short-Wave-Radio/) by netZener is no longer online
 * [Regenerative circuit](https://en.wikipedia.org/wiki/Regenerative_circuit) - wikipedia
 * [Regenerative Receiver](https://www.electronics-notes.com/articles/radio/radio-receivers/regenerative-receiver.php) - electronics-notes
 * [Air Core Inductor Inductance Calculator](http://www.daycounter.com/Calculators/Air-Core-Inductor-Calculator.phtml)
