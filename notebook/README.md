@@ -7,6 +7,7 @@
 ## Electronics Online/eBooks
 
 * [All About Circuits](http://www.allaboutcircuits.com/)
+* [All About Electronic Circuits for Kids](https://www.speedwaymotors.com/Info/All-About-Electronic-Circuits-for-Kids) - By Mark Houlahan (recommended by the Lyndhurst STEM Club)
 * [American Radio History](http://www.americanradiohistory.com/) - archive of old electronics and radio mags
 * [Circuit Theory](http://en.wikibooks.org/wiki/Circuit_Theory/All_Chapters)
 * [Embedded Artistry](https://embeddedartistry.com) - an amazing website dedicated to designing, programming, manufacturing, and debugging embedded systems.
