@@ -1,4 +1,4 @@
-# 706 Little Electronic Art Projects
+# 707 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Laser Harp Kit](./Audio/LaserHarpKit) - Build and test an 8051-based laser harp kit.
 

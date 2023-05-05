@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-05-05T13:38:31Z</updated>
+  <updated>2023-05-05T15:25:57Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/BayraktarTB2/</id>
+    <link href="https://leap.tardate.com/Kraft/BayraktarTB2/"/>
+    <updated>2023-05-05T15:05:41Z</updated>
+    <title>#707 Bayraktar TB2</title>
+    <summary>Building the Clear Prop! 1:48 representation of the now iconic Bayraktar TB2 as used by the Armed Forces of Ukraine</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/BayraktarTB2/assets/BayraktarTB2_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Ayanami/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Ayanami/"/>
