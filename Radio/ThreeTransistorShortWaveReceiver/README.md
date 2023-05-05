@@ -1,4 +1,4 @@
-# #375 Three Transistor ShortWave Receiver
+# #375 Three Transistor Shortwave Receiver
 
 Building a simple 3-transistor regenerative receiver for HF shortwave.
 
@@ -66,10 +66,10 @@ Variations in my build:
 | 1   | 140pF Variable Capacitor    | C5     |
 | 1   | Air coil                    | L1     |
 
-
 ### The Build
 
 Semi-modular ugly construction:
+
 * AF amp is mounted on copper PCB stock, ugly style
 * detector and tuning is mounted on single-sided protoboard with M3 stand-offs
 
@@ -86,7 +86,7 @@ That's almost finished. A couple of final changes:
 * I finished soldering (I hadn't yet soldered the audio out connection when I took the pictures above)
 * I moved the coupling capacitor C8: in the pictures above, it is connected directly to R5, C6. But I subsequently took the short-cut: directly from L1/C5 to the R7 wiper.
 
-### Tuning the Tuning Circuit!
+### Tuning the Tuning Circuit
 
 The original documentation provided the following recommendations for the air coil inductor:
 
@@ -99,10 +99,10 @@ The original documentation provided the following recommendations for the air co
 | 19-28 MHz |  5                     |
 | 26-50 MHz |  2                     |
 
-
 #### First Test, ~16m
 
 Great results for some stations around 16m with a 12 turn coil, approx 15mm diameter and 43mm long.
+The wire is 0.9mm diameter insulated copper.
 The tuning range is from 12350 kHz (25m) to 22830 kHz (15m).
 
 Here is the rig as tested:
@@ -124,17 +124,16 @@ And here's a quick demo of tuning in on All India Radio, 17895 kHz:
 
 [![17895](https://img.youtube.com/vi/Qt0ikHhbLLI/0.jpg)](https://www.youtube.com/watch?v=Qt0ikHhbLLI)
 
-
 #### Tuning Below 12 MHz
 
 I've wound a couple of coils for a longer wavelength - aiming to pick up a very strong BBC World Service signal on 9740 kHz.
+
+NB: in all cases, I've been using 0.9mm diameter copper wire (some with/without insulation). Generally a 15mm coil diameter but varying number of turns and length.
 
 By tuning in to the radiated signal on the Tecsun PL-660, I can verify a tuning range of around 7 MHz to 12MHz.
 However I can't seem to tame the regen: I can get a very faint signal on 9740 kHz, but it is overwhelmed by oscillation or noise (depending on the regen control).
 
 .. time for some more study to learn how I might get this under control!
-
-
 
 ## Credits and References
 

@@ -2325,7 +2325,7 @@
     },
     {
         "id": "#375",
-        "name": "ThreeTransistorShortWaveReceiver",
+        "name": "Three Transistor Shortwave Receiver",
         "description": "building a simple 3-transistor regenerative receiver for HF shortwave",
         "categories": "Radio, HF",
         "relative_path": "Radio/ThreeTransistorShortWaveReceiver"
