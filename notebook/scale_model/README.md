@@ -85,6 +85,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Belgium          | [PJ Production](https://www.pj-production.be/en/)                        | resin scale models and accessories |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
 | China            | [dspiae](https://www.dspiae.com/)                                        | tools |
+| China            | [Five Star Model 烟台飞仕达模型有限公司](http://www.fstarmodel.com/)        | resin kits, figures, detail and upgrade sets |
 | China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | Detail and upgrade sets |
 | China            | [HobbyBoss](http://www.hobbyboss.com/index.php?l=en)                     | |
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
@@ -250,6 +251,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Round 2](https://www.round2corp.com/)                                   | scale models including die-cast, plastic, slot cars, and other hobby products |
 | USA              | [Scenic Express](https://www.scenicexpress.com/)                         | landscaping products  |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
+| Vietnam          | [Paracel Miniatures](http://www.paracelminiatures.com/)                  | miniatures |
 
 ## Retailers
 
@@ -264,6 +266,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | China/aliexpress | [Real-toys Store](https://realtoys.aliexpress.com/store/1270215)      | good range of kits, often good deals |
 | China/taobao     | [shop291689990](https://shop291689990.world.taobao.com/index.htm)     | |
 | EU               | [SMK](https://www.scale-model-kits.com/)                              | |
+| Hong Kong        | [Hobby Easy](https://www.hobbyeasy.com/)                              | good source of kits and figures from Chinese manufacturers |
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
 | Japan            | [Leonardo ET レオナルドET](https://goo.gl/maps/HkkXsd4qUW9FxmsH7)                                                       | not as good a range as LG |
 | Japan            | [Leonardo LG レオナルドLG](https://goo.gl/maps/GyN7PMrpkHRUaREU9)                                                       | range bit more diverse than LG2 but not so much my interests. Good prices, but sometimes premium for old stock. |
@@ -295,6 +298,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Singapore        | [Pendec Art and Design](http://pendec.com.sg/)                        | acrylic display cases etc |
 | Singapore        | [Singapore Hobby Supplies](https://www.singahobby.com/)               | RC, DELUXE incl liquid gravity |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
+| Spain            | [AVR Model](http://www.avrmodel.com/)                                 | Scale Model Ship Online Store |
+| USA              | [hobbylinc](https://www.hobbylinc.com/)                               ||
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Hannants](https://www.hannants.co.uk/)                               | everything! |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
