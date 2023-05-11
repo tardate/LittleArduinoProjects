@@ -57,6 +57,14 @@ Now I've done fiddling with the build, I'm planning a better display. For now it
 ![build03e](./assets/build03e.jpg?raw=true)
 ![build03f](./assets/build03f.jpg?raw=true)
 
+"very mixed media": acrylic on canvas and a 1:48 Bayraktar TB2 from @clearpropmodels
+
+an experimental presentation🤔
+
+![build04a](./assets/build04a.jpg?raw=true)
+![build04b](./assets/build04b.jpg?raw=true)
+![build04c](./assets/build04c.jpg?raw=true)
+
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=143607)
