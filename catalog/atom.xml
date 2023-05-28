@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-05-11T13:14:53Z</updated>
+  <updated>2023-05-28T08:51:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/PLA/T34-85/</id>
+    <link href="https://leap.tardate.com/Kraft/PLA/T34-85/"/>
+    <updated>2023-05-28T08:35:32Z</updated>
+    <title>#708 The Legendary T-34/85 215号</title>
+    <summary>Capturing the legendary T-34/85 215号 in action, using the Rye Field Model kit RM-5059 in 1:35 and some great resing fgures from YUFAN Model. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/PLA/T34-85/assets/T34-85_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/BayraktarTB2/</id>
     <link href="https://leap.tardate.com/Kraft/BayraktarTB2/"/>
