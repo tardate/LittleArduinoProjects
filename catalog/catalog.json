@@ -1,5 +1,12 @@
 [
     {
+        "id": "#709",
+        "name": "IJA Type 95 Ha-Go Light Tank",
+        "description": "Building the IBG Models 1:72 representation of the IJA Type 95 Ha-G\u014d \u30cf\u53f7 Light Tank. No electronics in this one.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/IJA/Type95HaGo"
+    },
+    {
         "id": "#708",
         "name": "The Legendary T-34/85 215\u53f7",
         "description": "Capturing the legendary T-34/85 215\u53f7 in action, using the Rye Field Model kit RM-5059 in 1:35 and some great resin figures from YUFAN Model. No electronics in this one.",
@@ -479,7 +486,7 @@
         "id": "#640",
         "name": "HMS Sheffield",
         "description": "Reproducing a famous photograph of the fire-fighting efforts aboard the HMS Sheffield after is was hit by an Exocet on 4 May 1982",
-        "categories": "Craft, Falklands",
+        "categories": "scale models, Craft, Falklands",
         "relative_path": "Kraft/Falklands/HMSSheffield"
     },
     {
