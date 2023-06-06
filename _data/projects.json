@@ -1,4 +1,14 @@
 {
+    "/Kraft/RaceToJitra/": {
+        "id": 710,
+        "title": "Race To Jitra",
+        "summary": "Building a double-sided box diorama in mixed scales to capture the rapid advance of Japanese forces during the Invasion of Malaya. The Battle of Jitra was one of many engagements where the advancing force overwhelmed the under-prepared defenders on the peninsula.",
+        "tags": [
+            "scale models",
+            "Craft",
+            "LED"
+        ]
+    },
     "/Kraft/IJA/Type95HaGo/": {
         "id": 709,
         "title": "IJA Type 95 Ha-Go Light Tank",

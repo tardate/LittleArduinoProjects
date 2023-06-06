@@ -48,6 +48,6 @@ That's it for now. no seascape as I'm planning to use this in another diorama so
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=146784)
-* [Japanese Navy Destroyer Ayanami 綾波 Water Line Series Tamiya | No. 31405 | 1:700](https://www.scalemates.com/kits/tamiya-31405-ayanami--171094)
+* [Japanese Navy Destroyer Ayanami 綾波 Water Line Series Tamiya No. 31405 1:700](https://www.scalemates.com/kits/tamiya-31405-ayanami--171094)
 * [IJN Ayanami: Tabular Record of Movement](http://www.combinedfleet.com/ayanam_t.htm)
 * [Japanese destroyer Ayanami (1929)](https://en.wikipedia.org/wiki/Japanese_destroyer_Ayanami_(1929))
