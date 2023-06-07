@@ -42,7 +42,7 @@ The Japanese 3rd Air Corps (飛行集団, Hikō Shudan) and three Air Combat Gro
 A couple of videos that I found useful in researching this:
 
 * ["Britain's Worst Defeat" - The Battle of Jitra 1941 Animated](https://www.youtube.com/watch?v=LkIu5Ex2G3s)
-* [The Malayan Campaign, December 1941 - January 1942 | Storm of Steel Military History](https://www.youtube.com/watch?v=moZDGY6YPk0)
+* [The Malayan Campaign, December 1941 - January 1942](https://www.youtube.com/watch?v=moZDGY6YPk0) - Storm of Steel Military History
 
 [![clip](https://img.youtube.com/vi/LkIu5Ex2G3s/0.jpg)](https://www.youtube.com/watch?v=LkIu5Ex2G3s)
 
@@ -69,12 +69,12 @@ The Navy is represented by the [Destroyer Ayanami 綾波](https://www.scalemates
 
 I've set the foreground (land) and background (sea) on different levels to help with the forced perspective.
 
-[build01a](./assets/build01a.jpg?raw=true)
+![build01a](./assets/build01a.jpg?raw=true)
 
 Jungle foliage will help block the views appropriately
 
-[build01b](./assets/build01b.jpg?raw=true)
-[build01c](./assets/build01c.jpg?raw=true)
+![build01b](./assets/build01b.jpg?raw=true)
+![build01c](./assets/build01c.jpg?raw=true)
 
 I found a range of trees and foliage on amazon that do a decent enough job and avoid having to scratch build all the trees
 
@@ -89,23 +89,23 @@ from IBG Models that I started building. I wasn't sure which would be best.
 As it seemed that the Type 95 was most used in the Malayan Campaign, I went with that in the end,
 but using the figures that came in the Type 89 kit.
 
-[build02a](./assets/build02a.jpg?raw=true)
-[build02b](./assets/build02b.jpg?raw=true)
-[build02c](./assets/build02c.jpg?raw=true)
+![build02a](./assets/build02a.jpg?raw=true)
+![build02b](./assets/build02b.jpg?raw=true)
+![build02c](./assets/build02c.jpg?raw=true)
 
 ### Building the Base
 
-[build03a](./assets/build03a.jpg?raw=true)
-[build03b](./assets/build03b.jpg?raw=true)
-[build03c](./assets/build03c.jpg?raw=true)
-[build03d](./assets/build03d.jpg?raw=true)
-[build03e](./assets/build03e.jpg?raw=true)
-[build03f](./assets/build03f.jpg?raw=true)
+![build03a](./assets/build03a.jpg?raw=true)
+![build03b](./assets/build03b.jpg?raw=true)
+![build03c](./assets/build03c.jpg?raw=true)
+![build03d](./assets/build03d.jpg?raw=true)
+![build03e](./assets/build03e.jpg?raw=true)
+![build03f](./assets/build03f.jpg?raw=true)
 
 ### Assembly
 
-[build05a](./assets/build05a.jpg?raw=true)
-[build05b](./assets/build05b.jpg?raw=true)
+![build05a](./assets/build05a.jpg?raw=true)
+![build05b](./assets/build05b.jpg?raw=true)
 
 ## Lighting the Box
 
@@ -128,8 +128,8 @@ bring the voltage up to 12V - using
 Does it work? Let me know! I'm pretty happy that it came out close to what I'd planned, and all the tricks
 of perspective are generally working OK!
 
-[build06a](./assets/build06a.jpg?raw=true)
-[build06b](./assets/build06b.jpg?raw=true)
+![build06a](./assets/build06a.jpg?raw=true)
+![build06b](./assets/build06b.jpg?raw=true)
 
 Here's a quick demo..
 
@@ -146,6 +146,6 @@ Here's a quick demo..
 * [Malayan campaign](https://en.wikipedia.org/wiki/Malayan_campaign)
 * [Battle of Jitra](https://en.wikipedia.org/wiki/Battle_of_Jitra)
 * [Battle of Kota Bharu](https://en.wikipedia.org/wiki/Battle_of_Kota_Bharu)
-* [The Malayan Campaign, December 1941 - January 1942 | Storm of Steel Military History](https://www.youtube.com/watch?v=moZDGY6YPk0)
+* [The Malayan Campaign, December 1941 - January 1942](https://www.youtube.com/watch?v=moZDGY6YPk0) - Storm of Steel Military History
 * [Osprey Japanese Tanks 1939-45](https://www.scribd.com/document/190062816/Osprey-Japanese-Tanks-1939-45)
 * [LEAP#358 MC34063 Boost Converter Kit](../../Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit)
