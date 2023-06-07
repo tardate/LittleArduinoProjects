@@ -25,19 +25,31 @@ being outflanked and overrun. This commenced the rapid advance down the Malayan 
 
 The Battle of Jitra was fought between the invading Japanese and Allied forces during the Malayan Campaign of the Second World War, from 11–13 December 1941.
 
-"just two days after the invasion of
-british-held malaya in 1941 japanese
-troops arrived at the town of jitra
-there they faced a british force
-determined to halt their advance south
-but in a remarkable day of fighting a
-handful of tanks and troops routed an
-entire division and pushed the british
-defense of northern malaya into collapse."
+> just two days after the invasion of
+> british-held malaya in 1941 japanese
+> troops arrived at the town of jitra
+> there they faced a british force
+> determined to halt their advance south
+> but in a remarkable day of fighting a
+> handful of tanks and troops routed an
+> entire division and pushed the british
+> defense of northern malaya into collapse.
 
 ![campaign1](./assets/campaign1.jpg?raw=true)
 
-The Japanese 3rd Air Corps (飛行集団, Hikō Shudan) and three Air Combat Groups (飛行戦隊, Hikō Sentai) of the 5th Air Corps took part in the Malaya Campaign.[29] In total there were 354 Imperial Japanese Army Air Service (IJAAS) first line aircraft involved together with the 110 Imperial Japanese Navy Air Service (IJNAS) aircraft. The Army units were variously equipped with fighters: Nakajima Ki-27 Nate, Nakajima Ki-43 Oscar, Mitsubishi Ki-51 Sonia; bombers: Kawasaki Ki-48 Lily, Mitsubishi Ki-21 Sally, Mitsubishi Ki-30 Ann; and reconnaissance: Mitsubishi Ki-15 Babs, Mitsubishi Ki-46 Dinah.
+The Japanese 3rd Air Corps (飛行集団, Hikō Shudan) and three Air Combat Groups (飛行戦隊, Hikō Sentai) of the 5th Air Corps took part in the Malaya Campaign.[29] In total there were 354 Imperial Japanese Army Air Service (IJAAS) first line aircraft involved together with the 110 Imperial Japanese Navy Air Service (IJNAS) aircraft. The Army units were variously equipped with
+
+* fighters:
+    * Nakajima Ki-27 Nate,
+    * Nakajima Ki-43 Oscar,
+    * Mitsubishi Ki-51 Sonia;
+* bombers:
+    * Kawasaki Ki-48 Lily,
+    * Mitsubishi Ki-21 Sally,
+    * Mitsubishi Ki-30 Ann;
+* reconnaissance:
+    * Mitsubishi Ki-15 Babs,
+    * Mitsubishi Ki-46 Dinah.
 
 A couple of videos that I found useful in researching this:
 
@@ -78,7 +90,7 @@ Jungle foliage will help block the views appropriately
 
 I found a range of trees and foliage on amazon that do a decent enough job and avoid having to scratch build all the trees
 
-[build01d](./assets/build01d.jpg?raw=true)
+![build01d](./assets/build01d.jpg?raw=true)
 
 ### Building a Tank
 
