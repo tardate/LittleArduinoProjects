@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-06-07T14:32:44Z</updated>
+  <updated>2023-06-12T09:50:31Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/JSDF/F-4EJ/</id>
+    <link href="https://leap.tardate.com/Kraft/JSDF/F-4EJ/"/>
+    <updated>2023-06-12T09:48:44Z</updated>
+    <title>#711 F-4EJ Last Phantom</title>
+    <summary>Building the 2019 commemorative scheme of the JASDF F-4EJ Kai Phantom II - a beautiful little Platz 1:144 kit. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/JSDF/F-4EJ/assets/F-4EJ_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RaceToJitra/</id>
     <link href="https://leap.tardate.com/Kraft/RaceToJitra/"/>
-    <updated>2023-06-07T14:32:10Z</updated>
+    <updated>2023-06-07T15:05:07Z</updated>
     <title>#710 Race To Jitra</title>
     <summary>Building a double-sided box diorama in mixed scales to capture the rapid advance of Japanese forces during the Invasion of Malaya. The Battle of Jitra was one of many engagements where the advancing force overwhelmed the under-prepared defenders on the peninsula.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RaceToJitra/assets/RaceToJitra_build.jpg</g:image_link>
