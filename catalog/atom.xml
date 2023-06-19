@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-06-12T09:50:31Z</updated>
+  <updated>2023-06-19T13:36:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/"/>
+    <updated>2023-06-19T13:26:56Z</updated>
+    <title>#712 IJA Type 89 I-Go Otsu Medium Tank</title>
+    <summary>Building the IBG Models 1:72 representation of the IJA Type 89 I-Go Otsu Medium Tank. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/assets/Type89IGoOtsu_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/JSDF/F-4EJ/</id>
     <link href="https://leap.tardate.com/Kraft/JSDF/F-4EJ/"/>

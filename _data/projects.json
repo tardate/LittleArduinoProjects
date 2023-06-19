@@ -1,4 +1,13 @@
 {
+    "/Kraft/IJA/Type89IGoOtsu/": {
+        "id": 712,
+        "title": "IJA Type 89 I-Go Otsu Medium Tank",
+        "summary": "Building the IBG Models 1:72 representation of the IJA Type 89 I-Go Otsu Medium Tank. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/JSDF/F-4EJ/": {
         "id": 711,
         "title": "F-4EJ Last Phantom",
