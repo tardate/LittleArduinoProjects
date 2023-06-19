@@ -7,13 +7,13 @@ Building the IBG Models 1:72 representation of the IJA Type 89 I-Go Otsu Medium 
 ## Notes
 
 The [Type 89 I-Gō medium tank (八九式中戦車　イ号)](https://en.wikipedia.org/wiki/Type_89_I-Go_medium_tank) was a medium tank used by the Imperial Japanese Army from 1932 to 1942 in combat operations of the Second Sino-Japanese War, at Khalkhin Gol against the Soviet Union, and in the Second World War.
- 
+
 The Type 89B model was the world's first mass-produced diesel engine tank.
-Aith a short-barrel 57 mm cannon, it proved effective in early campaigns
+With a short-barrel 57 mm cannon, it proved effective in early campaigns
 but lacked the armor or armament of 1940s generation Allied armor;
 it was regarded as obsolete by the time of the 1939 battles of Khalkhin Gol, against the Soviet Union.
 
-[![](./assets/Type_89_I-Go_medium_tanks.png?raw=true)](https://en.wikipedia.org/wiki/Type_89_I-Go_medium_tank)
+[![Type_89_I-Go_medium_tanks](./assets/Type_89_I-Go_medium_tanks.png?raw=true)](https://en.wikipedia.org/wiki/Type_89_I-Go_medium_tank)
 
 ### Paint Scheme
 
