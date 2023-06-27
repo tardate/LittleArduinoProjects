@@ -299,7 +299,10 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Singapore        | [Singapore Hobby Supplies](https://www.singahobby.com/)               | RC, DELUXE incl liquid gravity |
 | Singapore        | [Stargek](http://www.stargek.com/)                                    | official Tamiya - good range but prices++ |
 | Spain            | [AVR Model](http://www.avrmodel.com/)                                 | Scale Model Ship Online Store |
-| USA              | [hobbylinc](https://www.hobbylinc.com/)                               ||
+| Spain            | [Azor modelismo](http://www.azormodelismo.com/tienda/)                | |
+| Spain            | [Bazar Matey](https://www.matey.com/)                                 | |
+| Spain            | [Model Reyna](http://www.modelreyna.com/)                             | |
+| USA              | [hobbylinc](https://www.hobbylinc.com/)                               | |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Hannants](https://www.hannants.co.uk/)                               | everything! |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
