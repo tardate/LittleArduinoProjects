@@ -48,7 +48,8 @@ It was designed as a replacement for the [Nakajima Ki-43 Hayabusa](https://en.wi
 ![build02b](./assets/build02b.jpg?raw=true)
 ![build02c](./assets/build02c.jpg?raw=true)
 
-I used a Pebeo drawing gum marker for the masking. It is an experiment - seems to work well as long as one does this over a very hardy paint. Here it is fine with Mr Hobby Aqueous (over Vallejo MC, the gum marker just scratches off the paint!)
+I used a [Pébéo Drawing Gum Marker 0.7mm](https://en.pebeo.com/catalogue/drawing-gum-marker-blister-packed-nib-07-mm-07-mm-033102) for the masking.
+It is an experiment - seems to work well as long as one does this over a very hardy paint. Here it is fine with Mr Hobby Aqueous .. over Vallejo MC, the gum marker just scratches off the paint!
 
 ![build02d](./assets/build02d.jpg?raw=true)
 ![build02e](./assets/build02e.jpg?raw=true)
@@ -81,3 +82,5 @@ As I work through my stash of @armahobby kits, I continue to be amazed by their 
 * [HAYATE UNDER THE SIGN OF THE WHITE TIGER](http://armahobbynews.pl/blog/2022/05/06/hayate-spod-znaku-bialego-tygrysa/)
 * [Nakajima Ki-84](https://en.wikipedia.org/wiki/Nakajima_Ki-84) - wikipedia
 * [Nakajima Ki-43 Hayabusa](https://en.wikipedia.org/wiki/Nakajima_Ki-43_Hayabusa) - wikipedia
+* [Pébéo Drawing Gum Marker 0.7mm](https://en.pebeo.com/catalogue/drawing-gum-marker-blister-packed-nib-07-mm-07-mm-033102)
+
