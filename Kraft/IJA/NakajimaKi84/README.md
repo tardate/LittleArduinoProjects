@@ -4,10 +4,6 @@ Building the Arma Hobby 1:72 representation of the Nakajima Ki-84 Hayate (キ84 
 
 ![Build](./assets/NakajimaKi84_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 ## Notes
 
 The [Nakajima Ki-84 Hayate](https://en.wikipedia.org/wiki/Nakajima_Ki-84) (キ84 疾風)
