@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-06-27T05:38:53Z</updated>
+  <updated>2023-07-24T14:32:34Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/USV/</id>
+    <link href="https://leap.tardate.com/Kraft/USV/"/>
+    <updated>2023-07-24T13:41:31Z</updated>
+    <title>#714 Ukraine's Maritime Drone (USV)</title>
+    <summary>Building the MikroMir 1:35 kit. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/USV/assets/USV_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Dauphin2/</id>
     <link href="https://leap.tardate.com/Kraft/Dauphin2/"/>
-    <updated>2023-06-25T10:55:53Z</updated>
+    <updated>2023-06-27T05:40:41Z</updated>
     <title>#713 Aérospatiale SA365N Dauphin 2</title>
     <summary>Building the Aérospatiale SA365N Dauphin 2 as used by the Tokyo Metropolitan Police Department. Trumpeter 1:48 kit, no electronics.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Dauphin2/assets/Dauphin2_build.jpg</g:image_link>

@@ -1,4 +1,13 @@
 {
+    "/Kraft/USV/": {
+        "id": 714,
+        "title": "Ukraine's Maritime Drone (USV)",
+        "summary": "Building the MikroMir 1:35 kit. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/Dauphin2/": {
         "id": 713,
         "title": "A\u00e9rospatiale SA365N Dauphin 2",
