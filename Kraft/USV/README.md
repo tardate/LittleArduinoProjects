@@ -37,8 +37,15 @@ This is a new kit from MikroMir of Ukraine, and a simple little build to get me 
 ![build01d](./assets/build01d.jpg?raw=true)
 ![build01e](./assets/build01e.jpg?raw=true)
 
+Using the "hacked off bit of styrene base™" technique;-) I like the lack of borders or regular geometry, which helps focus on the subject itself.
+
 ![build02a](./assets/build02a.jpg?raw=true)
 ![build02b](./assets/build02b.jpg?raw=true)
+
+The water is built up with a few layers of Mod Podge gloss, each sprayed with various "sea tones", giving a subtle impression of depth.
+I started the waves and spray with cotton wool but switched to polyester cotton pillow stuffing which is easier to create "bulk".
+The cotton is applied with liberal lashings of AK Transparent water gel. Finally the splashes are topped of with some Deluxe scenic snowflakes
+and touched up with Vallejo Model Color gloss white.
 
 ![build03a](./assets/build03a.jpg?raw=true)
 ![build03b](./assets/build03b.jpg?raw=true)
