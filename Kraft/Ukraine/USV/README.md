@@ -52,6 +52,8 @@ and touched up with Vallejo Model Color gloss white.
 ![build03c](./assets/build03c.jpg?raw=true)
 ![build03d](./assets/build03d.jpg?raw=true)
 ![build03e](./assets/build03e.jpg?raw=true)
+![build03f](./assets/build03f.jpg?raw=true)
+![build03g](./assets/build03g.jpg?raw=true)
 
 ## Credits and References
 
