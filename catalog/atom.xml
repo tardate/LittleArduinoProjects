@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-07-26T15:40:28Z</updated>
+  <updated>2023-08-08T14:09:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/</id>
+    <link href="https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/"/>
+    <updated>2023-08-08T14:06:39Z</updated>
+    <title>#715 Snowy Finds a Ride</title>
+    <summary>My Hergé fanfic for the @justmakingconversation Great Tarp Build featuring the Dora Wings Percival Proctor &amp; Vega Gull in 1:72 (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/assets/SnowyFindsARide_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Ukraine/USV/</id>
     <link href="https://leap.tardate.com/Kraft/Ukraine/USV/"/>
-    <updated>2023-07-25T13:28:58Z</updated>
+    <updated>2023-08-07T00:52:53Z</updated>
     <title>#714 Ukraine's Maritime Drone (USV)</title>
     <summary>Building the MikroMir 1:35 kit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Ukraine/USV/assets/USV_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Dauphin2/</id>
     <link href="https://leap.tardate.com/Kraft/Dauphin2/"/>
-    <updated>2023-06-27T05:40:41Z</updated>
+    <updated>2023-08-07T00:52:51Z</updated>
     <title>#713 Aérospatiale SA365N Dauphin 2</title>
     <summary>Building the Aérospatiale SA365N Dauphin 2 as used by the Tokyo Metropolitan Police Department. Trumpeter 1:48 kit, no electronics.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Dauphin2/assets/Dauphin2_build.jpg</g:image_link>
@@ -34,7 +44,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/"/>
-    <updated>2023-06-19T14:04:21Z</updated>
+    <updated>2023-08-07T00:52:52Z</updated>
     <title>#712 IJA Type 89 I-Go Otsu Medium Tank</title>
     <summary>Building the IBG Models 1:72 representation of the IJA Type 89 I-Go Otsu Medium Tank. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/assets/Type89IGoOtsu_build.jpg</g:image_link>
@@ -44,7 +54,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/JSDF/F-4EJ/</id>
     <link href="https://leap.tardate.com/Kraft/JSDF/F-4EJ/"/>
-    <updated>2023-06-12T09:48:44Z</updated>
+    <updated>2023-08-07T00:52:52Z</updated>
     <title>#711 F-4EJ Last Phantom</title>
     <summary>Building the 2019 commemorative scheme of the JASDF F-4EJ Kai Phantom II - a beautiful little Platz 1:144 kit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/JSDF/F-4EJ/assets/F-4EJ_build.jpg</g:image_link>
@@ -54,7 +64,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RaceToJitra/</id>
     <link href="https://leap.tardate.com/Kraft/RaceToJitra/"/>
-    <updated>2023-06-07T15:05:07Z</updated>
+    <updated>2023-08-07T00:52:53Z</updated>
     <title>#710 Race To Jitra</title>
     <summary>Building a double-sided box diorama in mixed scales to capture the rapid advance of Japanese forces during the Invasion of Malaya. The Battle of Jitra was one of many engagements where the advancing force overwhelmed the under-prepared defenders on the peninsula.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RaceToJitra/assets/RaceToJitra_build.jpg</g:image_link>
@@ -65,7 +75,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Type95HaGo/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Type95HaGo/"/>
-    <updated>2023-05-31T15:12:33Z</updated>
+    <updated>2023-08-07T00:52:52Z</updated>
     <title>#709 IJA Type 95 Ha-Go Light Tank</title>
     <summary>Building the IBG Models 1:72 representation of the IJA Type 95 Ha-Gō ハ号 Light Tank. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/Type95HaGo/assets/Type95HaGo_build.jpg</g:image_link>
@@ -75,7 +85,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PLA/T34-85/</id>
     <link href="https://leap.tardate.com/Kraft/PLA/T34-85/"/>
-    <updated>2023-05-28T08:35:32Z</updated>
+    <updated>2023-08-07T00:52:52Z</updated>
     <title>#708 The Legendary T-34/85 215号</title>
     <summary>Capturing the legendary T-34/85 215号 in action, using the Rye Field Model kit RM-5059 in 1:35 and some great resin figures from YUFAN Model. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLA/T34-85/assets/T34-85_build.jpg</g:image_link>
@@ -85,7 +95,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/BayraktarTB2/</id>
     <link href="https://leap.tardate.com/Kraft/BayraktarTB2/"/>
-    <updated>2023-05-11T13:13:19Z</updated>
+    <updated>2023-08-07T00:52:51Z</updated>
     <title>#707 Bayraktar TB2</title>
     <summary>Building the Clear Prop! 1:48 representation of the now iconic Bayraktar TB2 as used by the Armed Forces of Ukraine</summary>
     <g:image_link>https://leap.tardate.com/Kraft/BayraktarTB2/assets/BayraktarTB2_build.jpg</g:image_link>
@@ -586,6 +596,7 @@
     <summary>Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Strv103/assets/Strv103_build.jpg</g:image_link>
     <category term="scale models"/>
+    <category term="Craft"/>
     <category term="AFV"/>
   </entry>
   <entry>

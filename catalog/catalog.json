@@ -1,5 +1,12 @@
 [
     {
+        "id": "#715",
+        "name": "Snowy Finds a Ride",
+        "description": "My Herg\u00e9 fanfic for the @justmakingconversation Great Tarp Build featuring the Dora Wings Percival Proctor & Vega Gull in 1:72 (no electronics in this one)",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/TarpChallenge/SnowyFindsARide"
+    },
+    {
         "id": "#714",
         "name": "Ukraine's Maritime Drone (USV)",
         "description": "Building the MikroMir 1:35 kit. No electronics in this one.",
@@ -388,7 +395,7 @@
         "id": "#659",
         "name": "Stridsvagn 103",
         "description": "Practicing some hull-down diorama effects with the Swedish Stridsvagn 103 using the Trumpeter 1:72 kit (no electronics)",
-        "categories": "scale models, AFV",
+        "categories": "scale models, Craft, AFV",
         "relative_path": "Kraft/Strv103"
     },
     {
