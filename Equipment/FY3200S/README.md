@@ -11,7 +11,6 @@ Because you can never have too many function generators??!
 * I have one built-into my oscilloscope, but that is only really practical if you want a fixed wave or are not using the scope at the same time
 * I have built my own, and will probably build more, but it is nice to have a full-featured bit of kit as a benchmark for DIY
 
-
 The Feeltech FY3200S gets some good reviews and was available at a very nice price. Some of the features that I was particularly interested in:
 
 * linear and logarithmic frequency sweep function
@@ -26,16 +25,14 @@ In general it works great, especially the sweep function, here's a quick demo:
 
 [![sweep](https://img.youtube.com/vi/jVyMcfEiMN0/0.jpg)](https://www.youtube.com/watch?v=jVyMcfEiMN0)
 
-
 Only a few comments, not necessarily that negative:
 
-* although billed as a 24MHz generator, and while it can achieve 24MHz, I see noticable attenuation over 20MHz
+* although billed as a 24MHz generator, and while it can achieve 24MHz, I see noticeable attenuation over 20MHz
 * on power-on, it always starts up with a 10V sine wave. It would be nice if it restarted with previously-used settings.
 * the control layout is a bit inconvenient:
     * if you use your right-hand, output coaxial cables get in the way when using the control knob
     * but if you use your left-hand on the control knob, you obscure the screen
 * because the push-button controls are quite stiff, and the unit is so light, you are more likely to push the unit around instead of pushing a button! Find myself using two hands - one to hold the unit in place, the other to play with the controls. The feet seem to make the problem worse rather than better. Have to find a good place in the workspace desk where it won't go skitting around..
-
 
 ### Inside
 
@@ -61,7 +58,7 @@ A simple switch-mode power supply does the job:
 ![internals_smps](./assets/internals_smps.jpg?raw=true)
 
 It is important to note that output connections are not earthed, but are instead floating by design.
-Due to the supression capacitor across input and output, this can mean the output ground floats significantly above earth ground.
+Due to the suppression capacitor across input and output, this can mean the output ground floats significantly above earth ground.
 A quick check of the "ground" on my FY3200S shows me it is running about +80V above earth.
 
 This has been highlighted in a number of reviews such as [SDGMB #006 FeelTech FY3224S 24MHz Signal Generator Banggood](https://www.youtube.com/watch?v=9o5MzTOzZo4) by SDG Electronics.
@@ -73,16 +70,15 @@ If desired, it is a relatively simple modification to permanently earth-ground t
 
 But either way - floating or earthed - it is always advisable to stop and think ground and power levels before interconnecting equipment.
 
-
 ### Product Specifications
 
 From the seller's site...
 
-#### Features:
+#### Features
 
 * Using DDS direct digital synthesis technology to generate precise, stable, low distortion output signal.
 * CH1 and CH2 completely symmetrical two channels, each channel can be independently set the parameters.
-* Supports user-defined waveform, each arbitrary waveform memory depth 2048*12bits, 250MSa/s sampling rate.
+* Supports user-defined waveform, each arbitrary waveform memory depth 2048 * 12bits, 250MSa/s sampling rate.
 * With pulse trains burst output function, manual trigger, internal CH2 trigger and external trigger three trigger modes that allow the unit to any output 1~1048575 arbitrary pulse trains.
 * Measurement functions: 100MHz frequency meter and counter function.
 * Signal output amplitude range is 10mVpp- 20Vpp, DC offset adjustment range is -10V to 10V, the resolution is 0.1V.
@@ -175,9 +171,9 @@ From the seller's site...
 | Power Supply Voltage Range |  AC 85V to AC 260V |
 | Display Display Type       | LCD 1602 Display |
 | Environment                | Temperature: 0~40°C Humidity: <80% |
-| Size                       |  19 * 18 * 7cm / 7.5 * 7 * 2.75in (L * W * H) |
+| Size                       |  19 *18* 7cm / 7.5 *7* 2.75in (L *W* H) |
 | Weight                     |  577g / 20.36oz |
-| Package Size               | 25 * 21 * 9.5cm / 9.84 * 8.27 * 3.74in (L * W * H) |
+| Package Size               | 25 *21* 9.5cm / 9.84 *8.27* 3.74in (L *W* H) |
 | Package Weight             | 913g / 32.23oz |
 
 #### Package List
@@ -195,6 +191,10 @@ The CD contains soft copy of the manual.
 It also includes software for user-defined function generation/loading.
 I haven't tried any of the software yet as it is all for Windows only.
 
+There is, however, a copy of the FY3200S Series Communication Protocol Specification.
+It defines a quite simple serial protocol that runs at 9600bps,
+so it appears that it would be a relatively straight-forward task to write one's own
+software to control the device.
 
 ## Credits and References
 
