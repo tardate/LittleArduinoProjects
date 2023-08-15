@@ -5,16 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-08-08T14:09:52Z</updated>
+  <updated>2023-08-16T15:15:24Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/MilitaryTransports/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/MilitaryTransports/"/>
+    <updated>2023-08-16T15:02:15Z</updated>
+    <title>#716 IJN Military Transports</title>
+    <summary>Building the No.1 and No.101 landing ships 輸送艦 from the Tamiya Military Transport set. No electronics or base for this - saving for a future diorama.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/MilitaryTransports/assets/MilitaryTransports_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="IJN"/>
+    <category term="IJA"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/</id>
     <link href="https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/"/>
-    <updated>2023-08-08T14:06:39Z</updated>
+    <updated>2023-08-08T14:10:51Z</updated>
     <title>#715 Snowy Finds a Ride</title>
     <summary>My Hergé fanfic for the @justmakingconversation Great Tarp Build featuring the Dora Wings Percival Proctor &amp; Vega Gull in 1:72 (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/assets/SnowyFindsARide_build.jpg</g:image_link>
