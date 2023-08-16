@@ -4,7 +4,10 @@
 
 * [Built Sideways Podcast](https://podcasts.apple.com/us/podcast/built-sideways-podcast/id1578246351)
 * [Just Making Conversation](https://podcasts.apple.com/us/podcast/just-making-conversation/id1539297245)
+* [Micro Machines Podcast](https://www.youtube.com/channel/UC8Az4-9xBW0eTgd5y_X3Xsw)
 * [ModelGeek's Podcast](https://www.modelgeekspodcast.com/)
+* [Modellbyggarpodden](https://feeds.acast.com/public/shows/60aa8882c6d2420012f1c4d7) - Swedish
+* [Models from Ukraine](https://feeds.buzzsprout.com/2035660.rss)
 * [On the Bench](https://otbmodellerspodcast.libsyn.com/website)
 * [Plastic Model Mojo](https://www.plasticmodelmojo.com/)
 * [Plastic Posse Podcast](https://plasticpossepodcast.buzzsprout.com/)
@@ -12,7 +15,9 @@
 * [Scale Model Shed](http://scalemodelshed.com/) - defunct, but evergreen
 * [Small Subjects Podcast](http://www.boxdioramas.com/smallsubjects)
 * [Sprue Cutters' Union](https://spruecuttersu.buzzsprout.com/)
+* [THE AMSHOW Plastic Modeling Podcast](https://feeds.buzzsprout.com/1893363.rss)
 * [The Cutting Mat Podcast](https://www.thecuttingmatpodcast.com/)
+* [The Modeling Insanity Podcast](https://www.buzzsprout.com/2199416)
 
 See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 
@@ -234,11 +239,13 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Battlefleet Models](https://www.facebook.com/battlefleetmodels/)        | |
 | USA              | [Civilized Models](https://www.civilizedmodels.com/)                     | resin  |
 | USA              | [Dark Sword Miniatures](https://www.darkswordminiatures.com/)            | miniatures |
+| USA              | [decalcomaniacs](http://www.decalcomaniacs.net/)                         | custom decals - [facebook](https://www.facebook.com/people/Decalcomaniacs-decals/100057221659411/), [ebay](https://www.ebay.com/str/decalcomaniacs) |
 | USA              | [Diemension Games](https://www.facebook.com/diemensiongames/)            | kickstarter games with miniatures |
 | USA              | [Flying Leathernecks Decals](https://www.flyingleathernecksdecals.com/)  | Decals and aftermarket kits - US Marine aviation |
 | USA              | [HäT (Hat Toy Soldiers)](http://www.hat.com/)                            | miniatures |
 | USA              | [Imperial Hobby Productions](https://ihphobby.tripod.com/)               | 1/700 scale ships, HO scale commuter and transit vehicles |
-| USA              | [Lindberg](https://www.round2corp.com/brand/lindberg/) | Defunct, brand now owned by Round 2 - [wikipedia](https://en.wikipedia.org/wiki/Round_2_(company)#Lindberg) |
+| USA              | [Lazy Dog Hobby Studio](https://www.etsy.com/shop/LazyDogHobbyStudio)    | Gaming terrain and hobby accessories. |
+| USA              | [Lindberg](https://www.round2corp.com/brand/lindberg/)                   | Defunct, brand now owned by Round 2 - [wikipedia](https://en.wikipedia.org/wiki/Round_2_(company)#Lindberg) |
 | USA              | [micromark](https://www.micromark.com/)                                  | small tool specialists |
 | USA              | [MiniCraft](https://minicraftmodels.com/)                                | |
 | USA              | [Model Monkey](https://www.model-monkey.com/)                            | 3D printed after-market accessories |
