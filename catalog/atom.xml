@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-08-16T15:15:24Z</updated>
+  <updated>2023-08-20T14:07:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Ukraine/Fencer/</id>
+    <link href="https://leap.tardate.com/Kraft/Ukraine/Fencer/"/>
+    <updated>2023-08-20T14:07:31Z</updated>
+    <title>#717 Ukrainian Su-24M Fencer</title>
+    <summary>Building the Armory 1:144 representation of the Ukrainian Su-24M Fencer. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Ukraine/Fencer/assets/Fencer_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MilitaryTransports/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MilitaryTransports/"/>
-    <updated>2023-08-16T15:02:15Z</updated>
+    <updated>2023-08-16T15:16:16Z</updated>
     <title>#716 IJN Military Transports</title>
     <summary>Building the No.1 and No.101 landing ships 輸送艦 from the Tamiya Military Transport set. No electronics or base for this - saving for a future diorama.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MilitaryTransports/assets/MilitaryTransports_build.jpg</g:image_link>

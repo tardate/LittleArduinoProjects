@@ -1,5 +1,12 @@
 [
     {
+        "id": "#717",
+        "name": "Ukrainian Su-24M Fencer",
+        "description": "Building the Armory 1:144 representation of the Ukrainian Su-24M Fencer. No electronics in this one.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/Ukraine/Fencer"
+    },
+    {
         "id": "#716",
         "name": "IJN Military Transports",
         "description": "Building the No.1 and No.101 landing ships \u8f38\u9001\u8266 from the Tamiya Military Transport set. No electronics or base for this - saving for a future diorama.",

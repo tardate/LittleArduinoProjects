@@ -1,4 +1,13 @@
 {
+    "/Kraft/Ukraine/Fencer/": {
+        "id": 717,
+        "title": "Ukrainian Su-24M Fencer",
+        "summary": "Building the Armory 1:144 representation of the Ukrainian Su-24M Fencer. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/IJN/MilitaryTransports/": {
         "id": 716,
         "title": "IJN Military Transports",
