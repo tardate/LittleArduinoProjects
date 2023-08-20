@@ -2,7 +2,7 @@
 
 Building the amazing little Sweet 1:144 kit of the Zero with Flight Deck.
 
-![Build](./assets/Zero_build.jpg?raw=true)
+![Build](./assets/Sweet14110_build.jpg?raw=true)
 
 ## Notes
 

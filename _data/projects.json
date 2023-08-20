@@ -130,7 +130,7 @@
             "IJN"
         ]
     },
-    "/Kraft/IJN/Zero/": {
+    "/Kraft/IJN/MitsubishiA6M/Sweet14110/": {
         "id": 703,
         "title": "Mitsubishi A6M Zero on the Zuikaku",
         "summary": "Building the amazing little Sweet 1:144 kit of the Zero with Flight Deck",
@@ -430,7 +430,7 @@
             "Craft"
         ]
     },
-    "/Kraft/IJA/Ki46/": {
+    "/Kraft/IJA/MitsubishiKi46/": {
         "id": 671,
         "title": "Mitsubishi Ki-46 Trainer",
         "summary": "Building a SG$5 bargain ARII 1:72 kit of the Mitsubishi Ki-46-II Dinah Trainer (no electronics)",
@@ -670,7 +670,7 @@
             "Craft"
         ]
     },
-    "/Kraft/IJA/Ki55/": {
+    "/Kraft/IJA/TachikawaKi55/": {
         "id": 645,
         "title": "Tachikawa Ki-55",
         "summary": "Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)",
@@ -1120,7 +1120,7 @@
             "LED"
         ]
     },
-    "/Kraft/IJN/K5Y1/": {
+    "/Kraft/IJN/KawanishiK5Y1/": {
         "id": 599,
         "title": "Kawanishi K5Y1 Tensegrity Stand",
         "summary": "Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 \u8d64\u3068\u3093\u307c (Willow)",

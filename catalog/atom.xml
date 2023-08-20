@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-08-20T14:07:49Z</updated>
+  <updated>2023-08-20T15:44:08Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -157,12 +157,12 @@
     <category term="IJN"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/IJN/Zero/</id>
-    <link href="https://leap.tardate.com/Kraft/IJN/Zero/"/>
+    <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/Sweet14110/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/Sweet14110/"/>
     <updated>2023-05-02T14:10:54Z</updated>
     <title>#703 Mitsubishi A6M Zero on the Zuikaku</title>
     <summary>Building the amazing little Sweet 1:144 kit of the Zero with Flight Deck</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJN/Zero/assets/Zero_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/Sweet14110/assets/Sweet14110_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
@@ -489,12 +489,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/IJA/Ki46/</id>
-    <link href="https://leap.tardate.com/Kraft/IJA/Ki46/"/>
+    <id>https://leap.tardate.com/Kraft/IJA/MitsubishiKi46/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/MitsubishiKi46/"/>
     <updated>2023-05-02T14:10:53Z</updated>
     <title>#671 Mitsubishi Ki-46 Trainer</title>
     <summary>Building a SG$5 bargain ARII 1:72 kit of the Mitsubishi Ki-46-II Dinah Trainer (no electronics)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJA/Ki46/assets/Ki46_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/MitsubishiKi46/assets/MitsubishiKi46_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
@@ -755,12 +755,12 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/IJA/Ki55/</id>
-    <link href="https://leap.tardate.com/Kraft/IJA/Ki55/"/>
+    <id>https://leap.tardate.com/Kraft/IJA/TachikawaKi55/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/TachikawaKi55/"/>
     <updated>2023-05-02T14:10:53Z</updated>
     <title>#645 Tachikawa Ki-55</title>
     <summary>Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJA/Ki55/assets/Ki55_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/TachikawaKi55/assets/TachikawaKi55_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
@@ -1252,12 +1252,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/IJN/K5Y1/</id>
-    <link href="https://leap.tardate.com/Kraft/IJN/K5Y1/"/>
+    <id>https://leap.tardate.com/Kraft/IJN/KawanishiK5Y1/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/KawanishiK5Y1/"/>
     <updated>2023-05-02T14:10:53Z</updated>
     <title>#599 Kawanishi K5Y1 Tensegrity Stand</title>
     <summary>Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow)</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJN/K5Y1/assets/K5Y1_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/KawanishiK5Y1/assets/KawanishiK5Y1_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>

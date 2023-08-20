@@ -2,7 +2,7 @@
 
 Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow).
 
-![Build](./assets/K5Y1_build.jpg?raw=true)
+![Build](./assets/KawanishiK5Y1_build.jpg?raw=true)
 
 ## Notes
 

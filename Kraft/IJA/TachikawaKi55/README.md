@@ -4,7 +4,7 @@ Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced 
 
 No electronics in this one.
 
-![Build](./assets/Ki55_build.jpg?raw=true)
+![Build](./assets/TachikawaKi55_build.jpg?raw=true)
 
 ## Notes
 
