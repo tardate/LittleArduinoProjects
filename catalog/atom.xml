@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-08-20T15:44:08Z</updated>
+  <updated>2023-08-22T14:45:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/DefiantMkIvDo17z/</id>
+    <link href="https://leap.tardate.com/Kraft/DefiantMkIvDo17z/"/>
+    <updated>2023-08-22T14:44:46Z</updated>
+    <title>#718 Defiant v Do-17z</title>
+    <summary>Aces High! A Boulton Paul Defiant Mk.I bringing down a Dornier Do-17z 'flying pencil', built with the Airfix 1:72 kits from 2014. No electronics.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/DefiantMkIvDo17z/assets/DefiantMkIvDo17z_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/Ukraine/Fencer/</id>
     <link href="https://leap.tardate.com/Kraft/Ukraine/Fencer/"/>
