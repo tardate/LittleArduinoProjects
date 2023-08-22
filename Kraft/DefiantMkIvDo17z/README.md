@@ -6,16 +6,23 @@ Aces High! A Boulton Paul Defiant Mk.I bringing down a Dornier Do-17z 'flying pe
 
 ## Notes
 
-### Building the Boulton Paul Defiant Mk 1
+### Boulton Paul Defiant Mk 1
 
-Scale Model Build. Airfix 1/72 Boulton Paul Defiant Mk 1. Columbus Models
+The [Boulton Paul Defiant](https://en.wikipedia.org/wiki/Boulton_Paul_Defiant) is a British interceptor that served with RAF during World War II.
+
+#### Some Resources - Boulton Paul Defiant
+
+Boulton Paul Defiant - The Unlucky Turret Fighter | Aircraft History #4 - Rex's Hangar
+
+[![clip](https://img.youtube.com/vi/aIKMAujFfiQ/0.jpg)](https://www.youtube.com/watch?v=aIKMAujFfiQ)
+
+Scale Model Build. Airfix 1/72 Boulton Paul Defiant Mk 1. Columbus Models:
 
 [![clip](https://img.youtube.com/vi/7d2_EwJiZz4/0.jpg)](https://www.youtube.com/watch?v=7d2_EwJiZz4)
 
-#### Marking Scheme A
+#### Marking Scheme A - selected scheme
 
 A02069 - Boulton Paul Defiant Mk1, No. 264 Squadron, July 1940 (A)
-
 
 | Feature               | Color                | Recommended | Paint Used |
 |-----------------------|----------------------|-------------|------------|
@@ -50,8 +57,7 @@ A02069 - Boulton Paul Defiant Mk1, No. 151 Squadron, February 1941 (B)
 | harness               | Khaki Drill - Matt   | 72          | 70.924 Russian Unf. WWII |
 |                       | Leather              | 62          | AMMO F552 |
 
-
-#### Build Log
+#### Boulton Paul Defiant Mk 1 Build Log
 
 ![build01a](./assets/defiant/build01a.jpg?raw=true)
 ![build01b](./assets/defiant/build01b.jpg?raw=true)
@@ -73,10 +79,15 @@ A02069 - Boulton Paul Defiant Mk1, No. 151 Squadron, February 1941 (B)
 ![build04c](./assets/defiant/build04c.jpg?raw=true)
 ![build04d](./assets/defiant/build04d.jpg?raw=true)
 
-### Building the Dornier Do-17z
+### Dornier Do-17z
 
-Why Everyone Feared The "Flying Pencil" | Dornier Do 17
-https://www.youtube.com/watch?v=grvkSRGIFu8
+The [Dornier Do 17](https://en.wikipedia.org/wiki/Dornier_Do_17) is a twin-engined light bomber produced by Dornier Flugzeugwerke for the German Luftwaffe during World War II.
+
+#### Some Resources - Do-17
+
+Why Everyone Feared The "Flying Pencil" | Dornier Do 17 - Rex's Hangar
+
+[![clip](https://img.youtube.com/vi/grvkSRGIFu8/0.jpg)](https://www.youtube.com/watch?v=grvkSRGIFu8)
 
 #### The Kit
 
@@ -103,7 +114,7 @@ aircrew
 | straps                | Khaki                |  26           | 70.879 Green Brown           |
 | overall               | Desert Yellow        |  93           | 70.824 German Camo Orange Ochre           |
 
-#### Build Log
+#### Do-17z Build Log
 
 ![build01a](./assets/do17z/build01a.jpg?raw=true)
 ![build01b](./assets/do17z/build01b.jpg?raw=true)
@@ -153,3 +164,5 @@ These kits were both tooled in 2014 and are a joy to build and were an early sig
 * [Defiant Mk. I for Airfix Eduard No. CX414 1:72](https://www.scalemates.com/kits/eduard-cx414-defiant-mk-i--943106)
 * [Dornier Do-17z Airfix No. A05010A 1:72](https://www.scalemates.com/kits/airfix-a05010a-dornier-do-17z--1396804)
 * [Do 17 Z for Airfix Eduard No. CX411 1:72](https://www.scalemates.com/kits/eduard-cx411-do-17-z--940535)
+* [Boulton Paul Defiant](https://en.wikipedia.org/wiki/Boulton_Paul_Defiant) - wikipedia
+* [Dornier Do 17](https://en.wikipedia.org/wiki/Dornier_Do_17) - wikipedia
