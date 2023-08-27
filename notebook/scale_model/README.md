@@ -74,6 +74,7 @@ See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 * [scalemodeladdict.com](https://www.scalemodeladdict.com/)
 * [scalemodellingnow.com](https://www.scalemodellingnow.com/)
 * [spruepiewithfrets](https://spruepiewithfrets.wordpress.com/)
+* [Super Glue Not Drying (Quick Guide)](https://glueschool.com/super-glue-not-drying/)
 * [themodellingnews.com](https://www.themodellingnews.com/)
 * [track-link.com](https://www.track-link.com/)
 

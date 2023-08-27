@@ -22,7 +22,6 @@ On May 22, 1944, she was torpedoed by USS Picuda (SS-382) in the South China Sea
 | nav light stbd          | Sky Blue                | H25             |            |
 | boats, main deck        | Tan                     | H27             | H27           |
 | upper deck              | Wood Brown              | H37             | H37           |
-| ?                       | Dark Yellow             | H79             |            |
 | hull and superstructure | Dark Gray (2)           | H83             | H83            |
 
 ### Paint Scheme - Type 95 Light Tank
@@ -53,7 +52,6 @@ no crew or sea base for this build yet as I'm planning to add it to another dior
 ![build02b](./assets/build02b.jpg?raw=true)
 ![build02c](./assets/build02c.jpg?raw=true)
 ![build02d](./assets/build02d.jpg?raw=true)
-
 
 ## Credits and References
 

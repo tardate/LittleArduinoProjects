@@ -21,6 +21,16 @@ Key engagements from the [record of movement](http://www.combinedfleet.com/ayana
 * 26 October 1942: Battle of Santa Cruz. On alert in Shortlands-area.
 * 12-15 November 1942: Naval Battles for Guadalcanal. Operated with URANAMI in assault on U.S. destroyers. Sunk: by gunfire of U.S. battleship-destroyer group southeast of Savo Island (09-10 S, 159-52 E)
 
+### Reviews and Resources
+
+Ayanami Class - navyreviewer
+
+[![clip](https://img.youtube.com/vi/3xSsXr48dd0/0.jpg)](https://www.youtube.com/watch?v=3xSsXr48dd0)
+
+WaterLIne 1/700 【千円艦隊】「駆逐艦(Imperial Japanese Navy Fleet Destroyers)いろいろ作ってみた。」vol.01 (includes Ayanami 綾波)
+
+[![clip](https://img.youtube.com/vi/ZT8RJmf6ouE/0.jpg)](https://www.youtube.com/watch?v=ZT8RJmf6ouE&t=357)
+
 ### Paint Scheme
 
 | Feature               | Color                | Recommended   | Paint Used |
