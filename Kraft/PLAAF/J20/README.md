@@ -45,7 +45,10 @@ Behind the scenes with the in-flight base. Getting cotton wool to look like real
 
 ![build02a](./assets/build02a.jpg?raw=true)
 
- caught in-flight, the "Mighty Dragon" Chengdu J-20..
+成都飞机工业集团的歼20 Caught in-flight, the "Mighty Dragon" Chengdu J-20..
+this is the Trumpeter 1:144 kit - fantastic detail, though it took a bit of conversion to get it nicely wheels-up .. including a hand-carved pilot!
+
+#scalemodel #plaaf #1144scale
 
 ![build02b](./assets/build02b.jpg?raw=true)
 
@@ -56,6 +59,14 @@ Behind the scenes with the in-flight base. Getting cotton wool to look like real
 ![build02e](./assets/build02e.jpg?raw=true)
 
 ![build02f](./assets/build02f.jpg?raw=true)
+
+Just remounted in a picture frame, and it's now hanging on my "wall of flight"😁
+
+![build03a](./assets/build03a.jpg?raw=true)
+
+![build03b](./assets/build03b.jpg?raw=true)
+
+![build03c](./assets/build03c.jpg?raw=true)
 
 ## Credits and References
 
