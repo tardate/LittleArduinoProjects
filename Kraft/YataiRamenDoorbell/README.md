@@ -56,7 +56,6 @@ The remote doorbell:
   - used to power the transmitter at higher voltage for increased range
   - connects to VIN of the Arduino to take advantage on the on-board regulator
 
-
 ### Radio Module
 
 I'm using a common (LPD433)
@@ -88,7 +87,6 @@ The transmitter can operate from 3.5-12V:
 * Transmitting power: 10mW
 * Transmitting frequency: 433Mhz / 315Mhz (optional)
 * An external antenna: 25cm ordinary multi-core or single-core line
-
 
 ### Remote Doorbell (Transmitter) Circuit
 
@@ -157,6 +155,8 @@ I'd like to look at some ways to improve that.
 
 ## Credits and References
 
+* [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=157497)
+* [Soba Noodle Stall Micro Ace No. 81211 1:25](https://www.scalemates.com/kits/micro-ace-81211-soba-noodle-stall--1399547)
 * [Arii 812112 Japanese Ramen Stall 1/25 Scale Kit (Microace)](https://www.plazajapan.com/4968279812112/) plazajapan ¥1,130
 * [Micro ace (Arii)](http://www.microace-arii.co.jp/)
 * [433 Mhz RF Transmitter and Receiver Module Link Kit for ARM/MCU WL DIY 315MHZ/433MHZ Wireless Remote Control for arduino Diy Kit](https://www.aliexpress.com/item/32896035786.html) - from aliexpress seller
