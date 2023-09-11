@@ -173,6 +173,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | South Korea      | [Academy Plastic Model](https://www.academyhobby.com/)                   | |
 | South Korea      | [KA Models / MK1 Design](http://www.ka-models.com/)                      | PE, after-market |
 | South Korea      | [Tetra Model Works](http://www.tetramodel.com/)                          | detail parts for scale models |
+| South Korea      | [Valkyrie Minature](http://www.valkyrie.co.kr/)                          | 1:35 figures |
 | Spain            | [Alexandros Models](http://www.alexandrosmodels.com/)                    | figures, busts; miniatures |
 | Spain            | [Artesania Latina](https://artesanialatina.net/en/)                      | wood models - ships, aircraft  |
 | Spain            | [greenstuffworld](https://www.greenstuffworld.com/)                      | tools, putties, materials and accessories |
