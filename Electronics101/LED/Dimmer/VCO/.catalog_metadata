@@ -1,0 +1,7 @@
+{
+    "id": "#719",
+    "name": "Voltage Controlled LED Dimmer",
+    "description": "Demonstrating a voltage-controlled LED current source with a triangle wave generator.",
+    "categories": "LED, Oscillators",
+    "relative_path": "Electronics101/LED/Dimmer/VCO"
+}

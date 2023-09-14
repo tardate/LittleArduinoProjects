@@ -1,4 +1,13 @@
 {
+    "/Electronics101/LED/Dimmer/VCO/": {
+        "id": 719,
+        "title": "Voltage Controlled LED Dimmer",
+        "summary": "Demonstrating a voltage-controlled LED current source with a triangle wave generator.",
+        "tags": [
+            "LED",
+            "Oscillators"
+        ]
+    },
     "/Kraft/DefiantMkIvDo17z/": {
         "id": 718,
         "title": "Defiant v Do-17z",
@@ -6229,7 +6238,7 @@
     },
     "/Electronics101/FunctionGenerator324/": {
         "id": 53,
-        "title": "FunctionGenerator324",
+        "title": "LM324 Function Generator",
         "summary": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator",
         "tags": [
             "OpAmp",

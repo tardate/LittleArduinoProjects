@@ -1,6 +1,6 @@
-# 718  Little Electronic Art Projects
+# 719  Little Electronic Art Projects
 
-> Latest addition:sparkles: [Laser Harp Kit](./Audio/LaserHarpKit) - Build and test an 8051-based laser harp kit.
+> Latest addition:sparkles: [Voltage Controlled LED Dimmer](./Electronics101/LED/Dimmer/VCO) - Demonstrating a voltage-controlled LED current source with a triangle wave generator.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

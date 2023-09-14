@@ -1,6 +1,8 @@
-# #053 FunctionGenerator324
+# #053 LM324 Function Generator
 
 Use an Arduino to monitor the behaviour of a low-frequency LM324 OpAmp waveform generator (square,triangle,sine,cosine) and plot the results with [Processing](https://www.processing.org).
+
+![The Build](./assets/FunctionGenerator324_build.jpg?raw=true)
 
 ## Notes
 
@@ -24,17 +26,21 @@ Note that the reference voltage is not shared to avoid cross-over problems.
 
 ### Stage 2: Triangle Wave Integrator
 
-The square wave from stage 1 is fed to the second stage configured as an [integrating amplifier](http://en.wikipedia.org/wiki/Op_amp_integrator).
+The square wave from stage 1 is fed to the second stage configured as an [integrating amplifier](https://en.wikipedia.org/wiki/Op_amp_integrator).
 This results in a triangle wave.
+
+[![opamp_integrator](./assets/opamp_integrator.png)](https://www.electronics-tutorials.ws/opamp/opamp_6.html)
 
 ### Stage 3: Sine Wave Integrator
 
-The triangle wave from stage 1 is fed to the third stage to perform a second [integration](http://en.wikipedia.org/wiki/Op_amp_integrator).
+The triangle wave from stage 1 is fed to the third stage to perform a second [integration](https://en.wikipedia.org/wiki/Op_amp_integrator).
 This results in a sine wave.
 
 ### Stage 4: Cosine Wave Integrator
 
 To transform the output from stage 3 (sine) to cosine, we use the final OpAmp unit as an inverting amplifier with gain = 1.
+
+[![opamp_integrator](./assets/opamp_inverting.png)](https://www.electronics-tutorials.ws/opamp/opamp_2.html)
 
 ### Measured Behaviour
 
@@ -63,7 +69,9 @@ That works fine, although it is equally possible to use a separate power supply 
 ## Credits and References
 
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
-* [Op-amp Astables](http://www.learnabout-electronics.org/Oscillators/osc42.php)
-* [Op-amp Integrator](http://www.electronics-tutorials.ws/opamp/opamp_6.html)
+* [Op-amp Astables](https://learnabout-electronics.org/Oscillators/osc42.php)
+* [Op-amp Integrator](https://www.electronics-tutorials.ws/opamp/opamp_6.html)
+* [integrating amplifier](https://en.wikipedia.org/wiki/Op_amp_integrator) - wikipedia
+* [Inverting Operational Amplifier](https://www.electronics-tutorials.ws/opamp/opamp_2.html)
 * [instructable for a similar circuit](https://www.instructables.com/id/THE-SIMPLEST-FUNCTION-GENERATOR-BUILT-ON-A-BREADBO/?ALLSTEPS)
 * [Download Processing](https://www.processing.org/download/)
