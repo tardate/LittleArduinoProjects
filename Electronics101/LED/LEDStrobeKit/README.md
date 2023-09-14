@@ -1,16 +1,15 @@
-# #224 LEDStrobeKit
+# #224 LED Strobe Kit
 
 Build and analyse a common LED strobe kit.
 
 ![The Build](./assets/LEDStrobeKit_build.jpg?raw=true)
-
 
 ## Notes
 
 Another cheap kit build, this time a [CD4017 + ne555 Strobe module](https://www.aliexpress.com/item/CD4017-ne555-Strobe-module-electronics-production-suite-DIY-Kits-electronic-diy-Learning-suite/32438304004.html)
 that I picked up from a seller on aliexpress.
 
-Turns out it is the same module that Julian Ilett covered in another of his excellent vidoes:
+Turns out it is the same module that Julian Ilett covered in another of his excellent videos:
 [Postbag #29: Fun Re-Wiring a 555 and 4017 LED Module](https://www.youtube.com/watch?v=bxyp4Jq8a3Y)
 
 ### The Kit
@@ -21,7 +20,6 @@ Here's the description from the product information provided by the seller:
 * Operating voltage : 12V
 * Dashboard size : 5.4 * 3.1Cm
 * Light board size : 3.5 * 2.6CM;
-
 
 ### LED Modules
 
@@ -39,7 +37,7 @@ The brightness is not even for each color, since the LEDs have different forward
 It would be a good idea to balance the brightness by adjusting the current-limiting resistor on each module
 instead of using the 27Ω resistor in each.
 
-**Modification**
+Modification:
 
 After some calculation and test, I adjusted the current-limiting resistors as follows to give a decent brightness balance:
 
@@ -48,7 +46,6 @@ After some calculation and test, I adjusted the current-limiting resistors as fo
 | Red    | 27Ω      | 220Ω            |
 | White  | 27Ω      | 330Ω            |
 | Blue   | 27Ω      | 27Ω (no change) |
-
 
 ### LED Switching
 
@@ -59,14 +56,14 @@ The common cathode of each module connects to the collector.
 At least .. that's how I think it should be.
 
 First, the supplied transistors are marked S8050 but there are both
-NPN and PNP transistors marked "S8050" in the amrket.
+NPN and PNP transistors marked "S8050" in the market.
 I verified these really are NPN, and the circuit expects an NPN low-side driver.
 
 However all the S8050 NPN transistor datasheets indicate their pin configuration is EBC.
 I have some other S8050 transistors which definitely have an EBC pin configuration.
 
 But the PCB has them connected CBE
-i.e. either these are placed with C-E reversed, or the kit came with some wierd-ass CBE S8050s.
+i.e. either these are placed with C-E reversed, or the kit came with some weird-ass CBE S8050s.
 
 Note that whether the S8050 is CBE or EBC, they basically work either way.
 There are two issues if the transistors are indeed in backwards:
@@ -74,12 +71,11 @@ There are two issues if the transistors are indeed in backwards:
 * exceeds the maximum Emitter-base voltage (only 5V according to one datasheet). Perhaps noticeable damage is avoided because of the switching frequency.
 * the Collector-Emitter voltage drop is about double when backwards, so LEDs are not being driven as effectively.
 
-**Modification**
+Modification:
 
 I flipped the S8050 transistors so they match the schematic; all working well:
 
 ![kit_bjt_mods](./assets/kit_bjt_mods.jpg?raw=true)
-
 
 ### Clock Signal Generator
 

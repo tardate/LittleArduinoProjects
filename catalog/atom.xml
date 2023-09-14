@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-08-22T14:45:09Z</updated>
+  <updated>2023-09-14T10:18:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1502,7 +1502,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/YataiRamenDoorbell/</id>
     <link href="https://leap.tardate.com/Kraft/YataiRamenDoorbell/"/>
-    <updated>2021-01-10T16:22:12Z</updated>
+    <updated>2023-09-11T11:31:52Z</updated>
     <title>#577 屋台ラーメン The Yatai Ramen Doorbell</title>
     <summary>A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound</summary>
     <g:image_link>https://leap.tardate.com/Kraft/YataiRamenDoorbell/assets/YataiRamenDoorbell_build.jpg</g:image_link>
@@ -5095,23 +5095,23 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/LEDDimmer/555PWM/</id>
-    <link href="https://leap.tardate.com/Electronics101/LEDDimmer/555PWM/"/>
+    <id>https://leap.tardate.com/Electronics101/LED/Dimmer/555PWM/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/Dimmer/555PWM/"/>
     <updated>2016-08-13T07:39:10Z</updated>
     <title>#232 555 PWM LED Dimmer</title>
     <summary>test a PWM LED dimmer circuit using a 555 timer</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/LEDDimmer/555PWM/assets/555PWM_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/Dimmer/555PWM/assets/555PWM_build.jpg</g:image_link>
     <category term="LED"/>
     <category term="Power"/>
     <category term="555 Timer"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/LEDDimmer/CurrentRegulator/</id>
-    <link href="https://leap.tardate.com/Electronics101/LEDDimmer/CurrentRegulator/"/>
+    <id>https://leap.tardate.com/Electronics101/LED/Dimmer/CurrentRegulator/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/Dimmer/CurrentRegulator/"/>
     <updated>2016-08-13T07:39:10Z</updated>
-    <title>#231 LEDDimmer/CurrentRegulator</title>
+    <title>#231 LED Current Regulator</title>
     <summary>test a current-regulator style LED dimmer circuit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/LEDDimmer/CurrentRegulator/assets/CurrentRegulator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/Dimmer/CurrentRegulator/assets/CurrentRegulator_build.jpg</g:image_link>
     <category term="LED"/>
     <category term="Power"/>
   </entry>
@@ -5178,12 +5178,12 @@
     <category term="Radio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/LEDStrobeKit/</id>
-    <link href="https://leap.tardate.com/Electronics101/LEDStrobeKit/"/>
+    <id>https://leap.tardate.com/Electronics101/LED/LEDStrobeKit/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/LEDStrobeKit/"/>
     <updated>2016-06-23T13:26:23Z</updated>
-    <title>#224 LEDStrobeKit</title>
+    <title>#224 LED Strobe Kit</title>
     <summary>build and analyse a common LED strobe kit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/LEDStrobeKit/assets/LEDStrobeKit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/LEDStrobeKit/assets/LEDStrobeKit_build.jpg</g:image_link>
     <category term="LED"/>
     <category term="555 Timer"/>
     <category term="CMOS"/>

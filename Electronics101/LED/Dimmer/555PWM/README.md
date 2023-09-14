@@ -36,18 +36,18 @@ At midpoint of the pot, duty cycle is ~50%:
 
 I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html). According to the seller specs:
 
-| Attribute          | Specification                  |
-|--------------------|--------------------------------|
-| Length             | 5m                             |
-| LED Density        | 60 LED/m                       |
-| Color              | cold white                     |
-| View angle         | 120°                           |
-| Working Voltage    | 12V DC                         |
-| Power consumption  | 20W, 4W/m, ~67mW/LED           |
-| Working Tempreture | -40 to 70°                     |
-| Luminous Flux      | 880-1080 Lumens/Meter          |
-| Size               | L500cm (5M) x W0.5cm x T0.20cm |
-| lifespan           | >100,000 hours                 |
+| Attribute           | Specification                  |
+|---------------------|--------------------------------|
+| Length              | 5m                             |
+| LED Density         | 60 LED/m                       |
+| Color               | cold white                     |
+| View angle          | 120°                           |
+| Working Voltage     | 12V DC                         |
+| Power consumption   | 20W, 4W/m, ~67mW/LED           |
+| Working Temperature | -40 to 70°                     |
+| Luminous Flux       | 880-1080 Lumens/Meter          |
+| Size                | L500cm (5M) x W0.5cm x T0.20cm |
+| lifespan            | >100,000 hours                 |
 
 ## Construction
 
@@ -59,7 +59,7 @@ I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/it
 
 ## Credits and References
 
-* [LED Dimmer Circuit](http://www.reuk.co.uk/wordpress/lighting/led-dimmer-circuit/) - REUK.co.uk
+* [LED Dimmer Circuit](http://www.reuk.co.uk/wordpress/lighting/led-dimmer-circuit/) - reuk.co.uk
 * [PWM LED Dimmer/ Brightness Control by 555 Timer With Video Simulation](http://www.circuitsgallery.com/2013/02/pwm-led-dimmer.html)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)

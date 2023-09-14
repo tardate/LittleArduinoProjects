@@ -1,9 +1,8 @@
-# #231 LEDDimmer/CurrentRegulator
+# #231 LED Current Regulator
 
 Test a current-regulator style LED dimmer circuit.
 
 ![CurrentRegulator_build](./assets/CurrentRegulator_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -17,19 +16,18 @@ better flicker-free lighting even when dimmed.
 
 I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html). According to the seller specs:
 
-| Attribute          | Specification                  |
-|--------------------|--------------------------------|
-| Length             | 5m                             |
-| LED Density        | 60 LED/m                       |
-| Color              | cold white                     |
-| View angle         | 120°                           |
-| Working Voltage    | 12V DC                         |
-| Power consumption  | 20W, 4W/m, ~67mW/LED           |
-| Working Tempreture | -40 to 70°                     |
-| Luminous Flux      | 880-1080 Lumens/Meter          |
-| Size               | L500cm (5M) x W0.5cm x T0.20cm |
-| lifespan           | >100,000 hours                 |
-
+| Attribute           | Specification                  |
+|---------------------|--------------------------------|
+| Length              | 5m                             |
+| LED Density         | 60 LED/m                       |
+| Color               | cold white                     |
+| View angle          | 120°                           |
+| Working Voltage     | 12V DC                         |
+| Power consumption   | 20W, 4W/m, ~67mW/LED           |
+| Working Temperature | -40 to 70°                     |
+| Luminous Flux       | 880-1080 Lumens/Meter          |
+| Size                | L500cm (5M) x W0.5cm x T0.20cm |
+| lifespan            | >100,000 hours                 |
 
 ### LED Load and Power Supply
 
@@ -54,7 +52,6 @@ power consumption.
 
 At that current, I was able to get away with an A42 NPN (rated for 500mA), but higher currents would need something beefier.
 
-
 ## Construction
 
 ![Breadboard](./assets/CurrentRegulator_bb.jpg?raw=true)
@@ -71,11 +68,10 @@ Protoboard Layout:
 
 ![CurrentRegulator_build](./assets/CurrentRegulator_build.jpg?raw=true)
 
-
 ## Credits and References
 
 * [Current Controlled LED Dimmer](http://www.electroschematics.com/9256/led-dimmer-control/) - Jim Keith, electroschematics
-* [5M 60LED/M Led Strip Light 3014 SMD Fiexble Light Non-waterproof Indoor/Outdoor Lighting Holiday Decoration Brighter Than 3528](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html) - seller on aliexpress
+* [5M 60LED/M Led Strip Light 3014 SMD Flexible Light Non-waterproof Indoor/Outdoor Lighting Holiday Decoration Brighter Than 3528](https://www.aliexpress.com/item/5M-60LED-M-Led-Strip-Light-3014-SMD-Fiexble-Light-Non-waterproof-Indoor-Outdoor-Lighting-Holiday/32287328315.html) - seller on aliexpress
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [A42 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/138719/JIANGSU/A42.html)
 * [2N3906 datasheet](https://www.futurlec.com/Transistors/2N3906.shtml)
