@@ -13,12 +13,12 @@ Here's a quick demo..
 The brightness of an LED is proportional to the current, not the voltage.
 
 Adjusting LED brightness is best achieved by controlling the current.
-PWM techniques "trick" the eye into seeing diffeent levels of brightness by rapidly switching the LED on and off.
+PWM techniques "trick" the eye into seeing different levels of brightness by rapidly switching the LED on and off.
 
 The circuit presented here demonstrates an FET current-mirror with current determined by input voltage.
-For demonstration purposes, it uses an OpApmp triangle wave generator as a source.
+For demonstration purposes, it uses an Op-amp triangle wave generator as a source.
 
-The curcuit is similar to the Ardunio-controlled [LEAP#608 LED Current Control](../../../../playground/LedCurrentControl)
+The circuit is similar to the Arduino-controlled [LEAP#608 LED Current Control](../../../../playground/LedCurrentControl)
 
 ### Circuit Design
 
@@ -39,7 +39,7 @@ Uses two op-amp units:
 ### Current Mirror
 
 The basic current mirror provides a 1:1 current source.
-Disimilar resistors in the tail of the input/output current source set up proportional current control.
+Dissimilar resistors in the tail of the input/output current source set up proportional current control.
 Essential current is proportional to the input/out source resistor values.
 
 I've tested an output source resistor of 46Ω with input source resistors of both 4.7kΩ and 47kΩ. Results are tabulated below.
