@@ -4,6 +4,10 @@ Demonstrating a voltage-controlled LED current source with a triangle wave gener
 
 ![Build](./assets/VCO_build.jpg?raw=true)
 
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/feXL85_2WCg/0.jpg)](https://www.youtube.com/watch?v=feXL85_2WCg)
+
 ## Notes
 
 The brightness of an LED is proportional to the current, not the voltage.
