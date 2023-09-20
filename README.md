@@ -1,6 +1,6 @@
-# 723  Little Electronic Art Projects
+# 724  Little Electronic Art Projects
 
-> Latest addition:sparkles: [Voltage Controlled LED Dimmer](./Electronics101/LED/Dimmer/VCO) - Demonstrating a voltage-controlled LED current source with a triangle wave generator.
+> Latest addition:sparkles: [HIDF Twin Otter Recon/SpecOps](./Kraft/HIDF/TwinOtter) - DHC-6 Twin Otter from Revell (04901 in 1:72), as seen commandeered by HIDF Gendarmerie and pressed into service as a reconnaissance and special ops platform. For the Micro Machines Podcast HIDF GB.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-09-30T04:21:43Z</updated>
+  <updated>2023-10-04T15:29:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/YANMAR/YH6115/</id>
+    <link href="https://leap.tardate.com/Kraft/YANMAR/YH6115/"/>
+    <updated>2023-10-04T15:29:28Z</updated>
+    <title>#724 YANMAR Rice Harvester YH6115 オートコンバイン</title>
+    <summary>Building the Hasegawa 1:35 kit of the YANMAR YH6115 Rice Harvester, and spending a lot of time watching youtube videos of the machine while *planting rice* in a dio! (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/YANMAR/YH6115/assets/YH6115_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Honda/SuperCub/</id>
     <link href="https://leap.tardate.com/Kraft/Honda/SuperCub/"/>
-    <updated>2023-09-30T04:20:46Z</updated>
+    <updated>2023-09-30T12:57:10Z</updated>
     <title>#723 Honda Super Cub</title>
     <summary>Building the F-Toys Honda Super Cub in 1:24</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Honda/SuperCub/assets/SuperCub_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/"/>
-    <updated>2023-09-30T03:54:58Z</updated>
+    <updated>2023-09-30T12:57:10Z</updated>
     <title>#722 Mitsubishi A6M2-N</title>
     <summary>Building the F-Toys Mitsubishi A6M2-N from their 1/144 WORK SHOP Vol.40</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/assets/FtoysFC54_build.jpg</g:image_link>
