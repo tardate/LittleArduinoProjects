@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-09-29T15:23:18Z</updated>
+  <updated>2023-09-29T15:29:17Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/"/>
+    <updated>2023-09-29T15:22:44Z</updated>
+    <title>#721 Kawasaki Ki-61-II</title>
+    <summary>Building the F-Toys Ki-61-II from Wing Kit Collection 18 in 1:144</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/assets/Ki61II_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/HIDF/TwinOtter/</id>
     <link href="https://leap.tardate.com/Kraft/HIDF/TwinOtter/"/>
@@ -24,16 +34,6 @@
     <category term="555 Timer"/>
     <category term="motor"/>
     <category term="Oscillators"/>
-  </entry>
-  <entry>
-    <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/</id>
-    <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/"/>
-    <updated>2023-09-29T15:22:44Z</updated>
-    <title>#720 Kawasaki Ki-61-II</title>
-    <summary>Building the F-Toys Ki-61-II from Wing Kit Collection 18 in 1:144</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/assets/Ki61II_build.jpg</g:image_link>
-    <category term="scale models"/>
-    <category term="Craft"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/Dimmer/VCO/</id>

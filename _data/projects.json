@@ -1,4 +1,13 @@
 {
+    "/Kraft/IJA/KawasakiKi61/Ki61II/": {
+        "id": 721,
+        "title": "Kawasaki Ki-61-II",
+        "summary": "Building the F-Toys Ki-61-II from Wing Kit Collection 18 in 1:144",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/HIDF/TwinOtter/": {
         "id": 720,
         "title": "HIDF Twin Otter Recon/SpecOps",
@@ -10,15 +19,6 @@
             "555 Timer",
             "motor",
             "Oscillators"
-        ]
-    },
-    "/Kraft/IJA/KawasakiKi61/Ki61II/": {
-        "id": 720,
-        "title": "Kawasaki Ki-61-II",
-        "summary": "Building the F-Toys Ki-61-II from Wing Kit Collection 18 in 1:144",
-        "tags": [
-            "scale models",
-            "Craft"
         ]
     },
     "/Electronics101/LED/Dimmer/VCO/": {
