@@ -15,7 +15,7 @@ It saw action in the first Gulf War of 1991 before being retired in 1994.
 
 ## The Kit
 
-The [Blackburn Buccaneer S.2C Airfix | No. A06021 | 1:72](https://www.scalemates.com/kits/airfix-a06021-blackburn-buccaneer-s2c--1190161)
+The [Blackburn Buccaneer S.2C Airfix No. A06021 1:72](https://www.scalemates.com/kits/airfix-a06021-blackburn-buccaneer-s2c--1190161)
 kit is a relatively new tool (2019)
 and proved to be exceptionally well engineered. It is a great build.
 
@@ -23,7 +23,7 @@ and proved to be exceptionally well engineered. It is a great build.
 
 Since the kit-supplied aircrew are identical and not pose-able,
 I picked up some replacements from PJ Productions.
-These are a little more detailed: [Modern RAF seated in aircraft PJ Production | No. 721118 | 1:72](https://www.scalemates.com/kits/pj-production-721118-modern-raf-seated-in-aircraft--180890)
+These are a little more detailed: [Modern RAF seated in aircraft PJ Production No. 721118 1:72](https://www.scalemates.com/kits/pj-production-721118-modern-raf-seated-in-aircraft--180890)
 
 ### Some Build Reviews
 

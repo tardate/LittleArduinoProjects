@@ -7,7 +7,7 @@ Building the Special Hobby 1:72 CAC Wirraway, as stationed at Seletar in 1941 - 
 ## Notes
 
 I picked up the
-[CAC CA-3/5 Wirraway "First Blood over Rabaul" Special Hobby | No. SH72331 | 1:72](https://www.scalemates.com/kits/special-hobby-sh72331-cac-ca-3-5-wirraway--966331) kit on special.
+[CAC CA-3/5 Wirraway "First Blood over Rabaul" Special Hobby No. SH72331 1:72](https://www.scalemates.com/kits/special-hobby-sh72331-cac-ca-3-5-wirraway--966331) kit on special.
 
 Not only is it an interesting Australian adaptation of the North American NA-16,
 but it was stationed just near me at Seletar in 1941.

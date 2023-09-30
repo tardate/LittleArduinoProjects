@@ -13,12 +13,12 @@ T-34 Model 1942 was equiped with a 76.2 mm F-34 main gun. It is common referred 
 ## Kit
 
 I picked up the kit at a very good price:
-[Russian T-34/76 1942 Trumpeter | No. 07206 | 1:72](https://www.scalemates.com/kits/trumpeter-07206-t-34-76-1942--105599)
+[Russian T-34/76 1942 Trumpeter No. 07206 1:72](https://www.scalemates.com/kits/trumpeter-07206-t-34-76-1942--105599)
 
 ![kit_box](./assets/kit_box.jpg?raw=true)
 
 I chose some crw figures ffomr the CMK figure set:
-[CCCP T-34 War Tank Crew and Infantry (4pcs) CMK | No. F72281 | 1:72](https://www.scalemates.com/kits/cmk-f72281-cccp-t-34-war-tank-crew-and-infantry-4pcs--959370)
+[CCCP T-34 War Tank Crew and Infantry (4pcs) CMK No. F72281 1:72](https://www.scalemates.com/kits/cmk-f72281-cccp-t-34-war-tank-crew-and-infantry-4pcs--959370)
 
 ![kit_cmk_box](./assets/kit_cmk_box.jpg?raw=true)
 
@@ -73,5 +73,5 @@ taking stock.. think I'll leave this for a few days then take a fresh look at th
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=117575)
-* [Russian T-34/76 1942 Trumpeter | No. 07206 | 1:72](https://www.scalemates.com/kits/trumpeter-07206-t-34-76-1942--105599)
-* [CCCP T-34 War Tank Crew and Infantry (4pcs) CMK | No. F72281 | 1:72](https://www.scalemates.com/kits/cmk-f72281-cccp-t-34-war-tank-crew-and-infantry-4pcs--959370)
+* [Russian T-34/76 1942 Trumpeter No. 07206 1:72](https://www.scalemates.com/kits/trumpeter-07206-t-34-76-1942--105599)
+* [CCCP T-34 War Tank Crew and Infantry (4pcs) CMK No. F72281 1:72](https://www.scalemates.com/kits/cmk-f72281-cccp-t-34-war-tank-crew-and-infantry-4pcs--959370)

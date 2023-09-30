@@ -170,7 +170,7 @@ Here are my notes on how the PE was applied:
 
 Adding some figures brings the deck to life.
 I'm using a set from ION Model:
-[Royal Navy - Chilling on deck | No. R700-001 | 1:700](https://www.scalemates.com/kits/ion-model-r700-001-royal-navy-chilling-on-deck-1-700--1352340)
+[Royal Navy - Chilling on deck No. R700-001 1:700](https://www.scalemates.com/kits/ion-model-r700-001-royal-navy-chilling-on-deck-1-700--1352340)
 
 They publish a useful [guide to preparing and painting](http://ionmodel.com/post_tutorials/working-with-1-700-figures-by-ramir-dura/)
 

@@ -14,7 +14,7 @@ I started the kit as a quick build to practice some weathering techniques (it is
 
 ### The Kit
 
-The [Sherman Firefly Vc Airfix | No. A02341 | 1:72](https://www.scalemates.com/kits/airfix-a02341-sherman-firefly-vc--1260489)
+The [Sherman Firefly Vc Airfix No. A02341 1:72](https://www.scalemates.com/kits/airfix-a02341-sherman-firefly-vc--1260489)
 is a nice little weekender - can be built in a few hours (depending on options chosen) and then spend as long as one likes finishing it;-)
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)

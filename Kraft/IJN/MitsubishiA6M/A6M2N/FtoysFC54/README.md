@@ -34,5 +34,5 @@ Each box includes one of 8 designs (a "mystery") -
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=159061)
-* [1/144 WORK SHOP Vol.40 Zero Fighter The Best F-Toys | No. FC-54 | 1:144](https://www.scalemates.com/kits/f-toys-fc-54-zero-fighter--1505764) EAN: 4582138607574
+* [1/144 WORK SHOP Vol.40 Zero Fighter The Best F-Toys No. FC-54 1:144](https://www.scalemates.com/kits/f-toys-fc-54-zero-fighter--1505764) EAN: 4582138607574
 * [Zero Fighter The Best](https://f-toys.net/item/zero_the_best/)
