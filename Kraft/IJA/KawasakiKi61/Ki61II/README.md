@@ -29,7 +29,6 @@ I think these will be showing up in some dioramas later..
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=159033)
-* [Wing Kit Collection 18 Ki-61-II Mystery Masterpiece Machine F-Toys No. 607468 1:144](https://www.scalemates.com/kits/f-toys-607468-wing-kit-collection-18-ki-61-ii--1504977) - scalemates
+* [Wing Kit Collection 18 Ki-61-II Mystery Masterpiece Machine F-Toys No. FC-65 1:144](https://www.scalemates.com/kits/f-toys-fc-65-wing-kit-collection-18-ki-61-ii--1504977) - scalemates
 * [F-Toys build instructions - multi-lingual](https://www.f-toys.net/kumitate/detail.html)
 * [Wing Kit Collection 18](https://f-toys.net/item/wing_kit_collection_18/) - F-Toys
-
