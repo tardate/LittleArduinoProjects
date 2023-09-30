@@ -1,4 +1,13 @@
 {
+    "/Kraft/Honda/SuperCub/": {
+        "id": 723,
+        "title": "Honda Super Cub",
+        "summary": "Building the F-Toys Honda Super Cub in 1:24",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/": {
         "id": 722,
         "title": "Mitsubishi A6M2-N",

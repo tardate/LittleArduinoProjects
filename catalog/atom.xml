@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-09-30T03:55:37Z</updated>
+  <updated>2023-09-30T04:21:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/Honda/SuperCub/</id>
+    <link href="https://leap.tardate.com/Kraft/Honda/SuperCub/"/>
+    <updated>2023-09-30T04:20:46Z</updated>
+    <title>#723 Honda Super Cub</title>
+    <summary>Building the F-Toys Honda Super Cub in 1:24</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Honda/SuperCub/assets/SuperCub_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/"/>
