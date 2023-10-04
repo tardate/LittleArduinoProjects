@@ -29,9 +29,6 @@ In action - 조벼 수확(얀마콤바인 YH6115 대경얀마처리망 부착기
 
 [![clip](https://img.youtube.com/vi/afjr7So72HY/0.jpg)](https://www.youtube.com/watch?v=afjr7So72HY)
 
-action shots?
-https://youtu.be/afjr7So72HY?t=631
-
 In action - YH6115（ヤンマーコンバイン）
 
 [![clip](https://img.youtube.com/vi/PtVQTHmUnb8/0.jpg)](https://www.youtube.com/watch?v=PtVQTHmUnb8)
@@ -58,7 +55,7 @@ Yanmar Combine AH6115 | 私の旦那の趣味。ディスプレイ専用組み�
 
 [![clip](https://img.youtube.com/vi/svoktRAxF4c/0.jpg)](https://www.youtube.com/watch?v=svoktRAxF4c)
 
-#4 ハセガワ ヤンマーコンバイン YH6115｛完成}（最終回）
+4 ハセガワ ヤンマーコンバイン YH6115｛完成}（最終回）
 
 [![clip](https://img.youtube.com/vi/oJipPUPjfPk/0.jpg)](https://www.youtube.com/watch?v=oJipPUPjfPk)
 
@@ -78,14 +75,6 @@ Yanmar Combine AH6115 | 私の旦那の趣味。ディスプレイ専用組み�
 | chains                   |                       |             | H76        |
 | interior parts           | IJN Grey (Mitsubishi) | C35         | H61        |
 |                          |                       |             |            |
-
-### Circuit Design
-
-![bb](./assets/YH6115_bb.jpg?raw=true)
-
-![schematic](./assets/YH6115_schematic.jpg?raw=true)
-
-![bb_build](./assets/YH6115_bb_build.jpg?raw=true)
 
 ### Build Log
 
