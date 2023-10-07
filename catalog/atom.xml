@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-10-04T15:29:44Z</updated>
+  <updated>2023-10-12T15:48:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi27/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi27/"/>
+    <updated>2023-10-12T15:46:27Z</updated>
+    <title>#725 Nakajima Ki-27</title>
+    <summary>Building the ICM Nakajima Ki-27a kit in 1:72 scale (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi27/assets/NakajimaKi27_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/YANMAR/YH6115/</id>
     <link href="https://leap.tardate.com/Kraft/YANMAR/YH6115/"/>
-    <updated>2023-10-04T15:29:28Z</updated>
+    <updated>2023-10-04T15:31:03Z</updated>
     <title>#724 YANMAR Rice Harvester YH6115 オートコンバイン</title>
     <summary>Building the Hasegawa 1:35 kit of the YANMAR YH6115 Rice Harvester, and spending a lot of time watching youtube videos of the machine while *planting rice* in a dio! (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/YANMAR/YH6115/assets/YH6115_build.jpg</g:image_link>
