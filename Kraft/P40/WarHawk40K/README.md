@@ -97,6 +97,8 @@ With power applied, the LEDs all strobe at different rates for a pseudo-random e
 ![build06h](./assets/build06h.jpg?raw=true)
 ![build06i](./assets/build06i.jpg?raw=true)
 
+![build07a](./assets/build07a.jpg?raw=true)
+
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=132125)
