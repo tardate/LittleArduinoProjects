@@ -8,6 +8,9 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/o3_eylHBAME/0.jpg)](https://www.youtube.com/watch?v=o3_eylHBAME)
 
+This shows alignment of the
+[LEAP#462 HX108-2 AM kit](../../../Radio/AM/HX108-2).
+
 ## Notes
 
 Transformers in AM radios are generally aligned to an intermediate frequency of 455kHz,
@@ -88,3 +91,4 @@ I used super glue to join the tubes, and the fumes appear to have attached thems
 
 * [455kHz IF Signal Generator with AM Modulation](http://electronics-alfiemalfie.blogspot.com/p/455khz-intermediate-frequency-generator.html) - source project write-up
 * [The Minispot 455kHz Modulated Oscillator](http://archive.siliconchip.com.au/cms/A_109838/article.html) - original Silicon Chip article, Jan 2008
+* [LEAP#462 HX108-2 AM kit](../../../Radio/AM/HX108-2)
