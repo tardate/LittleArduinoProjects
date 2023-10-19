@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-10-12T15:48:20Z</updated>
+  <updated>2023-10-30T12:16:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/deHavilland/Beaver/</id>
+    <link href="https://leap.tardate.com/Kraft/deHavilland/Beaver/"/>
+    <updated>2023-10-29T05:09:36Z</updated>
+    <title>#726 DHC Beaver</title>
+    <summary>Building the de Havilland Canada DHC-2 Beaver in-flight and motorized, based on the Airfix Vintage Classics kit A03017V.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/deHavilland/Beaver/assets/Beaver_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="motor"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi27/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi27/"/>
-    <updated>2023-10-12T15:46:27Z</updated>
+    <updated>2023-10-12T15:50:01Z</updated>
     <title>#725 Nakajima Ki-27</title>
     <summary>Building the ICM Nakajima Ki-27a kit in 1:72 scale (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi27/assets/NakajimaKi27_build.jpg</g:image_link>

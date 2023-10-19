@@ -1,4 +1,14 @@
 {
+    "/Kraft/deHavilland/Beaver/": {
+        "id": 726,
+        "title": "DHC Beaver",
+        "summary": "Building the de Havilland Canada DHC-2 Beaver in-flight and motorized, based on the Airfix Vintage Classics kit A03017V.",
+        "tags": [
+            "scale models",
+            "Craft",
+            "motor"
+        ]
+    },
     "/Kraft/IJA/NakajimaKi27/": {
         "id": 725,
         "title": "Nakajima Ki-27",
