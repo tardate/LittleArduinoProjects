@@ -87,6 +87,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 
 | Country          | Name                                                                     | Notes |
 |------------------|--------------------------------------------------------------------------|-------|
+| Australia        | [Callsign Models](https://www.facebook.com/CallsignModels)               | figures |
 | Australia        | [KLP](https://www.klp.com.au/)                                           | publisher of scale modelling guide books |
 | Belgium          | [PJ Production](https://www.pj-production.be/en/)                        | resin scale models and accessories |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
@@ -129,6 +130,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Hellenic Ship Model](https://hellenicshipmodel.gr/)                     | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
+| Greece           | [Mr Black Publications](https://www.mrblackpublications.com/)            | publisher/seller of modelling guides |
 | Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
 | Hong Kong        | [Hong Kong Models](https://www.hk-models.com/hkm/)                       | |
@@ -268,6 +270,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Country          | Name                                                                  | Notes |
 |------------------|-----------------------------------------------------------------------|-------|
 | Australia        | [BNA Model World](https://www.bnamodelworld.com/)                     | |
+| Australia        | [Firestorm Models](https://firestormmodels.com/)                      | very good range of figures, decals and accessories|
 | Bulgaria         | [Modelsvit Balkans](https://modelsvit-eshop.com/)                     | A&A Models, Modelsvit, SOVA-M, Art Model |
 | China/aliexpress | [Colorfulday Store](https://www.aliexpress.com/store/4691061)         | great range of models, often good deals |
 | China/aliexpress | [JZ Hobby Store](https://www.aliexpress.com/store/4683015)            | good range of kits, often good deals |
