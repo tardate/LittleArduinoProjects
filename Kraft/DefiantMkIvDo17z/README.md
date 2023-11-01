@@ -10,6 +10,11 @@ Aces High! A Boulton Paul Defiant Mk.I bringing down a Dornier Do-17z 'flying pe
 
 The [Boulton Paul Defiant](https://en.wikipedia.org/wiki/Boulton_Paul_Defiant) is a British interceptor that served with RAF during World War II.
 
+On 26 August 1940, 264 Squadron engaged a formation of 12 Dornier Do 17 bombers over north-eastern Kent.
+Three Defiants were lost but six Do 17s and a Bf 109 were shot down - more on [wikipedia](https://en.wikipedia.org/wiki/Boulton_Paul_Defiant#Air_combat).
+
+This diorama captures part of the action..
+
 #### Some Resources - Boulton Paul Defiant
 
 Boulton Paul Defiant - The Unlucky Turret Fighter | Aircraft History #4 - Rex's Hangar
