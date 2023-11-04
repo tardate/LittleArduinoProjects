@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-10-30T12:16:32Z</updated>
+  <updated>2023-11-05T13:06:09Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/"/>
+    <updated>2023-11-05T13:02:26Z</updated>
+    <title>#727 Nakajima Ki43-II</title>
+    <summary>Nakajima Ki-43 Hayabusa (隼), doing what peregrine falcons do best. the Hasegawa 1:72 kit paired with a Pit-Road B-17, pictures somewhere over New Guinea in 1943.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/assets/NakajimaKi43-II_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/deHavilland/Beaver/</id>
     <link href="https://leap.tardate.com/Kraft/deHavilland/Beaver/"/>
-    <updated>2023-10-29T05:09:36Z</updated>
+    <updated>2023-10-30T12:17:28Z</updated>
     <title>#726 DHC Beaver</title>
     <summary>Building the de Havilland Canada DHC-2 Beaver in-flight and motorized, based on the Airfix Vintage Classics kit A03017V.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/deHavilland/Beaver/assets/Beaver_build.jpg</g:image_link>
