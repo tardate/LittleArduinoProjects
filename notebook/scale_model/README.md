@@ -218,7 +218,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Ukraine          | [ICM](https://icm.com.ua/)                                               | |
 | Ukraine          | [Laser Model Graver](https://lmg.in.ua/)                                 | jigs and fixtures |
 | Ukraine          | [lemkits](http://lemkits.com/)                                           | resin kits |
-| Ukraine          | [Mars Models](http://www.marsmodels.eu/)                                 | |
+| Ukraine          | [Mars Figures](http://www.marsfigures.com/)                              | Figures |
+| Ukraine          | [Mars Models](http://www.marsmodels.eu/)                                 | Aftermarket, Kits, Tools |
 | Ukraine          | [MasterBox](http://www.mbltd.info/)                                      | figures, vehicles |
 | Ukraine          | [Metallic Details](http://metdetails.com/)                               | PE, resin |
 | Ukraine          | [Mikro Mir](http://mikro-mir.com)                                        | rare custom-made military equipment |
