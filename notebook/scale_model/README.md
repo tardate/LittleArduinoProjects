@@ -90,6 +90,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Australia        | [Callsign Models](https://www.facebook.com/CallsignModels)               | figures |
 | Australia        | [KLP](https://www.klp.com.au/)                                           | publisher of scale modelling guide books |
 | Belgium          | [PJ Production](https://www.pj-production.be/en/)                        | resin scale models and accessories |
+| Canada           | [Kit Masx](https://kitmasx.com/)                                         | masks |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
 | China            | [dspiae](https://www.dspiae.com/)                                        | tools |
 | China            | [Five Star Model 烟台飞仕达模型有限公司](http://www.fstarmodel.com/)        | resin kits, figures, detail and upgrade sets |
