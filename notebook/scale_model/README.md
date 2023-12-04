@@ -154,6 +154,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Pit-road](https://pit-road.jp/)                                         | |
 | Japan            | [Rokuhan](https://www.rokuhan.com/)                                      | Manufacturing and sales of model railroad items in Z scale |
 | Japan            | [Tamiya](https://www.tamiya.com/english/e-home.htm)                      |  |
+| Japan            | [Woody Joe](https://www.woodyjoe.com/)                                   | wooden kits of Japanese subjects including temples, pagodas, ships |
 | Japan            | [ZOUKEI-MURA](https://www.zoukeimura.co.jp/en/)                          | |
 | Latvia & Ukraine | [North Star Models](https://northstarmodels.com/)                        | |
 | New Zealand      | [Kotare Models](https://www.kotare-models.com/)                          | From the ashes of Wingnut Wings, expecting K32001 Kotare 1/32 Spitfire Mk.Ia (Mid) |
