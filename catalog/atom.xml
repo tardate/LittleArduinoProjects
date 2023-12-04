@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-11-05T13:06:09Z</updated>
+  <updated>2023-12-04T16:04:18Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/RAF/Hurricane/MkI/</id>
+    <link href="https://leap.tardate.com/Kraft/RAF/Hurricane/MkI/"/>
+    <updated>2023-12-04T16:04:02Z</updated>
+    <title>#728 Hurricane MkI</title>
+    <summary>No. 501 Squadron RAF over Dover in August 1940. Despicted with the Arma Hobby 1:72 kit and a Pit-Road 1:700 wingmen. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RAF/Hurricane/MkI/assets/MkI_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/"/>
-    <updated>2023-11-05T13:02:26Z</updated>
+    <updated>2023-11-05T13:06:34Z</updated>
     <title>#727 Nakajima Ki43-II</title>
     <summary>Nakajima Ki-43 Hayabusa (隼), doing what peregrine falcons do best. the Hasegawa 1:72 kit paired with a Pit-Road B-17, pictures somewhere over New Guinea in 1943.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/assets/NakajimaKi43-II_build.jpg</g:image_link>
