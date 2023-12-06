@@ -87,10 +87,10 @@ Final gallery:
 
 Some better(?) shots:
 
-![build06a](./assets/build06a.jpg)
-![build06b](./assets/build06b.jpg)
-![build06c](./assets/build06c.jpg)
-![build06d](./assets/build06d.jpg)
+![build06a](./assets/build06a-tidied.jpg)
+![build06b](./assets/build06b-tidied.jpg)
+![build06c](./assets/build06c-tidied.jpg)
+![build06d](./assets/build06d-tidied.jpg)
 
 ## Credits and References
 
