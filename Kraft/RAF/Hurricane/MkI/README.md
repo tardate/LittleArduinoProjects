@@ -1,6 +1,6 @@
 # #728 Hurricane MkI
 
-No. 501 Squadron RAF over Dover in August 1940. Despicted with the Arma Hobby 1:72 kit and a Pit-Road 1:700 wingmen. No electronics in this one.
+No. 501 Squadron RAF over Dover in August 1940. Depicted with the Arma Hobby 1:72 kit and a Pit-Road 1:700 wingmen. No electronics in this one.
 
 ![Build](./assets/MkI_build.jpg?raw=true)
 
@@ -54,6 +54,43 @@ References:
 ![build01c](./assets/build01c.jpg?raw=true)
 ![build01d](./assets/build01d.jpg?raw=true)
 ![build01e](./assets/build01e.jpg?raw=true)
+
+![build02a](./assets/build02a.jpg)
+![build02b](./assets/build02b.jpg)
+![build02c](./assets/build02c.jpg)
+![build02d](./assets/build02d.jpg)
+![build02e](./assets/build02e.jpg)
+![build02f](./assets/build02f.jpg)
+
+![build03a](./assets/build03a.jpg)
+![build03b](./assets/build03b.jpg)
+![build03c](./assets/build03c.jpg)
+![build03d](./assets/build03d.jpg)
+![build03e](./assets/build03e.jpg)
+
+![build04a](./assets/build04a.jpg)
+
+Final gallery:
+
+![build05a](./assets/build05a.jpg)
+![build05b](./assets/build05b.jpg)
+![build05c](./assets/build05c.jpg)
+![build05d](./assets/build05d.jpg)
+![build05e](./assets/build05e.jpg)
+![build05f](./assets/build05f.jpg)
+![build05g](./assets/build05g.jpg)
+![build05h](./assets/build05h.jpg)
+![build05i](./assets/build05i.jpg)
+![build05j](./assets/build05j.jpg)
+![build05k](./assets/build05k.jpg)
+![build05l](./assets/build05l.jpg)
+
+Some better(?) shots:
+
+![build06a](./assets/build06a.jpg)
+![build06b](./assets/build06b.jpg)
+![build06c](./assets/build06c.jpg)
+![build06d](./assets/build06d.jpg)
 
 ## Credits and References
 
