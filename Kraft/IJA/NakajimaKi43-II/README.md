@@ -13,17 +13,17 @@ Kamikaze or Miscalculation - Mid-air Collision between Hayabusa and Flying Fortr
 
 ### Paint Scheme
 
-| Feature                                          | Color                   | Recommended | Paint Used |
-|--------------------------------------------------|-------------------------|-------------|------------|
-| interior                                         | Nakajima Interior Green | H70 90% H80 10%  | C127           |
-| cowling interior, instrument panels and fittings | matt black              | H12            |            |
-| prop shaft, pito tube                            |                         | H8            |            |
-| engine                                           |                         | H18            |            |
-| exhaust                                          |                         | H76            |            |
-| propeller                                        |                         | H47             |            |
-| upper cabin                                      |                         | H12 60% : H5 40%             |            |
-| fuselage base color                              |                         | H8            |            |
-| fuselage camo                                    | IJA Green               | H60            |            |
+| Feature                                          | Color                   | Recommended      | Paint Used |
+|--------------------------------------------------|-------------------------|------------------|------------|
+| interior                                         | Nakajima Interior Green | H70 90% H80 10%  | C127       |
+| cowling interior, instrument panels and fittings | matt black              | H12              |            |
+| prop shaft, pito tube                            |                         | H8               |            |
+| engine                                           |                         | H18              |            |
+| exhaust                                          |                         | H76              |            |
+| propeller                                        |                         | H47              |            |
+| upper cabin                                      |                         | H12 60% : H5 40% |            |
+| fuselage base color                              |                         | H8               |            |
+| fuselage camo                                    | IJA Green               | H60              |            |
 
 ### Paint Scheme - Figures
 
@@ -34,10 +34,10 @@ Kamikaze or Miscalculation - Mid-air Collision between Hayabusa and Flying Fortr
 | goggle frames                                   | Silver                   | C8/H8       |            |
 | goggle frames (alt)                             | Copper                   | C10/H10     |            |
 | goggle straps                                   | Sandy Brown              | C19/H66     |            |
-| webbing/life jacket                             | Dark Earth               | C22/H72     | 70.921 English Uniform           |
+| webbing/life jacket                             | Dark Earth               | C22/H72     | 70.921 English Uniform |
 |                                                 | Flat Base                | C30/H40     |            |
 | helmet                                          | Red Brown                | C41/H47     |            |
-|                                                 | Mahogany                 | C42/H84     | 70.846 Mahogany Brown           |
+|                                                 | Mahogany                 | C42/H84     | 70.846 Mahogany Brown |
 | helmet inner                                    | Tan                      | C44/H27     |            |
 |                                                 | Flesh                    | C51/H44     |            |
 | scarf                                           | Flat White               | C62/H11     |            |
