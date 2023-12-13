@@ -1,4 +1,13 @@
 {
+    "/Kraft/IJA/KawasakiKi10/": {
+        "id": 729,
+        "title": "Kawasaki Ki-10",
+        "summary": "Building the ICM Kawasaki Ki-10. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/RAF/Hurricane/MkI/": {
         "id": 728,
         "title": "Hurricane MkI",
