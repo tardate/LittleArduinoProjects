@@ -16,7 +16,7 @@ Will I make them all? Perhaps! For now, I've started with the Australian destroy
 
 [Force Z](https://en.wikipedia.org/wiki/Force_Z) sailed from Singapore at 1710 on 8 December 1941 after receiving word of a Japanese convoy bound for Malaya.
 It consisted of
-the battleship [HMS Prince of Wales](<https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53>),
+the battleship [HMS Prince of Wales](https://en.wikipedia.org/wiki/HMS_Prince_of_Wales_(53)),
 battlecruiser [HMS Repulse](https://en.wikipedia.org/wiki/HMS_Repulse_(1916)),
 with destroyer escorts
 [HMS Electra](https://en.wikipedia.org/wiki/HMS_Electra_(H27)),

@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-16T11:38:07Z</updated>
+  <updated>2023-12-19T10:40:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/ForceZ/ElectraAndExpress/</id>
+    <link href="https://leap.tardate.com/Kraft/ForceZ/ElectraAndExpress/"/>
+    <updated>2023-12-19T10:40:48Z</updated>
+    <title>#730 Electra And Express To the Rescue</title>
+    <summary>HMS Electra (H27) and HMS Express (H61) race to protect HMS Prince of Wales and HMS Repulse as a wave of G3M Nell torpedo bombers press their attack on 10 December 1941. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/ForceZ/ElectraAndExpress/assets/ElectraAndExpress_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi10/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi10/"/>
-    <updated>2023-12-16T11:37:55Z</updated>
+    <updated>2023-12-16T11:45:04Z</updated>
     <title>#729 Kawasaki Ki-10</title>
     <summary>Building the ICM Kawasaki Ki-10. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi10/assets/KawasakiKi10_build.jpg</g:image_link>

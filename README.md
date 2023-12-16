@@ -1,4 +1,4 @@
-# 729  Little Electronic Art Projects
+# 730  Little Electronic Art Projects
 
 > Latest addition:sparkles: [HIDF Twin Otter Recon/SpecOps](./Kraft/HIDF/TwinOtter) - DHC-6 Twin Otter from Revell (04901 in 1:72), as seen commandeered by HIDF Gendarmerie and pressed into service as a reconnaissance and special ops platform. For the Micro Machines Podcast HIDF GB.
 
