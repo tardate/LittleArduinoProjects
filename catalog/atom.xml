@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-13T16:26:07Z</updated>
+  <updated>2023-12-16T11:38:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi10/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi10/"/>
-    <updated>2023-12-11T13:25:29Z</updated>
+    <updated>2023-12-16T11:37:55Z</updated>
     <title>#729 Kawasaki Ki-10</title>
     <summary>Building the ICM Kawasaki Ki-10. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi10/assets/KawasakiKi10_build.jpg</g:image_link>
