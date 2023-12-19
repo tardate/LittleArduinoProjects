@@ -54,5 +54,5 @@ Nice build of the Fine Molds kit:
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=157297)
-* [Ki-10-II Japan Army Biplane Fighter ICM | No. 72311 | 1:72](https://www.scalemates.com/kits/icm-72311-ki-10-ii--644092)
+* [Ki-10-II Japan Army Biplane Fighter ICM No. 72311 1:72](https://www.scalemates.com/kits/icm-72311-ki-10-ii--644092)
 * [Kawasaki Ki-10](https://en.wikipedia.org/wiki/Kawasaki_Ki-10) - wikipedia
