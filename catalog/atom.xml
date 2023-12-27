@@ -5,12 +5,21 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-27T08:02:54Z</updated>
+  <updated>2023-12-27T08:26:32Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Equipment/Optivisor/</id>
+    <link href="https://leap.tardate.com/Equipment/Optivisor/"/>
+    <updated>2023-12-27T08:26:21Z</updated>
+    <title>#734 Optivisor</title>
+    <summary>Trying a new Optivisor for close-up work</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/Optivisor/assets/Optivisor_build.jpg</g:image_link>
+    <category term="Tools"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/DigitalOvenThermometer/</id>
     <link href="https://leap.tardate.com/Equipment/DigitalOvenThermometer/"/>

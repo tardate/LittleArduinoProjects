@@ -1,4 +1,12 @@
 {
+    "/Equipment/Optivisor/": {
+        "id": 734,
+        "title": "Optivisor",
+        "summary": "Trying a new Optivisor for close-up work",
+        "tags": [
+            "Tools"
+        ]
+    },
     "/Equipment/DigitalOvenThermometer/": {
         "id": 733,
         "title": "TS-BN55 Digital Oven Thermometer",
