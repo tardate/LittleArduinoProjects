@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-25T16:31:16Z</updated>
+  <updated>2023-12-27T01:59:52Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/LED/FlickerKit/</id>
+    <link href="https://leap.tardate.com/Electronics101/LED/FlickerKit/"/>
+    <updated>2023-12-27T01:58:16Z</updated>
+    <title>#732 LED Flicker Kit</title>
+    <summary>A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/LED/FlickerKit/assets/FlickerKit_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/CaudronRenault/CR714/</id>
     <link href="https://leap.tardate.com/Kraft/CaudronRenault/CR714/"/>
-    <updated>2023-12-25T16:29:50Z</updated>
+    <updated>2023-12-25T16:31:43Z</updated>
     <title>#731 CR.714</title>
     <summary>Building the DoraWings Caudron-Renault CR.714 with a little Christmas Spirit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/CaudronRenault/CR714/assets/CR714_build.jpg</g:image_link>

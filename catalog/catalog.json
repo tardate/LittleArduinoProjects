@@ -1,5 +1,12 @@
 [
     {
+        "id": "#732",
+        "name": "LED Flicker Kit",
+        "description": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",
+        "categories": "Arduino, AVR, LED",
+        "relative_path": "Electronics101/LED/FlickerKit"
+    },
+    {
         "id": "#731",
         "name": "CR.714",
         "description": "Building the DoraWings Caudron-Renault CR.714 with a little Christmas Spirit. No electronics in this one.",

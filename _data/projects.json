@@ -1,4 +1,14 @@
 {
+    "/Electronics101/LED/FlickerKit/": {
+        "id": 732,
+        "title": "LED Flicker Kit",
+        "summary": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "LED"
+        ]
+    },
     "/Kraft/CaudronRenault/CR714/": {
         "id": 731,
         "title": "CR.714",

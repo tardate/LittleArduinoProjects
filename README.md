@@ -1,6 +1,6 @@
-# 731  Little Electronic Art Projects
+# 732 Little Electronic Art Projects
 
-> Latest addition:sparkles: [HIDF Twin Otter Recon/SpecOps](./Kraft/HIDF/TwinOtter) - DHC-6 Twin Otter from Revell (04901 in 1:72), as seen commandeered by HIDF Gendarmerie and pressed into service as a reconnaissance and special ops platform. For the Micro Machines Podcast HIDF GB.
+> Latest addition:sparkles: [LED Flicker Kit](./Electronics101/LED/FlickerKit) - a flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
