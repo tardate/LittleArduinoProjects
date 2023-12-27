@@ -5,16 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-27T01:59:52Z</updated>
+  <updated>2023-12-27T08:02:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Equipment/DigitalOvenThermometer/</id>
+    <link href="https://leap.tardate.com/Equipment/DigitalOvenThermometer/"/>
+    <updated>2023-12-27T08:02:08Z</updated>
+    <title>#733 TS-BN55 Digital Oven Thermometer</title>
+    <summary>Examining and fixing the TS-BN55 Digital Oven Thermometer</summary>
+    <g:image_link>https://leap.tardate.com/Equipment/DigitalOvenThermometer/assets/DigitalOvenThermometer_build.jpg</g:image_link>
+    <category term="Tools"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/LED/FlickerKit/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/FlickerKit/"/>
-    <updated>2023-12-27T01:58:16Z</updated>
+    <updated>2023-12-27T02:01:32Z</updated>
     <title>#732 LED Flicker Kit</title>
     <summary>A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/FlickerKit/assets/FlickerKit_build.jpg</g:image_link>

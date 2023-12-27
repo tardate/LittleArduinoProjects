@@ -1,4 +1,12 @@
 {
+    "/Equipment/DigitalOvenThermometer/": {
+        "id": 733,
+        "title": "TS-BN55 Digital Oven Thermometer",
+        "summary": "Examining and fixing the TS-BN55 Digital Oven Thermometer",
+        "tags": [
+            "Tools"
+        ]
+    },
     "/Electronics101/LED/FlickerKit/": {
         "id": 732,
         "title": "LED Flicker Kit",

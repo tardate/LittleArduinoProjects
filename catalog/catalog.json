@@ -1,5 +1,12 @@
 [
     {
+        "id": "#733",
+        "name": "TS-BN55 Digital Oven Thermometer",
+        "description": "Examining and fixing the TS-BN55 Digital Oven Thermometer",
+        "categories": "Tools",
+        "relative_path": "Equipment/DigitalOvenThermometer"
+    },
+    {
         "id": "#732",
         "name": "LED Flicker Kit",
         "description": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",

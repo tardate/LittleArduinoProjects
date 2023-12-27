@@ -1,6 +1,6 @@
-# 732 Little Electronic Art Projects
+# 733 Little Electronic Art Projects
 
-> Latest addition:sparkles: [LED Flicker Kit](./Electronics101/LED/FlickerKit) - a flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays.
+> Latest addition:sparkles: [TS-BN55 Digital Oven Thermometer](./Equipment/DigitalOvenThermometer) - examining and fixing the TS-BN55 Digital Oven Thermometer
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
