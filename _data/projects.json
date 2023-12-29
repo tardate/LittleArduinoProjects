@@ -1,4 +1,16 @@
 {
+    "/playground/AppleSilicon/CH340/": {
+        "id": 736,
+        "title": "CH340 on Apple Silicon",
+        "summary": "Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Apple",
+            "macOS",
+            "USB"
+        ]
+    },
     "/playground/AppleSilicon/": {
         "id": 735,
         "title": "Arduino on Apple Silicon",

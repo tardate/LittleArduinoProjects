@@ -1,6 +1,6 @@
-# 735 Little Electronic Art Projects
+# 736 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Arduino on Apple Silicon](./playground/AppleSilicon) - Using the Arduino IDE with Apple Silicon (ARM) machines.
+> Latest addition:sparkles: [CH340 on Apple Silicon](./playground/AppleSilicon/CH340) - Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

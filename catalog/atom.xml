@@ -5,12 +5,25 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-29T09:18:56Z</updated>
+  <updated>2023-12-29T10:43:14Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/AppleSilicon/CH340/</id>
+    <link href="https://leap.tardate.com/playground/AppleSilicon/CH340/"/>
+    <updated>2023-12-29T10:41:17Z</updated>
+    <title>#736 CH340 on Apple Silicon</title>
+    <summary>Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon</summary>
+    <g:image_link>https://leap.tardate.com/playground/AppleSilicon/CH340/assets/CH340_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="Apple"/>
+    <category term="macOS"/>
+    <category term="USB"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/AppleSilicon/</id>
     <link href="https://leap.tardate.com/playground/AppleSilicon/"/>

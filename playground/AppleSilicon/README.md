@@ -58,7 +58,7 @@ I plugged in an Arduino Uno R3 (using a USB-C to USB-A adapter) and it was recog
 
 I was also able to program an Arduino Mega 2560.
 
-However I've run into an issue with Arduino Nano and also my collection of USB to serial adapters that use the CH340G chip. It is not recognised natively and so I'll need an updated driver. I will leave that for another day..
+However I've run into an issue with Arduino Nano and also my collection of USB to serial adapters that use the CH340G chip. It is not recognised natively and so I'll need an updated driver.... and yes, I can now confirm I got it working; see [AppleSilicon/CH340](./CH340) for details.
 
 ## Credits and References
 
