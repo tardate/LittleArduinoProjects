@@ -1,4 +1,4 @@
-# 734 Little Electronic Art Projects
+# 735 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Arduino on Apple Silicon](./playground/AppleSilicon) - Using the Arduino IDE with Apple Silicon (ARM) machines.
 

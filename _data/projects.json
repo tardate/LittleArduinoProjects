@@ -1,6 +1,6 @@
 {
     "/playground/AppleSilicon/": {
-        "id": 734,
+        "id": 735,
         "title": "Arduino on Apple Silicon",
         "summary": "Using the Arduino IDE with Apple Silicon (ARM) machines",
         "tags": [
