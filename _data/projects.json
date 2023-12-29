@@ -1,4 +1,15 @@
 {
+    "/playground/AppleSilicon/": {
+        "id": 734,
+        "title": "Arduino on Apple Silicon",
+        "summary": "Using the Arduino IDE with Apple Silicon (ARM) machines",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Apple",
+            "macOS"
+        ]
+    },
     "/Equipment/Optivisor/": {
         "id": 734,
         "title": "Optivisor",

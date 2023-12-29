@@ -1,0 +1,7 @@
+{
+    "id": "#734",
+    "name": "Arduino on Apple Silicon",
+    "description": "Using the Arduino IDE with Apple Silicon (ARM) machines",
+    "categories": "Arduino, AVR, Apple, macOS",
+    "relative_path": "playground/AppleSilicon"
+}

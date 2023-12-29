@@ -5,12 +5,24 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-27T08:26:32Z</updated>
+  <updated>2023-12-29T09:16:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/AppleSilicon/</id>
+    <link href="https://leap.tardate.com/playground/AppleSilicon/"/>
+    <updated>2023-12-29T09:12:51Z</updated>
+    <title>#734 Arduino on Apple Silicon</title>
+    <summary>Using the Arduino IDE with Apple Silicon (ARM) machines</summary>
+    <g:image_link>https://leap.tardate.com/playground/AppleSilicon/assets/AppleSilicon_build.jpg</g:image_link>
+    <category term="Arduino"/>
+    <category term="AVR"/>
+    <category term="Apple"/>
+    <category term="macOS"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Equipment/Optivisor/</id>
     <link href="https://leap.tardate.com/Equipment/Optivisor/"/>

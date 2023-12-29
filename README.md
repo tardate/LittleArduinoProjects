@@ -1,6 +1,6 @@
-# 733 Little Electronic Art Projects
+# 734 Little Electronic Art Projects
 
-> Latest addition:sparkles: [TS-BN55 Digital Oven Thermometer](./Equipment/DigitalOvenThermometer) - examining and fixing the TS-BN55 Digital Oven Thermometer
+> Latest addition:sparkles: [Arduino on Apple Silicon](./playground/AppleSilicon) - Using the Arduino IDE with Apple Silicon (ARM) machines.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
