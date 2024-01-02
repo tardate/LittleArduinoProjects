@@ -21,11 +21,14 @@ I am testing with a version of the Arduino Nano that uses the CH340G chip.
 
 ### Obtaining Drivers
 
-Current drivers are available from
-[keyestudio](https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System):
+Current drivers are available for Mac, Windows and Linux.
+[Mac download here](https://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html).
+
+The download includes:
 
 * CH34xVCPDriver.pkg - I think for use with OS X 10.9 to OS X 10.15
 * CH34xVCPDriver.dmg - for use in later macOS version (this is the driver I am using)
+* CH34X_DRV_INSTAL_INSTRUCTIONS.pdf - installation instructions
 
 ### Driver Installation
 
@@ -62,7 +65,10 @@ Programming the Nano with the [AppleSilicon.ino](../AppleSilicon.ino) sketch wor
 
 ## Credits and References
 
-* [Download CH340 Driver on MAC System](https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System)
 * [USBSerialDriverKit CH340g Not Appearing in /dev](https://forums.developer.apple.com/forums/thread/675685)
 * [南京沁恒微电子股份有限公司 (Nanjing Qinheng Microelectronics Co., Ltd.)](https://www.wch.cn/)
+* [WCH (Nanjing Qinheng Microelectronics Co., Ltd.)](https://www.wch-ic.com/) - English site
+* [WCH Downloads](https://www.wch-ic.com/downloads/category/30.html)
+* [CH34x drivers](https://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html)
+* [Download CH340 Driver on MAC System](https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System) - mirror by keyestudio 
 * [FTDI](https://ftdichip.com/)
