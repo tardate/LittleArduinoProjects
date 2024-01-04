@@ -76,6 +76,8 @@ exclude:
   - Gemfile.lock
   - bin
   - wip
+  - venv
+  - "*/venv/*"  
   - libraries
   - OSHChip/venv
   - OSHChip/GccToolchain/gcc-arm-none-eabi-5_3-2016q1
