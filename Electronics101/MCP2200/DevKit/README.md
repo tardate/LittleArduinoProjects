@@ -87,7 +87,6 @@ Connections:
 
 ![DevKit_bb](./assets/DevKit_bb.jpg?raw=true)
 
-
 In the screenshot here, I'm watching:
 
 * the serial output direct from the Arduino on the Arduino IDE Console (attached to `/dev/cu.usbmodem14531`)
@@ -96,7 +95,6 @@ In the screenshot here, I'm watching:
 As you can see, no trouble at all:
 
 ![serial_chatter](./assets/serial_chatter.png?raw=true)
-
 
 ### Configuration over the HID Interface
 

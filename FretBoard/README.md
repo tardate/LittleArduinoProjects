@@ -16,8 +16,6 @@ Done:
 * the physical build - housing this in a suitable case for display
 * wrap up the doco
 
-
-
 ## Notes
 
 ### The Build Status Web Response
@@ -30,7 +28,7 @@ repository for an example of a proxy that can handle Circle CI JSON API and Crui
 
 The response looks like this:
 
-```
+```bash
 $ curl -i -0 --raw http://fretboard.tardate.com/status.csv
 
 HTTP/1.1 200 OK
@@ -58,13 +56,11 @@ Each line of the CSV response includes three elements:
 * build activity (CheckingModifications,Building,Sleeping,Unknown)
 * build status (Success,Unknown,Failure)
 
-
 A couple of features make this easy to deal with:
 
 * HTTP 1.0 means the Arduino doesn't need to deal with chunked-encoding.
 * The CSV format is easy to parse either natively from EthernetClient or with the assistance of a library like [TextFinder](https://github.com/tardate/TextFinder)
 * project build status are provided in alphabetical order, hence the Arduino doesn't need to worry about ordering of results
-
 
 ### Parsing the Web Request
 
@@ -86,7 +82,6 @@ There is lots of advice on how to do this
 [e.g. here](http://www.reddit.com/r/arduino/comments/2fcr6c/powering_arduino_with_5v_supply/)
  - along with strong caveats since the 5V pin bypasses the onboard regulator, and it is essential to ensure no other power source is simulatneously provided to the Arduino.
 However, the 5V adapter I am using is regulated, and under test it has worked fine to power the Arduino and LED array together.
-
 
 ## Construction
 

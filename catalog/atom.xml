@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2023-12-29T10:43:14Z</updated>
+  <updated>2024-01-21T05:42:40Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/NTP/NtpClientDemo/</id>
+    <link href="https://leap.tardate.com/playground/NTP/NtpClientDemo/"/>
+    <updated>2024-01-21T05:41:25Z</updated>
+    <title>#737 NTP Client Demo</title>
+    <summary>Simple demonstration of NTP client requests using an Arduino Ethernet Shield</summary>
+    <g:image_link>https://leap.tardate.com/playground/NTP/NtpClientDemo/assets/NtpClientDemo_build.jpg</g:image_link>
+    <category term="Ethernet"/>
+    <category term="Arduino"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/AppleSilicon/CH340/</id>
     <link href="https://leap.tardate.com/playground/AppleSilicon/CH340/"/>

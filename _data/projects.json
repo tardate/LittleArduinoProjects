@@ -1,4 +1,13 @@
 {
+    "/playground/NTP/NtpClientDemo/": {
+        "id": 737,
+        "title": "NTP Client Demo",
+        "summary": "Simple demonstration of NTP client requests using an Arduino Ethernet Shield",
+        "tags": [
+            "Ethernet",
+            "Arduino"
+        ]
+    },
     "/playground/AppleSilicon/CH340/": {
         "id": 736,
         "title": "CH340 on Apple Silicon",

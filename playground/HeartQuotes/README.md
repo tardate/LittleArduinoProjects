@@ -4,7 +4,6 @@ Press a button to snaffle a random quote from [Heart Quotes](http://www.iheartqu
 
 ![The Build](./assets/HeartQuotes_build.jpg?raw=true)
 
-
 ## Notes
 
 This currently just dumps the web response from the HeartQuotes API to the console and LCD panel.
@@ -21,8 +20,8 @@ From [Digital Pins](http://arduino.cc/en/Tutorial/DigitalPins):
     quote: The days of good English has went.
     disconnecting.
 
-
 ### Sample raw response from iheartquotes.com
+
 This gets parsed down into just the actual "quote" part:
 
     $ curl -0 -i --raw "http://iheartquotes.com/api/v1/random?max_lines=1&show_permalink=0&show_source=0&format=text"
@@ -41,9 +40,7 @@ This gets parsed down into just the actual "quote" part:
 
     http://iheartquotes.com/fortune/show/37996
 
-
 ![Console Output](./assets/HeartQuotes_console.jpg?raw=true)
-
 
 ## Construction
 
@@ -60,7 +57,6 @@ This gets parsed down into just the actual "quote" part:
 * Breadboard
 * [4 Pin DIP PCB Momentary Push Button Tactile Switch](http://www.amazon.com/gp/product/B008MLKJ3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008MLKJ3C&linkCode=as2&tag=itsaprli-20&linkId=6UORZDXT6S7AZRZ7)
 * 16x2 LCD (I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
-
 
 ## Credits and References
 

@@ -130,3 +130,6 @@
 [submodule "libraries/Arduino-IRremote"]
 	path = libraries/Arduino-IRremote
 	url = https://github.com/Arduino-IRremote/Arduino-IRremote
+[submodule "libraries/NtpServer"]
+	path = libraries/NtpServer
+	url = https://github.com/mgi2212/NtpServer

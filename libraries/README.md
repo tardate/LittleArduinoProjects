@@ -26,6 +26,7 @@ Some projects require additional libraries. For example:
 * [LRThreeDigits](https://github.com/LuckyResistor/LRThreeDigits) - Boldport 3x7 driver by LuckyResistor
 * [MFRC522](https://github.com/miguelbalboa/rfid) - MFRC522 RFID library by miguelbalboa
 * [NewPing](https://github.com/tardate/arduino-new-ping) original source is in bitbucket: [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home)
+* [NtpServer](https://github.com/mgi2212/NtpServer) - NtpServer implementation
 * [OneWire](https://github.com/PaulStoffregen/OneWire) - 1-wire compatible components
 * [PCM](https://github.com/damellis/PCM) - Playback of short audio samples.
 * [PrecisionServo](https://github.com/ElizabethTeaches/PrecisionServo) - cloned here, as the repo is not setup correctly to be imported directly as a module
@@ -60,7 +61,6 @@ If you clone this repo, also update the submodules:
 To pull submodule updates later on:
 
     $ git submodule foreach git pull
-
 
 ## Pull updates for a specific library
 

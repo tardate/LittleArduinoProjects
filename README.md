@@ -1,6 +1,6 @@
-# 736 Little Electronic Art Projects
+# 737 Little Electronic Art Projects
 
-> Latest addition:sparkles: [CH340 on Apple Silicon](./playground/AppleSilicon/CH340) - Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon.
+> Latest addition:sparkles: [NTP Client Demo](./playground/NTP/NtpClientDemo) - Simple demonstration of NTP client requests using an Arduino Ethernet Shield
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),
