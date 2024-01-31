@@ -1,6 +1,6 @@
-# 739 Little Electronic Art Projects
+# 740 Little Electronic Art Projects
 
-> Latest addition:sparkles: [NTP Client Demo](./playground/NTP/NtpClientDemo) - Simple demonstration of NTP client requests using an Arduino Ethernet Shield
+> Latest addition:sparkles: [Digital Clock Kit](./Electronics101/DigitalLogic/DigitalClockKit) - Build a CMOS digital logic clock kit and understand the operating principles of the circuit.
 
 Just my collection of projects, many involving electronics or an Arduino in one way or another.
 Some are full builds (like [The FretBoard](./FretBoard)),

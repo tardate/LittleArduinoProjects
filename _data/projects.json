@@ -1,4 +1,13 @@
 {
+    "/Electronics101/DigitalLogic/DigitalClockKit/": {
+        "id": 740,
+        "title": "Digital Clock Kit",
+        "summary": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
     "/Kraft/RAF/Bristol/Bulldog/": {
         "id": 739,
         "title": "Bristol Bulldog",

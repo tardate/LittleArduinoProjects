@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-02-08T14:17:07Z</updated>
+  <updated>2024-02-12T03:02:58Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/</id>
+    <link href="https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/"/>
+    <updated>2024-02-12T03:02:40Z</updated>
+    <title>#740 Digital Clock Kit</title>
+    <summary>Build a CMOS digital logic clock kit and understand the operating principles of the circuit.</summary>
+    <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/assets/DigitalClockKit_build.jpg</g:image_link>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/</id>
     <link href="https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/"/>
-    <updated>2024-02-08T14:09:45Z</updated>
+    <updated>2024-02-11T07:16:02Z</updated>
     <title>#739 Bristol Bulldog</title>
     <summary>The Bristol Bulldog is an RAF classic from the inter-war period. Although this Airfix Vintage Classic 2019 boxing was tooled way back in 1969, it is still a very buildable kit of a very beautiful plane.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/assets/Bulldog_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Tone/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Tone/"/>
-    <updated>2024-02-02T13:31:59Z</updated>
+    <updated>2024-02-11T07:16:02Z</updated>
     <title>#738 IJN Heavy Cruiser Tone 利根</title>
     <summary>On 23 January 1942, the IJN Heavy Cruiser Tone 利根 attacked Buka Island with its float planes. A diorama featuring the Aoshima 1:700 kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/Tone/assets/Tone_build.jpg</g:image_link>

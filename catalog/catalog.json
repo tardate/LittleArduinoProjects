@@ -1,5 +1,12 @@
 [
     {
+        "id": "#740",
+        "name": "Digital Clock Kit",
+        "description": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",
+        "categories": "Digital Logic, CMOS/TTL",
+        "relative_path": "Electronics101/DigitalLogic/DigitalClockKit"
+    },
+    {
         "id": "#739",
         "name": "Bristol Bulldog",
         "description": "The Bristol Bulldog is an RAF classic from the inter-war period. Although this Airfix Vintage Classic 2019 boxing was tooled way back in 1969, it is still a very buildable kit of a very beautiful plane.",
