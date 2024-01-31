@@ -93,9 +93,10 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Canada           | [Kit Masx](https://kitmasx.com/)                                         | masks |
 | China            | [Border Models](https://www.bordermodel.com/)                            | |
 | China            | [dspiae](https://www.dspiae.com/)                                        | tools |
-| China            | [Five Star Model 烟台飞仕达模型有限公司](http://www.fstarmodel.com/)        | resin kits, figures, detail and upgrade sets |
+| China            | [Five Star Model 烟台飞仕达模型有限公司](http://www.fstarmodel.com/)         | resin kits, figures, detail and upgrade sets |
 | China            | [Flyhawk model](http://www.flyhawkmodel.com/html/Flyhawkmodel/)          | Detail and upgrade sets |
 | China            | [HobbyBoss](http://www.hobbyboss.com/index.php?l=en)                     | |
+| China            | [Rainbow Model](http://www.rainbowmodel.com/)                            | PE detail and upgrade sets |
 | China            | [Rye Field Model (RFM)](http://www.ryefield-model.com/)                  | |
 | China            | [shipyardworks](http://www.shipyardworks.com/?l=en)]                     | Detail and upgrade sets for ships, afv |
 | China            | [Vespid Models](https://www.facebook.com/vespidmodels)                   | awesome 1:72 armour |
@@ -108,8 +109,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czechia          | [AZ model](https://www.azmodel.cz/)                                      | |
 | Czechia          | [Black Dog](https://blackdog.cz/)                                        | resin kits, figures|
 | Czechia          | [Brengun](http://www.brengun.cz/)                                        | photoetch and resin parts and kits |
-| Czechia          | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focis on rasin kits and accessories |
-| Czechia          | [Eduard](https://www.eduard.com/)                                        | plastic kitsm resin, photoetch, 3D |
+| Czechia          | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focus on resin kits and accessories |
+| Czechia          | [Eduard](https://www.eduard.com/)                                        | plastic kits resin, photoetch, 3D |
 | Czechia          | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | limited edition plastic kits |
 | Czechia          | [Hauler](http://www.hauler.cz/)                                          | photoetch and resin parts and kits |
 | Czechia          | [HPH Models](http://www.hphmodels.cz/)                                   | limited edition vacuum kits, mainly civil aircraft |
@@ -139,7 +140,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Italy            | [astromodel](https://www.astromodel.it/)                                 | LifeColor |
 | Italy            | [Italeri](https://www.italeri.com/)                                      | |
 | Japan            | [Aerobase](https://www.aerobase.jp/)                                     | metal frame aircraft model kits |
-| Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)            |  |
+| Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)             |  |
 | Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 | now part of Microace |
 | Japan            | [Aurora Model](https://aurora-model.jp/)                                 | miniatures, figures |
 | Japan            | [Bandai](https://p-bandai.com/)                                          |  |
