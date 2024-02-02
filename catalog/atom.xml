@@ -5,16 +5,27 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-01-21T05:42:40Z</updated>
+  <updated>2024-02-02T13:32:41Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJN/Tone/</id>
+    <link href="https://leap.tardate.com/Kraft/IJN/Tone/"/>
+    <updated>2024-02-02T13:31:59Z</updated>
+    <title>#738 IJN Heavy Cruiser Tone 利根</title>
+    <summary>On 23 January 1942, the IJN Heavy Cruiser Tone 利根 attacked Buka Island with its float planes. A diorama featuring the Aoshima 1:700 kit.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJN/Tone/assets/Tone_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="IJN"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/NTP/NtpClientDemo/</id>
     <link href="https://leap.tardate.com/playground/NTP/NtpClientDemo/"/>
-    <updated>2024-01-21T05:41:25Z</updated>
+    <updated>2024-01-21T05:43:11Z</updated>
     <title>#737 NTP Client Demo</title>
     <summary>Simple demonstration of NTP client requests using an Arduino Ethernet Shield</summary>
     <g:image_link>https://leap.tardate.com/playground/NTP/NtpClientDemo/assets/NtpClientDemo_build.jpg</g:image_link>

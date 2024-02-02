@@ -1,4 +1,14 @@
 {
+    "/Kraft/IJN/Tone/": {
+        "id": 738,
+        "title": "IJN Heavy Cruiser Tone \u5229\u6839",
+        "summary": "On 23 January 1942, the IJN Heavy Cruiser Tone \u5229\u6839 attacked Buka Island with its float planes. A diorama featuring the Aoshima 1:700 kit.",
+        "tags": [
+            "scale models",
+            "Craft",
+            "IJN"
+        ]
+    },
     "/playground/NTP/NtpClientDemo/": {
         "id": 737,
         "title": "NTP Client Demo",
