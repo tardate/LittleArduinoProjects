@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-02-02T13:32:41Z</updated>
+  <updated>2024-02-08T14:17:07Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/</id>
+    <link href="https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/"/>
+    <updated>2024-02-08T14:09:45Z</updated>
+    <title>#739 Bristol Bulldog</title>
+    <summary>The Bristol Bulldog is an RAF classic from the inter-war period. Although this Airfix Vintage Classic 2019 boxing was tooled way back in 1969, it is still a very buildable kit of a very beautiful plane.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/assets/Bulldog_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Tone/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Tone/"/>
