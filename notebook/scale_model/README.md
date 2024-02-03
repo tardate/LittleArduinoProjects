@@ -75,8 +75,11 @@ See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 * [scalemodellingnow.com](https://www.scalemodellingnow.com/)
 * [spruepiewithfrets](https://spruepiewithfrets.wordpress.com/)
 * [Super Glue Not Drying (Quick Guide)](https://glueschool.com/super-glue-not-drying/)
+* [The Gallery of Japanese Wartime Merchantships](http://ww6.enjoy.ne.jp/~iwashige/) - Motoyuki Iwashige
 * [themodellingnews.com](https://www.themodellingnews.com/)
 * [track-link.com](https://www.track-link.com/)
+* [タイタニックのエンジン](http://ww3.tiki.ne.jp/~awata-a/) - Translator Toru Awata's web page based on the translated book "The Story of a Luxury Cruise Ship Speed Competition"
+* [世界の海軍史 - 近代海軍の発達と海戦](http://ww3.tiki.ne.jp/~awata-a/naval_warfare/sekainokaigunshi_contents.htm) - Translator Toru Awata's page for the translated book "Naval history of the world - Development of modern navies and naval warfare"
 
 ## Manufacturers
 
