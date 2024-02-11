@@ -123,6 +123,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czechia          | [R & P Models](https://randpmodels.jex.cz/)                              | paper kits |
 | Czechia          | [Special Hobby](https://www.specialhobby.eu/)                            | |
 | Czechia          | [Valom](https://www.valom.net/)                                          | |
+| France           | [Dynamo Models](https://www.dynamo-models.com/en/)                       | resin miniatures |
 | France           | [Heller](https://www.heller.fr/)                                         | |
 | France           | [L'Arsenal](http://www.larsenal.com/)                                    | resin kits |
 | France           | [Raging Heroes](https://www.ragingheroes.com/)                           | miniatures |
@@ -135,6 +136,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Hellenic Ship Model](https://hellenicshipmodel.gr/)                     | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
+| Greece           | [Mironious Models](https://mironious.com/)                               | resin miniatures |
 | Greece           | [Mr Black Publications](https://www.mrblackpublications.com/)            | publisher/seller of modelling guides |
 | Hong Kong        | [CGD](https://www.combatgroupdynamix.com/) Combat Group Dynamix          | 1:144 3D printed armour, figures and accessories |
 | Hong Kong        | [Dragon Models Limited](http://www.dragon-models.com/)                   | |
@@ -165,6 +167,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | New Zealand      | [Micro Master](https://micromaster.co.nz/)                               | 3D printed hobby parts |
 | New Zealand      | [Wingnut Wings](http://www.wingnutwings.com/ww/)                         | Defunct, mainly WWI planes in extreme detail |
 | Poland           | [Arma Hobby](https://www.armahobby.com/)                                 | |
+| Poland           | [D-Day Miniature Studio](http://www.ddayminiaturestudio.com/)            | resin miniatures |
 | Poland           | [Hataka Hobby](https://www.hataka-hobby.com/)                            | paint |
 | Poland           | [IBG](http://www.ibgmodels.com/)                                         | [webstore](http://en.ibg.com.pl/) also carries other manufacturers |
 | Poland           | [ION Model](http://ionmodel.com/)                                        | resin figures |
@@ -268,6 +271,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Round 2](https://www.round2corp.com/)                                   | scale models including die-cast, plastic, slot cars, and other hobby products |
+| USA              | [scale75](https://scale75.com/en/)                                    | miniatures and dioramas |
 | USA              | [Scenic Express](https://www.scenicexpress.com/)                         | landscaping products  |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
 | Vietnam          | [Paracel Miniatures](http://www.paracelminiatures.com/)                  | miniatures |
@@ -284,8 +288,10 @@ This is not an exhaustive list - mainly just companies with products that have c
 | China/aliexpress | [KNL HOBBY No.2 Store](https://knlhobby.aliexpress.com/store/3107041) | prices^^ |
 | China/aliexpress | [No.3 Model Store](https://www.aliexpress.com/store/1756519)          | modelling accessories|
 | China/aliexpress | [Real-toys Store](https://realtoys.aliexpress.com/store/1270215)      | good range of kits, often good deals |
-| China/taobao     | [shop291689990](https://shop291689990.world.taobao.com/index.htm)     | |
-| EU               | [SMK](https://www.scale-model-kits.com/)                              | |
+| China/taobao     | [shop291689990](https://shop291689990.world.taobao.com/index.htm)     | resin kits; closed?|
+| France           | [cults3d](https://cults3d.com/)                                       | 3D model market |
+| France           | [sketchfab](https://sketchfab.com/features/free-3d-models)            | 3D model market |
+| Germany          | [3dfindit](https://www.3dfindit.com/en/)                              | 3D model market |
 | Hong Kong        | [Hobby Easy](https://www.hobbyeasy.com/)                              | good source of kits and figures from Chinese manufacturers |
 | Japan            | [Hobby Link Japan](https://www.hlj.com/)                              | |
 | Japan            | [Leonardo ET レオナルドET](https://goo.gl/maps/HkkXsd4qUW9FxmsH7)                                                       | not as good a range as LG |
@@ -322,11 +328,19 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Spain            | [Azor modelismo](http://www.azormodelismo.com/tienda/)                | |
 | Spain            | [Bazar Matey](https://www.matey.com/)                                 | |
 | Spain            | [Model Reyna](http://www.modelreyna.com/)                             | |
-| USA              | [hobbylinc](https://www.hobbylinc.com/)                               | |
 | UK               | [Dorking Models](http://www.dorkingmodels.co.uk/)                     | |
 | UK               | [Hannants](https://www.hannants.co.uk/)                               | everything! |
 | UK               | [Inside The Armour](https://www.insidethearmour.com/)                 | |
 | UK               | [Marcle Models](http://www.marcle.co.uk/)                             | paper models |
 | UK               | [Model Shipyard](http://model-shipyard.com/gb/15-paper-models)        | paper models |
+| UK               | [myminifactory](https://www.myminifactory.com/)                       | 3D model market |
 | UK               | [PM MODELS](https://www.pmmodelsuk.com/)                              | |
 | Ukraine          | [Hobby.dn.ua](https://www.hobby.dn.ua/en/)                            | |
+| USA              | [etsy](https://www.etsy.com/sg-en/market/1_72_scale_figures)          | e.g. 1:72 scale figures  |
+| USA              | [grabcad](https://grabcad.com/library)                                | 3D model market |
+| USA              | [hobbylinc](https://www.hobbylinc.com/)                               | |
+| USA              | [pinshape](https://pinshape.com/)                                     | 3D Printing Service |
+| USA              | [shapeways](https://www.shapeways.com/)                               | 3D Printing Service |
+| USA              | [SketchUp’s 3D Warehouse](https://3dwarehouse.sketchup.com/?hl=en).   | 3D model market |
+| USA              | [thangs](https://thangs.com/)                                         | 3D model market |
+| USA              | [thingiverse](https://www.thingiverse.com/)                           | 3D model market |
