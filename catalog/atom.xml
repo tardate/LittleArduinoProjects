@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-02-12T03:02:58Z</updated>
+  <updated>2024-02-28T11:03:29Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Gloster/Gladiator/</id>
+    <link href="https://leap.tardate.com/Kraft/Gloster/Gladiator/"/>
+    <updated>2024-02-27T17:53:29Z</updated>
+    <title>#741 Gloster Gladiator</title>
+    <summary>Building the Airfix 1:72 Gloster Gladiator Mk II over St. Inglevert, Northern France, December 1939. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Gloster/Gladiator/assets/Gladiator_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/"/>
-    <updated>2024-02-12T03:02:40Z</updated>
+    <updated>2024-02-12T03:04:24Z</updated>
     <title>#740 Digital Clock Kit</title>
     <summary>Build a CMOS digital logic clock kit and understand the operating principles of the circuit.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/assets/DigitalClockKit_build.jpg</g:image_link>

@@ -1,4 +1,13 @@
 {
+    "/Kraft/Gloster/Gladiator/": {
+        "id": 741,
+        "title": "Gloster Gladiator",
+        "summary": "Building the Airfix 1:72 Gloster Gladiator Mk II over St. Inglevert, Northern France, December 1939. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Electronics101/DigitalLogic/DigitalClockKit/": {
         "id": 740,
         "title": "Digital Clock Kit",
