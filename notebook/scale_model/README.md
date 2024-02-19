@@ -133,6 +133,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Germany          | [ModellbauRay](https://modellbauray.com/)                                | 3D printed kits |
 | Germany          | [modellNatur](https://www.modellnatur.de/)                               | landscaping products  |
 | Germany          | [Noch](https://www.noch.com/)                                            | model landscaping products |
+| Germany          | [Paracel Miniatures](https://germania-figuren.eu/)                       | 3D printed figures |
+| Germany          | [peddinghaus decals](https://www.peddinghaus-decals.de/)                 | decals, figures, accessories |
 | Germany          | [Revell GmBh](https://www.revell.de/)                                    | |
 | Greece           | [Hellenic Ship Model](https://hellenicshipmodel.gr/)                     | |
 | Greece           | [Michael Kontraros Collectibles](https://www.mkontraros.com/)            | |
@@ -187,6 +189,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | South Korea      | [Valkyrie Minature](http://www.valkyrie.co.kr/)                          | 1:35 figures |
 | Spain            | [Alexandros Models](http://www.alexandrosmodels.com/)                    | figures, busts; miniatures |
 | Spain            | [Artesania Latina](https://artesanialatina.net/en/)                      | wood models - ships, aircraft  |
+| Spain            | [fcmodeltrend](https://www.fcmodeltrend.com/)                            | 3D printer figures |
 | Spain            | [greenstuffworld](https://www.greenstuffworld.com/)                      | tools, putties, materials and accessories |
 | Spain            | [Vallejo](https://acrylicosvallejo.com/en/)                              | paint |
 | Sweden           | [Bold Miniatures](https://boldminiatures.com/)                           | miniatures - resin, STL |
@@ -271,7 +274,8 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [Reaper Miniatures](https://www.reapermini.com/)                         | miniatures |
 | USA              | [Revell](https://www.revell.com/)                                        | |
 | USA              | [Round 2](https://www.round2corp.com/)                                   | scale models including die-cast, plastic, slot cars, and other hobby products |
-| USA              | [scale75](https://scale75.com/en/)                                    | miniatures and dioramas |
+| USA              | [scale75](https://scale75.com/en/)                                       | miniatures and dioramas |
+| USA              | [Scale Colors](https://scalecolors.com/wp/)                              | paint and 3D |
 | USA              | [Scenic Express](https://www.scenicexpress.com/)                         | landscaping products  |
 | USA              | [Wizkids](https://wizkids.com/unpainted/)                                | miniatures |
 | Vietnam          | [Paracel Miniatures](http://www.paracelminiatures.com/)                  | miniatures |
@@ -344,3 +348,5 @@ This is not an exhaustive list - mainly just companies with products that have c
 | USA              | [SketchUp’s 3D Warehouse](https://3dwarehouse.sketchup.com/?hl=en).   | 3D model market |
 | USA              | [thangs](https://thangs.com/)                                         | 3D model market |
 | USA              | [thingiverse](https://www.thingiverse.com/)                           | 3D model market |
+| USA              | [Squadron](https://squadron.com/)                                     |  |
+| USA              | [LionHeart Hobby](https://lionhearthobby.com/)                        |  |
