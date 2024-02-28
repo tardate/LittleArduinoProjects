@@ -5,10 +5,6 @@ No electronics in this one.
 
 ![Build](./assets/Gladiator_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 ## Notes
 
 The Gloster Gladiator is a British biplane fighter. It was used by the Royal Air Force (RAF) and the Fleet Air Arm (FAA) (as the Sea Gladiator variant) and was exported to a number of other air forces during the late 1930s.
