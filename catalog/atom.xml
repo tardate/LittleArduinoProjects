@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-02-28T11:03:29Z</updated>
+  <updated>2024-03-10T14:21:53Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/</id>
+    <link href="https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/"/>
+    <updated>2024-03-10T14:11:21Z</updated>
+    <title>#742 Morane Saulnier MS.230</title>
+    <summary>Building the Dora Wings Morane Saulnier MS.230 for the 2024 Models for Heroes 48x48 group build.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/assets/MS230_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Gloster/Gladiator/</id>
     <link href="https://leap.tardate.com/Kraft/Gloster/Gladiator/"/>
-    <updated>2024-02-27T17:53:29Z</updated>
+    <updated>2024-02-28T11:04:52Z</updated>
     <title>#741 Gloster Gladiator</title>
     <summary>Building the Airfix 1:72 Gloster Gladiator Mk II over St. Inglevert, Northern France, December 1939. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Gloster/Gladiator/assets/Gladiator_build.jpg</g:image_link>
