@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-03-10T14:21:53Z</updated>
+  <updated>2024-03-12T15:55:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/</id>
+    <link href="https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/"/>
+    <updated>2024-03-12T14:31:53Z</updated>
+    <title>#743 M.V. Southland Star</title>
+    <summary>Blue Star Lines M.V. Southland Star transiting Cook Strait in a gale</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/assets/SouthlandStar_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/</id>
     <link href="https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/"/>
-    <updated>2024-03-10T14:11:21Z</updated>
+    <updated>2024-03-10T14:22:18Z</updated>
     <title>#742 Morane Saulnier MS.230</title>
     <summary>Building the Dora Wings Morane Saulnier MS.230 for the 2024 Models for Heroes 48x48 group build.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/assets/MS230_build.jpg</g:image_link>

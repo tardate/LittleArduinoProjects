@@ -46,12 +46,20 @@ or if I should reverse the order. But according to
 
 ### Build Log
 
+the starting point..
+
 ![build01a](./assets/build01a.jpg?raw=true)
 ![build01b](./assets/build01b.jpg?raw=true)
+
+I tried detailing the cockpit purely with acrylics of a silver base with the cockpit already constructed. Was pretty efficient, but some of the paint finishes were difficulat to achieve given the space constraints
+
 ![build02a](./assets/build02a.jpg?raw=true)
 ![build02b](./assets/build02b.jpg?raw=true)
 ![build02c](./assets/build02c.jpg?raw=true)
 ![build02d](./assets/build02d.jpg?raw=true)
+
+the motor took most of a day to put together and paint
+
 ![build02e](./assets/build02e.jpg?raw=true)
 ![build03a](./assets/build03a.jpg?raw=true)
 ![build03b](./assets/build03b.jpg?raw=true)

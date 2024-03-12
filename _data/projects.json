@@ -1,4 +1,13 @@
 {
+    "/Kraft/BlueStar/SouthlandStar/": {
+        "id": 743,
+        "title": "M.V. Southland Star",
+        "summary": "Blue Star Lines M.V. Southland Star transiting Cook Strait in a gale",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/MoraneSaulnier/MS230/": {
         "id": 742,
         "title": "Morane Saulnier MS.230",
