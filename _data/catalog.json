@@ -1,5 +1,12 @@
 [
     {
+        "id": "#744",
+        "name": "Kawasaki Ki-100-I-Otsu",
+        "description": "Building the \u30ad100 from Aoshima in 1:72, mounted in flight over a watercolour scene. No electronics in this one.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/IJA/KawasakiKi100/Ki100IType5"
+    },
+    {
         "id": "#743",
         "name": "M.V. Southland Star",
         "description": "Blue Star Lines M.V. Southland Star transiting Cook Strait in a gale",

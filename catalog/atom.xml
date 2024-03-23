@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-03-12T15:55:54Z</updated>
+  <updated>2024-03-30T00:55:20Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/"/>
+    <updated>2024-03-30T00:53:06Z</updated>
+    <title>#744 Kawasaki Ki-100-I-Otsu</title>
+    <summary>Building the キ100 from Aoshima in 1:72, mounted in flight over a watercolour scene. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/assets/Ki100IType5_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/</id>
     <link href="https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/"/>

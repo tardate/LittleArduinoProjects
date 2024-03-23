@@ -67,6 +67,7 @@ See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 * [Frog Model Aircraft](https://www.frogmodelaircraft.co.uk/) - document the plastic models produced by FROG from the period of the 1950’s to 1976 as well as the Frog spawn that followed
 * [International Scale Modeller](https://intscalemodeller.com/)
 * [Large Scale Modeller](https://forum.largescalemodeller.com/)
+* [Matchbox Kits](http://www.matchboxkits.org/)
 * [Miniature scales](https://en.wikipedia.org/wiki/Miniature_model_(gaming)#Scales)
 * [modellmarine.de](http://www.modellmarine.de/)
 * [Plastic Soldier Review](http://www.plasticsoldierreview.com/)
@@ -208,7 +209,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | UK               | [Hasslefree Miniatures](https://hfminis.co.uk/)                          | miniatures     |
 | UK               | [Hornby](https://uk.hornby.com/)                                         | |
 | UK               | [Humbrol](https://uk.humbrol.com/)                                       | paint |
-| UK               | [Matchbox](https://en.wikipedia.org/wiki/Matchbox_(brand))               | bankrupt, moulds bought by Revell and others |
+| UK               | [Matchbox](https://en.wikipedia.org/wiki/Matchbox_(brand))               | bankrupt, moulds bought by Revell and others. See [Matchbox Kits](http://www.matchboxkits.org/) |
 | UK               | [Paper Shipwright](https://www.papershipwright.co.uk/)                   | paper models |
 | UK               | [Starling Models](https://starling-models.co.uk/)                        | resin kits, photoetch and accessories |
 | UK               | [Treemendus Scenics](https://www.treemendus-scenics.co.uk/home/)         | landscaping products  |
