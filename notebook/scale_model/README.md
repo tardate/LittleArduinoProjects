@@ -114,6 +114,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czechia          | [Black Dog](https://blackdog.cz/)                                        | resin kits, figures|
 | Czechia          | [Brengun](http://www.brengun.cz/)                                        | photoetch and resin parts and kits |
 | Czechia          | [Czech Master Kits (CMK)](https://www.cmkkits.com/en/)                   | Special Hobby spin-off, focus on resin kits and accessories |
+| Czechia          | [DEAD Design Models](http://www.deaddesignmodels.com/en/)                | masks |
 | Czechia          | [Eduard](https://www.eduard.com/)                                        | plastic kits resin, photoetch, 3D |
 | Czechia          | [Gavia](https://www.gavia.cz/en/index_en.htm)                            | limited edition plastic kits |
 | Czechia          | [Hauler](http://www.hauler.cz/)                                          | photoetch and resin parts and kits |
