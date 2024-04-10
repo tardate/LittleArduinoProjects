@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-10T06:17:45Z</updated>
+  <updated>2024-04-10T06:20:03Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -6273,12 +6273,12 @@
     <category term="OpAmp"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/HighFrequencyOpAmpOscillators/</id>
-    <link href="https://leap.tardate.com/Electronics101/HighFrequencyOpAmpOscillators/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/"/>
     <updated>2015-09-13T06:21:44Z</updated>
     <title>#142 High-frequency OpAmp Oscillators</title>
     <summary>how fast can you push an Op-Amp oscillator?</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/HighFrequencyOpAmpOscillators/assets/HighFrequencyOpAmpOscillators_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/assets/HighFrequencyOpAmpOscillators_build.jpg</g:image_link>
     <category term="OpAmp"/>
     <category term="Oscillators"/>
   </entry>

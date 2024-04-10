@@ -21,7 +21,7 @@ This is derived from the RC complete response formula. The initial doubling ( 2*
 The real fudge is the ln(2) factor. This really depends on the resistors used to bias the non-inverting input,
 and the upper and lower saturation voltages.
 
-Recently I've been wanting to experiement with op-amp oscillators running at higher frequencies,
+Recently I've been wanting to experiment with op-amp oscillators running at higher frequencies,
 and rudely discovered what most must already know: actual performance at higher frequencies can be a far cry from theory.
 Now I don't feel half so bad about the ln(2) approximation!
 
@@ -37,21 +37,21 @@ in this case the 741 version:
 ![Schematic](./assets/HighFrequencyOpAmpOscillators_circuitlab_schematic.png?raw=true)
 
 Some things to note:
+
 * R2, R3 and R4 set the reference voltage bias. Note that it is slightly asymmetrical, to account for the fact that these op-amps don't swing rail-to-rail.
 * C2 removes the DC-offset on the output
 * R1 and C1 set the timing of the oscillator. In the circuits built for testing, R1 is a combination of fixed and variable to allow tuning of the oscillation frequency
 * time domain simulation in CircuitLab doesn't appear to be particularly accurate either, as it appears to assume much better rail-to-rail performance than is achieved in practice
 
-
 In the following table I summarise the highest stable frequency I was able to achieve in a breadboard test of 5 chips.
 I could push some quite a bit higher, but oscillation rapidly started to become unstable and eventually dropped back off.
 
 This is not a perfect test by any means:
+
 * I don't have QA certification for any of the chips tested
 * the breadboard brings its own issues of stray capacitance and imperfect connections
 * these are all quite old op-amp designs; there are many newer chips that should drastically outperform this set
 * these are measured with a frequency counter and I don't have a scope available to inspect the waveforms. I may have made some fundamental measurement mistakes, and ended up measuring a harmonic instead of the fundamental frequency for example.
-
 
 | OpAmp   | Unity Gain | Slew Rate | Max Stable Freq | R1 at max freq | C1    |
 |---------|------------|-----------|-----------------|----------------|-------|

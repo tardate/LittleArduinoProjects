@@ -5657,7 +5657,7 @@
             "OpAmp"
         ]
     },
-    "/Electronics101/HighFrequencyOpAmpOscillators/": {
+    "/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/": {
         "id": 142,
         "title": "High-frequency OpAmp Oscillators",
         "summary": "how fast can you push an Op-Amp oscillator?",

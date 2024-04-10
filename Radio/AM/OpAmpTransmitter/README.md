@@ -15,13 +15,14 @@ This project is inspired by Afrotechmods'
 [Amplitude Modulation tutorial and AM radio transmitter circuit](https://youtu.be/3I_e7gIyfQg).
 
 The circuit has two main stages:
+
 * one op-amp is configured as a free-running square wave generator of the carrier wave
 * a second op-amp configured as a non-inverting amplifier is the mixer
 
 I've made two principal changes to the circuit presented by Afrotechmods:
 
 1. I'm using an LF347N op-amp. For some reason (dodgy parts?), I'm not able to drive the TL072 chips I have available at high enough frequency.
-See my [HighFrequencyOpAmpOscillators](../../../Electronics101/HighFrequencyOpAmpOscillators) project where I compare a few different op-amps and try to max out the oscillator with each. The LF347N does a grand job. In the demo, I'm tuned to around 1100kHz.
+See my [HighFrequencyOpAmpOscillators](../../../Electronics101/Oscillators/HighFrequencyOpAmpOscillators) project where I compare a few different op-amps and try to max out the oscillator with each. The LF347N does a grand job. In the demo, I'm tuned to around 1100kHz.
 
 2. Following suggestions [on this EE.SE question](http://electronics.stackexchange.com/questions/74351/am-modulator-mixer-circuit),
 I've modified the mixer to tap the audio input via a n-channel JFET and us this signal to modulate the carrier in a non-inverting amplifier configuration.
