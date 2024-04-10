@@ -1,13 +1,15 @@
-# #028 Power Supply - 3.3/5V MB102 Breadboard Power Supply
+# #028 MB102 3.3/5V Breadboard Power Supply
 
 Demonstrates an 3.3/5V MB102 Breadboard Power Supply, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
 
-![MB102 unit](./assets/MB102_product_image.jpg?raw=true)
+![The Build](./assets/MB102BreadboardPowerSupply_build.jpg?raw=true)
 
 ## Notes
 
 Various 3.3/5V MB102 Breadboard Power Supplies are a widely available for providing regulated 3.3V and 5V for projects on a breadboard.
 For example, a [search on aliexpress](https://www.aliexpress.com/) will find many sellers, and prices can be lower than $1USD a unit.
+
+![MB102 unit](./assets/MB102_product_image.jpg?raw=true)
 
 It has some nice features (aside from the price!):
 
@@ -21,7 +23,7 @@ The Arduino measures the voltage of each rail through voltage dividers.
 Measurement results:
 
 | Selected voltage | Vout (DMM) | Vout (Arduino) |
-|:----------------:|-----------:|---------------:|
+|=-----------------|------------|----------------|
 | 3.3V             | 3.33       | 3.31
 | 5V               | 5.00       | 4.99
 
@@ -50,11 +52,11 @@ The voltage dividers are to ensure that the Arduino never sees more than half th
 
 [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
-![The Breadboard](./assets/PowerMB102_bb.jpg?raw=true)
+![The Breadboard](./assets/MB102BreadboardPowerSupply_bb.jpg?raw=true)
 
-![The Schematic](./assets/PowerMB102_schematic.jpg?raw=true)
+![The Schematic](./assets/MB102BreadboardPowerSupply_schematic.jpg?raw=true)
 
-![The Build](./assets/PowerMB102_build.jpg?raw=true)
+![The Build](./assets/MB102BreadboardPowerSupply_build.jpg?raw=true)
 
 ## Credits and References
 

@@ -1,7 +1,0 @@
-{
-    "id": "#028", 
-    "name": "PowerMB102", 
-    "description": "demo and test a commercial 3.3/5V MB102 breadboard power supply unit", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/PowerMB102"
-}

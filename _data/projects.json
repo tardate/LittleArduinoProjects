@@ -6696,9 +6696,9 @@
             "Power"
         ]
     },
-    "/Electronics101/PowerMB102/": {
+    "/Electronics101/Power/MB102BreadboardPowerSupply/": {
         "id": 28,
-        "title": "PowerMB102",
+        "title": "MB102 3.3/5V Breadboard Power Supply",
         "summary": "demo and test a commercial 3.3/5V MB102 breadboard power supply unit",
         "tags": [
             "Power"

@@ -5020,10 +5020,10 @@
     },
     {
         "id": "#028",
-        "name": "PowerMB102",
+        "name": "MB102 3.3/5V Breadboard Power Supply",
         "description": "demo and test a commercial 3.3/5V MB102 breadboard power supply unit",
         "categories": "Power",
-        "relative_path": "Electronics101/PowerMB102"
+        "relative_path": "Electronics101/Power/MB102BreadboardPowerSupply"
     },
     {
         "id": "#027",

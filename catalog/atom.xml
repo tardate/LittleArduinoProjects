@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-10T06:10:24Z</updated>
+  <updated>2024-04-10T06:15:23Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -7426,12 +7426,12 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/PowerMB102/</id>
-    <link href="https://leap.tardate.com/Electronics101/PowerMB102/"/>
+    <id>https://leap.tardate.com/Electronics101/Power/MB102BreadboardPowerSupply/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/MB102BreadboardPowerSupply/"/>
     <updated>2015-03-15T05:44:03Z</updated>
-    <title>#028 PowerMB102</title>
+    <title>#028 MB102 3.3/5V Breadboard Power Supply</title>
     <summary>demo and test a commercial 3.3/5V MB102 breadboard power supply unit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PowerMB102/assets/PowerMB102_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/MB102BreadboardPowerSupply/assets/MB102BreadboardPowerSupply_build.jpg</g:image_link>
     <category term="Power"/>
   </entry>
   <entry>
