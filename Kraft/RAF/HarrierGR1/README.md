@@ -323,8 +323,8 @@ No prize, but at least I think I held my own amongst a truly impressive showing.
 * [Hawker Siddeley BAe Harrier](https://www.baesystems.com/en/heritage/hawker-siddeley-harrier) - baesystems
 * [LEAP#554 Jet Engine Startup Effect](../../Audio/AudioEffects/JetEngine)
 
-Some great resources I found for learning or brushing up my modeling skills:
+Some great resources I found for learning or brushing up my modelling skills:
 
 * [Quick Kits](https://www.youtube.com/user/quickkits) - Owen's YouTube channel, especially good for brush painting models
-* [Luke Towan's Boulder Creek Railroad](https://www.youtube.com/channel/UCjRkUtHQ774mTg1vrQ6uA5A) YouTube channel - tricks for modeling amazingly realistic scenery
+* [Luke Towan's Boulder Creek Railroad](https://www.youtube.com/channel/UCjRkUtHQ774mTg1vrQ6uA5A) YouTube channel - tricks for modelling amazingly realistic scenery
 * [Building an infantry diorama with lights and a twist](https://www.youtube.com/watch?v=Y5XRY_WaHYA) - SteamGeezer and Son Independent Traders; where I learned the trick of using some clear sprue as a light channel for internal LEDs

@@ -2,7 +2,7 @@
 
 * [Arduino Tech Notes](./arduino/)
 * [PCB Fabrication](./pcb_fab/)
-* [Scale Model](./scale_model/)
+* [Scale Modelling](./scale_model/)
 
 ## Electronics Online/eBooks
 
@@ -16,6 +16,27 @@
 * [Radio Hobbyist's Designbook](http://www.hanssummers.com/k6lha-design-book.html) by Hans Summers
 * [Transistors](https://learn.sparkfun.com/tutorials/transistors) - sparkfun
 * [Understanding Electronics Components](https://www.mikroe.com/ebooks/components-of-electronic-devices/introduction) - MikroElectronica Books
+
+## Electronics Podcasts
+
+Some of my favourites:
+
+* [Embedded.fm](https://embedded.fm/)
+* [Ham Radio Workbench](https://www.hamradioworkbench.com/)
+* [MacroFab Engineering Podcast](https://macrofab.com/blog/podcast/)
+* [The Amp Hour](https://theamphour.com/)
+* [Unnamed Reverse Engineering Podcast](https://unnamedre.com/)
+
+## Electronics YouTube
+
+Some of my favourites:
+
+* [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
+* [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
+* [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+* [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
+* [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
+* [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
 
 ## Design Guides
 
