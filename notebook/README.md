@@ -34,6 +34,7 @@ Some of my favourites:
 * [Afrotechmods](https://www.youtube.com/channel/UCosnWgi3eorc1klEQ8pIgJQ)
 * [Ben Eater](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
 * [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+* [IMSAIGuy](https://www.youtube.com/@IMSAIGuy)
 * [Julian Ilett](https://www.youtube.com/channel/UCmHvGf00GDuPYG9DZqQKd9A)
 * [Scullcom Hobby Electronics](https://www.youtube.com/channel/UCDqryeq1kMDSEQwltWqASrA)
 * [w2aew](https://www.youtube.com/channel/UCiqd3GLTluk2s_IBt7p_LjA)
