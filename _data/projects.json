@@ -5639,9 +5639,9 @@
             "Oscillators"
         ]
     },
-    "/Electronics101/RingOscillator/": {
+    "/Electronics101/Oscillators/RingOscillator/": {
         "id": 144,
-        "title": "RingOscillator",
+        "title": "Ring Oscillator",
         "summary": "test a ring oscillator built with a 74LS14 Inverter chip",
         "tags": [
             "CMOS/TTL",

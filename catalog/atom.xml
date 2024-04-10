@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-10T06:15:23Z</updated>
+  <updated>2024-04-10T06:17:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -6253,12 +6253,12 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/RingOscillator/</id>
-    <link href="https://leap.tardate.com/Electronics101/RingOscillator/"/>
+    <id>https://leap.tardate.com/Electronics101/Oscillators/RingOscillator/</id>
+    <link href="https://leap.tardate.com/Electronics101/Oscillators/RingOscillator/"/>
     <updated>2019-03-08T06:55:15Z</updated>
-    <title>#144 RingOscillator</title>
+    <title>#144 Ring Oscillator</title>
     <summary>test a ring oscillator built with a 74LS14 Inverter chip</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/RingOscillator/assets/RingOscillator_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/RingOscillator/assets/RingOscillator_build.jpg</g:image_link>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
   </entry>

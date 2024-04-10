@@ -1,6 +1,6 @@
-# #144 RingOscillator
+# #144 Ring Oscillator
 
-test a ring oscillator built with a 74LS14 Inverter chip
+Test a ring oscillator built with a 74LS14 Inverter chip
 
 ![The Build](./assets/RingOscillator_build.jpg?raw=true)
 
