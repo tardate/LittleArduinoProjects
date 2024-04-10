@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-10T06:06:49Z</updated>
+  <updated>2024-04-10T06:10:24Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -6054,12 +6054,12 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/Power2662Inverter/</id>
-    <link href="https://leap.tardate.com/Electronics101/Power2662Inverter/"/>
+    <id>https://leap.tardate.com/Electronics101/Power/LM2662Inverter/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/LM2662Inverter/"/>
     <updated>2015-11-25T13:55:11Z</updated>
-    <title>#165 Power2662Inverter</title>
+    <title>#165 LM2662 Inverter</title>
     <summary>test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/Power2662Inverter/assets/Power2662Inverter_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/LM2662Inverter/assets/LM2662Inverter_build.jpg</g:image_link>
     <category term="Power"/>
   </entry>
   <entry>

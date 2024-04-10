@@ -5461,9 +5461,9 @@
             "Arduino"
         ]
     },
-    "/Electronics101/Power2662Inverter/": {
+    "/Electronics101/Power/LM2662Inverter/": {
         "id": 165,
-        "title": "Power2662Inverter",
+        "title": "LM2662 Inverter",
         "summary": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter",
         "tags": [
             "Power"
