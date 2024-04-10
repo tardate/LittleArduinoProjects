@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-03-30T00:55:20Z</updated>
+  <updated>2024-04-10T06:00:10Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -14,7 +14,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/"/>
-    <updated>2024-03-30T00:53:06Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#744 Kawasaki Ki-100-I-Otsu</title>
     <summary>Building the キ100 from Aoshima in 1:72, mounted in flight over a watercolour scene. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/assets/Ki100IType5_build.jpg</g:image_link>
@@ -24,7 +24,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/</id>
     <link href="https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/"/>
-    <updated>2024-03-12T14:31:53Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#743 M.V. Southland Star</title>
     <summary>Blue Star Lines M.V. Southland Star transiting Cook Strait in a gale</summary>
     <g:image_link>https://leap.tardate.com/Kraft/BlueStar/SouthlandStar/assets/SouthlandStar_build.jpg</g:image_link>
@@ -34,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/</id>
     <link href="https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/"/>
-    <updated>2024-03-10T14:22:18Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#742 Morane Saulnier MS.230</title>
     <summary>Building the Dora Wings Morane Saulnier MS.230 for the 2024 Models for Heroes 48x48 group build.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/MoraneSaulnier/MS230/assets/MS230_build.jpg</g:image_link>
@@ -44,7 +44,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Gloster/Gladiator/</id>
     <link href="https://leap.tardate.com/Kraft/Gloster/Gladiator/"/>
-    <updated>2024-02-28T11:04:52Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#741 Gloster Gladiator</title>
     <summary>Building the Airfix 1:72 Gloster Gladiator Mk II over St. Inglevert, Northern France, December 1939. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Gloster/Gladiator/assets/Gladiator_build.jpg</g:image_link>
@@ -54,7 +54,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/</id>
     <link href="https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/"/>
-    <updated>2024-02-12T03:04:24Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#740 Digital Clock Kit</title>
     <summary>Build a CMOS digital logic clock kit and understand the operating principles of the circuit.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/DigitalLogic/DigitalClockKit/assets/DigitalClockKit_build.jpg</g:image_link>
@@ -64,7 +64,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/</id>
     <link href="https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/"/>
-    <updated>2024-02-11T07:16:02Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#739 Bristol Bulldog</title>
     <summary>The Bristol Bulldog is an RAF classic from the inter-war period. Although this Airfix Vintage Classic 2019 boxing was tooled way back in 1969, it is still a very buildable kit of a very beautiful plane.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAF/Bristol/Bulldog/assets/Bulldog_build.jpg</g:image_link>
@@ -74,7 +74,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/Tone/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/Tone/"/>
-    <updated>2024-02-11T07:16:02Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#738 IJN Heavy Cruiser Tone 利根</title>
     <summary>On 23 January 1942, the IJN Heavy Cruiser Tone 利根 attacked Buka Island with its float planes. A diorama featuring the Aoshima 1:700 kit.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/Tone/assets/Tone_build.jpg</g:image_link>
@@ -85,7 +85,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/NTP/NtpClientDemo/</id>
     <link href="https://leap.tardate.com/playground/NTP/NtpClientDemo/"/>
-    <updated>2024-01-21T05:43:11Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#737 NTP Client Demo</title>
     <summary>Simple demonstration of NTP client requests using an Arduino Ethernet Shield</summary>
     <g:image_link>https://leap.tardate.com/playground/NTP/NtpClientDemo/assets/NtpClientDemo_build.jpg</g:image_link>
@@ -95,7 +95,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/AppleSilicon/CH340/</id>
     <link href="https://leap.tardate.com/playground/AppleSilicon/CH340/"/>
-    <updated>2023-12-29T10:41:17Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#736 CH340 on Apple Silicon</title>
     <summary>Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon</summary>
     <g:image_link>https://leap.tardate.com/playground/AppleSilicon/CH340/assets/CH340_build.jpg</g:image_link>
@@ -108,7 +108,7 @@
   <entry>
     <id>https://leap.tardate.com/playground/AppleSilicon/</id>
     <link href="https://leap.tardate.com/playground/AppleSilicon/"/>
-    <updated>2023-12-29T09:12:51Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#735 Arduino on Apple Silicon</title>
     <summary>Using the Arduino IDE with Apple Silicon (ARM) machines</summary>
     <g:image_link>https://leap.tardate.com/playground/AppleSilicon/assets/AppleSilicon_build.jpg</g:image_link>
@@ -120,7 +120,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/Optivisor/</id>
     <link href="https://leap.tardate.com/Equipment/Optivisor/"/>
-    <updated>2023-12-27T08:26:21Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#734 Optivisor</title>
     <summary>Trying a new Optivisor for close-up work</summary>
     <g:image_link>https://leap.tardate.com/Equipment/Optivisor/assets/Optivisor_build.jpg</g:image_link>
@@ -129,7 +129,7 @@
   <entry>
     <id>https://leap.tardate.com/Equipment/DigitalOvenThermometer/</id>
     <link href="https://leap.tardate.com/Equipment/DigitalOvenThermometer/"/>
-    <updated>2023-12-27T08:02:08Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#733 TS-BN55 Digital Oven Thermometer</title>
     <summary>Examining and fixing the TS-BN55 Digital Oven Thermometer</summary>
     <g:image_link>https://leap.tardate.com/Equipment/DigitalOvenThermometer/assets/DigitalOvenThermometer_build.jpg</g:image_link>
@@ -138,7 +138,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/FlickerKit/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/FlickerKit/"/>
-    <updated>2023-12-27T02:01:32Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#732 LED Flicker Kit</title>
     <summary>A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/FlickerKit/assets/FlickerKit_build.jpg</g:image_link>
@@ -149,7 +149,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/CaudronRenault/CR714/</id>
     <link href="https://leap.tardate.com/Kraft/CaudronRenault/CR714/"/>
-    <updated>2023-12-25T16:31:43Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#731 CR.714</title>
     <summary>Building the DoraWings Caudron-Renault CR.714 with a little Christmas Spirit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/CaudronRenault/CR714/assets/CR714_build.jpg</g:image_link>
@@ -159,7 +159,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/ForceZ/ElectraAndExpress/</id>
     <link href="https://leap.tardate.com/Kraft/ForceZ/ElectraAndExpress/"/>
-    <updated>2023-12-19T10:41:29Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#730 Electra And Express To the Rescue</title>
     <summary>HMS Electra (H27) and HMS Express (H61) race to protect HMS Prince of Wales and HMS Repulse as a wave of G3M Nell torpedo bombers press their attack on 10 December 1941. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/ForceZ/ElectraAndExpress/assets/ElectraAndExpress_build.jpg</g:image_link>
@@ -169,7 +169,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi10/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi10/"/>
-    <updated>2023-12-16T11:45:04Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#729 Kawasaki Ki-10</title>
     <summary>Building the ICM Kawasaki Ki-10. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi10/assets/KawasakiKi10_build.jpg</g:image_link>
@@ -179,7 +179,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RAF/Hurricane/MkI/</id>
     <link href="https://leap.tardate.com/Kraft/RAF/Hurricane/MkI/"/>
-    <updated>2023-12-06T14:22:33Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#728 Hurricane MkI</title>
     <summary>No. 501 Squadron RAF over Dover in August 1940. Depicted with the Arma Hobby 1:72 kit and a Pit-Road 1:700 wingmen. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RAF/Hurricane/MkI/assets/MkI_build.jpg</g:image_link>
@@ -189,7 +189,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/"/>
-    <updated>2023-11-05T13:06:34Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#727 Nakajima Ki43-II</title>
     <summary>Nakajima Ki-43 Hayabusa (隼), doing what peregrine falcons do best. the Hasegawa 1:72 kit paired with a Pit-Road B-17, pictures somewhere over New Guinea in 1943.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi43-II/assets/NakajimaKi43-II_build.jpg</g:image_link>
@@ -199,7 +199,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/deHavilland/Beaver/</id>
     <link href="https://leap.tardate.com/Kraft/deHavilland/Beaver/"/>
-    <updated>2023-10-30T12:17:28Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#726 DHC Beaver</title>
     <summary>Building the de Havilland Canada DHC-2 Beaver in-flight and motorized, based on the Airfix Vintage Classics kit A03017V.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/deHavilland/Beaver/assets/Beaver_build.jpg</g:image_link>
@@ -210,7 +210,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/NakajimaKi27/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/NakajimaKi27/"/>
-    <updated>2023-10-12T15:50:01Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#725 Nakajima Ki-27</title>
     <summary>Building the ICM Nakajima Ki-27a kit in 1:72 scale (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/NakajimaKi27/assets/NakajimaKi27_build.jpg</g:image_link>
@@ -220,7 +220,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/YANMAR/YH6115/</id>
     <link href="https://leap.tardate.com/Kraft/YANMAR/YH6115/"/>
-    <updated>2023-10-04T15:31:03Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#724 YANMAR Rice Harvester YH6115 オートコンバイン</title>
     <summary>Building the Hasegawa 1:35 kit of the YANMAR YH6115 Rice Harvester, and spending a lot of time watching youtube videos of the machine while *planting rice* in a dio! (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/YANMAR/YH6115/assets/YH6115_build.jpg</g:image_link>
@@ -230,7 +230,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Honda/SuperCub/</id>
     <link href="https://leap.tardate.com/Kraft/Honda/SuperCub/"/>
-    <updated>2023-09-30T12:57:10Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#723 Honda Super Cub</title>
     <summary>Building the F-Toys Honda Super Cub in 1:24</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Honda/SuperCub/assets/SuperCub_build.jpg</g:image_link>
@@ -240,7 +240,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/"/>
-    <updated>2023-09-30T12:57:10Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#722 Mitsubishi A6M2-N</title>
     <summary>Building the F-Toys Mitsubishi A6M2-N from their 1/144 WORK SHOP Vol.40</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/A6M2N/FtoysFC54/assets/FtoysFC54_build.jpg</g:image_link>
@@ -250,7 +250,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/"/>
-    <updated>2023-09-30T02:46:33Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#721 Kawasaki Ki-61-II</title>
     <summary>Building the F-Toys Ki-61-II from Wing Kit Collection 18 in 1:144</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/KawasakiKi61/Ki61II/assets/Ki61II_build.jpg</g:image_link>
@@ -260,7 +260,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/HIDF/TwinOtter/</id>
     <link href="https://leap.tardate.com/Kraft/HIDF/TwinOtter/"/>
-    <updated>2023-09-20T14:52:03Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#720 HIDF Twin Otter Recon/SpecOps</title>
     <summary>DHC-6 Twin Otter from Revell (04901 in 1:72), as seen commandeered by HIDF Gendarmerie and pressed into service as a reconnaissance and special ops platform. For the Micro Machines Podcast HIDF GB.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/HIDF/TwinOtter/assets/TwinOtter_build.jpg</g:image_link>
@@ -274,7 +274,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/Dimmer/VCO/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/Dimmer/VCO/"/>
-    <updated>2023-09-15T12:24:48Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#719 Voltage Controlled LED Dimmer</title>
     <summary>Demonstrating a voltage-controlled LED current source with a triangle wave generator.</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/Dimmer/VCO/assets/VCO_build.jpg</g:image_link>
@@ -284,7 +284,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/DefiantMkIvDo17z/</id>
     <link href="https://leap.tardate.com/Kraft/DefiantMkIvDo17z/"/>
-    <updated>2023-08-22T14:44:46Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#718 Defiant v Do-17z</title>
     <summary>Aces High! A Boulton Paul Defiant Mk.I bringing down a Dornier Do-17z 'flying pencil', built with the Airfix 1:72 kits from 2014. No electronics.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/DefiantMkIvDo17z/assets/DefiantMkIvDo17z_build.jpg</g:image_link>
@@ -294,7 +294,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Ukraine/Fencer/</id>
     <link href="https://leap.tardate.com/Kraft/Ukraine/Fencer/"/>
-    <updated>2023-08-20T14:07:31Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#717 Ukrainian Su-24M Fencer</title>
     <summary>Building the Armory 1:144 representation of the Ukrainian Su-24M Fencer. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Ukraine/Fencer/assets/Fencer_build.jpg</g:image_link>
@@ -304,7 +304,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MilitaryTransports/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MilitaryTransports/"/>
-    <updated>2023-08-16T15:16:16Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#716 IJN Military Transports</title>
     <summary>Building the No.1 and No.101 landing ships 輸送艦 from the Tamiya Military Transport set. No electronics or base for this - saving for a future diorama.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MilitaryTransports/assets/MilitaryTransports_build.jpg</g:image_link>
@@ -316,7 +316,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/</id>
     <link href="https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/"/>
-    <updated>2023-08-08T14:10:51Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#715 Snowy Finds a Ride</title>
     <summary>My Hergé fanfic for the @justmakingconversation Great Tarp Build featuring the Dora Wings Percival Proctor &amp; Vega Gull in 1:72 (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/TarpChallenge/SnowyFindsARide/assets/SnowyFindsARide_build.jpg</g:image_link>
@@ -326,7 +326,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Ukraine/USV/</id>
     <link href="https://leap.tardate.com/Kraft/Ukraine/USV/"/>
-    <updated>2023-08-07T00:52:53Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#714 Ukraine's Maritime Drone (USV)</title>
     <summary>Building the MikroMir 1:35 kit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Ukraine/USV/assets/USV_build.jpg</g:image_link>
@@ -336,7 +336,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/Dauphin2/</id>
     <link href="https://leap.tardate.com/Kraft/Dauphin2/"/>
-    <updated>2023-08-07T00:52:51Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#713 Aérospatiale SA365N Dauphin 2</title>
     <summary>Building the Aérospatiale SA365N Dauphin 2 as used by the Tokyo Metropolitan Police Department. Trumpeter 1:48 kit, no electronics.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Dauphin2/assets/Dauphin2_build.jpg</g:image_link>
@@ -346,7 +346,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/"/>
-    <updated>2023-08-07T00:52:52Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#712 IJA Type 89 I-Go Otsu Medium Tank</title>
     <summary>Building the IBG Models 1:72 representation of the IJA Type 89 I-Go Otsu Medium Tank. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/Type89IGoOtsu/assets/Type89IGoOtsu_build.jpg</g:image_link>
@@ -356,7 +356,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/JSDF/F-4EJ/</id>
     <link href="https://leap.tardate.com/Kraft/JSDF/F-4EJ/"/>
-    <updated>2023-08-07T00:52:52Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#711 F-4EJ Last Phantom</title>
     <summary>Building the 2019 commemorative scheme of the JASDF F-4EJ Kai Phantom II - a beautiful little Platz 1:144 kit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/JSDF/F-4EJ/assets/F-4EJ_build.jpg</g:image_link>
@@ -366,7 +366,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/RaceToJitra/</id>
     <link href="https://leap.tardate.com/Kraft/RaceToJitra/"/>
-    <updated>2023-08-07T00:52:53Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#710 Race To Jitra</title>
     <summary>Building a double-sided box diorama in mixed scales to capture the rapid advance of Japanese forces during the Invasion of Malaya. The Battle of Jitra was one of many engagements where the advancing force overwhelmed the under-prepared defenders on the peninsula.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/RaceToJitra/assets/RaceToJitra_build.jpg</g:image_link>
@@ -377,7 +377,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/Type95HaGo/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/Type95HaGo/"/>
-    <updated>2023-08-07T00:52:52Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#709 IJA Type 95 Ha-Go Light Tank</title>
     <summary>Building the IBG Models 1:72 representation of the IJA Type 95 Ha-Gō ハ号 Light Tank. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/Type95HaGo/assets/Type95HaGo_build.jpg</g:image_link>
@@ -387,7 +387,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/PLA/T34-85/</id>
     <link href="https://leap.tardate.com/Kraft/PLA/T34-85/"/>
-    <updated>2023-08-07T00:52:52Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#708 The Legendary T-34/85 215号</title>
     <summary>Capturing the legendary T-34/85 215号 in action, using the Rye Field Model kit RM-5059 in 1:35 and some great resin figures from YUFAN Model. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLA/T34-85/assets/T34-85_build.jpg</g:image_link>
@@ -397,7 +397,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/BayraktarTB2/</id>
     <link href="https://leap.tardate.com/Kraft/BayraktarTB2/"/>
-    <updated>2023-08-07T00:52:51Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#707 Bayraktar TB2</title>
     <summary>Building the Clear Prop! 1:48 representation of the now iconic Bayraktar TB2 as used by the Armed Forces of Ukraine</summary>
     <g:image_link>https://leap.tardate.com/Kraft/BayraktarTB2/assets/BayraktarTB2_build.jpg</g:image_link>
@@ -439,7 +439,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/Sweet14110/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/Sweet14110/"/>
-    <updated>2023-05-02T14:10:54Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#703 Mitsubishi A6M Zero on the Zuikaku</title>
     <summary>Building the amazing little Sweet 1:144 kit of the Zero with Flight Deck</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/MitsubishiA6M/Sweet14110/assets/Sweet14110_build.jpg</g:image_link>
@@ -771,7 +771,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/MitsubishiKi46/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/MitsubishiKi46/"/>
-    <updated>2023-05-02T14:10:53Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#671 Mitsubishi Ki-46 Trainer</title>
     <summary>Building a SG$5 bargain ARII 1:72 kit of the Mitsubishi Ki-46-II Dinah Trainer (no electronics)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/MitsubishiKi46/assets/MitsubishiKi46_build.jpg</g:image_link>
@@ -1037,7 +1037,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/TachikawaKi55/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/TachikawaKi55/"/>
-    <updated>2023-05-02T14:10:53Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#645 Tachikawa Ki-55</title>
     <summary>Building a SG$5 bargain Fujimi 1:72 kit of the Tachikawa Ki-55 Type 99 Advanced Trainer (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/TachikawaKi55/assets/TachikawaKi55_build.jpg</g:image_link>
@@ -1534,7 +1534,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJN/KawanishiK5Y1/</id>
     <link href="https://leap.tardate.com/Kraft/IJN/KawanishiK5Y1/"/>
-    <updated>2023-05-02T14:10:53Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#599 Kawanishi K5Y1 Tensegrity Stand</title>
     <summary>Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJN/KawanishiK5Y1/assets/KawanishiK5Y1_build.jpg</g:image_link>
@@ -1772,7 +1772,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/YataiRamenDoorbell/</id>
     <link href="https://leap.tardate.com/Kraft/YataiRamenDoorbell/"/>
-    <updated>2023-09-11T11:31:52Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#577 屋台ラーメン The Yatai Ramen Doorbell</title>
     <summary>A wireless doorbell based on an Arii (Microace) Yatai Ramen model with added lights and sound</summary>
     <g:image_link>https://leap.tardate.com/Kraft/YataiRamenDoorbell/assets/YataiRamenDoorbell_build.jpg</g:image_link>
@@ -5367,7 +5367,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/Dimmer/555PWM/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/Dimmer/555PWM/"/>
-    <updated>2023-09-15T12:24:48Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#232 555 PWM LED Dimmer</title>
     <summary>test a PWM LED dimmer circuit using a 555 timer</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/Dimmer/555PWM/assets/555PWM_build.jpg</g:image_link>
@@ -5378,7 +5378,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/Dimmer/CurrentRegulator/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/Dimmer/CurrentRegulator/"/>
-    <updated>2023-09-15T12:24:48Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#231 LED Current Regulator</title>
     <summary>test a current-regulator style LED dimmer circuit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/Dimmer/CurrentRegulator/assets/CurrentRegulator_build.jpg</g:image_link>
@@ -5450,7 +5450,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/LED/LEDStrobeKit/</id>
     <link href="https://leap.tardate.com/Electronics101/LED/LEDStrobeKit/"/>
-    <updated>2023-09-15T12:24:48Z</updated>
+    <updated>2024-04-10T03:27:55Z</updated>
     <title>#224 LED Strobe Kit</title>
     <summary>build and analyse a common LED strobe kit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/LED/LEDStrobeKit/assets/LEDStrobeKit_build.jpg</g:image_link>
@@ -6777,12 +6777,12 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/Power317CC/</id>
-    <link href="https://leap.tardate.com/Electronics101/Power317CC/"/>
+    <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317CC/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317CC/"/>
     <updated>2015-06-09T17:18:46Z</updated>
-    <title>#092 Power317CC</title>
+    <title>#092 LM317 Constant Current Power Supply</title>
     <summary>test a constant current power supply built with the LM317</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/Power317CC/assets/Power317CC_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317CC/assets/LM317CC_build.jpg</g:image_link>
     <category term="Power"/>
   </entry>
   <entry>

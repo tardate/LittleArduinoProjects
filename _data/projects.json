@@ -6111,9 +6111,9 @@
             "Power"
         ]
     },
-    "/Electronics101/Power317CC/": {
+    "/Electronics101/Power/LinearRegulators/LM317CC/": {
         "id": 92,
-        "title": "Power317CC",
+        "title": "LM317 Constant Current Power Supply",
         "summary": "test a constant current power supply built with the LM317",
         "tags": [
             "Power"

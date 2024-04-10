@@ -4572,10 +4572,10 @@
     },
     {
         "id": "#092",
-        "name": "Power317CC",
+        "name": "LM317 Constant Current Power Supply",
         "description": "test a constant current power supply built with the LM317",
         "categories": "Power",
-        "relative_path": "Electronics101/Power317CC"
+        "relative_path": "Electronics101/Power/LinearRegulators/LM317CC"
     },
     {
         "id": "#091",
