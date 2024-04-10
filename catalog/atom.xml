@@ -5,7 +5,7 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-10T06:00:10Z</updated>
+  <updated>2024-04-10T06:06:49Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -5878,12 +5878,12 @@
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Electronics101/PowerSupply317Kit/</id>
-    <link href="https://leap.tardate.com/Electronics101/PowerSupply317Kit/"/>
+    <id>https://leap.tardate.com/Electronics101/Power/PowerSupply317Kit/</id>
+    <link href="https://leap.tardate.com/Electronics101/Power/PowerSupply317Kit/"/>
     <updated>2016-02-07T02:35:30Z</updated>
-    <title>#182 PowerSupply317Kit</title>
+    <title>#182 LM317 Variable Power Supply Kit</title>
     <summary>build and test a mains-powered 1.25V-12V DC LM317 power supply kit</summary>
-    <g:image_link>https://leap.tardate.com/Electronics101/PowerSupply317Kit/assets/PowerSupply317Kit_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Electronics101/Power/PowerSupply317Kit/assets/PowerSupply317Kit_build.jpg</g:image_link>
     <category term="Power"/>
   </entry>
   <entry>

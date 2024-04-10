@@ -5302,9 +5302,9 @@
             "CMOS/TTL"
         ]
     },
-    "/Electronics101/PowerSupply317Kit/": {
+    "/Electronics101/Power/PowerSupply317Kit/": {
         "id": 182,
-        "title": "PowerSupply317Kit",
+        "title": "LM317 Variable Power Supply Kit",
         "summary": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit",
         "tags": [
             "Power"

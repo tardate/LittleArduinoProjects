@@ -1,7 +1,0 @@
-{
-    "id": "#182", 
-    "name": "PowerSupply317Kit", 
-    "description": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/PowerSupply317Kit"
-}
