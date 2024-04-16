@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-10T06:20:03Z</updated>
+  <updated>2024-04-18T14:26:11Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki45Burma/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki45Burma/"/>
+    <updated>2024-04-18T11:16:15Z</updated>
+    <title>#745 キ51 over Burma 1942</title>
+    <summary>Building the ClearProp Ki-51 Sonia 1:144 with a motorized prop and a camo scheme as used in Burma 1942</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki45Burma/assets/Ki45Burma_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/KawasakiKi100/Ki100IType5/"/>
@@ -5880,7 +5890,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/PowerSupply317Kit/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/PowerSupply317Kit/"/>
-    <updated>2016-02-07T02:35:30Z</updated>
+    <updated>2024-04-10T06:30:53Z</updated>
     <title>#182 LM317 Variable Power Supply Kit</title>
     <summary>build and test a mains-powered 1.25V-12V DC LM317 power supply kit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/PowerSupply317Kit/assets/PowerSupply317Kit_build.jpg</g:image_link>
@@ -6056,7 +6066,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LM2662Inverter/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LM2662Inverter/"/>
-    <updated>2015-11-25T13:55:11Z</updated>
+    <updated>2024-04-10T06:30:53Z</updated>
     <title>#165 LM2662 Inverter</title>
     <summary>test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LM2662Inverter/assets/LM2662Inverter_build.jpg</g:image_link>
@@ -6255,7 +6265,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/RingOscillator/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/RingOscillator/"/>
-    <updated>2019-03-08T06:55:15Z</updated>
+    <updated>2024-04-10T06:30:53Z</updated>
     <title>#144 Ring Oscillator</title>
     <summary>test a ring oscillator built with a 74LS14 Inverter chip</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/RingOscillator/assets/RingOscillator_build.jpg</g:image_link>
@@ -6275,7 +6285,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/</id>
     <link href="https://leap.tardate.com/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/"/>
-    <updated>2015-09-13T06:21:44Z</updated>
+    <updated>2024-04-10T06:30:53Z</updated>
     <title>#142 High-frequency OpAmp Oscillators</title>
     <summary>how fast can you push an Op-Amp oscillator?</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Oscillators/HighFrequencyOpAmpOscillators/assets/HighFrequencyOpAmpOscillators_build.jpg</g:image_link>
@@ -6779,7 +6789,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317CC/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317CC/"/>
-    <updated>2015-06-09T17:18:46Z</updated>
+    <updated>2024-04-10T06:30:53Z</updated>
     <title>#092 LM317 Constant Current Power Supply</title>
     <summary>test a constant current power supply built with the LM317</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/LinearRegulators/LM317CC/assets/LM317CC_build.jpg</g:image_link>
@@ -7428,7 +7438,7 @@
   <entry>
     <id>https://leap.tardate.com/Electronics101/Power/MB102BreadboardPowerSupply/</id>
     <link href="https://leap.tardate.com/Electronics101/Power/MB102BreadboardPowerSupply/"/>
-    <updated>2015-03-15T05:44:03Z</updated>
+    <updated>2024-04-10T06:30:53Z</updated>
     <title>#028 MB102 3.3/5V Breadboard Power Supply</title>
     <summary>demo and test a commercial 3.3/5V MB102 breadboard power supply unit</summary>
     <g:image_link>https://leap.tardate.com/Electronics101/Power/MB102BreadboardPowerSupply/assets/MB102BreadboardPowerSupply_build.jpg</g:image_link>
