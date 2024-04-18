@@ -2,7 +2,7 @@
 
 Building the ClearProp Ki-51 Sonia 1:144 with a motorized prop and a camo scheme as used in Burma 1942.
 
-![Build](./assets/Ki45Burma_build.jpg?raw=true)
+![Build](./assets/Ki51Burma_build.jpg?raw=true)
 
 Here's a quick demo..
 
@@ -50,9 +50,9 @@ Clear Prop Ki-51 Sonia 1:144 Build by Jamie Haggo
 
 A very simple circuit - just a micro-motor powered by a CR2032 3V coin cell battery.
 
-![bb](./assets/Ki45Burma_bb.jpg?raw=true)
+![bb](./assets/Ki51Burma_bb.jpg?raw=true)
 
-![schematic](./assets/Ki45Burma_schematic.jpg?raw=true)
+![schematic](./assets/Ki51Burma_schematic.jpg?raw=true)
 
 ### Build Log
 
