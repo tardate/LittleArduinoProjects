@@ -6,7 +6,7 @@ Building the ClearProp Ki-51 Sonia 1:144 with a motorized prop and a camo scheme
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/i48T5ShH0ek/0.jpg)](https://www.youtube.com/watch?v=i48T5ShH0ek)
 
 ## Notes
 
