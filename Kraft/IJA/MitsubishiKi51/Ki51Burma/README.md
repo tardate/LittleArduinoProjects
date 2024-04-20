@@ -62,6 +62,7 @@ A very simple circuit - just a micro-motor powered by a CR2032 3V coin cell batt
 ![build01d](./assets/build01d.jpg?raw=true)
 ![build01e](./assets/build01e.jpg?raw=true)
 ![build01f](./assets/build01f.jpg?raw=true)
+![build01g](./assets/build01g.jpg?raw=true)
 ![build02a](./assets/build02a.jpg?raw=true)
 ![build02b](./assets/build02b.jpg?raw=true)
 ![build03a](./assets/build03a.jpg?raw=true)
