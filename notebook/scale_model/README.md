@@ -52,10 +52,12 @@ See also [Model Podcasts](http://modelpodcasts.com/) curated list.
 * [Scale-a-ton](https://www.youtube.com/c/Scaleaton)
 * [Sprues'n'Brews](https://www.youtube.com/c/SpruesBrews)
 * [Studio Blue Ocean](https://www.youtube.com/channel/UCR5WWv1Q-tI2mLRF6zsPeRw)
+* [The Interesting Modelling Co.](https://www.youtube.com/@TheInterestingModellingCo)
 * [The Model Shed](https://www.youtube.com/channel/UCfkPhaBJc0F6h5F1FzAM32Q)
+* [The Scale Modelling Cafe with Jamie Haggo](https://www.youtube.com/@thescalemodellingcafe)
 * [Tiny Worlds Dioramas Models](https://www.youtube.com/c/TinyWorldsDioramasModels)
 * [WILDER](https://www.youtube.com/c/WILDER)
-* [will pattison](https://www.youtube.com/user/barpfoto)
+* [Will Pattison](https://www.youtube.com/user/barpfoto)
 
 ## Information Sites/Forums
 
@@ -152,10 +154,12 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Aoshima 株式会社 青島文化教材社](https://www.aoshima-bk.co.jp/)             |  |
 | Japan            | [Arii](https://esm.fandom.com/wiki/Arii)                                 | now part of Microace |
 | Japan            | [Aurora Model](https://aurora-model.jp/)                                 | miniatures, figures |
+| Japan            | [Baiodo Hobby Shop 梅桜堂](https://www.baiodo.com/)                       | paper kits, mainly for railway |
 | Japan            | [Bandai](https://p-bandai.com/)                                          |  |
 | Japan            | [Fine molds](https://www.finemolds.co.jp/)                               |  |
 | Japan            | [Fujimi](https://www.fujimimokei.com/)                                   |  |
 | Japan            | [Good Smile Company](https://www.goodsmile.info/)                        | figures |
+| Japan            | [Green Max](https://www.greenmax.co.jp/)                                 | railway models and kits |
 | Japan            | [Hasegawa](http://www.hasegawa-model.co.jp/gsite/)                       |  |
 | Japan            | [KAIYODO](https://kaiyodo.co.jp/)                                        | figures |
 | Japan            | [kotobukiya](https://www.kotobukiya.co.jp/)                              | figures |
@@ -304,6 +308,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Leonardo LG レオナルドLG](https://goo.gl/maps/GyN7PMrpkHRUaREU9)                                                       | range bit more diverse than LG2 but not so much my interests. Good prices, but sometimes premium for old stock. |
 | Japan            | [Leonardo LG2 レオナルドLG ２号店](https://goo.gl/maps/7ajGEkACaNDxaYfq9)                                                | fantastic range of planes, ships in all scales. |
 | Japan            | [Plaza Japan](https://www.plazajapan.com/)                            | great source at good prices for all the main Japanese brands - incl Aoshima, Fine Molds, Fujimi, Hasegawa, Tamiya  |
+| Japan            | [Sakatsu Global](https://sakatsuglobal.com/)                          | miniatures/diorama accessories online store esp for railways |
 | Japan            | [Surugaya Akihabara Plastic model Hall 駿河屋 秋葉原プラモデル館](https://goo.gl/maps/8XbFWjgic6UBCLZk6)                  | gunpla and misc models and tools |
 | Japan            | [TAMIYA Plamodel Factory Shimbashi タミヤ プラモデルファクトリー 新橋店](https://goo.gl/maps/cS8ZMSZtWfaxNUMz8)            | must-see, but prices are premium/undiscounted of course, also cannot duty free |
 | Japan            | [Tamtam Hobby Shop ホビーショップ タムタム 秋葉原店](https://goo.gl/maps/CuQQnq8TeJ9kJhqDA)                                | good rail section |
