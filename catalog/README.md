@@ -9,7 +9,7 @@ Catalog data is loaded from [catalog.json](./catalog.json), which is consolidate
 The [make.py](./make.py) utility script is used to maintain the catalog:
 
 ```
-$ catalog/make.py rebuild  # builds the catalog from catalog metadata
+catalog/make.py rebuild  # builds the catalog from catalog metadata
 ```
 
 ## Jekyll Generation
@@ -24,13 +24,11 @@ This is a best-effort conversion to an atom feed. Currently includes all project
 * [feed validator](http://www.feedvalidator.org/check.cgi?url=https%3A%2F%2Fleap.tardate.com%2Fcatalog%2Fatom.xml)
 * [published feed location](https://leap.tardate.com/catalog/atom.xml)
 
-
 ## Hosting
 
 I'm using [Netlify](https://www.netlify.com/) to run the catalog site directly from the GitHub repository.
 
 Note: I previously used GitHub Pages, but switched to Netlify as that allows me to use free SSL certificates from [LetsEncrypt](https://letsencrypt.org/).
-
 
 ## Running Locally
 
@@ -41,7 +39,6 @@ bundle exec jekyll serve
 ```
 
 The generated site will be in the `_site` folder. This can be trashed after testing (it is not checked into the repo).
-
 
 ## Credits and References
 

@@ -5,12 +5,22 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-04-18T14:28:40Z</updated>
+  <updated>2024-05-26T11:34:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/Kraft/PLAAF/JL8/</id>
+    <link href="https://leap.tardate.com/Kraft/PLAAF/JL8/"/>
+    <updated>2024-05-26T11:22:52Z</updated>
+    <title>#746 Hongdu K-8/JL-8</title>
+    <summary>Building the Hongdu K-8/JL-8 trainer aircraft from the Trumpeter 1:72 kit. No electronics in this one.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/PLAAF/JL8/assets/JL8_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki51Burma/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki51Burma/"/>
