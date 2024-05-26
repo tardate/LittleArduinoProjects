@@ -164,9 +164,11 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [KAIYODO](https://kaiyodo.co.jp/)                                        | figures |
 | Japan            | [kotobukiya](https://www.kotobukiya.co.jp/)                              | figures |
 | Japan            | [Microace](http://www.microace-arii.co.jp/)                              |  |
+| Japan            | [ModelArt](https://www.modelart-shop.jp/)                                | modelling magazines |
 | Japan            | [Mr Hobby](http://www.mr-hobby.com/en/)                                  | paint and accessories |
 | Japan            | [Pit-road](https://pit-road.jp/)                                         | |
 | Japan            | [Rokuhan](https://www.rokuhan.com/)                                      | Manufacturing and sales of model railroad items in Z scale |
+| Japan            | [Ships of the World 世界の艦船](https://www.ships-net.co.jp/)              | Ships of the World magazine and special publications |
 | Japan            | [Tamiya](https://www.tamiya.com/english/e-home.htm)                      |  |
 | Japan            | [Woody Joe](https://www.woodyjoe.com/)                                   | wooden kits of Japanese subjects including temples, pagodas, ships |
 | Japan            | [ZOUKEI-MURA](https://www.zoukeimura.co.jp/en/)                          | |
