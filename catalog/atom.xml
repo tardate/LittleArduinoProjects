@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-05-26T11:34:21Z</updated>
+  <updated>2024-06-01T02:48:51Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Napoleonic/BritishGunner1815/</id>
+    <link href="https://leap.tardate.com/Kraft/Napoleonic/BritishGunner1815/"/>
+    <updated>2024-06-01T02:41:22Z</updated>
+    <title>#747 British Royal Artillery Gunner 1815</title>
+    <summary>Posing the Elan13 54mm Royal Artillery Gunner leaping into action... (no electronics in this one)</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Napoleonic/BritishGunner1815/assets/BritishGunner1815_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/PLAAF/JL8/</id>
     <link href="https://leap.tardate.com/Kraft/PLAAF/JL8/"/>
-    <updated>2024-05-26T11:22:52Z</updated>
+    <updated>2024-05-26T13:15:31Z</updated>
     <title>#746 Hongdu K-8/JL-8</title>
     <summary>Building the Hongdu K-8/JL-8 trainer aircraft from the Trumpeter 1:72 kit. No electronics in this one.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/PLAAF/JL8/assets/JL8_build.jpg</g:image_link>
@@ -24,7 +34,7 @@
   <entry>
     <id>https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki51Burma/</id>
     <link href="https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki51Burma/"/>
-    <updated>2024-04-18T14:26:42Z</updated>
+    <updated>2024-05-26T13:15:31Z</updated>
     <title>#745 キ51 over Burma 1942</title>
     <summary>Building the ClearProp Ki-51 Sonia 1:144 with a motorized prop and a camo scheme as used in Burma 1942</summary>
     <g:image_link>https://leap.tardate.com/Kraft/IJA/MitsubishiKi51/Ki51Burma/assets/Ki51Burma_build.jpg</g:image_link>
