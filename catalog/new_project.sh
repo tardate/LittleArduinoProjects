@@ -63,6 +63,8 @@ Here's a quick demo..
 
 __notes__
 
+### Research and References
+
 ### Paint Scheme
 
 | Feature               | Color                | Recommended | Paint Used |

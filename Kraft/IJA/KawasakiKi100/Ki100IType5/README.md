@@ -12,6 +12,12 @@ The Ki-100 entered combat in March 1945. It was developed from the Ki-61 but wit
 
 Ki-100-I-Otsu: improved canopy and cut down rear fuselage. 118 built.
 
+### Research and References
+
+The (Kind of) Accidental Superplane: Kawasaki Ki-100
+
+[![clip](https://img.youtube.com/vi/UxUe5O-100Q/0.jpg)](https://www.youtube.com/watch?v=UxUe5O-100Q)
+
 ### Paint Scheme
 
 | Feature               | Color                | Recommended | Paint Used |
