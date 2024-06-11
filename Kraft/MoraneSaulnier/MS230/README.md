@@ -34,7 +34,7 @@ Morane-Saulnier M.S.230 Spanish Republican Airforce Cuatro Vientos / Museo del A
 | inlet manifold        |                      |               | SM205            |
 | tail insignia         | yellow               |               | H4               |
 | tail insignia         | red                  |               | H13              |
-| tail insignia         | purple?              |               | H13 + H26 + H11  |
+| tail insignia         | purple               |               | H13 + H25 + H11  |
 | fuselage              | stainless            |               | MC213            |
 
 I had a pause to think whether I could spray my markings with Aqueous over Super Metallic,
