@@ -5,16 +5,26 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-06-01T02:48:51Z</updated>
+  <updated>2024-06-17T07:13:21Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/Spain/PolikarpovI16/</id>
+    <link href="https://leap.tardate.com/Kraft/Spain/PolikarpovI16/"/>
+    <updated>2024-06-17T07:13:02Z</updated>
+    <title>#748 I-16 Escuadrilla de Mosca</title>
+    <summary>Building the beautiful ClearProp 1:72 rednding of the Polikarpov I-16 in Spanish Republican Air Force service in the Escuadrilla de Mosca. No electronics.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/Spain/PolikarpovI16/assets/PolikarpovI16_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Napoleonic/BritishGunner1815/</id>
     <link href="https://leap.tardate.com/Kraft/Napoleonic/BritishGunner1815/"/>
-    <updated>2024-06-01T02:41:22Z</updated>
+    <updated>2024-06-01T02:49:12Z</updated>
     <title>#747 British Royal Artillery Gunner 1815</title>
     <summary>Posing the Elan13 54mm Royal Artillery Gunner leaping into action... (no electronics in this one)</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Napoleonic/BritishGunner1815/assets/BritishGunner1815_build.jpg</g:image_link>

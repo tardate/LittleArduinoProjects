@@ -1,4 +1,13 @@
 {
+    "/Kraft/Spain/PolikarpovI16/": {
+        "id": 748,
+        "title": "I-16 Escuadrilla de Mosca",
+        "summary": "Building the beautiful ClearProp 1:72 rednding of the Polikarpov I-16 in Spanish Republican Air Force service in the Escuadrilla de Mosca. No electronics.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/Kraft/Napoleonic/BritishGunner1815/": {
         "id": 747,
         "title": "British Royal Artillery Gunner 1815",

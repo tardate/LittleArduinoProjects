@@ -18,7 +18,7 @@ since 2019 has now made it one of the most widely recognised military drones.
 
 The Bayraktar TB2 from Clear Prop! was one of the first models of this now iconic bit of kit; probably the first with a full Ukrainian decal sheet and all the PE and resin one needs to pimp up the detail.
 
-ClearProp are yet another Ukrainian manufacturer that cover a range of classic an obscure subjects, from the Gloster Pioneer to their latest Flogger-G. I think I was finally inspired to order a few of their kits when I saw Brett Green's beautiful H72N Hawk build in Models for Ukraine Vol 1 published by @chris.meddings.
+ClearProp are yet another Ukrainian manufacturer that covers a range of classic and obscure subjects, from the Gloster Pioneer to their latest Flogger-G. I think I was finally inspired to order a few of their kits when I saw Brett Green's beautiful H72N Hawk build in Models for Ukraine Vol 1 published by @chris.meddings.
 
 ### Paint Scheme
 
