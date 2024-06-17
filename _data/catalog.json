@@ -1,8 +1,15 @@
 [
     {
+        "id": "#749",
+        "name": "Betio",
+        "description": "Type 95 Ha-G\u014d on Betio, capturing the aftermath of the battle as depicted in a famous photograph. Uses the IBG Models 1:72 kit. No electronics.",
+        "categories": "scale models, Craft",
+        "relative_path": "Kraft/IJA/Type95/OnBetio"
+    },
+    {
         "id": "#748",
         "name": "I-16 Escuadrilla de Mosca",
-        "description": "Building the beautiful ClearProp 1:72 rednding of the Polikarpov I-16 in Spanish Republican Air Force service in the Escuadrilla de Mosca. No electronics.",
+        "description": "Building the beautiful ClearProp 1:72 rendering of the Polikarpov I-16 in Spanish Republican Air Force service in the Escuadrilla de Mosca. No electronics.",
         "categories": "scale models, Craft",
         "relative_path": "Kraft/Spain/PolikarpovI16"
     },
@@ -277,7 +284,7 @@
         "name": "IJA Type 95 Ha-Go Light Tank",
         "description": "Building the IBG Models 1:72 representation of the IJA Type 95 Ha-G\u014d \u30cf\u53f7 Light Tank. No electronics in this one.",
         "categories": "scale models, Craft",
-        "relative_path": "Kraft/IJA/Type95HaGo"
+        "relative_path": "Kraft/IJA/Type95/Type95HaGo"
     },
     {
         "id": "#708",

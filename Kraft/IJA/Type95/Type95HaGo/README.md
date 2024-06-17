@@ -6,11 +6,12 @@ Building the IBG Models 1:72 representation of the IJA Type 95 Ha-Gō ハ号 Lig
 
 ## Notes
 
-The [Type 95 Ha-Gō (九五式軽戦車 ハ号)](https://en.wikipedia.org/wiki/Type_95_Ha-Go_light_tank) 
- was a light tank used by the Empire of Japan during the Second Sino-Japanese War, at Nomonhan against the Soviet Union, and in the Second World War.
- It was the most numerous Japanese tank at the time, with about 2,300 produced.
- 
- It was effective against infantry but not in combat with other tanks.
+The [Type 95 Ha-Gō (九五式軽戦車 ハ号)](https://en.wikipedia.org/wiki/Type_95_Ha-Go_light_tank)
+was a light tank used by the Empire of Japan during the Second Sino-Japanese War, at Nomonhan against the Soviet Union,
+and in the Second World War.
+It was the most numerous Japanese tank at the time, with about 2,300 produced.
+
+It was effective against infantry but not in combat with other tanks.
 
 [![Type_95](./assets/Type_95_Ha-Go_tank_Malaya_AWM_011298.jpg?raw=true)](https://en.wikipedia.org/wiki/Type_95_Ha-Go_light_tank)
 

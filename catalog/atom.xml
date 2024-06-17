@@ -5,18 +5,28 @@
   <link href="https://leap.tardate.com/catalog/atom.xml" rel="self"/>
   <link href="https://leap.tardate.com/"/>
   <id>https://leap.tardate.com/</id>
-  <updated>2024-06-17T07:13:21Z</updated>
+  <updated>2024-06-19T14:48:48Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/Kraft/IJA/Type95/OnBetio/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/Type95/OnBetio/"/>
+    <updated>2024-06-19T14:48:24Z</updated>
+    <title>#749 Betio</title>
+    <summary>Type 95 Ha-Gō on Betio, capturing the aftermath of the battle as depicted in a famous photograph. Uses the IBG Models 1:72 kit. No electronics.</summary>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/Type95/OnBetio/assets/OnBetio_build.jpg</g:image_link>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/Kraft/Spain/PolikarpovI16/</id>
     <link href="https://leap.tardate.com/Kraft/Spain/PolikarpovI16/"/>
     <updated>2024-06-17T07:13:02Z</updated>
     <title>#748 I-16 Escuadrilla de Mosca</title>
-    <summary>Building the beautiful ClearProp 1:72 rednding of the Polikarpov I-16 in Spanish Republican Air Force service in the Escuadrilla de Mosca. No electronics.</summary>
+    <summary>Building the beautiful ClearProp 1:72 rendering of the Polikarpov I-16 in Spanish Republican Air Force service in the Escuadrilla de Mosca. No electronics.</summary>
     <g:image_link>https://leap.tardate.com/Kraft/Spain/PolikarpovI16/assets/PolikarpovI16_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
@@ -415,12 +425,12 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/Kraft/IJA/Type95HaGo/</id>
-    <link href="https://leap.tardate.com/Kraft/IJA/Type95HaGo/"/>
+    <id>https://leap.tardate.com/Kraft/IJA/Type95/Type95HaGo/</id>
+    <link href="https://leap.tardate.com/Kraft/IJA/Type95/Type95HaGo/"/>
     <updated>2024-04-10T03:27:55Z</updated>
     <title>#709 IJA Type 95 Ha-Go Light Tank</title>
     <summary>Building the IBG Models 1:72 representation of the IJA Type 95 Ha-Gō ハ号 Light Tank. No electronics in this one.</summary>
-    <g:image_link>https://leap.tardate.com/Kraft/IJA/Type95HaGo/assets/Type95HaGo_build.jpg</g:image_link>
+    <g:image_link>https://leap.tardate.com/Kraft/IJA/Type95/Type95HaGo/assets/Type95HaGo_build.jpg</g:image_link>
     <category term="scale models"/>
     <category term="Craft"/>
   </entry>
