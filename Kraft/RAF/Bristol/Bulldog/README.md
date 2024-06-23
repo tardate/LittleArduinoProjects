@@ -28,6 +28,10 @@ Airfix Bristol Bulldog 1:72 Scale - Intense Rigging
 
 [![clip](https://img.youtube.com/vi/8xJ_kS83pfw/0.jpg)](https://www.youtube.com/watch?v=8xJ_kS83pfw)
 
+Bristol Bulldog - The 'Pilots Dream Fighter' - Rex's Hangar
+
+[![clip](https://img.youtube.com/vi/rVHHYQ7bWuM/0.jpg)](https://www.youtube.com/watch?v=rVHHYQ7bWuM)
+
 ### Paint Scheme
 
 A Flight, No. 19 (F) Sqn. K-2158
@@ -83,7 +87,7 @@ A Flight, No. 19 (F) Sqn. K-2158
 
 The Bristol Bulldog all rigged and ready to roll. An RAF classic from the inter-war period.
 
-Even though this @officialairfix Vintage Classic 2019 boxing was tooled way back in 1969, it is still a very buildable kit of a very beautiful plane. I think Airfix's decision to do a new 1:48 tool in 2024 is inspired (I do hope it eventually trickles down to a new 1:72).
+Even though this Airfix Vintage Classic 2019 boxing was tooled way back in 1969, it is still a very buildable kit of a very beautiful plane. I think Airfix's decision to do a new 1:48 tool in 2024 is inspired (I do hope it eventually trickles down to a new 1:72).
 
 ![build04a](./assets/build04a.jpg?raw=true)
 ![build04b](./assets/build04b.jpg?raw=true)

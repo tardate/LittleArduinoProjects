@@ -101,13 +101,21 @@ Starting to work on the foliage, mainly palm fronds and destroyed palm trees.
 
 ### Finally Gallery Shots
 
-The inspiration:
+Aftermath: a Type 95 Ha-Gō (九五式軽戦車 ハ号) light tank sits destroyed amongst the devastation wrought on Betio.
 
-[![wrecked-type-95-batio](./assets/wrecked-type-95-batio.jpg)](https://www.flickr.com/photos/bronpancerna/23276477546/)
+Forces of the Imperial Japanese Navy garrisoned Tarawa Atoll in the Gilbert Islands, including 14 Type 95 light tanks. The American offensive from 20 November 1943 was the first amphibious landing to face serious Japanese opposition, with massive casualties for both sides. It marked the start of the Pacific Island-hopping campaign.
+
+The diorama features the 1:72 IBG Models kit of the Type 95, and is inspired by a famous photograph from the battle.
+
+I tried to go quite monochrome/sepia for the actual painting, and experimented quite a bit with ways of making palm fronds in this scale. Not quite there, but happy enough with the result to call it a successful try!
 
 ![build07a](./assets/build07a.jpg?raw=true)
 
 ![build07b](./assets/build07b.jpg?raw=true)
+
+The inspiration:
+
+[![wrecked-type-95-batio](./assets/wrecked-type-95-batio.jpg)](https://www.flickr.com/photos/bronpancerna/23276477546/)
 
 ## Credits and References
 
