@@ -21,7 +21,7 @@ with close to 100% casualties and loses.
 This is hauntingly capture in a famous photo of an abandoned Type 95 Ha-Go light tank near bunker on Betio Island.
 This is the inspiration for this diorama.
 
-[![wrecked-type-95-batio](./assets/wrecked-type-95-batio.jpg)](https://www.flickr.com/photos/bronpancerna/23276477546/)
+[![wrecked-type-95-betio](./assets/wrecked-type-95-betio.jpg)](https://www.flickr.com/photos/bronpancerna/23276477546/)
 NB: also on [reddit](https://www.reddit.com/r/WW2info/comments/18091cg/wrecked_japanese_type_97_chi_ha_in_saipan_on/)
 
 ### Unauthorized History of the Pacific War Podcast
@@ -115,7 +115,7 @@ I tried to go quite monochrome/sepia for the actual painting, and experimented q
 
 The inspiration:
 
-[![wrecked-type-95-batio](./assets/wrecked-type-95-batio.jpg)](https://www.flickr.com/photos/bronpancerna/23276477546/)
+[![wrecked-type-95-betio](./assets/wrecked-type-95-betio.jpg)](https://www.flickr.com/photos/bronpancerna/23276477546/)
 
 ## Credits and References
 
