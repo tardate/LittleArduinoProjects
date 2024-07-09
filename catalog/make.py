@@ -21,6 +21,14 @@ from PIL import Image
 from PIL import ImageOps
 
 
+def pretty_write(doc, file):
+    pretty_xml = minidom.parseString(
+        ElementTree.tostring(doc, 'utf-8')
+    ).toprettyxml(indent="  ")
+    with open(file, 'w') as f:
+        f.write(pretty_xml)
+
+
 def remove_orientation(image):
     exif = image.getexif()
     for tag in exif.keys():
@@ -52,6 +60,7 @@ class Catalog(object):
         self.catalog_atom = os.path.join(self.collection_root, 'catalog', 'atom.xml')
         self.data_project_json = os.path.join(self.collection_root, '_data', 'projects.json')
         self.data_catalog_json = os.path.join(self.collection_root, '_data', 'catalog.json')
+        self.catalog_sitemap = os.path.join(self.collection_root, 'catalog', 'sitemap.xml')
 
     def metadata_files(self):
         """ Returns the collection of catalog metadata files. """
@@ -63,8 +72,14 @@ class Catalog(object):
 
     def metadata(self):
         """ Returns the metadata based on .catalog_metadata files. """
+
+        def load_data(filename):
+            data = json.load(open(filename, 'r'))
+            data['relative_path'] = data['relative_path'].lower()
+            return data
+
         if getattr(self, '_metadata', None) is None:
-            data = map(lambda file: json.load(open(file, 'r')), self.metadata_files())
+            data = map(lambda filename: load_data(filename), self.metadata_files())
             self._metadata = sorted(data, key=lambda k: -int(k['id'].replace('#', '')))
         return self._metadata
 
@@ -104,13 +119,6 @@ class Catalog(object):
     def generate_atom_feed(self):
         """ Command: re-writes the atom feed file from catalog_metadata. """
 
-        def pretty_write(doc, file):
-            pretty_xml = minidom.parseString(
-                ElementTree.tostring(doc, 'utf-8')
-            ).toprettyxml(indent="  ")
-            with open(file, 'w') as f:
-                f.write(pretty_xml)
-
         print("Writing {}..".format(self.catalog_atom))
         root = ElementTree.Element('feed', xmlns='http://www.w3.org/2005/Atom')
         root.set('xmlns:g', 'http://base.google.com/ns/1.0')
@@ -148,11 +156,25 @@ class Catalog(object):
 
         pretty_write(root, self.catalog_atom)
 
+    def generate_sitemap(self):
+        """ Command: re-writes the atom feed file from catalog_metadata. """
+
+        print("Writing {}..".format(self.catalog_sitemap))
+        root = ElementTree.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+
+        for entry in self.metadata():
+            url = 'https://leap.tardate.com/{}/'.format(entry['relative_path'])
+            doc = ElementTree.SubElement(root, 'url')
+            ElementTree.SubElement(doc, 'loc').text = url
+
+        pretty_write(root, self.catalog_sitemap)
+
     def rebuild(self):
         """ Command: rebuild catalog assets from metadata. """
         self.generate_catalog()
         self.generate_project_data()
         self.generate_atom_feed()
+        self.generate_sitemap()
 
 
 if __name__ == '__main__':
