@@ -127,6 +127,8 @@ class Catalog(object):
         ElementTree.SubElement(root, "link", href="https://leap.tardate.com/catalog/atom.xml", rel="self")
         ElementTree.SubElement(root, "link", href="https://leap.tardate.com/")
         ElementTree.SubElement(root, "id").text = "https://leap.tardate.com/"
+        ElementTree.SubElement(root, "icon").text = "https://leap.tardate.com/catalog/assets/images/favicon-32x32.png"
+        ElementTree.SubElement(root, "logo").text = "https://leap.tardate.com/catalog/assets/images/favicon-32x32.png"
         ElementTree.SubElement(root, "updated").text = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
         author = ElementTree.SubElement(root, "author")
@@ -147,12 +149,18 @@ class Catalog(object):
             doc = ElementTree.SubElement(root, "entry")
             ElementTree.SubElement(doc, "id").text = url
             ElementTree.SubElement(doc, "link", href=url)
+            ElementTree.SubElement(doc, "g:image_link").text = hero_image_url
             ElementTree.SubElement(doc, "updated").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
             ElementTree.SubElement(doc, "title").text = u'{} {}'.format(entry['id'], entry['name'])
             ElementTree.SubElement(doc, "summary").text = entry['description']
-            ElementTree.SubElement(doc, "g:image_link").text = hero_image_url
+
+            content = ElementTree.Element('div')
+            ElementTree.SubElement(content, 'p').text =  entry['description']
+            ElementTree.SubElement(content, 'img', src=hero_image_url)
+            ElementTree.SubElement(doc, "content", type='html').text = ElementTree.tostring(content, encoding='utf-8').decode()
+
             for category in entry['categories'].split(', '):
-                ElementTree.SubElement(doc, "category", term=category)
+                ElementTree.SubElement(doc, 'category', term=category)
 
         pretty_write(root, self.catalog_atom)
 
