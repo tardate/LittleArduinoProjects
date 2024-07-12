@@ -126,6 +126,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Czechia          | [quickboost](http://www.quickboost.net/)                                 | resin accessories |
 | Czechia          | [R & P Models](https://randpmodels.jex.cz/)                              | paper kits |
 | Czechia          | [Special Hobby](https://www.specialhobby.eu/)                            | |
+| Czechia          | [rise144models](https://www.rise144models.com/)                          | 3D printed accessories including figures |
 | Czechia          | [Valom](https://www.valom.net/)                                          | |
 | France           | [Dynamo Models](https://www.dynamo-models.com/en/)                       | resin miniatures |
 | France           | [Heller](https://www.heller.fr/)                                         | |
