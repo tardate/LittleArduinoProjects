@@ -18,12 +18,20 @@ These high-speed transport vessels were actually developed by the IJN and IJA in
 
 [No.101-class landing ship](https://en.wikipedia.org/wiki/No.101-class_landing_ship)  (第百一号型輸送艦,, Dai 101 Gō-gata Yusōkan)
 
+![t101](./assets/t101.jpg)
+
 * a 900-ton amphibious assault ship
 * Most of the Navy vessels took part in the Battle of Leyte, where 18 of them were lost. Most, however, succeeded in landing their tanks and troops.
 * a detailed record of the vessels in the Army service is not known to exist.
-* [Tokusetsu-Yusokan IJN T.101 Class Landing Ship Tank  IJN LST T.149: Tabular Record of Movement ](http://www.combinedfleet.com/T.149_t.htm)
-    * many visits to Singapore's Seletar naval port
-    * including 101st Naval Repair Facility at Singapore.
+* Some example tabular records of movement:
+    * [IJN LST T.101](http://www.combinedfleet.com/T.101_t.htm)
+    * [IJN LST T.127](http://www.combinedfleet.com/T.127_t.htm)
+    * [IJN LST T.128](http://www.combinedfleet.com/T.128_t.htm)
+    * [IJN LST T.149](http://www.combinedfleet.com/T.149_t.htm)
+        * many visits to Singapore's Seletar naval port
+        * including 101st Naval Repair Facility at Singapore.
+    * [IJN LST T.150](http://www.combinedfleet.com/T.150_t.htm)
+        * convoy to Palau in 1944, sunk 27 July 1944
 
 ### The Kit
 
@@ -73,7 +81,7 @@ No crew or base right now - I'm reserving these for a future diorama.
 * [Japanese Military Transport Set Waterline Series Tamiya No. 31501 1:700](https://www.scalemates.com/kits/tamiya-31501-japanese-military-transport-set--171118)
 * [No.1-class landing ship](https://en.wikipedia.org/wiki/No.1-class_landing_ship)
 * [No.101-class landing ship](https://en.wikipedia.org/wiki/No.101-class_landing_ship)
-* [Tokusetsu-Yusokan IJN T.101 Class Landing Ship Tank  IJN LST T.149: Tabular Record of Movement ](http://www.combinedfleet.com/T.149_t.htm)
+* [Tokusetsu-Yusokan IJN T.101 Class Landing Ship Tank  IJN LST T.149: Tabular Record of Movement](http://www.combinedfleet.com/T.149_t.htm)
 * [Type A Ko-hyoteki (甲標的甲型)](https://en.wikipedia.org/wiki/Type_A_K%C5%8D-hy%C5%8Dteki-class_submarine) midget submarine
 * [Shohatsu 10-m-class](https://en.wikipedia.org/wiki/Shohatsu-class_landing_craft) landing craft
 * [Chuhatsu 13-m-class](https://en.wikipedia.org/wiki/Chuhatsu-class_landing_craft) landing craft
