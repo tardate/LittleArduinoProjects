@@ -1,4 +1,13 @@
 {
+    "/kraft/spitfire/prxix/": {
+        "id": 750,
+        "title": "Spitfire PR Mk.XIX",
+        "summary": "Building the Supermarine Spitfire PR.XIX in 1:72 from the Airfix D-Day Duo kit. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/kraft/ija/type95/onbetio/": {
         "id": 749,
         "title": "Betio",
