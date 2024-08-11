@@ -1,7 +1,8 @@
 {
-    "id": "#408", 
-    "name": "BBBreakout", 
-    "description": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/Power/BBBreakout"
+    "id": "#408",
+    "name": "BBBreakout",
+    "description": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors",
+    "categories": "Power",
+    "relative_path": "Electronics101/Power/BBBreakout",
+    "updated_at": "2018-08-04T16:49:31Z"
 }

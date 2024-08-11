@@ -1,7 +1,8 @@
 {
-    "id": "#176", 
-    "name": "nRF24Breakout", 
-    "description": "a simple PCB breadboard adapter for 8-pin nRF24 modules", 
-    "categories": "nRF24, PCB", 
-    "relative_path": "Electronics101/nRF24Breakout"
+    "id": "#176",
+    "name": "nRF24Breakout",
+    "description": "a simple PCB breadboard adapter for 8-pin nRF24 modules",
+    "categories": "nRF24, PCB",
+    "relative_path": "Electronics101/nRF24Breakout",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

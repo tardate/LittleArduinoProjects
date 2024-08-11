@@ -3,5 +3,6 @@
     "name": "AT28C16 EEPROM Programmer",
     "description": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander",
     "categories": "EEPROM, Arduino",
-    "relative_path": "playground/EEPROM/AT28C16/PEProgrammer"
+    "relative_path": "playground/EEPROM/AT28C16/PEProgrammer",
+    "updated_at": "2020-10-02T13:02:32Z"
 }

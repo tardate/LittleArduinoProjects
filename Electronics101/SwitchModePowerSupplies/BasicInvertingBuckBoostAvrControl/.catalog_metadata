@@ -1,7 +1,8 @@
 {
-    "id": "#288", 
-    "name": "BasicInvertingBuckBoostAvrControl", 
-    "description": "build and test an inverting buck-boost converter controlled by an ATtiny85", 
-    "categories": "Power, ATtiny, Arduino", 
-    "relative_path": "Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl"
+    "id": "#288",
+    "name": "BasicInvertingBuckBoostAvrControl",
+    "description": "build and test an inverting buck-boost converter controlled by an ATtiny85",
+    "categories": "Power, ATtiny, Arduino",
+    "relative_path": "Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl",
+    "updated_at": "2017-05-06T10:05:14Z"
 }

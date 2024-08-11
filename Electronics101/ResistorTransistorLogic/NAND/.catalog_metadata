@@ -3,5 +3,6 @@
     "name": "NAND Gate with Resistor-Transistor Logic",
     "description": "test the basic resistor-transistor logic NAND gate ",
     "categories": "BJT, RTL, Digital Logic",
-    "relative_path": "Electronics101/ResistorTransistorLogic/NAND"
+    "relative_path": "Electronics101/ResistorTransistorLogic/NAND",
+    "updated_at": "2020-09-20T04:39:01Z"
 }

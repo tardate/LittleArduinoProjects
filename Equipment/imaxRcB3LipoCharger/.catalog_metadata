@@ -3,5 +3,6 @@
     "name": "imaxRC B3 Lipo Charger",
     "description": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs",
     "categories": "Power, BMS",
-    "relative_path": "Equipment/imaxRcB3LipoCharger"
+    "relative_path": "Equipment/imaxRcB3LipoCharger",
+    "updated_at": "2019-10-20T15:21:27Z"
 }

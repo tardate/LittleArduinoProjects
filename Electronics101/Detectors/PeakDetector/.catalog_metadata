@@ -3,5 +3,6 @@
     "name": "Peak Detector",
     "description": "test an OpAmp-based peak detector circuit",
     "categories": "OpAmp, RC",
-    "relative_path": "Electronics101/Detectors/PeakDetector"
+    "relative_path": "Electronics101/Detectors/PeakDetector",
+    "updated_at": "2020-03-28T03:05:36Z"
 }

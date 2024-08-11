@@ -3,5 +3,6 @@
     "name": "555 Timer Fixed-duty VFO",
     "description": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)",
     "categories": "555 Timer, Oscillators",
-    "relative_path": "Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty"
+    "relative_path": "Electronics101/555Timer/PrecisionVariableFrequencyFixedDuty",
+    "updated_at": "2019-12-14T09:24:44Z"
 }

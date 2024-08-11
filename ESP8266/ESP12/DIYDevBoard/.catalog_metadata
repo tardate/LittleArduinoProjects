@@ -3,5 +3,6 @@
     "name": "ESP-12 DIY Dev Board",
     "description": "Building a programming board for the ESP8266 07/12 variants",
     "categories": "ESP8266",
-    "relative_path": "ESP8266/ESP12/DIYDevBoard"
+    "relative_path": "ESP8266/ESP12/DIYDevBoard",
+    "updated_at": "2020-04-12T15:28:44Z"
 }

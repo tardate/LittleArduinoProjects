@@ -3,5 +3,6 @@
     "name": "NOT Gate with Resistor-Transistor Logic",
     "description": "test the basic resistor-transistor logic NOT gate (Inverter)",
     "categories": "BJT, RTL, Digital Logic",
-    "relative_path": "Electronics101/ResistorTransistorLogic/NOT"
+    "relative_path": "Electronics101/ResistorTransistorLogic/NOT",
+    "updated_at": "2020-09-20T04:39:01Z"
 }

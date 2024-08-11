@@ -1,7 +1,8 @@
 {
-    "id": "#184", 
-    "name": "AdjustablePulseGenerator", 
-    "description": "widely-adjustable square wave generator using the 555 timer", 
-    "categories": "555 Timer, Oscillators", 
-    "relative_path": "Electronics101/555Timer/AdjustablePulseGenerator"
+    "id": "#184",
+    "name": "AdjustablePulseGenerator",
+    "description": "widely-adjustable square wave generator using the 555 timer",
+    "categories": "555 Timer, Oscillators",
+    "relative_path": "Electronics101/555Timer/AdjustablePulseGenerator",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

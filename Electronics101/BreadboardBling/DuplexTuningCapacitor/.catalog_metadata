@@ -3,5 +3,6 @@
     "name": "Duplex Tuning Capacitor",
     "description": "making a breadboard-compatible variable capacitor for radio circuits",
     "categories": "Breadboard Bling, Radio",
-    "relative_path": "Electronics101/BreadboardBling/DuplexTuningCapacitor"
+    "relative_path": "Electronics101/BreadboardBling/DuplexTuningCapacitor",
+    "updated_at": "2019-04-09T14:49:26Z"
 }

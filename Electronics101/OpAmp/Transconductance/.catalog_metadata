@@ -3,5 +3,6 @@
     "name": "OpAmp Transconductance Amplifiers",
     "description": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp",
     "categories": "OpAmp",
-    "relative_path": "Electronics101/OpAmp/Transconductance"
+    "relative_path": "Electronics101/OpAmp/Transconductance",
+    "updated_at": "2021-08-17T08:14:50Z"
 }

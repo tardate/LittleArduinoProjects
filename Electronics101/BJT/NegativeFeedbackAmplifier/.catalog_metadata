@@ -3,5 +3,6 @@
     "name": "Negative Feedback Amplifier",
     "description": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs",
     "categories": "BJT",
-    "relative_path": "Electronics101/BJT/NegativeFeedbackAmplifier"
+    "relative_path": "Electronics101/BJT/NegativeFeedbackAmplifier",
+    "updated_at": "2018-05-14T06:48:56Z"
 }

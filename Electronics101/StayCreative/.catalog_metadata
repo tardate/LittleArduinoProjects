@@ -1,7 +1,8 @@
 {
-    "id": "#212", 
-    "name": "StayCreative", 
-    "description": "an audio level VU meter driving a custom LED sign", 
-    "categories": "Audio, LED", 
-    "relative_path": "Electronics101/StayCreative"
+    "id": "#212",
+    "name": "StayCreative",
+    "description": "an audio level VU meter driving a custom LED sign",
+    "categories": "Audio, LED",
+    "relative_path": "Electronics101/StayCreative",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

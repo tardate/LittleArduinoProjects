@@ -1,7 +1,8 @@
 {
-    "id": "#105", 
-    "name": "BJT SawTooth", 
-    "description": "testing a simple BJT saw-tooth oscillator", 
-    "categories": "BJT, Oscillators", 
-    "relative_path": "Electronics101/BJT/SawTooth"
+    "id": "#105",
+    "name": "BJT SawTooth",
+    "description": "testing a simple BJT saw-tooth oscillator",
+    "categories": "BJT, Oscillators",
+    "relative_path": "Electronics101/BJT/SawTooth",
+    "updated_at": "2018-01-25T02:34:55Z"
 }

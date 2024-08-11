@@ -1,7 +1,8 @@
 {
-    "id": "#211", 
-    "name": "BuckConverterModules", 
-    "description": "test a range of low-cost buck converter modules, often using LM2596", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/BuckConverterModules"
+    "id": "#211",
+    "name": "BuckConverterModules",
+    "description": "test a range of low-cost buck converter modules, often using LM2596",
+    "categories": "Power",
+    "relative_path": "Electronics101/BuckConverterModules",
+    "updated_at": "2016-06-23T14:13:43Z"
 }

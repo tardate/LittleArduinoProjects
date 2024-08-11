@@ -1,7 +1,8 @@
 {
-    "id": "#437", 
-    "name": "QX5252JouleThief", 
-    "description": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery", 
-    "categories": "Power, LED", 
-    "relative_path": "Electronics101/LedDrivers/QX5252JouleThief"
+    "id": "#437",
+    "name": "QX5252JouleThief",
+    "description": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery",
+    "categories": "Power, LED",
+    "relative_path": "Electronics101/LedDrivers/QX5252JouleThief",
+    "updated_at": "2018-11-25T12:58:31Z"
 }

@@ -1,7 +1,8 @@
 {
-    "id": "#332", 
-    "name": "RCPhaseShiftBJT", 
-    "description": "testing an RC phase-shift oscillator using a BJT amplifier", 
-    "categories": "BJT, RC, Oscillators", 
-    "relative_path": "Electronics101/Oscillators/RCPhaseShiftBJT"
+    "id": "#332",
+    "name": "RCPhaseShiftBJT",
+    "description": "testing an RC phase-shift oscillator using a BJT amplifier",
+    "categories": "BJT, RC, Oscillators",
+    "relative_path": "Electronics101/Oscillators/RCPhaseShiftBJT",
+    "updated_at": "2017-08-12T14:32:19Z"
 }

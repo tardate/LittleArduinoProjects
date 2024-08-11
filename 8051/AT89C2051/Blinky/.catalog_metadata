@@ -1,7 +1,8 @@
 {
-    "id": "#395", 
+    "id": "#395",
     "name": "AT89C2051 Blinky",
-    "description": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX", 
-    "categories": "8051, LED", 
-    "relative_path": "8051/AT89C2051/Blinky"
+    "description": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX",
+    "categories": "8051, LED",
+    "relative_path": "8051/AT89C2051/Blinky",
+    "updated_at": "2023-03-27T13:57:21Z"
 }

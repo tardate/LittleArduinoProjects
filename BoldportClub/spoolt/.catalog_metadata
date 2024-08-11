@@ -1,7 +1,8 @@
 {
-    "id": "#325", 
-    "name": "BoldportClub/spoolt", 
-    "description": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)", 
-    "categories": "Boldport, Soldering", 
-    "relative_path": "BoldportClub/spoolt"
+    "id": "#325",
+    "name": "BoldportClub/spoolt",
+    "description": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)",
+    "categories": "Boldport, Soldering",
+    "relative_path": "BoldportClub/spoolt",
+    "updated_at": "2017-07-23T06:38:43Z"
 }

@@ -3,5 +3,6 @@
     "name": "SYN6288 Module",
     "description": "Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.",
     "categories": "Arduino, Speech Synthesis, Audio",
-    "relative_path": "Audio/SpeechSynthesis/SYN6288Module"
+    "relative_path": "Audio/SpeechSynthesis/SYN6288Module",
+    "updated_at": "2022-01-18T16:05:12Z"
 }

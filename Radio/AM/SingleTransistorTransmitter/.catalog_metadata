@@ -3,5 +3,6 @@
     "name": "Single Transistor AM Transmitter",
     "description": "building a low power, single transistor AM transmitter with surprisingly good fidelity",
     "categories": "Radio, AM, Transmitter",
-    "relative_path": "Radio/AM/SingleTransistorTransmitter"
+    "relative_path": "Radio/AM/SingleTransistorTransmitter",
+    "updated_at": "2019-04-04T16:28:29Z"
 }

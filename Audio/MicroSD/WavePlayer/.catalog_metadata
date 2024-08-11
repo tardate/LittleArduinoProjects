@@ -3,5 +3,6 @@
     "name": "MicroSD WAV Player",
     "description": "A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino",
     "categories": "Audio, Arduino, SD",
-    "relative_path": "Audio/MicroSD/WavePlayer"
+    "relative_path": "Audio/MicroSD/WavePlayer",
+    "updated_at": "2020-12-16T15:15:28Z"
 }

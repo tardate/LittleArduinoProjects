@@ -1,7 +1,8 @@
 {
-    "id": "#118", 
-    "name": "RotaryEncoderMethods", 
-    "description": "finding the best method for reading a rotary-encoder", 
-    "categories": "Sensor, Arduino", 
-    "relative_path": "playground/RotaryEncoderMethods"
+    "id": "#118",
+    "name": "RotaryEncoderMethods",
+    "description": "finding the best method for reading a rotary-encoder",
+    "categories": "Sensor, Arduino",
+    "relative_path": "playground/RotaryEncoderMethods",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

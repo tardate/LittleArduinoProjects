@@ -3,5 +3,6 @@
     "name": "AND Gate with Resistor-Transistor Logic",
     "description": "test the basic resistor-transistor logic AND gate ",
     "categories": "BJT, RTL, Digital Logic",
-    "relative_path": "Electronics101/ResistorTransistorLogic/AND"
+    "relative_path": "Electronics101/ResistorTransistorLogic/AND",
+    "updated_at": "2020-09-20T04:39:01Z"
 }

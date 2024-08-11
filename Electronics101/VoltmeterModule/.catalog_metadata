@@ -1,7 +1,8 @@
 {
-    "id": "#181", 
-    "name": "VoltmeterModule", 
-    "description": "test a 3-wire voltmeter module", 
-    "categories": "Sensors", 
-    "relative_path": "Electronics101/VoltmeterModule"
+    "id": "#181",
+    "name": "VoltmeterModule",
+    "description": "test a 3-wire voltmeter module",
+    "categories": "Sensors",
+    "relative_path": "Electronics101/VoltmeterModule",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

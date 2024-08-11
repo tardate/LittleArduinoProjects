@@ -3,5 +3,6 @@
     "name": "MB102 3.3/5V Breadboard Power Supply",
     "description": "demo and test a commercial 3.3/5V MB102 breadboard power supply unit",
     "categories": "Power",
-    "relative_path": "Electronics101/Power/MB102BreadboardPowerSupply"
+    "relative_path": "Electronics101/Power/MB102BreadboardPowerSupply",
+    "updated_at": "2024-04-10T06:15:32Z"
 }

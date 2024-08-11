@@ -3,5 +3,6 @@
     "name": "CD4001 Logic Probe",
     "description": "A simple logic probe using NOR gates",
     "categories": "Digital Logic, CMOS/TTL",
-    "relative_path": "Electronics101/CD4001/LogicProbe"
+    "relative_path": "Electronics101/CD4001/LogicProbe",
+    "updated_at": "2022-05-22T06:12:54Z"
 }

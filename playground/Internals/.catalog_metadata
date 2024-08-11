@@ -1,7 +1,8 @@
 {
-    "id": "#020", 
-    "name": "Arduino Internals", 
-    "description": "report on Arduino Board internals", 
-    "categories": "Arduino", 
-    "relative_path": "playground/Internals"
+    "id": "#020",
+    "name": "Arduino Internals",
+    "description": "report on Arduino Board internals",
+    "categories": "Arduino",
+    "relative_path": "playground/Internals",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

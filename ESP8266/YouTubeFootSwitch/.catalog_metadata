@@ -3,5 +3,6 @@
     "name": "Wireless YouTube Foot Switch",
     "description": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)",
     "categories": "ESP8266",
-    "relative_path": "ESP8266/YouTubeFootSwitch"
+    "relative_path": "ESP8266/YouTubeFootSwitch",
+    "updated_at": "2020-04-05T09:11:02Z"
 }

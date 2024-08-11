@@ -3,5 +3,6 @@
     "name": "Tesla Coil Plasma Speaker Kit",
     "description": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects",
     "categories": "Audio, Power, Oscillators",
-    "relative_path": "Electronics101/TeslaCoil/MusicalKit"
+    "relative_path": "Electronics101/TeslaCoil/MusicalKit",
+    "updated_at": "2019-09-21T15:29:10Z"
 }

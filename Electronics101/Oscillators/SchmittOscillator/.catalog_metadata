@@ -3,5 +3,6 @@
     "name": "Square Wave - Schmitt Oscillator",
     "description": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave",
     "categories": "CMOS/TTL, Oscillators",
-    "relative_path": "Electronics101/Oscillators/SchmittOscillator"
+    "relative_path": "Electronics101/Oscillators/SchmittOscillator",
+    "updated_at": "2022-09-16T13:35:07Z"
 }

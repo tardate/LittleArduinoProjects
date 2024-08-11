@@ -1,7 +1,8 @@
 {
-    "id": "#410", 
-    "name": "HomopolarJouleThiefBlinky", 
-    "description": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms", 
-    "categories": "Kinetics, LED, Oscillators", 
-    "relative_path": "Kinetics/HomopolarJouleThiefBlinky"
+    "id": "#410",
+    "name": "HomopolarJouleThiefBlinky",
+    "description": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms",
+    "categories": "Kinetics, LED, Oscillators",
+    "relative_path": "Kinetics/HomopolarJouleThiefBlinky",
+    "updated_at": "2018-08-12T15:52:33Z"
 }

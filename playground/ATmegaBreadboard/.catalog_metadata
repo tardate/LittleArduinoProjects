@@ -1,7 +1,8 @@
 {
-    "id": "#069", 
-    "name": "ATmegaBreadboard", 
-    "description": "running an ATMEGA328P-PU on a breadboard ", 
-    "categories": "Arduino, ATmel", 
-    "relative_path": "playground/ATmegaBreadboard"
+    "id": "#069",
+    "name": "ATmegaBreadboard",
+    "description": "running an ATMEGA328P-PU on a breadboard ",
+    "categories": "Arduino, ATmel",
+    "relative_path": "playground/ATmegaBreadboard",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

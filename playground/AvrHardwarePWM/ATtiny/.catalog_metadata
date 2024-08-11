@@ -1,7 +1,8 @@
 {
-    "id": "#255", 
-    "name": "AvrHardwarePWM/ATtiny", 
-    "description": "all about hardware PWM and demonstrating the modes with the ATtiny85", 
-    "categories": "ATtiny, ATmel, Arduino, PWM", 
-    "relative_path": "playground/AvrHardwarePWM/ATtiny"
+    "id": "#255",
+    "name": "AvrHardwarePWM/ATtiny",
+    "description": "all about hardware PWM and demonstrating the modes with the ATtiny85",
+    "categories": "ATtiny, ATmel, Arduino, PWM",
+    "relative_path": "playground/AvrHardwarePWM/ATtiny",
+    "updated_at": "2016-10-11T17:04:34Z"
 }

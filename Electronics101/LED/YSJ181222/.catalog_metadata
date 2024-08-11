@@ -1,7 +1,8 @@
 {
     "id": "#583",
     "name": "LED Sequencer Module",
-    "description": "Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222)",
+    "description": "Testing a simple 6xLED sequencer module (YuSiJie \u5b87\u601d\u6377 YSJ181222)",
     "categories": "LED",
-    "relative_path": "Electronics101/LED/YSJ181222"
+    "relative_path": "Electronics101/LED/YSJ181222",
+    "updated_at": "2021-03-02T14:57:52Z"
 }

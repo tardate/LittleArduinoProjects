@@ -1,7 +1,8 @@
 {
-    "id": "#444", 
-    "name": "VariableDutyCycle/DiodeSteering", 
-    "description": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator", 
-    "categories": "555 Timer, Oscillators", 
-    "relative_path": "Electronics101/555Timer/VariableDutyCycle/DiodeSteering"
+    "id": "#444",
+    "name": "VariableDutyCycle/DiodeSteering",
+    "description": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator",
+    "categories": "555 Timer, Oscillators",
+    "relative_path": "Electronics101/555Timer/VariableDutyCycle/DiodeSteering",
+    "updated_at": "2019-01-01T10:53:01Z"
 }

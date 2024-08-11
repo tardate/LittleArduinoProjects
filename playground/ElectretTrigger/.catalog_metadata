@@ -1,7 +1,8 @@
 {
-    "id": "#037", 
-    "name": "ElectretTrigger", 
-    "description": "uses an electret microphone and LM324 amplifier to trigger action when over audio threshold", 
-    "categories": "Sensors, Audio, OpAmp, Arduino", 
-    "relative_path": "playground/ElectretTrigger"
+    "id": "#037",
+    "name": "ElectretTrigger",
+    "description": "uses an electret microphone and LM324 amplifier to trigger action when over audio threshold",
+    "categories": "Sensors, Audio, OpAmp, Arduino",
+    "relative_path": "playground/ElectretTrigger",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

@@ -3,5 +3,6 @@
     "name": "ATtiny PMW Motor Control",
     "description": "Variable speed PWM motor control with an ATtiny85",
     "categories": "Motors, Arduino, AVR",
-    "relative_path": "playground/ATtiny/PwmMotorControl"
+    "relative_path": "playground/ATtiny/PwmMotorControl",
+    "updated_at": "2023-03-06T15:02:31Z"
 }

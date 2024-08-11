@@ -3,5 +3,6 @@
     "name": "Solenoid DIY",
     "description": "build and test a basic electromechanical solenoid",
     "categories": "Solenoid, Arduino",
-    "relative_path": "Kinetics/Solenoids/SolenoidDIY"
+    "relative_path": "Kinetics/Solenoids/SolenoidDIY",
+    "updated_at": "2019-08-18T03:38:40Z"
 }

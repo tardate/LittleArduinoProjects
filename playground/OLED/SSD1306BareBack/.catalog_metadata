@@ -3,5 +3,6 @@
     "name": "SSD1306 OLED Bareback SPI",
     "description": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set over SPI",
     "categories": "OLED, Arduino",
-    "relative_path": "playground/OLED/SSD1306BareBack"
+    "relative_path": "playground/OLED/SSD1306BareBack",
+    "updated_at": "2020-02-16T16:08:47Z"
 }

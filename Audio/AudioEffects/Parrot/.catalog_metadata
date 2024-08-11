@@ -3,5 +3,6 @@
     "name": "Parrot",
     "description": "playing with a 1-transistor, dual oscillator chirping sound effect circuit",
     "categories": "Audio, BEAM, Oscillators",
-    "relative_path": "Audio/AudioEffects/Parrot"
+    "relative_path": "Audio/AudioEffects/Parrot",
+    "updated_at": "2020-06-06T05:35:40Z"
 }

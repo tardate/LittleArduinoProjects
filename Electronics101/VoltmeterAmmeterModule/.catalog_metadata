@@ -3,5 +3,6 @@
     "name": "Voltmeter/Ammeter Module",
     "description": "test and calibrate a DC Voltmeter/Ammeter panel module",
     "categories": "Sensors",
-    "relative_path": "Electronics101/VoltmeterAmmeterModule"
+    "relative_path": "Electronics101/VoltmeterAmmeterModule",
+    "updated_at": "2019-09-02T00:30:13Z"
 }

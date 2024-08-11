@@ -3,5 +3,6 @@
     "name": "Electret Sound Detection Module",
     "description": "Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).",
     "categories": "Arduino, Audio",
-    "relative_path": "Audio/AudioAmps/ElectretSoundDetectionModule"
+    "relative_path": "Audio/AudioAmps/ElectretSoundDetectionModule",
+    "updated_at": "2023-01-08T10:30:19Z"
 }

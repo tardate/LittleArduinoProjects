@@ -3,5 +3,6 @@
     "name": "TEA5767 FM Receiver",
     "description": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino",
     "categories": "Radio, FM, Arduino",
-    "relative_path": "Radio/FM/TEA5767"
+    "relative_path": "Radio/FM/TEA5767",
+    "updated_at": "2019-08-04T11:25:24Z"
 }

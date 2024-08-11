@@ -1,7 +1,8 @@
 {
-    "id": "#218", 
-    "name": "MPU6050/AccelGyroTest", 
-    "description": "first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module", 
-    "categories": "Sensors, MPU-6050, Arduino", 
-    "relative_path": "playground/MPU6050/AccelGyroTest"
+    "id": "#218",
+    "name": "MPU6050/AccelGyroTest",
+    "description": "first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module",
+    "categories": "Sensors, MPU-6050, Arduino",
+    "relative_path": "playground/MPU6050/AccelGyroTest",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

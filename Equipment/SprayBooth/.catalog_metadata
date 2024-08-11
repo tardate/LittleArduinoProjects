@@ -3,5 +3,6 @@
     "name": "Spray Booth",
     "description": "Building a $10 spray booth for light airbrush spray painting and soldering",
     "categories": "Tools",
-    "relative_path": "Equipment/SprayBooth"
+    "relative_path": "Equipment/SprayBooth",
+    "updated_at": "2020-12-20T11:52:28Z"
 }

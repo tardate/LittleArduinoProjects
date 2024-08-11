@@ -1,7 +1,8 @@
 {
-    "id": "#224", 
+    "id": "#224",
     "name": "LED Strobe Kit",
-    "description": "build and analyse a common LED strobe kit", 
-    "categories": "LED, 555 Timer, CMOS", 
-    "relative_path": "Electronics101/LED/LEDStrobeKit"
+    "description": "build and analyse a common LED strobe kit",
+    "categories": "LED, 555 Timer, CMOS",
+    "relative_path": "Electronics101/LED/LEDStrobeKit",
+    "updated_at": "2023-09-14T10:19:20Z"
 }

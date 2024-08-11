@@ -1,7 +1,8 @@
 {
-    "id": "#012", 
-    "name": "Capacitorial", 
-    "description": "graphing capacitor discharge with Processing", 
-    "categories": "RC", 
-    "relative_path": "Electronics101/Capacitorial"
+    "id": "#012",
+    "name": "Capacitorial",
+    "description": "graphing capacitor discharge with Processing",
+    "categories": "RC",
+    "relative_path": "Electronics101/Capacitorial",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

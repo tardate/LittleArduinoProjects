@@ -3,5 +3,6 @@
     "name": "USB Humidifier Module",
     "description": "Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist",
     "categories": "USB, environmental",
-    "relative_path": "Equipment/HumidifierModule"
+    "relative_path": "Equipment/HumidifierModule",
+    "updated_at": "2022-07-21T14:36:37Z"
 }

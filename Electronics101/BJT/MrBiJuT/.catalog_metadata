@@ -3,5 +3,6 @@
     "name": "MrBiJuT",
     "description": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator",
     "categories": "BJT, Test Equipment, Oscillators, Circuit Sculpture, Freeform",
-    "relative_path": "Electronics101/BJT/MrBiJuT"
+    "relative_path": "Electronics101/BJT/MrBiJuT",
+    "updated_at": "2021-04-05T08:52:23Z"
 }

@@ -3,5 +3,6 @@
     "name": "Light Control Switch Kit",
     "description": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
     "categories": "LDR, CMOS/TTL",
-    "relative_path": "Equipment/LightControlSwitchKit"
+    "relative_path": "Equipment/LightControlSwitchKit",
+    "updated_at": "2022-10-28T00:56:33Z"
 }

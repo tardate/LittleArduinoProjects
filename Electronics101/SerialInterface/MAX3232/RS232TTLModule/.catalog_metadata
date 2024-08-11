@@ -3,5 +3,6 @@
     "name": "MAX3232 RS232 to TTL Module",
     "description": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX",
     "categories": "RS232, Serial, USB",
-    "relative_path": "Electronics101/SerialInterface/MAX3232/RS232TTLModule"
+    "relative_path": "Electronics101/SerialInterface/MAX3232/RS232TTLModule",
+    "updated_at": "2019-11-12T17:00:01Z"
 }

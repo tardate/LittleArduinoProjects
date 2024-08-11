@@ -1,7 +1,8 @@
 {
-    "id": "#159", 
-    "name": "ML741/InvertingAmplifier", 
-    "description": "test an inverting amplifier circuit using the ML741 discrete component opamp", 
-    "categories": "OpAmp", 
-    "relative_path": "Electronics101/ML741/InvertingAmplifier"
+    "id": "#159",
+    "name": "ML741/InvertingAmplifier",
+    "description": "test an inverting amplifier circuit using the ML741 discrete component opamp",
+    "categories": "OpAmp",
+    "relative_path": "Electronics101/ML741/InvertingAmplifier",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

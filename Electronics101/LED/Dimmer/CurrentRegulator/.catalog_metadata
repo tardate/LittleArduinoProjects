@@ -1,7 +1,8 @@
 {
-    "id": "#231", 
+    "id": "#231",
     "name": "LED Current Regulator",
-    "description": "test a current-regulator style LED dimmer circuit", 
-    "categories": "LED, Power", 
-    "relative_path": "Electronics101/LED/Dimmer/CurrentRegulator"
+    "description": "test a current-regulator style LED dimmer circuit",
+    "categories": "LED, Power",
+    "relative_path": "Electronics101/LED/Dimmer/CurrentRegulator",
+    "updated_at": "2023-09-14T10:19:20Z"
 }

@@ -1,7 +1,8 @@
 {
-    "id": "#413", 
-    "name": "Rotary Encoder Tester", 
-    "description": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic", 
-    "categories": "Sensor, CMOS/TTL", 
-    "relative_path": "Electronics101/RotaryEncoders/IncrementalTester"
+    "id": "#413",
+    "name": "Rotary Encoder Tester",
+    "description": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic",
+    "categories": "Sensor, CMOS/TTL",
+    "relative_path": "Electronics101/RotaryEncoders/IncrementalTester",
+    "updated_at": "2018-08-30T17:21:53Z"
 }

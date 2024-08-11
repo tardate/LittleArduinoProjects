@@ -3,5 +3,6 @@
     "name": "Synchronous JK Counter",
     "description": "a synchronous 8-bit counter built with JK Flip-Flops",
     "categories": "CMOS/TTL, Digital Logic",
-    "relative_path": "Electronics101/DigitalLogic/SyncJKCounter"
+    "relative_path": "Electronics101/DigitalLogic/SyncJKCounter",
+    "updated_at": "2019-09-07T08:50:36Z"
 }

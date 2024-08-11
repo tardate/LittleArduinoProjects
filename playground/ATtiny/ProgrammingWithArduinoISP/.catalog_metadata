@@ -3,5 +3,6 @@
     "name": "ATtiny Programming over ArduinoISP",
     "description": "programming an ATTINY85-20PU on a breadboard with Arduino ISP",
     "categories": "Arduino, AVR, ICSP",
-    "relative_path": "playground/ATtiny/ProgrammingWithArduinoISP"
+    "relative_path": "playground/ATtiny/ProgrammingWithArduinoISP",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

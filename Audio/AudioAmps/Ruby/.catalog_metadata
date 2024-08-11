@@ -3,5 +3,6 @@
     "name": "Ruby Guitar Amp",
     "description": "a version of the runoffgroove Ruby LM386 guitar amp",
     "categories": "OpAmp, Audio",
-    "relative_path": "Audio/AudioAmps/Ruby"
+    "relative_path": "Audio/AudioAmps/Ruby",
+    "updated_at": "2020-06-06T05:35:40Z"
 }

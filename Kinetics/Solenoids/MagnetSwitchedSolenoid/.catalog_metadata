@@ -3,5 +3,6 @@
     "name": "Magnet-switched Solenoid",
     "description": "using a Hall effect sensor to trigger a solenoid with a fixed pulse",
     "categories": "Solenoid, Sensors",
-    "relative_path": "Kinetics/Solenoids/MagnetSwitchedSolenoid"
+    "relative_path": "Kinetics/Solenoids/MagnetSwitchedSolenoid",
+    "updated_at": "2019-08-18T05:07:26Z"
 }

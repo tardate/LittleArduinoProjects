@@ -1,7 +1,8 @@
 {
     "id": "#579",
     "name": "Jie Fang CA-30 Fuel Truck",
-    "description": "A simple build of the 解放 Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).",
+    "description": "A simple build of the \u89e3\u653e Jie Fang CA-30 Fuel Transporter 1:72 model 01104 from Trumpeter (no electronics - yet).",
     "categories": "scale models, Craft",
-    "relative_path": "Kraft/PLA/CA30FuelTransporter"
+    "relative_path": "Kraft/PLA/CA30FuelTransporter",
+    "updated_at": "2023-03-19T13:56:19Z"
 }

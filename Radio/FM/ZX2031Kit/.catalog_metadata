@@ -3,5 +3,6 @@
     "name": "ZX2031 FM Radio Kit",
     "description": "Building an FM radio kit based on the Silan SC1088 FM receiver chip",
     "categories": "Radio, FM",
-    "relative_path": "Radio/FM/ZX2031Kit"
+    "relative_path": "Radio/FM/ZX2031Kit",
+    "updated_at": "2019-12-08T03:41:04Z"
 }

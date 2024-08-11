@@ -3,5 +3,6 @@
     "name": "OpAmp AM Transmitter",
     "description": "simple AM transmitter with OpAmp carrier/mixer",
     "categories": "Radio, OpAmp",
-    "relative_path": "Radio/AM/OpAmpTransmitter"
+    "relative_path": "Radio/AM/OpAmpTransmitter",
+    "updated_at": "2019-04-05T15:34:36Z"
 }

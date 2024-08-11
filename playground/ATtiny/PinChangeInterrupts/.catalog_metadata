@@ -3,5 +3,6 @@
     "name": "ATtiny Pin Change Interrupts",
     "description": "How to use pin change interrupts with the ATtiny85",
     "categories": "Arduino, AVR",
-    "relative_path": "playground/ATtiny/PinChangeInterrupts"
+    "relative_path": "playground/ATtiny/PinChangeInterrupts",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

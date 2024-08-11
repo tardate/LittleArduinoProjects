@@ -3,5 +3,6 @@
     "name": "ATtiny TotalSleep",
     "description": "test a total power shutdown with an ATtiny85 processor on a breadboard",
     "categories": "Arduino, AVR",
-    "relative_path": "playground/ATtiny/TotalSleep"
+    "relative_path": "playground/ATtiny/TotalSleep",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

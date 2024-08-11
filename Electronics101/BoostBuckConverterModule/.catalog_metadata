@@ -1,7 +1,8 @@
 {
-    "id": "#162", 
-    "name": "BoostBuckConverterModule", 
-    "description": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/BoostBuckConverterModule"
+    "id": "#162",
+    "name": "BoostBuckConverterModule",
+    "description": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
+    "categories": "Power",
+    "relative_path": "Electronics101/BoostBuckConverterModule",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

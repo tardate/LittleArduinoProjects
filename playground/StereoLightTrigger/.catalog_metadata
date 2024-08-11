@@ -1,7 +1,8 @@
 {
-    "id": "#048", 
-    "name": "StereoLightTrigger", 
-    "description": "demo an interrupt-driven method for responding to LDR light threshold triggers", 
-    "categories": "Sensors, Arduino", 
-    "relative_path": "playground/StereoLightTrigger"
+    "id": "#048",
+    "name": "StereoLightTrigger",
+    "description": "demo an interrupt-driven method for responding to LDR light threshold triggers",
+    "categories": "Sensors, Arduino",
+    "relative_path": "playground/StereoLightTrigger",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

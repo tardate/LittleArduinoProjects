@@ -14,6 +14,7 @@ import os
 import re
 import json
 import fnmatch
+import subprocess
 from datetime import datetime
 from xml.etree import ElementTree
 from xml.dom import minidom
@@ -21,12 +22,19 @@ from PIL import Image
 from PIL import ImageOps
 
 
-def pretty_write(doc, file):
+def write_pretty_xml(doc, file):
+    print("Writing {}..".format(file))
     pretty_xml = minidom.parseString(
         ElementTree.tostring(doc, 'utf-8')
     ).toprettyxml(indent="  ")
     with open(file, 'w') as f:
         f.write(pretty_xml)
+
+
+def write_pretty_json(doc, file):
+    print("Writing {}..".format(file))
+    with open(file, 'w') as f:
+        json.dump(doc, f, indent=4)
 
 
 def remove_orientation(image):
@@ -75,6 +83,8 @@ class Catalog(object):
 
         def load_data(filename):
             data = json.load(open(filename, 'r'))
+            if 'updated_at' not in data:
+                data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
             data['relative_path'] = data['relative_path'].lower()
             return data
 
@@ -86,19 +96,20 @@ class Catalog(object):
     def get_project_file(self, relative_path, name='.catalog_metadata'):
         return os.path.join(self.collection_root, relative_path, name)
 
-    def get_project_modified_datetime(self, relative_path, filename='README.md'):
-        indicative_file = self.get_project_file(relative_path, filename)
-        return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
-
+    def get_project_modified_datetime(self, relative_path, filename='.catalog_metadata'):
+        relative_filename = os.path.join(relative_path, filename)
+        git_data = subprocess.check_output(['git', 'log', '-n', '1', '--date=unix', relative_filename])
+        ts_match = re.search(r'Date:\s+(?P<ts>\d+)', str(git_data), re.MULTILINE)
+        if ts_match:
+            return datetime.utcfromtimestamp(int(ts_match.group('ts')))
+        else:
+            indicative_file = self.get_project_file(relative_path, filename)
+            return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
-        print("Writing {}..".format(self.catalog_json))
-        with open(self.catalog_json, 'w') as f:
-            json.dump(self.metadata(), f, indent=4)
-        print("Writing {}..".format(self.data_catalog_json))
-        with open(self.data_catalog_json, 'w') as f:
-            json.dump(self.metadata(), f, indent=4)
+        write_pretty_json(self.metadata(), self.catalog_json)
+        write_pretty_json(self.metadata(), self.data_catalog_json)
 
     def generate_project_data(self):
         def project_data():
@@ -112,14 +123,11 @@ class Catalog(object):
                 }
             return result
 
-        print("Writing {}..".format(self.data_project_json))
-        with open(self.data_project_json, 'w') as f:
-            json.dump(project_data(), f, indent=4)
+        write_pretty_json(project_data(), self.data_project_json)
 
     def generate_atom_feed(self):
         """ Command: re-writes the atom feed file from catalog_metadata. """
 
-        print("Writing {}..".format(self.catalog_atom))
         root = ElementTree.Element('feed', xmlns='http://www.w3.org/2005/Atom')
         root.set('xmlns:g', 'http://base.google.com/ns/1.0')
         ElementTree.SubElement(root, "title").text = "LEAP: Little Electronic and Arduino Projects"
@@ -145,12 +153,11 @@ class Catalog(object):
                 hero_image_file
             )
             update_thumbnail(self.get_project_file(asset_path, hero_image_file))
-            updated_at = self.get_project_modified_datetime(asset_path, hero_image_file)
             doc = ElementTree.SubElement(root, "entry")
             ElementTree.SubElement(doc, "id").text = url
             ElementTree.SubElement(doc, "link", href=url)
             ElementTree.SubElement(doc, "g:image_link").text = hero_image_url
-            ElementTree.SubElement(doc, "updated").text = updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
+            ElementTree.SubElement(doc, "updated").text = entry['updated_at']
             ElementTree.SubElement(doc, "title").text = u'{} {}'.format(entry['id'], entry['name'])
             ElementTree.SubElement(doc, "summary").text = entry['description']
 
@@ -162,12 +169,11 @@ class Catalog(object):
             for category in entry['categories'].split(', '):
                 ElementTree.SubElement(doc, 'category', term=category)
 
-        pretty_write(root, self.catalog_atom)
+        write_pretty_xml(root, self.catalog_atom)
 
     def generate_sitemap(self):
         """ Command: re-writes the atom feed file from catalog_metadata. """
 
-        print("Writing {}..".format(self.catalog_sitemap))
         root = ElementTree.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
 
         for entry in self.metadata():
@@ -175,7 +181,7 @@ class Catalog(object):
             doc = ElementTree.SubElement(root, 'url')
             ElementTree.SubElement(doc, 'loc').text = url
 
-        pretty_write(root, self.catalog_sitemap)
+        write_pretty_xml(root, self.catalog_sitemap)
 
     def rebuild(self):
         """ Command: rebuild catalog assets from metadata. """
@@ -183,6 +189,13 @@ class Catalog(object):
         self.generate_project_data()
         self.generate_atom_feed()
         self.generate_sitemap()
+
+    def fix_publication_dates(self):
+        for filename in self.metadata_files():
+            data = json.load(open(filename, 'r'))
+            if 'updated_at' not in data:
+                data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
+                write_pretty_json(data, filename)
 
 
 if __name__ == '__main__':

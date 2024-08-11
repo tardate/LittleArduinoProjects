@@ -1,7 +1,8 @@
 {
-    "id": "#403", 
-    "name": "GY560", 
-    "description": "checking out the GY560 Frequency Counter", 
-    "categories": "Radio, Tools, Test Equipment", 
-    "relative_path": "Equipment/GY560"
+    "id": "#403",
+    "name": "GY560",
+    "description": "checking out the GY560 Frequency Counter",
+    "categories": "Radio, Tools, Test Equipment",
+    "relative_path": "Equipment/GY560",
+    "updated_at": "2018-09-18T12:38:41Z"
 }

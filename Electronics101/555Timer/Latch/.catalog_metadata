@@ -3,5 +3,6 @@
     "name": "Push-button Latch",
     "description": "Testing a simple push-button latched switch circuit for on/off control using the 555 timer",
     "categories": "555 Timer",
-    "relative_path": "Electronics101/555Timer/Latch"
+    "relative_path": "Electronics101/555Timer/Latch",
+    "updated_at": "2023-02-07T13:39:25Z"
 }

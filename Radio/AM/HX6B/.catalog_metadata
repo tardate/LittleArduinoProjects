@@ -1,7 +1,8 @@
 {
-    "id": "#123", 
-    "name": "HX6B", 
-    "description": "build and analyse the HX-6B superheterodyne AM MW radio receiver kit", 
-    "categories": "Radio, AM", 
-    "relative_path": "Radio/AM/HX6B"
+    "id": "#123",
+    "name": "HX6B",
+    "description": "build and analyse the HX-6B superheterodyne AM MW radio receiver kit",
+    "categories": "Radio, AM",
+    "relative_path": "Radio/AM/HX6B",
+    "updated_at": "2019-03-12T11:24:48Z"
 }

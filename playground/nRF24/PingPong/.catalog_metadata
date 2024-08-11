@@ -1,7 +1,8 @@
 {
-    "id": "#187", 
-    "name": "nRF24/PingPong", 
-    "description": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF", 
-    "categories": "nRF24, Arduino", 
-    "relative_path": "playground/nRF24/PingPong"
+    "id": "#187",
+    "name": "nRF24/PingPong",
+    "description": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF",
+    "categories": "nRF24, Arduino",
+    "relative_path": "playground/nRF24/PingPong",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

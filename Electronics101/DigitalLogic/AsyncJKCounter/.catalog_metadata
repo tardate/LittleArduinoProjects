@@ -3,5 +3,6 @@
     "name": "Asynchronous JK Counter",
     "description": "an asynchronous 4-bit counter built with JK Flip-Flops",
     "categories": "CMOS/TTL, Digital Logic",
-    "relative_path": "Electronics101/DigitalLogic/AsyncJKCounter"
+    "relative_path": "Electronics101/DigitalLogic/AsyncJKCounter",
+    "updated_at": "2019-09-07T08:50:36Z"
 }

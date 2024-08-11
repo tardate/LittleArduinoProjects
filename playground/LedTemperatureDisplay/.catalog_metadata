@@ -3,5 +3,6 @@
     "name": "7-Segment Temperature Display",
     "description": "Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit",
     "categories": "Sensors, LM35, 7-Segment, Arduino",
-    "relative_path": "playground/LedTemperatureDisplay"
+    "relative_path": "playground/LedTemperatureDisplay",
+    "updated_at": "2021-08-15T13:42:05Z"
 }

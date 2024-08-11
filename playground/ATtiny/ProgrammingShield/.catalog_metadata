@@ -3,5 +3,6 @@
     "name": "ATtiny Programming Shield",
     "description": "a custom ATtiny programming shield for Arduino ISP",
     "categories": "Arduino, AVR",
-    "relative_path": "playground/ATtiny/ProgrammingShield"
+    "relative_path": "playground/ATtiny/ProgrammingShield",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

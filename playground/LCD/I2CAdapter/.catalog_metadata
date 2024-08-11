@@ -1,7 +1,8 @@
 {
-    "id": "#398", 
-    "name": "LCD I2C Adapter", 
-    "description": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD", 
-    "categories": "LCD, I2C", 
-    "relative_path": "playground/LCD/I2CAdapter"
+    "id": "#398",
+    "name": "LCD I2C Adapter",
+    "description": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD",
+    "categories": "LCD, I2C",
+    "relative_path": "playground/LCD/I2CAdapter",
+    "updated_at": "2018-06-10T15:08:14Z"
 }

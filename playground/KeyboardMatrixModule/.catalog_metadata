@@ -1,7 +1,8 @@
 {
-    "id": "#303", 
-    "name": "KeyboardMatrixModule", 
-    "description": "demo a simple pushbutton/LED matrix module", 
-    "categories": "Arduino, LED, Human Input", 
-    "relative_path": "playground/KeyboardMatrixModule"
+    "id": "#303",
+    "name": "KeyboardMatrixModule",
+    "description": "demo a simple pushbutton/LED matrix module",
+    "categories": "Arduino, LED, Human Input",
+    "relative_path": "playground/KeyboardMatrixModule",
+    "updated_at": "2015-12-13T12:52:40Z"
 }

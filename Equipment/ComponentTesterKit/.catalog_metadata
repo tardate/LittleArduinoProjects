@@ -1,7 +1,8 @@
 {
-    "id": "#278", 
-    "name": "ComponentTesterKit", 
-    "description": "build and evaluate a popular ATMEAG328-based component tester kit", 
-    "categories": "Tools, Test Equipment, ATmega", 
-    "relative_path": "Equipment/ComponentTesterKit"
+    "id": "#278",
+    "name": "ComponentTesterKit",
+    "description": "build and evaluate a popular ATMEAG328-based component tester kit",
+    "categories": "Tools, Test Equipment, ATmega",
+    "relative_path": "Equipment/ComponentTesterKit",
+    "updated_at": "2016-12-05T15:30:21Z"
 }

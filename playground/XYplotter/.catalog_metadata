@@ -1,7 +1,8 @@
 {
-    "id": "#265", 
-    "name": "XYplotter", 
-    "description": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree", 
-    "categories": "Arduino, Digital Pot, MCP42010, Oscilloscope", 
-    "relative_path": "playground/XYplotter"
+    "id": "#265",
+    "name": "XYplotter",
+    "description": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree",
+    "categories": "Arduino, Digital Pot, MCP42010, Oscilloscope",
+    "relative_path": "playground/XYplotter",
+    "updated_at": "2016-11-05T05:06:57Z"
 }

@@ -3,5 +3,6 @@
     "name": "ThreeStageTransmitter",
     "description": "an ugly-style-in-a-can build of dazaro3's 3-stage FM transmitter circuit",
     "categories": "Radio, FM",
-    "relative_path": "Radio/FM/ThreeStageTransmitter"
+    "relative_path": "Radio/FM/ThreeStageTransmitter",
+    "updated_at": "2019-08-04T11:25:24Z"
 }

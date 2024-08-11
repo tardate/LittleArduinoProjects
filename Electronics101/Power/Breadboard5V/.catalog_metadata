@@ -3,5 +3,6 @@
     "name": "5V Breadboard Regulator",
     "description": "an LM7805 5V regulated power supply on breadboard-compatible protobboard",
     "categories": "Breadboard Bling, Power",
-    "relative_path": "Electronics101/Power/Breadboard5V"
+    "relative_path": "Electronics101/Power/Breadboard5V",
+    "updated_at": "2019-12-14T09:56:20Z"
 }

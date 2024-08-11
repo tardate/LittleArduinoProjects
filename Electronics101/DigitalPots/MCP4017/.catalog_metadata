@@ -1,7 +1,8 @@
 {
-    "id": "#261", 
-    "name": "DigitalPots/MCP4017", 
-    "description": "control the MCP4017 single 7-Bit I\u00b2C digital potentiometer with an Arduino", 
-    "categories": "Arduino, Digital Pot, MCP4017", 
-    "relative_path": "Electronics101/DigitalPots/MCP4017"
+    "id": "#261",
+    "name": "DigitalPots/MCP4017",
+    "description": "control the MCP4017 single 7-Bit I\u00b2C digital potentiometer with an Arduino",
+    "categories": "Arduino, Digital Pot, MCP4017",
+    "relative_path": "Electronics101/DigitalPots/MCP4017",
+    "updated_at": "2016-10-23T13:30:36Z"
 }

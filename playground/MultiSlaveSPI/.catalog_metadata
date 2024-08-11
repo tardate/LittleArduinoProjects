@@ -1,7 +1,8 @@
 {
-    "id": "#190", 
-    "name": "MultiSlaveSPI", 
-    "description": "using SPI to control multiple devices that support an SPIish interface", 
-    "categories": "SPI, Arduino", 
-    "relative_path": "playground/MultiSlaveSPI"
+    "id": "#190",
+    "name": "MultiSlaveSPI",
+    "description": "using SPI to control multiple devices that support an SPIish interface",
+    "categories": "SPI, Arduino",
+    "relative_path": "playground/MultiSlaveSPI",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

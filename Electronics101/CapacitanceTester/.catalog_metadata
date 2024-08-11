@@ -1,7 +1,8 @@
 {
-    "id": "#057", 
-    "name": "CapacitanceTester", 
-    "description": "capacitor tester with LCD output", 
-    "categories": "LCD, RC, Arduino", 
-    "relative_path": "Electronics101/CapacitanceTester"
+    "id": "#057",
+    "name": "CapacitanceTester",
+    "description": "capacitor tester with LCD output",
+    "categories": "LCD, RC, Arduino",
+    "relative_path": "Electronics101/CapacitanceTester",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

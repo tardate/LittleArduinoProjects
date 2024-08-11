@@ -3,5 +3,6 @@
     "name": "ATtiny Hardware Interrupt",
     "description": "test hardware interrupts with an ATtiny85 processor on a breadboard",
     "categories": "Arduino, AVR",
-    "relative_path": "playground/ATtiny/HardwareInterrupt"
+    "relative_path": "playground/ATtiny/HardwareInterrupt",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

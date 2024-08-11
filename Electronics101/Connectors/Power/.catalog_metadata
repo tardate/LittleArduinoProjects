@@ -1,7 +1,8 @@
 {
-    "id": "#329", 
-    "name": "PowerConnectors", 
-    "description": "obsessing over all manner of DC power connectors", 
-    "categories": "Power", 
-    "relative_path": "Electronics101/Connectors/Power"
+    "id": "#329",
+    "name": "PowerConnectors",
+    "description": "obsessing over all manner of DC power connectors",
+    "categories": "Power",
+    "relative_path": "Electronics101/Connectors/Power",
+    "updated_at": "2017-10-08T12:15:54Z"
 }

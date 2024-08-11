@@ -1,7 +1,8 @@
 {
-    "id": "#260", 
-    "name": "SaleaeLogic", 
-    "description": "checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!)", 
-    "categories": "Tools, Test Equipment, Logic Analyzer", 
-    "relative_path": "Equipment/SaleaeLogic"
+    "id": "#260",
+    "name": "SaleaeLogic",
+    "description": "checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!)",
+    "categories": "Tools, Test Equipment, Logic Analyzer",
+    "relative_path": "Equipment/SaleaeLogic",
+    "updated_at": "2016-10-22T13:39:15Z"
 }

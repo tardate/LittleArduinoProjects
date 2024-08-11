@@ -1,7 +1,8 @@
 {
-    "id": "#263", 
-    "name": "BoldportClub/ligemdio", 
-    "description": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)", 
-    "categories": "Boldport, PCB Design, LED, BJT", 
-    "relative_path": "BoldportClub/ligemdio"
+    "id": "#263",
+    "name": "BoldportClub/ligemdio",
+    "description": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)",
+    "categories": "Boldport, PCB Design, LED, BJT",
+    "relative_path": "BoldportClub/ligemdio",
+    "updated_at": "2016-11-08T18:02:04Z"
 }

@@ -1,7 +1,8 @@
 {
     "id": "#751",
     "name": "Type 97 ChiHa in Malaya",
-    "description": "A Type 97 Chi-Ha チハ roaring down the Malayan peninsula in 1941. This is the old Airfix 1:76 kit with a couple of infantry figures, echoing a pretty well-known picture. No electronics in this one.",
+    "description": "A Type 97 Chi-Ha \u30c1\u30cf roaring down the Malayan peninsula in 1941. This is the old Airfix 1:76 kit with a couple of infantry figures, echoing a pretty well-known picture. No electronics in this one.",
     "categories": "scale models, Craft",
-    "relative_path": "Kraft/IJA/Type97/Malaya1941"
+    "relative_path": "Kraft/IJA/Type97/Malaya1941",
+    "updated_at": "2024-08-11T05:32:38Z"
 }

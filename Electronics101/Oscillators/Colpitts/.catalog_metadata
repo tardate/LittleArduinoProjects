@@ -1,7 +1,8 @@
 {
-    "id": "#180", 
-    "name": "ColpittsOscillator", 
-    "description": "testing a basic Colpitts Oscillator circuit", 
-    "categories": "LC, Oscillators", 
-    "relative_path": "Electronics101/Oscillators/Colpitts"
+    "id": "#180",
+    "name": "ColpittsOscillator",
+    "description": "testing a basic Colpitts Oscillator circuit",
+    "categories": "LC, Oscillators",
+    "relative_path": "Electronics101/Oscillators/Colpitts",
+    "updated_at": "2018-10-07T15:44:30Z"
 }

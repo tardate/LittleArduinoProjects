@@ -1,7 +1,8 @@
 {
-    "id": "#340", 
-    "name": "BoldportClub/IxpandO", 
-    "description": "an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input", 
-    "categories": "Boldport, PCB Design, Port Expander", 
-    "relative_path": "BoldportClub/IxpandO"
+    "id": "#340",
+    "name": "BoldportClub/IxpandO",
+    "description": "an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input",
+    "categories": "Boldport, PCB Design, Port Expander",
+    "relative_path": "BoldportClub/IxpandO",
+    "updated_at": "2017-09-10T15:58:21Z"
 }

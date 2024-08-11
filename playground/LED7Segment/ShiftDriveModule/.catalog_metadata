@@ -3,5 +3,6 @@
     "name": "7-Segment Shift Drive Module",
     "description": "a custom 7-segment LED display module PCB with 74HC595 shift register interface",
     "categories": "7-Segment, CMOS/TTL, Arduino, PCB",
-    "relative_path": "playground/LED7Segment/ShiftDriveModule"
+    "relative_path": "playground/LED7Segment/ShiftDriveModule",
+    "updated_at": "2020-10-02T13:02:32Z"
 }

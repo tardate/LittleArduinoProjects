@@ -3,5 +3,6 @@
     "name": "ATtiny Software PWM",
     "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques",
     "categories": "AVR, PWM",
-    "relative_path": "playground/ATtiny/SoftwarePWM"
+    "relative_path": "playground/ATtiny/SoftwarePWM",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

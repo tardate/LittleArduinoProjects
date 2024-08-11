@@ -3,5 +3,6 @@
     "name": "CapacitiveDropper",
     "description": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit",
     "categories": "Power",
-    "relative_path": "Electronics101/Power/CapacitiveDropper"
+    "relative_path": "Electronics101/Power/CapacitiveDropper",
+    "updated_at": "2019-04-21T04:37:13Z"
 }

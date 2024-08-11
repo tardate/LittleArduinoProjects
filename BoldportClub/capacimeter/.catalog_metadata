@@ -3,5 +3,6 @@
     "name": "Capacimeter",
     "description": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018",
     "categories": "Boldport, Tools, Test Equipment",
-    "relative_path": "BoldportClub/capacimeter"
+    "relative_path": "BoldportClub/capacimeter",
+    "updated_at": "2021-11-23T11:14:19Z"
 }

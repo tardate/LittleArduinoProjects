@@ -3,5 +3,6 @@
     "name": "NOR Gate with Resistor-Transistor Logic",
     "description": "test the basic resistor-transistor logic NOR gate ",
     "categories": "BJT, RTL, Digital Logic",
-    "relative_path": "Electronics101/ResistorTransistorLogic/NOR"
+    "relative_path": "Electronics101/ResistorTransistorLogic/NOR",
+    "updated_at": "2020-09-20T04:39:01Z"
 }

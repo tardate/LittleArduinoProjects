@@ -1,7 +1,8 @@
 {
-    "id": "#333", 
-    "name": "VoltageSelfMeasurement", 
-    "description": "self-measurement of an Arduino's supply voltage (Vcc)", 
-    "categories": "Arduino, ADC", 
-    "relative_path": "playground/VoltageSelfMeasurement"
+    "id": "#333",
+    "name": "VoltageSelfMeasurement",
+    "description": "self-measurement of an Arduino's supply voltage (Vcc)",
+    "categories": "Arduino, ADC",
+    "relative_path": "playground/VoltageSelfMeasurement",
+    "updated_at": "2017-08-14T17:10:59Z"
 }

@@ -3,5 +3,6 @@
     "name": "LED Current Control",
     "description": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",
     "categories": "LED, Arduino",
-    "relative_path": "playground/LedCurrentControl"
+    "relative_path": "playground/LedCurrentControl",
+    "updated_at": "2021-10-18T01:40:48Z"
 }

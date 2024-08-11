@@ -1,7 +1,8 @@
 {
-    "id": "#163", 
-    "name": "VariableSawtoothGenerator", 
-    "description": "test a variable-geometry, fixed-amplitude sawtooth wave generator circuit", 
-    "categories": "OpAmp, Oscillators", 
-    "relative_path": "Electronics101/VariableSawtoothGenerator"
+    "id": "#163",
+    "name": "VariableSawtoothGenerator",
+    "description": "test a variable-geometry, fixed-amplitude sawtooth wave generator circuit",
+    "categories": "OpAmp, Oscillators",
+    "relative_path": "Electronics101/VariableSawtoothGenerator",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

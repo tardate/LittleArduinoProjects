@@ -3,5 +3,6 @@
     "name": "Ring Oscillator",
     "description": "test a ring oscillator built with a 74LS14 Inverter chip",
     "categories": "CMOS/TTL, Oscillators",
-    "relative_path": "Electronics101/Oscillators/RingOscillator"
+    "relative_path": "Electronics101/Oscillators/RingOscillator",
+    "updated_at": "2024-04-10T06:17:55Z"
 }

@@ -3,5 +3,6 @@
     "name": "Nano Expansion Board",
     "description": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
     "categories": "Arduino",
-    "relative_path": "playground/Nano/ExpansionBoard"
+    "relative_path": "playground/Nano/ExpansionBoard",
+    "updated_at": "2022-11-22T15:39:59Z"
 }

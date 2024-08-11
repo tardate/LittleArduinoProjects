@@ -3,5 +3,6 @@
     "name": "Beat Bot",
     "description": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune",
     "categories": "555 Timer, Kinetics",
-    "relative_path": "Electronics101/555Timer/BeatBot"
+    "relative_path": "Electronics101/555Timer/BeatBot",
+    "updated_at": "2020-05-31T05:01:55Z"
 }

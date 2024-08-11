@@ -1,7 +1,8 @@
 {
-    "id": "#050", 
-    "name": "Girabot", 
-    "description": "EE40LX Electronic Interfaces robot project", 
-    "categories": "Sensors, OpAmp, Arduino", 
-    "relative_path": "Girabot"
+    "id": "#050",
+    "name": "Girabot",
+    "description": "EE40LX Electronic Interfaces robot project",
+    "categories": "Sensors, OpAmp, Arduino",
+    "relative_path": "Girabot",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

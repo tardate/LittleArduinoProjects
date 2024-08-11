@@ -1,7 +1,8 @@
 {
-    "id": "#100", 
-    "name": "ArdWinVaders", 
-    "description": "an Arduino & OLED version of a classic game", 
-    "categories": "Arduino, OLED", 
-    "relative_path": "playground/OLED/ArdWinVaders"
+    "id": "#100",
+    "name": "ArdWinVaders",
+    "description": "an Arduino & OLED version of a classic game",
+    "categories": "Arduino, OLED",
+    "relative_path": "playground/OLED/ArdWinVaders",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

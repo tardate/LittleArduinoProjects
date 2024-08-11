@@ -3,5 +3,6 @@
     "name": "H823 Audio Effects Chip",
     "description": "figuring out how to use the H823 \"Happy Birthday\" music chip",
     "categories": "Audio, Music Chips",
-    "relative_path": "Audio/AudioEffectsChips/H823"
+    "relative_path": "Audio/AudioEffectsChips/H823",
+    "updated_at": "2019-09-25T15:49:49Z"
 }

@@ -3,5 +3,6 @@
     "name": "CMOS Oscillators",
     "description": "testing 4-pin CMOS oscillators - NCH060C, MCO-1510A",
     "categories": "CMOS, Oscillators",
-    "relative_path": "Electronics101/Oscillators/CMOSOscillators"
+    "relative_path": "Electronics101/Oscillators/CMOSOscillators",
+    "updated_at": "2019-04-17T13:05:46Z"
 }

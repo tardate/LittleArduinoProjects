@@ -1,7 +1,8 @@
 {
-    "id": "#377", 
-    "name": "Nokia 5110 Shield", 
-    "description": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping", 
-    "categories": "LCD, Arduino", 
-    "relative_path": "playground/Lcd5110/DIYShield"
+    "id": "#377",
+    "name": "Nokia 5110 Shield",
+    "description": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping",
+    "categories": "LCD, Arduino",
+    "relative_path": "playground/Lcd5110/DIYShield",
+    "updated_at": "2018-02-08T16:06:26Z"
 }

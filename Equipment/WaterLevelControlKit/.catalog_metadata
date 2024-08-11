@@ -3,5 +3,6 @@
     "name": "Water-Level Control Kit",
     "description": "Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.",
     "categories": "OpAmp, Control",
-    "relative_path": "Equipment/WaterLevelControlKit"
+    "relative_path": "Equipment/WaterLevelControlKit",
+    "updated_at": "2022-04-05T05:55:11Z"
 }

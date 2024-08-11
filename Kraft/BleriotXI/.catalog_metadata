@@ -1,7 +1,8 @@
 {
     "id": "#683",
-    "name": "Blériot XI",
-    "description": "Making a Blériot XI keeper of the spare keys - an Aerobase kit from Japan encased in epoxy resin (no electronics).",
+    "name": "Bl\u00e9riot XI",
+    "description": "Making a Bl\u00e9riot XI keeper of the spare keys - an Aerobase kit from Japan encased in epoxy resin (no electronics).",
     "categories": "scale models, Craft, resin",
-    "relative_path": "Kraft/BleriotXI"
+    "relative_path": "Kraft/BleriotXI",
+    "updated_at": "2023-01-11T13:53:30Z"
 }

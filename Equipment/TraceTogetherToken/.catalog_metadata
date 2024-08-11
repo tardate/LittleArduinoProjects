@@ -3,5 +3,6 @@
     "name": "TraceTogether Token",
     "description": "Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code",
     "categories": "BLE, ARM",
-    "relative_path": "Equipment/TraceTogetherToken"
+    "relative_path": "Equipment/TraceTogetherToken",
+    "updated_at": "2020-11-07T08:31:18Z"
 }

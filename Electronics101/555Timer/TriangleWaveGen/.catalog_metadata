@@ -1,7 +1,8 @@
 {
-    "id": "#031", 
-    "name": "Triangle Wave - 555", 
-    "description": "generate a triangle wave with 555 timer astable oscillator and RC integrator", 
-    "categories": "555 Timer, Oscillators", 
-    "relative_path": "Electronics101/555Timer/TriangleWaveGen"
+    "id": "#031",
+    "name": "Triangle Wave - 555",
+    "description": "generate a triangle wave with 555 timer astable oscillator and RC integrator",
+    "categories": "555 Timer, Oscillators",
+    "relative_path": "Electronics101/555Timer/TriangleWaveGen",
+    "updated_at": "2017-05-22T12:36:50Z"
 }

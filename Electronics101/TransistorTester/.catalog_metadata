@@ -3,5 +3,6 @@
     "name": "Transistor Tester",
     "description": "use an Arduino to test NPN and PNP BJTs",
     "categories": "Arduino, BJT",
-    "relative_path": "Electronics101/TransistorTester"
+    "relative_path": "Electronics101/TransistorTester",
+    "updated_at": "2019-09-07T08:50:36Z"
 }

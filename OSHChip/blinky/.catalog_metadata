@@ -1,7 +1,8 @@
 {
-    "id": "#213", 
-    "name": "OSHChip/blinky", 
-    "description": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging", 
-    "categories": "ARM, OSHChip", 
-    "relative_path": "OSHChip/blinky"
+    "id": "#213",
+    "name": "OSHChip/blinky",
+    "description": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging",
+    "categories": "ARM, OSHChip",
+    "relative_path": "OSHChip/blinky",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

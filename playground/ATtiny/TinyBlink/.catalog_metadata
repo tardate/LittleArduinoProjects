@@ -3,5 +3,6 @@
     "name": "TinyBlink",
     "description": "a simple blink sketch with an ATTINY85-20PU on a breadboard",
     "categories": "Arduino, AVR",
-    "relative_path": "playground/ATtiny/TinyBlink"
+    "relative_path": "playground/ATtiny/TinyBlink",
+    "updated_at": "2020-02-17T17:45:56Z"
 }

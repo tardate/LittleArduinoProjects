@@ -3,5 +3,6 @@
     "name": "555 PWM Motor Control",
     "description": "Testing small DC motor control with a 555 time PWM signal",
     "categories": "555 Timer, Motors",
-    "relative_path": "Electronics101/555Timer/PwmMotorControl"
+    "relative_path": "Electronics101/555Timer/PwmMotorControl",
+    "updated_at": "2020-11-20T14:41:46Z"
 }

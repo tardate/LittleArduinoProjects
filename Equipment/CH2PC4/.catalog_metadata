@@ -3,5 +3,6 @@
     "name": "CH2PC4 NiMH Charger",
     "description": "A few quick notes on the Energizer NiMH charger CH2PC4",
     "categories": "Power",
-    "relative_path": "Equipment/CH2PC4"
+    "relative_path": "Equipment/CH2PC4",
+    "updated_at": "2023-02-07T10:26:05Z"
 }

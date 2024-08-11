@@ -1,7 +1,8 @@
 {
-    "id": "#160", 
-    "name": "LM324/SplitterBuffer", 
-    "description": "demonstrate load-independance of an LM324 buffer and signal splitter", 
-    "categories": "OpAmp", 
-    "relative_path": "Electronics101/LM324/SplitterBuffer"
+    "id": "#160",
+    "name": "LM324/SplitterBuffer",
+    "description": "demonstrate load-independance of an LM324 buffer and signal splitter",
+    "categories": "OpAmp",
+    "relative_path": "Electronics101/LM324/SplitterBuffer",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

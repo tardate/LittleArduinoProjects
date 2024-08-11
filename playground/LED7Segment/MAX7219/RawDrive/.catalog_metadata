@@ -3,5 +3,6 @@
     "name": "Raw MAX7219 7-Segment LED Driver",
     "description": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands",
     "categories": "7-Segment, Arduino, LED, MAX7219",
-    "relative_path": "playground/LED7Segment/MAX7219/RawDrive"
+    "relative_path": "playground/LED7Segment/MAX7219/RawDrive",
+    "updated_at": "2019-05-02T16:17:15Z"
 }

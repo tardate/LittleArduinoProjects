@@ -3,5 +3,6 @@
     "name": "Discrete Schmitt Trigger",
     "description": "Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components",
     "categories": "Schmitt, BJT",
-    "relative_path": "Electronics101/SchmittTrigger/BasicDiscrete"
+    "relative_path": "Electronics101/SchmittTrigger/BasicDiscrete",
+    "updated_at": "2020-03-28T11:39:15Z"
 }

@@ -3,5 +3,6 @@
     "name": "Polarity Tester",
     "description": "Demonstrate a polarity-testing circuit using the CD4069 inverter",
     "categories": "CMOS/TTL",
-    "relative_path": "Electronics101/PolarityTester"
+    "relative_path": "Electronics101/PolarityTester",
+    "updated_at": "2022-05-24T04:49:42Z"
 }

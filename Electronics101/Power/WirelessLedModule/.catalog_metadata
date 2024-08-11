@@ -3,5 +3,6 @@
     "name": "XKT-511 Wireless LED Module",
     "description": "Investigating a wireless LED power module based on the XKT-511 chip",
     "categories": "Power, Wireless, LED",
-    "relative_path": "Electronics101/Power/WirelessLedModule"
+    "relative_path": "Electronics101/Power/WirelessLedModule",
+    "updated_at": "2022-07-12T16:13:31Z"
 }

@@ -3,5 +3,6 @@
     "name": "Single-stage FM Transmitter Kit",
     "description": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit",
     "categories": "Radio, FM, Transmitter",
-    "relative_path": "Radio/FM/SingleStageTransmitterKit"
+    "relative_path": "Radio/FM/SingleStageTransmitterKit",
+    "updated_at": "2019-08-04T11:25:24Z"
 }

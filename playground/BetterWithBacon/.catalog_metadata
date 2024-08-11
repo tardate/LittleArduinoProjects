@@ -1,7 +1,8 @@
 {
-    "id": "#006", 
-    "name": "It's Better With Bacon", 
-    "description": "simple LCD test", 
-    "categories": "LCD, Arduino", 
-    "relative_path": "playground/BetterWithBacon"
+    "id": "#006",
+    "name": "It's Better With Bacon",
+    "description": "simple LCD test",
+    "categories": "LCD, Arduino",
+    "relative_path": "playground/BetterWithBacon",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

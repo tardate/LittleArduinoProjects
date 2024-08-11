@@ -3,5 +3,6 @@
     "name": "Ted's LED Clock",
     "description": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A",
     "categories": "PIC, LED, Circuit Sculpture, Freeform",
-    "relative_path": "PIC/TedsClock"
+    "relative_path": "PIC/TedsClock",
+    "updated_at": "2021-04-05T08:52:23Z"
 }

@@ -3,5 +3,6 @@
     "name": "Using C++ Templates",
     "description": "Learning how to use C++ template functions in embedded projects with an Arduino",
     "categories": "Arduino, C++",
-    "relative_path": "playground/UsingTemplates"
+    "relative_path": "playground/UsingTemplates",
+    "updated_at": "2019-07-21T17:15:49Z"
 }

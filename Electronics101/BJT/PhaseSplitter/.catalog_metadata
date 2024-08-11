@@ -1,7 +1,8 @@
 {
-    "id": "#378", 
-    "name": "BJT Phase Splitter", 
-    "description": "simple unity-gain phase splitter in a little breadboard-compatible package", 
-    "categories": "BJT, Signals", 
-    "relative_path": "Electronics101/BJT/PhaseSplitter"
+    "id": "#378",
+    "name": "BJT Phase Splitter",
+    "description": "simple unity-gain phase splitter in a little breadboard-compatible package",
+    "categories": "BJT, Signals",
+    "relative_path": "Electronics101/BJT/PhaseSplitter",
+    "updated_at": "2018-02-11T14:25:33Z"
 }

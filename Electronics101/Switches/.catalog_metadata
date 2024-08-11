@@ -1,7 +1,8 @@
 {
-    "id": "#243", 
-    "name": "Switches", 
-    "description": "Notes on miscellaneous mechanical switches used in electrical circuits", 
-    "categories": "Switches", 
-    "relative_path": "Electronics101/Switches"
+    "id": "#243",
+    "name": "Switches",
+    "description": "Notes on miscellaneous mechanical switches used in electrical circuits",
+    "categories": "Switches",
+    "relative_path": "Electronics101/Switches",
+    "updated_at": "2016-09-19T15:45:05Z"
 }

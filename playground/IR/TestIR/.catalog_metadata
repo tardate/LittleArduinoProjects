@@ -3,5 +3,6 @@
     "name": "Raw Arduino Infrared",
     "description": "test raw IR reception with a TSOP1838-type IR sensor and an Arduino",
     "categories": "IR, Arduino",
-    "relative_path": "playground/IR/TestIR"
+    "relative_path": "playground/IR/TestIR",
+    "updated_at": "2022-02-21T17:33:20Z"
 }

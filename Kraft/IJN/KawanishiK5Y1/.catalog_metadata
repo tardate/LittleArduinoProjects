@@ -1,7 +1,8 @@
 {
     "id": "#599",
     "name": "Kawanishi K5Y1 Tensegrity Stand",
-    "description": "Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 赤とんぼ (Willow)",
+    "description": "Experimenting with tensegrity model mounting, using as a subject the ARII 1:72 Kawanishi K5Y1 \u8d64\u3068\u3093\u307c (Willow)",
     "categories": "scale models, Craft",
-    "relative_path": "Kraft/IJN/KawanishiK5Y1"
+    "relative_path": "Kraft/IJN/KawanishiK5Y1",
+    "updated_at": "2023-08-20T15:44:45Z"
 }

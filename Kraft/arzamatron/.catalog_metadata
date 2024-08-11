@@ -3,5 +3,6 @@
     "name": "Arza-matron",
     "description": "whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips",
     "categories": "Arduino, LED, Sensors, Craft",
-    "relative_path": "Kraft/arzamatron"
+    "relative_path": "Kraft/arzamatron",
+    "updated_at": "2019-04-22T12:07:30Z"
 }

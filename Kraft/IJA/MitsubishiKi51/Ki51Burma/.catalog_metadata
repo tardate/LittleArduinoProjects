@@ -1,7 +1,8 @@
 {
     "id": "#745",
-    "name": "キ51 over Burma 1942",
+    "name": "\u30ad51 over Burma 1942",
     "description": "Building the ClearProp Ki-51 Sonia 1:144 with a motorized prop and a camo scheme as used in Burma 1942",
     "categories": "scale models, Craft",
-    "relative_path": "Kraft/IJA/MitsubishiKi51/Ki51Burma"
+    "relative_path": "Kraft/IJA/MitsubishiKi51/Ki51Burma",
+    "updated_at": "2024-04-18T14:28:56Z"
 }

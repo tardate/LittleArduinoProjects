@@ -1,7 +1,8 @@
 {
-    "id": "#116", 
-    "name": "Switch - NJFET", 
-    "description": "switch an independent power source using an Arduino and n-channel JFET", 
-    "categories": "JFET, Arduino", 
-    "relative_path": "Electronics101/SwitchNJFET"
+    "id": "#116",
+    "name": "Switch - NJFET",
+    "description": "switch an independent power source using an Arduino and n-channel JFET",
+    "categories": "JFET, Arduino",
+    "relative_path": "Electronics101/SwitchNJFET",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

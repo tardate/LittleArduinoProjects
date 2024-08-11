@@ -1,7 +1,8 @@
 {
-    "id": "#259", 
-    "name": "DigitalPots/M62429", 
-    "description": "control the M62429 dual channel volume control with an Arduino", 
-    "categories": "Arduino, Digital Pot, M62429", 
-    "relative_path": "Electronics101/DigitalPots/M62429"
+    "id": "#259",
+    "name": "DigitalPots/M62429",
+    "description": "control the M62429 dual channel volume control with an Arduino",
+    "categories": "Arduino, Digital Pot, M62429",
+    "relative_path": "Electronics101/DigitalPots/M62429",
+    "updated_at": "2016-10-22T10:04:15Z"
 }

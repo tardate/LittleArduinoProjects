@@ -3,5 +3,6 @@
     "name": "Code Practice Oscillator",
     "description": "Build and test a simple 2-transistor code practice oscillator",
     "categories": "BJT, RC, Oscillators",
-    "relative_path": "Radio/CodePracticeOscillator"
+    "relative_path": "Radio/CodePracticeOscillator",
+    "updated_at": "2022-11-08T15:36:38Z"
 }

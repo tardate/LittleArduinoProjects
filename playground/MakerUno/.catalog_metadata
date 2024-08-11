@@ -1,7 +1,8 @@
 {
-    "id": "#423", 
-    "name": "MakerUno", 
-    "description": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia", 
-    "categories": "Arduino", 
-    "relative_path": "playground/MakerUno"
+    "id": "#423",
+    "name": "MakerUno",
+    "description": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia",
+    "categories": "Arduino",
+    "relative_path": "playground/MakerUno",
+    "updated_at": "2018-10-11T17:28:40Z"
 }

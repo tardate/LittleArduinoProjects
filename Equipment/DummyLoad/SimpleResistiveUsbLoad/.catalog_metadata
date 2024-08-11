@@ -3,5 +3,6 @@
     "name": "Simple USB Dummy Load",
     "description": "Examining and testing a simple USB resistive dummy load",
     "categories": "USB, Dummy Load",
-    "relative_path": "Equipment/DummyLoad/SimpleResistiveUsbLoad"
+    "relative_path": "Equipment/DummyLoad/SimpleResistiveUsbLoad",
+    "updated_at": "2019-12-06T12:58:19Z"
 }

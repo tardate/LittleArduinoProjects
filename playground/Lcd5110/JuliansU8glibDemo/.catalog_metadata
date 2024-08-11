@@ -1,7 +1,8 @@
 {
-    "id": "#149", 
-    "name": "Lcd5110/JuliansU8glibDemo", 
-    "description": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library", 
-    "categories": "LCD, Arduino", 
-    "relative_path": "playground/Lcd5110/JuliansU8glibDemo"
+    "id": "#149",
+    "name": "Lcd5110/JuliansU8glibDemo",
+    "description": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library",
+    "categories": "LCD, Arduino",
+    "relative_path": "playground/Lcd5110/JuliansU8glibDemo",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

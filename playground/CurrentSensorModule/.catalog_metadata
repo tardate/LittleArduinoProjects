@@ -1,7 +1,8 @@
 {
-    "id": "#168", 
-    "name": "CurrentSensorModule", 
-    "description": "test an ACS712 current sensor module with display on a 5110 LCD", 
-    "categories": "Sensors, Arduino", 
-    "relative_path": "playground/CurrentSensorModule"
+    "id": "#168",
+    "name": "CurrentSensorModule",
+    "description": "test an ACS712 current sensor module with display on a 5110 LCD",
+    "categories": "Sensors, Arduino",
+    "relative_path": "playground/CurrentSensorModule",
+    "updated_at": "2017-12-31T04:01:08Z"
 }

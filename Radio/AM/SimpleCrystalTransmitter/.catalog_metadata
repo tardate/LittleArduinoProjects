@@ -3,5 +3,6 @@
     "name": "Simple Crystal AM Transmitter",
     "description": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator",
     "categories": "Radio, AM, Transmitter",
-    "relative_path": "Radio/AM/SimpleCrystalTransmitter"
+    "relative_path": "Radio/AM/SimpleCrystalTransmitter",
+    "updated_at": "2019-04-17T16:44:14Z"
 }

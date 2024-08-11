@@ -1,7 +1,8 @@
 {
-    "id": "#236", 
-    "name": "AudioDSP/Boost", 
-    "description": "arduino DSP boost effect based on the pedalSHIELD by electrosmash", 
-    "categories": "Audio, Arduino, DSP, OpAmp", 
-    "relative_path": "playground/AudioDSP/Boost"
+    "id": "#236",
+    "name": "AudioDSP/Boost",
+    "description": "arduino DSP boost effect based on the pedalSHIELD by electrosmash",
+    "categories": "Audio, Arduino, DSP, OpAmp",
+    "relative_path": "playground/AudioDSP/Boost",
+    "updated_at": "2016-08-21T10:59:27Z"
 }

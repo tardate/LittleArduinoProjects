@@ -1,7 +1,8 @@
 {
-    "id": "#040", 
-    "name": "MeLEDy", 
-    "description": "use an electret microphone to light a series of LEDs in proportion to volume", 
-    "categories": "Audio", 
-    "relative_path": "Electronics101/MeLEDy"
+    "id": "#040",
+    "name": "MeLEDy",
+    "description": "use an electret microphone to light a series of LEDs in proportion to volume",
+    "categories": "Audio",
+    "relative_path": "Electronics101/MeLEDy",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

@@ -3,5 +3,6 @@
     "name": "Piezo Transducers and Buzzers",
     "description": "exploring techniques for driving piezo transducers and buzzer units for audio output",
     "categories": "Oscillators, Crystal, Audio",
-    "relative_path": "Electronics101/PiezoBuzzers"
+    "relative_path": "Electronics101/PiezoBuzzers",
+    "updated_at": "2021-08-17T08:14:50Z"
 }

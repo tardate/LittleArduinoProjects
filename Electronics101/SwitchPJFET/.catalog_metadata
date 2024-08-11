@@ -1,7 +1,8 @@
 {
-    "id": "#091", 
-    "name": "Switch - PJFET", 
-    "description": "switch an independent power source using an Arduino and p-channel JFET", 
-    "categories": "JFET, Arduino", 
-    "relative_path": "Electronics101/SwitchPJFET"
+    "id": "#091",
+    "name": "Switch - PJFET",
+    "description": "switch an independent power source using an Arduino and p-channel JFET",
+    "categories": "JFET, Arduino",
+    "relative_path": "Electronics101/SwitchPJFET",
+    "updated_at": "2016-06-19T14:13:24Z"
 }

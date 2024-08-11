@@ -1,7 +1,8 @@
 {
-    "id": "#318", 
-    "name": "Bistable", 
-    "description": "using the 555 timer as a bistable latch and button debouncer", 
-    "categories": "555 Timer", 
-    "relative_path": "Electronics101/555Timer/Bistable"
+    "id": "#318",
+    "name": "Bistable",
+    "description": "using the 555 timer as a bistable latch and button debouncer",
+    "categories": "555 Timer",
+    "relative_path": "Electronics101/555Timer/Bistable",
+    "updated_at": "2017-05-21T15:27:04Z"
 }

@@ -3,5 +3,6 @@
     "name": "LM317 Adjustable Regulator",
     "description": "Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
     "categories": "Power",
-    "relative_path": "Electronics101/Power/LinearRegulators/LM317"
+    "relative_path": "Electronics101/Power/LinearRegulators/LM317",
+    "updated_at": "2021-07-20T17:12:56Z"
 }

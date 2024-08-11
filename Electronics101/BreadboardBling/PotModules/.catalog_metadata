@@ -1,7 +1,8 @@
 {
-    "id": "#453", 
-    "name": "PotModules", 
-    "description": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers", 
-    "categories": "Breadboard Bling", 
-    "relative_path": "Electronics101/BreadboardBling/PotModules"
+    "id": "#453",
+    "name": "PotModules",
+    "description": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers",
+    "categories": "Breadboard Bling",
+    "relative_path": "Electronics101/BreadboardBling/PotModules",
+    "updated_at": "2019-02-17T07:12:51Z"
 }

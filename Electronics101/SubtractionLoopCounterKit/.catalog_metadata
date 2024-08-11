@@ -3,5 +3,6 @@
     "name": "Subtraction Loop Counter Kit",
     "description": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
     "categories": "CMOS/TTL",
-    "relative_path": "Electronics101/SubtractionLoopCounterKit"
+    "relative_path": "Electronics101/SubtractionLoopCounterKit",
+    "updated_at": "2019-12-05T04:03:54Z"
 }

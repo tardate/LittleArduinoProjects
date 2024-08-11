@@ -3,5 +3,6 @@
     "name": "Voltage Controlled LED Dimmer",
     "description": "Demonstrating a voltage-controlled LED current source with a triangle wave generator.",
     "categories": "LED, Oscillators",
-    "relative_path": "Electronics101/LED/Dimmer/VCO"
+    "relative_path": "Electronics101/LED/Dimmer/VCO",
+    "updated_at": "2023-09-14T16:38:56Z"
 }

@@ -1,7 +1,8 @@
 {
-    "id": "#290", 
-    "name": "BoldportClub/PissOff", 
-    "description": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016", 
-    "categories": "Boldport, PCB Design, NXP", 
-    "relative_path": "BoldportClub/PissOff"
+    "id": "#290",
+    "name": "BoldportClub/PissOff",
+    "description": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016",
+    "categories": "Boldport, PCB Design, NXP",
+    "relative_path": "BoldportClub/PissOff",
+    "updated_at": "2017-02-15T09:17:56Z"
 }

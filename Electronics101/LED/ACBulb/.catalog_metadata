@@ -3,5 +3,6 @@
     "name": "LED AC Bulb",
     "description": "build and analyse a commercial LED lamp kit with capacitive power supply",
     "categories": "Power, LED",
-    "relative_path": "Electronics101/LED/ACBulb"
+    "relative_path": "Electronics101/LED/ACBulb",
+    "updated_at": "2019-04-20T11:57:36Z"
 }

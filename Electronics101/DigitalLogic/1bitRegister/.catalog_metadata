@@ -3,5 +3,6 @@
     "name": "1-bit Register",
     "description": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register",
     "categories": "Digital Logic, CMOS/TTL",
-    "relative_path": "Electronics101/DigitalLogic/1bitRegister"
+    "relative_path": "Electronics101/DigitalLogic/1bitRegister",
+    "updated_at": "2020-09-20T04:39:01Z"
 }

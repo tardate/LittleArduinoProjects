@@ -3,5 +3,6 @@
     "name": "ESP-12 Programming",
     "description": "The basics of programming an ESP-12 with the ESP8266 core for Arduino",
     "categories": "ESP8266",
-    "relative_path": "ESP8266/ESP12/Programming"
+    "relative_path": "ESP8266/ESP12/Programming",
+    "updated_at": "2020-04-06T16:18:48Z"
 }

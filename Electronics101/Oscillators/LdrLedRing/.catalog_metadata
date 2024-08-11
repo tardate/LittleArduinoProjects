@@ -3,5 +3,6 @@
     "name": "LED-LDR Ring Oscillator",
     "description": "Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.",
     "categories": "Oscillators, LED, LDR",
-    "relative_path": "Electronics101/Oscillators/LdrLedRing"
+    "relative_path": "Electronics101/Oscillators/LdrLedRing",
+    "updated_at": "2022-12-23T09:30:56Z"
 }
