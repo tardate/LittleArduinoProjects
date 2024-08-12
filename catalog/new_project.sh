@@ -92,7 +92,6 @@ __notes__
 EOS
 
   local catalog_file="${full_path}/.catalog_metadata"
-  local update_at=$(date -u "+%Y-%m-%dT%H:00:00Z")
   echo "making ${catalog_file}"
   cat > "${catalog_file}" <<EOS
 {
@@ -100,8 +99,7 @@ EOS
     "name": "${project_name}",
     "description": "description",
     "categories": "",
-    "relative_path": "${full_path}",
-    "updated_at": "${update_at}"
+    "relative_path": "${full_path}"
 }
 EOS
 

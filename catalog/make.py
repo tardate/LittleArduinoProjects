@@ -84,7 +84,8 @@ class Catalog(object):
         def load_data(filename):
             data = json.load(open(filename, 'r'))
             if 'updated_at' not in data:
-                data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
+                data['updated_at'] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:00Z")
+                write_pretty_json(data, filename)
             data['relative_path'] = data['relative_path'].lower()
             return data
 
@@ -95,16 +96,6 @@ class Catalog(object):
 
     def get_project_file(self, relative_path, name='.catalog_metadata'):
         return os.path.join(self.collection_root, relative_path, name)
-
-    def get_project_modified_datetime(self, relative_path, filename='.catalog_metadata'):
-        relative_filename = os.path.join(relative_path, filename)
-        git_data = subprocess.check_output(['git', 'log', '-n', '1', '--date=unix', relative_filename])
-        ts_match = re.search(r'Date:\s+(?P<ts>\d+)', str(git_data), re.MULTILINE)
-        if ts_match:
-            return datetime.utcfromtimestamp(int(ts_match.group('ts')))
-        else:
-            indicative_file = self.get_project_file(relative_path, filename)
-            return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
@@ -196,6 +187,16 @@ class Catalog(object):
             if 'updated_at' not in data:
                 data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
                 write_pretty_json(data, filename)
+
+    def get_project_modified_datetime(self, relative_path, filename='.catalog_metadata'):
+        relative_filename = os.path.join(relative_path, filename)
+        git_data = subprocess.check_output(['git', 'log', '-n', '1', '--date=unix', relative_filename])
+        ts_match = re.search(r'Date:\s+(?P<ts>\d+)', str(git_data), re.MULTILINE)
+        if ts_match:
+            return datetime.utcfromtimestamp(int(ts_match.group('ts')))
+        else:
+            indicative_file = self.get_project_file(relative_path, filename)
+            return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
 
 
 if __name__ == '__main__':
