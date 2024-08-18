@@ -24,9 +24,9 @@ In the  D-Day Duo kit, there is one decal scheme that I have followed: No 541 Sq
 
 | Feature               | Color                    | Recommended | Paint Used |
 |-----------------------|--------------------------|-------------|------------|
-| cockpit fittings      | Silver                   | 11          |            |
+| cockpit fittings      | Silver                   | 11          | 70.997     |
 |                       | Matt Yellow              | 24          |            |
-| cockpit fittings      | Matt Black               | 33          |            |
+| cockpit fittings      | Matt Black               | 33          | 70.950     |
 | fuselage              | Prussian Blue BS381C 636 | 230         | H56        |
 | interior              |                          | 78          | H73        |
 | pilot uniform         | RAF Blue                 | 96          | 70.899 Dark Prussian Blue |

@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-08-12T07:25:03Z</updated>
+  <updated>2024-08-18T11:07:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/raf/typhoon/mkib_dday/</id>
+    <link href="https://leap.tardate.com/kraft/raf/typhoon/mkib_dday/"/>
+    <g:image_link>https://leap.tardate.com/kraft/raf/typhoon/mkib_dday/assets/mkib_dday_build.jpg</g:image_link>
+    <updated>2024-08-18T11:07:00Z</updated>
+    <title>#752 Hawker Typhoon Mk.Ib on D-Day</title>
+    <summary>Typhoon Ib on ground attack over France 1944. Just a quick build of the nice little Airfix 1:72 kit while other projects drag along on the bench!</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Typhoon Ib on ground attack over France 1944. Just a quick build of the nice little Airfix 1:72 kit while other projects drag along on the bench!&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/raf/typhoon/mkib_dday/assets/mkib_dday_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/ija/type97/malaya1941/</id>
     <link href="https://leap.tardate.com/kraft/ija/type97/malaya1941/"/>
