@@ -1,4 +1,14 @@
 {
+    "/kraft/ijn/jintsu/": {
+        "id": 753,
+        "title": "IJN Cruiser Jints\u016b",
+        "summary": "Building the Fujimi 1:700 kit of the IJN Cruiser Jints\u016b (\u795e\u901a) (\u3058\u3093\u3064\u3046)",
+        "tags": [
+            "scale models",
+            "Craft",
+            "IJN"
+        ]
+    },
     "/kraft/raf/typhoon/mkib_dday/": {
         "id": 752,
         "title": "Hawker Typhoon Mk.Ib on D-Day",
