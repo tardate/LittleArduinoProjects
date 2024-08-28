@@ -157,6 +157,7 @@ This is not an exhaustive list - mainly just companies with products that have c
 | Japan            | [Aurora Model](https://aurora-model.jp/)                                 | miniatures, figures |
 | Japan            | [Baiodo Hobby Shop 梅桜堂](https://www.baiodo.com/)                       | paper kits, mainly for railway |
 | Japan            | [Bandai](https://p-bandai.com/)                                          |  |
+| Japan            | [Dai Nippon Kaiga 大日本絵画](https://kaiga.co.jp/)                        | modelling magazines and publications |
 | Japan            | [Fine molds](https://www.finemolds.co.jp/)                               |  |
 | Japan            | [Fujimi](https://www.fujimimokei.com/)                                   |  |
 | Japan            | [Good Smile Company](https://www.goodsmile.info/)                        | figures |
