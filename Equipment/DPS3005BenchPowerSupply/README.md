@@ -1,4 +1,4 @@
-# #407 DPS3005BenchPowerSupply
+# #407 DPS3005 Bench Power Supply
 
 Building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer.
 
@@ -9,7 +9,6 @@ Building an AC-powered 32V/5A variable bench power supply based on the DPS3005 D
 The DPS3005 is one of a range of popular DC power supply modules; this one is designed for up to 32V/5A DC output.
 
 For this project, I am mounting the DPS3005 in a project case, and adding mains AC power supply.
-
 
 ## DPS3005
 
@@ -48,7 +47,6 @@ The basic idea in schematic form:
 
 ![Schematic](./assets/DPS3005BenchPowerSupply_schematic.jpg?raw=true)
 
-
 ### Fused and Illuminated Power Switch
 
 I have some panel-mounting power sockets that I'll use for the project - [OOTDTY AC 250V 10A 3 Terminal Power Socket with Fuse Holder](https://www.aliexpress.com/item/J34-Free-Shipping-1Pc-New-Black-Red-AC-250V-10A-3-Terminal-Power-Socket-with-Fuse/32578730682.html) on aliexpress. Key features:
@@ -75,19 +73,16 @@ The switch schematic appears like this:
 
 ![fused_switch](./assets/fused_switch.jpg?raw=true)
 
-
 When installed and powered on:
 
 ![DPS3005BenchPowerSupply_rear_power](./assets/DPS3005BenchPowerSupply_rear_power.jpg?raw=true)
 
-
 ### Bridge Rectifier
 
-I could have built a rectifier with discrete diodes, but I don't have any on hand that are rated for the theoretical imits of the DPS3005.
+I could have built a rectifier with discrete diodes, but I don't have any on hand that are rated for the theoretical limits of the DPS3005.
 Instead, I decided to use a KBU2510 rectifier package. It is well over-specified at 25A/1000V.
 
 For smoothing, I have a single 82µF/450V electrolytic capacitor
-
 
 ## Grounding
 
@@ -95,9 +90,8 @@ I've decided to keep the DC output supply floating i.e. not referenced to earth 
 
 If earth grounding is required, this would just need to be done in the circuit under power.
 
-The metal panels in case are conected to earth ground (from the power plug), shunting any short circuit and presumably blowing the fuse in the power socket
+The metal panels in case are connected to earth ground (from the power plug), shunting any short circuit and presumably blowing the fuse in the power socket
 or tripping a circuit breaker on the mains circuit
-
 
 ## Enclosure
 
@@ -107,7 +101,6 @@ and use a
 [dual banana binding post](https://www.aliexpress.com/store/product/A07-2Pcs-Lot-Connecter-Banana-Plug-Gold-Plate-Red-Black-Connector-Terminal-Banana-Plugs-Binding-Post/1939636_32848481643.html)
 for the DC output terminals.
 
-
 ![DPS3005BenchPowerSupply_internal_rear](./assets/DPS3005BenchPowerSupply_internal_rear.jpg?raw=true)
 
 ![DPS3005BenchPowerSupply_internal_side](./assets/DPS3005BenchPowerSupply_internal_side.jpg?raw=true)
@@ -116,20 +109,17 @@ for the DC output terminals.
 
 ![DPS3005BenchPowerSupply_rear](./assets/DPS3005BenchPowerSupply_rear.jpg?raw=true)
 
-
 ## Usage
 
 The controls are quite easy one you get used to them (NB: scan of the [english manual here](./assets/manual-en.pdf))
 
-* Direct constand voltage or constant current control
+* Direct constant voltage or constant current control
 * output on/off
 * Base settings for over-voltage, over-current, over-power (unit will turn off the output if any of these limits are exceeded)
 
 The colour LCD provides all the information including instantaneous output voltage, current and power.
 
-
 ![Build](./assets/DPS3005BenchPowerSupply_build.jpg?raw=true)
-
 
 ## Test & Performance
 
@@ -144,19 +134,18 @@ This pretty much corresponds with background noise I have in my work area:
 
 ![scope_output_noload_unfiltered](./assets/scope_output_noload_unfiltered.gif?raw=true)
 
-The following trace is with the signale cleaned up with an L=47µH and C=100nF filter on the output.
+The following trace is with the signal cleaned up with an L=47µH and C=100nF filter on the output.
 NB: those values are not calculated, just an experimental guess.
 
 ![scope_output_noload_filtered](./assets/scope_output_noload_filtered.gif?raw=true)
 
-[@alex1sh notes:]https://github.com/tardate/LittleArduinoProjects/issues/12#issuecomment-456918689)
+[@alex1sh notes:]<https://github.com/tardate/LittleArduinoProjects/issues/12#issuecomment-456918689>)
 
 > From time to time, I am using this PSU for high current application, i.e. 3-5A. Therefore, I decided to go for this inductor:
-> https://www.digikey.co.uk/product-detail/en/murata-power-solutions-inc/1410454C/811-1345-ND/1924845
+> <https://www.digikey.co.uk/product-detail/en/murata-power-solutions-inc/1410454C/811-1345-ND/1924845>
 > It is 100µH and 5.4A rated. With regards to the capacitor, I have not figured out the most appropriate value yet. Right now I have 470µF one.
 
 Conclusion: where clean power is required, this unit needs external filtering.
-
 
 ## Credits and References
 

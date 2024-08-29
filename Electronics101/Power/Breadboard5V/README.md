@@ -1,6 +1,6 @@
 # #060 5V Breadboard Regulator
 
-An LM7805 5V regulated power supply on breadboard-compatible protobboard.
+An LM7805 5V regulated power supply on breadboard-compatible protoboard.
 
 ![Breadboard5V_build](./assets/Breadboard5V_build.jpg?raw=true)
 

@@ -1,8 +1,8 @@
 {
     "id": "#217",
-    "name": "BasicBuckAvrControl",
+    "name": "Basic AVR-controlled Buck Converter",
     "description": "a simple buck converter circuit from first principles",
     "categories": "Power, Arduino",
-    "relative_path": "Electronics101/SwitchModePowerSupplies/BasicBuckAvrControl",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BasicBuckAvrControl",
     "updated_at": "2017-05-06T10:08:03Z"
 }

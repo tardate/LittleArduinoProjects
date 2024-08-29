@@ -692,7 +692,7 @@
         "name": "MC34063 Buck Converter",
         "description": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
         "categories": "Power",
-        "relative_path": "electronics101/switchmodepowersupplies/mc34063/buckconverter",
+        "relative_path": "electronics101/power/switchmodepowersupplies/mc34063/buckconverter",
         "updated_at": "2022-11-07T15:38:54Z"
     },
     {
@@ -892,7 +892,7 @@
         "name": "MT3608 Safe Control",
         "description": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
         "categories": "Power, SMPS",
-        "relative_path": "electronics101/switchmodepowersupplies/mt3608/safecontrol",
+        "relative_path": "electronics101/power/switchmodepowersupplies/mt3608/safecontrol",
         "updated_at": "2022-07-03T14:31:59Z"
     },
     {
@@ -1476,7 +1476,7 @@
         "name": "MT3608 on a Breadboard",
         "description": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit",
         "categories": "Power, SMPS",
-        "relative_path": "electronics101/switchmodepowersupplies/mt3608/breadboarded",
+        "relative_path": "electronics101/power/switchmodepowersupplies/mt3608/breadboarded",
         "updated_at": "2020-10-09T15:28:17Z"
     },
     {
@@ -2257,7 +2257,7 @@
     },
     {
         "id": "#472",
-        "name": "CapacitiveDropper",
+        "name": "Capacitive Dropper",
         "description": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit",
         "categories": "Power",
         "relative_path": "electronics101/power/capacitivedropper",
@@ -2769,7 +2769,7 @@
     },
     {
         "id": "#408",
-        "name": "BBBreakout",
+        "name": "BB Breakout",
         "description": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors",
         "categories": "Power",
         "relative_path": "electronics101/power/bbbreakout",
@@ -2777,7 +2777,7 @@
     },
     {
         "id": "#407",
-        "name": "DPS3005BenchPowerSupply",
+        "name": "DPS3005 Bench Power Supply",
         "description": "building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer",
         "categories": "Power, Tools",
         "relative_path": "equipment/dps3005benchpowersupply",
@@ -3172,7 +3172,7 @@
         "name": "MC34063 Boost Converter Kit",
         "description": "build and test an MC34063-based boost converter",
         "categories": "Power",
-        "relative_path": "electronics101/switchmodepowersupplies/mc34063/modulekit",
+        "relative_path": "electronics101/power/switchmodepowersupplies/mc34063/modulekit",
         "updated_at": "2022-11-07T15:38:54Z"
     },
     {
@@ -3305,7 +3305,7 @@
     },
     {
         "id": "#341",
-        "name": "UsbPowerSupplyKit",
+        "name": "USB Power Supply Kit",
         "description": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up",
         "categories": "Power, USB",
         "relative_path": "electronics101/power/usbpowersupplykit",
@@ -3393,7 +3393,7 @@
     },
     {
         "id": "#330",
-        "name": "Power/Any2AnyPowerPack",
+        "name": "Any 2 Any Power Pack",
         "description": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors",
         "categories": "Power",
         "relative_path": "electronics101/power/any2anypowerpack",
@@ -3516,7 +3516,7 @@
         "name": "MT3608 Variable Boost",
         "description": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter",
         "categories": "Power, SMPS",
-        "relative_path": "electronics101/switchmodepowersupplies/mt3608/variableboost",
+        "relative_path": "electronics101/power/switchmodepowersupplies/mt3608/variableboost",
         "updated_at": "2020-10-09T15:28:17Z"
     },
     {
@@ -3729,10 +3729,10 @@
     },
     {
         "id": "#288",
-        "name": "BasicInvertingBuckBoostAvrControl",
+        "name": "Basic Inverting Buck-Boost AVR-control",
         "description": "build and test an inverting buck-boost converter controlled by an ATtiny85",
         "categories": "Power, ATtiny, Arduino",
-        "relative_path": "electronics101/switchmodepowersupplies/basicinvertingbuckboostavrcontrol",
+        "relative_path": "electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol",
         "updated_at": "2017-05-06T10:05:14Z"
     },
     {
@@ -4297,10 +4297,10 @@
     },
     {
         "id": "#217",
-        "name": "BasicBuckAvrControl",
+        "name": "Basic AVR-controlled Buck Converter",
         "description": "a simple buck converter circuit from first principles",
         "categories": "Power, Arduino",
-        "relative_path": "electronics101/switchmodepowersupplies/basicbuckavrcontrol",
+        "relative_path": "electronics101/power/switchmodepowersupplies/basicbuckavrcontrol",
         "updated_at": "2017-05-06T10:08:03Z"
     },
     {
@@ -4345,10 +4345,10 @@
     },
     {
         "id": "#211",
-        "name": "BuckConverterModules",
-        "description": "test a range of low-cost buck converter modules, often using LM2596",
+        "name": "Buck Converter Modules",
+        "description": "Testing a range of low-cost buck converter modules, often using LM2596",
         "categories": "Power",
-        "relative_path": "electronics101/buckconvertermodules",
+        "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules",
         "updated_at": "2016-06-23T14:13:43Z"
     },
     {
@@ -4737,10 +4737,10 @@
     },
     {
         "id": "#162",
-        "name": "BoostBuckConverterModule",
+        "name": "Boost-Buck Converter Module",
         "description": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
         "categories": "Power",
-        "relative_path": "electronics101/boostbuckconvertermodule",
+        "relative_path": "electronics101/power/switchmodepowersupplies/boostbuckconvertermodule",
         "updated_at": "2016-06-19T14:13:24Z"
     },
     {
@@ -5554,7 +5554,7 @@
     {
         "id": "#060",
         "name": "5V Breadboard Regulator",
-        "description": "an LM7805 5V regulated power supply on breadboard-compatible protobboard",
+        "description": "an LM7805 5V regulated power supply on breadboard-compatible protoboard",
         "categories": "Breadboard Bling, Power",
         "relative_path": "electronics101/power/breadboard5v",
         "updated_at": "2019-12-14T09:56:20Z"

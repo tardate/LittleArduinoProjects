@@ -33,7 +33,7 @@ Typical capacitive droppers include the following circuit stages:
 
 Voltage regulation may be added to the load circuit if it is important.
 
-## Low-power Demonstation Circuit
+## Low-power Demonstration Circuit
 
 A good way of experimenting with dropper circuits is to avoid the high voltage risks of mains supply and use a low voltage AC adapter.
 In this example, I'm using a 12V AC power adapter rated for 10VA.

@@ -23,9 +23,9 @@ The Arduino measures the voltage of each rail through voltage dividers.
 Measurement results:
 
 | Selected voltage | Vout (DMM) | Vout (Arduino) |
-|=-----------------|------------|----------------|
-| 3.3V             | 3.33       | 3.31
-| 5V               | 5.00       | 4.99
+|------------------|------------|----------------|
+| 3.3V             | 3.33       | 3.31           |
+| 5V               | 5.00       | 4.99           |
 
 Here's a sample trace of the two voltage rails as measured by the Arduino:
 

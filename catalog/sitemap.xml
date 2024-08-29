@@ -259,7 +259,7 @@
     <loc>https://leap.tardate.com/radio/codepracticeoscillator/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/buckconverter/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/kraft/axisofchess/</loc>
@@ -334,7 +334,7 @@
     <loc>https://leap.tardate.com/electronics101/power/wirelessledmodule/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/safecontrol/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/kraft/ijn/fubuki/</loc>
@@ -553,7 +553,7 @@
     <loc>https://leap.tardate.com/equipment/tracetogethertoken/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/breadboarded/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/power/multivoltagegpio/</loc>
@@ -1189,7 +1189,7 @@
     <loc>https://leap.tardate.com/audio/audioeffectschips/hs088/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/modulekit/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/boldportclub/themonarch/</loc>
@@ -1318,7 +1318,7 @@
     <loc>https://leap.tardate.com/boldportclub/qsopbreakout/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/variableboost/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/eeprom/at28c16/peprogrammer/</loc>
@@ -1399,7 +1399,7 @@
     <loc>https://leap.tardate.com/electronics101/voltmeterammetermodule/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/ultrasonicalarm/</loc>
@@ -1612,7 +1612,7 @@
     <loc>https://leap.tardate.com/playground/mpu6050/accelgyrotest/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/switchmodepowersupplies/basicbuckavrcontrol/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/oshchip/ledx16module/</loc>
@@ -1630,7 +1630,7 @@
     <loc>https://leap.tardate.com/electronics101/staycreative/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/buckconvertermodules/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/audio/audioamps/tda7297kit/</loc>
@@ -1777,7 +1777,7 @@
     <loc>https://leap.tardate.com/electronics101/variablesawtoothgenerator/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/boostbuckconvertermodule/</loc>
+    <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/ml741/noninvertingamplifier/</loc>
