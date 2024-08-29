@@ -3,6 +3,6 @@
     "name": "MC34063 Boost Converter Kit",
     "description": "build and test an MC34063-based boost converter",
     "categories": "Power",
-    "relative_path": "Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/MC34063/ModuleKit",
     "updated_at": "2022-11-07T15:38:54Z"
 }

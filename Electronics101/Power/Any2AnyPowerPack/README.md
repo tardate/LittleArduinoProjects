@@ -38,12 +38,10 @@ should be swallowed by the bridge rectifier (just showing up as a reduced effici
 
 Some measurements to back that up:
 
-
 | Diode  | Input Voltage | Output Voltage, No Load | 1kΩ Load | 10kΩ Load | 100kΩ Load |
 |--------|---------------|-------------------------|----------|-----------|------------|
 | 1N4007 | 8.72V         | 8.13V                   | 6.88V    | 7.54V     | 7.78V      |
 | 1N5819 | 8.72V         | 8.62V                   | 7.97V    | 8.29V     | 8.43V      |
-
 
 PS: the "evils" of centre-negative jacks has now been explored in [EEVblog #1015](https://www.youtube.com/watch?v=ix2fR-rh1vc) - some great background
 and demonstration of how these work.

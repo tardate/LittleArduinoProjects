@@ -1,9 +1,8 @@
-# #217 BasicBuckAvrControl
+# #217 Basic AVR-controlled Buck Converter
 
 A simple buck converter circuit from first principles.
 
 ![The Build](./assets/BasicBuckAvrControl_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -33,6 +32,7 @@ The inductor and capacitor effectively act as a low pass filter on the switching
 it is therefore necessary for the switching frequency to be higher than the corner frequency of the filter.
 
 Since the load is part of the circuit, actual output voltage performance is a function of all components:
+
 * input voltage
 * switching frequency
 * actual load, inductor and capacitor values
@@ -135,7 +135,6 @@ Calculated inductor current ripple `ilr` = [36mA](https://www.wolframalpha.com/i
 Calculated capacitor voltage ripple = [3.06mV](https://www.wolframalpha.com/input/?i=%289V+-+4.5V%29+*+50%25+*+32%C2%B5s+%2F+%282+*+1mH%29+*+32%C2%B5s+%2F+%288+*+47%C2%B5F%29):
 
     vcr = ilr * T / (8 * C)
-
 
 ### Simulation - 50% Duty Cycle
 

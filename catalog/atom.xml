@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-08-23T08:29:08Z</updated>
+  <updated>2024-08-29T17:14:01Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -989,13 +989,13 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/buckconverter/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/buckconverter/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg</g:image_link>
     <updated>2022-11-07T15:38:54Z</updated>
     <title>#667 MC34063 Buck Converter</title>
     <summary>Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
   </entry>
   <entry>
@@ -1270,13 +1270,13 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/safecontrol/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/safecontrol/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg</g:image_link>
     <updated>2022-07-03T14:31:59Z</updated>
     <title>#642 MT3608 Safe Control</title>
     <summary>Configuring variable boost control with the MT3608 that is safe for all rated input voltages</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
   </entry>
@@ -2121,13 +2121,13 @@
     <category term="ARM"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/breadboarded/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/breadboarded/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/breadboarded/assets/breadboarded_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/assets/breadboarded_build.jpg</g:image_link>
     <updated>2020-10-09T15:28:17Z</updated>
     <title>#570 MT3608 on a Breadboard</title>
     <summary>A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/breadboarded/assets/breadboarded_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/assets/breadboarded_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
   </entry>
@@ -3237,7 +3237,7 @@
     <link href="https://leap.tardate.com/electronics101/power/capacitivedropper/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/capacitivedropper/assets/capacitivedropper_build.jpg</g:image_link>
     <updated>2019-04-21T04:37:13Z</updated>
-    <title>#472 CapacitiveDropper</title>
+    <title>#472 Capacitive Dropper</title>
     <summary>Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/capacitivedropper/assets/capacitivedropper_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -3964,7 +3964,7 @@
     <link href="https://leap.tardate.com/electronics101/power/bbbreakout/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/bbbreakout/assets/bbbreakout_build.jpg</g:image_link>
     <updated>2018-08-04T16:49:31Z</updated>
-    <title>#408 BBBreakout</title>
+    <title>#408 BB Breakout</title>
     <summary>a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/bbbreakout/assets/bbbreakout_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -3974,7 +3974,7 @@
     <link href="https://leap.tardate.com/equipment/dps3005benchpowersupply/"/>
     <g:image_link>https://leap.tardate.com/equipment/dps3005benchpowersupply/assets/dps3005benchpowersupply_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
-    <title>#407 DPS3005BenchPowerSupply</title>
+    <title>#407 DPS3005 Bench Power Supply</title>
     <summary>building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/dps3005benchpowersupply/assets/dps3005benchpowersupply_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -4527,13 +4527,13 @@
     <category term="Music Chips"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/modulekit/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/modulekit/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg</g:image_link>
     <updated>2022-11-07T15:38:54Z</updated>
     <title>#358 MC34063 Boost Converter Kit</title>
     <summary>build and test an MC34063-based boost converter</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build and test an MC34063-based boost converter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;build and test an MC34063-based boost converter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
   </entry>
   <entry>
@@ -4719,7 +4719,7 @@
     <link href="https://leap.tardate.com/electronics101/power/usbpowersupplykit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/usbpowersupplykit/assets/usbpowersupplykit_build.jpg</g:image_link>
     <updated>2017-09-18T14:59:58Z</updated>
-    <title>#341 UsbPowerSupplyKit</title>
+    <title>#341 USB Power Supply Kit</title>
     <summary>building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/usbpowersupplykit/assets/usbpowersupplykit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -4845,7 +4845,7 @@
     <link href="https://leap.tardate.com/electronics101/power/any2anypowerpack/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/any2anypowerpack/assets/any2anypowerpack_build.jpg</g:image_link>
     <updated>2017-08-06T10:50:27Z</updated>
-    <title>#330 Power/Any2AnyPowerPack</title>
+    <title>#330 Any 2 Any Power Pack</title>
     <summary>a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/any2anypowerpack/assets/any2anypowerpack_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -5007,13 +5007,13 @@
     <category term="Soldering"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/variableboost/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/variableboost/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/variableboost/assets/variableboost_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/assets/variableboost_build.jpg</g:image_link>
     <updated>2020-10-09T15:28:17Z</updated>
     <title>#315 MT3608 Variable Boost</title>
     <summary>testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/mt3608/variableboost/assets/variableboost_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/assets/variableboost_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
   </entry>
@@ -5316,13 +5316,13 @@
     <category term="Sensors"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/assets/basicinvertingbuckboostavrcontrol_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/assets/basicinvertingbuckboostavrcontrol_build.jpg</g:image_link>
     <updated>2017-05-06T10:05:14Z</updated>
-    <title>#288 BasicInvertingBuckBoostAvrControl</title>
+    <title>#288 Basic Inverting Buck-Boost AVR-control</title>
     <summary>build and test an inverting buck-boost converter controlled by an ATtiny85</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build and test an inverting buck-boost converter controlled by an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/assets/basicinvertingbuckboostavrcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;build and test an inverting buck-boost converter controlled by an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/assets/basicinvertingbuckboostavrcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="ATtiny"/>
     <category term="Arduino"/>
@@ -6151,13 +6151,13 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/switchmodepowersupplies/basicbuckavrcontrol/</id>
-    <link href="https://leap.tardate.com/electronics101/switchmodepowersupplies/basicbuckavrcontrol/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/switchmodepowersupplies/basicbuckavrcontrol/assets/basicbuckavrcontrol_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/assets/basicbuckavrcontrol_build.jpg</g:image_link>
     <updated>2017-05-06T10:08:03Z</updated>
-    <title>#217 BasicBuckAvrControl</title>
+    <title>#217 Basic AVR-controlled Buck Converter</title>
     <summary>a simple buck converter circuit from first principles</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;a simple buck converter circuit from first principles&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switchmodepowersupplies/basicbuckavrcontrol/assets/basicbuckavrcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;a simple buck converter circuit from first principles&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/assets/basicbuckavrcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Arduino"/>
   </entry>
@@ -6220,13 +6220,13 @@
     <category term="LED"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/buckconvertermodules/</id>
-    <link href="https://leap.tardate.com/electronics101/buckconvertermodules/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/buckconvertermodules/assets/buckconvertermodules_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg</g:image_link>
     <updated>2016-06-23T14:13:43Z</updated>
-    <title>#211 BuckConverterModules</title>
-    <summary>test a range of low-cost buck converter modules, often using LM2596</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test a range of low-cost buck converter modules, often using LM2596&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/buckconvertermodules/assets/buckconvertermodules_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <title>#211 Buck Converter Modules</title>
+    <summary>Testing a range of low-cost buck converter modules, often using LM2596</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a range of low-cost buck converter modules, often using LM2596&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
   </entry>
   <entry>
@@ -6768,13 +6768,13 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/boostbuckconvertermodule/</id>
-    <link href="https://leap.tardate.com/electronics101/boostbuckconvertermodule/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#162 BoostBuckConverterModule</title>
+    <title>#162 Boost-Buck Converter Module</title>
     <summary>quick test of an LM2577S/LM2596S Boost/Buck Converter Module</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;quick test of an LM2577S/LM2596S Boost/Buck Converter Module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;quick test of an LM2577S/LM2596S Boost/Buck Converter Module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
   </entry>
   <entry>
@@ -7897,8 +7897,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/breadboard5v/assets/breadboard5v_build.jpg</g:image_link>
     <updated>2019-12-14T09:56:20Z</updated>
     <title>#060 5V Breadboard Regulator</title>
-    <summary>an LM7805 5V regulated power supply on breadboard-compatible protobboard</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;an LM7805 5V regulated power supply on breadboard-compatible protobboard&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/breadboard5v/assets/breadboard5v_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>an LM7805 5V regulated power supply on breadboard-compatible protoboard</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;an LM7805 5V regulated power supply on breadboard-compatible protoboard&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/breadboard5v/assets/breadboard5v_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Breadboard Bling"/>
     <category term="Power"/>
   </entry>

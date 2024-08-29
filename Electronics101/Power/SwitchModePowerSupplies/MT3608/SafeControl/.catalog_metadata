@@ -3,6 +3,6 @@
     "name": "MT3608 Safe Control",
     "description": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
     "categories": "Power, SMPS",
-    "relative_path": "Electronics101/SwitchModePowerSupplies/MT3608/SafeControl",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/MT3608/SafeControl",
     "updated_at": "2022-07-03T14:31:59Z"
 }
