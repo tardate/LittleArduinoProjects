@@ -39,70 +39,71 @@ I'm going to work this through from scratch.
     * `Ipk = Il(avg) + Iripple/2 = 1 + .30/2 = 1.15A`
 * 40Khz switching frequency
 
-Calculate `Ton/Toff`
+Calculate `Ton/Toff` = [1.87](https://www.wolframalpha.com/input?i=%285+%2B+0.60%29%2F%289+-+1+-+5%29)
 
     Ton/Toff
     = (Vout + Vf) / (Vin - Vsat - Vout)
     = (5 + 0.60) / (9 - 1 - 5)
-    = [1.87](https://www.wolframalpha.com/input?i=%285+%2B+0.60%29%2F%289+-+1+-+5%29)
+    = 1.87
 
-Calculate `Ton + Toff`
+Calculate `Ton + Toff` = [25µs](https://www.wolframalpha.com/input?i=1%2F40kHz)
 
     Ton + Toff
     = 1 / f
     = 1 / 40kHz
-    = [25µs](https://www.wolframalpha.com/input?i=1%2F40kHz)
+    = 25µs
 
-Calculate `Toff`
+Calculate `Toff` = [8.71µs](https://www.wolframalpha.com/input?i=25%C2%B5s%2F%281.87+%2B+1%29)
 
     Toff
     = (Ton + Toff)/(Ton/Toff + 1)
     = 25µs/(1.87 + 1)
-    = [8.71µs](https://www.wolframalpha.com/input?i=25%C2%B5s%2F%281.87+%2B+1%29) =
+    = 8.71µs
 
-Calculate `Ton`
+Calculate `Ton` = [16.29 μs](https://www.wolframalpha.com/input?i=25%C2%B5s+%E2%80%93++8.71%C2%B5s)
 
     Ton
     = (Ton + Toff) – Toff
     = 25µs –  8.71µs
-    = [16.29 μs](https://www.wolframalpha.com/input?i=25%C2%B5s+%E2%80%93++8.71%C2%B5s)
+    = 16.29 μs
 
 Calculate timing Capacitor Ct to produce the desired frequency.
+Result: Ct = [652pf](https://www.wolframalpha.com/input?i=4.0+*+10%5E-5+*+16.29%CE%BCs)
 
     Ct
     = 4.0 * 10^-5 * Ton
     = 4.0 * 10^-5 * 16.29μs
-    = [652pf](https://www.wolframalpha.com/input?i=4.0+*+10%5E-5+*+16.29%CE%BCs)
+    = 652pf
 
-Calculate the minimum inductor value `Lmin`
+Calculate the minimum inductor value `Lmin` = [42.5μH](https://www.wolframalpha.com/input?i=%289V+-+1V+-+5V%29%2F1.15A+*+16.29%C2%B5s)
 
     Lmin
     = (Vin - Vsat - Vout)/Ipk x Ton
     = (9V - 1V - 5V)/1.15A * 16.29µs
-    = [42.5μH](https://www.wolframalpha.com/input?i=%289V+-+1V+-+5V%29%2F1.15A+*+16.29%C2%B5s)
+    = 42.5μH
 
-Calculate `Rsc`
+Calculate `Rsc` = [0.260Ω](https://www.wolframalpha.com/input?i=0.3%2F1.15)
 
     Rsc
     = 0.3/Ipk
     = 0.3/1.15
-    = [0.260Ω](https://www.wolframalpha.com/input?i=0.3%2F1.15
+    = 0.260Ω
 
-Calculate `Cout`
-
-Step 12:- Let’s calculate the output capacitor values, we can choose a ripple value of 100mV (peak to peak) from the boost output.
+Calculate `Cout`. Let’s calculate the output capacitor values, we can choose a ripple value of 100mV (peak to peak) from the boost output.
+Result: Cout = [35.94μF](https://www.wolframalpha.com/input?i=1.15A+*+25%C2%B5s%2F%288+*+100mV%29)
 
     Cout
     = Ipk (Ton + Toff)/(8 * Vripple)
     = 1.15A * 25µs/(8 * 100mV)
-    = [35.94μF](https://www.wolframalpha.com/input?i=1.15A+*+25%C2%B5s%2F%288+*+100mV%29)
+    = 35.94μF
 
-Calculate feedback resistors R1 and R2, given `R1 = 2kΩ` and `Vout = 1.25 (1 + R2/R1)`
+Calculate feedback resistors R1 and R2, given `R1 = 2kΩ` and `Vout = 1.25 (1 + R2/R1)`.
+Result:  R2 = [6kΩ](https://www.wolframalpha.com/input?i=2k%CE%A9+*+%285%2F1.25+-+1%29)
 
     R2
     = R1 * (Vout/1.25 - 1)
     = 2kΩ * (5/1.25 - 1)
-    = [6kΩ](https://www.wolframalpha.com/input?i=2k%CE%A9+*+%285%2F1.25+-+1%29)
+    = 6kΩ
 
 Finally, selecting available components close to the theoretical:
 
@@ -112,7 +113,7 @@ Finally, selecting available components close to the theoretical:
 | L1   | 42.5μH               | 47μH     |
 | R1   | 2kΩ                  | 2kΩ      |
 | R2   | 6kΩ                  | 6.8kΩ    |
-| Vout | 5V                   | [5.5V(<https://www.wolframalpha.com/input?i=1.25+%281+%2B+6.8%2F2%29>) ]
+| Vout | 5V                   | [5.5V](https://www.wolframalpha.com/input?i=1.25+%281+%2B+6.8%2F2%29) |
 
 ### Circuit Construction
 
