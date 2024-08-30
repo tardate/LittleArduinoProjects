@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-08-29T17:14:01Z</updated>
+  <updated>2024-08-30T13:52:16Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/ijn/kamikawamaru/</id>
+    <link href="https://leap.tardate.com/kraft/ijn/kamikawamaru/"/>
+    <g:image_link>https://leap.tardate.com/kraft/ijn/kamikawamaru/assets/kamikawamaru_build.jpg</g:image_link>
+    <updated>2024-08-30T13:52:00Z</updated>
+    <title>#754 IJN Seaplane Tender Kamikawa Maru</title>
+    <summary>Depicting the brief establishment of a seaplane base at Deboyne in 1942 by the IJN Seaplane Tender Kamikawa Maru and a supporting force.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Depicting the brief establishment of a seaplane base at Deboyne in 1942 by the IJN Seaplane Tender Kamikawa Maru and a supporting force.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/ijn/kamikawamaru/assets/kamikawamaru_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="IJN"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/ijn/jintsu/</id>
     <link href="https://leap.tardate.com/kraft/ijn/jintsu/"/>
