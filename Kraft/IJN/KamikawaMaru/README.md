@@ -50,13 +50,8 @@ References:
 
 ### IJN Seaplane Base on Deboyne
 
-Between May 6-10, 1942, the IJN established a base on Deboyne with units that came from Rabaul, New Britain and Shortland Island in the Solomon Islands, including the seaplane tender Kamikawa Maru.
-
-The base existed for approximately five-and-a-half days in May 1942, including the Battle of the Coral Sea. During that time the Japanese Navy operated a small number of Aichi E13A (Jake), Mitsubishi F1M (Pete), Nakajima E8N (Dave) and possibly other types of seaplanes there. Fortifications were minimal, consisting of felled palm trees and small-caliber anti-aircraft guns on shore, as well as any firepower on ships in the lagoon.
-
-During World War II, the Japanese built a temporary seaplane base in the lagoon at Deboyne Atoll as part of MO Sakusen, the attempt to capture Port Moresby, Papua.
-
-The base was created by units that came from Rabaul, New Britain and Shortland Island in the Solomon Islands, including the seaplane tender Kamikawa Maru.
+Between May 6-10, 1942, the IJN established a seaplane base in the lagoon at Deboyne Atoll as part of MO Sakusen, the attempt to capture Port Moresby, Papua.
+It was established by units that came from Rabaul, New Britain and Shortland Island in the Solomon Islands, including the seaplane tender Kamikawa Maru.
 
 The base existed for approximately five-and-a-half days in May 1942, including the Battle of the Coral Sea. During that time the Japanese Navy operated a small number of Aichi E13A (Jake), Mitsubishi F1M (Pete), Nakajima E8N (Dave) and possibly other types of seaplanes there.
 
@@ -69,7 +64,7 @@ References:
 
 #### About the Deboyne Islands
 
-against the Imperial Japanese Navy seaplane base in the Deboyne Islands of the Louisiade Archipelago
+The Deboyne Islands are located in the Louisiade Archipelago, off the eastern tip of Papua New Guinea.
 
 [![ref_map_deboyne](./assets/ref_map_deboyne.jpg)](https://www.google.com/maps/place/Deboyne+Islands/@-10.7764514,152.3581422,36565m/data=!3m1!1e3!4m6!3m5!1s0x6923df8db8ab62a9:0x800fe54b0607c998!8m2!3d-10.7374662!4d152.4210871!16s%2Fm%2F065_0lj?entry=ttu)
 
@@ -263,7 +258,130 @@ Build by Bilal Jamri
 
 ### Build Log
 
-### Final Gallery
+For the Mitsubishi F1M Petes:
+
+* Build from Sprue W included in [Water Line Series No. 560 Japanese Seaplane Tender Kamikawamaru Aoshima No. 009741 1:700](https://www.scalemates.com/kits/aoshima-009741-japanese-seaplane-tender-kamikawamaru--638934)
+* Build from [Sky Wave Series Equipment For Japanese Navy Ships-WW2 (Set 7) Pit-Road No. E12 1:700](https://www.scalemates.com/kits/pit-road-e12-equipment-japanese-navy-ships-ww2-set-7--1245027)
+* Detail parts from [IJN Aircraft Set III Seaplane details Rainbow No. Rb7022 1:700](https://www.scalemates.com/kits/rainbow-rb7022-ijn-aircraft-set-iii--956000)
+
+![build01a](./assets/build01a.jpg?raw=true)
+
+![build01b](./assets/build01b.jpg?raw=true)
+
+Aiche E13A are built using [WWII IJN Type Zero Water Plane (x4) 3D Printed Seed Hobby No. SH700048 1:700](https://www.scalemates.com/kits/seed-hobby-sh700048-wwii-ijn-type-zero-water-plane-x4--1518615)
+
+![build02a](./assets/build02a.jpg?raw=true)
+
+The ships boat W13 is replaced by a nice resin alternative from [WWII IJN 11m Motor Boat (8set) 3D Printed Five Star Model No. FS710360 1:700](https://www.scalemates.com/kits/five-star-model-fs710360-wwii-ijn-11m-motor-boat-8set--1507608).
+
+![build03a](./assets/build03a.jpg?raw=true)
+
+![build03b](./assets/build03b.jpg?raw=true)
+
+![build03c](./assets/build03c.jpg?raw=true)
+
+![build03d](./assets/build03d.jpg?raw=true)
+
+![build03e](./assets/build03e.jpg?raw=true)
+
+![build04a](./assets/build04a.jpg?raw=true)
+
+![build05a](./assets/build05a.jpg?raw=true)
+
+![build05b](./assets/build05b.jpg?raw=true)
+
+![build05c](./assets/build05c.jpg?raw=true)
+
+![build05d](./assets/build05d.jpg?raw=true)
+
+![build05e](./assets/build05e.jpg?raw=true)
+
+![build05f](./assets/build05f.jpg?raw=true)
+
+![build05g](./assets/build05g.jpg?raw=true)
+
+![build05h](./assets/build05h.jpg?raw=true)
+
+![build05i](./assets/build05i.jpg?raw=true)
+
+![build06a](./assets/build06a.jpg?raw=true)
+
+Additional boats:
+
+* [WWII IJN 6m Traffic Boat (8set) 3D Printed Five Star Model No. FS710362 1:700](https://www.scalemates.com/kits/five-star-model-fs710362-wwii-ijn-6m-traffic-boat-8set--1507610)
+* [WWII IJN 7.5m Motor Boat (for destroyers and smaller vessels) (6 set) Five Star Model No. FS710353 1:700](https://www.scalemates.com/kits/five-star-model-fs710353-wwii-ijn-75m-motor-boat-destroyers-and-smaller-vessels-6-set--1486116)
+
+![build06b](./assets/build06b.jpg?raw=true)
+
+![build06c](./assets/build06c.jpg?raw=true)
+
+![build06d](./assets/build06d.jpg?raw=true)
+
+![build06e](./assets/build06e.jpg?raw=true)
+
+![build06f](./assets/build06f.jpg?raw=true)
+
+![build06g](./assets/build06g.jpg?raw=true)
+
+![build06i](./assets/build06i.jpg?raw=true)
+
+![build06j](./assets/build06j.jpg?raw=true)
+
+![build06k](./assets/build06k.jpg?raw=true)
+
+![build06l](./assets/build06l.jpg?raw=true)
+
+![build06m](./assets/build06m.jpg?raw=true)
+
+![build07a](./assets/build07a.jpg?raw=true)
+
+![build08a](./assets/build08a.jpg?raw=true)
+
+![build09a](./assets/build09a.jpg?raw=true)
+
+![build09b](./assets/build09b.jpg?raw=true)
+
+### Final Gallery - Kamikawa Maru at Deboyne 1942
+
+On May 6, 1942 an IJN task force entered Deboyne Lagoon to establish a forward seaplane operating area.
+The Deboyne Islands are located in the Louisiade Archipelago, off the eastern tip of Papua New Guinea.
+The Kamikawa Maru (神川丸) was the main seaplane transport, and delivered a force of made up of Aichi E13A Jakes and probably Mitsubishi F1M Petes.
+
+The Kamikawa Maru (神川丸) was built at Kawasaki's Kōbe Shipyard and launched on 13 December 1936 as a merchant vessel for the Kawasaki Kisen K. K. Line.
+On 18 September 1937 the IJN requisitioned her as an aircraft transport ship and she was refitted in 1939 as a seaplane tender.
+She served throughout the Pacific before being sunk by USS Scamp on May 29, 1943.
+
+The build is based around the Aoshima 1:700 kit.
+
+![build10a](./assets/build10a.jpg?raw=true)
+
+![build10b](./assets/build10b.jpg?raw=true)
+
+![build10c](./assets/build10c.jpg?raw=true)
+
+![build10d](./assets/build10d.jpg?raw=true)
+
+![build10e](./assets/build10e.jpg?raw=true)
+
+![build10f](./assets/build10f.jpg?raw=true)
+
+![build10g](./assets/build10g.jpg?raw=true)
+
+![build10h](./assets/build10h.jpg?raw=true)
+
+![build10i](./assets/build10i.jpg?raw=true)
+
+![build10l](./assets/build10l.jpg?raw=true)
+
+![build10m](./assets/build10m.jpg?raw=true)
+
+![build10n](./assets/build10n.jpg?raw=true)
+
+![build10p](./assets/build10p.jpg?raw=true)
+
+![build10q](./assets/build10q.jpg?raw=true)
+
+![build10t](./assets/build10t.jpg?raw=true)
 
 ## Credits and References
 
@@ -274,6 +392,9 @@ Build by Bilal Jamri
     * [Sky Wave Series Equipment For Japanese Navy Ships-WW2 (Set 7) Pit-Road No. E12 1:700](https://www.scalemates.com/kits/pit-road-e12-equipment-japanese-navy-ships-ww2-set-7--1245027)
     * [WWII IJN Type Zero Water Plane (x4) 3D Printed Seed Hobby No. SH700048 1:700](https://www.scalemates.com/kits/seed-hobby-sh700048-wwii-ijn-type-zero-water-plane-x4--1518615)
     * [IJN Aircraft Set III Seaplane details Rainbow No. Rb7022 1:700](https://www.scalemates.com/kits/rainbow-rb7022-ijn-aircraft-set-iii--956000)
+    * [WWII IJN 11m Motor Boat (8set) 3D Printed Five Star Model No. FS710360 1:700](https://www.scalemates.com/kits/five-star-model-fs710360-wwii-ijn-11m-motor-boat-8set--1507608)
+    * [WWII IJN 6m Traffic Boat (8set) 3D Printed Five Star Model No. FS710362 1:700](https://www.scalemates.com/kits/five-star-model-fs710362-wwii-ijn-6m-traffic-boat-8set--1507610)
+    * [WWII IJN 7.5m Motor Boat (for destroyers and smaller vessels) (6 set) Five Star Model No. FS710353 1:700](https://www.scalemates.com/kits/five-star-model-fs710353-wwii-ijn-75m-motor-boat-destroyers-and-smaller-vessels-6-set--1486116)
 * [Kamikawa Maru-class seaplane tenders](https://en.wikipedia.org/wiki/Kamikawa_Maru-class_seaplane_tender) - wikipedia
 * [Japanese seaplane tender Kamikawa Maru](https://en.wikipedia.org/wiki/Japanese_seaplane_tender_Kamikawa_Maru) - wikipedia
 * [IJN Seaplane Tender KAMIKAWA MARU: Tabular Record of Movement](http://www.combinedfleet.com/Kamikawa%20Maru_t.htm)
