@@ -1,6 +1,6 @@
-# 754 Little Electronic Art Projects
+# 755 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Digital Clock Kit](./Electronics101/DigitalLogic/DigitalClockKit) - Build a CMOS digital logic clock kit and understand the operating principles of the circuit.
+> Latest addition:sparkles: [9V (PP3) to 5V or 3.3V Power Adapter](./Electronics101/Power/pp3power) - Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.
 
 LEAP is just my personal collection of projects.
 Two main themes have emerged in recent years, sometimes combined:
