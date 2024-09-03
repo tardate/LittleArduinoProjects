@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-09-06T10:14:05Z</updated>
+  <updated>2024-09-08T14:20:43Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/ijn/mitsubishia6m/a6m2b/</id>
+    <link href="https://leap.tardate.com/kraft/ijn/mitsubishia6m/a6m2b/"/>
+    <g:image_link>https://leap.tardate.com/kraft/ijn/mitsubishia6m/a6m2b/assets/a6m2b_build.jpg</g:image_link>
+    <updated>2024-09-08T14:20:00Z</updated>
+    <title>#756 Mitsubishi A6M2b</title>
+    <summary>Building the classic Tamiya 1:72 A6M2b</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the classic Tamiya 1:72 A6M2b&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/ijn/mitsubishia6m/a6m2b/assets/a6m2b_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/pp3power/</id>
     <link href="https://leap.tardate.com/electronics101/power/pp3power/"/>

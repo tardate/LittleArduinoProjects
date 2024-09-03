@@ -1,5 +1,13 @@
 [
     {
+        "id": "#756",
+        "name": "Mitsubishi A6M2b",
+        "description": "Building the classic Tamiya 1:72 A6M2b",
+        "categories": "scale models, Craft",
+        "relative_path": "kraft/ijn/mitsubishia6m/a6m2b",
+        "updated_at": "2024-09-08T14:20:00Z"
+    },
+    {
         "id": "#755",
         "name": "9V (PP3) to 5V or 3.3V Power Adapter",
         "description": "Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.",
