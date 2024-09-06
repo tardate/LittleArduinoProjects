@@ -25,6 +25,12 @@ Since the kit-supplied aircrew are identical and not pose-able,
 I picked up some replacements from PJ Productions.
 These are a little more detailed: [Modern RAF seated in aircraft PJ Production No. 721118 1:72](https://www.scalemates.com/kits/pj-production-721118-modern-raf-seated-in-aircraft--180890)
 
+### Kit Reviews
+
+Airfix 1/72 Buccaneer S2C Review - florymodels
+
+[![clip](https://img.youtube.com/vi/zKIVmHJcgww/0.jpg)](https://www.youtube.com/watch?v=zKIVmHJcgww)
+
 ### Some Build Reviews
 
 Harry Houdini Models:

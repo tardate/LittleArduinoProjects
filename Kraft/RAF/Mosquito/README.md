@@ -11,6 +11,30 @@ Building the Airfix de Havilland Mosquito B Mk.XVI (no electronics)
 The [Airfix 1:72 kit No. A04023](https://www.scalemates.com/kits/airfix-a04023-havilland-mosquito-b-mkxvi--1324974)
 of the de Havilland Mosquito B Mk.XVI is a new tool from 2021.
 
+### Research
+
+Mosquito: The RAF's Legendary Wooden Wonder
+
+[![clip](https://img.youtube.com/vi/Z5gWrdcxc_4/0.jpg)](https://www.youtube.com/watch?v=Z5gWrdcxc_4)
+
+### Kit Reviews
+
+AIRFIX | de Havilland Mosquito - 1:72 Scale
+
+[![clip](https://img.youtube.com/vi/GigldyHXE6E/0.jpg)](https://www.youtube.com/watch?v=GigldyHXE6E)
+
+Quick Snip Review: Airfix 1/72 DeHavilland Mosquito B Mk XVI
+
+[![clip](https://img.youtube.com/vi/5hh-VfGB4Q8/0.jpg)](https://www.youtube.com/watch?v=5hh-VfGB4Q8)
+
+Airfix 1/72 De Havilland Mosquito B.XVI review - florymodels
+
+[![clip](https://img.youtube.com/vi/vfmsFzdClJE/0.jpg)](https://www.youtube.com/watch?v=vfmsFzdClJE)
+
+De Havilland Mosquito B.XVI - Airfix 1/72 - Aircraft Model
+
+[![clip](https://img.youtube.com/vi/iRsc73Cvsj4/0.jpg)](https://www.youtube.com/watch?v=iRsc73Cvsj4)
+
 ### Paint Scheme
 
 | Feature               | Color                 | Recommended | Paint Used                              |
