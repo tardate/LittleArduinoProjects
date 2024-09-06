@@ -127,7 +127,7 @@ A short section of 12V Cool White LED strip is mounted in the front and rear of 
 
 To make it possible to power from a 5V USB 18650 power bank, I've added a boost converter in-line to
 bring the voltage up to 12V - using
-[LEAP#358 MC34063 Boost Converter Kit](../../Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit).
+[LEAP#358 MC34063 Boost Converter Kit](../../Electronics101/Power/SwitchModePowerSupplies/MC34063/ModuleKit).
 
 ![bb](./assets/RaceToJitra_bb.jpg?raw=true)
 
@@ -160,4 +160,4 @@ Here's a quick demo..
 * [Battle of Kota Bharu](https://en.wikipedia.org/wiki/Battle_of_Kota_Bharu)
 * [The Malayan Campaign, December 1941 - January 1942](https://www.youtube.com/watch?v=moZDGY6YPk0) - Storm of Steel Military History
 * [Osprey Japanese Tanks 1939-45](https://www.scribd.com/document/190062816/Osprey-Japanese-Tanks-1939-45)
-* [LEAP#358 MC34063 Boost Converter Kit](../../Electronics101/SwitchModePowerSupplies/MC34063/ModuleKit)
+* [LEAP#358 MC34063 Boost Converter Kit](../../Electronics101/Power/SwitchModePowerSupplies/MC34063/ModuleKit)

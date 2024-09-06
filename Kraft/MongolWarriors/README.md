@@ -57,7 +57,7 @@ To light the frame, I'm using a short (~7 LED) length of 12V warm white LED stri
 To make it easy to power, I'm using a 9V battery to be installed in the frame with a MT3608-based boost converter
 to bump the output to 12V.
 
-Note: see [LEAP#642](../../Electronics101/SwitchModePowerSupplies/MT3608/SafeControl) for issue with running the boost converter with an input over 7V - basically just need to be careful not to fully adjust the output to the extreme (lest the MT3608 chip will be fried). Adjusted for 12V output is fine.
+Note: see [LEAP#642](../../Electronics101/Power/SwitchModePowerSupplies/MT3608/SafeControl) for issue with running the boost converter with an input over 7V - basically just need to be careful not to fully adjust the output to the extreme (lest the MT3608 chip will be fried). Adjusted for 12V output is fine.
 
 ![bb](./assets/MongolWarriors_bb.jpg?raw=true)
 
