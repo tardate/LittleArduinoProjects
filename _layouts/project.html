@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 {% assign project_name = page.dir | split: "/" | last %}
-{% if site.data.projects[page.dir] %}
-{% assign project_id = site.data.projects[page.dir]["id"] %}
+{% assign page_id = page.dir | downcase %}
+{% if site.data.projects[page_id] %}
+{% assign project_id = site.data.projects[page_id]["id"] %}
 {% assign leap_id = "LEAP#" | append: project_id %}
-{% assign project_title = site.data.projects[page.dir]["title"] %}
-{% assign project_summary = site.data.projects[page.dir]["summary"] %}
-{% assign project_tags = site.data.projects[page.dir]["tags"] %}
+{% assign project_title = site.data.projects[page_id]["title"] %}
+{% assign project_summary = site.data.projects[page_id]["summary"] %}
+{% assign project_tags = site.data.projects[page_id]["tags"] %}
 {% else %}
 {% assign project_title = project_name %}
 {% endif %}

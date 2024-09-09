@@ -8,7 +8,7 @@ Catalog data is loaded from [catalog.json](./catalog.json), which is consolidate
 
 The [make.py](./make.py) utility script is used to maintain the catalog:
 
-```
+```sh
 catalog/make.py rebuild  # builds the catalog from catalog metadata
 ```
 
@@ -34,7 +34,7 @@ Note: I previously used GitHub Pages, but switched to Netlify as that allows me 
 
 The site is generated with Jekyll. To run locally:
 
-```
+```sh
 bundle exec jekyll serve
 ```
 
