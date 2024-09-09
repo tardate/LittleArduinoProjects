@@ -17,13 +17,14 @@ The A6M2b is the Type 0 Model 21 variant introduced folding wingtips to allow th
 
 ### The Kit
 
-[![](./assets/25165_kit_box.png)](https://www.scalemates.com/kits/tamiya-25165-mitsubishi-a6m2b-zero-fighter-zeke-and-zero-at-war-photobook-limited-edition-kit--233477)
+[![25165_kit_box](./assets/25165_kit_box.png)](https://www.scalemates.com/kits/tamiya-25165-mitsubishi-a6m2b-zero-fighter-zeke-and-zero-at-war-photobook-limited-edition-kit--233477)
 
 I picked up the Tamiya Mitsubishi A6M2b 1:72 kit in a
 [Limited Edition boxing No. 25165](https://www.scalemates.com/kits/tamiya-25165-mitsubishi-a6m2b-zero-fighter-zeke-and-zero-at-war-photobook-limited-edition-kit--233477)
 while visiting the
 [TAMIYA PLAMODEL FACTORY TOKYO](https://maps.app.goo.gl/MgaKjJUUNTrNtCde7).
-It includes an extended range of 8 schemes and the "Zero at War" photobook.
+It includes an extended range of 8 schemes and the
+["Zero at War" photo-book](https://www.goodreads.com/book/show/50918831-fighting-zero-fight).
 
 ## References
 
@@ -51,7 +52,7 @@ The A6M Naval Carrier Fighter - Homegrown or Copy?
 * F: 《第二航空 隊二番艦•隼鷹搭載》昭和17年10月～昭和18年1月
     * Carrier Junyo, 2nd ship of Carrier Div. 2, October 1942 - January 1943
 * G: 《201航空隊所属機 》昭和18年初期中部太平洋
-    * 201st Air Group, Contral Pacific, early 1943
+    * 201st Air Group, Central Pacific, early 1943
 * H: 《第261航空隊所属機》昭和18年中期～昭和19年3月 鹿 島基地
     * 261st Air Group, Kagoshima Airbase, mid-1943 - March 1944
 
@@ -140,6 +141,7 @@ I've often heard the legend of the "best 1:72 kit ever made" - Tamiya A6M. Final
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=156539)
-* [Mitsubishi A6M2b Zero Fighter (Zeke) & "Zero at War" Photobook Limited Edition Kit Tamiya No. 25165 1:72](https://www.scalemates.com/kits/tamiya-25165-mitsubishi-a6m2b-zero-fighter-zeke-and-zero-at-war-photobook-limited-edition-kit--233477)
+* [Mitsubishi A6M2b Zero Fighter (Zeke) & "Zero at War" Photo-book Limited Edition Kit Tamiya No. 25165 1:72](https://www.scalemates.com/kits/tamiya-25165-mitsubishi-a6m2b-zero-fighter-zeke-and-zero-at-war-photobook-limited-edition-kit--233477)
 * [A6M2b for Tamiya Eduard No. CX337 1:72](https://www.scalemates.com/kits/eduard-cx337-a6m2b--185132)
 * [Japanese Kamikaze WWII Red Box No. RB72048 1:72](https://www.scalemates.com/kits/red-box-rb72048-japanese-kamikaze--407570)
+* ["Zero at War" photo-book](https://www.goodreads.com/book/show/50918831-fighting-zero-fight)
