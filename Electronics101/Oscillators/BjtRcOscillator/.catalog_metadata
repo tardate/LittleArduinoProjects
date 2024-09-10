@@ -1,7 +1,7 @@
 {
     "id": "#049",
     "name": "BJT RC Oscillator",
-    "description": "simple RC/transistor multistable vibrator",
+    "description": "Demonstrates a simple RC/transistor astable multivibrator",
     "categories": "BJT, RC, Oscillators",
     "relative_path": "Electronics101/Oscillators/BjtRcOscillator",
     "updated_at": "2019-06-01T02:54:20Z"

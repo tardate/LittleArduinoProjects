@@ -1,6 +1,6 @@
 # #049 BJT RC Oscillator
 
-Demonstrates a simple RC/transistor multistable vibrator
+Demonstrates a simple RC/transistor astable multivibrator
 
 ![The Build](./assets/BjtRcOscillator_build.jpg?raw=true)
 
@@ -37,5 +37,5 @@ NB: I'm using S9013 but any small-signal NPN transistors will do.
 * [S9013 Datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [RC time constant](http://en.wikipedia.org/wiki/RC_time_constant)
 * The [Sparkfun transistors](https://learn.sparkfun.com/tutorials/transistors) page - great tutorial and some nice simple circuit ideas
-* [Basic Astable Multivibrator Circuit](http://www.electronics-tutorials.ws/waveforms/astable.html) - good write-up of the circuit
-* [Astable Multivibrator circuit](http://www.pcbheaven.com/userpages/basic_transistor_circuits/) - another example.
+* [Basic Astable Multivibrator Circuit](https://www.electronics-tutorials.ws/waveforms/astable.html) - good write-up of the circuit
+* [Astable Multivibrator circuit](https://www.pcbheaven.com/userpages/basic_transistor_circuits/) - another example.

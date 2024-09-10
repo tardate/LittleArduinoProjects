@@ -1,4 +1,14 @@
 {
+    "/electronics101/windbellkit/": {
+        "id": 757,
+        "title": "Wobbly Wind Bell Kit",
+        "summary": "Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.",
+        "tags": [
+            "BJT",
+            "RC",
+            "Oscillators"
+        ]
+    },
     "/kraft/ijn/mitsubishia6m/a6m2b/": {
         "id": 756,
         "title": "Mitsubishi A6M2b",
@@ -6619,7 +6629,7 @@
     "/electronics101/oscillators/bjtrcoscillator/": {
         "id": 49,
         "title": "BJT RC Oscillator",
-        "summary": "simple RC/transistor multistable vibrator",
+        "summary": "Demonstrates a simple RC/transistor astable multivibrator",
         "tags": [
             "BJT",
             "RC",

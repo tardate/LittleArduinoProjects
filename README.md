@@ -1,6 +1,6 @@
-# 756 Little Electronic Art Projects
+# 757 Little Electronic Art Projects
 
-> Latest addition:sparkles: [9V (PP3) to 5V or 3.3V Power Adapter](./Electronics101/Power/pp3power) - Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.
+> Latest addition:sparkles: [Wobbly Wind Bell Kit](./Electronics101/WindBellKit) - Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.
 
 LEAP is just my personal collection of projects.
 Two main themes have emerged in recent years, sometimes combined:
