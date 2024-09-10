@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-09-08T14:20:43Z</updated>
+  <updated>2024-09-10T14:16:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/windbellkit/</id>
+    <link href="https://leap.tardate.com/electronics101/windbellkit/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/windbellkit/assets/windbellkit_build.jpg</g:image_link>
+    <updated>2024-09-10T14:16:00Z</updated>
+    <title>#757 Wobbly Wind Bell Kit</title>
+    <summary>Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/windbellkit/assets/windbellkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="BJT"/>
+    <category term="RC"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/ijn/mitsubishia6m/a6m2b/</id>
     <link href="https://leap.tardate.com/kraft/ijn/mitsubishia6m/a6m2b/"/>
@@ -8052,8 +8064,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/bjtrcoscillator/assets/bjtrcoscillator_build.jpg</g:image_link>
     <updated>2019-06-01T02:54:20Z</updated>
     <title>#049 BJT RC Oscillator</title>
-    <summary>simple RC/transistor multistable vibrator</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;simple RC/transistor multistable vibrator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/bjtrcoscillator/assets/bjtrcoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Demonstrates a simple RC/transistor astable multivibrator</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrates a simple RC/transistor astable multivibrator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/bjtrcoscillator/assets/bjtrcoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
     <category term="RC"/>
     <category term="Oscillators"/>
