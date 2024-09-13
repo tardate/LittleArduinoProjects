@@ -1,5 +1,13 @@
 [
     {
+        "id": "#758",
+        "name": "Gloster Meteor FR.9",
+        "description": "Building the 1:72 Airfix 2022 tooling of the Gloster Meteor FR.9. No electronics in this one.",
+        "categories": "scale models, Craft",
+        "relative_path": "kraft/gloster/meteorfr9",
+        "updated_at": "2024-09-23T09:10:00Z"
+    },
+    {
         "id": "#757",
         "name": "Wobbly Wind Bell Kit",
         "description": "Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.",
