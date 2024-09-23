@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-09-10T14:16:54Z</updated>
+  <updated>2024-09-23T09:15:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/gloster/meteorfr9/</id>
+    <link href="https://leap.tardate.com/kraft/gloster/meteorfr9/"/>
+    <g:image_link>https://leap.tardate.com/kraft/gloster/meteorfr9/assets/meteorfr9_build.jpg</g:image_link>
+    <updated>2024-09-23T09:10:00Z</updated>
+    <title>#758 Gloster Meteor FR.9</title>
+    <summary>Building the 1:72 Airfix 2022 tooling of the Gloster Meteor FR.9. No electronics in this one.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the 1:72 Airfix 2022 tooling of the Gloster Meteor FR.9. No electronics in this one.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/gloster/meteorfr9/assets/meteorfr9_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="scale models"/>
+    <category term="Craft"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/windbellkit/</id>
     <link href="https://leap.tardate.com/electronics101/windbellkit/"/>

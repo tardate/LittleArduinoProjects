@@ -1,4 +1,13 @@
 {
+    "/kraft/gloster/meteorfr9/": {
+        "id": 758,
+        "title": "Gloster Meteor FR.9",
+        "summary": "Building the 1:72 Airfix 2022 tooling of the Gloster Meteor FR.9. No electronics in this one.",
+        "tags": [
+            "scale models",
+            "Craft"
+        ]
+    },
     "/electronics101/windbellkit/": {
         "id": 757,
         "title": "Wobbly Wind Bell Kit",
