@@ -19,7 +19,9 @@ Despite its early successes, the G3M was gradually outclassed by more modern air
 ### The Kit
 
 The [Hasegawa Kit No. 02218 1:72](https://www.scalemates.com/kits/hasegawa-02218-mitsubishi-g3m3-type-96-land-based-attack-aircraft-model-23-kanoya-flying-corps--1007836)
-is  Mitsubishi G3M3 Type 96 Land-Based Attack Aircraft Model 23 'Kanoya Flying Corps'
+is a 2016 boxing of the original 1997 tooling from Hasegawa of the Mitsubishi G3M3 Type 96 Land-Based Attack Aircraft Model 23 'Kanoya Flying Corps'.
+
+I found this kit in [Hobby Mate ホビーメイト Osaka](https://maps.app.goo.gl/Rngq3cVzB6Ln5hMGA) for ¥2,720 - a true goldmine of a store for kits especially from the 1990's and 2000's.
 
 [![risingsungb_nell](./assets/risingsungb_nell.jpg)](https://www.scalemates.com/kits/hasegawa-02218-mitsubishi-g3m3-type-96-land-based-attack-aircraft-model-23-kanoya-flying-corps--1007836)
 
