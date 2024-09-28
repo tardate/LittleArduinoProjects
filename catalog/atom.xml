@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-09-23T09:15:42Z</updated>
+  <updated>2024-09-28T03:42:05Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/ijn/mitsubishig3m/g3m3model23/</id>
+    <link href="https://leap.tardate.com/kraft/ijn/mitsubishig3m/g3m3model23/"/>
+    <g:image_link>https://leap.tardate.com/kraft/ijn/mitsubishig3m/g3m3model23/assets/g3m3model23_build.jpg</g:image_link>
+    <updated>2024-09-28T03:42:00Z</updated>
+    <title>#759 Mitsubishi G3M3 Nell</title>
+    <summary>Building the Mitsubishi G3M3 Nell from Hasegawa in 1:72, motorized and mounted in-flight for the #risingsungb.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the Mitsubishi G3M3 Nell from Hasegawa in 1:72, motorized and mounted in-flight for the #risingsungb.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/ijn/mitsubishig3m/g3m3model23/assets/g3m3model23_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="scale models"/>
+    <category term="Craft"/>
+    <category term="IJN"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/gloster/meteorfr9/</id>
     <link href="https://leap.tardate.com/kraft/gloster/meteorfr9/"/>

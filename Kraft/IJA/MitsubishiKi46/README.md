@@ -49,6 +49,26 @@ Navy not army, but after all the careful painting, not really visible through th
 | interior              |                      |             | 70.924 Russian Uniform WWII           |
 | exterior              |                      |             | H-14 with matt yellow undercoat over Aqueous White Surfacer 1000      |
 
+### Paint Scheme - Figures
+
+[Japanese Navy Airmen Set Hasegawa No. X72-16 1:72](https://www.scalemates.com/kits/hasegawa-x72-16-japanese-navy-airmen-set--1123725)
+
+| Feature                                         | Color                    | Recommended | Paint Used |
+|-------------------------------------------------|--------------------------|-------------|------------|
+| goggle frames                                   | Silver                   | C8/H8       |            |
+| goggle frames (alt)                             | Copper                   | C10/H10     |            |
+| goggle straps                                   | Sandy Brown              | C19/H66     |            |
+| webbing/life jacket                             | Dark Earth               | C22/H72     | 70.921 English Uniform |
+|                                                 | Flat Base                | C30/H40     |            |
+| helmet                                          | Red Brown                | C41/H47     |            |
+|                                                 | Mahogany                 | C42/H84     | 70.846 Mahogany Brown |
+| helmet inner                                    | Tan                      | C44/H27     |            |
+|                                                 | Flesh                    | C51/H44     |            |
+| scarf                                           | Flat White               | C62/H11     |            |
+| boots                                           | Semi gloss black         | C92         |            |
+|                                                 | Mitsubishi Cockpit Color | C126        |            |
+| flight suit and gloves                          |                          | C22/H72 (70%) + C42/H84 (30%) |            |
+
 ### Build Log
 
 I selected a couple of figures from the Hasegawa Japanese Navy Airmen Set to replace the very poorly molded figures that are included in the ARII kit
