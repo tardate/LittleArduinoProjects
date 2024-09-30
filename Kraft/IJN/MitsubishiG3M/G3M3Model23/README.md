@@ -162,6 +162,10 @@ With the micro-motors I'm using, the correct motor polarity to got the props to 
 
 I'm using a simple 555 timer circuit to provide variable speed PWM control. There's just enough oomph in 3V batteries (2xAAA) to power the props.
 
+Note:
+
+* I've put a flyback diode on each motor (mounted inside the plane actually). This was because I originally intended to drive the motors independently. As-is, the duplication is redundant, but it does keep options open for independent drive in the future.
+
 ![bb](./assets/G3M3Model23_bb.jpg?raw=true)
 
 ![schematic](./assets/G3M3Model23_schematic.jpg?raw=true)
