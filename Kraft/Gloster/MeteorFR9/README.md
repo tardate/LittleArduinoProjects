@@ -92,6 +92,15 @@ Gloster Meteor FR.9 FF-114, Escudrón de Combate No.2111, Fuerza Aérea Ecuatori
 
 ![build04e](./assets/build04e.jpg?raw=true)
 
+I was called out for some poor geography(!) ... so now with an updated background,
+more reminiscent ot Sharjah in the Trucial States...
+
+![build05b](./assets/build05b.jpg?raw=true)
+
+![build05c](./assets/build05c.jpg?raw=true)
+
+![MeteorFR9_build](./assets/MeteorFR9_build.jpg?raw=true)
+
 ## Credits and References
 
 * [this project on scalemates](https://www.scalemates.com/profiles/mate.php?id=74137&p=projects&project=140040)
