@@ -36,6 +36,8 @@ The plane was featured in [Godzilla Minus One](https://en.wikipedia.org/wiki/God
 
 It is quite a simple kit, but engineered extremely well and the moulding is still top quality, with no flash or defects.
 
+I got the kit for ¥950 from [Plaza Japan](https://www.plazajapan.com/4967834014503/).
+
 ![kit_parts](./assets/kit_parts.jpg)
 
 ### Paint Scheme
