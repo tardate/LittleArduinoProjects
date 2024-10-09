@@ -2,19 +2,19 @@
 
 > Latest addition:sparkles: [Wobbly Wind Bell Kit](./Electronics101/WindBellKit) - Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.
 
-LEAP is just my personal collection of projects.
-Two main themes have emerged in recent years, sometimes combined:
-
-* electronics - usually involving an Arduino or other microprocessor in one way or another. Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting
-* scale modelling - I caught the bug after deciding to build a Harrier during covid to demonstrate an electronic jet engine simulation. Let the fun begin..
-
-To be honest, I haven't quite figured out if these two interests belong in the same
-GitHub repo or not. But for now - they are all here!
+LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
+Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
 
 Projects are often inspired by things found wild on the net,
 or ideas from the many great electronics and scale modelling podcasts and YouTube channels.
 Feel free to borrow liberally, and if you spot any issues do let me know (or send a PR!).
 See the individual projects for credits where due.
+
+For a while I have also included various scale modelling projects here too,
+but I've now split those off into a new repository.
+Check out
+[LittleModelArt](https://modelart.tardate.com/)
+if you are looking for the modelling projects!
 
 ## The LEAP Project Index
 
