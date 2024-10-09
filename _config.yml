@@ -77,7 +77,7 @@ exclude:
   - bin
   - wip
   - venv
-  - "*/venv/*"  
+  - "*/venv/*"
   - libraries
   - OSHChip/venv
   - OSHChip/GccToolchain/gcc-arm-none-eabi-5_3-2016q1
@@ -86,6 +86,7 @@ exclude:
   - OSHChip/YottaToolchain/build
   - OSHChip/YottaToolchain/yotta_targets
   - OSHChip/YottaToolchain/yotta_modules
+  - FPGA/Fomu/assets/fomu-workshop
 
 defaults:
   -
