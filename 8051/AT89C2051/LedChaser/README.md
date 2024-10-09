@@ -1,4 +1,4 @@
-# #399 AT89C2051 LED Chaser
+# #398 AT89C2051 LED Chaser
 
 Run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX.
 

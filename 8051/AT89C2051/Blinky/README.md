@@ -1,4 +1,4 @@
-# #395 AT89C2051 Blinky
+# #394 AT89C2051 Blinky
 
 Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX.
 

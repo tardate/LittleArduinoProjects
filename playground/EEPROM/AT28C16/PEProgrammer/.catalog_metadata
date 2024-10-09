@@ -1,5 +1,5 @@
 {
-    "id": "#314",
+    "id": "#313",
     "name": "AT28C16 EEPROM Programmer",
     "description": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander",
     "categories": "EEPROM, Arduino",

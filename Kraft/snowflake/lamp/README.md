@@ -1,4 +1,4 @@
-# #592 Snowflake Lamp
+# #579 Snowflake Lamp
 
 Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand.
 

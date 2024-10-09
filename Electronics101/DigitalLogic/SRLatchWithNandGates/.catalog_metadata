@@ -1,5 +1,5 @@
 {
-    "id": "#346",
+    "id": "#345",
     "name": "NAND Gate SR Latch",
     "description": "Set-Reset latch implemented with NAND gates",
     "categories": "Digital Logic, CMOS/TTL",

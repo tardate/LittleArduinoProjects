@@ -1,4 +1,4 @@
-# #311 Juice
+# #310 Juice
 
 Building the Boldport Juice battery replacement kit (Project #12).
 

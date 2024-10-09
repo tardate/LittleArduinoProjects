@@ -1,4 +1,4 @@
-# #496 ESP32 Getting Started
+# #495 ESP32 Getting Started
 
 Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example.
 

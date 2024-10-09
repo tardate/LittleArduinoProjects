@@ -1,5 +1,5 @@
 {
-    "id": "#491",
+    "id": "#490",
     "name": "Magnet-switched Solenoid",
     "description": "using a Hall effect sensor to trigger a solenoid with a fixed pulse",
     "categories": "Solenoid, Sensors",

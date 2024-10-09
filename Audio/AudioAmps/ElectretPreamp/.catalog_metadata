@@ -1,5 +1,5 @@
 {
-    "id": "#681",
+    "id": "#620",
     "name": "Electret Audio Pre-amplifier",
     "description": "Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.",
     "categories": "Breadboard Bling, OpAmp, Audio",

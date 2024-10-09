@@ -1,4 +1,4 @@
-# #571 TraceTogether Token
+# #568 TraceTogether Token
 
 Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code.
 

@@ -1,4 +1,4 @@
-# #564 USB Blinky Toy
+# #561 USB Blinky Toy
 
 A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit.
 

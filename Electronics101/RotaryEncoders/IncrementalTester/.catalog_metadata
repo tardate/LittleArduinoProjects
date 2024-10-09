@@ -1,5 +1,5 @@
 {
-    "id": "#413",
+    "id": "#412",
     "name": "Rotary Encoder Tester",
     "description": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic",
     "categories": "Sensor, CMOS/TTL",

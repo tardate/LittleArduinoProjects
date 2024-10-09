@@ -1,5 +1,5 @@
 {
-    "id": "#488",
+    "id": "#487",
     "name": "XOR-RC Edge Detector",
     "description": "Dual edge detection with a 74LS86 XOR and RC circuit",
     "categories": "CMOS/TTL",

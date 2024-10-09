@@ -1,4 +1,4 @@
-# #397 I²C Scanner
+# #396 I²C Scanner
 
 Scanning for I²C devices with an Arduino.
 

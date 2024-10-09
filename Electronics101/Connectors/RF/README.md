@@ -1,4 +1,4 @@
-# #347 RF Connectors
+# #346 RF Connectors
 
 Notes on miscellaneous RF connectors.
 

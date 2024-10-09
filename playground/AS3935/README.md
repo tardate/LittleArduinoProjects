@@ -1,4 +1,4 @@
-# #379 AS3935
+# #378 AS3935
 
 Using the AMS AS3935 Franklin Lightning Sensor with an Arduino over I²C with the Wire library.
 

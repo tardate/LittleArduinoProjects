@@ -1,4 +1,4 @@
-# #314 AT28C16 EEPROM Programmer
+# #313 AT28C16 EEPROM Programmer
 
 Programming an AT28C16 EEPROM with an Arduino and MCP23S17 16-bit port expander.
 

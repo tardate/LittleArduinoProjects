@@ -1,5 +1,5 @@
 {
-    "id": "#320",
+    "id": "#319",
     "name": "Synchronous JK Counter",
     "description": "a synchronous 8-bit counter built with JK Flip-Flops",
     "categories": "CMOS/TTL, Digital Logic",

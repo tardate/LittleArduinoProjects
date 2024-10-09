@@ -1,4 +1,4 @@
-# #682 Electret Sound Detection Module
+# #621 Electret Sound Detection Module
 
 Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).
 

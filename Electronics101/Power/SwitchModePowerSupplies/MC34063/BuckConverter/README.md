@@ -1,4 +1,4 @@
-# #667 MC34063 Buck Converter
+# #613 MC34063 Buck Converter
 
 Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.
 

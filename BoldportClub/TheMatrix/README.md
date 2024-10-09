@@ -1,4 +1,4 @@
-# #299 TheMatrix
+# #298 TheMatrix
 
 Building The Matrix (Boldport Club project #11) is an I²C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver.
 

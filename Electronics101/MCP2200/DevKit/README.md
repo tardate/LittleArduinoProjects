@@ -1,4 +1,4 @@
-# #334 MCP2200/DevKit
+# #333 MCP2200/DevKit
 
 Exploring the capabilities of the MCP2200 USB-to-UART transceiver and program it from a MacOSX host.
 

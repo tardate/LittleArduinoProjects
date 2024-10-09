@@ -1,4 +1,4 @@
-# #366 Nokia 5110 LCD/AdafruitSoftwareSPI
+# #365 Nokia 5110 LCD/AdafruitSoftwareSPI
 
 A quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library.
 

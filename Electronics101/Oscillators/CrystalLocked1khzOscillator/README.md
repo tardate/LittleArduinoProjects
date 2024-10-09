@@ -1,4 +1,4 @@
-# #487 Crystal-locked 1kHz Oscillator
+# #486 Crystal-locked 1kHz Oscillator
 
 A 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz.
 

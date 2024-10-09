@@ -1,4 +1,4 @@
-# #392 whiteboard
+# #391 whiteboard
 
 Building the Whiteboard - Boldport Club project #22 - a breadboard enhancer featuring power supply and prototyping areas.
 

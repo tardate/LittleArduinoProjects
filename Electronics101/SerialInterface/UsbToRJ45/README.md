@@ -1,4 +1,4 @@
-# #633 USB to RJ45 Adapter
+# #602 USB to RJ45 Adapter
 
 Building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets.
 

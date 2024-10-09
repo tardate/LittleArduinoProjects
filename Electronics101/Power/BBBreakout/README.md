@@ -1,4 +1,4 @@
-# #408 Power/BBBreakout
+# #407 Power/BBBreakout
 
 A little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors.
 

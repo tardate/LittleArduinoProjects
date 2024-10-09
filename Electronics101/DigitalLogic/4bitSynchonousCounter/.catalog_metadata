@@ -1,5 +1,5 @@
 {
-    "id": "#566",
+    "id": "#563",
     "name": "4-bit Synchonous Counter",
     "description": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear",
     "categories": "74LS161, 74LS245, Digital Logic, CMOS/TTL",

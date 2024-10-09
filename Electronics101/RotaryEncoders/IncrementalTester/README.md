@@ -1,4 +1,4 @@
-# #413 Incremental Rotary Encoder Tester
+# #412 Incremental Rotary Encoder Tester
 
 Demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic.
 

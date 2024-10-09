@@ -1,4 +1,4 @@
-# #494 Fomu Build Notifier
+# #493 Fomu Build Notifier
 
 Using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)
 

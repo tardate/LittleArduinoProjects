@@ -1,5 +1,5 @@
 {
-    "id": "#557",
+    "id": "#556",
     "name": "LED 8x8 Module",
     "description": "Building and using an 8x8 LED matrix with MAX7219 driver module",
     "categories": "8x8 LED, Arduino",

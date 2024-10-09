@@ -1,5 +1,5 @@
 {
-    "id": "#332",
+    "id": "#331",
     "name": "RCPhaseShiftBJT",
     "description": "testing an RC phase-shift oscillator using a BJT amplifier",
     "categories": "BJT, RC, Oscillators",

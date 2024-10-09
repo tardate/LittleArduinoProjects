@@ -1,4 +1,4 @@
-# #448 LTC2400 ADC
+# #447 LTC2400 ADC
 
 Exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC.
 

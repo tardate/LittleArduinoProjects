@@ -1,5 +1,5 @@
 {
-    "id": "#360",
+    "id": "#359",
     "name": "TL431/ShuntRegulator",
     "description": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim",
     "categories": " Power, Regulator, Reference",

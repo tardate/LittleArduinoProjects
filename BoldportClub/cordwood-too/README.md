@@ -1,4 +1,4 @@
-# #321 cordwood-too
+# #320 cordwood-too
 
 The Cordwood Puzzle returns! Boldport Club Project #13, May 2017
 

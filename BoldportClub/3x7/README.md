@@ -1,4 +1,4 @@
-# #425 The Boldport 3x7
+# #424 The Boldport 3x7
 
 Building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display.
 

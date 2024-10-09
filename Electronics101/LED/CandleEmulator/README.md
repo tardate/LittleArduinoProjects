@@ -1,4 +1,4 @@
-# #616 Candle Emulator
+# #592 Candle Emulator
 
 An Arduino LED candle emulation.
 

@@ -1,4 +1,4 @@
-# #547 Using STLink with the Arduino IDE
+# #546 Using STLink with the Arduino IDE
 
 Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE.
 

@@ -1,4 +1,4 @@
-# #388 Singapore Radio Band Activity
+# #387 Singapore Radio Band Activity
 
 Notes on official band plans for Singapore and my and personal observations on where the activity is found.
 

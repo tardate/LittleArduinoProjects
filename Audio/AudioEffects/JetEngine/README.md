@@ -1,4 +1,4 @@
-# #554 Jet Engine Startup Effect
+# #553 Jet Engine Startup Effect
 
 Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO.
 

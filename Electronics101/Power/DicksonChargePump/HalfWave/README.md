@@ -1,4 +1,4 @@
-# #611 Half-Wave Dickson Charge Pump
+# #590 Half-Wave Dickson Charge Pump
 
 Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.
 

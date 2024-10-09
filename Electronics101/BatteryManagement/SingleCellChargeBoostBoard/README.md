@@ -1,4 +1,4 @@
-# #538 Single-cell Charge/Boost Board
+# #537 Single-cell Charge/Boost Board
 
 An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter.
 

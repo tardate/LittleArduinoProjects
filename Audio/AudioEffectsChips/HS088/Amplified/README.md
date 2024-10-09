@@ -1,4 +1,4 @@
-# #499 HS088 Low-voltage Amplifier
+# #498 HS088 Low-voltage Amplifier
 
 Adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip.
 

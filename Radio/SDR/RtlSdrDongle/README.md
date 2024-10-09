@@ -1,4 +1,4 @@
-# #351 RTL-SDR Dongle
+# #350 RTL-SDR Dongle
 
 Getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR).
 

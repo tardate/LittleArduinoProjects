@@ -1,4 +1,4 @@
-# #310 FM/TEA5767
+# #309 FM/TEA5767
 
 Control the TEA5767 low-power FM stereo radio chip with an Arduino.
 

@@ -1,4 +1,4 @@
-# #431 Driving the 28BYJ-48 Unipolar Stepper
+# #430 Driving the 28BYJ-48 Unipolar Stepper
 
 All about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 

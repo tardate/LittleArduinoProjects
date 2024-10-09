@@ -1,4 +1,4 @@
-# #585 DS1822 1-Wire Reading
+# #576 DS1822 1-Wire Reading
 
 Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD.
 

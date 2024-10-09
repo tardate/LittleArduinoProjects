@@ -1,4 +1,4 @@
-# #541 TL431 Multivibrator
+# #540 TL431 Multivibrator
 
 An unusual multivibrator using a programmable reference with clean square wave output.
 

@@ -1,4 +1,4 @@
-# #368 GranularSynth
+# #367 GranularSynth
 
 Building an ATmega328 granular synth module in an Altoids can .. because granular synthesis is a basically how they make Altoids, right?
 

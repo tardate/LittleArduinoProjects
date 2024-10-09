@@ -1,4 +1,4 @@
-# #664 Light Control Switch Kit
+# #612 Light Control Switch Kit
 
 Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs).
 

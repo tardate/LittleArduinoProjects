@@ -1,5 +1,5 @@
 {
-    "id": "#469",
+    "id": "#468",
     "name": "LM386 Audio Amp",
     "description": "A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting",
     "categories": "Breadboard Bling, Audio, OpAmp",

@@ -1,4 +1,4 @@
-# #548 Debug Arduino STM32 with stlink
+# #547 Debug Arduino STM32 with stlink
 
 Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX.
 

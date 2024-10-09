@@ -1,4 +1,4 @@
-# #454 VoltageReference/ADR4540
+# #453 VoltageReference/ADR4540
 
 Exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference.
 

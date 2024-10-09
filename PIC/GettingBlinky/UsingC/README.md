@@ -1,4 +1,4 @@
-# #390 GettingBlinky/UsingC
+# #389 GettingBlinky/UsingC
 
 Getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!
 

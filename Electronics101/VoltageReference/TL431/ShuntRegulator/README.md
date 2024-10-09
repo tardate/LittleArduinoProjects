@@ -1,4 +1,4 @@
-# #360 TL431 Shunt Regulator
+# #359 TL431 Shunt Regulator
 
 Testing a TL431 voltage reference (regulator) circuit with manual coarse and fine trim.
 

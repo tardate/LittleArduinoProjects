@@ -1,5 +1,5 @@
 {
-    "id": "#530",
+    "id": "#529",
     "name": "SSD1306 OLED Bareback I\u00b2C",
     "description": "Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I\u00b2C",
     "categories": "OLED, Arduino",

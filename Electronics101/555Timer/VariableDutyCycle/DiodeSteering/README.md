@@ -1,4 +1,4 @@
-# #444 555Timer/VariableDutyCycle/DiodeSteering
+# #443 555Timer/VariableDutyCycle/DiodeSteering
 
 Using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator.
 

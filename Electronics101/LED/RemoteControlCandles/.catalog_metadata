@@ -1,5 +1,5 @@
 {
-    "id": "#625",
+    "id": "#598",
     "name": "Remote Control Candles",
     "description": "Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.",
     "categories": "IR, Arduino, LED",

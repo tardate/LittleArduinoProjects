@@ -1,4 +1,4 @@
-# #610 Laser Ray
+# #589 Laser Ray
 
 Testing a "laser ray" light and sound effectbased on the 555 timer.
 

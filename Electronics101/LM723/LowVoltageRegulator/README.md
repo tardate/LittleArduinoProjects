@@ -1,4 +1,4 @@
-# #383 LM723/LowVoltageRegulator
+# #382 LM723/LowVoltageRegulator
 
 Playing with the basic low voltage output circuit for the LM723 voltage regulator.
 

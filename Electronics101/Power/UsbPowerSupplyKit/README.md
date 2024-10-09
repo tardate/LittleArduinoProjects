@@ -1,4 +1,4 @@
-# #341 USB Power Supply Kit
+# #340 USB Power Supply Kit
 
 Building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up.
 

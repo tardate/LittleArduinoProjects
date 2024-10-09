@@ -1,4 +1,4 @@
-# #344 ESP8266/micropython/GettingStarted
+# #343 ESP8266/micropython/GettingStarted
 
 Getting MicroPython up and running with an ESP-01 ESP8266.
 

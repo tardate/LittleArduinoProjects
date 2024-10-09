@@ -1,4 +1,4 @@
-# #465 MrBiJuT Simple Transistor Tester
+# #464 MrBiJuT Simple Transistor Tester
 
 Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit
 using a CD4011 Schmitt oscillator.

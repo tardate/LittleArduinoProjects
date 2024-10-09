@@ -1,4 +1,4 @@
-# #636 CD4001 Logic Probe
+# #604 CD4001 Logic Probe
 
 A simple logic probe using NOR gates.
 

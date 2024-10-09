@@ -1,4 +1,4 @@
-# #576 Spray Booth
+# #573 Spray Booth
 
 Building a $10 spray booth for light airbrush spray painting and soldering.
 

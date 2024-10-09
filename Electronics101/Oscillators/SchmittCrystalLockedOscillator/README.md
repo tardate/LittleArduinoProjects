@@ -1,4 +1,4 @@
-# #656 Crystal-Locked Schmitt Oscillator
+# #610 Crystal-Locked Schmitt Oscillator
 
 Testing a basic crystal-locked Schmitt oscillator using a 74HC14.
 

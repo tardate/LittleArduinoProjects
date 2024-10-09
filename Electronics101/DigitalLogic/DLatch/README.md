@@ -1,4 +1,4 @@
-# #348 D Latch
+# #347 D Latch
 
 Building a D Latch with NAND gates (74LS00).
 

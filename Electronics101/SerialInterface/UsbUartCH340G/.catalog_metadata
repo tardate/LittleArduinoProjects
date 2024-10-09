@@ -1,5 +1,5 @@
 {
-    "id": "#406",
+    "id": "#405",
     "name": "Custom CH340G USB to UART interface",
     "description": "build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P",
     "categories": "USB, Serial, CH340",

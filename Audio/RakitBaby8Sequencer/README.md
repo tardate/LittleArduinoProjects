@@ -1,4 +1,4 @@
-# #505 Rakit Baby8 Sequencer
+# #504 Rakit Baby8 Sequencer
 
 Building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clock input.
 

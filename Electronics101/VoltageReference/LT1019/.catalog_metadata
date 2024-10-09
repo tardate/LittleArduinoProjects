@@ -1,5 +1,5 @@
 {
-    "id": "#374",
+    "id": "#373",
     "name": "VoltageReference/LT1019",
     "description": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference",
     "categories": "Voltage Reference",

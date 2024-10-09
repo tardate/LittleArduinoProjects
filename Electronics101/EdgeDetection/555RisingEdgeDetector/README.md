@@ -1,4 +1,4 @@
-# #489 555 Rising Edge Detector
+# #488 555 Rising Edge Detector
 
 Using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse.
 

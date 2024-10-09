@@ -1,4 +1,4 @@
-# #531 ATtiny SSD1306 I²C
+# #530 ATtiny SSD1306 I²C
 
 Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C
 

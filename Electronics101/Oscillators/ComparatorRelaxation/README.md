@@ -1,4 +1,4 @@
-# #336 Comparator-based Relaxation Oscillator
+# #335 Comparator-based Relaxation Oscillator
 
 Test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp.
 

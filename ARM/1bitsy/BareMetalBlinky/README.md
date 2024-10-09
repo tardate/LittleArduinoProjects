@@ -1,4 +1,4 @@
-# #553 1bitsy Bare Metal C
+# #552 1bitsy Bare Metal C
 
 Bare metal programming the 1bitsy STM32F415RGT6 by hand with gcc and the Black Magic Probe.
 

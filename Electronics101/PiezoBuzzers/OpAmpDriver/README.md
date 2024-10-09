@@ -1,4 +1,4 @@
-# #596 OpAmp Piezo Driver
+# #581 OpAmp Piezo Driver
 
 Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator.
 

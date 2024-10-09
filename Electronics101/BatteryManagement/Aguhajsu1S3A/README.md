@@ -1,4 +1,4 @@
-# #561 Aguhajsu 1S/3A BMS
+# #558 Aguhajsu 1S/3A BMS
 
 Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell.
 

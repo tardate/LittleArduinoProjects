@@ -1,4 +1,4 @@
-# #493 Fomu - Getting Started
+# #492 Fomu - Getting Started
 
 A first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.
 

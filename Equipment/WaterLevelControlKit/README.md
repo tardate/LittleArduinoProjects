@@ -1,4 +1,4 @@
-# #629 Water-Level Control Kit
+# #599 Water-Level Control Kit
 
 Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.
 

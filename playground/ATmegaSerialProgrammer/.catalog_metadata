@@ -1,5 +1,5 @@
 {
-    "id": "#405",
+    "id": "#404",
     "name": "ATmegaSerialProgrammer",
     "description": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP",
     "categories": "Arduino, ATmel, ICSP, UART",

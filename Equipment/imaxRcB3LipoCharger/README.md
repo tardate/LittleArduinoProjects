@@ -1,4 +1,4 @@
-# #503 imaxRC B3 Lipo Charger
+# #502 imaxRC B3 Lipo Charger
 
 Quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs.
 

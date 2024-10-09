@@ -1,4 +1,4 @@
-# #603 ATTiny Servo Drive
+# #585 ATTiny Servo Drive
 
 Testing various methods and libraries for driving servo motors with an ATtiny85.
 

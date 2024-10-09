@@ -1,5 +1,5 @@
 {
-    "id": "#696",
+    "id": "#628",
     "name": "Flickering Fire Effect",
     "description": "A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85",
     "categories": "LED, Arduino, AVR",

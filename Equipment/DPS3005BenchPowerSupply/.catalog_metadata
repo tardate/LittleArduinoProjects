@@ -1,5 +1,5 @@
 {
-    "id": "#407",
+    "id": "#406",
     "name": "DPS3005 Bench Power Supply",
     "description": "building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer",
     "categories": "Power, Tools",

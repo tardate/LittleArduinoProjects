@@ -1,4 +1,4 @@
-# #418 Common Emitter Hartley Oscillator
+# #417 Common Emitter Hartley Oscillator
 
 Build and test a BJT common-emitter Hartley oscillator.
 

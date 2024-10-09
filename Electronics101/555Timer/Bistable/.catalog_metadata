@@ -1,5 +1,5 @@
 {
-    "id": "#318",
+    "id": "#317",
     "name": "Bistable",
     "description": "using the 555 timer as a bistable latch and button debouncer",
     "categories": "555 Timer",

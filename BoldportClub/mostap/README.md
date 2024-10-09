@@ -1,4 +1,4 @@
-# #345 mostap
+# #344 mostap
 
 Upgrading the tap to **modern** CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic.
 The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.

@@ -1,4 +1,4 @@
-# #643 XKT-511 Wireless LED Module
+# #607 XKT-511 Wireless LED Module
 
 Investigating a wireless LED power module based on the XKT-511 chip.
 

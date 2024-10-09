@@ -1,4 +1,4 @@
-# #467 Two-stage FM Transmitter
+# #466 Two-stage FM Transmitter
 
 Build and test a simple two-stage FM transmitter.
 

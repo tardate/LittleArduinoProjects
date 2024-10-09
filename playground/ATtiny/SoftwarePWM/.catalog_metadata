@@ -1,5 +1,5 @@
 {
-    "id": "#427",
+    "id": "#426",
     "name": "ATtiny Software PWM",
     "description": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques",
     "categories": "AVR, PWM",

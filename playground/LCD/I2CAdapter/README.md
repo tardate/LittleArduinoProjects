@@ -1,4 +1,4 @@
-# #398 LCD/I2CAdapter
+# #397 LCD/I2CAdapter
 
 Using an I²C adapter to reduce the Arduino pins needed to drive an LCD.
 

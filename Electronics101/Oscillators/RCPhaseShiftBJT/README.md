@@ -1,4 +1,4 @@
-# #332 Oscillators/RCPhaseShiftBJT
+# #331 Oscillators/RCPhaseShiftBJT
 
 Testing an RC phase-shift oscillator using a BJT amplifier.
 

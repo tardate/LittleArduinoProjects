@@ -1,4 +1,4 @@
-# #300 TheMatrix/LedTest
+# #299 TheMatrix/LedTest
 
 Testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library
 

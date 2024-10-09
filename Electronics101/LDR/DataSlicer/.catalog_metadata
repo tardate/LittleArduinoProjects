@@ -1,5 +1,5 @@
 {
-    "id": "#675",
+    "id": "#617",
     "name": "LDR Data Slicer Trigger",
     "description": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
     "categories": "Sensors, OpAmp",

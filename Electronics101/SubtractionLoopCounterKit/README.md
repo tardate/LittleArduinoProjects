@@ -1,4 +1,4 @@
-# #514 Subtraction Loop Counter Kit
+# #513 Subtraction Loop Counter Kit
 
 Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic.
 

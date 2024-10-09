@@ -1,4 +1,4 @@
-# #546 STM32F103C8T6 Dev Board
+# #545 STM32F103C8T6 Dev Board
 
 Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE,
 with examples of programming using USB-Serial or ST-Link v2 from MacOSX.

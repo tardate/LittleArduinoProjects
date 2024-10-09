@@ -1,4 +1,4 @@
-# #668 Code Practice Oscillator
+# #614 Code Practice Oscillator
 
 Build and test a simple 2-transistor code practice oscillator.
 
