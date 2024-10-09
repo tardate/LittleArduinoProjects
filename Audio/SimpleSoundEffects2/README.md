@@ -1,4 +1,4 @@
-# #525 Simple Sound Effects 2
+# #524 Simple Sound Effects 2
 
 Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.
 

@@ -1,4 +1,4 @@
-# #445 555Timer/VariableDutyCycle/ControlAdjust
+# #444 555Timer/VariableDutyCycle/ControlAdjust
 
 Using the control pin to adjust duty cycle of a 555 Timer astable oscillator.
 

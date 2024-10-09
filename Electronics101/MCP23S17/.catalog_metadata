@@ -1,5 +1,5 @@
 {
-    "id": "#313",
+    "id": "#312",
     "name": "MCP23S17",
     "description": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface",
     "categories": "Arduino, Port Expander",

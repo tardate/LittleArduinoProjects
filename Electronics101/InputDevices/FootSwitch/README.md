@@ -1,4 +1,4 @@
-# #542 DIY Foot Switch
+# #541 DIY Foot Switch
 
 A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller.
 

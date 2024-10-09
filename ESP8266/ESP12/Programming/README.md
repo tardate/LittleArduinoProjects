@@ -1,4 +1,4 @@
-# #534 ESP-12 Programming
+# #533 ESP-12 Programming
 
 The basics of programming an ESP-12 with the ESP8266 core for Arduino.
 

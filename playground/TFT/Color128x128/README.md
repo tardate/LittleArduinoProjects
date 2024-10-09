@@ -1,4 +1,4 @@
-# #361 TFT/Color128x128
+# #360 TFT/Color128x128
 
 Testing a 128x128 colour TFT LCD with a couple of different Arduino libraries.
 

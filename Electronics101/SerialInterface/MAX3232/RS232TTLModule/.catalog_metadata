@@ -1,5 +1,5 @@
 {
-    "id": "#509",
+    "id": "#508",
     "name": "MAX3232 RS232 to TTL Module",
     "description": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX",
     "categories": "RS232, Serial, USB",

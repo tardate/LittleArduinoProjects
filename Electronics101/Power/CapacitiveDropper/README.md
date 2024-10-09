@@ -1,4 +1,4 @@
-# #472 Capacitive Dropper Power Supply
+# #471 Capacitive Dropper Power Supply
 
 Understanding how to design a capacitive dropper, demonstrated with a low-voltage LED driver circuit.
 

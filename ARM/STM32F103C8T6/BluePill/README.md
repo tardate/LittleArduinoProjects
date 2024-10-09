@@ -1,4 +1,4 @@
-# #386 BluePill
+# #385 BluePill
 
 Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE.
 

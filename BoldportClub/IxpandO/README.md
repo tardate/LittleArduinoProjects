@@ -1,4 +1,4 @@
-# #340 IxpandO
+# #339 IxpandO
 
 IxpandO is an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16.
 Demo program covers digital output and interrupt-driven input.

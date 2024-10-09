@@ -1,4 +1,4 @@
-# #475 ANENG ANG860B+ Digital Multimeter
+# #474 ANENG ANG860B+ Digital Multimeter
 
 Specifications and notes on the ANENG ANG860B+ digital multimeter
 

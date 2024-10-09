@@ -1,4 +1,4 @@
-# #477 Rakit Drum Synth
+# #476 Rakit Drum Synth
 
 Building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer.
 

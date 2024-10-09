@@ -1,5 +1,5 @@
 {
-    "id": "#304",
+    "id": "#303",
     "name": "KeyboardMatrixModule/KeyMatrixInput",
     "description": "demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP",
     "categories": "Arduino, Human Input",

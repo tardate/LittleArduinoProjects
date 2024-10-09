@@ -1,4 +1,4 @@
-# #433 Adjustable Power Supply Kit
+# #432 Adjustable Power Supply Kit
 
 Building a popular 30V/3A adjustable power supply kit, making an enclosure and testing.
 

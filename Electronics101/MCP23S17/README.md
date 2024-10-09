@@ -1,4 +1,4 @@
-# #313 MCP23S17
+# #312 MCP23S17
 
 Investigate and test the MCP23S17 16-Bit I/O Expander with serial interface.
 

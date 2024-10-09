@@ -1,4 +1,4 @@
-# #315 MT3608 Variable Boost
+# #314 MT3608 Variable Boost
 
 Testing the canonical variable boost circuit using the MT3608 High Efficiency Step Up Converter.
 

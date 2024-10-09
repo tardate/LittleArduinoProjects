@@ -1,4 +1,4 @@
-# #327 Mixers/RFDiodeRing
+# #326 Mixers/RFDiodeRing
 
 A diode ring double-balanced frequency mixer.
 

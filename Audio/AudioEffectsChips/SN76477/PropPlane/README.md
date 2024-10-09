@@ -1,4 +1,4 @@
-# #551 SN76477 Prop Plane
+# #550 SN76477 Prop Plane
 
 Testing the SN76477 propeller plane sound effect configuration
 

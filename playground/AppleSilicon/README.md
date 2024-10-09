@@ -1,4 +1,4 @@
-# #735 Arduino on Apple Silicon
+# #634 Arduino on Apple Silicon
 
 Using the Arduino IDE with Apple Silicon (ARM) machines.
 

@@ -1,4 +1,4 @@
-# #597 Simple Wireless Power LED
+# #582 Simple Wireless Power LED
 
 Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration.
 

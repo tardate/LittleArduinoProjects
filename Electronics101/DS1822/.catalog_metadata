@@ -1,5 +1,5 @@
 {
-    "id": "#585",
+    "id": "#576",
     "name": "DS1822 1-Wire Reading",
     "description": "Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD",
     "categories": "Sensors, Arduino, LCD",

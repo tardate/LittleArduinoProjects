@@ -1,4 +1,4 @@
-# #421 LimeSDR First Look
+# #420 LimeSDR First Look
 
 Unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host.
 

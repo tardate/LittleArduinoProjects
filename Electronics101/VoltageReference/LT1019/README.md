@@ -1,4 +1,4 @@
-# #374 VoltageReference/LT1019
+# #373 VoltageReference/LT1019
 
 Exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference.
 

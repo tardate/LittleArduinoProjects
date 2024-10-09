@@ -1,4 +1,4 @@
-# #434 krell
+# #433 krell
 
 Building the Boldport Krell - a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab.
 

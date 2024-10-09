@@ -1,5 +1,5 @@
 {
-    "id": "#302",
+    "id": "#301",
     "name": "TheMatrix/GameOfLife",
     "description": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix",
     "categories": "Boldport, LED, AS1130",

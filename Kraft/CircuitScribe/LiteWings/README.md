@@ -1,4 +1,4 @@
-# #350 CircuitScribe/LiteWings
+# #349 CircuitScribe/LiteWings
 
 Learning about conductive ink with the CircuitScribe LiteWings kit.
 

@@ -1,4 +1,4 @@
-# #447 Capacimeter
+# #446 Capacimeter
 
 Measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018.
 

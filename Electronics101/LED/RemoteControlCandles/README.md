@@ -1,4 +1,4 @@
-# #625 Remote Control Candles
+# #598 Remote Control Candles
 
 Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.
 

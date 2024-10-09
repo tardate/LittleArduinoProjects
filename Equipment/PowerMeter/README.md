@@ -1,4 +1,4 @@
-# #572 PowerMeter
+# #569 PowerMeter
 
 A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.
 

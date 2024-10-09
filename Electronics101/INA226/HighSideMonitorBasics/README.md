@@ -1,4 +1,4 @@
-# #504 INA226 High-side Monitor Basics
+# #503 INA226 High-side Monitor Basics
 
 How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I²C.
 

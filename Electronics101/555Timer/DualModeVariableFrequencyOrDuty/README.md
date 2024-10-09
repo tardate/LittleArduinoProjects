@@ -1,4 +1,4 @@
-# #563 Dual Variable Mode Oscillator
+# #560 Dual Variable Mode Oscillator
 
 Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency.
 

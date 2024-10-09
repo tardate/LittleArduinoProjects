@@ -1,4 +1,4 @@
-# #338 GlowBall
+# #337 GlowBall
 
 Building LED effects for a Glass Eye Studio Celestial Planet Weight.
 

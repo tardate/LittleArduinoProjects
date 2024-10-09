@@ -1,4 +1,4 @@
-# #304 KeyboardMatrixModule/KeyMatrixInput
+# #303 KeyboardMatrixModule/KeyMatrixInput
 
 Demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP.
 

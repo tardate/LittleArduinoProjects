@@ -1,5 +1,5 @@
 {
-    "id": "#394",
+    "id": "#393",
     "name": "AT89C2051 Programmer",
     "description": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
     "categories": "8051",

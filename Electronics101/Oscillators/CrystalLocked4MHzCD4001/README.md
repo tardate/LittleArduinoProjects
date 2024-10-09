@@ -1,4 +1,4 @@
-# #688 Crystal-locked 4MHz Oscillator
+# #623 Crystal-locked 4MHz Oscillator
 
 Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates.
 

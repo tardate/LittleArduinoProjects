@@ -1,5 +1,5 @@
 {
-    "id": "#504",
+    "id": "#503",
     "name": "INA226 High-side Monitor Basics",
     "description": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I\u00b2C",
     "categories": "INA226, Sensors",

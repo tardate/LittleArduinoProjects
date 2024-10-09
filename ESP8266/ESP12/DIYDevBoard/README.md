@@ -1,4 +1,4 @@
-# #540 ESP-12 DIY Dev Board
+# #539 ESP-12 DIY Dev Board
 
 Building a programming board for the ESP8266 07/12 variants.
 

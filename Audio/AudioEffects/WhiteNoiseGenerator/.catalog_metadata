@@ -1,5 +1,5 @@
 {
-    "id": "#474",
+    "id": "#473",
     "name": "BJT White Noise Generator",
     "description": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors",
     "categories": "Audio, BJT",

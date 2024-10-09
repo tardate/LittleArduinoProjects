@@ -1,4 +1,4 @@
-# #536 Power OK Indicator
+# #535 Power OK Indicator
 
 Testing a simple Schmitt Trigger power OK indicator using a 74HC14.
 

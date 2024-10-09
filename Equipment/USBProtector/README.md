@@ -1,4 +1,4 @@
-# #400 USBProtector
+# #399 USBProtector
 
 Building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection.
 

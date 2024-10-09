@@ -1,4 +1,4 @@
-# #412 BJT Comparator
+# #411 BJT Comparator
 
 Investigating and testing a comparator design with discrete components.
 

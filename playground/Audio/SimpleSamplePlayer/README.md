@@ -1,4 +1,4 @@
-# #417 Audio/SimpleSamplePlayer
+# #416 Audio/SimpleSamplePlayer
 
 Playing short audio samples on an Arduino using some PWM tricks from the PCM library.
 

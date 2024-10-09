@@ -1,4 +1,4 @@
-# #453 BreadboardBling/PotModules
+# #452 BreadboardBling/PotModules
 
 Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers.
 

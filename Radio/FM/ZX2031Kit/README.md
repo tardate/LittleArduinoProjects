@@ -1,4 +1,4 @@
-# #516 ZX2031 FM Radio Kit
+# #515 ZX2031 FM Radio Kit
 
 Building an FM radio kit based on the Silan SC1088 FM receiver chip.
 

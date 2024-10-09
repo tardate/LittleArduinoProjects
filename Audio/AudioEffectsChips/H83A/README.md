@@ -1,4 +1,4 @@
-# #362 H83A Audio Effects Chip
+# #361 H83A Audio Effects Chip
 
 Figuring out how to use the H-83A "12 songs" music chip.
 

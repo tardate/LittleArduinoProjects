@@ -1,4 +1,4 @@
-# Tin Counter
+# #379 Counter
 
 A project by [novaprimexex](https://github.com/novaprimexex) to count tins as they roll by and detect tins without paper labels.
 

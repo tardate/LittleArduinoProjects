@@ -1,5 +1,5 @@
 {
-    "id": "#458",
+    "id": "#457",
     "name": "FastAnalogRead",
     "description": "how to increase the Arduino ADC analog sampling rate",
     "categories": "Arduino, GPIO",

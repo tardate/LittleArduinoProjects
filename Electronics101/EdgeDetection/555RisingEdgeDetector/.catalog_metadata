@@ -1,5 +1,5 @@
 {
-    "id": "#489",
+    "id": "#488",
     "name": "555 Rising Edge Detector",
     "description": "using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse",
     "categories": "555 Timer",

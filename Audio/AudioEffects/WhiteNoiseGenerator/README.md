@@ -1,4 +1,4 @@
-# #474 BJT White Noise Generator
+# #473 BJT White Noise Generator
 
 Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors.
 

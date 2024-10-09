@@ -1,4 +1,4 @@
-# #349 stringy/DemoBurner
+# #348 stringy/DemoBurner
 
 Burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler.
 

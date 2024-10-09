@@ -1,4 +1,4 @@
-# #675 LDR Data Slicer Trigger
+# #617 LDR Data Slicer Trigger
 
 Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR).
 

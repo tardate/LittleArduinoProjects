@@ -1,4 +1,4 @@
-# #461 The Goblin
+# #460 The Goblin
 
 The Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications.
 

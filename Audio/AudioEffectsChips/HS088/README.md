@@ -1,4 +1,4 @@
-# #359 HS088 Audio Effects Chip
+# #358 HS088 Audio Effects Chip
 
 Figuring out the HS-088 "Ding Dong" audio effects chip.
 

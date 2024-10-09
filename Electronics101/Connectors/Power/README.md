@@ -1,4 +1,4 @@
-# #329 Power Connectors
+# #328 Power Connectors
 
 Obsessing over all manner of DC power connectors.
 

@@ -1,4 +1,4 @@
-# #526 Metal Detector Kit
+# #525 Metal Detector Kit
 
 An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit.
 

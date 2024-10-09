@@ -1,4 +1,4 @@
-# #569 Multi-voltage GPIO
+# #566 Multi-voltage GPIO
 
 A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin.
 

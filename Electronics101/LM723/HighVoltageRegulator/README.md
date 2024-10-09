@@ -1,4 +1,4 @@
-# #384 LM723/HighVoltageRegulator
+# #383 LM723/HighVoltageRegulator
 
 Playing with the basic high voltage output circuit for the LM723 voltage regulator.
 

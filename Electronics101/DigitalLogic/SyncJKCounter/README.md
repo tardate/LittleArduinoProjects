@@ -1,4 +1,4 @@
-# #320 Synchronous JK Counter
+# #319 Synchronous JK Counter
 
 A synchronous 8-bit counter built with JK Flip-Flops.
 

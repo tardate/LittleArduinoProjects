@@ -1,4 +1,4 @@
-# #396 CapacitiveTouchOrgan
+# #395 CapacitiveTouchOrgan
 
 A simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino.
 

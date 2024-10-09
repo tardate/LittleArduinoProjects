@@ -1,4 +1,4 @@
-# #543 PLL Ramp Generator
+# #542 PLL Ramp Generator
 
 A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.
 

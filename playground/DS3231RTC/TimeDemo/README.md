@@ -1,4 +1,4 @@
-# DS3231RTC/TimeDemo
+# #166
 
 Prints the system time synced from the RTC to the serial output
 

@@ -1,5 +1,5 @@
 {
-    "id": "#482",
+    "id": "#481",
     "name": "Electret Sound-level Trigger",
     "description": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone",
     "categories": "Electret, Audio, Sensor",

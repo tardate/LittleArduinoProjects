@@ -1,4 +1,4 @@
-# #319 555Timer/DigitalLogicClock
+# #318 555Timer/DigitalLogicClock
 
 Build a flexible, low-frequency digital logic clock module.
 

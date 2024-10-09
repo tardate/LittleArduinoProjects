@@ -1,4 +1,4 @@
-# #452 CD4046 Mains-Linked PLL
+# #451 CD4046 Mains-Linked PLL
 
 A 50/60Hz oscillator locked to mains power frequency using a CD4046 PLL.
 

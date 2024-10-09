@@ -1,4 +1,4 @@
-# #670 Nano/ExpansionBoard
+# #615 Nano/ExpansionBoard
 
 Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.
 

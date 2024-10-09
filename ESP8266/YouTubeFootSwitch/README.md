@@ -1,4 +1,4 @@
-# #545 Wireless YouTube Foot Switch
+# #544 Wireless YouTube Foot Switch
 
 An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice).
 

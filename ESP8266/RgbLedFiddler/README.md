@@ -1,4 +1,4 @@
-# #586 RGB LED Fiddler
+# #577 RGB LED Fiddler
 
 Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.
 

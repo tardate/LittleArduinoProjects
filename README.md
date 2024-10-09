@@ -1,4 +1,4 @@
-# 760 Little Electronic Art Projects
+# 638 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Wobbly Wind Bell Kit](./Electronics101/WindBellKit) - Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.
 

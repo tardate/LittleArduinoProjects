@@ -1,4 +1,4 @@
-# #303 KeyboardMatrixModule
+# #302 KeyboardMatrixModule
 
 Demo a simple pushbutton/LED matrix module.
 

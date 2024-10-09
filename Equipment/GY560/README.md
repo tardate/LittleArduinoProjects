@@ -1,4 +1,4 @@
-# #403 GY560 Frequency Counter
+# #402 GY560 Frequency Counter
 
 Checking out the GY560 Frequency Counter.
 

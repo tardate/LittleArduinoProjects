@@ -1,5 +1,5 @@
 {
-    "id": "#635",
+    "id": "#603",
     "name": "CD4001 SR Latch",
     "description": "Set-Reset latch implemented with CD4001 NOR gates",
     "categories": "Digital Logic, CMOS/TTL",

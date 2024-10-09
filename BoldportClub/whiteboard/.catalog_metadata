@@ -1,5 +1,5 @@
 {
-    "id": "#392",
+    "id": "#391",
     "name": "BoldportClub/whiteboard",
     "description": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD4060 ripple counter",
     "categories": "Boldport, LM317, CD4060",

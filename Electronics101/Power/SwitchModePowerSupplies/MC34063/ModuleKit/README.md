@@ -1,4 +1,4 @@
-# #358 MC34063 Boost Converter Kit
+# #357 MC34063 Boost Converter Kit
 
 Build and test an MC34063-based boost converter.
 

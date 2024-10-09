@@ -1,4 +1,4 @@
-# #439 QX5252 Solar Night Light
+# #438 QX5252 Solar Night Light
 
 Exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller.
 

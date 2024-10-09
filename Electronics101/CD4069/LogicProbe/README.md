@@ -1,4 +1,4 @@
-# #637 CD4069 Logic Probe
+# #605 CD4069 Logic Probe
 
 A simple logic probe using inverter gates.
 

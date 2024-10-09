@@ -1,4 +1,4 @@
-# #437 LED Drivers: QX5252 Joule Thief
+# #436 LED Drivers: QX5252 Joule Thief
 
 Using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery.
 

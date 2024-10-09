@@ -1,4 +1,4 @@
-# #370 DigitaSwitch/TS3A5018
+# #369 DigitaSwitch/TS3A5018
 
 Testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo.
 

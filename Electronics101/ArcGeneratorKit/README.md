@@ -1,4 +1,4 @@
-# #451 ArcGeneratorKit
+# #450 ArcGeneratorKit
 
 Playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor.
 

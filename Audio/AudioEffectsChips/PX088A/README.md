@@ -1,4 +1,4 @@
-# #356 PX088A Audio Effects Chip
+# #355 PX088A Audio Effects Chip
 
 Figuring out how to use the PX088A "Für Elise" music chip.
 

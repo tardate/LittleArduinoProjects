@@ -1,4 +1,4 @@
-# #371 BJT/CommonEmitterAmplifier
+# #370 BJT/CommonEmitterAmplifier
 
 All about BJT common-emitter amplifier biasing and class of operation.
 

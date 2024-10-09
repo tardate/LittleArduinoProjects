@@ -1,4 +1,4 @@
-# #466 VC3165
+# #465 VC3165
 
 All about the Victor VC3165 frequency counter.
 

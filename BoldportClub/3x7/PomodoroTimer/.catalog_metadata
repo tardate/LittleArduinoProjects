@@ -1,5 +1,5 @@
 {
-    "id": "#429",
+    "id": "#428",
     "name": "3x7/PomodoroTimer",
     "description": "a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328",
     "categories": "Boldport, 7-Segment, ATmel",

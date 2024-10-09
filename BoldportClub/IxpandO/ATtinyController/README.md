@@ -1,4 +1,4 @@
-# #528 ATtiny IxpandO
+# #527 ATtiny IxpandO
 
 Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I²C IO expansion board.
 

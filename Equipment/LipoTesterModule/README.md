@@ -1,4 +1,4 @@
-# #518 Lipo Tester Module
+# #517 Lipo Tester Module
 
 Just a quick look at a 1S to 8S battery tester and alarm module.
 

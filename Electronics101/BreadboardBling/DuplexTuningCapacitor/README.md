@@ -1,4 +1,4 @@
-# #468 BreadboardBling/DuplexTuningCapacitor
+# #467 BreadboardBling/DuplexTuningCapacitor
 
 Making a breadboard-compatible variable capacitor for radio circuits.
 

@@ -1,4 +1,4 @@
-# #559 Slow Glow
+# #557 Slow Glow
 
 A simple slowly-glowing LED effect using a 555 timer.
 

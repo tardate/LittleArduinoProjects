@@ -1,4 +1,4 @@
-# #533 Ted's LED Clock
+# #532 Ted's LED Clock
 
 Building a freeform 20th anniversary clone of [@tedyapo's](https://twitter.com/tedyapo) LED clock, driven with a PIC16F84A.
 

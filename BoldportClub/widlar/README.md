@@ -1,4 +1,4 @@
-# #385 widlar
+# #384 widlar
 
 Hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do something other than voltage regulation (LED blinky).
 

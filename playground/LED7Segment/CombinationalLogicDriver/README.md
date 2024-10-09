@@ -1,4 +1,4 @@
-# #308 7-Segment Combinational Logic
+# #307 7-Segment Combinational Logic
 
 Dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic.
 
