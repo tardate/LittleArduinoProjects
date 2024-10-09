@@ -2,7 +2,6 @@
 
 * [Arduino Tech Notes](./arduino/)
 * [PCB Fabrication](./pcb_fab/)
-* [Scale Modelling](./scale_model/)
 
 ## Electronics Online/eBooks
 

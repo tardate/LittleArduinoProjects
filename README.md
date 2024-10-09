@@ -6,7 +6,7 @@ LEAP is just my personal collection of electronics projects - usually involving 
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
 
 Projects are often inspired by things found wild on the net,
-or ideas from the many great electronics and scale modelling podcasts and YouTube channels.
+or ideas from the many great [electronics podcasts and YouTube channels](./notebook/).
 Feel free to borrow liberally, and if you spot any issues do let me know (or send a PR!).
 See the individual projects for credits where due.
 
