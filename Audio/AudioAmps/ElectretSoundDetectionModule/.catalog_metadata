@@ -1,5 +1,5 @@
 {
-    "id": "#621",
+    "id": "#623",
     "name": "Electret Sound Detection Module",
     "description": "Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).",
     "categories": "Arduino, Audio",

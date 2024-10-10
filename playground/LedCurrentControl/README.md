@@ -1,4 +1,4 @@
-# #588 LED Current Control
+# #590 LED Current Control
 
 Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror.
 

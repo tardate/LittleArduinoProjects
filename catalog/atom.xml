@@ -7,44 +7,18 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-10-10T02:28:44Z</updated>
+  <updated>2024-10-10T06:47:42Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
-    <id>https://leap.tardate.com/kraft/tydiriumstrobe/module/</id>
-    <link href="https://leap.tardate.com/kraft/tydiriumstrobe/module/"/>
-    <g:image_link>https://leap.tardate.com/kraft/tydiriumstrobe/module/assets/module_build.jpg</g:image_link>
-    <updated>2021-04-05T08:52:23Z</updated>
-    <title>#641 Tydirium Strobe Module</title>
-    <summary>Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/tydiriumstrobe/module/assets/module_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Arduino"/>
-    <category term="ATmel"/>
-    <category term="LED"/>
-  </entry>
-  <entry>
-    <id>https://leap.tardate.com/kraft/tydiriumstrobe/</id>
-    <link href="https://leap.tardate.com/kraft/tydiriumstrobe/"/>
-    <g:image_link>https://leap.tardate.com/kraft/tydiriumstrobe/assets/tydiriumstrobe_build.jpg</g:image_link>
-    <updated>2021-04-05T08:52:23Z</updated>
-    <title>#640 Tydirium Strobe</title>
-    <summary>Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/tydiriumstrobe/assets/tydiriumstrobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Arduino"/>
-    <category term="ATmel"/>
-    <category term="LED"/>
-    <category term="Circuit Sculpture"/>
-    <category term="Freeform"/>
-  </entry>
-  <entry>
     <id>https://leap.tardate.com/electronics101/windbellkit/</id>
     <link href="https://leap.tardate.com/electronics101/windbellkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/windbellkit/assets/windbellkit_build.jpg</g:image_link>
     <updated>2024-09-10T14:16:00Z</updated>
-    <title>#639 Wobbly Wind Bell Kit</title>
+    <title>#641 Wobbly Wind Bell Kit</title>
     <summary>Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/windbellkit/assets/windbellkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
@@ -56,7 +30,7 @@
     <link href="https://leap.tardate.com/electronics101/power/pp3power/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/pp3power/assets/pp3power_build.jpg</g:image_link>
     <updated>2024-09-01T13:14:00Z</updated>
-    <title>#638 9V (PP3) to 5V or 3.3V Power Adapter</title>
+    <title>#640 9V (PP3) to 5V or 3.3V Power Adapter</title>
     <summary>Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/pp3power/assets/pp3power_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -66,7 +40,7 @@
     <link href="https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/assets/digitalclockkit_build.jpg</g:image_link>
     <updated>2024-01-31T17:42:52Z</updated>
-    <title>#637 Digital Clock Kit</title>
+    <title>#639 Digital Clock Kit</title>
     <summary>Build a CMOS digital logic clock kit and understand the operating principles of the circuit.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build a CMOS digital logic clock kit and understand the operating principles of the circuit.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/assets/digitalclockkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
@@ -77,7 +51,7 @@
     <link href="https://leap.tardate.com/playground/ntp/ntpclientdemo/"/>
     <g:image_link>https://leap.tardate.com/playground/ntp/ntpclientdemo/assets/ntpclientdemo_build.jpg</g:image_link>
     <updated>2024-01-21T04:50:38Z</updated>
-    <title>#636 NTP Client Demo</title>
+    <title>#638 NTP Client Demo</title>
     <summary>Simple demonstration of NTP client requests using an Arduino Ethernet Shield</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Simple demonstration of NTP client requests using an Arduino Ethernet Shield&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ntp/ntpclientdemo/assets/ntpclientdemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Ethernet"/>
@@ -88,7 +62,7 @@
     <link href="https://leap.tardate.com/playground/applesilicon/ch340/"/>
     <g:image_link>https://leap.tardate.com/playground/applesilicon/ch340/assets/ch340_build.jpg</g:image_link>
     <updated>2023-12-29T10:43:33Z</updated>
-    <title>#635 CH340 on Apple Silicon</title>
+    <title>#637 CH340 on Apple Silicon</title>
     <summary>Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/applesilicon/ch340/assets/ch340_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -102,7 +76,7 @@
     <link href="https://leap.tardate.com/playground/applesilicon/"/>
     <g:image_link>https://leap.tardate.com/playground/applesilicon/assets/applesilicon_build.jpg</g:image_link>
     <updated>2023-12-29T09:19:09Z</updated>
-    <title>#634 Arduino on Apple Silicon</title>
+    <title>#636 Arduino on Apple Silicon</title>
     <summary>Using the Arduino IDE with Apple Silicon (ARM) machines</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using the Arduino IDE with Apple Silicon (ARM) machines&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/applesilicon/assets/applesilicon_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -115,7 +89,7 @@
     <link href="https://leap.tardate.com/equipment/optivisor/"/>
     <g:image_link>https://leap.tardate.com/equipment/optivisor/assets/optivisor_build.jpg</g:image_link>
     <updated>2023-12-27T08:26:53Z</updated>
-    <title>#633 Optivisor</title>
+    <title>#635 Optivisor</title>
     <summary>Trying a new Optivisor for close-up work</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Trying a new Optivisor for close-up work&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/optivisor/assets/optivisor_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
@@ -125,7 +99,7 @@
     <link href="https://leap.tardate.com/equipment/digitaloventhermometer/"/>
     <g:image_link>https://leap.tardate.com/equipment/digitaloventhermometer/assets/digitaloventhermometer_build.jpg</g:image_link>
     <updated>2023-12-27T08:03:12Z</updated>
-    <title>#632 TS-BN55 Digital Oven Thermometer</title>
+    <title>#634 TS-BN55 Digital Oven Thermometer</title>
     <summary>Examining and fixing the TS-BN55 Digital Oven Thermometer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Examining and fixing the TS-BN55 Digital Oven Thermometer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/digitaloventhermometer/assets/digitaloventhermometer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
@@ -135,7 +109,7 @@
     <link href="https://leap.tardate.com/electronics101/led/flickerkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/led/flickerkit/assets/flickerkit_build.jpg</g:image_link>
     <updated>2023-12-27T02:00:21Z</updated>
-    <title>#631 LED Flicker Kit</title>
+    <title>#633 LED Flicker Kit</title>
     <summary>A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/flickerkit/assets/flickerkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -147,7 +121,7 @@
     <link href="https://leap.tardate.com/electronics101/led/dimmer/vco/"/>
     <g:image_link>https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg</g:image_link>
     <updated>2023-09-14T16:38:56Z</updated>
-    <title>#630 Voltage Controlled LED Dimmer</title>
+    <title>#632 Voltage Controlled LED Dimmer</title>
     <summary>Demonstrating a voltage-controlled LED current source with a triangle wave generator.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -158,7 +132,7 @@
     <link href="https://leap.tardate.com/audio/laserharpkit/"/>
     <g:image_link>https://leap.tardate.com/audio/laserharpkit/assets/laserharpkit_build.jpg</g:image_link>
     <updated>2023-03-27T13:57:21Z</updated>
-    <title>#629 Laser Harp Kit</title>
+    <title>#631 Laser Harp Kit</title>
     <summary>Build and test an 8051-based laser harp kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test an 8051-based laser harp kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/laserharpkit/assets/laserharpkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Audio"/>
@@ -171,7 +145,7 @@
     <link href="https://leap.tardate.com/playground/attiny/flickeringfireeffect/"/>
     <g:image_link>https://leap.tardate.com/playground/attiny/flickeringfireeffect/assets/flickeringfireeffect_build.jpg</g:image_link>
     <updated>2023-03-08T15:12:51Z</updated>
-    <title>#628 Flickering Fire Effect</title>
+    <title>#630 Flickering Fire Effect</title>
     <summary>A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/attiny/flickeringfireeffect/assets/flickeringfireeffect_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -183,7 +157,7 @@
     <link href="https://leap.tardate.com/playground/attiny/pwmmotorcontrol/"/>
     <g:image_link>https://leap.tardate.com/playground/attiny/pwmmotorcontrol/assets/pwmmotorcontrol_build.jpg</g:image_link>
     <updated>2023-03-06T15:02:31Z</updated>
-    <title>#627 ATtiny PMW Motor Control</title>
+    <title>#629 ATtiny PMW Motor Control</title>
     <summary>Variable speed PWM motor control with an ATtiny85</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Variable speed PWM motor control with an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/attiny/pwmmotorcontrol/assets/pwmmotorcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Motors"/>
@@ -195,7 +169,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/latch/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/latch/assets/latch_build.jpg</g:image_link>
     <updated>2023-02-07T13:39:25Z</updated>
-    <title>#626 Push-button Latch</title>
+    <title>#628 Push-button Latch</title>
     <summary>Testing a simple push-button latched switch circuit for on/off control using the 555 timer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a simple push-button latched switch circuit for on/off control using the 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/latch/assets/latch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -205,7 +179,7 @@
     <link href="https://leap.tardate.com/equipment/ch2pc4/"/>
     <g:image_link>https://leap.tardate.com/equipment/ch2pc4/assets/ch2pc4_build.jpg</g:image_link>
     <updated>2023-02-07T10:26:05Z</updated>
-    <title>#625 CH2PC4 NiMH Charger</title>
+    <title>#627 CH2PC4 NiMH Charger</title>
     <summary>A few quick notes on the Energizer NiMH charger CH2PC4</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A few quick notes on the Energizer NiMH charger CH2PC4&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/ch2pc4/assets/ch2pc4_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -215,7 +189,7 @@
     <link href="https://leap.tardate.com/electronics101/oscillators/programmablefrequencyreference/"/>
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/programmablefrequencyreference/assets/programmablefrequencyreference_build.jpg</g:image_link>
     <updated>2023-01-11T11:54:47Z</updated>
-    <title>#624 Programmable Frequency Reference</title>
+    <title>#626 Programmable Frequency Reference</title>
     <summary>Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/programmablefrequencyreference/assets/programmablefrequencyreference_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
@@ -226,7 +200,7 @@
     <link href="https://leap.tardate.com/electronics101/oscillators/crystallocked4mhzcd4001/"/>
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/crystallocked4mhzcd4001/assets/crystallocked4mhzcd4001_build.jpg</g:image_link>
     <updated>2023-01-11T11:54:47Z</updated>
-    <title>#623 Crystal-locked 4MHz Oscillator</title>
+    <title>#625 Crystal-locked 4MHz Oscillator</title>
     <summary>Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/crystallocked4mhzcd4001/assets/crystallocked4mhzcd4001_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
@@ -237,7 +211,7 @@
     <link href="https://leap.tardate.com/electronics101/oscillators/crystallocked455khzcd4001/"/>
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/crystallocked455khzcd4001/assets/crystallocked455khzcd4001_build.jpg</g:image_link>
     <updated>2023-01-11T11:54:47Z</updated>
-    <title>#622 Crystal-locked 455kHz Oscillator</title>
+    <title>#624 Crystal-locked 455kHz Oscillator</title>
     <summary>Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/crystallocked455khzcd4001/assets/crystallocked455khzcd4001_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
@@ -248,7 +222,7 @@
     <link href="https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/"/>
     <g:image_link>https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/assets/electretsounddetectionmodule_build.jpg</g:image_link>
     <updated>2023-01-08T10:30:19Z</updated>
-    <title>#621 Electret Sound Detection Module</title>
+    <title>#623 Electret Sound Detection Module</title>
     <summary>Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/assets/electretsounddetectionmodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -259,7 +233,7 @@
     <link href="https://leap.tardate.com/audio/audioamps/electretpreamp/"/>
     <g:image_link>https://leap.tardate.com/audio/audioamps/electretpreamp/assets/electretpreamp_build.jpg</g:image_link>
     <updated>2023-01-07T04:28:01Z</updated>
-    <title>#620 Electret Audio Pre-amplifier</title>
+    <title>#622 Electret Audio Pre-amplifier</title>
     <summary>Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/audioamps/electretpreamp/assets/electretpreamp_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Breadboard Bling"/>
@@ -271,7 +245,7 @@
     <link href="https://leap.tardate.com/equipment/minirotarytool/"/>
     <g:image_link>https://leap.tardate.com/equipment/minirotarytool/assets/minirotarytool_build.jpg</g:image_link>
     <updated>2023-01-06T13:42:22Z</updated>
-    <title>#619 Mini Rotary Tool</title>
+    <title>#621 Mini Rotary Tool</title>
     <summary>unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/minirotarytool/assets/minirotarytool_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
@@ -281,7 +255,7 @@
     <link href="https://leap.tardate.com/electronics101/oscillators/ldrledring/"/>
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/ldrledring/assets/ldrledring_build.jpg</g:image_link>
     <updated>2022-12-23T09:30:56Z</updated>
-    <title>#618 LED-LDR Ring Oscillator</title>
+    <title>#620 LED-LDR Ring Oscillator</title>
     <summary>Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/ldrledring/assets/ldrledring_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -293,7 +267,7 @@
     <link href="https://leap.tardate.com/electronics101/ldr/dataslicer/"/>
     <g:image_link>https://leap.tardate.com/electronics101/ldr/dataslicer/assets/dataslicer_build.jpg</g:image_link>
     <updated>2022-12-21T10:21:30Z</updated>
-    <title>#617 LDR Data Slicer Trigger</title>
+    <title>#619 LDR Data Slicer Trigger</title>
     <summary>Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ldr/dataslicer/assets/dataslicer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
@@ -304,7 +278,7 @@
     <link href="https://leap.tardate.com/electronics101/ldr/differentialcomparator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/ldr/differentialcomparator/assets/differentialcomparator_build.jpg</g:image_link>
     <updated>2022-12-21T10:21:30Z</updated>
-    <title>#616 LDR Differential Comparator</title>
+    <title>#618 LDR Differential Comparator</title>
     <summary>Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ldr/differentialcomparator/assets/differentialcomparator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
@@ -315,7 +289,7 @@
     <link href="https://leap.tardate.com/playground/nano/expansionboard/"/>
     <g:image_link>https://leap.tardate.com/playground/nano/expansionboard/assets/expansionboard_build.jpg</g:image_link>
     <updated>2022-11-22T15:39:59Z</updated>
-    <title>#615 Nano Expansion Board</title>
+    <title>#617 Nano Expansion Board</title>
     <summary>Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/nano/expansionboard/assets/expansionboard_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -325,7 +299,7 @@
     <link href="https://leap.tardate.com/radio/codepracticeoscillator/"/>
     <g:image_link>https://leap.tardate.com/radio/codepracticeoscillator/assets/codepracticeoscillator_build.jpg</g:image_link>
     <updated>2022-11-08T15:36:38Z</updated>
-    <title>#614 Code Practice Oscillator</title>
+    <title>#616 Code Practice Oscillator</title>
     <summary>Build and test a simple 2-transistor code practice oscillator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a simple 2-transistor code practice oscillator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/codepracticeoscillator/assets/codepracticeoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
@@ -337,7 +311,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg</g:image_link>
     <updated>2022-11-07T15:38:54Z</updated>
-    <title>#613 MC34063 Buck Converter</title>
+    <title>#615 MC34063 Buck Converter</title>
     <summary>Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -347,7 +321,7 @@
     <link href="https://leap.tardate.com/equipment/lightcontrolswitchkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/lightcontrolswitchkit/assets/lightcontrolswitchkit_build.jpg</g:image_link>
     <updated>2022-10-28T00:56:33Z</updated>
-    <title>#612 Light Control Switch Kit</title>
+    <title>#614 Light Control Switch Kit</title>
     <summary>Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/lightcontrolswitchkit/assets/lightcontrolswitchkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LDR"/>
@@ -358,7 +332,7 @@
     <link href="https://leap.tardate.com/electronics101/displays/lcd3digit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/displays/lcd3digit/assets/lcd3digit_build.jpg</g:image_link>
     <updated>2022-10-23T14:55:59Z</updated>
-    <title>#611 3-Digit LCD Panel</title>
+    <title>#613 3-Digit LCD Panel</title>
     <summary>Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/displays/lcd3digit/assets/lcd3digit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -369,7 +343,7 @@
     <link href="https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/assets/schmittcrystallockedoscillator_build.jpg</g:image_link>
     <updated>2022-09-16T13:35:07Z</updated>
-    <title>#610 Crystal-Locked Schmitt Oscillator</title>
+    <title>#612 Crystal-Locked Schmitt Oscillator</title>
     <summary>Testing a basic crystal-locked Schmitt oscillator using a 74HC14</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a basic crystal-locked Schmitt oscillator using a 74HC14&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/assets/schmittcrystallockedoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
@@ -380,7 +354,7 @@
     <link href="https://leap.tardate.com/audio/visualization/usbledvolumeindicatorkit/"/>
     <g:image_link>https://leap.tardate.com/audio/visualization/usbledvolumeindicatorkit/assets/usbledvolumeindicatorkit_build.jpg</g:image_link>
     <updated>2022-09-03T11:05:51Z</updated>
-    <title>#609 USB Audio Level Indicator Kit</title>
+    <title>#611 USB Audio Level Indicator Kit</title>
     <summary>An electret-input audio level kit based on cascading LM358 stages with LED indicators</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;An electret-input audio level kit based on cascading LM358 stages with LED indicators&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/visualization/usbledvolumeindicatorkit/assets/usbledvolumeindicatorkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LM358"/>
@@ -392,7 +366,7 @@
     <link href="https://leap.tardate.com/equipment/humidifiermodule/"/>
     <g:image_link>https://leap.tardate.com/equipment/humidifiermodule/assets/humidifiermodule_build.jpg</g:image_link>
     <updated>2022-07-21T14:36:37Z</updated>
-    <title>#608 USB Humidifier Module</title>
+    <title>#610 USB Humidifier Module</title>
     <summary>Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/humidifiermodule/assets/humidifiermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="USB"/>
@@ -403,7 +377,7 @@
     <link href="https://leap.tardate.com/electronics101/power/wirelessledmodule/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/wirelessledmodule/assets/wirelessledmodule_build.jpg</g:image_link>
     <updated>2022-07-12T16:13:31Z</updated>
-    <title>#607 XKT-511 Wireless LED Module</title>
+    <title>#609 XKT-511 Wireless LED Module</title>
     <summary>Investigating a wireless LED power module based on the XKT-511 chip</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Investigating a wireless LED power module based on the XKT-511 chip&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/wirelessledmodule/assets/wirelessledmodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -415,7 +389,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg</g:image_link>
     <updated>2022-07-03T14:31:59Z</updated>
-    <title>#606 MT3608 Safe Control</title>
+    <title>#608 MT3608 Safe Control</title>
     <summary>Configuring variable boost control with the MT3608 that is safe for all rated input voltages</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -426,7 +400,7 @@
     <link href="https://leap.tardate.com/electronics101/cd4069/logicprobe/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd4069/logicprobe/assets/logicprobe_build.jpg</g:image_link>
     <updated>2022-05-24T04:49:42Z</updated>
-    <title>#605 CD4069 Logic Probe</title>
+    <title>#607 CD4069 Logic Probe</title>
     <summary>A simple logic probe using inverter gates</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A simple logic probe using inverter gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4069/logicprobe/assets/logicprobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
@@ -437,7 +411,7 @@
     <link href="https://leap.tardate.com/electronics101/cd4001/logicprobe/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd4001/logicprobe/assets/logicprobe_build.jpg</g:image_link>
     <updated>2022-05-22T06:12:54Z</updated>
-    <title>#604 CD4001 Logic Probe</title>
+    <title>#606 CD4001 Logic Probe</title>
     <summary>A simple logic probe using NOR gates</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A simple logic probe using NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4001/logicprobe/assets/logicprobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
@@ -448,7 +422,7 @@
     <link href="https://leap.tardate.com/electronics101/cd4001/srlatch/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd4001/srlatch/assets/srlatch_build.jpg</g:image_link>
     <updated>2022-05-19T11:15:43Z</updated>
-    <title>#603 CD4001 SR Latch</title>
+    <title>#605 CD4001 SR Latch</title>
     <summary>Set-Reset latch implemented with CD4001 NOR gates</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Set-Reset latch implemented with CD4001 NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4001/srlatch/assets/srlatch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
@@ -459,7 +433,7 @@
     <link href="https://leap.tardate.com/electronics101/serialinterface/usbtorj45/"/>
     <g:image_link>https://leap.tardate.com/electronics101/serialinterface/usbtorj45/assets/usbtorj45_build.jpg</g:image_link>
     <updated>2022-05-12T16:26:16Z</updated>
-    <title>#602 USB to RJ45 Adapter</title>
+    <title>#604 USB to RJ45 Adapter</title>
     <summary>building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/serialinterface/usbtorj45/assets/usbtorj45_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="RS232"/>
@@ -472,7 +446,7 @@
     <link href="https://leap.tardate.com/equipment/foamcutter/"/>
     <g:image_link>https://leap.tardate.com/equipment/foamcutter/assets/foamcutter_build.jpg</g:image_link>
     <updated>2022-05-03T03:50:12Z</updated>
-    <title>#601 Foam Cutters</title>
+    <title>#603 Foam Cutters</title>
     <summary>Examining various foam cutter designs and building a couple for small-scale foam sculpting</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Examining various foam cutter designs and building a couple for small-scale foam sculpting&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/foamcutter/assets/foamcutter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Craft"/>
@@ -483,7 +457,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/longrunning/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/longrunning/assets/longrunning_build.jpg</g:image_link>
     <updated>2023-01-07T03:32:06Z</updated>
-    <title>#600 Long Running Timer</title>
+    <title>#602 Long Running Timer</title>
     <summary>Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC556C</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC556C&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/longrunning/assets/longrunning_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -494,7 +468,7 @@
     <link href="https://leap.tardate.com/equipment/waterlevelcontrolkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/waterlevelcontrolkit/assets/waterlevelcontrolkit_build.jpg</g:image_link>
     <updated>2022-04-05T05:55:11Z</updated>
-    <title>#599 Water-Level Control Kit</title>
+    <title>#601 Water-Level Control Kit</title>
     <summary>Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/waterlevelcontrolkit/assets/waterlevelcontrolkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
@@ -505,7 +479,7 @@
     <link href="https://leap.tardate.com/electronics101/led/remotecontrolcandles/"/>
     <g:image_link>https://leap.tardate.com/electronics101/led/remotecontrolcandles/assets/remotecontrolcandles_build.jpg</g:image_link>
     <updated>2022-02-21T17:33:20Z</updated>
-    <title>#598 Remote Control Candles</title>
+    <title>#600 Remote Control Candles</title>
     <summary>Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/remotecontrolcandles/assets/remotecontrolcandles_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="IR"/>
@@ -513,11 +487,22 @@
     <category term="LED"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/playground/ir/dumper/</id>
+    <link href="https://leap.tardate.com/playground/ir/dumper/"/>
+    <g:image_link>https://leap.tardate.com/playground/ir/dumper/assets/dumper_build.jpg</g:image_link>
+    <updated>2022-02-21T17:33:20Z</updated>
+    <title>#599 IR Dumper</title>
+    <summary>Reverse-engineering infrared protocols using the Arduino-IRremote library.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineering infrared protocols using the Arduino-IRremote library.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ir/dumper/assets/dumper_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="IR"/>
+    <category term="Arduino"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/kraft/kubelmagic/</id>
     <link href="https://leap.tardate.com/kraft/kubelmagic/"/>
     <g:image_link>https://leap.tardate.com/kraft/kubelmagic/assets/kubelmagic_build.jpg</g:image_link>
     <updated>2022-01-15T15:04:20Z</updated>
-    <title>#597 KubelMagic</title>
+    <title>#598 KubelMagic</title>
     <summary>A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/kubelmagic/assets/kubelmagic_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -526,22 +511,11 @@
     <category term="Craft"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/playground/ir/dumper/</id>
-    <link href="https://leap.tardate.com/playground/ir/dumper/"/>
-    <g:image_link>https://leap.tardate.com/playground/ir/dumper/assets/dumper_build.jpg</g:image_link>
-    <updated>2022-02-21T17:33:20Z</updated>
-    <title>#596 IR Dumper</title>
-    <summary>Reverse-engineering infrared protocols using the Arduino-IRremote library.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineering infrared protocols using the Arduino-IRremote library.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ir/dumper/assets/dumper_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="IR"/>
-    <category term="Arduino"/>
-  </entry>
-  <entry>
     <id>https://leap.tardate.com/electronics101/smdpracticeboards/star/</id>
     <link href="https://leap.tardate.com/electronics101/smdpracticeboards/star/"/>
     <g:image_link>https://leap.tardate.com/electronics101/smdpracticeboards/star/assets/star_build.jpg</g:image_link>
     <updated>2022-01-20T14:40:39Z</updated>
-    <title>#595 Glowing Star SMD Practice Board</title>
+    <title>#597 Glowing Star SMD Practice Board</title>
     <summary>Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/smdpracticeboards/star/assets/star_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="SMD"/>
@@ -552,7 +526,7 @@
     <link href="https://leap.tardate.com/audio/speechsynthesis/syn6288module/"/>
     <g:image_link>https://leap.tardate.com/audio/speechsynthesis/syn6288module/assets/syn6288module_build.jpg</g:image_link>
     <updated>2022-01-18T16:05:12Z</updated>
-    <title>#594 SYN6288 Module</title>
+    <title>#596 SYN6288 Module</title>
     <summary>Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/speechsynthesis/syn6288module/assets/syn6288module_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -564,7 +538,7 @@
     <link href="https://leap.tardate.com/electronics101/weevileyekit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/weevileyekit/assets/weevileyekit_build.jpg</g:image_link>
     <updated>2022-01-18T02:20:05Z</updated>
-    <title>#593 Weevil Eye Kit</title>
+    <title>#595 Weevil Eye Kit</title>
     <summary>Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/weevileyekit/assets/weevileyekit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LDR"/>
@@ -575,7 +549,7 @@
     <link href="https://leap.tardate.com/electronics101/led/candleemulator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/led/candleemulator/assets/candleemulator_build.jpg</g:image_link>
     <updated>2022-01-02T02:12:30Z</updated>
-    <title>#592 Candle Emulator</title>
+    <title>#594 Candle Emulator</title>
     <summary>An Arduino LED candle emulation</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;An Arduino LED candle emulation&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/candleemulator/assets/candleemulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -586,7 +560,7 @@
     <link href="https://leap.tardate.com/equipment/hilologictesterkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/hilologictesterkit/assets/hilologictesterkit_build.jpg</g:image_link>
     <updated>2021-12-03T18:18:39Z</updated>
-    <title>#591 Hi-Lo Logic Tester Kit</title>
+    <title>#593 Hi-Lo Logic Tester Kit</title>
     <summary>Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/hilologictesterkit/assets/hilologictesterkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
@@ -597,7 +571,7 @@
     <link href="https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/assets/halfwave_build.jpg</g:image_link>
     <updated>2021-11-30T02:55:54Z</updated>
-    <title>#590 Half-Wave Dickson Charge Pump</title>
+    <title>#592 Half-Wave Dickson Charge Pump</title>
     <summary>Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/assets/halfwave_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -608,7 +582,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/laserray/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/laserray/assets/laserray_build.jpg</g:image_link>
     <updated>2021-11-23T14:00:04Z</updated>
-    <title>#589 LaserRay</title>
+    <title>#591 LaserRay</title>
     <summary>Testing a laser ray light and sound effectbased on the 555 timer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a laser ray light and sound effectbased on the 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/laserray/assets/laserray_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -620,7 +594,7 @@
     <link href="https://leap.tardate.com/playground/ledcurrentcontrol/"/>
     <g:image_link>https://leap.tardate.com/playground/ledcurrentcontrol/assets/ledcurrentcontrol_build.jpg</g:image_link>
     <updated>2021-10-18T01:40:48Z</updated>
-    <title>#588 LED Current Control</title>
+    <title>#590 LED Current Control</title>
     <summary>Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ledcurrentcontrol/assets/ledcurrentcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -631,7 +605,7 @@
     <link href="https://leap.tardate.com/playground/attiny/analogcomparator/"/>
     <g:image_link>https://leap.tardate.com/playground/attiny/analogcomparator/assets/analogcomparator_build.jpg</g:image_link>
     <updated>2021-09-16T18:14:44Z</updated>
-    <title>#587 ATtiny Analog Comparator</title>
+    <title>#589 ATtiny Analog Comparator</title>
     <summary>Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/attiny/analogcomparator/assets/analogcomparator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -644,7 +618,7 @@
     <link href="https://leap.tardate.com/kinetics/servomotors/minilinearservos/"/>
     <g:image_link>https://leap.tardate.com/kinetics/servomotors/minilinearservos/assets/minilinearservos_build.jpg</g:image_link>
     <updated>2021-09-16T15:56:04Z</updated>
-    <title>#586 Mini Linear Servos</title>
+    <title>#588 Mini Linear Servos</title>
     <summary>Testing some mini/micro linear servo motors with an ATtiny85</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing some mini/micro linear servo motors with an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kinetics/servomotors/minilinearservos/assets/minilinearservos_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -656,7 +630,7 @@
     <link href="https://leap.tardate.com/kinetics/servomotors/attinyservo/"/>
     <g:image_link>https://leap.tardate.com/kinetics/servomotors/attinyservo/assets/attinyservo_build.jpg</g:image_link>
     <updated>2021-09-14T13:30:20Z</updated>
-    <title>#585 ATTiny Servo Drive</title>
+    <title>#587 ATTiny Servo Drive</title>
     <summary>Testing various methods and libraries for driving servo motors with an ATtiny85</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing various methods and libraries for driving servo motors with an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kinetics/servomotors/attinyservo/assets/attinyservo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -668,7 +642,7 @@
     <link href="https://leap.tardate.com/kinetics/servomotors/lowpowerminiservos/"/>
     <g:image_link>https://leap.tardate.com/kinetics/servomotors/lowpowerminiservos/assets/lowpowerminiservos_build.jpg</g:image_link>
     <updated>2021-09-12T08:12:35Z</updated>
-    <title>#584 Low Power Mini Servos</title>
+    <title>#586 Low Power Mini Servos</title>
     <summary>Testing a few low power mini servo motors with an Arduino and MOSFET level shifter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a few low power mini servo motors with an Arduino and MOSFET level shifter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kinetics/servomotors/lowpowerminiservos/assets/lowpowerminiservos_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Servo"/>
@@ -679,7 +653,7 @@
     <link href="https://leap.tardate.com/electronics101/temperaturesensors/lm335/"/>
     <g:image_link>https://leap.tardate.com/electronics101/temperaturesensors/lm335/assets/lm335_build.jpg</g:image_link>
     <updated>2021-03-08T16:42:53Z</updated>
-    <title>#583 LM335 Temperature Sensor</title>
+    <title>#585 LM335 Temperature Sensor</title>
     <summary>Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/temperaturesensors/lm335/assets/lm335_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
@@ -692,7 +666,7 @@
     <link href="https://leap.tardate.com/electronics101/power/wirelessled/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/wirelessled/assets/wirelessled_build.jpg</g:image_link>
     <updated>2021-08-19T14:19:11Z</updated>
-    <title>#582 Simple Wireless Power LED</title>
+    <title>#584 Simple Wireless Power LED</title>
     <summary>Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/wirelessled/assets/wirelessled_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -704,7 +678,7 @@
     <link href="https://leap.tardate.com/electronics101/piezobuzzers/opampdriver/"/>
     <g:image_link>https://leap.tardate.com/electronics101/piezobuzzers/opampdriver/assets/opampdriver_build.jpg</g:image_link>
     <updated>2021-08-17T08:14:50Z</updated>
-    <title>#581 OpAmp Piezo Driver</title>
+    <title>#583 OpAmp Piezo Driver</title>
     <summary>Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/piezobuzzers/opampdriver/assets/opampdriver_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -716,7 +690,7 @@
     <link href="https://leap.tardate.com/electronics101/temperaturesensors/lm35/"/>
     <g:image_link>https://leap.tardate.com/electronics101/temperaturesensors/lm35/assets/lm35_build.jpg</g:image_link>
     <updated>2021-08-15T13:42:05Z</updated>
-    <title>#580 LM35 Temperature Sensor</title>
+    <title>#582 LM35 Temperature Sensor</title>
     <summary>Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/temperaturesensors/lm35/assets/lm35_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
@@ -729,12 +703,38 @@
     <link href="https://leap.tardate.com/kraft/snowflake/lamp/"/>
     <g:image_link>https://leap.tardate.com/kraft/snowflake/lamp/assets/lamp_build.jpg</g:image_link>
     <updated>2021-07-21T00:49:00Z</updated>
-    <title>#579 Snowflake Lamp</title>
+    <title>#581 Snowflake Lamp</title>
     <summary>Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/snowflake/lamp/assets/lamp_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Craft"/>
     <category term="ARM"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/kraft/tydiriumstrobe/module/</id>
+    <link href="https://leap.tardate.com/kraft/tydiriumstrobe/module/"/>
+    <g:image_link>https://leap.tardate.com/kraft/tydiriumstrobe/module/assets/module_build.jpg</g:image_link>
+    <updated>2021-04-05T08:52:23Z</updated>
+    <title>#580 Tydirium Strobe Module</title>
+    <summary>Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/tydiriumstrobe/module/assets/module_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
+    <category term="ATmel"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/kraft/tydiriumstrobe/</id>
+    <link href="https://leap.tardate.com/kraft/tydiriumstrobe/"/>
+    <g:image_link>https://leap.tardate.com/kraft/tydiriumstrobe/assets/tydiriumstrobe_build.jpg</g:image_link>
+    <updated>2021-04-05T08:52:23Z</updated>
+    <title>#579 Tydirium Strobe</title>
+    <summary>Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/tydiriumstrobe/assets/tydiriumstrobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
+    <category term="ATmel"/>
+    <category term="LED"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rgbohmmeter/</id>

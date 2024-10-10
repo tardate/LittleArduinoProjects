@@ -1,5 +1,5 @@
 {
-    "id": "#631",
+    "id": "#633",
     "name": "LED Flicker Kit",
     "description": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",
     "categories": "Arduino, AVR, LED",

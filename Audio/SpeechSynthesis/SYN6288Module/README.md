@@ -1,4 +1,4 @@
-# #594 SYN6288 Module
+# #596 SYN6288 Module
 
 Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.
 

@@ -1,5 +1,5 @@
 {
-    "id": "#587",
+    "id": "#589",
     "name": "ATtiny Analog Comparator",
     "description": "Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator",
     "categories": "Arduino, AVR, Sensor, OpAmp",

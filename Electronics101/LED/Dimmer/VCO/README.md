@@ -1,4 +1,4 @@
-# #630 Voltage Controlled LED Dimmer
+# #632 Voltage Controlled LED Dimmer
 
 Demonstrating a voltage-controlled LED current source with a triangle wave generator.
 

@@ -1,4 +1,4 @@
-# #629 Laser Harp Kit
+# #631 Laser Harp Kit
 
 Build and test an 8051-based laser harp kit.
 

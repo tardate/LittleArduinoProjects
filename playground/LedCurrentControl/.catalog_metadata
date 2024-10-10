@@ -1,5 +1,5 @@
 {
-    "id": "#588",
+    "id": "#590",
     "name": "LED Current Control",
     "description": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",
     "categories": "LED, Arduino",

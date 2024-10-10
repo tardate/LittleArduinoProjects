@@ -1,5 +1,5 @@
 {
-    "id": "#596",
+    "id": "#599",
     "name": "IR Dumper",
     "description": "Reverse-engineering infrared protocols using the Arduino-IRremote library.",
     "categories": "IR, Arduino",

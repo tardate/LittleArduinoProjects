@@ -1,4 +1,4 @@
-# #606 MT3608 Safe Control
+# #608 MT3608 Safe Control
 
 Configuring variable boost control with the MT3608 that is safe for all rated input voltages.
 

@@ -1,4 +1,4 @@
-# #618 LED-LDR Ring Oscillator
+# #620 LED-LDR Ring Oscillator
 
 Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.
 
