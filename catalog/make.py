@@ -180,6 +180,31 @@ class Catalog(object):
         self.generate_project_data()
         self.generate_atom_feed()
         self.generate_sitemap()
+        # TODO: add a function here that will update the README in the root of the project with the latest project details:
+        # - total number of projects is updated in the first line of the README
+        self.update_readme()
+
+    def update_readme(self):
+        readme_path = os.path.join(self.collection_root, 'README.md')
+        metadata = self.metadata()
+        total_projects = len(metadata)
+        latest_project = metadata[0]
+
+        with open(readme_path, 'r') as f:
+            lines = f.readlines()
+
+        # Update the total number of projects in the first line
+        if lines:
+            lines[0] = re.sub(r'\d+', str(total_projects), lines[0], count=1)
+
+        if len(lines) > 2:
+            # Add the latest project details at the top of the README
+            lines[2] = "> Latest addition:sparkles: [{}](./{}) - {}\n".format(
+                latest_project['name'], latest_project['relative_path'], latest_project['description']
+            )
+
+        with open(readme_path, 'w') as f:
+            f.writelines(lines)
 
     def fix_publication_dates(self):
         for filename in self.metadata_files():
