@@ -1,5 +1,5 @@
 {
-    "id": "#606",
+    "id": "#608",
     "name": "MT3608 Safe Control",
     "description": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
     "categories": "Power, SMPS",

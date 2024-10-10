@@ -1,4 +1,4 @@
-# #632 TS-BN55 Digital Oven Thermometer
+# #634 TS-BN55 Digital Oven Thermometer
 
 Examining and fixing the TS-BN55 Digital Oven Thermometer
 

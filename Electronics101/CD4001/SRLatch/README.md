@@ -1,4 +1,4 @@
-# #603 CD4001 SR Latch
+# #605 CD4001 SR Latch
 
 Set-Reset latch implemented with CD4001 NOR gates.
 

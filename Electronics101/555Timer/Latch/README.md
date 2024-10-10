@@ -1,4 +1,4 @@
-# #626 Push-button Latch
+# #628 Push-button Latch
 
 Testing a simple push-button latched switch circuit for on/off control using the 555 timer.
 

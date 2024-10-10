@@ -1,4 +1,4 @@
-# #620 Electret Audio Pre-amplifier
+# #622 Electret Audio Pre-amplifier
 
 Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.
 

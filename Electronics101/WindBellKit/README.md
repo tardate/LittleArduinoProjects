@@ -1,4 +1,4 @@
-# #639 Wobbly Wind Bell Kit
+# #641 Wobbly Wind Bell Kit
 
 Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.
 

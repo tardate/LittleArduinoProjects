@@ -1,5 +1,5 @@
 {
-    "id": "#610",
+    "id": "#612",
     "name": "Crystal-Locked Schmitt Oscillator",
     "description": "Testing a basic crystal-locked Schmitt oscillator using a 74HC14",
     "categories": "CMOS/TTL, Oscillators",

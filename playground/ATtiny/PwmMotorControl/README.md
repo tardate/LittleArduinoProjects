@@ -1,4 +1,4 @@
-# #627 ATtiny PMW Motor Control
+# #629 ATtiny PMW Motor Control
 
 Variable speed PWM motor control with an ATtiny85.
 

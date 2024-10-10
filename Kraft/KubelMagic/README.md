@@ -1,4 +1,4 @@
-# #597 KübelMagic
+# #598 KübelMagic
 
 A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.
 

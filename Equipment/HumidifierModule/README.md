@@ -1,4 +1,4 @@
-# #608 USB Humidifier Module
+# #610 USB Humidifier Module
 
 Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist!
 

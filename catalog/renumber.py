@@ -34,8 +34,8 @@ def renumber_projects():
   for new_id, project in enumerate(catalog, start=1):
     new_id = f"#{new_id:03}"
     if project['id'] != new_id:
-      update_metadata_file(project, new_id)
       project['id'] = new_id
+    update_metadata_file(project, new_id)
     readme_path = os.path.join(BASE_DIR, project['relative_path'], 'README.md')
     if os.path.exists(readme_path):
       with open(readme_path, 'r') as file:

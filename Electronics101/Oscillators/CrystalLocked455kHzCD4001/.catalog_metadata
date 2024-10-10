@@ -1,5 +1,5 @@
 {
-    "id": "#622",
+    "id": "#624",
     "name": "Crystal-locked 455kHz Oscillator",
     "description": "Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
     "categories": "CMOS/TTL, Oscillators",

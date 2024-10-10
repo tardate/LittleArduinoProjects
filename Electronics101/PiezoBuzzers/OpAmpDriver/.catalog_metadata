@@ -1,5 +1,5 @@
 {
-    "id": "#581",
+    "id": "#583",
     "name": "OpAmp Piezo Driver",
     "description": "Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator",
     "categories": "Oscillators, Crystal, Audio",

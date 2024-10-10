@@ -1,4 +1,4 @@
-# #641 Tydirium Strobe Module
+# #580 Tydirium Strobe Module
 
 Packaging the ATtiny85 Lambda-class shuttle "Tydirium" navigation strobe circuit as a small board that can be added to an existing lighting setup.
 

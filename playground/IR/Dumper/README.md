@@ -1,4 +1,4 @@
-# #596 IR Dumper
+# #599 IR Dumper
 
 Reverse-engineering infrared protocols using the Arduino-IRremote library.
 

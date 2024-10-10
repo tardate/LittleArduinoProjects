@@ -1,4 +1,4 @@
-# #586 Mini Linear Servos
+# #588 Mini Linear Servos
 
 Testing some mini/micro linear servo motors with an ATtiny85.
 

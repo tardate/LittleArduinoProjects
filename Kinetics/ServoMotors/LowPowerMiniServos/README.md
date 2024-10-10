@@ -1,4 +1,4 @@
-# #584 Low Power Mini Servos
+# #586 Low Power Mini Servos
 
 Testing a few low power mini servo motors with an Arduino and MOSFET level shifter.
 

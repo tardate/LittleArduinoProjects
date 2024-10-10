@@ -1,4 +1,4 @@
-# #638 9V (PP3) to 5V or 3.3V Power Adapter
+# #640 9V (PP3) to 5V or 3.3V Power Adapter
 
 Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.
 

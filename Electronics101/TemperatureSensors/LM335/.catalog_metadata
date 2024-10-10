@@ -1,5 +1,5 @@
 {
-    "id": "#583",
+    "id": "#585",
     "name": "LM335 Temperature Sensor",
     "description": "Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD",
     "categories": "Sensors, LM335, LCD, Arduino",

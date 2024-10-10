@@ -1,5 +1,5 @@
 {
-    "id": "#586",
+    "id": "#588",
     "name": "Mini Linear Servos",
     "description": "Testing some mini/micro linear servo motors with an ATtiny85",
     "categories": "Arduino, AVR, Servo",
