@@ -7,12 +7,38 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-10-09T14:39:11Z</updated>
+  <updated>2024-10-10T02:28:44Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/tydiriumstrobe/module/</id>
+    <link href="https://leap.tardate.com/kraft/tydiriumstrobe/module/"/>
+    <g:image_link>https://leap.tardate.com/kraft/tydiriumstrobe/module/assets/module_build.jpg</g:image_link>
+    <updated>2021-04-05T08:52:23Z</updated>
+    <title>#641 Tydirium Strobe Module</title>
+    <summary>Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/tydiriumstrobe/module/assets/module_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
+    <category term="ATmel"/>
+    <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/kraft/tydiriumstrobe/</id>
+    <link href="https://leap.tardate.com/kraft/tydiriumstrobe/"/>
+    <g:image_link>https://leap.tardate.com/kraft/tydiriumstrobe/assets/tydiriumstrobe_build.jpg</g:image_link>
+    <updated>2021-04-05T08:52:23Z</updated>
+    <title>#640 Tydirium Strobe</title>
+    <summary>Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/tydiriumstrobe/assets/tydiriumstrobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
+    <category term="ATmel"/>
+    <category term="LED"/>
+    <category term="Circuit Sculpture"/>
+    <category term="Freeform"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/windbellkit/</id>
     <link href="https://leap.tardate.com/electronics101/windbellkit/"/>

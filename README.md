@@ -1,6 +1,6 @@
-# 639 Little Electronic Art Projects
+# 641 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Wobbly Wind Bell Kit](./Electronics101/WindBellKit) - Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.
+> Latest addition:sparkles: [Tydirium Strobe Module](./Kraft/TydiriumStrobe/Module) - Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

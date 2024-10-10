@@ -1,0 +1,8 @@
+{
+    "id": "#640",
+    "name": "Tydirium Strobe",
+    "description": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
+    "categories": "Arduino, ATmel, LED, Circuit Sculpture, Freeform",
+    "relative_path": "Kraft/TydiriumStrobe",
+    "updated_at": "2021-04-05T08:52:23Z"
+}

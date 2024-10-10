@@ -1,4 +1,26 @@
 {
+    "/kraft/tydiriumstrobe/module/": {
+        "id": 641,
+        "title": "Tydirium Strobe Module",
+        "summary": "Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED"
+        ]
+    },
+    "/kraft/tydiriumstrobe/": {
+        "id": 640,
+        "title": "Tydirium Strobe",
+        "summary": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
     "/electronics101/windbellkit/": {
         "id": 639,
         "title": "Wobbly Wind Bell Kit",

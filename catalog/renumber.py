@@ -4,16 +4,21 @@
 import json
 import os
 
+# Get the parent directory of this script
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 def load_catalog():
-  with open('catalog.json', 'r') as file:
+  catalog_path = os.path.join(BASE_DIR, 'catalog', 'catalog.json')
+  with open(catalog_path, 'r') as file:
     return json.load(file)
 
 def save_catalog(catalog):
-  with open('catalog.json', 'w') as file:
+  catalog_path = os.path.join(BASE_DIR, 'catalog', 'catalog.json')
+  with open(catalog_path, 'w') as file:
     json.dump(catalog, file, indent=4)
 
 def update_metadata_file(project, new_id):
-  metadata_path = os.path.join('..', project['relative_path'], '.catalog_metadata')
+  metadata_path = os.path.join(BASE_DIR, project['relative_path'], '.catalog_metadata')
   with open(metadata_path, 'r') as file:
     metadata = json.load(file)
 
@@ -31,7 +36,7 @@ def renumber_projects():
     if project['id'] != new_id:
       update_metadata_file(project, new_id)
       project['id'] = new_id
-    readme_path = os.path.join('..', project['relative_path'], 'README.md')
+    readme_path = os.path.join(BASE_DIR, project['relative_path'], 'README.md')
     if os.path.exists(readme_path):
       with open(readme_path, 'r') as file:
         lines = file.readlines()
