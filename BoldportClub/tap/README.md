@@ -18,7 +18,7 @@ The PCB is well up to Boldport standards. Altough this can create some assembly 
 which side of the board the parts are inserted. It looks just as good both ways.
 
 Electrically, touch pads A, B and C are connected to an NPN transistor pair in a Darlington configuration.
-I've covered the operation of this kind of switch in [LEAP#130 DarlingtonTouchSwitch](../Electronics101/DarlingtonTouchSwitch).
+I've covered the operation of this kind of switch in [LEAP#130 DarlingtonTouchSwitch](https://leap.tardate.com/electronics101/darlingtontouchswitch/).
 
 All manner of outputs are provided. For each touchpad there are four:
 
@@ -34,7 +34,6 @@ All manner of outputs are provided. For each touchpad there are four:
 | Touch B       |  1 |  0  |  0 |  1  |  1 |  0  |
 | Touch C       |  1 |  0  |  1 |  0  |  0 |  1  |
 | Touch RESET   |  1 |  0  |  1 |  0  |  1 |  0  |
-
 
 ### S/S¯ and Q/Q¯ Outputs
 
@@ -92,7 +91,6 @@ But as is my way, I just had to redraw the circuit. This time with Fritzing:
 
 ![Schematic](./assets/tap_schematic.jpg?raw=true)
 
-
 ![kit_complete_rear](./assets/kit_complete_rear.jpg?raw=true)
 
 ![kit_complete](./assets/kit_complete.jpg?raw=true)
@@ -143,5 +141,5 @@ scope than the circuit. The important point is that we still see one bounce at l
 * [SN7400N info and datasheet](http://parts.io/detail/931870/SN7400N) - parts.io
 * [PN2222ATA info and datasheet](http://parts.io/detail/1027929/PN2222ATA) - parts.io
 * [BC556BTA info and datasheet](http://parts.io/detail/1015198/BC556BTA) - parts.io
-* [LEAP#130 DarlingtonTouchSwitch](../Electronics101/DarlingtonTouchSwitch)
+* [LEAP#130 DarlingtonTouchSwitch](https://leap.tardate.com/electronics101/darlingtontouchswitch/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap285-the-boldport-tap.html)

@@ -6,19 +6,16 @@ Testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 li
 
 ## Notes
 
-Testing [LEAP#299 TheMatrix](../TheMatrix) - Boldport Club Project #11 - with the
+Testing [LEAP#298 TheMatrix](../TheMatrix) - Boldport Club Project #11 - with the
 [LRAS1130](https://github.com/LuckyResistor/LRAS1130) Arduino library from @luckyresistor.
-
 
 I'm using a version of the
 [LedTest.ino](https://github.com/LuckyResistor/LRAS1130/blob/master/examples/LedTest/LedTest.ino)
 script.
 
-
 ### Visual Result
 
 In the initial test I found two LEDs that needed a connection fix:
-
 
 ![initial_result](./assets/initial_result.jpg?raw=true)
 
@@ -35,7 +32,7 @@ This means the LED addresses A thu F are not populated i.e. only 10 out of every
 
 For the LEDs that are populated, the test script says they are all OK:
 
-```
+```sh
 Initialize chip
 Run the LED test
 LED 0x0:  OK
@@ -238,5 +235,5 @@ LED 0xBA:  open
 ## Credits and References
 
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
-* [LEAP#299 TheMatrix](../TheMatrix)
+* [LEAP#298 TheMatrix](../TheMatrix)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap300-the-matrix-led-test.html)

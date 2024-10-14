@@ -36,14 +36,14 @@ Read on for more details, but here's the summary so far:
 
 | Technique | Accuracy                                                                                                        |
 |-----------|-----------------------------------------------------------------------------------------------------------------|
-| [RotaryISR](./RotaryISR) - change-triggered interrupt using the Rotary library | Perfect. 100% accuracy at all speeds       |
-| [RotaryPolling](./RotaryPolling) - poll with the Rotary library | Perfect. 100% accuracy at all speeds                      |
-| [Polling](./Polling) - simple polling with hardware debounce | Pretty good. the occasional extra event in the wrong direction |
-| [OnChangeISR](./OnChangeISR) - change-triggered interrupt and standard digitalRead methods | OK, direction usually correct but lots of 'bounce' |
-| [Polling](./Polling) - simple polling and standard digitalRead methods | Poor, direction bounces around quite a bit |
-| [OnChangeDirectPortAccessISR](./OnChangeDirectPortAccessISR) - change-triggered interrupt and direct port methods | Poor, strong left-bias |
-| [FallingEdgeISR](./FallingEdgeISR) - falling-edge triggered interrupt and standard digitalRead methods | Very poor, highly susceptible to bounce |
-| [FallingEdgeDirectPortAccessISR](./FallingEdgeDirectPortAccessISR) - falling-edge triggered interrupt and direct port methods | Extremely poor, highly susceptible to bounce |
+| [RotaryISR](./RotaryISR/RotaryISR.ino) - change-triggered interrupt using the Rotary library | Perfect. 100% accuracy at all speeds       |
+| [RotaryPolling](./RotaryPolling/RotaryPolling.ino) - poll with the Rotary library | Perfect. 100% accuracy at all speeds                      |
+| [Polling](./Polling/Polling.ino) - simple polling with hardware debounce | Pretty good. the occasional extra event in the wrong direction |
+| [OnChangeISR](./OnChangeISR/OnChangeISR.ino) - change-triggered interrupt and standard digitalRead methods | OK, direction usually correct but lots of 'bounce' |
+| [Polling](./Polling/Polling.ino) - simple polling and standard digitalRead methods | Poor, direction bounces around quite a bit |
+| [OnChangeDirectPortAccessISR](./OnChangeDirectPortAccessISR/OnChangeDirectPortAccessISR.ino) - change-triggered interrupt and direct port methods | Poor, strong left-bias |
+| [FallingEdgeISR](./FallingEdgeISR/FallingEdgeISR.ino) - falling-edge triggered interrupt and standard digitalRead methods | Very poor, highly susceptible to bounce |
+| [FallingEdgeDirectPortAccessISR](./FallingEdgeDirectPortAccessISR/FallingEdgeDirectPortAccessISR.ino) - falling-edge triggered interrupt and direct port methods | Extremely poor, highly susceptible to bounce |
 
 It is pretty clear that the Rotary library is the best option by far, and delivers stunningly good results.
 All other options are susceptible to bouncing inputs to varying degrees.
@@ -75,6 +75,7 @@ From the timing/phase diagram it's clear there are 4 distinct transitions per "c
 | ...      |   |   |
 
 Different techniques lead to differing levels of resolution, for example:
+
 * the Rotary library looks for a full cycle by default i.e. only one even per step
 * a rising or falling edge interrupt will only catch one event per cycle per pin
 * a change interrupt on both pins will catch all 4 transitions per step
@@ -98,6 +99,7 @@ transitions that might have been missed with a polling approach for example.
 The general experience is that debouncing is critical when using mini-rotary encoders.
 
 #### Hardware Debouncing
+
 Many people have experiemented with hardware debouncing.
 Adding hardware debouncing (see the alternative schematics below) does yield some improvement.
 For example a 10kΩ/100nF RC filter on the [Polling](./Polling) sketch eliminates most of the noise. But not all -
@@ -137,18 +139,15 @@ In fact it makes things worse, because the program just gets better and better a
 
 ### Basic Direct-Connect
 
-
 ![Breadboard](./assets/RotaryEncoderMethods_bb.jpg?raw=true)
 
 ![The Schematic](./assets/RotaryEncoderMethods_schematic.jpg?raw=true)
-
 
 ### With Hardware Debouncing
 
 ![Breadboard](./assets/RotaryEncoderMethods_hw_debounce_bb.jpg?raw=true)
 
 ![The Schematic](./assets/RotaryEncoderMethods_hw_debounce_schematic.jpg?raw=true)
-
 
 ## Credits and References
 
@@ -164,4 +163,3 @@ In fact it makes things worse, because the program just gets better and better a
 * [Five things I never use in Arduino projects](https://miscsolutions.wordpress.com/2011/10/16/five-things-i-never-use-in-arduino-projects/) - including #5 External debouncing hardware for rotary encoders
 * [Arduino: Using a rotary encoder](http://practicalusage.com/?p=267)
 * [RotaryEncoderModule](../RotaryEncoderModule) - a project that tests a rotary encoder module driving an 8x8 LED array
-

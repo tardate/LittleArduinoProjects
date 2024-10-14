@@ -44,7 +44,7 @@ To transform the output from stage 3 (sine) to cosine, we use the final OpAmp un
 
 ### Measured Behaviour
 
-[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the output values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope ... and it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) reads the data from the serial port and plots the output values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope ... and it kind of works, mainly because the frequency is so low.
 
 The behaviour is demonstrated in the following trace with R4 variable resistor at about 10kΩ.
 

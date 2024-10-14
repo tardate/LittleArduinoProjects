@@ -1,4 +1,4 @@
-# #336 RgbLedGlow
+# #336 RGB LED Glow Effects
 
 Rainbow glow effects with an RGB LED and OpAmp oscillators.
 
@@ -29,13 +29,13 @@ Basically, these are just three LED dies in the one package.
 
 ### Triangle Wave Generator
 
-I borrowed the basic idea from [LEAP#089 BreatheLamp](../BreatheLamp), and adjusted the components for best effect.
+I borrowed the basic idea from [Breathing Lamp Effect](https://leap.tardate.com/electronics101/breathelamp/), and adjusted the components for best effect.
 
-The three oscillators are independent and nominally run at the same frequency. But component toleraces
-introduct enough variation that the phase difference of the three oscillators drift slowly, resulting in a continually
-varting mix.
+The three oscillators are independent and nominally run at the same frequency. But component tolerances
+introduce enough variation that the phase difference of the three oscillators drift slowly, resulting in a continually
+varying mix.
 
-A common reference volage sets the feedback offset. This is adjustable, the effect being to shift the waveforms with respect to the
+A common reference voltage sets the feedback offset. This is adjustable, the effect being to shift the waveforms with respect to the
 required LED control levels (meaning the LEDs stay on for longer of shorter periods).
 
 Here's a sample of the Red (CH3), Green (CH1), Blue (Ch2) waveforms.
@@ -45,9 +45,9 @@ Here's a sample of the Red (CH3), Green (CH1), Blue (Ch2) waveforms.
 ### LED Control
 
 The LEDs are configured with a low-side PNP control and current-limiting resistors.
-This puts the linear region of the transistors in the general vacinity of the triangle waveforms.
+This puts the linear region of the transistors in the general vicinity of the triangle waveforms.
 
-After some experimentation, I discovered I could get a much more peasing "glow" effect by reversing the
+After some experimentation, I discovered I could get a much more pleasing "glow" effect by reversing the
 PNP driver transistors (i.e. swap Collector and Emitter).
 The current flow is reduced, which can be offset by also reducing the current-limiting resistors.
 But it does expand the (pseudo-)linear region to cover the entire triangle wave sweep.
@@ -70,5 +70,5 @@ The [demo video](https://www.youtube.com/watch?v=9PpOC6A96As) is using the rever
 * [RGB LED datasheet](https://www.futurlec.com/LED/RGB5LED.shtml)
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [RGB LED](https://www.aliexpress.com/item/50pcs-4-pins-5mm-RGB-LED-full-color-Tri-Color-Common-Anode-LED-Red-Green-Blue/32802378189.html) - aliexpress seller
-* [LEAP#089 BreatheLamp](../BreatheLamp)
+* [Breathing Lamp Effect](https://leap.tardate.com/electronics101/breathelamp/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap337-rgb-led-glow-with-opamps.html)

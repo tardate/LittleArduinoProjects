@@ -43,7 +43,7 @@ With a 5V supply, the particular unit used here only measures a 2.6V swing:
 * output low: 1.6V
 * output high: 4.2V
 
-Here's a sample trace of the circuit behaviour recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues)
+Here's a sample trace of the circuit behaviour recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/)
 
 * upper trace is the op-amp output
 * lower trace is the non-inverting input (i.e. C1 voltage)

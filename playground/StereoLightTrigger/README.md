@@ -2,10 +2,10 @@
 
 Demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.
 
-
 ## Notes
 
 This demonstrates three circuit concepts:
+
 * a light sensor comprising a light-dependent resistor (LDR) and [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge).
 * a threshold detector using an OpAmp comparator.
 * triggering an arduino function when light exceeds the OpAmp threshold
@@ -43,7 +43,7 @@ when an LDR interrupt has been successfully processed.
 
 ### Behaviour
 
-For plots of received light to triggering, see the [LDRComparator](../../Electronics101/LDRComparator) project.
+For plots of received light to triggering, see the [LDR Comparator project](https://leap.tardate.com/electronics101/ldr/comparator/) project.
 It uses the same LDR wheatstone Bridge and monitors results with an Arduino.
 
 ### Construction
@@ -56,10 +56,8 @@ The build uses an Arduino Nano on a breadboard, with all components powered by a
 
 ![The Build](./assets/StereoLightTrigger_build.jpg?raw=true)
 
-
 ## Credits and References
 
 * [LM324 datasheet](https://www.futurlec.com/Linear/LM324N.shtml) - Low Power Quad Op-Amp
 * [Properly terminating an unused op amp](http://www.electronicproducts.com/Analog_Mixed_Signal_ICs/Amplifiers/Properly_terminating_an_unused_op_amp.aspx)
 * A similar application of an OpAmp is in "Project 06 - Hi-Lo Trip Detector" from [Beginning Digital Electronics Through Projects](http://www.amazon.com/gp/product/0750672692/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672692&linkCode=as2&tag=itsaprli-20&linkId=S6GVIV6DHZABMHTA)
-

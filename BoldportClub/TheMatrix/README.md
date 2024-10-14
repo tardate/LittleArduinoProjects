@@ -17,7 +17,6 @@ Now I have one built, time to test it out. So far
 * [GameOfLife](./GameOfLife) - Conway's Game of Life running on the Matrix
 * [KeypadControl](./KeypadControl) - use a 20-button keypad to write a scrolling message on the Matrix
 
-
 ### Parts
 
 | Ref      | Item                                                                       |  Qty |
@@ -37,7 +36,6 @@ The Matrix is laid out in a 5x24 matrix as described in the datasheet (Figure 54
 This allows for using the AS1130 scrolling feature for scrolling without the need of communication with a microprocessor.
 
 ![Schematic](./assets/TheMatrix_schematic.jpg?raw=true)
-
 
 ### Assembly
 
@@ -59,8 +57,6 @@ After an initial inspection, I only had a couple of manual fixups required:
 
 * two LEDs not connected properly after reflow
 * a solder bridge between two pins on the AMS1130 that wouldn't clear under hot air
-
-
 
 ![Build](./assets/TheMatrix_build.jpg?raw=true)
 

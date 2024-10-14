@@ -31,9 +31,9 @@ Doxygen source documentation is available [here](https://leap.tardate.com/Boldpo
 ## Credits and References
 
 * [Wire library](https://www.arduino.cc/en/reference/wire)
-* [AS1130 datasheet and info](ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
+* [AS1130 datasheet and info](http://ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
-* [LEAP#299 TheMatrix](../TheMatrix)
+* [LEAP#298 TheMatrix](../TheMatrix)
 * [LM35 Datasheet](https://www.futurlec.com/Linear/LM35DZ.shtml)
 * [LEAP#079 LedTemperatureDisplay](../../../playground/LedTemperatureDisplay) - more details on using the LM35 sensor
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap312-matrix-firecracker.html)

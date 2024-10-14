@@ -27,7 +27,7 @@ The Arduino is not really a core part of the circuit. It only does the following
 * provides +5V power supply (for convenience)
 * measures the input and output voltages for plotting
 
-Here's a sample trace recorded using the [PlotNValues](../../playground/PlotNValues) sketch.
+Here's a sample trace recorded using the [PlotNValues](https://leap.tardate.com/playground/plotnvalues/) sketch.
 It has four traces, from top to bottom:
 * output of the first OR gate (which I belatedly realised was exactly the same node as the first trace, hence excluded from the schematics)
 * inputs to the first OR gate

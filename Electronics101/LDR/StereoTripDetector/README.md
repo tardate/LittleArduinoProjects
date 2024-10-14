@@ -38,7 +38,7 @@ Note: the circuit as described does not follow
 
 ### Behaviour
 
-For plots of received light to triggering, see the [LDRComparator](../LDRComparator) project. It is pretty much identical
+For plots of received light to triggering, see the [LDR Comparator project](https://leap.tardate.com/electronics101/ldr/comparator/). It is pretty much identical
 to this circuit except uses a single LDR only and monitors results with an Arduino.
 
 ### Construction

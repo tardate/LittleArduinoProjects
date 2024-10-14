@@ -15,7 +15,7 @@ SRLatch uses manual switch entry to control the flip-flop.
 
 This version of the circuit uses an Arduino to drive the set/reset inputs, and monitor the output state.
 For simplicity, the circuit is powered from the Arduino's 5V regulated pin.
-Output state is read with analog ports, and the data sent to the serial port for plotting with [LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues).
+Output state is read with analog ports, and the data sent to the serial port for plotting with [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/).
 
 The processing trace below demonstrates the behaviour using 4 traces. From bottom to top:
 

@@ -26,7 +26,7 @@ Pull-down resistors R2,R3 are used to prevent floating inputs.
 
 The Arduino is not a core part of the circuit. It only does the following:
 * provides +5V power supply (for convenience)
-* measures the input and output voltages for plotting. It uses the [PlotNValues](../../../playground/PlotNValues) sketch for this purpose.
+* measures the input and output voltages for plotting. It uses the [PlotNValues](https://leap.tardate.com/playground/plotnvalues/) sketch for this purpose.
 
 Here's a sample trace. The upper trace is the output, the lower traces the inputs.
 

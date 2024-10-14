@@ -48,7 +48,7 @@ The output voltage is tapped at the anode of the LED, read with an analog input 
 It's important to have the Arduino measure the voltage across the LED only, since with a 9V supply this will only be in the order of 2V or so, not the full 7V+ at the
 output pin 3 of the 555 timer.
 
-[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
+[LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
 Here's a sample trace for [R1=10k, R2=330k and C1=2uF](http://visual555.tardate.com?r1=10&r2=330&c=2):
 
