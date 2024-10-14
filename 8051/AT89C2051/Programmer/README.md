@@ -8,7 +8,7 @@ Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host 
 
 I've been meaning to dive a bit deeper into
 [Intel MCS-51/8051](https://en.wikipedia.org/wiki/Intel_MCS-51) devices and programming
-ever since I built the [LEAP#088 ElectronicClockKit](../../ElectronicClockKit).
+ever since I built the [LEAP#088 ElectronicClockKit](https://leap.tardate.com/8051/electronicclockkit/).
 While it's long been EOL at Intel, [this article By Jon Wilder](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/)
 is a valiant argument for why they are still around.
 
@@ -44,8 +44,8 @@ I'd recommend checking these out. In summary:
 
 Boiling down my wishlist/plan:
 
-* use an Arduino-controlled charge pump for programming voltage, but control it with PMW similar to [LEAP#393 DicksonChargePump](../../../playground/DicksonChargePump)
-* assign GPIO pins judiciously so can still use Ardiuino Uno/ATmega328 as the programmer
+* use an Arduino-controlled charge pump for programming voltage, but control it with PMW similar to [LEAP#392 Dickson Charge Pump](https://leap.tardate.com/playground/dicksonchargepump/)
+* assign GPIO pins judiciously so can still use Arduino Uno/ATmega328 as the programmer
 * base the Arduino programming sketch on piotrb5e3's, but modified for charge pump control
 * hopefully maintain compatibility with at89overlord so it can be used as the host programming software, else adapt as required
 
@@ -96,7 +96,7 @@ Possible improvement: I could probably reduce this to requiring 2 pins in total 
 
 Using a Python3 virtual environment. Requirements are in `requirements.txt`
 
-```
+```sh
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
@@ -111,9 +111,9 @@ with the packaging of 0.3.0 that may cause problems; 0.4.0 works fine though)
 
 On my system, I have the Arduino plugged in and appearing on `/dev/tty.usbmodem14511`.
 
-Using the hex file generated with the [Blinky code here](../Blinky), programming a chip is as simple as this:
+Using the hex file generated with the [LEAP#394 AT89C2051 Blinky code here](https://leap.tardate.com/8051/at89c2051/blinky/), programming a chip is as simple as this:
 
-```
+```sh
 $ at89overlord -p /dev/tty.usbmodem14511 -f ../Blinky/Blinky.hex
 # Initializing the programmer...
 # Initialized!
@@ -157,9 +157,9 @@ Now it's easy to program an AT89C2051..
 
 ## Credits and References
 
-* [LEAP#395 AT89C2051 Blinky](../Blinky)
-* [LEAP#393 DicksonChargePump](../../../playground/DicksonChargePump)
-* [LEAP#088 ElectronicClockKit](../../ElectronicClockKit)
+* [LEAP#394 AT89C2051 Blinky](https://leap.tardate.com/8051/at89c2051/blinky/)
+* [LEAP#392 Dickson Charge Pump](https://leap.tardate.com/playground/dicksonchargepump/)
+* [LEAP#088 ElectronicClockKit](https://leap.tardate.com/8051/electronicclockkit/)
 * [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
 * [Intel’s MCS-51 Microcontroller Family – It’s Here to Stay](https://www.microcontrollertips.com/intels-mcs-51-microcontroller-family-stay/) by Jon Wilder
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)

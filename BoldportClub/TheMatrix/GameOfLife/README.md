@@ -53,7 +53,7 @@ But as it is, it runs perfectly fast enough - I even needed a delay between each
 ## Credits and References
 
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) - wikipedia
-* [AS1130 datasheet and info](ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
+* [AS1130 datasheet and info](http://ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
-* [LEAP#299 TheMatrix](../TheMatrix)
+* [LEAP#298 TheMatrix](../TheMatrix)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap302-game-of-life-on-the-boldport-club-matrix.html)

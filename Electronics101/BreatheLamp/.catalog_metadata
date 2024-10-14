@@ -1,6 +1,6 @@
 {
     "id": "#089",
-    "name": "BreatheLamp",
+    "name": "Breathing Lamp Effect",
     "description": "build and test a common LED visual effect circuit",
     "categories": "OpAmp, LED",
     "relative_path": "Electronics101/BreatheLamp",

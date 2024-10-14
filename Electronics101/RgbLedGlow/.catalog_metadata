@@ -1,6 +1,6 @@
 {
     "id": "#336",
-    "name": "RgbLedGlow",
+    "name": "RGB LED Glow Effects",
     "description": "rainbow glow effects with an RGB LED and OpAmp oscillators",
     "categories": "LED, Oscillators",
     "relative_path": "Electronics101/RgbLedGlow",

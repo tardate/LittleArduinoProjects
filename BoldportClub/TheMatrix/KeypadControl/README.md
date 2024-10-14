@@ -10,7 +10,7 @@ Here's a quick video showing it in action..
 
 So... ways to get arbitrary messages onto the Boldport Matrix?
 
-I happen to have a [KeyboardMatrixModule](../../../playground/KeyboardMatrixModule) that is coincidentally 5 keys high by 4 wide ..
+I happen to have a [LEAP#302 KeyboardMatrixModule](https://leap.tardate.com/playground/keyboardmatrixmodule/) that is coincidentally 5 keys high by 4 wide ..
 a number that neatly fits into the 24x5 display port of the Matrix.
 
 So I've wired it up and enabled a couple of commands in the [KeypadControl.ino](./KeypadControl.ino) sketch:
@@ -26,7 +26,8 @@ Interesting ... but not very practical! Maybe good for a gadget that you can let
 I had a problem getting the scrolling to stop started, but a little help from the
 [BoldportClub Community on Slack](https://boldportclub.slack.com/) goes a long way!
 Problem sorted: it seems you must let the movie finish by switching it out of infinite loop first e.g.:
-```
+
+```c
 ledDriver.setMovieLoopCount(AS1130::MovieLoop1);
 ledDriver.setFrameDelayMs(0);
 ```
@@ -46,7 +47,7 @@ fixed some issues with LED brightness control. Now everything is looking so much
 
 ## Credits and References
 
-* [LEAP#299 TheMatrix](../TheMatrix)
-* [LEAP#303 KeyboardMatrixModule](../../../playground/KeyboardMatrixModule)
+* [LEAP#298 TheMatrix](../TheMatrix)
+* [LEAP#302 KeyboardMatrixModule](https://leap.tardate.com/playground/keyboardmatrixmodule/)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap307-boldport-matrix-keypad-control.html)
