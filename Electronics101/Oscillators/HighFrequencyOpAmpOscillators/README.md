@@ -8,7 +8,7 @@ Here's a quick demo of the circuit in action:
 
 ## Notes
 
-I've previously wired up a classic single-rail op-amp oscillator in the [LM324Oscillator](./LM324Oscillator) project,
+I've previously wired up a classic single-rail op-amp oscillator in the [LEAP#039 Astable Opamp Oscillators](https://leap.tardate.com/electronics101/oscillators/astableopamp/) project,
 but this was running at very low frequencies, and its behaviour matched the theory quite closely.
 
 The essence of an op-amp oscillator is to use an RC circuit to throw an op-amp comparator from one rail to the other.

@@ -22,7 +22,7 @@ Here's a sample trace, with Q1-4 plots stacked:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
-The trace is generated with [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues).
+The trace is generated with [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/).
 It reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure.
 In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 

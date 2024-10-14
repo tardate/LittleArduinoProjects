@@ -24,7 +24,7 @@ will be better served by a shorter time constant).
 
 Feedback from the output node to the inverting OpAmp input will force the OpAmp to eliminate the diode voltage drop in the output (as best it can).
 
-Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues)
+Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/)
 
 * upper trace is the output of the peak detector
 * lower trace is the signal input (a variable "triangle" wave in this test)

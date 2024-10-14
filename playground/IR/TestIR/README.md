@@ -6,7 +6,7 @@ Tests raw IR reception.
 
 An exploration of IR Sensor reception based on the [adafruit sample code available here](https://learn.adafruit.com/ir-sensor/using-an-ir-sensor).
 
-I've cleaned up the code a bit and modified it to optionally pump data out for plotting with [LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues). This provides a simple graphical illustration of the PWM characteristics of IR protocols.
+I've cleaned up the code a bit and modified it to optionally pump data out for plotting with [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/). This provides a simple graphical illustration of the PWM characteristics of IR protocols.
 
 Here's a sample trace of the "0" key being pressed on a common MP3 player remote control:
 

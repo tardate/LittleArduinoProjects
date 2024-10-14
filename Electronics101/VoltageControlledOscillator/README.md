@@ -74,9 +74,9 @@ The other main difference (which I'm sure limits the frequency I could achieve) 
 * w2aew used Manhattan-style construction on a solid copper PCB ground plane
 
 I have just used:
+
 * breadboard for initial tests
 * protoboard for final tests, but it lacks a decent groub plane and was not enclosed or shielded.
-
 
 ## Rebuilt for 14MHz
 
@@ -98,7 +98,6 @@ So I now have a 14MHz VCO with a few more component changes (with respect to the
 | L1 Inductor     | 10µH RF choke | 2µH RF choke  |
 | C3 Capacitor    | 33pF          | 5pF           |
 | C2 Capacitor    | 33pF          | 4pF           |
-
 
 Here it is on a PCB. Note that I used some female pin headers so I could easily experiment with
 alternative L1, C2, C3 component selections.
@@ -150,4 +149,3 @@ The pin header provides convenient access to (from left to right):
 * [J310 datasheet](https://www.futurlec.com/Transistors/J310.shtml)
 * [MV104 datasheet](http://www.onsemi.com/pub_link/Collateral/MV104-D.PDF)
 * [MV209 datasheet](http://www.onsemi.com/pub_link/Collateral/MMBV109LT1-D.PDF)
-* [..as mentioned on my blog](xx)

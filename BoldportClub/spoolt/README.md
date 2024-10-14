@@ -33,7 +33,6 @@ I discovered an arrangement for adding a scattering of SMD 0805 LEDs and an NPN 
 * turns on when you pull solder from the dispenser (the solder makes contact with the touch-enabled part of the PCB and you provide the potential)
 * turns on if you touch the front panel
 
-
 I secreted the NPN transistors behind the front panel, using traces on the top and bottom of the panel for all the circuit connections.
 A clear varnish (actually glue) to the non-touch parts of the PCB on the front panel prevents any shorts.
 
@@ -58,5 +57,5 @@ There are 10 LEDs in parallel, although there's actually space for more.
 * [spoolt](https://www.boldport.com/products/spoolt/) - Boldport Product Page
 * [spoolt](http://community.boldport.club/projects/p15-spoolt/) - on the community site
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
-* [LEAP#130 DarlingtonTouchSwitch](../../Electronics101/DarlingtonTouchSwitch) - more on Darlington touch switches
+* [LEAP#130 DarlingtonTouchSwitch](https://leap.tardate.com/electronics101/darlingtontouchswitch/) - more on Darlington touch switches
 * [..as mentioned on my blog](https://blog.tardate.com/2017/07/leap325-pimp-my-boldportclub-spoolt.html)
