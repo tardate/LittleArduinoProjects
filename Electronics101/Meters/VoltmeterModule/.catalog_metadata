@@ -1,0 +1,8 @@
+{
+    "id": "#181",
+    "name": "DC Voltmeter Modules",
+    "description": "Testing a selection of 3-wire DC voltmeter modules",
+    "categories": "Sensors, Power",
+    "relative_path": "Electronics101/Meters/VoltmeterModule",
+    "updated_at": "2016-06-19T14:13:24Z"
+}

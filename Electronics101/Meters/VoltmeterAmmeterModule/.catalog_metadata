@@ -1,0 +1,8 @@
+{
+    "id": "#289",
+    "name": "DC Voltmeter/Ammeter Modules",
+    "description": "test and calibrate a DC Voltmeter/Ammeter panel module",
+    "categories": "Sensors, Power",
+    "relative_path": "Electronics101/Meters/VoltmeterAmmeterModule",
+    "updated_at": "2019-09-02T00:30:13Z"
+}
