@@ -3300,12 +3300,13 @@
             "NXP"
         ]
     },
-    "/electronics101/voltmeterammetermodule/": {
+    "/electronics101/meters/voltmeterammetermodule/": {
         "id": 289,
-        "title": "Voltmeter/Ammeter Module",
+        "title": "DC Voltmeter/Ammeter Modules",
         "summary": "test and calibrate a DC Voltmeter/Ammeter panel module",
         "tags": [
-            "Sensors"
+            "Sensors",
+            "Power"
         ]
     },
     "/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/": {
@@ -4331,12 +4332,13 @@
             "Power"
         ]
     },
-    "/electronics101/voltmetermodule/": {
+    "/electronics101/meters/voltmetermodule/": {
         "id": 181,
-        "title": "VoltmeterModule",
-        "summary": "test a 3-wire voltmeter module",
+        "title": "DC Voltmeter Modules",
+        "summary": "Testing a selection of 3-wire DC voltmeter modules",
         "tags": [
-            "Sensors"
+            "Sensors",
+            "Power"
         ]
     },
     "/electronics101/oscillators/colpitts/": {

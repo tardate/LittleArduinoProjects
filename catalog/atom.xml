@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-10-15T05:03:46Z</updated>
+  <updated>2024-10-15T06:03:45Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -4021,14 +4021,15 @@
     <category term="NXP"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/voltmeterammetermodule/</id>
-    <link href="https://leap.tardate.com/electronics101/voltmeterammetermodule/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/voltmeterammetermodule/assets/voltmeterammetermodule_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/meters/voltmeterammetermodule/</id>
+    <link href="https://leap.tardate.com/electronics101/meters/voltmeterammetermodule/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/meters/voltmeterammetermodule/assets/voltmeterammetermodule_build.jpg</g:image_link>
     <updated>2019-09-02T00:30:13Z</updated>
-    <title>#289 Voltmeter/Ammeter Module</title>
+    <title>#289 DC Voltmeter/Ammeter Modules</title>
     <summary>test and calibrate a DC Voltmeter/Ammeter panel module</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test and calibrate a DC Voltmeter/Ammeter panel module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltmeterammetermodule/assets/voltmeterammetermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;test and calibrate a DC Voltmeter/Ammeter panel module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/meters/voltmeterammetermodule/assets/voltmeterammetermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
+    <category term="Power"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/</id>
@@ -5268,14 +5269,15 @@
     <category term="Power"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/voltmetermodule/</id>
-    <link href="https://leap.tardate.com/electronics101/voltmetermodule/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/voltmetermodule/assets/voltmetermodule_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/meters/voltmetermodule/</id>
+    <link href="https://leap.tardate.com/electronics101/meters/voltmetermodule/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/meters/voltmetermodule/assets/voltmetermodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#181 VoltmeterModule</title>
-    <summary>test a 3-wire voltmeter module</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test a 3-wire voltmeter module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltmetermodule/assets/voltmetermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <title>#181 DC Voltmeter Modules</title>
+    <summary>Testing a selection of 3-wire DC voltmeter modules</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a selection of 3-wire DC voltmeter modules&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/meters/voltmetermodule/assets/voltmetermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
+    <category term="Power"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/colpitts/</id>

@@ -3178,12 +3178,12 @@
     },
     {
         "id": "#289",
-        "name": "Voltmeter/Ammeter Module",
+        "name": "DC Voltmeter/Ammeter Modules",
         "description": "test and calibrate a DC Voltmeter/Ammeter panel module",
-        "categories": "Sensors",
-        "relative_path": "electronics101/voltmeterammetermodule",
+        "categories": "Sensors, Power",
+        "relative_path": "electronics101/meters/voltmeterammetermodule",
         "updated_at": "2019-09-02T00:30:13Z",
-        "original_relative_path": "Electronics101/VoltmeterAmmeterModule"
+        "original_relative_path": "Electronics101/Meters/VoltmeterAmmeterModule"
     },
     {
         "id": "#288",
@@ -4150,12 +4150,12 @@
     },
     {
         "id": "#181",
-        "name": "VoltmeterModule",
-        "description": "test a 3-wire voltmeter module",
-        "categories": "Sensors",
-        "relative_path": "electronics101/voltmetermodule",
+        "name": "DC Voltmeter Modules",
+        "description": "Testing a selection of 3-wire DC voltmeter modules",
+        "categories": "Sensors, Power",
+        "relative_path": "electronics101/meters/voltmetermodule",
         "updated_at": "2016-06-19T14:13:24Z",
-        "original_relative_path": "Electronics101/VoltmeterModule"
+        "original_relative_path": "Electronics101/Meters/VoltmeterModule"
     },
     {
         "id": "#180",

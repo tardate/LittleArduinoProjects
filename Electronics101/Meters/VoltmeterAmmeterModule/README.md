@@ -1,4 +1,4 @@
-# #289 Voltmeter/Ammeter Module
+# #289 DC Voltmeter/Ammeter Modules
 
 Test and calibrate a DC Voltmeter/Ammeter panel module.
 
@@ -49,7 +49,6 @@ It's important to note two things:
 There is no actual standard, so this is not a problem per se, and the supplied connector lead is correctly colour coded.
 But if other power connectors are used, it is important to double-check polarity
 
-
 ### External Circuit Wiring
 
 Connecting the module in-circuit simply requires:
@@ -58,7 +57,6 @@ Connecting the module in-circuit simply requires:
 * series connection on the low-side of the load to ground (blue, black wires)
 
 ![VoltmeterAmmeterModule_connections](./assets/VoltmeterAmmeterModule_connections.png?raw=true)
-
 
 ## Test Load
 
@@ -75,7 +73,6 @@ To run some tests, and in the absence of anything better, I mocked up a dummy lo
 It works nice enough, but is not quite as accurate as the claimed 1% (± 1 digit) resolution (i.e. the last digit can be off by one).
 The unit is obviously not suitable if you need accurate mV and mA readings.
 
-
 | Load      | Nom Voltage | Nom Current                                                    | Nom Power | Measured Voltage | Measured Current |
 |-----------|-------------|----------------------------------------------------------------|-----------|------------------|------------------|
 |   50Ω (1) |         12V | [240mA](https://www.wolframalpha.com/input/?i=12V%2F50%CE%A9)   |     2.88W |              n/a |            n/a   |
@@ -85,6 +82,7 @@ The unit is obviously not suitable if you need accurate mV and mA readings.
 |   10Ω (5) |         12V | [1.2A](https://www.wolframalpha.com/input/?i=12V%2F10%CE%A9)    |    14.40W |            12.5V |          1.17A   |
 
 Note:
+
 * I didn't take measurements for the 1 and 2 resistor gangs
 * nominal power per resistor is 2.88W, that's why I'm using 5W resistors here.
 * according to my multimeter, the power supply delivering about 12.3V over 50Ω down to 12.05V over 10Ω. Still, readings not quite within 1% resolution.
@@ -100,7 +98,6 @@ fine adjustment for voltage and current measurements. And indeed they are:
 With a bit of adjustment, I'm now getting results within the 1% (± 1 digit) range. Here it is with a 10Ω load over 12.13V:
 
 ![test_5x_calibrated](./assets/test_5x_calibrated.jpg?raw=true)
-
 
 ### Construction
 
