@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-10-10T06:47:42Z</updated>
+  <updated>2024-10-15T05:03:46Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/usb/usb3poweradapter/</id>
+    <link href="https://leap.tardate.com/electronics101/usb/usb3poweradapter/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/usb/usb3poweradapter/assets/usb3poweradapter_build.jpg</g:image_link>
+    <updated>2024-10-15T04:59:00Z</updated>
+    <title>#642 USB 3 Power Adapter Board</title>
+    <summary>Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/usb/usb3poweradapter/assets/usb3poweradapter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="USB"/>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/windbellkit/</id>
     <link href="https://leap.tardate.com/electronics101/windbellkit/"/>
@@ -3480,7 +3491,7 @@
     <link href="https://leap.tardate.com/electronics101/rgbledglow/"/>
     <g:image_link>https://leap.tardate.com/electronics101/rgbledglow/assets/rgbledglow_build.jpg</g:image_link>
     <updated>2017-08-19T17:23:25Z</updated>
-    <title>#336 RgbLedGlow</title>
+    <title>#336 RGB LED Glow Effects</title>
     <summary>rainbow glow effects with an RGB LED and OpAmp oscillators</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;rainbow glow effects with an RGB LED and OpAmp oscillators&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/rgbledglow/assets/rgbledglow_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -6272,7 +6283,7 @@
     <link href="https://leap.tardate.com/electronics101/breathelamp/"/>
     <g:image_link>https://leap.tardate.com/electronics101/breathelamp/assets/breathelamp_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#089 BreatheLamp</title>
+    <title>#089 Breathing Lamp Effect</title>
     <summary>build and test a common LED visual effect circuit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a common LED visual effect circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/breathelamp/assets/breathelamp_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>

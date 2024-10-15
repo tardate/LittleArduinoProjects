@@ -1,6 +1,6 @@
-# 641 Little Electronic Art Projects
+# 642 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Wobbly Wind Bell Kit](./electronics101/windbellkit) - Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.
+> Latest addition:sparkles: [USB 3 Power Adapter Board](./Electronics101/USB/Usb3PowerAdapter) - Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

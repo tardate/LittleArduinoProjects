@@ -86,6 +86,7 @@ class Catalog(object):
             if 'updated_at' not in data:
                 data['updated_at'] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:00Z")
                 write_pretty_json(data, filename)
+            data['original_relative_path'] = data['relative_path']
             data['relative_path'] = data['relative_path'].lower()
             return data
 
@@ -200,7 +201,7 @@ class Catalog(object):
         if len(lines) > 2:
             # Add the latest project details at the top of the README
             lines[2] = "> Latest addition:sparkles: [{}](./{}) - {}\n".format(
-                latest_project['name'], latest_project['relative_path'], latest_project['description']
+                latest_project['name'], latest_project['original_relative_path'], latest_project['description']
             )
 
         with open(readme_path, 'w') as f:

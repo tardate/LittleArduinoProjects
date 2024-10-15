@@ -1,4 +1,13 @@
 {
+    "/electronics101/usb/usb3poweradapter/": {
+        "id": 642,
+        "title": "USB 3 Power Adapter Board",
+        "summary": "Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A",
+        "tags": [
+            "USB",
+            "Power"
+        ]
+    },
     "/electronics101/windbellkit/": {
         "id": 641,
         "title": "Wobbly Wind Bell Kit",
@@ -2853,7 +2862,7 @@
     },
     "/electronics101/rgbledglow/": {
         "id": 336,
-        "title": "RgbLedGlow",
+        "title": "RGB LED Glow Effects",
         "summary": "rainbow glow effects with an RGB LED and OpAmp oscillators",
         "tags": [
             "LED",
@@ -5151,7 +5160,7 @@
     },
     "/electronics101/breathelamp/": {
         "id": 89,
-        "title": "BreatheLamp",
+        "title": "Breathing Lamp Effect",
         "summary": "build and test a common LED visual effect circuit",
         "tags": [
             "OpAmp",
