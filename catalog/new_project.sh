@@ -42,9 +42,6 @@ function make_project() {
 
   mkdir -p ${full_path}
   mkdir ${full_path}/assets
-  mkdir ${full_path}/assets/wip
-  mkdir ${full_path}/assets/wip/demo
-  mkdir ${full_path}/assets/wip/hires
 
   local readme_file="${full_path}/README.md"
   echo "making ${readme_file}"
@@ -142,9 +139,19 @@ EOS
 
   cp catalog/templates/template.fzz "${full_path}/${project_name}.fzz"
   cp catalog/templates/cover1440x400.jpg ${full_path}/assets
-  cp catalog/templates/1080p_bg.* ${full_path}/assets/wip/demo
+
+  local backup_root=${LITTLEARDUINOPROJECTS_ASSET_BACKUP}
+  if [ "${backup_root}" != "" ]; then
+    local backup_path="${backup_root}/${full_path}"
+    echo "Making asset backup path: ${backup_path}"
+    mkdir -p ${backup_path}
+    mkdir ${backup_path}/demo
+    mkdir ${backup_path}/hires
+    mkdir ${backup_path}/trash
+    cp catalog/templates/1080p_bg.* ${backup_path}/demo
+  fi
+
   echo "project initialised: ${full_path}"
-  open "${full_path}"
 }
 
 

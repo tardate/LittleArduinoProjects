@@ -175,15 +175,26 @@ class Catalog(object):
 
         write_pretty_xml(root, self.catalog_sitemap)
 
+    def ensure_asset_backup_paths_exist(self):
+        backup_root = os.getenv("LITTLEARDUINOPROJECTS_ASSET_BACKUP")
+        if not backup_root:
+            print("LITTLEARDUINOPROJECTS_ASSET_BACKUP environment variable is not set. Skipping asset backup path creation.")
+            return
+
+        for entry in self.metadata():
+            backup_path = os.path.join(backup_root, entry['original_relative_path'])
+            if not os.path.exists(backup_path):
+                print(f"Creating backup path: {backup_path}")
+                os.makedirs(backup_path)
+
     def rebuild(self):
         """ Command: rebuild catalog assets from metadata. """
         self.generate_catalog()
         self.generate_project_data()
         self.generate_atom_feed()
         self.generate_sitemap()
-        # TODO: add a function here that will update the README in the root of the project with the latest project details:
-        # - total number of projects is updated in the first line of the README
         self.update_readme()
+        self.ensure_asset_backup_paths_exist()
 
     def update_readme(self):
         readme_path = os.path.join(self.collection_root, 'README.md')
