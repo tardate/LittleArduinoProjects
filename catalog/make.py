@@ -32,8 +32,9 @@ def write_pretty_xml(doc, file):
         f.write(pretty_xml)
 
 
-def write_pretty_json(doc, file):
-    print("Writing {}..".format(file))
+def write_pretty_json(doc, file, verbose=True):
+    if verbose:
+        print("Writing {}..".format(file))
     with open(file, 'w') as f:
         json.dump(doc, f, indent=4)
 
@@ -119,6 +120,13 @@ class Catalog(object):
 
     def get_project_file(self, relative_path, name='.catalog_metadata'):
         return os.path.join(self.collection_root, relative_path, name)
+
+    def verify_catalog_metadata(self):
+        """ Command: verifies that all metadata files have a relative path. """
+        for filename in self.metadata_files():
+            data = json.load(open(filename, 'r'))
+            data['relative_path'] = os.path.relpath(os.path.dirname(filename), self.collection_root)
+            write_pretty_json(data, filename, verbose=False)
 
     def generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
@@ -220,6 +228,7 @@ class Catalog(object):
 
     def rebuild(self):
         """ Command: rebuild catalog assets from metadata. """
+        self.verify_catalog_metadata()
         self.generate_catalog()
         self.generate_project_data()
         self.generate_atom_feed()
