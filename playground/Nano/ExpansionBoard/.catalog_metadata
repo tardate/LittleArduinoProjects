@@ -1,5 +1,5 @@
 {
-    "id": "#617",
+    "id": "#670",
     "name": "Nano Expansion Board",
     "description": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
     "categories": "Arduino",

@@ -1,4 +1,4 @@
-# #531 PIC16F84A Blinky
+# #532 PIC16F84A Blinky
 
 A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)
 

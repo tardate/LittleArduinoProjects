@@ -1,4 +1,4 @@
-# #345 NAND Gate SR Latch
+# #346 NAND Gate SR Latch
 
 Set-Reset latch implemented with NAND gates.
 

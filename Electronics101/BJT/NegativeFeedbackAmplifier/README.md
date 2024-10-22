@@ -1,4 +1,4 @@
-# #494 Negative Feedback Amplifier
+# #495 Negative Feedback Amplifier
 
 Examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs.
 

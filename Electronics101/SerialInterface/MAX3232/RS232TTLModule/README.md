@@ -1,4 +1,4 @@
-# #508 MAX3232 RS232 to TTL Module
+# #509 MAX3232 RS232 to TTL Module
 
 Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX.
 

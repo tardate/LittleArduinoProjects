@@ -1,4 +1,4 @@
-# #501 LiitoKala Lii-202 Smart Charger
+# #502 LiitoKala Lii-202 Smart Charger
 
 Quick teardown and review of the Lii-202 18650 charger and power bank.
 

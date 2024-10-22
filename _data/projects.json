@@ -1,6 +1,6 @@
 {
     "/electronics101/usb/usb3poweradapter/": {
-        "id": 642,
+        "id": 758,
         "title": "USB 3 Power Adapter Board",
         "summary": "Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A",
         "tags": [
@@ -9,7 +9,7 @@
         ]
     },
     "/electronics101/windbellkit/": {
-        "id": 641,
+        "id": 757,
         "title": "Wobbly Wind Bell Kit",
         "summary": "Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.",
         "tags": [
@@ -19,7 +19,7 @@
         ]
     },
     "/electronics101/power/pp3power/": {
-        "id": 640,
+        "id": 755,
         "title": "9V (PP3) to 5V or 3.3V Power Adapter",
         "summary": "Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.",
         "tags": [
@@ -27,7 +27,7 @@
         ]
     },
     "/electronics101/digitallogic/digitalclockkit/": {
-        "id": 639,
+        "id": 740,
         "title": "Digital Clock Kit",
         "summary": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",
         "tags": [
@@ -36,7 +36,7 @@
         ]
     },
     "/playground/ntp/ntpclientdemo/": {
-        "id": 638,
+        "id": 737,
         "title": "NTP Client Demo",
         "summary": "Simple demonstration of NTP client requests using an Arduino Ethernet Shield",
         "tags": [
@@ -45,7 +45,7 @@
         ]
     },
     "/playground/applesilicon/ch340/": {
-        "id": 637,
+        "id": 736,
         "title": "CH340 on Apple Silicon",
         "summary": "Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon",
         "tags": [
@@ -57,7 +57,7 @@
         ]
     },
     "/playground/applesilicon/": {
-        "id": 636,
+        "id": 735,
         "title": "Arduino on Apple Silicon",
         "summary": "Using the Arduino IDE with Apple Silicon (ARM) machines",
         "tags": [
@@ -68,7 +68,7 @@
         ]
     },
     "/equipment/optivisor/": {
-        "id": 635,
+        "id": 734,
         "title": "Optivisor",
         "summary": "Trying a new Optivisor for close-up work",
         "tags": [
@@ -76,7 +76,7 @@
         ]
     },
     "/equipment/digitaloventhermometer/": {
-        "id": 634,
+        "id": 733,
         "title": "TS-BN55 Digital Oven Thermometer",
         "summary": "Examining and fixing the TS-BN55 Digital Oven Thermometer",
         "tags": [
@@ -84,7 +84,7 @@
         ]
     },
     "/electronics101/led/flickerkit/": {
-        "id": 633,
+        "id": 732,
         "title": "LED Flicker Kit",
         "summary": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",
         "tags": [
@@ -94,7 +94,7 @@
         ]
     },
     "/electronics101/led/dimmer/vco/": {
-        "id": 632,
+        "id": 719,
         "title": "Voltage Controlled LED Dimmer",
         "summary": "Demonstrating a voltage-controlled LED current source with a triangle wave generator.",
         "tags": [
@@ -103,7 +103,7 @@
         ]
     },
     "/audio/laserharpkit/": {
-        "id": 631,
+        "id": 700,
         "title": "Laser Harp Kit",
         "summary": "Build and test an 8051-based laser harp kit",
         "tags": [
@@ -114,7 +114,7 @@
         ]
     },
     "/playground/attiny/flickeringfireeffect/": {
-        "id": 630,
+        "id": 696,
         "title": "Flickering Fire Effect",
         "summary": "A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85",
         "tags": [
@@ -124,7 +124,7 @@
         ]
     },
     "/playground/attiny/pwmmotorcontrol/": {
-        "id": 629,
+        "id": 695,
         "title": "ATtiny PMW Motor Control",
         "summary": "Variable speed PWM motor control with an ATtiny85",
         "tags": [
@@ -134,7 +134,7 @@
         ]
     },
     "/electronics101/555timer/latch/": {
-        "id": 628,
+        "id": 692,
         "title": "Push-button Latch",
         "summary": "Testing a simple push-button latched switch circuit for on/off control using the 555 timer",
         "tags": [
@@ -142,7 +142,7 @@
         ]
     },
     "/equipment/ch2pc4/": {
-        "id": 627,
+        "id": 691,
         "title": "CH2PC4 NiMH Charger",
         "summary": "A few quick notes on the Energizer NiMH charger CH2PC4",
         "tags": [
@@ -150,7 +150,7 @@
         ]
     },
     "/electronics101/oscillators/programmablefrequencyreference/": {
-        "id": 626,
+        "id": 689,
         "title": "Programmable Frequency Reference",
         "summary": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
         "tags": [
@@ -159,7 +159,7 @@
         ]
     },
     "/electronics101/oscillators/crystallocked4mhzcd4001/": {
-        "id": 625,
+        "id": 688,
         "title": "Crystal-locked 4MHz Oscillator",
         "summary": "Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
         "tags": [
@@ -168,7 +168,7 @@
         ]
     },
     "/electronics101/oscillators/crystallocked455khzcd4001/": {
-        "id": 624,
+        "id": 687,
         "title": "Crystal-locked 455kHz Oscillator",
         "summary": "Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
         "tags": [
@@ -177,7 +177,7 @@
         ]
     },
     "/audio/audioamps/electretsounddetectionmodule/": {
-        "id": 623,
+        "id": 682,
         "title": "Electret Sound Detection Module",
         "summary": "Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).",
         "tags": [
@@ -186,7 +186,7 @@
         ]
     },
     "/audio/audioamps/electretpreamp/": {
-        "id": 622,
+        "id": 681,
         "title": "Electret Audio Pre-amplifier",
         "summary": "Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.",
         "tags": [
@@ -196,7 +196,7 @@
         ]
     },
     "/equipment/minirotarytool/": {
-        "id": 621,
+        "id": 680,
         "title": "Mini Rotary Tool",
         "summary": "unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving",
         "tags": [
@@ -204,7 +204,7 @@
         ]
     },
     "/electronics101/oscillators/ldrledring/": {
-        "id": 620,
+        "id": 676,
         "title": "LED-LDR Ring Oscillator",
         "summary": "Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.",
         "tags": [
@@ -214,7 +214,7 @@
         ]
     },
     "/electronics101/ldr/dataslicer/": {
-        "id": 619,
+        "id": 675,
         "title": "LDR Data Slicer Trigger",
         "summary": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
         "tags": [
@@ -223,7 +223,7 @@
         ]
     },
     "/electronics101/ldr/differentialcomparator/": {
-        "id": 618,
+        "id": 674,
         "title": "LDR Differential Comparator",
         "summary": "Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)",
         "tags": [
@@ -232,7 +232,7 @@
         ]
     },
     "/playground/nano/expansionboard/": {
-        "id": 617,
+        "id": 670,
         "title": "Nano Expansion Board",
         "summary": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
         "tags": [
@@ -240,7 +240,7 @@
         ]
     },
     "/radio/codepracticeoscillator/": {
-        "id": 616,
+        "id": 668,
         "title": "Code Practice Oscillator",
         "summary": "Build and test a simple 2-transistor code practice oscillator",
         "tags": [
@@ -250,7 +250,7 @@
         ]
     },
     "/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/": {
-        "id": 615,
+        "id": 667,
         "title": "MC34063 Buck Converter",
         "summary": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
         "tags": [
@@ -258,7 +258,7 @@
         ]
     },
     "/equipment/lightcontrolswitchkit/": {
-        "id": 614,
+        "id": 664,
         "title": "Light Control Switch Kit",
         "summary": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
         "tags": [
@@ -267,7 +267,7 @@
         ]
     },
     "/electronics101/displays/lcd3digit/": {
-        "id": 613,
+        "id": 663,
         "title": "3-Digit LCD Panel",
         "summary": "Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.",
         "tags": [
@@ -276,7 +276,7 @@
         ]
     },
     "/electronics101/oscillators/schmittcrystallockedoscillator/": {
-        "id": 612,
+        "id": 656,
         "title": "Crystal-Locked Schmitt Oscillator",
         "summary": "Testing a basic crystal-locked Schmitt oscillator using a 74HC14",
         "tags": [
@@ -285,7 +285,7 @@
         ]
     },
     "/audio/visualization/usbledvolumeindicatorkit/": {
-        "id": 611,
+        "id": 653,
         "title": "USB Audio Level Indicator Kit",
         "summary": "An electret-input audio level kit based on cascading LM358 stages with LED indicators",
         "tags": [
@@ -295,7 +295,7 @@
         ]
     },
     "/equipment/humidifiermodule/": {
-        "id": 610,
+        "id": 647,
         "title": "USB Humidifier Module",
         "summary": "Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist",
         "tags": [
@@ -304,7 +304,7 @@
         ]
     },
     "/electronics101/power/wirelessledmodule/": {
-        "id": 609,
+        "id": 643,
         "title": "XKT-511 Wireless LED Module",
         "summary": "Investigating a wireless LED power module based on the XKT-511 chip",
         "tags": [
@@ -314,7 +314,7 @@
         ]
     },
     "/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/": {
-        "id": 608,
+        "id": 642,
         "title": "MT3608 Safe Control",
         "summary": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
         "tags": [
@@ -323,7 +323,7 @@
         ]
     },
     "/electronics101/cd4069/logicprobe/": {
-        "id": 607,
+        "id": 637,
         "title": "CD4069 Logic Probe",
         "summary": "A simple logic probe using inverter gates",
         "tags": [
@@ -332,7 +332,7 @@
         ]
     },
     "/electronics101/cd4001/logicprobe/": {
-        "id": 606,
+        "id": 636,
         "title": "CD4001 Logic Probe",
         "summary": "A simple logic probe using NOR gates",
         "tags": [
@@ -341,7 +341,7 @@
         ]
     },
     "/electronics101/cd4001/srlatch/": {
-        "id": 605,
+        "id": 635,
         "title": "CD4001 SR Latch",
         "summary": "Set-Reset latch implemented with CD4001 NOR gates",
         "tags": [
@@ -350,7 +350,7 @@
         ]
     },
     "/electronics101/serialinterface/usbtorj45/": {
-        "id": 604,
+        "id": 633,
         "title": "USB to RJ45 Adapter",
         "summary": "building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets",
         "tags": [
@@ -361,7 +361,7 @@
         ]
     },
     "/equipment/foamcutter/": {
-        "id": 603,
+        "id": 632,
         "title": "Foam Cutters",
         "summary": "Examining various foam cutter designs and building a couple for small-scale foam sculpting",
         "tags": [
@@ -370,7 +370,7 @@
         ]
     },
     "/electronics101/555timer/longrunning/": {
-        "id": 602,
+        "id": 631,
         "title": "Long Running Timer",
         "summary": "Building a very low frequency 555 timer circuit, and pushing the envelope with a 1G\u03a9 zero-electrolytic design using the low-leakage TLC556C",
         "tags": [
@@ -379,7 +379,7 @@
         ]
     },
     "/equipment/waterlevelcontrolkit/": {
-        "id": 601,
+        "id": 629,
         "title": "Water-Level Control Kit",
         "summary": "Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.",
         "tags": [
@@ -388,7 +388,7 @@
         ]
     },
     "/electronics101/led/remotecontrolcandles/": {
-        "id": 600,
+        "id": 625,
         "title": "Remote Control Candles",
         "summary": "Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.",
         "tags": [
@@ -398,7 +398,7 @@
         ]
     },
     "/playground/ir/dumper/": {
-        "id": 599,
+        "id": 624,
         "title": "IR Dumper",
         "summary": "Reverse-engineering infrared protocols using the Arduino-IRremote library.",
         "tags": [
@@ -407,7 +407,7 @@
         ]
     },
     "/kraft/kubelmagic/": {
-        "id": 598,
+        "id": 621,
         "title": "KubelMagic",
         "summary": "A walnut, Brengun 1:144 K\u00fcbelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.",
         "tags": [
@@ -418,7 +418,7 @@
         ]
     },
     "/electronics101/smdpracticeboards/star/": {
-        "id": 597,
+        "id": 620,
         "title": "Glowing Star SMD Practice Board",
         "summary": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
         "tags": [
@@ -427,7 +427,7 @@
         ]
     },
     "/audio/speechsynthesis/syn6288module/": {
-        "id": 596,
+        "id": 619,
         "title": "SYN6288 Module",
         "summary": "Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.",
         "tags": [
@@ -437,7 +437,7 @@
         ]
     },
     "/electronics101/weevileyekit/": {
-        "id": 595,
+        "id": 617,
         "title": "Weevil Eye Kit",
         "summary": "Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.",
         "tags": [
@@ -446,7 +446,7 @@
         ]
     },
     "/electronics101/led/candleemulator/": {
-        "id": 594,
+        "id": 616,
         "title": "Candle Emulator",
         "summary": "An Arduino LED candle emulation",
         "tags": [
@@ -455,7 +455,7 @@
         ]
     },
     "/equipment/hilologictesterkit/": {
-        "id": 593,
+        "id": 612,
         "title": "Hi-Lo Logic Tester Kit",
         "summary": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
         "tags": [
@@ -464,7 +464,7 @@
         ]
     },
     "/electronics101/power/dicksonchargepump/halfwave/": {
-        "id": 592,
+        "id": 611,
         "title": "Half-Wave Dickson Charge Pump",
         "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.",
         "tags": [
@@ -473,7 +473,7 @@
         ]
     },
     "/electronics101/555timer/laserray/": {
-        "id": 591,
+        "id": 610,
         "title": "LaserRay",
         "summary": "Testing a laser ray light and sound effectbased on the 555 timer",
         "tags": [
@@ -483,7 +483,7 @@
         ]
     },
     "/playground/ledcurrentcontrol/": {
-        "id": 590,
+        "id": 608,
         "title": "LED Current Control",
         "summary": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",
         "tags": [
@@ -492,7 +492,7 @@
         ]
     },
     "/playground/attiny/analogcomparator/": {
-        "id": 589,
+        "id": 605,
         "title": "ATtiny Analog Comparator",
         "summary": "Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator",
         "tags": [
@@ -503,7 +503,7 @@
         ]
     },
     "/kinetics/servomotors/minilinearservos/": {
-        "id": 588,
+        "id": 604,
         "title": "Mini Linear Servos",
         "summary": "Testing some mini/micro linear servo motors with an ATtiny85",
         "tags": [
@@ -513,7 +513,7 @@
         ]
     },
     "/kinetics/servomotors/attinyservo/": {
-        "id": 587,
+        "id": 603,
         "title": "ATTiny Servo Drive",
         "summary": "Testing various methods and libraries for driving servo motors with an ATtiny85",
         "tags": [
@@ -523,7 +523,7 @@
         ]
     },
     "/kinetics/servomotors/lowpowerminiservos/": {
-        "id": 586,
+        "id": 601,
         "title": "Low Power Mini Servos",
         "summary": "Testing a few low power mini servo motors with an Arduino and MOSFET level shifter",
         "tags": [
@@ -532,7 +532,7 @@
         ]
     },
     "/electronics101/temperaturesensors/lm335/": {
-        "id": 585,
+        "id": 598,
         "title": "LM335 Temperature Sensor",
         "summary": "Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD",
         "tags": [
@@ -543,7 +543,7 @@
         ]
     },
     "/electronics101/power/wirelessled/": {
-        "id": 584,
+        "id": 597,
         "title": "Simple Wireless Power LED",
         "summary": "Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration",
         "tags": [
@@ -553,7 +553,7 @@
         ]
     },
     "/electronics101/piezobuzzers/opampdriver/": {
-        "id": 583,
+        "id": 596,
         "title": "OpAmp Piezo Driver",
         "summary": "Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator",
         "tags": [
@@ -563,7 +563,7 @@
         ]
     },
     "/electronics101/temperaturesensors/lm35/": {
-        "id": 582,
+        "id": 595,
         "title": "LM35 Temperature Sensor",
         "summary": "Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD",
         "tags": [
@@ -574,7 +574,7 @@
         ]
     },
     "/kraft/snowflake/lamp/": {
-        "id": 581,
+        "id": 592,
         "title": "Snowflake Lamp",
         "summary": "Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand",
         "tags": [
@@ -584,7 +584,7 @@
         ]
     },
     "/kraft/tydiriumstrobe/module/": {
-        "id": 580,
+        "id": 591,
         "title": "Tydirium Strobe Module",
         "summary": "Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.",
         "tags": [
@@ -594,7 +594,7 @@
         ]
     },
     "/kraft/tydiriumstrobe/": {
-        "id": 579,
+        "id": 589,
         "title": "Tydirium Strobe",
         "summary": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
         "tags": [
@@ -606,7 +606,7 @@
         ]
     },
     "/playground/rgbohmmeter/": {
-        "id": 578,
+        "id": 587,
         "title": "RGB Auto-ranging Ohmmeter",
         "summary": "An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance",
         "tags": [
@@ -616,7 +616,7 @@
         ]
     },
     "/esp8266/rgbledfiddler/": {
-        "id": 577,
+        "id": 586,
         "title": "RGB LED Fiddler",
         "summary": "Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.",
         "tags": [
@@ -625,7 +625,7 @@
         ]
     },
     "/electronics101/ds1822/": {
-        "id": 576,
+        "id": 585,
         "title": "DS1822 1-Wire Reading",
         "summary": "Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD",
         "tags": [
@@ -635,7 +635,7 @@
         ]
     },
     "/electronics101/led/hpdl1414/": {
-        "id": 575,
+        "id": 584,
         "title": "HPDL1414",
         "summary": "Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino",
         "tags": [
@@ -643,7 +643,7 @@
         ]
     },
     "/electronics101/led/ysj181222/": {
-        "id": 574,
+        "id": 583,
         "title": "LED Sequencer Module",
         "summary": "Testing a simple 6xLED sequencer module (YuSiJie \u5b87\u601d\u6377 YSJ181222)",
         "tags": [
@@ -651,7 +651,7 @@
         ]
     },
     "/equipment/spraybooth/": {
-        "id": 573,
+        "id": 576,
         "title": "Spray Booth",
         "summary": "Building a $10 spray booth for light airbrush spray painting and soldering",
         "tags": [
@@ -659,7 +659,7 @@
         ]
     },
     "/audio/motorizedmusicbox/": {
-        "id": 572,
+        "id": 575,
         "title": "Motorized Music Box",
         "summary": "A quick test of motorizing a hand-cranked music box",
         "tags": [
@@ -668,7 +668,7 @@
         ]
     },
     "/audio/microsd/waveplayer/": {
-        "id": 571,
+        "id": 574,
         "title": "MicroSD WAV Player",
         "summary": "A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino",
         "tags": [
@@ -678,7 +678,7 @@
         ]
     },
     "/electronics101/555timer/pwmmotorcontrol/": {
-        "id": 570,
+        "id": 573,
         "title": "555 PWM Motor Control",
         "summary": "Testing small DC motor control with a 555 time PWM signal",
         "tags": [
@@ -687,7 +687,7 @@
         ]
     },
     "/equipment/powermeter/": {
-        "id": 569,
+        "id": 572,
         "title": "PowerMeter",
         "summary": "A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.",
         "tags": [
@@ -698,7 +698,7 @@
         ]
     },
     "/equipment/tracetogethertoken/": {
-        "id": 568,
+        "id": 571,
         "title": "TraceTogether Token",
         "summary": "Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code",
         "tags": [
@@ -707,7 +707,7 @@
         ]
     },
     "/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/": {
-        "id": 567,
+        "id": 570,
         "title": "MT3608 on a Breadboard",
         "summary": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit",
         "tags": [
@@ -716,7 +716,7 @@
         ]
     },
     "/playground/power/multivoltagegpio/": {
-        "id": 566,
+        "id": 569,
         "title": "Multi-voltage GPIO",
         "summary": "A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin",
         "tags": [
@@ -725,7 +725,7 @@
         ]
     },
     "/equipment/beeplogicprobe/": {
-        "id": 565,
+        "id": 568,
         "title": "Beep Logic Probe",
         "summary": "Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015",
         "tags": [
@@ -735,7 +735,7 @@
         ]
     },
     "/radio/randomcodepractice/": {
-        "id": 564,
+        "id": 567,
         "title": "Random Code Practice",
         "summary": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.",
         "tags": [
@@ -745,7 +745,7 @@
         ]
     },
     "/electronics101/digitallogic/4bitsynchonouscounter/": {
-        "id": 563,
+        "id": 566,
         "title": "4-bit Synchonous Counter",
         "summary": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear",
         "tags": [
@@ -756,7 +756,7 @@
         ]
     },
     "/electronics101/breadboardbling/singleshottrigger/": {
-        "id": 562,
+        "id": 565,
         "title": "Single-Shot Trigger",
         "summary": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard",
         "tags": [
@@ -766,7 +766,7 @@
         ]
     },
     "/electronics101/555timer/dualmodevariablefrequencyorduty/usblinky/": {
-        "id": 561,
+        "id": 564,
         "title": "USB Blinky Toy",
         "summary": "A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit",
         "tags": [
@@ -776,7 +776,7 @@
         ]
     },
     "/electronics101/555timer/dualmodevariablefrequencyorduty/": {
-        "id": 560,
+        "id": 563,
         "title": "Dual Variable Mode Oscillator",
         "summary": "Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency",
         "tags": [
@@ -785,7 +785,7 @@
         ]
     },
     "/electronics101/digitallogic/1bitregister/": {
-        "id": 559,
+        "id": 562,
         "title": "1-bit Register",
         "summary": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register",
         "tags": [
@@ -794,7 +794,7 @@
         ]
     },
     "/electronics101/batterymanagement/aguhajsu1s3a/": {
-        "id": 558,
+        "id": 561,
         "title": "Aguhajsu 1S/3A BMS",
         "summary": "Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell",
         "tags": [
@@ -803,7 +803,7 @@
         ]
     },
     "/electronics101/555timer/slowglow/": {
-        "id": 557,
+        "id": 559,
         "title": "Slow Glow",
         "summary": "A simple slowly-glowing LED effect using a 555 timer",
         "tags": [
@@ -812,7 +812,7 @@
         ]
     },
     "/electronics101/led/led8x8module/": {
-        "id": 556,
+        "id": 557,
         "title": "LED 8x8 Module",
         "summary": "Building and using an 8x8 LED matrix with MAX7219 driver module",
         "tags": [
@@ -821,7 +821,7 @@
         ]
     },
     "/electronics101/555timer/srlatch/": {
-        "id": 555,
+        "id": 556,
         "title": "555 SR Latch",
         "summary": "Set/Reset latch with a 555 timer",
         "tags": [
@@ -830,7 +830,7 @@
         ]
     },
     "/electronics101/555timer/beatbot/": {
-        "id": 554,
+        "id": 555,
         "title": "Beat Bot",
         "summary": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune",
         "tags": [
@@ -839,7 +839,7 @@
         ]
     },
     "/audio/audioeffects/jetengine/": {
-        "id": 553,
+        "id": 554,
         "title": "Jet Engine Startup Effect",
         "summary": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO",
         "tags": [
@@ -847,7 +847,7 @@
         ]
     },
     "/arm/1bitsy/baremetalblinky/": {
-        "id": 552,
+        "id": 553,
         "title": "1bitsy Bare Metal C",
         "summary": "Bare metal programming the 1bitsy STM32F415RGT6 by hand with gcc and the Black Magic Probe",
         "tags": [
@@ -858,7 +858,7 @@
         ]
     },
     "/electronics101/555timer/aircraftnavigationlights/": {
-        "id": 551,
+        "id": 552,
         "title": "Freeform Popsicle Airways",
         "summary": "Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers",
         "tags": [
@@ -869,7 +869,7 @@
         ]
     },
     "/audio/audioeffectschips/sn76477/propplane/": {
-        "id": 550,
+        "id": 551,
         "title": "SN76477 Prop Plane",
         "summary": "Testing the SN76477 propeller plane sound effect configuration",
         "tags": [
@@ -877,7 +877,7 @@
         ]
     },
     "/equipment/blackmagicprobe/": {
-        "id": 549,
+        "id": 550,
         "title": "Black Magic Probe",
         "summary": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX",
         "tags": [
@@ -887,7 +887,7 @@
         ]
     },
     "/arm/stm32f103c8t6/baremetal/": {
-        "id": 548,
+        "id": 549,
         "title": "Bare Metal C on the Blue Pill",
         "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset",
         "tags": [
@@ -896,7 +896,7 @@
         ]
     },
     "/arm/stm32f103c8t6/bluepill/debugwithstlink/": {
-        "id": 547,
+        "id": 548,
         "title": "Debug Arduino STM32 with stlink",
         "summary": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX",
         "tags": [
@@ -906,7 +906,7 @@
         ]
     },
     "/arm/stm32f103c8t6/bluepill/usingstlink/": {
-        "id": 546,
+        "id": 547,
         "title": "Using STLink with the Arduino IDE",
         "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE",
         "tags": [
@@ -914,7 +914,7 @@
         ]
     },
     "/arm/stm32f103c8t6/48pindevboard/": {
-        "id": 545,
+        "id": 546,
         "title": "STM32F103C8T6 Dev Board",
         "summary": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX",
         "tags": [
@@ -922,7 +922,7 @@
         ]
     },
     "/esp8266/youtubefootswitch/": {
-        "id": 544,
+        "id": 545,
         "title": "Wireless YouTube Foot Switch",
         "summary": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)",
         "tags": [
@@ -930,7 +930,7 @@
         ]
     },
     "/electronics101/batterymanagement/shengyang18650batteryshield/": {
-        "id": 543,
+        "id": 544,
         "title": "ShengYang 18650 Battery Shield",
         "summary": "Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.",
         "tags": [
@@ -939,7 +939,7 @@
         ]
     },
     "/electronics101/cd4046/rampgenerator/": {
-        "id": 542,
+        "id": 543,
         "title": "PLL Ramp Generator",
         "summary": "A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.",
         "tags": [
@@ -948,7 +948,7 @@
         ]
     },
     "/electronics101/inputdevices/footswitch/": {
-        "id": 541,
+        "id": 542,
         "title": "DIY Foot Switch",
         "summary": "A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller",
         "tags": [
@@ -957,7 +957,7 @@
         ]
     },
     "/electronics101/oscillators/tl431multivibrator/": {
-        "id": 540,
+        "id": 541,
         "title": "TL431 Multivibrator",
         "summary": "an unusual multivibrator using a programmable reference with clean square wave output",
         "tags": [
@@ -965,7 +965,7 @@
         ]
     },
     "/esp8266/esp12/diydevboard/": {
-        "id": 539,
+        "id": 540,
         "title": "ESP-12 DIY Dev Board",
         "summary": "Building a programming board for the ESP8266 07/12 variants",
         "tags": [
@@ -973,7 +973,7 @@
         ]
     },
     "/kraft/metalearthleadguitar/": {
-        "id": 538,
+        "id": 539,
         "title": "Metal Earth Lead Guitar",
         "summary": "Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'",
         "tags": [
@@ -983,7 +983,7 @@
         ]
     },
     "/electronics101/batterymanagement/singlecellchargeboostboard/": {
-        "id": 537,
+        "id": 538,
         "title": "Single-cell Charge/Boost Board",
         "summary": "An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter",
         "tags": [
@@ -992,7 +992,7 @@
         ]
     },
     "/electronics101/schmitttrigger/switchdebouncer/": {
-        "id": 536,
+        "id": 537,
         "title": "Schmitt Switch Debouncer",
         "summary": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14",
         "tags": [
@@ -1001,7 +1001,7 @@
         ]
     },
     "/electronics101/schmitttrigger/powerokindicator/": {
-        "id": 535,
+        "id": 536,
         "title": "Power OK Indicator",
         "summary": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14",
         "tags": [
@@ -1010,7 +1010,7 @@
         ]
     },
     "/electronics101/detectors/aclinedetector/": {
-        "id": 534,
+        "id": 535,
         "title": "AC Line Detector",
         "summary": "Playing around with a simple AC line current detector",
         "tags": [
@@ -1019,7 +1019,7 @@
         ]
     },
     "/esp8266/esp12/programming/": {
-        "id": 533,
+        "id": 534,
         "title": "ESP-12 Programming",
         "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino",
         "tags": [
@@ -1027,7 +1027,7 @@
         ]
     },
     "/pic/tedsclock/": {
-        "id": 532,
+        "id": 533,
         "title": "Ted's LED Clock",
         "summary": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A",
         "tags": [
@@ -1038,7 +1038,7 @@
         ]
     },
     "/pic/pic16f84ablinky/": {
-        "id": 531,
+        "id": 532,
         "title": "PIC16F84A Blinky",
         "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)",
         "tags": [
@@ -1047,7 +1047,7 @@
         ]
     },
     "/playground/attiny/ssd1306/basicdemo/": {
-        "id": 530,
+        "id": 531,
         "title": "ATtiny SSD1306 I\u00b2C",
         "summary": "Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I\u00b2C",
         "tags": [
@@ -1056,7 +1056,7 @@
         ]
     },
     "/playground/oled/ssd1306barebacki2c/": {
-        "id": 529,
+        "id": 530,
         "title": "SSD1306 OLED Bareback I\u00b2C",
         "summary": "Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I\u00b2C",
         "tags": [
@@ -1065,7 +1065,7 @@
         ]
     },
     "/playground/attiny/pinchangeinterrupts/": {
-        "id": 528,
+        "id": 529,
         "title": "ATtiny Pin Change Interrupts",
         "summary": "How to use pin change interrupts with the ATtiny85",
         "tags": [
@@ -1074,7 +1074,7 @@
         ]
     },
     "/boldportclub/ixpando/attinycontroller/": {
-        "id": 527,
+        "id": 528,
         "title": "ATtiny IxpandO",
         "summary": "Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I\u00b2C IO expansion board",
         "tags": [
@@ -1084,7 +1084,7 @@
         ]
     },
     "/playground/oled/ssd1306_u8g2/": {
-        "id": 526,
+        "id": 527,
         "title": "SSD1306 With u8g v2",
         "summary": "Testing an SSD1306 128x32 OLED with the new v2 u8g library over I\u00b2C",
         "tags": [
@@ -1093,7 +1093,7 @@
         ]
     },
     "/equipment/metaldetectorkit/": {
-        "id": 525,
+        "id": 526,
         "title": "Metal Detector Kit",
         "summary": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit",
         "tags": [
@@ -1102,7 +1102,7 @@
         ]
     },
     "/audio/simplesoundeffects2/": {
-        "id": 524,
+        "id": 525,
         "title": "Simple Sound Effects 2",
         "summary": "Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.",
         "tags": [
@@ -1111,7 +1111,7 @@
         ]
     },
     "/playground/thermalprinter/lucky4doracle/": {
-        "id": 523,
+        "id": 524,
         "title": "Lucky 4D Printer",
         "summary": "A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)",
         "tags": [
@@ -1120,7 +1120,7 @@
         ]
     },
     "/playground/thermalprinter/qr701basics/": {
-        "id": 522,
+        "id": 523,
         "title": "JP-QR701 Thermal Printer Basics",
         "summary": "Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python",
         "tags": [
@@ -1129,7 +1129,7 @@
         ]
     },
     "/radio/lpd433/rfdoorbell/": {
-        "id": 521,
+        "id": 522,
         "title": "Remote Doorbell",
         "summary": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect",
         "tags": [
@@ -1140,7 +1140,7 @@
         ]
     },
     "/audio/audioeffectschips/ck9561/": {
-        "id": 520,
+        "id": 521,
         "title": "CK9561 Audio Effects Chip",
         "summary": "Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!",
         "tags": [
@@ -1149,7 +1149,7 @@
         ]
     },
     "/electronics101/555timer/continuitytester/": {
-        "id": 519,
+        "id": 520,
         "title": "Continuity Tester",
         "summary": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.",
         "tags": [
@@ -1159,7 +1159,7 @@
         ]
     },
     "/electronics101/fuses/pptcperformance/": {
-        "id": 518,
+        "id": 519,
         "title": "PPTC Performance",
         "summary": "Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses",
         "tags": [
@@ -1168,7 +1168,7 @@
         ]
     },
     "/equipment/lipotestermodule/": {
-        "id": 517,
+        "id": 518,
         "title": "Lipo Tester Module",
         "summary": "Just a quick look at a 1S to 8S battery tester and alarm module.",
         "tags": [
@@ -1179,7 +1179,7 @@
         ]
     },
     "/electronics101/555timer/precisionvariablefrequencyfixedduty/": {
-        "id": 516,
+        "id": 517,
         "title": "555 Timer Fixed-duty VFO",
         "summary": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)",
         "tags": [
@@ -1188,7 +1188,7 @@
         ]
     },
     "/radio/fm/zx2031kit/": {
-        "id": 515,
+        "id": 516,
         "title": "ZX2031 FM Radio Kit",
         "summary": "Building an FM radio kit based on the Silan SC1088 FM receiver chip",
         "tags": [
@@ -1197,7 +1197,7 @@
         ]
     },
     "/radio/fm/frequencyconverter/": {
-        "id": 514,
+        "id": 515,
         "title": "FM Converter",
         "summary": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning",
         "tags": [
@@ -1206,7 +1206,7 @@
         ]
     },
     "/electronics101/subtractionloopcounterkit/": {
-        "id": 513,
+        "id": 514,
         "title": "Subtraction Loop Counter Kit",
         "summary": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
         "tags": [
@@ -1214,7 +1214,7 @@
         ]
     },
     "/equipment/dummyload/simpleresistiveusbload/": {
-        "id": 512,
+        "id": 513,
         "title": "Simple USB Dummy Load",
         "summary": "Examining and testing a simple USB resistive dummy load",
         "tags": [
@@ -1223,7 +1223,7 @@
         ]
     },
     "/audio/greatersimplesoundeffects/": {
-        "id": 511,
+        "id": 512,
         "title": "Greater Simple Sound Effects",
         "summary": "Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.",
         "tags": [
@@ -1235,7 +1235,7 @@
         ]
     },
     "/electronics101/power/bridgedoublersplitsupply/": {
-        "id": 510,
+        "id": 511,
         "title": "Bridge Doubler Split Supply",
         "summary": "an AC-powered bridge doubler supply with DC output governed by 7815/7915 \u00b115V DC linear regulation",
         "tags": [
@@ -1243,7 +1243,7 @@
         ]
     },
     "/electronics101/serialinterface/usbtors232/": {
-        "id": 509,
+        "id": 510,
         "title": "USB to RS-232 Adapter",
         "summary": "building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets",
         "tags": [
@@ -1253,7 +1253,7 @@
         ]
     },
     "/electronics101/serialinterface/max3232/rs232ttlmodule/": {
-        "id": 508,
+        "id": 509,
         "title": "MAX3232 RS232 to TTL Module",
         "summary": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX",
         "tags": [
@@ -1263,7 +1263,7 @@
         ]
     },
     "/esp32/usingmdns/": {
-        "id": 507,
+        "id": 508,
         "title": "Using mDNS",
         "summary": "delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network",
         "tags": [
@@ -1272,7 +1272,7 @@
         ]
     },
     "/electronics101/switches/singlestagedelay/": {
-        "id": 506,
+        "id": 507,
         "title": "Single-stage Delay Switch",
         "summary": "comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components",
         "tags": [
@@ -1281,7 +1281,7 @@
         ]
     },
     "/boldportclub/pcbmode/": {
-        "id": 505,
+        "id": 506,
         "title": "Learning PCBmodE",
         "summary": "learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB",
         "tags": [
@@ -1291,7 +1291,7 @@
         ]
     },
     "/audio/rakitbaby8sequencer/": {
-        "id": 504,
+        "id": 505,
         "title": "Rakit Baby8 Sequencer",
         "summary": "Building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clock input.",
         "tags": [
@@ -1301,7 +1301,7 @@
         ]
     },
     "/electronics101/ina226/highsidemonitorbasics/": {
-        "id": 503,
+        "id": 504,
         "title": "INA226 High-side Monitor Basics",
         "summary": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I\u00b2C",
         "tags": [
@@ -1310,7 +1310,7 @@
         ]
     },
     "/equipment/imaxrcb3lipocharger/": {
-        "id": 502,
+        "id": 503,
         "title": "imaxRC B3 Lipo Charger",
         "summary": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs",
         "tags": [
@@ -1319,7 +1319,7 @@
         ]
     },
     "/equipment/lii202smartcharger/": {
-        "id": 501,
+        "id": 502,
         "title": "LiitoKala Lii-202 Smart Charger",
         "summary": "quick teardown and review of the Lii-202 18650 charger and power bank",
         "tags": [
@@ -1328,7 +1328,7 @@
         ]
     },
     "/electronics101/batterymanagement/singlecelllithiumcharger/": {
-        "id": 500,
+        "id": 501,
         "title": "Single-cell Lithium Charger",
         "summary": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules",
         "tags": [
@@ -1337,7 +1337,7 @@
         ]
     },
     "/playground/rfid/concentration/": {
-        "id": 499,
+        "id": 500,
         "title": "RFID Concentration Game",
         "summary": "Play a game of Concentration/Pairs with a stack of MIFARE Classic cards",
         "tags": [
@@ -1348,7 +1348,7 @@
         ]
     },
     "/audio/audioeffectschips/hs088/amplified/": {
-        "id": 498,
+        "id": 499,
         "title": "HS088 Low-voltage Amplifier",
         "summary": "adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip",
         "tags": [
@@ -1357,7 +1357,7 @@
         ]
     },
     "/electronics101/teslacoil/musicalkit/": {
-        "id": 497,
+        "id": 498,
         "title": "Tesla Coil Plasma Speaker Kit",
         "summary": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects",
         "tags": [
@@ -1367,7 +1367,7 @@
         ]
     },
     "/esp32/publishinginternals/": {
-        "id": 496,
+        "id": 497,
         "title": "Publishing Internals",
         "summary": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization",
         "tags": [
@@ -1378,7 +1378,7 @@
         ]
     },
     "/esp32/gettingstarted/": {
-        "id": 495,
+        "id": 496,
         "title": "ESP32 Getting Started",
         "summary": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example",
         "tags": [
@@ -1386,7 +1386,7 @@
         ]
     },
     "/electronics101/bjt/negativefeedbackamplifier/": {
-        "id": 494,
+        "id": 495,
         "title": "Negative Feedback Amplifier",
         "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs",
         "tags": [
@@ -1394,7 +1394,7 @@
         ]
     },
     "/fpga/fomu/buildnotifier/": {
-        "id": 493,
+        "id": 494,
         "title": "Fomu Build Notifier",
         "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)",
         "tags": [
@@ -1403,7 +1403,7 @@
         ]
     },
     "/fpga/fomu/gettingstarted/": {
-        "id": 492,
+        "id": 493,
         "title": "Getting Started with Fomu",
         "summary": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.",
         "tags": [
@@ -1411,7 +1411,7 @@
         ]
     },
     "/kraft/kickingback/": {
-        "id": 491,
+        "id": 492,
         "title": "Kicking Back",
         "summary": "a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)",
         "tags": [
@@ -1421,7 +1421,7 @@
         ]
     },
     "/kinetics/solenoids/magnetswitchedsolenoid/": {
-        "id": 490,
+        "id": 491,
         "title": "Magnet-switched Solenoid",
         "summary": "using a Hall effect sensor to trigger a solenoid with a fixed pulse",
         "tags": [
@@ -1430,7 +1430,7 @@
         ]
     },
     "/electronics101/edgedetection/555fallingedgedetector/": {
-        "id": 489,
+        "id": 490,
         "title": "555 Falling Edge Detector",
         "summary": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse",
         "tags": [
@@ -1438,7 +1438,7 @@
         ]
     },
     "/electronics101/edgedetection/555risingedgedetector/": {
-        "id": 488,
+        "id": 489,
         "title": "555 Rising Edge Detector",
         "summary": "using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse",
         "tags": [
@@ -1446,7 +1446,7 @@
         ]
     },
     "/electronics101/edgedetection/xorrcedgedetector/": {
-        "id": 487,
+        "id": 488,
         "title": "XOR-RC Edge Detector",
         "summary": "Dual edge detection with a 74LS86 XOR and RC circuit",
         "tags": [
@@ -1454,7 +1454,7 @@
         ]
     },
     "/electronics101/oscillators/crystallocked1khzoscillator/": {
-        "id": 486,
+        "id": 487,
         "title": "Crystal-locked 1kHz Oscillator",
         "summary": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz",
         "tags": [
@@ -1462,7 +1462,7 @@
         ]
     },
     "/playground/usingtemplates/": {
-        "id": 485,
+        "id": 486,
         "title": "Using C++ Templates",
         "summary": "Learning how to use C++ template functions in embedded projects with an Arduino",
         "tags": [
@@ -1471,7 +1471,7 @@
         ]
     },
     "/playground/rfid/cardcounter/": {
-        "id": 484,
+        "id": 485,
         "title": "RFID Card Counter",
         "summary": "Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards",
         "tags": [
@@ -1480,7 +1480,7 @@
         ]
     },
     "/electronics101/oscillators/crystallocked455khzmodulated/": {
-        "id": 483,
+        "id": 484,
         "title": "Crystal-Locked 455 kHz AM Oscillator",
         "summary": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment",
         "tags": [
@@ -1489,7 +1489,7 @@
         ]
     },
     "/kraft/wyled/": {
-        "id": 482,
+        "id": 483,
         "title": "WyLed",
         "summary": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.",
         "tags": [
@@ -1502,7 +1502,7 @@
         ]
     },
     "/electronics101/electret/soundleveltrigger/": {
-        "id": 481,
+        "id": 482,
         "title": "Electret Sound-level Trigger",
         "summary": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone",
         "tags": [
@@ -1512,7 +1512,7 @@
         ]
     },
     "/playground/led7segment/tm1638/": {
-        "id": 480,
+        "id": 481,
         "title": "TM1638 7-Segment LED Driver",
         "summary": "investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller",
         "tags": [
@@ -1523,7 +1523,7 @@
         ]
     },
     "/playground/led7segment/": {
-        "id": 479,
+        "id": 480,
         "title": "7-Segment LED Displays",
         "summary": "All about LED 7-segment displays",
         "tags": [
@@ -1532,7 +1532,7 @@
         ]
     },
     "/playground/led7segment/max7219/ledcontroldemo/": {
-        "id": 478,
+        "id": 479,
         "title": "LedControl MAX7219 7-Segment LED Driver",
         "summary": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library",
         "tags": [
@@ -1543,7 +1543,7 @@
         ]
     },
     "/playground/led7segment/max7219/rawdrive/": {
-        "id": 477,
+        "id": 478,
         "title": "Raw MAX7219 7-Segment LED Driver",
         "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands",
         "tags": [
@@ -1554,7 +1554,7 @@
         ]
     },
     "/audio/rakitdrumsynth/": {
-        "id": 476,
+        "id": 477,
         "title": "Rakit Drum Synth",
         "summary": "building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer",
         "tags": [
@@ -1565,7 +1565,7 @@
         ]
     },
     "/radio/fm/simplestdirectreceiver/": {
-        "id": 475,
+        "id": 476,
         "title": "Simplest Direct FM Receiver",
         "summary": "Taming a very simple direct conversion FM receiver",
         "tags": [
@@ -1574,7 +1574,7 @@
         ]
     },
     "/equipment/ang860b/": {
-        "id": 474,
+        "id": 475,
         "title": "ANG860B",
         "summary": "specifications and notes on the ANENG ANG860B+ digital multimeter",
         "tags": [
@@ -1584,7 +1584,7 @@
         ]
     },
     "/audio/audioeffects/whitenoisegenerator/": {
-        "id": 473,
+        "id": 474,
         "title": "BJT White Noise Generator",
         "summary": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors",
         "tags": [
@@ -1593,7 +1593,7 @@
         ]
     },
     "/kraft/xdiskclk/": {
-        "id": 472,
+        "id": 473,
         "title": "xdiskclk",
         "summary": "An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock",
         "tags": [
@@ -1602,7 +1602,7 @@
         ]
     },
     "/electronics101/power/capacitivedropper/": {
-        "id": 471,
+        "id": 472,
         "title": "Capacitive Dropper",
         "summary": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit",
         "tags": [
@@ -1610,7 +1610,7 @@
         ]
     },
     "/electronics101/led/fluorescentringreplacement/": {
-        "id": 470,
+        "id": 471,
         "title": "Fluorescent Ring LED Replacement",
         "summary": "Understanding fluorescent lighting and installing an LED replacement",
         "tags": [
@@ -1620,7 +1620,7 @@
         ]
     },
     "/radio/am/simplecrystaltransmitter/": {
-        "id": 469,
+        "id": 470,
         "title": "Simple Crystal AM Transmitter",
         "summary": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator",
         "tags": [
@@ -1630,7 +1630,7 @@
         ]
     },
     "/electronics101/breadboardbling/lm386audioamp/": {
-        "id": 468,
+        "id": 469,
         "title": "LM386 Audio Amp",
         "summary": "A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting",
         "tags": [
@@ -1640,7 +1640,7 @@
         ]
     },
     "/electronics101/breadboardbling/duplextuningcapacitor/": {
-        "id": 467,
+        "id": 468,
         "title": "Duplex Tuning Capacitor",
         "summary": "making a breadboard-compatible variable capacitor for radio circuits",
         "tags": [
@@ -1649,7 +1649,7 @@
         ]
     },
     "/radio/fm/twostagetransmitter/": {
-        "id": 466,
+        "id": 467,
         "title": "Two-stage FM Transmitter",
         "summary": "build and test a simple two-stage FM transmitter",
         "tags": [
@@ -1658,7 +1658,7 @@
         ]
     },
     "/equipment/vc3165/": {
-        "id": 465,
+        "id": 466,
         "title": "VC3165",
         "summary": "all about the Victor VC3165 frequency counter",
         "tags": [
@@ -1667,7 +1667,7 @@
         ]
     },
     "/electronics101/bjt/mrbijut/": {
-        "id": 464,
+        "id": 465,
         "title": "MrBiJuT",
         "summary": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator",
         "tags": [
@@ -1679,7 +1679,7 @@
         ]
     },
     "/radio/am/singletransistortransmitter/": {
-        "id": 463,
+        "id": 464,
         "title": "Single Transistor AM Transmitter",
         "summary": "building a low power, single transistor AM transmitter with surprisingly good fidelity",
         "tags": [
@@ -1689,7 +1689,7 @@
         ]
     },
     "/electronics101/opamp/transconductance/": {
-        "id": 462,
+        "id": 463,
         "title": "OpAmp Transconductance Amplifiers",
         "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp",
         "tags": [
@@ -1697,7 +1697,7 @@
         ]
     },
     "/radio/am/hx108-2/": {
-        "id": 461,
+        "id": 462,
         "title": "HX108-2",
         "summary": "build and analyse the HX108-2 superheterodyne AM MW radio receiver kit",
         "tags": [
@@ -1706,7 +1706,7 @@
         ]
     },
     "/electronics101/guitareffects/goblin/": {
-        "id": 460,
+        "id": 461,
         "title": "Goblin",
         "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications",
         "tags": [
@@ -1715,7 +1715,7 @@
         ]
     },
     "/audio/audioeffects/canary/": {
-        "id": 459,
+        "id": 460,
         "title": "CANary",
         "summary": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture",
         "tags": [
@@ -1725,7 +1725,7 @@
         ]
     },
     "/electronics101/opamp/twinteeoscillator/": {
-        "id": 458,
+        "id": 459,
         "title": "Twin-Tee OpAmp Oscillator",
         "summary": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum",
         "tags": [
@@ -1734,7 +1734,7 @@
         ]
     },
     "/playground/fastanalogread/": {
-        "id": 457,
+        "id": 458,
         "title": "FastAnalogRead",
         "summary": "how to increase the Arduino ADC analog sampling rate",
         "tags": [
@@ -1743,7 +1743,7 @@
         ]
     },
     "/playground/precisiontimer/": {
-        "id": 456,
+        "id": 457,
         "title": "PrecisionTimer",
         "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip",
         "tags": [
@@ -1751,7 +1751,7 @@
         ]
     },
     "/boldportclub/pease-out/": {
-        "id": 455,
+        "id": 456,
         "title": "BoldportClub/pease-out",
         "summary": "an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019",
         "tags": [
@@ -1761,7 +1761,7 @@
         ]
     },
     "/electronics101/piezobuzzers/": {
-        "id": 454,
+        "id": 455,
         "title": "Piezo Transducers and Buzzers",
         "summary": "exploring techniques for driving piezo transducers and buzzer units for audio output",
         "tags": [
@@ -1771,7 +1771,7 @@
         ]
     },
     "/electronics101/voltagereference/adr4540/": {
-        "id": 453,
+        "id": 454,
         "title": "VoltageReference/ADR4540",
         "summary": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference",
         "tags": [
@@ -1779,7 +1779,7 @@
         ]
     },
     "/electronics101/breadboardbling/potmodules/": {
-        "id": 452,
+        "id": 453,
         "title": "PotModules",
         "summary": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers",
         "tags": [
@@ -1787,7 +1787,7 @@
         ]
     },
     "/electronics101/cd4046/mainslinkedpll/": {
-        "id": 451,
+        "id": 452,
         "title": "CD4046/MainsLinkedPLL",
         "summary": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL",
         "tags": [
@@ -1796,7 +1796,7 @@
         ]
     },
     "/electronics101/arcgeneratorkit/": {
-        "id": 450,
+        "id": 451,
         "title": "ArcGeneratorKit",
         "summary": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor",
         "tags": [
@@ -1804,7 +1804,7 @@
         ]
     },
     "/equipment/lcr45/": {
-        "id": 449,
+        "id": 450,
         "title": "LCR45",
         "summary": "evaluating the Peak LCR45 inductance, capacitance and resistance meter",
         "tags": [
@@ -1813,7 +1813,7 @@
         ]
     },
     "/audio/audioeffects/parrot/": {
-        "id": 448,
+        "id": 449,
         "title": "Parrot",
         "summary": "playing with a 1-transistor, dual oscillator chirping sound effect circuit",
         "tags": [
@@ -1823,7 +1823,7 @@
         ]
     },
     "/electronics101/adc/ltc2400/": {
-        "id": 447,
+        "id": 448,
         "title": "LTC2400",
         "summary": "exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC",
         "tags": [
@@ -1831,7 +1831,7 @@
         ]
     },
     "/boldportclub/capacimeter/": {
-        "id": 446,
+        "id": 447,
         "title": "Capacimeter",
         "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018",
         "tags": [
@@ -1841,7 +1841,7 @@
         ]
     },
     "/electronics101/toroidjoulethief/rgbnightlight/": {
-        "id": 445,
+        "id": 446,
         "title": "RGB Joule Thief Night Light",
         "summary": "testing a slow-flash RGB LED with a 1.5V joule thief power supply",
         "tags": [
@@ -1850,7 +1850,7 @@
         ]
     },
     "/electronics101/555timer/variabledutycycle/controladjust/": {
-        "id": 444,
+        "id": 445,
         "title": "VariableDutyCycle/ControlAdjust",
         "summary": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator",
         "tags": [
@@ -1859,7 +1859,7 @@
         ]
     },
     "/electronics101/555timer/variabledutycycle/diodesteering/": {
-        "id": 443,
+        "id": 444,
         "title": "VariableDutyCycle/DiodeSteering",
         "summary": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator",
         "tags": [
@@ -1868,7 +1868,7 @@
         ]
     },
     "/arm/stm32f103c8t6/bluepill/lcd16x2/": {
-        "id": 442,
+        "id": 443,
         "title": "BluePill 16x2 LCD",
         "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE",
         "tags": [
@@ -1877,7 +1877,7 @@
         ]
     },
     "/boldportclub/respot/": {
-        "id": 441,
+        "id": 442,
         "title": "BoldportClub/respot",
         "summary": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots",
         "tags": [
@@ -1887,7 +1887,7 @@
         ]
     },
     "/kraft/pollen8/": {
-        "id": 440,
+        "id": 441,
         "title": "Pollen8",
         "summary": "a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit",
         "tags": [
@@ -1900,7 +1900,7 @@
         ]
     },
     "/playground/datalogging/voltagetoadafruitio/": {
-        "id": 439,
+        "id": 440,
         "title": "DataLogging/VoltageToAdafruitIO",
         "summary": "using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT",
         "tags": [
@@ -1911,7 +1911,7 @@
         ]
     },
     "/electronics101/leddrivers/qx5252solarnightlight/": {
-        "id": 438,
+        "id": 439,
         "title": "QX5252SolarNightLight",
         "summary": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller",
         "tags": [
@@ -1921,7 +1921,7 @@
         ]
     },
     "/playground/rfid/devicedumper/": {
-        "id": 437,
+        "id": 438,
         "title": "RFID Device Dumper",
         "summary": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags",
         "tags": [
@@ -1930,7 +1930,7 @@
         ]
     },
     "/electronics101/leddrivers/qx5252joulethief/": {
-        "id": 436,
+        "id": 437,
         "title": "QX5252JouleThief",
         "summary": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery",
         "tags": [
@@ -1939,7 +1939,7 @@
         ]
     },
     "/kinetics/beam/vivian/": {
-        "id": 435,
+        "id": 436,
         "title": "Vivian",
         "summary": "a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver",
         "tags": [
@@ -1948,7 +1948,7 @@
         ]
     },
     "/kinetics/beam/": {
-        "id": 434,
+        "id": 435,
         "title": "BEAM",
         "summary": "a quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) field",
         "tags": [
@@ -1957,7 +1957,7 @@
         ]
     },
     "/boldportclub/krell/": {
-        "id": 433,
+        "id": 434,
         "title": "BoldportClub/krell",
         "summary": "building the Boldport Krell: a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab",
         "tags": [
@@ -1967,7 +1967,7 @@
         ]
     },
     "/equipment/adjustablepowersupplykit/": {
-        "id": 432,
+        "id": 433,
         "title": "AdjustablePowerSupplyKit",
         "summary": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing",
         "tags": [
@@ -1975,7 +1975,7 @@
         ]
     },
     "/kinetics/steppermotors/uln2003module/": {
-        "id": 431,
+        "id": 432,
         "title": "StepperMotors/ULN2003Module",
         "summary": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647",
         "tags": [
@@ -1984,7 +1984,7 @@
         ]
     },
     "/kinetics/steppermotors/28byj48/": {
-        "id": 430,
+        "id": 431,
         "title": "StepperMotors/28BYJ48",
         "summary": "all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino",
         "tags": [
@@ -1993,7 +1993,7 @@
         ]
     },
     "/kinetics/steppermotors/bipolarwormdrive/simplehbridge/": {
-        "id": 429,
+        "id": 430,
         "title": "BipolarWormDrive/SimpleHBridge",
         "summary": "testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!",
         "tags": [
@@ -2002,7 +2002,7 @@
         ]
     },
     "/boldportclub/3x7/pomodorotimer/": {
-        "id": 428,
+        "id": 429,
         "title": "3x7/PomodoroTimer",
         "summary": "a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328",
         "tags": [
@@ -2012,7 +2012,7 @@
         ]
     },
     "/boldportclub/3x7/lrthreedigitdemo/": {
-        "id": 427,
+        "id": 428,
         "title": "3x7 LRThreeDigitDemo",
         "summary": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library",
         "tags": [
@@ -2022,7 +2022,7 @@
         ]
     },
     "/playground/attiny/softwarepwm/": {
-        "id": 426,
+        "id": 427,
         "title": "ATtiny Software PWM",
         "summary": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques",
         "tags": [
@@ -2031,7 +2031,7 @@
         ]
     },
     "/boldportclub/3x7/rippletester/": {
-        "id": 425,
+        "id": 426,
         "title": "3x7 RippleTester ",
         "summary": "using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7",
         "tags": [
@@ -2041,7 +2041,7 @@
         ]
     },
     "/boldportclub/3x7/": {
-        "id": 424,
+        "id": 425,
         "title": "BoldportClub/3x7",
         "summary": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
         "tags": [
@@ -2050,7 +2050,7 @@
         ]
     },
     "/playground/vl53l0x/thetoneranger/": {
-        "id": 423,
+        "id": 424,
         "title": "TheToneRanger",
         "summary": "a simple modification of the basic VL53L0X example to add audio indication of range",
         "tags": [
@@ -2060,7 +2060,7 @@
         ]
     },
     "/playground/makeruno/": {
-        "id": 422,
+        "id": 423,
         "title": "MakerUno",
         "summary": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia",
         "tags": [
@@ -2068,7 +2068,7 @@
         ]
     },
     "/playground/vl53l0x/lasertapemeasure/": {
-        "id": 421,
+        "id": 422,
         "title": "LaserTapeMeasure",
         "summary": "using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display",
         "tags": [
@@ -2078,7 +2078,7 @@
         ]
     },
     "/radio/sdr/limesdr/firstlook/": {
-        "id": 420,
+        "id": 421,
         "title": "LimeSDR First Look",
         "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host",
         "tags": [
@@ -2086,7 +2086,7 @@
         ]
     },
     "/boldportclub/lite2sound-bc/cuttletalk/": {
-        "id": 419,
+        "id": 420,
         "title": "CuttleTalk",
         "summary": "playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound",
         "tags": [
@@ -2096,7 +2096,7 @@
         ]
     },
     "/boldportclub/lite2sound-bc/": {
-        "id": 418,
+        "id": 419,
         "title": "BoldportClub/lite2sound-bc",
         "summary": "building Lite2Sound Boldport Club Project #26",
         "tags": [
@@ -2106,7 +2106,7 @@
         ]
     },
     "/electronics101/oscillators/commonemitterhartley/": {
-        "id": 417,
+        "id": 418,
         "title": "CommonEmitterHartley",
         "summary": "build and test a BJT common-emitter Hartley oscillator",
         "tags": [
@@ -2115,7 +2115,7 @@
         ]
     },
     "/playground/audio/simplesampleplayer/": {
-        "id": 416,
+        "id": 417,
         "title": "SimpleSamplePlayer",
         "summary": "playing short audio samples on an Arduino using some PWM tricks from the PCM library",
         "tags": [
@@ -2125,7 +2125,7 @@
         ]
     },
     "/kinetics/linefollowerkit/": {
-        "id": 415,
+        "id": 416,
         "title": "Line Follower Kit",
         "summary": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM393 comparator",
         "tags": [
@@ -2135,7 +2135,7 @@
         ]
     },
     "/electronics101/555timer/nixiepowersupply/": {
-        "id": 414,
+        "id": 415,
         "title": "Nixie Power Supply - 555 Timer Version",
         "summary": "using a 555 boost converter to test some Nixie IN3 and IN14 tubes",
         "tags": [
@@ -2145,7 +2145,7 @@
         ]
     },
     "/electronics101/decadeprogrammableresistor/": {
-        "id": 413,
+        "id": 414,
         "title": "Decade Programmable Resistor",
         "summary": "building an old-fashioned 7-digit decade programmable resistor with push-button control",
         "tags": [
@@ -2153,7 +2153,7 @@
         ]
     },
     "/electronics101/rotaryencoders/incrementaltester/": {
-        "id": 412,
+        "id": 413,
         "title": "Rotary Encoder Tester",
         "summary": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic",
         "tags": [
@@ -2162,7 +2162,7 @@
         ]
     },
     "/electronics101/bjt/comparator/": {
-        "id": 411,
+        "id": 412,
         "title": "BJT Comparator",
         "summary": "investigating and testing a comparator design with discrete components",
         "tags": [
@@ -2171,7 +2171,7 @@
         ]
     },
     "/boldportclub/cordwood-three/": {
-        "id": 410,
+        "id": 411,
         "title": "BoldportClub/cordwood-three",
         "summary": "custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism",
         "tags": [
@@ -2180,7 +2180,7 @@
         ]
     },
     "/kinetics/homopolarjoulethiefblinky/": {
-        "id": 409,
+        "id": 410,
         "title": "HomopolarJouleThiefBlinky",
         "summary": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms",
         "tags": [
@@ -2190,7 +2190,7 @@
         ]
     },
     "/boldportclub/conehead/": {
-        "id": 408,
+        "id": 409,
         "title": "Conehead",
         "summary": "The Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018. This one chirps in response to light.",
         "tags": [
@@ -2201,7 +2201,7 @@
         ]
     },
     "/electronics101/power/bbbreakout/": {
-        "id": 407,
+        "id": 408,
         "title": "BB Breakout",
         "summary": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors",
         "tags": [
@@ -2209,7 +2209,7 @@
         ]
     },
     "/equipment/dps3005benchpowersupply/": {
-        "id": 406,
+        "id": 407,
         "title": "DPS3005 Bench Power Supply",
         "summary": "building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer",
         "tags": [
@@ -2218,7 +2218,7 @@
         ]
     },
     "/electronics101/serialinterface/usbuartch340g/": {
-        "id": 405,
+        "id": 406,
         "title": "Custom CH340G USB to UART interface",
         "summary": "build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P",
         "tags": [
@@ -2228,7 +2228,7 @@
         ]
     },
     "/playground/atmegaserialprogrammer/": {
-        "id": 404,
+        "id": 405,
         "title": "ATmegaSerialProgrammer",
         "summary": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP",
         "tags": [
@@ -2239,7 +2239,7 @@
         ]
     },
     "/kraft/arzamatron/": {
-        "id": 403,
+        "id": 404,
         "title": "Arza-matron",
         "summary": "whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips",
         "tags": [
@@ -2250,7 +2250,7 @@
         ]
     },
     "/equipment/gy560/": {
-        "id": 402,
+        "id": 403,
         "title": "GY560",
         "summary": "checking out the GY560 Frequency Counter",
         "tags": [
@@ -2260,7 +2260,7 @@
         ]
     },
     "/boldportclub/pips/": {
-        "id": 401,
+        "id": 402,
         "title": "BoldportClub/pips",
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter",
         "tags": [
@@ -2269,7 +2269,7 @@
         ]
     },
     "/radio/pixie/": {
-        "id": 400,
+        "id": 401,
         "title": "Pixie",
         "summary": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m",
         "tags": [
@@ -2277,7 +2277,7 @@
         ]
     },
     "/equipment/usbprotector/": {
-        "id": 399,
+        "id": 400,
         "title": "USBProtector",
         "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection",
         "tags": [
@@ -2288,7 +2288,7 @@
         ]
     },
     "/8051/at89c2051/ledchaser/": {
-        "id": 398,
+        "id": 399,
         "title": "AT89C2051 LED Chaser",
         "summary": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX",
         "tags": [
@@ -2297,7 +2297,7 @@
         ]
     },
     "/playground/lcd/i2cadapter/": {
-        "id": 397,
+        "id": 398,
         "title": "LCD I2C Adapter",
         "summary": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD",
         "tags": [
@@ -2306,7 +2306,7 @@
         ]
     },
     "/playground/i2cscanner/": {
-        "id": 396,
+        "id": 397,
         "title": "I2CScanner",
         "summary": "scanning for I\u00b2C devices with an Arduino",
         "tags": [
@@ -2315,7 +2315,7 @@
         ]
     },
     "/playground/capacitivetouchorgan/": {
-        "id": 395,
+        "id": 396,
         "title": "CapacitiveTouchOrgan",
         "summary": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino",
         "tags": [
@@ -2325,7 +2325,7 @@
         ]
     },
     "/8051/at89c2051/blinky/": {
-        "id": 394,
+        "id": 395,
         "title": "AT89C2051 Blinky",
         "summary": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX",
         "tags": [
@@ -2334,7 +2334,7 @@
         ]
     },
     "/8051/at89c2051/programmer/": {
-        "id": 393,
+        "id": 394,
         "title": "AT89C2051 Programmer",
         "summary": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
         "tags": [
@@ -2342,7 +2342,7 @@
         ]
     },
     "/playground/dicksonchargepump/": {
-        "id": 392,
+        "id": 393,
         "title": "Dickson Charge Pump",
         "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM",
         "tags": [
@@ -2351,7 +2351,7 @@
         ]
     },
     "/boldportclub/whiteboard/": {
-        "id": 391,
+        "id": 392,
         "title": "BoldportClub/whiteboard",
         "summary": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD4060 ripple counter",
         "tags": [
@@ -2361,7 +2361,7 @@
         ]
     },
     "/equipment/millivoltmeterdiy/customboardandenclosure/": {
-        "id": 390,
+        "id": 391,
         "title": "MilliVoltmeterDIY PCB and Enclosure",
         "summary": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
@@ -2372,7 +2372,7 @@
         ]
     },
     "/pic/gettingblinky/usingc/": {
-        "id": 389,
+        "id": 390,
         "title": "PIC/GettingBlinky/UsingC",
         "summary": "getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!",
         "tags": [
@@ -2381,7 +2381,7 @@
         ]
     },
     "/electronics101/bjt/twostagecommonemitteramplifier/": {
-        "id": 388,
+        "id": 389,
         "title": "Two-stage Common Emitter Amplifier",
         "summary": "designing a two-stage common-emitter BJT amplifier",
         "tags": [
@@ -2390,7 +2390,7 @@
         ]
     },
     "/radio/singaporebands/": {
-        "id": 387,
+        "id": 388,
         "title": "SingaporeBands",
         "summary": "notes on official band plans for Singapore and my and personal observations on where the activity is found",
         "tags": [
@@ -2398,7 +2398,7 @@
         ]
     },
     "/playground/gpsbasics/": {
-        "id": 386,
+        "id": 387,
         "title": "GpsBasics",
         "summary": "using a NEMA-compatible GPS module for time and location with an Arduino",
         "tags": [
@@ -2407,7 +2407,7 @@
         ]
     },
     "/arm/stm32f103c8t6/bluepill/": {
-        "id": 385,
+        "id": 386,
         "title": "BluePill",
         "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE",
         "tags": [
@@ -2415,7 +2415,7 @@
         ]
     },
     "/boldportclub/widlar/": {
-        "id": 384,
+        "id": 385,
         "title": "BoldportClub/widlar",
         "summary": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)",
         "tags": [
@@ -2425,7 +2425,7 @@
         ]
     },
     "/electronics101/lm723/highvoltageregulator/": {
-        "id": 383,
+        "id": 384,
         "title": "LM723/HighVoltageRegulator",
         "summary": "playing with the basic high voltage output circuit for the LM723 voltage regulator",
         "tags": [
@@ -2435,7 +2435,7 @@
         ]
     },
     "/electronics101/lm723/lowvoltageregulator/": {
-        "id": 382,
+        "id": 383,
         "title": "LM723/LowVoltageRegulator",
         "summary": "playing with the basic low voltage output circuit for the LM723 voltage regulator",
         "tags": [
@@ -2445,7 +2445,7 @@
         ]
     },
     "/electronics101/cd4046/vco/": {
-        "id": 381,
+        "id": 382,
         "title": "CD4046 VCO",
         "summary": "audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC",
         "tags": [
@@ -2455,7 +2455,7 @@
         ]
     },
     "/playground/waterqualitymonitor/": {
-        "id": 380,
+        "id": 381,
         "title": "WaterQualityMonitor",
         "summary": "a project by oweibo to monitor water quality",
         "tags": [
@@ -2464,7 +2464,7 @@
         ]
     },
     "/playground/tin_counter/": {
-        "id": 379,
+        "id": 380,
         "title": "Tin Counter",
         "summary": "a project by novaprimexex to count tins as they roll by and detect tins without paper labels",
         "tags": [
@@ -2474,7 +2474,7 @@
         ]
     },
     "/playground/as3935/": {
-        "id": 378,
+        "id": 379,
         "title": "AS3935",
         "summary": "using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library",
         "tags": [
@@ -2484,7 +2484,7 @@
         ]
     },
     "/electronics101/bjt/phasesplitter/": {
-        "id": 377,
+        "id": 378,
         "title": "BJT Phase Splitter",
         "summary": "simple unity-gain phase splitter in a little breadboard-compatible package",
         "tags": [
@@ -2493,7 +2493,7 @@
         ]
     },
     "/playground/lcd5110/diyshield/": {
-        "id": 376,
+        "id": 377,
         "title": "Nokia 5110 Shield",
         "summary": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping",
         "tags": [
@@ -2502,7 +2502,7 @@
         ]
     },
     "/playground/piezovibrationdetector/": {
-        "id": 375,
+        "id": 376,
         "title": "PiezoVibrationDetector",
         "summary": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator",
         "tags": [
@@ -2511,7 +2511,7 @@
         ]
     },
     "/radio/threetransistorshortwavereceiver/": {
-        "id": 374,
+        "id": 375,
         "title": "Three Transistor Shortwave Receiver",
         "summary": "building a simple 3-transistor regenerative receiver for HF shortwave",
         "tags": [
@@ -2520,7 +2520,7 @@
         ]
     },
     "/electronics101/voltagereference/lt1019/": {
-        "id": 373,
+        "id": 374,
         "title": "VoltageReference/LT1019",
         "summary": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference",
         "tags": [
@@ -2528,7 +2528,7 @@
         ]
     },
     "/audio/audioeffectschips/px835/": {
-        "id": 372,
+        "id": 373,
         "title": "PX835 Audio Effects Chip",
         "summary": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip",
         "tags": [
@@ -2537,7 +2537,7 @@
         ]
     },
     "/equipment/millivoltmeterdiy/": {
-        "id": 371,
+        "id": 372,
         "title": "MilliVoltmeterDIY",
         "summary": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
@@ -2548,7 +2548,7 @@
         ]
     },
     "/electronics101/bjt/commonemitteramplifier/": {
-        "id": 370,
+        "id": 371,
         "title": "CommonEmitterAmplifier",
         "summary": "all about BJT common-emitter amplifier biasing and class of operation",
         "tags": [
@@ -2556,7 +2556,7 @@
         ]
     },
     "/electronics101/digitaswitch/ts3a5018/": {
-        "id": 369,
+        "id": 370,
         "title": "DigitaSwitch/TS3A5018",
         "summary": "testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo",
         "tags": [
@@ -2566,7 +2566,7 @@
         ]
     },
     "/boldportclub/ananas/": {
-        "id": 368,
+        "id": 369,
         "title": "Ananas",
         "summary": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!",
         "tags": [
@@ -2575,7 +2575,7 @@
         ]
     },
     "/audio/granularsynth/": {
-        "id": 367,
+        "id": 368,
         "title": "GranularSynth",
         "summary": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?",
         "tags": [
@@ -2584,7 +2584,7 @@
         ]
     },
     "/playground/nrf24/scanner/": {
-        "id": 366,
+        "id": 367,
         "title": "nRF24/Scanner",
         "summary": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display",
         "tags": [
@@ -2593,7 +2593,7 @@
         ]
     },
     "/playground/lcd5110/adafruitsoftwarespi/": {
-        "id": 365,
+        "id": 366,
         "title": "Lcd5110/AdafruitSoftwareSPI",
         "summary": "a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library",
         "tags": [
@@ -2602,7 +2602,7 @@
         ]
     },
     "/playground/lcd5110/adafruithardwarespi/": {
-        "id": 364,
+        "id": 365,
         "title": "Lcd5110/AdafruitHardwareSPI",
         "summary": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library",
         "tags": [
@@ -2611,7 +2611,7 @@
         ]
     },
     "/playground/classicnokia/": {
-        "id": 363,
+        "id": 364,
         "title": "ClassicNokia",
         "summary": "just a quick transcription of the classic Nokia 3310 ringtone for Arduino",
         "tags": [
@@ -2620,7 +2620,7 @@
         ]
     },
     "/boldportclub/binco/": {
-        "id": 362,
+        "id": 363,
         "title": "BINCO",
         "summary": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club",
         "tags": [
@@ -2631,7 +2631,7 @@
         ]
     },
     "/audio/audioeffectschips/h83a/": {
-        "id": 361,
+        "id": 362,
         "title": "H83A Audio Effects Chip",
         "summary": "figuring out how to use the H-83A \"12 songs\" music chip",
         "tags": [
@@ -2640,7 +2640,7 @@
         ]
     },
     "/playground/tft/color128x128/": {
-        "id": 360,
+        "id": 361,
         "title": "TFT/Color128x128",
         "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries",
         "tags": [
@@ -2649,7 +2649,7 @@
         ]
     },
     "/electronics101/voltagereference/tl431/shuntregulator/": {
-        "id": 359,
+        "id": 360,
         "title": "TL431/ShuntRegulator",
         "summary": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim",
         "tags": [
@@ -2659,7 +2659,7 @@
         ]
     },
     "/audio/audioeffectschips/hs088/": {
-        "id": 358,
+        "id": 359,
         "title": "HS088 Audio Effects Chip",
         "summary": "figuring out the HS088 \"Ding Dong\" audio effects chip",
         "tags": [
@@ -2668,7 +2668,7 @@
         ]
     },
     "/electronics101/power/switchmodepowersupplies/mc34063/modulekit/": {
-        "id": 357,
+        "id": 358,
         "title": "MC34063 Boost Converter Kit",
         "summary": "build and test an MC34063-based boost converter",
         "tags": [
@@ -2676,7 +2676,7 @@
         ]
     },
     "/boldportclub/themonarch/": {
-        "id": 356,
+        "id": 357,
         "title": "BoldportClub/TheMonarch",
         "summary": "the third in a series of beautiful electronic \"bug\" boards from the Boldport Club, Project #18 October 2017",
         "tags": [
@@ -2687,7 +2687,7 @@
         ]
     },
     "/audio/audioeffectschips/px088a/": {
-        "id": 355,
+        "id": 356,
         "title": "PX088A Audio Effects Chip",
         "summary": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip",
         "tags": [
@@ -2696,7 +2696,7 @@
         ]
     },
     "/kraft/snowflake/": {
-        "id": 354,
+        "id": 355,
         "title": "Snow Flake",
         "summary": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project",
         "tags": [
@@ -2706,7 +2706,7 @@
         ]
     },
     "/kinetics/spiderbot/": {
-        "id": 353,
+        "id": 354,
         "title": "SpiderBot",
         "summary": "Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system",
         "tags": [
@@ -2715,7 +2715,7 @@
         ]
     },
     "/electronics101/digitallogic/dflipflop/": {
-        "id": 352,
+        "id": 353,
         "title": "D Flip-Flop",
         "summary": "building a clocked D Flip-flop with 74LS00 NAND gates",
         "tags": [
@@ -2724,7 +2724,7 @@
         ]
     },
     "/radio/sdr/decodingacars/": {
-        "id": 351,
+        "id": 352,
         "title": "Decoding ACARS",
         "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX",
         "tags": [
@@ -2733,7 +2733,7 @@
         ]
     },
     "/radio/sdr/rtlsdrdongle/": {
-        "id": 350,
+        "id": 351,
         "title": "RTL-SDR Dongle",
         "summary": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)",
         "tags": [
@@ -2742,7 +2742,7 @@
         ]
     },
     "/kraft/circuitscribe/litewings/": {
-        "id": 349,
+        "id": 350,
         "title": "LiteWings",
         "summary": "learning about conductive ink with the CircuitScribe LiteWings kit",
         "tags": [
@@ -2751,7 +2751,7 @@
         ]
     },
     "/boldportclub/stringy/demoburner/": {
-        "id": 348,
+        "id": 349,
         "title": "stringy/DemoBurner",
         "summary": "burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler",
         "tags": [
@@ -2760,7 +2760,7 @@
         ]
     },
     "/electronics101/digitallogic/dlatch/": {
-        "id": 347,
+        "id": 348,
         "title": "D Latch",
         "summary": "building a D Latch with 74LS00 NAND gates",
         "tags": [
@@ -2769,7 +2769,7 @@
         ]
     },
     "/electronics101/connectors/rf/": {
-        "id": 346,
+        "id": 347,
         "title": "RF Connectors",
         "summary": "notes on miscellaneous RF connectors",
         "tags": [
@@ -2778,7 +2778,7 @@
         ]
     },
     "/electronics101/digitallogic/srlatchwithnandgates/": {
-        "id": 345,
+        "id": 346,
         "title": "NAND Gate SR Latch",
         "summary": "Set-Reset latch implemented with NAND gates",
         "tags": [
@@ -2787,7 +2787,7 @@
         ]
     },
     "/boldportclub/mostap/": {
-        "id": 344,
+        "id": 345,
         "title": "BoldportClub/mostap",
         "summary": "upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.",
         "tags": [
@@ -2796,7 +2796,7 @@
         ]
     },
     "/esp8266/micropython/gettingstarted/": {
-        "id": 343,
+        "id": 344,
         "title": "ESP8266/micropython/GettingStarted",
         "summary": "getting MicroPython up and running with an ESP-01 ESP8266",
         "tags": [
@@ -2805,7 +2805,7 @@
         ]
     },
     "/esp8266/sensors/dht11/": {
-        "id": 342,
+        "id": 343,
         "title": "ESP8266/Sensors/DHT11",
         "summary": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
         "tags": [
@@ -2814,7 +2814,7 @@
         ]
     },
     "/esp8266/morseblinky/": {
-        "id": 341,
+        "id": 342,
         "title": "ESP8266/MorseBlinky",
         "summary": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker",
         "tags": [
@@ -2822,7 +2822,7 @@
         ]
     },
     "/electronics101/power/usbpowersupplykit/": {
-        "id": 340,
+        "id": 341,
         "title": "USB Power Supply Kit",
         "summary": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up",
         "tags": [
@@ -2831,7 +2831,7 @@
         ]
     },
     "/boldportclub/ixpando/": {
-        "id": 339,
+        "id": 340,
         "title": "BoldportClub/IxpandO",
         "summary": "an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input",
         "tags": [
@@ -2841,7 +2841,7 @@
         ]
     },
     "/electronics101/guitareffects/delaykit/": {
-        "id": 338,
+        "id": 339,
         "title": "DelayKit",
         "summary": "build and test a PT2399-based analogue delay pedal kit",
         "tags": [
@@ -2850,7 +2850,7 @@
         ]
     },
     "/kraft/glowball/": {
-        "id": 337,
+        "id": 338,
         "title": "GlowBall",
         "summary": "building LED effects for a Glass Eye Studio Celestial Planet Weight",
         "tags": [
@@ -2861,7 +2861,7 @@
         ]
     },
     "/electronics101/rgbledglow/": {
-        "id": 336,
+        "id": 337,
         "title": "RGB LED Glow Effects",
         "summary": "rainbow glow effects with an RGB LED and OpAmp oscillators",
         "tags": [
@@ -2870,7 +2870,7 @@
         ]
     },
     "/electronics101/oscillators/comparatorrelaxation/": {
-        "id": 335,
+        "id": 336,
         "title": "Comparator Relaxation Oscillator",
         "summary": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp",
         "tags": [
@@ -2879,7 +2879,7 @@
         ]
     },
     "/electronics101/mcp2200/chaser/": {
-        "id": 334,
+        "id": 335,
         "title": "MCP2200/Chaser",
         "summary": "using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs",
         "tags": [
@@ -2889,7 +2889,7 @@
         ]
     },
     "/electronics101/mcp2200/devkit/": {
-        "id": 333,
+        "id": 334,
         "title": "MCP2200/DevKit",
         "summary": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host",
         "tags": [
@@ -2898,7 +2898,7 @@
         ]
     },
     "/playground/voltageselfmeasurement/": {
-        "id": 332,
+        "id": 333,
         "title": "VoltageSelfMeasurement",
         "summary": "self-measurement of an Arduino's supply voltage (Vcc)",
         "tags": [
@@ -2907,7 +2907,7 @@
         ]
     },
     "/electronics101/oscillators/rcphaseshiftbjt/": {
-        "id": 331,
+        "id": 332,
         "title": "RCPhaseShiftBJT",
         "summary": "testing an RC phase-shift oscillator using a BJT amplifier",
         "tags": [
@@ -2917,7 +2917,7 @@
         ]
     },
     "/pic/gettingblinky/": {
-        "id": 330,
+        "id": 331,
         "title": "PIC/GettingBlinky",
         "summary": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
         "tags": [
@@ -2926,7 +2926,7 @@
         ]
     },
     "/electronics101/power/any2anypowerpack/": {
-        "id": 329,
+        "id": 330,
         "title": "Any 2 Any Power Pack",
         "summary": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors",
         "tags": [
@@ -2934,7 +2934,7 @@
         ]
     },
     "/electronics101/connectors/power/": {
-        "id": 328,
+        "id": 329,
         "title": "PowerConnectors",
         "summary": "obsessing over all manner of DC power connectors",
         "tags": [
@@ -2942,7 +2942,7 @@
         ]
     },
     "/electronics101/555timer/voltagecontrolledoscillator/": {
-        "id": 327,
+        "id": 328,
         "title": "VoltageControlledOscillator/555",
         "summary": "a voltage-controlled oscillator (VCO) using the 555 timer",
         "tags": [
@@ -2952,7 +2952,7 @@
         ]
     },
     "/electronics101/mixers/rfdiodering/": {
-        "id": 326,
+        "id": 327,
         "title": "Mixers/RFDiodeRing",
         "summary": "a diode ring double-balanced frequency mixer",
         "tags": [
@@ -2961,7 +2961,7 @@
         ]
     },
     "/electronics101/mixers/": {
-        "id": 325,
+        "id": 326,
         "title": "Mixers",
         "summary": "all about frequency mixers",
         "tags": [
@@ -2970,7 +2970,7 @@
         ]
     },
     "/boldportclub/spoolt/": {
-        "id": 324,
+        "id": 325,
         "title": "BoldportClub/spoolt",
         "summary": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)",
         "tags": [
@@ -2979,7 +2979,7 @@
         ]
     },
     "/equipment/labrador/": {
-        "id": 323,
+        "id": 324,
         "title": "Labrador",
         "summary": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software",
         "tags": [
@@ -2988,7 +2988,7 @@
         ]
     },
     "/boldportclub/stringy/": {
-        "id": 322,
+        "id": 323,
         "title": "BoldportClub/stringy",
         "summary": "building and playing (mainly playing) the Boldport Club Stringy (Project #14)",
         "tags": [
@@ -2998,7 +2998,7 @@
         ]
     },
     "/boldportclub/cordwood-too/fidgetcube/": {
-        "id": 321,
+        "id": 322,
         "title": "BoldportClub/cordwood-too/FidgetCube",
         "summary": "making a Fidget Cube controller for the Boldport Cordwood Too",
         "tags": [
@@ -3008,7 +3008,7 @@
         ]
     },
     "/boldportclub/cordwood-too/": {
-        "id": 320,
+        "id": 321,
         "title": "BoldportClub/cordwood-too",
         "summary": "the Cordwood Puzzle returns! Boldport Club Project #13, May 2017",
         "tags": [
@@ -3018,7 +3018,7 @@
         ]
     },
     "/electronics101/digitallogic/syncjkcounter/": {
-        "id": 319,
+        "id": 320,
         "title": "Synchronous JK Counter",
         "summary": "a synchronous 8-bit counter built with JK Flip-Flops",
         "tags": [
@@ -3027,7 +3027,7 @@
         ]
     },
     "/electronics101/555timer/digitallogicclock/": {
-        "id": 318,
+        "id": 319,
         "title": "DigitalLogicClock",
         "summary": "build a flexible, low-frequency digital logic clock module",
         "tags": [
@@ -3036,7 +3036,7 @@
         ]
     },
     "/electronics101/555timer/bistable/": {
-        "id": 317,
+        "id": 318,
         "title": "Bistable",
         "summary": "using the 555 timer as a bistable latch and button debouncer",
         "tags": [
@@ -3044,7 +3044,7 @@
         ]
     },
     "/electronics101/schmitttrigger/basicdiscrete/": {
-        "id": 316,
+        "id": 317,
         "title": "Discrete Schmitt Trigger",
         "summary": "Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components",
         "tags": [
@@ -3053,7 +3053,7 @@
         ]
     },
     "/boldportclub/qsopbreakout/": {
-        "id": 315,
+        "id": 316,
         "title": "BoldportClub/QSOPBreakout",
         "summary": "all about soldering and the Boldport Club QSOP breakout board",
         "tags": [
@@ -3062,7 +3062,7 @@
         ]
     },
     "/electronics101/power/switchmodepowersupplies/mt3608/variableboost/": {
-        "id": 314,
+        "id": 315,
         "title": "MT3608 Variable Boost",
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter",
         "tags": [
@@ -3071,7 +3071,7 @@
         ]
     },
     "/playground/eeprom/at28c16/peprogrammer/": {
-        "id": 313,
+        "id": 314,
         "title": "AT28C16 EEPROM Programmer",
         "summary": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander",
         "tags": [
@@ -3080,7 +3080,7 @@
         ]
     },
     "/electronics101/mcp23s17/": {
-        "id": 312,
+        "id": 313,
         "title": "MCP23S17",
         "summary": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface",
         "tags": [
@@ -3089,7 +3089,7 @@
         ]
     },
     "/boldportclub/thematrix/firecracker/": {
-        "id": 311,
+        "id": 312,
         "title": "TheMatrix/Firecracker",
         "summary": "a firecracker simulacrum running on the BoldportClub Matrix",
         "tags": [
@@ -3100,7 +3100,7 @@
         ]
     },
     "/boldportclub/juice/": {
-        "id": 310,
+        "id": 311,
         "title": "BoldportClub/Juice",
         "summary": "building the Boldport Juice battery replacement kit (Project #12)",
         "tags": [
@@ -3110,7 +3110,7 @@
         ]
     },
     "/radio/fm/tea5767/": {
-        "id": 309,
+        "id": 310,
         "title": "TEA5767 FM Receiver",
         "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino",
         "tags": [
@@ -3120,7 +3120,7 @@
         ]
     },
     "/electronics101/connectors/audio/": {
-        "id": 308,
+        "id": 309,
         "title": "AudioConnectors",
         "summary": "notes on miscellaneous audio connectors",
         "tags": [
@@ -3129,7 +3129,7 @@
         ]
     },
     "/playground/led7segment/combinationallogicdriver/": {
-        "id": 307,
+        "id": 308,
         "title": "7-Segment Combinational Logic",
         "summary": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic",
         "tags": [
@@ -3140,7 +3140,7 @@
         ]
     },
     "/boldportclub/thematrix/keypadcontrol/": {
-        "id": 306,
+        "id": 307,
         "title": "TheMatrix/KeypadControl",
         "summary": "use a 20-button keypad to write a scrolling message on the Boldport Matrix",
         "tags": [
@@ -3150,7 +3150,7 @@
         ]
     },
     "/playground/keyboardmatrixmodule/switchinterrupts/": {
-        "id": 305,
+        "id": 306,
         "title": "KeyboardMatrixModule/SwitchInterrupts",
         "summary": "demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library",
         "tags": [
@@ -3159,7 +3159,7 @@
         ]
     },
     "/playground/keyboardmatrixmodule/ledcontrol/": {
-        "id": 304,
+        "id": 305,
         "title": "KeyboardMatrixModule/LedControl",
         "summary": "demo controlling the LEDs on a simple pushbutton/LED matrix module",
         "tags": [
@@ -3168,7 +3168,7 @@
         ]
     },
     "/playground/keyboardmatrixmodule/keymatrixinput/": {
-        "id": 303,
+        "id": 304,
         "title": "KeyboardMatrixModule/KeyMatrixInput",
         "summary": "demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP",
         "tags": [
@@ -3177,7 +3177,7 @@
         ]
     },
     "/playground/keyboardmatrixmodule/": {
-        "id": 302,
+        "id": 303,
         "title": "KeyboardMatrixModule",
         "summary": "demo a simple pushbutton/LED matrix module",
         "tags": [
@@ -3187,7 +3187,7 @@
         ]
     },
     "/boldportclub/thematrix/gameoflife/": {
-        "id": 301,
+        "id": 302,
         "title": "TheMatrix/GameOfLife",
         "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix",
         "tags": [
@@ -3197,7 +3197,7 @@
         ]
     },
     "/playground/dht11/basics/": {
-        "id": 300,
+        "id": 301,
         "title": "DHT11 Basics",
         "summary": "test basic temperature and humidity readings with the DHT11 sensor",
         "tags": [
@@ -3206,7 +3206,7 @@
         ]
     },
     "/boldportclub/thematrix/ledtest/": {
-        "id": 299,
+        "id": 300,
         "title": "TheMatrix/LedTest",
         "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library",
         "tags": [
@@ -3216,7 +3216,7 @@
         ]
     },
     "/boldportclub/thematrix/": {
-        "id": 298,
+        "id": 299,
         "title": "BoldportClub/TheMatrix",
         "summary": "building The Matrix (Boldport Club project #11) is an I\u00b2C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver",
         "tags": [

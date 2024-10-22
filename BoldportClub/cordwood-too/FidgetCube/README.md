@@ -1,4 +1,4 @@
-# #321 cordwood-too/FidgetCube
+# #322 cordwood-too/FidgetCube
 
 Fidget Cube controller for the Boldport Cordwood Too.
 

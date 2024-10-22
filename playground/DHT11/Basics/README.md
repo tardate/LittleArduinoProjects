@@ -1,4 +1,4 @@
-# #300 DHT11 Basics
+# #301 DHT11 Basics
 
 Test basic temperature and humidity readings with the DHT11 sensor.
 

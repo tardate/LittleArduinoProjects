@@ -1,4 +1,4 @@
-# #371 MilliVoltmeterDIY
+# #372 MilliVoltmeterDIY
 
 An ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
 

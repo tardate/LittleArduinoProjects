@@ -1,5 +1,5 @@
 {
-    "id": "#618",
+    "id": "#674",
     "name": "LDR Differential Comparator",
     "description": "Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)",
     "categories": "Sensors, OpAmp",

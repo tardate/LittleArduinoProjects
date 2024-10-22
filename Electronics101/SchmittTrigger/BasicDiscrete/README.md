@@ -1,4 +1,4 @@
-# #316 Basic Discrete Schmitt Trigger
+# #317 Basic Discrete Schmitt Trigger
 
 Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components.
 

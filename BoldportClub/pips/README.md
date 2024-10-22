@@ -1,4 +1,4 @@
-# #401 pips
+# #402 pips
 
 Rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter.
 

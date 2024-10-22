@@ -1,5 +1,5 @@
 {
-    "id": "#417",
+    "id": "#418",
     "name": "CommonEmitterHartley",
     "description": "build and test a BJT common-emitter Hartley oscillator",
     "categories": "BJT, Oscillators",

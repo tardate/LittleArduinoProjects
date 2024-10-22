@@ -1,4 +1,4 @@
-# #388 Two-stage Common Emitter Amplifier
+# #389 Two-stage Common Emitter Amplifier
 
 Designing a two-stage common-emitter BJT amplifier.
 

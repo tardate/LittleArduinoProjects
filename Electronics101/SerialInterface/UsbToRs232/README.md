@@ -1,4 +1,4 @@
-# #509 USB to RS-232 Adapter
+# #510 USB to RS-232 Adapter
 
 Building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets.
 

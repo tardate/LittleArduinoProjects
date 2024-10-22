@@ -1,4 +1,4 @@
-# #536 Schmitt Switch Debouncer
+# #537 Schmitt Switch Debouncer
 
 Testing a simple Schmitt Trigger debounce circuit using a 74HC14.
 

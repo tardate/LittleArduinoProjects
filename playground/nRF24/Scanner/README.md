@@ -1,4 +1,4 @@
-# #366 nRF24/Scanner
+# #367 nRF24/Scanner
 
 A 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display.
 

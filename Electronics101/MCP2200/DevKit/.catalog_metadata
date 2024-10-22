@@ -1,5 +1,5 @@
 {
-    "id": "#333",
+    "id": "#334",
     "name": "MCP2200/DevKit",
     "description": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host",
     "categories": "UART, USB",

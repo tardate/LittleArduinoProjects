@@ -1,4 +1,4 @@
-# #548 Bare Metal C on the Blue Pill
+# #549 Bare Metal C on the Blue Pill
 
 Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset.
 

@@ -1,4 +1,4 @@
-# #305 KeyboardMatrixModule/SwitchInterrupts
+# #306 KeyboardMatrixModule/SwitchInterrupts
 
 Demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library.
 

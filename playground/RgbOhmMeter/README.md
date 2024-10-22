@@ -1,4 +1,4 @@
-# #578 RGB Auto-ranging Ohmmeter
+# #587 RGB Auto-ranging Ohmmeter
 
 An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance.
 

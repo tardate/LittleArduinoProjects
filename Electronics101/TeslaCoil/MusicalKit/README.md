@@ -1,4 +1,4 @@
-# #497 Tesla Coil Plasma Speaker Kit
+# #498 Tesla Coil Plasma Speaker Kit
 
 Playing with a Tesla coil circuit that also acts as an audio speaker with pulsing LED effects.
 

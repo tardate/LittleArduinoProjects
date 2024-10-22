@@ -1,4 +1,4 @@
-# #602 Long Running Timer
+# #631 Long Running Timer
 
 Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC556C.
 

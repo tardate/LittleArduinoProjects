@@ -1,5 +1,5 @@
 {
-    "id": "#436",
+    "id": "#437",
     "name": "QX5252JouleThief",
     "description": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery",
     "categories": "Power, LED",

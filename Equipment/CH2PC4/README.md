@@ -1,4 +1,4 @@
-# #627 CH2PC4 NiMH Charger
+# #691 CH2PC4 NiMH Charger
 
 A few quick notes on the Energizer NiMH charger CH2PC4.
 

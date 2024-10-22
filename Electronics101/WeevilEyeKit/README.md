@@ -1,4 +1,4 @@
-# #595 Weevil Eye Kit
+# #617 Weevil Eye Kit
 
 Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.
 

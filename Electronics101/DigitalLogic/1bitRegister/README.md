@@ -1,4 +1,4 @@
-# #559 1-bit Register
+# #562 1-bit Register
 
 Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register.
 

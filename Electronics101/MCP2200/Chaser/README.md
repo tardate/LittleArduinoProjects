@@ -1,4 +1,4 @@
-# #334 MCP2200/Chaser
+# #335 MCP2200/Chaser
 
 Using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs.
 

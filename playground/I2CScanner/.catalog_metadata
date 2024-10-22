@@ -1,5 +1,5 @@
 {
-    "id": "#396",
+    "id": "#397",
     "name": "I2CScanner",
     "description": "scanning for I\u00b2C devices with an Arduino",
     "categories": "I2C, Arduino",

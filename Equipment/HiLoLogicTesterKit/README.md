@@ -1,4 +1,4 @@
-# #593 Hi-Lo Logic Tester Kit
+# #612 Hi-Lo Logic Tester Kit
 
 Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.
 

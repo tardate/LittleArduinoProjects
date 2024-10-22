@@ -1,4 +1,4 @@
-# #322 stringy
+# #323 stringy
 
 Building and playing (mainly playing) the Boldport Club Stringy (Project #14, June 2017).
 

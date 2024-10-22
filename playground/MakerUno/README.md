@@ -1,4 +1,4 @@
-# #422 MakerUno
+# #423 MakerUno
 
 Checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia.
 

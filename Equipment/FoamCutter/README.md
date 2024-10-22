@@ -1,4 +1,4 @@
-# #603 Foam Cutters
+# #632 Foam Cutters
 
 Examining various foam cutter designs and building a couple for small-scale foam sculpting.
 

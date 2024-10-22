@@ -1,4 +1,4 @@
-# #390 MilliVoltmeterDIY Custom PCB and Enclosure
+# #391 MilliVoltmeterDIY Custom PCB and Enclosure
 
 Custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference
 

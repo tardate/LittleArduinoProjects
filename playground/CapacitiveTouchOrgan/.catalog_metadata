@@ -1,5 +1,5 @@
 {
-    "id": "#395",
+    "id": "#396",
     "name": "CapacitiveTouchOrgan",
     "description": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino",
     "categories": "Audio, Sensors, MPR121",

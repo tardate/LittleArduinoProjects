@@ -1,4 +1,4 @@
-# #354 Snow Flake
+# #355 Snow Flake
 
 The Snow Flake is an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project.
 

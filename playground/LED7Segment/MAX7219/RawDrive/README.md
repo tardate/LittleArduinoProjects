@@ -1,4 +1,4 @@
-# #477 Raw MAX7219 7-Segment LED Driver
+# #478 Raw MAX7219 7-Segment LED Driver
 
 Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands.
 

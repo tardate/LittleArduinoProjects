@@ -1,4 +1,4 @@
-# #526 SSD1306 With u8g v2
+# #527 SSD1306 With u8g v2
 
 Testing an SSD1306 128x32 OLED with the new v2 u8g library over I²C.
 

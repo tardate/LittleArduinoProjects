@@ -1,4 +1,4 @@
-# #393 AT89C2051 Programmer
+# #394 AT89C2051 Programmer
 
 Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX.
 

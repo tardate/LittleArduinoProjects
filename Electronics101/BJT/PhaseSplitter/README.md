@@ -1,4 +1,4 @@
-# #377 BJT Phase Splitter
+# #378 BJT Phase Splitter
 
 Simple unity-gain phase splitter in a little breadboard-compatible package.
 

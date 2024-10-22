@@ -1,4 +1,4 @@
-# #301 TheMatrix/GameOfLife
+# #302 TheMatrix/GameOfLife
 
 A simple implementation of Conway's Game of Life on the Boldport Club Matrix.
 

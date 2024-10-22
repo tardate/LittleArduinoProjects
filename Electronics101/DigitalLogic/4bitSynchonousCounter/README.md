@@ -1,4 +1,4 @@
-# #563 4-bit Synchonous Counter
+# #566 4-bit Synchonous Counter
 
 An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear.
 

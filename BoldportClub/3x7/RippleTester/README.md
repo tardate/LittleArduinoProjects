@@ -1,4 +1,4 @@
-# #425 Boldport 3x7 RippleTester
+# #426 Boldport 3x7 RippleTester
 
 Using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7.
 

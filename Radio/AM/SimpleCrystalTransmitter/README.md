@@ -1,4 +1,4 @@
-# #469 Simple Crystal AM Transmitter
+# #470 Simple Crystal AM Transmitter
 
 Building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator.
 

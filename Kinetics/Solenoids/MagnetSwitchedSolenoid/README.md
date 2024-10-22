@@ -1,4 +1,4 @@
-# #490 Magnet-switched Solenoid
+# #491 Magnet-switched Solenoid
 
 Using a Hall effect sensor to trigger a solenoid with a fixed pulse.
 

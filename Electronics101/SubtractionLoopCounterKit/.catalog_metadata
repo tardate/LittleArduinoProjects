@@ -1,5 +1,5 @@
 {
-    "id": "#513",
+    "id": "#514",
     "name": "Subtraction Loop Counter Kit",
     "description": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
     "categories": "CMOS/TTL",

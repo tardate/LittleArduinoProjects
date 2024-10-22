@@ -1,4 +1,4 @@
-# #461 HX108-2 AM Receiver
+# #462 HX108-2 AM Receiver
 
 Build and analyse the HX108-2 superheterodyne AM MW radio receiver kit.
 

@@ -1,4 +1,4 @@
-# #523 Lucky 4D Printer
+# #524 Lucky 4D Printer
 
 A "Lucky 4D" number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80).
 

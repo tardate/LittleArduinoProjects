@@ -1,4 +1,4 @@
-# #639 Digital Clock Kit
+# #740 Digital Clock Kit
 
 Build a CMOS digital logic clock kit and understand the operating principles of the circuit.
 

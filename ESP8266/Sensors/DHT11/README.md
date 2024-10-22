@@ -1,4 +1,4 @@
-# #342 Sensors/DHT11
+# #343 Sensors/DHT11
 
 Reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino.
 

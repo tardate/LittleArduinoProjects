@@ -1,5 +1,5 @@
 {
-    "id": "#489",
+    "id": "#490",
     "name": "555 Falling Edge Detector",
     "description": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse",
     "categories": "555 Timer",

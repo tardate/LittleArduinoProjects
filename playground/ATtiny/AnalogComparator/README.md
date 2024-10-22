@@ -1,4 +1,4 @@
-# #589 ATtiny Analog Comparator
+# #605 ATtiny Analog Comparator
 
 Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator
 

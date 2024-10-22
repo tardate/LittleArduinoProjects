@@ -1,4 +1,4 @@
-# #613 3-Digit LCD Panel
+# #663 3-Digit LCD Panel
 
 Testing a small 3V, 3-digit LCD panel with an example of driving the multiplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.
 

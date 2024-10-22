@@ -1,5 +1,5 @@
 {
-    "id": "#580",
+    "id": "#591",
     "name": "Tydirium Strobe Module",
     "description": "Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.",
     "categories": "Arduino, ATmel, LED",

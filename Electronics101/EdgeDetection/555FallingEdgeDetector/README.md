@@ -1,4 +1,4 @@
-# #489 555 Falling Edge Detector
+# #490 555 Falling Edge Detector
 
 Using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse.
 

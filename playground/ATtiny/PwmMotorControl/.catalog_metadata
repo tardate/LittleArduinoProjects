@@ -1,5 +1,5 @@
 {
-    "id": "#629",
+    "id": "#695",
     "name": "ATtiny PMW Motor Control",
     "description": "Variable speed PWM motor control with an ATtiny85",
     "categories": "Motors, Arduino, AVR",

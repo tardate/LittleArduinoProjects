@@ -1,4 +1,4 @@
-# #574 LED Sequencer Module
+# #583 LED Sequencer Module
 
 Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222).
 

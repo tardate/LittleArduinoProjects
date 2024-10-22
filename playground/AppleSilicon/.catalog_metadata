@@ -1,5 +1,5 @@
 {
-    "id": "#636",
+    "id": "#735",
     "name": "Arduino on Apple Silicon",
     "description": "Using the Arduino IDE with Apple Silicon (ARM) machines",
     "categories": "Arduino, AVR, Apple, macOS",

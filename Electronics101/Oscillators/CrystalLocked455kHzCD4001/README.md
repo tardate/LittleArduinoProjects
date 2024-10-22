@@ -1,4 +1,4 @@
-# #624 Crystal-locked 455kHz Oscillator
+# #687 Crystal-locked 455kHz Oscillator
 
 Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates.
 

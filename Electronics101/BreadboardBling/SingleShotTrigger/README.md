@@ -1,4 +1,4 @@
-# #562 Single-Shot Trigger
+# #565 Single-Shot Trigger
 
 A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard.
 

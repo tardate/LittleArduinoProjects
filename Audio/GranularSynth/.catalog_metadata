@@ -1,5 +1,5 @@
 {
-    "id": "#367",
+    "id": "#368",
     "name": "GranularSynth",
     "description": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?",
     "categories": "Audio, Arduino",

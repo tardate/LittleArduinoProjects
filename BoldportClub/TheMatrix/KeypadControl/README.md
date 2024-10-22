@@ -1,4 +1,4 @@
-# #306 TheMatrix/KeypadControl
+# #307 TheMatrix/KeypadControl
 
 Use a 20-button keypad to write a scrolling message on the Boldport Matrix.
 

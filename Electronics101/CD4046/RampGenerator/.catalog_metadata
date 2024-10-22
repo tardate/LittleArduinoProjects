@@ -1,5 +1,5 @@
 {
-    "id": "#542",
+    "id": "#543",
     "name": "PLL Ramp Generator",
     "description": "A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.",
     "categories": "CD4046, Oscillators",

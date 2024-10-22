@@ -1,4 +1,4 @@
-# #374 Three Transistor Shortwave Receiver
+# #375 Three Transistor Shortwave Receiver
 
 Building a simple 3-transistor regenerative receiver for HF shortwave.
 

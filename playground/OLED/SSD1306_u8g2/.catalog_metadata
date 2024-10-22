@@ -1,5 +1,5 @@
 {
-    "id": "#526",
+    "id": "#527",
     "name": "SSD1306 With u8g v2",
     "description": "Testing an SSD1306 128x32 OLED with the new v2 u8g library over I\u00b2C",
     "categories": "OLED, Arduino",

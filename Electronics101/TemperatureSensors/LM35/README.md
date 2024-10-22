@@ -1,4 +1,4 @@
-# #582 LM35 Temperature Sensor
+# #595 LM35 Temperature Sensor
 
 Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD.
 

@@ -1,4 +1,4 @@
-# #427 3x7/LRThreeDigitDemo
+# #428 3x7/LRThreeDigitDemo
 
 Driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library.
 

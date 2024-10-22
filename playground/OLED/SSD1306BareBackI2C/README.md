@@ -1,4 +1,4 @@
-# #529 SSD1306 OLED Bareback I²C
+# #530 SSD1306 OLED Bareback I²C
 
 Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I²C.
 

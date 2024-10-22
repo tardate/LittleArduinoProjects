@@ -1,4 +1,4 @@
-# #507 Using mDNS
+# #508 Using mDNS
 
 Delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network.
 
