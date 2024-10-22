@@ -60,14 +60,6 @@ Here's a quick demo..
 
 __notes__
 
-### Research and References
-
-### Paint Scheme
-
-| Feature               | Color                | Recommended | Paint Used |
-|-----------------------|----------------------|-------------|------------|
-|                       |                      |             |            |
-
 ### Circuit Design
 
 ![bb](./assets/${project_name}_bb.jpg?raw=true)
@@ -82,7 +74,6 @@ __notes__
 
 ## Credits and References
 
-* [this project on scalemates](xxx)
 * [name](url)
 * [name](url)
 * [name](url)
@@ -138,7 +129,6 @@ void loop() {
 EOS
 
   cp catalog/templates/template.fzz "${full_path}/${project_name}.fzz"
-  cp catalog/templates/cover1440x400.jpg ${full_path}/assets
 
   local backup_root=${LITTLEARDUINOPROJECTS_ASSET_BACKUP}
   if [ "${backup_root}" != "" ]; then

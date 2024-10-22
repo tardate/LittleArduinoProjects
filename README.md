@@ -1,6 +1,6 @@
-# 642 Little Electronic Art Projects
+# 643 Little Electronic Art Projects
 
-> Latest addition:sparkles: [USB 3 Power Adapter Board](./Electronics101/USB/Usb3PowerAdapter) - Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A
+> Latest addition:sparkles: [PWM Motor Control Module](./Electronics101/PWM/MotorControlModule) - Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
