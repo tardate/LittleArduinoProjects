@@ -1,4 +1,13 @@
 {
+    "/electronics101/pwm/motorcontrolmodule/": {
+        "id": 759,
+        "title": "PWM Motor Control Module",
+        "summary": "Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.",
+        "tags": [
+            "PWM",
+            "Power"
+        ]
+    },
     "/electronics101/usb/usb3poweradapter/": {
         "id": 758,
         "title": "USB 3 Power Adapter Board",
@@ -3852,7 +3861,7 @@
     },
     "/electronics101/pwm/generalpurposehighsidecontroller/": {
         "id": 233,
-        "title": "PWM/GeneralPurposeHighSideController",
+        "title": "General Purpose High-Side Controller",
         "summary": "build and test a general-purpose high-side PWM controller",
         "tags": [
             "PWM",

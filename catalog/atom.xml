@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2024-10-22T06:35:47Z</updated>
+  <updated>2024-10-22T09:43:54Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/pwm/motorcontrolmodule/</id>
+    <link href="https://leap.tardate.com/electronics101/pwm/motorcontrolmodule/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/pwm/motorcontrolmodule/assets/motorcontrolmodule_build.jpg</g:image_link>
+    <updated>2024-10-22T09:43:00Z</updated>
+    <title>#759 PWM Motor Control Module</title>
+    <summary>Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/pwm/motorcontrolmodule/assets/motorcontrolmodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="PWM"/>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/usb/usb3poweradapter/</id>
     <link href="https://leap.tardate.com/electronics101/usb/usb3poweradapter/"/>
@@ -4687,7 +4698,7 @@
     <link href="https://leap.tardate.com/electronics101/pwm/generalpurposehighsidecontroller/"/>
     <g:image_link>https://leap.tardate.com/electronics101/pwm/generalpurposehighsidecontroller/assets/generalpurposehighsidecontroller_build.jpg</g:image_link>
     <updated>2016-08-11T16:02:26Z</updated>
-    <title>#233 PWM/GeneralPurposeHighSideController</title>
+    <title>#233 General Purpose High-Side Controller</title>
     <summary>build and test a general-purpose high-side PWM controller</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a general-purpose high-side PWM controller&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/pwm/generalpurposehighsidecontroller/assets/generalpurposehighsidecontroller_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="PWM"/>

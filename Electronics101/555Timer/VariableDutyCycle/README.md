@@ -7,7 +7,6 @@ so that the duty cycle variation is clearly visible:
 
 [![555Timer/VariableDutyCycle](https://img.youtube.com/vi/UJAR0J1mjsE/0.jpg)](https://www.youtube.com/watch?v=UJAR0J1mjsE)
 
-
 ## Notes
 
 For many applications we want variable duty cycle while maintaining a fixed frequency.
@@ -24,6 +23,7 @@ The formulae for calculating timings are given in the 555 datasheet:
     duty cycle high % = t(high) : t(low) = (R1 + R2)/(R1 + 2 * R2)
 
 In order to adjust duty cycle without adjusting frequency, it follows that:
+
 * if we increase R1 by ∆Ω, we must reduce R2 by ∆/2 Ω
 * if we decrease R1 by ∆Ω, we must increase R2 by ∆/2 Ω
 
@@ -52,7 +52,6 @@ Here are the predicted minimum, maximum and mid-point duty cycles and correspond
 
 The maximum frequency drift occurs near the midpoint, when R2 equals [26.67kΩ](https://www.wolframalpha.com/input/?i=10k%CE%A9+%2B+1%2F%281%2F50k%CE%A9+%2B+1%2F25k%CE%A9%29).
 It's only 11% down, which is about as accurate as I could hope for, in return for a duty cycle being continuously variable from 51% to 86%.
-
 
 ### Actual Results
 
@@ -86,4 +85,3 @@ In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [LEAP#016 AstableOscillator](../AstableOscillator) - the basic 555 timer astable circuit
 * [Visual 555 Calculator](http://visual555.tardate.com)
-

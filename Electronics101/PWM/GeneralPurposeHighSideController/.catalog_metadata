@@ -1,6 +1,6 @@
 {
     "id": "#233",
-    "name": "PWM/GeneralPurposeHighSideController",
+    "name": "General Purpose High-Side Controller",
     "description": "build and test a general-purpose high-side PWM controller",
     "categories": "PWM, 555 Timer, Oscillators, Power",
     "relative_path": "Electronics101/PWM/GeneralPurposeHighSideController",
