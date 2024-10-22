@@ -1,4 +1,4 @@
-# #381 CD4046/VCO
+# #382 CD4046/VCO
 
 Audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC.
 

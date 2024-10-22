@@ -1,4 +1,4 @@
-# #500 Single-cell Lithium Charger
+# #501 Single-cell Lithium Charger
 
 How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules.
 

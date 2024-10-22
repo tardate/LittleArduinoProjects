@@ -1,4 +1,4 @@
-# #549 Black Magic Probe
+# #550 Black Magic Probe
 
 Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX.
 

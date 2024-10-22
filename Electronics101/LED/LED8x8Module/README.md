@@ -1,4 +1,4 @@
-# #556 LED 8x8 Module
+# #557 LED 8x8 Module
 
 Building and using an 8x8 LED matrix with MAX7219 driver module.
 

@@ -1,4 +1,4 @@
-# #404 ATmegaSerialProgrammer
+# #405 ATmegaSerialProgrammer
 
 All about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP.
 

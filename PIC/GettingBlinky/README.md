@@ -1,4 +1,4 @@
-# #330 GettingBlinky
+# #331 GettingBlinky
 
 Getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!
 

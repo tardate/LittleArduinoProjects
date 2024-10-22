@@ -1,5 +1,5 @@
 {
-    "id": "#565",
+    "id": "#568",
     "name": "Beep Logic Probe",
     "description": "Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015",
     "categories": "Digital Logic, CMOS/TTL, Test Equipment",

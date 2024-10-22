@@ -1,4 +1,4 @@
-# #543 ShengYang 18650 Battery Shield
+# #544 ShengYang 18650 Battery Shield
 
 Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.
 

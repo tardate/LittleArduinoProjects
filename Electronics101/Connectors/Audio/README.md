@@ -1,4 +1,4 @@
-# #308 Audio Connectors
+# #309 Audio Connectors
 
 Notes on miscellaneous audio connectors.
 

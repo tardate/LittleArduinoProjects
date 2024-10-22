@@ -1,4 +1,4 @@
-# #483 Crystal-Locked 455 kHz AM Oscillator
+# #484 Crystal-Locked 455 kHz AM Oscillator
 
 A crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment.
 

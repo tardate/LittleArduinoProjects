@@ -1,4 +1,4 @@
-# #329 Power/Any2AnyPowerPack
+# #330 Power/Any2AnyPowerPack
 
 A 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors.
 

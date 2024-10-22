@@ -1,4 +1,4 @@
-# #386 GpsBasics
+# #387 GpsBasics
 
 Using a NEMA-compatible GPS module for time and location with an Arduino.
 

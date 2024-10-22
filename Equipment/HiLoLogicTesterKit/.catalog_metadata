@@ -1,5 +1,5 @@
 {
-    "id": "#593",
+    "id": "#612",
     "name": "Hi-Lo Logic Tester Kit",
     "description": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
     "categories": "CMOS/TTL, Digital Logic",

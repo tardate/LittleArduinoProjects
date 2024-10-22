@@ -1,5 +1,5 @@
 {
-    "id": "#537",
+    "id": "#538",
     "name": "Single-cell Charge/Boost Board",
     "description": "An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter",
     "categories": "Power, BMS",

@@ -1,4 +1,4 @@
-# #522 JP-QR701 Thermal Printer Basics
+# #523 JP-QR701 Thermal Printer Basics
 
 Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python.
 

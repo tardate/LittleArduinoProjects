@@ -1,4 +1,4 @@
-# #521 Remote Doorbell
+# #522 Remote Doorbell
 
 A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect.
 

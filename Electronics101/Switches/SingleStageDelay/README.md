@@ -1,4 +1,4 @@
-# #506 Single-stage Delay Switch
+# #507 Single-stage Delay Switch
 
 Comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components.
 

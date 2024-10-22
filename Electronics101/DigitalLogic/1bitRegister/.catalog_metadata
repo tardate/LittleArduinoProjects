@@ -1,5 +1,5 @@
 {
-    "id": "#559",
+    "id": "#562",
     "name": "1-bit Register",
     "description": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register",
     "categories": "Digital Logic, CMOS/TTL",

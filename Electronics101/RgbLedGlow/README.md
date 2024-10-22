@@ -1,4 +1,4 @@
-# #336 RGB LED Glow Effects
+# #337 RGB LED Glow Effects
 
 Rainbow glow effects with an RGB LED and OpAmp oscillators.
 

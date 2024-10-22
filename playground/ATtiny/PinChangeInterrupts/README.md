@@ -1,4 +1,4 @@
-# #528 ATtiny Pin Change Interrupts
+# #529 ATtiny Pin Change Interrupts
 
 How to use pin change interrupts with the ATtiny85
 

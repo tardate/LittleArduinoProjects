@@ -1,4 +1,4 @@
-# #520 CK9561 Audio Effects Chip
+# #521 CK9561 Audio Effects Chip
 
 Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!
 

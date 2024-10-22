@@ -1,4 +1,4 @@
-# #637 CH340 on Apple Silicon
+# #736 CH340 on Apple Silicon
 
 Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon
 

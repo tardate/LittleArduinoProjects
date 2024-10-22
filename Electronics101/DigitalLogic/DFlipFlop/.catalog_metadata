@@ -1,5 +1,5 @@
 {
-    "id": "#352",
+    "id": "#353",
     "name": "D Flip-Flop",
     "description": "building a clocked D Flip-flop with 74LS00 NAND gates",
     "categories": "Digital Logic, CMOS/TTL",

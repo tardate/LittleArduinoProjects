@@ -1,5 +1,5 @@
 {
-    "id": "#536",
+    "id": "#537",
     "name": "Schmitt Switch Debouncer",
     "description": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14",
     "categories": "Schmitt, CMOS/TTL",

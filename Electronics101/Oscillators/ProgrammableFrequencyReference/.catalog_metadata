@@ -1,5 +1,5 @@
 {
-    "id": "#626",
+    "id": "#689",
     "name": "Programmable Frequency Reference",
     "description": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
     "categories": "CMOS/TTL, Oscillators",

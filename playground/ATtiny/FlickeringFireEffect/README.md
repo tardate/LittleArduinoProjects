@@ -1,4 +1,4 @@
-# #630 Flickering Flame Effect
+# #696 Flickering Flame Effect
 
 A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85.
 

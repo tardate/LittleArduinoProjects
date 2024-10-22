@@ -1,5 +1,5 @@
 {
-    "id": "#516",
+    "id": "#517",
     "name": "555 Timer Fixed-duty VFO",
     "description": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)",
     "categories": "555 Timer, Oscillators",

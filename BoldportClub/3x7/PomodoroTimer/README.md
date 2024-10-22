@@ -1,4 +1,4 @@
-# #428 3x7 Pomodoro Timer
+# #429 3x7 Pomodoro Timer
 
 A Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328.
 

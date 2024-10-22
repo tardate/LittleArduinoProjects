@@ -1,4 +1,4 @@
-# #472 xdiskclk
+# #473 xdiskclk
 
 An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the "ex-disk clock".
 

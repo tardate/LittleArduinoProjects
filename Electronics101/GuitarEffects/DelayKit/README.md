@@ -1,4 +1,4 @@
-# #338 GuitarEffects/DelayKit
+# #339 GuitarEffects/DelayKit
 
 Build and test a PT2399-based delay pedal kit.
 

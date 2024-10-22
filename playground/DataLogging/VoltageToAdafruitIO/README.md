@@ -1,4 +1,4 @@
-# #439 Logging Voltage Measurements To Adafruit IO
+# #440 Logging Voltage Measurements To Adafruit IO
 
 Using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT.
 

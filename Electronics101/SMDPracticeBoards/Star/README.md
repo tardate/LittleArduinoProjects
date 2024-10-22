@@ -1,4 +1,4 @@
-# #597 Glowing Star SMD Practice Board
+# #620 Glowing Star SMD Practice Board
 
 Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.
 

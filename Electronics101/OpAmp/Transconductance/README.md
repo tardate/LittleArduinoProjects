@@ -1,4 +1,4 @@
-# #462 OpAmp Transconductance Amplifiers
+# #463 OpAmp Transconductance Amplifiers
 
 Understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp.
 

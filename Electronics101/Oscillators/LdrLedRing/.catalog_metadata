@@ -1,5 +1,5 @@
 {
-    "id": "#620",
+    "id": "#676",
     "name": "LED-LDR Ring Oscillator",
     "description": "Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.",
     "categories": "Oscillators, LED, LDR",

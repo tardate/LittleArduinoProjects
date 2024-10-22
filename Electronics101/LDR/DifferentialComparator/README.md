@@ -1,4 +1,4 @@
-# #618 LDR Differential Comparator
+# #674 LDR Differential Comparator
 
 Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR).
 

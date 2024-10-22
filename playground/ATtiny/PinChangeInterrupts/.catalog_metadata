@@ -1,5 +1,5 @@
 {
-    "id": "#528",
+    "id": "#529",
     "name": "ATtiny Pin Change Interrupts",
     "description": "How to use pin change interrupts with the ATtiny85",
     "categories": "Arduino, AVR",

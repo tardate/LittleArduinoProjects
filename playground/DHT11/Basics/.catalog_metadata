@@ -1,5 +1,5 @@
 {
-    "id": "#300",
+    "id": "#301",
     "name": "DHT11 Basics",
     "description": "test basic temperature and humidity readings with the DHT11 sensor",
     "categories": "Sensors, Arduino",

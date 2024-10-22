@@ -1,4 +1,4 @@
-# #555 555 SR Latch
+# #556 555 SR Latch
 
 Set/Reset latch with a 555 timer.
 

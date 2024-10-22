@@ -1,4 +1,4 @@
-# #516 555 Timer Fixed-duty VFO
+# #517 555 Timer Fixed-duty VFO
 
 Using an unconventional configuration of a variable frequency 555 timer oscillator with fixed duty cycle (and precise duty cycle fine adjustment).
 

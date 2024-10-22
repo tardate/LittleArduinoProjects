@@ -1,4 +1,4 @@
-# #626 Programmable Frequency Reference
+# #689 Programmable Frequency Reference
 
 Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz.
 

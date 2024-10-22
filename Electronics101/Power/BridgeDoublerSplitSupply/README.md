@@ -1,4 +1,4 @@
-# #510 Bridge Doubler Split Supply
+# #511 Bridge Doubler Split Supply
 
 An AC-powered bridge doubler supply with DC output governed by 7815/7915 ±15V DC linear regulation.
 

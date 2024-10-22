@@ -1,5 +1,5 @@
 {
-    "id": "#548",
+    "id": "#549",
     "name": "Bare Metal C on the Blue Pill",
     "description": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset",
     "categories": "STM32, C",

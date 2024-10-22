@@ -1,5 +1,5 @@
 {
-    "id": "#560",
+    "id": "#563",
     "name": "Dual Variable Mode Oscillator",
     "description": "Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency",
     "categories": "555 Timer, Oscillators",

@@ -1,4 +1,4 @@
-# #575 HPDL-1414
+# #584 HPDL-1414
 
 Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino.
 

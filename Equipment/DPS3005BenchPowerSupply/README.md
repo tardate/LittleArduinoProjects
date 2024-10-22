@@ -1,4 +1,4 @@
-# #406 DPS3005 Bench Power Supply
+# #407 DPS3005 Bench Power Supply
 
 Building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer.
 

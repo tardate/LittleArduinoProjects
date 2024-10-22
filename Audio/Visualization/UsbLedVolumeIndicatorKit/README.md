@@ -1,4 +1,4 @@
-# #611 USB Audio Level Indicator Kit
+# #653 USB Audio Level Indicator Kit
 
 An electret-input audio level kit based on cascading LM358 stages with LED indicators.
 

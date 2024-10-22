@@ -1,4 +1,4 @@
-# #468 LM386 Audio Amp
+# #469 LM386 Audio Amp
 
 A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting.
 

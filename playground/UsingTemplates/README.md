@@ -1,4 +1,4 @@
-# #485 UsingTemplates
+# #486 UsingTemplates
 
 Learning how to use C++ template functions in embedded projects with an Arduino.
 

@@ -1,4 +1,4 @@
-# #487 XOR-RC Edge Detector
+# #488 XOR-RC Edge Detector
 
 Dual edge detection with a 74LS86 XOR and RC circuit.
 

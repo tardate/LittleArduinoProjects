@@ -1,4 +1,4 @@
-# #565 Beep Logic Probe
+# #568 Beep Logic Probe
 
 Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015.
 

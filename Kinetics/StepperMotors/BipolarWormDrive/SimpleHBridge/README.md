@@ -1,4 +1,4 @@
-# #429 Bipolar Linear Stepper with an H-Bridge
+# #430 Bipolar Linear Stepper with an H-Bridge
 
 Testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!
 

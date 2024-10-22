@@ -1,4 +1,4 @@
-# #375 Piezo Vibration Detector and BPM Counter
+# #376 Piezo Vibration Detector and BPM Counter
 
 Counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator.
 

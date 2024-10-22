@@ -1,4 +1,4 @@
-# #457 FastAnalogRead
+# #458 FastAnalogRead
 
 How to increase the Arduino ADC analog sampling rate.
 

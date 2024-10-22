@@ -1,5 +1,5 @@
 {
-    "id": "#557",
+    "id": "#559",
     "name": "Slow Glow",
     "description": "A simple slowly-glowing LED effect using a 555 timer",
     "categories": "555 Timer, LED",

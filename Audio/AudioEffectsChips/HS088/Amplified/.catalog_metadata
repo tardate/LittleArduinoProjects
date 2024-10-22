@@ -1,5 +1,5 @@
 {
-    "id": "#498",
+    "id": "#499",
     "name": "HS088 Low-voltage Amplifier",
     "description": "adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip",
     "categories": "Audio, Music Chips",

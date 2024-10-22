@@ -1,4 +1,4 @@
-# #323 Labrador
+# #324 Labrador
 
 First look at the EspoTek Labrador USB "lab-on-a-board" hardware and software.
 

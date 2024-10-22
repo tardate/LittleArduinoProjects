@@ -1,4 +1,4 @@
-# #413 DecadeProgrammableResistor
+# #414 DecadeProgrammableResistor
 
 Building an old-fashioned 7-digit decade programmable resistor with push-button control.
 

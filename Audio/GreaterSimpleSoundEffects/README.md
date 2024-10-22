@@ -1,4 +1,4 @@
-# #511 Greater Simple Sound Effects
+# #512 Greater Simple Sound Effects
 
 Reviving a design from Elektor in 1980, with light and touch-sensor variations.
 The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.

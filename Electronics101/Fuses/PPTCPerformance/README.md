@@ -1,4 +1,4 @@
-# #518 PPTC Performance
+# #519 PPTC Performance
 
 Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses.
 

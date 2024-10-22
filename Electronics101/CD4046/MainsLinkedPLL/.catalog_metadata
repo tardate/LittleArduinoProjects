@@ -1,5 +1,5 @@
 {
-    "id": "#451",
+    "id": "#452",
     "name": "CD4046/MainsLinkedPLL",
     "description": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL",
     "categories": "Oscillators, PLL",

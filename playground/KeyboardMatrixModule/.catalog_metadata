@@ -1,5 +1,5 @@
 {
-    "id": "#302",
+    "id": "#303",
     "name": "KeyboardMatrixModule",
     "description": "demo a simple pushbutton/LED matrix module",
     "categories": "Arduino, LED, Human Input",

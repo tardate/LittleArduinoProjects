@@ -1,4 +1,4 @@
-# #481 Electret Sound-level Trigger
+# #482 Electret Sound-level Trigger
 
 A simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone.
 

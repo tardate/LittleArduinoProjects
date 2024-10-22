@@ -1,4 +1,4 @@
-# #642 USB 3 Power Adapter Board
+# #758 USB 3 Power Adapter Board
 
 Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A.
 

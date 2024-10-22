@@ -1,5 +1,5 @@
 {
-    "id": "#377",
+    "id": "#378",
     "name": "BJT Phase Splitter",
     "description": "simple unity-gain phase splitter in a little breadboard-compatible package",
     "categories": "BJT, Signals",

@@ -1,4 +1,4 @@
-# #400 pixie
+# #401 pixie
 
 Research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m.
 

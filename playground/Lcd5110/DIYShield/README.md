@@ -1,4 +1,4 @@
-# #376 Nokia 5110 Shield
+# #377 Nokia 5110 Shield
 
 Putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping.
 

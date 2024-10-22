@@ -1,5 +1,5 @@
 {
-    "id": "#332",
+    "id": "#333",
     "name": "VoltageSelfMeasurement",
     "description": "self-measurement of an Arduino's supply voltage (Vcc)",
     "categories": "Arduino, ADC",

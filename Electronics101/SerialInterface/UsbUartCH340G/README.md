@@ -1,4 +1,4 @@
-# #405 Custom CH340G USB to UART interface
+# #406 Custom CH340G USB to UART interface
 
 Build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P.
 

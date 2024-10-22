@@ -1,4 +1,4 @@
-# #505 Learning PCBmodE
+# #506 Learning PCBmodE
 
 Learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB.
 

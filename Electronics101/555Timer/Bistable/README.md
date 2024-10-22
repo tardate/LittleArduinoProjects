@@ -1,4 +1,4 @@
-# #317 555Timer/Bistable
+# #318 555Timer/Bistable
 
 Using the 555 timer as a bistable latch (debouncer).
 
