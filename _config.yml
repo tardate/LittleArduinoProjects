@@ -94,3 +94,43 @@ defaults:
       path: ""
     values:
       layout: "project"
+
+sections:
+  gallery:
+    title: Project Gallery
+    note: view the projects as an image gallery
+    url: "/gallery.html"
+    icons: "fa fa-film"
+  notebook:
+    title: Notebook
+    note: reference materials and other notes
+    url: "/notebook/"
+    icons: "fa fa-book"
+  feed:
+    title: Follow the Blog
+    note: follow projects and notes as they are published in your favourite feed reader
+    url: "/catalog/atom.xml"
+    icons: "fa fa-solid fa-rss"
+
+other_sites:
+  title: "Some Other Sites"
+  leap:
+    title: LittleArduinoProjects
+    title_long: "Little Electronic Art Projects"
+    note: "my collection of electronics projects, often involving an Arduino"
+    url: "https://leap.tardate.com/"
+  lck:
+    title: LittleCodingKata
+    title_long: "Little Coding Kata"
+    note: "my notes and test code on software development topics and tools"
+    url: "https://codingkata.tardate.com/"
+  lma:
+    title: LittleModelArt
+    title_long: "Little Model Art Projects"
+    note: "my collection of scale modelling, miniatures and other art projects"
+    url: "https://modelart.tardate.com/"
+  blog:
+    title: "My Personal Blog"
+    title_long: "My Personal Blog"
+    note: "occasional ramblings that don't belong anywhere else"
+    url: "https://blog.tardate.com/"

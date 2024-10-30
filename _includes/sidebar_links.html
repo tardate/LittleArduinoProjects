@@ -1,37 +1,58 @@
-<div class="list-group-item">
-  <p>
-    LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
-    Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
-  </p>
-  <p>
-    Projects are often inspired by things found wild on the net,
-    or ideas from the many great <a href="/notebook/">electronics podcasts and YouTube channels</a>.
-    Feel free to borrow liberally, and if you spot any issues do let me know (or send a PR!).
-    See the individual projects for credits where due.
-  </p>
-  <p>
-    For a while I have also included various scale modelling projects here too,
-    but I've now split those off into a new repository.
-    Check out <a href="https://modelart.tardate.com/">LittleModelArt</a> if you are looking for the modelling projects!
-  </p>
+<div class="list-group">
+  <div class="list-group-item active">
+    About {{ site.title }}
+  </div>
+  <div class="list-group-item">
+    <p>
+      LEAP is my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
+      Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
+    </p>
+    <p>
+      Projects are often inspired by things found wild on the net,
+      or ideas from the many great <a href="/notebook/">electronics podcasts and YouTube channels</a>.
+      Feel free to borrow liberally, and if you spot any issues do let me know or send a pull-request.
+    </p>
+    <p class="note">
+      NOTE: For a while I included various scale modelling projects here too,
+      but I've now split them off into a new repository:
+      check out <a href="https://modelart.tardate.com/">LittleModelArt</a>
+      if you are looking for these projects.
+    </p>
+  </div>
+  <a href="{{ site.sections.gallery.url  | prepend: site.baseurl }}" class="list-group-item">
+    <span class="{{ site.sections.gallery.icons }}" aria-hidden="true"></span>
+    {{ site.sections.gallery.title }}
+    <span class="note">{{ site.sections.gallery.note }}</span>
+  </a>
+  <a href="{{ site.sections.notebook.url  | prepend: site.baseurl }}" class="list-group-item">
+    <span class="{{ site.sections.notebook.icons }}" aria-hidden="true"></span>
+    {{ site.sections.notebook.title }}
+    <span class="note">{{ site.sections.notebook.note }}</span>
+  </a>
+  <a href="{{ site.sections.feed.url  | prepend: site.baseurl }}" class="list-group-item">
+    <span class="{{ site.sections.feed.icons }}" aria-hidden="true"></span>
+    {{ site.sections.feed.title }}
+    <span class="note">{{ site.sections.feed.note }}</span>
+  </a>
 </div>
-<a href="{{ "/gallery.html" | prepend: site.baseurl }}" class="list-group-item">
-  <span class="fa fa-film" aria-hidden="true"></span>
-  Project Gallery
-</a>
-<a href="{{ "/notebook/" | prepend: site.baseurl }}" class="list-group-item">
-  <span class="fa fa-book" aria-hidden="true"></span>
-  Notebook
-</a>
-<a href="https://codingkata.tardate.com/" class="list-group-item" title="my notes and test code on software development topics and tools">
-  <span class="fa fa-link" aria-hidden="true"></span>
-  LittleCodingKata
-</a>
-<a href="https://modelart.tardate.com/" class="list-group-item" title="my collection of scale modelling, miniatures and other art projects">
-  <span class="fa fa-link" aria-hidden="true"></span>
-  LittleModelArt
-</a>
-<a href="https://blog.tardate.com" class="list-group-item">
-  <span class="fa fa-link" aria-hidden="true"></span>
-  More on my blog
-</a>
+
+<div class="list-group">
+  <div class="list-group-item active">
+    {{ site.other_sites.title }}
+  </div>
+  <a href="{{ site.other_sites.lma.url }}" class="list-group-item" title="{{ site.other_sites.lma.note }}">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    {{ site.other_sites.lma.title }}
+    <span class="note">{{ site.other_sites.lma.note }}</span>
+  </a>
+  <a href="{{ site.other_sites.lck.url }}" class="list-group-item" title="{{ site.other_sites.lck.note }}">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    {{ site.other_sites.lck.title }}
+    <span class="note">{{ site.other_sites.lck.note }}</span>
+  </a>
+  <a href="{{ site.other_sites.blog.url }}" class="list-group-item" title="{{ site.other_sites.blog.note }}">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    {{ site.other_sites.blog.title }}
+    <span class="note">{{ site.other_sites.blog.note }}</span>
+  </a>
+</div>
