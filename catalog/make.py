@@ -123,6 +123,15 @@ class Catalog(object):
             catalog_data = json.load(f)
         return max(int(data['id'].replace('#', '')) for data in catalog_data if 'id' in data)
 
+    def _max_updated_at(self):
+        with open(self.catalog_json, 'r') as f:
+            catalog_data = json.load(f)
+        latest_updated_at = max(
+            datetime.strptime(data['updated_at'], "%Y-%m-%dT%H:%M:%SZ")
+            for data in catalog_data if 'updated_at' in data
+        )
+        return latest_updated_at.strftime("%Y-%m-%dT%H:%M:%SZ")
+
     def _verify_catalog_metadata(self):
         """ Command: verifies all metadata files have an id, the correct relative path, and updated_at. """
         max_id = self._max_id()
@@ -180,7 +189,7 @@ class Catalog(object):
         ElementTree.SubElement(root, "id").text = self.site_base_url
         ElementTree.SubElement(root, "icon").text = f"{self.site_base_url}catalog/assets/images/favicon-32x32.png"
         ElementTree.SubElement(root, "logo").text = f"{self.site_base_url}catalog/assets/images/favicon-32x32.png"
-        ElementTree.SubElement(root, "updated").text = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        ElementTree.SubElement(root, "updated").text = self._max_updated_at()
 
         author = ElementTree.SubElement(root, "author")
         ElementTree.SubElement(author, "name").text = "Paul Gallagher"
