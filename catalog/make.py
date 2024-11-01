@@ -106,9 +106,6 @@ class Catalog(object):
 
         def load_data(filename):
             data = json.load(open(filename, 'r'))
-            if 'updated_at' not in data:
-                data['updated_at'] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:00Z")
-                write_pretty_json(data, filename)
             data['original_relative_path'] = data['relative_path']
             data['relative_path'] = data['relative_path'].lower()
             return data
@@ -118,22 +115,46 @@ class Catalog(object):
             self._metadata = sorted(data, key=lambda k: -int(k['id'].replace('#', '')))
         return self._metadata
 
-    def get_project_file(self, relative_path, name='.catalog_metadata'):
+    def _get_project_file(self, relative_path, name='.catalog_metadata'):
         return os.path.join(self.collection_root, relative_path, name)
 
-    def verify_catalog_metadata(self):
-        """ Command: verifies that all metadata files have a relative path. """
+    def _max_id(self):
+        with open(self.catalog_json, 'r') as f:
+            catalog_data = json.load(f)
+        return max(int(data['id'].replace('#', '')) for data in catalog_data if 'id' in data)
+
+    def _verify_catalog_metadata(self):
+        """ Command: verifies all metadata files have an id, the correct relative path, and updated_at. """
+        max_id = self._max_id()
         for filename in self.metadata_files():
             data = json.load(open(filename, 'r'))
+            if 'updated_at' not in data:
+                data['updated_at'] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:00Z")
             data['relative_path'] = os.path.relpath(os.path.dirname(filename), self.collection_root)
+            if 'id' not in data:
+                max_id += 1
+                data['id'] = f'#{max_id}'
             write_pretty_json(data, filename, verbose=False)
+            # verify the id referenced in the README is correct
+            readme_file = self._get_project_file(data['relative_path'], 'README.md')
+            if os.path.exists(readme_file):
+                with open(readme_file, 'r') as file:
+                    lines = file.readlines()
 
-    def generate_catalog(self):
+                if lines and lines[0].startswith('#'):
+                    parts = lines[0].split(' ', 2)
+                    if len(parts) > 1 and parts[1] != data['id']:
+                        lines[0] = f"# {data['id']} {parts[2]}" if len(parts) > 2 else f"# {data['id']}\n"
+
+                        with open(readme_file, 'w') as file:
+                            file.writelines(lines)
+
+    def _generate_catalog(self):
         """ Command: re-writes the catalog file from catalog_metadata. """
         write_pretty_json(self.metadata(), self.catalog_json)
         write_pretty_json(self.metadata(), self.data_catalog_json)
 
-    def generate_project_data(self):
+    def _generate_project_data(self):
         def project_data():
             result = {}
             for item in self.metadata():
@@ -147,7 +168,7 @@ class Catalog(object):
 
         write_pretty_json(project_data(), self.data_project_json)
 
-    def generate_atom_feed(self):
+    def _generate_atom_feed(self):
         """ Command: re-writes the atom feed file from catalog_metadata. """
 
         root = ElementTree.Element('feed', xmlns='http://www.w3.org/2005/Atom')
@@ -171,7 +192,7 @@ class Catalog(object):
             asset_path = '{}/assets'.format(entry['relative_path'])
             hero_image_file = '{}_build.jpg'.format(entry['relative_path'].split('/')[-1])
 
-            hero_image_path = self.get_project_file(asset_path, hero_image_file)
+            hero_image_path = self._get_project_file(asset_path, hero_image_file)
             if os.path.exists(hero_image_path):
                 hero_image_url = '{}{}/{}'.format(
                     self.site_base_url,
@@ -202,7 +223,7 @@ class Catalog(object):
 
         write_pretty_xml(root, self.catalog_atom)
 
-    def generate_sitemap(self):
+    def _generate_sitemap(self):
         """ Command: re-writes the atom feed file from catalog_metadata. """
 
         root = ElementTree.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
@@ -214,7 +235,7 @@ class Catalog(object):
 
         write_pretty_xml(root, self.catalog_sitemap)
 
-    def ensure_asset_backup_paths_exist(self):
+    def _ensure_asset_backup_paths_exist(self):
         backup_root = self.settings['asset_backup_root']
         if not backup_root:
             print("asset_backup_root setting is not set. Skipping asset backup path creation.")
@@ -226,17 +247,7 @@ class Catalog(object):
                 print(f"Creating backup path: {backup_path}")
                 os.makedirs(backup_path)
 
-    def rebuild(self):
-        """ Command: rebuild catalog assets from metadata. """
-        self.verify_catalog_metadata()
-        self.generate_catalog()
-        self.generate_project_data()
-        self.generate_atom_feed()
-        self.generate_sitemap()
-        self.update_readme()
-        self.ensure_asset_backup_paths_exist()
-
-    def update_readme(self):
+    def _update_readme(self):
         readme_path = os.path.join(self.collection_root, 'README.md')
         metadata = self.metadata()
         total_projects = len(metadata)
@@ -258,23 +269,32 @@ class Catalog(object):
         with open(readme_path, 'w') as f:
             f.writelines(lines)
 
-    def fix_publication_dates(self):
-        for filename in self.metadata_files():
-            data = json.load(open(filename, 'r'))
-            if 'updated_at' not in data:
-                data['updated_at'] = self.get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
-                write_pretty_json(data, filename)
-
-    def get_project_modified_datetime(self, relative_path, filename='.catalog_metadata'):
+    def _get_project_modified_datetime(self, relative_path, filename='.catalog_metadata'):
         relative_filename = os.path.join(relative_path, filename)
         git_data = subprocess.check_output(['git', 'log', '-n', '1', '--date=unix', relative_filename])
         ts_match = re.search(r'Date:\s+(?P<ts>\d+)', str(git_data), re.MULTILINE)
         if ts_match:
             return datetime.utcfromtimestamp(int(ts_match.group('ts')))
         else:
-            indicative_file = self.get_project_file(relative_path, filename)
+            indicative_file = self._get_project_file(relative_path, filename)
             return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
 
+    def fix_publication_dates(self):
+        for filename in self.metadata_files():
+            data = json.load(open(filename, 'r'))
+            if 'updated_at' not in data:
+                data['updated_at'] = self._get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
+                write_pretty_json(data, filename)
+
+    def rebuild(self):
+        """ Command: rebuild catalog assets from metadata. """
+        self._verify_catalog_metadata()
+        self._generate_catalog()
+        self._generate_project_data()
+        self._generate_atom_feed()
+        self._generate_sitemap()
+        self._update_readme()
+        self._ensure_asset_backup_paths_exist()
 
 if __name__ == '__main__':
     catalog = Catalog()
