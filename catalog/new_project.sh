@@ -130,7 +130,7 @@ EOS
 
   cp catalog/templates/template.fzz "${full_path}/${project_name}.fzz"
 
-  local backup_root=${LITTLEARDUINOPROJECTS_ASSET_BACKUP}
+  local backup_root=${LEAP_ASSET_BACKUP}
   if [ "${backup_root}" != "" ]; then
     local backup_path="${backup_root}/${full_path}"
     echo "Making asset backup path: ${backup_path}"
