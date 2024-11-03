@@ -2,5 +2,6 @@
   "site_title": "LEAP: Little Electronic and Arduino Projects",
   "site_subtitle": "my collection of electronics projects, many involving an Arduino in one way or another",
   "site_base_url": "https://leap.tardate.com/",
-  "asset_backup_root": null
+  "asset_backup_root": null,
+  "project_subfolder": null
 }
