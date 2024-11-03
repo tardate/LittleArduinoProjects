@@ -244,6 +244,25 @@ class Catalog(object):
 
         write_pretty_xml(root, self.catalog_sitemap)
 
+    def _ensure_asset_backup_exists(self, relative_path):
+        backup_root = self.settings['asset_backup_root']
+        if not backup_root:
+            print("asset_backup_root setting is not set. Skipping asset backup path creation.")
+            return
+
+        backup_path = os.path.join(backup_root, relative_path)
+        if not os.path.exists(backup_path):
+            print(f"Creating backup path: {backup_path}")
+            asset_backup_template_path = os.path.join(self.script_root, 'templates', 'asset-backup')
+            if os.path.exists(asset_backup_template_path):
+                shutil.copytree(asset_backup_template_path, backup_path)
+                print(f"Copied assets to backup folder")
+            for subfolder in ['hires', 'trash']:
+                subfolder_path = os.path.join(backup_path, subfolder)
+                if not os.path.exists(subfolder_path):
+                    os.makedirs(subfolder_path)
+                    print(f"Created backup {subfolder} path: {subfolder_path}")
+
     def _ensure_asset_backup_paths_exist(self):
         backup_root = self.settings['asset_backup_root']
         if not backup_root:
@@ -251,10 +270,7 @@ class Catalog(object):
             return
 
         for entry in self.metadata():
-            backup_path = os.path.join(backup_root, entry['original_relative_path'])
-            if not os.path.exists(backup_path):
-                print(f"Creating backup path: {backup_path}")
-                os.makedirs(backup_path)
+            self._ensure_asset_backup_exists(entry['original_relative_path'])
 
     def _update_readme(self):
         readme_path = os.path.join(self.collection_root, 'README.md')
@@ -294,6 +310,72 @@ class Catalog(object):
             if 'updated_at' not in data:
                 data['updated_at'] = self._get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
                 write_pretty_json(data, filename)
+
+    def _create_from_text_template(self, template_name, destination_path, substitutions):
+        template_path = os.path.join(self.script_root, 'templates', template_name)
+        if os.path.exists(template_path):
+            with open(template_path, 'r') as template:
+                template_content = template.read()
+                for key, value in substitutions.items():
+                    template_content = template_content.replace(f'{{{key}}}', value)
+                with open(destination_path, 'w') as destination:
+                    destination.write(template_content)
+                    print(f"Created: {destination_path}")
+
+    def new(self):
+        """ Command: create a new project directory. """
+        if len(argv) < 3:
+            print("Usage: make.py new <project_folder>")
+            return
+
+        project_folder = argv[2]
+        project_name = os.path.basename(project_folder)
+        subfolder = self.settings.get('project_subfolder', None)
+        if subfolder:
+            project_path = os.path.join(self.collection_root, subfolder, project_folder)
+        else:
+            project_path = os.path.join(self.collection_root, project_folder)
+
+        relative_path = os.path.relpath(project_path, self.collection_root)
+
+        if os.path.exists(project_path):
+            print(f"Project folder already exists: {project_path}")
+            return
+
+        os.makedirs(project_path)
+        print(f"Created project folder: {project_path}")
+
+        metadata = {
+            "name": project_name,
+            "description": "",
+            "categories": "",
+            "relative_path": relative_path
+        }
+
+        metadata_file = os.path.join(project_path, '.catalog_metadata')
+        write_pretty_json(metadata, metadata_file)
+        print(f"Created metadata file: {metadata_file}")
+
+        substitutions = {
+            'project_name': project_name,
+            'relative_path': relative_path
+        }
+        self._create_from_text_template('README.md', os.path.join(project_path, 'README.md'), substitutions)
+        self._create_from_text_template('template.ino', os.path.join(project_path, f'{project_name}.ino'), substitutions)
+
+        template_fzz = os.path.join(self.script_root, 'templates', 'template.fzz')
+        if os.path.exists(template_fzz):
+            fzz_file = os.path.join(project_path, f'{project_name}.fzz')
+            shutil.copy(template_fzz, fzz_file)
+            print(f"Created: {fzz_file}")
+
+        assets_template_path = os.path.join(self.script_root, 'templates', 'assets')
+        project_assets_path = os.path.join(project_path, 'assets')
+        if os.path.exists(assets_template_path):
+            shutil.copytree(assets_template_path, project_assets_path)
+            print(f"Copied assets to project folder")
+
+        self._ensure_asset_backup_exists(relative_path)
 
     def rebuild(self):
         """ Command: rebuild catalog assets from metadata. """
