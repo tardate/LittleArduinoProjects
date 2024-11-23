@@ -7,6 +7,12 @@
     {% if site.instagram_username %}
       <a class="fa fa-brands fa-instagram" href="https://www.instagram.com/{{ site.instagram_username }}/"></a>
     {% endif %}
+    {% if site.bluesky_id %}
+      <a class="fa fa-brands fa-bluesky" href="https://bsky.app/profile/{{ site.bluesky_id }}/"></a>
+    {% endif %}
+    {% if site.mastodon_url %}
+      <a class="fa fa-brands fa-mastodon" rel="me" href="{{ site.mastodon_url }}"></a>
+    {% endif %}
     {% if site.github_username %}
       <a class="fa fa-brands fa-github" href="https://github.com/{{ site.github_username }}"></a>
     {% endif %}
@@ -15,9 +21,6 @@
     {% endif %}
     {% if site.stackoverflow_id %}
       <a class="fa fa-brands fa-stack-overflow" href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}"></a>
-    {% endif %}
-    {% if site.mastodon_url %}
-      <a class="fa fa-brands fa-mastodon" rel="me" href="{{ site.mastodon_url }}"></a>
     {% endif %}
     {% if site.skype_username %}
       <a class="fa fa-brands fa-skype" href="skype:{{ site.skype_username }}?userinfo"></a>

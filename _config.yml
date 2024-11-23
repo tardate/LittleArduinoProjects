@@ -58,6 +58,7 @@ medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
+bluesky_id: tardate.bsky.social
 
 # Build settings
 markdown: kramdown
