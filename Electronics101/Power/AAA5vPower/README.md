@@ -47,7 +47,7 @@ It works just fine with 2x AAA batteries. Here's a quick test on a breadboard:
 
 ![bb_test_aaa_x2](./assets/bb_test_aaa_x2.jpg?raw=true)
 
-As the ME2108 has an input range of 0.9V~6.5V, it also works with a single AAA batterie,
+As the ME2108 has an input range of 0.9V~6.5V, it also works with a single AAA battery,
 though the output regulation is down a little:
 
 ![bb_test_aaa](./assets/bb_test_aaa.jpg?raw=true)
