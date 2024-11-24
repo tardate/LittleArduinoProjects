@@ -1,6 +1,6 @@
-# 643 Little Electronic Art Projects
+# 644 Little Electronic Art Projects
 
-> Latest addition:sparkles: [PWM Motor Control Module](./Electronics101/PWM/MotorControlModule) - Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.
+> Latest addition:sparkles: [AAA 5v Power Pack](./Electronics101/Power/AAA5vPower) - Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
