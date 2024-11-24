@@ -1,4 +1,12 @@
 {
+    "/electronics101/power/aaa5vpower/": {
+        "id": 760,
+        "title": "AAA 5v Power Pack",
+        "summary": "Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.",
+        "tags": [
+            "Power"
+        ]
+    },
     "/electronics101/pwm/motorcontrolmodule/": {
         "id": 759,
         "title": "PWM Motor Control Module",
