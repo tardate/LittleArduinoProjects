@@ -155,6 +155,13 @@ Now it's easy to program an AT89C2051..
 
 ![Programmer_build](./assets/Programmer_build.jpg?raw=true)
 
+### Just Using a 12V Supply?
+
+Steve Schnepp has posted about a neat alternative:
+[Simple AT89C2051 programmer with Arduino](https://blog.pwkf.org/2022/08/27/simple-at89c2051-programmer.html).
+
+This takes advantage of the Arduino Uno R3 design feature that if 12V supply is plugged into the power jack, then 12V is available on VREF, and one can do away with the charge pump. A board design is [on the way](https://github.com/tardate/LittleArduinoProjects/issues/39#issuecomment-2495921505).
+
 ## Credits and References
 
 * [LEAP#394 AT89C2051 Blinky](https://leap.tardate.com/8051/at89c2051/blinky/)
