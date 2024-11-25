@@ -18,7 +18,7 @@ There are 3 connections (Vin, Vout and Ground), which can take standard 2.54mm p
 
 ### Circuit Design
 
-These modules are build around the [Micro One ME2108](https://www.microne.com.cn/product/124.html) step-up DC/DC converter from
+These modules are built around the [Micro One ME2108](https://www.microne.com.cn/product/124.html) step-up DC/DC converter from
 [Nanjing Micro One Electronics Inc. 版权所有.南京微盟电子有限公司](https://www.microne.com.cn/).
 
 Specifically, it uses the ME2108A/50 SOT-89-3 packaging with 5.0V output
@@ -69,6 +69,6 @@ I really like this idea, especially for powering little embedded projects that n
 ## Credits and References
 
 * [0.9-5V To 5V DC-DC Step-Up Power Module Voltage Boost Converter Board 1.5V 1.8V 2.5V 3V 3.3V 3.7V 4.2V To 5V](https://www.aliexpress.com/item/1005006438496545.html) - aliexpress
-* Nanjing Micro One NB: currently serfved with an expired and invalid SSL certificate
+* Nanjing Micro One NB: currently served with an expired and invalid SSL certificate
     * [ME2108](https://www.microne.com.cn/product/124.html)
     * [Nanjing Micro One Electronics Inc. 版权所有.南京微盟电子有限公司](https://www.microne.com.cn/)
