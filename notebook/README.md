@@ -23,6 +23,7 @@ Some of my favourites:
 * [Embedded.fm](https://embedded.fm/)
 * [Ham Radio Workbench](https://www.hamradioworkbench.com/)
 * [MacroFab Engineering Podcast](https://macrofab.com/blog/podcast/)
+* [SolderSmoke](https://soldersmoke.blogspot.com/) podcast abd blog
 * [The Amp Hour](https://theamphour.com/)
 * [Unnamed Reverse Engineering Podcast](https://unnamedre.com/)
 
@@ -89,6 +90,7 @@ Some of my favourites:
 * [DZKit](http://www.dzkit.com/)
 * [Elecraft](https://elecraft.com/)
 * [Elenco](https://www.elenco.com/)
+* [HamGadgets](https://hamgadgets.com/)
 * [MFJ](https://mfjenterprises.com/)
 * [Nightfire / vqkits](http://vakits.com/)
 * [QRP Guys](https://qrpguys.com/)
