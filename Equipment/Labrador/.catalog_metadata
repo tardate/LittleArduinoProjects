@@ -4,5 +4,6 @@
     "description": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software",
     "categories": "Tools, Test Equipment",
     "relative_path": "Equipment/Labrador",
-    "updated_at": "2018-09-18T12:38:41Z"
+    "updated_at": "2018-09-18T12:38:41Z",
+    "created_at": "2018-09-18T12:38:41Z"
 }

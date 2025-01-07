@@ -4,5 +4,6 @@
     "description": "using a NEMA-compatible GPS module for time and location with an Arduino",
     "categories": "GPS, Arduino",
     "relative_path": "playground/GpsBasics",
-    "updated_at": "2018-05-04T02:30:15Z"
+    "updated_at": "2018-05-04T02:30:15Z",
+    "created_at": "2018-05-04T02:30:15Z"
 }

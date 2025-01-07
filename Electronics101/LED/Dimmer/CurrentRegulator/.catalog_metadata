@@ -4,5 +4,6 @@
     "description": "test a current-regulator style LED dimmer circuit",
     "categories": "LED, Power",
     "relative_path": "Electronics101/LED/Dimmer/CurrentRegulator",
-    "updated_at": "2023-09-14T10:19:20Z"
+    "updated_at": "2023-09-14T10:19:20Z",
+    "created_at": "2023-09-14T10:19:20Z"
 }

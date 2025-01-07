@@ -4,5 +4,6 @@
     "description": "an audio level indicator kit based on the LM3915",
     "categories": "LM3915, Audio, LED",
     "relative_path": "Audio/Visualization/AudioLevelIndicatorKit",
-    "updated_at": "2022-09-03T11:05:51Z"
+    "updated_at": "2022-09-03T11:05:51Z",
+    "created_at": "2022-09-03T11:05:51Z"
 }

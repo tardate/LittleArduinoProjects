@@ -4,5 +4,6 @@
     "description": "Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD",
     "categories": "Sensors, LM35, LCD, Arduino",
     "relative_path": "Electronics101/TemperatureSensors/LM35",
-    "updated_at": "2021-08-15T13:42:05Z"
+    "updated_at": "2021-08-15T13:42:05Z",
+    "created_at": "2021-08-15T13:42:05Z"
 }

@@ -4,5 +4,6 @@
     "description": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum",
     "categories": "OpAmp, Oscillators",
     "relative_path": "Electronics101/OpAmp/TwinTeeOscillator",
-    "updated_at": "2021-08-17T08:14:50Z"
+    "updated_at": "2021-08-17T08:14:50Z",
+    "created_at": "2021-08-17T08:14:50Z"
 }

@@ -4,5 +4,6 @@
     "description": "testing a simple BJT saw-tooth oscillator",
     "categories": "BJT, Oscillators",
     "relative_path": "Electronics101/BJT/SawTooth",
-    "updated_at": "2018-01-25T02:34:55Z"
+    "updated_at": "2018-01-25T02:34:55Z",
+    "created_at": "2018-01-25T02:34:55Z"
 }

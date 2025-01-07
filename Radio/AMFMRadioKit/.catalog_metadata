@@ -4,5 +4,6 @@
     "description": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips",
     "categories": "Radio, AM, FM",
     "relative_path": "Radio/AMFMRadioKit",
-    "updated_at": "2019-04-28T05:47:59Z"
+    "updated_at": "2019-04-28T05:47:59Z",
+    "created_at": "2019-04-28T05:47:59Z"
 }

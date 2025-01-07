@@ -4,5 +4,6 @@
     "description": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM393 comparator",
     "categories": "Sensors, Kinetics, OpAmp",
     "relative_path": "Kinetics/LineFollowerKit",
-    "updated_at": "2022-02-22T14:30:25Z"
+    "updated_at": "2022-02-22T14:30:25Z",
+    "created_at": "2022-02-22T14:30:25Z"
 }

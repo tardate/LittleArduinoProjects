@@ -4,5 +4,6 @@
     "description": "Testing a basic crystal-locked Schmitt oscillator using a 74HC14",
     "categories": "CMOS/TTL, Oscillators",
     "relative_path": "Electronics101/Oscillators/SchmittCrystalLockedOscillator",
-    "updated_at": "2022-09-16T13:35:07Z"
+    "updated_at": "2022-09-16T13:35:07Z",
+    "created_at": "2022-09-16T13:35:07Z"
 }

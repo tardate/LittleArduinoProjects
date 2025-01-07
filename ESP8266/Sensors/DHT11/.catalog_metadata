@@ -4,5 +4,6 @@
     "description": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
     "categories": "ESP8266, Sensors",
     "relative_path": "ESP8266/Sensors/DHT11",
-    "updated_at": "2016-03-07T01:44:30Z"
+    "updated_at": "2016-03-07T01:44:30Z",
+    "created_at": "2016-03-07T01:44:30Z"
 }

@@ -4,5 +4,6 @@
     "description": "demo simple cascading NOR gate logic with the 74LS02 and an Arduino",
     "categories": "CMOS/TTL, Arduino",
     "relative_path": "Electronics101/QuadNOR",
-    "updated_at": "2017-05-24T15:39:45Z"
+    "updated_at": "2017-05-24T15:39:45Z",
+    "created_at": "2017-05-24T15:39:45Z"
 }

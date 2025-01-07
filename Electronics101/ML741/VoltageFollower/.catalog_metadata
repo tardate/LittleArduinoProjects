@@ -4,5 +4,6 @@
     "description": "test a voltage follower/buffer circuit with the ML741 discrete component opamp",
     "categories": "OpAmp",
     "relative_path": "Electronics101/ML741/VoltageFollower",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "build and investigate a commercially available \"mobile phone signal\" detector kit",
     "categories": "Radio",
     "relative_path": "Electronics101/EMRDetection/MobileRFDetectorKit",
-    "updated_at": "2018-07-08T04:38:55Z"
+    "updated_at": "2018-07-08T04:38:55Z",
+    "created_at": "2018-07-08T04:38:55Z"
 }

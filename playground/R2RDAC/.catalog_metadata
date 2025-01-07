@@ -4,5 +4,6 @@
     "description": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface",
     "categories": "Arduino",
     "relative_path": "playground/R2RDAC",
-    "updated_at": "2016-11-05T03:45:38Z"
+    "updated_at": "2016-11-05T03:45:38Z",
+    "created_at": "2016-11-05T03:45:38Z"
 }

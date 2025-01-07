@@ -4,5 +4,6 @@
     "description": "getting MicroPython up and running with an ESP-01 ESP8266",
     "categories": "ESP8266, MicroPython",
     "relative_path": "ESP8266/micropython/GettingStarted",
-    "updated_at": "2016-03-07T01:44:30Z"
+    "updated_at": "2016-03-07T01:44:30Z",
+    "created_at": "2016-03-07T01:44:30Z"
 }

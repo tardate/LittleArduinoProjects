@@ -4,5 +4,6 @@
     "description": "a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency",
     "categories": "555 Timer, Oscillators",
     "relative_path": "Electronics101/555Timer/VariableDutyCycle",
-    "updated_at": "2019-09-07T08:50:36Z"
+    "updated_at": "2019-09-07T08:50:36Z",
+    "created_at": "2019-09-07T08:50:36Z"
 }

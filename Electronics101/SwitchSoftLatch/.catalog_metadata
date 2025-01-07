@@ -4,5 +4,6 @@
     "description": "Test a soft-latching power switching circuit based on a p-channel MOSFET",
     "categories": "MOSFET, BJT",
     "relative_path": "Electronics101/SwitchSoftLatch",
-    "updated_at": "2023-02-07T09:31:38Z"
+    "updated_at": "2023-02-07T09:31:38Z",
+    "created_at": "2023-02-07T09:31:38Z"
 }

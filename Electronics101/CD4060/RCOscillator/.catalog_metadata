@@ -4,5 +4,6 @@
     "description": "exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator",
     "categories": "CMOS, Oscillators",
     "relative_path": "Electronics101/CD4060/RCOscillator",
-    "updated_at": "2022-09-16T13:35:07Z"
+    "updated_at": "2022-09-16T13:35:07Z",
+    "created_at": "2022-09-16T13:35:07Z"
 }

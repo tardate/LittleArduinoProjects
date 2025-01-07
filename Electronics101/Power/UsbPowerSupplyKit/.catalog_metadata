@@ -4,5 +4,6 @@
     "description": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up",
     "categories": "Power, USB",
     "relative_path": "Electronics101/Power/UsbPowerSupplyKit",
-    "updated_at": "2017-09-18T14:59:58Z"
+    "updated_at": "2017-09-18T14:59:58Z",
+    "created_at": "2017-09-18T14:59:58Z"
 }

@@ -4,5 +4,6 @@
     "description": "demo effects on the LED strip driven using timer interrupt",
     "categories": "LED Array, Timing, Arduino",
     "relative_path": "LEDArrayDemos/AsyncLedStripEffects",
-    "updated_at": "2021-03-09T16:33:19Z"
+    "updated_at": "2021-03-09T16:33:19Z",
+    "created_at": "2021-03-09T16:33:19Z"
 }

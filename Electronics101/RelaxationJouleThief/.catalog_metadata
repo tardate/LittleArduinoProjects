@@ -4,5 +4,6 @@
     "description": "test a \"joule thief\" circuit based on a relaxation oscillator",
     "categories": "Power, RLC, Oscillators",
     "relative_path": "Electronics101/RelaxationJouleThief",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "checking out the GY560 Frequency Counter",
     "categories": "Radio, Tools, Test Equipment",
     "relative_path": "Equipment/GY560",
-    "updated_at": "2018-09-18T12:38:41Z"
+    "updated_at": "2018-09-18T12:38:41Z",
+    "created_at": "2018-09-18T12:38:41Z"
 }

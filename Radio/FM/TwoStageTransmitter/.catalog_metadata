@@ -4,5 +4,6 @@
     "description": "build and test a simple two-stage FM transmitter",
     "categories": "Radio, FM",
     "relative_path": "Radio/FM/TwoStageTransmitter",
-    "updated_at": "2015-08-24T02:03:26Z"
+    "updated_at": "2015-08-24T02:03:26Z",
+    "created_at": "2015-08-24T02:03:26Z"
 }

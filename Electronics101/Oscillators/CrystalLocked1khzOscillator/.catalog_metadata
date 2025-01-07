@@ -4,5 +4,6 @@
     "description": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz",
     "categories": "Oscillators",
     "relative_path": "Electronics101/Oscillators/CrystalLocked1khzOscillator",
-    "updated_at": "2019-03-03T17:16:27Z"
+    "updated_at": "2019-03-03T17:16:27Z",
+    "created_at": "2019-03-03T17:16:27Z"
 }

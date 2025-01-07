@@ -4,5 +4,6 @@
     "description": "test a constant current power supply built with the LM317",
     "categories": "Power",
     "relative_path": "Electronics101/Power/LinearRegulators/LM317CC",
-    "updated_at": "2024-04-10T06:00:48Z"
+    "updated_at": "2024-04-10T06:00:48Z",
+    "created_at": "2024-04-10T06:00:48Z"
 }

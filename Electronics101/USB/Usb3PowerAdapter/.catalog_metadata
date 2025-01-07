@@ -4,5 +4,6 @@
     "description": "Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A",
     "categories": "USB, Power",
     "relative_path": "Electronics101/USB/Usb3PowerAdapter",
-    "updated_at": "2024-10-15T04:59:00Z"
+    "updated_at": "2024-10-15T04:59:00Z",
+    "created_at": "2024-10-15T04:59:00Z"
 }

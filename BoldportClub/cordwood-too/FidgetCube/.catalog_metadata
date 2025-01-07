@@ -4,5 +4,6 @@
     "description": "making a Fidget Cube controller for the Boldport Cordwood Too",
     "categories": "Boldport, Sensors, LED",
     "relative_path": "BoldportClub/cordwood-too/FidgetCube",
-    "updated_at": "2017-06-25T07:07:04Z"
+    "updated_at": "2017-06-25T07:07:04Z",
+    "created_at": "2017-06-25T07:07:04Z"
 }

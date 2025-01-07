@@ -4,5 +4,6 @@
     "description": "build and tweak/tune another simple single-stage FM Transmitter Kit",
     "categories": "Radio, FM, Transmitter",
     "relative_path": "Radio/FM/SingleStageTransmitterKit2",
-    "updated_at": "2019-08-04T11:25:24Z"
+    "updated_at": "2019-08-04T11:25:24Z",
+    "created_at": "2019-08-04T11:25:24Z"
 }

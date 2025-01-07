@@ -4,5 +4,6 @@
     "description": "an unusual multivibrator using a programmable reference with clean square wave output",
     "categories": "Oscillators",
     "relative_path": "Electronics101/Oscillators/TL431Multivibrator",
-    "updated_at": "2020-04-07T16:21:03Z"
+    "updated_at": "2020-04-07T16:21:03Z",
+    "created_at": "2020-04-07T16:21:03Z"
 }

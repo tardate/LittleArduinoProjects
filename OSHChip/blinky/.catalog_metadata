@@ -4,5 +4,6 @@
     "description": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging",
     "categories": "ARM, OSHChip",
     "relative_path": "OSHChip/blinky",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

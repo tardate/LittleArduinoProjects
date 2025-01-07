@@ -4,5 +4,6 @@
     "description": "teardown an FQ777-954 nano drone and figure out as much of the technical design as possible",
     "categories": "Drones, Radio",
     "relative_path": "Kinetics/FQ777-954/TearDown",
-    "updated_at": "2018-07-08T04:38:55Z"
+    "updated_at": "2018-07-08T04:38:55Z",
+    "created_at": "2018-07-08T04:38:55Z"
 }

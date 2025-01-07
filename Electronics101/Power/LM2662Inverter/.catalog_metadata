@@ -4,5 +4,6 @@
     "description": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter",
     "categories": "Power",
     "relative_path": "Electronics101/Power/LM2662Inverter",
-    "updated_at": "2024-04-10T06:10:50Z"
+    "updated_at": "2024-04-10T06:10:50Z",
+    "created_at": "2024-04-10T06:10:50Z"
 }

@@ -4,5 +4,6 @@
     "description": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)",
     "categories": "Boldport, EFM8, Sensors",
     "relative_path": "BoldportClub/Touchy",
-    "updated_at": "2016-12-03T02:57:12Z"
+    "updated_at": "2016-12-03T02:57:12Z",
+    "created_at": "2016-12-03T02:57:12Z"
 }

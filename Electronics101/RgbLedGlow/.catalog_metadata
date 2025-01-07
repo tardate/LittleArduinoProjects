@@ -4,5 +4,6 @@
     "description": "rainbow glow effects with an RGB LED and OpAmp oscillators",
     "categories": "LED, Oscillators",
     "relative_path": "Electronics101/RgbLedGlow",
-    "updated_at": "2017-08-19T17:23:25Z"
+    "updated_at": "2017-08-19T17:23:25Z",
+    "created_at": "2017-08-19T17:23:25Z"
 }

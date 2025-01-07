@@ -4,5 +4,6 @@
     "description": "Driving an LM3915 10-segment display with a single Arduino pin",
     "categories": "LM3915, Arduino",
     "relative_path": "playground/LevelIndicatorLM3915",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

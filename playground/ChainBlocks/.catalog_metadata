@@ -4,5 +4,6 @@
     "description": "testing some \"Chain Blocks\" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope",
     "categories": "Arduino",
     "relative_path": "playground/ChainBlocks",
-    "updated_at": "2016-11-06T21:11:20Z"
+    "updated_at": "2016-11-06T21:11:20Z",
+    "created_at": "2016-11-06T21:11:20Z"
 }

@@ -4,5 +4,6 @@
     "description": "build and investigate a commercially available \"3-band voice level indicator\" kit",
     "categories": "LED, Audio",
     "relative_path": "Audio/Visualization/VoiceLevelIndicatorKit",
-    "updated_at": "2022-09-03T11:05:51Z"
+    "updated_at": "2022-09-03T11:05:51Z",
+    "created_at": "2022-09-03T11:05:51Z"
 }
