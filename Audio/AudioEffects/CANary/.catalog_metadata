@@ -4,5 +4,6 @@
     "description": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture",
     "categories": "BEAM, Oscillators, Audio",
     "relative_path": "Audio/AudioEffects/CANary",
-    "updated_at": "2020-06-06T05:35:40Z"
+    "updated_at": "2020-06-06T05:35:40Z",
+    "created_at": "2020-06-06T05:35:40Z"
 }

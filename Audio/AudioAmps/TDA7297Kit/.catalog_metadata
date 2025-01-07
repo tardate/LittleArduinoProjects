@@ -4,5 +4,6 @@
     "description": "testing a TDA7297 audio amplifier kit (pump up the jam)",
     "categories": "Audio",
     "relative_path": "Audio/AudioAmps/TDA7297Kit",
-    "updated_at": "2020-06-06T05:35:40Z"
+    "updated_at": "2020-06-06T05:35:40Z",
+    "created_at": "2020-06-06T05:35:40Z"
 }

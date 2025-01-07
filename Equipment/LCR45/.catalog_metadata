@@ -4,5 +4,6 @@
     "description": "evaluating the Peak LCR45 inductance, capacitance and resistance meter",
     "categories": "Tools, Test Equipment",
     "relative_path": "Equipment/LCR45",
-    "updated_at": "2019-02-04T15:46:38Z"
+    "updated_at": "2019-02-04T15:46:38Z",
+    "created_at": "2019-02-04T15:46:38Z"
 }

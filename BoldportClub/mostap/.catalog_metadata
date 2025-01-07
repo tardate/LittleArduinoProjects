@@ -4,5 +4,6 @@
     "description": "upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.",
     "categories": "Boldport, CMOS",
     "relative_path": "BoldportClub/mostap",
-    "updated_at": "2017-10-03T14:05:19Z"
+    "updated_at": "2017-10-03T14:05:19Z",
+    "created_at": "2017-10-03T14:05:19Z"
 }

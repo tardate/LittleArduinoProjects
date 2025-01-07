@@ -4,5 +4,6 @@
     "description": "test an inverting charge pump circuit based on a 555 timer",
     "categories": "555 Timer, Power",
     "relative_path": "Electronics101/555Timer/InvertingChargePump",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "a collection of notes, kits and resources for hand-soldering surface mount devices",
     "categories": "SMD, CMOS, 555 Timer",
     "relative_path": "Electronics101/SMDPracticeBoards",
-    "updated_at": "2022-01-20T14:40:39Z"
+    "updated_at": "2022-01-20T14:40:39Z",
+    "created_at": "2022-01-20T14:40:39Z"
 }

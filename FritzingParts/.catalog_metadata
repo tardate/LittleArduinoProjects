@@ -4,5 +4,6 @@
     "description": "my collection of custom Fritzing Parts",
     "categories": "EDA",
     "relative_path": "FritzingParts",
-    "updated_at": "2016-06-20T13:45:57Z"
+    "updated_at": "2016-06-20T13:45:57Z",
+    "created_at": "2016-06-20T13:45:57Z"
 }

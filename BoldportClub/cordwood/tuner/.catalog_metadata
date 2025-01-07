@@ -4,5 +4,6 @@
     "description": "use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp",
     "categories": "Boldport, Cordwood, Arduino, Audio",
     "relative_path": "BoldportClub/cordwood/tuner",
-    "updated_at": "2016-11-19T06:52:15Z"
+    "updated_at": "2016-11-19T06:52:15Z",
+    "created_at": "2016-11-19T06:52:15Z"
 }

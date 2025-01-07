@@ -4,5 +4,6 @@
     "description": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)",
     "categories": "SCR, Thyristor",
     "relative_path": "Electronics101/SCRLatch",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler",
     "categories": "Boldport, PIC",
     "relative_path": "BoldportClub/stringy/DemoBurner",
-    "updated_at": "2017-10-16T16:51:30Z"
+    "updated_at": "2017-10-16T16:51:30Z",
+    "created_at": "2017-10-16T16:51:30Z"
 }

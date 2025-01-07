@@ -4,5 +4,6 @@
     "description": "Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.",
     "categories": "BJT, RC, Oscillators",
     "relative_path": "Electronics101/WindBellKit",
-    "updated_at": "2024-09-10T14:16:00Z"
+    "updated_at": "2024-09-10T14:16:00Z",
+    "created_at": "2024-09-10T14:16:00Z"
 }

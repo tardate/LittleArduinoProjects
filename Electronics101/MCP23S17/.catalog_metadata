@@ -4,5 +4,6 @@
     "description": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface",
     "categories": "Arduino, Port Expander",
     "relative_path": "Electronics101/MCP23S17",
-    "updated_at": "2017-05-07T10:46:58Z"
+    "updated_at": "2017-05-07T10:46:58Z",
+    "created_at": "2017-05-07T10:46:58Z"
 }

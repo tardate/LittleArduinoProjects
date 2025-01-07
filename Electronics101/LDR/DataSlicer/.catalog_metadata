@@ -4,5 +4,6 @@
     "description": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
     "categories": "Sensors, OpAmp",
     "relative_path": "Electronics101/LDR/DataSlicer",
-    "updated_at": "2022-12-21T10:21:30Z"
+    "updated_at": "2022-12-21T10:21:30Z",
+    "created_at": "2022-12-21T10:21:30Z"
 }

@@ -4,5 +4,6 @@
     "description": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock",
     "categories": "Arduino, AVR",
     "relative_path": "playground/ATtiny/At8MHz",
-    "updated_at": "2020-02-17T17:45:56Z"
+    "updated_at": "2020-02-17T17:45:56Z",
+    "created_at": "2020-02-17T17:45:56Z"
 }

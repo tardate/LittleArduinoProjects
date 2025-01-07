@@ -4,5 +4,6 @@
     "description": "an AC-powered bridge doubler supply with DC output governed by 7815/7915 \u00b115V DC linear regulation",
     "categories": "Power",
     "relative_path": "Electronics101/Power/BridgeDoublerSplitSupply",
-    "updated_at": "2019-11-17T13:19:59Z"
+    "updated_at": "2019-11-17T13:19:59Z",
+    "created_at": "2019-11-17T13:19:59Z"
 }

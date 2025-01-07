@@ -4,5 +4,6 @@
     "description": "A quick test of motorizing a hand-cranked music box",
     "categories": "Audio, Motor",
     "relative_path": "Audio/MotorizedMusicBox",
-    "updated_at": "2020-12-20T15:24:10Z"
+    "updated_at": "2020-12-20T15:24:10Z",
+    "created_at": "2020-12-20T15:24:10Z"
 }

@@ -4,5 +4,6 @@
     "description": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
     "categories": "SMD, OpAmp",
     "relative_path": "Electronics101/SMDPracticeBoards/Star",
-    "updated_at": "2022-01-20T14:40:39Z"
+    "updated_at": "2022-01-20T14:40:39Z",
+    "created_at": "2022-01-20T14:40:39Z"
 }

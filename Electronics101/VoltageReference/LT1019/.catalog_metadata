@@ -4,5 +4,6 @@
     "description": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference",
     "categories": "Voltage Reference",
     "relative_path": "Electronics101/VoltageReference/LT1019",
-    "updated_at": "2018-01-24T13:49:12Z"
+    "updated_at": "2018-01-24T13:49:12Z",
+    "created_at": "2018-01-24T13:49:12Z"
 }

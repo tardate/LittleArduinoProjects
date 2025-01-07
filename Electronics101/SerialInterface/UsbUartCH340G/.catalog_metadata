@@ -4,5 +4,6 @@
     "description": "build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P",
     "categories": "USB, Serial, CH340",
     "relative_path": "Electronics101/SerialInterface/UsbUartCH340G",
-    "updated_at": "2019-08-12T10:43:09Z"
+    "updated_at": "2019-08-12T10:43:09Z",
+    "created_at": "2019-08-12T10:43:09Z"
 }

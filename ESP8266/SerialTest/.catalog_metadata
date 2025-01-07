@@ -4,5 +4,6 @@
     "description": "first test of an ESP8266 module - serial communication to the SoC",
     "categories": "ESP8266",
     "relative_path": "ESP8266/SerialTest",
-    "updated_at": "2017-09-19T15:46:13Z"
+    "updated_at": "2017-09-19T15:46:13Z",
+    "created_at": "2017-09-19T15:46:13Z"
 }

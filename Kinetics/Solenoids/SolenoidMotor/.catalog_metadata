@@ -4,5 +4,6 @@
     "description": "a single-cylinder mini-solenoid engine",
     "categories": "Solenoid",
     "relative_path": "Kinetics/Solenoids/SolenoidMotor",
-    "updated_at": "2019-08-18T03:38:40Z"
+    "updated_at": "2019-08-18T03:38:40Z",
+    "created_at": "2019-08-18T03:38:40Z"
 }

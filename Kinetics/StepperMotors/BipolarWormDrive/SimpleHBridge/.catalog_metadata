@@ -4,5 +4,6 @@
     "description": "testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!",
     "categories": "Stepper, Arduino",
     "relative_path": "Kinetics/StepperMotors/BipolarWormDrive/SimpleHBridge",
-    "updated_at": "2018-11-03T01:22:15Z"
+    "updated_at": "2018-11-03T01:22:15Z",
+    "created_at": "2018-11-03T01:22:15Z"
 }

@@ -4,5 +4,6 @@
     "description": "Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
     "categories": "CMOS/TTL, Oscillators",
     "relative_path": "Electronics101/Oscillators/CrystalLocked4MHzCD4001",
-    "updated_at": "2023-01-11T11:54:47Z"
+    "updated_at": "2023-01-11T11:54:47Z",
+    "created_at": "2023-01-11T11:54:47Z"
 }

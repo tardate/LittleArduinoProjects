@@ -139,6 +139,8 @@ class Catalog(object):
             data = json.load(open(filename, 'r'))
             if 'updated_at' not in data:
                 data['updated_at'] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:00Z")
+            if 'created_at' not in data:
+                data['created_at'] = data['updated_at']
             data['relative_path'] = os.path.relpath(os.path.dirname(filename), self.collection_root)
             if 'id' not in data:
                 max_id += 1
@@ -303,13 +305,6 @@ class Catalog(object):
         else:
             indicative_file = self._get_project_file(relative_path, filename)
             return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
-
-    def fix_publication_dates(self):
-        for filename in self.metadata_files():
-            data = json.load(open(filename, 'r'))
-            if 'updated_at' not in data:
-                data['updated_at'] = self._get_project_modified_datetime(data['relative_path']).strftime("%Y-%m-%dT%H:%M:%SZ")
-                write_pretty_json(data, filename)
 
     def _create_from_text_template(self, template_name, destination_path, substitutions):
         template_path = os.path.join(self.script_root, 'templates', template_name)

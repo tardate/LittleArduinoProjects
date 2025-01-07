@@ -4,5 +4,6 @@
     "description": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection",
     "categories": "Power, USB, Tools, Test Equipment",
     "relative_path": "Equipment/USBProtector",
-    "updated_at": "2018-09-18T12:38:41Z"
+    "updated_at": "2018-09-18T12:38:41Z",
+    "created_at": "2018-09-18T12:38:41Z"
 }

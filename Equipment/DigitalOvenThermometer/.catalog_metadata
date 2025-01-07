@@ -4,5 +4,6 @@
     "description": "Examining and fixing the TS-BN55 Digital Oven Thermometer",
     "categories": "Tools",
     "relative_path": "Equipment/DigitalOvenThermometer",
-    "updated_at": "2023-12-27T08:03:12Z"
+    "updated_at": "2023-12-27T08:03:12Z",
+    "created_at": "2023-12-27T08:03:12Z"
 }

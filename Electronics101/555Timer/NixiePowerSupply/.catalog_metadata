@@ -4,5 +4,6 @@
     "description": "using a 555 boost converter to test some Nixie IN3 and IN14 tubes",
     "categories": "Power, Nixie, 555 Timer",
     "relative_path": "Electronics101/555Timer/NixiePowerSupply",
-    "updated_at": "2018-09-29T10:48:19Z"
+    "updated_at": "2018-09-29T10:48:19Z",
+    "created_at": "2018-09-29T10:48:19Z"
 }

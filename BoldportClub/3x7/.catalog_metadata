@@ -4,5 +4,6 @@
     "description": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
     "categories": "Boldport, 7-Segment",
     "relative_path": "BoldportClub/3x7",
-    "updated_at": "2018-10-14T07:41:50Z"
+    "updated_at": "2018-10-14T07:41:50Z",
+    "created_at": "2018-10-14T07:41:50Z"
 }

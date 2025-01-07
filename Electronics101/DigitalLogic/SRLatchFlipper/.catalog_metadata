@@ -4,5 +4,6 @@
     "description": "Set/Reset latch with BJTs, controlled and monitored by an Arduino",
     "categories": "Digital Logic, BJT, Arduino",
     "relative_path": "Electronics101/DigitalLogic/SRLatchFlipper",
-    "updated_at": "2020-09-20T04:39:01Z"
+    "updated_at": "2020-09-20T04:39:01Z",
+    "created_at": "2020-09-20T04:39:01Z"
 }

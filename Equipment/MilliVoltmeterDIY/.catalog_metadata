@@ -4,5 +4,6 @@
     "description": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
     "categories": "ATmega, ADC, Tools, Test Equipment",
     "relative_path": "Equipment/MilliVoltmeterDIY",
-    "updated_at": "2018-09-18T12:38:41Z"
+    "updated_at": "2018-09-18T12:38:41Z",
+    "created_at": "2018-09-18T12:38:41Z"
 }

@@ -4,5 +4,6 @@
     "description": "control the classic CD4017 walking-ring counter with an Arduino",
     "categories": "CMOS, Arduino",
     "relative_path": "playground/RingCounterController",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

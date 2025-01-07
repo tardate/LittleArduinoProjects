@@ -4,5 +4,6 @@
     "description": "tear-down and demo code for some oldUSB Webmail Notifier devices",
     "categories": "LED, USB",
     "relative_path": "Electronics101/UsbNotifier",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "test a DC-powered general curve tracer circuit",
     "categories": "BJT, Oscillators",
     "relative_path": "Electronics101/GeneralCurveTracer",
-    "updated_at": "2016-09-06T07:43:25Z"
+    "updated_at": "2016-09-06T07:43:25Z",
+    "created_at": "2016-09-06T07:43:25Z"
 }

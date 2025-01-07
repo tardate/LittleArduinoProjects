@@ -4,5 +4,6 @@
     "description": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors",
     "categories": "Audio, BJT",
     "relative_path": "Audio/AudioEffects/WhiteNoiseGenerator",
-    "updated_at": "2020-06-06T05:35:40Z"
+    "updated_at": "2020-06-06T05:35:40Z",
+    "created_at": "2020-06-06T05:35:40Z"
 }

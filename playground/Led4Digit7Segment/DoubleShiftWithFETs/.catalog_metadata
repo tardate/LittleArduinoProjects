@@ -4,5 +4,6 @@
     "description": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs",
     "categories": "LED, 7-Segment, CMOS/TTL, Arduino",
     "relative_path": "playground/Led4Digit7Segment/DoubleShiftWithFETs",
-    "updated_at": "2020-10-02T13:02:32Z"
+    "updated_at": "2020-10-02T13:02:32Z",
+    "created_at": "2020-10-02T13:02:32Z"
 }

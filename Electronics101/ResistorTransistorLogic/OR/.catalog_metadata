@@ -4,5 +4,6 @@
     "description": "test the basic resistor-transistor logic OR gate",
     "categories": "BJT, RTL, Digital Logic",
     "relative_path": "Electronics101/ResistorTransistorLogic/OR",
-    "updated_at": "2020-09-20T04:39:01Z"
+    "updated_at": "2020-09-20T04:39:01Z",
+    "created_at": "2020-09-20T04:39:01Z"
 }

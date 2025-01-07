@@ -4,5 +4,6 @@
     "description": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip",
     "categories": "Audio, Music Chips",
     "relative_path": "Audio/AudioEffectsChips/PX835",
-    "updated_at": "2019-09-25T15:49:49Z"
+    "updated_at": "2019-09-25T15:49:49Z",
+    "created_at": "2019-09-25T15:49:49Z"
 }

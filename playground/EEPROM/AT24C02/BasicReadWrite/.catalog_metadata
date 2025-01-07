@@ -4,5 +4,6 @@
     "description": "basic read/write operations to external EEPROM (AT24C02) with the Wire library",
     "categories": "EEPROM, Arduino",
     "relative_path": "playground/EEPROM/AT24C02/BasicReadWrite",
-    "updated_at": "2020-10-02T13:02:32Z"
+    "updated_at": "2020-10-02T13:02:32Z",
+    "created_at": "2020-10-02T13:02:32Z"
 }

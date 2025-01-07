@@ -4,5 +4,6 @@
     "description": "test a Watson 3-LED Ring oscillator",
     "categories": "Oscillators, LED",
     "relative_path": "Electronics101/Oscillators/WatsonLedRing",
-    "updated_at": "2022-12-23T09:30:56Z"
+    "updated_at": "2022-12-23T09:30:56Z",
+    "created_at": "2022-12-23T09:30:56Z"
 }

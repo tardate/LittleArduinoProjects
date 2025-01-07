@@ -4,5 +4,6 @@
     "description": "building an old-fashioned 7-digit decade programmable resistor with push-button control",
     "categories": "Test Equipment",
     "relative_path": "Electronics101/DecadeProgrammableResistor",
-    "updated_at": "2018-09-16T13:22:57Z"
+    "updated_at": "2018-09-16T13:22:57Z",
+    "created_at": "2018-09-16T13:22:57Z"
 }

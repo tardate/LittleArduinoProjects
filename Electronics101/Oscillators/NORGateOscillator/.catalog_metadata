@@ -4,5 +4,6 @@
     "description": "test a low-speed square wave oscillator using NOR gates",
     "categories": "CMOS/TTL, Oscillators, Arduino",
     "relative_path": "Electronics101/Oscillators/NORGateOscillator",
-    "updated_at": "2022-09-16T13:35:07Z"
+    "updated_at": "2022-09-16T13:35:07Z",
+    "created_at": "2022-09-16T13:35:07Z"
 }

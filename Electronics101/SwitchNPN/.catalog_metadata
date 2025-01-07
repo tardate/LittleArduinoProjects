@@ -4,5 +4,6 @@
     "description": "small-signal digital switch with NPN BJT",
     "categories": "BJT",
     "relative_path": "Electronics101/SwitchNPN",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

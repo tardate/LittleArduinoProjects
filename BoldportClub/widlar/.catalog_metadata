@@ -4,5 +4,6 @@
     "description": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)",
     "categories": "723, Power, Oscillator",
     "relative_path": "BoldportClub/widlar",
-    "updated_at": "2018-04-29T17:02:07Z"
+    "updated_at": "2018-04-29T17:02:07Z",
+    "created_at": "2018-04-29T17:02:07Z"
 }

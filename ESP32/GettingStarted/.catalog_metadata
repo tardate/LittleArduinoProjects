@@ -4,5 +4,6 @@
     "description": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example",
     "categories": "ESP32",
     "relative_path": "ESP32/GettingStarted",
-    "updated_at": "2019-09-15T15:37:20Z"
+    "updated_at": "2019-09-15T15:37:20Z",
+    "created_at": "2019-09-15T15:37:20Z"
 }

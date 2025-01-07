@@ -4,5 +4,6 @@
     "description": "test an AMS1117 3.3V linear regulator",
     "categories": "Power",
     "relative_path": "Electronics101/Power/LinearRegulators/AMS1117",
-    "updated_at": "2021-07-20T17:12:56Z"
+    "updated_at": "2021-07-20T17:12:56Z",
+    "created_at": "2021-07-20T17:12:56Z"
 }

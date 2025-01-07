@@ -4,5 +4,6 @@
     "description": "report on Arduino Board internals",
     "categories": "Arduino",
     "relative_path": "playground/Internals",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

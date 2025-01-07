@@ -4,5 +4,6 @@
     "description": "A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.",
     "categories": "Arduino, AVR, INA226, Sensors",
     "relative_path": "Equipment/PowerMeter",
-    "updated_at": "2020-01-29T00:25:48Z"
+    "updated_at": "2020-01-29T00:25:48Z",
+    "created_at": "2020-01-29T00:25:48Z"
 }

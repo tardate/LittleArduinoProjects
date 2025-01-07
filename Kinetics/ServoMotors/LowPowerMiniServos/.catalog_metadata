@@ -4,5 +4,6 @@
     "description": "Testing a few low power mini servo motors with an Arduino and MOSFET level shifter",
     "categories": "Servo, Arduino",
     "relative_path": "Kinetics/ServoMotors/LowPowerMiniServos",
-    "updated_at": "2021-09-12T08:12:35Z"
+    "updated_at": "2021-09-12T08:12:35Z",
+    "created_at": "2021-09-12T08:12:35Z"
 }

@@ -4,5 +4,6 @@
     "description": "A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller",
     "categories": "Human Input, LED",
     "relative_path": "Electronics101/InputDevices/FootSwitch",
-    "updated_at": "2020-04-11T19:22:00Z"
+    "updated_at": "2020-04-11T19:22:00Z",
+    "created_at": "2020-04-11T19:22:00Z"
 }

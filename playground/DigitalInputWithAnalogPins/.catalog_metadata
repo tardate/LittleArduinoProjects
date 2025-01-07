@@ -4,5 +4,6 @@
     "description": "demonstrate how analog pins can also be used as a digital GPIO",
     "categories": "Arduino",
     "relative_path": "playground/DigitalInputWithAnalogPins",
-    "updated_at": "2016-09-01T14:12:29Z"
+    "updated_at": "2016-09-01T14:12:29Z",
+    "created_at": "2016-09-01T14:12:29Z"
 }

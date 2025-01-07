@@ -4,5 +4,6 @@
     "description": "Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.",
     "categories": "LCD, Arduino",
     "relative_path": "Electronics101/Displays/Lcd3Digit",
-    "updated_at": "2022-10-23T14:55:59Z"
+    "updated_at": "2022-10-23T14:55:59Z",
+    "created_at": "2022-10-23T14:55:59Z"
 }

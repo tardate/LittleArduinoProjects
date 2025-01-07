@@ -4,5 +4,6 @@
     "description": "build and test a common LED visual effect circuit",
     "categories": "OpAmp, LED",
     "relative_path": "Electronics101/BreatheLamp",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

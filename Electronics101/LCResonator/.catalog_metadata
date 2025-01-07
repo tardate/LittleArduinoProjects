@@ -4,5 +4,6 @@
     "description": "measure the resonant frequency of an LC circuit or inductance of an inductor ",
     "categories": "Oscillators, LC",
     "relative_path": "Electronics101/LCResonator",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
     "categories": "Power",
     "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostBuckConverterModule",
-    "updated_at": "2016-06-19T14:13:24Z"
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
 }

@@ -4,5 +4,6 @@
     "description": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer",
     "categories": "Boldport, ATmega, ATmel, Arduino, Digital Pot, MCP42010, Oscilloscope",
     "relative_path": "BoldportClub/TheCuttle/ScopeTag",
-    "updated_at": "2019-09-02T00:30:13Z"
+    "updated_at": "2019-09-02T00:30:13Z",
+    "created_at": "2019-09-02T00:30:13Z"
 }
