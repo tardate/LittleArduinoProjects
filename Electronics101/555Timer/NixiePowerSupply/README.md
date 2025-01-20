@@ -1,4 +1,4 @@
-# #415 555Timer/NixiePowerSupply
+# #415 Nixie Power Supply - 555 Timer Version
 
 Using a 555 boost converter to test some Nixie IN3 and IN14 tubes.
 
@@ -38,10 +38,10 @@ and some translation:
 * Operational current -  0.8 mA
 * Guaranteed life time  - not less than 5000 hours (with lighting up voltage not more than 95 V)
 * Absolute maximum ratings:
-    - Light up voltage - not less than 60v, not more than 95V
-    - Switch off voltage - not less than 50v, not more than 80V
-    - Anode current - not less than 0.2mA, not more than 1.0mA
-    - Temperature - not more than plus 85C, not less than minus 60C
+    * Light up voltage - not less than 60v, not more than 95V
+    * Switch off voltage - not less than 50v, not more than 80V
+    * Anode current - not less than 0.2mA, not more than 1.0mA
+    * Temperature - not more than plus 85C, not less than minus 60C
 
 The anode has an arrow pointing to it on the base.
 
@@ -57,10 +57,8 @@ page with the crucial details:
 * Typical maintaining voltage:  145v
 * Typical cathode current: 2.5mA
 
-
 The anode has an arrow pointing to it on the base of the tube. It also seems to be distinguished as the only pin with a white sheave inside the tube.
 Pins are as follows (numbered clock-wise when looking at the base)
-
 
 |Pin  | Connection                         |
 |-----|------------------------------------|
@@ -110,21 +108,20 @@ A couple of things to note about the circuit:
 * The 555 timer is configured as astable with a [basic frequency of 31kHz and 52% duty cycle](https://visual555.tardate.com/?mode=astable&r1=1&r2=10&c=0.0022)
 * The R6 potentiometer taps a variable fraction of the boost converter output and this provides negative feedback to adjust the control voltage of the 555
 * an "active pulldown" circuit comprising Q2 (2N3904), D2 (1N4148) and R8 (1kΩ) is used on the 555 output
-    - this idea was borrowed from an [MC34063 design](https://threeneurons.wordpress.com/nixie-power-supply/)
-    - I'm not sure this is really required, as the 555 presents an open-collector output when low. The active pulldown circuit is probably redundant (I'll test this).
+    * this idea was borrowed from an [MC34063 design](https://threeneurons.wordpress.com/nixie-power-supply/)
+    * I'm not sure this is really required, as the 555 presents an open-collector output when low. The active pulldown circuit is probably redundant (I'll test this).
 * The R9/C4 across the switching FET:
-    - is an RC snubber circuit, protecting the FET from voltage spikes from the inductor
-    - but it is also essentially dampening the switching
-    - and from my observations, responsible for perhaps 40% or more of the energy loss in the circuit
-    - something to investigate further to perhaps find a better solution for protecting the FET at not such a high cost in efficiency
+    * is an RC snubber circuit, protecting the FET from voltage spikes from the inductor
+    * but it is also essentially dampening the switching
+    * and from my observations, responsible for perhaps 40% or more of the energy loss in the circuit
+    * something to investigate further to perhaps find a better solution for protecting the FET at not such a high cost in efficiency
 
 A similar circuit was critiqued in some detail is this Electronics StackExchange post:
 [555 timer boost converter doesn't meet spec](https://electronics.stackexchange.com/questions/152432/555-timer-boost-converter-doesnt-meet-spec)
 
 ### Test Results
 
-#### IN-3
-
+#### IN-3 Results
 
 ![NixiePowerSupply_test_in3](./assets/NixiePowerSupply_test_in3.jpg?raw=true)
 
@@ -139,13 +136,14 @@ According to my power supply, it is delivering around 0.94W (9V at 105mA) at the
 ![in3_strike](./assets/in3_strike.gif?raw=true)
 
 Measured:
+
 * boost voltage 90v
 * anode voltage 58v
 * 555 duty cycle ~30%
 
 If those readings are reasonably correct, the IN-3 tube is juiced with [3.2mA](https://www.wolframalpha.com/input/?i=(90V+-+58V)%2F10k%CE%A9).
 
-#### IN-14
+#### IN-14 Results
 
 ![Build](./assets/NixiePowerSupply_build.jpg?raw=true)
 
@@ -167,7 +165,6 @@ I'm doubting the accuracy not sure how accurate my oscilloscope is at those volt
 but they would indicate the IN-14 tube is only needing [0.2mA](https://www.wolframalpha.com/input/?i=(132V+-+130V)%2F10k%CE%A9)
 to light a digit. NB: I checked this with an ammeter and was a little suprised it's not far off - actually about 0.27mA.
 
-
 ## Circuit Design - Version 2
 
 Base on the results above, there are a few things I wanted to investigate to see if an improved circuit was possible:
@@ -180,7 +177,6 @@ The details of my investigation are below, but here is the TL/DR:
 
 * active pulldown circuit is actually a bad idea with the 555 timer as a switching controller and should be eliminated
 * the RC snubber circuit reduces ringing in the boost circuit, but poor choice of components can have a significant impact on efficiency
-
 
 ### Active Pulldown?
 
@@ -195,7 +191,6 @@ Here are the results for tests with an IN-14 running at strike voltage, with var
 The "active pulldown" cases use the original circuit, those marked "direct gate drive" have the 555 output
 directly coupled to the MOSFET gate.
 
-
 | Configuration                          | Nixie Current  | Input Power |
 |----------------------------------------|----------------|-------------|
 | 30pF/4.7kΩ snubber, active pulldown    | 0.33mA         | 0.45W       |
@@ -207,13 +202,11 @@ directly coupled to the MOSFET gate.
 | 470pF/1kΩ snubber, active pulldown     | 0.27mA         | 0.72W       |
 | 470pF/1kΩ snubber, direct gate drive   | 0.31mA         | 0.71W       |
 
-
 It is apparent that the active pulldown circuit has no real impact on the input power consumption,
 but it does have the undesirable effect of actually reducing the Nixie current for the same power input.
 
 I think this confirms my suspicion - the active pulldown circuit is redundant with a 555 timer and can be jetisoned.
 NB: it may still be relevant for other ICs used as switching controllers.
-
 
 ### RC Snubber
 
@@ -245,12 +238,11 @@ Some measurements for selected configurations:
 | 470pF/4.7kΩ | 126.5V         | 0.37mA         | 0.51W       | [9.2%](https://www.wolframalpha.com/input/?i=(126.5V*0.37mA)%2F0.51W)  |
 | 470pF/1kΩ   | 126.5V         | 0.31mA         | 0.71W       | [5.5%](https://www.wolframalpha.com/input/?i=(126.5V*0.31mA)%2F0.71W)  |
 
-
 Conclusions:
+
 * a snubber capacitor around 30pF to 100pF with 4.7kΩ offers a good balance of stabilising the circuit without undue impact on efficiency (see scope traces below)
 * at low Nixie currents, overall efficiency is swamped by other components in the system
 * when Nixie current approaches higher/brighter values (say 2mA), or the power supply is being used to drive more Nixie tubes, efficiency becomes a little more decent.
-
 
 #### Without Snubber
 
@@ -263,8 +255,7 @@ In this configuration, the efficiency of the circuit is only [11.5%](https://www
 
 ![in14_strike_rc_na](./assets/in14_strike_rc_na.gif?raw=true)
 
-
-####  RC Snubber Examples
+#### RC Snubber Examples
 
 Using a selection of RC values for the snubber...
 
@@ -300,7 +291,6 @@ Using a selection of RC values for the snubber...
 
 ![in14_strike_rc_471_4k7](./assets/in14_strike_rc_471_4k7.gif?raw=true)
 
-
 #### A Better 555 Astable Configuration?
 
 When the 555 timer discharges, R3 (1kΩ) is placed essentially across the supply rails (plus a diode drop),
@@ -312,7 +302,6 @@ I switched the astable configuration to 10kΩ/47kΩ/470pF which produces a simil
 However I was non-plussed by the results - negligible improvement in efficiency (in the 0.1% range) -
 so I abandoned this idea.
 
-
 ### Version 2 Construction
 
 Removes active pulldown circuit and adjusts RC snubber component values
@@ -320,8 +309,6 @@ Removes active pulldown circuit and adjusts RC snubber component values
 ![Breadboard](./assets/NixiePowerSupply_v2_bb.jpg?raw=true)
 
 ![Schematic](./assets/NixiePowerSupply_v2_schematic.jpg?raw=true)
-
-
 
 ## Credits and References
 

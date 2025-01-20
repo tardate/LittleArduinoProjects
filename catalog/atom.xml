@@ -6361,7 +6361,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/roulettekit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/roulettekit/assets/roulettekit_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#084 RouletteKit</title>
+    <title>#084 Roulette Kit</title>
     <summary>build and examine the workings of a commercial 555 Roulette kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and examine the workings of a commercial 555 Roulette kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/roulettekit/assets/roulettekit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -6800,7 +6800,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/simplesiren/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/simplesiren/assets/simplesiren_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#045 SimpleSiren</title>
+    <title>#045 Simple Siren</title>
     <summary>classic timer circuit producing a two-tone oscillation</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;classic timer circuit producing a two-tone oscillation&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/simplesiren/assets/simplesiren_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -6810,7 +6810,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/simplechime/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/simplechime/assets/simplechime_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#044 SimpleChime</title>
+    <title>#044 Simple Chime</title>
     <summary>play a sound for a fixed duration when a button is pressed</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;play a sound for a fixed duration when a button is pressed&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/simplechime/assets/simplechime_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
