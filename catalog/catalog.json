@@ -5601,7 +5601,7 @@
     },
     {
         "id": "#084",
-        "name": "RouletteKit",
+        "name": "Roulette Kit",
         "description": "build and examine the workings of a commercial 555 Roulette kit",
         "categories": "555 Timer",
         "relative_path": "electronics101/555timer/roulettekit",
@@ -5991,7 +5991,7 @@
     },
     {
         "id": "#045",
-        "name": "SimpleSiren",
+        "name": "Simple Siren",
         "description": "classic timer circuit producing a two-tone oscillation",
         "categories": "555 Timer",
         "relative_path": "electronics101/555timer/simplesiren",
@@ -6001,7 +6001,7 @@
     },
     {
         "id": "#044",
-        "name": "SimpleChime",
+        "name": "Simple Chime",
         "description": "play a sound for a fixed duration when a button is pressed",
         "categories": "555 Timer",
         "relative_path": "electronics101/555timer/simplechime",

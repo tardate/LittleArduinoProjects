@@ -5224,7 +5224,7 @@
     },
     "/electronics101/555timer/roulettekit/": {
         "id": 84,
-        "title": "RouletteKit",
+        "title": "Roulette Kit",
         "summary": "build and examine the workings of a commercial 555 Roulette kit",
         "tags": [
             "555 Timer"
@@ -5585,7 +5585,7 @@
     },
     "/electronics101/555timer/simplesiren/": {
         "id": 45,
-        "title": "SimpleSiren",
+        "title": "Simple Siren",
         "summary": "classic timer circuit producing a two-tone oscillation",
         "tags": [
             "555 Timer"
@@ -5593,7 +5593,7 @@
     },
     "/electronics101/555timer/simplechime/": {
         "id": 44,
-        "title": "SimpleChime",
+        "title": "Simple Chime",
         "summary": "play a sound for a fixed duration when a button is pressed",
         "tags": [
             "555 Timer"
