@@ -14,7 +14,12 @@ These are designed to trick a USB 3.0 power supply to switch into USB-PD mode,
 allowing the board to be used as a DC power supply at either 9, 12, 15, or 20V (5A max).
 They use the [CH224K USB PD power receiving chip](https://www.wch-ic.com/downloads/CH224DS1_PDF.html) from 南京沁恒微电子股份有限公司 Nanjing Qinheng Microelectronics.
 
-Note: USB PD Revision 3.1 specification is a major update to enable delivering up to 240W of power over full featured USB Type-C cable and connector.
+Note:
+
+* USB PD Revision 3.1 specification is a major update to enable delivering up to 240W of power over full featured USB Type-C cable and connector.
+* For more on PD, there's an excellent series of posts on <https://eeucalyptus.net/>:
+    * [USB PD coding](https://eeucalyptus.net/2023-12-06-usb-pd-1.html)
+    * [USB PD on the CH32V003](https://eeucalyptus.net/2024-05-13-usb-pd-2.html)
 
 [![seller_pic](./assets/seller_pic.jpg)](https://www.aliexpress.com/item/1005005324613468.html)
 
