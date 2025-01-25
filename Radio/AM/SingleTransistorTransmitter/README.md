@@ -40,7 +40,9 @@ Since there's no effective output amplification, the signal is quite weak and ca
 
 ## Ugly Build
 
-Since things were going quite well on a breadboard, I transferred to some copper PCB stock for a more stable experimental platform:
+Since things were going quite well on a breadboard, I transferred to some copper PCB stock for a more stable experimental platform.
+
+The antenna is just a random length of copper (about 20cm). I don't need (or want) this to be an efficient transmitter - just enough to get across the room for demonstration purposes. Stefan0719 used a standard medium-wave antenna coil with ferrite core in his build.
 
 ![build_complete](./assets/build_complete.jpg?raw=true)
 
@@ -82,7 +84,7 @@ The placement of the variable resistor R1 provides limited scope to adjust the b
 
 ## Some Real Testing
 
-Here's some video from the bench, where I'm testing boththe performance of the transmitter, but also
+Here's some video from the bench, where I'm testing both the performance of the transmitter, but also
 an [HX208-2 AM Receiver](../HX208-2) built from a kit, with a commercial Tecsun receiver as a benchmark.
 
 [![clip](https://img.youtube.com/vi/5skZnjzLtIM/0.jpg)](https://www.youtube.com/watch?v=5skZnjzLtIM)
@@ -94,4 +96,4 @@ an [HX208-2 AM Receiver](../HX208-2) built from a kit, with a commercial Tecsun 
 ## Credits and References
 
 * [One transistor AM transmitter (Stefan0719)](https://www.youtube.com/watch?v=2B5bEMpgrLc)
-* [LEAP#462 HX208-2 AM Receiver](../HX208-2)
+* [LEAP#462 HX208-2 AM Receiver](../HX208-2/)
