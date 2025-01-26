@@ -1,0 +1,9 @@
+{
+    "id": "#055",
+    "name": "RelayControlTest",
+    "description": "quick test to drive a motor with a common relay using NPN switching circuit under Arduino control",
+    "categories": "Servo, Arduino",
+    "relative_path": "playground/RelayControlTest",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

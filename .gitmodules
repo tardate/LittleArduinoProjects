@@ -1,0 +1,135 @@
+[submodule "libraries/FastLED"]
+	path = libraries/FastLED
+	url = https://github.com/FastLED/FastLED.git
+[submodule "libraries/X113647Stepper"]
+	path = libraries/X113647Stepper
+	url = https://github.com/tardate/X113647Stepper.git
+[submodule "libraries/TextFinder"]
+	path = libraries/TextFinder
+	url = https://github.com/tardate/TextFinder.git
+[submodule "libraries/FlexiTimer2"]
+	path = libraries/FlexiTimer2
+	url = https://github.com/wimleers/flexitimer2.git
+[submodule "libraries/RF24"]
+	path = libraries/RF24
+	url = https://github.com/maniacbug/RF24
+[submodule "libraries/RadioHead"]
+	path = libraries/RadioHead
+	url = https://github.com/tardate/RadioHead
+[submodule "libraries/Adafruit_SSD1306"]
+	path = libraries/Adafruit_SSD1306
+	url = https://github.com/adafruit/Adafruit_SSD1306
+[submodule "libraries/Adafruit-GFX-Library"]
+	path = libraries/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library
+[submodule "libraries/LedControl"]
+	path = libraries/LedControl
+	url = https://github.com/wayoda/LedControl
+[submodule "libraries/Rotary"]
+	path = libraries/Rotary
+	url = https://github.com/brianlow/Rotary
+[submodule "libraries/u8glib"]
+	path = libraries/u8glib
+	url = https://github.com/olikraus/U8glib_Arduino
+[submodule "libraries/DS3232RTC"]
+	path = libraries/DS3232RTC
+	url = https://github.com/JChristensen/DS3232RTC
+[submodule "libraries/OneWire"]
+	path = libraries/OneWire
+	url = https://github.com/PaulStoffregen/OneWire
+[submodule "libraries/Cordwood"]
+	path = libraries/Cordwood
+	url = https://github.com/aaronjasso/Cordwood
+[submodule "libraries/LRAS1130"]
+	path = libraries/LRAS1130
+	url = https://github.com/LuckyResistor/LRAS1130
+[submodule "libraries/EnableInterrupt"]
+	path = libraries/EnableInterrupt
+	url = https://github.com/GreyGnome/EnableInterrupt
+[submodule "libraries/Radio"]
+	path = libraries/Radio
+	url = https://github.com/mathertel/Radio.git
+[submodule "libraries/Adafruit_Sensor"]
+	path = libraries/Adafruit_Sensor
+	url = https://github.com/adafruit/Adafruit_Sensor
+[submodule "libraries/DHT-sensor-library"]
+	path = libraries/DHT-sensor-library
+	url = https://github.com/adafruit/DHT-sensor-library
+[submodule "libraries/Adafruit-TFTLCD-Library"]
+	path = libraries/Adafruit-TFTLCD-Library
+	url = https://github.com/adafruit/TFTLCD-Library
+[submodule "libraries/TFT_ILI9163C"]
+	path = libraries/TFT_ILI9163C
+	url = https://github.com/sumotoy/TFT_ILI9163C
+[submodule "libraries/Adafruit_PCD8544"]
+	path = libraries/Adafruit_PCD8544
+	url = https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library
+[submodule "libraries/Arduino-Temperature-Control-Library"]
+	path = libraries/Arduino-Temperature-Control-Library
+	url = https://github.com/milesburton/Arduino-Temperature-Control-Library
+[submodule "libraries/TinyGPSPlus"]
+	path = libraries/TinyGPSPlus
+	url = https://github.com/mikalhart/TinyGPSPlus
+[submodule "libraries/Adafruit_MPR121"]
+	path = libraries/Adafruit_MPR121
+	url = https://github.com/adafruit/Adafruit_MPR121
+[submodule "libraries/LiquidCrystal_I2C"]
+	path = libraries/LiquidCrystal_I2C
+	url = https://github.com/marcoschwartz/LiquidCrystal_I2C
+[submodule "libraries/PCM"]
+	path = libraries/PCM
+	url = https://github.com/damellis/PCM
+[submodule "libraries/Adafruit_VL53L0X"]
+	path = libraries/Adafruit_VL53L0X
+	url = https://github.com/adafruit/Adafruit_VL53L0X
+[submodule "libraries/LRThreeDigits"]
+	path = libraries/LRThreeDigits
+	url = https://github.com/LuckyResistor/LRThreeDigits
+[submodule "libraries/MFRC522"]
+	path = libraries/MFRC522
+	url = https://github.com/miguelbalboa/rfid
+[submodule "libraries/Adafruit_MQTT_Library"]
+	path = libraries/Adafruit_MQTT_Library
+	url = https://github.com/adafruit/Adafruit_MQTT_Library
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson
+[submodule "libraries/INA"]
+	path = libraries/INA
+	url = https://github.com/SV-Zanshin/INA
+[submodule "libraries/Arduino-INA226"]
+	path = libraries/Arduino-INA226
+	url = https://github.com/jarzebski/Arduino-INA226
+[submodule "libraries/Adafruit-Thermal-Printer-Library"]
+	path = libraries/Adafruit-Thermal-Printer-Library
+	url = https://github.com/adafruit/Adafruit-Thermal-Printer-Library
+[submodule "libraries/u8g2lib"]
+	path = libraries/u8g2lib
+	url = https://github.com/olikraus/U8g2_Arduino
+[submodule "libraries/TinyWireM"]
+	path = libraries/TinyWireM
+	url = https://github.com/adafruit/TinyWireM
+[submodule "libraries/Tiny4kOLED"]
+	path = libraries/Tiny4kOLED
+	url = https://github.com/datacute/Tiny4kOLED
+[submodule "libraries/arduino-new-ping"]
+	path = libraries/arduino-new-ping
+	url = https://github.com/tardate/arduino-new-ping
+[submodule "libraries/TMRpcm"]
+	path = libraries/TMRpcm
+	url = https://github.com/TMRh20/TMRpcm
+[submodule "libraries/HPDL1414"]
+	path = libraries/HPDL1414
+	url = https://github.com/marecl/HPDL1414
+[submodule "libraries/Servo8Bit"]
+	path = libraries/Servo8Bit
+	url = https://github.com/fri000/Servo8Bit
+[submodule "libraries/PrecisionServo"]
+	path = libraries/PrecisionServo
+	url = https://github.com/ElizabethTeaches/PrecisionServo
+[submodule "libraries/Arduino-IRremote"]
+	path = libraries/Arduino-IRremote
+	url = https://github.com/Arduino-IRremote/Arduino-IRremote
+[submodule "libraries/NtpServer"]
+	path = libraries/NtpServer
+	url = https://github.com/mgi2212/NtpServer

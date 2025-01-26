@@ -1,0 +1,9 @@
+{
+    "id": "#518",
+    "name": "Lipo Tester Module",
+    "description": "Just a quick look at a 1S to 8S battery tester and alarm module.",
+    "categories": "Power, BMS, Tools, Test Equipment",
+    "relative_path": "Equipment/LipoTesterModule",
+    "updated_at": "2019-12-14T12:53:43Z",
+    "created_at": "2019-12-14T12:53:43Z"
+}

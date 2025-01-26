@@ -1,0 +1,9 @@
+{
+    "id": "#068",
+    "name": "ATmegaViaArduinoISP",
+    "description": "Programming an ATMEGA328P-PU on a breadboard with Arduino ISP",
+    "categories": "Arduino, ATmel, ICSP",
+    "relative_path": "playground/ATmegaViaArduinoISP",
+    "updated_at": "2018-07-22T16:39:25Z",
+    "created_at": "2018-07-22T16:39:25Z"
+}

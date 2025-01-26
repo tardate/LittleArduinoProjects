@@ -1,0 +1,9 @@
+{
+    "id": "#232",
+    "name": "555 PWM LED Dimmer",
+    "description": "test a PWM LED dimmer circuit using a 555 timer",
+    "categories": "LED, Power, 555 Timer",
+    "relative_path": "Electronics101/LED/Dimmer/555PWM",
+    "updated_at": "2023-09-14T10:19:20Z",
+    "created_at": "2023-09-14T10:19:20Z"
+}

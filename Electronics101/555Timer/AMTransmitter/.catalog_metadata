@@ -1,0 +1,9 @@
+{
+    "id": "#132",
+    "name": "555 AM Transmitter",
+    "description": "a simple 555-based AM transmitter",
+    "categories": "Radio, 555 Timer",
+    "relative_path": "Electronics101/555Timer/AMTransmitter",
+    "updated_at": "2020-11-27T17:47:57Z",
+    "created_at": "2020-11-27T17:47:57Z"
+}

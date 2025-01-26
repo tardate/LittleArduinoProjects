@@ -1,0 +1,22 @@
+TARGET_CHIP := NRF51822_QFAA_CA
+BOARD := BOARD_NRF6310
+
+C_SOURCE_FILES += ../blinky.c
+C_SOURCE_FILES += nrf_delay.c
+
+
+SDK_PATH = ../sdk.6/nrf51822/
+OUTPUT_FILENAME := blinky
+
+DEVICE_VARIANT := xxaa
+#DEVICE_VARIANT := xxab
+
+#USE_SOFTDEVICE := S110
+#USE_SOFTDEVICE := S210
+
+include $(SDK_PATH)Source/templates/gcc/Makefile.common
+
+cpinstall: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+	@echo Copying: $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex:
+	../ensure_ela.sh $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex
+	cp $(OUTPUT_BINARY_DIRECTORY)/$(OUTPUT_FILENAME).hex /Volumes/Untitled/$(OUTPUT_FILENAME).hex

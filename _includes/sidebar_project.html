@@ -1,0 +1,22 @@
+<div class="list-group project-sidebar">
+  <div class="list-group-item active">
+      About {{ leap_id }}
+      {% if project_tags %}
+      {% for tag in project_tags  %}<span class="badge badge-success">{{ tag }}</span>{% endfor %}
+      {% endif %}
+  </div>
+  <div class="list-group-item">
+    <p>
+      This page is a web-friendly rendering of my project notes shared in the
+      {{ site.title }} GitHub repository.
+    </p>
+  </div>
+  <a href="{% if leap_id %}{{ site.repo_url | append: "/blob/master" | append: page.url }}{% else %}{{ site.repo_url}}{% endif %}" class="list-group-item" target="_blank">
+    <span class="fa fa-link" aria-hidden="true"></span>
+    Project Source on GitHub
+  </a>
+  <a href="{{ site.url }}" class="list-group-item">
+    <span class="fa fa-backward" aria-hidden="true"></span>
+    Return to the {{ site.title }} Catalog
+  </a>
+</div>

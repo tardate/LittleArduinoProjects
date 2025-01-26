@@ -1,0 +1,9 @@
+{
+    "id": "#127",
+    "name": "ATtiny SleepMode",
+    "description": "test sleep mode with an ATtiny85 processor on a breadboard",
+    "categories": "Arduino, AVR",
+    "relative_path": "playground/ATtiny/SleepMode",
+    "updated_at": "2020-02-17T17:45:56Z",
+    "created_at": "2020-02-17T17:45:56Z"
+}

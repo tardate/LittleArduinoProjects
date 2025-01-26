@@ -1,0 +1,9 @@
+{
+    "id": "#198",
+    "name": "Hall Effect Switch",
+    "description": "using a Hall effect switch (A3144)",
+    "categories": "Sensors",
+    "relative_path": "Electronics101/HallEffectSwitch",
+    "updated_at": "2019-08-18T03:27:41Z",
+    "created_at": "2019-08-18T03:27:41Z"
+}

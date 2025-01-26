@@ -1,0 +1,9 @@
+{
+    "id": "#379",
+    "name": "AS3935",
+    "description": "using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library",
+    "categories": "Arduino, AS3935, Sensors",
+    "relative_path": "playground/AS3935",
+    "updated_at": "2018-02-19T02:10:32Z",
+    "created_at": "2018-02-19T02:10:32Z"
+}

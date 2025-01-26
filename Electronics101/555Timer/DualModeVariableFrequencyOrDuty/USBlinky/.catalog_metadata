@@ -1,0 +1,9 @@
+{
+    "id": "#564",
+    "name": "USB Blinky Toy",
+    "description": "A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit",
+    "categories": "555 Timer, Oscillators, LED",
+    "relative_path": "Electronics101/555Timer/DualModeVariableFrequencyOrDuty/USBlinky",
+    "updated_at": "2020-10-02T13:12:45Z",
+    "created_at": "2020-10-02T13:12:45Z"
+}

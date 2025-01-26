@@ -1,0 +1,9 @@
+{
+    "id": "#376",
+    "name": "PiezoVibrationDetector",
+    "description": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator",
+    "categories": "Arduino, Piezo",
+    "relative_path": "playground/PiezoVibrationDetector",
+    "updated_at": "2018-01-28T15:41:42Z",
+    "created_at": "2018-01-28T15:41:42Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#021",
+    "name": "Schmitt Inverter",
+    "description": "graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs",
+    "categories": "CMOS/TTL",
+    "relative_path": "Electronics101/SchmittInverter",
+    "updated_at": "2017-05-24T15:39:45Z",
+    "created_at": "2017-05-24T15:39:45Z"
+}

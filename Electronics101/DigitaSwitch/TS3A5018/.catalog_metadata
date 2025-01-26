@@ -1,0 +1,9 @@
+{
+    "id": "#370",
+    "name": "DigitaSwitch/TS3A5018",
+    "description": "testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo",
+    "categories": "Arduino, Digital Switch, 555 Timer",
+    "relative_path": "Electronics101/DigitaSwitch/TS3A5018",
+    "updated_at": "2018-01-08T18:17:48Z",
+    "created_at": "2018-01-08T18:17:48Z"
+}

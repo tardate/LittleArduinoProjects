@@ -1,0 +1,9 @@
+{
+    "id": "#099",
+    "name": "ATmegaISPShield",
+    "description": "a DIY ATmega programming shield for using an Arduino as ISP ",
+    "categories": "Arduino, ATmel, ICSP",
+    "relative_path": "playground/ATmegaISPShield",
+    "updated_at": "2018-07-22T16:39:25Z",
+    "created_at": "2018-07-22T16:39:25Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#015",
+    "name": "StripTease",
+    "description": "demo a range of effects on the LED strip",
+    "categories": "LED Array, Arduino",
+    "relative_path": "LEDArrayDemos/StripTease",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

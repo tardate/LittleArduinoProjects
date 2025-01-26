@@ -1,0 +1,9 @@
+{
+    "id": "#056",
+    "name": "JoystickServoControl",
+    "description": "controlling two SG90 servos with a joystick",
+    "categories": "Human Input, Arduino",
+    "relative_path": "Kinetics/ServoMotors/JoystickServoControl",
+    "updated_at": "2021-09-12T08:12:35Z",
+    "created_at": "2021-09-12T08:12:35Z"
+}

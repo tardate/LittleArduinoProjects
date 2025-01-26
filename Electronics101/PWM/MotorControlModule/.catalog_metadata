@@ -1,0 +1,9 @@
+{
+    "id": "#759",
+    "name": "PWM Motor Control Module",
+    "description": "Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.",
+    "categories": "PWM, Power",
+    "relative_path": "Electronics101/PWM/MotorControlModule",
+    "updated_at": "2024-10-22T09:43:00Z",
+    "created_at": "2024-10-22T09:43:00Z"
+}

@@ -1,0 +1,5989 @@
+{
+    "/electronics101/power/aaa5vpower/": {
+        "id": 760,
+        "title": "AAA 5v Power Pack",
+        "summary": "Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/pwm/motorcontrolmodule/": {
+        "id": 759,
+        "title": "PWM Motor Control Module",
+        "summary": "Test and reverse-engineer cheap PWM module designed for 0%-99% duty cycle control at 5-16V to 10A.",
+        "tags": [
+            "PWM",
+            "Power"
+        ]
+    },
+    "/electronics101/usb/usb3poweradapter/": {
+        "id": 758,
+        "title": "USB 3 Power Adapter Board",
+        "summary": "Testing a USB 3 Power Adapter Board that can supply a fixed 9, 12, 15, or 20V at up to 5A",
+        "tags": [
+            "USB",
+            "Power"
+        ]
+    },
+    "/electronics101/windbellkit/": {
+        "id": 757,
+        "title": "Wobbly Wind Bell Kit",
+        "summary": "Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Available as a cheap project kit from many online sellers.",
+        "tags": [
+            "BJT",
+            "RC",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/power/pp3power/": {
+        "id": 755,
+        "title": "9V (PP3) to 5V or 3.3V Power Adapter",
+        "summary": "Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/digitallogic/digitalclockkit/": {
+        "id": 740,
+        "title": "Digital Clock Kit",
+        "summary": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/playground/ntp/ntpclientdemo/": {
+        "id": 737,
+        "title": "NTP Client Demo",
+        "summary": "Simple demonstration of NTP client requests using an Arduino Ethernet Shield",
+        "tags": [
+            "Ethernet",
+            "Arduino"
+        ]
+    },
+    "/playground/applesilicon/ch340/": {
+        "id": 736,
+        "title": "CH340 on Apple Silicon",
+        "summary": "Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Apple",
+            "macOS",
+            "USB"
+        ]
+    },
+    "/playground/applesilicon/": {
+        "id": 735,
+        "title": "Arduino on Apple Silicon",
+        "summary": "Using the Arduino IDE with Apple Silicon (ARM) machines",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Apple",
+            "macOS"
+        ]
+    },
+    "/equipment/optivisor/": {
+        "id": 734,
+        "title": "Optivisor",
+        "summary": "Trying a new Optivisor for close-up work",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/equipment/digitaloventhermometer/": {
+        "id": 733,
+        "title": "TS-BN55 Digital Oven Thermometer",
+        "summary": "Examining and fixing the TS-BN55 Digital Oven Thermometer",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/electronics101/led/flickerkit/": {
+        "id": 732,
+        "title": "LED Flicker Kit",
+        "summary": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "LED"
+        ]
+    },
+    "/electronics101/led/dimmer/vco/": {
+        "id": 719,
+        "title": "Voltage Controlled LED Dimmer",
+        "summary": "Demonstrating a voltage-controlled LED current source with a triangle wave generator.",
+        "tags": [
+            "LED",
+            "Oscillators"
+        ]
+    },
+    "/audio/laserharpkit/": {
+        "id": 700,
+        "title": "Laser Harp Kit",
+        "summary": "Build and test an 8051-based laser harp kit",
+        "tags": [
+            "Audio",
+            "Laser",
+            "LED",
+            "8051"
+        ]
+    },
+    "/playground/attiny/flickeringfireeffect/": {
+        "id": 696,
+        "title": "Flickering Fire Effect",
+        "summary": "A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85",
+        "tags": [
+            "LED",
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/playground/attiny/pwmmotorcontrol/": {
+        "id": 695,
+        "title": "ATtiny PMW Motor Control",
+        "summary": "Variable speed PWM motor control with an ATtiny85",
+        "tags": [
+            "Motors",
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/electronics101/555timer/latch/": {
+        "id": 692,
+        "title": "Push-button Latch",
+        "summary": "Testing a simple push-button latched switch circuit for on/off control using the 555 timer",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/equipment/ch2pc4/": {
+        "id": 691,
+        "title": "CH2PC4 NiMH Charger",
+        "summary": "A few quick notes on the Energizer NiMH charger CH2PC4",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/oscillators/programmablefrequencyreference/": {
+        "id": 689,
+        "title": "Programmable Frequency Reference",
+        "summary": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/oscillators/crystallocked4mhzcd4001/": {
+        "id": 688,
+        "title": "Crystal-locked 4MHz Oscillator",
+        "summary": "Testing a 4MHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/oscillators/crystallocked455khzcd4001/": {
+        "id": 687,
+        "title": "Crystal-locked 455kHz Oscillator",
+        "summary": "Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/audio/audioamps/electretsounddetectionmodule/": {
+        "id": 682,
+        "title": "Electret Sound Detection Module",
+        "summary": "Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).",
+        "tags": [
+            "Arduino",
+            "Audio"
+        ]
+    },
+    "/audio/audioamps/electretpreamp/": {
+        "id": 681,
+        "title": "Electret Audio Pre-amplifier",
+        "summary": "Design and test an electret pre-amplifier comprising an LM358 op-amp active high-pass filter.",
+        "tags": [
+            "Breadboard Bling",
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/equipment/minirotarytool/": {
+        "id": 680,
+        "title": "Mini Rotary Tool",
+        "summary": "unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/electronics101/oscillators/ldrledring/": {
+        "id": 676,
+        "title": "LED-LDR Ring Oscillator",
+        "summary": "Building a simple ring oscillator using a light dependent resistor to couple the LED stages. From a circuit published in Elektor 2012/07.",
+        "tags": [
+            "Oscillators",
+            "LED",
+            "LDR"
+        ]
+    },
+    "/electronics101/ldr/dataslicer/": {
+        "id": 675,
+        "title": "LDR Data Slicer Trigger",
+        "summary": "Using a data slicer to extract a clean trigger signal from a light dependent resistor (LDR)",
+        "tags": [
+            "Sensors",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/ldr/differentialcomparator/": {
+        "id": 674,
+        "title": "LDR Differential Comparator",
+        "summary": "Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)",
+        "tags": [
+            "Sensors",
+            "OpAmp"
+        ]
+    },
+    "/playground/nano/expansionboard/": {
+        "id": 670,
+        "title": "Nano Expansion Board",
+        "summary": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/radio/codepracticeoscillator/": {
+        "id": 668,
+        "title": "Code Practice Oscillator",
+        "summary": "Build and test a simple 2-transistor code practice oscillator",
+        "tags": [
+            "BJT",
+            "RC",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/": {
+        "id": 667,
+        "title": "MC34063 Buck Converter",
+        "summary": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/equipment/lightcontrolswitchkit/": {
+        "id": 664,
+        "title": "Light Control Switch Kit",
+        "summary": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
+        "tags": [
+            "LDR",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/displays/lcd3digit/": {
+        "id": 663,
+        "title": "3-Digit LCD Panel",
+        "summary": "Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/electronics101/oscillators/schmittcrystallockedoscillator/": {
+        "id": 656,
+        "title": "Crystal-Locked Schmitt Oscillator",
+        "summary": "Testing a basic crystal-locked Schmitt oscillator using a 74HC14",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/audio/visualization/usbledvolumeindicatorkit/": {
+        "id": 653,
+        "title": "USB Audio Level Indicator Kit",
+        "summary": "An electret-input audio level kit based on cascading LM358 stages with LED indicators",
+        "tags": [
+            "LM358",
+            "Audio",
+            "LED"
+        ]
+    },
+    "/equipment/humidifiermodule/": {
+        "id": 647,
+        "title": "USB Humidifier Module",
+        "summary": "Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist",
+        "tags": [
+            "USB",
+            "environmental"
+        ]
+    },
+    "/electronics101/power/wirelessledmodule/": {
+        "id": 643,
+        "title": "XKT-511 Wireless LED Module",
+        "summary": "Investigating a wireless LED power module based on the XKT-511 chip",
+        "tags": [
+            "Power",
+            "Wireless",
+            "LED"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/": {
+        "id": 642,
+        "title": "MT3608 Safe Control",
+        "summary": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
+        "tags": [
+            "Power",
+            "SMPS"
+        ]
+    },
+    "/electronics101/cd4069/logicprobe/": {
+        "id": 637,
+        "title": "CD4069 Logic Probe",
+        "summary": "A simple logic probe using inverter gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/cd4001/logicprobe/": {
+        "id": 636,
+        "title": "CD4001 Logic Probe",
+        "summary": "A simple logic probe using NOR gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/cd4001/srlatch/": {
+        "id": 635,
+        "title": "CD4001 SR Latch",
+        "summary": "Set-Reset latch implemented with CD4001 NOR gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/serialinterface/usbtorj45/": {
+        "id": 633,
+        "title": "USB to RJ45 Adapter",
+        "summary": "building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets",
+        "tags": [
+            "RS232",
+            "Serial",
+            "USB",
+            "RJ45"
+        ]
+    },
+    "/equipment/foamcutter/": {
+        "id": 632,
+        "title": "Foam Cutters",
+        "summary": "Examining various foam cutter designs and building a couple for small-scale foam sculpting",
+        "tags": [
+            "Craft",
+            "Tools"
+        ]
+    },
+    "/electronics101/555timer/longrunning/": {
+        "id": 631,
+        "title": "Long Running Timer",
+        "summary": "Building a very low frequency 555 timer circuit, and pushing the envelope with a 1G\u03a9 zero-electrolytic design using the low-leakage TLC556C",
+        "tags": [
+            "555 Timer",
+            "Arduino"
+        ]
+    },
+    "/equipment/waterlevelcontrolkit/": {
+        "id": 629,
+        "title": "Water-Level Control Kit",
+        "summary": "Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.",
+        "tags": [
+            "OpAmp",
+            "Control"
+        ]
+    },
+    "/electronics101/led/remotecontrolcandles/": {
+        "id": 625,
+        "title": "Remote Control Candles",
+        "summary": "Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.",
+        "tags": [
+            "IR",
+            "Arduino",
+            "LED"
+        ]
+    },
+    "/playground/ir/dumper/": {
+        "id": 624,
+        "title": "IR Dumper",
+        "summary": "Reverse-engineering infrared protocols using the Arduino-IRremote library.",
+        "tags": [
+            "IR",
+            "Arduino"
+        ]
+    },
+    "/kraft/kubelmagic/": {
+        "id": 621,
+        "title": "KubelMagic",
+        "summary": "A walnut, Brengun 1:144 K\u00fcbelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.",
+        "tags": [
+            "LED",
+            "Oscillators",
+            "scale models",
+            "Craft"
+        ]
+    },
+    "/electronics101/smdpracticeboards/star/": {
+        "id": 620,
+        "title": "Glowing Star SMD Practice Board",
+        "summary": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
+        "tags": [
+            "SMD",
+            "OpAmp"
+        ]
+    },
+    "/audio/speechsynthesis/syn6288module/": {
+        "id": 619,
+        "title": "SYN6288 Module",
+        "summary": "Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.",
+        "tags": [
+            "Arduino",
+            "Speech Synthesis",
+            "Audio"
+        ]
+    },
+    "/electronics101/weevileyekit/": {
+        "id": 617,
+        "title": "Weevil Eye Kit",
+        "summary": "Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.",
+        "tags": [
+            "LDR",
+            "LED"
+        ]
+    },
+    "/electronics101/led/candleemulator/": {
+        "id": 616,
+        "title": "Candle Emulator",
+        "summary": "An Arduino LED candle emulation",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/equipment/hilologictesterkit/": {
+        "id": 612,
+        "title": "Hi-Lo Logic Tester Kit",
+        "summary": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
+        "tags": [
+            "CMOS/TTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/power/dicksonchargepump/halfwave/": {
+        "id": 611,
+        "title": "Half-Wave Dickson Charge Pump",
+        "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.",
+        "tags": [
+            "Arduino",
+            "Power"
+        ]
+    },
+    "/electronics101/555timer/laserray/": {
+        "id": 610,
+        "title": "LaserRay",
+        "summary": "Testing a laser ray light and sound effectbased on the 555 timer",
+        "tags": [
+            "555 Timer",
+            "Audio",
+            "LED"
+        ]
+    },
+    "/playground/ledcurrentcontrol/": {
+        "id": 608,
+        "title": "LED Current Control",
+        "summary": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/playground/attiny/analogcomparator/": {
+        "id": 605,
+        "title": "ATtiny Analog Comparator",
+        "summary": "Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Sensor",
+            "OpAmp"
+        ]
+    },
+    "/kinetics/servomotors/minilinearservos/": {
+        "id": 604,
+        "title": "Mini Linear Servos",
+        "summary": "Testing some mini/micro linear servo motors with an ATtiny85",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Servo"
+        ]
+    },
+    "/kinetics/servomotors/attinyservo/": {
+        "id": 603,
+        "title": "ATTiny Servo Drive",
+        "summary": "Testing various methods and libraries for driving servo motors with an ATtiny85",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "Servo"
+        ]
+    },
+    "/kinetics/servomotors/lowpowerminiservos/": {
+        "id": 601,
+        "title": "Low Power Mini Servos",
+        "summary": "Testing a few low power mini servo motors with an Arduino and MOSFET level shifter",
+        "tags": [
+            "Servo",
+            "Arduino"
+        ]
+    },
+    "/electronics101/temperaturesensors/lm335/": {
+        "id": 598,
+        "title": "LM335 Temperature Sensor",
+        "summary": "Reading ambient temperature with the LM335 and an Arduino without output display on a Nokia 5110 LCD",
+        "tags": [
+            "Sensors",
+            "LM335",
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/electronics101/power/wirelessled/": {
+        "id": 597,
+        "title": "Simple Wireless Power LED",
+        "summary": "Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration",
+        "tags": [
+            "Power",
+            "Wireless",
+            "LED"
+        ]
+    },
+    "/electronics101/piezobuzzers/opampdriver/": {
+        "id": 596,
+        "title": "OpAmp Piezo Driver",
+        "summary": "Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator",
+        "tags": [
+            "Oscillators",
+            "Crystal",
+            "Audio"
+        ]
+    },
+    "/electronics101/temperaturesensors/lm35/": {
+        "id": 595,
+        "title": "LM35 Temperature Sensor",
+        "summary": "Reading ambient temperature with the LM35 and an Arduino without output display on a Nokia 5110 LCD",
+        "tags": [
+            "Sensors",
+            "LM35",
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/kraft/snowflake/lamp/": {
+        "id": 592,
+        "title": "Snowflake Lamp",
+        "summary": "Finding a new home for some @LuckyResistor Snow Flake boards in a lamp stand",
+        "tags": [
+            "Craft",
+            "ARM",
+            "LED"
+        ]
+    },
+    "/kraft/tydiriumstrobe/module/": {
+        "id": 591,
+        "title": "Tydirium Strobe Module",
+        "summary": "Packaging the ATtiny85 Lambda-class shuttle Tydirium navigation strobe circuit as a small board that can be added to an existing lighting setup.",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED"
+        ]
+    },
+    "/kraft/tydiriumstrobe/": {
+        "id": 589,
+        "title": "Tydirium Strobe",
+        "summary": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/playground/rgbohmmeter/": {
+        "id": 587,
+        "title": "RGB Auto-ranging Ohmmeter",
+        "summary": "An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance",
+        "tags": [
+            "Arduino",
+            "LED",
+            "Sensors"
+        ]
+    },
+    "/esp8266/rgbledfiddler/": {
+        "id": 586,
+        "title": "RGB LED Fiddler",
+        "summary": "Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.",
+        "tags": [
+            "LED",
+            "ESP8266"
+        ]
+    },
+    "/electronics101/ds1822/": {
+        "id": 585,
+        "title": "DS1822 1-Wire Reading",
+        "summary": "Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "LCD"
+        ]
+    },
+    "/electronics101/led/hpdl1414/": {
+        "id": 584,
+        "title": "HPDL1414",
+        "summary": "Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino",
+        "tags": [
+            "LED"
+        ]
+    },
+    "/electronics101/led/ysj181222/": {
+        "id": 583,
+        "title": "LED Sequencer Module",
+        "summary": "Testing a simple 6xLED sequencer module (YuSiJie \u5b87\u601d\u6377 YSJ181222)",
+        "tags": [
+            "LED"
+        ]
+    },
+    "/equipment/spraybooth/": {
+        "id": 576,
+        "title": "Spray Booth",
+        "summary": "Building a $10 spray booth for light airbrush spray painting and soldering",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/audio/motorizedmusicbox/": {
+        "id": 575,
+        "title": "Motorized Music Box",
+        "summary": "A quick test of motorizing a hand-cranked music box",
+        "tags": [
+            "Audio",
+            "Motor"
+        ]
+    },
+    "/audio/microsd/waveplayer/": {
+        "id": 574,
+        "title": "MicroSD WAV Player",
+        "summary": "A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "SD"
+        ]
+    },
+    "/electronics101/555timer/pwmmotorcontrol/": {
+        "id": 573,
+        "title": "555 PWM Motor Control",
+        "summary": "Testing small DC motor control with a 555 time PWM signal",
+        "tags": [
+            "555 Timer",
+            "Motors"
+        ]
+    },
+    "/equipment/powermeter/": {
+        "id": 572,
+        "title": "PowerMeter",
+        "summary": "A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "INA226",
+            "Sensors"
+        ]
+    },
+    "/equipment/tracetogethertoken/": {
+        "id": 571,
+        "title": "TraceTogether Token",
+        "summary": "Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code",
+        "tags": [
+            "BLE",
+            "ARM"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/": {
+        "id": 570,
+        "title": "MT3608 on a Breadboard",
+        "summary": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit",
+        "tags": [
+            "Power",
+            "SMPS"
+        ]
+    },
+    "/playground/power/multivoltagegpio/": {
+        "id": 569,
+        "title": "Multi-voltage GPIO",
+        "summary": "A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin",
+        "tags": [
+            "Arduino",
+            "Power"
+        ]
+    },
+    "/equipment/beeplogicprobe/": {
+        "id": 568,
+        "title": "Beep Logic Probe",
+        "summary": "Building a logic probe with audio and LED feedback, based on a design from Elektor magazine January/February 2015",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL",
+            "Test Equipment"
+        ]
+    },
+    "/radio/randomcodepractice/": {
+        "id": 567,
+        "title": "Random Code Practice",
+        "summary": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.",
+        "tags": [
+            "Radio",
+            "CW",
+            "Arduino"
+        ]
+    },
+    "/electronics101/digitallogic/4bitsynchonouscounter/": {
+        "id": 566,
+        "title": "4-bit Synchonous Counter",
+        "summary": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear",
+        "tags": [
+            "74LS161",
+            "74LS245",
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/breadboardbling/singleshottrigger/": {
+        "id": 565,
+        "title": "Single-Shot Trigger",
+        "summary": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard",
+        "tags": [
+            "Breadboard Bling",
+            "555 Timer",
+            "CD4049"
+        ]
+    },
+    "/electronics101/555timer/dualmodevariablefrequencyorduty/usblinky/": {
+        "id": 564,
+        "title": "USB Blinky Toy",
+        "summary": "A curiously hypnotic USB blinky demonstration of a variable frequency/variable duty 555 timer circuit",
+        "tags": [
+            "555 Timer",
+            "Oscillators",
+            "LED"
+        ]
+    },
+    "/electronics101/555timer/dualmodevariablefrequencyorduty/": {
+        "id": 563,
+        "title": "Dual Variable Mode Oscillator",
+        "summary": "Testing a 555 timer astable oscillator circuit that can be switched between variable duty cycle and variable frequency",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/digitallogic/1bitregister/": {
+        "id": 562,
+        "title": "1-bit Register",
+        "summary": "Building a basic manually controlled 1-bit register that demonstrates the key features of a digital register",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/batterymanagement/aguhajsu1s3a/": {
+        "id": 561,
+        "title": "Aguhajsu 1S/3A BMS",
+        "summary": "Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell",
+        "tags": [
+            "Power",
+            "BMS"
+        ]
+    },
+    "/electronics101/555timer/slowglow/": {
+        "id": 559,
+        "title": "Slow Glow",
+        "summary": "A simple slowly-glowing LED effect using a 555 timer",
+        "tags": [
+            "555 Timer",
+            "LED"
+        ]
+    },
+    "/electronics101/led/led8x8module/": {
+        "id": 557,
+        "title": "LED 8x8 Module",
+        "summary": "Building and using an 8x8 LED matrix with MAX7219 driver module",
+        "tags": [
+            "8x8 LED",
+            "Arduino"
+        ]
+    },
+    "/electronics101/555timer/srlatch/": {
+        "id": 556,
+        "title": "555 SR Latch",
+        "summary": "Set/Reset latch with a 555 timer",
+        "tags": [
+            "555 Timer",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/555timer/beatbot/": {
+        "id": 555,
+        "title": "Beat Bot",
+        "summary": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune",
+        "tags": [
+            "555 Timer",
+            "Kinetics"
+        ]
+    },
+    "/audio/audioeffects/jetengine/": {
+        "id": 554,
+        "title": "Jet Engine Startup Effect",
+        "summary": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO",
+        "tags": [
+            "Audio"
+        ]
+    },
+    "/arm/1bitsy/baremetalblinky/": {
+        "id": 553,
+        "title": "1bitsy Bare Metal C",
+        "summary": "Bare metal programming the 1bitsy STM32F415RGT6 by hand with gcc and the Black Magic Probe",
+        "tags": [
+            "STM32",
+            "C",
+            "ARM",
+            "JTAG"
+        ]
+    },
+    "/electronics101/555timer/aircraftnavigationlights/": {
+        "id": 552,
+        "title": "Freeform Popsicle Airways",
+        "summary": "Demonstrating a simple aircraft navigation beacon sequence implemented with a couple of 555 timers",
+        "tags": [
+            "LED",
+            "555 Timer",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/audio/audioeffectschips/sn76477/propplane/": {
+        "id": 551,
+        "title": "SN76477 Prop Plane",
+        "summary": "Testing the SN76477 propeller plane sound effect configuration",
+        "tags": [
+            "Audio"
+        ]
+    },
+    "/equipment/blackmagicprobe/": {
+        "id": 550,
+        "title": "Black Magic Probe",
+        "summary": "Using the Black Magic Probe for debugging ARM/STM32 devices over JTAG and SWD, with a demonstration on MacOSX",
+        "tags": [
+            "ARM",
+            "JTAG",
+            "SWD"
+        ]
+    },
+    "/arm/stm32f103c8t6/baremetal/": {
+        "id": 549,
+        "title": "Bare Metal C on the Blue Pill",
+        "summary": "Bare metal programming the STM32F103C8T6 (as used in the Blue Pill) by hand with gcc and the stlink open source STM32 MCU programming toolset",
+        "tags": [
+            "STM32",
+            "C"
+        ]
+    },
+    "/arm/stm32f103c8t6/bluepill/debugwithstlink/": {
+        "id": 548,
+        "title": "Debug Arduino STM32 with stlink",
+        "summary": "Using gdb and the stlink open source STM32 MCU programming toolset to debug code built and uploaded using the Arduino IDE on MacOSX",
+        "tags": [
+            "STM32",
+            "gdb",
+            "stlink"
+        ]
+    },
+    "/arm/stm32f103c8t6/bluepill/usingstlink/": {
+        "id": 547,
+        "title": "Using STLink with the Arduino IDE",
+        "summary": "Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE",
+        "tags": [
+            "STM32"
+        ]
+    },
+    "/arm/stm32f103c8t6/48pindevboard/": {
+        "id": 546,
+        "title": "STM32F103C8T6 Dev Board",
+        "summary": "Programming the 48 pin version of the ARM Cortex-M3 STM32F103C8T6 board with the Arduino IDE, with examples of programming using USB-Serial or ST-Link v2 from MacOSX",
+        "tags": [
+            "STM32"
+        ]
+    },
+    "/esp8266/youtubefootswitch/": {
+        "id": 545,
+        "title": "Wireless YouTube Foot Switch",
+        "summary": "An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal for music practice)",
+        "tags": [
+            "ESP8266"
+        ]
+    },
+    "/electronics101/batterymanagement/shengyang18650batteryshield/": {
+        "id": 544,
+        "title": "ShengYang 18650 Battery Shield",
+        "summary": "Checking out the ShengYang 18650 Battery Shield V3 - single cell with USB charge controller and three regulated outputs - 3V, 5V and switchable USB Type A.",
+        "tags": [
+            "Power",
+            "BMS"
+        ]
+    },
+    "/electronics101/cd4046/rampgenerator/": {
+        "id": 543,
+        "title": "PLL Ramp Generator",
+        "summary": "A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.",
+        "tags": [
+            "CD4046",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/inputdevices/footswitch/": {
+        "id": 542,
+        "title": "DIY Foot Switch",
+        "summary": "A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microcontroller",
+        "tags": [
+            "Human Input",
+            "LED"
+        ]
+    },
+    "/electronics101/oscillators/tl431multivibrator/": {
+        "id": 541,
+        "title": "TL431 Multivibrator",
+        "summary": "an unusual multivibrator using a programmable reference with clean square wave output",
+        "tags": [
+            "Oscillators"
+        ]
+    },
+    "/esp8266/esp12/diydevboard/": {
+        "id": 540,
+        "title": "ESP-12 DIY Dev Board",
+        "summary": "Building a programming board for the ESP8266 07/12 variants",
+        "tags": [
+            "ESP8266"
+        ]
+    },
+    "/kraft/metalearthleadguitar/": {
+        "id": 539,
+        "title": "Metal Earth Lead Guitar",
+        "summary": "Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LEDs with electronics squirreled away in an 'amp'",
+        "tags": [
+            "Craft",
+            "LED",
+            "Audio"
+        ]
+    },
+    "/electronics101/batterymanagement/singlecellchargeboostboard/": {
+        "id": 538,
+        "title": "Single-cell Charge/Boost Board",
+        "summary": "An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter",
+        "tags": [
+            "Power",
+            "BMS"
+        ]
+    },
+    "/electronics101/schmitttrigger/switchdebouncer/": {
+        "id": 537,
+        "title": "Schmitt Switch Debouncer",
+        "summary": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14",
+        "tags": [
+            "Schmitt",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/schmitttrigger/powerokindicator/": {
+        "id": 536,
+        "title": "Power OK Indicator",
+        "summary": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14",
+        "tags": [
+            "Schmitt",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/detectors/aclinedetector/": {
+        "id": 535,
+        "title": "AC Line Detector",
+        "summary": "Playing around with a simple AC line current detector",
+        "tags": [
+            "power",
+            "detector"
+        ]
+    },
+    "/esp8266/esp12/programming/": {
+        "id": 534,
+        "title": "ESP-12 Programming",
+        "summary": "The basics of programming an ESP-12 with the ESP8266 core for Arduino",
+        "tags": [
+            "ESP8266"
+        ]
+    },
+    "/pic/tedsclock/": {
+        "id": 533,
+        "title": "Ted's LED Clock",
+        "summary": "Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A",
+        "tags": [
+            "PIC",
+            "LED",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/pic/pic16f84ablinky/": {
+        "id": 532,
+        "title": "PIC16F84A Blinky",
+        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)",
+        "tags": [
+            "PIC",
+            "LED"
+        ]
+    },
+    "/playground/attiny/ssd1306/basicdemo/": {
+        "id": 531,
+        "title": "ATtiny SSD1306 I\u00b2C",
+        "summary": "Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I\u00b2C",
+        "tags": [
+            "AVR",
+            "OLED"
+        ]
+    },
+    "/playground/oled/ssd1306barebacki2c/": {
+        "id": 530,
+        "title": "SSD1306 OLED Bareback I\u00b2C",
+        "summary": "Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I\u00b2C",
+        "tags": [
+            "OLED",
+            "Arduino"
+        ]
+    },
+    "/playground/attiny/pinchangeinterrupts/": {
+        "id": 529,
+        "title": "ATtiny Pin Change Interrupts",
+        "summary": "How to use pin change interrupts with the ATtiny85",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/boldportclub/ixpando/attinycontroller/": {
+        "id": 528,
+        "title": "ATtiny IxpandO",
+        "summary": "Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I\u00b2C IO expansion board",
+        "tags": [
+            "Boldport",
+            "Port Expander",
+            "AVR"
+        ]
+    },
+    "/playground/oled/ssd1306_u8g2/": {
+        "id": 527,
+        "title": "SSD1306 With u8g v2",
+        "summary": "Testing an SSD1306 128x32 OLED with the new v2 u8g library over I\u00b2C",
+        "tags": [
+            "OLED",
+            "Arduino"
+        ]
+    },
+    "/equipment/metaldetectorkit/": {
+        "id": 526,
+        "title": "Metal Detector Kit",
+        "summary": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit",
+        "tags": [
+            "BMS",
+            "RF"
+        ]
+    },
+    "/audio/simplesoundeffects2/": {
+        "id": 525,
+        "title": "Simple Sound Effects 2",
+        "summary": "Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.",
+        "tags": [
+            "Audio",
+            "AVR"
+        ]
+    },
+    "/playground/thermalprinter/lucky4doracle/": {
+        "id": 524,
+        "title": "Lucky 4D Printer",
+        "summary": "A Lucky 4D number generator, built with a JP-QR701 Thermal Printer, including a detour into to print Chinese (GB2312-80)",
+        "tags": [
+            "Arduino",
+            "Thermal Printer"
+        ]
+    },
+    "/playground/thermalprinter/qr701basics/": {
+        "id": 523,
+        "title": "JP-QR701 Thermal Printer Basics",
+        "summary": "Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python",
+        "tags": [
+            "Arduino",
+            "Thermal Printer"
+        ]
+    },
+    "/radio/lpd433/rfdoorbell/": {
+        "id": 522,
+        "title": "Remote Doorbell",
+        "summary": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect",
+        "tags": [
+            "Radio",
+            "OpAmp",
+            "LPD433",
+            "Music Chips"
+        ]
+    },
+    "/audio/audioeffectschips/ck9561/": {
+        "id": 521,
+        "title": "CK9561 Audio Effects Chip",
+        "summary": "Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren/weapon sounds that sound strangely familiar if you have ever walked through a toy department at Christmas!",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/electronics101/555timer/continuitytester/": {
+        "id": 520,
+        "title": "Continuity Tester",
+        "summary": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.",
+        "tags": [
+            "555 Timer",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/fuses/pptcperformance/": {
+        "id": 519,
+        "title": "PPTC Performance",
+        "summary": "Testing the performance of a few PolySwitch polymeric positive temperature coefficient (PPTC) resettable fuses",
+        "tags": [
+            "Fuse",
+            "Power"
+        ]
+    },
+    "/equipment/lipotestermodule/": {
+        "id": 518,
+        "title": "Lipo Tester Module",
+        "summary": "Just a quick look at a 1S to 8S battery tester and alarm module.",
+        "tags": [
+            "Power",
+            "BMS",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/555timer/precisionvariablefrequencyfixedduty/": {
+        "id": 517,
+        "title": "555 Timer Fixed-duty VFO",
+        "summary": "Using an unconventional configuration of a 555 timer variable frequency oscillator with fixed duty cycle (and precise duty cycle fine adjustment)",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/radio/fm/zx2031kit/": {
+        "id": 516,
+        "title": "ZX2031 FM Radio Kit",
+        "summary": "Building an FM radio kit based on the Silan SC1088 FM receiver chip",
+        "tags": [
+            "Radio",
+            "FM"
+        ]
+    },
+    "/radio/fm/frequencyconverter/": {
+        "id": 515,
+        "title": "FM Converter",
+        "summary": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning",
+        "tags": [
+            "Radio",
+            "FM"
+        ]
+    },
+    "/electronics101/subtractionloopcounterkit/": {
+        "id": 514,
+        "title": "Subtraction Loop Counter Kit",
+        "summary": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
+    "/equipment/dummyload/simpleresistiveusbload/": {
+        "id": 513,
+        "title": "Simple USB Dummy Load",
+        "summary": "Examining and testing a simple USB resistive dummy load",
+        "tags": [
+            "USB",
+            "Dummy Load"
+        ]
+    },
+    "/audio/greatersimplesoundeffects/": {
+        "id": 512,
+        "title": "Greater Simple Sound Effects",
+        "summary": "Reviving a design from Elektor in 1980, with light and touch-sensor variations on the basic CD4040/CD4049 oscillator. The circuit must have been used in BEAM robots back in the day, so my final build is a freeform phototrope squawker.",
+        "tags": [
+            "BEAM",
+            "CMOS/TTL",
+            "Sensors",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/electronics101/power/bridgedoublersplitsupply/": {
+        "id": 511,
+        "title": "Bridge Doubler Split Supply",
+        "summary": "an AC-powered bridge doubler supply with DC output governed by 7815/7915 \u00b115V DC linear regulation",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/serialinterface/usbtors232/": {
+        "id": 510,
+        "title": "USB to RS-232 Adapter",
+        "summary": "building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets",
+        "tags": [
+            "RS232",
+            "Serial",
+            "USB"
+        ]
+    },
+    "/electronics101/serialinterface/max3232/rs232ttlmodule/": {
+        "id": 509,
+        "title": "MAX3232 RS232 to TTL Module",
+        "summary": "Using a MAX3232 Module with CH340 adapter for USB to RS-232 serial communication, with examples using screen on MacOSX",
+        "tags": [
+            "RS232",
+            "Serial",
+            "USB"
+        ]
+    },
+    "/esp32/usingmdns/": {
+        "id": 508,
+        "title": "Using mDNS",
+        "summary": "delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network",
+        "tags": [
+            "ESP32",
+            "mDNS"
+        ]
+    },
+    "/electronics101/switches/singlestagedelay/": {
+        "id": 507,
+        "title": "Single-stage Delay Switch",
+        "summary": "comparing BJT and MOSFETs for creating a simple turn-off delay with discrete components",
+        "tags": [
+            "Switches",
+            "RC"
+        ]
+    },
+    "/boldportclub/pcbmode/": {
+        "id": 506,
+        "title": "Learning PCBmodE",
+        "summary": "learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "EDA"
+        ]
+    },
+    "/audio/rakitbaby8sequencer/": {
+        "id": 505,
+        "title": "Rakit Baby8 Sequencer",
+        "summary": "Building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clock input.",
+        "tags": [
+            "Audio",
+            "Music",
+            "Sequencer"
+        ]
+    },
+    "/electronics101/ina226/highsidemonitorbasics/": {
+        "id": 504,
+        "title": "INA226 High-side Monitor Basics",
+        "summary": "How to design for the INA226 current and power monitor and test with an Arduino and various libraries including raw wire I\u00b2C",
+        "tags": [
+            "INA226",
+            "Sensors"
+        ]
+    },
+    "/equipment/imaxrcb3lipocharger/": {
+        "id": 503,
+        "title": "imaxRC B3 Lipo Charger",
+        "summary": "quick teardown and review of the imax B3 Pro charger for 2s and 3s Lithium-polymer battery packs",
+        "tags": [
+            "Power",
+            "BMS"
+        ]
+    },
+    "/equipment/lii202smartcharger/": {
+        "id": 502,
+        "title": "LiitoKala Lii-202 Smart Charger",
+        "summary": "quick teardown and review of the Lii-202 18650 charger and power bank",
+        "tags": [
+            "Power",
+            "BMS"
+        ]
+    },
+    "/electronics101/batterymanagement/singlecelllithiumcharger/": {
+        "id": 501,
+        "title": "Single-cell Lithium Charger",
+        "summary": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules",
+        "tags": [
+            "Power",
+            "BMS"
+        ]
+    },
+    "/playground/rfid/concentration/": {
+        "id": 500,
+        "title": "RFID Concentration Game",
+        "summary": "Play a game of Concentration/Pairs with a stack of MIFARE Classic cards",
+        "tags": [
+            "RFID",
+            "Arduino",
+            "Boldport",
+            "LED"
+        ]
+    },
+    "/audio/audioeffectschips/hs088/amplified/": {
+        "id": 499,
+        "title": "HS088 Low-voltage Amplifier",
+        "summary": "adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/electronics101/teslacoil/musicalkit/": {
+        "id": 498,
+        "title": "Tesla Coil Plasma Speaker Kit",
+        "summary": "playing with a Tesla coil (slayer exciter) circuit that also acts as an audio speaker with pulsing LED effects",
+        "tags": [
+            "Audio",
+            "Power",
+            "Oscillators"
+        ]
+    },
+    "/esp32/publishinginternals/": {
+        "id": 497,
+        "title": "Publishing Internals",
+        "summary": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization",
+        "tags": [
+            "ESP32",
+            "JSON",
+            "WebServer",
+            "Sensors"
+        ]
+    },
+    "/esp32/gettingstarted/": {
+        "id": 496,
+        "title": "ESP32 Getting Started",
+        "summary": "Getting started with the ESP32: connecting and programming from MacOSX with the Arduino IDE using a WiFi scanner script as an example",
+        "tags": [
+            "ESP32"
+        ]
+    },
+    "/electronics101/bjt/negativefeedbackamplifier/": {
+        "id": 495,
+        "title": "Negative Feedback Amplifier",
+        "summary": "examining the design and performance of an ac-coupled negative feedback amplifier constructed with BJTs",
+        "tags": [
+            "BJT"
+        ]
+    },
+    "/fpga/fomu/buildnotifier/": {
+        "id": 494,
+        "title": "Fomu Build Notifier",
+        "summary": "using the Fomu's RGB-in-your-USB as a test results notifier in RISC-V C (demonstrated with Ruby, RSpec and Guard)",
+        "tags": [
+            "FPGA",
+            "Ruby"
+        ]
+    },
+    "/fpga/fomu/gettingstarted/": {
+        "id": 493,
+        "title": "Getting Started with Fomu",
+        "summary": "first look at the Fomu FPGA and some tests running MicroPython on the RISC-V CPU core, and peeking/poking memory over the wishbone bus.",
+        "tags": [
+            "FPGA"
+        ]
+    },
+    "/kraft/kickingback/": {
+        "id": 492,
+        "title": "Kicking Back",
+        "summary": "a useless machine/desktop toy that employs some overly complex mechanics to simply kick a ball (in a minor homage to @mPinoe)",
+        "tags": [
+            "Sensors",
+            "Solenoid",
+            "555 Timer"
+        ]
+    },
+    "/kinetics/solenoids/magnetswitchedsolenoid/": {
+        "id": 491,
+        "title": "Magnet-switched Solenoid",
+        "summary": "using a Hall effect sensor to trigger a solenoid with a fixed pulse",
+        "tags": [
+            "Solenoid",
+            "Sensors"
+        ]
+    },
+    "/electronics101/edgedetection/555fallingedgedetector/": {
+        "id": 490,
+        "title": "555 Falling Edge Detector",
+        "summary": "using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falling edge trigger pulse",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/edgedetection/555risingedgedetector/": {
+        "id": 489,
+        "title": "555 Rising Edge Detector",
+        "summary": "using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/edgedetection/xorrcedgedetector/": {
+        "id": 488,
+        "title": "XOR-RC Edge Detector",
+        "summary": "Dual edge detection with a 74LS86 XOR and RC circuit",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/oscillators/crystallocked1khzoscillator/": {
+        "id": 487,
+        "title": "Crystal-locked 1kHz Oscillator",
+        "summary": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz",
+        "tags": [
+            "Oscillators"
+        ]
+    },
+    "/playground/usingtemplates/": {
+        "id": 486,
+        "title": "Using C++ Templates",
+        "summary": "Learning how to use C++ template functions in embedded projects with an Arduino",
+        "tags": [
+            "Arduino",
+            "C++"
+        ]
+    },
+    "/playground/rfid/cardcounter/": {
+        "id": 485,
+        "title": "RFID Card Counter",
+        "summary": "Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards",
+        "tags": [
+            "RFID",
+            "Arduino"
+        ]
+    },
+    "/electronics101/oscillators/crystallocked455khzmodulated/": {
+        "id": 484,
+        "title": "Crystal-Locked 455 kHz AM Oscillator",
+        "summary": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment",
+        "tags": [
+            "Radio",
+            "Oscillators"
+        ]
+    },
+    "/kraft/wyled/": {
+        "id": 483,
+        "title": "WyLed",
+        "summary": ".. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display. An ATTiny85 provides a little brain, and the TM1638 handles all input and output.",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "LED",
+            "TM1638",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/electronics101/electret/soundleveltrigger/": {
+        "id": 482,
+        "title": "Electret Sound-level Trigger",
+        "summary": "a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone",
+        "tags": [
+            "Electret",
+            "Audio",
+            "Sensor"
+        ]
+    },
+    "/playground/led7segment/tm1638/": {
+        "id": 481,
+        "title": "TM1638 7-Segment LED Driver",
+        "summary": "investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller",
+        "tags": [
+            "7-Segment",
+            "Arduino",
+            "LED",
+            "TM1638"
+        ]
+    },
+    "/playground/led7segment/": {
+        "id": 480,
+        "title": "7-Segment LED Displays",
+        "summary": "All about LED 7-segment displays",
+        "tags": [
+            "7-Segment",
+            "LED"
+        ]
+    },
+    "/playground/led7segment/max7219/ledcontroldemo/": {
+        "id": 479,
+        "title": "LedControl MAX7219 7-Segment LED Driver",
+        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library",
+        "tags": [
+            "7-Segment",
+            "Arduino",
+            "LED",
+            "MAX7219"
+        ]
+    },
+    "/playground/led7segment/max7219/rawdrive/": {
+        "id": 478,
+        "title": "Raw MAX7219 7-Segment LED Driver",
+        "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands",
+        "tags": [
+            "7-Segment",
+            "Arduino",
+            "LED",
+            "MAX7219"
+        ]
+    },
+    "/audio/rakitdrumsynth/": {
+        "id": 477,
+        "title": "Rakit Drum Synth",
+        "summary": "building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer",
+        "tags": [
+            "Audio",
+            "Drum",
+            "Synth",
+            "Music"
+        ]
+    },
+    "/radio/fm/simplestdirectreceiver/": {
+        "id": 476,
+        "title": "Simplest Direct FM Receiver",
+        "summary": "Taming a very simple direct conversion FM receiver",
+        "tags": [
+            "Radio",
+            "FM"
+        ]
+    },
+    "/equipment/ang860b/": {
+        "id": 475,
+        "title": "ANG860B",
+        "summary": "specifications and notes on the ANENG ANG860B+ digital multimeter",
+        "tags": [
+            "Tools",
+            "Test Equipment",
+            "DMM"
+        ]
+    },
+    "/audio/audioeffects/whitenoisegenerator/": {
+        "id": 474,
+        "title": "BJT White Noise Generator",
+        "summary": "Building a common white noise generator circuit and optimising it for 9V operation with BC337 transistors",
+        "tags": [
+            "Audio",
+            "BJT"
+        ]
+    },
+    "/kraft/xdiskclk/": {
+        "id": 473,
+        "title": "xdiskclk",
+        "summary": "An old 3.5 inch disk drive was begging to be disassembled and transformed with the addition of a simple clock mechanism to produce the ex-disk-clock",
+        "tags": [
+            "Craft",
+            "Clock"
+        ]
+    },
+    "/electronics101/power/capacitivedropper/": {
+        "id": 472,
+        "title": "Capacitive Dropper",
+        "summary": "Understanding how to design a capacitive dropper, and demonstration with a low-voltage LED driver circuit",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/led/fluorescentringreplacement/": {
+        "id": 471,
+        "title": "Fluorescent Ring LED Replacement",
+        "summary": "Understanding fluorescent lighting and installing an LED replacement",
+        "tags": [
+            "LED",
+            "Power",
+            "Lighting"
+        ]
+    },
+    "/radio/am/simplecrystaltransmitter/": {
+        "id": 470,
+        "title": "Simple Crystal AM Transmitter",
+        "summary": "building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crystal oscillator",
+        "tags": [
+            "Radio",
+            "AM",
+            "Transmitter"
+        ]
+    },
+    "/electronics101/breadboardbling/lm386audioamp/": {
+        "id": 469,
+        "title": "LM386 Audio Amp",
+        "summary": "A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting",
+        "tags": [
+            "Breadboard Bling",
+            "Audio",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/breadboardbling/duplextuningcapacitor/": {
+        "id": 468,
+        "title": "Duplex Tuning Capacitor",
+        "summary": "making a breadboard-compatible variable capacitor for radio circuits",
+        "tags": [
+            "Breadboard Bling",
+            "Radio"
+        ]
+    },
+    "/radio/fm/twostagetransmitter/": {
+        "id": 467,
+        "title": "Two-stage FM Transmitter",
+        "summary": "build and test a simple two-stage FM transmitter",
+        "tags": [
+            "Radio",
+            "FM"
+        ]
+    },
+    "/equipment/vc3165/": {
+        "id": 466,
+        "title": "VC3165",
+        "summary": "all about the Victor VC3165 frequency counter",
+        "tags": [
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/bjt/mrbijut/": {
+        "id": 465,
+        "title": "MrBiJuT",
+        "summary": "Mr BiJuT is a freeform realisation of a simple NPN/PNP transistor testing circuit using a CD4011 Schmitt oscillator",
+        "tags": [
+            "BJT",
+            "Test Equipment",
+            "Oscillators",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/radio/am/singletransistortransmitter/": {
+        "id": 464,
+        "title": "Single Transistor AM Transmitter",
+        "summary": "building a low power, single transistor AM transmitter with surprisingly good fidelity",
+        "tags": [
+            "Radio",
+            "AM",
+            "Transmitter"
+        ]
+    },
+    "/electronics101/opamp/transconductance/": {
+        "id": 463,
+        "title": "OpAmp Transconductance Amplifiers",
+        "summary": "understanding transconductance amplifiers and how they can be realised with an op-amp, and testing both single and dual-supply transconductance circuits based on an LM741 op-amp",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/radio/am/hx108-2/": {
+        "id": 462,
+        "title": "HX108-2",
+        "summary": "build and analyse the HX108-2 superheterodyne AM MW radio receiver kit",
+        "tags": [
+            "Radio",
+            "AM"
+        ]
+    },
+    "/electronics101/guitareffects/goblin/": {
+        "id": 461,
+        "title": "Goblin",
+        "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications",
+        "tags": [
+            "Guitar Effects",
+            "Audio"
+        ]
+    },
+    "/audio/audioeffects/canary/": {
+        "id": 460,
+        "title": "CANary",
+        "summary": "playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANary sculpture",
+        "tags": [
+            "BEAM",
+            "Oscillators",
+            "Audio"
+        ]
+    },
+    "/electronics101/opamp/twinteeoscillator/": {
+        "id": 459,
+        "title": "Twin-Tee OpAmp Oscillator",
+        "summary": "a twin-tee sine wave oscillator using an TL072 Op-Amp, running in the audio spectrum",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/playground/fastanalogread/": {
+        "id": 458,
+        "title": "FastAnalogRead",
+        "summary": "how to increase the Arduino ADC analog sampling rate",
+        "tags": [
+            "Arduino",
+            "GPIO"
+        ]
+    },
+    "/playground/precisiontimer/": {
+        "id": 457,
+        "title": "PrecisionTimer",
+        "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/boldportclub/pease-out/": {
+        "id": 456,
+        "title": "BoldportClub/pease-out",
+        "summary": "an audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan 2019",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LM331"
+        ]
+    },
+    "/electronics101/piezobuzzers/": {
+        "id": 455,
+        "title": "Piezo Transducers and Buzzers",
+        "summary": "exploring techniques for driving piezo transducers and buzzer units for audio output",
+        "tags": [
+            "Oscillators",
+            "Crystal",
+            "Audio"
+        ]
+    },
+    "/electronics101/voltagereference/adr4540/": {
+        "id": 454,
+        "title": "VoltageReference/ADR4540",
+        "summary": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference",
+        "tags": [
+            "Voltage Reference"
+        ]
+    },
+    "/electronics101/breadboardbling/potmodules/": {
+        "id": 453,
+        "title": "PotModules",
+        "summary": "Making some breadboard-compatible potentiometers and covering some basics of terminology, Ohm's Law and voltage dividers",
+        "tags": [
+            "Breadboard Bling"
+        ]
+    },
+    "/electronics101/cd4046/mainslinkedpll/": {
+        "id": 452,
+        "title": "CD4046/MainsLinkedPLL",
+        "summary": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL",
+        "tags": [
+            "Oscillators",
+            "PLL"
+        ]
+    },
+    "/electronics101/arcgeneratorkit/": {
+        "id": 451,
+        "title": "ArcGeneratorKit",
+        "summary": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/equipment/lcr45/": {
+        "id": 450,
+        "title": "LCR45",
+        "summary": "evaluating the Peak LCR45 inductance, capacitance and resistance meter",
+        "tags": [
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/audio/audioeffects/parrot/": {
+        "id": 449,
+        "title": "Parrot",
+        "summary": "playing with a 1-transistor, dual oscillator chirping sound effect circuit",
+        "tags": [
+            "Audio",
+            "BEAM",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/adc/ltc2400/": {
+        "id": 448,
+        "title": "LTC2400",
+        "summary": "exploring the tips and traps involved in getting accurate readings from the LTC2400 24-bit ADC",
+        "tags": [
+            "ADC"
+        ]
+    },
+    "/boldportclub/capacimeter/": {
+        "id": 447,
+        "title": "Capacimeter",
+        "summary": "measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Club remix of a PEAK, Project #31, December 2018",
+        "tags": [
+            "Boldport",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/toroidjoulethief/rgbnightlight/": {
+        "id": 446,
+        "title": "RGB Joule Thief Night Light",
+        "summary": "testing a slow-flash RGB LED with a 1.5V joule thief power supply",
+        "tags": [
+            "LED",
+            "Power"
+        ]
+    },
+    "/electronics101/555timer/variabledutycycle/controladjust/": {
+        "id": 445,
+        "title": "VariableDutyCycle/ControlAdjust",
+        "summary": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/555timer/variabledutycycle/diodesteering/": {
+        "id": 444,
+        "title": "VariableDutyCycle/DiodeSteering",
+        "summary": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/arm/stm32f103c8t6/bluepill/lcd16x2/": {
+        "id": 443,
+        "title": "BluePill 16x2 LCD",
+        "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE",
+        "tags": [
+            "STM32",
+            "LCD"
+        ]
+    },
+    "/boldportclub/respot/": {
+        "id": 442,
+        "title": "BoldportClub/respot",
+        "summary": "Boldport puts the \"pot\" back in the resistance, a classic decade resistor box in custom pots",
+        "tags": [
+            "Boldport",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/kraft/pollen8/": {
+        "id": 441,
+        "title": "Pollen8",
+        "summary": "a freeform wire sculpture with LEDs driven by a light-sensitive 555/4017 counter circuit",
+        "tags": [
+            "LED",
+            "CMOS/TTL",
+            "555 Timer",
+            "Craft",
+            "Circuit Sculpture",
+            "Freeform"
+        ]
+    },
+    "/playground/datalogging/voltagetoadafruitio/": {
+        "id": 440,
+        "title": "DataLogging/VoltageToAdafruitIO",
+        "summary": "using Adafruit IO and an Ethernet shield to collect analog measurements to the cloud with MQTT",
+        "tags": [
+            "Sensors",
+            "Cloud",
+            "MQTT",
+            "Data Logging"
+        ]
+    },
+    "/electronics101/leddrivers/qx5252solarnightlight/": {
+        "id": 439,
+        "title": "QX5252SolarNightLight",
+        "summary": "exploring the circuit inside most garden solar lights, which uses a QX5252/YX805 boost and charge controller",
+        "tags": [
+            "Power",
+            "LED",
+            "Solar"
+        ]
+    },
+    "/playground/rfid/devicedumper/": {
+        "id": 438,
+        "title": "RFID Device Dumper",
+        "summary": "getting started with some RFID research and using an RC522 RFID reader with MIFARE Classic cards and tags",
+        "tags": [
+            "RFID",
+            "Arduino"
+        ]
+    },
+    "/electronics101/leddrivers/qx5252joulethief/": {
+        "id": 437,
+        "title": "QX5252JouleThief",
+        "summary": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery",
+        "tags": [
+            "Power",
+            "LED"
+        ]
+    },
+    "/kinetics/beam/vivian/": {
+        "id": 436,
+        "title": "Vivian",
+        "summary": "a BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX5252/YX805 solar LED driver",
+        "tags": [
+            "BEAM",
+            "Robotics"
+        ]
+    },
+    "/kinetics/beam/": {
+        "id": 435,
+        "title": "BEAM",
+        "summary": "a quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) field",
+        "tags": [
+            "BEAM",
+            "Robotics"
+        ]
+    },
+    "/boldportclub/krell/": {
+        "id": 434,
+        "title": "BoldportClub/krell",
+        "summary": "building the Boldport Krell: a handheld DSP synthesiser built around a Microchip dsPIC and a design from madlab",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Audio"
+        ]
+    },
+    "/equipment/adjustablepowersupplykit/": {
+        "id": 433,
+        "title": "AdjustablePowerSupplyKit",
+        "summary": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/kinetics/steppermotors/uln2003module/": {
+        "id": 432,
+        "title": "StepperMotors/ULN2003Module",
+        "summary": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647",
+        "tags": [
+            "Stepper",
+            "ULN2003"
+        ]
+    },
+    "/kinetics/steppermotors/28byj48/": {
+        "id": 431,
+        "title": "StepperMotors/28BYJ48",
+        "summary": "all about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino",
+        "tags": [
+            "Stepper",
+            "Arduino"
+        ]
+    },
+    "/kinetics/steppermotors/bipolarwormdrive/simplehbridge/": {
+        "id": 430,
+        "title": "BipolarWormDrive/SimpleHBridge",
+        "summary": "testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!",
+        "tags": [
+            "Stepper",
+            "Arduino"
+        ]
+    },
+    "/boldportclub/3x7/pomodorotimer/": {
+        "id": 429,
+        "title": "3x7/PomodoroTimer",
+        "summary": "a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328",
+        "tags": [
+            "Boldport",
+            "7-Segment",
+            "ATmel"
+        ]
+    },
+    "/boldportclub/3x7/lrthreedigitdemo/": {
+        "id": 428,
+        "title": "3x7 LRThreeDigitDemo",
+        "summary": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library",
+        "tags": [
+            "Boldport",
+            "7-Segment",
+            "Arduino"
+        ]
+    },
+    "/playground/attiny/softwarepwm/": {
+        "id": 427,
+        "title": "ATtiny Software PWM",
+        "summary": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques",
+        "tags": [
+            "AVR",
+            "PWM"
+        ]
+    },
+    "/boldportclub/3x7/rippletester/": {
+        "id": 426,
+        "title": "3x7 RippleTester ",
+        "summary": "using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7",
+        "tags": [
+            "Boldport",
+            "7-Segment",
+            "CMOS/TTL"
+        ]
+    },
+    "/boldportclub/3x7/": {
+        "id": 425,
+        "title": "BoldportClub/3x7",
+        "summary": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
+        "tags": [
+            "Boldport",
+            "7-Segment"
+        ]
+    },
+    "/playground/vl53l0x/thetoneranger/": {
+        "id": 424,
+        "title": "TheToneRanger",
+        "summary": "a simple modification of the basic VL53L0X example to add audio indication of range",
+        "tags": [
+            "Arduino",
+            "Sensors",
+            "Audio"
+        ]
+    },
+    "/playground/makeruno/": {
+        "id": 423,
+        "title": "MakerUno",
+        "summary": "checking out the Maker UNO, a feature-packed Arduino-compatible board from Cytron in Penang, Malaysia",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/playground/vl53l0x/lasertapemeasure/": {
+        "id": 422,
+        "title": "LaserTapeMeasure",
+        "summary": "using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "LCD"
+        ]
+    },
+    "/radio/sdr/limesdr/firstlook/": {
+        "id": 421,
+        "title": "LimeSDR First Look",
+        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host",
+        "tags": [
+            "SDR"
+        ]
+    },
+    "/boldportclub/lite2sound-bc/cuttletalk/": {
+        "id": 420,
+        "title": "CuttleTalk",
+        "summary": "playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound",
+        "tags": [
+            "Boldport",
+            "Audio",
+            "LiFi"
+        ]
+    },
+    "/boldportclub/lite2sound-bc/": {
+        "id": 419,
+        "title": "BoldportClub/lite2sound-bc",
+        "summary": "building Lite2Sound Boldport Club Project #26",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Audio"
+        ]
+    },
+    "/electronics101/oscillators/commonemitterhartley/": {
+        "id": 418,
+        "title": "CommonEmitterHartley",
+        "summary": "build and test a BJT common-emitter Hartley oscillator",
+        "tags": [
+            "BJT",
+            "Oscillators"
+        ]
+    },
+    "/playground/audio/simplesampleplayer/": {
+        "id": 417,
+        "title": "SimpleSamplePlayer",
+        "summary": "playing short audio samples on an Arduino using some PWM tricks from the PCM library",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "PWM"
+        ]
+    },
+    "/kinetics/linefollowerkit/": {
+        "id": 416,
+        "title": "Line Follower Kit",
+        "summary": "building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a simple feedback control system with an LM393 comparator",
+        "tags": [
+            "Sensors",
+            "Kinetics",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/555timer/nixiepowersupply/": {
+        "id": 415,
+        "title": "Nixie Power Supply - 555 Timer Version",
+        "summary": "using a 555 boost converter to test some Nixie IN3 and IN14 tubes",
+        "tags": [
+            "Power",
+            "Nixie",
+            "555 Timer"
+        ]
+    },
+    "/electronics101/decadeprogrammableresistor/": {
+        "id": 414,
+        "title": "Decade Programmable Resistor",
+        "summary": "building an old-fashioned 7-digit decade programmable resistor with push-button control",
+        "tags": [
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/rotaryencoders/incrementaltester/": {
+        "id": 413,
+        "title": "Rotary Encoder Tester",
+        "summary": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic",
+        "tags": [
+            "Sensor",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/bjt/comparator/": {
+        "id": 412,
+        "title": "BJT Comparator",
+        "summary": "investigating and testing a comparator design with discrete components",
+        "tags": [
+            "BJT",
+            "Comparator"
+        ]
+    },
+    "/boldportclub/cordwood-three/": {
+        "id": 411,
+        "title": "BoldportClub/cordwood-three",
+        "summary": "custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism",
+        "tags": [
+            "Boldport",
+            "LED"
+        ]
+    },
+    "/kinetics/homopolarjoulethiefblinky/": {
+        "id": 410,
+        "title": "HomopolarJouleThiefBlinky",
+        "summary": "a totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homopolar motor and joule thief mechanisms",
+        "tags": [
+            "Kinetics",
+            "LED",
+            "Oscillators"
+        ]
+    },
+    "/boldportclub/conehead/": {
+        "id": 409,
+        "title": "Conehead",
+        "summary": "The Conehead is the fourth in the Boldport Club series of beautiful electronic critters, Project #24 April 2018. This one chirps in response to light.",
+        "tags": [
+            "Boldport",
+            "Oscillators",
+            "CMOS/TTL",
+            "Audio"
+        ]
+    },
+    "/electronics101/power/bbbreakout/": {
+        "id": 408,
+        "title": "BB Breakout",
+        "summary": "a little breadboard power adapter and breakout with 5.5x2.1mm barrel jack, terminal block and XH2.54 connectors",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/equipment/dps3005benchpowersupply/": {
+        "id": 407,
+        "title": "DPS3005 Bench Power Supply",
+        "summary": "building an AC-powered 32V/5A variable bench power supply based on the DPS3005 DC power supply module and rectified step-down transformer",
+        "tags": [
+            "Power",
+            "Tools"
+        ]
+    },
+    "/electronics101/serialinterface/usbuartch340g/": {
+        "id": 406,
+        "title": "Custom CH340G USB to UART interface",
+        "summary": "build a USB to TTL serial interface on a breadboard using the CH340G interface chip, and use it to program Arduino sketches on an ATmega328P",
+        "tags": [
+            "USB",
+            "Serial",
+            "CH340"
+        ]
+    },
+    "/playground/atmegaserialprogrammer/": {
+        "id": 405,
+        "title": "ATmegaSerialProgrammer",
+        "summary": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "ICSP",
+            "UART"
+        ]
+    },
+    "/kraft/arzamatron/": {
+        "id": 404,
+        "title": "Arza-matron",
+        "summary": "whipping together a simple sound-activated party decoration with the other half of the Fretboard guitar some LED strips",
+        "tags": [
+            "Arduino",
+            "LED",
+            "Sensors",
+            "Craft"
+        ]
+    },
+    "/equipment/gy560/": {
+        "id": 403,
+        "title": "GY560",
+        "summary": "checking out the GY560 Frequency Counter",
+        "tags": [
+            "Radio",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/boldportclub/pips/": {
+        "id": 402,
+        "title": "BoldportClub/pips",
+        "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter",
+        "tags": [
+            "Boldport",
+            "CD4060"
+        ]
+    },
+    "/radio/pixie/": {
+        "id": 401,
+        "title": "Pixie",
+        "summary": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m",
+        "tags": [
+            "Radio"
+        ]
+    },
+    "/equipment/usbprotector/": {
+        "id": 400,
+        "title": "USBProtector",
+        "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection",
+        "tags": [
+            "Power",
+            "USB",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/8051/at89c2051/ledchaser/": {
+        "id": 399,
+        "title": "AT89C2051 LED Chaser",
+        "summary": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX",
+        "tags": [
+            "8051",
+            "LED"
+        ]
+    },
+    "/playground/lcd/i2cadapter/": {
+        "id": 398,
+        "title": "LCD I2C Adapter",
+        "summary": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD",
+        "tags": [
+            "LCD",
+            "I2C"
+        ]
+    },
+    "/playground/i2cscanner/": {
+        "id": 397,
+        "title": "I2CScanner",
+        "summary": "scanning for I\u00b2C devices with an Arduino",
+        "tags": [
+            "I2C",
+            "Arduino"
+        ]
+    },
+    "/playground/capacitivetouchorgan/": {
+        "id": 396,
+        "title": "CapacitiveTouchOrgan",
+        "summary": "a simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity Capacitive Touch Sensor and an Arduino",
+        "tags": [
+            "Audio",
+            "Sensors",
+            "MPR121"
+        ]
+    },
+    "/8051/at89c2051/blinky/": {
+        "id": 395,
+        "title": "AT89C2051 Blinky",
+        "summary": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX",
+        "tags": [
+            "8051",
+            "LED"
+        ]
+    },
+    "/8051/at89c2051/programmer/": {
+        "id": 394,
+        "title": "AT89C2051 Programmer",
+        "summary": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
+        "tags": [
+            "8051"
+        ]
+    },
+    "/playground/dicksonchargepump/": {
+        "id": 393,
+        "title": "Dickson Charge Pump",
+        "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM",
+        "tags": [
+            "Arduino",
+            "Power"
+        ]
+    },
+    "/boldportclub/whiteboard/": {
+        "id": 392,
+        "title": "BoldportClub/whiteboard",
+        "summary": "building the Whiteboard (Boldport Club project #22), a breadboard enhancer featuring variable and coin-cell power supplies and prototyping areas. Demonstrated with a 4-stage CD4060 ripple counter",
+        "tags": [
+            "Boldport",
+            "LM317",
+            "CD4060"
+        ]
+    },
+    "/equipment/millivoltmeterdiy/customboardandenclosure/": {
+        "id": 391,
+        "title": "MilliVoltmeterDIY PCB and Enclosure",
+        "summary": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
+        "tags": [
+            "ATmega",
+            "ADC",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/pic/gettingblinky/usingc/": {
+        "id": 390,
+        "title": "PIC/GettingBlinky/UsingC",
+        "summary": "getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!",
+        "tags": [
+            "PIC",
+            "LED"
+        ]
+    },
+    "/electronics101/bjt/twostagecommonemitteramplifier/": {
+        "id": 389,
+        "title": "Two-stage Common Emitter Amplifier",
+        "summary": "designing a two-stage common-emitter BJT amplifier",
+        "tags": [
+            "BJT",
+            "Amplifier"
+        ]
+    },
+    "/radio/singaporebands/": {
+        "id": 388,
+        "title": "SingaporeBands",
+        "summary": "notes on official band plans for Singapore and my and personal observations on where the activity is found",
+        "tags": [
+            "Radio"
+        ]
+    },
+    "/playground/gpsbasics/": {
+        "id": 387,
+        "title": "GpsBasics",
+        "summary": "using a NEMA-compatible GPS module for time and location with an Arduino",
+        "tags": [
+            "GPS",
+            "Arduino"
+        ]
+    },
+    "/arm/stm32f103c8t6/bluepill/": {
+        "id": 386,
+        "title": "BluePill",
+        "summary": "programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill board with the Arduino IDE",
+        "tags": [
+            "STM32"
+        ]
+    },
+    "/boldportclub/widlar/": {
+        "id": 385,
+        "title": "BoldportClub/widlar",
+        "summary": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)",
+        "tags": [
+            "723",
+            "Power",
+            "Oscillator"
+        ]
+    },
+    "/electronics101/lm723/highvoltageregulator/": {
+        "id": 384,
+        "title": "LM723/HighVoltageRegulator",
+        "summary": "playing with the basic high voltage output circuit for the LM723 voltage regulator",
+        "tags": [
+            "Power",
+            "Regulator",
+            "LM723"
+        ]
+    },
+    "/electronics101/lm723/lowvoltageregulator/": {
+        "id": 383,
+        "title": "LM723/LowVoltageRegulator",
+        "summary": "playing with the basic low voltage output circuit for the LM723 voltage regulator",
+        "tags": [
+            "Power",
+            "Regulator",
+            "LM723"
+        ]
+    },
+    "/electronics101/cd4046/vco/": {
+        "id": 382,
+        "title": "CD4046 VCO",
+        "summary": "audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC",
+        "tags": [
+            "RC",
+            "CD4046",
+            "Oscillators"
+        ]
+    },
+    "/playground/waterqualitymonitor/": {
+        "id": 381,
+        "title": "WaterQualityMonitor",
+        "summary": "a project by oweibo to monitor water quality",
+        "tags": [
+            "Arduino",
+            "Sensors"
+        ]
+    },
+    "/playground/tin_counter/": {
+        "id": 380,
+        "title": "Tin Counter",
+        "summary": "a project by novaprimexex to count tins as they roll by and detect tins without paper labels",
+        "tags": [
+            "Arduino",
+            "Sensors",
+            "HC-SR04"
+        ]
+    },
+    "/playground/as3935/": {
+        "id": 379,
+        "title": "AS3935",
+        "summary": "using the AMS AS3935 Franklin Lightning Sensor with an Arduino with the Wire library",
+        "tags": [
+            "Arduino",
+            "AS3935",
+            "Sensors"
+        ]
+    },
+    "/electronics101/bjt/phasesplitter/": {
+        "id": 378,
+        "title": "BJT Phase Splitter",
+        "summary": "simple unity-gain phase splitter in a little breadboard-compatible package",
+        "tags": [
+            "BJT",
+            "Signals"
+        ]
+    },
+    "/playground/lcd5110/diyshield/": {
+        "id": 377,
+        "title": "Nokia 5110 Shield",
+        "summary": "putting a Nokia 5110 on an Arduino Uno shield for no-fuss prototyping",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/playground/piezovibrationdetector/": {
+        "id": 376,
+        "title": "PiezoVibrationDetector",
+        "summary": "counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analog comparator",
+        "tags": [
+            "Arduino",
+            "Piezo"
+        ]
+    },
+    "/radio/threetransistorshortwavereceiver/": {
+        "id": 375,
+        "title": "Three Transistor Shortwave Receiver",
+        "summary": "building a simple 3-transistor regenerative receiver for HF shortwave",
+        "tags": [
+            "Radio",
+            "HF"
+        ]
+    },
+    "/electronics101/voltagereference/lt1019/": {
+        "id": 374,
+        "title": "VoltageReference/LT1019",
+        "summary": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference",
+        "tags": [
+            "Voltage Reference"
+        ]
+    },
+    "/audio/audioeffectschips/px835/": {
+        "id": 373,
+        "title": "PX835 Audio Effects Chip",
+        "summary": "figuring out how to use the PX835 \"16 Kind of Sound Doorbell Chip\" music chip",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/equipment/millivoltmeterdiy/": {
+        "id": 372,
+        "title": "MilliVoltmeterDIY",
+        "summary": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
+        "tags": [
+            "ATmega",
+            "ADC",
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/bjt/commonemitteramplifier/": {
+        "id": 371,
+        "title": "CommonEmitterAmplifier",
+        "summary": "all about BJT common-emitter amplifier biasing and class of operation",
+        "tags": [
+            "BJT"
+        ]
+    },
+    "/electronics101/digitaswitch/ts3a5018/": {
+        "id": 370,
+        "title": "DigitaSwitch/TS3A5018",
+        "summary": "testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo",
+        "tags": [
+            "Arduino",
+            "Digital Switch",
+            "555 Timer"
+        ]
+    },
+    "/boldportclub/ananas/": {
+        "id": 369,
+        "title": "Ananas",
+        "summary": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!",
+        "tags": [
+            "Boldport",
+            "Oscillators"
+        ]
+    },
+    "/audio/granularsynth/": {
+        "id": 368,
+        "title": "GranularSynth",
+        "summary": "building an ATmega328 granular synth module in an Altoids can ..  because granular synthesis is a basically how they make Altoids, right?",
+        "tags": [
+            "Audio",
+            "Arduino"
+        ]
+    },
+    "/playground/nrf24/scanner/": {
+        "id": 367,
+        "title": "nRF24/Scanner",
+        "summary": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display",
+        "tags": [
+            "nRF24",
+            "Arduino"
+        ]
+    },
+    "/playground/lcd5110/adafruitsoftwarespi/": {
+        "id": 366,
+        "title": "Lcd5110/AdafruitSoftwareSPI",
+        "summary": "a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/playground/lcd5110/adafruithardwarespi/": {
+        "id": 365,
+        "title": "Lcd5110/AdafruitHardwareSPI",
+        "summary": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/playground/classicnokia/": {
+        "id": 364,
+        "title": "ClassicNokia",
+        "summary": "just a quick transcription of the classic Nokia 3310 ringtone for Arduino",
+        "tags": [
+            "Audio",
+            "Arduino"
+        ]
+    },
+    "/boldportclub/binco/": {
+        "id": 363,
+        "title": "BINCO",
+        "summary": "BINCO is a little up or down \"fidget\" counter, Project #19 of the Boldport Club",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LED",
+            "CMOS/TTL"
+        ]
+    },
+    "/audio/audioeffectschips/h83a/": {
+        "id": 362,
+        "title": "H83A Audio Effects Chip",
+        "summary": "figuring out how to use the H-83A \"12 songs\" music chip",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/playground/tft/color128x128/": {
+        "id": 361,
+        "title": "TFT/Color128x128",
+        "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries",
+        "tags": [
+            "TFT LCD",
+            "Arduino"
+        ]
+    },
+    "/electronics101/voltagereference/tl431/shuntregulator/": {
+        "id": 360,
+        "title": "TL431/ShuntRegulator",
+        "summary": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim",
+        "tags": [
+            " Power",
+            "Regulator",
+            "Reference"
+        ]
+    },
+    "/audio/audioeffectschips/hs088/": {
+        "id": 359,
+        "title": "HS088 Audio Effects Chip",
+        "summary": "figuring out the HS088 \"Ding Dong\" audio effects chip",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/mc34063/modulekit/": {
+        "id": 358,
+        "title": "MC34063 Boost Converter Kit",
+        "summary": "build and test an MC34063-based boost converter",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/boldportclub/themonarch/": {
+        "id": 357,
+        "title": "BoldportClub/TheMonarch",
+        "summary": "the third in a series of beautiful electronic \"bug\" boards from the Boldport Club, Project #18 October 2017",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Bugs",
+            "LFSR"
+        ]
+    },
+    "/audio/audioeffectschips/px088a/": {
+        "id": 356,
+        "title": "PX088A Audio Effects Chip",
+        "summary": "figuring out how to use the PX088A \"F\u00fcr Elise\" music chip",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/kraft/snowflake/": {
+        "id": 355,
+        "title": "Snow Flake",
+        "summary": "an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced by @LuckResistor and shared with the Boldport Club community as a special project",
+        "tags": [
+            "Craft",
+            "ARM",
+            "LED"
+        ]
+    },
+    "/kinetics/spiderbot/": {
+        "id": 354,
+        "title": "SpiderBot",
+        "summary": "Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system",
+        "tags": [
+            "Boldport",
+            "Kinetics"
+        ]
+    },
+    "/electronics101/digitallogic/dflipflop/": {
+        "id": 353,
+        "title": "D Flip-Flop",
+        "summary": "building a clocked D Flip-flop with 74LS00 NAND gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/radio/sdr/decodingacars/": {
+        "id": 352,
+        "title": "Decoding ACARS",
+        "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX",
+        "tags": [
+            "SDR",
+            "Radio"
+        ]
+    },
+    "/radio/sdr/rtlsdrdongle/": {
+        "id": 351,
+        "title": "RTL-SDR Dongle",
+        "summary": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)",
+        "tags": [
+            "SDR",
+            "Radio"
+        ]
+    },
+    "/kraft/circuitscribe/litewings/": {
+        "id": 350,
+        "title": "LiteWings",
+        "summary": "learning about conductive ink with the CircuitScribe LiteWings kit",
+        "tags": [
+            "Conductive Ink",
+            "Craft"
+        ]
+    },
+    "/boldportclub/stringy/demoburner/": {
+        "id": 349,
+        "title": "stringy/DemoBurner",
+        "summary": "burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler",
+        "tags": [
+            "Boldport",
+            "PIC"
+        ]
+    },
+    "/electronics101/digitallogic/dlatch/": {
+        "id": 348,
+        "title": "D Latch",
+        "summary": "building a D Latch with 74LS00 NAND gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/connectors/rf/": {
+        "id": 347,
+        "title": "RF Connectors",
+        "summary": "notes on miscellaneous RF connectors",
+        "tags": [
+            "Radio",
+            "Connectors"
+        ]
+    },
+    "/electronics101/digitallogic/srlatchwithnandgates/": {
+        "id": 346,
+        "title": "NAND Gate SR Latch",
+        "summary": "Set-Reset latch implemented with NAND gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/boldportclub/mostap/": {
+        "id": 345,
+        "title": "BoldportClub/mostap",
+        "summary": "upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.",
+        "tags": [
+            "Boldport",
+            "CMOS"
+        ]
+    },
+    "/esp8266/micropython/gettingstarted/": {
+        "id": 344,
+        "title": "ESP8266/micropython/GettingStarted",
+        "summary": "getting MicroPython up and running with an ESP-01 ESP8266",
+        "tags": [
+            "ESP8266",
+            "MicroPython"
+        ]
+    },
+    "/esp8266/sensors/dht11/": {
+        "id": 343,
+        "title": "ESP8266/Sensors/DHT11",
+        "summary": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
+        "tags": [
+            "ESP8266",
+            "Sensors"
+        ]
+    },
+    "/esp8266/morseblinky/": {
+        "id": 342,
+        "title": "ESP8266/MorseBlinky",
+        "summary": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker",
+        "tags": [
+            "ESP8266"
+        ]
+    },
+    "/electronics101/power/usbpowersupplykit/": {
+        "id": 341,
+        "title": "USB Power Supply Kit",
+        "summary": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up",
+        "tags": [
+            "Power",
+            "USB"
+        ]
+    },
+    "/boldportclub/ixpando/": {
+        "id": 340,
+        "title": "BoldportClub/IxpandO",
+        "summary": "an input/output expansion board based on Microchip's MCP23017, BoldportClub Project #16. Demo program covers digital output and interrupt-driven input",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Port Expander"
+        ]
+    },
+    "/electronics101/guitareffects/delaykit/": {
+        "id": 339,
+        "title": "DelayKit",
+        "summary": "build and test a PT2399-based analogue delay pedal kit",
+        "tags": [
+            "Guitar Effects",
+            "Audio"
+        ]
+    },
+    "/kraft/glowball/": {
+        "id": 338,
+        "title": "GlowBall",
+        "summary": "building LED effects for a Glass Eye Studio Celestial Planet Weight",
+        "tags": [
+            "LED",
+            "Oscillators",
+            "Power",
+            "Craft"
+        ]
+    },
+    "/electronics101/rgbledglow/": {
+        "id": 337,
+        "title": "RGB LED Glow Effects",
+        "summary": "rainbow glow effects with an RGB LED and OpAmp oscillators",
+        "tags": [
+            "LED",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/oscillators/comparatorrelaxation/": {
+        "id": 336,
+        "title": "Comparator Relaxation Oscillator",
+        "summary": "test a classic comparator-based relaxation oscillator, modified for single-supply LM358 OpAmp",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/mcp2200/chaser/": {
+        "id": 335,
+        "title": "MCP2200/Chaser",
+        "summary": "using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs",
+        "tags": [
+            "UART",
+            "USB",
+            "LED"
+        ]
+    },
+    "/electronics101/mcp2200/devkit/": {
+        "id": 334,
+        "title": "MCP2200/DevKit",
+        "summary": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host",
+        "tags": [
+            "UART",
+            "USB"
+        ]
+    },
+    "/playground/voltageselfmeasurement/": {
+        "id": 333,
+        "title": "VoltageSelfMeasurement",
+        "summary": "self-measurement of an Arduino's supply voltage (Vcc)",
+        "tags": [
+            "Arduino",
+            "ADC"
+        ]
+    },
+    "/electronics101/oscillators/rcphaseshiftbjt/": {
+        "id": 332,
+        "title": "RCPhaseShiftBJT",
+        "summary": "testing an RC phase-shift oscillator using a BJT amplifier",
+        "tags": [
+            "BJT",
+            "RC",
+            "Oscillators"
+        ]
+    },
+    "/pic/gettingblinky/": {
+        "id": 331,
+        "title": "PIC/GettingBlinky",
+        "summary": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
+        "tags": [
+            "PIC",
+            "LED"
+        ]
+    },
+    "/electronics101/power/any2anypowerpack/": {
+        "id": 330,
+        "title": "Any 2 Any Power Pack",
+        "summary": "a 2.1mm DC adapter pack with battery bypass and any-polarity to any-polarity connectors",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/connectors/power/": {
+        "id": 329,
+        "title": "PowerConnectors",
+        "summary": "obsessing over all manner of DC power connectors",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/555timer/voltagecontrolledoscillator/": {
+        "id": 328,
+        "title": "VoltageControlledOscillator/555",
+        "summary": "a voltage-controlled oscillator (VCO) using the 555 timer",
+        "tags": [
+            "Oscillators",
+            "VCO",
+            "555 Timer"
+        ]
+    },
+    "/electronics101/mixers/rfdiodering/": {
+        "id": 327,
+        "title": "Mixers/RFDiodeRing",
+        "summary": "a diode ring double-balanced frequency mixer",
+        "tags": [
+            "Radio",
+            "Mixers"
+        ]
+    },
+    "/electronics101/mixers/": {
+        "id": 326,
+        "title": "Mixers",
+        "summary": "all about frequency mixers",
+        "tags": [
+            "Radio",
+            "Mixers"
+        ]
+    },
+    "/boldportclub/spoolt/": {
+        "id": 325,
+        "title": "BoldportClub/spoolt",
+        "summary": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)",
+        "tags": [
+            "Boldport",
+            "Soldering"
+        ]
+    },
+    "/equipment/labrador/": {
+        "id": 324,
+        "title": "Labrador",
+        "summary": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software",
+        "tags": [
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/boldportclub/stringy/": {
+        "id": 323,
+        "title": "BoldportClub/stringy",
+        "summary": "building and playing (mainly playing) the Boldport Club Stringy (Project #14)",
+        "tags": [
+            "Boldport",
+            "PIC",
+            "Audio"
+        ]
+    },
+    "/boldportclub/cordwood-too/fidgetcube/": {
+        "id": 322,
+        "title": "BoldportClub/cordwood-too/FidgetCube",
+        "summary": "making a Fidget Cube controller for the Boldport Cordwood Too",
+        "tags": [
+            "Boldport",
+            "Sensors",
+            "LED"
+        ]
+    },
+    "/boldportclub/cordwood-too/": {
+        "id": 321,
+        "title": "BoldportClub/cordwood-too",
+        "summary": "the Cordwood Puzzle returns! Boldport Club Project #13, May 2017",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LED"
+        ]
+    },
+    "/electronics101/digitallogic/syncjkcounter/": {
+        "id": 320,
+        "title": "Synchronous JK Counter",
+        "summary": "a synchronous 8-bit counter built with JK Flip-Flops",
+        "tags": [
+            "CMOS/TTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/555timer/digitallogicclock/": {
+        "id": 319,
+        "title": "DigitalLogicClock",
+        "summary": "build a flexible, low-frequency digital logic clock module",
+        "tags": [
+            "555 Timer",
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/555timer/bistable/": {
+        "id": 318,
+        "title": "Bistable",
+        "summary": "using the 555 timer as a bistable latch and button debouncer",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/schmitttrigger/basicdiscrete/": {
+        "id": 317,
+        "title": "Discrete Schmitt Trigger",
+        "summary": "Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components",
+        "tags": [
+            "Schmitt",
+            "BJT"
+        ]
+    },
+    "/boldportclub/qsopbreakout/": {
+        "id": 316,
+        "title": "BoldportClub/QSOPBreakout",
+        "summary": "all about soldering and the Boldport Club QSOP breakout board",
+        "tags": [
+            "Boldport",
+            "Soldering"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/mt3608/variableboost/": {
+        "id": 315,
+        "title": "MT3608 Variable Boost",
+        "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter",
+        "tags": [
+            "Power",
+            "SMPS"
+        ]
+    },
+    "/playground/eeprom/at28c16/peprogrammer/": {
+        "id": 314,
+        "title": "AT28C16 EEPROM Programmer",
+        "summary": "programming an AT28C16 64k EEPROM with an Arduino and MCP23S17 16-bit port expander",
+        "tags": [
+            "EEPROM",
+            "Arduino"
+        ]
+    },
+    "/electronics101/mcp23s17/": {
+        "id": 313,
+        "title": "MCP23S17",
+        "summary": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface",
+        "tags": [
+            "Arduino",
+            "Port Expander"
+        ]
+    },
+    "/boldportclub/thematrix/firecracker/": {
+        "id": 312,
+        "title": "TheMatrix/Firecracker",
+        "summary": "a firecracker simulacrum running on the BoldportClub Matrix",
+        "tags": [
+            "Boldport",
+            "LED",
+            "AS1130",
+            "Sensors"
+        ]
+    },
+    "/boldportclub/juice/": {
+        "id": 311,
+        "title": "BoldportClub/Juice",
+        "summary": "building the Boldport Juice battery replacement kit (Project #12)",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Power"
+        ]
+    },
+    "/radio/fm/tea5767/": {
+        "id": 310,
+        "title": "TEA5767 FM Receiver",
+        "summary": "controlling the TEA5767 low-power FM stereo radio chip with an Arduino",
+        "tags": [
+            "Radio",
+            "FM",
+            "Arduino"
+        ]
+    },
+    "/electronics101/connectors/audio/": {
+        "id": 309,
+        "title": "AudioConnectors",
+        "summary": "notes on miscellaneous audio connectors",
+        "tags": [
+            "Audio",
+            "Connectors"
+        ]
+    },
+    "/playground/led7segment/combinationallogicdriver/": {
+        "id": 308,
+        "title": "7-Segment Combinational Logic",
+        "summary": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/boldportclub/thematrix/keypadcontrol/": {
+        "id": 307,
+        "title": "TheMatrix/KeypadControl",
+        "summary": "use a 20-button keypad to write a scrolling message on the Boldport Matrix",
+        "tags": [
+            "Boldport",
+            "LED",
+            "AS1130"
+        ]
+    },
+    "/playground/keyboardmatrixmodule/switchinterrupts/": {
+        "id": 306,
+        "title": "KeyboardMatrixModule/SwitchInterrupts",
+        "summary": "demo interrupt-driven switch input on a simple pushbutton/LED matrix module and how to use the EnableInterrupt library",
+        "tags": [
+            "Arduino",
+            "Human Input"
+        ]
+    },
+    "/playground/keyboardmatrixmodule/ledcontrol/": {
+        "id": 305,
+        "title": "KeyboardMatrixModule/LedControl",
+        "summary": "demo controlling the LEDs on a simple pushbutton/LED matrix module",
+        "tags": [
+            "Arduino",
+            "LED"
+        ]
+    },
+    "/playground/keyboardmatrixmodule/keymatrixinput/": {
+        "id": 304,
+        "title": "KeyboardMatrixModule/KeyMatrixInput",
+        "summary": "demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP",
+        "tags": [
+            "Arduino",
+            "Human Input"
+        ]
+    },
+    "/playground/keyboardmatrixmodule/": {
+        "id": 303,
+        "title": "KeyboardMatrixModule",
+        "summary": "demo a simple pushbutton/LED matrix module",
+        "tags": [
+            "Arduino",
+            "LED",
+            "Human Input"
+        ]
+    },
+    "/boldportclub/thematrix/gameoflife/": {
+        "id": 302,
+        "title": "TheMatrix/GameOfLife",
+        "summary": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix",
+        "tags": [
+            "Boldport",
+            "LED",
+            "AS1130"
+        ]
+    },
+    "/playground/dht11/basics/": {
+        "id": 301,
+        "title": "DHT11 Basics",
+        "summary": "test basic temperature and humidity readings with the DHT11 sensor",
+        "tags": [
+            "Sensors",
+            "Arduino"
+        ]
+    },
+    "/boldportclub/thematrix/ledtest/": {
+        "id": 300,
+        "title": "TheMatrix/LedTest",
+        "summary": "testing The Matrix (Boldport Club project #11) with @luckyresistor's LRAS1130 library",
+        "tags": [
+            "Boldport",
+            "LED",
+            "AS1130"
+        ]
+    },
+    "/boldportclub/thematrix/": {
+        "id": 299,
+        "title": "BoldportClub/TheMatrix",
+        "summary": "building The Matrix (Boldport Club project #11) is an I\u00b2C-controlled 24x5 LED matrix display, powered by an AMS AS1130 LED driver",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LED",
+            "AS1130"
+        ]
+    },
+    "/electronics101/cd4070/oscillator/": {
+        "id": 297,
+        "title": "CD4070 Oscillator",
+        "summary": "examine a classic CD4070 oscillator design and variations",
+        "tags": [
+            "CMOS",
+            "Oscillators"
+        ]
+    },
+    "/boldportclub/qsopbreakout/solarpendulum/": {
+        "id": 296,
+        "title": "SolarPendulum",
+        "summary": "build a solar-powered pendulum similar to the popular \"solar wobble/flip-flop toys\" on the Boldport QSOP breakout board",
+        "tags": [
+            "Boldport",
+            "Solar"
+        ]
+    },
+    "/equipment/frequencycounterkit/": {
+        "id": 295,
+        "title": "FrequencyCounterKit",
+        "summary": "build and test a common PIC-based frequency counter kit",
+        "tags": [
+            "PIC",
+            "Tools",
+            "Test Equipment",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/cd4060/crystaloscillator/": {
+        "id": 294,
+        "title": "CD4060 Crystal Oscillator",
+        "summary": "exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/cd4060/rcoscillator/": {
+        "id": 293,
+        "title": "CD4060 RC Oscillator",
+        "summary": "exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator",
+        "tags": [
+            "CMOS",
+            "Oscillators"
+        ]
+    },
+    "/audio/audioeffectschips/h823/": {
+        "id": 292,
+        "title": "H823 Audio Effects Chip",
+        "summary": "figuring out how to use the H823 \"Happy Birthday\" music chip",
+        "tags": [
+            "Audio",
+            "Music Chips"
+        ]
+    },
+    "/electronics101/cd4060/musiclightkit/": {
+        "id": 291,
+        "title": "CD4060/MusicLightKit",
+        "summary": "learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit",
+        "tags": [
+            "CMOS"
+        ]
+    },
+    "/boldportclub/pissoff/": {
+        "id": 290,
+        "title": "BoldportClub/PissOff",
+        "summary": "an angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #9, November 2016",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "NXP"
+        ]
+    },
+    "/electronics101/meters/voltmeterammetermodule/": {
+        "id": 289,
+        "title": "DC Voltmeter/Ammeter Modules",
+        "summary": "test and calibrate a DC Voltmeter/Ammeter panel module",
+        "tags": [
+            "Sensors",
+            "Power"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/": {
+        "id": 288,
+        "title": "Basic Inverting Buck-Boost AVR-control",
+        "summary": "build and test an inverting buck-boost converter controlled by an ATtiny85",
+        "tags": [
+            "Power",
+            "ATtiny",
+            "Arduino"
+        ]
+    },
+    "/electronics101/ultrasonicalarm/": {
+        "id": 287,
+        "title": "UltrasonicAlarm",
+        "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic",
+        "tags": [
+            "555 Timer",
+            "Sensors",
+            "CMOS/TTL",
+            "HC-SR04"
+        ]
+    },
+    "/electronics101/switchpowernfet/": {
+        "id": 286,
+        "title": "SwitchPowerNFET",
+        "summary": "low-side n-channel MOSFET switching of large loads with a microcontroller",
+        "tags": [
+            "MOSFET",
+            "Arduino"
+        ]
+    },
+    "/boldportclub/tap/": {
+        "id": 285,
+        "title": "BoldportClub/tap",
+        "summary": "Harking back to an old Boldport project, which harks back to a 1974 Elektor article .. and the main IC (7400 NAND gate) is still available!",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "CMOS/TTL"
+        ]
+    },
+    "/boldportclub/thegent/": {
+        "id": 284,
+        "title": "BoldportClub/TheGent",
+        "summary": "The Gent is Boldport Club Project #10 - a simple circuit on a beautiful board",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Bugs"
+        ]
+    },
+    "/electronics101/digitallogic/xorwithnandgates/": {
+        "id": 283,
+        "title": "XOR With NAND Gates",
+        "summary": "construct an XOR gate with only an 74LS132 quad NAND gate, and demonstrate its behaviour with an Arduino and Processing",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/equipment/functiongeneratorkit/": {
+        "id": 282,
+        "title": "FunctionGeneratorKit",
+        "summary": "build and test a function generator kit based on the XR-2206 monolithic function generator",
+        "tags": [
+            "Oscillators",
+            "Tools",
+            "Test Equipment",
+            "XR2206"
+        ]
+    },
+    "/radio/fm/threestagetransmitter/": {
+        "id": 281,
+        "title": "ThreeStageTransmitter",
+        "summary": "an ugly-style-in-a-can build of dazaro3's 3-stage FM transmitter circuit",
+        "tags": [
+            "Radio",
+            "FM"
+        ]
+    },
+    "/radio/fm/breadboardtransmitter/": {
+        "id": 280,
+        "title": "BreadboardTransmitter",
+        "summary": "build a simple 3-stage FM transmitter on a breadboard from a design by dazaro3",
+        "tags": [
+            "Radio",
+            "FM"
+        ]
+    },
+    "/radio/fm/singlestagetransmitterkit2/": {
+        "id": 279,
+        "title": "Single-stage FM Transmitter Kit 2",
+        "summary": "build and tweak/tune another simple single-stage FM Transmitter Kit",
+        "tags": [
+            "Radio",
+            "FM",
+            "Transmitter"
+        ]
+    },
+    "/equipment/componenttesterkit/": {
+        "id": 278,
+        "title": "ComponentTesterKit",
+        "summary": "build and evaluate a popular ATMEAG328-based component tester kit",
+        "tags": [
+            "Tools",
+            "Test Equipment",
+            "ATmega"
+        ]
+    },
+    "/boldportclub/touchy/": {
+        "id": 277,
+        "title": "BoldportClub/Touchy",
+        "summary": "Touchy is a capacitive touch input device with on-board Sleepy Bee microcontroller (Boldport Club Project #7)",
+        "tags": [
+            "Boldport",
+            "EFM8",
+            "Sensors"
+        ]
+    },
+    "/playground/variablefrequencyrunwayleds/": {
+        "id": 276,
+        "title": "VariableFrequencyRunwayLEDs",
+        "summary": "a PWM-controlled variable frequency LED \"runway lights\" effect using the LM331 and CD4017",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/playground/attiny/at8mhz/": {
+        "id": 275,
+        "title": "ATtiny at 8MHz",
+        "summary": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/equipment/fy3200s/": {
+        "id": 274,
+        "title": "FY3200S",
+        "summary": "testing out the Feeltech FY3200S digital function generator",
+        "tags": [
+            "Tools",
+            "Test Equipment"
+        ]
+    },
+    "/electronics101/voltagecontrolledoscillator/": {
+        "id": 273,
+        "title": "VoltageControlledOscillator",
+        "summary": "exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator",
+        "tags": [
+            "Oscillators",
+            "VCO",
+            "Varicap"
+        ]
+    },
+    "/equipment/saike909d/": {
+        "id": 272,
+        "title": "Saike909D",
+        "summary": "unboxing and initial review of the Saike 909D 3-in-1 hot air rework station",
+        "tags": [
+            "Tools"
+        ]
+    },
+    "/boldportclub/cordwood/tuner/": {
+        "id": 271,
+        "title": "BoldportClub/cordwood/tuner",
+        "summary": "use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp",
+        "tags": [
+            "Boldport",
+            "Cordwood",
+            "Arduino",
+            "Audio"
+        ]
+    },
+    "/boldportclub/cordwood/aanimate/": {
+        "id": 270,
+        "title": "BoldportClub/cordwood/aanimate",
+        "summary": "run a demo animation using aaronjasso's Cordwood library",
+        "tags": [
+            "Boldport",
+            "Cordwood",
+            "Arduino"
+        ]
+    },
+    "/boldportclub/cordwood/": {
+        "id": 269,
+        "title": "BoldportClub/cordwood",
+        "summary": "the Cordwood Puzzle evokes an era of stuffing massive components into small spaces without a clear idea of where this is all heading! Introducing the Boldport Club Project #3",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LED"
+        ]
+    },
+    "/playground/chainblocks/": {
+        "id": 268,
+        "title": "ChainBlocks",
+        "summary": "testing some \"Chain Blocks\" and demonstrate an XY Plotter block (with an MCP42010 digital potentiometer) by drawing the PrexLab logo on an Oscilloscope",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/boldportclub/thecuttle/scopetag/": {
+        "id": 267,
+        "title": "Cuttle Scope Tag",
+        "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer",
+        "tags": [
+            "Boldport",
+            "ATmega",
+            "ATmel",
+            "Arduino",
+            "Digital Pot",
+            "MCP42010",
+            "Oscilloscope"
+        ]
+    },
+    "/boldportclub/thecuttle/": {
+        "id": 266,
+        "title": "BoldportClub/TheCuttle",
+        "summary": "the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6)",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "ATmega",
+            "ATmel",
+            "Arduino"
+        ]
+    },
+    "/playground/xyplotter/": {
+        "id": 265,
+        "title": "XYplotter",
+        "summary": "draw pictures on a Digital Oscilloscope using an MCP42010 dual digital potentiometer and an Arduino. Of course, the first thing to try is the classic Christmas Tree",
+        "tags": [
+            "Arduino",
+            "Digital Pot",
+            "MCP42010",
+            "Oscilloscope"
+        ]
+    },
+    "/electronics101/digitalpots/mcp42010/": {
+        "id": 264,
+        "title": "DigitalPots/MCP42010",
+        "summary": "control the MCP42010 dual 10k\u03a9 digital potentiometer with an Arduino and hardware SPI",
+        "tags": [
+            "Arduino",
+            "Digital Pot",
+            "MCP42010"
+        ]
+    },
+    "/boldportclub/ligemdio/": {
+        "id": 263,
+        "title": "BoldportClub/ligemdio",
+        "summary": "an LED tester kit featureing a classic BJT constant current source. From The Boldport Club (Project #8)",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LED",
+            "BJT"
+        ]
+    },
+    "/electronics101/guitareffects/bazzfuss/": {
+        "id": 262,
+        "title": "BazzFuss",
+        "summary": "the Bazz Fuss \"chocolate noisette\" - a super-minimalist overdrive/distortion/fuzz effect circuit",
+        "tags": [
+            "Guitar Effects",
+            "Audio"
+        ]
+    },
+    "/electronics101/digitalpots/mcp4017/": {
+        "id": 261,
+        "title": "DigitalPots/MCP4017",
+        "summary": "control the MCP4017 single 7-Bit I\u00b2C digital potentiometer with an Arduino",
+        "tags": [
+            "Arduino",
+            "Digital Pot",
+            "MCP4017"
+        ]
+    },
+    "/equipment/saleaelogic/": {
+        "id": 260,
+        "title": "SaleaeLogic",
+        "summary": "checking out a second-hand Saleae Logic (24 MS/s, 8 channel USB logic analyzer - that works on a Mac!!)",
+        "tags": [
+            "Tools",
+            "Test Equipment",
+            "Logic Analyzer"
+        ]
+    },
+    "/electronics101/digitalpots/m62429/": {
+        "id": 259,
+        "title": "DigitalPots/M62429",
+        "summary": "control the M62429 dual channel volume control with an Arduino",
+        "tags": [
+            "Arduino",
+            "Digital Pot",
+            "M62429"
+        ]
+    },
+    "/electronics101/clapswitchkit2/": {
+        "id": 258,
+        "title": "ClapSwitchKit2",
+        "summary": "practice some Boldport-style soldering on yet-another clap switch kit",
+        "tags": [
+            "Oscillators",
+            "BJT",
+            "Digital Logic"
+        ]
+    },
+    "/boldportclub/emergency/": {
+        "id": 257,
+        "title": "BoldportClub/Emergency",
+        "summary": "pimp the Boldport Club Emergency kit (Project #2) .. now a LED blinky with 3 passives and a transistor (Esaki Effect)",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Oscillators"
+        ]
+    },
+    "/boldportclub/pease/": {
+        "id": 256,
+        "title": "BoldportClub/Pease",
+        "summary": "a Bob Pease tribute, LM331 voltage-to-frequency kit from The Boldport Club (Project #1)",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LM331"
+        ]
+    },
+    "/playground/avrhardwarepwm/attiny/": {
+        "id": 255,
+        "title": "AvrHardwarePWM/ATtiny",
+        "summary": "all about hardware PWM and demonstrating the modes with the ATtiny85",
+        "tags": [
+            "ATtiny",
+            "ATmel",
+            "Arduino",
+            "PWM"
+        ]
+    },
+    "/playground/avrhardwarepwm/": {
+        "id": 254,
+        "title": "AvrHardwarePWM",
+        "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328",
+        "tags": [
+            "ATmega",
+            "ATmel",
+            "Arduino",
+            "PWM"
+        ]
+    },
+    "/playground/attiny/programmingshield/": {
+        "id": 253,
+        "title": "ATtiny Programming Shield",
+        "summary": "a custom ATtiny programming shield for Arduino ISP",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/electronics101/555timer/messagewaiting/": {
+        "id": 252,
+        "title": "MessageWaiting",
+        "summary": "two-LED flasher with a 555 and minimal components - turned into a \"message waiting\" indicator with some free-wired SMD construction",
+        "tags": [
+            "LED",
+            "555 Timer"
+        ]
+    },
+    "/boldportclub/thelady/": {
+        "id": 251,
+        "title": "BoldportClub/TheLady",
+        "summary": "a ladybird soldering and display kit from The Boldport Club (Project #4)",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "Bugs"
+        ]
+    },
+    "/playground/pedalshielduno/audiodsp/": {
+        "id": 250,
+        "title": "pedalShieldUno/AudioDSP",
+        "summary": "test and develop the AudioDSP library for programming the pedalSHIELD Uno",
+        "tags": [
+            "DSP",
+            "Guitar",
+            "Arduino"
+        ]
+    },
+    "/audio/audioamps/guitarpracticeamp/": {
+        "id": 249,
+        "title": "TDA2050 Guitar Practice Amp",
+        "summary": "single-channel 10W guitar practice amplifier based on the TDA2050",
+        "tags": [
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/electronics101/oscillators/piercegateoscillator/": {
+        "id": 248,
+        "title": "PierceGateOscillator",
+        "summary": "build and test a 4.27 MHz Pierce Gate Oscillator circuit using a 74LS14 schmitt inverter",
+        "tags": [
+            "Oscillators",
+            "Crystal"
+        ]
+    },
+    "/playground/pedalshielduno/": {
+        "id": 247,
+        "title": "pedalShieldUno",
+        "summary": "build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal",
+        "tags": [
+            "DSP",
+            "Guitar",
+            "Arduino"
+        ]
+    },
+    "/electronics101/oscillators/cmososcillators/": {
+        "id": 246,
+        "title": "CMOS Oscillators",
+        "summary": "testing 4-pin CMOS oscillators - NCH060C, MCO-1510A",
+        "tags": [
+            "CMOS",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/generalcurvetracer/": {
+        "id": 245,
+        "title": "GeneralCurveTracer",
+        "summary": "test a DC-powered general curve tracer circuit",
+        "tags": [
+            "BJT",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/switches/dpdt/": {
+        "id": 244,
+        "title": "Switches/DPDT",
+        "summary": "all about double-pole, double-thow (DPDT) toggle switches",
+        "tags": [
+            "Switches"
+        ]
+    },
+    "/electronics101/switches/": {
+        "id": 243,
+        "title": "Switches",
+        "summary": "Notes on miscellaneous mechanical switches used in electrical circuits",
+        "tags": [
+            "Switches"
+        ]
+    },
+    "/electronics101/oscillators/pierceoscillator/": {
+        "id": 242,
+        "title": "PierceOscillator",
+        "summary": "test a Pierce Oscillator made with a minimum of components",
+        "tags": [
+            "Oscillators",
+            "Crystal"
+        ]
+    },
+    "/audio/audioamps/generalpurpose358/": {
+        "id": 241,
+        "title": "General Purpose 358",
+        "summary": "test a general-purpose LM358 amplifier circuit",
+        "tags": [
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/playground/digitalinputwithanalogpins/": {
+        "id": 240,
+        "title": "DigitalInputWithAnalogPins",
+        "summary": "demonstrate how analog pins can also be used as a digital GPIO",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/playground/audiodsp/supercrunch/": {
+        "id": 239,
+        "title": "AudioDSP/SuperCrunch",
+        "summary": "arduino DSP crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD by electrosmash",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "DSP",
+            "OpAmp"
+        ]
+    },
+    "/playground/audiodsp/crunch/": {
+        "id": 238,
+        "title": "AudioDSP/Crunch",
+        "summary": "arduino DSP crunchy distortion effect based on the pedalSHIELD by electrosmash",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "DSP",
+            "OpAmp"
+        ]
+    },
+    "/playground/audiodsp/distortion/": {
+        "id": 237,
+        "title": "AudioDSP/Distortion",
+        "summary": "arduino DSP simple distortion effect based on the pedalSHIELD by electrosmash",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "DSP",
+            "OpAmp"
+        ]
+    },
+    "/playground/audiodsp/boost/": {
+        "id": 236,
+        "title": "AudioDSP/Boost",
+        "summary": "arduino DSP boost effect based on the pedalSHIELD by electrosmash",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "DSP",
+            "OpAmp"
+        ]
+    },
+    "/playground/audiodsp/": {
+        "id": 235,
+        "title": "AudioDSP",
+        "summary": "build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash",
+        "tags": [
+            "Audio",
+            "Arduino",
+            "DSP",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/oscillators/cmosinverteroscillator/": {
+        "id": 234,
+        "title": "CMOS Inverter Oscillator",
+        "summary": "use a CD4096 to generate an oscillating waveform and plot the results",
+        "tags": [
+            "CMOS",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/pwm/generalpurposehighsidecontroller/": {
+        "id": 233,
+        "title": "General Purpose High-Side Controller",
+        "summary": "build and test a general-purpose high-side PWM controller",
+        "tags": [
+            "PWM",
+            "555 Timer",
+            "Oscillators",
+            "Power"
+        ]
+    },
+    "/electronics101/led/dimmer/555pwm/": {
+        "id": 232,
+        "title": "555 PWM LED Dimmer",
+        "summary": "test a PWM LED dimmer circuit using a 555 timer",
+        "tags": [
+            "LED",
+            "Power",
+            "555 Timer"
+        ]
+    },
+    "/electronics101/led/dimmer/currentregulator/": {
+        "id": 231,
+        "title": "LED Current Regulator",
+        "summary": "test a current-regulator style LED dimmer circuit",
+        "tags": [
+            "LED",
+            "Power"
+        ]
+    },
+    "/electronics101/minimallcoscillator/": {
+        "id": 230,
+        "title": "MinimalLCOscillator",
+        "summary": "test an LC oscillator of just 5 components",
+        "tags": [
+            "LC",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/555timer/dice/": {
+        "id": 229,
+        "title": "Dice",
+        "summary": "a 555/4017-based dice circuit with slow-down and auto power-off",
+        "tags": [
+            "555 Timer",
+            "CMOS"
+        ]
+    },
+    "/electronics101/transistorcurvetracer/": {
+        "id": 228,
+        "title": "TransistorCurveTracer",
+        "summary": "simple NPN transistor curve tracer using a Stairstep generator circuit",
+        "tags": [
+            "OpAmp",
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/555timer/knightrider/": {
+        "id": 227,
+        "title": "Knight Rider",
+        "summary": "the familiar Knight Rider LED circuit using a 555 and 4017",
+        "tags": [
+            "555 Timer",
+            "CMOS",
+            "LED"
+        ]
+    },
+    "/electronics101/musicboxkit/": {
+        "id": 226,
+        "title": "MusicBoxKit",
+        "summary": "build and test a Music Box kit, and run a demonstration under Arduino control",
+        "tags": [
+            "Music",
+            "Arduino"
+        ]
+    },
+    "/kinetics/fq777-954/teardown/": {
+        "id": 225,
+        "title": "FQ777-954/TearDown",
+        "summary": "teardown an FQ777-954 nano drone and figure out as much of the technical design as possible",
+        "tags": [
+            "Drones",
+            "Radio"
+        ]
+    },
+    "/electronics101/led/ledstrobekit/": {
+        "id": 224,
+        "title": "LED Strobe Kit",
+        "summary": "build and analyse a common LED strobe kit",
+        "tags": [
+            "LED",
+            "555 Timer",
+            "CMOS"
+        ]
+    },
+    "/fritzingparts/": {
+        "id": 223,
+        "title": "Fritzing Parts",
+        "summary": "my collection of custom Fritzing Parts",
+        "tags": [
+            "EDA"
+        ]
+    },
+    "/electronics101/stairstepgenerator/": {
+        "id": 222,
+        "title": "StairStepGenerator",
+        "summary": "generate a stair-step waveform with analog components",
+        "tags": [
+            "OpAmp",
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/resistortransistorlogic/xor/": {
+        "id": 221,
+        "title": "XOR Gate with Resistor-Transistor Logic",
+        "summary": "test the basic resistor-transistor logic XOR gate/XOR",
+        "tags": [
+            "BJT",
+            "RTL",
+            "Digital Logic"
+        ]
+    },
+    "/playground/gcctoolchain/": {
+        "id": 220,
+        "title": "AVR GCC Toolchain",
+        "summary": "programming an Arduino with C and a command line",
+        "tags": [
+            "avr-gcc",
+            "avrdude"
+        ]
+    },
+    "/electronics101/ds18s20/onewirereading/": {
+        "id": 219,
+        "title": "DS18S20 1-Wire Reading",
+        "summary": "basic interrogation of a DS18S20 using 1-wire protocol",
+        "tags": [
+            "Sensors",
+            "Arduino"
+        ]
+    },
+    "/playground/mpu6050/accelgyrotest/": {
+        "id": 218,
+        "title": "MPU6050/AccelGyroTest",
+        "summary": "first test of an Invensense MPU-6050 3-Axes Accelerometer Gyroscope Module",
+        "tags": [
+            "Sensors",
+            "MPU-6050",
+            "Arduino"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/": {
+        "id": 217,
+        "title": "Basic AVR-controlled Buck Converter",
+        "summary": "a simple buck converter circuit from first principles",
+        "tags": [
+            "Power",
+            "Arduino"
+        ]
+    },
+    "/oshchip/ledx16module/": {
+        "id": 216,
+        "title": "OSHChip/LEDx16Module",
+        "summary": "driving an SPI LED module with the OSHChip",
+        "tags": [
+            "OSHChip",
+            "SPI"
+        ]
+    },
+    "/oshchip/yottatoolchain/": {
+        "id": 215,
+        "title": "OSHChip/YottaToolchain",
+        "summary": "build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX",
+        "tags": [
+            "ARM",
+            "gcc",
+            "yotta",
+            "OSHChip"
+        ]
+    },
+    "/oshchip/gcctoolchain/": {
+        "id": 214,
+        "title": "OSHChip/GccToolchain",
+        "summary": "can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?",
+        "tags": [
+            "ARM",
+            "gcc",
+            "OSHChip"
+        ]
+    },
+    "/oshchip/blinky/": {
+        "id": 213,
+        "title": "OSHChip/blinky",
+        "summary": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging",
+        "tags": [
+            "ARM",
+            "OSHChip"
+        ]
+    },
+    "/electronics101/staycreative/": {
+        "id": 212,
+        "title": "StayCreative",
+        "summary": "an audio level VU meter driving a custom LED sign",
+        "tags": [
+            "Audio",
+            "LED"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/buckconvertermodules/": {
+        "id": 211,
+        "title": "Buck Converter Modules",
+        "summary": "Testing a range of low-cost buck converter modules, often using LM2596",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/audio/audioamps/tda7297kit/": {
+        "id": 210,
+        "title": "TDA7297 Audio Amp Kit",
+        "summary": "testing a TDA7297 audio amplifier kit (pump up the jam)",
+        "tags": [
+            "Audio"
+        ]
+    },
+    "/playground/ledpaneldisplay72r02/": {
+        "id": 209,
+        "title": "LedPanelDisplay72R02",
+        "summary": "test a 7-digit & 7-status indicator LED display",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/radio/fm/singlestagetransmitterkit/": {
+        "id": 208,
+        "title": "Single-stage FM Transmitter Kit",
+        "summary": "build a simple single-stage FK702 FM Transmitter Kit by Future Kit",
+        "tags": [
+            "Radio",
+            "FM",
+            "Transmitter"
+        ]
+    },
+    "/electronics101/frequencycounter/": {
+        "id": 207,
+        "title": "FrequencyCounter",
+        "summary": "test a CMOS frequency counter circuit with 100Hz - 5MHz range",
+        "tags": [
+            "CMOS",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/cd4047/astableoscillator/": {
+        "id": 206,
+        "title": "CD4047 Astable Oscillator",
+        "summary": "test the astable operating mode of the CD4047",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/triacdimmer/": {
+        "id": 205,
+        "title": "TriacDimmer",
+        "summary": "investigate the operation of triacs and build the basic dimmaer circuit",
+        "tags": [
+            "Triac",
+            "Thyristor"
+        ]
+    },
+    "/playground/temperatureloggertypek/": {
+        "id": 204,
+        "title": "Type K Temperature Logger",
+        "summary": "simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors",
+        "tags": [
+            "Sensors",
+            "Thermocouple",
+            "Arduino"
+        ]
+    },
+    "/kinetics/homopolarmotor/": {
+        "id": 203,
+        "title": "HomopolarMotor",
+        "summary": "build a basic homopolar motor",
+        "tags": [
+            "Kinetics"
+        ]
+    },
+    "/audio/visualization/audiolevelindicatorkit/": {
+        "id": 202,
+        "title": "Audio Level Indicator Kit",
+        "summary": "an audio level indicator kit based on the LM3915",
+        "tags": [
+            "LM3915",
+            "Audio",
+            "LED"
+        ]
+    },
+    "/electronics101/555timer/doorbellkit/": {
+        "id": 201,
+        "title": "555 Timer Doorbell Kit",
+        "summary": "another two-tone doorbell using a 555 timer oscillator",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/kinetics/solenoids/solenoidmotor/": {
+        "id": 200,
+        "title": "Solenoid Motor",
+        "summary": "a single-cylinder mini-solenoid engine",
+        "tags": [
+            "Solenoid"
+        ]
+    },
+    "/playground/led7segment/cd4026bucketbrigade/": {
+        "id": 199,
+        "title": "7-Segment CD4026 Bucket-brigade",
+        "summary": "a CD4026 bucket-brigade for driving multiple 7-segment LED displays",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/halleffectswitch/": {
+        "id": 198,
+        "title": "Hall Effect Switch",
+        "summary": "using a Hall effect switch (A3144)",
+        "tags": [
+            "Sensors"
+        ]
+    },
+    "/electronics101/wienbridgeaudiotonegenerator/": {
+        "id": 197,
+        "title": "WienBridgeAudioToneGenerator",
+        "summary": "fixed-frequency tone generator based on a Wien Bridge Oscillator",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/playground/led7segment/cd4026drive/": {
+        "id": 196,
+        "title": "7-Segment CD4026 Drive",
+        "summary": "driving a 7-segment LED display with CD4026 Counter",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/lcresonator/": {
+        "id": 195,
+        "title": "LCResonator",
+        "summary": "measure the resonant frequency of an LC circuit or inductance of an inductor ",
+        "tags": [
+            "Oscillators",
+            "LC"
+        ]
+    },
+    "/esp8266/diydevboard/": {
+        "id": 194,
+        "title": "ESP8266/DIYDevBoard",
+        "summary": "a DIY devboard for an ESP-01 ESP8266",
+        "tags": [
+            "ESP8266"
+        ]
+    },
+    "/8051/povshakestickkit/": {
+        "id": 193,
+        "title": "PoV Shake Stick Kit",
+        "summary": "build and investigate an AT89S52-based \"shake stick\" kit",
+        "tags": [
+            "8051",
+            "LED"
+        ]
+    },
+    "/kraft/sagradafamilia/": {
+        "id": 192,
+        "title": "Sagrada Fam\u00edlia",
+        "summary": "a paper model with some LED effects",
+        "tags": [
+            "LED",
+            "Craft"
+        ]
+    },
+    "/electronics101/lowvoltageglowingleds/": {
+        "id": 191,
+        "title": "Low-voltage Glowing LEDs",
+        "summary": "a dual-LED \"glowing\" oscillator from a 1.5V supply",
+        "tags": [
+            "BJT",
+            "LED",
+            "Oscillators",
+            "Power"
+        ]
+    },
+    "/playground/multislavespi/": {
+        "id": 190,
+        "title": "MultiSlaveSPI",
+        "summary": "using SPI to control multiple devices that support an SPIish interface",
+        "tags": [
+            "SPI",
+            "Arduino"
+        ]
+    },
+    "/playground/led7segment/shiftdrivespi/": {
+        "id": 189,
+        "title": "7-Segment Shift Drive SPI",
+        "summary": "using SPI to control a 7-segment LED display via a 74HC595 shift register",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino",
+            "SPI"
+        ]
+    },
+    "/playground/eeprom/at24c02/basicreadwrite/": {
+        "id": 188,
+        "title": "Basic AT24C02 EEPROM Read/Write",
+        "summary": "basic read/write operations to external EEPROM (AT24C02) with the Wire library",
+        "tags": [
+            "EEPROM",
+            "Arduino"
+        ]
+    },
+    "/playground/nrf24/pingpong/": {
+        "id": 187,
+        "title": "nRF24/PingPong",
+        "summary": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF",
+        "tags": [
+            "nRF24",
+            "Arduino"
+        ]
+    },
+    "/electronics101/digitallogic/asyncjkcounter/": {
+        "id": 186,
+        "title": "Asynchronous JK Counter",
+        "summary": "an asynchronous 4-bit counter built with JK Flip-Flops",
+        "tags": [
+            "CMOS/TTL",
+            "Digital Logic"
+        ]
+    },
+    "/kinetics/stirlingenginehb13/": {
+        "id": 185,
+        "title": "HB13 Stirling Engine",
+        "summary": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine",
+        "tags": [
+            "Kinetics"
+        ]
+    },
+    "/electronics101/555timer/adjustablepulsegenerator/": {
+        "id": 184,
+        "title": "AdjustablePulseGenerator",
+        "summary": "widely-adjustable square wave generator using the 555 timer",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/polaritytester/": {
+        "id": 183,
+        "title": "Polarity Tester",
+        "summary": "Demonstrate a polarity-testing circuit using the CD4069 inverter",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/power/powersupply317kit/": {
+        "id": 182,
+        "title": "LM317 Variable Power Supply Kit",
+        "summary": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/meters/voltmetermodule/": {
+        "id": 181,
+        "title": "DC Voltmeter Modules",
+        "summary": "Testing a selection of 3-wire DC voltmeter modules",
+        "tags": [
+            "Sensors",
+            "Power"
+        ]
+    },
+    "/electronics101/oscillators/colpitts/": {
+        "id": 180,
+        "title": "ColpittsOscillator",
+        "summary": "testing a basic Colpitts Oscillator circuit",
+        "tags": [
+            "LC",
+            "Oscillators"
+        ]
+    },
+    "/playground/ledx16module/": {
+        "id": 179,
+        "title": "LEDx16Module",
+        "summary": "a custom 16 LED SMD PCB with 74HC595 shift register interface",
+        "tags": [
+            "CMOS/TTL",
+            "SMD",
+            "Arduino"
+        ]
+    },
+    "/playground/led7segment/shiftdrivemodule/": {
+        "id": 178,
+        "title": "7-Segment Shift Drive Module",
+        "summary": "a custom 7-segment LED display module PCB with 74HC595 shift register interface",
+        "tags": [
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino",
+            "PCB"
+        ]
+    },
+    "/playground/led7segment/shiftdrive/": {
+        "id": 177,
+        "title": "7-Segment Shift Drive",
+        "summary": "test control of a 7-segment LED display via a 74HC595 shift register",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/nrf24breakout/": {
+        "id": 176,
+        "title": "nRF24Breakout",
+        "summary": "a simple PCB breadboard adapter for 8-pin nRF24 modules",
+        "tags": [
+            "nRF24",
+            "PCB"
+        ]
+    },
+    "/electronics101/switchsoftlatch/": {
+        "id": 175,
+        "title": "Soft-latch Switch",
+        "summary": "Test a soft-latching power switching circuit based on a p-channel MOSFET",
+        "tags": [
+            "MOSFET",
+            "BJT"
+        ]
+    },
+    "/electronics101/usbnotifier/": {
+        "id": 174,
+        "title": "UsbNotifier",
+        "summary": "tear-down and demo code for some oldUSB Webmail Notifier devices",
+        "tags": [
+            "LED",
+            "USB"
+        ]
+    },
+    "/playground/ledcubes/mini4/": {
+        "id": 173,
+        "title": "LEDCubes/Mini4",
+        "summary": "a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface",
+        "tags": [
+            "LED",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/scrlatch/": {
+        "id": 172,
+        "title": "SCRLatch",
+        "summary": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)",
+        "tags": [
+            "SCR",
+            "Thyristor"
+        ]
+    },
+    "/electronics101/smdpracticeboards/": {
+        "id": 171,
+        "title": "SMD Practice Boards",
+        "summary": "a collection of notes, kits and resources for hand-soldering surface mount devices",
+        "tags": [
+            "SMD",
+            "CMOS",
+            "555 Timer"
+        ]
+    },
+    "/electronics101/clapswitchkit/": {
+        "id": 170,
+        "title": "ClapSwitchKit",
+        "summary": "build and analyse a simple clap switch circuit available as a kit",
+        "tags": [
+            "Oscillators",
+            "BJT",
+            "Digital Logic"
+        ]
+    },
+    "/playground/rgbledmodule/": {
+        "id": 169,
+        "title": "RGBLedModule",
+        "summary": "demo an RGB LED module",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/playground/currentsensormodule/": {
+        "id": 168,
+        "title": "CurrentSensorModule",
+        "summary": "test an ACS712 current sensor module with display on a 5110 LCD",
+        "tags": [
+            "Sensors",
+            "Arduino"
+        ]
+    },
+    "/playground/voltagesensormodule/": {
+        "id": 167,
+        "title": "VoltageSensorModule",
+        "summary": "test a 25V voltage sensor module with display on a 5110 LCD",
+        "tags": [
+            "Sensors",
+            "Arduino"
+        ]
+    },
+    "/playground/ds3231rtc/timedemo/": {
+        "id": 166,
+        "title": "DS3231RTC/TimeDemo",
+        "summary": "prints the system time synced from the RTC to the serial output",
+        "tags": [
+            "RTC",
+            "Arduino"
+        ]
+    },
+    "/electronics101/power/lm2662inverter/": {
+        "id": 165,
+        "title": "LM2662 Inverter",
+        "summary": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/oscillators/watsonledring/": {
+        "id": 164,
+        "title": "Watson LED Ring",
+        "summary": "test a Watson 3-LED Ring oscillator",
+        "tags": [
+            "Oscillators",
+            "LED"
+        ]
+    },
+    "/electronics101/variablesawtoothgenerator/": {
+        "id": 163,
+        "title": "VariableSawtoothGenerator",
+        "summary": "test a variable-geometry, fixed-amplitude sawtooth wave generator circuit",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/": {
+        "id": 162,
+        "title": "Boost-Buck Converter Module",
+        "summary": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/ml741/noninvertingamplifier/": {
+        "id": 161,
+        "title": "ML741/NonInvertingAmplifier",
+        "summary": "test a non-inverting amplifier circuit using the ML741 discrete component opamp",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/electronics101/lm324/splitterbuffer/": {
+        "id": 160,
+        "title": "LM324/SplitterBuffer",
+        "summary": "demonstrate load-independance of an LM324 buffer and signal splitter",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/electronics101/ml741/invertingamplifier/": {
+        "id": 159,
+        "title": "ML741/InvertingAmplifier",
+        "summary": "test an inverting amplifier circuit using the ML741 discrete component opamp",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/electronics101/ml741/inverter/": {
+        "id": 158,
+        "title": "ML741/Inverter",
+        "summary": "test an inverter circuit using the ML741 discrete component opamp",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/electronics101/ml741/voltagefollower/": {
+        "id": 157,
+        "title": "ML741/VoltageFollower",
+        "summary": "test a voltage follower/buffer circuit with the ML741 discrete component opamp",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/equipment/mso5074fg_unboxing/": {
+        "id": 156,
+        "title": "MSO5074FG_unboxing",
+        "summary": "unboxing and first tests of a Hantek MSO5074FG oscilloscope",
+        "tags": [
+            "Tools",
+            "Test Equipment",
+            "Oscilloscope"
+        ]
+    },
+    "/esp8266/serialtest/ruby/": {
+        "id": 155,
+        "title": "ESP8266/SerialTest/ruby",
+        "summary": "exercising ESP8266 serial communications with Ruby",
+        "tags": [
+            "ESP8266",
+            "ruby"
+        ]
+    },
+    "/esp8266/serialtest/": {
+        "id": 154,
+        "title": "ESP8266/SerialTest",
+        "summary": "first test of an ESP8266 module - serial communication to the SoC",
+        "tags": [
+            "ESP8266"
+        ]
+    },
+    "/electronics101/power/linearregulators/ams1117/": {
+        "id": 153,
+        "title": "AMS1117 Regulator",
+        "summary": "test an AMS1117 3.3V linear regulator",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/power/linearregulators/ld1117/": {
+        "id": 152,
+        "title": "LD1117 Regulator",
+        "summary": "test an LD1117 3.3V linear regulator",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/ml741/comparator/": {
+        "id": 151,
+        "title": "ML741/Comparator",
+        "summary": "test a comparator circuit with the ML741 discrete component opamp",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/electronics101/ml741/": {
+        "id": 150,
+        "title": "ML741",
+        "summary": "an LM741-style OpAmp built with discrete components",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/playground/lcd5110/juliansu8glibdemo/": {
+        "id": 149,
+        "title": "Lcd5110/JuliansU8glibDemo",
+        "summary": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/playground/ad9833/basicdemocycle/": {
+        "id": 148,
+        "title": "AD9833 Basic Demo Cycle",
+        "summary": "run a basic waveform demo with an AD9833 module",
+        "tags": [
+            "Arduino",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/555timer/voltagedoublerchargepump/": {
+        "id": 147,
+        "title": "VoltageDoublerChargePump",
+        "summary": "test a voltage-doubling charge pump circuit based on a 555 timer",
+        "tags": [
+            "555 Timer",
+            "Power"
+        ]
+    },
+    "/electronics101/555timer/invertingchargepump/": {
+        "id": 146,
+        "title": "InvertingChargePump",
+        "summary": "test an inverting charge pump circuit based on a 555 timer",
+        "tags": [
+            "555 Timer",
+            "Power"
+        ]
+    },
+    "/electronics101/555timer/variabledutycycle/": {
+        "id": 145,
+        "title": "Variable Duty-Cycle 555 Timer",
+        "summary": "a 555 oscillator circuit that allows easy manual duty cycle adjustment while minimising the change to frequency",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/oscillators/ringoscillator/": {
+        "id": 144,
+        "title": "Ring Oscillator",
+        "summary": "test a ring oscillator built with a 74LS14 Inverter chip",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/radio/am/opamptransmitter/": {
+        "id": 143,
+        "title": "OpAmp AM Transmitter",
+        "summary": "simple AM transmitter with OpAmp carrier/mixer",
+        "tags": [
+            "Radio",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/oscillators/highfrequencyopamposcillators/": {
+        "id": 142,
+        "title": "High-frequency OpAmp Oscillators",
+        "summary": "how fast can you push an Op-Amp oscillator?",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/crystaltester/": {
+        "id": 141,
+        "title": "CrystalTester",
+        "summary": "a Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter",
+        "tags": [
+            "Radio",
+            "Oscillators"
+        ]
+    },
+    "/audio/audioeffects/zenermodeeffects/": {
+        "id": 140,
+        "title": "BJT Zener-Mode Effects",
+        "summary": "playing around with some zener-mode sound effects",
+        "tags": [
+            "Audio",
+            "BJT",
+            "Zener",
+            "Oscillators"
+        ]
+    },
+    "/playground/analogcomparator/": {
+        "id": 139,
+        "title": "Analog Comparator",
+        "summary": "test the Atmega328 built-in analog comparator",
+        "tags": [
+            "Arduino",
+            "Sensor",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/bjt/monostable/": {
+        "id": 138,
+        "title": "BJT Monostable",
+        "summary": "test a 2-transistor monostable multivibrator",
+        "tags": [
+            "BJT",
+            "RC"
+        ]
+    },
+    "/electronics101/toroidjoulethief/": {
+        "id": 137,
+        "title": "ToroidJouleThief",
+        "summary": "test a \"joule thief\" circuit based on a ferrite toroid",
+        "tags": [
+            "Power",
+            "RL",
+            "Oscillators"
+        ]
+    },
+    "/playground/countermodule/": {
+        "id": 136,
+        "title": "CounterModule",
+        "summary": "a general-purpose CD4017 counter module",
+        "tags": [
+            "CMOS",
+            "Arduino"
+        ]
+    },
+    "/electronics101/555timer/touchswitch/": {
+        "id": 135,
+        "title": "555 Timer Touch Switch",
+        "summary": "test a touch switch circuit based on a 555 timer",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/bidirectionallevelshiftermodule/": {
+        "id": 134,
+        "title": "Bidirectional Level Shifter Module",
+        "summary": "test a bi-directional 5/3.3V level shifter module",
+        "tags": [
+            "FET"
+        ]
+    },
+    "/electronics101/bidirectionallevelshifter/": {
+        "id": 133,
+        "title": "Bi-directional Level Shifter",
+        "summary": "test a basic bi-directional 5/3.3V level shifter circuit",
+        "tags": [
+            "FET"
+        ]
+    },
+    "/electronics101/555timer/amtransmitter/": {
+        "id": 132,
+        "title": "555 AM Transmitter",
+        "summary": "a simple 555-based AM transmitter",
+        "tags": [
+            "Radio",
+            "555 Timer"
+        ]
+    },
+    "/radio/amfmradiokit/": {
+        "id": 131,
+        "title": "AM/FM Radio Kit",
+        "summary": "build notes for an AM/FM radio kit using the CD7642 AM, CD9088 FM and TDA2822 amp chips",
+        "tags": [
+            "Radio",
+            "AM",
+            "FM"
+        ]
+    },
+    "/electronics101/darlingtontouchswitch/": {
+        "id": 130,
+        "title": "Darlington Touch Switch",
+        "summary": "test a Darlington-pair touch switch",
+        "tags": [
+            "Sensors",
+            "BJT"
+        ]
+    },
+    "/electronics101/relaxationjoulethief/": {
+        "id": 129,
+        "title": "RelaxationJouleThief",
+        "summary": "test a \"joule thief\" circuit based on a relaxation oscillator",
+        "tags": [
+            "Power",
+            "RLC",
+            "Oscillators"
+        ]
+    },
+    "/playground/attiny/totalsleep/": {
+        "id": 128,
+        "title": "ATtiny TotalSleep",
+        "summary": "test a total power shutdown with an ATtiny85 processor on a breadboard",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/playground/attiny/sleepmode/": {
+        "id": 127,
+        "title": "ATtiny SleepMode",
+        "summary": "test sleep mode with an ATtiny85 processor on a breadboard",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/playground/attiny/hardwareinterrupt/": {
+        "id": 126,
+        "title": "ATtiny Hardware Interrupt",
+        "summary": "test hardware interrupts with an ATtiny85 processor on a breadboard",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/audio/visualization/voicelevelindicatorkit/": {
+        "id": 125,
+        "title": "Voice Level Indicator Kit",
+        "summary": "build and investigate a commercially available \"3-band voice level indicator\" kit",
+        "tags": [
+            "LED",
+            "Audio"
+        ]
+    },
+    "/electronics101/emrdetection/rfdetectorprobe/": {
+        "id": 124,
+        "title": "RFDetectorProbe",
+        "summary": "a simple RF detector mounted in a pen",
+        "tags": [
+            "Radio"
+        ]
+    },
+    "/radio/am/hx6b/": {
+        "id": 123,
+        "title": "HX6B",
+        "summary": "build and analyse the HX-6B superheterodyne AM MW radio receiver kit",
+        "tags": [
+            "Radio",
+            "AM"
+        ]
+    },
+    "/electronics101/opamptimer/": {
+        "id": 122,
+        "title": "Op-amp Timer",
+        "summary": "testing an op-amp timer switch",
+        "tags": [
+            "OpAmp",
+            "Timer"
+        ]
+    },
+    "/electronics101/detectors/peakdetector/": {
+        "id": 121,
+        "title": "Peak Detector",
+        "summary": "test an OpAmp-based peak detector circuit",
+        "tags": [
+            "OpAmp",
+            "RC"
+        ]
+    },
+    "/electronics101/detectors/simplepeakdetector/": {
+        "id": 120,
+        "title": "Simple Peak Detector",
+        "summary": "test the basic diode-RC peak detector circuit",
+        "tags": [
+            "RC"
+        ]
+    },
+    "/playground/rotaryencodermodule/": {
+        "id": 119,
+        "title": "RotaryEncoderModule",
+        "summary": "testing a Rotary Encoder module controlling an LED 8x8 display",
+        "tags": [
+            "Sensor",
+            "8x8 LED",
+            "Arduino"
+        ]
+    },
+    "/playground/rotaryencodermethods/": {
+        "id": 118,
+        "title": "RotaryEncoderMethods",
+        "summary": "finding the best method for reading a rotary-encoder",
+        "tags": [
+            "Sensor",
+            "Arduino"
+        ]
+    },
+    "/kinetics/solenoids/solenoiddiy/": {
+        "id": 117,
+        "title": "Solenoid DIY",
+        "summary": "build and test a basic electromechanical solenoid",
+        "tags": [
+            "Solenoid",
+            "Arduino"
+        ]
+    },
+    "/electronics101/switchnjfet/": {
+        "id": 116,
+        "title": "Switch - NJFET",
+        "summary": "switch an independent power source using an Arduino and n-channel JFET",
+        "tags": [
+            "JFET",
+            "Arduino"
+        ]
+    },
+    "/playground/r2rdac/": {
+        "id": 115,
+        "title": "R2RDAC",
+        "summary": "build and test a 16-bit R2R-ladder digital to analog converter with shift register interface",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/electronics101/oscillators/norgateoscillator/": {
+        "id": 114,
+        "title": "NOR Gate Oscillator",
+        "summary": "test a low-speed square wave oscillator using NOR gates",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators",
+            "Arduino"
+        ]
+    },
+    "/electronics101/ttlbufferdriver/": {
+        "id": 113,
+        "title": "TTLBufferDriver",
+        "summary": "using an OpAmp as a final buffer stage for TTL or similar circuits",
+        "tags": [
+            "OpAmp",
+            "TTL"
+        ]
+    },
+    "/electronics101/resistortransistorlogic/or/": {
+        "id": 112,
+        "title": "OR Gate with Resistor-Transistor Logic",
+        "summary": "test the basic resistor-transistor logic OR gate",
+        "tags": [
+            "BJT",
+            "RTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/resistortransistorlogic/nor/": {
+        "id": 111,
+        "title": "NOR Gate with Resistor-Transistor Logic",
+        "summary": "test the basic resistor-transistor logic NOR gate ",
+        "tags": [
+            "BJT",
+            "RTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/diodelogic/and/": {
+        "id": 110,
+        "title": "AND Gate with Diode Logic",
+        "summary": "test the basic diode-logic AND gate",
+        "tags": [
+            "Diode",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/diodelogic/or/": {
+        "id": 109,
+        "title": "OR Gate with Diode Logic",
+        "summary": "test the basic diode-logic OR gate",
+        "tags": [
+            "Diode",
+            "Digital Logic"
+        ]
+    },
+    "/playground/ringcountercontroller/": {
+        "id": 108,
+        "title": "RingCounterController",
+        "summary": "control the classic CD4017 walking-ring counter with an Arduino",
+        "tags": [
+            "CMOS",
+            "Arduino"
+        ]
+    },
+    "/electronics101/ringcounter/": {
+        "id": 107,
+        "title": "RingCounter",
+        "summary": "test the classic CD4017 walking-ring counter",
+        "tags": [
+            "CMOS",
+            "555 Timer"
+        ]
+    },
+    "/electronics101/switchpfet/": {
+        "id": 106,
+        "title": "PFET Switch with Delay",
+        "summary": "small-signal p-channel MOSFET switch with turn-on delay",
+        "tags": [
+            "MOSFET"
+        ]
+    },
+    "/electronics101/bjt/sawtooth/": {
+        "id": 105,
+        "title": "BJT SawTooth",
+        "summary": "testing a simple BJT saw-tooth oscillator",
+        "tags": [
+            "BJT",
+            "Oscillators"
+        ]
+    },
+    "/audio/audioamps/ruby/": {
+        "id": 104,
+        "title": "Ruby Guitar Amp",
+        "summary": "a version of the runoffgroove Ruby LM386 guitar amp",
+        "tags": [
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/playground/led8x8/ledcontroldemo/": {
+        "id": 103,
+        "title": " 8x8 LED Matrix LedControl",
+        "summary": "test driving and LED matrix with the LedControl library",
+        "tags": [
+            "8x8 LED",
+            "Arduino"
+        ]
+    },
+    "/playground/solenoidcontrol/": {
+        "id": 102,
+        "title": "SolenoidControl",
+        "summary": "controlling a mini solenoid with an Arduino",
+        "tags": [
+            "Solenoid",
+            "Arduino"
+        ]
+    },
+    "/playground/led8x8/maxrawdemo/": {
+        "id": 101,
+        "title": "8x8 LED Matrix Raw Drive",
+        "summary": "drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands",
+        "tags": [
+            "8x8 LED",
+            "Arduino"
+        ]
+    },
+    "/playground/oled/ardwinvaders/": {
+        "id": 100,
+        "title": "ArdWinVaders",
+        "summary": "an Arduino & OLED version of a classic game",
+        "tags": [
+            "Arduino",
+            "OLED"
+        ]
+    },
+    "/playground/atmegaispshield/": {
+        "id": 99,
+        "title": "ATmegaISPShield",
+        "summary": "a DIY ATmega programming shield for using an Arduino as ISP ",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "ICSP"
+        ]
+    },
+    "/audio/audioamps/guitarheadphoneamp/": {
+        "id": 98,
+        "title": "Guitar Headphone Amp",
+        "summary": "an LM386 fixed-gain guitar headphone amp",
+        "tags": [
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/audio/audioamps/volumecontrolpoweramp/": {
+        "id": 97,
+        "title": "Volume Control Power Amp",
+        "summary": "an LM386 fixed-gain audio power amp with volume control",
+        "tags": [
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/audio/audioamps/smokey/": {
+        "id": 96,
+        "title": "Smokey",
+        "summary": "quick build of a Smokey-like LM386 guitar power amp",
+        "tags": [
+            "Amp",
+            "Audio"
+        ]
+    },
+    "/audio/audioamps/littlegem/": {
+        "id": 95,
+        "title": "Little Gem",
+        "summary": "a basic Smokey-inspired LM386 guitar power amp",
+        "tags": [
+            "OpAmp",
+            "Audio"
+        ]
+    },
+    "/electronics101/bjt/longtailpair/": {
+        "id": 94,
+        "title": "BJT LongTail Pair",
+        "summary": "test the basic BJT \"long-tail\" differential amplifier circuit",
+        "tags": [
+            "BJT",
+            "OpAmp"
+        ]
+    },
+    "/electronics101/bjt/currentsink/": {
+        "id": 93,
+        "title": "BJT CurrentSink",
+        "summary": "test a BJT constant current sink circuit",
+        "tags": [
+            "BJT",
+            "Power"
+        ]
+    },
+    "/electronics101/power/linearregulators/lm317cc/": {
+        "id": 92,
+        "title": "LM317 Constant Current Power Supply",
+        "summary": "test a constant current power supply built with the LM317",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/switchpjfet/": {
+        "id": 91,
+        "title": "Switch - PJFET",
+        "summary": "switch an independent power source using an Arduino and p-channel JFET",
+        "tags": [
+            "JFET",
+            "Arduino"
+        ]
+    },
+    "/playground/plotnvalues/": {
+        "id": 90,
+        "title": "PlotNValues",
+        "summary": "generic script to sample up to 6 analog inputs and stream the data to serial in ASCII format for plotting with Processing",
+        "tags": [
+            "Arduino",
+            "Processing"
+        ]
+    },
+    "/electronics101/breathelamp/": {
+        "id": 89,
+        "title": "Breathing Lamp Effect",
+        "summary": "build and test a common LED visual effect circuit",
+        "tags": [
+            "OpAmp",
+            "LED"
+        ]
+    },
+    "/8051/electronicclockkit/": {
+        "id": 88,
+        "title": "Electronic Clock Kit",
+        "summary": "build and investigate a commercially available \"electronic clock\" kit",
+        "tags": [
+            "LCD",
+            "8051"
+        ]
+    },
+    "/playground/oled/ssd1306bareback/": {
+        "id": 87,
+        "title": "SSD1306 OLED Bareback SPI",
+        "summary": "driving a monochrome 128x64 OLED Display with an Arduino and the raw command set over SPI",
+        "tags": [
+            "OLED",
+            "Arduino"
+        ]
+    },
+    "/playground/oled/ssd1306withadafruitlibraries/": {
+        "id": 86,
+        "title": "SSD1306 OLED With AdaFruit Libraries",
+        "summary": "running the AdaFruit example program with a monochrome 128x64 OLED Display",
+        "tags": [
+            "OLED",
+            "Arduino"
+        ]
+    },
+    "/playground/lcd5110/bareback/": {
+        "id": 85,
+        "title": "Lcd5110/BareBack",
+        "summary": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/electronics101/555timer/roulettekit/": {
+        "id": 84,
+        "title": "Roulette Kit",
+        "summary": "build and examine the workings of a commercial 555 Roulette kit",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/transistortester/": {
+        "id": 83,
+        "title": "Transistor Tester",
+        "summary": "use an Arduino to test NPN and PNP BJTs",
+        "tags": [
+            "Arduino",
+            "BJT"
+        ]
+    },
+    "/electronics101/emrdetection/mobilerfdetectorkit/": {
+        "id": 82,
+        "title": "MobileRFDetectorKit",
+        "summary": "build and investigate a commercially available \"mobile phone signal\" detector kit",
+        "tags": [
+            "Radio"
+        ]
+    },
+    "/playground/led4digit7segment/doubleshiftwithfets/": {
+        "id": 81,
+        "title": "4x7-Segment Double Shift With FETs",
+        "summary": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/playground/led4digit7segment/doubleshift/": {
+        "id": 80,
+        "title": "4x7-Segment Double Shift",
+        "summary": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/playground/ledtemperaturedisplay/": {
+        "id": 79,
+        "title": "7-Segment Temperature Display",
+        "summary": "Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit",
+        "tags": [
+            "Sensors",
+            "LM35",
+            "7-Segment",
+            "Arduino"
+        ]
+    },
+    "/playground/led4digit7segment/singleshift/": {
+        "id": 78,
+        "title": "4x7-Segment Single Shift",
+        "summary": "driving a 4-digit 7-segment LED display with a shift register and a few BJTs",
+        "tags": [
+            "LED 7-Segment",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/digitallogic/srlatchwithnorgates/": {
+        "id": 77,
+        "title": "NOR Gate SR Latch",
+        "summary": "Set-Reset latch implemented with NOR gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
+    "/playground/monostablepulseextender/": {
+        "id": 76,
+        "title": "Monostable Pulse Extender",
+        "summary": "test the behaviour of a 74LS122 monostable with external timing configuration and plot the results with an Arduino",
+        "tags": [
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/monostable122/": {
+        "id": 75,
+        "title": "Monostable 74LS122",
+        "summary": "simple pulse trigger using 74LS122 monostable with external timing configuration",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
+    "/playground/ir/testir/": {
+        "id": 74,
+        "title": "Raw Arduino Infrared",
+        "summary": "test raw IR reception with a TSOP1838-type IR sensor and an Arduino",
+        "tags": [
+            "IR",
+            "Arduino"
+        ]
+    },
+    "/electronics101/quadnor/": {
+        "id": 73,
+        "title": "QuadNOR",
+        "summary": "demo simple cascading NOR gate logic with the 74LS02 and an Arduino",
+        "tags": [
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/nor7402/": {
+        "id": 72,
+        "title": "NOR7402",
+        "summary": "demo the 74LS02 Quad 2-input NOR gate with an Arduino",
+        "tags": [
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/playground/attiny/tinyblink/": {
+        "id": 71,
+        "title": "TinyBlink",
+        "summary": "a simple blink sketch with an ATTINY85-20PU on a breadboard",
+        "tags": [
+            "Arduino",
+            "AVR"
+        ]
+    },
+    "/playground/attiny/programmingwitharduinoisp/": {
+        "id": 70,
+        "title": "ATtiny Programming over ArduinoISP",
+        "summary": "programming an ATTINY85-20PU on a breadboard with Arduino ISP",
+        "tags": [
+            "Arduino",
+            "AVR",
+            "ICSP"
+        ]
+    },
+    "/playground/atmegabreadboard/": {
+        "id": 69,
+        "title": "ATmegaBreadboard",
+        "summary": "running an ATMEGA328P-PU on a breadboard ",
+        "tags": [
+            "Arduino",
+            "ATmel"
+        ]
+    },
+    "/playground/atmegaviaarduinoisp/": {
+        "id": 68,
+        "title": "ATmegaViaArduinoISP",
+        "summary": "Programming an ATMEGA328P-PU on a breadboard with Arduino ISP",
+        "tags": [
+            "Arduino",
+            "ATmel",
+            "ICSP"
+        ]
+    },
+    "/electronics101/led/acbulb/": {
+        "id": 67,
+        "title": "LED AC Bulb",
+        "summary": "build and analyse a commercial LED lamp kit with capacitive power supply",
+        "tags": [
+            "Power",
+            "LED"
+        ]
+    },
+    "/electronics101/switchnfet/": {
+        "id": 66,
+        "title": "Switch - NFET",
+        "summary": "small-signal n-channel MOSFET switch with turn-off delay",
+        "tags": [
+            "MOSFET"
+        ]
+    },
+    "/playground/levelindicatorlm3915/": {
+        "id": 65,
+        "title": "LevelIndicatorLM3915",
+        "summary": "Driving an LM3915 10-segment display with a single Arduino pin",
+        "tags": [
+            "LM3915",
+            "Arduino"
+        ]
+    },
+    "/radio/lpd433/rfswitchask/": {
+        "id": 64,
+        "title": "ASK RF Switch",
+        "summary": "data communications using ASK protocol over 433Mhz RF transmitter and receiver set",
+        "tags": [
+            "Radio",
+            "ASK",
+            "Arduino",
+            "LPD433"
+        ]
+    },
+    "/radio/lpd433/rfswitch/": {
+        "id": 63,
+        "title": "RFSwitch",
+        "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing",
+        "tags": [
+            "Radio",
+            "OpAmp",
+            "LPD433"
+        ]
+    },
+    "/electronics101/digitallogic/srlatchflipper/": {
+        "id": 62,
+        "title": "SR Latch Flipper",
+        "summary": "Set/Reset latch with BJTs, controlled and monitored by an Arduino",
+        "tags": [
+            "Digital Logic",
+            "BJT",
+            "Arduino"
+        ]
+    },
+    "/electronics101/digitallogic/srlatch/": {
+        "id": 61,
+        "title": "SR Latch",
+        "summary": "Set/Reset latch with BJTs",
+        "tags": [
+            "Digital Logic",
+            "BJT"
+        ]
+    },
+    "/electronics101/power/breadboard5v/": {
+        "id": 60,
+        "title": "5V Breadboard Regulator",
+        "summary": "an LM7805 5V regulated power supply on breadboard-compatible protoboard",
+        "tags": [
+            "Breadboard Bling",
+            "Power"
+        ]
+    },
+    "/electronics101/555timer/twotonedoorbell/": {
+        "id": 59,
+        "title": "Two-tone Doorbell",
+        "summary": "basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for power conservation",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/playground/led4digit7segment/": {
+        "id": 58,
+        "title": "4 Digit 7-Segment LED Displays",
+        "summary": "overview of driving a 4-digit 7-segment display",
+        "tags": [
+            "7-Segment",
+            "Arduino"
+        ]
+    },
+    "/electronics101/capacitancetester/": {
+        "id": 57,
+        "title": "CapacitanceTester",
+        "summary": "capacitor tester with LCD output",
+        "tags": [
+            "LCD",
+            "RC",
+            "Arduino"
+        ]
+    },
+    "/kinetics/servomotors/joystickservocontrol/": {
+        "id": 56,
+        "title": "JoystickServoControl",
+        "summary": "controlling two SG90 servos with a joystick",
+        "tags": [
+            "Human Input",
+            "Arduino"
+        ]
+    },
+    "/playground/relaycontroltest/": {
+        "id": 55,
+        "title": "RelayControlTest",
+        "summary": "quick test to drive a motor with a common relay using NPN switching circuit under Arduino control",
+        "tags": [
+            "Servo",
+            "Arduino"
+        ]
+    },
+    "/playground/relaymoduletest/": {
+        "id": 54,
+        "title": "RelayModuleTest",
+        "summary": "quick test of a common relay board to switch a motor under Arduino control",
+        "tags": [
+            "Servo",
+            "Arduino"
+        ]
+    },
+    "/electronics101/functiongenerator324/": {
+        "id": 53,
+        "title": "LM324 Function Generator",
+        "summary": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/comparator741/": {
+        "id": 52,
+        "title": "Comparator741",
+        "summary": "demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/playground/jarabetapatio/": {
+        "id": 51,
+        "title": "El Jarabe Tapat\u00edo",
+        "summary": "play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification",
+        "tags": [
+            "Audio",
+            "Arduino"
+        ]
+    },
+    "/girabot/": {
+        "id": 50,
+        "title": "Girabot",
+        "summary": "EE40LX Electronic Interfaces robot project",
+        "tags": [
+            "Sensors",
+            "OpAmp",
+            "Arduino"
+        ]
+    },
+    "/electronics101/oscillators/bjtrcoscillator/": {
+        "id": 49,
+        "title": "BJT RC Oscillator",
+        "summary": "Demonstrates a simple RC/transistor astable multivibrator",
+        "tags": [
+            "BJT",
+            "RC",
+            "Oscillators"
+        ]
+    },
+    "/playground/stereolighttrigger/": {
+        "id": 48,
+        "title": "StereoLightTrigger",
+        "summary": "demo an interrupt-driven method for responding to LDR light threshold triggers",
+        "tags": [
+            "Sensors",
+            "Arduino"
+        ]
+    },
+    "/electronics101/ldr/stereotripdetector/": {
+        "id": 47,
+        "title": "LDR Stereo Trip Detector",
+        "summary": "demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/playground/motorcontrolpwm/": {
+        "id": 46,
+        "title": "PWM Motor Control",
+        "summary": "Testing DC motor speed control using an Arduino-generated PWM signal",
+        "tags": [
+            "Motors",
+            "Arduino"
+        ]
+    },
+    "/electronics101/555timer/simplesiren/": {
+        "id": 45,
+        "title": "Simple Siren",
+        "summary": "classic timer circuit producing a two-tone oscillation",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/555timer/simplechime/": {
+        "id": 44,
+        "title": "Simple Chime",
+        "summary": "play a sound for a fixed duration when a button is pressed",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/playground/hitthelights/": {
+        "id": 43,
+        "title": "HitTheLights",
+        "summary": "simple LED game with LCD output and interrupt-driven button input",
+        "tags": [
+            "LCD",
+            "Human Input",
+            "Arduino"
+        ]
+    },
+    "/kinetics/servomotors/servotest/": {
+        "id": 42,
+        "title": "ServoTest",
+        "summary": "test the positioning accuracy of an SG90 servo motor driven by an Arduino",
+        "tags": [
+            "Servo",
+            "Arduino"
+        ]
+    },
+    "/playground/shifty/": {
+        "id": 41,
+        "title": "Shifty",
+        "summary": "drive 8 LEDs with 3 pins using a 74HC595 shift register",
+        "tags": [
+            "LED",
+            "CMOS/TTL",
+            "Arduino"
+        ]
+    },
+    "/electronics101/meledy/": {
+        "id": 40,
+        "title": "MeLEDy",
+        "summary": "use an electret microphone to light a series of LEDs in proportion to volume",
+        "tags": [
+            "Audio"
+        ]
+    },
+    "/electronics101/oscillators/astableopamp/": {
+        "id": 39,
+        "title": "Square Wave - LM324",
+        "summary": "using an LM324 OpAmp to generate a square wave (astable opamp oscillator)",
+        "tags": [
+            "OpAmp",
+            "Oscillators"
+        ]
+    },
+    "/playground/electretadc/": {
+        "id": 38,
+        "title": "ElectretADC",
+        "summary": "convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals",
+        "tags": [
+            "Audio",
+            "Arduino"
+        ]
+    },
+    "/playground/electrettrigger/": {
+        "id": 37,
+        "title": "ElectretTrigger",
+        "summary": "uses an electret microphone and LM324 amplifier to trigger action when over audio threshold",
+        "tags": [
+            "Sensors",
+            "Audio",
+            "OpAmp",
+            "Arduino"
+        ]
+    },
+    "/electronics101/noninverting324/": {
+        "id": 36,
+        "title": "NonInverting324",
+        "summary": "demo LM324 OpAmp non-inverting DC gain mode",
+        "tags": [
+            "OpAmp"
+        ]
+    },
+    "/playground/rangefinder/": {
+        "id": 35,
+        "title": "RangeFinder",
+        "summary": "proximity/distance measurement with an HC-SR04 untrasonic ranging module",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "HC-SR04"
+        ]
+    },
+    "/electronics101/ldr/comparator/": {
+        "id": 34,
+        "title": "LDR Comparator",
+        "summary": "low-light/proximity Trip Detector demonstration using LM324 and LDR/Wheatstone Bridge sensor",
+        "tags": [
+            "Sensors",
+            "OpAmp",
+            "Arduino"
+        ]
+    },
+    "/electronics101/switchpnp/": {
+        "id": 33,
+        "title": "Switch - PNP",
+        "summary": "small-signal digital switch with PNP BJT",
+        "tags": [
+            "BJT"
+        ]
+    },
+    "/electronics101/switchnpn/": {
+        "id": 32,
+        "title": "Switch - NPN",
+        "summary": "small-signal digital switch with NPN BJT",
+        "tags": [
+            "BJT"
+        ]
+    },
+    "/electronics101/555timer/trianglewavegen/": {
+        "id": 31,
+        "title": "Triangle Wave - 555",
+        "summary": "generate a triangle wave with 555 timer astable oscillator and RC integrator",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/playground/blinkprecision/": {
+        "id": 30,
+        "title": "BlinkPrecision",
+        "summary": "use a timer to perform a function on a precise schedule",
+        "tags": [
+            "LED",
+            "Timing",
+            "Arduino"
+        ]
+    },
+    "/electronics101/power/linearregulators/zener/": {
+        "id": 29,
+        "title": "Zener Regulator",
+        "summary": "demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/power/mb102breadboardpowersupply/": {
+        "id": 28,
+        "title": "MB102 3.3/5V Breadboard Power Supply",
+        "summary": "demo and test a commercial 3.3/5V MB102 breadboard power supply unit",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/power/linearregulators/lm7805/": {
+        "id": 27,
+        "title": "LM7805 Regulator",
+        "summary": "demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/power/linearregulators/lm317/": {
+        "id": 26,
+        "title": "LM317 Adjustable Regulator",
+        "summary": "Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
+        "tags": [
+            "Power"
+        ]
+    },
+    "/electronics101/quadlatch/": {
+        "id": 25,
+        "title": "Quad Latch",
+        "summary": "graph the basic operation of the 74LS75 4-bit bistable latch",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
+    "/electronics101/resistortransistorlogic/and/": {
+        "id": 24,
+        "title": "AND Gate with Resistor-Transistor Logic",
+        "summary": "test the basic resistor-transistor logic AND gate ",
+        "tags": [
+            "BJT",
+            "RTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/resistortransistorlogic/nand/": {
+        "id": 23,
+        "title": "NAND Gate with Resistor-Transistor Logic",
+        "summary": "test the basic resistor-transistor logic NAND gate ",
+        "tags": [
+            "BJT",
+            "RTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/oscillators/schmittoscillator/": {
+        "id": 22,
+        "title": "Square Wave - Schmitt Oscillator",
+        "summary": "using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wave",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
+    "/electronics101/schmittinverter/": {
+        "id": 21,
+        "title": "Schmitt Inverter",
+        "summary": "graph the basic operation of the 74LS14 Hex Inverter with Schmitt Trigger Inputs",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
+    "/playground/internals/": {
+        "id": 20,
+        "title": "Arduino Internals",
+        "summary": "report on Arduino Board internals",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "/playground/popcorn/": {
+        "id": 19,
+        "title": "Popcorn",
+        "summary": "How to make a piezo buzzer even more annoying? Make it play popcorn!",
+        "tags": [
+            "Audio",
+            "Arduino"
+        ]
+    },
+    "/fretboard/": {
+        "id": 18,
+        "title": "FretBoard",
+        "summary": "a multi-project build status indicator, that pulls software build status from the net and animates the status of up to 24 projects with an LED array",
+        "tags": [
+            "LED Array",
+            "Arduino"
+        ]
+    },
+    "/electronics101/555timer/monostable/": {
+        "id": 17,
+        "title": "Monostable",
+        "summary": "basic monostable mode using an Arduino and processing to plot the output",
+        "tags": [
+            "555 Timer"
+        ]
+    },
+    "/electronics101/555timer/astableoscillator/": {
+        "id": 16,
+        "title": "Square Wave - 555",
+        "summary": "using a 555 timer as an astable oscillator to generate a square wave and an Arduino and processing to plot the output",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
+    "/ledarraydemos/striptease/": {
+        "id": 15,
+        "title": "StripTease",
+        "summary": "demo a range of effects on the LED strip",
+        "tags": [
+            "LED Array",
+            "Arduino"
+        ]
+    },
+    "/ledarraydemos/asyncledstripeffects/": {
+        "id": 14,
+        "title": "LED Array Async Effects",
+        "summary": "demo effects on the LED strip driven using timer interrupt",
+        "tags": [
+            "LED Array",
+            "Timing",
+            "Arduino"
+        ]
+    },
+    "/electronics101/resistortransistorlogic/not/": {
+        "id": 13,
+        "title": "NOT Gate with Resistor-Transistor Logic",
+        "summary": "test the basic resistor-transistor logic NOT gate (Inverter)",
+        "tags": [
+            "BJT",
+            "RTL",
+            "Digital Logic"
+        ]
+    },
+    "/electronics101/capacitorial/": {
+        "id": 12,
+        "title": "Capacitorial",
+        "summary": "graphing capacitor discharge with Processing",
+        "tags": [
+            "RC"
+        ]
+    },
+    "/kinetics/steppermotors/28byj48/x113647stepperlibrary/": {
+        "id": 11,
+        "title": "X113647StepperLibrary",
+        "summary": "a standard Stepper-compatible Arduino library that supports half-stepping the 28BYJ-48 unipolar stepper motor with a ULN2003A/X113647 Stepper Motor Driver Board",
+        "tags": [
+            "Stepper",
+            "Arduino"
+        ]
+    },
+    "/playground/lightornot/": {
+        "id": 10,
+        "title": "LightOrNot",
+        "summary": "uses an LDR to adjust the blink rate of an LED",
+        "tags": [
+            "Sensors",
+            "Arduino"
+        ]
+    },
+    "/playground/blink/": {
+        "id": 9,
+        "title": "Blink",
+        "summary": "the simplest blinking LED, with some electrical measurements thrown in",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/ledarraydemos/rgbcalibrate/": {
+        "id": 8,
+        "title": "LED Array RGB Calibration",
+        "summary": "quick test to make sure LEDs are correctly addressable and their color can be set correctly",
+        "tags": [
+            "LED Array",
+            "Arduino"
+        ]
+    },
+    "/ledarraydemos/": {
+        "id": 7,
+        "title": "Programmable LED Arrays",
+        "summary": "Intro and Setup.. I bought some WS2811-based LED Strips with a specific project in mind. But first, need to get them working...",
+        "tags": [
+            "LED Array",
+            "Arduino"
+        ]
+    },
+    "/playground/betterwithbacon/": {
+        "id": 6,
+        "title": "It's Better With Bacon",
+        "summary": "simple LCD test",
+        "tags": [
+            "LCD",
+            "Arduino"
+        ]
+    },
+    "/playground/heartquotes/": {
+        "id": 5,
+        "title": "HeartQuotes",
+        "summary": "press a button to get a quote from the net and display on an LCD",
+        "tags": [
+            "LCD",
+            "Ethernet",
+            "Arduino"
+        ]
+    },
+    "/playground/pushbuttonled/": {
+        "id": 4,
+        "title": "Pushbutton LED switch",
+        "summary": "Momentary push button switch is used to toggle the LED on and off",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/playground/ledchaser/": {
+        "id": 3,
+        "title": "LED Chaser",
+        "summary": "blinks a series of 12 LEDs in a coninuous loop",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/playground/variableled/": {
+        "id": 2,
+        "title": "Variable LED brightness with PWM",
+        "summary": "variable resistor is used to control the brightness of an LED with PWM",
+        "tags": [
+            "LED",
+            "Arduino"
+        ]
+    },
+    "/playground/led7segment/directdrive/": {
+        "id": 1,
+        "title": "7-Segment Direct Drive",
+        "summary": "test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0",
+        "tags": [
+            "LED",
+            "7-Segment",
+            "Arduino"
+        ]
+    }
+}

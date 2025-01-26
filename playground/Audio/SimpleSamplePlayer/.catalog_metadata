@@ -1,0 +1,9 @@
+{
+    "id": "#417",
+    "name": "SimpleSamplePlayer",
+    "description": "playing short audio samples on an Arduino using some PWM tricks from the PCM library",
+    "categories": "Audio, Arduino, PWM",
+    "relative_path": "playground/Audio/SimpleSamplePlayer",
+    "updated_at": "2018-10-03T14:27:30Z",
+    "created_at": "2018-10-03T14:27:30Z"
+}

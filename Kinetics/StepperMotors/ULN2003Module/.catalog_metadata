@@ -1,0 +1,9 @@
+{
+    "id": "#432",
+    "name": "StepperMotors/ULN2003Module",
+    "description": "investigating the common ULN2003A modules provided for unipolar stepper motor control - this one is identified as X113647",
+    "categories": "Stepper, ULN2003",
+    "relative_path": "Kinetics/StepperMotors/ULN2003Module",
+    "updated_at": "2018-11-04T11:41:34Z",
+    "created_at": "2018-11-04T11:41:34Z"
+}

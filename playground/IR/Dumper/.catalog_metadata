@@ -1,0 +1,9 @@
+{
+    "id": "#624",
+    "name": "IR Dumper",
+    "description": "Reverse-engineering infrared protocols using the Arduino-IRremote library.",
+    "categories": "IR, Arduino",
+    "relative_path": "playground/IR/Dumper",
+    "updated_at": "2022-02-21T17:33:20Z",
+    "created_at": "2022-02-21T17:33:20Z"
+}

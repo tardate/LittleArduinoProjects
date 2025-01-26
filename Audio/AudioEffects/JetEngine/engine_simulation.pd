@@ -1,0 +1,46 @@
+#N canvas 208 229 1248 716 10;
+#X obj 255 335 dac~;
+#X obj 744 26 tgl 14 0 empty empty Sound\ On 17 7 0 10 -262144 -1 -1
+0 1;
+#X msg 744 63 \; pd dsp \$1;
+#X obj 37 29 hsl 128 15 425 4680 0 0 empty empty Carrier\ Frequency
+-2 -8 0 10 -262144 -1 -1 10600 1;
+#X floatatom 38 59 12 0 0 0 - - -, f 12;
+#X obj 289 136 noise~;
+#X obj 335 192 *~;
+#X obj 350 25 vsl 15 128 0 127 0 0 empty empty Noise\ Level 0 -9 0
+10 -262144 -1 -1 2200 1;
+#X obj 350 167 / 127;
+#X obj 199 30 vsl 15 128 0 127 0 0 empty empty Carrier\ Level 0 -9
+0 10 -262144 -1 -1 1400 1;
+#X obj 199 172 / 127;
+#X obj 184 198 *~;
+#X obj 255 271 +~;
+#X obj 14 231 tgl 15 0 empty empty Enable\ Chart 17 7 0 10 -262144
+-1 -1 1 1;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array output 1024 float 0 black black;
+#X coords 0 1 1023 -1 540 300 1;
+#X restore 475 165 graph;
+#X obj 84 263 metro;
+#X obj 87 318 tabwrite~ output;
+#X obj 93 105 phasor~;
+#X obj 95 147 expr~ $v1 > 0.5;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 4 0 15 1;
+#X connect 4 0 17 0;
+#X connect 5 0 6 0;
+#X connect 6 0 12 1;
+#X connect 7 0 8 0;
+#X connect 8 0 6 1;
+#X connect 9 0 10 0;
+#X connect 10 0 11 1;
+#X connect 11 0 12 0;
+#X connect 12 0 0 0;
+#X connect 12 0 0 1;
+#X connect 12 0 16 0;
+#X connect 13 0 15 0;
+#X connect 15 0 16 0;
+#X connect 17 0 18 0;
+#X connect 18 0 11 0;

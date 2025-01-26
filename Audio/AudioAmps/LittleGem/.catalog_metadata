@@ -1,0 +1,9 @@
+{
+    "id": "#095",
+    "name": "Little Gem",
+    "description": "a basic Smokey-inspired LM386 guitar power amp",
+    "categories": "OpAmp, Audio",
+    "relative_path": "Audio/AudioAmps/LittleGem",
+    "updated_at": "2020-06-06T05:35:40Z",
+    "created_at": "2020-06-06T05:35:40Z"
+}

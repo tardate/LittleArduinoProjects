@@ -1,0 +1,9 @@
+{
+    "id": "#247",
+    "name": "pedalShieldUno",
+    "description": "build and test a genuine pedalSHIELD UNO Arduino-based guitar effects pedal",
+    "categories": "DSP, Guitar, Arduino",
+    "relative_path": "playground/pedalShieldUno",
+    "updated_at": "2016-09-21T11:12:07Z",
+    "created_at": "2016-09-21T11:12:07Z"
+}

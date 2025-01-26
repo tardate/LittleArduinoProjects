@@ -1,0 +1,9 @@
+{
+    "id": "#011",
+    "name": "X113647StepperLibrary",
+    "description": "a standard Stepper-compatible Arduino library that supports half-stepping the 28BYJ-48 unipolar stepper motor with a ULN2003A/X113647 Stepper Motor Driver Board",
+    "categories": "Stepper, Arduino",
+    "relative_path": "Kinetics/StepperMotors/28BYJ48/X113647StepperLibrary",
+    "updated_at": "2018-11-04T15:18:24Z",
+    "created_at": "2018-11-04T15:18:24Z"
+}

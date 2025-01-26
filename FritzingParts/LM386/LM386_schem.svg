@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="0.715458in"
+   height="0.811806in"
+   viewBox="0 0 51.513 58.45"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="LM386_schem.svg">
+  <metadata
+     id="metadata103">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs101" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="939"
+     inkscape:window-height="633"
+     id="namedview99"
+     showgrid="false"
+     inkscape:zoom="3.2301092"
+     inkscape:cx="32.19561"
+     inkscape:cy="36.531273"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     partID="854594860"
+     id="g4">
+    <g
+       id="schematic">
+      <rect
+         fill="#FFFFFF"
+         x="7.55"
+         stroke-linejoin="round"
+         y="7.551"
+         stroke-width="0.9"
+         stroke="#000000"
+         stroke-linecap="round"
+         width="36"
+         height="43.2"
+         id="rect7" />
+      <polygon
+         fill="#FFFFFF"
+         stroke-linejoin="round"
+         stroke-width="0.6"
+         stroke="#000000"
+         points="13.5,16.893,13.5,41.405,38.012,29.149"
+         stroke-linecap="round"
+         id="polygon9" />
+      <line
+         fill="none"
+         y1="37.882"
+         stroke-width="0.5"
+         y2="34.817"
+         x1="16.565"
+         stroke="#000000"
+         x2="16.565"
+         stroke-linecap="round"
+         id="line11" />
+      <line
+         fill="none"
+         y1="36.349"
+         stroke-width="0.5"
+         y2="36.349"
+         x1="15.033"
+         stroke="#000000"
+         x2="18.096"
+         stroke-linecap="round"
+         id="line13" />
+      <line
+         fill="none"
+         y1="21.948"
+         stroke-width="0.5"
+         y2="21.948"
+         x1="15.033"
+         stroke="#000000"
+         x2="18.096"
+         stroke-linecap="round"
+         id="line15" />
+      <line
+         id="connector0pin"
+         y1="0.34999999"
+         y2="7.5500002"
+         x1="29.451"
+         x2="29.451"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="GAIN" />
+      <g
+         id="connector0terminal"
+         x="29.451"
+         y="0.35"
+         width="0"
+         height="0.001"
+         class="terminal"
+         style="fill:none" />
+      <line
+         id="connector1pin"
+         y1="21.948"
+         y2="21.948"
+         x1="0.34999999"
+         x2="7.5500002"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="-INPUT" />
+      <g
+         id="connector1terminal"
+         x="0.35"
+         y="14.75"
+         width="0"
+         height="0.001"
+         class="terminal"
+         style="fill:none" />
+      <g
+         transform="matrix(1, 0, 0, 1, 3.2615, 20.8987)"
+         id="g21">
+        <text
+           font-size="2.5"
+           fill="#8C8C8C"
+           font-family="'DroidSans'"
+           id="text23">2</text>
+      </g>
+      <line
+         id="connector2pin"
+         y1="36.348999"
+         y2="36.348999"
+         x1="0.34999999"
+         x2="7.5500002"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="+INPUT" />
+      <g
+         id="connector2terminal"
+         points="0.35,29.15,0.35,29.15,0.35,29.15"
+         class="terminal"
+         style="fill:none" />
+      <g
+         transform="matrix(1, 0, 0, 1, 3.2615, 35.2996)"
+         id="g27">
+        <text
+           font-size="2.5"
+           fill="#8C8C8C"
+           font-family="'DroidSans'"
+           id="text29">3</text>
+      </g>
+      <line
+         id="connector4pin"
+         y1="29.150999"
+         y2="29.150999"
+         x1="51.099998"
+         x2="43.900002"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="Vout" />
+      <g
+         id="connector4terminal"
+         class="terminal"
+         style="fill:none"
+         height="0.7"
+         width="0.7"
+         x="51.099998"
+         y="29.150999" />
+      <g
+         transform="matrix(1, 0, 0, 1, 46.8113, 28.1023)"
+         id="g33">
+        <text
+           font-size="2.5"
+           fill="#8C8C8C"
+           font-family="'DroidSans'"
+           id="text35">5</text>
+      </g>
+      <line
+         id="connector5pin"
+         y1="0.34999999"
+         y2="7.5500002"
+         x1="14.75"
+         x2="14.75"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="Vs" />
+      <g
+         id="connector5terminal"
+         points="14.75,0.35,14.751,0.35,14.751,0.35"
+         class="terminal"
+         style="fill:none" />
+      <g
+         transform="matrix(1, 0, 0, 1, 4.83306, 1.39347)"
+         id="g39">
+        <g
+           transform="rotate(270)"
+           id="g41">
+          <g
+             transform="matrix(1, 0, 0, 1, -3.245, 8.8659)"
+             id="g43">
+            <text
+               font-size="2.5"
+               fill="#8C8C8C"
+               font-family="'DroidSans'"
+               id="text45">6</text>
+          </g>
+        </g>
+      </g>
+      <line
+         id="connector3pin"
+         y1="57.952"
+         y2="50.751999"
+         x1="21.950001"
+         x2="21.950001"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="GND" />
+      <g
+         id="connector3terminal"
+         points="21.95,57.952,21.951,57.952,21.951,57.952"
+         class="terminal"
+         style="fill:none" />
+      <g
+         transform="matrix(1, 0, 0, 1, 4.83306, 14.0935)"
+         id="g49">
+        <g
+           transform="rotate(270)"
+           id="g51">
+          <g
+             transform="matrix(1, 0, 0, 1, -40.9463, 16.0661)"
+             id="g53">
+            <text
+               font-size="2.5"
+               fill="#8C8C8C"
+               font-family="'DroidSans'"
+               id="text55">4</text>
+          </g>
+        </g>
+      </g>
+      <line
+         id="connector7pin"
+         y1="0.34999999"
+         y2="7.5500002"
+         x1="36.651001"
+         x2="36.651001"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="GAIN" />
+      <g
+         id="connector7terminal"
+         x="36.651"
+         y="0.35"
+         width="0"
+         height="0.001"
+         class="terminal"
+         style="fill:none" />
+      <g
+         transform="matrix(1, 0, 0, 1, 9.91306, 3.93347)"
+         id="g61">
+        <g
+           transform="rotate(270)"
+           id="g63">
+          <g
+             transform="matrix(1, 0, 0, 1, -0.7059, 25.6863)"
+             id="g65">
+            <text
+               font-size="2.5"
+               fill="#8C8C8C"
+               font-family="'DroidSans'"
+               id="text67">8</text>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="matrix(1, 0, 0, 1, 9.91306, 3.93347)"
+         id="g69">
+        <g
+           id="g71">
+          <g
+             transform="rotate(270)"
+             id="g73">
+            <g
+               id="g75">
+              <g
+                 transform="matrix(1, 0, 0, 1, -0.7059, 18.9344)"
+                 id="g77">
+                <text
+                   font-size="2.5"
+                   fill="#8C8C8C"
+                   font-family="'DroidSans'"
+                   id="text79">1</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <line
+         id="connector6pin"
+         y1="57.952"
+         y2="50.751999"
+         x1="29.15"
+         x2="29.15"
+         class="pin"
+         style="fill:none;stroke:#787878;stroke-width:0.75;stroke-linecap:round"
+         connectorname="BYPASS" />
+      <g
+         id="connector6terminal"
+         points="29.15,57.952,29.15,57.952,29.15,57.952"
+         class="terminal"
+         style="fill:none" />
+      <g
+         transform="matrix(1, 0, 0, 1, 7.37306, 11.5535)"
+         id="g83">
+        <g
+           transform="rotate(270)"
+           id="g85">
+          <g
+             transform="matrix(1, 0, 0, 1, -43.4843, 20.7273)"
+             id="g87">
+            <text
+               font-size="2.5"
+               fill="#8C8C8C"
+               font-family="'DroidSans'"
+               id="text89">7</text>
+          </g>
+        </g>
+      </g>
+      <path
+         fill="none"
+         d="M40.157,29.149"
+         stroke-width="0.75"
+         stroke="#787878"
+         stroke-linecap="round"
+         id="path91" />
+      <line
+         fill="#FFFFFF"
+         stroke-linejoin="round"
+         y1="29.149"
+         stroke-width="0.6"
+         y2="29.149"
+         x1="43.55"
+         stroke="#000000"
+         x2="38.012"
+         stroke-linecap="round"
+         id="line93" />
+      <line
+         fill="#FFFFFF"
+         stroke-linejoin="round"
+         y1="36.349"
+         stroke-width="0.6"
+         y2="36.349"
+         x1="13.5"
+         stroke="#000000"
+         x2="7.741"
+         stroke-linecap="round"
+         id="line95" />
+      <line
+         fill="#FFFFFF"
+         stroke-linejoin="round"
+         y1="21.948"
+         stroke-width="0.6"
+         y2="21.948"
+         x1="13.5"
+         stroke="#000000"
+         x2="7.741"
+         stroke-linecap="round"
+         id="line97" />
+    </g>
+  </g>
+</svg>

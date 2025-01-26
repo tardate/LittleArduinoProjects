@@ -1,0 +1,9 @@
+{
+    "id": "#405",
+    "name": "ATmegaSerialProgrammer",
+    "description": "all about bootloaders and how to program an ATMEGA328P chip over a serial connection with a CH340G USB-Serial adapter instead of ICSP",
+    "categories": "Arduino, ATmel, ICSP, UART",
+    "relative_path": "playground/ATmegaSerialProgrammer",
+    "updated_at": "2018-07-22T16:39:25Z",
+    "created_at": "2018-07-22T16:39:25Z"
+}

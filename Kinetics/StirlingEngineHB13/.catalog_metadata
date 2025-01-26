@@ -1,0 +1,9 @@
+{
+    "id": "#185",
+    "name": "HB13 Stirling Engine",
+    "description": "building the B\u00f6hm Stirling-Technik HB13 Small Bonsai engine",
+    "categories": "Kinetics",
+    "relative_path": "Kinetics/StirlingEngineHB13",
+    "updated_at": "2021-08-15T07:08:58Z",
+    "created_at": "2021-08-15T07:08:58Z"
+}

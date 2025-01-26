@@ -1,0 +1,9 @@
+{
+    "id": "#047",
+    "name": "LDR Stereo Trip Detector",
+    "description": "demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor",
+    "categories": "OpAmp",
+    "relative_path": "Electronics101/LDR/StereoTripDetector",
+    "updated_at": "2022-12-21T10:21:30Z",
+    "created_at": "2022-12-21T10:21:30Z"
+}

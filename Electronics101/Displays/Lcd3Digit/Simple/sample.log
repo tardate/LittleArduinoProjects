@@ -1,0 +1,76 @@
+number: 123
+d2: 1 d2Encoding: 10100
+d1: 2 d1Encoding: 1111010
+d0: 3 d0Encoding: 1110110
+step: 0value: 11110101
+step: 1value: 1010
+step: 2value: 11100110
+step: 3value: 11001
+step: 4value: 11100000
+step: 5value: 11111
+step: 6value: 11111010
+step: 7value: 10101
+COM1_PIN: HIGH
+updateSegments step: 0value: 11110101
+           SEG1_PIN: 1
+           SEG2_PIN: 0
+           SEG3_PIN: 100
+           SEG4_PIN: 0
+           SEG5_PIN: 10000
+           SEG6_PIN: 100000
+COM1_PIN: LOW
+updateSegments step: 1value: 1010
+           SEG1_PIN: 0
+           SEG2_PIN: 10
+           SEG3_PIN: 0
+           SEG4_PIN: 1000
+           SEG5_PIN: 0
+           SEG6_PIN: 0
+COM2_PIN: HIGH
+updateSegments step: 2value: 11100110
+           SEG1_PIN: 0
+           SEG2_PIN: 10
+           SEG3_PIN: 100
+           SEG4_PIN: 0
+           SEG5_PIN: 0
+           SEG6_PIN: 100000
+COM2_PIN: LOW
+updateSegments step: 3value: 11001
+           SEG1_PIN: 1
+           SEG2_PIN: 0
+           SEG3_PIN: 0
+           SEG4_PIN: 1000
+           SEG5_PIN: 10000
+           SEG6_PIN: 0
+COM3_PIN: HIGH
+updateSegments step: 4value: 11100000
+           SEG1_PIN: 0
+           SEG2_PIN: 0
+           SEG3_PIN: 0
+           SEG4_PIN: 0
+           SEG5_PIN: 0
+           SEG6_PIN: 100000
+COM3_PIN: LOW
+updateSegments step: 5value: 11111
+           SEG1_PIN: 1
+           SEG2_PIN: 10
+           SEG3_PIN: 100
+           SEG4_PIN: 1000
+           SEG5_PIN: 10000
+           SEG6_PIN: 0
+COM4_PIN: HIGH
+updateSegments step: 6value: 11111010
+           SEG1_PIN: 0
+           SEG2_PIN: 10
+           SEG3_PIN: 0
+           SEG4_PIN: 1000
+           SEG5_PIN: 10000
+           SEG6_PIN: 100000
+COM4_PIN: LOW
+updateSegments step: 7value: 10101
+           SEG1_PIN: 1
+           SEG2_PIN: 0
+           SEG3_PIN: 100
+           SEG4_PIN: 0
+           SEG5_PIN: 10000
+           SEG6_PIN: 0

@@ -1,0 +1,9 @@
+{
+    "id": "#537",
+    "name": "Schmitt Switch Debouncer",
+    "description": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14",
+    "categories": "Schmitt, CMOS/TTL",
+    "relative_path": "Electronics101/SchmittTrigger/SwitchDebouncer",
+    "updated_at": "2020-03-28T14:24:26Z",
+    "created_at": "2020-03-28T14:24:26Z"
+}

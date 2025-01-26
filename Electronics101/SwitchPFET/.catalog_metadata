@@ -1,0 +1,9 @@
+{
+    "id": "#106",
+    "name": "PFET Switch with Delay",
+    "description": "small-signal p-channel MOSFET switch with turn-on delay",
+    "categories": "MOSFET",
+    "relative_path": "Electronics101/SwitchPFET",
+    "updated_at": "2023-02-07T09:31:38Z",
+    "created_at": "2023-02-07T09:31:38Z"
+}

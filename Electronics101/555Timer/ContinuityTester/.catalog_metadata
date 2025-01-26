@@ -1,0 +1,9 @@
+{
+    "id": "#520",
+    "name": "Continuity Tester",
+    "description": "A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer buzzer.",
+    "categories": "555 Timer, Tools, Test Equipment",
+    "relative_path": "Electronics101/555Timer/ContinuityTester",
+    "updated_at": "2019-12-16T01:30:43Z",
+    "created_at": "2019-12-16T01:30:43Z"
+}

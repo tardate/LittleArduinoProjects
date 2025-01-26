@@ -1,0 +1,28 @@
+/*
+
+  Private settings.
+
+  To compile, first copy settings.h.template to settings.h and fill in the required configuration.
+
+  NB: settings.h is *not* added to git version control, while settings.h.template is.
+
+ */
+
+
+/*************************** Ethernet Setup **********************************/
+
+// Set the MAC address. Newer Ethernet shields have a MAC address printed on a sticker on the shield.
+// See http://www.freetronics.com/pages/setting-arduino-ethernet-mac-address#.U_oa7oC1Z-g
+byte mac[] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
+
+
+/************************* Adafruit.io Setup *********************************/
+
+#define AIO_SERVER      "io.adafruit.com"
+#define AIO_SERVERPORT  1883
+#define AIO_USERNAME    "your_username"
+#define AIO_KEY         "your_key"
+
+// Setup a feed for publishing.
+// Notice MQTT paths for AIO follow the form: <username>/feeds/<feedname>
+#define AIO_FEED        (AIO_USERNAME "/feeds/your_feed_name")

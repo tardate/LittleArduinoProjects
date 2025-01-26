@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://leap.tardate.com/catalog/sitemap.xml

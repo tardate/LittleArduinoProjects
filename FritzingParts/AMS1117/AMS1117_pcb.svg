@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="0.266in"
+   height="0.331315in"
+   viewBox="0 0 19.152 23.8547"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="AMS1117_pcb.svg">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs25" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="916"
+     inkscape:window-height="558"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="7.914589"
+     inkscape:cx="11.97"
+     inkscape:cy="14.909176"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     partID="854979750"
+     id="g4">
+    <g
+       gorn="0.0"
+       id="copper1">
+      <rect
+         gorn="0.0.0"
+         stroke-linecap="round"
+         stroke-width="0"
+         id="connector0pad"
+         x="1.296"
+         y="17.5187"
+         fill="#F7BD13"
+         stroke="none"
+         width="3.456"
+         connectorname="1"
+         height="6.336" />
+      <rect
+         gorn="0.0.1"
+         stroke-linecap="round"
+         stroke-width="0"
+         id="connector1pad"
+         x="7.848"
+         y="17.5187"
+         fill="#F7BD13"
+         stroke="none"
+         width="3.456"
+         connectorname="2"
+         height="6.336" />
+      <rect
+         gorn="0.0.2"
+         stroke-linecap="round"
+         stroke-width="0"
+         id="connector2pad"
+         x="14.4"
+         y="17.5187"
+         fill="#F7BD13"
+         stroke="none"
+         width="3.456"
+         connectorname="3"
+         height="6.336" />
+      <rect
+         gorn="0.0.3"
+         stroke-linecap="round"
+         stroke-width="0"
+         id="connector3pad"
+         x="4.47364"
+         y="0"
+         fill="#F7BD13"
+         stroke="none"
+         width="10.2047"
+         connectorname="4"
+         height="6.23622" />
+      <g
+         gorn="0.0.4"
+         id="copper0" />
+    </g>
+  </g>
+  <g
+     partID="854979751"
+     id="g12">
+    <g
+       gorn="0.1"
+       id="silkscreen">
+      <line
+         stroke-linecap="round"
+         stroke-width="0.576"
+         y1="7.22268"
+         y2="16.5827"
+         x1="18.864"
+         stroke="#f0f0f0"
+         x2="18.864"
+         class="other"
+         id="line15" />
+      <line
+         stroke-linecap="round"
+         stroke-width="0.576"
+         y1="16.5827"
+         y2="16.5827"
+         x1="18.864"
+         stroke="#f0f0f0"
+         x2="0.288"
+         class="other"
+         id="line17" />
+      <line
+         stroke-linecap="round"
+         stroke-width="0.576"
+         y1="16.5827"
+         y2="7.22268"
+         x1="0.288"
+         stroke="#f0f0f0"
+         x2="0.288"
+         class="other"
+         id="line19" />
+      <line
+         stroke-linecap="round"
+         stroke-width="0.576"
+         y1="7.22268"
+         y2="7.22268"
+         x1="0.288"
+         stroke="#f0f0f0"
+         x2="18.864"
+         class="other"
+         id="line21" />
+    </g>
+  </g>
+</svg>

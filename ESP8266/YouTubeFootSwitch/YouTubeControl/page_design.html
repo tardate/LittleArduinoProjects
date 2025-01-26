@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      body { background-color: #222; }
+      .card { background-color: antiquewhite; }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3">
+                  <h5>LEAP#544 YouTube FootSwitch</h5>
+                  <p class="card-text">Compiled on Apr 23 2020 at 23:58:29</p>
+                </div>
+                <div class="col-4">
+                  <div class="form-inline">
+                    <div class="form-group">
+                      <label for="video_id" class="my-1 mr-2">Video ID</label>
+                      <input type="input" class="form-control" id="video_id" autocomplete="off">
+                    </div>
+                    <button class="btn btn-primary my-1 ml-2" id="reload">Load</button>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <h1>
+                    <button class="btn btn-success" id="connect">Connect Foot Controller</button>
+                    <span id="player-state" class="badge badge-danger" style="display: none">Stopped</span>
+                  </h1>
+                  <div class="debug-controls" style="display: none;">
+                    <button class="btn btn-warning" id="skiprev">Rev</button>
+                    <button class="btn btn-success" id="play-toggle">Play</button>
+                    <button class="btn btn-warning" id="skipfwd">Fwd</button>
+                    <button class="btn btn-primary" id="mark-toggle">Mark</button>
+                    <p>Uptime: <span id="uptime" class="badge badge-success">00:00:00</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="video_wrapper mt-3 text-center">
+            <div id="player"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var player;
+      var flag_check_loop_condition = false;
+      var flag_looping = false;
+      var play_state = false;
+      var mark_one = false;
+      var mark_two = false;
+      var video_width = window.innerWidth * 0.85;
+      var video_height = video_width * 9/16;
+      var video_id = location.search.replace('?v=', '') || 'cPlrskC9pfY';
+      document.getElementById("video_id").value = video_id;
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          width: video_width,
+          height: video_height,
+          videoId: video_id,
+          playerVars: {
+            'controls': 0,
+            'enablejsapi': 1
+          },
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      };
+      function loadNewVideo() {
+        var video_id = document.getElementById("video_id").value;
+        video_id = video_id.replace(/.*?\.be\//, '').replace(/.*?v=/, '').replace(/&.*/, '');
+        var url = window.location.href.split('?')[0];
+        window.location.href = url + '?v=' + video_id;
+      };
+      function onPlayerReady(event) {
+        enableControls();
+      };
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PAUSED) {
+          if (flag_check_loop_condition) {
+            if (flag_looping) {
+              startLoop();
+            }
+            flag_check_loop_condition = false;
+          }
+        }
+      };
+      function loopOrPause() {
+        flag_check_loop_condition = flag_looping;
+        player.pauseVideo();
+      };
+      function startLoop() {
+        var startSeconds = mark_one;
+        var endSeconds = mark_two;
+        if (startSeconds && endSeconds) {
+          player.seekTo(startSeconds, true);
+          player.playVideo();
+          setTimeout(loopOrPause, (endSeconds - startSeconds) * 1000);
+        }
+      };
+      function endLoop() {
+        mark_one = false;
+        mark_two = false;
+        flag_looping = false;
+        play_state = false;
+      };
+      function skip(duration) {
+        var current_time = player.getCurrentTime();
+        player.seekTo(current_time + duration, true);
+        player.playVideo();
+      };
+      function updateStateIndicator() {
+        var classes = "badge badge-danger";
+        var message = "Stopped";
+        if (flag_looping) {
+          message = "Looping " + mark_one.toFixed(1) + "s - " + mark_two.toFixed(1) + "s";
+          classes = "badge badge-primary";
+        } else if (mark_one) {
+          message = "Loop " + mark_one.toFixed(1) + "s - ???";
+          classes = "badge badge-warning";
+        } else if (play_state) {
+          classes = "badge badge-success";
+          message = "Playing";
+        }
+        document.getElementById("player-state").className = classes;
+        document.getElementById("player-state").innerHTML = message;
+      };
+      function update(data) {
+        document.getElementById("uptime").innerHTML = new Date(data.uptime).toISOString().substr(11, 8);
+        if (data.changed) {
+          switch(data.event) {
+            case 1:
+              player.playVideo();
+              play_state = true;
+              updateStateIndicator();
+              break;
+            case 2:
+              player.pauseVideo();
+              endLoop();
+              updateStateIndicator();
+              break;
+            case 3:
+              skip(-10);
+              break;
+            case 4:
+              skip(10);
+              break;
+            case 5:
+              mark_one = player.getCurrentTime();
+              updateStateIndicator();
+              break;
+            case 6:
+              mark_two = player.getCurrentTime();
+              flag_looping = true;
+              updateStateIndicator();
+              startLoop();
+              break;
+            case 7:
+              endLoop();
+              updateStateIndicator();
+              break;
+          }
+        }
+      };
+      var sampler = function() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'http://yt-foot-controller.local/status.json');
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            var data = JSON.parse(xhr.responseText);
+            update(data);
+            setTimeout(sampler, 50);
+          }
+        };
+        xhr.send();
+      };
+      function enableControls() {
+        document.getElementById("connect").addEventListener("click", function() {
+          console.log("connect");
+          this.style.cssText = 'display: none;';
+          document.getElementById('player-state').style.cssText = 'display:inline;';
+          sampler();
+        });
+        document.getElementById("reload").addEventListener("click", function() {
+          console.log("reload");
+          loadNewVideo();
+        });
+        document.getElementById("skiprev").addEventListener("click", function() {
+          update({"uptime":3908,"event":3,"play":true,"loop":false,"changed":true});
+        });
+        document.getElementById("play-toggle").addEventListener("click", function() {
+          if (play_state) {
+            this.innerText = "Play";
+            this.className = "btn btn-success";
+            update({"uptime":2908,"event":2,"play":false,"loop":false,"changed":true});
+          } else {
+            this.innerText = "Stop";
+            this.className = "btn btn-danger";
+            update({"uptime":1908,"event":1,"play":true,"loop":false,"changed":true});
+          }
+        });
+        document.getElementById("skipfwd").addEventListener("click", function() {
+          update({"uptime":4908,"event":4,"play":true,"loop":false,"changed":true});
+        });
+        document.getElementById("mark-toggle").addEventListener("click", function() {
+          if (mark_two) {
+            this.innerText = "Mark";
+            this.className = "btn btn-primary";
+            document.getElementById("play-toggle").innerText = "Stop";
+            document.getElementById("play-toggle").className = "btn btn-danger";
+            update({"uptime":7908,"event":7,"play":true,"loop":false,"changed":true});
+          } else if (mark_one) {
+            this.innerText = "Looping";
+            this.className = "btn btn-warning";
+            update({"uptime":6908,"event":6,"play":true,"loop":true,"changed":true});
+          } else {
+            this.innerText = "Mark End";
+            this.className = "btn btn-success";
+            update({"uptime":5908,"event":5,"play":true,"loop":false,"changed":true});
+          }
+        });
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "id": "#394",
+    "name": "AT89C2051 Programmer",
+    "description": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
+    "categories": "8051",
+    "relative_path": "8051/AT89C2051/Programmer",
+    "updated_at": "2023-03-27T13:57:21Z",
+    "created_at": "2023-03-27T13:57:21Z"
+}

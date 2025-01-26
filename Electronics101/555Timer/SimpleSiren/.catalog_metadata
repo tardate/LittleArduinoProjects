@@ -1,0 +1,9 @@
+{
+    "id": "#045",
+    "name": "Simple Siren",
+    "description": "classic timer circuit producing a two-tone oscillation",
+    "categories": "555 Timer",
+    "relative_path": "Electronics101/555Timer/SimpleSiren",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

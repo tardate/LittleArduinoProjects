@@ -1,0 +1,9 @@
+{
+    "id": "#428",
+    "name": "3x7 LRThreeDigitDemo",
+    "description": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library",
+    "categories": "Boldport, 7-Segment, Arduino",
+    "relative_path": "BoldportClub/3x7/LRThreeDigitDemo",
+    "updated_at": "2018-10-21T09:49:44Z",
+    "created_at": "2018-10-21T09:49:44Z"
+}

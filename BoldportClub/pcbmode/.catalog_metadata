@@ -1,0 +1,9 @@
+{
+    "id": "#506",
+    "name": "Learning PCBmodE",
+    "description": "learning how to use Boldport PCBmodE design software with an example of making a simple 555 timer LED blinky PCB",
+    "categories": "Boldport, PCB Design, EDA",
+    "relative_path": "BoldportClub/pcbmode",
+    "updated_at": "2019-11-03T23:38:33Z",
+    "created_at": "2019-11-03T23:38:33Z"
+}

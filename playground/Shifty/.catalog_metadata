@@ -1,0 +1,9 @@
+{
+    "id": "#041",
+    "name": "Shifty",
+    "description": "drive 8 LEDs with 3 pins using a 74HC595 shift register",
+    "categories": "LED, CMOS/TTL, Arduino",
+    "relative_path": "playground/Shifty",
+    "updated_at": "2017-05-24T15:39:45Z",
+    "created_at": "2017-05-24T15:39:45Z"
+}

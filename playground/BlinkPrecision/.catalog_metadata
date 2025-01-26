@@ -1,0 +1,9 @@
+{
+    "id": "#030",
+    "name": "BlinkPrecision",
+    "description": "use a timer to perform a function on a precise schedule",
+    "categories": "LED, Timing, Arduino",
+    "relative_path": "playground/BlinkPrecision",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

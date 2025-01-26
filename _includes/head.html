@@ -1,0 +1,48 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if leap_id %}{{ leap_id }}{% else %}{% if project_title %}{{ project_title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    <meta name="robots" content="{% if page.meta_robots %}{{ page.meta_robots }}{% else %}all{% endif %}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="keywords" content="{{ site.keywords }}{% if project_tags %}, {{ project_tags | join: ', ' }}{% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if site.feed_path %}<link href="{{ site.feed_path | prepend: site.baseurl }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom feed" />{% endif %}
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>
+    <link rel="stylesheet" href="{{ "/catalog/assets/stylesheets/perldoc.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "/catalog/assets/stylesheets/catalog.css" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    {% if site.show_social_icons or site.show_sharing_icons %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% endif %}
+
+    <!-- Verifications -->
+    {% if site.google_verification %}<meta name="google-site-verification" content="{{ site.google_verification }}" />{% endif %}
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="{{ site.text.og_locale }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{% if project_title %}{{ leap_id }} {{ project_title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
+    <meta property="og:description" content="{% if project_summary %}{{ project_summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title | xml_escape }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    {% if site.twitter_username %}<meta name="twitter:site" content="@{{ site.twitter_username }}" />{% endif %}
+    <meta name="twitter:title" content="{% if project_title %}{{ leap_id }} {{ project_title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:description" content="{% if project_summary %}{{ project_summary }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    {% if hero_image_url %}{% if hero_image_url contains '//' %}
+    <meta name="twitter:image" content="{{ hero_image_url }}" />
+    {% else %}
+    <meta name="twitter:image" content="{{ hero_image_url | prepend: site.baseurl | prepend: site.url }}" />
+    {% endif %}{% endif %}
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="{{ "/catalog/assets/images/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="{{ "/catalog/assets/images/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16"/>
+</head>

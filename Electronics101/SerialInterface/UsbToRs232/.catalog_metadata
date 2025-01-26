@@ -1,0 +1,9 @@
+{
+    "id": "#510",
+    "name": "USB to RS-232 Adapter",
+    "description": "building a USB to 3-wire RS-232 adapter with the CH340G and MAX3232 chipsets",
+    "categories": "RS232, Serial, USB",
+    "relative_path": "Electronics101/SerialInterface/UsbToRs232",
+    "updated_at": "2019-11-14T08:07:27Z",
+    "created_at": "2019-11-14T08:07:27Z"
+}

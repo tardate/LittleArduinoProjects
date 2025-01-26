@@ -1,0 +1,54 @@
+# Guardfile that demonstrates hooking RSpec results
+# and blinking notifyications on the Fomu RGB LED
+# using the wishbone-tool to control a RISC-V notification program running on the Fomu
+
+# The Fomu/wishbone-tool integration lives here
+class Guard::FomuNotifier
+  NOTIFIER_ADDR = '0x0000000010000230'
+  LED_STATES = ['running', 'idle', 'success', 'failed']
+
+  # Command: set the Fomu RGB LED state
+  def self.set_rbg(status)
+    command = "wishbone-tool #{NOTIFIER_ADDR} #{LED_STATES.index(status) || 3} 2> /dev/null"
+    system(command)
+  end
+
+  # callback target so we know when a build starts
+  def call(guard_class, event, *args)
+    status = if event == :start_begin
+      'idle'
+    else
+      'running'
+    end
+    self.class.set_rbg status
+  end
+end
+
+guard :rspec, cmd: "bundle exec rspec" do
+  require "guard/rspec/dsl"
+  dsl = Guard::RSpec::Dsl.new(self)
+
+  # RSpec files
+  rspec = dsl.rspec
+  watch(rspec.spec_helper) { rspec.spec_dir }
+  watch(rspec.spec_files)
+
+  # Ruby files
+  ruby = dsl.ruby
+  dsl.watch_spec_files_for(ruby.lib_files)
+
+  # rspec test results go to file (unfortunately cannot receive with callbacks)
+  notification :file, path: '.guard_result'
+
+  # setup the callbacks so we know when things start
+  callback(FomuNotifier.new, [
+    :run_all_begin, :run_on_additions_begin, :run_on_modifications_begin, :run_on_removals_begin, :start_begin
+  ])
+end
+
+# watch the rspec results file so can trigger Fomu depending on the result
+guard :shell do
+  watch '.guard_result' do
+    Guard::FomuNotifier.set_rbg File.read('.guard_result').lines.first.strip
+  end
+end

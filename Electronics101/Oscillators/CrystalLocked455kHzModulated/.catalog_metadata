@@ -1,0 +1,9 @@
+{
+    "id": "#484",
+    "name": "Crystal-Locked 455 kHz AM Oscillator",
+    "description": "crystal-locked 455 kHz carrier oscillator with fixed-frequency audio tone amplitude modulation (AM) for IF alignment",
+    "categories": "Radio, Oscillators",
+    "relative_path": "Electronics101/Oscillators/CrystalLocked455kHzModulated",
+    "updated_at": "2019-05-31T13:59:42Z",
+    "created_at": "2019-05-31T13:59:42Z"
+}

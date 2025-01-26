@@ -1,0 +1,9 @@
+{
+    "id": "#152",
+    "name": "LD1117 Regulator",
+    "description": "test an LD1117 3.3V linear regulator",
+    "categories": "Power",
+    "relative_path": "Electronics101/Power/LinearRegulators/LD1117",
+    "updated_at": "2021-07-20T17:12:56Z",
+    "created_at": "2021-07-20T17:12:56Z"
+}

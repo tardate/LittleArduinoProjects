@@ -1,0 +1,137 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: LEAP
+title_long: "LEAP: Little Electronic Art Projects"
+author: Paul Gallagher
+email: gallagher.paul@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  LEAP: Little Electronic Art Projects. My collection of projects, many involving electronics or an Arduino in one way or another
+keywords: "Arduino, microcontroller, electronics, embedded, circuits, projects, open source, scale model, craft, maker"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://leap.tardate.com" # the base hostname & protocol for your site, e.g. http://example.com
+repo_url: https://github.com/tardate/LittleArduinoProjects
+repo_name: LittleArduinoProjects on GitHub
+
+feed_path: "/catalog/atom.xml"
+
+show_social_icons: true
+
+google_analytics: UA-4894631-13
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: tardate
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username:  tardate
+bitbucket_username:
+stackoverflow_id: 6329
+mastodon_url: "https://ruby.social/@tardate"
+mastodon_name: "@tardate@ruby.social"
+instagram_username: "little.electronic.art.projects"
+twitter_username: tardate
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username: gallagherpaul
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+bluesky_id: tardate.bsky.social
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bin
+  - wip
+  - venv
+  - "*/venv/*"
+  - libraries
+  - OSHChip/venv
+  - OSHChip/GccToolchain/gcc-arm-none-eabi-5_3-2016q1
+  - OSHChip/GccToolchain/_build
+  - OSHChip/GccToolchain/sdk.*
+  - OSHChip/YottaToolchain/build
+  - OSHChip/YottaToolchain/yotta_targets
+  - OSHChip/YottaToolchain/yotta_modules
+  - FPGA/Fomu/assets/fomu-workshop
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "project"
+
+sections:
+  gallery:
+    title: Project Gallery
+    note: view the projects as an image gallery
+    url: "/gallery.html"
+    icons: "fa fa-film"
+  notebook:
+    title: Notebook
+    note: reference materials and other notes
+    url: "/notebook/"
+    icons: "fa fa-book"
+  feed:
+    title: Follow the Blog
+    note: follow projects and notes as they are published in your favourite feed reader
+    url: "/catalog/atom.xml"
+    icons: "fa fa-solid fa-rss"
+
+other_sites:
+  title: "Some Other Sites"
+  leap:
+    title: LittleArduinoProjects
+    title_long: "Little Electronic Art Projects"
+    note: "my collection of electronics projects, often involving an Arduino"
+    url: "https://leap.tardate.com/"
+  lck:
+    title: LittleCodingKata
+    title_long: "Little Coding Kata"
+    note: "my notes and test code on software development topics and tools"
+    url: "https://codingkata.tardate.com/"
+  lma:
+    title: LittleModelArt
+    title_long: "Little Model Art Projects"
+    note: "my collection of scale modelling, miniatures and other art projects"
+    url: "https://modelart.tardate.com/"
+  blog:
+    title: "My Personal Blog"
+    title_long: "My Personal Blog"
+    note: "occasional ramblings that don't belong anywhere else"
+    url: "https://blog.tardate.com/"

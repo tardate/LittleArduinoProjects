@@ -1,0 +1,9 @@
+{
+    "id": "#457",
+    "name": "PrecisionTimer",
+    "description": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip",
+    "categories": "Arduino",
+    "relative_path": "playground/PrecisionTimer",
+    "updated_at": "2015-03-03T16:00:36Z",
+    "created_at": "2015-03-03T16:00:36Z"
+}

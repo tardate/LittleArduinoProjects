@@ -1,0 +1,222 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000010000 xr
+SRAM             0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD blinky.o
+LOAD delay.o
+LOAD led.o
+LOAD stm32_startup.o
+
+.text           0x0000000008000000      0x2ec
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x130 stm32_startup.o
+                0x0000000008000000                vectors
+ *(.text)
+ .text          0x0000000008000130       0x62 blinky.o
+                0x0000000008000130                setup
+                0x000000000800013c                loop
+                0x0000000008000184                main
+ .text          0x0000000008000192       0x30 delay.o
+                0x0000000008000192                delay
+ *fill*         0x00000000080001c2        0x2 
+ .text          0x00000000080001c4       0x9c led.o
+                0x00000000080001c4                led_enable
+                0x0000000008000218                led_on
+                0x000000000800023c                led_off
+ .text          0x0000000008000260       0x8c stm32_startup.o
+                0x0000000008000260                DMA2_Channel3_IRQHandler
+                0x0000000008000260                EXTI2_IRQHandler
+                0x0000000008000260                TIM8_TRG_COM_IRQHandler
+                0x0000000008000260                TIM8_CC_IRQHandler
+                0x0000000008000260                DebugMon_Handler
+                0x0000000008000260                TIM1_CC_IRQHandler
+                0x0000000008000260                HardFault_Handler
+                0x0000000008000260                TIM6_IRQHandler
+                0x0000000008000260                SysTick_Handler
+                0x0000000008000260                PVD_IRQHandler
+                0x0000000008000260                SDIO_IRQHandler
+                0x0000000008000260                TAMP_STAMP_IRQHandler
+                0x0000000008000260                PendSV_Handler
+                0x0000000008000260                NMI_Handler
+                0x0000000008000260                EXTI3_IRQHandler
+                0x0000000008000260                USB_HP_CAN_TX_IRQHandler
+                0x0000000008000260                EXTI0_IRQHandler
+                0x0000000008000260                I2C2_EV_IRQHandler
+                0x0000000008000260                UsageFault_Handler
+                0x0000000008000260                SPI1_IRQHandler
+                0x0000000008000260                CAN_SCE_IRQHandler
+                0x0000000008000260                TIM8_UP_IRQHandler
+                0x0000000008000260                DMA2_Channel2_IRQHandler
+                0x0000000008000260                DMA1_Channel4_IRQHandler
+                0x0000000008000260                USART3_IRQHandler
+                0x0000000008000260                DMA1_Channel7_IRQHandler
+                0x0000000008000260                RTC_Alarm_IRQHandler
+                0x0000000008000260                UART5_IRQHandler
+                0x0000000008000260                ADC3_IRQHandler
+                0x0000000008000260                TIM4_IRQHandler
+                0x0000000008000260                CAN_RX1_IRQHandler
+                0x0000000008000260                DMA2_Channel1_IRQHandler
+                0x0000000008000260                USB_Wakeup_IRQHandler
+                0x0000000008000260                I2C1_EV_IRQHandler
+                0x0000000008000260                DMA1_Channel6_IRQHandler
+                0x0000000008000260                UART4_IRQHandler
+                0x0000000008000260                TIM3_IRQHandler
+                0x0000000008000260                RCC_IRQHandler
+                0x0000000008000260                TIM1_TRG_COM_IRQHandler
+                0x0000000008000260                DMA1_Channel1_IRQHandler
+                0x0000000008000260                Default_Handler
+                0x0000000008000260                EXTI15_10_IRQHandler
+                0x0000000008000260                ADC_IRQHandler
+                0x0000000008000260                TIM7_IRQHandler
+                0x0000000008000260                TIM5_IRQHandler
+                0x0000000008000260                EXTI9_5_IRQHandler
+                0x0000000008000260                RTC_WKUP_IRQHandler
+                0x0000000008000260                SPI2_IRQHandler
+                0x0000000008000260                USB_LP_CAN_RX0_IRQHandler
+                0x0000000008000260                MemManage_Handler
+                0x0000000008000260                SVC_Handler
+                0x0000000008000260                DMA1_Channel5_IRQHandler
+                0x0000000008000260                EXTI4_IRQHandler
+                0x0000000008000260                DMA1_Channel3_IRQHandler
+                0x0000000008000260                FSMC_IRQHandler
+                0x0000000008000260                TIM1_UP_IRQHandler
+                0x0000000008000260                WWDG_IRQHandler
+                0x0000000008000260                TIM2_IRQHandler
+                0x0000000008000260                TIM1_BRK_IRQHandler
+                0x0000000008000260                EXTI1_IRQHandler
+                0x0000000008000260                DMA2_Channel4_5_IRQHandler
+                0x0000000008000260                USART2_IRQHandler
+                0x0000000008000260                I2C2_ER_IRQHandler
+                0x0000000008000260                DMA1_Channel2_IRQHandler
+                0x0000000008000260                TIM8_BRK_IRQHandler
+                0x0000000008000260                BusFault_Handler
+                0x0000000008000260                USART1_IRQHandler
+                0x0000000008000260                SPI3_IRQHandler
+                0x0000000008000260                I2C1_ER_IRQHandler
+                0x0000000008000266                Reset_Handler
+ *(.text.*)
+ *(.init)
+ *(.fini)
+ *(.rodata)
+ *(.rodata.*)
+                0x00000000080002ec                . = ALIGN (0x4)
+                0x00000000080002ec                _etext = .
+                0x00000000080002ec                _la_data = LOADADDR (.data)
+
+.glue_7         0x00000000080002ec        0x0
+ .glue_7        0x00000000080002ec        0x0 linker stubs
+
+.glue_7t        0x00000000080002ec        0x0
+ .glue_7t       0x00000000080002ec        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080002ec        0x0
+ .vfp11_veneer  0x00000000080002ec        0x0 linker stubs
+
+.v4_bx          0x00000000080002ec        0x0
+ .v4_bx         0x00000000080002ec        0x0 linker stubs
+
+.iplt           0x00000000080002ec        0x0
+ .iplt          0x00000000080002ec        0x0 blinky.o
+
+.rel.dyn        0x00000000080002ec        0x0
+ .rel.iplt      0x00000000080002ec        0x0 blinky.o
+
+.data           0x0000000020000000        0x0 load address 0x00000000080002ec
+                0x0000000020000000                _sdata = .
+ *(.data)
+ .data          0x0000000020000000        0x0 blinky.o
+ .data          0x0000000020000000        0x0 delay.o
+ .data          0x0000000020000000        0x0 led.o
+ .data          0x0000000020000000        0x0 stm32_startup.o
+ *(.data.*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _edata = .
+
+.igot.plt       0x0000000020000000        0x0 load address 0x00000000080002ec
+ .igot.plt      0x0000000020000000        0x0 blinky.o
+
+.bss            0x0000000020000000        0x0 load address 0x00000000080002ec
+                0x0000000020000000                _sbss = .
+                0x0000000020000000                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020000000        0x0 blinky.o
+ .bss           0x0000000020000000        0x0 delay.o
+ .bss           0x0000000020000000        0x0 led.o
+ .bss           0x0000000020000000        0x0 stm32_startup.o
+ *(.bss.*)
+ *(COMMON)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _ebss = .
+                0x0000000020000000                __bss_end__ = _ebss
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                end = .
+                0x0000000020000000                __end__ = .
+OUTPUT(blinky.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000      0x41b
+ .debug_info    0x0000000000000000       0xa6 blinky.o
+ .debug_info    0x00000000000000a6       0xbc delay.o
+ .debug_info    0x0000000000000162      0x107 led.o
+ .debug_info    0x0000000000000269      0x1b2 stm32_startup.o
+
+.debug_abbrev   0x0000000000000000      0x24b
+ .debug_abbrev  0x0000000000000000       0x5e blinky.o
+ .debug_abbrev  0x000000000000005e       0x7e delay.o
+ .debug_abbrev  0x00000000000000dc       0x89 led.o
+ .debug_abbrev  0x0000000000000165       0xe6 stm32_startup.o
+
+.debug_aranges  0x0000000000000000       0x80
+ .debug_aranges
+                0x0000000000000000       0x20 blinky.o
+ .debug_aranges
+                0x0000000000000020       0x20 delay.o
+ .debug_aranges
+                0x0000000000000040       0x20 led.o
+ .debug_aranges
+                0x0000000000000060       0x20 stm32_startup.o
+
+.debug_line     0x0000000000000000      0x4a5
+ .debug_line    0x0000000000000000       0x5f blinky.o
+ .debug_line    0x000000000000005f      0x148 delay.o
+ .debug_line    0x00000000000001a7      0x152 led.o
+ .debug_line    0x00000000000002f9      0x1ac stm32_startup.o
+
+.debug_str      0x0000000000000000      0x247
+ .debug_str     0x0000000000000000      0x150 blinky.o
+                                        0x184 (size before relaxing)
+ .debug_str     0x0000000000000150       0x19 delay.o
+                                        0x18d (size before relaxing)
+ .debug_str     0x0000000000000169       0x43 led.o
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x00000000000001ac       0x9b stm32_startup.o
+                                        0x222 (size before relaxing)
+
+.comment        0x0000000000000000       0x79
+ .comment       0x0000000000000000       0x79 blinky.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a delay.o
+ .comment       0x0000000000000079       0x7a led.o
+ .comment       0x0000000000000079       0x7a stm32_startup.o
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x2d blinky.o
+ .ARM.attributes
+                0x000000000000002d       0x2d delay.o
+ .ARM.attributes
+                0x000000000000005a       0x2d led.o
+ .ARM.attributes
+                0x0000000000000087       0x2d stm32_startup.o
+
+.debug_frame    0x0000000000000000      0x16c
+ .debug_frame   0x0000000000000000       0x64 blinky.o
+ .debug_frame   0x0000000000000064       0x38 delay.o
+ .debug_frame   0x000000000000009c       0x84 led.o
+ .debug_frame   0x0000000000000120       0x4c stm32_startup.o

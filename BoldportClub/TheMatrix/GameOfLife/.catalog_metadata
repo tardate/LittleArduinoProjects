@@ -1,0 +1,9 @@
+{
+    "id": "#302",
+    "name": "TheMatrix/GameOfLife",
+    "description": "a simple implementation of Conway's Game of Life on the BoldportClub Matrix",
+    "categories": "Boldport, LED, AS1130",
+    "relative_path": "BoldportClub/TheMatrix/GameOfLife",
+    "updated_at": "2017-04-17T16:57:12Z",
+    "created_at": "2017-04-17T16:57:12Z"
+}

@@ -1,0 +1,13 @@
+*.mp4
+wip
+venv
+_autosave*
+sdcc
+.vscode
+make.conf
+
+# jekyll intermediates
+_site
+.sass-cache
+.jekyll-metadata
+.jekyll-cache

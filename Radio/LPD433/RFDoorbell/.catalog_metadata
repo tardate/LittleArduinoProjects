@@ -1,0 +1,9 @@
+{
+    "id": "#522",
+    "name": "Remote Doorbell",
+    "description": "A simple doorbell using a 433MHz transmitter/receiver pair for remote signalling, and an HS-088 sound chip for a doorbell effect",
+    "categories": "Radio, OpAmp, LPD433, Music Chips",
+    "relative_path": "Radio/LPD433/RFDoorbell",
+    "updated_at": "2019-09-23T14:03:02Z",
+    "created_at": "2019-09-23T14:03:02Z"
+}

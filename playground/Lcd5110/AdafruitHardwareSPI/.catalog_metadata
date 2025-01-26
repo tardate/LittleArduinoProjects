@@ -1,0 +1,9 @@
+{
+    "id": "#365",
+    "name": "Lcd5110/AdafruitHardwareSPI",
+    "description": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library",
+    "categories": "LCD, Arduino",
+    "relative_path": "playground/Lcd5110/AdafruitHardwareSPI",
+    "updated_at": "2017-12-31T07:42:55Z",
+    "created_at": "2017-12-31T07:42:55Z"
+}

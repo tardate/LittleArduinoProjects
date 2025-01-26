@@ -1,0 +1,9 @@
+{
+    "id": "#235",
+    "name": "AudioDSP",
+    "description": "build and test an arduino DSP circuit based on the pedalSHIELD by electrosmash",
+    "categories": "Audio, Arduino, DSP, OpAmp",
+    "relative_path": "playground/AudioDSP",
+    "updated_at": "2016-08-20T10:38:44Z",
+    "created_at": "2016-08-20T10:38:44Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#182",
+    "name": "LM317 Variable Power Supply Kit",
+    "description": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit",
+    "categories": "Power",
+    "relative_path": "Electronics101/Power/PowerSupply317Kit",
+    "updated_at": "2024-04-10T06:05:34Z",
+    "created_at": "2024-04-10T06:05:34Z"
+}

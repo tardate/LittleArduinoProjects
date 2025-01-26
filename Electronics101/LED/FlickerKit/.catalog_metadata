@@ -1,0 +1,9 @@
+{
+    "id": "#732",
+    "name": "LED Flicker Kit",
+    "description": "A flame or fire emulator driven by an ATtiny85 suitable for use in scale models or displays",
+    "categories": "Arduino, AVR, LED",
+    "relative_path": "Electronics101/LED/FlickerKit",
+    "updated_at": "2023-12-27T02:00:21Z",
+    "created_at": "2023-12-27T02:00:21Z"
+}

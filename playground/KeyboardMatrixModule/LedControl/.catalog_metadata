@@ -1,0 +1,9 @@
+{
+    "id": "#305",
+    "name": "KeyboardMatrixModule/LedControl",
+    "description": "demo controlling the LEDs on a simple pushbutton/LED matrix module",
+    "categories": "Arduino, LED",
+    "relative_path": "playground/KeyboardMatrixModule/LedControl",
+    "updated_at": "2015-12-13T12:52:40Z",
+    "created_at": "2015-12-13T12:52:40Z"
+}

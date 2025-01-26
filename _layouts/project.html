@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+{% assign project_name = page.dir | split: "/" | last %}
+{% assign page_id = page.dir | downcase %}
+{% if site.data.projects[page_id] %}
+{% assign project_id = site.data.projects[page_id]["id"] %}
+{% assign leap_id = "LEAP#" | append: project_id %}
+{% assign project_title = site.data.projects[page_id]["title"] %}
+{% assign project_summary = site.data.projects[page_id]["summary"] %}
+{% assign project_tags = site.data.projects[page_id]["tags"] %}
+{% else %}
+{% assign project_title = project_name %}
+{% endif %}
+{% assign hero_image_url = page.url | append: "assets/" | append: project_name | append: "_build.jpg" %}
+{% include head.html %}
+<body class="project">
+  {% include header.html %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Project Notes</h3>
+          </div>
+          <div class="panel-body">
+            <article class="markdown-body">
+              {{ content }}
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        {% include sidebar_project.html %}
+        {% include sidebar_links.html %}
+        {% include sidebar_socials.html %}
+        {% include sidebar_ads.html %}
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "id": "#625",
+    "name": "Remote Control Candles",
+    "description": "Examining some intrared-controlled LED candles, reverse-engineering the control protocol, and making them dance to the tune of an Arduino.",
+    "categories": "IR, Arduino, LED",
+    "relative_path": "Electronics101/LED/RemoteControlCandles",
+    "updated_at": "2022-02-21T17:33:20Z",
+    "created_at": "2022-02-21T17:33:20Z"
+}

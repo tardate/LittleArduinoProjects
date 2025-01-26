@@ -1,0 +1,5 @@
+# C compilation artifacts
+.obj/
+
+# guard tmp
+.guard_result

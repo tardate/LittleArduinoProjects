@@ -1,0 +1,9 @@
+{
+    "id": "#489",
+    "name": "555 Rising Edge Detector",
+    "description": "using the 555 timer and AC-coupling to produce a fixed-width rising edge trigger pulse",
+    "categories": "555 Timer",
+    "relative_path": "Electronics101/EdgeDetection/555RisingEdgeDetector",
+    "updated_at": "2019-08-18T09:26:36Z",
+    "created_at": "2019-08-18T09:26:36Z"
+}

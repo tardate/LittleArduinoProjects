@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="0.408in"
+   height="0.368in"
+   viewBox="0 0 29.376 26.496"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="LM2662_pcb.svg">
+  <metadata
+     id="metadata40">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs38" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="979"
+     inkscape:window-height="572"
+     id="namedview36"
+     showgrid="false"
+     inkscape:zoom="7.1256041"
+     inkscape:cx="18.360001"
+     inkscape:cy="16.559999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     partID="855004330"
+     id="g4">
+    <g
+       id="copper0"
+       gorn="0.3.0">
+      <circle
+         id="connector0pad"
+         r="1.8"
+         cx="3.888"
+         cy="24.048"
+         stroke="#F7BD13"
+         gorn="0.3.0.0"
+         stroke-width="1.296"
+         connectorname="1"
+         fill="none" />
+      <circle
+         id="connector1pad"
+         r="1.8"
+         cx="11.088"
+         cy="24.048"
+         stroke="#F7BD13"
+         gorn="0.3.0.1"
+         stroke-width="1.296"
+         connectorname="2"
+         fill="none" />
+      <circle
+         id="connector2pad"
+         r="1.8"
+         cx="18.288"
+         cy="24.048"
+         stroke="#F7BD13"
+         gorn="0.3.0.2"
+         stroke-width="1.296"
+         connectorname="3"
+         fill="none" />
+      <circle
+         id="connector3pad"
+         r="1.8"
+         cx="25.488"
+         cy="24.048"
+         stroke="#F7BD13"
+         gorn="0.3.0.3"
+         stroke-width="1.296"
+         connectorname="4"
+         fill="none" />
+      <circle
+         id="connector4pad"
+         r="1.8"
+         cx="25.488"
+         cy="2.448"
+         stroke="#F7BD13"
+         gorn="0.3.0.4"
+         stroke-width="1.296"
+         connectorname="5"
+         fill="none" />
+      <circle
+         id="connector5pad"
+         r="1.8"
+         cx="18.288"
+         cy="2.448"
+         stroke="#F7BD13"
+         gorn="0.3.0.5"
+         stroke-width="1.296"
+         connectorname="6"
+         fill="none" />
+      <circle
+         id="connector6pad"
+         r="1.8"
+         cx="11.088"
+         cy="2.448"
+         stroke="#F7BD13"
+         gorn="0.3.0.6"
+         stroke-width="1.296"
+         connectorname="7"
+         fill="none" />
+      <circle
+         id="connector7pad"
+         r="1.8"
+         cx="3.888"
+         cy="2.448"
+         stroke="#F7BD13"
+         gorn="0.3.0.7"
+         stroke-width="1.296"
+         connectorname="8"
+         fill="none" />
+    </g>
+  </g>
+  <g
+     partID="855004331"
+     id="g26">
+    <g
+       id="silkscreen"
+       gorn="0.5.0">
+      <line
+         class="other"
+         id="line55"
+         y1="6.048"
+         y2="6.048"
+         x1="0.288"
+         stroke="#f0f0f0"
+         gorn="0.5.0.0"
+         x2="29.088"
+         stroke-width="0.576"
+         stroke-linecap="round" />
+      <line
+         class="other"
+         id="line57"
+         y1="6.048"
+         y2="17.568"
+         x1="0.288"
+         stroke="#f0f0f0"
+         gorn="0.5.0.1"
+         x2="0.288"
+         stroke-width="0.576"
+         stroke-linecap="round" />
+      <line
+         class="other"
+         id="line59"
+         y1="6.048"
+         y2="20.448"
+         x1="29.088"
+         stroke="#f0f0f0"
+         gorn="0.5.0.2"
+         x2="29.088"
+         stroke-width="0.576"
+         stroke-linecap="round" />
+      <line
+         class="other"
+         id="line61"
+         y1="20.448"
+         y2="20.448"
+         x1="0.288"
+         stroke="#f0f0f0"
+         gorn="0.5.0.3"
+         x2="29.088"
+         stroke-width="0.576"
+         stroke-linecap="round" />
+      <line
+         class="other"
+         id="line63"
+         y1="20.448"
+         y2="17.568"
+         x1="0.288"
+         stroke="#f0f0f0"
+         gorn="0.5.0.4"
+         x2="0.288"
+         stroke-width="0.576"
+         stroke-linecap="round" />
+      <line
+         class="other"
+         id="line65"
+         y1="17.568"
+         y2="16.128"
+         x1="0.288"
+         stroke="#f0f0f0"
+         gorn="0.5.0.5"
+         x2="0.288"
+         stroke-width="0.576"
+         stroke-linecap="round" />
+      <circle
+         class="other"
+         id="circle67"
+         r="2.03641"
+         cx="3.888"
+         cy="16.848"
+         stroke="#f0f0f0"
+         gorn="0.5.0.6"
+         stroke-width="0.72"
+         fill="none" />
+    </g>
+  </g>
+</svg>

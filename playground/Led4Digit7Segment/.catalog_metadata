@@ -1,0 +1,9 @@
+{
+    "id": "#058",
+    "name": "4 Digit 7-Segment LED Displays",
+    "description": "overview of driving a 4-digit 7-segment display",
+    "categories": "7-Segment, Arduino",
+    "relative_path": "playground/Led4Digit7Segment",
+    "updated_at": "2020-10-02T13:02:32Z",
+    "created_at": "2020-10-02T13:02:32Z"
+}

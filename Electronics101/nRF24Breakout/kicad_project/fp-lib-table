@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name nrf24_footprint)(type KiCad)(uri "$(KIPRJMOD)/nrf24_footprint.pretty")(options "")(descr ""))
+  (lib (name graphics)(type KiCad)(uri "$(KIPRJMOD)/graphics.pretty")(options "")(descr ""))
+)

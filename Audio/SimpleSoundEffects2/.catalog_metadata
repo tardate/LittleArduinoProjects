@@ -1,0 +1,9 @@
+{
+    "id": "#525",
+    "name": "Simple Sound Effects 2",
+    "description": "Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.",
+    "categories": "Audio, AVR",
+    "relative_path": "Audio/SimpleSoundEffects2",
+    "updated_at": "2020-01-02T23:43:01Z",
+    "created_at": "2020-01-02T23:43:01Z"
+}

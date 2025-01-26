@@ -1,0 +1,9 @@
+{
+    "id": "#301",
+    "name": "DHT11 Basics",
+    "description": "test basic temperature and humidity readings with the DHT11 sensor",
+    "categories": "Sensors, Arduino",
+    "relative_path": "playground/DHT11/Basics",
+    "updated_at": "2021-03-04T11:35:17Z",
+    "created_at": "2021-03-04T11:35:17Z"
+}

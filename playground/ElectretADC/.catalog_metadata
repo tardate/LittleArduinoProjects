@@ -1,0 +1,9 @@
+{
+    "id": "#038",
+    "name": "ElectretADC",
+    "description": "convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals",
+    "categories": "Audio, Arduino",
+    "relative_path": "playground/ElectretADC",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

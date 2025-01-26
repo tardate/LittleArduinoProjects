@@ -1,0 +1,9 @@
+{
+    "id": "#328",
+    "name": "VoltageControlledOscillator/555",
+    "description": "a voltage-controlled oscillator (VCO) using the 555 timer",
+    "categories": "Oscillators, VCO, 555 Timer",
+    "relative_path": "Electronics101/555Timer/VoltageControlledOscillator",
+    "updated_at": "2017-08-03T17:39:45Z",
+    "created_at": "2017-08-03T17:39:45Z"
+}

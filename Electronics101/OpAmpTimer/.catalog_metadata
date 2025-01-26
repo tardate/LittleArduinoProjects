@@ -1,0 +1,9 @@
+{
+    "id": "#122",
+    "name": "Op-amp Timer",
+    "description": "testing an op-amp timer switch",
+    "categories": "OpAmp, Timer",
+    "relative_path": "Electronics101/OpAmpTimer",
+    "updated_at": "2023-02-07T09:31:38Z",
+    "created_at": "2023-02-07T09:31:38Z"
+}

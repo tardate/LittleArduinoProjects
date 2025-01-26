@@ -1,0 +1,9 @@
+{
+    "id": "#500",
+    "name": "RFID Concentration Game",
+    "description": "Play a game of Concentration/Pairs with a stack of MIFARE Classic cards",
+    "categories": "RFID, Arduino, Boldport, LED",
+    "relative_path": "playground/RFID/Concentration",
+    "updated_at": "2019-06-02T11:03:52Z",
+    "created_at": "2019-06-02T11:03:52Z"
+}

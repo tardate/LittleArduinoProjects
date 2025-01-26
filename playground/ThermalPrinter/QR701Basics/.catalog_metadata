@@ -1,0 +1,9 @@
+{
+    "id": "#523",
+    "name": "JP-QR701 Thermal Printer Basics",
+    "description": "Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python",
+    "categories": "Arduino, Thermal Printer",
+    "relative_path": "playground/ThermalPrinter/QR701Basics",
+    "updated_at": "2019-12-28T09:21:05Z",
+    "created_at": "2019-12-28T09:21:05Z"
+}

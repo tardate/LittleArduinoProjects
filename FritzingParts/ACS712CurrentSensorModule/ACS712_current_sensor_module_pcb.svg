@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="0.75in"
+   height="0.3in"
+   viewBox="0 0 54 21.6"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ACS721_current_sensor_module_pcb.svg">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1110"
+     inkscape:window-height="617"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="4.8592593"
+     inkscape:cx="33.75"
+     inkscape:cy="13.500001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     partID="855015190"
+     id="g4">
+    <g
+       gorn="0.3"
+       id="copper1"
+       style="stroke-width:0">
+      <circle
+         cx="3.5999999"
+         cy="3.5999999"
+         gorn="0.3.0"
+         r="2.052"
+         connectorname="GND"
+         id="connector0pad"
+         sodipodi:cx="3.5999999"
+         sodipodi:cy="3.5999999"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="M 5.652,3.5999999 C 5.652,4.7332882 4.7332882,5.652 3.5999999,5.652 c -1.1332883,0 -2.052,-0.9187118 -2.052,-2.0520001 0,-1.1332883 0.9187117,-2.052 2.052,-2.052 1.1332883,0 2.0520001,0.9187117 2.0520001,2.052 z" />
+      <circle
+         cx="3.5999999"
+         cy="10.8"
+         gorn="0.3.1"
+         r="2.052"
+         connectorname="OUT"
+         id="connector1pad"
+         sodipodi:cx="3.5999999"
+         sodipodi:cy="10.8"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 5.652,10.8 c 0,1.133289 -0.9187118,2.052 -2.0520001,2.052 -1.1332883,0 -2.052,-0.918711 -2.052,-2.052 0,-1.1332881 0.9187117,-2.0519999 2.052,-2.0519999 C 4.7332882,8.7480001 5.652,9.6667119 5.652,10.8 z" />
+      <circle
+         cx="3.5999999"
+         cy="18"
+         gorn="0.3.2"
+         r="2.052"
+         connectorname="VCC"
+         id="connector2pad"
+         sodipodi:cx="3.5999999"
+         sodipodi:cy="18"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 5.652,18 c 0,1.133288 -0.9187118,2.052 -2.0520001,2.052 -1.1332883,0 -2.052,-0.918712 -2.052,-2.052 0,-1.133288 0.9187117,-2.052 2.052,-2.052 C 4.7332882,15.948 5.652,16.866712 5.652,18 z" />
+      <circle
+         cx="50.599998"
+         cy="10.8"
+         gorn="0.3.3"
+         r="2.052"
+         connectorname="INPUT+"
+         id="connector3pad"
+         sodipodi:cx="50.599998"
+         sodipodi:cy="10.8"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 52.651999,10.8 c 0,1.133289 -0.918712,2.052 -2.052001,2.052 -1.133288,0 -2.052,-0.918711 -2.052,-2.052 0,-1.1332881 0.918712,-2.0519999 2.052,-2.0519999 1.133289,0 2.052001,0.9187118 2.052001,2.0519999 z" />
+      <circle
+         cx="50.599998"
+         cy="18"
+         gorn="0.3.4"
+         r="2.052"
+         connectorname="INPUT-"
+         id="connector4pad"
+         sodipodi:cx="50.599998"
+         sodipodi:cy="18"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 52.651999,18 c 0,1.133288 -0.918712,2.052 -2.052001,2.052 -1.133288,0 -2.052,-0.918712 -2.052,-2.052 0,-1.133288 0.918712,-2.052 2.052,-2.052 1.133289,0 2.052001,0.918712 2.052001,2.052 z" />
+      <circle
+         cx="3.5999999"
+         cy="3.5999999"
+         gorn="0.3.5"
+         r="2.052"
+         connectorname="GND"
+         id="circle19"
+         sodipodi:cx="3.5999999"
+         sodipodi:cy="3.5999999"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="M 5.652,3.5999999 C 5.652,4.7332882 4.7332882,5.652 3.5999999,5.652 c -1.1332883,0 -2.052,-0.9187118 -2.052,-2.0520001 0,-1.1332883 0.9187117,-2.052 2.052,-2.052 1.1332883,0 2.0520001,0.9187117 2.0520001,2.052 z" />
+      <circle
+         cx="3.5999999"
+         cy="10.8"
+         gorn="0.3.6"
+         r="2.052"
+         connectorname="OUT"
+         id="circle15"
+         sodipodi:cx="3.5999999"
+         sodipodi:cy="10.8"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 5.652,10.8 c 0,1.133289 -0.9187118,2.052 -2.0520001,2.052 -1.1332883,0 -2.052,-0.918711 -2.052,-2.052 0,-1.1332881 0.9187117,-2.0519999 2.052,-2.0519999 C 4.7332882,8.7480001 5.652,9.6667119 5.652,10.8 z" />
+      <circle
+         cx="3.5999999"
+         cy="18"
+         gorn="0.3.7"
+         r="2.052"
+         connectorname="VCC"
+         id="circle17"
+         sodipodi:cx="3.5999999"
+         sodipodi:cy="18"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 5.652,18 c 0,1.133288 -0.9187118,2.052 -2.0520001,2.052 -1.1332883,0 -2.052,-0.918712 -2.052,-2.052 0,-1.133288 0.9187117,-2.052 2.052,-2.052 C 4.7332882,15.948 5.652,16.866712 5.652,18 z" />
+      <circle
+         cx="50.599998"
+         cy="10.8"
+         gorn="0.3.8"
+         r="2.052"
+         connectorname="INPUT+"
+         id="connector3pin"
+         sodipodi:cx="50.599998"
+         sodipodi:cy="10.8"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 52.651999,10.8 c 0,1.133289 -0.918712,2.052 -2.052001,2.052 -1.133288,0 -2.052,-0.918711 -2.052,-2.052 0,-1.1332881 0.918712,-2.0519999 2.052,-2.0519999 1.133289,0 2.052001,0.9187118 2.052001,2.0519999 z" />
+      <circle
+         cx="50.599998"
+         cy="18"
+         gorn="0.3.9"
+         r="2.052"
+         connectorname="INPUT-"
+         id="connector4pin"
+         sodipodi:cx="50.599998"
+         sodipodi:cy="18"
+         sodipodi:rx="2.052"
+         sodipodi:ry="2.052"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.22399998"
+         d="m 52.651999,18 c 0,1.133288 -0.918712,2.052 -2.052001,2.052 -1.133288,0 -2.052,-0.918712 -2.052,-2.052 0,-1.133288 0.918712,-2.052 2.052,-2.052 1.133289,0 2.052001,0.918712 2.052001,2.052 z" />
+    </g>
+  </g>
+  <g
+     partID="855015191"
+     id="g17">
+    <g
+       stroke-width="0"
+       gorn="0.4"
+       id="silkscreen" />
+  </g>
+</svg>

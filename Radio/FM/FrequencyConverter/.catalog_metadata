@@ -1,0 +1,9 @@
+{
+    "id": "#515",
+    "name": "FM Converter",
+    "description": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning",
+    "categories": "Radio, FM",
+    "relative_path": "Radio/FM/FrequencyConverter",
+    "updated_at": "2019-12-07T16:19:24Z",
+    "created_at": "2019-12-07T16:19:24Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#242",
+    "name": "PierceOscillator",
+    "description": "test a Pierce Oscillator made with a minimum of components",
+    "categories": "Oscillators, Crystal",
+    "relative_path": "Electronics101/Oscillators/PierceOscillator",
+    "updated_at": "2019-03-23T04:20:19Z",
+    "created_at": "2019-03-23T04:20:19Z"
+}

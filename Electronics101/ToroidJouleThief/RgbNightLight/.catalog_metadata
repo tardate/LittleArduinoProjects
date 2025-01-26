@@ -1,0 +1,9 @@
+{
+    "id": "#446",
+    "name": "RGB Joule Thief Night Light",
+    "description": "testing a slow-flash RGB LED with a 1.5V joule thief power supply",
+    "categories": "LED, Power",
+    "relative_path": "Electronics101/ToroidJouleThief/RgbNightLight",
+    "updated_at": "2019-01-06T11:36:40Z",
+    "created_at": "2019-01-06T11:36:40Z"
+}

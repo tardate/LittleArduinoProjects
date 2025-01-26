@@ -1,0 +1,9 @@
+{
+    "id": "#420",
+    "name": "CuttleTalk",
+    "description": "playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound",
+    "categories": "Boldport, Audio, LiFi",
+    "relative_path": "BoldportClub/lite2sound-bc/CuttleTalk",
+    "updated_at": "2018-10-07T12:55:22Z",
+    "created_at": "2018-10-07T12:55:22Z"
+}

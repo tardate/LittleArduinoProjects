@@ -1,0 +1,9 @@
+{
+    "id": "#559",
+    "name": "Slow Glow",
+    "description": "A simple slowly-glowing LED effect using a 555 timer",
+    "categories": "555 Timer, LED",
+    "relative_path": "Electronics101/555Timer/SlowGlow",
+    "updated_at": "2020-09-05T09:30:44Z",
+    "created_at": "2020-09-05T09:30:44Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#097",
+    "name": "Volume Control Power Amp",
+    "description": "an LM386 fixed-gain audio power amp with volume control",
+    "categories": "OpAmp, Audio",
+    "relative_path": "Audio/AudioAmps/VolumeControlPowerAmp",
+    "updated_at": "2020-06-06T05:35:40Z",
+    "created_at": "2020-06-06T05:35:40Z"
+}

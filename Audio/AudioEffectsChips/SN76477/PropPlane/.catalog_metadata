@@ -1,0 +1,9 @@
+{
+    "id": "#551",
+    "name": "SN76477 Prop Plane",
+    "description": "Testing the SN76477 propeller plane sound effect configuration",
+    "categories": "Audio",
+    "relative_path": "Audio/AudioEffectsChips/SN76477/PropPlane",
+    "updated_at": "2020-05-25T08:56:33Z",
+    "created_at": "2020-05-25T08:56:33Z"
+}

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE8B0F975E5899ADE220340 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE8B353DCCD21EE5ACD3A9D /* CoreBluetooth.framework */; };
+		6CE8B365BDF8AB590ABCDBD5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE8BCCDCA60E1FA43435592 /* Cocoa.framework */; };
+		6CE8B47B92720E3D87E8D535 /* BleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE8B5838A52949067A38C64 /* BleManager.swift */; };
+		6CE8B76B53603324ED172A12 /* TTToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE8BF319EE585C489C2788F /* TTToken.swift */; };
+		6CE8B84C6F36021AB40D3B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE8B3B619C8254A3D296952 /* Foundation.framework */; };
+		6CE8B9A7C25907A010D0BC33 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE8B8BBE948926D32B155B8 /* main.swift */; };
+		6CE8B9EA87F7E3D212BAD077 /* BleScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE8BDC2A58B80AE0F69C84A /* BleScanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CE8B95E78A0464ED6B6DC73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6CE8B353DCCD21EE5ACD3A9D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6CE8B3B619C8254A3D296952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CE8B5838A52949067A38C64 /* BleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleManager.swift; sourceTree = "<group>"; };
+		6CE8B8BBE948926D32B155B8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6CE8BB387319A0574EF80116 /* TTTScan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TTTScan; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE8BCCDCA60E1FA43435592 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6CE8BDC2A58B80AE0F69C84A /* BleScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleScanner.swift; sourceTree = "<group>"; };
+		6CE8BF319EE585C489C2788F /* TTToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTToken.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE8BFE28D79BC9A116A13B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE8B0F975E5899ADE220340 /* CoreBluetooth.framework in Frameworks */,
+				6CE8B365BDF8AB590ABCDBD5 /* Cocoa.framework in Frameworks */,
+				6CE8B84C6F36021AB40D3B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE8B3C06852AE4A1BC69360 /* TTTScan */ = {
+			isa = PBXGroup;
+			children = (
+				6CE8B8BBE948926D32B155B8 /* main.swift */,
+				6CE8B5838A52949067A38C64 /* BleManager.swift */,
+				6CE8BDC2A58B80AE0F69C84A /* BleScanner.swift */,
+				6CE8BF319EE585C489C2788F /* TTToken.swift */,
+			);
+			path = TTTScan;
+			sourceTree = "<group>";
+		};
+		6CE8B5EA15868DD41A42DD43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE8BB387319A0574EF80116 /* TTTScan */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE8B93A00E6507E932EED05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE8B353DCCD21EE5ACD3A9D /* CoreBluetooth.framework */,
+				6CE8BCCDCA60E1FA43435592 /* Cocoa.framework */,
+				6CE8B3B619C8254A3D296952 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CE8B9EEFD812F4718CAAE30 = {
+			isa = PBXGroup;
+			children = (
+				6CE8B5EA15868DD41A42DD43 /* Products */,
+				6CE8B3C06852AE4A1BC69360 /* TTTScan */,
+				6CE8B93A00E6507E932EED05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE8B4139FD1BDE0C3917D2B /* TTTScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE8B9A69812072482E6D821 /* Build configuration list for PBXNativeTarget "TTTScan" */;
+			buildPhases = (
+				6CE8BFE0CAEC013DD8560D44 /* Sources */,
+				6CE8BFE28D79BC9A116A13B5 /* Frameworks */,
+				6CE8B95E78A0464ED6B6DC73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTScan;
+			productName = TTTScan;
+			productReference = 6CE8BB387319A0574EF80116 /* TTTScan */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE8B3A90A7B1F443084E490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = leap.tardate.com;
+				TargetAttributes = {
+					6CE8B4139FD1BDE0C3917D2B = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 6CE8BD1F5A7607086CAD0ABF /* Build configuration list for PBXProject "TTTScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CE8B9EEFD812F4718CAAE30;
+			productRefGroup = 6CE8B5EA15868DD41A42DD43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE8B4139FD1BDE0C3917D2B /* TTTScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE8BFE0CAEC013DD8560D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE8B9A7C25907A010D0BC33 /* main.swift in Sources */,
+				6CE8B47B92720E3D87E8D535 /* BleManager.swift in Sources */,
+				6CE8B9EA87F7E3D212BAD077 /* BleScanner.swift in Sources */,
+				6CE8B76B53603324ED172A12 /* TTToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CE8B1F96876EDDA5E9F0913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6CE8B207D6D336DE354908AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6CE8B2C08A69E101A11BDD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CE8BA3B3DCDC01F4D13C282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE8B9A69812072482E6D821 /* Build configuration list for PBXNativeTarget "TTTScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE8B207D6D336DE354908AF /* Debug */,
+				6CE8BA3B3DCDC01F4D13C282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE8BD1F5A7607086CAD0ABF /* Build configuration list for PBXProject "TTTScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE8B2C08A69E101A11BDD30 /* Debug */,
+				6CE8B1F96876EDDA5E9F0913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE8B3A90A7B1F443084E490 /* Project object */;
+}

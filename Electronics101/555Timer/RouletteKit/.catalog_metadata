@@ -1,0 +1,9 @@
+{
+    "id": "#084",
+    "name": "Roulette Kit",
+    "description": "build and examine the workings of a commercial 555 Roulette kit",
+    "categories": "555 Timer",
+    "relative_path": "Electronics101/555Timer/RouletteKit",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

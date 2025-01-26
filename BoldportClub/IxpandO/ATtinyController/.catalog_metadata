@@ -1,0 +1,9 @@
+{
+    "id": "#528",
+    "name": "ATtiny IxpandO",
+    "description": "Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I\u00b2C IO expansion board",
+    "categories": "Boldport, Port Expander, AVR",
+    "relative_path": "BoldportClub/IxpandO/ATtinyController",
+    "updated_at": "2020-01-29T00:24:45Z",
+    "created_at": "2020-01-29T00:24:45Z"
+}

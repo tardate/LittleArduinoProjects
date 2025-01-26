@@ -1,0 +1,9 @@
+{
+    "id": "#155",
+    "name": "ESP8266/SerialTest/ruby",
+    "description": "exercising ESP8266 serial communications with Ruby",
+    "categories": "ESP8266, ruby",
+    "relative_path": "ESP8266/SerialTest/ruby",
+    "updated_at": "2017-09-19T15:46:13Z",
+    "created_at": "2017-09-19T15:46:13Z"
+}

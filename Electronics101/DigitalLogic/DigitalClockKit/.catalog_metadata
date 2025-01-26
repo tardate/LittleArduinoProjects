@@ -1,0 +1,9 @@
+{
+    "id": "#740",
+    "name": "Digital Clock Kit",
+    "description": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",
+    "categories": "Digital Logic, CMOS/TTL",
+    "relative_path": "Electronics101/DigitalLogic/DigitalClockKit",
+    "updated_at": "2024-01-31T17:42:52Z",
+    "created_at": "2024-01-31T17:42:52Z"
+}

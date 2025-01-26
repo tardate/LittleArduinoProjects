@@ -1,0 +1,9 @@
+{
+    "id": "#276",
+    "name": "VariableFrequencyRunwayLEDs",
+    "description": "a PWM-controlled variable frequency LED \"runway lights\" effect using the LM331 and CD4017",
+    "categories": "LED, Arduino",
+    "relative_path": "playground/VariableFrequencyRunwayLEDs",
+    "updated_at": "2016-12-01T13:22:04Z",
+    "created_at": "2016-12-01T13:22:04Z"
+}

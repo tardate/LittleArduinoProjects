@@ -1,0 +1,9 @@
+{
+    "id": "#304",
+    "name": "KeyboardMatrixModule/KeyMatrixInput",
+    "description": "demo multiplexed key input on a simple pushbutton/LED matrix module and how to use INPUT_PULLUP",
+    "categories": "Arduino, Human Input",
+    "relative_path": "playground/KeyboardMatrixModule/KeyMatrixInput",
+    "updated_at": "2015-12-13T12:52:40Z",
+    "created_at": "2015-12-13T12:52:40Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#120",
+    "name": "Simple Peak Detector",
+    "description": "test the basic diode-RC peak detector circuit",
+    "categories": "RC",
+    "relative_path": "Electronics101/Detectors/SimplePeakDetector",
+    "updated_at": "2020-03-28T03:05:36Z",
+    "created_at": "2020-03-28T03:05:36Z"
+}

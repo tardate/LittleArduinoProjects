@@ -1,0 +1,9 @@
+{
+    "id": "#052",
+    "name": "Comparator741",
+    "description": "demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)",
+    "categories": "OpAmp",
+    "relative_path": "Electronics101/Comparator741",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

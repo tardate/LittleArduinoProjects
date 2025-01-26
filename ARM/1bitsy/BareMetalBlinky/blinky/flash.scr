@@ -1,0 +1,7 @@
+set confirm off
+monitor version
+monitor jtag_scan
+attach 1
+load
+compare-sections
+kill

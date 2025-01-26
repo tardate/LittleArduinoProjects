@@ -1,0 +1,9 @@
+{
+    "id": "#584",
+    "name": "HPDL1414",
+    "description": "Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino",
+    "categories": "LED",
+    "relative_path": "Electronics101/LED/HPDL1414",
+    "updated_at": "2021-03-03T13:07:35Z",
+    "created_at": "2021-03-03T13:07:35Z"
+}

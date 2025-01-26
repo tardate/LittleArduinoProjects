@@ -1,0 +1,9 @@
+{
+    "id": "#102",
+    "name": "SolenoidControl",
+    "description": "controlling a mini solenoid with an Arduino",
+    "categories": "Solenoid, Arduino",
+    "relative_path": "playground/SolenoidControl",
+    "updated_at": "2016-06-19T14:13:24Z",
+    "created_at": "2016-06-19T14:13:24Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#335",
+    "name": "MCP2200/Chaser",
+    "description": "using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs",
+    "categories": "UART, USB, LED",
+    "relative_path": "Electronics101/MCP2200/Chaser",
+    "updated_at": "2017-08-18T12:09:50Z",
+    "created_at": "2017-08-18T12:09:50Z"
+}

@@ -1,0 +1,171 @@
+;**************************************************************************
+;** Title: BURN
+;** Tempo: 190
+;** Encoded: 2017-10-16 with Guitar Pro 7.0.6
+;** Stringyfied: 2017-10-17 00:05:04 +0800
+;**************************************************************************
+
+	tstart DemoTune
+	; measure 1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 2
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	tnote A1S,3,0  ; 4:B:-1
+	; measure 3
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 4
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	tnote F1,4,0  ; 4:F:0
+	trest 1
+	; measure 5
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 6
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	tnote A1S,3,0  ; 4:B:-1
+	; measure 7
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 8
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	tnote F1,4,0  ; 4:F:0
+	trest 1
+	; measure 9
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 10
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	tnote A1S,3,0  ; 4:B:-1
+	; measure 11
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 12
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	tnote F1,4,0  ; 4:F:0
+	trest 1
+	; measure 13
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 14
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	tnote A1S,3,0  ; 4:B:-1
+	; measure 15
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave +1
+	tnote C1,3,0  ; 5:C:0
+	toctave -1
+	toctave -1
+	tnote G1,1,0  ; 3:G:0
+	; measure 16
+	toctave +1
+	tnote A1S,1,0  ; 4:B:-1
+	tnote A1,1,0  ; 4:A:0
+	tnote D1,1,0  ; 4:D:0
+	toctave -1
+	tnote F1,4,0  ; 3:F:0
+	trest 1
+	trest 8
+	tstop

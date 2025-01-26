@@ -1,0 +1,9 @@
+{
+    "id": "#140",
+    "name": "BJT Zener-Mode Effects",
+    "description": "playing around with some zener-mode sound effects",
+    "categories": "Audio, BJT, Zener, Oscillators",
+    "relative_path": "Audio/AudioEffects/ZenerModeEffects",
+    "updated_at": "2020-06-06T05:35:40Z",
+    "created_at": "2020-06-06T05:35:40Z"
+}

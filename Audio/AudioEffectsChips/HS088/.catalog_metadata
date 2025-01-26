@@ -1,0 +1,9 @@
+{
+    "id": "#359",
+    "name": "HS088 Audio Effects Chip",
+    "description": "figuring out the HS088 \"Ding Dong\" audio effects chip",
+    "categories": "Audio, Music Chips",
+    "relative_path": "Audio/AudioEffectsChips/HS088",
+    "updated_at": "2019-09-25T15:49:49Z",
+    "created_at": "2019-09-25T15:49:49Z"
+}

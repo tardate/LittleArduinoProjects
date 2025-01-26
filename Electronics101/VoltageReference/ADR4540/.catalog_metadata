@@ -1,0 +1,9 @@
+{
+    "id": "#454",
+    "name": "VoltageReference/ADR4540",
+    "description": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference",
+    "categories": "Voltage Reference",
+    "relative_path": "Electronics101/VoltageReference/ADR4540",
+    "updated_at": "2019-02-17T07:12:32Z",
+    "created_at": "2019-02-17T07:12:32Z"
+}

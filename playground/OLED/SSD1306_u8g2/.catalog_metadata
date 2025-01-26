@@ -1,0 +1,9 @@
+{
+    "id": "#527",
+    "name": "SSD1306 With u8g v2",
+    "description": "Testing an SSD1306 128x32 OLED with the new v2 u8g library over I\u00b2C",
+    "categories": "OLED, Arduino",
+    "relative_path": "playground/OLED/SSD1306_u8g2",
+    "updated_at": "2020-02-16T16:08:47Z",
+    "created_at": "2020-02-16T16:08:47Z"
+}

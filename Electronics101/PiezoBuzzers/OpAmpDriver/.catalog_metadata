@@ -1,0 +1,9 @@
+{
+    "id": "#596",
+    "name": "OpAmp Piezo Driver",
+    "description": "Testing a circuit for driving a piezoelectric transducer for sound output with a TL072 opamp oscillator",
+    "categories": "Oscillators, Crystal, Audio",
+    "relative_path": "Electronics101/PiezoBuzzers/OpAmpDriver",
+    "updated_at": "2021-08-17T08:14:50Z",
+    "created_at": "2021-08-17T08:14:50Z"
+}

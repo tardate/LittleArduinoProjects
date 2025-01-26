@@ -1,0 +1,9 @@
+{
+    "id": "#561",
+    "name": "Aguhajsu 1S/3A BMS",
+    "description": "Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell",
+    "categories": "Power, BMS",
+    "relative_path": "Electronics101/BatteryManagement/Aguhajsu1S3A",
+    "updated_at": "2020-07-21T18:01:16Z",
+    "created_at": "2020-07-21T18:01:16Z"
+}

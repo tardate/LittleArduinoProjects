@@ -1,0 +1,11 @@
+pcbmode
+python-pcbmode-zero
+*.zip
+
+# boards with external sources
+boards/hello-solder
+boards/cordwood-too
+boards/tap
+boards/thecuttle
+boards/thegent
+boards/widlar

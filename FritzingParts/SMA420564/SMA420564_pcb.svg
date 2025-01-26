@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="1.58689in"
+   height="0.508937in"
+   viewBox="0 0 114.256 36.6435"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="SMA420564_pcb.svg">
+  <metadata
+     id="metadata109">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs107" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1209"
+     inkscape:window-height="686"
+     id="namedview105"
+     showgrid="false"
+     inkscape:zoom="2.2965955"
+     inkscape:cx="71.410048"
+     inkscape:cy="22.902164"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     partID="854764810"
+     id="g4">
+    <g
+       gorn="0.0.16"
+       id="copper1">
+      <circle
+         connectorname="1"
+         cx="39.127998"
+         cy="32.721699"
+         gorn="0.0.16.1"
+         r="1.82693"
+         id="connector1pin"
+         sodipodi:cx="39.127998"
+         sodipodi:cy="32.721699"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="2"
+         cx="46.327999"
+         cy="32.721699"
+         gorn="0.0.16.2"
+         r="1.82693"
+         id="connector2pin"
+         sodipodi:cx="46.327999"
+         sodipodi:cy="32.721699"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="3"
+         cx="53.528"
+         cy="32.721699"
+         gorn="0.0.16.3"
+         r="1.82693"
+         id="connector3pin"
+         sodipodi:cx="53.528"
+         sodipodi:cy="32.721699"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="4"
+         cx="60.728001"
+         cy="32.721699"
+         gorn="0.0.16.4"
+         r="1.82693"
+         id="connector4pin"
+         sodipodi:cx="60.728001"
+         sodipodi:cy="32.721699"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="5"
+         cx="67.928001"
+         cy="32.721699"
+         gorn="0.0.16.5"
+         r="1.82693"
+         id="connector5pin"
+         sodipodi:cx="67.928001"
+         sodipodi:cy="32.721699"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="6"
+         cx="75.127998"
+         cy="32.721699"
+         gorn="0.0.16.7"
+         r="1.82693"
+         id="connector6pin"
+         sodipodi:cx="75.127998"
+         sodipodi:cy="32.721699"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="7"
+         cx="39.127998"
+         cy="3.92173"
+         gorn="0.0.16.14"
+         r="1.82693"
+         id="connector7pin"
+         sodipodi:cx="39.127998"
+         sodipodi:cy="3.92173"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="8"
+         cx="46.327999"
+         cy="3.92173"
+         gorn="0.0.16.9"
+         r="1.82693"
+         id="connector8pin"
+         sodipodi:cx="46.327999"
+         sodipodi:cy="3.92173"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="9"
+         cx="53.528"
+         cy="3.92173"
+         gorn="0.0.16.10"
+         r="1.82693"
+         id="connector9pin"
+         sodipodi:cx="53.528"
+         sodipodi:cy="3.92173"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="10"
+         cx="60.728001"
+         cy="3.92173"
+         gorn="0.0.16.11"
+         r="1.82693"
+         id="connector10pin"
+         sodipodi:cx="60.728001"
+         sodipodi:cy="3.92173"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+      <circle
+         connectorname="11"
+         stroke="#F7BD13"
+         cx="67.928"
+         cy="3.92173"
+         gorn="0.0.16.13"
+         stroke-width="1.38614"
+         r="1.82693"
+         fill="none"
+         id="connector11pin" />
+      <circle
+         connectorname="12"
+         cx="75.127998"
+         cy="3.92173"
+         gorn="0.0.16.12"
+         r="1.82693"
+         id="connector12pin"
+         sodipodi:cx="75.127998"
+         sodipodi:cy="3.92173"
+         sodipodi:rx="1.82693"
+         sodipodi:ry="1.82693"
+         style="fill:none;stroke:#f7bd13;stroke-width:1.38613999" />
+    </g>
+  </g>
+  <g
+     partID="854764812"
+     id="g92">
+    <g
+       gorn="0.1"
+       id="silkscreen">
+      <line
+         y1="0.18"
+         stroke="#f0f0f0"
+         y2="36.4635"
+         x1="0.18"
+         x2="0.18"
+         stroke-width="0.36"
+         class="other"
+         stroke-linecap="round"
+         id="line95" />
+      <line
+         y1="0.18"
+         stroke="#f0f0f0"
+         y2="0.18"
+         x1="0.18"
+         x2="114.076"
+         stroke-width="0.36"
+         class="other"
+         stroke-linecap="round"
+         id="line97" />
+      <line
+         y1="36.4635"
+         stroke="#f0f0f0"
+         y2="36.4635"
+         x1="0.18"
+         x2="114.076"
+         stroke-width="0.36"
+         class="other"
+         stroke-linecap="round"
+         id="line99" />
+      <line
+         y1="0.18"
+         stroke="#f0f0f0"
+         y2="36.4635"
+         x1="114.076"
+         x2="114.076"
+         stroke-width="0.36"
+         class="other"
+         stroke-linecap="round"
+         id="line101" />
+    </g>
+  </g>
+</svg>

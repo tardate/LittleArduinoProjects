@@ -1,0 +1,9 @@
+{
+    "id": "#046",
+    "name": "PWM Motor Control",
+    "description": "Testing DC motor speed control using an Arduino-generated PWM signal",
+    "categories": "Motors, Arduino",
+    "relative_path": "playground/MotorControlPWM",
+    "updated_at": "2020-11-20T14:41:46Z",
+    "created_at": "2020-11-20T14:41:46Z"
+}

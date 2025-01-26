@@ -1,0 +1,60 @@
+menu.cpu=Processor
+menu.clock=Clock
+
+attiny.name=ATtiny
+attiny.bootloader.tool=arduino:avrdude
+attiny.bootloader.unlock_bits=0xff
+attiny.bootloader.lock_bits=0xff
+attiny.build.core=arduino:arduino
+attiny.build.board=attiny
+attiny.upload.tool=arduino:avrdude
+
+attiny.menu.cpu.attiny45=ATtiny45
+attiny.menu.cpu.attiny45.upload.maximum_size=4096
+attiny.menu.cpu.attiny45.build.mcu=attiny45
+attiny.menu.cpu.attiny45.build.variant=tiny8
+
+attiny.menu.cpu.attiny85=ATtiny85
+attiny.menu.cpu.attiny85.upload.maximum_size=8192
+attiny.menu.cpu.attiny85.build.mcu=attiny85
+attiny.menu.cpu.attiny85.build.variant=tiny8
+
+attiny.menu.cpu.attiny44=ATtiny44
+attiny.menu.cpu.attiny44.upload.maximum_size=4096
+attiny.menu.cpu.attiny44.build.mcu=attiny44
+attiny.menu.cpu.attiny44.build.variant=tiny14
+
+attiny.menu.cpu.attiny84=ATtiny84
+attiny.menu.cpu.attiny84.upload.maximum_size=8192
+attiny.menu.cpu.attiny84.build.mcu=attiny84
+attiny.menu.cpu.attiny84.build.variant=tiny14
+
+attiny.menu.clock.internal1=1 MHz (internal)
+attiny.menu.clock.internal1.bootloader.low_fuses=0x62
+attiny.menu.clock.internal1.bootloader.high_fuses=0xdf
+attiny.menu.clock.internal1.bootloader.extended_fuses=0xff
+attiny.menu.clock.internal1.build.f_cpu=1000000L
+
+attiny.menu.clock.internal8=8 MHz (internal)
+attiny.menu.clock.internal8.bootloader.low_fuses=0xe2
+attiny.menu.clock.internal8.bootloader.high_fuses=0xdf
+attiny.menu.clock.internal8.bootloader.extended_fuses=0xff
+attiny.menu.clock.internal8.build.f_cpu=8000000L
+
+attiny.menu.clock.external8=8 MHz (external)
+attiny.menu.clock.external8.bootloader.low_fuses=0xfe
+attiny.menu.clock.external8.bootloader.high_fuses=0xdf
+attiny.menu.clock.external8.bootloader.extended_fuses=0xff
+attiny.menu.clock.external8.build.f_cpu=8000000L
+
+attiny.menu.clock.external16=16 MHz (external)
+attiny.menu.clock.external16.bootloader.low_fuses=0xfe
+attiny.menu.clock.external16.bootloader.high_fuses=0xdf
+attiny.menu.clock.external16.bootloader.extended_fuses=0xff
+attiny.menu.clock.external16.build.f_cpu=16000000L
+
+attiny.menu.clock.external20=20 MHz (external)
+attiny.menu.clock.external20.bootloader.low_fuses=0xfe
+attiny.menu.clock.external20.bootloader.high_fuses=0xdf
+attiny.menu.clock.external20.bootloader.extended_fuses=0xff
+attiny.menu.clock.external20.build.f_cpu=20000000L

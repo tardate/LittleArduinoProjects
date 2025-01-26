@@ -1,0 +1,9 @@
+{
+    "id": "#196",
+    "name": "7-Segment CD4026 Drive",
+    "description": "driving a 7-segment LED display with CD4026 Counter",
+    "categories": "LED, 7-Segment, CMOS/TTL, Arduino",
+    "relative_path": "playground/LED7Segment/CD4026Drive",
+    "updated_at": "2020-10-02T13:02:32Z",
+    "created_at": "2020-10-02T13:02:32Z"
+}
