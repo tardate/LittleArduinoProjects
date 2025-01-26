@@ -44,3 +44,34 @@ If you clone this repo, also update the submodules to have them available for co
 To pull submodule updates later on:
 
     git submodule foreach git pull
+
+## The 10th Anniversary Archive
+
+I started the
+[LittleArduinoProjects](https://github.com/tardate/LittleArduinoProjects)
+repository back in 2014.
+Over the years it has accumulated approximately 2Gb of "redundant" history as I've chopped and changed things.
+It even carries so much git history that it is not possible
+to do a `git push` of the entire repo without resorting to [batch tricks](https://stackoverflow.com/questions/15125862/github-remote-push-pack-size-exceeded)
+
+So as we go into the 11th year of the repository, I've decided to do a one-time squash of the project history and essentially start
+the git history from scratch:
+
+* <https://github.com/tardate/LittleArduinoProjects> remains the primary repo
+    * but with the git history squashed
+        * retains the original commit as the base, so any clones and forks will share a common root commit
+    * I've taken the opportunity to rename the working branch from `master` to `main`
+* <https://github.com/tardate/LittleArduinoProjects-archive-2014-2024> is a snapshot of the repository prior to the squash
+    * marked as `archived` in GitHub, with issues etc disabled
+    * retains the full git history in the very unlikely circumstance tht enyone needs to refer back to specific changed
+
+What this means in practice:
+
+* if you are just viewing LittleArduinoProjects on [GitHub](https://github.com/tardate/LittleArduinoProjects) or the [web](https://leap.tardate.com/), there is no impact
+* if you have a clone of the LittleArduinoProjects repository:
+    * the simplest is just to throw it away and make a fresh clone of the repo
+    * if you have work-in-progress changes on private branches, you will probably want to cherry-pick the changes and rebase on the new repo
+        * if you need help on how to do that, reach out or post an issue
+* old PRs will be based on the old history. Reviving any old PRs will require the changes to be rebased on the new history.
+
+Hopefully this will help make the LittleArduinoProjects repository fit for use for another 10 years or more..
