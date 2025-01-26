@@ -54,6 +54,3 @@ void log(int buttonState) {
   Serial.print(", buttonState: ");
   Serial.println(buttonState);
 }
-
-
-
