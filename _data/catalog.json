@@ -880,6 +880,16 @@
         "original_relative_path": "Electronics101/555Timer/SlowGlow"
     },
     {
+        "id": "#558",
+        "name": "ESP8266 SerialTest (python)",
+        "description": "exercising ESP8266 serial communications with Python",
+        "categories": "ESP8266, python",
+        "relative_path": "esp8266/serialtest/python",
+        "updated_at": "2025-01-26T13:18:00Z",
+        "created_at": "2025-01-26T13:18:00Z",
+        "original_relative_path": "ESP8266/SerialTest/python"
+    },
+    {
         "id": "#557",
         "name": "LED 8x8 Module",
         "description": "Building and using an 8x8 LED matrix with MAX7219 driver module",
@@ -3011,7 +3021,7 @@
     },
     {
         "id": "#344",
-        "name": "ESP8266/micropython/GettingStarted",
+        "name": "ESP8266 GettingStarted with MicroPython",
         "description": "getting MicroPython up and running with an ESP-01 ESP8266",
         "categories": "ESP8266, MicroPython",
         "relative_path": "esp8266/micropython/gettingstarted",
@@ -4901,7 +4911,7 @@
     },
     {
         "id": "#155",
-        "name": "ESP8266/SerialTest/ruby",
+        "name": "ESP8266 SerialTest (ruby)",
         "description": "exercising ESP8266 serial communications with Ruby",
         "categories": "ESP8266, ruby",
         "relative_path": "esp8266/serialtest/ruby",
@@ -4911,7 +4921,7 @@
     },
     {
         "id": "#154",
-        "name": "ESP8266/SerialTest",
+        "name": "ESP8266 SerialTest",
         "description": "first test of an ESP8266 module - serial communication to the SoC",
         "categories": "ESP8266",
         "relative_path": "esp8266/serialtest",

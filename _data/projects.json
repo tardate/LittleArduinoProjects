@@ -828,6 +828,15 @@
             "LED"
         ]
     },
+    "/esp8266/serialtest/python/": {
+        "id": 558,
+        "title": "ESP8266 SerialTest (python)",
+        "summary": "exercising ESP8266 serial communications with Python",
+        "tags": [
+            "ESP8266",
+            "python"
+        ]
+    },
     "/electronics101/led/led8x8module/": {
         "id": 557,
         "title": "LED 8x8 Module",
@@ -2814,7 +2823,7 @@
     },
     "/esp8266/micropython/gettingstarted/": {
         "id": 344,
-        "title": "ESP8266/micropython/GettingStarted",
+        "title": "ESP8266 GettingStarted with MicroPython",
         "summary": "getting MicroPython up and running with an ESP-01 ESP8266",
         "tags": [
             "ESP8266",
@@ -4595,7 +4604,7 @@
     },
     "/esp8266/serialtest/ruby/": {
         "id": 155,
-        "title": "ESP8266/SerialTest/ruby",
+        "title": "ESP8266 SerialTest (ruby)",
         "summary": "exercising ESP8266 serial communications with Ruby",
         "tags": [
             "ESP8266",
@@ -4604,7 +4613,7 @@
     },
     "/esp8266/serialtest/": {
         "id": 154,
-        "title": "ESP8266/SerialTest",
+        "title": "ESP8266 SerialTest",
         "summary": "first test of an ESP8266 module - serial communication to the SoC",
         "tags": [
             "ESP8266"

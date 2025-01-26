@@ -1,0 +1,9 @@
+{
+    "id": "#558",
+    "name": "ESP8266 SerialTest (python)",
+    "description": "exercising ESP8266 serial communications with Python",
+    "categories": "ESP8266, python",
+    "relative_path": "ESP8266/SerialTest/python",
+    "updated_at": "2025-01-26T13:18:00Z",
+    "created_at": "2025-01-26T13:18:00Z"
+}

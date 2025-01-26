@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-01-26T08:52:00Z</updated>
+  <updated>2025-01-26T13:18:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1017,6 +1017,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A simple slowly-glowing LED effect using a 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/slowglow/assets/slowglow_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/esp8266/serialtest/python/</id>
+    <link href="https://leap.tardate.com/esp8266/serialtest/python/"/>
+    <g:image_link>https://leap.tardate.com/esp8266/serialtest/python/assets/python_build.jpg</g:image_link>
+    <updated>2025-01-26T13:18:00Z</updated>
+    <title>#558 ESP8266 SerialTest (python)</title>
+    <summary>exercising ESP8266 serial communications with Python</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;exercising ESP8266 serial communications with Python&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/serialtest/python/assets/python_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="ESP8266"/>
+    <category term="python"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/led8x8module/</id>
@@ -3433,7 +3444,7 @@
     <link href="https://leap.tardate.com/esp8266/micropython/gettingstarted/"/>
     <g:image_link>https://leap.tardate.com/esp8266/micropython/gettingstarted/assets/gettingstarted_build.jpg</g:image_link>
     <updated>2016-03-07T01:44:30Z</updated>
-    <title>#344 ESP8266/micropython/GettingStarted</title>
+    <title>#344 ESP8266 GettingStarted with MicroPython</title>
     <summary>getting MicroPython up and running with an ESP-01 ESP8266</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;getting MicroPython up and running with an ESP-01 ESP8266&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/micropython/gettingstarted/assets/gettingstarted_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
@@ -5592,7 +5603,7 @@
     <link href="https://leap.tardate.com/esp8266/serialtest/ruby/"/>
     <g:image_link>https://leap.tardate.com/esp8266/serialtest/ruby/assets/ruby_build.jpg</g:image_link>
     <updated>2017-09-19T15:46:13Z</updated>
-    <title>#155 ESP8266/SerialTest/ruby</title>
+    <title>#155 ESP8266 SerialTest (ruby)</title>
     <summary>exercising ESP8266 serial communications with Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exercising ESP8266 serial communications with Ruby&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/serialtest/ruby/assets/ruby_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
@@ -5603,7 +5614,7 @@
     <link href="https://leap.tardate.com/esp8266/serialtest/"/>
     <g:image_link>https://leap.tardate.com/esp8266/serialtest/assets/serialtest_build.jpg</g:image_link>
     <updated>2017-09-19T15:46:13Z</updated>
-    <title>#154 ESP8266/SerialTest</title>
+    <title>#154 ESP8266 SerialTest</title>
     <summary>first test of an ESP8266 module - serial communication to the SoC</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;first test of an ESP8266 module - serial communication to the SoC&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/serialtest/assets/serialtest_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>

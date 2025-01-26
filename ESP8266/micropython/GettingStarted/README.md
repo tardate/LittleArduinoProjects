@@ -1,4 +1,4 @@
-# #344 ESP8266/micropython/GettingStarted
+# #344 ESP8266 GettingStarted with MicroPython
 
 Getting MicroPython up and running with an ESP-01 ESP8266.
 
@@ -19,16 +19,15 @@ The
 [Adafruit guide](https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board)
 make this pretty straight-forward!
 
-
 ### Programming Setup
 
-I'm using a [LEAP#194 DIYDevBoard](../../DIYDevBoard) to host the ESP-01 module,
+I'm using a [LEAP#194 DIYDevBoard](../../DIYDevBoard/) to host the ESP-01 module,
 and a cheap [CH340G-based USB to UART adapter](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html).
 With the
 [correct drivers installed](../../../notebook/arduino.md#arduinos-using-the-ch340g-serial-chip),
 it shows up in the tty device list.
 
-My host computer is running MacOSX.
+My host computer is running macOS.
 
 The notes below refer to switching flash mode and reset. These are DIP switches on the dev board.
 
@@ -37,7 +36,7 @@ The notes below refer to switching flash mode and reset. These are DIP switches 
 I'll need the [esptool](https://github.com/themadinventor/esptool) to flash the device.
 It's python, so install with pip.
 
-```
+```sh
 pip install esptool
 ```
 
@@ -45,7 +44,7 @@ pip install esptool
 
 First find the device the CH340G-based USB to UART adapter is connected on, and set that as a variable for later use:
 
-```
+```sh
 $ ls /dev/tty.wchusb*
 /dev/tty.wchusbserial14510
 $ export ESP_PORT=/dev/tty.wchusbserial14510
@@ -54,7 +53,7 @@ $ export ESP_PORT=/dev/tty.wchusbserial14510
 Verify the esptool install and connection by getting the chip_id.
 This requires a switch into flash mode and reset on the dev board before it responds...
 
-```
+```sh
 $ esptool.py --port ${ESP_PORT} chip_id
 esptool.py v2.1
 Connecting........_____....._____....._____.
@@ -71,14 +70,14 @@ Hard resetting...
 
 Downloading the latest 512k build:
 
-```
+```sh
 wget http://micropython.org/resources/firmware/esp8266-512k-20170925-v1.9.2-120-gf0082630.bin
 ```
 
 Erasing then flash first (as recommended, probably not really necessary).
 Again, this requires a switch into flash mode and reset on the dev board before it responds...
 
-```
+```sh
 $ esptool.py --port ${ESP_PORT} erase_flash
 esptool.py v2.1
 Connecting........_____....._
@@ -95,7 +94,7 @@ Hard resetting...
 Writing the image.
 Again, this requires a switch into flash mode and reset on the dev board before it responds...
 
-```
+```sh
 $ esptool.py --port ${ESP_PORT} --baud 115200 write_flash --flash_size=detect 0 esp8266-512k-20170925-v1.9.2-120-gf0082630.bin
 esptool.py v2.1
 Connecting........_____....._
@@ -119,8 +118,7 @@ Hard resetting...
 First switch off the flash mode and reset on the dev board..
 Using `screen` to open a tty console and run some python and exercise the MicroPython libraries...
 
-
-```
+```sh
 $ screen ${ESP_PORT} 115200
 
 >>> print('hello esp8266!')
@@ -143,7 +141,7 @@ False
 
 Obviously `mySSID` and `password` are not my real credentials..
 
-```
+```sh
 >>> import network
 >>> sta_if = network.WLAN(network.STA_IF)
 >>> sta_if.active()
@@ -177,7 +175,7 @@ True
 This is [a pretty neat demo](http://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/network_tcp.html#star-wars-asciimation)
 .. is this really the whole movie in glorious ascii art!??
 
-```
+```sh
 import socket
 addr_info = socket.getaddrinfo("towel.blinkenlights.nl", 23)
 addr = addr_info[0][-1]
@@ -191,7 +189,9 @@ while True:
 Some console clips...
 
 ![asciimation_1](./assets/asciimation_1.png?raw=true)
+
 ![asciimation_2](./assets/asciimation_2.png?raw=true)
+
 ![asciimation_3](./assets/asciimation_3.png?raw=true)
 
 ## Construction
@@ -213,5 +213,5 @@ Some console clips...
 * [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266?view=all) - original version
 * [esptool](https://github.com/themadinventor/esptool)
 * [Star Wars Asciimation](http://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/network_tcp.html#star-wars-asciimation)
-* [LEAP#194 DIYDevBoard](../../DIYDevBoard) - the dev board I'm using to host the ESP-01
+* [LEAP#194 DIYDevBoard](../../DIYDevBoard/) - the dev board I'm using to host the ESP-01
 * [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap344-micropython-on-the-esp8266.html)

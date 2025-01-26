@@ -1,7 +1,8 @@
-# #155 ESP8266/SerialTest/ruby
+# #155 ESP8266 SerialTest (ruby)
 
 Exercising ESP8266 module serial communications with Ruby
 
+![build](./assets/ruby_build.jpg)
 
 ## Notes
 
@@ -9,14 +10,16 @@ I'm using an ESP8266 ESP-01 module with default firmware as detailed in the [ESP
 
 This is a test of driving it with a simple [ruby script](./espy.rb)
 
-```
+```sh
 bundle       # install gem dependencies
 ./espy.rb    # prints command help
 ```
 
 ### status
+
 if possible it will return software details, access point and IP address..
-```
+
+```sh
 $ ./espy.rb /dev/tty.wchusbserial14540:9600 status
 ESP8266 Client initialised for : /dev/tty.wchusbserial14540
             connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
@@ -45,7 +48,7 @@ OK
 
 ### reset
 
-```
+```sh
 $ ./espy.rb /dev/tty.wchusbserial14540:9600 reset
 ESP8266 Client initialised for : /dev/tty.wchusbserial14540
             connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
@@ -63,10 +66,10 @@ ready
 
 ### get web page
 
-Let's query a time service: http://tycho.usno.navy.mil/timer.pl
-Note: I used to use http://www.timeapi.org/utc/now for tests like this, but that site appears to no longer exist.
+Let's query a time service: <http://tycho.usno.navy.mil/timer.pl>
+Note: I used to use <http://www.timeapi.org/utc/now> for tests like this, but that site appears to no longer exist.
 
-```
+```sh
 $ ./espy.rb /dev/tty.wchusbserial14530 get http://tycho.usno.navy.mil/timer.pl
 ESP8266 Client initialised for : /dev/tty.wchusbserial14530
             connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
