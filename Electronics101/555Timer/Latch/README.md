@@ -10,7 +10,10 @@ Here's a quick demo..
 
 ## Notes
 
+Pressing the button will toggle the output between on and off.
+
 This is a simple latching circuit for push-button on/off control using the 555 timer.
+See [LEAP#004](https://leap.tardate.com/playground/pushbuttonled/) for how you may do this with an Arduino instead.
 
 How it works:
 
@@ -35,13 +38,13 @@ How it works:
 
 ![schematic](./assets/Latch_schematic.jpg?raw=true)
 
-Testing on a breadbord:
+Testing on a breadboard:
 
 ![Latch_bb_build](./assets/Latch_bb_build.jpg?raw=true)
 
 ### Protoboard Build
 
-Transfering the design to a small protoboard so that it can be used as a latched switch input.
+Transferring the design to a small protoboard so that it can be used as a latched switch input.
 
 ![protoboard_build](./assets/protoboard_build.jpg?raw=true)
 
@@ -51,3 +54,4 @@ Transfering the design to a small protoboard so that it can be used as a latched
 * [Simple Latching Circuit using 555 timer](https://www.circuits-diy.com/simple-latching-circuit-using-555-timer/)
 * [Build a 555 Timer IC based Simple Push-on Push-off Circuit](https://circuitdigest.com/electronic-circuits/555-timer-push-on-push-off-circuit) - dodgy schematic and poor description
 * [555 LATCH Circuit](https://www.555-timer-circuits.com/latch.html) - another 555 "latch" circuit but this is different - uses an external latching circuit to enabled/disable a 555 astable.
+* [Toggle ON / OFF Switch with a single push-button](https://www.electronics-lab.com/project/toggle-on-off-switch/)
