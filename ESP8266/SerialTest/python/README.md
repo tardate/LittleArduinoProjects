@@ -54,6 +54,8 @@ AT+CIFSR
 OK
 ```
 
+![console](./assets/console.png)
+
 ### reset
 
 Reset the ESP board:
