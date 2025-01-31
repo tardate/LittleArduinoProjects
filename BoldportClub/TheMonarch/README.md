@@ -32,12 +32,11 @@ The Monarch is the third in a series of beautiful electronic "bug" boards from t
 
 ![Schematic](./assets/TheMonarch_schematic.jpg?raw=true)
 
-
 ### My Take on "How it Works"
 
 The core components:
 
-* a 555 astable timer that is enabled when the "feelers" are touched together, running at around [48 Hz](http://visual555.tardate.com/?mode=astable&r1=10&r2=10&c=1)
+* a 555 astable timer that is enabled when the "feelers" are touched together, running at around [48 Hz](https://visual555.tardate.com/?mode=astable&r1=10&r2=10&c=1)
 * 74HC273 D flip-flop, that latches the input (D) to the output (Q) on the rising edge of the clock input
 * a 74HC86 quad 2-input XOR
 
@@ -55,8 +54,8 @@ On the 4th clock cycle, Q4 goes low, XOR Y4 becomes 1, ... and so on.
 
 I wrote a little script to simulate this.
 
-```
-$ ./lfsr.py
+```sh
+./lfsr.py
 ```
 
 Which outputs (for the first 32 steps)..
@@ -96,15 +95,14 @@ Which outputs (for the first 32 steps)..
 |   30 |   1 |  1 |  0 |  0 |  0 |  1 |  0 |  0 |
 |   31 |   1 |  1 |  1 |  0 |  0 |  0 |  1 |  0 |
 
-
 The repeating pattern is obvious. This is actually an instance of a
 [linear-feedback shift register (LFSR)](https://en.wikipedia.org/wiki/Linear-feedback_shift_register).
 Since The Monarch has XOR taps at registers 8, 6, 5, 4, the feedback function can be expressed as `x^8 + x^6 + x^5 + x^4 + 1`
 
 With that function, it should repeat every 255 cycles. Which it does..
 
-```
-$ ./lfsr.py -1
+```sh
+./lfsr.py -1
 ```
 
 |  CLK |  Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 |
@@ -116,12 +114,9 @@ $ ./lfsr.py -1
 |  254 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  0 |
 |  255 |   1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
 
-
-
 Recently Julian Ilett delved deep into LFSRs in his inimitable style with "The 10,000 Year Shift Register":
 
 [![clip](https://img.youtube.com/vi/juoM7VhXQDM/0.jpg)](https://www.youtube.com/watch?v=juoM7VhXQDM)
-
 
 ### Construction
 
@@ -134,7 +129,6 @@ Recently Julian Ilett delved deep into LFSRs in his inimitable style with "The 1
 Here is a quick video of the LED sequencing in action:
 
 [![test drive](https://img.youtube.com/vi/tzV3l_iAMh8/0.jpg)](https://www.youtube.com/watch?v=tzV3l_iAMh8)
-
 
 ### All Bugs Together
 

@@ -1,7 +1,6 @@
-# #147 555Timer/VoltageDoublerChargePump
+# #147 555 Voltage Doubler Charge Pump
 
 Test a voltage-doubling charge pump circuit based on a 555 timer.
-
 
 ## Notes
 
@@ -12,7 +11,7 @@ This configuration can theoretically deliver an output voltage that is double th
 
 The 555 oscillator is configured with a reasonable larger R1 in order to minimise power loss in the 555 - in this configuration it draws only 5mA with no load.
 This means the frequency is a little lower that desirable at
-[13.9kHz](http://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.001).
+[13.9kHz](https://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.001).
 
 Flyback and output capacitors could be larger, but only only have on hand 1µF rated for over 16V.
 
@@ -26,29 +25,33 @@ Here are some measurements:
 | 1N5819 | 10kΩ |  47kΩ |   1nF |   1µF |   1µF | 10kΩ  | 9.25 |  8.5mA | -16.79 |  1.7mA |  78.6mW |  28.5mW | 36.3%      |
 | 1N5819 | 10kΩ |  47kΩ |   1nF |   1µF |   1µF | 100kΩ | 9.27 | 5.46mA | -18.18 |  182µA |  50.6mW |   3.3mW |  6.5%      |
 
-
 ### Some Conclusions
 
 Pretty much the same as for the InvertingChargePump circuit:
 
 Diode selection:
+
 * 1N5819 is ideal, maximising the voltage gain
 * but 1N4001 still works, with some loss, and there's not much benefit in using 1N4148 instead
 
 Frequency:
-* higher frequencies are more robust under varying loads (lower voltage drop at lower output impedences)
+
+* higher frequencies are more robust under varying loads (lower voltage drop at lower output impedances)
 
 Capacitor values:
+
 * for this circuit and range of loads, CF and CL should be at least 1µF
 * higher values get the circuit closer to unity gain
 * note the need to ensure the capacitors are rated for the voltage generated
 
-Output Impedence:
-* this circuit struggles to maintain voltage for low impedences (under 10kΩ)
+Output Impedance:
+
+* this circuit struggles to maintain voltage for low impedances (under 10kΩ)
 * understandable, since they want to rapidly deplete the output capacitor
-* for low impedence loads, the circuit would need to change so that a heavy charging current could be delivered via a BJT or FET
+* for low impedance loads, the circuit would need to change so that a heavy charging current could be delivered via a BJT or FET
 
 Oscillator:
+
 * the 555 chip is an expensive way to drive a low-power charge pump, being responsible for the bulk of conversion losses
 
 ## Construction
@@ -72,4 +75,3 @@ Oscillator:
 * [SMPS Tutorial (3): Charge Pumps, Buck Converters, Switched Mode Power Supplies](https://youtu.be/r_AAdxwfim8) - great overview from The Post Apocalyptic Inventor
 * [Calculating Essential Charge-Pump Parameters](http://powerelectronics.com/passive-components/calculating-essential-charge-pump-parameters) - detailed article on the workings of charge pumps
 * [Charge Pumps: An Overview by Louie Pylarinos](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.128.4085)
-

@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-01-26T13:18:00Z</updated>
+  <updated>2025-01-31T16:26:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -1006,6 +1006,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Reviewing and testing the Aguhajsu 1S 3A battery protection module for a single 18650 lithium-ion cell&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/batterymanagement/aguhajsu1s3a/assets/aguhajsu1s3a_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="BMS"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/simple555tester/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/simple555tester/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/simple555tester/assets/simple555tester_build.jpg</g:image_link>
+    <updated>2025-01-31T16:26:00Z</updated>
+    <title>#560 Simple 555 Tester</title>
+    <summary>Testing a simple 555 project published in Elektor Jul-1980. The circuit uses an astable configuration to verify the performance of a 555 timer chip.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a simple 555 project published in Elektor Jul-1980. The circuit uses an astable configuration to verify the performance of a 555 timer chip.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/simple555tester/assets/simple555tester_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/slowglow/</id>
@@ -3622,7 +3632,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/voltagecontrolledoscillator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/voltagecontrolledoscillator/assets/voltagecontrolledoscillator_build.jpg</g:image_link>
     <updated>2017-08-03T17:39:45Z</updated>
-    <title>#328 VoltageControlledOscillator/555</title>
+    <title>#328 555 Voltage Controlled Oscillator</title>
     <summary>a voltage-controlled oscillator (VCO) using the 555 timer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a voltage-controlled oscillator (VCO) using the 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/voltagecontrolledoscillator/assets/voltagecontrolledoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -4090,7 +4100,7 @@
     <link href="https://leap.tardate.com/electronics101/ultrasonicalarm/"/>
     <g:image_link>https://leap.tardate.com/electronics101/ultrasonicalarm/assets/ultrasonicalarm_build.jpg</g:image_link>
     <updated>2018-04-15T01:28:17Z</updated>
-    <title>#287 UltrasonicAlarm</title>
+    <title>#287 Ultrasonic Alarm</title>
     <summary>build an ultrasonic motion alarm with the HC-SR04 module and discrete logic</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build an ultrasonic motion alarm with the HC-SR04 module and discrete logic&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ultrasonicalarm/assets/ultrasonicalarm_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -5284,7 +5294,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/adjustablepulsegenerator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/adjustablepulsegenerator/assets/adjustablepulsegenerator_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#184 AdjustablePulseGenerator</title>
+    <title>#184 Adjustable Pulse Generator</title>
     <summary>widely-adjustable square wave generator using the 555 timer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;widely-adjustable square wave generator using the 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/adjustablepulsegenerator/assets/adjustablepulsegenerator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -5686,7 +5696,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/voltagedoublerchargepump/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/voltagedoublerchargepump/assets/voltagedoublerchargepump_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#147 VoltageDoublerChargePump</title>
+    <title>#147 555 Voltage Doubler Charge Pump</title>
     <summary>test a voltage-doubling charge pump circuit based on a 555 timer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a voltage-doubling charge pump circuit based on a 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/voltagedoublerchargepump/assets/voltagedoublerchargepump_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -5697,7 +5707,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/invertingchargepump/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/invertingchargepump/assets/invertingchargepump_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#146 InvertingChargePump</title>
+    <title>#146 Inverting Charge Pump</title>
     <summary>test an inverting charge pump circuit based on a 555 timer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test an inverting charge pump circuit based on a 555 timer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/invertingchargepump/assets/invertingchargepump_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -6130,7 +6140,7 @@
     <link href="https://leap.tardate.com/electronics101/ringcounter/"/>
     <g:image_link>https://leap.tardate.com/electronics101/ringcounter/assets/ringcounter_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#107 RingCounter</title>
+    <title>#107 Ring Counter</title>
     <summary>test the classic CD4017 walking-ring counter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test the classic CD4017 walking-ring counter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ringcounter/assets/ringcounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS"/>

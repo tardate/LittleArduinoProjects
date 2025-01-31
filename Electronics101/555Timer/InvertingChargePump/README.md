@@ -1,11 +1,11 @@
-# #146 555Timer/InvertingChargePump
+# #146 Inverting Charge Pump
 
 Test an inverting charge pump circuit based on a 555 timer.
-
 
 ## Notes
 
 The classic charge pump circuit uses a switching mechanism to alternately:
+
 * charge a "flying capacitor" from the power source
 * discharge the capacitor to an output capacitor, from which the load draws its power
 
@@ -20,13 +20,15 @@ For this experiment I'm testing an unregulated charge pump that can theoreticall
 To keep things simple, I'm using a 555 timer to govern the charging cycle.
 R1 is set low with respect to R2, to ensure a near-50% duty cycle.
 A variable resistance component of R2 allows adjustment of frequency over a wide range without greatly affecting duty cycle:
-* from [0.7kHz / 50% duty cycle](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=101&c=0.01)
-* to [64.9kHz / 55% duty cycle](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01)
+
+* from [0.7kHz / 50% duty cycle](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=101&c=0.01)
+* to [64.9kHz / 55% duty cycle](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01)
 
 Note that the charge pump is primed directly from the 555 timer output pin 3.
 555 chips are generally rated for a maximum of +/-200mA on its output pin, so this arrangement is necessarily only suitable for low-power loads.
 
 ### Some Measurements
+
 I've seen this circuit repeated over the internet, with a wide range of component values.
 And usually no explanation is to why particular values are used.
 So first a (tedious!) series of tests..
@@ -34,10 +36,12 @@ So first a (tedious!) series of tests..
 Input voltage under load is ~ 8.62V
 
 Frequencies, as measured with frequency counter:
+
 * Fmin = 0.795kHz (actual), cf 0.7kHz (expected)
 * Fmax = 73.434kHz (actual), cf 64.9kHz (expected)
 
 OK, next here's the table of output voltage measurements with variations in the circuit:
+
 * high and low charge frequencies
 * a range of output impedences, to see how stable the voltage is to load
 * flying and output capacitor values
@@ -127,12 +131,11 @@ OK, next here's the table of output voltage measurements with variations in the 
 | 1N5819 | 100µF | 100µF | 10kΩ  |  -8.14 |   -8.05 |
 | 1N5819 | 100µF | 100µF | 100kΩ |  -8.76 |   -8.65 |
 
-
 #### The "Sweet Spot" Configuration
 
 For this circuit and range of loads, higher frequencies are more robust, and CF/CL seem best when over 10µF.
 With the variable resistor replaced with fixed 555 astable configuration of
-[64.9kHz with 220Ω/1kΩ/10nF](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01),
+[64.9kHz with 220Ω/1kΩ/10nF](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.01),
 here are some measurements with larger capacitor values:
 
 | D1/D2  |  R1  |    R2 |    C1 |    CF | CL    | RL    | Vin  | Iin    | Vout  | Iload  | Pin     | Pout   | Efficiency |
@@ -167,7 +170,7 @@ Examining the internal schematic of the 555 in the datasheet, pin 7 is simply co
 so it is clear why there's a high load during discharge (VCC > 220Ω > C-E > GND).
 
 Moderating the 555 configuration with a larger R1 and sacrificing a little speed down to
-[13.9kHz](http://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.001), the 555 timer draws only 5mA with no load.
+[13.9kHz](https://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.001), the 555 timer draws only 5mA with no load.
 A check with a frequency counter confirms the circuit is running at 13.38kHz.
 
 Here are some new measurements:
@@ -184,22 +187,27 @@ and the power lost through the 555 has been greatly reduced.
 ### Some Conclusions
 
 Diode selection:
+
 * 1N5819 is ideal, maximising the voltage gain
 * but 1N4001 still works, with some loss, and there's not much benefit in using 1N4148 instead
 
 Frequency:
+
 * higher frequencies are more robust under varying loads (lower voltage drop at lower output impedences)
 
 Capacitor values:
+
 * for this circuit and range of loads, CF and CL should be at least 10µF
 * while 10µF is workable, higher values get the circuit closer to unity gain
 
 Output Impedence:
+
 * this circuit struggles to maintain voltage for low impedences (under 10kΩ)
 * understandable, since they want to rapidly deplete the output capacitor
 * for low impedence loads, the circuit would need to change so that a heavy charging current could be delivered via a BJT or FET
 
 Oscillator:
+
 * the 555 chip is an expensive way to drive a low-power charge pump, being responsible for the bulk of conversion losses
 
 ## Construction

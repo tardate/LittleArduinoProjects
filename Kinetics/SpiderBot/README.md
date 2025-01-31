@@ -16,7 +16,6 @@ The result: a motion alarm that not only barks at you, but scuttles back and for
 
 I think I'm channelling [Sid from Toy Story](http://pixar.wikia.com/wiki/Sid_Phillips) ..
 
-
 ### SpiderBot Kit
 
 It's a pretty cheap and basic kit, with a simple direct drive motor system that only does one thing.
@@ -33,7 +32,6 @@ Assembled the "normal" way...
 
 ![kit_assembled.jpg](./assets/kit_assembled.jpg.jpg?raw=true)
 
-
 ### Linking the PissOff
 
 The PissOff has an active low "audio enable" signal that appears to be the most useful trigger to
@@ -47,8 +45,7 @@ I attached at pin 1 of IC1 - the most accessible point.
 I decided to use a simple oscillator to get the spider legs to go forward and reverse when triggered by the PissOff.
 
 I'm using a 555 timer is configured for a fairly slow ~50% duty cycle of around
-[2.3s high / 2.3s low](http://visual555.tardate.com/?mode=astable&r1=1&r2=330&c=10).
-
+[2.3s high / 2.3s low](https://visual555.tardate.com/?mode=astable&r1=1&r2=330&c=10).
 
 The difficulty turnout out to be getting it to control the motor.
 It is a terribly noisy motor in the SpiderBot! I tried a few other DC motors that I can drive quite effectively,
@@ -56,10 +53,10 @@ but this one is totally obnoxious!
 
 * it totally messes with the 555 timer circuit
 * I've tried all manner of isolation:
-    - motor is switch with relay (with flyback diode)
-    - I've tried totally isolated electics (no common ground). It didn't help so the current incarnation does have a common ground.
-    - hefty smoothing/bypass capacitors
-    - importantly C7 capacitor across the relay switching FET was critical in getting anything decent
+    * motor is switch with relay (with flyback diode)
+    * I've tried totally isolated electrics (no common ground). It didn't help so the current incarnation does have a common ground.
+    * hefty smoothing/bypass capacitors
+    * importantly C7 capacitor across the relay switching FET was critical in getting anything decent
 
 I refused to give up, though the results I have so far are not great.
 It does not have a balanced duty cycle:

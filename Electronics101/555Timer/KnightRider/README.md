@@ -14,8 +14,8 @@ rather than allowing paired outputs to sink each other.
 
 ### Clock Generator
 
-The 555 timer is configured as an astable multivibrator, with a frequancy of
-[10.5 Hz at ~50% duty cycle](http://visual555.tardate.com/?mode=astable&r1=1&r2=68&c=1).
+The 555 timer is configured as an astable multivibrator, with a frequency of
+[10.5 Hz at ~50% duty cycle](https://visual555.tardate.com/?mode=astable&r1=1&r2=68&c=1).
 
 ### Decoding the LED Display
 
@@ -39,8 +39,7 @@ Steering diodes are used to prevent 4017 outputs sinking current back to another
 
 NB: diodes are omitted for LED1 and LED6 since they are only driven by one output. This does mean LED1 and LED6
 are driven with a slightly higher current than other LEDs, but the difference is not noticeable; to even
-up the current, redundant steering diodes could be added, or the current-limiting resistor increased propoertionally.
-
+up the current, redundant steering diodes could be added, or the current-limiting resistor increased proportionally.
 
 ## Construction
 

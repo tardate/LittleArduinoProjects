@@ -16,11 +16,11 @@ These also support a "clear" input, but since I'm not using that, all the CLR in
 The "toggle" mode corresponds to the state where both J and K inputs are high. In this situation, the output
 will invert on the clock pulse (falling edge for the 74LS73).
 
-A low-frequency 555 Timer astable oscillator provides a clock pulse of around [1.226 Hz](http://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=1), and so it is possible to follow the counter with the human eye.
+A low-frequency 555 Timer astable oscillator provides a clock pulse of around [1.226 Hz](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=1), and so it is possible to follow the counter with the human eye.
 
 ### Performance
 
-Here's a logic trace captured with the clock souped up to [470Hz](http://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1).
+Here's a logic trace captured with the clock souped up to [470Hz](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1).
 
 * Logic channel D0 is the clock signal, also traced on CH1
 * Logic channels D1, D2, D3, and D4 are the outputs from LSB to MSB
@@ -39,7 +39,7 @@ But if the counter is in turn an input to subsequent digital logic stages, the l
 
 There is a "synchronous" version of this circuit - see [LEAP#320](../SyncJKCounter) for this circuit.
 
-Here's a trace of 4 digit signals captured in analog with the clock souped up to [470Hz](http://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1):
+Here's a trace of 4 digit signals captured in analog with the clock souped up to [470Hz](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1):
 
 * CH1 is digit D3 (per the schematic) (MSB) - used for triggering on the falling edge, so we see all digit transitions together
 * CH2 is digit D2 (per the schematic)

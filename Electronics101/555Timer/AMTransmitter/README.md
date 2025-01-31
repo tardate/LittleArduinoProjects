@@ -15,8 +15,8 @@ Here's my variant. It doesn't get much simpler than this!
 
 The 555 is used to generate a carrier wave, with the pot adjusting the frequency between the
 extremes of
-[64.8kHz](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=11&c=0.001) and
-[648kHz](http://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.001).
+[64.8kHz](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=11&c=0.001) and
+[648kHz](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=1&c=0.001).
 Since R1 is comparatively small compared to R2, the duty cycle is kept close to 50%.
 
 The timer output (pin 3) drives the base of an NPN transistor which switches a signal to nowhere .. or at least just down a length of wire acting as the antenna. I used a BC547, but any small-signal NPN would work.

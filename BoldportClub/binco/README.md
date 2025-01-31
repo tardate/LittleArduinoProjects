@@ -9,7 +9,6 @@ BINCO is a little up or down "fidget" counter, Project #19 of the Boldport Club.
 The BINCO a binary counter that can be configured to count up or down. It uses Snaptron domes as buttons (on, slow/fast and reset).
 The heart of the counter is a 555 timer driving a 74HC4020D 14-bit Binary Counter from which 11 taps drive some nice reverse-mount LEDs.
 
-
 ## Parts and Unboxing
 
 ![kit_packaging](./assets/kit_packaging.jpg?raw=true)
@@ -38,8 +37,8 @@ The heart of the counter is a 555 timer driving a 74HC4020D 14-bit Binary Counte
 
 The 555 timer is in an astable configuration, initially disabled.
 
-* when "count slow" button is pressed, ti runs at around [15 Hz](http://visual555.tardate.com/?mode=astable&r1=1.5&r2=47&c=1)
-* when "count fast" button is pressed, it runs at around [320 Hz](http://visual555.tardate.com/?mode=astable&r1=1.5&r2=1.5&c=1)
+* when "count slow" button is pressed, ti runs at around [15 Hz](https://visual555.tardate.com/?mode=astable&r1=1.5&r2=47&c=1)
+* when "count fast" button is pressed, it runs at around [320 Hz](https://visual555.tardate.com/?mode=astable&r1=1.5&r2=1.5&c=1)
 
 The timer provides the clock pulse to the 74HC4020D 14-bit Binary Counter. The 74HC4020D provides 12 taps of a ripple-carry chain,
 but the first (pin 9) is not used, probably because the chip doesn't provide pins for the next two stages.

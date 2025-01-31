@@ -27,7 +27,7 @@ It is guaranteed break-before-make (max 58ns).
 
 The [TS3A5018.ino](./TS3A5018.ino) sketch uses two of the switches in a simple demonstration with an Arduino Uno and 555 timer:
 
-* one switch alters the timing capacitor in a 555 astable oscillator, switching the frequency from [1 Hz](http://visual555.tardate.com/?mode=astable&r1=1&r2=300&c=2.2) to  [2.4 Hz](http://visual555.tardate.com/?mode=astable&r1=1&r2=300&c=1)
+* one switch alters the timing capacitor in a 555 astable oscillator, switching the frequency from [1 Hz](https://visual555.tardate.com/?mode=astable&r1=1&r2=300&c=2.2) to  [2.4 Hz](https://visual555.tardate.com/?mode=astable&r1=1&r2=300&c=1)
 * another switch changes the LED (color) running on the oscillator output
 
 The TS3A5018 is only rated for 1.8 to 3.6V, so a 3.3V rail is used for the offboard circuit, and simple voltage divider level-shifts the Arduino output pin.

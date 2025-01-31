@@ -54,5 +54,5 @@ In order to ensure two LED flashes each cycle, the on time of the first timer mu
 
 * [project page on hackaday.io](https://hackaday.io/project/179479-freeform-popsicle-airways)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Visual 555 Calculator](http://visual555.tardate.com)
+* [Visual 555 Calculator](https://visual555.tardate.com)
 * [Aircraft Navigation Beacon](http://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html#Beacon) - talkingelectronics

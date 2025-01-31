@@ -1,0 +1,9 @@
+{
+    "id": "#560",
+    "name": "Simple 555 Tester",
+    "description": "Testing a simple 555 project published in Elektor Jul-1980. The circuit uses an astable configuration to verify the performance of a 555 timer chip.",
+    "categories": "555 Timer",
+    "relative_path": "Electronics101/555Timer/Simple555Tester",
+    "updated_at": "2025-01-31T16:26:00Z",
+    "created_at": "2025-01-31T16:26:00Z"
+}

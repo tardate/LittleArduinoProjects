@@ -1,6 +1,6 @@
 {
     "id": "#146",
-    "name": "InvertingChargePump",
+    "name": "Inverting Charge Pump",
     "description": "test an inverting charge pump circuit based on a 555 timer",
     "categories": "555 Timer, Power",
     "relative_path": "Electronics101/555Timer/InvertingChargePump",

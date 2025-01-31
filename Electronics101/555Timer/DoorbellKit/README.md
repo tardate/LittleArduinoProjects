@@ -16,13 +16,15 @@ It lacks the power control circuit, and draws about 4mA when idle - so if you ac
 on a regular basis.
 
 The basic operation is similar. When S1 pressed:
+
 * 555 timer reset (4) is pulled high and charges the R4/C1 RC circuit
 * it bypasses R1 (via D2) so that the 555 a-stable behaviour is governed by R2/R3/C2
-* speaker is driven with a [102.128 Hz](http://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.1) square wave
+* speaker is driven with a [102.128 Hz](https://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.1) square wave
 
 When S1 released:
+
 * R1 is added to the 555 a-stable biasing
-* speaker output modultes to [76.596 Hz](http://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.1)
+* speaker output modules to [76.596 Hz](https://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.1)
 
 The duration of the "dong" depends on the R4/C1 [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant),
 [470ms](https://www.wolframalpha.com/input/?i=47k%CE%A9+*+10%CE%BCF).
@@ -36,7 +38,7 @@ Here are some traces of the circuit in operation with 3 channels on a scope:
 * CH2: monitoring the pin 4 reset charge/discharge
 * CH3: monitoring the pin 3 output
 
-Here's a trace of the initial trigger shwoing the reset line coming high, and the oscillation kick-off:
+Here's a trace of the initial trigger showing the reset line coming high, and the oscillation kick-off:
 
 ![scope_trigger](./assets/scope_trigger.gif?raw=true)
 

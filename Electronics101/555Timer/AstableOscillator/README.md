@@ -16,7 +16,7 @@ This circuit produces a free-running square wave at the output pin 3, with frequ
 ### Selecting R1, R2, C1 Values
 
 The circuit described uses
-[R1=10k, R2=330k and C1=2.2uF](http://visual555.tardate.com?r1=10&r2=330&c=2.2),
+[R1=10k, R2=330k and C1=2.2uF](https://visual555.tardate.com?r1=10&r2=330&c=2.2),
 which results in a frequency of just about 1Hz and 50% duty cycle. i.e. half a second on, half a second off.
 
 When selecting R1, R2, and C1 values, note that:
@@ -33,7 +33,7 @@ The formulae for calculating timings are:
     frequency = 1.44 / ((R1 + 2 x R2) x C1)
 
 See the datasheet for your chip to confirm the formulae. You can also find various websites that offer 555 timer calculators,
-but I decided to write my own [Visual 555 Calculator](http://visual555.tardate.com) so that I could play around with HTML5 animation of the resulting circuit;-)
+but I decided to write my own [Visual 555 Calculator](https://visual555.tardate.com) so that I could play around with HTML5 animation of the resulting circuit;-)
 
 ### Powering the project
 
@@ -50,7 +50,7 @@ output pin 3 of the 555 timer.
 
 [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
-Here's a sample trace for [R1=10k, R2=330k and C1=2uF](http://visual555.tardate.com?r1=10&r2=330&c=2):
+Here's a sample trace for [R1=10k, R2=330k and C1=2uF](https://visual555.tardate.com?r1=10&r2=330&c=2):
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
@@ -65,5 +65,5 @@ Here's a sample trace for [R1=10k, R2=330k and C1=2uF](http://visual555.tardate.
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Visual 555 Calculator](http://visual555.tardate.com)
+* [Visual 555 Calculator](https://visual555.tardate.com)
 * [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=D6X64MWAYQPEYQJC)
