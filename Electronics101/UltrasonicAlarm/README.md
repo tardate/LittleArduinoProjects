@@ -1,4 +1,4 @@
-# #287 UltrasonicAlarm
+# #287 Ultrasonic Alarm
 
 Build an ultrasonic motion alarm with the HC-SR04 module and discrete logic.
 
@@ -30,20 +30,20 @@ This project is my adaptation of the Silicon Chip article. It includes some simp
 
 ### HC-SR04 Basics
 
-The HC-SR04 is a pretty smart and independant module, with a very simple control interface.
+The HC-SR04 is a pretty smart and independent module, with a very simple control interface.
 
 * to trigger a range test, send a Trigger TTL pulse >10µs
-* the unit runs the test independantly
+* the unit runs the test independently
 * echo pulse is produced, with a duration that is proportional to the distance. Distance = (high level time × velocity of sound)/2
 
 Note there is no explicit relationship between when the trigger pulse is sent and when the echo pulse is returned.
-They can be treated independantly.
+They can be treated independently.
 
 The module uses TCT40-16T "air ultrasonic ceramic transducers" that operate at 40kHz.
 
 ### Trigger Signal
 
-The 74LS14 schmitt inverter is used as a free-running oscilator. The LS variant I'm using here is not great with high resistance values
+The 74LS14 schmitt inverter is used as a free-running oscillator. The LS variant I'm using here is not great with high resistance values
 in an oscillator configuration - see [LEAP#022 SchmittOscillator](../Oscillators/SchmittOscillator) for more.
 
 So I've beefed up the capacitor to 10µF and fiddled the resistors to produce an
@@ -64,11 +64,11 @@ A 555 timer in monostable mode is used to generate the calibration pulse.
 It is triggered by the echo pulse, which is first inverted in one unit of the 74LS14.
 The C2/R3 filter integrates the pulse to produce a sharp trigger, with D2 sinking any positive spike.
 
-The 555 produce a pulse with a duration controlled by the R5 potentionmeter.
+The 555 produce a pulse with a duration controlled by the R5 potentiometer.
 The values I've selected provide for a calibration range:
 
-* min [1.1ms](http://visual555.tardate.com/?mode=monostable&r1=10&c=0.1) -  a distance of [18cm](https://www.wolframalpha.com/input/?i=0.0011+*+340%2F2)
-* max [12.1ms](http://visual555.tardate.com/?mode=monostable&r1=110&c=0.1) - a distance of [205cm](https://www.wolframalpha.com/input/?i=0.0121+*+340%2F2)
+* min [1.1ms](https://visual555.tardate.com/?mode=monostable&r1=10&c=0.1) -  a distance of [18cm](https://www.wolframalpha.com/input/?i=0.0011+*+340%2F2)
+* max [12.1ms](https://visual555.tardate.com/?mode=monostable&r1=110&c=0.1) - a distance of [205cm](https://www.wolframalpha.com/input/?i=0.0121+*+340%2F2)
 
 In order to calibrate for different ranges, C3 (or the resistors) can be substituted as appropriate.
 
@@ -78,12 +78,12 @@ The echo signal and the 555-generated calibration pulse are XORed with the CD407
 
 * logical 0 when the signals are in phase
 * logical 1 when the signals are out of phase. This can be one of two cases:
-  - the echo pulse is shorter than the calibration pulse (meaning something has come closer to the HC-SR04)
-  - the echo pulse is longer than the calibration pulse (meaning something has come moved away from the HC-SR04)
+    * the echo pulse is shorter than the calibration pulse (meaning something has come closer to the HC-SR04)
+    * the echo pulse is longer than the calibration pulse (meaning something has come moved away from the HC-SR04)
 
 ### "Alarm" Circuit
 
-The circuit includes an LED and piezzo buzzer indicator when the echo/calibration pulses are out of whack.
+The circuit includes an LED and piezo buzzer indicator when the echo/calibration pulses are out of whack.
 The LED and buzzer are switched with a simple low-side n-channel MOSFET.
 
 The output of the Pulse Width Comparator is dampened with an RC filter.
@@ -103,7 +103,6 @@ The circuit performs pretty well! Here are some scope traces with
 * CH3 (Red) - 555 output / comparator
 * CH4 (Green) - output control signal
 
-
 **Balanced Calibration - no alarm**
 ![scope-calibrated](./assets/scope-calibrated.gif?raw=true)
 
@@ -121,7 +120,7 @@ The circuit performs pretty well! Here are some scope traces with
 
 ![UltrasonicAlarm_bb_build](./assets/UltrasonicAlarm_bb_build.jpg?raw=true)
 
-## Construction - Put it in a Box!
+## Construction - Put it in a Box
 
 So this works quite well, so I decided to put it on protoboard in a box.
 

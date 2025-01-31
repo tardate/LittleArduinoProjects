@@ -1,21 +1,21 @@
-# #107 RingCounter
+# #107 Ring Counter
 
 Test the classic CD4017 walking-ring counter
 
-
 ## Notes
 
-This is a classic circuit, often marketed as a hobby kit under various names like "water flow effect" or somesuch.
+This is a classic circuit, often marketed as a hobby kit under various names like "water flow effect" or some such.
 
 In fact, it is a straight-forward demonstration of the basic operation of the CD4017 Decade Counter/Divider with 10 Decoded Outputs:
+
 * a 555 astable oscillator provides a clock pulse to the CD4017
 * the CD4017 counts in the "1 of 10" cyclic manner
 * the CD4017 outputs directly drive a series of LEDs
 * so one LED will be on at a time
 
 In this circuit, the variable resistor R1 gives control of the pulse frequency between
-[11Hz](http://visual555.tardate.com/?mode=astable&r1=2.2&r2=60&c=1) and
-[64Hz](http://visual555.tardate.com/?mode=astable&r1=2.2&r2=10&c=1).
+[11Hz](https://visual555.tardate.com/?mode=astable&r1=2.2&r2=60&c=1) and
+[64Hz](https://visual555.tardate.com/?mode=astable&r1=2.2&r2=10&c=1).
 
 The circuit can be powered over a wide range - from about 4.5V to 15V, depending on the ratings of the specific chips.
 LED brightness will be affected by the supply voltage, and below 9V it might be desirable to replace the 1kΩ current-limiting resistors with a lower value.

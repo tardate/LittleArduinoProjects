@@ -29,12 +29,11 @@ This is the end of the "roll".
 
 Obviously, this produces a pseudo-random roll. But it appears enough to produce an unbiased die roll.
 
-The basic frequency of the 555 timer output is [48Hz](http://visual555.tardate.com/?mode=astable&r1=10&r2=10&c=1).
+The basic frequency of the 555 timer output is [48Hz](https://visual555.tardate.com/?mode=astable&r1=10&r2=10&c=1).
 
 However the resistor R2 across the timing capacitor C4 forces the trigger voltage to be maintained.
 As the voltage from P2 reduces, this slows the frequency. When the threshold voltage can no longer rise above
 the trigger voltage, the "roll" stops.
-
 
 ### Auto Power-off
 
@@ -86,7 +85,6 @@ Steering diodes are used to control the transistors according to this table:
 | N2 (NPN) |      |      | X    |      | X    |      |      | Q4                  |
 | N3 (NPN) |      |      |      | X    |      |      |      | Q0, Q2, Q5          |
 
-
 The outputs from the 4017 decade counter are decoded thus:
 
 | Qhi | Qpin| Die | Col1 | Col2 | Col3 |
@@ -135,7 +133,6 @@ The power-off timer obviously needs to be longer than the roll duration:
 * for 12V supply, I use R19=R20=330kΩ and C5=47µF
 * for 9V supply, I use R19=330kΩ, R20=0 (short), and C5=47µF
 * for 5V supply, I use R19=1MΩ, R20=0 (short), and C5=47µF
-
 
 ## Construction
 

@@ -7,7 +7,7 @@ Use an Arduino to monitor an LM324 OpAmp in non-inverting DC gain mode and plot 
 This circuit demonstrates the non-inverting DC gain mode of an LM324 Operational Amplifier.
 
 A 555 astable circuit is used to generate an input signal with a low frequency of about 2Hz, obtained with the selection of
-[R1=1kΩ, R2=330kΩ and C1=1uF](http://visual555.tardate.com/?mode=astable&r1=1&r2=330&c=1).
+[R1=1kΩ, R2=330kΩ and C1=1uF](https://visual555.tardate.com/?mode=astable&r1=1&r2=330&c=1).
 
 The signal is scaled down with a 10kΩ/220Ω voltage divider to mimic a small signal input.
 

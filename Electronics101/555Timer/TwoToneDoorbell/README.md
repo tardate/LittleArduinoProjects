@@ -17,7 +17,7 @@ When the button is pressed, it triggers three actions:
 * it pulls Q1 gate high and charges the R5/C4 RC circuit
 
 While the button is down ("ding"), the frequency of 555 astable oscillation
-is governed by [R2=47kΩ, R3=47kΩ and C1=33nF](http://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.033),
+is governed by [R2=47kΩ, R3=47kΩ and C1=33nF](https://visual555.tardate.com/?mode=astable&r1=47&r2=47&c=0.033),
 which results in a frequency of about 309Hz.
 
 When the button is released:
@@ -26,7 +26,7 @@ When the button is released:
 * 555 remains triggered while C2 drains through R4
 
 The "dong" frequency of 555 astable oscillation
-is governed by [R1+R2=94kΩ, R3=47kΩ and C1=33nF](http://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.033),
+is governed by [R1+R2=94kΩ, R3=47kΩ and C1=33nF](https://visual555.tardate.com/?mode=astable&r1=94&r2=47&c=0.033),
 which results in a frequency of about 232Hz.
 
 The duration of the "dong" depends on the R4/C2 [RC time constant (𝛕)](http://en.wikipedia.org/wiki/RC_time_constant),
@@ -63,6 +63,6 @@ short-term replacement for a corroded/failed bell.
 
 * [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Visual 555 Calculator](http://visual555.tardate.com)
+* [Visual 555 Calculator](https://visual555.tardate.com)
 * [Two-tone Doorbell kit](http://cdselectronics.com/kits/two%20tone%20door%20bell.htm) - example of a similar circuit as a kit, using a mosfet for switching (looks like a very old site, not sure if still available).
 * [Two-tone Doorbell kit](https://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and an RC network to provide timed-on power.

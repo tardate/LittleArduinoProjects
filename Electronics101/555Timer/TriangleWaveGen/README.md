@@ -11,7 +11,7 @@ which results in the triangle waveform.
 
 To make the circuit easy to monitor and test visually, it is designed for a very low operating frequency of around 1Hz.
 
-The square wave is obtained with [R1=1kΩ, R2=22kΩ and C1=33uF](http://visual555.tardate.com/?mode=astable&r1=1&r2=22&c=33).
+The square wave is obtained with [R1=1kΩ, R2=22kΩ and C1=33uF](https://visual555.tardate.com/?mode=astable&r1=1&r2=22&c=33).
 This generates a signal with a frequency just under 1Hz; the period is actually 1029ms, and 51% duty cycle.
 
     cycle time = 0.693 x (R1 + 2 x R2) x C1
@@ -89,6 +89,6 @@ That also works fine! (It's just important to ensure there is a common ground co
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Visual 555 Calculator](http://visual555.tardate.com)
+* [Visual 555 Calculator](https://visual555.tardate.com)
 * [RC Time Constant](http://en.wikipedia.org/wiki/RC_time_constant)
 * [Download Processing](https://www.processing.org/download/)

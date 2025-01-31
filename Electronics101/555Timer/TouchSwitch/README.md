@@ -7,7 +7,7 @@ Test a touch switch circuit based on a 555 timer
 ## Notes
 
 This is basically a 555 timer monostable, but triggered by touch pad on pin 2 (trigger).
-I'm using a 100kΩ/10µF configuration which gives an output pulse of [1100ms](http://visual555.tardate.com/?mode=monostable&r1=100&c=10) when triggering occurs. The R/C values can be adjusted to change the pulse duration.
+I'm using a 100kΩ/10µF configuration which gives an output pulse of [1100ms](https://visual555.tardate.com/?mode=monostable&r1=100&c=10) when triggering occurs. The R/C values can be adjusted to change the pulse duration.
 
 The circuit takes advantage of the fact that the trigger input is quite sensitive since it is essentially the
 input to a PNP darlington-pair.

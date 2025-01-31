@@ -1,4 +1,4 @@
-# #328 555Timer/VoltageControlledOscillator
+# #328 555 Voltage Controlled Oscillator
 
 A voltage-controlled oscillator (VCO) using the 555 timer.
 
@@ -22,10 +22,9 @@ The simplified schematic of the 555 shows the control terminal directly connecte
 
 ![555_schematic](./assets/555_schematic.png?raw=true)
 
-
 ### Test Circuit
 
-I'm using a standard 555 astable tuned for [320Hz @ 51% duty cycle](http://visual555.tardate.com/?mode=astable&r1=1&r2=22&c=0.1).
+I'm using a standard 555 astable tuned for [320Hz @ 51% duty cycle](https://visual555.tardate.com/?mode=astable&r1=1&r2=22&c=0.1).
 That's too fast for the eye, but just enough for a good scope trace.
 
 To keep things simple, I'm using a simple voltage divider to allow easy measurement at different levels.
@@ -38,7 +37,6 @@ In the following scope traces, the three channels are connected as follows
 | CH2     | Blue   | threshold/trigger (pin 2 & 6) |
 | CH3     | Red    | control voltage (pin 5)       |
 
-
 #### Basic Astable Operation
 
 Well, it is meant to be running at a theoretical 320Hz. No doubt due to part tolerances and breadboard losses,
@@ -47,7 +45,6 @@ I have the circuit running hot at 553Hz (50.3% duty cycle) when put on a scope.
 This is the trace of the standard circuit with the control voltage disconnected
 
 ![scope_basic_astable](./assets/scope_basic_astable.gif?raw=true)
-
 
 #### Attaching the Control Voltage
 
@@ -64,7 +61,6 @@ I tried some ferrite beads to no great benefit. But adding a 10nF capacitor (C3)
 
 Here is a tabulation of a sampling of results for different control voltages.
 Note that I'm using a nominal 9V supply (batteries).
-
 
 | Control Voltage | Output Frequency | Duty Cycle |
 |-----------------|------------------|------------|
@@ -90,7 +86,6 @@ Conclusions:
 #### 8.32 V, 364 Hz, 74% Duty
 
 ![scope_364](./assets/scope_364.gif?raw=true)
-
 
 ## Construction
 

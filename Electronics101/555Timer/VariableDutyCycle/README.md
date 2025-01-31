@@ -69,7 +69,7 @@ However the stability of the frequency, and the variation as the resistance is c
 
 To be able to see the duty cycle variation, I slowed the circuit down by replacing the 10nF C1 with a 10µF electrolytic capacitor.
 This would predict a basic frequency of around
-[2.2Hz](http://visual555.tardate.com/?mode=astable&r1=45.1&r2=9.79&c=10).
+[2.2Hz](https://visual555.tardate.com/?mode=astable&r1=45.1&r2=9.79&c=10).
 In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu.be/UJAR0J1mjsE).
 
 ## Construction
@@ -84,4 +84,4 @@ In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [LEAP#016 AstableOscillator](../AstableOscillator) - the basic 555 timer astable circuit
-* [Visual 555 Calculator](http://visual555.tardate.com)
+* [Visual 555 Calculator](https://visual555.tardate.com)

@@ -82,8 +82,8 @@ I flipped the S8050 transistors so they match the schematic; all working well:
 The clock signal is generated with a standard 555 time astable oscillator.
 
 The 50kΩ trimmer potentiometer allows the frequency to be adjusted from
-[1.35 Hz](http://visual555.tardate.com/?mode=astable&r1=2.2&r2=52.2&c=10) to
-[21.8 Hz](http://visual555.tardate.com/?mode=astable&r1=2.2&r2=2.2&c=10).
+[1.35 Hz](https://visual555.tardate.com/?mode=astable&r1=2.2&r2=52.2&c=10) to
+[21.8 Hz](https://visual555.tardate.com/?mode=astable&r1=2.2&r2=2.2&c=10).
 
 ### LED Control
 

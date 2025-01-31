@@ -819,6 +819,14 @@
             "BMS"
         ]
     },
+    "/electronics101/555timer/simple555tester/": {
+        "id": 560,
+        "title": "Simple 555 Tester",
+        "summary": "Testing a simple 555 project published in Elektor Jul-1980. The circuit uses an astable configuration to verify the performance of a 555 timer chip.",
+        "tags": [
+            "555 Timer"
+        ]
+    },
     "/electronics101/555timer/slowglow/": {
         "id": 559,
         "title": "Slow Glow",
@@ -2969,7 +2977,7 @@
     },
     "/electronics101/555timer/voltagecontrolledoscillator/": {
         "id": 328,
-        "title": "VoltageControlledOscillator/555",
+        "title": "555 Voltage Controlled Oscillator",
         "summary": "a voltage-controlled oscillator (VCO) using the 555 timer",
         "tags": [
             "Oscillators",
@@ -3355,7 +3363,7 @@
     },
     "/electronics101/ultrasonicalarm/": {
         "id": 287,
-        "title": "UltrasonicAlarm",
+        "title": "Ultrasonic Alarm",
         "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic",
         "tags": [
             "555 Timer",
@@ -4343,7 +4351,7 @@
     },
     "/electronics101/555timer/adjustablepulsegenerator/": {
         "id": 184,
-        "title": "AdjustablePulseGenerator",
+        "title": "Adjustable Pulse Generator",
         "summary": "widely-adjustable square wave generator using the 555 timer",
         "tags": [
             "555 Timer",
@@ -4671,7 +4679,7 @@
     },
     "/electronics101/555timer/voltagedoublerchargepump/": {
         "id": 147,
-        "title": "VoltageDoublerChargePump",
+        "title": "555 Voltage Doubler Charge Pump",
         "summary": "test a voltage-doubling charge pump circuit based on a 555 timer",
         "tags": [
             "555 Timer",
@@ -4680,7 +4688,7 @@
     },
     "/electronics101/555timer/invertingchargepump/": {
         "id": 146,
-        "title": "InvertingChargePump",
+        "title": "Inverting Charge Pump",
         "summary": "test an inverting charge pump circuit based on a 555 timer",
         "tags": [
             "555 Timer",
@@ -5035,7 +5043,7 @@
     },
     "/electronics101/ringcounter/": {
         "id": 107,
-        "title": "RingCounter",
+        "title": "Ring Counter",
         "summary": "test the classic CD4017 walking-ring counter",
         "tags": [
             "CMOS",

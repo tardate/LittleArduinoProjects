@@ -1,6 +1,6 @@
 {
     "id": "#147",
-    "name": "VoltageDoublerChargePump",
+    "name": "555 Voltage Doubler Charge Pump",
     "description": "test a voltage-doubling charge pump circuit based on a 555 timer",
     "categories": "555 Timer, Power",
     "relative_path": "Electronics101/555Timer/VoltageDoublerChargePump",
