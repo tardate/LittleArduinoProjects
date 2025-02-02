@@ -20,8 +20,8 @@ layout: default
               {% assign project_description = project["description"] %}
               {% assign hero_image_url = project_path  | prepend: site.baseurl | append: "/assets/" | append: project_name | append: "_build_thumbnail.jpg" %}
               <a href="{{ project_path | prepend: site.baseurl }}"
-                data-toggle="tooltip" data-placement="bottom" title="{{ leap_id }} {{ project_title }} - {{ project_description }}">
-                <img class="media-object" src="{{ hero_image_url }}" alt="{{ project_title }}">
+                data-toggle="tooltip" data-placement="bottom" title="{{ leap_id }} {{ project_title | escape }} - {{ project_description  | escape }}">
+                <img class="media-object" src="{{ hero_image_url }}" alt="{{ project_title | escape }}">
               </a>
             {% endfor %}
           </div>
