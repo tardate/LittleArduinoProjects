@@ -1,4 +1,12 @@
 {
+    "/electronics101/cd4069/pushbuttonlatch/": {
+        "id": 761,
+        "title": "Inverter-based Push Button Latch",
+        "summary": "A latching pushbutton circuit using a CMOS inverter (CD4069)",
+        "tags": [
+            "CMOS/TTL"
+        ]
+    },
     "/electronics101/power/aaa5vpower/": {
         "id": 760,
         "title": "AAA 5v Power Pack",

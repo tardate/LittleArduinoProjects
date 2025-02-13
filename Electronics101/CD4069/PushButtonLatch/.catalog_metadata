@@ -1,0 +1,9 @@
+{
+    "name": "Inverter-based Push Button Latch",
+    "description": "A latching pushbutton circuit using a CMOS inverter (CD4069)",
+    "categories": "CMOS/TTL",
+    "relative_path": "Electronics101/CD4069/PushButtonLatch",
+    "updated_at": "2025-02-13T14:08:00Z",
+    "created_at": "2025-02-13T14:08:00Z",
+    "id": "#761"
+}
