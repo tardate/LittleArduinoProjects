@@ -1,6 +1,6 @@
-# 647 Little Electronic Art Projects
+# 648 Little Electronic Art Projects
 
-> Latest addition:sparkles: [AAA 5v Power Pack](./Electronics101/Power/AAA5vPower) - Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.
+> Latest addition:sparkles: [Inverter-based Push Button Latch](./Electronics101/CD4069/PushButtonLatch) - A latching pushbutton circuit using a CMOS inverter (CD4069)
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
