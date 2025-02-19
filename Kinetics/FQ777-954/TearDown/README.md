@@ -1,4 +1,4 @@
-# #225 FQ777-954/TearDown
+# #225 FQ777-954 Tear Down
 
 Teardown an FQ777-954 nano drone and figure out as much of the technical design as possible.
 
@@ -23,7 +23,7 @@ to figure out and collate to date.
 This is basically the extent of the information available from most sources:
 
 * Channel: 4CH Gyro: 6 axis Flight Duration: 6-7 Minutes Quadcopter Control Distance: 30 meters
-* Recharging Time: 25mins Battery For Quadcopter: 3.7V 150mAh/25C(included) Battery For Transmiter: 2 x AAA Battery (not included)
+* Recharging Time: 25mins Battery For Quadcopter: 3.7V 150mAh/25C(included) Battery For Transmitter: 2 x AAA Battery (not included)
 * Quadcopter weight: 17g
 * Product size: 60x60x26mm
 * Camera: 0.3Megapixel(480P)/Photo Quality 640x480 / Video Quality 640x480,30FPS
@@ -42,7 +42,7 @@ They also offer OEM arrangements, so it is possible that other "similar" drones 
 
 The FQ777-954 uses a conventional quadcoptor configuration of counter-rotating propellers to offset torque:
 
-![Teardown_rotors](./assets/Teardown_rotors.png?raw=true)
+![Teardown_rotors](./assets/Teardown_rotors.jpg?raw=true)
 
 ### Disassembly
 
@@ -78,7 +78,6 @@ Underside of the main processor board, featuring:
 
 ![Teardown_5_pcb_lower](./assets/Teardown_5_pcb_lower.jpg?raw=true)
 
-
 ### Processor Board
 
 The main detail I haven't been able to pin down is perhaps the most important - which processor does it use?
@@ -90,15 +89,13 @@ Main components:
 * [Marvell 88W8801 IEEE 802.11n (1x1) single-band (2.4GHz) Wi-Fi SoC with integrated PA, LNA, and TX/RX Switch](http://www.marvell.com/microcontrollers/wi-fi-microcontroller-platform/wi-fi/)
 * [BergMicro BG25Q80ASICG 8M-bit Serial Peripheral Interface(SPI) Flash memory](http://www.trolink.cn/Products/BG25Q80A.html)
 
-
 ### Receiver Board
 
 The so-called receiver board also doubles as the structural component that holds the motors in position as well as the LEDs.
 
 * [F16867 FQ777-954-02 Receiver Board for 954 The Eyes RC Quadcopter Drone Accessories Spare Parts](https://www.aliexpress.com/item/F16867-FQ777-954-02-Receiver-Board-for-954-The-Eyes-RC-Quadcopter-Drone-Accessories-Spare-Parts/32602860102.html)
 
-![parts-receiver](./assets/parts-receiver.png?raw=true)
-
+![parts-receiver](./assets/parts-receiver.jpg?raw=true)
 
 ### Camera
 
@@ -109,7 +106,7 @@ The so-called receiver board also doubles as the structural component that holds
 
 * [F16864 /66 FQ777-954-01 Chassis Upper Case + Lower Case for FQ777 954 The Eyes RC Quadcopter](https://www.aliexpress.com/item/F16864-66-FQ777-954-01-Chassis-Upper-Case-Lower-Case-for-FQ777-954-The-Eyes-RC/32613923072.html)
 
-![parts-chassis](./assets/parts-chassis.png?raw=true)
+![parts-chassis](./assets/parts-chassis.jpg?raw=true)
 
 ### Motors
 
@@ -117,34 +114,33 @@ The so-called receiver board also doubles as the structural component that holds
 
 * [4pcs 1set FQ777-126C drone Spare Parts Motor 2pcs CW Motor and 2 pcs CCW Motor for FQ777 126C RC Helicopter Quadcopter](https://www.aliexpress.com/item/4pcs-1set-FQ777-126C-drone-Spare-Parts-Motor-2pcs-CW-Motor-and-2-pcs-CCW-Motor/32673422957.html)
 
-![parts-motors](./assets/parts-motors.png?raw=true)
+![parts-motors](./assets/parts-motors.jpg?raw=true)
 
 ### Rotors
 
 * [Free Shipping FQ777-124 Cheerson CX-10 CX-10A RC Quadcopter Parts Blade Propeller 5set=20pcs](https://www.aliexpress.com/item/Free-Shipping-FQ777-124-Cheerson-CX-10-CX-10A-RC-Quadcopter-Parts-Blade-Propeller-5set-20pcs/32458373757.html)
 
-![parts-propellers](./assets/parts-propellers.png?raw=true)
+![parts-propellers](./assets/parts-propellers.jpg?raw=true)
 
 ### USB Charging Cable
 
 * [FQ777-124 / Cheerson CX-10/cx-10A/cx-10W RC Quadcopter Spare Parts USB Charging Cable CX-10-012 RC quadcopter](https://www.aliexpress.com/item/FQ777-124-Cheerson-CX-10-cx-10A-RC-Quadcopter-Spare-Parts-USB-Charging-Cable-CX-10/32517023241.html)
 
-![parts-charger](./assets/parts-charger.png?raw=true)
+![parts-charger](./assets/parts-charger.jpg?raw=true)
 
 ### Battery
 
 * 3.7V 150mAh 15L19
 * [FQ777-954 FQ777 954 MINI Quadcopter 3.7V 150mAh 25c Li-Po battery Spare Parts](https://www.aliexpress.com/item/FQ777-954-FQ777-954-MINI-Quadcopter-3-7V-150mAh-25c-Li-Po-battery-Spare-Parts/32652226271.html)
 
-![parts-battery](./assets/parts-battery.png?raw=true)
-
+![parts-battery](./assets/parts-battery.jpg?raw=true)
 
 ## Credits and References
 
 * [FQ777 954 FQ777-954 Mini Drone The Eyes RC Quadcopter WIFI FPV with 0.3MP Camera 4CH 6Axis APP Control BNF & RTF](https://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html) - example available from an aliexpress seller
 * [fuqitoys](http://fuqitoys.en.alibaba.com/) - manufacturer
 * [FQ777-954 Factory-direct](http://fuqitoys.en.alibaba.com/product/60415170562-801977057/FQ777_954_Nano_wifi_control_nano_drone_fpv_with_camera_rc_quadcopter.html)
-* [How to hack IP camera in toy drone ](https://www.reddit.com/r/HowToHack/comments/4512il/how_to_hack_ip_camera_in_toy_drone/)
+* [How to hack IP camera in toy drone](https://www.reddit.com/r/HowToHack/comments/4512il/how_to_hack_ip_camera_in_toy_drone/)
 * [Open source firmware for toy drones](http://diydrones.com/profiles/blogs/open-source-firmware-for-toy-drones)
 * [Eachine H8 mini acro firmware](https://github.com/silver13/h8mini-acro)
 * [python code for controlling the FQ777-954 drone through wifi](https://github.com/voorloopnul/drone-fq777-954)
