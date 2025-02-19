@@ -3979,7 +3979,7 @@
     },
     "/kinetics/fq777-954/teardown/": {
         "id": 225,
-        "title": "FQ777-954/TearDown",
+        "title": "FQ777-954 Tear Down",
         "summary": "teardown an FQ777-954 nano drone and figure out as much of the technical design as possible",
         "tags": [
             "Drones",

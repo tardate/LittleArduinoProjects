@@ -1,4 +1,4 @@
-# #225 FQ777-954/TearDown
+# #225 FQ777-954 Tear Down
 
 Teardown an FQ777-954 nano drone and figure out as much of the technical design as possible.
 
