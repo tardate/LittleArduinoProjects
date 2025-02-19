@@ -1,6 +1,13 @@
-# Notebook
+# #577 Notebook
+
+My personal electronics notebook of reference materials and other information.
+
+![Build](./assets/pcb_fab_build.jpg?raw=true)
+
+## Sections
 
 * [Arduino Tech Notes](./arduino/)
+* [Digital Logic Families](./logic_families/)
 * [PCB Fabrication](./pcb_fab/)
 
 ## Electronics Online/eBooks

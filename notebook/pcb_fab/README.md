@@ -1,4 +1,10 @@
-# PCB Fabrication
+# #579 PCB Fabrication
+
+My personal notebook on PCB fabrication options.
+
+![Build](./assets/pcb_fab_build.jpg?raw=true)
+
+## Notes
 
 To go beyond breadboards, Manhattan or other home-brew techniques for circuit fabrication, there are basically 3 options:
 
@@ -20,6 +26,7 @@ To go beyond breadboards, Manhattan or other home-brew techniques for circuit fa
 * [ShiftDriveModule](../playground/LED7Segment/ShiftDriveModule) - sent to [OSH Park](https://oshpark.com/)
 
 ## More Guides and References
+
 * [Fritzing Guide to PCB Production](http://fritzing.org/learning/tutorials/pcb-production-tutorials/)
 
 ## PCB Design Tools
