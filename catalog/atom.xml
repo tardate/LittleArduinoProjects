@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-02-13T14:08:00Z</updated>
+  <updated>2025-02-20T07:34:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -832,6 +832,49 @@
     <summary>Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/ysj181222/assets/ysj181222_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/notebook/logic_families/</id>
+    <link href="https://leap.tardate.com/notebook/logic_families/"/>
+    <g:image_link>https://leap.tardate.com/notebook/logic_families/assets/logic_families_build.jpg</g:image_link>
+    <updated>2025-02-20T07:34:00Z</updated>
+    <title>#580 Digital Logic Families</title>
+    <summary>My personal notebook on digital logic families, chip listings, and reference sources</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;My personal notebook on digital logic families, chip listings, and reference sources&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/notebook/logic_families/assets/logic_families_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="Notebook"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/notebook/pcb_fab/</id>
+    <link href="https://leap.tardate.com/notebook/pcb_fab/"/>
+    <g:image_link>https://leap.tardate.com/notebook/pcb_fab/assets/pcb_fab_build.jpg</g:image_link>
+    <updated>2025-02-20T07:34:00Z</updated>
+    <title>#579 PCB Fabrication</title>
+    <summary>My personal notebook on PCB fabrication options</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;My personal notebook on PCB fabrication options&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/notebook/pcb_fab/assets/pcb_fab_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="PCB"/>
+    <category term="Notebook"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/notebook/arduino/</id>
+    <link href="https://leap.tardate.com/notebook/arduino/"/>
+    <g:image_link>https://leap.tardate.com/notebook/arduino/assets/arduino_build.jpg</g:image_link>
+    <updated>2025-02-20T07:34:00Z</updated>
+    <title>#578 Arduino Tech Notes</title>
+    <summary>My personal notebook on Arduino technical information and references</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;My personal notebook on Arduino technical information and references&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/notebook/arduino/assets/arduino_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
+    <category term="Notebook"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/notebook/</id>
+    <link href="https://leap.tardate.com/notebook/"/>
+    <g:image_link>https://leap.tardate.com/notebook/assets/notebook_build.jpg</g:image_link>
+    <updated>2025-02-20T07:34:00Z</updated>
+    <title>#577 Notebook</title>
+    <summary>My personal electronics notebook of reference materials and other information</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;My personal electronics notebook of reference materials and other information&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/notebook/assets/notebook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Notebook"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/spraybooth/</id>

@@ -1,4 +1,8 @@
-# Arduino Notes
+# #578 Arduino Tech Notes
+
+My personal notebook on Arduino technical information and references.
+
+![Build](./assets/arduino_build.jpg?raw=true)
 
 ## Prime Links
 

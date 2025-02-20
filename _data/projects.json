@@ -675,6 +675,41 @@
             "LED"
         ]
     },
+    "/notebook/logic_families/": {
+        "id": 580,
+        "title": "Digital Logic Families",
+        "summary": "My personal notebook on digital logic families, chip listings, and reference sources",
+        "tags": [
+            "CMOS/TTL",
+            "Notebook"
+        ]
+    },
+    "/notebook/pcb_fab/": {
+        "id": 579,
+        "title": "PCB Fabrication",
+        "summary": "My personal notebook on PCB fabrication options",
+        "tags": [
+            "PCB",
+            "Notebook"
+        ]
+    },
+    "/notebook/arduino/": {
+        "id": 578,
+        "title": "Arduino Tech Notes",
+        "summary": "My personal notebook on Arduino technical information and references",
+        "tags": [
+            "Arduino",
+            "Notebook"
+        ]
+    },
+    "/notebook/": {
+        "id": 577,
+        "title": "Notebook",
+        "summary": "My personal electronics notebook of reference materials and other information",
+        "tags": [
+            "Notebook"
+        ]
+    },
     "/equipment/spraybooth/": {
         "id": 576,
         "title": "Spray Booth",
