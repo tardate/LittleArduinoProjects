@@ -53,7 +53,7 @@ Without a controller, it can be flown with the RC Leading mobile application.
 
 The top comes of:
 
-* remove the rotors - requires a bit of force or a level/tool (they are press-fit)
+* remove the rotors - requires a bit of force or a lever/tool (they are press-fit)
 * remove the 4 screw on the underside of the rotor arms
 
 ![Teardown_2_top_off](./assets/Teardown_2_top_off.jpg?raw=true)
@@ -130,8 +130,10 @@ The so-called receiver board also doubles as the structural component that holds
 
 ### Battery
 
-* 3.7V 150mAh 15L19
-* [FQ777-954 FQ777 954 MINI Quadcopter 3.7V 150mAh 25c Li-Po battery Spare Parts](https://www.aliexpress.com/item/FQ777-954-FQ777-954-MINI-Quadcopter-3-7V-150mAh-25c-Li-Po-battery-Spare-Parts/32652226271.html)
+* 3.7V 150mAh 15L19. Measures approximately 15mm x 19mm x 6mm.
+* [FQ777-954 FQ777 954 MINI Quadcopter 3.7V 150mAh 25c Li-Po battery Spare Parts](https://www.aliexpress.com/item/FQ777-954-FQ777-954-MINI-Quadcopter-3-7V-150mAh-25c-Li-Po-battery-Spare-Parts/32652226271.html) (no longer available)
+* Current options
+    * [3.7V 150mAh LiPo Rechargeable Battery Lithium Polymer 601417](https://www.aliexpress.com/item/33052668384.html)
 
 ![parts-battery](./assets/parts-battery.jpg?raw=true)
 
@@ -159,6 +161,8 @@ NB: drone power switch must be in the "off" position for charging to start
 
 #### Mobile Application
 
+(update as of 2025-02-20)
+
 The original application released for use with the drone is no longer available in the Google Play store: <https://play.google.com/store/apps/details?id=com.lewei.multiple.rcleading>
 
 I've tried a range of other apps currently in the Google Play store, but none seem to be compatible.
@@ -167,6 +171,9 @@ It seems that a v3.5 APK of the RC-Leading app is available for download from ot
 <https://apkpure.com/rc-leading/com.lewei.multiple.rcleading>.
 
 I downloaded this to an old/spare Android phone, and it works fine without any apparent issues.
+
+The drone is still operational, however the lithium battery is showing signs of age. A full charge will only keep the drone in the air for a couple of minutes.
+I may consider replacing the battery to give this drone a little more life.
 
 ## Credits and References
 
