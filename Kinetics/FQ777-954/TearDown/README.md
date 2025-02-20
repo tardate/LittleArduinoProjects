@@ -135,6 +135,39 @@ The so-called receiver board also doubles as the structural component that holds
 
 ![parts-battery](./assets/parts-battery.jpg?raw=true)
 
+### Using the Drone
+
+#### Power Switch
+
+It's not clear in any of the documentation, and there are no marks on the drone, but the drone power switch functions as follows:
+
+* switch right: drone off or for charging
+* switch left: drone on
+
+![Teardown_switch](./assets/Teardown_switch.jpg)
+
+#### Charging
+
+Contrary to some of the printed documentation, the charging cable I received with the drone behaves as follows:
+
+* when charging in progress - no light
+* when fully charged (as depicted in the picture below) - charging will stop and the red light in the USB adapter will glow
+
+NB: drone power switch must be in the "off" position for charging to start
+
+![charging-charged](./assets/charging-charged.jpg)
+
+#### Mobile Application
+
+The original application released for use with the drone is no longer available in the Google Play store: <https://play.google.com/store/apps/details?id=com.lewei.multiple.rcleading>
+
+I've tried a range of other apps currently in the Google Play store, but none seem to be compatible.
+
+It seems that a v3.5 APK of the RC-Leading app is available for download from other sources, such as
+<https://apkpure.com/rc-leading/com.lewei.multiple.rcleading>.
+
+I downloaded this to an old/spare Andriod phone, and it works fine without any apparent issues.
+
 ## Credits and References
 
 * [FQ777 954 FQ777-954 Mini Drone The Eyes RC Quadcopter WIFI FPV with 0.3MP Camera 4CH 6Axis APP Control BNF & RTF](https://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html) - example available from an aliexpress seller
