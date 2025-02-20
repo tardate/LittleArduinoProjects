@@ -166,7 +166,7 @@ I've tried a range of other apps currently in the Google Play store, but none se
 It seems that a v3.5 APK of the RC-Leading app is available for download from other sources, such as
 <https://apkpure.com/rc-leading/com.lewei.multiple.rcleading>.
 
-I downloaded this to an old/spare Andriod phone, and it works fine without any apparent issues.
+I downloaded this to an old/spare Android phone, and it works fine without any apparent issues.
 
 ## Credits and References
 
