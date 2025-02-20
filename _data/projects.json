@@ -675,6 +675,14 @@
             "LED"
         ]
     },
+    "/notebook/calculators/": {
+        "id": 581,
+        "title": "Calculators",
+        "summary": "Catalog of online tools for electrical and electronic conversion, identification and calculation.",
+        "tags": [
+            "Notebook"
+        ]
+    },
     "/notebook/logic_families/": {
         "id": 580,
         "title": "Digital Logic Families",
