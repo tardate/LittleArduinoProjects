@@ -598,6 +598,15 @@
             "Arduino"
         ]
     },
+    "/electronics101/74hc14/voltagemultiplier/": {
+        "id": 593,
+        "title": "74HC14 Inverter Voltage Multiplier",
+        "summary": "Testing a voltage multiplier circuit based on a 74HC14 inverter-driven bucket brigade",
+        "tags": [
+            "CMOS/TTL",
+            "Power"
+        ]
+    },
     "/kraft/snowflake/lamp/": {
         "id": 592,
         "title": "Snowflake Lamp",
