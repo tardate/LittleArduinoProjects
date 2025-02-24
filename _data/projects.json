@@ -675,6 +675,15 @@
             "LED"
         ]
     },
+    "/electronics101/74ls14/schmittoscillator/": {
+        "id": 582,
+        "title": "74LS14 Schmitt Oscillator",
+        "summary": "About the 74LS14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
     "/notebook/calculators/": {
         "id": 581,
         "title": "Calculators",

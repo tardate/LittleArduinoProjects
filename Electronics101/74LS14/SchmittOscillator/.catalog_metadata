@@ -1,0 +1,9 @@
+{
+    "id": "#582",
+    "name": "74LS14 Schmitt Oscillator",
+    "description": "About the 74LS14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator",
+    "categories": "CMOS/TTL, Oscillators",
+    "relative_path": "Electronics101/74LS14/SchmittOscillator",
+    "updated_at": "2025-02-25T04:03:00Z",
+    "created_at": "2025-02-25T04:03:00Z"
+}
