@@ -13,7 +13,8 @@ The input and output levels are read with analog input pins, and the values is e
 
 All unused outputs on the 74LS14 are left open circuit. Unused inputs are grounded, as is recommended to avoid unstable operation.
 
-The frequency of the oscillation is calculated as:
+The frequency of the oscillation is calculated as
+[1.77 Hz](https://www.wolframalpha.com/input?i=1+%2F+%281.2+*+1k%CE%A9+*+470%C2%B5F%29):
 
     f = 1 / (1.2 * R * C)
     f = 1 / (1.2 * 1kΩ * 470µF)
@@ -34,10 +35,10 @@ To oscillate at all, R values must be kept between 100Ω and 1kΩ, and C between
 
 Apparently 74HC14 has a duty cycle more like 50% and can handle higher values of R (but I don't have one handy to test).
 
-See [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html) for more, and
-[Circuit Properties of LS and HC Digital Logic](http://mysite.du.edu/~etuttle/electron/elect13.htm) for comparison of LS and HC characteristics.
+See [Schmitt Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html) for more, and
+[Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm) for comparison of LS and HC characteristics.
 
-See the [RingOscillator](../RingOscillator) project for a related application of inverters in waveform generation.
+See the [RingOscillator](https://leap.tardate.com/electronics101/oscillators/ringoscillator/ ) project for a related application of inverters in waveform generation.
 
 ### Construction
 
@@ -50,7 +51,7 @@ See the [RingOscillator](../RingOscillator) project for a related application of
 ## Credits and References
 
 * [74LS14 Datasheet](https://www.futurlec.com/74LS/74LS14.shtml)
-* [Schmitt Trigger Oscillators?!](http://forum.arduino.cc/index.php?topic=147691.0) in the Arduino forums
-* [Schmitt Waveform Generators](http://www.electronics-tutorials.ws/waveforms/generators.html) - very informative; compares LS14 with alternatives for waveform generation.
-* [Circuit Properties of LS and HC Digital Logic](http://mysite.du.edu/~etuttle/electron/elect13.htm)
-* [Schmitt Trigger Oscillator](http://electronics-course.com/schmitt-trigger-oscillator)
+* [Schmitt Trigger Oscillators?!](https://forum.arduino.cc/t/schmitt-trigger-oscillators/144197) in the Arduino forums
+* [Schmitt Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html) - very informative; compares LS14 with alternatives for waveform generation.
+* [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm)
+* [Schmitt Trigger Oscillator](https://electronics-course.com/schmitt-trigger-oscillator)
