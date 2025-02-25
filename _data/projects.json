@@ -630,6 +630,15 @@
             "Freeform"
         ]
     },
+    "/electronics101/74hc14/schmittoscillator/": {
+        "id": 588,
+        "title": "74HC14 Schmitt Oscillator",
+        "summary": "About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
     "/playground/rgbohmmeter/": {
         "id": 587,
         "title": "RGB Auto-ranging Ohmmeter",
