@@ -670,6 +670,16 @@
         "original_relative_path": "Kraft/TydiriumStrobe"
     },
     {
+        "id": "#588",
+        "name": "74HC14 Schmitt Oscillator",
+        "description": "About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
+        "categories": "CMOS/TTL, Oscillators",
+        "relative_path": "electronics101/74hc14/schmittoscillator",
+        "updated_at": "2025-02-25T06:16:00Z",
+        "created_at": "2025-02-25T06:16:00Z",
+        "original_relative_path": "Electronics101/74HC14/SchmittOscillator"
+    },
+    {
         "id": "#587",
         "name": "RGB Auto-ranging Ohmmeter",
         "description": "An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-matched E24 standard resistor color code for the measured resistance",

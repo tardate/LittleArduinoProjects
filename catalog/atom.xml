@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-02-25T04:03:00Z</updated>
+  <updated>2025-02-25T06:16:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -777,6 +777,17 @@
     <category term="LED"/>
     <category term="Circuit Sculpture"/>
     <category term="Freeform"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/74hc14/schmittoscillator/</id>
+    <link href="https://leap.tardate.com/electronics101/74hc14/schmittoscillator/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74hc14/schmittoscillator/assets/schmittoscillator_build.jpg</g:image_link>
+    <updated>2025-02-25T06:16:00Z</updated>
+    <title>#588 74HC14 Schmitt Oscillator</title>
+    <summary>About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74hc14/schmittoscillator/assets/schmittoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="Oscillators"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rgbohmmeter/</id>

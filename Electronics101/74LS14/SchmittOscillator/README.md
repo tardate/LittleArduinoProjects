@@ -59,25 +59,27 @@ In practice on my bench, I was able to push the limits a bit:
 
 Note: in these tests, capacitors >=1µF are electrolytic, and < 1µF are monolithic ceramic.
 
-| R1    | C1     | Calc Frequency | Measured Frequency | +duty% | Waveform Quality |
-|-------|--------|----------------|--------------------|--------|------------------|
-| 220Ω  | 10nF   |                |          306.7 kHz | 29.4%  | square but significant ringing |
-| 220Ω  | 100nF  |                |           34.3 kHz | 28.8%  | ok, but a rising top |
-| 1kΩ   | 20pF   |                |          12.50 MHz | 30.9%  | very poor        |
-| 1kΩ   | 100pF  |                |           4.85 MHz | 26.1%  | poor |
-| 1kΩ   | 330pF  |                |           2.04 MHz | 24.6%  | poor |
-| 1kΩ   | 1nF    |                |          788.0 kHz | 25.0%  | square but significant ringing |
-| 1kΩ   | 10nF   |                |          69.83 kHz | 25.1%  | square, a little ringing |
-| 1kΩ   | 33nF   |                |          20.42 kHz | 25.4%  | square, a little ringing|
-| 1kΩ   | 100nF  |                |           7.61 kHz | 25.4%  | good, square |
-| 1kΩ   | 330nF  |                |           2.18 kHz | 25.3%  | good, square |
-| 1kΩ   | 1µF    |                |            980 Hz  | 23.6%  | good, square |
-| 1kΩ   | 10µF   |                |             63 Hz  | 25.1%  | good, square |
-| 1kΩ   | 100µF  |                |            6.6 Hz  | 25.3%  | good, square |
-| 1kΩ   | 1000µF |                |            0.8 Hz  | 25.1%  | good, square |
-| 1kΩ   | 2200µF |                |            0.3 Hz  | 25.6%  | good, square |
-| 2.2kΩ | 10nF   |                |          26.98 kHz | 18.9%  | square, a little ringing |
-| 2.2kΩ | 100nF  |                |           2.92 kHz | 29.1%  | good, square|
+As can be seen, actual frequencies are quite far from predicted values especially for lower capacitances where running on a breadboard is not helping.
+
+| R1    | C1     | Calc Frequency                                                                      | Measured Frequency | +duty% | Waveform Quality |
+|-------|--------|-------------------------------------------------------------------------------------|--------------------|--------|------------------|
+| 220Ω  | 10nF   | [378.8 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*220%CE%A9*10nF%29)      |          306.7 kHz | 29.4%  | square but significant ringing |
+| 220Ω  | 100nF  | [37.88 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*220%CE%A9*100nF%29)     |           34.3 kHz | 28.8%  | ok, but a rising top |
+| 1kΩ   | 20pF   | [41.67 MHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*20pF%29)       |          12.50 MHz | 30.9%  | very poor        |
+| 1kΩ   | 100pF  | [8.333 MHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*100pF%29)      |           4.85 MHz | 26.1%  | poor |
+| 1kΩ   | 330pF  | [2.525 MHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*330pF%29)      |           2.04 MHz | 24.6%  | poor |
+| 1kΩ   | 1nF    | [833.3 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*1nF%29)        |          788.0 kHz | 25.0%  | square but significant ringing |
+| 1kΩ   | 10nF   | [83.33 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*10nF%29)       |          69.83 kHz | 25.1%  | square, a little ringing |
+| 1kΩ   | 33nF   | [25.25 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*33nF%29)       |          20.42 kHz | 25.4%  | square, a little ringing|
+| 1kΩ   | 100nF  | [8.333 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*100nF%29)      |           7.61 kHz | 25.4%  | good, square |
+| 1kΩ   | 330nF  | [2.53 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*330nF%29)       |           2.18 kHz | 25.3%  | good, square |
+| 1kΩ   | 1µF    | [833.3 Hz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*1%C2%B5F%29)    |            980 Hz  | 23.6%  | good, square |
+| 1kΩ   | 10µF   | [83.33 Hz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*10%C2%B5F%29)   |             63 Hz  | 25.1%  | good, square |
+| 1kΩ   | 100µF  | [8.333 Hz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*100%C2%B5F%29)  |            6.6 Hz  | 25.3%  | good, square |
+| 1kΩ   | 1000µF | [0.833 Hz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*1000%C2%B5F%29) |            0.8 Hz  | 25.1%  | good, square |
+| 1kΩ   | 2200µF | [0.378 Hz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*2200%C2%B5F%29) |            0.3 Hz  | 25.6%  | good, square |
+| 2.2kΩ | 10nF   | [37.88 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*2.2k%CE%A9*10nF%29)     |          26.98 kHz | 18.9%  | square, a little ringing |
+| 2.2kΩ | 100nF  | [3.788 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*2.2k%CE%A9*100nF%29)    |           2.92 kHz | 29.1%  | good, square|
 
 ### Some sample traces
 
@@ -100,4 +102,6 @@ Getting distorted at 1kΩ and C=1nF:
 * [Schmitt Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html) - very informative; compares LS14 with alternatives for waveform generation.
 * [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm)
 * [Schmitt Trigger Oscillator](https://electronics-course.com/schmitt-trigger-oscillator)
-* [LEAP#022 Square Wave - Schmitt Oscillator](https://leap.tardate.com/electronics101/oscillators/schmittoscillator/)
+* See also:
+    * [LEAP#022 Square Wave - Schmitt Oscillator](https://leap.tardate.com/electronics101/oscillators/schmittoscillator/)
+    * [LEAP#588 74HC14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74hc14/schmittoscillator/)
