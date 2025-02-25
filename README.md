@@ -1,4 +1,4 @@
-# 655 Little Electronic Art Projects
+# 656 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Inverter-based Push Button Latch](./Electronics101/CD4069/PushButtonLatch) - A latching pushbutton circuit using a CMOS inverter (CD4069)
 
