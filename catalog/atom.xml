@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-02-25T07:34:00Z</updated>
+  <updated>2025-02-25T09:40:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -739,6 +739,17 @@
     <category term="LM35"/>
     <category term="LCD"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/</id>
+    <link href="https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/assets/voltagemultiplier_build.jpg</g:image_link>
+    <updated>2025-02-25T09:40:00Z</updated>
+    <title>#593 74HC14 Inverter Voltage Multiplier</title>
+    <summary>Testing a voltage multiplier circuit based on a 74HC14 inverter-driven bucket brigade</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a voltage multiplier circuit based on a 74HC14 inverter-driven bucket brigade&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/assets/voltagemultiplier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="Power"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/snowflake/lamp/</id>
