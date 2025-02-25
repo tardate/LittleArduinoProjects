@@ -618,6 +618,15 @@
             "LED"
         ]
     },
+    "/electronics101/74hc04/relaxationoscillator/": {
+        "id": 590,
+        "title": "74HC04 Relaxation Oscillator",
+        "summary": "Testing a simple relaxation oscillator using the 74HC04 hex inverter with an RC network.",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
     "/kraft/tydiriumstrobe/": {
         "id": 589,
         "title": "Tydirium Strobe",

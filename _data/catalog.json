@@ -660,6 +660,16 @@
         "original_relative_path": "Kraft/TydiriumStrobe/Module"
     },
     {
+        "id": "#590",
+        "name": "74HC04 Relaxation Oscillator",
+        "description": "Testing a simple relaxation oscillator using the 74HC04 hex inverter with an RC network.",
+        "categories": "CMOS/TTL, Oscillators",
+        "relative_path": "electronics101/74hc04/relaxationoscillator",
+        "updated_at": "2025-02-25T07:34:00Z",
+        "created_at": "2025-02-25T07:34:00Z",
+        "original_relative_path": "Electronics101/74HC04/RelaxationOscillator"
+    },
+    {
         "id": "#589",
         "name": "Tydirium Strobe",
         "description": "Figuring out the navigation light strobe frequency of the Lambda-class shuttle Tydirium and building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)",
