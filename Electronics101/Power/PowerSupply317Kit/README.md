@@ -104,6 +104,8 @@ The kit came with some [brief instructions](./assets/instructions.pdf?raw=true)
 but these were quite sufficient (mainly covering physical construction directions)
 since the PCB has a very nice and detailed silkscreen.
 
+![PowerSupply317Kit_parts](./assets/PowerSupply317Kit_parts.jpg)
+
 ### Parts
 
 | Count | Item                              |
@@ -151,11 +153,15 @@ since the PCB has a very nice and detailed silkscreen.
 
 ### Build
 
-Construction complete (note: excluding the "value-added features")
+Work in progress..
+
+![PowerSupply317Kit_build_wip](./assets/PowerSupply317Kit_build_wip.jpg)
+
+Construction complete. Note: excluding the "value-added features" as mentioned earlier.
 
 ![The Build](./assets/PowerSupply317Kit_build_complete.jpg?raw=true)
 
-Here's the final unit, set for 5V output:
+Testing the final unit, at this point set for 5V output:
 
 ![The Build](./assets/PowerSupply317Kit_build.jpg?raw=true)
 
