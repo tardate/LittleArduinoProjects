@@ -4762,7 +4762,7 @@
     {
         "id": "#181",
         "name": "DC Voltmeter Modules",
-        "description": "Testing a selection of 3-wire DC voltmeter modules",
+        "description": "Testing a selection of 2 and 3-wire DC voltmeter modules",
         "categories": "Sensors, Power",
         "relative_path": "electronics101/meters/voltmetermodule",
         "updated_at": "2016-06-19T14:13:24Z",
