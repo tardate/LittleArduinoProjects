@@ -1,6 +1,6 @@
-# #469 LM386 Audio Amp
+# #469 Breadboard Bling: LM386 Audio Amp
 
-A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting.
+A basic LM386 audio amplifier with volume and gain control on a breadboard-compatible mounting.
 
 ![Build](./assets/LM386AudioAmp_build.jpg?raw=true)
 
@@ -9,13 +9,12 @@ A basic LM386 audio amplifier with volume and gain control on a breadboard-compa
 Often I'll want to monitor an audio signal as part of a breadboard circuit.
 One could plug into an external amplifier, or build an amplifier circuit on the breadboard.
 
-Since I do this quite often, I decided to put a standard LM386 audio circuit on to some perfboard,
+Since I do this quite often, I decided to put a standard LM386 audio circuit on to some perf-board,
 with pins arranged so that it can be plugged directly into a breadboard.
-
 
 ## Circuit Design
 
-The circuit is based on examples that are documented in the "Typcial Applications" section of the datasheet.
+The circuit is based on examples that are documented in the "Typical Applications" section of the datasheet.
 
 Specifically, I have chosen to include:
 

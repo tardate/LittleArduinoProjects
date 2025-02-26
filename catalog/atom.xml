@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-02-25T09:40:00Z</updated>
+  <updated>2025-02-26T08:07:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -739,6 +739,17 @@
     <category term="LM35"/>
     <category term="LCD"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/breadboardbling/terminalblocks/</id>
+    <link href="https://leap.tardate.com/electronics101/breadboardbling/terminalblocks/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/breadboardbling/terminalblocks/assets/terminalblocks_build.jpg</g:image_link>
+    <updated>2025-02-26T08:07:00Z</updated>
+    <title>#594 Terminal Blocks</title>
+    <summary>Making some breadboard-compatible terminal blocks for securely connecting random wired devices in circuit.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Making some breadboard-compatible terminal blocks for securely connecting random wired devices in circuit.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/breadboardbling/terminalblocks/assets/terminalblocks_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Breadboard Bling"/>
+    <category term="Connectors"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/</id>
@@ -2146,8 +2157,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/breadboardbling/lm386audioamp/assets/lm386audioamp_build.jpg</g:image_link>
     <updated>2019-04-15T12:24:50Z</updated>
     <title>#469 LM386 Audio Amp</title>
-    <summary>A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A basic LM386 audio amplifier with volume and gain control on a breadboard-compatbile mounting&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/breadboardbling/lm386audioamp/assets/lm386audioamp_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>A basic LM386 audio amplifier with volume and gain control on a breadboard-compatible mounting</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A basic LM386 audio amplifier with volume and gain control on a breadboard-compatible mounting&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/breadboardbling/lm386audioamp/assets/lm386audioamp_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Breadboard Bling"/>
     <category term="Audio"/>
     <category term="OpAmp"/>
