@@ -1,4 +1,4 @@
-# #468 BreadboardBling/DuplexTuningCapacitor
+# #468 Breadboard Bling: Duplex Tuning Capacitor
 
 Making a breadboard-compatible variable capacitor for radio circuits.
 
@@ -6,11 +6,11 @@ Making a breadboard-compatible variable capacitor for radio circuits.
 
 ## Notes
 
-Duplex tuning capacitors aka radio or AM variable capcitors contain two sets of capacitor plates ganged together, with fine tuning adjustment screws for each capacitor.
-Total capacitance is typically under 300pF, but mulitple arrangements are possible as either a single or dual variable capacitor.
+Duplex tuning capacitors aka radio or AM variable capacitors contain two sets of capacitor plates ganged together, with fine tuning adjustment screws for each capacitor.
+Total capacitance is typically under 300pF, but multiple arrangements are possible as either a single or dual variable capacitor.
 
 These components are typically used for radio tuning, and while building radio circuits on a breadboard can be a hairy proposition
-due to all the stray capcitance, a solid mounting for use on a breadboard can minimise the evils.
+due to all the stray capacitance, a solid mounting for use on a breadboard can minimise the evils.
 
 the specific part I'm using is a [duplex 223p 60pf/140pf 2.1mm Hole Shaft Radio Variable Capacitor](https://www.aliexpress.com/item/5-Sets-Duplex-223p-60pf-140pf-2-1mm-Hole-Shaft-Radio-Variable-Capacitor-Knob-Screw-s484/32578566833.html) from a seller on aliexpress.
 
@@ -30,7 +30,7 @@ For my specific part (without trim), I've measured the capacitance range at arou
 * Co: 17pF to 75pF
 * or combined, from 35pF to 235pF
 
-[![TuningCapacitor_schematic](./assets/TuningCapacitor_schematic.jpg?raw=true)](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/other-components)
+[![DuplexTuningCapacitor_schematic](./assets/DuplexTuningCapacitor_schematic.png?raw=true)](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/other-components)
 
 ## Construction
 

@@ -1,4 +1,4 @@
-# #565 Single-Shot Trigger
+# #565 Breadboard Bling: Single-Shot Trigger
 
 A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard.
 
@@ -6,7 +6,7 @@ A debounced single-shot pulse generator with inverted amd non-inverted output de
 
 ## Notes
 
-This little module is for those breadboard occassions where when one needs a debounced pulse - or possibly an inverted pulse for active low logic.
+This little module is for those breadboard occasions where when one needs a debounced pulse - or possibly an inverted pulse for active low logic.
 
 It uses a 555 timer in monostable mode to debounced a pushbutton, emitting a pulse of trigger a pulse of at least
 [22ms](https://visual555.tardate.com/?mode=monostable&r1=20&c=1) (R1=20k and C1=1uF).
@@ -15,7 +15,7 @@ A CD4049 is used to buffer and invert the outputs (inverted amd non-inverted) so
 
 ## Construction
 
-First testing the circiut on a breadboard:
+First testing the circuit on a breadboard:
 
 ![Breadboard](./assets/SingleShotTrigger_bb.jpg?raw=true)
 
@@ -25,7 +25,7 @@ First testing the circiut on a breadboard:
 
 ## Making it a "Breadboard Bling" Module
 
-I went for dead-bug stlye on a small piece of protoboard in order to keep the module small (I don't have SMD versions of these chips on hand).
+I went for dead-bug style on a small piece of protoboard in order to keep the module small (I don't have SMD versions of these chips on hand).
 
 ![SingleShotTrigger_module](./assets/SingleShotTrigger_module.jpg?raw=true)
 
