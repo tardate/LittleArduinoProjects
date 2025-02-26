@@ -4464,7 +4464,7 @@
     "/electronics101/meters/voltmetermodule/": {
         "id": 181,
         "title": "DC Voltmeter Modules",
-        "summary": "Testing a selection of 3-wire DC voltmeter modules",
+        "summary": "Testing a selection of 2 and 3-wire DC voltmeter modules",
         "tags": [
             "Sensors",
             "Power"
