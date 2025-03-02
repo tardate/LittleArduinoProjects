@@ -17,6 +17,7 @@ My personal electronics notebook of reference materials and other information.
 * [All About Electronic Circuits for Kids](https://www.speedwaymotors.com/Info/All-About-Electronic-Circuits-for-Kids) - By Mark Houlahan (recommended by the Lyndhurst STEM Club)
 * [American Radio History](http://www.americanradiohistory.com/) - archive of old electronics and radio mags
 * [Circuit Theory](https://en.wikibooks.org/wiki/Circuit_Theory/All_Chapters)
+* [Electrical and Electronics Engineering Glossary](https://www.elevators.com/electrical-and-electronics-engineering-glossary/)
 * [Embedded Artistry](https://embeddedartistry.com) - an amazing website dedicated to designing, programming, manufacturing, and debugging embedded systems.
 * [Javascript® Electronic Notebook](https://www.k7mem.com/) by Martin E. Meserve
 * [Radio Receivers, from crystal set to stereo](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/introduction) - MikroElectronica Books
@@ -31,7 +32,7 @@ Some of my favourites:
 * [Embedded.fm](https://embedded.fm/)
 * [Ham Radio Workbench](https://www.hamradioworkbench.com/)
 * [MacroFab Engineering Podcast](https://macrofab.com/blog/podcast/) - no longer running, archive available
-* [SolderSmoke](https://soldersmoke.blogspot.com/) podcast abd blog
+* [SolderSmoke](https://soldersmoke.blogspot.com/) podcast and blog
 * [The Amp Hour](https://theamphour.com/)
 * [Unnamed Reverse Engineering Podcast](https://unnamedre.com/)
 
@@ -82,6 +83,7 @@ Some of my favourites:
 * [DZKit](https://www.dzkit.com/)
 * [Elecraft](https://elecraft.com/)
 * [Elenco](https://www.elenco.com/)
+* [Halibut Electronics](https://electronics.halibut.com/)
 * [HamGadgets](https://hamgadgets.com/)
 * [MFJ](https://mfjenterprises.com/)
 * [Nightfire / vakits](https://vakits.com/)
