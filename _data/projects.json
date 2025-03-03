@@ -43,6 +43,15 @@
             "Oscillators"
         ]
     },
+    "/equipment/nlb/flashforgecreatorpro2/": {
+        "id": 756,
+        "title": "NLB Flashforge Creator Pro 2",
+        "summary": "Using the amazing PLA 3D Printing services available in Singapore's National Libraries - Flashforge Creator Pro 2, Flashforge Dreamer, and 3D Pens.",
+        "tags": [
+            "NLB MakeIt",
+            "3D Print"
+        ]
+    },
     "/electronics101/power/pp3power/": {
         "id": 755,
         "title": "9V (PP3) to 5V or 3.3V Power Adapter",

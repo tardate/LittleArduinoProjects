@@ -50,6 +50,16 @@
         "original_relative_path": "Electronics101/WindBellKit"
     },
     {
+        "name": "NLB Flashforge Creator Pro 2",
+        "description": "Using the amazing PLA 3D Printing services available in Singapore's National Libraries - Flashforge Creator Pro 2, Flashforge Dreamer, and 3D Pens.",
+        "categories": "NLB MakeIt, 3D Print",
+        "relative_path": "equipment/nlb/flashforgecreatorpro2",
+        "updated_at": "2025-03-03T13:52:00Z",
+        "created_at": "2025-03-03T13:52:00Z",
+        "id": "#756",
+        "original_relative_path": "Equipment/NLB/FlashforgeCreatorPro2"
+    },
+    {
         "id": "#755",
         "name": "9V (PP3) to 5V or 3.3V Power Adapter",
         "description": "Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.",
