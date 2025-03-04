@@ -32,7 +32,14 @@ The starter training introduced the basic process:
 
 * using [TinkerCAD](https://www.tinkercad.com/) to make a 3D model
 * export to STL
-* using [FlashPrint 5](https://flashforge.com/pages/software-flashprint) to import the STL and slice it
+* using [FlashPrint 5](https://flashforge.com/pages/software-flashprint) to import the STL and slice it. Settings:
+    * nozzle size: 0.4mm
+    * layer height: 0.1mm min, 0.3mm max
+    * shell count: increase to 3 to strengthen the part (default: 2)
+    * top solid layers: increase to 5 to solidify the part (default: 3)
+    * bottom solid layers: increase to 4 to solidify the part (default: 3)
+    * fill density: reduce to speed up the print (default: 15%)
+    * raft: disable unless required
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code)
 * use an SD card to load and print the g-code on the printer
 
