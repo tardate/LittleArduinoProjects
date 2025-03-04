@@ -10,6 +10,10 @@ The FQ777-954 and its derivatives (RC Leading RC101W, Cheerson CX-10W..) is a pr
 by the number of unboxing and flight test reports - a simple [search on youtube](https://www.youtube.com/results?search_query=FQ777-954)
 will find a few thousand. I get the impression someone has been flooding the market with review units!
 
+An example unboxing and review: FQ777 954 Nano FPV Quad Full Review Courtesy of HobbyWOW
+
+[![clip](https://img.youtube.com/vi/xNEFyv90wvo/0.jpg)](https://www.youtube.com/watch?v=xNEFyv90wvo)
+
 What is much harder to come by is good technical information beyond the usual product feature specs.
 
 I recently got an [FQ777-954](https://www.aliexpress.com/item/FQ777-954-mini-Drone-The-Eyes-RC-Quadcopter-WIFI-FPV-with-720P-Camera-4CH-6Axis-APP/32641566808.html). And yes I can confirm its fun and pretty amazing for such a small package!
@@ -23,7 +27,10 @@ to figure out and collate to date.
 This is basically the extent of the information available from most sources:
 
 * Channel: 4CH Gyro: 6 axis Flight Duration: 6-7 Minutes Quadcopter Control Distance: 30 meters
-* Recharging Time: 25mins Battery For Quadcopter: 3.7V 150mAh/25C(included) Battery For Transmitter: 2 x AAA Battery (not included)
+* Recharging Time: 25 mins
+* Flight time: 4-5 mins
+* Battery For Quadcopter: 3.7V 150mAh/25C(included)
+* Battery For Transmitter: 2 x AAA Battery (not included)
 * Quadcopter weight: 17g
 * Product size: 60x60x26mm
 * Camera: 0.3Megapixel(480P)/Photo Quality 640x480 / Video Quality 640x480,30FPS
@@ -188,7 +195,7 @@ I found what seems to be a suitable replacement:
 ![battery-replacement-02](./assets/battery-replacement-02.jpg)
 
 After replacement, there's actually space in the battery compartment.
-Testing the drone - all back to normal!
+Testing the drone - all back to normal! Charges in about 25mins.
 
 ![battery-replacement-03](./assets/battery-replacement-03.jpg)
 
