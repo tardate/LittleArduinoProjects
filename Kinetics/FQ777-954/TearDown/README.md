@@ -172,8 +172,25 @@ It seems that a v3.5 APK of the RC-Leading app is available for download from ot
 
 I downloaded this to an old/spare Android phone, and it works fine without any apparent issues.
 
+### Battery Replacement
+
+My drone has been on the shelf unused for around 8 years.
+
 The drone is still operational, however the lithium battery is showing signs of age. A full charge will only keep the drone in the air for a couple of minutes.
-I may consider replacing the battery to give this drone a little more life.
+
+I removed the old battery and noted the terminal connections:
+
+![battery-replacement-01](./assets/battery-replacement-01.jpg)
+
+I found what seems to be a suitable replacement:
+[3.7V 150mAh LiPo Rechargeable Battery Lithium Polymer 601417](https://www.aliexpress.com/item/33052668384.html)
+
+![battery-replacement-02](./assets/battery-replacement-02.jpg)
+
+After replacement, there's actually space in the battery compartment.
+Testing the drone - all back to normal!
+
+![battery-replacement-03](./assets/battery-replacement-03.jpg)
 
 ## Credits and References
 
