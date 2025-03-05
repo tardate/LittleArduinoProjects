@@ -1,4 +1,12 @@
 {
+    "/radio/hamclock/": {
+        "id": 762,
+        "title": "HamClock",
+        "summary": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi",
+        "tags": [
+            "Radio"
+        ]
+    },
     "/electronics101/cd4069/pushbuttonlatch/": {
         "id": 761,
         "title": "Inverter-based Push Button Latch",

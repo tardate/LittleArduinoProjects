@@ -1,6 +1,6 @@
-# 659 Little Electronic Art Projects
+# 660 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Inverter-based Push Button Latch](./Electronics101/CD4069/PushButtonLatch) - A latching pushbutton circuit using a CMOS inverter (CD4069)
+> Latest addition:sparkles: [HamClock](./Radio/HamClock) - Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
