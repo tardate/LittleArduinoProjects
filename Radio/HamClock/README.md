@@ -88,12 +88,46 @@ Nice! Also works great.
 
 ### Raspberry Pi
 
-I have an old Raspberry Pi B+.
-
+I have an old Raspberry Pi 1 Model B+.
 Current documentation recommends an RPi model 4b with 1 GB RAM.
 Maybe it is possible to use a Raspberry Pi B+?
 
-I will try this out and update the notes later. If I can't get it to run with a B+, maybe it is time to get a new Raspberry Pi!
+I grabbed a copy of the latest [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html) and ran the HamClock RPi installation per the docs:
+
+    curl -O https://www.clearskyinstitute.com/ham/HamClock/install-hc-rpi
+    chmod u+x install-hc-rpi
+    ./install-hc-rpi
+
+The installation went fine, and HamClock runs albeit a little sluggishly.
+
+Now since it is running on the Pi, I can play with some of the GPIO support.
+This requires first visiting setup page 4 and turning on "GPIO".
+
+I am going to test the "Satellite up" indicator per the user guide:
+
+* Output terminal SA_1 indicates satellite visibility from DE.
+* Normally low
+* cycles high at 1 Hz for 1 minute before rise
+* stays high during the pass
+* cycles at 2 Hz during the last minute
+* stays low again after set.
+
+I wired up an LED indicator per the doc:
+
+![HamClock_schematic](./assets/HamClock_schematic.jpg)
+
+![HamClock_bb](./assets/HamClock_bb.jpg)
+
+I just tested it with a LEDSAT satellite pass near my location (Singapore 1.3521° N, 103.8198° E). Works perfectly as described!
+
+Watching the screen as the satellite approaches ... yes, I have a very poor screen.
+This is an old Dell display that I haven't used in ages, and the screen coating is starting to self-biodegrade. I need a new screen!
+
+![satellite_up01](./assets/satellite_up01.jpg)
+
+When the satellite rises, the LED blinks at 1Hz for 1 minute before rise, stays on while risen, and blinks at 2 Hz during the last minute it is visible in the sky.
+
+![satellite_up02](./assets/satellite_up02.jpg)
 
 ## Credits and References
 
