@@ -1,0 +1,9 @@
+{
+    "id": "#599",
+    "name": "Raspberry Pi B+",
+    "description": "Getting Started with the original Raspberry Pi 1 Model B+. Notes on the device, an LED blinky test, running and old NOOBS distro and also the latest Raspberry Pi OS.",
+    "categories": "RPi, LED",
+    "relative_path": "RaspberryPi/BPlusGettingStarted",
+    "updated_at": "2025-03-05T13:42:00Z",
+    "created_at": "2025-03-05T13:42:00Z"
+}

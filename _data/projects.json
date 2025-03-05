@@ -573,6 +573,15 @@
             "Arduino"
         ]
     },
+    "/raspberrypi/bplusgettingstarted/": {
+        "id": 599,
+        "title": "Raspberry Pi B+",
+        "summary": "Getting Started with the original Raspberry Pi 1 Model B+. Notes on the device, an LED blinky test, running and old NOOBS distro and also the latest Raspberry Pi OS.",
+        "tags": [
+            "RPi",
+            "LED"
+        ]
+    },
     "/electronics101/temperaturesensors/lm335/": {
         "id": 598,
         "title": "LM335 Temperature Sensor",
