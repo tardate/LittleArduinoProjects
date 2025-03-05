@@ -9,7 +9,9 @@ Notes on the device, an LED blinky test, running and old NOOBS distro and also t
 
 The [Raspberry Pi Model B+](https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/)
 is the final revision of the original Raspberry Pi. It replaced the Model B in July 2014 and was superseded by Raspberry Pi 2 Model B.
-Raspberry Pi 1 Model B+ will remain in production until at least January 2030
+Raspberry Pi 1 Model B+ will remain in production until at least January 2030.
+
+I bought this back in 2014 for SGD$45.00.
 
 ### Specifications
 
@@ -134,6 +136,25 @@ So while Raspberry Pi OS works, the Desktop and app launching is quite sluggish.
 It seems "headless apps" would be much better suited to the old B+ now, and Desktop reserved for beefier, newer models!
 
 ## 3D Printed Case
+
+I'm thinking of printing a case. Found a couple of options..
+
+### [Raspberry Pi B+ / 2 Mount](https://www.printables.com/model/157800-raspberry-pi-b-2-mount)
+
+I like the idea of this mounting for breadboarding and experimentation as it keeps the board fully accessible.
+
+* [pibracket-v1.stl](./assets/pibracket-v1.stl).
+
+[![pibracket-v1](./assets/pibracket-v1.jpg)](https://www.printables.com/model/157800-raspberry-pi-b-2-mount)
+
+### [Raspberry Pi case (model B+ /2) w/ Pi Symbol](https://www.thingiverse.com/thing:989353)
+
+A somewhat more enclosed option, this is a nice design that still retains access to all ports and connectors.
+
+* [989353-lid-v2.stl](./assets/989353-lid-v2.stl)
+* [989353-bottom.stl](./assets/989353-bottom.stl)
+
+[![989353](./assets/989353.jpg)](https://www.thingiverse.com/thing:989353)
 
 ## Credits and References
 
