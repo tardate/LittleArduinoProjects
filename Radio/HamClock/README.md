@@ -6,9 +6,9 @@ Exploring HamClock, the kiosk-style application that displays real time space we
 
 ## Notes
 
-I recently learned about [Geochron](https://www.geochron.com/) clocks (analog and digital) on Ham Radio Workbench #230. These are beautiful displays of the current time over a live map of the earth, and support overlays of all manner of interesting details.
+I recently learned about [Geochron](https://www.geochron.com/) clocks (analog and digital) on Ham Radio Workbench #230. These are beautiful displays of the current time over a live map of the earth, and support overlays for all manner of interesting details.
 
-They are expensive though! I did find out though (vai a tip from Mike Deal N7URH) that there is an open source alternative specifically designed for amateur radio called [HamClock](https://www.clearskyinstitute.com/ham/HamClock/).
+They are expensive though! I did find out though (via a tip from Mike Deal N7URH) that there is an open source alternative specifically designed for amateur radio called [HamClock](https://www.clearskyinstitute.com/ham/HamClock/).
 
 HamClock is a kiosk-style application that provides real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur.
 
@@ -45,7 +45,7 @@ To run HamClock, first start XQuartz
 
     open -a XQuartz
 
-Then within XQuartz, choose "Applications | Terminal", and run the "hamclock" command in the xterm
+Then within XQuartz, choose "Applications > Terminal", and run the "hamclock" command in the xterm
 
 ![macos-run-hamclock](./assets/macos-run-hamclock.png)
 
@@ -98,9 +98,13 @@ I grabbed a copy of the latest [Raspberry Pi OS](https://www.raspberrypi.com/doc
     chmod u+x install-hc-rpi
     ./install-hc-rpi
 
-The installation went fine, and HamClock runs albeit a little sluggishly.
+The installation took a very long time (I left it for an hour or so), but completed successfully. After installation, start from the command line:
 
-Now since it is running on the Pi, I can play with some of the GPIO support.
+    hamclock
+
+HamClock runs fine, albeit a little sluggishly.
+
+Since it is running on the Pi, I can play with some of the GPIO support.
 This requires first visiting setup page 4 and turning on "GPIO".
 
 I am going to test the "Satellite up" indicator per the user guide:
