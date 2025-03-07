@@ -16,8 +16,6 @@ Key Specifications:
 * LOW output voltage (4.5V supply, Iout = 4mA): 0.2V typical (0.26V max)
 * Propagation delay (4.5V supply): 13-25ns
 
-[LEAP#582 74LS14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74ls14/schmittoscillator/)
-
 ### Test Circuit: The Schmitt Oscillator
 
 > Note: For comparison, I've covered the same circuit with 74LS family chips in [LEAP#582 74LS14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74ls14/schmittoscillator/)

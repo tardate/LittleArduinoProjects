@@ -620,6 +620,16 @@
         "original_relative_path": "Kinetics/ServoMotors/LowPowerMiniServos"
     },
     {
+        "id": "#600",
+        "name": "CD40106 Schmitt Oscillator",
+        "description": "About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
+        "categories": "CMOS/TTL, Oscillators",
+        "relative_path": "electronics101/cd40106/schmittoscillator",
+        "updated_at": "2025-03-07T10:01:00Z",
+        "created_at": "2025-03-07T10:01:00Z",
+        "original_relative_path": "Electronics101/CD40106/SchmittOscillator"
+    },
+    {
         "id": "#599",
         "name": "Raspberry Pi B+",
         "description": "Getting Started with the original Raspberry Pi 1 Model B+. Notes on the device, an LED blinky test, running and old NOOBS distro and also the latest Raspberry Pi OS.",

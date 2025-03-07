@@ -573,6 +573,15 @@
             "Arduino"
         ]
     },
+    "/electronics101/cd40106/schmittoscillator/": {
+        "id": 600,
+        "title": "CD40106 Schmitt Oscillator",
+        "summary": "About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
+        "tags": [
+            "CMOS/TTL",
+            "Oscillators"
+        ]
+    },
     "/raspberrypi/bplusgettingstarted/": {
         "id": 599,
         "title": "Raspberry Pi B+",
