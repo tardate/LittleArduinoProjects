@@ -564,6 +564,14 @@
             "Servo"
         ]
     },
+    "/electronics101/cd40106/voltagemultiplier/": {
+        "id": 602,
+        "title": "VoltageMultiplier",
+        "summary": "",
+        "tags": [
+            ""
+        ]
+    },
     "/kinetics/servomotors/lowpowerminiservos/": {
         "id": 601,
         "title": "Low Power Mini Servos",
