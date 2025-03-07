@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-05T13:42:00Z</updated>
+  <updated>2025-03-07T10:01:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -710,6 +710,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a few low power mini servo motors with an Arduino and MOSFET level shifter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kinetics/servomotors/lowpowerminiservos/assets/lowpowerminiservos_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Servo"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/cd40106/schmittoscillator/</id>
+    <link href="https://leap.tardate.com/electronics101/cd40106/schmittoscillator/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/cd40106/schmittoscillator/assets/schmittoscillator_build.jpg</g:image_link>
+    <updated>2025-03-07T10:01:00Z</updated>
+    <title>#600 CD40106 Schmitt Oscillator</title>
+    <summary>About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd40106/schmittoscillator/assets/schmittoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="Oscillators"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/raspberrypi/bplusgettingstarted/</id>
