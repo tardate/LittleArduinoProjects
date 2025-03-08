@@ -67,6 +67,7 @@ class Catalog(object):
         self.script_root = os.path.dirname(os.path.abspath(__file__))
         self.collection_root = os.path.abspath(os.path.join(self.script_root, '..'))
         self.catalog_json = os.path.join(self.collection_root, 'catalog', 'catalog.json')
+        self.categories_json = os.path.join(self.collection_root, 'catalog', 'categories.json')
         self.catalog_atom = os.path.join(self.collection_root, 'catalog', 'atom.xml')
         self.data_project_json = os.path.join(self.collection_root, '_data', 'projects.json')
         self.data_catalog_json = os.path.join(self.collection_root, '_data', 'catalog.json')
@@ -164,6 +165,20 @@ class Catalog(object):
         """ Command: re-writes the catalog file from catalog_metadata. """
         write_pretty_json(self.metadata(), self.catalog_json)
         write_pretty_json(self.metadata(), self.data_catalog_json)
+
+    def _generate_categories(self):
+        """ Command: re-writes the categories file from catalog_metadata. """
+
+        def category_data():
+            result = []
+            for item in self.metadata():
+                for term in item['categories'].split(','):
+                    category = term.strip()
+                    if category not in result:
+                        result.append(category)
+            return sorted(result, key=lambda s: s.lower())
+
+        write_pretty_json(category_data(), self.categories_json)
 
     def _generate_project_data(self):
         def project_data():
@@ -376,6 +391,7 @@ class Catalog(object):
         """ Command: rebuild catalog assets from metadata. """
         self._verify_catalog_metadata()
         self._generate_catalog()
+        self._generate_categories()
         self._generate_project_data()
         self._generate_atom_feed()
         self._generate_sitemap()
