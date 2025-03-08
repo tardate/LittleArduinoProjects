@@ -26,7 +26,6 @@
       var instance;
       instance = this;
 
-
       return this.catalog_table.DataTable({
         autoWidth: false,
         ajax: {
@@ -119,11 +118,9 @@
     };
 
     return CatalogController;
-
   })();
 
   jQuery(function() {
     return new root.CatalogController($('#catalog-table'));
   });
-
 }).call(this);
