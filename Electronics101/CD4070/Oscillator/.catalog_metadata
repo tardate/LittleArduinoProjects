@@ -2,7 +2,7 @@
     "id": "#297",
     "name": "CD4070 Oscillator",
     "description": "examine a classic CD4070 oscillator design and variations",
-    "categories": "CMOS, Oscillators",
+    "categories": "CMOS/TTL, CD4070, Oscillators",
     "relative_path": "Electronics101/CD4070/Oscillator",
     "updated_at": "2022-09-16T13:35:07Z",
     "created_at": "2022-09-16T13:35:07Z"

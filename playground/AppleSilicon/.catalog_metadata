@@ -2,7 +2,7 @@
     "id": "#735",
     "name": "Arduino on Apple Silicon",
     "description": "Using the Arduino IDE with Apple Silicon (ARM) machines",
-    "categories": "Arduino, AVR, Apple, macOS",
+    "categories": "Arduino, AVR, macOS",
     "relative_path": "playground/AppleSilicon",
     "updated_at": "2023-12-29T09:19:09Z",
     "created_at": "2023-12-29T09:19:09Z"

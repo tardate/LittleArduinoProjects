@@ -1,4 +1,4 @@
-# #383 LM723/LowVoltageRegulator
+# #383 LM723 Low-Voltage Regulator
 
 Playing with the basic low voltage output circuit for the LM723 voltage regulator.
 
@@ -51,7 +51,6 @@ Actual performance: I'm reading a regulated output of 5.1V, slightly over the pr
 I measure the actual R1 and R2 values and they are accurate within 10Ω. But I measure the Vref output of the LM723 at 7.27V.
 At this value, the expected output is indeed [5.10V](https://www.wolframalpha.com/input/?i=7.27V*4.7%2F(2%2B4.7)).
 
-
 #### Current Limit
 
 Adding current limiting control is optional. It is achieved with a series sense resistor Rsc on the output,
@@ -64,7 +63,6 @@ the output control transistor.
 Assuming a limiting drop of 0.5V and a target current limit of 50mA, [Rsc = Vbe/Ilimit = 10Ω](https://www.wolframalpha.com/input/?i=0.5V%2F50mA)
 
 I haven't tested the effectiveness of the current limit yet.
-
 
 ### Load
 

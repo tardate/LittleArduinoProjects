@@ -2,7 +2,7 @@
     "id": "#600",
     "name": "CD40106 Schmitt Oscillator",
     "description": "About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
-    "categories": "CMOS/TTL, Oscillators",
+    "categories": "CMOS/TTL, CD40106, Oscillators",
     "relative_path": "Electronics101/CD40106/SchmittOscillator",
     "updated_at": "2025-03-07T10:01:00Z",
     "created_at": "2025-03-07T10:01:00Z"

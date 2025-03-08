@@ -22,6 +22,9 @@
     <summary>Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/hamclock/assets/hamclock_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
+    <category term="macOS"/>
+    <category term="Ubuntu"/>
+    <category term="Raspberry Pi"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4069/pushbuttonlatch/</id>
@@ -32,6 +35,7 @@
     <summary>A latching pushbutton circuit using a CMOS inverter (CD4069)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A latching pushbutton circuit using a CMOS inverter (CD4069)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4069/pushbuttonlatch/assets/pushbuttonlatch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="CD4069"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/aaa5vpower/</id>
@@ -130,7 +134,6 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Programming over CH340-based serial interfaces (such as with some versions of the Arduino Nano) from macOS on Apple Silicon&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/applesilicon/ch340/assets/ch340_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="Apple"/>
     <category term="macOS"/>
     <category term="USB"/>
   </entry>
@@ -144,7 +147,6 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Using the Arduino IDE with Apple Silicon (ARM) machines&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/applesilicon/assets/applesilicon_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="Apple"/>
     <category term="macOS"/>
   </entry>
   <entry>
@@ -468,6 +470,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A simple logic probe using inverter gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4069/logicprobe/assets/logicprobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4069"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4001/logicprobe/</id>
@@ -479,6 +482,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A simple logic probe using NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4001/logicprobe/assets/logicprobe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4001"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4001/srlatch/</id>
@@ -490,6 +494,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Set-Reset latch implemented with CD4001 NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4001/srlatch/assets/srlatch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4001"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/serialinterface/usbtorj45/</id>
@@ -570,7 +575,6 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT oscillator - and with a bit of practice, some close-up model magic.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/kubelmagic/assets/kubelmagic_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
-    <category term="scale models"/>
     <category term="Craft"/>
   </entry>
   <entry>
@@ -673,7 +677,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/attiny/analogcomparator/assets/analogcomparator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="Sensor"/>
+    <category term="Sensors"/>
     <category term="OpAmp"/>
   </entry>
   <entry>
@@ -705,10 +709,12 @@
     <link href="https://leap.tardate.com/electronics101/cd40106/voltagemultiplier/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd40106/voltagemultiplier/assets/voltagemultiplier_build.jpg</g:image_link>
     <updated>2025-03-07T12:55:00Z</updated>
-    <title>#602 VoltageMultiplier</title>
-    <summary/>
-    <content type="html">&lt;div&gt;&lt;p /&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd40106/voltagemultiplier/assets/voltagemultiplier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term=""/>
+    <title>#602 CD40106 Inverter Voltage Multiplier</title>
+    <summary>Testing a voltage multiplier circuit based on a CD40106 inverter-driven bucket brigade.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a voltage multiplier circuit based on a CD40106 inverter-driven bucket brigade.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd40106/voltagemultiplier/assets/voltagemultiplier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="CD40106"/>
+    <category term="Power"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/servomotors/lowpowerminiservos/</id>
@@ -730,6 +736,7 @@
     <summary>About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd40106/schmittoscillator/assets/schmittoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="CD40106"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -740,7 +747,7 @@
     <title>#599 Raspberry Pi B+</title>
     <summary>Getting Started with the original Raspberry Pi 1 Model B+. Notes on the device, an LED blinky test, running and old NOOBS distro and also the latest Raspberry Pi OS.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Getting Started with the original Raspberry Pi 1 Model B+. Notes on the device, an LED blinky test, running and old NOOBS distro and also the latest Raspberry Pi OS.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/raspberrypi/bplusgettingstarted/assets/bplusgettingstarted_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="RPi"/>
+    <category term="Raspberry Pi"/>
     <category term="LED"/>
   </entry>
   <entry>
@@ -813,6 +820,7 @@
     <summary>Testing a voltage multiplier circuit based on a 74HC14 inverter-driven bucket brigade</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a voltage multiplier circuit based on a 74HC14 inverter-driven bucket brigade&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/assets/voltagemultiplier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="74HC14"/>
     <category term="Power"/>
   </entry>
   <entry>
@@ -848,6 +856,7 @@
     <summary>Testing a simple relaxation oscillator using the 74HC04 hex inverter with an RC network.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a simple relaxation oscillator using the 74HC04 hex inverter with an RC network.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74hc04/relaxationoscillator/assets/relaxationoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="74HC04"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -873,6 +882,7 @@
     <summary>About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74hc14/schmittoscillator/assets/schmittoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="74HC14"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -909,6 +919,7 @@
     <category term="Sensors"/>
     <category term="Arduino"/>
     <category term="LCD"/>
+    <category term="DS1822"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/hpdl1414/</id>
@@ -939,6 +950,7 @@
     <summary>About the 74LS14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;About the 74LS14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74ls14/schmittoscillator/assets/schmittoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="74LS14"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -970,7 +982,7 @@
     <title>#579 PCB Fabrication</title>
     <summary>My personal notebook on PCB fabrication options</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;My personal notebook on PCB fabrication options&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/notebook/pcb_fab/assets/pcb_fab_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="PCB"/>
+    <category term="PCB Design"/>
     <category term="Notebook"/>
   </entry>
   <entry>
@@ -1013,7 +1025,7 @@
     <summary>A quick test of motorizing a hand-cranked music box</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A quick test of motorizing a hand-cranked music box&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/motorizedmusicbox/assets/motorizedmusicbox_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Audio"/>
-    <category term="Motor"/>
+    <category term="Motors"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/microsd/waveplayer/</id>
@@ -1218,7 +1230,7 @@
     <title>#557 LED 8x8 Module</title>
     <summary>Building and using an 8x8 LED matrix with MAX7219 driver module</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building and using an 8x8 LED matrix with MAX7219 driver module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/led8x8module/assets/led8x8module_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="8x8 LED"/>
+    <category term="LED 8x8"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -1373,8 +1385,9 @@
     <title>#543 PLL Ramp Generator</title>
     <summary>A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4046/rampgenerator/assets/rampgenerator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CD4046"/>
     <category term="Oscillators"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4046"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/inputdevices/footswitch/</id>
@@ -1438,8 +1451,8 @@
     <title>#537 Schmitt Switch Debouncer</title>
     <summary>Testing a simple Schmitt Trigger debounce circuit using a 74HC14</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a simple Schmitt Trigger debounce circuit using a 74HC14&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/schmitttrigger/switchdebouncer/assets/switchdebouncer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Schmitt"/>
     <category term="CMOS/TTL"/>
+    <category term="74HC14"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/schmitttrigger/powerokindicator/</id>
@@ -1449,8 +1462,8 @@
     <title>#536 Power OK Indicator</title>
     <summary>Testing a simple Schmitt Trigger power OK indicator using a 74HC14</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a simple Schmitt Trigger power OK indicator using a 74HC14&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/schmitttrigger/powerokindicator/assets/powerokindicator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Schmitt"/>
     <category term="CMOS/TTL"/>
+    <category term="74HC14"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/detectors/aclinedetector/</id>
@@ -1460,8 +1473,8 @@
     <title>#535 AC Line Detector</title>
     <summary>Playing around with a simple AC line current detector</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Playing around with a simple AC line current detector&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/detectors/aclinedetector/assets/aclinedetector_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="power"/>
-    <category term="detector"/>
+    <category term="Power"/>
+    <category term="Sensors"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/esp12/programming/</id>
@@ -2060,7 +2073,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a simple circuit using a TL072 op-amp and 74LS14 inverter for getting a clear digital trigger signal based on the sound level detected by an electret microphone&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/electret/soundleveltrigger/assets/soundleveltrigger_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Electret"/>
     <category term="Audio"/>
-    <category term="Sensor"/>
+    <category term="Sensors"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/led7segment/tm1638/</id>
@@ -2070,7 +2083,7 @@
     <title>#481 TM1638 7-Segment LED Driver</title>
     <summary>investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/tm1638/assets/tm1638_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
     <category term="LED"/>
     <category term="TM1638"/>
@@ -2083,7 +2096,7 @@
     <title>#480 7-Segment LED Displays</title>
     <summary>All about LED 7-segment displays</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about LED 7-segment displays&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/assets/led7segment_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="LED"/>
   </entry>
   <entry>
@@ -2094,7 +2107,7 @@
     <title>#479 LedControl MAX7219 7-Segment LED Driver</title>
     <summary>Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/max7219/ledcontroldemo/assets/ledcontroldemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
     <category term="LED"/>
     <category term="MAX7219"/>
@@ -2107,7 +2120,7 @@
     <title>#478 Raw MAX7219 7-Segment LED Driver</title>
     <summary>Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/max7219/rawdrive/assets/rawdrive_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
     <category term="LED"/>
     <category term="MAX7219"/>
@@ -2400,11 +2413,13 @@
     <link href="https://leap.tardate.com/electronics101/cd4046/mainslinkedpll/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd4046/mainslinkedpll/assets/mainslinkedpll_build.jpg</g:image_link>
     <updated>2019-02-08T01:32:20Z</updated>
-    <title>#452 CD4046/MainsLinkedPLL</title>
+    <title>#452 CD4046 Mains-Linked PLL</title>
     <summary>A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4046/mainslinkedpll/assets/mainslinkedpll_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
     <category term="PLL"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4046"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/arcgeneratorkit/</id>
@@ -2665,7 +2680,7 @@
     <summary>a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/pomodorotimer/assets/pomodorotimer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="ATmel"/>
   </entry>
   <entry>
@@ -2677,7 +2692,7 @@
     <summary>driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/lrthreedigitdemo/assets/lrthreedigitdemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -2700,7 +2715,7 @@
     <summary>using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/rippletester/assets/rippletester_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -2712,7 +2727,7 @@
     <summary>building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/assets/3x7_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/vl53l0x/thetoneranger/</id>
@@ -2847,7 +2862,7 @@
     <title>#413 Rotary Encoder Tester</title>
     <summary>demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/rotaryencoders/incrementaltester/assets/incrementaltester_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Sensor"/>
+    <category term="Sensors"/>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>
@@ -3165,7 +3180,7 @@
     <title>#385 BoldportClub/widlar</title>
     <summary>hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do something other than voltage regulation (LED blinky)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do something other than voltage regulation (LED blinky)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/widlar/assets/widlar_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="723"/>
+    <category term="LM723"/>
     <category term="Power"/>
     <category term="Oscillator"/>
   </entry>
@@ -3174,7 +3189,7 @@
     <link href="https://leap.tardate.com/electronics101/lm723/highvoltageregulator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/lm723/highvoltageregulator/assets/highvoltageregulator_build.jpg</g:image_link>
     <updated>2018-04-29T08:37:04Z</updated>
-    <title>#384 LM723/HighVoltageRegulator</title>
+    <title>#384 LM723 High-Voltage Regulator</title>
     <summary>playing with the basic high voltage output circuit for the LM723 voltage regulator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;playing with the basic high voltage output circuit for the LM723 voltage regulator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/lm723/highvoltageregulator/assets/highvoltageregulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -3186,7 +3201,7 @@
     <link href="https://leap.tardate.com/electronics101/lm723/lowvoltageregulator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/lm723/lowvoltageregulator/assets/lowvoltageregulator_build.jpg</g:image_link>
     <updated>2018-04-28T10:24:07Z</updated>
-    <title>#383 LM723/LowVoltageRegulator</title>
+    <title>#383 LM723 Low-Voltage Regulator</title>
     <summary>playing with the basic low voltage output circuit for the LM723 voltage regulator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;playing with the basic low voltage output circuit for the LM723 voltage regulator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/lm723/lowvoltageregulator/assets/lowvoltageregulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -3201,9 +3216,9 @@
     <title>#382 CD4046 VCO</title>
     <summary>audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4046/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="RC"/>
-    <category term="CD4046"/>
     <category term="Oscillators"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4046"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/waterqualitymonitor/</id>
@@ -3249,7 +3264,6 @@
     <summary>simple unity-gain phase splitter in a little breadboard-compatible package</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;simple unity-gain phase splitter in a little breadboard-compatible package&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/bjt/phasesplitter/assets/phasesplitter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
-    <category term="Signals"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/lcd5110/diyshield/</id>
@@ -3451,7 +3465,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;testing a TL431 voltage reference (regulator) circuit with manual course and fine trim&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltagereference/tl431/shuntregulator/assets/shuntregulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term=" Power"/>
     <category term="Regulator"/>
-    <category term="Reference"/>
+    <category term="Voltage Reference"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffectschips/hs088/</id>
@@ -3618,7 +3632,7 @@
     <summary>upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/mostap/assets/mostap_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/micropython/gettingstarted/</id>
@@ -3726,23 +3740,25 @@
     <link href="https://leap.tardate.com/electronics101/mcp2200/chaser/"/>
     <g:image_link>https://leap.tardate.com/electronics101/mcp2200/chaser/assets/chaser_build.jpg</g:image_link>
     <updated>2017-08-18T12:09:50Z</updated>
-    <title>#335 MCP2200/Chaser</title>
+    <title>#335 MCP2200 Chaser</title>
     <summary>using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/mcp2200/chaser/assets/chaser_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="UART"/>
     <category term="USB"/>
     <category term="LED"/>
+    <category term="MCP2200"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/mcp2200/devkit/</id>
     <link href="https://leap.tardate.com/electronics101/mcp2200/devkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/mcp2200/devkit/assets/devkit_build.jpg</g:image_link>
     <updated>2017-08-13T13:10:22Z</updated>
-    <title>#334 MCP2200/DevKit</title>
-    <summary>exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/mcp2200/devkit/assets/devkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <title>#334 MCP2200 DevKit</title>
+    <summary>exploring the capabilities of the MCP2200 USB-to-UART and program it from a macOS host</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;exploring the capabilities of the MCP2200 USB-to-UART and program it from a macOS host&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/mcp2200/devkit/assets/devkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="UART"/>
     <category term="USB"/>
+    <category term="MCP2200"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/voltageselfmeasurement/</id>
@@ -3930,7 +3946,6 @@
     <title>#317 Discrete Schmitt Trigger</title>
     <summary>Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/schmitttrigger/basicdiscrete/assets/basicdiscrete_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Schmitt"/>
     <category term="BJT"/>
   </entry>
   <entry>
@@ -3976,6 +3991,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;investigate and test the MCP23S17 16-Bit I/O Expander with serial interface&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/mcp23s17/assets/mcp23s17_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Port Expander"/>
+    <category term="MCP23S17"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/thematrix/firecracker/</id>
@@ -4034,7 +4050,7 @@
     <summary>- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/combinationallogicdriver/assets/combinationallogicdriver_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -4161,7 +4177,8 @@
     <title>#297 CD4070 Oscillator</title>
     <summary>examine a classic CD4070 oscillator design and variations</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;examine a classic CD4070 oscillator design and variations&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4070/oscillator/assets/oscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4070"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -4198,6 +4215,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4060/crystaloscillator/assets/crystaloscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+    <category term="CD4060"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4060/rcoscillator/</id>
@@ -4207,8 +4225,9 @@
     <title>#293 CD4060 RC Oscillator</title>
     <summary>exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4060/rcoscillator/assets/rcoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+    <category term="CD4060"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffectschips/h823/</id>
@@ -4226,10 +4245,11 @@
     <link href="https://leap.tardate.com/electronics101/cd4060/musiclightkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd4060/musiclightkit/assets/musiclightkit_build.jpg</g:image_link>
     <updated>2017-02-16T13:40:28Z</updated>
-    <title>#291 CD4060/MusicLightKit</title>
+    <title>#291 Music Light Kit</title>
     <summary>learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4060/musiclightkit/assets/musiclightkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4060"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/pissoff/</id>
@@ -4763,7 +4783,7 @@
     <title>#246 CMOS Oscillators</title>
     <summary>testing 4-pin CMOS oscillators - NCH060C, MCO-1510A</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;testing 4-pin CMOS oscillators - NCH060C, MCO-1510A&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/cmososcillators/assets/cmososcillators_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -4902,7 +4922,7 @@
     <title>#234 CMOS Inverter Oscillator</title>
     <summary>use a CD4096 to generate an oscillating waveform and plot the results</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;use a CD4096 to generate an oscillating waveform and plot the results&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/cmosinverteroscillator/assets/cmosinverteroscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -4961,7 +4981,7 @@
     <summary>a 555/4017-based dice circuit with slow-down and auto power-off</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a 555/4017-based dice circuit with slow-down and auto power-off&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/dice/assets/dice_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/transistorcurvetracer/</id>
@@ -4984,7 +5004,7 @@
     <summary>the familiar Knight Rider LED circuit using a 555 and 4017</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;the familiar Knight Rider LED circuit using a 555 and 4017&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/knightrider/assets/knightrider_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="LED"/>
   </entry>
   <entry>
@@ -5019,7 +5039,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and analyse a common LED strobe kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/ledstrobekit/assets/ledstrobekit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="555 Timer"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/fritzingparts/</id>
@@ -5063,8 +5083,7 @@
     <title>#220 AVR GCC Toolchain</title>
     <summary>programming an Arduino with C and a command line</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;programming an Arduino with C and a command line&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/gcctoolchain/assets/gcctoolchain_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="avr-gcc"/>
-    <category term="avrdude"/>
+    <category term="AVR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ds18s20/onewirereading/</id>
@@ -5076,6 +5095,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;basic interrogation of a DS18S20 using 1-wire protocol&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ds18s20/onewirereading/assets/onewirereading_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="Arduino"/>
+    <category term="DS18S20"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/mpu6050/accelgyrotest/</id>
@@ -5121,7 +5141,6 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/oshchip/yottatoolchain/assets/yottatoolchain_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ARM"/>
     <category term="gcc"/>
-    <category term="yotta"/>
     <category term="OSHChip"/>
   </entry>
   <entry>
@@ -5209,7 +5228,7 @@
     <title>#207 FrequencyCounter</title>
     <summary>test a CMOS frequency counter circuit with 100Hz - 5MHz range</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a CMOS frequency counter circuit with 100Hz - 5MHz range&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/frequencycounter/assets/frequencycounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -5221,6 +5240,7 @@
     <summary>test the astable operating mode of the CD4047</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test the astable operating mode of the CD4047&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4047/astableoscillator/assets/astableoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="CD4047"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -5298,7 +5318,7 @@
     <summary>a CD4026 bucket-brigade for driving multiple 7-segment LED displays</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a CD4026 bucket-brigade for driving multiple 7-segment LED displays&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/cd4026bucketbrigade/assets/cd4026bucketbrigade_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -5332,7 +5352,7 @@
     <summary>driving a 7-segment LED display with CD4026 Counter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving a 7-segment LED display with CD4026 Counter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/cd4026drive/assets/cd4026drive_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -5412,7 +5432,7 @@
     <summary>using SPI to control a 7-segment LED display via a 74HC595 shift register</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using SPI to control a 7-segment LED display via a 74HC595 shift register&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/shiftdrivespi/assets/shiftdrivespi_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
     <category term="SPI"/>
@@ -5480,6 +5500,7 @@
     <summary>Demonstrate a polarity-testing circuit using the CD4069 inverter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrate a polarity-testing circuit using the CD4069 inverter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/polaritytester/assets/polaritytester_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="CD4069"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/powersupply317kit/</id>
@@ -5533,7 +5554,7 @@
     <title>#178 7-Segment Shift Drive Module</title>
     <summary>a custom 7-segment LED display module PCB with 74HC595 shift register interface</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a custom 7-segment LED display module PCB with 74HC595 shift register interface&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/shiftdrivemodule/assets/shiftdrivemodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
     <category term="PCB"/>
@@ -5547,7 +5568,7 @@
     <summary>test control of a 7-segment LED display via a 74HC595 shift register</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test control of a 7-segment LED display via a 74HC595 shift register&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/shiftdrive/assets/shiftdrive_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -5616,7 +5637,7 @@
     <summary>a collection of notes, kits and resources for hand-soldering surface mount devices</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a collection of notes, kits and resources for hand-soldering surface mount devices&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/smdpracticeboards/assets/smdpracticeboards_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="SMD"/>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
   </entry>
   <entry>
@@ -5732,10 +5753,11 @@
     <link href="https://leap.tardate.com/electronics101/lm324/splitterbuffer/"/>
     <g:image_link>https://leap.tardate.com/electronics101/lm324/splitterbuffer/assets/splitterbuffer_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#160 LM324/SplitterBuffer</title>
-    <summary>demonstrate load-independance of an LM324 buffer and signal splitter</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demonstrate load-independance of an LM324 buffer and signal splitter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/lm324/splitterbuffer/assets/splitterbuffer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <title>#160 LM324 Splitter Buffer</title>
+    <summary>demonstrate load-independence of an LM324 buffer and signal splitter</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;demonstrate load-independence of an LM324 buffer and signal splitter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/lm324/splitterbuffer/assets/splitterbuffer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM324"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/invertingamplifier/</id>
@@ -5788,7 +5810,7 @@
     <summary>exercising ESP8266 serial communications with Ruby</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exercising ESP8266 serial communications with Ruby&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/serialtest/ruby/assets/ruby_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
-    <category term="ruby"/>
+    <category term="Ruby"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/serialtest/</id>
@@ -5961,7 +5983,7 @@
     <summary>test the Atmega328 built-in analog comparator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test the Atmega328 built-in analog comparator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/analogcomparator/assets/analogcomparator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
-    <category term="Sensor"/>
+    <category term="Sensors"/>
     <category term="OpAmp"/>
   </entry>
   <entry>
@@ -5995,7 +6017,7 @@
     <title>#136 CounterModule</title>
     <summary>a general-purpose CD4017 counter module</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a general-purpose CD4017 counter module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/countermodule/assets/countermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6179,8 +6201,8 @@
     <title>#119 RotaryEncoderModule</title>
     <summary>testing a Rotary Encoder module controlling an LED 8x8 display</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;testing a Rotary Encoder module controlling an LED 8x8 display&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/rotaryencodermodule/assets/rotaryencodermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Sensor"/>
-    <category term="8x8 LED"/>
+    <category term="Sensors"/>
+    <category term="LED 8x8"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6191,7 +6213,7 @@
     <title>#118 RotaryEncoderMethods</title>
     <summary>finding the best method for reading a rotary-encoder</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;finding the best method for reading a rotary-encoder&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/rotaryencodermethods/assets/rotaryencodermethods_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Sensor"/>
+    <category term="Sensors"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6243,11 +6265,11 @@
     <link href="https://leap.tardate.com/electronics101/ttlbufferdriver/"/>
     <g:image_link>https://leap.tardate.com/electronics101/ttlbufferdriver/assets/ttlbufferdriver_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#113 TTLBufferDriver</title>
+    <title>#113 TTL Buffer Driver</title>
     <summary>using an OpAmp as a final buffer stage for TTL or similar circuits</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using an OpAmp as a final buffer stage for TTL or similar circuits&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ttlbufferdriver/assets/ttlbufferdriver_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
-    <category term="TTL"/>
+    <category term="CMOS/TTL"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/resistortransistorlogic/or/</id>
@@ -6303,7 +6325,7 @@
     <title>#108 RingCounterController</title>
     <summary>control the classic CD4017 walking-ring counter with an Arduino</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;control the classic CD4017 walking-ring counter with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ringcountercontroller/assets/ringcountercontroller_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6314,7 +6336,7 @@
     <title>#107 Ring Counter</title>
     <summary>test the classic CD4017 walking-ring counter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test the classic CD4017 walking-ring counter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ringcounter/assets/ringcounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="CMOS"/>
+    <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
   </entry>
   <entry>
@@ -6357,7 +6379,7 @@
     <title>#103  8x8 LED Matrix LedControl</title>
     <summary>test driving and LED matrix with the LedControl library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test driving and LED matrix with the LedControl library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led8x8/ledcontroldemo/assets/ledcontroldemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="8x8 LED"/>
+    <category term="LED 8x8"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6379,7 +6401,7 @@
     <title>#101 8x8 LED Matrix Raw Drive</title>
     <summary>drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led8x8/maxrawdemo/assets/maxrawdemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="8x8 LED"/>
+    <category term="LED 8x8"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6435,7 +6457,7 @@
     <title>#096 Smokey</title>
     <summary>quick build of a Smokey-like LM386 guitar power amp</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;quick build of a Smokey-like LM386 guitar power amp&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/audio/audioamps/smokey/assets/smokey_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Amp"/>
+    <category term="Amplifier"/>
     <category term="Audio"/>
   </entry>
   <entry>
@@ -6598,7 +6620,7 @@
     <summary>driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led4digit7segment/doubleshiftwithfets/assets/doubleshiftwithfets_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -6611,7 +6633,7 @@
     <summary>driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led4digit7segment/doubleshift/assets/doubleshift_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
   </entry>
@@ -6625,7 +6647,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Measure ambient temperature with an LM35 and display with a 4-digit 7-segment LED unit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ledtemperaturedisplay/assets/ledtemperaturedisplay_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="LM35"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6861,7 +6883,7 @@
     <title>#058 4 Digit 7-Segment LED Displays</title>
     <summary>overview of driving a 4-digit 7-segment display</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;overview of driving a 4-digit 7-segment display&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led4digit7segment/assets/led4digit7segment_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -6919,6 +6941,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;LM324 configured as a low-frequency square, triangle, sine, and cosine function generator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/functiongenerator324/assets/functiongenerator324_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Oscillators"/>
+    <category term="LM324"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/comparator741/</id>
@@ -7102,10 +7125,11 @@
     <link href="https://leap.tardate.com/electronics101/noninverting324/"/>
     <g:image_link>https://leap.tardate.com/electronics101/noninverting324/assets/noninverting324_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#036 NonInverting324</title>
+    <title>#036 LM324 OpAmp Non-inverting DC Gain</title>
     <summary>demo LM324 OpAmp non-inverting DC gain mode</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demo LM324 OpAmp non-inverting DC gain mode&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/noninverting324/assets/noninverting324_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM324"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rangefinder/</id>
@@ -7487,7 +7511,7 @@
     <summary>test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/led7segment/directdrive/assets/directdrive_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
-    <category term="7-Segment"/>
+    <category term="LED 7-Segment"/>
     <category term="Arduino"/>
   </entry>
 </feed>

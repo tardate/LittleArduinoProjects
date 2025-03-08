@@ -2,7 +2,7 @@
     "id": "#189",
     "name": "7-Segment Shift Drive SPI",
     "description": "using SPI to control a 7-segment LED display via a 74HC595 shift register",
-    "categories": "LED, 7-Segment, CMOS/TTL, Arduino, SPI",
+    "categories": "LED, LED 7-Segment, CMOS/TTL, Arduino, SPI",
     "relative_path": "playground/LED7Segment/ShiftDriveSPI",
     "updated_at": "2020-10-02T13:02:32Z",
     "created_at": "2020-10-02T13:02:32Z"

@@ -1,4 +1,4 @@
-# #036 - LM324 OpAmp Non-inverting DC Gain
+# #036 LM324 OpAmp Non-inverting DC Gain
 
 Use an Arduino to monitor an LM324 OpAmp in non-inverting DC gain mode and plot the results with [Processing](https://www.processing.org).
 

@@ -2,7 +2,7 @@
     "id": "#101",
     "name": "8x8 LED Matrix Raw Drive",
     "description": "drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands",
-    "categories": "8x8 LED, Arduino",
+    "categories": "LED 8x8, Arduino",
     "relative_path": "playground/LED8x8/MaxRawDemo",
     "updated_at": "2019-05-02T16:17:15Z",
     "created_at": "2019-05-02T16:17:15Z"

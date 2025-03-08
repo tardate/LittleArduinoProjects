@@ -4,7 +4,10 @@
         "title": "HamClock",
         "summary": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi",
         "tags": [
-            "Radio"
+            "Radio",
+            "macOS",
+            "Ubuntu",
+            "Raspberry Pi"
         ]
     },
     "/electronics101/cd4069/pushbuttonlatch/": {
@@ -12,7 +15,8 @@
         "title": "Inverter-based Push Button Latch",
         "summary": "A latching pushbutton circuit using a CMOS inverter (CD4069)",
         "tags": [
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4069"
         ]
     },
     "/electronics101/power/aaa5vpower/": {
@@ -93,7 +97,6 @@
         "tags": [
             "Arduino",
             "AVR",
-            "Apple",
             "macOS",
             "USB"
         ]
@@ -105,7 +108,6 @@
         "tags": [
             "Arduino",
             "AVR",
-            "Apple",
             "macOS"
         ]
     },
@@ -370,7 +372,8 @@
         "summary": "A simple logic probe using inverter gates",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4069"
         ]
     },
     "/electronics101/cd4001/logicprobe/": {
@@ -379,7 +382,8 @@
         "summary": "A simple logic probe using NOR gates",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4001"
         ]
     },
     "/electronics101/cd4001/srlatch/": {
@@ -388,7 +392,8 @@
         "summary": "Set-Reset latch implemented with CD4001 NOR gates",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4001"
         ]
     },
     "/electronics101/serialinterface/usbtorj45/": {
@@ -455,7 +460,6 @@
         "tags": [
             "LED",
             "Oscillators",
-            "scale models",
             "Craft"
         ]
     },
@@ -540,7 +544,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "Sensor",
+            "Sensors",
             "OpAmp"
         ]
     },
@@ -566,10 +570,12 @@
     },
     "/electronics101/cd40106/voltagemultiplier/": {
         "id": 602,
-        "title": "VoltageMultiplier",
-        "summary": "",
+        "title": "CD40106 Inverter Voltage Multiplier",
+        "summary": "Testing a voltage multiplier circuit based on a CD40106 inverter-driven bucket brigade.",
         "tags": [
-            ""
+            "CMOS/TTL",
+            "CD40106",
+            "Power"
         ]
     },
     "/kinetics/servomotors/lowpowerminiservos/": {
@@ -587,6 +593,7 @@
         "summary": "About the CD40106 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
         "tags": [
             "CMOS/TTL",
+            "CD40106",
             "Oscillators"
         ]
     },
@@ -595,7 +602,7 @@
         "title": "Raspberry Pi B+",
         "summary": "Getting Started with the original Raspberry Pi 1 Model B+. Notes on the device, an LED blinky test, running and old NOOBS distro and also the latest Raspberry Pi OS.",
         "tags": [
-            "RPi",
+            "Raspberry Pi",
             "LED"
         ]
     },
@@ -656,6 +663,7 @@
         "summary": "Testing a voltage multiplier circuit based on a 74HC14 inverter-driven bucket brigade",
         "tags": [
             "CMOS/TTL",
+            "74HC14",
             "Power"
         ]
     },
@@ -685,6 +693,7 @@
         "summary": "Testing a simple relaxation oscillator using the 74HC04 hex inverter with an RC network.",
         "tags": [
             "CMOS/TTL",
+            "74HC04",
             "Oscillators"
         ]
     },
@@ -706,6 +715,7 @@
         "summary": "About the 74HC14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator.",
         "tags": [
             "CMOS/TTL",
+            "74HC14",
             "Oscillators"
         ]
     },
@@ -735,7 +745,8 @@
         "tags": [
             "Sensors",
             "Arduino",
-            "LCD"
+            "LCD",
+            "DS1822"
         ]
     },
     "/electronics101/led/hpdl1414/": {
@@ -760,6 +771,7 @@
         "summary": "About the 74LS14 Hex Inverter with Schmitt Trigger Inputs, and testing its behaviour as a relaxation oscillator square wave generator",
         "tags": [
             "CMOS/TTL",
+            "74LS14",
             "Oscillators"
         ]
     },
@@ -785,7 +797,7 @@
         "title": "PCB Fabrication",
         "summary": "My personal notebook on PCB fabrication options",
         "tags": [
-            "PCB",
+            "PCB Design",
             "Notebook"
         ]
     },
@@ -820,7 +832,7 @@
         "summary": "A quick test of motorizing a hand-cranked music box",
         "tags": [
             "Audio",
-            "Motor"
+            "Motors"
         ]
     },
     "/audio/microsd/waveplayer/": {
@@ -989,7 +1001,7 @@
         "title": "LED 8x8 Module",
         "summary": "Building and using an 8x8 LED matrix with MAX7219 driver module",
         "tags": [
-            "8x8 LED",
+            "LED 8x8",
             "Arduino"
         ]
     },
@@ -1116,8 +1128,9 @@
         "title": "PLL Ramp Generator",
         "summary": "A simple CD4046 ramp generator circuit from a design by M.S. Nagaraj published in Elektor 7/1994.",
         "tags": [
-            "CD4046",
-            "Oscillators"
+            "Oscillators",
+            "CMOS/TTL",
+            "CD4046"
         ]
     },
     "/electronics101/inputdevices/footswitch/": {
@@ -1169,8 +1182,8 @@
         "title": "Schmitt Switch Debouncer",
         "summary": "Testing a simple Schmitt Trigger debounce circuit using a 74HC14",
         "tags": [
-            "Schmitt",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "74HC14"
         ]
     },
     "/electronics101/schmitttrigger/powerokindicator/": {
@@ -1178,8 +1191,8 @@
         "title": "Power OK Indicator",
         "summary": "Testing a simple Schmitt Trigger power OK indicator using a 74HC14",
         "tags": [
-            "Schmitt",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "74HC14"
         ]
     },
     "/electronics101/detectors/aclinedetector/": {
@@ -1187,8 +1200,8 @@
         "title": "AC Line Detector",
         "summary": "Playing around with a simple AC line current detector",
         "tags": [
-            "power",
-            "detector"
+            "Power",
+            "Sensors"
         ]
     },
     "/esp8266/esp12/programming/": {
@@ -1681,7 +1694,7 @@
         "tags": [
             "Electret",
             "Audio",
-            "Sensor"
+            "Sensors"
         ]
     },
     "/playground/led7segment/tm1638/": {
@@ -1689,7 +1702,7 @@
         "title": "TM1638 7-Segment LED Driver",
         "summary": "investigating the capabilities of the TM1638 as a 7-segment display driver and key pad controller",
         "tags": [
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino",
             "LED",
             "TM1638"
@@ -1700,7 +1713,7 @@
         "title": "7-Segment LED Displays",
         "summary": "All about LED 7-segment displays",
         "tags": [
-            "7-Segment",
+            "LED 7-Segment",
             "LED"
         ]
     },
@@ -1709,7 +1722,7 @@
         "title": "LedControl MAX7219 7-Segment LED Driver",
         "summary": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library",
         "tags": [
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino",
             "LED",
             "MAX7219"
@@ -1720,7 +1733,7 @@
         "title": "Raw MAX7219 7-Segment LED Driver",
         "summary": "Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands",
         "tags": [
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino",
             "LED",
             "MAX7219"
@@ -1961,11 +1974,13 @@
     },
     "/electronics101/cd4046/mainslinkedpll/": {
         "id": 452,
-        "title": "CD4046/MainsLinkedPLL",
+        "title": "CD4046 Mains-Linked PLL",
         "summary": "A 50/60Hz oscillator locked to mains power frequency using the CD4046 PLL",
         "tags": [
             "Oscillators",
-            "PLL"
+            "PLL",
+            "CMOS/TTL",
+            "CD4046"
         ]
     },
     "/electronics101/arcgeneratorkit/": {
@@ -2180,7 +2195,7 @@
         "summary": "a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328",
         "tags": [
             "Boldport",
-            "7-Segment",
+            "LED 7-Segment",
             "ATmel"
         ]
     },
@@ -2190,7 +2205,7 @@
         "summary": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library",
         "tags": [
             "Boldport",
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino"
         ]
     },
@@ -2209,7 +2224,7 @@
         "summary": "using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7",
         "tags": [
             "Boldport",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL"
         ]
     },
@@ -2219,7 +2234,7 @@
         "summary": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
         "tags": [
             "Boldport",
-            "7-Segment"
+            "LED 7-Segment"
         ]
     },
     "/playground/vl53l0x/thetoneranger/": {
@@ -2330,7 +2345,7 @@
         "title": "Rotary Encoder Tester",
         "summary": "demonstrating a rotary encoder forward/reverse LED indicator using simple digital logic",
         "tags": [
-            "Sensor",
+            "Sensors",
             "CMOS/TTL"
         ]
     },
@@ -2592,14 +2607,14 @@
         "title": "BoldportClub/widlar",
         "summary": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)",
         "tags": [
-            "723",
+            "LM723",
             "Power",
             "Oscillator"
         ]
     },
     "/electronics101/lm723/highvoltageregulator/": {
         "id": 384,
-        "title": "LM723/HighVoltageRegulator",
+        "title": "LM723 High-Voltage Regulator",
         "summary": "playing with the basic high voltage output circuit for the LM723 voltage regulator",
         "tags": [
             "Power",
@@ -2609,7 +2624,7 @@
     },
     "/electronics101/lm723/lowvoltageregulator/": {
         "id": 383,
-        "title": "LM723/LowVoltageRegulator",
+        "title": "LM723 Low-Voltage Regulator",
         "summary": "playing with the basic low voltage output circuit for the LM723 voltage regulator",
         "tags": [
             "Power",
@@ -2622,9 +2637,9 @@
         "title": "CD4046 VCO",
         "summary": "audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC",
         "tags": [
-            "RC",
-            "CD4046",
-            "Oscillators"
+            "Oscillators",
+            "CMOS/TTL",
+            "CD4046"
         ]
     },
     "/playground/waterqualitymonitor/": {
@@ -2661,8 +2676,7 @@
         "title": "BJT Phase Splitter",
         "summary": "simple unity-gain phase splitter in a little breadboard-compatible package",
         "tags": [
-            "BJT",
-            "Signals"
+            "BJT"
         ]
     },
     "/playground/lcd5110/diyshield/": {
@@ -2828,7 +2842,7 @@
         "tags": [
             " Power",
             "Regulator",
-            "Reference"
+            "Voltage Reference"
         ]
     },
     "/audio/audioeffectschips/hs088/": {
@@ -2965,7 +2979,7 @@
         "summary": "upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.",
         "tags": [
             "Boldport",
-            "CMOS"
+            "CMOS/TTL"
         ]
     },
     "/esp8266/micropython/gettingstarted/": {
@@ -3053,21 +3067,23 @@
     },
     "/electronics101/mcp2200/chaser/": {
         "id": 335,
-        "title": "MCP2200/Chaser",
+        "title": "MCP2200 Chaser",
         "summary": "using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs",
         "tags": [
             "UART",
             "USB",
-            "LED"
+            "LED",
+            "MCP2200"
         ]
     },
     "/electronics101/mcp2200/devkit/": {
         "id": 334,
-        "title": "MCP2200/DevKit",
-        "summary": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a MacOSX host",
+        "title": "MCP2200 DevKit",
+        "summary": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a macOS host",
         "tags": [
             "UART",
-            "USB"
+            "USB",
+            "MCP2200"
         ]
     },
     "/playground/voltageselfmeasurement/": {
@@ -3221,7 +3237,6 @@
         "title": "Discrete Schmitt Trigger",
         "summary": "Exploring a basic emitter-coupled Schmitt Trigger circuit design with discrete components",
         "tags": [
-            "Schmitt",
             "BJT"
         ]
     },
@@ -3258,7 +3273,8 @@
         "summary": "investigate and test the MCP23S17 16-Bit I/O Expander with serial interface",
         "tags": [
             "Arduino",
-            "Port Expander"
+            "Port Expander",
+            "MCP23S17"
         ]
     },
     "/boldportclub/thematrix/firecracker/": {
@@ -3307,7 +3323,7 @@
         "summary": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino"
         ]
@@ -3412,7 +3428,8 @@
         "title": "CD4070 Oscillator",
         "summary": "examine a classic CD4070 oscillator design and variations",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
+            "CD4070",
             "Oscillators"
         ]
     },
@@ -3442,7 +3459,8 @@
         "summary": "exploring the behaviour of the CD4060 ripple counter driven by a crystal oscillator",
         "tags": [
             "CMOS/TTL",
-            "Oscillators"
+            "Oscillators",
+            "CD4060"
         ]
     },
     "/electronics101/cd4060/rcoscillator/": {
@@ -3450,8 +3468,9 @@
         "title": "CD4060 RC Oscillator",
         "summary": "exploring the behaviour of the CD4060 ripple counter driven by an RC oscillator",
         "tags": [
-            "CMOS",
-            "Oscillators"
+            "CMOS/TTL",
+            "Oscillators",
+            "CD4060"
         ]
     },
     "/audio/audioeffectschips/h823/": {
@@ -3465,10 +3484,11 @@
     },
     "/electronics101/cd4060/musiclightkit/": {
         "id": 291,
-        "title": "CD4060/MusicLightKit",
+        "title": "Music Light Kit",
         "summary": "learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit",
         "tags": [
-            "CMOS"
+            "CMOS/TTL",
+            "CD4060"
         ]
     },
     "/boldportclub/pissoff/": {
@@ -3912,7 +3932,7 @@
         "title": "CMOS Oscillators",
         "summary": "testing 4-pin CMOS oscillators - NCH060C, MCO-1510A",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
             "Oscillators"
         ]
     },
@@ -4027,7 +4047,7 @@
         "title": "CMOS Inverter Oscillator",
         "summary": "use a CD4096 to generate an oscillating waveform and plot the results",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
             "Oscillators"
         ]
     },
@@ -4076,7 +4096,7 @@
         "summary": "a 555/4017-based dice circuit with slow-down and auto power-off",
         "tags": [
             "555 Timer",
-            "CMOS"
+            "CMOS/TTL"
         ]
     },
     "/electronics101/transistorcurvetracer/": {
@@ -4095,7 +4115,7 @@
         "summary": "the familiar Knight Rider LED circuit using a 555 and 4017",
         "tags": [
             "555 Timer",
-            "CMOS",
+            "CMOS/TTL",
             "LED"
         ]
     },
@@ -4124,7 +4144,7 @@
         "tags": [
             "LED",
             "555 Timer",
-            "CMOS"
+            "CMOS/TTL"
         ]
     },
     "/fritzingparts/": {
@@ -4160,8 +4180,7 @@
         "title": "AVR GCC Toolchain",
         "summary": "programming an Arduino with C and a command line",
         "tags": [
-            "avr-gcc",
-            "avrdude"
+            "AVR"
         ]
     },
     "/electronics101/ds18s20/onewirereading/": {
@@ -4170,7 +4189,8 @@
         "summary": "basic interrogation of a DS18S20 using 1-wire protocol",
         "tags": [
             "Sensors",
-            "Arduino"
+            "Arduino",
+            "DS18S20"
         ]
     },
     "/playground/mpu6050/accelgyrotest/": {
@@ -4208,7 +4228,6 @@
         "tags": [
             "ARM",
             "gcc",
-            "yotta",
             "OSHChip"
         ]
     },
@@ -4280,7 +4299,7 @@
         "title": "FrequencyCounter",
         "summary": "test a CMOS frequency counter circuit with 100Hz - 5MHz range",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
             "Oscillators"
         ]
     },
@@ -4290,6 +4309,7 @@
         "summary": "test the astable operating mode of the CD4047",
         "tags": [
             "CMOS/TTL",
+            "CD4047",
             "Oscillators"
         ]
     },
@@ -4353,7 +4373,7 @@
         "summary": "a CD4026 bucket-brigade for driving multiple 7-segment LED displays",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino"
         ]
@@ -4381,7 +4401,7 @@
         "summary": "driving a 7-segment LED display with CD4026 Counter",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino"
         ]
@@ -4447,7 +4467,7 @@
         "summary": "using SPI to control a 7-segment LED display via a 74HC595 shift register",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino",
             "SPI"
@@ -4502,7 +4522,8 @@
         "title": "Polarity Tester",
         "summary": "Demonstrate a polarity-testing circuit using the CD4069 inverter",
         "tags": [
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4069"
         ]
     },
     "/electronics101/power/powersupply317kit/": {
@@ -4546,7 +4567,7 @@
         "title": "7-Segment Shift Drive Module",
         "summary": "a custom 7-segment LED display module PCB with 74HC595 shift register interface",
         "tags": [
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino",
             "PCB"
@@ -4558,7 +4579,7 @@
         "summary": "test control of a 7-segment LED display via a 74HC595 shift register",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino"
         ]
@@ -4615,7 +4636,7 @@
         "summary": "a collection of notes, kits and resources for hand-soldering surface mount devices",
         "tags": [
             "SMD",
-            "CMOS",
+            "CMOS/TTL",
             "555 Timer"
         ]
     },
@@ -4709,10 +4730,11 @@
     },
     "/electronics101/lm324/splitterbuffer/": {
         "id": 160,
-        "title": "LM324/SplitterBuffer",
-        "summary": "demonstrate load-independance of an LM324 buffer and signal splitter",
+        "title": "LM324 Splitter Buffer",
+        "summary": "demonstrate load-independence of an LM324 buffer and signal splitter",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM324"
         ]
     },
     "/electronics101/ml741/invertingamplifier/": {
@@ -4755,7 +4777,7 @@
         "summary": "exercising ESP8266 serial communications with Ruby",
         "tags": [
             "ESP8266",
-            "ruby"
+            "Ruby"
         ]
     },
     "/esp8266/serialtest/": {
@@ -4896,7 +4918,7 @@
         "summary": "test the Atmega328 built-in analog comparator",
         "tags": [
             "Arduino",
-            "Sensor",
+            "Sensors",
             "OpAmp"
         ]
     },
@@ -4924,7 +4946,7 @@
         "title": "CounterModule",
         "summary": "a general-purpose CD4017 counter module",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
             "Arduino"
         ]
     },
@@ -5074,8 +5096,8 @@
         "title": "RotaryEncoderModule",
         "summary": "testing a Rotary Encoder module controlling an LED 8x8 display",
         "tags": [
-            "Sensor",
-            "8x8 LED",
+            "Sensors",
+            "LED 8x8",
             "Arduino"
         ]
     },
@@ -5084,7 +5106,7 @@
         "title": "RotaryEncoderMethods",
         "summary": "finding the best method for reading a rotary-encoder",
         "tags": [
-            "Sensor",
+            "Sensors",
             "Arduino"
         ]
     },
@@ -5126,11 +5148,11 @@
     },
     "/electronics101/ttlbufferdriver/": {
         "id": 113,
-        "title": "TTLBufferDriver",
+        "title": "TTL Buffer Driver",
         "summary": "using an OpAmp as a final buffer stage for TTL or similar circuits",
         "tags": [
             "OpAmp",
-            "TTL"
+            "CMOS/TTL"
         ]
     },
     "/electronics101/resistortransistorlogic/or/": {
@@ -5176,7 +5198,7 @@
         "title": "RingCounterController",
         "summary": "control the classic CD4017 walking-ring counter with an Arduino",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
             "Arduino"
         ]
     },
@@ -5185,7 +5207,7 @@
         "title": "Ring Counter",
         "summary": "test the classic CD4017 walking-ring counter",
         "tags": [
-            "CMOS",
+            "CMOS/TTL",
             "555 Timer"
         ]
     },
@@ -5220,7 +5242,7 @@
         "title": " 8x8 LED Matrix LedControl",
         "summary": "test driving and LED matrix with the LedControl library",
         "tags": [
-            "8x8 LED",
+            "LED 8x8",
             "Arduino"
         ]
     },
@@ -5238,7 +5260,7 @@
         "title": "8x8 LED Matrix Raw Drive",
         "summary": "drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands",
         "tags": [
-            "8x8 LED",
+            "LED 8x8",
             "Arduino"
         ]
     },
@@ -5284,7 +5306,7 @@
         "title": "Smokey",
         "summary": "quick build of a Smokey-like LM386 guitar power amp",
         "tags": [
-            "Amp",
+            "Amplifier",
             "Audio"
         ]
     },
@@ -5417,7 +5439,7 @@
         "summary": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some n-channel FETs",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino"
         ]
@@ -5428,7 +5450,7 @@
         "summary": "driving a 4-Digit 7-Segment LED display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "CMOS/TTL",
             "Arduino"
         ]
@@ -5440,7 +5462,7 @@
         "tags": [
             "Sensors",
             "LM35",
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino"
         ]
     },
@@ -5634,7 +5656,7 @@
         "title": "4 Digit 7-Segment LED Displays",
         "summary": "overview of driving a 4-digit 7-segment display",
         "tags": [
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino"
         ]
     },
@@ -5681,7 +5703,8 @@
         "summary": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator",
         "tags": [
             "OpAmp",
-            "Oscillators"
+            "Oscillators",
+            "LM324"
         ]
     },
     "/electronics101/comparator741/": {
@@ -5831,10 +5854,11 @@
     },
     "/electronics101/noninverting324/": {
         "id": 36,
-        "title": "NonInverting324",
+        "title": "LM324 OpAmp Non-inverting DC Gain",
         "summary": "demo LM324 OpAmp non-inverting DC gain mode",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM324"
         ]
     },
     "/playground/rangefinder/": {
@@ -6146,7 +6170,7 @@
         "summary": "test direct control of a 7-segment common-cathode LED display, performing a countdown from 9 to 0",
         "tags": [
             "LED",
-            "7-Segment",
+            "LED 7-Segment",
             "Arduino"
         ]
     }

@@ -10,6 +10,7 @@
       this.loadCatalog();
       this.github_base_url = 'https://github.com/tardate/LittleArduinoProjects/blob/master/';
       this.pages_base_url = 'https://leap.tardate.com/';
+      this.hero_images = true;
     }
 
     CatalogController.prototype.hookActions = function() {
@@ -25,6 +26,7 @@
     CatalogController.prototype.loadCatalog = function() {
       var instance;
       instance = this;
+
       return this.catalog_table.DataTable({
         autoWidth: false,
         ajax: {
@@ -49,14 +51,25 @@
         rowCallback: function(row, data, index) {
           var base_name;
           var cell, main_cell, description_cell;
-          var description, project_rel_url, project_url, hero_image_rel_url, hero_image_url, category_array, category_labels;
+          var project_rel_url, project_url, category_array, category_labels;
+          var hero_image_rel_url, hero_image_url, main_hero_frag, description_hero_frag;
 
           base_name = data.relative_path.split('/').pop();
           project_rel_url = data.relative_path + '/'
           project_url = instance.pages_base_url + project_rel_url
 
-          hero_image_rel_url = project_rel_url + 'assets/' + base_name + '_build.jpg';
-          hero_image_url = instance.pages_base_url + hero_image_rel_url;
+          if (instance.hero_images) {
+            hero_image_rel_url = project_rel_url + 'assets/' + base_name + '_build.jpg';
+            hero_image_url = instance.pages_base_url + hero_image_rel_url;
+
+            main_hero_frag = '<img class="tardate-hero" src="' + hero_image_rel_url + '" alt="">';
+            description_hero_frag = '<div class="media-right"> \
+              <img class="media-object tardate-hero" src="' + hero_image_rel_url + '" alt=""> \
+            </div>';
+          } else {
+            main_hero_frag = '';
+            description_hero_frag = '';
+          }
 
           category_array = data.categories.split(',');
           category_labels = '';
@@ -71,9 +84,8 @@
           <div class="visible-xs-block"> \
             <a href="' + project_rel_url + '" class="btn btn-default btn-success btn-tardate">' + data.id + ' ' + data.name + '</a> \
             <div class="text-muted small">' + data.description + '</div> \
-            <div>' + category_labels + '</div> \
-            <img class="tardate-hero" src="' + hero_image_rel_url + '" alt=""> \
-          </div>\
+            <div>' + category_labels + '</div>' + main_hero_frag + ' \
+          </div>  \
           ';
           cell = $('td:eq(0)', row);
           cell.html(main_cell);
@@ -84,10 +96,7 @@
               <h4 class="media-heading">' + data.name + '</h4> \
               <div class="text-muted">' + data.description + '</div> \
               <div>' + category_labels + '</div> \
-            </div> \
-            <div class="media-right"> \
-              <img class="media-object tardate-hero" src="' + hero_image_rel_url + '" alt=""> \
-            </div> \
+            </div> ' + description_hero_frag + ' \
           </div>\
           ';
           cell = $('td:eq(1)', row)
@@ -97,15 +106,29 @@
           cell.html(description_cell);
           return cell
         }
+      }).on( 'init.dt', function () {
+        var categoryFilter = $('<select id="category-filter" class="form-control input-sm"><option value="">All Categories</option></select>')
+          .appendTo($('#catalog-table_wrapper').find('.dataTables_filter'))
+          .on('change', function() {
+            var val = $.fn.dataTable.util.escapeRegex($(this).val());
+            instance.catalog_table.DataTable().column(2).search(val ? val : '', true, false).draw();
+          });
+
+        $.ajax({
+          url: './catalog/categories.json',
+          success: function(data) {
+            data.forEach(function(item) {
+              categoryFilter.append('<option value="' + item + '">' + item + '</option>');
+            });
+          }
+        });
       });
     };
 
     return CatalogController;
-
   })();
 
   jQuery(function() {
     return new root.CatalogController($('#catalog-table'));
   });
-
 }).call(this);

@@ -1,7 +1,7 @@
 {
     "name": "HamClock",
     "description": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi",
-    "categories": "Radio",
+    "categories": "Radio, macOS, Ubuntu, Raspberry Pi",
     "relative_path": "Radio/HamClock",
     "updated_at": "2025-03-05T05:00:00Z",
     "created_at": "2025-03-05T05:00:00Z",

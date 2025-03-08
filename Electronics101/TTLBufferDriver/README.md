@@ -1,7 +1,8 @@
-# #113 TTLBufferDriver
+# #113 TTL Buffer Driver
 
 Using an OpAmp as a final buffer stage for TTL or similar circuits
 
+![The Build](./assets/TTLBufferDriver_build.jpg?raw=true)
 
 ## Notes
 
@@ -26,6 +27,7 @@ The top trace is the output of the OpAmp, and the lower-top trace is the output 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
 The Arduino is not really a core part of the circuit. It only does the following:
+
 * provides +5V power supply (for convenience)
 * automates the toggling of the driving inputs
 * measures the input and output voltages for plotting

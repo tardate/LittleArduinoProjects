@@ -1,7 +1,6 @@
-# #160 LM324/SplitterBuffer
+# #160 LM324 Splitter Buffer
 
-Demonstrate load-independance of an LM324 buffer and signal-splitter
-
+Demonstrate load-independence of an LM324 buffer and signal-splitter
 
 ## Notes
 
@@ -17,6 +16,7 @@ What I'd like to see is 1:1 transmission of the input signal to the output of bo
 Let's see...
 
 For this test, I have the following setup:
+
 * 5V single rail configuration (i.e. LM324 V- = GND, V+ = 5V)
 * input signal FG is sourced from a signal generator at 3.5V DC offset and 1V peak-to-peak
 * op-amp unit 1 has a fixed load of 10kΩ
@@ -25,6 +25,7 @@ For this test, I have the following setup:
 ### Results
 
 Here are some test results:
+
 * CH1: input
 * CH2: opamp 1 output
 * CH3: opamp 2 output
@@ -50,4 +51,3 @@ as it is the same as seen when just a single opamp is used.
 ## Credits and References
 
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
-

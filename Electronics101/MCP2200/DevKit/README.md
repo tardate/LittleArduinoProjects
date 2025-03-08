@@ -1,6 +1,6 @@
-# #334 MCP2200/DevKit
+# #334 MCP2200 DevKit
 
-Exploring the capabilities of the MCP2200 USB-to-UART transceiver and program it from a MacOSX host.
+Exploring the capabilities of the MCP2200 USB-to-UART transceiver and program it from a macOS host.
 
 ![Build](./assets/DevKit_build.jpg?raw=true)
 
@@ -30,7 +30,6 @@ With pins installed (headers are not included in the dev kit), the eval board is
 
 ![DevKit_pcb_with_pins](./assets/DevKit_pcb_with_pins.jpg?raw=true)
 
-
 ### USB Connection
 
 First up, I was pleased to see the chips recognised without any trouble (or drivers) on MacOSX. It is meant to be compatible with 10.7 and up.
@@ -54,7 +53,6 @@ MCP2200 USB Serial Port Emulator:
 
 ![disk_utility](./assets/disk_utility.png?raw=true)
 
-
 ### Basic UART Operation
 
 On MacOSX, the programmer shows up as a character device:
@@ -71,7 +69,7 @@ $ ls -1 /dev/cu*
 The simplest way of getting connected on MacOSX is to use screen, in this case at 115200 baud:
 
 ```
-$ screen /dev/cu.usbmodem14511 115200
+screen /dev/cu.usbmodem14511 115200
 ```
 
 To give it a quick test, I fired up the [LEAP#333 VoltageSelfMeasurement](../../../playground/VoltageSelfMeasurement) sketch
@@ -112,8 +110,8 @@ and write some simple scripts to play with the MCP2200 HID interface.
 See the examples in [cli](./cli) folder, compiled thus:
 
 ```
-$ cd cli
-$ make
+cd cli
+make
 ```
 
 #### Read Configuration
@@ -212,11 +210,9 @@ But GPIO on a USB to UART chip?? Perhaps a few reasons:
 
 See [LEAP#335 Chaser](../Chaser) for a demonstration of input and output capabiltiies.
 
-
 ## Module Schematic
 
 ![Schematic](./assets/DevKit_schematic.jpg?raw=true)
-
 
 ## Credits and References
 
