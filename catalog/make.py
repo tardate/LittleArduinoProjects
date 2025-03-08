@@ -384,6 +384,9 @@ class Catalog(object):
         if os.path.exists(assets_template_path):
             shutil.copytree(assets_template_path, project_assets_path)
             print(f"Copied assets to project folder")
+        else:
+            os.makedirs(project_assets_path)
+            print(f"Created: {project_assets_path}")
 
         self._ensure_asset_backup_exists(relative_path)
 
