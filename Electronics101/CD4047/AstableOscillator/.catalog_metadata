@@ -2,7 +2,7 @@
     "id": "#206",
     "name": "CD4047 Astable Oscillator",
     "description": "test the astable operating mode of the CD4047",
-    "categories": "CMOS/TTL, Oscillators",
+    "categories": "CMOS/TTL, CD4047, Oscillators",
     "relative_path": "Electronics101/CD4047/AstableOscillator",
     "updated_at": "2022-09-16T13:35:07Z",
     "created_at": "2022-09-16T13:35:07Z"

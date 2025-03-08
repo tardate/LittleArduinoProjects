@@ -2,7 +2,7 @@
     "id": "#479",
     "name": "LedControl MAX7219 7-Segment LED Driver",
     "description": "Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library",
-    "categories": "7-Segment, Arduino, LED, MAX7219",
+    "categories": "LED 7-Segment, Arduino, LED, MAX7219",
     "relative_path": "playground/LED7Segment/MAX7219/LedControlDemo",
     "updated_at": "2019-05-05T11:59:19Z",
     "created_at": "2019-05-05T11:59:19Z"

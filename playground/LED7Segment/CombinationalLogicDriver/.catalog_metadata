@@ -2,7 +2,7 @@
     "id": "#308",
     "name": "7-Segment Combinational Logic",
     "description": "- dust off some combinational logic methods and build a 8421-BCD to 7-segment LED driver with 7400 series logic",
-    "categories": "LED, 7-Segment, CMOS/TTL, Arduino",
+    "categories": "LED, LED 7-Segment, CMOS/TTL, Arduino",
     "relative_path": "playground/LED7Segment/CombinationalLogicDriver",
     "updated_at": "2020-10-02T13:02:32Z",
     "created_at": "2020-10-02T13:02:32Z"

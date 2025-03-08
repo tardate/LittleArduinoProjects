@@ -2,7 +2,7 @@
     "id": "#136",
     "name": "CounterModule",
     "description": "a general-purpose CD4017 counter module",
-    "categories": "CMOS, Arduino",
+    "categories": "CMOS/TTL, Arduino",
     "relative_path": "playground/CounterModule",
     "updated_at": "2016-06-19T14:13:24Z",
     "created_at": "2016-06-19T14:13:24Z"

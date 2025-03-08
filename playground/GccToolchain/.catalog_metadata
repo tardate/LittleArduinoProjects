@@ -2,7 +2,7 @@
     "id": "#220",
     "name": "AVR GCC Toolchain",
     "description": "programming an Arduino with C and a command line",
-    "categories": "avr-gcc, avrdude",
+    "categories": "AVR",
     "relative_path": "playground/GccToolchain",
     "updated_at": "2020-01-10T16:17:10Z",
     "created_at": "2020-01-10T16:17:10Z"

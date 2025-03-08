@@ -2,7 +2,7 @@
     "id": "#605",
     "name": "ATtiny Analog Comparator",
     "description": "Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator",
-    "categories": "Arduino, AVR, Sensor, OpAmp",
+    "categories": "Arduino, AVR, Sensors, OpAmp",
     "relative_path": "playground/ATtiny/AnalogComparator",
     "updated_at": "2021-09-16T18:14:44Z",
     "created_at": "2021-09-16T18:14:44Z"

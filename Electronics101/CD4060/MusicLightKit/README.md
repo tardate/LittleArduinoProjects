@@ -1,4 +1,4 @@
-# #291 CD4060/MusicLightKit
+# #291 Music Light Kit
 
 Learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit.
 
@@ -15,13 +15,11 @@ It is an interesting demonstration of the CD4060 14-Stage Ripple Carry Binary Co
 
 The kit includes a potted sound chip that plays "Happy Birthday". The music circuit runs completely independently of the CD4060-driven LED circuit.
 
-
 ### Julian Ilett's Build
 
 This is the same kit covered by Julian Ilett:
 
 [![Kit Build](https://img.youtube.com/vi/AJFLz_hQsjo/0.jpg)](https://www.youtube.com/watch?v=AJFLz_hQsjo)
-
 
 ### CD4060 Ripple Counter
 

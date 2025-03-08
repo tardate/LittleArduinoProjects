@@ -2,7 +2,7 @@
     "id": "#360",
     "name": "TL431/ShuntRegulator",
     "description": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim",
-    "categories": " Power, Regulator, Reference",
+    "categories": " Power, Regulator, Voltage Reference",
     "relative_path": "Electronics101/VoltageReference/TL431/ShuntRegulator",
     "updated_at": "2018-01-24T13:49:35Z",
     "created_at": "2018-01-24T13:49:35Z"

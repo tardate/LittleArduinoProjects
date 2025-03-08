@@ -1,4 +1,4 @@
-# #335 MCP2200/Chaser
+# #335 MCP2200 Chaser
 
 Using the MCP2200 GPIO from MacOSX. With great power comes great responsibility to blink LEDs.
 
@@ -36,8 +36,6 @@ Using the GPIO pins for digital input involves two HID commands.
 
 * CONFIGURE: set pin mode in IO_bmap, and
 * READ_ALL to get the IO_Port_Val_bmap values
-
-
 
 ### A Chaser Demo
 

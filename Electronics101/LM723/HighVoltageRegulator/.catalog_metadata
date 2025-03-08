@@ -1,6 +1,6 @@
 {
     "id": "#384",
-    "name": "LM723/HighVoltageRegulator",
+    "name": "LM723 High-Voltage Regulator",
     "description": "playing with the basic high voltage output circuit for the LM723 voltage regulator",
     "categories": "Power, Regulator, LM723",
     "relative_path": "Electronics101/LM723/HighVoltageRegulator",

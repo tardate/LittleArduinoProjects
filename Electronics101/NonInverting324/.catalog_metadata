@@ -1,8 +1,8 @@
 {
     "id": "#036",
-    "name": "NonInverting324",
+    "name": "LM324 OpAmp Non-inverting DC Gain",
     "description": "demo LM324 OpAmp non-inverting DC gain mode",
-    "categories": "OpAmp",
+    "categories": "OpAmp, LM324",
     "relative_path": "Electronics101/NonInverting324",
     "updated_at": "2016-06-19T14:13:24Z",
     "created_at": "2016-06-19T14:13:24Z"

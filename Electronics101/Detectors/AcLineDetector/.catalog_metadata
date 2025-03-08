@@ -2,7 +2,7 @@
     "id": "#535",
     "name": "AC Line Detector",
     "description": "Playing around with a simple AC line current detector",
-    "categories": "power, detector",
+    "categories": "Power, Sensors",
     "relative_path": "Electronics101/Detectors/AcLineDetector",
     "updated_at": "2020-03-26T23:24:28Z",
     "created_at": "2020-03-26T23:24:28Z"
