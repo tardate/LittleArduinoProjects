@@ -113,18 +113,6 @@
             data.forEach(function(item) {
               categoryFilter.append('<option value="' + item + '">' + item + '</option>');
             });
-            // var categories = [];
-            // data.forEach(function(item) {
-            //   item.categories.split(',').forEach(function(category) {
-            //     if (categories.indexOf(category) === -1) {
-            //       categories.push(category);
-            //     }
-            //   });
-            // });
-            // categories.sort();
-            // categories.forEach(function(category) {
-            //   categoryFilter.append('<option value="' + category + '">' + category + '</option>');
-            // });
           }
         });
       });
