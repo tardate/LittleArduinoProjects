@@ -580,6 +580,16 @@
         "original_relative_path": "playground/LedCurrentControl"
     },
     {
+        "id": "#607",
+        "name": "CD4049 Voltage Doubler",
+        "description": "Testing a voltage doubler circuit based on a CD4049 inverter-driven bucket brigade.",
+        "categories": "CMOS/TTL, CD4049",
+        "relative_path": "electronics101/cd4049/voltagedoubler",
+        "updated_at": "2025-03-09T15:18:00Z",
+        "created_at": "2025-03-09T15:18:00Z",
+        "original_relative_path": "Electronics101/CD4049/VoltageDoubler"
+    },
+    {
         "id": "#606",
         "name": "CD4049 Relaxation Oscillator",
         "description": "Testing a simple relaxation oscillator using the CD4049 hex inverter with an RC network.",
