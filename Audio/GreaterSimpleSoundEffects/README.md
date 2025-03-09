@@ -24,15 +24,15 @@ a CD4040 12-Stage Ripple Counter, and CD4049 inverter.
 Here's a basic description of how it works:
 
 * Counter and DAC stage
-  * the CD4049 12-stage counter output drives a simple D/A converter comprising a resistor network
-  * each stage drives the transistor at a distinct current, resulting in a control voltage across the collector-emitter
+    * the CD4049 12-stage counter output drives a simple D/A converter comprising a resistor network
+    * each stage drives the transistor at a distinct current, resulting in a control voltage across the collector-emitter
 * VCO stage
-  * two inverters from the CD4040 run as a CMOS oscillator, with a variable resistor and capacitor for trim
-  * the transistor coupling from the DAC is connected to the oscillator with a bridge rectifier
-  * this effectively creates a Voltage-controlled Oscillator (VCO)
+    * two inverters from the CD4040 run as a CMOS oscillator, with a variable resistor and capacitor for trim
+    * the transistor coupling from the DAC is connected to the oscillator with a bridge rectifier
+    * this effectively creates a Voltage-controlled Oscillator (VCO)
 * Output driver
-  * a number of inverters are connected in parallel to directly drive an AC-coupled speaks
-  * this is a trick one doesn't see so much these days - while an individual inverter may not have much drive capability (up to 8.8mA at 15V),
+    * a number of inverters are connected in parallel to directly drive an AC-coupled speaks
+    * this is a trick one doesn't see so much these days - while an individual inverter may not have much drive capability (up to 8.8mA at 15V),
 running a number in parallel aggregates the current that can be delivered and thus avoid an additional power amplifier stage.
 
 The resulting sound produced continually cycles through a number of modulation frequencies.
