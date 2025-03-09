@@ -1,0 +1,9 @@
+{
+    "id": "#606",
+    "name": "CD4049 Relaxation Oscillator",
+    "description": "Testing a simple relaxation oscillator using the CD4049 hex inverter with an RC network.",
+    "categories": "CMOS/TTL, CD4049, Oscillators",
+    "relative_path": "Electronics101/CD4049/RelaxationOscillator",
+    "updated_at": "2025-03-09T14:32:00Z",
+    "created_at": "2025-03-09T14:32:00Z"
+}

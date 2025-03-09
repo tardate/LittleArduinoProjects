@@ -25,9 +25,9 @@ It is not necessary to use a Schmitt trigger input for this circuit, so the 74HC
 ### Test Result
 
 The frequency is determined by the RC time constant (`f = 1 / (1.2 * R * C)`).
-With R=1kΩ and C=100nF, the expected frequency is [8.333 MHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*100pF%29).
+With R=1kΩ and C=100nF, the expected frequency is [8.333 kHz](https://www.wolframalpha.com/input?i=1%2F%281.2*1k%CE%A9*100nF%29).
 
-Running on a breadboard, I am getting a somewhat different result: 7.04 MHz at 64.7% +duty cycle
+Running on a breadboard, I am getting a somewhat different result: 7.04 kHz at 64.7% +duty cycle
 
 ![scope_1k_100n](./assets/scope_1k_100n.gif?raw=true)
 

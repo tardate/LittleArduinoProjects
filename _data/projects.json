@@ -537,6 +537,16 @@
             "Arduino"
         ]
     },
+    "/electronics101/cd4049/relaxationoscillator/": {
+        "id": 606,
+        "title": "CD4049 Relaxation Oscillator",
+        "summary": "Testing a simple relaxation oscillator using the CD4049 hex inverter with an RC network.",
+        "tags": [
+            "CMOS/TTL",
+            "CD4049",
+            "Oscillators"
+        ]
+    },
     "/playground/attiny/analogcomparator/": {
         "id": 605,
         "title": "ATtiny Analog Comparator",
@@ -1415,6 +1425,9 @@
         "tags": [
             "BEAM",
             "CMOS/TTL",
+            "CD4040",
+            "CD4049",
+            "LM386",
             "Sensors",
             "Circuit Sculpture",
             "Freeform"
