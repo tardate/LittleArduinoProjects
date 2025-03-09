@@ -8,6 +8,8 @@ Testing a simple relaxation oscillator using the CD4049 hex inverter with an RC 
 
 The [CD4049](https://www.futurlec.com/4000Series/CD4049.shtml) is a hex inverter buffer/driver with the ability to operate over a wide voltage range of 3V to 15V. Unlike standard inverters, it can provide higher output drive capability, making it suitable for interfacing between different logic families and driving capacitive or resistive loads. It features symmetrical output rise and fall times, low power consumption, and high noise immunity. The CD4049 is often used in logic level shifting, waveform generation, and simple amplification applications, especially where standard logic gates do not provide sufficient drive strength.
 
+![cd4049-pinout](../assets/cd4049-pinout.png)
+
 ### Circuit Design
 
 This relaxation oscillator uses two inverters with an RC network to slow down the state changes.

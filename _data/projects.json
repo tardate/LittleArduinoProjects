@@ -537,6 +537,15 @@
             "Arduino"
         ]
     },
+    "/electronics101/cd4049/voltagedoubler/": {
+        "id": 607,
+        "title": "CD4049 Voltage Doubler",
+        "summary": "Testing a voltage doubler circuit based on a CD4049 inverter-driven bucket brigade.",
+        "tags": [
+            "CMOS/TTL",
+            "CD4049"
+        ]
+    },
     "/electronics101/cd4049/relaxationoscillator/": {
         "id": 606,
         "title": "CD4049 Relaxation Oscillator",
