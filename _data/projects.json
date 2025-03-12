@@ -415,6 +415,14 @@
             "CD4001"
         ]
     },
+    "/books/audio-ic-users-handbook/": {
+        "id": 634,
+        "title": "Audio IC Users Handbook",
+        "summary": "Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/serialinterface/usbtorj45/": {
         "id": 633,
         "title": "USB to RJ45 Adapter",

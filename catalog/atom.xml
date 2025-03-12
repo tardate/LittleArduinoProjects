@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T13:06:00Z</updated>
+  <updated>2025-03-12T13:17:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -518,6 +518,16 @@
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
     <category term="CD4001"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/audio-ic-users-handbook/</id>
+    <link href="https://leap.tardate.com/books/audio-ic-users-handbook/"/>
+    <g:image_link>https://leap.tardate.com/books/audio-ic-users-handbook/assets/audio-ic-users-handbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:17:00Z</updated>
+    <title>#634 Audio IC Users Handbook</title>
+    <summary>Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/audio-ic-users-handbook/assets/audio-ic-users-handbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/serialinterface/usbtorj45/</id>

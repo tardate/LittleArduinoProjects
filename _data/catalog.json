@@ -450,6 +450,16 @@
         "original_relative_path": "Electronics101/CD4001/SRLatch"
     },
     {
+        "id": "#634",
+        "name": "Audio IC Users Handbook",
+        "description": "Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.",
+        "categories": "Books",
+        "relative_path": "books/audio-ic-users-handbook",
+        "updated_at": "2025-03-12T13:17:00Z",
+        "created_at": "2025-03-12T13:17:00Z",
+        "original_relative_path": "books/audio-ic-users-handbook"
+    },
+    {
         "id": "#633",
         "name": "USB to RJ45 Adapter",
         "description": "building a USB to RJ45 adapter with the CH340G and MAX3232 chipsets",
