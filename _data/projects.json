@@ -366,6 +366,14 @@
             "environmental"
         ]
     },
+    "/books/ic-converter-cookbook/": {
+        "id": 645,
+        "title": "IC Converter Cookbook",
+        "summary": "Book notes: IC converter cookbook, by Walter G. Jung. First published January 1, 1978.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/practical-oscillator-handbook/": {
         "id": 644,
         "title": "Practical Oscillator Handbook",
