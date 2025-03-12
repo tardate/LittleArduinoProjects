@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T09:41:00Z</updated>
+  <updated>2025-03-12T10:21:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -624,6 +624,16 @@
     <category term="Audio"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/analog-circuits-cookbook/</id>
+    <link href="https://leap.tardate.com/books/analog-circuits-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/analog-circuits-cookbook/assets/analog-circuits-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T10:21:00Z</updated>
+    <title>#618 Analog Circuits Cookbook</title>
+    <summary>Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/analog-circuits-cookbook/assets/analog-circuits-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/weevileyekit/</id>
     <link href="https://leap.tardate.com/electronics101/weevileyekit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/weevileyekit/assets/weevileyekit_build.jpg</g:image_link>
@@ -644,6 +654,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;An Arduino LED candle emulation&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/candleemulator/assets/candleemulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/</id>
+    <link href="https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/"/>
+    <g:image_link>https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/assets/30-arduino-projects-for-the-evil-genius_build.jpg</g:image_link>
+    <updated>2025-03-12T10:13:00Z</updated>
+    <title>#615 30 Arduino Projects for the Evil Genius</title>
+    <summary>Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/assets/30-arduino-projects-for-the-evil-genius_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/arduino-cookbook/</id>

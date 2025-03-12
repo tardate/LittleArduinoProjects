@@ -540,6 +540,16 @@
         "original_relative_path": "Audio/SpeechSynthesis/SYN6288Module"
     },
     {
+        "id": "#618",
+        "name": "Analog Circuits Cookbook",
+        "description": "Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.",
+        "categories": "Books",
+        "relative_path": "books/analog-circuits-cookbook",
+        "updated_at": "2025-03-12T10:21:00Z",
+        "created_at": "2025-03-12T10:21:00Z",
+        "original_relative_path": "books/analog-circuits-cookbook"
+    },
+    {
         "id": "#617",
         "name": "Weevil Eye Kit",
         "description": "Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.",
@@ -558,6 +568,16 @@
         "updated_at": "2022-01-02T02:12:30Z",
         "created_at": "2022-01-02T02:12:30Z",
         "original_relative_path": "Electronics101/LED/CandleEmulator"
+    },
+    {
+        "id": "#615",
+        "name": "30 Arduino Projects for the Evil Genius",
+        "description": "Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.",
+        "categories": "Books",
+        "relative_path": "books/30-arduino-projects-for-the-evil-genius",
+        "updated_at": "2025-03-12T10:13:00Z",
+        "created_at": "2025-03-12T10:13:00Z",
+        "original_relative_path": "books/30-arduino-projects-for-the-evil-genius"
     },
     {
         "id": "#614",

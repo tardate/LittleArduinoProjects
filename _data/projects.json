@@ -501,6 +501,14 @@
             "Audio"
         ]
     },
+    "/books/analog-circuits-cookbook/": {
+        "id": 618,
+        "title": "Analog Circuits Cookbook",
+        "summary": "Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/weevileyekit/": {
         "id": 617,
         "title": "Weevil Eye Kit",
@@ -517,6 +525,14 @@
         "tags": [
             "LED",
             "Arduino"
+        ]
+    },
+    "/books/30-arduino-projects-for-the-evil-genius/": {
+        "id": 615,
+        "title": "30 Arduino Projects for the Evil Genius",
+        "summary": "Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.",
+        "tags": [
+            "Books"
         ]
     },
     "/books/arduino-cookbook/": {
