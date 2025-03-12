@@ -420,6 +420,16 @@
         "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/MT3608/SafeControl"
     },
     {
+        "id": "#640",
+        "name": "CMOS Cookbook",
+        "description": "Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.",
+        "categories": "Books",
+        "relative_path": "books/cmos-cookbook",
+        "updated_at": "2025-03-12T13:33:00Z",
+        "created_at": "2025-03-12T13:33:00Z",
+        "original_relative_path": "books/cmos-cookbook"
+    },
+    {
         "id": "#639",
         "name": "Circuit Scrapbook, Vol 1",
         "description": "Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.",

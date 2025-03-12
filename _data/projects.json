@@ -385,6 +385,14 @@
             "SMPS"
         ]
     },
+    "/books/cmos-cookbook/": {
+        "id": 640,
+        "title": "CMOS Cookbook",
+        "summary": "Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/circuit-scrapbook-vol1/": {
         "id": 639,
         "title": "Circuit Scrapbook, Vol 1",

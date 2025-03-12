@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T13:28:00Z</updated>
+  <updated>2025-03-12T13:33:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -482,6 +482,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/cmos-cookbook/</id>
+    <link href="https://leap.tardate.com/books/cmos-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/cmos-cookbook/assets/cmos-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:33:00Z</updated>
+    <title>#640 CMOS Cookbook</title>
+    <summary>Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/cmos-cookbook/assets/cmos-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/circuit-scrapbook-vol1/</id>
