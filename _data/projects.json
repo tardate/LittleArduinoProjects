@@ -357,6 +357,14 @@
             "LED"
         ]
     },
+    "/books/building-smart-drones-with-esp8266-and-arduino/": {
+        "id": 652,
+        "title": "Building Smart Drones with ESP8266 and Arduino",
+        "summary": "Book notes: Building Smart Drones with ESP8266 and Arduino: Build exciting drones by leveraging the capabilities of Arduino and ESP8266, by Syed Omar Faruk Towaha. Published February 27, 2018.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/experimental-methods-in-rf-design/": {
         "id": 651,
         "title": "Experimental Methods in RF Design",

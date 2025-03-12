@@ -390,6 +390,16 @@
         "original_relative_path": "Audio/Visualization/UsbLedVolumeIndicatorKit"
     },
     {
+        "id": "#652",
+        "name": "Building Smart Drones with ESP8266 and Arduino",
+        "description": "Book notes: Building Smart Drones with ESP8266 and Arduino: Build exciting drones by leveraging the capabilities of Arduino and ESP8266, by Syed Omar Faruk Towaha. Published February 27, 2018.",
+        "categories": "Books",
+        "relative_path": "books/building-smart-drones-with-esp8266-and-arduino",
+        "updated_at": "2025-03-12T15:07:00Z",
+        "created_at": "2025-03-12T15:07:00Z",
+        "original_relative_path": "books/building-smart-drones-with-esp8266-and-arduino"
+    },
+    {
         "id": "#651",
         "name": "Experimental Methods in RF Design",
         "description": "Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.",
