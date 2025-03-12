@@ -560,6 +560,16 @@
         "original_relative_path": "Electronics101/LED/CandleEmulator"
     },
     {
+        "id": "#614",
+        "name": "Arduino Cookbook",
+        "description": "Book notes: Arduino Cookbook, by Michael Margolis. First published October 15, 2010.",
+        "categories": "Books",
+        "relative_path": "books/arduino-cookbook",
+        "updated_at": "2025-03-12T09:41:00Z",
+        "created_at": "2025-03-12T09:41:00Z",
+        "original_relative_path": "books/arduino-cookbook"
+    },
+    {
         "id": "#613",
         "name": "Beginning Digital Electronics through Projects",
         "description": "Book notes: Beginning Digital Electronics through Projects by Andrew Singmin, first published December 1, 2000.",

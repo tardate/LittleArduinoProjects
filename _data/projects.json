@@ -519,6 +519,14 @@
             "Arduino"
         ]
     },
+    "/books/arduino-cookbook/": {
+        "id": 614,
+        "title": "Arduino Cookbook",
+        "summary": "Book notes: Arduino Cookbook, by Michael Margolis. First published October 15, 2010.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/beginning-digital-electronics-through-projects/": {
         "id": 613,
         "title": "Beginning Digital Electronics through Projects",
