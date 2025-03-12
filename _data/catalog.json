@@ -590,6 +590,16 @@
         "original_relative_path": "Electronics101/555Timer/LaserRay"
     },
     {
+        "id": "#609",
+        "name": "Beginning Analog Electronics through Projects",
+        "description": "Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.",
+        "categories": "Books",
+        "relative_path": "books/beginning-analog-electronics-through-projects",
+        "updated_at": "2025-03-12T09:10:00Z",
+        "created_at": "2025-03-12T09:10:00Z",
+        "original_relative_path": "books/beginning-analog-electronics-through-projects"
+    },
+    {
         "id": "#608",
         "name": "LED Current Control",
         "description": "Using an Arduino PWM signal for smooth current-controlled LED dimming with a current mirror",

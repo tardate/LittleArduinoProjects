@@ -547,6 +547,14 @@
             "LED"
         ]
     },
+    "/books/beginning-analog-electronics-through-projects/": {
+        "id": 609,
+        "title": "Beginning Analog Electronics through Projects",
+        "summary": "Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/ledcurrentcontrol/": {
         "id": 608,
         "title": "LED Current Control",

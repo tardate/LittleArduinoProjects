@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T07:47:00Z</updated>
+  <updated>2025-03-12T09:10:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -678,6 +678,16 @@
     <category term="555 Timer"/>
     <category term="Audio"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/beginning-analog-electronics-through-projects/</id>
+    <link href="https://leap.tardate.com/books/beginning-analog-electronics-through-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/beginning-analog-electronics-through-projects/assets/beginning-analog-electronics-through-projects_build.jpg</g:image_link>
+    <updated>2025-03-12T09:10:00Z</updated>
+    <title>#609 Beginning Analog Electronics through Projects</title>
+    <summary>Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/beginning-analog-electronics-through-projects/assets/beginning-analog-electronics-through-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ledcurrentcontrol/</id>
