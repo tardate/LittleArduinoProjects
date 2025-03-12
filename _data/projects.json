@@ -338,6 +338,14 @@
             "Arduino"
         ]
     },
+    "/books/the-art-of-electronics-x-chapters/": {
+        "id": 657,
+        "title": "The Art of Electronics: The X Chapters",
+        "summary": "Book notes: The Art of Electronics: The X Chapters, by Paul Horowitz, Winfield Hill. Published January 30, 2020.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/oscillators/schmittcrystallockedoscillator/": {
         "id": 656,
         "title": "Crystal-Locked Schmitt Oscillator",
