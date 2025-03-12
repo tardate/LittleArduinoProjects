@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T15:07:00Z</updated>
+  <updated>2025-03-12T15:13:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -436,6 +436,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a basic crystal-locked Schmitt oscillator using a 74HC14&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/assets/schmittcrystallockedoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/diy-drones-for-the-evil-genius/</id>
+    <link href="https://leap.tardate.com/books/diy-drones-for-the-evil-genius/"/>
+    <g:image_link>https://leap.tardate.com/books/diy-drones-for-the-evil-genius/assets/diy-drones-for-the-evil-genius_build.jpg</g:image_link>
+    <updated>2025-03-12T15:13:00Z</updated>
+    <title>#654 DIY Drones for the Evil Genius</title>
+    <summary>Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/diy-drones-for-the-evil-genius/assets/diy-drones-for-the-evil-genius_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/visualization/usbledvolumeindicatorkit/</id>

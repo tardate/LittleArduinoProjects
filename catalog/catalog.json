@@ -380,6 +380,16 @@
         "original_relative_path": "Electronics101/Oscillators/SchmittCrystalLockedOscillator"
     },
     {
+        "id": "#654",
+        "name": "DIY Drones for the Evil Genius",
+        "description": "Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.",
+        "categories": "Books",
+        "relative_path": "books/diy-drones-for-the-evil-genius",
+        "updated_at": "2025-03-12T15:13:00Z",
+        "created_at": "2025-03-12T15:13:00Z",
+        "original_relative_path": "books/diy-drones-for-the-evil-genius"
+    },
+    {
         "id": "#653",
         "name": "USB Audio Level Indicator Kit",
         "description": "An electret-input audio level kit based on cascading LM358 stages with LED indicators",

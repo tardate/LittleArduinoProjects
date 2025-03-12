@@ -347,6 +347,14 @@
             "Oscillators"
         ]
     },
+    "/books/diy-drones-for-the-evil-genius/": {
+        "id": 654,
+        "title": "DIY Drones for the Evil Genius",
+        "summary": "Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/audio/visualization/usbledvolumeindicatorkit/": {
         "id": 653,
         "title": "USB Audio Level Indicator Kit",
