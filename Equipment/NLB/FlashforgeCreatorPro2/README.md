@@ -28,7 +28,9 @@ They provide laptops with the software pre-installed. It can be downloaded for u
 
 See the [Creator Pro 2 User Guide](./assets/creator-pro-2.pdf).
 
-The starter training introduced the basic process:
+### Workflow
+
+The [starter training](./assets/makeit-3d-printing-starter-session-2024-09-01.pdf) introduced the basic process:
 
 * using [TinkerCAD](https://www.tinkercad.com/) to make a 3D model
 * export to STL
@@ -43,7 +45,7 @@ The starter training introduced the basic process:
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code)
 * use an SD card to load and print the g-code on the printer
 
-The start course has everyone design and print a simple nametag
+The starter course has everyone design and print a simple nametag
 (the tag I made: [nametag-wcl.stl](./assets/nametag-wcl.stl)).
 
 ![nametag-wcl](./assets/nametag-wcl.jpg)
@@ -58,6 +60,7 @@ The start course has everyone design and print a simple nametag
 ## Credits and References
 
 * [NLB MakeIT At Libraries](https://www.nlb.gov.sg/main/services/MakeIT-at-Libraries)
+    * [NLB MakeIT booking](https://makeitsg.simplybook.asia/v2/)
 * [FlashPrint 5](https://flashforge.com/pages/software-flashprint)
 * [TinkerCAD](https://www.tinkercad.com/)
 * [CNC G-code](https://en.wikipedia.org/wiki/G-code)

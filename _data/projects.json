@@ -82,6 +82,15 @@
             "Power"
         ]
     },
+    "/equipment/nlb/lionsforgecraftlaser/": {
+        "id": 754,
+        "title": "NLB Lionsforge Craftlaser",
+        "summary": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.",
+        "tags": [
+            "NLB MakeIt",
+            "Laser Cutter"
+        ]
+    },
     "/electronics101/digitallogic/digitalclockkit/": {
         "id": 740,
         "title": "Digital Clock Kit",
