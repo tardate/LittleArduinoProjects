@@ -357,6 +357,14 @@
             "LED"
         ]
     },
+    "/books/the-electronics-of-radio/": {
+        "id": 648,
+        "title": "The Electronics of Radio",
+        "summary": "Book notes: The Electronics of Radio, by David B. Rutledge. First published August 13, 1999.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/equipment/humidifiermodule/": {
         "id": 647,
         "title": "USB Humidifier Module",
