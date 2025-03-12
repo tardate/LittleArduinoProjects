@@ -366,6 +366,14 @@
             "environmental"
         ]
     },
+    "/books/radio-and-electronics-cookbook/": {
+        "id": 646,
+        "title": "Radio and Electronics Cookbook",
+        "summary": "Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/ic-converter-cookbook/": {
         "id": 645,
         "title": "IC Converter Cookbook",

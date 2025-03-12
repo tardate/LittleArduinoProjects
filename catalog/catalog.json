@@ -400,6 +400,16 @@
         "original_relative_path": "Equipment/HumidifierModule"
     },
     {
+        "id": "#646",
+        "name": "Radio and Electronics Cookbook",
+        "description": "Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.",
+        "categories": "Books",
+        "relative_path": "books/radio-and-electronics-cookbook",
+        "updated_at": "2025-03-12T14:04:00Z",
+        "created_at": "2025-03-12T14:04:00Z",
+        "original_relative_path": "books/radio-and-electronics-cookbook"
+    },
+    {
         "id": "#645",
         "name": "IC Converter Cookbook",
         "description": "Book notes: IC converter cookbook, by Walter G. Jung. First published January 1, 1978.",
