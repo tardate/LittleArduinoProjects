@@ -1,6 +1,6 @@
-# 665 Little Electronic Art Projects
+# 666 Little Electronic Art Projects
 
-> Latest addition:sparkles: [HamClock](./Radio/HamClock) - Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi
+> Latest addition:sparkles: [74LS74 Clap Switch](./Electronics101/74LS74/ClapSwitch) - Building a clap-switch circuit with electret input, 555 trigger and 74LS74 latch.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
