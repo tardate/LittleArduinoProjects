@@ -453,6 +453,14 @@
             "Control"
         ]
     },
+    "/books/arduino-projects-for-amateur-radio/": {
+        "id": 627,
+        "title": "Arduino Projects for Amateur Radio",
+        "summary": "Book notes: Arduino Projects for Amateur Radio, by Jack Purdum, Dennis Kidder. First published September 4, 2014.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/more-arduino-projects-for-ham-radio/": {
         "id": 626,
         "title": "More Arduino Projects for Ham Radio",
