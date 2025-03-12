@@ -385,6 +385,14 @@
             "SMPS"
         ]
     },
+    "/books/building-arduino-plcs/": {
+        "id": 638,
+        "title": "Building Arduino PLCs",
+        "summary": "Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/cd4069/logicprobe/": {
         "id": 637,
         "title": "CD4069 Logic Probe",

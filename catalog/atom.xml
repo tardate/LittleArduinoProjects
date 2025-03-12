@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T13:17:00Z</updated>
+  <updated>2025-03-12T13:23:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -482,6 +482,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/building-arduino-plcs/</id>
+    <link href="https://leap.tardate.com/books/building-arduino-plcs/"/>
+    <g:image_link>https://leap.tardate.com/books/building-arduino-plcs/assets/building-arduino-plcs_build.jpg</g:image_link>
+    <updated>2025-03-12T13:23:00Z</updated>
+    <title>#638 Building Arduino PLCs</title>
+    <summary>Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/building-arduino-plcs/assets/building-arduino-plcs_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4069/logicprobe/</id>
