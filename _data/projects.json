@@ -357,6 +357,14 @@
             "LED"
         ]
     },
+    "/books/the-essence-of-analog-electronics/": {
+        "id": 649,
+        "title": "The Essence of Analog Electronics",
+        "summary": "Books notes: The Essence of Analog Electronics, by Colin Lunn. First published November 30, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/the-electronics-of-radio/": {
         "id": 648,
         "title": "The Electronics of Radio",

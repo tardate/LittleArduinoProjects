@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T14:15:00Z</updated>
+  <updated>2025-03-12T14:22:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -448,6 +448,16 @@
     <category term="LM358"/>
     <category term="Audio"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-essence-of-analog-electronics/</id>
+    <link href="https://leap.tardate.com/books/the-essence-of-analog-electronics/"/>
+    <g:image_link>https://leap.tardate.com/books/the-essence-of-analog-electronics/assets/the-essence-of-analog-electronics_build.jpg</g:image_link>
+    <updated>2025-03-12T14:22:00Z</updated>
+    <title>#649 The Essence of Analog Electronics</title>
+    <summary>Books notes: The Essence of Analog Electronics, by Colin Lunn. First published November 30, 1996.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Books notes: The Essence of Analog Electronics, by Colin Lunn. First published November 30, 1996.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-essence-of-analog-electronics/assets/the-essence-of-analog-electronics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/the-electronics-of-radio/</id>
