@@ -472,6 +472,14 @@
             "Arduino"
         ]
     },
+    "/books/arduino-for-ham-radio/": {
+        "id": 623,
+        "title": "Arduino for Ham Radio",
+        "summary": "Book notes: Arduino for Ham Radio: A Radio Amateur's Guide to Open Source Electronics and Microcontroller Projects, by Glen Popiel. First published January 1, 2014.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arduino-for-musicians/": {
         "id": 622,
         "title": "Arduino for Musicians",
