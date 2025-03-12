@@ -357,6 +357,14 @@
             "LED"
         ]
     },
+    "/books/arrl-handbook-2017/": {
+        "id": 650,
+        "title": "ARRL Handbook 2017",
+        "summary": "Book notes: The ARRL Handbook for Radio Communications 2017. Published September 30, 2016.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/the-essence-of-analog-electronics/": {
         "id": 649,
         "title": "The Essence of Analog Electronics",
