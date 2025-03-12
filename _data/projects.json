@@ -357,6 +357,14 @@
             "LED"
         ]
     },
+    "/books/experimental-methods-in-rf-design/": {
+        "id": 651,
+        "title": "Experimental Methods in RF Design",
+        "summary": "Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arrl-handbook-2017/": {
         "id": 650,
         "title": "ARRL Handbook 2017",
