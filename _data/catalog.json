@@ -560,6 +560,16 @@
         "original_relative_path": "Electronics101/LED/CandleEmulator"
     },
     {
+        "id": "#613",
+        "name": "Beginning Digital Electronics through Projects",
+        "description": "Book notes: Beginning Digital Electronics through Projects by Andrew Singmin, first published December 1, 2000.",
+        "categories": "Books",
+        "relative_path": "books/beginning-digital-electronics-through-projects",
+        "updated_at": "2025-03-12T09:30:00Z",
+        "created_at": "2025-03-12T09:30:00Z",
+        "original_relative_path": "books/beginning-digital-electronics-through-projects"
+    },
+    {
         "id": "#612",
         "name": "Hi-Lo Logic Tester Kit",
         "description": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",

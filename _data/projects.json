@@ -519,6 +519,14 @@
             "Arduino"
         ]
     },
+    "/books/beginning-digital-electronics-through-projects/": {
+        "id": 613,
+        "title": "Beginning Digital Electronics through Projects",
+        "summary": "Book notes: Beginning Digital Electronics through Projects by Andrew Singmin, first published December 1, 2000.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/equipment/hilologictesterkit/": {
         "id": 612,
         "title": "Hi-Lo Logic Tester Kit",
