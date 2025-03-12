@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T13:40:00Z</updated>
+  <updated>2025-03-12T13:49:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -459,6 +459,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/humidifiermodule/assets/humidifiermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="USB"/>
     <category term="environmental"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/practical-oscillator-handbook/</id>
+    <link href="https://leap.tardate.com/books/practical-oscillator-handbook/"/>
+    <g:image_link>https://leap.tardate.com/books/practical-oscillator-handbook/assets/practical-oscillator-handbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:49:00Z</updated>
+    <title>#644 Practical Oscillator Handbook</title>
+    <summary>Book notes: Practical Oscillator Handbook, by Irving M. Gottlieb. First published November 30, 1970.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Oscillator Handbook, by Irving M. Gottlieb. First published November 30, 1970.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/practical-oscillator-handbook/assets/practical-oscillator-handbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/wirelessledmodule/</id>

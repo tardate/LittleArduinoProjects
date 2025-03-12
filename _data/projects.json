@@ -366,6 +366,14 @@
             "environmental"
         ]
     },
+    "/books/practical-oscillator-handbook/": {
+        "id": 644,
+        "title": "Practical Oscillator Handbook",
+        "summary": "Book notes: Practical Oscillator Handbook, by Irving M. Gottlieb. First published November 30, 1970.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/power/wirelessledmodule/": {
         "id": 643,
         "title": "XKT-511 Wireless LED Module",
