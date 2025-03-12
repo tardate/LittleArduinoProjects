@@ -385,6 +385,14 @@
             "SMPS"
         ]
     },
+    "/books/circuit-scrapbook-vol1/": {
+        "id": 639,
+        "title": "Circuit Scrapbook, Vol 1",
+        "summary": "Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/building-arduino-plcs/": {
         "id": 638,
         "title": "Building Arduino PLCs",

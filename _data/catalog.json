@@ -420,6 +420,16 @@
         "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/MT3608/SafeControl"
     },
     {
+        "id": "#639",
+        "name": "Circuit Scrapbook, Vol 1",
+        "description": "Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.",
+        "categories": "Books",
+        "relative_path": "books/circuit-scrapbook-vol1",
+        "updated_at": "2025-03-12T13:28:00Z",
+        "created_at": "2025-03-12T13:28:00Z",
+        "original_relative_path": "books/circuit-scrapbook-vol1"
+    },
+    {
         "id": "#638",
         "name": "Building Arduino PLCs",
         "description": "Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.",

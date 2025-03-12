@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T13:23:00Z</updated>
+  <updated>2025-03-12T13:28:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -482,6 +482,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/circuit-scrapbook-vol1/</id>
+    <link href="https://leap.tardate.com/books/circuit-scrapbook-vol1/"/>
+    <g:image_link>https://leap.tardate.com/books/circuit-scrapbook-vol1/assets/circuit-scrapbook-vol1_build.jpg</g:image_link>
+    <updated>2025-03-12T13:28:00Z</updated>
+    <title>#639 Circuit Scrapbook, Vol 1</title>
+    <summary>Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/circuit-scrapbook-vol1/assets/circuit-scrapbook-vol1_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/building-arduino-plcs/</id>
