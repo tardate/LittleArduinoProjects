@@ -385,6 +385,14 @@
             "SMPS"
         ]
     },
+    "/books/electronics-cookbook/": {
+        "id": 641,
+        "title": "Electronics Cookbook",
+        "summary": "Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/cmos-cookbook/": {
         "id": 640,
         "title": "CMOS Cookbook",
