@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T12:19:00Z</updated>
+  <updated>2025-03-12T12:25:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -564,6 +564,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/waterlevelcontrolkit/assets/waterlevelcontrolkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Control"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/</id>
+    <link href="https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/"/>
+    <g:image_link>https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/assets/more-arduino-projects-for-ham-radio_build.jpg</g:image_link>
+    <updated>2025-03-12T12:25:00Z</updated>
+    <title>#626 More Arduino Projects for Ham Radio</title>
+    <summary>Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/assets/more-arduino-projects-for-ham-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/remotecontrolcandles/</id>

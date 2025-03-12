@@ -453,6 +453,14 @@
             "Control"
         ]
     },
+    "/books/more-arduino-projects-for-ham-radio/": {
+        "id": 626,
+        "title": "More Arduino Projects for Ham Radio",
+        "summary": "Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/led/remotecontrolcandles/": {
         "id": 625,
         "title": "Remote Control Candles",

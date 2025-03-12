@@ -10,6 +10,8 @@ See also:
 
 * [amazon](https://amzn.to/4kK8qch)
 * [goodreads](https://www.goodreads.com/book/show/23432504-arduino-for-ham-radio)
+* [author sources](https://www.kw5gp.com/Arduino/)
+* [ARRL support page for Arduino for Ham Radio](http://www.arrl.org/arduino)
 
 ## Table of Contents
 
