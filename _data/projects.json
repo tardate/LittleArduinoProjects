@@ -444,6 +444,14 @@
             "Arduino"
         ]
     },
+    "/books/ham-radio-for-arduino-and-picaxe/": {
+        "id": 630,
+        "title": "Ham Radio for Arduino and PICAXE",
+        "summary": "Book notes: Ham Radio for Arduino and PICAXE \u2013 Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/equipment/waterlevelcontrolkit/": {
         "id": 629,
         "title": "Water-Level Control Kit",

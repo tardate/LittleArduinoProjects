@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T12:37:00Z</updated>
+  <updated>2025-03-12T13:06:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -553,6 +553,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building a very low frequency 555 timer circuit, and pushing the envelope with a 1GΩ zero-electrolytic design using the low-leakage TLC556C&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/longrunning/assets/longrunning_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/</id>
+    <link href="https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/"/>
+    <g:image_link>https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/assets/ham-radio-for-arduino-and-picaxe_build.jpg</g:image_link>
+    <updated>2025-03-12T13:06:00Z</updated>
+    <title>#630 Ham Radio for Arduino and PICAXE</title>
+    <summary>Book notes: Ham Radio for Arduino and PICAXE – Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Ham Radio for Arduino and PICAXE – Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/assets/ham-radio-for-arduino-and-picaxe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/waterlevelcontrolkit/</id>
