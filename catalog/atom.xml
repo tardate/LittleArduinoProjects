@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T06:38:00Z</updated>
+  <updated>2025-03-12T07:47:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -113,6 +113,17 @@
     <summary>Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/pp3power/assets/pp3power_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/</id>
+    <link href="https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/"/>
+    <g:image_link>https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/assets/lionsforgecraftlaser_build.jpg</g:image_link>
+    <updated>2025-03-12T07:47:00Z</updated>
+    <title>#754 NLB Lionsforge Craftlaser</title>
+    <summary>Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/assets/lionsforgecraftlaser_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="NLB MakeIt"/>
+    <category term="Laser Cutter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/</id>
