@@ -10,7 +10,7 @@ See also:
 
 * [amazon](https://amzn.to/4iJYkGy)
 * [goodreads](https://www.goodreads.com/book/show/24068288-arduino-projects-for-amateur-radio)
-* [Arduino Projects for Amateur Radio](https://www.accessengineeringlibrary.com/browse/arduino-projects-for-amateur-radio)
+* <https://www.accessengineeringlibrary.com/browse/arduino-projects-for-amateur-radio>
 
 ## Contents
 

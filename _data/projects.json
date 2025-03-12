@@ -453,6 +453,14 @@
             "Control"
         ]
     },
+    "/books/arduino-for-radio-amateur-applications/": {
+        "id": 628,
+        "title": "Arduino for Radio Amateur Applications",
+        "summary": "Book notes: Arduino for Radio Amateur Applications, by Glen Popiel.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arduino-projects-for-amateur-radio/": {
         "id": 627,
         "title": "Arduino Projects for Amateur Radio",
