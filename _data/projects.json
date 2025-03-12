@@ -347,6 +347,14 @@
             "Oscillators"
         ]
     },
+    "/books/the-art-of-electronics/": {
+        "id": 655,
+        "title": "The Art of Electronics",
+        "summary": "Book notes: The Art of Electronics, by Paul Horowitz,  Winfield Hill. First published January 1, 1980.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/diy-drones-for-the-evil-genius/": {
         "id": 654,
         "title": "DIY Drones for the Evil Genius",
