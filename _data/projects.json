@@ -338,6 +338,14 @@
             "Arduino"
         ]
     },
+    "/books/the-complete-esp32-projects-guide/": {
+        "id": 658,
+        "title": "The Complete ESP32 Projects Guide",
+        "summary": "Book notes: The Complete ESP32 Projects Guide, Dogan Ibrahim. Published January 1, 2019.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/the-art-of-electronics-x-chapters/": {
         "id": 657,
         "title": "The Art of Electronics: The X Chapters",
