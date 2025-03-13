@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T08:13:00Z</updated>
+  <updated>2025-03-13T08:19:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -347,6 +347,17 @@
     <summary>unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/minirotarytool/assets/minirotarytool_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/assets/engineers-mini-notebook-555-timer-ic-circuits_build.jpg</g:image_link>
+    <updated>2025-03-13T08:19:00Z</updated>
+    <title>#677 Engineer's Mini-Notebook 555 Timer IC Circuits</title>
+    <summary>Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/assets/engineers-mini-notebook-555-timer-ic-circuits_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="555 Timer"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/ldrledring/</id>

@@ -274,6 +274,15 @@
             "Tools"
         ]
     },
+    "/books/engineers-mini-notebook-555-timer-ic-circuits/": {
+        "id": 677,
+        "title": "Engineer's Mini-Notebook 555 Timer IC Circuits",
+        "summary": "Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.",
+        "tags": [
+            "Books",
+            "555 Timer"
+        ]
+    },
     "/electronics101/oscillators/ldrledring/": {
         "id": 676,
         "title": "LED-LDR Ring Oscillator",
