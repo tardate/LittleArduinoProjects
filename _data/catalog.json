@@ -220,6 +220,16 @@
         "original_relative_path": "playground/ATtiny/PwmMotorControl"
     },
     {
+        "id": "#693",
+        "name": "PIC Microcontroller Projects in C",
+        "description": "Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.",
+        "categories": "Books, PIC",
+        "relative_path": "books/pic-microcontroller-projects-in-c",
+        "updated_at": "2025-03-13T09:49:00Z",
+        "created_at": "2025-03-13T09:49:00Z",
+        "original_relative_path": "books/pic-microcontroller-projects-in-c"
+    },
+    {
         "id": "#692",
         "name": "Push-button Latch",
         "description": "Testing a simple push-button latched switch circuit for on/off control using the 555 timer",

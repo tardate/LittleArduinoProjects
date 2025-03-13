@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T09:29:00Z</updated>
+  <updated>2025-03-13T09:49:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -261,6 +261,17 @@
     <category term="Motors"/>
     <category term="Arduino"/>
     <category term="AVR"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/pic-microcontroller-projects-in-c/</id>
+    <link href="https://leap.tardate.com/books/pic-microcontroller-projects-in-c/"/>
+    <g:image_link>https://leap.tardate.com/books/pic-microcontroller-projects-in-c/assets/pic-microcontroller-projects-in-c_build.jpg</g:image_link>
+    <updated>2025-03-13T09:49:00Z</updated>
+    <title>#693 PIC Microcontroller Projects in C</title>
+    <summary>Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/pic-microcontroller-projects-in-c/assets/pic-microcontroller-projects-in-c_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="PIC"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/latch/</id>

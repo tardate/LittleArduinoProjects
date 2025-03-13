@@ -204,6 +204,15 @@
             "AVR"
         ]
     },
+    "/books/pic-microcontroller-projects-in-c/": {
+        "id": 693,
+        "title": "PIC Microcontroller Projects in C",
+        "summary": "Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.",
+        "tags": [
+            "Books",
+            "PIC"
+        ]
+    },
     "/electronics101/555timer/latch/": {
         "id": 692,
         "title": "Push-button Latch",
