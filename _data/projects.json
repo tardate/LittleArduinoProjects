@@ -1,4 +1,12 @@
 {
+    "/raspberrypi/bpluscase/": {
+        "id": 764,
+        "title": "Raspberry Pi B+ Case",
+        "summary": "Finally, 3D PLA printing a case for the Raspberry Pi Model B+ ... at the library.",
+        "tags": [
+            "Raspberry Pi"
+        ]
+    },
     "/electronics101/74ls74/clapswitch/": {
         "id": 763,
         "title": "74LS74 Clap Switch",

@@ -1,5 +1,15 @@
 [
     {
+        "name": "Raspberry Pi B+ Case",
+        "description": "Finally, 3D PLA printing a case for the Raspberry Pi Model B+ ... at the library.",
+        "categories": "Raspberry Pi",
+        "relative_path": "raspberrypi/bpluscase",
+        "updated_at": "2025-03-13T10:42:00Z",
+        "created_at": "2025-03-13T10:42:00Z",
+        "id": "#764",
+        "original_relative_path": "RaspberryPi/BPlusCase"
+    },
+    {
         "name": "74LS74 Clap Switch",
         "description": "Building a clap-switch circuit with electret input, 555 trigger and 74LS74 latch.",
         "categories": "CMOS/TTL, 74LS74, 555 Timer",
