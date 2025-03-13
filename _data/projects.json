@@ -302,6 +302,14 @@
             "OpAmp"
         ]
     },
+    "/books/engineers-mini-notebook-op-amp-circuits/": {
+        "id": 673,
+        "title": "Engineer's Mini-Notebook Op-Amp Circuits",
+        "summary": "Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/make-analog-synthesizers/": {
         "id": 672,
         "title": "Make: Analog Synthesizers",
