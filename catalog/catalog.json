@@ -200,6 +200,16 @@
         "original_relative_path": "Audio/LaserHarpKit"
     },
     {
+        "id": "#698",
+        "name": "Electronic Principles",
+        "description": "Book notes: Electronic Principles, by Albert Malvino, David J Bates, Patrick E Hoppe. First published March 1, 1979.",
+        "categories": "Books",
+        "relative_path": "books/electronic-principles",
+        "updated_at": "2025-03-13T10:17:00Z",
+        "created_at": "2025-03-13T10:17:00Z",
+        "original_relative_path": "books/electronic-principles"
+    },
+    {
         "id": "#697",
         "name": "Digital Logic and Computer Design",
         "description": "Book notes: Digital Logic and Computer Design, by M. Morris Mano. First published January 1, 1979.",

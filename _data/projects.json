@@ -184,6 +184,14 @@
             "8051"
         ]
     },
+    "/books/electronic-principles/": {
+        "id": 698,
+        "title": "Electronic Principles",
+        "summary": "Book notes: Electronic Principles, by Albert Malvino, David J Bates, Patrick E Hoppe. First published March 1, 1979.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/digital-logic-and-computer-design/": {
         "id": 697,
         "title": "Digital Logic and Computer Design",
