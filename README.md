@@ -1,4 +1,4 @@
-# 716 Little Electronic Art Projects
+# 717 Little Electronic Art Projects
 
 > Latest addition:sparkles: [74LS74 Clap Switch](./Electronics101/74LS74/ClapSwitch) - Building a clap-switch circuit with electret input, 555 trigger and 74LS74 latch.
 

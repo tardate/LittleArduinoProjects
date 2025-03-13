@@ -184,6 +184,14 @@
             "8051"
         ]
     },
+    "/books/digital-logic-and-computer-design/": {
+        "id": 697,
+        "title": "Digital Logic and Computer Design",
+        "summary": "Book notes: Digital Logic and Computer Design, by M. Morris Mano. First published January 1, 1979.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/attiny/flickeringfireeffect/": {
         "id": 696,
         "title": "Flickering Fire Effect",

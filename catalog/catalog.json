@@ -200,6 +200,16 @@
         "original_relative_path": "Audio/LaserHarpKit"
     },
     {
+        "id": "#697",
+        "name": "Digital Logic and Computer Design",
+        "description": "Book notes: Digital Logic and Computer Design, by M. Morris Mano. First published January 1, 1979.",
+        "categories": "Books",
+        "relative_path": "books/digital-logic-and-computer-design",
+        "updated_at": "2025-03-13T10:07:00Z",
+        "created_at": "2025-03-13T10:07:00Z",
+        "original_relative_path": "books/digital-logic-and-computer-design"
+    },
+    {
         "id": "#696",
         "name": "Flickering Fire Effect",
         "description": "A flickering fire effect with 3 LEDs and adjustable brightness controlled by an ATtiny85",
