@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T09:49:00Z</updated>
+  <updated>2025-03-13T09:58:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -261,6 +261,16 @@
     <category term="Motors"/>
     <category term="Arduino"/>
     <category term="AVR"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/raspberry-pi-cookbook/</id>
+    <link href="https://leap.tardate.com/books/raspberry-pi-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/raspberry-pi-cookbook/assets/raspberry-pi-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-13T09:58:00Z</updated>
+    <title>#694 Raspberry Pi Cookbook</title>
+    <summary>Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/raspberry-pi-cookbook/assets/raspberry-pi-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/pic-microcontroller-projects-in-c/</id>

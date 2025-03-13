@@ -220,6 +220,16 @@
         "original_relative_path": "playground/ATtiny/PwmMotorControl"
     },
     {
+        "id": "#694",
+        "name": "Raspberry Pi Cookbook",
+        "description": "Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.",
+        "categories": "Books",
+        "relative_path": "books/raspberry-pi-cookbook",
+        "updated_at": "2025-03-13T09:58:00Z",
+        "created_at": "2025-03-13T09:58:00Z",
+        "original_relative_path": "books/raspberry-pi-cookbook"
+    },
+    {
         "id": "#693",
         "name": "PIC Microcontroller Projects in C",
         "description": "Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.",

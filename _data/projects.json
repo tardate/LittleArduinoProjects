@@ -204,6 +204,14 @@
             "AVR"
         ]
     },
+    "/books/raspberry-pi-cookbook/": {
+        "id": 694,
+        "title": "Raspberry Pi Cookbook",
+        "summary": "Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/pic-microcontroller-projects-in-c/": {
         "id": 693,
         "title": "PIC Microcontroller Projects in C",
