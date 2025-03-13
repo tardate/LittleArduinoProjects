@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T02:55:00Z</updated>
+  <updated>2025-03-13T03:04:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -425,6 +425,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a small 3V, 3-digit LCD panel with an example of driving the mulitplexed LCD (1/4 duty, 1/2 bias) with an Arduino/ATmega328 sketch.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/displays/lcd3digit/assets/lcd3digit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/homebrew-cookbook/</id>
+    <link href="https://leap.tardate.com/books/homebrew-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/homebrew-cookbook/assets/homebrew-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-13T03:04:00Z</updated>
+    <title>#662 Homebrew Cook Book</title>
+    <summary>Book notes: Homebrew Cook Book, by Eamon Skelton EI9GQ. Published July 14, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Homebrew Cook Book, by Eamon Skelton EI9GQ. Published July 14, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/homebrew-cookbook/assets/homebrew-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/basic-communications-electronics/</id>

@@ -338,6 +338,15 @@
             "Arduino"
         ]
     },
+    "/books/homebrew-cookbook/": {
+        "id": 662,
+        "title": "Homebrew Cook Book",
+        "summary": "Book notes: Homebrew Cook Book, by Eamon Skelton EI9GQ. Published July 14, 2016.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/basic-communications-electronics/": {
         "id": 661,
         "title": "Basic Communications Electronics",
