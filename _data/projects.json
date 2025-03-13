@@ -247,6 +247,14 @@
             "Oscillators"
         ]
     },
+    "/books/engineers-mini-notebook-sensor-projects/": {
+        "id": 685,
+        "title": "Sensor Projects",
+        "summary": "Book notes: Engineer's Mini-Notebook Sensor Projects, by Forrest M. Mims III. First published January 1, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/engineers-mini-notebook-solar-cell-projects/": {
         "id": 684,
         "title": "Solar Cell Projects",

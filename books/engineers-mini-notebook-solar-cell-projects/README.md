@@ -8,7 +8,6 @@ Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III
 
 See also:
 
-* [amazon](https://amzn.to/3R4LRBx)
 * [goodreads](https://www.goodreads.com/book/show/12287000-engineer-s-mini-notebook-solar-cell-projects)
 * <https://archive.org/details/Forrest_Mims-Engineers_Mini-Notebook_Solar_Cell_Projects_Radio_Shack_Electronic>
 
