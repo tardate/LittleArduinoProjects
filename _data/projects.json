@@ -247,6 +247,14 @@
             "Oscillators"
         ]
     },
+    "/books/engineers-mini-notebook-optoelectronics-projects/": {
+        "id": 683,
+        "title": "Optoelectronics Circuits",
+        "summary": "Book notes: Engineer's Mini-Notebook: Optoelectronics Circuits, by Forrest M. Mims III. First published January 1, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/audio/audioamps/electretsounddetectionmodule/": {
         "id": 682,
         "title": "Electret Sound Detection Module",
