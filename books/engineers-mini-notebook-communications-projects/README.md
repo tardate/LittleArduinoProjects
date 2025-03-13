@@ -1,0 +1,63 @@
+# #678 Engineer's Mini-Notebook Communications Projects
+
+Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.
+
+[![Build](./assets/engineers-mini-notebook-communications-projects_build.jpg?raw=true)](https://amzn.to/41PjMTI)
+
+## Notes
+
+See also:
+
+* [amazon](https://amzn.to/41PjMTI)
+* [goodreads](https://www.goodreads.com/book/show/12287066-engineer-s-mini-notebook-communications-projects)
+* <https://archive.org/details/Forrest_Mims-Engineers_Mini-Notebook_-_Communications_Projects_Radio_Shack_Elec>
+
+## Contents
+
+* INTRODUCTION
+* CONNECTED LINKS
+* WIRELESS LINKS
+* ELECTROMAGNETIC RADIATION
+* INTERNATIONAL MORSE CODE
+* LEARNING THE CODE
+* CODE PRACTICE OSCILLATORS
+* ELECTROMAGNETIC TELEGRAPH
+* SOLID-STATE TELEGRAPHS
+* TELEPHONE RECEIVER
+* PUSH-TO-TALK INTERCON
+* LIGHTWAVE COMMUNICATIONS
+    * MODULATION
+    * LIGHT SOURCES
+    * LIGHT DETECTORS
+    * LIGHTWAVE SYSTEMS
+    * FREE SPACE LINKS
+    * OPTICAL RIBER LINKS
+    * ELECTRONIC PHOTOPHONE
+    * LIGHTWAVE CODE TRANSMITTERS
+    * L1GHTWAVE CODE RECEIVERS
+    * FLASHLIGHT VOICE TRANSMITTERS
+    * GENERAL PURPOSE RECEIVERS
+    * AM LIGHIWAVE TRANSMITTER
+    * AM LIGHTWAVE RECEIVER
+    * PFM LIGHTWAVE: TRANSMITTER
+    * PFM LIGHTWAVE RECEIVER
+* RADIO COMMUNICATIONS
+    * MODULATION
+    * AMATEUR RADIO
+    * CITIZENS BAND RADIO
+    * FAC
+    * DIODE RECEIVER BASICS
+    * SIMPLE RE TUNING COIL
+    * SIMPLE DIODE RECEIVER
+    * RECEIVER WITH AMPLIFIER
+    * SHORT WAVE LISTENING
+    * SHORTWAVE RADIO
+    * ANTENNAS
+    * ANTENNA SAFETY
+    * BASIC RADIO TRANSMITTERS
+    * TRANSISTOR RF TRANSMITTER
+    * CODE TRANSMITTER
+    * VOICE TRANSMITTER
+    * AUTOMATICI TONE TRANSMITTER
+    * FCC REGULATIONS
+    * GOING FURTHER

@@ -91,6 +91,14 @@
             "Laser Cutter"
         ]
     },
+    "/books/the-embedded-project-cookbook/": {
+        "id": 753,
+        "title": "The Embedded Project Cookbook",
+        "summary": "Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/digitallogic/digitalclockkit/": {
         "id": 740,
         "title": "Digital Clock Kit",
@@ -176,6 +184,22 @@
             "8051"
         ]
     },
+    "/books/electronic-principles/": {
+        "id": 698,
+        "title": "Electronic Principles",
+        "summary": "Book notes: Electronic Principles, by Albert Malvino, David J Bates, Patrick E Hoppe. First published March 1, 1979.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/digital-logic-and-computer-design/": {
+        "id": 697,
+        "title": "Digital Logic and Computer Design",
+        "summary": "Book notes: Digital Logic and Computer Design, by M. Morris Mano. First published January 1, 1979.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/attiny/flickeringfireeffect/": {
         "id": 696,
         "title": "Flickering Fire Effect",
@@ -196,6 +220,23 @@
             "AVR"
         ]
     },
+    "/books/raspberry-pi-cookbook/": {
+        "id": 694,
+        "title": "Raspberry Pi Cookbook",
+        "summary": "Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/pic-microcontroller-projects-in-c/": {
+        "id": 693,
+        "title": "PIC Microcontroller Projects in C",
+        "summary": "Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.",
+        "tags": [
+            "Books",
+            "PIC"
+        ]
+    },
     "/electronics101/555timer/latch/": {
         "id": 692,
         "title": "Push-button Latch",
@@ -210,6 +251,14 @@
         "summary": "A few quick notes on the Energizer NiMH charger CH2PC4",
         "tags": [
             "Power"
+        ]
+    },
+    "/books/encyclopedia-of-electronic-components/": {
+        "id": 690,
+        "title": "Encyclopedia of Electronic Components",
+        "summary": "Book notes: Encyclopedia of Electronic Components, Volumes 1, 2, 3, by Charles Platt. First published September 22, 2012",
+        "tags": [
+            "Books"
         ]
     },
     "/electronics101/oscillators/programmablefrequencyreference/": {
@@ -239,6 +288,38 @@
             "Oscillators"
         ]
     },
+    "/books/practical-electronics/": {
+        "id": 686,
+        "title": "Practical Electronics",
+        "summary": "Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/engineers-mini-notebook-sensor-projects/": {
+        "id": 685,
+        "title": "Sensor Projects",
+        "summary": "Book notes: Engineer's Mini-Notebook Sensor Projects, by Forrest M. Mims III. First published January 1, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/engineers-mini-notebook-solar-cell-projects/": {
+        "id": 684,
+        "title": "Solar Cell Projects",
+        "summary": "Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/engineers-mini-notebook-optoelectronics-projects/": {
+        "id": 683,
+        "title": "Optoelectronics Circuits",
+        "summary": "Book notes: Engineer's Mini-Notebook: Optoelectronics Circuits, by Forrest M. Mims III. First published January 1, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/audio/audioamps/electretsounddetectionmodule/": {
         "id": 682,
         "title": "Electret Sound Detection Module",
@@ -264,6 +345,31 @@
         "summary": "unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving",
         "tags": [
             "Tools"
+        ]
+    },
+    "/books/engineers-mini-notebook-magnet-projects/": {
+        "id": 679,
+        "title": "Magnet and Magnet Sensor Projects",
+        "summary": "Book notes: Engineer's Mini-Notebook: Magnet and Magnet Sensor Projects, by Forrest M. Mims III. First published January 1, 1998.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/engineers-mini-notebook-communications-projects/": {
+        "id": 678,
+        "title": "Communications Projects",
+        "summary": "Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/engineers-mini-notebook-555-timer-ic-circuits/": {
+        "id": 677,
+        "title": "555 Timer IC Circuits",
+        "summary": "Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.",
+        "tags": [
+            "Books",
+            "555 Timer"
         ]
     },
     "/electronics101/oscillators/ldrledring/": {
@@ -294,12 +400,45 @@
             "OpAmp"
         ]
     },
+    "/books/engineers-mini-notebook-op-amp-circuits/": {
+        "id": 673,
+        "title": "Op-Amp Circuits",
+        "summary": "Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/make-analog-synthesizers/": {
+        "id": 672,
+        "title": "Make: Analog Synthesizers",
+        "summary": "Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/the-essential-guide-to-electronics-in-shenzhen/": {
+        "id": 671,
+        "title": "The Essential Guide to Electronics in Shenzhen",
+        "summary": "Book notes: The Essential Guide to Electronics in Shenzhen, by Andrew Huang. First published January 1, 2016.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/nano/expansionboard/": {
         "id": 670,
         "title": "Nano Expansion Board",
         "summary": "Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.",
         "tags": [
             "Arduino"
+        ]
+    },
+    "/books/soldersmoke/": {
+        "id": 669,
+        "title": "SolderSmoke",
+        "summary": "Book notes: SolderSmoke: Global Adventures in Wireless Electronics, by Bill Meara. First published March 1, 2009.",
+        "tags": [
+            "Books",
+            "Radio"
         ]
     },
     "/radio/codepracticeoscillator/": {
@@ -320,6 +459,24 @@
             "Power"
         ]
     },
+    "/books/build-your-own-transistor-radios/": {
+        "id": 666,
+        "title": "Build Your Own Transistor Radios",
+        "summary": "Book notes: Build Your Own Transistor Radios: A Hobbyist's Guide to High-Performance and Low-Powered Radio Circuits, by Ronald Quan. First published January 1, 2012.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/arrl-small-antennas-for-small-spaces/": {
+        "id": 665,
+        "title": "ARRL's Small Antennas for Small Spaces",
+        "summary": "Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/equipment/lightcontrolswitchkit/": {
         "id": 664,
         "title": "Light Control Switch Kit",
@@ -338,6 +495,58 @@
             "Arduino"
         ]
     },
+    "/books/homebrew-cookbook/": {
+        "id": 662,
+        "title": "Homebrew Cook Book",
+        "summary": "Book notes: Homebrew Cook Book, by Eamon Skelton EI9GQ. Published July 14, 2016.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/basic-communications-electronics/": {
+        "id": 661,
+        "title": "Basic Communications Electronics",
+        "summary": "Book notes: Basic Communications Electronics: Jack Hudson, Jerry Luecke. First published June 1, 1999.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/arrl-hands-on-radio-experiments-vol2/": {
+        "id": 660,
+        "title": "ARRL Hands-On Radio Experiments Volume 2",
+        "summary": "Book notes: ARRL's Hands-On Radio Experiments Volume 2, by H. Ward Silver. Published January 1, 2013.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/arrl-hands-on-radio-experiments-vol3/": {
+        "id": 659,
+        "title": "ARRL Hands-On Radio Experiments Volume 3",
+        "summary": "Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/the-complete-esp32-projects-guide/": {
+        "id": 658,
+        "title": "The Complete ESP32 Projects Guide",
+        "summary": "Book notes: The Complete ESP32 Projects Guide, Dogan Ibrahim. Published January 1, 2019.",
+        "tags": [
+            "Books",
+            "ESP32"
+        ]
+    },
+    "/books/the-art-of-electronics-x-chapters/": {
+        "id": 657,
+        "title": "The Art of Electronics: The X Chapters",
+        "summary": "Book notes: The Art of Electronics: The X Chapters, by Paul Horowitz, Winfield Hill. Published January 30, 2020.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/oscillators/schmittcrystallockedoscillator/": {
         "id": 656,
         "title": "Crystal-Locked Schmitt Oscillator",
@@ -345,6 +554,22 @@
         "tags": [
             "CMOS/TTL",
             "Oscillators"
+        ]
+    },
+    "/books/the-art-of-electronics/": {
+        "id": 655,
+        "title": "The Art of Electronics",
+        "summary": "Book notes: The Art of Electronics, by Paul Horowitz,  Winfield Hill. First published January 1, 1980.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/diy-drones-for-the-evil-genius/": {
+        "id": 654,
+        "title": "DIY Drones for the Evil Genius",
+        "summary": "Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.",
+        "tags": [
+            "Books"
         ]
     },
     "/audio/visualization/usbledvolumeindicatorkit/": {
@@ -357,6 +582,49 @@
             "LED"
         ]
     },
+    "/books/building-smart-drones-with-esp8266-and-arduino/": {
+        "id": 652,
+        "title": "Building Smart Drones with ESP8266 and Arduino",
+        "summary": "Book notes: Building Smart Drones with ESP8266 and Arduino: Build exciting drones by leveraging the capabilities of Arduino and ESP8266, by Syed Omar Faruk Towaha. Published February 27, 2018.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/experimental-methods-in-rf-design/": {
+        "id": 651,
+        "title": "Experimental Methods in RF Design",
+        "summary": "Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/arrl-handbook-2017/": {
+        "id": 650,
+        "title": "ARRL Handbook 2017",
+        "summary": "Book notes: The ARRL Handbook for Radio Communications 2017. Published September 30, 2016.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/the-essence-of-analog-electronics/": {
+        "id": 649,
+        "title": "The Essence of Analog Electronics",
+        "summary": "Books notes: The Essence of Analog Electronics, by Colin Lunn. First published November 30, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/the-electronics-of-radio/": {
+        "id": 648,
+        "title": "The Electronics of Radio",
+        "summary": "Book notes: The Electronics of Radio, by David B. Rutledge. First published August 13, 1999.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/equipment/humidifiermodule/": {
         "id": 647,
         "title": "USB Humidifier Module",
@@ -364,6 +632,31 @@
         "tags": [
             "USB",
             "environmental"
+        ]
+    },
+    "/books/radio-and-electronics-cookbook/": {
+        "id": 646,
+        "title": "Radio and Electronics Cookbook",
+        "summary": "Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/ic-converter-cookbook/": {
+        "id": 645,
+        "title": "IC Converter Cookbook",
+        "summary": "Book notes: IC converter cookbook, by Walter G. Jung. First published January 1, 1978.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/practical-oscillator-handbook/": {
+        "id": 644,
+        "title": "Practical Oscillator Handbook",
+        "summary": "Book notes: Practical Oscillator Handbook, by Irving M. Gottlieb. First published November 30, 1970.",
+        "tags": [
+            "Books"
         ]
     },
     "/electronics101/power/wirelessledmodule/": {
@@ -383,6 +676,38 @@
         "tags": [
             "Power",
             "SMPS"
+        ]
+    },
+    "/books/electronics-cookbook/": {
+        "id": 641,
+        "title": "Electronics Cookbook",
+        "summary": "Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/cmos-cookbook/": {
+        "id": 640,
+        "title": "CMOS Cookbook",
+        "summary": "Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/circuit-scrapbook-vol1/": {
+        "id": 639,
+        "title": "Circuit Scrapbook, Vol 1",
+        "summary": "Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/building-arduino-plcs/": {
+        "id": 638,
+        "title": "Building Arduino PLCs",
+        "summary": "Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.",
+        "tags": [
+            "Books"
         ]
     },
     "/electronics101/cd4069/logicprobe/": {
@@ -415,6 +740,14 @@
             "CD4001"
         ]
     },
+    "/books/audio-ic-users-handbook/": {
+        "id": 634,
+        "title": "Audio IC Users Handbook",
+        "summary": "Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/serialinterface/usbtorj45/": {
         "id": 633,
         "title": "USB to RJ45 Adapter",
@@ -444,6 +777,15 @@
             "Arduino"
         ]
     },
+    "/books/ham-radio-for-arduino-and-picaxe/": {
+        "id": 630,
+        "title": "Ham Radio for Arduino and PICAXE",
+        "summary": "Book notes: Ham Radio for Arduino and PICAXE \u2013 Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/equipment/waterlevelcontrolkit/": {
         "id": 629,
         "title": "Water-Level Control Kit",
@@ -451,6 +793,33 @@
         "tags": [
             "OpAmp",
             "Control"
+        ]
+    },
+    "/books/arduino-for-radio-amateur-applications/": {
+        "id": 628,
+        "title": "Arduino for Radio Amateur Applications",
+        "summary": "Book notes: Arduino for Radio Amateur Applications, by Glen Popiel.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/arduino-projects-for-amateur-radio/": {
+        "id": 627,
+        "title": "Arduino Projects for Amateur Radio",
+        "summary": "Book notes: Arduino Projects for Amateur Radio, by Jack Purdum, Dennis Kidder. First published September 4, 2014.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/more-arduino-projects-for-ham-radio/": {
+        "id": 626,
+        "title": "More Arduino Projects for Ham Radio",
+        "summary": "Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.",
+        "tags": [
+            "Books",
+            "Radio"
         ]
     },
     "/electronics101/led/remotecontrolcandles/": {
@@ -470,6 +839,23 @@
         "tags": [
             "IR",
             "Arduino"
+        ]
+    },
+    "/books/arduino-for-ham-radio/": {
+        "id": 623,
+        "title": "Arduino for Ham Radio",
+        "summary": "Book notes: Arduino for Ham Radio: A Radio Amateur's Guide to Open Source Electronics and Microcontroller Projects, by Glen Popiel. First published January 1, 2014.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
+    "/books/arduino-for-musicians/": {
+        "id": 622,
+        "title": "Arduino for Musicians",
+        "summary": "Book notes: Arduino for Musicians: A Complete Guide to Arduino and Teensy Microcontrollers, by Brent Edstrom. First published March 1, 2016.",
+        "tags": [
+            "Books"
         ]
     },
     "/kraft/kubelmagic/": {
@@ -501,6 +887,14 @@
             "Audio"
         ]
     },
+    "/books/analog-circuits-cookbook/": {
+        "id": 618,
+        "title": "Analog Circuits Cookbook",
+        "summary": "Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/weevileyekit/": {
         "id": 617,
         "title": "Weevil Eye Kit",
@@ -517,6 +911,30 @@
         "tags": [
             "LED",
             "Arduino"
+        ]
+    },
+    "/books/30-arduino-projects-for-the-evil-genius/": {
+        "id": 615,
+        "title": "30 Arduino Projects for the Evil Genius",
+        "summary": "Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/arduino-cookbook/": {
+        "id": 614,
+        "title": "Arduino Cookbook",
+        "summary": "Book notes: Arduino Cookbook, by Michael Margolis. First published October 15, 2010.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/beginning-digital-electronics-through-projects/": {
+        "id": 613,
+        "title": "Beginning Digital Electronics through Projects",
+        "summary": "Book notes: Beginning Digital Electronics through Projects by Andrew Singmin, first published December 1, 2000.",
+        "tags": [
+            "Books"
         ]
     },
     "/equipment/hilologictesterkit/": {
@@ -545,6 +963,14 @@
             "555 Timer",
             "Audio",
             "LED"
+        ]
+    },
+    "/books/beginning-analog-electronics-through-projects/": {
+        "id": 609,
+        "title": "Beginning Analog Electronics through Projects",
+        "summary": "Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.",
+        "tags": [
+            "Books"
         ]
     },
     "/playground/ledcurrentcontrol/": {

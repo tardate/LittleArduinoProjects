@@ -31,6 +31,9 @@
     <loc>https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/the-embedded-project-cookbook/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/</loc>
   </url>
   <url>
@@ -58,16 +61,31 @@
     <loc>https://leap.tardate.com/audio/laserharpkit/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/electronic-principles/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/digital-logic-and-computer-design/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/playground/attiny/flickeringfireeffect/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/attiny/pwmmotorcontrol/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/raspberry-pi-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/pic-microcontroller-projects-in-c/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/555timer/latch/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/equipment/ch2pc4/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/encyclopedia-of-electronic-components/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/oscillators/programmablefrequencyreference/</loc>
@@ -79,6 +97,18 @@
     <loc>https://leap.tardate.com/electronics101/oscillators/crystallocked455khzcd4001/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/practical-electronics/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-sensor-projects/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-optoelectronics-projects/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/</loc>
   </url>
   <url>
@@ -86,6 +116,15 @@
   </url>
   <url>
     <loc>https://leap.tardate.com/equipment/minirotarytool/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/oscillators/ldrledring/</loc>
@@ -97,7 +136,19 @@
     <loc>https://leap.tardate.com/electronics101/ldr/differentialcomparator/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/make-analog-synthesizers/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/the-essential-guide-to-electronics-in-shenzhen/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/playground/nano/expansionboard/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/soldersmoke/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/radio/codepracticeoscillator/</loc>
@@ -106,25 +157,91 @@
     <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/build-your-own-transistor-radios/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/equipment/lightcontrolswitchkit/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/displays/lcd3digit/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/homebrew-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/basic-communications-electronics/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol2/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/the-complete-esp32-projects-guide/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/the-art-of-electronics-x-chapters/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/the-art-of-electronics/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/diy-drones-for-the-evil-genius/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/audio/visualization/usbledvolumeindicatorkit/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/building-smart-drones-with-esp8266-and-arduino/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/experimental-methods-in-rf-design/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arrl-handbook-2017/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/the-essence-of-analog-electronics/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/the-electronics-of-radio/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/equipment/humidifiermodule/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/radio-and-electronics-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/ic-converter-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/practical-oscillator-handbook/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/power/wirelessledmodule/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/electronics-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/cmos-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/circuit-scrapbook-vol1/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/building-arduino-plcs/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/cd4069/logicprobe/</loc>
@@ -136,6 +253,9 @@
     <loc>https://leap.tardate.com/electronics101/cd4001/srlatch/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/audio-ic-users-handbook/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/serialinterface/usbtorj45/</loc>
   </url>
   <url>
@@ -145,13 +265,31 @@
     <loc>https://leap.tardate.com/electronics101/555timer/longrunning/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/equipment/waterlevelcontrolkit/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arduino-for-radio-amateur-applications/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arduino-projects-for-amateur-radio/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/led/remotecontrolcandles/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/ir/dumper/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arduino-for-ham-radio/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arduino-for-musicians/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/kraft/kubelmagic/</loc>
@@ -163,10 +301,22 @@
     <loc>https://leap.tardate.com/audio/speechsynthesis/syn6288module/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/analog-circuits-cookbook/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/weevileyekit/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/led/candleemulator/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/arduino-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/beginning-digital-electronics-through-projects/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/equipment/hilologictesterkit/</loc>
@@ -176,6 +326,9 @@
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/555timer/laserray/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/beginning-analog-electronics-through-projects/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/ledcurrentcontrol/</loc>

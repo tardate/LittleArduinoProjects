@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-12T07:47:00Z</updated>
+  <updated>2025-03-13T10:17:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -126,6 +126,16 @@
     <category term="Laser Cutter"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/the-embedded-project-cookbook/</id>
+    <link href="https://leap.tardate.com/books/the-embedded-project-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-13T07:34:00Z</updated>
+    <title>#753 The Embedded Project Cookbook</title>
+    <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/</id>
     <link href="https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/assets/digitalclockkit_build.jpg</g:image_link>
@@ -229,6 +239,26 @@
     <category term="8051"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/electronic-principles/</id>
+    <link href="https://leap.tardate.com/books/electronic-principles/"/>
+    <g:image_link>https://leap.tardate.com/books/electronic-principles/assets/electronic-principles_build.jpg</g:image_link>
+    <updated>2025-03-13T10:17:00Z</updated>
+    <title>#698 Electronic Principles</title>
+    <summary>Book notes: Electronic Principles, by Albert Malvino, David J Bates, Patrick E Hoppe. First published March 1, 1979.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Electronic Principles, by Albert Malvino, David J Bates, Patrick E Hoppe. First published March 1, 1979.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/electronic-principles/assets/electronic-principles_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/digital-logic-and-computer-design/</id>
+    <link href="https://leap.tardate.com/books/digital-logic-and-computer-design/"/>
+    <g:image_link>https://leap.tardate.com/books/digital-logic-and-computer-design/assets/digital-logic-and-computer-design_build.jpg</g:image_link>
+    <updated>2025-03-13T10:07:00Z</updated>
+    <title>#697 Digital Logic and Computer Design</title>
+    <summary>Book notes: Digital Logic and Computer Design, by M. Morris Mano. First published January 1, 1979.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Digital Logic and Computer Design, by M. Morris Mano. First published January 1, 1979.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/digital-logic-and-computer-design/assets/digital-logic-and-computer-design_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/attiny/flickeringfireeffect/</id>
     <link href="https://leap.tardate.com/playground/attiny/flickeringfireeffect/"/>
     <g:image_link>https://leap.tardate.com/playground/attiny/flickeringfireeffect/assets/flickeringfireeffect_build.jpg</g:image_link>
@@ -253,6 +283,27 @@
     <category term="AVR"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/raspberry-pi-cookbook/</id>
+    <link href="https://leap.tardate.com/books/raspberry-pi-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/raspberry-pi-cookbook/assets/raspberry-pi-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-13T09:58:00Z</updated>
+    <title>#694 Raspberry Pi Cookbook</title>
+    <summary>Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Raspberry Pi Cookbook, by Simon Monk. First published January 1, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/raspberry-pi-cookbook/assets/raspberry-pi-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/pic-microcontroller-projects-in-c/</id>
+    <link href="https://leap.tardate.com/books/pic-microcontroller-projects-in-c/"/>
+    <g:image_link>https://leap.tardate.com/books/pic-microcontroller-projects-in-c/assets/pic-microcontroller-projects-in-c_build.jpg</g:image_link>
+    <updated>2025-03-13T09:49:00Z</updated>
+    <title>#693 PIC Microcontroller Projects in C</title>
+    <summary>Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrahim. First published January 1, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/pic-microcontroller-projects-in-c/assets/pic-microcontroller-projects-in-c_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="PIC"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/555timer/latch/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/latch/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/latch/assets/latch_build.jpg</g:image_link>
@@ -271,6 +322,16 @@
     <summary>A few quick notes on the Energizer NiMH charger CH2PC4</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A few quick notes on the Energizer NiMH charger CH2PC4&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/ch2pc4/assets/ch2pc4_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/encyclopedia-of-electronic-components/</id>
+    <link href="https://leap.tardate.com/books/encyclopedia-of-electronic-components/"/>
+    <g:image_link>https://leap.tardate.com/books/encyclopedia-of-electronic-components/assets/encyclopedia-of-electronic-components_build.jpg</g:image_link>
+    <updated>2025-03-13T09:29:00Z</updated>
+    <title>#690 Encyclopedia of Electronic Components</title>
+    <summary>Book notes: Encyclopedia of Electronic Components, Volumes 1, 2, 3, by Charles Platt. First published September 22, 2012</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Encyclopedia of Electronic Components, Volumes 1, 2, 3, by Charles Platt. First published September 22, 2012&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/encyclopedia-of-electronic-components/assets/encyclopedia-of-electronic-components_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/programmablefrequencyreference/</id>
@@ -306,6 +367,45 @@
     <category term="Oscillators"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/practical-electronics/</id>
+    <link href="https://leap.tardate.com/books/practical-electronics/"/>
+    <g:image_link>https://leap.tardate.com/books/practical-electronics/assets/practical-electronics_build.jpg</g:image_link>
+    <updated>2025-03-13T09:21:00Z</updated>
+    <title>#686 Practical Electronics</title>
+    <summary>Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/practical-electronics/assets/practical-electronics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-sensor-projects/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-sensor-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-sensor-projects/assets/engineers-mini-notebook-sensor-projects_build.jpg</g:image_link>
+    <updated>2025-03-13T09:09:00Z</updated>
+    <title>#685 Sensor Projects</title>
+    <summary>Book notes: Engineer's Mini-Notebook Sensor Projects, by Forrest M. Mims III. First published January 1, 1996.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Sensor Projects, by Forrest M. Mims III. First published January 1, 1996.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-sensor-projects/assets/engineers-mini-notebook-sensor-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/"/>
+    <updated>2025-03-13T09:02:00Z</updated>
+    <title>#684 Solar Cell Projects</title>
+    <summary>Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-optoelectronics-projects/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-optoelectronics-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-optoelectronics-projects/assets/engineers-mini-notebook-optoelectronics-projects_build.jpg</g:image_link>
+    <updated>2025-03-13T08:52:00Z</updated>
+    <title>#683 Optoelectronics Circuits</title>
+    <summary>Book notes: Engineer's Mini-Notebook: Optoelectronics Circuits, by Forrest M. Mims III. First published January 1, 1996.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook: Optoelectronics Circuits, by Forrest M. Mims III. First published January 1, 1996.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-optoelectronics-projects/assets/engineers-mini-notebook-optoelectronics-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/</id>
     <link href="https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/"/>
     <g:image_link>https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/assets/electretsounddetectionmodule_build.jpg</g:image_link>
@@ -337,6 +437,37 @@
     <summary>unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;unboxing and initial review of a cordless Mini Rotary Tool for engraving and model carving&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/minirotarytool/assets/minirotarytool_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/assets/engineers-mini-notebook-magnet-projects_build.jpg</g:image_link>
+    <updated>2025-03-13T08:42:00Z</updated>
+    <title>#679 Magnet and Magnet Sensor Projects</title>
+    <summary>Book notes: Engineer's Mini-Notebook: Magnet and Magnet Sensor Projects, by Forrest M. Mims III. First published January 1, 1998.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook: Magnet and Magnet Sensor Projects, by Forrest M. Mims III. First published January 1, 1998.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/assets/engineers-mini-notebook-magnet-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/assets/engineers-mini-notebook-communications-projects_build.jpg</g:image_link>
+    <updated>2025-03-13T08:27:00Z</updated>
+    <title>#678 Communications Projects</title>
+    <summary>Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/assets/engineers-mini-notebook-communications-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/assets/engineers-mini-notebook-555-timer-ic-circuits_build.jpg</g:image_link>
+    <updated>2025-03-13T08:19:00Z</updated>
+    <title>#677 555 Timer IC Circuits</title>
+    <summary>Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/assets/engineers-mini-notebook-555-timer-ic-circuits_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="555 Timer"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/ldrledring/</id>
@@ -373,6 +504,36 @@
     <category term="OpAmp"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/assets/engineers-mini-notebook-op-amp-circuits_build.jpg</g:image_link>
+    <updated>2025-03-13T08:13:00Z</updated>
+    <title>#673 Op-Amp Circuits</title>
+    <summary>Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/assets/engineers-mini-notebook-op-amp-circuits_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/make-analog-synthesizers/</id>
+    <link href="https://leap.tardate.com/books/make-analog-synthesizers/"/>
+    <g:image_link>https://leap.tardate.com/books/make-analog-synthesizers/assets/make-analog-synthesizers_build.jpg</g:image_link>
+    <updated>2025-03-13T08:04:00Z</updated>
+    <title>#672 Make: Analog Synthesizers</title>
+    <summary>Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/make-analog-synthesizers/assets/make-analog-synthesizers_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-essential-guide-to-electronics-in-shenzhen/</id>
+    <link href="https://leap.tardate.com/books/the-essential-guide-to-electronics-in-shenzhen/"/>
+    <g:image_link>https://leap.tardate.com/books/the-essential-guide-to-electronics-in-shenzhen/assets/the-essential-guide-to-electronics-in-shenzhen_build.jpg</g:image_link>
+    <updated>2025-03-13T07:55:00Z</updated>
+    <title>#671 The Essential Guide to Electronics in Shenzhen</title>
+    <summary>Book notes: The Essential Guide to Electronics in Shenzhen, by Andrew Huang. First published January 1, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Essential Guide to Electronics in Shenzhen, by Andrew Huang. First published January 1, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-essential-guide-to-electronics-in-shenzhen/assets/the-essential-guide-to-electronics-in-shenzhen_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/playground/nano/expansionboard/</id>
     <link href="https://leap.tardate.com/playground/nano/expansionboard/"/>
     <g:image_link>https://leap.tardate.com/playground/nano/expansionboard/assets/expansionboard_build.jpg</g:image_link>
@@ -381,6 +542,17 @@
     <summary>Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing and reverse engineering a cheap Arduino Nano Expansion board, also pondering why GVS instead of GSV or GVSG.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/nano/expansionboard/assets/expansionboard_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/soldersmoke/</id>
+    <link href="https://leap.tardate.com/books/soldersmoke/"/>
+    <g:image_link>https://leap.tardate.com/books/soldersmoke/assets/soldersmoke_build.jpg</g:image_link>
+    <updated>2025-03-13T07:42:00Z</updated>
+    <title>#669 SolderSmoke</title>
+    <summary>Book notes: SolderSmoke: Global Adventures in Wireless Electronics, by Bill Meara. First published March 1, 2009.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: SolderSmoke: Global Adventures in Wireless Electronics, by Bill Meara. First published March 1, 2009.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/soldersmoke/assets/soldersmoke_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/codepracticeoscillator/</id>
@@ -405,6 +577,27 @@
     <category term="Power"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/build-your-own-transistor-radios/</id>
+    <link href="https://leap.tardate.com/books/build-your-own-transistor-radios/"/>
+    <g:image_link>https://leap.tardate.com/books/build-your-own-transistor-radios/assets/build-your-own-transistor-radios_build.jpg</g:image_link>
+    <updated>2025-03-13T03:14:00Z</updated>
+    <title>#666 Build Your Own Transistor Radios</title>
+    <summary>Book notes: Build Your Own Transistor Radios: A Hobbyist's Guide to High-Performance and Low-Powered Radio Circuits, by Ronald Quan. First published January 1, 2012.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Build Your Own Transistor Radios: A Hobbyist's Guide to High-Performance and Low-Powered Radio Circuits, by Ronald Quan. First published January 1, 2012.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/build-your-own-transistor-radios/assets/build-your-own-transistor-radios_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/</id>
+    <link href="https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/"/>
+    <updated>2025-03-13T03:09:00Z</updated>
+    <title>#665 ARRL's Small Antennas for Small Spaces</title>
+    <summary>Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/equipment/lightcontrolswitchkit/</id>
     <link href="https://leap.tardate.com/equipment/lightcontrolswitchkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/lightcontrolswitchkit/assets/lightcontrolswitchkit_build.jpg</g:image_link>
@@ -427,6 +620,70 @@
     <category term="Arduino"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/homebrew-cookbook/</id>
+    <link href="https://leap.tardate.com/books/homebrew-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/homebrew-cookbook/assets/homebrew-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-13T03:04:00Z</updated>
+    <title>#662 Homebrew Cook Book</title>
+    <summary>Book notes: Homebrew Cook Book, by Eamon Skelton EI9GQ. Published July 14, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Homebrew Cook Book, by Eamon Skelton EI9GQ. Published July 14, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/homebrew-cookbook/assets/homebrew-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/basic-communications-electronics/</id>
+    <link href="https://leap.tardate.com/books/basic-communications-electronics/"/>
+    <g:image_link>https://leap.tardate.com/books/basic-communications-electronics/assets/basic-communications-electronics_build.jpg</g:image_link>
+    <updated>2025-03-13T02:55:00Z</updated>
+    <title>#661 Basic Communications Electronics</title>
+    <summary>Book notes: Basic Communications Electronics: Jack Hudson, Jerry Luecke. First published June 1, 1999.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Basic Communications Electronics: Jack Hudson, Jerry Luecke. First published June 1, 1999.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/basic-communications-electronics/assets/basic-communications-electronics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol2/</id>
+    <link href="https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol2/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol2/assets/arrl-hands-on-radio-experiments-vol2_build.jpg</g:image_link>
+    <updated>2025-03-13T02:50:00Z</updated>
+    <title>#660 ARRL Hands-On Radio Experiments Volume 2</title>
+    <summary>Book notes: ARRL's Hands-On Radio Experiments Volume 2, by H. Ward Silver. Published January 1, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Hands-On Radio Experiments Volume 2, by H. Ward Silver. Published January 1, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol2/assets/arrl-hands-on-radio-experiments-vol2_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/</id>
+    <link href="https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/assets/arrl-hands-on-radio-experiments-vol3_build.jpg</g:image_link>
+    <updated>2025-03-13T02:35:00Z</updated>
+    <title>#659 ARRL Hands-On Radio Experiments Volume 3</title>
+    <summary>Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/assets/arrl-hands-on-radio-experiments-vol3_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-complete-esp32-projects-guide/</id>
+    <link href="https://leap.tardate.com/books/the-complete-esp32-projects-guide/"/>
+    <g:image_link>https://leap.tardate.com/books/the-complete-esp32-projects-guide/assets/the-complete-esp32-projects-guide_build.jpg</g:image_link>
+    <updated>2025-03-13T02:16:00Z</updated>
+    <title>#658 The Complete ESP32 Projects Guide</title>
+    <summary>Book notes: The Complete ESP32 Projects Guide, Dogan Ibrahim. Published January 1, 2019.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Complete ESP32 Projects Guide, Dogan Ibrahim. Published January 1, 2019.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-complete-esp32-projects-guide/assets/the-complete-esp32-projects-guide_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="ESP32"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-art-of-electronics-x-chapters/</id>
+    <link href="https://leap.tardate.com/books/the-art-of-electronics-x-chapters/"/>
+    <g:image_link>https://leap.tardate.com/books/the-art-of-electronics-x-chapters/assets/the-art-of-electronics-x-chapters_build.jpg</g:image_link>
+    <updated>2025-03-12T15:31:00Z</updated>
+    <title>#657 The Art of Electronics: The X Chapters</title>
+    <summary>Book notes: The Art of Electronics: The X Chapters, by Paul Horowitz, Winfield Hill. Published January 30, 2020.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Art of Electronics: The X Chapters, by Paul Horowitz, Winfield Hill. Published January 30, 2020.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-art-of-electronics-x-chapters/assets/the-art-of-electronics-x-chapters_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/</id>
     <link href="https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/assets/schmittcrystallockedoscillator_build.jpg</g:image_link>
@@ -436,6 +693,26 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a basic crystal-locked Schmitt oscillator using a 74HC14&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/schmittcrystallockedoscillator/assets/schmittcrystallockedoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-art-of-electronics/</id>
+    <link href="https://leap.tardate.com/books/the-art-of-electronics/"/>
+    <g:image_link>https://leap.tardate.com/books/the-art-of-electronics/assets/the-art-of-electronics_build.jpg</g:image_link>
+    <updated>2025-03-12T15:25:00Z</updated>
+    <title>#655 The Art of Electronics</title>
+    <summary>Book notes: The Art of Electronics, by Paul Horowitz,  Winfield Hill. First published January 1, 1980.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Art of Electronics, by Paul Horowitz,  Winfield Hill. First published January 1, 1980.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-art-of-electronics/assets/the-art-of-electronics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/diy-drones-for-the-evil-genius/</id>
+    <link href="https://leap.tardate.com/books/diy-drones-for-the-evil-genius/"/>
+    <g:image_link>https://leap.tardate.com/books/diy-drones-for-the-evil-genius/assets/diy-drones-for-the-evil-genius_build.jpg</g:image_link>
+    <updated>2025-03-12T15:13:00Z</updated>
+    <title>#654 DIY Drones for the Evil Genius</title>
+    <summary>Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: DIY Drones for the Evil Genius: Design, Build, and Customize Your Own Drones, by Ian Cinnamon, Romi Kadri, Fitz Tepper. Published December 2, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/diy-drones-for-the-evil-genius/assets/diy-drones-for-the-evil-genius_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/visualization/usbledvolumeindicatorkit/</id>
@@ -450,6 +727,59 @@
     <category term="LED"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/building-smart-drones-with-esp8266-and-arduino/</id>
+    <link href="https://leap.tardate.com/books/building-smart-drones-with-esp8266-and-arduino/"/>
+    <g:image_link>https://leap.tardate.com/books/building-smart-drones-with-esp8266-and-arduino/assets/building-smart-drones-with-esp8266-and-arduino_build.jpg</g:image_link>
+    <updated>2025-03-12T15:07:00Z</updated>
+    <title>#652 Building Smart Drones with ESP8266 and Arduino</title>
+    <summary>Book notes: Building Smart Drones with ESP8266 and Arduino: Build exciting drones by leveraging the capabilities of Arduino and ESP8266, by Syed Omar Faruk Towaha. Published February 27, 2018.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Building Smart Drones with ESP8266 and Arduino: Build exciting drones by leveraging the capabilities of Arduino and ESP8266, by Syed Omar Faruk Towaha. Published February 27, 2018.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/building-smart-drones-with-esp8266-and-arduino/assets/building-smart-drones-with-esp8266-and-arduino_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/experimental-methods-in-rf-design/</id>
+    <link href="https://leap.tardate.com/books/experimental-methods-in-rf-design/"/>
+    <g:image_link>https://leap.tardate.com/books/experimental-methods-in-rf-design/assets/experimental-methods-in-rf-design_build.jpg</g:image_link>
+    <updated>2025-03-12T15:01:00Z</updated>
+    <title>#651 Experimental Methods in RF Design</title>
+    <summary>Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/experimental-methods-in-rf-design/assets/experimental-methods-in-rf-design_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-handbook-2017/</id>
+    <link href="https://leap.tardate.com/books/arrl-handbook-2017/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-handbook-2017/assets/arrl-handbook-2017_build.jpg</g:image_link>
+    <updated>2025-03-12T14:37:00Z</updated>
+    <title>#650 ARRL Handbook 2017</title>
+    <summary>Book notes: The ARRL Handbook for Radio Communications 2017. Published September 30, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The ARRL Handbook for Radio Communications 2017. Published September 30, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-handbook-2017/assets/arrl-handbook-2017_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-essence-of-analog-electronics/</id>
+    <link href="https://leap.tardate.com/books/the-essence-of-analog-electronics/"/>
+    <g:image_link>https://leap.tardate.com/books/the-essence-of-analog-electronics/assets/the-essence-of-analog-electronics_build.jpg</g:image_link>
+    <updated>2025-03-12T14:22:00Z</updated>
+    <title>#649 The Essence of Analog Electronics</title>
+    <summary>Books notes: The Essence of Analog Electronics, by Colin Lunn. First published November 30, 1996.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Books notes: The Essence of Analog Electronics, by Colin Lunn. First published November 30, 1996.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-essence-of-analog-electronics/assets/the-essence-of-analog-electronics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-electronics-of-radio/</id>
+    <link href="https://leap.tardate.com/books/the-electronics-of-radio/"/>
+    <g:image_link>https://leap.tardate.com/books/the-electronics-of-radio/assets/the-electronics-of-radio_build.jpg</g:image_link>
+    <updated>2025-03-12T14:15:00Z</updated>
+    <title>#648 The Electronics of Radio</title>
+    <summary>Book notes: The Electronics of Radio, by David B. Rutledge. First published August 13, 1999.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Electronics of Radio, by David B. Rutledge. First published August 13, 1999.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-electronics-of-radio/assets/the-electronics-of-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/equipment/humidifiermodule/</id>
     <link href="https://leap.tardate.com/equipment/humidifiermodule/"/>
     <g:image_link>https://leap.tardate.com/equipment/humidifiermodule/assets/humidifiermodule_build.jpg</g:image_link>
@@ -459,6 +789,37 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a cheap USB/5V powered humidifier module the produces prodigious volumes of mist&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/humidifiermodule/assets/humidifiermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="USB"/>
     <category term="environmental"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/radio-and-electronics-cookbook/</id>
+    <link href="https://leap.tardate.com/books/radio-and-electronics-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/radio-and-electronics-cookbook/assets/radio-and-electronics-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T14:04:00Z</updated>
+    <title>#646 Radio and Electronics Cookbook</title>
+    <summary>Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/radio-and-electronics-cookbook/assets/radio-and-electronics-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/ic-converter-cookbook/</id>
+    <link href="https://leap.tardate.com/books/ic-converter-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/ic-converter-cookbook/assets/ic-converter-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:55:00Z</updated>
+    <title>#645 IC Converter Cookbook</title>
+    <summary>Book notes: IC converter cookbook, by Walter G. Jung. First published January 1, 1978.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: IC converter cookbook, by Walter G. Jung. First published January 1, 1978.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/ic-converter-cookbook/assets/ic-converter-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/practical-oscillator-handbook/</id>
+    <link href="https://leap.tardate.com/books/practical-oscillator-handbook/"/>
+    <g:image_link>https://leap.tardate.com/books/practical-oscillator-handbook/assets/practical-oscillator-handbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:49:00Z</updated>
+    <title>#644 Practical Oscillator Handbook</title>
+    <summary>Book notes: Practical Oscillator Handbook, by Irving M. Gottlieb. First published November 30, 1970.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Oscillator Handbook, by Irving M. Gottlieb. First published November 30, 1970.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/practical-oscillator-handbook/assets/practical-oscillator-handbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/wirelessledmodule/</id>
@@ -482,6 +843,46 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/electronics-cookbook/</id>
+    <link href="https://leap.tardate.com/books/electronics-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/electronics-cookbook/assets/electronics-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:40:00Z</updated>
+    <title>#641 Electronics Cookbook</title>
+    <summary>Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/electronics-cookbook/assets/electronics-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/cmos-cookbook/</id>
+    <link href="https://leap.tardate.com/books/cmos-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/cmos-cookbook/assets/cmos-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:33:00Z</updated>
+    <title>#640 CMOS Cookbook</title>
+    <summary>Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: CMOS Cookbook, by Donald E. Lancaster, Howard M. Berlin. First published January 1, 1988.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/cmos-cookbook/assets/cmos-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/circuit-scrapbook-vol1/</id>
+    <link href="https://leap.tardate.com/books/circuit-scrapbook-vol1/"/>
+    <g:image_link>https://leap.tardate.com/books/circuit-scrapbook-vol1/assets/circuit-scrapbook-vol1_build.jpg</g:image_link>
+    <updated>2025-03-12T13:28:00Z</updated>
+    <title>#639 Circuit Scrapbook, Vol 1</title>
+    <summary>Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Forrest Mims Circuit Scrapbook, Vol 1, First published September 1, 2000.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/circuit-scrapbook-vol1/assets/circuit-scrapbook-vol1_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/building-arduino-plcs/</id>
+    <link href="https://leap.tardate.com/books/building-arduino-plcs/"/>
+    <g:image_link>https://leap.tardate.com/books/building-arduino-plcs/assets/building-arduino-plcs_build.jpg</g:image_link>
+    <updated>2025-03-12T13:23:00Z</updated>
+    <title>#638 Building Arduino PLCs</title>
+    <summary>Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Building Arduino PLCs: The essential techniques you need to develop Arduino-based PLCs, by Pradeeka Seneviratne. Published February 7, 2017.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/building-arduino-plcs/assets/building-arduino-plcs_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4069/logicprobe/</id>
@@ -520,6 +921,16 @@
     <category term="CD4001"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/audio-ic-users-handbook/</id>
+    <link href="https://leap.tardate.com/books/audio-ic-users-handbook/"/>
+    <g:image_link>https://leap.tardate.com/books/audio-ic-users-handbook/assets/audio-ic-users-handbook_build.jpg</g:image_link>
+    <updated>2025-03-12T13:17:00Z</updated>
+    <title>#634 Audio IC Users Handbook</title>
+    <summary>Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Audio IC Users Handbook, by R.M. Marston. First published January 1, 1997.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/audio-ic-users-handbook/assets/audio-ic-users-handbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/serialinterface/usbtorj45/</id>
     <link href="https://leap.tardate.com/electronics101/serialinterface/usbtorj45/"/>
     <g:image_link>https://leap.tardate.com/electronics101/serialinterface/usbtorj45/assets/usbtorj45_build.jpg</g:image_link>
@@ -555,6 +966,17 @@
     <category term="Arduino"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/</id>
+    <link href="https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/"/>
+    <g:image_link>https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/assets/ham-radio-for-arduino-and-picaxe_build.jpg</g:image_link>
+    <updated>2025-03-12T13:06:00Z</updated>
+    <title>#630 Ham Radio for Arduino and PICAXE</title>
+    <summary>Book notes: Ham Radio for Arduino and PICAXE – Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Ham Radio for Arduino and PICAXE – Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/assets/ham-radio-for-arduino-and-picaxe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/equipment/waterlevelcontrolkit/</id>
     <link href="https://leap.tardate.com/equipment/waterlevelcontrolkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/waterlevelcontrolkit/assets/waterlevelcontrolkit_build.jpg</g:image_link>
@@ -564,6 +986,39 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/waterlevelcontrolkit/assets/waterlevelcontrolkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Control"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arduino-for-radio-amateur-applications/</id>
+    <link href="https://leap.tardate.com/books/arduino-for-radio-amateur-applications/"/>
+    <g:image_link>https://leap.tardate.com/books/arduino-for-radio-amateur-applications/assets/arduino-for-radio-amateur-applications_build.jpg</g:image_link>
+    <updated>2025-03-12T12:37:00Z</updated>
+    <title>#628 Arduino for Radio Amateur Applications</title>
+    <summary>Book notes: Arduino for Radio Amateur Applications, by Glen Popiel.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino for Radio Amateur Applications, by Glen Popiel.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-for-radio-amateur-applications/assets/arduino-for-radio-amateur-applications_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arduino-projects-for-amateur-radio/</id>
+    <link href="https://leap.tardate.com/books/arduino-projects-for-amateur-radio/"/>
+    <g:image_link>https://leap.tardate.com/books/arduino-projects-for-amateur-radio/assets/arduino-projects-for-amateur-radio_build.jpg</g:image_link>
+    <updated>2025-03-12T12:32:00Z</updated>
+    <title>#627 Arduino Projects for Amateur Radio</title>
+    <summary>Book notes: Arduino Projects for Amateur Radio, by Jack Purdum, Dennis Kidder. First published September 4, 2014.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino Projects for Amateur Radio, by Jack Purdum, Dennis Kidder. First published September 4, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-projects-for-amateur-radio/assets/arduino-projects-for-amateur-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/</id>
+    <link href="https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/"/>
+    <g:image_link>https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/assets/more-arduino-projects-for-ham-radio_build.jpg</g:image_link>
+    <updated>2025-03-12T12:25:00Z</updated>
+    <title>#626 More Arduino Projects for Ham Radio</title>
+    <summary>Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/assets/more-arduino-projects-for-ham-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/remotecontrolcandles/</id>
@@ -587,6 +1042,27 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineering infrared protocols using the Arduino-IRremote library.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ir/dumper/assets/dumper_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="IR"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arduino-for-ham-radio/</id>
+    <link href="https://leap.tardate.com/books/arduino-for-ham-radio/"/>
+    <g:image_link>https://leap.tardate.com/books/arduino-for-ham-radio/assets/arduino-for-ham-radio_build.jpg</g:image_link>
+    <updated>2025-03-12T12:19:00Z</updated>
+    <title>#623 Arduino for Ham Radio</title>
+    <summary>Book notes: Arduino for Ham Radio: A Radio Amateur's Guide to Open Source Electronics and Microcontroller Projects, by Glen Popiel. First published January 1, 2014.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino for Ham Radio: A Radio Amateur's Guide to Open Source Electronics and Microcontroller Projects, by Glen Popiel. First published January 1, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-for-ham-radio/assets/arduino-for-ham-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arduino-for-musicians/</id>
+    <link href="https://leap.tardate.com/books/arduino-for-musicians/"/>
+    <g:image_link>https://leap.tardate.com/books/arduino-for-musicians/assets/arduino-for-musicians_build.jpg</g:image_link>
+    <updated>2025-03-12T12:11:00Z</updated>
+    <title>#622 Arduino for Musicians</title>
+    <summary>Book notes: Arduino for Musicians: A Complete Guide to Arduino and Teensy Microcontrollers, by Brent Edstrom. First published March 1, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino for Musicians: A Complete Guide to Arduino and Teensy Microcontrollers, by Brent Edstrom. First published March 1, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-for-musicians/assets/arduino-for-musicians_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/kubelmagic/</id>
@@ -624,6 +1100,16 @@
     <category term="Audio"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/analog-circuits-cookbook/</id>
+    <link href="https://leap.tardate.com/books/analog-circuits-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/analog-circuits-cookbook/assets/analog-circuits-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T10:21:00Z</updated>
+    <title>#618 Analog Circuits Cookbook</title>
+    <summary>Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Analog Circuits Cookbook, Second Edition, by Ian Hickman. First published January 1, 1999.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/analog-circuits-cookbook/assets/analog-circuits-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/weevileyekit/</id>
     <link href="https://leap.tardate.com/electronics101/weevileyekit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/weevileyekit/assets/weevileyekit_build.jpg</g:image_link>
@@ -644,6 +1130,36 @@
     <content type="html">&lt;div&gt;&lt;p&gt;An Arduino LED candle emulation&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/candleemulator/assets/candleemulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Arduino"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/</id>
+    <link href="https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/"/>
+    <g:image_link>https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/assets/30-arduino-projects-for-the-evil-genius_build.jpg</g:image_link>
+    <updated>2025-03-12T10:13:00Z</updated>
+    <title>#615 30 Arduino Projects for the Evil Genius</title>
+    <summary>Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: 30 Arduino Projects for the Evil Genius, by Simon Monk. First published July 28, 2010.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/30-arduino-projects-for-the-evil-genius/assets/30-arduino-projects-for-the-evil-genius_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arduino-cookbook/</id>
+    <link href="https://leap.tardate.com/books/arduino-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/arduino-cookbook/assets/arduino-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-12T09:41:00Z</updated>
+    <title>#614 Arduino Cookbook</title>
+    <summary>Book notes: Arduino Cookbook, by Michael Margolis. First published October 15, 2010.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino Cookbook, by Michael Margolis. First published October 15, 2010.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-cookbook/assets/arduino-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/beginning-digital-electronics-through-projects/</id>
+    <link href="https://leap.tardate.com/books/beginning-digital-electronics-through-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/beginning-digital-electronics-through-projects/assets/beginning-digital-electronics-through-projects_build.jpg</g:image_link>
+    <updated>2025-03-12T09:30:00Z</updated>
+    <title>#613 Beginning Digital Electronics through Projects</title>
+    <summary>Book notes: Beginning Digital Electronics through Projects by Andrew Singmin, first published December 1, 2000.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Beginning Digital Electronics through Projects by Andrew Singmin, first published December 1, 2000.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/beginning-digital-electronics-through-projects/assets/beginning-digital-electronics-through-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/hilologictesterkit/</id>
@@ -678,6 +1194,16 @@
     <category term="555 Timer"/>
     <category term="Audio"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/beginning-analog-electronics-through-projects/</id>
+    <link href="https://leap.tardate.com/books/beginning-analog-electronics-through-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/beginning-analog-electronics-through-projects/assets/beginning-analog-electronics-through-projects_build.jpg</g:image_link>
+    <updated>2025-03-12T09:10:00Z</updated>
+    <title>#609 Beginning Analog Electronics through Projects</title>
+    <summary>Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Beginning Analog Electronics through Projects: Second Edition by Andrew Singmin, first published January 1, 2001.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/beginning-analog-electronics-through-projects/assets/beginning-analog-electronics-through-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ledcurrentcontrol/</id>
