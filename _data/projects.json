@@ -310,6 +310,15 @@
             "Arduino"
         ]
     },
+    "/books/soldersmoke/": {
+        "id": 669,
+        "title": "SolderSmoke",
+        "summary": "Book notes: SolderSmoke: Global Adventures in Wireless Electronics, by Bill Meara. First published March 1, 2009.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/radio/codepracticeoscillator/": {
         "id": 668,
         "title": "Code Practice Oscillator",
