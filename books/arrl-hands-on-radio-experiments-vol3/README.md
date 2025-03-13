@@ -3,7 +3,7 @@
 Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.
 
 > One of my favourite books for studying discrete aspects of electronics.
-> Compiled from magazine articles, each chapter presents the topic with supurb clarity,
+> Compiled from magazine articles, each chapter presents the topic with superb clarity,
 > coupled with a practical demonstration.
 
 [![Build](./assets/arrl-hands-on-radio-experiments-vol3_build.jpg?raw=true)](https://amzn.to/4iraHYp)

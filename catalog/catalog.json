@@ -370,6 +370,16 @@
         "original_relative_path": "Electronics101/Displays/Lcd3Digit"
     },
     {
+        "id": "#660",
+        "name": "ARRL Hands-On Radio Experiments Volume 2",
+        "description": "Book notes: ARRL's Hands-On Radio Experiments Volume 2, by H. Ward Silver. Published January 1, 2013.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-hands-on-radio-experiments-vol2",
+        "updated_at": "2025-03-13T02:50:00Z",
+        "created_at": "2025-03-13T02:50:00Z",
+        "original_relative_path": "books/arrl-hands-on-radio-experiments-vol2"
+    },
+    {
         "id": "#659",
         "name": "ARRL Hands-On Radio Experiments Volume 3",
         "description": "Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.",

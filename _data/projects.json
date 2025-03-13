@@ -338,6 +338,15 @@
             "Arduino"
         ]
     },
+    "/books/arrl-hands-on-radio-experiments-vol2/": {
+        "id": 660,
+        "title": "ARRL Hands-On Radio Experiments Volume 2",
+        "summary": "Book notes: ARRL's Hands-On Radio Experiments Volume 2, by H. Ward Silver. Published January 1, 2013.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/arrl-hands-on-radio-experiments-vol3/": {
         "id": 659,
         "title": "ARRL Hands-On Radio Experiments Volume 3",
