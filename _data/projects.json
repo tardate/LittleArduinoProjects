@@ -247,6 +247,14 @@
             "Oscillators"
         ]
     },
+    "/books/practical-electronics/": {
+        "id": 686,
+        "title": "Practical Electronics",
+        "summary": "Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/engineers-mini-notebook-sensor-projects/": {
         "id": 685,
         "title": "Sensor Projects",

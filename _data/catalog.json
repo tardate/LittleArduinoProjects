@@ -270,6 +270,16 @@
         "original_relative_path": "Electronics101/Oscillators/CrystalLocked455kHzCD4001"
     },
     {
+        "id": "#686",
+        "name": "Practical Electronics",
+        "description": "Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.",
+        "categories": "Books",
+        "relative_path": "books/practical-electronics",
+        "updated_at": "2025-03-13T09:21:00Z",
+        "created_at": "2025-03-13T09:21:00Z",
+        "original_relative_path": "books/practical-electronics"
+    },
+    {
         "id": "#685",
         "name": "Sensor Projects",
         "description": "Book notes: Engineer's Mini-Notebook Sensor Projects, by Forrest M. Mims III. First published January 1, 1996.",

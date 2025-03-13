@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T09:09:00Z</updated>
+  <updated>2025-03-13T09:21:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -314,6 +314,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a 455kHz crystal-locked Pierce oscillator using CD4001 CMOS NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/crystallocked455khzcd4001/assets/crystallocked455khzcd4001_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/practical-electronics/</id>
+    <link href="https://leap.tardate.com/books/practical-electronics/"/>
+    <g:image_link>https://leap.tardate.com/books/practical-electronics/assets/practical-electronics_build.jpg</g:image_link>
+    <updated>2025-03-13T09:21:00Z</updated>
+    <title>#686 Practical Electronics</title>
+    <summary>Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Practical Electronics: Components and Techniques, by John M. Hughes. First published September 25, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/practical-electronics/assets/practical-electronics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/engineers-mini-notebook-sensor-projects/</id>
