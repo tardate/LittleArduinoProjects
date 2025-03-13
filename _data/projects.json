@@ -320,6 +320,15 @@
             "Power"
         ]
     },
+    "/books/build-your-own-transistor-radios/": {
+        "id": 666,
+        "title": "Build Your Own Transistor Radios",
+        "summary": "Book notes: Build Your Own Transistor Radios: A Hobbyist's Guide to High-Performance and Low-Powered Radio Circuits, by Ronald Quan. First published January 1, 2012.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/arrl-small-antennas-for-small-spaces/": {
         "id": 665,
         "title": "ARRL's Small Antennas for Small Spaces",
