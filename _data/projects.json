@@ -302,6 +302,14 @@
             "OpAmp"
         ]
     },
+    "/books/make-analog-synthesizers/": {
+        "id": 672,
+        "title": "Make: Analog Synthesizers",
+        "summary": "Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/the-essential-guide-to-electronics-in-shenzhen/": {
         "id": 671,
         "title": "The Essential Guide to Electronics in Shenzhen",

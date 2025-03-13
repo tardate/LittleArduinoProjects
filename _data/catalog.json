@@ -330,6 +330,16 @@
         "original_relative_path": "Electronics101/LDR/DifferentialComparator"
     },
     {
+        "id": "#672",
+        "name": "Make: Analog Synthesizers",
+        "description": "Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.",
+        "categories": "Books",
+        "relative_path": "books/make-analog-synthesizers",
+        "updated_at": "2025-03-13T08:04:00Z",
+        "created_at": "2025-03-13T08:04:00Z",
+        "original_relative_path": "books/make-analog-synthesizers"
+    },
+    {
         "id": "#671",
         "name": "The Essential Guide to Electronics in Shenzhen",
         "description": "Book notes: The Essential Guide to Electronics in Shenzhen, by Andrew Huang. First published January 1, 2016.",

@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T07:55:00Z</updated>
+  <updated>2025-03-13T08:04:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -381,6 +381,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Using a differential amplifier to extract a clean trigger signal from a light dependent resistor (LDR)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ldr/differentialcomparator/assets/differentialcomparator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="OpAmp"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/make-analog-synthesizers/</id>
+    <link href="https://leap.tardate.com/books/make-analog-synthesizers/"/>
+    <g:image_link>https://leap.tardate.com/books/make-analog-synthesizers/assets/make-analog-synthesizers_build.jpg</g:image_link>
+    <updated>2025-03-13T08:04:00Z</updated>
+    <title>#672 Make: Analog Synthesizers</title>
+    <summary>Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Make: Analog Synthesizers: Make Electronic Sounds the Synth-DIY Way, by Ray Wilson. First published March 22, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/make-analog-synthesizers/assets/make-analog-synthesizers_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/the-essential-guide-to-electronics-in-shenzhen/</id>
