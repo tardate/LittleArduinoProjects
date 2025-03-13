@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T03:04:00Z</updated>
+  <updated>2025-03-13T03:09:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -403,6 +403,16 @@
     <summary>Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/</id>
+    <link href="https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/"/>
+    <updated>2025-03-13T03:09:00Z</updated>
+    <title>#665 ARRL's Small Antennas for Small Spaces</title>
+    <summary>Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.&lt;/p&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/lightcontrolswitchkit/</id>

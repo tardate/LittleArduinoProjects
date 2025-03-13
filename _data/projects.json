@@ -320,6 +320,15 @@
             "Power"
         ]
     },
+    "/books/arrl-small-antennas-for-small-spaces/": {
+        "id": 665,
+        "title": "ARRL's Small Antennas for Small Spaces",
+        "summary": "Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/equipment/lightcontrolswitchkit/": {
         "id": 664,
         "title": "Light Control Switch Kit",
