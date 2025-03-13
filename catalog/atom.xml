@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T03:14:00Z</updated>
+  <updated>2025-03-13T07:34:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -124,6 +124,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/assets/lionsforgecraftlaser_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="NLB MakeIt"/>
     <category term="Laser Cutter"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-embedded-project-cookbook/</id>
+    <link href="https://leap.tardate.com/books/the-embedded-project-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-13T07:34:00Z</updated>
+    <title>#753 The Embedded Project Cookbook</title>
+    <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/</id>

@@ -100,6 +100,16 @@
         "original_relative_path": "Equipment/NLB/LionsforgeCraftlaser"
     },
     {
+        "id": "#753",
+        "name": "The Embedded Project Cookbook",
+        "description": "Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.",
+        "categories": "Books",
+        "relative_path": "books/the-embedded-project-cookbook",
+        "updated_at": "2025-03-13T07:34:00Z",
+        "created_at": "2025-03-13T07:34:00Z",
+        "original_relative_path": "books/the-embedded-project-cookbook"
+    },
+    {
         "id": "#740",
         "name": "Digital Clock Kit",
         "description": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",

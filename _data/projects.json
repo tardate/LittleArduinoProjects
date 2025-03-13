@@ -91,6 +91,14 @@
             "Laser Cutter"
         ]
     },
+    "/books/the-embedded-project-cookbook/": {
+        "id": 753,
+        "title": "The Embedded Project Cookbook",
+        "summary": "Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/digitallogic/digitalclockkit/": {
         "id": 740,
         "title": "Digital Clock Kit",
