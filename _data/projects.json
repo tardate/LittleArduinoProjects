@@ -338,6 +338,14 @@
             "Arduino"
         ]
     },
+    "/books/basic-communications-electronics/": {
+        "id": 661,
+        "title": "Basic Communications Electronics",
+        "summary": "Book notes: Basic Communications Electronics: Jack Hudson, Jerry Luecke. First published June 1, 1999.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arrl-hands-on-radio-experiments-vol2/": {
         "id": 660,
         "title": "ARRL Hands-On Radio Experiments Volume 2",

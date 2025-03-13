@@ -370,6 +370,16 @@
         "original_relative_path": "Electronics101/Displays/Lcd3Digit"
     },
     {
+        "id": "#661",
+        "name": "Basic Communications Electronics",
+        "description": "Book notes: Basic Communications Electronics: Jack Hudson, Jerry Luecke. First published June 1, 1999.",
+        "categories": "Books",
+        "relative_path": "books/basic-communications-electronics",
+        "updated_at": "2025-03-13T02:55:00Z",
+        "created_at": "2025-03-13T02:55:00Z",
+        "original_relative_path": "books/basic-communications-electronics"
+    },
+    {
         "id": "#660",
         "name": "ARRL Hands-On Radio Experiments Volume 2",
         "description": "Book notes: ARRL's Hands-On Radio Experiments Volume 2, by H. Ward Silver. Published January 1, 2013.",
