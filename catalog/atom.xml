@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T02:16:00Z</updated>
+  <updated>2025-03-13T02:35:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -427,6 +427,17 @@
     <category term="Arduino"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/</id>
+    <link href="https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/assets/arrl-hands-on-radio-experiments-vol3_build.jpg</g:image_link>
+    <updated>2025-03-13T02:35:00Z</updated>
+    <title>#659 ARRL Hands-On Radio Experiments Volume 3</title>
+    <summary>Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Hands-On Radio Experiments Volume 3, by H. Ward Silver. Published January 1, 2018.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-hands-on-radio-experiments-vol3/assets/arrl-hands-on-radio-experiments-vol3_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/books/the-complete-esp32-projects-guide/</id>
     <link href="https://leap.tardate.com/books/the-complete-esp32-projects-guide/"/>
     <g:image_link>https://leap.tardate.com/books/the-complete-esp32-projects-guide/assets/the-complete-esp32-projects-guide_build.jpg</g:image_link>
@@ -435,6 +446,7 @@
     <summary>Book notes: The Complete ESP32 Projects Guide, Dogan Ibrahim. Published January 1, 2019.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Complete ESP32 Projects Guide, Dogan Ibrahim. Published January 1, 2019.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-complete-esp32-projects-guide/assets/the-complete-esp32-projects-guide_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="ESP32"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/the-art-of-electronics-x-chapters/</id>
@@ -508,6 +520,7 @@
     <summary>Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Experimental Methods in RF Design, by Wes H. Hayward, Rick Campbell, Bob Larkin. First published February 1, 2003.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/experimental-methods-in-rf-design/assets/experimental-methods-in-rf-design_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/arrl-handbook-2017/</id>
@@ -518,6 +531,7 @@
     <summary>Book notes: The ARRL Handbook for Radio Communications 2017. Published September 30, 2016.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The ARRL Handbook for Radio Communications 2017. Published September 30, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-handbook-2017/assets/arrl-handbook-2017_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/the-essence-of-analog-electronics/</id>
@@ -538,6 +552,7 @@
     <summary>Book notes: The Electronics of Radio, by David B. Rutledge. First published August 13, 1999.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Electronics of Radio, by David B. Rutledge. First published August 13, 1999.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-electronics-of-radio/assets/the-electronics-of-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/humidifiermodule/</id>
@@ -559,6 +574,7 @@
     <summary>Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Radio and Electronics Cookbook, Radio Society of Great Britain. First published January 3, 2001.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/radio-and-electronics-cookbook/assets/radio-and-electronics-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/ic-converter-cookbook/</id>
@@ -733,6 +749,7 @@
     <summary>Book notes: Ham Radio for Arduino and PICAXE – Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Ham Radio for Arduino and PICAXE – Easy to Build Microcontroller Projects, ARRL. First published March 25, 2013.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/ham-radio-for-arduino-and-picaxe/assets/ham-radio-for-arduino-and-picaxe_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/waterlevelcontrolkit/</id>
@@ -754,6 +771,7 @@
     <summary>Book notes: Arduino for Radio Amateur Applications, by Glen Popiel.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino for Radio Amateur Applications, by Glen Popiel.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-for-radio-amateur-applications/assets/arduino-for-radio-amateur-applications_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/arduino-projects-for-amateur-radio/</id>
@@ -764,6 +782,7 @@
     <summary>Book notes: Arduino Projects for Amateur Radio, by Jack Purdum, Dennis Kidder. First published September 4, 2014.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino Projects for Amateur Radio, by Jack Purdum, Dennis Kidder. First published September 4, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-projects-for-amateur-radio/assets/arduino-projects-for-amateur-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/</id>
@@ -774,6 +793,7 @@
     <summary>Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: More Arduino Projects for Ham Radio, by Glen Popiel. Published May 1, 2017.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/more-arduino-projects-for-ham-radio/assets/more-arduino-projects-for-ham-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/remotecontrolcandles/</id>
@@ -807,6 +827,7 @@
     <summary>Book notes: Arduino for Ham Radio: A Radio Amateur's Guide to Open Source Electronics and Microcontroller Projects, by Glen Popiel. First published January 1, 2014.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Arduino for Ham Radio: A Radio Amateur's Guide to Open Source Electronics and Microcontroller Projects, by Glen Popiel. First published January 1, 2014.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arduino-for-ham-radio/assets/arduino-for-ham-radio_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/arduino-for-musicians/</id>
