@@ -220,6 +220,14 @@
             "Power"
         ]
     },
+    "/books/encyclopedia-of-electronic-components/": {
+        "id": 690,
+        "title": "Encyclopedia of Electronic Components",
+        "summary": "Book notes: Encyclopedia of Electronic Components, Volumes 1, 2, 3, by Charles Platt. First published September 22, 2012",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/oscillators/programmablefrequencyreference/": {
         "id": 689,
         "title": "Programmable Frequency Reference",

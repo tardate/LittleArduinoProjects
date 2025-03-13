@@ -240,6 +240,16 @@
         "original_relative_path": "Equipment/CH2PC4"
     },
     {
+        "id": "#690",
+        "name": "Encyclopedia of Electronic Components",
+        "description": "Book notes: Encyclopedia of Electronic Components, Volumes 1, 2, 3, by Charles Platt. First published September 22, 2012",
+        "categories": "Books",
+        "relative_path": "books/encyclopedia-of-electronic-components",
+        "updated_at": "2025-03-13T09:29:00Z",
+        "created_at": "2025-03-13T09:29:00Z",
+        "original_relative_path": "books/encyclopedia-of-electronic-components"
+    },
+    {
         "id": "#689",
         "name": "Programmable Frequency Reference",
         "description": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
