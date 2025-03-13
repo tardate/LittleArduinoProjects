@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T08:27:00Z</updated>
+  <updated>2025-03-13T08:42:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -349,11 +349,21 @@
     <category term="Tools"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/</id>
+    <link href="https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/assets/engineers-mini-notebook-magnet-projects_build.jpg</g:image_link>
+    <updated>2025-03-13T08:42:00Z</updated>
+    <title>#679 Magnet and Magnet Sensor Projects</title>
+    <summary>Book notes: Engineer's Mini-Notebook: Magnet and Magnet Sensor Projects, by Forrest M. Mims III. First published January 1, 1998.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook: Magnet and Magnet Sensor Projects, by Forrest M. Mims III. First published January 1, 1998.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-magnet-projects/assets/engineers-mini-notebook-magnet-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/</id>
     <link href="https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/"/>
     <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/assets/engineers-mini-notebook-communications-projects_build.jpg</g:image_link>
     <updated>2025-03-13T08:27:00Z</updated>
-    <title>#678 Engineer's Mini-Notebook Communications Projects</title>
+    <title>#678 Communications Projects</title>
     <summary>Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-communications-projects/assets/engineers-mini-notebook-communications-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
@@ -363,7 +373,7 @@
     <link href="https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/"/>
     <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/assets/engineers-mini-notebook-555-timer-ic-circuits_build.jpg</g:image_link>
     <updated>2025-03-13T08:19:00Z</updated>
-    <title>#677 Engineer's Mini-Notebook 555 Timer IC Circuits</title>
+    <title>#677 555 Timer IC Circuits</title>
     <summary>Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-555-timer-ic-circuits/assets/engineers-mini-notebook-555-timer-ic-circuits_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
@@ -408,7 +418,7 @@
     <link href="https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/"/>
     <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/assets/engineers-mini-notebook-op-amp-circuits_build.jpg</g:image_link>
     <updated>2025-03-13T08:13:00Z</updated>
-    <title>#673 Engineer's Mini-Notebook Op-Amp Circuits</title>
+    <title>#673 Op-Amp Circuits</title>
     <summary>Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-op-amp-circuits/assets/engineers-mini-notebook-op-amp-circuits_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>

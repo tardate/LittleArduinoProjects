@@ -274,9 +274,17 @@
             "Tools"
         ]
     },
+    "/books/engineers-mini-notebook-magnet-projects/": {
+        "id": 679,
+        "title": "Magnet and Magnet Sensor Projects",
+        "summary": "Book notes: Engineer's Mini-Notebook: Magnet and Magnet Sensor Projects, by Forrest M. Mims III. First published January 1, 1998.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/engineers-mini-notebook-communications-projects/": {
         "id": 678,
-        "title": "Engineer's Mini-Notebook Communications Projects",
+        "title": "Communications Projects",
         "summary": "Book notes: Engineer's Mini-Notebook Communications Projects, by Forrest M. Mims III. First published January 1, 1987.",
         "tags": [
             "Books"
@@ -284,7 +292,7 @@
     },
     "/books/engineers-mini-notebook-555-timer-ic-circuits/": {
         "id": 677,
-        "title": "Engineer's Mini-Notebook 555 Timer IC Circuits",
+        "title": "555 Timer IC Circuits",
         "summary": "Book notes: Engineer's Mini-Notebook 555 Timer IC Circuits, by Forrest M. Mims III. First published January 1, 1989.",
         "tags": [
             "Books",
@@ -321,7 +329,7 @@
     },
     "/books/engineers-mini-notebook-op-amp-circuits/": {
         "id": 673,
-        "title": "Engineer's Mini-Notebook Op-Amp Circuits",
+        "title": "Op-Amp Circuits",
         "summary": "Book notes: Engineer's Mini-Notebook Op-Amp Circuits, by Forrest M. Mims III. First published January 1, 1985.",
         "tags": [
             "Books"
