@@ -1,6 +1,6 @@
-# 718 Little Electronic Art Projects
+# 719 Little Electronic Art Projects
 
-> Latest addition:sparkles: [74LS74 Clap Switch](./Electronics101/74LS74/ClapSwitch) - Building a clap-switch circuit with electret input, 555 trigger and 74LS74 latch.
+> Latest addition:sparkles: [Raspberry Pi B+ Case](./RaspberryPi/BPlusCase) - Finally, 3D PLA printing a case for the Raspberry Pi Model B+ ... at the library.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
