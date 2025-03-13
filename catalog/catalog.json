@@ -270,6 +270,16 @@
         "original_relative_path": "Electronics101/Oscillators/CrystalLocked455kHzCD4001"
     },
     {
+        "id": "#684",
+        "name": "Solar Cell Projects",
+        "description": "Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.",
+        "categories": "Books",
+        "relative_path": "books/engineers-mini-notebook-solar-cell-projects",
+        "updated_at": "2025-03-13T09:02:00Z",
+        "created_at": "2025-03-13T09:02:00Z",
+        "original_relative_path": "books/engineers-mini-notebook-solar-cell-projects"
+    },
+    {
         "id": "#683",
         "name": "Optoelectronics Circuits",
         "description": "Book notes: Engineer's Mini-Notebook: Optoelectronics Circuits, by Forrest M. Mims III. First published January 1, 1996.",
