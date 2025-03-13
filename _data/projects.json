@@ -302,6 +302,14 @@
             "OpAmp"
         ]
     },
+    "/books/the-essential-guide-to-electronics-in-shenzhen/": {
+        "id": 671,
+        "title": "The Essential Guide to Electronics in Shenzhen",
+        "summary": "Book notes: The Essential Guide to Electronics in Shenzhen, by Andrew Huang. First published January 1, 2016.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/nano/expansionboard/": {
         "id": 670,
         "title": "Nano Expansion Board",
