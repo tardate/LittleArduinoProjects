@@ -210,6 +210,16 @@
         "original_relative_path": "Audio/LaserHarpKit"
     },
     {
+        "id": "#699",
+        "name": "LM336 Voltage Reference",
+        "description": "Exploring the LM336 precision reference and testing the minimum temperature coefficient circuit design.",
+        "categories": "Voltage Reference, LM336, 1N60P",
+        "relative_path": "electronics101/voltagereference/lm336",
+        "updated_at": "2025-03-14T08:26:00Z",
+        "created_at": "2025-03-14T08:26:00Z",
+        "original_relative_path": "Electronics101/VoltageReference/LM336"
+    },
+    {
         "id": "#698",
         "name": "Electronic Principles",
         "description": "Book notes: Electronic Principles, by Albert Malvino, David J Bates, Patrick E Hoppe. First published March 1, 1979.",
@@ -2651,9 +2661,9 @@
     },
     {
         "id": "#454",
-        "name": "VoltageReference/ADR4540",
+        "name": "ADR4540 Voltage Reference",
         "description": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference",
-        "categories": "Voltage Reference",
+        "categories": "Voltage Reference, ADR4540",
         "relative_path": "electronics101/voltagereference/adr4540",
         "updated_at": "2019-02-17T07:12:32Z",
         "created_at": "2019-02-17T07:12:32Z",
@@ -3451,9 +3461,9 @@
     },
     {
         "id": "#374",
-        "name": "VoltageReference/LT1019",
+        "name": "LT1019 Precision Reference",
         "description": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference",
-        "categories": "Voltage Reference",
+        "categories": "Voltage Reference, LT1019",
         "relative_path": "electronics101/voltagereference/lt1019",
         "updated_at": "2018-01-24T13:49:12Z",
         "created_at": "2018-01-24T13:49:12Z",
@@ -3591,9 +3601,9 @@
     },
     {
         "id": "#360",
-        "name": "TL431/ShuntRegulator",
+        "name": "TL431 Shunt Regulator",
         "description": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim",
-        "categories": " Power, Regulator, Voltage Reference",
+        "categories": "Power, Regulator, Voltage Reference, TL431",
         "relative_path": "electronics101/voltagereference/tl431/shuntregulator",
         "updated_at": "2018-01-24T13:49:35Z",
         "created_at": "2018-01-24T13:49:35Z",

@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-13T10:42:00Z</updated>
+  <updated>2025-03-14T08:26:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -247,6 +247,18 @@
     <category term="Laser"/>
     <category term="LED"/>
     <category term="8051"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/voltagereference/lm336/</id>
+    <link href="https://leap.tardate.com/electronics101/voltagereference/lm336/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/voltagereference/lm336/assets/lm336_build.jpg</g:image_link>
+    <updated>2025-03-14T08:26:00Z</updated>
+    <title>#699 LM336 Voltage Reference</title>
+    <summary>Exploring the LM336 precision reference and testing the minimum temperature coefficient circuit design.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Exploring the LM336 precision reference and testing the minimum temperature coefficient circuit design.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltagereference/lm336/assets/lm336_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Voltage Reference"/>
+    <category term="LM336"/>
+    <category term="1N60P"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/electronic-principles/</id>
@@ -2978,10 +2990,11 @@
     <link href="https://leap.tardate.com/electronics101/voltagereference/adr4540/"/>
     <g:image_link>https://leap.tardate.com/electronics101/voltagereference/adr4540/assets/adr4540_build.jpg</g:image_link>
     <updated>2019-02-17T07:12:32Z</updated>
-    <title>#454 VoltageReference/ADR4540</title>
+    <title>#454 ADR4540 Voltage Reference</title>
     <summary>exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltagereference/adr4540/assets/adr4540_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Voltage Reference"/>
+    <category term="ADR4540"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/breadboardbling/potmodules/</id>
@@ -3888,10 +3901,11 @@
     <link href="https://leap.tardate.com/electronics101/voltagereference/lt1019/"/>
     <g:image_link>https://leap.tardate.com/electronics101/voltagereference/lt1019/assets/lt1019_build.jpg</g:image_link>
     <updated>2018-01-24T13:49:12Z</updated>
-    <title>#374 VoltageReference/LT1019</title>
+    <title>#374 LT1019 Precision Reference</title>
     <summary>exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltagereference/lt1019/assets/lt1019_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Voltage Reference"/>
+    <category term="LT1019"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffectschips/px835/</id>
@@ -4045,12 +4059,13 @@
     <link href="https://leap.tardate.com/electronics101/voltagereference/tl431/shuntregulator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/voltagereference/tl431/shuntregulator/assets/shuntregulator_build.jpg</g:image_link>
     <updated>2018-01-24T13:49:35Z</updated>
-    <title>#360 TL431/ShuntRegulator</title>
+    <title>#360 TL431 Shunt Regulator</title>
     <summary>testing a TL431 voltage reference (regulator) circuit with manual course and fine trim</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;testing a TL431 voltage reference (regulator) circuit with manual course and fine trim&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltagereference/tl431/shuntregulator/assets/shuntregulator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term=" Power"/>
+    <category term="Power"/>
     <category term="Regulator"/>
     <category term="Voltage Reference"/>
+    <category term="TL431"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffectschips/hs088/</id>
