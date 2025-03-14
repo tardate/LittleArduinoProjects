@@ -192,6 +192,16 @@
             "8051"
         ]
     },
+    "/electronics101/voltagereference/lm336/": {
+        "id": 699,
+        "title": "LM336 Voltage Reference",
+        "summary": "Exploring the LM336 precision reference and testing the minimum temperature coefficient circuit design.",
+        "tags": [
+            "Voltage Reference",
+            "LM336",
+            "1N60P"
+        ]
+    },
     "/books/electronic-principles/": {
         "id": 698,
         "title": "Electronic Principles",
@@ -2433,10 +2443,11 @@
     },
     "/electronics101/voltagereference/adr4540/": {
         "id": 454,
-        "title": "VoltageReference/ADR4540",
+        "title": "ADR4540 Voltage Reference",
         "summary": "exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference",
         "tags": [
-            "Voltage Reference"
+            "Voltage Reference",
+            "ADR4540"
         ]
     },
     "/electronics101/breadboardbling/potmodules/": {
@@ -3183,10 +3194,11 @@
     },
     "/electronics101/voltagereference/lt1019/": {
         "id": 374,
-        "title": "VoltageReference/LT1019",
+        "title": "LT1019 Precision Reference",
         "summary": "exploring the LT1019 precision reference, tested with an Arduino as an external voltage reference",
         "tags": [
-            "Voltage Reference"
+            "Voltage Reference",
+            "LT1019"
         ]
     },
     "/audio/audioeffectschips/px835/": {
@@ -3312,12 +3324,13 @@
     },
     "/electronics101/voltagereference/tl431/shuntregulator/": {
         "id": 360,
-        "title": "TL431/ShuntRegulator",
+        "title": "TL431 Shunt Regulator",
         "summary": "testing a TL431 voltage reference (regulator) circuit with manual course and fine trim",
         "tags": [
-            " Power",
+            "Power",
             "Regulator",
-            "Voltage Reference"
+            "Voltage Reference",
+            "TL431"
         ]
     },
     "/audio/audioeffectschips/hs088/": {
