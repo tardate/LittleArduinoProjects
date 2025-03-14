@@ -43,6 +43,8 @@ I decided to put the circuit on a small piece of protoboard:
 
 It works nicely as a simple breadboard module.
 
+![protoboard_test](./assets/protoboard_test.jpg)
+
 ## Credits and References
 
 * [LM336Z-25 Datasheet](https://www.futurlec.com/Linear/LM336Z-25.shtml)
