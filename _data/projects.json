@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/books/arrl-ham-radio-license-manual/": {
+        "id": 704,
+        "title": "ARRL Ham Radio License Manual",
+        "summary": "Book notes: The ARRL Ham Radio License Manual, by American Radio Relay League, Third Edition. First published January 1, 1988.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/microcontroller-based-radio-telemetry-projects/": {
         "id": 703,
         "title": "Microcontroller Based Radio Telemetry Projects",
