@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-17T07:45:00Z</updated>
+  <updated>2025-03-17T07:54:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -234,6 +234,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/</id>
+    <link href="https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/assets/microcontroller-based-radio-telemetry-projects_build.jpg</g:image_link>
+    <updated>2025-03-17T07:54:00Z</updated>
+    <title>#703 Microcontroller Based Radio Telemetry Projects</title>
+    <summary>Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/assets/microcontroller-based-radio-telemetry-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/arm-microcontroller-projects/</id>

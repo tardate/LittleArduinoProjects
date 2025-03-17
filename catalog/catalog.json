@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#703",
+        "name": "Microcontroller Based Radio Telemetry Projects",
+        "description": "Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.",
+        "categories": "Books",
+        "relative_path": "books/microcontroller-based-radio-telemetry-projects",
+        "updated_at": "2025-03-17T07:54:00Z",
+        "created_at": "2025-03-17T07:54:00Z",
+        "original_relative_path": "books/microcontroller-based-radio-telemetry-projects"
+    },
+    {
         "id": "#702",
         "name": "ARM Microcontroller Projects",
         "description": "Book notes: ARM Microcontroller Projects, by Dogan Ibrahim. Published May 5, 2016.",

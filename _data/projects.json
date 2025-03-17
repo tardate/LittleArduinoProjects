@@ -181,6 +181,14 @@
             "Oscillators"
         ]
     },
+    "/books/microcontroller-based-radio-telemetry-projects/": {
+        "id": 703,
+        "title": "Microcontroller Based Radio Telemetry Projects",
+        "summary": "Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arm-microcontroller-projects/": {
         "id": 702,
         "title": "ARM Microcontroller Projects",
