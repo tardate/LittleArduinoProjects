@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#709",
+        "name": "Easy Pic'N",
+        "description": "Book notes: Easy Pic'N: A Beginners Guide to Using Pic16/17 Microcontrollers from Square 1, by David Benson. First published December 31, 1996.",
+        "categories": "Books",
+        "relative_path": "books/easy-pic-n",
+        "updated_at": "2025-03-17T09:04:00Z",
+        "created_at": "2025-03-17T09:04:00Z",
+        "original_relative_path": "books/easy-pic-n"
+    },
+    {
         "id": "#708",
         "name": "ARRL VHF Digital Handbook",
         "description": "Book notes: ARRL's VHF Digital Handbook, by Steven R. Ford. First published March 1, 2008.",

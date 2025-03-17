@@ -181,6 +181,14 @@
             "Oscillators"
         ]
     },
+    "/books/easy-pic-n/": {
+        "id": 709,
+        "title": "Easy Pic'N",
+        "summary": "Book notes: Easy Pic'N: A Beginners Guide to Using Pic16/17 Microcontrollers from Square 1, by David Benson. First published December 31, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arrl-vhf-digital-handbook/": {
         "id": 708,
         "title": "ARRL VHF Digital Handbook",
