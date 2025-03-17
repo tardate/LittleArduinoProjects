@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/books/solid-state-design-for-the-radio-amateur/": {
+        "id": 711,
+        "title": "Solid State Design for the Radio Amateur",
+        "summary": "Book notes: Solid State Design for the Radio Amateur, by Wes Hayward. First published June 1, 1994.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/arrl-pic-programming-for-beginners/": {
         "id": 710,
         "title": "ARRL PIC Programming for Beginners",
