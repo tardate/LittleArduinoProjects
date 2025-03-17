@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#705",
+        "name": "ARRL General Class License Manual",
+        "description": "Book notes: The ARRL General Class License Manual, by American Radio Relay League. First published December 20, 2010.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-general-class-license-manual",
+        "updated_at": "2025-03-17T08:29:00Z",
+        "created_at": "2025-03-17T08:29:00Z",
+        "original_relative_path": "books/arrl-general-class-license-manual"
+    },
+    {
         "id": "#704",
         "name": "ARRL Ham Radio License Manual",
         "description": "Book notes: The ARRL Ham Radio License Manual, by American Radio Relay League, Third Edition. First published January 1, 1988.",
