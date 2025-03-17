@@ -200,6 +200,116 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#711",
+        "name": "Solid State Design for the Radio Amateur",
+        "description": "Book notes: Solid State Design for the Radio Amateur, by Wes Hayward. First published June 1, 1994.",
+        "categories": "Books, Radio",
+        "relative_path": "books/solid-state-design-for-the-radio-amateur",
+        "updated_at": "2025-03-17T09:13:00Z",
+        "created_at": "2025-03-17T09:13:00Z",
+        "original_relative_path": "books/solid-state-design-for-the-radio-amateur"
+    },
+    {
+        "id": "#710",
+        "name": "ARRL PIC Programming for Beginners",
+        "description": "Book notes: ARRL's PIC Programming for Beginners, by Mark Spencer. First published April 22, 2010.",
+        "categories": "Books",
+        "relative_path": "books/arrl-pic-programming-for-beginners",
+        "updated_at": "2025-03-17T09:08:00Z",
+        "created_at": "2025-03-17T09:08:00Z",
+        "original_relative_path": "books/arrl-pic-programming-for-beginners"
+    },
+    {
+        "id": "#709",
+        "name": "Easy Pic'N",
+        "description": "Book notes: Easy Pic'N: A Beginners Guide to Using Pic16/17 Microcontrollers from Square 1, by David Benson. First published December 31, 1996.",
+        "categories": "Books",
+        "relative_path": "books/easy-pic-n",
+        "updated_at": "2025-03-17T09:04:00Z",
+        "created_at": "2025-03-17T09:04:00Z",
+        "original_relative_path": "books/easy-pic-n"
+    },
+    {
+        "id": "#708",
+        "name": "ARRL VHF Digital Handbook",
+        "description": "Book notes: ARRL's VHF Digital Handbook, by Steven R. Ford. First published March 1, 2008.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-vhf-digital-handbook",
+        "updated_at": "2025-03-17T08:49:00Z",
+        "created_at": "2025-03-17T08:49:00Z",
+        "original_relative_path": "books/arrl-vhf-digital-handbook"
+    },
+    {
+        "id": "#707",
+        "name": "ARRL Basic Antennas",
+        "description": "Book notes: Basic Antennas \u2013 Understanding Practical Antennas and Designs, by ARRL Inc. First published November 28, 2008.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-basic-antennas",
+        "updated_at": "2025-03-17T08:45:00Z",
+        "created_at": "2025-03-17T08:45:00Z",
+        "original_relative_path": "books/arrl-basic-antennas"
+    },
+    {
+        "id": "#706",
+        "name": "ARRL Extra Class License Manual",
+        "description": "Book notes: The ARRL Extra Class License Manual, by American Radio Relay League. First published March 1, 2011.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-extra-class-license-manual",
+        "updated_at": "2025-03-17T08:37:00Z",
+        "created_at": "2025-03-17T08:37:00Z",
+        "original_relative_path": "books/arrl-extra-class-license-manual"
+    },
+    {
+        "id": "#705",
+        "name": "ARRL General Class License Manual",
+        "description": "Book notes: The ARRL General Class License Manual, by American Radio Relay League. First published December 20, 2010.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-general-class-license-manual",
+        "updated_at": "2025-03-17T08:29:00Z",
+        "created_at": "2025-03-17T08:29:00Z",
+        "original_relative_path": "books/arrl-general-class-license-manual"
+    },
+    {
+        "id": "#704",
+        "name": "ARRL Ham Radio License Manual",
+        "description": "Book notes: The ARRL Ham Radio License Manual, by American Radio Relay League, Third Edition. First published January 1, 1988.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-ham-radio-license-manual",
+        "updated_at": "2025-03-17T08:14:00Z",
+        "created_at": "2025-03-17T08:14:00Z",
+        "original_relative_path": "books/arrl-ham-radio-license-manual"
+    },
+    {
+        "id": "#703",
+        "name": "Microcontroller Based Radio Telemetry Projects",
+        "description": "Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.",
+        "categories": "Books",
+        "relative_path": "books/microcontroller-based-radio-telemetry-projects",
+        "updated_at": "2025-03-17T07:54:00Z",
+        "created_at": "2025-03-17T07:54:00Z",
+        "original_relative_path": "books/microcontroller-based-radio-telemetry-projects"
+    },
+    {
+        "id": "#702",
+        "name": "ARM Microcontroller Projects",
+        "description": "Book notes: ARM Microcontroller Projects, by Dogan Ibrahim. Published May 5, 2016.",
+        "categories": "Books",
+        "relative_path": "books/arm-microcontroller-projects",
+        "updated_at": "2025-03-17T07:45:00Z",
+        "created_at": "2025-03-17T07:45:00Z",
+        "original_relative_path": "books/arm-microcontroller-projects"
+    },
+    {
+        "id": "#701",
+        "name": "ARRL Low Power Communications",
+        "description": "Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-low-power-communications",
+        "updated_at": "2025-03-17T07:36:00Z",
+        "created_at": "2025-03-17T07:36:00Z",
+        "original_relative_path": "books/arrl-low-power-communications"
+    },
+    {
         "id": "#700",
         "name": "Laser Harp Kit",
         "description": "Build and test an 8051-based laser harp kit",

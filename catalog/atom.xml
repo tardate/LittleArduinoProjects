@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-14T08:26:00Z</updated>
+  <updated>2025-03-17T09:13:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -234,6 +234,123 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/solid-state-design-for-the-radio-amateur/</id>
+    <link href="https://leap.tardate.com/books/solid-state-design-for-the-radio-amateur/"/>
+    <g:image_link>https://leap.tardate.com/books/solid-state-design-for-the-radio-amateur/assets/solid-state-design-for-the-radio-amateur_build.jpg</g:image_link>
+    <updated>2025-03-17T09:13:00Z</updated>
+    <title>#711 Solid State Design for the Radio Amateur</title>
+    <summary>Book notes: Solid State Design for the Radio Amateur, by Wes Hayward. First published June 1, 1994.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Solid State Design for the Radio Amateur, by Wes Hayward. First published June 1, 1994.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/solid-state-design-for-the-radio-amateur/assets/solid-state-design-for-the-radio-amateur_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-pic-programming-for-beginners/</id>
+    <link href="https://leap.tardate.com/books/arrl-pic-programming-for-beginners/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-pic-programming-for-beginners/assets/arrl-pic-programming-for-beginners_build.jpg</g:image_link>
+    <updated>2025-03-17T09:08:00Z</updated>
+    <title>#710 ARRL PIC Programming for Beginners</title>
+    <summary>Book notes: ARRL's PIC Programming for Beginners, by Mark Spencer. First published April 22, 2010.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's PIC Programming for Beginners, by Mark Spencer. First published April 22, 2010.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-pic-programming-for-beginners/assets/arrl-pic-programming-for-beginners_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/easy-pic-n/</id>
+    <link href="https://leap.tardate.com/books/easy-pic-n/"/>
+    <g:image_link>https://leap.tardate.com/books/easy-pic-n/assets/easy-pic-n_build.jpg</g:image_link>
+    <updated>2025-03-17T09:04:00Z</updated>
+    <title>#709 Easy Pic'N</title>
+    <summary>Book notes: Easy Pic'N: A Beginners Guide to Using Pic16/17 Microcontrollers from Square 1, by David Benson. First published December 31, 1996.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Easy Pic'N: A Beginners Guide to Using Pic16/17 Microcontrollers from Square 1, by David Benson. First published December 31, 1996.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/easy-pic-n/assets/easy-pic-n_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-vhf-digital-handbook/</id>
+    <link href="https://leap.tardate.com/books/arrl-vhf-digital-handbook/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-vhf-digital-handbook/assets/arrl-vhf-digital-handbook_build.jpg</g:image_link>
+    <updated>2025-03-17T08:49:00Z</updated>
+    <title>#708 ARRL VHF Digital Handbook</title>
+    <summary>Book notes: ARRL's VHF Digital Handbook, by Steven R. Ford. First published March 1, 2008.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's VHF Digital Handbook, by Steven R. Ford. First published March 1, 2008.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-vhf-digital-handbook/assets/arrl-vhf-digital-handbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-basic-antennas/</id>
+    <link href="https://leap.tardate.com/books/arrl-basic-antennas/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-basic-antennas/assets/arrl-basic-antennas_build.jpg</g:image_link>
+    <updated>2025-03-17T08:45:00Z</updated>
+    <title>#707 ARRL Basic Antennas</title>
+    <summary>Book notes: Basic Antennas – Understanding Practical Antennas and Designs, by ARRL Inc. First published November 28, 2008.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Basic Antennas – Understanding Practical Antennas and Designs, by ARRL Inc. First published November 28, 2008.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-basic-antennas/assets/arrl-basic-antennas_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-extra-class-license-manual/</id>
+    <link href="https://leap.tardate.com/books/arrl-extra-class-license-manual/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-extra-class-license-manual/assets/arrl-extra-class-license-manual_build.jpg</g:image_link>
+    <updated>2025-03-17T08:37:00Z</updated>
+    <title>#706 ARRL Extra Class License Manual</title>
+    <summary>Book notes: The ARRL Extra Class License Manual, by American Radio Relay League. First published March 1, 2011.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The ARRL Extra Class License Manual, by American Radio Relay League. First published March 1, 2011.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-extra-class-license-manual/assets/arrl-extra-class-license-manual_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-general-class-license-manual/</id>
+    <link href="https://leap.tardate.com/books/arrl-general-class-license-manual/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-general-class-license-manual/assets/arrl-general-class-license-manual_build.jpg</g:image_link>
+    <updated>2025-03-17T08:29:00Z</updated>
+    <title>#705 ARRL General Class License Manual</title>
+    <summary>Book notes: The ARRL General Class License Manual, by American Radio Relay League. First published December 20, 2010.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The ARRL General Class License Manual, by American Radio Relay League. First published December 20, 2010.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-general-class-license-manual/assets/arrl-general-class-license-manual_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-ham-radio-license-manual/</id>
+    <link href="https://leap.tardate.com/books/arrl-ham-radio-license-manual/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-ham-radio-license-manual/assets/arrl-ham-radio-license-manual_build.jpg</g:image_link>
+    <updated>2025-03-17T08:14:00Z</updated>
+    <title>#704 ARRL Ham Radio License Manual</title>
+    <summary>Book notes: The ARRL Ham Radio License Manual, by American Radio Relay League, Third Edition. First published January 1, 1988.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The ARRL Ham Radio License Manual, by American Radio Relay League, Third Edition. First published January 1, 1988.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-ham-radio-license-manual/assets/arrl-ham-radio-license-manual_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/</id>
+    <link href="https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/assets/microcontroller-based-radio-telemetry-projects_build.jpg</g:image_link>
+    <updated>2025-03-17T07:54:00Z</updated>
+    <title>#703 Microcontroller Based Radio Telemetry Projects</title>
+    <summary>Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Microcontroller Based Radio Telemetry Projects, by Dogan Ibrahim. Published January 1, 2015.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/microcontroller-based-radio-telemetry-projects/assets/microcontroller-based-radio-telemetry-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arm-microcontroller-projects/</id>
+    <link href="https://leap.tardate.com/books/arm-microcontroller-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/arm-microcontroller-projects/assets/arm-microcontroller-projects_build.jpg</g:image_link>
+    <updated>2025-03-17T07:45:00Z</updated>
+    <title>#702 ARM Microcontroller Projects</title>
+    <summary>Book notes: ARM Microcontroller Projects, by Dogan Ibrahim. Published May 5, 2016.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARM Microcontroller Projects, by Dogan Ibrahim. Published May 5, 2016.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arm-microcontroller-projects/assets/arm-microcontroller-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-low-power-communications/</id>
+    <link href="https://leap.tardate.com/books/arrl-low-power-communications/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-low-power-communications/assets/arrl-low-power-communications_build.jpg</g:image_link>
+    <updated>2025-03-17T07:36:00Z</updated>
+    <title>#701 ARRL Low Power Communications</title>
+    <summary>Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-low-power-communications/assets/arrl-low-power-communications_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/laserharpkit/</id>
