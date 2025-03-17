@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/books/arrl-vhf-digital-handbook/": {
+        "id": 708,
+        "title": "ARRL VHF Digital Handbook",
+        "summary": "Book notes: ARRL's VHF Digital Handbook, by Steven R. Ford. First published March 1, 2008.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/arrl-basic-antennas/": {
         "id": 707,
         "title": "ARRL Basic Antennas",
