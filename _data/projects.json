@@ -181,6 +181,14 @@
             "Oscillators"
         ]
     },
+    "/books/arrl-pic-programming-for-beginners/": {
+        "id": 710,
+        "title": "ARRL PIC Programming for Beginners",
+        "summary": "Book notes: ARRL's PIC Programming for Beginners, by Mark Spencer. First published April 22, 2010.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/easy-pic-n/": {
         "id": 709,
         "title": "Easy Pic'N",

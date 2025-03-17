@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#710",
+        "name": "ARRL PIC Programming for Beginners",
+        "description": "Book notes: ARRL's PIC Programming for Beginners, by Mark Spencer. First published April 22, 2010.",
+        "categories": "Books",
+        "relative_path": "books/arrl-pic-programming-for-beginners",
+        "updated_at": "2025-03-17T09:08:00Z",
+        "created_at": "2025-03-17T09:08:00Z",
+        "original_relative_path": "books/arrl-pic-programming-for-beginners"
+    },
+    {
         "id": "#709",
         "name": "Easy Pic'N",
         "description": "Book notes: Easy Pic'N: A Beginners Guide to Using Pic16/17 Microcontrollers from Square 1, by David Benson. First published December 31, 1996.",
