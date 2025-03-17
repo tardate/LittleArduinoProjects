@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-14T08:26:00Z</updated>
+  <updated>2025-03-17T07:36:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -234,6 +234,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/arrl-low-power-communications/</id>
+    <link href="https://leap.tardate.com/books/arrl-low-power-communications/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-low-power-communications/assets/arrl-low-power-communications_build.jpg</g:image_link>
+    <updated>2025-03-17T07:36:00Z</updated>
+    <title>#701 ARRL Low Power Communications</title>
+    <summary>Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-low-power-communications/assets/arrl-low-power-communications_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/laserharpkit/</id>

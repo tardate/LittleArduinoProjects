@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/books/arrl-low-power-communications/": {
+        "id": 701,
+        "title": "ARRL Low Power Communications",
+        "summary": "Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/audio/laserharpkit/": {
         "id": 700,
         "title": "Laser Harp Kit",

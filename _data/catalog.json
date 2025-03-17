@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#701",
+        "name": "ARRL Low Power Communications",
+        "description": "Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-low-power-communications",
+        "updated_at": "2025-03-17T07:36:00Z",
+        "created_at": "2025-03-17T07:36:00Z",
+        "original_relative_path": "books/arrl-low-power-communications"
+    },
+    {
         "id": "#700",
         "name": "Laser Harp Kit",
         "description": "Build and test an 8051-based laser harp kit",
