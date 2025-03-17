@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#707",
+        "name": "ARRL Basic Antennas",
+        "description": "Book notes: Basic Antennas \u2013 Understanding Practical Antennas and Designs, by ARRL Inc. First published November 28, 2008.",
+        "categories": "Books, Radio",
+        "relative_path": "books/arrl-basic-antennas",
+        "updated_at": "2025-03-17T08:45:00Z",
+        "created_at": "2025-03-17T08:45:00Z",
+        "original_relative_path": "books/arrl-basic-antennas"
+    },
+    {
         "id": "#706",
         "name": "ARRL Extra Class License Manual",
         "description": "Book notes: The ARRL Extra Class License Manual, by American Radio Relay League. First published March 1, 2011.",

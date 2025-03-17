@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/books/arrl-basic-antennas/": {
+        "id": 707,
+        "title": "ARRL Basic Antennas",
+        "summary": "Book notes: Basic Antennas \u2013 Understanding Practical Antennas and Designs, by ARRL Inc. First published November 28, 2008.",
+        "tags": [
+            "Books",
+            "Radio"
+        ]
+    },
     "/books/arrl-extra-class-license-manual/": {
         "id": 706,
         "title": "ARRL Extra Class License Manual",
