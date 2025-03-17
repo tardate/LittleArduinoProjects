@@ -200,6 +200,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#702",
+        "name": "ARM Microcontroller Projects",
+        "description": "Book notes: ARM Microcontroller Projects, by Dogan Ibrahim. Published May 5, 2016.",
+        "categories": "Books",
+        "relative_path": "books/arm-microcontroller-projects",
+        "updated_at": "2025-03-17T07:45:00Z",
+        "created_at": "2025-03-17T07:45:00Z",
+        "original_relative_path": "books/arm-microcontroller-projects"
+    },
+    {
         "id": "#701",
         "name": "ARRL Low Power Communications",
         "description": "Book notes: ARRL's Low Power Communications: The Art and Science of QRP, by Richard H Arland. First published January 1, 2012.",

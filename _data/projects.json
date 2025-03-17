@@ -181,6 +181,14 @@
             "Oscillators"
         ]
     },
+    "/books/arm-microcontroller-projects/": {
+        "id": 702,
+        "title": "ARM Microcontroller Projects",
+        "summary": "Book notes: ARM Microcontroller Projects, by Dogan Ibrahim. Published May 5, 2016.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/arrl-low-power-communications/": {
         "id": 701,
         "title": "ARRL Low Power Communications",
