@@ -1,4 +1,4 @@
-# 725 Little Electronic Art Projects
+# 726 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Raspberry Pi B+ Case](./RaspberryPi/BPlusCase) - Finally, 3D PLA printing a case for the Raspberry Pi Model B+ ... at the library.
 
