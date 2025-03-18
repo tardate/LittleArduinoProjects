@@ -8,6 +8,9 @@ A demo of the HT12D decoder and HT12E encoder ICs used with an LPD433 module to 
 
 The Holtek Semiconductor HT12D is a decoder IC that is typically paired with the HT12E encoder IC for use in remote control systems and wireless communication applications. The HT12D decodes the received data and extracts the original address code and data code information.
 
+These chips appear to be particularly useful for simple remote automation projects,
+providing for up to 4-bits of data without the need to introduce a microcontroller.
+
 The HT12E and HT12D chips in DIP18 form factor:
 
 ![ht12e-ht12d](./assets/ht12d-ht12e.jpg)
