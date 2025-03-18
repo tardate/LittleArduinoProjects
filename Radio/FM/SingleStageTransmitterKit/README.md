@@ -9,8 +9,8 @@ Build a simple single-stage FK702 FM Transmitter Kit by Future Kit.
 I've been experimenting with FM, and the hardest thing to get right tends to be the hand-wound coils.
 So to get a baseline, I picked up a 1-transistor kit during a recent visit to Sim Lim Tower.
 
-The kit is the FK702 by [Future Kit](http://futurekit.com/). It takes the hastle out of getting the LC circuit
-right by printing the inductor coil on the PCB (used in conjuction with a trimmer capacitor).
+The kit is the FK702 by [Future Kit](http://futurekit.com/). It takes the hassle out of getting the LC circuit
+right by printing the inductor coil on the PCB (used in conjunction with a trimmer capacitor).
 
 ### Power Connections
 

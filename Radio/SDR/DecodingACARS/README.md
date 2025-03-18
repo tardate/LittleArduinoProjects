@@ -1,6 +1,6 @@
 # #352 Decoding ACARS
 
-Decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX.
+Decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on macOS.
 
 ![Build](./assets/DecodingACARS_build.jpg?raw=true)
 
@@ -15,12 +15,11 @@ ACARS is a short message digital datalink protocol, and thus needs decoding.
 
 I quickly found a promising open-source package to try: [rtl_acars_ng](https://github.com/gat3way/rtl_acars_ng)
 
-
 ## Compiling `rtl_acars_ng`
 
-I'm running on MacOSX and use brew for package management. So it was this easy...
+I'm running on macOS and use brew for package management. So it was this easy...
 
-```
+```sh
 $ brew install rtl-sdr
 $ git clone git@github.com:gat3way/rtl_acars_ng.git
 $ cd rtl_acars_ng
@@ -31,7 +30,7 @@ gcc -o rtl_acars_ng rtl_acars_ng.c `pkg-config --cflags --libs librtlsdr libusb-
 
 ## Command-line Options
 
-```
+```sh
 $ ./rtl_acars_ng -h
 rtl_acars_ng - decoding ACARS transmissions with RTL2832 based DVB-T receivers
 
@@ -61,12 +60,11 @@ With [CubicSDR](http://cubicsdr.com/) I found ACARS broadcasts centered around 1
 
 ![acars](./assets/acars.png?raw=true)
 
-
 ## Trial Run
 
 So firing up rtl_acars_ng instead .. success!!
 
-```
+```sh
 $ ./rtl_acars_ng -f 131546000
 Found 1 device(s):
   0:  Realtek, RTL2838UHIDIR, SN: 00000001
@@ -109,7 +107,6 @@ Message content:-
 ```
 
 ![DecodingACARS_build](./assets/DecodingACARS_build.jpg?raw=true)
-
 
 ## Credits and References
 

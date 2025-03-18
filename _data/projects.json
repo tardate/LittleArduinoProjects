@@ -181,6 +181,15 @@
             "Oscillators"
         ]
     },
+    "/radio/lpd433/modules/": {
+        "id": 712,
+        "title": "LPD433 Modules",
+        "summary": "A roundup of readily available LPD433 modules, low power devices operating on the 433 MHz UHF/70-centimeter band.",
+        "tags": [
+            "Radio",
+            "LPD433"
+        ]
+    },
     "/books/solid-state-design-for-the-radio-amateur/": {
         "id": 711,
         "title": "Solid State Design for the Radio Amateur",
@@ -2849,7 +2858,7 @@
     "/radio/sdr/limesdr/firstlook/": {
         "id": 421,
         "title": "LimeSDR First Look",
-        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host",
+        "summary": "unboxing and first test of the LimeSDR-USB software-defined radio with macOS host",
         "tags": [
             "SDR"
         ]
@@ -3496,7 +3505,7 @@
     "/radio/sdr/decodingacars/": {
         "id": 352,
         "title": "Decoding ACARS",
-        "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX",
+        "summary": "decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on macOS",
         "tags": [
             "SDR",
             "Radio"
@@ -3505,7 +3514,7 @@
     "/radio/sdr/rtlsdrdongle/": {
         "id": 351,
         "title": "RTL-SDR Dongle",
-        "summary": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)",
+        "summary": "getting started with an R820T2+RTL2832U dongle and open-source SDR software on macOS (Gqrx, CubicSDR)",
         "tags": [
             "SDR",
             "Radio"
@@ -6189,7 +6198,7 @@
     },
     "/radio/lpd433/rfswitch/": {
         "id": 63,
-        "title": "RFSwitch",
+        "title": "RF Switch",
         "summary": "simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing",
         "tags": [
             "Radio",

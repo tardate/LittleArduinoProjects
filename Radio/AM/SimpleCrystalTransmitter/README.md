@@ -14,13 +14,12 @@ This is perhaps **the** classic AM transmitter - a self-oscillating crystal with
 amplitude modulated by transformer coupling between signal (audio) source and voltage driving the oscillator.
 
 Since it is "rock-locked", this transmitter has no frequency agility!
-It only operates on the frequency of the crsytal (1MHz in this case).
+It only operates on the frequency of the crystal (1MHz in this case).
 
 One of the best demonstrations is covered in
 "How to Make AM Radio Transmitter" by RimstarOrg:
 
 [![clip](https://img.youtube.com/vi/_4-Sx-T6VBc/0.jpg)](https://www.youtube.com/watch?v=_4-Sx-T6VBc)
-
 
 ## Circuit Design
 
@@ -33,7 +32,6 @@ but in the final build I used a 600Ω:600Ω audio transformer without problem.
 ![Breadboard](./assets/SimpleCrystalTransmitter_bb.jpg?raw=true)
 
 ![Schematic](./assets/SimpleCrystalTransmitter_schematic.jpg?raw=true)
-
 
 ## Initial Breadboard Build
 
@@ -52,7 +50,6 @@ While it is easy to pickup with an AM receiver, the sound quality is understanda
 
 ![scope_unfiltered_modulated_audio](./assets/scope_unfiltered_modulated_audio.gif?raw=true)
 
-
 ## Adding Output Filtering
 
 After AC coupling the output with C1, I added a T-filter comprising C2, L1 and C3.
@@ -68,7 +65,6 @@ the modulation can be seen quite clearly in this peak trace:
 ![scope_1khz_am](./assets/scope_1khz_am.gif?raw=true)
 
 ![SimpleCrystalTransmitter_bb_build2](./assets/SimpleCrystalTransmitter_bb_build2.jpg?raw=true)
-
 
 ## Putting it on Protoboard
 

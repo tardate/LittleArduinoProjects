@@ -19,7 +19,7 @@ The first transistor Q1 is an audio amplifier for the electret microphone.
 
 The LC tank circuit (C4, L1) provides the base carrier oscillator.
 C5 modulates the carrier frequency, but it is subject to bypass by the second transistor Q2.
-The degree of bypsass will depend on the voltage current applied to the base of Q2.
+The degree of bypass will depend on the voltage current applied to the base of Q2.
 Thus audio voltage controls the frequency of the oscillator i.e. we have FM!
 
 ### Component Selection and Results

@@ -31,7 +31,7 @@ The most basic version of a simple direct conversion FM radio is covered in
 [3.15.1](https://www.mikroe.com/ebooks/radio-receivers-from-crystal-set-to-stereo/the-simplest-fm-receiver)
 of Mikroelektronika's excellent online book "Radio Receivers, from crystal set to stereo".
 
-Many variations of this ciruit are available around the web, often with the addition of an LM386 amplifier stage,
+Many variations of this circuit are available around the web, often with the addition of an LM386 amplifier stage,
 such as [this design](https://electronicsforu.com/electronics-projects/simple-fm-receiver)
 on electronicsforu.
 
@@ -83,7 +83,7 @@ that theoretically gives me a tuning range of
 [45.8 MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(0.55%C2%B5H*22pF)))
 to
 [96.0 MHz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80*sqrt(0.55%C2%B5H*5pF)))
-(that's a bit on the low side for the braodcast FM range, but I'll have a shot at shifting the range
+(that's a bit on the low side for the broadcast FM range, but I'll have a shot at shifting the range
 later).
 
 That corresponds to the performance I'm seeing - able to pick up all stations up to around 97.4 MHz very clearly.
@@ -94,8 +94,7 @@ One difference between various designs is the positioning of the variable capaci
 some have it in parallel going to the positive rail.
 I tried both combinations, with the final "good" circuit using the parallel arrangement (maybe it would work just as well going to ground, but I haven't testing it).
 
-
-Even though I have relatively strong FM broadcast signals in my area, I found an antenna indispensible.
+Even though I have relatively strong FM broadcast signals in my area, I found an antenna indispensable.
 I added 60cm of random wire, with a 10pF coupling capacitor.
 
 One other variation in my circuit was the choice of transistor.
@@ -105,7 +104,7 @@ A good substitution is perhaps 2N5109 with a 1200MHz gain bandwidth product.
 I don't have any 2N5109's, so I've simply used S9014 with only a 270MHz  gain bandwidth product,
 although of the stock I have on hand, an S9018 (800 MHz) might have been a better choice.
 
-## Construction
+## Final Construction
 
 The final circuit I used is as follows:
 

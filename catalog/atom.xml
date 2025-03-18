@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-17T09:13:00Z</updated>
+  <updated>2025-03-18T05:12:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -234,6 +234,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/radio/lpd433/modules/</id>
+    <link href="https://leap.tardate.com/radio/lpd433/modules/"/>
+    <g:image_link>https://leap.tardate.com/radio/lpd433/modules/assets/modules_build.jpg</g:image_link>
+    <updated>2025-03-18T05:12:00Z</updated>
+    <title>#712 LPD433 Modules</title>
+    <summary>A roundup of readily available LPD433 modules, low power devices operating on the 433 MHz UHF/70-centimeter band.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A roundup of readily available LPD433 modules, low power devices operating on the 433 MHz UHF/70-centimeter band.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/lpd433/modules/assets/modules_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
+    <category term="LPD433"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/solid-state-design-for-the-radio-amateur/</id>
@@ -3484,8 +3495,8 @@
     <g:image_link>https://leap.tardate.com/radio/sdr/limesdr/firstlook/assets/firstlook_build.jpg</g:image_link>
     <updated>2019-09-22T13:44:42Z</updated>
     <title>#421 LimeSDR First Look</title>
-    <summary>unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;unboxing and first test of the LimeSDR-USB software-defined radio with MacOSX host&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/sdr/limesdr/firstlook/assets/firstlook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>unboxing and first test of the LimeSDR-USB software-defined radio with macOS host</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;unboxing and first test of the LimeSDR-USB software-defined radio with macOS host&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/sdr/limesdr/firstlook/assets/firstlook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="SDR"/>
   </entry>
   <entry>
@@ -4269,8 +4280,8 @@
     <g:image_link>https://leap.tardate.com/radio/sdr/decodingacars/assets/decodingacars_build.jpg</g:image_link>
     <updated>2019-09-22T13:44:42Z</updated>
     <title>#352 Decoding ACARS</title>
-    <summary>decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on MacOSX&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/sdr/decodingacars/assets/decodingacars_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;decoding ACARS with rtl_acars_ng and a R820T2+RTL2832U dongle on macOS&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/sdr/decodingacars/assets/decodingacars_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="SDR"/>
     <category term="Radio"/>
   </entry>
@@ -4280,8 +4291,8 @@
     <g:image_link>https://leap.tardate.com/radio/sdr/rtlsdrdongle/assets/rtlsdrdongle_build.jpg</g:image_link>
     <updated>2019-09-22T13:44:42Z</updated>
     <title>#351 RTL-SDR Dongle</title>
-    <summary>getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/sdr/rtlsdrdongle/assets/rtlsdrdongle_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>getting started with an R820T2+RTL2832U dongle and open-source SDR software on macOS (Gqrx, CubicSDR)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;getting started with an R820T2+RTL2832U dongle and open-source SDR software on macOS (Gqrx, CubicSDR)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/sdr/rtlsdrdongle/assets/rtlsdrdongle_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="SDR"/>
     <category term="Radio"/>
   </entry>
@@ -7540,7 +7551,7 @@
     <link href="https://leap.tardate.com/radio/lpd433/rfswitch/"/>
     <g:image_link>https://leap.tardate.com/radio/lpd433/rfswitch/assets/rfswitch_build.jpg</g:image_link>
     <updated>2019-09-22T13:54:58Z</updated>
-    <title>#063 RFSwitch</title>
+    <title>#063 RF Switch</title>
     <summary>simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;simple remote control switch with 433Mhz transmitter/receiver and some analog signal processing&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/lpd433/rfswitch/assets/rfswitch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>

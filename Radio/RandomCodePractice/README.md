@@ -47,10 +47,9 @@ First testing the circuit on a breadboard:
 * [Arduino Wire library](https://www.arduino.cc/en/reference/wire)
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C
 * Morse - Morse encoding by Erik Linder SM0RVV and Mark VandeWettering K6HX.
-  - I cannot find a link to the original source (Version 0.2), so it is included in the project folder.
-  - Includes Glen Popiel KW5GP's fixes for Morse encoding
-  - extended by me to allow dynamic speed adjustment
-
+    * I cannot find a link to the original source (Version 0.2), so it is included in the project folder.
+    * Includes Glen Popiel KW5GP's fixes for Morse encoding
+    * extended by me to allow dynamic speed adjustment
 
 ## Putting it in a Box
 
