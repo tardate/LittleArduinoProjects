@@ -18,7 +18,6 @@ Building and Aligning HX 6B AM Kit Radio by shango066
 
 [![clip](https://img.youtube.com/vi/6rNbZj3tpOs/0.jpg)](https://www.youtube.com/watch?v=6rNbZj3tpOs)
 
-
 ## Parts
 
 | Ref     | Part                        | Notes           |
@@ -66,7 +65,6 @@ The HX6B is a superheterodyne design with a single IF stage. The design basicall
 * Audio amp: T5, V5, V6 push-pull class B
 
 ![The Schematic](./assets/HX6B_schematic.jpg?raw=true)
-
 
 ## Credits and References
 

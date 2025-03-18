@@ -19,7 +19,7 @@ The kit is designed around 3 core integrated circuits:
 
 ## Construction
 
-Some clarifications/intepretations of the instructions. Yes, its's all in simplified Chinese;-)
+Some clarifications/interpretations of the instructions. Yes, its's all in simplified Chinese;-)
 
 * battery leads are connected to pads marked GB+/GB-
 * the inductor with ferrite core fits in a plastic mount that slides/clips to the PCB. The leads are soldered to the two pads marked AM. This is the medium wave/AM antenna

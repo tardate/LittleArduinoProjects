@@ -192,8 +192,8 @@ The circuit basically maps to the following stages:
 * Second IF Filter and Amp: B4, V3
 * Demodulator: B5, V4
 * Audio amp:
-  * V5 audio driver/preamplifier
-  * B6, B7, V6, V7 push-pull class B power amplifier
+    * V5 audio driver/preamplifier
+    * B6, B7, V6, V7 push-pull class B power amplifier
 
 A quick sketch from my notes on the functional design:
 
