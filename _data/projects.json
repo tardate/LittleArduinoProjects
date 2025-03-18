@@ -1,4 +1,14 @@
 {
+    "/radio/lpd433/ht12/simpledemo/": {
+        "id": 765,
+        "title": "HT12 Simple Demo",
+        "summary": "A demo of the HT12D decoder and HT12E encoder ICs used with an LPD433 module to broadcast 4 bits of data to an 8-bit address on the 433 MHz UHF/70-centimeter band.",
+        "tags": [
+            "Radio",
+            "LPD433",
+            "HT12"
+        ]
+    },
     "/raspberrypi/bpluscase/": {
         "id": 764,
         "title": "Raspberry Pi B+ Case",

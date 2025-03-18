@@ -1,6 +1,6 @@
-# 732 Little Electronic Art Projects
+# 733 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Raspberry Pi B+ Case](./RaspberryPi/BPlusCase) - Finally, 3D PLA printing a case for the Raspberry Pi Model B+ ... at the library.
+> Latest addition:sparkles: [HT12 Simple Demo](./Radio/LPD433/HT12/SimpleDemo) - A demo of the HT12D decoder and HT12E encoder ICs used with an LPD433 module to broadcast 4 bits of data to an 8-bit address on the 433 MHz UHF/70-centimeter band.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
