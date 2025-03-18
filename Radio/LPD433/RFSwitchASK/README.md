@@ -13,7 +13,7 @@ Here's a quick video of the circuit in action:
 This is a continuation of the [LEAP#063 RFSwitch](../RFSwitch) project which demonstrated simple
 RF analog communication with a pair of inexpensive 433 MHz modules.
 
-This project adds microcontrollers at both ends and runs a digital transission over the RF link using an
+This project adds microcontrollers at both ends and runs a digital transmission over the RF link using an
 [Amplitude Shift Keying (ASK)](http://en.wikipedia.org/wiki/Amplitude-shift_keying) protocol.
 
 Here I'm using the ASK implementation provided by the [RadioHead](http://www.airspayce.com/mikem/arduino/RadioHead/) library.

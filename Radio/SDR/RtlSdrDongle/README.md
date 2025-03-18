@@ -1,6 +1,6 @@
 # #351 RTL-SDR Dongle
 
-Getting started with an R820T2+RTL2832U dongle and open-source SDR software on MacOSX (gprx, CubicSDR).
+Getting started with an R820T2+RTL2832U dongle and open-source SDR software on macOS (Gqrx, CubicSDR).
 
 ![Build](./assets/RtlSdrDongle_build.jpg?raw=true)
 
@@ -13,15 +13,14 @@ I picked a random RTL2832U+R820T2 USB2.0 device [from a seller on aliexpress](ht
 Like most, it is marketed primarily as a DAB/HDTV receiver, but first thing I did was "throw away" the software provided (windows-only anyway),
 as I was more interested in the device as a broad-spectrum SDR receiver.
 
-I'm testing this with my favourite MacOSX machine.
-
+I'm testing this with my favourite macOS machine.
 
 ## What is this R820T2+RTL2832U magic?
 
 Cheap SDR dongles?
 Apparently it all started when a bunch of folks (Antti Palosaari, Eric Fry and Osmocom)
 found that the signal I/Q data could be accessed directly from the Realtek RTL2832U digital TV tuner chip,
-allowing it to be turned into a wideband software defined radio receiver with just a little extra hardware and softare.
+allowing it to be turned into a wideband software defined radio receiver with just a little extra hardware and software.
 
 Combined with a tuner front-end (commonly the Rafael Micro R820T2) in a USB dongle package with dinky antenna,
 these now show up in droves online for under $20.
@@ -50,7 +49,6 @@ It is produced by Realtek of Taiwan.
 I found this RTLSDR design posted by hap4ev. I imagine these dongles do something similar..
 
 [![block-diagram-hap4ev](https://i.imgur.com/Fpgu3bO.jpg)](https://imgur.com/gallery/la4YH)
-
 
 ## Unboxing and Specifications
 
@@ -87,12 +85,11 @@ Features:
 
 ![unboxing](./assets/unboxing.jpg?raw=true)
 
-
 ## Plugging in: USB Connection
 
 No issues with the device being recognised under MacOSX. Here's how it appears:
 
-```
+```sh
 RTL2838UHIDIR:
 
   Product ID: 0x2838
@@ -107,7 +104,6 @@ RTL2838UHIDIR:
 ```
 
 ![usb_connection](./assets/usb_connection.png?raw=true)
-
 
 ### Software
 
@@ -124,7 +120,6 @@ Here's a shot of gqrz locked in on a [local FM station](https://ufm1003.sg/):
 
 ![gqrx_fm](./assets/gqrx_fm.png?raw=true)
 
-
 #### CubicSDR
 
 [CubicSDR](http://cubicsdr.com/) is an
@@ -135,7 +130,6 @@ It uses liquid-dsp and SoapySDR libraries.
 Here's a shot of CubicSDR locked in on a [local FM station](https://ufm1003.sg/):
 
 ![CubicSDR_fm](./assets/CubicSDR_fm.png?raw=true)
-
 
 ## Finding Interesting Signals in Singapore
 
@@ -160,7 +154,6 @@ is on the one hand surprisingly capable, while also having very little chance of
 
 The dongle appears to process signals from 24MHz to 1766Mhz.
 
-
 The [Signal Identification Guide](https://www.sigidwiki.com/wiki/Signal_Identification_Guide) is a great resource
 for trying to ident especially non-voice transmissions.
 
@@ -173,8 +166,6 @@ Aircraft Communications Addressing and Reporting System (ACARS)..
 Air traffic control (AM voice)..
 
 ![CubicSDR_atc](./assets/CubicSDR_atc.png?raw=true)
-
-
 
 ## Credits and References
 

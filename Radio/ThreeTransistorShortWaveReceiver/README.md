@@ -138,8 +138,8 @@ However I can't seem to tame the regen: I can get a very faint signal on 9740 kH
 ## Credits and References
 
 * [3 Transistor Short Wave Radio](https://web.archive.org/web/20180114085548/http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) article by netZener on the web archive
-  * [original article](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) is no longer online
-  * related [Instructables post](https://www.instructables.com/id/Three-Transistor-Short-Wave-Radio/) by netZener is no longer online
+    * [original article](http://www.netzener.net/index.php/8-project-articles/5-3-transistor-short-wave-radio) is no longer online
+    * related [Instructables post](https://www.instructables.com/id/Three-Transistor-Short-Wave-Radio/) by netZener is no longer online
 * [Regenerative circuit](https://en.wikipedia.org/wiki/Regenerative_circuit) - wikipedia
 * [Regenerative Receiver](https://www.electronics-notes.com/articles/radio/radio-receivers/regenerative-receiver.php) - electronics-notes
 * [Air Core Inductor Inductance Calculator](http://www.daycounter.com/Calculators/Air-Core-Inductor-Calculator.phtml)

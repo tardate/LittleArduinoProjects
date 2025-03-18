@@ -19,14 +19,12 @@ This document is going to be a work-in-progress. It comprises my notes on:
 * personal observations i.e. signals I've actually been able to receive
 * mainly shortwave and amateur bands
 
-
 ### IMDA Spectrum Allocation
 
 The IMDA maintains allocations for amateur radio that are roughly in line with [ITU Region 3 guidelines](https://en.wikipedia.org/wiki/Amateur_radio_frequency_allocations#ITU_Region_3).
 Excluded are bands at the low and high end: 2200m, 630m, 23cm.
 
 [![imda_sg_spectrum](./assets/imda_sg_spectrum.png?raw=true)](https://www.imda.gov.sg/regulations-licensing-and-consultations/frameworks-and-policies/spectrum-management-and-coordination/frequency-allocation-and-assignment)
-
 
 ## Shortwave Broadcast Services
 
@@ -56,12 +54,10 @@ The following is a personal log of shortwave broadcast services I have been able
 | Radio Saudi               | 17895           | 16m        | Arabic   | Riyadh 500 kw            | 02:55 - 08:00                 | 2019-03-23 Wed 15:34 UTC+8 |
 |                           |                 |            |          |                          |                               |                            |
 
-
 ## 9V Amateur Radio Band Plans
 
 * NB: Narrow band modes including Digital modes not exceeding 2 kHz
 * WB: Wide band modes including FM
-
 
 | band                                                     | frequency   | range |
 |----------------------------------------------------------|-------------|-------|
@@ -82,7 +78,7 @@ The following is a personal log of shortwave broadcast services I have been able
 * nighttime only band; during daylight, signals absorbed by the D-layer and the band is dead
 * after local sunrise, propagation to 1000 to 2300 miles is possible
 * signals peak at about local midnight
-* during summartime, conditions are limited due to atmospheric noise and storms
+* during summertime, conditions are limited due to atmospheric noise and storms
 * efficient antennas are essential
 * can be challenging because of the large sizes required for efficient antennas
 
@@ -114,7 +110,7 @@ The following is a personal log of shortwave broadcast services I have been able
 
 * great for QRP
 * open day and night
-* summer noise levels lower than 40m but absorbtion greater than 20m
+* summer noise levels lower than 40m but absorption greater than 20m
 
 ![9v_30m](./assets/9v_30m.png?raw=true)
 
@@ -152,7 +148,6 @@ The following is a personal log of shortwave broadcast services I have been able
 
 ![9v_12m](./assets/9v_12m.png?raw=true)
 
-
 ### 10m, 28 MHz
 
 * portion of the shortwave radio spectrum, HF
@@ -184,7 +179,6 @@ The following is a personal log of shortwave broadcast services I have been able
 * overlaps with the LPD433 band used by short range devices/RC models
 
 ![9v_70cm](./assets/9v_70cm.png?raw=true)
-
 
 ## Credits and References
 

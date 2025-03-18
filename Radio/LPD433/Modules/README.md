@@ -1,6 +1,6 @@
 # #712 LPD433 Modules
 
-A roundup of readily available LPD433 modules
+A roundup of readily available LPD433 modules, low power devices operating on the 433 MHz UHF/70-centimeter band.
 
 ![Build](./assets/Modules_build.jpg?raw=true)
 
@@ -124,9 +124,11 @@ Typical receiver specifications
 * Product Model: MX-05V
 * Operating voltage: DC5V
 * Quiescent Current: 4MA
-* Receiving frequency: 433.92MHZ /315Mhz (optional)
+* Receiving frequency: 433.92MHZ/315Mhz (optional)
+    * receiver has 2.5 round inductor for 433MHz
+    * receiver has 3.5 round inductor for 315Mhz
 * Receiver sensitivity:-105DB
-* Size: 30 *14* 7mm
+* Size: 30x14x7mm
 * External antenna: 32CM single core wire, wound into a spiral
 
 ![module2_rx](./assets/module2/module2_rx.jpg)

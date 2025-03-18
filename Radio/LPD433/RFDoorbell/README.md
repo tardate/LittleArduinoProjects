@@ -18,7 +18,7 @@ This is a quick build of a wireless doorbell using:
 * and an [HS-088 ding-dong sound chip](https://www.aliexpress.com/item/32661936820.html)
 
 I decided not to use any encoding over the wireless link, so I'm using it more like a spark-gap transmitter.
-So far in my experiements, I'm not seeing enough interference to get false positives ringing the doorbell.
+So far in my experiments, I'm not seeing enough interference to get false positives ringing the doorbell.
 If that changes, I'd probably add an ATtiny and run a simple ASK signal over the connection. We'll see how this goes..
 
 ### RF Module Specs
@@ -73,7 +73,7 @@ For good reception over about 30m with a few blocking walls and doors, I found t
 
 ## Construction
 
-I put the receiver circuit on a small piece of protoboard and mounted in a probject box with a speaker
+I put the receiver circuit on a small piece of protoboard and mounted in a project box with a speaker
 and a micro-USB adapter (for power only)
 
 ![build_rx_1](./assets/build_rx_1.jpg?raw=true)
