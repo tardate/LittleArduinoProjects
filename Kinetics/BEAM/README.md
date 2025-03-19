@@ -7,7 +7,7 @@ A quick survey of the BEAM (Biology, Electronics, Aesthetics and Mechanics) fiel
 ## Notes
 
 [BEAM (Biology, Electronics, Aesthetics and Mechanics) Robotics](https://en.wikipedia.org/wiki/BEAM_robotics) primarily use simple analogue circuits in their design.
-The term dates back to the 1990's, and introduced an era of great creativity in adapting simple circuits to similate emergent behaviour.
+The term dates back to the 1990's, and introduced an era of great creativity in adapting simple circuits to simulate emergent behaviour.
 
 The fad for BEAM had largely come to pass by the time I discovered it in the past few years, overtaken by advances in low-power processing and machine learning that make
 BEAM-style mechanisms a little quaint. That's a bit sad, hence my ambition to re-create some BEAM classics here.
@@ -19,7 +19,6 @@ The key surviving resources appear to be:
 * [solarbotics.net](http://solarbotics.net/) - principal reference site for BEAM-related information
 * [solarbotics.com](https://solarbotics.com/) - online retailer for BEAM-related components and kits
 
-
 ### Types
 
 BEAM circuits may be classified by what they react to;
@@ -28,7 +27,6 @@ BEAM circuits may be classified by what they react to;
 * Phototropes ("light-seekers") - react to light sources.
 * Radiotropes - react to radio frequency sources.
 * Thermotropes - react to heat sources.
-
 
 ## Mechanisms
 
@@ -62,19 +60,18 @@ The taxonomy of BEAM circuits is generally organised as follows:
     * Motor Driven: Use motors to move their legs (typically 3 motors or less).
     * Muscle Wire Driven: use Nitinol (nickel - titanium alloy) wires for their leg actuators.
 * Swimmers: Robots that move on or below the surface of a liquid (typically water).
-  * Boatbots: Operate on the surface of a liquid.
-  * Subbots: Operate under the surface of a liquid.
+    * Boatbots: Operate on the surface of a liquid.
+    * Subbots: Operate under the surface of a liquid.
 * Fliers: Robots that move through the air for sustained periods.
-  * Helicopters: Use a powered rotor to provide both lift and propulsion.
-  * Planes: Use fixed or flapping wings to generate lift.
-  * Blimps: Use a neutrally-buoyant balloon for lift.
+    * Helicopters: Use a powered rotor to provide both lift and propulsion.
+    * Planes: Use fixed or flapping wings to generate lift.
+    * Blimps: Use a neutrally-buoyant balloon for lift.
 * Climbers: Robot that moves up or down a vertical surface, usually on a track such as a rope or wire.
 
 There are quite a few categories that perhaps should be added to this list, for example:
 
 * Squawkers: robots that respond audibly to a particular stimulus
-* Flashers: robots that respond visualy to a particular stimulus
-
+* Flashers: robots that respond visually to a particular stimulus
 
 ## Examples
 

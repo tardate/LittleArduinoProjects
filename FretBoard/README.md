@@ -70,7 +70,6 @@ enhanced version of the original library available from the [Arduino Playground]
 Other libraries that could be used are [amcewen/HttpClient](https://github.com/amcewen/HttpClient)
 and [interactive-matter/HTTPClient](https://github.com/interactive-matter/HTTPClient).
 
-
 ### Power
 
 The LED strip requires 5V and with all 24 LEDs on, current should max out at 1.44A (0.3W * 24 / 5V).
@@ -80,7 +79,8 @@ For testing, I'm powering the LED Array from a 5V 2A adapter and the Arduino fro
 For the final build, I'll be powering the Arduino from the same 5V adapter powering the LEDs (direct to the 5V pin on the Arduino).
 There is lots of advice on how to do this
 [e.g. here](http://www.reddit.com/r/arduino/comments/2fcr6c/powering_arduino_with_5v_supply/)
- - along with strong caveats since the 5V pin bypasses the onboard regulator, and it is essential to ensure no other power source is simulatneously provided to the Arduino.
+
+* along with strong caveats since the 5V pin bypasses the onboard regulator, and it is essential to ensure no other power source is simultaneously provided to the Arduino.
 However, the 5V adapter I am using is regulated, and under test it has worked fine to power the Arduino and LED array together.
 
 ## Construction

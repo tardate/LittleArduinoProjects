@@ -46,7 +46,7 @@ I have some interesting QX5252 "solar LED driver" ICs in a TO-94 package (YX805 
 These are designed to drive solar-powered lights:
 
 * incorporate a switching circuit for voltage boost from 0.9-1.5V to the 2-3V required to drive an LED (similar to a joule thief circuit)
-* accommodate a solor cell and rechargeable battery
+* accommodate a solar cell and rechargeable battery
 * have some over-discharge protection
 
 For the Vivian circuit, I'm using the chip in a slightly unorthodox way:
@@ -70,7 +70,6 @@ In this trace:
 
 ![scope_2200uH](./assets/scope_2200uH.gif?raw=true)
 
-
 ### Defeating the Over-discharge Protection
 
 I noticed a strange behaviour after a solar cell voltage drop-out (like when moving from heavy shade to the light):
@@ -85,7 +84,6 @@ What does work to restart the boost circuit:
 I have a small wire protruding from the side of Vivian - this is the "reset switch".
 It is connected to ground, and a light touch will short the solar cell causing the boost circuit to restart.
 
-
 ## Breadboard Construction
 
 First, figuring out how to combine the FELD and QX5252 boost circuits on a breadboard..
@@ -95,7 +93,6 @@ First, figuring out how to combine the FELD and QX5252 boost circuits on a bread
 ![Schematic](./assets/Vivian_schematic.jpg?raw=true)
 
 ![Vivian_bb_build](./assets/Vivian_bb_build.jpg?raw=true)
-
 
 ### Parts
 
@@ -112,7 +109,6 @@ First, figuring out how to combine the FELD and QX5252 boost circuits on a bread
 | Q2      | 2N3904 NPN transistor                                   | |
 | FLED1,2 | 5mm Red LED slow flash                                  | [aliexpress](https://www.aliexpress.com/item/100pcs-5mm-Red-Light-Emitting-Diode-Automatic-Flashing-LED-Flash-Control-Blinking-5-mm-Blink-LED/32751061551.html) |
 
-
 ## Real Dead Bug Construction
 
 Now for the fun part - some real "dead bug" construction. I started with only a general idea of the layout
@@ -121,7 +117,6 @@ and fine-tuned this while building the main circuit elements:
 * QX5252 and inductor power circuit mounted directly on the solar cell terminals
 * surrounded by a radial capacitor bank
 * linked to the head/brain - the FLED circuit and motor
-
 
 The main aspect not particularly obvious from the pictures is the arrangement of the FLED circuit - here's my working sketch for how that is all connected:
 
@@ -135,7 +130,6 @@ The main aspect not particularly obvious from the pictures is the arrangement of
 
 ![build_4](./assets/build_4.jpg?raw=true)
 
-
 ## Conclusion
 
 This worked out quite well. I was concerned that my super-cheap solar cell was not going to be up to the job
@@ -143,7 +137,6 @@ but with the QX5252 boost it performs quite well:
 
 * even quite low-light conditions (like an overcast day) are enough to get the "eyes" to flash
 * and a little indirect sunshine (such as indoors when the sun is out) will start to trigger the motor
-
 
 ## Credits and References
 

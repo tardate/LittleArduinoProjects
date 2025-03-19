@@ -13,7 +13,6 @@ Here I'm using a K Type thermocouple that's rated up to 700°C.
 Since thermocouples only measure a differential temperature, I'm using an LM35 to provide the cold-junction baseline.
 The temperature measurement is displayed on a 5110 LCD.
 
-
 ### High Temperature Thermocouple Type K Probe
 
 [The Type K probes I have are from an aliexpress seller](https://www.aliexpress.com/store/product/5PCS-2M-K-Type-Temperature-Thermocouple-Sensor-Probe-From-50C-to-700C/109396_32633620107.html) with the following specifications:
@@ -25,7 +24,6 @@ The temperature measurement is displayed on a 5110 LCD.
 * Cable Internal Insulation: Fiberglass
 * Connector: K Type Mini-Connector
 
-
 ### Thermocouples and the Seebeck Voltage
 
 A thermocouple loop is made from two dissimilar metals.
@@ -33,16 +31,15 @@ When subjected to a temperature differential, the metals have different affinity
 This develops an open-circuit voltage (Seebeck voltage) that is proportional to the difference in temperature.
 
 Various types of thermocouples are differentiated by their materials and their Seebeck voltages.
-Votlages vary as a function of temperature and are not linear. Three techniques are possible for converting the thermocouple
+Voltages vary as a function of temperature and are not linear. Three techniques are possible for converting the thermocouple
 voltage to a temperature differential:
 
 * use the standard tables available for each type of thermocouple
 * use the characteristic polynomial equation that may be available
-* use a linear approxmation. This is common when using Type K, since the Seebeck voltage is roughly linear above room temperature
+* use a linear approximation. This is common when using Type K, since the Seebeck voltage is roughly linear above room temperature
 
 Since thermocouples only measure the temperature differential, it is necessary to independently establish the baseline
 aka the "Cold Reference Junction".
-
 
 ### Measuring the Type K Thermocouple Temperature
 
@@ -50,7 +47,7 @@ The Thermocouple voltage difference is amplified with an LM358 in non-inverting 
 It is configured for significant gain in order to get the µV reading into the 0-5V scale readable with an Arduino analog input.
 
 The second op amp in the LM358 is used to buffer the reading - really unnecessary in this configuration as the
-Arduino analog input presents a fairly high impedence load.
+Arduino analog input presents a fairly high impedance load.
 
 A 100nF capacitor is used to filter high-frequency jitter from the signal.
 
@@ -84,7 +81,6 @@ Three basic techniques for measuring the temperature of the reference junction:
 2. Hold the reference junction at a fixed and known temperature e.g. ice bath
 3. Use a cold junction compensation IC such as the Analog Devices AD594 or Linear Technology LT1025
 
-
 ### Measuring the Cold Reference Junction Temperature
 
 This circuit uses an LM35 Precision Centigrade Temperature Sensor to measure the cold-junction reference temperature.
@@ -100,7 +96,6 @@ per step. The LM35 therefore only has a resolution of 0.5°C.
 That's OK here when compared to the resolution from the Type K reading.
 
 See [LedTemperatureDisplay](../LedTemperatureDisplay) for more on using the LM35.
-
 
 ### 5110 LCD SPI Configuration
 
@@ -120,7 +115,6 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 | BL     | Backlight on when GND |                 |
 | GND    | Ground                |                 |
 
-
 ### Next Steps/Improvements
 
 So far so good, but I'd like to take this further as a I have a high-temperature measurement application in mind.
@@ -136,7 +130,6 @@ Secondly, this needs mounting properly. In particular to provide a good isotherm
 for the type K probe so a good cold reference junction measurement is possible.
 
 Finally, it needs some calibration tests. It seems to be doing the right thing, but I haven't checked the accuracy of the readings I'm getting (how hot is a tea candle flame??)
-
 
 ## Construction
 

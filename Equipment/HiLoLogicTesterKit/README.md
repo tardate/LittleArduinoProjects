@@ -90,13 +90,12 @@ When input low:
 | f : 1       |   |   |   |   |   | 1 |   |
 | g : 1       |   |   |   |   | 1 |   |   |
 
-
 ### Original Schematic
 
 Here's the schematic for the board I received. Note however:
 
-* there are a few variations of the schematic floatinf around, perhaps even difference PCB designs from different vendors
-* the red LED1 is indended to be a power indicator, but it never turns on. There is a simple fix however - see the next section.
+* there are a few variations of the schematic floating around, perhaps even difference PCB designs from different vendors
+* the red LED1 is intended to be a power indicator, but it never turns on. There is a simple fix however - see the next section.
 
 ![original_schematic](./assets/original_schematic.jpg?raw=true)
 
@@ -110,14 +109,13 @@ Input "HIGH":
 
 ![test_high_v1](./assets/test_high_v1.jpg?raw=true)
 
-
 ### Modified Schematic
 
 Here's a redrawing and modification to circuit to allow the LED1 power indicator to work correctly. Essentially:
 
 * PCB LED1 footprint not populated (open circuit)
 * LED1 and R5 connected in series in the PCB footprint provided for R5
-* end result - LED is in the pull-up connection for VT2 base. So as long as there is anough power to enable the circuit, LED1 will light.
+* end result - LED is in the pull-up connection for VT2 base. So as long as there is enough power to enable the circuit, LED1 will light.
 
 ![bb](./assets/HiLoLogicTesterKit_bb.jpg?raw=true)
 
@@ -134,7 +132,6 @@ Input "LOW":
 Input "HIGH":
 
 ![test_high_v2](./assets/test_high_v2.jpg?raw=true)
-
 
 ## Credits and References
 

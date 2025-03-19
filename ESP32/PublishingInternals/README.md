@@ -20,9 +20,9 @@ The code is written to be built with the Arduino IDE + ESP32 board support.
 
 ### Reading the Chip Temperature
 
-The undocumented `uint8_t temprature_sens_read()` function is discplosed in
-[esp32-hal-misc.c#L40](https://github.com/espressif/arduino-esp32/blob/master/cores/esp32/esp32-hal-misc.c#L40)
-It returns the get chip temperature in Farenheit. The `float temperatureRead()` function returns celsius.
+The undocumented `uint8_t temprature_sens_read()` function is disclosed in
+[esp32-hal-misc.c#L40](https://github.com/espressif/arduino-esp32/blob/master/cores/esp32/esp32-hal-misc.c#L75)
+It returns the get chip temperature in Fahrenheit. The `float temperatureRead()` function returns celsius.
 
 ### Reading the Hall Effect Sensor
 

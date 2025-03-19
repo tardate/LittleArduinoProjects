@@ -18,7 +18,6 @@ Thoughts after some initial testing:
     * clunking it around every time to turn on the device is not very efficient, and I worry the switch selector will be the first thing to fail
     * I'd prefer a separate on/off switch, allowing the measurement selector to be left in the same position most of the time
 
-
 ## Specifications
 
 Features:
@@ -55,7 +54,6 @@ Features:
 | Resistance  | 0.1Ω to 60MΩ                | 600Ω(±0.5%+3),6K/60K/600K/6M(±0.5%+2),60MΩ(±1.5%+3)                 |
 | Duty cycle  | 1% to 99%                   | 1% to 99%(±1%)                                                      |
 | Frequency   | 1Hz to 20MHz                | 5/50/500/5k/50k/500k/5M/20M (±0.1+3)                                |
-
 
 ## Credits and References
 

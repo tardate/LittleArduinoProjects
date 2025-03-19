@@ -28,7 +28,7 @@ circuit. Note that some of the pull-up resistors are actually on the
 
 ## Protoboard Construction
 
-I used a piece of 5x7cm protoboard, with the circuit layed out as follows:
+I used a piece of 5x7cm protoboard, with the circuit laid out as follows:
 
 ![build_layout](./assets/build_layout.jpg?raw=true)
 

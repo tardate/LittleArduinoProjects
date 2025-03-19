@@ -1,6 +1,6 @@
 # #571 TraceTogether Token
 
-Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the adveritsements with a little bit of Swift code.
+Learning about the Singapore Government's latest BLE TraceTogether Token for pandemic contact tracing, and sniffing the advertisements with a little bit of Swift code.
 
 ![Build](./assets/TraceTogetherToken_build.jpg?raw=true)
 
@@ -11,7 +11,7 @@ and has made "doing the right thing for you, your family and community" an uncon
 
 The track and trace capability is backed by 3 convenient tools:
 
-* SafeEntry - QR code checkin/out
+* SafeEntry - QR code check-in/out
 * TraceTogether App - BLE contact recording for mobile phones
 * TraceTogether Token - stand-alone BLE contact recording token
 
@@ -28,7 +28,7 @@ It uses a hybrid centralised/distributed architecture to ensure privacy while ev
 to contact and request the upload of pseudonymised logs when needed for tracing. I believe in essence:
 
 * the application is registered centrally (so the health service has basic contact details when needed to chase down contacts)
-* the application gets anonymised and encrpyted "tempId" tokens from the central service.
+* the application gets anonymised and encrypted "tempId" tokens from the central service.
 * the app hands out these tokens when it encounters another device
 * the app stores tokens it receives from other devices for a period of time (21 days by default for OpenTrace).
 * if/when contact tracing required, the app user is asked to upload their contact logs (requires a key to be provided by the central service). The central service can decrypt the encounter tokens and perform their job of contact tracing
@@ -40,7 +40,7 @@ Key points to note with the TraceTogether app implementation:
 
 Encounter messages are a JSON format. Here's an example:
 
-```
+```sh
 ASCII:  {"id":"iGHGqN+EhRinvjYJxY8CZ2VUlNIjT1GW58MjC8iuzHxv2f3mx2Ai6hZgIQdZii90NRoUwmL1M9LAabu398QGMQ==","mp":"POCOPHONE F1","o":"SG_MOH","v":2}
 ```
 
@@ -70,7 +70,7 @@ When required for contact tracing, the current encounter log can apparently be r
 
 ![token_algo_summary](./assets/token_algo_summary.jpg?raw=true)
 
-Publically available [TraceTogether](https://www.developer.tech.gov.sg/technologies/digital-solutions-to-address-covid-19/tracetogether)
+Publicly available [TraceTogether](https://www.developer.tech.gov.sg/technologies/digital-solutions-to-address-covid-19/tracetogether)
 information appears to imply that the app and tokens are able to communicate with each other.
 I presume this means that the TraceTogether applications have had BlueTrace Lite compatibility added,
 though this is not included in the OpenTrace reference implementation.
@@ -89,10 +89,10 @@ It could probably be scaled down & slimmed down quite a bit, however absolute mi
 Basic observations:
 
 * main processor - [STM32WB55CGU6](https://www.st.com/en/microcontrollers-microprocessors/stm32wb55cg.html)
-  * Ultra-low-power dual core Arm Cortex-M4 MCU 64 MHz, Cortex-M0+ 32MHz with 1 Mbyte of Flash memory, Bluetooth LE 5.0, 802.15.4, Zigbee, Thread, USB, LCD, AES-256
+    * Ultra-low-power dual core Arm Cortex-M4 MCU 64 MHz, Cortex-M0+ 32MHz with 1 Mbyte of Flash memory, Bluetooth LE 5.0, 802.15.4, Zigbee, Thread, USB, LCD, AES-256
 * 64Mb flash storage - [MX25R6435F](https://www.macronix.com/en-us/products/NOR-Flash/Serial-NOR-Flash/Pages/spec.aspx?p=MX25R6435F&m=Serial%20NOR%20Flash&n=PM2138)
 * powered by a replaceable CR2477 lithium battery
-* a separate RTC and lithium battery backup. Not sure what it is - possibly something like a Maxim DS1390U-33 or Microchip MCP79510-I/MS. Prevents losing real time even during main battery replacement. Interesting that the design uses a seperate external RTC, even though the STM32WB55CGU6 has an integrated RTC.
+* a separate RTC and lithium battery backup. Not sure what it is - possibly something like a Maxim DS1390U-33 or Microchip MCP79510-I/MS. Prevents losing real time even during main battery replacement. Interesting that the design uses a separate external RTC, even though the STM32WB55CGU6 has an integrated RTC.
 
 A look inside the token:
 
@@ -115,8 +115,7 @@ I can't vouch for the accuracy of this or whether I'm reading the advertisements
 but I do appear to be seeing a couple of TraceTogether Tokens.
 Here's some sample console output:
 
-
-```
+```sh
 $ ./TTTScan
 Scan start...
 BLE is now powered on

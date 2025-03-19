@@ -23,16 +23,14 @@ signal source with a frequency range in the audio spectrum of about 20 Hz to 20 
 
 [![CD4046_functional_diagram](./assets/CD4046_functional_diagram.png?raw=true)](https://www.futurlec.com/4000Series/CD4046.shtml)
 
-
 ## Output
 
 The datasheet I have doesn't include specific ratings for the VCO output, but seems to imply nothing greater than ~8mA.
-The device does not really appear to be desinged to drive any significant load.
+The device does not really appear to be designed to drive any significant load.
 
 For that reason, I'm using the output to switch a load via a MOSFET.
 While testing, I just had an LED indicator wired up.
 Since I'm aiming for an audible range, this could be a speaker output.
-
 
 ## Determining Minimum and Maximum Frequency
 
@@ -58,7 +56,6 @@ With  R1=10kΩ, R2=10MΩ, C1=10nF, these produce the following estimates:
 
 These are reasonably close to the 30Hz - 22.4kHz range I've measured in practice.
 
-
 ## Test Results
 
 Measured for various combinations of R1, R2, C1:
@@ -71,7 +68,6 @@ Measured for various combinations of R1, R2, C1:
 | 10kΩ | 10MΩ | 100pF | 1.5kHz |  765kHz |
 | 10kΩ | 10MΩ | 10nF  |   30Hz | 22.4kHz |
 
-
 ### Scope: R1=10kΩ, R2=10MΩ, C1=10nF
 
 Measured minimum frequency:
@@ -81,7 +77,6 @@ Measured minimum frequency:
 Measured maximum frequency:
 
 ![fmax](./assets/fmax.gif?raw=true)
-
 
 ## Construction
 

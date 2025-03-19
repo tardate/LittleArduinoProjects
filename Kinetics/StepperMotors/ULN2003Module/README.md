@@ -19,15 +19,15 @@ but it is also common to find ULN2003A modules offered with some additional feat
 * bypass capacitor on the motor power line
 
 While ULN2003A modules can literally be used for any purpose, they are typically
-aimed at stepper motor use, as they connect up only 4 of the Darlinton pairs,
+aimed at stepper motor use, as they connect up only 4 of the Darlington pairs,
 and include a 5-pin connector commonly used with stepper motor drives.
 
 ### The X113647 Driver Board
 
-There are any number of versionss of the ULN2003A module.
-I have one identfiied as X113647 and is commonly supplied with the 28BYJ-48 stepper motor.
+There are any number of versions of the ULN2003A module.
+I have one identified as X113647 and is commonly supplied with the 28BYJ-48 stepper motor.
 
-In addition to LEDs and a smotthing capacitor, this module includes a jumper that
+In addition to LEDs and a smoothing capacitor, this module includes a jumper that
 disconnects the positive motor supply from the connector to the motor -
 though I can't think of a really good reason why this might be useful.
 
@@ -43,7 +43,6 @@ When used with the 28BYJ-48, the connections are as follows:
 | IN4              | OUT4         | Orange   |
 | -                | COM: 5-12V   | Red      |
 | GND              | GND          | -        |
-
 
 ## Construction
 

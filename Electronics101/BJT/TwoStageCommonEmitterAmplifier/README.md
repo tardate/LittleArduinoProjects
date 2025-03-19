@@ -33,7 +33,7 @@ Also:
 
 * r'e = hie/hFE = 10kΩ/400 = 25Ω
 
-#### Calculate collector + emmiter resistance for desired gain at the Q point
+#### Calculate collector + emitter resistance for desired gain at the Q point
 
 * Rc + Re = (Vcc - Vceq) / Icq
 * Rc + Re = (9V - 4.5V)/4mA = [1.13kΩ](https://www.wolframalpha.com/input/?i=(9V+-+4.5V)%2F4mA)
@@ -117,11 +117,11 @@ predicted performance calculated as follows:
 
 DC analysis:
 
-* Vb = Vcc*Rb2/(Rb1 + Rb2) = 9V * 3.6kΩ/(20kΩ + 3.6kΩ) = [1.37V](https://www.wolframalpha.com/input/?i=9V+*+3.6k%CE%A9%2F(20k%CE%A9%2B3.6k%CE%A9))
+* Vb = Vcc*Rb2/(Rb1 + Rb2) = 9V* 3.6kΩ/(20kΩ + 3.6kΩ) = [1.37V](https://www.wolframalpha.com/input/?i=9V+*+3.6k%CE%A9%2F(20k%CE%A9%2B3.6k%CE%A9))
 * Ve = Vb - 0.7V = 0.67V
 * Ie = Ve/Re = 0.67V/(200Ω) = [3.35mA](https://www.wolframalpha.com/input/?i=0.67V%2F200%CE%A9)
 * Ie ≅ Ic
-* Vrc = Ic * Rc = 3.35mA * 1kΩ = 3.35V
+* Vrc = Ic *Rc = 3.35mA* 1kΩ = 3.35V
 * Vce = Vcc - (Vrc + Ve) = 9V - (3.35V + 0.67V) = [4.98V](https://www.wolframalpha.com/input/?i=9V-(3.35V%2B0.67V))
 * Isat = Vcc/(Re + Rc) = 9V/(200Ω + 1kΩ) = [7.5mA](https://www.wolframalpha.com/input/?i=9V%2F(200%CE%A9%2B1k%CE%A9))
 
@@ -133,7 +133,7 @@ Second stage:
 * Rin(base) = ß(Re2 + r'ej) = 100(100Ω + 7.5Ω) = 10.75kΩ
 * Zin = `Rin(base)||Rb1||Rb2` = `10.75kΩ||20kΩ||3.6kΩ` = [2.38kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F10.75k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
 * A1 = `Rc1||Zin/(Re1 + r'ej)` = `1kΩ||2.38kΩ/(100Ω + 7.5Ω)` = [6.55](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9%2B1%2F2.38k%CE%A9)%2F(100%CE%A9+%2B+7.5%CE%A9))
-* Total gain A = A1 * A2 = 6.4 * 6.55 = [41.92](https://www.wolframalpha.com/input/?i=6.4*6.55)
+* Total gain A = A1 *A2 = 6.4* 6.55 = [41.92](https://www.wolframalpha.com/input/?i=6.4*6.55)
 
 Assuming headroom for say 7V peak-peak, input limit would be around [0.17V peak-peak](https://www.wolframalpha.com/input/?i=7V%2F41.92)
 before clipping.
@@ -167,7 +167,7 @@ More gain when built "properly", this time overshooting estimates by a small mar
 
 ![single-stage-ugly-10kHz](./assets/single-stage-ugly-10kHz.gif?raw=true)
 
-At 400kHz, perfromance is maintained:
+At 400kHz, performance is maintained:
 
 ![single-stage-ugly-400kHz](./assets/single-stage-ugly-400kHz.gif?raw=true)
 

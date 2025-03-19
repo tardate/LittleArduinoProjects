@@ -2,6 +2,8 @@
 
 Uses an Arduino to test LM741 comparator behaviour and plot the results with processing
 
+![The Build](./assets/Comparator741_build.jpg?raw=true)
+
 ## Notes
 
 ### Testing Characteristic Comparator Behaviour

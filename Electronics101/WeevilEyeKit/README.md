@@ -14,7 +14,7 @@ I saw this kit on
 [aliexpress](https://www.aliexpress.com/item/1005001350039494.html)
 for a few dollars, and the nicely designed PCB convinced me to buy a few.
 
-The circuit is simply a pair of light-sensitive LED "eyes". Surprrisingly fun to play with, especially for children.
+The circuit is simply a pair of light-sensitive LED "eyes". Surprisingly fun to play with, especially for children.
 
 The circuit is nicely laid out with generous, perfectly prepared pads, so it also makes an ideal kit for learning through-hole soldering.
 

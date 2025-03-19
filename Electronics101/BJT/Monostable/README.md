@@ -9,12 +9,14 @@ Here's a quick video of the circuit in action:
 ## Notes
 
 The stable state:
+
 * Q2 is on, biased through R2
 * Q1 is off, since R4 pulls-down the base
 * Voltage across C1 is VCC-0.7V, since Q1 collector is non-conducting and Q2 base will be at approximately one diode drop.
 * output is "low"
 
 When input pulse received:
+
 * Q1 turns on
 * C1 voltage immediately shifted down by ~VCC volts
 * this pulls Q2 base negative, turning it off

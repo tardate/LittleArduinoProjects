@@ -1,7 +1,6 @@
-# #214 OSHChip/GccToolchain
+# #214 OSHChip Gcc Toolchain
 
 Can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?
-
 
 ## Notes
 
@@ -18,7 +17,6 @@ but I was curious to see how far I could get with just gcc and the Nordic Semi S
 Nothing special - [blinky.c](./blinky.c) is just an LED blinker (using the onboard LEDs).
 It is C not C++ (learn how to crawl before I walk).
 
-
 ## The Moving Parts
 
 I'm guided by the (now a little dated) post:
@@ -33,8 +31,7 @@ I'm testing with two version of the SDK, as I'm not sure if there's a good reaso
 * 6.0.0 (version as used by many examples on the net)
 
 These are installed locally, in this folder. If I find a solid configuration, I'll then think about a shared installation.
-Having a particioned development environment is always nice anyway.
-
+Having a partitioned development environment is always nice anyway.
 
 ## Installation
 
@@ -42,13 +39,13 @@ The [setup.sh](./setup.sh) script automates some steps that could be done manual
 
 * download and unzip the GCC ARM kit to `./gcc-arm-none-eabi-5_3-2016q1`
 * download and unzip two versions of the NordicSemi SDK to `./sdk.6` and `./sdk.6`
-* patch the Markfile.posix in each SDK to reference the GCC ARM Embedded installed in the first step
+* patch the Makefile.posix in each SDK to reference the GCC ARM Embedded installed in the first step
 
 ## Make with SDK 11.0.0
 
 Use the `make.11` folder to build with the 11.0.0 SDK.
 
-```
+```sh
 $ cd make.11
 $ make
 rm -rf _build
@@ -74,7 +71,7 @@ The hex file to install in the OSHChip is `make.11/_build/nrf51422_xxac.hex`
 
 If the OSHChip programmer shows up as the only `Untitled` device, there's a make target to copy & install:
 
-```
+```sh
 $ make cpinstall
 Linking target: nrf51422_xxac.out
 Preparing: nrf51422_xxac.bin
@@ -91,7 +88,7 @@ cp _build/nrf51422_xxac.hex /Volumes/Untitled/
 
 Use the `make.6` folder to build with the 6.0.0 SDK.
 
-```
+```sh
 $ cd make.6
 $ make
 mkdir _build
@@ -105,14 +102,14 @@ The hex file to install in the OSHChip is `make.6/_build/blinky_xxaa.hex`
 
 If the OSHChip programmer shows up as the only `Untitled` device, there's a make target to copy & install:
 
-```
+```sh
 $ make cpinstall
 Copying: _build/blinky_xxaa.hex:
 cp _build/blinky_xxaa.hex /Volumes/Untitled/
 
 ```
 
-## So Far So Good, But...
+## So Far So Good, But
 
 Copy the hex files to the OSHChip Programmer USB device ... and they won't install.
 
@@ -124,7 +121,7 @@ These hex files are generated with `gcc-arm-none-eabi-5_3-2016q1/bin/arm-none-ea
 
 Here's the start of a "good" hex file, from the [blinky](../blinky) project I compiled with the mbed online tools:
 
-```
+```sh
 :020000040000FA
 :10000000C0070000D1060000D1000000B1060000CA
 :1000100000000000000000000000000000000000E0
@@ -134,7 +131,7 @@ Here's the start of a "good" hex file, from the [blinky](../blinky) project I co
 
 And here's the start of the file compiled with SDK 11.0.0:
 
-```
+```sh
 :10000000008000208D030000CD030000CF0300001E
 :1000100000000000000000000000000000000000E0
 :10002000000000000000000000000000D1030000FC

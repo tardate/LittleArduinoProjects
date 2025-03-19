@@ -30,7 +30,7 @@ For this circuit, I'm using a mini push-pull solenoid that is rated for 3-12V. T
 * Voltage: 12v, current: 0.35 A
 * Internal resistance: 32.8 ohm
 
-The switching transsitor used here is the 2N3906, which is rated for 200mA continuous collector current - a little low but sufficient for this application. A 1N4007 diode provides flyback protection.
+The switching transistor used here is the 2N3906, which is rated for 200mA continuous collector current - a little low but sufficient for this application. A 1N4007 diode provides flyback protection.
 
 ### Pulse Generation
 

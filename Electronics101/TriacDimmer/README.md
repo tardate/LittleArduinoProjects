@@ -4,7 +4,6 @@ Investigate the operation of triacs and build the basic dimmer circuit.
 
 ![TriacDimmer_demo](./assets/TriacDimmer_demo.jpg?raw=true)
 
-
 ## Notes
 
 A triac is a "bidirectional thyristor" because it conducts in both directions and is typically used in AC applications.
@@ -35,7 +34,7 @@ But here I've included two anti-parallel diodes to simulate the function of a di
 ### Behaviour
 
 With the dimmer "half on", the characteristic Triac cut out on both sides of the cycle is pretty clear to see.
-I was expecting a cleaning signal than this. Is this normal? Not sure, perhas I should solder up the circuit
+I was expecting a cleaning signal than this. Is this normal? Not sure, perhaps I should solder up the circuit
 and try again on something more stable than a breadboard.
 
 ![scope_half_on](./assets/scope_half_on.gif?raw=true)

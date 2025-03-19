@@ -1,9 +1,8 @@
-# #258 ClapSwitchKit2
+# #258 Clap-switch Kit 2
 
 Practice some Boldport-style soldering on yet-another clap switch kit.
 
 ![ClapSwitchKit2_build_top](./assets/ClapSwitchKit2_build_top.jpg?raw=true)
-
 
 ## Notes
 
@@ -42,7 +41,6 @@ In practice, I can't tell much difference between the results of A and B. I thin
 * solder and make the dome in one pass
 * side benefit is you get to harvest the clipped leads free of solder and flux (if you care - I keep some around for ad-hoc protoboard wiring)
 
-
 ### Making the "Dome"
 
 At first, I had real trouble making smooth symmetrical domes. I'd always end up with "meringue tips" when I drew the iron away.
@@ -53,17 +51,16 @@ The technique that seems to work best for me is:
 
 This sounds more like icing a cake!
 
-
 ### Making Shiny Joints
 
 So now I'm getting decent domes (most of the time) that are electrically and mechanically sound. But they are rarely shiny.
 
-"Shiny" is not usaully a QA issue for solder points (advice abounds on how it is not important).
-This is not to be confused with dry joints, that will be both dull and flakey/crystaline.
+"Shiny" is not usually a QA issue for solder points (advice abounds on how it is not important).
+This is not to be confused with dry joints, that will be both dull and flakey/crystalline.
 
 Google delivers many opinions, for example:
 
-* [Why aren't my solder connnections shiny and perfect?](http://www.strat-talk.com/threads/why-arent-my-solder-connnections-shiny-and-perfect.143458/)
+* [Why aren't my solder connections shiny and perfect?](http://www.strat-talk.com/threads/why-arent-my-solder-connnections-shiny-and-perfect.143458/)
 * [lead free soldering - Why are some joints shiny?](http://www.eevblog.com/forum/projects/lead-free-soldering-why-are-some-joints-shiny/)
 
 The main advice for why solder points are not shiny seems to boil down to one or more of the following:
@@ -119,10 +116,10 @@ Here's a side-by-side comparison using the same iron and tip, and both at 275˚C
 I'll need to do some more tests to determine if the problems I was originally seeing are typical of
 a 63Sn/37Pb formulation, or if perhaps I just have some very poorly manufactured 63Sn/37Pb.
 
-
 ### First Pass on the Board
 
 Here is the first pass. Electrically/mechanically sound but not really perfect "Boldport" quality:
+
 * my dome sizes/shapes are a bit uneven
 * a few meringue tips
 * dull (see above) but brightened up with a bit of buffing

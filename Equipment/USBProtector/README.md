@@ -1,4 +1,4 @@
-# #400 USBProtector
+# #400 USB Protector
 
 Building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection.
 
@@ -12,7 +12,7 @@ in a range of over-voltage and over-current protection mechanisms.
 The project is written up in Silicon Chip May 2018 (p57), with the [kit and supporting materials available online](http://www.siliconchip.com.au/Shop/20/4574).
 
 I just saw [μArt](https://www.crowdsupply.com/pylo/muart) on crowdsupply, which is an interesting
-project with similar protection mechanims but intended for UART applications.
+project with similar protection mechanism but intended for UART applications.
 
 [ARRL Hands-on Radio (Vol 2)](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2) also has good coverage of these topics. See:
 
@@ -26,20 +26,18 @@ intimate with the circuit.
 
 ![Schematic](./assets/USBProtector_schematic.png?raw=true)
 
-
 At it's core, the circuit is a pass-through of the USB power, ground and two data lines (D+, D-).
 It then adds the following protection mechanisms:
 
 | Component(s) | Protects             | Description                                                                                                       |
 |--------------|----------------------|-------------------------------------------------------------------------------------------------------------------|
-| PTC1         | Vcc over-current     | Resetable, handling moderate over-current without needing replacement                                             |
+| PTC1         | Vcc over-current     | Resettable, handling moderate over-current without needing replacement                                             |
 | Fuse         | Vcc over-current     | Reacts faster to very high currents than PTC                                                                      |
-| D3           | Vcc reverse polarity | Limits Vcc to -0.55V. Potects PC-side from peripheral-side reverse voltage which should cause PTC or fuse to trip |
+| D3           | Vcc reverse polarity | Limits Vcc to -0.55V. Protects PC-side from peripheral-side reverse voltage which should cause PTC or fuse to trip |
 | Q1, REF1     | Vcc clamp            | Active protection from  over-voltage that may not trigger over-current. Reaction time relative slow               |
 | TVS1         | Vcc clamp            | Passive over-voltage protection that is also fast-acting                                                          |
 | D1,D2        | D+/D- clamp          | Over-voltage and reverse-voltage clamping for data lines                                                          |
-| TVS1         | D+/D- clamp          | Transient voltage supressor for data lines                                                                        |
-
+| TVS1         | D+/D- clamp          | Transient voltage suppressor for data lines                                                                        |
 
 The circuit includes two LED indicators:
 
@@ -81,7 +79,7 @@ Recommended construction order:
 
 ## Credits and References
 
-* [Complete kit for the USB Port Protector](http://www.siliconchip.com.au/Shop/20/4574) - writtten up in Silicon Chip May 2018 p57
+* [Complete kit for the USB Port Protector](http://www.siliconchip.com.au/Shop/20/4574) - written up in Silicon Chip May 2018 p57
 * [μArt](https://www.crowdsupply.com/pylo/muart) - a similar protection project but intended for UART applications, available on crowdsupply
 * [SK153 DIODE SCHOTTKY 30V 15A](https://www.digikey.sg/product-detail/en/micro-commercial-co/SK153-TP/SK153-TPCT-ND/1306216)
 * [CDSOD323-T05S TVS DIODE 5V 13.5V](https://www.digikey.sg/product-detail/en/bourns-inc/CDSOD323-T05S/CDSOD323-T05SCT-ND/5774994)

@@ -80,7 +80,7 @@ the module on some protoboard with connectors for power and some test points.
 ## Testing a Charge
 
 I'm testing a charge cycle with an old 1300mAh battery.
-A good rule of thumb is to charge at a maximum current of arround 0.5C (650mA),
+A good rule of thumb is to charge at a maximum current of around 0.5C (650mA),
 so I set my bench power supply for 5V with 500mA current limit for this charge test.
 This is a very crude constant current charge profile.
 

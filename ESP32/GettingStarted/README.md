@@ -15,7 +15,7 @@ The
 [ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/hw-reference/get-started-devkitc.html)
 is just about all you need to get up and running.
 
-In this proejct, I'll document my journey getting the ESP32 connected and programmed from MacOSX.
+In this project, I'll document my journey getting the ESP32 connected and programmed from MacOSX.
 
 ## The ESP32-DevKitC V4
 
@@ -44,9 +44,9 @@ Pinout guide from lastminuteengineers:
 
 ## MacOSX Installation
 
-After plugging the ESP32-DevKitC V4 into my MacOSX system, it wasn't initially recognised as a character device. But it did show up on USB (checked with the Systme Information app):
+After plugging the ESP32-DevKitC V4 into my MacOSX system, it wasn't initially recognised as a character device. But it did show up on USB (checked with the System Information app):
 
-```
+```sh
 CP2102 USB to UART Bridge Controller:
 
   Product ID: 0xea60
@@ -61,11 +61,11 @@ CP2102 USB to UART Bridge Controller:
   Extra Operating Current (mA): 0
 ```
 
-A quick Google search told me this is nromal, and it just means my system needs the correct driver. It is available for installation from Silicon Labs:
+A quick Google search told me this is normal, and it just means my system needs the correct driver. It is available for installation from Silicon Labs:
 [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers).
 After installation, th eESP32 shows up as a device:
 
-```
+```sh
 $ ls -1 /dev/cu*
 /dev/cu.Bluetooth-Incoming-Port
 /dev/cu.SLAB_USBtoUART  # <== the ESP32 via SiLabs driver
@@ -73,7 +73,7 @@ $ ls -1 /dev/cu*
 
 Connecting with screen (`$ screen /dev/cu.SLAB_USBtoUART 115200`) and pressing reset/EN proves everything is alive. Console displays the boot log:
 
-```
+```sh
 ets Jun  8 2016 00:22:57
 
 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
@@ -150,7 +150,7 @@ Before programming the ESP32, it is necessary to isntall the appropriate board m
 The current list of 3rd party board managers is available at
 [https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls](https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls).
 
-This confirmed that the current Espressif ESP32 board index is at https://dl.espressif.com/dl/package_esp32_index.json.
+This confirmed that the current Espressif ESP32 board index is at <https://dl.espressif.com/dl/package_esp32_index.json>.
 This gets added to the additional board managers URL list in the Arduino preferences:
 
 ![ide_add_board_urls](./assets/ide_add_board_urls.png?raw=true)
@@ -168,7 +168,7 @@ The GettingStarted.ino sketch is based on the WiFi Scanner example shipped with 
 
 To program the ESP32 over USB, it is simply necessary to hold down the the BOOT button while compiling/uploading.
 If you let the button go before the final reset, the board will reset itself. If you keep the BOOT button pressed too long,
-it may be neceassary to press the EN/reset button to manually reset the board after programming is complete.
+it may be necessary to press the EN/reset button to manually reset the board after programming is complete.
 
 ![ide_programming](./assets/ide_programming.png?raw=true)
 

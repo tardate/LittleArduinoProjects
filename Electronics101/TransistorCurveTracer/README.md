@@ -1,11 +1,10 @@
-# #228 TransistorCurveTracer
+# #228 Transistor Curve Tracer
 
-Simple NPN transistor curve tracer using a Stairstep generator circuit.
+Simple NPN transistor curve tracer using a Stair-step generator circuit.
 
 ![The Build](./assets/TransistorCurveTracer_build.jpg?raw=true)
 
 ![curve_2N3904_50kRb](./assets/curve_2N3904_50kRb.gif?raw=true)
-
 
 ## Notes
 
@@ -13,7 +12,7 @@ This is a fascinating circuit, originally from the IEEE Engineering Sciences & E
 I'm working from a demonstration by w2aew in [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24).
 
 It actually builds on the basic [StairStepGenerator](../StairStepGenerator) project and adapts it to perform
-basic NPN BJT curve tracing (plotting collector currect to collector voltage for different base current values).
+basic NPN BJT curve tracing (plotting collector current to collector voltage for different base current values).
 
 I first built up the circuit on a breadboard, but it proved too noisy to be of much use...
 so I put the circuit on protoboard and obtained much better results.
@@ -21,7 +20,7 @@ so I put the circuit on protoboard and obtained much better results.
 I wouldn't necessarily trust these results for anything other than relative comparisons,
 but it is interesting to see the theory play out IRL.
 
-Regardless, it's great fun to fiddle with step frequency, reset freqeuncy and input voltage and see the effects in the X-Y plot.
+Regardless, it's great fun to fiddle with step frequency, reset frequency and input voltage and see the effects in the X-Y plot.
 
 ### Stairstep Generator
 
@@ -61,11 +60,10 @@ Here is a scope trace of the driver signals (without a device under test):
 Here's my setup while running some tests.
 
 * I'm using a 5V supply. For this particular circuit configuration, I get pretty good results from 5-7V.
-* without a DUT, the curcuit draws around 5mA
+* without a DUT, the circuit draws around 5mA
 * with a DUT, the circuit draws anywhere from 25 to 40mA depending on the particular NPN BJT being tested
 
 ![TransistorCurveTracer_demo](./assets/TransistorCurveTracer_demo.jpg?raw=true)
-
 
 ### Initial Tests with a 2N3904
 
@@ -92,8 +90,6 @@ Now I can get some nice curves for a forward-biased DUT, and easily adapt to tra
 Here are the curves for a 2N3904 forward-biased (base resistance set close to 50kΩ):
 
 ![curve_2N3904_50kRb](./assets/curve_2N3904_50kRb.gif?raw=true)
-
-
 
 ## Construction
 

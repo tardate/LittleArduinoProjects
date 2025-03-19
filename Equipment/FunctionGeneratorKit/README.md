@@ -1,4 +1,4 @@
-# #282 FunctionGeneratorKit
+# #282 Function Generator Kit
 
 Build and test a function generator kit based on the XR-2206 monolithic function generator.
 
@@ -66,7 +66,6 @@ The FFT of the sine wave has a decently low noise floor.
 
 ![scope_1khz_fft](./assets/scope_1khz_fft.gif?raw=true)
 
-
 Pushing the device to the extreme, the highest frequency it will generate for me is 1.237MHz.
 At this level, the output waveforms are distorted however still recognisable and probably quite usable for some applications:
 
@@ -75,7 +74,6 @@ At this level, the output waveforms are distorted however still recognisable and
 The FFT of the sine wave remains quite respectable:
 
 ![scope_1Mhz_fft](./assets/scope_1Mhz_fft.gif?raw=true)
-
 
 ## Credits and References
 

@@ -1,9 +1,8 @@
-# #194 ESP8266/DIYDevBoard
+# #194 ESP8266 DIY Devboard
 
 a DIY devboard for an ESP-01 ESP8266
 
 ![DIYDevBoard_demo](./assets/DIYDevBoard_demo.jpg?raw=true)
-
 
 ## Notes
 
@@ -41,7 +40,7 @@ The normal position is "off".
 To verify everything was working OK on the devboard, I plugged in the ESP8266 with default firmware
 and I exercised it with [SerialTest/ruby](../SerialTest/ruby). Here's a test of getting the time:
 
-```
+```sh
 $ ./espy.rb /dev/tty.wchusbserial14540 get http://www.timeapi.org/utc/now
 ESP8266 Client initialised for : /dev/tty.wchusbserial14540
             connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
@@ -79,12 +78,13 @@ Unlink
 ### Test Drive with the esptool
 
 [esptool.py](https://github.com/themadinventor/esptool) requires the board to be in flash mode:
+
 * SW1 "on" to pull-down GPIO_0 (flash mode)
 * SW2 toggled on then off (reset the board)
 
 Then the basic esptool.py commands to interrogate the board work fine:
 
-```
+```sh
 $ esptool.py --port /dev/tty.wchusbserial14540 chip_id
 Connecting...
 Chip ID: 0x009ccdd2

@@ -1,6 +1,6 @@
 {
     "id": "#214",
-    "name": "OSHChip/GccToolchain",
+    "name": "OSHChip Gcc Toolchain",
     "description": "can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?",
     "categories": "ARM, gcc, OSHChip",
     "relative_path": "OSHChip/GccToolchain",

@@ -47,7 +47,7 @@ The device I am connecting to for a test requires 9600 baud, with 8 data bits, n
 The CH340G adapter was connected on `/dev/tty.wchusbserial1420` device, so a screen session
 is started with the command:
 
-    $ screen /dev/tty.wchusbserial1420 9600,cs8,-parenb,-cstopb,-hupcl
+    screen /dev/tty.wchusbserial1420 9600,cs8,-parenb,-cstopb,-hupcl
 
 ...and communication is up and running without any problem:
 

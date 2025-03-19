@@ -1,9 +1,8 @@
-# #216 OSHChip/LEDx16Module
+# #216 OSHChip LEDx16 Module
 
 Driving an SPI LED module with the OSHChip.
 
 ![LEDx16Module_build](./assets/LEDx16Module_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -32,7 +31,7 @@ The demo code is largely copied from the [LEDx16Module](../playground/LEDx16Modu
 
 It sets SPI for an 8 bit data frame, spi mode 0, 1MHz clock rate:
 
-```
+```sh
 // Setup spi: 8 bit data frame, spi mode 0, 1MHz clock rate
 spi.format(8, 0);
 spi.frequency(1000000);
@@ -40,7 +39,7 @@ spi.frequency(1000000);
 
 And 16-bits worth of data (for the two shift registers) is sent in two write operations:
 
-```
+```sh
 led_module_cs = 0;
 spi.write(data);
 spi.write(data >> 8);
@@ -48,8 +47,9 @@ led_module_cs = 1;
 ```
 
 Two quirks that I still don't fully understand:
+
 * I thought IO should be able to set a 16-bit frame with `format(16, 0)` but I couldn't get it to work.
-*  even though SPI.write takes an "int", it still only sends the 8 lower bits, hence the transfer in two calls
+* even though SPI.write takes an "int", it still only sends the 8 lower bits, hence the transfer in two calls
 
 Also note I haven't resorted to bulk transfers using the `transfer` method in this case,
 since I'm not sending large quantities of data, and not expecting any reply.

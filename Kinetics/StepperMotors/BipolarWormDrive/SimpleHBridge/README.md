@@ -10,7 +10,7 @@ Here's a quick demo..
 
 ## Notes
 
-Many CD/DVD drives use a biopolar stepper motor with worm gear for linear positioning of the laser head.
+Many CD/DVD drives use a bipolar stepper motor with worm gear for linear positioning of the laser head.
 The [tear down of an HL GCR-8483B](http://wasp.kz/articles.php?article_id=959) is a good example.
 
 Here are two similar motor units I've scavenged. The part numbers are un-googlable internal references:
@@ -18,9 +18,7 @@ Here are two similar motor units I've scavenged. The part numbers are un-googlab
 * D4907M1F/15RF073K for upper in the picture below
 * D6124NID for the lower
 
-
 ![worm_drive_units](./assets/worm_drive_units.jpg?raw=true)
-
 
 ### Drive Specifications
 
@@ -57,7 +55,6 @@ Kevin Darrah also has a good introduction and demo of driving a bipolar stepper 
 
 [![clip](https://img.youtube.com/vi/ePSCZ_DtF7c/0.jpg)](https://www.youtube.com/watch?v=ePSCZ_DtF7c)
 
-
 The essence of bipolar stepper control:
 
 * two independent coils
@@ -74,7 +71,6 @@ The result is 8 combinations of drive conditions as tabulated below:
 * using only the 4 steps that drive both coils (1,3,5,7) is full-step control and delivers maximum torque
 * using all 8 steps provides half-step control provides more selectivity of positioning, but at a loss of torque (because half the steps only use one drive coil)
 
-
 | Step | A  | B  | C  | D  | Full | Half |
 |------|----|----|----|----|------|------|
 |    1 |  + |  - |  - |  + | Yes  | Yes  |
@@ -86,13 +82,11 @@ The result is 8 combinations of drive conditions as tabulated below:
 |    7 |  + |  - |  + |  - | Yes  | Yes  |
 |    8 |  + |  - |    |    | No   | Yes  |
 
-
 ### The Arduino Stepper Library
 
 The [Stepper Library](https://www.arduino.cc/en/reference/Stepper) is used in the example [SimpleHBridge.ino](./SimpleHBridge.ino) sketch.
 
 It supports 4-wire bipolar steppers using an external H-bridge, and only implements full step control with the following sequence:
-
 
 |Step | A  | B  | C  | D  |
 |-----|----|----|----|----|
@@ -100,7 +94,6 @@ It supports 4-wire bipolar steppers using an external H-bridge, and only impleme
 |   2 |  0 |  1 |  1 |  0 |
 |   3 |  0 |  1 |  0 |  1 |
 |   4 |  1 |  0 |  0 |  1 |
-
 
 ### A Bespoke H-bridge Circuit
 

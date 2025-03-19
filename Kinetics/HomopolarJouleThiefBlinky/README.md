@@ -24,7 +24,7 @@ The concept is pretty clearly derivative of [HomopolarMotor](../HomopolarMotor) 
 and in fact was thoroughly explored in the [January 2016 issue of American Journal of Physics](https://physics.stackexchange.com/questions/150033/how-does-this-simple-electric-train-work).
 
 After some fiddling around, I ended up with a vertically-mounted demonstration that produced a nice bouncing spring...
-which immediately got me thinking about the collapsing electromegnetic field on each bounce, and how that reminded me of
+which immediately got me thinking about the collapsing electromagnetic field on each bounce, and how that reminded me of
 what is going on in a [Joule Thief](../Electronics101/ToroidJouleThief).
 
 Seems like this might suit the
@@ -50,7 +50,6 @@ Here's a sketch of my design:
 
 ![design_notes](./assets/design_notes.jpg?raw=true)
 
-
 There are only four electrical components required for this circuit:
 
 * 1N5819HW Schottky Diode - selected for low forward voltage. Something like Mouser [621-1N5819HW-F](https://www.mouser.sg/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=sGAEpiMZZMuHSyTciuLGfz7QlcwO2TN6)
@@ -59,6 +58,7 @@ There are only four electrical components required for this circuit:
 * AAA battery
 
 Hardware and additional components required:
+
 * some neodymium magnets (I'm not sure of the formulation of the ones I have - they are strong, but not the strongest)
 * copper wire for the coil
 * some fine gauge hookup/magnet wire to tap the bottom of the coil to the diode
@@ -73,13 +73,12 @@ Here's a video of them in action:
 
 ![HomopolarJouleThiefBlinky_in_action2](./assets/HomopolarJouleThiefBlinky_in_action2.jpg?raw=true)
 
-
 ## How It Works
 
-We basically have a chain of energy transformations. Totally ineffiecient, but it works! Here's my short explanation:
+We basically have a chain of energy transformations. Totally inefficient, but it works! Here's my short explanation:
 
 * Chemical -> EM transformation:
-    * When the coil is in contact with the magents on each pole of the battery, we have a dead short that establishes an electromagnetic field in the coil (inductor)
+    * When the coil is in contact with the magnets on each pole of the battery, we have a dead short that establishes an electromagnetic field in the coil (inductor)
 * EM -> Kinetic:
     * Given the orientation of the coil, the polarity of the magnets and the direction of the current, the EM field produces a force that "bounces" the coil up and breaks the circuit
 * EM -> Electric Charge
@@ -106,4 +105,4 @@ Here's the schematic of the charge pump/LED circuit:
 * [LEAP#203 HomopolarMotor](../HomopolarMotor)
 * [LEAP#137 Joule Thief](../Electronics101/ToroidJouleThief)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap410-rube-goldberg-led-blinking-machine.html)
-* [..as posted on hackady.io](https://hackaday.io/project/160409-homopolar-motor-joule-thief-led-blinking-machine)
+* [..as posted on hackaday.io](https://hackaday.io/project/160409-homopolar-motor-joule-thief-led-blinking-machine)

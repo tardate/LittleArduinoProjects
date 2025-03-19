@@ -1,6 +1,6 @@
 {
     "id": "#174",
-    "name": "UsbNotifier",
+    "name": "USB Notifier",
     "description": "tear-down and demo code for some oldUSB Webmail Notifier devices",
     "categories": "LED, USB",
     "relative_path": "Electronics101/UsbNotifier",

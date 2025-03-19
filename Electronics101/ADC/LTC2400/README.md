@@ -14,8 +14,7 @@ the accuracy is far from ideal (in my case it skews from +27mV for low voltages 
 
 The LTC2400 advertises 4ppm full-scale error, so what is going on? That's what I'm investigating and documenting here.
 
-Note: this is a work-in-progress, as I've yet to get good reproduceable results. See the final section of these notes for the current summary and planned next steps.
-
+Note: this is a work-in-progress, as I've yet to get good reproducible results. See the final section of these notes for the current summary and planned next steps.
 
 ### Choice Picks from the LTC2400 Datasheet
 
@@ -42,7 +41,6 @@ maximum input voltage possible before maxing out the reading is therefore
 [30.94V](https://www.wolframalpha.com/input/?i=2.8125V*(100k%CE%A9%2B1M%CE%A9)%2F100k%CE%A9).
 At this scaling, 1 bit resolution in the ADC represents [1.77µV](https://www.wolframalpha.com/input/?i=30%2F2%5E24) input.
 
-
 #### Output Data Format
 
 Covered on p12, Table 2. LTC2400 Output Data Format:
@@ -50,7 +48,6 @@ Covered on p12, Table 2. LTC2400 Output Data Format:
 * input from 0V to VREF, are represented by 0x000000 to 0xFFFFFF in the 24 bits from MSB to LSB of the data frame
 * the 4 sub LSBs are valid conversion results beyond the 24-bit level that may be included in averaging or discarded without loss of resolution
 * SIG and EXR bits are used to extend the range above VREF and below 0V (subject to limits above)
-
 
 #### Driving the Input and Reference
 
@@ -73,14 +70,12 @@ Higher resistance and capacitance at VIN contribute to offset and full-scale err
 * if small capacitance at VIN (<0.01μF), relatively large external source resistances (up to 20k for 20pF parasitic capacitance) can be tolerated without any offset/full-scale error.
 * for large input capacitor values (CIN > 0.01μF), the gain shift becomes a linear function of input source resistance independent of input capacitance, corresponding to a 0.3ppm shift in offset and full-scale readings for every 1Ω of input source resistance.
 
-
 General rule for reference input:
 
 * if capacitance tied to VREF is small (CVREF < 0.01μF), an input resistance of up to 20k (20pF parasitic capacitance at VREF) may be tolerated
 * if external capacitance is large (CVREF > 0.01μF)
     * linearity degraded by 0.15ppm/Ω
     * full-scale error shift is 0.3ppm/Ω of
-
 
 #### Application Notes
 
@@ -89,7 +84,6 @@ Nothing that precisely covers the scenario and issues I'm concerned with, but so
 
 * most circuits employ a buffer opamp
 * few (no?) examples use as external voltage reference. For demonstration purposes, most use VREF = VCC.
-
 
 ## Test Code
 
@@ -102,9 +96,7 @@ The sketch is used via the serial interface:
 * performs a calibration to that reference value
 * then proceeds to log ADC readings every few seconds. It shows raw ADC values and the implied input voltage based on the calibration factor
 
-
 ![LTC2400_console](./assets/LTC2400_console.png?raw=true)
-
 
 ## Scenario 1: Baseline Circuit
 
@@ -118,11 +110,9 @@ It is calibrated to 2.5V, and takes an input voltage directly through a 1MΩ:100
     Calibration complete. ADC Calibration Factor = 0x1745B6
     ADC Raw: 0x21745B29,  Current sample: 0x1745B2 = 2.4999933242V,  Average sample: 0x1745C1 = 2.5000181198V
 
-
 ![Breadboard](./assets/LTC2400_baseline_bb.jpg?raw=true)
 
 ![Schematic](./assets/LTC2400_baseline_schematic.jpg?raw=true)
-
 
 Sample readings for VREF=2.5 and ADC Calibration Factor = 0x1745B6:
 
@@ -134,14 +124,12 @@ Sample readings for VREF=2.5 and ADC Calibration Factor = 0x1745B6:
 | 7.65  | 0x24612C32 | 0x4612C3 | 7.5275397300V   |       |
 | 10.27 | 0x25DEB659 | 0x5DEB65 | 10.0891914367V  | [-1.761%](https://www.wolframalpha.com/input/?i=(10.0891914367+-+10.27)%2F10.27+to+percent) |
 
-
 These readings have significantly skew and error just like I'd seen in the MilliVoltmeter.
 
 Attaching a scope probe to the vin pin of the LTC2400, it is possible to see the effect of the
 switched-capacitor network during the sampling phase. A series of spikes and discharge curves are present:
 
 ![scope_vin_scenario_1](./assets/scope_vin_scenario_1.gif?raw=true)
-
 
 ## Scenario 2: Capacitor Stabilisation
 
@@ -156,7 +144,6 @@ But experimentally, when using it to stabilise a 1MΩ:100kΩ voltage divider, th
     Calibration complete. ADC Calibration Factor = 0x17B47C
     ADC Raw: 0x21873FC4,  Current sample: 0x1873FC = 2.5788912773V,  Average sample: 0x17D9B6 = 2.5153360366V
 
-
 | VIN   | ADC Raw    | Sample   | Voltage Reading | Error |
 |-------|------------|----------|-----------------|-------|
 | 1.253 | 0x20B3D923 | 0xB3D92  | 1.1854567527V   | [-5.39%](https://www.wolframalpha.com/input/?i=(1.1854567527+-+1.253)%2F1.253+to+percent) |
@@ -166,7 +153,6 @@ As might be expected, the additional large-value capacitor is significantly affe
 switched-capacitor network during the sampling phase:
 
 ![scope_vin_scenario_2](./assets/scope_vin_scenario_2.gif?raw=true)
-
 
 ## Scenario 3: Buffered VREF and VIN Signals
 
@@ -211,17 +197,14 @@ Here's an example trace:
     ADC Raw: 0x2FFF21C6,  Current sample: 0xFFF21C = 2.5001127719V,  Average sample: 0xFFF20E = 2.5001106262V
     ADC Raw: 0x2FFF1C5C,  Current sample: 0xFFF1C5 = 2.5000996589V,  Average sample: 0xFFF210 = 2.5001108646V
 
-
 That is a disappointing result on two points:
 
 * the average ADC reading 0xFFF18A is offset from the expected 0xFFFFFF by -0.022%
 * and the results vary by a range of 0x3C9. Given that readings are in the order of 16 million, that represents a range of around 60 ppm - far above the stated error bands in the datasheet.
 
-
 ![LTC2400_buffered_vref_bb](./assets/LTC2400_buffered_vref_bb.jpg?raw=true)
 
 ![LTC2400_buffered_vref_schematic](./assets/LTC2400_buffered_vref_schematic.jpg?raw=true)
-
 
 ## Regrouping / Conclusions to-date
 
@@ -237,7 +220,6 @@ So what could be contributing to the error levels I'm seeing. Some possibilities
 3. faulty components? The LT1019 and LTC2400 chips I'm using ware obtained from a reputable channel so I would not blame the parts in the first instance. I have also switched chips along the way and results remain consistent
 4. I've made some fundamental mistake here in the application, or understanding of how to correctly use the LTC2400
 
-
 I would guess that (1) and (2) are the most likely problem areas, and also the ones easiest to test further.
 I think my next steps may be to:
 
@@ -246,7 +228,6 @@ I think my next steps may be to:
     * LT1077 precision op-amp, as the LT1077 is the part used in LTC2400 reference designs in application notes so may be assumed to be "well matched". The LT1077 has much better voltage offset and drift specifications and also a lower slew rate which may be beneficial in this application
     * another alternative is the OP07DD, as it's also been seen in precision analog front-end designs and better specs than the LMV324
     * or the AD8628ARZ as used in the Scullcom millivoltmeter design and better specs than the LMV324
-
 
 Comparing op-amp options:
 
@@ -261,8 +242,6 @@ Comparing op-amp options:
 | Gain-Bandwidth Product   | 1MHz      | 250kHz                 | 0.6MHz   | 2.5MHz                 | 10MHz      |
 | Slew Rate                | 0.35V/µs  | 0.12V/µs               | 0.3V/µs  | 1V/µs                  | 5V/µs      |
 
-
-
 ## Scenario 4: OPA2388-buffered VREF Signals
 
 I got hold of some precision opamps to see if they can improve matters.
@@ -272,7 +251,6 @@ This should produce the most reliable reading possible. In this configuration, V
 
 * one op-amp provides a buffered reference voltage for the LTC2400
 * the other op-amp provides the input voltage for the LTC2400
-
 
 In this configuration, once would expect:
 
@@ -302,18 +280,14 @@ Here's an example trace:
     ADC Raw: 0x3000064A,  Current sample: 0x1000064 = 2.5000016689V,  Average sample: 0x1000063 = 2.5000016689V
     ADC Raw: 0x300006C3,  Current sample: 0x100006C = 2.5000030994V,  Average sample: 0x1000062 = 2.5000014305V
 
-
 That is a much more encouraging result:
 
 * the average result reading is 0x1000062 (2.50000151V), an error of only 0.00006%
 * and the results vary by a range of 0x33. Given that readings are in the order of 16 million, that represents a range of around 3 ppm - just under the 4ppm full-scale error reported in the datasheet.
 
-
 ![LTC2400_opax388_buffered_vref_bb](./assets/LTC2400_opax388_buffered_vref_bb.jpg?raw=true)
 
 ![LTC2400_opax388_buffered_vref_schematic](./assets/LTC2400_opax388_buffered_vref_schematic.jpg?raw=true)
-
-
 
 ## Scenario 5: OPA2388-buffered Everything
 
@@ -321,10 +295,10 @@ This variant of the circuit re-introduces the 1MΩ:100kΩ voltage divider on the
 Three OPAx388 buffers are used to prevent coupling of signals:
 
 * VREF buffered between LT1019 and LTC2400
-* VREF buffered to act as independant voltage reference
+* VREF buffered to act as independent voltage reference
 * VIN buffered from the voltage divider
 
-The independant 2.5V voltage reference is used to feed VIN via the voltage reference,
+The independent 2.5V voltage reference is used to feed VIN via the voltage reference,
 the idea being that we should be able to read a clean and accurate 2.5V signal via the voltage reference.
 
 A set of sample results:
@@ -366,14 +340,12 @@ A set of sample results:
     ADC Raw: 0x216C4FEA,  Current sample: 0x16C4FE = 2.4992897510V,  Average sample: 0x16C579 = 2.4994957447V
     ADC Raw: 0x216C57FF,  Current sample: 0x16C57F = 2.4995059967V,  Average sample: 0x16C555 = 2.4994356632V
 
-
 These results are not bad with 0.08% variability. Results are summarised below,
 along with some simple variations:
 
 * Base: the circuit as described
 * SuperBypass: with extra 100nF and 100µF bypass caps on the OPA2388 and LTC2400
-* DedicatedPower: with separate 5V power supply, insteda of using the 5V from the Arduino.
-
+* DedicatedPower: with separate 5V power supply, instead of using the 5V from the Arduino.
 
 |         | Base         | SuperBypass  | DedicatedPower |
 |---------|--------------|--------------|----------------|
@@ -383,30 +355,25 @@ along with some simple variations:
 | range   | 0.0019915104 | 0.0018665791 | 0.0013849736   |
 | range % | 0.08%        | 0.07%        | 0.06%          |
 
-
-
 ![LTC2400_opax388_buffered_bb](./assets/LTC2400_opax388_buffered_bb.jpg?raw=true)
 
 ![LTC2400_opax388_buffered_schematic](./assets/LTC2400_opax388_buffered_schematic.jpg?raw=true)
 
 ![scenario_5_build](./assets/scenario_5_build.jpg?raw=true)
 
-
-
 ## Scenario 6: ADR4540 Reference with OPA2388-buffered Everything
 
 This variant switches out the 2.5V LT1019 voltage reference for a 4.096V ADR4540 reference.
 The higher reference may improve stability and accuracy by increasing the dynamic range of VIN.
 
-
 As with Scenario 5, the circuit use the 1MΩ:100kΩ voltage divider on the input.
 Three OPAx388 buffers are used to prevent coupling of signals:
 
 * VREF buffered between ADR4540 and LTC2400
-* VREF buffered to act as independant voltage reference
+* VREF buffered to act as independent voltage reference
 * VIN buffered from the voltage divider
 
-The independant 4.096V voltage reference is used to feed VIN via the voltage reference,
+The independent 4.096V voltage reference is used to feed VIN via the voltage reference,
 the idea being that we should be able to read a clean and accurate 4.096V signal via the voltage reference.
 
 A set of sample results:
@@ -457,7 +424,6 @@ A set of sample results:
     ADC Raw: 0x216CF470,  Current sample: 0x16CF47 = 4.0961179733V,  Average sample: 0x16CF10 = 4.0959672927V
     ADC Raw: 0x216CF344,  Current sample: 0x16CF34 = 4.0960659980V,  Average sample: 0x16CF33 = 4.0960631370V
 
-
 These results are not bad with 0.07% variability, a slight improvement over using the LT1019-2.5 reference.
 Results are summarised below:
 
@@ -469,13 +435,11 @@ Results are summarised below:
 | range   | 0.0029263496 |
 | range % | 0.07%        |
 
-
 ![LTC2400_ADR4540_opax388_buffered_bb](./assets/LTC2400_ADR4540_opax388_buffered_bb.jpg?raw=true)
 
 ![LTC2400_ADR4540_opax388_buffered_schematic](./assets/LTC2400_ADR4540_opax388_buffered_schematic.jpg?raw=true)
 
 ![scenario_5_build](./assets/scenario_5_build.jpg?raw=true)
-
 
 ## Conclusion - so far
 
@@ -483,7 +447,7 @@ Getting accurate readings with the LTC2400 takes a bit of work.
 A couple of things appear critical:
 
 * buffering reference and input signals with a high-precision op-amp (such as the OPA2388)
-* hefy bypass on each IC
+* hefty bypass on each IC
 * a good, stable power supply
 
 So far I've got reasonable readings of a LT1019-2.5V reference voltage with the circuit on a breadboard.
@@ -492,7 +456,6 @@ A 4.096V ADR4540 reference appears to offer slightly more accurate results.
 Some things I'd like to try next:
 
 * put the circuit on a PCB with a good ground plane
-
 
 ## Credits and References
 

@@ -2585,7 +2585,7 @@
     },
     "/electronics101/arcgeneratorkit/": {
         "id": 451,
-        "title": "ArcGeneratorKit",
+        "title": "Arc Generator Kit",
         "summary": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor",
         "tags": [
             "Power"
@@ -3066,7 +3066,7 @@
     },
     "/equipment/usbprotector/": {
         "id": 400,
-        "title": "USBProtector",
+        "title": "USB Protector",
         "summary": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection",
         "tags": [
             "Power",
@@ -3326,7 +3326,7 @@
     },
     "/equipment/millivoltmeterdiy/": {
         "id": 372,
-        "title": "MilliVoltmeterDIY",
+        "title": "MilliVoltmeter DIY",
         "summary": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
             "ATmega",
@@ -3337,7 +3337,7 @@
     },
     "/electronics101/bjt/commonemitteramplifier/": {
         "id": 371,
-        "title": "CommonEmitterAmplifier",
+        "title": "BJT Common-Emitter Amplifier",
         "summary": "all about BJT common-emitter amplifier biasing and class of operation",
         "tags": [
             "BJT"
@@ -3604,7 +3604,7 @@
     },
     "/esp8266/morseblinky/": {
         "id": 342,
-        "title": "ESP8266/MorseBlinky",
+        "title": "ESP8266 Morse Blinky",
         "summary": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker",
         "tags": [
             "ESP8266"
@@ -3709,7 +3709,7 @@
     },
     "/pic/gettingblinky/": {
         "id": 331,
-        "title": "PIC/GettingBlinky",
+        "title": "PIC Getting Blinky",
         "summary": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
         "tags": [
             "PIC",
@@ -4046,7 +4046,7 @@
     },
     "/equipment/frequencycounterkit/": {
         "id": 295,
-        "title": "FrequencyCounterKit",
+        "title": "Frequency Counter Kit",
         "summary": "build and test a common PIC-based frequency counter kit",
         "tags": [
             "PIC",
@@ -4173,7 +4173,7 @@
     },
     "/equipment/functiongeneratorkit/": {
         "id": 282,
-        "title": "FunctionGeneratorKit",
+        "title": "Function Generator Kit",
         "summary": "build and test a function generator kit based on the XR-2206 monolithic function generator",
         "tags": [
             "Oscillators",
@@ -4212,7 +4212,7 @@
     },
     "/equipment/componenttesterkit/": {
         "id": 278,
-        "title": "ComponentTesterKit",
+        "title": "Component Tester Kit",
         "summary": "build and evaluate a popular ATMEAG328-based component tester kit",
         "tags": [
             "Tools",
@@ -4259,7 +4259,7 @@
     },
     "/electronics101/voltagecontrolledoscillator/": {
         "id": 273,
-        "title": "VoltageControlledOscillator",
+        "title": "Voltage Controlled Oscillator",
         "summary": "exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator",
         "tags": [
             "Oscillators",
@@ -4269,7 +4269,7 @@
     },
     "/equipment/saike909d/": {
         "id": 272,
-        "title": "Saike909D",
+        "title": "Saike 909D",
         "summary": "unboxing and initial review of the Saike 909D 3-in-1 hot air rework station",
         "tags": [
             "Tools"
@@ -4413,7 +4413,7 @@
     },
     "/electronics101/clapswitchkit2/": {
         "id": 258,
-        "title": "ClapSwitchKit2",
+        "title": "Clap-switch Kit 2",
         "summary": "practice some Boldport-style soldering on yet-another clap switch kit",
         "tags": [
             "Oscillators",
@@ -4550,7 +4550,7 @@
     "/electronics101/switches/dpdt/": {
         "id": 244,
         "title": "Switches/DPDT",
-        "summary": "all about double-pole, double-thow (DPDT) toggle switches",
+        "summary": "all about double-pole, double-throw (DPDT) toggle switches",
         "tags": [
             "Switches"
         ]
@@ -4703,8 +4703,8 @@
     },
     "/electronics101/transistorcurvetracer/": {
         "id": 228,
-        "title": "TransistorCurveTracer",
-        "summary": "simple NPN transistor curve tracer using a Stairstep generator circuit",
+        "title": "Transistor Curve Tracer",
+        "summary": "simple NPN transistor curve tracer using a Stair-step generator circuit",
         "tags": [
             "OpAmp",
             "555 Timer",
@@ -4759,7 +4759,7 @@
     },
     "/electronics101/stairstepgenerator/": {
         "id": 222,
-        "title": "StairStepGenerator",
+        "title": "Stair-step Generator",
         "summary": "generate a stair-step waveform with analog components",
         "tags": [
             "OpAmp",
@@ -4816,7 +4816,7 @@
     },
     "/oshchip/ledx16module/": {
         "id": 216,
-        "title": "OSHChip/LEDx16Module",
+        "title": "OSHChip LEDx16 Module",
         "summary": "driving an SPI LED module with the OSHChip",
         "tags": [
             "OSHChip",
@@ -4825,17 +4825,16 @@
     },
     "/oshchip/yottatoolchain/": {
         "id": 215,
-        "title": "OSHChip/YottaToolchain",
+        "title": "OSHChip Yotta Toolchain",
         "summary": "build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX",
         "tags": [
             "ARM",
-            "gcc",
             "OSHChip"
         ]
     },
     "/oshchip/gcctoolchain/": {
         "id": 214,
-        "title": "OSHChip/GccToolchain",
+        "title": "OSHChip Gcc Toolchain",
         "summary": "can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?",
         "tags": [
             "ARM",
@@ -4845,7 +4844,7 @@
     },
     "/oshchip/blinky/": {
         "id": 213,
-        "title": "OSHChip/blinky",
+        "title": "OSHChip Blinky",
         "summary": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging",
         "tags": [
             "ARM",
@@ -5019,7 +5018,7 @@
     },
     "/esp8266/diydevboard/": {
         "id": 194,
-        "title": "ESP8266/DIYDevBoard",
+        "title": "ESP8266 DIY Devboard",
         "summary": "a DIY devboard for an ESP-01 ESP8266",
         "tags": [
             "ESP8266"
@@ -5206,7 +5205,7 @@
     },
     "/electronics101/usbnotifier/": {
         "id": 174,
-        "title": "UsbNotifier",
+        "title": "USB Notifier",
         "summary": "tear-down and demo code for some oldUSB Webmail Notifier devices",
         "tags": [
             "LED",
@@ -5244,7 +5243,7 @@
     },
     "/electronics101/clapswitchkit/": {
         "id": 170,
-        "title": "ClapSwitchKit",
+        "title": "Clap-switch Kit",
         "summary": "build and analyse a simple clap switch circuit available as a kit",
         "tags": [
             "Oscillators",
@@ -5307,7 +5306,7 @@
     },
     "/electronics101/variablesawtoothgenerator/": {
         "id": 163,
-        "title": "VariableSawtoothGenerator",
+        "title": "Variable Sawtooth Generator",
         "summary": "test a variable-geometry, fixed-amplitude sawtooth wave generator circuit",
         "tags": [
             "OpAmp",
@@ -5365,7 +5364,7 @@
     },
     "/equipment/mso5074fg_unboxing/": {
         "id": 156,
-        "title": "MSO5074FG_unboxing",
+        "title": "MSO5074FG Unboxing",
         "summary": "unboxing and first tests of a Hantek MSO5074FG oscilloscope",
         "tags": [
             "Tools",

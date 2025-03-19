@@ -14,7 +14,7 @@ I've wanted to try one of these for some time. For those cases where a Dremel, d
 * adding finishing details, cutouts etc for electronic project enclosures
 * for scale model construction
 
-The device arraived pretty much fully charged, so I was able to just slide in an attachment and start engraving.
+The device arrived pretty much fully charged, so I was able to just slide in an attachment and start engraving.
 Not powerful, but easy to precisely control, which is perfect for the light and fine work I plan to use it for.
 
 ### Specs
@@ -26,7 +26,6 @@ Not powerful, but easy to precisely control, which is perfect for the light and 
 * Voltage: 3.7V
 * Battery capacity: 380MAH
 * Charge input voltage: 5V 2A
-
 
 ![parts](./assets/parts.jpg?raw=true)
 

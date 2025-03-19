@@ -11,6 +11,7 @@ Here's a quick demo of the circuit in action:
 Differential amplifiers are excellently described in [w2aew's tutorial on YouTube](https://youtu.be/mejPNuPAHBY).
 
 This is a build and test of the basic long-tail circuit with no frills, which means the circuit is not ideal because:
+
 * it relies on matched transistors
 * output voltage varies with input voltage levels
 * differential gain varies with input voltage levels
@@ -23,6 +24,7 @@ from approaching 0 at large voltage differences (clipped by the circuit I believ
 to 10-100 for small variations.
 
 There are two improvements suggested by w2aew that will bring this circuit closer to an OpAmp:
+
 * constant current circuit on the emitter, to eliminate the impact of input voltage on output voltage and gain.
 * current mirror on the collectors, to improve gain
 
@@ -36,7 +38,7 @@ the 5V range supported by the Arduino analog input pins.
 
 Although not particularly accurate, it gives a rough indication of behaviour. For example:
 
-```
+```sh
 Sample:
                 ao1: 2919 mV
                 ao2: 2371 mV
@@ -46,7 +48,6 @@ Sample:
 output_differential: -1096 mV
                gain: 12.45
 ```
-
 
 ## Construction
 

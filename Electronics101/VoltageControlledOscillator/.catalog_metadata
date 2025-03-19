@@ -1,6 +1,6 @@
 {
     "id": "#273",
-    "name": "VoltageControlledOscillator",
+    "name": "Voltage Controlled Oscillator",
     "description": "exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator",
     "categories": "Oscillators, VCO, Varicap",
     "relative_path": "Electronics101/VoltageControlledOscillator",

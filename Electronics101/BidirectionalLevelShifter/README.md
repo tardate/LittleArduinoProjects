@@ -13,6 +13,7 @@ It is the basis of level-modules and interface circuits. Here I'm interfacing 3.
 goes into the mechanics.
 
 This is essentially how the bi-directional switching of voltage levels occurs:
+
 * When neither side is pulling down the input, the gate voltage is pulled up to the low-side voltage .. 3.3V in this case. The FET is not conducting, since gate and source voltages are equal. So both source and rain are at their respective high voltages: source: 3.3V, drain: 5V.
 * When low-side (source) is pulled down low, the source voltage is less than the gate so the FET turns on, and so high-side drain is also pulled low.
 * When high-side (drain) is pulled down low, the drain-substrate diode causes the source to also pull low.

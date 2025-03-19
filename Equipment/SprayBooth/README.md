@@ -56,7 +56,7 @@ OK, I'm going super cheap. My only new purchase was the fan (~$3) and filter ($2
 Testing the components:
 
 * the LEDs draw about 260mA at 12V. The mix of cool and warm white produces a very clear and comfortable light.
-* the fan draws about 290mA at 12V. It isvery quiet - acoustically and electrically. No voltage spikes at startup or stop, so no need for additional smoothing and supression components.
+* the fan draws about 290mA at 12V. It is very quiet - acoustically and electrically. No voltage spikes at startup or stop, so no need for additional smoothing and suppression components.
 
 Thus a very simple circuit:
 
@@ -85,7 +85,7 @@ Actual requirements will depend on the the toxicity and volume of aerosols being
 Since I am only dealing with low volumes of solder flux fumes and generally non-toxic water-based acrylic paint, I'm keeping this simple and probably under-engineered:
 
 * airflow: I've seen 200cfm+ being mentioned as ideal for airbrush work. For now I'm using a very quiet 120x25mm DC brushless fan that only moves about 60cfm)
-* filtering: since I'm not dealing with high volumes of toxic material, my main concern is supressing dust and paint so I'm using a cheap household grade filter
+* filtering: since I'm not dealing with high volumes of toxic material, my main concern is suppressing dust and paint so I'm using a cheap household grade filter
 * vent: I don't live in a house or climate that allows easy direct venting to the outside, so this is strictly for indoor use and only to move fumes from the immediate vicinity
 
 If I needed to upgrade this to deal with larger volumes of fumes or more toxic materials, I would probably (a) find another place to do this other than in the home and/or (b) replace the exhaust system with an industrial [inline fan](https://shopee.sg/4-Inch-Silent-Extractor-Duct-Hydroponic-Inline-Exhaust-Industrial-Vent-loganberries-i.152911194.6368162245) with ducting to extract and vent to the outdoors.
@@ -99,6 +99,5 @@ Some typical DC brushless fan specs:
 | 60x25mm  | 3600RPM | 22CFM , 0.62m3/min | 31dBa |
 | 80x25mm  | 3000RPM | 43CFM , 1.22m3/min | 31dBa |
 | 120x25mm | 2000RPM | 70CFM , 2.00m3/min | 33dBa |
-
 
 ## Credits and References

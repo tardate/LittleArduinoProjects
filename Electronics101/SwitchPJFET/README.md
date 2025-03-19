@@ -6,7 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![SwitchPJFET](./assets/SwitchPJFET_build2.jpg?raw=true)](https://www.youtube.com/watch?v=KfRI6a5oyQM)
 
-
 ## Notes
 
 This is a simple switching circuit using a p-channel JFET.
@@ -32,21 +31,25 @@ and the negative terminal connects through to drain.
 To bias the gate using a digital pin of the Arduino, we take the source of the JFET as the Arduino "ground".
 So the Arduino is able to apply from 0V to 5V the gate with respect to source.
 From the characteristic curves in the datasheet, we can see this is enough to effect a distinct on/off transition
+
 * Vgs = 0V, the JFET is fully "on"
 * Vgs = 5V, the JFET is fully "off"
 
 ### Rs - source resistor
+
 I've shown an Rs of 0Ω. This is just to show that there could be a source-side resistor.
 The voltage drop across Rs needs to be accounted for when determining Vg.
 Too large, and Vg can approach 0 or even invert with respect to Vs.
 
 ### Rg - gate resistor
+
 A 1MΩ resistor connects to the gate. In normal operation, this is redundant as the gate current is virtually zero (~1nA).
 i.e., yes the circuit still works fine with it removed.
 
 It does seem to be good protection in case Vgs becomes reverse biased and significant current flow through the gate is possible.
 
 ### The Code
+
 ... doesn't do anything special - just an amplified Blink! It uses a digital out pin to turn the JFET on and off.
 
 ## Construction
@@ -67,4 +70,3 @@ NB: in the schematic below, the FET symbol is not quite correct (shows p-channel
 * [JFET Analysis part 1](https://www.youtube.com/watch?v=ptwJkh_IgVs)
 * [JFET Biasing 1](https://www.youtube.com/watch?v=zlW-gm62WBo)
 * [JFET Self Bias Tutorial](http://www.electronicstutorialsblog.com/2012/03/22/jfet-junction-field-effect-transistor-self-bias-tutorial/)
-

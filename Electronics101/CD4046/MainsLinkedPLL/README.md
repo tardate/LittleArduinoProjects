@@ -18,7 +18,7 @@ To spice things up a bit, I'll use the circuit to produce a square wave locked i
 
 ## About PLLs
 
-#60: Basics of Phase Locked Loop Circuits and Frequency Synthesis, w2aew:
+### #60: Basics of Phase Locked Loop Circuits and Frequency Synthesis, w2aew
 
 [![clip](https://img.youtube.com/vi/SS7z8WsXPMk/0.jpg)](https://www.youtube.com/watch?v=SS7z8WsXPMk)
 
@@ -29,7 +29,6 @@ To spice things up a bit, I'll use the circuit to produce a square wave locked i
 * Low-pass Filter to smooth and dampen the comparator output to driver the VCO
 * CD4046 VCO
 * CD4011 NAND is used as an inverting buffer for the VCO output
-
 
 ### Mains Interface / AC Pulse Detector
 
@@ -49,12 +48,11 @@ In the final build a mains connection has the voltage is dropped across ~200kΩ 
 I don't have datasheets for my 1/4W resistors, and I suspect they may be fine with ~230V.
 But putting 3 resistors in series reduces the voltage across each individual resistor, and protects against any failing closed circuit.
 
-Note: with these resistor values, I am driving the opto-coupler resonably hard so it turns "on" close to when
+Note: with these resistor values, I am driving the opto-coupler reasonably hard so it turns "on" close to when
 the AC signal cross the zero-point.
 However there is at least a diode drop and rise time involved that corresponds to some lag, and this cascades through the PLL.
 So while the PLL output signal will be "locked" to the AC signal, it does have a fixed but non-zero phase offset
 that I haven't designed out of the system.
-
 
 ### Phase Comparator
 
@@ -63,7 +61,6 @@ CD4046 Phase Comparator II is used, which produces a tri-state output:
 * high when signal is leading the VCO output / comparator in
 * high impedance when signal is in phase with VCO output / comparator in
 * low when signal is lagging the VCO output / comparator in
-
 
 ### VCO Configuration
 
@@ -76,7 +73,6 @@ I chose C1 = 100nF and R1 = 100kΩ, which should correspond to a centre frequenc
 
 In practice, the range is 0 Hz to 166Hz. That's a reasonable range for covering mains frequencies, expected to be 50/60Hz.
 
-
 Some measurements to determine the actual VCO gain:
 
 | VCOin  | Frequency |
@@ -87,7 +83,6 @@ Some measurements to determine the actual VCO gain:
 
 So very roughly a VCO gain, KVCO, of
 [247](https://www.wolframalpha.com/input/?i=(165.5Hz+-+49.1Hz)+%2F(4.96V+-+2.0V)+*+2%CF%80) radians/sec/volt.
-
 
 ### Low-pass Filter
 
@@ -101,21 +96,17 @@ My design thinking so far:
 Low-pass filter comprises C2, R3 and R4:
 
 * R3C2 time constant drives the response time (smoothing)
-* R4/R3 ratio influences the dampending
-
+* R4/R3 ratio influences the dampening
 
 Given a 50 to 60 Hz mains frequency, choosing LP unity gain of around 2 Hz.
-
 
 Choosing C2 = 2.2 µF and R4 = 220kΩ,
 zero/breakpoint of the LP filter is around [2πR4C2 = 0.33Hz](https://www.wolframalpha.com/input/?i=1%2F(2%CF%80+2.2%C2%B5F+*+220k%CE%A9))
 
 Using a starting guide that suggests `R3 ~= 5 * R4`, I choose R3 = 1MΩ.
 
-
 So while I don't have the full rigorous derivation of the filter, these component values turned out to
 produce a well-locked VCO signal that is stable and relatively immune to noise.
-
 
 ## Construction
 
@@ -127,7 +118,7 @@ First built on a breadboard, with a 12V AC input to keep things low power.
 
 ![Breadboard](./assets/MainsLinkedPLL_bb.jpg?raw=true)
 
-In this pic, I'm atually using a CD4069 inverter to buffer the output:
+In this pic, I'm actually using a CD4069 inverter to buffer the output:
 
 ![MainsLinkedPLL_bb_build](./assets/MainsLinkedPLL_bb_build.jpg?raw=true)
 
@@ -136,7 +127,7 @@ For the final build:
 * transferred to protoboard
 * two sections with a good air-gap across the opto-coupler
 * mains cable with 2-pin (unearthed) plug
-* project case witha small cut-out for access to power, LED and signal pins
+* project case with a small cut-out for access to power, LED and signal pins
 
 Signal pins exposed:
 
@@ -147,14 +138,14 @@ Signal pins exposed:
 
 Rough sketch of the protoboard layout plan:
 
-![protobard_layout](./assets/protobard_layout.jpg?raw=true)
+![protoboard_layout](./assets/protobard_layout.jpg?raw=true)
 
 ## Test Results
 
 A very clean 50 Hz square wave output
 
 * CH1 (Yellow) - synchronised output wave
-* CH2 (Blue) - incoming wave from the optocoupler
+* CH2 (Blue) - incoming wave from the opto-coupler
 
 ![scope](./assets/scope.gif?raw=true)
 

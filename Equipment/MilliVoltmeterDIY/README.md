@@ -1,4 +1,4 @@
-# #372 MilliVoltmeterDIY
+# #372 MilliVoltmeter DIY
 
 An ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference.
 
@@ -21,7 +21,6 @@ A few changes I've made:
 * discarded the op-amp buffer, as I found it skewed the reading at the top and bottom of the range
 * altered the calibration method, so the only fixed value in the code is the reference voltage.
 
-
 ### Button Functions
 
 I used normally-open pushbuttons on the breadboard, but for the final build I have some normally-closed pushbuttons.
@@ -33,10 +32,9 @@ All the necessary functions are implemented with a three-button command set:
 * button 1: calibrate
 * button 2: change the number of digits (precision)
 * button 3: change the second-line function between 3 modes:
-    - bar graph
-    - hold value
-    - raw ADC output
-
+    * bar graph
+    * hold value
+    * raw ADC output
 
 ### Buffering the Input Voltage
 
@@ -44,13 +42,13 @@ The input signal is tapped from a voltage-divider to provide around 10x attenuat
 
 The values used in the voltage-divider are not critical. They just need to be in a suitable proportion to
 scale back the intended input voltage range to a maximum limit of the reference voltage,
-and large enough to provide a high-impedence input to the voltage under test.
+and large enough to provide a high-impedance input to the voltage under test.
 
 In my design, I'm using 100kΩ and 1MΩ which support a full-range of around [27.5V](https://www.wolframalpha.com/input/?i=(100k%CE%A9+%2B+1000k%CE%A9)%2F100k%CE%A9*2.5V)
 
 Ideally the reading should be buffered to further reduce coupling with the circuit-under-test, as in the original Scullcom project.
 I tested buffering with an LMC6482 op-amp, but although it is "rail-to-rail" I found it performed quite poorly at the top and bottom of the range
-e.g. 0V input still producted a 40mV output on the buffer. I decided to discard the buffer, and just rely on a stiff voltage divider.
+e.g. 0V input still produced a 40mV output on the buffer. I decided to discard the buffer, and just rely on a stiff voltage divider.
 Note that the Scullcom project used a AD8628ARZ, so perhaps that performs better as a buffer (I will have to get some to try).
 
 I also planned to add a 1N4733 5.1V zener diode to provide some over-voltage input protection (across the lower half of the voltage-divider).
@@ -68,9 +66,9 @@ This is received in a 32-bit serial stream:
 * the 24 bits in between are the actual reading
 
 The status bits help decode the reading correctly:
+
 * SIG indicates if reading is positive or negative
 * EXR indicates if the reading exceeds the reference range (above or below)
-
 
 ### Voltage Reference and Calibration
 
@@ -87,7 +85,7 @@ The only hardcoded value is the reference voltage. How this works:
 * the calibration adjustment factor is also stored in EEPROM as the default on startup
 
 As a result - as long as the reference voltage is accurate(!) - this approach is agnostic with regards to any
-input attenutation set in the input voltage divider.
+input attenuation set in the input voltage divider.
 
 #### How Calibration and Voltage Conversion Works
 
@@ -95,7 +93,7 @@ The ADC measures the voltage at the split-point of the voltage divider.
 
 When the 2.5V reference voltage is applied to the +ve input, the ADC reading thus corresponds to "2.5V".
 
-The code assumes a stright-line relationship with two data points:
+The code assumes a straight-line relationship with two data points:
 
 * 0V = 0 from the ADC
 * 2.5V = the calibrated value from the ADC
@@ -132,7 +130,6 @@ Note:
 * "mVm" is the reading with the MilliVoltmeter
 * "ADC" is the LTC2400 reading used by the MilliVoltmeter
 * "ADC Check Calc" is confirmation of the value reported by the MilliVoltmeter based on the ADC value
-
 
 So, hmm, there appears to be some skew in the readings obtained from the LTC2400:
 
@@ -172,7 +169,6 @@ Libraries used:
 * [EEPROM](https://www.arduino.cc/en/Reference/EEPROM)
 * [SPI](https://www.arduino.cc/en/Reference/SPI)
 
-
 ## Breadboard Construction
 
 I initially built this on a breadboard and controlled with an Arduino Uno to verify and refine the circuit.
@@ -183,11 +179,10 @@ I initially built this on a breadboard and controlled with an Arduino Uno to ver
 
 ![Build](./assets/MilliVoltmeterDIY_build.jpg?raw=true)
 
-
 ## Credits and References
 
 * [Scullcom Hobby Electronics #44 - Millivolt Meter MK2](https://www.youtube.com/watch?v=CiTPUmqE3Yg) - YouTube
-* [Millivolt Meter MK2](http://www.scullcom.uk/millivolt-meter-mk2/) - more info on on www.scullcom.uk
+* [Millivolt Meter MK2](http://www.scullcom.uk/millivolt-meter-mk2/) - more info on on <www.scullcom.uk>
 * [Millivolt_Meter_MK2_ver33.ino](http://www.scullcom.com/Millivolt_Meter_MK2_ver33.ino) - original source
 * [LTC2400 info and datasheet](http://www.linear.com/product/LTC2400)
 * [LT1019 info and datasheet](http://www.linear.com/product/LT1019)

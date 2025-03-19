@@ -16,7 +16,7 @@ to the volume of the incoming audio.
 
 ### Audio Input
 
-Consists of a standard electret biasing ciruit. The AC signal via 1µF ceramic
+Consists of a standard electret biasing circuit. The AC signal via 1µF ceramic
 feeds through an adjustable passive attenuator (22kΩ | 100kΩ pot) to the amplifier stage.
 
 The audio signal is amplified with an LM358 in non-inverting amplifier configuration with a hefty 330x gain.

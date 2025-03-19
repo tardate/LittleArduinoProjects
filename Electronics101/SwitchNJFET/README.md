@@ -1,7 +1,8 @@
-# #116 SwitchNJFET
+# #116 Switch - NJFET
 
 Switch an independent power source using an Arduino and n-channel JFET.
 
+![The Build](./assets/SwitchNJFET_build.jpg?raw=true)
 
 ## Notes
 
@@ -24,16 +25,19 @@ To bias the gate using a digital pin of the Arduino, we take the source of the J
 and ground the Arduino at the gate.
 So the Arduino is able to apply from 0V to 5V the source with respect to gate.
 From the characteristic curves in the datasheet, we can see this is enough to effect a distinct on/off transition
+
 * Vgs = 0V, the JFET is fully "on"
 * Vgs = -5V, the JFET is fully "off"
 
 ### Rg - gate resistor
+
 A 1MΩ resistor connects to the gate. In normal operation, this is redundant as the gate current is virtually zero (~1nA).
 i.e., yes the circuit still works fine with it removed.
 
 It does seem to be good protection in case Vgs becomes reverse biased and significant current flow through the gate is possible.
 
 ### The Code
+
 ... doesn't do anything special - just an amplified Blink! It uses a digital out pin to turn the JFET on and off.
 
 ## Construction

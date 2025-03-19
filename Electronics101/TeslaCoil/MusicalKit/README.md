@@ -16,7 +16,6 @@ I was encouraged to pop one in my cart (USD6.29 at the time) after seeing the bu
 
 [![clip](https://img.youtube.com/vi/GdhTVwSygqo/0.jpg)](https://www.youtube.com/watch?v=GdhTVwSygqo)
 
-
 ### Kit and Parts
 
 The kit may or not come with a schematic (mine didn't), but it is not needed for construction - only understanding!
@@ -49,7 +48,6 @@ Part list:
 |      | brass standoffs                       | 4    |
 |      | PCB                                   | 1    |
 
-
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
 ![kit_pcb](./assets/kit_pcb.jpg?raw=true)
@@ -63,15 +61,15 @@ This version of the circuit makes some clever additions:
 
 * audio input modulates the current to the coil via the 80NF70 NFET (Q2)
 * one LED is modulated by the audio input (D2)
-* one LED is modulated by the coild oscillations input (D1)
-* the audio-modulated coil (amazingly) vibrates and the plastic tube that is the core of the coil resonantes for this to act as a speaker!
+* one LED is modulated by the coil oscillations input (D1)
+* the audio-modulated coil (amazingly) vibrates and the plastic tube that is the core of the coil resonates for this to act as a speaker!
 
 ![Schematic](./assets/MusicalKit_schematic.jpg?raw=true)
 
 The essence of the circuit is the "slayer exciter" self-governing oscillation:
 
-* Initially Q1 on, current flow builds in promarimy winding
-* magnatic field induces currentin the secondary winding
+* Initially Q1 on, current flow builds in primary winding
+* magnetic field induces current in the secondary winding
 * secondary sees a very small air-ground capacitor at one end, so initially cannot conduct but starts to pull Q1 base negative
 * until Q1 base current throttled enough to turn off
 * magnetic field collapses, and flyback voltage discharges into the air (generating a plasma!)
@@ -98,7 +96,6 @@ Some measurements of actual power consumption at different voltages:
 |---------|---------|-------|
 | 14V     | 0.5A    | 7W    |
 | 18V     | 0.7A    | 13W   |
-
 
 ## Testing the Completed Kit
 

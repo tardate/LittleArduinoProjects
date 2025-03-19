@@ -4,12 +4,12 @@ Checking out a second-hand Saleae Logic (a 24 MS/s, 8 channel USB logic analyzer
 
 ![Build](./assets/SaleaeLogic_build.jpg?raw=true)
 
-
 ## Notes
 
 I recently had a Saleae Logic fall into my hands - it's an old model and was looking for a good home.
 
 It is similar to the [current range of products](https://www.saleae.com), but lower specs:
+
 * USB 2.0
 * 24 MS/s
 * 8 digital channels
@@ -30,7 +30,7 @@ I think this device just went from being a curiosity to something I can see my s
 
 This put a smile on my face ... go to [Saleae Downloads](https://www.saleae.com/downloads), and they
 have a good looking site that recognises me as a MacOSX user and offers to download Version 1.2.10 for Mac OSX 10.7 Lion+.
-If only more electronics equipment manufactururs would come to the multi-platform party!
+If only more electronics equipment manufacturers would come to the multi-platform party!
 
 The software installed like a "real" Mac app, and immediately recognised the old Logic when I plugged it into the USB.
 Here's my first trace. Unfortunately not a standard I²C or SPI protocol so I'm not sure how well the protocol recognition/analysis works yet.
@@ -39,7 +39,7 @@ Here's my first trace. Unfortunately not a standard I²C or SPI protocol so I'm 
 
 The USB device profile as it shows up on my machine:
 
-```
+```sh
 Logic:
 
   Product ID: 0x3881
@@ -53,7 +53,6 @@ Logic:
 ```
 
 ![SaleaeLogic_test](./assets/SaleaeLogic_test.jpg?raw=true)
-
 
 ## Credits and References
 

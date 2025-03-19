@@ -25,10 +25,9 @@ With a few minor modifications, the board could probably be made much more bread
 
 ![Labrador_dut](./assets/Labrador_dut.jpg?raw=true)
 
-
 ## Software Install and Power Up
 
-After connecting the USB cable, the board was detected without any issue by the MacOSX USB subsystem. This is how it appers in System Information:
+After connecting the USB cable, the board was detected without any issue by the MacOSX USB subsystem. This is how it appears in System Information:
 
 ![usb_info](./assets/usb_info.png?raw=true)
 
@@ -94,7 +93,7 @@ and seems to indicate the PSU output regulation is pretty poor (at least when un
 
 ![test_voltmeter](./assets/test_voltmeter.png?raw=true)
 
-### Logic Analyxer
+### Logic Analyser
 
 Not tested this yet..
 
@@ -110,7 +109,6 @@ Here are my notes from a quick scan of the source:
 * an isoBuffer class that enables O(1) performance for read/write operations, while maintaining a huge buffer size
 * most of the rest of the code is UI related
 
-
 ## Quick Look: Schematic
 
 The design files are open source and available on [GitHub](https://github.com/espotek/Labrador).
@@ -124,7 +122,7 @@ The design appears to breakdown into these main subsystems:
 * boost converter directly controlled by PWM from the AVR processor
 * heavily filtered/smoothed AVCC from the regulated 3.3 supply
 * logic analyzer input via n-channel MOSFETs (DMN63D8LDW)
-* DAC ouput direct from AVR buffered with LM324 opamps
+* DAC output direct from AVR buffered with LM324 opamps
 
 ![Labrador_schematic](./assets/Labrador_schematic.jpg?raw=true)
 
@@ -138,7 +136,7 @@ Here's a 3D render of the board in kicad:
 
 ### Digital Out
 
-The board includes pinouts for 4 GPIO ports (PE0-3). However it appears these are not given any specific fucntion in the current AVR code.
+The board includes pinouts for 4 GPIO ports (PE0-3). However it appears these are not given any specific function in the current AVR code.
 
 ## Credits and References
 

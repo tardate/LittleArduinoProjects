@@ -35,11 +35,11 @@ for the calibration factor (`CAL`) to be automatically calculated.
 Two things are obvious and important:
 
 * handling a different current range means re-compiling the source (this could be avoided by adding a range selector input to the project)
-* the actual value of the shunt resitance really maters! Either measured with a very accurate mΩ meter, or calibrated in-circuit. Especially for breadboard tests, I calibrated in-circuit, as by the time breadboard traces, mounting pins etc are taken into account, an R020 0.02Ω resistor was actually more like 0.19Ω in total.
+* the actual value of the shunt resistance really maters! Either measured with a very accurate mΩ meter, or calibrated in-circuit. Especially for breadboard tests, I calibrated in-circuit, as by the time breadboard traces, mounting pins etc are taken into account, an R020 0.02Ω resistor was actually more like 0.19Ω in total.
 
 When run with an Arduino Uno, the internal settings are reporting over the serial port, for example:
 
-```
+```sh
 INA226 Power Meter
 Manufacturer ID : 5449
 Die ID          : 2260
@@ -85,13 +85,12 @@ Checking that it can ever run from a coin cell:
 
 ![PowerMeterATTiny_bb_build2](./assets/PowerMeterATTiny_bb_build2.jpg?raw=true)
 
-
 ## Power Switching for the Project
 
 The power meter is independently powered. While it would be possible to tap the power supply under test,
 this approach introduces additional constraints and easiest to avoid.
 
-I'm using a 3V CR2032 cell for powering the circuit - *just* enough jiuce it seems for the ATtiny, OLED and INA226.
+I'm using a 3V CR2032 cell for powering the circuit - *just* enough juice it seems for the ATtiny, OLED and INA226.
 
 So how to switch the power to the INA226 monitoring circuit? Three options:
 
@@ -104,7 +103,7 @@ but while these are theoretically a thing, I've not been able to find any.
 
 Considering a DC switched jack with a normally closed 3rd pin (this is ~100% of commonly available DC barrel jacks)...
 It is not ideal however: since I'm already operating at 3V, there's not much headroom for any additional voltage drop across a FET, so a very low Rds(on) is essential.
-With a normally-closed switch, a low-side n-channel MOSFET switch configuration makes sense, but even with a high value pullup (1MΩ works)
+With a normally-closed switch, a low-side n-channel MOSFET switch configuration makes sense, but even with a high value pull-up (1MΩ works)
 there will be a small but continuous current draw of [3µA](https://www.wolframalpha.com/input/?i=3V%2F1M%CE%A9) to accept.
 There is perhaps a bigger issue that the low-side FET switch adds an "unknowable" voltage drop that means that bus voltage sensing
 will always be off.
@@ -112,7 +111,7 @@ will always be off.
 I did try this on the breadboard and it does work:
 
 * n-channel MOSFET connected with drain on the low-side of the IN226 power meter and source to ground.
-* FET gate pulled down by the nomally closed DC jack 3rd pin
+* FET gate pulled down by the normally closed DC jack 3rd pin
 * a 1MΩ pull-up resistor on the gate to ensure the FET switches on when a plug is inserted and breaks the 3rd pin connection to ground
 * tested a few FETS that work: 2N7000 (barely), IRFZ44N, and AO3400.
 
@@ -144,7 +143,7 @@ And all installed in a small project box:
 A few ideas:
 
 * add auto-ranging (adjust the calibration when readings are heading under/over range)
-* design a PCB for the circiut
+* design a PCB for the circuit
 * find a DC switched jack with a normally open 3rd pin?
 
 ## Credits and References

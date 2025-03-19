@@ -7,7 +7,7 @@ Using an OpAmp as a final buffer stage for TTL or similar circuits
 ## Notes
 
 TTL devices and other logic circuits often need to chain to other circuits.
-A buffer is generally needed to ensure there is a good impedence match to the following circuit,
+A buffer is generally needed to ensure there is a good impedance match to the following circuit,
 and also to ensure a consistent signal is passed on.
 
 OpAmp buffers can be used to provide unity gain and isolate the input and output sides.

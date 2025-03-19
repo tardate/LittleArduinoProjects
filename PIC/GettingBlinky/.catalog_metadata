@@ -1,6 +1,6 @@
 {
     "id": "#331",
-    "name": "PIC/GettingBlinky",
+    "name": "PIC Getting Blinky",
     "description": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
     "categories": "PIC, LED",
     "relative_path": "PIC/GettingBlinky",

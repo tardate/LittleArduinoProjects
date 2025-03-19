@@ -15,14 +15,14 @@ So for this project I'm programming a PIC16F84A-04 with a simple assembler "LED 
 my setup and the following tools:
 
 * MPLABX v5.30 running on MacOSX
-  * mplab_ide - the main IDE
-  * mplab_ipe - the stand-alone programmer
-  * mpasm 5.86
+    * mplab_ide - the main IDE
+    * mplab_ipe - the stand-alone programmer
+    * mpasm 5.86
 * PICKit 3 (clone)
 * PIC16F84A-04 on a breadboard
 * PIC16F84A-04 on a 3rd party development/programming board
 
-#### PIC16F84A Specs
+### PIC16F84A Specs
 
 The [microchip](https://www.microchip.com/wwwproducts/en/PIC16F84A) site has plenty of info and datasheets for the processor. The core specs:
 
@@ -38,7 +38,7 @@ The [microchip](https://www.microchip.com/wwwproducts/en/PIC16F84A) site has ple
 
 ## Programmer
 
-I got my PICKit 3 in a [programmer / minimum system board bundle](https://www.aliexpress.com/item/1734894366.html) from a seller on aliexress.
+I got my PICKit 3 in a [programmer / minimum system board bundle](https://www.aliexpress.com/item/1734894366.html) from a seller on aliexpress.
 Only 5 of the pins are relevant for programming the PIC16F84A:
 
 | PIC16F84A Pin | Programmer Pin | Function   | Description         |
@@ -54,10 +54,9 @@ Notes:
 * MCLR is the Master Clear (Reset) input/programming voltage input. This pin is an active low RESET to the device
 * In the PIC16F8X, the programming high voltage is internally generated. To activate the Programming mode, high voltage needs to be applied to MCLR input. Since the MCLR is used for a level source, this means that MCLR does not draw any significant current.
 
-### Compileing the Project with the the MPLABX IDE
+### Compiling the Project with the the MPLABX IDE
 
-
-The [PIC16F84ABlinky.X](./PIC16F84ABlinky.X) project is a simple single-file program in assembelr that blinks an LED on pin RA3 (2) at about 4Hz.
+The [PIC16F84ABlinky.X](./PIC16F84ABlinky.X) project is a simple single-file program in assembler that blinks an LED on pin RA3 (2) at about 4Hz.
 The code was compiled with the [MPLABX IDE](https://www.microchip.com/mplab/mplab-x-ide) and device programmed with a PICKit 3.
 
 Project settings selected as follows:
@@ -126,12 +125,12 @@ However, two limitations:
 
 ![devboard_ext_power](./assets/devboard_ext_power.jpg?raw=true)
 
-## Bad Chips!
+## Bad Chips
 
 The first PIC16F84A chips I tried to program came from an aliexpress supplier and were clearly salvaged parts.
 The programmer was unable to identify them or perform any programming actions.
 
-```
+```sh
 Connecting to MPLAB PICkit 3...
 
 Currently loaded firmware on PICkit 3
@@ -143,7 +142,7 @@ Target Device ID (0x3fe0) is an Invalid Device ID. Please check your connections
 
 If I still tried to proceed with programming it would fail:
 
-```
+```sh
 Programming...
 
 The following memory area(s) will be programmed:

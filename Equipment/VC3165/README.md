@@ -17,7 +17,7 @@ What follows is an overview of the operation and a bit of a look at the internal
 ## Enclosure
 
 The instrument uses a standard enclosure.
-Front and rear panels are well layed out, although the gate control knob below the channel inputs
+Front and rear panels are well laid out, although the gate control knob below the channel inputs
 can be inconvenient to get to with leads attached.
 
 The unit I received had some button labels only in Chinese, so I've stuck on my own labels in English.
@@ -46,7 +46,7 @@ The function key selects between 3 modes. The input channel used depends on the 
 ### AC/DC Switch
 
 In mode 3, the AC/DC switch selects between low frequency AC signals
-and verl low frequncy DC signals (DC measurement is required for anything under 100Hz).
+and very low frequency DC signals (DC measurement is required for anything under 100Hz).
 
 ### Gate Control
 

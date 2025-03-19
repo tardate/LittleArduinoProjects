@@ -2821,7 +2821,7 @@
     },
     {
         "id": "#451",
-        "name": "ArcGeneratorKit",
+        "name": "Arc Generator Kit",
         "description": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor",
         "categories": "Power",
         "relative_path": "electronics101/arcgeneratorkit",
@@ -3331,7 +3331,7 @@
     },
     {
         "id": "#400",
-        "name": "USBProtector",
+        "name": "USB Protector",
         "description": "building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection",
         "categories": "Power, USB, Tools, Test Equipment",
         "relative_path": "equipment/usbprotector",
@@ -3611,7 +3611,7 @@
     },
     {
         "id": "#372",
-        "name": "MilliVoltmeterDIY",
+        "name": "MilliVoltmeter DIY",
         "description": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "categories": "ATmega, ADC, Tools, Test Equipment",
         "relative_path": "equipment/millivoltmeterdiy",
@@ -3621,7 +3621,7 @@
     },
     {
         "id": "#371",
-        "name": "CommonEmitterAmplifier",
+        "name": "BJT Common-Emitter Amplifier",
         "description": "all about BJT common-emitter amplifier biasing and class of operation",
         "categories": "BJT",
         "relative_path": "electronics101/bjt/commonemitteramplifier",
@@ -3911,7 +3911,7 @@
     },
     {
         "id": "#342",
-        "name": "ESP8266/MorseBlinky",
+        "name": "ESP8266 Morse Blinky",
         "description": "building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker",
         "categories": "ESP8266",
         "relative_path": "esp8266/morseblinky",
@@ -4021,7 +4021,7 @@
     },
     {
         "id": "#331",
-        "name": "PIC/GettingBlinky",
+        "name": "PIC Getting Blinky",
         "description": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
         "categories": "PIC, LED",
         "relative_path": "pic/gettingblinky",
@@ -4381,7 +4381,7 @@
     },
     {
         "id": "#295",
-        "name": "FrequencyCounterKit",
+        "name": "Frequency Counter Kit",
         "description": "build and test a common PIC-based frequency counter kit",
         "categories": "PIC, Tools, Test Equipment, Oscillators",
         "relative_path": "equipment/frequencycounterkit",
@@ -4511,7 +4511,7 @@
     },
     {
         "id": "#282",
-        "name": "FunctionGeneratorKit",
+        "name": "Function Generator Kit",
         "description": "build and test a function generator kit based on the XR-2206 monolithic function generator",
         "categories": "Oscillators, Tools, Test Equipment, XR2206",
         "relative_path": "equipment/functiongeneratorkit",
@@ -4551,7 +4551,7 @@
     },
     {
         "id": "#278",
-        "name": "ComponentTesterKit",
+        "name": "Component Tester Kit",
         "description": "build and evaluate a popular ATMEAG328-based component tester kit",
         "categories": "Tools, Test Equipment, ATmega",
         "relative_path": "equipment/componenttesterkit",
@@ -4601,7 +4601,7 @@
     },
     {
         "id": "#273",
-        "name": "VoltageControlledOscillator",
+        "name": "Voltage Controlled Oscillator",
         "description": "exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator",
         "categories": "Oscillators, VCO, Varicap",
         "relative_path": "electronics101/voltagecontrolledoscillator",
@@ -4611,7 +4611,7 @@
     },
     {
         "id": "#272",
-        "name": "Saike909D",
+        "name": "Saike 909D",
         "description": "unboxing and initial review of the Saike 909D 3-in-1 hot air rework station",
         "categories": "Tools",
         "relative_path": "equipment/saike909d",
@@ -4751,7 +4751,7 @@
     },
     {
         "id": "#258",
-        "name": "ClapSwitchKit2",
+        "name": "Clap-switch Kit 2",
         "description": "practice some Boldport-style soldering on yet-another clap switch kit",
         "categories": "Oscillators, BJT, Digital Logic",
         "relative_path": "electronics101/clapswitchkit2",
@@ -4892,7 +4892,7 @@
     {
         "id": "#244",
         "name": "Switches/DPDT",
-        "description": "all about double-pole, double-thow (DPDT) toggle switches",
+        "description": "all about double-pole, double-throw (DPDT) toggle switches",
         "categories": "Switches",
         "relative_path": "electronics101/switches/dpdt",
         "updated_at": "2016-09-19T15:45:05Z",
@@ -5051,8 +5051,8 @@
     },
     {
         "id": "#228",
-        "name": "TransistorCurveTracer",
-        "description": "simple NPN transistor curve tracer using a Stairstep generator circuit",
+        "name": "Transistor Curve Tracer",
+        "description": "simple NPN transistor curve tracer using a Stair-step generator circuit",
         "categories": "OpAmp, 555 Timer, Oscillators",
         "relative_path": "electronics101/transistorcurvetracer",
         "updated_at": "2016-06-19T04:39:39Z",
@@ -5111,7 +5111,7 @@
     },
     {
         "id": "#222",
-        "name": "StairStepGenerator",
+        "name": "Stair-step Generator",
         "description": "generate a stair-step waveform with analog components",
         "categories": "OpAmp, 555 Timer, Oscillators",
         "relative_path": "electronics101/stairstepgenerator",
@@ -5171,7 +5171,7 @@
     },
     {
         "id": "#216",
-        "name": "OSHChip/LEDx16Module",
+        "name": "OSHChip LEDx16 Module",
         "description": "driving an SPI LED module with the OSHChip",
         "categories": "OSHChip, SPI",
         "relative_path": "oshchip/ledx16module",
@@ -5181,9 +5181,9 @@
     },
     {
         "id": "#215",
-        "name": "OSHChip/YottaToolchain",
+        "name": "OSHChip Yotta Toolchain",
         "description": "build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX",
-        "categories": "ARM, gcc, OSHChip",
+        "categories": "ARM, OSHChip",
         "relative_path": "oshchip/yottatoolchain",
         "updated_at": "2016-06-19T14:13:24Z",
         "created_at": "2016-06-19T14:13:24Z",
@@ -5191,7 +5191,7 @@
     },
     {
         "id": "#214",
-        "name": "OSHChip/GccToolchain",
+        "name": "OSHChip Gcc Toolchain",
         "description": "can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?",
         "categories": "ARM, gcc, OSHChip",
         "relative_path": "oshchip/gcctoolchain",
@@ -5201,7 +5201,7 @@
     },
     {
         "id": "#213",
-        "name": "OSHChip/blinky",
+        "name": "OSHChip Blinky",
         "description": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging",
         "categories": "ARM, OSHChip",
         "relative_path": "oshchip/blinky",
@@ -5391,7 +5391,7 @@
     },
     {
         "id": "#194",
-        "name": "ESP8266/DIYDevBoard",
+        "name": "ESP8266 DIY Devboard",
         "description": "a DIY devboard for an ESP-01 ESP8266",
         "categories": "ESP8266",
         "relative_path": "esp8266/diydevboard",
@@ -5591,7 +5591,7 @@
     },
     {
         "id": "#174",
-        "name": "UsbNotifier",
+        "name": "USB Notifier",
         "description": "tear-down and demo code for some oldUSB Webmail Notifier devices",
         "categories": "LED, USB",
         "relative_path": "electronics101/usbnotifier",
@@ -5631,7 +5631,7 @@
     },
     {
         "id": "#170",
-        "name": "ClapSwitchKit",
+        "name": "Clap-switch Kit",
         "description": "build and analyse a simple clap switch circuit available as a kit",
         "categories": "Oscillators, BJT, Digital Logic",
         "relative_path": "electronics101/clapswitchkit",
@@ -5701,7 +5701,7 @@
     },
     {
         "id": "#163",
-        "name": "VariableSawtoothGenerator",
+        "name": "Variable Sawtooth Generator",
         "description": "test a variable-geometry, fixed-amplitude sawtooth wave generator circuit",
         "categories": "OpAmp, Oscillators",
         "relative_path": "electronics101/variablesawtoothgenerator",
@@ -5771,7 +5771,7 @@
     },
     {
         "id": "#156",
-        "name": "MSO5074FG_unboxing",
+        "name": "MSO5074FG Unboxing",
         "description": "unboxing and first tests of a Hantek MSO5074FG oscilloscope",
         "categories": "Tools, Test Equipment, Oscilloscope",
         "relative_path": "equipment/mso5074fg_unboxing",

@@ -1,7 +1,8 @@
-# #163 VariableSawtoothGenerator
+# #163 Variable Sawtooth Generator
 
 Test a variable-geometry, fixed-amplitude sawtooth wave generator circuit
 
+![The Build](./assets/VariableSawtoothGenerator_build.jpg?raw=true)
 
 ## Notes
 
@@ -15,18 +16,18 @@ A comparator with hysteresis is used to switch the current sources.
 ### Components and Limitations
 
 I'm using an LM324 op-amp for the comparator and buffer circuits. This is just borderline acceptable,
-since it is not rail-to-rail and so the resulting votage differential in the hysteresis cycle is only about 1V.
+since it is not rail-to-rail and so the resulting voltage differential in the hysteresis cycle is only about 1V.
 It also seems to be contributing some degree of crossover distortion.
 
-1N4148 diodes are recommended, but I did try replacing them all with standard 1N4007 rectifers.
+1N4148 diodes are recommended, but I did try replacing them all with standard 1N4007 rectifiers.
 While the circuit still functioned, with 1N4007 diodes there was more distortion of the waveform - I think primarily because of the lower switching speed.
 
 ### Results - LM324
 
 The following trace is with a 5V supply. It's a bit hard to read because I crammed 4 measurements in one.
 The inputs are all DC coupled with no offset to the centre 0V line.
- comparator output swings from ~0.7V to ~3.7V (showing how far from rail-rail the LM324 is!)
-*
+
+* comparator output swings from ~0.7V to ~3.7V (showing how far from rail-rail the LM324 is!)
 
 ![5v trace LM324](./assets/VariableSawtoothGenerator_scope_LM324_5v.gif?raw=true)
 

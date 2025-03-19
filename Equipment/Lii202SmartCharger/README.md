@@ -21,7 +21,7 @@ Overall it is a good unit, although the power bank function is a bit of a gimmic
 | Item                   | Specification              |
 |------------------------|----------------------------|
 | Input                  | Micro USB DC 5V, 1A/2A     |
-| Standy current         | ≤ 15mAH                    |
+| Standby current        | ≤ 15mAH                    |
 | USB Output no-Load     | 4.90V-5.30V                |
 | Weight                 | 200g / 7.05oz              |
 | Dimensions (L*W*H)     | 180*80*53mm                |
@@ -42,7 +42,6 @@ Charging features:
     * Li-ion 3.8V: 4.35+0.05V
 * Quick Charge: Yes; Output Protection Voltage: 3.0+0.1V
 * Intelligent Charge: Battery anti-reverse, short circuit protection and overcharge protection
-
 
 ### Battery Specifications
 

@@ -34,7 +34,7 @@ UHF Connector is dated terminology for RF connections using SO-239 (socket) and 
 
 BNC - Bayonet Neill–Concelman.
 
-* used on VHF, UHF, sometiems HF. Use in RF applications is gradually fading.
+* used on VHF, UHF, sometimes HF. Use in RF applications is gradually fading.
 * widely used outside of RF e.g. test equipment etc
 
 See also:
@@ -59,8 +59,6 @@ I have an [AN-02H1](https://www.aliexpress.com/item/AN-02H1-RG58-RG59-RG62-crimp
 crimping tool, which conveniently handles RG58 and RG174, among many others.
 
 ![crimp_tool](./assets/crimp_tool.jpg?raw=true)
-
-
 
 ### SMA connector
 
@@ -90,7 +88,6 @@ The N connector is a threaded, weatherproof, medium-size RF connector used to jo
 
 [![f](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/F_Connector_Side.jpg/500px-F_Connector_Side.jpg)](https://en.wikipedia.org/wiki/F_connector#/media/File:F_Connector_Side.jpg)
 
-
 ### Coaxial Cable
 
 * [Coaxial cable](https://en.wikipedia.org/wiki/Coaxial_cable) - wikipedia
@@ -98,7 +95,6 @@ The N connector is a threaded, weatherproof, medium-size RF connector used to jo
 * RG-59/U - 75Ω Used to carry baseband video in closed-circuit television, previously used for cable television. In general, it has poor shielding but will carry an HQ HD signal or video over short distances
 * RG-174/U - 50Ω - Common for Wi-Fi pigtails: more flexible but higher loss than RG58; used with LEMO 00 connectors in NIM electronics.
 * RG-213/U - 50Ω - For radiocommunication and amateur radio, EMC test antenna cables. Typically lower loss than RG58. Common.[30]
-
 
 Typical Crimp Die sizes
 
@@ -113,7 +109,6 @@ Typical Crimp Die sizes
 
 [![clip](https://img.youtube.com/vi/ol36eqfEtlw/0.jpg)](https://www.youtube.com/watch?v=ol36eqfEtlw)
 
-
 ## Credits and References
 
 * [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
@@ -126,4 +121,3 @@ Typical Crimp Die sizes
 * [F connector](https://en.wikipedia.org/wiki/F_connector) - wikipedia
 * [F-Type connector series](https://www.amphenolrf.com/connectors/f-type.html) - Amphenol’s F-Type is a 75 Ω connector featuring 30 dB return loss at 1GHz.
 * [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap347-rf-connectors.html)
-

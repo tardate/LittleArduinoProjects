@@ -1,5 +1,5 @@
 # Guardfile that demonstrates hooking RSpec results
-# and blinking notifyications on the Fomu RGB LED
+# and blinking notifications on the Fomu RGB LED
 # using the wishbone-tool to control a RISC-V notification program running on the Fomu
 
 # The Fomu/wishbone-tool integration lives here

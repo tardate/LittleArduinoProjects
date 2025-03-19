@@ -12,11 +12,9 @@ and immediately thought "decade programmable resistor".
 A [decade box](https://en.wikipedia.org/wiki/Decade_box) is an old-fashioned bit of test equipment, allowing
 an arbitrary resistance to be dialed up to order.
 
-
 Dave Jones has covered the concept and shown examples. A good starting point is EEVblog #212 - DIY Decade Resistance Substitution Boxes:
 
 [![clip](https://img.youtube.com/vi/G-QfDkgE2qA/0.jpg)](https://www.youtube.com/watch?v=G-QfDkgE2qA)
-
 
 ## Construction
 
@@ -26,7 +24,6 @@ BCD versions are also available (these could be used, but require a somewhat mor
 
 ![wheel_unit](./assets/wheel_unit.jpg?raw=true)
 
-
 ## Circuit Design
 
 With 10-throw switches, construction is trivial:
@@ -34,7 +31,7 @@ With 10-throw switches, construction is trivial:
 * stage input is connected to the common
 * the 10 poles are connected in a ladder with a resistor between each pole (9 resistors)
 * stage output is tapped from the "0" position
-* hence the resistance between input and ouput varies from 0 to 9x the resistor value
+* hence the resistance between input and output varies from 0 to 9x the resistor value
 
 I've drawn the schematic for the 7-digit circuit [here (EasyEDA)](https://easyeda.com/tardate/decadeprogrammableresistor)
 
@@ -42,7 +39,7 @@ I've drawn the schematic for the 7-digit circuit [here (EasyEDA)](https://easyed
 
 The seven units for seven digits constructed.
 I've used axial 5% resistors (1Ω, 10Ω, 100Ω, 1kΩ, 10kΩ, 100kΩ, 1MΩ respectively),
-and theu mount quite nicely on the switches without additional wiring required.
+and they mount quite nicely on the switches without additional wiring required.
 
 ![build_units](./assets/build_units.jpg?raw=true)
 
@@ -52,7 +49,7 @@ Assembled as a 7-digit bank:
 
 ![build_front](./assets/build_front.jpg?raw=true)
 
-And finally encased in a traansparent case (a Ferrero Rocher box iirc) with a terminal block for connectivity:
+And finally encased in a transparent case (a Ferrero Rocher box iirc) with a terminal block for connectivity:
 
 ![Build](./assets/DecadeProgrammableResistor_build.jpg?raw=true)
 
@@ -67,7 +64,6 @@ Measurements were taken with a cheap digital multi-meter (which may have its own
 Here's a chart of the error from 1Ω to 1MΩ:
 
 ![error_chart](./assets/error_chart.png?raw=true)
-
 
 ## Credits and References
 

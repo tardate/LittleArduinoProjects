@@ -15,14 +15,16 @@ After trying many of the variations, I found that going back to basics performed
 (per the reference circuits in the datasheet).
 
 Features of the circuit:
+
 * default 20x gain (no extra components required)
-* simple capacitive-coupling with ~50k impedence matching for a guitar input
+* simple capacitive-coupling with ~50k impedance matching for a guitar input
 * ring of the 6.35mm connector is used to switch power - use with a standard mono cable
 * mono output is sent to left and right channels of the headphone socket
 
 How it performs:
-* clean signal with a slight warm overdrive at maximum guitar ouput
-* performance can be a bit temperamental on a broadboard, but when I put it on a protoboard it performs quite well.
+
+* clean signal with a slight warm overdrive at maximum guitar output
+* performance can be a bit temperamental on a breadboard, but when I put it on a protoboard it performs quite well.
 
 ## Construction
 

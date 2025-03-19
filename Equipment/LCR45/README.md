@@ -20,18 +20,16 @@ Features:
 * Frequencies: DC, 1kHz, 15kHz and 200kHz.
 * Display of component values, complex impedance, complex admittance and magnitude/phase.
 
-
 Key Specifications:
 
 | Parameter               | Min   | Typ   | Max |
 |-------------------------|-------|-------|-----|
-| Resistatnce Range       | 0Ω    |       | 2MΩ |
-| Resistatnce Resolution  | 0.1Ω  | 0.2Ω  | |
+| Resistance Range        | 0Ω    |       | 2MΩ |
+| Resistance Resolution   | 0.1Ω  | 0.2Ω  | |
 | Capacitance Range       | 0pF   |       | 10000µF |
 | Capacitance Resolution  | 0.1pF | 0.2pF |  |
 | Inductance Range        | 0H    |       | 10H |
 | Inductance Resolution   | 0.1µH |0.2uH  |  |
-
 
 ## Measuring Complex Impedance
 
@@ -40,7 +38,7 @@ range of inductive, resistive and capacitive loads.
 
 The main display will show Henries, Ohms or Farads as applicable, but the enter key switches the display to also show:
 
-* complex impedence
+* complex impedance
 * complex admittance (reciprocal of impedance)
 * magnitude and phase
 
@@ -50,7 +48,6 @@ The main display will show Henries, Ohms or Farads as applicable, but the enter 
 
 The out-of-the box experience is excellent. It comes with a printed user manual (also available for download online, along with the datasheet),
 but it really does not need much instruction. The fact that it is a compact, portable and battery-powered is a bonus.
-
 
 Peak provide an option for the unit to be supplied with a certificate of conformance, which provides a detailed calibration and manual verification report.
 I sprung for this option, as I lack any other calibrated LCR equipment.

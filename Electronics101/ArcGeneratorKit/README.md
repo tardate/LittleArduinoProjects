@@ -1,4 +1,4 @@
-# #451 ArcGeneratorKit
+# #451 Arc Generator Kit
 
 Playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor.
 
@@ -22,7 +22,6 @@ Specifications
 * Output Current: <= 0.4A
 * High Voltage Polarization Ignition Distance: <= 0.5cm
 
-
 ## The Basic Circuit
 
 I redrew the basic schematic [here in EasyEDA](https://easyeda.com/tardate/ArcGeneratorKit).
@@ -32,7 +31,6 @@ I redrew the basic schematic [here in EasyEDA](https://easyeda.com/tardate/ArcGe
 bigclivedotcom did a tear-down of a commercial "plasma lighter" and no surprise, it uses the same circuit as demonstrated with this kit.
 
 [![clip](https://img.youtube.com/vi/4aK1GK1KBGc/0.jpg)](https://www.youtube.com/watch?v=4aK1GK1KBGc)
-
 
 ## Parts
 
@@ -45,12 +43,11 @@ Have they learned that people who buy HV arcs are more than likely to smoke at l
 |-----------------------|-----|-------|
 | 15KVE-1 Step-Up Coil  | 1   | 3 windings |
 | 470Ω resistor         | 1   | 2 x 470Ω supplied. Other versions of this kit use 120Ω or 200Ω |
-| FR107 Diode           | 1   | 2 supplied
+| FR107 Diode           | 1   | 2 supplied |
 | NPN Power Transistor  | 1   | 2 supplied. Unmarked, but appears to be D882 |
 | Insulated Wire        | 2   | for power connector |
 | Heatsink              | 1   | for transistor, with mounting nut & bolt (nut is not actually required as the heatsink has tapped mounting hole) |
 | heatshrink tubing     | 3cm | presumably to insulate connections if built ugly style |
-
 
 Many of the kits currently available seem to have been upgraded slightly, to include a switch and PCB.
 
@@ -76,13 +73,11 @@ I used a 5cm x 7cm piece of single-sided protoboard to mount the kit, adding:
 
 ![kit_build](./assets/kit_build.jpg?raw=true)
 
-
 ## Performance
 
 Works just fine. With a supply of 5V, it draws around 1.6A during arc.
 
 ![ArcGeneratorKit_test](./assets/ArcGeneratorKit_test.jpg?raw=true)
-
 
 ## Credits and References
 

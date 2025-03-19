@@ -1,6 +1,6 @@
 {
     "id": "#222",
-    "name": "StairStepGenerator",
+    "name": "Stair-step Generator",
     "description": "generate a stair-step waveform with analog components",
     "categories": "OpAmp, 555 Timer, Oscillators",
     "relative_path": "Electronics101/StairStepGenerator",

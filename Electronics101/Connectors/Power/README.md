@@ -61,7 +61,6 @@ For a centre-positive configuration, a battery could be connected:
 
 Connections are reversed for a centre-negative configuration.
 
-
 #### Panel-mount Socket
 
 ![cylindrical_bypass_1](./assets/cylindrical_bypass_1.jpg?raw=true)
@@ -69,7 +68,6 @@ Connections are reversed for a centre-negative configuration.
 #### PCB-mount Socket
 
 ![cylindrical_bypass_2](./assets/cylindrical_bypass_2.jpg?raw=true)
-
 
 ## Credits and References
 

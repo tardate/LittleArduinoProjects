@@ -18,7 +18,7 @@ So - not a perfect saw tooth, but very close.
 
 In the circuit I test here, C1a = 1nF, and C1b = 10pF, so a resulting frequency difference of 100:1.
 
-## Constructionlished
+## Construction
 
 ![Breadboard](./assets/RampGenerator_bb.jpg?raw=true)
 
@@ -28,11 +28,11 @@ In the circuit I test here, C1a = 1nF, and C1b = 10pF, so a resulting frequency 
 
 ## Performance
 
-With VR1 adjusted for minimum freuqency of ~3.5kHz:
+With VR1 adjusted for minimum frequency of ~3.5kHz:
 
 ![scope_min](./assets/scope_min.gif?raw=true)
 
-With VR1 adjusted for maximum freuqency of ~128.9kHz:
+With VR1 adjusted for maximum frequency of ~128.9kHz:
 
 ![scope_max](./assets/scope_max.gif?raw=true)
 

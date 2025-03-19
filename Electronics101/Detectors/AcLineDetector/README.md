@@ -54,5 +54,5 @@ Finalizing the circuit, attached to a 2xAAA battery holder:
 * [How to Build Your Own Non-contact Voltage Detector](https://www.jameco.com/Jameco/workshop/jamecofavorites/non-contact-AC-voltage-detector.html)
 * [Top 3 Electronics Project With BC547 transistor](https://www.youtube.com/watch?v=LLsDq0cN2H8) - by SR electric; one of the projects was the inspiration for this build
 * [Non-contact AC voltage detector circuit using CD4060](https://www.eleccircuit.com/non-contact-ac-detector-voltage-tester-using-cd4060/)
-* [mains hum and static electrocity detector](https://www.edaboard.com/showthread.php?309680-mains-hum-and-static-electrocity-detector)
+* [mains hum and static electricity detector](https://www.edaboard.com/showthread.php?309680-mains-hum-and-static-electrocity-detector)
 * [RIDICULOUSLY SENSITIVE ELECTRIC CHARGE DETECTOR](http://amasci.com/emotor/chargdet.html)

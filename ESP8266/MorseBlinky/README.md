@@ -1,4 +1,4 @@
-# #342 MorseBlinky
+# #342 ESP8266 Morse Blinky
 
 Building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker.
 
@@ -27,7 +27,6 @@ uses active-high or active-low logic. Tthe specific ESP-01 board I have uses act
 whereas most Arduino boards I've seen use active-high.
 This can be controlled with the `ACTIVE_LOW_LED_LOGIC` setting in the sketch.
 
-
 ### Programming Setup
 
 I'm using a [LEAP#194 DIYDevBoard](../DIYDevBoard) to host the ESP-01 module,
@@ -36,9 +35,7 @@ With the
 [correct drivers installed](../../notebook/arduino.md#arduinos-using-the-ch340g-serial-chip),
 it shows up in the Arduino IDE ports list.
 
-
 ### Uploading a Sketch
-
 
 Selecting the Generic ESP8266 board and correct port:
 
@@ -55,7 +52,7 @@ Note: this will of course wipe whatever image is already on the chip.
 
 Here's the transcript of the programming step, performed by the [esptool.py](https://github.com/themadinventor/esptool) that is integrated in the [ESP8266 core for Arduino](https://github.com/esp8266/Arduino)
 
-```
+```sh
 Sketch uses 222161 bytes (51%) of program storage space. Maximum is 434160 bytes.
 Global variables use 31528 bytes (38%) of dynamic memory, leaving 50392 bytes for local variables. Maximum is 81920 bytes.
 /Users/paulgallagher/Library/Arduino15/packages/esp8266/tools/esptool/0.4.9/esptool -vv -cd ck -cb 115200 -cp /dev/cu.wchusbserial14530 -ca 0x00000 -cf /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_533772/Blink.ino.bin

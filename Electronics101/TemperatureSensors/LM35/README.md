@@ -7,7 +7,7 @@ Reading ambient temperature with the LM35 and an Arduino without output display 
 ## Notes
 
 This circuit uses an LM35 Precision Centigrade Temperature Sensor to measure ambient temperature,
-and display the result on a Nokia 5110 comptible LCD.
+and display the result on a Nokia 5110 compatible LCD.
 
 The LM35 is part of a series of easy to use temperature sensors:
 
@@ -24,7 +24,6 @@ Specifications for the LM35:
 * Less than 60 μA current drain
 * Low impedance output, 0.1 Ω for 1 mA load
 * Rated for full −55̊ to +150 ̊C range
-
 
 ## Construction
 

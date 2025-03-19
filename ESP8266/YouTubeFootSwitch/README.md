@@ -79,7 +79,7 @@ Uploading the compiled application to the ESP8266 on the programming board:
 
 ### Button Tester Program
 
-I used the [ButtonTester](./ButtonTester/ButtonTester.ino) sketch to verify that all foot switches and LEDs are working correcty
+I used the [ButtonTester](./ButtonTester/ButtonTester.ino) sketch to verify that all foot switches and LEDs are working correctly
 and can be controlled from the ESP8266.
 
 With a laptop connected on the same wifi network as the footswitch, open the
@@ -121,15 +121,15 @@ Status data packet is a hash containing:
 * "uptime": long int; millis since startup (just FYI)
 * "changed": bool; indicates of state has changed since last call
 * "event": int;
-  - indicates a single (most recent) action to take (missed actions are silently dropped)
-  - 0: nothing to do
-  - 1: start playing
-  - 2: stop playing
-  - 3: skip back
-  - 4: skip fwd
-  - 5: first mark
-  - 6: second mark, start looping
-  - 7: reset looping
+    * indicates a single (most recent) action to take (missed actions are silently dropped)
+    * 0: nothing to do
+    * 1: start playing
+    * 2: stop playing
+    * 3: skip back
+    * 4: skip fwd
+    * 5: first mark
+    * 6: second mark, start looping
+    * 7: reset looping
 * "play": bool; current play/stopped state
 * "loop": bool; current loop state
 
@@ -144,7 +144,7 @@ When I have it "just right", the page content is copied into [index_page.h](./Yo
 
 NB: I used the [update_index_page.rb](./update_index_page.rb) script to reformat `page_design.html` and generate `index_page.h` automatically.
 
-```
+```sh
 $ ./update_index_page.rb
 Generating index_page.h from page_design.html...
 ...done!
@@ -173,8 +173,8 @@ It's working just great, but some improvements I've been putting on a wishlist:
 * I'm waiting for some non-slip pads to be delivered. This will stop the unit sliding around under rough handling by foot. DONE√ (see above)
 * As mentioned above, I may replace the battery pack with a mains adapter and 3.3V regulator for extended playing sessions
 * Add some more features to the web application, e.g.
-  * maintain a playing history/library of vidoes
-  * save and recall particular loop sections
+    * maintain a playing history/library of videos
+    * save and recall particular loop sections
 
 ## Credits and References
 
@@ -188,6 +188,6 @@ It's working just great, but some improvements I've been putting on a wishlist:
 * [RGB LED Common anode](https://www.aliexpress.com/item/1895398667.html) - example from an aliexpress seller
 * [tactile limit microswitch](https://www.aliexpress.com/item/32982784418.html) - example from an aliexpress seller
 * Videos used in the demo:
-  * [TIENTOS FALSETA TUTORIAL FACIL * GUITARRA FLAMENCA](https://www.youtube.com/watch?v=cPlrskC9pfY)
-  * [Bulerias de Jerez avanzadas por La bailaora Beatriz Morales](https://www.youtube.com/watch?v=kwJ_GCAD298)
+    * [TIENTOS FALSETA TUTORIAL FACIL * GUITARRA FLAMENCA](https://www.youtube.com/watch?v=cPlrskC9pfY)
+    * [Bulerias de Jerez avanzadas por La bailaora Beatriz Morales](https://www.youtube.com/watch?v=kwJ_GCAD298)
 * [the project on hackaday.io](https://hackaday.io/project/171176-wireless-looping-youtube-foot-controller)
