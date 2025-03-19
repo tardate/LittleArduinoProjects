@@ -21,6 +21,7 @@ to changes in the electromagnetic field.
 The objective of this project is to construct a solenoid from scratch and demonstrate its operation with an Arduino.
 
 ### Making the Solenoid
+
 The solenoid I've constructed here is 9m of wire wound around a ~7mm drinking straw, in about three layers over a 4cm stretch.
 I didn't count them, but that should work out at about [400 turns](https://www.wolframalpha.com/input/?i=9%2F%28%CF%80*7*10^-3%29).
 
@@ -36,7 +37,7 @@ The armature is an old screw - some kind of mild steel I think.
 
 ### The Circuit
 
-An Arduino is used to switch the solenoid. A pulse of about 150ms duraction is required
+An Arduino is used to switch the solenoid. A pulse of about 150ms duration is required
 to ensure the solenoid performs a positive and complete action.
 
 An IRF540N n-channel MOSFET is used to switch the current to the solenoid.
@@ -47,8 +48,10 @@ The power supply is rated for 1A - just enough for this solenoid.
 An LED with current-limiting resistor provides a visual indicator when power is on the solenoid.
 
 ### Increasing the Force
+
 It works! That has me pretty chuffed. But it is not particularly powerful. There are basically three strategies for
 increasing the force applied by the solenoid:
+
 * higher current
 * more turns
 * higher permeability magnetic core

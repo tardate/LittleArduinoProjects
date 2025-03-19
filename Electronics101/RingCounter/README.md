@@ -2,6 +2,8 @@
 
 Test the classic CD4017 walking-ring counter
 
+![The Build](./assets/RingCounter_build.jpg?raw=true)
+
 ## Notes
 
 This is a classic circuit, often marketed as a hobby kit under various names like "water flow effect" or some such.
@@ -26,11 +28,6 @@ on a common cathode ground link for the LEDs. But it depends on the specific LED
 
 See [RingCounterController](../../playground/RingCounterController) for a variant of this project using an Arduino to control the 4017.
 
-Interesting side-note: a very similar circuit is used in some SMD soldering training kits, such as
-[this kit on aliexpress](https://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html):
-
-![SMD kit](./assets/smd_trainer.jpg?raw=true)
-
 ## Construction
 
 ![Breadboard](./assets/RingCounter_bb.jpg?raw=true)
@@ -39,10 +36,22 @@ Interesting side-note: a very similar circuit is used in some SMD soldering trai
 
 ![The Build](./assets/RingCounter_build.jpg?raw=true)
 
+## As seen elsewhere
+
+A very similar circuit shows up in many places, especially small soldering and DIY kits.
+
+It is used in some SMD soldering training kits, such as this kit on aliexpress, the
+[SMD components welding practice board / Welding practice light kit/ Skills Training welding competition kit](https://www.aliexpress.com/item/32315250409.html):
+
+![SMD kit](./assets/smd_trainer.jpg?raw=true)
+
+It also appears in DIY learning kits often called something like a "Light Water Flowing", such as this one from aliexpress:
+[Smart Electronics Kits NE555+CD4017 Light Water Flowing Light LED Module DIY Kit Learn electronic principles, children's lab](https://www.aliexpress.com/item/1005008144727966.html)
+
+![waterflowing_kit](./assets/waterflowing_kit.jpg)
+
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [RingCounterController](../../playground/RingCounterController) - same project but using an Arduino for control
-* [kit link](https://www.aliexpress.com/item/M89-Free-Shipping-New-1PC-New-NE555-CD4017-Light-Water-Flowing-Light-LED-Module-DIY-Kit/32259714112.html) - example of the same circuit available as a kit from a seller on aliexpress
-* [SMD training kit on aliexpress](https://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html)

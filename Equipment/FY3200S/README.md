@@ -32,7 +32,7 @@ Only a few comments, not necessarily that negative:
 * the control layout is a bit inconvenient:
     * if you use your right-hand, output coaxial cables get in the way when using the control knob
     * but if you use your left-hand on the control knob, you obscure the screen
-* because the push-button controls are quite stiff, and the unit is so light, you are more likely to push the unit around instead of pushing a button! Find myself using two hands - one to hold the unit in place, the other to play with the controls. The feet seem to make the problem worse rather than better. Have to find a good place in the workspace desk where it won't go skitting around..
+* because the push-button controls are quite stiff, and the unit is so light, you are more likely to push the unit around instead of pushing a button! Find myself using two hands - one to hold the unit in place, the other to play with the controls. The feet seem to make the problem worse rather than better. Have to find a good place in the workspace desk where it won't go skirting around..
 
 ### Inside
 

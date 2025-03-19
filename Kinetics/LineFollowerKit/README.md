@@ -22,7 +22,6 @@ Most importantly - it actually works!
 
 And once it's working - there are endless possibilities to pimp it up with custom bodywork.
 
-
 ## Kit
 
 Here it is - a bag of parts, PCB and instructions and a test track on a piece of A4.
@@ -74,7 +73,6 @@ The instructions and parts list is Chinese, and there's a clear schematic provid
 | 23  | motor mounting screws          |               |               | 4        |
 | 24  | axle bushings(?)               |               |               | 6        |
 
-
 ### The D2-1 Kit
 
 There is a variation of the kit called the D2-1. I don't have this version, but by some reports
@@ -95,10 +93,10 @@ Some key points to note:
 * each motor is high-side switched, with an LED in parallel for visual feedback of "ON"
 * the two comparator units in the LM393 take the same inputs but inverted, for complementary left and right control
 * the comparator is wired as a simple comparison of two voltages:
-    - one from the left-hand LDR, the other from the right-hand LDR
+    * one from the left-hand LDR, the other from the right-hand LDR
 * the LDRs are detecting reflected light from their partnered LED:
-    - white/light surfaces will reflect more energy than black/dark
-    - capacitors C1 and C2 provide a reserve of charge to power the LEDs, and smooth out operation as the motors place a spikey load on the battery
+    * white/light surfaces will reflect more energy than black/dark
+    * capacitors C1 and C2 provide a reserve of charge to power the LEDs, and smooth out operation as the motors place a spiky load on the battery
 
 What happened to R3 and R4? In some versions of this circuit, these are 3.3kΩ pull-up resistors on the base of each transistor Q1, Q2.
 Someone obviously found out they were not really needed and saved another fraction of a cent on the BOM;-)

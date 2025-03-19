@@ -18,7 +18,7 @@ I am using RJ45 T568B cables in this mini project.
 
 The EIA/TIA-561 standard describes the use of 8P8C connectors for RS-232 serial interfaces.
 
-However it appears many vendors have their own proprietary wiring schemes, which would explain why cables dont always work as expected!
+However it appears many vendors have their own proprietary wiring schemes, which would explain why cables don't always work as expected!
 The table below shows the T568B wiring color scheme with EIA/TIA-561 pin assignments,
 compared with
 [SGI Onyx2](https://techpubs.jurassic.nl/manuals/linux/enduser/SGIconsole_HW_CG/sgi_html/apb.html) pin assignments,
@@ -35,7 +35,6 @@ and finally the pin assignments for the device I grabbed to test with (Nomadix A
 | 7   | white/brown stripe   | CTS                | DTR       | DSR            |
 | 8   | brown                | RTS                | CTS       | CTS            |
 
-
 ![RJ45-Pinout-T568B](./assets/RJ45-Pinout-T568B.jpg?raw=true)
 
 The connector on my cat5 cable:
@@ -46,7 +45,7 @@ The connector on my cat5 cable:
 
 The construction builds upon a previous project [LEAP#510 USB to RS-232 Adapter](../UsbToRs232), adding as RJ45 adapter
 made from a spare length of Cat5 with RJ45M connector.
-A strip of 10-wire IDC cable is used to connect the RJ45 adapater to the main USB to RS-232 Adapter subsystem.
+A strip of 10-wire IDC cable is used to connect the RJ45 adapter to the main USB to RS-232 Adapter subsystem.
 
 ![bb](./assets/UsbToRJ45_bb.jpg?raw=true)
 
@@ -63,7 +62,7 @@ The device I am connecting to for a test requires 9600 baud, with 8 data bits, n
 The CH340G adapter was connected on `/dev/tty.wchusbserial1410` device, so a screen session
 is started with the command:
 
-    $ screen /dev/tty.wchusbserial1410 9600,cs8,-parenb,-cstopb,-hupcl
+    screen /dev/tty.wchusbserial1410 9600,cs8,-parenb,-cstopb,-hupcl
 
 ...and communication is up and running without any problem:
 

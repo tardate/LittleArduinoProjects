@@ -1,4 +1,4 @@
-# #295 FrequencyCounterKit
+# #295 Frequency Counter Kit
 
 Build and test a common PIC-based frequency counter kit.
 
@@ -10,9 +10,8 @@ I picked up a kit [similar to this one](https://www.aliexpress.com/item/CNIM-Hot
 
 Not that I really need another frequency counter, but it is interesting to see how this one is constructed.
 
-Julian's investigation of the circuit was thorough, including the discovery that the kits available are deritative
+Julian's investigation of the circuit was thorough, including the discovery that the kits available are derivative
 from original work by Wolfgang "Wolf" Büscher, DL4YHF, in his [Frequency counter with a PIC and minimum hardware](http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html).
-
 
 ### Specifications
 
@@ -27,7 +26,7 @@ From seller product information pages:
 * Very small number of components: a PIC16F628, 5, 7-segment LED screens, a 20 MHz crystal and some resistors
 * Frequency range: 1 Hz-50 MHz
 * Glass Test Range: 4 KHz-48 KHz
-* Built Item Size: 8 * 5.5 * 0.7 cm / 3.2 * 2.2 * 0.3 inches
+* Built Item Size: 8 *5.5* 0.7 cm / 3.2 *2.2* 0.3 inches
 
 ### Parts
 
@@ -139,7 +138,6 @@ So perhaps next things I'll do with this kit:
 * mount in a case with a BNC connector for input frequency
 * add a switch and battery connected on J2 (so can be mounted with a battery in a case, with external power bypass on J3)
 
-
 ## Credits and References
 
 * [Frequency counter with a PIC and minimum hardware](http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html) - original circuit design and description by Wolfgang "Wolf" Büscher, DL4YHF
@@ -152,4 +150,4 @@ So perhaps next things I'll do with this kit:
 * [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)
 * [S9018 datasheet](http://parts.io/detail/178104407/S9018) - parts.io
 * [HT7550A-1 datasheet](http://www.e-ele.net/DataSheet/HT75XX-1.pdf)
-* [..as mentioend on my blog](https://blog.tardate.com/2017/05/leap295-frequency-counter-kit.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap295-frequency-counter-kit.html)

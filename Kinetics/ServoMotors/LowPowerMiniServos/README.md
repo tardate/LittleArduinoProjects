@@ -13,11 +13,9 @@ Here's a quick demo..
 So-called low power / mini servos are generally designed to work from lithium battery packs in RC vehicles - so voltages in the 3.7 to 4.2V range.
 I have a few of these servos, and the notes that follow document some quick tests using an Arduino Uno as a driver.
 
-
 ### 2.2g Mini Digital Servo
 
 Available from [shopee.sg](https://shopee.sg/Low-Voltage-2.2g-Digital-Steering-Gear-Servo-Coreless-For-RC-Crawler-Model-Car-Ready-Stock--i.360726180.8991019964), aliexpress and other sources.
-
 
 | Item                     | Specification                                         |
 |--------------------------|-------------------------------------------------------|
@@ -57,7 +55,6 @@ Available from [shopee.sg](https://shopee.sg/Hot-%E3%80%90IN-STOCK%E3%80%91T-pow
 In practice, the servo I got seemed to need at least 4V to rotate smoothly.
 
 ## Construction
-
 
 Since the Arduino runs at 5V, the PWM control signal is put through a MOSFET level shifter to prevent damage to the servo.
 NB: I suspect the servo control pin is probably 5V tolerant, but I've not put that theory to the test!

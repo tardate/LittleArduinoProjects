@@ -12,8 +12,7 @@ Here's a quick demo .. if you can tolerate 5 minutes of me fiddling around!
 
 I found out about the "Granular Synth" from [Notes & Volts](http://www.notesandvolts.com/2014/07/build-auduino-granular-synth-part-1.html),
 and it's history goes back to the [Auduino](http://code.google.com/p/tinkerit/wiki/Auduino) developed by
-what appers to be the defunct "tinkerit".
-
+what appears to be the defunct "tinkerit".
 
 ## Code
 
@@ -34,7 +33,6 @@ Pin mapping used by the sketch is as follows:
 | Digital 12 | ICSP MISO                  |
 | Digital 11 | ICSP MOSI                  |
 | Digital 1  | ICSP RESET                 |
-
 
 ### Audio Generation
 
@@ -73,7 +71,6 @@ The [granular synthesis](https://en.wikipedia.org/wiki/Granular_synthesis) algor
 
 The master frequency control is used to adjust the counter limit at which time the grains are re-synchronised.
 
-
 ## Breadboard Construction
 
 I started with a breadboard and an Uno for initial tests. The potentiometers I'm using are a selection of 5kΩ, 10kΩ and 20kΩ linear.
@@ -87,12 +84,10 @@ across the 5V supply and that's 5mA of wasted power.
 
 ![Build](./assets/GranularSynth_breadboard_build.jpg?raw=true)
 
-
-## Warning: output impedence
+## Warning: output impedance
 
 The circuits used here send the ATmega328 output pin straight to the audio out (left) channel with no protection.
-This means care is required not to plug it directly into any low impedence device; doing so could damage the microprocessor.
-
+This means care is required not to plug it directly into any low impedance device; doing so could damage the microprocessor.
 
 ## Putting it in a Can
 

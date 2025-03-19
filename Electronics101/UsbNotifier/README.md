@@ -1,11 +1,10 @@
-# #174 UsbNotifier
+# #174 USB Notifier
 
 Tear-down and demo code for some old USB Webmail Notifier devices.
 
 Here's a quick video of the blinky test program in action:
 
-[![UsbNotifier demo](https://img.youtube.com/vi/KEg5rtU9RK4/0.jpg)](https://www.youtube.com/watch?v=KEg5rtU9RK4)
-
+[![demo](https://img.youtube.com/vi/KEg5rtU9RK4/0.jpg)](https://www.youtube.com/watch?v=KEg5rtU9RK4)
 
 ## Notes
 
@@ -17,6 +16,7 @@ SONiX Technology SN8P2203SB 8-Bit microcontroller that handles the USB protocol 
 The SN8P2203SB is an old chip phased out 2010/04/30, superseded by the SN8P2240.
 
 The USB implementation is extremely minimal - the device appears as a USB 1.0 HID device:
+
 * Product ID: 0x1320
 * Vendor ID:  0x1294  (RISO KAGAKU CORP.)
 * Version:  1.00
@@ -40,25 +40,26 @@ I've tested it on MacOSX. It probably works fine on Linux too, but may need some
 
 I installed hidapi with [brew](http://brew.sh/):
 
-```
-$ brew install hidapi
+```sh
+brew install hidapi
 ```
 
 Once `hidapi` is installed, the `blinky` test program is easily compiled and run:
 
-```
+```sh
 cd blinky
 make
 ./blinky
 ```
 
 The `blinky` program can handle up to 4 Notifier devices and simply:
+
 * reports the details of each device found
 * cycles through a color test on each device until you stop it
 
 With 4 of the notifiers plugged into a USB hub, here's what I get on my console:
 
-```
+```sh
 $ make && ./blinky
 gcc `pkg-config --cflags hidapi` -g -Wall -O3    blinky.c  `pkg-config --libs hidapi` -o blinky
 Device Found

@@ -48,7 +48,7 @@ There are may other ways of achieving this. For example one other alternative I 
 
 ## Construction
 
-I tested this out on a breadboard first. The 100nF capacitors coupled with the 10kΩ pullup resistors on the A/B rotary encoder
+I tested this out on a breadboard first. The 100nF capacitors coupled with the 10kΩ pull-up resistors on the A/B rotary encoder
 connections are for hardware de-bouncing.
 
 ![Breadboard](./assets/IncrementalTester_bb.jpg?raw=true)

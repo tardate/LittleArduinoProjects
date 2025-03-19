@@ -25,7 +25,6 @@ but helps to sort out the mess of jargon (tomu v TinyFPGA v fomu etc).
 
 [![clip](https://img.youtube.com/vi/rBfC-oxvaqM/0.jpg)](https://www.youtube.com/watch?v=rBfC-oxvaqM)
 
-
 ### Fomu Production (PVT1) Board
 
 The kit contains the Fomu board and a plastic shell that makes it easy to insert into a USB socket.
@@ -49,11 +48,10 @@ The bootloader presents itself as a DFU image, in future may show up as a USB dr
 
 Fomu's USB support is implemented in the softcore of the FPGA rather than in support components.
 
-* Downside: uses up alot of storage.
+* Downside: uses up a lot of storage.
 * Upside:
-  * saves on external components for USB support, so smaller form-factor, cheaper to produce
-  * allows some neat features (like the wishbone bus?)
-
+    * saves on external components for USB support, so smaller form-factor, cheaper to produce
+    * allows some neat features (like the wishbone bus?)
 
 ## Construction
 
@@ -82,19 +80,18 @@ The [Fomu Toolchain](https://github.com/im-tomu/fomu-toolchain) is a pre-configu
 There appears to be a range of other tools that can be used with Fomu, though I not sure the status of each:
 
 * Bare Metal
-  * [LLVM](https://llvm.org/)
-  * [GCC](https://gcc.gnu.org/)
-  * [Embedded Rust](https://rust-embedded.github.io/book/)
+    * [LLVM](https://llvm.org/)
+    * [GCC](https://gcc.gnu.org/)
+    * [Embedded Rust](https://rust-embedded.github.io/book/)
 * Software Support
-  * [zephyr](https://www.zephyrproject.org/) - open-source RTOS
-  * [NuttX](https://nuttx.org/) - open-source RTOS
-  * [MicroPython](https://micropython.org/) - embedded Python
-  * [CircuitPython](https://circuitpython.org/) - MicroPython derivative supported by Adafruit
+    * [zephyr](https://www.zephyrproject.org/) - open-source RTOS
+    * [NuttX](https://nuttx.org/) - open-source RTOS
+    * [MicroPython](https://micropython.org/) - embedded Python
+    * [CircuitPython](https://circuitpython.org/) - MicroPython derivative supported by Adafruit
 * Design/development tools
-  * [QEMU](https://www.qemu.org/) - processor emulator
-  * [Renode](https://renode.io/) - open source software development framework for multi-node device systems
-  * [Verilator](https://www.veripool.org/wiki/verilator) - free Verilog HDL simulator
-
+    * [QEMU](https://www.qemu.org/) - processor emulator
+    * [Renode](https://renode.io/) - open source software development framework for multi-node device systems
+    * [Verilator](https://www.veripool.org/wiki/verilator) - free Verilog HDL simulator
 
 ## The Fomu Workshop
 
@@ -110,12 +107,12 @@ I'm building/running within this 'GettingStarted' folder.
 
 Getting a local copy of the workshop files:
 
-    $ git clone --recurse-submodules https://github.com/im-tomu/fomu-workshop.git
+    git clone --recurse-submodules https://github.com/im-tomu/fomu-workshop.git
 
 Grabbing the [appropriate build](https://github.com/im-tomu/fomu-toolchain/releases) of the pre-configured toolchain:
 
-    $ wget https://github.com/im-tomu/fomu-toolchain/releases/download/v1.3/fomu-toolchain-macos-v1.3.zip
-    $ unzip fomu-toolchain-macos-v1.3.zip
+    wget https://github.com/im-tomu/fomu-toolchain/releases/download/v1.3/fomu-toolchain-macos-v1.3.zip
+    unzip fomu-toolchain-macos-v1.3.zip
 
 Finally setting the path to the toolchain bin folder and running `yosys` to verify things are on track:
 
@@ -167,7 +164,6 @@ With a Fomu in a USB socket, `dfu-util` can interrogate the device and report it
     Deducing device DFU version from functional descriptor length
     Found Runtime: [05ac:8289] ver=0150, devnum=6, cfg=1, intf=3, path="20-8.3", alt=0, name="UNKNOWN", serial="UNKNOWN"
     Found DFU: [1209:5bf0] ver=0101, devnum=10, cfg=1, intf=0, path="20-5", alt=0, name="Fomu DFU Bootloader v1.8.7", serial="UNKNOWN"
-
 
 ### Running MicroPython
 
@@ -282,16 +278,15 @@ Read and write memory:
 
 Control the RGB LED (flash red)
 
-    $ wishbone-tool 0xe0006804 1
-    $ wishbone-tool 0xe0006800 200
-
+    wishbone-tool 0xe0006804 1
+    wishbone-tool 0xe0006800 200
 
 ### Next Steps
 
 So far so good! Next steps:
 
 * Blink an LED with C for the RISC-V CPU
-  * See [LEAP#494 Fomu Build Notifier](../BuildNotifier) which has a RISC-V C implementation
+    * See [LEAP#494 Fomu Build Notifier](../BuildNotifier) which has a RISC-V C implementation
 * Blink an LED with verilog
 * Blink an LED with Migen and LiteX
 
@@ -306,6 +301,6 @@ So far so good! Next steps:
 * [The Amp Hour #456.3 – Discussing Fomu with Tim Ansell and Sean Cross](https://theamphour.com/456-3-discussing-fomu-with-tim-ansell-and-sean-cross/)
 * [Fomu - an FPGA inside your USB port!](https://www.youtube.com/watch?v=rBfC-oxvaqM)
 * Other tutorials/field reports:
-  * [Fomu: a begineer's guide](https://www.taricorp.net/2019/fomu-beginners-guide/)
-  * [Getting started with Fomu](https://www.hacklab.nl/fomu/)
-  * [LiteX vs. Vivado: First Impressions](https://www.bunniestudios.com/blog/?p=5018) - bunnie
+    * [Fomu: a begineer's guide](https://www.taricorp.net/2019/fomu-beginners-guide/)
+    * [Getting started with Fomu](https://www.hacklab.nl/fomu/)
+    * [LiteX vs. Vivado: First Impressions](https://www.bunniestudios.com/blog/?p=5018) - bunnie

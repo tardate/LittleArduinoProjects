@@ -19,7 +19,6 @@ It can usually be found sold with a bundle of supplies and attachments.
 
 The TL/DR review: very good value for the price. Happy!
 
-
 ## Technical Specification
 
 | Parameter                 | Specification        |
@@ -41,7 +40,6 @@ The TL/DR review: very good value for the price. Happy!
 | Output power              | 700W                 |
 | Temperature range         | 100-450°C            |
 | Temperature stability     | ±1°C                 |
-
 
 ### Hot-air Gun
 
@@ -73,7 +71,6 @@ A quick test:
 
 ![Saike909D_psu](./assets/Saike909D_psu.jpg?raw=true)
 
-
 #### Warning: Power OFf Flyback
 
 One thing I've noted is a flyback surge when the main power is switched off.
@@ -98,7 +95,6 @@ After a bit of research - finding
 I suspect it is just not calibrated correctly.
 
 I'll ask the seller before cracking the box to see if I can figure it out..
-
 
 ## Credits and References
 

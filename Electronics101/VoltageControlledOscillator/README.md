@@ -1,4 +1,4 @@
-# #273 VoltageControlledOscillator
+# #273 Voltage Controlled Oscillator
 
 Exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator.
 

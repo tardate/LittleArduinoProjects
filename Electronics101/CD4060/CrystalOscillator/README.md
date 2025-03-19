@@ -6,7 +6,6 @@ Exploring the behaviour of the CD4060 ripple counter driven by a crystal oscilla
 
 ## Notes
 
-
 The CD4060 datasheet describes a crystal oscillator configuration for self-driving the ripple counter.
 The use of a crystal provides very precise (but fixed) frequency control.
 
@@ -51,9 +50,7 @@ theoretical frequency.
 | Q13    |        |                4Hz |                4Hz | f-input/2^13 |
 | Q14    |        |                2Hz |                2Hz | f-input/2^14 |
 
-
 ![la](./assets/la.png?raw=true)
-
 
 ## Construction
 

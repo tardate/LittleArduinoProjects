@@ -57,10 +57,9 @@ Notes:
 
 ### Drivers and Setup for MacOSX
 
-* see the offical [MacOSX setup notes](https://www.arduino.cc/en/Guide/MacOSX)
+* see the official [MacOSX setup notes](https://www.arduino.cc/en/Guide/MacOSX)
 * if the Arduino has an FTDI instead of CH340G, if necessary install the [FTDIUSBSerialDriver_v2_2_18.dmg](http://www.ftdichip.com/Drivers/VCP.htm)
 * see the [arduino forum](https://forum.arduino.cc/index.php?topic=261375.0) - general discussion and updates on the issue of USB drivers
-
 
 ### CH340G Drivers
 
@@ -69,13 +68,12 @@ If the CH340G serial chip is not recognised my MacOSX, a driver is required. See
 * [How to use cheap Chinese Arduinos that come with with CH340G / CH341G Serial/USB chip](http://kiguino.moos.io/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html) - a great guide.
 * Updated driver (Sierra-compatible) is available at
 [github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver)
-* There also seems to be a professional drive kit available (at cost) from https://www.mac-usb-serial.com/
+* There also seems to be a professional drive kit available (at cost) from <https://www.mac-usb-serial.com/>
 
 I've "cached" copies of the drivers I've used in the past in the [drivers](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SerialInterface/UsbUartCH340G/drivers) folder:
 
 * CH341SER_MAC.ZIP
 * CH34x_Install_V1.3.zip - latest version I've used
-
 
 ## Chips and DIPs
 
@@ -88,11 +86,11 @@ I've mounted one on a DIP adapter, and found a micro-USB breakout:
 
 I have a CH340G USB adapter that I
 [got along with an Arduino mini](https://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html),
-so I took a closer look to see if it usde the CH340G chip in any unexpected ways.
+so I took a closer look to see if it used the CH340G chip in any unexpected ways.
 
 Tracing the circuit, it turns out to be very straight-forward. A few things to note:
 
-* the 3.3V/5V selector actually just enables/disables a 662K 3.3V regulator to supply the outbound pwer rail. It does not switch the operating voltage of the CH340G itself (or the data levels)
+* the 3.3V/5V selector actually just enables/disables a 662K 3.3V regulator to supply the outbound power rail. It does not switch the operating voltage of the CH340G itself (or the data levels)
 * includes a power indicator LED, and a transmit indicator LED
 * has 1kΩ resistors inline the RX/TX lines; not particularly sure why (not mentioned in the CH340G data sheet)
 * lots of ceramic bypass capacitors. I'm not sure of the actual capacitance values.
@@ -128,11 +126,11 @@ variant that also sends bursts of serial output (to exercise the RX LED).
 A final prototype before doing anything more serious - I've switched to SMD components and built up for testing on some protoboard with DIP adapters.
 A few changes to the design:
 
-* added a 500mA resetable polyfuse on the USB supply
+* added a 500mA resettable polyfuse on the USB supply
 * connected both DTR and CTS lines to the 6-pin device adapter
 * bumped up the LED current-limiting resistors to 2.7kΩ
 
-The device pinput sequence I've selected is as follows. This suits some devices, but may need wires crossed for others.
+The device pinout sequence I've selected is as follows. This suits some devices, but may need wires crossed for others.
 
 | Pin | Name | Note                          |
 |-----|------|-------------------------------|
@@ -142,7 +140,6 @@ The device pinput sequence I've selected is as follows. This suits some devices,
 | 4   | VCC  |                               |
 | 5   | CTS  |                               |
 | 6   | GND  |                               |
-
 
 ![CH340GProtoboard_bb](./assets/CH340GProtoboard_bb.jpg?raw=true)
 

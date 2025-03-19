@@ -21,9 +21,9 @@ The Black Magic Probe:
 * plugs into the programming workstation (Windows, Mac, Linux) over USB
 * runs an embedded GDB debug host - no other software required to connect a debugger
 * supports three methods of connecting the target device:
-  * JTAG
-  * SWD
-  * serial
+    * JTAG
+    * SWD
+    * serial
 
 This is all handled by the STM32F103CBUx chip on the BMP itself. Here's the schematic v2.1:
 
@@ -79,8 +79,8 @@ Here's a transcript of a GDB session to program and debug on the 1bitsy:
 
 Start GDB with the ELF of the program I'll load into the device.
 
-    $ cd examples/1bitsy/fancyblink
-    $ arm-none-eabi-gdb fancyblink.elf
+    cd examples/1bitsy/fancyblink
+    arm-none-eabi-gdb fancyblink.elf
 
 Connect to the BMP debug server, detect the target device with the `jtag_scan` command and attach it:
 
@@ -152,7 +152,7 @@ from [LEAP#549 Bare Metal C on the Blue Pill](https://leap.tardate.com/ARM/STM32
 
 Start GDB with the ELF of the program I'll load into the device:
 
-    $ arm-none-eabi-gdb blinky.elf
+    arm-none-eabi-gdb blinky.elf
 
 Connect to the BMP debug server, detect the target device and attach it.
 This is really the only step that is different when using SWD: I'll use the `swdp_scan` command to find the device instead of `jtag_scan`:

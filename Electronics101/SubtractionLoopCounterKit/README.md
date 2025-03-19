@@ -33,13 +33,11 @@ Let's take a look..
 | S1-S6,TP1-TP9 | 2.54mm male pin headers                                | 15  |
 | S1-S6         | jumper cap                                             | 6   |
 
-
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
 ![kit_pcb_front](./assets/kit_pcb_front.jpg?raw=true)
 
 ![kit_pcb_back](./assets/kit_pcb_back.jpg?raw=true)
-
 
 ## How it Works
 
@@ -104,14 +102,12 @@ Control pins:
 * master reset (MR, active high), resets output to 0
 * asynchronous parallel load (PL, active low): loads 4-bit BCD preset from pins ([MSB]:`P3, P2, P1, P0`:[LSB])
 
-
 | Down (CPU) | Up (CPD) | Rest (MR) | Load (PL) | Function    |
 |------------|----------|-----------|-----------|-------------|
 |  ↑         | 1        | 0         | 1         | count up    |
 |  1         | ↑        | 0         | 1         | count down  |
 |  x         | x        | 1         | x         | reset       |
 |  x         | x        | 0         | 0         | load preset |
-
 
 ### Circuit Construction
 
@@ -131,7 +127,7 @@ Four CD4011 NAND gates are used to implement a Schmitt oscillator providing the 
 It includes a couple of tricks though:
 
 * RP1 variable resistor provides clock frequency adjustment
-* one NAND gate is usde to buffer the clock output (measurable at TP1)
+* one NAND gate is used to buffer the clock output (measurable at TP1)
 * another NAND gate is used for a clock enable/disable control based on the setting of switch (jumper) S1
 * the final buffered & enabled clock (CLK) is measurable at TP1.
 
@@ -146,7 +142,7 @@ At this point, we have a free-running countdown timer (9-0) running at the frequ
 
 #### 7-segment display
 
-The CD4511 BCD-to-7 Segment driver is simpley connected to the 74HC192 ouput pins ([MSB]:`Q3, Q2, Q1, Q0`:[LSB]).
+The CD4511 BCD-to-7 Segment driver is simply connected to the 74HC192 output pins ([MSB]:`Q3, Q2, Q1, Q0`:[LSB]).
 The CD4511 is permanently enabled; lamp test and blanking features are not used.
 
 Individual 560Ω currently limiting resistors are used for each segment of the display.
@@ -162,7 +158,7 @@ A flag (PSET) is set if a manually preset has been entered on the switches:
     * P0 and P3 are pulled high by default
     * P0 and P3 are only high in the digit `9`
     * For all other digits 0-8, one or both of P0 and P3 will be low
-    * The output (PSET) will be high if a digit 0-8 has been manually set on the swutches S3-S6
+    * The output (PSET) will be high if a digit 0-8 has been manually set on the switches S3-S6
 
 A flag (IS9) is set if '9' is currently being output on the 7-segment display:
 
@@ -194,7 +190,7 @@ The final result:
 
 ![Build](./assets/SubtractionLoopCounterKit_build.jpg?raw=true)
 
-## Some things that didn't go so well!
+## Some things that didn't go so well
 
 I started soldering the board with a hot air station, however this didn't work so well as the PCB footprints for the ICs are not quite the right size -
 they are a little too wide so the IC feet barely touch the pads. Reverting to chisel tip iron and I made quick work of it.

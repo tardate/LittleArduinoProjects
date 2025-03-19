@@ -1,6 +1,6 @@
 {
     "id": "#213",
-    "name": "OSHChip/blinky",
+    "name": "OSHChip Blinky",
     "description": "first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging",
     "categories": "ARM, OSHChip",
     "relative_path": "OSHChip/blinky",

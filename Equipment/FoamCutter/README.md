@@ -14,8 +14,8 @@ The basics of hot wire foam cutting:
 
 * it works by heating a filament (wire), allowing it to slice through foam by basically melting and partially vaporizing it
 * of course DANGER toxic fumes that are not good for the environment:
-  * PPE should be used and cutting done in a well ventilated area
-  * I think the cutting temperature should ideally be high enough to easily melt the foam, but now so high that it instantly vaporizes it.
+    * PPE should be used and cutting done in a well ventilated area
+    * I think the cutting temperature should ideally be high enough to easily melt the foam, but now so high that it instantly vaporizes it.
 * power regulation is the critical design factor. With low resistance filaments, it is very easy to blow power sources or fuses if not correctly limited.
 
 In the following notes, I cover:
@@ -23,8 +23,8 @@ In the following notes, I cover:
 * some commercial options
 * look at a grab-bag of DIY projects on the web
 * build two cutters:
-  * a battery-powered, nichrome-wire cutter
-  * a steel-wire cutter
+    * a battery-powered, nichrome-wire cutter
+    * a steel-wire cutter
 
 ### Commercial Tools
 

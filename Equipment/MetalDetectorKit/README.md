@@ -16,7 +16,6 @@ I picked up a cheap [Metal Detector Kit](https://www.aliexpress.com/item/4000113
 * it's a nice black PCB;-)
 * .. and maybe I can use it as a stud finder/wiring detector in the house?
 
-
 ## The Kit
 
 The kit comes in two parts:
@@ -87,7 +86,7 @@ This is the first time I've seen the TP4333. It's quite a capable little chip, c
 * Charging current: 0.8A
 * BAT discharge termination voltage: 2.85V
 * Intelligent temperature control and over-temperature protection
-* Integrated output overvoltage protection, short circuit protection, overload protection
+* Integrated output over-voltage protection, short circuit protection, overload protection
 * Integrated over-charge and over-discharge protection
 * Supports trickle mode and zero voltage charging
 

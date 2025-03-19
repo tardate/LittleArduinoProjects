@@ -43,7 +43,6 @@ Here's a quick demo..
 The [PrecisionServo](https://github.com/ElizabethTeaches/PrecisionServo) library promises more bells an whistles.
 I had to clone the library as it was not setup to be imported as a module.
 
-
 There seems to be a baked-in timing assumption somewhere (I haven't found yet), as it doesn't work properly when
 the ATtiny85 is set to run at 8MHz internal clock.
 

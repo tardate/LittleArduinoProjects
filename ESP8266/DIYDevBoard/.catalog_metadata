@@ -1,6 +1,6 @@
 {
     "id": "#194",
-    "name": "ESP8266/DIYDevBoard",
+    "name": "ESP8266 DIY Devboard",
     "description": "a DIY devboard for an ESP-01 ESP8266",
     "categories": "ESP8266",
     "relative_path": "ESP8266/DIYDevBoard",

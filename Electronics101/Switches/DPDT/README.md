@@ -1,15 +1,14 @@
 # #244 DPDT Toggle Switches
 
-All about double-pole, double-thow toggle switches.
+All about double-pole, double-throw toggle switches.
 
 ![Build](./assets/DPDT_build.jpg?raw=true)
-
 
 ## Notes
 
 A double-pole switch controls two circuits with a single action.
 
-The double-thow nomenclature indicates that each circuit can be switched between two states.
+The double-throw nomenclature indicates that each circuit can be switched between two states.
 
 ### Example Part: DPDT 2.54mm pitch Switch
 
@@ -37,7 +36,6 @@ Operation:
 * when switch is "off" (i.e. not pressed), the red LEDs light on each pole
 * when switch is "on" (i.e. pressed), the yellow LEDs light on each pole
 
-
 ## Construction
 
 ![Breadboard](./assets/DPDT_bb.jpg?raw=true)
@@ -47,7 +45,6 @@ Operation:
 ![DPDT_protoboard_build](./assets/DPDT_protoboard_build.jpg?raw=true)
 
 ![DPDT_protoboard_layout](./assets/DPDT_protoboard_layout.jpg?raw=true)
-
 
 ## Credits and References
 

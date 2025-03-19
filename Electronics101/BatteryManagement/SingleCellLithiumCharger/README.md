@@ -20,17 +20,17 @@ Charging is where things can most commonly go wrong. A little bit of knowledge c
 There is an optimal charging profile for li-ion batteries:
 
 * pre-qualification stage - a low constant-current charge to bring deeply-discharged cells back to a nominal voltage (usually 3V for 3.7V li-ion)
-* constant-current fast chage - usually 0.5C until battery approaches fully charged voltage
+* constant-current fast charge - usually 0.5C until battery approaches fully charged voltage
 * constant voltage saturation charge - until charge current falls below 3-5% percent of the rated current.
 
 This sensitivity to charging conditions is why li-ion cells are ideally charged individually, or with a balanced charging circuit when multiple cells are in an array.
 
 NB:
+
 * Charging rates are specified in terms of `C`, where 1 C equals the maximum current the battery can supply for one hour.
 * li-ion with the traditional cathode materials of cobalt, nickel, manganese and aluminum typically charge to 4.20V/cell. The tolerance is +/–50mV/cell.
 * some nickel-based varieties charge to 4.10V/cell;
 * high capacity Li-ion may go to 4.30V/cell and higher.
-
 
 Some guides to lithium battery charging:
 
@@ -40,8 +40,7 @@ Some guides to lithium battery charging:
 
 [![clip](https://img.youtube.com/vi/A6mKd5_-abk/0.jpg)](https://www.youtube.com/watch?v=A6mKd5_-abk)
 
-
-#### TP4056
+### TP4056
 
 The [TP4056](http://www.tpwic.com/index.php?m=content&c=index&a=show&catid=173&id=52) is made by NanJing Top Power ASIC Corp.
 It is a complete constant-current/constant-voltage linear charger for single cell lithium-ion batteries,
@@ -57,7 +56,7 @@ The charging charge profile is designed for 3.7V li-ion batteries, featuring:
 
 ![TP4056_charge_profile](./assets/TP4056_charge_profile.jpg?raw=true)
 
-Typicall application circuit:
+Typical application circuit:
 
 ![TP4056_typical_application](./assets/TP4056_typical_application.jpg?raw=true)
 
@@ -103,7 +102,6 @@ Charging:
 Full charged:
 
 ![kit_fully_charged](./assets/kit_fully_charged.jpg?raw=true)
-
 
 ### TZT Single-cell Power Bank
 

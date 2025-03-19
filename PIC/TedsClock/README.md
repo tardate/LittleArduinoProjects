@@ -41,7 +41,7 @@ This is used for the hour and minute adjust buttons, as there are not enough pin
 to dedicate a pin for each function. Essentially:
 
 * the LED and low value (180Ω) current-limiting resistor are connected normally for active high output
-* a normally-open push-button is wired to pullup the pin to VDD
+* a normally-open push-button is wired to pull-up the pin to VDD
 * so that the pin is positively pulled down when being scanned as an input, a 10kΩ resistor is in parallel with the LED. This is a high enough value that it does not interfere with the normal LED operation
 * a 1kΩ resistor is in series with the pull-up push button so that when active. This is large enough so that it does not light the LED too much, but small enough (compared with the 10kΩ resistor) that it provides a sufficient pull-up voltage on the pin.
 

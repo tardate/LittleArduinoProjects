@@ -30,10 +30,10 @@ The RS-232 standard does not define the data encoding.
 
 What makes RS-232 a little daunting to directly integrate with are the voltage levels on the line:
 
-| Data      | Control    | Voltage     |
-|-----------|------------|-------------|
-| 0 (space) | Asserted   | +3 to +15 V |
-| 1 (mark)  | Deasserted | −15 to −3 V |
+| Data      | Control     | Voltage     |
+|-----------|-------------|-------------|
+| 0 (space) | Asserted    | +3 to +15 V |
+| 1 (mark)  | De-asserted | −15 to −3 V |
 
 This is where RS-232 driver chips like the MAX3232 come into play: they handle all the voltage conversion and allow
 control and communication at CMOS or TTL voltage levels.
@@ -59,7 +59,6 @@ but the 9-pin DE-9 became the most common for computer applications.
 | 7   | RTS | Request to Send      | out      |
 | 8   | CTS | Clear to Send        | in       |
 | 9   | RI  | Ring Indicator       | in       |
-
 
 ## Flow Control
 
@@ -115,7 +114,7 @@ The device I am connecting to for a test requires 9600 baud, with 8 data bits, n
 The CH340G adapter was connected on `/dev/tty.wchusbserial14210` device, so a screen session
 is started with the command:
 
-    $ screen /dev/tty.wchusbserial14210 9600,cs8,-parenb,-cstopb,-hupcl
+    screen /dev/tty.wchusbserial14210 9600,cs8,-parenb,-cstopb,-hupcl
 
 ...and communication is up and running without any problem:
 

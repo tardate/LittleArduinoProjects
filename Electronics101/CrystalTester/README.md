@@ -2,7 +2,6 @@
 
 A Colpitts Oscillator circuit for testing crystal oscillators with a frequency counter.
 
-
 ## Notes
 
 [G3PTO's Xtal Tester](http://www.qsl.net/g3pto/xtest.html) is a simple circuit for

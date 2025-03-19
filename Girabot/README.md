@@ -45,7 +45,7 @@ The following video is a walkthrough of circuit functions on a breadboard prior 
 
 * [the original stuffed toy](./assets/Girabot_01.jpg?raw=true)
 * [breadboard benchtest](./assets/Girabot_02.jpg?raw=true)
-* [circuit layout for transfering to protoboard](./assets/Girabot_03.jpg?raw=true)
+* [circuit layout for transferring to protoboard](./assets/Girabot_03.jpg?raw=true)
 * [the finished protoboard](./assets/Girabot_04.jpg?raw=true)
 * [Girabot!](./assets/Girabot_05.jpg?raw=true)
 

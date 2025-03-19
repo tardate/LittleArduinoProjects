@@ -52,8 +52,8 @@ Note:
 * R4, R5 values are not critical. High values such as 1MΩ are satisfactory
 * R5 is optional - it prevents oscillation when input is high Z/not connected.
 * the link/short between the anode of D1 and cathode of D2 is used to inhibit D1/D2 when there is no strong input signal high or low
-  * this is optional; the circuit works without it.
-  * removing it will reduce power consumption of the circuit but D1/D2 will tend to be on when there is no strong input signal
+    * this is optional; the circuit works without it.
+    * removing it will reduce power consumption of the circuit but D1/D2 will tend to be on when there is no strong input signal
 
 ![bb](./assets/LogicProbe_bb.jpg?raw=true)
 

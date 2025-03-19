@@ -90,7 +90,6 @@ Running with Guard: saving one of the project files will trigger test, e.g.:
 
 ![running_guard](./assets/running_guard.png?raw=true)
 
-
 #### Configuring Guard to Notify Fomu
 
 The [Guardfile](./a_flakey_example/Guardfile) is setup to change the Fomu LED on the following events:
@@ -118,7 +117,7 @@ can easily be registered to call a method when a build starts (or other event), 
 Tht's great for knowing when a build starts, but unfortunately while we can hook a callback
 when a build ends, the callback does **not** get the test result.
 
-To get the test result, I had to resort to a little trick: send notiications to file, and use Guard to
+To get the test result, I had to resort to a little trick: send notifications to file, and use Guard to
 monitor that file so the results can be read when they change!
 
 [Guard notifications](https://github.com/guard/guard/wiki/System-notifications#file) are send to `.guard_result`:
@@ -144,7 +143,7 @@ directory of the [Fomu Toolchain](https://github.com/im-tomu/fomu-toolchain). Lo
 The full Guardfile for this interim version:
 
     # Guardfile that demonstrates hooking RSpec results
-    # and blinking notifyications on the Fomu RGB LED
+    # and blinking notifications on the Fomu RGB LED
     # using the wishbone-tool
 
     # The Fomu/wishbone-tool integration lives here
@@ -222,7 +221,6 @@ The full Guardfile for this interim version:
         Guard::FomuNotifier.set_rbg File.read('.guard_result').lines.first.strip
       end
     end
-
 
 #### The Proof-of-Concept Results
 
@@ -311,7 +309,7 @@ See the source, especially [main.c](./riscv-notifier/src/main.c) for how these a
 
 The riscv-notifier program sets the LED state to one of four possible states, determined by `volatile int desired_state`. This is declared volatile so it doesn't get optimized away.
 
-The makefile is configured to generate a map file from which we can determin the memory address of `desired_state`:
+The makefile is configured to generate a map file from which we can determine the memory address of `desired_state`:
 
     .sdata.desired_state
                     0x0000000010000230        0x4 .obj/main.o
@@ -326,7 +324,7 @@ Knowing that, we can control the notifier by poking a single value with the wish
 So with the riscv-notifier program loaded on the Fomu, the Guardfile can be simplified considerably. Here it is in full:
 
     # Guardfile that demonstrates hooking RSpec results
-    # and blinking notifyications on the Fomu RGB LED
+    # and blinking notifications on the Fomu RGB LED
     # using the wishbone-tool to control a RISC-V notification program running on the Fomu
 
     # The Fomu/wishbone-tool integration lives here
@@ -379,7 +377,6 @@ So with the riscv-notifier program loaded on the Fomu, the Guardfile can be simp
         Guard::FomuNotifier.set_rbg File.read('.guard_result').lines.first.strip
       end
     end
-
 
 ## Conclusions
 

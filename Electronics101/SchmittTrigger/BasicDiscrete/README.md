@@ -29,14 +29,14 @@ The threshold to tun Q1 on or off depends on the voltage drop over the R3.
 Thus:
 
 * when input is low:
-  - Q1 is off, Q2 is on
-  - output is "low"
-  - and the "on" threshold for Q1 is pushed up by the higher R3 voltage drop
+    * Q1 is off, Q2 is on
+    * output is "low"
+    * and the "on" threshold for Q1 is pushed up by the higher R3 voltage drop
 
 * when input is high:
-  - Q1 is on, Q2 is off
-  - output is "high"
-  - and the "off" threshold for Q1 is reduced by the lower R3 voltage drop
+    * Q1 is on, Q2 is off
+    * output is "high"
+    * and the "off" threshold for Q1 is reduced by the lower R3 voltage drop
 
 In other words, the hysteresis between upper (on) and lower (off) thresholds is defined by the differential R3 voltage drop.
 

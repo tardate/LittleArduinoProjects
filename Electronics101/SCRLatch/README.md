@@ -6,7 +6,6 @@ Here's a quick video of the test circuit in action:
 
 [![SCRLatch demo](https://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](https://www.youtube.com/watch?v=-pO0aRX99G0)
 
-
 ## Notes
 
 Silicon controlled rectifiers (SCR) are unidirectional devices, with the anode-cathode path controlled by a gate.
@@ -14,6 +13,7 @@ SCRs are sometimes referred to as thyristors,
 although "thyristor" can also mean the whole class of 4+ layer devices including triacs and silicon controlled switches (SCS).
 
 The fundamental behaviour of an SCR boils down to two facts:
+
 * they turn on when a gate current ≥ I(gt) is applied until the load current is ≥ latching current I(l)
 * they remain on as long as the load current is ≥ holding current I(h) - even in the absence of gate current
 
@@ -23,13 +23,13 @@ There are other ways to turn on an SCR, such as forward-voltage avalanche breakd
 
 ### DC Applications
 
-With DC loads, the SCR is an idiosynchratic device - like a switch you can turn on but can't turn off! At least not without separately switching the load current.
+With DC loads, the SCR is an idiosyncratic device - like a switch you can turn on but can't turn off! At least not without separately switching the load current.
 
 Applications can include alarms, since contact switches could activate the alarm but require a separate reset switch to turn off.
 
 ### AC Applications
 
-With AC, every cycle falls below the holding current, so SCRs become more useful as on/off switches oftern in how power situations.
+With AC, every cycle falls below the holding current, so SCRs become more useful as on/off switches often in low power situations.
 But since they are unidirectional - therefore act like half-wave rectifiers - it's perhaps more likely to see bidirectional Triacs in use.
 
 ### DC Test Circuit
@@ -38,7 +38,7 @@ Here I'm testing a BT169D "logic level" SCR that can handle modest loads up to 0
 
 Critical facts from the datasheet:
 
-| PArameter | Typical Value | Max Value |
+| Parameter | Typical Value | Max Value |
 |-----------|---------------|-----------|
 | I(gt)     | 50µA          | 200µA     |
 | V(gt)     | 0.5V          | 0.8V      |
@@ -79,15 +79,16 @@ In practice, I measure 9.45mA load current - perfect; the difference is explaine
 #### Trigger Trace
 
 Here's a trace of the trigger event. I purposely chose a bouncy capture to illustrate the fact that once latched, the SCR remains on.
+
 * CH1 measures the voltage across the gate and resistor - the trigger signal.
 * CH2 measures the voltage at the SCR anode - this drops to ~ 0.8V when the SCR turns on
-
 
 ![trigger_trace](./assets/trigger_trace.gif?raw=true)
 
 ## Construction
 
 Notes:
+
 * I created a
 [custom Fritzing Part available here](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/SCR) for these diagrams.
 * the 1MΩ pull-down resistor R3 is not required for the gate to operate - it's only included to ensure a clean signal for the scope, rather than let the gate float.

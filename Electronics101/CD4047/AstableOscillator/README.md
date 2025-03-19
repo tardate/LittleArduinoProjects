@@ -29,7 +29,6 @@ Here are some measurements from the breadboarded circuit:
 | 68nF mylar    | 220kΩ |    15.11Hz | [15.19kHz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+68nF%29) |
 | 100nF ceramic | 220kΩ |    15.38Hz | [10.33Hz](https://www.wolframalpha.com/input/?i=1%2F%284.4+*+220k%CE%A9+*+100nF%29) |
 
-
 ### Astable Gating
 
 The astable oscillation can be gated with pins 4 and 5:
@@ -45,7 +44,6 @@ So it is possible to gate the oscillator using two complementary schemes:
 
 * Hold pin 4 `HIGH`, and pin 5 is the gate function (`HIGH=ON`, `LOW=OFF`)
 * Hold pin 5 `LOW`, and pin 4 is the gate function (`HIGH=OFF`, `LOW=ON`)
-
 
 ### Waveforms
 

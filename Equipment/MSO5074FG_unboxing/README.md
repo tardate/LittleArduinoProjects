@@ -1,12 +1,12 @@
-# #156 MSO5074FG_unboxing
+# #156 MSO5074FG Unboxing
 
 Unboxing and first tests of a Hantek MSO5074FG oscilloscope
-
 
 ## Notes
 
 For a while I've been contemplating a new oscilloscope purchase.
 In the end my decision boiled down to two in a similar price range:
+
 * Hantek MSO5074FG - 70MHz 4-channel scope with 25MHz function generator and 8 channel logic analyzer
 * Rigol DS1074Z - 70MHz 4-channel scope
 
@@ -17,7 +17,7 @@ In the end I decided to take a bet on the Hantek.
 The MSO5074FG is in the [Hantek MSO5054F(G) range](http://www.hantek.com/en/ProductDetail_3_127.html) - basically the same specs
 but with increased bandwidth.
 
-I was concerned at first by the fact the the product is not listed on http://www.hantek.com,
+I was concerned at first by the fact the the product is not listed on <http://www.hantek.com>,
 but very pleasantly surprised when emails to both Hantek and the [seller on aliexpress](https://www.aliexpress.com/store/100653)
 were answered within hours, with the explanation that the MSO5074FG is not marketed internationally (yet) and so not listed on
 the English web site.
@@ -50,6 +50,7 @@ The manual describes how to perform probe compensation and that all goes well...
 ### First Test - DDS Sine Wave
 
 Still finding my way around the features, but here's an easy test:
+
 * setup the DDS function generator for a simple 1kHz sine wave
 * monitor the function generator output on channel 1
 

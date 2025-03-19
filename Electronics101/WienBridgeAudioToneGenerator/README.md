@@ -4,7 +4,6 @@ A fixed-frequency tone generator based on a Wien Bridge Oscillator
 
 ![The Build](./assets/WienBridgeAudioToneGenerator_build.jpg?raw=true)
 
-
 ## Notes
 
 I wanted a simple tone generator to provide a test signal for audio projects:
@@ -24,6 +23,7 @@ with a resonant frequency of:
     f = 1/(2πRC)
 
 The resonator comprises essentially:
+
 * R-C series High Pass Filter, connected (at the non-inverting input of the opamp) with:
 * R-C parallel Low Pass Filter
 In other words a Band Pass Filter with a high Q factor at the resonant frequency.
@@ -47,7 +47,7 @@ Instead of dual rails, I'm using a single rail supply (tested at 5V and 9V).
 One opamp in the LM324 is used to buffer and 100kΩ voltage divider, thus providing a stable "virtual ground"
 at Vcc/2 for the oscillator (VGND in the schematic).
 
-A third opamp in the LM324 is used to buffer the oscillator output to avoid any load inpact on the oscillation.
+A third opamp in the LM324 is used to buffer the oscillator output to avoid any load impact on the oscillation.
 
 The 4th opamp unit in the LM324 is unused.
 
@@ -97,7 +97,6 @@ And in the frequency domain we can see the waveform is reasonably clean:
 ![The Schematic](./assets/WienBridgeAudioToneGenerator_schematic.jpg?raw=true)
 
 ![WienBridgeAudioToneGenerator_bb_build](./assets/WienBridgeAudioToneGenerator_bb_build.jpg?raw=true)
-
 
 ### Putting it in a case
 

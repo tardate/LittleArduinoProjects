@@ -1,4 +1,4 @@
-# #331 GettingBlinky
+# #331 PIC Getting Blinky
 
 Getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!
 
@@ -15,7 +15,6 @@ One thing that's held me back is the perception that you have to "downgrade" to 
 
 So challenge accepted: I finally decided to see what it is like to develop with PIC assembler,
 and ideally do it all on my development platform of choice - MacOSX - without resorting to containers or VMs.
-
 
 ### PIC12F675 Development Board
 
@@ -46,6 +45,7 @@ The [microchip](http://www.microchip.com/wwwproducts/en/PIC12F675) site has plen
 #### Development Board Circuit and Mods
 
 The development board includes a number peripherals to play with:
+
 * 2 LEDs (configured active low)
 * 2 push-buttons with pull-up resistors
 * 1 potentiometer (between VDD and ground)
@@ -61,7 +61,6 @@ Having VPP connected via the reset circuit could conceivably cause havoc if the 
 other end of the 10kΩ R5.
 
 ![Schematic](./assets/GettingBlinky_schematic.jpg?raw=true)
-
 
 ### Toolchain
 
@@ -87,13 +86,11 @@ Of course, the board also works just fine with external 5V power connected after
 
 ![GettingBlinky_external_power](./assets/GettingBlinky_external_power.jpg?raw=true)
 
-
 ### Finally, Some Code
 
 Just a single source file - see [blinky.asm](./Blinky.X/blinky.asm).
 It is just about the simplest thing you could do - blink an LED of course.
 I've avoided any include files, preferring to need to figure it all out (with some serious cribbing from Julian Ilett).
-
 
 #### Configuration Bits
 
@@ -123,20 +120,19 @@ around 1.063MHz according to my scope i.e. FOSC=4MHz:
 
 GPIO ports default to input, so clearing the corresponding bit in the TRISIO register sets the port state to output:
 
-```
+```asm
 bcf TRISIO, 0
 ```
 
 Then clearing and setting the corresponding bit in the GPIO register sets the output state high or low:
 
-```
+```asm
 bsf GPIO, 0
 bcf GPIO, 0
 ```
 
 But... TRISIO and GPIO registers are in different "banks", so it is necessary to set the correct bank in the STATUS register first
 by setting or clearing the RP0 bit.
-
 
 #### Adding Delay
 
@@ -156,7 +152,6 @@ to produce a loop of 8 clock cycles.
 Surrounded by a few make-work loops, the result is an LED blinking at around 4Hz:
 
 ![scope_led_pulse](./assets/scope_led_pulse.gif?raw=true)
-
 
 ## Credits and References
 

@@ -1,7 +1,6 @@
-# #213 OSHChip/blinky
+# #213 OSHChip Blinky
 
 First test of the OSHChip V1.0
-
 
 ## Notes
 
@@ -71,7 +70,6 @@ Here are the device details of the programmer as they appear in **System Informa
       Partition Map Type: Unknown
       S.M.A.R.T. status:  Not Supported
 
-
 #### Enabling Serial Output
 
 The OSHChip_Blinky.cpp sample uses printf to log to the onboard UART at 9600 baud 8N1:
@@ -103,7 +101,6 @@ A screen session in action:
 
 ![screen_session](./assets/screen_session.png?raw=true)
 
-
 ### Onboard LED Addressing
 
 | Port | Device |
@@ -134,7 +131,6 @@ The 16 pins of the OSHChip are assigned as follows:
 | 14  | P0_24      |
 | 15  | P0_21      |
 | 16  | VDD/VCC    |
-
 
 ### Running Free
 
@@ -182,7 +178,6 @@ Conservatively ignoring the voltage drop across the LED and internal driver FETs
 that means I should be good with a [660Ω](https://www.wolframalpha.com/input/?i=3.3V%2F5mA)
 current-limiting resistor for the LED. Using 1kΩ, the actual LED current when on is ~1.5mA.
 
-
 #### An Explanation from Philip
 
 Philip (the OSHChip creator) graciously provided the following information to explain what's going on:
@@ -210,7 +205,6 @@ The built in LEDs on OSHChip are specially selected low current LEDs, designed f
 Nordic Semiconductor has the nRF51-DK board that has 4 LEDs, that have only a 220 resistor, and none of their examples put the outputs into high drive mode. So a clear violation of all the rules by the chip supplier. It works just fine.
 
 Philip's recommendation: use active low drive the same as the on-board LEDs and how the nRF51-DK board do it. Pick LEDs that are designed for low current, and see if it works with 4.7K, then 2.7 K, then 1.0 K. Look at the OSHChip schematic to see how it is done.
-
 
 ## Construction
 

@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-18T13:22:00Z</updated>
+  <updated>2025-03-19T05:00:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -246,6 +246,17 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/equipment/usbmultifunctiontester/</id>
+    <link href="https://leap.tardate.com/equipment/usbmultifunctiontester/"/>
+    <g:image_link>https://leap.tardate.com/equipment/usbmultifunctiontester/assets/usbmultifunctiontester_build.jpg</g:image_link>
+    <updated>2025-03-19T05:00:00Z</updated>
+    <title>#713 USB Multifunction Tester</title>
+    <summary>Examining the KWS-MX17 inline USB multi-function tester</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Examining the KWS-MX17 inline USB multi-function tester&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/usbmultifunctiontester/assets/usbmultifunctiontester_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="USB"/>
+    <category term="Test Equipment"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/lpd433/modules/</id>
@@ -3164,7 +3175,7 @@
     <link href="https://leap.tardate.com/electronics101/arcgeneratorkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/arcgeneratorkit/assets/arcgeneratorkit_build.jpg</g:image_link>
     <updated>2019-02-05T17:04:25Z</updated>
-    <title>#451 ArcGeneratorKit</title>
+    <title>#451 Arc Generator Kit</title>
     <summary>playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/arcgeneratorkit/assets/arcgeneratorkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -3747,7 +3758,7 @@
     <link href="https://leap.tardate.com/equipment/usbprotector/"/>
     <g:image_link>https://leap.tardate.com/equipment/usbprotector/assets/usbprotector_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
-    <title>#400 USBProtector</title>
+    <title>#400 USB Protector</title>
     <summary>building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/usbprotector/assets/usbprotector_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -4063,7 +4074,7 @@
     <link href="https://leap.tardate.com/equipment/millivoltmeterdiy/"/>
     <g:image_link>https://leap.tardate.com/equipment/millivoltmeterdiy/assets/millivoltmeterdiy_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
-    <title>#372 MilliVoltmeterDIY</title>
+    <title>#372 MilliVoltmeter DIY</title>
     <summary>an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/millivoltmeterdiy/assets/millivoltmeterdiy_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ATmega"/>
@@ -4076,7 +4087,7 @@
     <link href="https://leap.tardate.com/electronics101/bjt/commonemitteramplifier/"/>
     <g:image_link>https://leap.tardate.com/electronics101/bjt/commonemitteramplifier/assets/commonemitteramplifier_build.jpg</g:image_link>
     <updated>2018-01-09T14:26:33Z</updated>
-    <title>#371 CommonEmitterAmplifier</title>
+    <title>#371 BJT Common-Emitter Amplifier</title>
     <summary>all about BJT common-emitter amplifier biasing and class of operation</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;all about BJT common-emitter amplifier biasing and class of operation&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/bjt/commonemitteramplifier/assets/commonemitteramplifier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
@@ -4401,7 +4412,7 @@
     <link href="https://leap.tardate.com/esp8266/morseblinky/"/>
     <g:image_link>https://leap.tardate.com/esp8266/morseblinky/assets/morseblinky_build.jpg</g:image_link>
     <updated>2017-09-21T02:02:10Z</updated>
-    <title>#342 ESP8266/MorseBlinky</title>
+    <title>#342 ESP8266 Morse Blinky</title>
     <summary>building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/morseblinky/assets/morseblinky_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
@@ -4528,7 +4539,7 @@
     <link href="https://leap.tardate.com/pic/gettingblinky/"/>
     <g:image_link>https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg</g:image_link>
     <updated>2017-08-08T01:40:16Z</updated>
-    <title>#331 PIC/GettingBlinky</title>
+    <title>#331 PIC Getting Blinky</title>
     <summary>getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
@@ -4937,7 +4948,7 @@
     <link href="https://leap.tardate.com/equipment/frequencycounterkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/frequencycounterkit/assets/frequencycounterkit_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
-    <title>#295 FrequencyCounterKit</title>
+    <title>#295 Frequency Counter Kit</title>
     <summary>build and test a common PIC-based frequency counter kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a common PIC-based frequency counter kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/frequencycounterkit/assets/frequencycounterkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
@@ -5090,7 +5101,7 @@
     <link href="https://leap.tardate.com/equipment/functiongeneratorkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/functiongeneratorkit/assets/functiongeneratorkit_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
-    <title>#282 FunctionGeneratorKit</title>
+    <title>#282 Function Generator Kit</title>
     <summary>build and test a function generator kit based on the XR-2206 monolithic function generator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a function generator kit based on the XR-2206 monolithic function generator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/functiongeneratorkit/assets/functiongeneratorkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -5137,7 +5148,7 @@
     <link href="https://leap.tardate.com/equipment/componenttesterkit/"/>
     <g:image_link>https://leap.tardate.com/equipment/componenttesterkit/assets/componenttesterkit_build.jpg</g:image_link>
     <updated>2016-12-05T15:30:21Z</updated>
-    <title>#278 ComponentTesterKit</title>
+    <title>#278 Component Tester Kit</title>
     <summary>build and evaluate a popular ATMEAG328-based component tester kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and evaluate a popular ATMEAG328-based component tester kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/componenttesterkit/assets/componenttesterkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
@@ -5194,7 +5205,7 @@
     <link href="https://leap.tardate.com/electronics101/voltagecontrolledoscillator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/voltagecontrolledoscillator/assets/voltagecontrolledoscillator_build.jpg</g:image_link>
     <updated>2016-11-20T22:37:26Z</updated>
-    <title>#273 VoltageControlledOscillator</title>
+    <title>#273 Voltage Controlled Oscillator</title>
     <summary>exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exploring varicap diodes (KV1471) and their use in frequency tuning of a Colpitts-style voltage-controlled oscillator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/voltagecontrolledoscillator/assets/voltagecontrolledoscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -5206,7 +5217,7 @@
     <link href="https://leap.tardate.com/equipment/saike909d/"/>
     <g:image_link>https://leap.tardate.com/equipment/saike909d/assets/saike909d_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
-    <title>#272 Saike909D</title>
+    <title>#272 Saike 909D</title>
     <summary>unboxing and initial review of the Saike 909D 3-in-1 hot air rework station</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;unboxing and initial review of the Saike 909D 3-in-1 hot air rework station&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/saike909d/assets/saike909d_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
@@ -5378,7 +5389,7 @@
     <link href="https://leap.tardate.com/electronics101/clapswitchkit2/"/>
     <g:image_link>https://leap.tardate.com/electronics101/clapswitchkit2/assets/clapswitchkit2_build.jpg</g:image_link>
     <updated>2020-09-20T04:39:01Z</updated>
-    <title>#258 ClapSwitchKit2</title>
+    <title>#258 Clap-switch Kit 2</title>
     <summary>practice some Boldport-style soldering on yet-another clap switch kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;practice some Boldport-style soldering on yet-another clap switch kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/clapswitchkit2/assets/clapswitchkit2_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -5543,8 +5554,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/switches/dpdt/assets/dpdt_build.jpg</g:image_link>
     <updated>2016-09-19T15:45:05Z</updated>
     <title>#244 Switches/DPDT</title>
-    <summary>all about double-pole, double-thow (DPDT) toggle switches</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;all about double-pole, double-thow (DPDT) toggle switches&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switches/dpdt/assets/dpdt_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>all about double-pole, double-throw (DPDT) toggle switches</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;all about double-pole, double-throw (DPDT) toggle switches&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/switches/dpdt/assets/dpdt_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Switches"/>
   </entry>
   <entry>
@@ -5728,9 +5739,9 @@
     <link href="https://leap.tardate.com/electronics101/transistorcurvetracer/"/>
     <g:image_link>https://leap.tardate.com/electronics101/transistorcurvetracer/assets/transistorcurvetracer_build.jpg</g:image_link>
     <updated>2016-06-19T04:39:39Z</updated>
-    <title>#228 TransistorCurveTracer</title>
-    <summary>simple NPN transistor curve tracer using a Stairstep generator circuit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;simple NPN transistor curve tracer using a Stairstep generator circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/transistorcurvetracer/assets/transistorcurvetracer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <title>#228 Transistor Curve Tracer</title>
+    <summary>simple NPN transistor curve tracer using a Stair-step generator circuit</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;simple NPN transistor curve tracer using a Stair-step generator circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/transistorcurvetracer/assets/transistorcurvetracer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="555 Timer"/>
     <category term="Oscillators"/>
@@ -5796,7 +5807,7 @@
     <link href="https://leap.tardate.com/electronics101/stairstepgenerator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/stairstepgenerator/assets/stairstepgenerator_build.jpg</g:image_link>
     <updated>2016-06-19T04:39:39Z</updated>
-    <title>#222 StairStepGenerator</title>
+    <title>#222 Stair-step Generator</title>
     <summary>generate a stair-step waveform with analog components</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;generate a stair-step waveform with analog components&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/stairstepgenerator/assets/stairstepgenerator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
@@ -5865,7 +5876,7 @@
     <link href="https://leap.tardate.com/oshchip/ledx16module/"/>
     <g:image_link>https://leap.tardate.com/oshchip/ledx16module/assets/ledx16module_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#216 OSHChip/LEDx16Module</title>
+    <title>#216 OSHChip LEDx16 Module</title>
     <summary>driving an SPI LED module with the OSHChip</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving an SPI LED module with the OSHChip&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/oshchip/ledx16module/assets/ledx16module_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OSHChip"/>
@@ -5876,11 +5887,10 @@
     <link href="https://leap.tardate.com/oshchip/yottatoolchain/"/>
     <g:image_link>https://leap.tardate.com/oshchip/yottatoolchain/assets/yottatoolchain_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#215 OSHChip/YottaToolchain</title>
+    <title>#215 OSHChip Yotta Toolchain</title>
     <summary>build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build a simple program using the Official Yotta target for OSHChip and gcc on MacOSX&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/oshchip/yottatoolchain/assets/yottatoolchain_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ARM"/>
-    <category term="gcc"/>
     <category term="OSHChip"/>
   </entry>
   <entry>
@@ -5888,7 +5898,7 @@
     <link href="https://leap.tardate.com/oshchip/gcctoolchain/"/>
     <g:image_link>https://leap.tardate.com/oshchip/gcctoolchain/assets/gcctoolchain_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#214 OSHChip/GccToolchain</title>
+    <title>#214 OSHChip Gcc Toolchain</title>
     <summary>can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;can I build a program for the OSHChip using the gcc toolchain and Nordic Semi SDK on MacOSX?&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/oshchip/gcctoolchain/assets/gcctoolchain_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ARM"/>
@@ -5900,7 +5910,7 @@
     <link href="https://leap.tardate.com/oshchip/blinky/"/>
     <g:image_link>https://leap.tardate.com/oshchip/blinky/assets/blinky_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#213 OSHChip/blinky</title>
+    <title>#213 OSHChip Blinky</title>
     <summary>first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;first tests of the OSHChip nRF51822-CFAC-A0 in DIP16 packaging&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/oshchip/blinky/assets/blinky_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ARM"/>
@@ -6112,7 +6122,7 @@
     <link href="https://leap.tardate.com/esp8266/diydevboard/"/>
     <g:image_link>https://leap.tardate.com/esp8266/diydevboard/assets/diydevboard_build.jpg</g:image_link>
     <updated>2017-09-19T15:46:13Z</updated>
-    <title>#194 ESP8266/DIYDevBoard</title>
+    <title>#194 ESP8266 DIY Devboard</title>
     <summary>a DIY devboard for an ESP-01 ESP8266</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a DIY devboard for an ESP-01 ESP8266&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/esp8266/diydevboard/assets/diydevboard_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
@@ -6339,7 +6349,7 @@
     <link href="https://leap.tardate.com/electronics101/usbnotifier/"/>
     <g:image_link>https://leap.tardate.com/electronics101/usbnotifier/assets/usbnotifier_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#174 UsbNotifier</title>
+    <title>#174 USB Notifier</title>
     <summary>tear-down and demo code for some oldUSB Webmail Notifier devices</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;tear-down and demo code for some oldUSB Webmail Notifier devices&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/usbnotifier/assets/usbnotifier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -6385,7 +6395,7 @@
     <link href="https://leap.tardate.com/electronics101/clapswitchkit/"/>
     <g:image_link>https://leap.tardate.com/electronics101/clapswitchkit/assets/clapswitchkit_build.jpg</g:image_link>
     <updated>2020-09-20T04:39:01Z</updated>
-    <title>#170 ClapSwitchKit</title>
+    <title>#170 Clap-switch Kit</title>
     <summary>build and analyse a simple clap switch circuit available as a kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and analyse a simple clap switch circuit available as a kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/clapswitchkit/assets/clapswitchkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
@@ -6462,7 +6472,7 @@
     <link href="https://leap.tardate.com/electronics101/variablesawtoothgenerator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/variablesawtoothgenerator/assets/variablesawtoothgenerator_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#163 VariableSawtoothGenerator</title>
+    <title>#163 Variable Sawtooth Generator</title>
     <summary>test a variable-geometry, fixed-amplitude sawtooth wave generator circuit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a variable-geometry, fixed-amplitude sawtooth wave generator circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/variablesawtoothgenerator/assets/variablesawtoothgenerator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
@@ -6534,7 +6544,7 @@
     <link href="https://leap.tardate.com/equipment/mso5074fg_unboxing/"/>
     <g:image_link>https://leap.tardate.com/equipment/mso5074fg_unboxing/assets/mso5074fg_unboxing_build.jpg</g:image_link>
     <updated>2016-10-22T13:39:15Z</updated>
-    <title>#156 MSO5074FG_unboxing</title>
+    <title>#156 MSO5074FG Unboxing</title>
     <summary>unboxing and first tests of a Hantek MSO5074FG oscilloscope</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;unboxing and first tests of a Hantek MSO5074FG oscilloscope&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/mso5074fg_unboxing/assets/mso5074fg_unboxing_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>

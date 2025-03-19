@@ -1,4 +1,4 @@
-# #278 ComponentTesterKit
+# #278 Component Tester Kit
 
 Build and evaluate a popular ATMEGA328-based component tester kit
 
@@ -13,7 +13,6 @@ It took a few hours to construct, and fired up perfectly. I have built similar c
 
 I believe this kit is another variation of an open source project created by the folks on [www.mikrocontroller.net](http://www.mikrocontroller.net/articles/AVR_Transistortester).
 The [Guide to AVR Transistortesters](https://www.instructables.com/id/My-Guide-to-AVR-Transistortesters/?ALLSTEPS) by pfred2 is an excellent introduction.
-
 
 ### Parts
 
@@ -58,13 +57,11 @@ The reference numbers listed below are my own assignation. See the attached sche
 |              | 28-pin DIP socket                                | 1   |
 |              | 2578AY-AT switch                                 | 1   |
 
-
 ![kit_unboxing](./assets/kit_unboxing.jpg?raw=true)
 
 ![kit_pcb_front](./assets/kit_pcb_front.jpg?raw=true)
 
 ![kit_pcb_rear](./assets/kit_pcb_rear.jpg?raw=true)
-
 
 ## Assembly
 
@@ -88,12 +85,12 @@ Finished product:
 
 ![Build](./assets/ComponentTesterKit_build.jpg?raw=true)
 
-
 ## Manual & Instructions
 
 The following notes are cribbed from seller product pages..
 
 ### Power
+
 Transistor Tester can be powered from 6.8V – 12V DC. This can be achieve by a 9V layer-built battery. Two 3.7V
 Lithium-ion battery in series. Or AC adapter. When power on, the current is about 30mA at DC 9V.
 
@@ -108,14 +105,12 @@ Transistor Tester is control by a "rotary pulse encoder with switch" (RPEWS). It
 * press and hold (long-press)
 * left and right rotation
 
-
 At the end of a test (before auto-off), a long-press or rotation of the RPEWS will enter the function menu.
 In the function menu:
 
 * RPEWS rotation changes the selection
 * RPEWS short-press selects action
 * RPEWS long-press to exit
-
 
 ### Self Test and Calibration
 
@@ -132,14 +127,12 @@ The test procedure will then prompt `1-||-3 > 100nf` .. insert a 100nF to 20µF 
 
 Test procedure ends and reports calibration values.
 
-
 ## Test Points
 
 The test socket has three test points (TP1,TP2,TP3).
 The PCB also has corresponding SMT test pads (unfortunately inaccessible when the tester is mounted in a case)
 
 ![manual_1](./assets/manual_1.jpg?raw=true)
-
 
 ### Function Menu
 
@@ -164,9 +157,7 @@ Brief summary of the function menu options:
 * IR_Encoder - simulation of IR Remote Controller
 * C(uF)- correction - set the correction value for big capacitor measurement
 
-
 ## Component Tests and Features
-
 
 ### Usage Hints
 
@@ -190,20 +181,19 @@ force for the ESR measurement of capacitors. With poor connection cable a ESR va
 You should not expect very good accuracy of measurement results, especially the ESR measurement and the results of
 inductance measurement are not very exact
 
-### Components with problems:
+### Components with problems
 
 You should keep in mind by interpreting the measurement results, that the circuit of the Transistor Tester is designed for
 small signal semiconductors. In normal measurement condition the measurement current can only reach about 6 mA.
 
 Power semiconductors often make trouble by reason of residual current with the identification and the measurement of junction
 capacity value. The Tester often cannot deliver enough ignition current or holding current for power Thyristors or Triacs. So a
-Thyristor can be detected as NPN transistor or diode. Also it is possible, that a Thyristor or Triacis detected as unknown.
+Thyristor can be detected as NPN transistor or diode. Also it is possible, that a Thyristor or Triac is detected as unknown.
 
 Another problem is the identification of semiconductors with integrated resistors. So the base-emitter diode of a BU508D
 transistor cannot be detected by reason of the parallel connected internal 42ohm resistor. Therefore the transistor function
 cannot be tested also. Problem with detection is also given with power Darlington transistors. We can find often internal
 base - emitter resistors, which make it difficult to identify the component with the undersized measurement current.
-
 
 ### Two-lead Passives: resistors, capacitors, inductors
 
@@ -260,7 +250,6 @@ Here is a 2N3906 PNP under test:
 
 ![test_pnp](./assets/test_pnp.jpg?raw=true)
 
-
 #### Notes on measuring PNP and NPN transistors
 
 For normal measurement the three pins of the transistor will be connect in any order to the measurement inputs of the
@@ -281,7 +270,6 @@ Here is a 2N7000 n-channel MOSFET under test:
 
 ![test_nefet](./assets/test_nefet.jpg?raw=true)
 
-
 ### JFET
 
 Here is a J201 n-JFET under test:
@@ -291,7 +279,6 @@ Here is a J201 n-JFET under test:
 Here is a J175 p-JFET under test:
 
 ![test_pjfet](./assets/test_pjfet.jpg?raw=true)
-
 
 #### Notes on measuring JFET and D-MOS transistors
 
@@ -306,21 +293,19 @@ voltage (Vth) is more difficult with little gate capacity values. You can get a 
 with a value of some nF parallel to the gate/source. The gate threshold voltage will be find out with a drain current of about
 3.5mA for a P-E-MOS and about 4mA for a N-E-MOS
 
-
 ### Frequency Measurement (Function "Frequency")
 
 This function measures frequencies up to 25kHz on the upper terminal block (J5).
-It samples and reports the frequency every few seonds.
+It samples and reports the frequency every few seconds.
 
 Here's is a 1kHz sine wave, 4V peak-to-peak being measured:
 
 ![test_frequency](./assets/test_frequency.jpg?raw=true)
 
-
 ### Signal Generator (Function "f-Generator")
 
 This function produces a square wave on TP2 (also available on the middle-lower connector J4).
-Frequncy is selected from a menu of options rather than being continuously variable.
+Frequency is selected from a menu of options rather than being continuously variable.
 
 Some examples captured on an oscilloscope. First, a nice 1kHz wave:
 
@@ -374,20 +359,22 @@ The function ,”Show Data” shows besides the version number of the software t
 zero resistance (R0) of the pin combination 1:3, 2:3 and 1:2 .In addition the resistance of the port outputs to the 5V side
 (RiHi) and to the 0V side (RiLo) are shown. The zero capacity values (C0) are also shown with all pin combinations (1:3,
 2:3,1:2 and 3:1, 3:2 2:1). At last the correction values for the comparator (REF C) and for the reference voltage (REF R)
-are also shown. Every page is shown for 15 seconds, but you canselect the next page by a key press or a right turn of the
+are also shown. Every page is shown for 15 seconds, but you can select the next page by a key press or a right turn of the
 rotary encoder. With a left turn of the rotary encoder you can repeat the output of the last page or return to the
 previous page.
 
 ### FrontColor
+
 This function can change the color of the font, the 16bit color is encode in RGB(565) format, that mean red maximum =
 31, green maximum = 63,blue maximum = 31 respectively. In the function, a short time press can index the base color to
 change, turn left decrease it value and turn right increase it value. A long time press will save the Result and exit the
-function, please keep in mind the FrontColor and the backcolor cannot be the same. This will case the LCD show nothing.
+function, please keep in mind the FrontColor and the back color cannot be the same. This will case the LCD show nothing.
 If this happens, you need to do a Selftest , how to enter the Selftest is descriptions at Page 2. Selftest will change the back
 Color to black and font color to white automatically. When the Selftest is finish . you will have the chance to modify the
 color .
 
 ### BackColor
+
 This is function is the same as the FrontColor except it’s change the background color .
 
 ### Small Capacitance Measurement (Function: "1-||-3")
@@ -410,7 +397,6 @@ The DS18B20 is a Digital Thermometer with 1 Wire communicating protocol , it Loo
 component package of TO-92, so it can fit into the Transistor tester.
 
 ![manual_2](./assets/manual_2.jpg?raw=true)
-
 
 When the function is entered, row 2 of the LCD displays  "1=GND 2=DQ 3=VDD", which indicates
 device should be connected as follows:
@@ -437,7 +423,6 @@ For example: a read of the DS18B20 yields scratchpad=EC014B467FFF0C102A
 
 ![manual_4b](./assets/manual_4b.jpg?raw=true)
 
-
 ### DHT11
 
 DHT11 is a sensor with temperature measure and humidity measure, the degree of accuracy is +-5%RH and +-2C
@@ -461,6 +446,7 @@ Here is a DHT11 under test:
 ![test_dht11](./assets/test_dht11.jpg?raw=true)
 
 ### IR_decoder
+
 The function of decoder is achieve by a IR receiver module. the follow IR receiver module is choice at design.
 
 ![manual_6](./assets/manual_6.jpg?raw=true)
@@ -485,15 +471,14 @@ rotate will increase the value . press and hold the knob for >1S and <3S (>3S wi
 
 Row5 change the “data” ,and the Bitwise NOT of the “data” (~data) is auto calculate by the tester .
 Row6 ,The “emit:” is used to start a transmit . move “>” to this line, and rotate the knob ,a “->” will appear soon
-untill a transmit complete.
+until a transmit complete.
 This function is “strongly” correlation with the 16.IR_decoder . without decoder ,the value of the user code and data
 is unknown. Unless you already know them before. Used other methods.
 The infrared remote control protocol of “TC9012” is frequent use on television in my submission. I think , in china.
 
 ### C(uF)- correction
+
 This function set the correction value for big capacitor measurement, Positive values will reduce measurement results.
-
-
 
 ## Construction
 

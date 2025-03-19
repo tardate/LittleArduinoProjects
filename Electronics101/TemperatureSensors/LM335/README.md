@@ -7,7 +7,7 @@ Reading ambient temperature with the LM335 and an Arduino without output display
 ## Notes
 
 This circuit uses an LM335 Precision Kelvin Temperature Sensor to measure ambient temperature,
-and display the result on a Nokia 5110 comptible LCD.
+and display the result on a Nokia 5110 compatible LCD.
 
 The LM35 is part of a series of easy to use temperature sensors:
 
@@ -25,7 +25,6 @@ Specifications for the LM335:
 * Less than 1Ω dynamic impedance
 * Easily calibrated
 * LM335 operates from −40 ̊C to +100 ̊C.
-
 
 NB: I'm testing with an LM335 sourced from [element14](https://sg.element14.com/),
 and it works fine. I had a number of LM335 components ordered from aliexpress sellers which were all bad (either failed open, or had fixed 0.7B drop regardless of temperature).
@@ -62,7 +61,6 @@ acts like open circuit
 analog_reading: 1023.00
 kelvin: 500.25
 
-
 with 2nd batch - LM335AZ chips
 
 analog_reading: 142.00
@@ -70,13 +68,11 @@ kelvin: 69.20
 
 interesting - same result if reversed. this is reading about 0.7V - 1 diode drop
 
-
-
 ## Credits and References
 
 * [LM335 datasheet](https://www.st.com/resource/en/datasheet/lm335.pdf)
 * [Introducing LM35, LM335 and LM34 Temperature Sensors](https://randomnerdtutorials.com/arduino-lm35-lm335-lm34-temperature-sensor/)
 * [The LM335 Temperature Sensor](http://web.mit.edu/rec/www/workshop/lm335.html)
 * Troubleshooting:
-  * [LM335 Not Accurate](https://forum.arduino.cc/t/lm335-not-accurate/68029/3)
-  * [LM335 Troubleshooting](https://eddiesoft.id.au/LM335%20Troubleshooting.html)
+    * [LM335 Not Accurate](https://forum.arduino.cc/t/lm335-not-accurate/68029/3)
+    * [LM335 Troubleshooting](https://eddiesoft.id.au/LM335%20Troubleshooting.html)

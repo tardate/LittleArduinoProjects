@@ -32,13 +32,13 @@ Since the RGB LED elements have differing forward voltages, varying the current 
 * Green: 1.2kΩ
 * Blue: 680Ω
 
-Since I'm using a common anode RGB LED, the controlling PWM pins will actually be "sinking" current. PWM duty cycle calcuations in code take this into account by inverting the period i.e. intending to have the LED 75% "on" requires a PWM duty cycle of 25%.
+Since I'm using a common anode RGB LED, the controlling PWM pins will actually be "sinking" current. PWM duty cycle calculations in code take this into account by inverting the period i.e. intending to have the LED 75% "on" requires a PWM duty cycle of 25%.
 
 The maximum current that can be drawn from a single GPIO pin is 12mA. Even when fully on, the worst case we should expect to draw is [4.9mA](https://www.wolframalpha.com/input/?i=3.3V%2F680%CE%A9), so there is no problem driving the LED directly from the ESP GPIO pins i..e no need to switch via a MOSFET or BJT.
 
 The circuit itself is very simple:
 
-* regulated 3.3V power supply - here I'm using an LD1117 with some smotthing capacitors so I can easly drive from battery or random DC power supply
+* regulated 3.3V power supply - here I'm using an LD1117 with some smoothing capacitors so I can easily drive from battery or random DC power supply
 * RGB LED connections to selected GPIO pins
 * a pull-up resistor for the RESET line
 * the ESP12 adapter board already provides "boot from SD card" GPIO15 pull down, and chip enable pull-up resistors
@@ -66,7 +66,7 @@ When I have it "just right", the page content is copied into [index_page.h](./in
 
 NB: I used the [update_index_page.rb](./update_index_page.rb) script to reformat `page_design.html` and generate `index_page.h` automatically.
 
-```
+```sh
 $ ./update_index_page.rb
 Generating index_page.h from page_design.html...
 ...done!

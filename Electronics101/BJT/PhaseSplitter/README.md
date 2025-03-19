@@ -21,7 +21,6 @@ In the following tests, the scope is connected as follows
 
 ![PhaseSplitter_test](./assets/PhaseSplitter_test.jpg?raw=true)
 
-
 ### Vcc=5V
 
 With VCC=5V, the quiescent point:
@@ -32,7 +31,6 @@ With VCC=5V, the quiescent point:
 CH2 (blue) is offset -2V
 
 ![scope_100khz_5v](./assets/scope_100khz_5v.gif?raw=true)
-
 
 ### Vcc=9V
 
@@ -45,7 +43,6 @@ CH2 (blue) is offset -4v
 
 ![scope_100khz_9v](./assets/scope_100khz_9v.gif?raw=true)
 
-
 ### Vcc=15V
 
 With VCC=15V, the quiescent point:
@@ -56,7 +53,6 @@ With VCC=15V, the quiescent point:
 CH2 (blue) is offset -4v
 
 ![scope_100khz_15v](./assets/scope_100khz_15v.gif?raw=true)
-
 
 ## Construction
 

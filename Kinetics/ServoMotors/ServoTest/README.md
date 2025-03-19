@@ -8,7 +8,7 @@ I'm testing the control of a TowerPro SG90 9g Micro Servo.
 According the the [datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf), this has a 180 degree sweep.
 
 ServoTest accepts a range of commands over the serial interface to perform various servo positioning tasks.
-See the spash screen when you open the console window for options.
+See the splash screen when you open the console window for options.
 
 ![console](./assets/console.png?raw=true)
 
@@ -21,7 +21,6 @@ The three cable connections to the servo are identified as follows:
 | PWM        | orange |
 | Vcc        | red    |
 | Ground     | brown  |
-
 
 ### Powering the Servo
 
@@ -45,7 +44,7 @@ Here is my little positioning chart:
 
 ![Performance](./assets/SG90_default_positioning_accuracy.jpg?raw=true)
 
-I suspect the positioning accurcy may be largely fixed by tuning the Servo pulse width settings. TODO: that's an investigation for another day..
+I suspect the positioning accuracy may be largely fixed by tuning the Servo pulse width settings. TODO: that's an investigation for another day..
 
 ### Performance - Refined
 

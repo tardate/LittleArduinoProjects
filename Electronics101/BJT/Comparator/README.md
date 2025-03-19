@@ -20,7 +20,6 @@ Comparator ICs are typically for more demanding applications and may feature:
 Comparator IC internals are relatively sophisticated; much of the complexity concerns temperature stability and balance adjustment.
 However at their heart, the basic concept of a comparator is a differential amplifier but with an output that swings between two states.
 
-
 For this project, I'm going back to basics and attempting to implement a comparator with discrete transistors.
 
 ## Design Inspirations
@@ -30,7 +29,7 @@ It seems the field jumped very quickly to OpAmp and Comparator ICs.
 
 The most useful references I found were:
 
-* [Electronic Principles](https://www.goodreads.com/book/show/942642.Electronic_Principles) which presents a simplified schematic of an IC comparatorin section 22-13, p853
+* [Electronic Principles](https://www.goodreads.com/book/show/942642.Electronic_Principles) which presents a simplified schematic of an IC comparator in section 22-13, p853
 * [Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) 2.22 Temperature controller, p105 - a circuit that includes a BJT comparator in the control circuit
 
 ## Design
@@ -38,7 +37,7 @@ The most useful references I found were:
 Q1-4 comprise the differential amplifier with current mirror to provide an active load.
 Q5,Q6 current mirror limits the emitter current of the differential pair.
 
-In the demonstration mode (which can be disconnected with jumpers), R1 and R2 are 100kΩ potentionmeters
+In the demonstration mode (which can be disconnected with jumpers), R1 and R2 are 100kΩ potentiometers
 that effectively make a Wheatstone bridge for comparing the voltages at the wipers.
 
 The output is tapped at the collector of Q4.
@@ -54,7 +53,6 @@ I built this up first and testing it on a breadboard..
 ![Breadboard](./assets/Comparator_bb.jpg?raw=true)
 
 ![Comparator_bb_build](./assets/Comparator_bb_build.jpg?raw=true)
-
 
 ## Protoboard Construction
 
@@ -81,7 +79,6 @@ Here's a scope trace that captures some manual manipulation of the input and ref
 * CH3 (Red) - comparator output voltage Vo
 
 ![scope_example_1](./assets/scope_example_1.gif?raw=true)
-
 
 ## Credits and References
 

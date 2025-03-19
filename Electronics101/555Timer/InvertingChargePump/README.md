@@ -43,7 +43,7 @@ Frequencies, as measured with frequency counter:
 OK, next here's the table of output voltage measurements with variations in the circuit:
 
 * high and low charge frequencies
-* a range of output impedences, to see how stable the voltage is to load
+* a range of output impedances, to see how stable the voltage is to load
 * flying and output capacitor values
 * different diodes: 1N4001 as a representative standard rectifier; 1N4148 for its high speed; 1N5819 for its low forward voltage
 
@@ -193,18 +193,18 @@ Diode selection:
 
 Frequency:
 
-* higher frequencies are more robust under varying loads (lower voltage drop at lower output impedences)
+* higher frequencies are more robust under varying loads (lower voltage drop at lower output impedances)
 
 Capacitor values:
 
 * for this circuit and range of loads, CF and CL should be at least 10µF
 * while 10µF is workable, higher values get the circuit closer to unity gain
 
-Output Impedence:
+Output Impedance:
 
-* this circuit struggles to maintain voltage for low impedences (under 10kΩ)
+* this circuit struggles to maintain voltage for low impedances (under 10kΩ)
 * understandable, since they want to rapidly deplete the output capacitor
-* for low impedence loads, the circuit would need to change so that a heavy charging current could be delivered via a BJT or FET
+* for low impedance loads, the circuit would need to change so that a heavy charging current could be delivered via a BJT or FET
 
 Oscillator:
 

@@ -11,19 +11,19 @@ I purchased my unit from a [seller on aliexpress](https://www.aliexpress.com/ite
 Specifications:
 
 * charging:
-  - micro USB input
-  - 0.5A current charging
-  - 5-8V Input Voltage
-  - LED indicators:
-    - Green: full (L1)
-    - Red: charging (L2)
+    * micro USB input
+    * 0.5A current charging
+    * 5-8V Input Voltage
+    * LED indicators:
+        * Green: full (L1)
+        * Red: charging (L2)
 * battery protection:
-  - Over charge
-  - Over discharge)
+    * Over charge
+    * Over discharge)
 * output:
-  - Type-A USB Output (with switch)
-  - 3V 1A (3 sets of connection pads)
-  - 5V 2A(3 sets of connection pads)
+    * Type-A USB Output (with switch)
+    * 3V 1A (3 sets of connection pads)
+    * 5V 2A(3 sets of connection pads)
 * board Size: 9.8x2.9cm/3.86x1.14inch
 
 ## Construction

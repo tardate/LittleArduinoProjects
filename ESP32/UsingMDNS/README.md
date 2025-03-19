@@ -34,7 +34,7 @@ The console will confirm the DHCP IP address and name that the device registers 
 
 ### Minimum Registration Details
 
-The minimum required to regster the ESP32 is to begin the mDNS service with a hostname:
+The minimum required to register the ESP32 is to begin the mDNS service with a hostname:
 
     #include <ESPmDNS.h>
     char hostname[] = "esp32-using-mdns";
@@ -128,7 +128,6 @@ Browsing HTTP services and listing in zone file format:
     _leap._tcp                                      PTR     esp32-using-mdns._leap._tcp
     esp32-using-mdns._leap._tcp                     SRV     0 0 80 esp32-using-mdns.local. ; Replace with unicast FQDN of target host
     esp32-using-mdns._leap._tcp                     TXT     ""
-
 
 The ESPmDNS library has an `enableArduino` method that registers Arduino details in a TXT record
 

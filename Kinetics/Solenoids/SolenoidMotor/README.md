@@ -8,7 +8,6 @@ Here's a quick video of the circuit in action:
 
 [![SolenoidMotor](https://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](https://www.youtube.com/watch?v=b7wmZLSBpzk)
 
-
 ## Notes
 
 Solenoid motors are an interesting curiosity. They are quite impractical, as there are much more efficient
@@ -29,8 +28,9 @@ It makes contact with a free-standing wire during the "pull" cycle.
 The flywheels, axle and engine mount are all copper, so the base of the engine mount is grounded to complete the circuit.
 
 The switch controls the power to the whole circuit:
+
 * 12V battery (at the upper end of the solenoid's voltage range for max power)
-* mini solendoid with 1N4001 flyback diode
+* mini solenoid with 1N4001 flyback diode
 * an LED indicator with current limiting resistor
 
 ## Construction

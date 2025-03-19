@@ -39,7 +39,7 @@ The music chip included in my kit is marked "H823" and plays "Happy Birthday". T
 from the one included in [Julian Ilett's build](https://www.youtube.com/watch?v=AJFLz_hQsjo),
 and doesn't suffer from the same problem of needing an extra base resistor for the transistor output.
 
-However the piezzo speaker included in the kit sounds terrible; it works much better with a speaker.
+However the piezo speaker included in the kit sounds terrible; it works much better with a speaker.
 But since there is no room on the board for a speaker, I decided not to build the music circuit in this kit.
 
 Instead I've tested the H823 chip in a separate project -
@@ -61,7 +61,7 @@ Instead I've tested the H823 chip in a separate project -
 | R2      | 10kΩ                  |   1 |
 | R1      | 1.5MΩ                 |   1 |
 | C1      | 1µF electrolytic      |   1 |
-|         | Piezzo Buzzer         |   1 |
+|         | Piezo Buzzer          |   1 |
 |         | H823 Music Chip       |   1 |
 |         | DPDT Switch           |   1 |
 |         | mini USB socket       |   1 |

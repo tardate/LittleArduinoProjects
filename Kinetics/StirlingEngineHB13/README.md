@@ -26,20 +26,23 @@ A good read of the [Support & FAQ](http://www.en.boehm-stirling.com/support.html
 There are essential tips not to be found in the main instruction documents.
 
 Some things to note:
+
 * See [ALIGNING PIN ASSEMBLY](http://www.en.boehm-stirling.com/support.html#passstiftmontage) for details on how to use the supplied jig to attach the connecting rods with pins
 * Step (9) in the instructions does not mention inserting spacers 32 and 33. These need to be inserted as the rocker arms are attached to the side plate
-* Step (12) does not precisely specify the assembly of screw, bushing and conecting rod. The diagram seems wrong for one rod. Played around till I think I have it right (screw -> rod -> bush -> crankshaft for both).
+* Step (12) does not precisely specify the assembly of screw, bushing and connecting rod. The diagram seems wrong for one rod. Played around till I think I have it right (screw -> rod -> bush -> crankshaft for both).
 
 Overall the kit is very well manufactured. All parts arrived and are machined well, but could perhaps do with some better packaging in order to survive being shipped around the world. Just three minor issues:
+
 * One of the connecting rods (21) arrived bent ~30˚ during shipping. It straightened out without trouble.
 * The heating cylinder (23) had a [slight ding](./assets/03_shipped_with_a_ding.jpg?raw=true). Rough shipping again? It doesn't affect performance, and I was able to position the imperfection on the lower side, so it is not visible.
 * The screws (42) around the heating cylinder (23) are just a little too snug (screws scrape the cylinder when tightening home). Assembles OK, but an extra micrometer or two would have made assembly perfect.
 
-The only thing that had me worried was whether I could find suitable fuel in Singapore. Fortunately there was not problem - I was able to find a suitable bottle of [denatured alchohol](http://www.guardian.com.sg/denatured-alcohol-120ml/p/158504) at my local Guardian Pharmacy for only $4.30.
+The only thing that had me worried was whether I could find suitable fuel in Singapore. Fortunately there was not problem - I was able to find a suitable bottle of [denatured alcohol](http://www.guardian.com.sg/denatured-alcohol-120ml/p/158504) at my local Guardian Pharmacy for only $4.30.
 
 So where are the electronics? None involved so far! But some ideas I have in mind:
+
 * note the power-take-off (PTO) from the fly-wheel ... that has possibilities for electricity generation
-* and there's finding a way to automate operation. I wonder what it would take to replace the alchohol fuel with an electric element?
+* and there's finding a way to automate operation. I wonder what it would take to replace the alcohol fuel with an electric element?
 
 ## Construction
 
@@ -47,7 +50,7 @@ So where are the electronics? None involved so far! But some ideas I have in min
 
 ![02_assembly_begins](./assets/02_assembly_begins.jpg?raw=true)
 
-![04_heat_cylinger_coming_along](./assets/04_heat_cylinger_coming_along.jpg?raw=true)
+![04_heat_cylinder_coming_along](./assets/04_heat_cylinder_coming_along.jpg?raw=true)
 
 ![05_side_frame_in_place](./assets/05_side_frame_in_place.jpg?raw=true)
 
@@ -66,16 +69,16 @@ According to the [FAQ](https://www.boehm-stirling.com/en/general-tips.html):
 Methylated alcohol is also known as methylated spirits - or generically "denatured alcohol", but without undesirable additives. All the formulations of alcohol can be confusing and misleading, here's my memory jogger:
 
 * [Denatured alcohol](https://en.wikipedia.org/wiki/Denatured_alcohol) aka methylated alcohol, methylated spirits.
-  * typically ethyl alcohol (95%) and methyl alcohol (%5)
-  * may have other additives and colourings, especially if marketed for medical applications
-  * hobby use: fuel for alcohol burners; solvent for some cleaning applications
+    * typically ethyl alcohol (95%) and methyl alcohol (%5)
+    * may have other additives and colourings, especially if marketed for medical applications
+    * hobby use: fuel for alcohol burners; solvent for some cleaning applications
 * [Rubbing alcohol](https://en.wikipedia.org/wiki/Rubbing_alcohol) approximately 70% alcohol but with other additives
-  * if isopropyl alcohol, also known as "surgical spirit"
-  * alternatively may be denatured alcohol
-  * even if high percentage IPA, additives make it unsuitable for hobby use
+    * if isopropyl alcohol, also known as "surgical spirit"
+    * alternatively may be denatured alcohol
+    * even if high percentage IPA, additives make it unsuitable for hobby use
 * [Isopropyl alcohol](https://en.wikipedia.org/wiki/Isopropyl_alcohol)
-  * pure CH3CHOHCH3
-  * hobby use: solvent, especially for PCB cleaning
+    * pure CH3CHOHCH3
+    * hobby use: solvent, especially for PCB cleaning
 
 [![ipa_v_denatured](./assets/ipa_v_denatured.jpg?raw=true)](https://www.chemicals.co.uk/blog/isopropyl-alcohol-vs-denatured-alcohol)
 

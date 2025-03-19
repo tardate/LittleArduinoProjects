@@ -1,7 +1,6 @@
-# #222 StairStepGenerator
+# #222 Stair-step Generator
 
 Generate a stair-step waveform with analog components.
-
 
 ## Notes
 
@@ -22,6 +21,7 @@ hence I'm running the circuit at 5V only.
 This is a trace of the circuit on a breadboard (a little noisy). But it works!
 
 In this trace:
+
 * CH1: 555 timer signal
 * CH2: reset pulse
 * CH3: output

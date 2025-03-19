@@ -6,7 +6,6 @@ Here's a quick video of the circuit in action:
 
 [![Capacitor discharge graphs with Arduino and Processing](https://img.youtube.com/vi/hmDOkpburF8/0.jpg)](https://www.youtube.com/watch?v=hmDOkpburF8)
 
-
 ## Notes
 
 The circuit uses a digital output pin to charge the capacitor.
@@ -25,13 +24,16 @@ The voltage at the positive terminal of the capacitor is read with an analog inp
 Varying the capacitance will affect the storage potential and discharge rate.
 
 #### 47uF
+
 At 47uF, the capacitor is given enough time to fully charge (note the plateau), and discharge is very rapid.
 ![47uF](./assets/47uF.png?raw=true)
 
 #### 470uF
+
 ![470uF](./assets/470uF.png?raw=true)
 
 #### 1000uF
+
 ![1000uF](./assets/1000uF.png?raw=true)
 
 ## Credits and References

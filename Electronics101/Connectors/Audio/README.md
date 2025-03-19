@@ -14,7 +14,6 @@ For more thorough coverage of the variety of audio connectors, see:
 * Chapter 7 of John M. Hughes' [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics).
 * [Tech Basics: Cables & Connectors](https://www.udemy.com/tech101-cables-and-connectors/) - udemy course
 
-
 ### 3.5mm Connectors
 
 Commonly used for analog audio.
@@ -35,13 +34,11 @@ Example of a stereo socket with bypass. For this specific socket, pin arrangemen
 
 ![stereo_socket_3.5mm](./assets/stereo_socket_3.5mm.jpg?raw=true)
 
-
 ### 6.35mm (1/4") Connectors
 
 Primarily used for instruments, mono and stereo.
 
 ![6.35mm](./assets/6.35mm.jpg?raw=true)
-
 
 ### RCA/Phono
 
@@ -54,7 +51,6 @@ Commonly used for analog audio and video.
 * shielded audio
 * professional audio
 * snake - multiple XLR connectors in one bundle
-
 
 ### Audio Adapters
 
