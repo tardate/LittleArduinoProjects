@@ -210,6 +210,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#713",
+        "name": "USB Multifunction Tester",
+        "description": "Examining the KWS-MX17 inline USB multi-function tester",
+        "categories": "USB, Test Equipment",
+        "relative_path": "equipment/usbmultifunctiontester",
+        "updated_at": "2025-03-19T05:00:00Z",
+        "created_at": "2025-03-19T05:00:00Z",
+        "original_relative_path": "Equipment/USBMultifunctionTester"
+    },
+    {
         "id": "#712",
         "name": "LPD433 Modules",
         "description": "A roundup of readily available LPD433 modules, low power devices operating on the 433 MHz UHF/70-centimeter band.",

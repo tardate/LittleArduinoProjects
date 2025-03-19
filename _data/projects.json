@@ -191,6 +191,15 @@
             "Oscillators"
         ]
     },
+    "/equipment/usbmultifunctiontester/": {
+        "id": 713,
+        "title": "USB Multifunction Tester",
+        "summary": "Examining the KWS-MX17 inline USB multi-function tester",
+        "tags": [
+            "USB",
+            "Test Equipment"
+        ]
+    },
     "/radio/lpd433/modules/": {
         "id": 712,
         "title": "LPD433 Modules",

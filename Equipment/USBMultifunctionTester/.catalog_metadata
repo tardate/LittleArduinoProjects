@@ -1,0 +1,9 @@
+{
+    "id": "#713",
+    "name": "USB Multifunction Tester",
+    "description": "Examining the KWS-MX17 inline USB multi-function tester",
+    "categories": "USB, Test Equipment",
+    "relative_path": "Equipment/USBMultifunctionTester",
+    "updated_at": "2025-03-19T05:00:00Z",
+    "created_at": "2025-03-19T05:00:00Z"
+}
