@@ -210,6 +210,16 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#714",
+        "name": "SlowGlow2",
+        "description": "A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.",
+        "categories": "555 Timer, LED",
+        "relative_path": "electronics101/555timer/slowglow2",
+        "updated_at": "2025-03-19T16:41:00Z",
+        "created_at": "2025-03-19T16:41:00Z",
+        "original_relative_path": "Electronics101/555Timer/SlowGlow2"
+    },
+    {
         "id": "#713",
         "name": "USB Multifunction Tester",
         "description": "Examining the KWS-MX17 inline USB multi-function tester",

@@ -191,6 +191,15 @@
             "Oscillators"
         ]
     },
+    "/electronics101/555timer/slowglow2/": {
+        "id": 714,
+        "title": "SlowGlow2",
+        "summary": "A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.",
+        "tags": [
+            "555 Timer",
+            "LED"
+        ]
+    },
     "/equipment/usbmultifunctiontester/": {
         "id": 713,
         "title": "USB Multifunction Tester",
