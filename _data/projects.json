@@ -190,6 +190,14 @@
             "LED"
         ]
     },
+    "/books/c-programming-on-raspberry-pi/": {
+        "id": 725,
+        "title": "C Programming on Raspberry Pi",
+        "summary": "Book notes: C Programming on Raspberry Pi, by Dogan Ibrahim.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/encyclopedia-of-electronic-circuits/": {
         "id": 724,
         "title": "Encyclopedia of Electronic Circuits, volumes 1-7",

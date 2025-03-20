@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-20T15:50:00Z</updated>
+  <updated>2025-03-20T16:19:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -245,6 +245,16 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/c-programming-on-raspberry-pi/</id>
+    <link href="https://leap.tardate.com/books/c-programming-on-raspberry-pi/"/>
+    <g:image_link>https://leap.tardate.com/books/c-programming-on-raspberry-pi/assets/c-programming-on-raspberry-pi_build.jpg</g:image_link>
+    <updated>2025-03-20T16:19:00Z</updated>
+    <title>#725 C Programming on Raspberry Pi</title>
+    <summary>Book notes: C Programming on Raspberry Pi, by Dogan Ibrahim.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: C Programming on Raspberry Pi, by Dogan Ibrahim.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/c-programming-on-raspberry-pi/assets/c-programming-on-raspberry-pi_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/encyclopedia-of-electronic-circuits/</id>
