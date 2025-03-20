@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-19T16:41:00Z</updated>
+  <updated>2025-03-20T08:55:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -246,6 +246,36 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/led/flashingled/</id>
+    <link href="https://leap.tardate.com/electronics101/led/flashingled/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/flashingled/assets/flashingled_build.jpg</g:image_link>
+    <updated>2025-03-20T08:55:00Z</updated>
+    <title>#717 Flashing LEDs</title>
+    <summary>A quick test and review of a range of 5mm flashing LEDs: red , slow RGB, fast RGB.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick test and review of a range of 5mm flashing LEDs: red , slow RGB, fast RGB.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/flashingled/assets/flashingled_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/led/decorativeflashingled/</id>
+    <link href="https://leap.tardate.com/electronics101/led/decorativeflashingled/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/decorativeflashingled/assets/decorativeflashingled_build.jpg</g:image_link>
+    <updated>2025-03-20T07:54:00Z</updated>
+    <title>#716 Decorative Flashing LED</title>
+    <summary>A quick investigation of some decorative flashing LEDs that were scattered around a restaurant feed presentation(!)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick investigation of some decorative flashing LEDs that were scattered around a restaurant feed presentation(!)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/decorativeflashingled/assets/decorativeflashingled_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/led/candleled/</id>
+    <link href="https://leap.tardate.com/electronics101/led/candleled/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/candleled/assets/candleled_build.jpg</g:image_link>
+    <updated>2025-03-20T07:54:00Z</updated>
+    <title>#715 Candle LED</title>
+    <summary>A quick test and review of 5mm candle LEDs, that include a built-in candle flicker emulation.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick test and review of 5mm candle LEDs, that include a built-in candle flicker emulation.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/candleled/assets/candleled_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="LED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/slowglow2/</id>
