@@ -1,0 +1,9 @@
+{
+    "id": "#715",
+    "name": "Candle LED",
+    "description": "A quick test and review of 5mm candle LEDs, that include a built-in candle flicker emulation.",
+    "categories": "LED",
+    "relative_path": "Electronics101/LED/CandleLED",
+    "updated_at": "2025-03-20T07:54:00Z",
+    "created_at": "2025-03-20T07:54:00Z"
+}

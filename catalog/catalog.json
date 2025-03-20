@@ -210,6 +210,26 @@
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
     },
     {
+        "id": "#716",
+        "name": "Decorative Flashing LED",
+        "description": "A quick investigation of some decorative flashing LEDs that were scattered around a restaurant feed presentation(!)",
+        "categories": "LED",
+        "relative_path": "electronics101/led/decorativeflashingled",
+        "updated_at": "2025-03-20T07:54:00Z",
+        "created_at": "2025-03-20T07:54:00Z",
+        "original_relative_path": "Electronics101/LED/DecorativeFlashingLED"
+    },
+    {
+        "id": "#715",
+        "name": "Candle LED",
+        "description": "A quick test and review of 5mm candle LEDs, that include a built-in candle flicker emulation.",
+        "categories": "LED",
+        "relative_path": "electronics101/led/candleled",
+        "updated_at": "2025-03-20T07:54:00Z",
+        "created_at": "2025-03-20T07:54:00Z",
+        "original_relative_path": "Electronics101/LED/CandleLED"
+    },
+    {
         "id": "#714",
         "name": "SlowGlow2",
         "description": "A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.",

@@ -191,6 +191,22 @@
             "Oscillators"
         ]
     },
+    "/electronics101/led/decorativeflashingled/": {
+        "id": 716,
+        "title": "Decorative Flashing LED",
+        "summary": "A quick investigation of some decorative flashing LEDs that were scattered around a restaurant feed presentation(!)",
+        "tags": [
+            "LED"
+        ]
+    },
+    "/electronics101/led/candleled/": {
+        "id": 715,
+        "title": "Candle LED",
+        "summary": "A quick test and review of 5mm candle LEDs, that include a built-in candle flicker emulation.",
+        "tags": [
+            "LED"
+        ]
+    },
     "/electronics101/555timer/slowglow2/": {
         "id": 714,
         "title": "SlowGlow2",
