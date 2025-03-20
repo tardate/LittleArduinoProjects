@@ -182,6 +182,14 @@
             "LED"
         ]
     },
+    "/books/ttl_cookbook/": {
+        "id": 721,
+        "title": "TTL Cookbook",
+        "summary": "Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/led/dimmer/vco/": {
         "id": 719,
         "title": "Voltage Controlled LED Dimmer",

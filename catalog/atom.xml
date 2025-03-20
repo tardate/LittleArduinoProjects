@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-20T08:55:00Z</updated>
+  <updated>2025-03-20T13:49:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -235,6 +235,16 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/ttl_cookbook/</id>
+    <link href="https://leap.tardate.com/books/ttl_cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/ttl_cookbook/assets/ttl_cookbook_build.jpg</g:image_link>
+    <updated>2025-03-20T13:49:00Z</updated>
+    <title>#721 TTL Cookbook</title>
+    <summary>Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/ttl_cookbook/assets/ttl_cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/dimmer/vco/</id>
