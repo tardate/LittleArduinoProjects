@@ -73,4 +73,20 @@ See also:
 * CHAPTER 10: EXPERIMENTING WITH THE 555 TIMER
     * Introduction to the Experiments
     * Experiments
+        * 1 monostable multivibrator
+        * 2 monostable multivibrator, reset
+        * 3 touch latch
+        * 4 output pulse duration with control pin
+        * 5 astable multivibrator
+        * 6 astable multivibrator - timing resistors
+        * 7 constant f, variable duty
+        * 8 missing pulse detector
+        * 9 audio oscillator
+        * 10 two-tone
+        * 12 10-line sequencer
+        * 13 schmitt trigger
+        * 14 ambient brightness control
+        * 15 thermistor
+        * 16 frequency meter/tachometer
+        * 17 head/tails game
 * APPENDIX
