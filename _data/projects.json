@@ -207,6 +207,22 @@
             "Oscillators"
         ]
     },
+    "/books/micropython-cookbook/": {
+        "id": 718,
+        "title": "MicroPython Cookbook",
+        "summary": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/raspberry-pi-electronics-projects-for-the-evil-genius/": {
+        "id": 718,
+        "title": "Raspberry Pi Electronics Projects for the Evil Genius",
+        "summary": "Book notes: Raspberry Pi Electronics Projects for the Evil Genius, by Donald Norris. Published May 20, 2016.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/led/flashingled/": {
         "id": 717,
         "title": "Flashing LEDs",

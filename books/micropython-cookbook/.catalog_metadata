@@ -1,0 +1,9 @@
+{
+    "id": "#718",
+    "name": "MicroPython Cookbook",
+    "description": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",
+    "categories": "Books",
+    "relative_path": "books/micropython-cookbook",
+    "updated_at": "2025-03-20T14:42:00Z",
+    "created_at": "2025-03-20T14:42:00Z"
+}
