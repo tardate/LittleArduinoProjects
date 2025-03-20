@@ -210,6 +210,46 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#725",
+        "name": "C Programming on Raspberry Pi",
+        "description": "Book notes: C Programming on Raspberry Pi, by Dogan Ibrahim.",
+        "categories": "Books",
+        "relative_path": "books/c-programming-on-raspberry-pi",
+        "updated_at": "2025-03-20T16:19:00Z",
+        "created_at": "2025-03-20T16:19:00Z",
+        "original_relative_path": "books/c-programming-on-raspberry-pi"
+    },
+    {
+        "id": "#724",
+        "name": "Encyclopedia of Electronic Circuits, volumes 1-7",
+        "description": "Book notes: Encyclopedia of Electronic Circuits, volumes 1-7, by Rudolf F. Graf. First published January 1, 1985.",
+        "categories": "Books",
+        "relative_path": "books/encyclopedia-of-electronic-circuits",
+        "updated_at": "2025-03-20T15:50:00Z",
+        "created_at": "2025-03-20T15:50:00Z",
+        "original_relative_path": "books/encyclopedia-of-electronic-circuits"
+    },
+    {
+        "id": "#723",
+        "name": "Timer, Op Amp, and Optoelectronic Circuits & Projects",
+        "description": "Book notes: Timer, Op Amp, and Optoelectronic Circuits & Projects, by Forrest M. Mims III. First published January 1, 1900.",
+        "categories": "Books",
+        "relative_path": "books/engineers-mini-notebook-timer-opamp-and-optoelectronic-circuits",
+        "updated_at": "2025-03-20T15:18:00Z",
+        "created_at": "2025-03-20T15:18:00Z",
+        "original_relative_path": "books/engineers-mini-notebook-timer-opamp-and-optoelectronic-circuits"
+    },
+    {
+        "id": "#722",
+        "name": "The 555 Timer Applications Sourcebook",
+        "description": "Book notes: The 555 Timer Applications Sourcebook, by Howard M. Berlin. First published August 1, 1976.",
+        "categories": "Books",
+        "relative_path": "books/555-timer-applications-sourcebook",
+        "updated_at": "2025-03-20T15:05:00Z",
+        "created_at": "2025-03-20T15:05:00Z",
+        "original_relative_path": "books/555-timer-applications-sourcebook"
+    },
+    {
         "id": "#721",
         "name": "TTL Cookbook",
         "description": "Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.",
@@ -220,6 +260,16 @@
         "original_relative_path": "books/ttl_cookbook"
     },
     {
+        "id": "#720",
+        "name": "The Book of 555 Timer Projects",
+        "description": "Book notes: The Book of 555 Timer Projects, by Dogan Ibrahim.",
+        "categories": "Books",
+        "relative_path": "books/the-book-of-555-timer-projects",
+        "updated_at": "2025-03-20T14:53:00Z",
+        "created_at": "2025-03-20T14:53:00Z",
+        "original_relative_path": "books/the-book-of-555-timer-projects"
+    },
+    {
         "id": "#719",
         "name": "Voltage Controlled LED Dimmer",
         "description": "Demonstrating a voltage-controlled LED current source with a triangle wave generator.",
@@ -228,6 +278,26 @@
         "updated_at": "2023-09-14T16:38:56Z",
         "created_at": "2023-09-14T16:38:56Z",
         "original_relative_path": "Electronics101/LED/Dimmer/VCO"
+    },
+    {
+        "id": "#718",
+        "name": "MicroPython Cookbook",
+        "description": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",
+        "categories": "Books",
+        "relative_path": "books/micropython-cookbook",
+        "updated_at": "2025-03-20T14:42:00Z",
+        "created_at": "2025-03-20T14:42:00Z",
+        "original_relative_path": "books/micropython-cookbook"
+    },
+    {
+        "id": "#718",
+        "name": "Raspberry Pi Electronics Projects for the Evil Genius",
+        "description": "Book notes: Raspberry Pi Electronics Projects for the Evil Genius, by Donald Norris. Published May 20, 2016.",
+        "categories": "Books",
+        "relative_path": "books/raspberry-pi-electronics-projects-for-the-evil-genius",
+        "updated_at": "2025-03-20T14:42:00Z",
+        "created_at": "2025-03-20T14:42:00Z",
+        "original_relative_path": "books/raspberry-pi-electronics-projects-for-the-evil-genius"
     },
     {
         "id": "#717",

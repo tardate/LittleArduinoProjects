@@ -190,10 +190,50 @@
             "LED"
         ]
     },
+    "/books/c-programming-on-raspberry-pi/": {
+        "id": 725,
+        "title": "C Programming on Raspberry Pi",
+        "summary": "Book notes: C Programming on Raspberry Pi, by Dogan Ibrahim.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/encyclopedia-of-electronic-circuits/": {
+        "id": 724,
+        "title": "Encyclopedia of Electronic Circuits, volumes 1-7",
+        "summary": "Book notes: Encyclopedia of Electronic Circuits, volumes 1-7, by Rudolf F. Graf. First published January 1, 1985.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/engineers-mini-notebook-timer-opamp-and-optoelectronic-circuits/": {
+        "id": 723,
+        "title": "Timer, Op Amp, and Optoelectronic Circuits & Projects",
+        "summary": "Book notes: Timer, Op Amp, and Optoelectronic Circuits & Projects, by Forrest M. Mims III. First published January 1, 1900.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/555-timer-applications-sourcebook/": {
+        "id": 722,
+        "title": "The 555 Timer Applications Sourcebook",
+        "summary": "Book notes: The 555 Timer Applications Sourcebook, by Howard M. Berlin. First published August 1, 1976.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/ttl_cookbook/": {
         "id": 721,
         "title": "TTL Cookbook",
         "summary": "Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/the-book-of-555-timer-projects/": {
+        "id": 720,
+        "title": "The Book of 555 Timer Projects",
+        "summary": "Book notes: The Book of 555 Timer Projects, by Dogan Ibrahim.",
         "tags": [
             "Books"
         ]
@@ -205,6 +245,22 @@
         "tags": [
             "LED",
             "Oscillators"
+        ]
+    },
+    "/books/micropython-cookbook/": {
+        "id": 718,
+        "title": "MicroPython Cookbook",
+        "summary": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",
+        "tags": [
+            "Books"
+        ]
+    },
+    "/books/raspberry-pi-electronics-projects-for-the-evil-genius/": {
+        "id": 718,
+        "title": "Raspberry Pi Electronics Projects for the Evil Genius",
+        "summary": "Book notes: Raspberry Pi Electronics Projects for the Evil Genius, by Donald Norris. Published May 20, 2016.",
+        "tags": [
+            "Books"
         ]
     },
     "/electronics101/led/flashingled/": {
