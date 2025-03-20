@@ -11,6 +11,7 @@ See also:
 * [amazon](https://amzn.to/3DEH86z)
 * [goodreads](https://www.goodreads.com/book/show/3991292-ic-converter-cookbook)
 * <https://archive.org/details/icconvertercookb0000jung/mode/2up?view=theater>
+* <https://openlibrary.org/works/OL5281862W/IC_converter_cookbook>
 
 ## Contents
 

@@ -603,10 +603,11 @@
   <entry>
     <id>https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/</id>
     <link href="https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/assets/engineers-mini-notebook-solar-cell-projects_build.jpg</g:image_link>
     <updated>2025-03-13T09:02:00Z</updated>
     <title>#684 Solar Cell Projects</title>
     <summary>Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.&lt;/p&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Engineer's Mini-Notebook Solar Cell Projects, by Forrest M. Mims III. First published January 1, 1999.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/engineers-mini-notebook-solar-cell-projects/assets/engineers-mini-notebook-solar-cell-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
   </entry>
   <entry>
@@ -804,10 +805,11 @@
   <entry>
     <id>https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/</id>
     <link href="https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/"/>
+    <g:image_link>https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/assets/arrl-small-antennas-for-small-spaces_build.jpg</g:image_link>
     <updated>2025-03-13T03:09:00Z</updated>
     <title>#665 ARRL's Small Antennas for Small Spaces</title>
     <summary>Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.&lt;/p&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: ARRL's Small Antennas for Small Spaces, by Steve Ford. First published May 1, 2011.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/arrl-small-antennas-for-small-spaces/assets/arrl-small-antennas-for-small-spaces_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
     <category term="Radio"/>
   </entry>
