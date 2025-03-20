@@ -191,6 +191,14 @@
             "Oscillators"
         ]
     },
+    "/electronics101/led/flashingled/": {
+        "id": 717,
+        "title": "Flashing LEDs",
+        "summary": "A quick test and review of a range of 5mm flashing LEDs: red , slow RGB, fast RGB.",
+        "tags": [
+            "LED"
+        ]
+    },
     "/electronics101/led/decorativeflashingled/": {
         "id": 716,
         "title": "Decorative Flashing LED",
