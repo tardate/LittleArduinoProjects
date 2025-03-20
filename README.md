@@ -1,4 +1,4 @@
-# 745 Little Electronic Art Projects
+# 746 Little Electronic Art Projects
 
 > Latest addition:sparkles: [HT12 Simple Demo](./Radio/LPD433/HT12/SimpleDemo) - A demo of the HT12D decoder and HT12E encoder ICs used with an LPD433 module to broadcast 4 bits of data to an 8-bit address on the 433 MHz UHF/70-centimeter band.
 

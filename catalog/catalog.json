@@ -210,6 +210,16 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#724",
+        "name": "Encyclopedia of Electronic Circuits, volumes 1-7",
+        "description": "Book notes: Encyclopedia of Electronic Circuits, volumes 1-7, by Rudolf F. Graf. First published January 1, 1985.",
+        "categories": "Books",
+        "relative_path": "books/encyclopedia-of-electronic-circuits",
+        "updated_at": "2025-03-20T15:50:00Z",
+        "created_at": "2025-03-20T15:50:00Z",
+        "original_relative_path": "books/encyclopedia-of-electronic-circuits"
+    },
+    {
         "id": "#723",
         "name": "Timer, Op Amp, and Optoelectronic Circuits & Projects",
         "description": "Book notes: Timer, Op Amp, and Optoelectronic Circuits & Projects, by Forrest M. Mims III. First published January 1, 1900.",
