@@ -126,6 +126,14 @@
             "CMOS/TTL"
         ]
     },
+    "/books/active-filter-cookbook/": {
+        "id": 738,
+        "title": "Active Filter Cookbook",
+        "summary": "Book notes: Active Filter Cookbook, by Don Lancaster. First published January 1, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/ntp/ntpclientdemo/": {
         "id": 737,
         "title": "NTP Client Demo",

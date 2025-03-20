@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-20T13:49:00Z</updated>
+  <updated>2025-03-20T14:05:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -167,6 +167,16 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Build a CMOS digital logic clock kit and understand the operating principles of the circuit.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/assets/digitalclockkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/active-filter-cookbook/</id>
+    <link href="https://leap.tardate.com/books/active-filter-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/active-filter-cookbook/assets/active-filter-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-20T14:05:00Z</updated>
+    <title>#738 Active Filter Cookbook</title>
+    <summary>Book notes: Active Filter Cookbook, by Don Lancaster. First published January 1, 1996.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Active Filter Cookbook, by Don Lancaster. First published January 1, 1996.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/active-filter-cookbook/assets/active-filter-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ntp/ntpclientdemo/</id>
