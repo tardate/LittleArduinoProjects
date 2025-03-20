@@ -43,6 +43,9 @@
     <loc>https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/active-filter-cookbook/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/playground/ntp/ntpclientdemo/</loc>
   </url>
   <url>
@@ -59,6 +62,9 @@
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/led/flickerkit/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/books/ttl_cookbook/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/led/dimmer/vco/</loc>

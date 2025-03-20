@@ -140,6 +140,16 @@
         "original_relative_path": "Electronics101/DigitalLogic/DigitalClockKit"
     },
     {
+        "id": "#738",
+        "name": "Active Filter Cookbook",
+        "description": "Book notes: Active Filter Cookbook, by Don Lancaster. First published January 1, 1996.",
+        "categories": "Books",
+        "relative_path": "books/active-filter-cookbook",
+        "updated_at": "2025-03-20T14:05:00Z",
+        "created_at": "2025-03-20T14:05:00Z",
+        "original_relative_path": "books/active-filter-cookbook"
+    },
+    {
         "id": "#737",
         "name": "NTP Client Demo",
         "description": "Simple demonstration of NTP client requests using an Arduino Ethernet Shield",
@@ -198,6 +208,16 @@
         "updated_at": "2023-12-27T02:00:21Z",
         "created_at": "2023-12-27T02:00:21Z",
         "original_relative_path": "Electronics101/LED/FlickerKit"
+    },
+    {
+        "id": "#721",
+        "name": "TTL Cookbook",
+        "description": "Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.",
+        "categories": "Books",
+        "relative_path": "books/ttl_cookbook",
+        "updated_at": "2025-03-20T13:49:00Z",
+        "created_at": "2025-03-20T13:49:00Z",
+        "original_relative_path": "books/ttl_cookbook"
     },
     {
         "id": "#719",

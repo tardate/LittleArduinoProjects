@@ -126,6 +126,14 @@
             "CMOS/TTL"
         ]
     },
+    "/books/active-filter-cookbook/": {
+        "id": 738,
+        "title": "Active Filter Cookbook",
+        "summary": "Book notes: Active Filter Cookbook, by Don Lancaster. First published January 1, 1996.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/playground/ntp/ntpclientdemo/": {
         "id": 737,
         "title": "NTP Client Demo",
@@ -180,6 +188,14 @@
             "Arduino",
             "AVR",
             "LED"
+        ]
+    },
+    "/books/ttl_cookbook/": {
+        "id": 721,
+        "title": "TTL Cookbook",
+        "summary": "Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.",
+        "tags": [
+            "Books"
         ]
     },
     "/electronics101/led/dimmer/vco/": {
