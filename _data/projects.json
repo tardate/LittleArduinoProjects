@@ -190,6 +190,14 @@
             "LED"
         ]
     },
+    "/books/engineers-mini-notebook-timer-opamp-and-optoelectronic-circuits/": {
+        "id": 723,
+        "title": "Timer, Op Amp, and Optoelectronic Circuits & Projects",
+        "summary": "Book notes: Timer, Op Amp, and Optoelectronic Circuits & Projects, by Forrest M. Mims III. First published January 1, 1900.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/555-timer-applications-sourcebook/": {
         "id": 722,
         "title": "The 555 Timer Applications Sourcebook",

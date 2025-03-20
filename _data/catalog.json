@@ -210,6 +210,16 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#723",
+        "name": "Timer, Op Amp, and Optoelectronic Circuits & Projects",
+        "description": "Book notes: Timer, Op Amp, and Optoelectronic Circuits & Projects, by Forrest M. Mims III. First published January 1, 1900.",
+        "categories": "Books",
+        "relative_path": "books/engineers-mini-notebook-timer-opamp-and-optoelectronic-circuits",
+        "updated_at": "2025-03-20T15:18:00Z",
+        "created_at": "2025-03-20T15:18:00Z",
+        "original_relative_path": "books/engineers-mini-notebook-timer-opamp-and-optoelectronic-circuits"
+    },
+    {
         "id": "#722",
         "name": "The 555 Timer Applications Sourcebook",
         "description": "Book notes: The 555 Timer Applications Sourcebook, by Howard M. Berlin. First published August 1, 1976.",
