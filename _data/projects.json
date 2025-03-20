@@ -198,6 +198,14 @@
             "Books"
         ]
     },
+    "/books/the-book-of-555-timer-projects/": {
+        "id": 720,
+        "title": "The Book of 555 Timer Projects",
+        "summary": "Book notes: The Book of 555 Timer Projects, by Dogan Ibrahim.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/led/dimmer/vco/": {
         "id": 719,
         "title": "Voltage Controlled LED Dimmer",

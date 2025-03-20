@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-20T14:42:00Z</updated>
+  <updated>2025-03-20T14:53:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -254,6 +254,16 @@
     <title>#721 TTL Cookbook</title>
     <summary>Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/ttl_cookbook/assets/ttl_cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/the-book-of-555-timer-projects/</id>
+    <link href="https://leap.tardate.com/books/the-book-of-555-timer-projects/"/>
+    <g:image_link>https://leap.tardate.com/books/the-book-of-555-timer-projects/assets/the-book-of-555-timer-projects_build.jpg</g:image_link>
+    <updated>2025-03-20T14:53:00Z</updated>
+    <title>#720 The Book of 555 Timer Projects</title>
+    <summary>Book notes: The Book of 555 Timer Projects, by Dogan Ibrahim.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Book of 555 Timer Projects, by Dogan Ibrahim.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-book-of-555-timer-projects/assets/the-book-of-555-timer-projects_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
   </entry>
   <entry>
