@@ -210,6 +210,16 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#722",
+        "name": "The 555 Timer Applications Sourcebook",
+        "description": "Book notes: The 555 Timer Applications Sourcebook, by Howard M. Berlin. First published August 1, 1976.",
+        "categories": "Books",
+        "relative_path": "books/555-timer-applications-sourcebook",
+        "updated_at": "2025-03-20T15:05:00Z",
+        "created_at": "2025-03-20T15:05:00Z",
+        "original_relative_path": "books/555-timer-applications-sourcebook"
+    },
+    {
         "id": "#721",
         "name": "TTL Cookbook",
         "description": "Book notes: TTL Cookbook, by Donald E. Lancaster. First published May 1, 1974.",

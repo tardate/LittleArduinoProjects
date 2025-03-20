@@ -190,6 +190,14 @@
             "LED"
         ]
     },
+    "/books/555-timer-applications-sourcebook/": {
+        "id": 722,
+        "title": "The 555 Timer Applications Sourcebook",
+        "summary": "Book notes: The 555 Timer Applications Sourcebook, by Howard M. Berlin. First published August 1, 1976.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/books/ttl_cookbook/": {
         "id": 721,
         "title": "TTL Cookbook",
