@@ -13,7 +13,7 @@ It is basically a capacitor bucket-brigade, with diodes for flow control, and a 
 It is not the most efficient voltage booster, and cannot drive very high currents, but may be a convenient
 solution depending on the application.
 
-I've already covered this in [LEAP#393 Dickson Charge Pump](../../../../playground/DicksonChargePump).
+I've already covered this in [LEAP#393 Dickson Charge Pump](../../../../playground/DicksonChargePump/).
 In that case it used two PWM signals to drive each stage of the charge pump with alternative voltage.
 
 This project demonstrates a modified version that uses only one signal to drive every other stage of the charge pump ladded,

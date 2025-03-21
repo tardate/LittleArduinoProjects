@@ -1,4 +1,13 @@
 {
+    "/electronics101/power/dicksonchargepump/onepinthreev/": {
+        "id": 766,
+        "title": "One Pin Three Voltage Levels",
+        "summary": "Designing and testing a circuit to drive and switch an output between 3 voltage levels (0V, 5V, 12V) from a single 5V GPIO pin.",
+        "tags": [
+            "Arduino",
+            "Power"
+        ]
+    },
     "/radio/lpd433/ht12/simpledemo/": {
         "id": 765,
         "title": "HT12 Simple Demo",
