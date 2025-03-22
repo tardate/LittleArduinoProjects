@@ -1,0 +1,9 @@
+{
+    "id": "#726",
+    "name": "Push-Pull Output Driver",
+    "description": "Testing the basic MOSFET push-pull output driver, similar to designs used in digital logic output or GPIO circuits.",
+    "categories": "Digital Logic, CMOS/TTL",
+    "relative_path": "Electronics101/DigitalLogic/PushPullOutputDriver",
+    "updated_at": "2025-03-24T04:55:00Z",
+    "created_at": "2025-03-24T04:55:00Z"
+}

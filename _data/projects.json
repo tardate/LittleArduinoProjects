@@ -190,6 +190,15 @@
             "LED"
         ]
     },
+    "/electronics101/digitallogic/pushpulloutputdriver/": {
+        "id": 726,
+        "title": "Push-Pull Output Driver",
+        "summary": "Testing the basic MOSFET push-pull output driver, similar to designs used in digital logic output or GPIO circuits.",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL"
+        ]
+    },
     "/books/c-programming-on-raspberry-pi/": {
         "id": 725,
         "title": "C Programming on Raspberry Pi",
