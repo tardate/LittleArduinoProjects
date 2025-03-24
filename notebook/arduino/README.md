@@ -7,7 +7,7 @@ My personal notebook on Arduino technical information and references.
 ## Prime Links
 
 * [Arduino](https://www.arduino.cc/) - official home page
-* [Arduino Playground](http://playground.arduino.cc/)
+* [Arduino Playground](https://playground.arduino.cc/)
 * [Arduino Source](https://github.com/arduino/Arduino/) - GitHub
 
 ## Timers and Pins
@@ -32,27 +32,19 @@ My personal notebook on Arduino technical information and references.
 
 ![The atmega328_pins](./assets/atmega328_pins.jpg?raw=true)
 
-## Arduino Pro Mini
+## Arduino Uno
 
-* [Official Arduino Pro Mini site](http://www.arduino.cc/en/Main/ArduinoBoardProMini)
-* [Arduino USB-to-Serial Tutorial - Programming the Pro Mini](https://youtu.be/Vawhrr4COjI) - great in-depth tests with various USB to serial devices by Julian Ilett.
+See the [Official Arduino Uno](https://www.arduino.cc/en/hardware/#classic-family) site for board details.
 
-### USB-to-Serial Programming
+Current handling capacity:
 
-Pin Connections as described on
-[weworkweplay](http://weworkweplay.com/play/connect-jy-mcu-usb-serial-port-adapter-to-arduino-mini-pro-3.3v-atmega328/):
-
-* Connect USB DTR to Arduino GRN, aka DAW on some boards
-* Connect USB RXD to Arduino TXD
-* Connect USB TXD to Arduino RXI
-* Connect USB 3.3V to Arduino VCC
-* Connect USB Ground to Arduino BLK, aka GND on some boards
-
-![The pro_mini_usb_serial_connection](./assets/pro_mini_usb_serial_connection.jpg?raw=true)
+* DC Current per I/O Pin: 20 mA
+* DC Current for 3.3V Pin: 50 mA
+* DC Current for 5V Pin: can supply a maximum of 800mA when powered externally, but it's recommended to limit it to around 400-500mA for thermal dissipation reasons, and 500mA when powered from USB.
 
 ## Arduino Nano
 
-See the [Official Arduino Nano](http://arduino.cc/en/Main/arduinoBoardNano) site for board details.
+See the [Official Arduino Nano](https://www.arduino.cc/en/hardware/#nano-family) site for board details.
 
 ### Power
 
@@ -75,6 +67,24 @@ See also:
 ### Pins
 
 ![The nano_pins](./assets/nano_pins.png?raw=true)
+
+## Arduino Pro Mini
+
+* [Official Arduino Pro Mini site](https://docs.arduino.cc/retired/boards/arduino-pro-mini/)
+* [Arduino USB-to-Serial Tutorial - Programming the Pro Mini](https://youtu.be/Vawhrr4COjI) - great in-depth tests with various USB to serial devices by Julian Ilett.
+
+### USB-to-Serial Programming
+
+Pin Connections as described on
+[weworkweplay](http://weworkweplay.com/play/connect-jy-mcu-usb-serial-port-adapter-to-arduino-mini-pro-3.3v-atmega328/):
+
+* Connect USB DTR to Arduino GRN, aka DAW on some boards
+* Connect USB RXD to Arduino TXD
+* Connect USB TXD to Arduino RXI
+* Connect USB 3.3V to Arduino VCC
+* Connect USB Ground to Arduino BLK, aka GND on some boards
+
+![The pro_mini_usb_serial_connection](./assets/pro_mini_usb_serial_connection.jpg?raw=true)
 
 ## ATtiny
 

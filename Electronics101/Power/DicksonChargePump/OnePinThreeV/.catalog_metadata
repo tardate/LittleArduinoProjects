@@ -1,0 +1,9 @@
+{
+    "name": "One Pin Three Voltage Levels",
+    "description": "Designing and testing a circuit to drive and switch an output between 3 voltage levels (0V, 5V, 12V) from a single 5V GPIO pin.",
+    "categories": "Arduino, Power",
+    "relative_path": "Electronics101/Power/DicksonChargePump/OnePinThreeV",
+    "updated_at": "2025-03-24T13:39:00Z",
+    "created_at": "2025-03-24T13:39:00Z",
+    "id": "#766"
+}
