@@ -38,7 +38,7 @@ Note:
 ### Circuit Design
 
 Here is the final circuit, with a brief explanation of the operating principles.
-See the breadboard and schematic details below, capture from the Fritzing file [OnePinThreeV.fzz](./OnePinThreeV.fzz).
+See the breadboard and schematic details below, captured from the Fritzing file [OnePinThreeV.fzz](./OnePinThreeV.fzz).
 
 There are 4 core sub-systems in the circuit:
 
@@ -73,11 +73,11 @@ When asserting HIGH (5V nominal) output:
 When asserting VERY HIGH (12V nominal) output:
 
 * GPIO output is set to a 62.5kHz PWM signal
-    * the PWM signal is smoothed with RC filter (R1, C7)
+* the PWM signal is smoothed with RC filter (R1, C7)
     * given PWM frequency of 62.5kHz wavelength 16µs
     * smoothing to 3τ with R1=10kΩ resistor requires at least C7=[4.8nF](https://www.wolframalpha.com/input?i=%281%2F62.5kHz+*+3%29%2F10k%CE%A9)
     * so C7=10nF will reliably dampen the PWM ripple
-* the effectively HIGH GPIO output switches the inverter Q3 output LOW
+* the smoothed PWM signal provides a HIGH input to switch the inverter Q3 output LOW
 * this in turn enables the high-side pFET Q1 of the push-pull driver
 * VON and VOUT are pulled HIGH
 * the GPIO PWM signal drives the charge pump:
@@ -92,12 +92,12 @@ When asserting VERY HIGH (12V nominal) output:
 
 Miscellaneous features of the circuit:
 
-* I added a 200mZ polyfuse to the Arduino 5V line to make sure it doesn't short and damage the onboard regulator
+* I added a 200mA polyfuse to the Arduino 5V line to make sure it doesn't short and damage the onboard regulator
 * LED2 and its R2 current-limiting resistor is optional. It provides an indicator that the VCC power rail is active.
 * LED1 and its RL current-limiting resistor provides a relatively low-current load indicator
     * the green LED glows quite dim with 5V out
     * the green LED glows quite bright with 12V out
-* I've added a 3-wire voltmeter to provide an output readout
+* I've added a 3-wire voltmeter to provide an output voltage reading
     * power drawn from VCC
     * measures VOUT
 
@@ -134,3 +134,5 @@ The following scope trace captures the resulting output:
 * [Improvements on the "DicksonChargePump" #25](https://github.com/tardate/LittleArduinoProjects/issues/25) - steveschnepp
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+* [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
+* [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
