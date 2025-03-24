@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-20T16:19:00Z</updated>
+  <updated>2025-03-24T04:55:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -245,6 +245,17 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/digitallogic/pushpulloutputdriver/</id>
+    <link href="https://leap.tardate.com/electronics101/digitallogic/pushpulloutputdriver/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/digitallogic/pushpulloutputdriver/assets/pushpulloutputdriver_build.jpg</g:image_link>
+    <updated>2025-03-24T04:55:00Z</updated>
+    <title>#726 Push-Pull Output Driver</title>
+    <summary>Testing the basic MOSFET push-pull output driver, similar to designs used in digital logic output or GPIO circuits.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing the basic MOSFET push-pull output driver, similar to designs used in digital logic output or GPIO circuits.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/pushpulloutputdriver/assets/pushpulloutputdriver_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/c-programming-on-raspberry-pi/</id>

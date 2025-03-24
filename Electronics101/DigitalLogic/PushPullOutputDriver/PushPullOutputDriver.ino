@@ -1,13 +1,13 @@
 /*
 
-  {project_name}
+  PushPullOutputDriver
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/{relative_path}
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DigitalLogic/PushPullOutputDriver
 
  */
 
-const int LED_PIN = 13;
-const int DELAY = 500;
+const int LED_PIN = 9;
+const int DELAY = 1000;
 
 
 /*
