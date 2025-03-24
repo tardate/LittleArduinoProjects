@@ -19,8 +19,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/dicksonchargepump/onepinthreev/assets/onepinthreev_build.jpg</g:image_link>
     <updated>2025-03-24T13:39:00Z</updated>
     <title>#766 One Pin Three Voltage Levels</title>
-    <summary>Designing and testing a circuit to drive and switch an output between 3 voltage levels (0V, 5V, 12V) from a single 5V GPIO pin.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Designing and testing a circuit to drive and switch an output between 3 voltage levels (0V, 5V, 12V) from a single 5V GPIO pin.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/dicksonchargepump/onepinthreev/assets/onepinthreev_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Designing and testing a circuit to drive and switch an output between 3 voltage levels (0v, VCC, 2.4xVCC) from a single GPIO pin. Tested with an Arduino Uno running at 5V driving a 0V, 5V, 12V output on a single GPIO pin.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Designing and testing a circuit to drive and switch an output between 3 voltage levels (0v, VCC, 2.4xVCC) from a single GPIO pin. Tested with an Arduino Uno running at 5V driving a 0V, 5V, 12V output on a single GPIO pin.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/dicksonchargepump/onepinthreev/assets/onepinthreev_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Power"/>
   </entry>
