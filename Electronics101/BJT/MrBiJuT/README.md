@@ -12,7 +12,7 @@ Here's a quick demo..
 ## Notes
 
 I found this neat little circuit in the
-[Radio and Electronics Cookbook](https://www.goodreads.com/book/show/3415601-radio-and-electronics-cookbook) (69 A bipolar transistor tester, p240).
+[Radio and Electronics Cookbook](../../../books/radio-and-electronics-cookbook/) (69 A bipolar transistor tester, p240).
 
 I tested it out on a breadboard, liked it's simplicity, and decided to do a little #FreeformFriday rendition: Mr BiJuT!
 
@@ -95,5 +95,5 @@ Testing a PNP:
 ## Credits and References
 
 * [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
-* [Radio and Electronics Cookbook](https://www.goodreads.com/book/show/3415601-radio-and-electronics-cookbook) - 69 A bipolar transistor tester, p240.
+* [Radio and Electronics Cookbook](../../../books/radio-and-electronics-cookbook/) - 69 A bipolar transistor tester, p240.
 * [..as mentioned on my blog](https://blog.tardate.com/2019/03/leap465-mr-bijut.html)

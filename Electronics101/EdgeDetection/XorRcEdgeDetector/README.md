@@ -17,9 +17,9 @@ A XOR gate can be used as an edge detector by feeding it with two signals:
 
 One way of doing this is to put and RC filter on the second input.
 That's the circuit demonstrated here: where a 10kΩ and 1µF RC filter yields a [10ms time constant](https://www.wolframalpha.com/input/?i=10k%CE%A9*1%C2%B5F).
-Increasing the time constant will increase the minimum ouput pulse width, and also acts as a de-bouncing trick.
+Increasing the time constant will increase the minimum output pulse width, and also acts as a de-bouncing trick.
 
-Another technique is to rpelace the RC filter with an even number of inveters, the idea being that propagation delay in the inverters
+Another technique is to replace the RC filter with an even number of inverters, the idea being that propagation delay in the inverters
 produces the differential input to the XOR gate.
 Note: I'm using a 74LS86, and configuring some of the XOR units as inverters "works" but only very poorly as the <23ns propagation delay
 only produces a very weak pulse when an edge is detected.
@@ -49,4 +49,4 @@ I'm using a 74LS86 Quad 2-Input Exclusive-OR Gate in this demo.
 * [74LS86 datasheet](https://www.futurlec.com/74LS/74LS86.shtml)
 * [Rising edge pulse detector from logic gates](https://electronics.stackexchange.com/questions/165552/rising-edge-pulse-detector-from-logic-gates)
 * [Dual edge detector](https://electronics.stackexchange.com/a/270908/52289)
-* [ARRL's Hands-On Radio Experiments Volume 3](https://www.goodreads.com/book/show/38899190-arrl-s-hands-on-radio-experiments-volume-3) Experiment #125 (covers Schmitt Trigger edge detection)
+* [ARRL's Hands-On Radio Experiments Volume 3](../../../books/arrl-hands-on-radio-experiments-vol3/) Experiment #125 (covers Schmitt Trigger edge detection)

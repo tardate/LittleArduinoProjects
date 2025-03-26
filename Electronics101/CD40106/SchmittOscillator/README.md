@@ -78,5 +78,5 @@ Top/tail distortion quite extreme with 220Ω and C=10nF:
 * [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm)
 * [Schmitt Trigger Oscillator](https://electronics-course.com/schmitt-trigger-oscillator)
 * See also:
-    * [LEAP#582 74LS14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74ls14/schmittoscillator/)
-    * [LEAP#588 74HC14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74hc14/schmittoscillator/)
+    * [LEAP#582 74LS14 Schmitt Oscillator](../../74LS14/SchmittOscillator/)
+    * [LEAP#588 74HC14 Schmitt Oscillator](../../74HC14/SchmittOscillator/)

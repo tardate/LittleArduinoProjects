@@ -1,4 +1,4 @@
-# #325 spoolt
+# #325 BoldportClub spoolt
 
 Pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
 
@@ -57,5 +57,5 @@ There are 10 LEDs in parallel, although there's actually space for more.
 * [spoolt](https://www.boldport.com/products/spoolt/) - Boldport Product Page
 * [spoolt](http://community.boldport.club/projects/p15-spoolt/) - on the community site
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
-* [LEAP#130 DarlingtonTouchSwitch](https://leap.tardate.com/electronics101/darlingtontouchswitch/) - more on Darlington touch switches
+* [LEAP#130 DarlingtonTouchSwitch](../../Electronics101/DarlingtonTouchSwitch/) - more on Darlington touch switches
 * [..as mentioned on my blog](https://blog.tardate.com/2017/07/leap325-pimp-my-boldportclub-spoolt.html)

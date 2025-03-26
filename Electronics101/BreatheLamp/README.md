@@ -33,7 +33,7 @@ It also seems this could be simplified by reconfiguring as a
 and only require a single op-amp unit. I might try that later...
 
 From a parts cost and count perspective, I'm not sure there's much advantage in using an op-amp oscillator
-over, for example, a [555 timer-based triangle wave generator](https://leap.tardate.com/electronics101/555timer/trianglewavegen/).
+over, for example, a [555 timer-based triangle wave generator](../555Timer/TriangleWaveGen/).
 
 ## Construction
 

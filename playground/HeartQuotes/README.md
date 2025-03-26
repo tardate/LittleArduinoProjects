@@ -52,13 +52,13 @@ This gets parsed down into just the actual "quote" part:
 
 ### Parts for a breadboard build
 
-* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* [Arduino Ethernet Shield](http://www.amazon.com/gp/product/B00EU7447Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EU7447Y&linkCode=as2&tag=itsaprli-20&linkId=QJYL7QLWFGQVGUF5)
+* Arduino Uno R3 or similar
+* Arduino Ethernet Shield
 * Breadboard
-* [4 Pin DIP PCB Momentary Push Button Tactile Switch](http://www.amazon.com/gp/product/B008MLKJ3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008MLKJ3C&linkCode=as2&tag=itsaprli-20&linkId=6UORZDXT6S7AZRZ7)
-* 16x2 LCD (I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
+* 4 Pin DIP PCB Momentary Push Button Tactile Switch
+* 16x2 LCD - I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf)
 
 ## Credits and References
 
-* HTTP GET based on the Arduino WebClient example http://arduino.cc/en/Tutorial/WebClient
-* LCD output based on the Arduino LiquidCrystal examples http://arduino.cc/en/Tutorial/LiquidCrystal
+* HTTP GET based on the Arduino WebClient example <http://arduino.cc/en/Tutorial/WebClient>
+* LCD output based on the Arduino LiquidCrystal examples <http://arduino.cc/en/Tutorial/LiquidCrystal>

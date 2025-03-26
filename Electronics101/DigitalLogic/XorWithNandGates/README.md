@@ -29,7 +29,8 @@ So while a little wasteful, I'm using the four NAND gates of a single 74LS132 ch
 The [XorWithNandGates.ino](./XorWithNandGates.ino) sketch drives the A/B inputs with a state change every 500ms.
 Three Arduino analog pins are used to read the actual A, B and Q (output) voltages.
 
-[LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/)
+reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
 Here's a sample trace:
 

@@ -13,7 +13,6 @@ There are many variations in design possible.
 In this case I'm using one of the most straight-forward designs based on a
 project described on [http://www.learnabout-electronics.org](http://www.learnabout-electronics.org/Oscillators/osc22.php).
 
-
 Main benefits of a Hartley oscillator:
 
 * wide tuning range more easily realised than with Colpitts
@@ -22,7 +21,6 @@ Main benefits of a Hartley oscillator:
 Main issues with Hartley oscillators:
 
 * at the higher limits of this range and above, The Colpitts oscillator is usually preferred
-
 
 ## Theoretical Frequency
 
@@ -35,7 +33,6 @@ Where L = L1 + L2. If significant mutual inductance is present (e.g. when induct
 In the tests that follow, experimental results are quite wide of the mark (except around 1.4MHz).
 This may largely be due to component tolerances(?)
 
-
 ## Schematic
 
 The tank circuit comprises:
@@ -47,7 +44,6 @@ The tank circuit comprises:
 I used 1/4W RF chokes for the inductors and ceramic capacitors
 
 ![Schematic](./assets/CommonEmitterHartley_schematic.jpg?raw=true)
-
 
 ## Breadboard Construction
 
@@ -72,7 +68,6 @@ Scope trace for C1=100pF:
 FFT for C1=100pF. In all cases, significant harmonic content is apparent in the output:
 
 ![scope_bb_100pF](./assets/scope_bb_100pF_fft.gif?raw=true)
-
 
 ## Protoboard Construction
 
@@ -105,9 +100,7 @@ Scope trace for C1=100pF:
 
 ![scope_pb_100pF](./assets/scope_pb_100pF.gif?raw=true)
 
-
 ## Improving the Waveform
-
 
 Reducing R3 to [17Ω](https://toolbox.tardate.com/?formula=22%7C68#ResistorCalculator) (put putting a 68Ω resistor in parallel)
 eliminates the worst (clipping) distortion especially at higher frequencies. Some revised results with this configuration:
@@ -130,12 +123,11 @@ Scope trace for C1=100pF, R3=17Ω:
 
 ![scope_pb_v2_100pF](./assets/scope_pb_v2_100pF.gif?raw=true)
 
-
 ## Credits and References
 
-* [The Hartley Oscillator](http://www.learnabout-electronics.org/Oscillators/osc21.php) - www.learnabout-electronics.org
+* [The Hartley Oscillator](http://www.learnabout-electronics.org/Oscillators/osc21.php) - <www.learnabout-electronics.org>
 * [Hartley Oscillator](https://en.wikipedia.org/wiki/Hartley_oscillator) - wikipedia
-* [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design) - section 4.2
+* [Experimental Methods in RF Design](../../../books/experimental-methods-in-rf-design/) - section 4.2
 * [Hartley Oscillator - Working, Design using Op-Amp](https://www.electronicshub.org/hartley-oscillator/)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/10/leap418-hartley-oscillator.html)

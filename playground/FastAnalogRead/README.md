@@ -108,7 +108,7 @@ Since one conversion takes 13 ADC clock cycles:
 
 ## Credits and References
 
-* [18.9. Measuring Analog Values Quickly](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
+* [18.9. Measuring Analog Values Quickly - from the [Arduino Cookbook](../../books/arduino-cookbook/)
 * [ATmega328P Product Info](https://www.microchip.com/wwwproducts/en/ATmega328P)
 * [AVR120: Characterization and Calibration of the ADC on an AVR - AN_2559](https://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en591791)
 * [analogRead()](https://www.arduino.cc/en/Reference/AnalogRead)

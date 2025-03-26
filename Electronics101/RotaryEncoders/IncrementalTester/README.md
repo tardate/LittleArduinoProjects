@@ -17,7 +17,7 @@ Incremental [Rotary encoders](https://en.wikipedia.org/wiki/Rotary_encoder) typi
 [LEAP#118 RotaryEncoderMethods](../../../playground/RotaryEncoderMethods) demonstrates various ways of using a rotary encoder with an Arduino,
 but I'm inspired to throw away the microcontroller for a more basic demonstration
 after reading [Experiment 101: Rotary Encoders](http://www.arrl.org/files/file/protected/Group/Members/ProductReview/Hands%20On%20Radio%20June%202011.pdf)
-from [ARRL Hands-on Radio (Vol 2)](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2).
+from [ARRL Hands-on Radio (Vol 2)](../../../books/arrl-hands-on-radio-experiments-vol2/).
 
 This project demonstrates a forward/reverse LED indicator using simple digital logic
 and a [mini rotary encoder (from seller on aliexpress)](https://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).

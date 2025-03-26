@@ -9,7 +9,7 @@ Finally, 3D PLA printing a case for the Raspberry Pi Model B+ ... at the library
 I'm finally getting around to making a case for my Raspberry Pi Model B+.
 
 The libraries here in Singapore are fantastic, with 3D PLA printers available for use.
-See [LEAP#756 NLB Flashforge Creator Pro 2](https://leap.tardate.com/equipment/nlb/flashforgecreatorpro2/)
+See [LEAP#756 NLB Flashforge Creator Pro 2](../../Equipment/NLB/FlashforgeCreatorPro2/)
 for details of the printers.
 
 I found a couple of nice designs freely available,
@@ -55,6 +55,6 @@ I like the idea of this mounting for breadboarding and experimentation as it kee
 ## Credits and References
 
 * [Raspberry Pi 1 Model B+](https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/)
-* [LEAP#756 NLB Flashforge Creator Pro 2](https://leap.tardate.com/equipment/nlb/flashforgecreatorpro2/)
+* [LEAP#756 NLB Flashforge Creator Pro 2](../../Equipment/NLB/FlashforgeCreatorPro2/)
 * [Raspberry Pi case (model B+ /2) w/ Pi Symbol](https://www.thingiverse.com/thing:989353)
 * [Raspberry Pi B+ / 2 Mount](https://www.printables.com/model/157800-raspberry-pi-b-2-mount)

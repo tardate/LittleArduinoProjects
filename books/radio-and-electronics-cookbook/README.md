@@ -81,7 +81,7 @@ See also:
 66. A UHF corner reflector aerial
 67. A switched dummy load
 68. A simple Morse oscillator
-69. A bipolar transistor tester
+69. A bipolar transistor tester - see [LEAP#465 MrBiJuT Simple Transistor Tester](../../Electronics101/BJT/MrBiJuT/)
 70. The 'Yearling' 20m receiver
 71. Adding the 80 metre band to the Yearling receiver
 72. How the Yearling works

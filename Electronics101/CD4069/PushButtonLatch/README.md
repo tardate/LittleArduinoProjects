@@ -14,8 +14,8 @@ Latching push-button circuits are useful in any situation where one needs to tog
 
 There are many ways to achieve this. In the past I have covered:
 
-* a 555 Timer based circuit, see [LEAP#692](https://leap.tardate.com/electronics101/555timer/latch/)
-* an Arduino based solution, see [LEAP#004](https://leap.tardate.com/playground/pushbuttonled/)
+* a 555 Timer based circuit, see [LEAP#692](../../555Timer/Latch/)
+* an Arduino based solution, see [LEAP#004](../../../playground/PushbuttonLED/)
 
 A [discussions with steveschnepp](https://github.com/tardate/LittleArduinoProjects/issues/36) introduced me to an inverter-based solution. It has a number of benefits:
 

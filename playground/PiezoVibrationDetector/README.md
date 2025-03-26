@@ -56,7 +56,6 @@ The analog comparator will use two pins:
 | PD6        | PCINT22/OC0A/AIN0 | 6           | Analog Comparator Positive Input - raw piezo pulse input                  |
 | PD7        | PCINT23/AIN1      | 7           | Analog Comparator Negative Input - adjustable threshold reference voltage |
 
-
 There are two registers of significance for setting this up:
 
 ![ADCSRB_register](./assets/ADCSRB_register.png?raw=true)
@@ -74,9 +73,7 @@ The Analog Comparator Interrupt Flag is set to enable interrupts, and the ACIS1 
 | 1     | 0     | Comparator Interrupt on Falling Output Edge |
 | 1     | 1     | Comparator Interrupt on Rising Output Edge  |
 
-
 The code sets a rising edge interrupt and implements the interrupt service routine to record the time between beats.
-
 
 ### Counting Beats
 
@@ -117,5 +114,5 @@ Finished "tap pad":
 * [What is the fastest music humanly possible?](https://www.youtube.com/watch?v=h3kqBX1j7f8) - Adam Neely
 * [Exponential moving average](https://en.m.wikipedia.org/wiki/Moving_average#Exponential_moving_average)
 * [Using the Arduino Analog Comparator](http://www.gammon.com.au/forum/?id=11916)
-* 6.6 Detecting Vibration, [Arduino Cookbook](https://www.goodreads.com/book/show/11222094-arduino-cookbook)
+* 6.6 Detecting Vibration, [Arduino Cookbook](../../books/arduino-cookbook/)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/02/leap376-piezo-vibration-detector-and-bpm-counter.html)

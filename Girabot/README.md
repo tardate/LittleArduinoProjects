@@ -72,13 +72,13 @@ When Girabot detects relative darkness to one side, it will:
 * provide an audible chirp (a distinct sound for left or right)
 * and change its movement towards the brighter side
 
-### Proof-of-concept/Explorations
+### LDR: Proof-of-concept/Explorations
 
-The following mini-projects explore the use of LDRs in a [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge)
+The following mini-projects explore the use of LDRs in a [Wheatstone Bridge](https://en.wikipedia.org/wiki/Wheatstone_bridge)
 
-* [LDR Comparator project](https://leap.tardate.com/electronics101/ldr/comparator/) - Low-light/proximity Trip Detector demonstration
-* [LDR Stereo Trip Detector](https://leap.tardate.com/electronics101/ldr/stereotripdetector/) - demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor
-* [StereoLightTrigger](https://leap.tardate.com/playground/stereolighttrigger/) - demo an interrupt-driven method for responding to LDR light threshold triggers
+* [LDR Comparator project](../Electronics101/ldr/Comparator/) - Low-light/proximity Trip Detector demonstration
+* [LDR Stereo Trip Detector](../Electronics101/LDR/StereoTripDetector/) - demo LM324 OpAmp as threshold trigger for stereo LDR/Wheatstone Bridge sensor
+* [StereoLightTrigger](../playground/StereoLightTrigger/) - demo an interrupt-driven method for responding to LDR light threshold triggers
 
 ## Use-case: Girabot responds when it hears a loud noise
 
@@ -88,10 +88,10 @@ When it detects a loud noise (such as a clap or whistle), it will unlock a "spec
 * Girabot will play a tune and dance along
 * there will be at least one tune, maybe more...
 
-### Proof-of-concept/Explorations
+### Electret: Proof-of-concept/Explorations
 
-* [ElectretADC](https://leap.tardate.com/playground/electretadc/) - plot the raw and amplified electret signal (LM324 preamp)
-* [ElectretTrigger](https://leap.tardate.com/playground/electrettrigger/) - LM324-amplified electret input triggers a tune when over audio threshold
+* [ElectretADC](../playground/ElectretADC/) - plot the raw and amplified electret signal (LM324 preamp)
+* [ElectretTrigger](../playground/ElectretTrigger/) - LM324-amplified electret input triggers a tune when over audio threshold
 
 ### Implementation Notes
 
@@ -123,8 +123,8 @@ Girabot plays a tune on a piezo buzzer. This special behaviour is unlocked when 
 
 ### Proof-of-concept/Explorations
 
-* [El Jarabe Tapatío](https://leap.tardate.com/playground/jarabetapatio/) - play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification
-* [Popcorn](https://leap.tardate.com/playground/popcorn/) - How to make a piezo buzzer even more annoying? Make it play popcorn!
+* [El Jarabe Tapatío](../playground/JarabeTapatio/) - play The Mexican Hat Dance on a piezo buzzer with LM 386 amplification
+* [Popcorn](../playground/Popcorn/) - How to make a piezo buzzer even more annoying? Make it play popcorn!
 
 ## Use-case: Girabot can move itself
 
@@ -138,10 +138,10 @@ friction surfaces and geometry. Challenge accepted!
 
 Worst case, Girabot is going to be a crappy walking but an outstanding dancer..
 
-### Proof-of-concept/Explorations
+### Servos: Proof-of-concept/Explorations
 
-* [PWM Motor Control](https://leap.tardate.com/playground/motorcontrolpwm/) - tests PWM speed control of a DC motor driven by an Arduino
-* [ServoTest](https://leap.tardate.com/kinetics/servomotors/servotest/) - test the positioning accuracy of a servo motor driven by an Arduino
+* [PWM Motor Control](../playground/MotorControlPWM/) - tests PWM speed control of a DC motor driven by an Arduino
+* [ServoTest](../Kinetics/ServoMotors/ServoTest/) - test the positioning accuracy of a servo motor driven by an Arduino
 
 ## Power
 
@@ -171,11 +171,11 @@ Given two power rails, there's a question of which should be used to power the A
 Either can work, although it is perhaps more efficient to power the Arduino with 5V regulated, as this eliminates
 need to use the Arduino's (now redundant) internal regulator.
 
-### Proof-of-concept/Explorations
+### Power: Proof-of-concept/Explorations
 
-* [LM317 Adjustable Regulator](https://leap.tardate.com/electronics101/power/linearregulators/lm317/) - test and graph the adjustable voltage supply
-* [LM7805 5V Regulated Supply](https://leap.tardate.com/electronics101/power/linearregulators/lm7805/) - test and graph the voltage supply
-* [Zener Regulated 5V Source](https://leap.tardate.com/electronics101/power/linearregulators/zener/) - test and graph a power supply regulated with a 1N4733 zener diode
+* [LM317 Adjustable Regulator](../Electronics101/Power/LinearRegulators/LM317/) - test and graph the adjustable voltage supply
+* [LM7805 5V Regulated Supply](../Electronics101/Power/LinearRegulators/LM7805/) - test and graph the voltage supply
+* [Zener Regulated 5V Source](../Electronics101/Power/LinearRegulators/Zener/) - test and graph a power supply regulated with a 1N4733 zener diode
 
 ## Issues and Workarounds
 
@@ -255,5 +255,5 @@ See [Girabot.ino](./Girabot.ino) and associated *.h files for all the code.
 ## Credits and References
 
 * [EE40LX Electronic Interfaces](https://courses.edx.org/courses/BerkeleyX/EE40LX/1T2015/info)
-* [Wheatstone Bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge)
-* [Servo library reference](http://arduino.cc/en/Reference/Servo)
+* [Wheatstone Bridge](https://en.wikipedia.org/wiki/Wheatstone_bridge)
+* [Servo library reference](https://docs.arduino.cc/libraries/servo/)

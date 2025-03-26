@@ -13,7 +13,7 @@ that has kept me very happy since 2016.
 Prior to that I had another GJ 907 for about a year before it blew up one day!
 I made notes below in the hope of one day diagnosing the problem.
 
-The iron I was using before that was a pretty ordinary Newstar 30W iron. It didn't last long in my novice hands before I threw it out in disgust and "upgraded" to the GJ 907. For hot air work I use a [Saike 909D 3-in-1 hot air rework station](https://leap.tardate.com/equipment/saike909d/)
+The iron I was using before that was a pretty ordinary Newstar 30W iron. It didn't last long in my novice hands before I threw it out in disgust and "upgraded" to the GJ 907. For hot air work I use a [Saike 909D 3-in-1 hot air rework station](../Saike909D/)
 
 I know there's a whole other level of more "professional" irons and soldering stations such as those from [Hakko](https://hakko.com.sg/) and [Weller](https://www.weller-tools.com/). Great discussions and recommendations can be found for example on:
 
@@ -59,6 +59,6 @@ The Newstar 30W iron is not adjustable, and I found this made it very prone to e
 ## Credits and References
 
 * [GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron Soldering Station +5pcs tip 220V60W](https://www.aliexpress.com/item/1998306095.html)
-* [Saike 909D 3-in-1 hot air rework station](https://leap.tardate.com/equipment/saike909d/)
+* [Saike 909D 3-in-1 hot air rework station](../Saike909D/)
 * [MAC97A8 datasheet](http://parts.io/detail/11636418/MAC97A8)
 * [HA17358 datasheet](http://parts.io/detail/4994146/HA17358)

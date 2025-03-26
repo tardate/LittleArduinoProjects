@@ -14,7 +14,7 @@ The project is written up in Silicon Chip May 2018 (p57), with the [kit and supp
 I just saw [μArt](https://www.crowdsupply.com/pylo/muart) on crowdsupply, which is an interesting
 project with similar protection mechanism but intended for UART applications.
 
-[ARRL Hands-on Radio (Vol 2)](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2) also has good coverage of these topics. See:
+[ARRL Hands-on Radio (Vol 2)](../../books/arrl-hands-on-radio-experiments-vol2/) also has good coverage of these topics. See:
 
 * [Experiment 120: Power Polarity Protection](http://www.arrl.org/files/file/protected/Group/Members/ProductReview/Hands%20On%20Radio%20January%202013.pdf)
 * [Experiment 121: Transient Protection](http://www.arrl.org/files/file/protected/Group/Members/ProductReview/Hands%20On%20Radio%20February%202013.pdf)
@@ -87,6 +87,6 @@ Recommended construction order:
 * [ECH8102-TL Bipolar (BJT) Transistor PNP](https://www.digikey.sg/product-detail/en/on-semiconductor/ECH8102-TL-H/ECH8102-TL-HOSCT-ND/5801800) - high-current
 * [SM2T3V3A TVS diode](https://www.digikey.sg/product-detail/en/stmicroelectronics/SM2T3V3A/497-7878-1-ND/1883813)
 * [BAT54S SCHOTTKY DIODE ARRAY](https://www.digikey.sg/product-detail/en/on-semiconductor/BAT54S/BAT54SFSCT-ND/458930)
-* [ARRL Hands-on Radio (Vol 2)](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2)
+* [ARRL Hands-on Radio (Vol 2)](../../books/arrl-hands-on-radio-experiments-vol2/)
 * [ARRL Hands-on Radio (Vol 2) Experiment 120: Power Polarity Protection](http://www.arrl.org/files/file/protected/Group/Members/ProductReview/Hands%20On%20Radio%20January%202013.pdf)
 * [ARRL Hands-on Radio (Vol 2) Experiment 121: Transient Protection](http://www.arrl.org/files/file/protected/Group/Members/ProductReview/Hands%20On%20Radio%20February%202013.pdf)

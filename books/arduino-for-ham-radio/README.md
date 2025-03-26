@@ -23,7 +23,7 @@ See also:
 | 4 Arduino I/O Methods                         |       |
 | 5 Arduino Development Environment             |       |
 | 6 Arduino Development Station                 |       |
-| 7 Random Code Practice Generator              |       |
+| 7 Random Code Practice Generator              | [LEAP#567 Random Code Practice](../../Radio/RandomCodePractice/) |
 | 8 CW Beacon and Foxhunt Keyer                 |       |
 | 9 Fan Speed Controller                        |       |
 | 10 Digital Compass                            |       |
@@ -39,7 +39,7 @@ See also:
 | 20 Field Day Satellite Tracker                |       |
 | 21 Azimuth/Elevation Rotator Controller       |       |
 | 22 CW Decoder                                 |       |
-| 23 Lightning Detector                         |       |
+| 23 Lightning Detector                         | [LEAP#379 AS3935](../../playground/AS3935/) |
 | 24 CDE/Hy-Gain Rotator Controller             |       |
 | 25 Modified CDE/Hy-Gain Rotator Controller    |       |
 | 26 In Conclusion                              |       |

@@ -59,7 +59,7 @@ Here's the basic layout I used. It includes:
 With a 5V supply and R1 = 4.7kΩ, I get oscillation at about 3.084kHz.
 The wave is not a perfect sine wave, with two main distortions present:
 
-* noticable cross-over distortion in both directions
+* noticeable cross-over distortion in both directions
 * clipping at the top of the wave if R2 not adjusted correctly
 
 ![scope_pb_5v_4k7](./assets/scope_pb_5v_4k7.gif?raw=true)
@@ -78,4 +78,4 @@ Some measurements with a selection of R1 values:
 
 * [TL072 datasheet](https://www.futurlec.com/Linear/TL072CP.shtml)
 * [Twin-T oscillator](https://en.wikipedia.org/wiki/RC_oscillator#Twin-T_oscillator) - wikipedia
-* [Engineer's Mini-Notebook - Op Amp IC Circuits](https://www.goodreads.com/book/show/12287008-engineer-s-mini-notebook-op-amp-circuits) - p47 Sine Wave Oscillator
+* [Engineer's Mini-Notebook - Op Amp IC Circuits](../../../books/engineers-mini-notebook-op-amp-circuits/) - p47 Sine Wave Oscillator

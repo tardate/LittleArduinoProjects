@@ -23,7 +23,7 @@ The frequency of the oscillation is calculated as
 The oscillating output from the inverter is used to drive the base of a general-purpose NPN transistor, switching a LED on and off in turn.
 The transistor is used to isolate the 74LS14 from the load, as it is not designed to directly handle any significant current.
 
-Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) to
+Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/) to
 read the data collected by the [SchmittOscillator.ino](./SchmittOscillator.ino) program.
 The lower trace is the input, and the upper trace is the output of the inverter:
 
@@ -38,7 +38,7 @@ Apparently 74HC14 has a duty cycle more like 50% and can handle higher values of
 See [Schmitt Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html) for more, and
 [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm) for comparison of LS and HC characteristics.
 
-See the [RingOscillator](https://leap.tardate.com/electronics101/oscillators/ringoscillator/ ) project for a related application of inverters in waveform generation.
+See the [RingOscillator](../RingOscillator/) project for a related application of inverters in waveform generation.
 
 ### Construction
 

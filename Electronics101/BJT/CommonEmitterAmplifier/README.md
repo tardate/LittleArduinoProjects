@@ -192,7 +192,7 @@ Under test, performs just fine..
 ## Credits and References
 
 * "Hands-On Radio: The Common Emitter Amplifier" by Ward Silver, NØAX. Feb 2003 QST
-* [The Art of Electronics, 2nd Edition](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - 2.13 Biasing the common-emitter amplifier, p84.
+* [The Art of Electronics, 2nd Edition](../../../books/the-art-of-electronics/) - 2.13 Biasing the common-emitter amplifier, p84.
 * [#113: Basics of Transistor bias point and the class of amplifier operation](https://www.youtube.com/watch?v=c6cmkm3UPUI) - w2aew
 * [w2aew's notes](http://www.qsl.net/w/w2aew//youtube/Bias_point_and_Class_of_operation.pdf)
 * [Common Emitter Amplifiers](http://www.electronics-tutorials.ws/amplifier/amp_2.html) - electronics-tutorials

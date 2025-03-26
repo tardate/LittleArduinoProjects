@@ -62,7 +62,7 @@ See also:
 ### Chapter 9 Audio Output and Sound Synthesis
 
 * DAC
-    * see: [LEAP#115 R2RDAC](https://leap.tardate.com/playground/r2rdac/)
+    * see: [LEAP#115 R2RDAC](../../playground/R2RDAC/)
     * dedicated DAC chip
     * PWM
 * sound synthesis p210

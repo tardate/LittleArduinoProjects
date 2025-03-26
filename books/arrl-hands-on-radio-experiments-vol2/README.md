@@ -91,7 +91,9 @@ RF Techniques
 Practical Construction
 
 * Experiment #120 - Power Protection
+    * see [LEAP#400 USB Protector](../../Equipment/USBProtector/)
 * Experiment #121 - Transient Protection
+    * see [LEAP#400 USB Protector](../../Equipment/USBProtector/)
 * Experiment #90 - Construction Techniques
 * Experiment #89 - Overvoltage Protection
 * Experiment #80 - Battery Capacity

@@ -22,7 +22,7 @@ R1 is included to set a minimum resistance and avoid a short if R4 is dialed to 
 The time it takes to switch can be determined from the RC complete response formula.
 Assuming a 5V supply:
 
-```
+```sh
 v(t) = v(∞) + [v(0) - v(∞)] e^(-t/𝛕)
 2.5 = 5 - 5 e^(-t/𝛕)
 2.5/5 = e^(-t/𝛕)
@@ -43,7 +43,8 @@ With a 5V supply, the particular unit used here only measures a 2.6V swing:
 * output low: 1.6V
 * output high: 4.2V
 
-Here's a sample trace of the circuit behaviour recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/)
+Here's a sample trace of the circuit behaviour recorded using
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues/):
 
 * upper trace is the op-amp output
 * lower trace is the non-inverting input (i.e. C1 voltage)

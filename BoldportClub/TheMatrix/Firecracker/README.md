@@ -18,7 +18,7 @@ Exposing the LM35 to a naked flame is perhaps not such a good idea .. but it is 
 
 The [Firecracker.ino](./Firecracker.ino) sketch instantiates ["Sparklies"](./sparklie.h) which represent individual animation elements.
 
-Doxygen source documentation is available [here](https://leap.tardate.com/BoldportClub/TheMatrix/Firecracker/doc/html/index.html).
+Doxygen source documentation is available [here](./doc/html/).
 
 ## Construction
 
@@ -33,7 +33,7 @@ Doxygen source documentation is available [here](https://leap.tardate.com/Boldpo
 * [Wire library](https://www.arduino.cc/en/reference/wire)
 * [AS1130 datasheet and info](http://ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
 * [LuckyResistor/LRAS1130](https://github.com/LuckyResistor/LRAS1130) - A library to control the AS1130 LED driver chip.
-* [LEAP#298 TheMatrix](../TheMatrix)
+* [LEAP#298 TheMatrix](../)
 * [LM35 Datasheet](https://www.futurlec.com/Linear/LM35DZ.shtml)
-* [LEAP#079 LedTemperatureDisplay](../../../playground/LedTemperatureDisplay) - more details on using the LM35 sensor
+* [LEAP#079 LedTemperatureDisplay](../../../playground/LedTemperatureDisplay/) - more details on using the LM35 sensor
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap312-matrix-firecracker.html)

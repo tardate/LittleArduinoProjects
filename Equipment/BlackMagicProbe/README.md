@@ -148,7 +148,7 @@ This makes it easier to wire up the SWD connections on the Blue Pill:
 
 Here's a transcript of a GDB session to program and debug the Blue Pill.
 I'm using the [blinky.elf](https://github.com/tardate/LittleArduinoProjects/tree/master/ARM/STM32F103C8T6/BareMetal/blinky)
-from [LEAP#549 Bare Metal C on the Blue Pill](https://leap.tardate.com/ARM/STM32F103C8T6/baremetal/) as my example program.
+from [LEAP#549 Bare Metal C on the Blue Pill](../../ARM/STM32F103C8T6/BareMetal/) as my example program.
 
 Start GDB with the ELF of the program I'll load into the device:
 

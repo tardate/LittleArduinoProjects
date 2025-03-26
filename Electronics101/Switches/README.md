@@ -9,8 +9,8 @@ Notes on miscellaneous mechanical switches used in electrical circuits.
 Switches are the most basic of "input" devices for electrical systems.
 
 Thorough coverage of the variety of switches can be found in Chapter 6 of Charles Platt's excellent
-[Encyclopedia of Electronic Components Volume 1](https://www.goodreads.com/book/show/17017467-encyclopedia-of-electronic-components-volume-1),
-and also (coincidentally) Chapter 6 of John M. Hughes' [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics).
+[Encyclopedia of Electronic Components Volume 1](../../books/encyclopedia-of-electronic-components/),
+and also (coincidentally) Chapter 6 of John M. Hughes' [Practical Electronics: Components and Techniques](../../books/practical-electronics/).
 
 ### Pole and Throw Terminology
 
@@ -34,6 +34,6 @@ The number of "throws" is the number of separate wiring path choices other than 
 ## Credits and References
 
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
-* [Encyclopedia of Electronic Components Volume 1](https://www.goodreads.com/book/show/17017467-encyclopedia-of-electronic-components-volume-1)
-* [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
+* [Encyclopedia of Electronic Components Volume 1](../../books/encyclopedia-of-electronic-components/)
+* [Practical Electronics: Components and Techniques](../../books/practical-electronics/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

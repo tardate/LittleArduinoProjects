@@ -55,7 +55,6 @@ Select name and folder for the project:
 
 ![create_project_06](./assets/create_project_06.png?raw=true)
 
-
 ### Chip Configuration
 
 The configuration word (address: 2007h) - documented in section 9.1 of the datasheet - is used to configure chip features.
@@ -99,7 +98,6 @@ What I discovered you **can't** do safely is this:
 
 .. because bit changes may not be fast enough to be read reliably for the next bit-flip, meaning that changes get "lost".
 
-
 ## Programming
 
 I initially tested the code using a PIC12F675 Development Board as detailed in
@@ -129,4 +127,4 @@ And running independently with a 5V power supply.
 * [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
 * [MPLAB XC8](http://www.microchip.com/mplab/compilers)
 * [PicKit 3 programmer](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html)
-* [PIC Microcontroller Projects in C](https://www.goodreads.com/book/show/21910497-pic-microcontroller-projects-in-c) - I started working with this book, but found some of the code examples to be demonstrating incorrect techniques
+* [PIC Microcontroller Projects in C](../../../books/pic-microcontroller-projects-in-c/) - I started working with this book, but found some of the code examples to be demonstrating incorrect techniques

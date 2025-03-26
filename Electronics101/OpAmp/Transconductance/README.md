@@ -13,7 +13,7 @@ Here's a quick demo
 A Transconductance Amplifier is a circuit where differential input voltage produces a proportional output current. Specialised operational transconductance amplifiers such as the CA3080 used to be produced. The circuit here demonstrates how the effect can be achieved with a standard op-amp.
 
 The circuit inspiration comes from the
-[Engineer's Mini-Notebook - Op Amp IC Circuits](https://www.goodreads.com/book/show/12287008-engineer-s-mini-notebook-op-amp-circuits).
+[Engineer's Mini-Notebook - Op Amp IC Circuits](../../../books/engineers-mini-notebook-op-amp-circuits/).
 
 ## Circuit Theory
 
@@ -156,5 +156,5 @@ however there are limitations particualrly in terms of the operational voltage r
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [1N4728 Datasheet](https://www.futurlec.com/Diodes/1N4728.shtml)
-* [Engineer's Mini-Notebook - Op Amp IC Circuits](https://www.goodreads.com/book/show/12287008-engineer-s-mini-notebook-op-amp-circuits) - by Forrest M. Mims III, p14 Transconductance Amplifier
+* [Engineer's Mini-Notebook - Op Amp IC Circuits](../../../books/engineers-mini-notebook-op-amp-circuits/) - p14 Transconductance Amplifier
 * [Operational transconductance amplifier](https://en.wikipedia.org/wiki/Operational_transconductance_amplifier) - wikipedia

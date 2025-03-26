@@ -12,7 +12,7 @@ it is widely discussed and documented, so makes an excellent learning tool.
 
 Some great resources for the LM723 are:
 
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - Chapter 6, Second Edition
+* [The Art of Electronics](../../../books/the-art-of-electronics/) - Chapter 6, Second Edition
 * [Bob Widlar's 723 Chip Toolkit Adventures](https://www.boldport.com/blog/bob-widlar-723) - Jenny List, Boldport blog
 
 This little project is a first dip into the device, with a straight-forward build of the reference circuit for low voltage regulation.
@@ -88,4 +88,4 @@ As I reduce the supply voltage, it starts to lose regulation at about 8.9V.
 
 * [LM723 Datasheet](https://www.futurlec.com/Linear/LM723CN.shtml)
 * [Bob Widlar's 723 Chip Toolkit Adventures](https://www.boldport.com/blog/bob-widlar-723) - Jenny List, Boldport blog
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)- Chapter 6, Second Edition
+* [The Art of Electronics](../../../books/the-art-of-electronics/)- Chapter 6, Second Edition

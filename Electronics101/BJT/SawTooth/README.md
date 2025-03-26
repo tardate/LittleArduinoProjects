@@ -45,8 +45,9 @@ The capacitance of C1 affects the slope of the charge. Since we are using a cons
 So higher capacitor values will slow down the wave frequency and vice versa.
 Here I'm using a 10µF electrolytic to give a very slow wave, visible to the eye.
 
-Here's a sample trace recorded using [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) to
-read the data collected by the [SawTooth.ino](./SawTooth.ino) program:
+Here's a sample trace recorded using
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/)
+to read the data collected by the [SawTooth.ino](./SawTooth.ino) program:
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 

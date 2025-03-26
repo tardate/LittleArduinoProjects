@@ -39,6 +39,6 @@ How it performs:
 ## Credits and References
 
 * [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)
-* Based on "Project 07 - Guitar Headphone Amplifier" from [Beginning Analog Electronics through Projects](http://www.amazon.com/gp/product/0750672838/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672838&linkCode=as2&tag=itsaprli-20&linkId=QUZ3GKIDBEXGNSG7)
+* Based on "Project 07 - Guitar Headphone Amplifier" from [Beginning Analog Electronics through Projects](../../../books/beginning-analog-electronics-through-projects/)
 * [my LittleGem/A386 build](../LittleGem)
 * [MXR™ Headphone Amp](http://www.generalguitargadgets.com/effects-projects/boosters/headphone-amp/) - circuit details of an alternative unit

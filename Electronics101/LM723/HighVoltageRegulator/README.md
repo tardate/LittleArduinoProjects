@@ -14,7 +14,7 @@ This little project is a straight-forward build of the reference circuit for hig
 
 Some great resources for the LM723 are:
 
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - Chapter 6, Second Edition
+* [The Art of Electronics](../../../books/the-art-of-electronics/) - Chapter 6, Second Edition
 * [Bob Widlar's 723 Chip Toolkit Adventures](https://www.boldport.com/blog/bob-widlar-723) - Jenny List, Boldport blog
 
 See also [LEAP#383 LM723/LowVoltageRegulator](../LowVoltageRegulator) for more background and resources for the LM723.
@@ -75,4 +75,4 @@ As I reduce the supply voltage, it starts to lose regulation at about 10.6V.
 ## Credits and References
 
 * [LM723 Datasheet](https://www.futurlec.com/Linear/LM723CN.shtml)
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)- Chapter 6, Second Edition
+* [The Art of Electronics](../../../books/the-art-of-electronics/)- Chapter 6, Second Edition

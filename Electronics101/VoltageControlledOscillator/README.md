@@ -17,7 +17,7 @@ This is a feature of all diodes, but is more pronounced in those produced specif
 In my version of the circuit I am using the KV1471 diode.
 
 The demonstration circuit is based on a design presented in Chapter 4.6 of
-[Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design).
+[Experimental Methods in RF Design](../../books/experimental-methods-in-rf-design/).
 
 The basic circuit is a Colpitts oscillator. The varicap diode:
 
@@ -140,11 +140,11 @@ The pin header provides convenient access to (from left to right):
 
 ## Credits and References
 
-* [#147: Basics of Varactor Diodes | Voltage Controlled Oscillator VCO Example](https://youtu.be/icw8terKP-M) - from w2aew
+* [#147: Basics of Varactor Diodes - Voltage Controlled Oscillator VCO Example](https://youtu.be/icw8terKP-M) - from w2aew
 * [w2aew's notes](http://www.qsl.net/w/w2aew//youtube/Varactor_diodes_with_VCO_example.pdf)
 * [Varicap](https://en.wikipedia.org/wiki/Varicap) - wikipedia
 * [Varicap, Varactor Diode circuit demo](https://www.youtube.com/watch?v=68qOrDl55tc) - AllAmericanFiveRadio
-* [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design)
+* [Experimental Methods in RF Design](../../books/experimental-methods-in-rf-design/)
 * [KV1471 datasheet](http://www.sumzi.com/upload/files/2007/06/2007062317524107881.PDF)
 * [J310 datasheet](https://www.futurlec.com/Transistors/J310.shtml)
 * [MV104 datasheet](http://www.onsemi.com/pub_link/Collateral/MV104-D.PDF)

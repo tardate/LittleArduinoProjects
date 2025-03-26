@@ -7,7 +7,7 @@ Build and test a programmable frequency reference capable of dialing in 4095 dis
 ## Notes
 
 I discovered this interesting little circuit in
-[ARRL's Hands-on Radio Experiments Volume 2](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2) by H. Ward Silver.
+[ARRL's Hands-on Radio Experiments Volume 2](../../../books/arrl-hands-on-radio-experiments-vol2/) by H. Ward Silver.
 It is Experiment 97, p91.
 
 ### How if Works
@@ -111,7 +111,7 @@ DIP 000000000111b, expected output frequency 250kHz:
 
 ## Credits and References
 
-* [ARRL's Hands-on Radio Experiments Volume 2](https://www.goodreads.com/book/show/40198290-arrl-s-hands-on-radio-experiments-volume-2) - H. Ward Silver, Experiment 97, p91
+* [ARRL's Hands-on Radio Experiments Volume 2](../../../books/arrl-hands-on-radio-experiments-vol2/) - H. Ward Silver, Experiment 97, p91
 * [CD4001 datasheet](https://www.futurlec.com/4000Series/CD4001.shtml)
 * [CD4027 datasheet](https://www.futurlec.com/4000Series/CD4027.shtml) Dual J-K Master/Slave Flip-Flop with Set and Reset
 * [CD4040 datasheet](https://www.futurlec.com/4000Series/CD4040.shtml)

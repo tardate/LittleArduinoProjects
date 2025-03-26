@@ -31,13 +31,11 @@ Based on what's in my part drawers, this is my goal:
 Ben demonstrated a circuit with a common-anode display and using only NOT, AND, OR gates.
 That's good - stops me from simply copying the circuit. I'll have to go back to first principles!
 
-
 ### Input and Output
 
 I'm using the `a,b,c,d,e,f,g,dp` naming convention for the LED pins, and I'll call the 4 inputs `w,x,y,z`.
 
 So the input to output transformation required for the digits 0-9 is as follows:
-
 
 | Decimal Digit | w | x | y | z | a | b | c | d | e | f | g |
 |---------------|---|---|---|---|---|---|---|---|---|---|---|
@@ -71,7 +69,7 @@ So perhaps time to dust off my crusty knowledge of
 [Combinational logic](https://en.wikipedia.org/wiki/Combinational_logic),
 [Karnaugh Maps](https://en.wikipedia.org/wiki/Karnaugh_map)
 and methods for simplification of boolean functions.
-I even opened my 1979 edition of [Digital Logic & Computer Design](https://www.goodreads.com/book/show/325725.Digital_Logic_Computer_Design) for the first time in years (I had to find it first).
+I even opened my 1979 edition of [Digital Logic & Computer Design](../../../books/digital-logic-and-computer-design/) for the first time in years (I had to find it first).
 
 So bearing that all in mind.. what follows is my analysis and derivation of the transformation functions I'll build into a circuit.
 I managed to get something that works, but I certainly don't guarantee it is the simplest solution possible.
@@ -81,7 +79,6 @@ Some useful identities:
     x.y == (x' + y')' i.e. AND(x, y) == NOR(NOT(x), NOT(y))
     x + y == (x'y')' i.e. OR(x, y) == NAND(NOT(x), NOT(y))
     x'y + xy' == XOR(x,y)
-
 
 #### Transformation Functions
 
@@ -99,7 +96,6 @@ Derivations and notes follow.
 |     f(e) | OR(NOR(x, z), NOR(NOT(y), z)) |
 |     f(f) | OR(w, OR(NOR(y, NOR(x, NOT(z))), NOR(NOT(x), z))) |
 |     f(g) | NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z))))) |
-
 
 #### f(a)
 
@@ -135,7 +131,6 @@ Again by inspection, `c` is only low in one case, so the simplest starting point
     = AND(NOR(w, x), NOR(NOT(y), z))
 
 So `f(c) = NAND(NOR(w, x), NOR(z, NOT(y)))`
-
 
 #### f(d)
 
@@ -176,7 +171,6 @@ By map inspection:
     = (x + z)' + (y' + z)'
     = OR(NOR(x, z), NOR(z, NOT(y)))
 
-
 #### f(f)
 
 `f` is low in four cases, so easiest to express the inverse `f(f)'` as a sum of 4 minterms: `m1 + m2 + m3 + m7`
@@ -198,7 +192,6 @@ By map inspection:
     = OR(w, NOR(y, NOR(x, NOT(z))), NOR(NOT(x), z))
     = OR(w, OR(NOR(y, NOR(x, NOT(z))), NOR(z, NOT(x))))
 
-
 #### f(g)
 
 By inspection, `g` is only low in three cases, so the simplest starting point is probably `f(g)'` as a sum of minterms:
@@ -212,7 +205,6 @@ By inspection, `g` is only low in three cases, so the simplest starting point is
     = AND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z)))))
 
 So `f(g) = NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z)))))`
-
 
 ## Construction
 
@@ -282,7 +274,7 @@ Driving it with an Arduino, see the [CombinationalLogicDriver.ino](./Combination
 
 ## Credits and References
 
-* [Digital Logic & Computer Design](https://www.goodreads.com/book/show/325725.Digital_Logic_Computer_Design) - M. Morris Mano
+* [Digital Logic & Computer Design](../../../books/digital-logic-and-computer-design/) - M. Morris Mano
 * [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) - wikipedia
 * [Combinational logic](https://en.wikipedia.org/wiki/Combinational_logic) - wikipedia
 * [De Morgan's laws](https://en.wikipedia.org/wiki/De_Morgan%27s_laws) - wikipedia

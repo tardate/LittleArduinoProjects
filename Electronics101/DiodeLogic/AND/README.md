@@ -2,6 +2,8 @@
 
 Test the basic diode-logic AND gate
 
+![The Build](./assets/AND_build.jpg?raw=true)
+
 ## Notes
 
 Diode logic was used extensively in early computers but is largely obsolete now, since it cannot isolate inputs or outputs
@@ -19,6 +21,7 @@ Output is high only when all the inputs are high:
 | 1 | 1 | 1   |
 
 In this circuit with VCC of 5V and where Vf is the diode forward voltage of approx. 0.7V, Vr2 is the voltage drop across R2:
+
 * Out logical "0" == Vf ~> 0.7V
 * Out logical "1" == VCC - Vr2 ~> 3.4V
 
@@ -27,8 +30,11 @@ so the switch behaviour may appear inverse (more like a NOR gate) to the actual 
 This apparently contradictory behaviour is resolved if a normally-closed switch is used.
 
 The Arduino is not a core part of the circuit. It only does the following:
+
 * provides +5V power supply (for convenience)
-* measures the input and output voltages for plotting. It uses the [PlotNValues](https://leap.tardate.com/playground/plotnvalues/) sketch for this purpose.
+* measures the input and output voltages for plotting.
+It uses the [PlotNValues](../../../playground/PlotNValues/)
+sketch for this purpose.
 
 Here's a sample trace. The upper trace is the output, the lower traces the inputs.
 

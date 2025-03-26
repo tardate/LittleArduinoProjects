@@ -69,7 +69,7 @@ increasing the force applied by the solenoid:
 * [IRF540 datasheet](https://www.futurlec.com/Transistors/IRF540.shtml)
 * [Solenoid](https://en.wikipedia.org/wiki/Solenoid) - wikipedia
 * [Right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule) - wikipedia
-* [Engineer's Mini-Notebook - Magnet and Sensor Projects](https://www.goodreads.com/book/show/18007328-engineer-s-mini-notebook) - Forrest M. Mims III
+* [Engineer's Mini-Notebook - Magnet and Sensor Projects](../../../books/engineers-mini-notebook-magnet-projects/)
 * [Easy to Make Solenoid Engine](https://www.youtube.com/watch?v=HM9zdyX9Ix0)
 * [Como Hacer un Motor de Solenoide - Muy fácil de hacer](https://www.youtube.com/watch?v=S2vL3FjqHpI)
 * [How to make a homemade solenoid](https://www.youtube.com/watch?v=sRN5UhHhSxY)

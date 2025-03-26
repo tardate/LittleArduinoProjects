@@ -28,12 +28,12 @@ Specifications (as far as I've been able to glean from the Internet):
 * Antenna size: 25 mm x 25 mm
 
 Features:
+
 * use the XM37-1612 module. MTK platform, with high gain active antenna
 * TTL level, compatible with the 3.3v / 5v system
 * the default baud rate: 9600
 * with rechargeable backup battery, can save the ephemeris data when it power off, and make the boot warm.
 * Suitable for RC Quadcopter, Browser
-
 
 ### Listening to Raw GPS Module Output
 
@@ -111,7 +111,6 @@ intended for Serial-Data Networking of Marine Electronic Devices.
 The full [NMEA Standards](https://www.nmea.org/content/nmea_standards/nmea_standards.asp) are priced way beyond the reach of a weekend tinkerer.
 But happily there is enough information floating around the net to at least make sense of the messages coming out of NEMA-compatible products.
 
-
 With the help of Glenn Baddeley's [GPS - NMEA sentence information](http://home.mira.net/~gnb/gps/nmea.html) site,
 I can make some sense out of the trace captured above. For example:
 
@@ -137,13 +136,11 @@ Followed by interpreted sentences from the GPS unit:
 * $GPGLL - Geographic position, latitude / longitude
 * $GPGSA - GPS DOP and active satellites
 
-
 ## Using NEMA GPS Data on an Arduino
 
 The [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus) library parses the NEMA codes and provides a nice API for getting the results.
 It can work in conjunction with [SoftwareSerial](https://www.arduino.cc/en/Reference/SoftwareSerial) library to allow GPS serial connections
 on pins other than 0/1.
-
 
 ## Code
 
@@ -152,7 +149,6 @@ The [GpsBasics.ino](./GpsBasics.ino) sketch is a simple demonstration, heavily i
 I'm using an Arduino with [Nokia 5110 Shield](../Lcd5110/DIYShield), so in addition to logging detailed GPS readings
 to the serial port, it displays the basic time and location information on the LCD.
 
-
 ### Libraries Used
 
 * [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus) - for decoding NEMA data
@@ -160,7 +156,6 @@ to the serial port, it displays the basic time and location information on the L
 * [SPI](https://www.arduino.cc/en/Reference/SPI) - LCD communciations
 * [Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library) - LCD graphics support
 * [Adafruit_PCD8544](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - LCD display driver
-
 
 ### Output
 
@@ -187,16 +182,15 @@ And details logged to serial output:
 | TXD    | GPS_TX          | 4 (RX)  | GPS_RX_PIN   |
 | RXD    | GPS_RX          | 3 (TX)  | GPS_TX_PIN   |
 
-
 ## Credits and References
 
-* [LEAP#377 Nokia 5110 Shield](../Lcd5110/DIYShield)
+* [LEAP#377 Nokia 5110 Shield](../Lcd5110/DIYShield/)
 * [Ublox GY-NEO6MV2 GPS Module](https://www.aliexpress.com/item/New-Arrival-Ublox-GY-NEO6MV2-GPS-Module-Aircraft-Flight-Controller-For-Arduino-APM-2-5-Module/32611452973.html) - from seller on aliexpress
 * [GY-NEO6MV2 GPS Module](https://www.openimpulse.com/blog/products-page/product-category/gy-neo6mv2-gps-module/) - similar device, with datasheet available
 * [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus) - customizable Arduino NMEA parsing library
 * [SoftwareSerial](https://www.arduino.cc/en/Reference/SoftwareSerial)
 * [Using a GPS receiver for Arduino](https://sandervandevelde.wordpress.com/2015/12/03/using-a-gps-receiver-for-arduino/) - useful blog post by Sander van de Velde
-* [6.14. Getting Location from a GPS](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
+* 6.14. Getting Location from a GPS - from the [Arduino Cookbook](../../books/arduino-cookbook/)
 * [NMEA data](http://www.gpsinformation.org/dale/nmea.htm) - great background on NEMA data
 * [GPS - NMEA sentence information](http://home.mira.net/~gnb/gps/nmea.html) - Glenn Baddeley
 * [NMEA Standards](https://www.nmea.org/content/nmea_standards/nmea_standards.asp)
