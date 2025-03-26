@@ -60,7 +60,8 @@ The comparator behaviour is demonstrated in the following trace with R=22kΩ and
 
 ![processing trace](./assets/processing_trace.png?raw=true)
 
-[LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) reads the data from the serial port and plots the values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope .. and it kind of works, mainly because the frequency is so low.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues/)
+reads the data from the serial port and plots the values over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope .. and it kind of works, mainly because the frequency is so low.
 
 ### Construction
 

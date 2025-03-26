@@ -78,7 +78,7 @@ Debouncing with the PICAXE button command
 Airgate: A Receive-Only, Low-Power APRS iGate
 
 * Project Source Code <http://hamradioprojects.com/authors/dl8rds/+airgate/code>
-* I describe the ArgentData RadioShield, in German: <http://www.youtube.com/watch?v=SuR8mAFtHw8>
+* I describe the ArgentData RadioShield, in German: <https://www.youtube.com/watch?v=SuR8mAFtHw8>
 * Source code for this project <http://cookbook.wa5znu.org/projects/airgate>
 * Argent Data Radio Shield <http://wiki.argentdata.com/index.php?title=Radio_Shield>
 * APRS Information

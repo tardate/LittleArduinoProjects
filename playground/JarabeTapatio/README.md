@@ -4,7 +4,6 @@ Play The Mexican Hat Dance on a piezo buzzer! Here's a quick demo:
 
 [![JarabeTapatio](https://img.youtube.com/vi/oAiCtdJKnDU/0.jpg)](https://www.youtube.com/watch?v=oAiCtdJKnDU)
 
-
 ## Notes
 
 A simplified version of the melody in scored in this [GuitarPro](./assets/Jarabe Tapatío simple melody.gpx) file.
@@ -30,4 +29,4 @@ The LM 386 is used in the default configuration, which results in a relatively l
 
 * [LM 386 datasheet](https://www.futurlec.com/Linear/LM386N-1.shtml)
 * Based on the [Arduino Tone](http://arduino.cc/en/Tutorial/Tone) example
-* Enhanced with ideas from 9.2 Playing a Simple Melody in the [Arduino Cookbook](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
+* Enhanced with ideas from 9.2 Playing a Simple Melody in the [Arduino Cookbook](../../books/arduino-cookbook/)

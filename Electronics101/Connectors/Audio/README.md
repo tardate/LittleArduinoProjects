@@ -11,7 +11,7 @@ This project is a collection of notes on some of the connectors I use/have encou
 
 For more thorough coverage of the variety of audio connectors, see:
 
-* Chapter 7 of John M. Hughes' [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics).
+* Chapter 7 of John M. Hughes' [Practical Electronics: Components and Techniques](../../../books/practical-electronics/).
 * [Tech Basics: Cables & Connectors](https://www.udemy.com/tech101-cables-and-connectors/) - udemy course
 
 ### 3.5mm Connectors
@@ -62,6 +62,6 @@ e.g.
 
 ## Credits and References
 
-* [Practical Electronics: Components and Techniques](https://www.goodreads.com/book/show/21483234-practical-electronics)
+* [Practical Electronics: Components and Techniques](../../../books/practical-electronics/)
 * [Tech Basics: Cables & Connectors](https://www.udemy.com/tech101-cables-and-connectors/) - udemy course
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap309-audio-connectors.html)

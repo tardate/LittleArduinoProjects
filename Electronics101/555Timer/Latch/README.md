@@ -13,7 +13,8 @@ Here's a quick demo..
 Pressing the button will toggle the output between on and off.
 
 This is a simple latching circuit for push-button on/off control using the 555 timer.
-See [LEAP#004](https://leap.tardate.com/playground/pushbuttonled/) for how you may do this with an Arduino instead.
+See [LEAP#004](../../../playground/PushbuttonLED/)
+for how you may do this with an Arduino instead.
 
 How it works:
 

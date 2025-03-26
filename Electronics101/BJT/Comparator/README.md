@@ -29,8 +29,8 @@ It seems the field jumped very quickly to OpAmp and Comparator ICs.
 
 The most useful references I found were:
 
-* [Electronic Principles](https://www.goodreads.com/book/show/942642.Electronic_Principles) which presents a simplified schematic of an IC comparator in section 22-13, p853
-* [Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) 2.22 Temperature controller, p105 - a circuit that includes a BJT comparator in the control circuit
+* [Electronic Principles](../../../books/electronic-principles/) which presents a simplified schematic of an IC comparator in section 22-13, p853
+* [Art of Electronics](../../../books/the-art-of-electronics/) 2.22 Temperature controller, p105 - a circuit that includes a BJT comparator in the control circuit
 
 ## Design
 
@@ -87,6 +87,6 @@ Here's a scope trace that captures some manual manipulation of the input and ref
 * [Voltage Comparator Circuits](http://www.bristolwatch.com/ele/vc.htm)
 * [OPERATIONAL AMPLIFIERS : part 17 (Operational amplifier models)](http://www.radio.walkingitaly.com/radio/RADIOSITO/za_fatti/tutorial/t_opamp/t_opamp_old/a1.htm)
 * [Op Amp Comparator Circuit](https://www.radio-electronics.com/info/circuits/opamp_comparator/op_amp_comparator.php)
-* [Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) 2.22 Temperature controller, p105
-* [Electronic Principles - Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles) section 22-13, p853
+* [Art of Electronics](../../../books/the-art-of-electronics/) 2.22 Temperature controller, p105
+* [Electronic Principles - Malvino](../../../books/electronic-principles/) section 22-13, p853
 * [..as mentioned on my blog](https://blog.tardate.com/2018/08/leap412-bjt-comparator.html)

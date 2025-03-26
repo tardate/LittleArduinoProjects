@@ -1,4 +1,4 @@
-# #288 BasicInvertingBuckBoostAvrControl
+# #288 Basic AVR-controlled Inverting Buck-boost
 
 Build and test an inverting buck-boost converter controlled by an ATtiny85.
 
@@ -35,7 +35,6 @@ This allows for a minimum voltage of around 1.7V.
 I've only breadboarded this so far, and it works reasonably well - at least as an investigation of how inverting buck-boost converters
 actually work.
 
-
 ### PWM Control
 
 The [BasicInvertingBuckBoostAvrControl.ino](./BasicInvertingBuckBoostAvrControl.ino) sketch
@@ -66,7 +65,6 @@ Settings (buck mode):
 
 Required duty cycle:
 
-
 `D = Vout/(Vout - Vin) =` [42.86%](https://www.wolframalpha.com/input/?i=9V%2F(12V+-+-9V))
 
 **Output ripple voltage:**
@@ -75,16 +73,13 @@ Required duty cycle:
 
 `∆Vc = Ia * D / (fs * C) =` [0.05528mV](https://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(31.72kHz+*+220%C2%B5F))
 
-
 **Average input current:**
 
 `Is = Ia * D / (1 - D) =` [0.68mA](https://www.wolframalpha.com/input/?i=0.9mA+*+0.4286+%2F+(1+-+0.4286))
 
-
 **Average inductor current:**
 
 `Il = Ia / (1 - D) =` [1.58mA](https://www.wolframalpha.com/input/?i=0.9mA+%2F+(1+-+0.4286))
-
 
 **Inductor peak-peak ripple current:**
 
@@ -95,6 +90,7 @@ That's quite a spike
 #### Actual Performance
 
 Here are some scope traces of the PWM and control signals in action.
+
 * CH1 (yellow).
 * CH2 (blue) is the feedback FB input
 * CH3 (red) is the buffered VSET input
@@ -106,7 +102,6 @@ In the first case, VREF is adjusted to the max PWM duty cycle (hitting the limit
 VREF adjusted to a mid-point:
 
 ![scope_mid_out](./assets/scope_mid_out.gif?raw=true)
-
 
 ## Construction
 
@@ -122,7 +117,7 @@ VREF adjusted to a mid-point:
 * [DIY Buck/Boost Converter (Flyback) || How to step up/down DC voltage efficiently](https://www.youtube.com/watch?v=ZiD_X-uo_TQ) - video by GreatScott!
 * [DIY Buck/Boost Converter](https://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS) - instructables
 * [Buck–boost converter](https://en.wikipedia.org/wiki/Buck%E2%80%93boost_converter) - wikipedia
-* [Power-Switching Converters](https://www.goodreads.com/book/show/1908950.Power_Switching_Converters) - Simon Ang, Alejandro Oliva
+* [Power-Switching Converters](../../../../books/power-switching-converters/) - Simon Ang, Alejandro Oliva
 * [IRF3205 datasheet](http://parts.io/detail/215337130/IRF3205PBF) - parts.io
 * [LMC6482 datasheet](http://parts.io/detail/11889183/LMC6482AIMX%2FNOPB) - parts.io
 * [ATTINY85 datasheet](http://parts.io/detail/1452093/ATTINY85-20PU) - parts.io

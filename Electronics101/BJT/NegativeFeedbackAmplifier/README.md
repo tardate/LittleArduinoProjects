@@ -15,7 +15,7 @@ and reduced sensitivity to component parameter variations.
 The circuit design used here is based on a fairly common "Negative Feedback Amplifier Kit" (easily found on Aliexpress or eBay).
 It essentially a two-stage common-emitter amplifier with a feedback loop from the output of the final stage to the emitter of the first stage.
 NB: the circuit is exactly as covered in 10-5 Two-Stage Feedback of
-[Electronic Principles by Albert Paul Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles).
+[Electronic Principles by Albert Paul Malvino](../../../books/electronic-principles/).
 
 The feedback loop creates an AC voltage divider between the output and ground:
 
@@ -61,6 +61,6 @@ CH2 (Blue): output
 * [Chapter 4 - Bipolar Junction Transistors - Feedback](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/feedback/)
 * [10.1 Cascade of two single transistor stages](https://wiki.analog.com/university/courses/electronics/text/chapter-10) - Analog wiki
 * [Design of 2 stage BJT CE amplifier](http://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
-* [Electronic Principles by Albert Paul Malvino](https://www.goodreads.com/book/show/942642.Electronic_Principles)
-* [Multistage Transistor Amplifiers](http://www.youtube.com/watch?v=FbdZ46VdTjE)
+* [Electronic Principles by Albert Paul Malvino](../../../books/electronic-principles/)
+* [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE)
 * [LEAP#389 TwoStageCommonEmitterAmplifier](../TwoStageCommonEmitterAmplifier)

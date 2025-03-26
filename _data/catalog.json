@@ -220,6 +220,16 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#727",
+        "name": "Power-Switching Converters",
+        "description": "Book notes: Power-Switching Converters, by Simon S. Ang, Alejandro Oliva. First published April 10, 1995.",
+        "categories": "Books",
+        "relative_path": "books/power-switching-converters",
+        "updated_at": "2025-03-26T13:13:00Z",
+        "created_at": "2025-03-26T13:13:00Z",
+        "original_relative_path": "books/power-switching-converters"
+    },
+    {
         "id": "#726",
         "name": "Push-Pull Output Driver",
         "description": "Testing the basic MOSFET push-pull output driver, similar to designs used in digital logic output or GPIO circuits.",
@@ -4221,7 +4231,7 @@
     },
     {
         "id": "#327",
-        "name": "Mixers/RFDiodeRing",
+        "name": "RF Diode Ring Mixer",
         "description": "a diode ring double-balanced frequency mixer",
         "categories": "Radio, Mixers",
         "relative_path": "electronics101/mixers/rfdiodering",
@@ -4241,7 +4251,7 @@
     },
     {
         "id": "#325",
-        "name": "BoldportClub/spoolt",
+        "name": "BoldportClub spoolt",
         "description": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)",
         "categories": "Boldport, Soldering",
         "relative_path": "boldportclub/spoolt",
@@ -4611,7 +4621,7 @@
     },
     {
         "id": "#288",
-        "name": "Basic Inverting Buck-Boost AVR-control",
+        "name": "Basic AVR-controlled Inverting Buck-boost",
         "description": "build and test an inverting buck-boost converter controlled by an ATtiny85",
         "categories": "Power, ATtiny, Arduino",
         "relative_path": "electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol",
@@ -7012,7 +7022,7 @@
     {
         "id": "#048",
         "name": "StereoLightTrigger",
-        "description": "demo an interrupt-driven method for responding to LDR light threshold triggers",
+        "description": "A dual input low-light trigger: demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.",
         "categories": "Sensors, Arduino",
         "relative_path": "playground/stereolighttrigger",
         "updated_at": "2016-06-19T14:13:24Z",

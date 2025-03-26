@@ -33,7 +33,7 @@ See also:
 * Frequency Effects
 * Differential Amplifiers
 * Operational Amplifiers
-* NEgative Feedback
+* Negative Feedback
 * Linear Op-Amp Circuits
 * Active Filters
 * Nonlinear Op-Amp Circuits

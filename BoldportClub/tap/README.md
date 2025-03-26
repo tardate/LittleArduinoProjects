@@ -11,14 +11,15 @@ The [Touch Activated Programmer (TAP) Sensor from Elektor magazine of December 1
 example of a capacitive touch circuit.
 
 And Boldport Club members were lucky enough to get a "modern" rendering of the same circuit.
-The PCB design is as psychadelic as you would expect from a 70's vintage design. What is amazing is that the parts are still
+The PCB design is as psychedelic as you would expect from a 70's vintage design. What is amazing is that the parts are still
 quite readily available.
 
-The PCB is well up to Boldport standards. Altough this can create some assembly confusion - you must pay close attention to
+The PCB is well up to Boldport standards. Although this can create some assembly confusion - you must pay close attention to
 which side of the board the parts are inserted. It looks just as good both ways.
 
 Electrically, touch pads A, B and C are connected to an NPN transistor pair in a Darlington configuration.
-I've covered the operation of this kind of switch in [LEAP#130 DarlingtonTouchSwitch](https://leap.tardate.com/electronics101/darlingtontouchswitch/).
+I've covered the operation of this kind of switch in
+[LEAP#130 DarlingtonTouchSwitch](../../Electronics101/DarlingtonTouchSwitch/).
 
 All manner of outputs are provided. For each touchpad there are four:
 
@@ -47,11 +48,11 @@ they are limited in the current they can sink (16mA).
 
 The S/S¯ outputs are controlled with low-side NPN switches and can sink up to 1A -
 the absolute maximum collector current for the PN2222ATA.
-Higher currents would need closer attention to heatsinking and wire/connector ratings.
+Higher currents would need closer attention to heat-sinking and wire/connector ratings.
 
 ## RB (Reset Bar) and CB (Contact Bar)
 
-The RB and CB pins are intended to allow chaining of mulitple sensor units with a common reset/contact bus.
+The RB and CB pins are intended to allow chaining of multiple sensor units with a common reset/contact bus.
 
 ### Parts and Unboxing
 
@@ -99,7 +100,7 @@ Running some initial current tests. It never peaks beyond 23mA.
 
 ![kit_initial_test](./assets/kit_initial_test.jpg?raw=true)
 
-Hooked up for monitoring under test (analog scopea and logic analyzer)
+Hooked up for monitoring under test (analog scope and logic analyzer)
 
 ![kit_scope_test](./assets/kit_scope_test.jpg?raw=true)
 
@@ -116,7 +117,7 @@ From this we can see that using the TAP as an input for a sensitive instrument w
 
 ![scope_A_analog](./assets/scope_A_analog.gif?raw=true)
 
-Here is the same switch with alogic analyser. There's quite a delay (2-3µs) between the analog transition and the digital - but I think that is more the
+Here is the same switch with a logic analyser. There's quite a delay (2-3µs) between the analog transition and the digital - but I think that is more the
 scope than the circuit. The important point is that we still see one bounce at logic levels, and the other outputs are as expected.
 
 * CH1 - Q1 output (trigger)
@@ -141,5 +142,5 @@ scope than the circuit. The important point is that we still see one bounce at l
 * [SN7400N info and datasheet](http://parts.io/detail/931870/SN7400N) - parts.io
 * [PN2222ATA info and datasheet](http://parts.io/detail/1027929/PN2222ATA) - parts.io
 * [BC556BTA info and datasheet](http://parts.io/detail/1015198/BC556BTA) - parts.io
-* [LEAP#130 DarlingtonTouchSwitch](https://leap.tardate.com/electronics101/darlingtontouchswitch/)
+* [LEAP#130 DarlingtonTouchSwitch](../../Electronics101/DarlingtonTouchSwitch/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap285-the-boldport-tap.html)

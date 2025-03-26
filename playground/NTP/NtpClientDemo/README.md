@@ -56,7 +56,7 @@ Another way getting connected on macOS is to use screen:
 
 * [udp-ntp-client example](https://docs.arduino.cc/tutorials/ethernet-shield-rev2/udp-ntp-client/)
 * [name](https://github.com/arduino-libraries/NTPClient)
-* [Arduino Uno R3](http://www.amazon.com/gp/product/B00F6JCV20/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00F6JCV20&linkCode=as2&tag=itsaprli-20&linkId=O34GVKFAZ6FVDC6W) or similar
-* [Arduino Ethernet Shield](http://www.amazon.com/gp/product/B00EU7447Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EU7447Y&linkCode=as2&tag=itsaprli-20&linkId=QJYL7QLWFGQVGUF5)
+* Arduino Uno R3 or similar
+* Arduino Ethernet Shield
 * [Simple Network Time Protocol - NTP with Ruby](https://codingkata.tardate.com/ruby/ntp/)
 * [Network Time Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol) - wikipedia

@@ -2,6 +2,8 @@
 
 Test the basic diode-logic OR gate
 
+![The Build](./assets/OR_build.jpg?raw=true)
+
 ## Notes
 
 Diode logic was used extensively in early computers but is largely obsolete now, since it cannot isolate inputs or outputs
@@ -19,14 +21,18 @@ Output is high given any of the inputs are high:
 | 1 | 1 | 1   |
 
 In this circuit with VCC of 5V and where Vf is the diode forward voltage of approx. 0.7V:
+
 * Out logical "0" == 0V
 * Out logical "1" == VCC - 1 x Vf ~> 4.3V
 
 Pull-down resistors R2,R3 are used to prevent floating inputs.
 
 The Arduino is not a core part of the circuit. It only does the following:
+
 * provides +5V power supply (for convenience)
-* measures the input and output voltages for plotting. It uses the [PlotNValues](https://leap.tardate.com/playground/plotnvalues/) sketch for this purpose.
+* measures the input and output voltages for plotting. It uses the
+[PlotNValues](../../../playground/PlotNValues/)
+sketch for this purpose.
 
 Here's a sample trace. The upper trace is the output, the lower traces the inputs.
 

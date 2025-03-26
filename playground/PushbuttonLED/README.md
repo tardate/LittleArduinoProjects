@@ -10,7 +10,7 @@ A simple circuit showing how to wire a pushbutton with a pull-down resistor for 
 but pulls high when pressed.
 
 Pressing the button will toggle the LED between on and off.
-See [LEAP#692](https://leap.tardate.com/electronics101/555timer/latch/) for how to achieve a similar result with a simple 555 timer chip.
+See [LEAP#692](../../Electronics101/555Timer/Latch/) for how to achieve a similar result with a simple 555 timer chip.
 
 ## The Sketch
 
@@ -31,4 +31,3 @@ The [PushbuttonLED.ino](./PushbuttonLED.ino) sketch:
 ## Credits and References
 
 * Based on the [Arduino Pushbutton example](http://www.arduino.cc/en/Tutorial/Pushbutton)
-* [4 Pin DIP PCB Momentary Push Button Tactile Switch](http://www.amazon.com/gp/product/B008MLKJ3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008MLKJ3C&linkCode=as2&tag=itsaprli-20&linkId=6UORZDXT6S7AZRZ7)

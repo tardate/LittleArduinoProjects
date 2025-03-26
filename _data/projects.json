@@ -199,6 +199,14 @@
             "LED"
         ]
     },
+    "/books/power-switching-converters/": {
+        "id": 727,
+        "title": "Power-Switching Converters",
+        "summary": "Book notes: Power-Switching Converters, by Simon S. Ang, Alejandro Oliva. First published April 10, 1995.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/digitallogic/pushpulloutputdriver/": {
         "id": 726,
         "title": "Push-Pull Output Driver",
@@ -3876,7 +3884,7 @@
     },
     "/electronics101/mixers/rfdiodering/": {
         "id": 327,
-        "title": "Mixers/RFDiodeRing",
+        "title": "RF Diode Ring Mixer",
         "summary": "a diode ring double-balanced frequency mixer",
         "tags": [
             "Radio",
@@ -3894,7 +3902,7 @@
     },
     "/boldportclub/spoolt/": {
         "id": 325,
-        "title": "BoldportClub/spoolt",
+        "title": "BoldportClub spoolt",
         "summary": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)",
         "tags": [
             "Boldport",
@@ -4246,7 +4254,7 @@
     },
     "/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/": {
         "id": 288,
-        "title": "Basic Inverting Buck-Boost AVR-control",
+        "title": "Basic AVR-controlled Inverting Buck-boost",
         "summary": "build and test an inverting buck-boost converter controlled by an ATtiny85",
         "tags": [
             "Power",
@@ -6480,7 +6488,7 @@
     "/playground/stereolighttrigger/": {
         "id": 48,
         "title": "StereoLightTrigger",
-        "summary": "demo an interrupt-driven method for responding to LDR light threshold triggers",
+        "summary": "A dual input low-light trigger: demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.",
         "tags": [
             "Sensors",
             "Arduino"

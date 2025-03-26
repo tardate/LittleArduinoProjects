@@ -36,7 +36,7 @@ The scope trace below captures the system in operation:
 * CH2 (Blue): voltage at OUT
     * Measured: 13.6V
 
-Conclusion: the CD40106 is not as affective as the 74HC14 in this role. See [LEAP#593 74HC14 Inverter Voltage Multiplier](https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/) for comparative results.
+Conclusion: the CD40106 is not as affective as the 74HC14 in this role. See [LEAP#593 74HC14 Inverter Voltage Multiplier](../../74HC14/VoltageMultiplier/) for comparative results.
 
 ![oscillator](./assets/oscillator.gif)
 
@@ -44,4 +44,4 @@ Conclusion: the CD40106 is not as affective as the 74HC14 in this role. See [LEA
 
 * [CD40106 Datasheet](https://www.futurlec.com/4000Series/CD40106.shtml)
 * See also:
-    * [LEAP#593 74HC14 Inverter Voltage Multiplier](https://leap.tardate.com/electronics101/74hc14/voltagemultiplier/)
+    * [LEAP#593 74HC14 Inverter Voltage Multiplier](../../74HC14/VoltageMultiplier/)

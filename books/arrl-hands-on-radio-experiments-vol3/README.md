@@ -21,6 +21,9 @@ See also:
 Electronic Circuits
 
 * Experiment #125 - The Schmitt Trigger
+    * see [LEAP#488 XOR-RC Edge Detector](../../Electronics101/EdgeDetection/XorRcEdgeDetector/)
+    * see [LEAP#536 Power OK Indicator](../../Electronics101/SchmittTrigger/PowerOkIndicator/)
+    * see [LEAP#537 Schmitt Switch Debouncer](../../Electronics101/SchmittTrigger/SwitchDebouncer/)
 * Experiment #129 - Wye-Delta and Pi-T Circuits
 * Experiment #132 - Resistor Networks
 * Experiment #141 - Window Comparators and Null Detectors

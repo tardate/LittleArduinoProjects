@@ -30,7 +30,8 @@ The NOR gate output drives an LED and is also measured by the Arduino with an an
 
 ### Behaviour
 
-Here's a sample trace taken with [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/).
+Here's a sample trace taken with
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues/).
 The lower two traces are the gate inputs, and the upper trace is the gate output.
 The HIGH output voltage measures at 3.42V (a tad over typical value according to the datasheet)
 
@@ -47,4 +48,4 @@ The HIGH output voltage measures at 3.42V (a tad over typical value according to
 ## Credits and References
 
 * [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
-* [7400 series](http://en.wikipedia.org/wiki/7400_series)
+* [7400 series](../../notebook/logic_families/)

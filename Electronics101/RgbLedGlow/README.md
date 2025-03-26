@@ -29,7 +29,7 @@ Basically, these are just three LED dies in the one package.
 
 ### Triangle Wave Generator
 
-I borrowed the basic idea from [Breathing Lamp Effect](https://leap.tardate.com/electronics101/breathelamp/), and adjusted the components for best effect.
+I borrowed the basic idea from [Breathing Lamp Effect](../BreatheLamp/), and adjusted the components for best effect.
 
 The three oscillators are independent and nominally run at the same frequency. But component tolerances
 introduce enough variation that the phase difference of the three oscillators drift slowly, resulting in a continually
@@ -70,5 +70,5 @@ The [demo video](https://www.youtube.com/watch?v=9PpOC6A96As) is using the rever
 * [RGB LED datasheet](https://www.futurlec.com/LED/RGB5LED.shtml)
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [RGB LED](https://www.aliexpress.com/item/50pcs-4-pins-5mm-RGB-LED-full-color-Tri-Color-Common-Anode-LED-Red-Green-Blue/32802378189.html) - aliexpress seller
-* [Breathing Lamp Effect](https://leap.tardate.com/electronics101/breathelamp/)
+* [Breathing Lamp Effect](../BreatheLamp/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap337-rgb-led-glow-with-opamps.html)

@@ -62,7 +62,7 @@ it is redundant to wrap each command sequence in a transaction. But it is a good
 NB: many other scripts found on the net pre-date this syntax.
 
 It is running at very low frequencies in order to produce a visual demo. It sends the measure waveform to the serial port.
-[LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../PlotNValues/) reads the data from the serial port and plots the output value over time, with some coloration effects thrown in for good measure.
 
 Here's a sample trace. It shows a few cycles of each waveform. From the left:
 

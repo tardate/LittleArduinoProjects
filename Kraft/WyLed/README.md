@@ -1,4 +1,4 @@
-# #483 WyLed!
+# #483 WyLed
 
 .. when you allow an exploration of a chip (TM1638) to get a little out of hand! The WyLed free-form sculpture reacts to sound and blinks a 4-digit LED display.
 An ATTiny85 provides a little brain, and the TM1638 handles all input and output.
@@ -12,7 +12,7 @@ Here's a quick demo..
 ## Notes
 
 I checked out the basic operation of the TM1638 in
-[LEAP#481](https://leap.tardate.com/playground/led7segment/tm1638/).
+[LEAP#481](../../playground/LED7Segment/TM1638/).
 This project tries to do something a little more interesting with the chip.
 
 One thing led to another ... and I ended up with a freeform sculpture that got a little out of hand!
@@ -30,7 +30,6 @@ This is presented to the TM1638 as a "key" input via a 2N7000 mosfet.
 A 4-digit LED 7-segment display is used as a pair of "eyes".
 For the display unit I have, the pin connections are as follows:
 
-
 | LED Module pin | Function | TM1638 pin |
 |----------------|----------|------------|
 | 1              | E        | SEG5/9     |
@@ -46,7 +45,6 @@ For the display unit I have, the pin connections are as follows:
 | 11             | A        | SEG1/5     |
 | 12             | D1       | GRID4/21   |
 
-
 Note: numbering the digits is pretty arbitrary - just need to follow a convention. In my case:
 
 * pins on the LED module are labelled D1-D4 from left to right
@@ -59,11 +57,9 @@ for interfacing with the TM1638, but does not require any additional libraries.
 
 I used an ATtiny85 for the final build,
 and programmed it using the Arduino ISP.
-
 See my notes on
-[LEAP#070](https://leap.tardate.com/playground/attiny/programmingwitharduinoisp/)
+[LEAP#070](../../playground/ATtiny/ProgrammingWithArduinoISP/)
 for how this is done.
-
 
 ## Construction
 

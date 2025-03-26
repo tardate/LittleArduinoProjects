@@ -23,15 +23,15 @@ Features twelve easy and useful projects designed to familiarize beginners and h
 
 | Chapter                                                       | LEAP? |
 |---------------------------------------------------------------|-------|
-| Project 01 - Fixed Low-Frequency LED Flasher                  | [LEAP#016 555 Timer - A-Stable Oscillator](https://leap.tardate.com/electronics101/555timer/astableoscillator/) |
-| Project 02 - Variable Low-Frequency LED Flasher               | [LEAP#016 555 Timer - A-Stable Oscillator](https://leap.tardate.com/electronics101/555timer/astableoscillator/) |
-| Project 03 - Fixed Low-Gain Audio Power Amplifier             | [LEAP#096 Smokey](https://leap.tardate.com/audio/audioamps/smokey/) |
+| Project 01 - Fixed Low-Frequency LED Flasher                  | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
+| Project 02 - Variable Low-Frequency LED Flasher               | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
+| Project 03 - Fixed Low-Gain Audio Power Amplifier             | [LEAP#096 Smokey](../../Audio/AudioAmps/Smokey/) |
 | Project 04 - Fixed-Frequency Audio Tone Generator             |       |
-| Project 05 - Variable-Gain Audio Power Amplifier              | [LEAP#097 Volume Control Power Amp](https://leap.tardate.com/audio/audioamps/volumecontrolpoweramp/) |
+| Project 05 - Variable-Gain Audio Power Amplifier              | [LEAP#097 Volume Control Power Amp](../../Audio/AudioAmps/VolumeControlPowerAmp/) |
 | Project 06 - Fixed Gain Audio Preamplifier                    |       |
-| Project 07 - Guitar Headphone Amplifier                       | [LEAP#098 Guitar Headphone Amp](https://leap.tardate.com/audio/audioamps/guitarheadphoneamp/) |
-| Project 08 - Visual Electronic Metronome                      | [LEAP#184 Adjustable Pulse Generator](https://leap.tardate.com/electronics101/555timer/adjustablepulsegenerator/) |
+| Project 07 - Guitar Headphone Amplifier                       | [LEAP#098 Guitar Headphone Amp](../../Audio/AudioAmps/GuitarHeadphoneAmp/) |
+| Project 08 - Visual Electronic Metronome                      | [LEAP#184 Adjustable Pulse Generator](../../Electronics101/555Timer/AdjustablePulseGenerator/) |
 | Project 09 - Variable Gain Hi/Lo Response Audio Preamplifier  |       |
 | Project 10 - Dual Gain Electret Microphone Audio Preamplifier |       |
-| Project 11 - Signal Injector                                  | [LEAP#016 555 Timer - A-Stable Oscillator](https://leap.tardate.com/electronics101/555timer/astableoscillator/) |
+| Project 11 - Signal Injector                                  | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
 | Project 12 - Signal Monitor                                   |       |

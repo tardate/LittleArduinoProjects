@@ -94,25 +94,38 @@ FINETUNE.EXE, which expedite the crystal filter design procedures.
 
 3.5— Active Filters: RC active filters appear in the next section. Design equations are given for several simple types. The all pass filter (phase shifting network) is briefly discussed and applied to an unusual analog filter type, a FIR filter, usually only considered possible with digital signal processing.
 
-3.6- Impedance Matching Networks: This section begins with a discussion of the directional nature of impedance in a circuit. The classic L, pi, and Tee networks are discussed with included design equations. Transmission lines then provide impedance matching, followed by ideal transformers using power iron and ferrite cores. The ferrite loaded transmission line transtormer 1s presented, including some popular forms using multiple cores. The section then moves to the discussion of networks with more than just two ports.
+3.6- Impedance Matching Networks: This section begins with a discussion of the directional nature of impedance in a circuit. The classic L, pi, and Tee networks are discussed with included design equations. Transmission lines then provide impedance matching, followed by ideal transformers using power iron and ferrite cores. The ferrite loaded transmission line transformer 1s presented, including some popular forms using multiple cores. The section then moves to the discussion of networks with more than just two ports.
 These include the splitter/combiner, diplexers, directional couplers, and quadrature couplers.
 
 ### Chapter 4, Oscillators and Frequency Synthesis
 
 The vital function of generating a signal for use in transmitters and receivers is the basis for this chapter.
 
-4.1-LC Oscillator Basics: The chapter begins with descriptions of an oscillator circuit as an amplifier combined with a single tuned circuit. We then ask the question: Will it oscillate? This moves to a discussion of some basic LC oscillator types. The similarities of the Colpitts and Hartley forms are emphasized. The Colpitts variations of the Clapp, Seiler, and Vackar are presented.
+4.1-LC Oscillator Basics
 
-4.2—Practical Hartley Circuits and Oscillator Drift Compensation: The next section presents the Hartley as an example and considers the problem of temperature compensation.
+* The chapter begins with descriptions of an oscillator circuit as an amplifier combined with a single tuned circuit. We then ask the question: Will it oscillate? This moves to a discussion of some basic LC oscillator types.
+* The similarities of the Colpitts and Hartley forms are emphasized.
+* The Colpitts variations of the Clapp, Seiler, and Vackar are presented.
 
-4.3—The Colpitts and Other Oscillators: Practical designs are presented that can be scaled to a needed frequency. Circuits considered include the Colpitts, Clapp, Seller, and Vackar.
+4.2—Practical Hartley Circuits and Oscillator Drift Compensation
+
+* The next section presents the Hartley as an example and considers the problem of temperature compensation.
+* See [LEAP#418 CommonEmitterHartley](../../Electronics101/Oscillators/CommonEmitterHartley/)
+
+4.3—The Colpitts and Other Oscillators
+
+* Practical designs are presented that can be scaled to a needed frequency.
+* Circuits considered include the Colpitts, Clapp, Seller, and Vackar.
 
 4.4— Noise in Oscillators: The underlying concepts are presented.
 Mathematical forms are available for those interested. Noise is also illustrated with intuitive discussion and some circuit examples that can be quickly built to be examined by the experimenter. One is a very good (low noise) crystal oscillator while another is a very poor (noisy) circuit.
 
 4.5— Crystal oscillators: The discussion is practical, including several examples of VXO circuits, for they are very popular among experimenters.
 
-4.6—Voltage Controlled Oscillators: The VCO is now the most common oscillator form. This results from synthesizers having replaced free running LC oscillator systems. A related problem is that mechanically variable capacitors are disappearing. The VCO is illustrated with some practical circuits where we have measured both tuning frequency Vs control voltage and oscillator noise. One circuit is used later in the book in a QRP transceiver.
+4.6—Voltage Controlled Oscillators
+
+* The VCO is now the most common oscillator form. This results from synthesizers having replaced free running LC oscillator systems. A related problem is that mechanically variable capacitors are disappearing. The VCO is illustrated with some practical circuits where we have measured both tuning frequency Vs control voltage and oscillator noise. One circuit is used later in the book in a QRP transceiver.
+* see [LEAP#273 Voltage Controlled Oscillator](../../Electronics101/VoltageControlledOscillator/)
 
 4.7—Frequency Synthesis: The chapter moves toward synthesis with a discussion of mixers that operate as phase detectors. This is presented in experimental terms with measurements we performed. The characterized phase detector is then combined with a VCO and an op-amp that functions as a
 "loop filter" to generate a phase locked loop, PLL. This is a traditional 2nd order loop. A sidebar presents an even simpler 1st order loop. Next, a practical example, a 1-on-1 offset PLL is built. This was a 14 MHz VCO that was phase locked to a 1.5 MHz reference. The discussion continues with PLLs using programmable digital frequency dividers. The examples use general purpose logic components, but can be extended to include special purpose digital chips. Direct digital synthesis, DDS, is briefly presented and emphasizes the basic character of the function that will generate spurious outputs. A measured example is presented
@@ -126,10 +139,18 @@ CMOS integrated circuits. This circuit will function to nearly 50 MHz with modes
 
 ### Chapter 5, Mixers and Frequency Multipliers
 
-5.1-Mixer Basics: Our study of mixers begins with a JFET example. After DC characterization, the FET is used as a mixer. Mixing action results from the nonlinear behavior of the active FET while linear behavior produces no mixing. A diode is applied as a switching mode mixer, illustrating the other common form of mixer circuit.
-Mixer specifications and the related measurements are then considered. The familiar gain and impedance specifications are augmented with parameters for spurious responses, a major mixer problem. Many of the same parameters that describe amplifiers can be applied to mixers. These include noise figure, gain, and intercepts.
+5.1-Mixer Basics
 
-5.2—Balanced Mixer Concepts: We now begin a move toward practical circuits with a discussion of balance mixer concepts. JFET, MOSFET, and diodes are all presented in balanced mixers.
+* Our study of mixers begins with a JFET example.
+* After DC characterization, the FET is used as a mixer. Mixing action results from the nonlinear behavior of the active FET while linear behavior produces no mixing. A diode is applied as a switching mode mixer, illustrating the other common form of mixer circuit.
+Mixer specifications and the related measurements are then considered. The familiar gain and impedance specifications are augmented with parameters for spurious responses, a major mixer problem. Many of the same parameters that describe amplifiers can be applied to mixers. These include noise figure, gain, and intercepts.
+* see [LEAP#326 Mixers](../../Electronics101/Mixers/)
+
+5.2—Balanced Mixer Concepts
+
+* We now begin a move toward practical circuits with a discussion of balance mixer concepts.
+* JFET, MOSFET, and diodes are all presented in balanced mixers.
+* See [LEAP#327 RF Diode Ring Mixer](../../Electronics101/Mixers/RFDiodeRing/)
 
 5.3—Some Practical Mixers: The next section delves further with a discussion of the Gilbert Cell mixer. This is illustrated not only with off the shelf integrated circuits, but with a version built from discrete components. We present measured results for conversion gain, noise figure, intercept (third order), and even spurious responses. Single ended mixers are considered that use dual gate MOSFETs and cascode connected JFETs. Next, diode ring mixers are presented in more detail with emphasis on the problems of proper termination. This is extended to high level mixers, including an interesting mixer using four MOSFETs.
 

@@ -12,7 +12,7 @@ The hysteresis of a Schmitt Trigger used in conjunction with a suitable RC filte
 * Schmitt Trigger hysteresis can help with ensuring positive on and off transitions
 
 The circuit demonstrated here is based on Experiment #125 from
-[ARRL's Hands-On Radio Experiments Volume 3](https://www.goodreads.com/book/show/38899190-arrl-s-hands-on-radio-experiments-volume-3).
+[ARRL's Hands-On Radio Experiments Volume 3](../../../books/arrl-hands-on-radio-experiments-vol3/).
 
 ## Construction
 
@@ -43,5 +43,5 @@ The on-off cycle is captured in the following scope trace where
 
 ## Credits and References
 
-* [ARRL's Hands-On Radio Experiments Volume 3](https://www.goodreads.com/book/show/38899190-arrl-s-hands-on-radio-experiments-volume-3) Experiment #125
+* [ARRL's Hands-On Radio Experiments Volume 3](../../../books/arrl-hands-on-radio-experiments-vol3/) Experiment #125
 * [74HC14 Datasheet](https://www.futurlec.com/74HC/74HC14SMD.shtml)

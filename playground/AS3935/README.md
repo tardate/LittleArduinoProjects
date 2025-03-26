@@ -7,7 +7,7 @@ Using the AMS AS3935 Franklin Lightning Sensor with an Arduino over I²C with th
 ## Notes
 
 I first heard about the AMS AS3935 Franklin Lightning Sensor in
-[Arduino for Ham Radio](https://www.goodreads.com/book/show/23432504-arduino-for-ham-radio).
+[Arduino for Ham Radio](../../books/arduino-for-ham-radio/).
 They are available as modules with built-in tuned antenna, but are relatively expensive/rare. I finally got my hands on one to experiment with.
 
 The AS3935 detects the presence and approach of potentially hazardous lightning activity in the vicinity and provides an estimation on the distance to the head of the storm.
@@ -26,7 +26,6 @@ Next steps, and two more projects for my list...
 * package this up as a complete project. Perhaps with external data logging, and maybe GPS for location and time reference.
 * I wonder what it would take to construct a lightning detector from first principles?
 
-
 ## Module Features
 
 I found a "CJMCU" version of the module, which conveniently exposes most of the AS3935 pins.
@@ -39,7 +38,6 @@ From the vendor description: Based on the AMS reference design, this is the AS39
 * Thunder and detection threshold is programmable (such as outdoor to indoor)
 * Wide supply voltage range: 2.4V - 5.5V
 * SPI and I²C operations are supported by default, I²C Address 0x03
-
 
 ## Module Pins
 
@@ -57,7 +55,6 @@ From the vendor description: Based on the AMS reference design, this is the AS39
 | A0         | I²C address selection LSB                                     |
 | A1         | I²C address selection MSB                                     |
 
-
 Some pictures of the module prior to assembly:
 
 ![AS3935_module_front](./assets/AS3935_module_front.jpg?raw=true)
@@ -69,25 +66,23 @@ Some pictures of the module prior to assembly:
 The AS3935 supports both SPI and I²C interfaces. A number of libraries/examples exist in the wild:
 
 * [AS3935_Wire](https://github.com/THP-JOE/AS3935_Wire) - THP-JOE
-    - uses the standard Wire library
+    * uses the standard Wire library
 * [AS3935 lightning sensor library](https://github.com/stevemarple/AS3935) - stevemarple
-    - published in [arduinolibraries](https://www.arduinolibraries.info/libraries/as3935)
-    - uses SoftWire library for I²C
+    * published in [arduinolibraries](https://www.arduinolibraries.info/libraries/as3935)
+    * uses SoftWire library for I²C
 * [AS3935-Arduino-Library](https://github.com/raivisr/AS3935-Arduino-Library) - raivisr
-    - SPI only
+    * SPI only
 * [Arduino for Ham Radio - Chapter 23 Lightning Detector](http://www.w5obm.us/Arduino/Arduino%20for%20Ham%20Radio%20Book/23%20Lightning%20Detector/)
-    - uses a modified version of AS3935-Arduino-Library: adds I²C support with the I2C library
+    * uses a modified version of AS3935-Arduino-Library: adds I²C support with the I2C library
 
 For this test, I'm not using any of the AS3935-specific libraries. I wanted to see first how far I could get with the standard
 Wire library.
-
 
 ### I²C Specifics
 
 Addressing: the module exposes two address pins.
 By default these are not connected (address "0" which is invalid according to I²C specs ... but still appears to work).
 Here I pull both high for an address of 3.
-
 
 ## Internal Voltage Regulator
 
@@ -97,7 +92,6 @@ The internal voltage regulator can be enabled by connecting EN_VREG to VDD.
 |-------------------|-------------|
 | ON                | 2/4 - 5.5 V |
 | OFF               | 2/4 - 3.6 V |
-
 
 ## Register Map
 
@@ -120,7 +114,6 @@ Full scale value of 111111b (63 decimal) indicates "out of range".
 
 The result of the energy calculation is stored in registers 0x05, 0x06 and 0x07.
 The value is just a pure number and has no physical meaning.
-
 
 ## Example Code
 
@@ -150,14 +143,11 @@ It uses the default AS3935 indoor configuration:
 | DISP_TRCO: |      0   |                                                 |
 | TUN_CAP:   |   0000   |                                                 |
 
-
-
 ### Libraries
 
 * [Arduino Wire](https://www.arduino.cc/en/Reference/Wire) - for AS3935 interface
 * [Arduino SPI](https://www.arduino.cc/en/Reference/SPI) - for controlling the display
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - display driver
-
 
 ## Construction and Testing
 
@@ -167,11 +157,9 @@ Wired up with an LCD shield and the AS3935 on a breadboard:
 
 ![AS3935_breadboard](./assets/AS3935_breadboard.jpg?raw=true)
 
-
 ![Breadboard](./assets/AS3935_bb.jpg?raw=true)
 
 ![Schematic](./assets/AS3935_schematic.jpg?raw=true)
-
 
 Serial debugging appears on the console:
 
@@ -181,7 +169,6 @@ Yes, it does get quite a bit hairy here, but I need to wait for another storm to
 and compare to the data available from Singapore's [Lightning Alert Information System](http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp).
 
 ![lightning-sg-2](./assets/lightning-sg-2.png?raw=true)
-
 
 ### Capturing a Storm
 
@@ -195,13 +182,12 @@ This is using the indoor mode and default tuning.
 
 ![2018-04-14_console](./assets/2018-04-14_console.png?raw=true)
 
-
 ## Credits and References
 
 * [LEAP#377 Nokia 5110 Shield](../Lcd5110/DIYShield)
 * [AS3935 Digital Sensor Breakout Board Module SPI I²C Interface Strikes Thunder Rainstorm Storm Distance Detection 2.4V to 5.5V](https://www.aliexpress.com/item/AS3935-Digital-Sensor-Breakout-Board-Module-SPI-I²C-Interface-Strikes-Thunder-Rainstorm-Storm-Distance-Detection-2/32841367748.html)
 * [AMS AS3935 Franklin Lightning Sensor](http://ams.com/eng/Products/Wireless-Connectivity/Wireless-Sensor-Connectivity/AS3935) - product page
-* [Arduino for Ham Radio](https://www.goodreads.com/book/show/23432504-arduino-for-ham-radio) - Chapter 23: Lightening Detector
+* [Arduino for Ham Radio](../../books/arduino-for-ham-radio/) - Chapter 23: Lightening Detector
 * [Arduino for Ham Radio](http://www.w5obm.us/arduino/) - project files
 * [Lightning Alert Information System](http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp) - Meteorological Service Singapore
 * [..as mentioned on my blog](https://blog.tardate.com/2018/04/leap379-as3935-lightning-sensor.html)

@@ -38,7 +38,9 @@ Note: the circuit as described does not follow
 
 ### Behaviour
 
-For plots of received light to triggering, see the [LDR Comparator project](https://leap.tardate.com/electronics101/ldr/comparator/). It is pretty much identical
+For plots of received light to triggering, see the
+[LDR Comparator project](../Comparator/).
+It is pretty much identical
 to this circuit except uses a single LDR only and monitors results with an Arduino.
 
 ### Construction
@@ -53,4 +55,4 @@ to this circuit except uses a single LDR only and monitors results with an Ardui
 
 * [LM324 datasheet](https://www.futurlec.com/Linear/LM324N.shtml) - Low Power Quad Op-Amp
 * [Properly terminating an unused op amp](http://www.electronicproducts.com/Analog_Mixed_Signal_ICs/Amplifiers/Properly_terminating_an_unused_op_amp.aspx)
-* A similar application of an OpAmp is in "Project 06 - Hi-Lo Trip Detector" from [Beginning Digital Electronics Through Projects](http://www.amazon.com/gp/product/0750672692/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672692&linkCode=as2&tag=itsaprli-20&linkId=S6GVIV6DHZABMHTA)
+* A similar application of an OpAmp is in "Project 06 - Hi-Lo Trip Detector" from [Beginning Digital Electronics Through Projects](../../../books/beginning-digital-electronics-through-projects/)

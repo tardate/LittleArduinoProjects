@@ -39,4 +39,4 @@ Running on a breadboard, I am getting a somewhat different result: 7.04 kHz at 6
 * [Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html)
 * [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm)
 * See also:
-    * [LEAP#588 74HC14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74hc14/schmittoscillator/)
+    * [LEAP#588 74HC14 Schmitt Oscillator](../../74HC14/SchmittOscillator/)

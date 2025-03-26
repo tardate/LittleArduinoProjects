@@ -26,7 +26,7 @@ Reporting on the digital pins relies on macros from Arduino core:
 * [digitalPinToInterrupt](https://github.com/arduino/ArduinoCore-avr/blob/3d09a51bd20f095e1354243e6d8addedfcb6001e/variants/standard/pins_arduino.h#L79)
 * [digitalPinHasPWM](https://github.com/arduino/ArduinoCore-avr/blob/3d09a51bd20f095e1354243e6d8addedfcb6001e/variants/standard/pins_arduino.h#L32)
 
-Since these are marcos based on the compiled source, they don't actually interogate the hardware - just report on the board
+Since these are marcos based on the compiled source, they don't actually interrogate the hardware - just report on the board
 selected at compile time.
 
 ### Analog Pins
@@ -36,7 +36,7 @@ Reporting on the analog pins relies on macros from Arduino core:
 * [`NUM_ANALOG_INPUTS`](https://github.com/arduino/ArduinoCore-avr/blob/3d09a51bd20f095e1354243e6d8addedfcb6001e/variants/standard/pins_arduino.h#L29)
 * [analogInputToDigitalPin](https://github.com/arduino/ArduinoCore-avr/blob/3d09a51bd20f095e1354243e6d8addedfcb6001e/variants/standard/pins_arduino.h#L30)
 
-Since these are marcos based on the compiled source, they don't actually interogate the hardware - just report on the board
+Since these are marcos based on the compiled source, they don't actually interrogate the hardware - just report on the board
 selected at compile time.
 
 ### Processor Details
@@ -45,9 +45,8 @@ Reporting on processor details relies on macros from Arduino core:
 
 * [clockCyclesPerMicrosecond](https://github.com/arduino/ArduinoCore-avr/blob/3d09a51bd20f095e1354243e6d8addedfcb6001e/cores/arduino/Arduino.h#L104) macro
 
-Since these are marcos based on the compiled source, they don't actually interogate the hardware - just report on the board
+Since these are marcos based on the compiled source, they don't actually interrogate the hardware - just report on the board
 selected at compile time.
-
 
 ### Memory Map
 
@@ -61,20 +60,18 @@ A good summary explanation is available at
 The forum post on [Map layout of RAM](http://forum.arduino.cc/index.php?topic=186630.0) has a good example of accessing memory region addresses.
 
 I first saw a trick for calculating free memory in 17.4. Storing and Retrieving Strings in Program Memory from the
-[Arduino Cookbook](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - it basically calculating the delta between the address of a new function-level variable and
+[Arduino Cookbook](../../books/arduino-cookbook/) - it basically calculating the delta between the address of a new function-level variable and
 first location not yet allocated.
-
 
 ### EEPROM
 
 The EEPROM address size is reported based on the
 [E2END](https://www.nongnu.org/avr-libc/user-manual/group__avr__io.html) macro.
 
-This is correct according to the board selection, hwoever it doesn't actually verify that is the actual EEPROM on the board.
+This is correct according to the board selection, however it doesn't actually verify that is the actual EEPROM on the board.
 
 There are techniques for probing EEPROM to verify the actual size (not implemented in this sketch).
 See for example [Re: Runtime determination of EEPROM size](http://forum.arduino.cc/index.php?topic=120346.msg905783#msg905783)
-
 
 ## Output Full Transcript
 
@@ -196,6 +193,6 @@ It verifies some of the basic memory details reported by the sketch, like `__bss
 
 ## Credits and References
 
-* Chapter 17. Advanced Coding and Memory Handling - [Arduino Cookbook](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU)
-* [A Tour of Arduino Internals](http://urbanhonking.com/ideasfordozens/2009/05/18/an_tour_of_the_arduino_interna/) - interesting blog post disecting how pin operations actually interact with the AVR microcontroller
+* Chapter 17. Advanced Coding and Memory Handling - [Arduino Cookbook](../../books/arduino-cookbook/)
+* [A Tour of Arduino Internals](http://urbanhonking.com/ideasfordozens/2009/05/18/an_tour_of_the_arduino_interna/) - interesting blog post dissecting how pin operations actually interact with the AVR microcontroller
 * [Atmega_Self_Read_Signature](https://github.com/nickgammon/arduino_sketches/tree/master/Atmega_Self_Read_Signature) - part of Nick Gammon's suite of interesting sketches

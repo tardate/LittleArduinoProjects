@@ -1,4 +1,4 @@
-# #382 CD4046/VCO
+# #382 CD4046 VCO
 
 Audio range voltage-controlled oscillator using the CD4046 PLL/VCO IC.
 
@@ -90,6 +90,5 @@ Measured maximum frequency:
 
 * [CD4046 Datasheet](https://www.futurlec.com/4000Series/CD4046.shtml)
 * CMOS Clock Circuits - Ray Marston. Radio-Electronics, November 1984.
-* [Practical Oscillator Handbook](https://www.goodreads.com/book/show/3365243-practical-oscillator-handbook) - includes a page on CD4046 VCO
-* [Practical Oscillator Circuits](https://www.goodreads.com/book/show/12491266-practical-oscillator-circuits) - apparently has good coverage of CD4046 VCO (I haven't read it)
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)
+* [Practical Oscillator Handbook](../../../books/practical-oscillator-handbook/) - includes a page on CD4046 VCO
+* [The Art of Electronics](../../../books/the-art-of-electronics/)

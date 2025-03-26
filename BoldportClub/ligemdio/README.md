@@ -4,7 +4,6 @@ An LED tester kit featuring a classic BJT constant current source. From The Bold
 
 ![Build](./assets/ligemdio_build.jpg?raw=true)
 
-
 ## Notes
 
 Another beautiful board from the Boldport Club.
@@ -80,7 +79,7 @@ Completed build, testing an SMD LED...
 
 ![ligemdio_testing_smd_led](./assets/ligemdio_testing_smd_led.jpg?raw=true)
 
-More testing. 999 to go ;-)
+More testing. 999 to go!
 
 ![999_to_go](./assets/999_to_go.jpg?raw=true)
 
@@ -92,5 +91,5 @@ More testing. 999 to go ;-)
 * [LIGEMDIO](https://github.com/boldport/ligemdio) - OSH files on GitHub
 * [LIGEMDIO](http://community.boldport.club/projects/p08-ligemdio/) - club community site, packed with resources for the project
 * [PN2222ATA datasheet](http://parts.io/detail/1027929/PN2222ATA)
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics)
+* [The Art of Electronics](../../books/the-art-of-electronics/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap263-boldport-ligemdio.html)

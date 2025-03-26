@@ -7,7 +7,7 @@ Here's a quick demo of the transmitter in action:
 [![clip](https://img.youtube.com/vi/X9KKxh5PliQ/0.jpg)](https://www.youtube.com/watch?v=X9KKxh5PliQ)
 
 FYI, I'm "broadcasting"
-[Go Marko Go by the Boban Marković Orkestar](http://www.amazon.com/gp/product/B008AZYPYY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008AZYPYY&linkCode=as2&tag=itsaprli-20&linkId=65VCNMDL6DCRUFVI).
+[Go Marko Go by the Boban Marković Orkestar](https://amzn.to/43lf2aZ).
 
 ## Notes
 
@@ -22,7 +22,7 @@ The circuit has two main stages:
 I've made two principal changes to the circuit presented by Afrotechmods:
 
 1. I'm using an LF347N op-amp. For some reason (dodgy parts?), I'm not able to drive the TL072 chips I have available at high enough frequency.
-See my [HighFrequencyOpAmpOscillators](../../../Electronics101/Oscillators/HighFrequencyOpAmpOscillators) project where I compare a few different op-amps and try to max out the oscillator with each. The LF347N does a grand job. In the demo, I'm tuned to around 1100kHz.
+See my [HighFrequencyOpAmpOscillators](../../../Electronics101/Oscillators/HighFrequencyOpAmpOscillators/) project where I compare a few different op-amps and try to max out the oscillator with each. The LF347N does a grand job. In the demo, I'm tuned to around 1100kHz.
 
 2. Following suggestions [on this EE.SE question](http://electronics.stackexchange.com/questions/74351/am-modulator-mixer-circuit),
 I've modified the mixer to tap the audio input via a n-channel JFET and us this signal to modulate the carrier in a non-inverting amplifier configuration.
@@ -58,6 +58,6 @@ Interesting.. play for another day!
 * [AM Modulator Mixer Circuit](http://electronics.stackexchange.com/questions/74351/am-modulator-mixer-circuit) - related question on EE.SE
 * [LF347N datasheet](https://www.futurlec.com/Linear/LF347N.shtml)
 * [J201 datasheet](https://www.futurlec.com/Transistors/J201.shtml)
-* [AMFMRadioKit](../../AMFMRadioKit) - the AM radio kit I used to test reception
+* [AMFMRadioKit](../../AMFMRadioKit/) - the AM radio kit I used to test reception
 * [Op Amp Applications Handbook](http://www.analog.com/library/analogDialogue/archives/39-05/op_amp_applications_handbook.html) - Elsevier/Analog Devices
-* [Go Marko Go by the Boban Marković Orkestar](http://www.amazon.com/gp/product/B008AZYPYY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008AZYPYY&linkCode=as2&tag=itsaprli-20&linkId=65VCNMDL6DCRUFVI)
+* [Go Marko Go by the Boban Marković Orkestar](https://amzn.to/43lf2aZ)

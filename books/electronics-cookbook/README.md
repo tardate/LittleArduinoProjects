@@ -220,6 +220,7 @@ See also:
 * 15.0. Introduction
 * 15.1. Protecting ICs from Electrical Noise
 * 15.2. Know Your Logic Families
+    * see [LEAP#580 Digital Logic Families](../../notebook/logic_families/)
 * 15.3. Control More Outputs Than You Have GPIO Pins
 * 15.4. Build a Digital Toggle Switch
 * 15.5. Reduce a Signal’s Frequency

@@ -27,8 +27,7 @@ so they will toggle as the pulse goes high and low respectively.
 
 ![The Schematic](./assets/Monostable122_schematic.jpg?raw=true)
 
-
 ## Credits and References
 
 * [74LS122 Datasheet](https://www.futurlec.com/74LS/74LS122.shtml)
-* A similar circuit can be found in "Project 18 - 74LS122 Monostable" from [Beginning Digital Electronics Through Projects](http://www.amazon.com/gp/product/0750672692/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0750672692&linkCode=as2&tag=itsaprli-20&linkId=S6GVIV6DHZABMHTA)
+* A similar circuit can be found in "Project 18 - 74LS122 Monostable" from [Beginning Digital Electronics Through Projects](../../books/beginning-digital-electronics-through-projects/)

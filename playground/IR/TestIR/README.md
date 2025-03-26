@@ -2,11 +2,13 @@
 
 Tests raw IR reception.
 
+![The Build](./assets/TestIR_build.jpg?raw=true)
+
 ## Notes
 
 An exploration of IR Sensor reception based on the [adafruit sample code available here](https://learn.adafruit.com/ir-sensor/using-an-ir-sensor).
 
-I've cleaned up the code a bit and modified it to optionally pump data out for plotting with [LEAP#090 PlotNValues (a simple Processing sketch)](https://leap.tardate.com/playground/plotnvalues/). This provides a simple graphical illustration of the PWM characteristics of IR protocols.
+I've cleaned up the code a bit and modified it to optionally pump data out for plotting with [LEAP#090 PlotNValues (a simple Processing sketch)](../../PlotNValues/). This provides a simple graphical illustration of the PWM characteristics of IR protocols.
 
 Here's a sample trace of the "0" key being pressed on a common MP3 player remote control:
 
@@ -16,7 +18,7 @@ And another showing an LG remote control "power on/off" key press:
 
 ![processing trace](./assets/LG_key_power.png?raw=true)
 
-This all got me reading [IR Remote Control Theory](http://www.sbprojects.com/knowledge/ir/index.php) to better understand operation and protocols.
+This all got me reading IR Remote Control Theory to better understand operation and protocols.
 Next step is to start decoding the signals, however for that I might avoid re-inventing the wheel and instead try the [IRremote library](https://github.com/shirriff/Arduino-IRremote).
 
 ### Construction
@@ -29,7 +31,9 @@ Next step is to start decoding the signals, however for that I might avoid re-in
 
 ## Credits and References
 
-* [IR Remote Control Theory](http://www.sbprojects.com/knowledge/ir/index.php) - the best reference I've found so far for IR theory and also protocol details.
+* IR Remote Control Theory - the best reference I've found so far for IR theory and also protocol details.
+    * originally <http://www.sbprojects.com/knowledge/ir/index.php>
+    * now offline, but available at [archive.org](https://web.archive.org/web/20170821162518/http://sbprojects.com/knowledge/ir/index.php)
 * [Using an IR Sensor](https://learn.adafruit.com/ir-sensor/using-an-ir-sensor) - a good IR tutorial that this project is based upon
 * [TSOP1838 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/26604/VISHAY/TSOP1838.html) - one of many similar IR sensors
 * [Port Registers](http://www.arduino.cc/en/Reference/PortManipulation) - explains Arduino raw port methods

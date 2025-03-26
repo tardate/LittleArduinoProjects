@@ -1,4 +1,4 @@
-# #327 Mixers/RFDiodeRing
+# #327 RF Diode Ring Mixer
 
 A diode ring double-balanced frequency mixer.
 
@@ -7,9 +7,9 @@ A diode ring double-balanced frequency mixer.
 ## Notes
 
 My build here is inspired by another great tutorial from w2aew -
-[#167: How a Diode Ring Mixer works | Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8).
+[#167: How a Diode Ring Mixer works - Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8).
 
-Section 5.2 of [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design)
+Section 5.2 of [Experimental Methods in RF Design](../../../books/experimental-methods-in-rf-design/)
 includes a complete evolution of the diode ring mixer and a very clear explanation of how it works.
 
 See [LEAP#326](../) for my notes on mixer theory and types.
@@ -36,7 +36,6 @@ This works pretty well, alough my signals are quite noisy.
 
 ![scope_test_1_fft](./assets/scope_test_1_fft.gif?raw=true)
 
-
 ### Test 2: 5MHz LO + 10MHz RF
 
 With the LO as an even factor of the RF signal, I'm seeing what I'd expect here: very strong sum and difference signals and no other products
@@ -45,7 +44,6 @@ With the LO as an even factor of the RF signal, I'm seeing what I'd expect here:
 
 ![scope_test_2_fft](./assets/scope_test_2_fft.gif?raw=true)
 
-
 ### Test 2: 18MHz LO + 2MHz RF
 
 With the LO and RF frequencies separated significantly, sum and difference are strong over other products.
@@ -53,7 +51,6 @@ With the LO and RF frequencies separated significantly, sum and difference are s
 ![scope_test_3_td](./assets/scope_test_3_td.gif?raw=true)
 
 ![scope_test_3_fft](./assets/scope_test_3_fft.gif?raw=true)
-
 
 ## Construction
 
@@ -73,8 +70,8 @@ For the transformers, I'm using 68-26 iron ferrite toroids with 30AWG solid wire
 ## Credits and References
 
 * [LEAP#326 Mixers](../) - my notes on mixer theory and types
-* [Experimental Methods in RF Design](https://www.goodreads.com/book/show/2386153.Experimental_Methods_in_RF_Design) - chapter 5.2
-* [#167: How a Diode Ring Mixer works | Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8) - w2aew
+* [Experimental Methods in RF Design](../../../books/experimental-methods-in-rf-design/) - chapter 5.2
+* [#167: How a Diode Ring Mixer works - Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8) - w2aew
 * [#166: How to wind a trifilar toroid transformer for a diode ring mixer](https://www.youtube.com/watch?v=a8ViWS61hsU) - w2aew
 * [1N5711 datasheet](https://www.futurlec.com/Diodes/1N5711.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/07/leap327-diode-ring-mixer.html)

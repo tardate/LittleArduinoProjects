@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-24T13:39:00Z</updated>
+  <updated>2025-03-26T13:13:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -256,6 +256,16 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/books/power-switching-converters/</id>
+    <link href="https://leap.tardate.com/books/power-switching-converters/"/>
+    <g:image_link>https://leap.tardate.com/books/power-switching-converters/assets/power-switching-converters_build.jpg</g:image_link>
+    <updated>2025-03-26T13:13:00Z</updated>
+    <title>#727 Power-Switching Converters</title>
+    <summary>Book notes: Power-Switching Converters, by Simon S. Ang, Alejandro Oliva. First published April 10, 1995.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: Power-Switching Converters, by Simon S. Ang, Alejandro Oliva. First published April 10, 1995.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/power-switching-converters/assets/power-switching-converters_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/pushpulloutputdriver/</id>
@@ -4737,7 +4747,7 @@
     <link href="https://leap.tardate.com/electronics101/mixers/rfdiodering/"/>
     <g:image_link>https://leap.tardate.com/electronics101/mixers/rfdiodering/assets/rfdiodering_build.jpg</g:image_link>
     <updated>2018-07-08T04:38:55Z</updated>
-    <title>#327 Mixers/RFDiodeRing</title>
+    <title>#327 RF Diode Ring Mixer</title>
     <summary>a diode ring double-balanced frequency mixer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a diode ring double-balanced frequency mixer&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/mixers/rfdiodering/assets/rfdiodering_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
@@ -4759,7 +4769,7 @@
     <link href="https://leap.tardate.com/boldportclub/spoolt/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/spoolt/assets/spoolt_build.jpg</g:image_link>
     <updated>2017-07-23T06:38:43Z</updated>
-    <title>#325 BoldportClub/spoolt</title>
+    <title>#325 BoldportClub spoolt</title>
     <summary>pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/spoolt/assets/spoolt_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
@@ -5185,7 +5195,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/assets/basicinvertingbuckboostavrcontrol_build.jpg</g:image_link>
     <updated>2017-05-06T10:05:14Z</updated>
-    <title>#288 Basic Inverting Buck-Boost AVR-control</title>
+    <title>#288 Basic AVR-controlled Inverting Buck-boost</title>
     <summary>build and test an inverting buck-boost converter controlled by an ATtiny85</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test an inverting buck-boost converter controlled by an ATtiny85&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/assets/basicinvertingbuckboostavrcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -7899,8 +7909,8 @@
     <g:image_link>https://leap.tardate.com/playground/stereolighttrigger/assets/stereolighttrigger_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
     <title>#048 StereoLightTrigger</title>
-    <summary>demo an interrupt-driven method for responding to LDR light threshold triggers</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demo an interrupt-driven method for responding to LDR light threshold triggers&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/stereolighttrigger/assets/stereolighttrigger_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>A dual input low-light trigger: demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A dual input low-light trigger: demonstrates an interrupt-driven method for an Arduino to respond to LDR light threshold triggers.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/stereolighttrigger/assets/stereolighttrigger_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="Arduino"/>
   </entry>

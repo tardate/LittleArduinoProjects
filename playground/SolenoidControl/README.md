@@ -45,7 +45,7 @@ A 1N4001 diode provide flyback protection.
 
 ## Credits and References
 
-* [8.6. Controlling Solenoids and Relays](http://www.amazon.com/gp/product/1449313876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449313876&linkCode=as2&tag=itsaprli-20&linkId=5F6YF3D5RCEZYXUU) - from the Arduino Cookbook
+* 8.6. Controlling Solenoids and Relays - from the [Arduino Cookbook](../../books/arduino-cookbook/)
 * [Mini push-pull solenoids on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
 * [S9013 datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [1N4001-1N4007 datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)

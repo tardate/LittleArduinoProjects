@@ -24,17 +24,17 @@ The [starter training](./assets/makeit-digital-cutting-laser-crafting-starter-se
 
 * using [TinkerCAD](https://www.tinkercad.com/) to make a 3D model
 * export to SVG
-* use [Inkscape](https://inkscape.org/) as our laser Gcode generating tool, but can also be used to edit objects.
+* use [Inkscape](https://inkscape.org/) as the laser G-code generating tool, but can also be used to edit objects.
     * import SVG file
     * adjust stroke width to 1px
-    * add text to the object (this will be treated as an engaving)
+    * add text to the object (this will be treated as an engraving)
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code) for engraving
     * use the "305 Engineering > Raster 2 Laser GCode generator" extension
     * resolution: at least 10px/mm
     * engraving speed: 4000
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code) for cutting:
     * with object selected, choose "Object to Path"
-    * use the "Generate Laser Gcode > J Tech PhotonicsLaser Tool.."  extension
+    * use the "Generate Laser G-code > J Tech PhotonicsLaser Tool.."  extension
 * save the engraving and cutting codes to an SD card
 
 Operating the Cutter:
@@ -51,17 +51,28 @@ Operating the Cutter:
     * Set "Speed mul." to 130%
     * load the cutting file and execute
 
-GCode files can be previewed/validated with <https://ncviewer.com/>.
+G-code files can be previewed/validated with <https://ncviewer.com/>.
 
-### My Sample PRoject
+### My Sample Project
 
-The starter course has everyone design and cut a simple nametag.
+The starter course has everyone design and cut a simple name tag.
 My project sources:
 
 * [keychain-initial.svg](./assets/keychain-initial.svg) - export from TinkerCAD
 * [keychain-final.svg](./assets/keychain-final.svg) - inkscape project
 * Engraving code: [E_pg_kc_0001_BWfix_128_gcode.txt](./assets/E_pg_kc_0001_BWfix_128_gcode.txt)
 * Cutting code: [C_pg_kc_0001](./assets/C_pg_kc_0001)
+
+### Laser Cutting Design Sources
+
+* <https://www.ponoko.com/free-laser-cutting-files-templates>
+* <https://designbundles.net/free-design-resources/free-laser-cutting-files>
+* <https://www.creativefabrica.com/subscriptions/graphics/laser-cut-files/>
+* <https://www.designfind.com/>
+* <https://www.vecteezy.com/>
+* <https://crafthousesvg.com/>
+* <https://www.printablecuttablecreatables.com/>
+* <https://makerflocrafts.com/blogs/craft-library/free-laser-engraving-cutting-files> - listing
 
 ## Credits and References
 

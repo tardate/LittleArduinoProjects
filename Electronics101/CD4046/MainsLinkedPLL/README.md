@@ -155,7 +155,7 @@ A very clean 50 Hz square wave output
 * [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
 * [4N35 datasheet](https://www.futurlec.com/LED/4N35.shtml)
 * [The Phase-Locked Loop](https://mysite.du.edu/~etuttle/electron/elect12.htm)
-* [The Art of Electronics](https://www.goodreads.com/book/show/569775.The_Art_of_Electronics) - 9.27 PHASE-LOCKED LOOPS, 2nd Edition p641
+* [The Art of Electronics](../../../books/the-art-of-electronics/) - 9.27 PHASE-LOCKED LOOPS, 2nd Edition p641
 * [CMOS Phase-Locked-Loop Applications](http://www.ti.com/lit/an/scha003b/scha003b.pdf) - TI Application Report
 * [CD4046B Phase-Locked Loop](http://www.ti.com/lit/an/scha002a/scha002a.pdf) - TI Application Report
 * [74HC4046 PHASE-LOCKED-LOOP WITH VCO](https://www.electronics-tutorials.com/devices/74hc4046.htm)

@@ -45,10 +45,10 @@ The [starter training](./assets/makeit-3d-printing-starter-session-2024-09-01.pd
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code)
 * use an SD card to load and print the g-code on the printer
 
-The starter course has everyone design and print a simple nametag
-(the tag I made: [nametag-wcl.stl](./assets/nametag-wcl.stl)).
+The starter course has everyone design and print a simple name tag
+(the tag I made: [name-tag-wcl.stl](./assets/name-tag-wcl.stl)).
 
-![nametag-wcl](./assets/nametag-wcl.jpg)
+![name-tag-wcl](./assets/name-tag-wcl.jpg)
 
 ### 3D Model Sources
 

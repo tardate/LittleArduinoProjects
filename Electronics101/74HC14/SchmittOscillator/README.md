@@ -18,7 +18,7 @@ Key Specifications:
 
 ### Test Circuit: The Schmitt Oscillator
 
-> Note: For comparison, I've covered the same circuit with 74LS family chips in [LEAP#582 74LS14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74ls14/schmittoscillator/)
+> Note: For comparison, I've covered the same circuit with 74LS family chips in [LEAP#582 74LS14 Schmitt Oscillator](../../74LS14/SchmittOscillator/)
 
 An inverter Schmitt oscillator circuit is a simple and widely used configuration for generating square wave signals, typically built using a Schmitt-trigger inverter (like the 74LS14) along with a resistor and capacitor. The circuit works by exploiting the hysteresis property of the Schmitt-trigger, which causes the inverter to switch states at different voltage thresholds. The capacitor charges and discharges through the resistor, creating a time delay that determines the oscillation frequency. When the capacitor voltage reaches the upper threshold, the inverter switches to a low output, causing the capacitor to discharge; when it falls to the lower threshold, the inverter switches back to a high output, repeating the cycle. This results in a continuous square wave output whose frequency is determined by the RC time constant (`f = 1 / (1.2 * R * C)`). The circuit is valued for its simplicity, reliability, and ability to produce stable oscillations, making it useful in applications like clock generation, tone generation, and timing circuits.
 
@@ -84,5 +84,5 @@ Getting distorted at 1kΩ and C=1nF:
 * [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm)
 * [Schmitt Trigger Oscillator](https://electronics-course.com/schmitt-trigger-oscillator)
 * See also:
-    * [LEAP#022 Square Wave - Schmitt Oscillator](https://leap.tardate.com/electronics101/oscillators/schmittoscillator/)
-    * [LEAP#582 74LS14 Schmitt Oscillator](https://leap.tardate.com/electronics101/74ls14/schmittoscillator/)
+    * [LEAP#022 Square Wave - Schmitt Oscillator](../../Oscillators/SchmittOscillator/)
+    * [LEAP#582 74LS14 Schmitt Oscillator](../../74LS14/SchmittOscillator/)

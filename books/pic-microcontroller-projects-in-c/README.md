@@ -6,6 +6,8 @@ Book notes: PIC Microcontroller Projects in C: Basic to Advanced, by Dogan Ibrah
 
 ## Notes
 
+I started working with this book, but found some of the code examples to be demonstrating incorrect techniques.
+
 See also:
 
 * [amazon](https://amzn.to/3Fnkv7l)

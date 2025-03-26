@@ -7,8 +7,8 @@ Getting started with the ESP32: connecting and programming from MacOSX with the 
 ## Notes
 
 I've had an ESP32-WROOM-32 kicking around for a while.
-Reading a copy of [The Complete ESP32 Projects Guide](https://www.goodreads.com/book/show/47562312-the-complete-esp32-projects-guide) by Dogan Ibrahim,
-and its given me the motivation to finally fire it up!
+Reading a copy of [The Complete ESP32 Projects Guide](../../books/the-complete-esp32-projects-guide/) by Dogan Ibrahim,
+and it has given me the motivation to finally fire it up!
 
 The Espressif documentation is now quite impressive (a far cry from early ESP8266 days).
 The
@@ -36,7 +36,7 @@ Power Supply Options:
 * 5V / GND header pins
 * 3V3 / GND header pins
 
-Only one of the power options should be usde at a time.
+Only one of the power options should be used at a time.
 
 Pinout guide from lastminuteengineers:
 
@@ -198,7 +198,7 @@ fit on a standard breadboard (only one side of the board will have space to conn
 * [ESP32-DevKitC V4 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/hw-reference/get-started-devkitc.html)
 * [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/) - espressif docs
 * [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-* [The Complete ESP32 Projects Guide](https://www.goodreads.com/book/show/47562312-the-complete-esp32-projects-guide) by Dogan Ibrahim
+* [The Complete ESP32 Projects Guide](../../books/the-complete-esp32-projects-guide/) by Dogan Ibrahim
 * [Insight Into ESP32 Features & Using It With Arduino IDE](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/) - excellent resource by lastminuteengineers
 * [Arduino core for the ESP32](https://github.com/espressif/arduino-esp32) - GitHub
 * [Getting started with ESP32 and the Arduino IDE](https://www.elektormagazine.com/magazine/elektor-201707/40510) - elektormagazine

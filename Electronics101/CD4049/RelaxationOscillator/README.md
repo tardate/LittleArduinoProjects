@@ -42,4 +42,4 @@ The scope trace shows CH1 connected to OUT.
 * [Inverter-based RC oscillator and its waveform](https://www.researchgate.net/figure/nverter-based-RC-oscillator-and-its-waveform_fig1_337297970)
 * [Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html)
 * See also:
-    * [LEAP#590 74HC04 Relaxation Oscillator](https://leap.tardate.com/electronics101/74hc04/relaxationoscillator/)
+    * [LEAP#590 74HC04 Relaxation Oscillator](../../74HC04/RelaxationOscillator/)

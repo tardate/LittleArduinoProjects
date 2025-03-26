@@ -148,7 +148,7 @@ Two to eight input logic gates:
 
 ## Credits and References
 
-* [Electronics cookbook by Simon Monk](https://www.goodreads.com/book/show/30796739-electronics-cookbook)
+* [Electronics cookbook by Simon Monk](../../books/electronics-cookbook/)
 * [Logic family](https://en.wikipedia.org/wiki/Logic_family) - wikipedia
 * [Digital Electronics - Families](https://www.tutorialspoint.com/digital-electronics/digital-electronics-families.htm)
 * [An Overview of Digital Logic Families](https://www.youtube.com/watch?v=TICSYYKFhys) - youtube

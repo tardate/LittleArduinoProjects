@@ -138,7 +138,7 @@ It seems "headless apps" would be much better suited to the old B+ now, and Desk
 ## 3D Printed Case
 
 I'm thinking of printing a case. Found a couple of options..
-see [LEAP#764 Raspberry Pi B+ Case](https://leap.tardate.com//raspberrypi/bpluscase/) for more.
+see [LEAP#764 Raspberry Pi B+ Case](../BPlusCase/) for more.
 
 ## Credits and References
 

@@ -18,7 +18,7 @@ It was invented by [Edwin Armstrong](https://en.wikipedia.org/wiki/Edwin_Howard_
 
 One of the disadvantages of a regen is its propensity to radiate RF back out the antenna especially when the regen is close to oscillation.
 I learned on [Soldersmoke 164](http://soldersmoke.blogspot.sg/2014/08/soldersmoke-podcast-164-ancient-tribal.html)
-that this was a particular risk for spies in WWII, as explained in the book [Spycatcher](https://www.goodreads.com/book/show/971569.Spycatcher).
+that this was a particular risk for spies in WWII, as explained in the book [Spycatcher](https://amzn.to/4292G3D).
 
 In this circuit, the regen control comprises Q1 and it's biasing components.
 
