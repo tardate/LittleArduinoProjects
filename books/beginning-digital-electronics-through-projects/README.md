@@ -15,8 +15,8 @@ Digital electronics is a little more abstract than analog electronics, and tryin
 
 ## Projects
 
-| Chapter                                                       | LEAP? |
-|---------------------------------------------------------------|-------|
+| Chapter                                                       | Project Link |
+|---------------------------------------------------------------|--------------|
 | Project 01 - LM 555 Demo Oscillator                           | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
 | Project 02 - LF TTL Pulse Generator                           | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
 | Project 03 - High-Low State Display                           |       |
@@ -44,7 +44,7 @@ Digital electronics is a little more abstract than analog electronics, and tryin
 | Project 25 - Passive Five-Step Voltage Indicator              |       |
 | Project 26 - Active Five-Step Voltage Indicator               |       |
 | Project 27 - RF Oscillator Stable 6.2V Supply                 |       |
-| Project 28 - Stable 5V Source                                 |  [LEAP#027 LM7805 Regulator](../../Electronics101/Power/LinearRegulators/LM7805/) |
+| Project 28 - Stable 5V Source                                 | [LEAP#027 LM7805 Regulator](../../Electronics101/Power/LinearRegulators/LM7805/) |
 | Project 29 - Battery or Power Supply                          |       |
 | Project 30 - Diode Bridge Circuit Protector                   |       |
 | Project 31 - Regulator Protector                              |       |

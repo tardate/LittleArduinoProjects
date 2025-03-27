@@ -199,6 +199,14 @@
             "LED"
         ]
     },
+    "/playground/switchinputs/": {
+        "id": 728,
+        "title": "Switch Inputs",
+        "summary": "Reviewing the main methods for reading switch inputs with an Arduino.",
+        "tags": [
+            "Arduino"
+        ]
+    },
     "/books/power-switching-converters/": {
         "id": 727,
         "title": "Power-Switching Converters",
@@ -2669,7 +2677,7 @@
     },
     "/playground/precisiontimer/": {
         "id": 457,
-        "title": "PrecisionTimer",
+        "title": "Precision Timer",
         "summary": "comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip",
         "tags": [
             "Arduino"
@@ -5393,7 +5401,7 @@
     },
     "/playground/rgbledmodule/": {
         "id": 169,
-        "title": "RGBLedModule",
+        "title": "RGB LED Module",
         "summary": "demo an RGB LED module",
         "tags": [
             "LED",

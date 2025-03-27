@@ -1,0 +1,9 @@
+{
+    "id": "#728",
+    "name": "Switch Inputs",
+    "description": "Reviewing the main methods for reading switch inputs with an Arduino.",
+    "categories": "Arduino",
+    "relative_path": "playground/SwitchInputs",
+    "updated_at": "2025-03-28T06:26:00Z",
+    "created_at": "2025-03-28T06:26:00Z"
+}

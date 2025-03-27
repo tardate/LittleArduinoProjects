@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-26T13:13:00Z</updated>
+  <updated>2025-03-28T06:26:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -256,6 +256,16 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/playground/switchinputs/</id>
+    <link href="https://leap.tardate.com/playground/switchinputs/"/>
+    <g:image_link>https://leap.tardate.com/playground/switchinputs/assets/switchinputs_build.jpg</g:image_link>
+    <updated>2025-03-28T06:26:00Z</updated>
+    <title>#728 Switch Inputs</title>
+    <summary>Reviewing the main methods for reading switch inputs with an Arduino.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Reviewing the main methods for reading switch inputs with an Arduino.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/switchinputs/assets/switchinputs_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/power-switching-converters/</id>
@@ -3272,7 +3282,7 @@
     <link href="https://leap.tardate.com/playground/precisiontimer/"/>
     <g:image_link>https://leap.tardate.com/playground/precisiontimer/assets/precisiontimer_build.jpg</g:image_link>
     <updated>2015-03-03T16:00:36Z</updated>
-    <title>#457 PrecisionTimer</title>
+    <title>#457 Precision Timer</title>
     <summary>comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;comparing the precision and constraints of various methods for timing an operation with an Atmega328, with some discussion of the timer/counter features of the chip&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/precisiontimer/assets/precisiontimer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
@@ -6572,7 +6582,7 @@
     <link href="https://leap.tardate.com/playground/rgbledmodule/"/>
     <g:image_link>https://leap.tardate.com/playground/rgbledmodule/assets/rgbledmodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#169 RGBLedModule</title>
+    <title>#169 RGB LED Module</title>
     <summary>demo an RGB LED module</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demo an RGB LED module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/rgbledmodule/assets/rgbledmodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
