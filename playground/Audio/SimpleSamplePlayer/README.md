@@ -28,17 +28,16 @@ plays 8-bit PCM audio on pin 11 using pulse-width modulation (PWM).
 It uses two timers (Timer 1, 2) to modulate a 62.5kHz carrier with the 8-bit
 sound information (which adjusting pulse-width).
 
-Because the library uses the two timers, these canot also be used for other purposes at the same time. Specifically:
+Because the library uses the two timers, these cannot also be used for other purposes at the same time. Specifically:
 
 * prohibits PWM for Arduino pins 9 and 10 (Timer 1)
 * prohibits PWM for Arduino pins 3 and 11 (Timer 2)
-
 
 ### Encoding Sound Samples
 
 I used a simple ruby program -
 [sample_encoder.rb](./encoder/sample_encoder.rb) -
-to generate the C header file with the necessary meomry definition.
+to generate the C header file with the necessary memory definition.
 
 It can read WAV files in various format and output the necessary 8-bit samples.
 It uses the [wavefile](http://wavefilegem.com/) ruby gem to interpret the WAV file format.
@@ -46,23 +45,22 @@ It uses the [wavefile](http://wavefilegem.com/) ruby gem to interpret the WAV fi
 At the moment, it cannot re-sample the source WAV file - so it must be an 8kHz file to avoid pitch-shift.
 
 I grabbed a few sample files and used [audacity](https://www.audacityteam.org/)
-to re-sample the source at 8kHz and sneure the clips were under the ~4sec
+to re-sample the source at 8kHz and ensure the clips were under the ~4sec
 limit that can fit into available flash memory.
 
 Setting up to run the encoder. A Gemfile is provided, so bundler can install the necessary pre-requisites:
 
-    $ cd encoder
-    $ bundle install
+    cd encoder
+    bundle install
 
 To run the encoder, simply invoke with a WAV file parameter. The resulting header file
 will be sent to standard out, which can be piped to a header file for compilation like this:
 
-    $ ./sample_encoder.rb ../sounds/phone.wav > ../sample_phone.h
+    ./sample_encoder.rb ../sounds/phone.wav > ../sample_phone.h
 
 The sample to be programmed is selected by ensuring the correct include
 definition is included in the
 [SimpleSamplePlayer.ino](./SimpleSamplePlayer.ino) script.
-
 
 There are many other ways of preparing the audio sample - see the original
 [post](http://highlowtech.org/?p=1963)
@@ -94,7 +92,7 @@ One just needs to include the corresponding header file in the main script.
 
 ## Credits and References
 
-* [Simple Arduino audio samples](http://highlowtech.org/?p=1963) - blog post introducing the idea I usde for this project
+* [Simple Arduino audio samples](http://highlowtech.org/?p=1963) - blog post introducing the idea I used for this project
 * [PCM](https://github.com/damellis/PCM) Arduino library by damellis
 * [audacity](https://www.audacityteam.org/)
 * [wavefile](http://wavefilegem.com/) -  ruby gem

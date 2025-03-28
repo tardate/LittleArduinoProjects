@@ -1,6 +1,6 @@
 {
     "id": "#169",
-    "name": "RGBLedModule",
+    "name": "RGB LED Module",
     "description": "demo an RGB LED module",
     "categories": "LED, Arduino",
     "relative_path": "playground/RGBLedModule",

@@ -21,8 +21,8 @@ Features twelve easy and useful projects designed to familiarize beginners and h
 
 ## Projects
 
-| Chapter                                                       | LEAP? |
-|---------------------------------------------------------------|-------|
+| Chapter                                                       | Project Link |
+|---------------------------------------------------------------|--------------|
 | Project 01 - Fixed Low-Frequency LED Flasher                  | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
 | Project 02 - Variable Low-Frequency LED Flasher               | [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/) |
 | Project 03 - Fixed Low-Gain Audio Power Amplifier             | [LEAP#096 Smokey](../../Audio/AudioAmps/Smokey/) |

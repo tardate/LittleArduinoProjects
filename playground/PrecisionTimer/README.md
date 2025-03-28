@@ -1,4 +1,4 @@
-# #457 PrecisionTimer
+# #457 Precision Timer
 
 Comparing the precision and constraints of various methods for timing an operation with an Atmega328,
 with some discussion of the timer/counter features of the chip.
