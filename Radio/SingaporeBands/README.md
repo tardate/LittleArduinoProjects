@@ -279,11 +279,11 @@ The following is a personal log of shortwave broadcast services I have been able
 * [Singapore Amateur Radio Transmitting Society (SARTS)](https://www.sarts.org.sg/)
     * [9V Band Plan](https://www.sarts.org.sg/bands.html)
 * [IMDA Frequency Allocation & Assignment](https://www.imda.gov.sg/regulations-and-licensing-listing/spectrum-management)
-* [Info-communications Media Development Authority (IMDA)](http://www.imda.gov.sg/).
+* [Info-communications Media Development Authority (IMDA)](https://www.imda.gov.sg/).
 * [List of radio stations in Singapore](https://en.wikipedia.org/wiki/List_of_radio_stations_in_Singapore) - wikipedia
 * [Broadcasting in Singapore](https://en.wikipedia.org/wiki/Broadcasting_in_Singapore)
 * [Broadcast Radio in Singapore](https://www.radio-singapore.com/) - listen live
-* [Radio Stations in Singapore](http://www.asiawaves.net/singapore-radio.htm)
-* [BBC World Service Global Short Wave Frequencies](http://www.bbc.co.uk/programmes/articles/2x9tqt6mc05vB2S37j8MWMJ/global-short-wave-frequencies)
-* [Shortwave Schedules around the world](http://shortwaveschedule.com/) - very reliable reference for scheduled shortwave broadcasts
-* [hfradio shortwave](http://hfradio.org/swbc/) - another resource for scheduled services; not particularly reliable it seems
+* [Radio Stations in Singapore](https://www.asiawaves.net/singapore-radio.htm)
+* [BBC World Service Global Short Wave Frequencies](https://www.bbc.co.uk/programmes/articles/2x9tqt6mc05vB2S37j8MWMJ/global-short-wave-frequencies)
+* [Shortwave Schedules around the world](https://shortwaveschedule.com/) - very reliable reference for scheduled shortwave broadcasts
+* [hfradio shortwave](https://hfradio.org/swbc/) - another resource for scheduled services; not particularly reliable it seems
