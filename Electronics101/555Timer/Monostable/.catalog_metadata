@@ -1,6 +1,6 @@
 {
     "id": "#017",
-    "name": "Monostable",
+    "name": "555 Timer Monostable Demo",
     "description": "basic monostable mode using an Arduino and processing to plot the output",
     "categories": "555 Timer",
     "relative_path": "Electronics101/555Timer/Monostable",

@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-03-28T06:26:00Z</updated>
+  <updated>2025-04-02T07:40:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -256,6 +256,17 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/missingpulsedetector/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/missingpulsedetector/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/missingpulsedetector/assets/missingpulsedetector_build.jpg</g:image_link>
+    <updated>2025-04-02T07:40:00Z</updated>
+    <title>#729 Missing Pulse Detector</title>
+    <summary>Presenting a missing pulse detector circuit based on a 555 timer monostable, and tested using a 555/4011 interruptible pulse generator.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Presenting a missing pulse detector circuit based on a 555 timer monostable, and tested using a 555/4011 interruptible pulse generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/missingpulsedetector/assets/missingpulsedetector_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+    <category term="CD4011"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/switchinputs/</id>
@@ -2059,8 +2070,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/breadboardbling/singleshottrigger/assets/singleshottrigger_build.jpg</g:image_link>
     <updated>2020-09-20T15:35:54Z</updated>
     <title>#565 Single-Shot Trigger</title>
-    <summary>A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/breadboardbling/singleshottrigger/assets/singleshottrigger_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>A debounced single-shot pulse generator with inverted and non-inverted output designed for use on a breadboard</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A debounced single-shot pulse generator with inverted and non-inverted output designed for use on a breadboard&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/breadboardbling/singleshottrigger/assets/singleshottrigger_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Breadboard Bling"/>
     <category term="555 Timer"/>
     <category term="CD4049"/>
@@ -5637,7 +5648,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/messagewaiting/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/messagewaiting/assets/messagewaiting_build.jpg</g:image_link>
     <updated>2016-10-05T15:38:59Z</updated>
-    <title>#252 MessageWaiting</title>
+    <title>#252 Message Waiting</title>
     <summary>two-LED flasher with a 555 and minimal components - turned into a &quot;message waiting&quot; indicator with some free-wired SMD construction</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;two-LED flasher with a 555 and minimal components - turned into a &quot;message waiting&quot; indicator with some free-wired SMD construction&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/messagewaiting/assets/messagewaiting_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -8255,7 +8266,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/monostable/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/monostable/assets/monostable_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#017 Monostable</title>
+    <title>#017 555 Timer Monostable Demo</title>
     <summary>basic monostable mode using an Arduino and processing to plot the output</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;basic monostable mode using an Arduino and processing to plot the output&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/monostable/assets/monostable_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>

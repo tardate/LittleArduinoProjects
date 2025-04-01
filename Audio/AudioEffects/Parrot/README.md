@@ -19,7 +19,6 @@ that [Kelly Heaton had been experimenting with](https://hackaday.io/project/1614
 Kelly Heaton was one of the winners of the Hackaday Circuit Sculpture contest with a wonderful [bird sculture](https://hackaday.io/project/163201-electronic-sculpture)
 (that's how I found her work).
 
-
 ## The Basic Circuit
 
 I redrew the basic schematic [here in EasyEDA](https://easyeda.com/tardate/parrot).
@@ -45,7 +44,6 @@ NB: the components marked with a (*) are the ones most useful to change in order
 
 ![Parrot_bb_build](./assets/Parrot_bb_build.jpg?raw=true)
 
-
 ## How it Works
 
 My brief take..
@@ -63,7 +61,6 @@ The effect of these components on the sound can be summarised in general terms:
 
 Also, the circuit is voltage dependant, so adjusting the supply voltage will affect the sounds produced.
 
-
 The result is a series of "chirps"..
 
 ![scope_series](./assets/scope_series.gif?raw=true)
@@ -71,7 +68,6 @@ The result is a series of "chirps"..
 With each chirp comprising an oscillation that sweeps a range of frequencies
 
 ![scope_detail](./assets/scope_detail.gif?raw=true)
-
 
 ## Protoboard Variation
 
@@ -82,7 +78,6 @@ I put the circuit on a protoboard strip with some variations:
 * L1 connected via a terminal block
 
 ![Parrot_protoboard_layout](./assets/Parrot_protoboard_layout.jpg?raw=true)
-
 
 ## Component Combinations
 
@@ -95,7 +90,6 @@ A wide range of "chirp" effects are possible. Here are some of the component val
 | C3*       | 20nF, 100nF                             |
 | R2*       | 27kΩ, 33kΩ, 10kΩ + 100kΩ pot            |
 | VCC*      | 2.5V - 12V                              |
-
 
 ## Credits and References
 

@@ -199,6 +199,15 @@
             "LED"
         ]
     },
+    "/electronics101/555timer/missingpulsedetector/": {
+        "id": 729,
+        "title": "Missing Pulse Detector",
+        "summary": "Presenting a missing pulse detector circuit based on a 555 timer monostable, and tested using a 555/4011 interruptible pulse generator.",
+        "tags": [
+            "555 Timer",
+            "CD4011"
+        ]
+    },
     "/playground/switchinputs/": {
         "id": 728,
         "title": "Switch Inputs",
@@ -1670,7 +1679,7 @@
     "/electronics101/breadboardbling/singleshottrigger/": {
         "id": 565,
         "title": "Single-Shot Trigger",
-        "summary": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard",
+        "summary": "A debounced single-shot pulse generator with inverted and non-inverted output designed for use on a breadboard",
         "tags": [
             "Breadboard Bling",
             "555 Timer",
@@ -4622,7 +4631,7 @@
     },
     "/electronics101/555timer/messagewaiting/": {
         "id": 252,
-        "title": "MessageWaiting",
+        "title": "Message Waiting",
         "summary": "two-LED flasher with a 555 and minimal components - turned into a \"message waiting\" indicator with some free-wired SMD construction",
         "tags": [
             "LED",
@@ -6770,7 +6779,7 @@
     },
     "/electronics101/555timer/monostable/": {
         "id": 17,
-        "title": "Monostable",
+        "title": "555 Timer Monostable Demo",
         "summary": "basic monostable mode using an Arduino and processing to plot the output",
         "tags": [
             "555 Timer"
