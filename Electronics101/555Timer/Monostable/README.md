@@ -1,4 +1,4 @@
-# #017 555 Timer - Monostable Demo
+# #017 555 Timer Monostable Demo
 
 Use an Arduino to demonstrate the monostable mode of operation, and plot the results with [Processing](https://www.processing.org).
 

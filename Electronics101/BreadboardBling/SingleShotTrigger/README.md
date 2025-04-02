@@ -1,6 +1,6 @@
 # #565 Breadboard Bling: Single-Shot Trigger
 
-A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard.
+A debounced single-shot pulse generator with inverted and non-inverted output designed for use on a breadboard.
 
 ![Build](./assets/SingleShotTrigger_build.jpg?raw=true)
 

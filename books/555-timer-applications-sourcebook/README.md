@@ -73,14 +73,14 @@ See also:
 * CHAPTER 10: EXPERIMENTING WITH THE 555 TIMER
     * Introduction to the Experiments
     * Experiments
-        * 1 monostable multivibrator
+        * 1 monostable multivibrator - see [LEAP#017 555 Timer Monostable Demo](../../Electronics101/555Timer/Monostable/)
         * 2 monostable multivibrator, reset
-        * 3 touch latch
+        * 3 touch latch - see [LEAP#135 555 Timer Touch Switch](../../Electronics101/555Timer/TouchSwitch/)
         * 4 output pulse duration with control pin
-        * 5 astable multivibrator
+        * 5 astable multivibrator - see [LEAP#016 555 Timer - A-Stable Oscillator](../../Electronics101/555Timer/AstableOscillator/)
         * 6 astable multivibrator - timing resistors
-        * 7 constant f, variable duty
-        * 8 missing pulse detector
+        * 7 constant f, variable duty - see [LEAP#145 Variable Duty-Cycle 555 Timer](../../Electronics101/555Timer/VariableDutyCycle/)
+        * 8 missing pulse detector - see [LEAP#729 Missing Pulse Detector](../../Electronics101/555Timer/MissingPulseDetector/)
         * 9 audio oscillator
         * 10 two-tone
         * 12 10-line sequencer

@@ -1,0 +1,9 @@
+{
+    "id": "#729",
+    "name": "Missing Pulse Detector",
+    "description": "Presenting a missing pulse detector circuit based on a 555 timer monostable, and tested using a 555/4011 interruptible pulse generator.",
+    "categories": "555 Timer, CD4011",
+    "relative_path": "Electronics101/555Timer/MissingPulseDetector",
+    "updated_at": "2025-04-02T07:40:00Z",
+    "created_at": "2025-04-02T07:40:00Z"
+}

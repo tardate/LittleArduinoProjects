@@ -1,6 +1,6 @@
 {
     "id": "#252",
-    "name": "MessageWaiting",
+    "name": "Message Waiting",
     "description": "two-LED flasher with a 555 and minimal components - turned into a \"message waiting\" indicator with some free-wired SMD construction",
     "categories": "LED, 555 Timer",
     "relative_path": "Electronics101/555Timer/MessageWaiting",

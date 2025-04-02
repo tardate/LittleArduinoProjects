@@ -220,6 +220,16 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#729",
+        "name": "Missing Pulse Detector",
+        "description": "Presenting a missing pulse detector circuit based on a 555 timer monostable, and tested using a 555/4011 interruptible pulse generator.",
+        "categories": "555 Timer, CD4011",
+        "relative_path": "electronics101/555timer/missingpulsedetector",
+        "updated_at": "2025-04-02T07:40:00Z",
+        "created_at": "2025-04-02T07:40:00Z",
+        "original_relative_path": "Electronics101/555Timer/MissingPulseDetector"
+    },
+    {
         "id": "#728",
         "name": "Switch Inputs",
         "description": "Reviewing the main methods for reading switch inputs with an Arduino.",
@@ -1862,7 +1872,7 @@
     {
         "id": "#565",
         "name": "Single-Shot Trigger",
-        "description": "A debounced single-shot pulse generator with inverted amd non-inverted output designed for use on a breadboard",
+        "description": "A debounced single-shot pulse generator with inverted and non-inverted output designed for use on a breadboard",
         "categories": "Breadboard Bling, 555 Timer, CD4049",
         "relative_path": "electronics101/breadboardbling/singleshottrigger",
         "updated_at": "2020-09-20T15:35:54Z",
@@ -4991,7 +5001,7 @@
     },
     {
         "id": "#252",
-        "name": "MessageWaiting",
+        "name": "Message Waiting",
         "description": "two-LED flasher with a 555 and minimal components - turned into a \"message waiting\" indicator with some free-wired SMD construction",
         "categories": "LED, 555 Timer",
         "relative_path": "electronics101/555timer/messagewaiting",
@@ -7341,7 +7351,7 @@
     },
     {
         "id": "#017",
-        "name": "Monostable",
+        "name": "555 Timer Monostable Demo",
         "description": "basic monostable mode using an Arduino and processing to plot the output",
         "categories": "555 Timer",
         "relative_path": "electronics101/555timer/monostable",
