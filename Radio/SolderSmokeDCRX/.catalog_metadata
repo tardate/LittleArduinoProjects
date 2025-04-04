@@ -1,0 +1,7 @@
+{
+    "id": "#771",
+    "name": "SolderSmoke DC RX",
+    "description": "Building the SolderSmoke Direct Conversion Radio Receiver",
+    "categories": "Radio",
+    "relative_path": "Radio/SolderSmokeDCRX"
+}

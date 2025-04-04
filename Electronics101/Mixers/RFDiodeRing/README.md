@@ -9,6 +9,8 @@ A diode ring double-balanced frequency mixer.
 My build here is inspired by another great tutorial from w2aew -
 [#167: How a Diode Ring Mixer works - Mixer operation theory and measurement](https://www.youtube.com/watch?v=junuEwmQVQ8).
 
+[![#167: How a Diode Ring Mixer works - Mixer operation theory and measurement](https://img.youtube.com/vi/junuEwmQVQ8/0.jpg)](https://www.youtube.com/watch?v=junuEwmQVQ8)
+
 Section 5.2 of [Experimental Methods in RF Design](../../../books/experimental-methods-in-rf-design/)
 includes a complete evolution of the diode ring mixer and a very clear explanation of how it works.
 
@@ -24,7 +26,7 @@ See [LEAP#326](../) for my notes on mixer theory and types.
 
 ### Test 1: 7MHz LO + 10MHz RF
 
-This works pretty well, alough my signals are quite noisy.
+This works pretty well, although my signals are quite noisy.
 
 | Scope Channel | Signal | Detail         |
 |---------------|--------|----------------|
@@ -57,9 +59,12 @@ With the LO and RF frequencies separated significantly, sum and difference are s
 I'm using 1N5711 small signal schottky diodes (as did w2aew), which are well suited to this application:
 
 * high breakdown, low turn-on voltage and ultrafast switching
-* primarly intended for high level UHF/VHF detection and pulse application with broad dynamic range
+* primarily intended for high level UHF/VHF detection and pulse application with broad dynamic range
 
 For the transformers, I'm using 68-26 iron ferrite toroids with 30AWG solid wire (10 turns per winding).
+I used w2aew's tutorial for winding the toroid: [#166: How to wind a trifilar toroid transformer for a diode ring mixer](https://www.youtube.com/watch?v=a8ViWS61hsU)
+
+[![#166: How to wind a trifilar toroid transformer for a diode ring mixer](https://img.youtube.com/vi/a8ViWS61hsU/0.jpg)](https://www.youtube.com/watch?v=a8ViWS61hsU)
 
 ![Schematic](./assets/RFDiodeRing_schematic.jpg?raw=true)
 

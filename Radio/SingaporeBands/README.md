@@ -260,35 +260,46 @@ See also:
     * <https://radio.cgtn.com/> - seems much more geared towards internet radio and podcast these days
     * <https://www.short-wave.info/index.php?station=China%20Radio%20International> - still have a schedule of CRI shortwave, need to verify
 
-| Service                   | Frequency (kHz) | Meter Band | Language | Transmitter              | Scheduled Time (GMT)          |
-|---------------------------|-----------------|------------|----------|--------------------------|-------------------------------|
-| BBC World Service         | 21565           | 13m        |          | Madagascar               | 12:00 - 14:00                 |
-| BBC World Service         | 15310           | 19m        |          | Oman                     | 22:00 - 00:00                 |
-|                           |                 |            |          |                          |                               |                            |
+| Service                   | Frequency (kHz) | Meter Band | Language | Transmitter              | Scheduled Time (GMT) |
+|---------------------------|-----------------|------------|----------|--------------------------|----------------------|
+| BBC World Service         | 21565           | 13m        |          | Madagascar               | 12:00 - 14:00        |
+| BBC World Service         | 15310           | 19m        |          | Oman                     | 22:00 - 00:00        |
+| China Radio International | 7215            | 41m        | English  | Xianyang 594 500 kW      | 10:00 - 10:57        |
+| China Radio International | 7215            | 41m        | Chinese  | Xianyang 594 500 kW      | 13:00 - 13:57        |
+|                           |                 |            |          |                          |                      |
+
+Transmitter sites:
+
+* Xianyang/NRTA594 500 kW
+    * Located in [Qindu District, Xianyang, Shaanxi, China](https://maps.app.goo.gl/bCiRN9Rne38vb2y66)
+    * [Frequencies and schedules](https://www.mwlist.org/sw.php?locationid=40010025)
+    * about 3200 km from my QTH in Singapore
 
 ## Shortwave Broadcast Log
 
 The following is a personal log of shortwave broadcast services I have been able to receive in central Singapore.
 
-| Service                   | Frequency (kHz) | Meter Band | Language | Transmitter              | Scheduled Time (GMT)          | Received                   |
-|---------------------------|-----------------|------------|----------|--------------------------|-------------------------------|----------------------------|
-| Reach Beyond Australia    | 11865           | 25m        |          | Kununurra                | 11:30 - 12:45                 | 2018-01-31 Wed 20:57 UTC+8 |
-| China Radio International | 11910           | 25m        |          | Beijing 500 kw           | 13:00 - 13:57                 | 2018-01-31 Wed 21:55 UTC+8 |
-| China Radio International | 11710           | 25m        | Chinese  | Nanning 954 100 kw       | 07:00 - 08:00                 | 2019-03-23 Wed 15:08 UTC+8 |
-| China Radio International | 11875           | 25m        | Chinese  | Nanning 954 100 kw       | 07:00 - 08:00                 | 2019-03-23 Wed 15:08 UTC+8 |
-| China Radio International | 13660           | 22m        | English  | Xian 594 500 kw          | 07:00 - 07:57                 | 2019-03-23 Wed 15:15 UTC+8 |
-| China Radio International | 15145           | 22m        | Chaozhou | Xian 594 500 kw          | 07:00 - 07:57                 | 2019-03-23 Wed 15:16 UTC+8 |
-| NHK World Radio Japan     | 15280           | 19m        | Japanese | Ibaragi-Koga-Yamata 300kw| 06:55 - 08:58                 | 2019-03-23 Wed 15:19 UTC+8 |
-| China National Radio 1    | 15480           | 19m        | Chinese  | Beijing 572 100kw        | 06:00 - 09:00                 | 2019-03-23 Wed 15:21 UTC+8 |
-| China National Radio 1    | 17595           | 16m        | Chinese  | Shijiazhuang 723 100kw   | 06:00 - 09:00                 | 2019-03-23 Wed 15:29 UTC+8 |
-| China National Radio 2    | 15500           | 19m        | Chinese  | Beijing 491 150kw        | 06:00 - 09:00                 | 2019-03-23 Wed 15:22 UTC+8 |
-| China Radio International | 17710           | 16m        | English  | Beijing 500 kw           | 06:00 - 08:00                 | 2019-03-23 Wed 15:25 UTC+8 |
-| China Radio International | 17740           | 16m        | Chinese  | Xian 594 500 kw          | 06:00 - 08:00                 | 2019-03-23 Wed 15:23 UTC+8 |
-| China Radio International | 17750           | 16m        | Chaozhou | Xian 594 500 kw          | 07:00 - 07:57                 | 2019-03-23 Wed 15:23 UTC+8 |
-| China Radio International | 17650           | 16m        | Chinese  | Kashi-Saibagh 2022 500 kw| 06:00 - 09:00                 | 2019-03-23 Wed 15:26 UTC+8 |
-| China Radio International | 17670           | 16m        | English  | Kashi-Saibagh 2022 500 kw| 07:00 - 09:00                 | 2019-03-23 Wed 15:28 UTC+8 |
-| Radio Saudi               | 17895           | 16m        | Arabic   | Riyadh 500 kw            | 02:55 - 08:00                 | 2019-03-23 Wed 15:34 UTC+8 |
-|                           |                 |            |          |                          |                               |                            |
+| Service                   | Frequency (kHz) | Meter Band | Language | Transmitter              | Scheduled Time (GMT) | Received                   | Receiver |
+|---------------------------|-----------------|------------|----------|--------------------------|----------------------|----------------------------|----------|
+| Reach Beyond Australia    | 11865           | 25m        |          | Kununurra                | 11:30 - 12:45        | 2018-01-31 Wed 20:57 UTC+8 | |
+| China Radio International | 11910           | 25m        |          | Beijing 500 kw           | 13:00 - 13:57        | 2018-01-31 Wed 21:55 UTC+8 | |
+| China Radio International | 11710           | 25m        | Chinese  | Nanning 954 100 kw       | 07:00 - 08:00        | 2019-03-23 Wed 15:08 UTC+8 | |
+| China Radio International | 11875           | 25m        | Chinese  | Nanning 954 100 kw       | 07:00 - 08:00        | 2019-03-23 Wed 15:08 UTC+8 | |
+| China Radio International | 13660           | 22m        | English  | Xian 594 500 kw          | 07:00 - 07:57        | 2019-03-23 Wed 15:15 UTC+8 | |
+| China Radio International | 15145           | 22m        | Chaozhou | Xian 594 500 kw          | 07:00 - 07:57        | 2019-03-23 Wed 15:16 UTC+8 | |
+| NHK World Radio Japan     | 15280           | 19m        | Japanese | Ibaragi-Koga-Yamata 300kw| 06:55 - 08:58        | 2019-03-23 Wed 15:19 UTC+8 | |
+| China National Radio 1    | 15480           | 19m        | Chinese  | Beijing 572 100kw        | 06:00 - 09:00        | 2019-03-23 Wed 15:21 UTC+8 | |
+| China National Radio 1    | 17595           | 16m        | Chinese  | Shijiazhuang 723 100kw   | 06:00 - 09:00        | 2019-03-23 Wed 15:29 UTC+8 | |
+| China National Radio 2    | 15500           | 19m        | Chinese  | Beijing 491 150kw        | 06:00 - 09:00        | 2019-03-23 Wed 15:22 UTC+8 | |
+| China Radio International | 17710           | 16m        | English  | Beijing 500 kw           | 06:00 - 08:00        | 2019-03-23 Wed 15:25 UTC+8 | |
+| China Radio International | 17740           | 16m        | Chinese  | Xian 594 500 kw          | 06:00 - 08:00        | 2019-03-23 Wed 15:23 UTC+8 | |
+| China Radio International | 17750           | 16m        | Chaozhou | Xian 594 500 kw          | 07:00 - 07:57        | 2019-03-23 Wed 15:23 UTC+8 | |
+| China Radio International | 17650           | 16m        | Chinese  | Kashi-Saibagh 2022 500 kw| 06:00 - 09:00        | 2019-03-23 Wed 15:26 UTC+8 | |
+| China Radio International | 17670           | 16m        | English  | Kashi-Saibagh 2022 500 kw| 07:00 - 09:00        | 2019-03-23 Wed 15:28 UTC+8 | |
+| Radio Saudi               | 17895           | 16m        | Arabic   | Riyadh 500 kw            | 02:55 - 08:00        | 2019-03-23 Wed 15:34 UTC+8 | |
+| China Radio International | 7215            | 41m        | Chinese  | Xianyang 594 500 kW      | 13:00 - 13:57        | 2025-05-11 Sun 21:50 UTC+8 | [SolderSmokeDCRX](../SolderSmokeDCRX/) |
+| China Radio International | 7215            | 41m        | Chinese  | Xianyang 594 500 kW      | 13:00 - 13:57        | 2025-05-12 Mon 21:49 UTC+8 | [SolderSmokeDCRX](../SolderSmokeDCRX/) |
+|                           |                 |            |          |                          |                      |                            | |
 
 ## Credits and References
 
@@ -304,5 +315,6 @@ The following is a personal log of shortwave broadcast services I have been able
 * Shortwave Services
     * <https://www.short-wave.info/index.php> - reference for scheduled shortwave broadcasts
     * <https://shortwaveschedule.com/> - reference for scheduled shortwave broadcasts
+    * <https://www.mwlist.org/shortwave_transmitter_sites.php> - good transmitter details, schedules seem a little unreliable
     * <https://hfradio.org/swbc/> - another resource for scheduled services; not particularly reliable. Currently not working correctly.
     * [BBC World Service Global Short Wave Frequencies](https://www.bbc.co.uk/programmes/articles/2x9tqt6mc05vB2S37j8MWMJ/global-short-wave-frequencies)
