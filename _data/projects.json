@@ -1,4 +1,12 @@
 {
+    "/equipment/nanovna/": {
+        "id": 767,
+        "title": "NanoVNA",
+        "summary": "Unpacking and doing some basic tests with the NanoVNA, including using the NanoVNASaver software on macOS.",
+        "tags": [
+            "Tools"
+        ]
+    },
     "/electronics101/power/dicksonchargepump/onepinthreev/": {
         "id": 766,
         "title": "One Pin Three Voltage Levels",
