@@ -1,5 +1,15 @@
 [
     {
+        "name": "NanoVNA",
+        "description": "Unpacking and doing some basic tests with the NanoVNA, including using the NanoVNASaver software on macOS.",
+        "categories": "Tools",
+        "relative_path": "equipment/nanovna",
+        "updated_at": "2025-04-06T09:10:00Z",
+        "created_at": "2025-04-06T09:10:00Z",
+        "id": "#767",
+        "original_relative_path": "Equipment/NanoVNA"
+    },
+    {
         "name": "One Pin Three Voltage Levels",
         "description": "Designing and testing a circuit to drive and switch an output between 3 voltage levels (0v, VCC, 2.4xVCC) from a single GPIO pin. Tested with an Arduino Uno running at 5V driving a 0V, 5V, 12V output on a single GPIO pin.",
         "categories": "Arduino, Power",
