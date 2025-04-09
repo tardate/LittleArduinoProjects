@@ -1,4 +1,13 @@
 {
+    "/electronics101/ref200/currentsource50ua/": {
+        "id": 768,
+        "title": "50 \u00b5A Current Source",
+        "summary": "Testing the REF200 as a 50\u00b5A current source.",
+        "tags": [
+            "Current Reference",
+            "REF200"
+        ]
+    },
     "/equipment/nanovna/": {
         "id": 767,
         "title": "NanoVNA",
