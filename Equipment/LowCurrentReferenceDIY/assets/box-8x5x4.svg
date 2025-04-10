@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 567 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;">
+    <g id="Panels" transform="matrix(2.83465,0,0,2.83465,0,0)">
+        <path id="front_outsideCutPath" d="M0,47.5L0,61.5L3,61.5L3,70.5L0,70.5L0,79.5L3,79.5L3,88.5L0,88.5L0,100L8.5,100L8.5,97L17.5,97L17.5,100L26.5,100L26.5,97L35.5,97L35.5,100L44.5,100L44.5,97L53.5,97L53.5,100L62.5,100L62.5,97L71.5,97L71.5,100L80,100L80,29.5M83,88.5L77,88.5L77,79.5L83,79.5M83,70.5L77,70.5L77,61.5L83,61.5M71.5,47L71.5,53L62.5,53L62.5,47M53.5,47L53.5,53L44.5,53L44.5,47M35.5,47L35.5,53L26.5,53L26.5,47M17.5,47L17.5,53L8.5,53L8.5,47M71.5,50L80,50M53.5,50L62.5,50M35.5,50L44.5,50M17.5,50L26.5,50M0,50L8.5,50" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.1px;"/>
+        <path id="left_outsideCutPath" d="M120,88.5L117,88.5L117,100L113.5,100L113.5,97L104.5,97L104.5,100L95.5,100L95.5,97L86.5,97L86.5,100L83,100L83,88.5M117,38.5L117,61.5L120,61.5L120,75.5M120,70.5L117,70.5L117,79.5L120,79.5L120,93.5M113.5,47L113.5,53L104.5,53L104.5,47M95.5,47L95.5,53L86.5,53L86.5,47M83,61.5L83,47.5M83,70.5L83,79.5M113.5,50L117,50M95.5,50L104.5,50M83,50L86.5,50" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.1px;"/>
+        <path id="top_outsideCutPath" d="M191.5,57L191.5,63L197,63L197,66.5L200,66.5L200,75.5L197,75.5L197,84.5L200,84.5L200,93.5L197,93.5L197,97L191.5,97L191.5,100L182.5,100L182.5,97L173.5,97L173.5,100L164.5,100L164.5,97L155.5,97L155.5,100L146.5,100L146.5,97L137.5,97L137.5,100L128.5,100L128.5,97L123,97L123,93.5L120,93.5M182.5,57L182.5,63L173.5,63L173.5,57M164.5,57L164.5,63L155.5,63L155.5,57M146.5,57L146.5,63L137.5,63L137.5,57M120,66.5L123,66.5L123,63L128.5,63L128.5,57M120,84.5L123,84.5L123,75.5L120,75.5M182.5,60L191.5,60M164.5,60L173.5,60M146.5,60L155.5,60M128.5,60L137.5,60" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.1px;"/>
+        <path id="back_outsideCutPath" d="M0,47.5L0,38.5L3,38.5L3,29.5L0,29.5L0,20.5L3,20.5L3,11.5L0,11.5L0,0L8.5,0L8.5,3L17.5,3L17.5,0L26.5,0L26.5,3L35.5,3L35.5,0L44.5,0L44.5,3L53.5,3L53.5,0L62.5,0L62.5,3L71.5,3L71.5,0L80,0L80,29.5M83,38.5L77,38.5L77,29.5L83,29.5M83,20.5L77,20.5L77,11.5L83,11.5M8.5,47L17.5,47M26.5,47L35.5,47M44.5,47L53.5,47M62.5,47L71.5,47" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.1px;"/>
+        <path id="right_outsideCutPath" d="M83,11.5L83,0L86.5,0L86.5,3L95.5,3L95.5,0L104.5,0L104.5,3L113.5,3L113.5,0L117,0L117,11.5L120,11.5L120,20.5L117,20.5L117,29.5L120,29.5M120,26.5L120,38.5L117,38.5M83,20.5L83,29.5M83,38.5L83,47.5M86.5,47L95.5,47M104.5,47L113.5,47" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.1px;"/>
+        <path id="bottom_outsideCutPath" d="M120,26.5L123,26.5L123,23L128.5,23L128.5,20L137.5,20L137.5,23L146.5,23L146.5,20L155.5,20L155.5,23L164.5,23L164.5,20L173.5,20L173.5,23L182.5,23L182.5,20L191.5,20L191.5,23L197,23L197,26.5L200,26.5L200,35.5L197,35.5L197,44.5L200,44.5L200,53.5L197,53.5L197,57L191.5,57M128.5,57L123,57L123,53.5L120,53.5L120,44.5L123,44.5L123,35.5L120,35.5M137.5,57L146.5,57M155.5,57L164.5,57M173.5,57L182.5,57" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.1px;"/>
+    </g>
+    <g id="Control-Cutouts" serif:id="Control Cutouts">
+        <g transform="matrix(2.57562,0,0,2.65948,81.2886,-411.021)">
+            <ellipse cx="33.923" cy="240.352" rx="4.953" ry="4.796" style="fill:none;stroke:black;stroke-width:0.11px;"/>
+        </g>
+        <g transform="matrix(3.43415,0,0,3.54597,-25.7884,-611.335)">
+            <ellipse cx="33.923" cy="240.352" rx="4.953" ry="4.796" style="fill:none;stroke:black;stroke-width:0.09px;"/>
+        </g>
+        <g transform="matrix(3.43415,0,0,3.54597,-82.4813,-611.335)">
+            <ellipse cx="33.923" cy="240.352" rx="4.953" ry="4.796" style="fill:none;stroke:black;stroke-width:0.09px;"/>
+        </g>
+    </g>
+    <g id="Panel-Text" serif:id="Panel Text">
+        <g transform="matrix(1,0,0,1,146.329,25.6735)">
+            <g transform="matrix(8,0,0,8,68.4322,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:8px;">400µA</text>
+        </g>
+        <g transform="matrix(1,0,0,1,129.028,12.8835)">
+            <g transform="matrix(8,0,0,8,68.4322,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:8px;">300µA</text>
+        </g>
+        <g transform="matrix(1,0,0,1,97.7962,12.8835)">
+            <g transform="matrix(8,0,0,8,68.4322,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:8px;">200µA</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80.7259,25.6735)">
+            <g transform="matrix(8,0,0,8,68.4322,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:8px;">100µA</text>
+        </g>
+        <g transform="matrix(1,0,0,1,8.19898,46.6722)">
+            <g transform="matrix(8,0,0,8,67.0025,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:8px;">±0.5%</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-0.0412498,36.1695)">
+            <g transform="matrix(8,0,0,8,83.4282,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:8px;">LEAP#769</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1.80773,-3.68083)">
+            <g transform="matrix(12,0,0,12,178.588,168.655)">
+            </g>
+            <text x="43.495px" y="168.655px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:12px;">Low Cur<tspan x="91.975px 96.932px 104.063px " y="168.655px 168.655px 168.655px ">ren</tspan>t R<tspan x="126.891px 134.022px 137.86px 144.991px 149.948px 157.079px " y="168.655px 168.655px 168.655px 168.655px 168.655px 168.655px ">eferen</tspan>ce</text>
+        </g>
+    </g>
+</svg>

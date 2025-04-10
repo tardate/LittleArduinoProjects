@@ -7,12 +7,25 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-04-10T05:25:00Z</updated>
+  <updated>2025-04-11T15:35:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/equipment/lowcurrentreferencediy/</id>
+    <link href="https://leap.tardate.com/equipment/lowcurrentreferencediy/"/>
+    <g:image_link>https://leap.tardate.com/equipment/lowcurrentreferencediy/assets/lowcurrentreferencediy_build.jpg</g:image_link>
+    <updated>2025-04-11T15:35:00Z</updated>
+    <title>#769 Low Current Reference</title>
+    <summary>Building a low current reference switchable between 100μA, 200μA, 300μA and 400μA, based on a design from Louis Scully / Scullcom Hobby Electronics using the REF200 current reference and a laser-cut MDF project case.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building a low current reference switchable between 100μA, 200μA, 300μA and 400μA, based on a design from Louis Scully / Scullcom Hobby Electronics using the REF200 current reference and a laser-cut MDF project case.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/lowcurrentreferencediy/assets/lowcurrentreferencediy_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Tools"/>
+    <category term="Test Equipment"/>
+    <category term="Current Reference"/>
+    <category term="REF200"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ref200/currentsource50ua/</id>
     <link href="https://leap.tardate.com/electronics101/ref200/currentsource50ua/"/>
