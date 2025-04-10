@@ -16,7 +16,7 @@ Thoughts after some initial testing:
 * appears to be very accurate
 * I don't like having the off switch on the measurement selection dial:
     * clunking it around every time to turn on the device is not very efficient, and I worry the switch selector will be the first thing to fail
-    * I'd prefer a separate on/off switch, allowing the measurement selector to be left in the same position most of the time
+    * I'd prefer a separate on/off switch, allowing the measurement selector to be left in the same position most of the time. I know, the intention of this design is probably to prevent damage when firing the device up in an inappropriate mode!
 
 ## Specifications
 
@@ -25,7 +25,7 @@ Features:
 * Auto/manual ranges
 * True RMS measurement
 * 550V protection in resistance and capacitance ranges
-* Large LCD display,MAX display 6000 counts
+* Large LCD display, MAX display 6000 counts
 * Sample rate: 3 times per second
 * backlight
 * MAX/MIN data hold
@@ -33,27 +33,27 @@ Features:
 * Low voltage indication
 * 20A high current measurement is available
 * Auto power off can be cancelled manually
-* Main measurements:AC/DC Voltage, AC/DC Current, Resistance, Capacitance,
+* Main measurements AC/DC Voltage, AC/DC Current, Resistance, Capacitance,
 * Diode and Continuity Testing,Temperature, Frequency and duty cycle.
 * Weight: 420g
 * Measurement mode: Double-integral style A/D transform
 * Over range indication: OL
 * Working environment: 0~40°, relative humidity < 80%
-* Supply power: 3V (1.5V AA batteries * 2 Pcs not include )
-* Dimension: 180*90.5*45mm
+* Supply power: 3V (1.5V AA batteries x 2 Pcs not include )
+* Dimension: 180 x 90.5 x45mm
 * Accessories: User's manual, a shockproof cover, a pair of test leads, a TP01K thermocouple
 
-| Measurement | Specification               | Range/Tolerance                                                     |
-|-------------|-----------------------------|---------------------------------------------------------------------|
-| Temperature | -20° to 1000°(-4° to 1832°) | ﹤400° ±(1.0%+5),≥400°±(1.5%+15), ﹤752° ±(1.0%+5),≥752°±(1.5%+15)  |
-| Capacitance | 10pF to 6000uF              | 10nF(±5.0+20),100nF/1uF/10uF/100uF(±2.0%+5),1000uF/10000uF(±5.0%+5) |
-| AC volts    | 0.1mV to 750V               | 600mV(±3.0%+3),6V/60V/600V/750V(±1.0%+3)                            |
-| DC volts    | 0.1mV to 1000V              | 600mV(±1.0%+10), 6V/60V/600V/1000V(±0.5%+3)                         |
-| AC current  | 0.1uA to 20A                | 600uA/6000uA(±1.5%+3),60mA/600mA/20A(±1.5%+3)                       |
-| DC current  | 0.1uA to 20A                | 600uA/6000uA(±1.5%+3),60mA/600mA/20A(±1.5%+3)                       |
-| Resistance  | 0.1Ω to 60MΩ                | 600Ω(±0.5%+3),6K/60K/600K/6M(±0.5%+2),60MΩ(±1.5%+3)                 |
-| Duty cycle  | 1% to 99%                   | 1% to 99%(±1%)                                                      |
-| Frequency   | 1Hz to 20MHz                | 5/50/500/5k/50k/500k/5M/20M (±0.1+3)                                |
+| Measurement | Specification               | Range/Tolerance                                                       |
+|-------------|-----------------------------|-----------------------------------------------------------------------|
+| Temperature | -20° to 1000°(-4° to 1832°) | ﹤400° (±1.0%+5), ≥400° (±1.5%+15), ﹤752° (±1.0%+5), ≥752° (±1.5%+15) |
+| Capacitance | 10pF to 6000uF              | 10nF(±5.0+20), 100nF/1uF/10uF/100uF(±2.0%+5), 1000uF/10000uF(±5.0%+5) |
+| AC volts    | 0.1mV to 750V               | 600mV (±3.0%+3), 6V/60V/600V/750V (±1.0%+3)                           |
+| DC volts    | 0.1mV to 1000V              | 600mV (±1.0%+10), 6V/60V/600V/1000V (±0.5%+3)                         |
+| AC current  | 0.1uA to 20A                | 600uA/6000uA (±1.5%+3), 60mA/600mA/20A (±1.5%+3)                      |
+| DC current  | 0.1uA to 20A                | 600uA/6000uA (±1.5%+3), 60mA/600mA/20A (±1.5%+3)                      |
+| Resistance  | 0.1Ω to 60MΩ                | 600Ω (±0.5%+3), 6K/60K/600K/6M (±0.5%+2), 60MΩ (±1.5%+3)              |
+| Duty cycle  | 1% to 99%                   | 1% to 99% (±1%)                                                       |
+| Frequency   | 1Hz to 20MHz                | 5/50/500/5k/50k/500k/5M/20M (±0.1+3)                                  |
 
 ## Credits and References
 
