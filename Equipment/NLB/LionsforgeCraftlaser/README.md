@@ -25,31 +25,55 @@ The [starter training](./assets/makeit-digital-cutting-laser-crafting-starter-se
 * using [TinkerCAD](https://www.tinkercad.com/) to make a 3D model
 * export to SVG
 * use [Inkscape](https://inkscape.org/) as the laser G-code generating tool, but can also be used to edit objects.
+    * Document properties: set drawing size to A3 Landscape to fit the dimensions of the laser cutter
     * import SVG file
-    * adjust stroke width to 1px
+    * object may appear invisible, because the lines are too fine
+        * Select "Object > Fill and stroke" to adjust the stroke
+            * select stroke paint
+            * set flat color e.g. black
+            * set stroke style width to 1px
+    * position object in the desired page location. by default x=5mm, y=5mm (bottom left, just offset from the border)
     * add text to the object (this will be treated as an engraving)
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code) for engraving
     * use the "305 Engineering > Raster 2 Laser GCode generator" extension
     * resolution: at least 10px/mm
     * engraving speed: 4000
 * export to [CNC G-code](https://en.wikipedia.org/wiki/G-code) for cutting:
+    * ungroup and remove text (engraving elements) from your object
     * with object selected, choose "Object to Path"
-    * use the "Generate Laser G-code > J Tech PhotonicsLaser Tool.."  extension
+    * use the "Generate Laser G-code > J Tech PhotonicsLaser Tool.." extension. Settings:
+        * Laser ON Command: M03
+        * Laser OFF Command: M05
+        * Travel speed (mm/min): 3000
+        * Laser speed (mm/min): 300
+        * Laser power S#: 100
+        * Power on delay: 0.0
+        * Passes: 1
+        * Pass Depth: 1.0
 * save the engraving and cutting codes to an SD card
+
+Note: allow for the cutting path in a design:
+
+> Every cutting tool creates a cutting pathway, called a kerf.
+> The width of the kerf of a laser cutter is typically 0.2mm.
+> We can incorporate this into our designs to get very accurate parts.
 
 Operating the Cutter:
 
-* Adjust Focus Height to 4mm above material
+* Setup
+    * Make sure the fume extractor is turned on before using the laser cutter
+    * Adjust Focus Height to 4mm above material
+    * Open the material loading tray when the display reads "Idle"
+    * Align your material to the bottom-left corner of the materials tray. Tape down.
 * Engraving Phase:
     * For engraving, adjust the laser intensity knob to 2/9 power
     * Set "Speed mul." to 200%
-    * Open the material loading tray when the display reads "Idle"
-    * Align your material to the bottom-left corner of the materials tray. Tape down.
     * load the engraving file and execute
 * Cutting Phase:
     * For cutting, adjust the laser intensity knob to 2/3 power
     * Set "Speed mul." to 130%
     * load the cutting file and execute
+    * Once you are done cutting, remember to reset the laser intensity knob back to the 0 position.
 
 G-code files can be previewed/validated with <https://ncviewer.com/>.
 
@@ -81,3 +105,4 @@ My project sources:
 * <https://lionsforge.com.sg/craftlaser-laser-cutter/>
 * <https://ncviewer.com/>
 * <https://en.makercase.com/#/>
+* [Laser classes - Laser Safety Facts](https://www.lasersafetyfacts.com/laserclasses.html)

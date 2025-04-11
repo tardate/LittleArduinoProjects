@@ -1,0 +1,9 @@
+{
+    "name": "Low Current Reference",
+    "description": "Building a low current reference switchable between 100\u03bcA, 200\u03bcA, 300\u03bcA and 400\u03bcA, based on a design from Louis Scully / Scullcom Hobby Electronics using the REF200 current reference and a laser-cut MDF project case.",
+    "categories": "Tools, Test Equipment, Current Reference, REF200",
+    "relative_path": "Equipment/LowCurrentReferenceDIY",
+    "updated_at": "2025-04-11T15:35:00Z",
+    "created_at": "2025-04-11T15:35:00Z",
+    "id": "#769"
+}
