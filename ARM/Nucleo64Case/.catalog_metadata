@@ -1,0 +1,6 @@
+{
+    "name": "Nucleo-64 Case",
+    "description": "Testing various 3D printed bases and cases for the STM32 Nucleo-64 development board with STM32U385RG.",
+    "categories": "STM32",
+    "relative_path": "ARM/NucleoCase"
+}
