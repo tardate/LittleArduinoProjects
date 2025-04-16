@@ -1,6 +1,6 @@
-# 755 Little Electronic Art Projects
+# 756 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Low Current Reference](./Equipment/LowCurrentReferenceDIY) - Building a low current reference switchable between 100μA, 200μA, 300μA and 400μA, based on a design from Louis Scully / Scullcom Hobby Electronics using the REF200 current reference and a laser-cut MDF project case.
+> Latest addition:sparkles: [Uno R3 Base](./playground/UnoR3Base) - Testing various printed bases and cases for the classic Arduino Uno.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

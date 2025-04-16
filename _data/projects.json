@@ -1,4 +1,12 @@
 {
+    "/playground/unor3base/": {
+        "id": 770,
+        "title": "Uno R3 Base",
+        "summary": "Testing various printed bases and cases for the classic Arduino Uno.",
+        "tags": [
+            "Arduino"
+        ]
+    },
     "/equipment/lowcurrentreferencediy/": {
         "id": 769,
         "title": "Low Current Reference",

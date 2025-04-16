@@ -1,0 +1,9 @@
+{
+    "name": "Uno R3 Base",
+    "description": "Testing various printed bases and cases for the classic Arduino Uno.",
+    "categories": "Arduino",
+    "relative_path": "playground/UnoR3Base",
+    "updated_at": "2025-04-16T15:28:00Z",
+    "created_at": "2025-04-16T15:28:00Z",
+    "id": "#770"
+}
