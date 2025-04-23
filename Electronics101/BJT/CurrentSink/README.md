@@ -39,5 +39,5 @@ This remain's stable, even as the load changes by varying resistance VR4 or redu
 ## Credits and References
 
 * [#190: Back to Basics: Transistor Current Sources and Mirrors](https://youtu.be/xR0RfmmRhDw) by w2aew
-* [w2aew's tutorial notes](http://www.qsl.net/w2aew//youtube/transistorcurrentsources.pdf)
+* [w2aew's tutorial notes](https://www.qsl.net/w2aew/youtube/transistorcurrentsources.pdf)
 * [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)

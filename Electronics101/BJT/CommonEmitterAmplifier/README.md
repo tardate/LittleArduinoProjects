@@ -48,12 +48,12 @@ An approach and example for selecting values for a simple CE amplifier:
 
 #### 1. Choose the operating requirements
 
-* VCC = 5V
-* A = 2 (low gain)
-* quiescent current Icq = 4mA (a value to keep power dissipation low)
-* quiescent voltage Vceq = 2.5 V (rule of thumb - about half VCC)
-* assume ß (hFE) = 150 (or lookup the datasheet)
-* assume Vbe = 0.7V (or lookup the datasheet)
+* `VCC = 5V`
+* `A = 2` (low gain)
+* quiescent current `Icq = 4mA` (a value to keep power dissipation low)
+* quiescent voltage `Vceq = 2.5V` (rule of thumb - about half VCC)
+* assume `ß (hFE) = 150` (or lookup the datasheet)
+* assume `Vbe = 0.7V` (or lookup the datasheet)
 
 #### 2. calculate collector + emitter resistance for desired gain at the Q point
 
@@ -63,16 +63,16 @@ Aiming for Vcc/2
 
 #### 3. calculate Rc and Re for desired gain
 
-* A ≅ Rc/Re
-* Re = 625Ω - Rc
-* Rc = 2 *625Ω - 2* Rc
-* Rc = 2/3 * 625Ω
-* Re = 1/3 x 625Ω = 208Ω, say 220Ω (standard value)
-* Rc = 416Ω, say 470Ω (standard value)
+* `A ≅ Rc/Re`
+* `Re = 625Ω - Rc`
+* `Rc = 2 x 625Ω - 2 x Rc`
+* `Rc = 2/3 x 625Ω`
+* `Re = 1/3 x 625Ω = 208Ω`  say 220Ω (standard value)
+* `Rc = 416Ω`, say 470Ω (standard value)
 
 #### 4. calculate base current at the q point
 
-* Ib = 4mA / 150 = [0.02667mA](https://www.wolframalpha.com/input/?i=4mA%2F150)
+* `Ib = 4mA / 150` = [0.02667mA](https://www.wolframalpha.com/input/?i=4mA%2F150)
 
 #### 5. calculate the combined bias gang resistance
 
@@ -194,13 +194,13 @@ Under test, performs just fine..
 * "Hands-On Radio: The Common Emitter Amplifier" by Ward Silver, NØAX. Feb 2003 QST
 * [The Art of Electronics, 2nd Edition](../../../books/the-art-of-electronics/) - 2.13 Biasing the common-emitter amplifier, p84.
 * [#113: Basics of Transistor bias point and the class of amplifier operation](https://www.youtube.com/watch?v=c6cmkm3UPUI) - w2aew
-* [w2aew's notes](http://www.qsl.net/w/w2aew//youtube/Bias_point_and_Class_of_operation.pdf)
-* [Common Emitter Amplifiers](http://www.electronics-tutorials.ws/amplifier/amp_2.html) - electronics-tutorials
-* [Class AB Amplifier](http://www.electronics-tutorials.ws/amplifier/class-ab-amplifier.html) - electronics-tutorials
-* [Class A Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers52.php) - learnabout-electronics
-* [Class B Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers53.php) - learnabout-electronics
-* [Class C Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers56.php) - learnabout-electronics
-* [Class AB Power Amplifiers](http://www.learnabout-electronics.org/Amplifiers/amplifiers55.php) - learnabout-electronics
-* [Common Emitter Mode](http://www.learnabout-electronics.org/Semiconductors/bjt_06.php) - learnabout-electronics
+* [w2aew's notes](https://www.qsl.net/w/w2aew/youtube/Bias_point_and_Class_of_operation.pdf)
+* [Common Emitter Amplifiers](https://www.electronics-tutorials.ws/amplifier/amp_2.html) - electronics-tutorials
+* [Class AB Amplifier](https://www.electronics-tutorials.ws/amplifier/class-ab-amplifier.html) - electronics-tutorials
+* [Class A Power Amplifiers](https://www.learnabout-electronics.org/Amplifiers/amplifiers52.php) - learnabout-electronics
+* [Class B Power Amplifiers](https://www.learnabout-electronics.org/Amplifiers/amplifiers53.php) - learnabout-electronics
+* [Class C Power Amplifiers](https://www.learnabout-electronics.org/Amplifiers/amplifiers56.php) - learnabout-electronics
+* [Class AB Power Amplifiers](https://www.learnabout-electronics.org/Amplifiers/amplifiers55.php) - learnabout-electronics
+* [Common Emitter Mode](https://www.learnabout-electronics.org/Semiconductors/bjt_06.php) - learnabout-electronics
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/01/leap371-common-emitter-amplifier-biasing.html)

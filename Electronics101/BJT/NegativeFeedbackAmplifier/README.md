@@ -60,7 +60,7 @@ CH2 (Blue): output
 * [Negative-feedback amplifier](https://en.wikipedia.org/wiki/Negative-feedback_amplifier) - wikipedia
 * [Chapter 4 - Bipolar Junction Transistors - Feedback](https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/feedback/)
 * [10.1 Cascade of two single transistor stages](https://wiki.analog.com/university/courses/electronics/text/chapter-10) - Analog wiki
-* [Design of 2 stage BJT CE amplifier](http://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
+* [Design of 2 stage BJT CE amplifier](https://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
 * [Electronic Principles by Albert Paul Malvino](../../../books/electronic-principles/)
 * [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE)
 * [LEAP#389 TwoStageCommonEmitterAmplifier](../TwoStageCommonEmitterAmplifier)

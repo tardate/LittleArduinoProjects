@@ -60,5 +60,5 @@ output_differential: -1096 mV
 ## Credits and References
 
 * [#193: Back to Basics: the differential amplifier, aka long-tailed pair, diff-pair](https://youtu.be/mejPNuPAHBY) by w2aew
-* [w2aew's tutorial notes](http://www.qsl.net/w2aew//youtube/longtailedpair.pdf)
+* [w2aew's tutorial notes](https://www.qsl.net/w2aew/youtube/longtailedpair.pdf)
 * [S9013 datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
