@@ -49,16 +49,13 @@ mastodon_url: "https://ruby.social/@tardate"
 mastodon_name: "@tardate@ruby.social"
 instagram_username: "little.electronic.art.projects"
 twitter_username: tardate
-skype_username:
-steam_nickname:
-google_plus_id:
 linkedin_username: gallagherpaul
-angellist_username:
 medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
 bluesky_id: tardate.bsky.social
+qrz_id: KM7ABZ
 
 # Build settings
 markdown: kramdown
