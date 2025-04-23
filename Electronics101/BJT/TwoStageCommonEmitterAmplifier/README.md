@@ -117,20 +117,20 @@ predicted performance calculated as follows:
 
 DC analysis:
 
-* Vb = Vcc*Rb2/(Rb1 + Rb2) = 9V* 3.6kΩ/(20kΩ + 3.6kΩ) = [1.37V](https://www.wolframalpha.com/input/?i=9V+*+3.6k%CE%A9%2F(20k%CE%A9%2B3.6k%CE%A9))
-* Ve = Vb - 0.7V = 0.67V
-* Ie = Ve/Re = 0.67V/(200Ω) = [3.35mA](https://www.wolframalpha.com/input/?i=0.67V%2F200%CE%A9)
+* Vb = `Vcc x Rb2/(Rb1 + Rb2)` = `9V x 3.6kΩ/(20kΩ + 3.6kΩ)` = [1.37V](https://www.wolframalpha.com/input/?i=9V+*+3.6k%CE%A9%2F(20k%CE%A9%2B3.6k%CE%A9))
+* Ve = `Vb - 0.7V` = 0.67V
+* Ie = `Ve/Re` = `0.67V/(200Ω)` = [3.35mA](https://www.wolframalpha.com/input/?i=0.67V%2F200%CE%A9)
 * Ie ≅ Ic
-* Vrc = Ic *Rc = 3.35mA* 1kΩ = 3.35V
-* Vce = Vcc - (Vrc + Ve) = 9V - (3.35V + 0.67V) = [4.98V](https://www.wolframalpha.com/input/?i=9V-(3.35V%2B0.67V))
-* Isat = Vcc/(Re + Rc) = 9V/(200Ω + 1kΩ) = [7.5mA](https://www.wolframalpha.com/input/?i=9V%2F(200%CE%A9%2B1k%CE%A9))
+* Vrc = `Ic x Rc` = `3.35mA x 1kΩ` = 3.35V
+* Vce = `Vcc - (Vrc + Ve)` = `9V - (3.35V + 0.67V)` = [4.98V](https://www.wolframalpha.com/input/?i=9V-(3.35V%2B0.67V))
+* Isat = `Vcc/(Re + Rc)` = `9V/(200Ω + 1kΩ)` = [7.5mA](https://www.wolframalpha.com/input/?i=9V%2F(200%CE%A9%2B1k%CE%A9))
 
 Second stage:
 
 * assuming thermal voltage VT = kT/q = 25 mV
-* r'ej = VT/Ie = [7.5Ω](https://www.wolframalpha.com/input/?i=25mV%2F3.35mA)
+* r'ej = `VT/Ie` = [7.5Ω](https://www.wolframalpha.com/input/?i=25mV%2F3.35mA)
 * A2 = `Rc||RL/(Re2 + r'ej)` = `1k||2.2kΩ/(100Ω + 7.5Ω)` = [6.4](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9+%2B+1%2F2.2k%CE%A9)%2F(100%CE%A9%2B7.5%CE%A9))
-* Rin(base) = ß(Re2 + r'ej) = 100(100Ω + 7.5Ω) = 10.75kΩ
+* Rin(base) = `ß(Re2 + r'ej)` = `100(100Ω + 7.5Ω)` = [10.75kΩ](https://www.wolframalpha.com/input?i=100%28100%CE%A9+%2B+7.5%CE%A9%29)
 * Zin = `Rin(base)||Rb1||Rb2` = `10.75kΩ||20kΩ||3.6kΩ` = [2.38kΩ](https://www.wolframalpha.com/input/?i=1%2F(1%2F10.75k%CE%A9%2B1%2F20k%CE%A9%2B1%2F3.6k%CE%A9))
 * A1 = `Rc1||Zin/(Re1 + r'ej)` = `1kΩ||2.38kΩ/(100Ω + 7.5Ω)` = [6.55](https://www.wolframalpha.com/input/?i=1%2F(1%2F1k%CE%A9%2B1%2F2.38k%CE%A9)%2F(100%CE%A9+%2B+7.5%CE%A9))
 * Total gain A = A1 *A2 = 6.4* 6.55 = [41.92](https://www.wolframalpha.com/input/?i=6.4*6.55)
@@ -188,7 +188,7 @@ Testing with an ugly-style build:
 ## Credits and References
 
 * [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE) by The Offset Volt
-* [Design of 2 stage BJT CE amplifier](http://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
+* [Design of 2 stage BJT CE amplifier](https://ampdesigns.tripod.com/2_Stage_BJT_amplifier.html)
 * [Electronic Principles by Albert Paul Malvino](../../../books/electronic-principles/)
 * [Multistage Transistor Amplifiers](https://www.youtube.com/watch?v=FbdZ46VdTjE)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)

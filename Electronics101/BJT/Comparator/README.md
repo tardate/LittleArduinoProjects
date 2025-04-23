@@ -84,7 +84,7 @@ Here's a scope trace that captures some manual manipulation of the input and ref
 
 * [Comparator](https://en.wikipedia.org/wiki/Comparator) - wikipedia
 * [how would one design a comparator using just discrete BJTs](https://www.physicsforums.com/threads/bjt-comparator.470946/)
-* [Voltage Comparator Circuits](http://www.bristolwatch.com/ele/vc.htm)
+* [Voltage Comparator Circuits](https://www.bristolwatch.com/ele/vc.htm)
 * [OPERATIONAL AMPLIFIERS : part 17 (Operational amplifier models)](http://www.radio.walkingitaly.com/radio/RADIOSITO/za_fatti/tutorial/t_opamp/t_opamp_old/a1.htm)
 * [Op Amp Comparator Circuit](https://www.radio-electronics.com/info/circuits/opamp_comparator/op_amp_comparator.php)
 * [Art of Electronics](../../../books/the-art-of-electronics/) 2.22 Temperature controller, p105
