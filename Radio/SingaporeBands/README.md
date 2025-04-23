@@ -9,9 +9,10 @@ Notes on official band plans for Singapore and my and personal observations on w
 Singapore is relatively progressive when it comes to radio spectrum allocation and use - for example, AM services disappeared by 2000 or so,
 DAB came and went in 2011 (rendered irrelevant by Internet services and continued popularity of FM).
 With the almost universal adoption of mobile and internet technology, the general perception is that shortwave and amateur radio are pretty much a thing of the past.
-Singapore has an [amateur radio association (SARTS)](https://www.sarts.org.sg/) - which I am not a member of (yet).
+Singapore has an [amateur radio association (SARTS)](https://www.sarts.org.sg/).
 
 So as I become more interested in RF, my first question is basic: is there much activity, and if so, what modes and bands?
+I've got my FCC general license - [KM7ABZ](https://www.qrz.com/db/KM7ABZ) - but not my Singapore call sign (yet).
 
 This document is going to be a work-in-progress. It comprises my notes on:
 
@@ -246,16 +247,31 @@ Conditions:
 
 ![9v_70cm](./assets/9v_70cm.png?raw=true)
 
-## Shortwave Broadcast Services
+## Shortwave Broadcast Services covering Singapore
+
+The [BBC Far Eastern Relay Station](https://en.wikipedia.org/wiki/BBC_Far_Eastern_Relay_Station)
+was closed in July 2023, after 75 years of broadcasting. Since then, Singapore is only serviced by stations in Madagascar and Oman.
+
+See also:
+
+* [BBC World Service Schedule - South East Asia, summer 2025](https://downloads.bbc.co.uk/worldservice/schedules/frequencies/bbc_world_service_south_east_asia_frequencies.pdf)
+* <https://en.wikipedia.org/wiki/China_Radio_International>
+    * <https://english.cri.cn/> - official website
+    * <https://radio.cgtn.com/> - seems much more geared towards internet radio and podcast these days
+    * <https://www.short-wave.info/index.php?station=China%20Radio%20International> - still have a schedule of CRI shortwave, need to verify
+
+| Service                   | Frequency (kHz) | Meter Band | Language | Transmitter              | Scheduled Time (GMT)          |
+|---------------------------|-----------------|------------|----------|--------------------------|-------------------------------|
+| BBC World Service         | 21565           | 13m        |          | Madagascar               | 12:00 - 14:00                 |
+| BBC World Service         | 15310           | 19m        |          | Oman                     | 22:00 - 00:00                 |
+|                           |                 |            |          |                          |                               |                            |
+
+## Shortwave Broadcast Log
 
 The following is a personal log of shortwave broadcast services I have been able to receive in central Singapore.
 
 | Service                   | Frequency (kHz) | Meter Band | Language | Transmitter              | Scheduled Time (GMT)          | Received                   |
 |---------------------------|-----------------|------------|----------|--------------------------|-------------------------------|----------------------------|
-| BBC World Service         | 3915            | 75m        |          | Singapore                | 22:00 - 00:00                 |                            |
-| BBC World Service         | 6195            | 49m        |          | Singapore                | 10:00 - 13:00, 22:00 - 00:00  |                            |
-| BBC World Service         | 7300            | 41m        |          | Oman                     | 22:00 - 23:00                 |                            |
-| BBC World Service         | 9740            | 31m        |          | Singapore                | 10:00 - 13:00                 |                            |
 | Reach Beyond Australia    | 11865           | 25m        |          | Kununurra                | 11:30 - 12:45                 | 2018-01-31 Wed 20:57 UTC+8 |
 | China Radio International | 11910           | 25m        |          | Beijing 500 kw           | 13:00 - 13:57                 | 2018-01-31 Wed 21:55 UTC+8 |
 | China Radio International | 11710           | 25m        | Chinese  | Nanning 954 100 kw       | 07:00 - 08:00                 | 2019-03-23 Wed 15:08 UTC+8 |
@@ -284,6 +300,9 @@ The following is a personal log of shortwave broadcast services I have been able
 * [Broadcasting in Singapore](https://en.wikipedia.org/wiki/Broadcasting_in_Singapore)
 * [Broadcast Radio in Singapore](https://www.radio-singapore.com/) - listen live
 * [Radio Stations in Singapore](https://www.asiawaves.net/singapore-radio.htm)
-* [BBC World Service Global Short Wave Frequencies](https://www.bbc.co.uk/programmes/articles/2x9tqt6mc05vB2S37j8MWMJ/global-short-wave-frequencies)
-* [Shortwave Schedules around the world](https://shortwaveschedule.com/) - very reliable reference for scheduled shortwave broadcasts
-* [hfradio shortwave](https://hfradio.org/swbc/) - another resource for scheduled services; not particularly reliable it seems
+* <https://www.reversebeacon.net/> - excellent resource for hunting ham activity in the region
+* Shortwave Services
+    * <https://www.short-wave.info/index.php> - reference for scheduled shortwave broadcasts
+    * <https://shortwaveschedule.com/> - reference for scheduled shortwave broadcasts
+    * <https://hfradio.org/swbc/> - another resource for scheduled services; not particularly reliable. Currently not working correctly.
+    * [BBC World Service Global Short Wave Frequencies](https://www.bbc.co.uk/programmes/articles/2x9tqt6mc05vB2S37j8MWMJ/global-short-wave-frequencies)
