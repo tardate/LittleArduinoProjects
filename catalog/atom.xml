@@ -7,12 +7,22 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-04-16T15:28:00Z</updated>
+  <updated>2025-04-27T12:17:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/zenerdropper/</id>
+    <link href="https://leap.tardate.com/electronics101/power/zenerdropper/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/zenerdropper/assets/zenerdropper_build.jpg</g:image_link>
+    <updated>2025-04-27T12:17:00Z</updated>
+    <title>#772 Zener Dropper</title>
+    <summary>Using a zener diode as a voltage dropper/shifter</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using a zener diode as a voltage dropper/shifter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/zenerdropper/assets/zenerdropper_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/unor3base/</id>
     <link href="https://leap.tardate.com/playground/unor3base/"/>
@@ -5772,7 +5782,7 @@
     <link href="https://leap.tardate.com/electronics101/generalcurvetracer/"/>
     <g:image_link>https://leap.tardate.com/electronics101/generalcurvetracer/assets/generalcurvetracer_build.jpg</g:image_link>
     <updated>2016-09-06T07:43:25Z</updated>
-    <title>#245 GeneralCurveTracer</title>
+    <title>#245 General Curve Tracer</title>
     <summary>test a DC-powered general curve tracer circuit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a DC-powered general curve tracer circuit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/generalcurvetracer/assets/generalcurvetracer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
@@ -8184,8 +8194,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/linearregulators/zener/assets/zener_build.jpg</g:image_link>
     <updated>2021-07-20T17:12:56Z</updated>
     <title>#029 Zener Regulator</title>
-    <summary>demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/linearregulators/zener/assets/zener_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Using a zener diode as a voltage regulator</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using a zener diode as a voltage regulator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/linearregulators/zener/assets/zener_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
   </entry>
   <entry>

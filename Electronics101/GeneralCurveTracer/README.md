@@ -1,9 +1,8 @@
-# #245 GeneralCurveTracer
+# #245 General Curve Tracer
 
 Test a DC-powered general curve tracer circuit.
 
 ![GeneralCurveTracer_protoboard_build](./assets/GeneralCurveTracer_protoboard_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -16,10 +15,7 @@ X-Y signals are plotted on an oscilloscope to visualise the characteristic curve
 * X is the ground-referenced voltage at the anode of the DUT
 * Y is the voltage across the resistor at the cathode of the DUT, which is proportional to the current flowing through the DUT.
 
-
-
 NB: see w2aew's [#49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer](https://www.youtube.com/watch?v=Gwo3pEH7hUE) for an example of a classic AC-powered curve tracer.
-
 
 ### 100nF Capacitor
 
@@ -64,7 +60,6 @@ A common rectifier diode.
 NB: this curve is of two 1N4148's back-to-back - see note above.
 
 ![curve_1n4148](./assets/curve_1n4148.gif?raw=true)
-
 
 ## Construction
 
