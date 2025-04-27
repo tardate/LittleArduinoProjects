@@ -1,6 +1,6 @@
-# 756 Little Electronic Art Projects
+# 757 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Uno R3 Base](./playground/UnoR3Base) - Testing various printed bases and cases for the classic Arduino Uno.
+> Latest addition:sparkles: [Zener Dropper](./Electronics101/Power/ZenerDropper) - Using a zener diode as a voltage dropper/shifter
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

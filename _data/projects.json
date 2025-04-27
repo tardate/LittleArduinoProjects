@@ -1,4 +1,12 @@
 {
+    "/electronics101/power/zenerdropper/": {
+        "id": 772,
+        "title": "Zener Dropper",
+        "summary": "Using a zener diode as a voltage dropper/shifter",
+        "tags": [
+            "Power"
+        ]
+    },
     "/playground/unor3base/": {
         "id": 770,
         "title": "Uno R3 Base",
@@ -4733,7 +4741,7 @@
     },
     "/electronics101/generalcurvetracer/": {
         "id": 245,
-        "title": "GeneralCurveTracer",
+        "title": "General Curve Tracer",
         "summary": "test a DC-powered general curve tracer circuit",
         "tags": [
             "BJT",
@@ -6713,7 +6721,7 @@
     "/electronics101/power/linearregulators/zener/": {
         "id": 29,
         "title": "Zener Regulator",
-        "summary": "demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
+        "summary": "Using a zener diode as a voltage regulator",
         "tags": [
             "Power"
         ]

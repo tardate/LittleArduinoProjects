@@ -1,0 +1,9 @@
+{
+    "id": "#772",
+    "name": "Zener Dropper",
+    "description": "Using a zener diode as a voltage dropper/shifter",
+    "categories": "Power",
+    "relative_path": "Electronics101/Power/ZenerDropper",
+    "updated_at": "2025-04-27T12:17:00Z",
+    "created_at": "2025-04-27T12:17:00Z"
+}

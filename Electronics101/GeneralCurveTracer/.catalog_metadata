@@ -1,6 +1,6 @@
 {
     "id": "#245",
-    "name": "GeneralCurveTracer",
+    "name": "General Curve Tracer",
     "description": "test a DC-powered general curve tracer circuit",
     "categories": "BJT, Oscillators",
     "relative_path": "Electronics101/GeneralCurveTracer",

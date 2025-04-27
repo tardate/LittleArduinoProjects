@@ -1,52 +1,56 @@
 # #029 Zener Regulator
 
-Demonstrates using a 1N4733 Zener diode as a 5V regulator, using an Arduino to measure the voltage supply and plot the results with [Processing](https://www.processing.org).
+Using a zener diode as a voltage regulator.
 
 ![The Build](./assets/Zener_build.jpg?raw=true)
 
 ## Notes
 
-The 1N4733 zener diode is rated at 5.1V reverse-bias breakdown voltage.
-In reverse bias mode, it is able to sustain high current at a very constant value of the reverse-breakdown voltage.
-Note that other diodes in the 1N4728 - 1N4764 range are available for other zener voltages.
+Zener diodes are commonly used as simple [voltage regulators](https://en.wikipedia.org/wiki/Zener_diode#Voltage_regulator).
 
-For the zener diode under test, we get a stable voltage just a tad over 5V, as measure with a multimeter and the Arduino:
+The voltage regulator design puts the zener diode in parallel with the load, with a series resistor R to absorb any excess voltage drop:
 
-| Vout  | Derivation
-|-------|---------------
-| 5.05  | actual (DMM)
-| 5.05 | actual (Arduino)
+[![VoltageRegulator](./assets/VoltageRegulator.png)](https://en.wikipedia.org/wiki/Zener_diode#Voltage_regulator)
 
-Here's a sample trace of the voltage as measured by the Arduino:
+As long as Vin is greater than the zener breakdown voltage, `Vout = Vzener`
 
-![processing trace](./assets/processing_trace.png?raw=true)
+* The zener diode will not conduct until Vin reaches the zener breakdown voltage, so in low voltage conditions, the load voltage will follow Vin
+* Since the zener only carries the "overflow" current, load current is not really a factor in its performance
+    * however it is important to ensure that the series resistor R is able to handle the voltage drop `Vin-Vzener` at the expected load current
 
-### Measure Voltage with an Arduino
+[![VoltageRegulator2](./assets/VoltageRegulator2.png)](https://en.wikipedia.org/wiki/Zener_diode#Voltage_regulator)
 
-Reading voltages with analog pins presents two challenges:
+### Testing the Behaviour
 
-* The internal ADC has 10 bit resolution (0 - 1023) with 2 bit precision, so the accuracy is 0.25%
-* The internal reference voltage (i.e. what 1023 will equal in volts) is nominally 5V but in practice is not very accurate (the board used for this test runs at about 4.93V)
+The test circuit uses a 3.3V 1N4728 zener diode in parallel with a 10kΩ "load" resistor.
 
-For our purposes here, the ADC accuracy is not a big problem.
-To overcome the reference voltage accuracy issue, the sketch scales the voltage reading according to the actual reference voltage of the board.
-This must be measured with a multimeter and the `vref_mv` constant changed to this value (in mV).
+A signal generator is used to feed a sawtooth wave, buffered by an LM358 voltage follower in order to provide sufficient drive power.
+The LM358 is powered from 12V to provide sufficient headroom for the test.
 
-For more detail, John Errington's Experiments with an Arduino includes an excellent study of [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm).
+![bb](./assets/Zener_bb.jpg?raw=true)
 
-### Construction
+![schematic](./assets/Zener_schematic.jpg?raw=true)
 
-The Arduino only acts as a measurement device in this circuit.
-Analog pin is used to read Vout via a voltage divider (Rd1/Rd2). The voltage divider is to ensure that the Arduino never sees more than half the battery voltage (4.5V) on the analog pin.
+![bb_build](./assets/Zener_bb_build.jpg?raw=true)
 
-[LEAP#090 PlotNValues (a simple Processing sketch)](../../../../playground/PlotNValues/) reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
+![bb_test](./assets/Zener_bb_test.jpg?raw=true)
 
-![The Breadboard](./assets/Zener_bb.jpg?raw=true)
+In the following trace:
 
-![The Schematic](./assets/Zener_schematic.jpg?raw=true)
+* CH1 (Yellow) - Vin
+* CH2 (Blue) - Vout
+* CH3 (Red) - Signal In
+    * 100 Hz sawtooth, 6V peak-peak, offset +1V (1 min, 7V max)
+
+![scope_test](./assets/scope_test.gif)
+
+Vout is measuring the voltage drop across the zener diode in parallel with the load resistor R1:
+
+* when the input voltage is below the zener breakdown voltage, Vout follows Vin
+* as the voltage approaches the zener breakdown voltage, Vout is clamped to the zener breakdown voltage
 
 ## Credits and References
 
-* [1N4733 datasheet](https://www.futurlec.com/Diodes/1N4733.shtml)
-* [Precise voltage measurement with the Arduino](http://www.skillbank.co.uk/arduino/measure.htm) from John Errington's Experiments with an Arduino
-* [Download Processing](https://www.processing.org/download/)
+* [Zener Voltage Regulator](https://en.wikipedia.org/wiki/Zener_diode#Voltage_regulator)
+* [1N4728 datasheet](https://www.futurlec.com/Diodes/1N4728.shtml)
+* [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
