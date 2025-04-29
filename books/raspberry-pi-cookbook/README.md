@@ -13,6 +13,9 @@ See also:
 * <https://www.oreilly.com/library/view/raspberry-pi-cookbook/9781449365288/>
 * <https://github.com/simonmonk/raspberrypi_cookbook>
 
+Note: the book is a bit out-dated now when it comes to operating system-specific procedures.
+Many things have changed in [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html).
+
 ## Contents
 
 ### 1. Setup and Management
@@ -42,11 +45,14 @@ See also:
 * 2.0. Introduction
 * 2.1. Connecting to a Wired Network
 * 2.2. Finding Out Your IP Address
+    * see [LEAP#730 Headless](../../RaspberryPi/Headless/)
 * 2.3. Setting a Static IP Address
+    * see [LEAP#730 Headless](../../RaspberryPi/Headless/)
 * 2.4. Setting the Network Name of a Raspberry Pi
 * 2.5. Setting Up a Wireless Connection
 * 2.6. Connecting with a Console Lead
 * 2.7. Controlling the Pi Remotely with SSH
+    * see [LEAP#730 Headless](../../RaspberryPi/Headless/)
 * 2.8. Controlling the Pi Remotely with VNC
 * 2.9. File Sharing on a Mac Network
 * 2.10. Sharing the Pi Screen on a Mac
