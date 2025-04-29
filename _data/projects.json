@@ -243,6 +243,14 @@
             "LED"
         ]
     },
+    "/raspberrypi/headless/": {
+        "id": 730,
+        "title": "Headless Raspberry Pi",
+        "summary": "How to configure Raspberry Pi OS for headless operation, including static IP and mDNS",
+        "tags": [
+            "Raspberry Pi"
+        ]
+    },
     "/electronics101/555timer/missingpulsedetector/": {
         "id": 729,
         "title": "Missing Pulse Detector",

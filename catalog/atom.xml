@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-04-27T12:17:00Z</updated>
+  <updated>2025-04-29T16:28:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -310,6 +310,16 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/raspberrypi/headless/</id>
+    <link href="https://leap.tardate.com/raspberrypi/headless/"/>
+    <g:image_link>https://leap.tardate.com/raspberrypi/headless/assets/headless_build.jpg</g:image_link>
+    <updated>2025-04-29T16:28:00Z</updated>
+    <title>#730 Headless Raspberry Pi</title>
+    <summary>How to configure Raspberry Pi OS for headless operation, including static IP and mDNS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;How to configure Raspberry Pi OS for headless operation, including static IP and mDNS&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/raspberrypi/headless/assets/headless_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Raspberry Pi"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/missingpulsedetector/</id>

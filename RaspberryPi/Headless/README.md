@@ -1,4 +1,4 @@
-# #xxx Headless Raspberry Pi
+# #730 Headless Raspberry Pi
 
 How to configure Raspberry Pi OS for headless operation, including static IP and mDNS.
 

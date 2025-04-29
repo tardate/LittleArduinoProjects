@@ -1,4 +1,4 @@
-# 757 Little Electronic Art Projects
+# 758 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Zener Dropper](./Electronics101/Power/ZenerDropper) - Using a zener diode as a voltage dropper/shifter
 
