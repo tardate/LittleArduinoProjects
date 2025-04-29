@@ -1,4 +1,4 @@
-# #xxx Using rust on the RPi
+# #773 Using rust on the RPi
 
 Installing rust on a Raspberry Pi and using it for GPIO programming, also test cross-compilation from macOS to Raspberry Pi.
 
