@@ -1,0 +1,7 @@
+{
+    "id": "#730",
+    "name": "Headless Raspberry Pi",
+    "description": "How to configure Raspberry Pi OS for headless operation, including static IP and mDNS",
+    "categories": "Raspberry Pi",
+    "relative_path": "RaspberryPi/Headless"
+}
