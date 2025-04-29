@@ -1,0 +1,7 @@
+[package]
+name = "blinky"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust_gpiozero = "0.2.1"

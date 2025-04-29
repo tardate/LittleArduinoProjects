@@ -1,4 +1,13 @@
 {
+    "/raspberrypi/rust/": {
+        "id": 773,
+        "title": "Using rust on the RPi",
+        "summary": "Installing rust on a Raspberry Pi and using it for GPIO programming, also test cross-compilation from macOS to Raspberry Pi.",
+        "tags": [
+            "Raspberry Pi",
+            "Rust"
+        ]
+    },
     "/electronics101/power/zenerdropper/": {
         "id": 772,
         "title": "Zener Dropper",

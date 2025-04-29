@@ -1,6 +1,6 @@
-# 758 Little Electronic Art Projects
+# 759 Little Electronic Art Projects
 
-> Latest addition:sparkles: [Zener Dropper](./Electronics101/Power/ZenerDropper) - Using a zener diode as a voltage dropper/shifter
+> Latest addition:sparkles: [Using rust on the RPi](./RaspberryPi/rust) - Installing rust on a Raspberry Pi and using it for GPIO programming, also test cross-compilation from macOS to Raspberry Pi.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
