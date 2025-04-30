@@ -1,0 +1,6 @@
+{
+    "name": "ICL7660",
+    "description": "About the ICL7660 CMOS Voltage Converter, and testing its use to convert a +5V supply to a ±5V supply.",
+    "categories": "Power, ICL7660",
+    "relative_path": "Electronics101/ICL7660"
+}

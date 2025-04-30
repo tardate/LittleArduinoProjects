@@ -80,4 +80,4 @@ Maybe the components I have on hand are not up to normal spec: purchased online 
 * [UA741CN datasheet](http://www.ti.com/lit/ds/symlink/ua741.pdf)
 * [TL072CP datasheet](https://www.futurlec.com/Linear/TL072CP.shtml)
 * [LF347N datasheet](https://www.futurlec.com/Linear/LF347N.shtml)
-* [NE5534P datasheet](http://www.ti.com/product/NE5534/datasheet)
+* [NE5534P datasheet](https://www.ti.com/document-viewer/NE5534/datasheet)
