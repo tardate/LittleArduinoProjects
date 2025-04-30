@@ -1,7 +1,6 @@
-# #207 FrequencyCounter
+# #207 Frequency Counter
 
 Test a CMOS frequency counter circuit with a 100Hz - 5MHz range
-
 
 ## Notes
 
@@ -72,7 +71,6 @@ At 5MHz, the NE5534P op amp output is quite distorted, however it is still good 
 
 ![counter_input_5MHz](./assets/counter_input_5MHz.gif?raw=true)
 
-
 ## Construction
 
 ![Breadboard](./assets/FrequencyCounter_bb.jpg?raw=true)
@@ -86,5 +84,5 @@ At 5MHz, the NE5534P op amp output is quite distorted, however it is still good 
 * [Frequency Counter Design](http://www.epanorama.net/sff/Test_equipment/Counters/Minimum%20Parts%20Count%20Frequency%20Counter.pdf) - Lloyd F. Botway, Electronics Sep 16 1976
 * [CD4026 Datasheet](https://www.futurlec.com/4000Series/CD4026.shtml)
 * [CD4047 datasheet](https://www.futurlec.com/4000Series/CD4047.shtml)
-* [NE5534P datasheet](http://www.ti.com/product/NE5534/datasheet)
+* [NE5534P datasheet](https://www.ti.com/document-viewer/NE5534/datasheet)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/06/littlearduinoprojects207-frequency.html)

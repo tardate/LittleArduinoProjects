@@ -44,5 +44,7 @@ That works fine, although it is equally possible to use a separate power supply 
 ## Credits and References
 
 * [LM324 Datasheet](https://www.futurlec.com/Linear/LM324N.shtml)
-* [Op-amp Astables](http://www.learnabout-electronics.org/Oscillators/osc42.php)
+* [Op-amp Astables](https://www.learnabout-electronics.org/Oscillators/osc42.php)
+* [Op-amp Square Wave Generator Using an Astable Multivibrator](https://www.allaboutcircuits.com/technical-articles/op-amp-and-transistor-analog-square-wave-oscillator-design/)
+* [Op-amp Multivibrator](https://www.electronics-tutorials.ws/opamp/op-amp-multivibrator.html)
 * [Download Processing](https://www.processing.org/download/)

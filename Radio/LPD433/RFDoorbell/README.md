@@ -90,4 +90,4 @@ and a JST connector for the doorbell wiring.
 * [1Lot= 1 pair (2pcs) 433Mhz RF transmitter and receiver Module link kit for arduino/ARM/MCU WL diy 315mhz wireless](https://www.aliexpress.com/item/1850319332.html) - aliexpress
 * [Sound Board IC Chip Module For DIY Toy 10pcs/lot Dingdong Tone Doorbell Music Voice Module](https://www.aliexpress.com/item/32661936820.html) - aliexpress
 * [LEAP#359 HS-088](../../../Audio/AudioEffectsChips/HS088)
-* [UA741CN datasheet](http://www.ti.com/lit/ds/symlink/ua741.pdf)
+* [UA741CN datasheet](https://www.ti.com/lit/ds/symlink/ua741.pdf)

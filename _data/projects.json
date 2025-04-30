@@ -252,6 +252,15 @@
             "LED"
         ]
     },
+    "/electronics101/icl7660/": {
+        "id": 731,
+        "title": "ICL7660",
+        "summary": "About the ICL7660 CMOS Voltage Converter, and testing its use to convert a +5V supply to a \u00b15V supply.",
+        "tags": [
+            "Power",
+            "ICL7660"
+        ]
+    },
     "/raspberrypi/headless/": {
         "id": 730,
         "title": "Headless Raspberry Pi",
@@ -3427,7 +3436,7 @@
         "tags": [
             "LM723",
             "Power",
-            "Oscillator"
+            "Oscillators"
         ]
     },
     "/electronics101/lm723/highvoltageregulator/": {
@@ -5115,7 +5124,7 @@
     },
     "/electronics101/frequencycounter/": {
         "id": 207,
-        "title": "FrequencyCounter",
+        "title": "Frequency Counter",
         "summary": "test a CMOS frequency counter circuit with 100Hz - 5MHz range",
         "tags": [
             "CMOS/TTL",
