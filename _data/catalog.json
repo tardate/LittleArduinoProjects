@@ -210,6 +210,16 @@
         "original_relative_path": "Electronics101/DigitalLogic/DigitalClockKit"
     },
     {
+        "id": "#739",
+        "name": "Nucleo-64 Case",
+        "description": "Testing various 3D printed bases and cases for the STM32 Nucleo-64 development board with STM32U385RG.",
+        "categories": "STM32",
+        "relative_path": "arm/nucleo64case",
+        "updated_at": "2025-04-30T14:53:00Z",
+        "created_at": "2025-04-30T14:53:00Z",
+        "original_relative_path": "ARM/Nucleo64Case"
+    },
+    {
         "id": "#738",
         "name": "Active Filter Cookbook",
         "description": "Book notes: Active Filter Cookbook, by Don Lancaster. First published January 1, 1996.",

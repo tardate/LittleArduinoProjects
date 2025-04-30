@@ -188,6 +188,14 @@
             "CMOS/TTL"
         ]
     },
+    "/arm/nucleo64case/": {
+        "id": 739,
+        "title": "Nucleo-64 Case",
+        "summary": "Testing various 3D printed bases and cases for the STM32 Nucleo-64 development board with STM32U385RG.",
+        "tags": [
+            "STM32"
+        ]
+    },
     "/books/active-filter-cookbook/": {
         "id": 738,
         "title": "Active Filter Cookbook",

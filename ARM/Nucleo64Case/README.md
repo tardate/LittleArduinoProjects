@@ -1,4 +1,4 @@
-# #xxx Nucleo-64 Case
+# #739 Nucleo-64 Case
 
 Testing various 3D printed bases and cases for the STM32 Nucleo-64 development board with STM32U385RG.
 
