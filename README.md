@@ -1,4 +1,4 @@
-# 760 Little Electronic Art Projects
+# 761 Little Electronic Art Projects
 
 > Latest addition:sparkles: [Using rust on the RPi](./RaspberryPi/rust) - Installing rust on a Raspberry Pi and using it for GPIO programming, also test cross-compilation from macOS to Raspberry Pi.
 
