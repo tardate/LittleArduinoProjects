@@ -280,6 +280,16 @@
         "original_relative_path": "Electronics101/LED/FlickerKit"
     },
     {
+        "id": "#731",
+        "name": "ICL7660",
+        "description": "About the ICL7660 CMOS Voltage Converter, and testing its use to convert a +5V supply to a \u00b15V supply.",
+        "categories": "Power, ICL7660",
+        "relative_path": "electronics101/icl7660",
+        "updated_at": "2025-04-30T13:04:00Z",
+        "created_at": "2025-04-30T13:04:00Z",
+        "original_relative_path": "Electronics101/ICL7660"
+    },
+    {
         "id": "#730",
         "name": "Headless Raspberry Pi",
         "description": "How to configure Raspberry Pi OS for headless operation, including static IP and mDNS",
@@ -3743,7 +3753,7 @@
         "id": "#385",
         "name": "BoldportClub/widlar",
         "description": "hacking the BoldportClub Widlar (Project #21) to get the classic \u03bcA723 to do something other than voltage regulation (LED blinky)",
-        "categories": "LM723, Power, Oscillator",
+        "categories": "LM723, Power, Oscillators",
         "relative_path": "boldportclub/widlar",
         "updated_at": "2018-04-29T17:02:07Z",
         "created_at": "2018-04-29T17:02:07Z",
@@ -5521,7 +5531,7 @@
     },
     {
         "id": "#207",
-        "name": "FrequencyCounter",
+        "name": "Frequency Counter",
         "description": "test a CMOS frequency counter circuit with 100Hz - 5MHz range",
         "categories": "CMOS/TTL, Oscillators",
         "relative_path": "electronics101/frequencycounter",

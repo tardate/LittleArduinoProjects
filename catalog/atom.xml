@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-04-29T19:10:00Z</updated>
+  <updated>2025-04-30T13:04:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -321,6 +321,17 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/icl7660/</id>
+    <link href="https://leap.tardate.com/electronics101/icl7660/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/icl7660/assets/icl7660_build.jpg</g:image_link>
+    <updated>2025-04-30T13:04:00Z</updated>
+    <title>#731 ICL7660</title>
+    <summary>About the ICL7660 CMOS Voltage Converter, and testing its use to convert a +5V supply to a ±5V supply.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the ICL7660 CMOS Voltage Converter, and testing its use to convert a +5V supply to a ±5V supply.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/icl7660/assets/icl7660_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="ICL7660"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/raspberrypi/headless/</id>
@@ -4192,7 +4203,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do something other than voltage regulation (LED blinky)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/widlar/assets/widlar_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LM723"/>
     <category term="Power"/>
-    <category term="Oscillator"/>
+    <category term="Oscillators"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm723/highvoltageregulator/</id>
@@ -6236,7 +6247,7 @@
     <link href="https://leap.tardate.com/electronics101/frequencycounter/"/>
     <g:image_link>https://leap.tardate.com/electronics101/frequencycounter/assets/frequencycounter_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#207 FrequencyCounter</title>
+    <title>#207 Frequency Counter</title>
     <summary>test a CMOS frequency counter circuit with 100Hz - 5MHz range</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a CMOS frequency counter circuit with 100Hz - 5MHz range&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/frequencycounter/assets/frequencycounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
