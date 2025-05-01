@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Release Notes for STM32U3xx_Nucleo BSP Drivers</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../../_htmresc/mini-st_2020.css" />
+  <link rel="icon" type="image/x-icon" href="_htmresc/favicon.png" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12 col-lg-4">
+<center>
+<h1 id="release-notes-for-stm32u3xx_nucleo-bsp-drivers">Release Notes
+for <mark>STM32U3xx_Nucleo BSP Drivers</mark></h1>
+<p>Copyright © 2024 STMicroelectronics<br />
+</p>
+<a href="https://www.st.com" class="logo"><img
+src="_htmresc/st_logo_2020.png" alt="ST logo" /></a>
+</center>
+<h1 id="purpose">Purpose</h1>
+<p>The BSP (Board Specific Package) drivers are parts of the STM32Cube
+package based on the HAL drivers and provide a set of high level APIs
+relative to the hardware components and features in the evaluation
+boards, discovery kits and nucleo boards coming with the STM32Cube
+package for a given STM32 series.</p>
+<p>The BSP drivers allow a quick access to the boards’ services using
+high level APIs and without any specific configuration as the link with
+the HAL and the external components is done in intrinsic within the
+drivers.</p>
+<p>From project settings points of view, user has only to add the
+necessary driver’s files in the workspace and call the needed functions
+from examples. However some low level configuration functions are weak
+and can be overridden by the applications if user wants to change some
+BSP drivers default behavior.</p>
+</div>
+<section id="update-history" class="col-sm-12 col-lg-8">
+<h1>Update History</h1>
+<div class="collapse">
+<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<label for="collapse-section3" aria-hidden="true"><strong>V1.0.0 /
+30-October-2024</strong></label>
+<div>
+<h2 id="first-release">First Release</h2>
+<ul>
+<li>First Official Release of STM32CubeU3 HAL/LL Drivers supporting
+STM32U375xx/STM32U385xx devices</li>
+</ul>
+<h2 id="contents">Contents</h2>
+<ul>
+<li>Release of board drivers for <strong>NUCLEO-U385RG-Q board</strong>
+<ul>
+<li>in line with STM32Cube BSP drivers development guidelines (UM2298 -
+revision 2)</li>
+</ul></li>
+</ul>
+<h2 id="known-limitations">Known Limitations</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="dependencies">Dependencies</h2>
+<ul>
+<li>None</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>stm32u3xx_nucleo_conf_template.h file must be copied in user
+application as stm32u3xx_nucleo_conf.h with optional configuration
+update</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+<footer class="sticky">
+For complete documentation on <mark>STM32 Microcontrollers</mark> ,
+visit: <span style="font-color: blue;"><a
+href="http://www.st.com/STM32">www.st.com</a></span>
+</footer>
+</body>
+</html>

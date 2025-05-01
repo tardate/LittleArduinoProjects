@@ -1,0 +1,15 @@
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:137:9:BSP_GetVersion	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:146:16:BSP_GetBoardName	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:155:16:BSP_GetBoardID	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:167:9:BSP_LED_Init	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:201:9:BSP_LED_DeInit	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:229:9:BSP_LED_On	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:252:9:BSP_LED_Off	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:275:9:BSP_LED_Toggle	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:298:9:BSP_LED_GetState	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:325:9:BSP_PB_Init	2
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:370:9:BSP_PB_DeInit	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:388:9:BSP_PB_GetState	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:398:6:BSP_PB_IRQHandler	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:408:13:BSP_PB_Callback	1
+../Drivers/BSP/STM32U3xx_Nucleo/stm32u3xx_nucleo.c:641:13:BUTTON_USER_EXTI_Callback	1

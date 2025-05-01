@@ -1,0 +1,4 @@
+../Core/Src/main.c:66:5:main	1
+../Core/Src/main.c:122:6:SystemClock_Config	6
+../Core/Src/main.c:182:13:MX_ICACHE_Init	3
+../Core/Src/main.c:217:6:Error_Handler	1

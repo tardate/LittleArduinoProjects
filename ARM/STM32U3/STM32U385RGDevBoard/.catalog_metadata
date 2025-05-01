@@ -1,6 +1,6 @@
 {
-    "name": "STM32U385RGDevBoard",
-    "description": "",
-    "categories": "",
+    "name": "STM32U385RG Dev Board",
+    "description": "About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.",
+    "categories": "STM32",
     "relative_path": "ARM/STM32U3/STM32U385RGDevBoard"
 }
