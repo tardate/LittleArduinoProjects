@@ -1,4 +1,4 @@
-# #xxx STM32U385RG Dev Board
+# #774 STM32U385RG Dev Board
 
 About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.
 

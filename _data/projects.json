@@ -1,4 +1,12 @@
 {
+    "/arm/stm32u3/stm32u385rgdevboard/": {
+        "id": 774,
+        "title": "STM32U385RG Dev Board",
+        "summary": "About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.",
+        "tags": [
+            "STM32"
+        ]
+    },
     "/raspberrypi/rust/": {
         "id": 773,
         "title": "Using rust on the RPi",
