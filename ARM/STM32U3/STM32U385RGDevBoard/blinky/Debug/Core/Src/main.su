@@ -1,0 +1,4 @@
+../Core/Src/main.c:66:5:main	16	static
+../Core/Src/main.c:122:6:SystemClock_Config	88	static
+../Core/Src/main.c:182:13:MX_ICACHE_Init	8	static
+../Core/Src/main.c:217:6:Error_Handler	4	static,ignoring_inline_asm

@@ -13,9 +13,11 @@ The following are the designs I have checked out so far, printed at the [library
 [NUCLEO-U385RG-Q](https://www.st.com/en/evaluation-tools/nucleo-u385rg-q.html)
 STM32 Nucleo-64 development board with STM32U385RG, supports Arduino and ST morpho connectivity
 
+![nucleo-u385rg-q](./assets/nucleo-u385rg-q.jpg)
+
 Board reference MB1841
 
-![nucleo-u385rg-q](./assets/nucleo-u385rg-q.jpg)
+![MB1841-board-dimensions](./assets/MB1841-board-dimensions.jpg)
 
 ## Base 1: STM32 Nucleo coaster
 

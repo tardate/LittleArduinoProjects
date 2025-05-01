@@ -30,7 +30,7 @@ STM32F103C8T6 core board main features, quoting one of the sellers:
 10. 1 power indicator
 11. A function indicator, used to verify the basic functions of the IO port
 12. Reserved serial port download interface, easy to connect with 5V development board, you can download the program by serial port
-13, the use of two large-capacity filter capacitors to improve the stability of the product and anti-interference
+13. the use of two large-capacity filter capacitors to improve the stability of the product and anti-interference
 14. Size: 45x62mm
 
 The seller offers [programming software](https://pan.baidu.com/s/1o8wTzp4) but it is behind a membership wall, and it is probably Windows only,
@@ -80,7 +80,7 @@ On the 48pin board, this requires adding a patch wire on each pin.
 
 Console log from the programming phase:
 
-```
+```sh
 Sketch uses 14012 bytes (21%) of program storage space. Maximum is 65536 bytes.
 Global variables use 2464 bytes (12%) of dynamic memory, leaving 18016 bytes for local variables. Maximum is 20480 bytes.
 /Users/paulgallagher/Library/Arduino15/packages/stm32duino/tools/stm32tools/2018.4.29/macosx/serial_upload cu.wchusbserial1420 {upload.altID} {upload.usbID} /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_499495/Blinky.ino.bin
