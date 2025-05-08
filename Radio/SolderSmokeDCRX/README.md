@@ -33,7 +33,7 @@ Other than that, the build follows the official SolderSmoke schematic and parts 
 
 I used the [laser cutters at our local library](../../Equipment/NLB/LionsforgeCraftlaser/) to cut and etch a custom base. The library is a great resource: it's also where I [printed the PTO former](../../Equipment/NLB/FlashforgeCreatorPro2/).
 
-To get on the air from my apartment in Singapore, I'm using an MLA-30 Active Loop antenna,
+To get on the air from my apartment in Singapore, I'm using an [MLA-30+ Active Loop](../MLA30ActiveLoop/) antenna,
 with a [PLJ-1601](../../Equipment/PLJ1601/) frequency counter attached to the PTO to take some of the guesswork out of tuning.
 
 ### How it works: Just Four Stages
@@ -436,7 +436,7 @@ All mounted on the base:
 > While the students could use a wide variety of antennas, we recommended a simple ¼ wave antenna with a ¼ wave counterpoise.  We thought that this antenna – of only 33 feet in length would provide good performance with low complexity, and would be well suited to the “upper floor bedrooms” from  which many of the students would be listening.  Also, this antenna would not require the use of coaxial cable or an impedance matching transformer. We made a video on how to build and use this antenna.
 
 I am operating indoors from a 15th floor apartment in Singapore, so antennas can be a problem unless I go mobile.
-For initial tests at home, I'm using an MLA-30 Active Loop antenna, and it is proving pretty effective.
+For initial tests at home, I'm using an [MLA-30+ Active Loop](../MLA30ActiveLoop/) antenna, and it is proving pretty effective.
 
 On one of my first tests, I picked up a clear signal in the 41m shortwave bands: China Radio International on 7215 kHz,
 from a transmitter in [Xianyang](https://maps.app.goo.gl/bCiRN9Rne38vb2y66).
@@ -510,7 +510,7 @@ With the audio transformer replaced in the receiver:
 
 With accessories:
 
-* MLA-30 Active Loop antenna
+* [MLA-30+ Active Loop](../MLA30ActiveLoop/) antenna
 * [PLJ-1601](../../Equipment/PLJ1601/) frequency counter
 
 ![full-build02a](./assets/full-build02a.jpg)
@@ -520,6 +520,11 @@ Here's my official "proof of life" demo! I found a few signals today:
 * Shortwave on 7215 kHz - China Radio International broadcasting from [Xianyang/NRTA594 500 kW](https://maps.app.goo.gl/bCiRN9Rne38vb2y66), about 3200km from my QTH
 * Some Malaysian rag chewing on 7005 kHz
 * Briefly caught some CW on 7028 kHz
+
+I got a
+[nice shout-out](https://soldersmoke.blogspot.com/2025/05/paul-9v1km7abzs-fb-singapore.html)
+and entry into the
+[DC RX Hall of Fame](https://soldersmoke.blogspot.com/search/label/DC%20RX%20Hall%20of%20Fame)!
 
 [![clip](https://img.youtube.com/vi/Pek-wT96I2Q/0.jpg)](https://www.youtube.com/watch?v=Pek-wT96I2Q)
 
@@ -541,3 +546,7 @@ Here's my official "proof of life" demo! I found a few signals today:
     * [T50-6](https://toroids.info/T50-6.php)
     * [FT50-43](https://toroids.info/FT50-43.php)
     * [Xicon 42TL013-RC](https://www.mouser.sg/ProductDetail/Xicon/42TL013-RC)
+* Related projects:
+    * [LEAP#744 MLA-30+ Active Loop](../MLA30ActiveLoop/) antenna
+    * [LEAP#741 PLJ-1601](../../Equipment/PLJ1601/) frequency counter
+    * [LEAP#327 RF Diode Ring Mixer](../../Electronics101/Mixers/RFDiodeRing/)

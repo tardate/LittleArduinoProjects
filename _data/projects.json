@@ -195,6 +195,14 @@
             "Books"
         ]
     },
+    "/radio/mla30activeloop/": {
+        "id": 744,
+        "title": "MLA-30+ Active Loop Antenna",
+        "summary": "About the MLA-30+ Active Loop Antenna, designed to receive MW/SW/HF from 500kHz to 30MHz.",
+        "tags": [
+            "Radio"
+        ]
+    },
     "/electronics101/mcp601/buffer/": {
         "id": 743,
         "title": "MCP601 Buffer",

@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-05-17T02:25:00Z</updated>
+  <updated>2025-05-19T05:25:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -252,6 +252,16 @@
     <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/radio/mla30activeloop/</id>
+    <link href="https://leap.tardate.com/radio/mla30activeloop/"/>
+    <g:image_link>https://leap.tardate.com/radio/mla30activeloop/assets/mla30activeloop_build.jpg</g:image_link>
+    <updated>2025-05-19T05:25:00Z</updated>
+    <title>#744 MLA-30+ Active Loop Antenna</title>
+    <summary>About the MLA-30+ Active Loop Antenna, designed to receive MW/SW/HF from 500kHz to 30MHz.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the MLA-30+ Active Loop Antenna, designed to receive MW/SW/HF from 500kHz to 30MHz.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/mla30activeloop/assets/mla30activeloop_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/mcp601/buffer/</id>

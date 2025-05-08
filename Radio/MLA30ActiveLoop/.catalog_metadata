@@ -1,0 +1,9 @@
+{
+    "id": "#744",
+    "name": "MLA-30+ Active Loop Antenna",
+    "description": "About the MLA-30+ Active Loop Antenna, designed to receive MW/SW/HF from 500kHz to 30MHz.",
+    "categories": "Radio",
+    "relative_path": "Radio/MLA30ActiveLoop",
+    "updated_at": "2025-05-19T05:25:00Z",
+    "created_at": "2025-05-19T05:25:00Z"
+}
