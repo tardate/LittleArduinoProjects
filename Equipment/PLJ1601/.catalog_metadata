@@ -1,0 +1,9 @@
+{
+    "id": "#741",
+    "name": "PLJ-1601 Frequency Counter",
+    "description": "Testing the PLJ-1601-C 0.1MHz-1.2GHz Frequency counter",
+    "categories": "Tools, Test Equipment",
+    "relative_path": "Equipment/PLJ1601",
+    "updated_at": "2025-05-09T16:13:00Z",
+    "created_at": "2025-05-09T16:13:00Z"
+}
