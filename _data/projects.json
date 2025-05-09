@@ -187,6 +187,15 @@
             "Books"
         ]
     },
+    "/equipment/plj1601/": {
+        "id": 741,
+        "title": "PLJ-1601 Frequency Counter",
+        "summary": "Testing the PLJ-1601-C 0.1MHz-1.2GHz Frequency counter",
+        "tags": [
+            "Tools",
+            "Test Equipment"
+        ]
+    },
     "/electronics101/digitallogic/digitalclockkit/": {
         "id": 740,
         "title": "Digital Clock Kit",

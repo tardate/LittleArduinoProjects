@@ -1,4 +1,4 @@
-# #xxx PLJ-1601 Frequency Counter
+# #741 PLJ-1601 Frequency Counter
 
 Testing the PLJ-1601-C 0.1MHz-1.2GHz Frequency counter.
 
