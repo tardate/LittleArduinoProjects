@@ -10,7 +10,8 @@ I bought the
 "PLJ-1601-C 0.1MHz-1.2GHz Frequency counter"
 back in 2015 for SGD$15.99 but haven't used it much beyond an unboxing test. IIRC, it didn't seem that accurate or useful so it got put aside...
 
-I just dug it out and finally figured out some of the "magic settings" required to get it to work. Not so bad after all! Just needs a case or base...
+I just dug it out again, and finally figured out some of the "magic settings" required to get it to work properly.
+It is not so bad after all! Now it just needs a case or base...
 
 Long story short, the two settings I made to get it working well:
 
