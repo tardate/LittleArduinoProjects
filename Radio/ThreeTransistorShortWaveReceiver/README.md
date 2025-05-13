@@ -116,7 +116,9 @@ Amongst others, two very strong signals for:
 * [Radio Free Asia](http://shortwaveschedule.com/index.php?station=268) transmitting on 17685 kHz with 250 KW from
 [Tinian Island](https://www.google.com.sg/maps/place/Tinian/@14.9924224,145.5673148,11.66z/data=!4m5!3m4!1s0x66df525597fe6bcf:0x79e4d5d171efc87f!8m2!3d15.0043455!4d145.6356577?hl=en)
 
-Here's a quick recording of me tuning in on Radio Free Asia, 17685 kHz. I'm using a Tecsun PL-660 to cross-check and verify:
+Here's a quick recording of me tuning in on Radio Free Asia, 17685 kHz. I'm using a
+[Tecsun PL-660](../../Equipment/PL660/)
+ to cross-check and verify:
 
 [![17685](https://img.youtube.com/vi/o7-lSoD7qCw/0.jpg)](https://www.youtube.com/watch?v=o7-lSoD7qCw)
 
