@@ -1,4 +1,4 @@
-# #xxx Tecsun PL-660
+# #742 Tecsun PL-660
 
 About the Tecsun PL-660 portable FM/MW/LW/SW/SSB/AIR band receiver.
 

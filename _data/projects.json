@@ -187,6 +187,15 @@
             "Books"
         ]
     },
+    "/equipment/pl660/": {
+        "id": 742,
+        "title": "Tecsun PL-660",
+        "summary": "About the Tecsun PL-660 portable FM/MW/LW/SW/SSB/AIR band receiver.",
+        "tags": [
+            "Tools",
+            "Radio"
+        ]
+    },
     "/equipment/plj1601/": {
         "id": 741,
         "title": "PLJ-1601 Frequency Counter",

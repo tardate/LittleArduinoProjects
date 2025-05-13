@@ -3,5 +3,7 @@
     "name": "Tecsun PL-660",
     "description": "About the Tecsun PL-660 portable FM/MW/LW/SW/SSB/AIR band receiver.",
     "categories": "Tools, Radio",
-    "relative_path": "Equipment/PL660"
+    "relative_path": "Equipment/PL660",
+    "updated_at": "2025-05-13T05:18:00Z",
+    "created_at": "2025-05-13T05:18:00Z"
 }
