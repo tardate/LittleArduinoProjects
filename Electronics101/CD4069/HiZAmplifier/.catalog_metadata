@@ -1,0 +1,6 @@
+{
+    "name": "CD4069 High-impedance Amplifier",
+    "description": "An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.",
+    "categories": "CMOS/TTL, CD4069",
+    "relative_path": "Electronics101/CD4069/HiZAmplifier"
+}
