@@ -2,7 +2,6 @@
 
 Test an inverting amplifier circuit using the ML741 discrete component opamp
 
-
 ## Notes
 
 This is a demonstration of an inverting amplifier circuit using the [ML741](../) discrete component opamp.
@@ -12,7 +11,7 @@ determined by the input and feedback resistor selection:
 
     Vout = - Rf/Rin * Vin
 
-![Op-Amp_Inverting_Amplifier](https://upload.wikimedia.org/wikipedia/commons/4/41/Op-Amp_Inverting_Amplifier.svg)
+[![Op-Amp_Inverting_Amplifier](../../OpAmp/assets/Op-Amp_Inverting_Amplifier.svg)](https://upload.wikimedia.org/wikipedia/commons/4/41/Op-Amp_Inverting_Amplifier.svg)
 
 ### How it works
 
@@ -38,18 +37,19 @@ but of course the feedback resistor can be replaced with a pot for manual variab
 
 ![The Build](./assets/InvertingAmplifier_build.jpg?raw=true)
 
-
 ## ML741 v "real" 741 Test
 
 Here are some results comparing the behaviour of a standard UA741CN chip with the ML741 (protoboard version).
 
 Setup:
+
 * power is 5V single rail, i.e. V- = GND
 * non-inverting input is fed a sine wave 200mVpp with 2.5V DC offset
 * the function generator sine wave input replaces the manual 10kΩ input pot in the schematic above (at node FG)
 * CH1 and CH2 signals are DC coupled and vertical shifted by -2.5V in the screenshots that follow
 
 Scope connections
+
 * CH1: non-inverting input
 * CH2: output
 
@@ -67,7 +67,6 @@ UA741CN:
 
 ![UA741CN_10kHz](./assets/UA741CN_10kHz.gif?raw=true)
 
-
 ### At 100kHz
 
 * phase shift has increased for both opamps
@@ -82,7 +81,6 @@ UA741CN:
 
 ![UA741CN_100kHz](./assets/UA741CN_100kHz.gif?raw=true)
 
-
 Measurements in action...
 
 ![Inverter_benchtest](./assets/InvertingAmplifier_benchtest.jpg?raw=true)
@@ -93,4 +91,3 @@ Measurements in action...
 * [LM741 Datasheet](https://www.futurlec.com/Linear/LM741CN.shtml)
 * [Inverting amplifier](https://en.wikipedia.org/wiki/Operational_amplifier_applications#Inverting_amplifier) - wikipedia
 * [The Op-amp Inverter](http://www.electronics-tutorials.ws/opamp/op-amp-building-blocks.html)
-
