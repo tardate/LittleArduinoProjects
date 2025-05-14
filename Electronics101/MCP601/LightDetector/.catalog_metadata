@@ -1,0 +1,6 @@
+{
+    "name": "Light Detector",
+    "description": "Demonstrating the MCP601 op-amp used in a light detection circuit with the 2CU84 photodiode.",
+    "categories": "MCP601, Photodiode, Sensors",
+    "relative_path": "Electronics101/MCP601/LightDetector"
+}
