@@ -1,6 +1,9 @@
 {
+    "id": "#743",
     "name": "MCP601 Buffer",
     "description": "Testing the unity gain buffer performance of the MCP601 2.7V to 6.0V Single Supply CMOS Op Amp.",
     "categories": "MCP601",
-    "relative_path": "Electronics101/MCP601/Buffer"
+    "relative_path": "Electronics101/MCP601/Buffer",
+    "updated_at": "2025-05-15T04:49:00Z",
+    "created_at": "2025-05-15T04:49:00Z"
 }

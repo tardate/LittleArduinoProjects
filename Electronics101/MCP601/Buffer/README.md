@@ -1,4 +1,4 @@
-# #xxx MCP601 Buffer
+# #743 MCP601 Buffer
 
 Testing the unity gain buffer performance of the MCP601 2.7V to 6.0V Single Supply CMOS Op Amp.
 
