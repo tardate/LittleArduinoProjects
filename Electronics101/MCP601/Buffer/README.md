@@ -91,6 +91,41 @@ Based on the results here, I would expect Gain Bandwidth Product only to become 
 [6.5](https://www.wolframalpha.com/input?i=2.8+MHz+%2F+430+kHz)
 or more.
 
+This makes sense, as:
+
+* Gain Bandwidth Product typically limits the small-signal frequency response, and
+* Slew Rate typically limits the large-signal response
+
+The amplitude at which the dominant factor crosses over between Gain Bandwidth Product and Slew Rate can be estimated:
+
+`Vpeak, crossover = (SR * Gain) / (2π * GBP )`
+
+So in the case of the MCP601 unity buffer: [0.1307V](https://www.wolframalpha.com/input?i=%281*2.3V%2F%C2%B5s%29%2F%282%CF%80*2.8MHz%29)
+
+Switching to 1 0.1V peak-peak signal at 2.5V offset.
+
+400kHz
+
+saved
+
+2.0 MHz
+
+saved
+
+2.7 MHz
+
+saved
+
+3.0
+
+saved
+
+6 MHz
+
+By 7MHz
+
+![test_gbp-7000](./assets/test_gbp-7000.gif)
+
 ### Common Mode Input Voltage Range
 
 The datasheet specifies
