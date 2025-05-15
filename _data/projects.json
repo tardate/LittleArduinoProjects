@@ -187,6 +187,14 @@
             "Books"
         ]
     },
+    "/electronics101/mcp601/buffer/": {
+        "id": 743,
+        "title": "MCP601 Buffer",
+        "summary": "Testing the unity gain buffer performance of the MCP601 2.7V to 6.0V Single Supply CMOS Op Amp.",
+        "tags": [
+            "MCP601"
+        ]
+    },
     "/equipment/pl660/": {
         "id": 742,
         "title": "Tecsun PL-660",

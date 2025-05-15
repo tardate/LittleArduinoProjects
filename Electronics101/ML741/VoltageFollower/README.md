@@ -9,7 +9,7 @@ The general operation of a voltage follower is for the output to follow the non-
 
     Vout = Vin
 
-![Gain_Buffer](https://upload.wikimedia.org/wikipedia/commons/f/f7/Op-Amp_Unity-Gain_Buffer.svg)
+[![Gain_Buffer](../../OpAmp/assets/Op-Amp_Unity-Gain_Buffer.svg)](https://upload.wikimedia.org/wikipedia/commons/f/f7/Op-Amp_Unity-Gain_Buffer.svg)
 
 ### How it works
 
