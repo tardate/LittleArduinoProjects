@@ -80,16 +80,55 @@ Now, as we've already seen, the slew rate will start to distort the signal way b
 
 At 400kHz, we see the slew rate distortion, but no attenuation of the output:
 
-![test_gbp-400](./assets/test_gbp-400.gif)
+![test_gbp-sq-400](./assets/test_gbp-sq-400.gif)
 
 By 500kHz, the upper limit of the output has been attenuated, but this is clearly due to the slew rate. It is around 430-440kHz that the attenuation really starts to have an effect.
 
-![test_gbp-500](./assets/test_gbp-500.gif)
+![test_gbp-sq-500](./assets/test_gbp-sq-500.gif)
 
 So, with a unity gain buffer, slew rate is the limiting factor, not Gain Bandwidth Product.
 Based on the results here, I would expect Gain Bandwidth Product only to become a factor with amplifier circuits having a gain of
 [6.5](https://www.wolframalpha.com/input?i=2.8+MHz+%2F+430+kHz)
 or more.
+
+This makes sense, as:
+
+* Gain Bandwidth Product typically limits the small-signal frequency response, and
+* Slew Rate typically limits the large-signal response
+
+The amplitude at which the dominant factor crosses over between Gain Bandwidth Product and Slew Rate can be estimated:
+
+`Vpeak, crossover = (SR * Gain) / (2π * GBP )`
+
+So in the case of the MCP601 unity buffer: [0.1307V](https://www.wolframalpha.com/input?i=%281*2.3V%2F%C2%B5s%29%2F%282%CF%80*2.8MHz%29)
+
+Switching to a 0.1V peak-peak signal at 2.5V offset,
+distortion due to the GBP becomes a little noticeable above 2 MHz,
+and attenuation really starts to drop off over 6 MHz.
+
+At 400kHz:
+
+![test_gbp-3000](./assets/test_gbp-400.gif)
+
+At 2.0 MHz:
+
+![test_gbp-3000](./assets/test_gbp-2000.gif)
+
+At 2.7 MHz:
+
+![test_gbp-3000](./assets/test_gbp-2700.gif)
+
+At 3.0 MHz:
+
+![test_gbp-3000](./assets/test_gbp-3000.gif)
+
+At 6 MHz:
+
+![test_gbp-6000](./assets/test_gbp-6000.gif)
+
+By 7MHz, amplitude is really starting to drop off:
+
+![test_gbp-7000](./assets/test_gbp-7000.gif)
 
 ### Common Mode Input Voltage Range
 
