@@ -1,10 +1,10 @@
 # #771 SolderSmoke DC RX
 
-Building the SolderSmoke Direct Conversion Radio Receiver
+Building the SolderSmoke Direct Conversion Radio Receiver and successfully capturing CW, voice, and SW across the 40m and 41m bands in Singapore.
 
 ![Build](./assets/SolderSmokeDCRX_build.jpg?raw=true)
 
-TLDR: And it was a success! For my "proof of life" demo I plucked a few signals from the air:
+TLDR: Success! For my "proof of life" demo I plucked a few signals from the air:
 
 * Shortwave on 7215 kHz - China Radio International broadcasting from [Xianyang/NRTA594 500 kW](https://maps.app.goo.gl/bCiRN9Rne38vb2y66), about 3200km from my QTH
 * Some Malaysian rag chewing on 7005 kHz
@@ -23,11 +23,18 @@ after Bill was a guest on [Ham Radio Workbench podcast #223](https://www.hamradi
 The receiver design is based on the project that
 the SolderSmoke crew originally did with a local high school:
 [High Schoolers Build a Radio Receiver](https://hackaday.io/project/190327-high-schoolers-build-a-radio-receiver).
-
 Note that the official source for all current information and documentation
 is on the [SolderSmoke Discord Server](https://discord.gg/Fu6B7yGxx2).
 
 What follows are the notes that I made as I built the receiver for myself.
+
+Everything went pretty smoothly. The only real issue I had was adding some caps to tame some persistent motor-boating in the audio amp.
+Other than that, the build follows the official SolderSmoke schematic and parts selections.
+
+I used the [laser cutters at our local library](../../Equipment/NLB/LionsforgeCraftlaser/) to cut and etch a custom base. The library is a great resource: it's also where I [printed the PTO former](../../Equipment/NLB/FlashforgeCreatorPro2/).
+
+To get on the air from my apartment in Singapore, I'm using an MLA-30 Active Loop antenna,
+with a [PLJ-1601](../../Equipment/PLJ1601/) frequency counter attached to the PTO to take some of the guesswork out of tuning.
 
 ### How it works: Just Four Stages
 
@@ -110,23 +117,23 @@ Build tutorial by Dean KK4DAS:
 
 Note: components came from my spare parts stash unless otherwise noted
 
-| Ref        | Value                                                       | Qty | Source        | Description             | Notes |
-|------------|-------------------------------------------------------------|-----|---------------|-------------------------|-------|
-| L1         | 1.48µH                                                      | 1   |               | variable inductor       | custom built - see below |
-| L2         | 10µH                                                        | 1   |               | RF Inductor - Leaded 5% |       |
-| C1,C2      | 660pF                                                       | -   |               | mica                    | use equivalent 3x 220pF in parallel |
-| C1,C2 (eq) | 220pF                                                       | 6   | Sim Lim Tower | mica                    |       |
-| C3         | 130pF                                                       | -   |               | ceramic                 | 130pF specified, use 140pF instead |
-| C3 (eq)    | 140pF                                                       | 1   |               | ceramic                 |       |
-| C4,C5,C6   | 100nF                                                       | 3   |               | MLCC                    |       |
-| R1,R2      | 10kΩ                                                        | 2   |               |                         |       |
-| R3         | 3.3kΩ                                                       | 1   |               |                         |       |
-| R4,R6      | 100Ω                                                        | 2   |               |                         |       |
-| R5         | 100kΩ                                                       | 1   |               |                         |       |
-| Q1         | [2N3904](https://www.futurlec.com/Transistors/2N3904.shtml) | 1   |               | NPN BJT                 |       |
-| Q2         | [J310](https://www.futurlec.com/Transistors/J310.shtml)     | 1   |               | N-channel JFET          |       |
-| D1         | BZX84C8V2L                                                  | -   |               | 8.2V 500W Zener         | BZX84C8V2L specified, replace with 1N4738 |
-| D1 (eq)    | [1N4738](https://www.futurlec.com/Diodes/1N4738.shtml)      | 1   |               | 8.2V 1W Zener Diode     |       |
+| Ref        | Value                                                       | Qty | Description             | Notes |
+|------------|-------------------------------------------------------------|-----|-------------------------|-------|
+| L1         | 1.48µH                                                      | 1   | variable inductor       | custom built - see below |
+| L2         | 10µH                                                        | 1   | RF Inductor - Leaded 5% |       |
+| C1,C2      | 660pF                                                       | -   | mica                    | use equivalent 3x 220pF in parallel |
+| C1,C2 (eq) | 220pF                                                       | 6   | mica                    | source: vendor in Sim Lim Tower |
+| C3         | 130pF                                                       | -   | ceramic                 | 130pF specified, use 140pF instead |
+| C3 (eq)    | 140pF                                                       | 1   | ceramic                 |       |
+| C4,C5,C6   | 100nF                                                       | 3   | MLCC                    |       |
+| R1,R2      | 10kΩ                                                        | 2   |                         |       |
+| R3         | 3.3kΩ                                                       | 1   |                         |       |
+| R4,R6      | 100Ω                                                        | 2   |                         |       |
+| R5         | 100kΩ                                                       | 1   |                         |       |
+| Q1         | [2N3904](https://www.futurlec.com/Transistors/2N3904.shtml) | 1   | NPN BJT                 |       |
+| Q2         | [J310](https://www.futurlec.com/Transistors/J310.shtml)     | 1   | N-channel JFET          |       |
+| D1         | BZX84C8V2L                                                  | -   | 8.2V 500W Zener         | BZX84C8V2L specified, replace with 1N4738 |
+| D1 (eq)    | [1N4738](https://www.futurlec.com/Diodes/1N4738.shtml)      | 1   | 8.2V 1W Zener Diode     |       |
 
 ### Making L1 Variable Inductor
 

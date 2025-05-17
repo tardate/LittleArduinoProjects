@@ -1,7 +1,7 @@
 {
     "id": "#771",
     "name": "SolderSmoke DC RX",
-    "description": "Building the SolderSmoke Direct Conversion Radio Receiver",
+    "description": "Building the SolderSmoke Direct Conversion Radio Receiver and successfully capturing CW, voice, and SW across the 40m and 41m bands in Singapore.",
     "categories": "Radio",
     "relative_path": "Radio/SolderSmokeDCRX"
 }
