@@ -30,6 +30,16 @@
         "original_relative_path": "Electronics101/Power/ZenerDropper"
     },
     {
+        "id": "#771",
+        "name": "SolderSmoke DC RX",
+        "description": "Building the SolderSmoke Direct Conversion Radio Receiver and successfully capturing CW, voice, and SW across the 40m and 41m bands in Singapore.",
+        "categories": "Radio",
+        "relative_path": "radio/soldersmokedcrx",
+        "updated_at": "2025-05-17T02:25:00Z",
+        "created_at": "2025-05-17T02:25:00Z",
+        "original_relative_path": "Radio/SolderSmokeDCRX"
+    },
+    {
         "name": "Uno R3 Base",
         "description": "Testing various printed bases and cases for the classic Arduino Uno.",
         "categories": "Arduino",

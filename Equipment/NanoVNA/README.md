@@ -71,7 +71,17 @@ The menu mmap for the version of the software that came pre-installed:
 
 ![menu-map](./assets/menu-map.jpg)
 
-### Measuring Impedances
+### Measuring Inductors and Capacitors
+
+nanoVNA - Measuring Inductors and Capacitors (Vers. 3) by Gregg Messenger - VE6WO
+
+[![nanoVNA - Measuring Inductors and Capacitors (Vers. 3)](https://img.youtube.com/vi/iJ1qKE5O0bY/0.jpg)](https://www.youtube.com/watch?v=iJ1qKE5O0bY)
+
+Using a nanoVNA to determine unknown inductance value
+
+[![Using a nanoVNA to determine unknown inductance value](https://img.youtube.com/vi/3LOEhvFII6c/0.jpg)](https://www.youtube.com/watch?v=3LOEhvFII6c)
+
+NanoVNA - Measuring Impedances by MegawattKS
 
 [![NanoVNA - Measuring Impedances](https://img.youtube.com/vi/Pk7pMguQDy4/0.jpg)](https://www.youtube.com/watch?v=Pk7pMguQDy4)
 

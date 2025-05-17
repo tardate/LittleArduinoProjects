@@ -24,6 +24,14 @@
             "Power"
         ]
     },
+    "/radio/soldersmokedcrx/": {
+        "id": 771,
+        "title": "SolderSmoke DC RX",
+        "summary": "Building the SolderSmoke Direct Conversion Radio Receiver and successfully capturing CW, voice, and SW across the 40m and 41m bands in Singapore.",
+        "tags": [
+            "Radio"
+        ]
+    },
     "/playground/unor3base/": {
         "id": 770,
         "title": "Uno R3 Base",

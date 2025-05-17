@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-05-15T04:49:00Z</updated>
+  <updated>2025-05-17T02:25:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -43,6 +43,16 @@
     <summary>Using a zener diode as a voltage dropper/shifter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a zener diode as a voltage dropper/shifter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/power/zenerdropper/assets/zenerdropper_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/radio/soldersmokedcrx/</id>
+    <link href="https://leap.tardate.com/radio/soldersmokedcrx/"/>
+    <g:image_link>https://leap.tardate.com/radio/soldersmokedcrx/assets/soldersmokedcrx_build.jpg</g:image_link>
+    <updated>2025-05-17T02:25:00Z</updated>
+    <title>#771 SolderSmoke DC RX</title>
+    <summary>Building the SolderSmoke Direct Conversion Radio Receiver and successfully capturing CW, voice, and SW across the 40m and 41m bands in Singapore.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the SolderSmoke Direct Conversion Radio Receiver and successfully capturing CW, voice, and SW across the 40m and 41m bands in Singapore.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/radio/soldersmokedcrx/assets/soldersmokedcrx_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/unor3base/</id>

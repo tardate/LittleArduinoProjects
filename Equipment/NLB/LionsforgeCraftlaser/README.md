@@ -24,6 +24,7 @@ The [starter training](./assets/makeit-digital-cutting-laser-crafting-starter-se
 
 * using [TinkerCAD](https://www.tinkercad.com/) to make a 3D model
 * export to SVG
+    * When importing from other programs to Inkscape, set DPI to 96 in your original SVG to avoid scaling issues (Inkscape 0.92 and later use 96 DPI).
 * use [Inkscape](https://inkscape.org/) as the laser G-code generating tool, but can also be used to edit objects.
     * Document properties: set drawing size to A3 Landscape to fit the dimensions of the laser cutter
     * import SVG file
