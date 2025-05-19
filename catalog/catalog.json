@@ -220,6 +220,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#744",
+        "name": "MLA-30+ Active Loop Antenna",
+        "description": "About the MLA-30+ Active Loop Antenna, designed to receive MW/SW/HF from 500kHz to 30MHz.",
+        "categories": "Radio",
+        "relative_path": "radio/mla30activeloop",
+        "updated_at": "2025-05-19T05:25:00Z",
+        "created_at": "2025-05-19T05:25:00Z",
+        "original_relative_path": "Radio/MLA30ActiveLoop"
+    },
+    {
         "id": "#743",
         "name": "MCP601 Buffer",
         "description": "Testing the unity gain buffer performance of the MCP601 2.7V to 6.0V Single Supply CMOS Op Amp.",
