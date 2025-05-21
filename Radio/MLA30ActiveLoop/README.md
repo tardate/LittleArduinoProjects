@@ -48,6 +48,10 @@ I used some 20mm PVC pip and fittings to mount the antenna.
 
 ![Build](./assets/MLA30ActiveLoop_build.jpg?raw=true)
 
+## Installation
+
+![installation](./assets/installation.jpg)
+
 ## Credits and References
 
 * [MLA-30 Active Receive Low Noise Loop Antenna Medium Short Wave 500kHz-30MHz Kit](https://www.aliexpress.com/item/1005007653379186.html)
