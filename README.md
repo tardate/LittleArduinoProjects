@@ -1,6 +1,6 @@
 # 767 Little Electronic Art Projects
 
-> Latest addition:sparkles: [STM32U385RG Dev Board](./ARM/STM32U3/STM32U385RGDevBoard) - About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.
+> Latest addition :sparkles: [STM32U385RG Dev Board](./ARM/STM32U3/STM32U385RGDevBoard) - About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
