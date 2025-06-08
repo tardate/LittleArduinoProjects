@@ -304,7 +304,7 @@ class Catalog(object):
 
         if len(lines) > 2:
             # Add the latest project details at the top of the README
-            lines[2] = "> Latest addition:sparkles: [{}](./{}) - {}\n".format(
+            lines[2] = "> Latest addition :sparkles: [{}](./{}) - {}\n".format(
                 latest_project['name'], latest_project['original_relative_path'], latest_project['description']
             )
 
