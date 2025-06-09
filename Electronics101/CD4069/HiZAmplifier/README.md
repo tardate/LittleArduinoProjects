@@ -1,4 +1,4 @@
-# #xxx CD4069 High-impedance Amplifier
+# #745 CD4069 High-impedance Amplifier
 
 An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.
 

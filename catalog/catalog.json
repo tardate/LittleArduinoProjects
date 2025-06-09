@@ -220,6 +220,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#745",
+        "name": "CD4069 High-impedance Amplifier",
+        "description": "An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.",
+        "categories": "CMOS/TTL, CD4069",
+        "relative_path": "electronics101/cd4069/hizamplifier",
+        "updated_at": "2025-06-09T12:42:00Z",
+        "created_at": "2025-06-09T12:42:00Z",
+        "original_relative_path": "Electronics101/CD4069/HiZAmplifier"
+    },
+    {
         "id": "#744",
         "name": "MLA-30+ Active Loop Antenna",
         "description": "About the MLA-30+ Active Loop Antenna, designed to receive MW/SW/HF from 500kHz to 30MHz.",
