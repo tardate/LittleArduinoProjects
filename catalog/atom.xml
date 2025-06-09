@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-05-19T05:25:00Z</updated>
+  <updated>2025-06-09T12:42:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -252,6 +252,17 @@
     <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/cd4069/hizamplifier/</id>
+    <link href="https://leap.tardate.com/electronics101/cd4069/hizamplifier/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/cd4069/hizamplifier/assets/hizamplifier_build.jpg</g:image_link>
+    <updated>2025-06-09T12:42:00Z</updated>
+    <title>#745 CD4069 High-impedance Amplifier</title>
+    <summary>An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4069/hizamplifier/assets/hizamplifier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="CD4069"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/mla30activeloop/</id>

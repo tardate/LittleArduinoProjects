@@ -195,6 +195,15 @@
             "Books"
         ]
     },
+    "/electronics101/cd4069/hizamplifier/": {
+        "id": 745,
+        "title": "CD4069 High-impedance Amplifier",
+        "summary": "An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.",
+        "tags": [
+            "CMOS/TTL",
+            "CD4069"
+        ]
+    },
     "/radio/mla30activeloop/": {
         "id": 744,
         "title": "MLA-30+ Active Loop Antenna",
