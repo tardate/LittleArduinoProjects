@@ -220,6 +220,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#747",
+        "name": "Using TextFinder",
+        "description": "Using the TextFinder library to extract fields from a string with an Arduino",
+        "categories": "Arduino, Serial",
+        "relative_path": "playground/usingtextfinder",
+        "updated_at": "2025-06-11T08:31:00Z",
+        "created_at": "2025-06-11T08:31:00Z",
+        "original_relative_path": "playground/UsingTextFinder"
+    },
+    {
         "id": "#746",
         "name": "Serial Control",
         "description": "Using serial commands to control and query information from an Arduino.",
