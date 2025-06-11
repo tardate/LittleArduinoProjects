@@ -1,4 +1,4 @@
-# #xxx Serial Control
+# #746 Serial Control
 
 Using serial commands to control and query information from an Arduino.
 
