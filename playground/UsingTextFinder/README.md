@@ -22,7 +22,14 @@ For more examples of its use, see:
 
 ### Serial Example
 
-The [UsingTextFinder.ino](./UsingTextFinder.ino) sketch demonstrates the basic usage of TextFinder with serial data.
+The [UsingTextFinder.ino](./UsingTextFinder.ino) sketch demonstrates the basic usage of TextFinder with serial data:
+
+* reading an integer
+* reading comma-separated list of integers
+* reading a floating point number
+* reading a string
+
+![ide-demo](./assets/ide-demo.png)
 
 ## Credits and References
 
