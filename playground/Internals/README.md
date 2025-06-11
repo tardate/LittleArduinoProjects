@@ -77,7 +77,7 @@ See for example [Re: Runtime determination of EEPROM size](http://forum.arduino.
 
 Here's an example of the full output
 
-```
+```text
 --------------------------------
 A Rundown of the Board Internals
 Compiled on Jul 28 2018 at 14:29:46 with Arduino IDE 10802.
@@ -185,9 +185,11 @@ MD5 sum of bootloader = 0xF5 0xC8 0xE3 0xC3 0x1C 0x04 0x4B 0xAE 0x0E 0x65 0x56 0
 
 Given last compilation with the Arduino IDE showed that it generated
 `/var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_427024/Internals.ino.elf` in the console,
-the  `avr-objdump` program was used to generate the map file:
+the  `avr-objdump` program was used to generate the [map](./Internals.map) file:
 
-    avr-objdump -t /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_427024/Internals.ino.elf > Internals.map
+```sh
+avr-objdump -t /var/folders/28/_tsmhg4172s_wy7vswfkzq9h0000gn/T/arduino_build_427024/Internals.ino.elf > Internals.map
+```
 
 It verifies some of the basic memory details reported by the sketch, like `__bss_end`.
 

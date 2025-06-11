@@ -74,9 +74,9 @@ See also:
 
 | Chapter                                                                       | Project Link |
 |-------------------------------------------------------------------------------|-------|
-| 4.1 Sending Debug Information from Arduino to Your Computer                   |       |
+| 4.1 Sending Debug Information from Arduino to Your Computer                   | [LEAP#746 Serial Control](../../playground/SerialControl/) |
 | 4.2 Sending Formatted Text and Numeric Data from Arduino                      |       |
-| 4.3 Receiving Serial Data in Arduino                                          |       |
+| 4.3 Receiving Serial Data in Arduino                                          | [LEAP#746 Serial Control](../../playground/SerialControl/) |
 | 4.4 Sending Multiple Text Fields from Arduino in a Single Message             |       |
 | 4.5 Receiving Multiple Text Fields in a Single Message in Arduino             |       |
 | 4.6 Sending Binary Data from Arduino                                          |       |

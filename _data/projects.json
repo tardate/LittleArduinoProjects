@@ -195,6 +195,15 @@
             "Books"
         ]
     },
+    "/playground/serialcontrol/": {
+        "id": 746,
+        "title": "Serial Control",
+        "summary": "Using serial commands to control and query information from an Arduino.",
+        "tags": [
+            "Arduino",
+            "Serial"
+        ]
+    },
     "/electronics101/cd4069/hizamplifier/": {
         "id": 745,
         "title": "CD4069 High-impedance Amplifier",

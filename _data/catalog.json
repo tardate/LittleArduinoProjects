@@ -220,6 +220,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#746",
+        "name": "Serial Control",
+        "description": "Using serial commands to control and query information from an Arduino.",
+        "categories": "Arduino, Serial",
+        "relative_path": "playground/serialcontrol",
+        "updated_at": "2025-06-11T06:25:00Z",
+        "created_at": "2025-06-11T06:25:00Z",
+        "original_relative_path": "playground/SerialControl"
+    },
+    {
         "id": "#745",
         "name": "CD4069 High-impedance Amplifier",
         "description": "An unusual use of the unbuffered CD4069 inverter - as a high-impedance amplifier.",

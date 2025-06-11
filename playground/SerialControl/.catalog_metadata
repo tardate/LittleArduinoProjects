@@ -1,0 +1,9 @@
+{
+    "id": "#746",
+    "name": "Serial Control",
+    "description": "Using serial commands to control and query information from an Arduino.",
+    "categories": "Arduino, Serial",
+    "relative_path": "playground/SerialControl",
+    "updated_at": "2025-06-11T06:25:00Z",
+    "created_at": "2025-06-11T06:25:00Z"
+}
