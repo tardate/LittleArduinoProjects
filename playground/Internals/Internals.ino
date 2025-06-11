@@ -22,8 +22,6 @@ extern "C" {
   #include "md5.h"
 }
 
-
-
 byte readFlash(unsigned long addr) {
 #if FLASHEND > 0xFFFF
     return pgm_read_byte_far(addr);
@@ -31,7 +29,6 @@ byte readFlash(unsigned long addr) {
     return pgm_read_byte_near(addr);
 #endif
 }
-
 
 typedef struct {
    byte sig[3];
@@ -44,8 +41,6 @@ const unsigned long kb = 1024;
 
 // number of items in an array
 #define NUMITEMS(arg) ((unsigned int) (sizeof (arg) / sizeof (arg [0])))
-
-
 
 // see Atmega328 datasheet page 298
 const signatureType signatures[] = {
@@ -107,7 +102,6 @@ const signatureType signatures[] = {
 
   // Atmega8A family
   { { 0x1E, 0x93, 0x07 }, "ATmega8A",    8 * kb,  256 },
-
 };
 
 // if signature found in above table, this is its index
@@ -205,7 +199,6 @@ void find_signature() {
 }
 
 
-
 /*
   display intro
  */
@@ -246,8 +239,6 @@ void processorDetails() {
   Serial.print(F("  Lock: "));
   fuse = boot_lock_fuse_bits_get(GET_LOCK_BITS);
   Serial.println(fuse, BIN);
-
-
 }
 
 

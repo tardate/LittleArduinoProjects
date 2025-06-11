@@ -56,7 +56,7 @@ A strip of 10-wire IDC cable is used to connect the RJ45 adapter to the main USB
 NB: the CH340G may require drivers to be installed - see [LEAP#406 UsbUartCH340G] where I covered this in detail.
 
 I'm using MacOSX, so (as with Linux) the most handy console utility is
-[screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_an_RS-232_.2F_general_serial_terminal).
+[screen](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes#using_screen_as_an_RS-232_.2F_general_serial_terminal).
 
 The device I am connecting to for a test requires 9600 baud, with 8 data bits, no parity and 1 stop bit.
 The CH340G adapter was connected on `/dev/tty.wchusbserial1410` device, so a screen session

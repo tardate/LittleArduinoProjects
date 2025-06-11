@@ -38,10 +38,10 @@ so I could for example, swap it with a male DE-9 or other connector.
 
 ## Connecting with Screen
 
-NB: the CH340G may require drivers to be installed - see [LEAP#406 UsbUartCH340G] where I covered this in detail.
+NB: the CH340G may require drivers to be installed - see [LEAP#406 UsbUartCH340G](../UsbUartCH340G/) where I covered this in detail.
 
-I'm using MacOSX, so (as with Linux) the most handy console utility is
-[screen](http://www.noah.org/wiki/Screen_notes#using_screen_as_an_RS-232_.2F_general_serial_terminal).
+I'm using macOS, so (as with Linux) the most handy console utility is
+[screen](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes#using_screen_as_an_RS-232_.2F_general_serial_terminal).
 
 The device I am connecting to for a test requires 9600 baud, with 8 data bits, no parity and 1 stop bit.
 The CH340G adapter was connected on `/dev/tty.wchusbserial1420` device, so a screen session
@@ -58,5 +58,5 @@ is started with the command:
 * [CH340G datasheet](http://androegg.de/wp-content/uploads/2016/07/CH340G_USB_TTL_Converter.pdf)
 * [MAX3232 product info and datasheet](https://www.ti.com/product/MAX3232)
 * [Mini RS232 to TTL Converter Adaptor Module Board MAX3232](https://www.aliexpress.com/item/32649292208.html) - aliexpress
-* [screen notes](http://www.noah.org/wiki/Screen_notes)
+* [screen notes](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes)
 * [DIY USB to RS232 Adapter](http://www.electronics-diy.com/electronic_schematic.php?id=1006) - another project, uses the CP2102 and MAX3243 chips
