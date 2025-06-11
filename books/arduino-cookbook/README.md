@@ -78,7 +78,7 @@ See also:
 | 4.2 Sending Formatted Text and Numeric Data from Arduino                      |       |
 | 4.3 Receiving Serial Data in Arduino                                          | [LEAP#746 Serial Control](../../playground/SerialControl/) |
 | 4.4 Sending Multiple Text Fields from Arduino in a Single Message             |       |
-| 4.5 Receiving Multiple Text Fields in a Single Message in Arduino             |       |
+| 4.5 Receiving Multiple Text Fields in a Single Message in Arduino             | [LEAP#747 Using TextFinder](../../playground/UsingTextFinder/) |
 | 4.6 Sending Binary Data from Arduino                                          |       |
 | 4.7 Receiving Binary Data from Arduino on a Computer                          |       |
 | 4.8 Sending Binary Values from Processing to Arduino                          |       |

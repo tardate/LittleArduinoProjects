@@ -1,0 +1,7 @@
+{
+    "id": "#747",
+    "name": "Using TextFinder",
+    "description": "Using the TextFinder library to extract fields from a string with an Arduino",
+    "categories": "Arduino, Serial",
+    "relative_path": "playground/UsingTextFinder"
+}
