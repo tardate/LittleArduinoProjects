@@ -45,6 +45,10 @@ To pull submodule updates later on:
 
     git submodule foreach git pull
 
+To update a specific library later on, e.g. `TextFinder`:
+
+    git submodule update --remote libraries/TextFinder
+
 ## The 10th Anniversary Archive
 
 I started the
