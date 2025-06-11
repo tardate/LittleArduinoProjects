@@ -34,7 +34,7 @@ The script can be compiled and uploaded from the IDE, and used with the built-in
 ### Using Screen
 
 I'm using macOS, so (as with Linux) the most handy console utility is
-[screen](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes#using_screen_as_an_RS-232_.2F_general_serial_terminal).
+[screen](https://codingkata.tardate.com/tools/screen/).
 
 The Arduino is showing up as a character and TTY device with ID 2420:
 
@@ -57,4 +57,4 @@ screen /dev/cu.usbmodem14511 115200
 
 * [Arduino reference: Serial](https://docs.arduino.cc/language-reference/en/functions/communication/serial/)
 * [Arduino Cookbook: 4. Serial Communications](../../books/arduino-cookbook/)
-* [screen notes](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes)
+* [screen notes](https://codingkata.tardate.com/tools/screen/)

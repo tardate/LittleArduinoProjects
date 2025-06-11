@@ -108,7 +108,7 @@ examples provided in the datasheet:
 ## Connecting with Screen
 
 I'm using MacOSX, so (as with Linux) the most handy console utility is
-[screen](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes#using_screen_as_an_RS-232_.2F_general_serial_terminal).
+[screen](https://codingkata.tardate.com/tools/screen/).
 
 The device I am connecting to for a test requires 9600 baud, with 8 data bits, no parity and 1 stop bit.
 The CH340G adapter was connected on `/dev/tty.wchusbserial14210` device, so a screen session
@@ -131,6 +131,6 @@ The USB adapter and MAX3232 module connected to the serial device:
 * [RS-232](https://en.wikipedia.org/wiki/RS-232) - wikipedia
 * [D-sub 9 Connector Pinout](https://www.db9-pinout.com/)
 * [Null modem](https://en.wikipedia.org/wiki/Null_modem) - wikipedia
-* [screen notes](https://web.archive.org/web/20200220232553/http://www.noah.org/wiki/Screen_notes)
+* [screen notes](https://codingkata.tardate.com/tools/screen/)
 * [Serial Communication – RS232 Basics](http://maxembedded.com/2013/09/serial-communication-rs232-basics/) - maxembedded
 * [Beginning Embedded Electronics - 4 - UART and Serial Communication](https://www.sparkfun.com/tutorials/104) - sparkfun tutorial
