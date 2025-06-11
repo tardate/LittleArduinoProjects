@@ -14,7 +14,7 @@ Done:
 * added LED effects (glow) using timer driver
 * added visual indicator when the build status is refreshed and builds-in-progress
 * the physical build - housing this in a suitable case for display
-* wrap up the doco
+* wrap up the documentation
 
 ## Notes
 

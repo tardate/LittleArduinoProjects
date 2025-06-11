@@ -1,4 +1,4 @@
-# 769 Little Electronic Art Projects
+# 770 Little Electronic Art Projects
 
 > Latest addition :sparkles: [STM32U385RG Dev Board](./ARM/STM32U3/STM32U385RGDevBoard) - About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.
 
@@ -44,6 +44,10 @@ If you clone this repo, also update the submodules to have them available for co
 To pull submodule updates later on:
 
     git submodule foreach git pull
+
+To update a specific library later on, e.g. `TextFinder`:
+
+    git submodule update --remote libraries/TextFinder
 
 ## The 10th Anniversary Archive
 

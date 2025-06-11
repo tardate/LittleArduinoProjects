@@ -59,7 +59,7 @@ void setup() {
 #ifdef SERIAL_DEBUG
     Serial.println("Failed to configure Ethernet using DHCP");
 #endif
-    // try to congifure using IP address instead of DHCP:
+    // try to configure using IP address instead of DHCP:
     Ethernet.begin(mac, ip);
   }
 
@@ -247,4 +247,3 @@ boolean sendRequest() {
     return false;
   }
 }
-

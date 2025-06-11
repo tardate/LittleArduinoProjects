@@ -195,6 +195,15 @@
             "Books"
         ]
     },
+    "/playground/usingtextfinder/": {
+        "id": 747,
+        "title": "Using TextFinder",
+        "summary": "Using the TextFinder library to extract fields from a string with an Arduino",
+        "tags": [
+            "Arduino",
+            "Serial"
+        ]
+    },
     "/playground/serialcontrol/": {
         "id": 746,
         "title": "Serial Control",
