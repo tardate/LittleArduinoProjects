@@ -13,7 +13,10 @@ const int LED_PIN = 13;
  */
 void setup() {
   Serial.begin(115200);
+  Serial.println(F("SerialControl ready"));
+
   pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
 }
 
 
@@ -42,6 +45,7 @@ void loop() {
       printUsage();
       break;
     }
+    Serial.println();
   }
 }
 
@@ -72,7 +76,7 @@ int readInteger() {
  * Command: print usage information
  */
 void printUsage() {
-  Serial.println(F("\nSerialControl commands:"));
+  Serial.println(F("SerialControl commands:"));
   Serial.println(F("d : show system information"));
   Serial.println(F("i : generate a random 8-bit integer"));
   Serial.println(F("s<length> : generate a random string of specified length"));
@@ -85,7 +89,7 @@ void printUsage() {
  * Command: print system information
  */
 void printSystemInformation() {
-  Serial.println(F("\nSystem Information:"));
+  Serial.println(F("System Information:"));
   Serial.print(F("CPU Frequency: "));
   Serial.print(F_CPU / 1000000);
   Serial.println(F(" MHz"));
@@ -124,7 +128,7 @@ void printSystemInformation() {
  */
 void printRandomInt() {
   int randomValue = random(0, INT8_MAX);
-  Serial.println(F("\nRandom Integer:"));
+  Serial.println(F("Random Integer:"));
   Serial.println(randomValue);
 }
 
@@ -134,7 +138,7 @@ void printRandomInt() {
 void printRandomString(int length) {
   const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
-  Serial.print(F("\nRandom String with length="));
+  Serial.print(F("Random String with length="));
   Serial.print(length);
   Serial.println(F(":"));
 
@@ -152,7 +156,7 @@ void printRandomString(int length) {
 void toggleLed() {
   static boolean output = HIGH;
 
-  Serial.print(F("\nLED on pin 13: turning LED "));
+  Serial.print(F("LED on pin 13: turning LED "));
   Serial.println(output ? F("ON") : F("OFF"));
 
   digitalWrite(LED_PIN, output);

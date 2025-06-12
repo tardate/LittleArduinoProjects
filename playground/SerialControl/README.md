@@ -25,6 +25,9 @@ Currently, it supports the following commands:
 * `t` : toggle the LED on pin 13
 * `?` : show this message
 
+A blank line will follow the output of all commands.
+This indicator may be used for client-side flow control if required.
+
 ### Using the Arduino IDE
 
 The script can be compiled and uploaded from the IDE, and used with the built-in serial monitor set for 115200 baud:
@@ -36,19 +39,20 @@ The script can be compiled and uploaded from the IDE, and used with the built-in
 I'm using macOS, so (as with Linux) the most handy console utility is
 [screen](https://codingkata.tardate.com/tools/screen/).
 
-The Arduino is showing up as a character and TTY device with ID 2420:
+The Arduino is showing up as a character and TTY device with ID 2430:
 
 ```sh
-$ ls /dev/tty.*serial*
-/dev/tty.usbserial-2420  /dev/tty.wchusbserial2420
-$ ls /dev/cu.*serial*
-/dev/cu.usbserial-2420  /dev/cu.wchusbserial2420
+$ ls -1 /dev/*serial*
+/dev/cu.usbserial-2430
+/dev/cu.wchusbserial2430
+/dev/tty.usbserial-2430
+/dev/tty.wchusbserial2430
 ```
 
-For simple character interaction, any of these devices with work. For example:
+For simple character interaction, any of these devices with work, but `cu` devices are preferred. For example:
 
 ```sh
-screen /dev/cu.usbmodem14511 115200
+screen /dev/cu.usbserial-2430 115200
 ```
 
 ![screen-example](./assets/screen-example.png)
