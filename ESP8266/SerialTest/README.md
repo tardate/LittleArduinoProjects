@@ -14,7 +14,7 @@ These days you can get them for
 
 This project is a first test of the basics: communicating with the default firmware and hopefully connecting to an access point in my area.
 
-My objective is to use a serial console on a computer (MacOSX),
+My objective is to use a serial console on a computer (macOS),
 to talk to the ESP8266,
 using serial communications,
 via a USB-serial adapter.
@@ -52,7 +52,8 @@ its interface is 2 rows of 4 pins at 2.54mm pitch; not something you can plug di
 
 I'm using a CH340G USB adapter that I
 [got along with an Arduino mini](https://www.aliexpress.com/item/A96-Free-Shipping-USB2-0-To-TTL-6Pin-CH340G-Converter-Pro-Mini-Atmega328-5V-16M-For/1887601992.html).
-It's pretty neat in that it has a 5V/3.3V selector on the adapter, however I discovered that this switches VCC from 5V/3.3V. It *does not* level shift the data lines - they will still be 5V.
+It's pretty neat in that it has a 5V/3.3V selector on the adapter, however I discovered that this switches VCC from 5V/3.3V.
+It *does not* level shift the data lines - they will still be 5V.
 
 When connecting the USB-Serial thru to to the ESP8266 module, we need to cross-over connections of course:
 
@@ -84,12 +85,9 @@ However in the final circuit I'm using here, I decided to not take any chances, 
 Powering up:
 
 * connect the CH340G USB adapter
-* fire up a terminal program set for 9600 baud with CR/LF (I'm using the serial console in the Arduino IDE)
+* fire up a terminal program set for 115200 baud with CR/LF (I'm using the serial console in the Arduino IDE)
 * turn on the 3.3V external power supply to the ESP8266
 * watch for a "ready" in the console window; pull the ESP8266 RST pin low to force a reset and try again (I seem to be doing this quite a bit)
-
-NB: depending on the firmware that the ESP8266 module has already installed, baud rate may be higher.
-I have noted that while it wants to connect at 9600 to accept console commands, debug info will often come out at 115200 baud.
 
 I'm mainly using the
 [nurdspace](https://nurdspace.nl/ESP8266#AT_Commands)
@@ -101,22 +99,23 @@ AT command references for the following tests..
 (AT), reset (AT+RST) and show software and SDK version (AT+GMR)..
 
 ```sh
-[Vendor:www.ai-thinker.com Version:0.9.2.4]
-
-ready
 AT
 
 OK
 AT+RST
 
-[Vendor:www.ai-thinker.com Version:0.9.2.4]
+Ai-Thinker Technology Co.,Ltd.
 
 ready
+WIFI CONNECTED
+WIFI GOT IP
 
 AT+GMR
 
-0018000902-AI03
-
+AT version:0.40.0.0(Aug  8 2015 14:45:58)
+SDK version:1.3.0
+Ai-Thinker Technology Co.,Ltd.
+Build:1.3.0.2 Sep 11 2015 11:48:04
 OK
 ```
 
@@ -127,105 +126,101 @@ Test to see if we are still joined after a reset: yes.
 
 ```sh
 AT+CWLAP
-+CWLAP:(3,"saiaadya",-91,"54:be:f7:70:1e:9f",1)
-+CWLAP:(4,"SINGTEL-41AC",-88,"00:26:75:f1:41:ad",1)
-+CWLAP:(4,"SINGTEL-3D7B",-90,"e0:8e:3c:05:3d:7c",1)
-+CWLAP:(4,"d09cfc",-90,"0c:54:a5:f5:cb:de",1)
-+CWLAP:(4,"SINGTEL-22BB",-93,"00:26:75:fc:22:bc",1)
-+CWLAP:(4,"dlink-E614",-82,"e8:cc:18:f7:e6:14",11)
-+CWLAP:(4,"Singtel7002-78BB",-90,"00:26:75:a3:78:bc",11)
-+CWLAP:(3,"Sunshine",-78,"90:72:40:0f:5b:f8",11)
-+CWLAP:(4,"SINGTEL-19B9",-89,"64:09:80:18:c5:d1",2)
-+CWLAP:(4,"Argem",-90,"90:f6:52:ff:c1:cd",11)
-+CWLAP:(4,"Argem_EXT",-80,"c4:6e:1f:8a:e8:bb",11)
-+CWLAP:(4,"SINGTEL-3573",-88,"98:2c:be:93:69:36",4)
-+CWLAP:(4,"SINGTEL-AE0F",-83,"00:26:75:a0:ae:10",4)
-+CWLAP:(1,"abc",-85,"00:02:6f:5d:d0:54",11)
-+CWLAP:(4,"SINGTEL-4162",-85,"16:0c:c3:e9:48:60",6)
-+CWLAP:(3,"Choo_Family",-81,"08:62:66:90:0e:b0",6)
-+CWLAP:(3,"Q-Network",-91,"ac:9e:17:49:4d:50",6)
-+CWLAP:(1,"SINGTEL-B8FC",-89,"00:26:75:84:b8:fd",6)
-+CWLAP:(3,"ASUS",-89,"74:d0:2b:66:c7:86",8)
-+CWLAP:(4,"Singtel7002-639F",-92,"00:26:75:ab:63:a0",8)
-+CWLAP:(3,"SunshineToo",-73,"90:94:e4:78:a3:72",8)
-+CWLAP:(4,"SINGTEL-4757",-90,"00:26:75:e4:47:58",10)
-+CWLAP:(4,"Singtel7002-68FD",-90,"00:26:75:c8:68:fe",10)
-+CWLAP:(4,"SINGTEL-0557",-90,"00:26:75:ff:05:58",10)
-+CWLAP:(3,"supernet fong",-88,"ac:22:0b:8e:6d:a2",12)
-+CWLAP:(4,"icelink2",-89,"00:26:75:fd:df:38",11)
++CWLAP:(3,"Sunshine",-42,"90:72:40:0f:5b:f8",1,-26)
++CWLAP:(3,"SH-EB810V_7484_MLO",-80,"86:fe:ce:b2:74:84",2,-47)
 
 OK
 AT+CWJAP="Sunshine","myPassword"
-
+WIFI CONNECTED
+WIFI GOT IP
 
 OK
 AT+CIFSR
-192.168.0.14
++CIFSR:STAIP,"192.168.10.66"
++CIFSR:STAMAC,"5c:cf:7f:8b:56:e1"
 
 OK
-AT+RST
 
-[Vendor:www.ai-thinker.com Version:0.9.2.4]
-
-ready
 AT+CWJAP?
-+CWJAP:"Sunshine"
++CWJAP:"Sunshine","90:72:40:0f:5b:f8",1,-54
 
 OK
 ```
 
 ### GET a web page
 
-Start a client request and get the time from <http://www.timeapi.org/utc/now>
+Start a client request and get the time from a website.
+
+In the past I've used <http://www.timeapi.org/utc/now>, but that has disappeared, as have many alternatives.
+For a reliable HTTP time service, I now run <https://hub.docker.com/r/tardate/echo-tools> in Docker for testing.
+In the run below, my docker container is running on `http://192.168.10.87/time/now.txt`.
+
+```sh
+curl http://192.168.10.87/time/now.txt
+2025-06-13T05:42:32Z
+```
+
+Making the call from the ESP8266:
 
 ```sh
 AT+CWMODE?
 +CWMODE:1
 
 OK
-AT+CIPSTART="TCP","www.timeapi.org",80
+AT+CIPSTART="TCP","192.168.10.87",80
 
 OK
-Linked
-AT+CIPSEND=88
+AT+CIPSEND=91
 
-> GET /utc/now HTTP/1.1
-Host: www.timeapi.org
+> GET /time/now.txt HTTP/1.1
+Host: 192.168.10.87
 User-Agent: esp/0.9.2.4
 Accept: */*
 
-
+OK
+>
+Recv 91 bytes
 
 SEND OK
 
-+IPD,277:HTTP/1.1 200 OK
-Date: Wed, 14 Oct 2015 17:29:53 GMT
++IPD,170:HTTP/1.1 200 OK
+Content-Type: text/plain;charset=utf-8
+Content-Length: 20
+X-Content-Type-Options: nosniff
 Connection: keep-alive
-X-Frame-Options: sameorigin
-X-Xss-Protection: 1; mode=block
-Content-Type: text/html;charset=utf-8
-Content-Length: 25
-Server: thin 1.5.0 codename Knife
-Via: 1.1 vegur
+Server: thin
 
-2015-10-14T17:29:54+00:00
-OK
+2025-06-13T05:58:32Z
+
 ```
 
-![timeapi4real](./assets/console_test.png?raw=true)
+![console_test](./assets/console_test.png?raw=true)
 
 ### Disconnect from the access point
 
-Once disconnected, `AT+CWJAP?` returns an error:
+Once disconnected, `AT+CWJAP?` returns no AP:
 
 ```sh
 AT+CWQAP
 
 OK
-AT+CWJAP?
+WIFI DISCONNECT
 
-ERROR
+AT+CWJAP?
+No AP
+
+OK
 ```
+
+## Using Screen for the Serial Console
+
+I'm using [screen](https://codingkata.tardate.com/tools/screen/) on macOS to connect at 115200:
+
+```sh
+screen /dev/tty.wchusbserial2420 115200
+```
+
+On macOS, cr/lf must be entered in two steps: press `<return>`, then `ctrl-j`.
 
 ## Construction
 

@@ -38,18 +38,18 @@ Build:1.3.0.2 Sep 11 2015 11:48:04
 OK
 
 AT+CWMODE?
-+CWMODE:2
++CWMODE:1
 
 OK
 
 AT+CWJAP?
-No AP
++CWJAP:"Sunshine","90:72:40:0f:5b:f8",1,-53
 
 OK
 
 AT+CIFSR
-+CIFSR:APIP,"192.168.4.1"
-+CIFSR:APMAC,"5e:cf:7f:8b:56:e1"
++CIFSR:STAIP,"192.168.10.66"
++CIFSR:STAMAC,"5c:cf:7f:8b:56:e1"
 
 OK
 ```
@@ -65,6 +65,7 @@ $ ./espy.py /dev/tty.wchusbserial2420:115200 reset
 AT+RST
 
 OK
+WIFI DISCONNECT
 
  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
 
@@ -86,7 +87,7 @@ csum 0xc0
 jump to run user1 @ 1000
 
 n't use rtc mem data
-{l{l
+sdǃr$d
 Ai-Thinker Technology Co.,Ltd.
 
 ready
@@ -181,7 +182,6 @@ AT+CIFSR
 +CIFSR:STAMAC,"5c:cf:7f:8b:56:e1"
 
 OK
-
 ```
 
 ## Construction

@@ -1,13 +1,20 @@
+GIT
+  remote: https://github.com/larskanis/ruby-serialport.git
+  revision: 907c28e0ed8785b527696b2036e6dc454975240b
+  branch: update
+  specs:
+    serialport (1.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    serialport (1.3.1)
 
 PLATFORMS
+  arm64-darwin-23
   ruby
 
 DEPENDENCIES
-  serialport
+  serialport!
 
 BUNDLED WITH
-   1.10.6
+   2.5.23
