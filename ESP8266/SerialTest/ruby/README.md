@@ -8,40 +8,47 @@ Exercising ESP8266 module serial communications with Ruby
 
 I'm using an ESP8266 ESP-01 module with default firmware as detailed in the [ESP8266/SerialTest](../) project.
 
-This is a test of driving it with a simple [ruby script](./espy.rb)
+This is a test of driving it with a simple [ruby script](./espy.rb).
+The script has been updated to use a [fork of the serialport](https://github.com/hparra/ruby-serialport/pull/79) gem -
+a modernised version, with updates yet to be released as a formal gem update.
+
+See <https://codingkata.tardate.com/ruby/serial/> for notes on the current state of ruby serial libraries.
 
 ```sh
-bundle       # install gem dependencies
-./espy.rb    # prints command help
+bundle                  # install gem dependencies
+bundle exec ./espy.rb   # prints command help
 ```
 
 ### status
 
-if possible it will return software details, access point and IP address..
+If possible it will return software details, access point and IP address..
 
 ```sh
-$ ./espy.rb /dev/tty.wchusbserial14540:9600 status
-ESP8266 Client initialised for : /dev/tty.wchusbserial14540
-            connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
+$ bundle exec ./espy.rb /dev/tty.wchusbserial2420 status
+ESP8266 Client initialised for : /dev/tty.wchusbserial2420
+            connection options : {"baud"=>115200, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
                        signals : {"rts"=>1, "dtr"=>1, "cts"=>0, "dsr"=>0, "dcd"=>0, "ri"=>0}
 Waiting to warm up the connection..
 AT
 
 OK
 AT+GMR
-0018000902-AI03
-
+AT version:0.40.0.0(Aug  8 2015 14:45:58)
+SDK version:1.3.0
+Ai-Thinker Technology Co.,Ltd.
+Build:1.3.0.2 Sep 11 2015 11:48:04
 OK
 AT+CWMODE?
 +CWMODE:1
 
 OK
 AT+CWJAP?
-+CWJAP:"Sunshine"
++CWJAP:"Sunshine","90:72:40:0f:5b:f8",1,-51
 
 OK
 AT+CIFSR
-192.168.0.14
++CIFSR:STAIP,"192.168.10.66"
++CIFSR:STAMAC,"5c:cf:7f:8b:56:e1"
 
 OK
 ```
@@ -49,75 +56,78 @@ OK
 ### reset
 
 ```sh
-$ ./espy.rb /dev/tty.wchusbserial14540:9600 reset
-ESP8266 Client initialised for : /dev/tty.wchusbserial14540
-            connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
+$ bundle exec ./espy.rb /dev/tty.wchusbserial2420 reset
+ESP8266 Client initialised for : /dev/tty.wchusbserial2420
+            connection options : {"baud"=>115200, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
                        signals : {"rts"=>1, "dtr"=>1, "cts"=>0, "dsr"=>0, "dcd"=>0, "ri"=>0}
 Waiting to warm up the connection..
 AT+RST
 
 OK
-H!???F
-?!9?????)?
-[Vendor:www.ai-thinker.com Version:0.9.2.4]
+WIFI DISCONNECT
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 1396, room 16
+tail 4
+chksum 0x89
+load 0x3ffe8000, len 776, room 4
+tail 4
+chksum 0xe8
+load 0x3ffe8308, len 540, room 4
+tail 8
+chksum 0xc0
+csum 0xc0
+
+2nd boot version : 1.4(b1)
+  SPI Speed      : 40MHz
+  SPI Mode       : DIO
+  SPI Flash Size & Map: 8Mbit(512KB+512KB)
+jump to run user1 @ 1000
+
+�n't use rtc mem data
+sd��sl��
+Ai-Thinker Technology Co.,Ltd.
 
 ready
 ```
 
 ### get web page
 
-Let's query a time service: <http://tycho.usno.navy.mil/timer.pl>
-Note: I used to use <http://www.timeapi.org/utc/now> for tests like this, but that site appears to no longer exist.
+In the past I've used <http://www.timeapi.org/utc/now>, but that has disappeared, as have many alternatives.
+For a reliable HTTP time service, I now run <https://hub.docker.com/r/tardate/echo-tools> in Docker for testing.
+In the run below, my docker container is running on `http://192.168.10.87/time/now.txt`.
 
 ```sh
-$ ./espy.rb /dev/tty.wchusbserial14530 get http://tycho.usno.navy.mil/timer.pl
-ESP8266 Client initialised for : /dev/tty.wchusbserial14530
-            connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
+$ bundle exec ./espy.rb /dev/tty.wchusbserial2420 get http://192.168.10.87/time/now.txt
+ESP8266 Client initialised for : /dev/tty.wchusbserial2420
+            connection options : {"baud"=>115200, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
                        signals : {"rts"=>1, "dtr"=>1, "cts"=>0, "dsr"=>0, "dcd"=>0, "ri"=>0}
 Waiting to warm up the connection..
-AT+CIPSTART="TCP","tycho.usno.navy.mil",80
+AT+CIPSTART="TCP","192.168.10.87",80
+CONNECT
 
 OK
-Linked
-AT+CIPSEND=98
-> GET /timer.pl HTTP/1.1
-Host: tycho.usno.navy.mil
-User-Agent: EspyClient/0.9.2.4
-Accept: */*
+AT+CIPSEND=96
+
+OK
+>
+Recv 96 bytes
+
 SEND OK
 
-+IPD,819:HTTP/1.1 200 OK
-Date: Tue, 19 Sep 2017 16:26:05 GMT
-Server: Apache/2.4.25 (Unix)
-X-Frame-Options: SAMEORIGIN
-Last-Modified: Tue, 19 Sep 2017 16:26:04 GMT
-ETag: W/"231-5598d50d4878d"
-Accept-Ranges: bytes
-Content-Length: 561
-Content-Type: text/html
++IPD,170:HTTP/1.1 200 OK
+Content-Type: text/plain;charset=utf-8
+Content-Length: 20
+X-Content-Type-Options: nosniff
+Connection: keep-alive
+Server: thin
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final"//EN>
-<html>
-<body>
-<TITLE>What time is it?</TITLE>
-<H2> US Naval Observatory Master Clock Time</H2> <H3><PRE>
-<BR>Sep. 19, 16:26:04 UTC   Universal Time
-<BR>Sep. 19, 12:26:04 PM EDT    Eastern Time
-<BR>Sep. 19, 11:26:04 AM CDT    Central Time
-<BR>Sep. 19, 10:26:04 AM MDT    Mountain Time
-<BR>Sep. 19, 09:26:04 AM PDT    Pacific Time
-<BR>Sep. 19, 08:26:04 AM AKDT Alaska Time
-<BR>Sep. 19, 06:26:04 AM HAST Hawaii-Aleutian Time
-</PRE></H3><P><A HREF="http://www.usno.navy.mil"> US Naval Observatory</A>
-
-</body></html>
-
-
-OK
+2025-06-13T06:59:29Z
 AT+CIPCLOSE
+CLOSED
 
 OK
-Unlink
 ```
 
 ## Construction
@@ -132,6 +142,7 @@ NB: diagrams drawn with the custom parts from [ESP8266_fritzing](https://github.
 
 ## Credits and References
 
+* [Ruby Serial Communications](https://codingkata.tardate.com/ruby/serial/)
 * [serialport gem](https://rubygems.org/gems/serialport)
 * [ESP8266 English datasheet](https://nurdspace.nl/File:ESP8266_Specifications_English.pdf)
 * [LD1117 datasheet](http://pdf1.alldatasheet.com/datasheet-pdf/view/173710/UTC/LD1117AL-15-TA3-A-R.html)

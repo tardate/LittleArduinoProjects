@@ -41,38 +41,35 @@ To verify everything was working OK on the devboard, I plugged in the ESP8266 wi
 and I exercised it with [SerialTest/ruby](../SerialTest/ruby). Here's a test of getting the time:
 
 ```sh
-$ ./espy.rb /dev/tty.wchusbserial14540 get http://www.timeapi.org/utc/now
-ESP8266 Client initialised for : /dev/tty.wchusbserial14540
-            connection options : {"baud"=>9600, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
+$ bundle exec ./espy.rb /dev/tty.wchusbserial2420 get http://192.168.10.87/time/now.txt
+ESP8266 Client initialised for : /dev/tty.wchusbserial2420
+            connection options : {"baud"=>115200, "data_bits"=>8, "stop_bits"=>1, "parity"=>0}
                        signals : {"rts"=>1, "dtr"=>1, "cts"=>0, "dsr"=>0, "dcd"=>0, "ri"=>0}
 Waiting to warm up the connection..
-AT+CIPSTART="TCP","www.timeapi.org",80
+AT+CIPSTART="TCP","192.168.10.87",80
+CONNECT
 
 OK
-Linked
-AT+CIPSEND=93
-> GET /utc/now HTTP/1.1
-Host: www.timeapi.org
-User-Agent: EspyClient/0.9.2.4
-Accept: */*
+AT+CIPSEND=96
+
+OK
+>
+Recv 96 bytes
+
 SEND OK
 
-+IPD,277:HTTP/1.1 200 OK
-Date: Mon, 07 Mar 2016 17:19:38 GMT
++IPD,170:HTTP/1.1 200 OK
+Content-Type: text/plain;charset=utf-8
+Content-Length: 20
+X-Content-Type-Options: nosniff
 Connection: keep-alive
-X-Frame-Options: sameorigin
-X-Xss-Protection: 1; mode=block
-Content-Type: text/html;charset=utf-8
-Content-Length: 25
-Server: thin 1.5.0 codename Knife
-Via: 1.1 vegur
+Server: thin
 
-2016-03-07T17:19:39+00:00
-OK
+2025-06-13T06:59:29Z
 AT+CIPCLOSE
+CLOSED
 
 OK
-Unlink
 ```
 
 ### Test Drive with the esptool
