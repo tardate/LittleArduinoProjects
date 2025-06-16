@@ -1,0 +1,6 @@
+{
+    "name": "CD4027 Shift Register",
+    "description": "Build a 4-bit shift register made with CD4027 J-K flip-flops, setup for both manual control and an Arduino-driven demonstration sequence.",
+    "categories": "Digital Logic, CMOS/TTL, CD4027, CD4069",
+    "relative_path": "Electronics101/CD4027/ShiftRegister"
+}
