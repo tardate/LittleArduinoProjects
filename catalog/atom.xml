@@ -7,12 +7,25 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-06-11T08:31:00Z</updated>
+  <updated>2025-06-18T07:07:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/cd4027/shiftregister/</id>
+    <link href="https://leap.tardate.com/electronics101/cd4027/shiftregister/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/cd4027/shiftregister/assets/shiftregister_build.jpg</g:image_link>
+    <updated>2025-06-18T07:07:00Z</updated>
+    <title>#775 CD4027 Shift Register</title>
+    <summary>Build a 4-bit shift register made with CD4027 J-K flip-flops, setup for both manual control and an Arduino-driven demonstration sequence.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Build a 4-bit shift register made with CD4027 J-K flip-flops, setup for both manual control and an Arduino-driven demonstration sequence.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4027/shiftregister/assets/shiftregister_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4027"/>
+    <category term="CD4069"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/arm/stm32u3/stm32u385rgdevboard/</id>
     <link href="https://leap.tardate.com/arm/stm32u3/stm32u385rgdevboard/"/>
