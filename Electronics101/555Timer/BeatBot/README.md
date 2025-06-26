@@ -16,11 +16,11 @@ I was inspired by the crazy creations of [@MaywaDenki](https://twitter.com/Maywa
 I borrowed a 555 timer [music box](http://www.555-timer-circuits.com/music-box.html) idea for the basic sequencer:
 
 * a 555 timer provides the clock pulse
-* driving a CD4017 wich acts as the sequencer
+* driving a CD4017 which acts as the sequencer
 * with another 555 timer providing the modulated audio output
 * a pushbutton provides a trigger to short-circuit the sequence (although in the build for the demo clip I realised I'd used a normally-closed pushbutton by mistake, so the effect is inverted)
 
-The synchonized hand-waving uses another monostable 555 timer to pulse a solenoid.
+The synchronized hand-waving uses another monostable 555 timer to pulse a solenoid.
 
 ## Construction
 
@@ -32,7 +32,7 @@ Testing the basic tone sequencer on a breadboard:
 
 ![BeatBot_bb_build](./assets/BeatBot_bb_build.jpg?raw=true)
 
-After circuit testing complete, I renderd the circuit on some protoboard for installation:
+After circuit testing complete, I rendered the circuit on some protoboard for installation:
 
 ![BeatBot_protoboard_layout](./assets/BeatBot_protoboard_layout.jpg?raw=true)
 

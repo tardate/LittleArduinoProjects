@@ -1,11 +1,10 @@
 # #190 MultiSlaveSPI
 
-Using SPI to control multiple devices (that support an SPIish interface)
+Using SPI to control multiple devices (that support an SPI-ish interface)
 
 Here's a quick video of the circuit in action:
 
 [![MultiSlaveSPI](https://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](https://www.youtube.com/watch?v=t2ncYWxmPbo)
-
 
 ## Notes
 
@@ -18,10 +17,11 @@ It's interesting how far you can push the definition of "SPI-like". In this case
 * a [7-segment LED module](../LED7Segment/ShiftDriveModule) with a 74HC595 interface
 * a [CounterModule](../CounterModule) with a CD4017 interface
 
-These modules are all connected to the SPI interface of an Arduino, with a seperate latch (SS/slave select) for each.
+These modules are all connected to the SPI interface of an Arduino, with a separate latch (SS/slave select) for each.
 The data to each module actually passes down the same wire (MOSI).
 
 The demo sketch does two things:
+
 * runs a 0-9 counter on the 7-segment LED module (with decimal point enabled for even numbers)
 * runs a countdown counter that cycles for each change on the LED module
 
@@ -43,4 +43,3 @@ The demo sketch does two things:
 * [Sharing Clock and Data for 74HC595 and CD4021B Shift Registers?](http://electronics.stackexchange.com/questions/122520/sharing-clock-and-data-for-74hc595-and-cd4021b-shift-registers) - electronics.stackexchange
 * [Driving 595 Shift Registers](http://www.appelsiini.net/2012/driving-595-shift-registers) - good article with AVR implementation details
 * [Using Serial Peripheral Interface (SPI) Master and Slave with Atmel AVR Microcontroller](http://www.ermicro.com/blog/?p=1050) - well explained code
-

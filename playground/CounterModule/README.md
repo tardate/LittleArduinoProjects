@@ -1,11 +1,10 @@
-# #136 CounterModule
+# #136 Counter Module
 
 A general-purpose CD4017 counter module.
 
 Here's a quick video of the module in action:
 
 [![CounterModule](https://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](https://www.youtube.com/watch?v=fvmFiRvSUXc)
-
 
 ## Notes
 
@@ -35,16 +34,15 @@ But it depends on the specific LED ratings, as this subjects the LEDs to a rever
 
 ![The Schematic](./assets/CounterModule_pcb_layout.jpg?raw=true)
 
-### Plugged into an Arduino..
+### Plugged into an Arduino
 
 ![The Build](./assets/CounterModule_build.jpg?raw=true)
 
-### Plugged into a Breadboard..
+### Plugged into a Breadboard
+
 ![The Build](./assets/CounterModule_build_breadboard.jpg?raw=true)
 
 ## Credits and References
 
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [RingCounterController](../RingCounterController) - similar project but just running on a breadboard
-
-

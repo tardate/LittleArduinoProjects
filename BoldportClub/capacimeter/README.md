@@ -14,7 +14,7 @@ Capaci-meter is a Boldport remix of a classic capacitance measurement circuit de
 high school by Jez Siddons of [Peak Electronic Design](https://www.peakelec.co.uk/).
 
 The device takes a very interesting approach - rather than trying to measure the actual capacitance or charge time,
-it uses a derivitive function (the capacitor's effect on the frequency of a 555 timer) to infer capacitance.
+it uses a derivative function (the capacitor's effect on the frequency of a 555 timer) to infer capacitance.
 
 ### How it Works
 
@@ -25,21 +25,20 @@ It is quite ingenious; here's my paraphrasing...
 Basic operation boils down to four points:
 
 * the capacitor under test alters the frequency a "Cx-dependent" 555 astable multi-vibrator
-* this gates the output of a second, Cx-independant 555 astable multi-vibrator
+* this gates the output of a second, Cx-independent 555 astable multi-vibrator
 * CD4017 decade counters are used to count the number of pulses let through the gate
 * the 4017s drive the LED display, with 10 LEDs arrange clock-face style. Two 4017s make for two-digit resolution
 
 Finer details to note:
 
-* the "range selector" is changing the R2 value (thus frequency) of the Cx-independant 555
+* the "range selector" is changing the R2 value (thus frequency) of the Cx-independent 555
 * the Cx-dependent 555 counter is in "measurement" when output high:
-    * LEDs are disabled (by pulling LED catchodes high)
-    * enables the Cx-independant 555 counter
+    * LEDs are disabled (by pulling LED cathodes high)
+    * enables the Cx-independent 555 counter
     * triggers 4017 reset at the start of the pulse
 * the Cx-dependent 555 counter is in "display" when output low:
-    * LEDs are enabled (by pulling LED catchodes low)
-    * disables the Cx-independant 555 counter
-
+    * LEDs are enabled (by pulling LED cathodes low)
+    * disables the Cx-independent 555 counter
 
 The schematic is from the Boldport design sources on Github:
 
@@ -79,7 +78,6 @@ Parts
 ![kit_pcb_front](./assets/kit_pcb_front.jpg?raw=true)
 ![kit_pcb_rear](./assets/kit_pcb_rear.jpg?raw=true)
 
-
 ## Construction
 
 Luckily the PCB was designed with standard 3.54mm spacing between jumpers, meaning a breadboard can be used to align pins for soldering:
@@ -91,7 +89,6 @@ Soldering complete, and initial test under power:
 ![kit_build_complete_front](./assets/kit_build_complete_front.jpg?raw=true)
 
 ![kit_build_complete_rear](./assets/kit_build_complete_rear.jpg?raw=true)
-
 
 ## Custom Power switching and Base
 

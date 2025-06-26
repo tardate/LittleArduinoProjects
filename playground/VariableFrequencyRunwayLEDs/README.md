@@ -1,4 +1,4 @@
-# #276 VariableFrequencyRunwayLEDs
+# #276 Variable Frequency Runway LEDs
 
 A PWM-controlled variable frequency LED "runway lights" effect using the LM331 and CD4017
 
@@ -53,7 +53,6 @@ See the schematic below for details. The circuit can be thought of in three part
 * A CD4017 driving a series of LEDs, and triggered by the LM331 "clock" signal
 * An Arduino PWM output that modifies the base frequency of the LM331 circuit, from a high of 8Hz down to around 1Hz
 
-
 ### Performance
 
 With the component selection as details in the schematic below, and built on a breadboard, I'm getting an output frequency that can be controlled in the 1-8Hz range.
@@ -88,7 +87,6 @@ The specific PWM settings (255=100% duty cycle) and the corresponding output fre
 | 155               | 6Hz       |
 | 205               | 7Hz       |
 | 250               | 8Hz       |
-
 
 ## Construction
 
