@@ -20,14 +20,12 @@ perspective of the viewer: random from some angles, but clearly sequenced from o
 
 I created this for the [Hackaday Circuit Sculpture Contest](https://hackaday.io/contest/162559-circuit-sculpture-contest).
 
-
 ## The Main Frame
 
 The skeleton is made with 0.9mm and 0.55mm copper wire. The idea started as a very rough sketch in a notebook,
 and improvised in 3D by eye.
 
 ![build_bare_structure](./assets/build_bare_structure.jpg?raw=true)
-
 
 ## The Beating Heart
 
@@ -44,8 +42,7 @@ Building this itself became a pleasurable little side-project.
 I liked the look of the "counter unit" so much, I went off on a little tangent for testing purposes.
 You can probably tell I was thinking it looked like some kind of sci-fi planetary sensing outpost..
 
-![counter_tower_tengent](./assets/counter_tower_tengent.jpg?raw=true)
-
+![counter_tower_tangent](./assets/counter_tower_tangent.jpg?raw=true)
 
 ## Base
 
@@ -64,7 +61,6 @@ The finished base:
 
 ![build_base_4](./assets/build_base_4.jpg?raw=true)
 
-
 ## Circuit Construction
 
 A very simple variation of the classic CD4017 counter with a 555 astable clock source.
@@ -81,7 +77,6 @@ Up to 5 LEDs are chained from each counter output (not all pins are actually use
 
 ![Pollen8_bb_build](./assets/Pollen8_bb_build.jpg?raw=true)
 
-
 ## Parts
 
 The main electronic components:
@@ -90,7 +85,7 @@ The main electronic components:
 |------|------------------------------------------------|
 | U1   | 555 Timer                                      |
 | U2,3 | CD4017 decade counter                          |
-| C1   | 10µF electolytic capacitor                     |
+| C1   | 10µF electrolytic capacitor                    |
 | R1   | 2.2kΩ                                          |
 | R2   | 10kΩ LDR                                       |
 |      | ~ 25 yellow 0805 LEDs                          |
@@ -103,12 +98,11 @@ Wire stock:
 * 0.55mm copper wire - secondary structural elements
 * 0.2mm magnet wire - LED and power connections
 
-
 ## Putting it all Together
 
-The final step in construction was to assmble the individual LEDs with their current-limiting resistor.
+The final step in construction was to assemble the individual LEDs with their current-limiting resistor.
 these are grounded on the wire frame and connected to the CD4017 outputs with magnet wire.
-This proved to be an extremely finnecky process to the point that I was cursing myself for
+This proved to be an extremely finnicky process to the point that I was cursing myself for
 deciding on such a construction. The main problem is that soldering one connection can easily de-solder another if you are not careful!
 
 ![build_led_detail](./assets/build_led_detail.jpg?raw=true)
@@ -129,7 +123,6 @@ And from the rear:
 
 ![build_rear_close](./assets/build_rear_close.jpg?raw=true)
 
-
 ## Demonstration
 
 The circuit works nicely on a 3.3V coin cell, but can also take power from the two pins at the rear.
@@ -143,7 +136,6 @@ When viewed directly from the front, a distinct "runway lights" pattern is appar
 When viewed from other angles, the LED display is more chaotic. This is mainly produced by LEDs angled outwards.
 
 ![demo_side](./assets/demo_side.gif?raw=true)
-
 
 ## Credits and References
 
