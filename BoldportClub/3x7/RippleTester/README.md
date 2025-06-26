@@ -1,4 +1,4 @@
-# #426 Boldport 3x7 RippleTester
+# #426 Boldport 3x7 Ripple Tester
 
 Using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7.
 
@@ -24,9 +24,7 @@ So I whipped up this circuit on a breadboard using a CD4017 and CD4060:
 
 The result is a simple pattern that runs through all combinations of segments on each digit in turn.
 
-
 Note: because the CD4060 does not expose Q11 counter stage, the pattern of segments actually runs twice on each digit before moving to the next.
-
 
 ## Construction
 

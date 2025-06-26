@@ -53,7 +53,7 @@ With a 47µF 16V capacitor (C5) and BS250 FET (PF1), I found the following worke
 ### Trigger Mechanism
 
 The circuit is triggered with a single switch. It could be a push-button, but I'm using a mercury switch
-as I plan to moun the circuit in something that can be shaken to "roll".
+as I plan to mount the circuit in something that can be shaken to "roll".
 
 When the switch activates, it triggers both the power control and counter roll:
 
@@ -144,7 +144,7 @@ This is the breadboard build. Next I want to try and mount this all in a small s
 
 ![Dice_breadboard_build](./assets/Dice_breadboard_build.jpg?raw=true)
 
-Here's the layour I used for a 3-tier 3x3cm protoboard build:
+Here's the layout I used for a 3-tier 3x3cm protoboard build:
 
 ![Dice_protoboard_layout](./assets/Dice_protoboard_layout.jpg?raw=true)
 

@@ -1,11 +1,10 @@
-# #108 RingCounterController
+# #108 Ring Counter Controller
 
 Control the classic CD4017 walking-ring counter with an Arduino
 
 Here's a quick video of the circuit in action:
 
 [![RingCounterController](https://img.youtube.com/vi/7SMnoM0gbWc/0.jpg)](https://www.youtube.com/watch?v=7SMnoM0gbWc)
-
 
 ## Notes
 
@@ -21,14 +20,13 @@ But they provide some over-current protection for the Arduino should anything be
 
 The minimum clock pulse with is 250ns when operating at 5V.
 The program ensures a minimum clock pulse of 1ms which is very conservative.
-In fact the sketch works equially well with no delay when pulsing the clock - just `digitalWrite` HIGH immediately followed by `digitalWrite` LOW.
+In fact the sketch works equally well with no delay when pulsing the clock - just `digitalWrite` HIGH immediately followed by `digitalWrite` LOW.
 
 When operating, the circuit draws about 2mA in total.
 
 Note that since only a single LED should be on at a given time, the 10 x 1kΩ current-limiting resistors could be replaced by a single resistor
 on a common cathode ground link for the LEDs.
 But it depends on the specific LED ratings, as this subjects all the "off" LEDs to a reverse voltage equal to the voltage drop across the resistor.
-
 
 ## Construction
 

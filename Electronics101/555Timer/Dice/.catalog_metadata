@@ -2,7 +2,7 @@
     "id": "#229",
     "name": "Dice",
     "description": "a 555/4017-based dice circuit with slow-down and auto power-off",
-    "categories": "555 Timer, CMOS/TTL",
+    "categories": "555 Timer, CMOS/TTL, CD4017",
     "relative_path": "Electronics101/555Timer/Dice",
     "updated_at": "2016-07-25T16:52:01Z",
     "created_at": "2016-07-25T16:52:01Z"

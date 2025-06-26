@@ -86,17 +86,15 @@ The Baby8 embellishes the idea with:
 * optional external clock source
 * 5v regulated power from a 9V+ external supply
 
-
 A CD4093 Quad 2-Input NAND Schmitt Trigger is used for:
 
 * a NAND oscillator to provide built-in clock source (with adjustable frequency and duty cycle)
 * buffer the clock for a few different uses: driving a clock LED; triggering the Gate output
 
-An LM324 low-power quad operational amplifieris used for
+An LM324 low-power quad operational amplifiers used for
 
 * clock duty cycle control (as a comparator)
 * output buffering and amplification
-
 
 ## Test: Sequencing the Rakit Drum Synth
 

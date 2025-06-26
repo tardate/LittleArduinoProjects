@@ -2389,6 +2389,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/beatbot/assets/beatbot_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="Kinetics"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffects/jetengine/</id>
@@ -2955,6 +2957,9 @@
     <category term="Audio"/>
     <category term="Music"/>
     <category term="Sequencer"/>
+    <category term="CD4017"/>
+    <category term="CD4093"/>
+    <category term="LM324"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ina226/highsidemonitorbasics/</id>
@@ -3614,6 +3619,7 @@
     <category term="Boldport"/>
     <category term="Tools"/>
     <category term="Test Equipment"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/toroidjoulethief/rgbnightlight/</id>
@@ -3682,6 +3688,7 @@
     <category term="LED"/>
     <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
+    <category term="CD4017"/>
     <category term="Craft"/>
     <category term="Circuit Sculpture"/>
     <category term="Freeform"/>
@@ -3850,12 +3857,14 @@
     <link href="https://leap.tardate.com/boldportclub/3x7/rippletester/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/3x7/rippletester/assets/rippletester_build.jpg</g:image_link>
     <updated>2018-10-19T10:19:23Z</updated>
-    <title>#426 3x7 RippleTester </title>
+    <title>#426 Boldport 3x7 Ripple Tester</title>
     <summary>using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/rippletester/assets/rippletester_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4017"/>
+    <category term="CD4060"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/3x7/</id>
@@ -5562,11 +5571,14 @@
     <link href="https://leap.tardate.com/playground/variablefrequencyrunwayleds/"/>
     <g:image_link>https://leap.tardate.com/playground/variablefrequencyrunwayleds/assets/variablefrequencyrunwayleds_build.jpg</g:image_link>
     <updated>2016-12-01T13:22:04Z</updated>
-    <title>#276 VariableFrequencyRunwayLEDs</title>
+    <title>#276 Variable Frequency Runway LEDs</title>
     <summary>a PWM-controlled variable frequency LED &quot;runway lights&quot; effect using the LM331 and CD4017</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a PWM-controlled variable frequency LED &quot;runway lights&quot; effect using the LM331 and CD4017&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/variablefrequencyrunwayleds/assets/variablefrequencyrunwayleds_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Arduino"/>
+    <category term="CMOS/TTL"/>
+    <category term="LM331"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/at8mhz/</id>
@@ -6123,6 +6135,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a 555/4017-based dice circuit with slow-down and auto power-off&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/dice/assets/dice_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/transistorcurvetracer/</id>
@@ -6147,6 +6160,7 @@
     <category term="555 Timer"/>
     <category term="CMOS/TTL"/>
     <category term="LED"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/musicboxkit/</id>
@@ -6181,6 +6195,7 @@
     <category term="LED"/>
     <category term="555 Timer"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/fritzingparts/</id>
@@ -7154,11 +7169,12 @@
     <link href="https://leap.tardate.com/playground/countermodule/"/>
     <g:image_link>https://leap.tardate.com/playground/countermodule/assets/countermodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#136 CounterModule</title>
+    <title>#136 Counter Module</title>
     <summary>a general-purpose CD4017 counter module</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a general-purpose CD4017 counter module&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/countermodule/assets/countermodule_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/touchswitch/</id>
@@ -7462,11 +7478,12 @@
     <link href="https://leap.tardate.com/playground/ringcountercontroller/"/>
     <g:image_link>https://leap.tardate.com/playground/ringcountercontroller/assets/ringcountercontroller_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#108 RingCounterController</title>
+    <title>#108 Ring Counter Controller</title>
     <summary>control the classic CD4017 walking-ring counter with an Arduino</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;control the classic CD4017 walking-ring counter with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ringcountercontroller/assets/ringcountercontroller_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ringcounter/</id>
@@ -7478,6 +7495,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test the classic CD4017 walking-ring counter&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ringcounter/assets/ringcounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/switchpfet/</id>
@@ -7729,6 +7747,7 @@
     <summary>build and examine the workings of a commercial 555 Roulette kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and examine the workings of a commercial 555 Roulette kit&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/roulettekit/assets/roulettekit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/transistortester/</id>

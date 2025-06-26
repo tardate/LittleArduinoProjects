@@ -1939,7 +1939,9 @@
         "summary": "A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD4017 to play and dance to a tune",
         "tags": [
             "555 Timer",
-            "Kinetics"
+            "Kinetics",
+            "CMOS/TTL",
+            "CD4017"
         ]
     },
     "/audio/audioeffects/jetengine/": {
@@ -2405,7 +2407,10 @@
         "tags": [
             "Audio",
             "Music",
-            "Sequencer"
+            "Sequencer",
+            "CD4017",
+            "CD4093",
+            "LM324"
         ]
     },
     "/electronics101/ina226/highsidemonitorbasics/": {
@@ -2948,7 +2953,8 @@
         "tags": [
             "Boldport",
             "Tools",
-            "Test Equipment"
+            "Test Equipment",
+            "CD4017"
         ]
     },
     "/electronics101/toroidjoulethief/rgbnightlight/": {
@@ -3005,6 +3011,7 @@
             "LED",
             "CMOS/TTL",
             "555 Timer",
+            "CD4017",
             "Craft",
             "Circuit Sculpture",
             "Freeform"
@@ -3143,12 +3150,14 @@
     },
     "/boldportclub/3x7/rippletester/": {
         "id": 426,
-        "title": "3x7 RippleTester ",
+        "title": "Boldport 3x7 Ripple Tester",
         "summary": "using some 4000 series counters (CD4017, CD4060) to exercise the digits and segments of the Boldport 3x7",
         "tags": [
             "Boldport",
             "LED 7-Segment",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4017",
+            "CD4060"
         ]
     },
     "/boldportclub/3x7/": {
@@ -4555,11 +4564,14 @@
     },
     "/playground/variablefrequencyrunwayleds/": {
         "id": 276,
-        "title": "VariableFrequencyRunwayLEDs",
+        "title": "Variable Frequency Runway LEDs",
         "summary": "a PWM-controlled variable frequency LED \"runway lights\" effect using the LM331 and CD4017",
         "tags": [
             "LED",
-            "Arduino"
+            "Arduino",
+            "CMOS/TTL",
+            "LM331",
+            "CD4017"
         ]
     },
     "/playground/attiny/at8mhz/": {
@@ -5021,7 +5033,8 @@
         "summary": "a 555/4017-based dice circuit with slow-down and auto power-off",
         "tags": [
             "555 Timer",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4017"
         ]
     },
     "/electronics101/transistorcurvetracer/": {
@@ -5041,7 +5054,8 @@
         "tags": [
             "555 Timer",
             "CMOS/TTL",
-            "LED"
+            "LED",
+            "CD4017"
         ]
     },
     "/electronics101/musicboxkit/": {
@@ -5069,7 +5083,8 @@
         "tags": [
             "LED",
             "555 Timer",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "CD4017"
         ]
     },
     "/fritzingparts/": {
@@ -5867,11 +5882,12 @@
     },
     "/playground/countermodule/": {
         "id": 136,
-        "title": "CounterModule",
+        "title": "Counter Module",
         "summary": "a general-purpose CD4017 counter module",
         "tags": [
             "CMOS/TTL",
-            "Arduino"
+            "Arduino",
+            "CD4017"
         ]
     },
     "/electronics101/555timer/touchswitch/": {
@@ -6119,11 +6135,12 @@
     },
     "/playground/ringcountercontroller/": {
         "id": 108,
-        "title": "RingCounterController",
+        "title": "Ring Counter Controller",
         "summary": "control the classic CD4017 walking-ring counter with an Arduino",
         "tags": [
             "CMOS/TTL",
-            "Arduino"
+            "Arduino",
+            "CD4017"
         ]
     },
     "/electronics101/ringcounter/": {
@@ -6132,7 +6149,8 @@
         "summary": "test the classic CD4017 walking-ring counter",
         "tags": [
             "CMOS/TTL",
-            "555 Timer"
+            "555 Timer",
+            "CD4017"
         ]
     },
     "/electronics101/switchpfet/": {
@@ -6337,7 +6355,8 @@
         "title": "Roulette Kit",
         "summary": "build and examine the workings of a commercial 555 Roulette kit",
         "tags": [
-            "555 Timer"
+            "555 Timer",
+            "CD4017"
         ]
     },
     "/electronics101/transistortester/": {
