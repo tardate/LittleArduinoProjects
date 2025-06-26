@@ -78,17 +78,17 @@ Note that I switched the SPI pin connections for the final ATtiny build (more co
 
 Came together in separately tested modules. First the electret input..
 
-![build01_electrect_module](./assets/build01_electrect_module.jpg?raw=true)
+![build01_electret_module](./assets/build01_electret_module.jpg?raw=true)
 
 I've got some SMD TM1638 so I used a bit of perfboard to make wiring them up a little easier..
 
-![build02_electrect_and_TM1638_modules](./assets/build02_electrect_and_TM1638_modules.jpg?raw=true)
+![build02_electret_and_TM1638_modules](./assets/build02_electret_and_TM1638_modules.jpg?raw=true)
 
 Bending the display module to shape..
 
 ![build03_display_module](./assets/build03_display_module.jpg?raw=true)
 
-Rabbit Ears? Why ... beacause!
+Rabbit Ears? Why ... because!
 
 ![build04_rabbit_ears](./assets/build04_rabbit_ears.jpg?raw=true)
 
@@ -102,5 +102,5 @@ Final build...
 
 ## Credits and References
 
-* [Titam TM1638](http://www.titanmec.com/index.php/en/product/view/id/303.html) - info from the original manufacturer, Shenzhen Titan Micro Electronics Co., Ltd. (深圳市天微电子股份有限公司)
+* [Titan TM1638](http://www.titanmec.com/index.php/en/product/view/id/303.html) - info from the original manufacturer, Shenzhen Titan Micro Electronics Co., Ltd. (深圳市天微电子股份有限公司)
 * [WyLed on hackaday.io](https://hackaday.io/project/167034-wyled)
