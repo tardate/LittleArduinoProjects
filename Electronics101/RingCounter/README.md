@@ -26,7 +26,8 @@ When powered by 9V battery source, the maximum current drawn is around 11.2mA.
 Note that since only a single LED should be on at a given time, the 10 x 1kΩ current-limiting resistors could be replaced by a single resistor
 on a common cathode ground link for the LEDs. But it depends on the specific LED ratings, as this subjects all the "off" LEDs to a reverse voltage equal to the voltage drop across the resistor.
 
-See [RingCounterController](../../playground/RingCounterController) for a variant of this project using an Arduino to control the 4017.
+See [LEAP#108 Ring Counter Controller](../../playground/RingCounterController/)
+for a variant of this project using an Arduino to control the 4017.
 
 ## Construction
 
@@ -54,4 +55,4 @@ It also appears in DIY learning kits often called something like a "Light Water 
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
-* [RingCounterController](../../playground/RingCounterController) - same project but using an Arduino for control
+* [LEAP#108 Ring Counter Controller](../../playground/RingCounterController/) - same project but using an Arduino for control

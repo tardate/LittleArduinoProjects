@@ -1,0 +1,7 @@
+{
+    "id": "#748",
+    "name": "CD4017 LED Chaser",
+    "description": "Introducing the CD4017 decade counter with the LED Chaser demo circuit.",
+    "categories": "CMOS/TTL, 555 Timer, CD4017",
+    "relative_path": "Electronics101/CD4017/LedChaser"
+}
