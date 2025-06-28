@@ -11,7 +11,7 @@ Simple NPN transistor curve tracer using a Stair-step generator circuit.
 This is a fascinating circuit, originally from the IEEE Engineering Sciences & Education Journal Vol 8 No 1 Feb 1999 pp25-26.
 I'm working from a demonstration by w2aew in [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24).
 
-It actually builds on the basic [StairStepGenerator](../StairStepGenerator) project and adapts it to perform
+It actually builds on the basic [LEAP#222 Stair-step Generator](../StairStepGenerator/) project and adapts it to perform
 basic NPN BJT curve tracing (plotting collector current to collector voltage for different base current values).
 
 I first built up the circuit on a breadboard, but it proved too noisy to be of much use...
@@ -21,6 +21,8 @@ I wouldn't necessarily trust these results for anything other than relative comp
 but it is interesting to see the theory play out IRL.
 
 Regardless, it's great fun to fiddle with step frequency, reset frequency and input voltage and see the effects in the X-Y plot.
+
+See [LEAP#245 General Curve Tracer](../GeneralCurveTracer/) for a project that can be used to characterise most common components.
 
 ### Stairstep Generator
 
@@ -112,10 +114,12 @@ Final protoboard build:
 
 ## Credits and References
 
-* [StairStepGenerator](../StairStepGenerator) project
-* [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24)
+* [LEAP#222 Stair-step Generator](../StairStepGenerator/) project
+* [LEAP#245 General Curve Tracer](../GeneralCurveTracer/) project
+* [#232: More Circuit Fun: Simple transistor curve tracer using Stairstep generator circuit](https://youtu.be/ZOLLoa2fH24) - w2aew
 * [w2aew's circuit](http://www.qsl.net/w2aew//youtube/curvetracer.pdf)
 * Original circuit based on IEE Engineering Sciences & Education Journal Vol 8 No 1 Feb 1999 pp25-26.
+* [The Art of Electronics APPENDIX G: The Curve Tracer](../../books/the-art-of-electronics/)
 * [TL074CN datasheet](https://www.futurlec.com/Linear/TL074CN.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
