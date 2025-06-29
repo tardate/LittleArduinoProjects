@@ -15,7 +15,7 @@ X-Y signals are plotted on an oscilloscope to visualise the characteristic curve
 * X is the ground-referenced voltage at the anode of the DUT
 * Y is the voltage across the resistor at the cathode of the DUT, which is proportional to the current flowing through the DUT.
 
-NB: see w2aew's [#49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer](https://www.youtube.com/watch?v=Gwo3pEH7hUE) for an example of a classic AC-powered curve tracer.
+See w2aew's [#49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer](https://www.youtube.com/watch?v=Gwo3pEH7hUE) for an example of a classic AC-powered curve tracer.
 
 ### 100nF Capacitor
 
@@ -73,10 +73,31 @@ NB: this curve is of two 1N4148's back-to-back - see note above.
 
 ## Credits and References
 
-* [Simple Component Tester](https://www.youtube.com/watch?v=_WQi8oKzsD8) - stoneslice
-* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
-* [#49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer](https://www.youtube.com/watch?v=Gwo3pEH7hUE) - w2aew demonstrating the classic AC version
+* [The Art of Electronics APPENDIX G: The Curve Tracer](../../books/the-art-of-electronics/)
+* [LEAP#228 Transistor Curve Tracer](../TransistorCurveTracer/)
 * [1N4730 datasheet](https://www.futurlec.com/Diodes/1N4730.shtml)
 * [1N5819 datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
 * [1N4148 datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap245-generic-curve-tracer.html)
+
+More video references...
+
+### Simple Component Tester by stoneslice
+
+[![clip](https://img.youtube.com/vi/_WQi8oKzsD8/0.jpg)](https://www.youtube.com/watch?v=_WQi8oKzsD8)
+
+### #49: Simple Component Tester using Oscilloscope - Octopus Curve Tracer by w2aew
+
+w2aew demonstrating the classic AC version
+
+[![clip](https://img.youtube.com/vi/Gwo3pEH7hUE/0.jpg)](https://www.youtube.com/watch?v=Gwo3pEH7hUE)
+
+### Component Tester - Curve Tracer - #133 by Lockdown Electronics
+
+[![clip](https://img.youtube.com/vi/bPTHziU1Hx4/0.jpg)](https://www.youtube.com/watch?v=bPTHziU1Hx4)
+
+### The most useful tool ever for electronics repairs - (PWJ212) by Play with Junk
+
+Great background on how curve tracers are used in repair and diagnostics
+
+[![clip](https://img.youtube.com/vi/O2mulzqHGBg/0.jpg)](https://www.youtube.com/watch?v=O2mulzqHGBg)

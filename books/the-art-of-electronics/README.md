@@ -36,6 +36,8 @@ See also:
 * APPENDIX E: LC Butterworth Filters
 * APPENDIX F: Load Lines
 * APPENDIX G: The Curve Tracer
+    * see: [LEAP#228 Transistor Curve Tracer](../../Electronics101/TransistorCurveTracer/)
+    * see: [LEAP#245 General Curve Tracer](../../Electronics101/GeneralCurveTracer/)
 * APPENDIX H: Transmission Lines and Impedance Matching
 * APPENDIX I: Television: A Compact Tutorial
 * APPENDIX J: SPICE Primer
