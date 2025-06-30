@@ -7,7 +7,7 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-06-18T07:07:00Z</updated>
+  <updated>2025-06-30T14:47:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
@@ -265,6 +265,18 @@
     <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/cd4017/ledchaser/</id>
+    <link href="https://leap.tardate.com/electronics101/cd4017/ledchaser/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/cd4017/ledchaser/assets/ledchaser_build.jpg</g:image_link>
+    <updated>2025-06-30T14:47:00Z</updated>
+    <title>#748 CD4017 LED Chaser</title>
+    <summary>Introducing the CD4017 decade counter with the LED Chaser demo circuit.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Introducing the CD4017 decade counter with the LED Chaser demo circuit.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4017/ledchaser/assets/ledchaser_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="555 Timer"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/usingtextfinder/</id>

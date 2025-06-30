@@ -1,4 +1,4 @@
-# #xxx CD4017 LED Chaser
+# #748 CD4017 LED Chaser
 
 Introducing the CD4017 decade counter with the LED Chaser demo circuit.
 
