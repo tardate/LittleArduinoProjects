@@ -230,6 +230,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#748",
+        "name": "CD4017 LED Chaser",
+        "description": "Introducing the CD4017 decade counter with the LED Chaser demo circuit.",
+        "categories": "CMOS/TTL, 555 Timer, CD4017",
+        "relative_path": "electronics101/cd4017/ledchaser",
+        "updated_at": "2025-06-30T14:47:00Z",
+        "created_at": "2025-06-30T14:47:00Z",
+        "original_relative_path": "Electronics101/CD4017/LedChaser"
+    },
+    {
         "id": "#747",
         "name": "Using TextFinder",
         "description": "Using the TextFinder library to extract fields from a string with an Arduino",

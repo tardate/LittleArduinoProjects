@@ -206,6 +206,16 @@
             "Books"
         ]
     },
+    "/electronics101/cd4017/ledchaser/": {
+        "id": 748,
+        "title": "CD4017 LED Chaser",
+        "summary": "Introducing the CD4017 decade counter with the LED Chaser demo circuit.",
+        "tags": [
+            "CMOS/TTL",
+            "555 Timer",
+            "CD4017"
+        ]
+    },
     "/playground/usingtextfinder/": {
         "id": 747,
         "title": "Using TextFinder",

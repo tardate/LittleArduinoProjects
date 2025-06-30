@@ -1,4 +1,4 @@
-# 771 Little Electronic Art Projects
+# 772 Little Electronic Art Projects
 
 > Latest addition :sparkles: [CD4027 Shift Register](./Electronics101/CD4027/ShiftRegister) - Build a 4-bit shift register made with CD4027 J-K flip-flops, setup for both manual control and an Arduino-driven demonstration sequence.
 
