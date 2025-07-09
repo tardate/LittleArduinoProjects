@@ -19,10 +19,11 @@ Internal RAM layout:
 0-3:Reg Banks, T:Bit regs, a-z:Data, B:Bits, Q:Overlay, I:iData, S:Stack, A:Absolute
 
 Stack starts at: 0x08 (sp set to 0x07) with 248 bytes available.
+No spare internal RAM space left.
 
 Other memory:
    Name             Start    End      Size     Max     
    ---------------- -------- -------- -------- --------
    PAGED EXT. RAM                         0      256   
    EXTERNAL RAM                           0    65536   
-   ROM/EPROM/FLASH  0x0000   0x009a     155     2048   
+   ROM/EPROM/FLASH  0x0000   0x00cd     206     2048   

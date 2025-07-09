@@ -1,6 +1,7 @@
 # #394 AT89C2051 Programmer
 
-Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX.
+Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOSX.
+Originally tested with Intel-based macOSX, but now updated for Apple Silicon.
 
 ![Build](./assets/Programmer_build.jpg?raw=true)
 
@@ -92,6 +93,9 @@ Possible improvement: I could probably reduce this to requiring 2 pins in total 
 * invert a single PWM signal for charge pump control
 * replace the 2 x NPN inverter for the 0V pull-down
 
+The [Programmer.ino](./Programmer.ino) sketch includes
+all the necessary VPP/RST Power Control.
+
 ## Installing at89overlord
 
 Using a Python3 virtual environment. Requirements are in `requirements.txt`
@@ -109,14 +113,24 @@ with the packaging of 0.3.0 that may cause problems; 0.4.0 works fine though)
 
 ## Programming a Device
 
-On my system, I have the Arduino plugged in and appearing on `/dev/tty.usbmodem14511`.
+On my system, I have the Arduino plugged in and appearing on the following devices:
+
+```sh
+$ ls -1 /dev/*usb*
+/dev/cu.usbserial-2420
+/dev/cu.wchusbserial2420
+/dev/tty.usbserial-2420
+/dev/tty.wchusbserial2420
+```
+
+The [Programmer.ino](./Programmer.ino) sketch is first uploaded to the Arduino. This sets it up in programmer mode, waiting for programming commands.
 
 Using the hex file generated with the
 [LEAP#394 AT89C2051 Blinky code here](../Blinky/),
 programming a chip is as simple as this:
 
 ```sh
-$ at89overlord -p /dev/tty.usbmodem14511 -f ../Blinky/Blinky.hex
+$ at89overlord -p /dev/tty.usbserial-2420 -f ../Blinky/Blinky.hex
 # Initializing the programmer...
 # Initialized!
 # Confirming chip ID...
