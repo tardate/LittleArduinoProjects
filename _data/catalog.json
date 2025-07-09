@@ -3732,7 +3732,7 @@
     {
         "id": "#399",
         "name": "AT89C2051 LED Chaser",
-        "description": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX",
+        "description": "run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on macOS (Intel and now Apple Silicon).",
         "categories": "8051, LED",
         "relative_path": "8051/at89c2051/ledchaser",
         "updated_at": "2023-03-27T13:57:21Z",
@@ -3772,7 +3772,7 @@
     {
         "id": "#395",
         "name": "AT89C2051 Blinky",
-        "description": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.",
+        "description": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOS. Originally tested with Intel-based macOS, but now updated for Apple Silicon.",
         "categories": "8051, LED",
         "relative_path": "8051/at89c2051/blinky",
         "updated_at": "2023-03-27T13:57:21Z",
@@ -3782,7 +3782,7 @@
     {
         "id": "#394",
         "name": "AT89C2051 Programmer",
-        "description": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.",
+        "description": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOS. Originally tested with Intel-based macOS, but now updated for Apple Silicon.",
         "categories": "8051",
         "relative_path": "8051/at89c2051/programmer",
         "updated_at": "2023-03-27T13:57:21Z",

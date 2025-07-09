@@ -4183,8 +4183,8 @@
     <g:image_link>https://leap.tardate.com/8051/at89c2051/ledchaser/assets/ledchaser_build.jpg</g:image_link>
     <updated>2023-03-27T13:57:21Z</updated>
     <title>#399 AT89C2051 LED Chaser</title>
-    <summary>run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/ledchaser/assets/ledchaser_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on macOS (Intel and now Apple Silicon).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on macOS (Intel and now Apple Silicon).&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/ledchaser/assets/ledchaser_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="8051"/>
     <category term="LED"/>
   </entry>
@@ -4228,8 +4228,8 @@
     <g:image_link>https://leap.tardate.com/8051/at89c2051/blinky/assets/blinky_build.jpg</g:image_link>
     <updated>2023-03-27T13:57:21Z</updated>
     <title>#395 AT89C2051 Blinky</title>
-    <summary>Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/blinky/assets/blinky_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOS. Originally tested with Intel-based macOS, but now updated for Apple Silicon.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOS. Originally tested with Intel-based macOS, but now updated for Apple Silicon.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/blinky/assets/blinky_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="8051"/>
     <category term="LED"/>
   </entry>
@@ -4239,8 +4239,8 @@
     <g:image_link>https://leap.tardate.com/8051/at89c2051/programmer/assets/programmer_build.jpg</g:image_link>
     <updated>2023-03-27T13:57:21Z</updated>
     <title>#394 AT89C2051 Programmer</title>
-    <summary>building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/programmer/assets/programmer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOS. Originally tested with Intel-based macOS, but now updated for Apple Silicon.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOS. Originally tested with Intel-based macOS, but now updated for Apple Silicon.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/programmer/assets/programmer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="8051"/>
   </entry>
   <entry>
