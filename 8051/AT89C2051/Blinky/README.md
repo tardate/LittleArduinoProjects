@@ -66,17 +66,17 @@ I've checked-in all the products of the compilation for study purposes:
 
 | File       | Description |
 |------------|-------------|
-| Blinky.asm | Assembler source file created by the compiler  |
-| Blinky.c   | C source file |
-| Blinky.hex | Optional packed hex file created by packihx |
-| Blinky.ihx | The load module in Intel hex format |
-| Blinky.lk  | linker options (I think) |
-| Blinky.lst | Assembler listing file created by the Assembler |
-| Blinky.map | The memory map for the load module, created by the Linker |
-| Blinky.mem | A file with a summary of the memory usage |
-| Blinky.rel | Object file created by the assembler, input to Linkage editor |
-| Blinky.rst | Assembler listing file updated with linkedit information, created by linkage editor  |
-| Blinky.sym | Symbol listing for the sourcefile, created by the assembler |
+| [Blinky.asm](./Blinky.asm) | Assembler source file created by the compiler  |
+| [Blinky.c](./Blinky.c)     | C source file |
+| [Blinky.hex](./Blinky.hex) | Optional packed hex file created by packihx |
+| [Blinky.ihx](./Blinky.ihx) | The load module in Intel hex format |
+| [Blinky.lk](./Blinky.lk)   | linker options (I think) |
+| [Blinky.lst](./Blinky.lst) | Assembler listing file created by the Assembler |
+| [Blinky.map](./Blinky.map) | The memory map for the load module, created by the Linker |
+| [Blinky.mem](./Blinky.mem) | A file with a summary of the memory usage |
+| [Blinky.rel](./Blinky.rel) | Object file created by the assembler, input to Linkage editor |
+| [Blinky.rst](./Blinky.rst) | Assembler listing file updated with link edit information, created by linkage editor  |
+| [Blinky.sym](./Blinky.sym) | Symbol listing for the sourcefile, created by the assembler |
 
 ## Controlling the RST line
 

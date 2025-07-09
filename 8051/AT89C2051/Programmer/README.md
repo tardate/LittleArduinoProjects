@@ -93,6 +93,9 @@ Possible improvement: I could probably reduce this to requiring 2 pins in total 
 * invert a single PWM signal for charge pump control
 * replace the 2 x NPN inverter for the 0V pull-down
 
+The [Programmer.ino](./Programmer.ino) sketch includes
+all the necessary VPP/RST Power Control.
+
 ## Installing at89overlord
 
 Using a Python3 virtual environment. Requirements are in `requirements.txt`
@@ -119,6 +122,8 @@ $ ls -1 /dev/*usb*
 /dev/tty.usbserial-2420
 /dev/tty.wchusbserial2420
 ```
+
+The [Programmer.ino](./Programmer.ino) sketch is first uploaded to the Arduino. This sets it up in programmer mode, waiting for programming commands.
 
 Using the hex file generated with the
 [LEAP#394 AT89C2051 Blinky code here](../Blinky/),
