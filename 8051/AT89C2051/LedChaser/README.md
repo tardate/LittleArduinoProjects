@@ -51,7 +51,7 @@ so the most convenient arrangement for this design is low-side control of the LE
 
 ## Code and Compilation
 
-This is a single-file program: [LedChaser.c](./LedChaser.c) - with a Makefile to build with
+This is a single-file program: [LedChaser.c](./LedChaser.c) - with a [Makefile](./Makefile) to build with
 [SDCC](https://sdcc.sourceforge.net). I'm compiling this on macOS.
 
 ```sh

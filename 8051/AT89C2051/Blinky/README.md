@@ -53,7 +53,7 @@ export PATH=$PATH:${SDCC_HOME}/bin
 
 ## Compiling
 
-See the `Makefile` for the couple of simple instructions that are used. It builds simply like this:
+See the [Makefile](./Makefile) for the couple of simple instructions that are used. It builds simply like this:
 
 ```sh
 $ make
