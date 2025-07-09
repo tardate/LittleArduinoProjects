@@ -1,7 +1,7 @@
 # #395 AT89C2051 Blinky
 
-Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOSX.
-Originally tested with Intel-based macOSX, but now updated for Apple Silicon.
+Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOS.
+Originally tested with Intel-based macOS, but now updated for Apple Silicon.
 
 ![Build](./assets/Blinky_build.jpg?raw=true)
 
@@ -21,7 +21,7 @@ It blinks an LED on P1_0, using a do-nothing loop to approximate 1Hz cycle time.
 
 SDCC can be compiled from source or installed with a range of pre-compiled distributions available for Linux, Mac and Windows.
 
-I previously installed SDCC [using a pre-compiled distribution for macOSX](https://sdcc.sourceforge.net/snap.php#MacOSX),
+I previously installed SDCC [using a pre-compiled distribution for macOS](https://sdcc.sourceforge.net/snap.php#MacOSX),
 specifically
 [this version](https://excellmedia.dl.sourceforge.net/project/sdcc/snapshot_builds/i386_universal-apple-macosx/sdcc-snapshot-i386_universal-apple-macosx-20150214-9180.tar.bz2),
 but that was when I was still using an Intel-based machine.

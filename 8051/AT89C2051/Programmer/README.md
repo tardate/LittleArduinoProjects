@@ -1,7 +1,7 @@
 # #394 AT89C2051 Programmer
 
-Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOSX.
-Originally tested with Intel-based macOSX, but now updated for Apple Silicon.
+Building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOS.
+Originally tested with Intel-based macOS, but now updated for Apple Silicon.
 
 ![Build](./assets/Programmer_build.jpg?raw=true)
 
@@ -22,7 +22,7 @@ being the need for a 12V programming voltage in addition to standard logic high 
 So while I could go out and buy a programmer, the idea of building my own is very attractive for two reasons:
 
 * it is a bit of a short cut to building familiarity with the chip and datasheet
-* I can make sure it supports my host platform of choice - MacOSX
+* I can make sure it supports my host platform of choice - macOS
 
 ### Inspirations and Prior Art
 

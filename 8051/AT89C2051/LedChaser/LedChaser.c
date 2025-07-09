@@ -29,8 +29,8 @@ void timer0_isr(void) __interrupt (1) {
     }
 }
 
-int main() {
 
+int main(void) {
     TMOD &= 0xF0; // Don't care about Timer1, clear Timer0 settings
     TMOD |= 0x03; // Set Timer0 mode 3: 8 bit, software gate
     TH0 = 0x00;   // Clear counter
@@ -42,5 +42,4 @@ int main() {
     while(1) {
         P1 = 0xFF ^ led_state; // translate led_state to active-low logic
     }
-
 }

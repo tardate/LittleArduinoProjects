@@ -1,6 +1,6 @@
 # #399 AT89C2051 LED Chaser
 
-Run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on MacOSX.
+Run an LED chaser with an AT89C2051 using interrupts for timing; C source compiled with SDCC on macOS (Intel and now Apple Silicon).
 
 ![Build](./assets/LedChaser_build.jpg?raw=true)
 
@@ -33,7 +33,7 @@ Register usage:
 The interrupt service routine is declared with the non-standard `__interrupt` keyword,
 allowing the compiler/linker to correctly vector this function for interrupt 1:
 
-```
+```c
 void timer0_isr(void) __interrupt (1) {
   ...
 }
@@ -52,20 +52,20 @@ so the most convenient arrangement for this design is low-side control of the LE
 ## Code and Compilation
 
 This is a single-file program: [LedChaser.c](./LedChaser.c) - with a Makefile to build with
-[SDCC](http://sdcc.sourceforge.net). I'm compiling this on MacOSX.
+[SDCC](https://sdcc.sourceforge.net). I'm compiling this on macOS.
 
-```
+```sh
 $ make
 sdcc -mmcs51 --code-size 2048 LedChaser.c -o LedChaser.ihx
 packihx LedChaser.ihx > LedChaser.hex
-packihx: read 15 lines, wrote 19: OK.
+packihx: read 18 lines, wrote 25: OK.
 ```
 
 ## Programming
 
 [LEAP#394 AT89C2051 Programmer](../Programmer) and `at89overlord`
 
-```
+```sh
 $ source ../Programmer/venv/bin/activate
 $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 # Initializing the programmer...
@@ -78,7 +78,6 @@ $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 # Done!
 # Verifying...
 # Done!
-
 ```
 
 ## Construction
