@@ -1,11 +1,10 @@
 ;--------------------------------------------------------
-; File Created by SDCC : free open source ANSI-C Compiler
-; Version 3.4.3 #9180 (Feb 14 2015) (Mac OS X i386)
-; This file was generated Mon Jun  4 23:18:38 2018
+; File Created by SDCC : free open source ISO C Compiler
+; Version 4.5.0 #15242 (Mac OS X ppc)
 ;--------------------------------------------------------
 	.module Blinky
-	.optsdcc -mmcs51 --model-small
 	
+	.optsdcc -mmcs51 --model-small
 ;--------------------------------------------------------
 ; Public variables in this module
 ;--------------------------------------------------------
@@ -213,13 +212,13 @@ _TF1	=	0x008f
 ;--------------------------------------------------------
 	.area DSEG    (DATA)
 ;--------------------------------------------------------
-; overlayable items in internal ram 
+; overlayable items in internal ram
 ;--------------------------------------------------------
 	.area	OSEG    (OVR,DATA)
 ;--------------------------------------------------------
-; Stack segment in internal ram 
+; Stack segment in internal ram
 ;--------------------------------------------------------
-	.area	SSEG
+	.area SSEG
 __start__stack:
 	.ds	1
 
@@ -241,7 +240,7 @@ __start__stack:
 ;--------------------------------------------------------
 	.area PSEG    (PAG,XDATA)
 ;--------------------------------------------------------
-; external ram data
+; uninitialized external ram data
 ;--------------------------------------------------------
 	.area XSEG    (XDATA)
 ;--------------------------------------------------------
@@ -249,7 +248,7 @@ __start__stack:
 ;--------------------------------------------------------
 	.area XABS    (ABS,XDATA)
 ;--------------------------------------------------------
-; external initialized ram data
+; initialized external ram data
 ;--------------------------------------------------------
 	.area XISEG   (XDATA)
 	.area HOME    (CODE)
@@ -263,11 +262,69 @@ __start__stack:
 	.area GSFINAL (CODE)
 	.area CSEG    (CODE)
 ;--------------------------------------------------------
-; interrupt vector 
+; interrupt vector
 ;--------------------------------------------------------
 	.area HOME    (CODE)
 __interrupt_vect:
 	ljmp	__sdcc_gsinit_startup
+; restartable atomic support routines
+	.ds	5
+sdcc_atomic_exchange_rollback_start::
+	nop
+	nop
+sdcc_atomic_exchange_pdata_impl:
+	movx	a, @r0
+	mov	r3, a
+	mov	a, r2
+	movx	@r0, a
+	sjmp	sdcc_atomic_exchange_exit
+	nop
+	nop
+sdcc_atomic_exchange_xdata_impl:
+	movx	a, @dptr
+	mov	r3, a
+	mov	a, r2
+	movx	@dptr, a
+	sjmp	sdcc_atomic_exchange_exit
+sdcc_atomic_compare_exchange_idata_impl:
+	mov	a, @r0
+	cjne	a, ar2, .+#5
+	mov	a, r3
+	mov	@r0, a
+	ret
+	nop
+sdcc_atomic_compare_exchange_pdata_impl:
+	movx	a, @r0
+	cjne	a, ar2, .+#5
+	mov	a, r3
+	movx	@r0, a
+	ret
+	nop
+sdcc_atomic_compare_exchange_xdata_impl:
+	movx	a, @dptr
+	cjne	a, ar2, .+#5
+	mov	a, r3
+	movx	@dptr, a
+	ret
+sdcc_atomic_exchange_rollback_end::
+
+sdcc_atomic_exchange_gptr_impl::
+	jnb	b.6, sdcc_atomic_exchange_xdata_impl
+	mov	r0, dpl
+	jb	b.5, sdcc_atomic_exchange_pdata_impl
+sdcc_atomic_exchange_idata_impl:
+	mov	a, r2
+	xch	a, @r0
+	mov	dpl, a
+	ret
+sdcc_atomic_exchange_exit:
+	mov	dpl, r3
+	ret
+sdcc_atomic_compare_exchange_gptr_impl::
+	jnb	b.6, sdcc_atomic_compare_exchange_xdata_impl
+	mov	r0, dpl
+	jb	b.5, sdcc_atomic_compare_exchange_pdata_impl
+	sjmp	sdcc_atomic_compare_exchange_idata_impl
 ;--------------------------------------------------------
 ; global & static initialisations
 ;--------------------------------------------------------
@@ -298,8 +355,8 @@ __sdcc_program_startup:
 ;------------------------------------------------------------
 ;Allocation info for local variables in function 'delay'
 ;------------------------------------------------------------
-;i                         Allocated to registers r6 r7 
-;j                         Allocated to registers r4 r5 
+;i             Allocated to registers r7 
+;j             Allocated to registers r5 r6 
 ;------------------------------------------------------------
 ;	Blinky.c:18: void delay(void)
 ;	-----------------------------------------
@@ -315,36 +372,25 @@ _delay:
 	ar1 = 0x01
 	ar0 = 0x00
 ;	Blinky.c:21: for(i=0; i<0xff; i++)
-	mov	r6,#0x00
 	mov	r7,#0x00
-00106$:
 ;	Blinky.c:22: for(j=0; j<0xff; j++);
-	mov	r4,#0xFF
-	mov	r5,#0x00
+00110$:
+	mov	r5,#0xff
+	mov	r6,#0x00
 00105$:
-	mov	a,r4
-	add	a,#0xFF
-	mov	r2,a
+	dec	r5
+	cjne	r5,#0xff,00130$
+	dec	r6
+00130$:
 	mov	a,r5
-	addc	a,#0xFF
-	mov	r3,a
-	mov	ar4,r2
-	mov	ar5,r3
-	mov	a,r2
-	orl	a,r3
+	orl	a,r6
 	jnz	00105$
 ;	Blinky.c:21: for(i=0; i<0xff; i++)
-	inc	r6
-	cjne	r6,#0x00,00121$
 	inc	r7
-00121$:
-	clr	c
-	mov	a,r6
-	subb	a,#0xFF
-	mov	a,r7
-	xrl	a,#0x80
-	subb	a,#0x80
-	jc	00106$
+	cjne	r7,#0xff,00132$
+00132$:
+	jc	00110$
+;	Blinky.c:23: }
 	ret
 ;------------------------------------------------------------
 ;Allocation info for local variables in function 'main'
@@ -357,13 +403,16 @@ _main:
 ;	Blinky.c:31: while(1) {
 00102$:
 ;	Blinky.c:32: P1_0 = 1;
+;	assignBit
 	setb	_P1_0
 ;	Blinky.c:33: delay();
 	lcall	_delay
 ;	Blinky.c:34: P1_0 = 0;
+;	assignBit
 	clr	_P1_0
 ;	Blinky.c:35: delay();
 	lcall	_delay
+;	Blinky.c:37: }
 	sjmp	00102$
 	.area CSEG    (CODE)
 	.area CONST   (CODE)
