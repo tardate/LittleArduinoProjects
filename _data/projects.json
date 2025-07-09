@@ -3457,7 +3457,7 @@
     "/8051/at89c2051/blinky/": {
         "id": 395,
         "title": "AT89C2051 Blinky",
-        "summary": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on MacOSX",
+        "summary": "Simplest LED blinky program in C for the AT89C2051(8051/MCS51) microprocessor, built with the SDCC open-source toolchain on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.",
         "tags": [
             "8051",
             "LED"
@@ -3466,7 +3466,7 @@
     "/8051/at89c2051/programmer/": {
         "id": 394,
         "title": "AT89C2051 Programmer",
-        "summary": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on MacOSX",
+        "summary": "building a programmer for the Intel MCS-51/8051 compatible AT89C2051, with host software running on macOSX. Originally tested with Intel-based macOSX, but now updated for Apple Silicon.",
         "tags": [
             "8051"
         ]
