@@ -1,4 +1,4 @@
-# #xxx RF Demo Kit
+# #776 RF Demo Kit
 
 Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.
 
