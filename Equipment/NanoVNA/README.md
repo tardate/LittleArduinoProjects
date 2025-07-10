@@ -131,6 +131,8 @@ The test sweep as captured with NanoVNASaver:
 * [NanoVNA](https://nanovna.com/)
 * [NanoVNASaver](https://github.com/NanoVNA-Saver/nanovna-saver)
 * [Vector Network Analyzer (VNA)](https://en.wikipedia.org/wiki/Network_analyzer_(electrical))  - wikipedia
-* [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
-* Review: 900MHz Touchscreen Vector Network Analyser - [Silicon Chip Apr 2020 p34](https://www.siliconchip.com.au/Issue/SC/2020/April)
+* [So. You Bought A VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/) - hackaday
+* [NANOVNA IS A $50 VECTOR NETWORK ANALYZER](https://hackaday.com/2019/08/11/nanovna-is-a-50-vector-network-analyzer/) - hackaday
 * [w2aew NanoVNA playlist](https://www.youtube.com/playlist?list=PL4ZSD4omd_AylEyNCQYR3RcEb0olukPEJ)
+* Review: 900MHz Touchscreen Vector Network Analyser - [Silicon Chip Apr 2020 p34](https://www.siliconchip.com.au/Issue/SC/2020/April)
+* [Reviews of the NanoVNA: An Ultra Low Cost $50 Vector Network Analyzer](https://www.rtl-sdr.com/reviews-of-the-nanovna-an-ultra-low-cost-50-vector-network-analyzer/)
