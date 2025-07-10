@@ -67,7 +67,7 @@ Note: some clearer instructions can be found at
 
 ### Menu Map
 
-The menu mmap for the version of the software that came pre-installed:
+The menu map for the version of the software that came pre-installed:
 
 ![menu-map](./assets/menu-map.jpg)
 

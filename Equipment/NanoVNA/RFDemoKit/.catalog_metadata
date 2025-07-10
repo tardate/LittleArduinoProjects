@@ -1,0 +1,6 @@
+{
+    "name": "RF Demo Kit",
+    "description": "Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.",
+    "categories": "Tools, RF",
+    "relative_path": "Equipment/NanoVNA/RFDemoKit"
+}
