@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-06-30T14:47:00Z</updated>
+  <updated>2025-07-10T15:51:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/equipment/nanovna/rfdemokit/</id>
+    <link href="https://leap.tardate.com/equipment/nanovna/rfdemokit/"/>
+    <g:image_link>https://leap.tardate.com/equipment/nanovna/rfdemokit/assets/rfdemokit_build.jpg</g:image_link>
+    <updated>2025-07-10T15:51:00Z</updated>
+    <title>#776 RF Demo Kit</title>
+    <summary>Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/nanovna/rfdemokit/assets/rfdemokit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Tools"/>
+    <category term="RF"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4027/shiftregister/</id>
     <link href="https://leap.tardate.com/electronics101/cd4027/shiftregister/"/>
@@ -110,6 +121,7 @@
     <summary>Unpacking and doing some basic tests with the NanoVNA, including using the NanoVNASaver software on macOS.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Unpacking and doing some basic tests with the NanoVNA, including using the NanoVNASaver software on macOS.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/nanovna/assets/nanovna_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
+    <category term="RF"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/dicksonchargepump/onepinthreev/</id>

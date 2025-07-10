@@ -1,4 +1,13 @@
 {
+    "/equipment/nanovna/rfdemokit/": {
+        "id": 776,
+        "title": "RF Demo Kit",
+        "summary": "Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.",
+        "tags": [
+            "Tools",
+            "RF"
+        ]
+    },
     "/electronics101/cd4027/shiftregister/": {
         "id": 775,
         "title": "CD4027 Shift Register",
@@ -76,7 +85,8 @@
         "title": "NanoVNA",
         "summary": "Unpacking and doing some basic tests with the NanoVNA, including using the NanoVNASaver software on macOS.",
         "tags": [
-            "Tools"
+            "Tools",
+            "RF"
         ]
     },
     "/electronics101/power/dicksonchargepump/onepinthreev/": {

@@ -1,6 +1,6 @@
-# 772 Little Electronic Art Projects
+# 773 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CD4027 Shift Register](./Electronics101/CD4027/ShiftRegister) - Build a 4-bit shift register made with CD4027 J-K flip-flops, setup for both manual control and an Arduino-driven demonstration sequence.
+> Latest addition :sparkles: [RF Demo Kit](./Equipment/NanoVNA/RFDemoKit) - Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
