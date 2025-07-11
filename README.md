@@ -1,6 +1,6 @@
-# 773 Little Electronic Art Projects
+# 774 Little Electronic Art Projects
 
-> Latest addition :sparkles: [RF Demo Kit](./Equipment/NanoVNA/RFDemoKit) - Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.
+> Latest addition :sparkles: [Fireworks Grand Finale](./BoldportClub/TheMatrix/GrandFinale) - Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

@@ -1,4 +1,15 @@
 {
+    "/boldportclub/thematrix/grandfinale/": {
+        "id": 777,
+        "title": "Fireworks Grand Finale",
+        "summary": "Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix",
+        "tags": [
+            "Boldport",
+            "PCB Design",
+            "LED",
+            "AS1130"
+        ]
+    },
     "/equipment/nanovna/rfdemokit/": {
         "id": 776,
         "title": "RF Demo Kit",

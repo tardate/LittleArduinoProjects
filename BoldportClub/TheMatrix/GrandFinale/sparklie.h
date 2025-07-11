@@ -13,7 +13,7 @@ public:
   /// @brief Command: recalculates the sparkles next position if it is alive, else might regenerate if with_regeneration is true.
   /// Returns whether the sparkle is alive at the end.
   ///
-  bool recalculate(bool with_regeneration);
+  bool recalculate(bool with_regeneration, uint8_t custom_height, uint8_t custom_velocity);
 
   /// @brief Command: clears the sparkle display on the given page
   ///
@@ -40,6 +40,6 @@ private:
 
   /// @brief Command: a sparkle is born - sets some randomised defaults
   ///
-  void initialiseSettings();
+  void initialiseSettings(uint8_t custom_height, uint8_t custom_velocity);
 
 };

@@ -66,6 +66,6 @@ After an initial inspection, I only had a couple of manual fixups required:
 * [The Matrix](http://boldport.com/matrix) - project page
 * [The Matrix](https://github.com/boldport/thematrix) - OSH files on GitHub
 * [The Matrix](http://community.boldport.club/projects/p11-thematrix/) - club community site, packed with resources for the project
-* [AS1130 datasheet and info](http://ams.com/eng/Products/Power-Management/LED-Drivers/AS1130)
+* [AS1130 datasheet and info](https://ams-osram.com/products/drivers/led-drivers/ams-as1130-led-driver-ic)
 * [The Matrix stencil](https://www.oshstencils.com/#projects/b0f4128d644cff5424abcb2829a05980179f08fc) - from OSHStencils
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap299-the-boldport-club-matrix.html)
