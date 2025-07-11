@@ -1,4 +1,4 @@
-# #xxx Fireworks Grand Finale
+# #777 Fireworks Grand Finale
 
 Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix
 
