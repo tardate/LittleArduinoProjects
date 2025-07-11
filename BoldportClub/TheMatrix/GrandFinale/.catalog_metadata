@@ -1,0 +1,6 @@
+{
+    "name": "Fireworks Grand Finale",
+    "description": "Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix",
+    "categories": "Boldport, PCB Design, LED, AS1130",
+    "relative_path": "BoldportClub/TheMatrix/GrandFinale"
+}
