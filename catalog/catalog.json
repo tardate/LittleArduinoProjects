@@ -1,5 +1,15 @@
 [
     {
+        "name": "AT89C2051 LCD Control",
+        "description": "",
+        "categories": "8051",
+        "relative_path": "8051/at89c2051/lcdcontrol",
+        "updated_at": "2025-07-14T14:53:00Z",
+        "created_at": "2025-07-14T14:53:00Z",
+        "id": "#778",
+        "original_relative_path": "8051/AT89C2051/LcdControl"
+    },
+    {
         "name": "Fireworks Grand Finale",
         "description": "Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix",
         "categories": "Boldport, PCB Design, LED, AS1130",
@@ -248,6 +258,16 @@
         "updated_at": "2025-03-13T07:34:00Z",
         "created_at": "2025-03-13T07:34:00Z",
         "original_relative_path": "books/the-embedded-project-cookbook"
+    },
+    {
+        "id": "#749",
+        "name": "HD44780-based LCD Modules",
+        "description": "All about HD44780-based LCDs, commonly used with microcontrollers to provide 16x1, 16x2, or 20x4 character display output (e.g. QC1602A)",
+        "categories": "HD44780, LCD",
+        "relative_path": "electronics101/hd44780",
+        "updated_at": "2025-07-14T14:53:00Z",
+        "created_at": "2025-07-14T14:53:00Z",
+        "original_relative_path": "Electronics101/HD44780"
     },
     {
         "id": "#748",

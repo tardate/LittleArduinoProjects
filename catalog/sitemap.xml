@@ -1,6 +1,9 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://leap.tardate.com/8051/at89c2051/lcdcontrol/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/boldportclub/thematrix/grandfinale/</loc>
   </url>
   <url>
@@ -74,6 +77,9 @@
   </url>
   <url>
     <loc>https://leap.tardate.com/books/the-embedded-project-cookbook/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/electronics101/hd44780/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/cd4017/ledchaser/</loc>

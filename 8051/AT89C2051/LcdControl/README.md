@@ -1,4 +1,4 @@
-# #xxx AT89C2051 LCD Control
+# #778 AT89C2051 LCD Control
 
 Demonstrates LCD control using AT89C2051.
 

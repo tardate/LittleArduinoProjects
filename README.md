@@ -1,6 +1,6 @@
-# 774 Little Electronic Art Projects
+# 776 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Fireworks Grand Finale](./BoldportClub/TheMatrix/GrandFinale) - Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix
+> Latest addition :sparkles: [AT89C2051 LCD Control](./8051/AT89C2051/LcdControl) - 
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

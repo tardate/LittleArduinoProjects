@@ -1,4 +1,12 @@
 {
+    "/8051/at89c2051/lcdcontrol/": {
+        "id": 778,
+        "title": "AT89C2051 LCD Control",
+        "summary": "",
+        "tags": [
+            "8051"
+        ]
+    },
     "/boldportclub/thematrix/grandfinale/": {
         "id": 777,
         "title": "Fireworks Grand Finale",
@@ -225,6 +233,15 @@
         "summary": "Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.",
         "tags": [
             "Books"
+        ]
+    },
+    "/electronics101/hd44780/": {
+        "id": 749,
+        "title": "HD44780-based LCD Modules",
+        "summary": "All about HD44780-based LCDs, commonly used with microcontrollers to provide 16x1, 16x2, or 20x4 character display output (e.g. QC1602A)",
+        "tags": [
+            "HD44780",
+            "LCD"
         ]
     },
     "/electronics101/cd4017/ledchaser/": {

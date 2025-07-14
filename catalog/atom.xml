@@ -7,12 +7,22 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-07-11T17:02:00Z</updated>
+  <updated>2025-07-14T14:53:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/8051/at89c2051/lcdcontrol/</id>
+    <link href="https://leap.tardate.com/8051/at89c2051/lcdcontrol/"/>
+    <g:image_link>https://leap.tardate.com/8051/at89c2051/lcdcontrol/assets/lcdcontrol_build.jpg</g:image_link>
+    <updated>2025-07-14T14:53:00Z</updated>
+    <title>#778 AT89C2051 LCD Control</title>
+    <summary/>
+    <content type="html">&lt;div&gt;&lt;p /&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/lcdcontrol/assets/lcdcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="8051"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/thematrix/grandfinale/</id>
     <link href="https://leap.tardate.com/boldportclub/thematrix/grandfinale/"/>
@@ -290,6 +300,17 @@
     <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/hd44780/</id>
+    <link href="https://leap.tardate.com/electronics101/hd44780/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/hd44780/assets/hd44780_build.jpg</g:image_link>
+    <updated>2025-07-14T14:53:00Z</updated>
+    <title>#749 HD44780-based LCD Modules</title>
+    <summary>All about HD44780-based LCDs, commonly used with microcontrollers to provide 16x1, 16x2, or 20x4 character display output (e.g. QC1602A)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about HD44780-based LCDs, commonly used with microcontrollers to provide 16x1, 16x2, or 20x4 character display output (e.g. QC1602A)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/hd44780/assets/hd44780_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="HD44780"/>
+    <category term="LCD"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4017/ledchaser/</id>
