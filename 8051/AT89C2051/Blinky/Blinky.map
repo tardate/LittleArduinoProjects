@@ -11,7 +11,6 @@ C:   00000000  l_BIT_BANK
 C:   00000000  l_BSEG                          
 C:   00000000  l_BSEG_BYTES                    
 C:   00000000  l_CABS                          
-C:   00000000  l_CONST                         
 C:   00000000  l_GSINIT                        
 C:   00000000  l_GSINIT1                       
 C:   00000000  l_GSINIT5                       
@@ -44,6 +43,7 @@ C:   00000000  s_XABS
 C:   00000001  s_PSEG                          
 C:   00000001  s_XISEG                         
 C:   00000001  s_XSEG                          
+C:   00000002  l_CONST                         
 C:   00000003  l_GSFINAL                       
 C:   00000003  l_GSINIT0                       
 C:   00000008  l_REG_BANK_0                    
@@ -66,8 +66,8 @@ CABS                                00000000    00000000 =           0. bytes (A
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-C:   00000026  l_CSEG                          
 C:   0000002A  l_GSINIT4                       
+C:   00000037  l_CSEG                          
 C:   0000004C  l_HOME                          
 C:   0000004C  s_GSINIT0                       
 C:   0000004F  s_GSINIT1                       
@@ -79,8 +79,8 @@ C:   000000A5  s_GSFINAL
 C:   000000A5  s_GSINIT                        
 C:   000000A5  s_GSINIT5                       
 C:   000000A8  s_CSEG                          
-C:   000000CE  s_CONST                         
-C:   000000CE  s_XINIT                         
+C:   000000DF  s_CONST                         
+C:   000000E1  s_XINIT                         
 C:   000000F8  l_SSEG                          
 C:   00000100  l_IRAM                          
 
@@ -296,14 +296,25 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-CSEG                                000000A8    00000026 =          38. bytes (REL,CON,CODE)
+CSEG                                000000A8    00000037 =          55. bytes (REL,CON,CODE)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-C:   000000A8  _delay                             Blinky
-C:   000000BE  _main                              Blinky
-C:   000000CA  ___sdcc_external_startup           _startup
+C:   000000A8  _main                              Blinky
+C:   000000BA  _ms_delay                          Blinky
+C:   000000DB  ___sdcc_external_startup           _startup
 ASxxxx Linker V03.00/V05.40 + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               000000DF    00000002 =           2. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000DF  _DELAY                             Blinky
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 16.
 
 Files Linked                              [ module(s) ]
 
@@ -325,7 +336,7 @@ Libraries Linked                          [ object file ]
 /opt/homebrew/bin/../share/sdcc/lib/small/libsdcc.lib
                                           [ _startup.rel ]
 
-ASxxxx Linker V03.00/V05.40 + sdld,  page 16.
+ASxxxx Linker V03.00/V05.40 + sdld,  page 17.
 
 User Base Address Definitions
 

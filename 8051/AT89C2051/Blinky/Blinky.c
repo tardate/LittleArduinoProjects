@@ -10,29 +10,29 @@
 #define MICROCONTROLLER_AT89CX051
 #include <mcs51reg.h>
 
+const int DELAY = 1000;
 
-/*
- * Command: delay for a bit.
- * this just wastes time in a NOP loop
- */
-void delay(void)
-{
-    int i, j;
-    for(i=0; i<0xff; i++)
-        for(j=0; j<0xff; j++);
-}
-
+void ms_delay(unsigned int ms);
 
 /*
  * Implements main loop that just toggles P1_0
  */
 void main(void)
 {
-    while(1) {
-         P1_0 = 1;
-         delay();
-         P1_0 = 0;
-         delay();
-    }
+  while(1) {
+    P1_0 = 1;
+    ms_delay(DELAY);
+    P1_0 = 0;
+    ms_delay(DELAY);
+  }
 }
 
+/*
+ * Command: delay for a specified time in milliseconds
+ * This is calibrated for the processor running @ 16MHz
+ */
+void ms_delay(unsigned int ms) {
+  for(unsigned int i=0; i<ms; i++) {
+    for(unsigned int j=0; j<186; j++);
+  }
+}

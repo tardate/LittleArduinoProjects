@@ -1,0 +1,7 @@
+{
+    "id": "#749",
+    "name": "HD44780-based LCD Modules",
+    "description": "All about HD44780-based LCDs, commonly used with microcontrollers to provide 16x1, 16x2, or 20x4 character display output (e.g. QC1602A)",
+    "categories": "HD44780, LCD",
+    "relative_path": "Electronics101/HD44780"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "AT89C2051 LCD Control",
+    "description": "",
+    "categories": "8051",
+    "relative_path": "8051/AT89C2051/LcdControl"
+}

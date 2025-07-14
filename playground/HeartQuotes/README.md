@@ -56,9 +56,9 @@ This gets parsed down into just the actual "quote" part:
 * Arduino Ethernet Shield
 * Breadboard
 * 4 Pin DIP PCB Momentary Push Button Tactile Switch
-* 16x2 LCD - I used a [QC1602A](./../BetterWithBacon/assets/LCD_QC1602A_datasheet.pdf)
+* 16x2 LCD - I used a QC1602A
 
 ## Credits and References
 
 * HTTP GET based on the Arduino WebClient example <http://arduino.cc/en/Tutorial/WebClient>
-* LCD output based on the Arduino LiquidCrystal examples <http://arduino.cc/en/Tutorial/LiquidCrystal>
+* [LEAP#749 HD44780-based LCD Modules (e.g. QC1602A)](../../Electronics101/HD44780/)

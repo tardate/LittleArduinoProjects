@@ -23,7 +23,7 @@ A few changes I've made:
 
 ### Button Functions
 
-I used normally-open pushbuttons on the breadboard, but for the final build I have some normally-closed pushbuttons.
+I used normally-open push-buttons on the breadboard, but for the final build I have some normally-closed push-buttons.
 The `#define BUTTON_LOGIC_ACTIVE_STATE` is used to select between HIGH or LOW button logic.
 Internal pull-ups are enabled so there are no additional external components required other than the push-buttons themselves.
 
