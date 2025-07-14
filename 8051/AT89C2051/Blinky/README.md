@@ -15,7 +15,7 @@ The main purpose of this program is simply to have something for testing the [LE
 and also my first trial of [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/).
 
 It is almost but not quite the simplest LED blinky program possible.
-It blinks an LED on P1_0, using a do-nothing loop to approximate 1Hz cycle time.
+It blinks an LED on P1_0, using a do-nothing loop to toggles the LED state every 1 second.
 
 ## Installing SDCC
 
@@ -50,6 +50,31 @@ but in other circumstances it may be necessary to set the `SDCC_HOME` environmen
 export SDCC_HOME=./sdcc
 export PATH=$PATH:${SDCC_HOME}/bin
 ```
+
+## The Blinky Program
+
+The [Blinky.c](./Blinky.c) source file is the entire program:
+
+* a `main` function that toggles the state of the `P1_0` port bit ever `DELAY` milliseconds.
+* a `ms_delay` function that "sleeps" for the specified number of milliseconds
+
+### Calibrating the Delay Function
+
+The `ms_delay` function does not rely on timers or counters - it simply goes into a "do nothing" loop to waste a specified amount of time. The loop duration needs to be calibrated for the processor speed (16MHz in my case).
+
+Calibrating the delay can be done by at least 3 methods:
+
+* count the operation CPU cycles and calculate the expected duration
+* run the code in a simulator such as [Proteus](https://www.labcenter.com/), or use the logic analyzer of a compiler such as [Keil](https://www.keil.com)
+* measure the resulting behaviour with an oscilloscope or frequency counter
+
+For now, I'm going to measure with an oscilloscope. Since they don't like working at lower frequencies, I initially compile the code with a `DELAY` of 10ms. After adjusting the delay loop counter, I have the output toggling at the expected 50Hz:
+
+![scope_10ms](./assets/scope_10ms.gif)
+
+Reverting to a `DELAY` of 1000ms, we see the expected behaviour: toggling the LED state every 1 second:
+
+![scope_1000ms](./assets/scope_1000ms.gif)
 
 ## Compiling
 

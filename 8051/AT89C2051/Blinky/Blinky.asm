@@ -8,8 +8,8 @@
 ;--------------------------------------------------------
 ; Public variables in this module
 ;--------------------------------------------------------
+	.globl _DELAY
 	.globl _main
-	.globl _delay
 	.globl _TF1
 	.globl _TR1
 	.globl _TF0
@@ -101,6 +101,7 @@
 	.globl _DPH
 	.globl _B
 	.globl _ACC
+	.globl _ms_delay
 ;--------------------------------------------------------
 ; special function registers
 ;--------------------------------------------------------
@@ -353,16 +354,13 @@ __sdcc_program_startup:
 ;--------------------------------------------------------
 	.area CSEG    (CODE)
 ;------------------------------------------------------------
-;Allocation info for local variables in function 'delay'
+;Allocation info for local variables in function 'main'
 ;------------------------------------------------------------
-;i             Allocated to registers r7 
-;j             Allocated to registers r5 r6 
-;------------------------------------------------------------
-;	Blinky.c:18: void delay(void)
+;	Blinky.c:20: void main(void)
 ;	-----------------------------------------
-;	 function delay
+;	 function main
 ;	-----------------------------------------
-_delay:
+_main:
 	ar7 = 0x07
 	ar6 = 0x06
 	ar5 = 0x05
@@ -371,50 +369,68 @@ _delay:
 	ar2 = 0x02
 	ar1 = 0x01
 	ar0 = 0x00
-;	Blinky.c:21: for(i=0; i<0xff; i++)
-	mov	r7,#0x00
-;	Blinky.c:22: for(j=0; j<0xff; j++);
-00110$:
-	mov	r5,#0xff
-	mov	r6,#0x00
-00105$:
-	dec	r5
-	cjne	r5,#0xff,00130$
-	dec	r6
-00130$:
-	mov	a,r5
-	orl	a,r6
-	jnz	00105$
-;	Blinky.c:21: for(i=0; i<0xff; i++)
-	inc	r7
-	cjne	r7,#0xff,00132$
-00132$:
-	jc	00110$
-;	Blinky.c:23: }
-	ret
-;------------------------------------------------------------
-;Allocation info for local variables in function 'main'
-;------------------------------------------------------------
-;	Blinky.c:29: void main(void)
-;	-----------------------------------------
-;	 function main
-;	-----------------------------------------
-_main:
-;	Blinky.c:31: while(1) {
+;	Blinky.c:22: while(1) {
 00102$:
-;	Blinky.c:32: P1_0 = 1;
+;	Blinky.c:23: P1_0 = 1;
 ;	assignBit
 	setb	_P1_0
-;	Blinky.c:33: delay();
-	lcall	_delay
-;	Blinky.c:34: P1_0 = 0;
+;	Blinky.c:24: ms_delay(DELAY);
+	mov	dptr,#0x03e8
+	lcall	_ms_delay
+;	Blinky.c:25: P1_0 = 0;
 ;	assignBit
 	clr	_P1_0
-;	Blinky.c:35: delay();
-	lcall	_delay
-;	Blinky.c:37: }
+;	Blinky.c:26: ms_delay(DELAY);
+	mov	dptr,#0x03e8
+	lcall	_ms_delay
+;	Blinky.c:28: }
 	sjmp	00102$
+;------------------------------------------------------------
+;Allocation info for local variables in function 'ms_delay'
+;------------------------------------------------------------
+;ms            Allocated to registers r6 r7 
+;i             Allocated to registers r4 r5 
+;j             Allocated to registers r3 
+;------------------------------------------------------------
+;	Blinky.c:34: void ms_delay(unsigned int ms) {
+;	-----------------------------------------
+;	 function ms_delay
+;	-----------------------------------------
+_ms_delay:
+	mov	r6, dpl
+	mov	r7, dph
+;	Blinky.c:35: for(unsigned int i=0; i<ms; i++) {
+	mov	r4,#0x00
+	mov	r5,#0x00
+00107$:
+	clr	c
+	mov	a,r4
+	subb	a,r6
+	mov	a,r5
+	subb	a,r7
+	jnc	00109$
+;	Blinky.c:36: for(unsigned int j=0; j<186; j++);
+	mov	r3,#0x00
+00104$:
+	cjne	r3,#0xba,00138$
+00138$:
+	jnc	00108$
+	inc	r3
+	sjmp	00104$
+00108$:
+;	Blinky.c:35: for(unsigned int i=0; i<ms; i++) {
+	inc	r4
+	cjne	r4,#0x00,00107$
+	inc	r5
+	sjmp	00107$
+00109$:
+;	Blinky.c:38: }
+	ret
 	.area CSEG    (CODE)
 	.area CONST   (CODE)
+	.area CONST   (CODE)
+_DELAY:
+	.byte #0xe8, #0x03	;  1000
+	.area CSEG    (CODE)
 	.area XINIT   (CODE)
 	.area CABS    (ABS,CODE)

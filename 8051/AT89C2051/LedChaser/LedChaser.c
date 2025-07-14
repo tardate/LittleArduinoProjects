@@ -21,25 +21,25 @@ volatile uint8_t led_state = 1;
 
 
 void timer0_isr(void) __interrupt (1) {
-    timer_counter--;
-    if(timer_counter == 0) {
-        led_state <<= 1;
-        if(led_state==0) led_state = 1;
-        timer_counter = TICKS_PER_STEP;
-    }
+  timer_counter--;
+  if(timer_counter == 0) {
+    led_state <<= 1;
+    if(led_state==0) led_state = 1;
+    timer_counter = TICKS_PER_STEP;
+  }
 }
 
 
 int main(void) {
-    TMOD &= 0xF0; // Don't care about Timer1, clear Timer0 settings
-    TMOD |= 0x03; // Set Timer0 mode 3: 8 bit, software gate
-    TH0 = 0x00;   // Clear counter
-    TL0 = 0x00;   // Clear counter
-    ET0=1;        // Enable Timer0 interrupt.
-    EA=1;         // Enable global interrupt.
-    TR0=1;        // Set Timer0 run
+  TMOD &= 0xF0; // Don't care about Timer1, clear Timer0 settings
+  TMOD |= 0x03; // Set Timer0 mode 3: 8 bit, software gate
+  TH0 = 0x00;   // Clear counter
+  TL0 = 0x00;   // Clear counter
+  ET0=1;        // Enable Timer0 interrupt.
+  EA=1;         // Enable global interrupt.
+  TR0=1;        // Set Timer0 run
 
-    while(1) {
-        P1 = 0xFF ^ led_state; // translate led_state to active-low logic
-    }
+  while(1) {
+      P1 = 0xFF ^ led_state; // translate led_state to active-low logic
+  }
 }
