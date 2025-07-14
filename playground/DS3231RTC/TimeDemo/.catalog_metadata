@@ -1,6 +1,6 @@
 {
     "id": "#166",
-    "name": "DS3231RTC/TimeDemo",
+    "name": "DS3231RTC Time Demo",
     "description": "prints the system time synced from the RTC to the serial output",
     "categories": "RTC, Arduino",
     "relative_path": "playground/DS3231RTC/TimeDemo",

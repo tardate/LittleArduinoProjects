@@ -1,6 +1,6 @@
 {
     "id": "#209",
-    "name": "LedPanelDisplay72R02",
+    "name": "LED Panel Display 72R02",
     "description": "test a 7-digit & 7-status indicator LED display",
     "categories": "LED, Arduino",
     "relative_path": "playground/LedPanelDisplay72R02",

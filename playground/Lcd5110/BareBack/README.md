@@ -1,11 +1,10 @@
-# #085 Lcd5110/BareBack
+# #085 Nokia 5110 LCD Bare-back
 
 Test driving a Nokia 5110 LCD Display with an Arduino and the raw command set
 
 Here's a quick video of the circuit in action:
 
 [![Lcd5110BareBack demo](https://img.youtube.com/vi/nDB-FT9jysI/0.jpg)](https://www.youtube.com/watch?v=nDB-FT9jysI)
-
 
 ## Notes
 
@@ -17,6 +16,7 @@ There are a few commonly-used libraries - [such as ladyada's](https://github.com
 however this sketch uses the instruction set for device directly, as documented in the [PCD8544 datasheet](http://eia.udg.edu/~forest/PCD8544_1.pdf).
 
 A couple of observations:
+
 * it seems different modules have different pin arrangements, so it is important to match the 5110 pins to the Arduino correctly.
 * it works fine with 5V logic connections
 * with 5V logic connections, there appears to be no need to connect Vcc, it works fine disconnected! In fact, some circuits that "do the right thing" and connect 3.3V supply to Vcc are not behaving as might be execpted. At least with my module, the Vcc is already taken up to 4.2+V by the login pins.

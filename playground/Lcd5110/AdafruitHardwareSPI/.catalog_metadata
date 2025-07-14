@@ -1,6 +1,6 @@
 {
     "id": "#365",
-    "name": "Lcd5110/AdafruitHardwareSPI",
+    "name": "Nokia 5110 LCD/Adafruit Hardware SPI",
     "description": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library",
     "categories": "LCD, Arduino",
     "relative_path": "playground/Lcd5110/AdafruitHardwareSPI",

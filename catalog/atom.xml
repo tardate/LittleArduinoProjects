@@ -3859,7 +3859,7 @@
     <link href="https://leap.tardate.com/boldportclub/3x7/pomodorotimer/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/3x7/pomodorotimer/assets/pomodorotimer_build.jpg</g:image_link>
     <updated>2018-10-22T08:37:43Z</updated>
-    <title>#429 3x7/PomodoroTimer</title>
+    <title>#429 Boldport 3x7 Pomodoro Timer</title>
     <summary>a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/pomodorotimer/assets/pomodorotimer_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
@@ -3871,7 +3871,7 @@
     <link href="https://leap.tardate.com/boldportclub/3x7/lrthreedigitdemo/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/3x7/lrthreedigitdemo/assets/lrthreedigitdemo_build.jpg</g:image_link>
     <updated>2018-10-21T09:49:44Z</updated>
-    <title>#428 3x7 LRThreeDigitDemo</title>
+    <title>#428 Boldport 3x7 LRThreeDigits Demo</title>
     <summary>driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/lrthreedigitdemo/assets/lrthreedigitdemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
@@ -3908,7 +3908,7 @@
     <link href="https://leap.tardate.com/boldportclub/3x7/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/3x7/assets/3x7_build.jpg</g:image_link>
     <updated>2018-10-14T07:41:50Z</updated>
-    <title>#425 BoldportClub/3x7</title>
+    <title>#425 Boldport 3x7</title>
     <summary>building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/boldportclub/3x7/assets/3x7_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
@@ -4218,7 +4218,7 @@
     <link href="https://leap.tardate.com/playground/lcd/i2cadapter/"/>
     <g:image_link>https://leap.tardate.com/playground/lcd/i2cadapter/assets/i2cadapter_build.jpg</g:image_link>
     <updated>2018-06-10T15:08:14Z</updated>
-    <title>#398 LCD I2C Adapter</title>
+    <title>#398 LCD I²C Adapter</title>
     <summary>using an I²C adapter to reduce the Arduino pins needed to drive an LCD</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using an I²C adapter to reduce the Arduino pins needed to drive an LCD&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/lcd/i2cadapter/assets/i2cadapter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -4229,7 +4229,7 @@
     <link href="https://leap.tardate.com/playground/i2cscanner/"/>
     <g:image_link>https://leap.tardate.com/playground/i2cscanner/assets/i2cscanner_build.jpg</g:image_link>
     <updated>2018-06-10T11:38:19Z</updated>
-    <title>#397 I2CScanner</title>
+    <title>#397 I²C Scanner</title>
     <summary>scanning for I²C devices with an Arduino</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;scanning for I²C devices with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/i2cscanner/assets/i2cscanner_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="I2C"/>
@@ -4341,7 +4341,7 @@
     <link href="https://leap.tardate.com/playground/gpsbasics/"/>
     <g:image_link>https://leap.tardate.com/playground/gpsbasics/assets/gpsbasics_build.jpg</g:image_link>
     <updated>2018-05-04T02:30:15Z</updated>
-    <title>#387 GpsBasics</title>
+    <title>#387 GPS Basics</title>
     <summary>using a NEMA-compatible GPS module for time and location with an Arduino</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using a NEMA-compatible GPS module for time and location with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/gpsbasics/assets/gpsbasics_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="GPS"/>
@@ -4567,7 +4567,7 @@
     <link href="https://leap.tardate.com/playground/nrf24/scanner/"/>
     <g:image_link>https://leap.tardate.com/playground/nrf24/scanner/assets/scanner_build.jpg</g:image_link>
     <updated>2017-12-31T10:23:33Z</updated>
-    <title>#367 nRF24/Scanner</title>
+    <title>#367 nRF24 Scanner</title>
     <summary>a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/nrf24/scanner/assets/scanner_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="nRF24"/>
@@ -4578,7 +4578,7 @@
     <link href="https://leap.tardate.com/playground/lcd5110/adafruitsoftwarespi/"/>
     <g:image_link>https://leap.tardate.com/playground/lcd5110/adafruitsoftwarespi/assets/adafruitsoftwarespi_build.jpg</g:image_link>
     <updated>2017-12-31T07:59:31Z</updated>
-    <title>#366 Lcd5110/AdafruitSoftwareSPI</title>
+    <title>#366 Nokia 5110 LCD/Adafruit Software SPI</title>
     <summary>a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/lcd5110/adafruitsoftwarespi/assets/adafruitsoftwarespi_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -4589,7 +4589,7 @@
     <link href="https://leap.tardate.com/playground/lcd5110/adafruithardwarespi/"/>
     <g:image_link>https://leap.tardate.com/playground/lcd5110/adafruithardwarespi/assets/adafruithardwarespi_build.jpg</g:image_link>
     <updated>2017-12-31T07:42:55Z</updated>
-    <title>#365 Lcd5110/AdafruitHardwareSPI</title>
+    <title>#365 Nokia 5110 LCD/Adafruit Hardware SPI</title>
     <summary>a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/lcd5110/adafruithardwarespi/assets/adafruithardwarespi_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -4635,7 +4635,7 @@
     <link href="https://leap.tardate.com/playground/tft/color128x128/"/>
     <g:image_link>https://leap.tardate.com/playground/tft/color128x128/assets/color128x128_build.jpg</g:image_link>
     <updated>2017-12-24T15:49:12Z</updated>
-    <title>#361 TFT/Color128x128</title>
+    <title>#361 Color TFT 128x128 Demo</title>
     <summary>testing a 128x128 colour TFT LCD with a couple of different Arduino libraries</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;testing a 128x128 colour TFT LCD with a couple of different Arduino libraries&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/tft/color128x128/assets/color128x128_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="TFT LCD"/>
@@ -6394,7 +6394,7 @@
     <link href="https://leap.tardate.com/playground/ledpaneldisplay72r02/"/>
     <g:image_link>https://leap.tardate.com/playground/ledpaneldisplay72r02/assets/ledpaneldisplay72r02_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#209 LedPanelDisplay72R02</title>
+    <title>#209 LED Panel Display 72R02</title>
     <summary>test a 7-digit &amp; 7-status indicator LED display</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a 7-digit &amp;amp; 7-status indicator LED display&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ledpaneldisplay72r02/assets/ledpaneldisplay72r02_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -6645,7 +6645,7 @@
     <link href="https://leap.tardate.com/playground/nrf24/pingpong/"/>
     <g:image_link>https://leap.tardate.com/playground/nrf24/pingpong/assets/pingpong_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#187 nRF24/PingPong</title>
+    <title>#187 nRF24 Ping-pong</title>
     <summary>two Arduino's entertaining themselves with a game of &quot;ping pong&quot; over nRF24L01+ 2.4GHz RF</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;two Arduino's entertaining themselves with a game of &quot;ping pong&quot; over nRF24L01+ 2.4GHz RF&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/nrf24/pingpong/assets/pingpong_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="nRF24"/>
@@ -6802,7 +6802,7 @@
     <link href="https://leap.tardate.com/playground/ledcubes/mini4/"/>
     <g:image_link>https://leap.tardate.com/playground/ledcubes/mini4/assets/mini4_build.jpg</g:image_link>
     <updated>2017-05-24T15:39:45Z</updated>
-    <title>#173 LEDCubes/Mini4</title>
+    <title>#173 Mini 4x4x4 LED Cube</title>
     <summary>a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ledcubes/mini4/assets/mini4_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
@@ -6882,7 +6882,7 @@
     <link href="https://leap.tardate.com/playground/ds3231rtc/timedemo/"/>
     <g:image_link>https://leap.tardate.com/playground/ds3231rtc/timedemo/assets/timedemo_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#166 DS3231RTC/TimeDemo</title>
+    <title>#166 DS3231RTC Time Demo</title>
     <summary>prints the system time synced from the RTC to the serial output</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;prints the system time synced from the RTC to the serial output&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/ds3231rtc/timedemo/assets/timedemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="RTC"/>
@@ -7059,7 +7059,7 @@
     <link href="https://leap.tardate.com/playground/lcd5110/juliansu8glibdemo/"/>
     <g:image_link>https://leap.tardate.com/playground/lcd5110/juliansu8glibdemo/assets/juliansu8glibdemo_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#149 Lcd5110/JuliansU8glibDemo</title>
+    <title>#149 Nokia 5110 LCD U8glib Demo</title>
     <summary>quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/lcd5110/juliansu8glibdemo/assets/juliansu8glibdemo_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -7769,7 +7769,7 @@
     <link href="https://leap.tardate.com/playground/lcd5110/bareback/"/>
     <g:image_link>https://leap.tardate.com/playground/lcd5110/bareback/assets/bareback_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#085 Lcd5110/BareBack</title>
+    <title>#085 Nokia 5110 LCD Bare-back</title>
     <summary>driving a Nokia 5110 LCD Display with an Arduino and the raw command set</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;driving a Nokia 5110 LCD Display with an Arduino and the raw command set&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/lcd5110/bareback/assets/bareback_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -8241,7 +8241,7 @@
     <link href="https://leap.tardate.com/playground/hitthelights/"/>
     <g:image_link>https://leap.tardate.com/playground/hitthelights/assets/hitthelights_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#043 HitTheLights</title>
+    <title>#043 Hit The Lights</title>
     <summary>simple LED game with LCD output and interrupt-driven button input</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;simple LED game with LCD output and interrupt-driven button input&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/hitthelights/assets/hitthelights_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
@@ -8297,7 +8297,7 @@
     <link href="https://leap.tardate.com/playground/electretadc/"/>
     <g:image_link>https://leap.tardate.com/playground/electretadc/assets/electretadc_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#038 ElectretADC</title>
+    <title>#038 Electret ADC</title>
     <summary>convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/electretadc/assets/electretadc_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Audio"/>
@@ -8648,8 +8648,8 @@
     <g:image_link>https://leap.tardate.com/playground/betterwithbacon/assets/betterwithbacon_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
     <title>#006 It's Better With Bacon</title>
-    <summary>simple LCD test</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;simple LCD test&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/betterwithbacon/assets/betterwithbacon_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>A simple 16x2 LCD module test</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A simple 16x2 LCD module test&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/betterwithbacon/assets/betterwithbacon_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
     <category term="Arduino"/>
   </entry>
@@ -8658,7 +8658,7 @@
     <link href="https://leap.tardate.com/playground/heartquotes/"/>
     <g:image_link>https://leap.tardate.com/playground/heartquotes/assets/heartquotes_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#005 HeartQuotes</title>
+    <title>#005 Heart Quotes</title>
     <summary>press a button to get a quote from the net and display on an LCD</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;press a button to get a quote from the net and display on an LCD&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/heartquotes/assets/heartquotes_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>

@@ -4,7 +4,6 @@ A simple "Hello World" test of a 16x2 LCD module.
 
 ![The Build](./assets/BetterWithBacon_build.jpg?raw=true)
 
-
 ## Notes
 
 Demonstrates the use a 16x2 LCD display.  The LiquidCrystal library works with all LCD displays that are compatible with the Hitachi HD44780 driver.
@@ -22,6 +21,5 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 
 ## Credits and References
 
-* [QC1602A 16x2 LCD datasheet](./assets/LCD_QC1602A_datasheet.pdf?raw=true "QC1602A Datasheet"))
+* [QC1602A 16x2 LCD datasheet](./assets/LCD_QC1602A_datasheet.pdf?raw=true)
 * Based on the [Arduino LiquidCrystal example](http://www.arduino.cc/en/Tutorial/LiquidCrystal)
-

@@ -3451,7 +3451,7 @@
     },
     {
         "id": "#429",
-        "name": "3x7/PomodoroTimer",
+        "name": "Boldport 3x7 Pomodoro Timer",
         "description": "a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328",
         "categories": "Boldport, LED 7-Segment, ATmel",
         "relative_path": "boldportclub/3x7/pomodorotimer",
@@ -3461,7 +3461,7 @@
     },
     {
         "id": "#428",
-        "name": "3x7 LRThreeDigitDemo",
+        "name": "Boldport 3x7 LRThreeDigits Demo",
         "description": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library",
         "categories": "Boldport, LED 7-Segment, Arduino",
         "relative_path": "boldportclub/3x7/lrthreedigitdemo",
@@ -3491,7 +3491,7 @@
     },
     {
         "id": "#425",
-        "name": "BoldportClub/3x7",
+        "name": "Boldport 3x7",
         "description": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
         "categories": "Boldport, LED 7-Segment",
         "relative_path": "boldportclub/3x7",
@@ -3761,7 +3761,7 @@
     },
     {
         "id": "#398",
-        "name": "LCD I2C Adapter",
+        "name": "LCD I\u00b2C Adapter",
         "description": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD",
         "categories": "LCD, I2C",
         "relative_path": "playground/lcd/i2cadapter",
@@ -3771,7 +3771,7 @@
     },
     {
         "id": "#397",
-        "name": "I2CScanner",
+        "name": "I\u00b2C Scanner",
         "description": "scanning for I\u00b2C devices with an Arduino",
         "categories": "I2C, Arduino",
         "relative_path": "playground/i2cscanner",
@@ -3871,7 +3871,7 @@
     },
     {
         "id": "#387",
-        "name": "GpsBasics",
+        "name": "GPS Basics",
         "description": "using a NEMA-compatible GPS module for time and location with an Arduino",
         "categories": "GPS, Arduino",
         "relative_path": "playground/gpsbasics",
@@ -4071,7 +4071,7 @@
     },
     {
         "id": "#367",
-        "name": "nRF24/Scanner",
+        "name": "nRF24 Scanner",
         "description": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display",
         "categories": "nRF24, Arduino",
         "relative_path": "playground/nrf24/scanner",
@@ -4081,7 +4081,7 @@
     },
     {
         "id": "#366",
-        "name": "Lcd5110/AdafruitSoftwareSPI",
+        "name": "Nokia 5110 LCD/Adafruit Software SPI",
         "description": "a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library",
         "categories": "LCD, Arduino",
         "relative_path": "playground/lcd5110/adafruitsoftwarespi",
@@ -4091,7 +4091,7 @@
     },
     {
         "id": "#365",
-        "name": "Lcd5110/AdafruitHardwareSPI",
+        "name": "Nokia 5110 LCD/Adafruit Hardware SPI",
         "description": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library",
         "categories": "LCD, Arduino",
         "relative_path": "playground/lcd5110/adafruithardwarespi",
@@ -4131,7 +4131,7 @@
     },
     {
         "id": "#361",
-        "name": "TFT/Color128x128",
+        "name": "Color TFT 128x128 Demo",
         "description": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries",
         "categories": "TFT LCD, Arduino",
         "relative_path": "playground/tft/color128x128",
@@ -5651,7 +5651,7 @@
     },
     {
         "id": "#209",
-        "name": "LedPanelDisplay72R02",
+        "name": "LED Panel Display 72R02",
         "description": "test a 7-digit & 7-status indicator LED display",
         "categories": "LED, Arduino",
         "relative_path": "playground/ledpaneldisplay72r02",
@@ -5871,7 +5871,7 @@
     },
     {
         "id": "#187",
-        "name": "nRF24/PingPong",
+        "name": "nRF24 Ping-pong",
         "description": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF",
         "categories": "nRF24, Arduino",
         "relative_path": "playground/nrf24/pingpong",
@@ -6011,7 +6011,7 @@
     },
     {
         "id": "#173",
-        "name": "LEDCubes/Mini4",
+        "name": "Mini 4x4x4 LED Cube",
         "description": "a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface",
         "categories": "LED, CMOS/TTL, Arduino",
         "relative_path": "playground/ledcubes/mini4",
@@ -6081,7 +6081,7 @@
     },
     {
         "id": "#166",
-        "name": "DS3231RTC/TimeDemo",
+        "name": "DS3231RTC Time Demo",
         "description": "prints the system time synced from the RTC to the serial output",
         "categories": "RTC, Arduino",
         "relative_path": "playground/ds3231rtc/timedemo",
@@ -6251,7 +6251,7 @@
     },
     {
         "id": "#149",
-        "name": "Lcd5110/JuliansU8glibDemo",
+        "name": "Nokia 5110 LCD U8glib Demo",
         "description": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library",
         "categories": "LCD, Arduino",
         "relative_path": "playground/lcd5110/juliansu8glibdemo",
@@ -6891,7 +6891,7 @@
     },
     {
         "id": "#085",
-        "name": "Lcd5110/BareBack",
+        "name": "Nokia 5110 LCD Bare-back",
         "description": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set",
         "categories": "LCD, Arduino",
         "relative_path": "playground/lcd5110/bareback",
@@ -7311,7 +7311,7 @@
     },
     {
         "id": "#043",
-        "name": "HitTheLights",
+        "name": "Hit The Lights",
         "description": "simple LED game with LCD output and interrupt-driven button input",
         "categories": "LCD, Human Input, Arduino",
         "relative_path": "playground/hitthelights",
@@ -7361,7 +7361,7 @@
     },
     {
         "id": "#038",
-        "name": "ElectretADC",
+        "name": "Electret ADC",
         "description": "convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals",
         "categories": "Audio, Arduino",
         "relative_path": "playground/electretadc",
@@ -7682,7 +7682,7 @@
     {
         "id": "#006",
         "name": "It's Better With Bacon",
-        "description": "simple LCD test",
+        "description": "A simple 16x2 LCD module test",
         "categories": "LCD, Arduino",
         "relative_path": "playground/betterwithbacon",
         "updated_at": "2016-06-19T14:13:24Z",
@@ -7691,7 +7691,7 @@
     },
     {
         "id": "#005",
-        "name": "HeartQuotes",
+        "name": "Heart Quotes",
         "description": "press a button to get a quote from the net and display on an LCD",
         "categories": "LCD, Ethernet, Arduino",
         "relative_path": "playground/heartquotes",

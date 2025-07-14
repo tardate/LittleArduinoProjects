@@ -1,9 +1,8 @@
-# #209 LedPanelDisplay72R02
+# #209 LED Panel Display 72R02
 
 Test 7-digit & 7-status indicator LED display
 
 [![LedPanelDisplay72R02](https://img.youtube.com/vi/dPpyn7SVoBo/0.jpg)](https://www.youtube.com/watch?v=dPpyn7SVoBo)
-
 
 ## Notes
 
@@ -86,7 +85,6 @@ So rolling it all together, here's my pin function mapping:
 |  27 | D7            |               |              |                |
 |  28 |               | C             |              |                |
 
-
 #### SPI Bit Order
 
 Here's a summary of how the bits in the shift register are mapped to LED segments in my build.
@@ -118,7 +116,6 @@ This sequencing is quite arbitrary of course. I selected this mapping primarily 
 | 2        |  5  | D5 enable LOW  |
 | 2        |  6  | D6 enable LOW  |
 | 2        |  7  | D7 enable LOW  |
-
 
 ### Demo Code
 

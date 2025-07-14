@@ -1,11 +1,10 @@
-# #173 LEDCubes/Mini4
+# #173 Mini 4x4x4 LED Cube
 
 Driving a mini 63 (4x4x4) LED cube with an Atmel328 and 3 x 74HC595 register interface
 
 Here's a quick video of the cube in action:
 
 [![LEDCubes/Mini4 demo](https://img.youtube.com/vi/0xHI6uC2l4A/0.jpg)](https://www.youtube.com/watch?v=0xHI6uC2l4A)
-
 
 ## Notes
 
@@ -29,6 +28,7 @@ See the schematics for the full details. Here's how the design breaks down:
 - the LED array uses 16 clear blue 3mm LEDs. Not only are they quite bright with low currents applied, but being clear they effectively "disappear" when off.
 
 To pack this all into the Ferrero Rocher cube, the components are arranged on two boards:
+
 - 4x6cm board provides a foundation for the LED columns. It hosts all the current-limiting resistors for each column.
 - 5x7cm board hosts the Atmel, shift registers and FETs
 
@@ -42,10 +42,10 @@ practice assembly, and testing circuit sub-modules as they were constructed.
 
 So far, just a few for demonstration purposes...
 
-* [Flash](./seq_flash.h)
-* [The Writer](./seq_the_writer.h)
-* [The Loneliness Of The Long Distance Runner](./seq_the_loneliness_of_the_long_distance_runner.h)
-* [Rolling In The Deep](./seq_rolling_in_the_deep.h)
+- [Flash](./seq_flash.h)
+- [The Writer](./seq_the_writer.h)
+- [The Loneliness Of The Long Distance Runner](./seq_the_loneliness_of_the_long_distance_runner.h)
+- [Rolling In The Deep](./seq_rolling_in_the_deep.h)
 
 The code is organised so that each pattern is in its own (header) file.
 
@@ -59,16 +59,15 @@ This involves multiplexing the output so we write 16 LEDs in one go, and relies 
 as the code cycles through the display of 4 layers of 16 LEDs in rapid succession.
 
 I'm using an array of three 74HC595 shift registers to effectively provide a 24-bit serial to parallel latched interface.
-* 16 bits drive the LED cube cathodes (16 pillars)
-* 4 bits enable the LED anodes (4 layers)
-* 4 spare bits that I'm using to drive an additional 4 LED indicators
 
+- 16 bits drive the LED cube cathodes (16 pillars)
+- 4 bits enable the LED anodes (4 layers)
+- 4 spare bits that I'm using to drive an additional 4 LED indicators
 
 ### Clearing the Registers
 
 It's possible to clear the 595s by toggling the OE and MR pins, but that would require more connections and extra logic.
 So I do this with software - shift out a full 24-bits worth of 0s to get the 595s to a "known state".
-
 
 ### Choosing current-limiting Resistor values for the LEDs
 
@@ -91,7 +90,6 @@ to achieve a suitable brightness:
 | solid blue | 2.8 | 1kΩ - for similar brightness to yellow  |
 | red        | 1.9 | 330Ω - for similar brightness to yellow |
 | green      | 2.0 | 330Ω - for similar brightness to yellow |
-
 
 ### LED Layer Anode Control
 
@@ -137,11 +135,11 @@ NB: see the assets folder for more pictures of the build
 
 ## Credits and References
 
-* [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
-* [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)
-* [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
-* [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
-* [Ferrero Rocher cube box](http://www.fairprice.com.sg/webapp/wcs/stores/servlet/en/fairprice/ferrero-rocher-t18-cube-225g-13062786)
-* [Build a Programmable LED Cube 4x4x4](http://www.jameco.com/jameco/workshop/jamecobuilds/4x4x4ledcube.html) - good tutorial
-* [A Collection of WAAAY To Many 8X8X8 RGB LED Cubes!](https://www.instructables.com/id/A-Collection-of-WAAAY-To-Many-8X8X8-RGB-LED-Cubes/)
-* [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects173-mini-64-led.html)
+- [Atmel ATmega328P Product Info](http://www.atmel.com/devices/ATMEGA328P.aspx)
+- [ATmega168/328-Arduino Pin Mapping](http://www.arduino.cc/en/Hacking/PinMapping168)
+- [74HC595 datasheet](https://www.futurlec.com/74HC/74HC595.shtml)
+- [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+- [Ferrero Rocher cube box](http://www.fairprice.com.sg/webapp/wcs/stores/servlet/en/fairprice/ferrero-rocher-t18-cube-225g-13062786)
+- [Build a Programmable LED Cube 4x4x4](http://www.jameco.com/jameco/workshop/jamecobuilds/4x4x4ledcube.html) - good tutorial
+- [A Collection of WAAAY To Many 8X8X8 RGB LED Cubes!](https://www.instructables.com/id/A-Collection-of-WAAAY-To-Many-8X8X8-RGB-LED-Cubes/)
+- [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects173-mini-64-led.html)

@@ -1,7 +1,6 @@
-# #149 Lcd5110/JuliansU8glibDemo
+# #149 Nokia 5110 LCD U8glib Demo
 
-Quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library
-
+Quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library.
 
 ## Notes
 
@@ -24,7 +23,6 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 | VCC    | power                 |                 |
 | BL     | Backlight on when GND |                 |
 | GND    | Ground                |                 |
-
 
 ## Construction
 
