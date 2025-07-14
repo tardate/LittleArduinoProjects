@@ -1,6 +1,6 @@
 # #778 AT89C2051 LCD Control
 
-Demonstrates LCD control using AT89C2051.
+Demonstrates HD44780-based LCD control using the AT89C2051 (8051) microprocessor, compiled with SDCC on macOS.
 
 ![Build](./assets/LcdControl_build.jpg?raw=true)
 

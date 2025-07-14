@@ -2,9 +2,11 @@
     "/8051/at89c2051/lcdcontrol/": {
         "id": 778,
         "title": "AT89C2051 LCD Control",
-        "summary": "",
+        "summary": "Demonstrates HD44780-based LCD control using the AT89C2051 (8051) microprocessor, compiled with SDCC on macOS",
         "tags": [
-            "8051"
+            "8051",
+            "HD44780",
+            "LCD"
         ]
     },
     "/boldportclub/thematrix/grandfinale/": {
@@ -3038,7 +3040,8 @@
         "summary": "using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE",
         "tags": [
             "STM32",
-            "LCD"
+            "LCD",
+            "HD44780"
         ]
     },
     "/boldportclub/respot/": {
@@ -3470,7 +3473,8 @@
         "summary": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD",
         "tags": [
             "LCD",
-            "I2C"
+            "I2C",
+            "HD44780"
         ]
     },
     "/playground/i2cscanner/": {
@@ -6658,7 +6662,8 @@
         "tags": [
             "LCD",
             "RC",
-            "Arduino"
+            "Arduino",
+            "HD44780"
         ]
     },
     "/kinetics/servomotors/joystickservocontrol/": {
@@ -6784,7 +6789,8 @@
         "tags": [
             "LCD",
             "Human Input",
-            "Arduino"
+            "Arduino",
+            "HD44780"
         ]
     },
     "/kinetics/servomotors/servotest/": {
@@ -7115,7 +7121,8 @@
         "summary": "A simple 16x2 LCD module test",
         "tags": [
             "LCD",
-            "Arduino"
+            "Arduino",
+            "HD44780"
         ]
     },
     "/playground/heartquotes/": {
@@ -7125,7 +7132,8 @@
         "tags": [
             "LCD",
             "Ethernet",
-            "Arduino"
+            "Arduino",
+            "HD44780"
         ]
     },
     "/playground/pushbuttonled/": {

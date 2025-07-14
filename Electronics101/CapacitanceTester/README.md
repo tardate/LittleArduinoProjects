@@ -17,18 +17,18 @@ For this to work, we need three things:
 * accurate measurement of the resistance in the RC circuit
 * accurate measurement of the time it takes to charge to 63.2% final voltage
 
-#### Starting Voltage
+### Starting Voltage
 
 We force this to 0V, by discharging the capacitor under test until V=0.
 For simplicity, the circuit discharges through the same pin as used for charging
 
-#### Final Voltage
+### Final Voltage
 
 We are charging the capacitor with a digital output pin of the Arduino.
 Nominally, this should mean the final voltage is 5V, however not all Arduino boards will hit this accurately.
 We measure the actual 5V reference voltage and set the `vref_mv` constant in the sketch accordingly (4.93V in my case)
 
-#### Actual Resistance (RT1)
+### Actual Resistance (RT1)
 
 The resistor RT1 should be measured with an ohmmeter, and set the `rt1` constant in the sketch accordingly.
 Choosing a value for RT1 is a compromise between:
@@ -41,7 +41,7 @@ In practice, I've settled on two values:
 * 22k as a decent choice for capacitors between 10nF and 330uF
 * 4.7k for capacitors over 330uF
 
-#### Measuring the time constant
+### Measuring the time constant
 
 During the charge cycle, the voltage across the capacitor is measured with analog pin A0.
 When this hits the pre-calculated 63.2% level, the time elapsed is our measurement of the time constant.

@@ -2,7 +2,7 @@
     "id": "#043",
     "name": "Hit The Lights",
     "description": "simple LED game with LCD output and interrupt-driven button input",
-    "categories": "LCD, Human Input, Arduino",
+    "categories": "LCD, Human Input, Arduino, HD44780",
     "relative_path": "playground/HitTheLights",
     "updated_at": "2016-06-19T14:13:24Z",
     "created_at": "2016-06-19T14:13:24Z"

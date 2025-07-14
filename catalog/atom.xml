@@ -19,9 +19,11 @@
     <g:image_link>https://leap.tardate.com/8051/at89c2051/lcdcontrol/assets/lcdcontrol_build.jpg</g:image_link>
     <updated>2025-07-14T14:53:00Z</updated>
     <title>#778 AT89C2051 LCD Control</title>
-    <summary/>
-    <content type="html">&lt;div&gt;&lt;p /&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/lcdcontrol/assets/lcdcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Demonstrates HD44780-based LCD control using the AT89C2051 (8051) microprocessor, compiled with SDCC on macOS</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrates HD44780-based LCD control using the AT89C2051 (8051) microprocessor, compiled with SDCC on macOS&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/8051/at89c2051/lcdcontrol/assets/lcdcontrol_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="8051"/>
+    <category term="HD44780"/>
+    <category term="LCD"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/thematrix/grandfinale/</id>
@@ -3722,6 +3724,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;using a 16x2 LCD with an ARM Cortex-M3 STM32F103C8T6 Blue Pill board and programmed the Arduino IDE&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/arm/stm32f103c8t6/bluepill/lcd16x2/assets/lcd16x2_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="STM32"/>
     <category term="LCD"/>
+    <category term="HD44780"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/respot/</id>
@@ -4244,6 +4247,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;using an I²C adapter to reduce the Arduino pins needed to drive an LCD&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/lcd/i2cadapter/assets/i2cadapter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
     <category term="I2C"/>
+    <category term="HD44780"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/i2cscanner/</id>
@@ -8114,6 +8118,7 @@
     <category term="LCD"/>
     <category term="RC"/>
     <category term="Arduino"/>
+    <category term="HD44780"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/servomotors/joystickservocontrol/</id>
@@ -8268,6 +8273,7 @@
     <category term="LCD"/>
     <category term="Human Input"/>
     <category term="Arduino"/>
+    <category term="HD44780"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/servomotors/servotest/</id>
@@ -8673,6 +8679,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A simple 16x2 LCD module test&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/playground/betterwithbacon/assets/betterwithbacon_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
     <category term="Arduino"/>
+    <category term="HD44780"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/heartquotes/</id>
@@ -8685,6 +8692,7 @@
     <category term="LCD"/>
     <category term="Ethernet"/>
     <category term="Arduino"/>
+    <category term="HD44780"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/pushbuttonled/</id>

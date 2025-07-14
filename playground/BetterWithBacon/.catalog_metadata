@@ -2,7 +2,7 @@
     "id": "#006",
     "name": "It's Better With Bacon",
     "description": "A simple 16x2 LCD module test",
-    "categories": "LCD, Arduino",
+    "categories": "LCD, Arduino, HD44780",
     "relative_path": "playground/BetterWithBacon",
     "updated_at": "2016-06-19T14:13:24Z",
     "created_at": "2016-06-19T14:13:24Z"
