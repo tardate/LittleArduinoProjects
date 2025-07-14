@@ -1,4 +1,4 @@
-# #398 LCD/I2CAdapter
+# #398 LCD I²C Adapter
 
 Using an I²C adapter to reduce the Arduino pins needed to drive an LCD.
 
@@ -11,7 +11,6 @@ Common form factors are 1602 (16 column, 2 row) and 2004 (20 column, 4 row).
 
 The basic LCDs require at least 6 Arduino pins to drive,
 and the standard [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal) library is available for this.
-
 
 To save pins and simplify wiring, there are I²C adapters available - either separately or packaged with an LCD.
 These board basically use some form of Remote 8-Bit I/O Expander chip, such as the
@@ -27,7 +26,6 @@ The default address for my module turns out to be 0x3F (other common default add
 although I had to scan the address space to discover this!
 
 There are 3 unsoldered address pads on the module which I presume will allow adjusting the unit address.
-
 
 ## Code and Libraries
 
@@ -59,4 +57,3 @@ The [I2CAdapter.ino](./I2CAdapter.ino) sketch is a simple test of the library.
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - library I am using
 * Standard [LiquidCrystal](https://www.arduino.cc/en/Reference/LiquidCrystal) library
 * [TI PCF8574](http://www.ti.com/product/PCF8574)
-

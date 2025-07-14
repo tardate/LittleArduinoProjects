@@ -1,4 +1,4 @@
-# #429 3x7 Pomodoro Timer
+# #429 Boldport 3x7 Pomodoro Timer
 
 A Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328.
 
@@ -36,10 +36,9 @@ There's a few things I set out to achieve:
 * the Arduino measures reasonably accurate time for the countdown, but I'm not going to be upset if it is a little off (less than a minute)
 * before starting the count, two buttons can be used to increase or decrease the countdown respectively, in increments of 5 minutes
 * when the countdown has completed, the unit will flash for a period of time
-    - a button press resets the app for another countdown
-    - if no input, go to sleep
+    * a button press resets the app for another countdown
+    * if no input, go to sleep
 * if sleeping, a button press wakes up and resets the application
-
 
 ### Measuring Time
 
@@ -62,7 +61,6 @@ These buttons handle "up" and "down" adjustment of the countdown duration before
 Once the countdown has started, pressing either button will cancel/reset the counter.
 
 If the application has gone into sleep mode, either button can be used for wake-up.
-
 
 ### Pin Connections
 
@@ -89,7 +87,6 @@ If there has been no button input for 5 seconds after the countdown is complete,
 [SLEEP_MODE_PWR_DOWN](https://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html).
 Since there are no additional peripherals to power, the current draw is very low in this mode.
 I haven't measured it accurately yet, but according to a USB power meter it is below the ~1mA resolution of the reading.
-
 
 ## Breadboard Prototype
 
@@ -120,7 +117,6 @@ With 3x7 mounted:
 And powered up:
 
 ![wireframe_build_4](./assets/wireframe_build_4.jpg?raw=true)
-
 
 Next steps - I'm thinking about adding a mount so that I can hook the unit to the top of my monitor. Later...
 

@@ -3152,7 +3152,7 @@
     },
     "/boldportclub/3x7/pomodorotimer/": {
         "id": 429,
-        "title": "3x7/PomodoroTimer",
+        "title": "Boldport 3x7 Pomodoro Timer",
         "summary": "a Pomodoro timer wire sculpture using the Boldport 3x7 display and an ATmega328",
         "tags": [
             "Boldport",
@@ -3162,7 +3162,7 @@
     },
     "/boldportclub/3x7/lrthreedigitdemo/": {
         "id": 428,
-        "title": "3x7 LRThreeDigitDemo",
+        "title": "Boldport 3x7 LRThreeDigits Demo",
         "summary": "driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library",
         "tags": [
             "Boldport",
@@ -3193,7 +3193,7 @@
     },
     "/boldportclub/3x7/": {
         "id": 425,
-        "title": "BoldportClub/3x7",
+        "title": "Boldport 3x7",
         "summary": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
         "tags": [
             "Boldport",
@@ -3449,7 +3449,7 @@
     },
     "/playground/lcd/i2cadapter/": {
         "id": 398,
-        "title": "LCD I2C Adapter",
+        "title": "LCD I\u00b2C Adapter",
         "summary": "using an I\u00b2C adapter to reduce the Arduino pins needed to drive an LCD",
         "tags": [
             "LCD",
@@ -3458,7 +3458,7 @@
     },
     "/playground/i2cscanner/": {
         "id": 397,
-        "title": "I2CScanner",
+        "title": "I\u00b2C Scanner",
         "summary": "scanning for I\u00b2C devices with an Arduino",
         "tags": [
             "I2C",
@@ -3550,7 +3550,7 @@
     },
     "/playground/gpsbasics/": {
         "id": 387,
-        "title": "GpsBasics",
+        "title": "GPS Basics",
         "summary": "using a NEMA-compatible GPS module for time and location with an Arduino",
         "tags": [
             "GPS",
@@ -3736,7 +3736,7 @@
     },
     "/playground/nrf24/scanner/": {
         "id": 367,
-        "title": "nRF24/Scanner",
+        "title": "nRF24 Scanner",
         "summary": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display",
         "tags": [
             "nRF24",
@@ -3745,7 +3745,7 @@
     },
     "/playground/lcd5110/adafruitsoftwarespi/": {
         "id": 366,
-        "title": "Lcd5110/AdafruitSoftwareSPI",
+        "title": "Nokia 5110 LCD/Adafruit Software SPI",
         "summary": "a quick Nokia 5110 LCD test using software SPI and the Adafruit PCD8544 library",
         "tags": [
             "LCD",
@@ -3754,7 +3754,7 @@
     },
     "/playground/lcd5110/adafruithardwarespi/": {
         "id": 365,
-        "title": "Lcd5110/AdafruitHardwareSPI",
+        "title": "Nokia 5110 LCD/Adafruit Hardware SPI",
         "summary": "a quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library",
         "tags": [
             "LCD",
@@ -3792,7 +3792,7 @@
     },
     "/playground/tft/color128x128/": {
         "id": 361,
-        "title": "TFT/Color128x128",
+        "title": "Color TFT 128x128 Demo",
         "summary": "testing a 128x128 colour TFT LCD with a couple of different Arduino libraries",
         "tags": [
             "TFT LCD",
@@ -5247,7 +5247,7 @@
     },
     "/playground/ledpaneldisplay72r02/": {
         "id": 209,
-        "title": "LedPanelDisplay72R02",
+        "title": "LED Panel Display 72R02",
         "summary": "test a 7-digit & 7-status indicator LED display",
         "tags": [
             "LED",
@@ -5454,7 +5454,7 @@
     },
     "/playground/nrf24/pingpong/": {
         "id": 187,
-        "title": "nRF24/PingPong",
+        "title": "nRF24 Ping-pong",
         "summary": "two Arduino's entertaining themselves with a game of \"ping pong\" over nRF24L01+ 2.4GHz RF",
         "tags": [
             "nRF24",
@@ -5583,7 +5583,7 @@
     },
     "/playground/ledcubes/mini4/": {
         "id": 173,
-        "title": "LEDCubes/Mini4",
+        "title": "Mini 4x4x4 LED Cube",
         "summary": "a mini 64 LED cube with an Atmel328 and 3 x 74HC595 register interface",
         "tags": [
             "LED",
@@ -5649,7 +5649,7 @@
     },
     "/playground/ds3231rtc/timedemo/": {
         "id": 166,
-        "title": "DS3231RTC/TimeDemo",
+        "title": "DS3231RTC Time Demo",
         "summary": "prints the system time synced from the RTC to the serial output",
         "tags": [
             "RTC",
@@ -5792,7 +5792,7 @@
     },
     "/playground/lcd5110/juliansu8glibdemo/": {
         "id": 149,
-        "title": "Lcd5110/JuliansU8glibDemo",
+        "title": "Nokia 5110 LCD U8glib Demo",
         "summary": "quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library",
         "tags": [
             "LCD",
@@ -6374,7 +6374,7 @@
     },
     "/playground/lcd5110/bareback/": {
         "id": 85,
-        "title": "Lcd5110/BareBack",
+        "title": "Nokia 5110 LCD Bare-back",
         "summary": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set",
         "tags": [
             "LCD",
@@ -6762,7 +6762,7 @@
     },
     "/playground/hitthelights/": {
         "id": 43,
-        "title": "HitTheLights",
+        "title": "Hit The Lights",
         "summary": "simple LED game with LCD output and interrupt-driven button input",
         "tags": [
             "LCD",
@@ -6808,7 +6808,7 @@
     },
     "/playground/electretadc/": {
         "id": 38,
-        "title": "ElectretADC",
+        "title": "Electret ADC",
         "summary": "convert electret signal to a full range analog input with an LM324 preamp and plot the raw and aplified signals",
         "tags": [
             "Audio",
@@ -7095,7 +7095,7 @@
     "/playground/betterwithbacon/": {
         "id": 6,
         "title": "It's Better With Bacon",
-        "summary": "simple LCD test",
+        "summary": "A simple 16x2 LCD module test",
         "tags": [
             "LCD",
             "Arduino"
@@ -7103,7 +7103,7 @@
     },
     "/playground/heartquotes/": {
         "id": 5,
-        "title": "HeartQuotes",
+        "title": "Heart Quotes",
         "summary": "press a button to get a quote from the net and display on an LCD",
         "tags": [
             "LCD",

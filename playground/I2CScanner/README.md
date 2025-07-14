@@ -14,7 +14,6 @@ This can be very helpful when trying to use I²C modules where the default addre
 
 ## About I²C
 
-
 I²C (Inter-Integrated Circuit) is a communications bus specification invented in 1982 by Philips Semiconductor.
 Patents on I²C have now lapsed and trademark protection only remains for the logo.
 
@@ -29,12 +28,10 @@ I²C addresses are used to select between devices on a single bus. There are 7-b
 * 10-bit addresses are not yet widely used, and support is limited
 * the sketch here only looks for 7-bit addresses
 
-
 ## Code
 
 The [I2CScanner](./I2CScanner.ino) sketch runs an address scan every 5 seconds and prints
 the address of any found devices over the serial port.
-
 
 ![console](./assets/console.png?raw=true)
 

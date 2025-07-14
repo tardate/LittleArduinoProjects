@@ -1,6 +1,6 @@
 {
     "id": "#387",
-    "name": "GpsBasics",
+    "name": "GPS Basics",
     "description": "using a NEMA-compatible GPS module for time and location with an Arduino",
     "categories": "GPS, Arduino",
     "relative_path": "playground/GpsBasics",

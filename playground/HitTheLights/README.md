@@ -1,7 +1,6 @@
-# #043 HitTheLights
+# #043 Hit The Lights
 
 A simple LED game with LCD output.
-
 
 ## Notes
 
@@ -14,9 +13,11 @@ It demonstrates there's no issue driving a series of LEDs and a 16x2 LCD at the 
 I'm not sure what the OP had in mind, but here's my version of the game:
 
 Objective
+
 * turn off all the LEDs as fast as possible
 
 Rules
+
 * LED1 to 4 turn on for a brief period in sequence
 * pressing the button while the LED is on will disable it
 * LEDs need to be disabled in sequence, LED4 to LED1
@@ -28,6 +29,7 @@ The code is easily modified to do things like crank up the difficulty on each at
 With the default settings, the game is stupidly easy to play i.e. the anti Flappy Bird of the Arduino world.
 
 ## Handling the Button Press
+
 Pushbutton is connected to pin 2, which is attached to hardware interrupt 0.
 
 Normally the input is pulled low, but when the button is pressed, the pin is pulled high, triggering the RISING interrupt.

@@ -1,6 +1,6 @@
 {
     "id": "#085",
-    "name": "Lcd5110/BareBack",
+    "name": "Nokia 5110 LCD Bare-back",
     "description": "driving a Nokia 5110 LCD Display with an Arduino and the raw command set",
     "categories": "LCD, Arduino",
     "relative_path": "playground/Lcd5110/BareBack",

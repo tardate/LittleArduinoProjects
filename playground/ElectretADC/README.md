@@ -1,4 +1,4 @@
-# #038 ElectretADC
+# #038 Electret ADC
 
 Use an Arduino to read the amplified signal from an electret microphone.
 

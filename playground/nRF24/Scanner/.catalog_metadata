@@ -1,6 +1,6 @@
 {
     "id": "#367",
-    "name": "nRF24/Scanner",
+    "name": "nRF24 Scanner",
     "description": "a 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display",
     "categories": "nRF24, Arduino",
     "relative_path": "playground/nRF24/Scanner",

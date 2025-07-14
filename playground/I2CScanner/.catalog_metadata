@@ -1,6 +1,6 @@
 {
     "id": "#397",
-    "name": "I2CScanner",
+    "name": "I\u00b2C Scanner",
     "description": "scanning for I\u00b2C devices with an Arduino",
     "categories": "I2C, Arduino",
     "relative_path": "playground/I2CScanner",

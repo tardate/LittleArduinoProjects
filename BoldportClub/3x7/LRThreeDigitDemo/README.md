@@ -1,4 +1,4 @@
-# #428 3x7/LRThreeDigitDemo
+# #428 Boldport 3x7 LRThreeDigits Demo
 
 Driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library.
 
@@ -24,7 +24,6 @@ The main things to note is that the library:
 * uses Timer2 for display refresh
 * mandates the pin connections per the following table
 
-
 | Arduino Pin  | Project Pin       |
 | ------------ | ----------------- |
 | GND          | GND               |
@@ -38,7 +37,6 @@ The main things to note is that the library:
 | Pin 9        | Segment c         |
 | Pin 10       | Segment b         |
 | Pin 11       | Segment a         |
-
 
 ## Construction
 

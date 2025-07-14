@@ -1,9 +1,10 @@
-# #166 DS3231RTC Projects
+# DS3231RTC Projects
 
 Projects using the DS3231 real-time clock module.
 
 In addition to DS1307-compatible time functions, the DS3231 has some interesting extra functions:
-* digital temperatur sensor
+
+* digital temperature sensor
 * two time-of-day alarms
 * programmable square-wave output
 

@@ -1,4 +1,4 @@
-# #367 nRF24/Scanner
+# #367 nRF24 Scanner
 
 A 2.4GHz channel scanner for the nRF24l01+ with Nokia 5110 LCD display.
 
@@ -57,7 +57,6 @@ Here's the mapping from the terminology used by the 5110 and nRF24 modules and p
 | nRF24  | MISO      | data out              | 12 SPI MISO |
 | nRF24  | SCK       | clock                 | 13 SPI SCK  |
 
-
 ## Scanner Sketch
 
 The [Scanner](./Scanner.ino) program is an extension of the
@@ -67,7 +66,7 @@ It shows the channels that present a carrier.
 It currently supports two modes:
 
 * `current` - displays the latest sample
-* `cummulative` - displays counts since last reset
+* `cumulative` - displays counts since last reset
 
 It is pretty basic, and the display is a bit cramped to fit on the LCD display. Some improvement ideas:
 
@@ -75,7 +74,6 @@ It is pretty basic, and the display is a bit cramped to fit on the LCD display. 
 * add a waterfall mode
 * add a histogram mode
 * zoom in to see individual channels in more detail
-
 
 ## Breadboard Construction
 
@@ -99,7 +97,6 @@ The full schematic for the module is available [here in EasyEDA](https://easyeda
 
 ![Scanner_module_schematic](./assets/Scanner_module_schematic.png?raw=true)
 
-
 I'm using some protoboard, and here's a sketch of the basic layout:
 
 ![Scanner_protoboard_layout](./assets/Scanner_protoboard_layout.jpg?raw=true)
@@ -114,11 +111,9 @@ In a plastic enclosure:
 
 ![Scanner_module_assembly](./assets/Scanner_module_assembly.jpg?raw=true)
 
-
 Here's a quick demo..
 
 [![kV6yi0QiZwc](https://img.youtube.com/vi/kV6yi0QiZwc/0.jpg)](https://www.youtube.com/watch?v=kV6yi0QiZwc)
-
 
 ## Credits and References
 
