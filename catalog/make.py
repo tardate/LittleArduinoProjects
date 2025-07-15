@@ -339,12 +339,6 @@ class Catalog(object):
 
     def free_ids(self):
         """ Command: show free IDs in the catalog. """
-        # max_id = self._max_id()
-        # used_ids = {int(data['id'].replace('#', '')) for data in self.metadata()}
-        # free_ids = [f'#{i}' for i in range(1, max_id + 100) if i not in used_ids]
-        # print("Free IDs:")
-        # for free_id in free_ids:
-        #     print(free_id)
         used_ids = set()
         for project in self.metadata():
             used_ids.add(int(project['id'].lstrip('#')))
