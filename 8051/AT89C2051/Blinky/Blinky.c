@@ -8,7 +8,7 @@
  */
 
 #define MICROCONTROLLER_AT89CX051
-#include <mcs51reg.h>
+#include <mcs51/mcs51reg.h>
 
 const int DELAY = 1000;
 

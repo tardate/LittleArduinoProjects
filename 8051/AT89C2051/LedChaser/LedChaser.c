@@ -8,12 +8,12 @@
  */
 
 #define MICROCONTROLLER_AT89CX051
-#include <mcs51reg.h>
+#include <mcs51/mcs51reg.h>
+
 #include <stdint.h>
 
 #define INTERRUPTS_PER_SECOND 5208 // at 16MHz: 16000000/12/(2^8) = 5208 = 0x1458
 #define TICKS_PER_STEP 2604        // INTERRUPTS_PER_SECOND / 2 = 2Hz
-
 
 volatile uint16_t timer_counter = TICKS_PER_STEP;
 

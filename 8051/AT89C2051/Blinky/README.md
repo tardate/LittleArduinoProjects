@@ -90,15 +90,20 @@ For example, I have used in this case:
 
 ```c
 #define MICROCONTROLLER_AT89CX051
-#include <mcs51reg.h>
+#include <mcs51/mcs51reg.h>
 ```
+
+Note: the sdcc organises headers by processor family into subfolders e.g. `mcs51/`. While it is not strictly necessary to specify the subfolder (using `#include <mcs51reg.h>` instead will still work), it is better to include it to avoid unexpected name collisions. The Keil compiler headers are not organised by folder, so the Keil equivalent would be `#include <reg51.h>`.
 
 One can be more specific and include the header file for the specific processor in use.
 The pre-compiler speedup of specific header files is probably negligible.
-In my case that would be `at89x51.h` (register declarations for ATMEL 89x51 processors).
+In my case that could be `at89x51.h` (register declarations for ATMEL 89x51 processors)
+or better yet `at89x051.h` (Register Declarations for Atmel AT89C1051, AT89C2051 and AT89C4051 Processors).
 
 ```c
-#include <at89x51.h>
+#include <mcs51/at89x51.h>
+// or
+// #include <mcs51/at89x051.h>
 ```
 
 Is there any benefit to one approach over the other?
