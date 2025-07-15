@@ -136,6 +136,7 @@ class Catalog(object):
     def _verify_catalog_metadata(self):
         """ Command: verifies all metadata files have an id, the correct relative path, and updated_at. """
         max_id = self._max_id()
+        ids = set()
         for filename in self.metadata_files():
             data = json.load(open(filename, 'r'))
             if 'updated_at' not in data:
@@ -146,6 +147,10 @@ class Catalog(object):
             if 'id' not in data:
                 max_id += 1
                 data['id'] = f'#{max_id}'
+            if data['id'] in ids:
+                raise ValueError(f"Duplicate ID found: {data['id']} in {filename}")
+            else:
+                ids.add(data['id'])
             write_pretty_json(data, filename, verbose=False)
             # verify the id referenced in the README is correct
             readme_file = self._get_project_file(data['relative_path'], 'README.md')
@@ -331,6 +336,48 @@ class Catalog(object):
                 with open(destination_path, 'w') as destination:
                     destination.write(template_content)
                     print(f"Created: {destination_path}")
+
+    def free_ids(self):
+        """ Command: show free IDs in the catalog. """
+        used_ids = set()
+        for project in self.metadata():
+            used_ids.add(int(project['id'].lstrip('#')))
+
+        max_id = max(used_ids) if used_ids else 0
+        print(f"Next ID: {max_id + 1}")
+
+        free_ids = set()
+        for i in range(1, max_id):
+            if i not in used_ids:
+                free_ids.add(i)
+
+        if free_ids:
+            print(f"Gaps in the ID sequence: ")
+            ranges = []
+            sorted_ids = sorted(free_ids)
+            start = sorted_ids[0]
+            end = sorted_ids[0]
+
+            for id in sorted_ids[1:]:
+                if id == end + 1:
+                    # gobble more
+                    end = id
+                else:
+                    # end of a range
+                    if end - start >= 1:
+                        ranges.append(f"{start}-{end}")
+                    else:
+                        ranges.append(f"{start}")
+                    start = end = id
+
+            if end - start >= 1:
+                ranges.append(f"{start}-{end}")
+            else:
+                ranges.append(f"{start}")
+
+            print(", ".join(ranges))
+        else:
+            print("(there are no gaps in the ID sequence)")
 
     def new(self):
         """ Command: create a new project directory. """

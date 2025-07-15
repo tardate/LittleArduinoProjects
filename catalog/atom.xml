@@ -304,6 +304,16 @@
     <category term="Books"/>
   </entry>
   <entry>
+    <id>https://leap.tardate.com/books/micropython-cookbook/</id>
+    <link href="https://leap.tardate.com/books/micropython-cookbook/"/>
+    <g:image_link>https://leap.tardate.com/books/micropython-cookbook/assets/micropython-cookbook_build.jpg</g:image_link>
+    <updated>2025-03-20T14:42:00Z</updated>
+    <title>#750 MicroPython Cookbook</title>
+    <summary>Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/micropython-cookbook/assets/micropython-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/hd44780/</id>
     <link href="https://leap.tardate.com/electronics101/hd44780/"/>
     <g:image_link>https://leap.tardate.com/electronics101/hd44780/assets/hd44780_build.jpg</g:image_link>
@@ -633,16 +643,6 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a voltage-controlled LED current source with a triangle wave generator.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/led/dimmer/vco/assets/vco_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Oscillators"/>
-  </entry>
-  <entry>
-    <id>https://leap.tardate.com/books/micropython-cookbook/</id>
-    <link href="https://leap.tardate.com/books/micropython-cookbook/"/>
-    <g:image_link>https://leap.tardate.com/books/micropython-cookbook/assets/micropython-cookbook_build.jpg</g:image_link>
-    <updated>2025-03-20T14:42:00Z</updated>
-    <title>#718 MicroPython Cookbook</title>
-    <summary>Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/micropython-cookbook/assets/micropython-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="Books"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/raspberry-pi-electronics-projects-for-the-evil-genius/</id>

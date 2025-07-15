@@ -237,6 +237,14 @@
             "Books"
         ]
     },
+    "/books/micropython-cookbook/": {
+        "id": 750,
+        "title": "MicroPython Cookbook",
+        "summary": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/hd44780/": {
         "id": 749,
         "title": "HD44780-based LCD Modules",
@@ -504,14 +512,6 @@
         "tags": [
             "LED",
             "Oscillators"
-        ]
-    },
-    "/books/micropython-cookbook/": {
-        "id": 718,
-        "title": "MicroPython Cookbook",
-        "summary": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",
-        "tags": [
-            "Books"
         ]
     },
     "/books/raspberry-pi-electronics-projects-for-the-evil-genius/": {

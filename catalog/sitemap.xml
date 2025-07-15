@@ -79,6 +79,9 @@
     <loc>https://leap.tardate.com/books/the-embedded-project-cookbook/</loc>
   </url>
   <url>
+    <loc>https://leap.tardate.com/books/micropython-cookbook/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/hd44780/</loc>
   </url>
   <url>
@@ -170,9 +173,6 @@
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/led/dimmer/vco/</loc>
-  </url>
-  <url>
-    <loc>https://leap.tardate.com/books/micropython-cookbook/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/books/raspberry-pi-electronics-projects-for-the-evil-genius/</loc>

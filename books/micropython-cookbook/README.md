@@ -1,4 +1,4 @@
-# #718 MicroPython Cookbook
+# #750 MicroPython Cookbook
 
 Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.
 
