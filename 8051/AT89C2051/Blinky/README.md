@@ -55,8 +55,62 @@ export PATH=$PATH:${SDCC_HOME}/bin
 
 The [Blinky.c](./Blinky.c) source file is the entire program:
 
-* a `main` function that toggles the state of the `P1_0` port bit ever `DELAY` milliseconds.
+* a `main` function that toggles the state of the `P1_0` port bit evert `DELAY` milliseconds.
 * a `ms_delay` function that "sleeps" for the specified number of milliseconds
+
+### Header Files
+
+The program needs to access some processor-specific features - in this case the port register `P1_0`.
+What header files do we need to include to achieve this?
+
+My Homebrew-installed SDCC header files are located in `/opt/homebrew/Cellar/sdcc/4.5.0/share/sdcc/include/`,
+with a large number of header files specific to Intel MCS-51 compatible processors in the sub-folder `./mcs51`.
+A small selection:
+
+```sh
+$ ls -1  /opt/homebrew/Cellar/sdcc/4.5.0/share/sdcc/include/mcs51
+8051.h
+8052.h
+..
+at89x051.h
+at89x51.h
+at89x52.h
+..
+mcs51reg.h
+msc1210.h
+...
+reg51.h
+..
+```
+
+One approach is to include the generic `mcs51reg.h` (Register Declarations for the mcs51 compatible microcontrollers).
+It will include the necessary definitions based on the `MICROCONTROLLER_xxx` defined.
+This makes the code potentially easier to compile for different microprocessors.
+For example, I have used in this case:
+
+```c
+#define MICROCONTROLLER_AT89CX051
+#include <mcs51reg.h>
+```
+
+One can be more specific and include the header file for the specific processor in use.
+The pre-compiler speedup of specific header files is probably negligible.
+In my case that would be `at89x51.h` (register declarations for ATMEL 89x51 processors).
+
+```c
+#include <at89x51.h>
+```
+
+Is there any benefit to one approach over the other?
+Probably not much, unless you are specifically writing code to be compiled for multiple targets,
+in which case I'd prefer `mcs51reg.h` with defines.
+
+NOTE: there is a currently [bug in the `at89x51.h` header file](https://sourceforge.net/p/sdcc/bugs/3861/)
+included in the latest sdcc release (4.5.2), so it can't be used without patching anyway.
+
+One may also see `reg51.h` or `reg52.h` in use. I have seen this in old code compiled with Keil, for example.
+These are obsolete and shouldn't be used with sdcc - `reg52.h` won't work, and `reg51.h` will just
+raise a warning before falling back on including generic  `8052.h` headers.
 
 ### Calibrating the Delay Function
 
@@ -123,6 +177,7 @@ Googling for 8051 circuit schematics, I see a common combination is 8.2kΩ pull-
 ## Credits and References
 
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
+* [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
 * [SDCC](https://sdcc.sourceforge.net) - Small Device C Compiler
 * [LEAP#394 AT89C2051 Programmer](../Programmer/)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap395-8051-programming-with-sdcc.html)
