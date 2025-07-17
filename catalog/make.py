@@ -119,14 +119,16 @@ class Catalog(object):
     def _get_project_file(self, relative_path, name='.catalog_metadata'):
         return os.path.join(self.collection_root, relative_path, name)
 
-    def _max_id(self):
+    def _load_catalog_data(self):
         with open(self.catalog_json, 'r') as f:
-            catalog_data = json.load(f)
+            return json.load(f)
+
+    def _max_id(self):
+        catalog_data = self._load_catalog_data()
         return max(int(data['id'].replace('#', '')) for data in catalog_data if 'id' in data)
 
     def _max_updated_at(self):
-        with open(self.catalog_json, 'r') as f:
-            catalog_data = json.load(f)
+        catalog_data = self._load_catalog_data()
         latest_updated_at = max(
             datetime.strptime(data['updated_at'], "%Y-%m-%dT%H:%M:%SZ")
             for data in catalog_data if 'updated_at' in data
@@ -340,7 +342,8 @@ class Catalog(object):
     def free_ids(self):
         """ Command: show free IDs in the catalog. """
         used_ids = set()
-        for project in self.metadata():
+        catalog_data = self._load_catalog_data()
+        for project in catalog_data:
             used_ids.add(int(project['id'].lstrip('#')))
 
         max_id = max(used_ids) if used_ids else 0
@@ -448,7 +451,20 @@ class Catalog(object):
         self._update_readme()
         self._ensure_asset_backup_paths_exist()
 
+    def help(self):
+        """ Command: print help for the catalog commands. """
+        print("Usage: make.py <command> [options]")
+        print("Commands:")
+        print("  rebuild                - Rebuild the catalog from metadata files (default)")
+        print("  new <project_folder>   - Create a new project folder with metadata and templates")
+        print("  free_ids               - Show free IDs in the catalog")
+        print("  help                   - Show this help message")
+
 if __name__ == '__main__':
     catalog = Catalog()
     operation = argv[1] if len(argv) > 1 else 'rebuild'
+    if operation not in dir(catalog):
+        print(f"Unknown command: {operation}")
+        catalog.help()
+        exit(1)
     getattr(catalog, operation)()
