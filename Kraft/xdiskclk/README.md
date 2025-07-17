@@ -20,7 +20,7 @@ is a cheap and simple AA-powered unit from a seller on aliexpress. I don't expec
 
 ### Construction
 
-The scultpure is a a random assembly of parts from the disk drive (platter, main board, head actuator) mounted around the clock mechanism.
+The sculpture is a a random assembly of parts from the disk drive (platter, main board, head actuator) mounted around the clock mechanism.
 
 As a table piece, I have it standing on the disk drive cover (bent to make a stand).
 I haven't decided whether I'll wall-mount the unit yet, so instead of trimming the hands to size, I just have the minute and second hand bent to size for now.
@@ -29,4 +29,4 @@ I haven't decided whether I'll wall-mount the unit yet, so instead of trimming t
 
 ## Credits and References
 
-* [DIY Clock Mechanism Classic Hanging Black Quartz Watch Wall Clock Movement Mechanism Parts Repair Replacement Essential Tools](https://www.aliexpress.com/item/All-Black-Creative-Mechanism-Quartz-Clock-Movement-Parts-Replacement-Repair-Tools-Set-Kit-DIY-Hands-Gift/32687248673.html) - similar clock movement mechanism from an aliexpress seller
+* [DIY Wall Clock Quartz Movement Mechanism Black Red Removable Wall Clock Quartz Hour/Minute Hand Clock Movement](https://www.aliexpress.com/item/32687248673.html) - similar clock movement mechanism from an aliexpress seller
