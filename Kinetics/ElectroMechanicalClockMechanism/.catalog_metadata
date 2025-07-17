@@ -1,0 +1,9 @@
+{
+    "id": "#751",
+    "name": "Electro-mechanical Clock Mechanism",
+    "description": "Examining a common crystal-disciplined quartz clock movement mechanism, figuring out how to tap a 1Hz timing signal.",
+    "categories": "Clock, CD4017",
+    "relative_path": "Kinetics/ElectroMechanicalClockMechanism",
+    "updated_at": "2025-07-17T09:09:00Z",
+    "created_at": "2025-07-17T09:09:00Z"
+}
