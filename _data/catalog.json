@@ -260,6 +260,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#751",
+        "name": "Electro-mechanical Clock Mechanism",
+        "description": "Examining a common crystal-disciplined quartz clock movement mechanism, figuring out how to tap a 1Hz timing signal.",
+        "categories": "Clock, CD4017",
+        "relative_path": "kinetics/electromechanicalclockmechanism",
+        "updated_at": "2025-07-17T09:09:00Z",
+        "created_at": "2025-07-17T09:09:00Z",
+        "original_relative_path": "Kinetics/ElectroMechanicalClockMechanism"
+    },
+    {
         "id": "#750",
         "name": "MicroPython Cookbook",
         "description": "Book notes: MicroPython Cookbook: Over 110 practical recipes for programming embedded systems and microcontrollers with Python, by Marwan Alsabbagh. Published May 21, 2019.",

@@ -237,6 +237,15 @@
             "Books"
         ]
     },
+    "/kinetics/electromechanicalclockmechanism/": {
+        "id": 751,
+        "title": "Electro-mechanical Clock Mechanism",
+        "summary": "Examining a common crystal-disciplined quartz clock movement mechanism, figuring out how to tap a 1Hz timing signal.",
+        "tags": [
+            "Clock",
+            "CD4017"
+        ]
+    },
     "/books/micropython-cookbook/": {
         "id": 750,
         "title": "MicroPython Cookbook",

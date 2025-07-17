@@ -1,4 +1,4 @@
-# #xxx Electro-mechanical Clock Mechanism
+# #751 Electro-mechanical Clock Mechanism
 
 Examining a common crystal-disciplined quartz clock movement mechanism, figuring out how to tap a 1Hz timing signal.
 
