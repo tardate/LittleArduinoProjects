@@ -4,6 +4,10 @@ Examining a common crystal-disciplined quartz clock movement mechanism, figuring
 
 ![Build](./assets/ElectroMechanicalClockMechanism_build.jpg?raw=true)
 
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/RjGGaxO6XCQ/0.jpg)](https://www.youtube.com/watch?v=RjGGaxO6XCQ)
+
 ## Notes
 
 ### Quartz Clock Movement
@@ -15,7 +19,7 @@ Examining a common crystal-disciplined quartz clock movement mechanism, figuring
 ![kit2](./assets/kit2.jpg)
 
 The "quartz" mechanism is encased on a potted PCB labelled "SY09".
-The hidden circuitry divides the 32768Hz crystal by 4096 to produce an 8Hz pulse. The 8Hz pulse is used to energize the coil and spin the magnetised first drive gear.
+The hidden circuitry divides the 32768Hz crystal by 4096 to produce an 8Hz pulse. The 8Hz pulse is used to energize the coil and spin the ferrite/magnetised first drive gear.
 
 ![assembly-06](./assets/assembly-06.jpg)
 
@@ -48,6 +52,10 @@ Re-assembly with Power wires (red/black) and 8Hz clock signal (yellow) attached:
 Checking the result on an oscilloscope, we get a clean 1 Hz pulse:
 
 ![scope-1hz](./assets/scope-1hz.gif)
+
+See it in action:
+
+[![clip](https://img.youtube.com/vi/RjGGaxO6XCQ/0.jpg)](https://www.youtube.com/watch?v=RjGGaxO6XCQ)
 
 ## Reduction Gear Assembly
 
