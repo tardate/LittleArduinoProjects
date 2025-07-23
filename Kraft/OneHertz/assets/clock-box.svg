@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1588 1123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="Cutting">
+        <g id="Base">
+            <g id="Base-outline" transform="matrix(2.31429e-16,3.77953,-3.77953,2.31429e-16,-271.37,-446.653)">
+                <path d="M331.578,-234.077L207.777,-255.9L123.177,-166.363L207.777,-76.8L331.578,-98.649L331.578,-234.077Z" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.26px;"/>
+            </g>
+            <g id="clock-shaft" transform="matrix(1.84374,0,0,1.70965,-400.397,-283.492)">
+                <ellipse cx="410.986" cy="485.448" rx="8.2" ry="8.843" style="fill:none;stroke:black;stroke-width:0.56px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g id="bird-cage" transform="matrix(0.764843,0,0,1.03097,38.4716,12.4674)">
+                <path d="M466.342,134.547L466.342,244.526L367.51,244.526L367.51,134.547C367.51,134.547 368.304,97.346 416.926,97.887C465.548,98.428 466.342,134.547 466.342,134.547Z" style="fill:none;stroke:black;stroke-width:1.1px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="LEDs" transform="matrix(1,0,0,1,-3.27047,-43.2677)">
+            <g id="led-mount-2" transform="matrix(1.15234,0,0,1.06853,-3.7234,-248.677)">
+                <ellipse cx="410.986" cy="485.448" rx="8.2" ry="8.843" style="fill:none;stroke:black;stroke-width:0.9px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g id="led-mount-1" transform="matrix(1.15234,0,0,1.06853,-222.217,-248.677)">
+                <ellipse cx="410.986" cy="485.448" rx="8.2" ry="8.843" style="fill:none;stroke:black;stroke-width:0.9px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="Bracket1" transform="matrix(1,0,0,1,-795.014,-77.3439)">
+            <g id="bracket-outline" transform="matrix(0.288122,0,0,1.488,1133.47,401.464)">
+                <rect x="0" y="-82.2" width="131.178" height="25.4" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.93px;"/>
+            </g>
+            <g id="swing-shaft" transform="matrix(0.691402,0,0,0.641118,868.211,-13.1815)">
+                <ellipse cx="410.986" cy="485.448" rx="8.2" ry="8.843" style="fill:none;stroke:black;stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="Bracket2" transform="matrix(1,0,0,1,-738.571,-77.8735)">
+            <g id="bracket-outline1" serif:id="bracket-outline" transform="matrix(0.288122,0,0,1.488,1077.03,348.265)">
+                <rect x="0" y="-82.2" width="131.178" height="25.4" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.93px;"/>
+            </g>
+            <g id="swing-shaft1" serif:id="swing-shaft" transform="matrix(0.691402,0,0,0.641118,811.769,-66.3803)">
+                <ellipse cx="410.986" cy="485.448" rx="8.2" ry="8.843" style="fill:none;stroke:black;stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+    </g>
+    <g id="Engraving">
+        <g transform="matrix(1,0,0,1,-164.24,-300.969)">
+            <g transform="matrix(57.6715,0,0,57.6715,357.913,865.935)">
+            </g>
+            <text x="292.975px" y="865.935px" style="font-family:'Luminari-Regular', 'Luminari';font-size:57.672px;fill:rgb(35,31,32);">IX</text>
+        </g>
+        <g transform="matrix(1,0,0,1,31.5353,-90.2284)">
+            <g transform="matrix(57.6715,0,0,57.6715,359.701,865.935)">
+            </g>
+            <text x="292.975px" y="865.935px" style="font-family:'Luminari-Regular', 'Luminari';font-size:57.672px;fill:rgb(35,31,32);">VI</text>
+        </g>
+        <g transform="matrix(1,0,0,1,226.731,-298.893)">
+            <g transform="matrix(57.6715,0,0,57.6715,360.624,865.935)">
+            </g>
+            <text x="292.975px" y="865.935px" style="font-family:'Luminari-Regular', 'Luminari';font-size:57.672px;fill:rgb(35,31,32);">III</text>
+        </g>
+        <g transform="matrix(1,0,0,1,23.2883,-508.522)">
+            <g transform="matrix(57.6715,0,0,57.6715,380.463,865.935)">
+            </g>
+            <text x="292.975px" y="865.935px" style="font-family:'Luminari-Regular', 'Luminari';font-size:57.672px;fill:rgb(35,31,32);">XII</text>
+        </g>
+        <g transform="matrix(0.942524,0,0,1.05581,43.118,-45.3648)">
+            <g transform="matrix(1.06098,-0,-0,0.94714,-45.7474,42.9668)">
+                <use xlink:href="#_Image1" x="207.374" y="156.35" width="5px" height="652px"/>
+            </g>
+        </g>
+        <g transform="matrix(0.942524,0,0,1.05581,337.921,-45.3648)">
+            <g transform="matrix(1.06098,-0,-0,0.94714,-358.528,42.9668)">
+                <use xlink:href="#_Image2" x="502.177" y="156.35" width="5px" height="652px"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="5px" height="652px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAKMCAYAAAAjT3LcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAbUlEQVRoge3IMQrDMBQFwSeR0mqM73/JL4M7pTNOcoEUs7DNZIyxktwfx7F6VeXZvu/p+aq19otJIIQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYTwD3HOmVfvn36eZ1pVreu6bty2LW9PnhotpizqjQAAAABJRU5ErkJggg=="/>
+        <image id="_Image2" width="5px" height="652px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAKMCAYAAAAjT3LcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAgUlEQVRoge3LMQqDQBRF0ecwWE3vcmb/O7FXQW1MEySJdbpz4TeH9zOO45Xkvt77Vc7zzGfzPKfkp+M4Mrzf7mqtz+U0TU9srT0xCYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQ/gPXdU0t5du3bcuwLMu17/uNrbW8AOARIYtXJNC0AAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>

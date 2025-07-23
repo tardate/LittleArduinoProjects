@@ -1,0 +1,6 @@
+{
+    "name": "One Hurts! A most annoying clock",
+    "description": "How to turn a cheap quartz clock mechanism into perhaps the most annoying cuckoo clock ever: flashing LEDs, nodding snowman, and a tick-tock chime every second. Made for the 2025 Hackaday One Hertz Challenge.",
+    "categories": "Clock, 555 Timer, 74LS73, CD4017",
+    "relative_path": "Kraft/OneHertz"
+}
