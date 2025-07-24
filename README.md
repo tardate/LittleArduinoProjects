@@ -1,4 +1,4 @@
-# 778 Little Electronic Art Projects
+# 779 Little Electronic Art Projects
 
 > Latest addition :sparkles: [xTool S1 Laser Cutter](./Equipment/NLB/xToolS1) - Using the laser cutting services available in Singapore's National Libraries - xTool S1.
 

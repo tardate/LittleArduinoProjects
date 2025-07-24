@@ -3,5 +3,7 @@
     "name": "LED Breadboard Modules",
     "description": "Testing some 8x Red LED common-cathode modules, making breadboarding with LEDs much more fun!",
     "categories": "LED, 555 Timer, Breadboard Bling",
-    "relative_path": "Electronics101/LED/LEDBreadboardModules"
+    "relative_path": "Electronics101/LED/LEDBreadboardModules",
+    "updated_at": "2025-07-24T11:47:00Z",
+    "created_at": "2025-07-24T11:47:00Z"
 }

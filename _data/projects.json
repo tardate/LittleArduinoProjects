@@ -246,6 +246,16 @@
             "Books"
         ]
     },
+    "/electronics101/led/ledbreadboardmodules/": {
+        "id": 752,
+        "title": "LED Breadboard Modules",
+        "summary": "Testing some 8x Red LED common-cathode modules, making breadboarding with LEDs much more fun!",
+        "tags": [
+            "LED",
+            "555 Timer",
+            "Breadboard Bling"
+        ]
+    },
     "/kinetics/electromechanicalclockmechanism/": {
         "id": 751,
         "title": "Electro-mechanical Clock Mechanism",

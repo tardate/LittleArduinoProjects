@@ -270,6 +270,16 @@
         "original_relative_path": "books/the-embedded-project-cookbook"
     },
     {
+        "id": "#752",
+        "name": "LED Breadboard Modules",
+        "description": "Testing some 8x Red LED common-cathode modules, making breadboarding with LEDs much more fun!",
+        "categories": "LED, 555 Timer, Breadboard Bling",
+        "relative_path": "electronics101/led/ledbreadboardmodules",
+        "updated_at": "2025-07-24T11:47:00Z",
+        "created_at": "2025-07-24T11:47:00Z",
+        "original_relative_path": "Electronics101/LED/LEDBreadboardModules"
+    },
+    {
         "id": "#751",
         "name": "Electro-mechanical Clock Mechanism",
         "description": "Examining a common crystal-disciplined quartz clock movement mechanism, figuring out how to tap a 1Hz timing signal.",
