@@ -1,6 +1,6 @@
 # 778 Little Electronic Art Projects
 
-> Latest addition :sparkles: [AT89C2051 LCD Control](./8051/AT89C2051/LcdControl) - Demonstrates HD44780-based LCD control using the AT89C2051 (8051) microprocessor, compiled with SDCC on macOS
+> Latest addition :sparkles: [xTool S1 Laser Cutter](./Equipment/NLB/xToolS1) - Using the laser cutting services available in Singapore's National Libraries - xTool S1.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
