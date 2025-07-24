@@ -1,4 +1,4 @@
-# 777 Little Electronic Art Projects
+# 778 Little Electronic Art Projects
 
 > Latest addition :sparkles: [AT89C2051 LCD Control](./8051/AT89C2051/LcdControl) - Demonstrates HD44780-based LCD control using the AT89C2051 (8051) microprocessor, compiled with SDCC on macOS
 

@@ -237,6 +237,15 @@
             "Books"
         ]
     },
+    "/equipment/nlb/xtools1/": {
+        "id": 752,
+        "title": "xTool S1 Laser Cutter",
+        "summary": "Using the laser cutting services available in Singapore's National Libraries - xTool S1.",
+        "tags": [
+            "NLB MakeIt",
+            "Laser Cutter"
+        ]
+    },
     "/kinetics/electromechanicalclockmechanism/": {
         "id": 751,
         "title": "Electro-mechanical Clock Mechanism",
