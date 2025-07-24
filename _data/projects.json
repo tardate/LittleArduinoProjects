@@ -1,4 +1,13 @@
 {
+    "/equipment/nlb/xtools1/": {
+        "id": 779,
+        "title": "xTool S1 Laser Cutter",
+        "summary": "Using the laser cutting services available in Singapore's National Libraries - xTool S1.",
+        "tags": [
+            "NLB MakeIt",
+            "Laser Cutter"
+        ]
+    },
     "/8051/at89c2051/lcdcontrol/": {
         "id": 778,
         "title": "AT89C2051 LCD Control",
@@ -235,15 +244,6 @@
         "summary": "Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.",
         "tags": [
             "Books"
-        ]
-    },
-    "/equipment/nlb/xtools1/": {
-        "id": 752,
-        "title": "xTool S1 Laser Cutter",
-        "summary": "Using the laser cutting services available in Singapore's National Libraries - xTool S1.",
-        "tags": [
-            "NLB MakeIt",
-            "Laser Cutter"
         ]
     },
     "/kinetics/electromechanicalclockmechanism/": {

@@ -14,6 +14,17 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/equipment/nlb/xtools1/</id>
+    <link href="https://leap.tardate.com/equipment/nlb/xtools1/"/>
+    <g:image_link>https://leap.tardate.com/equipment/nlb/xtools1/assets/xtools1_build.jpg</g:image_link>
+    <updated>2025-07-24T09:43:00Z</updated>
+    <title>#779 xTool S1 Laser Cutter</title>
+    <summary>Using the laser cutting services available in Singapore's National Libraries - xTool S1.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using the laser cutting services available in Singapore's National Libraries - xTool S1.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/nlb/xtools1/assets/xtools1_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="NLB MakeIt"/>
+    <category term="Laser Cutter"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/8051/at89c2051/lcdcontrol/</id>
     <link href="https://leap.tardate.com/8051/at89c2051/lcdcontrol/"/>
     <g:image_link>https://leap.tardate.com/8051/at89c2051/lcdcontrol/assets/lcdcontrol_build.jpg</g:image_link>
@@ -302,17 +313,6 @@
     <summary>Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Book notes: The Embedded Project Cookbook: A Step-by-Step Guide for Microcontroller Projects, by John T. Taylor. Published October 8, 2024.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/books/the-embedded-project-cookbook/assets/the-embedded-project-cookbook_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Books"/>
-  </entry>
-  <entry>
-    <id>https://leap.tardate.com/equipment/nlb/xtools1/</id>
-    <link href="https://leap.tardate.com/equipment/nlb/xtools1/"/>
-    <g:image_link>https://leap.tardate.com/equipment/nlb/xtools1/assets/xtools1_build.jpg</g:image_link>
-    <updated>2025-07-24T09:43:00Z</updated>
-    <title>#752 xTool S1 Laser Cutter</title>
-    <summary>Using the laser cutting services available in Singapore's National Libraries - xTool S1.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Using the laser cutting services available in Singapore's National Libraries - xTool S1.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/equipment/nlb/xtools1/assets/xtools1_build.jpg&quot; /&gt;&lt;/div&gt;</content>
-    <category term="NLB MakeIt"/>
-    <category term="Laser Cutter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/electromechanicalclockmechanism/</id>
