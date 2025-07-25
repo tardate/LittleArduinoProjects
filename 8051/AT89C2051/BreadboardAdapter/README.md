@@ -44,3 +44,4 @@ Running the [Blinky](../Blinky/) program:
 
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
 * [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
+* [20 Pin 2.54 MM Green DIP Universal ZIF IC Socket](https://www.aliexpress.com/item/1005006122906174.html) - aliexpress
