@@ -1,4 +1,4 @@
-# #xxx AT89C2051 Breadboard Adapter
+# #780 AT89C2051 Breadboard Adapter
 
 Wiring up the reset and oscillator support circuits gets a little tired each time one wants to prototype an AT89C2051(8051/MCS-51) project. I made a little breadboard-compatible module that let's me easily pop the microprocessor in and out, and just requires a power and ground connection on the breadboard.
 

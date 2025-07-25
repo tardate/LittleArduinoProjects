@@ -1,4 +1,13 @@
 {
+    "/8051/at89c2051/breadboardadapter/": {
+        "id": 780,
+        "title": "AT89C2051 Breadboard Adapter",
+        "summary": "Wiring up the reset and oscillator support circuits gets a little tired each time one wants to prototype an AT89C2051(8051/MCS-51) project. I made a little breadboard-compatible module that let's me easily pop the microprocessor in and out, and just requires a power and ground connection on the breadboard.",
+        "tags": [
+            "8051",
+            "Breadboard Bling"
+        ]
+    },
     "/equipment/nlb/xtools1/": {
         "id": 779,
         "title": "xTool S1 Laser Cutter",
