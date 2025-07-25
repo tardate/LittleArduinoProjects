@@ -1,13 +1,13 @@
 # #xxx AT89C2051 Breadboard Adapter
 
-Wiring up the reset and oscillator support circuits gets a little tired each time one wants to prototype an AT89C2051(8051/MCS51) project. I made a little breadboard-compatible module that let's me easily pop the microprocessor in and out, and just requires a power and ground connection on the breadboard.
+Wiring up the reset and oscillator support circuits gets a little tired each time one wants to prototype an AT89C2051(8051/MCS-51) project. I made a little breadboard-compatible module that let's me easily pop the microprocessor in and out, and just requires a power and ground connection on the breadboard.
 
 ![Build](./assets/BreadboardAdapter_build.jpg?raw=true)
 
 ## Notes
 
 I've been doing a few projects using the 20-pin
-AT89C2051, 8051/MCS51-compatible chip.
+AT89C2051, 8051/MCS-51 compatible chip.
 To run, it requires:
 
 * an external oscillator - I'm using 16 MHz with loading capacitors
@@ -42,4 +42,5 @@ Running the [Blinky](../Blinky/) program:
 
 ## Credits and References
 
-* [name](url)
+* [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
+* [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
