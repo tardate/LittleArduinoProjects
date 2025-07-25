@@ -1,6 +1,6 @@
-# 779 Little Electronic Art Projects
+# 780 Little Electronic Art Projects
 
-> Latest addition :sparkles: [xTool S1 Laser Cutter](./Equipment/NLB/xToolS1) - Using the laser cutting services available in Singapore's National Libraries - xTool S1.
+> Latest addition :sparkles: [AT89C2051 Breadboard Adapter](./8051/AT89C2051/BreadboardAdapter) - Wiring up the reset and oscillator support circuits gets a little tired each time one wants to prototype an AT89C2051(8051/MCS-51) project. I made a little breadboard-compatible module that let's me easily pop the microprocessor in and out, and just requires a power and ground connection on the breadboard.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
