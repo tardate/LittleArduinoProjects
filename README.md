@@ -1,6 +1,6 @@
-# 780 Little Electronic Art Projects
+# 781 Little Electronic Art Projects
 
-> Latest addition :sparkles: [AT89C2051 Breadboard Adapter](./8051/AT89C2051/BreadboardAdapter) - Wiring up the reset and oscillator support circuits gets a little tired each time one wants to prototype an AT89C2051(8051/MCS-51) project. I made a little breadboard-compatible module that let's me easily pop the microprocessor in and out, and just requires a power and ground connection on the breadboard.
+> Latest addition :sparkles: [Light Detector](./Electronics101/MCP601/LightDetector) - Demonstrating the MCP601 op-amp used in a light detection circuit with the 2CU84 photodiode.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

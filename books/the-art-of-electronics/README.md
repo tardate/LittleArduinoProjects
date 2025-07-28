@@ -26,6 +26,7 @@ See also:
 * TEN: Digital Logic
 * ELEVEN: Programmable Logic Devices
 * TWELVE: Logic Interfacing
+    * 12.6.1 Photodiodes and phototransistors. See [LEAP#781 Light Detector](../../Electronics101/MCP601/LightDetector/)
 * THIRTEEN : Digital meets Analog
 * FOURTEEN: Computers, Controllers, and Data Links
 * FIFTEEN: Microcontrollers
