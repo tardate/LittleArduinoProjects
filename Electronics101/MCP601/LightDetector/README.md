@@ -1,4 +1,4 @@
-# #xxx Light Detector
+# #781 Light Detector
 
 Demonstrating the MCP601 op-amp used in a light detection circuit with the 2CU84 photodiode.
 

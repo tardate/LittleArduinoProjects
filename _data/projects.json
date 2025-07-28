@@ -1,4 +1,14 @@
 {
+    "/electronics101/mcp601/lightdetector/": {
+        "id": 781,
+        "title": "Light Detector",
+        "summary": "Demonstrating the MCP601 op-amp used in a light detection circuit with the 2CU84 photodiode.",
+        "tags": [
+            "MCP601",
+            "Photodiode",
+            "Sensors"
+        ]
+    },
     "/8051/at89c2051/breadboardadapter/": {
         "id": 780,
         "title": "AT89C2051 Breadboard Adapter",
