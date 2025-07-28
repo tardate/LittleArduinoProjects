@@ -7,7 +7,7 @@ Demonstrating the MCP601 op-amp used in a light detection circuit with the 2CU84
 ## Notes
 
 The [MCP601 Datasheet](https://www.futurlec.com/SFMicrochip/MCP601.shtml) includes an example
-of how the MCP601/1R/2/3/4 op amps can be used to easily convert the signal from a sensor that produces an output current (such as a photo diode) into a voltage (a transimpedance amplifier). This is implemented with a single resistor (R1) in the feedback loop of the amplifiers. The optional capacitor (C1) provides stability for these circuits.
+of how the MCP601/1R/2/3/4 op amps can be used to easily convert the signal from a sensor that produces an output current (such as a photo diode) into a voltage (a transimpedance amplifier). This is implemented with a single resistor (R2) in the feedback loop of the amplifiers. The optional capacitor (C2) provides stability for these circuits.
 
 ![ref-schematic](./assets/ref-schematic.png)
 
