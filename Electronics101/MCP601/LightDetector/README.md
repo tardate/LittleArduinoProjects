@@ -4,10 +4,6 @@ Demonstrating the MCP601 op-amp used in a light detection circuit with the 2CU84
 
 ![Build](./assets/LightDetector_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 ## Notes
 
 The [MCP601 Datasheet](https://www.futurlec.com/SFMicrochip/MCP601.shtml) includes an example
