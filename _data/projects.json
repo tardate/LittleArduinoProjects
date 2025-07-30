@@ -1,4 +1,12 @@
 {
+    "/electronics101/555timer/delayon/": {
+        "id": 783,
+        "title": "555 Delay On",
+        "summary": "A simple 555 circuit that provides a power-on delay.",
+        "tags": [
+            "555 Timer"
+        ]
+    },
     "/electronics101/555timer/compactledflasher/": {
         "id": 782,
         "title": "555 Compact LED Flasher",

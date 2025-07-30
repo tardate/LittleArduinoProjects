@@ -1,5 +1,15 @@
 [
     {
+        "name": "555 Delay On",
+        "description": "A simple 555 circuit that provides a power-on delay.",
+        "categories": "555 Timer",
+        "relative_path": "electronics101/555timer/delayon",
+        "updated_at": "2025-07-30T16:14:00Z",
+        "created_at": "2025-07-30T16:14:00Z",
+        "id": "#783",
+        "original_relative_path": "Electronics101/555Timer/DelayOn"
+    },
+    {
         "name": "555 Compact LED Flasher",
         "description": "An unusual configuration of the 555 produces an astable oscillation with minimal, small components.",
         "categories": "555 Timer, Oscillators",

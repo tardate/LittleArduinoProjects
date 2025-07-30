@@ -25,6 +25,8 @@ It operates with two oscillating 555 timers chained together:
 
 ### Construction
 
+Designed with Fritzing: see [SimpleSiren.fzz](./SimpleSiren.fzz).
+
 ![Breadboard](./assets/SimpleSiren_bb.jpg?raw=true)
 
 ![Schematic](./assets/SimpleSiren_schematic.jpg?raw=true)

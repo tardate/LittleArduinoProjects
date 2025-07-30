@@ -1,6 +1,6 @@
-# 782 Little Electronic Art Projects
+# 783 Little Electronic Art Projects
 
-> Latest addition :sparkles: [555 Compact LED Flasher](./Electronics101/555Timer/CompactLEDFlasher) - An unusual configuration of the 555 produces an astable oscillation with minimal, small components.
+> Latest addition :sparkles: [555 Delay On](./Electronics101/555Timer/DelayOn) - A simple 555 circuit that provides a power-on delay.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
