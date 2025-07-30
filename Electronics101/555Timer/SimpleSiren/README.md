@@ -56,6 +56,9 @@ The formula with variables as named in this circuit is:
 
 In practice, I'm seeing the frequency alternate between around 241 Hz and 275 Hz, as measured on an oscilloscope:
 
+* CH1 (Yellow): second timer output (pin 3)
+* CH2 (Blue): second timer control voltage (pin 5)
+
 ![scope-lo](./assets/scope-lo.gif)
 
 ![scope-hi](./assets/scope-hi.gif)
