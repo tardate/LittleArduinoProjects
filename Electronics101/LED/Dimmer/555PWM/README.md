@@ -7,6 +7,12 @@ Test a PWM LED dimmer circuit using a 555 timer.
 ## Notes
 
 This common circuit uses a 555 Timer-based PWM circuit to dim a LED strip.
+Similar circuits can be found in many sources, such as:
+    *[LED Dimmer](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html) on Talking Electronics
+    * [LED Dimmer](https://www.555-timer-circuits.com/led-dimmer.html) on 555 Timer Circuits
+    *[LED Dimmer Circuit](http://www.reuk.co.uk/wordpress/lighting/led-dimmer-circuit/) - reuk.co.uk
+    * [PWM LED Dimmer/ Brightness Control by 555 Timer With Video Simulation](http://www.circuitsgallery.com/2013/02/pwm-led-dimmer.html)
+    * Power FET Lamp Dimmer in the [Engineer's Mini-Notebook 555 Timer IC Circuits](../../../../books/engineers-mini-notebook-555-timer-ic-circuits/)
 
 Steering diodes in the 555 timing circuit allow adjustment of the duty cycle
 with little change to the ~1kHz frequency.
@@ -62,8 +68,8 @@ I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/it
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * Reference Circuits:
-    * [LED Dimmer](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html) on talking Electronics
-    * [LED Dimmer](https://www.555-timer-circuits.com/led-dimmer.html) on 55 Timer Circuits
+    * [LED Dimmer](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html) on Talking Electronics
+    * [LED Dimmer](https://www.555-timer-circuits.com/led-dimmer.html) on 555 Timer Circuits
     * [LED Dimmer Circuit](http://www.reuk.co.uk/wordpress/lighting/led-dimmer-circuit/) - reuk.co.uk
     * [PWM LED Dimmer/ Brightness Control by 555 Timer With Video Simulation](http://www.circuitsgallery.com/2013/02/pwm-led-dimmer.html)
     * Power FET Lamp Dimmer in the [Engineer's Mini-Notebook 555 Timer IC Circuits](../../../../books/engineers-mini-notebook-555-timer-ic-circuits/)
