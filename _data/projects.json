@@ -1,4 +1,13 @@
 {
+    "/electronics101/555timer/compactledflasher/": {
+        "id": 782,
+        "title": "555 Compact LED Flasher",
+        "summary": "An unusual configuration of the 555 produces an astable oscillation with minimal, small components.",
+        "tags": [
+            "555 Timer",
+            "Oscillators"
+        ]
+    },
     "/electronics101/mcp601/lightdetector/": {
         "id": 781,
         "title": "Light Detector",

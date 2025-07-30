@@ -1,4 +1,4 @@
-# #xxx 555 Compact LED Flasher
+# #782 555 Compact LED Flasher
 
 An unusual configuration of the 555 produces an astable oscillation with minimal, small components.
 

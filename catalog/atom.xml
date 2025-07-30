@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-07-28T12:56:00Z</updated>
+  <updated>2025-07-30T14:12:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/compactledflasher/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/compactledflasher/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/compactledflasher/assets/compactledflasher_build.jpg</g:image_link>
+    <updated>2025-07-30T14:12:00Z</updated>
+    <title>#782 555 Compact LED Flasher</title>
+    <summary>An unusual configuration of the 555 produces an astable oscillation with minimal, small components.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;An unusual configuration of the 555 produces an astable oscillation with minimal, small components.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/compactledflasher/assets/compactledflasher_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/mcp601/lightdetector/</id>
     <link href="https://leap.tardate.com/electronics101/mcp601/lightdetector/"/>

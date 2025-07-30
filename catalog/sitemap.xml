@@ -1,6 +1,9 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://leap.tardate.com/electronics101/555timer/compactledflasher/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/mcp601/lightdetector/</loc>
   </url>
   <url>
