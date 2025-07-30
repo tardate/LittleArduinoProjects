@@ -7,12 +7,22 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-07-30T14:12:00Z</updated>
+  <updated>2025-07-30T16:14:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/delayon/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/delayon/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/delayon/assets/delayon_build.jpg</g:image_link>
+    <updated>2025-07-30T16:14:00Z</updated>
+    <title>#783 555 Delay On</title>
+    <summary>A simple 555 circuit that provides a power-on delay.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A simple 555 circuit that provides a power-on delay.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/delayon/assets/delayon_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/compactledflasher/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/compactledflasher/"/>
