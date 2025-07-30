@@ -1,0 +1,6 @@
+{
+    "name": "555 Compact LED Flasher",
+    "description": "An unusual configuration of the 555 produces an astable oscillation with minimal, small components.",
+    "categories": "555 Timer, Oscillators",
+    "relative_path": "Electronics101/555Timer/CompactLEDFlasher"
+}
