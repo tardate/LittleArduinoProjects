@@ -8305,8 +8305,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/555timer/simplesiren/assets/simplesiren_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
     <title>#045 Simple Siren</title>
-    <summary>classic timer circuit producing a two-tone oscillation</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;classic timer circuit producing a two-tone oscillation&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/simplesiren/assets/simplesiren_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Classic timer circuit producing a two-tone oscillation through control voltage adjustment of the second timer.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Classic timer circuit producing a two-tone oscillation through control voltage adjustment of the second timer.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/simplesiren/assets/simplesiren_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
   </entry>
   <entry>
