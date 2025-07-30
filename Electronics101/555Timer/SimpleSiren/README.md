@@ -1,6 +1,6 @@
 # #045 Simple Siren
 
-Classic timer circuit producing a two-tone oscillation.
+Classic timer circuit producing a two-tone oscillation through control voltage adjustment of the second timer.
 
 ![Build](./assets/SimpleSiren_build.jpg?raw=true)
 
@@ -10,18 +10,18 @@ Here's a quick demo..
 
 ## Notes
 
-This is a build of a circuit published by [electronicshub](https://www.electronicshub.org/ding-dong-sound-generator-circuit/).
+This circuit uses two 555 timers to create a two-tone siren, sometimes characterised as a "ding dong".
+One can find variations of this circuit in many places, for example:
 
-It is allegedly a "ding dong" bell.. sounds more like a siren to me!
+* [Ding Dong Sound Generator Circuit](https://www.electronicshub.org/ding-dong-sound-generator-circuit/) published by ElectronicsHub.
+* [Police Siren](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html#36) on Talking Electronics
+* [Police Siren circuit](https://www.555-timer-circuits.com/police-siren.html) on 555 Timer Circuits.
 
-It operates with two oscillating 555 timers chained together.
+It operates with two oscillating 555 timers chained together:
 
-The first 555 provides the low frequency oscillation between high and low output states. The frequency is determined by the values of R1, VR1 and C1.
-With [R1=2kΩ, VR1 at 10kΩ and C1=47μF](https://visual555.tardate.com/?mode=astable&r1=2&r2=10&c=47) this runs at 1.4Hz and 55% duty cycle.
-
-The pin 3 output of the first time switches the control voltage of the second 555 timer.
-
-The oscillation of the second 555 drives the output piezo, and the frequency is modified by the control voltage.
+* the first 555 provides the low frequency oscillation between high and low output states. The frequency is determined by the values of R1, VR1 and C1.
+* The pin 3 output of the first timer switches the control voltage of the second 555 timer, adjusting its frequency.
+* The oscillation of the second 555 drives the output piezo, and the frequency is modified by the control voltage.
 
 ### Construction
 
@@ -32,6 +32,11 @@ The oscillation of the second 555 drives the output piezo, and the frequency is 
 ![bb_build](./assets/SimpleSiren_bb_build.jpg?raw=true)
 
 ### Testing
+
+The first 555 provides the low frequency oscillation between high and low output states. The frequency is determined by the values of R1, VR1 and C1.
+With [R1=2kΩ, VR1 at 10kΩ and C1=47μF](https://visual555.tardate.com/?mode=astable&r1=2&r2=10&c=47) this runs at 1.4Hz and 55% duty cycle.
+
+The pin 3 output of the first timer switches the control voltage of the second 555 timer.
 
 In practice, with R3=1kΩ in place, the control voltage (`Vcontrol`) is was measured as follows:
 
@@ -60,4 +65,7 @@ In practice, I'm seeing the frequency alternate between around 241 Hz and 275 Hz
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](https://visual555.tardate.com)
 * [What is the equation for the 555 timer control voltage?](http://electronics.stackexchange.com/questions/101530/what-is-the-equation-for-the-555-timer-control-voltage) - Q&A on EE.SE
-* [Ding Dong Bell Sound Generator](https://www.electronicshub.org/ding-dong-sound-generator-circuit/) - original circuit from electronicshub
+* Reference Circuits:
+    * [Ding Dong Sound Generator Circuit](https://www.electronicshub.org/ding-dong-sound-generator-circuit/) published by ElectronicsHub.
+    * [Police Siren](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html#36) on Talking Electronics
+    * [Police Siren circuit](https://www.555-timer-circuits.com/police-siren.html) on 555 Timer Circuits.
