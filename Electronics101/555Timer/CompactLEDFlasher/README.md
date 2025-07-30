@@ -19,6 +19,8 @@ components that may be compressed into a very small package. Ideal for discrete 
 
 ### Circuit Design
 
+Designed with Fritzing: see [CompactLEDFlasher.fzz](./CompactLEDFlasher.fzz).
+
 The circuit can work from as low as a 3V supply, but 5-9V gives best results (without adjusting R2).
 
 ![bb](./assets/CompactLEDFlasher_bb.jpg?raw=true)

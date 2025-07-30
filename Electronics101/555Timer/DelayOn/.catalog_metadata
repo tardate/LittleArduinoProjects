@@ -1,6 +1,6 @@
 {
-    "name": "DelayOn",
-    "description": "",
-    "categories": "",
+    "name": "555 Delay On",
+    "description": "A simple 555 circuit that provides a power-on delay.",
+    "categories": "555 Timer",
     "relative_path": "Electronics101/555Timer/DelayOn"
 }
