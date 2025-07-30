@@ -7,9 +7,12 @@ The familiar "Knight-Rider" LED circuit using a 555 and 4017
 ## Notes
 
 This is a well-known LED effects circuit using the 555 timer and 4017 decade counter.
+Similar circuits can be found in many sources, such as:
 
-This project is a variation of the circuit
-[published on 555-timer-circuits.com](http://www.555-timer-circuits.com/knight-rider.html) - I've added steering diodes
+* [Knight Rider](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html) on Talking Electronics
+* [KNIGHT RIDER Circuit](https://www.555-timer-circuits.com/knight-rider.html) on 555 Timer Circuits
+
+This project is a variation of the circuit published on 555 Timer Circuits - I've added steering diodes
 rather than allowing paired outputs to sink each other.
 
 ### Clock Generator
@@ -51,7 +54,9 @@ up the current, redundant steering diodes could be added, or the current-limitin
 
 ## Credits and References
 
-* [555-timer-circuits knight rider](http://www.555-timer-circuits.com/knight-rider.html) - the original circuit this project is based on.
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * [LM555 datasheet](https://www.futurlec.com/Linear/LM555CM.shtml)
+* Reference Circuits:
+    * [Knight Rider](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html) on Talking Electronics
+    * [KNIGHT RIDER Circuit](https://www.555-timer-circuits.com/knight-rider.html) on 555 Timer Circuits
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/littlearduinoprojects227-555-kight-rider.html)
