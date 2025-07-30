@@ -55,7 +55,7 @@ I'm using this (very) cheap [3014 Led Strip Light](https://www.aliexpress.com/it
 
 ![The Schematic](./assets/555PWM_schematic.jpg?raw=true)
 
-![The Build](./assets/555PWM_build.jpg?raw=true)
+![555PWM_bb_build](./assets/555PWM_bb_build.jpg?raw=true)
 
 ## Credits and References
 
