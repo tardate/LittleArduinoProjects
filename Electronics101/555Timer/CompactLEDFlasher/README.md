@@ -17,6 +17,9 @@ circuit as seen on Talking Electronics.
 The design has the distinct advantage of only requiring two resistors and a low value capacitor -
 components that may be compressed into a very small package. Ideal for discrete blinking LED circuits.
 
+Steve Schnepp also wrote about the circuit ([Minimal NE555 Blink](https://blog.pwkf.org/2022/01/23/simplest-blink.html))
+and found the idea referenced in the [TI LMC555 datasheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf).
+
 ### Circuit Design
 
 Designed with Fritzing: see [CompactLEDFlasher.fzz](./CompactLEDFlasher.fzz).
@@ -32,6 +35,8 @@ The circuit can work from as low as a 3V supply, but 5-9V gives best results (wi
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
+* [TI LMC555 datasheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf)
 * [Visual 555 Calculator](https://visual555.tardate.com)
 * Reference Circuits:
     * [LED Flasher](https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html#LED-Flasher) on Talking Electronics.
+    * [Minimal NE555 Blink](https://blog.pwkf.org/2022/01/23/simplest-blink.html)
