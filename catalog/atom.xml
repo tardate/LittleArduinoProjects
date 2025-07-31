@@ -4632,13 +4632,13 @@
     <category term="BJT"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/digitaswitch/ts3a5018/</id>
-    <link href="https://leap.tardate.com/electronics101/digitaswitch/ts3a5018/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/digitaswitch/ts3a5018/assets/ts3a5018_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/digitalswitch/ts3a5018/</id>
+    <link href="https://leap.tardate.com/electronics101/digitalswitch/ts3a5018/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/digitalswitch/ts3a5018/assets/ts3a5018_build.jpg</g:image_link>
     <updated>2018-01-08T18:17:48Z</updated>
-    <title>#370 DigitaSwitch/TS3A5018</title>
+    <title>#370 TS3A5018 Quad SPDT Analog Switch</title>
     <summary>testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitaswitch/ts3a5018/assets/ts3a5018_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitalswitch/ts3a5018/assets/ts3a5018_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Digital Switch"/>
     <category term="555 Timer"/>

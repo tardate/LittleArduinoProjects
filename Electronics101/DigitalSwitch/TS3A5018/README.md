@@ -1,4 +1,4 @@
-# #370 DigitaSwitch/TS3A5018
+# #370 TS3A5018 Quad SPDT Analog Switch
 
 Testing the TS3A5018 Quad SPDT Analog Switch with a simple 555 timer and Arduino demo.
 
@@ -11,7 +11,7 @@ Here's a quick demo..
 ## Notes
 
 Digital switches seem to be well suited for switching applications that are more complex than can be achieved with a simple FET or BJT,
-but lower power than might be more suited to a relay. Particular applications I have in mind are switching amplifier gain stages,
+but in lower power situations than might be more suited to a relay. Particular applications I have in mind are switching amplifier gain stages,
 filter gangs, and circuit subsystems.
 
 They are available in a range of pole/throw configuration, and importantly with defined make-before-break or break-before-make behaviour.
@@ -33,6 +33,8 @@ The [TS3A5018.ino](./TS3A5018.ino) sketch uses two of the switches in a simple d
 The TS3A5018 is only rated for 1.8 to 3.6V, so a 3.3V rail is used for the offboard circuit, and simple voltage divider level-shifts the Arduino output pin.
 
 ## Construction
+
+Designed with Fritzing: see [TS3A5018.fzz](./TS3A5018.fzz).
 
 ![Breadboard](./assets/TS3A5018_bb.jpg?raw=true)
 
