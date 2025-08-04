@@ -42,6 +42,8 @@ A couple of bypass capacitors minimize the impact of voltage spikes and noise on
 
 ### Construction
 
+Designed with Fritzing: see [TwoToneDoorbell.fzz](./TwoToneDoorbell.fzz).
+
 ![The Breadboard](./assets/TwoToneDoorbell_bb.jpg?raw=true)
 
 ![The Schematic](./assets/TwoToneDoorbell_schematic.jpg?raw=true)
@@ -64,5 +66,10 @@ short-term replacement for a corroded/failed bell.
 * [2N7000 Datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [Visual 555 Calculator](https://visual555.tardate.com)
-* [Two-tone Doorbell kit](http://cdselectronics.com/kits/two%20tone%20door%20bell.htm) - example of a similar circuit as a kit, using a mosfet for switching (looks like a very old site, not sure if still available).
-* [Two-tone Doorbell kit](https://www.aliexpress.com/item/555-doorbell-kit-ding-dong-doorbell-kit-diy-electronic-kit-diy-digital-kit/1682713914.html) - another example circuit as a kit; this uses BJT for coupling the output speaker and an RC network to provide timed-on power.
+
+### CdS Electronics Two-tone Doorbell kit
+
+<http://cdselectronics.com/kits/two%20tone%20door%20bell.htm> is an example of a similar circuit as a kit.
+Appears to be an old site/company, not sure if still available.
+
+[![cds-schematic](./assets/cds/schematic.png)](http://cdselectronics.com/kits/two%20tone%20door%20bell.htm)

@@ -7,7 +7,7 @@ Another two-tone doorbell using a 555 timer oscillator
 ## Notes
 
 I picked up
-[this kit](https://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html)
+[this kit](https://www.aliexpress.com/item/32848918513.html)
 on special for $0.66. It even came with extra components, so a bit of a bargain impulse-buy.
 
 The kit turns out to be a simplified version of the [TwoToneDoorbell](../TwoToneDoorbell) circuit I've built before.
@@ -49,6 +49,8 @@ The main point to note is the reset discharge over about 1.2s before the 555 shu
 
 ## Construction
 
+Designed with Fritzing: see [DoorbellKit.fzz](./DoorbellKit.fzz).
+
 ![Breadboard](./assets/DoorbellKit_bb.jpg?raw=true)
 
 ![The Schematic](./assets/DoorbellKit_schematic.jpg?raw=true)
@@ -56,6 +58,6 @@ The main point to note is the reset discharge over about 1.2s before the 555 shu
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Doorbell DIY Kit](https://www.aliexpress.com/item/Perfect-Doorbell-Suite-Electronic-DIY-Kit-for-Home-Security-6V-PCB-3-9-x-3-5/32497451130.html) - from a seller on aliexpress
+* [Perfect Doorbell Suite Electronic Production Doorbell Suite DIY Kit NE555 Wholesale](https://www.aliexpress.com/item/32848918513.html) - from a seller on aliexpress
 * [eBay Cheap: $0.75 Electronic Doorbell Kit NE555](https://youtu.be/zGkbNP23zo4) - Julian Ilett's build
 * [..as mentioned on my blog](https://blog.tardate.com/2016/04/littlearduinoprojects201-yet-another.html)
