@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-07-30T16:14:00Z</updated>
+  <updated>2025-08-05T04:09:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/doorbellkit2/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/doorbellkit2/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/doorbellkit2/assets/doorbellkit2_build.jpg</g:image_link>
+    <updated>2025-08-05T04:09:00Z</updated>
+    <title>#784 Another Two-tone Doorbell Kit</title>
+    <summary>Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/doorbellkit2/assets/doorbellkit2_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/delayon/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/delayon/"/>
