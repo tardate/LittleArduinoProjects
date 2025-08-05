@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-08-05T04:09:00Z</updated>
+  <updated>2025-08-05T13:04:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/ticktock/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/ticktock/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/ticktock/assets/ticktock_build.jpg</g:image_link>
+    <updated>2025-08-05T13:04:00Z</updated>
+    <title>#785 Tick Tock</title>
+    <summary>A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/ticktock/assets/ticktock_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+    <category term="74LS73"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/doorbellkit2/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/doorbellkit2/"/>
@@ -1053,6 +1064,9 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/programmablefrequencyreference/assets/programmablefrequencyreference_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+    <category term="CD4001"/>
+    <category term="74LS73"/>
+    <category term="CD4040"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/crystallocked4mhzcd4001/</id>
@@ -5217,6 +5231,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a synchronous 8-bit counter built with JK Flip-Flops&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/syncjkcounter/assets/syncjkcounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Digital Logic"/>
+    <category term="74LS73"/>
+    <category term="74LS08"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/digitallogicclock/</id>
@@ -6775,6 +6791,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;an asynchronous 4-bit counter built with JK Flip-Flops&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/asyncjkcounter/assets/asyncjkcounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Digital Logic"/>
+    <category term="74LS73"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/stirlingenginehb13/</id>

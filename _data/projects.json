@@ -1,4 +1,13 @@
 {
+    "/electronics101/555timer/ticktock/": {
+        "id": 785,
+        "title": "Tick Tock",
+        "summary": "A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.",
+        "tags": [
+            "555 Timer",
+            "74LS73"
+        ]
+    },
     "/electronics101/555timer/doorbellkit2/": {
         "id": 784,
         "title": "Another Two-tone Doorbell Kit",
@@ -845,7 +854,10 @@
         "summary": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
         "tags": [
             "CMOS/TTL",
-            "Oscillators"
+            "Oscillators",
+            "CD4001",
+            "74LS73",
+            "CD4040"
         ]
     },
     "/electronics101/oscillators/crystallocked4mhzcd4001/": {
@@ -4271,7 +4283,9 @@
         "summary": "a synchronous 8-bit counter built with JK Flip-Flops",
         "tags": [
             "CMOS/TTL",
-            "Digital Logic"
+            "Digital Logic",
+            "74LS73",
+            "74LS08"
         ]
     },
     "/electronics101/555timer/digitallogicclock/": {
@@ -5561,7 +5575,8 @@
         "summary": "an asynchronous 4-bit counter built with JK Flip-Flops",
         "tags": [
             "CMOS/TTL",
-            "Digital Logic"
+            "Digital Logic",
+            "74LS73"
         ]
     },
     "/kinetics/stirlingenginehb13/": {

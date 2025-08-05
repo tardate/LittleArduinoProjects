@@ -2,7 +2,7 @@
     "id": "#689",
     "name": "Programmable Frequency Reference",
     "description": "Build and test a programmable frequency reference capable of dialing in 4095 discrete frequencies between 488Hz and 1MHz",
-    "categories": "CMOS/TTL, Oscillators",
+    "categories": "CMOS/TTL, Oscillators, CD4001, 74LS73, CD4040",
     "relative_path": "Electronics101/Oscillators/ProgrammableFrequencyReference",
     "updated_at": "2023-01-11T11:54:47Z",
     "created_at": "2023-01-11T11:54:47Z"
