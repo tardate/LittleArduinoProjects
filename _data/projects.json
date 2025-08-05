@@ -2,7 +2,7 @@
     "/electronics101/555timer/ticktock/": {
         "id": 785,
         "title": "Tick Tock",
-        "summary": "A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.",
+        "summary": "A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.",
         "tags": [
             "555 Timer",
             "74LS73"

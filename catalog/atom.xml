@@ -19,8 +19,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/555timer/ticktock/assets/ticktock_build.jpg</g:image_link>
     <updated>2025-08-05T13:04:00Z</updated>
     <title>#785 Tick Tock</title>
-    <summary>A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/ticktock/assets/ticktock_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/ticktock/assets/ticktock_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="74LS73"/>
   </entry>

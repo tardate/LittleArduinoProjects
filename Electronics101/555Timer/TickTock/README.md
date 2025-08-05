@@ -1,6 +1,6 @@
 # #785 Tick Tock
 
-A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.
+A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.
 
 ![Build](./assets/TickTock_build.jpg?raw=true)
 
@@ -16,17 +16,17 @@ I wanted to create a mechanical clock-like "tick-tock" sound generator. I've fou
 * [Tick Tock Sound Generator Circuit using 555 Timer IC](https://elonics.org/tick-tock-sound-generator-circuit-using-555-ic/)
 * [Clock with LED Pendulum and Tick Tock Sound](https://circuitdigest.com/electronic-circuits/clock-with-led-pendulum-with-tick-tock-sound)
 
-These all don't generate tick/tock pulses of distinct frequencies.
+However they all seem to cheat and generate the tick/tock pulses at the same frequency. Some circuits don't actually set a frequency, and just rely on a single click of the speaker. I want something better, where the audio frequencies are specific and distinct for tick and tock.
 
 The circuit I've come up with here is quite a naïve composition
-of the elements to build up a tunable tick-tock sound:
+of the elements needed to build up a tunable tick-tock sound:
 
 * adjustable clock frequency (precalculated for 1 Hz)
 * specific "tick" and "tock" frequencies
     * can be altered by changing R5,R6,C4 values
     * could be made user-adjustable by replacing R5 and R6 with pots
 
-There is probably a much more elegant and straight-forward way to achieve this. I haven't found a suitable circuit yet.
+There is probably a much more elegant and straight-forward way to achieve this, but I haven't a suitable circuit yet.
 Something to ponder..
 
 ### Circuit Design

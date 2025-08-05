@@ -1,6 +1,6 @@
 # 785 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Tick Tock](./Electronics101/555Timer/TickTock) - A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.
+> Latest addition :sparkles: [Tick Tock](./Electronics101/555Timer/TickTock) - A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
