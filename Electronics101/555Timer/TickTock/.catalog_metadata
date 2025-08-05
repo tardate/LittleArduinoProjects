@@ -1,0 +1,6 @@
+{
+    "name": "Tick Tock",
+    "description": "A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.",
+    "categories": "555 Timer, 74LS73",
+    "relative_path": "Electronics101/555Timer/TickTock"
+}

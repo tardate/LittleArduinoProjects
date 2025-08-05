@@ -42,7 +42,6 @@ to set the input to the next JK flip-flop.
 * this sets the input to the next JK flip-flop high when the previous two "bits" are high
 * when the clock ticks, this causes the output of the next JK flip-flop to toggle
 
-
 ## Construction
 
 ![Breadboard](./assets/SyncJKCounter_bb.jpg?raw=true)
