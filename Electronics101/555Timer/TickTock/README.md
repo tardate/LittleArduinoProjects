@@ -36,7 +36,7 @@ Designed with Fritzing: see [TickTock.fzz](./TickTock.fzz).
 * U1: 555 configured as a low-frequency oscillator to provide the time signal:
     * [1Hz @ 50.7% duty cycle](https://visual555.tardate.com/?mode=astable&r1=2&r2=71&c=10)
     * with R1 = 2kΩ, R2 = 71kΩ (100kΩ pot), C1 = 10µF
-* U2: 555 monostable triggered by U1, converts the time sync to short pulses of defined duration (`TICK`):
+* U2: 555 monostable edge-triggered by U1, converts the time sync to short pulses of defined duration (`TICK`):
     * [52ms high](https://visual555.tardate.com/?mode=monostable&r1=4.7&c=10)
     * with R3 = 4.7kΩ, C3 = 10µF
 * U3: 555 audio oscillator
