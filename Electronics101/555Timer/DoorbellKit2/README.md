@@ -1,4 +1,4 @@
-# #xxx Another Two-tone Doorbell Kit
+# #784 Another Two-tone Doorbell Kit
 
 Another two-tone doorbell circuit using a 555 timer oscillator.
 Designed to drive a speaker, it produces a classic ding-dong.

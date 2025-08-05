@@ -1,6 +1,6 @@
-# 783 Little Electronic Art Projects
+# 784 Little Electronic Art Projects
 
-> Latest addition :sparkles: [555 Delay On](./Electronics101/555Timer/DelayOn) - A simple 555 circuit that provides a power-on delay.
+> Latest addition :sparkles: [Another Two-tone Doorbell Kit](./Electronics101/555Timer/DoorbellKit2) - Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
