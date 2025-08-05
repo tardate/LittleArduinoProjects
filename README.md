@@ -1,6 +1,6 @@
-# 784 Little Electronic Art Projects
+# 785 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Another Two-tone Doorbell Kit](./Electronics101/555Timer/DoorbellKit2) - Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.
+> Latest addition :sparkles: [Tick Tock](./Electronics101/555Timer/TickTock) - A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

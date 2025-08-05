@@ -1,4 +1,4 @@
-# #xxx Tick Tock
+# #785 Tick Tock
 
 A 555/74LS73 circuit that generates a tick-tock sound sequence and distinct frequencies.
 
