@@ -69,6 +69,10 @@ The [xTool Creative Space software](https://www.xtool.com/pages/software) is a h
 * Material EasySet Library: library covers all xTool machines and materials, tested in our labs to ensure the best result.
 * Software Learning Center
 
+Note:
+
+* when importing from SVG, set the source document resolution to 72 DPI. This will ensure that objects remain at the same scale after import.
+
 ## Credits and References
 
 * [NLB MakeIT At Libraries](https://www.nlb.gov.sg/main/services/MakeIT-at-Libraries)
