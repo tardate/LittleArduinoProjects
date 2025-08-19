@@ -1,4 +1,4 @@
-# #xxx One Hertz! A most annoying clock
+# #786 One Hertz! A most annoying clock
 
 How to turn a cheap quartz clock mechanism into perhaps the most annoying cuckoo clock ever: flashing LEDs, nodding snowman, and a tick-tock chime every second. Made for the 2025 Hackaday One Hertz Challenge.
 
