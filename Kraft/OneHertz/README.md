@@ -53,6 +53,28 @@ I'd like to be able to use a single power source, but I'm not sure what the powe
 
 A quick description of how circuit is broken down:
 
+* Q2: 2N3904 converts the low-level pulse from the clock mechanism to a signal that can input to the digital logic
+* U5: CD4017 scales the 8Hz signal to 1Hz
+* U2: 555 monostable edge-triggered by U1, converts the time sync to short pulses of defined duration (`TICK`):
+    * [52ms high](https://visual555.tardate.com/?mode=monostable&r1=4.7&c=10)
+    * with R3 = 4.7kΩ, C3 = 10µF
+* U3: 555 audio oscillator
+    * enabled by U2 high pulses (`TICK`) to the control pin.
+    * base frequency:
+        * [1252 Hz](https://visual555.tardate.com/?mode=astable&r1=1&r2=57&c=0.01)
+        * with R5 = 1kΩ, R11+R12 = 57kΩ, C4 = 10nF
+    * high frequency, when `FNOTCH` high causing R7 bypass:
+        * [1516 Hz](https://visual555.tardate.com/?mode=astable&r1=1&r2=47&c=0.01)
+        * with R5 = 1kΩ, R11 = 47kΩ, C4 = 10nF
+* U4: 74LS73 latch
+    * clocked by U2 pulses (`TICK`)
+    * alternating high/low Q1 output
+        * `FNOTCH` - drives indicator LED3
+        * `~FNOTCH` - drives indicator LED4
+* Q3: 2N7000 pulses the coil to animate th snowman
+
+Designed with Fritzing: see [OneHertz.fzz](./OneHertz.fzz).
+
 ![bb](./assets/OneHertz_bb.jpg?raw=true)
 
 ![schematic](./assets/OneHertz_schematic.jpg?raw=true)
@@ -130,3 +152,5 @@ A quick demo..
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
 * [74LS73 datasheet](https://www.futurlec.com/74LS/74LS73.shtml) - Dual JK Flip-Flop with Clear
+* [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
+* [2N3904 datasheet](https://www.futurlec.com/Transistors/2N3904.shtml)
