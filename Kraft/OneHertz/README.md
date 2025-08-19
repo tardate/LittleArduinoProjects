@@ -61,7 +61,12 @@ I tested the entire circuit on breadboards:
 
 ![bb_build](./assets/OneHertz_bb_build.jpg?raw=true)
 
-The following oscilloscope trace captuers the circuit in action:
+The following oscilloscope trace captures the circuit in action:
+
+* CH1 (Yellow) - `TICK`
+* CH2 (Blue) - `FNOTCH`
+* CH3 (Red) - 8Hz pulse from clock module
+* CH4 (Green) - 1Hz pulse
 
 ![scope](./assets/scope.gif)
 
