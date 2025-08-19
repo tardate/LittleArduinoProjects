@@ -7,12 +7,25 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-08-05T13:04:00Z</updated>
+  <updated>2025-08-19T14:44:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kraft/onehertz/</id>
+    <link href="https://leap.tardate.com/kraft/onehertz/"/>
+    <g:image_link>https://leap.tardate.com/kraft/onehertz/assets/onehertz_build.jpg</g:image_link>
+    <updated>2025-08-19T14:44:00Z</updated>
+    <title>#786 One Hurts! A most annoying clock</title>
+    <summary>How to turn a cheap quartz clock mechanism into perhaps the most annoying cuckoo clock ever: flashing LEDs, nodding snowman, and a tick-tock chime every second. Made for the 2025 Hackaday One Hertz Challenge.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;How to turn a cheap quartz clock mechanism into perhaps the most annoying cuckoo clock ever: flashing LEDs, nodding snowman, and a tick-tock chime every second. Made for the 2025 Hackaday One Hertz Challenge.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/kraft/onehertz/assets/onehertz_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Clock"/>
+    <category term="555 Timer"/>
+    <category term="74LS73"/>
+    <category term="CD4017"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/ticktock/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/ticktock/"/>

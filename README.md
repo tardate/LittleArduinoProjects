@@ -1,6 +1,6 @@
-# 785 Little Electronic Art Projects
+# 786 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Tick Tock](./Electronics101/555Timer/TickTock) - A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequencies.
+> Latest addition :sparkles: [One Hurts! A most annoying clock](./Kraft/OneHertz) - How to turn a cheap quartz clock mechanism into perhaps the most annoying cuckoo clock ever: flashing LEDs, nodding snowman, and a tick-tock chime every second. Made for the 2025 Hackaday One Hertz Challenge.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
