@@ -183,6 +183,6 @@ Googling for 8051 circuit schematics, I see a common combination is 8.2kΩ pull-
 
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
 * [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
-* [SDCC](https://sdcc.sourceforge.net) - Small Device C Compiler
+* [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/)
 * [LEAP#394 AT89C2051 Programmer](../Programmer/)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/07/leap395-8051-programming-with-sdcc.html)

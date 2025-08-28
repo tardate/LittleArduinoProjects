@@ -57,8 +57,8 @@ void write_welcome(void) {
  * Command: initialise the LCD
  */
 void init_lcd(void) {
-  send_command(0x38); // 2 lines and 5x7 matrix
-  send_command(0x0E); // display on cursor blink
+  send_command(0x38); // 2 lines and 5x8 matrix font
+  send_command(0x0E); // display on, cursor on, no blink
   send_command(0x01); // clear display screen
 }
 
