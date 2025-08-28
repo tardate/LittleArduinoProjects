@@ -1,4 +1,4 @@
-# #xxx AT89C2051 Timers
+# #787 AT89C2051 Timers
 
 All about using 8051 timer registers with the AT89C2051.
 

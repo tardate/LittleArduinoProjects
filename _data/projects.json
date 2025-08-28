@@ -1,4 +1,14 @@
 {
+    "/8051/at89c2051/timers/": {
+        "id": 787,
+        "title": "AT89C2051 Timers",
+        "summary": "All about using 8051 timer registers with the AT89C2051",
+        "tags": [
+            "8051",
+            "LED",
+            "Timer"
+        ]
+    },
     "/kraft/onehertz/": {
         "id": 786,
         "title": "One Hurts! A most annoying clock",
