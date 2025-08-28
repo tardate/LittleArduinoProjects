@@ -1,0 +1,9 @@
+{
+    "name": "AT89C2051 Timers",
+    "description": "All about using 8051 timer registers with the AT89C2051",
+    "categories": "8051, LED, Timer",
+    "relative_path": "8051/AT89C2051/Timers",
+    "updated_at": "2025-08-28T15:51:00Z",
+    "created_at": "2025-08-28T15:51:00Z",
+    "id": "#787"
+}
