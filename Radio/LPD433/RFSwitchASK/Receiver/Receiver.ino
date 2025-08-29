@@ -3,7 +3,7 @@
   RFSwitchASK/Receiver
   Simple ASK RF Receiver with LED indicator
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/LPD433/RFSwitchASK
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Radio/LPD433/RFSwitchASK
 
  */
 

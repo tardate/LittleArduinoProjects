@@ -3,7 +3,7 @@
   AnalogComparator
   Testing the Atmega328 built-in analog comparator
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AnalogComparator
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AnalogComparator
 
  */
 

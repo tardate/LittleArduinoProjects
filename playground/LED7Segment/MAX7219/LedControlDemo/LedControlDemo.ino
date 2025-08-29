@@ -3,7 +3,7 @@
   LED7Segment/MAX7219/LedControlDemo
   Driving a series of 7-segment LED displays with the MAX7219 and the LedControl library.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/MAX7219/LedControlDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/MAX7219/LedControlDemo
 
  */
 

@@ -6,7 +6,7 @@
   - reads the ADC and plays it into the PWM output.
   - pressing the pushbutton_1 or 2 turns the volume up or down.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/booster
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/booster
 
  */
 

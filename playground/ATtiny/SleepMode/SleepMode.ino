@@ -3,7 +3,7 @@
   SleepMode
   Test sleep mode with an ATtiny85 processor on a breadboard
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/SleepMode
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/SleepMode
 
  */
 

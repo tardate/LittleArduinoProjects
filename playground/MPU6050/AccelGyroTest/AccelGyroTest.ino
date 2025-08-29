@@ -5,7 +5,7 @@
 
   This sketch is based on the original from http://playground.arduino.cc/Main/MPU-6050
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/MPU6050/AccelGyroTest
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/MPU6050/AccelGyroTest
 
  */
 
@@ -67,4 +67,3 @@ void readAndLog() {
   Serial.println(Tmp/340.00+36.53); //equation for temperature in degrees C from datasheet
   Serial.println();
 }
-

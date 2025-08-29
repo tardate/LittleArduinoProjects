@@ -6,7 +6,7 @@
   - reads the ADC signal and boost it to the max or min value depending on a threshold value.
   - pressing the pushbutton_1 or 2 turns the fuzz distortion harder or softer.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/fuzz
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/fuzz
 
  */
 

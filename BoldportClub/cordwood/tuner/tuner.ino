@@ -3,7 +3,7 @@
   cordwood/tuner
   Derived from & inspired by code by Nicole Grimwood and Amanda Ghassaei - see http://www.instructables.com/id/Arduino-Guitar-Tuner/
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/cordwood/tuner
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/cordwood/tuner
 
  */
 

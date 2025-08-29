@@ -2,7 +2,7 @@
 
   UsingTextFinder
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/UsingTextFinder
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/UsingTextFinder
 
  */
 

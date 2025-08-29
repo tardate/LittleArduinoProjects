@@ -6,7 +6,7 @@
   - creates a tremolo effect, modulating the volume with a sinewave.
   - pressing the pushbutton_1 or 2 makes the modulation faster or slower.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/tremelo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/tremelo
 
  */
 

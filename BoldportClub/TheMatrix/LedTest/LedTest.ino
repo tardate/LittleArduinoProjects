@@ -5,7 +5,7 @@
 
   Based on LedTest.ino from the LRAS1130 library examples.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheMatrix/LedTest
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheMatrix/LedTest
 
  */
 

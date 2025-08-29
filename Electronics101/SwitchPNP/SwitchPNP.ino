@@ -3,7 +3,7 @@
   SwitchPNP
   Uses an Arduino to drive a simple NPN switch and measure the output.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SwitchPNP
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SwitchPNP
 
  */
 

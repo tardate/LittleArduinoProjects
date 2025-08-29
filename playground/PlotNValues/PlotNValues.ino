@@ -3,7 +3,7 @@
   PlotNValues
   Samples up to 6 analogue inputs and streams the data to serial in ASCII format
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PlotNValues
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/PlotNValues
 
  */
 

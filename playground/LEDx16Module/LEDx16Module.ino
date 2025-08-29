@@ -2,7 +2,7 @@
 
   LEDx16Module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LEDx16Module
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LEDx16Module
 
  */
 

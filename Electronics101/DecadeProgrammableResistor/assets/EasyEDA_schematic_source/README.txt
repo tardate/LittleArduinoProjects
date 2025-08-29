@@ -1,4 +1,4 @@
-Schematic for 7-digit decade programmable resistor. See project notes at https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DecadeProgrammableResistor            
+Schematic for 7-digit decade programmable resistor. See project notes at https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DecadeProgrammableResistor
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

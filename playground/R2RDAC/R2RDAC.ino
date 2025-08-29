@@ -3,7 +3,7 @@
   R2RDAC
   Test a 16-bit R2R digital to analog converter with shift register interface
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/R2RDAC
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/R2RDAC
 
  */
 

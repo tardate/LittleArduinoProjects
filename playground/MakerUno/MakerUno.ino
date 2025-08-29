@@ -3,7 +3,7 @@
   MakerUno
   A quick demo of some of the on-board features of the Maker UNO
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/MakerUno
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/MakerUno
 
  */
 

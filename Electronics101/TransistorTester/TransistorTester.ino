@@ -3,7 +3,7 @@
   TransistorTester
   Tests NPN and PNP transistors with LCD output.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/TransistorTester
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/TransistorTester
 
  */
 

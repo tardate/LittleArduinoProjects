@@ -3,7 +3,7 @@
   DoubleShift
   Driving a 4-Digit 7-Segment display with only 3 pins, using two 74HC595 shift registers and some NPN BJTs
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Led4Digit7Segment/DoubleShift
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Led4Digit7Segment/DoubleShift
 
  */
 

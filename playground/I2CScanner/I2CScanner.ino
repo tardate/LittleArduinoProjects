@@ -4,7 +4,7 @@
   Simple I2C scanner for finding device addresses.
   Base on http://playground.arduino.cc/Main/I2cScanner by Frode Grimstad Bang
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/I2CScanner
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/I2CScanner
 
  */
 

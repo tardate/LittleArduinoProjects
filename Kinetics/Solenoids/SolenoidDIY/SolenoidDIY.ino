@@ -3,7 +3,7 @@
   SolenoidDIY
   Test a DIY solenoid
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/Solenoids/SolenoidDIY
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/Solenoids/SolenoidDIY
 
  */
 
@@ -33,4 +33,3 @@ void runSequence() {
     delay(sequence[step]);
   }
 }
-

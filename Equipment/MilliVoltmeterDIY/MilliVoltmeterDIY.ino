@@ -3,7 +3,7 @@
   MilliVoltmeterDIY
   An ATmega328-base milli-volt meter, based on design and code from SCULLCOM HOBBY ELECTRONICS
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/MilliVoltmeterDIY
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Equipment/MilliVoltmeterDIY
 
  */
 

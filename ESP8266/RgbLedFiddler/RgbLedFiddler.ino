@@ -3,7 +3,7 @@
   RgbLedFiddler
   Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) to fine tune the color settings for an RGB LED.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP8266/RgbLedFiddler
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ESP8266/RgbLedFiddler
 
  */
 

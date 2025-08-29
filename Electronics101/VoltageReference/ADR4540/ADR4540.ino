@@ -3,7 +3,7 @@
   VoltageReference/ADR4540
   Exploring the ADR4540 precision reference, tested with an Arduino as an external voltage reference.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltageReference/ADR4540
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/VoltageReference/ADR4540
 
  */
 

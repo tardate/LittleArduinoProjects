@@ -3,7 +3,7 @@
   TheMatrix/KeypadControl
   Use a 20-button keypad to write a scrolling message on the Boldport Matrix
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheMatrix/KeypadControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheMatrix/KeypadControl
 
  */
 

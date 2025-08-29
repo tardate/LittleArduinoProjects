@@ -4,7 +4,7 @@
 
   Dump to serial any and all internal details of the Arduino baord we can muster
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Internals
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Internals
 
  */
 

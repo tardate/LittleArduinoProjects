@@ -3,7 +3,7 @@
   TheMatrix/GameOfLife
   A simple implementation of Conway's Game of Life running on the BoldportClub Matrix
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheMatrix/GameOfLife
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheMatrix/GameOfLife
 
  */
 
@@ -151,4 +151,3 @@ void blinkAll() {
     delay(BLINK_DELAY);
   }
 }
-

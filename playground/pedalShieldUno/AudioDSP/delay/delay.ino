@@ -6,7 +6,7 @@
   - reads the ADC, saves it into the DelayBuffer[] array and plays it into the PWM output.
   - pressing the pushbutton_1 or 2 makes the delay longer or shorter.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/delay
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/delay
 
  */
 

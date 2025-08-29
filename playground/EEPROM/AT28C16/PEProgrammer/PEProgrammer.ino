@@ -3,7 +3,7 @@
   EEPROM/AT28C16/PEProgrammer
   Programming an AT28C16 EEPROM with an Arduino and MCP23S17 16-bit port expander.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/EEPROM/AT28C16/PEProgrammer
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/EEPROM/AT28C16/PEProgrammer
 
  */
 

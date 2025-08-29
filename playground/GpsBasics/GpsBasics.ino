@@ -3,7 +3,7 @@
   GpsBasics
   Using a NEMA-compatible GPS module for time and location with an Arduino.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/GpsBasics
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/GpsBasics
 
  */
 

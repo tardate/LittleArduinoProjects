@@ -2,7 +2,7 @@
   QuadNOR
   Demo cascading NOR gate logic.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/QuadNOR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/QuadNOR
 
  */
 

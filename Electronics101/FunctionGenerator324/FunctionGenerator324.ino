@@ -3,7 +3,7 @@
   FunctionGenerator324
   Use an Arduino to monitor the behaviour of an LM324 OpAmp waveform generator (square,triangle,sine,cosine)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/FunctionGenerator324
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/FunctionGenerator324
 
  */
 

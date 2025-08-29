@@ -3,7 +3,7 @@
   lite2sound-bc/CuttleTalk
   Playing audio from a Boldport Cuttle (Arduino) over LiFi with lite2sound
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/lite2sound-bc/CuttleTalk
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/lite2sound-bc/CuttleTalk
 
  */
 

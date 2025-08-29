@@ -4,7 +4,7 @@
 
   Demonstrates timer-interrupt triggering of addressable LED array effects using the FlexiTimer2 library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LEDArrayDemos/AsyncLedStripEffects
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/LEDArrayDemos/AsyncLedStripEffects
 
 */
 

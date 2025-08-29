@@ -4,7 +4,7 @@
   Demonstrates direct drive using full, half and double steps - one rotation clockwise and counter-clockwise each.
   This is mainly helpful for ensuring the board/circuit behaves as expected.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/StepperMotors/28BYJ48/DirectDrive
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/StepperMotors/28BYJ48/DirectDrive
 
  */
 

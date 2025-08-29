@@ -3,7 +3,7 @@
   CurrentSensorModule
   Demo an ACS712 current sensor with display on a 5110 LCD
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/CurrentSensorModule
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/CurrentSensorModule
 
  */
 

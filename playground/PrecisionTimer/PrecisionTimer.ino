@@ -3,7 +3,7 @@
   PrecisionTimer
   Comparing the precision and constraints of various methods for timing an operation with an Atmega328.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PrecisionTimer
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/PrecisionTimer
 
  */
 

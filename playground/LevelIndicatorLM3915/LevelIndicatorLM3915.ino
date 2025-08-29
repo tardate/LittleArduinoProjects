@@ -3,7 +3,7 @@
   LevelIndicatorLM3915
   Drive a 10-segment display with a single Arduino pin
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LevelIndicatorLM3915
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LevelIndicatorLM3915
 
  */
 

@@ -3,7 +3,7 @@
   ATtiny/SSD1306/BasicDemo
   Basic demonstration using an ATtiny to drive an SSD1306 OLED over I²C
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/SSD1306/BasicDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/SSD1306/BasicDemo
 
  */
 

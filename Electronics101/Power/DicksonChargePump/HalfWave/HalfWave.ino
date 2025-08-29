@@ -3,7 +3,7 @@
   DicksonChargePump
   Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power/DicksonChargePump/HalfWave
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Power/DicksonChargePump/HalfWave
 
  */
 

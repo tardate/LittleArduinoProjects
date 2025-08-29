@@ -3,7 +3,7 @@
   MusicBoxKit
   Run an automated demo of the sounds provided by the MusicBox module.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/MusicBoxKit
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/MusicBoxKit
 
  */
 

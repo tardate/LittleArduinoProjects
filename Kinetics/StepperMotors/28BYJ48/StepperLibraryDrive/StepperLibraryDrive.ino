@@ -13,7 +13,7 @@
      4  1  0  0  1
   Pin: I1 I3 I2 I4  <= remapped to the 28YBT-48/X113647 inputs
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/StepperMotors/28BYJ48/StepperLibraryDrive
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/StepperMotors/28BYJ48/StepperLibraryDrive
 
  */
 

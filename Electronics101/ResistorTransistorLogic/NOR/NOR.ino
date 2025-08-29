@@ -3,7 +3,7 @@
   ResistorTransistorLogic/NOR
   Test the basic resistor-transistor logic NOR gate
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ResistorTransistorLogic/NOR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/ResistorTransistorLogic/NOR
 
  */
 
@@ -59,4 +59,3 @@ void sample() {
   }
   Serial.println(result);
 }
-

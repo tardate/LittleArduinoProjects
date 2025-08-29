@@ -3,7 +3,7 @@
   LED/HPDL1414
   Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/LED/HPDL1414
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/LED/HPDL1414
 
  */
 

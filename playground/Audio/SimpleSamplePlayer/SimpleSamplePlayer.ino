@@ -3,7 +3,7 @@
   Audio/SimpleSamplePlayer
   Playing short audio samples on an Arduino using some PWM tricks from the PCM library.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Audio/SimpleSamplePlayer
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Audio/SimpleSamplePlayer
 
  */
 

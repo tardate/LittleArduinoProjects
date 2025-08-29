@@ -4,7 +4,7 @@
   A simple LED game with LCD output
   .. started as a response to http://electronics.stackexchange.com/questions/93269/arduino-uno-r3-plus-digital-pins-overused
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/HitTheLights
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/HitTheLights
 
  */
 

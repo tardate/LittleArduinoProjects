@@ -3,7 +3,7 @@
   SchmittOscillator
   Uses an Arduino to monitor a 74LS14 Schmitt Trigger oscillator circuit and pipe the data to processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SchmittOscillator
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SchmittOscillator
 
  */
 

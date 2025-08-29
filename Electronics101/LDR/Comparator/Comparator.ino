@@ -3,7 +3,7 @@
   LDR Comparator
   Low-light Detector - monitor an LDR/Wheatstone Bridge with comparator output evaluation
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/LDR/Comparator
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/LDR/Comparator
 
  */
 

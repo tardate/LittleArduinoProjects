@@ -3,7 +3,7 @@
   LedTemperatureDisplay
   Measure ambient temperature and display with a 4-digit 7-segment LED unit
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LedTemperatureDisplay
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LedTemperatureDisplay
 
  */
 

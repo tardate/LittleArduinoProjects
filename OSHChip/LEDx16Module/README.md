@@ -60,7 +60,7 @@ There's not much to the build. Basically hook together three modules:
 
 * the [OSHChip](http://oshchip.org/)
 * the [LEDx16Module](../playground/LEDx16Module)
-* 3.3V power supply - I'm using a [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-2)
+* 3.3V power supply - I'm using a [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BuckConverterModules#module-2)
 
 ![LEDx16Module_bb](./assets/LEDx16Module_bb.jpg?raw=true)
 
@@ -72,7 +72,7 @@ There's not much to the build. Basically hook together three modules:
 
 * [OSHChip](http://oshchip.org/)
 * [LEDx16Module](../playground/LEDx16Module)
-* [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-2)
+* [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BuckConverterModules#module-2)
 * [SPI](https://developer.mbed.org/handbook/SPI) - mbed handbook
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials
 * [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects216-oshchip.html)

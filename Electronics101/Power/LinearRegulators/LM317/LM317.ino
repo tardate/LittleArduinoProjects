@@ -3,7 +3,7 @@
   LM317
   Use an Arduino to read LM317 Vout and plot the results with Processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power/LinearRegulators/LM317
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Power/LinearRegulators/LM317
 
  */
 

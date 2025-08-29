@@ -100,7 +100,7 @@ By 12MHz, it has devolved to a heavily-modulated mess:
 ## Construction
 
 NB: I created a
-[custom Fritzing Part available here](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/AD9833_Module) for these diagrams.
+[custom Fritzing Part available here](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts/AD9833_Module) for these diagrams.
 
 ![Breadboard](./assets/BasicDemoCycle_bb.jpg?raw=true)
 

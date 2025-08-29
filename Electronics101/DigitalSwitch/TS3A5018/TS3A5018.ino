@@ -3,7 +3,7 @@
   DigitaSwitch/TS3A5018
   Run a simple example demonstrating the TS3A5018 digital switch
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DigitaSwitch/TS3A5018
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DigitaSwitch/TS3A5018
 
  */
 

@@ -3,7 +3,7 @@
   PowerMB102
   Use an Arduino to monitor the 3.3 and 5v rails of an MB102 breadboard power supply
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PowerMB102
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/PowerMB102
 
  */
 

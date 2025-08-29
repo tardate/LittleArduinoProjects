@@ -2,7 +2,7 @@
 
   {project_name}
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/{relative_path}
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/{relative_path}
 
  */
 

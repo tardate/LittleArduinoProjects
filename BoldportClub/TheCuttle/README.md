@@ -11,7 +11,7 @@ The Cuttle is a bare-bones Arduino-compatible soldering kit. It was first design
 
 What's different about this board? It is by far the most beautiful Arduino-like board I own!
 
-Note: I've also created a Fritzing part for the Cuttle module, see [FritzingParts/TheCuttle](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/TheCuttle/).
+Note: I've also created a Fritzing part for the Cuttle module, see [FritzingParts/TheCuttle](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts/TheCuttle/).
 
 ### Parts & Unboxing
 
@@ -111,5 +111,5 @@ I also made a bit of a mistake with the pins - I pushed them flush from the top 
 * [ATMEGA328P datasheet](http://parts.io/detail/1829384/ATMEGA328P-AU) - parts.io
 * [USB to TTL converter UART module CH340G CH340 3.3V 5V switch](https://www.aliexpress.com/item/CH340-module-USB-to-TTL-CH340G-upgrade-download-a-small-wire-brush-plate-STC-microcontroller-board/32354359382.html) - the USB programming adapter I'm using
 * [ATmega168/328-Arduino Pin Mapping](https://www.arduino.cc/en/Hacking/PinMapping168)
-* [FritzingParts/TheCuttle](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/TheCuttle/) - a Fritzing part for the Cuttle module
+* [FritzingParts/TheCuttle](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts/TheCuttle/) - a Fritzing part for the Cuttle module
 * [..as mentioned on my blog](https://blog.tardate.com/2017/04/leap266-the-boldportclub-cuttle.html)

@@ -3,7 +3,7 @@
   LED7Segment/TM1638/RawDrive
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/TM1638
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/TM1638
 
  */
 

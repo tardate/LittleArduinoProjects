@@ -3,7 +3,7 @@
   ResistorTransistorLogic/NOT
   Test the basic resistor-transistor logic NOT gate (inverter)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ResistorTransistorLogic/NOT
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/ResistorTransistorLogic/NOT
 
  */
 
@@ -45,4 +45,3 @@ void sample() {
   }
   Serial.println(result);
 }
-

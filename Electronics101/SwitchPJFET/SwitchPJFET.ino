@@ -3,7 +3,7 @@
   SwitchPJFET
   Switch an independent power source using an Arduino and p-channel JFET
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SwitchPJFET
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SwitchPJFET
 
  */
 
@@ -19,5 +19,5 @@ void loop() {
     delay(duration);
     digitalWrite(CONTROL_PIN, LOW);
     delay(duration);
-  }    
+  }
 }

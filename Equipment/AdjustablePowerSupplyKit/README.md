@@ -185,7 +185,7 @@ I think I still prefer my DPS-3005-based power supply as a more accurate and fea
 * [same/similar kit from banggood](https://sea.banggood.com/0-30V-2mA-3A-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-p-958308.html)
 * original (?) design from [SmartKit](https://www.smartkit.gr/stabilised-power-supply-0-30v-3a-m.html)
 * [example pre-cursor design](http://www.electronics-lab.com/project/0-30-vdc-stabilized-power-supply-with-current-control-0-002-3-a/) - electronics-lab
-* [LEAP#289 VoltmeterAmmeterModule](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltmeterAmmeterModule)
+* [LEAP#289 VoltmeterAmmeterModule](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/VoltmeterAmmeterModule)
 * [LEAP#407 DPS3005BenchPowerSupply](../DPS3005BenchPowerSupply)
 * [D882 datasheet](https://www.st.com/resource/en/datasheet/2sd882.pdf)
 * [D1047 datasheet](https://www.st.com/resource/en/datasheet/2sd1047.pdf)

@@ -3,7 +3,7 @@
   OLED/SSD1306BareBackI2C
   Test driving a monochrome 128x32 OLED Display with an Arduino and the raw command set over I²C
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/SSD1306BareBackI2C
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/OLED/SSD1306BareBackI2C
 
  */
 

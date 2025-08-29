@@ -3,7 +3,7 @@
   ChainBlocks
   Draw the PrexLab logo on an Oscilloscope with a MCP42010 digital potentiometer.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ChainBlocks
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ChainBlocks
 
  */
 

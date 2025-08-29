@@ -3,7 +3,7 @@
   RandomCodePractice
   A revised and enhanced version of "Random_charset_Oscillator.ino" by Glen Popiel, KW5GP
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/RandomcharsetPractice
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Radio/RandomcharsetPractice
 
   Original copyright:
 

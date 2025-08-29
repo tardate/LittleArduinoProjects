@@ -3,7 +3,7 @@
   TriangleWaveGen
   Uses an Arduino to monitor a 555 timer/RC integrator triangle wave generator
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/555Timer/TriangleWaveGen
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/555Timer/TriangleWaveGen
 
  */
 

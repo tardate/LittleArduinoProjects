@@ -2,7 +2,7 @@
 
   Girabot
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Girabot
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Girabot
 
  */
 
@@ -89,4 +89,3 @@ void loop() {
 void dance() {
   playMelody();
 }
-

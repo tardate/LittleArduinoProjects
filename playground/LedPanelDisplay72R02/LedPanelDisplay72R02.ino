@@ -3,7 +3,7 @@
   LedPanelDisplay72R02
   Test 7-digit & 7-status indicator LED display
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LedPanelDisplay72R02
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LedPanelDisplay72R02
 
  */
 
@@ -100,7 +100,3 @@ void digitKnightRiderDemo() {
   }
   clearDemo();
 }
-
-
-
-

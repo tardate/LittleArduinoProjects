@@ -3,7 +3,7 @@
   VL53L0X/TheToneRanger
   A simple modification of the basic VL53L0X example to add audio indication of range.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/VL53L0X/TheToneRanger
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/VL53L0X/TheToneRanger
 
  */
 

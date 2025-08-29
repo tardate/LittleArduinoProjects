@@ -3,7 +3,7 @@
   UsingPrecisionServo
   NB: this only works correctly if ATtiny set to use 1MHz internal clock (not 8Mhz)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/ServoMotors/ATTinyServo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/ServoMotors/ATTinyServo
 
  */
 

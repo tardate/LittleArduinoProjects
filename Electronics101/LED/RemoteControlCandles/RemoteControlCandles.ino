@@ -3,7 +3,7 @@
   LED/RemoteControlCandles
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/LED/RemoteControlCandles
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/LED/RemoteControlCandles
 
  */
 
@@ -58,4 +58,3 @@ void loop() {
   IrSender.sendNEC(0x0, CANDLE_OFF, 2);
   delay(2000);
 }
-

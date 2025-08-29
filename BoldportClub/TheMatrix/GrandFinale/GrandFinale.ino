@@ -3,7 +3,7 @@
   TheMatrix/GrandFinale
   Solving cassidoo's Fireworks Grand Finale problem for Arduino and simulating the result with the BoldportClub Matrix.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheMatrix/GrandFinale
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheMatrix/GrandFinale
 
  */
 

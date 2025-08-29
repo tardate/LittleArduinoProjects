@@ -3,7 +3,7 @@
   RotaryEncoderMethods/Polling
   Test rotary-encoder input using simple polling
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RotaryEncoderMethods
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RotaryEncoderMethods
 
  */
 

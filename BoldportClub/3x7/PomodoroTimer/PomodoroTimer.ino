@@ -3,7 +3,7 @@
   3x7/PomodoroTimer
   A discrete Pomodoro timer using the Boldport 3x7 display and an ATmega328.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/3x7/PomodoroTimer
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/3x7/PomodoroTimer
 
  */
 

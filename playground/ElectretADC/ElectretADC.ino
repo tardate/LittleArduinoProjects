@@ -3,7 +3,7 @@
   ElectretADC
   Use an Arduino to monitor the raw and amplified electret mic signal
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ElectretADC
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ElectretADC
 
  */
 

@@ -3,7 +3,7 @@
   NOR7402
   Testing the 74LS02 Quad 2-input NOR gate with an Arduino
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/NOR7402
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/NOR7402
 
  */
 

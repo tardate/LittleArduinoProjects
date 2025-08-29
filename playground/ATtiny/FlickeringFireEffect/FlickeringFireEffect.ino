@@ -3,7 +3,7 @@
   ATtiny/FlickeringFireEffect
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/FlickeringFireEffect
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/FlickeringFireEffect
 
  */
 

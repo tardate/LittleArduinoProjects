@@ -3,7 +3,7 @@
   BasicInvertingBuckBoostAvrControl
   Based on original script from http://www.instructables.com/id/DIY-BuckBoost-Converter-Flyback/?ALLSTEPS
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SwitchModePowerSupplies/BasicInvertingBuckBoostAvrControl
 
  */
 

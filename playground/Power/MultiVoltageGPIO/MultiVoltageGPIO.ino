@@ -3,7 +3,7 @@
   Power/MultiVoltageGPIO
   A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels from an Arduino GPIO pin.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Power/MultiVoltageGPIO
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Power/MultiVoltageGPIO
 
  */
 

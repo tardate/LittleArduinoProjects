@@ -70,7 +70,7 @@ If the CH340G serial chip is not recognised my MacOSX, a driver is required. See
 [github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver)
 * There also seems to be a professional drive kit available (at cost) from <https://www.mac-usb-serial.com/>
 
-I've "cached" copies of the drivers I've used in the past in the [drivers](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SerialInterface/UsbUartCH340G/drivers) folder:
+I've "cached" copies of the drivers I've used in the past in the [drivers](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SerialInterface/UsbUartCH340G/drivers) folder:
 
 * CH341SER_MAC.ZIP
 * CH34x_Install_V1.3.zip - latest version I've used

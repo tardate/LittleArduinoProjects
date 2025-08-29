@@ -106,7 +106,7 @@ As far as I can gather, the basic functional architecture is something like this
 
 ## Sniffing the BLE Advertisements
 
-See [TTTScan](https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/TraceTogetherToken/TTTScan)
+See [TTTScan](https://github.com/tardate/LittleArduinoProjects/tree/main/Equipment/TraceTogetherToken/TTTScan)
 for a little bit of MacOSX Swift code for sniffing BLE advertisements,
 made with some code and ideas I borrowed from [BLE_Scan](https://github.com/tisseurdetoile/BLE_Scan).
 The project needs to be built with xcode.

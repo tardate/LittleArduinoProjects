@@ -2,7 +2,7 @@
 
   OnePinThreeV
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power/DicksonChargePump/OnePinThreeV
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Power/DicksonChargePump/OnePinThreeV
 
  */
 

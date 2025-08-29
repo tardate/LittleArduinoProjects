@@ -3,7 +3,7 @@
   DigitalLogic/DFlipFlop
   Simple sketch to provide a ~10Hz data signal for testing a D Flip-flop
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DigitalLogic/DFlipFlop
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DigitalLogic/DFlipFlop
 
  */
 
@@ -21,4 +21,3 @@ void loop() {
 
   output = !output;
 }
-

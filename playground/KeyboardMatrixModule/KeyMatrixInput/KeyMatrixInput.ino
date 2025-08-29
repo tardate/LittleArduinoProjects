@@ -3,7 +3,7 @@
   KeyboardMatrixModule/KeyMatrixInput
   Demo multiplexed key input on a simple pushbutton/LED matrix module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/KeyboardMatrixModule/KeyMatrixInput
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/KeyboardMatrixModule/KeyMatrixInput
 
  */
 
@@ -47,4 +47,3 @@ void scanKeyMatrix() {
     digitalWrite(lpin, HIGH);
   }
 }
-

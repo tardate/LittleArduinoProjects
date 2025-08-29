@@ -3,7 +3,7 @@
   Comparator741
   Uses an Arduino to test LM741 comparator behaviour and plot the results with processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Comparator741
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Comparator741
 
  */
 

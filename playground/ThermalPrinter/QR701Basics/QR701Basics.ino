@@ -3,7 +3,7 @@
   ThermalPrinter/QR701Basics
   Learning how to use the JP-QR701 thermal printer module with an Arduino, including QR codes generated with Python.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ThermalPrinter/QR701Basics
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ThermalPrinter/QR701Basics
 
  */
 

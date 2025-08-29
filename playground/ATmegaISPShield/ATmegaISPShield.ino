@@ -4,7 +4,7 @@
   After uploading the ArduinoISP sketch to the host Arduino,
   send this sketch via the Arduino using the "Upload using Programmer" option.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATmegaISPShield
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATmegaISPShield
  */
 
 #define ON_DURATION  200

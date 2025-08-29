@@ -3,7 +3,7 @@
   IR/Dumper
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/IR/Dumper
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/IR/Dumper
 
  */
 

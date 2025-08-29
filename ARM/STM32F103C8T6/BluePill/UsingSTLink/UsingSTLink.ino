@@ -3,7 +3,7 @@
   BluePill/UsingSTLink
   Simplest example possible: Programming an ARM Cortex-M3 STM32F103C8T6 Blue Pill with an ST Link v2 programmer and the Arduino IDE
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ARM/STM32F103C8T6/BluePill/UsingSTLink
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ARM/STM32F103C8T6/BluePill/UsingSTLink
 
  */
 

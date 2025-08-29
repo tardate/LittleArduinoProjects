@@ -3,7 +3,7 @@
   NTP Client Demo
   Simple demonstration of NTP client requests using an Arduino Ethernet Shield.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/NTP/NtpClientDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/NTP/NtpClientDemo
 
  */
 
@@ -56,7 +56,7 @@ void setup() {
 
   // give the Ethernet shield a second to initialize
   Serial.println("Ethernet started...");
-  delay(1000);  
+  delay(1000);
   Udp.begin(localPort);
 }
 
@@ -65,7 +65,7 @@ void loop() {
 
   delay(WAIT_FOR_REPLY_MS);
   if (Udp.parsePacket()) {
-    Udp.read(packetBuffer, NTP_PACKET_SIZE); 
+    Udp.read(packetBuffer, NTP_PACKET_SIZE);
     unsigned long secsSince1900 = ntpTimeFromBuffer();
     printNtpTime(secsSince1900);
     printEpoch(ntpTimeToEpoch(secsSince1900));

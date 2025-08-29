@@ -6,7 +6,7 @@
   - plays a beep (togheter with the LED) like a metronome.
   - pressing the pushbutton_1 or 2 changes the speed.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/metronome
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/metronome
 
  */
 

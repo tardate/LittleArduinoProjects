@@ -3,7 +3,7 @@
   MorseBlinky
   Building code for an ESP-01 with the ESP8266 core for Arduino and demonstrate with a simple morse code blinker
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP8266/MorseBlinky
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ESP8266/MorseBlinky
 
  */
 

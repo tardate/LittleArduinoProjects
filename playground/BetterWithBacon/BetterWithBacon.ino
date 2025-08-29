@@ -3,7 +3,7 @@
   BetterWithBacon
   This sketch prints message with the time.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BetterWithBacon
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/BetterWithBacon
 
  */
 

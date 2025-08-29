@@ -3,7 +3,7 @@
   ThermalPrinter/Lucky4DOracle
   A "Lucky 4D" number generator, built a JP-QR701 Thermal Printer, including how to print Chinese (GB2312-80)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ThermalPrinter/Lucky4DOracle
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ThermalPrinter/Lucky4DOracle
 
  */
 

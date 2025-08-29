@@ -3,7 +3,7 @@
   AT89C2051/Programmer
   Based on https://github.com/piotrb5e3/AT89C2051_programmer but with modifications for charge pump control.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/8051/AT89C2051/Programmer
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/8051/AT89C2051/Programmer
 
  */
 

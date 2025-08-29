@@ -3,7 +3,7 @@
 
   Toggles LEDs connected to GPIO pin 0 and 1
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/TinyBlink
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/TinyBlink
  */
 
 void setup() {

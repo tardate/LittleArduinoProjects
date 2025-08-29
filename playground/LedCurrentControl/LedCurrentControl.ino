@@ -3,7 +3,7 @@
   LedCurrentControl
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LedCurrentControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LedCurrentControl
 
  */
 

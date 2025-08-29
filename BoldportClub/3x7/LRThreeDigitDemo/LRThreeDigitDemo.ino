@@ -3,7 +3,7 @@
   3x7/LRThreeDigitDemo
   Driving the Boldport 3x7 display from a Cuttle (Arduino) and the LRThreeDigits library.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/3x7/LRThreeDigitDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/3x7/LRThreeDigitDemo
 
  */
 

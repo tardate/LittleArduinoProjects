@@ -20,7 +20,7 @@ One thing led to another ... and I ended up with a freeform sculpture that got a
 ### Sound Detector
 
 Sound input is detected with a circuit borrowed from
-[LEAP#482 Electret Sound-level Trigger](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Electret/SoundLevelTrigger).
+[LEAP#482 Electret Sound-level Trigger](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Electret/SoundLevelTrigger).
 
 It provides a binary signal based on a preset threshold (adjustable with a pot).
 This is presented to the TM1638 as a "key" input via a 2N7000 mosfet.

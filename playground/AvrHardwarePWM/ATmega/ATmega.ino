@@ -3,7 +3,7 @@
   AvrHardwarePWM/ATmega
   Demonstrate hardware PWM with the Arduino UNO/ATmega328
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AvrHardwarePWM
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AvrHardwarePWM
 
  */
 

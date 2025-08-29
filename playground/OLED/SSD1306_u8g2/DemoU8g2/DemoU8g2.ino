@@ -3,7 +3,7 @@
   OLED/SSD1306_u8g2/DemoU8g2
   Testing the u8g2 library with a 132x32 OLED display
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/SSD1306_u8g2/DemoU8g2
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/OLED/SSD1306_u8g2/DemoU8g2
 
  */
 

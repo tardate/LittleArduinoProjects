@@ -13,7 +13,7 @@ Here's a quick demo..
 I recently "discovered" solar LED driver ICs that are mainly designed to drive solar-powered lights,
 such as the QX5252 and YX805. They come in TO-94 and DIP-8 packages, and most applications only require an additional external inductor.
 
-I've since used these chips in some circuits like the [LEAP#436 BEAM Vibrabot](https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/BEAM/Vivian).
+I've since used these chips in some circuits like the [LEAP#436 BEAM Vibrabot](https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/BEAM/Vivian).
 
 The QX5252 and YX805 turn out to be identical in form and function, but since I was more successful in finding resources for the QX5252,
 I will mainly refer to that product.

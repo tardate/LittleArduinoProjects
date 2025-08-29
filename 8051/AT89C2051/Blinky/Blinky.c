@@ -3,7 +3,7 @@
   AT89C2051/Blinky
   Simple LED blinker on P1_0. Uses do-nothing loop to approximate 1Hz cycle.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/8051/AT89C2051/Blinky
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/8051/AT89C2051/Blinky
 
  */
 

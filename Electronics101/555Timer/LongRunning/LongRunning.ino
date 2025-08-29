@@ -3,7 +3,7 @@
   555Timer/LongRunning
   Measuring a very low frequency 555 timer circuit
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/555Timer/LongRunning
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/555Timer/LongRunning
 
  */
 

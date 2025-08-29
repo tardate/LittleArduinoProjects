@@ -2,7 +2,7 @@
 
   AudioDSP/Boost
   Simple clean boost/volume control example.
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP/Boost
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AudioDSP/Boost
 
   Based on Electrosmash and OpenMusicLabs previous works:
 

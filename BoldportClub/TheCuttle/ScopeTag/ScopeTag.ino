@@ -3,7 +3,7 @@
   TheCuttle/ScopeTag
   Get the Boldport Cuttle to write it's name on a Digital Oscilloscope
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheCuttle/ScopeTag
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheCuttle/ScopeTag
 
  */
 

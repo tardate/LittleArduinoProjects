@@ -3,7 +3,7 @@
   FootSwitch
   Simple demonstration of rthe 4-channle foot switch with tri-color LED indicators
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/InputDevices/FootSwitch
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/InputDevices/FootSwitch
 
  */
 

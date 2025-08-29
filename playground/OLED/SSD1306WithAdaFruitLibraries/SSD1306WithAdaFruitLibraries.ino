@@ -3,7 +3,7 @@
   OLED/SSD1306WithAdaFruitLibraries
   A tweaked version of the AdaFruit ssd1306_128x64_spi example program.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/SSD1306WithAdaFruitLibraries
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/OLED/SSD1306WithAdaFruitLibraries
 
  */
 
@@ -381,4 +381,3 @@ void testscrolltext(void) {
   delay(2000);
   display.stopscroll();
 }
-

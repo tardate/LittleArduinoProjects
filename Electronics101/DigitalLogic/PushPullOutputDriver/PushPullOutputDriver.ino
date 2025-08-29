@@ -2,7 +2,7 @@
 
   PushPullOutputDriver
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DigitalLogic/PushPullOutputDriver
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DigitalLogic/PushPullOutputDriver
 
  */
 

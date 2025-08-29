@@ -4,7 +4,7 @@
   Figuring out the navigation light strobe frequency of the Lambda-class shuttle "Tydirium" and
   building a freeform circuit sculpture to demonstrate the effects (running an ATtiny85 on 3V)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kraft/TydiriumStrobe
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kraft/TydiriumStrobe
 
  */
 

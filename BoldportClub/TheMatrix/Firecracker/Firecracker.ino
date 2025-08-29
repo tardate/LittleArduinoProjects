@@ -3,7 +3,7 @@
   TheMatrix/Firecracker
   A firecracker simulacrum running on the BoldportClub Matrix.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheMatrix/Firecracker
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheMatrix/Firecracker
 
  */
 

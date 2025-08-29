@@ -3,7 +3,7 @@
   MicroSD/WavePlayer
   A basic demonstration of playing a sound file (WAV) from an SD card with an Arduino.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Audio/MicroSD/WavePlayer
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Audio/MicroSD/WavePlayer
 
  */
 

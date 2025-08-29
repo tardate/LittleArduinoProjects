@@ -3,7 +3,7 @@
   ButtonTester
   Diagnostic sketch. Used to verify the foot switches and LEDs are working correctly.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP8266/YouTubeFootSwitch
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ESP8266/YouTubeFootSwitch
 
  */
 

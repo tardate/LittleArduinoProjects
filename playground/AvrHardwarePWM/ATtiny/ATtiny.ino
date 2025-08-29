@@ -3,7 +3,7 @@
   AvrHardwarePWM/ATtiny
   Demonstrate hardware PWM with the ATtiny85
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AvrHardwarePWM/ATtiny
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AvrHardwarePWM/ATtiny
 
  */
 

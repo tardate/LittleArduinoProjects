@@ -1,4 +1,4 @@
-Building a simple 3-transistor regenerative receiver for HF shortwave.. More info at  https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/ThreeTransistorShortWaveReceiver            
+Building a simple 3-transistor regenerative receiver for HF shortwave.. More info at  https://github.com/tardate/LittleArduinoProjects/tree/main/Radio/ThreeTransistorShortWaveReceiver
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

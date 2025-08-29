@@ -3,7 +3,7 @@
   LED7Segment/ShiftDrive
   Test control of a 7-segment display via a shift register.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/ShiftDrive
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/ShiftDrive
 
  */
 

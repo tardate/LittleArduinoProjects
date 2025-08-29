@@ -3,7 +3,7 @@
   PiezoVibrationDetector
   Counting the beat with a piezo tap sensor and the Arduino/ATmega328 analog comparator.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/PiezoVibrationDetector
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/PiezoVibrationDetector
 
  */
 

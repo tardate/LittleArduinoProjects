@@ -1,4 +1,4 @@
-Transcription of the schematic for a 5V 800mA switching USB power supply. See: https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Power/UsbPowerSupplyKit            
+Transcription of the schematic for a 5V 800mA switching USB power supply. See: https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Power/UsbPowerSupplyKit
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

@@ -3,7 +3,7 @@
   AudioDSP/SuperCrunch
   A crunchy symmetrical Schetzen distortion effect based on the pedalSHIELD
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP/SuperCrunch
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AudioDSP/SuperCrunch
 
  */
 
