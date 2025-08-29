@@ -164,7 +164,7 @@ I have the circuit setup on a breadboard with the [LEAP#780 AT89C2051 Breadboard
 
 ![bb_build](./assets/Timers_bb_build.jpg?raw=true)
 
-Monitoring the LED output on the scope, running at 1Hz as expected:
+Monitoring the LED output on the scope CH1 (Yellow), running at 1Hz as expected:
 
 ![scope](assets/scope.gif)
 
