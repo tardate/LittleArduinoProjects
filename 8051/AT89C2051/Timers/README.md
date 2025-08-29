@@ -99,7 +99,7 @@ Designed with Fritzing: see [Timers.fzz](./Timers.fzz).
 
 ### The Code
 
-See [Timers.c](./Timers.c)
+See [src/Timers.c](./src/Timers.c)
 
 The core `ms_delay` function is implemented as follows:
 
@@ -135,8 +135,9 @@ Key points to note:
 
 ## Programming
 
-The [Makefile](./Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
+The [src/Makefile](./src/Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
 
+    $ cd src
     $ make
     sdcc -mmcs51 --code-size 2048 Timers.c -o Timers.ihx
     packihx Timers.ihx > Timers.hex
