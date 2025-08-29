@@ -1,4 +1,14 @@
 {
+    "/8051/at89c2051/counters/": {
+        "id": 788,
+        "title": "AT89C2051 Counters",
+        "summary": "Using an 8051 timer register as a counter with the AT89C2051. Demonstrates a manually triggered counter with the current count printed to an LCD.",
+        "tags": [
+            "8051",
+            "LCD",
+            "Timer"
+        ]
+    },
     "/8051/at89c2051/timers/": {
         "id": 787,
         "title": "AT89C2051 Timers",
