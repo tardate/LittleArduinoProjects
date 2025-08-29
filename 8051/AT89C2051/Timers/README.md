@@ -43,9 +43,9 @@ This could be a good reason for using a 12 MHz crystal instead, if accurate timi
 
 #### TMOD Register
 
-TMOD is an 8-bit register used to set timer mode of timer0 and timer1.
+TMOD is an 8-bit register used to set timer mode of Timer0 and Timer1.
 
-![tmod-register](./assets/tmod-register.jpg)
+![tmod-register](../../assets/tmod-register.jpg)
 
 | Bit             | Value | Description |
 |-----------------|-------|-------------|
@@ -60,9 +60,9 @@ TMOD is an 8-bit register used to set timer mode of timer0 and timer1.
 
 #### TCON Register
 
-TCON is an 8-bit control register and contains a timer and interrupt flags.
+TCON is an 8-bit control register and contains timer and interrupt flags.
 
-![tcon-register](./assets/tcon-register.jpg)
+![tcon-register](../../assets/tcon-register.jpg)
 
 | Bit             | Value | Description |
 |-----------------|-------|-------------|
@@ -99,7 +99,7 @@ Designed with Fritzing: see [Timers.fzz](./Timers.fzz).
 
 ### The Code
 
-See [Timers.c](./Timers.c)
+See [src/Timers.c](./src/Timers.c)
 
 The core `ms_delay` function is implemented as follows:
 
@@ -135,8 +135,9 @@ Key points to note:
 
 ## Programming
 
-The [Makefile](./Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
+The [src/Makefile](./src/Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
 
+    $ cd src
     $ make
     sdcc -mmcs51 --code-size 2048 Timers.c -o Timers.ihx
     packihx Timers.ihx > Timers.hex
@@ -159,15 +160,20 @@ the [LEAP#394 AT89C2051 Programmer](../Programmer/):
 
 ## Testing
 
-I have the circuit setup on a breadboard with the [#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/):
+I have the circuit setup on a breadboard with the [LEAP#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/):
 
 ![bb_build](./assets/Timers_bb_build.jpg?raw=true)
 
-Monitoring the LED output on the scope, running at 1Hz as expected:
+Monitoring the LED output on the scope CH1 (Yellow), running at 1Hz as expected:
 
 ![scope](assets/scope.gif)
 
 ## Credits and References
 
+* [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
+* [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
+* [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/)
+* [LEAP#394 AT89C2051 Programmer](../Programmer/)
+* [LEAP#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/)
 * <https://www.electronicwings.com/8051/8051-timers>
 * <https://www.tutorialspoint.com/timers-of-8051>

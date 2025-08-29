@@ -1,5 +1,15 @@
 [
     {
+        "name": "AT89C2051 Counters",
+        "description": "Using an 8051 timer register as a counter with the AT89C2051. Demonstrates a manually triggered counter with the current count printed to an LCD.",
+        "categories": "8051, LCD, Timer",
+        "relative_path": "8051/at89c2051/counters",
+        "updated_at": "2025-08-29T08:30:00Z",
+        "created_at": "2025-08-29T08:30:00Z",
+        "id": "#788",
+        "original_relative_path": "8051/AT89C2051/Counters"
+    },
+    {
         "name": "AT89C2051 Timers",
         "description": "All about using 8051 timer registers with the AT89C2051",
         "categories": "8051, LED, Timer",

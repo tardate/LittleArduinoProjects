@@ -49,7 +49,13 @@ HD44780-based LCD controller modules provide a 16-pin interface:
 Note:
 
 * RW will often be hard-wired low (write mode), as usually there is no need to read from the module.
-* a variable resistor may often be connected to the Contracts/VEE/V0 pin to allow adjustable contrast control
+* Display contrast is controlled with the Contrasts/VEE/V0 pin. Options:
+    * For adjustable contrast, connect a 10 kΩ variable resistor (pot) between VDD (+5 V) and VSS (GND), with wiper to VEE/V0.
+    * If a specific contrast setting is acceptable, use a fixed resistor divider
+    * Some LCD modules display acceptable contrast if V0 is tied directly to GND.
+    * Temperature Compensation:
+        * LCD contrast changes with temperature.
+        * Some circuits use a thermistor in place of (or combined with) the pot to automatically adjust contrast.
 
 ![lcd_pinout](./assets/lcd_pinout.jpg?raw=true)
 
