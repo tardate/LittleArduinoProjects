@@ -3,7 +3,7 @@
   KeyboardMatrixModule/SwitchInterrupts
   Demo interrupt-driven switch input on a simple pushbutton/LED matrix module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/KeyboardMatrixModule/SwitchInterrupts
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/KeyboardMatrixModule/SwitchInterrupts
 
  */
 

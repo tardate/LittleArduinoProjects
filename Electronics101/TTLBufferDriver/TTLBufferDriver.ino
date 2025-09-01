@@ -3,7 +3,7 @@
   TTLBufferDriver
   Using an OpAmp as a final buffer stage for TTL or similar circuits
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/TTLBufferDriver
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/TTLBufferDriver
 
  */
 
@@ -60,4 +60,3 @@ void sample() {
   }
   Serial.println(result);
 }
-

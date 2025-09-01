@@ -4,7 +4,7 @@
 
   Use this sketch to determine the RGB ordering of your chipset
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LEDArrayDemos/RGBCalibrate
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/LEDArrayDemos/RGBCalibrate
 
 */
 

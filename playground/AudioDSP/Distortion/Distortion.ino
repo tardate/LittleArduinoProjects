@@ -3,7 +3,7 @@
   AudioDSP/Distortion
   Simple distortion (clipping) effect.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP/Distortion
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AudioDSP/Distortion
 
  */
 

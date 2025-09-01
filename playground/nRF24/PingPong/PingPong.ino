@@ -4,7 +4,7 @@
   Two Arduino's entertaining themselves with a "ping pong" game over nRF24L01+ 2.4GHz RF.
   Largely "stolen" from the RF24 library example code from https://github.com/maniacbug/RF24
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/nRF24/PingPong
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/nRF24/PingPong
 
  */
 

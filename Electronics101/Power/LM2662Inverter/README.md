@@ -53,7 +53,7 @@ for applications requiring a good clean negative voltage supply.
 
 ## Construction
 
-NB: Fritzing diagrams use the [LM2662 Switched Capacitor Voltage Converter - DIP8 module](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/LM2662) custom part
+NB: Fritzing diagrams use the [LM2662 Switched Capacitor Voltage Converter - DIP8 module](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts/LM2662) custom part
 
 ![Breadboard](./assets/LM2662Inverter_bb.jpg?raw=true)
 
@@ -66,4 +66,4 @@ NB: Fritzing diagrams use the [LM2662 Switched Capacitor Voltage Converter - DIP
 * [LM2662M datasheet](https://www.futurlec.com/Linear/LM2662M.shtml)
 * [LM7805 datasheet](https://www.futurlec.com/Linear/7805T.shtml)
 * [SO16 SSOP16 TSSOP16 SOIC16 To DIP Adapter PCB Board Converter](https://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) - modules I used from an aliexpress seller to mount the SOP-8 chip
-* [LM2662 Switched Capacitor Voltage Converter - DIP8 module](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/LM2662) custom part
+* [LM2662 Switched Capacitor Voltage Converter - DIP8 module](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts/LM2662) custom part

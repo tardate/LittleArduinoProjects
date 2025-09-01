@@ -3,7 +3,7 @@
   AudioDSP/Crunch
   Simple distortion (asymmetrical Schetzen clipping) effect.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AudioDSP/Crunch
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AudioDSP/Crunch
 
  */
 

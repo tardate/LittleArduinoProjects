@@ -137,7 +137,7 @@ The 16 pins of the OSHChip are assigned as follows:
 The OSHChip runs from 1.8V to 3.6V
 
 To power it independently I used this
-[Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-2)
+[Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BuckConverterModules#module-2)
 dialed into 3.3V.
 
 ### Connecting Some Peripherals

@@ -3,7 +3,7 @@
   RotaryEncoderMethods/FallingEdgeDirectPortAccessISR
   Test rotary-encoder input using falling-edge interrupt and direct port access methods
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RotaryEncoderMethods
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RotaryEncoderMethods
 
  */
 

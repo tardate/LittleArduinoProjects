@@ -3,7 +3,7 @@
   SwitchNJFET
   Switch an independent power source using an Arduino and n-channel JFET
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SwitchNJFET
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SwitchNJFET
 
  */
 

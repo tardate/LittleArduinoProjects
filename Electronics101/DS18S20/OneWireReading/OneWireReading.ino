@@ -3,7 +3,7 @@
   DS18S20/OneWireReading
   Basic interrogation of a DS18S20 using 1-wire protocol
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DS18S20/OneWireReading
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DS18S20/OneWireReading
 
  */
 

@@ -3,7 +3,7 @@
   TFT/Color128x128
   Demo using the TFT_ILI9163C library - based on example from http://henrysbench.capnfatz.com/henrys-bench/arduino-displays/arduino-1-44-in-spi-tft-display-tutorial/
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/TFT/Color128x128
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/TFT/Color128x128
 
  */
 

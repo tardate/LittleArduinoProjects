@@ -3,7 +3,7 @@
   XYplotter/tree
   Draw a Christmas Tree with an Arduino on a Digital Oscilloscope
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/XYplotter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/XYplotter
 
  */
 

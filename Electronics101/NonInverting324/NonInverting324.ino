@@ -3,7 +3,7 @@
   NonInverting324
   Use an Arduino to monitor the behaviour of an LM324 OpAmp in non-inverting DC gain mode
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/NonInverting324
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/NonInverting324
 
  */
 

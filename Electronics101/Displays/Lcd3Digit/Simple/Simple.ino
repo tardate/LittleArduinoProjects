@@ -3,7 +3,7 @@
   Displays/Lcd3Digit/Simple
   The Simple (Unoptimised) Approach
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/Displays/Lcd3Digit/Simple
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/Displays/Lcd3Digit/Simple
 
  */
 

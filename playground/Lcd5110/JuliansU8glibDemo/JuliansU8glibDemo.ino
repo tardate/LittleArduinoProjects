@@ -3,7 +3,7 @@
   Lcd5110/JuliansU8glibDemo
   Quick test drive of Julian Ilett's 5110 LCD demo with the u8glib library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Lcd5110/JuliansU8glibDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Lcd5110/JuliansU8glibDemo
 
  */
 

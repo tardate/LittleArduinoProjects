@@ -3,7 +3,7 @@
   Sensors/DHT11
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP8266/Sensors/DHT11
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ESP8266/Sensors/DHT11
 
  */
 

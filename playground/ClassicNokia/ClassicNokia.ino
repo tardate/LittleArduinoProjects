@@ -3,7 +3,7 @@
   ClassicNokia
   Just a quick transcription of the classic Nokia 3310 ringtone for Arduino.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ClassicNokia
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ClassicNokia
 
  */
 

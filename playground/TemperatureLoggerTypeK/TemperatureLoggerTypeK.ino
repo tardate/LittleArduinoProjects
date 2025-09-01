@@ -3,7 +3,7 @@
   TemperatureLoggerTypeK
   Simple high-temperature monitor using Type K (differential) and LM35 (cold-junction) sensors
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/TemperatureLoggerTypeK
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/TemperatureLoggerTypeK
 
  */
 

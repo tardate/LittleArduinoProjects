@@ -69,7 +69,7 @@ body {
   font-size: 14px;
   max-width: 280px;
 }
-.xtardate-link {
+.linked {
   cursor: pointer; cursor: hand;
 }
 
@@ -90,6 +90,7 @@ img.tardate-hero {
 }
 
 .markdown-body img {
+  width: 1024px;
   max-width: 100%;
   box-sizing: content-box;
 }
@@ -220,14 +221,14 @@ footer {
   font-weight: 800;
 }
 
-.tardate-gallery img {
+.project-gallery img {
   width: 60px;
   height: 60px;
   display: inline-block;
   margin: 0 0 3px 0;
 }
 
-.tardate-gallery > a {
+.project-gallery > a {
   display: inline-block;
 }
 

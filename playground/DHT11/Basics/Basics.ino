@@ -3,7 +3,7 @@
   DHT11/Basics
   Test basic temperature and humidity readings with the DHT11 sensor.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DHT11/Basics
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/DHT11/Basics
 
  */
 

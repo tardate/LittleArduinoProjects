@@ -22,7 +22,7 @@
 
   This example code is in the public domain.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/VariableLED
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/VariableLED
 
  */
 

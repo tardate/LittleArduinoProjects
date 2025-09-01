@@ -3,7 +3,7 @@
   LED/LED8x8Module
   Building and using an 8x8 LED matrix with MAX7219 driver module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/LED/LED8x8Module
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/LED/LED8x8Module
 
  */
 

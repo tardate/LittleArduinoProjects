@@ -1,4 +1,4 @@
-A 1-transistor chirping sound effect circuit. More details at https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/AudioEffects/Parrot            
+A 1-transistor chirping sound effect circuit. More details at https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/AudioEffects/Parrot
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

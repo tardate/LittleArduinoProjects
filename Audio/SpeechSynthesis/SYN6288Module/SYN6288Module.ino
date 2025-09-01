@@ -3,7 +3,7 @@
   SpeechSynthesis/SYN6288Module
   Investigating the SYN6288 Chinese text to speech module with simple Arduino demonstration.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Audio/SpeechSynthesis/SYN6288Module
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Audio/SpeechSynthesis/SYN6288Module
 
  */
 

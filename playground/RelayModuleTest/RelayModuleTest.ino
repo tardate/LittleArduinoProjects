@@ -2,7 +2,7 @@
   RelayModuleTest
   Switch a relay with precision timing.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RelayModuleTest
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RelayModuleTest
 
  */
 

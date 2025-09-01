@@ -4,7 +4,7 @@
   The WyLed free-form sculture reacts to sound and blinks a 4-digit LED display.
   An ATTiny85 provides a little brain, and the TM1638 handles all input and output.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kraft/WyLed
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kraft/WyLed
 
  */
 

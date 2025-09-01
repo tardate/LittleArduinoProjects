@@ -3,7 +3,7 @@
   RotaryEncoderModule
   Testing a Rotary Encoder module controlling an LED 8x8 display
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RotaryEncoderModule
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RotaryEncoderModule
 
  */
 #include <stdlib.h>

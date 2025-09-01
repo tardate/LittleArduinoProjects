@@ -3,7 +3,7 @@
   CapacitiveTouchOrgan
   Simple 12-tone organ activated by touch
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/CapacitiveTouchOrgan
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/CapacitiveTouchOrgan
 
  */
 

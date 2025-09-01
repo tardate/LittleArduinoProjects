@@ -1,4 +1,4 @@
-Redrawing of the Aguhajsu 1S/3A battery protection module circuit (with additional indicator LED). See proejct notes at https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BatteryManagement/Aguhajsu1S3A
+Redrawing of the Aguhajsu 1S/3A battery protection module circuit (with additional indicator LED). See proejct notes at https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BatteryManagement/Aguhajsu1S3A
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

@@ -3,7 +3,7 @@
   MonostablePulseExtender
   test the behaviour of a 74LS122 monostable with external timing configuration and plot the results
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/MonostablePulseExtender
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/MonostablePulseExtender
 
  */
 

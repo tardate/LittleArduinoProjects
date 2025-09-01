@@ -3,7 +3,7 @@
   SimpleSoundEffects2
   Building the ATtiny version of the Elektor Simple Sound Effects project, with a port to Arduino/C++.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Audio/SimpleSoundEffects2
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Audio/SimpleSoundEffects2
 
  */
 

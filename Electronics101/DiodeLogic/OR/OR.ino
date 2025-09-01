@@ -3,7 +3,7 @@
   DiodeLogic/OR
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DiodeLogic/OR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DiodeLogic/OR
 
  */
 
@@ -21,4 +21,3 @@ void loop() {
 
   output = !output;
 }
-

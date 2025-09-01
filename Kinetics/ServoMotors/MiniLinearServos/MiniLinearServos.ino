@@ -3,7 +3,7 @@
   ServoMotors/MiniLinearServos
   Testing some mini/micro linear servo motors with an ATtiny85
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/ServoMotors/MiniLinearServos
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/ServoMotors/MiniLinearServos
 
  */
 

@@ -3,7 +3,7 @@
   AT89C2051/LcdControl
   Demonstrates LCD control using AT89C2051.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/8051/AT89C2051/LcdControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/8051/AT89C2051/LcdControl
 
  */
 

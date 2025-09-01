@@ -3,7 +3,7 @@
   DS3231RTC/TimeDemo
   Prints the system time synced from the RTC to the serial output
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DS3231RTC/TimeDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/DS3231RTC/TimeDemo
 
  */
 

@@ -3,7 +3,7 @@
   OLED/SSD1306BareBack
   Test driving a monochrome 128x64 OLED Display with an Arduino and the raw command set.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/SSD1306BareBack
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/OLED/SSD1306BareBack
 
  */
 

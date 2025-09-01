@@ -3,7 +3,7 @@
   Lcd5110/DIYShield
   Demo the Arduino Uno Nokia 5110 shield
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Lcd5110/DIYShield
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Lcd5110/DIYShield
 
  */
 

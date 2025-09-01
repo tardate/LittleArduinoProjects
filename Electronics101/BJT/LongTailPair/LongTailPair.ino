@@ -3,7 +3,7 @@
   BJT/LongTailPair
   Test a BJT differential amplifier circuit
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BJT/LongTailPair
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BJT/LongTailPair
 
  */
 
@@ -46,4 +46,3 @@ void sample() {
   Serial.print("output_differential: "); Serial.print(output_differential);   Serial.println(" mV");
   Serial.print("               gain: "); Serial.println(gain);
 }
-

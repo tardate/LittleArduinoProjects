@@ -3,7 +3,7 @@
   SwitchPowerNFET
   Low-side n-channel MOSFET switching of large loads with a microcontroller.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SwitchPowerNFET
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SwitchPowerNFET
 
  */
 

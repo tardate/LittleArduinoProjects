@@ -5,7 +5,7 @@
 
   - reads the ADC and plays it back into the PWM output.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/clean
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/clean
 
  */
 

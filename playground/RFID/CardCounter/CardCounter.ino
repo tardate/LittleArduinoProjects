@@ -3,7 +3,7 @@
   RFID/CardCounter
   Simple demonstratration of reading an writing value blocks with an RC522 RFID reader and MIFARE Classic cards.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RFID/CardCounter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RFID/CardCounter
 
  */
 

@@ -75,11 +75,11 @@ There are quite a few categories that perhaps should be added to this list, for 
 
 ## Examples
 
-Now that I have the BEAM terminology in mind, I realise that quite a few [Boldport](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub) projects
+Now that I have the BEAM terminology in mind, I realise that quite a few [Boldport](https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub) projects
 probably belong in the taxonomy, for example:
 
-* [LEAP#409 conehead](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/conehead) - a Phototrope sitter (better yet: a squawker); chirps in response to light
-* [LEAP#284 TheGent](https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/TheGent) - a Phototrope sitter (better yet: a flasher); flashes it's LEDs in response to light
+* [LEAP#409 conehead](https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/conehead) - a Phototrope sitter (better yet: a squawker); chirps in response to light
+* [LEAP#284 TheGent](https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/TheGent) - a Phototrope sitter (better yet: a flasher); flashes it's LEDs in response to light
 
 And now for some new BEAM builds:
 

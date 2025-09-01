@@ -3,7 +3,7 @@
   OLED/ArdWinVaders
   An Arduino & OLED version of a classic.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/OLED/ArdWinVaders
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/OLED/ArdWinVaders
 
  */
 

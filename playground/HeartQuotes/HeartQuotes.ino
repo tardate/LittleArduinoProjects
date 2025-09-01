@@ -7,7 +7,7 @@
   Circuit:
   * Ethernet shield attached to pins 10, 11, 12, 13
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/HeartQuotes
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/HeartQuotes
 
  */
 

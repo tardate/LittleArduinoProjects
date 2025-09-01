@@ -3,7 +3,7 @@
 
   A project by [novaprimexex](https://github.com/novaprimexex) to count tins as they roll by and detect tins without paper labels.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/tin_counter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/tin_counter
 
   HC-SR04 Ping distance sensor]
   VCC to arduino 5v GND to arduino GND
@@ -72,4 +72,3 @@ void beep(unsigned char delayms){
   analogWrite(9, 0);       // 0 turns it off
   delay(delayms);          // wait for a delayms ms
 }
-

@@ -3,7 +3,7 @@
   TestIR
   Use raw pin reading methods to read and decode IR sensor input.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/TestIR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/TestIR
   This code is based on original source from https://learn.adafruit.com/ir-sensor/using-an-ir-sensor
 
 */
@@ -99,4 +99,3 @@ void printPulses(void) {
 }
 
 #endif
-

@@ -3,7 +3,7 @@
   LedControlDemo
   Test driving and LED matrix with the LedControl library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED8x8/LedControlDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED8x8/LedControlDemo
 
  */
 

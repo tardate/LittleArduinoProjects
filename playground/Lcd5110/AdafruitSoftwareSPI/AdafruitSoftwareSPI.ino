@@ -4,7 +4,7 @@
   A quick Nokia 5110 LCD test using softare SPI and the Adafruit PCD8544 library.
   Based on example from https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library/blob/master/examples/pcdtest/pcdtest.ino
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Lcd5110/AdafruitSoftwareSPI
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Lcd5110/AdafruitSoftwareSPI
 
  */
 

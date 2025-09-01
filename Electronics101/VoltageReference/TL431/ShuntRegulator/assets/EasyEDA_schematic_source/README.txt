@@ -1,5 +1,5 @@
 a TL431 voltage reference (regulator) with manual trim.
-See LEAP#360 https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/TL431/ShuntRegulator            
+See LEAP#360 https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/TL431/ShuntRegulator
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

@@ -3,7 +3,7 @@
   DS1822
   Basic interrogation of a DS1822 using 1-wire protocol and results display on a Nokia 5110 LCD.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DS1822
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DS1822
 
  */
 

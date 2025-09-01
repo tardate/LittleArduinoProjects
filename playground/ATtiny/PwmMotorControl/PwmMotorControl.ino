@@ -3,7 +3,7 @@
   ATtiny/PwmMotorControl
   Variable speed PWM motor control with an ATtiny85.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/PwmMotorControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/PwmMotorControl
 
  */
 

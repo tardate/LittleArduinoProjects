@@ -6,7 +6,7 @@
 
   based on original code from the FastLED project at http://fastled.io/
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/LEDArrayDemos/StripTease
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/LEDArrayDemos/StripTease
 
 */
 

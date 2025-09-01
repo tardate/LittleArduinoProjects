@@ -3,7 +3,7 @@
   RingCounterController
   Control the classic CD4017 walking-ring counter with an Arduino
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RingCounterController
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RingCounterController
 
  */
 

@@ -6,7 +6,7 @@
   blink rate of an LED accordingly
   Based on http://arduino.cc/en/Tutorial/AnalogInput
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LightOrNot
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LightOrNot
 
  */
 

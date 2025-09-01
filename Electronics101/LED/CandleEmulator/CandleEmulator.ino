@@ -3,7 +3,7 @@
   LED/CandleEmulator
   An Arduino LED candle emulation
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/LED/CandleEmulator
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/LED/CandleEmulator
 
  */
 

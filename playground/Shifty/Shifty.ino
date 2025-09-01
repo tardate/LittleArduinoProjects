@@ -4,7 +4,7 @@
 
   Drive 8 LEDs with 3 pins using a 74HC595 shift register.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Shifty
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Shifty
 
  */
 

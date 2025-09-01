@@ -4,7 +4,7 @@
   A simple test of the general-purpose CD4017 counter module.
   It resets the module then pulses the clock at a constant frequency.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/CounterModule
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/CounterModule
 
  */
 
@@ -30,4 +30,3 @@ void pulse(int pin) {
   digitalWrite(pin, HIGH);
   digitalWrite(pin, LOW);
 }
-

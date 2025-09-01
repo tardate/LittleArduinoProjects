@@ -5,7 +5,7 @@
   Original source obtained from http://pan.baidu.com/share/link?shareid=532839&uk=1161248057
   Licence "unknown" but appears to have been released into the public domain.
 
-  For more info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/PovShakeStickKit
+  For more info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/PovShakeStickKit
 
  */
 

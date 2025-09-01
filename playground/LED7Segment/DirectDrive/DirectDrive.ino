@@ -6,7 +6,7 @@
   http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
   License: http://www.opensource.org/licenses/mit-license.php (Go crazy)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/DirectDrive
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/DirectDrive
 
  */
 

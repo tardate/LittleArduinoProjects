@@ -1,6 +1,6 @@
 Building the Silicon Chip USB Protector which demonstrates various methods of reverse-polarity, over-voltage and over-current protection.
 This is a quick sketch of the circuit.
-Construction notes at https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/USBProtector            
+Construction notes at https://github.com/tardate/LittleArduinoProjects/tree/main/Equipment/USBProtector
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

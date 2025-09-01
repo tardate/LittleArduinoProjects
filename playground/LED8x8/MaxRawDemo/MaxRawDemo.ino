@@ -3,7 +3,7 @@
   MaxRawDemo
   Drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED8x8/MaxRawDemo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED8x8/MaxRawDemo
 
  */
 

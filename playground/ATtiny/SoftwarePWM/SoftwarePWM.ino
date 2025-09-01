@@ -3,7 +3,7 @@
   ATtiny/SoftwarePWM
   Generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/SoftwarePWM
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/SoftwarePWM
 
  */
 

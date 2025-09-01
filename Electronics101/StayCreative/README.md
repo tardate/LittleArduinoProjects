@@ -25,7 +25,7 @@ This means I can get good dynamic range even with weak input signals.
 ### LED power supply
 
 Power for the LEDs is provided with a
-[simple buck converter module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-1)
+[simple buck converter module](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BuckConverterModules#module-1)
 dialed in at ~3V, which is around the nominal forward voltage of the blue LEDs I'm using.
 
 LED brightness control is enabled with an n-channel MOSFET on the common cathode connection of the LEDs.
@@ -48,5 +48,5 @@ But it turns out that the current draw is about 50mA with all the LEDs fully on 
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)
 * [IRF540N datasheet](url) n-channel MOSFET
 * [Make your own LED Sign VU Meter by GreatScott!](https://youtu.be/Jyrpx9rEGMI)
-* [BuckConverter Module](https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BuckConverterModules#module-1)
+* [BuckConverter Module](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BuckConverterModules#module-1)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects212-stay-creative.html)

@@ -2,7 +2,7 @@
   MotorControlPWM
   Tests PWM speed control of a DC motor.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/MotorControlPWM
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/MotorControlPWM
 
  */
 
@@ -35,5 +35,3 @@ void motorOn(int value) {
   analogWrite(MOTOR_PIN, value);
   delay(DURATION_AT_SPEED);
 }
-
-

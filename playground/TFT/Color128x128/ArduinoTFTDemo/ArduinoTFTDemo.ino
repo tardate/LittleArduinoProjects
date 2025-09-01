@@ -3,7 +3,7 @@
   TFT/Color128x128/ArduinoTFTDemo
   Demo using the Arduino TFT library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/TFT/Color128x128
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/TFT/Color128x128
 
  */
 

@@ -3,7 +3,7 @@
   FastAnalogRead
   How to increase the Arduino ADC analog sampling rate.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/FastAnalogRead
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/FastAnalogRead
 
  */
 

@@ -3,7 +3,7 @@
   UsingMDNS
   Delving into multicast DNS and how it can be used to find and connect to ESP32 devices on the network
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP32/UsingMDNS
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ESP32/UsingMDNS
 
  */
 

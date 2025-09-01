@@ -3,7 +3,7 @@
   MCP23S17
   Test the MCP23S17 16-Bit I/O Expander
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/MCP23S17
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/MCP23S17
 
  */
 

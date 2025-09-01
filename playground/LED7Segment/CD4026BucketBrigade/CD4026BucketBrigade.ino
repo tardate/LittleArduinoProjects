@@ -3,7 +3,7 @@
   LED7Segment/CD4026BucketBrigade
   A CD4026 bucket-brigade for driving multiple 7-segment displays
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/CD4026BucketBrigade
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/CD4026BucketBrigade
 
  */
 

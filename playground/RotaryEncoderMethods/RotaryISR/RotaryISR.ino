@@ -3,7 +3,7 @@
   RotaryEncoderMethods/RotaryISR
   Test rotary-encoder input using change-triggered interrupt and the Rotary library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RotaryEncoderMethods
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RotaryEncoderMethods
 
  */
 

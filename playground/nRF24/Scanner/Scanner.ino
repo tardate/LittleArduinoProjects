@@ -3,7 +3,7 @@
   nRF24/Scanner
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/nRF24/Scanner
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/nRF24/Scanner
 
  */
 

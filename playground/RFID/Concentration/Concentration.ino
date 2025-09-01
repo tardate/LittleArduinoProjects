@@ -3,7 +3,7 @@
   RFID/Concentration
   Play a game of Concentration/Pairs with a stack of MIFARE Classic cards.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RFID/Concentration
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RFID/Concentration
 
  */
 

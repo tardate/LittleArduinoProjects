@@ -4,7 +4,7 @@
 
   How to make a piezo buzzer even more annoying? Make it play popcorn!
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Popcorn
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Popcorn
 
  */
 

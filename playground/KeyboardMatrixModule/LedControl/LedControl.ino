@@ -3,7 +3,7 @@
   KeyboardMatrixModule/LedControl
   Demo controlling the LEDs on a simple pushbutton/LED matrix module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/KeyboardMatrixModule/LedControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/KeyboardMatrixModule/LedControl
 
  */
 

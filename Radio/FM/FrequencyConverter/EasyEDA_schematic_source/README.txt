@@ -1,4 +1,4 @@
-See https://github.com/tardate/LittleArduinoProjects/tree/master/Radio/FM/FrequencyConverter            
+See https://github.com/tardate/LittleArduinoProjects/tree/main/Radio/FM/FrequencyConverter
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

@@ -2,7 +2,7 @@
   JoystickServoControl
   Control two servos with a joystick.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/ServoMotors/JoystickServoControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/ServoMotors/JoystickServoControl
 
  */
 

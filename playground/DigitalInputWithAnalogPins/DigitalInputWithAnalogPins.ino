@@ -3,7 +3,7 @@
   DigitalInputWithAnalogPins
   Demonstrate how analog pins can also be used as a digital GPIO
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DigitalInputWithAnalogPins
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/DigitalInputWithAnalogPins
 
  */
 
@@ -40,4 +40,3 @@ void loop() {
   }
 
 }
-

@@ -6,7 +6,7 @@
   - reads the ADC signal and clip it to a threshold value.
   - pressing the pushbutton_1 or 2 turns the distortion harder or softer.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/pedalShieldUno/AudioDSP/distortion
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/pedalShieldUno/AudioDSP/distortion
 
  */
 

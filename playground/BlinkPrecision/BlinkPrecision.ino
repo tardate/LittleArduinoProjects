@@ -2,7 +2,7 @@
   BlinkPrecision
   Blink an LED with precision timing.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/BlinkPrecision
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/BlinkPrecision
 
  */
 

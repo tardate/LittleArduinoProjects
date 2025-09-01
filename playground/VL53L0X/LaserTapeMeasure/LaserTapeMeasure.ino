@@ -3,7 +3,7 @@
   VL53L0X/LaserTapeMeasure
   Using a VL53L0X ranging sensor to make a short-range laser tape measure with an Arduino with Nokia 5110 display.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/VL53L0X/LaserTapeMeasure
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/VL53L0X/LaserTapeMeasure
 
  */
 

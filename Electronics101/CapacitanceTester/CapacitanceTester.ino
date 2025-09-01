@@ -3,7 +3,7 @@
   CapacitanceTester
   Capacitor tester with LCD output.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/CapacitanceTester
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/CapacitanceTester
 
  */
 

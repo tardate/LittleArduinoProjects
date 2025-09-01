@@ -3,7 +3,7 @@
   ADC/LTC2400
   Simple LTC2400 utility for logger readings to serial
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ADC/LTC2400
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/ADC/LTC2400
 
  */
 

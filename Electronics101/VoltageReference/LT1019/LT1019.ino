@@ -3,7 +3,7 @@
   VoltageReference/LT1019
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/VoltageReference/LT1019
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/VoltageReference/LT1019
 
  */
 
@@ -62,4 +62,3 @@ void displayMeasurement(int analog_measurement, float voltage) {
 
   display.display();
 }
-

@@ -3,7 +3,7 @@
   LED7Segment/CombinationalLogicDriver
   Generate an 8421-BCD sequence to automate the demonstration of the 7-segment LED driver.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/CombinationalLogicDriver
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/CombinationalLogicDriver
 
  */
 

@@ -3,7 +3,7 @@
   AT89C2051/LedChaser
   Run an AT89C2051 8 LED chaser controlled with a timer interrupt.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/8051/AT89C2051/LedChaser
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/8051/AT89C2051/LedChaser
 
  */
 

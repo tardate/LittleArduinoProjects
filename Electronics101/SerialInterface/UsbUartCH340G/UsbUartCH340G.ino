@@ -2,7 +2,7 @@
   UsbUartCH340G
   A blink sketch that also sends a burst of data over the serial port.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/SerialInterface/UsbUartCH340G
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/SerialInterface/UsbUartCH340G
  */
 
 #define LED_PIN 13

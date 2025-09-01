@@ -3,7 +3,7 @@
   INA226/HighSideCurrentSensor
   Using the https://github.com/jarzebski/Arduino-INA226 library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/INA226/HighSideCurrentSensor
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/INA226/HighSideCurrentSensor
 
  */
 

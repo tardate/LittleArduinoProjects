@@ -3,7 +3,7 @@
   Lcd5110/BareBack
   Test driving a Nokia 5110 LCD Display with an Arduino.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Lcd5110/BareBack
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Lcd5110/BareBack
 
  */
 

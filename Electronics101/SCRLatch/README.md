@@ -90,7 +90,7 @@ Here's a trace of the trigger event. I purposely chose a bouncy capture to illus
 Notes:
 
 * I created a
-[custom Fritzing Part available here](https://github.com/tardate/LittleArduinoProjects/tree/master/FritzingParts/SCR) for these diagrams.
+[custom Fritzing Part available here](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts/SCR) for these diagrams.
 * the 1MΩ pull-down resistor R3 is not required for the gate to operate - it's only included to ensure a clean signal for the scope, rather than let the gate float.
 
 ![Breadboard](./assets/SCRLatch_bb.jpg?raw=true)

@@ -3,7 +3,7 @@
   arzamatron
   a simple sound-activated LED ornament
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kraft/arzamatron
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kraft/arzamatron
 
  */
 

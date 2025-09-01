@@ -3,7 +3,7 @@
   ElectretTrigger
   Triggers a tone sequence when mic input above predetermined threshold
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ElectretTrigger
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ElectretTrigger
 
  */
 

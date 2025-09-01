@@ -3,7 +3,7 @@
   SawTooth
   Testing a simple BJT saw-tooth oscillator
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/BJT/SawTooth
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BJT/SawTooth
 
  */
 

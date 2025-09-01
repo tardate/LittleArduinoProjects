@@ -3,7 +3,7 @@
   StepperMotors/BipolarCDTrayDrive/SimpleHBridge
   Testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, using a bespoke H-bridge circuit and Arduino .. or pushbuttons!
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/StepperMotors/BipolarCDTrayDrive/SimpleHBridge
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/StepperMotors/BipolarCDTrayDrive/SimpleHBridge
 
  */
 

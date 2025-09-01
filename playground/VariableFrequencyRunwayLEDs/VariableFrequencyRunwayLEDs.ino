@@ -7,7 +7,7 @@
   The LED clock frequencies mentioned below are those achieved on a breadboard build
   with oscilloscope attached .. YMMV
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/VariableFrequencyRunwayLEDs
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/VariableFrequencyRunwayLEDs
 
  */
 

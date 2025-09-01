@@ -3,7 +3,7 @@
   ATtiny/AnalogComparator
   Testing the ATtiny85 built-in analog comparator
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/ATtiny/AnalogComparator
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/ATtiny/AnalogComparator
 
  */
 

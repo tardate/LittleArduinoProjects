@@ -3,7 +3,7 @@
   VoltageSelfMeasurement
   Self-measurement of an Arduino's supply voltage (Vcc).
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/VoltageSelfMeasurement
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/VoltageSelfMeasurement
 
  */
 

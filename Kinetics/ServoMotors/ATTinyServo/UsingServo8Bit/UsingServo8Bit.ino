@@ -3,7 +3,7 @@
   UsingServo8Bit
   NB: this doesn't work properly
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/ServoMotors/ATTinyServo
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/ServoMotors/ATTinyServo
 
  */
 

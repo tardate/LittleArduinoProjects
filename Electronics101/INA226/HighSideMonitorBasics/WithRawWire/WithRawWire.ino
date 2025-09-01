@@ -3,7 +3,7 @@
   INA226/HighSideMonitorBasics
   Monitoring power, voltage and current using the INA226 with the Wire library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/INA226/HighSideMonitorBasics
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/INA226/HighSideMonitorBasics
 
  */
 

@@ -3,7 +3,7 @@
   cordwood/aanimate
   Run a demo animation using aaronjasso's Cordwood library
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/cordwood/aanimate
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/cordwood/aanimate
 
  */
 

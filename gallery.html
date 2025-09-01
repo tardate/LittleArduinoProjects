@@ -10,7 +10,7 @@ layout: default
         </div>
         <div class="panel-body">
 
-          <div class="tardate-gallery">
+          <div class="project-gallery">
             {% for project in site.data.catalog %}
               {% assign project_path = project["relative_path"] %}
               {% assign project_name = project_path | split: "/" | last %}

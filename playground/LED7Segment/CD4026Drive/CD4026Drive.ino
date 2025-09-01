@@ -3,7 +3,7 @@
   LED7Segment/CD4026Drive
   Driving a 7-segment display with CD4026 Counter
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/CD4026Drive
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/CD4026Drive
 
  */
 

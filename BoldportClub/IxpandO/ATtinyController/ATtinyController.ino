@@ -3,7 +3,7 @@
   IxpandO/ATtinyController
   Using an ATtiny85 to drive the Boldport IxpandO MCP23017-based I²C IO expansion board.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/IxpandO/ATtinyController
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/IxpandO/ATtinyController
 
  */
 

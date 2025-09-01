@@ -5,7 +5,7 @@
 
   This is based on the sample at http://playground.arduino.cc/Main/RotaryEncoders#Example2
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RotaryEncoderMethods
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RotaryEncoderMethods
 
  */
 

@@ -3,7 +3,7 @@
   PowerMeter
   A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Equipment/PowerMeter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Equipment/PowerMeter
 
  */
 

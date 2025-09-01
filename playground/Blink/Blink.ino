@@ -2,7 +2,7 @@
   Blink
   Turns on an LED on and off repeatedly
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/Blink
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/Blink
  */
 
 #define LED_PIN 13  // pin 13 has an LED connected on most Arduino boards

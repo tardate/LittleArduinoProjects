@@ -3,7 +3,7 @@
   IxpandO
   Demo with LEDs connected to bank B (GPB) and DIP switches connected to bank A (GPA)
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/BoldportClub/IxpandO
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/BoldportClub/IxpandO
 
  */
 

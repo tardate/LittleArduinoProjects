@@ -3,7 +3,7 @@
   RGBLedModule
   Demo an RGB LED module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RGBLedModule
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RGBLedModule
 
  */
 

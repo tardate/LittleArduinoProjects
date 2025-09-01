@@ -3,7 +3,7 @@
   LEDCubes/Mini4
   Drive a mini 4x4x4 LED cube with a 3x74HC595 register interface
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LEDCubes/Mini4
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LEDCubes/Mini4
 
  */
 

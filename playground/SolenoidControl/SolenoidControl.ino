@@ -3,7 +3,7 @@
   SolenoidControl
   Controlling a mini solenoid with an Arduino
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/SolenoidControl
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/SolenoidControl
 
  */
 

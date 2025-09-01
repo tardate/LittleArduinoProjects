@@ -5,7 +5,7 @@
 
   Note: the addressing protocol used here is specific to AT24 models under 16k
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/EEPROM/AT24C02/BasicReadWrite
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/EEPROM/AT24C02/BasicReadWrite
 
  */
 

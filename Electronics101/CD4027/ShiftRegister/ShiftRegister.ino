@@ -2,7 +2,7 @@
 
   ShiftRegister
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/CD4027/ShiftRegister
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/CD4027/ShiftRegister
 
  */
 

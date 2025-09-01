@@ -3,7 +3,7 @@
   Monostable
   Uses an Arduino to drive a monostable 555 circuit and pipe the output to processing
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/555Timer/Monostable
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/555Timer/Monostable
 
 */
 

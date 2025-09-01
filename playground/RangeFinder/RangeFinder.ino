@@ -3,7 +3,7 @@
   RangeFinder
   Measure distance with HC-SR04 and print to LCD output.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RangeFinder
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RangeFinder
 
  */
 
@@ -64,4 +64,3 @@ void setMeasuring() {
   lcd.clear();
   lcd.print("measuring...");
 }
-

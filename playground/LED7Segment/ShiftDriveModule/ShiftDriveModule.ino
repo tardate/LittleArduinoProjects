@@ -3,7 +3,7 @@
   LED7Segment/ShiftDriveModule
   Test a custom 7-segment display module PCB with 74HC595 shift register interface
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LED7Segment/ShiftDriveModule
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LED7Segment/ShiftDriveModule
 
  */
 

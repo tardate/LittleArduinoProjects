@@ -3,7 +3,7 @@
   QuadLatch
   Use an Arduino to demonstrate a basic 74LS75 Quad Latch driver circuit
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/QuadLatch
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/QuadLatch
 
  */
 

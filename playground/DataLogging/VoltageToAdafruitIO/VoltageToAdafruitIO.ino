@@ -3,7 +3,7 @@
   DataLogging/VoltageToAdafruitIO
   __subtitle__
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/DataLogging/VoltageToAdafruitIO
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/DataLogging/VoltageToAdafruitIO
 
  */
 #include <SPI.h>

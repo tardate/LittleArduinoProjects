@@ -2,7 +2,7 @@
   ServoTest
   Test the positioning accuracy of a servo motor.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Kinetics/ServoMotors/ServoTest
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Kinetics/ServoMotors/ServoTest
 
  */
 

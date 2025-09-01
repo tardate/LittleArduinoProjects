@@ -1,4 +1,4 @@
-A 2.4GHz channel scanner for the nRF24l01+ with LCD display. See https://github.com/tardate/LittleArduinoProjects/tree/master/playground/nRF24/Scanner            
+A 2.4GHz channel scanner for the nRF24l01+ with LCD display. See https://github.com/tardate/LittleArduinoProjects/tree/main/playground/nRF24/Scanner
 How to use：
 
 At editor, Click the document icon on the topbar, via "Document" > "Open" > "EasyEDA Source", and select json file, then open it at the editor.

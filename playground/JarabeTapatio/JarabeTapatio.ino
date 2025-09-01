@@ -4,7 +4,7 @@
 
   Play The Mexican Hat Dance on a piezo buzzer!
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/JarabeTapatio
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/JarabeTapatio
 
  */
 

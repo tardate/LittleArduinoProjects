@@ -3,7 +3,7 @@
   LCD/I2CAdapter
   Using an I²C adapter to reduce the Arduino pins needed to drive an LCD.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/LCD/I2CAdapter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/LCD/I2CAdapter
 
  */
 

@@ -3,7 +3,7 @@
   AD9833/BasicDemoCycle
   Run a basic waveform demo with an AD9833 module
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/AD9833/BasicDemoCycle
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/AD9833/BasicDemoCycle
 
  */
 

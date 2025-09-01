@@ -3,7 +3,7 @@
   DigitalPots/MCP4017
   Demonstrate control of an MCP4017 digital potentiometer.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/DigitalPots/MCP4017
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/DigitalPots/MCP4017
 
  */
 

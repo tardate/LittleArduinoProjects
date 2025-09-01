@@ -3,7 +3,7 @@
   PublishingInternals
   Publishing live ESP32 system internals to the web
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/ESP32/PublishingInternals
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/ESP32/PublishingInternals
 
  */
 

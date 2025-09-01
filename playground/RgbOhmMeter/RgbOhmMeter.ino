@@ -3,7 +3,7 @@
   RgbOhmMeter
   An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the bes-matched E24 standard resistor color code for the measured resistance.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/playground/RgbOhmMeter
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/playground/RgbOhmMeter
 
  */
 

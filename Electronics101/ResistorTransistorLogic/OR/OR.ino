@@ -3,7 +3,7 @@
   ResistorTransistorLogic/OR
   Test the basic resistor-transistor logic OR gate
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ResistorTransistorLogic/OR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/ResistorTransistorLogic/OR
 
  */
 
@@ -59,4 +59,3 @@ void sample() {
   }
   Serial.println(result);
 }
-

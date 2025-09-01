@@ -3,7 +3,7 @@
   ResistorTransistorLogic/XOR
   Test the basic resistor-transistor logic XOR gate
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/master/Electronics101/ResistorTransistorLogic/XOR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/ResistorTransistorLogic/XOR
 
  */
 
@@ -59,4 +59,3 @@ void sample() {
   }
   Serial.println(result);
 }
-
