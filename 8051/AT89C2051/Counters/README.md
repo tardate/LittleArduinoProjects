@@ -1,4 +1,4 @@
-# #788 Counters
+# #788 AT89C2051 Counters
 
 Using an 8051 timer register as a counter with the AT89C2051.
 Demonstrates a manually triggered counter with the current count printed to an LCD.
