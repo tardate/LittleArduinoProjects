@@ -100,9 +100,9 @@
           </div>\
           ';
           cell = $('td:eq(1)', row)
-          cell.addClass('xtardate-link')
+          cell.addClass('linked')
           cell.addClass('hidden-xs')
-          cell.attr('data-url', project_url)
+          cell.attr('data-url', project_rel_url)
           cell.html(description_cell);
           return cell
         }
