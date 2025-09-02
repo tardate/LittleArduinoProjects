@@ -42,6 +42,23 @@ To transform the output from stage 3 (sine) to cosine, we use the final OpAmp un
 
 [![opamp_integrator](./assets/opamp_inverting.png)](https://www.electronics-tutorials.ws/opamp/opamp_2.html)
 
+### Construction
+
+Designed with Fritzing: see [FunctionGenerator.fzz](./FunctionGenerator.fzz).
+
+The Arduino only acts as a measurement device in this circuit. For simplicity, the circuit is powered from the Arduino 5V pin.
+That works fine, although it is equally possible to use a separate power supply (but ensuring there is a common ground connection).
+
+![The Breadboard](./assets/FunctionGenerator_bb.jpg?raw=true)
+
+![The Schematic](./assets/FunctionGenerator_schematic.jpg?raw=true)
+
+![The Build](./assets/FunctionGenerator_build.jpg?raw=true)
+
+### The Sketch
+
+See [FunctionGenerator.ino](./FunctionGenerator.ino).
+
 ### Measured Behaviour
 
 [LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/)
@@ -56,19 +73,6 @@ The behaviour is demonstrated in the following trace with R4 variable resistor a
 * Stage 1 (lower trace) is the square wave output
 
 ![processing trace](./assets/processing_trace.png?raw=true)
-
-### Construction
-
-Designed with Fritzing: see [FunctionGenerator.fzz](./FunctionGenerator.fzz).
-
-The Arduino only acts as a measurement device in this circuit. For simplicity, the circuit is powered from the Arduino 5V pin.
-That works fine, although it is equally possible to use a separate power supply (but ensuring there is a common ground connection).
-
-![The Breadboard](./assets/FunctionGenerator_bb.jpg?raw=true)
-
-![The Schematic](./assets/FunctionGenerator_schematic.jpg?raw=true)
-
-![The Build](./assets/FunctionGenerator_build.jpg?raw=true)
 
 ## Credits and References
 

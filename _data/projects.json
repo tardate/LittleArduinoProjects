@@ -6664,7 +6664,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/nor7402/": {
+    "/electronics101/74ls02/nor/": {
         "id": 72,
         "title": "NOR7402",
         "summary": "demo the 74LS02 Quad 2-input NOR gate with an Arduino",

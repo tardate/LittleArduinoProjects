@@ -7174,10 +7174,10 @@
         "name": "NOR7402",
         "description": "demo the 74LS02 Quad 2-input NOR gate with an Arduino",
         "categories": "CMOS/TTL, Arduino, 74LS02",
-        "relative_path": "electronics101/nor7402",
+        "relative_path": "electronics101/74ls02/nor",
         "updated_at": "2017-05-24T15:39:45Z",
         "created_at": "2017-05-24T15:39:45Z",
-        "original_relative_path": "Electronics101/NOR7402"
+        "original_relative_path": "Electronics101/74LS02/NOR"
     },
     {
         "id": "#071",

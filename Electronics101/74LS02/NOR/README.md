@@ -2,6 +2,8 @@
 
 Use an Arduino to demonstrate a basic 74LS02 Quad 2-input NOR gate circuit, and plot the results with [Processing](https://www.processing.org).
 
+![The Build](./assets/NOR_build.jpg?raw=true)
+
 ## Notes
 
 The 74LS02 Quad 2-input NOR gate is from the [7400 series](http://en.wikipedia.org/wiki/7400_series) of TTL integrated circuits.
@@ -28,6 +30,20 @@ This circuit demonstrates the basic operation.
 It uses the Arduino to sequence inputs through the truth table on a single NOR gate.
 The NOR gate output drives an LED and is also measured by the Arduino with an analog input.
 
+### Construction
+
+Designed with Fritzing: see [NOR.fzz](./NOR.fzz).
+
+![The Breadboard](./assets/NOR_bb.jpg?raw=true)
+
+![The Schematic](./assets/NOR_schematic.jpg?raw=true)
+
+![The Build](./assets/NOR_build.jpg?raw=true)
+
+### The Sketch
+
+See [NOR.ino](./NOR.ino).
+
 ### Behaviour
 
 Here's a sample trace taken with
@@ -36,14 +52,6 @@ The lower two traces are the gate inputs, and the upper trace is the gate output
 The HIGH output voltage measures at 3.42V (a tad over typical value according to the datasheet)
 
 ![processing trace](./assets/processing_trace.png?raw=true)
-
-### Construction
-
-![The Breadboard](./assets/NOR7402_bb.jpg?raw=true)
-
-![The Schematic](./assets/NOR7402_schematic.jpg?raw=true)
-
-![The Build](./assets/NOR7402_build.jpg?raw=true)
 
 ## Credits and References
 

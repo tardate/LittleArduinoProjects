@@ -8113,13 +8113,13 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/nor7402/</id>
-    <link href="https://leap.tardate.com/electronics101/nor7402/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/nor7402/assets/nor7402_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/74ls02/nor/</id>
+    <link href="https://leap.tardate.com/electronics101/74ls02/nor/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74ls02/nor/assets/nor_build.jpg</g:image_link>
     <updated>2017-05-24T15:39:45Z</updated>
     <title>#072 NOR7402</title>
     <summary>demo the 74LS02 Quad 2-input NOR gate with an Arduino</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demo the 74LS02 Quad 2-input NOR gate with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/nor7402/assets/nor7402_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;demo the 74LS02 Quad 2-input NOR gate with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74ls02/nor/assets/nor_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
     <category term="74LS02"/>
