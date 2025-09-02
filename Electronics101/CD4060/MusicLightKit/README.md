@@ -94,6 +94,7 @@ This is the schematic available from most vendors:
 * [C1815 datasheet](https://www.futurlec.com/Transistors/C1815.shtml)
 * [S9012 datasheet](https://www.futurlec.com/Transistors/S9012.shtml)
 * [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4060/>
 * [1N4148 datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [LEAP#292 AudioEffectsChips/H823](../../../Audio/AudioEffectsChips/H823) - testing the music chip that came with this kit
 * [LEAP#293 CD4060/RCOscillator](../RCOscillator) - testing an CD4060 driven by an RC oscillator

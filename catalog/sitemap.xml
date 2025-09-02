@@ -1,6 +1,9 @@
 <?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://leap.tardate.com/electronics101/cd4011/srlatch/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/8051/at89c2051/counters/</loc>
   </url>
   <url>
@@ -2140,7 +2143,7 @@
     <loc>https://leap.tardate.com/playground/monostablepulseextender/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/monostable122/</loc>
+    <loc>https://leap.tardate.com/electronics101/74ls122/monostable/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/ir/testir/</loc>
@@ -2149,7 +2152,7 @@
     <loc>https://leap.tardate.com/electronics101/quadnor/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/nor7402/</loc>
+    <loc>https://leap.tardate.com/electronics101/74ls02/nor/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/attiny/tinyblink/</loc>
@@ -2206,7 +2209,7 @@
     <loc>https://leap.tardate.com/playground/relaymoduletest/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/functiongenerator324/</loc>
+    <loc>https://leap.tardate.com/electronics101/lm324/functiongenerator/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/comparator741/</loc>
@@ -2257,7 +2260,7 @@
     <loc>https://leap.tardate.com/playground/electrettrigger/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/noninverting324/</loc>
+    <loc>https://leap.tardate.com/electronics101/lm324/noninverting/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/playground/rangefinder/</loc>

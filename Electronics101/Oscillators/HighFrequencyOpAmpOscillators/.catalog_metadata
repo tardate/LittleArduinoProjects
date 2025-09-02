@@ -2,7 +2,7 @@
     "id": "#142",
     "name": "High-frequency OpAmp Oscillators",
     "description": "how fast can you push an Op-Amp oscillator?",
-    "categories": "OpAmp, Oscillators",
+    "categories": "OpAmp, Oscillators, NE5534, LF347, TL072, LM741, LM324",
     "relative_path": "Electronics101/Oscillators/HighFrequencyOpAmpOscillators",
     "updated_at": "2024-04-10T06:20:22Z",
     "created_at": "2024-04-10T06:20:22Z"

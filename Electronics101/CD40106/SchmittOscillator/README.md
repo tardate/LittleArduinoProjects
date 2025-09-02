@@ -73,6 +73,7 @@ Top/tail distortion quite extreme with 220Ω and C=10nF:
 ## Credits and References
 
 * [CD40106 Datasheet](https://www.futurlec.com/4000Series/CD40106.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-40106/>
 * [Schmitt Trigger Oscillators?!](https://forum.arduino.cc/t/schmitt-trigger-oscillators/144197) in the Arduino forums
 * [Schmitt Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html) - very informative; compares LS14 with alternatives for waveform generation.
 * [Circuit Properties of LS and HC Digital Logic](https://mysite.du.edu/~etuttle/electron/elect13.htm)

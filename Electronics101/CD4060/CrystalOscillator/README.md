@@ -63,6 +63,7 @@ theoretical frequency.
 ## Credits and References
 
 * [CD4060 datasheet](https://www.futurlec.com/4000Series/CD4060.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4060/>
 * [Flip-flops](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia
 * [LEAP#293 CD4060/RCOscillator](../RCOscillator) - similar circuit but RC controlled
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap294-cd4060-crystal-oscillator.html)

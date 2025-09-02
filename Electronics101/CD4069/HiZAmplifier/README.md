@@ -202,5 +202,6 @@ With 4096 inverters, it is important to verify that the chip is really unbuffere
 * [CD4069UBMS Datasheet (Intersil)](https://www.renesas.com/en/document/dst/cd4069ubms-datasheet)
 * [CD4069UB TI Product Info](https://www.ti.com/product/CD4069UB)
 * [TC4069UBP Toshiba Product Info](https://toshiba.semicon-storage.com/ap-en/semiconductor/product/general-purpose-logic-ics/detail.TC4069UBP.html)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4069/>
 * [74LS04 Datasheet](https://www.futurlec.com/74LS/74LS04.shtml)
 * [CD40106BC Datasheet](https://www.mouser.com/datasheet/2/308/cd40106bc-1190732.pdf)

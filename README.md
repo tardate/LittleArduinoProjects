@@ -1,6 +1,6 @@
-# 788 Little Electronic Art Projects
+# 789 Little Electronic Art Projects
 
-> Latest addition :sparkles: [AT89C2051 Counters](./8051/AT89C2051/Counters) - Using an 8051 timer register as a counter with the AT89C2051. Demonstrates a manually triggered counter with the current count printed to an LCD.
+> Latest addition :sparkles: [CD4011 SR Latch](./Electronics101/CD4011/SRLatch) - Set-Reset latch implemented with CD4011 NAND gates
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

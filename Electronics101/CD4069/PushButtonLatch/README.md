@@ -49,5 +49,6 @@ Note:
 ## Credits and References
 
 * [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4069/>
 * [Push button latch circuit - switch issue](https://electronics.stackexchange.com/questions/651202/push-button-latch-circuit-switch-issue)
 * [Pushbutton switch discussions - steveschnepp](https://github.com/tardate/LittleArduinoProjects/issues/36)

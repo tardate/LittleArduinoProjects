@@ -1,4 +1,14 @@
 {
+    "/electronics101/cd4011/srlatch/": {
+        "id": 789,
+        "title": "CD4011 SR Latch",
+        "summary": "Set-Reset latch implemented with CD4011 NAND gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL",
+            "CD4011"
+        ]
+    },
     "/8051/at89c2051/counters/": {
         "id": 788,
         "title": "AT89C2051 Counters",
@@ -4054,7 +4064,8 @@
         "summary": "building a D Latch with 74LS00 NAND gates",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "74LS00"
         ]
     },
     "/electronics101/connectors/rf/": {
@@ -4069,10 +4080,11 @@
     "/electronics101/digitallogic/srlatchwithnandgates/": {
         "id": 346,
         "title": "NAND Gate SR Latch",
-        "summary": "Set-Reset latch implemented with NAND gates",
+        "summary": "Set-Reset latch implemented with 74LS00 NAND gates",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "74LS00"
         ]
     },
     "/boldportclub/mostap/": {
@@ -4533,6 +4545,7 @@
         "summary": "examine a classic CD4070 oscillator design and variations",
         "tags": [
             "CMOS/TTL",
+            "CD4069",
             "CD4070",
             "Oscillators"
         ]
@@ -5234,7 +5247,9 @@
         "summary": "build and test a Music Box kit, and run a demonstration under Arduino control",
         "tags": [
             "Music",
-            "Arduino"
+            "Arduino",
+            "CD4011",
+            "CD4066"
         ]
     },
     "/kinetics/fq777-954/teardown/": {
@@ -5409,7 +5424,10 @@
         "summary": "test a CMOS frequency counter circuit with 100Hz - 5MHz range",
         "tags": [
             "CMOS/TTL",
-            "Oscillators"
+            "Oscillators",
+            "CD4026",
+            "CD4047",
+            "NE5534"
         ]
     },
     "/electronics101/cd4047/astableoscillator/": {
@@ -5733,7 +5751,7 @@
     },
     "/electronics101/scrlatch/": {
         "id": 172,
-        "title": "SCRLatch",
+        "title": "SCR Latch",
         "summary": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)",
         "tags": [
             "SCR",
@@ -5835,7 +5853,8 @@
         "title": "ML741/NonInvertingAmplifier",
         "summary": "test a non-inverting amplifier circuit using the ML741 discrete component opamp",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/electronics101/lm324/splitterbuffer/": {
@@ -5852,7 +5871,8 @@
         "title": "ML741/InvertingAmplifier",
         "summary": "test an inverting amplifier circuit using the ML741 discrete component opamp",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/electronics101/ml741/inverter/": {
@@ -5860,7 +5880,8 @@
         "title": "ML741/Inverter",
         "summary": "test an inverter circuit using the ML741 discrete component opamp",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/electronics101/ml741/voltagefollower/": {
@@ -5868,7 +5889,8 @@
         "title": "ML741/VoltageFollower",
         "summary": "test a voltage follower/buffer circuit with the ML741 discrete component opamp",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/equipment/mso5074fg_unboxing/": {
@@ -5919,7 +5941,8 @@
         "title": "ML741/Comparator",
         "summary": "test a comparator circuit with the ML741 discrete component opamp",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/electronics101/ml741/": {
@@ -5927,7 +5950,8 @@
         "title": "ML741",
         "summary": "an LM741-style OpAmp built with discrete components",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/playground/lcd5110/juliansu8glibdemo/": {
@@ -5999,7 +6023,12 @@
         "summary": "how fast can you push an Op-Amp oscillator?",
         "tags": [
             "OpAmp",
-            "Oscillators"
+            "Oscillators",
+            "NE5534",
+            "LF347",
+            "TL072",
+            "LM741",
+            "LM324"
         ]
     },
     "/electronics101/crystaltester/": {
@@ -6593,10 +6622,11 @@
     "/electronics101/digitallogic/srlatchwithnorgates/": {
         "id": 77,
         "title": "NOR Gate SR Latch",
-        "summary": "Set-Reset latch implemented with NOR gates",
+        "summary": "Set-Reset latch implemented with 74LS02 NOR gates",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "74LS02"
         ]
     },
     "/playground/monostablepulseextender/": {
@@ -6608,7 +6638,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/monostable122/": {
+    "/electronics101/74ls122/monostable/": {
         "id": 75,
         "title": "Monostable 74LS122",
         "summary": "simple pulse trigger using 74LS122 monostable with external timing configuration",
@@ -6634,13 +6664,14 @@
             "Arduino"
         ]
     },
-    "/electronics101/nor7402/": {
+    "/electronics101/74ls02/nor/": {
         "id": 72,
         "title": "NOR7402",
         "summary": "demo the 74LS02 Quad 2-input NOR gate with an Arduino",
         "tags": [
             "CMOS/TTL",
-            "Arduino"
+            "Arduino",
+            "74LS02"
         ]
     },
     "/playground/attiny/tinyblink/": {
@@ -6812,7 +6843,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/functiongenerator324/": {
+    "/electronics101/lm324/functiongenerator/": {
         "id": 53,
         "title": "LM324 Function Generator",
         "summary": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator",
@@ -6827,7 +6858,8 @@
         "title": "Comparator741",
         "summary": "demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)",
         "tags": [
-            "OpAmp"
+            "OpAmp",
+            "LM741"
         ]
     },
     "/playground/jarabetapatio/": {
@@ -6968,7 +7000,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/noninverting324/": {
+    "/electronics101/lm324/noninverting/": {
         "id": 36,
         "title": "LM324 OpAmp Non-inverting DC Gain",
         "summary": "demo LM324 OpAmp non-inverting DC gain mode",

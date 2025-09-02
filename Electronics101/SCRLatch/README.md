@@ -1,4 +1,4 @@
-# #172 SCRLatch
+# #172 SCR Latch
 
 Exploring the behaviour of low-power silicon controlled rectifiers (SCR)
 
