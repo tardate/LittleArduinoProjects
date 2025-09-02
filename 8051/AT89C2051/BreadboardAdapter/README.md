@@ -10,7 +10,13 @@ I've been doing a few projects using the 20-pin
 AT89C2051, 8051/MCS-51 compatible chip.
 To run, it requires:
 
-* an external oscillator - I'm using 16 MHz with loading capacitors
+* an external oscillator
+    * I'm using 16 MHz with loading capacitors
+    * other crystal options:
+        * 24Mhz for performance
+        * 12MHz for time accuracy
+        * 11.0592Mhz for UART accuracy
+        * 1Mhz for power saving/performance balance
 * the RST pin to be pulled low with an RC circuit. The AT89C2051 data sheet actually specifies a RST pull-down of 50kΩ-300kΩ, but it seems important to also couple to VCC with a capacitor of 2.2µF or more.
 
 Rather than need all this external support circuitry to be setup on a breadboard when prototyping, I decided to load it all on a
@@ -29,6 +35,9 @@ The minimal support circuitry:
 Sketching out a compact design:
 
 ![module-layout](./assets/module-layout.jpg)
+
+Transferred to a small piece of protoboard.
+Note: I've hard-wired the crystal, but in retrospect it would have been better to provide sockets for easy crystal replacement.
 
 ![module-complete](./assets/module-complete.jpg)
 ![module-top](./assets/module-top.jpg)
