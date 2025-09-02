@@ -7364,10 +7364,10 @@
         "name": "LM324 Function Generator",
         "description": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator",
         "categories": "OpAmp, Oscillators, LM324",
-        "relative_path": "electronics101/functiongenerator324",
+        "relative_path": "electronics101/lm324/functiongenerator",
         "updated_at": "2023-09-14T16:38:56Z",
         "created_at": "2023-09-14T16:38:56Z",
-        "original_relative_path": "Electronics101/FunctionGenerator324"
+        "original_relative_path": "Electronics101/LM324/FunctionGenerator"
     },
     {
         "id": "#052",

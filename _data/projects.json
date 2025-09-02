@@ -6843,7 +6843,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/functiongenerator324/": {
+    "/electronics101/lm324/functiongenerator/": {
         "id": 53,
         "title": "LM324 Function Generator",
         "summary": "LM324 configured as a low-frequency square, triangle, sine, and cosine function generator",

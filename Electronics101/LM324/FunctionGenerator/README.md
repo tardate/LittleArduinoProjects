@@ -2,7 +2,7 @@
 
 Use an Arduino to monitor the behaviour of a low-frequency LM324 OpAmp waveform generator (square,triangle,sine,cosine) and plot the results with [Processing](https://www.processing.org).
 
-![The Build](./assets/FunctionGenerator324_build.jpg?raw=true)
+![The Build](./assets/FunctionGenerator_build.jpg?raw=true)
 
 ## Notes
 
@@ -44,7 +44,7 @@ To transform the output from stage 3 (sine) to cosine, we use the final OpAmp un
 
 ### Measured Behaviour
 
-[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues/)
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/)
 reads the data from the serial port and plots the output values over time, with some coloration effects thrown in for good measure.
 In other words, we're using Arduino and Processing as a basic oscilloscope ... and it kind of works, mainly because the frequency is so low.
 
@@ -59,14 +59,16 @@ The behaviour is demonstrated in the following trace with R4 variable resistor a
 
 ### Construction
 
+Designed with Fritzing: see [FunctionGenerator.fzz](./FunctionGenerator.fzz).
+
 The Arduino only acts as a measurement device in this circuit. For simplicity, the circuit is powered from the Arduino 5V pin.
 That works fine, although it is equally possible to use a separate power supply (but ensuring there is a common ground connection).
 
-![The Breadboard](./assets/FunctionGenerator324_bb.jpg?raw=true)
+![The Breadboard](./assets/FunctionGenerator_bb.jpg?raw=true)
 
-![The Schematic](./assets/FunctionGenerator324_schematic.jpg?raw=true)
+![The Schematic](./assets/FunctionGenerator_schematic.jpg?raw=true)
 
-![The Build](./assets/FunctionGenerator324_build.jpg?raw=true)
+![The Build](./assets/FunctionGenerator_build.jpg?raw=true)
 
 ## Credits and References
 

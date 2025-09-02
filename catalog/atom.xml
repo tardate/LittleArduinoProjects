@@ -8330,13 +8330,13 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/functiongenerator324/</id>
-    <link href="https://leap.tardate.com/electronics101/functiongenerator324/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/functiongenerator324/assets/functiongenerator324_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/lm324/functiongenerator/</id>
+    <link href="https://leap.tardate.com/electronics101/lm324/functiongenerator/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/lm324/functiongenerator/assets/functiongenerator_build.jpg</g:image_link>
     <updated>2023-09-14T16:38:56Z</updated>
     <title>#053 LM324 Function Generator</title>
     <summary>LM324 configured as a low-frequency square, triangle, sine, and cosine function generator</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;LM324 configured as a low-frequency square, triangle, sine, and cosine function generator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/functiongenerator324/assets/functiongenerator324_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;LM324 configured as a low-frequency square, triangle, sine, and cosine function generator&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/lm324/functiongenerator/assets/functiongenerator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Oscillators"/>
     <category term="LM324"/>
