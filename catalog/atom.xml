@@ -8521,13 +8521,13 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/noninverting324/</id>
-    <link href="https://leap.tardate.com/electronics101/noninverting324/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/noninverting324/assets/noninverting324_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/lm324/noninverting/</id>
+    <link href="https://leap.tardate.com/electronics101/lm324/noninverting/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/lm324/noninverting/assets/noninverting_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
     <title>#036 LM324 OpAmp Non-inverting DC Gain</title>
     <summary>demo LM324 OpAmp non-inverting DC gain mode</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demo LM324 OpAmp non-inverting DC gain mode&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/noninverting324/assets/noninverting324_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;demo LM324 OpAmp non-inverting DC gain mode&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/lm324/noninverting/assets/noninverting_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="LM324"/>
   </entry>

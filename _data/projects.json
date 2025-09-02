@@ -7000,7 +7000,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/noninverting324/": {
+    "/electronics101/lm324/noninverting/": {
         "id": 36,
         "title": "LM324 OpAmp Non-inverting DC Gain",
         "summary": "demo LM324 OpAmp non-inverting DC gain mode",
