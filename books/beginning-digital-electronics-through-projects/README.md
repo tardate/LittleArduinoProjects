@@ -31,7 +31,7 @@ Digital electronics is a little more abstract than analog electronics, and tryin
 | Project 12 - Schmitt Triangle Generator                       | [LEAP#031 555 Timer - Triangle Wave Generator](../../Electronics101/555Timer/TriangleWaveGen/) |
 | Project 13 - Schmitt Switch Debouncer                         |       |
 | Project 14 - NOR gate demo                                    | [LEAP#072 NOR7402 - 74LS02 Quad 2-input NOR gate test](../../Electronics101/NOR7402/) |
-| Project 15 - SCR Latch Demo                                   | [LEAP#172 SCRLatch](../../Electronics101/SCRLatch/) |
+| Project 15 - SCR Latch Demo                                   | [LEAP#172 SCR Latch](../../Electronics101/SCRLatch/) |
 | Project 16 - NOR Gate Latch                                   | [LEAP#077 NOR Gate SR Latch](../../Electronics101/DigitalLogic/SRLatchWithNorGates/) |
 | Project 17 - NOR Gate Metronome                               | [LEAP#114 NOR Gate Oscillator](../../Electronics101/Oscillators/NORGateOscillator/) |
 | Project 18 - 74LS122 Monostable                               | [LEAP#075 Monostable 74LS122](../../Electronics101/Monostable122/) |

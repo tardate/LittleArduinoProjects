@@ -38,6 +38,7 @@ The scope trace shows CH1 connected to OUT.
 ## Credits and References
 
 * [CD4049 datasheet](https://www.futurlec.com/4000Series/CD4049.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4049/>
 * [Relaxation oscillator](https://en.wikipedia.org/wiki/Relaxation_oscillator)
 * [Inverter-based RC oscillator and its waveform](https://www.researchgate.net/figure/nverter-based-RC-oscillator-and-its-waveform_fig1_337297970)
 * [Waveform Generators](https://www.electronics-tutorials.ws/waveforms/generators.html)

@@ -4,7 +4,6 @@ Build and test a Music Box kit, and run a demonstration under Arduino control.
 
 ![The Build](./assets/MusicBoxKit_build.jpg?raw=true)
 
-
 ## Notes
 
 This is a pretty common kit available from multiple sources, although it appears to have been originally produced by
@@ -21,7 +20,7 @@ This kit basically adds supporting circuitry on a PCB to:
 
 I demonstrate driving the module with an Arduino - very simple matter of pulling the inputs A-B-C-D high/low accordingly, master on/off thrown in for good measure. Of course, if you really wanted to use a sound chip like this with an Arduino, you could just control it directly.
 
-Does this generate good sound effects? No! Twee at best, horribly poor immitation at worst. But if you want to sound like a cheap toy, this may be
+Does this generate good sound effects? No! Twee at best, horribly poor imitation at worst. But if you want to sound like a cheap toy, this may be
 exactly what you need;-)
 
 ### Kit Specs
@@ -42,7 +41,6 @@ The kit I received contained all the parts required, including some extra resist
 
 The piezo buzzer supplied with the kit proved to be very poor match for the circuit.
 I replaced it with another I had available and improved the sound quality significantly - though it is still not great.
-
 
 ### Sound Library and Demo Program
 
@@ -81,10 +79,9 @@ It's a potted chip on a board, primarily intended to be used in toys. Details ar
 
 ![CK9561_application_schematic](./assets/CK9561_application_schematic.png?raw=true)
 
-
 ### How Switch Inputs are Multiplexed
 
-Perhaps the most interesting as pect of the module is the way it uses the two CMOS ICs to decode the switch inputs
+Perhaps the most interesting aspect of the module is the way it uses the two CMOS ICs to decode the switch inputs
 in order to control the sound module.
 
 * CD4011 is a quad two-input NAND gate
@@ -101,7 +98,6 @@ I haven't traced the entire circuit. But for example, here's the equivalent circ
 | 1              | 0              | 1          | 1          | [50kΩ](http://toolbox.tardate.com/?formula=62%7C270#ResistorCalculator) |
 | 1              | 1              | 1          | 0          | [670kΩ](http://toolbox.tardate.com/?formula=(62%7C270)%2B620#ResistorCalculator) |
 
-
 ### Driving the Module with an Arduino
 
 The [MusicBoxKit.ino](./MusicBoxKit.ino) sketch is a simple demonstration of the module.
@@ -113,7 +109,6 @@ To drive with an Arduino:
 * a low-side n-channel MOSFET is used to switch the board on and off (controlled by a digital pin)
 * 4 digital pins are used to provide the inputs A-B-C-D
 * (optional) LEDs are included to indicate the state of the 4 A-B-C-D inputs and the MOSFET gate signal
-
 
 ## Construction
 

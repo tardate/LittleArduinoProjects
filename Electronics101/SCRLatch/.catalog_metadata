@@ -1,6 +1,6 @@
 {
     "id": "#172",
-    "name": "SCRLatch",
+    "name": "SCR Latch",
     "description": "exploring the behaviour of low-power silicon controlled rectifiers (SCR)",
     "categories": "SCR, Thyristor",
     "relative_path": "Electronics101/SCRLatch",

@@ -43,5 +43,6 @@ Conclusion: the CD40106 is not as affective as the 74HC14 in this role. See [LEA
 ## Credits and References
 
 * [CD40106 Datasheet](https://www.futurlec.com/4000Series/CD40106.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-40106/>
 * See also:
     * [LEAP#593 74HC14 Inverter Voltage Multiplier](../../74HC14/VoltageMultiplier/)

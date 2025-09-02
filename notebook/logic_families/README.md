@@ -157,3 +157,4 @@ Two to eight input logic gates:
 * [7400-series logic](https://en.wikipedia.org/wiki/7400_series) - wikipedia
     * [List of 7400-series integrated circuits](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits)
 * [7400 series CMOS vs 4000 series logic IC](https://electronics.stackexchange.com/questions/223063/7400-series-cmos-vs-4000-series-logic-ic) - stackexchange
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/>

@@ -1,6 +1,6 @@
 # #346 NAND Gate SR Latch
 
-Set-Reset latch implemented with NAND gates.
+Set-Reset latch implemented with 74LS00 NAND gates.
 
 Here's a quick demo of it in action..
 
@@ -16,15 +16,14 @@ Other implementations:
 * [LEAP#061 SRLatch](../SRLatch) - using BJTs
 * [LEAP#077 SRLatchWithNorGates](../SRLatchWithNorGates) - using NOR gates
 
-The NAND gate implementatation has an undefined state with both inputs high,
-whereas a NOR gate implementatation has an undefined state with both inputs low.
+The NAND gate implementation has an undefined state with both inputs high,
+whereas a NOR gate implementation has an undefined state with both inputs low.
 
 Consequently NOR gates are typically used for active-high SR latches and NAND gates for active-low SR latches.
 A good example of this is the application in touch sensors, where active low makes sense.
 See the Boldport Club
 [tap](../../../BoldportClub/tap) and
 [mostap](../../../BoldportClub/mostap) projects for examples of this.
-
 
 ## Truth Table
 
@@ -36,7 +35,6 @@ See the Boldport Club
 |      1 |        1 | Q(t) no change |
 
 ![sr-latch-nand](./assets/sr-latch-nand.png?raw=true)
-
 
 ## Construction
 

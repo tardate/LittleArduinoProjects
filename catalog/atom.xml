@@ -4952,6 +4952,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;building a D Latch with 74LS00 NAND gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/dlatch/assets/dlatch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="74LS00"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/connectors/rf/</id>
@@ -4970,10 +4971,11 @@
     <g:image_link>https://leap.tardate.com/electronics101/digitallogic/srlatchwithnandgates/assets/srlatchwithnandgates_build.jpg</g:image_link>
     <updated>2020-09-20T04:39:01Z</updated>
     <title>#346 NAND Gate SR Latch</title>
-    <summary>Set-Reset latch implemented with NAND gates</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Set-Reset latch implemented with NAND gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/srlatchwithnandgates/assets/srlatchwithnandgates_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Set-Reset latch implemented with 74LS00 NAND gates</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Set-Reset latch implemented with 74LS00 NAND gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/srlatchwithnandgates/assets/srlatchwithnandgates_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="74LS00"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/mostap/</id>
@@ -5532,6 +5534,7 @@
     <summary>examine a classic CD4070 oscillator design and variations</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;examine a classic CD4070 oscillator design and variations&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4070/oscillator/assets/oscillator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="CD4069"/>
     <category term="CD4070"/>
     <category term="Oscillators"/>
   </entry>
@@ -6376,6 +6379,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a Music Box kit, and run a demonstration under Arduino control&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/musicboxkit/assets/musicboxkit_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Music"/>
     <category term="Arduino"/>
+    <category term="CD4011"/>
+    <category term="CD4066"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/fq777-954/teardown/</id>
@@ -6589,6 +6594,9 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test a CMOS frequency counter circuit with 100Hz - 5MHz range&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/frequencycounter/assets/frequencycounter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Oscillators"/>
+    <category term="CD4026"/>
+    <category term="CD4047"/>
+    <category term="NE5534"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4047/astableoscillator/</id>
@@ -6982,7 +6990,7 @@
     <link href="https://leap.tardate.com/electronics101/scrlatch/"/>
     <g:image_link>https://leap.tardate.com/electronics101/scrlatch/assets/scrlatch_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#172 SCRLatch</title>
+    <title>#172 SCR Latch</title>
     <summary>exploring the behaviour of low-power silicon controlled rectifiers (SCR)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;exploring the behaviour of low-power silicon controlled rectifiers (SCR)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/scrlatch/assets/scrlatch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="SCR"/>
@@ -7107,6 +7115,7 @@
     <summary>test a non-inverting amplifier circuit using the ML741 discrete component opamp</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a non-inverting amplifier circuit using the ML741 discrete component opamp&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ml741/noninvertingamplifier/assets/noninvertingamplifier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm324/splitterbuffer/</id>
@@ -7128,6 +7137,7 @@
     <summary>test an inverting amplifier circuit using the ML741 discrete component opamp</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test an inverting amplifier circuit using the ML741 discrete component opamp&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ml741/invertingamplifier/assets/invertingamplifier_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/inverter/</id>
@@ -7138,6 +7148,7 @@
     <summary>test an inverter circuit using the ML741 discrete component opamp</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test an inverter circuit using the ML741 discrete component opamp&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ml741/inverter/assets/inverter_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/voltagefollower/</id>
@@ -7148,6 +7159,7 @@
     <summary>test a voltage follower/buffer circuit with the ML741 discrete component opamp</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a voltage follower/buffer circuit with the ML741 discrete component opamp&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ml741/voltagefollower/assets/voltagefollower_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/mso5074fg_unboxing/</id>
@@ -7211,6 +7223,7 @@
     <summary>test a comparator circuit with the ML741 discrete component opamp</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a comparator circuit with the ML741 discrete component opamp&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ml741/comparator/assets/comparator_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/</id>
@@ -7221,6 +7234,7 @@
     <summary>an LM741-style OpAmp built with discrete components</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;an LM741-style OpAmp built with discrete components&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/ml741/assets/ml741_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/lcd5110/juliansu8glibdemo/</id>
@@ -7309,6 +7323,11 @@
     <content type="html">&lt;div&gt;&lt;p&gt;how fast can you push an Op-Amp oscillator?&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/oscillators/highfrequencyopamposcillators/assets/highfrequencyopamposcillators_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Oscillators"/>
+    <category term="NE5534"/>
+    <category term="LF347"/>
+    <category term="TL072"/>
+    <category term="LM741"/>
+    <category term="LM324"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/crystaltester/</id>
@@ -8032,10 +8051,11 @@
     <g:image_link>https://leap.tardate.com/electronics101/digitallogic/srlatchwithnorgates/assets/srlatchwithnorgates_build.jpg</g:image_link>
     <updated>2020-09-20T04:39:01Z</updated>
     <title>#077 NOR Gate SR Latch</title>
-    <summary>Set-Reset latch implemented with NOR gates</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Set-Reset latch implemented with NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/srlatchwithnorgates/assets/srlatchwithnorgates_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <summary>Set-Reset latch implemented with 74LS02 NOR gates</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Set-Reset latch implemented with 74LS02 NOR gates&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/digitallogic/srlatchwithnorgates/assets/srlatchwithnorgates_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="74LS02"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/monostablepulseextender/</id>
@@ -8090,6 +8110,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;demo the 74LS02 Quad 2-input NOR gate with an Arduino&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/nor7402/assets/nor7402_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
+    <category term="74LS02"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/tinyblink/</id>
@@ -8317,6 +8338,7 @@
     <summary>demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demo LM741 OpAmp comparator mode (with PWM-to-analog side-topic)&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/comparator741/assets/comparator741_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
+    <category term="LM741"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/jarabetapatio/</id>

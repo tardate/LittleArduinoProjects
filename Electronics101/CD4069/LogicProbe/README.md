@@ -76,6 +76,7 @@ Follow the link to see the simulation create by [Steve Schnepp](https://github.c
 ## Credits and References
 
 * [CD4069 datasheet](https://www.futurlec.com/4000Series/CD4069.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4069/>
 * [LEAP#636 CD4001 Logic Probe](../../CD4001/LogicProbe)
 * [CD4001/LogicProbe Improvement using CD4069UB](https://github.com/tardate/LittleArduinoProjects/issues/29) - suggestion from [Steve Schnepp](https://github.com/steveschnepp)
 * [CD4069/LogicProbe Another Improvement and some explanations](https://github.com/tardate/LittleArduinoProjects/issues/30) - another suggestion from [Steve Schnepp](https://github.com/steveschnepp)

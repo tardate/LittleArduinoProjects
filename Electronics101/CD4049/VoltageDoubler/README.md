@@ -42,5 +42,6 @@ The scope trace below captures the system in operation:
 ## Credits and References
 
 * [CD4049 datasheet](https://www.futurlec.com/4000Series/CD4049.shtml)
+* <https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4049/>
 * [Voltage Doubler Circuit - 12V to 24V](https://www.circuits-diy.com/12v-to-24v-voltage-doubler-circuit-using-cd4049-ic/)
 * [12V to 24V DC Converter Circuit](https://www.electronicshub.org/12v-24v-dc-converter-circuit/)

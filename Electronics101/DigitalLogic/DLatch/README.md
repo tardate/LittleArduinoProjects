@@ -19,7 +19,6 @@ The gated D latch is a fundamental 1-bit memory unit, and is at the core of much
 
 [![Gated_D_latch_symbol](https://upload.wikimedia.org/wikipedia/commons/c/cb/Gated_D_latch_symbol.png)](https://commons.wikimedia.org/wiki/File:Gated_D_latch_symbol.png)
 
-
 ### Truth Table
 
 | E | D | Q(t+1) | ~Q(t+1) |
@@ -28,7 +27,6 @@ The gated D latch is a fundamental 1-bit memory unit, and is at the core of much
 | 0 | 1 | Q(t)   | ~Q(t)   |
 | 1 | 0 | 0      | 1       |
 | 1 | 1 | 1      | 0       |
-
 
 ### Logic Design
 
@@ -42,7 +40,6 @@ Alternatively this can be built based on an SR NOR latch:
 
 [![D-type_Transparent_Latch_%28NOR%29](https://upload.wikimedia.org/wikipedia/commons/c/cb/D-type_Transparent_Latch_%28NOR%29.svg)](https://en.wikipedia.org/wiki/File:D-type_Transparent_Latch_(NOR).svg)
 
-
 ### Ben Eater's Tutorials
 
 Great explanations of the D latch and D Flip-Flop..
@@ -50,7 +47,6 @@ Great explanations of the D latch and D Flip-Flop..
 [![D latch](https://img.youtube.com/vi/peCh_859q7Q/0.jpg)](https://www.youtube.com/watch?v=peCh_859q7Q)
 
 [![D flip-flop](https://img.youtube.com/vi/YW-_GkUguMM/0.jpg)](https://www.youtube.com/watch?v=YW-_GkUguMM)
-
 
 ## Construction
 
@@ -60,7 +56,6 @@ I'm building this first on a breadboard using a single 74LS00 (quad two-input NA
 * the data input uses a push-button with the default position low with a 1kΩ pull-down resistor
 
 NB: the pull-down resistor can't be too stiff with the 74LS00. For example, a 10kΩ pull-down resistor allows the input to float a little too high and corrupt the input.
-
 
 ![Breadboard](./assets/DLatch_bb.jpg?raw=true)
 
@@ -77,4 +72,4 @@ NB: the pull-down resistor can't be too stiff with the 74LS00. For example, a 10
 * [D latch](https://www.youtube.com/watch?v=peCh_859q7Q&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=7) - Ben Eater
 * [D flip-flop](https://www.youtube.com/watch?v=YW-_GkUguMM&list=PLowKtXNTBypGqImE405J2565dvjafglHU&index=8) - Ben Eater
 * [7400 Series datasheets](http://www.skot9000.com/ttl/)
-* [..as mentioend on my blog](https://blog.tardate.com/2017/10/leap348-d-latch-with-nand-gates.html)
+* [..as mentioned on my blog](https://blog.tardate.com/2017/10/leap348-d-latch-with-nand-gates.html)
