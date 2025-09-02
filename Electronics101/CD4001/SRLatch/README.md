@@ -18,7 +18,7 @@ See the [LEAP#061 SRLatch](../../DigitalLogic/SRLatch) circuit for an implementa
 
 Ben Eater has a great video explaining SR latch behaviour:
 
-[![KM0DdEaY5sY](https://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](https://www.youtube.com/watch?v=KM0DdEaY5sY)
+[![clip](https://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](https://www.youtube.com/watch?v=KM0DdEaY5sY)
 
 ### Truth Table
 
@@ -43,3 +43,9 @@ Ben Eater has a great video explaining SR latch behaviour:
 * [CD4001 datasheet](https://www.futurlec.com/4000Series/CD4001.shtml)
 * [NOR-gate Latch](http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/norlatch.html)
 * [NOR gate S-R latch](http://www.allaboutcircuits.com/vol_6/chpt_7/3.html)
+
+## Video References
+
+### SR latch - Ben Eater
+
+[![clip](https://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](https://www.youtube.com/watch?v=KM0DdEaY5sY)
