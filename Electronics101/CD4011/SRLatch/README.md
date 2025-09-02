@@ -1,4 +1,4 @@
-# #xxx CD4011 SR Latch
+# #789 CD4011 SR Latch
 
 Set-Reset latch implemented with CD4011 NAND gates.
 

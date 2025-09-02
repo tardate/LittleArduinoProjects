@@ -1,4 +1,14 @@
 {
+    "/electronics101/cd4011/srlatch/": {
+        "id": 789,
+        "title": "CD4011 SR Latch",
+        "summary": "Set-Reset latch implemented with CD4011 NAND gates",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL",
+            "CD4011"
+        ]
+    },
     "/8051/at89c2051/counters/": {
         "id": 788,
         "title": "AT89C2051 Counters",
