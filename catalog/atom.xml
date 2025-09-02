@@ -8081,13 +8081,13 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/monostable122/</id>
-    <link href="https://leap.tardate.com/electronics101/monostable122/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/monostable122/assets/monostable122_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/74ls122/monostable/</id>
+    <link href="https://leap.tardate.com/electronics101/74ls122/monostable/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74ls122/monostable/assets/monostable_build.jpg</g:image_link>
     <updated>2019-09-07T08:50:36Z</updated>
     <title>#075 Monostable 74LS122</title>
     <summary>simple pulse trigger using 74LS122 monostable with external timing configuration</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;simple pulse trigger using 74LS122 monostable with external timing configuration&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/monostable122/assets/monostable122_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;simple pulse trigger using 74LS122 monostable with external timing configuration&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/74ls122/monostable/assets/monostable_build.jpg&quot; /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
   </entry>
   <entry>

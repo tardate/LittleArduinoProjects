@@ -2,7 +2,7 @@
 
 Simple pulse trigger using 74LS122 monostable with external timing configuration.
 
-![The Build](./assets/Monostable122_build.jpg?raw=true)
+![The Build](./assets/Monostable_build.jpg?raw=true)
 
 ## Notes
 
@@ -23,9 +23,11 @@ so they will toggle as the pulse goes high and low respectively.
 
 ### Construction
 
-![The Breadboard](./assets/Monostable122_bb.jpg?raw=true)
+Designed with Fritzing: see [Monostable.fzz](./Monostable.fzz).
 
-![The Schematic](./assets/Monostable122_schematic.jpg?raw=true)
+![The Breadboard](./assets/Monostable_bb.jpg?raw=true)
+
+![The Schematic](./assets/Monostable_schematic.jpg?raw=true)
 
 ## Credits and References
 

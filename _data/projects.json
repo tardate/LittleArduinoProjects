@@ -6638,7 +6638,7 @@
             "Arduino"
         ]
     },
-    "/electronics101/monostable122/": {
+    "/electronics101/74ls122/monostable/": {
         "id": 75,
         "title": "Monostable 74LS122",
         "summary": "simple pulse trigger using 74LS122 monostable with external timing configuration",
