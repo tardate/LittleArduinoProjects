@@ -1,6 +1,6 @@
-# 789 Little Electronic Art Projects
+# 790 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CD4011 SR Latch](./Electronics101/CD4011/SRLatch) - Set-Reset latch implemented with CD4011 NAND gates
+> Latest addition :sparkles: [AT89C2051 Interrupts](./8051/AT89C2051/Interrupts) - All about using 8051 interrupts with the AT89C2051. Demonstrates timer and external hardware interrupts toggling LEDs.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
