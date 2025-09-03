@@ -1,4 +1,4 @@
-# #xxx AT89C2051 Interrupts
+# #790 AT89C2051 Interrupts
 
 All about using 8051 interrupts with the AT89C2051. Demonstrates timer and external hardware interrupts toggling LEDs.
 

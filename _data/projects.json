@@ -1,4 +1,12 @@
 {
+    "/8051/at89c2051/interrupts/": {
+        "id": 790,
+        "title": "AT89C2051 Interrupts",
+        "summary": "All about using 8051 interrupts with the AT89C2051. Demonstrates timer and external hardware interrupts toggling LEDs.",
+        "tags": [
+            "8051"
+        ]
+    },
     "/electronics101/cd4011/srlatch/": {
         "id": 789,
         "title": "CD4011 SR Latch",
@@ -25,7 +33,6 @@
         "summary": "All about using 8051 timer registers with the AT89C2051",
         "tags": [
             "8051",
-            "LED",
             "Timer"
         ]
     },
