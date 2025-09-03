@@ -1,0 +1,6 @@
+{
+    "name": "AT89C2051 Interrupts",
+    "description": "All about using 8051 interrupts with the AT89C2051. Demonstrates timer and external hardware interrupts toggling LEDs.",
+    "categories": "8051",
+    "relative_path": "8051/AT89C2051/Interrupts"
+}
