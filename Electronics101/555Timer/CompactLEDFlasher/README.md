@@ -20,6 +20,10 @@ components that may be compressed into a very small package. Ideal for discrete 
 Steve Schnepp also wrote about the circuit ([Minimal NE555 Blink](https://blog.pwkf.org/2022/01/23/simplest-blink.html))
 and found the idea referenced in the [TI LMC555 datasheet](https://www.ti.com/lit/ds/symlink/lmc555.pdf).
 
+The circuit is actually a specific example of the more general
+[LEAP#517 555 Timer Fixed-duty VFO](../PrecisionVariableFrequencyFixedDuty/)
+design.
+
 ### Circuit Design
 
 Designed with Fritzing: see [CompactLEDFlasher.fzz](./CompactLEDFlasher.fzz).
