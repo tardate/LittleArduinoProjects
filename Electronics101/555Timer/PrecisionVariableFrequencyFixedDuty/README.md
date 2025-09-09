@@ -10,7 +10,7 @@ Here's a quick demo:
 
 ## Notes
 
-The conventional configuration of the 555 timer - such as in [LEADP#016 Astable Oscillator](../AstableOscillator) -
+The conventional configuration of the 555 timer - such as in [LEAP#016 Astable Oscillator](../AstableOscillator) -
 suffers from a correlation of frequency and duty cycle when variable timing elements are used.
 
 Is there an easy way to produce a variable frequency 555 oscillator with a fixed duty cycle?
@@ -18,14 +18,14 @@ There are quite a few "close but no cigar" candidates, but my interest was pique
 
 [![clip](https://img.youtube.com/vi/VJHkg8_FV-Q/0.jpg)](https://www.youtube.com/watch?v=VJHkg8_FV-Q)
 
-I played this out on a breadboard for myself, and found that in the basic configuration, duty cycle remains solidy fixed at 60%
+I played this out on a breadboard for myself, and found that in the basic configuration, duty cycle remains solidly fixed at 60%
 over the full frequency adjustment range.
 
 I've added a control voltage adjustment to the version of the circuit described below,
 which allows duty cycle to be precisely adjusted between about 10% and 90%.
 
-I call this duty cycle fine adjustment, because adjusting the duty does affect the frequency.
-but once a duty cycle has been selected, the freuqncy can be adjusted without changing the duty cycle.
+I call this duty cycle fine adjustment, because adjusting the duty does affect the frequency,
+but once a duty cycle has been selected, the frequency can be adjusted without changing the duty cycle.
 
 ## Circuit
 
@@ -46,8 +46,8 @@ The default duty cycle (without any control voltage input) is 60%, VCC is 5V. Th
 
 * CH1 (Yellow) - discharge pin - oscillates between 0V and 3.84V
 * CH2 (Blue) - C1 cathode i.e. threshold/trigger pin - 1.68V to 3.36V
-* CH3 (Red) - control pin - 3.36V
-* CH4 (Green) - output pin - oscillates between 0V and 4.64V
+* CH3 (Red) - output pin - oscillates between 0V and 4.64V
+* CH4 (Green) - control pin - 3.36V
 
 ![scope_default_duty](./assets/scope_default_duty.gif?raw=true)
 
@@ -55,8 +55,8 @@ With control voltage input to adjust duty cycle to 50%, VCC is 5V. The scope sho
 
 * CH1 (Yellow) - discharge pin - oscillates between 0V and 3.84V
 * CH2 (Blue) - C1 cathode i.e. threshold/trigger pin - 1.28V to 2.88V
-* CH3 (Red) - control pin - 2.88V
-* CH4 (Green) - output pin - oscillates between 0V and 4.72V
+* CH3 (Red) - output pin - oscillates between 0V and 4.72V
+* CH4 (Green) - control pin - 2.88V
 
 ![scope_50pc_duty](./assets/scope_50pc_duty.gif?raw=true)
 
