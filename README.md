@@ -1,6 +1,6 @@
-# 790 Little Electronic Art Projects
+# 791 Little Electronic Art Projects
 
-> Latest addition :sparkles: [AT89C2051 Interrupts](./8051/AT89C2051/Interrupts) - All about using 8051 interrupts with the AT89C2051. Demonstrates timer and external hardware interrupts toggling LEDs.
+> Latest addition :sparkles: [555 Breadboard Pulse Generator](./Electronics101/555Timer/BreadboardPulseGen) - A 555 timer-based square wave generator designed for use on a breadboard. Provides variable frequency control in 4 ranges, with a fixed (adjustable) duty cycle.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

@@ -1,4 +1,4 @@
-# #xxx 555 Breadboard Pulse Generator
+# #791 555 Breadboard Pulse Generator
 
 A 555 timer-based square wave generator designed for use on a breadboard. Provides variable frequency control in 4 ranges, with a fixed (adjustable) duty cycle.
 
