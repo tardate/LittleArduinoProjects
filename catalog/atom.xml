@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-09-03T10:29:00Z</updated>
+  <updated>2025-09-10T13:39:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/breadboardpulsegen/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/breadboardpulsegen/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/breadboardpulsegen/assets/breadboardpulsegen_build.jpg</g:image_link>
+    <updated>2025-09-10T13:39:00Z</updated>
+    <title>#791 555 Breadboard Pulse Generator</title>
+    <summary>A 555 timer-based square wave generator designed for use on a breadboard. Provides variable frequency control in 4 ranges, with a fixed (adjustable) duty cycle.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A 555 timer-based square wave generator designed for use on a breadboard. Provides variable frequency control in 4 ranges, with a fixed (adjustable) duty cycle.&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/555timer/breadboardpulsegen/assets/breadboardpulsegen_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+    <category term="Breadboard Bling"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/8051/at89c2051/interrupts/</id>
     <link href="https://leap.tardate.com/8051/at89c2051/interrupts/"/>

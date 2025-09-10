@@ -75,7 +75,7 @@ Conclusions:
 
 * oscillation breaks down at the upper and lower voltage ranges
 * at the upper limits, it swings to full "on"
-* at the lower limits, it swings to full "off". It begins to tailoff below about 2.4V
+* at the lower limits, it swings to full "off". It begins to tail off below about 2.4V
 * there's good control of frequencies between 361 Hz (8.52V) and 670 Hz (2.4V)
 * but the effect on duty cycle is even more pronounced
 

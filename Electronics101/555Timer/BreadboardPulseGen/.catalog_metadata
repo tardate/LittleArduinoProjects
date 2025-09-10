@@ -1,0 +1,9 @@
+{
+    "name": "555 Breadboard Pulse Generator",
+    "description": "A 555 timer-based square wave generator designed for use on a breadboard. Provides variable frequency control in 4 ranges, with a fixed (adjustable) duty cycle.",
+    "categories": "555 Timer, Breadboard Bling, Oscillators",
+    "relative_path": "Electronics101/555Timer/BreadboardPulseGen",
+    "updated_at": "2025-09-10T13:39:00Z",
+    "created_at": "2025-09-10T13:39:00Z",
+    "id": "#791"
+}
