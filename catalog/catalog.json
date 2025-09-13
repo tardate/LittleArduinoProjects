@@ -923,7 +923,7 @@
         "id": "#699",
         "name": "LM336 Voltage Reference",
         "description": "Exploring the LM336 precision reference and testing the minimum temperature coefficient circuit design.",
-        "categories": "Voltage Reference, LM336, 1N60P",
+        "categories": "Voltage Reference, Breadboard Bling, LM336, 1N60P",
         "relative_path": "electronics101/voltagereference/lm336",
         "updated_at": "2025-03-14T08:26:00Z",
         "created_at": "2025-03-14T08:26:00Z",

@@ -825,6 +825,7 @@
         "summary": "Exploring the LM336 precision reference and testing the minimum temperature coefficient circuit design.",
         "tags": [
             "Voltage Reference",
+            "Breadboard Bling",
             "LM336",
             "1N60P"
         ]
