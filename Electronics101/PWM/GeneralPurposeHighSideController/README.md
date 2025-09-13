@@ -6,7 +6,7 @@ Build and test a general-purpose high-side PWM controller
 
 ## Notes
 
-This circuit cobines a variable-duty cycle PWM generator with a high-side p-channel MOSFET driver circuit,
+This circuit combines a variable-duty cycle PWM generator with a high-side p-channel MOSFET driver circuit,
 making it suitable for controlling loads up to 15V/23A.
 
 ### PWM Generator
@@ -55,6 +55,8 @@ At minimum duty cycle (~1.25%):
 At maximum duty cycle, the output approaches 100% fully on.
 
 ## Construction
+
+Designed with Fritzing: see [GeneralPurposeHighSideController.fzz](./GeneralPurposeHighSideController.fzz).
 
 ![Breadboard](./assets/GeneralPurposeHighSideController_bb.jpg?raw=true)
 

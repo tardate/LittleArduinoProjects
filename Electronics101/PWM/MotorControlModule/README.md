@@ -34,7 +34,8 @@ Taking a closer look at the module, it basically comprises:
 * low-side MOSFET (NIKOS P0903BDG) controls the output
 * NOTE: output connections share a common +ve with power input, but **not** a common ground
 
-Here's my re-drawing of the module circuit in Fritzing:
+Here's my re-drawing of the module circuit
+designed with Fritzing: see [MotorControlModule.fzz](./MotorControlModule.fzz).
 
 ![bb](./assets/MotorControlModule_bb.jpg?raw=true)
 
@@ -62,6 +63,6 @@ Tracing the output:
 
 ## Credits and References
 
-* [5V 12V 10A Voltage Regulator PWM DC Motor Speed Controller Governor Stepless Speed Regulator LED Dimmer Power Controller](https://www.aliexpress.com/item/1005006509700866.html) - aliexpress
+* [5V 12V 10A Voltage Regulator PWM DC Motor Speed Controller Governor Step-less Speed Regulator LED Dimmer Power Controller](https://www.aliexpress.com/item/1005006509700866.html) - aliexpress
 * [NIKOS P0903BDG](http://www.cheertech.com.tw/Niko-sem/Data%20sheet/P0903BDG.pdf)
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
