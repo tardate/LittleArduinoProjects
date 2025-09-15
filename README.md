@@ -1,6 +1,6 @@
-# 791 Little Electronic Art Projects
+# 792 Little Electronic Art Projects
 
-> Latest addition :sparkles: [555 Breadboard Pulse Generator](./Electronics101/555Timer/BreadboardPulseGen) - A 555 timer-based square wave generator designed for use on a breadboard. Provides variable frequency control in 4 ranges, with a fixed (adjustable) duty cycle.
+> Latest addition :sparkles: [555 Breadboard PWM Generator](./Electronics101/555Timer/BreadboardPWMGen) - A simple PWM generator circuit using the 555 timer IC designed for use on a breadboard.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
