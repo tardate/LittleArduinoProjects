@@ -1,4 +1,4 @@
-# #xxx 555 Breadboard PWM Generator
+# #792 555 Breadboard PWM Generator
 
 A simple PWM generator circuit using the 555 timer IC designed for use on a breadboard.
 
