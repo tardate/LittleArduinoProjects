@@ -1,0 +1,6 @@
+{
+    "name": "555 Breadboard PWM Generator",
+    "description": "A simple PWM generator circuit using the 555 timer IC designed for use on a breadboard.",
+    "categories": "555 Timer, Breadboard Bling, PWM, Oscillators",
+    "relative_path": "Electronics101/555Timer/BreadboardPWMGen"
+}
