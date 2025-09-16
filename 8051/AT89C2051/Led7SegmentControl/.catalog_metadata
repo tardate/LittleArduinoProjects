@@ -1,0 +1,6 @@
+{
+    "name": "AT89C2051 7-Segment LED Control",
+    "description": "Driving a common-cathode 7-Segment LED with the AT89C2051",
+    "categories": "8051, LED, LED 7-Segment",
+    "relative_path": "8051/AT89C2051/Led7SegmentControl"
+}

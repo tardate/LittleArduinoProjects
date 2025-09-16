@@ -66,22 +66,22 @@ void init_lcd(void) {
  * Command: send LCD command. Assumes RW=0 (write mode) is hard-wired.
  */
 void send_command(unsigned int command_value ) {
-  P1=command_value;
-  RS=0;
-  E=1;
+  P1 = command_value;
+  RS = 0;
+  E = 1;
   ms_delay(10);
-  E=0;
+  E = 0;
 }
 
 /*
  * Command: send LCD data. Assumes RW=0 (write mode) is hard-wired.
  */
 void send_data(unsigned int data_value) {
-  P1=data_value;
-  RS=1;
-  E=1;
+  P1 = data_value;
+  RS = 1;
+  E = 1;
   ms_delay(10);
-  E=0;
+  E = 0;
 }
 
 /*
