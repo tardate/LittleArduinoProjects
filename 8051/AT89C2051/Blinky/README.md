@@ -53,7 +53,7 @@ export PATH=$PATH:${SDCC_HOME}/bin
 
 ## The Blinky Program
 
-The [Blinky.c](./Blinky.c) source file is the entire program:
+The [src/Blinky.c](./src/Blinky.c) source file is the entire program:
 
 * a `main` function that toggles the state of the `P1_0` port bit evert `DELAY` milliseconds.
 * a `ms_delay` function that "sleeps" for the specified number of milliseconds
@@ -137,9 +137,10 @@ Reverting to a `DELAY` of 1000ms, we see the expected behaviour: toggling the LE
 
 ## Compiling
 
-See the [Makefile](./Makefile) for the couple of simple instructions that are used. It builds simply like this:
+The [src/Makefile](./src/Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
 
 ```sh
+$ cd src
 $ make
 sdcc -mmcs51 --code-size 2048 Blinky.c -o Blinky.ihx
 packihx Blinky.ihx > Blinky.hex
@@ -150,19 +151,19 @@ I've checked-in all the products of the compilation for study purposes:
 
 | File       | Description |
 |------------|-------------|
-| [Blinky.asm](./Blinky.asm) | Assembler source file created by the compiler  |
-| [Blinky.c](./Blinky.c)     | C source file |
-| [Blinky.hex](./Blinky.hex) | Optional packed hex file created by packihx |
-| [Blinky.ihx](./Blinky.ihx) | The load module in Intel hex format |
-| [Blinky.lk](./Blinky.lk)   | linker options (I think) |
-| [Blinky.lst](./Blinky.lst) | Assembler listing file created by the Assembler |
-| [Blinky.map](./Blinky.map) | The memory map for the load module, created by the Linker |
-| [Blinky.mem](./Blinky.mem) | A file with a summary of the memory usage |
-| [Blinky.rel](./Blinky.rel) | Object file created by the assembler, input to Linkage editor |
-| [Blinky.rst](./Blinky.rst) | Assembler listing file updated with link edit information, created by linkage editor  |
-| [Blinky.sym](./Blinky.sym) | Symbol listing for the sourcefile, created by the assembler |
+| [Blinky.asm](./src/Blinky.asm) | Assembler source file created by the compiler  |
+| [Blinky.c](./src/Blinky.c)     | C source file |
+| [Blinky.hex](./src/Blinky.hex) | Optional packed hex file created by packihx |
+| [Blinky.ihx](./src/Blinky.ihx) | The load module in Intel hex format |
+| [Blinky.lk](./src/Blinky.lk)   | linker options (I think) |
+| [Blinky.lst](./src/Blinky.lst) | Assembler listing file created by the Assembler |
+| [Blinky.map](./src/Blinky.map) | The memory map for the load module, created by the Linker |
+| [Blinky.mem](./src/Blinky.mem) | A file with a summary of the memory usage |
+| [Blinky.rel](./src/Blinky.rel) | Object file created by the assembler, input to Linkage editor |
+| [Blinky.rst](./src/Blinky.rst) | Assembler listing file updated with link edit information, created by linkage editor  |
+| [Blinky.sym](./src/Blinky.sym) | Symbol listing for the sourcefile, created by the assembler |
 
-## Controlling the RST line
+### Controlling the RST line
 
 I haven't found the definitive specification for this yet - but I quickly learned that you can't just ground the RST pin
 and have the chip run!
@@ -171,7 +172,28 @@ The AT89C2051 data sheet actually specifies a RST pull-down of 50kΩ-300kΩ, but
 couple to VCC with a capacitor of say 2.2µF or more.
 Googling for 8051 circuit schematics, I see a common combination is 8.2kΩ pull-down and 2.2µF or 10µF to VCC.
 
+### Programming
+
+I've programmed the chip using `at89overlord` and
+the [LEAP#394 AT89C2051 Programmer](../Programmer/):
+
+```sh
+$ at89overlord -p /dev/tty.usbserial-2420 -f ./Blinky.hex
+# Initializing the programmer...
+# Initialized!
+# Confirming chip ID...
+# Confirmed!
+# Erasing flash...
+# Done!
+# Writing flash...
+# Done!
+# Verifying...
+# Done!
+```
+
 ## Construction
+
+Designed with Fritzing: see [Blinky.fzz](./Blinky.fzz).
 
 ![Breadboard](./assets/Blinky_bb.jpg?raw=true)
 
