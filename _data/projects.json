@@ -1,4 +1,14 @@
 {
+    "/8051/at89c2051/led7segmentcontrol/": {
+        "id": 793,
+        "title": "AT89C2051 7-Segment LED Control",
+        "summary": "Driving a common-cathode 7-Segment LED with the AT89C2051",
+        "tags": [
+            "8051",
+            "LED",
+            "LED 7-Segment"
+        ]
+    },
     "/electronics101/555timer/breadboardpwmgen/": {
         "id": 792,
         "title": "555 Breadboard PWM Generator",

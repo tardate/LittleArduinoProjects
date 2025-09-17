@@ -1,4 +1,4 @@
-# #xxx AT89C2051 7-Segment LED Control
+# #793 AT89C2051 7-Segment LED Control
 
 Driving a common-cathode 7-Segment LED with the AT89C2051.
 
