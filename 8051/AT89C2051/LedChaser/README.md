@@ -14,7 +14,7 @@ This project is a simple extension of blinking LEDs with the 8051 to explore the
 
 The AT89C2051 has two 16-bit timer/counters.
 The timers are highly configurable. I'm using Timer0 mode 3, which splits it into two 8 bit counters,
-and conigure to fire interrupt 1 on overflow.
+and configure to fire interrupt 1 on overflow.
 
 Register usage:
 
@@ -49,24 +49,35 @@ All the Port 1 output buffers can sink 20 mA, more than enough for the LEDs I'm 
 Only pins P1.2 to P1.7 provide internal pull-ups and can source current. P1.0 and P1.1 require external pull-ups for this,
 so the most convenient arrangement for this design is low-side control of the LEDs i.e. active-low logic.
 
-## Code and Compilation
+### Circuit Design
 
-This is a single-file program: [LedChaser.c](./LedChaser.c) - with a [Makefile](./Makefile) to build with
-[SDCC](https://sdcc.sourceforge.net). I'm compiling this on macOS.
+Designed with Fritzing: see [LedChaser.fzz](./LedChaser.fzz).
+
+![Breadboard](./assets/LedChaser_bb.jpg?raw=true)
+
+![Schematic](./assets/LedChaser_schematic.jpg?raw=true)
+
+### Code
+
+All the code is in a single file: [src/LedChaser.c](./src/LedChaser.c).
+
+### Programming
+
+The [src/Makefile](./src/Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
 
 ```sh
+$ dc src
 $ make
 sdcc -mmcs51 --code-size 2048 LedChaser.c -o LedChaser.ihx
 packihx LedChaser.ihx > LedChaser.hex
 packihx: read 18 lines, wrote 25: OK.
 ```
 
-## Programming
-
-[LEAP#394 AT89C2051 Programmer](../Programmer) and `at89overlord`
+And program the chip using `at89overlord` and
+the [LEAP#394 AT89C2051 Programmer](../Programmer/):
 
 ```sh
-$ source ../Programmer/venv/bin/activate
+$ source ../../Programmer/venv/bin/activate
 $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 # Initializing the programmer...
 # Initialized!
@@ -80,14 +91,16 @@ $ at89overlord -p /dev/tty.usbmodem14531 -f LedChaser.hex
 # Done!
 ```
 
-## Construction
+### Testing
 
-![Breadboard](./assets/LedChaser_bb.jpg?raw=true)
-
-![Schematic](./assets/LedChaser_schematic.jpg?raw=true)
+I have the circuit setup on a breadboard with the [LEAP#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/):
 
 ![Build](./assets/LedChaser_build.jpg?raw=true)
 
 ## Credits and References
 
 * [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
+* [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
+* [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/)
+* [LEAP#394 AT89C2051 Programmer](../Programmer/)
+* [LEAP#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/)
