@@ -17,7 +17,7 @@ I am using a common cathode 7-segment LED similar to the SC56-11
 
 ### Segment-Pin Mapping
 
-Here's a summary of how the bits in the shift register are mapped to LED segments:
+Here's a summary of how port bits are mapped to LED segments:
 
 | Port   | LED Pin | Segment                    |
 |--------|---------|----------------------------|
@@ -32,8 +32,8 @@ Here's a summary of how the bits in the shift register are mapped to LED segment
 
 ### Character Encoding
 
-With common cathode, port bit needs to be asserted for the corresponding segment to light.
-If a common anode LED is used, the port bit needs to be low for the segment to light i.e. it is the bitwise complement of the common cathode value.
+With a common-cathode device, a port bit needs to be asserted for the corresponding segment to light.
+If a common-anode LED is used, the port bit needs to be low for the segment to light i.e. it is the bitwise complement of the common-cathode value.
 
 | Character | P1 (common cathode) | P1 (common anode) |
 |-----------|---------------------|-------------------|
