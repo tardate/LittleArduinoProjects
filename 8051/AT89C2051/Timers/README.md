@@ -24,15 +24,17 @@ The 8051 microcontrollers provides a clock source to the timers operating at 1/1
 
 For example, with a 16 MHz crystal:
 
-    Timer clock frequency
-    = 16 MHz / 12
-    = 1.333... MHz
-    Period T
-    = 12 / 16 MHz
-    = 0.75 μs
-    Clock cycles per millisecond
-    = 1 ms / 0.75 μs
-    = 1333.333...
+```txt
+Timer clock frequency
+= 16 MHz / 12
+= 1.333... MHz
+Period T
+= 12 / 16 MHz
+= 0.75 μs
+Clock cycles per millisecond
+= 1 ms / 0.75 μs
+= 1333.333...
+```
 
 Note that at 16 MHz we don't get a clean division to 1ms / 1 Hz.
 This could be a good reason for using a 12 MHz crystal instead, if accurate timing is required.
@@ -103,26 +105,28 @@ See [src/Timers.c](./src/Timers.c)
 
 The core `ms_delay` function is implemented as follows:
 
-    #define CPU_MHZ (16)
-    #define TIMER_TICKS_PER_MS ((CPU_MHZ * 1000000UL) / 12 / 1000)
-    #define MAX_STEPS_PER_TIMER_CYCLE (0xFFFF / TIMER_TICKS_PER_MS)
+```c
+#define CPU_MHZ (16)
+#define TIMER_TICKS_PER_MS ((CPU_MHZ * 1000000UL) / 12 / 1000)
+#define MAX_STEPS_PER_TIMER_CYCLE (0xFFFF / TIMER_TICKS_PER_MS)
 
-    void ms_delay(unsigned int ms) {
-        TMOD = 0x01; // timer 0, mode 1, 16 bit mode
-        unsigned int counter;
-        unsigned int step = MAX_STEPS_PER_TIMER_CYCLE;
-        while (ms > 0) {
-            if (ms < step) step = ms;
-            ms -= step;
-            counter = 0xFFFF - step * TIMER_TICKS_PER_MS + 1;
-            TL0 = counter & 0xFF;        // Low byte
-            TH0 = (counter >> 8) & 0xFF; // High byte
-            TR0 = 1;                     // timer on
-            while (!TF0);                // wait until overflow
-            TR0 = 0;                     // timer off
-            TF0 = 0;                     // clear flag
-        }
+void ms_delay(unsigned int ms) {
+    TMOD = 0x01; // timer 0, mode 1, 16 bit mode
+    unsigned int counter;
+    unsigned int step = MAX_STEPS_PER_TIMER_CYCLE;
+    while (ms > 0) {
+        if (ms < step) step = ms;
+        ms -= step;
+        counter = 0xFFFF - step * TIMER_TICKS_PER_MS + 1;
+        TL0 = counter & 0xFF;        // Low byte
+        TH0 = (counter >> 8) & 0xFF; // High byte
+        TR0 = 1;                     // timer on
+        while (!TF0);                // wait until overflow
+        TR0 = 0;                     // timer off
+        TF0 = 0;                     // clear flag
     }
+}
+```
 
 Key points to note:
 
@@ -137,26 +141,30 @@ Key points to note:
 
 The [src/Makefile](./src/Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
 
-    $ cd src
-    $ make
-    sdcc -mmcs51 --code-size 2048 Timers.c -o Timers.ihx
-    packihx Timers.ihx > Timers.hex
-    packihx: read 18 lines, wrote 25: OK.
+```sh
+$ cd src
+$ make
+sdcc -mmcs51 --code-size 2048 Timers.c -o Timers.ihx
+packihx Timers.ihx > Timers.hex
+packihx: read 18 lines, wrote 25: OK.
+```
 
 Program the chip using `at89overlord` and
 the [LEAP#394 AT89C2051 Programmer](../Programmer/):
 
-    $ at89overlord -p /dev/tty.usbserial-2420 -f ./Timers.hex
-    # Initializing the programmer...
-    # Initialized!
-    # Confirming chip ID...
-    # Confirmed!
-    # Erasing flash...
-    # Done!
-    # Writing flash...
-    # Done!
-    # Verifying...
-    # Done!
+```sh
+$ at89overlord -p /dev/tty.usbserial-2420 -f ./Timers.hex
+# Initializing the programmer...
+# Initialized!
+# Confirming chip ID...
+# Confirmed!
+# Erasing flash...
+# Done!
+# Writing flash...
+# Done!
+# Verifying...
+# Done!
+```
 
 ## Testing
 

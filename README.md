@@ -1,6 +1,6 @@
-# 792 Little Electronic Art Projects
+# 793 Little Electronic Art Projects
 
-> Latest addition :sparkles: [555 Breadboard PWM Generator](./Electronics101/555Timer/BreadboardPWMGen) - A simple PWM generator circuit using the 555 timer IC designed for use on a breadboard.
+> Latest addition :sparkles: [AT89C2051 7-Segment LED Control](./8051/AT89C2051/Led7SegmentControl) - Driving a common-cathode 7-Segment LED with the AT89C2051
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

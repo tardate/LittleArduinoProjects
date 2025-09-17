@@ -130,7 +130,7 @@ Using the hex file generated with the
 programming a chip is as simple as this:
 
 ```sh
-$ at89overlord -p /dev/tty.usbserial-2420 -f ../Blinky/Blinky.hex
+$ at89overlord -p /dev/tty.usbserial-2420 -f ../Blinky/src/Blinky.hex
 # Initializing the programmer...
 # Initialized!
 # Confirming chip ID...

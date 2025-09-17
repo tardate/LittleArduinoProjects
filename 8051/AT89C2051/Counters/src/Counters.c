@@ -22,7 +22,7 @@ void send_data(unsigned int data_value);
 void ms_delay(unsigned int ms);
 
 /*
- * Implements main loop that just toggles P1_0
+ * Implements main loop that sets up the LCD and runs the counter demonstration
  */
 void main(void) {
   init_lcd();

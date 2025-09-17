@@ -13,15 +13,15 @@ In this example, we will be controlling the 16-pin interface directly. No librar
 
 ### Circuit Design
 
+Designed with Fritzing: see [LcdControl.fzz](./LcdControl.fzz).
+
 ![bb](./assets/LcdControl_bb.jpg?raw=true)
 
 ![schematic](./assets/LcdControl_schematic.jpg?raw=true)
 
-![bb_build](./assets/LcdControl_bb_build.jpg?raw=true)
-
 ### Code
 
-All the code is in a single file: [LcdControl.c](./LcdControl.c).
+All the code is in a single file: [src/LcdControl.c](./src/LcdControl.c).
 
 The `main` function:
 
@@ -62,9 +62,10 @@ void send_data(unsigned int data_value) {
 
 ### Programming
 
-The [Makefile](./Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
+The [src/Makefile](./src/Makefile) is setup to compile the code using the SDCC compiler .. running on macOS in this instance:
 
 ```sh
+$ cd src
 $ make
 sdcc -mmcs51 --code-size 2048 LcdControl.c -o LcdControl.ihx
 packihx LcdControl.ihx > LcdControl.hex
@@ -88,8 +89,17 @@ $ at89overlord -p /dev/tty.usbserial-2420 -f ./LcdControl.hex
 # Done!
 ```
 
+### Testing
+
+I have the circuit setup on a breadboard with the [LEAP#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/):
+
+![bb_build](./assets/LcdControl_bb_build.jpg?raw=true)
+
 ## Credits and References
 
-* [LEAP#394 AT89C2051 Programmer](../Programmer/)
-* [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/)
 * [LEAP#749 HD44780-based LCD Modules (e.g. QC1602A)](../../../Electronics101/HD44780/)
+* [AT89C2051 product info and datasheet](https://www.microchip.com/wwwproducts/en/AT89c2051)
+* [Intel MCS-51](https://en.wikipedia.org/wiki/Intel_MCS-51)
+* [SDCC - Small Device C Compiler](https://sdcc.sourceforge.net/)
+* [LEAP#394 AT89C2051 Programmer](../Programmer/)
+* [LEAP#780 AT89C2051 Breadboard Adapter](../BreadboardAdapter/)

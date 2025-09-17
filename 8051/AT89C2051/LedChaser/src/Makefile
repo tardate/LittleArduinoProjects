@@ -1,6 +1,6 @@
 .PRECIOUS: %.ihx
 
-all: Blinky.hex
+all: LedChaser.hex
 
 %.hex: %.ihx
 	packihx $< > $@
@@ -9,4 +9,4 @@ all: Blinky.hex
 	sdcc -mmcs51 --code-size 2048 $< -o $@
 
 clean:
-		rm -rf *.hex *.ihx *.lk *.lst *.map *.mem *.rel *.rst *.sym *.asm
+	rm -rf *.hex *.ihx *.lk *.lst *.map *.mem *.rel *.rst *.sym *.asm

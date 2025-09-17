@@ -1,6 +1,6 @@
 .PRECIOUS: %.ihx
 
-all: Interrupts.hex
+all: Led7SegmentControl.hex
 
 %.hex: %.ihx
 	packihx $< > $@
