@@ -55,7 +55,7 @@ bitcoin_url:
 paypal_url:
 flattr_button:
 bluesky_id: tardate.bsky.social
-qrz_id: KM7ABZ
+qrz_id: 9V1DI
 
 # Build settings
 markdown: kramdown
