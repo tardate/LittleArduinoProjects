@@ -1,6 +1,6 @@
-# 793 Little Electronic Art Projects
+# 794 Little Electronic Art Projects
 
-> Latest addition :sparkles: [AT89C2051 7-Segment LED Control](./8051/AT89C2051/Led7SegmentControl) - Driving a common-cathode 7-Segment LED with the AT89C2051
+> Latest addition :sparkles: [CD4011 Touch Switch](./Electronics101/CD4011/TouchSwitch) - Testing a common CD4011 touch switch circuit with separate on and off pads.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

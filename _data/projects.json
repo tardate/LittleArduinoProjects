@@ -1,4 +1,14 @@
 {
+    "/electronics101/cd4011/touchswitch/": {
+        "id": 794,
+        "title": "CD4011 Touch Switch",
+        "summary": "Testing a common CD4011 touch switch circuit with separate on and off pads.",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL",
+            "CD4011"
+        ]
+    },
     "/8051/at89c2051/led7segmentcontrol/": {
         "id": 793,
         "title": "AT89C2051 7-Segment LED Control",
