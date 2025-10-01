@@ -1,4 +1,4 @@
-# #xxx CD4011 Touch Switch
+# #794 CD4011 Touch Switch
 
 Testing a common CD4011 touch switch circuit with separate on and off pads.
 
