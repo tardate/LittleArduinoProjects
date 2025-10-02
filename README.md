@@ -1,6 +1,6 @@
-# 794 Little Electronic Art Projects
+# 795 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CD4011 Touch Switch](./Electronics101/CD4011/TouchSwitch) - Testing a common CD4011 touch switch circuit with separate on and off pads.
+> Latest addition :sparkles: [CD4011 Toggle Touch Switch](./Electronics101/CD4011/ToggleTouchSwitch) - Testing a common CD4011 touch switch circuit with single on/off toggle pad
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

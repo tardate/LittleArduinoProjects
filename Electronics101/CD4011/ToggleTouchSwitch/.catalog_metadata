@@ -1,0 +1,9 @@
+{
+    "name": "CD4011 Toggle Touch Switch",
+    "description": "Testing a common CD4011 touch switch circuit with single on/off toggle pad",
+    "categories": "Digital Logic, CMOS/TTL, CD4011",
+    "relative_path": "Electronics101/CD4011/ToggleTouchSwitch",
+    "updated_at": "2025-10-02T07:17:00Z",
+    "created_at": "2025-10-02T07:17:00Z",
+    "id": "#795"
+}

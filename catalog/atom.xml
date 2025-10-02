@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-10-01T13:28:00Z</updated>
+  <updated>2025-10-02T07:17:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/cd4011/toggletouchswitch/</id>
+    <link href="https://leap.tardate.com/electronics101/cd4011/toggletouchswitch/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/cd4011/toggletouchswitch/assets/toggletouchswitch_build.jpg</g:image_link>
+    <updated>2025-10-02T07:17:00Z</updated>
+    <title>#795 CD4011 Toggle Touch Switch</title>
+    <summary>Testing a common CD4011 touch switch circuit with single on/off toggle pad</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a common CD4011 touch switch circuit with single on/off toggle pad&lt;/p&gt;&lt;img src=&quot;https://leap.tardate.com/electronics101/cd4011/toggletouchswitch/assets/toggletouchswitch_build.jpg&quot; /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4011"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4011/touchswitch/</id>
     <link href="https://leap.tardate.com/electronics101/cd4011/touchswitch/"/>

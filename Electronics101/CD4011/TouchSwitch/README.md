@@ -10,7 +10,7 @@ Here's a quick demo..
 
 ## Notes
 
-This is a common touch switch circuit based on two NAND gate from a CD4011.
+This is a common touch switch circuit based on two NAND gates from a CD4011.
 
 I've made touch pads from a small piece of copper-clad circuit board, with pins
 for plugging into a breadboard.
@@ -53,7 +53,7 @@ The following circuit is featured in many sources, such as:
 
 Although having the same construction as the circuit I've used, in most cases they specify R1=R2=10kΩ. In my environment and operating conditions, this does not work.
 
-![circuit1](assets/circuit1.png)
+[![circuit1](assets/circuit1.png)](https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4011/)
 
 ### Reference Circuit #2
 
@@ -66,4 +66,4 @@ As published on:
 A similar circuit, but with higher value pull-ups and a transistor-switched output.
 The example shows driving a relay.
 
-![circuit2](assets/circuit2.jpg)
+[![circuit2](assets/circuit2.jpg)](https://circuitstoday.com/touch-switch-using-cd4011)

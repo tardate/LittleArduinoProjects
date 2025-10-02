@@ -1,4 +1,14 @@
 {
+    "/electronics101/cd4011/toggletouchswitch/": {
+        "id": 795,
+        "title": "CD4011 Toggle Touch Switch",
+        "summary": "Testing a common CD4011 touch switch circuit with single on/off toggle pad",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL",
+            "CD4011"
+        ]
+    },
     "/electronics101/cd4011/touchswitch/": {
         "id": 794,
         "title": "CD4011 Touch Switch",
