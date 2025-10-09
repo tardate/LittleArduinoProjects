@@ -34,7 +34,6 @@ See [LEAP#313](../../Electronics101/MCP23S17) for a similar demonstration of the
 
 ![IxpandO_unboxing](./assets/IxpandO_unboxing.jpg?raw=true)
 
-
 ## Construction
 
 The [IxpandO GitHub repository](https://github.com/boldport/ixpando) contains the full design of the Boldport board.
@@ -49,7 +48,6 @@ The following schematic is a transcription that includes:
 ![Schematic](./assets/IxpandO_schematic.jpg?raw=true)
 
 ![Schematic](./assets/IxpandO_bb.jpg?raw=true)
-
 
 ## About the MCP23017
 
@@ -101,7 +99,6 @@ Useful for bulk writes without needing control bytes to set the address for each
 
 There are 21 registers. Of these, 10 replicated in two banks, and one `IOCON` register is shared.
 
-
 | Register   | Purpose                                                                                                   |
 |------------|-----------------------------------------------------------------------------------------------------------|
 | IOCON      | Device configuration register                                                                             |
@@ -116,10 +113,9 @@ There are 21 registers. Of these, 10 replicated in two banks, and one `IOCON` re
 | GPIOA/B    | Port register, reflects the value on the port. Default 0                                                  |
 | OLATA/B    | Access to output latches                                                                                  |
 
-
 ## Test Program
 
-The [IxpandO.ino](./IxpandO.ino) sketch demonstrates
+The [IxpandO.ino](./IxpandO/IxpandO.ino) sketch demonstrates
 
 * digital output to LEDs on bank B (GPB)
 * interrupt-driven input for the DIP switch on bank A (GPA)
@@ -137,7 +133,6 @@ The demo program has a very simple behaviour:
 * when all switch positions are off, it runs a demo cycle on the LEDs
 * if any switches are on, it lights the corresponding LED for all switch positions.
 
-
 ![IxpandO_build2](./assets/IxpandO_build2.jpg?raw=true)
 
 ## Credits and References
@@ -147,4 +142,3 @@ The demo program has a very simple behaviour:
 * [MCP23017T-E/SO info and datasheet](http://www.microchip.com/wwwproducts/en/MCP23017)
 * [Wire Library](https://www.arduino.cc/en/Reference/Wire)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap340-boldport-club-ixpando.html)
-

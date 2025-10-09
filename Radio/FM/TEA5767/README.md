@@ -67,7 +67,7 @@ I used the [LEAP#210 TDA7297Kit](../../../Audio/AudioAmps/TDA7297Kit) to amplify
 
 ![Build](./assets/TEA5767_build.jpg?raw=true)
 
-I mounted the module on protoboard with an [audio connector](../../AudioConnectors) for easy experimentation on a breadboard:
+I mounted the module on protoboard with an [audio connector](../../../Electronics101/Connectors/Audio/) for easy experimentation on a breadboard:
 
 ![TEA5767_protoboard](./assets/TEA5767_protoboard.jpg?raw=true)
 

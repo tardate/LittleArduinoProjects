@@ -40,7 +40,6 @@ are much less than if importing a full library:
 | program storage | 4,650 bytes (15%) |
 | dynamic memory  | 505 bytes (24%)   |
 
-
 ## Construction
 
 ![The Breadboard](./assets/SSD1306BareBack_bb.jpg?raw=true)
@@ -57,4 +56,4 @@ are much less than if importing a full library:
 * [Tested: Display Libraries - Adafruit, u8glib, Homebrew Code](https://youtu.be/lkWZuAnHa2Y) - Julian Ilett's video that inspired this test
 * [Introduction to I²C and SPI protocols](http://www.byteparadigm.com/applications/introduction-to-i2c-and-spi-protocols/)
 * [Arduino And SSD1306 Oled Display Tutorial](https://www.youtube.com/watch?v=mggDYVzS-Xs)
-* [Lcd5110BareBack](../../Lcd5110BareBack) - a similar test but for a Nokia 5110 LCD Display
+* [LEAP#085 Nokia 5110 LCD Bare-back](../../Lcd5110/BareBack/) - a similar test but for a Nokia 5110 LCD Display

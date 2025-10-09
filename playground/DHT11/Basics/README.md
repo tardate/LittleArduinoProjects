@@ -11,7 +11,6 @@ The DHT11 sensor is a very cheap and common sensor that provides readings of:
 * relative humidity: 20-80% ±5%
 * temperature: 0-50°C ±2°C
 
-
 ### Communications
 
 The DHT11 uses a single-wire two-way communications protocol.
@@ -21,7 +20,7 @@ Adafruit have support for the DHT11 within their sensor framework; I'll try that
 
 ### Test Output
 
-The [Basic.ino](./Basic.ino) sketch simply outputs current readings to the console:
+The [Basics.ino](./Basics.ino) sketch simply outputs current readings to the console:
 
 ![console-output](./assets/console-output.png?raw=true)
 

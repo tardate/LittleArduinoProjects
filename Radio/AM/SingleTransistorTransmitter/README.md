@@ -85,7 +85,7 @@ The placement of the variable resistor R1 provides limited scope to adjust the b
 ## Some Real Testing
 
 Here's some video from the bench, where I'm testing both the performance of the transmitter, but also
-an [HX208-2 AM Receiver](../HX208-2) built from a kit, with a commercial Tecsun receiver as a benchmark.
+an [HX108-2 AM Receiver](../HX108-2/) built from a kit, with a commercial Tecsun receiver as a benchmark.
 
 [![clip](https://img.youtube.com/vi/5skZnjzLtIM/0.jpg)](https://www.youtube.com/watch?v=5skZnjzLtIM)
 
@@ -96,4 +96,4 @@ an [HX208-2 AM Receiver](../HX208-2) built from a kit, with a commercial Tecsun 
 ## Credits and References
 
 * [One transistor AM transmitter (Stefan0719)](https://www.youtube.com/watch?v=2B5bEMpgrLc)
-* [LEAP#462 HX208-2 AM Receiver](../HX208-2/)
+* [LEAP#462 HX108-2 AM Receiver](../HX108-2/)

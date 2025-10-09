@@ -47,7 +47,7 @@ See [NOR.ino](./NOR.ino).
 ### Behaviour
 
 Here's a sample trace taken with
-[LEAP#090 PlotNValues (a simple Processing sketch)](../../playground/PlotNValues/).
+[LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/).
 The lower two traces are the gate inputs, and the upper trace is the gate output.
 The HIGH output voltage measures at 3.42V (a tad over typical value according to the datasheet)
 
