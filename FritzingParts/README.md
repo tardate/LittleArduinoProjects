@@ -10,23 +10,23 @@ More recently, I've been using [EasyEDA](https://easyeda.com) as a great tool fo
 
 These are new parts I've created because I wasn't able to find an existing alternative:
 
-* [AS712 Current Sensor Module](./AS712CurrentSensorModule)
-* [AMS1117 SOT-223 Voltage Regulator on a PCB module](./AMS1117)
-* [74LS02 Quad 2-input NOR Gate](./74LS02)
-* [74LS122 Retriggerable Monostable Multivibrator](./74LS122)
-* [74LS75 Quad Latch](./74LS75)
-* [AD9833 Programmable Waveform Module](./AD9833_Module)
-* [The Cuttle](./TheCuttle) - a Fritzing part for the Boldport Cuttle module
-* [LM2662 Switched Capacitor Voltage Converter](./LM2662) - DIP8 module
-* [LM324 Quad OpAmp](./LM324)
-* [LM386 Low Voltage Audio Power Amplifier](./LM386)
-* [LM3915 Dot/Bar Display Driver](./LM3915)
-* [LM741 General Purpose Operational Amplifier](./LM741)
-* [SCR generic TO-92 silicon controlled rectifier/thyristor](./SCR)
+* [AS712 Current Sensor Module](./AS712CurrentSensorModule/)
+* [AMS1117 SOT-223 Voltage Regulator on a PCB module](./AMS1117/)
+* [74LS02 Quad 2-input NOR Gate](./74LS02/)
+* [74LS122 Retriggerable Monostable Multivibrator](./74LS122/)
+* [74LS75 Quad Latch](./74LS75/)
+* [AD9833 Programmable Waveform Module](./AD9833_Module/)
+* [The Cuttle](./TheCuttle/) - a Fritzing part for the Boldport Cuttle module
+* [LM2662 Switched Capacitor Voltage Converter](./LM2662/) - DIP8 module
+* [LM324 Quad OpAmp](./LM324/)
+* [LM386 Low Voltage Audio Power Amplifier](./LM386/)
+* [LM3915 Dot/Bar Display Driver](./LM3915/)
+* [LM741 General Purpose Operational Amplifier](./LM741/)
+* [SCR generic TO-92 silicon controlled rectifier/thyristor](./SCR/)
 * [SMA420564 4-Digit 7-Segment LED Display](./SMA420564)
-* [Stepper Motor 28BYJ-48](./28BYJ-48)
-* [Stepper Driver Board X113647](./X113647)
-* [Voltage Sensor Module](./VoltageSensorModule)
+* [Stepper Motor 28BYJ-48](./28BYJ-48/)
+* [Stepper Driver Board X113647](./X113647/)
+* [Voltage Sensor Module](./VoltageSensorModule/)
 
 ## Locally Cached Parts
 

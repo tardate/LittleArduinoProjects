@@ -40,4 +40,4 @@ Testing - within a few mV of 5V as expected:
 
 * [LM7805 datasheet](https://www.futurlec.com/Linear/7805T.shtml) - 5v regulator. Note that other chips in the LM78xx range are available to provide other voltages.
 * [LEAP#027 LM7805 5V Regulated Supply](../LinearRegulators/LM7805) - related experiment testing the 7805
-* [LEAP#028 MB102 3.3/5V Breadboard Supply](../../PowerMB102) - testing a commercial power supply unit
+* [LEAP#028 MB102 3.3/5V Breadboard Supply](../MB102BreadboardPowerSupply/) - testing a commercial power supply unit

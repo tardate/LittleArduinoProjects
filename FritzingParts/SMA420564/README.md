@@ -1,0 +1,9 @@
+# SMA420564
+
+[SMA420564.fzpz](SMA420564.fzpz)
+
+![SMA420564_bb](SMA420564_bb.svg)
+
+![SMA420564_pcb](SMA420564_pcb.svg)
+
+![SMA420564_schem](SMA420564_schem.svg)

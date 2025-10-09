@@ -8,7 +8,6 @@ Here's a quick video of the circuit in action:
 
 [![LevelIndicatorLM3915 demo](https://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](https://www.youtube.com/watch?v=00BBIDRA13Y)
 
-
 ## Notes
 
 The LM3915 is a 10-segment Dot/Bar Display Driver.
@@ -63,4 +62,4 @@ Note: the schematic shows 1kΩ current-limiting resistors R3, R4 for the red LED
 ## Credits and References
 
 * [LM3915 datasheet](https://www.futurlec.com/Linear/LM3915N.shtml)
-* [AudioLevelIndicatorKit](../../Electronics101/AudioLevelIndicatorKit) - project using the LM3915 in an audio level kit build
+* [LEAP#202 Audio Level Indicator Kit](../../Audio/Visualization/AudioLevelIndicatorKit/) - project using the LM3915 in an audio level kit build

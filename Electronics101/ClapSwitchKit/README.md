@@ -13,7 +13,7 @@ There are no unusual components so aside from the PCB, everything you need is pr
 
 ![Parts](./assets/ClapSwitchKit_parts.jpg?raw=true)
 
-The core of the circuit is a set-reset flip flop implemented with BJTs - similar to the [RSFlipFlop](../RSFlipFlop) project.
+The core of the circuit is a set-reset flip flop implemented with BJTs - similar to the [LEAP#061 SR Latch](../DigitalLogic/SRLatch/) project.
 
 A momentary pulse from the electret is amplified with Q1/Q2 and triggers the Q3/Q3 flip:
 
@@ -49,4 +49,4 @@ And when the right-hand output of the flip-flip is "high":
 * LEAP: [ClapSwitchKit2](../ClapSwitchKit2) - another clap-switch kit project
 * [Clap Switch DIY Kit](https://www.aliexpress.com/item/Brand-New-Clap-Switch-Suite-Electronic-Production-DIY-Kits-Red-Green-LED-Display-Circuit/32416781115.html) - from a seller on aliexpress, USD1.70 at time of purchase
 * [Wikipedia: Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29)
-* [RSFlipFlop](../RSFlipFlop) project demonstrating the basic set-reset flip flop circuit implemented with BJTs
+* [LEAP#061 SR Latch](../DigitalLogic/SRLatch/) project demonstrating the basic set-reset flip flop circuit implemented with BJTs

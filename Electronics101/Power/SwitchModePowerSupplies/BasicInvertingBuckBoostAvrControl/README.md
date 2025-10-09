@@ -50,7 +50,7 @@ It uses [analogWrite](https://www.arduino.cc/en/Reference/analogWrite) to adjust
 * note that analogWrite resets timer COM settings, so much of the setup in the original sketch is redundant
 
 It is important to set the fuses on the ATtiny for the higher clock in order to achieve
-sufficient switching frequency - see [LEAP#255 AvrHardwarePWM/ATtiny](../AvrHardwarePWM/ATtiny) for details.
+sufficient switching frequency - see [LEAP#255 AvrHardwarePWM/ATtiny](../../../../playground/AvrHardwarePWM/ATtiny/) for details.
 
 ### Performance Analysis
 

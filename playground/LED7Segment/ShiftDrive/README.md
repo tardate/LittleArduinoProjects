@@ -29,7 +29,7 @@ Here's a summary of how the bits in the shift register are mapped to LED segment
 |  6  |  G - center  horizontal    |
 |  7  |  dp - decimal point        |
 
-However the [code](./ShiftDriveSPI.ino) uses bytes to represent dp,G,F..A from MSB to LSB,
+However the [code](./ShiftDrive.ino) uses bytes to represent dp,G,F..A from MSB to LSB,
 so I use MSBFIRST transfer.
 
 ## Construction

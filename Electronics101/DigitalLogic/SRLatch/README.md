@@ -40,14 +40,12 @@ Ben Eater has a great video explaining SR latch behaviour:
 
 [![KM0DdEaY5sY](https://img.youtube.com/vi/KM0DdEaY5sY/0.jpg)](https://www.youtube.com/watch?v=KM0DdEaY5sY)
 
-
 ### Latch of Flip-flop?
 
 Although terms are often used interchangeably, this circuit is strictly speaking a "latch".
 
 * a latch is asynchronous, and the outputs can change as soon as the inputs do
 * a flip-flop, on the other hand, is edge-triggered and only changes state when a control signal transitions high to low or low to high
-
 
 ### Construction
 
