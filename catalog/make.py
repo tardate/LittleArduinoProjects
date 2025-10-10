@@ -17,17 +17,20 @@ import fnmatch
 import shutil
 import subprocess
 from datetime import datetime
+from lxml import etree
 from xml.etree import ElementTree
-from xml.dom import minidom
 from PIL import Image
 from PIL import ImageOps
 
 
 def write_pretty_xml(doc, file):
-    print("Writing {}..".format(file))
-    pretty_xml = minidom.parseString(
-        ElementTree.tostring(doc, 'utf-8')
-    ).toprettyxml(indent="  ")
+    print(f"Writing {file}..")
+    xml_str = ElementTree.tostring(doc, encoding='utf-8')
+    parser = etree.XMLParser(remove_blank_text=True)
+    pretty_xml = etree.tostring(
+        etree.fromstring(xml_str, parser),
+        pretty_print=True, xml_declaration=True, encoding='utf-8'
+    ).decode('utf-8')
     with open(file, 'w') as f:
         f.write(pretty_xml)
 
@@ -246,7 +249,7 @@ class Catalog(object):
             ElementTree.SubElement(doc, "summary").text = entry['description']
 
             content = ElementTree.Element('div')
-            ElementTree.SubElement(content, 'p').text =  entry['description']
+            ElementTree.SubElement(content, 'p').text = entry['description']
             if hero_image_url:
                 ElementTree.SubElement(content, 'img', src=hero_image_url)
             ElementTree.SubElement(doc, "content", type='html').text = ElementTree.tostring(content, encoding='utf-8').decode()
