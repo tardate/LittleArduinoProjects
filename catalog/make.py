@@ -34,6 +34,7 @@ def write_pretty_xml(doc, file):
     with open(file, 'w') as f:
         f.write(pretty_xml)
 
+
 def write_pretty_json(doc, file, verbose=True):
     if verbose:
         print("Writing {}..".format(file))
