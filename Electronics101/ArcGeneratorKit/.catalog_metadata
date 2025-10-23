@@ -2,7 +2,7 @@
     "id": "#451",
     "name": "Arc Generator Kit",
     "description": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor",
-    "categories": "Power",
+    "categories": "Power, Kit",
     "relative_path": "Electronics101/ArcGeneratorKit",
     "updated_at": "2019-02-05T17:04:25Z",
     "created_at": "2019-02-05T17:04:25Z"

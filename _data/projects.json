@@ -1,4 +1,13 @@
 {
+    "/electronics101/hourglasskit/": {
+        "id": 796,
+        "title": "Hourglass Kit",
+        "summary": "Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.",
+        "tags": [
+            "Kit",
+            "8051"
+        ]
+    },
     "/electronics101/cd4011/toggletouchswitch/": {
         "id": 795,
         "title": "CD4011 Toggle Touch Switch",
@@ -113,7 +122,8 @@
         "summary": "Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.",
         "tags": [
             "555 Timer",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/electronics101/555timer/delayon/": {
@@ -188,7 +198,8 @@
         "summary": "Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.",
         "tags": [
             "Tools",
-            "RF"
+            "RF",
+            "Kit"
         ]
     },
     "/electronics101/cd4027/shiftregister/": {
@@ -362,7 +373,8 @@
         "tags": [
             "BJT",
             "RC",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/equipment/nlb/flashforgecreatorpro2/": {
@@ -512,7 +524,8 @@
         "summary": "Build a CMOS digital logic clock kit and understand the operating principles of the circuit.",
         "tags": [
             "Digital Logic",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/arm/nucleo64case/": {
@@ -584,7 +597,8 @@
         "tags": [
             "Arduino",
             "AVR",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/electronics101/icl7660/": {
@@ -857,7 +871,8 @@
             "Audio",
             "Laser",
             "LED",
-            "8051"
+            "8051",
+            "Kit"
         ]
     },
     "/electronics101/voltagereference/lm336/": {
@@ -1173,7 +1188,8 @@
         "summary": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
         "tags": [
             "LDR",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/electronics101/displays/lcd3digit/": {
@@ -1269,7 +1285,8 @@
         "tags": [
             "LM358",
             "Audio",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/books/building-smart-drones-with-esp8266-and-arduino/": {
@@ -1482,7 +1499,8 @@
         "summary": "Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.",
         "tags": [
             "OpAmp",
-            "Control"
+            "Control",
+            "Kit"
         ]
     },
     "/books/arduino-for-radio-amateur-applications/": {
@@ -1591,7 +1609,8 @@
         "summary": "Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.",
         "tags": [
             "LDR",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/electronics101/led/candleemulator/": {
@@ -1633,7 +1652,8 @@
         "summary": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
         "tags": [
             "CMOS/TTL",
-            "Digital Logic"
+            "Digital Logic",
+            "Kit"
         ]
     },
     "/electronics101/power/dicksonchargepump/halfwave/": {
@@ -2321,7 +2341,8 @@
         "tags": [
             "Craft",
             "LED",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/electronics101/batterymanagement/singlecellchargeboostboard/": {
@@ -2440,7 +2461,8 @@
         "summary": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit",
         "tags": [
             "BMS",
-            "RF"
+            "RF",
+            "Kit"
         ]
     },
     "/audio/simplesoundeffects2/": {
@@ -2535,7 +2557,8 @@
         "summary": "Building an FM radio kit based on the Silan SC1088 FM receiver chip",
         "tags": [
             "Radio",
-            "FM"
+            "FM",
+            "Kit"
         ]
     },
     "/radio/fm/frequencyconverter/": {
@@ -2552,7 +2575,8 @@
         "title": "Subtraction Loop Counter Kit",
         "summary": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
         "tags": [
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/equipment/dummyload/simpleresistiveusbload/": {
@@ -2645,7 +2669,8 @@
             "Sequencer",
             "CD4017",
             "CD4093",
-            "LM324"
+            "LM324",
+            "Kit"
         ]
     },
     "/electronics101/ina226/highsidemonitorbasics/": {
@@ -2681,7 +2706,8 @@
         "summary": "How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules",
         "tags": [
             "Power",
-            "BMS"
+            "BMS",
+            "Kit"
         ]
     },
     "/playground/rfid/concentration/": {
@@ -2711,7 +2737,8 @@
         "tags": [
             "Audio",
             "Power",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/esp32/publishinginternals/": {
@@ -2909,7 +2936,8 @@
             "Audio",
             "Drum",
             "Synth",
-            "Music"
+            "Music",
+            "Kit"
         ]
     },
     "/radio/fm/simplestdirectreceiver/": {
@@ -3050,7 +3078,8 @@
         "summary": "build and analyse the HX108-2 superheterodyne AM MW radio receiver kit",
         "tags": [
             "Radio",
-            "AM"
+            "AM",
+            "Kit"
         ]
     },
     "/electronics101/guitareffects/goblin/": {
@@ -3105,7 +3134,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "LM331"
+            "LM331",
+            "Kit"
         ]
     },
     "/electronics101/piezobuzzers/": {
@@ -3151,7 +3181,8 @@
         "title": "Arc Generator Kit",
         "summary": "playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor",
         "tags": [
-            "Power"
+            "Power",
+            "Kit"
         ]
     },
     "/equipment/lcr45/": {
@@ -3189,7 +3220,8 @@
             "Boldport",
             "Tools",
             "Test Equipment",
-            "CD4017"
+            "CD4017",
+            "Kit"
         ]
     },
     "/electronics101/toroidjoulethief/rgbnightlight/": {
@@ -3236,7 +3268,8 @@
         "tags": [
             "Boldport",
             "Tools",
-            "Test Equipment"
+            "Test Equipment",
+            "Kit"
         ]
     },
     "/kraft/pollen8/": {
@@ -3317,7 +3350,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/equipment/adjustablepowersupplykit/": {
@@ -3325,7 +3359,8 @@
         "title": "AdjustablePowerSupplyKit",
         "summary": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing",
         "tags": [
-            "Power"
+            "Power",
+            "Kit"
         ]
     },
     "/kinetics/steppermotors/uln2003module/": {
@@ -3402,7 +3437,8 @@
         "summary": "building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display",
         "tags": [
             "Boldport",
-            "LED 7-Segment"
+            "LED 7-Segment",
+            "Kit"
         ]
     },
     "/playground/vl53l0x/thetoneranger/": {
@@ -3458,7 +3494,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/electronics101/oscillators/commonemitterhartley/": {
@@ -3487,7 +3524,8 @@
         "tags": [
             "Sensors",
             "Kinetics",
-            "OpAmp"
+            "OpAmp",
+            "Kit"
         ]
     },
     "/electronics101/555timer/nixiepowersupply/": {
@@ -3532,7 +3570,8 @@
         "summary": "custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism",
         "tags": [
             "Boldport",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/kinetics/homopolarjoulethiefblinky/": {
@@ -3553,7 +3592,8 @@
             "Boldport",
             "Oscillators",
             "CMOS/TTL",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/electronics101/power/bbbreakout/": {
@@ -3621,7 +3661,8 @@
         "summary": "rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter",
         "tags": [
             "Boldport",
-            "CD4060"
+            "CD4060",
+            "Kit"
         ]
     },
     "/radio/pixie/": {
@@ -3629,7 +3670,8 @@
         "title": "Pixie",
         "summary": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m",
         "tags": [
-            "Radio"
+            "Radio",
+            "Kit"
         ]
     },
     "/equipment/usbprotector/": {
@@ -3714,7 +3756,8 @@
         "tags": [
             "Boldport",
             "LM317",
-            "CD4060"
+            "CD4060",
+            "Kit"
         ]
     },
     "/equipment/millivoltmeterdiy/customboardandenclosure/": {
@@ -3778,7 +3821,8 @@
         "tags": [
             "LM723",
             "Power",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/electronics101/lm723/highvoltageregulator/": {
@@ -3928,7 +3972,8 @@
         "summary": "building the tropical end-of-year present from Boldport Club, Project #20 - ananas!",
         "tags": [
             "Boldport",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/audio/granularsynth/": {
@@ -3984,7 +4029,8 @@
             "Boldport",
             "PCB Design",
             "LED",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/audio/audioeffectschips/h83a/": {
@@ -4030,7 +4076,8 @@
         "title": "MC34063 Boost Converter Kit",
         "summary": "build and test an MC34063-based boost converter",
         "tags": [
-            "Power"
+            "Power",
+            "Kit"
         ]
     },
     "/boldportclub/themonarch/": {
@@ -4041,7 +4088,8 @@
             "Boldport",
             "PCB Design",
             "Bugs",
-            "LFSR"
+            "LFSR",
+            "Kit"
         ]
     },
     "/audio/audioeffectschips/px088a/": {
@@ -4105,7 +4153,8 @@
         "summary": "learning about conductive ink with the CircuitScribe LiteWings kit",
         "tags": [
             "Conductive Ink",
-            "Craft"
+            "Craft",
+            "Kit"
         ]
     },
     "/boldportclub/stringy/demoburner/": {
@@ -4152,7 +4201,8 @@
         "summary": "upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.",
         "tags": [
             "Boldport",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/esp8266/micropython/gettingstarted/": {
@@ -4187,7 +4237,8 @@
         "summary": "building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up",
         "tags": [
             "Power",
-            "USB"
+            "USB",
+            "Kit"
         ]
     },
     "/boldportclub/ixpando/": {
@@ -4197,7 +4248,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Port Expander"
+            "Port Expander",
+            "Kit"
         ]
     },
     "/electronics101/guitareffects/delaykit/": {
@@ -4206,7 +4258,8 @@
         "summary": "build and test a PT2399-based analogue delay pedal kit",
         "tags": [
             "Guitar Effects",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/kraft/glowball/": {
@@ -4256,7 +4309,8 @@
         "tags": [
             "UART",
             "USB",
-            "MCP2200"
+            "MCP2200",
+            "Kit"
         ]
     },
     "/playground/voltageselfmeasurement/": {
@@ -4337,7 +4391,8 @@
         "summary": "pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)",
         "tags": [
             "Boldport",
-            "Soldering"
+            "Soldering",
+            "Kit"
         ]
     },
     "/equipment/labrador/": {
@@ -4356,7 +4411,8 @@
         "tags": [
             "Boldport",
             "PIC",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/boldportclub/cordwood-too/fidgetcube/": {
@@ -4376,7 +4432,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/electronics101/digitallogic/syncjkcounter/": {
@@ -4421,7 +4478,8 @@
         "summary": "all about soldering and the Boldport Club QSOP breakout board",
         "tags": [
             "Boldport",
-            "Soldering"
+            "Soldering",
+            "Kit"
         ]
     },
     "/electronics101/power/switchmodepowersupplies/mt3608/variableboost/": {
@@ -4470,7 +4528,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Power"
+            "Power",
+            "Kit"
         ]
     },
     "/radio/fm/tea5767/": {
@@ -4587,7 +4646,8 @@
             "Boldport",
             "PCB Design",
             "LED",
-            "AS1130"
+            "AS1130",
+            "Kit"
         ]
     },
     "/equipment/handheldsolderingirons/": {
@@ -4626,7 +4686,8 @@
             "PIC",
             "Tools",
             "Test Equipment",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/electronics101/cd4060/crystaloscillator/": {
@@ -4664,7 +4725,8 @@
         "summary": "learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit",
         "tags": [
             "CMOS/TTL",
-            "CD4060"
+            "CD4060",
+            "Kit"
         ]
     },
     "/boldportclub/pissoff/": {
@@ -4674,7 +4736,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "NXP"
+            "NXP",
+            "Kit"
         ]
     },
     "/electronics101/meters/voltmeterammetermodule/": {
@@ -4723,7 +4786,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/boldportclub/thegent/": {
@@ -4733,7 +4797,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Bugs"
+            "Bugs",
+            "Kit"
         ]
     },
     "/electronics101/digitallogic/xorwithnandgates/": {
@@ -4753,7 +4818,8 @@
             "Oscillators",
             "Tools",
             "Test Equipment",
-            "XR2206"
+            "XR2206",
+            "Kit"
         ]
     },
     "/radio/fm/threestagetransmitter/": {
@@ -4781,7 +4847,8 @@
         "tags": [
             "Radio",
             "FM",
-            "Transmitter"
+            "Transmitter",
+            "Kit"
         ]
     },
     "/equipment/componenttesterkit/": {
@@ -4791,7 +4858,8 @@
         "tags": [
             "Tools",
             "Test Equipment",
-            "ATmega"
+            "ATmega",
+            "Kit"
         ]
     },
     "/boldportclub/touchy/": {
@@ -4801,7 +4869,8 @@
         "tags": [
             "Boldport",
             "EFM8",
-            "Sensors"
+            "Sensors",
+            "Kit"
         ]
     },
     "/playground/variablefrequencyrunwayleds/": {
@@ -4880,7 +4949,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/playground/chainblocks/": {
@@ -4914,7 +4984,8 @@
             "PCB Design",
             "ATmega",
             "ATmel",
-            "Arduino"
+            "Arduino",
+            "Kit"
         ]
     },
     "/playground/xyplotter/": {
@@ -4946,7 +5017,8 @@
             "Boldport",
             "PCB Design",
             "LED",
-            "BJT"
+            "BJT",
+            "Kit"
         ]
     },
     "/electronics101/guitareffects/bazzfuss/": {
@@ -4995,7 +5067,8 @@
         "tags": [
             "Oscillators",
             "BJT",
-            "Digital Logic"
+            "Digital Logic",
+            "Kit"
         ]
     },
     "/boldportclub/emergency/": {
@@ -5005,7 +5078,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/boldportclub/pease/": {
@@ -5015,7 +5089,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "LM331"
+            "LM331",
+            "Kit"
         ]
     },
     "/playground/avrhardwarepwm/attiny/": {
@@ -5065,7 +5140,8 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "Bugs"
+            "Bugs",
+            "Kit"
         ]
     },
     "/playground/pedalshielduno/audiodsp/": {
@@ -5308,7 +5384,8 @@
             "Music",
             "Arduino",
             "CD4011",
-            "CD4066"
+            "CD4066",
+            "Kit"
         ]
     },
     "/kinetics/fq777-954/teardown/": {
@@ -5328,7 +5405,8 @@
             "LED",
             "555 Timer",
             "CMOS/TTL",
-            "CD4017"
+            "CD4017",
+            "Kit"
         ]
     },
     "/fritzingparts/": {
@@ -5455,7 +5533,8 @@
         "title": "TDA7297 Audio Amp Kit",
         "summary": "testing a TDA7297 audio amplifier kit (pump up the jam)",
         "tags": [
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/playground/ledpaneldisplay72r02/": {
@@ -5474,7 +5553,8 @@
         "tags": [
             "Radio",
             "FM",
-            "Transmitter"
+            "Transmitter",
+            "Kit"
         ]
     },
     "/electronics101/frequencycounter/": {
@@ -5533,7 +5613,8 @@
         "tags": [
             "LM3915",
             "Audio",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/electronics101/555timer/doorbellkit/": {
@@ -5542,7 +5623,8 @@
         "summary": "another two-tone doorbell using a 555 timer oscillator",
         "tags": [
             "555 Timer",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/kinetics/solenoids/solenoidmotor/": {
@@ -5615,7 +5697,8 @@
         "summary": "build and investigate an AT89S52-based \"shake stick\" kit",
         "tags": [
             "8051",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/kraft/sagradafamilia/": {
@@ -5718,7 +5801,8 @@
         "title": "LM317 Variable Power Supply Kit",
         "summary": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit",
         "tags": [
-            "Power"
+            "Power",
+            "Kit"
         ]
     },
     "/electronics101/meters/voltmetermodule/": {
@@ -5824,7 +5908,8 @@
         "tags": [
             "SMD",
             "CMOS/TTL",
-            "555 Timer"
+            "555 Timer",
+            "Kit"
         ]
     },
     "/electronics101/clapswitchkit/": {
@@ -5834,7 +5919,8 @@
         "tags": [
             "Oscillators",
             "BJT",
-            "Digital Logic"
+            "Digital Logic",
+            "Kit"
         ]
     },
     "/playground/rgbledmodule/": {
@@ -6189,7 +6275,8 @@
         "tags": [
             "Radio",
             "AM",
-            "FM"
+            "FM",
+            "Kit"
         ]
     },
     "/electronics101/darlingtontouchswitch/": {
@@ -6244,7 +6331,8 @@
         "summary": "build and investigate a commercially available \"3-band voice level indicator\" kit",
         "tags": [
             "LED",
-            "Audio"
+            "Audio",
+            "Kit"
         ]
     },
     "/electronics101/emrdetection/rfdetectorprobe/": {
@@ -6261,7 +6349,8 @@
         "summary": "build and analyse the HX-6B superheterodyne AM MW radio receiver kit",
         "tags": [
             "Radio",
-            "AM"
+            "AM",
+            "Kit"
         ]
     },
     "/electronics101/opamptimer/": {
@@ -6579,7 +6668,8 @@
         "summary": "build and investigate a commercially available \"electronic clock\" kit",
         "tags": [
             "LCD",
-            "8051"
+            "8051",
+            "Kit"
         ]
     },
     "/playground/oled/ssd1306bareback/": {
@@ -6777,7 +6867,8 @@
         "summary": "build and analyse a commercial LED lamp kit with capacitive power supply",
         "tags": [
             "Power",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/electronics101/switchnfet/": {

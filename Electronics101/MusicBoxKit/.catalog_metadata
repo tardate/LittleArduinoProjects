@@ -2,7 +2,7 @@
     "id": "#226",
     "name": "MusicBoxKit",
     "description": "build and test a Music Box kit, and run a demonstration under Arduino control",
-    "categories": "Music, Arduino, CD4011, CD4066",
+    "categories": "Music, Arduino, CD4011, CD4066, Kit",
     "relative_path": "Electronics101/MusicBoxKit",
     "updated_at": "2016-07-02T11:18:24Z",
     "created_at": "2016-07-02T11:18:24Z"
