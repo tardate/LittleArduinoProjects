@@ -1,7 +1,7 @@
 {
     "name": "Another Two-tone Doorbell Kit",
     "description": "Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.",
-    "categories": "555 Timer, Oscillators",
+    "categories": "555 Timer, Oscillators, Kit",
     "relative_path": "Electronics101/555Timer/DoorbellKit2",
     "updated_at": "2025-08-05T04:09:00Z",
     "created_at": "2025-08-05T04:09:00Z",

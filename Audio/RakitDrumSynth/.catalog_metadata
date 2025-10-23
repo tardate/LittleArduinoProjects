@@ -2,7 +2,7 @@
     "id": "#477",
     "name": "Rakit Drum Synth",
     "description": "building the Rakit Drum Synth kit - a very nicely produced clone of the classic Boss PC-2/AMDEK PCK-100 percussion synthesizer",
-    "categories": "Audio, Drum, Synth, Music",
+    "categories": "Audio, Drum, Synth, Music, Kit",
     "relative_path": "Audio/RakitDrumSynth",
     "updated_at": "2019-04-29T16:03:38Z",
     "created_at": "2019-04-29T16:03:38Z"

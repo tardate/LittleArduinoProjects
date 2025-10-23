@@ -2,7 +2,7 @@
     "id": "#193",
     "name": "PoV Shake Stick Kit",
     "description": "build and investigate an AT89S52-based \"shake stick\" kit",
-    "categories": "8051, LED",
+    "categories": "8051, LED, Kit",
     "relative_path": "8051/PovShakeStickKit",
     "updated_at": "2023-03-27T13:57:21Z",
     "created_at": "2023-03-27T13:57:21Z"

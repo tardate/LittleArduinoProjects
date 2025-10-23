@@ -164,6 +164,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Another two-tone doorbell circuit using a 555 timer oscillator. Designed to drive a speaker, it produces a classic ding-dong.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/doorbellkit2/assets/doorbellkit2_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/delayon/</id>
@@ -255,6 +256,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Using the NWDZ Rev-01-10 RF Test Board with the NanoVNA.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/nanovna/rfdemokit/assets/rfdemokit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
     <category term="RF"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4027/shiftregister/</id>
@@ -652,6 +654,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Build a CMOS digital logic clock kit and understand the operating principles of the circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/digitallogic/digitalclockkit/assets/digitalclockkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/arm/nucleo64case/</id>
@@ -740,6 +743,7 @@
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/icl7660/</id>
@@ -1077,6 +1081,7 @@
     <category term="Laser"/>
     <category term="LED"/>
     <category term="8051"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/voltagereference/lm336/</id>
@@ -1584,6 +1589,7 @@
     <category term="LM358"/>
     <category term="Audio"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/building-smart-drones-with-esp8266-and-arduino/</id>
@@ -2867,6 +2873,7 @@
     <category term="Craft"/>
     <category term="LED"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/batterymanagement/singlecellchargeboostboard/</id>
@@ -3150,6 +3157,7 @@
     <summary>Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/subtractionloopcounterkit/assets/subtractionloopcounterkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/dummyload/simpleresistiveusbload/</id>
@@ -3261,6 +3269,7 @@
     <category term="CD4017"/>
     <category term="CD4093"/>
     <category term="LM324"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ina226/highsidemonitorbasics/</id>
@@ -3305,6 +3314,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;How to charge a single 18650 lithium-ion cell with a TP4056-based charging kit, with comparison to ETA9635/ETA9638-based modules&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/batterymanagement/singlecelllithiumcharger/assets/singlecelllithiumcharger_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="BMS"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rfid/concentration/</id>
@@ -3582,6 +3592,7 @@
     <category term="Drum"/>
     <category term="Synth"/>
     <category term="Music"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/fm/simplestdirectreceiver/</id>
@@ -3821,6 +3832,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="LM331"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/piezobuzzers/</id>
@@ -3877,6 +3889,7 @@
     <summary>playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;playing with a high-voltage arc generator kit that uses step-up transformer with a simple feedback control of a D882 power transistor&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/arcgeneratorkit/assets/arcgeneratorkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/lcr45/</id>
@@ -3923,6 +3936,7 @@
     <category term="Tools"/>
     <category term="Test Equipment"/>
     <category term="CD4017"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/toroidjoulethief/rgbnightlight/</id>
@@ -3980,6 +3994,7 @@
     <category term="Boldport"/>
     <category term="Tools"/>
     <category term="Test Equipment"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/pollen8/</id>
@@ -4077,6 +4092,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/adjustablepowersupplykit/</id>
@@ -4181,6 +4197,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;building the Boldport 3x7, Project #29, with custom flip-top layout so you can see inside this discrete 3-digit, 7-segment display&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/3x7/assets/3x7_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="LED 7-Segment"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/vl53l0x/thetoneranger/</id>
@@ -4249,6 +4266,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/commonemitterhartley/</id>
@@ -4284,6 +4302,7 @@
     <category term="Sensors"/>
     <category term="Kinetics"/>
     <category term="OpAmp"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/nixiepowersupply/</id>
@@ -4339,6 +4358,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, with an archway layout and a spring-loaded LED trigger machanism&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/cordwood-three/assets/cordwood-three_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/homopolarjoulethiefblinky/</id>
@@ -4364,6 +4384,7 @@
     <category term="Oscillators"/>
     <category term="CMOS/TTL"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/bbbreakout/</id>
@@ -4446,6 +4467,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;rolling the BoldportClub Pips (Project #23) - a classic Elektor die circuit using the CD4060 ripple counter&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/pips/assets/pips_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="CD4060"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/pixie/</id>
@@ -4560,6 +4582,7 @@
     <category term="Boldport"/>
     <category term="LM317"/>
     <category term="CD4060"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/millivoltmeterdiy/customboardandenclosure/</id>
@@ -4638,6 +4661,7 @@
     <category term="LM723"/>
     <category term="Power"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm723/highvoltageregulator/</id>
@@ -4820,6 +4844,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;building the tropical end-of-year present from Boldport Club, Project #20 - ananas!&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/ananas/assets/ananas_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/granularsynth/</id>
@@ -4888,6 +4913,7 @@
     <category term="PCB Design"/>
     <category term="LED"/>
     <category term="CMOS/TTL"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffectschips/h83a/</id>
@@ -4944,6 +4970,7 @@
     <summary>build and test an MC34063-based boost converter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test an MC34063-based boost converter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/themonarch/</id>
@@ -4957,6 +4984,7 @@
     <category term="PCB Design"/>
     <category term="Bugs"/>
     <category term="LFSR"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioeffectschips/px088a/</id>
@@ -5035,6 +5063,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;learning about conductive ink with the CircuitScribe LiteWings kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/kraft/circuitscribe/litewings/assets/litewings_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Conductive Ink"/>
     <category term="Craft"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/stringy/demoburner/</id>
@@ -5092,6 +5121,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;upgrading the tap to modern CMOS and MOSFET technology, circa 1975 - another Boldport Club retro classic. The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/mostap/assets/mostap_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="CMOS/TTL"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/micropython/gettingstarted/</id>
@@ -5135,6 +5165,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;building a USB Wall Wart and taking a look at how they work .. instead of taking them apart or having them blow up&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/usbpowersupplykit/assets/usbpowersupplykit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="USB"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/ixpando/</id>
@@ -5147,6 +5178,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Port Expander"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/guitareffects/delaykit/</id>
@@ -5158,6 +5190,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a PT2399-based analogue delay pedal kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/delaykit/assets/delaykit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/glowball/</id>
@@ -5218,6 +5251,7 @@
     <category term="UART"/>
     <category term="USB"/>
     <category term="MCP2200"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/voltageselfmeasurement/</id>
@@ -5317,6 +5351,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017)&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/spoolt/assets/spoolt_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="Soldering"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/labrador/</id>
@@ -5340,6 +5375,7 @@
     <category term="Boldport"/>
     <category term="PIC"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/cordwood-too/fidgetcube/</id>
@@ -5364,6 +5400,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/syncjkcounter/</id>
@@ -5419,6 +5456,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;all about soldering and the Boldport Club QSOP breakout board&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/qsopbreakout/assets/qsopbreakout_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="Soldering"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/</id>
@@ -5478,6 +5516,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Power"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/fm/tea5767/</id>
@@ -5619,6 +5658,7 @@
     <category term="PCB Design"/>
     <category term="LED"/>
     <category term="AS1130"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/handheldsolderingirons/</id>
@@ -5713,6 +5753,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building a music/LED-effects kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/cd4060/musiclightkit/assets/musiclightkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="CD4060"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/pissoff/</id>
@@ -5725,6 +5766,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="NXP"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/meters/voltmeterammetermodule/</id>
@@ -5784,6 +5826,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="CMOS/TTL"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/thegent/</id>
@@ -5796,6 +5839,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Bugs"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/xorwithnandgates/</id>
@@ -5881,6 +5925,7 @@
     <category term="Boldport"/>
     <category term="EFM8"/>
     <category term="Sensors"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/variablefrequencyrunwayleds/</id>
@@ -5976,6 +6021,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/chainblocks/</id>
@@ -6016,6 +6062,7 @@
     <category term="ATmega"/>
     <category term="ATmel"/>
     <category term="Arduino"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/xyplotter/</id>
@@ -6054,6 +6101,7 @@
     <category term="PCB Design"/>
     <category term="LED"/>
     <category term="BJT"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/guitareffects/bazzfuss/</id>
@@ -6126,6 +6174,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/pease/</id>
@@ -6138,6 +6187,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="LM331"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/avrhardwarepwm/attiny/</id>
@@ -6198,6 +6248,7 @@
     <category term="Boldport"/>
     <category term="PCB Design"/>
     <category term="Bugs"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/pedalshielduno/audiodsp/</id>
@@ -6516,6 +6567,7 @@
     <category term="555 Timer"/>
     <category term="CMOS/TTL"/>
     <category term="CD4017"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/fritzingparts/</id>
@@ -6671,6 +6723,7 @@
     <summary>testing a TDA7297 audio amplifier kit (pump up the jam)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;testing a TDA7297 audio amplifier kit (pump up the jam)&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/tda7297kit/assets/tda7297kit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/ledpaneldisplay72r02/</id>
@@ -6766,6 +6819,7 @@
     <category term="LM3915"/>
     <category term="Audio"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/doorbellkit/</id>
@@ -6777,6 +6831,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;another two-tone doorbell using a 555 timer oscillator&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/doorbellkit/assets/doorbellkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/solenoids/solenoidmotor/</id>
@@ -6866,6 +6921,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and investigate an AT89S52-based "shake stick" kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/8051/povshakestickkit/assets/povshakestickkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="8051"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/sagradafamilia/</id>
@@ -6991,6 +7047,7 @@
     <summary>build and test a mains-powered 1.25V-12V DC LM317 power supply kit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a mains-powered 1.25V-12V DC LM317 power supply kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/powersupply317kit/assets/powersupply317kit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/meters/voltmetermodule/</id>
@@ -7119,6 +7176,7 @@
     <category term="SMD"/>
     <category term="CMOS/TTL"/>
     <category term="555 Timer"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/clapswitchkit/</id>
@@ -7633,6 +7691,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and investigate a commercially available "3-band voice level indicator" kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/visualization/voicelevelindicatorkit/assets/voicelevelindicatorkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Audio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/emrdetection/rfdetectorprobe/</id>
@@ -8043,6 +8102,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and investigate a commercially available "electronic clock" kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/8051/electronicclockkit/assets/electronicclockkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LCD"/>
     <category term="8051"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/oled/ssd1306bareback/</id>
@@ -8283,6 +8343,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and analyse a commercial LED lamp kit with capacitive power supply&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/acbulb/assets/acbulb_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/switchnfet/</id>

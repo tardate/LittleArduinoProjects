@@ -2,7 +2,7 @@
     "id": "#334",
     "name": "MCP2200 DevKit",
     "description": "exploring the capabilities of the MCP2200 USB-to-UART and program it from a macOS host",
-    "categories": "UART, USB, MCP2200",
+    "categories": "UART, USB, MCP2200, Kit",
     "relative_path": "Electronics101/MCP2200/DevKit",
     "updated_at": "2017-08-13T13:10:22Z",
     "created_at": "2017-08-13T13:10:22Z"

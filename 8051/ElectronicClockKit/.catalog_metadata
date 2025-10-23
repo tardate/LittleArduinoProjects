@@ -2,7 +2,7 @@
     "id": "#088",
     "name": "Electronic Clock Kit",
     "description": "build and investigate a commercially available \"electronic clock\" kit",
-    "categories": "LCD, 8051",
+    "categories": "LCD, 8051, Kit",
     "relative_path": "8051/ElectronicClockKit",
     "updated_at": "2023-03-27T13:57:21Z",
     "created_at": "2023-03-27T13:57:21Z"
