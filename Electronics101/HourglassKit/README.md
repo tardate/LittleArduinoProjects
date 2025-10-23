@@ -6,11 +6,9 @@ Building an hourglass animation that demonstrates some pretty claver multiplexin
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/rMI45_8RprU/0.jpg)](https://www.youtube.com/watch?v=rMI45_8RprU)
 
 ## Notes
-
-notes here
 
 ### The Kit
 
@@ -97,6 +95,10 @@ The factory animation depicts an hourglass with the LEDs from the "top" graduall
 The push-button controls the speed of the hourglass animation (4 speeds).
 
 ![Build](./assets/HourglassKit_build.jpg?raw=true)
+
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/rMI45_8RprU/0.jpg)](https://www.youtube.com/watch?v=rMI45_8RprU)
 
 ### Next Steps: Programming and Features
 
