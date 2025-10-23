@@ -371,7 +371,8 @@
         "tags": [
             "BJT",
             "RC",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/equipment/nlb/flashforgecreatorpro2/": {
@@ -1182,7 +1183,8 @@
         "summary": "Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)",
         "tags": [
             "LDR",
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "Kit"
         ]
     },
     "/electronics101/displays/lcd3digit/": {
@@ -1491,7 +1493,8 @@
         "summary": "Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.",
         "tags": [
             "OpAmp",
-            "Control"
+            "Control",
+            "Kit"
         ]
     },
     "/books/arduino-for-radio-amateur-applications/": {
@@ -1600,7 +1603,8 @@
         "summary": "Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.",
         "tags": [
             "LDR",
-            "LED"
+            "LED",
+            "Kit"
         ]
     },
     "/electronics101/led/candleemulator/": {
@@ -1642,7 +1646,8 @@
         "summary": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
         "tags": [
             "CMOS/TTL",
-            "Digital Logic"
+            "Digital Logic",
+            "Kit"
         ]
     },
     "/electronics101/power/dicksonchargepump/halfwave/": {
@@ -2449,7 +2454,8 @@
         "summary": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit",
         "tags": [
             "BMS",
-            "RF"
+            "RF",
+            "Kit"
         ]
     },
     "/audio/simplesoundeffects2/": {
@@ -2544,7 +2550,8 @@
         "summary": "Building an FM radio kit based on the Silan SC1088 FM receiver chip",
         "tags": [
             "Radio",
-            "FM"
+            "FM",
+            "Kit"
         ]
     },
     "/radio/fm/frequencyconverter/": {
@@ -2720,7 +2727,8 @@
         "tags": [
             "Audio",
             "Power",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/esp32/publishinginternals/": {
@@ -3059,7 +3067,8 @@
         "summary": "build and analyse the HX108-2 superheterodyne AM MW radio receiver kit",
         "tags": [
             "Radio",
-            "AM"
+            "AM",
+            "Kit"
         ]
     },
     "/electronics101/guitareffects/goblin/": {
@@ -3334,7 +3343,8 @@
         "title": "AdjustablePowerSupplyKit",
         "summary": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing",
         "tags": [
-            "Power"
+            "Power",
+            "Kit"
         ]
     },
     "/kinetics/steppermotors/uln2003module/": {
@@ -3638,7 +3648,8 @@
         "title": "Pixie",
         "summary": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m",
         "tags": [
-            "Radio"
+            "Radio",
+            "Kit"
         ]
     },
     "/equipment/usbprotector/": {
@@ -4635,7 +4646,8 @@
             "PIC",
             "Tools",
             "Test Equipment",
-            "Oscillators"
+            "Oscillators",
+            "Kit"
         ]
     },
     "/electronics101/cd4060/crystaloscillator/": {
@@ -4762,7 +4774,8 @@
             "Oscillators",
             "Tools",
             "Test Equipment",
-            "XR2206"
+            "XR2206",
+            "Kit"
         ]
     },
     "/radio/fm/threestagetransmitter/": {
@@ -4790,7 +4803,8 @@
         "tags": [
             "Radio",
             "FM",
-            "Transmitter"
+            "Transmitter",
+            "Kit"
         ]
     },
     "/equipment/componenttesterkit/": {
@@ -4800,7 +4814,8 @@
         "tags": [
             "Tools",
             "Test Equipment",
-            "ATmega"
+            "ATmega",
+            "Kit"
         ]
     },
     "/boldportclub/touchy/": {
@@ -5004,7 +5019,8 @@
         "tags": [
             "Oscillators",
             "BJT",
-            "Digital Logic"
+            "Digital Logic",
+            "Kit"
         ]
     },
     "/boldportclub/emergency/": {
@@ -5317,7 +5333,8 @@
             "Music",
             "Arduino",
             "CD4011",
-            "CD4066"
+            "CD4066",
+            "Kit"
         ]
     },
     "/kinetics/fq777-954/teardown/": {
@@ -5483,7 +5500,8 @@
         "tags": [
             "Radio",
             "FM",
-            "Transmitter"
+            "Transmitter",
+            "Kit"
         ]
     },
     "/electronics101/frequencycounter/": {
@@ -5843,7 +5861,8 @@
         "tags": [
             "Oscillators",
             "BJT",
-            "Digital Logic"
+            "Digital Logic",
+            "Kit"
         ]
     },
     "/playground/rgbledmodule/": {
@@ -6198,7 +6217,8 @@
         "tags": [
             "Radio",
             "AM",
-            "FM"
+            "FM",
+            "Kit"
         ]
     },
     "/electronics101/darlingtontouchswitch/": {
@@ -6270,7 +6290,8 @@
         "summary": "build and analyse the HX-6B superheterodyne AM MW radio receiver kit",
         "tags": [
             "Radio",
-            "AM"
+            "AM",
+            "Kit"
         ]
     },
     "/electronics101/opamptimer/": {

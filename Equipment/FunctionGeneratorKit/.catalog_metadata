@@ -2,7 +2,7 @@
     "id": "#282",
     "name": "Function Generator Kit",
     "description": "build and test a function generator kit based on the XR-2206 monolithic function generator",
-    "categories": "Oscillators, Tools, Test Equipment, XR2206",
+    "categories": "Oscillators, Tools, Test Equipment, XR2206, Kit",
     "relative_path": "Equipment/FunctionGeneratorKit",
     "updated_at": "2018-09-18T12:38:41Z",
     "created_at": "2018-09-18T12:38:41Z"

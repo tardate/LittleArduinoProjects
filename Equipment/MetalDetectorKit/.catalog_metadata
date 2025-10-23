@@ -2,7 +2,7 @@
     "id": "#526",
     "name": "Metal Detector Kit",
     "description": "An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit",
-    "categories": "BMS, RF",
+    "categories": "BMS, RF, Kit",
     "relative_path": "Equipment/MetalDetectorKit",
     "updated_at": "2020-01-20T00:42:00Z",
     "created_at": "2020-01-20T00:42:00Z"

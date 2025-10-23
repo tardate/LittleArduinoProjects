@@ -467,6 +467,7 @@
     <category term="BJT"/>
     <category term="RC"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/nlb/flashforgecreatorpro2/</id>
@@ -1464,6 +1465,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building an LDR-controlled relay kit with hysteresis/delay for on and off transitions (LM393 comparator with RC-dampened inputs)&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/lightcontrolswitchkit/assets/lightcontrolswitchkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LDR"/>
     <category term="CMOS/TTL"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/displays/lcd3digit/</id>
@@ -1843,6 +1845,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Build and test a high-low switching circuit with relay output. It is intended for monitoring a water tank level and switching a pump.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/waterlevelcontrolkit/assets/waterlevelcontrolkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Control"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/arduino-for-radio-amateur-applications/</id>
@@ -1976,6 +1979,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building a simple but fun light-sensitive DIY kit, a perfect gift for someone learning to solder.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/weevileyekit/assets/weevileyekit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LDR"/>
     <category term="LED"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/candleemulator/</id>
@@ -2028,6 +2032,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/hilologictesterkit/assets/hilologictesterkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Digital Logic"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/</id>
@@ -3007,6 +3012,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;An inductive metal detector kit powered by an 18650 with TP4333-based BMS charging circuit&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/metaldetectorkit/assets/metaldetectorkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="BMS"/>
     <category term="RF"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/simplesoundeffects2/</id>
@@ -3122,6 +3128,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building an FM radio kit based on the Silan SC1088 FM receiver chip&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/fm/zx2031kit/assets/zx2031kit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="FM"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/fm/frequencyconverter/</id>
@@ -3334,6 +3341,7 @@
     <category term="Audio"/>
     <category term="Power"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp32/publishinginternals/</id>
@@ -3745,6 +3753,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and analyse the HX108-2 superheterodyne AM MW radio receiver kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/am/hx108-2/assets/hx108-2_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="AM"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/guitareffects/goblin/</id>
@@ -4078,6 +4087,7 @@
     <summary>building a popular 30V/3A adjustable power supply kit, making an enclosure and testing</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building a popular 30V/3A adjustable power supply kit, making an enclosure and testing&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/adjustablepowersupplykit/assets/adjustablepowersupplykit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/steppermotors/uln2003module/</id>
@@ -4446,6 +4456,7 @@
     <summary>research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/pixie/assets/pixie_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/usbprotector/</id>
@@ -5655,6 +5666,7 @@
     <category term="Tools"/>
     <category term="Test Equipment"/>
     <category term="Oscillators"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4060/crystaloscillator/</id>
@@ -5808,6 +5820,7 @@
     <category term="Tools"/>
     <category term="Test Equipment"/>
     <category term="XR2206"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/fm/threestagetransmitter/</id>
@@ -5842,6 +5855,7 @@
     <category term="Radio"/>
     <category term="FM"/>
     <category term="Transmitter"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/componenttesterkit/</id>
@@ -5854,6 +5868,7 @@
     <category term="Tools"/>
     <category term="Test Equipment"/>
     <category term="ATmega"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/touchy/</id>
@@ -6098,6 +6113,7 @@
     <category term="Oscillators"/>
     <category term="BJT"/>
     <category term="Digital Logic"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/emergency/</id>
@@ -6475,6 +6491,7 @@
     <category term="Arduino"/>
     <category term="CD4011"/>
     <category term="CD4066"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/fq777-954/teardown/</id>
@@ -6677,6 +6694,7 @@
     <category term="Radio"/>
     <category term="FM"/>
     <category term="Transmitter"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/frequencycounter/</id>
@@ -7113,6 +7131,7 @@
     <category term="Oscillators"/>
     <category term="BJT"/>
     <category term="Digital Logic"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rgbledmodule/</id>
@@ -7546,6 +7565,7 @@
     <category term="Radio"/>
     <category term="AM"/>
     <category term="FM"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/darlingtontouchswitch/</id>
@@ -7634,6 +7654,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and analyse the HX-6B superheterodyne AM MW radio receiver kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/am/hx6b/assets/hx6b_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="AM"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/opamptimer/</id>
