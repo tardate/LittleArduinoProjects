@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-10-02T07:17:00Z</updated>
+  <updated>2025-10-23T12:54:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/hourglasskit/</id>
+    <link href="https://leap.tardate.com/electronics101/hourglasskit/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/hourglasskit/assets/hourglasskit_build.jpg</g:image_link>
+    <updated>2025-10-23T12:54:00Z</updated>
+    <title>#796 Hourglass Kit</title>
+    <summary>Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/hourglasskit/assets/hourglasskit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Kit"/>
+    <category term="8051"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4011/toggletouchswitch/</id>
     <link href="https://leap.tardate.com/electronics101/cd4011/toggletouchswitch/"/>

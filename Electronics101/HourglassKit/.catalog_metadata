@@ -1,6 +1,9 @@
 {
     "name": "Hourglass Kit",
-    "description": "",
+    "description": "Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.",
     "categories": "Kit, 8051",
-    "relative_path": "Electronics101/HourglassKit"
+    "relative_path": "Electronics101/HourglassKit",
+    "updated_at": "2025-10-23T12:54:00Z",
+    "created_at": "2025-10-23T12:54:00Z",
+    "id": "#796"
 }

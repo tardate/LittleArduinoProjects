@@ -1,4 +1,13 @@
 {
+    "/electronics101/hourglasskit/": {
+        "id": 796,
+        "title": "Hourglass Kit",
+        "summary": "Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.",
+        "tags": [
+            "Kit",
+            "8051"
+        ]
+    },
     "/electronics101/cd4011/toggletouchswitch/": {
         "id": 795,
         "title": "CD4011 Toggle Touch Switch",

@@ -1,5 +1,15 @@
 [
     {
+        "name": "Hourglass Kit",
+        "description": "Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.",
+        "categories": "Kit, 8051",
+        "relative_path": "electronics101/hourglasskit",
+        "updated_at": "2025-10-23T12:54:00Z",
+        "created_at": "2025-10-23T12:54:00Z",
+        "id": "#796",
+        "original_relative_path": "Electronics101/HourglassKit"
+    },
+    {
         "name": "CD4011 Toggle Touch Switch",
         "description": "Testing a common CD4011 touch switch circuit with single on/off toggle pad",
         "categories": "Digital Logic, CMOS/TTL, CD4011",
