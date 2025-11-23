@@ -45,7 +45,7 @@ Key features of the [Brother ScanNCut SDX1200](https://www.brother.com.sg/en/sca
 
 * Paper
     * e.g. use for basic prototyping of projects before committing to final materials.
-* Cardstock
+* Card stock
     * e.g. create decorative crafts with varying thickness and texture.
 * Vinyl Sticker
     * e.g. make adhesive decals and stickers to apply to different surfaces.
