@@ -1,4 +1,13 @@
 {
+    "/equipment/nlb/snanncut/": {
+        "id": 797,
+        "title": "Brother ScanNCut SDX1200",
+        "summary": "Using the laser cutting services available in Singapore's National Libraries - Brother ScanNCut SDX1200.",
+        "tags": [
+            "NLB MakeIt",
+            "Digital Cutter"
+        ]
+    },
     "/electronics101/hourglasskit/": {
         "id": 796,
         "title": "Hourglass Kit",

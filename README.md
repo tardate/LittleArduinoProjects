@@ -1,6 +1,6 @@
-# 796 Little Electronic Art Projects
+# 797 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Hourglass Kit](./Electronics101/HourglassKit) - Building an hourglass animation that demonstrates some pretty claver multiplexing with the STC15W204S (8051-compatible) microprocessor. This kit is widely available online for a few dollars.
+> Latest addition :sparkles: [Brother ScanNCut SDX1200](./Equipment/NLB/SnanNCut) - Using the laser cutting services available in Singapore's National Libraries - Brother ScanNCut SDX1200.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
