@@ -100,6 +100,14 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/rMI45_8RprU/0.jpg)](https://www.youtube.com/watch?v=rMI45_8RprU)
 
+### Custom Label
+
+I cut a label with the
+[Brother ScanNCut SDX1200](../../Equipment/NLB/SnanNCut/)
+at the library:
+
+![build02a](./assets/build02a.jpg)
+
 ### Next Steps: Programming and Features
 
 I've seen that the programming of this device has been pretty well investigated and documented, for example see <https://github.com/Rick-100/STC-hourglass-kit>.
