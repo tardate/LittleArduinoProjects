@@ -1,0 +1,6 @@
+{
+    "name": "Firefly Kit",
+    "description": "Build and understand the circuit that is used in this common Firefly DIY kit featuring light-activated vibration movement and a pulsating LED.",
+    "categories": "Kit, LM358",
+    "relative_path": "Electronics101/FireflyKit"
+}

@@ -18,6 +18,7 @@ Two issues I seeing:
 * the push-pull output stage cannot deliver much power, and the maximum peak-peak range with a 5V supply is about 3.2V, and the output wave is offset down ~1V from the midpoint of this range, leading to early low-side clipping
 
 Here are some scope traces:
+
 * CH1 is the output
 * CH2 is the input
 
@@ -28,7 +29,6 @@ With a 200mV 1kHz input signal, the output is severely clipped:
 Replacing R8 with 31kΩ, I can eliminate clipping:
 
 ![1kHz_200mV_31k](./assets/1kHz_200mV_31k.gif?raw=true)
-
 
 ### Variations from the Original Circuit
 
