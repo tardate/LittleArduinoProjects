@@ -1,4 +1,4 @@
-# #xxx Make: More Electronics
+# #799 Make: More Electronics
 
 Book notes: Make: More Electronics: Journey Deep Into the World of Logic Chips, Amplifiers, Sensors, and Randomicity by Charles Platt. First published October 22, 2013.
 
