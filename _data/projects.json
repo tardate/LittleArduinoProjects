@@ -1,4 +1,13 @@
 {
+    "/electronics101/fireflykit/": {
+        "id": 798,
+        "title": "Firefly Kit",
+        "summary": "Build and understand the circuit that is used in this common Firefly DIY kit featuring light-activated vibration movement and a pulsating LED.",
+        "tags": [
+            "Kit",
+            "LM358"
+        ]
+    },
     "/equipment/nlb/snanncut/": {
         "id": 797,
         "title": "Brother ScanNCut SDX1200",

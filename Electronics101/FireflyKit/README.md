@@ -1,4 +1,4 @@
-# #xxx Firefly Kit
+# #798 Firefly Kit
 
 Build and understand the circuit that is used in this common Firefly DIY kit featuring light-activated vibration movement and a pulsating LED.
 
