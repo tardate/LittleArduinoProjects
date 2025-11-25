@@ -1,6 +1,6 @@
-# 798 Little Electronic Art Projects
+# 799 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Firefly Kit](./Electronics101/FireflyKit) - Build and understand the circuit used in this common Firefly DIY kit featuring light-activated vibration movement and a pulsating LED.
+> Latest addition :sparkles: [Make: More Electronics](./books/make-more-electronics) - Book notes: Make: More Electronics: Journey Deep Into the World of Logic Chips, Amplifiers, Sensors, and Randomicity by Charles Platt. First published October 22, 2013.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
