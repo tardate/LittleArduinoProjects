@@ -1,6 +1,6 @@
 # #798 Firefly Kit
 
-Build and understand the circuit that is used in this common Firefly DIY kit featuring light-activated vibration movement and a pulsating LED.
+Build and understand the circuit used in this common Firefly DIY kit featuring light-activated vibration movement and a pulsating LED.
 
 ![Build](./assets/FireflyKit_build.jpg?raw=true)
 
@@ -9,8 +9,6 @@ Here's a quick demo..
 [![clip](https://img.youtube.com/vi/L4pR2TzLNno/0.jpg)](https://www.youtube.com/watch?v=L4pR2TzLNno)
 
 ## Notes
-
-notes here
 
 ### The Kit
 
@@ -75,7 +73,7 @@ The blue LED is pulsed by the LM358 configured as an oscillator.
 In theory, the vibration motors and LED circuits operate independently,
 but in practice when the motors are activated it drops the battery voltage
 sufficiently to turn off the LED.
-This may just be true with a partially used battery, but the effect is pleasing.
+This may only be true with a partially used battery, but the effect is pleasing.
 
 ### Build Log
 
