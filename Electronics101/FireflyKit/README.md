@@ -4,6 +4,10 @@ Build and understand the circuit that is used in this common Firefly DIY kit fea
 
 ![Build](./assets/FireflyKit_build.jpg?raw=true)
 
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/L4pR2TzLNno/0.jpg)](https://www.youtube.com/watch?v=L4pR2TzLNno)
+
 ## Notes
 
 notes here
