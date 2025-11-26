@@ -1,0 +1,9 @@
+{
+    "name": "IR Photodiodes",
+    "description": "Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.",
+    "categories": "IR, Photodiode",
+    "relative_path": "Electronics101/IR/ir-photodiodes",
+    "updated_at": "2025-11-26T10:02:00Z",
+    "created_at": "2025-11-26T10:02:00Z",
+    "id": "#800"
+}

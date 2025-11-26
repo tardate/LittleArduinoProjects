@@ -1,6 +1,6 @@
-# 799 Little Electronic Art Projects
+# 800 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Make: More Electronics](./books/make-more-electronics) - Book notes: Make: More Electronics: Journey Deep Into the World of Logic Chips, Amplifiers, Sensors, and Randomicity by Charles Platt. First published October 22, 2013.
+> Latest addition :sparkles: [IR Photodiodes](./Electronics101/IR/ir-photodiodes) - Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
