@@ -105,7 +105,7 @@ At 1kHz, we see some slew appearing at the receiver:
 
 ![ir-5mm-1k](assets/ir-5mm-1k.gif)
 
-At 20kHz,the received signal is significantly distorted:
+At 20kHz, the received signal is significantly distorted:
 
 ![ir-5mm-20k](assets/ir-5mm-20k.gif)
 
@@ -126,7 +126,7 @@ At 1kHz, we see some slew appearing at the receiver:
 
 ![ir-3mm-1k](assets/ir-3mm-1k.gif)
 
-At 20kHz,the received signal is significantly distorted:
+At 20kHz, the received signal is significantly distorted:
 
 ![ir-3mm-20k](assets/ir-3mm-20k.gif)
 

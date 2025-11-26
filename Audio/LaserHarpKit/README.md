@@ -100,8 +100,8 @@ After playing around for a few minutes, a couple of limitation are quite apparen
 
 ### Next Steps?
 
-I haven't found the 8051 source code or tried to download it fro the chip.
-Hoever given the problems with the laser harp - most of which can be solved in code - I don't think that's a big loss.
+I haven't found the 8051 source code or tried to download it from the chip.
+However given the problems with the laser harp - most of which can be solved in code - I don't think that's a big loss.
 
 The obvious next step is to redo this project but with:
 

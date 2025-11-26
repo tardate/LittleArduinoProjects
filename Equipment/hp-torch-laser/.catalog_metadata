@@ -1,0 +1,6 @@
+{
+    "name": "HP Torch/Laser",
+    "description": "Fixing a laser pointer and torch powered by a 3V coin cell.",
+    "categories": "Laser, LED",
+    "relative_path": "Equipment/hp-torch-laser"
+}
