@@ -1,4 +1,13 @@
 {
+    "/electronics101/ir/ir-photodiodes/": {
+        "id": 800,
+        "title": "IR Photodiodes",
+        "summary": "Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.",
+        "tags": [
+            "IR",
+            "Photodiode"
+        ]
+    },
     "/books/make-more-electronics/": {
         "id": 799,
         "title": "Make: More Electronics",

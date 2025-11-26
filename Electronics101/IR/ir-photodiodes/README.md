@@ -1,4 +1,4 @@
-# #xxx IR Photodiodes
+# #800 IR Photodiodes
 
 Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.
 
