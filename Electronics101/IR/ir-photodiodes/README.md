@@ -134,3 +134,6 @@ At 20kHz,the received signal is significantly distorted:
 
 * [100Pcs 3mm 5mm IR LED Diode Transmitter Receiver 850nm 940nm Infrared Photodiode Phototransistor Emitter Lights Emitting Bulb](https://www.aliexpress.com/item/1005003324844421.html)
 * [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
+* <https://en.wikipedia.org/wiki/Photodiode>
+* <https://www.build-electronic-circuits.com/photodiode/>
+* <https://www.electronics-tutorials.ws/diode/photodiode.html>
