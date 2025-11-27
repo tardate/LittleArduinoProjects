@@ -34,14 +34,12 @@ It's simple:
 
 ![schematic](./assets/hp-torch-laser_schematic.jpg?raw=true)
 
-![bb_build](./assets/hp-torch-laser_bb_build.jpg?raw=true)
-
 ### Build Log
 
-First, replacing the laser unit.
+I checked the white LED was still OK, so the main task is to replace the laser unit.
 
 I have some
-[3V/5V 650nm 5mW laser units](https://www.aliexpress.com/item/1005007530265787.html).
+[3V/5V 650nm 5mW red laser units](https://www.aliexpress.com/item/1005007530265787.html).
 These come with a built-in 30Ω current-limiting resistor, so I'm going to remove the onboard 180Ω current-limiting resistor.
 
 They also have a full metal bezel/heatsink/shield that was not in the original laser diode.
@@ -49,7 +47,7 @@ Rather than remove it, I'll bodge-it and cut away the case to make space.
 
 ![build02a](./assets/build02a.jpg?raw=true)
 
-With the new laser unit installed. I checked the white LED was still OK.
+With the new laser unit installed with some hot glue to keep it in position.
 
 ![build02b](./assets/build02b.jpg?raw=true)
 
@@ -71,4 +69,4 @@ Testing the LED (it is not very bright):
 
 ## Credits and References
 
-* [3V/5V 650nm 5mW laser module](https://www.aliexpress.com/item/1005007530265787.html)
+* [3V/5V 650nm 5mW red laser module](https://www.aliexpress.com/item/1005007530265787.html)
