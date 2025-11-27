@@ -1,4 +1,4 @@
-# #xxx HP Torch/Laser
+# #801 HP Torch/Laser
 
 Fixing a laser pointer and torch powered by a 3V coin cell.
 

@@ -1,6 +1,6 @@
-# 800 Little Electronic Art Projects
+# 801 Little Electronic Art Projects
 
-> Latest addition :sparkles: [IR Photodiodes](./Electronics101/IR/ir-photodiodes) - Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.
+> Latest addition :sparkles: [HP Torch/Laser](./Equipment/hp-torch-laser) - Fixing a laser pointer and torch powered by a 3V coin cell.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
