@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-11-26T10:02:00Z</updated>
+  <updated>2025-11-27T05:15:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/equipment/hp-torch-laser/</id>
+    <link href="https://leap.tardate.com/equipment/hp-torch-laser/"/>
+    <g:image_link>https://leap.tardate.com/equipment/hp-torch-laser/assets/hp-torch-laser_build.jpg</g:image_link>
+    <updated>2025-11-27T05:15:00Z</updated>
+    <title>#801 HP Torch/Laser</title>
+    <summary>Fixing a laser pointer and torch powered by a 3V coin cell.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Fixing a laser pointer and torch powered by a 3V coin cell.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/hp-torch-laser/assets/hp-torch-laser_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Laser"/>
+    <category term="LED"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ir/ir-photodiodes/</id>
     <link href="https://leap.tardate.com/electronics101/ir/ir-photodiodes/"/>

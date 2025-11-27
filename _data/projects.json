@@ -1,4 +1,13 @@
 {
+    "/equipment/hp-torch-laser/": {
+        "id": 801,
+        "title": "HP Torch/Laser",
+        "summary": "Fixing a laser pointer and torch powered by a 3V coin cell.",
+        "tags": [
+            "Laser",
+            "LED"
+        ]
+    },
     "/electronics101/ir/ir-photodiodes/": {
         "id": 800,
         "title": "IR Photodiodes",
