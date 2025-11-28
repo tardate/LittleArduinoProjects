@@ -53,19 +53,27 @@ With the new laser unit installed with some hot glue to keep it in position.
 
 Reassembled:
 
-![build03b](./assets/build03b.jpg?raw=true)
-
-And front panel label re-attached with Bu Lai En B-7000 jewelers glue
-
 ![build03a](./assets/build03a.jpg?raw=true)
 
-Testing the laser:
+Adding a panel to cover the new laser assembly:
+
+![build03b](./assets/build03b.jpg?raw=true)
+
+Sprayed with some My Hobby H68 (RLM74 Gray Green) to blend the repair:
 
 ![build03c](./assets/build03c.jpg?raw=true)
 
-Testing the LED (it is not very bright):
+Front panel label re-attached with Bu Lai En B-7000 jewelers glue:
 
 ![build03d](./assets/build03d.jpg?raw=true)
+
+Testing the laser:
+
+![build04a](./assets/build04a.jpg?raw=true)
+
+Testing the LED (it is not very bright):
+
+![build04b](./assets/build04b.jpg?raw=true)
 
 ## Credits and References
 
