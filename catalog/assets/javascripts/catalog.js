@@ -8,9 +8,9 @@
       this.catalog_table = catalog_table;
       this.hookActions();
       this.loadCatalog();
-      this.github_base_url = 'https://github.com/tardate/LittleArduinoProjects/blob/master/';
-      this.pages_base_url = 'https://leap.tardate.com/';
-      this.hero_images = true;
+      this.github_base_url = 'https://github.com/tardate/LittleCodingKata/blob/master/';
+      this.pages_base_url = 'https://codingkata.tardate.com/';
+      this.hero_images = false;
     }
 
     CatalogController.prototype.hookActions = function() {
@@ -110,10 +110,10 @@
         var categoryFilter = $('<select id="category-filter" class="form-control input-sm"><option value="">All Categories</option></select>')
           .appendTo($('#catalog-table_wrapper').find('.dataTables_filter'))
           .on('change', function() {
-            var val = $.fn.dataTable.util.escapeRegex($(this).val());
-            instance.catalog_table.DataTable().column(2).search(val ? val : '', true, false).draw();
+            var term = $.fn.dataTable.util.escapeRegex($(this).val());
+            var query = term ? '([\\s]|^)' + term + '($|,)' : '';
+            instance.catalog_table.DataTable().column(2).search(query, true, false).draw();
           });
-
         $.ajax({
           url: './catalog/categories.json',
           success: function(data) {
