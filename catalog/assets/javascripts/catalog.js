@@ -8,9 +8,9 @@
       this.catalog_table = catalog_table;
       this.hookActions();
       this.loadCatalog();
-      this.github_base_url = 'https://github.com/tardate/LittleCodingKata/blob/master/';
-      this.pages_base_url = 'https://codingkata.tardate.com/';
-      this.hero_images = false;
+      this.github_base_url = 'https://github.com/tardate/LittleArduinoProjects/blob/master/';
+      this.pages_base_url = 'https://leap.tardate.com/';
+      this.hero_images = true;
     }
 
     CatalogController.prototype.hookActions = function() {
