@@ -1,0 +1,163 @@
+# #xxx LM339 Non-inverting Comparator
+
+Testing the LM339 when used as a non-inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.
+
+![Build](./assets/NonInvertingComparator_build.jpg?raw=true)
+
+## Notes
+
+I've used the LM449 comparator in various projects before, but let's take a closer look. It is trivial to use in its basic comparator role:
+
+![lm339-basic-comparator-schematic](assets/lm339-basic-comparator-schematic.jpg)
+
+In this project however, I'm going to test the effect of adding positive feedback (hysteresis) to prevent oscillations at the crossing point.
+
+![lm339-non-inverting-schematic](assets/lm339-non-inverting-schematic.jpg)
+
+### About the LM339
+
+The LM339 is a quad voltage comparator IC containing four independent, precision comparators designed to operate from a single power supply. Each comparator compares two input voltages and pulls its open-collector output low when the non-inverting input is lower than the inverting input. The open-collector design allows the outputs to be wired-ORed and enables flexible interfacing with logic levels different from the supply voltage. The LM339 operates over a wide supply range (typically 2V to 36V), consumes very little current, and offers good input common-mode range that includes ground, making it ideal for single-supply designs.
+
+Because of its stability, low power consumption, and open-collector outputs, the LM339 is widely used in zero-cross detectors, threshold detectors, oscillators, window comparators, and sensor interface circuits. Its ability to run from high supply voltages and still interface with low-voltage logic makes it a staple in mixed-signal designs, industrial control systems, analog front-ends, and general-purpose comparator applications.
+
+![lm339-chip](../assets/lm339-chip.jpg)
+
+### Oscillation and the use of Feedback
+
+The LM139 series are high gain, wide bandwidth devices which, like most comparators, can easily oscillate if the output lead is inadvertently allowed to capacitively couple to the inputs via stray capacitance.
+
+This shows up only during the output voltage transition intervals as the comparator changes states.
+
+Power supply bypassing does not solve this problem.
+Methods that can help:
+
+* standard PC board layout reduces stray input-output coupling.
+* reducing input resistors to < 10 kΩ reduces the feedback signal levels
+
+But by far the most effective method is by adding positive feedback (hysteresis)
+
+* adding even a small amount (1 to 10 mV) of positive feedback (hysteresis) causes such a rapid transition that oscillations due to stray feedback are not possible.
+* simply socketing the IC and attaching resistors to the pins will cause input-output oscillations during the small transition intervals unless hysteresis is used.
+* if the input signal is a pulse wave-form, with relatively fast rise and fall times, hysteresis is not required.
+
+### Other Design Recommendations
+
+* All pins of any unused comparators should be tied to the negative supply.
+* It is usually unnecessary to use a bypass capacitor across the power supply line.
+* Protection should be provided to prevent the input voltages from going negative more than -0.3 Vc (at 25°C). An input clamp diode can be used as shown in the applications section.
+* The output of the LM139 series is the uncommitted collector of a grounded-emitter NPN output transistor.
+    * Many collectors can be tied together to provide an output OR'ing function.
+    * An output pull-up resistor can be connected to any available power supply voltage within the permitted supply voltage range, but it does **not** need to be the same as V+
+    * The output can also be used as a simple SPST switch to ground (when a pull-up resistor is not used).
+
+### Circuit Design - Without Feedback
+
+First let's try this without feedback/hysteresis:
+
+* input is a sine wave from a signal generator, 4V peak-peak, 2.5V offset
+* non-inverting comparator configuration
+* input clamps to prevent negative voltage excursions
+* all unused pins tied to ground
+* adjustable Vref
+
+Designed with Fritzing: see [NonInvertingComparator.fzz](./NonInvertingComparator.fzz).
+
+![bb](./assets/NonInvertingComparator_bb.jpg?raw=true)
+
+![schematic](./assets/NonInvertingComparator_schematic.jpg?raw=true)
+
+Setup on a breadboard:
+
+![bb_build](./assets/NonInvertingComparator_bb_build.jpg?raw=true)
+
+This is actually working quite well. Looking at some oscilloscope traces where:
+
+* CH1 (Yellow) - input signal
+* CH2 (Blue) - output signal
+* CH3 (Red) - input signal at IN1, after input attenuation resistor (Rin)
+* CH4 (Green) - Vref
+
+We are getting clean transitions and no output oscillation at 10Hz:
+
+![test1-10hz](./assets/test1-10hz.gif?raw=true)
+
+Bumping up the input frequency to 50kHz, and we still have no output oscillation, although the slew is starting to show in the output:
+
+![test1-50khz](./assets/test1-50khz.gif?raw=true)
+
+Pushing up the input frequency to 500kHz, and we still have no output oscillation, although now we see significant phase delay and slew on the output:
+
+![test1-500khz](./assets/test1-500khz.gif?raw=true)
+
+### Creating the "Problem"
+
+So we don't actually have an output oscillation problem.
+Let's create one by adding 10pF of capacitance from output to input.
+
+Yes, as seen below, we now have ringing on the falling edge at least.
+
+![test2-50khz-10pf](./assets/test2-50khz-10pf.gif?raw=true)
+
+### Circuit Design - With Feedback
+
+Adding feedback:
+
+* circuit as before
+* with 10pF capacitor `C1*` bridging OUT1 and IN1- (to cause the ringing problem)
+* adding adjustable positive feedback (hysteresis) with a 500kΩ pot
+* not initially installed: an additional 100pF capacitor `C2**`
+
+Designed with Fritzing: see [NonInvertingComparatorWithFeedback.fzz](./NonInvertingComparatorWithFeedback.fzz).
+
+![bb](./assets/NonInvertingComparatorWithFeedback_bb.jpg?raw=true)
+
+![schematic](./assets/NonInvertingComparatorWithFeedback_schematic.jpg?raw=true)
+
+Setup on a breadboard:
+
+![bb_build](./assets/NonInvertingComparatorWithFeedback_bb_build.jpg?raw=true)
+
+Let's take a look at the results (without `C2**` installed).
+For all of the following tests will just use a 50kHz input signal.
+
+With minimum feedback (Rfb = 500kΩ),
+we now have oscillations on the rising and falling edges.
+**This is not good!**
+
+![test2-50khz-10pf-fbmin](./assets/test2-50khz-10pf-fbmin.gif?raw=true)
+
+As we increase the feedback (reducing Rfb), things get increasingly worse.
+
+![test2-50khz-10pf-fbmax](./assets/test2-50khz-10pf-fbmax.gif?raw=true)
+
+### Fixing the Feedback Oscillations
+
+I did notice that when I touched the input lead it would kill the ringing. So add a little capacitance?
+I tried some values and found that an additional 100pF capacitor `C2**`
+coupling IN1- to ground eliminated the ringing.
+
+Now I can adjust the feedback/hysteresis without ringing.
+
+With minimum feedback (Rfb = 500kΩ), can clearly see an effective phase shift on the output (the hysteresis), and clean transitions.
+
+![test2-50khz-10pf-100pf-fbmin](./assets/test2-50khz-10pf-100pf-fbmin.gif?raw=true)
+
+With maximum feedback (Rfb = 0kΩ), still clean and significant hysteresis:
+
+![test2-50khz-10pf-100pf-fbmax](./assets/test2-50khz-10pf-100pf-fbmax.gif?raw=true)
+
+### Conclusion
+
+So the Non-inverting Comparator with Feedback circuit didn't
+initially work as explained in the datasheet.
+
+It seems in most cases, using an LM339 as a non-inverting comparator
+one should first try without any feedback, and only add it if there is a problem.
+
+Note that adding any amount of feedback will introduce hysteresis,
+effectively a phase shift in the output signal.
+
+## Credits and References
+
+* [LM339 Datasheet](https://www.futurlec.com/Linear/LM339N.shtml)
+* [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
