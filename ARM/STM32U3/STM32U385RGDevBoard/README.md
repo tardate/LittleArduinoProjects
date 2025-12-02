@@ -1,6 +1,7 @@
 # #774 STM32U385RG Dev Board
 
 About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.
+Now upgraded to STM32CubeIDE 2.0.0 and STM32CubeProgrammer 2.21.0.
 
 ![Build](./assets/STM32U385RGDevBoard_build.jpg?raw=true)
 
@@ -147,8 +148,6 @@ build and run the project
 Transcript from the console:
 
 ```sh
-
-
 STMicroelectronics ST-LINK GDB server. Version 7.10.0
 Copyright (c) 2025, STMicroelectronics. All rights reserved.
 
@@ -228,6 +227,100 @@ Exit.
 And now I have a blinking LED!
 
 ![Build](./assets/STM32U385RGDevBoard_build.jpg?raw=true)
+
+## Upgrade STM32CubeIDE release v2.0.0
+
+I've upgraded from 1.18.1 to 2.0.0 using the "Help > Check for Updates" within STM32CubeIDE.
+The upgrade was applied without issue. See the [release notes](./assets/DM00603738.pdf).
+
+Recompiling and running the blink program works as expected.
+Note:
+
+* ST-LINK GDB server upgraded from version 7.10.0 to 7.12.0
+* STM32CubeProgrammer upgraded from version 2.19.0 to 2.21.0
+
+The [STM32CubeProgrammer 2.21](https://blog.st.com/stm32cubeprogrammer/) now as native support for Apple silicon.
+
+```sh
+STMicroelectronics ST-LINK GDB server. Version 7.12.0
+Copyright (c) 2025, STMicroelectronics. All rights reserved.
+
+Starting server with the following options:
+        Persistent Mode            : Disabled
+        Logging Level              : 1
+        Listen Port Number         : 61234
+        Status Refresh Delay       : 15s
+        Verbose Mode               : Disabled
+        SWD Debug                  : Enabled
+        InitWhile                  : Enabled
+
+Waiting for debugger connection...
+Debugger connected
+Waiting for debugger connection...
+Debugger connected
+Waiting for debugger connection...
+      -------------------------------------------------------------------
+                        STM32CubeProgrammer v2.21.0
+      -------------------------------------------------------------------
+
+
+
+Log output file:   /tmp/STM32CubeProgrammer_24D7qd.log
+ST-LINK SN  : 0027002F3333511731363730
+ST-LINK FW  : V3J16M7
+Board       : NUCLEO-U385RG-Q
+Voltage     : 3.29V
+SWD freq    : 8000 KHz
+Connect mode: Under Reset
+Reset mode  : Hardware reset
+Device ID   : 0x454
+Revision ID : Rev Z
+Device name : STM32U3xx
+Flash size  : 1 MBytes
+Device type : MCU
+Device CPU  : Cortex-M33
+BL Version  : 0xE2
+Debug in Low Power mode enabled
+
+      -------------------------------------------------------------------
+        Choose flashing speed for Cortex M33 series.(default speed=Reliable)
+      -------------------------------------------------------------------
+
+
+
+Opening and parsing file: ST-LINK_GDB_server_YrSli4.srec
+
+
+Memory Programming ...
+  File          : ST-LINK_GDB_server_YrSli4.srec
+  Size          : 6.11 KB
+  Address       : 0x08000000
+
+
+Erasing memory corresponding to segment 0:
+Erasing internal memory sectors [0 1]
+Download in Progress:
+
+
+File download complete
+Time elapsed during download operation: 00:00:00.314
+
+
+
+Verifying...
+
+
+
+
+Time elapsed during verifying operation: 00:00:00.042
+
+
+Download verified successfully
+
+
+Shutting down...
+Exit.
+```
 
 ## Credits and References
 
