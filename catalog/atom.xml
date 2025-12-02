@@ -331,8 +331,8 @@
     <g:image_link>https://leap.tardate.com/arm/stm32u3/stm32u385rgdevboard/assets/stm32u385rgdevboard_build.jpg</g:image_link>
     <updated>2025-05-01T08:05:00Z</updated>
     <title>#774 STM32U385RG Dev Board</title>
-    <summary>About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch.&lt;/p&gt;&lt;img src="https://leap.tardate.com/arm/stm32u3/stm32u385rgdevboard/assets/stm32u385rgdevboard_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch. Now upgraded to STM32CubeIDE 2.0.0 and STM32CubeProgrammer 2.21.0.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the STM32U385RG development board, installing STM32CubeIDE on macOS, and making a simple LED blinky demo from scratch. Now upgraded to STM32CubeIDE 2.0.0 and STM32CubeProgrammer 2.21.0.&lt;/p&gt;&lt;img src="https://leap.tardate.com/arm/stm32u3/stm32u385rgdevboard/assets/stm32u385rgdevboard_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="STM32"/>
   </entry>
   <entry>

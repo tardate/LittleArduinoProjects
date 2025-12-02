@@ -37,15 +37,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  0002ae48  00000000  00000000  0000dc5f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00008a24  00000000  00000000  00038aa7  2**0
+ 17 .debug_line   00008a92  00000000  00000000  00038aa7  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0010c06a  00000000  00000000  000414cb  2**0
+ 18 .debug_str    0010c06a  00000000  00000000  00041539  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0014d535  2**0
+ 19 .comment      00000043  00000000  00000000  0014d5a3  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00001de0  00000000  00000000  0014d578  2**2
+ 20 .debug_frame  00001de0  00000000  00000000  0014d5e8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000092  00000000  00000000  0014f358  2**0
+ 21 .debug_line_str 00000092  00000000  00000000  0014f3c8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -149,15 +149,15 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	/* Toggle LED2 with delay */
-	HAL_GPIO_TogglePin(LED2_GPIO_PORT, LED2_PIN);
+    /* Toggle LED2 with delay */
+    HAL_GPIO_TogglePin(LED2_GPIO_PORT, LED2_PIN);
  80002c4:	2120      	movs	r1, #32
  80002c6:	4806      	ldr	r0, [pc, #24]	@ (80002e0 <main+0x6c>)
  80002c8:	f000 fd06 	bl	8000cd8 <HAL_GPIO_TogglePin>
-	HAL_Delay(500);
+    HAL_Delay(500);
  80002cc:	f44f 70fa 	mov.w	r0, #500	@ 0x1f4
  80002d0:	f000 fa26 	bl	8000720 <HAL_Delay>
-	HAL_GPIO_TogglePin(LED2_GPIO_PORT, LED2_PIN);
+    HAL_GPIO_TogglePin(LED2_GPIO_PORT, LED2_PIN);
  80002d4:	bf00      	nop
  80002d6:	e7f5      	b.n	80002c4 <main+0x50>
  80002d8:	40030c00 	.word	0x40030c00
