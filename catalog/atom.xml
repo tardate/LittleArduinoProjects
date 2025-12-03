@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-12-03T08:02:00Z</updated>
+  <updated>2025-12-03T16:50:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/lm339/invertingcomparator/</id>
+    <link href="https://leap.tardate.com/electronics101/lm339/invertingcomparator/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/lm339/invertingcomparator/assets/invertingcomparator_build.jpg</g:image_link>
+    <updated>2025-12-03T16:50:00Z</updated>
+    <title>#803 LM339 Inverting Comparator</title>
+    <summary>Testing the LM339 when used as an inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing the LM339 when used as an inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/lm339/invertingcomparator/assets/invertingcomparator_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="LM339"/>
+    <category term="Comparator"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm339/noninvertingcomparator/</id>
     <link href="https://leap.tardate.com/electronics101/lm339/noninvertingcomparator/"/>

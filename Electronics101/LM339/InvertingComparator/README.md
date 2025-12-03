@@ -1,4 +1,4 @@
-# #xxx LM339 Inverting Comparator
+# #803 LM339 Inverting Comparator
 
 Testing the LM339 when used as an inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.
 
