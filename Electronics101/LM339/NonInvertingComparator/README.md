@@ -1,4 +1,4 @@
-# #xxx LM339 Non-inverting Comparator
+# #802 LM339 Non-inverting Comparator
 
 Testing the LM339 when used as a non-inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.
 

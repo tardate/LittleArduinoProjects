@@ -1,6 +1,6 @@
-# 801 Little Electronic Art Projects
+# 802 Little Electronic Art Projects
 
-> Latest addition :sparkles: [HP Torch/Laser](./Equipment/hp-torch-laser) - Fixing a laser pointer and torch powered by a 3V coin cell.
+> Latest addition :sparkles: [LM339 Non-inverting Comparator](./Electronics101/LM339/NonInvertingComparator) - Testing the LM339 when used as a non-inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

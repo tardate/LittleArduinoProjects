@@ -2,5 +2,8 @@
     "name": "LM339 Non-inverting Comparator",
     "description": "Testing the LM339 when used as a non-inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.",
     "categories": "LM339, Comparator",
-    "relative_path": "Electronics101/LM339/NonInvertingComparator"
+    "relative_path": "Electronics101/LM339/NonInvertingComparator",
+    "updated_at": "2025-12-03T08:02:00Z",
+    "created_at": "2025-12-03T08:02:00Z",
+    "id": "#802"
 }
