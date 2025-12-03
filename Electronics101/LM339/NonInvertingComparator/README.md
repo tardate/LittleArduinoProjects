@@ -126,6 +126,7 @@ Zooming in on the rising and falling edges,
 we can see the ringing is no longer present:
 
 ![test2-10hz-fbmin-rising](./assets/test2-10hz-fbmin-rising.gif?raw=true)
+
 ![test2-10hz-fbmin-falling](./assets/test2-10hz-fbmin-falling.gif?raw=true)
 
 At 50kHz, things are still good without ringing:
@@ -148,5 +149,7 @@ If too much feedback is introduced, there can be significant hysteresis in the o
 
 ## Credits and References
 
+* <https://en.wikipedia.org/wiki/Comparator>
 * [LM339 Datasheet](https://www.futurlec.com/Linear/LM339N.shtml)
 * [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
+* [LEAP#803 LM339 Inverting Comparator](../InvertingComparator/)
