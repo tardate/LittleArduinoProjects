@@ -56,6 +56,7 @@ First let's try this without feedback/hysteresis:
 
 * input is a sine wave from a signal generator, 4V peak-peak, 2.5V offset
 * non-inverting comparator configuration
+    * i.e. input signal goes to IN+, reference to IN-
 * input clamps to prevent negative voltage excursions
 * all unused pins tied to ground
 * adjustable Vref
@@ -74,38 +75,35 @@ This is actually working quite well. Looking at some oscilloscope traces where:
 
 * CH1 (Yellow) - input signal
 * CH2 (Blue) - output signal
-* CH3 (Red) - input signal at IN1, after input attenuation resistor (Rin)
+* CH3 (Red) - input signal at IN1+, after input attenuation resistor (Rin)
 * CH4 (Green) - Vref
 
-We are getting clean transitions and no output oscillation at 10Hz:
+At 10Hz, things look good at the macro scale:
 
 ![test1-10hz](./assets/test1-10hz.gif?raw=true)
 
-Bumping up the input frequency to 50kHz, and we still have no output oscillation, although the slew is starting to show in the output:
+But if we zoom in on the falling edge, we see ringing:
+
+![test1-10hz-falling](./assets/test1-10hz-falling.gif?raw=true)
+
+Same for the rising edge:
+
+![test1-10hz-rising](./assets/test1-10hz-rising.gif?raw=true)
+
+Bumping up the input frequency to 50kHz, we no longer have output oscillation, although the slew is starting to show in the output:
 
 ![test1-50khz](./assets/test1-50khz.gif?raw=true)
 
-Pushing up the input frequency to 500kHz, and we still have no output oscillation, although now we see significant phase delay and slew on the output:
+Zooming in on the falling edge, still looking good:
 
-![test1-500khz](./assets/test1-500khz.gif?raw=true)
-
-### Creating the "Problem"
-
-So we don't actually have an output oscillation problem.
-Let's create one by adding 10pF of capacitance from output to input.
-
-Yes, as seen below, we now have ringing on the falling edge at least.
-
-![test2-50khz-10pf](./assets/test2-50khz-10pf.gif?raw=true)
+![test1-50khz-falling](./assets/test1-50khz-falling.gif?raw=true)
 
 ### Circuit Design - With Feedback
 
 Adding feedback:
 
 * circuit as before
-* with 10pF capacitor `C1*` bridging OUT1 and IN1- (to cause the ringing problem)
 * adding adjustable positive feedback (hysteresis) with a 500kΩ pot
-* not initially installed: an additional 100pF capacitor `C2**`
 
 Designed with Fritzing: see [NonInvertingComparatorWithFeedback.fzz](./NonInvertingComparatorWithFeedback.fzz).
 
@@ -117,45 +115,36 @@ Setup on a breadboard:
 
 ![bb_build](./assets/NonInvertingComparatorWithFeedback_bb_build.jpg?raw=true)
 
-Let's take a look at the results (without `C2**` installed).
-For all of the following tests will just use a 50kHz input signal.
+Let's take a look at the results.
 
-With minimum feedback (Rfb = 500kΩ),
-we now have oscillations on the rising and falling edges.
-**This is not good!**
+With minimum feedback (Rfb = 500kΩ) at 10Hz,
+things still look good at macro scale
 
-![test2-50khz-10pf-fbmin](./assets/test2-50khz-10pf-fbmin.gif?raw=true)
+![test2-10hz-fbmin](./assets/test2-10hz-fbmin.gif?raw=true)
 
-As we increase the feedback (reducing Rfb), things get increasingly worse.
+Zooming in on the rising and falling edges,
+we can see the ringing is no longer present:
 
-![test2-50khz-10pf-fbmax](./assets/test2-50khz-10pf-fbmax.gif?raw=true)
+![test2-10hz-fbmin-rising](./assets/test2-10hz-fbmin-rising.gif?raw=true)
+![test2-10hz-fbmin-falling](./assets/test2-10hz-fbmin-falling.gif?raw=true)
 
-### Fixing the Feedback Oscillations
+At 50kHz, things are still good without ringing:
 
-I did notice that when I touched the input lead it would kill the ringing. So add a little capacitance?
-I tried some values and found that an additional 100pF capacitor `C2**`
-coupling IN1- to ground eliminated the ringing.
+![test2-50khz-fbmin](./assets/test2-50khz-fbmin.gif?raw=true)
 
-Now I can adjust the feedback/hysteresis without ringing.
+As we crank up the feedback (reducing Vfb),
+we shift the output trigger point, effectively introducing a phase shift.
 
-With minimum feedback (Rfb = 500kΩ), can clearly see an effective phase shift on the output (the hysteresis), and clean transitions.
-
-![test2-50khz-10pf-100pf-fbmin](./assets/test2-50khz-10pf-100pf-fbmin.gif?raw=true)
-
-With maximum feedback (Rfb = 0kΩ), still clean and significant hysteresis:
-
-![test2-50khz-10pf-100pf-fbmax](./assets/test2-50khz-10pf-100pf-fbmax.gif?raw=true)
+![test2-50khz-fbmax](./assets/test2-50khz-fbmax.gif?raw=true)
 
 ### Conclusion
 
-So the Non-inverting Comparator with Feedback circuit didn't
-initially work as explained in the datasheet.
+With a non-inverting comparator configuration,
+ringing is seen on rising and falling edges especially at low frequencies.
+At higher frequencies, the problem can disappear.
 
-It seems in most cases, using an LM339 as a non-inverting comparator
-one should first try without any feedback, and only add it if there is a problem.
-
-Note that adding any amount of feedback will introduce hysteresis,
-effectively a phase shift in the output signal.
+Adding a little positive feedback (hysteresis) fixes the problem.
+If too much feedback is introduced, there can be significant hysteresis in the output, effectively a phase shift.
 
 ## Credits and References
 
