@@ -1,4 +1,4 @@
-# #xxx CD4029 Counter
+# #804 CD4029 Counter
 
 Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.
 

@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-12-03T16:50:00Z</updated>
+  <updated>2025-12-07T12:40:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/cd4029/counter/</id>
+    <link href="https://leap.tardate.com/electronics101/cd4029/counter/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/cd4029/counter/assets/counter_build.jpg</g:image_link>
+    <updated>2025-12-07T12:40:00Z</updated>
+    <title>#804 CD4029 Binary Counter</title>
+    <summary>Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/cd4029/counter/assets/counter_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="CMOS/TTL"/>
+    <category term="CD4029"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm339/invertingcomparator/</id>
     <link href="https://leap.tardate.com/electronics101/lm339/invertingcomparator/"/>
