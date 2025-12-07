@@ -1,6 +1,6 @@
-# 803 Little Electronic Art Projects
+# 804 Little Electronic Art Projects
 
-> Latest addition :sparkles: [LM339 Inverting Comparator](./Electronics101/LM339/InvertingComparator) - Testing the LM339 when used as an inverting comparator, and the effect of positive feedback (hysteresis) to prevent oscillations at the crossing point.
+> Latest addition :sparkles: [CD4029 Binary Counter](./Electronics101/CD4029/Counter) - Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

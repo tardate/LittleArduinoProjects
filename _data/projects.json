@@ -1,4 +1,14 @@
 {
+    "/electronics101/cd4029/counter/": {
+        "id": 804,
+        "title": "CD4029 Binary Counter",
+        "summary": "Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.",
+        "tags": [
+            "Digital Logic",
+            "CMOS/TTL",
+            "CD4029"
+        ]
+    },
     "/electronics101/lm339/invertingcomparator/": {
         "id": 803,
         "title": "LM339 Inverting Comparator",
