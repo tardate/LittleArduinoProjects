@@ -1,6 +1,6 @@
-# 804 Little Electronic Art Projects
+# 805 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CD4029 Binary Counter](./Electronics101/CD4029/Counter) - Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.
+> Latest addition :sparkles: [3DU5C](./Electronics101/OpticalSensors/3DU5C) - A quick review and test of the 3DU5C metal-encapsulated silicon phototransistor, used for light detection in the visible and infrared spectrum.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
