@@ -1,5 +1,15 @@
 [
     {
+        "name": "3DU5C Phototransistor",
+        "description": "A quick review and test of the 3DU5C metal-encapsulated silicon phototransistor, used for light detection in the visible and infrared spectrum.",
+        "categories": "IR, Phototransistor, Sensors",
+        "relative_path": "electronics101/opticalsensors/3du5c",
+        "updated_at": "2025-12-12T10:57:00Z",
+        "created_at": "2025-12-12T10:57:00Z",
+        "id": "#805",
+        "original_relative_path": "Electronics101/OpticalSensors/3DU5C"
+    },
+    {
         "name": "CD4029 Binary Counter",
         "description": "Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, and testing it out with a basic counter circuit.",
         "categories": "Digital Logic, CMOS/TTL, CD4029",
@@ -41,7 +51,7 @@
     },
     {
         "name": "IR Photodiodes",
-        "description": "Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.",
+        "description": "Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes. Tested with CHANZON-brand IR Emitter and Receivers (with a note about PT334-6C part confusion).",
         "categories": "IR, Photodiode",
         "relative_path": "electronics101/ir/ir-photodiodes",
         "updated_at": "2025-11-26T10:02:00Z",
