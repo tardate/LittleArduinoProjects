@@ -32,6 +32,10 @@ The package has equal length leads. The emitter is identified by the metal tab o
 
 ### Comparing Photodiodes and Phototransistors
 
+See also
+[The Art of Electronics](../../../books/the-art-of-electronics/)
+12.6.1 Photodiodes and phototransistors (3rd Edition).
+
 Photodiodes and phototransistors are both light-sensitive semiconductor devices, but they behave quite differently.
 
 Photodiodes:
@@ -113,4 +117,5 @@ The following is a scope trace of the voltage being excited with a blue LED:
 
 * ["2PCS 3DU5C Phototransistor Transistor Silicon Phototransistor Transistor Metal Package 2-pin NPN"](https://www.aliexpress.com/item/1005007571351820.html) - aliexpress seller
 * <https://www.alibaba.com/product-detail/3DU5C-Silicon-Phototransistor-Two-Pin-Metal_1601271212767.html> - example alibaba source
+* [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
 * [Make: More Electronics](../../../books/make-more-electronics/) Experiment 4: Measuring Light

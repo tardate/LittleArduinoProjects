@@ -13,6 +13,36 @@ See also
 [The Art of Electronics](../../../books/the-art-of-electronics/)
 12.6.1 Photodiodes and phototransistors (3rd Edition).
 
+### Components
+
+The [aliexpress seller](https://www.aliexpress.com/item/1005003324844421.html) provided the following specification for their IR transmitters and receivers:
+
+* Brand: CHANZON
+* Lens Size: 3mm / 5mm / 10mm Diameter
+* Lens: Clear Lens (transmitter) / Black Lens (receiver)
+* Emitting Color: IR Emitter 850nm/IR Emitter 940nm / IR Receiver 940nm
+* Luminous Intensity: Invisible Light
+* Emitting Angle:
+    * 60 Degree  (850NM IR Emitter)
+    * 45 Degree (940NM IR Emitter)
+    * 30 Degree (940NM IR Receiver)
+* Forward Voltage:
+    * 1.4-1.6V (850NM IR Emitter)
+    * 1.2-1.5V (940NM IR Emitter)
+* Current: 20mA
+* Polarity: Anode (Longer Part); Cathode (Shorter Part)
+
+### Note concerning "PT334-6C" Parts
+
+Several vendors (Everlight being the best-known) sell the PT334-6C as a clear-lens NPN phototransistor.
+For example, see the [PT334-6C datasheet (digikey)](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4819/PT334-6C_Rev4_12-23-16.pdf).
+
+However there is also some confusion caused by
+a number of suppliers (especially on AliExpress/eBay/LCSC 3rd-party listings) selling a device called PT334-6C, but it is actually an IR LED, not a phototransistor.
+
+It is not really possible to visually distinguish the parts.
+Generally: unless the part comes with a datasheet clearly identifying it as a phototransistor, assume it is most likely an IR LED.
+
 ### IR LEDs (Infrared Light-Emitting Diodes)
 
 What they do:
@@ -132,7 +162,7 @@ At 20kHz, the received signal is significantly distorted:
 
 ## Credits and References
 
-* [100Pcs 3mm 5mm IR LED Diode Transmitter Receiver 850nm 940nm Infrared Photodiode Phototransistor Emitter Lights Emitting Bulb](https://www.aliexpress.com/item/1005003324844421.html)
+* [100Pcs 3mm 5mm IR LED Diode Transmitter Receiver 850nm 940nm Infrared Photodiode Phototransistor Emitter Lights Emitting Bulb](https://www.aliexpress.com/item/1005003324844421.html) - aliexpress seller
 * [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
 * <https://en.wikipedia.org/wiki/Photodiode>
 * <https://www.build-electronic-circuits.com/photodiode/>
