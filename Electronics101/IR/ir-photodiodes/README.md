@@ -1,6 +1,6 @@
 # #800 IR Photodiodes
 
-Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.
+Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes. Tested with CHANZON-brand IR Emitter and Receivers (with a note about PT334-6C part confusion).
 
 ![Build](./assets/ir-photodiodes_build.jpg?raw=true)
 

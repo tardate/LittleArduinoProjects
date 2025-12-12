@@ -51,7 +51,7 @@
     },
     {
         "name": "IR Photodiodes",
-        "description": "Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.",
+        "description": "Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes. Tested with CHANZON-brand IR Emitter and Receivers (with a note about PT334-6C part confusion).",
         "categories": "IR, Photodiode",
         "relative_path": "electronics101/ir/ir-photodiodes",
         "updated_at": "2025-11-26T10:02:00Z",

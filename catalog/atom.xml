@@ -76,8 +76,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/ir/ir-photodiodes/assets/ir-photodiodes_build.jpg</g:image_link>
     <updated>2025-11-26T10:02:00Z</updated>
     <title>#800 IR Photodiodes</title>
-    <summary>Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/ir/ir-photodiodes/assets/ir-photodiodes_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes. Tested with CHANZON-brand IR Emitter and Receivers (with a note about PT334-6C part confusion).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Investigating and testing infrared (IR) transmission between IR LEDs and IR photodiodes. Tested with CHANZON-brand IR Emitter and Receivers (with a note about PT334-6C part confusion).&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/ir/ir-photodiodes/assets/ir-photodiodes_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="IR"/>
     <category term="Photodiode"/>
   </entry>
