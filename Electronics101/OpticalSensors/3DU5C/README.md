@@ -1,4 +1,4 @@
-# #805 3DU5C
+# #805 3DU5C Phototransistor
 
 A quick review and test of the 3DU5C metal-encapsulated silicon phototransistor, used for light detection in the visible and infrared spectrum.
 

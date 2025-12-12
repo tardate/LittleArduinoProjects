@@ -1,7 +1,7 @@
 {
     "/electronics101/opticalsensors/3du5c/": {
         "id": 805,
-        "title": "3DU5C",
+        "title": "3DU5C Phototransistor",
         "summary": "A quick review and test of the 3DU5C metal-encapsulated silicon phototransistor, used for light detection in the visible and infrared spectrum.",
         "tags": [
             "IR",
