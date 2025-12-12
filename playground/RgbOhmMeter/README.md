@@ -21,9 +21,9 @@ This project is a [Ohmmeter](https://en.wikipedia.org/wiki/Ohmmeter) featuring:
 * Arduino Uno (ATmega328P) processor
 * auto-ranging ohmmeter from ~55Ω through to <400kΩ.
 * LCD display of:
-  * measure resistance
-  * closest E24 standard value
-  * 3 band color code names
+    * measure resistance
+    * closest E24 standard value
+    * 3 band color code names
 * and of course: RGD LED display of the color codes
 
 Conclusion: the ohmmeter works pretty well, but the RGB LEDs are a little unconvincing for some colors.
@@ -45,7 +45,6 @@ And the unknown resistance can be calculated using Ohms Law:
 * And: `I = (VCC - Vx)/R1`
 * Therefore: `Rx = Vx * R1/(VCC - Vx)`
 
-
 ### Auto-ranging
 
 The Arduino's ATmega328P uses an integrated 10-bit analog to digital converter, producing integer output ranged from 0 and 1023.
@@ -58,13 +57,13 @@ So to cover a decent resistance range, the circuit "auto-ranges"... basically sw
 In this circuit, I've included 4 known resistor options (220Ω, 1kΩ, 10kΩ, 100kΩ) to allow an effective range from ~55Ω through to <400kΩ.
 
 * higher resistances (e.g. up to 10MΩ) could be covered by adding another resistance option - but I had to stop at some point!
-* 220Ω is about the lowest I could safely go without adding some over-currrent protection complexity i.e. consider a full short - [23mA](https://www.wolframalpha.com/input/?i=5V%2F220%CE%A9) is already getting close to the 40mA max rating for GPIO pins on the ATmega328P.
+* 220Ω is about the lowest I could safely go without adding some over-current protection complexity i.e. consider a full short - [23mA](https://www.wolframalpha.com/input/?i=5V%2F220%CE%A9) is already getting close to the 40mA max rating for GPIO pins on the ATmega328P.
 
 The auto-ranging works by:
 
 * starting from largest known resistor value, working down to smallest
-* the selected resistor GPIO pin is enabled (all others are kept in high-impedenace input mode so they do not affecrt the reading)
-* the resulting voltage at the measurement point (Vx) is read thegouh an analog pin
+* the selected resistor GPIO pin is enabled (all others are kept in high-impedance input mode so they do not affect the reading)
+* the resulting voltage at the measurement point (Vx) is read through an analog pin
 * if Vx is between 1V and 4V (not too high, not too low), this becomes the official result
 * else skip to next smallest resistor and repeat
 
@@ -79,7 +78,6 @@ Once a resistance reading has been made, the code uses a fairly brute-force meth
 standard resistance value from the
 [E24 values (5% tolerance) series](https://en.wikipedia.org/wiki/E_series_of_preferred_numbers):
 1.0, 1.1, 1.2, 1.3, 1.5, 1.6, 1.8, 2.0, 2.2, 2.4, 2.7, 3.0, 3.3, 3.6, 3.9, 4.3, 4.7, 5.1, 5.6, 6.2, 6.8, 7.5, 8.2, 9.1.
-
 
 ## RGB Display
 
@@ -97,7 +95,6 @@ To allow a relatively flicker-free display whil not interferring with the resist
 the RGB LED multiplexing is handled by a timer interrupt.
 The interrupt using Timer2. I was concerned this may affect the PWM functions on pin 11, but it seems to coexist quite happily.
 
-
 ### Resistor Color Codes
 
 The display is based on the 4-band standard, but with band 4 ignored as that can't be accurately inferred from the readings.
@@ -106,7 +103,7 @@ The display is based on the 4-band standard, but with band 4 ignored as that can
 |-------------------------|------------------------|-------------|--------|
 | 1st significant digit   | 2nd significant digit  | multiplier  | tolerance |
 
-#### Stndard Color Codes for Significant Digits
+#### Standard Color Codes for Significant Digits
 
 The following table summarises for each color:
 
@@ -127,7 +124,6 @@ The following table summarises for each color:
 | Grey     | 8                        | x100000000  |   2 -   1 -   0 |
 | White    | 9                        | x1000000000 | 249 - 253 - 250 |
 
-
 That the RGB duty cycles I have chosen came about with a deal of experimentation.
 The best values are also affected by the chose current limiting resistors for each color:
 
@@ -140,7 +136,7 @@ as a PWM "high" level will turn the LED off and vice versa (i.e. active low logi
 
 #### Color Codes for tolerance
 
-For completenes, here are the color codes for tolerances, though unused in the application:
+For completeness, here are the color codes for tolerances, though unused in the application:
 
 | Color  | Value   |
 |--------|---------|
@@ -157,14 +153,12 @@ For completenes, here are the color codes for tolerances, though unused in the a
 | Gold   | ±5%     |
 | Silver | ±10%    |
 
-
 ## Libraries Used
 
 The program [RgbOhmMeter.ino](./RgbOhmMeter.ino) uses a couple of libraries:
 
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) - convenient way of setting up the Timer2 interrupt for RGB multiplexing
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - to drive the particular LCD over I²C
-
 
 ## Construction
 
