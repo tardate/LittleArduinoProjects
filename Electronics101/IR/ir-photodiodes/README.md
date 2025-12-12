@@ -32,6 +32,8 @@ The [aliexpress seller](https://www.aliexpress.com/item/1005003324844421.html) p
 * Current: 20mA
 * Polarity: Anode (Longer Part); Cathode (Shorter Part)
 
+![chanzon-ir](./assets/chanzon-ir.jpg)
+
 ### Note concerning "PT334-6C" Parts
 
 Several vendors (Everlight being the best-known) sell the PT334-6C as a clear-lens NPN phototransistor.
