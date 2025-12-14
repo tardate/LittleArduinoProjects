@@ -1,7 +1,7 @@
 {
     "name": "FC-51 IR Obstacle Avoidance Sensor Module",
     "description": "Testing a common infrared obstacle avoidance sensor module, and reviewing the behaviour of the LM393-based comparator circuit when used directly or with a microcontroller (Arduino). Includes suggestions for practical use.",
-    "categories": "IR, Sensors, Arduino",
+    "categories": "IR, Sensors, Arduino, LM393",
     "relative_path": "Electronics101/IR/fc-51-sensor-module",
     "updated_at": "2025-12-14T06:37:00Z",
     "created_at": "2025-12-14T06:37:00Z",
