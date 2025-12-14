@@ -1,6 +1,6 @@
 [
     {
-        "name": "SquareWaveOscillator",
+        "name": "LM393 Square-wave Oscillator",
         "description": "Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.",
         "categories": "LM393, Comparator, Oscillators",
         "relative_path": "electronics101/lm393/squarewaveoscillator",

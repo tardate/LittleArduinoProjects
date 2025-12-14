@@ -18,7 +18,7 @@
     <link href="https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/"/>
     <g:image_link>https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/assets/squarewaveoscillator_build.jpg</g:image_link>
     <updated>2025-12-14T10:40:00Z</updated>
-    <title>#807 SquareWaveOscillator</title>
+    <title>#807 LM393 Square-wave Oscillator</title>
     <summary>Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/assets/squarewaveoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LM393"/>
