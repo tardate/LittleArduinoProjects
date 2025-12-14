@@ -9,10 +9,10 @@ Counting beats per minute with a piezo tap sensor and an Arduino/ATmega328 analo
 Some time back I picked up some [Piezo Transducers](http://www.dx.com/p/zx-18t9a1-18mm-piezo-transducer-sound-discs-w-leads-5-pcs-148144#.Wm3xP5P1XfA),
 and they've been waiting for a project to happen.
 
-This experiement is a building block. What I'd like to be able to do is detect (count) pulses from the piezo transducer.
+This experiment is a building block. What I'd like to be able to do is detect (count) pulses from the piezo transducer.
 That is, as opposed to capturing an accurate waveform from the piezo - I just want to know when a "tap" is picked up.
 
-There are many ways to approach this, but what I'll expore here is using the built-in analog comparator of an Arduino/ATmega328
+There are many ways to approach this, but what I'll explore here is using the built-in analog comparator of an Arduino/ATmega328
 to trigger interrupts and do some software de-bouncing/noise abatement.
 As a result is derives and displays a beats-per-minute (BPM) estimate.
 
@@ -81,7 +81,7 @@ We want to extract a single pulse from the noisy raw piezo input, so it needs fi
 This could be done off-board with comparators and filters, but in this case I'm doing it within the ATmega
 with the following techniques:
 
-* the analog comparator reference threshold set with R1 prevents (ilters) weaker pulses triggering the input
+* the analog comparator reference threshold set with R1 prevents (filters) weaker pulses triggering the input
 * discard pulses faster than 250 BPM/240ms - "too fast to be useful"
 * reset when pulses below 33 BPM/1800ms - "threshold of the perceptual present"
 

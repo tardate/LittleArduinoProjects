@@ -1,6 +1,6 @@
-# 805 Little Electronic Art Projects
+# 806 Little Electronic Art Projects
 
-> Latest addition :sparkles: [3DU5C Phototransistor](./Electronics101/OpticalSensors/3DU5C) - A quick review and test of the 3DU5C metal-encapsulated silicon phototransistor, used for light detection in the visible and infrared spectrum.
+> Latest addition :sparkles: [FC-51 IR Obstacle Avoidance Sensor Module](./Electronics101/IR/fc-51-sensor-module) - Testing a common infrared obstacle avoidance sensor module, and reviewing the behaviour of the LM393-based comparator circuit when used directly or with a microcontroller (Arduino). Includes suggestions for practical use.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
