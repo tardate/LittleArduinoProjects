@@ -1,4 +1,14 @@
 {
+    "/electronics101/lm393/squarewaveoscillator/": {
+        "id": 807,
+        "title": "LM393 Square-wave Oscillator",
+        "summary": "Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.",
+        "tags": [
+            "LM393",
+            "Comparator",
+            "Oscillators"
+        ]
+    },
     "/electronics101/ir/fc-51-sensor-module/": {
         "id": 806,
         "title": "FC-51 IR Obstacle Avoidance Sensor Module",
@@ -6,7 +16,8 @@
         "tags": [
             "IR",
             "Sensors",
-            "Arduino"
+            "Arduino",
+            "LM393"
         ]
     },
     "/electronics101/opticalsensors/3du5c/": {
@@ -1123,7 +1134,8 @@
         "summary": "Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).",
         "tags": [
             "Arduino",
-            "Audio"
+            "Audio",
+            "LM393"
         ]
     },
     "/audio/audioamps/electretpreamp/": {
@@ -1281,7 +1293,8 @@
         "tags": [
             "LDR",
             "CMOS/TTL",
-            "Kit"
+            "Kit",
+            "LM393"
         ]
     },
     "/electronics101/displays/lcd3digit/": {
@@ -3617,7 +3630,8 @@
             "Sensors",
             "Kinetics",
             "OpAmp",
-            "Kit"
+            "Kit",
+            "LM393"
         ]
     },
     "/electronics101/555timer/nixiepowersupply/": {

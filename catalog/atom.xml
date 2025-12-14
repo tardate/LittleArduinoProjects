@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-12-14T06:37:00Z</updated>
+  <updated>2025-12-14T10:40:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/</id>
+    <link href="https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/assets/squarewaveoscillator_build.jpg</g:image_link>
+    <updated>2025-12-14T10:40:00Z</updated>
+    <title>#807 LM393 Square-wave Oscillator</title>
+    <summary>Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/assets/squarewaveoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="LM393"/>
+    <category term="Comparator"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ir/fc-51-sensor-module/</id>
     <link href="https://leap.tardate.com/electronics101/ir/fc-51-sensor-module/"/>
@@ -24,6 +36,7 @@
     <category term="IR"/>
     <category term="Sensors"/>
     <category term="Arduino"/>
+    <category term="LM393"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/opticalsensors/3du5c/</id>
@@ -1389,6 +1402,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineering a commercial electret sound detection module intended for use with an Arduino/microcontroller as a sound level trigger (not audio pre-amp).&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/electretsounddetectionmodule/assets/electretsounddetectionmodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Audio"/>
+    <category term="LM393"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/electretpreamp/</id>
@@ -1583,6 +1597,7 @@
     <category term="LDR"/>
     <category term="CMOS/TTL"/>
     <category term="Kit"/>
+    <category term="LM393"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/displays/lcd3digit/</id>
@@ -4415,6 +4430,7 @@
     <category term="Kinetics"/>
     <category term="OpAmp"/>
     <category term="Kit"/>
+    <category term="LM393"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/nixiepowersupply/</id>
