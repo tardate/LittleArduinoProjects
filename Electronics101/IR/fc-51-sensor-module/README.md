@@ -1,4 +1,4 @@
-# #xxx FC-51 IR Obstacle Avoidance Sensor Module
+# #806 FC-51 IR Obstacle Avoidance Sensor Module
 
 Testing a common infrared obstacle avoidance sensor module, and reviewing the behaviour of the LM393-based comparator circuit when used directly or with a microcontroller (Arduino). Includes suggestions for practical use.
 

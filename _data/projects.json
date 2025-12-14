@@ -1,4 +1,14 @@
 {
+    "/electronics101/ir/fc-51-sensor-module/": {
+        "id": 806,
+        "title": "FC-51 IR Obstacle Avoidance Sensor Module",
+        "summary": "Testing a common infrared obstacle avoidance sensor module, and reviewing the behaviour of the LM393-based comparator circuit when used directly or with a microcontroller (Arduino). Includes suggestions for practical use.",
+        "tags": [
+            "IR",
+            "Sensors",
+            "Arduino"
+        ]
+    },
     "/electronics101/opticalsensors/3du5c/": {
         "id": 805,
         "title": "3DU5C Phototransistor",
