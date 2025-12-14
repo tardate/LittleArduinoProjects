@@ -1,4 +1,4 @@
-# #xxx LM393 Square-wave Oscillator
+# #807 LM393 Square-wave Oscillator
 
 Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.
 
