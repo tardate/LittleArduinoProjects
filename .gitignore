@@ -11,3 +11,10 @@ _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
+
+# general ruby stuff
+.bundle
+Gemfile.lock
+.byebug_history
+# don't ignore bundler and rvm settings
+# .ruby*
