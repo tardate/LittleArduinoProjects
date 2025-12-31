@@ -1,6 +1,6 @@
-# 807 Little Electronic Art Projects
+# 808 Little Electronic Art Projects
 
-> Latest addition :sparkles: [LM393 Square-wave Oscillator](./Electronics101/LM393/SquareWaveOscillator) - Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.
+> Latest addition :sparkles: [Basic SMD Practice Board](./Electronics101/SMDPracticeBoards/BasicKit1) - A basic soldering practice board for SMD components.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

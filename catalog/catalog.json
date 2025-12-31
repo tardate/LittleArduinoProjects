@@ -1,5 +1,15 @@
 [
     {
+        "name": "Basic SMD Practice Board",
+        "description": "A basic soldering practice board for SMD components.",
+        "categories": "SMD",
+        "relative_path": "electronics101/smdpracticeboards/basickit1",
+        "updated_at": "2025-12-31T11:17:00Z",
+        "created_at": "2025-12-31T11:17:00Z",
+        "id": "#808",
+        "original_relative_path": "Electronics101/SMDPracticeBoards/BasicKit1"
+    },
+    {
         "name": "LM393 Square-wave Oscillator",
         "description": "Demonstrating a free-running square wave oscillator circuit using an LM393 comparator.",
         "categories": "LM393, Comparator, Oscillators",

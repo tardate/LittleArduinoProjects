@@ -15,7 +15,7 @@ One effective solution is to use a "module" if one is available.
 These are generally small boards holding surface mount chip(s) and supporting circuitry
 but provide pins or sockets for easy external connections.
 Although mainly geared for microcontroller market, there are many that are also relevant for standalone analog or digital circuits.
-An example is [this CurrentSensorModule](../../playground/CurrentSensorModule).
+An example is [this CurrentSensorModule](../../playground/CurrentSensorModule/).
 
 However as I've found, surface-mount devices can be quite easy to use in a hobby project even in the absence of a suitable module.
 The challenge kind of breaks down into two categories:
@@ -29,31 +29,26 @@ The challenge kind of breaks down into two categories:
     * magnifier and lots of flux! .. pretty much essential
     * I haven't quite mastered this yet ;-(
 
-To get started, there are some pretty cheap practice boards available, like this:
-
-![SMD Kit#2 test](./assets/kit2_test.jpg?raw=true)
-
 ### Surface Mount Nomenclature
 
 * [Surface-mount technology](https://en.wikipedia.org/wiki/Surface-mount_technology) - wikipedia
 * [List of integrated circuit package dimensions](https://en.wikipedia.org/wiki/List_of_integrated_circuit_package_dimensions) - wikipedia
 * [MELFs](http://en.wikipedia.org/wiki/MELF_electronic_components).
 
-### SMD Practice Kit #1
+### SMD Practice Kits
 
-Obtained from [a seller on aliexpress](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) for under USD1 per board.
+To get started, there is a large range of cheap practice boards available.
+I've tried quite a few, which I'll present below.
 
-This is an example of a basic practice board
+#### Basic SMD Practice Board
 
-* with 0603, 0805, 1206, SOT-23 and SOP-16 components.
-* After welding, it can be powered 7V to 15V and an LED will light up if all 0603, 0805, 1206 resistors and diodes soldered correctly
-* there's no test circuit for the SOT-23 and SOP-16 components
+See [LEAP#808 Basic SMD Practice Board](./BasicKit1/).
 
-Here's the test circuit showing a pass on my practice board (yay! ... though you can see I bodged the SOP16 a bit):
+An example of a basic practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.
 
-![SMD Kit#1 test](./assets/kit1_test.jpg?raw=true)
+[![SMD Kit#1 test](./BasicKit1/assets/BasicKit1_build.jpg)](./BasicKit1/)
 
-### SMD Practice Kit #2
+#### SMD Practice Kit #2
 
 Obtained from [a seller on aliexpress](https://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) for around USD2.50 per board.
 
@@ -68,8 +63,17 @@ Here's a quick video of the test circuit in action:
 
 [![SMD Kit#2 demo](https://img.youtube.com/vi/-0-qbcGySPA/0.jpg)](https://www.youtube.com/watch?v=-0-qbcGySPA)
 
+#### Glowing Star SMD Practice Board
+
+See [LEAP#620 Glowing Star SMD Practice Board](./Star/).
+
+A five-pointed star SMD Practice Board with LM358 oscillator LED effects.
+
+[![Star_build](./Star/assets/Star_build.jpg)](./Star/)
+
 ## Credits and References
 
-* [Kit #1 Practice Board](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) - example of a basic practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components
+* [LEAP#808 Basic SMD Practice Board](./BasicKit1/)
+* [LEAP#620 Glowing Star SMD Practice Board](./Star/)
 * [Kit #2 Practice Board](https://www.aliexpress.com/item/SMD-components-welding-practice-board-Welding-practice-light-kit-Skills-Training-welding-competition-kit/32315250409.html) - example of a pretty full-featured practice board
 * [SO16 SSOP16 TSSOP16 SOIC16 To DIP Adapter PCB Board Converter](https://www.aliexpress.com/item/20-Pcs-SO16-SSOP16-TSSOP16-SOIC16-To-DIP-Adapter-PCB-Board-Converter/32436820541.html) - modules I used from an aliexpress seller to mount the SOP-8 chip

@@ -7,12 +7,22 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-12-14T10:40:00Z</updated>
+  <updated>2025-12-31T11:17:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/</id>
+    <link href="https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/assets/basickit1_build.jpg</g:image_link>
+    <updated>2025-12-31T11:17:00Z</updated>
+    <title>#808 Basic SMD Practice Board</title>
+    <summary>A basic soldering practice board for SMD components.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A basic soldering practice board for SMD components.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/assets/basickit1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="SMD"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/</id>
     <link href="https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/"/>

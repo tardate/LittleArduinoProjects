@@ -1,4 +1,12 @@
 {
+    "/electronics101/smdpracticeboards/basickit1/": {
+        "id": 808,
+        "title": "Basic SMD Practice Board",
+        "summary": "A basic soldering practice board for SMD components.",
+        "tags": [
+            "SMD"
+        ]
+    },
     "/electronics101/lm393/squarewaveoscillator/": {
         "id": 807,
         "title": "LM393 Square-wave Oscillator",
