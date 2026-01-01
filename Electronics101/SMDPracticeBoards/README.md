@@ -65,6 +65,14 @@ A five-pointed star SMD Practice Board with LM358 oscillator LED effects.
 
 [![Star_build](./Star/assets/Star_build.jpg)](./Star/)
 
+#### LED Matrix SMD Practice Board
+
+See [LEAP#810 LED Matrix SMD Practice Board](./LedMatrixKit1/).
+
+A full-featured soldering practice board with a range of components (0603 , 0805, SO-8, SO-16) and a 64-LED matrix that displays a microcontroller-generated pattern when soldered correctly.
+
+[![LedMatrixKit1_build](./LedMatrixKit1/assets/LedMatrixKit1_build.jpg)](./LedMatrixKit1/)
+
 ## Credits and References
 
 * [LEAP#808 Basic SMD Practice Board](./BasicKit1/)
