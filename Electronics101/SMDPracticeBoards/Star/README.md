@@ -10,9 +10,11 @@ Here's a quick demo..
 
 ## Notes
 
+NB: see [LEAP#171 SMD Practice Boards](../) for an overview of all the SMD practice boards I have tried.
+
 I've seen this
-[Five-Pointed Star Breathing Light DIY Kit](https://www.aliexpress.com/item/1005002131149229.html)
-around for some time, and finalled shelled out a $1 or so to try one out.
+["Students training DIY Kit Five-Pointed Star Breathing Light Gradient LED Light for Christmas Soldering Training Red Green Blue" (seller listing on aliexpress)](https://www.aliexpress.com/item/1005002131149229.html)
+around for some time, and finally shelled out SGD$1.28 (in Nov-2021) to try one out.
 
 It's maybe a change from the typical 4017+555 circuits used in these SMD soldering kits!
 
@@ -62,5 +64,6 @@ Haven't done any hot air work for a while. Thought I'd do that rather than hand-
 
 ## Credits and References
 
-* [Students training DIY Kit Five-Pointed Star Breathing Light Gradient LED Light for Christmas Soldering Training Red Green Blue](https://www.aliexpress.com/item/1005002131149229.html) - aliexpress seller
+* [LEAP#171 SMD Practice Boards](../)
+* ["Students training DIY Kit Five-Pointed Star Breathing Light Gradient LED Light for Christmas Soldering Training Red Green Blue" (seller listing on aliexpress)](https://www.aliexpress.com/item/1005002131149229.html)
 * [LM358N Datasheet](https://www.futurlec.com/Linear/LM358N.shtml)

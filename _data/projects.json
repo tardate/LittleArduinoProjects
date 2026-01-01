@@ -1,4 +1,37 @@
 {
+    "/electronics101/smdpracticeboards/ledmatrixkit1/": {
+        "id": 810,
+        "title": "LED Matrix SMD Practice Board",
+        "summary": "A full-featured soldering practice board with a range of components (0603 , 0805, SO-8, SO-16) and a 64-LED matrix that displays a microcontroller-generated pattern when soldered correctly.",
+        "tags": [
+            "SMD",
+            "Practice Board",
+            "Kit",
+            "74HC595"
+        ]
+    },
+    "/electronics101/smdpracticeboards/ringcounterkit1/": {
+        "id": 809,
+        "title": "Ring Counter SMD Practice Board",
+        "summary": "A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.",
+        "tags": [
+            "SMD",
+            "Practice Board",
+            "CMOS/TTL",
+            "555 Timer",
+            "Kit"
+        ]
+    },
+    "/electronics101/smdpracticeboards/basickit1/": {
+        "id": 808,
+        "title": "Basic SMD Practice Board",
+        "summary": "A basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.",
+        "tags": [
+            "SMD",
+            "Practice Board",
+            "Kit"
+        ]
+    },
     "/electronics101/lm393/squarewaveoscillator/": {
         "id": 807,
         "title": "LM393 Square-wave Oscillator",
@@ -1687,7 +1720,9 @@
         "summary": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
         "tags": [
             "SMD",
-            "OpAmp"
+            "Practice Board",
+            "OpAmp",
+            "Kit"
         ]
     },
     "/audio/speechsynthesis/syn6288module/": {
@@ -6013,8 +6048,7 @@
         "summary": "a collection of notes, kits and resources for hand-soldering surface mount devices",
         "tags": [
             "SMD",
-            "CMOS/TTL",
-            "555 Timer",
+            "Practice Board",
             "Kit"
         ]
     },
