@@ -2,5 +2,8 @@
     "name": "LED Matrix SMD Practice Board",
     "description": "A full-featured soldering practice board with a range of components (0603 , 0805, SO-8, SO-16) and a 64-LED matrix that displays a microcontroller-generated pattern when soldered correctly.",
     "categories": "SMD, Practice Board, Kit, 74HC595",
-    "relative_path": "Electronics101/SMDPracticeBoards/LedMatrixKit1"
+    "relative_path": "Electronics101/SMDPracticeBoards/LedMatrixKit1",
+    "updated_at": "2026-01-01T06:58:00Z",
+    "created_at": "2026-01-01T06:58:00Z",
+    "id": "#810"
 }

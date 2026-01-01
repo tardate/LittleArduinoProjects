@@ -1,4 +1,4 @@
-# #xxx LED Matrix SMD Practice Board
+# #810 LED Matrix SMD Practice Board
 
 A full-featured soldering practice board with a range of components (0603 , 0805, SO-8, SO-16) and a 64-LED matrix that displays a microcontroller-generated pattern when soldered correctly.
 

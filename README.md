@@ -1,6 +1,6 @@
-# 809 Little Electronic Art Projects
+# 810 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Ring Counter SMD Practice Board](./Electronics101/SMDPracticeBoards/RingCounterKit1) - A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.
+> Latest addition :sparkles: [LED Matrix SMD Practice Board](./Electronics101/SMDPracticeBoards/LedMatrixKit1) - A full-featured soldering practice board with a range of components (0603 , 0805, SO-8, SO-16) and a 64-LED matrix that displays a microcontroller-generated pattern when soldered correctly.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
