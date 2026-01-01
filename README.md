@@ -1,6 +1,6 @@
-# 808 Little Electronic Art Projects
+# 809 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Basic SMD Practice Board](./Electronics101/SMDPracticeBoards/BasicKit1) - A basic soldering practice board for SMD components.
+> Latest addition :sparkles: [Ring Counter SMD Practice Board](./Electronics101/SMDPracticeBoards/RingCounterKit1) - A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

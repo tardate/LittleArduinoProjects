@@ -1,6 +1,6 @@
 # #808 Basic SMD Practice Board
 
-A basic soldering practice board for SMD components.
+A basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.
 
 ![Build](./assets/BasicKit1_build.jpg?raw=true)
 
@@ -8,10 +8,10 @@ A basic soldering practice board for SMD components.
 
 NB: see [LEAP#171 SMD Practice Boards](../) for an overview of all the SMD practice boards I have tried.
 
-This is an example of a basic practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.
+This is an example of a basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.
 
-Obtained from a seller on aliexpress for US$1.04 in Apr-2015 as ["SMT SMD Component Welding Practice Board Soldering Practice DIY Kit Better US57 Free Shipping"](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html).
-That seller is no longer offering the item, but an equivalent item is available (as of Dec-2025) for SG$1.19 from another seller: ["SMD Soldering Plate Component Weld Welding Practice SMT PCB Board DIY Kit Skill Training Learning Electronic Suit hot"](https://www.aliexpress.com/item/1005009114629754.html)
+Originally purchased for US$1.04 in Apr-2015 as ["SMT SMD Component Welding Practice Board Soldering Practice DIY Kit Better US57 Free Shipping" (seller listing on aliexpress)](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html).
+That seller is no longer offering the item, but an equivalent item is available (as of Dec-2025) for SGD$1.19: ["SMD Soldering Plate Component Weld Welding Practice SMT PCB Board DIY Kit Skill Training Learning Electronic Suit hot" (seller listing on aliexpress)](https://www.aliexpress.com/item/1005009114629754.html)
 
 ![kit-parts](./assets/kit-parts.jpg)
 
@@ -32,5 +32,5 @@ Here's the test circuit showing a pass on my practice board (yay! ... though you
 ## Credits and References
 
 * [LEAP#171 SMD Practice Boards](../)
-* ["SMT SMD Component Welding Practice Board Soldering Practice DIY Kit Better US57 Free Shipping"](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html)
-* ["SMD Soldering Plate Component Weld Welding Practice SMT PCB Board DIY Kit Skill Training Learning Electronic Suit hot"](https://www.aliexpress.com/item/1005009114629754.html)
+* ["SMT SMD Component Welding Practice Board Soldering Practice DIY Kit Better US57 Free Shipping" (seller listing on aliexpress)](https://www.aliexpress.com/item/SMT-SMD-Component-Welding-Practice-Board-Soldering-Practice-DIY-Kit-Better-US57-Free-Shipping/32243189935.html) - as originally purchased
+* ["SMD Soldering Plate Component Weld Welding Practice SMT PCB Board DIY Kit Skill Training Learning Electronic Suit hot" (seller listing on aliexpress)](https://www.aliexpress.com/item/1005009114629754.html) - similar kit, another seller

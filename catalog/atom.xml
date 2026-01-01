@@ -7,21 +7,37 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2025-12-31T11:17:00Z</updated>
+  <updated>2026-01-01T01:49:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
+    <id>https://leap.tardate.com/electronics101/smdpracticeboards/ringcounterkit1/</id>
+    <link href="https://leap.tardate.com/electronics101/smdpracticeboards/ringcounterkit1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/smdpracticeboards/ringcounterkit1/assets/ringcounterkit1_build.jpg</g:image_link>
+    <updated>2026-01-01T01:49:00Z</updated>
+    <title>#809 Ring Counter SMD Practice Board</title>
+    <summary>A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/smdpracticeboards/ringcounterkit1/assets/ringcounterkit1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="SMD"/>
+    <category term="Practice Board"/>
+    <category term="CMOS/TTL"/>
+    <category term="555 Timer"/>
+    <category term="Kit"/>
+  </entry>
+  <entry>
     <id>https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/</id>
     <link href="https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/"/>
     <g:image_link>https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/assets/basickit1_build.jpg</g:image_link>
     <updated>2025-12-31T11:17:00Z</updated>
     <title>#808 Basic SMD Practice Board</title>
-    <summary>A basic soldering practice board for SMD components.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A basic soldering practice board for SMD components.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/assets/basickit1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>A basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/smdpracticeboards/basickit1/assets/basickit1_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="SMD"/>
+    <category term="Practice Board"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/lm393/squarewaveoscillator/</id>
@@ -2088,7 +2104,9 @@
     <summary>Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/smdpracticeboards/star/assets/star_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="SMD"/>
+    <category term="Practice Board"/>
     <category term="OpAmp"/>
+    <category term="Kit"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/speechsynthesis/syn6288module/</id>
@@ -7312,8 +7330,7 @@
     <summary>a collection of notes, kits and resources for hand-soldering surface mount devices</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a collection of notes, kits and resources for hand-soldering surface mount devices&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/smdpracticeboards/assets/smdpracticeboards_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="SMD"/>
-    <category term="CMOS/TTL"/>
-    <category term="555 Timer"/>
+    <category term="Practice Board"/>
     <category term="Kit"/>
   </entry>
   <entry>

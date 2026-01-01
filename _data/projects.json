@@ -1,10 +1,24 @@
 {
+    "/electronics101/smdpracticeboards/ringcounterkit1/": {
+        "id": 809,
+        "title": "Ring Counter SMD Practice Board",
+        "summary": "A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.",
+        "tags": [
+            "SMD",
+            "Practice Board",
+            "CMOS/TTL",
+            "555 Timer",
+            "Kit"
+        ]
+    },
     "/electronics101/smdpracticeboards/basickit1/": {
         "id": 808,
         "title": "Basic SMD Practice Board",
-        "summary": "A basic soldering practice board for SMD components.",
+        "summary": "A basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.",
         "tags": [
-            "SMD"
+            "SMD",
+            "Practice Board",
+            "Kit"
         ]
     },
     "/electronics101/lm393/squarewaveoscillator/": {
@@ -1695,7 +1709,9 @@
         "summary": "Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effects.",
         "tags": [
             "SMD",
-            "OpAmp"
+            "Practice Board",
+            "OpAmp",
+            "Kit"
         ]
     },
     "/audio/speechsynthesis/syn6288module/": {
@@ -6021,8 +6037,7 @@
         "summary": "a collection of notes, kits and resources for hand-soldering surface mount devices",
         "tags": [
             "SMD",
-            "CMOS/TTL",
-            "555 Timer",
+            "Practice Board",
             "Kit"
         ]
     },

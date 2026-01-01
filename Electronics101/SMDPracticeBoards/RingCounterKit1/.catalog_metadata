@@ -1,0 +1,9 @@
+{
+    "name": "Ring Counter SMD Practice Board",
+    "description": "A full-featured soldering practice board with a wide range of components from 0402 to 1206 and SOP-8/16. It includes a classic 4017/555 ring counter test circuit.",
+    "categories": "SMD, Practice Board, CMOS/TTL, 555 Timer, Kit",
+    "relative_path": "Electronics101/SMDPracticeBoards/RingCounterKit1",
+    "updated_at": "2026-01-01T01:49:00Z",
+    "created_at": "2026-01-01T01:49:00Z",
+    "id": "#809"
+}

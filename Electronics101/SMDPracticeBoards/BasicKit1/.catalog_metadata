@@ -1,7 +1,7 @@
 {
     "name": "Basic SMD Practice Board",
-    "description": "A basic soldering practice board for SMD components.",
-    "categories": "SMD",
+    "description": "A basic soldering practice board with 0603, 0805, 1206, SOT-23 and SOP-16 components.",
+    "categories": "SMD, Practice Board, Kit",
     "relative_path": "Electronics101/SMDPracticeBoards/BasicKit1",
     "updated_at": "2025-12-31T11:17:00Z",
     "created_at": "2025-12-31T11:17:00Z",
