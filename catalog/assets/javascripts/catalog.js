@@ -1,16 +1,23 @@
 (function() {
   var root;
 
-  root = typeof exports !== "undefined" && exports !== null ? exports : this;
+  root = typeof exports !== 'undefined' && exports !== null ? exports : this;
 
   root.CatalogController = (function() {
     function CatalogController(catalog_table) {
-      this.catalog_table = catalog_table;
-      this.hookActions();
-      this.loadCatalog();
-      this.github_base_url = 'https://github.com/tardate/LittleArduinoProjects/blob/master/';
-      this.pages_base_url = 'https://leap.tardate.com/';
-      this.hero_images = true;
+      var instance = this;
+
+      instance.catalog_table = catalog_table;
+      instance.loadSettings();
+      instance.hookActions();
+      instance.loadCatalog();
+    }
+
+    CatalogController.prototype.loadSettings = function() {
+      var instance = this;
+
+      instance.github_base_url = instance.catalog_table.data('github-base-url');
+      instance.hero_images = instance.catalog_table.data('hero-images');
     }
 
     CatalogController.prototype.hookActions = function() {
@@ -24,10 +31,9 @@
     };
 
     CatalogController.prototype.loadCatalog = function() {
-      var instance;
-      instance = this;
+      var instance = this;
 
-      return this.catalog_table.DataTable({
+      return instance.catalog_table.DataTable({
         autoWidth: false,
         ajax: {
           url: './catalog/catalog.json',
@@ -51,16 +57,14 @@
         rowCallback: function(row, data, index) {
           var base_name;
           var cell, main_cell, description_cell;
-          var project_rel_url, project_url, category_array, category_labels;
-          var hero_image_rel_url, hero_image_url, main_hero_frag, description_hero_frag;
+          var project_rel_url, category_array, category_labels;
+          var hero_image_rel_url, main_hero_frag, description_hero_frag;
 
           base_name = data.relative_path.split('/').pop();
           project_rel_url = data.relative_path + '/'
-          project_url = instance.pages_base_url + project_rel_url
 
           if (instance.hero_images) {
             hero_image_rel_url = project_rel_url + 'assets/' + base_name + '_build.jpg';
-            hero_image_url = instance.pages_base_url + hero_image_rel_url;
 
             main_hero_frag = '<img class="tardate-hero" src="' + hero_image_rel_url + '" alt="">';
             description_hero_frag = '<div class="media-right"> \
