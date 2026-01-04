@@ -1,4 +1,16 @@
 {
+    "/esp8266/micropython/esp-01-temperature-logger/": {
+        "id": 811,
+        "title": "ESP8266 (ESP-01) IoT Temperature Sensor",
+        "summary": "Using MicroPython on an ESP8266 to capture DS18S20 temperature readings and log to a cloud data collection service (dweet.cc)",
+        "tags": [
+            "ESP8266",
+            "MicroPython",
+            "DS18S20",
+            "Sensors",
+            "Ubidots"
+        ]
+    },
     "/electronics101/smdpracticeboards/ledmatrixkit1/": {
         "id": 810,
         "title": "LED Matrix SMD Practice Board",
@@ -2060,7 +2072,9 @@
             "Sensors",
             "Arduino",
             "LCD",
-            "DS1822"
+            "DS1822",
+            "DS18S20",
+            "DS18B20"
         ]
     },
     "/electronics101/led/hpdl1414/": {
@@ -4349,7 +4363,7 @@
     "/esp8266/micropython/gettingstarted/": {
         "id": 344,
         "title": "ESP8266 GettingStarted with MicroPython",
-        "summary": "getting MicroPython up and running with an ESP-01 ESP8266",
+        "summary": "getting MicroPython up and running with an ESP-01 ESP8266. Updated with the latest firmware from 2025-12-09.",
         "tags": [
             "ESP8266",
             "MicroPython"
