@@ -4,7 +4,7 @@ import ujson
 HOST = "industrial.api.ubidots.com"
 PORT = 80
 PATH = "/api/v1.6/devices/test-device"
-TOKEN = "my-api-token"
+TOKEN = "%{UBIDOTS_TOKEN}%"
 
 payload = {
     "temperature": {

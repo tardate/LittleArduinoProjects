@@ -5,7 +5,7 @@ def do_connect():
     wlan.active(True)
     if not wlan.isconnected():
         print('connecting to network...')
-        wlan.connect('mySSID', 'password')
+        wlan.connect('%{WIFI_SSID}%', '%{WIFI_PASSWORD}%')
         while not wlan.isconnected():
             pass
     print('network config:', wlan.ifconfig())

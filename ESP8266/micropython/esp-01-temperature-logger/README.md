@@ -122,7 +122,7 @@ We first need to use our account API key generate a token that can be used in su
 
 ```sh
 $ curl -X POST "https://industrial.api.ubidots.com/api/v1.6/auth/token" \
--H "x-ubidots-apikey: ${UDIBOTS_API_KEY}" \
+-H "x-ubidots-apikey: ${UBIDOTS_API_KEY}" \
 -H "Content-Type: application/json"
 {"token": "my-new-token"}
 $ export UDIBOTS_TOKEN="my-new-token"
@@ -132,7 +132,7 @@ Now we have an API token, I can post data to the standard HTTPS endpoint:
 
 ```sh
 $ curl -X POST "https://industrial.api.ubidots.com/api/v1.6/devices/test-device" \
--H "X-Auth-Token: ${UDIBOTS_TOKEN}" \
+-H "X-Auth-Token: ${UBIDOTS_TOKEN}" \
 -H "Content-Type: application/json" \
 -d '{"temperature":{"value": 23.1, "units": "C"}}'
 {"temperature":[{"status_code":201}]}
@@ -142,7 +142,7 @@ Now let's verify we can also post data to the HTTP endpoint:
 
 ```sh
 $ curl -X POST "http://industrial.api.ubidots.com/api/v1.6/devices/test-device" \
--H "X-Auth-Token: ${UDIBOTS_TOKEN}" \
+-H "X-Auth-Token: ${UBIDOTS_TOKEN}" \
 -H "Content-Type: application/json" \
 -d '{"temperature":{"value": 23.2, "units": "C"}}'
 {"temperature":[{"status_code":201}]}
@@ -152,11 +152,10 @@ That all works well, and I'm seeing the data immediately in the Ubidots web cons
 
 ![ubidots-1](assets/ubidots-1.png)
 
-#### Sending To Ubidots from MicroPython
+#### Wifi Connection
 
-Now let's try the web request from MicroPython on the ESP-01.
+The ESP device needs to be connected to the network before we can start making web requests.
 
-The ESP device needs to be connected to the network first.
 Use [wifi.py](./wifi.py) to connect if not already connected:
 
 ```python
@@ -167,7 +166,7 @@ def do_connect():
     wlan.active(True)
     if not wlan.isconnected():
         print('connecting to network...')
-        wlan.connect('mySSID', 'password')
+        wlan.connect('%{WIFI_SSID}%', '%{WIFI_PASSWORD}%')
         while not wlan.isconnected():
             pass
     print('network config:', wlan.ifconfig())
@@ -175,7 +174,21 @@ def do_connect():
 do_connect()
 ```
 
-See [ubidots.py](./ubidots.py), which I pasted directly into the ESP repl to execute:
+The appropriate `%{WIFI_SSID}%` and `%{WIFI_PASSWORD}%` substitutions are required of course.
+In cases like this, I prefer to make substitutions automatically to a "private" file that cannot accidentally be checked into the repository,
+for example:
+
+```sh
+sed -e "s|%{WIFI_SSID}%|${WIFI_SSID}|g" -e "s|%{WIFI_PASSWORD}%|${WIFI_PASSWORD}|g" wifi.py > wifi-private.py
+```
+
+I then paste the resulting `wifi-private.py` into the ESP MicroPython REPL.
+
+#### Sending To Ubidots from MicroPython
+
+Now let's try the web request from MicroPython on the ESP-01.
+
+See [ubidots.py](./ubidots.py) for a basic HTTP web request to post a new measurement:
 
 ```python
 import socket
@@ -184,7 +197,7 @@ import ujson
 HOST = "industrial.api.ubidots.com"
 PORT = 80
 PATH = "/api/v1.6/devices/test-device"
-TOKEN = "my-api-token"
+TOKEN = "%{UBIDOTS_TOKEN}%"
 
 payload = {
     "temperature": {
@@ -212,7 +225,13 @@ request = (
 s.send(request.encode())
 print(s.recv(1024))
 s.close()
+```
 
+I make the appropriate `%{UBIDOTS_TOKEN}%` substitution to a private file that cannot accidentally be checked into the repository.
+The resulting `ubidots-private.py` file contents are pasted directly into the ESP MicroPython REPL to execute.
+
+```sh
+sed "s|%{UBIDOTS_TOKEN}%|${UBIDOTS_TOKEN}|g" ubidots.py > ubidots-private.py
 ```
 
 We now see the additional datapoints in the web console:
@@ -229,7 +248,7 @@ Now we are ready to pull it all together:
 capture the temperature readings from the DS18S20 sensor,
 and post the results to Ubidots
 
-The source is in [log-temperature-to-ubidots.py](./log-temperature-to-ubidots.py), which I paste into the MicroPython REPL:
+The source is in [log-temperature-to-ubidots.py](./log-temperature-to-ubidots.py):
 
 ```python
 import socket
@@ -242,7 +261,7 @@ from machine import Pin
 HOST = "industrial.api.ubidots.com"
 PORT = 80
 DEVICES_PATH = "/api/v1.6/devices/"
-TOKEN = "my-api-token"
+TOKEN = "%{UBIDOTS_TOKEN}%"
 ONEWIRE_PIN = 2
 
 
@@ -289,6 +308,13 @@ ds = ds18x20.DS18X20(onewire.OneWire( Pin(ONEWIRE_PIN)))
 
 read_and_log_temps(ds, ubidots_addr)
 
+```
+
+I make the appropriate `%{UBIDOTS_TOKEN}%` substitution to a private file that cannot accidentally be checked into the repository.
+The resulting `log-temperature-to-ubidots-private.py` file contents are pasted directly into the ESP MicroPython REPL to execute.
+
+```sh
+sed "s|%{UBIDOTS_TOKEN}%|${UBIDOTS_TOKEN}|g" log-temperature-to-ubidots.py > log-temperature-to-ubidots-private.py
 ```
 
 And that works very nicely:

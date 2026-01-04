@@ -1,0 +1,6 @@
+{
+    "name": "ESP8266 (ESP-12E) IoT Temperature Sensor",
+    "description": "Using MicroPython on an ESP-12E (4Mib ESP8266) to capture DS18S20 temperature measurements and log continuous readings to a cloud data collection service (Ubidots).",
+    "categories": "ESP8266, MicroPython, DS18S20, Sensors, Ubidots",
+    "relative_path": "ESP8266/micropython/esp-12-temperature-logger"
+}
