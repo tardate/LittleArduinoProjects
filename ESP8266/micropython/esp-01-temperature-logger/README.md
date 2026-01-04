@@ -116,7 +116,7 @@ After much searching and review, I have found one that fits the bill: [Ubidots](
 
 ### Testing Ubidots from the console
 
-Before trying to do this on the ESP8266, let's test the API from the laptop. In my case, macOS.
+Before trying to do this on the ESP8266, let's test the API from a desktop device. In my case, macOS.
 
 We first need to use our account API key generate a token that can be used in subsequent dat a requests:
 
@@ -295,7 +295,7 @@ And that works very nicely:
 
 ![log-temperature-to-ubidots](assets/log-temperature-to-ubidots.png)
 
-One doesn't nede to keep the console open while the script runs,
+One doesn't need to keep the console open while the script runs,
 but if one does, we see the temperature readings and API postings logged on screen:
 
 ![log-temperature-to-ubidots-console](assets/log-temperature-to-ubidots-console.png)
