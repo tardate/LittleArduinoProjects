@@ -106,19 +106,19 @@ Google continued IoT work under Google Cloud IoT Core, which built on parts of X
 It's now 2026, and things have changed quite a bit since 2016:
 
 * huge churn in cloud/IoT platforms - seems no-one survived!
-* pretty much everyone now does TLS/HTTPS (usually **only**) by default , so constrained devices struggle to even connect
+* pretty much everyone now does TLS/HTTPS by default (usually **only**), so constrained devices struggle to even connect
 
 After much searching and review, I have found one that fits the bill: [Ubidots](https://ubidots.com/):
 
 * still supports an HTTP interface
 * simple API for posting data
-* and has a free plan to allow no-cost review
+* and has a free trial plan to allow no-cost review
 
 ### Testing Ubidots from the console
 
 Before trying to do this on the ESP8266, let's test the API from a desktop device. In my case, macOS.
 
-We first need to use our account API key generate a token that can be used in subsequent dat a requests:
+We first need to use our account API key generate a token that can be used in subsequent data requests:
 
 ```sh
 $ curl -X POST "https://industrial.api.ubidots.com/api/v1.6/auth/token" \
@@ -157,7 +157,7 @@ That all works well, and I'm seeing the data immediately in the Ubidots web cons
 Now let's try the web request from MicroPython on the ESP-01.
 
 The ESP device needs to be connected to the network first.
-Use [wifi.py](./wifi.py) to connect if not already connected.
+Use [wifi.py](./wifi.py) to connect if not already connected:
 
 ```python
 def do_connect():
@@ -316,9 +316,11 @@ But there are issues:
     * means that every time I restart the ESP-02, I have to reload the script
 
 Rather than try and work around these issues with the ESP-01, I think it would be better to try one of the more capable ESP8266 boards first.
+Coming next!
 
 ## Credits and References
 
+* <https://docs.micropython.org/en/latest/esp8266/quickref.html>
 * [DS18S20](https://www.maximintegrated.com/en/products/sensors/DS18S20.html) product page and datasheet
     * now at <https://www.analog.com/en/products/ds18s20.html>
 * <https://ubidots.com/>
