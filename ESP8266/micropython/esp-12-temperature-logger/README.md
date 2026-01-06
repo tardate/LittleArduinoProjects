@@ -24,6 +24,11 @@ The adapters were US$1.25 for 10 in Oct-2017, currently listing for SG$1.70 for 
 
 ### Loading MicroPython
 
+For the initial programming, I am using the
+[LEAP#540 ESP-12 DIY Dev Board](../../ESP12/DIYDevBoard/):
+
+![programming](assets/programming.jpg)
+
 #### Testing the Connection
 
 First find the device the CH340G-based USB to UART adapter is connected on, and set that as a variable for later use:
@@ -133,6 +138,8 @@ Hard resetting via RTS pin...
 
 ### Testing the MicroPython REPL
 
+Connecting with [screen](https://codingkata.tardate.com/tools/screen/) and trying some python commands... all looking good!
+
 ```python
 $ screen ${ESP_PORT} 115200
 >>> import os
@@ -143,10 +150,16 @@ $ screen ${ESP_PORT} 115200
 
 ### Ubidots
 
-See [ubidots.py](./ubidots.py) for an updated implementation that:
+I had selected [Ubidots](https://ubidots.com/) as a decent service
+to use for IoT in 2026.
+In the [previous tests](../esp-01-temperature-logger/)
+using an ESP-01, I was constrained to HTTP only.
+
+Let's first revise some simple Ubidots tests with HTTPS.
+The [ubidots.py](./ubidots.py) script is an updated implementation that:
 
 * uses the Ubidits HTTPS/TLS API endpoints
-* uses `urequests` for a simpler, more high-level interaction
+* uses `urequests` for a simpler high-level interaction
 * demonstrates using the permanent API key to generate temporary API tokens
     * if a request returns 401, it indicates a new token is required
 * demonstrates posting data to the API
@@ -209,7 +222,7 @@ The resulting `ubidots-private.py` file contents are pasted directly into the ES
 sed "s|%{UBIDOTS_API_KEY}%|${UBIDOTS_API_KEY}|g" ubidots.py > ubidots-private.py
 ```
 
-And I'm seeing the data appear correctly in the Ubidots dashboard:
+And now I'm seeing the data appear correctly in the Ubidots dashboard:
 
 ![ubidots-1](assets/ubidots-1.png)
 
@@ -222,6 +235,12 @@ Now let's put it all together:
     * getting a fresh API token when required
 
 #### Circuit Design
+
+It's quite straight-forward:
+
+* an LD1117-based 3.3V linear power supply
+* an ESP-12E on an adapter board
+* the DS18S20 temperature sensor
 
 Designed with Fritzing: see [esp-12-temperature-logger.fzz](./esp-12-temperature-logger.fzz).
 
@@ -237,7 +256,14 @@ wiring of the DS18S20 on the 1-wire bus.
 
 #### The Program
 
-See [log-temperature-to-ubidots.py](./log-temperature-to-ubidots.py) for the full source:
+Finally, we can do the thing properly.
+See [log-temperature-to-ubidots.py](./log-temperature-to-ubidots.py) for the full source. Key points:
+
+* defines a class `UbidotsApi` to wrap the API interactions
+* just requires the main API key to run
+* handles API token regeneration and expiry transparently
+* `read_and_log_temps` is the main method
+* I used `demo_read_and_log_temps` for verifying the API interaction without a sensor attached
 
 ```python
 import urequests
@@ -412,7 +438,7 @@ And we have results being logged continuously:
 
 ![ubidots-3](assets/ubidots-3.png)
 
-### Long Running Test
+### A "Long" Running Test
 
 So I left it running overnight and it kept on capturing nicely. Some explanations of the readings:
 
@@ -422,8 +448,23 @@ So I left it running overnight and it kept on capturing nicely. Some explanation
 
 ![ubidots-4](assets/ubidots-4.png)
 
+### Conclusions
+
+I must admit I was somewhat underwhelmed when I first tried MicroPython back in 2016,
+but now I realise that was largely due to the fact that I was still trying to squeeze it into the original ESP-01 512Kib form-factor.
+
+That was unrealistic, and unfairly detracted from the MicroPython possibilities if you give it just a little more memory.
+
+With an ESp-12E, I can totally see how this is a fantastic platform for embedded development. Minimal hardware, but we get many of the goodies normally associated with "normal" software development, in particular:
+
+* a higher lever language (python)
+* a repl actually on the device
+* `mpremote` for remote device abstraction and interaction
+
 ## Credits and References
 
+* [LEAP#811 ESP8266 (ESP-01) IoT Temperature Sensor](../esp-01-temperature-logger/)
+* [LEAP#540 ESP-12 DIY Dev Board](../../ESP12/DIYDevBoard/)
 * ESP-12F: ["ESP8266 ESP-01 ESP-01S ESP-07 ESP-12E ESP-12F Remote Serial Port WIFI Wireless Module Intelligent Housing System Adapter 2.4G" (aliexpress seller listing)](https://www.aliexpress.com/item/32339917567.html)
 * ESP-7/12 adapter boards: ["10PC ESP8266 serial WIFI Module Adapter Plate Applies to ESP-07, ESP-12F, ESP-12E for arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/32649040259.html)
 * <https://docs.micropython.org/en/latest/esp8266/quickref.html>
