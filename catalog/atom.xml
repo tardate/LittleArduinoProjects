@@ -7,12 +7,26 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-04T19:05:00Z</updated>
+  <updated>2026-01-06T15:49:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/esp8266/micropython/esp-12-temperature-logger/</id>
+    <link href="https://leap.tardate.com/esp8266/micropython/esp-12-temperature-logger/"/>
+    <g:image_link>https://leap.tardate.com/esp8266/micropython/esp-12-temperature-logger/assets/esp-12-temperature-logger_build.jpg</g:image_link>
+    <updated>2026-01-06T15:49:00Z</updated>
+    <title>#812 ESP8266 (ESP-12E) IoT Temperature Sensor</title>
+    <summary>Using MicroPython on an ESP-12E (4Mib ESP8266) to capture DS18S20 temperature measurements and log continuous readings to a cloud data collection service (Ubidots).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using MicroPython on an ESP-12E (4Mib ESP8266) to capture DS18S20 temperature measurements and log continuous readings to a cloud data collection service (Ubidots).&lt;/p&gt;&lt;img src="https://leap.tardate.com/esp8266/micropython/esp-12-temperature-logger/assets/esp-12-temperature-logger_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="ESP8266"/>
+    <category term="MicroPython"/>
+    <category term="DS18S20"/>
+    <category term="Sensors"/>
+    <category term="Ubidots"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/micropython/esp-01-temperature-logger/</id>
     <link href="https://leap.tardate.com/esp8266/micropython/esp-01-temperature-logger/"/>

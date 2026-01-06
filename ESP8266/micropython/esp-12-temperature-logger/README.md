@@ -1,4 +1,4 @@
-# #xxx ESP8266 (ESP-12E) IoT Temperature Sensor
+# #812 ESP8266 (ESP-12E) IoT Temperature Sensor
 
 Using MicroPython on an ESP-12E (4Mib ESP8266) to capture DS18S20 temperature measurements and log continuous readings to a cloud data collection service (Ubidots).
 
