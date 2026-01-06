@@ -10,7 +10,7 @@ I have some ESP8266 modules in the ESP-7 and [ESP-12E](https://www.aliexpress.co
 They both work with [adapter boards](https://www.aliexpress.com/item/32649040259.html) like this.
 
 However, it turns out that programming them on a breadboard can be a bit flakey - mainly due to power/connection issues.
-See [LEAP#534 ESP-12 Programming](../Programming) for the background.
+See [LEAP#534 ESP-12 Programming](../Programming/) for the background.
 
 So I decided to try a quick build of a programming board to see if performance was more reliable.
 
@@ -44,7 +44,7 @@ Final build, on a cardboard base:
 
 The process:
 
-* seat the ESP-12 board
+* seat the ESP-12E board
 * connect USB adapter
 * connect power >4.5V
 * set the "Run/Prog" switch to "Prog"
@@ -57,9 +57,9 @@ When using the Arduino IDE, the most recent settings I used were as follows:
 
 ## Credits and References
 
-* [LEAP#534 ESP-12 Programming](../Programming)
-* [ESP-12E](https://www.aliexpress.com/item/32339917567.html) - aliexpress seller
-* [ESP-7/12 adapter boards](https://www.aliexpress.com/item/32649040259.html) - aliexpress seller
+* [LEAP#534 ESP-12 Programming](../Programming/)
+* ESP-12E: ["ESP8266 ESP-01 ESP-01S ESP-07 ESP-12E ESP-12F Remote Serial Port WIFI Wireless Module Intelligent Housing System Adapter 2.4G" (aliexpress seller listing)](https://www.aliexpress.com/item/32339917567.html)
+* ESP-7/12 adapter boards: ["10PC ESP8266 serial WIFI Module Adapter Plate Applies to ESP-07, ESP-12F, ESP-12E for arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/32649040259.html)
 * [ESP8266 Arduino Core - boards doc](https://arduino-esp8266.readthedocs.io/en/2.6.3/boards.html)
 * [ESP-01/07/12 Series Modules User's Manual](http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf)
 * [ESP8266 Hardware](https://tttapa.github.io/ESP8266/Chap02%20-%20Hardware.html) - A Beginner's Guide to the ESP8266

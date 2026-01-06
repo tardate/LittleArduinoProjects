@@ -18,3 +18,6 @@ Gemfile.lock
 .byebug_history
 # don't ignore bundler and rvm settings
 # .ruby*
+
+# private stuff to keep out of the repo
+*-private.py

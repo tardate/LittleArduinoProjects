@@ -8,7 +8,7 @@ from machine import Pin
 HOST = "industrial.api.ubidots.com"
 PORT = 80
 DEVICES_PATH = "/api/v1.6/devices/"
-TOKEN = "my-api-token"
+TOKEN = "%{UBIDOTS_TOKEN}%"
 ONEWIRE_PIN = 2
 
 

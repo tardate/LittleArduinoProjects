@@ -77,7 +77,7 @@ Hard resetting via RTS pin...
 
 ### Flashing with MicroPython
 
-Downloading the latest 512k build:
+Downloading the [latest 512k build](https://micropython.org/download/ESP8266_GENERIC/):
 
 ```sh
 wget https://micropython.org/resources/firmware/ESP8266_GENERIC-FLASH_512K-20251209-v1.27.0.bin
@@ -237,6 +237,7 @@ Designed with Fritzing: see [GettingStarted.fzz](./GettingStarted.fzz).
 * [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board)
 * [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266?view=all) - original version
 * [esptool](https://github.com/themadinventor/esptool)
+    * <https://docs.espressif.com/projects/esptool/en/latest/esp8266/index.html>
 * [Star Wars Asciimation](https://docs.micropython.org/en/latest/esp8266/tutorial/network_tcp.html#star-wars-asciimation)
 * [LEAP#194 DIYDevBoard](../../DIYDevBoard/) - the dev board I'm using to host the ESP-01
 * [..as mentioned on my blog](https://blog.tardate.com/2017/09/leap344-micropython-on-the-esp8266.html)
