@@ -343,6 +343,7 @@ But there are issues:
 
 Rather than try and work around these issues with the ESP-01, I think it would be better to try one of the more capable ESP8266 boards first.
 Coming next!
+See [LEAP#812 ESP8266 (ESP-12E) IoT Temperature Sensor](../esp-12-temperature-logger/).
 
 ## Credits and References
 

@@ -449,7 +449,7 @@ And we have results being logged continuously:
 
 ### A "Long" Running Test
 
-So I left it running overnight and it kept on capturing nicely. Some explanations of the readings:
+So I left it running for a few hours and it kept on capturing nicely. Some explanations of the readings:
 
 * the monitor is running in my work area, which is often air-conditioned during the day
 * I turned off the air-con in the evening
