@@ -1,6 +1,6 @@
 {
     "name": "ESP8266 (ESP-01) IoT Temperature Sensor",
-    "description": "Using MicroPython on an ESP8266 to capture DS18S20 temperature readings and log to a cloud data collection service (dweet.cc)",
+    "description": "Using MicroPython on an ESP8266 (512kb ESP01) to capture DS18S20 temperature readings and log to a cloud data collection service (Ubidots).",
     "categories": "ESP8266, MicroPython, DS18S20, Sensors, Ubidots",
     "relative_path": "ESP8266/micropython/esp-01-temperature-logger",
     "updated_at": "2026-01-04T19:05:00Z",

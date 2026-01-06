@@ -1,6 +1,6 @@
 # 811 Little Electronic Art Projects
 
-> Latest addition :sparkles: [ESP8266 (ESP-01) IoT Temperature Sensor](./ESP8266/micropython/esp-01-temperature-logger) - Using MicroPython on an ESP8266 to capture DS18S20 temperature readings and log to a cloud data collection service (dweet.cc)
+> Latest addition :sparkles: [ESP8266 (ESP-01) IoT Temperature Sensor](./ESP8266/micropython/esp-01-temperature-logger) - Using MicroPython on an ESP8266 (512kb ESP01) to capture DS18S20 temperature readings and log to a cloud data collection service (Ubidots).
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

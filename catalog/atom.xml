@@ -19,8 +19,8 @@
     <g:image_link>https://leap.tardate.com/esp8266/micropython/esp-01-temperature-logger/assets/esp-01-temperature-logger_build.jpg</g:image_link>
     <updated>2026-01-04T19:05:00Z</updated>
     <title>#811 ESP8266 (ESP-01) IoT Temperature Sensor</title>
-    <summary>Using MicroPython on an ESP8266 to capture DS18S20 temperature readings and log to a cloud data collection service (dweet.cc)</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Using MicroPython on an ESP8266 to capture DS18S20 temperature readings and log to a cloud data collection service (dweet.cc)&lt;/p&gt;&lt;img src="https://leap.tardate.com/esp8266/micropython/esp-01-temperature-logger/assets/esp-01-temperature-logger_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Using MicroPython on an ESP8266 (512kb ESP01) to capture DS18S20 temperature readings and log to a cloud data collection service (Ubidots).</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using MicroPython on an ESP8266 (512kb ESP01) to capture DS18S20 temperature readings and log to a cloud data collection service (Ubidots).&lt;/p&gt;&lt;img src="https://leap.tardate.com/esp8266/micropython/esp-01-temperature-logger/assets/esp-01-temperature-logger_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
     <category term="MicroPython"/>
     <category term="DS18S20"/>
