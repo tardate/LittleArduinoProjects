@@ -416,11 +416,20 @@ mpremote fs rm :main.py
 
 ### Deploying the Ubidots Script
 
+Now that the script is proven to work OK, I can install it as the default
+program to run on boot for the ESP device.
+
+I used the following command to do the required key substitution, send the file to the ESP-12, and cleanup:
+
 ```sh
 sed "s|%{UBIDOTS_API_KEY}%|${UBIDOTS_API_KEY}|g" log-temperature-to-ubidots.py > log-temperature-to-ubidots-private.py
 mpremote fs cp log-temperature-to-ubidots-private.py :main.py
 rm log-temperature-to-ubidots-private.py
 ```
+
+Now when the ESP is booted, it immediately starts logging...
+
+![ubidots-3](assets/ubidots-3.png)
 
 ### Making a Custom Protoboard
 
@@ -436,7 +445,7 @@ Transferring the circuit to a 3x7cm protoboard:
 
 And we have results being logged continuously:
 
-![ubidots-3](assets/ubidots-3.png)
+![ubidots-4](assets/ubidots-4.png)
 
 ### A "Long" Running Test
 
@@ -446,16 +455,16 @@ So I left it running overnight and it kept on capturing nicely. Some explanation
 * I turned off the air-con in the evening
 * this is Singapore, but a relatively cool period
 
-![ubidots-4](assets/ubidots-4.png)
+![ubidots-5](assets/ubidots-5.png)
 
 ### Conclusions
 
 I must admit I was somewhat underwhelmed when I first tried MicroPython back in 2016,
-but now I realise that was largely due to the fact that I was still trying to squeeze it into the original ESP-01 512Kib form-factor.
+but now I realise that was largely due to the fact that I was still trying to squeeze it all into the original ESP-01 512Kib form-factor.
 
 That was unrealistic, and unfairly detracted from the MicroPython possibilities if you give it just a little more memory.
 
-With an ESp-12E, I can totally see how this is a fantastic platform for embedded development. Minimal hardware, but we get many of the goodies normally associated with "normal" software development, in particular:
+With an ESP-12E, I can totally see how this is a fantastic platform for embedded development. Minimal hardware, but we get many of the goodies normally associated with "normal" software development, in particular:
 
 * a higher lever language (python)
 * a repl actually on the device
