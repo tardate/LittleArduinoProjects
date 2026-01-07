@@ -12,7 +12,7 @@ class UbidotsApi():
 
     @property
     def token(self):
-        if not hasattr(self, '_token'):
+        if not hasattr(self, '_token') or self._token is None:
             self._token = self.get_token()
         return self._token
 
