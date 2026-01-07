@@ -280,7 +280,7 @@ class UbidotsApi():
 
     @property
     def token(self):
-        if not hasattr(self, '_token'):
+        if not hasattr(self, '_token') or self._token is None:
             self._token = self.get_token()
         return self._token
 
@@ -452,7 +452,6 @@ And we have results being logged continuously:
 So I left it running for a few hours and it kept on capturing nicely. Some explanations of the readings:
 
 * the monitor is running in my work area, which is often air-conditioned during the day
-* I turned off the air-con in the evening
 * this is Singapore, but a relatively cool period
 
 ![ubidots-5](assets/ubidots-5.png)
