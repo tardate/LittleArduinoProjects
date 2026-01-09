@@ -265,6 +265,13 @@ See [log-temperature-to-ubidots.py](./log-temperature-to-ubidots.py) for the ful
 * `read_and_log_temps` is the main method
 * I used `demo_read_and_log_temps` for verifying the API interaction without a sensor attached
 * added some exception handling to allow for intermittent wifi connection issues
+* As I am using the [Ubidots STEM plan](https://help.ubidots.com/en/articles/639806-plans-billing-what-is-the-difference-between-ubidots-and-ubidots-stem), it has limitations that I must stay within, including:
+    * Devices: 3 free devices.
+    * Dashboards: 1 dashboard, with up to 10 widgets.
+    * Variables: Up to 10 variables per device.
+    * Data ingestion: 4,000 dots per day across all of your devices.
+        * This is the main issue: effectively restricts sampling to [>= 21.6 seconds/sample](https://www.wolframalpha.com/input?i=24+*+60+*+60+%2F+4000)
+        * I've set the sampling rate to approx 1 dot/30s, for a daily max of around [2880 dots](https://www.wolframalpha.com/input?i=24+*+60+*+60+%2F+30)
 
 ```python
 import urequests
@@ -276,6 +283,8 @@ from machine import Pin
 
 UBIDOTS_API_KEY="%{UBIDOTS_API_KEY}%"
 ONEWIRE_PIN = 2
+DS_SETTLE_DELAY_SECONDS = 1
+SAMPLE_DELAY_SECONDS = 29
 
 class UbidotsApi():
 
@@ -361,7 +370,7 @@ def read_and_log_temps():
     while True:
         try:
             ds.convert_temp()
-            time.sleep(1)
+            time.sleep(DS_SETTLE_DELAY_SECONDS)
             for rom in roms:
                 device_name = 'esp8266-' + ''.join('{:02x}'.format(b) for b in rom)
                 temperature = ds.read_temp(rom)
@@ -369,7 +378,7 @@ def read_and_log_temps():
                 api.post_temperature(device_name, temperature)
         except Exception as e:
             print("Error reading temperatures:", e)
-        time.sleep(9)
+        time.sleep(SAMPLE_DELAY_SECONDS)
 
 def demo_read_and_log_temps():
     import random
@@ -377,13 +386,13 @@ def demo_read_and_log_temps():
     roms = [b'\xff\xff\xff\xff\x12\x34\x56\x78']
     api = UbidotsApi()
     while True:
-        time.sleep(1)
+        time.sleep(DS_SETTLE_DELAY_SECONDS)
         for rom in roms:
             device_name = 'demo-' + ''.join('{:02x}'.format(b) for b in rom)
             temperature = 20.0 + random.getrandbits(5) / 10.0
             print('Device:', device_name, 'Latest reading:', temperature)
             api.post_temperature(device_name, temperature)
-        time.sleep(9)
+        time.sleep(SAMPLE_DELAY_SECONDS)
 
 read_and_log_temps()
 
@@ -495,7 +504,7 @@ And we have results being logged continuously:
 
 So I left it running for a few hours and it kept on capturing nicely. Some explanations of the readings:
 
-* the monitor is running in my work area, which is often air-conditioned during the day
+* the monitor is running in my work area, which is sometimes air-conditioned during the day
 * this is Singapore, so outdoor temp is generally around 30˚C
 
 ![ubidots-6](assets/ubidots-6.png)
