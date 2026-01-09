@@ -7,6 +7,8 @@ from machine import Pin
 
 UBIDOTS_API_KEY="%{UBIDOTS_API_KEY}%"
 ONEWIRE_PIN = 2
+DS_SETTLE_DELAY_SECONDS = 1
+SAMPLE_DELAY_SECONDS = 29
 
 class UbidotsApi():
 
@@ -92,7 +94,7 @@ def read_and_log_temps():
     while True:
         try:
             ds.convert_temp()
-            time.sleep(1)
+            time.sleep(DS_SETTLE_DELAY_SECONDS)
             for rom in roms:
                 device_name = 'esp8266-' + ''.join('{:02x}'.format(b) for b in rom)
                 temperature = ds.read_temp(rom)
@@ -100,7 +102,7 @@ def read_and_log_temps():
                 api.post_temperature(device_name, temperature)
         except Exception as e:
             print("Error reading temperatures:", e)
-        time.sleep(9)
+        time.sleep(SAMPLE_DELAY_SECONDS)
 
 def demo_read_and_log_temps():
     import random
@@ -108,12 +110,12 @@ def demo_read_and_log_temps():
     roms = [b'\xff\xff\xff\xff\x12\x34\x56\x78']
     api = UbidotsApi()
     while True:
-        time.sleep(1)
+        time.sleep(DS_SETTLE_DELAY_SECONDS)
         for rom in roms:
             device_name = 'demo-' + ''.join('{:02x}'.format(b) for b in rom)
             temperature = 20.0 + random.getrandbits(5) / 10.0
             print('Device:', device_name, 'Latest reading:', temperature)
             api.post_temperature(device_name, temperature)
-        time.sleep(9)
+        time.sleep(SAMPLE_DELAY_SECONDS)
 
 read_and_log_temps()
