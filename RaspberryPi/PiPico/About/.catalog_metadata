@@ -1,0 +1,6 @@
+{
+    "name": "About the Raspberry Pi Pico",
+    "description": "All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.",
+    "categories": "Raspberry Pi Pico",
+    "relative_path": "RaspberryPi/PiPico/About"
+}
