@@ -1,4 +1,4 @@
-# #xxx About the Raspberry Pi Pico
+# #813 About the Raspberry Pi Pico
 
 All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.
 

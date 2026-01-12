@@ -1,4 +1,12 @@
 {
+    "/raspberrypi/pipico/about/": {
+        "id": 813,
+        "title": "About the Raspberry Pi Pico",
+        "summary": "All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.",
+        "tags": [
+            "Raspberry Pi Pico"
+        ]
+    },
     "/esp8266/micropython/esp-12-temperature-logger/": {
         "id": 812,
         "title": "ESP8266 (ESP-12E) IoT Temperature Sensor",
