@@ -39,7 +39,11 @@ All good! Now to put them to work...
 ## Credits and References
 
 * [BidirectionalLevelShifter](../BidirectionalLevelShifter) - project testing the basic level-shifting FET trick
-* [modules from a seller on aliexpress](https://www.aliexpress.com/item/10PCS-Two-Channel-IIC-I2C-Logic-Level-Converter-Bi-Directional-Module-5V-to-3-3V/32213240585.html)
+* ["10PCS Two Channel IIC I2C Logic Level Converter Bi-Directional Module 5V to 3.3V" (aliexpress seller listing)](https://www.aliexpress.com/item/32213240585.html)
+    * Originally purchased in a pack of 10 for US$3.39/lot (Jul-2015), but no longer available from this seller.
+* ["5/10/50pcs 4channel 2 channel IIC I2C Logic Level Converter Bi-Directional Module 5V to 3.3V For Arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/1005006255186878.html)
+    * Similar product (2-channel) currently listing in a pack of 10 for SG$2.90/lot
+    * Also offer a 4-channel version currently listing in a pack of 10 for SG$2.80/lot
 * [I²C](https://en.wikipedia.org/wiki/I%C2%B2C) - wikipedia
 * [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) - wikipedia
 * [Philips Application Note AN97055](http://cdn.sparkfun.com/tutorialimages/BD-LogicLevelConverter/an97055.pdf)

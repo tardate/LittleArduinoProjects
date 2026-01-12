@@ -7,8 +7,9 @@ Testing some 8x Red LED common-cathode modules, making breadboarding with LEDs m
 ## Notes
 
 How often do you find yourself wiring up a series of LEDs on a breadboard, along with current limiting resistors?
-I'd thought about making a simple module, but of course the job has already been done:
-I found some suitable units on [aliexpress](https://www.aliexpress.com/item/1005004567063273.html):
+I'd thought about making a simple module, but of course the job has already been done.
+I found some suitable units on [aliexpress](https://www.aliexpress.com/item/1005004567063273.html).
+I purchased a set of 5 for SG$3.49 (Jul-2025):
 
 * choice of red and blue LEDs
 * choice of common-cathode and common-anode configurations
@@ -35,4 +36,4 @@ I have the common-cathode module, so COM goes to ground, and a positive signal i
 
 ## Credits and References
 
-* [3-24V 8 Bit Blue/Red Common anode/cathode LED indicator Module Breadboard starter kit Board for MCU ARM 3d printer UNO MEGA2560](https://www.aliexpress.com/item/1005004567063273.html)
+["3-24V 8 Bit Blue/Red Common anode/cathode LED indicator Module Breadboard starter kit Board for MCU ARM 3d printer UNO MEGA2560" (aliexpress seller listing)](https://www.aliexpress.com/item/1005004567063273.html)
