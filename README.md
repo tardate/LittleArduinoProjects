@@ -1,6 +1,6 @@
-# 814 Little Electronic Art Projects
+# 815 Little Electronic Art Projects
 
-> Latest addition :sparkles: [About the Raspberry Pi Pico 2](./RaspberryPi/PiPico2/About) - All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I²C 1602 LCD.
+> Latest addition :sparkles: [DHT11 Sensor Library Test](./playground/DHT11/Tester) - Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

@@ -1,4 +1,14 @@
 {
+    "/playground/dht11/tester/": {
+        "id": 815,
+        "title": "DHT11 Sensor Library Test",
+        "summary": "Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "DHT11"
+        ]
+    },
     "/raspberrypi/pipico2/about/": {
         "id": 814,
         "title": "About the Raspberry Pi Pico 2",

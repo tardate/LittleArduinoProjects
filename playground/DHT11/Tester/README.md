@@ -1,4 +1,4 @@
-# #xxx DHT11 Sensor Library Test
+# #815 DHT11 Sensor Library Test
 
 Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.
 

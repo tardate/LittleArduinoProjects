@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-13T04:53:00Z</updated>
+  <updated>2026-01-13T10:43:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/dht11/tester/</id>
+    <link href="https://leap.tardate.com/playground/dht11/tester/"/>
+    <g:image_link>https://leap.tardate.com/playground/dht11/tester/assets/tester_build.jpg</g:image_link>
+    <updated>2026-01-13T10:43:00Z</updated>
+    <title>#815 DHT11 Sensor Library Test</title>
+    <summary>Using the Adafruit Arduino library for DHT11, DHT22, etc Temp &amp; Humidity Sensors. Tests use the library directly with a DHT11 sensor.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using the Adafruit Arduino library for DHT11, DHT22, etc Temp &amp;amp; Humidity Sensors. Tests use the library directly with a DHT11 sensor.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/dht11/tester/assets/tester_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Sensors"/>
+    <category term="Arduino"/>
+    <category term="DHT11"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/raspberrypi/pipico2/about/</id>
     <link href="https://leap.tardate.com/raspberrypi/pipico2/about/"/>
