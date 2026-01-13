@@ -213,7 +213,8 @@ Here's a quick demo to see the program in action:
 
 * <https://www.raspberrypi.com/products/raspberry-pi-pico/>
 * [Raspberry Pi Pico 1 datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
-* [Pico-series Microcontrollers Documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
 * [Getting started with Raspberry Pi Pico: C/C++ development](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
+* [Pico-series Microcontrollers Documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
+* <https://github.com/raspberrypi/pico-examples>
 * ["3-24V 8 Bit Blue/Red Common anode/cathode LED indicator Module Breadboard starter kit Board for MCU ARM 3d printer UNO MEGA2560" (aliexpress seller listing)](https://www.aliexpress.com/item/1005004567063273.html)
 * [Raspberry Pi Pico](https://marketplace.visualstudio.com/items?itemName=raspberry-pi.raspberry-pi-pico) VS Code Extension

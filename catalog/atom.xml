@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-12T10:02:00Z</updated>
+  <updated>2026-01-13T04:53:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/raspberrypi/pipico2/about/</id>
+    <link href="https://leap.tardate.com/raspberrypi/pipico2/about/"/>
+    <g:image_link>https://leap.tardate.com/raspberrypi/pipico2/about/assets/about_build.jpg</g:image_link>
+    <updated>2026-01-13T04:53:00Z</updated>
+    <title>#814 About the Raspberry Pi Pico 2</title>
+    <summary>All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I²C 1602 LCD.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I²C 1602 LCD.&lt;/p&gt;&lt;img src="https://leap.tardate.com/raspberrypi/pipico2/about/assets/about_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Raspberry Pi Pico 2"/>
+    <category term="PCF8574A"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/raspberrypi/pipico/about/</id>
     <link href="https://leap.tardate.com/raspberrypi/pipico/about/"/>
@@ -4724,6 +4735,7 @@
     <category term="LCD"/>
     <category term="I2C"/>
     <category term="HD44780"/>
+    <category term="PCF8574A"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/i2cscanner/</id>
