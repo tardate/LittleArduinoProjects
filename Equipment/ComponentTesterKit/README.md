@@ -6,7 +6,10 @@ Build and evaluate a popular ATMEGA328-based component tester kit
 
 ## Notes
 
-I got a good deal recently on this [ATMEGA328-based component tester kit](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) (from seller on aliexpress). The kit is available from a few sources, but not all come with a case.
+I got a good deal recently on the
+["DIY kits ATMEAG328 M328 Transistor Tester LCR Diode Capacitance ESR meter PWM Square wave Frequency Signal Generator" (aliexpress seller listing)](https://www.aliexpress.com/item/32673916127.html) - originally purchased for US$16.82 (Nov-2016), currently listed for SG$22.45 (Jan-2026).
+
+The kit is available from a few sources, but not all come with a case.
 This one came with a purpose-cut clear acrylic case.
 
 It took a few hours to construct, and fired up perfectly. I have built similar circuits myself, but nothing yet with the complete feature list this kit offers.
@@ -264,8 +267,6 @@ with base hold to the emitter level is measured
 
 ### MOSFET
 
-test_nefet
-
 Here is a 2N7000 n-channel MOSFET under test:
 
 ![test_nefet](./assets/test_nefet.jpg?raw=true)
@@ -491,7 +492,8 @@ I mainly used this to record part orientation and interconnection for testing th
 
 ## Credits and References
 
-* [2016 DIY kits ATMEGA328 M328 Transistor Tester LCR Diode Capacitance ESR meter PWM Square wave Frequency Signal Generator](https://www.aliexpress.com/item/2016-DIY-kits-TFT-LCD-M328-Transistor-Tester-LCR-Diode-Capacitance-ESR-voltage-meter-PWM-Square/32673916127.html) - from seller on aliexpress
+* ["DIY kits ATMEAG328 M328 Transistor Tester LCR Diode Capacitance ESR meter PWM Square wave Frequency Signal Generator" (aliexpress seller listing)](https://www.aliexpress.com/item/32673916127.html)
+    * Originally purchased for US$16.82 (Nov-2016), currently listed for SG$22.45 (Jan-2026)
 * [P6KE6V8 data](http://parts.io/detail/6054925/P6KE6V8) - parts.io
 * [HT7750A-1 datasheet](http://file.yizimg.com/4677/2008030712103479.pdf)
 * [TL431A datasheet](http://parts.io/detail/4876553/TL431AILP)

@@ -1,5 +1,25 @@
 [
     {
+        "name": "DHT11 Unified Sensor Library Test",
+        "description": "Using the Adafruit Unified Sensor Library to log temperature and humidity from a DHT11 sensor.",
+        "categories": "Sensors, Arduino, DHT11",
+        "relative_path": "playground/dht11/unifiedsensortest",
+        "updated_at": "2026-01-13T11:39:00Z",
+        "created_at": "2026-01-13T11:39:00Z",
+        "id": "#816",
+        "original_relative_path": "playground/DHT11/UnifiedSensorTest"
+    },
+    {
+        "name": "DHT11 Sensor Library Test",
+        "description": "Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.",
+        "categories": "Sensors, Arduino, DHT11",
+        "relative_path": "playground/dht11/tester",
+        "updated_at": "2026-01-13T10:43:00Z",
+        "created_at": "2026-01-13T10:43:00Z",
+        "id": "#815",
+        "original_relative_path": "playground/DHT11/Tester"
+    },
+    {
         "name": "About the Raspberry Pi Pico 2",
         "description": "All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I\u00b2C 1602 LCD.",
         "categories": "Raspberry Pi Pico 2, PCF8574A",
@@ -4711,9 +4731,9 @@
     },
     {
         "id": "#343",
-        "name": "ESP8266/Sensors/DHT11",
+        "name": "ESP8266 DHT11 Sensor",
         "description": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
-        "categories": "ESP8266, Sensors",
+        "categories": "ESP8266, Sensors, DHT11",
         "relative_path": "esp8266/sensors/dht11",
         "updated_at": "2016-03-07T01:44:30Z",
         "created_at": "2016-03-07T01:44:30Z",
@@ -5133,7 +5153,7 @@
         "id": "#301",
         "name": "DHT11 Basics",
         "description": "test basic temperature and humidity readings with the DHT11 sensor",
-        "categories": "Sensors, Arduino",
+        "categories": "Sensors, Arduino, DHT11",
         "relative_path": "playground/dht11/basics",
         "updated_at": "2021-03-04T11:35:17Z",
         "created_at": "2021-03-04T11:35:17Z",
@@ -5363,7 +5383,7 @@
         "id": "#278",
         "name": "Component Tester Kit",
         "description": "build and evaluate a popular ATMEAG328-based component tester kit",
-        "categories": "Tools, Test Equipment, ATmega, Kit",
+        "categories": "Tools, Test Equipment, ATmega, Kit, DHT11, DS18B20, PWM, IR",
         "relative_path": "equipment/componenttesterkit",
         "updated_at": "2016-12-05T15:30:21Z",
         "created_at": "2016-12-05T15:30:21Z",

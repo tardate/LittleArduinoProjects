@@ -1,4 +1,24 @@
 {
+    "/playground/dht11/unifiedsensortest/": {
+        "id": 816,
+        "title": "DHT11 Unified Sensor Library Test",
+        "summary": "Using the Adafruit Unified Sensor Library to log temperature and humidity from a DHT11 sensor.",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "DHT11"
+        ]
+    },
+    "/playground/dht11/tester/": {
+        "id": 815,
+        "title": "DHT11 Sensor Library Test",
+        "summary": "Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "DHT11"
+        ]
+    },
     "/raspberrypi/pipico2/about/": {
         "id": 814,
         "title": "About the Raspberry Pi Pico 2",
@@ -4401,11 +4421,12 @@
     },
     "/esp8266/sensors/dht11/": {
         "id": 343,
-        "title": "ESP8266/Sensors/DHT11",
+        "title": "ESP8266 DHT11 Sensor",
         "summary": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
         "tags": [
             "ESP8266",
-            "Sensors"
+            "Sensors",
+            "DHT11"
         ]
     },
     "/esp8266/morseblinky/": {
@@ -4810,7 +4831,8 @@
         "summary": "test basic temperature and humidity readings with the DHT11 sensor",
         "tags": [
             "Sensors",
-            "Arduino"
+            "Arduino",
+            "DHT11"
         ]
     },
     "/boldportclub/thematrix/ledtest/": {
@@ -5044,7 +5066,11 @@
             "Tools",
             "Test Equipment",
             "ATmega",
-            "Kit"
+            "Kit",
+            "DHT11",
+            "DS18B20",
+            "PWM",
+            "IR"
         ]
     },
     "/boldportclub/touchy/": {
