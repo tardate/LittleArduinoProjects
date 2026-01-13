@@ -4405,7 +4405,8 @@
         "summary": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
         "tags": [
             "ESP8266",
-            "Sensors"
+            "Sensors",
+            "DHT11"
         ]
     },
     "/esp8266/morseblinky/": {
@@ -4810,7 +4811,8 @@
         "summary": "test basic temperature and humidity readings with the DHT11 sensor",
         "tags": [
             "Sensors",
-            "Arduino"
+            "Arduino",
+            "DHT11"
         ]
     },
     "/boldportclub/thematrix/ledtest/": {
@@ -5044,7 +5046,11 @@
             "Tools",
             "Test Equipment",
             "ATmega",
-            "Kit"
+            "Kit",
+            "DHT11",
+            "DS18B20",
+            "PWM",
+            "IR"
         ]
     },
     "/boldportclub/touchy/": {

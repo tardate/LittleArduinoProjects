@@ -5365,6 +5365,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino&lt;/p&gt;&lt;img src="https://leap.tardate.com/esp8266/sensors/dht11/assets/dht11_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>
     <category term="Sensors"/>
+    <category term="DHT11"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/morseblinky/</id>
@@ -5854,6 +5855,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test basic temperature and humidity readings with the DHT11 sensor&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/dht11/basics/assets/basics_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="Arduino"/>
+    <category term="DHT11"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/thematrix/ledtest/</id>
@@ -6134,6 +6136,10 @@
     <category term="Test Equipment"/>
     <category term="ATmega"/>
     <category term="Kit"/>
+    <category term="DHT11"/>
+    <category term="DS18B20"/>
+    <category term="PWM"/>
+    <category term="IR"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/touchy/</id>
