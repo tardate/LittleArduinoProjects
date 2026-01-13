@@ -4,10 +4,6 @@ Using the Adafruit Unified Sensor Library to log temperature and humidity from a
 
 ![Build](./assets/UnifiedSensorTest_build.jpg?raw=true)
 
-Here's a quick demo..
-
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
-
 ## Notes
 
 This is a test of the Adafruit DHT Sensor Library with the unified sensor framework.
