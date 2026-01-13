@@ -16,9 +16,9 @@ The DHT11 sensor is a very cheap and common sensor that provides readings of:
 I am using a DHT11 that is mounted on an adapter board that includes pull-up resistor for the data line, and a decoupling capacitor,
 similar to ["New Temperature and Relative Humidity Sensor DHT11 Module with Cable for arduino Diy Kit" (aliexpress seller listing)](https://www.aliexpress.com/item/32997407491.html).
 
-![module](./assets/module.jpg)
+![module](../assets/module.jpg)
 
-The schematic below shows the relevant components if a mounting module is not used:
+The schematic below shows the relevant components if a mounting module is not used. Designed with Fritzing: see [Basics.fzz](./Basics.fzz).
 
 ![Breadboard](./assets/Basics_bb.jpg?raw=true)
 
@@ -83,6 +83,8 @@ void display_readings() {
   Serial.println((float)DHT11.temperature, 2);
 }
 ```
+
+Sample console output:
 
 ![console-output](./assets/console-output.png?raw=true)
 

@@ -1,0 +1,6 @@
+{
+    "name": "DHT11 Sensor Library Test",
+    "description": "Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.",
+    "categories": "Sensors, Arduino, DHT11",
+    "relative_path": "playground/DHT11/Tester"
+}
