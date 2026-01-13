@@ -31,9 +31,10 @@ The DHT11 uses a single-wire two-way communications protocol.
 
 This example uses the Adafruit
 [Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors](https://github.com/adafruit/DHT-sensor-library)
-directly. It is based on the `DHTtester.ino` example.
+directly.
 
-The [Tester.ino](./Tester.ino) sketch simply outputs current readings to the console:
+The [Tester.ino](./Tester.ino) sketch simply outputs current readings to the console.
+It is based on the `DHTtester.ino` example.
 
 ```c
 #include "DHT.h"
