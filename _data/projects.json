@@ -1,4 +1,13 @@
 {
+    "/raspberrypi/pipico2/about/": {
+        "id": 814,
+        "title": "About the Raspberry Pi Pico 2",
+        "summary": "All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I\u00b2C 1602 LCD.",
+        "tags": [
+            "Raspberry Pi Pico 2",
+            "PCF8574A"
+        ]
+    },
     "/raspberrypi/pipico/about/": {
         "id": 813,
         "title": "About the Raspberry Pi Pico",
@@ -3876,7 +3885,8 @@
         "tags": [
             "LCD",
             "I2C",
-            "HD44780"
+            "HD44780",
+            "PCF8574A"
         ]
     },
     "/playground/i2cscanner/": {

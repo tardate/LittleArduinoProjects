@@ -1,6 +1,6 @@
-# 813 Little Electronic Art Projects
+# 814 Little Electronic Art Projects
 
-> Latest addition :sparkles: [About the Raspberry Pi Pico](./RaspberryPi/PiPico/About) - All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.
+> Latest addition :sparkles: [About the Raspberry Pi Pico 2](./RaspberryPi/PiPico2/About) - All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I²C 1602 LCD.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

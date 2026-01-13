@@ -1,4 +1,4 @@
-# #xxx About the Raspberry Pi Pico 2
+# #814 About the Raspberry Pi Pico 2
 
 All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension.
 The demo displays the the ADC internal temperature on a I²C 1602 LCD.
