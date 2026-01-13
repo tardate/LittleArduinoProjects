@@ -1,6 +1,6 @@
-# 816 Little Electronic Art Projects
+# 817 Little Electronic Art Projects
 
-> Latest addition :sparkles: [DHT11 Unified Sensor Library Test](./playground/DHT11/UnifiedSensorTest) - Using the Adafruit Unified Sensor Library to log temperature and humidity from a DHT11 sensor.
+> Latest addition :sparkles: [DHT21 Sensor Library Test](./playground/DHT21/Tester) - Logging temperature and humidity with an Aosong AM2301 DHT21 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

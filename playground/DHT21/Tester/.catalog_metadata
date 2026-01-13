@@ -2,5 +2,8 @@
     "name": "DHT21 Sensor Library Test",
     "description": "Logging temperature and humidity with an Aosong AM2301 DHT21 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.",
     "categories": "Sensors, Arduino, DHT21, AM2301",
-    "relative_path": "playground/DHT21/Tester"
+    "relative_path": "playground/DHT21/Tester",
+    "updated_at": "2026-01-13T13:45:00Z",
+    "created_at": "2026-01-13T13:45:00Z",
+    "id": "#817"
 }
