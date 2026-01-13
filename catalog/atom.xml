@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-13T10:43:00Z</updated>
+  <updated>2026-01-13T11:39:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/dht11/unifiedsensortest/</id>
+    <link href="https://leap.tardate.com/playground/dht11/unifiedsensortest/"/>
+    <g:image_link>https://leap.tardate.com/playground/dht11/unifiedsensortest/assets/unifiedsensortest_build.jpg</g:image_link>
+    <updated>2026-01-13T11:39:00Z</updated>
+    <title>#816 DHT11 Unified Sensor Library Test</title>
+    <summary>Using the Adafruit Unified Sensor Library to log temperature and humidity from a DHT11 sensor.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using the Adafruit Unified Sensor Library to log temperature and humidity from a DHT11 sensor.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/dht11/unifiedsensortest/assets/unifiedsensortest_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Sensors"/>
+    <category term="Arduino"/>
+    <category term="DHT11"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/dht11/tester/</id>
     <link href="https://leap.tardate.com/playground/dht11/tester/"/>
@@ -5372,7 +5384,7 @@
     <link href="https://leap.tardate.com/esp8266/sensors/dht11/"/>
     <g:image_link>https://leap.tardate.com/esp8266/sensors/dht11/assets/dht11_build.jpg</g:image_link>
     <updated>2016-03-07T01:44:30Z</updated>
-    <title>#343 ESP8266/Sensors/DHT11</title>
+    <title>#343 ESP8266 DHT11 Sensor</title>
     <summary>reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino&lt;/p&gt;&lt;img src="https://leap.tardate.com/esp8266/sensors/dht11/assets/dht11_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="ESP8266"/>

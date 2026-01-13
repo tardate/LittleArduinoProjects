@@ -1,4 +1,14 @@
 {
+    "/playground/dht11/unifiedsensortest/": {
+        "id": 816,
+        "title": "DHT11 Unified Sensor Library Test",
+        "summary": "Using the Adafruit Unified Sensor Library to log temperature and humidity from a DHT11 sensor.",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "DHT11"
+        ]
+    },
     "/playground/dht11/tester/": {
         "id": 815,
         "title": "DHT11 Sensor Library Test",
@@ -4411,7 +4421,7 @@
     },
     "/esp8266/sensors/dht11/": {
         "id": 343,
-        "title": "ESP8266/Sensors/DHT11",
+        "title": "ESP8266 DHT11 Sensor",
         "summary": "reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino",
         "tags": [
             "ESP8266",

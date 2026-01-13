@@ -1,4 +1,4 @@
-# #343 Sensors/DHT11
+# #343 ESP8266 DHT11 Sensor
 
 Reading temperature and humidity with a DHT11 sensor and ESP-01, coding with ESP8266 core for Arduino.
 
@@ -13,6 +13,13 @@ The DHT11 sensor is a very cheap and common sensor that provides readings of:
 
 I've used this before with an Arduino - see [LEAP#301](../../../playground/DHT11/Basics).
 This time I'm testing with the most basic ESP8266 board - an ESP-01, which exposes one free GPIO.
+
+### DHT11 Module
+
+I am using a DHT11 that is mounted on an adapter board that includes pull-up resistor for the data line, and a decoupling capacitor,
+similar to ["New Temperature and Relative Humidity Sensor DHT11 Module with Cable for arduino Diy Kit" (aliexpress seller listing)](https://www.aliexpress.com/item/32997407491.html).
+
+![module](../../../playground/DHT11/assets/module.jpg)
 
 ### Programming Setup
 

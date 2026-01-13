@@ -17,7 +17,8 @@ similar to ["New Temperature and Relative Humidity Sensor DHT11 Module with Cabl
 
 ![module](../assets/module.jpg)
 
-The schematic below shows the relevant components if a mounting module is not used. Designed with Fritzing: see [Tester.fzz](./Tester.fzz).
+The schematic below shows the relevant components if a mounting module is not used.
+Designed with Fritzing: see [Tester.fzz](./Tester.fzz).
 
 ![bb](./assets/Tester_bb.jpg?raw=true)
 
@@ -29,11 +30,12 @@ The schematic below shows the relevant components if a mounting module is not us
 
 The DHT11 uses a single-wire two-way communications protocol.
 
-This example uses the Adafruit
-[Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors](https://github.com/adafruit/DHT-sensor-library)
-directly.
-
 The [Tester.ino](./Tester.ino) sketch simply outputs current readings to the console.
+
+Requires the following Arduino libraries:
+
+* [DHT Sensor Library](https://github.com/adafruit/DHT-sensor-library)
+
 It is based on the `DHTtester.ino` example.
 
 ```c
