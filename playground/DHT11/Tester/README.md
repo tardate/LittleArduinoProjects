@@ -1,12 +1,12 @@
 # #815 DHT11 Sensor Library Test
 
-Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.
+Logging temperature and humidity with DHT11 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.
 
 ![Build](./assets/Tester_build.jpg?raw=true)
 
 ## Notes
 
-This is a test of the Adafruit DHT Sensor Library directly (without the unified sensor framework).
+This is a test of the DHT11 with the Adafruit DHT Sensor Library directly (without the unified sensor framework).
 
 See [LEAP#816 DHT11 Unified Sensor Library Test](../UnifiedSensorTest/)
 for a variation that uses the Adafruit unified sensor framework.

@@ -1,4 +1,15 @@
 {
+    "/playground/dht21/tester/": {
+        "id": 817,
+        "title": "DHT21 Sensor Library Test",
+        "summary": "Logging temperature and humidity with an Aosong AM2301 DHT21 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.",
+        "tags": [
+            "Sensors",
+            "Arduino",
+            "DHT21",
+            "AM2301"
+        ]
+    },
     "/playground/dht11/unifiedsensortest/": {
         "id": 816,
         "title": "DHT11 Unified Sensor Library Test",
@@ -12,7 +23,7 @@
     "/playground/dht11/tester/": {
         "id": 815,
         "title": "DHT11 Sensor Library Test",
-        "summary": "Using the Adafruit Arduino library for DHT11, DHT22, etc Temp & Humidity Sensors. Tests use the library directly with a DHT11 sensor.",
+        "summary": "Logging temperature and humidity with DHT11 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.",
         "tags": [
             "Sensors",
             "Arduino",
