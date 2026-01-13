@@ -33,7 +33,10 @@ The DHT11 uses a single-wire two-way communications protocol.
 For a first test, I'm using a simple
 [DHT11Lib](https://playground.arduino.cc/Main/DHT11Lib/)
 from the arduino playground.
-Adafruit have support for the DHT11 within their sensor framework; I'll try that another time.
+
+* see [LEAP#815 DHT11 Sensor Library Test](../Tester/) for a variation using the Adafruit DHT Sensor Library without the unified sensor framework.
+* see [LEAP#816 DHT11 Unified Sensor Library Test](../UnifiedSensorTest/)
+for a variation that uses the Adafruit unified sensor framework.
 
 The [Basics.ino](./Basics.ino) sketch simply outputs current readings to the console:
 
