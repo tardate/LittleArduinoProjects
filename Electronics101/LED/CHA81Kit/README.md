@@ -1,4 +1,4 @@
-# #xxx CHA-81 LED Matrix Soldering Kit
+# #818 CHA-81 LED Matrix Soldering Kit
 
 Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!
 

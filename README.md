@@ -1,6 +1,6 @@
-# 817 Little Electronic Art Projects
+# 818 Little Electronic Art Projects
 
-> Latest addition :sparkles: [DHT21 Sensor Library Test](./playground/DHT21/Tester) - Logging temperature and humidity with an Aosong AM2301 DHT21 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.
+> Latest addition :sparkles: [CHA-81 LED Matrix Soldering Kit](./Electronics101/LED/CHA81Kit) - Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

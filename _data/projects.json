@@ -1,4 +1,13 @@
 {
+    "/electronics101/led/cha81kit/": {
+        "id": 818,
+        "title": "CHA-81 LED Matrix Soldering Kit",
+        "summary": "Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!",
+        "tags": [
+            "LED",
+            "Kit"
+        ]
+    },
     "/playground/dht21/tester/": {
         "id": 817,
         "title": "DHT21 Sensor Library Test",
