@@ -15,7 +15,6 @@ One effective solution is to use a "module" if one is available.
 These are generally small boards holding surface mount chip(s) and supporting circuitry
 but provide pins or sockets for easy external connections.
 Although mainly geared for microcontroller market, there are many that are also relevant for standalone analog or digital circuits.
-An example is [this CurrentSensorModule](../../playground/CurrentSensorModule/).
 
 However as I've found, surface-mount devices can be quite easy to use in a hobby project even in the absence of a suitable module.
 The challenge kind of breaks down into two categories:

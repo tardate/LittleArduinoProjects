@@ -1,6 +1,8 @@
-# #136 Counter Module
+# #136 CD4017 Counter Module
 
-A general-purpose CD4017 counter module.
+A general-purpose CD4017 counter module for use on a breadboard or plugged into an Arduino.
+
+![The Build](./assets/CounterModule_build.jpg?raw=true)
 
 Here's a quick video of the module in action:
 
@@ -34,13 +36,17 @@ But it depends on the specific LED ratings, as this subjects the LEDs to a rever
 
 ![The Schematic](./assets/CounterModule_pcb_layout.jpg?raw=true)
 
+Plugged into a breadboard
+
+![The Build](./assets/CounterModule_bb_build.jpg?raw=true)
+
 ### Plugged into an Arduino
 
 ![The Build](./assets/CounterModule_build.jpg?raw=true)
 
-### Plugged into a Breadboard
+### The Sketch
 
-![The Build](./assets/CounterModule_build_breadboard.jpg?raw=true)
+See [CounterModule.ino](./CounterModule.ino).
 
 ## Credits and References
 

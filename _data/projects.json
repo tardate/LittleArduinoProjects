@@ -5,7 +5,9 @@
         "summary": "Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!",
         "tags": [
             "LED",
-            "Kit"
+            "Kit",
+            "555 Timer",
+            "CD4017"
         ]
     },
     "/playground/dht21/tester/": {
@@ -45,7 +47,8 @@
         "summary": "All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I\u00b2C 1602 LCD.",
         "tags": [
             "Raspberry Pi Pico 2",
-            "PCF8574A"
+            "PCF8574A",
+            "LCD"
         ]
     },
     "/raspberrypi/pipico/about/": {
@@ -53,7 +56,8 @@
         "title": "About the Raspberry Pi Pico",
         "summary": "All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.",
         "tags": [
-            "Raspberry Pi Pico"
+            "Raspberry Pi Pico",
+            "LED"
         ]
     },
     "/esp8266/micropython/esp-12-temperature-logger/": {
@@ -2966,7 +2970,7 @@
     },
     "/esp32/publishinginternals/": {
         "id": 497,
-        "title": "Publishing Internals",
+        "title": "Publishing ESP32 Internals",
         "summary": "Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization",
         "tags": [
             "ESP32",
@@ -6164,17 +6168,18 @@
     },
     "/playground/currentsensormodule/": {
         "id": 168,
-        "title": "CurrentSensorModule",
-        "summary": "test an ACS712 current sensor module with display on a 5110 LCD",
+        "title": "ACS712 Current Sensor Module",
+        "summary": "Test an ACS712 current sensor module with measurements displayed on a 5110 LCD.",
         "tags": [
             "Sensors",
-            "Arduino"
+            "Arduino",
+            "ACS712"
         ]
     },
     "/playground/voltagesensormodule/": {
         "id": 167,
-        "title": "VoltageSensorModule",
-        "summary": "test a 25V voltage sensor module with display on a 5110 LCD",
+        "title": "Voltage Sensor Module",
+        "summary": "Test a 25V voltage sensor module with measurements displayed on a 5110 LCD.",
         "tags": [
             "Sensors",
             "Arduino"
@@ -6457,7 +6462,7 @@
     },
     "/playground/countermodule/": {
         "id": 136,
-        "title": "Counter Module",
+        "title": "CD4017 Counter Module",
         "summary": "a general-purpose CD4017 counter module",
         "tags": [
             "CMOS/TTL",

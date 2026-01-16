@@ -1,7 +1,8 @@
-# #167 VoltageSensorModule
+# #167 Voltage Sensor Module
 
-Test a 25V voltage sensor module
+Test a 25V voltage sensor module with measurements displayed on a 5110 LCD.
 
+![Build](./assets/VoltageSensorModule_build.jpg?raw=true)
 
 ## Notes
 
@@ -12,7 +13,6 @@ I picked up recently.
 ![Module](./assets/module.jpg?raw=true)
 
 The circuit simply measures a variable voltage (manually controlled wiper on a pot) and displays the result on a 5110 LCD.
-
 
 ### Module Specifications
 
@@ -43,13 +43,13 @@ The module is not isolated - the input ground is common with the sensor ground.
 
 The input voltage is applied across two resistors in series, with the sensor output tapped at the midpoint.
 The resistors are 0805 surface mount "precision" (4-digit code) resistors of values:
+
 * 3002 (30kΩ)
 * 7501 (7.5kΩ)
 
 Hence the sensor output will read as [7.5/37.5 or 20%](https://www.wolframalpha.com/input/?i=7.5k%CE%A9%2F37.5k%CE%A9)
 of the input voltage. Hence the 25V maximum voltage rating on the unit, since
 [20% is 5V](https://www.wolframalpha.com/input/?i=7.5k%CE%A9%2F37.5k%CE%A9+*+25V), the input limit for a 5V Arduino.
-
 
 ### 5110 LCD SPI Configuration
 
@@ -69,14 +69,21 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 | BL     | Backlight on when GND |                 |
 | GND    | Ground                |                 |
 
-
 ## Construction
 
 ![Breadboard](./assets/VoltageSensorModule_bb.jpg?raw=true)
 
 ![The Schematic](./assets/VoltageSensorModule_schematic.jpg?raw=true)
 
-![The Build](./assets/VoltageSensorModule_build.jpg?raw=true)
+![Breadboard Build](./assets/VoltageSensorModule_bb_build.jpg?raw=true)
+
+### The Sketch
+
+See [VoltageSensorModule.ino](./VoltageSensorModule.ino).
+
+Required libraries:
+
+* [u8glib](https://github.com/olikraus/u8glib)
 
 ## Credits and References
 

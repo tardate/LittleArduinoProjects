@@ -1,7 +1,7 @@
 {
     "name": "CHA-81 LED Matrix Soldering Kit",
     "description": "Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!",
-    "categories": "LED, Kit",
+    "categories": "LED, Kit, 555 Timer, CD4017",
     "relative_path": "Electronics101/LED/CHA81Kit",
     "updated_at": "2026-01-16T04:05:00Z",
     "created_at": "2026-01-16T04:05:00Z",

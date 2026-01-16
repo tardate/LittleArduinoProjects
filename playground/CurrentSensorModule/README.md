@@ -1,6 +1,6 @@
-# #168 CurrentSensorModule
+# #168 ACS712 Current Sensor Module
 
-Test an ACS712 current sensor module with display on a 5110 LCD
+Test an ACS712 current sensor module with measurements displayed on a 5110 LCD.
 
 ![The Build](./assets/CurrentSensorModule_build.jpg?raw=true)
 
@@ -20,12 +20,12 @@ That means my test source only ranges from 0-50mA, so not a real power test.
 
 In an alternative configuration, I have a 9V source pumping ~700mA through the current sensor.
 
-At first my resultswere terrible, like+/-0.7A measuring as +/-0.2A.
-These readings are coincidentally quite consistent with a +/-20A scale.
-When I change to +/-20A sensitivity then suddenly my readings are very close to what my multimeter says.
+At first my results were terrible, like ±0.7A measuring as ±0.2A.
+These readings are coincidentally quite consistent with a ±20A scale.
+When I change to ±20A sensitivity then suddenly my readings are very close to what my multimeter says.
 
-Although the chip on my module is clearly marked ACS712ELC-05B (+/-5A sensitivity according to the datasheet),
-I'm guessing it is really an ACS712ELC-20A (+/-20A).
+Although the chip on my module is clearly marked ACS712ELC-05B (±5A sensitivity according to the datasheet),
+I'm guessing it is really an ACS712ELC-20A (±20A).
 Perhaps wrong markings in a QA reject batch?
 Perhaps also why it shows up in a 70 cent module from China!!
 
@@ -38,7 +38,7 @@ Perhaps also why it shows up in a 70 cent module from China!!
 * the module can be measured plus or minus 5 amps, corresponding to the analog output of 185 mV / A
 * there is no the detection current through, the output voltage is VCC / 2
 
-Given the +/-5A range and taking a reading through the analog point (0-1023), then the
+Given the ±5A range and taking a reading through the analog point (0-1023), then the
 actual current will equal the `analog input / 1023 * 2 * 5 - 5`.
 
 That's a resolution of around 10mA, so not very sensitive, but perhaps good enough for gross current monitoring.
@@ -81,7 +81,15 @@ Here's the mapping from the terminology used by my particular 5110 module and pi
 
 ![The Schematic](./assets/CurrentSensorModule_schematic.jpg?raw=true)
 
-![The Build](./assets/CurrentSensorModule_build.jpg?raw=true)
+![BB Build](./assets/CurrentSensorModule_bb_build.jpg?raw=true)
+
+### The Sketch
+
+See [CurrentSensorModule.ino](./CurrentSensorModule.ino).
+
+Required libraries:
+
+* [u8glib](https://github.com/olikraus/u8glib)
 
 ## Credits and References
 

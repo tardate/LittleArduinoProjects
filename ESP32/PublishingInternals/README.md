@@ -1,4 +1,4 @@
-# #497 Publishing Internals
+# #497 Publishing ESP32 Internals
 
 Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization.
 
