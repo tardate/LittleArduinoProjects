@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-13T13:45:00Z</updated>
+  <updated>2026-01-16T04:05:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/led/cha81kit/</id>
+    <link href="https://leap.tardate.com/electronics101/led/cha81kit/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/led/cha81kit/assets/cha81kit_build.jpg</g:image_link>
+    <updated>2026-01-16T04:05:00Z</updated>
+    <title>#818 CHA-81 LED Matrix Soldering Kit</title>
+    <summary>Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/cha81kit/assets/cha81kit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="LED"/>
+    <category term="Kit"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/dht21/tester/</id>
     <link href="https://leap.tardate.com/playground/dht21/tester/"/>

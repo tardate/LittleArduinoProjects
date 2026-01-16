@@ -52,7 +52,6 @@ Reverse biasing the S9014 to produce shot noise requires at least an 11V.
 To run the entire circuit on a lower voltage, I tested a range of
 other transistors. My Results are summarised in the following table:
 
-
 | Transistor | Performance                           |
 |------------|---------------------------------------|
 | S9014      | very good > 11V                       |
@@ -102,11 +101,10 @@ Hooked up for a final test:
 
 ![WhiteNoiseGenerator_final_test](./assets/WhiteNoiseGenerator_final_test.jpg?raw=true)
 
-
 ## Performance
 
 While replacing the S9014 transistors with BC337-25 allows the circuit to run at a nominal 9V with only a 8mA,
-if the voltage drops much below 8.9V, it does not generate noise. This makes operation from 9V batteries a bit problemmatic
+if the voltage drops much below 8.9V, it does not generate noise. This makes operation from 9V batteries a bit problematic
 unless they are brand new.
 
 The noise generate has very flat response across the audio spectrum (measured at the audio output):
@@ -117,11 +115,11 @@ And this is what it looks like in the time domain:
 
 ![scope_BC337_9V](./assets/scope_BC337_9V.gif?raw=true)
 
-
 ## Credits and References
 
-* [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)
-* [BC337 datasheet](https://www.futurlec.com/Transistors/BC337.shtml)
+* Component information:
+    * [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)
+    * [BC337 datasheet](https://www.futurlec.com/Transistors/BC337.shtml)
 * [Noise generator](https://en.wikipedia.org/wiki/Noise_generator) - wikipedia
 * [White Noise Signal Generator DIY Kit](https://www.aliexpress.com/item/White-Noise-Signal-Generator-DIY-Kit-Electronic-Kit-2-Channel-Output-for-Burn-in-Test-Therapy/32922270112.html) - kit from a seller on aliexpress
 * [Banggood's Construction Guide for the EQKit version](https://files.banggood.com/2017/18.01/SG-10-Noise-signal-generator-kit.pdf)

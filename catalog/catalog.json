@@ -1,5 +1,15 @@
 [
     {
+        "name": "CHA-81 LED Matrix Soldering Kit",
+        "description": "Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!",
+        "categories": "LED, Kit",
+        "relative_path": "electronics101/led/cha81kit",
+        "updated_at": "2026-01-16T04:05:00Z",
+        "created_at": "2026-01-16T04:05:00Z",
+        "id": "#818",
+        "original_relative_path": "Electronics101/LED/CHA81Kit"
+    },
+    {
         "name": "DHT21 Sensor Library Test",
         "description": "Logging temperature and humidity with an Aosong AM2301 DHT21 sensor. Uses the Adafruit Arduino DHT Sensor Library directly.",
         "categories": "Sensors, Arduino, DHT21, AM2301",
