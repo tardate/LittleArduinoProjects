@@ -23,6 +23,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/led/cha81kit/assets/cha81kit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Kit"/>
+    <category term="555 Timer"/>
+    <category term="CD4017"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/dht21/tester/</id>
@@ -71,6 +73,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;All about the Raspberry Pi Pico 2, with a demonstration program created with the C/C++ Pico SDK and VS Code extension. The demo displays the the ADC internal temperature on a I²C 1602 LCD.&lt;/p&gt;&lt;img src="https://leap.tardate.com/raspberrypi/pipico2/about/assets/about_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Raspberry Pi Pico 2"/>
     <category term="PCF8574A"/>
+    <category term="LCD"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/raspberrypi/pipico/about/</id>
@@ -81,6 +84,7 @@
     <summary>All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing programmed using the C/C++ Pico SDK and VS Code extension.&lt;/p&gt;&lt;img src="https://leap.tardate.com/raspberrypi/pipico/about/assets/about_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Raspberry Pi Pico"/>
+    <category term="LED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/micropython/esp-12-temperature-logger/</id>
@@ -3625,7 +3629,7 @@
     <link href="https://leap.tardate.com/esp32/publishinginternals/"/>
     <g:image_link>https://leap.tardate.com/esp32/publishinginternals/assets/publishinginternals_build.jpg</g:image_link>
     <updated>2019-09-15T14:46:09Z</updated>
-    <title>#497 Publishing Internals</title>
+    <title>#497 Publishing ESP32 Internals</title>
     <summary>Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Publishing live ESP32 system internals to the web - an exploration of ESP32 features and web serving options, including JSON serialization&lt;/p&gt;&lt;img src="https://leap.tardate.com/esp32/publishinginternals/assets/publishinginternals_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="ESP32"/>
@@ -7481,20 +7485,21 @@
     <link href="https://leap.tardate.com/playground/currentsensormodule/"/>
     <g:image_link>https://leap.tardate.com/playground/currentsensormodule/assets/currentsensormodule_build.jpg</g:image_link>
     <updated>2017-12-31T04:01:08Z</updated>
-    <title>#168 CurrentSensorModule</title>
-    <summary>test an ACS712 current sensor module with display on a 5110 LCD</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test an ACS712 current sensor module with display on a 5110 LCD&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/currentsensormodule/assets/currentsensormodule_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#168 ACS712 Current Sensor Module</title>
+    <summary>Test an ACS712 current sensor module with measurements displayed on a 5110 LCD.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Test an ACS712 current sensor module with measurements displayed on a 5110 LCD.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/currentsensormodule/assets/currentsensormodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="Arduino"/>
+    <category term="ACS712"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/voltagesensormodule/</id>
     <link href="https://leap.tardate.com/playground/voltagesensormodule/"/>
     <g:image_link>https://leap.tardate.com/playground/voltagesensormodule/assets/voltagesensormodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#167 VoltageSensorModule</title>
-    <summary>test a 25V voltage sensor module with display on a 5110 LCD</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test a 25V voltage sensor module with display on a 5110 LCD&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/voltagesensormodule/assets/voltagesensormodule_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#167 Voltage Sensor Module</title>
+    <summary>Test a 25V voltage sensor module with measurements displayed on a 5110 LCD.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Test a 25V voltage sensor module with measurements displayed on a 5110 LCD.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/voltagesensormodule/assets/voltagesensormodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="Arduino"/>
   </entry>
@@ -7838,7 +7843,7 @@
     <link href="https://leap.tardate.com/playground/countermodule/"/>
     <g:image_link>https://leap.tardate.com/playground/countermodule/assets/countermodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#136 Counter Module</title>
+    <title>#136 CD4017 Counter Module</title>
     <summary>a general-purpose CD4017 counter module</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a general-purpose CD4017 counter module&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/countermodule/assets/countermodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>

@@ -30,6 +30,13 @@ For a quick test, I'm not using any amplification, simply an 8Ω speaker and a 1
 
 ![Build](./assets/ClassicNokia_build.jpg?raw=true)
 
+### The Sketch
+
+See:
+
+* [ClassicNokia.ino](./ClassicNokia.ino) - main sketch
+* [pitches.h](./pitches.h) - pitch definitions
+
 ## Credits and References
 
 * [LEAP#051](../JarabeTapatio) -  El Jarabe Tapatío
