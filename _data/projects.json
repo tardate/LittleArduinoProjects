@@ -1,4 +1,13 @@
 {
+    "/electronics101/74ls161/binarycounter/": {
+        "id": 819,
+        "title": "74LS161 Binary Counter",
+        "summary": "About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with a simple counter demonstration.",
+        "tags": [
+            "CMOS/TTL",
+            "74LS161"
+        ]
+    },
     "/electronics101/led/cha81kit/": {
         "id": 818,
         "title": "CHA-81 LED Matrix Soldering Kit",
@@ -1878,7 +1887,8 @@
         "tags": [
             "CMOS/TTL",
             "Digital Logic",
-            "Kit"
+            "Kit",
+            "CD4511"
         ]
     },
     "/electronics101/power/dicksonchargepump/halfwave/": {
@@ -2313,9 +2323,9 @@
             "Arduino"
         ]
     },
-    "/electronics101/digitallogic/4bitsynchonouscounter/": {
+    "/electronics101/digitallogic/4bitsynchronouscounter/": {
         "id": 566,
-        "title": "4-bit Synchonous Counter",
+        "title": "4-bit Synchronous Counter",
         "summary": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear",
         "tags": [
             "74LS161",
@@ -2803,7 +2813,10 @@
         "summary": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
         "tags": [
             "CMOS/TTL",
-            "Kit"
+            "Kit",
+            "CD4011",
+            "74HC192",
+            "CD4511"
         ]
     },
     "/equipment/dummyload/simpleresistiveusbload/": {

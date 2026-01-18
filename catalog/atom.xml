@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-16T04:05:00Z</updated>
+  <updated>2026-01-19T05:21:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/74ls161/binarycounter/</id>
+    <link href="https://leap.tardate.com/electronics101/74ls161/binarycounter/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74ls161/binarycounter/assets/binarycounter_build.jpg</g:image_link>
+    <updated>2026-01-19T05:21:00Z</updated>
+    <title>#819 74LS161 Binary Counter</title>
+    <summary>About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with a simple counter demonstration.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with a simple counter demonstration.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/74ls161/binarycounter/assets/binarycounter_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="CMOS/TTL"/>
+    <category term="74LS161"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/led/cha81kit/</id>
     <link href="https://leap.tardate.com/electronics101/led/cha81kit/"/>
@@ -2308,6 +2319,7 @@
     <category term="CMOS/TTL"/>
     <category term="Digital Logic"/>
     <category term="Kit"/>
+    <category term="CD4511"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/</id>
@@ -2832,13 +2844,13 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/digitallogic/4bitsynchonouscounter/</id>
-    <link href="https://leap.tardate.com/electronics101/digitallogic/4bitsynchonouscounter/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/digitallogic/4bitsynchonouscounter/assets/4bitsynchonouscounter_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/digitallogic/4bitsynchronouscounter/</id>
+    <link href="https://leap.tardate.com/electronics101/digitallogic/4bitsynchronouscounter/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/digitallogic/4bitsynchronouscounter/assets/4bitsynchronouscounter_build.jpg</g:image_link>
     <updated>2020-09-20T09:59:32Z</updated>
-    <title>#566 4-bit Synchonous Counter</title>
+    <title>#566 4-bit Synchronous Counter</title>
     <summary>An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/digitallogic/4bitsynchonouscounter/assets/4bitsynchonouscounter_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/digitallogic/4bitsynchronouscounter/assets/4bitsynchronouscounter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="74LS161"/>
     <category term="74LS245"/>
     <category term="Digital Logic"/>
@@ -3429,6 +3441,9 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/subtractionloopcounterkit/assets/subtractionloopcounterkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="Kit"/>
+    <category term="CD4011"/>
+    <category term="74HC192"/>
+    <category term="CD4511"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/dummyload/simpleresistiveusbload/</id>

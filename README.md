@@ -1,6 +1,6 @@
-# 818 Little Electronic Art Projects
+# 819 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CHA-81 LED Matrix Soldering Kit](./Electronics101/LED/CHA81Kit) - Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!
+> Latest addition :sparkles: [74LS161 Binary Counter](./Electronics101/74LS161/BinaryCounter) - About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with a simple counter demonstration.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
