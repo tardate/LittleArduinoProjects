@@ -26,7 +26,10 @@ Operating from a 5V supply as part of the 74LS (Low-Power Schottky TTL) family, 
 
 ### Demonstration Circuit Design
 
-This is a basic demonstration of driving a 7-segment display with the 74LS47. Key features of the circuit:
+This is a basic demonstration of driving a 7-segment display with the 74LS47.
+It uses a 74LS161 to provide a full 4-bit binary count, displaying all 16 characters defined by the 74LS47 in sequence.
+
+Key features of the circuit:
 
 * uses a 74LS161 to provide a sequential binary count to drive the 74LS47
 * the 74LS161 is clocked by [LEAP#791 555 Breadboard Pulse Generator](../../555Timer/BreadboardPulseGen/)
@@ -38,8 +41,7 @@ This is a basic demonstration of driving a 7-segment display with the 74LS47. Ke
     * hence separate power supplies: 5V for the logic, 12V for the display
     * since the display is common-anode, the circuit can happily share a common ground with split power supplies, and the 74LS47 is happy as long as LED current does not exceed 24 mA
     * see details below
-
-Since the 74LS161 provides a full 4-bit binary count, all 16 characters defined by the 74LS47 are displayed in sequence.
+* for the breadboard build, I am powering the circuit with 5V and then using a boost converter to provide the 12V for the LED display
 
 Designed with Fritzing: see [Counter.fzz](./Counter.fzz).
 
