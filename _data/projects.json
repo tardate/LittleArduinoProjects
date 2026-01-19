@@ -1,4 +1,14 @@
 {
+    "/electronics101/74ls47/fullcycle/": {
+        "id": 820,
+        "title": "74LS47 7-segment LED Full Cycle",
+        "summary": "Demonstrating the 74LS47 7-segment common-anode LED driver with a simple 4-bit binary counter sequence.",
+        "tags": [
+            "CMOS/TTL",
+            "74LS47",
+            "74LS161"
+        ]
+    },
     "/electronics101/74ls161/binarycounter/": {
         "id": 819,
         "title": "74LS161 Binary Counter",
