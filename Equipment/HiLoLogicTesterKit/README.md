@@ -20,26 +20,26 @@ This is [cheap little kit](https://www.aliexpress.com/item/1005002086586805.html
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
-| Ref | Item | Description |
-|-----|------|-------|
-| R1  |  2kΩ | |
-| R2  |  1MΩ | |
-| R3  |  1MΩ | |
-| R4  |  120kΩ | |
-| R5  |  1kΩ | |
-| R6  |  10kΩ | |
-| R7  |  51Ω | |
-| C1  |  221  - 220pF | |
-| C2  |  4.7µF | |
-| C3  |  473 - 47nF | |
-| VD1 |  1N4148 | |
-| LED1 |  5mm Red LED| |
-| LED2 |  7-segment| 5161AH |
-| U1 |   CD4511 | |
-| VT1 |   9014 NPN | |
-| VT2 |   9014 NPN | |
-|     | 4-pin header | for probe input |
-|     | 2 wires | for power - unused, I replaced with XH2.54 connector |
+| Ref | Item         | Description                                          |
+|-----|--------------|------------------------------------------------------|
+| R1  | 2kΩ          |                                                      |
+| R2  | 1MΩ          |                                                      |
+| R3  | 1MΩ          |                                                      |
+| R4  | 120kΩ        |                                                      |
+| R5  | 1kΩ          |                                                      |
+| R6  | 10kΩ         |                                                      |
+| R7  | 51Ω          |                                                      |
+| C1  | 221  - 220pF |                                                      |
+| C2  | 4.7µF        |                                                      |
+| C3  | 473 - 47nF   |                                                      |
+| VD1 | 1N4148       |                                                      |
+| LED1| 5mm Red LED  |                                                      |
+| LED2| 7-segment    | 5161AH                                               |
+| U1  | CD4511       |                                                      |
+| VT1 | 9014 NPN     |                                                      |
+| VT2 | 9014 NPN     |                                                      |
+|     | 4-pin header | for probe input                                      |
+|     | 2 wires      | for power - unused, I replaced with XH2.54 connector |
 
 ## Principle of Operation
 

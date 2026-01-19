@@ -1,8 +1,8 @@
-# #566 4-bit Synchonous Counter
+# #566 4-bit Synchronous Counter
 
 An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear.
 
-![Build](./assets/4bitSynchonousCounter_build.jpg?raw=true)
+![Build](./assets/4bitSynchronousCounter_build.jpg?raw=true)
 
 Here's a quick demo..
 
@@ -30,11 +30,11 @@ These are all the controls needed to implement a 4-bit address program counter.
 
 ### About the 74LS161
 
-![74LS161](./assets/74LS161.jpg?raw=true)
+![74LS161](../../74LS161/assets/74LS161-pinout.jpg)
 
 ### About the 74LS245
 
-![74LS245](./assets/74LS245.jpg?raw=true)
+![74LS245](../../74ls245/assets/74LS245-pinout.jpg)
 
 ## Construction
 
@@ -44,9 +44,9 @@ In the basic basic circuit:
 * the bus (transceiver output) is not connected to anything externally, just feeds back as the P0-P3 connections for the counter
 * only half the transceiver is used. How the counter output is mapped to the transceiver outputs is an arbitrary and application specific convention
 
-![Breadboard](./assets/4bitSynchonousCounter_bb.jpg?raw=true)
+![Breadboard](./assets/4bitSynchronousCounter_bb.jpg?raw=true)
 
-![Schematic](./assets/4bitSynchonousCounter_schematic.jpg?raw=true)
+![Schematic](./assets/4bitSynchronousCounter_schematic.jpg?raw=true)
 
 For the actual build on the breadboard, I extended the circuit to make it manually testable:
 
@@ -55,7 +55,7 @@ For the actual build on the breadboard, I extended the circuit to make it manual
 * LEDs with current limiting resistor are connected to the transciever output
 * the clock input is replaced with the [LEAP#565 Single-Shot Trigger](../../BreadboardBling/SingleShotTrigger) so that clock pulses can be reliably manually generated
 
-![4bitSynchonousCounter_bb_build](./assets/4bitSynchonousCounter_bb_build.jpg?raw=true)
+![4bitSynchronousCounter_bb_build](./assets/4bitSynchronousCounter_bb_build.jpg?raw=true)
 
 ## Credits and References
 

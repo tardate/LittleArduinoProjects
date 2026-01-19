@@ -1,5 +1,25 @@
 [
     {
+        "name": "74LS47 7-segment LED Full Cycle",
+        "description": "Demonstrating the 74LS47 7-segment common-anode LED driver with a simple 4-bit binary counter sequence.",
+        "categories": "CMOS/TTL, 74LS47, 74LS161",
+        "relative_path": "electronics101/74ls47/fullcycle",
+        "updated_at": "2026-01-19T08:23:00Z",
+        "created_at": "2026-01-19T08:23:00Z",
+        "id": "#820",
+        "original_relative_path": "Electronics101/74LS47/FullCycle"
+    },
+    {
+        "name": "74LS161 Binary Counter",
+        "description": "About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with a simple counter demonstration.",
+        "categories": "CMOS/TTL, 74LS161",
+        "relative_path": "electronics101/74ls161/binarycounter",
+        "updated_at": "2026-01-19T05:21:00Z",
+        "created_at": "2026-01-19T05:21:00Z",
+        "id": "#819",
+        "original_relative_path": "Electronics101/74LS161/BinaryCounter"
+    },
+    {
         "name": "CHA-81 LED Matrix Soldering Kit",
         "description": "Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!",
         "categories": "LED, Kit, 555 Timer, CD4017",
@@ -2063,7 +2083,7 @@
         "id": "#612",
         "name": "Hi-Lo Logic Tester Kit",
         "description": "Building a neat little hi/low logic indicator kit using a CD4511 and a few passives; also fixing a circuit bug that prevents the power indicator from working.",
-        "categories": "CMOS/TTL, Digital Logic, Kit",
+        "categories": "CMOS/TTL, Digital Logic, Kit, CD4511",
         "relative_path": "equipment/hilologictesterkit",
         "updated_at": "2021-12-03T18:18:39Z",
         "created_at": "2021-12-03T18:18:39Z",
@@ -2521,13 +2541,13 @@
     },
     {
         "id": "#566",
-        "name": "4-bit Synchonous Counter",
+        "name": "4-bit Synchronous Counter",
         "description": "An example 4-bit synchronous counter with tri-state output, and controls for: count enable, output enable, number load, and clear",
         "categories": "74LS161, 74LS245, Digital Logic, CMOS/TTL",
-        "relative_path": "electronics101/digitallogic/4bitsynchonouscounter",
+        "relative_path": "electronics101/digitallogic/4bitsynchronouscounter",
         "updated_at": "2020-09-20T09:59:32Z",
         "created_at": "2020-09-20T09:59:32Z",
-        "original_relative_path": "Electronics101/DigitalLogic/4bitSynchonousCounter"
+        "original_relative_path": "Electronics101/DigitalLogic/4bitSynchronousCounter"
     },
     {
         "id": "#565",
@@ -3043,7 +3063,7 @@
         "id": "#514",
         "name": "Subtraction Loop Counter Kit",
         "description": "Investigating a single-digit counter with configurable range and frequency built with 74HC192, CD4011 and CD4511 logic",
-        "categories": "CMOS/TTL, Kit",
+        "categories": "CMOS/TTL, Kit, CD4011, 74HC192, CD4511",
         "relative_path": "electronics101/subtractionloopcounterkit",
         "updated_at": "2019-12-05T04:03:54Z",
         "created_at": "2019-12-05T04:03:54Z",

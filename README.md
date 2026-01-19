@@ -1,6 +1,6 @@
-# 818 Little Electronic Art Projects
+# 820 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CHA-81 LED Matrix Soldering Kit](./Electronics101/LED/CHA81Kit) - Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of operation. A simple design that offers endless hours of fiddling!
+> Latest addition :sparkles: [74LS47 7-segment LED Full Cycle](./Electronics101/74LS47/FullCycle) - Demonstrating the 74LS47 7-segment common-anode LED driver with a simple 4-bit binary counter sequence.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

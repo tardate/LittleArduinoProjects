@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://leap.tardate.com/electronics101/74ls47/fullcycle/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/electronics101/74ls161/binarycounter/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/electronics101/led/cha81kit/</loc>
   </url>
   <url>
@@ -757,7 +763,7 @@
     <loc>https://leap.tardate.com/radio/randomcodepractice/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/digitallogic/4bitsynchonouscounter/</loc>
+    <loc>https://leap.tardate.com/electronics101/digitallogic/4bitsynchronouscounter/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/breadboardbling/singleshottrigger/</loc>

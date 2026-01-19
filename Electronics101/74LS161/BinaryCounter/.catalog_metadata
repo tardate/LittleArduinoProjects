@@ -1,0 +1,9 @@
+{
+    "name": "74LS161 Binary Counter",
+    "description": "About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with a simple counter demonstration.",
+    "categories": "CMOS/TTL, 74LS161",
+    "relative_path": "Electronics101/74LS161/BinaryCounter",
+    "updated_at": "2026-01-19T05:21:00Z",
+    "created_at": "2026-01-19T05:21:00Z",
+    "id": "#819"
+}
