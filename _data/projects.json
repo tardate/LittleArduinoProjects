@@ -1402,7 +1402,9 @@
         "title": "MC34063 Buck Converter",
         "summary": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
         "tags": [
-            "Power"
+            "Power",
+            "SMPS",
+            "MC34063"
         ]
     },
     "/books/build-your-own-transistor-radios/": {
@@ -1624,7 +1626,8 @@
         "summary": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "MT3608"
         ]
     },
     "/books/electronics-cookbook/": {
@@ -2301,7 +2304,8 @@
         "summary": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "MT3608"
         ]
     },
     "/playground/power/multivoltagegpio/": {
@@ -4326,10 +4330,12 @@
     "/electronics101/power/switchmodepowersupplies/mc34063/modulekit/": {
         "id": 358,
         "title": "MC34063 Boost Converter Kit",
-        "summary": "build and test an MC34063-based boost converter",
+        "summary": "Build and test an MC34063-based boost converter kit",
         "tags": [
             "Power",
-            "Kit"
+            "Kit",
+            "SMPS",
+            "MC34063"
         ]
     },
     "/boldportclub/themonarch/": {
@@ -4741,7 +4747,8 @@
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "MT3608"
         ]
     },
     "/playground/eeprom/at28c16/peprogrammer/": {
@@ -5010,7 +5017,8 @@
         "tags": [
             "Power",
             "ATtiny",
-            "Arduino"
+            "Arduino",
+            "SMPS"
         ]
     },
     "/electronics101/ultrasonicalarm/": {
@@ -5729,7 +5737,8 @@
         "summary": "a simple buck converter circuit from first principles",
         "tags": [
             "Power",
-            "Arduino"
+            "Arduino",
+            "SMPS"
         ]
     },
     "/oshchip/ledx16module/": {
@@ -5783,7 +5792,8 @@
         "title": "Buck Converter Modules",
         "summary": "Testing a range of low-cost buck converter modules, often using LM2596",
         "tags": [
-            "Power"
+            "Power",
+            "SMPS"
         ]
     },
     "/audio/audioamps/tda7297kit/": {
@@ -6245,10 +6255,13 @@
     },
     "/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/": {
         "id": 162,
-        "title": "Boost-Buck Converter Module",
-        "summary": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
+        "title": "LM2577S/LM2596S Boost/Buck Converter Module",
+        "summary": "A quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
         "tags": [
-            "Power"
+            "Power",
+            "LM2577S",
+            "LM2596S",
+            "SMPS"
         ]
     },
     "/electronics101/ml741/noninvertingamplifier/": {

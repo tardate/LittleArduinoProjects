@@ -15,7 +15,9 @@ Four so far:
 
 ### Module 1 - LM2596S 2.6-30V Buck Module
 
-The example I'm using is similar to this [seller listing](https://www.aliexpress.com/item/1PCS-NEW-LM2596-DC-DC-adjustable-power-step-down-module/32276206956.html). Typical price USD$0.93 with free shipping.
+The example I'm using is
+["1PCS NEW LM2596 DC-DC adjustable power step-down module" (aliexpress seller listing)](https://www.aliexpress.com/item/32276206956.html)
+originally purchased for US$0.93 (Oct-2015).
 
 ![module_1](./assets/module_1.jpg?raw=true)
 
@@ -47,7 +49,9 @@ It also behaves more like an LM2576:
 
 ### Module 2 - LM2596S 1.23V-30V Buck Module
 
-The example I'm using is similar to this  [seller listing](https://www.aliexpress.com/item/5PCS-DC-DC-Buck-Converter-Step-Down-Module-LM2596-Power-Supply-Output-1-23V-30V/2013251353.html?spm=2114.01010208.3.22.tfzVTK&ws_ab_test=searchweb201556_0,searchweb201602_3_10037_10017_10034_10021_507_10033_10022_10032_10020_10018_10019,searchweb201603_1&btsid=b6cc6379-547e-4d9c-8217-6a28b26787fb). Typical price USD$0.79 with free shipping.
+The example I'm using is the
+["Power Output 1.23V-30V DC-DC Buck Converter Step Down Module LM2596 Best Selling" (aliexpress seller listing)](https://www.aliexpress.com/item/32263989083.html)
+originally purchased for US$0.79 (OCt-2015).
 
 ![module_2](./assets/module_2.jpg?raw=true)
 
@@ -77,14 +81,16 @@ Performance is pretty good, but this does not appear to be a genuine LM2596S-ADJ
 
 ### Module 3 - XL4015 1.25V-36V Buck Module
 
-The example I'm using is similar to this [seller listing](https://www.aliexpress.com/item/5A-High-power-75W-DC-DC-adjustable-step-down-module-LED-Can-be-calibrated-voltmeter-Power/32411291600.html). Typical price USD$2.68 with free shipping.
+The example I'm using is
+["5A 75W XL4015 DC-DC Converter Adjustable Step-Down Module 4.0-38V to 1.25V-36V DIY Adjustable Power Supply Free Shipping" (aliexpress seller listing)](https://www.aliexpress.com/item/32411291600.html)
+originally purchased for US$2.80 (May-2016).
 
 ![module_3](./assets/module_3.jpg?raw=true)
 
 Board comprises:
 
 * XL4015E5 with toroidal inductor and capacitors as per datasheet recommendations
-* digital voltmeter with pushbuttons to switch display on/off and select input/output voltage for display
+* digital voltmeter with push-buttons to switch display on/off and select input/output voltage for display
 
 Performance: up with the best. There's no scope capture below because despite my best attempts, the output voltage remained flat as a board (no detectable ripples or spikes .. just the normal noise floor)
 
@@ -92,7 +98,9 @@ Performance: up with the best. There's no scope capture below because despite my
 
 ### Module 4 - MP2307DN 1.0V-17V Buck Module
 
-The example I'm using is similar to this [seller listing](https://www.aliexpress.com/item/Mini-360-DC-DC-Buck-Converter-Step-Down-Module-4-75-23V-to-1-17V-for/32436860547.html). Typical price USD$0.51 (USD$5.06 for 10) with free shipping.
+The example I'm using is
+["10pcs Mini-360 DC-DC Buck Converter Step Down Module 4.75-23V to 1-17V For Arduino 340KHz" (aliexpress seller listing)](https://www.aliexpress.com/item/32436860547.html)
+originally purchased a a lot of 10 for US$5.03/lot (May-2016).
 
 ![module_4](./assets/module_4.jpg?raw=true)
 
@@ -122,8 +130,6 @@ and two blue LEDs in parallel with the load. The LEDs have a forward voltage Vf 
 * [LM2576 datasheet](http://www.ti.com/lit/ds/symlink/lm2576.pdf)
 * [XL4015 datasheet](http://i-makers.info/resource/XL4015%20datasheet.pdf)
 * [XL4015 DEMO board manual](http://www.xlsemi.com/demo/XL4015%20DEMO%20board%20manual.pdf) - xlsemi
-
-# [MP2307 datasheet](https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf)
-
+* [MP2307 datasheet](https://cdn-shop.adafruit.com/datasheets/MP2307_r1.9.pdf)
 * [App note: Diode turn-on time induced failures in switching regulators](http://dangerousprototypes.com/2013/01/05/diode-turn-on-time-induced-failures-in-switching-regulators/)
 * [..as mentioned on my blog](https://blog.tardate.com/2016/07/littlearduinoprojects211-buck-converter.html)

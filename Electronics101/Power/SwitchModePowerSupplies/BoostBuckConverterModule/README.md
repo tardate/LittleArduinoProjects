@@ -1,16 +1,19 @@
-# #162 BoostBuckConverterModule
+# #162 LM2577S/LM2596S Boost/Buck Converter Module
 
-Quick test of an LM2577S/LM2596S Boost/Buck Converter Module
+A quick test of an LM2577S/LM2596S Boost/Buck Converter Module.
+
+![BoostBuckConverterModule_build](./assets/BoostBuckConverterModule_build.jpg?raw=true)
 
 Here's a quick video demonstrating the basic control and the constant current issue:
 
 [![BoostBuckConverterModule](https://img.youtube.com/vi/vBijc1ZJEZM/0.jpg)](https://www.youtube.com/watch?v=vBijc1ZJEZM)
 
-
 ## Notes
 
-I got an [LM2577S/LM2596S Boost/Buck Converter Module](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
-to see if it might be any good as a current-limited power supply for prototyping,
+I purchased the
+["New Arrive LM2577S LM2596S DC-DC Step Up Down Boost Buck Voltage Power Converter Module" (aliexpress seller listing)](https://www.aliexpress.com/item/32358637220.html)
+for US$3.07 (Oct-2015).
+I wanted to see if it might be any good as a current-limited power supply for prototyping,
 and also to investigate the buck/boost circuit it uses in more detail.
 
 It has a handy output voltage range of 1.25-25V and constant current limiting between 0-2A.
@@ -48,9 +51,9 @@ But then why use a power supply with a "constant current" feature? Good question
 I don't have enough experience with buck/boost modules to know if this is unusual or even just a problem with my specific unit.
 Or perhaps I'm just doing it wrong?
 
-I posted [this video](https://www.youtube.com/watch?v=vBijc1ZJEZM) to demonstrates the behaviour.
+I posted [this video](https://www.youtube.com/watch?v=vBijc1ZJEZM) to demonstrate the behaviour.
 
-The PCB is too dense and multi-layed for me to easily trace it out to see if there is an understandable design flaw.
+The PCB is too dense and multi-layered for me to easily trace it out to see if there is an understandable design flaw.
 I might see if I can find some similar modules to compare their behaviour.
 I'm also contacting the seller to see if they can tell me more.
 
@@ -75,11 +78,12 @@ Ready for powering some experiments:
 
 ### Product Specs
 
-> from [aliexpress listing](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
+Per seller listing...
 
 Module Properties: non-isolated step-down constant current, constant voltage module (CC CV) charging module
 
 Specifications:
+
 * Input Voltage :4-35V
 * Output voltage: Continuously adjustable(1.25-25V unload adjust)
 * Output current: 3A Max(If more than 15W, please install the heat sink)
@@ -97,11 +101,12 @@ Specifications:
 * Output: OUT+ output is positive, OUT- output negative
 * Module Size: 50 x 37 x 13mm
 * Some application:
-  - High-power LED constant current driver
-  - Lithium batteries (including ferroelectric), 4V, 6V, 12V, 14V, 24V battery charging, nickel-cadmium nickel-metal hydride batteries (battery) charge.
-  - Solar panels, wind generator voltage regulator circuit board power supply, such as automatic buck regulator circuit.
+    * High-power LED constant current driver
+    * Lithium batteries (including ferroelectric), 4V, 6V, 12V, 14V, 24V battery charging, nickel-cadmium nickel-metal hydride batteries (battery) charge.
+    * Solar panels, wind generator voltage regulator circuit board power supply, such as automatic buck regulator circuit.
 
 #### Application: Battery charging
+
 * Make sure of the voltage and current of the battery you need to charge
 * Adjust the constant voltage potentiometer to make sure the output Voltage is about 5V(about).
 * Use the multimeter in 10A current scale to measure output short-circuit current, and adjust the current potentiometer to make sure the output current to the expected charging current value
@@ -109,17 +114,21 @@ Specifications:
 * Adjust the constant voltage potentiometer to make sure the output Voltage is up to floating Voltage.
 * Connected to the battery and try to charging (for previous 5 steps, module input terminal is connected to power source, output load is NOT connected to batteries).
 
-#### Application: LED Constant Current Driver Use:
+#### Application: LED Constant Current Driver Use
+
 * Make sure operating current and Max operating Voltage of the LED you need to drive.
 * Adjust the constant voltage potentiometer to make sure the output Voltage is 5V(about).
 * Use the multimeter in 10A current scale to measure output short-circuit current, and adjust the current potentiometer. To make sure the output current to the expected LED operating current.
 * Adjust the constant voltage potentiometer to make sure the output Voltage is up to LED Max operating Voltage.
 * Join LED, test (For the above 3 steps, module input terminal is connected to power source, output load is NOT connected to LED)
 
-
 ## Credits and References
 
-* [module from seller on aliexpress](https://www.aliexpress.com/item/New-Arrive-LM2577S-LM2596S-DC-DC-Step-Up-Down-Boost-Buck-Voltage-Power-Converter-Module/32358637220.html)
+* ["New Arrive LM2577S LM2596S DC-DC Step Up Down Boost Buck Voltage Power Converter Module" (aliexpress seller listing)](https://www.aliexpress.com/item/32358637220.html)
+    * purchased for US $3.07 (Oct-2015), no loner available from this seller
+* ["LM2577S LM2596S XL6009 DC Adjustable Step Up Down Boost Buck CC CV Voltage Converter Module LED Driver Power Supply Voltage Reg" (aliexpress seller listing)](https://www.aliexpress.com/item/1005002667619541.html)
+    * same product from another seller
+    * currently listed for SG$3.88 (Jan-2026)
 * [LM2577 product info](http://www.ti.com/product/lm2577)
 * [LM2596 product info](http://www.ti.com/product/lm2596)
 * [Build your own Variable Lab Bench Power Supply](https://youtu.be/wI-KYRdmx-E) - inspiration from GreatScott!

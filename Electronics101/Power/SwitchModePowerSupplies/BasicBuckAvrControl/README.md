@@ -58,7 +58,7 @@ The circuit is switched using a high-side p-channel MOSFET (IRF9540N). The FET s
 With 9V supply (source), there for the gate voltage needs to swing above 7V and below 5V for hard off and on.
 
 Since these voltages are outside what Arduino GPIO pins can handle -
-see [Method #3: Apply Overvoltage to I/O Pins](http://www.rugged-circuits.com/10-ways-to-destroy-an-arduino/) for what happens if you do -
+see [Method #3: Apply Over-voltage to I/O Pins](http://www.rugged-circuits.com/10-ways-to-destroy-an-arduino/) for what happens if you do -
 an intermediate switching stage is required.
 
 Although not the most efficient, I'm using a 2N3904 NPN transistor for this. The PWM output switches the 2N3904 in a 5V range,
@@ -166,12 +166,12 @@ It is a significant variation, but I believe it is primarily due to non-ideal co
 
 Conclusion?
 
-* idealised theory can predict basic behaviour, but in order to calculate actual real-world performance it is essential to accomodate non-ideal component characteristics
-* ltspice simulation is actually very good for predicting real-worl performance
+* idealised theory can predict basic behaviour, but in order to calculate actual real-world performance it is essential to accommodate non-ideal component characteristics
+* ltspice simulation is actually very good for predicting real-world performance
 
 ### Next Steps / Improvements
 
-* High duty cycles will cause an initial undamped overvoltage spike. This can be avoided by gradually ramping up the duty cycle.
+* High duty cycles will cause an initial undamped over-voltage spike. This can be avoided by gradually ramping up the duty cycle.
 
 * Add feedback control
 
@@ -195,7 +195,7 @@ Conclusion?
 * [PwmFrequency](http://playground.arduino.cc/Code/PwmFrequency)
 * [analogRead()](https://www.arduino.cc/en/Reference/AnalogRead)
 * [analogWrite()](https://www.arduino.cc/en/Reference/AnalogWrite)
-* [Method #3: Apply Overvoltage to I/O Pins](http://www.rugged-circuits.com/10-ways-to-destroy-an-arduino/)
+* [Method #3: Apply Over-voltage to I/O Pins](http://www.rugged-circuits.com/10-ways-to-destroy-an-arduino/)
 * [Driving motors, lights, etc. from an Arduino output pin - Switching higher voltages](http://www.gammon.com.au/forum/?id=12737&reply=1#reply1)
 * [Secrets of Arduino PWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
 * [Changing the Arduino PWM Frequency](https://softsolder.com/2009/02/21/changing-the-arduino-pwm-frequency/)
