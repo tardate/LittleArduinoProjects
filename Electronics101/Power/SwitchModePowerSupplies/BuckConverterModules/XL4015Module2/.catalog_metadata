@@ -1,0 +1,9 @@
+{
+    "id": "#825",
+    "name": "XL4015 0.8-30V CC/CV Buck Converter with Display",
+    "description": "Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.",
+    "categories": "Power, SMPS, XL4015",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/XL4015Module2",
+    "updated_at": "2026-01-21T09:20:00Z",
+    "created_at": "2026-01-21T09:20:00Z"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "#824",
+    "name": "MP2307DN 1.0V-17V Buck Module",
+    "description": "A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.",
+    "categories": "Power, SMPS, MP2307",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/MP2307Module1",
+    "updated_at": "2026-01-21T09:20:00Z",
+    "created_at": "2026-01-21T09:20:00Z"
+}

@@ -1,5 +1,55 @@
 [
     {
+        "id": "#825",
+        "name": "XL4015 0.8-30V CC/CV Buck Converter with Display",
+        "description": "Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.",
+        "categories": "Power, SMPS, XL4015",
+        "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2",
+        "updated_at": "2026-01-21T09:20:00Z",
+        "created_at": "2026-01-21T09:20:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/XL4015Module2"
+    },
+    {
+        "id": "#824",
+        "name": "MP2307DN 1.0V-17V Buck Module",
+        "description": "A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.",
+        "categories": "Power, SMPS, MP2307",
+        "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1",
+        "updated_at": "2026-01-21T09:20:00Z",
+        "created_at": "2026-01-21T09:20:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/MP2307Module1"
+    },
+    {
+        "id": "#823",
+        "name": "XL4015 1.25V-36V Buck Module",
+        "description": "An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.",
+        "categories": "Power, SMPS, XL4015",
+        "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1",
+        "updated_at": "2026-01-21T09:20:00Z",
+        "created_at": "2026-01-21T09:20:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/XL4015Module1"
+    },
+    {
+        "id": "#822",
+        "name": "LM2596S 1.23V-30V Buck Module",
+        "description": "Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
+        "categories": "Power, SMPS, LM2596",
+        "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2",
+        "updated_at": "2026-01-21T09:20:00Z",
+        "created_at": "2026-01-21T09:20:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/LM2596SModule2"
+    },
+    {
+        "id": "#821",
+        "name": "LM2596S 2.6-30V Buck Module",
+        "description": "A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
+        "categories": "Power, SMPS, LM2596",
+        "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1",
+        "updated_at": "2026-01-21T09:20:00Z",
+        "created_at": "2026-01-21T09:20:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/LM2596SModule1"
+    },
+    {
         "name": "74LS47 7-segment LED Full Cycle",
         "description": "Demonstrating the 74LS47 7-segment common-anode LED driver with a simple 4-bit binary counter sequence.",
         "categories": "CMOS/TTL, 74LS47, 74LS161",
@@ -6092,7 +6142,7 @@
     {
         "id": "#211",
         "name": "Buck Converter Modules",
-        "description": "Testing a range of low-cost buck converter modules, often using LM2596",
+        "description": "Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.",
         "categories": "Power, SMPS",
         "relative_path": "electronics101/power/switchmodepowersupplies/buckconvertermodules",
         "updated_at": "2016-06-23T14:13:43Z",

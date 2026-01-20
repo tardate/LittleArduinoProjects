@@ -137,6 +137,7 @@
     "LiFi",
     "Lighting",
     "LM2577S",
+    "LM2596",
     "LM2596S",
     "LM317",
     "LM324",
@@ -168,6 +169,7 @@
     "Mixers",
     "MOSFET",
     "Motors",
+    "MP2307",
     "MPR121",
     "MPU-6050",
     "MQTT",
@@ -260,6 +262,7 @@
     "Voltage Reference",
     "WebServer",
     "Wireless",
+    "XL4015",
     "XR2206",
     "Zener"
 ]
