@@ -22,7 +22,11 @@ I know there's a whole other level of more "professional" irons and soldering st
 
 ### Current Iron: GJ 907
 
-[GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron Soldering Station +5pcs tip 220V60W](https://www.aliexpress.com/item/1998306095.html)
+I'm currently using the
+["GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron Soldering Station +5pcs tip 220V60W" (aliexpress seller listing)](https://www.aliexpress.com/item/1998306095.html), purchased for US$13.10 (Dec-2016), but no longer offered by this seller.
+
+NB: A similar product, currently listed for SG$9.27 (Jan-2026) is the
+["907 Electric Soldering Iron Set Adjustable Temperature Ceramic Core Heating Portable Home Welding Solder Repair Tools" (aliexpress seller listing)](https://www.aliexpress.com/item/1005004337331605.html).
 
 ![GJ907_pack](./assets/GJ907_pack.jpg)
 
@@ -30,12 +34,15 @@ I know there's a whole other level of more "professional" irons and soldering st
 
 ### Previous Iron: GJ 907 until it blew up one day
 
+Previously I was using a
+["EU Plug GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron+5pcs tip 220V60W Free shipping" (aliexpress seller listing)](https://www.aliexpress.com/item/1998306095.html), originally purchased for US$15.95 (Apr-2015).
+
 So one day I was soldering with my first GJ 907 and it made a loud pop!
 It seems a current surge stripped one of the PCB traces off the board.
 
 Exactly why or how this occurred I never quite diagnosed. I traced the schematic (below).
 
-I go another GJ 907 for comparison purposes, and I've been using that ever since without issue.
+I purchased another "GJ 907" for comparison purposes, and I've been using that ever since without issue.
 
 ![GJ907_iron_arc](./assets/GJ907_iron_arc.jpg)
 ![GJ907_iron_arc2](./assets/GJ907_iron_arc2.jpg)
@@ -58,7 +65,12 @@ The Newstar 30W iron is not adjustable, and I found this made it very prone to e
 
 ## Credits and References
 
-* [GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron Soldering Station +5pcs tip 220V60W](https://www.aliexpress.com/item/1998306095.html)
-* [Saike 909D 3-in-1 hot air rework station](../Saike909D/)
+* ["EU Plug GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron+5pcs tip 220V60W Free shipping" (aliexpress seller listing)](https://www.aliexpress.com/item/1998306095.html)
+    * Originally purchased for US$15.95 (Apr-2015). No longer offered by this seller.
+* ["GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron Soldering Station +5pcs tip 220V60W" (aliexpress seller listing)](https://www.aliexpress.com/item/1998306095.html)
+    * Originally purchased for US$13.10 (Dec-2016). No longer offered by this seller.
+* ["907 Electric Soldering Iron Set Adjustable Temperature Ceramic Core Heating Portable Home Welding Solder Repair Tools" (aliexpress seller listing)](https://www.aliexpress.com/item/1005004337331605.html)
+    * similar product, currently listed for SG$9.27 (Jan-2026)
+* [LEAP#272 Saike 909D 3-in-1 hot air rework station](../Saike909D/)
 * [MAC97A8 datasheet](http://parts.io/detail/11636418/MAC97A8)
 * [HA17358 datasheet](http://parts.io/detail/4994146/HA17358)
