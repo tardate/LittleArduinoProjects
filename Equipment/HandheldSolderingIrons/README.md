@@ -25,6 +25,9 @@ I know there's a whole other level of more "professional" irons and soldering st
 I'm currently using the
 ["GJ 907 Adjustable constant temperature Lead-free Internal heating electric soldering iron Soldering Station +5pcs tip 220V60W" (aliexpress seller listing)](https://www.aliexpress.com/item/1998306095.html), purchased for US$13.10 (Dec-2016), but no longer offered by this seller.
 
+NB: A similar product, currently listed for SG$9.27 (Jan-2026) is the
+["907 Electric Soldering Iron Set Adjustable Temperature Ceramic Core Heating Portable Home Welding Solder Repair Tools" (aliexpress seller listing)](https://www.aliexpress.com/item/1005004337331605.html).
+
 ![GJ907_pack](./assets/GJ907_pack.jpg)
 
 ![GJ907_parts](./assets/GJ907_parts.jpg)
