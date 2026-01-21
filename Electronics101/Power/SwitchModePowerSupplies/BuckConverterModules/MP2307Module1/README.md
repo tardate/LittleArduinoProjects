@@ -1,4 +1,4 @@
-# #824 MP2307DN 1.0V-17V Buck Module
+# #824 MP2307DN 1.0V-17V Mini Buck Converter Module
 
 A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.
 

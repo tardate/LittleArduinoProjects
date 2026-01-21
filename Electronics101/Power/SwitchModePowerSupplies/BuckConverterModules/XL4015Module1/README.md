@@ -1,4 +1,4 @@
-# #823 XL4015 1.25V-36V Buck Module
+# #823 XL4015 1.25V-36V Buck Converter Module with Voltage Display
 
 An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.
 

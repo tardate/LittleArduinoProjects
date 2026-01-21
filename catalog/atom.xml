@@ -18,7 +18,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/assets/xl4015module2_build.jpg</g:image_link>
     <updated>2026-01-21T09:20:00Z</updated>
-    <title>#825 XL4015 0.8-30V CC/CV Buck Converter with Display</title>
+    <title>#825 XL4015 0.8-30V CC/CV Buck Converter with Dual Display</title>
     <summary>Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/assets/xl4015module2_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -30,7 +30,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/assets/mp2307module1_build.jpg</g:image_link>
     <updated>2026-01-21T09:20:00Z</updated>
-    <title>#824 MP2307DN 1.0V-17V Buck Module</title>
+    <title>#824 MP2307DN 1.0V-17V Mini Buck Converter Module</title>
     <summary>A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/assets/mp2307module1_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -42,7 +42,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/assets/xl4015module1_build.jpg</g:image_link>
     <updated>2026-01-21T09:20:00Z</updated>
-    <title>#823 XL4015 1.25V-36V Buck Module</title>
+    <title>#823 XL4015 1.25V-36V Buck Converter Module with Voltage Display</title>
     <summary>An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/assets/xl4015module1_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -54,7 +54,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/assets/lm2596smodule2_build.jpg</g:image_link>
     <updated>2026-01-21T09:20:00Z</updated>
-    <title>#822 LM2596S 1.23V-30V Buck Module</title>
+    <title>#822 LM2596S 1.23V-30V Buck Converter Module</title>
     <summary>Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/assets/lm2596smodule2_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
@@ -66,7 +66,7 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/assets/lm2596smodule1_build.jpg</g:image_link>
     <updated>2026-01-21T09:20:00Z</updated>
-    <title>#821 LM2596S 2.6-30V Buck Module</title>
+    <title>#821 LM2596S 2.6-30V Buck Converter Module</title>
     <summary>A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/assets/lm2596smodule1_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>

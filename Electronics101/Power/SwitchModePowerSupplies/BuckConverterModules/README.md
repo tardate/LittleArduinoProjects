@@ -8,41 +8,41 @@ There are many super-cheap buck converter modules available.
 I have collated the notes on many devices I've tried here.
 See the individual project pages for each device for full details.
 
-### Module 1 - LM2596S 2.6-30V Buck Module
+### Module 1 - LM2596S 2.6-30V Buck Converter Module
 
-See [LEAP#821 LM2596S 2.6-30V Buck Module](./LM2596SModule1/).
+See [LEAP#821 LM2596S 2.6-30V Buck Converter Module](./LM2596SModule1/).
 
 A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.
 
 [![LM2596SModule1_build](./LM2596SModule1/assets/LM2596SModule1_build.jpg)](./LM2596SModule1/)
 
-### Module 2 - LM2596S 1.23V-30V Buck Module
+### Module 2 - LM2596S 1.23V-30V Buck Converter Module
 
-See [LEAP#822 LM2596S 1.23V-30V Buck Module](./LM2596SModule2/).
+See [LEAP#822 LM2596S 1.23V-30V Buck Converter Module](./LM2596SModule2/).
 
 Another LM2596S-based buck converter with adjustable-voltage control and slightly different components, operating at around 50kHz switching frequency.
 
 [![LM2596SModule2_build](./LM2596SModule2/assets/LM2596SModule2_build.jpg)](./LM2596SModule2/)
 
-### Module 3 - XL4015 1.25V-36V Buck Module
+### Module 3 - XL4015 1.25V-36V Buck Converter Module
 
-See [LEAP#823 XL4015 1.25V-36V Buck Module](./XL4015Module1/).
+See [LEAP#823 XL4015 1.25V-36V Buck Converter Module with Voltage Display](./XL4015Module1/).
 
 An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.
 
 [![XL4015Module1_build](./XL4015Module1/assets/XL4015Module1_build.jpg)](./XL4015Module1/)
 
-### Module 4 - MP2307DN 1.0V-17V Buck Module
+### Module 4 - MP2307DN 1.0V-17V Buck Converter Module
 
-See [LEAP#824 MP2307DN 1.0V-17V Buck Module](./MP2307Module1/).
+See [LEAP#824 MP2307DN 1.0V-17V Mini Buck Module](./MP2307Module1/).
 
 A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.
 
 [![MP2307Module1_build](./MP2307Module1/assets/MP2307Module1_build.jpg)](./MP2307Module1/)
 
-### Module 5 - XL4015 0.8-30V Buck Module
+### Module 5 - XL4015 0.8-30V Buck Converter Module
 
-See [LEAP#825 XL4015 0.8-30V CC/CV Buck Converter with Display](./XL4015Module2/).
+See [LEAP#825 XL4015 0.8-30V CC/CV Buck Converter with Dual Display](./XL4015Module2/).
 
 Features constant-current, constant-voltage control, LED display of both current and voltage, and a serial interface for remotely querying current and voltage.
 

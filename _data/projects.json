@@ -1,7 +1,7 @@
 {
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/": {
         "id": 825,
-        "title": "XL4015 0.8-30V CC/CV Buck Converter with Display",
+        "title": "XL4015 0.8-30V CC/CV Buck Converter with Dual Display",
         "summary": "Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.",
         "tags": [
             "Power",
@@ -11,7 +11,7 @@
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/": {
         "id": 824,
-        "title": "MP2307DN 1.0V-17V Buck Module",
+        "title": "MP2307DN 1.0V-17V Mini Buck Converter Module",
         "summary": "A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.",
         "tags": [
             "Power",
@@ -21,7 +21,7 @@
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/": {
         "id": 823,
-        "title": "XL4015 1.25V-36V Buck Module",
+        "title": "XL4015 1.25V-36V Buck Converter Module with Voltage Display",
         "summary": "An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.",
         "tags": [
             "Power",
@@ -31,7 +31,7 @@
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/": {
         "id": 822,
-        "title": "LM2596S 1.23V-30V Buck Module",
+        "title": "LM2596S 1.23V-30V Buck Converter Module",
         "summary": "Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
         "tags": [
             "Power",
@@ -41,7 +41,7 @@
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/": {
         "id": 821,
-        "title": "LM2596S 2.6-30V Buck Module",
+        "title": "LM2596S 2.6-30V Buck Converter Module",
         "summary": "A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
         "tags": [
             "Power",

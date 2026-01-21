@@ -1,6 +1,6 @@
 {
     "id": "#821",
-    "name": "LM2596S 2.6-30V Buck Module",
+    "name": "LM2596S 2.6-30V Buck Converter Module",
     "description": "A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
     "categories": "Power, SMPS, LM2596",
     "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/LM2596SModule1",

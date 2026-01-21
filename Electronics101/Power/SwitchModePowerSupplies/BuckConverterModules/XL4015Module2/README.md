@@ -1,4 +1,4 @@
-# #825 XL4015 0.8-30V CC/CV Buck Converter with Display
+# #825 XL4015 0.8-30V CC/CV Buck Converter with Dual Display
 
 Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.
 

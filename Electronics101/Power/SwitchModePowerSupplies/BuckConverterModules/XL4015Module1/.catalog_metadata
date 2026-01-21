@@ -1,6 +1,6 @@
 {
     "id": "#823",
-    "name": "XL4015 1.25V-36V Buck Module",
+    "name": "XL4015 1.25V-36V Buck Converter Module with Voltage Display",
     "description": "An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.",
     "categories": "Power, SMPS, XL4015",
     "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/XL4015Module1",

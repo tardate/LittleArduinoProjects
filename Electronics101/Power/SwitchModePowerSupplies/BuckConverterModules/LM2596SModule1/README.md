@@ -1,4 +1,4 @@
-# #821 LM2596S 2.6-30V Buck Module
+# #821 LM2596S 2.6-30V Buck Converter Module
 
 A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.
 
