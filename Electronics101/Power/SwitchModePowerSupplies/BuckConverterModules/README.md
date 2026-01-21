@@ -2,6 +2,8 @@
 
 Reviewing a range of low-cost buck converter switch-mode power supplies that can generally supply up to 30V.
 
+![BuckConverterModules_build](./assets/BuckConverterModules_build.jpg)
+
 ## Notes
 
 There are many super-cheap buck converter modules available.
