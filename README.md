@@ -1,6 +1,6 @@
-# 820 Little Electronic Art Projects
+# 825 Little Electronic Art Projects
 
-> Latest addition :sparkles: [74LS47 7-segment LED Full Cycle](./Electronics101/74LS47/FullCycle) - Demonstrating the 74LS47 7-segment common-anode LED driver with a simple 4-bit binary counter sequence.
+> Latest addition :sparkles: [XL4015 0.8-30V CC/CV Buck Converter with Dual Display](./Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/XL4015Module2) - Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

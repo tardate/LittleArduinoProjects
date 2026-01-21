@@ -107,12 +107,12 @@ Result:  R2 = [6kΩ](https://www.wolframalpha.com/input?i=2k%CE%A9+*+%285%2F1.25
 
 Finally, selecting available components close to the theoretical:
 
-| Ref  | Design Value (Ideal) | Selected |
-|------|----------------------|----------|
-| Co   | 35.94μF              | 47μF     |
-| L1   | 42.5μH               | 47μH     |
-| R1   | 2kΩ                  | 2kΩ      |
-| R2   | 6kΩ                  | 6.8kΩ    |
+| Ref  | Design Value (Ideal) | Selected                                                              |
+|------|----------------------|-----------------------------------------------------------------------|
+| Co   | 35.94μF              | 47μF                                                                  |
+| L1   | 42.5μH               | 47μH                                                                  |
+| R1   | 2kΩ                  | 2kΩ                                                                   |
+| R2   | 6kΩ                  | 6.8kΩ                                                                 |
 | Vout | 5V                   | [5.5V](https://www.wolframalpha.com/input?i=1.25+%281+%2B+6.8%2F2%29) |
 
 ### Circuit Construction

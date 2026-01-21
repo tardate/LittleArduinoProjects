@@ -7,12 +7,73 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-19T08:23:00Z</updated>
+  <updated>2026-01-21T09:20:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/assets/xl4015module2_build.jpg</g:image_link>
+    <updated>2026-01-21T09:20:00Z</updated>
+    <title>#825 XL4015 0.8-30V CC/CV Buck Converter with Dual Display</title>
+    <summary>Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/assets/xl4015module2_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="XL4015"/>
+    <category term="python"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/assets/mp2307module1_build.jpg</g:image_link>
+    <updated>2026-01-21T09:20:00Z</updated>
+    <title>#824 MP2307DN 1.0V-17V Mini Buck Converter Module</title>
+    <summary>A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/assets/mp2307module1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="MP2307"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/assets/xl4015module1_build.jpg</g:image_link>
+    <updated>2026-01-21T09:20:00Z</updated>
+    <title>#823 XL4015 1.25V-36V Buck Converter Module with Voltage Display</title>
+    <summary>An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/assets/xl4015module1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="XL4015"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/assets/lm2596smodule2_build.jpg</g:image_link>
+    <updated>2026-01-21T09:20:00Z</updated>
+    <title>#822 LM2596S 1.23V-30V Buck Converter Module</title>
+    <summary>Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/assets/lm2596smodule2_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="LM2596"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/assets/lm2596smodule1_build.jpg</g:image_link>
+    <updated>2026-01-21T09:20:00Z</updated>
+    <title>#821 LM2596S 2.6-30V Buck Converter Module</title>
+    <summary>A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/assets/lm2596smodule1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="LM2596"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/74ls47/fullcycle/</id>
     <link href="https://leap.tardate.com/electronics101/74ls47/fullcycle/"/>
@@ -1726,6 +1787,8 @@
     <summary>Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/buckconverter/assets/buckconverter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="MC34063"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/build-your-own-transistor-radios/</id>
@@ -1998,6 +2061,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Configuring variable boost control with the MT3608 that is safe for all rated input voltages&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/safecontrol/assets/safecontrol_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+    <category term="MT3608"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/electronics-cookbook/</id>
@@ -2819,6 +2883,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/breadboarded/assets/breadboarded_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+    <category term="MT3608"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/power/multivoltagegpio/</id>
@@ -5267,10 +5332,12 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg</g:image_link>
     <updated>2022-11-07T15:38:54Z</updated>
     <title>#358 MC34063 Boost Converter Kit</title>
-    <summary>build and test an MC34063-based boost converter</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build and test an MC34063-based boost converter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Build and test an MC34063-based boost converter kit</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Build and test an MC34063-based boost converter kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mc34063/modulekit/assets/modulekit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Kit"/>
+    <category term="SMPS"/>
+    <category term="MC34063"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/themonarch/</id>
@@ -5769,6 +5836,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/mt3608/variableboost/assets/variableboost_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+    <category term="MT3608"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/eeprom/at28c16/peprogrammer/</id>
@@ -6092,6 +6160,7 @@
     <category term="Power"/>
     <category term="ATtiny"/>
     <category term="Arduino"/>
+    <category term="SMPS"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ultrasonicalarm/</id>
@@ -6953,6 +7022,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a simple buck converter circuit from first principles&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicbuckavrcontrol/assets/basicbuckavrcontrol_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Arduino"/>
+    <category term="SMPS"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/oshchip/ledx16module/</id>
@@ -7016,9 +7086,10 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg</g:image_link>
     <updated>2016-06-23T14:13:43Z</updated>
     <title>#211 Buck Converter Modules</title>
-    <summary>Testing a range of low-cost buck converter modules, often using LM2596</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Testing a range of low-cost buck converter modules, often using LM2596&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="SMPS"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/tda7297kit/</id>
@@ -7578,10 +7649,13 @@
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#162 Boost-Buck Converter Module</title>
-    <summary>quick test of an LM2577S/LM2596S Boost/Buck Converter Module</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;quick test of an LM2577S/LM2596S Boost/Buck Converter Module&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#162 LM2577S/LM2596S Boost/Buck Converter Module</title>
+    <summary>A quick test of an LM2577S/LM2596S Boost/Buck Converter Module</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick test of an LM2577S/LM2596S Boost/Buck Converter Module&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/assets/boostbuckconvertermodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="LM2577S"/>
+    <category term="LM2596S"/>
+    <category term="SMPS"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/noninvertingamplifier/</id>

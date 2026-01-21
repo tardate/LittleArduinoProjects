@@ -89,13 +89,13 @@ but I suspect this is mainly due to the low currents I am testing at.
 My component selection might be responsible for most of the losses: the forward voltage of the diode,
 and I'm not sure how well the electrolytic capacitors perform at 1.2MHz.
 
-| Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%) | Note         |
-|--------|--------|---------|---------|---------|----------|----------|---------------|--------------|
-| n/c    | 4.97   | 2.0     |         | 4.33    | 0mA      |          | n/a           | minimum Vout |
-| n/c    | 4.97   | 2.0     |         | 28.2    | 0mA      |          | n/a           | maximum Vout |
+| Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%)                                                                  | Note         |
+|--------|--------|---------|---------|---------|----------|----------|--------------------------------------------------------------------------------|--------------|
+| n/c    | 4.97   | 2.0     |         | 4.33    | 0mA      |          | n/a                                                                            | minimum Vout |
+| n/c    | 4.97   | 2.0     |         | 28.2    | 0mA      |          | n/a                                                                            | maximum Vout |
 | 10kΩ   | 4.97   | 2.4     | 11.9    | 4.30    | 0.43     | 1.85     | [15.5%](https://www.wolframalpha.com/input/?i=(4.3V*0.43mA)%2F(4.97V*2.4mA))   | minimum Vout |
 | 10kΩ   | 4.97   | 22.3    | 110.8   | 28.1    | 2.88     | 80.9     | [73%](https://www.wolframalpha.com/input/?i=(28.1V*2.88mA)%2F(4.97V*22.3mA))   | maximum Vout |
-| 10kΩ   | 4.96   | 4.5     | 22.3    | 12.11   | 1.23     | 14.9     | [66.7%](https://www.wolframalpha.com/input/?i=(12.11V*1.23mA)%2F(4.96V*4.5mA)) | |
+| 10kΩ   | 4.96   | 4.5     | 22.3    | 12.11   | 1.23     | 14.9     | [66.7%](https://www.wolframalpha.com/input/?i=(12.11V*1.23mA)%2F(4.96V*4.5mA)) |              |
 
 The module under test with `Vin=5V`, `Vout=12V` and a 10kΩ load.
 Most of the current is drawn to power the voltmeter I have attached on Vout:
@@ -110,20 +110,21 @@ and built a new board. Interestingly, results are approximately the same, althou
 The maximum voltage I'm getting (38.2V with a 10kΩ load) is way over spec - SW Voltage maximum is 30V.
 I still ran the test and everything seemed to survive the short over-voltage.
 
-| Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%) | Note         |
-|--------|--------|---------|---------|---------|----------|----------|---------------|--------------|
-| n/c    | 4.96   | 1.0     |         | 4.75    | 0        |          | n/a           | minimum Vout |
-| n/c    | 4.96   | 1.0     |         | 44.2    | 0        |          | n/a           | maximum Vout |
+| Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%)                                                                   | Note         |
+|--------|--------|---------|---------|---------|----------|----------|---------------------------------------------------------------------------------|--------------|
+| n/c    | 4.96   | 1.0     |         | 4.75    | 0        |          | n/a                                                                             | minimum Vout |
+| n/c    | 4.96   | 1.0     |         | 44.2    | 0        |          | n/a                                                                             | maximum Vout |
 | 10kΩ   | 4.96   | 2.75    | 13.6675 | 4.75    | 0.48     | 2.28     | [16.7%](https://www.wolframalpha.com/input/?i=(4.75V*0.48mA)%2F(4.97V*2.75mA))  | minimum Vout |
 | 10kΩ   | 4.96   | 41.6    | 206.752 | 38.2    | 3.94     | 150.508  | [72.8%](https://www.wolframalpha.com/input/?i=(38.2V*3.94mA)%2F(4.97V*41.6mA))  | maximum Vout |
-| 10kΩ   | 4.96   | 4.71    | 23.4087 | 12.16   | 1.24     | 15.0784  | [64.4%](https://www.wolframalpha.com/input/?i=(12.16V*1.24mA)%2F(4.97V*4.71mA)) | |
-| 50Ω    | 4.95   | 139.2   | 689.0   | 5.00    | 93.3     | 466.5    | [67.7%](https://www.wolframalpha.com/input/?i=(5.00V*93.3mA)%2F(4.95V*139.2mA)) | |
+| 10kΩ   | 4.96   | 4.71    | 23.4087 | 12.16   | 1.24     | 15.0784  | [64.4%](https://www.wolframalpha.com/input/?i=(12.16V*1.24mA)%2F(4.97V*4.71mA)) |              |
+| 50Ω    | 4.95   | 139.2   | 689.0   | 5.00    | 93.3     | 466.5    | [67.7%](https://www.wolframalpha.com/input/?i=(5.00V*93.3mA)%2F(4.95V*139.2mA)) |              |
 
 ## Performance - Commercial Module
 
-I compared the performance of a commercial
-[MT3608 module](https://www.aliexpress.com/item/MT3608-2A-Max-DC-DC-Step-Up-Power-Module-Booster-Power-Module-For-Arduino/32575664534.html)
-from a seller on aliexpress. The module has very similar parts selection to my DIY builds:
+I compared the performance of a commercial MT3608 module:
+["MT3608 2A Max DC-DC Step Up Power Module Booster Power Module" (aliexpress seller listing)](https://www.aliexpress.com/item/32653583398.html) originally purchased for US$0.38 (Nov-2016), but no longer offered by this seller (others are available).
+
+The module has very similar parts selection to my DIY builds:
 
 * 100kΩ pot and 2.2kΩ for the feedback voltage divider
 * SS34 SMD schottky diode
@@ -133,14 +134,14 @@ from a seller on aliexpress. The module has very similar parts selection to my D
 
 Performance is slightly better. This may be due to the layout which follows the guidelines in the datasheet very closely.
 
-| Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%) | Note         |
-|--------|--------|---------|---------|---------|----------|----------|---------------|--------------|
-| n/c    | 4.96   |         |         |         | 0        |          | n/a           | minimum Vout |
-| n/c    | 4.96   |         |         |         | 0        |          | n/a           | maximum Vout |
-| 10kΩ   | 4.96   | 1.27    | 6.3     | 4.81    | 0.489    | 2.352    | [37.3%](https://www.wolframalpha.com/input/?i=(4.81V*0.489mA)%2F(4.96V*1.27mA)) | minimum Vout |
-| 10kΩ   | 4.96   | 21.7    | 107.6   | 27.3    | 2.79     | 76.2     | [70.8](https://www.wolframalpha.com/input/?i=(27.3V*2.79mA)%2F(4.96V*21.7mA))   | maximum Vout |
-| 10kΩ   | 4.96   | 4.25    | 21.08   | 12.01   | 1.251    | 15.025   | [71.3%](https://www.wolframalpha.com/input/?i=(12.01V*1.251mA)%2F(4.96V*4.25mA)) | |
-| 50Ω    | 4.95   | 135.7   | 671.7   | 5.00    | 92.8     | 464      | [69.1%](https://www.wolframalpha.com/input/?i=(5.00V*92.8mA)%2F(4.95V*135.7mA))  | |
+| Load   | Vin(V) | Iin(mA) | Pin(mW) | Vout(V) | Iout(mA) | Pout(mW) | Efficiency(%)                                                                    | Note         |
+|--------|--------|---------|---------|---------|----------|----------|----------------------------------------------------------------------------------|--------------|
+| n/c    | 4.96   |         |         |         | 0        |          | n/a                                                                              | minimum Vout |
+| n/c    | 4.96   |         |         |         | 0        |          | n/a                                                                              | maximum Vout |
+| 10kΩ   | 4.96   | 1.27    | 6.3     | 4.81    | 0.489    | 2.352    | [37.3%](https://www.wolframalpha.com/input/?i=(4.81V*0.489mA)%2F(4.96V*1.27mA))  | minimum Vout |
+| 10kΩ   | 4.96   | 21.7    | 107.6   | 27.3    | 2.79     | 76.2     | [70.8](https://www.wolframalpha.com/input/?i=(27.3V*2.79mA)%2F(4.96V*21.7mA))    | maximum Vout |
+| 10kΩ   | 4.96   | 4.25    | 21.08   | 12.01   | 1.251    | 15.025   | [71.3%](https://www.wolframalpha.com/input/?i=(12.01V*1.251mA)%2F(4.96V*4.25mA)) |              |
+| 50Ω    | 4.95   | 135.7   | 671.7   | 5.00    | 92.8     | 464      | [69.1%](https://www.wolframalpha.com/input/?i=(5.00V*92.8mA)%2F(4.95V*135.7mA))  |              |
 
 ## Construction
 
@@ -179,5 +180,7 @@ Passives selection:
 * [MT3608 datasheet](https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf)
 * [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
 * [1N5819 Datasheet](https://www.futurlec.com/Diodes/1N5819.shtml)
-* [MT3608 module](https://www.aliexpress.com/item/MT3608-2A-Max-DC-DC-Step-Up-Power-Module-Booster-Power-Module-For-Arduino/32575664534.html) - from a seller on aliexpress
+* ["MT3608 2A Max DC-DC Step Up Power Module Booster Power Module" (aliexpress seller listing)](https://www.aliexpress.com/item/32653583398.html)
+    * originally purchased for US$0.38 (Nov-2016),
+    * no longer offered by this seller
 * [..as mentioned on my blog](https://blog.tardate.com/2017/06/leap315-mt3608-variable-boost-converter.html)

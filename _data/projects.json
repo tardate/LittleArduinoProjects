@@ -1,4 +1,55 @@
 {
+    "/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/": {
+        "id": 825,
+        "title": "XL4015 0.8-30V CC/CV Buck Converter with Dual Display",
+        "summary": "Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "XL4015",
+            "python"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/": {
+        "id": 824,
+        "title": "MP2307DN 1.0V-17V Mini Buck Converter Module",
+        "summary": "A common MP2307DN-based buck converter module that is extremely small and convenient for relatively low-power requirements under 17V.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "MP2307"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/": {
+        "id": 823,
+        "title": "XL4015 1.25V-36V Buck Converter Module with Voltage Display",
+        "summary": "An XL4015-based buck converter with adjustable-voltage control and selectable input/output voltage display.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "XL4015"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/": {
+        "id": 822,
+        "title": "LM2596S 1.23V-30V Buck Converter Module",
+        "summary": "Another common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "LM2596"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/": {
+        "id": 821,
+        "title": "LM2596S 2.6-30V Buck Converter Module",
+        "summary": "A common LM2596S-based buck converter module with adjustable-voltage control, operating at around 50kHz switching frequency.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "LM2596"
+        ]
+    },
     "/electronics101/74ls47/fullcycle/": {
         "id": 820,
         "title": "74LS47 7-segment LED Full Cycle",
@@ -1402,7 +1453,9 @@
         "title": "MC34063 Buck Converter",
         "summary": "Design and test a basic 9v to 5v step-down regulator circuit using the MC34063A.",
         "tags": [
-            "Power"
+            "Power",
+            "SMPS",
+            "MC34063"
         ]
     },
     "/books/build-your-own-transistor-radios/": {
@@ -1624,7 +1677,8 @@
         "summary": "Configuring variable boost control with the MT3608 that is safe for all rated input voltages",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "MT3608"
         ]
     },
     "/books/electronics-cookbook/": {
@@ -2301,7 +2355,8 @@
         "summary": "A quick breadboard test of the canonical MT3608 switch mode power supply boost converter circuit",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "MT3608"
         ]
     },
     "/playground/power/multivoltagegpio/": {
@@ -4326,10 +4381,12 @@
     "/electronics101/power/switchmodepowersupplies/mc34063/modulekit/": {
         "id": 358,
         "title": "MC34063 Boost Converter Kit",
-        "summary": "build and test an MC34063-based boost converter",
+        "summary": "Build and test an MC34063-based boost converter kit",
         "tags": [
             "Power",
-            "Kit"
+            "Kit",
+            "SMPS",
+            "MC34063"
         ]
     },
     "/boldportclub/themonarch/": {
@@ -4741,7 +4798,8 @@
         "summary": "testing the canonical variable boost circuit using the MT3608 High Efficiency 1.2MHz 2A Step Up Converter",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "MT3608"
         ]
     },
     "/playground/eeprom/at28c16/peprogrammer/": {
@@ -5010,7 +5068,8 @@
         "tags": [
             "Power",
             "ATtiny",
-            "Arduino"
+            "Arduino",
+            "SMPS"
         ]
     },
     "/electronics101/ultrasonicalarm/": {
@@ -5729,7 +5788,8 @@
         "summary": "a simple buck converter circuit from first principles",
         "tags": [
             "Power",
-            "Arduino"
+            "Arduino",
+            "SMPS"
         ]
     },
     "/oshchip/ledx16module/": {
@@ -5781,9 +5841,10 @@
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/": {
         "id": 211,
         "title": "Buck Converter Modules",
-        "summary": "Testing a range of low-cost buck converter modules, often using LM2596",
+        "summary": "Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.",
         "tags": [
-            "Power"
+            "Power",
+            "SMPS"
         ]
     },
     "/audio/audioamps/tda7297kit/": {
@@ -6245,10 +6306,13 @@
     },
     "/electronics101/power/switchmodepowersupplies/boostbuckconvertermodule/": {
         "id": 162,
-        "title": "Boost-Buck Converter Module",
-        "summary": "quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
+        "title": "LM2577S/LM2596S Boost/Buck Converter Module",
+        "summary": "A quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
         "tags": [
-            "Power"
+            "Power",
+            "LM2577S",
+            "LM2596S",
+            "SMPS"
         ]
     },
     "/electronics101/ml741/noninvertingamplifier/": {

@@ -2,7 +2,7 @@
     "id": "#217",
     "name": "Basic AVR-controlled Buck Converter",
     "description": "a simple buck converter circuit from first principles",
-    "categories": "Power, Arduino",
+    "categories": "Power, Arduino, SMPS",
     "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BasicBuckAvrControl",
     "updated_at": "2017-05-06T10:08:03Z",
     "created_at": "2017-05-06T10:08:03Z"

@@ -1,6 +1,6 @@
 # #358 MC34063 Boost Converter Kit
 
-Build and test an MC34063-based boost converter.
+Build and test an MC34063-based boost converter kit.
 
 ![Build](./assets/ModuleKit_build.jpg?raw=true)
 
@@ -8,7 +8,10 @@ Build and test an MC34063-based boost converter.
 
 The MC34063 is a monolithic DC-to-DC switching controller that can be adapted to step-down, step-up and inverting applications with a minimum of external components.
 
-This module is a very cheap kit designed by ICStation [ICSK034A](http://www.icstation.com/icstation-step-module-boost-converter-power-supply-module-p-4151.html)
+I purchased the
+["Power module boost module 5V lift 12V l/c MC34063 module DIY electronic production kit IC" (aliexpress seller listing)](https://www.aliexpress.com/item/32830584255.html) for US$0.88 (Nov-2017).
+
+The module is a very cheap kit designed by ICStation [ICSK034A](http://www.icstation.com/icstation-step-module-boost-converter-power-supply-module-p-4151.html)
 but now available from many sellers on aliexpress, ebay etc.
 
 It has a fixed configuration to boost 5V in to 12V out.
@@ -47,6 +50,9 @@ Under test, it is delivering 11.52V (no load):
 ## Credits and References
 
 * [MC34063 datasheet](https://www.futurlec.com/Motorola/MC34063.shtml)
-* [Power module boost module 5V lift 12V l/c MC34063 module DIY electronic production kit IC](https://www.aliexpress.com/item/Power-module-boost-module-5V-lift-12V-l-c-MC34063-module-DIY-electronic-production-kit-IC/32830584255.html) - aliexpress seller
+* ["Power module boost module 5V lift 12V l/c MC34063 module DIY electronic production kit IC" (aliexpress seller listing)](https://www.aliexpress.com/item/32830584255.html)
+    * Originally purchased for US$0.88 (Nov-2017), no longer available from this seller
+* ["Power Step Up Module 5V + 12V step-up Board MC34063 Module DIY Electronic Production Kit Converter" (aliexpress seller listing)](https://www.aliexpress.com/item/32811195648.html)
+    * another seller, currently listing for SG$1.14 (Jan-2026)
 * [ICSK034A](http://www.icstation.com/icstation-step-module-boost-converter-power-supply-module-p-4151.html) - icstation, original source?
 * [..as mentioned on my blog](https://blog.tardate.com/2017/12/leap358-mc34063-boost-converter-kit.html)
