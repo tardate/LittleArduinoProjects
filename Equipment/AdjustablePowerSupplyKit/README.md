@@ -1,17 +1,24 @@
 # #433 Adjustable Power Supply Kit
 
-Building a popular 30V/3A adjustable power supply kit, making an enclosure and testing.
+Building and testing a popular AC-powered 30V/3A adjustable power supply kit, with enclosure, fan, voltage and current display.
 
 ![Build](./assets/AdjustablePowerSupplyKit_build.jpg?raw=true)
 
 ## Notes
 
-The [0-30V 2mA-3A Adjustable DC Regulated Power Supply DIY Kit](https://www.aliexpress.com/item/1Set-Red-0-30V-2mA-3A-Continuously-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-For-School/32789006670.html) is widely available from most hobby electronics markets (aliexpress, Banggood, eBay).
+I purchased
+["0-30V 2mA-3A Adjustable DC Regulated Power Supply DIY Kit Short Circuit Current Limiting Protection For School Education Lab" (aliexpress seller listing)](https://www.aliexpress.com/item/32789006670.html)
+for US$4.54 (Sep-2017).
 
+NB: it is no longer offered by this seller, bu the same product
+["WON 0-30V 2Ma-3A Adjustable DC Regulated Power Supply DIY Kit Short With Protection" (aliexpress seller listing)](https://www.aliexpress.com/item/1005009318398131.html)
+is currently offered for SG$5.75 (Jan-2026).
+
+The kit is widely available from most hobby electronics markets (aliexpress, Banggood, eBay).
 It features continuously variable output voltage, and a variable current limit with overcurrent indicator/shutdown.
 
 It appears this design may have originated from [SmartKit](https://www.smartkit.gr/stabilised-power-supply-0-30v-3a-m.html) in Greece,
-improved by [various people](http://www.electronics-lab.com/project/0-30-vdc-stabilized-power-supply-with-current-control-0-002-3-a/),
+improved by [various people](https://www.electronics-lab.com/project/0-30-vdc-stabilized-power-supply-with-current-control-0-002-3-a/),
 and at some point the "canonical design" was picked up for mass production (instantly identifiable by the red PCB and tall cap).
 
 I'm certainly not the first to build the kit - it's a common project, just [search YouTube for 0-30V power supply](https://www.youtube.com/results?search_query=0-30V+power+supply) - for example this build by Boris Dusnoki:
@@ -27,56 +34,58 @@ I'm certainly not the first to build the kit - it's a common project, just [sear
 * Output Voltage: 0-30V (continuously adjustable)
 * Output Current: 2mA-3A (continuously adjustable)
 * Output Voltage Ripple: Max 0.01%
-* Assembled Item Size: 9 *8.5* 3.5cm / 3.5 *3.4* 1.4in
-* Package Size: 15 *11* 2cm / 5.9 *4.3* 0.8in
+* Assembled Item Size: 9x8.5x3.5cm / 3.5x3.4x1.4in
+* Package Size: 15x11x2cm / 5.9x4.3x0.8in
 * Package Weight: 86g / 3oz
+
+See the [installation_manual.pdf](./assets/installation_manual.pdf).
 
 ### Parts
 
-| Qty | Refs   | Description                             | Note |
-|-----|--------|-----------------------------------------|------|
-| 1   |        | 0.47Ω 5w                                |      |
-| 1   |        | 33Ω 1/4w                                |      |
-| 1   |        | 82Ω 1/4w                                |      |
-| 1   |        | 220Ω 1/4w                               |      |
-| 2   |        | 1kΩ 1/4w                                |      |
-| 1   |        | 1.5kΩ 1/4w                              |      |
-| 2   |        | 2.2kΩ 1/4w                              |      |
-| 1   |        | 2.2kΩ 1w                                |      |
-| 1   |        | 3.9kΩ 1/4w                              |      |
-| 1   |        | 4.7kΩ 1/4w                              |      |
-| 5   |        | 10kΩ 1/4w                               |      |
-| 2   |        | 27kΩ 1/4w                               |      |
-| 2   |        | 56kΩ 1/4w                               |      |
-| 1   |        | 270kΩ 1/4w                              |      |
-| 2   |        | B10kΩ variable pot                      |      |
-| 1   |        | 100kΩ trim pot                          |      |
-| 2   |        | 100pF                                   |      |
-| 1   |        | 330pF                                   |      |
-| 1   |        | 100nF                                   |      |
-| 1   |        | 220nF                                   |      |
-| 1   |        | 10µF 50V                                |      |
-| 2   |        | 47µF 50V                                |      |
-| 1   |        | 3300µF 50V                              |      |
-| 1   |        | 1N4004                                  |      |
-| 4   |        | 1N4148                                  | extras supplied |
-| 4   |        | 1N5408                                  |      |
-| 2   |        | 5V1                                     |      |
+| Qty | Refs   | Description                             | Note                                             |
+|-----|--------|-----------------------------------------|--------------------------------------------------|
+| 1   |        | 0.47Ω 5w                                |                                                  |
+| 1   |        | 33Ω 1/4w                                |                                                  |
+| 1   |        | 82Ω 1/4w                                |                                                  |
+| 1   |        | 220Ω 1/4w                               |                                                  |
+| 2   |        | 1kΩ 1/4w                                |                                                  |
+| 1   |        | 1.5kΩ 1/4w                              |                                                  |
+| 2   |        | 2.2kΩ 1/4w                              |                                                  |
+| 1   |        | 2.2kΩ 1w                                |                                                  |
+| 1   |        | 3.9kΩ 1/4w                              |                                                  |
+| 1   |        | 4.7kΩ 1/4w                              |                                                  |
+| 5   |        | 10kΩ 1/4w                               |                                                  |
+| 2   |        | 27kΩ 1/4w                               |                                                  |
+| 2   |        | 56kΩ 1/4w                               |                                                  |
+| 1   |        | 270kΩ 1/4w                              |                                                  |
+| 2   |        | B10kΩ variable pot                      |                                                  |
+| 1   |        | 100kΩ trim pot                          |                                                  |
+| 2   |        | 100pF                                   |                                                  |
+| 1   |        | 330pF                                   |                                                  |
+| 1   |        | 100nF                                   |                                                  |
+| 1   |        | 220nF                                   |                                                  |
+| 1   |        | 10µF 50V                                |                                                  |
+| 2   |        | 47µF 50V                                |                                                  |
+| 1   |        | 3300µF 50V                              |                                                  |
+| 1   |        | 1N4004                                  |                                                  |
+| 4   |        | 1N4148                                  | extras supplied                                  |
+| 4   |        | 1N5408                                  |                                                  |
+| 2   |        | 5V1                                     |                                                  |
 | 1   |        | 3mm white LED                           | replaced this with a red LED in the final build  |
-| 1   |        | L7824 24V 1A Positive Regulator         |      |
-| 1   |        | 9014 NPN Small Signal Transistor        |      |
-| 1   |        | 9015 PNP Small Signal Transistor        |      |
-| 1   |        | D882 NPN Power Transistor               | [datasheet](https://www.st.com/resource/en/datasheet/2sd882.pdf)     |
-| 1   |        | D1047 High power NPN bipolar transistor | [datasheet](https://www.st.com/resource/en/datasheet/2sd1047.pdf)     |
-| 3   |        | TL081 JFET Input Op Amp                 |      |
-| 1   |        | 2-pin terminal block                    |      |
-| 1   |        | 3-pin terminal block                    |      |
-| 1   |        | heatsink                                |      |
-| 2   |        | XH2.54 3P female plug and wire          |      |
-| 2   |        | XH2.54 3P male PCB socket               |      |
-| 1   |        | 2 pin header                            |      |
-| 4   |        | M3 screw                                |      |
-|     |        | 22pF                                    | extra 3 in the kit for some reason! |
+| 1   |        | L7824 24V 1A Positive Regulator         |                                                  |
+| 1   |        | 9014 NPN Small Signal Transistor        |                                                  |
+| 1   |        | 9015 PNP Small Signal Transistor        |                                                  |
+| 1   |        | D882 NPN Power Transistor               |                                                  |
+| 1   |        | D1047 High power NPN bipolar transistor |                                                  |
+| 3   |        | TL081 JFET Input Op Amp                 |                                                  |
+| 1   |        | 2-pin terminal block                    |                                                  |
+| 1   |        | 3-pin terminal block                    |                                                  |
+| 1   |        | heatsink                                |                                                  |
+| 2   |        | XH2.54 3P female plug and wire          |                                                  |
+| 2   |        | XH2.54 3P male PCB socket               |                                                  |
+| 1   |        | 2 pin header                            |                                                  |
+| 4   |        | M3 screw                                |                                                  |
+|     |        | 22pF                                    | extra 3 in the kit for some reason!              |
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
 
@@ -104,11 +113,15 @@ Here's a partial schematic of the main power supply circuit. I'll probably tidy 
 
 To trick this out as a finished bench power supply, I opted for the following:
 
-A [6.7" x 5.1" x 3.1" Blue Metal Enclosure Project Case](https://www.aliexpress.com/item/6-7-x-5-1-x-3-1-Blue-Metal-Enclosure-Project-Case-DIY-Junction-Box/32825937652.html)
+A 6.7" x 5.1" x 3.1" blue metal project case:
+["Cheapest 6.7" x 5.1" x 3.1" Blue Metal Enclosure Project Case DIY Junction Box" (aliexpress seller listing)](https://www.aliexpress.com/item/32957806252.html)
+purchased for US$7.82 (Apr-2019)
 
 ![kit_extras_enclosure](./assets/kit_extras_enclosure.jpg?raw=true)
 
-Mains power supply via [fused socket and switch](https://www.aliexpress.com/item/NEW-HIGH-QUALITY-Red-Light-Power-Rocker-Switch-Fused-IEC-320-C14-Inlet-Power-Socket-Fuse/32801835266.html):
+Mains power supply via fused socket and switch:
+["High quality Black Red 10A AC 250V 3 Terminal Power Socket with Fuse Holder Rocker Switch NEW AC Power Cord Inlet Plug Socket" (aliexpress seller listing)](https://www.aliexpress.com/item/32814847454.html)
+purchased for US$0.84/2 (Nov-2018).
 
 ![kit_extras_fused_switch](./assets/kit_extras_fused_switch.jpg?raw=true)
 
@@ -116,24 +129,30 @@ A [15W, 24VAC step-down transformer](https://www.aliexpress.com/item/9VAC-0-9VAC
 
 ![kit_extras_transformer](./assets/kit_extras_transformer.jpg?raw=true)
 
-A Volt/Ammeter display for the front panel. I've covered this component in detail in [LEAP#289 VoltmeterAmmeterModule](../../Electronics101/VoltmeterAmmeterModule)
+A Volt/Ammeter display for the front panel. I've covered this component in detail in [LEAP#289 DC Voltmeter/Ammeter Modules](../../Electronics101/Meters/VoltmeterAmmeterModule/)
 It is powered from the 24V fan power supply, in parallel with the fan.
 
 ![kit_extras_voltammeter](./assets/kit_extras_voltammeter.jpg?raw=true)
 
-I've mounted a [40mm  9 blade 24V fan](https://www.aliexpress.com/item/40mm-4cm-2-Pin-9-Blades-Computer-Chipset-Cooling-Fan-DC-24V/32852382945.html)
-on the side of the unit, without any additional heat-sink on the main power transistor.
+I've mounted a fan on the side of the unit, without any additional heat-sink on the main power transistor:
+["40mm 4cm 2 Pin 9 Blades Computer Chipset Cooling Fan DC 24V" (aliexpress seller listing)](https://www.aliexpress.com/item/32852382945.html),
+purchased for US$0.98/2 (Jul-2018).
+
 It turned out to be a noisy bugger.
 My power requirements are minimal for now, I will probably re-assess in the future and make some temperature measurements under load.
 
 ![kit_extras_fan](./assets/kit_extras_fan.jpg?raw=true)
 
-For the front panel power connectors, I've used a [nice dual banana binding post](https://www.aliexpress.com/item/High-Quality-Speaker-Amplifier-Dual-Binding-Post-Banana-Plug-Socket-Connectors-5pcs/32738527737.html).
+For the front panel power connectors, I've used a nice dual banana binding post:
+["High Quality Speaker Amplifier Dual Binding Post Banana Plug Socket Connectors 5pcs" (aliexpress seller listing)](https://www.aliexpress.com/item/32738527737.html),
+purchased 5 pieces for US$3.83/lot (Nov-2018).
 
 ![kit_extras_binding_post](./assets/kit_extras_binding_post.jpg?raw=true)
 
-Finally a [metal bezel](https://www.aliexpress.com/item/10pcs-3mm-LED-Emitting-Diode-Metal-Bezel-Holder-Round-Chrome-LED-Lamp-Base-with-10pcs-Plastic/32881242918.html)
-for mounting the current-limit LED on the front panel
+Finally a metal bezel
+for mounting the current-limit LED on the front panel:
+["10pcs 3mm LED Emitting Diode Metal Bezel Holder Round Chrome LED Lamp Base with 10pcs Plastic Cover" (aliexpress seller listing)](https://www.aliexpress.com/item/32881242918.html)
+purchased for US $0.62/10 (Sep-2018).
 
 ![kit_extras_bezel](./assets/kit_extras_bezel.jpg?raw=true)
 
@@ -146,6 +165,11 @@ for mounting the current-limit LED on the front panel
 ![AdjustablePowerSupplyKit_build_rear](./assets/AdjustablePowerSupplyKit_build_rear.jpg?raw=true)
 
 ![Build](./assets/AdjustablePowerSupplyKit_build.jpg?raw=true)
+
+Controls:
+
+* Output voltage setting: red knob
+* Current limit setting: blue knob
 
 ## Calibration
 
@@ -177,16 +201,20 @@ This is a nice kit and a fun build, but a couple of draw-backs:
 * the fan is a very noisy heat-management solution - my own fault for selecting the fan I did. I would be interested in seeing how much power the unit could handle with heatsink alone.
 
 All in all, a good general purpose power supply for the bench, especially where voltage/current limits do not have to be extremely precise.
-I think I still prefer my DPS-3005-based power supply as a more accurate and featured solution - see [LEAP#407 DPS3005BenchPowerSupply](../DPS3005BenchPowerSupply) for more on that project.
+I think I still prefer my DPS-3005-based power supply as a more accurate and featured solution - see [LEAP#407 DPS3005 Bench Power Supply](../DPS3005BenchPowerSupply/) for more on that project.
 
 ## Credits and References
 
-* [0-30V 2mA-3A Adjustable DC Regulated Power Supply DIY Kit Short Circuit Current Limiting Protection For School Education Lab](https://www.aliexpress.com/item/1Set-Red-0-30V-2mA-3A-Continuously-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-For-School/32789006670.html)
+* ["0-30V 2mA-3A Adjustable DC Regulated Power Supply DIY Kit Short Circuit Current Limiting Protection For School Education Lab" (aliexpress seller listing)](https://www.aliexpress.com/item/32789006670.html)
+    * Originally purchased for US$4.54 (Sep-2017).
+    * No longer offered by this seller
+* ["WON 0-30V 2Ma-3A Adjustable DC Regulated Power Supply DIY Kit Short With Protection" (aliexpress seller listing)](https://www.aliexpress.com/item/1005009318398131.html)
+    * same product currently offered for SG$5.75 (Jan-2026)
 * [same/similar kit from banggood](https://sea.banggood.com/0-30V-2mA-3A-Adjustable-DC-Regulated-Power-Supply-DIY-Kit-p-958308.html)
 * original (?) design from [SmartKit](https://www.smartkit.gr/stabilised-power-supply-0-30v-3a-m.html)
-* [example pre-cursor design](http://www.electronics-lab.com/project/0-30-vdc-stabilized-power-supply-with-current-control-0-002-3-a/) - electronics-lab
-* [LEAP#289 VoltmeterAmmeterModule](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/VoltmeterAmmeterModule)
-* [LEAP#407 DPS3005BenchPowerSupply](../DPS3005BenchPowerSupply)
+* [example pre-cursor design](https://www.electronics-lab.com/project/0-30-vdc-stabilized-power-supply-with-current-control-0-002-3-a/)
+* [LEAP#289 DC Voltmeter/Ammeter Modules](../../Electronics101/Meters/VoltmeterAmmeterModule/)
+* [LEAP#407 DPS3005 Bench Power Supply](../DPS3005BenchPowerSupply/)
 * [D882 datasheet](https://www.st.com/resource/en/datasheet/2sd882.pdf)
 * [D1047 datasheet](https://www.st.com/resource/en/datasheet/2sd1047.pdf)
 * [..as mentioned on my blog](https://blog.tardate.com/2018/11/leap433-0-30v-3a-adjustable-power-supply-kit.html)

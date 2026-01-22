@@ -3661,11 +3661,14 @@
     },
     "/equipment/adjustablepowersupplykit/": {
         "id": 433,
-        "title": "AdjustablePowerSupplyKit",
-        "summary": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing",
+        "title": "Adjustable Power Supply Kit",
+        "summary": "Building and testing a popular AC-powered 30V/3A adjustable power supply kit, with enclosure, voltage and current display.",
         "tags": [
             "Power",
-            "Kit"
+            "Kit",
+            "D882",
+            "D1047",
+            "TL081"
         ]
     },
     "/kinetics/steppermotors/uln2003module/": {
