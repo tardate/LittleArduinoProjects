@@ -3921,9 +3921,9 @@
     },
     {
         "id": "#433",
-        "name": "AdjustablePowerSupplyKit",
-        "description": "building a popular 30V/3A adjustable power supply kit, making an enclosure and testing",
-        "categories": "Power, Kit",
+        "name": "Adjustable Power Supply Kit",
+        "description": "Building and testing a popular AC-powered 30V/3A adjustable power supply kit, with enclosure, voltage and current display.",
+        "categories": "Power, Kit, D882, D1047, TL081",
         "relative_path": "equipment/adjustablepowersupplykit",
         "updated_at": "2018-07-10T06:51:01Z",
         "created_at": "2018-07-10T06:51:01Z",

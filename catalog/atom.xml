@@ -4462,11 +4462,14 @@
     <link href="https://leap.tardate.com/equipment/adjustablepowersupplykit/"/>
     <g:image_link>https://leap.tardate.com/equipment/adjustablepowersupplykit/assets/adjustablepowersupplykit_build.jpg</g:image_link>
     <updated>2018-07-10T06:51:01Z</updated>
-    <title>#433 AdjustablePowerSupplyKit</title>
-    <summary>building a popular 30V/3A adjustable power supply kit, making an enclosure and testing</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;building a popular 30V/3A adjustable power supply kit, making an enclosure and testing&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/adjustablepowersupplykit/assets/adjustablepowersupplykit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#433 Adjustable Power Supply Kit</title>
+    <summary>Building and testing a popular AC-powered 30V/3A adjustable power supply kit, with enclosure, voltage and current display.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building and testing a popular AC-powered 30V/3A adjustable power supply kit, with enclosure, voltage and current display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/adjustablepowersupplykit/assets/adjustablepowersupplykit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Kit"/>
+    <category term="D882"/>
+    <category term="D1047"/>
+    <category term="TL081"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/steppermotors/uln2003module/</id>
