@@ -6568,10 +6568,10 @@
             "555 Timer"
         ]
     },
-    "/electronics101/bidirectionallevelshiftermodule/": {
+    "/electronics101/bidirectionallevelshifter/modules/": {
         "id": 134,
-        "title": "Bidirectional Level Shifter Module",
-        "summary": "test a bi-directional 5/3.3V level shifter module",
+        "title": "Bidirectional Level Shifter Modules",
+        "summary": "Review and test some 2-channel and 4-channel bi-directional 5/3.3V level shifter modules",
         "tags": [
             "FET"
         ]

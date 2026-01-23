@@ -6911,13 +6911,13 @@
     },
     {
         "id": "#134",
-        "name": "Bidirectional Level Shifter Module",
-        "description": "test a bi-directional 5/3.3V level shifter module",
+        "name": "Bidirectional Level Shifter Modules",
+        "description": "Review and test some 2-channel and 4-channel bi-directional 5/3.3V level shifter modules",
         "categories": "FET",
-        "relative_path": "electronics101/bidirectionallevelshiftermodule",
+        "relative_path": "electronics101/bidirectionallevelshifter/modules",
         "updated_at": "2020-04-05T09:10:00Z",
         "created_at": "2020-04-05T09:10:00Z",
-        "original_relative_path": "Electronics101/BidirectionalLevelShifterModule"
+        "original_relative_path": "Electronics101/BidirectionalLevelShifter/Modules"
     },
     {
         "id": "#133",
