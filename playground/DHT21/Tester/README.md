@@ -8,6 +8,9 @@ Logging temperature and humidity with an Aosong AM2301 DHT21-compatible sensor. 
 
 This is a test of the DHT21 with the Adafruit DHT Sensor Library directly (without the unified sensor framework).
 
+I most recently purchased an AM2301 for SG$2.97 (Jan-2026):
+["1-10PCS DHT21 Digital-output Relative Humidity & Temperature Sensor/Module,Connect With Single-bus-line Sensor AM2301 AM2301A" (aliexpress seller listing)](https://www.aliexpress.com/item/1005009549581458.html).
+
 ### About the Aosong AM2301 DHT21 sensor
 
 The AM2301 is a DHT21-compatible temperature and humidity sensor.
@@ -98,19 +101,23 @@ void loop() {
 
 ### Test Results
 
-Sample console output:
+Sample console output collected with `screen`:
 
-![console-output](./assets/screen1.png)
+```sh
+screen /dev/cu.usbmodem24201 115200
+```
 
-NOTE: I seem to have an issue with the humidity sensor on my device. It is consistently returning a 5.0% reading no matter what the actual humidity is.
-My current conclusion is that I have a faulty device. I'll re-run this test when I can get my hands on a replacement sensor.
+![console-output](./assets/screen2.png)
+
+NOTE: The first sensor I used was consistently returning a 5.0% humidity reading no matter what the actual humidity was.
+I confirmed it was a faulty device. The readings shown above were from a new device that is reporting humidity and temperature correctly.
 
 ## Credits and References
 
 * ["AM2301 DHT21 Capacitance Digital Temperature & Humidity Sensor Replace SHT11 SHT15 free shipping 68" (aliexpress seller listing)](https://www.aliexpress.com/item/32265429028.html)
     * Originally purchased for US $2.89 (Mar-2016). Currently no longer available from this seller.
-* ["DHT11 DHT22 AM2302B AM2301 AM2320 Digital Temperature and Humidity Sensor AM2302 Temperature and Humidity Sensor For Arduino"  (aliexpress seller listing)](https://www.aliexpress.com/item/1005006734935844.html)
-    * Currently lists the AM2301 for SG$3.50 (Jan-2026)
+* ["1-10PCS DHT21 Digital-output Relative Humidity & Temperature Sensor/Module,Connect With Single-bus-line Sensor AM2301 AM2301A" (aliexpress seller listing)](https://www.aliexpress.com/item/1005009549581458.html)
+    * Replacement AM2301 purchased for SG$2.97 (Jan-2026)
 * [AM2301 datasheet (haoyuelectronics)](https://www.haoyuelectronics.com/Attachment/AM2301/AM2301.pdf)
 * [ASAIR AM2301 Temperature and Humidity Sensor Modules (aosong)](https://www.aosong.com/en/Products/info.aspx?itemid=2301&lcid=139)
 * <https://www.aosong.com/>
