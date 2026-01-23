@@ -7965,13 +7965,13 @@
     <category term="555 Timer"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/bidirectionallevelshiftermodule/</id>
-    <link href="https://leap.tardate.com/electronics101/bidirectionallevelshiftermodule/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/bidirectionallevelshiftermodule/assets/bidirectionallevelshiftermodule_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/bidirectionallevelshifter/modules/</id>
+    <link href="https://leap.tardate.com/electronics101/bidirectionallevelshifter/modules/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/bidirectionallevelshifter/modules/assets/modules_build.jpg</g:image_link>
     <updated>2020-04-05T09:10:00Z</updated>
-    <title>#134 Bidirectional Level Shifter Module</title>
-    <summary>test a bi-directional 5/3.3V level shifter module</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test a bi-directional 5/3.3V level shifter module&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/bidirectionallevelshiftermodule/assets/bidirectionallevelshiftermodule_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#134 Bidirectional Level Shifter Modules</title>
+    <summary>Review and test some 2-channel and 4-channel bi-directional 5/3.3V level shifter modules</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Review and test some 2-channel and 4-channel bi-directional 5/3.3V level shifter modules&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/bidirectionallevelshifter/modules/assets/modules_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="FET"/>
   </entry>
   <entry>
