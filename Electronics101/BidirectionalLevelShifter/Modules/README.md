@@ -52,8 +52,7 @@ In the ideal case, input and output signals should be perfectly matched, with a 
 ### 2-channel Level Shifters
 
 I purchased a pack of 10 for US$3.39/lot (Jul-2015)
-
-* ["10PCS Two Channel IIC I2C Logic Level Converter Bi-Directional Module 5V to 3.3V" (aliexpress seller listing)](https://www.aliexpress.com/item/32213240585.html).
+["10PCS Two Channel IIC I2C Logic Level Converter Bi-Directional Module 5V to 3.3V" (aliexpress seller listing)](https://www.aliexpress.com/item/32213240585.html).
 
 ![module1](./assets/module1.jpg)
 
@@ -64,7 +63,7 @@ The modules have two pairs of "transmit" and "receive" lines. It turns out that 
 
 ![module1_internal_schematic](./assets/module1_internal_schematic.jpg?raw=true)
 
-#### Testing 2-channel Level Shifters
+#### Testing 2-channel Level Shifters - Single Channel
 
 First I'll test bi-directional signals connected on the one channel:
 
@@ -84,6 +83,8 @@ RXD/RXI, used for signal from high to low side, is not perfect but probably "goo
 * CH4 (Red): signal 3 - low-side output, oscillates between 0-~2.2V
 
 ![module1_scope1](./assets/module1_scope1.gif)
+
+#### Testing 2-channel Level Shifters - Channel Per Signal
 
 Next I'll test bi-directional signals connected with their own channel:
 
@@ -116,6 +117,8 @@ I purchased a pack of 10  for SG$2.54/lot (Jan-2026)
 The modules have independent pairs of input/output lines. Each uses a FET for level-shifting and can be used in either direction.
 
 ![module2_internal_schematic](./assets/module2_internal_schematic.jpg?raw=true)
+
+#### Testing 4-channel Level Shifters
 
 I'll test bi-directional signals connected with their own channel:
 
