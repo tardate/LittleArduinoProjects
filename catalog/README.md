@@ -1,7 +1,7 @@
 # The Catalog
 
-This is a simple Javascript catalog for building the
-[LittleArduinoProjects GitHub Pages site](https://leap.tardate.com).
+This is a simple Javascript catalog for driving the
+<https://leap.tardate.com> site.
 
 It is a simple bootstrap/datatables page with the main entry point in [index.html](../index.html).
 Catalog data is loaded from [catalog.json](./catalog.json), which is consolidated from `.catalog_metadata` I've added to each project.
