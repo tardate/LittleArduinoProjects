@@ -2,6 +2,7 @@
 
 Some projects require additional libraries. For example:
 
+* [Adafruit_BMP280_Library](https://github.com/adafruit/Adafruit_BMP280_Library)
 * [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) - dependency of AdaFruit display libraries
 * [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
 * [Adafruit-Thermal-Printer-Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library) - for small thermal printers
@@ -13,7 +14,7 @@ Some projects require additional libraries. For example:
 * [Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote)
 * [Arduino-Temperature-Control-Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
-* [DHT Sensor Library]((https://github.com/adafruit/DHT-sensor-library)
+* [DHT Sensor Library]((<https://github.com/adafruit/DHT-sensor-library>)
 * [DS3232RTC](https://github.com/JChristensen/DS3232RTC) - DS3232-based realtime clock module control
 * [EnableInterrupt](https://github.com/GreyGnome/EnableInterrupt) - Flexible interrupt management
 * [FastLED](http://fastled.io/) - used by LED array projects
@@ -50,24 +51,24 @@ This makes all the projects available to me in the IDE, and automatically includ
 that are linked as git submodules in this folder.
 
 If you don't have the Arduino IDE setup this way, libraries can just be installed normally.
-For information on installing libraries, see: http://arduino.cc/en/Guide/Libraries
+For information on installing libraries, see: <http://arduino.cc/en/Guide/Libraries>
 
 ## Install with Git
 
 If you clone this repo, also update the submodules:
 
-    $ git submodule update --init
+    git submodule update --init
 
 To pull submodule updates later on:
 
-    $ git submodule foreach git pull
+    git submodule foreach git pull
 
 ## Pull updates for a specific library
 
 e.g. to pull the latest X113647Stepper updates:
 
-    $ git submodule update --remote libraries/X113647Stepper
+    git submodule update --remote libraries/X113647Stepper
 
 ## Adding a new module to the Repo
 
-    $ git submodule add https://github.com/repo_path/name libraries/name
+    git submodule add https://github.com/repo_path/name libraries/name
