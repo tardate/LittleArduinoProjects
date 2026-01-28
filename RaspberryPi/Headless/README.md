@@ -409,6 +409,71 @@ Last login: Tue Apr 29 17:04:50 2025 from 2406:3003:2006:93ad:c47c:6404:a6ab:6ac
 pi@raspi1:~ $
 ```
 
+### Starting the GUI
+
+If required, one can temporarily start the GUI while running headless.
+
+After connecting a monitor to the HDMI port, connect to the pi over ssh:
+
+* `kmsprint` can be used to confirm the HDMI port is connected
+* use `startx` to temporarily start the desktop
+* or use `lightdm` to start a full desktop
+
+#### Using `startx`
+
+```sh
+$ ssh pi@raspi1.local
+pi@raspi1.local's password:
+...
+$ kmsprint
+Connector 0 (32) HDMI-A-1 (connected)
+  Encoder 0 (31) TMDS
+    Crtc 3 (95) 1920x1080@60.00 148.500 1920/88/44/148/+ 1080/4/5/36/+ 60 (60.00) P|D
+      Plane 3 (84) fb-id: 669 (crtcs: 3) 0,0 1920x1080 -> 0,0 1920x1080 (XR24 AR24 AB24 XB24 RG16 BG16 AR15 XR15 RG24 BG24 YU16 YV16 YU24 YV24 YU12 YV12 NV12 NV21 NV16 NV61 RGB8 BGR8 XR12 AR12 XB12 AB12 BX12 BA12 RX12 RA12)
+        FB 669 1920x1080 RG16
+...
+$ sudo startx
+xauth:  file /root/.Xauthority does not exist
+
+
+X.Org X Server 1.21.1.7
+X Protocol Version 11, Revision 0
+Current Operating System: Linux raspi1 6.6.74+rpt-rpi-v6 #1 Raspbian 1:6.6.74-1+rpt1 (2025-01-27) armv6l
+Kernel command line: coherent_pool=1M snd_bcm2835.enable_headphones=0 cgroup_disable=memory snd_bcm2835.enable_headphones=1 snd_bcm2835.enable_hdmi=1 snd_bcm2835.enable_hdmi=0  vc_mem.mem_base=0x1ec00000 vc_mem.mem_size=0x20000000  console=ttyAMA0,115200 console=tty1 root=PARTUUID=8123d899-02 rootfstype=ext4 fsck.repair=yes rootwait
+xorg-server 2:21.1.7-3+rpt3+deb12u8 (https://www.debian.org/support)
+Current version of pixman: 0.42.2
+ Before reporting problems, check http://wiki.x.org
+ to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+ (++) from command line, (!!) notice, (II) informational,
+ (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Wed Jan 28 03:27:51 2026
+(==) Using config directory: "/etc/X11/xorg.conf.d"
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+...
+
+```
+
+The GUI will launch (already logged in), and exit when `startx` is killed.
+
+#### Using `lightdm`
+
+To start a full desktop login, use `lightdm`. This:
+
+* Starts the display manager
+* Shows the GUI on the HDMI display
+* Does not persist after reboot
+
+```sh
+sudo systemctl start lightdm
+```
+
+To stop it again:
+
+```sh
+sudo systemctl stop lightdm
+```
+
 ## Credits and References
 
 * [Raspberry Pi Cookbook](../../books/raspberry-pi-cookbook/)
