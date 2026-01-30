@@ -1,4 +1,4 @@
-# #xxx BMP280 Module
+# #826 BMP280 Module
 
 Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.
 

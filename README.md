@@ -1,6 +1,6 @@
-# 825 Little Electronic Art Projects
+# 826 Little Electronic Art Projects
 
-> Latest addition :sparkles: [XL4015 0.8-30V CC/CV Buck Converter with Dual Display](./Electronics101/Power/SwitchModePowerSupplies/BuckConverterModules/XL4015Module2) - Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.
+> Latest addition :sparkles: [BMP280 Module](./Electronics101/BMP280/Module) - Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

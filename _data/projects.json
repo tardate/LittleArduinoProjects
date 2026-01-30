@@ -1,4 +1,16 @@
 {
+    "/electronics101/bmp280/module/": {
+        "id": 826,
+        "title": "BMP280 Module",
+        "summary": "Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.",
+        "tags": [
+            "BMP280",
+            "Sensors",
+            "Arduino",
+            "OLED",
+            "I2C"
+        ]
+    },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/": {
         "id": 825,
         "title": "XL4015 0.8-30V CC/CV Buck Converter with Dual Display",
