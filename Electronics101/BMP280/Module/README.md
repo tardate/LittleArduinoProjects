@@ -56,7 +56,7 @@ Specifications:
     * CSB LOW : SPI
     * CSB HIGH (VDDIO): I²C
 
-### About the BMP280 Module
+### About the GY-BMP280-3.3 Module
 
 Some modules are designed for 3.3V or 5V operation, but the module I have exposes the BMP280 directly and therefore must be used within the BMP280's voltage limits (4.25V max).
 
@@ -101,6 +101,8 @@ Designed with Fritzing: see [Module.fzz](./Module.fzz).
 ![bb](./assets/Module_bb.jpg?raw=true)
 
 ![schematic](./assets/Module_schematic.jpg?raw=true)
+
+Connected on a breadboard with USB-Serial adapter for programming:
 
 ![bb_build](./assets/Module_bb_build.jpg?raw=true)
 
