@@ -2,17 +2,18 @@
 
 Some projects require additional libraries. For example:
 
-* [Adafruit_BMP280_Library](https://github.com/adafruit/Adafruit_BMP280_Library)
-* [Adafruit-GFX-Library](https://github.com/adafruit/Adafruit-GFX-Library) - dependency of AdaFruit display libraries
-* [Adafruit-PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
-* [Adafruit-Thermal-Printer-Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library) - for small thermal printers
-* [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) - I²C for the ATtiny
-* [Adafruit_Sensor](https://github.com/adafruit/Adafruit_Sensor) - Adafruit Unified Sensor Library
-* [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) - for monochrome OLED displays
-* [Adafruit_VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
-* [Arduino-INA226](https://github.com/jarzebski/Arduino-INA226) - INA226 Bi-directional Current/Power Monitor Arduino Library
-* [Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote)
-* [Arduino-Temperature-Control-Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
+* [Adafruit BMP085 Library](https://github.com/adafruit/Adafruit-BMP085-Library) - BMP085/BMP180
+* [Adafruit BMP280 Library](https://github.com/adafruit/Adafruit_BMP280_Library)
+* [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library) - dependency of AdaFruit display libraries
+* [Adafruit PCD8544 Library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library)
+* [Adafruit Thermal Printer Library](https://github.com/adafruit/Adafruit-Thermal-Printer-Library) - for small thermal printers
+* [Adafruit TinyWireM](https://github.com/adafruit/TinyWireM) - I²C for the ATtiny
+* [Adafruit Sensor](https://github.com/adafruit/Adafruit_Sensor) - Adafruit Unified Sensor Library
+* [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) - for monochrome OLED displays
+* [Adafruit VL53L0X](https://github.com/adafruit/Adafruit_VL53L0X)
+* [Arduino INA226](https://github.com/jarzebski/Arduino-INA226) - INA226 Bi-directional Current/Power Monitor Arduino Library
+* [Arduino IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote)
+* [Arduino Temperature Control Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [DHT Sensor Library]((<https://github.com/adafruit/DHT-sensor-library>)
 * [DS3232RTC](https://github.com/JChristensen/DS3232RTC) - DS3232-based realtime clock module control

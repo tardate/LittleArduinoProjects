@@ -35,20 +35,15 @@ Absolute maximum ratings
 
 Specifications:
 
-* Supply Voltage: 1.8 - 5V DC
+* Sensor Supply Voltage: 1.71 - 3.6V DC
+* Interface Supply Voltage: 1.2 - 3.6V DC
 * Interface: I²C (up to 3.4MHz), SPI (up to 10 MHz)
-* Operational Range:
-    * Temperature: -40 to +85°C
-    * Humidity: 0-100%
-    * Pressure: 300-1100 hPa
 * Resolution:
-    * Temperature: 0.01°C
-    * Humidity: 0.008%
-    * Pressure: 0.18Pa
+    * Temperature: 0.01 °C
+    * Pressure: 0.0016 hPa
 * Accuracy:
-    * Temperature: +-1°C
-    * Humidity: +-3%
-    * Pressure: +-1Pa
+    * Temperature: +-0.5 °C
+    * Pressure: +-1 hPa
 * I²C address:
     * SDO LOW : 0x76
     * SDO HIGH: 0x77
