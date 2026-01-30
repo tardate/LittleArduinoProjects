@@ -35,6 +35,7 @@
     "BEAM",
     "BJT",
     "BLE",
+    "BMP180",
     "BMP280",
     "BMS",
     "Boldport",

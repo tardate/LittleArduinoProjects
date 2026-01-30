@@ -16,6 +16,9 @@ for SG$0.82 (Jun-2020).
 
 In this little project, I'll test the module with an Arduino sketch, with readings streamed to the serial port as well as shown on an OLED display.
 
+Note: the BMP280 superseded the BMP180, improving resolution and offering SPI in addition to the I²C interface.
+See [LEAP#827 BMP180 Module](../../BMP180/Module/) for a demonstration of the BMP180.
+
 ### About the BMP280
 
 BMP280 is an absolute barometric pressure sensor especially designed for mobile applications. The sensor module is housed in an extremely compact package. Its small dimensions and its low power consumption allow for the implementation in battery driven devices such as mobile phones, GPS modules or watches.
@@ -35,20 +38,15 @@ Absolute maximum ratings
 
 Specifications:
 
-* Supply Voltage: 1.8 - 5V DC
+* Sensor Supply Voltage: 1.71 - 3.6V DC
+* Interface Supply Voltage: 1.2 - 3.6V DC
 * Interface: I²C (up to 3.4MHz), SPI (up to 10 MHz)
-* Operational Range:
-    * Temperature: -40 to +85°C
-    * Humidity: 0-100%
-    * Pressure: 300-1100 hPa
 * Resolution:
-    * Temperature: 0.01°C
-    * Humidity: 0.008%
-    * Pressure: 0.18Pa
+    * Temperature: 0.01 °C
+    * Pressure: 0.0016 hPa
 * Accuracy:
-    * Temperature: +-1°C
-    * Humidity: +-3%
-    * Pressure: +-1Pa
+    * Temperature: +-0.5 °C
+    * Pressure: +-1 hPa
 * I²C address:
     * SDO LOW : 0x76
     * SDO HIGH: 0x77

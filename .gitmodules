@@ -139,3 +139,6 @@
 [submodule "libraries/Adafruit_BusIO"]
 	path = libraries/Adafruit_BusIO
 	url = https://github.com/adafruit/Adafruit_BusIO
+[submodule "libraries/Adafruit-BMP085-Library"]
+	path = libraries/Adafruit-BMP085-Library
+	url = https://github.com/adafruit/Adafruit-BMP085-Library
