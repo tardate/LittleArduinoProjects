@@ -2868,13 +2868,14 @@
     <link href="https://leap.tardate.com/equipment/powermeter/"/>
     <g:image_link>https://leap.tardate.com/equipment/powermeter/assets/powermeter_build.jpg</g:image_link>
     <updated>2020-01-29T00:25:48Z</updated>
-    <title>#572 PowerMeter</title>
+    <title>#572 Power Meter</title>
     <summary>A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/powermeter/assets/powermeter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="INA226"/>
     <category term="Sensors"/>
+    <category term="OLED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/tracetogethertoken/</id>

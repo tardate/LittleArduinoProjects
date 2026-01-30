@@ -6,7 +6,7 @@ Testing an SSD1306 128x32 OLED with the new v2 u8g library over I²C.
 
 ## Notes
 
-I grabbed a [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html) to test for a new project,
+I grabbed a white 128x32 0.91" OLED module to test for a new project,
 and discovered there's a new version of the [U8g library](https://github.com/olikraus/U8g2_Arduino) (v2) that's also worth checking out.
 
 It seems the author has put a lot of work into refactoring and improving what was already one of
@@ -21,6 +21,10 @@ I cobbled together two sketches to test each of the interfaces:
 [DemoU8g2](./DemoU8g2/DemoU8g2.ino?raw=true) and [DemoU8x8](./DemoU8x8/DemoU8x8.ino?raw=true) respectively.
 
 ## OLED Module Specs
+
+For this test, I'm using a
+["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+purchased for US$2.75 (Apr-2017), currently listed for SG$1.79 (Jan-2026).
 
 * OLED display, self-illuminating (no backlight), also lower consumption.
 * Driver IC: SSD1306
@@ -63,6 +67,8 @@ Testing a couple of fonts with the U8x8 library API. Flash size: 6764 bytes.
 
 ## Credits and References
 
-* [white/blue OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate for ardunio](https://www.aliexpress.com/item/32672229793.html) - aliexpress
+* ["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+    * Purchased for US$2.75 (Apr-2017).
+    * Currently listed for SG$1.79 (Jan-2026).
 * [U8glib V2 library for Arduino](https://github.com/olikraus/U8g2_Arduino)
 * [SSD1306 Datasheet](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf)

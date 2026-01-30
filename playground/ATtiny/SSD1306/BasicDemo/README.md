@@ -10,10 +10,12 @@ Here's a quick demo..
 
 ## Notes
 
-In [LEAP#530](../../../OLED/SSD1306BareBackI2C) I driving an I²C OLED display with an Arduino.
+In [LEAP#530 SSD1306 OLED Bareback I²C](../../../OLED/SSD1306BareBackI2C/), I drive an I²C OLED display with an Arduino.
 This is the same idea, but using an ATtiny85.
 
-For this test, I'm using a [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html).
+For this test, I'm using a
+["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+purchased for US$2.75 (Apr-2017), currently listed for SG$1.79 (Jan-2026).
 
 ## OLED Module Specs
 
@@ -52,7 +54,9 @@ which uses the [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) I²C 
 ## Credits and References
 
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
-* [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html)
+* ["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+    * Purchased for US$2.75 (Apr-2017)
+    * Currently listed for SG$1.79 (Jan-2026).
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED)
 * [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM)

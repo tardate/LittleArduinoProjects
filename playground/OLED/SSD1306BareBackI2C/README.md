@@ -13,7 +13,9 @@ Here's a quick demo..
 In [LEAP#087](../SSD1306BareBack) I investigated using the raw command set to drive an OLED display
 over SPI. This is the same idea, but using a display with an I²C interface.
 
-For this test, I'm using a [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html).
+For this test, I'm using a
+["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+purchased for US$2.75 (Apr-2017), currently listed for SG$1.79 (Jan-2026).
 
 ## OLED Module Specs
 
@@ -47,6 +49,8 @@ but it is enough to demonstrate that running the OLED with raw commands is not t
 
 ## Credits and References
 
-* [white 128x32 0.91" OLED Module](https://www.aliexpress.com/item/32672229793.html)
+* ["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+    * Purchased for US$2.75 (Apr-2017).
+    * Currently listed for SG$1.79 (Jan-2026).
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [Arduino Wire library](https://www.arduino.cc/en/reference/wire)
