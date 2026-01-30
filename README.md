@@ -1,6 +1,6 @@
-# 826 Little Electronic Art Projects
+# 827 Little Electronic Art Projects
 
-> Latest addition :sparkles: [BMP280 Module](./Electronics101/BMP280/Module) - Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.
+> Latest addition :sparkles: [BMP180 Module](./Electronics101/BMP180/Module) - Examine the BMP180 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-68 module and an Arduino Uno with 128x32 OLED display.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

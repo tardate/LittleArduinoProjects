@@ -2,5 +2,8 @@
     "name": "BMP180 Module",
     "description": "Examine the BMP180 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-68 module and an Arduino Uno with 128x32 OLED display.",
     "categories": "BMP180, Sensors, Arduino, OLED, I2C",
-    "relative_path": "Electronics101/BMP180/Module"
+    "relative_path": "Electronics101/BMP180/Module",
+    "updated_at": "2026-01-30T13:31:00Z",
+    "created_at": "2026-01-30T13:31:00Z",
+    "id": "#827"
 }
