@@ -13,7 +13,7 @@ for SG$0.85 (Jun-2020). NB: it is no longer offered by this seller.
 In this little project, I'll test the module with an Arduino sketch, with readings streamed to the serial port as well as shown on an OLED display.
 
 The BMP180 was superseded by the BMP280, which offers higher resolution and also the choice of either I²C or SPI interfaces.
-See [LEAP#826 BMP280 Module](../../BMP280/Module/) for a demonstration.
+See [LEAP#826 BMP280 Module](../../BMP280/Module/) for a demonstration of the BMP280.
 
 ### About the BMP180
 
