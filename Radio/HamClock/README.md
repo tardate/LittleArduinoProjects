@@ -124,14 +124,72 @@ I wired up an LED indicator per the doc:
 
 I just tested it with a LEDSAT satellite pass near my location (Singapore 1.3521° N, 103.8198° E). Works perfectly as described!
 
-Watching the screen as the satellite approaches ... yes, I have a very poor screen.
-This is an old Dell display that I haven't used in ages, and the screen coating is starting to self-biodegrade. I need a new screen!
-
-![satellite_up01](./assets/satellite_up01.jpg)
-
 When the satellite rises, the LED blinks at 1Hz for 1 minute before rise, stays on while risen, and blinks at 2 Hz during the last minute it is visible in the sky.
 
 ![satellite_up02](./assets/satellite_up02.jpg)
+
+Watching the screen for satellites overhead ...
+
+![satellite_up01](./assets/satellite_up01.jpg)
+
+### Rebuilding for Headless operation
+
+I removed the previous installation:
+
+    rm -fr ESPHamClock
+    rm ~/Desktop/hamclock.desktop
+    sudo rm /usr/local/bin/hamclock*
+
+Then downloaded the latest sources to build a web-only 1600x960 version:
+
+    $ wget <https://www.clearskyinstitute.com/ham/HamClock/ESPHamClock.zip>
+    $ unzip  ESPHamClock.zip
+    $ cd ESPHamClock
+    $ make help
+
+    The following targets are available (as appropriate for your system)
+
+        hamclock-800x480          X11 GUI desktop version, AKA hamclock
+        hamclock-1600x960         X11 GUI desktop version, larger, AKA hamclock-big
+        hamclock-2400x1440        X11 GUI desktop version, larger yet
+        hamclock-3200x1920        X11 GUI desktop version, huge
+
+        hamclock-web-800x480      web server only (no local display)
+        hamclock-web-1600x960     web server only (no local display), larger
+        hamclock-web-2400x1440    web server only (no local display), larger yet
+        hamclock-web-3200x1920    web server only (no local display), huge
+
+        hamclock-fb0-800x480      RPi stand-alone /dev/fb0, AKA hamclock-fb0-small
+        hamclock-fb0-1600x960     RPi stand-alone /dev/fb0, larger, AKA hamclock-fb0
+        hamclock-fb0-2400x1440    RPi stand-alone /dev/fb0, larger yet
+        hamclock-fb0-3200x1920    RPi stand-alone /dev/fb0, huge
+
+    Optional command line variables which may be set before the desired target:
+        FB_DEPTH=16 or 32         - Specify a given frame buffer pixel size (default is 32 on all but fb0)
+        WIFI_NEVER=1              - Disable WiFi fields in setup (already the default on all but fb0)
+
+    $ make -j 4 hamclock-web-1600x960
+    $ sudo make install
+
+And then startup in the background:
+
+    $ hamclock &
+    [1] 1202
+    $
+
+I am using the default ports and the Raspberry Pi is on 192.168.10.36, so I can now access hamclock interfaces
+
+* RW live view: <http://192.168.10.36:8081/live.html>
+* RO live view: <http://192.168.10.36:8082/live.html>
+* REST API e.g. get config: <http://192.168.10.36:8080/get_config.txt>
+
+The web view:
+
+![rpiweb-01a](./assets/rpiweb-01a.png)
+
+To start this automatically on each boot, run `crontab -e` then add the following as the last line:
+
+    @reboot /usr/local/bin/hamclock
 
 ## Credits and References
 
