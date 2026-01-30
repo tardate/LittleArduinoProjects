@@ -13,8 +13,10 @@ It runs the 128x64 SPI example from AdaFruit.
 
 I'm using an Arduino Pro Mini running on 3.3V at 8MHz, and driving the OLED directly.
 
-The OLED is one I got from aliexpress for USD3.93 - see the seller's page:
-[Yellow+Blue 0.96" SPI Serial 128X64 OLED](https://www.aliexpress.com/item/M89-Free-Shipping-Yellow-Blue-0-96-SPI-Serial-128X64-OLED-LCD-Display-Module-for-Arduino/32245505493.html).
+The OLED I'm using is the
+["M89 Free Shipping Yellow+Blue 0.96" SPI Serial 128X64 OLED LCD Display Module for Arduino/STM32/51" (aliexpress seller listing)](https://www.aliexpress.com/item/32245505493.html)
+purchased for US$4.64 (Jan-2015), but no longer available from this seller.
+
 Although it's a monochrome display, this unit comes with two-tinted glass, which makes the upper fifth of the screen yellow and the lower blue.
 
 The pin breakouts are slightly different from the AdaFruit module (used in the Fritzing diagram). These are the actual pin connections for my unit:
@@ -43,6 +45,9 @@ Well, that works fine. But it does use a huge amount of the memory just to do th
 
 ## Credits and References
 
+* ["M89 Free Shipping Yellow+Blue 0.96" SPI Serial 128X64 OLED LCD Display Module for Arduino/STM32/51" (aliexpress seller listing)](https://www.aliexpress.com/item/32245505493.html)
+    * Purchased for US$4.64 (Jan-2015).
+    * No longer available from this seller.
 * AdaFruit's excellent [Monochrome OLED Breakouts](https://learn.adafruit.com/monochrome-oled-breakouts/overview) page
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * Requires the [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) library

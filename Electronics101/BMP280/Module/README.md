@@ -155,7 +155,10 @@ Switching over to power-only (no serial/USB), I've attached 3.3V from a power su
 * ["1-10pcs 1.8-5V GY-BME280 5V BMP280 5V BMP280-3.3V BMP180 precision altimeter atmospheric pressure BMP280 sensor module" (aliexpress seller listing)](https://www.aliexpress.com/item/1005006824236173.html)
     * Another seller listing the BMP280 3.3V version for SG$1.38 (Jan-2026)
 * ["1-10pcs 0.91 Inch 128x32 IIC I2C White / Blue OLED LCD Display DIY Module SSD1306 Driver IC DC 3.3V 5V for arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/1005008640132638.html)
-    * Purchased for SG$2.27 (Dec-2025)
+    * Purchased for SG$2.27 free shipping eligible (Dec-2025)
+* ["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+    * Previously purchased for US$2.75 (Apr-2017).
+    * Currently listed for SG$1.79 + shipping (Jan-2026).
 * [BMP280 Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf)
 * <https://github.com/adafruit/Adafruit_BMP280_Library>
 * [Adafruit BMP280 I2C or SPI Barometric Pressure & Altitude Sensor - STEMMA QT](https://www.adafruit.com/product/2651)

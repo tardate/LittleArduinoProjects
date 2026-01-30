@@ -69,6 +69,8 @@ Testing a couple of fonts with the U8x8 library API. Flash size: 6764 bytes.
 
 * ["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
     * Purchased for US$2.75 (Apr-2017).
-    * Currently listed for SG$1.79 (Jan-2026).
+    * Currently listed for SG$1.79 + shipping (Jan-2026).
+* ["1-10pcs 0.91 Inch 128x32 IIC I2C White / Blue OLED LCD Display DIY Module SSD1306 Driver IC DC 3.3V 5V for arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/1005008640132638.html)
+    * Later purchase for SG$2.27 free shipping eligible (Dec-2025)
 * [U8glib V2 library for Arduino](https://github.com/olikraus/U8g2_Arduino)
 * [SSD1306 Datasheet](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf)
