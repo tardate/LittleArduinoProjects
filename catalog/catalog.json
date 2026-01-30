@@ -1,5 +1,15 @@
 [
     {
+        "name": "BMP280 Module",
+        "description": "Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.",
+        "categories": "BMP280, Sensors, Arduino, OLED, I2C",
+        "relative_path": "electronics101/bmp280/module",
+        "updated_at": "2026-01-30T04:18:00Z",
+        "created_at": "2026-01-30T04:18:00Z",
+        "id": "#826",
+        "original_relative_path": "Electronics101/BMP280/Module"
+    },
+    {
         "id": "#825",
         "name": "XL4015 0.8-30V CC/CV Buck Converter with Dual Display",
         "description": "Testing an XL4015-based buck converter with adjustable voltage and current controls and display. The serial interface is tested with a python script to capture current and voltage readings from the measurement board.",
@@ -2531,9 +2541,9 @@
     },
     {
         "id": "#572",
-        "name": "PowerMeter",
+        "name": "Power Meter",
         "description": "A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.",
-        "categories": "Arduino, AVR, INA226, Sensors",
+        "categories": "Arduino, AVR, INA226, Sensors, OLED",
         "relative_path": "equipment/powermeter",
         "updated_at": "2020-01-29T00:25:48Z",
         "created_at": "2020-01-29T00:25:48Z",

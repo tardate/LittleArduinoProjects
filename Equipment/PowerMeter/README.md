@@ -1,4 +1,4 @@
-# #572 PowerMeter
+# #572 Power Meter
 
 A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.
 
@@ -6,7 +6,7 @@ A voltage, current and power meter using the INA226, with an ATtiny85 driving th
 
 ## Notes
 
-I played around with INA226 high-side power monitoring in [LEAP#504](../../Electronics101/INA226/HighSideMonitorBasics).
+I played around with INA226 high-side power monitoring in [LEAP#504](../../Electronics101/INA226/HighSideMonitorBasics/).
 It is a great little chip with an I²C interface.
 
 This project puts it together with an ATtiny85 and 128X32 OLED display to act as an inline power meter.
@@ -56,6 +56,10 @@ To verify the basics, I first setup the project on a breadboard, and ran it with
 When compiled for an Uno, the [PowerMeter.ino](./PowerMeter.ino) sketch uses the
 standard [Wire](https://www.arduino.cc/en/reference/wire) library for communications with the INA226 and OLED,
 and the [u8g2lib](https://github.com/olikraus/U8g2_Arduino) library for driving the OLED display.
+
+For the display, I'm using a
+["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+purchased for US$2.75 (Apr-2017), currently listed for SG$1.79 (Jan-2026).
 
 ![Breadboard](./assets/PowerMeterArduino_bb.jpg?raw=true)
 
@@ -150,6 +154,9 @@ A few ideas:
 
 * [LEAP#504 INA226 High-side Monitor Basics](../../Electronics101/INA226/HighSideMonitorBasics)
 * [INA226 product info and datasheet](http://www.ti.com/product/INA226)
+* ["1pcs 0.91 inch OLED module 0.91" white OLED 128X32 OLED LCD LED Display Module 0.91" IIC Communicate" (aliexpress seller listing)](https://www.aliexpress.com/item/32672229793.html)
+    * Purchased for US$2.75 (Apr-2017).
+    * Currently listed for SG$1.79 (Jan-2026).
 * [Wire library](https://www.arduino.cc/en/reference/wire)
 * [u8g2lib](https://github.com/olikraus/U8g2_Arduino) - v2 for monochrome displays
 * [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) - I²C for the ATtiny

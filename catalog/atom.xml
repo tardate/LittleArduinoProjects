@@ -7,12 +7,26 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-01-21T09:20:00Z</updated>
+  <updated>2026-01-30T04:18:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/bmp280/module/</id>
+    <link href="https://leap.tardate.com/electronics101/bmp280/module/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/bmp280/module/assets/module_build.jpg</g:image_link>
+    <updated>2026-01-30T04:18:00Z</updated>
+    <title>#826 BMP280 Module</title>
+    <summary>Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-BMP280-3.3 module and an Arduino Mini with 128x32 OLED display operating at 3.3V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/bmp280/module/assets/module_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="BMP280"/>
+    <category term="Sensors"/>
+    <category term="Arduino"/>
+    <category term="OLED"/>
+    <category term="I2C"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/</id>
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module2/"/>
@@ -2854,13 +2868,14 @@
     <link href="https://leap.tardate.com/equipment/powermeter/"/>
     <g:image_link>https://leap.tardate.com/equipment/powermeter/assets/powermeter_build.jpg</g:image_link>
     <updated>2020-01-29T00:25:48Z</updated>
-    <title>#572 PowerMeter</title>
+    <title>#572 Power Meter</title>
     <summary>A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A voltage, current and power meter using the INA226, with an ATtiny85 driving the process and displaying measurements to a 128X32 OLED display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/powermeter/assets/powermeter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
     <category term="INA226"/>
     <category term="Sensors"/>
+    <category term="OLED"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/tracetogethertoken/</id>
