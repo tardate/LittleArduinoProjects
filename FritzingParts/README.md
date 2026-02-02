@@ -37,6 +37,7 @@ If the part source is not in a reliable repository (e.g. GitHub), I may copy the
 * [ESP12E (local copy)](./cached/ESP12E.fzpz) - [original source](https://github.com/mathijswesterhof/Fritzing-parts/blob/master/ESP%2012E.fzpz)
 * [ESP32 DevKit (local copy)](./cached/ESP32S_HiLetgo.fzpz) - [original source](https://forum.fritzing.org/t/esp32s-hiletgo-dev-boad-with-pinout-template/5357?u=steelgoose)
 * [HC-SR04 (local copy)](./cached/HC-SR04.fzpz) - [original source](http://fritzing.org/projects/hc-sr04-project)
+* [Neon Lamp](./cached/Neon%20Lamp.fzpz) - [original source](https://forum.fritzing.org/t/neon-lamp-wheat-bulb/5818)
 * [Pico-R3 (local copy)](./cached/Pico-R3-Fritzing.fzpz) - [original source](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
 * [PicoH (local copy)](./cached/PicoH-Fritzing.fzpz) - [original source](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
 * [PicoW (local copy)](./cached/PicoW-Fritzing.fzpz) - [original source](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
