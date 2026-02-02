@@ -1,6 +1,6 @@
-# 827 Little Electronic Art Projects
+# 828 Little Electronic Art Projects
 
-> Latest addition :sparkles: [BMP180 Module](./Electronics101/BMP180/Module) - Examine the BMP180 barometric pressure and temperature sensor. Demonstrate its functionality with a common GY-68 module and an Arduino Uno with 128x32 OLED display.
+> Latest addition :sparkles: [220V DC Boost Inverter](./Electronics101/Power/220VInverter) - Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
