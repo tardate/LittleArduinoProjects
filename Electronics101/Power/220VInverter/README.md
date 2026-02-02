@@ -1,4 +1,4 @@
-# #xxx 220V DC Boost Inverter
+# #828 220V DC Boost Inverter
 
 Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
 
