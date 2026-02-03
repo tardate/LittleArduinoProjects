@@ -14,13 +14,13 @@
     <uri>https://github.com/tardate</uri>
   </author>
   <entry>
-    <id>https://leap.tardate.com/electronics101/power/220vinverter/</id>
-    <link href="https://leap.tardate.com/electronics101/power/220vinverter/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/power/220vinverter/assets/220vinverter_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/power/220vboostconvertermodule/</id>
+    <link href="https://leap.tardate.com/electronics101/power/220vboostconvertermodule/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/220vboostconvertermodule/assets/220vboostconvertermodule_build.jpg</g:image_link>
     <updated>2026-02-02T16:46:00Z</updated>
     <title>#828 220V DC Boost Converter Module</title>
     <summary>Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/220vinverter/assets/220vinverter_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/220vboostconvertermodule/assets/220vboostconvertermodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Step-up Converter"/>
   </entry>

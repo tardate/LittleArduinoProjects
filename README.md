@@ -1,6 +1,6 @@
 # 828 Little Electronic Art Projects
 
-> Latest addition :sparkles: [220V DC Boost Converter Module](./Electronics101/Power/220VInverter) - Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
+> Latest addition :sparkles: [220V DC Boost Converter Module](./Electronics101/Power/220vBoostConverterModule) - Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

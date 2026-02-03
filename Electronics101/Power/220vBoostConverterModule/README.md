@@ -2,7 +2,7 @@
 
 Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
 
-![Build](./assets/220VInverter_build.jpg?raw=true)
+![Build](./assets/220vBoostConverterModule_build.jpg?raw=true)
 
 ## Notes
 
@@ -10,7 +10,7 @@ I purchased a
 ["DC 12-16.8V to 220V Boost Inverter Module High-Power 100W Boost Module Outdoor Universal Solar Panel Inverter DIY Electronic Kit" (aliexpress seller listing)](https://www.aliexpress.com/item/1005010587445476.html)
 for SG$3.80 (Jan-2026).
 
-This is a common 220V DC boost converter design, available from many sources.
+This is a common 220V DC boost converter design, available from many sources. The board I have is marked "GHX-120-A".
 
 [![module-front](./assets/module-front.jpg)](https://www.aliexpress.com/item/1005010587445476.html)
 
@@ -46,7 +46,7 @@ As provided by the seller:
 >
 > Important Notes:
 >
-> * This product accepts only 12-16.8V battery input, converting it to 220V AC output. Do not reverse polarity or connect to electric vehicles. Ensure all connections are correct before applying battery power.
+> * This product accepts only 12-16.8V battery input, converting it to 220V DC output *[Note: seller specs incorrectly state "AC output"]*. Do not reverse polarity or connect to electric vehicles. Ensure all connections are correct before applying battery power.
 > * Install a cooling fan for extended operation or use in enclosed spaces. Do not test the output terminals with a multimeter.
 > * This is a high-frequency inverter module. Exercise personal safety precautions during use and operate strictly according to specifications while ensuring safety.
 
@@ -59,6 +59,10 @@ Three connection points:
 * Fan
     * Note: this is simply wired in parallel with the DC input
 * Output
+    * L+ (left) is the high-voltage output
+    * N- (right) is the high-voltage ground
+    * On some boards, like the GHX-120-A I have, the output terminals are not individually labelled. They are simply marked "输出220V" ("Output 220V"), although the function remains as indicated above.
+    * The output is floating with respect to the input by default.
 
 ![module-usage](./assets/module-usage.jpg)
 
@@ -72,6 +76,7 @@ I've redrawn the module construction below. Some key points:
 * I'm only guessing Q1 and Q2 are IRF610 - appear to be, but markings have been removed
 * We seem to have an oscillator driving the input windings to the transformer comprising the LC circuit and the two mosfets
 * Transformer output is converted to DC with a full bridge rectifier and smoothing cap C1
+* D1 provides rudimentary reverse-polarity input protection.
 
 ![module-schematic](./assets/module-schematic.jpg)
 
@@ -83,15 +88,15 @@ For a quick test, I'm just loading the output with some high-voltage neon lamps:
     * purchased 60 for US $2.87/lot (Nov-2018).
 * With a 150kΩ current-limiting resistor
 
-Designed with Fritzing: see [220VInverter.fzz](./220VInverter.fzz).
+Designed with Fritzing: see [220vBoostConverterModule.fzz](./220vBoostConverterModule.fzz).
 
-![bb](./assets/220VInverter_bb.jpg?raw=true)
+![bb](./assets/220vBoostConverterModule_bb.jpg?raw=true)
 
-![schematic](./assets/220VInverter_schematic.jpg?raw=true)
+![schematic](./assets/220vBoostConverterModule_schematic.jpg?raw=true)
 
 Wired up and ready to test:
 
-![bb_build](./assets/220VInverter_bb_build.jpg?raw=true)
+![bb_build](./assets/220vBoostConverterModule_bb_build.jpg?raw=true)
 
 ### Test
 
@@ -145,9 +150,23 @@ While the lamp doubled the load, it hasn't helped with regulation.
 
 ![test-flame-lamp](./assets/test-flame-lamp.jpg)
 
+### Output Isolation
+
+The output is floating with respect to the input.
+i.e. if one attempts to measure LV ground to either HV- or HV+, the act of taking the measurement will un-float the respective output terminal and the reading will be ~0V.
+
+I *gingerly* tested connecting/shorting LV ground to HV ground:
+
+* This fixes the output relative to the input ground.
+* It **appears** to work without any negative affects.
+    * I checked for any changes in voltage drops across diodes, but could not find any differences.
+    * I **cannot** guarantee this though.
+
+![test-isolation](./assets/test-isolation.jpg)
+
 ### Conclusion
 
-The converter is very effective, but totally unregulated - at 12V input under the loads tested, the output voltage was already well over 220V.
+The converter is effective, but totally unregulated - at 12V input, the output voltage was already well over 220V with the loads under test.
 
 The input voltage needs to be adjusted to ensure the required output is generated for a given load.
 
