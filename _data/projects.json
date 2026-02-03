@@ -1,5 +1,5 @@
 {
-    "/electronics101/power/220vinverter/": {
+    "/electronics101/power/220vboostconvertermodule/": {
         "id": 828,
         "title": "220V DC Boost Converter Module",
         "summary": "Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.",
