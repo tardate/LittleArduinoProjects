@@ -1,6 +1,6 @@
 # #597 Simple Wireless Power LED
 
-Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration.
+Researching wireless power transmission and building a simple wirelessly-powered LED demonstration.
 
 ![Build](./assets/WirelessLed_build.jpg?raw=true)
 
@@ -9,7 +9,7 @@ Researching wireless power transmission and building a simpel wirelessly-powered
 The Qi standard for mobile wireless charging was released in 2011 by the [Wireless Power Consortium](https://www.wirelesspowerconsortium.com/),
 and since then wireless power has become pretty mainstream.
 
-In al that time I've not paid much attention except increasingly as a user. But now I ahve the itch to try and incorporate wireless power in more projects.
+In al that time I've not paid much attention except increasingly as a user. But now I have the itch to try and incorporate wireless power in more projects.
 
 So, this project is starting with the most basic demonstration - powering an LED wirelessly.
 
@@ -19,10 +19,10 @@ The power transmitter consists of a self-governing flyback oscillator, similar t
 The two halves of the coil are wound in a continuous concentric circle - meaning that current flow is opposed in each half. Basic operation:
 
 * on startup, current flows to the base of the transistor, turning it on
-* as the transistor turns on, the current in the collector coild induces a field with opposes the flow of current in the coil to the base
+* as the transistor turns on, the current in the collector coil induces a field with opposes the flow of current in the coil to the base
 * as the the base current reduces, the transistor turns off producing a large flyback voltage spike and the cycle repeats
 
-The receiver is a simple coild that electromagnetically couples with the transmission coil.
+The receiver is a simple coil that electromagnetically couples with the transmission coil.
 A LED rectifies the current flow and lights up accordingly.
 
 ![Breadboard](./assets/WirelessLed_bb.jpg?raw=true)
@@ -61,7 +61,7 @@ The second coil was a test to downsize a little: smaller coil and wire, compensa
 
 ## Next Steps
 
-This was very much a "suck it and see" experiment. It works, but the power transfered is very low.
+This was very much a "suck it and see" experiment. It works, but the power transferred is very low.
 
 Next I'd like to investigate increasing the power, range and efficiency:
 
@@ -72,7 +72,6 @@ Next I'd like to investigate increasing the power, range and efficiency:
 Some references for inspiration:
 
 * [Software-Based Wireless Power Transfer Platform for Various Power Control Experiments](https://www.researchgate.net/publication/269301485_Software-Based_Wireless_Power_Transfer_Platform_for_Various_Power_Control_Experiments)
-
 
 ## Credits and References
 

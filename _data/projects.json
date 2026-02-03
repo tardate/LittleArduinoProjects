@@ -1,10 +1,11 @@
 {
     "/electronics101/power/220vinverter/": {
         "id": 828,
-        "title": "220V DC Boost Inverter",
-        "summary": "Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.",
+        "title": "220V DC Boost Converter Module",
+        "summary": "Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.",
         "tags": [
-            "Power"
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/electronics101/bmp180/module/": {
@@ -39,7 +40,8 @@
             "Power",
             "SMPS",
             "XL4015",
-            "python"
+            "python",
+            "Step-down Converter"
         ]
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/": {
@@ -49,7 +51,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "MP2307"
+            "MP2307",
+            "Step-down Converter"
         ]
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/": {
@@ -59,7 +62,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "XL4015"
+            "XL4015",
+            "Step-down Converter"
         ]
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/": {
@@ -69,7 +73,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "LM2596"
+            "LM2596",
+            "Step-down Converter"
         ]
     },
     "/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/": {
@@ -79,7 +84,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "LM2596"
+            "LM2596",
+            "Step-down Converter"
         ]
     },
     "/electronics101/74ls47/fullcycle/": {
@@ -558,7 +564,8 @@
         "title": "Zener Dropper",
         "summary": "Using a zener diode as a voltage dropper/shifter",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/radio/soldersmokedcrx/": {
@@ -612,7 +619,8 @@
         "summary": "Designing and testing a circuit to drive and switch an output between 3 voltage levels (0v, VCC, 2.4xVCC) from a single GPIO pin. Tested with an Arduino Uno running at 5V driving a 0V, 5V, 12V output on a single GPIO pin.",
         "tags": [
             "Arduino",
-            "Power"
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/radio/lpd433/ht12/simpledemo/": {
@@ -668,7 +676,8 @@
         "title": "AAA 5v Power Pack",
         "summary": "Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.",
         "tags": [
-            "Power"
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/electronics101/pwm/motorcontrolmodule/": {
@@ -714,7 +723,8 @@
         "title": "9V (PP3) to 5V or 3.3V Power Adapter",
         "summary": "Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.",
         "tags": [
-            "Power"
+            "Power",
+            "Step-down Converter"
         ]
     },
     "/equipment/nlb/lionsforgecraftlaser/": {
@@ -1487,7 +1497,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "MC34063"
+            "MC34063",
+            "Step-down Converter"
         ]
     },
     "/books/build-your-own-transistor-radios/": {
@@ -1710,7 +1721,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "MT3608"
+            "MT3608",
+            "Step-up Converter"
         ]
     },
     "/books/electronics-cookbook/": {
@@ -1993,7 +2005,8 @@
         "summary": "Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.",
         "tags": [
             "Arduino",
-            "Power"
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/electronics101/555timer/laserray/": {
@@ -2029,7 +2042,9 @@
         "summary": "Testing a voltage doubler circuit based on a CD4049 inverter-driven bucket brigade.",
         "tags": [
             "CMOS/TTL",
-            "CD4049"
+            "CD4049",
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/electronics101/cd4049/relaxationoscillator/": {
@@ -2080,7 +2095,8 @@
         "tags": [
             "CMOS/TTL",
             "CD40106",
-            "Power"
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/kinetics/servomotors/lowpowerminiservos/": {
@@ -2125,7 +2141,7 @@
     "/electronics101/power/wirelessled/": {
         "id": 597,
         "title": "Simple Wireless Power LED",
-        "summary": "Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration",
+        "summary": "Researching wireless power transmission and building a simple wirelessly-powered LED demonstration",
         "tags": [
             "Power",
             "Wireless",
@@ -2169,7 +2185,8 @@
         "tags": [
             "CMOS/TTL",
             "74HC14",
-            "Power"
+            "Power",
+            "Step-up Converter"
         ]
     },
     "/kraft/snowflake/lamp/": {
@@ -2389,7 +2406,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "MT3608"
+            "MT3608",
+            "Step-up Converter"
         ]
     },
     "/playground/power/multivoltagegpio/": {
@@ -2686,7 +2704,8 @@
         "summary": "An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter",
         "tags": [
             "Power",
-            "BMS"
+            "BMS",
+            "Step-up Converter"
         ]
     },
     "/electronics101/schmitttrigger/switchdebouncer/": {
@@ -3642,7 +3661,8 @@
         "tags": [
             "Power",
             "LED",
-            "Solar"
+            "Solar",
+            "Step-Up Converter"
         ]
     },
     "/playground/rfid/devicedumper/": {
@@ -3660,7 +3680,8 @@
         "summary": "using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery",
         "tags": [
             "Power",
-            "LED"
+            "LED",
+            "Step-Up Converter"
         ]
     },
     "/kinetics/beam/vivian/": {
@@ -3877,7 +3898,8 @@
         "tags": [
             "Power",
             "Nixie",
-            "555 Timer"
+            "555 Timer",
+            "Step-Up Converter"
         ]
     },
     "/electronics101/decadeprogrammableresistor/": {
@@ -4422,7 +4444,8 @@
             "Power",
             "Kit",
             "SMPS",
-            "MC34063"
+            "MC34063",
+            "Step-down Converter"
         ]
     },
     "/boldportclub/themonarch/": {
@@ -4584,7 +4607,8 @@
         "tags": [
             "Power",
             "USB",
-            "Kit"
+            "Kit",
+            "Step-down Converter"
         ]
     },
     "/boldportclub/ixpando/": {
@@ -4835,7 +4859,8 @@
         "tags": [
             "Power",
             "SMPS",
-            "MT3608"
+            "MT3608",
+            "Step-up Converter"
         ]
     },
     "/playground/eeprom/at28c16/peprogrammer/": {
@@ -5105,7 +5130,8 @@
             "Power",
             "ATtiny",
             "Arduino",
-            "SMPS"
+            "SMPS",
+            "Step-up/down Converter"
         ]
     },
     "/electronics101/ultrasonicalarm/": {
@@ -5825,7 +5851,8 @@
         "tags": [
             "Power",
             "Arduino",
-            "SMPS"
+            "SMPS",
+            "Step-down Converter"
         ]
     },
     "/oshchip/ledx16module/": {
@@ -5880,7 +5907,8 @@
         "summary": "Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.",
         "tags": [
             "Power",
-            "SMPS"
+            "SMPS",
+            "Step-down Converter"
         ]
     },
     "/audio/audioamps/tda7297kit/": {
@@ -6157,7 +6185,8 @@
         "summary": "build and test a mains-powered 1.25V-12V DC LM317 power supply kit",
         "tags": [
             "Power",
-            "Kit"
+            "Kit",
+            "Linear Regulator"
         ]
     },
     "/electronics101/meters/voltmetermodule/": {
@@ -6319,7 +6348,8 @@
         "title": "LM2662 Inverter",
         "summary": "test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter",
         "tags": [
-            "Power"
+            "Power",
+            "Inverter"
         ]
     },
     "/electronics101/oscillators/watsonledring/": {
@@ -6348,7 +6378,8 @@
             "Power",
             "LM2577S",
             "LM2596S",
-            "SMPS"
+            "SMPS",
+            "Step-up/down Converter"
         ]
     },
     "/electronics101/ml741/noninvertingamplifier/": {
@@ -6428,7 +6459,8 @@
         "title": "AMS1117 Regulator",
         "summary": "test an AMS1117 3.3V linear regulator",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/power/linearregulators/ld1117/": {
@@ -6436,7 +6468,8 @@
         "title": "LD1117 Regulator",
         "summary": "test an LD1117 3.3V linear regulator",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/ml741/comparator/": {
@@ -6990,7 +7023,8 @@
         "title": "LM317 Constant Current Power Supply",
         "summary": "test a constant current power supply built with the LM317",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/switchpjfet/": {
@@ -7292,7 +7326,8 @@
         "summary": "an LM7805 5V regulated power supply on breadboard-compatible protoboard",
         "tags": [
             "Breadboard Bling",
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/555timer/twotonedoorbell/": {
@@ -7577,7 +7612,8 @@
         "title": "Zener Regulator",
         "summary": "Using a zener diode as a voltage regulator",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/power/mb102breadboardpowersupply/": {
@@ -7585,7 +7621,8 @@
         "title": "MB102 3.3/5V Breadboard Power Supply",
         "summary": "demo and test a commercial 3.3/5V MB102 breadboard power supply unit",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/power/linearregulators/lm7805/": {
@@ -7593,7 +7630,8 @@
         "title": "LM7805 Regulator",
         "summary": "demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/power/linearregulators/lm317/": {
@@ -7601,7 +7639,8 @@
         "title": "LM317 Adjustable Regulator",
         "summary": "Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing",
         "tags": [
-            "Power"
+            "Power",
+            "Linear Regulator"
         ]
     },
     "/electronics101/quadlatch/": {

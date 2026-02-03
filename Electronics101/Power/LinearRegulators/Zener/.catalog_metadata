@@ -2,7 +2,7 @@
     "id": "#029",
     "name": "Zener Regulator",
     "description": "Using a zener diode as a voltage regulator",
-    "categories": "Power",
+    "categories": "Power, Linear Regulator",
     "relative_path": "Electronics101/Power/LinearRegulators/Zener",
     "updated_at": "2021-07-20T17:12:56Z",
     "created_at": "2021-07-20T17:12:56Z"

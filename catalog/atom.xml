@@ -18,10 +18,11 @@
     <link href="https://leap.tardate.com/electronics101/power/220vinverter/"/>
     <g:image_link>https://leap.tardate.com/electronics101/power/220vinverter/assets/220vinverter_build.jpg</g:image_link>
     <updated>2026-02-02T16:46:00Z</updated>
-    <title>#828 220V DC Boost Inverter</title>
-    <summary>Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/220vinverter/assets/220vinverter_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#828 220V DC Boost Converter Module</title>
+    <summary>Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/220vinverter/assets/220vinverter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/bmp180/module/</id>
@@ -63,6 +64,7 @@
     <category term="SMPS"/>
     <category term="XL4015"/>
     <category term="python"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/mp2307module1/</id>
@@ -75,6 +77,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MP2307"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/xl4015module1/</id>
@@ -87,6 +90,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="XL4015"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule2/</id>
@@ -99,6 +103,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="LM2596"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/lm2596smodule1/</id>
@@ -111,6 +116,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="LM2596"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/74ls47/fullcycle/</id>
@@ -688,6 +694,7 @@
     <summary>Using a zener diode as a voltage dropper/shifter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a zener diode as a voltage dropper/shifter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/zenerdropper/assets/zenerdropper_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/soldersmokedcrx/</id>
@@ -754,6 +761,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Designing and testing a circuit to drive and switch an output between 3 voltage levels (0v, VCC, 2.4xVCC) from a single GPIO pin. Tested with an Arduino Uno running at 5V driving a 0V, 5V, 12V output on a single GPIO pin.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/dicksonchargepump/onepinthreev/assets/onepinthreev_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/radio/lpd433/ht12/simpledemo/</id>
@@ -822,6 +830,7 @@
     <summary>Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/aaa5vpower/assets/aaa5vpower_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/pwm/motorcontrolmodule/</id>
@@ -878,6 +887,7 @@
     <summary>Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/pp3power/assets/pp3power_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/nlb/lionsforgecraftlaser/</id>
@@ -1827,6 +1837,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MC34063"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/build-your-own-transistor-radios/</id>
@@ -2100,6 +2111,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MT3608"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/electronics-cookbook/</id>
@@ -2445,6 +2457,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/assets/halfwave_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/laserray/</id>
@@ -2489,6 +2502,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing a voltage doubler circuit based on a CD4049 inverter-driven bucket brigade.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/cd4049/voltagedoubler/assets/voltagedoubler_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
     <category term="CD4049"/>
+    <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4049/relaxationoscillator/</id>
@@ -2550,6 +2565,7 @@
     <category term="CMOS/TTL"/>
     <category term="CD40106"/>
     <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/servomotors/lowpowerminiservos/</id>
@@ -2604,8 +2620,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/wirelessled/assets/wirelessled_build.jpg</g:image_link>
     <updated>2021-08-19T14:19:11Z</updated>
     <title>#597 Simple Wireless Power LED</title>
-    <summary>Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Researching wireless power transmission and building a simpel wirelessly-powered LED demonstration&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/wirelessled/assets/wirelessled_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Researching wireless power transmission and building a simple wirelessly-powered LED demonstration</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Researching wireless power transmission and building a simple wirelessly-powered LED demonstration&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/wirelessled/assets/wirelessled_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Wireless"/>
     <category term="LED"/>
@@ -2657,6 +2673,7 @@
     <category term="CMOS/TTL"/>
     <category term="74HC14"/>
     <category term="Power"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kraft/snowflake/lamp/</id>
@@ -2923,6 +2940,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MT3608"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/power/multivoltagegpio/</id>
@@ -3284,6 +3302,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/batterymanagement/singlecellchargeboostboard/assets/singlecellchargeboostboard_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="BMS"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/schmitttrigger/switchdebouncer/</id>
@@ -4438,6 +4457,7 @@
     <category term="Power"/>
     <category term="LED"/>
     <category term="Solar"/>
+    <category term="Step-Up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rfid/devicedumper/</id>
@@ -4460,6 +4480,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/leddrivers/qx5252joulethief/assets/qx5252joulethief_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="LED"/>
+    <category term="Step-Up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/beam/vivian/</id>
@@ -4721,6 +4742,7 @@
     <category term="Power"/>
     <category term="Nixie"/>
     <category term="555 Timer"/>
+    <category term="Step-Up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/decadeprogrammableresistor/</id>
@@ -5380,6 +5402,7 @@
     <category term="Kit"/>
     <category term="SMPS"/>
     <category term="MC34063"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/themonarch/</id>
@@ -5576,6 +5599,7 @@
     <category term="Power"/>
     <category term="USB"/>
     <category term="Kit"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/ixpando/</id>
@@ -5879,6 +5903,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MT3608"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/eeprom/at28c16/peprogrammer/</id>
@@ -6203,6 +6228,7 @@
     <category term="ATtiny"/>
     <category term="Arduino"/>
     <category term="SMPS"/>
+    <category term="Step-up/down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ultrasonicalarm/</id>
@@ -7065,6 +7091,7 @@
     <category term="Power"/>
     <category term="Arduino"/>
     <category term="SMPS"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/oshchip/ledx16module/</id>
@@ -7132,6 +7159,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+    <category term="Step-down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/tda7297kit/</id>
@@ -7467,6 +7495,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and test a mains-powered 1.25V-12V DC LM317 power supply kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/powersupply317kit/assets/powersupply317kit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="Kit"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/meters/voltmetermodule/</id>
@@ -7663,6 +7692,7 @@
     <summary>test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a negative 5V power supply using the LM2662 Switched Capacitor Voltage Converter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/lm2662inverter/assets/lm2662inverter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Inverter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/watsonledring/</id>
@@ -7698,6 +7728,7 @@
     <category term="LM2577S"/>
     <category term="LM2596S"/>
     <category term="SMPS"/>
+    <category term="Step-up/down Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/noninvertingamplifier/</id>
@@ -7796,6 +7827,7 @@
     <summary>test an AMS1117 3.3V linear regulator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test an AMS1117 3.3V linear regulator&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/linearregulators/ams1117/assets/ams1117_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/linearregulators/ld1117/</id>
@@ -7806,6 +7838,7 @@
     <summary>test an LD1117 3.3V linear regulator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test an LD1117 3.3V linear regulator&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/linearregulators/ld1117/assets/ld1117_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ml741/comparator/</id>
@@ -8480,6 +8513,7 @@
     <summary>test a constant current power supply built with the LM317</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;test a constant current power supply built with the LM317&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/linearregulators/lm317cc/assets/lm317cc_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/switchpjfet/</id>
@@ -8846,6 +8880,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;an LM7805 5V regulated power supply on breadboard-compatible protoboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/breadboard5v/assets/breadboard5v_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Breadboard Bling"/>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/twotonedoorbell/</id>
@@ -9193,6 +9228,7 @@
     <summary>Using a zener diode as a voltage regulator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using a zener diode as a voltage regulator&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/linearregulators/zener/assets/zener_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/mb102breadboardpowersupply/</id>
@@ -9203,6 +9239,7 @@
     <summary>demo and test a commercial 3.3/5V MB102 breadboard power supply unit</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demo and test a commercial 3.3/5V MB102 breadboard power supply unit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/mb102breadboardpowersupply/assets/mb102breadboardpowersupply_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/linearregulators/lm7805/</id>
@@ -9213,6 +9250,7 @@
     <summary>demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demonstrates the LM7805 5V regulator, using an Arduino to measure the voltage supply and plot the results with Processing&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/linearregulators/lm7805/assets/lm7805_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/linearregulators/lm317/</id>
@@ -9223,6 +9261,7 @@
     <summary>Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Demonstrates the LM317 voltage regulator, using an Arduino to measure the voltage supply and plot the results with Processing&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/linearregulators/lm317/assets/lm317_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Linear Regulator"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/quadlatch/</id>
