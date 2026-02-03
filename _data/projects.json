@@ -1,8 +1,8 @@
 {
     "/electronics101/power/220vinverter/": {
         "id": 828,
-        "title": "220V DC Boost Inverter",
-        "summary": "Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.",
+        "title": "220V DC Boost Converter Module",
+        "summary": "Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.",
         "tags": [
             "Power"
         ]

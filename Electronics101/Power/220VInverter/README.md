@@ -1,6 +1,6 @@
-# #828 220V DC Boost Inverter
+# #828 220V DC Boost Converter Module
 
-Review a common 12-16.8V DC to 220V DC inverter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
+Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
 
 ![Build](./assets/220VInverter_build.jpg?raw=true)
 
@@ -10,7 +10,7 @@ I purchased a
 ["DC 12-16.8V to 220V Boost Inverter Module High-Power 100W Boost Module Outdoor Universal Solar Panel Inverter DIY Electronic Kit" (aliexpress seller listing)](https://www.aliexpress.com/item/1005010587445476.html)
 for SG$3.80 (Jan-2026).
 
-This is a common 220V DC inverter design, available from many sources.
+This is a common 220V DC boost converter design, available from many sources.
 
 [![module-front](./assets/module-front.jpg)](https://www.aliexpress.com/item/1005010587445476.html)
 
@@ -147,9 +147,9 @@ While the lamp doubled the load, it hasn't helped with regulation.
 
 ### Conclusion
 
-The converter is very effective, but totally unregulated - at 12V.
+The converter is very effective, but totally unregulated - at 12V input under the loads tested, the output voltage was already well over 220V.
 
-The input voltage needs to be adjusted to ensure the required output is generated.
+The input voltage needs to be adjusted to ensure the required output is generated for a given load.
 
 ## Credits and References
 
@@ -157,5 +157,9 @@ The input voltage needs to be adjusted to ensure the required output is generate
     * purchased for SG$3.80 (Jan-2026)
 * ["60pcs Neonlight Indicator Light Sign Lamp Assorted 4 * 10mm 5 * 12mm 6 * 16mm 20pcs each Red Vermelho Neon Light Lampada Bulb" (aliexpress seller listing)](https://www.aliexpress.com/item/32343993534.html)
     * purchased 60 (20 x 4mm, 20 x 5mm, 20 x 6mm) for US $2.87/lot (Nov-2018).
+    * no longer offered by this seller
 * ["New 1 Pc Flame/Candle Shapes E14 3W Fire LED Light Edison Bulb Lighting Vintage Flickering Effect Tungsten Novel Candle Tip Lamp" (aliexpress seller listing)](https://www.aliexpress.com/item/1005002870869026.html)
     * purchased for SG$1.35 each (Nov-2021)
+    * no longer offered by this seller
+* ["1Pc White Mini Screw Lamp Base E12 E14 E17 Supporto Lamp Holder Light Bulb Socket Holder Adapter Lamp Fixing Base Accessories" (aliexpress seller listing)](https://www.aliexpress.com/item/1005010020673536.html)
+    * E14 lamp holder purchased for SG$1.96 (Jan-2026)
