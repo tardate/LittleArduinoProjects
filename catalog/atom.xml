@@ -5716,8 +5716,8 @@
     <g:image_link>https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg</g:image_link>
     <updated>2017-08-08T01:40:16Z</updated>
     <title>#331 Getting Blinky with PIC Assembler</title>
-    <summary>getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. While PICkit 3 is still working on Windows and Linux, it now fails on macOS. As an interim measure, I demonstrate compiling on macOS and using a script to remotely program on Ubuntu.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. While PICkit 3 is still working on Windows and Linux, it now fails on macOS. As an interim measure, I demonstrate compiling on macOS and using a script to remotely program on Ubuntu.&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
   </entry>

@@ -4705,7 +4705,7 @@
     "/pic/gettingblinky/": {
         "id": 331,
         "title": "Getting Blinky with PIC Assembler",
-        "summary": "getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!",
+        "summary": "Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. While PICkit 3 is still working on Windows and Linux, it now fails on macOS. As an interim measure, I demonstrate compiling on macOS and using a script to remotely program on Ubuntu.",
         "tags": [
             "PIC",
             "LED"
