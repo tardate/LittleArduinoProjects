@@ -1,15 +1,15 @@
-# #390 GettingBlinky/UsingC
+# #390 Getting Blinky with PIC C
 
-Getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!
+Getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again!
 
 ![Build](./assets/UsingC_build.jpg?raw=true)
 
 ## Notes
 
-The [LEAP#331 GettingBlinky](../) project was a simple test of the PIC12F675 with PIC assembler.
+The [LEAP#331 Getting Blinky with PIC Assembler](../) project was a simple test of the PIC12F675 with PIC assembler.
 See that project for details of the PIC12F675 Development Board I'm using.
 
-As the PIC12F675 is one of the lowerend 8-bit chips in the PIC family, I wasn't sure at first how
+As the PIC12F675 is one of the lower-end 8-bit chips in the PIC family, I wasn't sure at first how
 well it might be supported by C compilers. Well, I shouldn't have been concerned. In addition
 to support from independent compiler makers, Microchip offer their own XC Compilers
 
@@ -22,9 +22,15 @@ I started with a useful tutorial by Luke Briner explaining the differences betwe
 
 ## Toolchain
 
-I'm using [MPLAB X IDE v3.51](http://www.microchip.com/mplab/mplab-x-ide)
-and [MPLAB XC8](http://www.microchip.com/mplab/compilers) running on MacOSX,
-and a [PicKit 3 programmer](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html).
+I'm using
+[MPLAB X IDE v3.51](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+and
+[MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+running on macOS,
+and a clone PICkit 3 programmer:
+["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html)
+purchased for US$18.85 (Feb-2017).
+
 NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
 
 ### The New Project Wizard
@@ -101,7 +107,7 @@ What I discovered you **can't** do safely is this:
 ## Programming
 
 I initially tested the code using a PIC12F675 Development Board as detailed in
-[LEAP#331 GettingBlinky](../). Works like a charm!
+[LEAP#331 Getting Blinky with PIC Assembler](../). Works like a charm!
 
 ![UsingC_devboard_build](./assets/UsingC_devboard_build.jpg?raw=true)
 
@@ -124,7 +130,8 @@ And running independently with a 5V power supply.
 ## Credits and References
 
 * [mikroC](https://www.mikroe.com/mikroc-pic)
-* [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
-* [MPLAB XC8](http://www.microchip.com/mplab/compilers)
-* [PicKit 3 programmer](https://www.aliexpress.com/item/pickit-3-Programming-emulator-PIC-microcontroller-minimum-system-board-development-board-universal-programmer-seat/1734894366.html)
+* [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+* [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+* ["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html)
+    * Purchased for US $18.85 (Feb-2017)
 * [PIC Microcontroller Projects in C](../../../books/pic-microcontroller-projects-in-c/) - I started working with this book, but found some of the code examples to be demonstrating incorrect techniques

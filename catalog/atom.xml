@@ -3366,8 +3366,8 @@
     <g:image_link>https://leap.tardate.com/pic/pic16f84ablinky/assets/pic16f84ablinky_build.jpg</g:image_link>
     <updated>2020-03-15T14:22:44Z</updated>
     <title>#532 PIC16F84A Blinky</title>
-    <summary>A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/pic16f84ablinky/assets/pic16f84ablinky_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler)</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler)&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/pic16f84ablinky/assets/pic16f84ablinky_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
   </entry>
@@ -5031,9 +5031,9 @@
     <link href="https://leap.tardate.com/pic/gettingblinky/usingc/"/>
     <g:image_link>https://leap.tardate.com/pic/gettingblinky/usingc/assets/usingc_build.jpg</g:image_link>
     <updated>2018-05-19T14:24:17Z</updated>
-    <title>#390 PIC/GettingBlinky/UsingC</title>
-    <summary>getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/usingc/assets/usingc_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#390 Getting Blinky with PIC C</title>
+    <summary>getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again!</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again!&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/usingc/assets/usingc_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
   </entry>
@@ -5715,9 +5715,9 @@
     <link href="https://leap.tardate.com/pic/gettingblinky/"/>
     <g:image_link>https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg</g:image_link>
     <updated>2017-08-08T01:40:16Z</updated>
-    <title>#331 PIC Getting Blinky</title>
-    <summary>getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#331 Getting Blinky with PIC Assembler</title>
+    <summary>getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
   </entry>

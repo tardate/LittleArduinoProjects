@@ -2757,7 +2757,7 @@
     "/pic/pic16f84ablinky/": {
         "id": 532,
         "title": "PIC16F84A Blinky",
-        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)",
+        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler)",
         "tags": [
             "PIC",
             "LED"
@@ -4138,8 +4138,8 @@
     },
     "/pic/gettingblinky/usingc/": {
         "id": 390,
-        "title": "PIC/GettingBlinky/UsingC",
-        "summary": "getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!",
+        "title": "Getting Blinky with PIC C",
+        "summary": "getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again!",
         "tags": [
             "PIC",
             "LED"
@@ -4704,8 +4704,8 @@
     },
     "/pic/gettingblinky/": {
         "id": 331,
-        "title": "PIC Getting Blinky",
-        "summary": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
+        "title": "Getting Blinky with PIC Assembler",
+        "summary": "getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!",
         "tags": [
             "PIC",
             "LED"

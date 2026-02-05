@@ -1,7 +1,7 @@
 {
     "id": "#331",
-    "name": "PIC Getting Blinky",
-    "description": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
+    "name": "Getting Blinky with PIC Assembler",
+    "description": "getting up and running building a PIC assembler project on macOS with a PIC12F675 development board. Let's get Blinky!",
     "categories": "PIC, LED",
     "relative_path": "PIC/GettingBlinky",
     "updated_at": "2017-08-08T01:40:16Z",

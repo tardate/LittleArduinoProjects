@@ -1,6 +1,6 @@
-# #331 PIC Getting Blinky
+# #331 Getting Blinky with PIC Assembler
 
-Getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!
+Let's get Blinky! Up and running building a PIC assembler project on macOS with a PIC12F675 development board.
 
 Here's a quick demo of it working...
 
@@ -14,11 +14,21 @@ I guess it was [Julian Ilett](https://www.youtube.com/watch?v=p2rZwR9oM_k) who f
 One thing that's held me back is the perception that you have to "downgrade" to Windows in order to get anything going.
 
 So challenge accepted: I finally decided to see what it is like to develop with PIC assembler,
-and ideally do it all on my development platform of choice - MacOSX - without resorting to containers or VMs.
+and ideally do it all on my development platform of choice - macOS - without resorting to containers or VMs.
+
+Note:
+
+* I originally made these notes in 2017, using MPLAB X IDE v3.51 on Intel-based macOS
+* Subsequently recompiled/updated to MPLAB X IDE v5.30, again on Intel-based macOS
+* In Feb-2026, recompiled/updated on ARM-based macOS with MPLAB X IDE v6.20 from the [MPLAB downloads archive](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem), the last version to support the PICkit 3 programmer
+* MPLAB X IDE v6.30 is the latest release of the IDE product. It is superseded by [MPLAB Tools for VS Code](https://www.microchip.com/en-us/tools-resources/develop/mplab-tools-vs-code)
 
 ### PIC12F675 Development Board
 
-I got myself a board [like this one](https://www.aliexpress.com/item/5V-PIC12F675-Development-Board-Learning-Board-Test-Breadboard-USB-Cable/32803124346.html).
+I got myself a development board like this:
+["1PCS NEW 5V PIC12F675 Development Board Learning Board Breadboard L87" (aliexpress seller listing)](https://www.aliexpress.com/item/32757874629.html)
+purchased for US $6.99 (Feb-2017).
+
 It appears to be a very common board - the same as used by Julian - and features the PIC12F675, one of the "Mid-Range 8-bit MCUs" in the PIC family.
 
 ![GettingBlinky_dev_board](./assets/GettingBlinky_dev_board.jpg?raw=true)
@@ -28,7 +38,9 @@ I also followed the suggestion and made up a cable using a 6-wire "5S1P balanced
 
 #### PIC12F675 Specs
 
-The [microchip](http://www.microchip.com/wwwproducts/en/PIC12F675) site has plenty of info and datasheets for the processor. The core specs:
+The
+[microchip](https://www.microchip.com/en-us/product/PIC12F675)
+site has plenty of info and datasheets for the processor. The core specs:
 
 * 1024 words flash memory
 * 64 bytes SRAM
@@ -40,7 +52,7 @@ The [microchip](http://www.microchip.com/wwwproducts/en/PIC12F675) site has plen
 * 1 timer (16-bit)
 * internal 4 MHz oscillator, up to 20 MHz oscillator / clock input
 
-![PIC12F675_pinout](./assets/PIC12F675_pinout.png?raw=true)
+![PIC12F675_pinout](../assets/PIC12F675_pinout.png)
 
 #### Development Board Circuit and Mods
 
@@ -64,8 +76,10 @@ other end of the 10kΩ R5.
 
 ### Toolchain
 
-I'm using [MPLAB X IDE v3.51](http://www.microchip.com/mplab/mplab-x-ide) which appears to be built on [NetBeans](https://netbeans.org/kb/index.html),
-and offers great cross-platform support. I'm running it on MacOSX.
+I'm using
+[MPLAB X IDE v3.51](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+which appears to be built on [NetBeans](https://netbeans.org/kb/index.html),
+and offers great cross-platform support. I'm running it on macOS.
 NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
 
 It's actually a great environment, although a little hard to find things at first.
@@ -75,7 +89,10 @@ A real boon is the built-in simulator, allowing code execution, breakpoints and 
 
 ### Programmer
 
-Got myself a clone [PicKit 3 programmer](https://www.aliexpress.com/item/1734894366.html). It's been working for me like a charm.
+Got myself a clone PICkit 3 programmer:
+["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html)
+purchased for US$18.85 (Feb-2017).
+It's been working for me like a charm.
 
 One important configuration item is to enable the programmer to provide power to the target device, if it is not powered separately
 I enabled 4.75 V, as I've seen reports of intermittent communication issues if the full 5V is selected.
@@ -91,6 +108,10 @@ Of course, the board also works just fine with external 5V power connected after
 Just a single source file - see [blinky.asm](./Blinky.X/blinky.asm).
 It is just about the simplest thing you could do - blink an LED of course.
 I've avoided any include files, preferring to need to figure it all out (with some serious cribbing from Julian Ilett).
+
+/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8/pic/include/pic.inc
+/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8/pic/include/proc/pic12f675.inc
+/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8/pic/include/proc/12f675.cgen.inc
 
 #### Configuration Bits
 
@@ -144,7 +165,7 @@ But keeping the clock at full speed requires delay code, and there are many appr
 [just google it](https://www.google.com.sg/search?q=pic+assembler+delay+example&oq=pic+assembler+delay+example)
 ).
 
-I chose to use a trick based on an idea I [found here](http://www.piclist.com/techref/postbot.asp?by=time&id=piclist\2001\10\29\205252a).
+I chose to use a trick based on an idea I [found here](https://pic.hallikainen.org/piclist/2001/b/10/29/205252a.txt).
 
 It essentially does a 2's complement of the 1's complement to increment by one, with a few NOPs thrown in
 to produce a loop of 8 clock cycles.
@@ -155,12 +176,40 @@ Surrounded by a few make-work loops, the result is an LED blinking at around 4Hz
 
 ## Credits and References
 
-* [PIC12F675 info and datasheet](http://www.microchip.com/wwwproducts/en/PIC12F675)
-* [PIC Assembly Language Tutorials: #0 - Shopping List & Mods](https://www.youtube.com/watch?v=p2rZwR9oM_k) - Julian Ilett
-* [PIC Assembly Language Tutorial: #1 - Config and Clock](https://www.youtube.com/watch?v=491StrMyqa4) - Julian Ilett
-* [PIC Assembly Language Update: #1.1 - PCB schematic](https://www.youtube.com/watch?v=TneWtGyar6M) - Julian Ilett
-* [pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat](https://www.aliexpress.com/item/1734894366.html) - example seller on aliexpress
-* [5V PIC12F675 Development Board Learning Board Test Breadboard+USB Cable](https://www.aliexpress.com/item/5V-PIC12F675-Development-Board-Learning-Board-Test-Breadboard-USB-Cable/32803124346.html) - example seller on aliexpress
-* [5S1P balanced charger cable with a 6-pin JST XH female connector](https://www.aliexpress.com/item/10Pcs-5S1P-Balance-Charger-Silicon-Cable-Wire-JST-XH-Connector-Male-Female-Plug-For-Rc-Airplane/32657806702.html) - example seller on aliexpress
-* [MPLAB X IDE](http://www.microchip.com/mplab/mplab-x-ide)
+* [PIC12F675 info and datasheet](https://www.microchip.com/en-us/product/PIC12F675)
+* [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+* [PICLIST Archive](https://pic.hallikainen.org/)
+    * a snapshot of the original PICLIST archive hosted at [piclist.com](http://piclist.com/) which was shutdown in 2022, and never successfully captured in the wayback machine.
+* ["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html)
+    * Purchased for US $18.85 (Feb-2017).
+    * No longer available from this seller. Current option:
+        * ["PICKit2 PICKIT3 PICKit3.5 Programmer + PIC ICD2 PICKit 2 PICKIT 3 PICKIT 3.5 Programming Adapter Universal Programmer Seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1005002857278350.html)
+            * Currently selling for SG$14.38 (Feb-2026)
+* ["1PCS NEW 5V PIC12F675 Development Board Learning Board Breadboard L87" (aliexpress seller listing)](https://www.aliexpress.com/item/32757874629.html)
+    * Purchased for US $6.99 (Feb-2017).
+    * No longer available from this seller. Current option:
+        * ["5V PIC12F675 Development Board Learning Board Test Breadboard+USB Cable" (aliexpress seller listing)](https://www.aliexpress.com/item/32803124346.html)
+            * Currently selling for SG$10.64 (Feb-2026)
+* ["10Pcs 5S1P Balance Charger Cable Wire JST XH Connector Male+Female Plug For Rc Airplane With Male/Female Plug" (aliexpress seller listing)](https://www.aliexpress.com/item/32657806702.html)
+    * Purchased 10 pieces for US$2.90/lot (Feb-2017)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/08/leap331-getting-blinky-with-pic-assembler.html)
+
+## Video Tutorials
+
+### PIC Assembly Language Tutorials: #0 - Shopping List & Mods
+
+YouTube by Julian Ilett
+
+[![clip](https://img.youtube.com/vi/p2rZwR9oM_k/0.jpg)](https://www.youtube.com/watch?v=p2rZwR9oM_k)
+
+### PIC Assembly Language Tutorial: #1 - Config and Clock
+
+YouTube by Julian Ilett
+
+[![clip](https://img.youtube.com/vi/491StrMyqa4/0.jpg)](https://www.youtube.com/watch?v=491StrMyqa4)
+
+### PIC Assembly Language Update: #1.1 - PCB schematic
+
+YouTube by Julian Ilett
+
+[![clip](https://img.youtube.com/vi/TneWtGyar6M/0.jpg)](https://www.youtube.com/watch?v=TneWtGyar6M)
