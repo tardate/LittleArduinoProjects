@@ -2,6 +2,7 @@
 
 Some projects require additional libraries. For example:
 
+* [Adafruit BME280 Library](https://github.com/adafruit/Adafruit_BME280_Library)
 * [Adafruit BMP085 Library](https://github.com/adafruit/Adafruit-BMP085-Library) - BMP085/BMP180
 * [Adafruit BMP280 Library](https://github.com/adafruit/Adafruit_BMP280_Library)
 * [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library) - dependency of AdaFruit display libraries
