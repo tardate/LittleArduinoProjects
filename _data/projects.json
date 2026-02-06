@@ -2757,7 +2757,7 @@
     "/pic/pic16f84ablinky/": {
         "id": 532,
         "title": "PIC16F84A Blinky",
-        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler)",
+        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler). Updated 2026 for PIC-as and latest IDE tools while still using the old PICkit 3.",
         "tags": [
             "PIC",
             "LED"
@@ -4139,7 +4139,7 @@
     "/pic/gettingblinky/usingc/": {
         "id": 390,
         "title": "Getting Blinky with PIC C",
-        "summary": "getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again!",
+        "summary": "Getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again! Updated 2026 with latest IDE tools while still using the old PICkit 3.",
         "tags": [
             "PIC",
             "LED"
