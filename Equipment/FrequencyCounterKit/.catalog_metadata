@@ -1,8 +1,8 @@
 {
     "id": "#295",
     "name": "Frequency Counter Kit",
-    "description": "build and test a common PIC-based frequency counter kit",
-    "categories": "PIC, Tools, Test Equipment, Oscillators, Kit",
+    "description": "Build and test a common PIC16F628-based frequency counter kit.",
+    "categories": "PIC, PIC16F628, Tools, Test Equipment, Oscillators, Kit",
     "relative_path": "Equipment/FrequencyCounterKit",
     "updated_at": "2018-09-18T12:38:41Z",
     "created_at": "2018-09-18T12:38:41Z"

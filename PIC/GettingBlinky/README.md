@@ -29,22 +29,22 @@ Unfortunately, the news is mixed, and the main issue is with PICkit 3 support:
     * Compiles perfectly on all platforms I've tested: macOS 15.7/ARM, Windows 11/Intel, Ubuntu 24.04/Intel
     * This is the last version to support the PICkit 3 programmer, however:
         * I've been unable to get the PICkit 3 programmer to work for me correctly on macOS.
-        * But it works fine on Windows and Ubuntu
-        * See notes below for more details
+        * But it works fine on Windows and Ubuntu.
+        * See notes below for more details.
 * I have installed MPLAB X IDE v6.30, the latest release of the IDE product.
-    * Compilation works fine
-    * No integrated PICKit 3 support of course - but can use MPLAB IPE v6.20 for programming
-* Microchip are now promoting [MPLAB Tools for VS Code](https://www.microchip.com/en-us/tools-resources/develop/mplab-tools-vs-code) for current and future projects
+    * Compilation works fine.
+    * No integrated PICKit 3 support of course - but can use MPLAB IPE v6.20 for programming.
+* Microchip are now promoting [MPLAB Tools for VS Code](https://www.microchip.com/en-us/tools-resources/develop/mplab-tools-vs-code) for current and future projects.
     * Also does not support PICKit 3
 
 So where does this leave me?
 
 I don't really want to fork out for a new (and quite expensive) PICkit 5 that **should** work on macOS, so my choice right now is to hobble along:
 
-* develop on macOS MPLAB X IDE v6.30 (and try MPLAB Tools for VS Code)
-* send my hex file to Windows or Ubuntu to program the device with PICKit 3 and MPLAB IPE v6.20
-    * see "Remote Control Programming: macOS to Ubuntu to PICkit 3" where I demonstrate the script to automate the process of compiling on macOS and programming on Ubuntu
-* While in the meantime, continue to look for solutions to get my PICkit 3 working on macOS again.
+* Develop on macOS MPLAB X IDE v6.20 or v6.30 (and try MPLAB Tools for VS Code).
+* Send my hex file to Windows or Ubuntu to program the device with MPLAB IPE v6.20 and the PICKit 3.
+    * Even automate this with an Ubuntu machine: see "Remote Control Programming: macOS to Ubuntu to PICkit 3" below, where I demonstrate compiling on macOS and using a script to program remotely on Ubuntu
+* In the meantime, I will continue to look for solutions to get my PICkit 3 working on macOS again.
 
 #### PIC12F675 Specs
 

@@ -3357,6 +3357,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Building a freeform 20th anniversary clone of @tedyapo's LED clock, driven with a PIC16F84A&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/tedsclock/assets/tedsclock_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
+    <category term="PIC16F84A"/>
     <category term="Circuit Sculpture"/>
     <category term="Freeform"/>
   </entry>
@@ -3370,6 +3371,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler). Updated 2026 for PIC-as and latest IDE tools while still using the old PICkit 3.&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/pic16f84ablinky/assets/pic16f84ablinky_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
+    <category term="PIC16F84A"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/ssd1306/basicdemo/</id>
@@ -5036,6 +5038,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again! Updated 2026 with latest IDE tools while still using the old PICkit 3.&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/usingc/assets/usingc_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
+    <category term="PIC12F675"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/bjt/twostagecommonemitteramplifier/</id>
@@ -5502,11 +5505,12 @@
     <link href="https://leap.tardate.com/boldportclub/stringy/demoburner/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/stringy/demoburner/assets/demoburner_build.jpg</g:image_link>
     <updated>2017-10-16T16:51:30Z</updated>
-    <title>#349 stringy/DemoBurner</title>
+    <title>#349 Stringy Demo Burner</title>
     <summary>burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/stringy/demoburner/assets/demoburner_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="PIC"/>
+    <category term="PIC12F1840"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/digitallogic/dlatch/</id>
@@ -5720,6 +5724,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. While PICkit 3 is still working on Windows and Linux, it now fails on macOS. As an interim measure, I demonstrate compiling on macOS and using a script to remotely program on Ubuntu.&lt;/p&gt;&lt;img src="https://leap.tardate.com/pic/gettingblinky/assets/gettingblinky_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
     <category term="LED"/>
+    <category term="PIC12F675"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/any2anypowerpack/</id>
@@ -5803,11 +5808,12 @@
     <link href="https://leap.tardate.com/boldportclub/stringy/"/>
     <g:image_link>https://leap.tardate.com/boldportclub/stringy/assets/stringy_build.jpg</g:image_link>
     <updated>2017-06-26T13:46:46Z</updated>
-    <title>#323 BoldportClub/stringy</title>
+    <title>#323 Boldport Club Stringy</title>
     <summary>building and playing (mainly playing) the Boldport Club Stringy (Project #14)</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;building and playing (mainly playing) the Boldport Club Stringy (Project #14)&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/stringy/assets/stringy_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="PIC"/>
+    <category term="PIC12F1840"/>
     <category term="Audio"/>
     <category term="Kit"/>
   </entry>
@@ -6137,9 +6143,10 @@
     <g:image_link>https://leap.tardate.com/equipment/frequencycounterkit/assets/frequencycounterkit_build.jpg</g:image_link>
     <updated>2018-09-18T12:38:41Z</updated>
     <title>#295 Frequency Counter Kit</title>
-    <summary>build and test a common PIC-based frequency counter kit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build and test a common PIC-based frequency counter kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/frequencycounterkit/assets/frequencycounterkit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Build and test a common PIC16F628-based frequency counter kit.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Build and test a common PIC16F628-based frequency counter kit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/frequencycounterkit/assets/frequencycounterkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="PIC"/>
+    <category term="PIC16F628"/>
     <category term="Tools"/>
     <category term="Test Equipment"/>
     <category term="Oscillators"/>
