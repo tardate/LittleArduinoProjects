@@ -141,7 +141,7 @@ I'm running with 0x31F5 (0b11000111110101), which breaks down as follows.
 
 | Bits  | Selected | Definition                                                                                                                              |
 |-------|----------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| 13-12 |  11      | Bandgap Calibration bits for BOD and POR voltage.  11 = Highest bandgap voltage                                                          |
+| 13-12 |  11      | Bandgap Calibration bits for BOD and POR voltage. 11 = Highest bandgap voltage                                                          |
 | 11-9  |  000     | Unimplemented, read as 0                                                                                                                |
 | 8     |  1       | Data Code Protection bit. 1 = disabled                                                                                                  |
 | 7     |  1       | Code Protection bit. 1 = disabled                                                                                                       |

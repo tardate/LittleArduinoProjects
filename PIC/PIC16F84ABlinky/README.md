@@ -1,6 +1,6 @@
 # #532 PIC16F84A Blinky
 
-A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler)
+A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler). Updated 2026 for PIC-as and latest IDE tools while still using the old PICkit 3.
 
 ![Build](./assets/PIC16F84ABlinky_build.jpg?raw=true)
 
@@ -11,16 +11,21 @@ Here's a quick demo..
 ## Notes
 
 I'm planning to play around a bit more with low-end (8 bit) PICs. To start I'd like to get my toolchain setup and testing.
-So for this project I'm programming a PIC16F84A-04 with a simple assembler "LED blinky" routine in order to test
-my setup and the following tools:
+So for this project I'm programming a PIC16F84A-04 with a simple assembler "LED blinky" routine in order to test my setup and the following tools:
 
-* MPLAB X v5.30 running on macOS
-    * mplab_ide - the main IDE
-    * mplab_ipe - the stand-alone programmer
-    * mpasm 5.86
+* MPLAB X IDE
 * PICkit 3 (clone)
 * PIC16F84A-04 on a breadboard
 * PIC16F84A-04 on a 3rd party development/programming board
+
+I originally ran this exercise in 2017 with MPLAB X IDE v5.30 and mpasm 5.86,
+but now updated in Feb-2026:
+
+* Revised assembler code to use PIC-as instead of old mpasm syntax.
+* Compiled with MPLAB X IDE v6.20 on macOS
+* Programmed using the PICkit 3 on Ubuntu with MPLAB X IPE v6.20 (the last version to support PICkit 3)
+
+See [LEAP#331 Getting Blinky with PIC Assembler](../GettingBlinky/) for more details on the trials and tribulations of trying to continue to use the PICkit 3 on macOS.
 
 ### PIC16F84A Specs
 
@@ -38,9 +43,26 @@ site has plenty of info and datasheets for the processor. The core specs:
 
 ![PIC16F84A_pinout](../assets/PIC16F84A_pinout.png)
 
-## Programmer
+### Compiling the Project with the the MPLAB X IDE
 
-Got myself a clone PICkit 3 programmer:
+The [PIC16F84ABlinky.X](./PIC16F84ABlinky.X) project is a simple single-file program in assembler that blinks an LED on pin RA3 (2) at about 4Hz.
+
+Project settings selected as follows:
+
+* Family: Mid-Range 8-bit MCUs (PIC10/12/16/MCP)
+* Device: PIC16F84A
+* Compiler: PIC-as
+
+The [configuration bits](https://microchipdeveloper.com/mplabx:view-and-set-configuration-bits) are set:
+
+* `config "FOSC" = HS`: HS oscillator selected (I'm going to use a 4MHz crystal)
+* `config "WDTE" = OFF` watchdog timer disabled
+* `config "PWRTE" = OFF` power-up timer disabled
+* `config "CP" = OFF` code protection disabled
+
+### Programming
+
+I am still using an old PICkit 3 programmer:
 ["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html) purchased for US $18.85 (Feb-2017).
 Only 5 of the pins are relevant for programming the PIC16F84A:
 
@@ -57,41 +79,49 @@ Notes:
 * MCLR is the Master Clear (Reset) input/programming voltage input. This pin is an active low RESET to the device
 * In the PIC16F8X, the programming high voltage is internally generated. To activate the Programming mode, high voltage needs to be applied to MCLR input. Since the MCLR is used for a level source, this means that MCLR does not draw any significant current.
 
-### Compiling the Project with the the MPLABX IDE
+On Windows or Ubuntu, the PIC16F8X can be easily programmed using the MPLAB X IDE v6.20 or MPLAB IPE v6.20 support for the PICkit 3.
 
-The [PIC16F84ABlinky.X](./PIC16F84ABlinky.X) project is a simple single-file program in assembler that blinks an LED on pin RA3 (2) at about 4Hz.
-The code was compiled with the
-[MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
-and device programmed with a PICkit 3.
+Since I am no longer able to get the PICkit 3 working with macOS,
+I am driving it remotely connected to an Ubuntu machine running MPLAB IPE v6.20, using the
+[ipe-remote.sh](../GettingBlinky/ipe-remote.sh) script from
+[LEAP#331 Getting Blinky with PIC Assembler](../GettingBlinky/).
 
-Project settings selected as follows:
-
-* Family: Mid-Range 8-bit MCUs (PIC10/12/16/MCP)
-* Device: PIC16F84A
-* Compiler: mpasm 5.86
-
-The [configuration bits](https://microchipdeveloper.com/mplabx:view-and-set-configuration-bits) are set:
-
-* `_FOSC_HS` HS oscillator selected (I'm going to use a 4MHz crystal)
-* `_WDTE_OFF` watchdog timer disabled
-* `_PWRTE_OFF` power-up timer disabled
-* `_CP_OFF` code protection disabled
-
-### Using the MPLAB Integrated Programming Environment
-
-The
-[MPLAB Integrated Programming Environment (mplab_ipe)](https://www.microchip.com/en-us/tools-resources/production/mplab-integrated-programming-environment)
-is a standalone tool that can be used to erase, program or verify a chip.
-
-Once the code was compiled, I tested erasing and programming. All good:
-
-![ipe_erase_and_program](./assets/ipe_erase_and_program.png?raw=true)
-
-Using the IPE to configure powering the device, I ran into what is apparently a common problem with the PICKit 3 clones - it complained
-when I selected 5V (hence 4.75V being selected in this example).
-Strangely, I didn't have this problem when using the PICKit 3 from MPLAB X IDE.
-
-![ipe_set_power](./assets/ipe_set_power.png?raw=true)
+```sh
+$ ../GettingBlinky/ipe-remote.sh ronda-u1 16F84A PIC16F84ABlinky.X/dist/default/production/PIC16F84ABlinky.X.production.hex
+PIC16F84ABlinky.X.production.hex                                                                                                                                                                 100%  216    42.4KB/s   00:00
+DFP Version Used : PIC16Fxxx_DFP,1.6.156,Microchip
+*****************************************************
+Connecting to MPLAB PICkit 3...
+Currently loaded firmware on PICkit 3
+Firmware Suite Version.....01.56.09
+Firmware type..............Midrange
+Programmer to target power is enabled - VDD = 4.750000 volts.
+Target device PIC16F84A found.
+Device Revision ID = 0
+Erasing...
+Erase successful
+Device Erased...
+Programming...
+The following memory area(s) will be programmed:
+program memory: start address = 0x0, end address = 0x3ff
+configuration memory
+Programming/Verify complete
+PICKIT3 Program Report
+2026-02-06, 19:59:03
+Device Type:PIC16F84A
+Program Succeeded.
+PK3 Verify Report
+2026-02-06, 19:59:03
+Device Type:PIC16F84A
+The following memory areas(s) will be verified:
+program memory: start address = 0x0, end address = 0x3ff
+configuration memory
+EEData memory
+User Id Memory
+Verification successful.
+Verify Succeeded.
+Operation Succeeded
+```
 
 ## Construction
 
@@ -160,7 +190,8 @@ Address: 1 Expected Value: 3400 Received Value: 800
 Failed to program device
 ```
 
-I put this down to faulty chips. When I switch to some PIC16F84A chips from a reputable source [element14](https://sg.element14.com/microchip/pic16f84a-04-p/mcu-8bit-pic16-4mhz-dip-18/dp/9760865?st=PIC16F84A).
+I put this down to faulty chips.
+The problems disappeared when I switched to some PIC16F84A chips from a reputable source [element14](https://sg.element14.com/microchip/pic16f84a-04-p/mcu-8bit-pic16-4mhz-dip-18/dp/9760865?st=PIC16F84A).
 
 ## Credits and References
 
