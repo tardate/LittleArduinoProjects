@@ -1,13 +1,24 @@
 ; CONFIG
-;#include "p12f675.inc"            ; use my own definitions in this example
- __config 0x31F5
-; __CONFIG _FOSC_INTRCCLK & _WDTE_OFF & _PWRTE_OFF & _MCLRE_ON & _BOREN_ON & _CP_OFF & _CPD_OFF
+;#include <xc.inc>            ; use my own definitions in this example
 
+RADIX hex
 
-RES_VECT  CODE    0x0000            ; processor reset vector
+config "FOSC" = INTRCCLK
+config "WDTE" = OFF
+config "PWRTE" = OFF
+config "MCLRE" = ON
+config "BOREN" = ON
+config "CP" = OFF
+config "CPD" = OFF
+; or:
+; config "CONFIG" 0x31F5
+
+PSECT reset_vec,class=CODE,delta=2,abs
+    ORG 0x0000                      ; processor reset vector
     GOTO    START                   ; go to beginning of program
 
-MAIN_PROG CODE                      ; let linker place main program
+; Main code section
+PSECT code,class=CODE,delta=2
 
 ; SOME DEFINES
 STATUS equ 0x03                     ; status register
@@ -16,13 +27,14 @@ GPIO   equ 0x05                     ; General Purpose Input Output (GPIO) regist
 TRISIO equ 0x85                     ; TRIState Input Output (TRISIO) register
 GP0    equ 0x00                     ; GPIO 0 bit of the TRISIO and GPIO registers
 RP0    equ 0x05                     ; RP0 bit of the STATUS register
+ZERO   equ 0x02                     ; Z is the Zero bit in the STATUS register
 
-START
+START:
     bsf STATUS, RP0                 ; select bank 1
     bcf TRISIO, GP0                 ; set GPIO 0 as output (default is input)
     bcf STATUS, RP0                 ; select bank 0
 
-LOOP
+LOOP:
     bsf GPIO, GP0                   ; bit set file - set GPIO 0 high
     call WasteLotsAndLotsOfTime
     bcf GPIO, GP0                   ; bit clear file - set GPIO 0 low
@@ -56,7 +68,7 @@ WasteTimeInnerLoop:
     nop                               ; pad this out to 8 cycles per loop
     nop
     nop
-    skpz                              ; exit the loop if W has wrapped to 0
+    btfss       STATUS, ZERO          ; exit the loop if W has wrapped to 0
     goto        WasteTimeInnerLoop
 
     return

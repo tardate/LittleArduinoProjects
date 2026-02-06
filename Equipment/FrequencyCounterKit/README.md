@@ -1,6 +1,6 @@
 # #295 Frequency Counter Kit
 
-Build and test a common PIC-based frequency counter kit.
+Build and test a common PIC16F628-based frequency counter kit.
 
 ![Build](./assets/FrequencyCounterKit_build.jpg?raw=true)
 

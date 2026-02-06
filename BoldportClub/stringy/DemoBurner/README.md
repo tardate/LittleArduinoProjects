@@ -1,4 +1,4 @@
-# #349 stringy/DemoBurner
+# #349 Stringy Demo Burner
 
 Burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler.
 
@@ -14,7 +14,6 @@ and discovered I totally missed the fact that [it has a demo mode](https://githu
 I was reading the source to learn more about what tricks James Hutchby used to implement the Karplus-Strong algorithm,
 but now I am distracted and decided first to make some new demo tracks.
 
-
 ### First Step - Building the Original Source
 
 It's great to see source code being released, thank you Boldport and MadLabs!
@@ -25,7 +24,7 @@ NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
 After loading the source files in a [new project CustomDemo.X](./CustomDemo.X),
 my first build failed with two errors:
 
-```
+```sh
 Error[151]   LittleArduinoProjects/BoldportClub/stringy/DemoBurner/CustomDemo.X/stringy.asm 1426 : Operand contains unresolvable labels or is too complex
 Error[151]   LittleArduinoProjects/BoldportClub/stringy/DemoBurner/CustomDemo.X/stringy.asm 469 : Operand contains unresolvable labels or is too complex
 ```
@@ -36,7 +35,7 @@ It seems this is to do with addressing, so I switch to absolute mode:
 
 .. and now it builds
 
-```
+```sh
 make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
 make[1]: Entering directory 'LittleArduinoProjects/BoldportClub/stringy/DemoBurner/CustomDemo.X'
 make  -f nbproject/Makefile-default.mk dist/default/production/CustomDemo.X.production.hex
@@ -65,14 +64,13 @@ Loading completed
 The stringy board has pin sockets for all the PIC pins (even in the same order as exposed from a programmer),
 so I'm guessing I can program this in-circuit?
 
-| Programmer Port | PIC Pin       | Encumberances?                                                                                          |
+| Programmer Port | PIC Pin       | Encumbrances?                                                                                           |
 |-----------------|---------------|---------------------------------------------------------------------------------------------------------|
 | 1: VPP          | 4 MCLR        | Normally-open S1. OK                                                                                    |
 | 2: VDD          | 1 VDD         | Battery and regulator, OK if battery not attached                                                       |
 | 3: GND          | 8 GND         | Battery OK if battery not attached                                                                      |
 | 4: PGD          | 7 RA0/ICSPDAT | 1kΩ pull-down resistor. Hmm, should be OK?                                                              |
 | 5: PGC          | 6 RA1/ICSPCLK | 1MΩ pull-down resistor and "plectrum" leads. Make sure plectrums are safely isolated during programming |
-
 
 Here's a PICkit 3 connected to the stringy, with some blu tack assist:
 
@@ -83,7 +81,8 @@ Connecting up the programmer, and I'm seeing the device OK..
 ![programmer_connected](./assets/programmer_connected.png?raw=true)
 
 And it programs without error..
-```
+
+```sh
 *****************************************************
 
 Connecting to MPLAB PICkit 3...
@@ -111,7 +110,6 @@ Note that I've enabled powering the device, so I can test it without having to i
 Out of habit, I set the voltage at 4.75V instead of 5V, as the PICkit 3 is prone to errors otherwise.
 
 Power up the stringy, and it works just fine. So far so good!
-
 
 ### Burning a new Demo
 
@@ -145,22 +143,22 @@ Here's the simplified score:
 
 I clobbered together some routines I'd used before into a simple converter packaged as the Ruby gem `stringyfi`.
 It has to make a whole lot of assumptions like: only covert 1 part, 1 voice, and choose the closest duration.
-It currently pays no attemption to original tempo, and doesn't support many notation features (such as tied notes).
+It currently pays no attention to original tempo, and doesn't support many notation features (such as tied notes).
 
-### Installing the Coverter
+### Installing the Converter
 
 There's a Gemfile waiting to install in this directory. Assuming you have a working Ruby environment:
 
-```
-$ gem install bundler  # if not already installed
-$ bundle install
+```sh
+gem install bundler  # if not already installed
+bundle install
 ```
 
 ### Running a Conversion
 
 Choose the XML to convert, and pipe the output into the `demo.tun` file
 
-```
+```sh
 $ stringyfi ./examples/BurnIntro.xml > ./CustomDemo.X/demo.tun
 converting ./examples/BurnIntro.xml..
   shortest_fractional_duration: 0.125
@@ -173,7 +171,7 @@ converting ./examples/BurnIntro.xml..
 Now just recompile the [CustomDemo.X](./CustomDemo.X) project with MPLAB and program.
 Here's BURN getting burned:
 
-```
+```sh
 *****************************************************
 
 Connecting to MPLAB PICkit 3...

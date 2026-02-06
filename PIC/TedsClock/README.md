@@ -21,9 +21,10 @@ The project seems perfectly suited to a freeform construction, so that's what I'
 
 ## Building the Code
 
-I'm running [MPLABX IDE](https://www.microchip.com/mplab/mplab-x-ide) on MacOSX, and it's testament to
-Microchip's custodianship of the aging PIC platform that I had no trouble at all recompiling the code with
-MPLabX 5.30 and mpasm 5.86.
+I'm running
+[MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+on macOS, and it's testament to
+Microchip's custodianship of the aging PIC platform that I had no trouble at all recompiling the code with MPLAB X 5.30 and mpasm 5.86.
 
 I'm using an unmodified copy of the original source. See [clock.asm](./TedsClock.X/clock.asm) for the code used.
 
@@ -83,5 +84,6 @@ Local sources files updated; here's a quick demo:
 * [original source code - clock_1.asm](https://gist.github.com/tedyapo/5a17257cfacd6c2447a9994b7962ac1a)
 * [original source code - clock_2.asm](https://gist.github.com/tedyapo/885f93b2383ac20441e33801e6f8812c)
 * [PIC16F84A datasheet and info](https://www.microchip.com/wwwproducts/en/PIC16F84A)
+* [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 * [the project on hackaday.io](https://hackaday.io/project/171175-teds-led-clock)
 * [Hacking on Ted's LED clock software](https://hackaday.io/page/7182-hacking-on-teds-led-clock-software) - Ken Yap's experimental port to C

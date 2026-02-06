@@ -2750,6 +2750,7 @@
         "tags": [
             "PIC",
             "LED",
+            "PIC16F84A",
             "Circuit Sculpture",
             "Freeform"
         ]
@@ -2757,10 +2758,11 @@
     "/pic/pic16f84ablinky/": {
         "id": 532,
         "title": "PIC16F84A Blinky",
-        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLabX (assembler)",
+        "summary": "A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board with MPLAB X (assembler). Updated 2026 for PIC-as and latest IDE tools while still using the old PICkit 3.",
         "tags": [
             "PIC",
-            "LED"
+            "LED",
+            "PIC16F84A"
         ]
     },
     "/playground/attiny/ssd1306/basicdemo/": {
@@ -4138,11 +4140,12 @@
     },
     "/pic/gettingblinky/usingc/": {
         "id": 390,
-        "title": "PIC/GettingBlinky/UsingC",
-        "summary": "getting up and running building XC8 C projects on MacOSX and a PIC12F675. Let's get Blinky again!",
+        "title": "Getting Blinky with PIC C",
+        "summary": "Getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again! Updated 2026 with latest IDE tools while still using the old PICkit 3.",
         "tags": [
             "PIC",
-            "LED"
+            "LED",
+            "PIC12F675"
         ]
     },
     "/electronics101/bjt/twostagecommonemitteramplifier/": {
@@ -4527,11 +4530,12 @@
     },
     "/boldportclub/stringy/demoburner/": {
         "id": 349,
-        "title": "stringy/DemoBurner",
+        "title": "Stringy Demo Burner",
         "summary": "burning a new demo mode for the Boldport Club Stringy, with a Ruby gem for MusicXML conversion to PIC assembler",
         "tags": [
             "Boldport",
-            "PIC"
+            "PIC",
+            "PIC12F1840"
         ]
     },
     "/electronics101/digitallogic/dlatch/": {
@@ -4704,11 +4708,12 @@
     },
     "/pic/gettingblinky/": {
         "id": 331,
-        "title": "PIC Getting Blinky",
-        "summary": "getting up and running building a PIC assembler project on MacOSX with a PIC12F675 development board. Let's get Blinky!",
+        "title": "Getting Blinky with PIC Assembler",
+        "summary": "Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. While PICkit 3 is still working on Windows and Linux, it now fails on macOS. As an interim measure, I demonstrate compiling on macOS and using a script to remotely program on Ubuntu.",
         "tags": [
             "PIC",
-            "LED"
+            "LED",
+            "PIC12F675"
         ]
     },
     "/electronics101/power/any2anypowerpack/": {
@@ -4776,11 +4781,12 @@
     },
     "/boldportclub/stringy/": {
         "id": 323,
-        "title": "BoldportClub/stringy",
+        "title": "Boldport Club Stringy",
         "summary": "building and playing (mainly playing) the Boldport Club Stringy (Project #14)",
         "tags": [
             "Boldport",
             "PIC",
+            "PIC12F1840",
             "Audio",
             "Kit"
         ]
@@ -5054,9 +5060,10 @@
     "/equipment/frequencycounterkit/": {
         "id": 295,
         "title": "Frequency Counter Kit",
-        "summary": "build and test a common PIC-based frequency counter kit",
+        "summary": "Build and test a common PIC16F628-based frequency counter kit.",
         "tags": [
             "PIC",
+            "PIC16F628",
             "Tools",
             "Test Equipment",
             "Oscillators",

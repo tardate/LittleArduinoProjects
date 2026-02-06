@@ -28,26 +28,20 @@ CP=cp
 CND_CONF=default
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 IMAGE_TYPE=debug
-OUTPUT_SUFFIX=cof
-DEBUGGABLE_SUFFIX=cof
-FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_SUFFIX=hex
+DEBUGGABLE_SUFFIX=elf
+FINAL_IMAGE=${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 else
 IMAGE_TYPE=production
 OUTPUT_SUFFIX=hex
-DEBUGGABLE_SUFFIX=cof
-FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+DEBUGGABLE_SUFFIX=elf
+FINAL_IMAGE=${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 endif
 
 ifeq ($(COMPARE_BUILD), true)
 COMPARISON_BUILD=
 else
 COMPARISON_BUILD=
-endif
-
-ifdef SUB_IMAGE_ADDRESS
-
-else
-SUB_IMAGE_ADDRESS_COMMAND=
 endif
 
 # Object Directory
@@ -88,42 +82,46 @@ FIXDEPS=fixDeps
 ifneq ($(INFORMATION_MESSAGE), )
 	@echo $(INFORMATION_MESSAGE)
 endif
-	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+	${MAKE}  -f nbproject/Makefile-default.mk ${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 
-MP_PROCESSOR_OPTION=12f675
-MP_LINKER_DEBUG_OPTION= 
+MP_PROCESSOR_OPTION=PIC12F675
+FINAL_IMAGE_NAME_MINUS_EXTENSION=${DISTDIR}/Blinky.X.${IMAGE_TYPE}
 # ------------------------------------------------------------------------------------
-# Rules for buildStep: assemble
+# Rules for buildStep: pic-as-assembler
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/blinky.o: blinky.asm  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/blinky.o: blinky.asm  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/blinky.o.d 
 	@${RM} ${OBJECTDIR}/blinky.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/blinky.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_PK3=1 -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/blinky.lst\\\" -e\\\"${OBJECTDIR}/blinky.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/blinky.o\\\" \\\"blinky.asm\\\" 
-	@${DEP_GEN} -d "${OBJECTDIR}/blinky.o"
-	@${FIXDEPS} "${OBJECTDIR}/blinky.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
+	${MP_AS} -mcpu=PIC12F675 -c \
+	-o ${OBJECTDIR}/blinky.o \
+	blinky.asm \
+	 -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
 else
-${OBJECTDIR}/blinky.o: blinky.asm  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/blinky.o: blinky.asm  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/blinky.o.d 
 	@${RM} ${OBJECTDIR}/blinky.o 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/blinky.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION) -u  -l\\\"${OBJECTDIR}/blinky.lst\\\" -e\\\"${OBJECTDIR}/blinky.err\\\" $(ASM_OPTIONS)    -o\\\"${OBJECTDIR}/blinky.o\\\" \\\"blinky.asm\\\" 
-	@${DEP_GEN} -d "${OBJECTDIR}/blinky.o"
-	@${FIXDEPS} "${OBJECTDIR}/blinky.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
+	${MP_AS} -mcpu=PIC12F675 -c \
+	-o ${OBJECTDIR}/blinky.o \
+	blinky.asm \
+	  -mdfp="${DFP_DIR}/xc8"  -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
 endif
 
 # ------------------------------------------------------------------------------------
-# Rules for buildStep: link
+# Rules for buildStep: pic-as-linker
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-dist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
-	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w -x -u_DEBUG -z__ICD2RAM=1 -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"   -z__MPLAB_BUILD=1  -z__MPLAB_DEBUG=1 -z__MPLAB_DEBUGGER_PK3=1 $(MP_LINKER_DEBUG_OPTION) -odist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
+	@${MKDIR} ${DISTDIR} 
+	${MP_LD} -mcpu=PIC12F675 ${OBJECTFILES_QUOTED_IF_SPACED} \
+	-o ${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX} \
+	 -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -mcallgraph=std -Wl,-Map=${FINAL_IMAGE_NAME_MINUS_EXTENSION}.map -mno-download-hex
 else
-dist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
-	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w  -m"${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"   -z__MPLAB_BUILD=1  -odist/${CND_CONF}/${IMAGE_TYPE}/Blinky.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
+	@${MKDIR} ${DISTDIR} 
+	${MP_LD} -mcpu=PIC12F675 ${OBJECTFILES_QUOTED_IF_SPACED} \
+	-o ${DISTDIR}/Blinky.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX} \
+	  -mdfp="${DFP_DIR}/xc8"  -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -mcallgraph=std -Wl,-Map=${FINAL_IMAGE_NAME_MINUS_EXTENSION}.map -mno-download-hex
 endif
 
 
@@ -136,13 +134,13 @@ endif
 
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
-	${RM} -r build/default
-	${RM} -r dist/default
+	${RM} -r ${OBJECTDIR}
+	${RM} -r ${DISTDIR}
 
 # Enable dependency checking
 .dep.inc: .depcheck-impl
 
-DEPFILES=$(shell "${PATH_TO_IDE_BIN}"mplabwildcard ${POSSIBLE_DEPFILES})
+DEPFILES=$(wildcard ${POSSIBLE_DEPFILES})
 ifneq (${DEPFILES},)
 include ${DEPFILES}
 endif

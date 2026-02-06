@@ -1,11 +1,10 @@
-# #323 stringy
+# #323 Boldport Club Stringy
 
 Building and playing (mainly playing) the Boldport Club Stringy (Project #14, June 2017).
 
 Here's a quick video showing it in action..
 
 [![Build](./assets/stringy_build.jpg?raw=true)](https://www.youtube.com/watch?v=pLeL9CwuKVM)
-
 
 ## Notes
 
@@ -19,7 +18,6 @@ Stringy is a remix of MadLab's 'Funky guitar'. The code is open source, so I thi
 But for now, I'm too distracted just playing tunes;-)
 
 ### Parts and Unboxing
-
 
 | Ref         | Part                                                        | Qty  |
 |-------------|-------------------------------------------------------------|------|
@@ -42,7 +40,6 @@ But for now, I'm too distracted just playing tunes;-)
 |             | PCB                                                         | x1   |
 
 ![kit_parts](./assets/kit_parts.jpg?raw=true)
-
 
 #### PIC12F1840 Specs
 
