@@ -1,6 +1,6 @@
 # #390 Getting Blinky with PIC C
 
-Getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again!
+Getting up and running building XC8 C projects on macOS and a PIC12F675. Let's get Blinky again! Updated 2026 with latest IDE tools while still using the old PICkit 3.
 
 ![Build](./assets/UsingC_build.jpg?raw=true)
 
@@ -14,24 +14,15 @@ well it might be supported by C compilers. Well, I shouldn't have been concerned
 to support from independent compiler makers, Microchip offer their own XC Compilers
 
 This project is a quick test of the MPLAB XC8 compiler, which supports all 8-bit PICs,
-is cross platform and has a free version available!
+is cross platform and has a free version available.
 
-I started with a useful tutorial by Luke Briner explaining the differences between assembler and C code for a PIC:
+I originally ran this exercise in 2018 with MPLAB X IDE v5.30,
+but now updated in Feb-2026:
 
-[![clip](https://img.youtube.com/vi/myLBDtfnyRM/0.jpg)](https://www.youtube.com/watch?v=myLBDtfnyRM)
+* Compiled with MPLAB X IDE v6.20 on macOS
+* Programmed using the PICkit 3 on Ubuntu with MPLAB X IPE v6.20 (the last version to support PICkit 3)
 
-## Toolchain
-
-I'm using
-[MPLAB X IDE v3.51](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
-and
-[MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
-running on macOS,
-and a clone PICkit 3 programmer:
-["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html)
-purchased for US$18.85 (Feb-2017).
-
-NB: subsequently updated and recompiled with MPLAB X IDE v5.30.
+See [LEAP#331 Getting Blinky with PIC Assembler](../) for more details on the trials and tribulations of trying to continue to use the PICkit 3 on macOS.
 
 ### The New Project Wizard
 
@@ -106,6 +97,53 @@ What I discovered you **can't** do safely is this:
 
 ## Programming
 
+I am still using an old PICkit 3 programmer:
+["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html) purchased for US $18.85 (Feb-2017).
+
+On Windows or Ubuntu, the PIC16F8X can be easily programmed using the MPLAB X IDE v6.20 or MPLAB IPE v6.20 support for the PICkit 3.
+
+Since I am no longer able to get the PICkit 3 working with macOS,
+I am driving it remotely connected to an Ubuntu machine running MPLAB IPE v6.20, using the
+[ipe-remote.sh](../ipe-remote.sh) script from
+[LEAP#331 Getting Blinky with PIC Assembler](../).
+
+```sh
+$ ../ipe-remote.sh ronda-u1 12F675 Clinky.X/dist/default/production/Clinky.X.production.hex
+Clinky.X.production.hex                                                                                                                                                                          100%  336    55.5KB/s   00:00
+DFP Version Used : PIC10-12Fxxx_DFP,1.7.178,Microchip
+*****************************************************
+Connecting to MPLAB PICkit 3...
+Currently loaded firmware on PICkit 3
+Firmware Suite Version.....01.56.09
+Firmware type..............Midrange
+Programmer to target power is enabled - VDD = 4.750000 volts.
+Target device PIC12F675 found.
+Device Revision ID = b
+Erasing...
+Erase successful
+Device Erased...
+Programming...
+The following memory area(s) will be programmed:
+program memory: start address = 0x0, end address = 0x3fe
+configuration memory
+Programming/Verify complete
+PICKIT3 Program Report
+2026-02-06, 20:21:09
+Device Type:PIC12F675
+Program Succeeded.
+PK3 Verify Report
+2026-02-06, 20:21:09
+Device Type:PIC12F675
+The following memory areas(s) will be verified:
+program memory: start address = 0x0, end address = 0x3ff
+configuration memory
+EEData memory
+User Id Memory
+Verification successful.
+Verify Succeeded.
+Operation Succeeded
+```
+
 I initially tested the code using a PIC12F675 Development Board as detailed in
 [LEAP#331 Getting Blinky with PIC Assembler](../). Works like a charm!
 
@@ -132,6 +170,15 @@ And running independently with a 5V power supply.
 * [mikroC](https://www.mikroe.com/mikroc-pic)
 * [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 * [MPLAB XC8](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+* [LEAP#331 Getting Blinky with PIC Assembler](../)
 * ["pickit 3 Programming / emulator + PIC microcontroller / minimum system board / development board / universal programmer seat" (aliexpress seller listing)](https://www.aliexpress.com/item/1734894366.html)
     * Purchased for US $18.85 (Feb-2017)
 * [PIC Microcontroller Projects in C](../../../books/pic-microcontroller-projects-in-c/) - I started working with this book, but found some of the code examples to be demonstrating incorrect techniques
+
+## Video Tutorials
+
+### PIC Microcontroller Tutorial 2 - Your first program, switching on an output
+
+I started with a useful tutorial by Luke Briner explaining the differences between assembler and C code for a PIC.
+
+[![clip](https://img.youtube.com/vi/myLBDtfnyRM/0.jpg)](https://www.youtube.com/watch?v=myLBDtfnyRM)
