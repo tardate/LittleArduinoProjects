@@ -151,7 +151,7 @@ pi@raspberrypi:~ $ cat /etc/hostname
 raspi1
 ```
 
-Tehn need to change the local name respolution for `127.0.1.1` in `/etc/hosts`:
+Then need to change the local name resolution for `127.0.1.1` in `/etc/hosts`:
 
 ```sh
 pi@raspi1:~ $ sudo nano /etc/hosts
@@ -164,7 +164,7 @@ ff02::2  ip6-allrouters
 127.0.1.1  raspi1
 ```
 
-After `sudo reboot` I can now find the respberry Pi on the network by its new name using mDNS:
+After `sudo reboot` I can now find the raspberry Pi on the network by its new name using mDNS:
 
 ```sh
 $ ping raspi1.local
