@@ -1,6 +1,6 @@
-# 828 Little Electronic Art Projects
+# 830 Little Electronic Art Projects
 
-> Latest addition :sparkles: [220V DC Boost Converter Module](./Electronics101/Power/220vBoostConverterModule) - Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.
+> Latest addition :sparkles: [BME280 3.3V Module](./Electronics101/BME280/Module3V) - Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 3.3V module and an Arduino Mini with 128x32 OLED display.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

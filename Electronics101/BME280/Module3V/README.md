@@ -1,4 +1,4 @@
-# #xxx BME280 3.3V Module
+# #830 BME280 3.3V Module
 
 Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 3.3V module and an Arduino Mini with 128x32 OLED display.
 
