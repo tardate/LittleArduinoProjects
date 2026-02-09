@@ -100,7 +100,7 @@ Designed with Fritzing: see [Module.fzz](./Module.fzz).
 
 ![schematic](./assets/Module_schematic.jpg?raw=true)
 
-Connected on a breadboard with USB-Serial adapter for programming:
+Connected on a breadboard with a USB-Serial adapter for programming:
 
 ![bb_build](./assets/Module_bb_build.jpg?raw=true)
 

@@ -7,12 +7,40 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-02T16:46:00Z</updated>
+  <updated>2026-02-09T02:01:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/bme280/module3v/</id>
+    <link href="https://leap.tardate.com/electronics101/bme280/module3v/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/bme280/module3v/assets/module3v_build.jpg</g:image_link>
+    <updated>2026-02-09T02:01:00Z</updated>
+    <title>#830 BME280 3.3V Module</title>
+    <summary>Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 3.3V module and an Arduino Mini with 128x32 OLED display.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 3.3V module and an Arduino Mini with 128x32 OLED display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/bme280/module3v/assets/module3v_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="BME280"/>
+    <category term="Sensors"/>
+    <category term="Arduino"/>
+    <category term="OLED"/>
+    <category term="I2C"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/bme280/module5v/</id>
+    <link href="https://leap.tardate.com/electronics101/bme280/module5v/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/bme280/module5v/assets/module5v_build.jpg</g:image_link>
+    <updated>2026-02-09T02:01:00Z</updated>
+    <title>#829 BME280 5V Module</title>
+    <summary>Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 5V module and an Arduino Uno with 128x32 OLED display.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 5V module and an Arduino Uno with 128x32 OLED display.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/bme280/module5v/assets/module5v_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="BME280"/>
+    <category term="Sensors"/>
+    <category term="Arduino"/>
+    <category term="OLED"/>
+    <category term="I2C"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/220vboostconvertermodule/</id>
     <link href="https://leap.tardate.com/electronics101/power/220vboostconvertermodule/"/>
