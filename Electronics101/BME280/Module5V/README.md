@@ -10,6 +10,8 @@ I purchased a BME280 5V sensor module
 ["1-10pcs BME280 BMP280 5V 3.3V Digital Sensor Temperature Humidity Barometric Pressure Module I2C SPI for Arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/1005008511564094.html)
 for SG$3.72 (Jan-2026).
 
+See [LEAP#830 BME280 3.3V Module](../Module3V/) for notes on the 3.3V version of the module
+
 ### About the BME280
 
 The BME280 is as combined digital humidity, pressure and temperature sensor based on proven sensing principles. Its small dimensions and low power consumption allow the implementation in battery driven devices such as handsets, GPS modules or watches.
@@ -142,3 +144,4 @@ And following along with the readings on the display.
     * Currently listed for SG$1.79 + shipping (Jan-2026).
 * [BME280 Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)
 * <https://github.com/adafruit/Adafruit_BME280_Library>
+* [LEAP#830 BME280 3.3V Module](../Module3V/)
