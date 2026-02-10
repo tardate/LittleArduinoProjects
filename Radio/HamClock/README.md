@@ -190,7 +190,7 @@ I've found the best approach is to choose "Restart HamClock" from the HamClock m
 Since it is running on the Pi, I can play with some of the GPIO support.
 This requires first visiting setup page 4 and turning on "GPIO".
 
-I've added per the doc:
+The features I've enabled include:
 
 * Satellite up LED indicator
 * BME280 environmental sensor
@@ -207,6 +207,8 @@ I've redrawn the schematic with Fritzing, see [HamClock.fzz](./HamClock.fzz).
 Wired up an breadboard for testing:
 
 ![HamClock_bb_build](./assets/HamClock_bb_build.jpg)
+
+Note: I subsequently made a DIY hat to mount the circuit directly on the Pi. See [LEAP#831 HamClock Hat](./DIYHamClockHat/).
 
 #### Satellite Up Indicator
 
@@ -239,22 +241,19 @@ The BME280 is wired to the Raspberry Pi I²C bus on pins 3 (SDA1) & 5 (SCL1), wh
 
 After restarting HamClock, I can verify the sensor results being collected with the `get_sensors` API endpoint:
 
-```sh
-$ curl "http://192.168.10.36:8080/get_sensors.txt"
-#   UTC ISO 8601      UNIX secs I2C  Temp,C   P,hPa   Hum,%  DewP,C
-2026-02-09T07:38:23Z 1770622703  76   25.36 1003.45   33.27    8.04
-2026-02-09T07:38:28Z 1770622708  76   25.35 1003.52   33.30    8.04
-2026-02-09T07:38:34Z 1770622714  76   25.30 1003.49   33.34    8.02
-2026-02-09T07:38:41Z 1770622721  76   25.28 1003.51   33.29    7.98
-2026-02-09T07:38:54Z 1770622734  76   25.28 1003.46   33.55    8.09
-2026-02-09T07:38:54Z 1770622734  76   25.29 1003.44   33.56    8.11
-2026-02-09T07:39:05Z 1770622745  76   25.25 1003.46   33.86    8.20
-2026-02-09T07:39:18Z 1770622758  76   25.07 1003.42   34.16    8.17
-2026-02-09T07:39:33Z 1770622773  76   25.15 1003.44   34.10    8.22
-2026-02-09T07:39:51Z 1770622791  76   25.09 1003.48   34.31    8.25
-2026-02-09T07:40:13Z 1770622813  76   25.17 1003.41   33.98    8.18
-
-```
+    $ curl "http://192.168.10.36:8080/get_sensors.txt"
+    #   UTC ISO 8601      UNIX secs I2C  Temp,C   P,hPa   Hum,%  DewP,C
+    2026-02-09T07:38:23Z 1770622703  76   25.36 1003.45   33.27    8.04
+    2026-02-09T07:38:28Z 1770622708  76   25.35 1003.52   33.30    8.04
+    2026-02-09T07:38:34Z 1770622714  76   25.30 1003.49   33.34    8.02
+    2026-02-09T07:38:41Z 1770622721  76   25.28 1003.51   33.29    7.98
+    2026-02-09T07:38:54Z 1770622734  76   25.28 1003.46   33.55    8.09
+    2026-02-09T07:38:54Z 1770622734  76   25.29 1003.44   33.56    8.11
+    2026-02-09T07:39:05Z 1770622745  76   25.25 1003.46   33.86    8.20
+    2026-02-09T07:39:18Z 1770622758  76   25.07 1003.42   34.16    8.17
+    2026-02-09T07:39:33Z 1770622773  76   25.15 1003.44   34.10    8.22
+    2026-02-09T07:39:51Z 1770622791  76   25.09 1003.48   34.31    8.25
+    2026-02-09T07:40:13Z 1770622813  76   25.17 1003.41   33.98    8.18
 
 Readings from the BME280 can be configured to display in the top panels, for example here is the temperature in pane 1, and BME readings in the narrow, right-most pane 4:
 
@@ -328,3 +327,6 @@ And the LED lights up. The push-button can be used to cancel the alarm:
 * [OpenHamClock - A real-time amateur radio dashboard for the modern operator](https://github.com/accius/openhamclock)
 * [GlanceRF (A Hamclock Modern Rebuild)](https://github.com/pomtom44/GlanceRF)
 * [Open HamClock Backend](https://github.com/BrianWilkinsFL/open-hamclock-backend)
+* [LEAP#831 HamClock Hat](./DIYHamClockHat/)
+* ["1-10pcs BME280 BMP280 5V 3.3V Digital Sensor Temperature Humidity Barometric Pressure Module I2C SPI for Arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/1005008511564094.html)
+    * Purchased BME280 3.3V module for SG$3.72 (Jan-2026)
