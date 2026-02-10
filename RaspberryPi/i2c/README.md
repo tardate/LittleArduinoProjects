@@ -1,4 +1,4 @@
-# #xxx Using I²C on the Raspberry Pi
+# #832 Using I²C on the Raspberry Pi
 
 All about configuring the I²C on the Raspberry Pi. Demonstrates using the bus with BME280 and BMP280 environmental sensors attached, with examples of probing the bus with i2c-tools, and reading the sensors with python, using the smbus library.
 

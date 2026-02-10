@@ -1,6 +1,6 @@
-# 831 Little Electronic Art Projects
+# 832 Little Electronic Art Projects
 
-> Latest addition :sparkles: [HamClock Hat](./Radio/HamClock/DIYHamClockHat) - A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.
+> Latest addition :sparkles: [Using I²C on the Raspberry Pi](./RaspberryPi/i2c) - All about configuring the I²C on the Raspberry Pi. Demonstrates using the bus with BME280 and BMP280 environmental sensors attached, with examples of probing the bus with i2c-tools, and reading the sensors with python, using the smbus library.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
