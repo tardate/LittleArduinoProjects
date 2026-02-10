@@ -1,4 +1,14 @@
 {
+    "/radio/hamclock/diyhamclockhat/": {
+        "id": 831,
+        "title": "HamClock Hat",
+        "summary": "A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.",
+        "tags": [
+            "Radio",
+            "Raspberry Pi",
+            "BME280"
+        ]
+    },
     "/electronics101/bme280/module3v/": {
         "id": 830,
         "title": "BME280 3.3V Module",
@@ -683,7 +693,8 @@
             "Radio",
             "macOS",
             "Ubuntu",
-            "Raspberry Pi"
+            "Raspberry Pi",
+            "BME280"
         ]
     },
     "/electronics101/cd4069/pushbuttonlatch/": {

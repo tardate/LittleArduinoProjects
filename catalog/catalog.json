@@ -1,5 +1,15 @@
 [
     {
+        "name": "HamClock Hat",
+        "description": "A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.",
+        "categories": "Radio, Raspberry Pi, BME280",
+        "relative_path": "radio/hamclock/diyhamclockhat",
+        "updated_at": "2026-02-10T10:14:00Z",
+        "created_at": "2026-02-10T10:14:00Z",
+        "id": "#831",
+        "original_relative_path": "Radio/HamClock/DIYHamClockHat"
+    },
+    {
         "name": "BME280 3.3V Module",
         "description": "Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 3.3V module and an Arduino Mini with 128x32 OLED display.",
         "categories": "BME280, Sensors, Arduino, OLED, I2C",
@@ -682,7 +692,7 @@
     {
         "name": "HamClock",
         "description": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements.",
-        "categories": "Radio, macOS, Ubuntu, Raspberry Pi",
+        "categories": "Radio, macOS, Ubuntu, Raspberry Pi, BME280",
         "relative_path": "radio/hamclock",
         "updated_at": "2025-03-05T05:00:00Z",
         "created_at": "2025-03-05T05:00:00Z",

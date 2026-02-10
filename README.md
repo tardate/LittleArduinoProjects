@@ -1,6 +1,6 @@
-# 830 Little Electronic Art Projects
+# 831 Little Electronic Art Projects
 
-> Latest addition :sparkles: [BME280 3.3V Module](./Electronics101/BME280/Module3V) - Examine the BME280 barometric pressure, temperature, and humidity sensor. Demonstrate its functionality with a common GY-BME280 3.3V module and an Arduino Mini with 128x32 OLED display.
+> Latest addition :sparkles: [HamClock Hat](./Radio/HamClock/DIYHamClockHat) - A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

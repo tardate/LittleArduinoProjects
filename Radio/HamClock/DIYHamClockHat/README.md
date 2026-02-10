@@ -1,4 +1,4 @@
-# #xxx HamClock Hat
+# #831 HamClock Hat
 
 A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.
 
