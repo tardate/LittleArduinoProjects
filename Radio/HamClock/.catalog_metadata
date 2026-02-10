@@ -1,7 +1,7 @@
 {
     "name": "HamClock",
-    "description": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi",
-    "categories": "Radio, macOS, Ubuntu, Raspberry Pi",
+    "description": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements.",
+    "categories": "Radio, macOS, Ubuntu, Raspberry Pi, BME280",
     "relative_path": "Radio/HamClock",
     "updated_at": "2025-03-05T05:00:00Z",
     "created_at": "2025-03-05T05:00:00Z",

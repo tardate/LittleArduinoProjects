@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-09T02:01:00Z</updated>
+  <updated>2026-02-10T10:14:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/radio/hamclock/diyhamclockhat/</id>
+    <link href="https://leap.tardate.com/radio/hamclock/diyhamclockhat/"/>
+    <g:image_link>https://leap.tardate.com/radio/hamclock/diyhamclockhat/assets/diyhamclockhat_build.jpg</g:image_link>
+    <updated>2026-02-10T10:14:00Z</updated>
+    <title>#831 HamClock Hat</title>
+    <summary>A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A simple DIY adapter for the Raspberry Pi to mount the hardware for the BME280 environmental sensor, satellite, alarm, and countdown controls and indicators.&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/hamclock/diyhamclockhat/assets/diyhamclockhat_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
+    <category term="Raspberry Pi"/>
+    <category term="BME280"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/bme280/module3v/</id>
     <link href="https://leap.tardate.com/electronics101/bme280/module3v/"/>
@@ -831,12 +843,13 @@
     <g:image_link>https://leap.tardate.com/radio/hamclock/assets/hamclock_build.jpg</g:image_link>
     <updated>2025-03-05T05:00:00Z</updated>
     <title>#762 HamClock</title>
-    <summary>Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/hamclock/assets/hamclock_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements.&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/hamclock/assets/hamclock_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="macOS"/>
     <category term="Ubuntu"/>
     <category term="Raspberry Pi"/>
+    <category term="BME280"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/cd4069/pushbuttonlatch/</id>
