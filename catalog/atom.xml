@@ -7,12 +7,27 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-10T10:14:00Z</updated>
+  <updated>2026-02-10T14:25:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/raspberrypi/i2c/</id>
+    <link href="https://leap.tardate.com/raspberrypi/i2c/"/>
+    <g:image_link>https://leap.tardate.com/raspberrypi/i2c/assets/i2c_build.jpg</g:image_link>
+    <updated>2026-02-10T14:25:00Z</updated>
+    <title>#832 Using I²C on the Raspberry Pi</title>
+    <summary>All about configuring the I²C on the Raspberry Pi. Demonstrates using the bus with BME280 and BMP280 environmental sensors attached, with examples of probing the bus with i2c-tools, and reading the sensors with python, using the smbus library.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about configuring the I²C on the Raspberry Pi. Demonstrates using the bus with BME280 and BMP280 environmental sensors attached, with examples of probing the bus with i2c-tools, and reading the sensors with python, using the smbus library.&lt;/p&gt;&lt;img src="https://leap.tardate.com/raspberrypi/i2c/assets/i2c_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Raspberry Pi"/>
+    <category term="I2C"/>
+    <category term="Sensors"/>
+    <category term="BME280"/>
+    <category term="BMP280"/>
+    <category term="Python"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/radio/hamclock/diyhamclockhat/</id>
     <link href="https://leap.tardate.com/radio/hamclock/diyhamclockhat/"/>

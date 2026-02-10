@@ -186,7 +186,9 @@ Many things have changed in [Raspberry Pi OS](https://www.raspberrypi.com/docume
 * 8.2. Keeping Your Raspberry Pi Safe when Using the GPIO Connector
 * 8.3. Installing RPi.GPIO
 * 8.4. Setting Up I2C
+    * see [LEAP#832 Using I²C on the Raspberry Pi](../../RaspberryPi/i2c/)
 * 8.5. Using I2C Tools
+    * see [LEAP#832 Using I²C on the Raspberry Pi](../../RaspberryPi/i2c/)
 * 8.6. Setting Up SPI
 * 8.7. Freeing the Serial Port
 * 8.8. Installing PySerial for Access to the Serial Port from Python
