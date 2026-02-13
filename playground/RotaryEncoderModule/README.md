@@ -12,7 +12,7 @@ In the [RotaryEncoderMethods](../RotaryEncoderMethods) project I determined that
 
 This project is similar, but uses a rotary encoder "module" that includes switch functionality.
 
- The module I am using is the
+The module I am using is the
 ["Rotary Encoder Module for Arduino Dropshipping" (aliexpress seller listing)](https://www.aliexpress.com/item/1989393805.html)
 purchased for US$1.03 (Jul-2015).
 
@@ -37,11 +37,17 @@ The rotary encoder module includes a switch (press on the encoder shaft). This i
 
 ## Construction
 
+Designed with Fritzing: see [RotaryEncoderModule.fzz](./RotaryEncoderModule.fzz).
+
 ![Breadboard](./assets/RotaryEncoderModule_bb.jpg?raw=true)
 
 ![The Schematic](./assets/RotaryEncoderModule_schematic.jpg?raw=true)
 
 ![The Build](./assets/RotaryEncoderModule_build.jpg?raw=true)
+
+### The Sketch
+
+See [RotaryEncoderModule.ino](./RotaryEncoderModule.ino).
 
 ## Credits and References
 
