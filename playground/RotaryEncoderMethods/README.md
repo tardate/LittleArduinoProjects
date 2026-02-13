@@ -1,6 +1,6 @@
-# #118 RotaryEncoderMethods
+# #118 Rotary Encoder Methods
 
-Finding the best method for reading a rotary-encoder.
+Finding the best method for reading a rotary encoder with aan Arduino.
 
 ![The Build](./assets/RotaryEncoderMethods_build.jpg?raw=true)
 

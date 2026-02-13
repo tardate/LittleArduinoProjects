@@ -12,7 +12,7 @@ This is a test of the [LedControl library](https://github.com/wayoda/LedControl)
 
 See the [MaxRawDemo](../MaxRawDemo) project for details of the hardware and setup, and a test of driving the hardware directly with SPI.
 
-## Construction
+### Construction
 
 ![Breadboard](./assets/LedControlDemo_bb.jpg?raw=true)
 
@@ -20,9 +20,15 @@ See the [MaxRawDemo](../MaxRawDemo) project for details of the hardware and setu
 
 ![The Build](./assets/LedControlDemo_build.jpg?raw=true)
 
+### The Sketch
+
+See [LedControlDemo.ino](./LedControlDemo.ino).
+
 ## Credits and References
 
-* [LED Matrix kit for sale on aliexpress](https://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html)
+* ["1PCS Free Shipping SCM MCU Control LED Display Module DIY Kit for Arduino MAX7219 Dot Matrix Module Microcontroller" (aliexpress seller listing)](https://www.aliexpress.com/item/2011910501.html)
+    * Purchased for US$1.59 (Jun-2015)
+    * No longer available from this seller
 * [LedControl](https://github.com/wayoda/LedControl) library at GitHub
 * [LedControl Overview](http://playground.arduino.cc/Main/LedControl) on the arduino playground
 * [MAX7219 datasheet](https://www.futurlec.com/Maxim/MAX7219.shtml)

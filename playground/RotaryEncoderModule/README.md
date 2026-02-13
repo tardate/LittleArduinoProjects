@@ -1,6 +1,6 @@
-# #119 RotaryEncoderModule
+# #119 Rotary Encoder Module
 
-Testing a Rotary Encoder module controlling an LED 8x8 display
+Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.
 
 Here's a quick video of the circuit in action:
 

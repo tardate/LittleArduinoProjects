@@ -1,8 +1,8 @@
 {
     "id": "#177",
     "name": "7-Segment Shift Drive",
-    "description": "test control of a 7-segment LED display via a 74HC595 shift register",
-    "categories": "LED, LED 7-Segment, CMOS/TTL, Arduino",
+    "description": "Test control of a 7-segment LED display via a 74HC595 shift register.",
+    "categories": "LED, LED 7-Segment, CMOS/TTL, Arduino, 74HC595",
     "relative_path": "playground/LED7Segment/ShiftDrive",
     "updated_at": "2020-10-02T13:02:32Z",
     "created_at": "2020-10-02T13:02:32Z"

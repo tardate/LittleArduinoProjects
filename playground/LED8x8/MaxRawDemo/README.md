@@ -6,8 +6,10 @@ Drive an 8x8 LED Matrix with a MAX7219 chip and raw SPI commands.
 
 ## Notes
 
-This is a first test of an
-[8x8 LED module kit from a seller on aliexpress](https://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html). This is a pretty common device available from many sources, either as prefab module or parts kit.
+This is a first test of an 8x8 LED module kit:
+["1PCS Free Shipping SCM MCU Control LED Display Module DIY Kit for Arduino MAX7219 Dot Matrix Module Microcontroller" (aliexpress seller listing)](https://www.aliexpress.com/item/2011910501.html), purchased for US$1.59 (Jun-2015).
+
+This is a pretty common module available from many sources, either as prefab module or parts kit.
 
 The kit includes a "1088AS" 8x8 LED module, which is single colour (red) with row pins cathode and column pins anode.
 
@@ -46,7 +48,7 @@ Turns out that talking to the array via the MAX7219 is pretty simple!
 We just shift out a 16-bit command which is latched on the rising edge of the CS clock select pin.
 Each 16 bits comprises an 8-bit register address and 8 bits of data, which is well described in the datasheet.
 
-See code in the [MaxRawDemo.ino](./MaxRawDemo.ino) sketch demonostrates the bare minimum required to start writing to the display.
+See code in the [MaxRawDemo.ino](./MaxRawDemo.ino) sketch demonstrates the bare minimum required to start writing to the display.
 Next up, I guess I need to get it to display something interesting!
 
 ### Construction
@@ -57,7 +59,9 @@ Next up, I guess I need to get it to display something interesting!
 
 ## Credits and References
 
-* [LED Matrix kit for sale on aliexpress](https://www.aliexpress.com/item/free-shipping-MAX7219-Dot-matrix-module-display-module-DIY-kit-SCM-control-module-for-Arduino-microcontroller/2011910501.html)
+* ["1PCS Free Shipping SCM MCU Control LED Display Module DIY Kit for Arduino MAX7219 Dot Matrix Module Microcontroller" (aliexpress seller listing)](https://www.aliexpress.com/item/2011910501.html)
+    * Purchased for US$1.59 (Jun-2015)
+    * No longer available from this seller
 * [MAX7219 datasheet](https://www.futurlec.com/Maxim/MAX7219.shtml)
 * [1088AS datasheet](http://megtestesules.info/hobbielektronika/adatlapok/LED8x8_1088AS.pdf)
 * [MAX72XX Hardware](http://playground.arduino.cc/Main/MAX72XXHardware) page on the Arduino playground
