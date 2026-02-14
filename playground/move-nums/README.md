@@ -43,16 +43,17 @@ The basic idea:
 
 ### The movNums Algorithm
 
-The algorithm I've used here to implement `movNums` as an in-place strategy that operates on the array of values `int8_t columns[MAX_COLS]`.
-This is the basic procedure:
+The algorithm I've used here to implement `movNums` is an in-place strategy that operates on the array of values `int8_t columns[MAX_COLS]`.
+
+The basic procedure:
 
 * iterate all columns from position 0
 * if the value doesn't match `n`, move to the next column
 * if the value does match `n`, find the to next column that doesn't match `n`: swap values then move to the next column
 
-For display animation purpose, it updates the column display after each swap.
+Here is the core method as implemented in C++ for the Arduino.
 
-Here is the core method as implemented:
+For display animation purpose, it updates the column display with a short delay after each swap:
 
 ```c++
 void MatrixDisplay::moveNums(int8_t n) {
@@ -78,7 +79,7 @@ void MatrixDisplay::moveNums(int8_t n) {
 
 Key components I am using:
 
-* an Arduino Uno is the brains
+* an Arduino Uno
 * Rotary Encoder Module with push-button action
 * an 8x8 LED Matrix with SPI interface
 * a 7-segment LED mounted on an adapter board with a SPI-like 74HC595 shift register interface [LEAP#178 7-Segment Shift Drive Module](../LED7Segment/ShiftDriveModule/)
@@ -90,6 +91,8 @@ Designed with Fritzing: see [move-nums.fzz](./move-nums.fzz).
 ![bb](./assets/move-nums_bb.jpg?raw=true)
 
 ![schematic](./assets/move-nums_schematic.jpg?raw=true)
+
+Wired together on a breadboard:
 
 ![bb_build](./assets/move-nums_bb_build.jpg?raw=true)
 
