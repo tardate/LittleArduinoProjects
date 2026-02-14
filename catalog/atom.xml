@@ -18,7 +18,7 @@
     <link href="https://leap.tardate.com/playground/move-nums/"/>
     <g:image_link>https://leap.tardate.com/playground/move-nums/assets/move-nums_build.jpg</g:image_link>
     <updated>2026-02-14T15:06:00Z</updated>
-    <title>#833 Solving cassidoo's movNums on Arduino</title>
+    <title>#833 Solving cassidoo's moveNums on Arduino</title>
     <summary>Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/move-nums/assets/move-nums_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="cassidoo"/>

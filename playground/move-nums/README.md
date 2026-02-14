@@ -1,4 +1,4 @@
-# #833 Solving cassidoo's movNums on Arduino
+# #833 Solving cassidoo's moveNums on Arduino
 
 Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.
 
@@ -22,7 +22,7 @@ asks us rearrange an array:
 > [2,3,10,0,0]
 > ```
 
-I actually solved this first using Factor: see [LCK#412 moveNums](https://codingkata.tardate.com/factor/move-nums/),
+I originally solved this using Factor: see [LCK#412 moveNums](https://codingkata.tardate.com/factor/move-nums/),
 but all the while I was visualizing the solution. So why not try to implement it with LEDs and an Arduino?
 
 The basic idea:
@@ -41,9 +41,9 @@ The basic idea:
     * re-arrange the columns to move all columns that match the "n" to the right
 * another click will restart the process
 
-### The movNums Algorithm
+### The moveNums Algorithm
 
-The algorithm I've used here to implement `movNums` is an in-place strategy that operates on the array of values `int8_t columns[MAX_COLS]`.
+The algorithm I've used here to implement `moveNums` is an in-place strategy that operates on the array of values `int8_t columns[MAX_COLS]`.
 
 The basic procedure:
 
