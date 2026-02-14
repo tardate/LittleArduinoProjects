@@ -1,4 +1,4 @@
-# #xxx Solving cassidoo's movNums on Arduino
+# #833 Solving cassidoo's movNums on Arduino
 
 Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.
 

@@ -2,5 +2,8 @@
     "name": "Solving cassidoo's movNums on Arduino",
     "description": "Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.",
     "categories": "cassidoo, LED 7-Segment, LED 8x8, Rotary Encoder, 74HC595, Arduino",
-    "relative_path": "playground/move-nums"
+    "relative_path": "playground/move-nums",
+    "updated_at": "2026-02-14T15:06:00Z",
+    "created_at": "2026-02-14T15:06:00Z",
+    "id": "#833"
 }

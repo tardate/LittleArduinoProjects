@@ -1,6 +1,6 @@
-# 832 Little Electronic Art Projects
+# 833 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Using I²C on the Raspberry Pi](./RaspberryPi/i2c) - All about configuring the I²C on the Raspberry Pi. Demonstrates using the bus with BME280 and BMP280 environmental sensors attached, with examples of probing the bus with i2c-tools, and reading the sensors with python, using the smbus library.
+> Latest addition :sparkles: [Solving cassidoo's movNums on Arduino](./playground/move-nums) - Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
