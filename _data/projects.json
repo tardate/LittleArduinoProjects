@@ -1,4 +1,17 @@
 {
+    "/playground/move-nums/": {
+        "id": 833,
+        "title": "Solving cassidoo's movNums on Arduino",
+        "summary": "Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.",
+        "tags": [
+            "cassidoo",
+            "LED 7-Segment",
+            "LED 8x8",
+            "Rotary Encoder",
+            "74HC595",
+            "Arduino"
+        ]
+    },
     "/raspberrypi/i2c/": {
         "id": 832,
         "title": "Using I\u00b2C on the Raspberry Pi",
@@ -565,7 +578,8 @@
             "Boldport",
             "PCB Design",
             "LED",
-            "AS1130"
+            "AS1130",
+            "cassidoo"
         ]
     },
     "/equipment/nanovna/rfdemokit/": {
@@ -6280,18 +6294,20 @@
             "LED 7-Segment",
             "CMOS/TTL",
             "Arduino",
-            "PCB"
+            "PCB",
+            "74HC595"
         ]
     },
     "/playground/led7segment/shiftdrive/": {
         "id": 177,
         "title": "7-Segment Shift Drive",
-        "summary": "test control of a 7-segment LED display via a 74HC595 shift register",
+        "summary": "Test control of a 7-segment LED display via a 74HC595 shift register.",
         "tags": [
             "LED",
             "LED 7-Segment",
             "CMOS/TTL",
-            "Arduino"
+            "Arduino",
+            "74HC595"
         ]
     },
     "/electronics101/nrf24breakout/": {
@@ -6827,20 +6843,20 @@
     },
     "/playground/rotaryencodermodule/": {
         "id": 119,
-        "title": "RotaryEncoderModule",
-        "summary": "testing a Rotary Encoder module controlling an LED 8x8 display",
+        "title": "Rotary Encoder Module",
+        "summary": "Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.",
         "tags": [
-            "Sensors",
+            "Rotary Encoder",
             "LED 8x8",
             "Arduino"
         ]
     },
     "/playground/rotaryencodermethods/": {
         "id": 118,
-        "title": "RotaryEncoderMethods",
-        "summary": "finding the best method for reading a rotary-encoder",
+        "title": "Rotary Encoder Methods",
+        "summary": "Finding the best method for reading a rotary encoder with aan Arduino.",
         "tags": [
-            "Sensors",
+            "Rotary Encoder",
             "Arduino"
         ]
     },

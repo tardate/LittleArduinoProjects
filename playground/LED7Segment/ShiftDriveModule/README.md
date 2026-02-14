@@ -6,7 +6,6 @@ Here's a quick video of the module in action:
 
 [![LED7Segment/ShiftDriveModule](https://img.youtube.com/vi/7cgd1EV6CqY/0.jpg)](https://www.youtube.com/watch?v=7cgd1EV6CqY)
 
-
 ## Notes
 
 This is my version of project 2 from the
@@ -21,8 +20,9 @@ The PCB design was done with [KiCad](http://kicad-pcb.org/).
 I sent these off for production at [OSH Park](https://oshpark.com/shared_projects/gs9XjBpw), and they arrived (in Singapore) a month later (Jan 17th -> Feb 17th). They turned out quite well, certainly no issues with the fab.
 
 After examining the PCBs, I found a few things that could be improved in the design:
+
 * doh! I got the data/latch labels around the wrong way (fixed in 1.1.0)
-* pin header label was obscurred by R1 (fixed in 1.1.0)
+* pin header label was obscured by R1 (fixed in 1.1.0)
 * the thru-hole pads for the resistors are super-chunky compared to the other component holes. Not a real issue - just looks weird.
 * orientation of the 74HC595 should probably be a clearer (like a notch in the footprint outline)
 
@@ -85,4 +85,4 @@ but if I do another I'll probably use female pin headers instead.
 * [HARDWARE HANGOUT with James "Laen" Neal from OSH Park!](https://www.youtube.com/watch?v=XssjD97-xGM) - where I first learned of OSH Park
 * [..as mentioned on my blog](https://blog.tardate.com/2016/02/littlearduinoprojects178-making-7.html)
 
-<a href="https://oshpark.com/shared_projects/gs9XjBpw"><img src="https://a800d827b6de8403a51e-6ffc2e718631809086ea40332b2055f7.ssl.cf1.rackcdn.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+[![Order from OSH Park](https://a800d827b6de8403a51e-6ffc2e718631809086ea40332b2055f7.ssl.cf1.rackcdn.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png)](https://oshpark.com/shared_projects/gs9XjBpw)

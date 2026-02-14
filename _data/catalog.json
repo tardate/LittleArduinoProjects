@@ -1,5 +1,15 @@
 [
     {
+        "name": "Solving cassidoo's movNums on Arduino",
+        "description": "Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.",
+        "categories": "cassidoo, LED 7-Segment, LED 8x8, Rotary Encoder, 74HC595, Arduino",
+        "relative_path": "playground/move-nums",
+        "updated_at": "2026-02-14T15:06:00Z",
+        "created_at": "2026-02-14T15:06:00Z",
+        "id": "#833",
+        "original_relative_path": "playground/move-nums"
+    },
+    {
         "name": "Using I\u00b2C on the Raspberry Pi",
         "description": "All about configuring the I\u00b2C on the Raspberry Pi. Demonstrates using the bus with BME280 and BMP280 environmental sensors attached, with examples of probing the bus with i2c-tools, and reading the sensors with python, using the smbus library.",
         "categories": "Raspberry Pi, I2C, Sensors, BME280, BMP280, Python",
@@ -552,7 +562,7 @@
     {
         "name": "Fireworks Grand Finale",
         "description": "Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating the result with the BoldportClub Matrix",
-        "categories": "Boldport, PCB Design, LED, AS1130",
+        "categories": "Boldport, PCB Design, LED, AS1130, cassidoo",
         "relative_path": "boldportclub/thematrix/grandfinale",
         "updated_at": "2025-07-11T17:02:00Z",
         "created_at": "2025-07-11T17:02:00Z",
@@ -6543,7 +6553,7 @@
         "id": "#178",
         "name": "7-Segment Shift Drive Module",
         "description": "a custom 7-segment LED display module PCB with 74HC595 shift register interface",
-        "categories": "LED 7-Segment, CMOS/TTL, Arduino, PCB",
+        "categories": "LED 7-Segment, CMOS/TTL, Arduino, PCB, 74HC595",
         "relative_path": "playground/led7segment/shiftdrivemodule",
         "updated_at": "2020-10-02T13:02:32Z",
         "created_at": "2020-10-02T13:02:32Z",
@@ -6552,8 +6562,8 @@
     {
         "id": "#177",
         "name": "7-Segment Shift Drive",
-        "description": "test control of a 7-segment LED display via a 74HC595 shift register",
-        "categories": "LED, LED 7-Segment, CMOS/TTL, Arduino",
+        "description": "Test control of a 7-segment LED display via a 74HC595 shift register.",
+        "categories": "LED, LED 7-Segment, CMOS/TTL, Arduino, 74HC595",
         "relative_path": "playground/led7segment/shiftdrive",
         "updated_at": "2020-10-02T13:02:32Z",
         "created_at": "2020-10-02T13:02:32Z",
@@ -7131,9 +7141,9 @@
     },
     {
         "id": "#119",
-        "name": "RotaryEncoderModule",
-        "description": "testing a Rotary Encoder module controlling an LED 8x8 display",
-        "categories": "Sensors, LED 8x8, Arduino",
+        "name": "Rotary Encoder Module",
+        "description": "Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.",
+        "categories": "Rotary Encoder, LED 8x8, Arduino",
         "relative_path": "playground/rotaryencodermodule",
         "updated_at": "2016-06-19T14:13:24Z",
         "created_at": "2016-06-19T14:13:24Z",
@@ -7141,9 +7151,9 @@
     },
     {
         "id": "#118",
-        "name": "RotaryEncoderMethods",
-        "description": "finding the best method for reading a rotary-encoder",
-        "categories": "Sensors, Arduino",
+        "name": "Rotary Encoder Methods",
+        "description": "Finding the best method for reading a rotary encoder with aan Arduino.",
+        "categories": "Rotary Encoder, Arduino",
         "relative_path": "playground/rotaryencodermethods",
         "updated_at": "2016-06-19T14:13:24Z",
         "created_at": "2016-06-19T14:13:24Z",

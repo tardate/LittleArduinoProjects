@@ -7,12 +7,27 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-02-10T14:25:00Z</updated>
+  <updated>2026-02-14T15:06:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/move-nums/</id>
+    <link href="https://leap.tardate.com/playground/move-nums/"/>
+    <g:image_link>https://leap.tardate.com/playground/move-nums/assets/move-nums_build.jpg</g:image_link>
+    <updated>2026-02-14T15:06:00Z</updated>
+    <title>#833 Solving cassidoo's movNums on Arduino</title>
+    <summary>Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/move-nums/assets/move-nums_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="cassidoo"/>
+    <category term="LED 7-Segment"/>
+    <category term="LED 8x8"/>
+    <category term="Rotary Encoder"/>
+    <category term="74HC595"/>
+    <category term="Arduino"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/raspberrypi/i2c/</id>
     <link href="https://leap.tardate.com/raspberrypi/i2c/"/>
@@ -693,6 +708,7 @@
     <category term="PCB Design"/>
     <category term="LED"/>
     <category term="AS1130"/>
+    <category term="cassidoo"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/nanovna/rfdemokit/</id>
@@ -7606,6 +7622,7 @@
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
     <category term="PCB"/>
+    <category term="74HC595"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/led7segment/shiftdrive/</id>
@@ -7613,12 +7630,13 @@
     <g:image_link>https://leap.tardate.com/playground/led7segment/shiftdrive/assets/shiftdrive_build.jpg</g:image_link>
     <updated>2020-10-02T13:02:32Z</updated>
     <title>#177 7-Segment Shift Drive</title>
-    <summary>test control of a 7-segment LED display via a 74HC595 shift register</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test control of a 7-segment LED display via a 74HC595 shift register&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/led7segment/shiftdrive/assets/shiftdrive_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Test control of a 7-segment LED display via a 74HC595 shift register.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Test control of a 7-segment LED display via a 74HC595 shift register.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/led7segment/shiftdrive/assets/shiftdrive_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
+    <category term="74HC595"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/nrf24breakout/</id>
@@ -8270,10 +8288,10 @@
     <link href="https://leap.tardate.com/playground/rotaryencodermodule/"/>
     <g:image_link>https://leap.tardate.com/playground/rotaryencodermodule/assets/rotaryencodermodule_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#119 RotaryEncoderModule</title>
-    <summary>testing a Rotary Encoder module controlling an LED 8x8 display</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;testing a Rotary Encoder module controlling an LED 8x8 display&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/rotaryencodermodule/assets/rotaryencodermodule_build.jpg" /&gt;&lt;/div&gt;</content>
-    <category term="Sensors"/>
+    <title>#119 Rotary Encoder Module</title>
+    <summary>Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/rotaryencodermodule/assets/rotaryencodermodule_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Rotary Encoder"/>
     <category term="LED 8x8"/>
     <category term="Arduino"/>
   </entry>
@@ -8282,10 +8300,10 @@
     <link href="https://leap.tardate.com/playground/rotaryencodermethods/"/>
     <g:image_link>https://leap.tardate.com/playground/rotaryencodermethods/assets/rotaryencodermethods_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
-    <title>#118 RotaryEncoderMethods</title>
-    <summary>finding the best method for reading a rotary-encoder</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;finding the best method for reading a rotary-encoder&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/rotaryencodermethods/assets/rotaryencodermethods_build.jpg" /&gt;&lt;/div&gt;</content>
-    <category term="Sensors"/>
+    <title>#118 Rotary Encoder Methods</title>
+    <summary>Finding the best method for reading a rotary encoder with aan Arduino.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Finding the best method for reading a rotary encoder with aan Arduino.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/rotaryencodermethods/assets/rotaryencodermethods_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Rotary Encoder"/>
     <category term="Arduino"/>
   </entry>
   <entry>

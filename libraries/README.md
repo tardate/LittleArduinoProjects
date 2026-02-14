@@ -36,7 +36,7 @@ Some projects require additional libraries. For example:
 * [Radio](http://www.mathertel.de/Arduino/RadioLibrary.aspx) - Arduino Radio Library
 * [RadioHead](https://github.com/tardate/RadioHead) - Packet Radio e.g. 433MHz projects. RadioHead is a successor the the [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/) library.
 * [RF24](https://github.com/maniacbug/RF24) - used by nRF24L01+ projects
-* [Rotary](https://github.com/brianlow/Rotary) - rotary Encoder input
+* [Rotary](https://github.com/brianlow/Rotary) - rotary encoder input
 * [Servo8Bit](https://github.com/fri000/Servo8Bit) - servo control with 8-bit timers (e.g ATTiny)
 * [SoftwareServo](https://github.com/ttseng/SoftwareServo) - cloned here, as the repo is not setup correctly to be imported directly as a module
 * [SV-Zanshin/INA](https://github.com/SV-Zanshin/INA) - Combined Arduino library for reading multiple INA2xx power monitor devices

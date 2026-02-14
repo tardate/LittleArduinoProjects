@@ -1,13 +1,13 @@
-# #118 RotaryEncoderMethods
+# #118 Rotary Encoder Methods
 
-Finding the best method for reading a rotary-encoder.
+Finding the best method for reading a rotary encoder with aan Arduino.
 
 ![The Build](./assets/RotaryEncoderMethods_build.jpg?raw=true)
 
 ## Notes
 
-I'm testing some mini rotary encoders I got from a
-[seller on aliexpress](https://www.aliexpress.com/item/10-pcs-Handle-Length-15MM-EC12-E12-Audio-Encoder-360-Degree-Rotary-Encoder-Tripod/32308666522.html).
+I'm testing some mini rotary encoders I purchased for US$3.60/lot (Jun-2015):
+["10 pcs Handle Length 15MM EC12 E12 Audio Encoder 360 Degree Rotary Encoder Tripod" (aliexpress seller listing)](https://www.aliexpress.com/item/32308666522.html).
 
 [Incremental rotary encoders](https://en.wikipedia.org/wiki/Rotary_encoder#Incremental_rotary_encoder)
 generate step pulses trains that are 90˚ out of phase. Their relative sequencing therefore indicates rotation and direction:
@@ -24,26 +24,26 @@ These are similar to the techniques described in
 My first attempts were pretty unsatisfactory.
 At both high and low rotation speeds, I'd routinely see all the possible problems: missed steps, "extra" steps, and unexpected reversals.
 Basically, the experience is that if the encoder is rotated right by say 30˚ and then left by the same amount, then there's a very high chance
-that an encoder counter will *not* retrun to the same value.
+that an encoder counter will *not* return to the same value.
 Either my rotary encoders are not very reliable, or the programming techniques are doing a poor job of reliably capturing the input.
 
 It doesn't take [much research](https://hifiduino.wordpress.com/2010/10/20/rotaryencoder-hw-sw-no-debounce/) to discover this is a common experience.
 Perhaps if I had expensive, high-precision encoders then things would "just work", but the typical rotary encoders used for manual
 input do seem notoriously noisy.
 
-So my experiement here has turned into a test of the various techniques, in search of the most suitable for general use.
+So my experiment here has turned into a test of the various techniques, in search of the most suitable for general use.
 Read on for more details, but here's the summary so far:
 
-| Technique | Accuracy                                                                                                        |
-|-----------|-----------------------------------------------------------------------------------------------------------------|
-| [RotaryISR](./RotaryISR/RotaryISR.ino) - change-triggered interrupt using the Rotary library | Perfect. 100% accuracy at all speeds       |
-| [RotaryPolling](./RotaryPolling/RotaryPolling.ino) - poll with the Rotary library | Perfect. 100% accuracy at all speeds                      |
-| [Polling](./Polling/Polling.ino) - simple polling with hardware debounce | Pretty good. the occasional extra event in the wrong direction |
-| [OnChangeISR](./OnChangeISR/OnChangeISR.ino) - change-triggered interrupt and standard digitalRead methods | OK, direction usually correct but lots of 'bounce' |
-| [Polling](./Polling/Polling.ino) - simple polling and standard digitalRead methods | Poor, direction bounces around quite a bit |
-| [OnChangeDirectPortAccessISR](./OnChangeDirectPortAccessISR/OnChangeDirectPortAccessISR.ino) - change-triggered interrupt and direct port methods | Poor, strong left-bias |
-| [FallingEdgeISR](./FallingEdgeISR/FallingEdgeISR.ino) - falling-edge triggered interrupt and standard digitalRead methods | Very poor, highly susceptible to bounce |
-| [FallingEdgeDirectPortAccessISR](./FallingEdgeDirectPortAccessISR/FallingEdgeDirectPortAccessISR.ino) - falling-edge triggered interrupt and direct port methods | Extremely poor, highly susceptible to bounce |
+| Technique                                                                                                                                                        | Accuracy                                                                                                        |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| [RotaryISR](./RotaryISR/RotaryISR.ino) - change-triggered interrupt using the Rotary library                                                                     | Perfect. 100% accuracy at all speeds                                                                            |
+| [RotaryPolling](./RotaryPolling/RotaryPolling.ino) - poll with the Rotary library                                                                                | Perfect. 100% accuracy at all speeds                                                                            |
+| [Polling](./Polling/Polling.ino) - simple polling with hardware debounce                                                                                         | Pretty good. the occasional extra event in the wrong direction                                                  |
+| [OnChangeISR](./OnChangeISR/OnChangeISR.ino) - change-triggered interrupt and standard digitalRead methods                                                       | OK, direction usually correct but lots of 'bounce'                                                              |
+| [Polling](./Polling/Polling.ino) - simple polling and standard digitalRead methods                                                                               | Poor, direction bounces around quite a bit                                                                      |
+| [OnChangeDirectPortAccessISR](./OnChangeDirectPortAccessISR/OnChangeDirectPortAccessISR.ino) - change-triggered interrupt and direct port methods                | Poor, strong left-bias                                                                                          |
+| [FallingEdgeISR](./FallingEdgeISR/FallingEdgeISR.ino) - falling-edge triggered interrupt and standard digitalRead methods                                        | Very poor, highly susceptible to bounce                                                                         |
+| [FallingEdgeDirectPortAccessISR](./FallingEdgeDirectPortAccessISR/FallingEdgeDirectPortAccessISR.ino) - falling-edge triggered interrupt and direct port methods | Extremely poor, highly susceptible to bounce                                                                    |
 
 It is pretty clear that the Rotary library is the best option by far, and delivers stunningly good results.
 All other options are susceptible to bouncing inputs to varying degrees.
@@ -100,7 +100,7 @@ The general experience is that debouncing is critical when using mini-rotary enc
 
 #### Hardware Debouncing
 
-Many people have experiemented with hardware debouncing.
+Many people have experimented with hardware debouncing.
 Adding hardware debouncing (see the alternative schematics below) does yield some improvement.
 For example a 10kΩ/100nF RC filter on the [Polling](./Polling) sketch eliminates most of the noise. But not all -
 it still triggers the occasional "wrong" signal.
@@ -109,7 +109,7 @@ it still triggers the occasional "wrong" signal.
 
 Software debouncing generally uses time-based techniques to discard "probably wrong" readings.
 For example
-[this example on the Arduno playgound](http://playground.arduino.cc/Main/RotaryEncoders#Example16)
+[this example on the Arduino playground](http://playground.arduino.cc/Main/RotaryEncoders#Example16)
 sets a minimum time between accepting valid signals.
 Others have used the [Bounce/Bounce2](https://github.com/thomasfredericks/Bounce2) library for the same purpose.
 I haven't included a software debounce example here yet, mainly because just like hardware debouncing, they don't totally solve the problem
@@ -132,7 +132,7 @@ And if we use these methods to read the two rotary encoder pins, we can't escape
 but does both speed up port access, and also allow us to read two pins simultaneously. This is similar the the approach described
 [by Oleg Mazurov in this article](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros).
 
-However, as my experiements show here, that in itself does not make for a better rotary encoder reader.
+However, as my experiments show here, that in itself does not make for a better rotary encoder reader.
 In fact it makes things worse, because the program just gets better and better at detecting the noise on the input.
 
 ## Construction
@@ -151,6 +151,9 @@ In fact it makes things worse, because the program just gets better and better a
 
 ## Credits and References
 
+* ["10 pcs Handle Length 15MM EC12 E12 Audio Encoder 360 Degree Rotary Encoder Tripod" (aliexpress seller listing)](https://www.aliexpress.com/item/32308666522.html)
+    * Purchased for US$3.60/lot (Jun-2015)
+    * No longer available from this seller
 * [RotaryEncoders](http://playground.arduino.cc/Main/RotaryEncoders) - Arduino playground
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
 * [Rotary library](https://github.com/brianlow/Rotary)

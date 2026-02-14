@@ -1,27 +1,30 @@
-# #119 RotaryEncoderModule
+# #119 Rotary Encoder Module
 
-Testing a Rotary Encoder module controlling an LED 8x8 display
+Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.
 
 Here's a quick video of the circuit in action:
 
 [![RotaryEncoderModule](https://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](https://www.youtube.com/watch?v=9sDoqK0cRAA)
 
-
 ## Notes
 
 In the [RotaryEncoderMethods](../RotaryEncoderMethods) project I determined that the [Rotary library](https://github.com/brianlow/Rotary) was by far the best option for reading a rotary encoder.
 
-This project is similar, but uses a rotary encoder "module" that includes switch functionality. The module I am using
-[is this one from seller on aliexpress](https://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html).
+This project is similar, but uses a rotary encoder "module" that includes switch functionality.
+
+The module I am using is the
+["Rotary Encoder Module for Arduino Dropshipping" (aliexpress seller listing)](https://www.aliexpress.com/item/1989393805.html)
+purchased for US$1.03 (Jul-2015).
+
 The module has built-in 10kΩ pull-up resistors on the signal lines, and external connections as follows:
 
-| Label   | Use |
-|---------|-----|
-| CLK     | Trigger rotational read on falling edge |
+| Label   | Use                                                                                   |
+|---------|---------------------------------------------------------------------------------------|
+| CLK     | Trigger rotational read on falling edge                                               |
 | DT(DAT) | When CLK triggered, DT pulled low for counter-clockwise, DT pulled high for clockwise |
-| SW      | Switch output - pulls the output low when pressed |
-| +       | Upper supply rail (5V) |
-| GND     | Ground |
+| SW      | Switch output - pulls the output low when pressed                                     |
+| +       | Upper supply rail (5V)                                                                |
+| GND     | Ground                                                                                |
 
 Note the CLK/DT nomenclature is just a simplification of the underlying workings of the rotary encoder.
 These pins are actually just the regular two quadrature output phases of the encoder.
@@ -32,9 +35,9 @@ This makes the accuracy of encoder input quite obvious, as it is very easy to si
 
 The rotary encoder module includes a switch (press on the encoder shaft). This is hooked up to clear/reset the display.
 
-
-
 ## Construction
+
+Designed with Fritzing: see [RotaryEncoderModule.fzz](./RotaryEncoderModule.fzz).
 
 ![Breadboard](./assets/RotaryEncoderModule_bb.jpg?raw=true)
 
@@ -42,9 +45,14 @@ The rotary encoder module includes a switch (press on the encoder shaft). This i
 
 ![The Build](./assets/RotaryEncoderModule_build.jpg?raw=true)
 
+### The Sketch
+
+See [RotaryEncoderModule.ino](./RotaryEncoderModule.ino).
+
 ## Credits and References
 
-* [Rotary Encoder Module](https://www.aliexpress.com/item/Rotary-Encoder-Module-for-Arduino-Dropshipping/1989393805.html) - from seller on aliexpress
+* ["Rotary Encoder Module for Arduino Dropshipping" (aliexpress seller listing)](https://www.aliexpress.com/item/1989393805.html)
+    * Purchased for US$1.03 (Jul-2015)
+    * No longer available from this seller
 * [RotaryEncoderMethods](../RotaryEncoderMethods) - a project to test/find the best method for reading a mini rotary encoder
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
-

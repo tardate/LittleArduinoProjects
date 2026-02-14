@@ -10,10 +10,13 @@ Here's a quick demo..
 
 ## Notes
 
-These [MAX7219 8x8 LED dot matrix modules](https://www.aliexpress.com/item/32798846993.html) are very common and quite cheap.
+MAX7219 8x8 LED dot matrix modules are very common and quite cheap.
 Usually they come assembled, but one can find sellers offering them as a "DIY" kit. The DIY option is
 not necessarily cheaper, but they are a nice quick little soldering project and may be more convenient if
 the plan is to daisy-chain multiple modules.
+
+I purchased this DIY kit for SG$1.21 (Oct-2019):
+["1PCS MAX7219 dot matrix module microcontroller module DIY KIT (hei)" (aliexpress seller listing)](https://www.aliexpress.com/item/32798846993.html).
 
 The kit is basically just the 1088AS LED matrix and a PCB for the MAX7219, pin headers, a pull-up resistor and decoupling capacitor.
 
@@ -28,9 +31,10 @@ The kit is basically just the 1088AS LED matrix and a PCB for the MAX7219, pin h
 * Emitted Colour: Red
 * Forward Voltage : 2.1V ~ 2.5V
 * Forward Current: 20mA
-* Dimesions: 32mm x 32mm x 8.0mm
+* Dimensions: 32mm x 32mm x 8.0mm
 
 ![1088AS_module](./assets/1088AS_module.jpg?raw=true)
+
 ![1088AS_schematic](./assets/1088AS_schematic.jpg?raw=true)
 
 ## Construction
@@ -49,6 +53,8 @@ are functioning correctly.
 
 ## Credits and References
 
-* [1PCS MAX7219 dot matrix module microcontroller module DIY KIT](https://www.aliexpress.com/item/32798846993.html)
+* ["1PCS MAX7219 dot matrix module microcontroller module DIY KIT (hei)" (aliexpress seller listing)](https://www.aliexpress.com/item/32798846993.html)
+    * Purchased for SG$1.21 (Oct-2019)
+    * No longer available from this seller
 * [MAX7219 product info and datasheet](https://www.maximintegrated.com/en/products/power/display-power-control/MAX7219.html)
 * [How to Use the MAX7219 to drive an 8x8 LED display](https://www.best-microcontroller-projects.com/max7219.html)
