@@ -1,6 +1,8 @@
 <div class="list-group project-sidebar">
   <div class="list-group-item active">
-      About {{ leap_id }}
+      <div>
+        About {{ leap_id }}
+      </div>
       {% if project_tags %}
       {% for tag in project_tags  %}<span class="badge badge-success">{{ tag }}</span>{% endfor %}
       {% endif %}

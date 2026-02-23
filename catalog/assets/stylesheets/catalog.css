@@ -65,10 +65,15 @@ body {
   font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 26px;
 }
+
 .visible-xs-block .btn-tardate {
   font-size: 14px;
-  max-width: 280px;
+  min-width: 280px;
+  max-width: unset;
+  text-wrap: auto;
+  text-align: left;
 }
+
 .linked {
   cursor: pointer; cursor: hand;
 }
@@ -219,6 +224,8 @@ footer {
   background-color: #5cb85c;
   font-size: inherit;
   font-weight: 800;
+  float: none;
+  margin-right: 5px;
 }
 
 .project-gallery img {
