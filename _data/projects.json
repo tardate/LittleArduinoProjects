@@ -6095,6 +6095,7 @@
             "LED",
             "LED 7-Segment",
             "CMOS/TTL",
+            "CD4026",
             "Arduino"
         ]
     },
@@ -6123,6 +6124,7 @@
             "LED",
             "LED 7-Segment",
             "CMOS/TTL",
+            "CD4026",
             "Arduino"
         ]
     },

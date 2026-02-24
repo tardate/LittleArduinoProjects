@@ -7380,6 +7380,7 @@
     <category term="LED"/>
     <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4026"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -7414,6 +7415,7 @@
     <category term="LED"/>
     <category term="LED 7-Segment"/>
     <category term="CMOS/TTL"/>
+    <category term="CD4026"/>
     <category term="Arduino"/>
   </entry>
   <entry>

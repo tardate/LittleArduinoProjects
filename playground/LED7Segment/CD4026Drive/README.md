@@ -42,11 +42,17 @@ then sends a pulse per second to the CD4026 - so a simple monotonic second count
 
 ## Construction
 
+Designed with Fritzing: see [CD4026Drive.fzz](./CD4026Drive.fzz).
+
 ![Breadboard](./assets/CD4026Drive_bb.jpg?raw=true)
 
 ![The Schematic](./assets/CD4026Drive_schematic.jpg?raw=true)
 
 ![The Build](./assets/CD4026Drive_build.jpg?raw=true)
+
+## The Sketch
+
+See [CD4026Drive.ino](./CD4026Drive.ino).
 
 ## Credits and References
 
