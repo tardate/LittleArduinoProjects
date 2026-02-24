@@ -9605,8 +9605,8 @@
     <g:image_link>https://leap.tardate.com/playground/variableled/assets/variableled_build.jpg</g:image_link>
     <updated>2016-06-19T14:13:24Z</updated>
     <title>#002 Variable LED brightness with PWM</title>
-    <summary>variable resistor is used to control the brightness of an LED with PWM</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;variable resistor is used to control the brightness of an LED with PWM&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/variableled/assets/variableled_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Using a variable resistor to control the brightness of an LED with PWM.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using a variable resistor to control the brightness of an LED with PWM.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/variableled/assets/variableled_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LED"/>
     <category term="Arduino"/>
   </entry>
