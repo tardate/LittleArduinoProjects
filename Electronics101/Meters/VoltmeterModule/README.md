@@ -42,7 +42,7 @@ This is a common type of module that is screw mounted with no bezel and can meas
 
 I think I originally obtained this module as part of a kit, but they are widely available from parts sellers:
 
-* [0.28 0.36 Inch DC 0-30V LED Mini Digital Voltmeter Blue/red/green LED Display Volt Meter Gauge Voltage Panel Meter 2 3 wires](https://www.aliexpress.com/item/32901073658.html) (offers both 2 and 3 wire variants)
+* ["0.28 0.36 Inch DC 0-30V LED Mini Digital Voltmeter Blue/red/green LED Display Volt Meter Gauge Voltage Panel Meter 2 3 wires" (aliexpress seller listing)](https://www.aliexpress.com/item/32901073658.html) (offers both 2 and 3 wire variants)
 * [DSN-DVM-368L-3 3-Digit 0.36" LED Digital DC Voltmeter](http://www.dx.com/p/dsn-dvm-368l-3-3-digit-0-36-led-digital-dc-voltmeter-for-motorcycle-black-white-343750#.VrVc01N97XE) - example product listing on dx.com (no longer in business)
 
 ![module01](./assets/module01.jpg?raw=true)
@@ -75,6 +75,9 @@ Since the unit is powered from the input, the device can't measure voltages unde
 
 Available from many sellers, for example:
 
+* ["Green Second line precision dc digital voltmeter head LED digital voltmeter DC4.5V-30V" (aliexpress seller listing)](https://www.aliexpress.com/item/32591052539.html)
+    * Purchased forUS $1.15 (May-2016)
+    * No longer available from this seller
 * [DC 0-30V 3 Wires 0.36'' LED Digital Voltmeter Voltage Meter Module Tester Monitor 3-Digital Display Voltmeter Panel 5V 12V 24V](https://www.aliexpress.com/item/32842101575.html)
 * [0.28 0.36 Inch DC 0-30V LED Mini Digital Voltmeter Blue/red/green LED Display Volt Meter Gauge Voltage Panel Meter 2 3 wires](https://www.aliexpress.com/item/32901073658.html) (offers both 2 and 3 wire variants)
 
@@ -123,10 +126,13 @@ Tests reasonably accurate:
 
 ### Module 3: 22mm Round Panel-mounted Voltmeter
 
-A round panel-mounted voltmeter that can measure DC 5-60V
-available on [aliexpress](https://www.aliexpress.com/item/1005001392524771.html)
-with 5 different cover tints (Red / White / Green / Blue / Yellow).
+A round panel-mounted voltmeter that can measure DC 5-60V is widely available
+with a range of different cover tints (Red / White / Green / Blue / Yellow).
 An AC 20-500V variant is also available.
+
+I purchased a blue DC version
+["22mm DIY Mini Small Digital Voltmeter Round AC20-500V/DC5-60V Voltage Tester Meter Monitor Power LED Indicator Pilot Lamp Light" (aliexpress seller listing)](https://www.aliexpress.com/item/1005001392524771.html)
+for SG$2.04 (Aug-2022).
 
 Specifications (from the seller site):
 

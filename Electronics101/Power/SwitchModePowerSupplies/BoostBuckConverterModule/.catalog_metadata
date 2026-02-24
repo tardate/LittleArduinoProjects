@@ -1,7 +1,7 @@
 {
     "id": "#162",
     "name": "LM2577S/LM2596S Boost/Buck Converter Module",
-    "description": "A quick test of an LM2577S/LM2596S Boost/Buck Converter Module",
+    "description": "A quick test of an LM2577S/LM2596S Boost/Buck Converter Module, with a fresh look in 2026 to verify its current control behaviour and mount it in a laser-cut case.",
     "categories": "Power, LM2577S, LM2596S, SMPS, Step-up/down Converter",
     "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostBuckConverterModule",
     "updated_at": "2016-06-19T14:13:24Z",
