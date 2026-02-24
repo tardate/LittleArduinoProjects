@@ -13,11 +13,17 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 
 ## Construction
 
+Designed with Fritzing: see [BetterWithBacon.fzz](./BetterWithBacon.fzz).
+
 ![The Breadboard](./assets/BetterWithBacon_bb.jpg?raw=true)
 
 ![The Schematic](./assets/BetterWithBacon_schematic.jpg?raw=true)
 
 ![The Build](./assets/BetterWithBacon_build.jpg?raw=true)
+
+## The Sketch
+
+See [BetterWithBacon.ino](./BetterWithBacon.ino).
 
 ## Credits and References
 

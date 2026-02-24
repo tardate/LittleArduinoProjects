@@ -22,6 +22,8 @@ The [PushbuttonLED.ino](./PushbuttonLED.ino) sketch:
 
 ## Construction
 
+Designed with Fritzing: see [PushbuttonLED.fzz](./PushbuttonLED.fzz).
+
 ![The Breadboard](./assets/PushbuttonLED_bb.jpg?raw=true)
 
 ![The Schematic](./assets/PushbuttonLED_schematic.jpg?raw=true)

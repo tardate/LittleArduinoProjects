@@ -14,9 +14,15 @@ cathode part of the circuit. That's fine in this case because we're only going t
 
 ## Construction
 
+Designed with Fritzing: see [LedChaser.fzz](./LedChaser.fzz).
+
 ![Breadboard](./assets/LedChaser_bb.jpg?raw=true)
 
 ![Schematic](./assets/LedChaser_schematic.jpg?raw=true)
+
+## The Sketch
+
+See [LedChaser.ino](./LedChaser.ino).
 
 ## Credits and References
 

@@ -18,11 +18,17 @@ I could swap the 10k resistor and the LDR to switch the readings scale: i.e. app
 
 ## Construction
 
+Designed with Fritzing: see [LightOrNot.fzz](./LightOrNot.fzz).
+
 ![The Breadboard](./assets/LightOrNot_bb.jpg?raw=true)
 
 ![The Schematic](./assets/LightOrNot_schematic.jpg?raw=true)
 
 ![The Build](./assets/LightOrNot_build.jpg?raw=true)
+
+## The Sketch
+
+See [LightOrNot.ino](./LightOrNot.ino).
 
 ## Credits and References
 

@@ -12,7 +12,11 @@ When running an animation sequence on an LED array, we don't want it upset by ot
 This sketch uses the [FlexiTimer2 library](https://github.com/wimleers/flexitimer2) to drive the effect sequence from a timer interrupt.
 That leaves the main loop() for doing other things.
 
+See [LEAP#007 Programmable LED Arrays](../) for full description and circuit notes.
+
 ### Construction
+
+Designed with Fritzing: see [LEDArrayDemos.fzz](../LEDArrayDemos.fzz).
 
 ![The Breadboard](.././assets/LEDArrayDemos_bb.jpg?raw=true)
 
@@ -20,8 +24,15 @@ That leaves the main loop() for doing other things.
 
 ![The Build](.././assets/LEDArrayDemos_build.jpg?raw=true)
 
+### The Sketch
+
+See [AsyncLedStripEffects.ino](./AsyncLedStripEffects.ino).
+
 ## Credits and References
 
+* [LEAP#007 Programmable LED Arrays](../)
 * [FastLED library](http://fastled.io)
 * [FlexiTimer2 library](https://github.com/wimleers/flexitimer2)
-* [WS2811-based LED array](https://www.aliexpress.com/item/IP68-12mm-WS2811-as-WS2801-led-pixel-module-IP68-waterproof-DC5V-full-color-RGB-50pcs-a/1932649085.html) - the particular LED array I have been using
+* ["IP68 12mm WS2811 as WS2801 led pixel module,IP68 waterproof DC5V full color RGB 50pcs a string christmas LED light Addressable" (aliexpress seller listing)](https://www.aliexpress.com/item/1932649085.html)
+    * Purchased for US$17.94 (Aug-2014)
+    * No longer available from this seller
