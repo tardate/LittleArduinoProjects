@@ -22,11 +22,17 @@ being that segment brightness will consequently vary to a degree depending on ho
 
 ## Construction
 
+Designed with Fritzing: see [CD4026BucketBrigade.fzz](./CD4026BucketBrigade.fzz).
+
 ![Breadboard](./assets/CD4026BucketBrigade_bb.jpg?raw=true)
 
 ![The Schematic](./assets/CD4026BucketBrigade_schematic.jpg?raw=true)
 
 ![The Build](./assets/CD4026BucketBrigade_build.jpg?raw=true)
+
+## The Sketch
+
+See [CD4026BucketBrigade.ino](./CD4026BucketBrigade.ino).
 
 ## Credits and References
 

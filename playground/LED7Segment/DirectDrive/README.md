@@ -11,7 +11,7 @@ Here's a quick video of the circuit in action:
 ## Notes
 
 The 7-segment display unit I have is stamped "SMA42056". It appears to be fairly common, however I've yet to find a datasheet for it.
-From inspection hwoever, it's clearly a common cathode unit, and similar to the
+From inspection however, it's clearly a common cathode unit, and similar to the
 the [SC56-11](../assets/SC56-11_datasheet.pdf?raw=true)
 
 There are two common cathode pins, but since these are internally connected there is no need to connect both to ground.
@@ -37,11 +37,17 @@ Here's a summary of how the Arduino pins are mapped to LED segments:
 
 ### Construction
 
+Designed with Fritzing: see [DirectDrive.fzz](./DirectDrive.fzz).
+
 ![The Breadboard](./assets/DirectDrive_bb.jpg?raw=true)
 
 ![The Schematic](./assets/DirectDrive_schematic.jpg?raw=true)
 
 ![The Build](./assets/DirectDrive_build.jpg?raw=true)
+
+## The Sketch
+
+See [DirectDrive.ino](./DirectDrive.ino).
 
 ## Credits and References
 

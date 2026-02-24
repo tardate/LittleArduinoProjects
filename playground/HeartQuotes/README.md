@@ -44,11 +44,17 @@ This gets parsed down into just the actual "quote" part:
 
 ## Construction
 
+Designed with Fritzing: see [HeartQuotes.fzz](./HeartQuotes.fzz).
+
 ![The Breadboard](./assets/HeartQuotes_bb.jpg?raw=true)
 
 ![The Schematic](./assets/HeartQuotes_schematic.jpg?raw=true)
 
 ![The Build](./assets/HeartQuotes_lcd.jpg?raw=true)
+
+## The Sketch
+
+See [HeartQuotes.ino](./HeartQuotes.ino).
 
 ### Parts for a breadboard build
 
