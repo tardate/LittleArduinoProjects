@@ -114,5 +114,5 @@ Finished "tap pad":
 * [What is the fastest music humanly possible?](https://www.youtube.com/watch?v=h3kqBX1j7f8) - Adam Neely
 * [Exponential moving average](https://en.m.wikipedia.org/wiki/Moving_average#Exponential_moving_average)
 * [Using the Arduino Analog Comparator](http://www.gammon.com.au/forum/?id=11916)
-* 6.6 Detecting Vibration, [Arduino Cookbook](../../books/arduino-cookbook/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) -  6.6 Detecting Vibration
 * [..as mentioned on my blog](https://blog.tardate.com/2018/02/leap376-piezo-vibration-detector-and-bpm-counter.html)

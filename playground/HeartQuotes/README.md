@@ -68,3 +68,4 @@ See [HeartQuotes.ino](./HeartQuotes.ino).
 
 * HTTP GET based on the Arduino WebClient example <http://arduino.cc/en/Tutorial/WebClient>
 * [LEAP#749 HD44780-based LCD Modules (e.g. QC1602A)](../../Electronics101/HD44780/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 15.4 Requesting Data from a Web Server

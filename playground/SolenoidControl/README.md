@@ -17,7 +17,7 @@ physical movement. Whereas motors provide rotation, solenoids  are usually used 
 So we basically need the Arduino to be a switch. Connecting an Arduino to a solenoid just requires attention to two factors:
 
 * the current (and possibly voltage) required by the solenoid probably exceeds the power an Arduino can directly provide, so we'd use a transistor or FET to switch a higher-power current source
-* being electromagenetic devices, solenoids can produce significant [back-EMF](https://en.wikipedia.org/wiki/Counter-electromotive_force) and require a [flyback diode](https://en.wikipedia.org/wiki/Flyback_diode) to proect other components in the circuit
+* being electromagnetic devices, solenoids can produce significant [back-EMF](https://en.wikipedia.org/wiki/Counter-electromotive_force) and require a [flyback diode](https://en.wikipedia.org/wiki/Flyback_diode) to protect other components in the circuit
 
 For this circuit, I'm using a mini push-pull solenoid that is rated for 3-12V. The data I have from the
 [seller page on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) specifies:
@@ -32,7 +32,7 @@ For this circuit, I'm using a mini push-pull solenoid that is rated for 3-12V. T
 
 That kind of makes sense, although I'm not sure why the rated current is a tad under the voltage/resistance calculation.
 
-The switching transsitor used here is the S9013, which is rated for 500mA continuous collector current - sufficient for this application.
+The switching transistor used here is the S9013, which is rated for 500mA continuous collector current - sufficient for this application.
 A 1N4001 diode provide flyback protection.
 
 ## Construction
@@ -45,7 +45,7 @@ A 1N4001 diode provide flyback protection.
 
 ## Credits and References
 
-* 8.6. Controlling Solenoids and Relays - from the [Arduino Cookbook](../../books/arduino-cookbook/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 8.6. Controlling Solenoids and Relays
 * [Mini push-pull solenoids on aliexpress](https://www.aliexpress.com/item/5pcs-mini-DC3-12V-Push-Pull-Type-Solenoid-Electromagnet-DC-Micro-Solenoid-Free-shipping/32309067252.html) - 3-12V
 * [S9013 datasheet](https://www.futurlec.com/Transistors/S9013.shtml)
 * [1N4001-1N4007 datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)

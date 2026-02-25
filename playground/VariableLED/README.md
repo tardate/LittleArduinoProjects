@@ -38,3 +38,4 @@ in this case with Sensor: 484, LED: 120:
 ## Credits and References
 
 * Based on the [Arduino AnalogInOutSerial example](https://docs.arduino.cc/built-in-examples/analog/AnalogInOutSerial/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 7.2 Adjusting the Brightness of an LED

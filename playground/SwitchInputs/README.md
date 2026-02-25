@@ -92,4 +92,4 @@ The design is available in [SwitchInputs.fzz](./SwitchInputs.fzz).
 * [Arduino functions: digitalRead()](https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalread/)
 * [Arduino functions: digitalWrite()](https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/)
 * [Arduino functions: pinMode()](https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/)
-* [Arduino Cookbook](../../books/arduino-cookbook/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 5. Simple Digital and Analog Input

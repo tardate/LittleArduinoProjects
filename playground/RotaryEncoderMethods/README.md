@@ -158,8 +158,9 @@ In fact it makes things worse, because the program just gets better and better a
 * [Rotary_encoder](https://en.wikipedia.org/wiki/Rotary_encoder) - wikipedia page
 * [Rotary library](https://github.com/brianlow/Rotary)
 * [Arduino Port Registers](https://www.arduino.cc/en/Reference/PortManipulation) - all the info needed for direct port manipulation
-* 6.10. Tracking the Movement of a Dial - from the [Arduino Cookbook](../../books/arduino-cookbook/)
-* 6.12. Tracking the Movement of a Dial in a Busy Sketch - from the [Arduino Cookbook](../../books/arduino-cookbook/)
+* [Arduino Cookbook](../../books/arduino-cookbook/)
+    * 6.10. Tracking the Movement of a Dial
+    * 6.12. Tracking the Movement of a Dial in a Busy Sketch
 * [Rotary Encoder: H/W, S/W or No Debounce?](https://hifiduino.wordpress.com/2010/10/20/rotaryencoder-hw-sw-no-debounce/) - good discussion and investigation of different debouncing schemes
 * [Reading rotary encoder on Arduino](https://www.circuitsathome.com/mcu/programming/reading-rotary-encoder-on-arduino) by Oleg Mazurov
 * [Rotary encoder interrupt service routine for AVR micros](https://www.circuitsathome.com/mcu/rotary-encoder-interrupt-service-routine-for-avr-micros) updated article by Oleg Mazurov

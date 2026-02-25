@@ -159,3 +159,4 @@ Remarks
 * [433 Mhz Superheterodyne RF Receiver Module and Transmitter Module with antenna for Arduino DIY Kit](https://www.aliexpress.com/item/33036669166.html) - aliexpress seller
 * [short range/low-power devices](https://en.wikipedia.org/wiki/Short-range_device) - wikipedia
 * [LPD433](https://en.wikipedia.org/wiki/LPD433) - wikipedia, info about low power device 433 MHz/70-centimeter band standards.
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 14.1 Sending Messages Using Low-Cost Wireless Modules

@@ -195,6 +195,6 @@ It verifies some of the basic memory details reported by the sketch, like `__bss
 
 ## Credits and References
 
-* Chapter 17. Advanced Coding and Memory Handling - [Arduino Cookbook](../../books/arduino-cookbook/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 17. Advanced Coding and Memory Handling
 * [A Tour of Arduino Internals](http://urbanhonking.com/ideasfordozens/2009/05/18/an_tour_of_the_arduino_interna/) - interesting blog post dissecting how pin operations actually interact with the AVR microcontroller
 * [Atmega_Self_Read_Signature](https://github.com/nickgammon/arduino_sketches/tree/master/Atmega_Self_Read_Signature) - part of Nick Gammon's suite of interesting sketches

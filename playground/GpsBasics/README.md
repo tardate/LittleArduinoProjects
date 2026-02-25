@@ -44,7 +44,7 @@ and using `screen` to display the output.
 
 On MacOSX, the programmer shows up as a character device:
 
-```
+```sh
 $ ls -1 /dev/cu*
 /dev/cu.Bluetooth-Incoming-Port
 /dev/cu.Bluetooth-Modem
@@ -54,7 +54,7 @@ $ ls -1 /dev/cu*
 
 The simplest way of getting connected on MacOSX is to use screen, at 9600 baud:
 
-```
+```sh
 $ screen /dev/cu.wchusbserial14530 9600
 ..
 $GPGSV,2,1,07,21,60,325,26,24,44,039,33,20,35,016,19,29,31,191,37*7B
@@ -114,7 +114,7 @@ But happily there is enough information floating around the net to at least make
 With the help of Glenn Baddeley's [GPS - NMEA sentence information](http://home.mira.net/~gnb/gps/nmea.html) site,
 I can make some sense out of the trace captured above. For example:
 
-```
+```txt
 $GPGSV,2,1,07,21,60,325,26,24,44,039,33,20,35,016,19,29,31,191,37*7B
 $GPGSV,2,2,07,31,10,212,18,193,,,,25,,,17*7F
 $GPRMC,194322.000,A,0123.0969,N,10350.3529,E,0.29,324.39,050518,,,A*60
@@ -190,7 +190,7 @@ And details logged to serial output:
 * [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus) - customizable Arduino NMEA parsing library
 * [SoftwareSerial](https://www.arduino.cc/en/Reference/SoftwareSerial)
 * [Using a GPS receiver for Arduino](https://sandervandevelde.wordpress.com/2015/12/03/using-a-gps-receiver-for-arduino/) - useful blog post by Sander van de Velde
-* 6.14. Getting Location from a GPS - from the [Arduino Cookbook](../../books/arduino-cookbook/)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 6.14. Getting Location from a GPS
 * [NMEA data](http://www.gpsinformation.org/dale/nmea.htm) - great background on NEMA data
 * [GPS - NMEA sentence information](http://home.mira.net/~gnb/gps/nmea.html) - Glenn Baddeley
 * [NMEA Standards](https://www.nmea.org/content/nmea_standards/nmea_standards.asp)

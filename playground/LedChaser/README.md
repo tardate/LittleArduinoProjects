@@ -27,3 +27,4 @@ See [LedChaser.ino](./LedChaser.ino).
 ## Credits and References
 
 * Similar to the [Arduino ForLoop example](http://arduino.cc/en/Tutorial/ForLoop)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 7.1 Connecting and Using LEDs

@@ -8,7 +8,7 @@ Prints the system time synced from the RTC to the serial output
 
 This is the most basic test an DS3231 RTC used to sync the Arduino system time.
 During setup, the clock is set from the RTC (`setSyncProvider(RTC.get);`).
-The rest of the sketch is just a simpe routine to send the date/time to the serial port.
+The rest of the sketch is just a simple routine to send the date/time to the serial port.
 
 Since the RTC is only used during setup, the RTC clock can actually be powered down or disconnected once the sketch is running.
 
@@ -38,3 +38,4 @@ This sketch is only using the very basic DS1307-compatible time functions, but t
 * [Arduino Wire library](http://arduino.cc/en/Reference/Wire)
 * [adding printf support](http://playground.arduino.cc/Main/Printf)
 * [DS3231 module](https://www.aliexpress.com/item/B39-hot-sale-DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-For-Arduino-Free/32217889168.html) - from aliexpress seller
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 13.3 Interfacing to an External Real-Time Clock
