@@ -29,3 +29,4 @@ See [BetterWithBacon.ino](./BetterWithBacon.ino).
 
 * [LEAP#749 HD44780-based LCD Modules (e.g. QC1602A)](../../Electronics101/HD44780/)
 * Based on the [Arduino LiquidCrystal example](http://www.arduino.cc/en/Tutorial/LiquidCrystal)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 11.1 Connecting and Using a Text LCD Display

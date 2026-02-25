@@ -33,7 +33,7 @@ and use Timer0. Timer0 is set up by the `init()` function prior to `setup()` bei
 
 ### Timers
 
-The ATmega328 has thress timers, summarised as follows:
+The ATmega328 has three timers, summarised as follows:
 
 Timer/Counter0
 
@@ -74,10 +74,10 @@ this is counting "0.5µs increments", so divided by 2 gives the number of micros
 
 Assuming an Arduino Uno / Atmega328 running at 16MHz:
 
-| Method        | Resolution | Timer  | Wraps at      |
-|---------------|------------|--------|---------------|
-| `millis`      | 1ms        | Timer1 | ~50 days      |
-| `micros`      | 4µs        | Timer1 | ~70 minutes   |
+| Method        | Resolution | Timer  | Wraps at                                                                                            |
+|---------------|------------|--------|-----------------------------------------------------------------------------------------------------|
+| `millis`      | 1ms        | Timer1 | ~50 days                                                                                            |
+| `micros`      | 4µs        | Timer1 | ~70 minutes                                                                                         |
 | `microTimer2` | 0.5µs      | Timer2 | [~year](https://www.wolframalpha.com/input/?i=0xFF%2F(2+*+1000+*+1000+*+60+*+24+*+365)*+0xFFFFFFFF) |
 
 ## Test Script
@@ -129,3 +129,4 @@ microTimer2: 4146828.00us, 4146.83ms
 * [Timers and counters](http://www.gammon.com.au/timers)
 * [FlexiTimer2](https://github.com/wimleers/flexitimer2) library
 * [eRCaGuy_TimerCounter](https://github.com/ElectricRCAircraftGuy/eRCaGuy_TimerCounter) - work-in-progress(?) Timer2 library
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 12.2 Using millis to Determine Duration

@@ -31,3 +31,4 @@ NB: on my module, the red and blue pins are incorrectly labeled (swapped around)
 * [Arduino, Lesson 3. RGB LEDs](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/overview) - adafruit tutorial
 * [Arduino Lesson 7. Make an RGB LED Fader](https://learn.adafruit.com/adafruit-arduino-lesson-7-make-an-rgb-led-fader/overview) - adafruit tutorial
 * [KEYES KY-009 RGB 3 Color Full Color LED SMD Module](https://www.aliexpress.com/item/KEYES-KY-009-RGB-3-Color-Full-Color-LED-SMD-Module-For-Arduino-AVR-PIC/32365890192.html) - similar to the module I'm testing (except uses a surface mount LED)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 7.4 Adjusting the Color of an LED

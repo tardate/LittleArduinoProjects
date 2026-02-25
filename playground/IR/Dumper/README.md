@@ -10,8 +10,6 @@ Here's a quick demo..
 
 ## Notes
 
-__notes__
-
 ## IR Receiver
 
 I'm using a CHO 1838 - compatible with the [TSOP1838](http://www.alldatasheet.com/datasheet-pdf/pdf/26604/VISHAY/TSOP1838.html)
@@ -21,7 +19,6 @@ I'm using a CHO 1838 - compatible with the [TSOP1838](http://www.alldatasheet.co
 |  1  | data out |
 |  2  | GND      |
 |  3  | VCC (5V) |
-
 
 ## Construction
 
@@ -40,7 +37,6 @@ Point a remote control at the receiver and press a button. The full dump of the 
 
 ![console](./assets/console.jpg?raw=true)
 
-
 Arduino-IRremote library supported protocols:
 Denon / Sharp, JVC, LG, NEC / Onkyo / Apple, Panasonic / Kaseikyo, RC5, RC6, Samsung, Sony, (Pronto), BoseWave, Lego, Whynter and optional MagiQuest.
 
@@ -48,3 +44,4 @@ Denon / Sharp, JVC, LG, NEC / Onkyo / Apple, Panasonic / Kaseikyo, RC5, RC6, Sam
 
 * [TSOP1838 datasheet](http://www.alldatasheet.com/datasheet-pdf/pdf/26604/VISHAY/TSOP1838.html) - one of many similar IR sensors
 * [Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) library
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 10.2 Decoding Infrared Remote Control Signals

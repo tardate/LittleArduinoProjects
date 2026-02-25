@@ -10,7 +10,7 @@ This is a simple Arduino sketch that responds to serial control.
 As well as providing a simple demonstration of Arduino serial coding,
 I made this sketch so that I could use the Uno as an intelligent responder for testing client-side serial code.
 
-Form more information on serial communications, see
+For more information on serial communications, see
 [Arduino Cookbook: 4. Serial Communications](../../books/arduino-cookbook/)
 
 ### Code

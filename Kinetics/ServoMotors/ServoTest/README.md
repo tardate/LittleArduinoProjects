@@ -66,3 +66,4 @@ So I came back to the issue of accuracy, with some interesting findings:
 * [TowerPro SG90 datasheet](http://datasheet.sparkgo.com.br/SG90Servo.pdf) - 9g Micro Servo
 * [Servo library reference](https://www.arduino.cc/reference/en/libraries/servo/)
 * Based on the [Arduino Sweep example](http://arduino.cc/en/Tutorial/Sweep)
+* [Arduino Cookbook](../../books/arduino-cookbook/) - 8.1 Controlling the Position of a Servo
