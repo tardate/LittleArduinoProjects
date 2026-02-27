@@ -22,7 +22,7 @@ but now updated in Feb-2026:
 * Compiled with MPLAB X IDE v6.20 on macOS
 * Programmed using the PICkit 3 on Ubuntu with MPLAB X IPE v6.20 (the last version to support PICkit 3)
 
-See [LEAP#331 Getting Blinky with PIC Assembler](../) for more details on the trials and tribulations of trying to continue to use the PICkit 3 on macOS.
+See [LEAP#331 Getting Blinky with PIC Assembler](../) for more details on the trials and tribulations of trying to continue to use the PICkit 3 on macOS (now resolved with a new USB C adapter).
 
 ### The New Project Wizard
 

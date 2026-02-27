@@ -1,6 +1,6 @@
 # #331 Getting Blinky with PIC Assembler
 
-Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. While PICkit 3 is still working on Windows and Linux, it now fails on macOS. As an interim measure, I demonstrate compiling on macOS and using a script to remotely program on Ubuntu.
+Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. The PICkit 3 support ended with version 6.2, tested on Windows and Linux, and eventually working on macOS after finding a compatible USB C adapter (as an interim measure, I demonstrated compiling on macOS and using a script to remotely program on Ubuntu).
 
 Here's a quick demo of it working...
 
@@ -28,8 +28,8 @@ Unfortunately, the news is mixed, and the main issue is with PICkit 3 support:
     * Now uses `PIC-as` assembler instead of the old `MPASMWIN` - source files updated to the new syntax
     * Compiles perfectly on all platforms I've tested: macOS 15.7/ARM, Windows 11/Intel, Ubuntu 24.04/Intel
     * This is the last version to support the PICkit 3 programmer, however:
-        * I've been unable to get the PICkit 3 programmer to work for me correctly on macOS.
-        * But it works fine on Windows and Ubuntu.
+        * It works fine on Windows and Ubuntu.
+        * I needed to find a compatible USB C adapter to get the PICkit 3 programmer to work correctly on macOS.
         * See notes below for more details.
 * I have installed MPLAB X IDE v6.30, the latest release of the IDE product.
     * Compilation works fine.
@@ -42,9 +42,8 @@ So where does this leave me?
 I don't really want to fork out for a new (and quite expensive) PICkit 5 that **should** work on macOS, so my choice right now is to hobble along:
 
 * Develop on macOS MPLAB X IDE v6.20 or v6.30 (and try MPLAB Tools for VS Code).
-* Send my hex file to Windows or Ubuntu to program the device with MPLAB IPE v6.20 and the PICKit 3.
-    * Even automate this with an Ubuntu machine: see "Remote Control Programming: macOS to Ubuntu to PICkit 3" below, where I demonstrate compiling on macOS and using a script to program remotely on Ubuntu
-* In the meantime, I will continue to look for solutions to get my PICkit 3 working on macOS again.
+* Program the device remotely on Ubuntu with MPLAB IPE v6.20 and the PICKit 3.
+* Or program the device locally on macOS with MPLAB X IDE v6.20 or MPLAB IPE v6.20, the PICKit 3, and a compatible USB C adapter.
 
 #### PIC12F675 Specs
 
@@ -251,23 +250,27 @@ Of course, the board also works just fine with external 5V power connected after
 
 I had no issues with PICkit 3 on Intel-based macOS running MPLAB X IDE v3.51 and later v5.30.
 
-Now on ARM-based macOS and MPLAB X IDE v6.20, I have so far been unable to get the PICkit 3 to work:
+Now on ARM-based macOS and MPLAB X IDE v6.20, I was originally unable to get the PICkit 3 to work:
 
 * It usually shows up in the USB device tree, and is recognised by the IDE/IPE
-    * with some cables, especially long ones, it doesn't even show up in the USB device tree (as viewed with System Information)
 * But any attempt to get programmer status or perform a programmer operation fails
 
 ![mac-pk3-fail](./assets/mac-pk3-fail.png)
 
 Since the new Macs lack a type-A connector, I have to use a USB-C to USB 2/3 port extender.
-This may be contributing to the problem, especially as I suspect
-the root issue is USB power management.
+I thought this may be contributing to the problem, especially as I suspect
+the root issue is USB power management or timing.
 Microchip/Atmel programmers are notorious for poor USB power design.
 The Pickit 3 draws 100mA+ and tries to source 200mA+ to targets, which is right at the USB 2.0 limit.
 Combined with voltage drop across extenders, I may be running headlong into the Mac's protection thresholds.
 
-What next? I will try to find another USB extender to see if it works any better,
-but for now I am giving up on trying to get the PICkit 3 working on the Mac.
+Update: I got a new
+["120W Type C To USB A OTG Adapter USB 3.2 To Type C Fast Charging Connector for IPhone 16 17 Macbook IPad Huawei Xiaomi" (shopee seller listing)](https://shopee.sg/120W-Type-C-To-USB-A-OTG-Adapter-USB-3.2-To-Type-C-Fast-Charging-Connector-for-IPhone-16-17-Macbook-IPad-Huawei-Xiaomi-i.698531643.56202189363) for SG$2.95 (Feb-2026), and it fixes the problem! Using this adapter, I am no longer having any issues
+using the PICkit 3 with MPLAB X IDE v6.20 on macOS.
+
+![mac-mplab-1](./assets/mac-mplab-1.jpg)
+
+![mac-mplab-2](./assets/mac-mplab-2.png)
 
 ### PICkit 3 Programming on Windows
 
