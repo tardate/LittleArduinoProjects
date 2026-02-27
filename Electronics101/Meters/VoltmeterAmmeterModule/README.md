@@ -6,9 +6,13 @@ Test and calibrate a DC Voltmeter/Ammeter panel module.
 
 ## Notes
 
-I got [this DC 0-100V 10A Digital Voltmeter/Ammeter module](https://www.aliexpress.com/item/0-28-Red-Blue-LED-DC-0-100V-10A-Dual-display-Meter-Digital-Voltmeter-Ammeter-Panel/32310008404.html) from a seller on aliexpress at a nice price. But is it any good?
+I purchased this
+["DC 0-100V 10A Digital Voltmeter Ammeters Dual display Voltage Current Meter Panel Amp Volt Gauge 0.28" Red Blue LED" (aliexpress seller listing)](https://www.aliexpress.com/item/32310008404.html)
+for US$2.81 (Jun-2016).
 
+But is it any good?
 This project is a quick test of the unit.
+
 Bottom-line: not bad for an easy voltage/current indicator. For more accurate readings, it is a good idea to check the calibration.
 
 ### Specifications
@@ -73,8 +77,8 @@ To run some tests, and in the absence of anything better, I mocked up a dummy lo
 It works nice enough, but is not quite as accurate as the claimed 1% (± 1 digit) resolution (i.e. the last digit can be off by one).
 The unit is obviously not suitable if you need accurate mV and mA readings.
 
-| Load      | Nom Voltage | Nom Current                                                    | Nom Power | Measured Voltage | Measured Current |
-|-----------|-------------|----------------------------------------------------------------|-----------|------------------|------------------|
+| Load      | Nom Voltage | Nom Current                                                     | Nom Power | Measured Voltage | Measured Current |
+|-----------|-------------|-----------------------------------------------------------------|-----------|------------------|------------------|
 |   50Ω (1) |         12V | [240mA](https://www.wolframalpha.com/input/?i=12V%2F50%CE%A9)   |     2.88W |              n/a |            n/a   |
 |   25Ω (2) |         12V | [480mA](https://www.wolframalpha.com/input/?i=12V%2F25%CE%A9)   |     5.76W |              n/a |            n/a   |
 | 16.7Ω (3) |         12V | [719mA](https://www.wolframalpha.com/input/?i=12V%2F16.7%CE%A9) |     8.62W |            12.5V |          0.69A   |
@@ -109,6 +113,8 @@ With a bit of adjustment, I'm now getting results within the 1% (± 1 digit) ran
 
 ## Credits and References
 
-* [DC 0-100V 10A Digital Voltmeter Ammeter Dual Display Voltage Detector Current Meter Panel Amp Volt Gauge 0.28" Red Blue LED](https://www.aliexpress.com/item/0-28-Red-Blue-LED-DC-0-100V-10A-Dual-display-Meter-Digital-Voltmeter-Ammeter-Panel/32310008404.html) - from a seller on aliexpress
+* ["DC 0-100V 10A Digital Voltmeter Ammeters Dual display Voltage Current Meter Panel Amp Volt Gauge 0.28" Red Blue LED" (aliexpress seller listing)](https://www.aliexpress.com/item/32310008404.html)
+    * Purchased for US$2.81 (Jun-2016)
+    * No longer available from this seller
 * [LEAP#181 VoltmeterModule](../VoltmeterModule)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/05/leap289-voltmeter-ammeter-module.html)

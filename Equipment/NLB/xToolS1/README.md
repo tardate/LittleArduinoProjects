@@ -73,6 +73,22 @@ Note:
 
 * when importing from SVG, set the source document resolution to 72 DPI. This will ensure that objects remain at the same scale after import.
 
+### Recommended Settings
+
+| Material             | Thickness | Processing Quality | Light Engrave (Power%) | Light Engrave (Speed) | Dark Engrave (Power%) | Dark Engrave (Speed) | Score (Power%) | Score (Speed) | Cut (Power%) | Cut (Speed) | Cut (Passes) |
+|----------------------|-----------|--------------------|------------------------|-----------------------|-----------------------|----------------------|----------------|---------------|--------------|-------------|--------------|
+| MDF                  | 3mm       | EXCELLENT          | 20                     | 150                   | 40                    | 150                  | 30             | 250           | 100          | 15          | 1            |
+| Dark Red Acrylic     | 3mm       | GOOD               | 25                     | 300                   | 40                    | 150                  | 60             | 150           | 100          | 7           | 1            |
+| Red Acrylic          | 3mm       | GOOD               | 25                     | 300                   | 40                    | 150                  | 60             | 150           | 100          | 7           | 1            |
+| Orange Acrylic       | 3mm       | GOOD               | 25                     | 300                   | 40                    | 150                  | 60             | 150           | 100          | 7           | 1            |
+| Brown Acrylic        | 3mm       | GOOD               | 25                     | 300                   | 40                    | 150                  | 60             | 150           | 100          | 7           | 1            |
+| Black Acrylic        | 3mm       | GOOD               | 25                     | 300                   | 40                    | 150                  | 60             | 150           | 100          | 5           | 1            |
+| Clear Red Acrylic    | 3mm       | GOOD               | 35                     | 200                   | 50                    | 150                  | 60             | 150           | 100          | 4           | 1            |
+| Green Acrylic        | 3mm       | FAIR               | 40                     | 150                   | 50                    | 100                  | 60             | 100           | 100          | 7           | 2            |
+| Clear Orange Acrylic | 3mm       | FAIR               | 40                     | 150                   | 50                    | 120                  | 60             | 100           | 100          | 6           | 3            |
+| Yellow Acrylic       | 3mm       | POOR               | 40                     | 150                   | 50                    | 120                  | 60             | 100           | 90           | 7           | 3            |
+| Grey Acrylic         | 3mm       | POOR               | 40                     | 150                   | 50                    | 100                  | 60             | 100           | 80           | 5           | 3            |
+
 ## Credits and References
 
 * [NLB MakeIT At Libraries](https://www.nlb.gov.sg/main/services/MakeIT-at-Libraries)
