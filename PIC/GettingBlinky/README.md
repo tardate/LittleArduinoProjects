@@ -1,6 +1,6 @@
 # #331 Getting Blinky with PIC Assembler
 
-Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. The PICkit 3 support ended with version 6.2, tested on Windows and Linux, and eventually working on macOS after finding a compatible USB C adapter (as an interim measure, I demonstrated compiling on macOS and using a script to remotely program on Ubuntu).
+Getting starter with PIC assembler on macOS with a PIC12F675 development board and programming with the PICkit 3. Updated in 2026 with the latest MPLAB X IDE. The PICkit 3 support ended with version 6.2, but still works on Windows and Linux, and also macOS after finding a compatible USB C adapter (as an interim measure, I demonstrated compiling on macOS and using a script to remotely program on Ubuntu).
 
 Here's a quick demo of it working...
 
