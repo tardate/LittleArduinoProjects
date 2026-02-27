@@ -18,7 +18,7 @@ Since the voltage/current/charging indicators and trimmers are on the PCB, and b
 it may be fine for applications where the voltage/current settings need only a one-time adjustment.
 Or with a bit of modding it could be the core of an adjustable power supply unit.
 
-I did discover there is a fairly serious limitation with the constant current control: it only works if set **before** the load is attached
+As a bit of a half-way proposition, I've mounted the unit in a laser cut project box with voltmeter, but I still need to use the trimmers to make any adjustments.
 
 ### Module Overview
 
@@ -136,7 +136,7 @@ The centre trimmer is used for the "fully charged" adjustment.
 This is basically the current below which the load is deemed "charged".
 This reflects the typical battery charging scenario where current drawn by the battery will drop as it approaches the fully-charged state.
 
-When the charged state is reached, the lower blue LED will be on:
+When the "charged" state is reached (simulated here with a high resistance and low current), the lower blue LED will be on:
 
 ![test01-fc](./assets/test01-fc.jpg?raw=true)
 
@@ -176,12 +176,14 @@ The assembled box:
 
 ![box02](./assets/box02.jpg?raw=true)
 
+![box03](./assets/box03.jpg?raw=true)
+
 #### A 5V 100mA Power Supply Setup
 
 For now, I've just mounted the unit as a 5V 100mA voltage and current-limited supply.
 Handy for prototyping, while protecting me from mistakes that might try to draw > 100mA and smoke some components.
 
-Perhaps I should have replaced the voltage and current trimmers with panel-mounted pots.. maybe a job for another day.
+Perhaps I should have replaced the voltage and current trimmers with panel-mounted pots .. maybe a job for another day.
 
 With LED and current-limiting resistor, the unit is in constant voltage state,
 delivering the full 5V, at 14mA in this case:
