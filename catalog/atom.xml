@@ -18,9 +18,9 @@
     <link href="https://leap.tardate.com/electronics101/cd4028/quadexclusiveinterlock/"/>
     <g:image_link>https://leap.tardate.com/electronics101/cd4028/quadexclusiveinterlock/assets/quadexclusiveinterlock_build.jpg</g:image_link>
     <updated>2026-03-02T16:56:00Z</updated>
-    <title>#834 CD4028 Quad ExclusiveInterlock</title>
-    <summary>Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple relay switching demonstration.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple relay switching demonstration.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/cd4028/quadexclusiveinterlock/assets/quadexclusiveinterlock_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#834 CD4028 Quad Exclusive Interlock</title>
+    <summary>Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/cd4028/quadexclusiveinterlock/assets/quadexclusiveinterlock_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Digital Logic"/>
     <category term="CMOS/TTL"/>
     <category term="CD4028"/>

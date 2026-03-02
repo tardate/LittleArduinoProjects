@@ -1,7 +1,7 @@
 [
     {
-        "name": "CD4028 Quad ExclusiveInterlock",
-        "description": "Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple relay switching demonstration.",
+        "name": "CD4028 Quad Exclusive Interlock",
+        "description": "Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.",
         "categories": "Digital Logic, CMOS/TTL, CD4028",
         "relative_path": "electronics101/cd4028/quadexclusiveinterlock",
         "updated_at": "2026-03-02T16:56:00Z",
