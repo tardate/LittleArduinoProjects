@@ -1,4 +1,4 @@
-# #xxx CD4028 Quad Exclusive Interlock
+# #834 CD4028 Quad Exclusive Interlock
 
 Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.
 
