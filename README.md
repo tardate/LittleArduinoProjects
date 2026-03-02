@@ -1,6 +1,6 @@
-# 833 Little Electronic Art Projects
+# 834 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Solving cassidoo's moveNums on Arduino](./playground/move-nums) - Using an Arduino to interactively solve cassidoo's interview question of the week (2026-02-09): using a rotary encoder to enter an array on an LED 8x8 matrix, dial-in a target digit on a 7-segment display, and then let it animate the recalculation of the matrix accordingly.
+> Latest addition :sparkles: [CD4028 Quad Exclusive Interlock](./Electronics101/CD4028/QuadExclusiveInterlock) - Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
