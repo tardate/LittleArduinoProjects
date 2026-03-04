@@ -1,6 +1,6 @@
-# 834 Little Electronic Art Projects
+# 835 Little Electronic Art Projects
 
-> Latest addition :sparkles: [CD4028 Quad Exclusive Interlock](./Electronics101/CD4028/QuadExclusiveInterlock) - Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.
+> Latest addition :sparkles: [Bambu Lab P1S](./Equipment/NLB/BambuLabP1S) - Using the PLA 3D printing services available in Singapore's National Libraries - Bambu Lab P1S.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

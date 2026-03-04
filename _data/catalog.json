@@ -1,5 +1,15 @@
 [
     {
+        "name": "Bambu Lab P1S",
+        "description": "Using the PLA 3D printing services available in Singapore's National Libraries - Bambu Lab P1S.",
+        "categories": "NLB MakeIt, 3D Print",
+        "relative_path": "equipment/nlb/bambulabp1s",
+        "updated_at": "2026-03-04T15:48:00Z",
+        "created_at": "2026-03-04T15:48:00Z",
+        "id": "#835",
+        "original_relative_path": "Equipment/NLB/BambuLabP1S"
+    },
+    {
         "name": "CD4028 Quad Exclusive Interlock",
         "description": "Building a 4-pole exclusive interlock using the CD4028 BCD to Decimal decoder, with a simple LED switching demonstration.",
         "categories": "Digital Logic, CMOS/TTL, CD4028",
@@ -781,7 +791,7 @@
     },
     {
         "name": "NLB Flashforge Creator Pro 2",
-        "description": "Using the amazing PLA 3D Printing services available in Singapore's National Libraries - Flashforge Creator Pro 2, Flashforge Dreamer, and 3D Pens.",
+        "description": "Using the amazing PLA 3D Printing services available in Singapore's National Libraries - Flashforge Creator Pro 2, Flashforge Dreamer, and 3D Pens. Note: Flashforge Creator Pro 2 printers were replaced by Bambu Lab P1S printers in late 2025.",
         "categories": "NLB MakeIt, 3D Print",
         "relative_path": "equipment/nlb/flashforgecreatorpro2",
         "updated_at": "2025-03-03T13:52:00Z",
@@ -802,7 +812,7 @@
     {
         "id": "#754",
         "name": "NLB Lionsforge Craftlaser",
-        "description": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.",
+        "description": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser. Note: these were replaced by xTool S1 devices in July 2025.",
         "categories": "NLB MakeIt, Laser Cutter",
         "relative_path": "equipment/nlb/lionsforgecraftlaser",
         "updated_at": "2025-03-12T07:47:00Z",

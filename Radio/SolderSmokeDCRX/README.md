@@ -418,7 +418,7 @@ Putting a 7MHz signal generator lead near the antenna input delivers a tunable s
 
 ## Preparing a base
 
-I used a LasterCutter to make an engraved base for the project at the [library](../../Equipment/NLB/LionsforgeCraftlaser/).
+I used a laser cutter to make an engraved base for the project at the [library](../../Equipment/NLB/LionsforgeCraftlaser/).
 
 * composed with Affinity Designer [base.afdesign](./assets/base.afdesign)
 * finalised for cutting with Inkscape: [base-inkscape.svg](./assets/base-inkscape.svg)
