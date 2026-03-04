@@ -26,7 +26,7 @@ is a high-speed, reliable desktop FDM 3D printer known for excellent print quali
 ## Software and Workflow
 
 [Bambu Studio](https://bambulab.com/en/download/studio) is used to prepare models for printing.
-It is an open-source, cutting-edge, feature-rich slicing software available for Windows and macOS.
+It is an open-source, cutting-edge, feature-rich slicing software available for Windows, macOS, and Linux.
 
 Basic workflow:
 
@@ -38,7 +38,8 @@ Basic workflow:
 
 ## Test Print
 
-I did a test print of a 54mm figure, and the results are surprisingly good..
+I did a test print of a 54mm figure, and the results are surprisingly good,
+especially compared to the previous Flashforge Creator Pro 2 printers..
 
 ![build01a](./assets/build01a.jpg)
 
