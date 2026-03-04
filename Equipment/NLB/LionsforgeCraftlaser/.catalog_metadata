@@ -1,7 +1,7 @@
 {
     "id": "#754",
     "name": "NLB Lionsforge Craftlaser",
-    "description": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.",
+    "description": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser. Note: these were replaced by xTool S1 devices in July 2025.",
     "categories": "NLB MakeIt, Laser Cutter",
     "relative_path": "Equipment/NLB/LionsforgeCraftlaser",
     "updated_at": "2025-03-12T07:47:00Z",
