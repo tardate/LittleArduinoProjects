@@ -29,6 +29,8 @@ Note: as of late 2025, the Flashforge printers have been replaced by [Bambu Lab 
 The library still uses the [FlashPrint 5](https://flashforge.com/pages/software-flashprint) software for slicing.
 They provide laptops with the software pre-installed. It can be downloaded for use elsewhere (Windows only, not available for latest macOS).
 
+Note: software was subsequently updated to [Orca-Flashforge](https://www.flashforge.com/pages/orca-flashforge), available for Windows and macOS.
+
 See the [Creator Pro 2 User Guide](./assets/creator-pro-2.pdf).
 
 ### Workflow
@@ -65,5 +67,6 @@ The starter course has everyone design and print a simple name tag
 * [NLB MakeIT At Libraries](https://www.nlb.gov.sg/main/services/MakeIT-at-Libraries)
     * [NLB MakeIT booking](https://makeitsg.simplybook.asia/v2/)
 * [FlashPrint 5](https://flashforge.com/pages/software-flashprint)
+* [Orca-Flashforge](https://www.flashforge.com/pages/orca-flashforge)
 * [TinkerCAD](https://www.tinkercad.com/)
 * [CNC G-code](https://en.wikipedia.org/wiki/G-code)
