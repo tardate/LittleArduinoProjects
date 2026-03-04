@@ -1,4 +1,13 @@
 {
+    "/equipment/nlb/bambulabp1s/": {
+        "id": 835,
+        "title": "Bambu Lab P1S",
+        "summary": "Using the PLA 3D printing services available in Singapore's National Libraries - Bambu Lab P1S.",
+        "tags": [
+            "NLB MakeIt",
+            "3D Print"
+        ]
+    },
     "/electronics101/cd4028/quadexclusiveinterlock/": {
         "id": 834,
         "title": "CD4028 Quad Exclusive Interlock",
@@ -784,7 +793,7 @@
     "/equipment/nlb/flashforgecreatorpro2/": {
         "id": 756,
         "title": "NLB Flashforge Creator Pro 2",
-        "summary": "Using the amazing PLA 3D Printing services available in Singapore's National Libraries - Flashforge Creator Pro 2, Flashforge Dreamer, and 3D Pens.",
+        "summary": "Using the amazing PLA 3D Printing services available in Singapore's National Libraries - Flashforge Creator Pro 2, Flashforge Dreamer, and 3D Pens. Note: Flashforge Creator Pro 2 printers were replaced by Bambu Lab P1S printers in late 2025.",
         "tags": [
             "NLB MakeIt",
             "3D Print"
@@ -802,7 +811,7 @@
     "/equipment/nlb/lionsforgecraftlaser/": {
         "id": 754,
         "title": "NLB Lionsforge Craftlaser",
-        "summary": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser.",
+        "summary": "Using the laser cutting services available in Singapore's National Libraries - Lionsforge Craftlaser. Note: these were replaced by xTool S1 devices in July 2025.",
         "tags": [
             "NLB MakeIt",
             "Laser Cutter"
