@@ -1,5 +1,15 @@
 [
     {
+        "id": "#836",
+        "name": "Using the Open HamClock Backend",
+        "description": "Using the new Open HamClock Backend (OHB) to give my HamClock client installation a new lease of life. Testing clients on Raspberry Pi, macOS, and Ubuntu.",
+        "categories": "Radio, macOS, Ubuntu, Raspberry Pi, BME280",
+        "relative_path": "radio/hamclock/ohb",
+        "updated_at": "2026-04-09T07:47:00Z",
+        "created_at": "2026-04-09T07:47:00Z",
+        "original_relative_path": "Radio/HamClock/OHB"
+    },
+    {
         "name": "Bambu Lab P1S",
         "description": "Using the PLA 3D printing services available in Singapore's National Libraries - Bambu Lab P1S.",
         "categories": "NLB MakeIt, 3D Print",

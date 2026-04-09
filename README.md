@@ -1,6 +1,6 @@
-# 835 Little Electronic Art Projects
+# 836 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Bambu Lab P1S](./Equipment/NLB/BambuLabP1S) - Using the PLA 3D printing services available in Singapore's National Libraries - Bambu Lab P1S.
+> Latest addition :sparkles: [Using the Open HamClock Backend](./Radio/HamClock/OHB) - Using the new Open HamClock Backend (OHB) to give my HamClock client installation a new lease of life. Testing clients on Raspberry Pi, macOS, and Ubuntu.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

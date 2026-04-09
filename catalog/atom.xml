@@ -7,12 +7,26 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-03-04T15:48:00Z</updated>
+  <updated>2026-04-09T07:47:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/radio/hamclock/ohb/</id>
+    <link href="https://leap.tardate.com/radio/hamclock/ohb/"/>
+    <g:image_link>https://leap.tardate.com/radio/hamclock/ohb/assets/ohb_build.jpg</g:image_link>
+    <updated>2026-04-09T07:47:00Z</updated>
+    <title>#836 Using the Open HamClock Backend</title>
+    <summary>Using the new Open HamClock Backend (OHB) to give my HamClock client installation a new lease of life. Testing clients on Raspberry Pi, macOS, and Ubuntu.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Using the new Open HamClock Backend (OHB) to give my HamClock client installation a new lease of life. Testing clients on Raspberry Pi, macOS, and Ubuntu.&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/hamclock/ohb/assets/ohb_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
+    <category term="macOS"/>
+    <category term="Ubuntu"/>
+    <category term="Raspberry Pi"/>
+    <category term="BME280"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/nlb/bambulabp1s/</id>
     <link href="https://leap.tardate.com/equipment/nlb/bambulabp1s/"/>
