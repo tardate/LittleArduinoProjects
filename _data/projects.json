@@ -1,4 +1,16 @@
 {
+    "/radio/hamclock/ohb/": {
+        "id": 836,
+        "title": "Using the Open HamClock Backend",
+        "summary": "Using the new Open HamClock Backend (OHB) to give my HamClock client installation a new lease of life. Testing clients on Raspberry Pi, macOS, and Ubuntu.",
+        "tags": [
+            "Radio",
+            "macOS",
+            "Ubuntu",
+            "Raspberry Pi",
+            "BME280"
+        ]
+    },
     "/equipment/nlb/bambulabp1s/": {
         "id": 835,
         "title": "Bambu Lab P1S",
@@ -734,7 +746,7 @@
     "/radio/hamclock/": {
         "id": 762,
         "title": "HamClock",
-        "summary": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements.",
+        "summary": "Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements including the most promising Open HamClock Backend (OHB).",
         "tags": [
             "Radio",
             "macOS",
