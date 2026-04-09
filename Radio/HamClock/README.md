@@ -34,13 +34,27 @@ I have captured a full archive of HamClock front-end releases at <https://github
 
 A few projects that are potential successors for HamClock include:
 
+* [Open HamClock Backend](https://ohb.works/)
+    * A fully open-source project that has reimplemented the HamClock backend and maintains a fork of the front-end client
+* [hamclock.com](https://hamclock.com/)
+    * Another reimplementation the HamClock backend, however this is a closed-source solution in the hands of a single individual (exactly the scenario that hindered the predecessor)
 * [OpenHamClock - A real-time amateur radio dashboard for the modern operator](https://github.com/accius/openhamclock)
+    * Although inspired by the original HamClock, this is a new stand-alone web-based application implemented with node.js, fully open-source
 * [GlanceRF (A Hamclock Modern Rebuild)](https://github.com/pomtom44/GlanceRF)
-* [Open HamClock Backend](https://github.com/BrianWilkinsFL/open-hamclock-backend) - a project to recreate the HamClock backend
+    * Although inspired by the original HamClock, this is a new stand-alone web-based application implemented with python, fully open-source
+
+### Apr-2026 Update
+
+The [Open HamClock Backend](https://ohb.works/) has now largely reached feature-parity with the original Clear Sky Institute service.
+As this is a fully open-source approach, with an inviting group of maintainers, I am fully onboard with this as my preferred successor.
+
+I have documented my initial steps with OHB in [LEAP#836 Using the Open HamClock Backend](./OHB/).
 
 ### macOS
 
 I'm running macOS with an Apple Silicon M1 chip, so it is an obvious place to start. Can we run HamClock? Yes!
+
+> NB: see [LEAP#836 Using the Open HamClock Backend](./OHB/) for updated instructions to install from OHB rather than the legacy Clear Sky Institute source.
 
 Installing XQuartz (for XWindows support) with brew:
 
@@ -79,6 +93,8 @@ Nice! Works great.
 
 I also routinely use Ubuntu (currently version 24.04). Let's try.
 
+> NB: see [LEAP#836 Using the Open HamClock Backend](./OHB/) for updated instructions to install from OHB rather than the legacy Clear Sky Institute source.
+
 Make sure pre-requisites are installed:
 
     sudo apt install curl make g++ xorg-dev xdg-utils
@@ -111,6 +127,8 @@ I have an old Raspberry Pi 1 Model B+.
 Current documentation recommends an RPi model 4b with 1 GB RAM.
 Maybe it is possible to use a Raspberry Pi B+?
 
+> NB: see [LEAP#836 Using the Open HamClock Backend](./OHB/) for updated instructions to install from OHB rather than the legacy Clear Sky Institute source.
+
 I grabbed a copy of the latest [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html) and ran the HamClock RPi installation per the docs:
 
     curl -O https://www.clearskyinstitute.com/ham/HamClock/install-hc-rpi
@@ -133,8 +151,8 @@ I removed the previous installation:
 
 Then downloaded the latest sources to build a web-only 1600x960 version:
 
-    $ wget <https://www.clearskyinstitute.com/ham/HamClock/ESPHamClock.zip>
-    $ unzip  ESPHamClock.zip
+    $ wget https://www.clearskyinstitute.com/ham/HamClock/ESPHamClock.zip
+    $ unzip ESPHamClock.zip
     $ cd ESPHamClock
     $ make help
 
@@ -318,15 +336,18 @@ And the LED lights up. The push-button can be used to cancel the alarm:
 
 ## Credits and References
 
+* [LEAP#831 HamClock Hat](./DIYHamClockHat/)
+* [LEAP#836 Using the Open HamClock Backend](./OHB/)
 * [HamClock](https://www.clearskyinstitute.com/ham/HamClock/) - now retired
 * <https://github.com/tardate/ESPHamClock> - full archive of HamClock front-end releases
     * includes bug fixes I've had to make in the source
+* HamClock successors:
+    * [Open HamClock Backend](https://ohb.works/)
+    * [hamclock.com](https://hamclock.com/)
+    * [OpenHamClock - A real-time amateur radio dashboard for the modern operator](https://github.com/accius/openhamclock)
+    * [GlanceRF (A Hamclock Modern Rebuild)](https://github.com/pomtom44/GlanceRF)
 * [Ham Radio Workbench 230 - All About the Geochron with Patrick KJ7SZU](https://www.hamradioworkbench.com/podcast/hrwb-230-all-about-the-geochron-with-patrick-kj7szu)
 * [Geochron](https://www.geochron.com/)
 * [ACS3 satellite](https://www.nasa.gov/mission/acs3/)
-* [OpenHamClock - A real-time amateur radio dashboard for the modern operator](https://github.com/accius/openhamclock)
-* [GlanceRF (A Hamclock Modern Rebuild)](https://github.com/pomtom44/GlanceRF)
-* [Open HamClock Backend](https://github.com/BrianWilkinsFL/open-hamclock-backend)
-* [LEAP#831 HamClock Hat](./DIYHamClockHat/)
 * ["1-10pcs BME280 BMP280 5V 3.3V Digital Sensor Temperature Humidity Barometric Pressure Module I2C SPI for Arduino" (aliexpress seller listing)](https://www.aliexpress.com/item/1005008511564094.html)
     * Purchased BME280 3.3V module for SG$3.72 (Jan-2026)
