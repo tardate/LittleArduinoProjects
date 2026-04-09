@@ -1,6 +1,6 @@
 # #762 HamClock
 
-Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements.
+Exploring HamClock, the kiosk-style application that displays real time space weather, radio propagation models, operating events and other information particularly useful to the radio amateur. Trying it on macOS, Ubuntu and Raspberry Pi. With the Raspberry Pi, hook up the BME280 environmental sensor and satellite, alarm, and timer indicators. As of 2026, HamClock has reached end-of-life, so I also cover potential replacements including the most promising Open HamClock Backend (OHB).
 
 ![Build](./assets/HamClock_build.jpg?raw=true)
 
@@ -34,7 +34,7 @@ I have captured a full archive of HamClock front-end releases at <https://github
 
 A few projects that are potential successors for HamClock include:
 
-* [Open HamClock Backend](https://ohb.works/)
+* [Open HamClock Backend (OHB)](https://ohb.works/)
     * A fully open-source project that has reimplemented the HamClock backend and maintains a fork of the front-end client
 * [hamclock.com](https://hamclock.com/)
     * Another reimplementation the HamClock backend, however this is a closed-source solution in the hands of a single individual (exactly the scenario that hindered the predecessor)
@@ -342,7 +342,7 @@ And the LED lights up. The push-button can be used to cancel the alarm:
 * <https://github.com/tardate/ESPHamClock> - full archive of HamClock front-end releases
     * includes bug fixes I've had to make in the source
 * HamClock successors:
-    * [Open HamClock Backend](https://ohb.works/)
+    * [Open HamClock Backend (OHB)](https://ohb.works/)
     * [hamclock.com](https://hamclock.com/)
     * [OpenHamClock - A real-time amateur radio dashboard for the modern operator](https://github.com/accius/openhamclock)
     * [GlanceRF (A Hamclock Modern Rebuild)](https://github.com/pomtom44/GlanceRF)

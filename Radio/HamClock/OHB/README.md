@@ -166,7 +166,7 @@ Nice! Also works great.
 
 * [LEAP#762 HamClock](../)
 * [LEAP#831 HamClock Hat](../DIYHamClockHat/)
-* Open HamClock Backend
+* Open HamClock Backend (OHB)
     * <https://ohb.works/> - main website
     * <https://github.com/komacke/open-hamclock-backend> - backend source
     * <https://github.com/komacke/hamclock> - client source
