@@ -1,0 +1,9 @@
+{
+    "name": "YLD8-12X1W",
+    "description": "Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.",
+    "categories": "Power, LED",
+    "relative_path": "Electronics101/LedDrivers/YLD8-12X1W",
+    "updated_at": "2026-04-20T08:17:00Z",
+    "created_at": "2026-04-20T08:17:00Z",
+    "id": "#837"
+}
