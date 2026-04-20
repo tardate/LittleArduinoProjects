@@ -16,10 +16,11 @@
   <entry>
     <id>https://leap.tardate.com/electronics101/leddrivers/yld8-12x1w/</id>
     <link href="https://leap.tardate.com/electronics101/leddrivers/yld8-12x1w/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/leddrivers/yld8-12x1w/assets/yld8-12x1w_build.jpg</g:image_link>
     <updated>2026-04-20T08:17:00Z</updated>
     <title>#837 YLD8-12X1W</title>
     <summary>Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.&lt;/p&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/leddrivers/yld8-12x1w/assets/yld8-12x1w_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="LED"/>
   </entry>
