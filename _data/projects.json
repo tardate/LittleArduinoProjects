@@ -1,4 +1,13 @@
 {
+    "/electronics101/leddrivers/yld8-12x1w/": {
+        "id": 837,
+        "title": "YLD8-12X1W",
+        "summary": "Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.",
+        "tags": [
+            "Power",
+            "LED"
+        ]
+    },
     "/radio/hamclock/ohb/": {
         "id": 836,
         "title": "Using the Open HamClock Backend",

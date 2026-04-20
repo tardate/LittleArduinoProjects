@@ -1,6 +1,6 @@
-# 836 Little Electronic Art Projects
+# 837 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Using the Open HamClock Backend](./Radio/HamClock/OHB) - Using the new Open HamClock Backend (OHB) to give my HamClock client installation a new lease of life. Testing clients on Raspberry Pi, macOS, and Ubuntu.
+> Latest addition :sparkles: [YLD8-12X1W](./Electronics101/LedDrivers/YLD8-12X1W) - Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

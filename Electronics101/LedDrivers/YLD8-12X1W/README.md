@@ -1,4 +1,4 @@
-# #xxx YLD8-12X1W
+# #837 YLD8-12X1W
 
 Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.
 
