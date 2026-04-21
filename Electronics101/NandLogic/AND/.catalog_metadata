@@ -1,0 +1,9 @@
+{
+    "name": "AND Gate with NAND Logic",
+    "description": "Demonstrating how an AND gate may constructed solely from NAND gates.",
+    "categories": "Digital Logic, NAND Logic, CD4011",
+    "relative_path": "Electronics101/NandLogic/AND",
+    "updated_at": "2026-04-22T05:37:00Z",
+    "created_at": "2026-04-22T05:37:00Z",
+    "id": "#838"
+}

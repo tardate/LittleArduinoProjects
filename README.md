@@ -1,6 +1,6 @@
-# 837 Little Electronic Art Projects
+# 838 Little Electronic Art Projects
 
-> Latest addition :sparkles: [YLD8-12X1W](./Electronics101/LedDrivers/YLD8-12X1W) - Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.
+> Latest addition :sparkles: [AND Gate with NAND Logic](./Electronics101/NandLogic/AND) - Demonstrating how an AND gate may constructed solely from NAND gates.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
