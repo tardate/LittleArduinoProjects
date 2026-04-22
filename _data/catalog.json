@@ -1,5 +1,15 @@
 [
     {
+        "name": "DEMUX Gate with NAND Logic",
+        "description": "Demonstrating how a DEMUX gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/demux",
+        "updated_at": "2026-04-22T14:39:00Z",
+        "created_at": "2026-04-22T14:39:00Z",
+        "id": "#845",
+        "original_relative_path": "Electronics101/NandLogic/DEMUX"
+    },
+    {
         "name": "MUX Gate with NAND Logic",
         "description": "Demonstrating how a MUX gate may constructed solely from NAND gates.",
         "categories": "Digital Logic, NAND Logic, CD4011",
