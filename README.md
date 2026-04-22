@@ -1,6 +1,6 @@
-# 841 Little Electronic Art Projects
+# 842 Little Electronic Art Projects
 
-> Latest addition :sparkles: [NOT](./Electronics101/NandLogic/NOT) - 
+> Latest addition :sparkles: [XOR Gate with NAND Logic](./Electronics101/NandLogic/XOR) - Demonstrating how an XOR gate may constructed solely from NAND gates.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
