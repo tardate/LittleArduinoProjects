@@ -1,4 +1,14 @@
 {
+    "/electronics101/nandlogic/xnor/": {
+        "id": 843,
+        "title": "XNOR Gate with NAND Logic",
+        "summary": "Demonstrating how an XNOR gate may constructed solely from NAND gates.",
+        "tags": [
+            "Digital Logic",
+            "NAND Logic",
+            "CD4011"
+        ]
+    },
     "/electronics101/nandlogic/xor/": {
         "id": 842,
         "title": "XOR Gate with NAND Logic",
