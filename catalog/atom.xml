@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-04-22T06:51:00Z</updated>
+  <updated>2026-04-22T07:08:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/nor/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/nor/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/nor/assets/nor_build.jpg</g:image_link>
+    <updated>2026-04-22T07:08:00Z</updated>
+    <title>#840 NOR Gate with NAND Logic</title>
+    <summary>Demonstrating how a NOR gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how a NOR gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/nor/assets/nor_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/nandlogic/or/</id>
     <link href="https://leap.tardate.com/electronics101/nandlogic/or/"/>

@@ -1,4 +1,14 @@
 {
+    "/electronics101/nandlogic/nor/": {
+        "id": 840,
+        "title": "NOR Gate with NAND Logic",
+        "summary": "Demonstrating how a NOR gate may constructed solely from NAND gates.",
+        "tags": [
+            "Digital Logic",
+            "NAND Logic",
+            "CD4011"
+        ]
+    },
     "/electronics101/nandlogic/or/": {
         "id": 839,
         "title": "OR Gate with NAND Logic",
