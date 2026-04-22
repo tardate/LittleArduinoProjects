@@ -72,3 +72,10 @@ Traces are offset vertically for clarity.
 
 * [CD4011 datasheet](https://www.futurlec.com/4000Series/CD4011.shtml)
 * <https://en.wikipedia.org/wiki/NAND_logic>
+* See also:
+    * [LEAP#838 AND Gate with NAND Logic](../AND/)
+    * [LEAP#839 OR Gate with NAND Logic](../OR/)
+    * [LEAP#840 NOR Gate with NAND Logic](../NOR/)
+    * [LEAP#841 NOT Gate with NAND Logic](../NOT/)
+    * [LEAP#842 XOR Gate with NAND Logic](../XOR/)
+    * [LEAP#843 XNOR Gate with NAND Logic](../XNOR/)
