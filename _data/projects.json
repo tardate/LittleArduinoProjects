@@ -1,4 +1,12 @@
 {
+    "/electronics101/nandlogic/not/": {
+        "id": 841,
+        "title": "NOT",
+        "summary": "",
+        "tags": [
+            ""
+        ]
+    },
     "/electronics101/nandlogic/nor/": {
         "id": 840,
         "title": "NOR Gate with NAND Logic",

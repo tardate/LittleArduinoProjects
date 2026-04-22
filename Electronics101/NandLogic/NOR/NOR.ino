@@ -1,8 +1,8 @@
 /*
 
-  OR Gate with NAND Logic
+  NOR Gate with NAND Logic
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/NandLogic/OR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/NandLogic/NOR
 
  */
 
