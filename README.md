@@ -1,6 +1,6 @@
-# 843 Little Electronic Art Projects
+# 844 Little Electronic Art Projects
 
-> Latest addition :sparkles: [XNOR Gate with NAND Logic](./Electronics101/NandLogic/XNOR) - Demonstrating how an XNOR gate may constructed solely from NAND gates.
+> Latest addition :sparkles: [MUX Gate with NAND Logic](./Electronics101/NandLogic/MUX) - Demonstrating how a MUX gate may constructed solely from NAND gates.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

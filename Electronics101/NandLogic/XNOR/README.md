@@ -79,3 +79,4 @@ Traces are offset vertically for clarity.
     * [LEAP#841 NOT Gate with NAND Logic](../NOT/)
     * [LEAP#842 XOR Gate with NAND Logic](../XOR/)
     * [LEAP#843 XNOR Gate with NAND Logic](../XNOR/)
+    * [LEAP#844 MUX Gate with NAND Logic](../MUX/)
