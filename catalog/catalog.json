@@ -1,5 +1,85 @@
 [
     {
+        "name": "DEMUX Gate with NAND Logic",
+        "description": "Demonstrating how a DEMUX gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/demux",
+        "updated_at": "2026-04-22T14:39:00Z",
+        "created_at": "2026-04-22T14:39:00Z",
+        "id": "#845",
+        "original_relative_path": "Electronics101/NandLogic/DEMUX"
+    },
+    {
+        "name": "MUX Gate with NAND Logic",
+        "description": "Demonstrating how a MUX gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/mux",
+        "updated_at": "2026-04-22T13:47:00Z",
+        "created_at": "2026-04-22T13:47:00Z",
+        "id": "#844",
+        "original_relative_path": "Electronics101/NandLogic/MUX"
+    },
+    {
+        "name": "XNOR Gate with NAND Logic",
+        "description": "Demonstrating how an XNOR gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/xnor",
+        "updated_at": "2026-04-22T10:43:00Z",
+        "created_at": "2026-04-22T10:43:00Z",
+        "id": "#843",
+        "original_relative_path": "Electronics101/NandLogic/XNOR"
+    },
+    {
+        "name": "XOR Gate with NAND Logic",
+        "description": "Demonstrating how an XOR gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/xor",
+        "updated_at": "2026-04-22T09:53:00Z",
+        "created_at": "2026-04-22T09:53:00Z",
+        "id": "#842",
+        "original_relative_path": "Electronics101/NandLogic/XOR"
+    },
+    {
+        "name": "NOT Gate with NAND Logic",
+        "description": "Demonstrating how a NOT gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/not",
+        "updated_at": "2026-04-22T09:20:00Z",
+        "created_at": "2026-04-22T09:20:00Z",
+        "id": "#841",
+        "original_relative_path": "Electronics101/NandLogic/NOT"
+    },
+    {
+        "name": "NOR Gate with NAND Logic",
+        "description": "Demonstrating how a NOR gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/nor",
+        "updated_at": "2026-04-22T07:08:00Z",
+        "created_at": "2026-04-22T07:08:00Z",
+        "id": "#840",
+        "original_relative_path": "Electronics101/NandLogic/NOR"
+    },
+    {
+        "name": "OR Gate with NAND Logic",
+        "description": "Demonstrating how an OR gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/or",
+        "updated_at": "2026-04-22T06:51:00Z",
+        "created_at": "2026-04-22T06:51:00Z",
+        "id": "#839",
+        "original_relative_path": "Electronics101/NandLogic/OR"
+    },
+    {
+        "name": "AND Gate with NAND Logic",
+        "description": "Demonstrating how an AND gate may constructed solely from NAND gates.",
+        "categories": "Digital Logic, NAND Logic, CD4011",
+        "relative_path": "electronics101/nandlogic/and",
+        "updated_at": "2026-04-22T05:37:00Z",
+        "created_at": "2026-04-22T05:37:00Z",
+        "id": "#838",
+        "original_relative_path": "Electronics101/NandLogic/AND"
+    },
+    {
         "name": "YLD8-12X1W",
         "description": "Reverse-engineer a faulty YLD8-12X1W LED driver, diagnose the issue, but determine the fix is not worth the effort.",
         "categories": "Power, LED",

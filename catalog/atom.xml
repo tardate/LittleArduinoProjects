@@ -7,12 +7,108 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-04-20T08:17:00Z</updated>
+  <updated>2026-04-22T14:39:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/demux/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/demux/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/demux/assets/demux_build.jpg</g:image_link>
+    <updated>2026-04-22T14:39:00Z</updated>
+    <title>#845 DEMUX Gate with NAND Logic</title>
+    <summary>Demonstrating how a DEMUX gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how a DEMUX gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/demux/assets/demux_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/mux/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/mux/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/mux/assets/mux_build.jpg</g:image_link>
+    <updated>2026-04-22T13:47:00Z</updated>
+    <title>#844 MUX Gate with NAND Logic</title>
+    <summary>Demonstrating how a MUX gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how a MUX gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/mux/assets/mux_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/xnor/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/xnor/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/xnor/assets/xnor_build.jpg</g:image_link>
+    <updated>2026-04-22T10:43:00Z</updated>
+    <title>#843 XNOR Gate with NAND Logic</title>
+    <summary>Demonstrating how an XNOR gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how an XNOR gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/xnor/assets/xnor_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/xor/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/xor/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/xor/assets/xor_build.jpg</g:image_link>
+    <updated>2026-04-22T09:53:00Z</updated>
+    <title>#842 XOR Gate with NAND Logic</title>
+    <summary>Demonstrating how an XOR gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how an XOR gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/xor/assets/xor_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/not/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/not/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/not/assets/not_build.jpg</g:image_link>
+    <updated>2026-04-22T09:20:00Z</updated>
+    <title>#841 NOT Gate with NAND Logic</title>
+    <summary>Demonstrating how a NOT gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how a NOT gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/not/assets/not_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/nor/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/nor/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/nor/assets/nor_build.jpg</g:image_link>
+    <updated>2026-04-22T07:08:00Z</updated>
+    <title>#840 NOR Gate with NAND Logic</title>
+    <summary>Demonstrating how a NOR gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how a NOR gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/nor/assets/nor_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/or/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/or/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/or/assets/or_build.jpg</g:image_link>
+    <updated>2026-04-22T06:51:00Z</updated>
+    <title>#839 OR Gate with NAND Logic</title>
+    <summary>Demonstrating how an OR gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how an OR gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/or/assets/or_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/nandlogic/and/</id>
+    <link href="https://leap.tardate.com/electronics101/nandlogic/and/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/nandlogic/and/assets/and_build.jpg</g:image_link>
+    <updated>2026-04-22T05:37:00Z</updated>
+    <title>#838 AND Gate with NAND Logic</title>
+    <summary>Demonstrating how an AND gate may constructed solely from NAND gates.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrating how an AND gate may constructed solely from NAND gates.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nandlogic/and/assets/and_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Digital Logic"/>
+    <category term="NAND Logic"/>
+    <category term="CD4011"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/leddrivers/yld8-12x1w/</id>
     <link href="https://leap.tardate.com/electronics101/leddrivers/yld8-12x1w/"/>

@@ -1,0 +1,9 @@
+{
+    "name": "XOR Gate with NAND Logic",
+    "description": "Demonstrating how an XOR gate may constructed solely from NAND gates.",
+    "categories": "Digital Logic, NAND Logic, CD4011",
+    "relative_path": "Electronics101/NandLogic/XOR",
+    "updated_at": "2026-04-22T09:53:00Z",
+    "created_at": "2026-04-22T09:53:00Z",
+    "id": "#842"
+}
