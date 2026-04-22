@@ -32,6 +32,13 @@ A NOT gate is made by joining the inputs of a NAND gate together. Since a NAND g
 
 Designed with Fritzing: see [NOT.fzz](./NOT.fzz).
 
+To demonstrate a NOT gate made from NAND gates, I have the circuit constructed on a breadboard using
+the CD4011 Quad 2-Input NAND Buffered B Series Gate.
+
+An Arduino is used to automate a demo cycle of inputs.
+
+Inputs and outputs are indicated with LEDs, and captured with an oscilloscope.
+
 ![bb](./assets/NOT_bb.jpg?raw=true)
 
 ![schematic](./assets/NOT_schematic.jpg?raw=true)

@@ -34,7 +34,7 @@ An XOR gate is made by connecting four NAND gates as shown below. This construct
 
 Designed with Fritzing: see [XOR.fzz](./XOR.fzz).
 
-To demonstrate and OR gate made from NAND gates, I have the circuit constructed on a breadboard using
+To demonstrate an XOR gate made from NAND gates, I have the circuit constructed on a breadboard using
 the CD4011 Quad 2-Input NAND Buffered B Series Gate.
 
 An Arduino is used to automate a demo cycle of inputs.

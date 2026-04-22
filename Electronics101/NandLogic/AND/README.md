@@ -34,7 +34,7 @@ An AND gate can be made with NAND gates by inverting the output of a NAND gate:
 
 Designed with Fritzing: see [AND.fzz](./AND.fzz).
 
-To demonstrate and AND gate made from NAND gates, I have the circuit constructed on a breadboard using
+To demonstrate an AND gate made from NAND gates, I have the circuit constructed on a breadboard using
 the CD4011 Quad 2-Input NAND Buffered B Series Gate.
 
 An Arduino is used to automate a demo cycle of inputs.

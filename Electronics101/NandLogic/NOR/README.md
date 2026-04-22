@@ -34,7 +34,7 @@ A NOR gate is an OR gate with an inverted output.
 
 Designed with Fritzing: see [NOR.fzz](./NOR.fzz).
 
-To demonstrate and OR gate made from NAND gates, I have the circuit constructed on a breadboard using
+To demonstrate an OR gate made from NAND gates, I have the circuit constructed on a breadboard using
 the CD4011 Quad 2-Input NAND Buffered B Series Gate.
 
 An Arduino is used to automate a demo cycle of inputs.

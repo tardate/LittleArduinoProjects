@@ -34,7 +34,7 @@ If any of the inputs to a NAND are 0, then the output will be 1. To be an OR gat
 
 Designed with Fritzing: see [OR.fzz](./OR.fzz).
 
-To demonstrate and OR gate made from NAND gates, I have the circuit constructed on a breadboard using
+To demonstrate an OR gate made from NAND gates, I have the circuit constructed on a breadboard using
 the CD4011 Quad 2-Input NAND Buffered B Series Gate.
 
 An Arduino is used to automate a demo cycle of inputs.

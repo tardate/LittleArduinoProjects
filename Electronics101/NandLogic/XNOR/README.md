@@ -38,7 +38,7 @@ An improved design entails a propagation delay three times that of a single NAND
 
 Designed with Fritzing: see [XNOR.fzz](./XNOR.fzz).
 
-To demonstrate and OR gate made from NAND gates, I have the circuit constructed on a breadboard using
+To demonstrate an XNOR gate made from NAND gates, I have the circuit constructed on a breadboard using
 the CD4011 Quad 2-Input NAND Buffered B Series Gate.
 
 An Arduino is used to automate a demo cycle of inputs.
