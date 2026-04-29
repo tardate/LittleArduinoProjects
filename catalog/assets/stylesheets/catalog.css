@@ -100,6 +100,13 @@ img.tardate-hero {
   box-sizing: content-box;
 }
 
+.markdown-body img[alt="cover"] {
+  width: 40%;
+  max-width: 300px;
+  margin-left: 20%;
+  margin-right: 40%;
+}
+
 .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
   font-weight: 600;
   line-height: 1.25;
