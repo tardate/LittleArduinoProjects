@@ -120,7 +120,7 @@ these weren't needed as everything worked as expected.
 * [ICStation](https://www.icstation.com/mobile/follow-spot-lights-light-chaser-game-electronic-soldering-practice-learning-p-16018.html) - possibly the original kit source
 * Component information:
     * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017.shtml)
-    * [NE555 datasheet](http://www.ti.com/lit/ds/symlink/ne555.pdf)
+    * [NE555 datasheet](https://www.ti.com/lit/ds/symlink/ne555.pdf)
     * [S9014 datasheet](https://www.futurlec.com/Transistors/S9014.shtml)
 
 ### Julian Ilett's Investigation of the Kit
