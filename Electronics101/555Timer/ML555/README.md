@@ -60,16 +60,16 @@ Setup on a breadboard...
 
 Substitutions:
 
-* 820Ω - substitute with [1.5kΩ || 1.8kΩ ≈ 818Ω](https://toolbox.tardate.com/?formula=1500%7C1800#ResistorCalculator)
+* 820Ω - substitute with [1.5kΩ \|\| 1.8kΩ ≈ 818Ω](https://toolbox.tardate.com/?formula=1500%7C1800#ResistorCalculator)
 * 15kΩ  - substitute with [12kΩ + 3kΩ = 15kΩ](https://toolbox.tardate.com/?formula=12000%2B3000#ResistorCalculator)
 
-## A Test
+## Testing the Circuit
 
 Let's take a standard 555 timer astable oscillator circuit:
 [R1=10k, R2=330k and C1=2.2uF](https://visual555.tardate.com?r1=10&r2=330&c=2.2),
 which predicts a frequency of just about 1Hz and 50% duty cycle. i.e. half a second on, half a second off.
 
-See Fritzing: see [ML555-async.fzz](./ML555-async.fzz).
+Designed with Fritzing: see [ML555-async.fzz](./ML555-async.fzz).
 
 The circuit is a direct implementation of a standard 555 astable oscillator
 but using the breadboarded 555 in place of the DIP8 component.
@@ -80,7 +80,7 @@ but using the breadboarded 555 in place of the DIP8 component.
 
 ### Results
 
-Using out breadboarded 555 timer, how do the results compare?
+Using our breadboarded 555 timer, how do the results compare?
 
 ![bb_build](./assets/ML555-async_bb_build.jpg?raw=true)
 
