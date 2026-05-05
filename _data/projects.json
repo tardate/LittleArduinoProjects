@@ -1,4 +1,12 @@
 {
+    "/electronics101/555timer/ml555/": {
+        "id": 846,
+        "title": "ML555",
+        "summary": "Celebrating the 55th birthday of the most evergreen IC of all time: the 555 timer, with a reproduction using discrete components. This is the Medium-Large 555 - a 555 timer built with BJTs and resistors, inspired by the work of the Evil Mad Scientist.",
+        "tags": [
+            "555 Timer"
+        ]
+    },
     "/electronics101/nandlogic/demux/": {
         "id": 845,
         "title": "DEMUX Gate with NAND Logic",

@@ -68,7 +68,7 @@ Oscillator:
 * [Charge Pump](https://en.wikipedia.org/wiki/Charge_pump) - wikipedia
 * [555 DC boost converter circuits](http://www.eleccircuit.com/the-many-dc-to-dc-converters-using-ic-555/) - original source of circuit design
 * Component information:
-    * [NE555 Datasheet](http://www.ti.com/lit/ds/symlink/ne555.pdf)
+    * [NE555 Datasheet](https://www.ti.com/lit/ds/symlink/ne555.pdf)
     * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
     * [1N4001 Datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)
     * [1N4148 Datasheet](https://www.futurlec.com/Diodes/1N4148.shtml)
