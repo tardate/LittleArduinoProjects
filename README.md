@@ -1,6 +1,6 @@
-# 845 Little Electronic Art Projects
+# 846 Little Electronic Art Projects
 
-> Latest addition :sparkles: [DEMUX Gate with NAND Logic](./Electronics101/NandLogic/DEMUX) - Demonstrating how a DEMUX gate may constructed solely from NAND gates.
+> Latest addition :sparkles: [ML555](./Electronics101/555Timer/ML555) - Celebrating the 55th birthday of the most evergreen IC of all time: the 555 timer, with a reproduction using discrete components. This is the Medium-Large 555 - a 555 timer built with BJTs and resistors, inspired by the work of the Evil Mad Scientist.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

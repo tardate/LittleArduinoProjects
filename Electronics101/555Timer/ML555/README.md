@@ -1,4 +1,4 @@
-# #xxx ML555
+# #846 ML555
 
 Celebrating the 55th birthday of the most evergreen IC of all time: the 555 timer,
 with a reproduction using discrete components. This is the "Medium-Large 555" - a 555 timer built with BJTs and resistors, inspired by the work of the Evil Mad Scientist.
