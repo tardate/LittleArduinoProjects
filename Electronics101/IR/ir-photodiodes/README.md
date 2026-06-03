@@ -9,9 +9,10 @@ Investigating and testing infrared (IR) transmission between IR LEDs and IR phot
 Infrared transmitters (LEDs) and receivers (photodiodes) are widely available in 3mm and 5mm through-hole tuned for 850nm or 940nm
 for example from [this aliexpress seller](https://www.aliexpress.com/item/1005003324844421.html).
 
-See also
-[The Art of Electronics](../../../books/the-art-of-electronics/)
-12.6.1 Photodiodes and phototransistors (3rd Edition).
+See also:
+
+* [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
+* [Infrared and Photodetectors WEbinar by DigiKey with Würth Elektronik](https://youtu.be/HiU85JUlYmw?si=8GLrbQDBYl3nHd_P)
 
 ### Components
 
@@ -166,6 +167,7 @@ At 20kHz, the received signal is significantly distorted:
 
 * [100Pcs 3mm 5mm IR LED Diode Transmitter Receiver 850nm 940nm Infrared Photodiode Phototransistor Emitter Lights Emitting Bulb](https://www.aliexpress.com/item/1005003324844421.html) - aliexpress seller
 * [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
+* [Infrared and Photodetectors WEbinar by DigiKey with Würth Elektronik](https://youtu.be/HiU85JUlYmw?si=8GLrbQDBYl3nHd_P)
 * <https://en.wikipedia.org/wiki/Photodiode>
 * <https://www.build-electronic-circuits.com/photodiode/>
 * <https://www.electronics-tutorials.ws/diode/photodiode.html>
