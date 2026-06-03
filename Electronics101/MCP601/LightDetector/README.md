@@ -17,6 +17,11 @@ This behaviour is also explained in
 [The Art of Electronics](../../../books/the-art-of-electronics/)
 12.6.1 Photodiodes and phototransistors (3rd Edition).
 
+See also:
+
+* [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
+* [Infrared and Photodetectors WEbinar by DigiKey with Würth Elektronik](https://youtu.be/HiU85JUlYmw?si=8GLrbQDBYl3nHd_P)
+
 ### 2CU84 PIN Silicon Photodiode
 
 I am using a
@@ -71,4 +76,5 @@ Monitoring the output voltage on an oscilloscope while randomly shielding the ph
     * [TW30SY datasheet](https://docs.rs-online.com/0f29/0900766b80b4c5bd.pdf)
 * DESIGNING PHOTODIODE AMPLIFIER CIRCUITS WITH OPA128
 * [Understanding Photovoltaic and Photoconductive Modes of Photodiode Operation](https://www.allaboutcircuits.com/technical-articles/understanding-photovoltaic-and-photoconductive-modes-of-photodiode-operation/)
-* [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition)
+* [The Art of Electronics](../../../books/the-art-of-electronics/) 12.6.1 Photodiodes and phototransistors (3rd Edition).
+* [Infrared and Photodetectors WEbinar by DigiKey with Würth Elektronik](https://youtu.be/HiU85JUlYmw?si=8GLrbQDBYl3nHd_P)
