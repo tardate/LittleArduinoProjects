@@ -29,7 +29,7 @@ see the [SPI](https://www.arduino.cc/en/Reference/SPI) reference page for detail
 
 ### SPI Settings
 
-Although default [SPI settings ](https://www.arduino.cc/en/Reference/SPISettings) may work, let's check. There are three factors:
+Although default [SPI settings](https://www.arduino.cc/en/Reference/SPISettings) may work, let's check. There are three factors:
 
 * maximum speed
 * bit order
