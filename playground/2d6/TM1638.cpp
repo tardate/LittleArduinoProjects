@@ -1,0 +1,116 @@
+#include "TM1638.h"
+
+void TM1638Driver::begin() {
+  pinMode(cs_pin, OUTPUT);
+  pinMode(clk_pin, OUTPUT);
+  setDataOutbound();
+  deselect();
+}
+
+void TM1638Driver::setDataInbound() {
+  pinMode(data_pin, INPUT);
+}
+
+void TM1638Driver::setDataOutbound() {
+  pinMode(data_pin, OUTPUT);
+}
+
+inline void TM1638Driver::select() {
+  digitalWrite(cs_pin, LOW);
+}
+
+inline void TM1638Driver::deselect() {
+  digitalWrite(cs_pin, HIGH);
+}
+
+uint8_t TM1638Driver::readData() {
+  return shiftIn(data_pin, clk_pin, LSBFIRST);
+}
+
+void TM1638Driver::writeData(uint8_t data) {
+  shiftOut(data_pin, clk_pin, LSBFIRST, data);
+}
+
+void TM1638Driver::sendData(uint8_t data) {
+  select();
+  writeData(data);
+  deselect();
+}
+
+void TM1638Driver::setDataCommand(uint8_t command) {
+  sendData(
+    TM1638_data_command | (TM1638_data_command_mask & command)
+  );
+}
+
+void TM1638Driver::writeDataFixedAddress(uint8_t address, uint8_t data) {
+  select();
+  writeData(
+    TM1638_address_command | (TM1638_address_command_mask & address)
+  );
+  writeData(data);
+  deselect();
+}
+
+void TM1638Driver::setDisplayControl(bool enabled) {
+  if (enabled) {
+    sendData(
+      TM1638_display_command | TM1638_display_command_on | (TM1638_display_command_mask & brightness)
+    );
+  } else {
+    sendData(
+      TM1638_display_command
+    );
+  }
+}
+
+void TM1638Driver::clearAll() {
+  setDataCommand(
+    TM1638_data_command_write |
+    TM1638_data_command_incr_address |
+    TM1638_data_command_normal
+  );
+  select();
+  writeData(TM1638_address_command);
+  for (int i=0; i<16; ++i) {
+    writeData(0);
+  }
+  deselect();
+  setDisplayControl(false);
+}
+
+void TM1638Driver::setDisplayValues(uint8_t c1, uint8_t c0) {
+  setDataCommand(
+    TM1638_data_command_write |
+    TM1638_data_command_fixed_address |
+    TM1638_data_command_normal
+  );
+  writeDataFixedAddress(0, c0);
+  writeDataFixedAddress(2, c1);
+  setDisplayControl(true);
+}
+
+void TM1638Driver::displayNumbers(uint8_t n1, uint8_t n0) {
+  setDisplayValues(
+    NUMBERS[n1],
+    NUMBERS[n0]
+  );
+}
+
+void TM1638Driver::displayNumber(uint16_t counter) {
+  displayNumbers(
+    (counter / 10) % 10,
+    counter % 10
+  );
+}
+
+void TM1638Driver::readKeys(uint8_t k[]) {
+  select();
+  writeData(TM1638_data_command | TM1638_data_command_read | TM1638_data_command_normal);
+  setDataInbound();
+  for (int i=0; i<4; ++i) {
+    k[i] = readData();
+  }
+  setDataOutbound();
+  deselect();
+}

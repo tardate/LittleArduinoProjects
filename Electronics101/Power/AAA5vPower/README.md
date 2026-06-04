@@ -7,7 +7,7 @@ Using an amazingly small little boost converter to make a 5V regulated power pac
 ## Notes
 
 I picked up some
-[5V DC-DC Step-Up Power Modules](https://www.aliexpress.com/item/1005006438496545.html) on aliexpress for a nice price (SG$1.62 for 5),
+[5V DC-DC Step-Up Power Modules](https://www.aliexpress.com/item/1005006438496545.html) on aliexpress for a nice price (SG$1.74 for 5),
 following a suggestion from [@steveschnepp](https://github.com/tardate/LittleArduinoProjects/issues/77)
 for making a 5V power pack from AA or AAA batteries.
 
@@ -68,7 +68,8 @@ I really like this idea, especially for powering little embedded projects that n
 
 ## Credits and References
 
-* [0.9-5V To 5V DC-DC Step-Up Power Module Voltage Boost Converter Board 1.5V 1.8V 2.5V 3V 3.3V 3.7V 4.2V To 5V](https://www.aliexpress.com/item/1005006438496545.html) - aliexpress
+* ["0.9-5V To 5V DC-DC Step-Up Power Module Voltage Boost Converter Board 1.5V 1.8V 2.5V 3V 3.3V 3.7V 4.2V To 5V" (aliexpress seller listing)](https://www.aliexpress.com/item/1005006438496545.html)
+    * Purchased for SG$1.74 including tax for 5 pieces (Nov-2024)
 * Nanjing Micro One NB: currently served with an expired and invalid SSL certificate
     * [ME2108](https://www.microne.com.cn/product/124.html)
     * [Nanjing Micro One Electronics Inc. 版权所有.南京微盟电子有限公司](https://www.microne.com.cn/)
