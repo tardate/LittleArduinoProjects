@@ -70,11 +70,11 @@ void TM1638Driver::writeDataFixedAddress(uint8_t address, uint8_t data) {
   deselect();
 }
 
-void TM1638Driver::setDisplayControl(bool enabled, uint8_t level) {
+void TM1638Driver::setDisplayControl(bool enabled, uint8_t brightness_level) {
   if (enabled) {
     sendData(trace(
       "setDisplayControl on",
-      TM1638_display_command | TM1638_display_command_on | (TM1638_display_command_mask & level)
+      TM1638_display_command | TM1638_display_command_on | (TM1638_display_command_mask & brightness_level)
     ));
   } else {
     sendData(trace(
@@ -99,15 +99,26 @@ void TM1638Driver::clearAll() {
   setDisplayControl(false, 0);
 }
 
-void TM1638Driver::displayNumber(uint16_t counter) {
+void TM1638Driver::setDisplayValues(uint8_t c1, uint8_t c0) {
   setDataCommand(
     TM1638_data_command_write |
     TM1638_data_command_fixed_address |
     TM1638_data_command_normal
   );
-  writeDataFixedAddress(0, NUMBERS[counter % 10]);
-  writeDataFixedAddress(2, NUMBERS[(counter / 10) % 10]);
+  writeDataFixedAddress(0, c0);
+  writeDataFixedAddress(2, c1);
   setDisplayControl(true, 0b11);
+}
+
+void TM1638Driver::displayNumbers(uint8_t n1, uint8_t n0) {
+  setDisplayValues(NUMBERS[n1], NUMBERS[n0]);
+}
+
+void TM1638Driver::displayNumber(uint16_t counter) {
+  displayNumbers(
+    (counter / 10) % 10,
+    counter % 10
+  );
 }
 
 void TM1638Driver::readKeys(uint8_t k[]) {

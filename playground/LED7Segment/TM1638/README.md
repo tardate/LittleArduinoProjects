@@ -31,14 +31,14 @@ and each digits cathode goes to the corresponding grid pin.
 
 | Segment  | SC56-11 pin | TM1638 SEG pin |
 |----------|-------------|----------------|
-| a        | 7           | 5              |
-| b        | 6           | 6              |
-| c        | 4           | 7              |
-| d        | 2           | 8              |
-| e        | 1           | 9              |
-| f        | 9           | 10             |
-| g        | 10          | 11             |
-| dp       | 5           | 12             |
+| a        | 7           | SEG1: 5        |
+| b        | 6           | SEG2: 6        |
+| c        | 4           | SEG3: 7        |
+| d        | 2           | SEG4: 8        |
+| e        | 1           | SEG5: 9        |
+| f        | 9           | SEG6: 10       |
+| g        | 10          | SEG7: 11       |
+| dp       | 5           | SEG8: 12       |
 
 ### Pushbutton Inputs
 

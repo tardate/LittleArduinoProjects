@@ -28,7 +28,19 @@ void setup() {
   tm1638_driver.begin();
 
   tm1638_driver.clearAll();
+  demoAllDigits();
   tm1638_driver.displayNumber(counter);
+}
+
+/*
+ * Command: demo all digits on the display
+ */
+void demoAllDigits() {
+  for (int i=0; i<NUMBER_OF_NUMBERS; ++i) {
+    tm1638_driver.displayNumbers(0, i);
+    delay(500);
+  }
+  delay(1000);
 }
 
 /*

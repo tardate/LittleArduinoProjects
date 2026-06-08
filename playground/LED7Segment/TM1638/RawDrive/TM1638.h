@@ -39,9 +39,20 @@ static const byte NUMBERS[] = {
   B01111101,  // 6
   B00000111,  // 7
   B01111111,  // 8
-  B01101111   // 9
+  B01101111,  // 9
+  B01110111,  // A
+  B01111100,  // b
+  B01011000,  // c
+  B01011110,  // d
+  B01111001,  // e
+  B01110001,  // f
+  B01000000,  // -
+  B00000000   // <blank
 };
 
+static const uint8_t NUMBER_OF_NUMBERS = sizeof(NUMBERS) / sizeof(byte);
+static const uint8_t NUMBER_BLANK = NUMBER_OF_NUMBERS - 1;
+static const uint8_t NUMBER_CLEAR = NUMBER_OF_NUMBERS - 2;
 
 class TM1638Driver {
 
@@ -53,7 +64,6 @@ class TM1638Driver {
      * Initialise controls and ports.
      */
     void begin();
-
 
     uint8_t trace(String message, uint8_t value);
 
@@ -67,14 +77,35 @@ class TM1638Driver {
 
     void writeDataFixedAddress(uint8_t address, uint8_t data);
 
-    void setDisplayControl(bool enabled, uint8_t level);
+    /*
+     * Enable or disable the display, and set the brightness level (0-7).
+     */
+    void setDisplayControl(bool enabled, uint8_t brightness_level);
 
     /*
      * Clears all display registers.
      * This is a demonstration of incremental addressing mode
      */
     void clearAll();
+
+    /*
+     * Sets the encoded values on the display.
+     */
+    void setDisplayValues(uint8_t c1, uint8_t c0);
+
+    /*
+     * Displays two numbers on the display.
+     */
+    void displayNumbers(uint8_t n1, uint8_t n0);
+
+    /*
+     * Displays a 2-digit number on the display.
+     */
     void displayNumber(uint16_t counter);
+
+    /*
+     * Read the current key state into k
+     */
     void readKeys(uint8_t k[]);
 
   private:
@@ -87,6 +118,5 @@ class TM1638Driver {
     void deselect();
     void setDataInbound();
     void setDataOutbound();
-
 
 };
