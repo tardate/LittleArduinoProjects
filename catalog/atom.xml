@@ -1750,7 +1750,7 @@
     <category term="LED"/>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/pwmmotorcontrol/</id>
@@ -1763,7 +1763,7 @@
     <category term="Motors"/>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/raspberry-pi-cookbook/</id>
@@ -2755,7 +2755,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/analogcomparator/assets/analogcomparator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
     <category term="Sensors"/>
     <category term="OpAmp"/>
   </entry>
@@ -3612,7 +3612,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/ssd1306/basicdemo/assets/basicdemo_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
     <category term="OLED"/>
   </entry>
   <entry>
@@ -3636,7 +3636,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;How to use pin change interrupts with the ATtiny85&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/pinchangeinterrupts/assets/pinchangeinterrupts_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/ixpando/attinycontroller/</id>
@@ -4832,7 +4832,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/softwarepwm/assets/softwarepwm_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
     <category term="PWM"/>
   </entry>
   <entry>
@@ -5257,7 +5257,7 @@
     <title>#391 MilliVoltmeterDIY PCB and Enclosure</title>
     <summary>custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/millivoltmeterdiy/customboardandenclosure/assets/customboardandenclosure_build.jpg" /&gt;&lt;/div&gt;</content>
-    <category term="ATmega"/>
+    <category term="AVR"/>
     <category term="ADC"/>
     <category term="Tools"/>
     <category term="Test Equipment"/>
@@ -5473,7 +5473,7 @@
     <title>#372 MilliVoltmeter DIY</title>
     <summary>an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/millivoltmeterdiy/assets/millivoltmeterdiy_build.jpg" /&gt;&lt;/div&gt;</content>
-    <category term="ATmega"/>
+    <category term="AVR"/>
     <category term="ADC"/>
     <category term="Tools"/>
     <category term="Test Equipment"/>
@@ -6591,7 +6591,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;build and evaluate a popular ATMEAG328-based component tester kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/componenttesterkit/assets/componenttesterkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
     <category term="Test Equipment"/>
-    <category term="ATmega"/>
+    <category term="AVR"/>
     <category term="Kit"/>
     <category term="DHT11"/>
     <category term="DS18B20"/>
@@ -6635,7 +6635,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;how to run an ATtiny85 microprocessor at 8MHz using the internal clock&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/at8mhz/assets/at8mhz_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/fy3200s/</id>
@@ -6727,7 +6727,6 @@
     <summary>Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/thecuttle/scopetag/assets/scopetag_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
-    <category term="ATmega"/>
     <category term="ATmel"/>
     <category term="Arduino"/>
     <category term="Digital Pot"/>
@@ -6744,7 +6743,6 @@
     <content type="html">&lt;div&gt;&lt;p&gt;the most beautiful Arduino-compatible board you will ever see. Another soldering kit from The Boldport Club (Project #6)&lt;/p&gt;&lt;img src="https://leap.tardate.com/boldportclub/thecuttle/assets/thecuttle_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Boldport"/>
     <category term="PCB Design"/>
-    <category term="ATmega"/>
     <category term="ATmel"/>
     <category term="Arduino"/>
     <category term="Kit"/>
@@ -6895,8 +6893,7 @@
     <title>#254 AvrHardwarePWM</title>
     <summary>all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/avrhardwarepwm/assets/avrhardwarepwm_build.jpg" /&gt;&lt;/div&gt;</content>
-    <category term="ATmega"/>
-    <category term="ATmel"/>
+    <category term="AVR"/>
     <category term="Arduino"/>
     <category term="PWM"/>
   </entry>
@@ -8359,7 +8356,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on with push-button PFET; power-off by the microprocessor itself.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/totalsleep/assets/totalsleep_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/sleepmode/</id>
@@ -8371,7 +8368,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test sleep mode with an ATtiny85 processor on a breadboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/sleepmode/assets/sleepmode_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/hardwareinterrupt/</id>
@@ -8383,7 +8380,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test hardware interrupts with an ATtiny85 processor on a breadboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/hardwareinterrupt/assets/hardwareinterrupt_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/visualization/voicelevelindicatorkit/</id>
@@ -9002,7 +8999,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;A simple LED blinking demonstration with an ATTINY85-20PU on a breadboard.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/tinyblink/assets/tinyblink_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/programmingwitharduinoisp/</id>
@@ -9014,7 +9011,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;programming an ATTINY85-20PU on a breadboard with Arduino ISP&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/programmingwitharduinoisp/assets/programmingwitharduinoisp_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
-    <category term="ATtiny85"/>
+    <category term="ATtiny"/>
     <category term="ICSP"/>
   </entry>
   <entry>

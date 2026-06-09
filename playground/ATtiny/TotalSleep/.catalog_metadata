@@ -2,7 +2,7 @@
     "id": "#128",
     "name": "ATtiny TotalSleep",
     "description": "Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on with push-button PFET; power-off by the microprocessor itself.",
-    "categories": "Arduino, AVR, ATtiny85",
+    "categories": "Arduino, AVR, ATtiny",
     "relative_path": "playground/ATtiny/TotalSleep",
     "updated_at": "2020-02-17T17:45:56Z",
     "created_at": "2020-02-17T17:45:56Z"

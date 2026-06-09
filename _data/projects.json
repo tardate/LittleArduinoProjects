@@ -1433,7 +1433,7 @@
             "LED",
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/playground/attiny/pwmmotorcontrol/": {
@@ -1444,7 +1444,7 @@
             "Motors",
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/books/raspberry-pi-cookbook/": {
@@ -2256,7 +2256,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85",
+            "ATtiny",
             "Sensors",
             "OpAmp"
         ]
@@ -2965,7 +2965,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85",
+            "ATtiny",
             "OLED"
         ]
     },
@@ -2985,7 +2985,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/boldportclub/ixpando/attinycontroller/": {
@@ -3977,7 +3977,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85",
+            "ATtiny",
             "PWM"
         ]
     },
@@ -4330,7 +4330,7 @@
         "title": "MilliVoltmeterDIY PCB and Enclosure",
         "summary": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
-            "ATmega",
+            "AVR",
             "ADC",
             "Tools",
             "Test Equipment"
@@ -4508,7 +4508,7 @@
         "title": "MilliVoltmeter DIY",
         "summary": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
-            "ATmega",
+            "AVR",
             "ADC",
             "Tools",
             "Test Equipment"
@@ -5438,7 +5438,7 @@
         "tags": [
             "Tools",
             "Test Equipment",
-            "ATmega",
+            "AVR",
             "Kit",
             "DHT11",
             "DS18B20",
@@ -5476,7 +5476,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/equipment/fy3200s/": {
@@ -5552,7 +5552,6 @@
         "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer",
         "tags": [
             "Boldport",
-            "ATmega",
             "ATmel",
             "Arduino",
             "Digital Pot",
@@ -5567,7 +5566,6 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "ATmega",
             "ATmel",
             "Arduino",
             "Kit"
@@ -5694,8 +5692,7 @@
         "title": "AvrHardwarePWM",
         "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328",
         "tags": [
-            "ATmega",
-            "ATmel",
+            "AVR",
             "Arduino",
             "PWM"
         ]
@@ -6906,7 +6903,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/playground/attiny/sleepmode/": {
@@ -6916,7 +6913,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/playground/attiny/hardwareinterrupt/": {
@@ -6926,7 +6923,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/audio/visualization/voicelevelindicatorkit/": {
@@ -7435,7 +7432,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85"
+            "ATtiny"
         ]
     },
     "/playground/attiny/programmingwitharduinoisp/": {
@@ -7445,7 +7442,7 @@
         "tags": [
             "Arduino",
             "AVR",
-            "ATtiny85",
+            "ATtiny",
             "ICSP"
         ]
     },
