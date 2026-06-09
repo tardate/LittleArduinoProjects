@@ -1750,6 +1750,7 @@
     <category term="LED"/>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/pwmmotorcontrol/</id>
@@ -1762,6 +1763,7 @@
     <category term="Motors"/>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/books/raspberry-pi-cookbook/</id>
@@ -2753,6 +2755,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/analogcomparator/assets/analogcomparator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
     <category term="Sensors"/>
     <category term="OpAmp"/>
   </entry>
@@ -3607,7 +3610,9 @@
     <title>#531 ATtiny SSD1306 I²C</title>
     <summary>Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/ssd1306/basicdemo/assets/basicdemo_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
     <category term="OLED"/>
   </entry>
   <entry>
@@ -3631,6 +3636,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;How to use pin change interrupts with the ATtiny85&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/pinchangeinterrupts/assets/pinchangeinterrupts_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/ixpando/attinycontroller/</id>
@@ -4824,7 +4830,9 @@
     <title>#427 ATtiny Software PWM</title>
     <summary>generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/softwarepwm/assets/softwarepwm_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
     <category term="PWM"/>
   </entry>
   <entry>
@@ -6627,6 +6635,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;how to run an ATtiny85 microprocessor at 8MHz using the internal clock&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/at8mhz/assets/at8mhz_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/fy3200s/</id>
@@ -8346,10 +8355,11 @@
     <g:image_link>https://leap.tardate.com/playground/attiny/totalsleep/assets/totalsleep_build.jpg</g:image_link>
     <updated>2020-02-17T17:45:56Z</updated>
     <title>#128 ATtiny TotalSleep</title>
-    <summary>test a total power shutdown with an ATtiny85 processor on a breadboard</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;test a total power shutdown with an ATtiny85 processor on a breadboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/totalsleep/assets/totalsleep_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on with push-button PFET; power-off by the microprocessor itself.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on with push-button PFET; power-off by the microprocessor itself.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/totalsleep/assets/totalsleep_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/sleepmode/</id>
@@ -8361,6 +8371,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test sleep mode with an ATtiny85 processor on a breadboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/sleepmode/assets/sleepmode_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/hardwareinterrupt/</id>
@@ -8372,6 +8383,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test hardware interrupts with an ATtiny85 processor on a breadboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/hardwareinterrupt/assets/hardwareinterrupt_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/visualization/voicelevelindicatorkit/</id>
@@ -8986,10 +8998,11 @@
     <g:image_link>https://leap.tardate.com/playground/attiny/tinyblink/assets/tinyblink_build.jpg</g:image_link>
     <updated>2020-02-17T17:45:56Z</updated>
     <title>#071 TinyBlink</title>
-    <summary>a simple blink sketch with an ATTINY85-20PU on a breadboard</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;a simple blink sketch with an ATTINY85-20PU on a breadboard&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/tinyblink/assets/tinyblink_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>A simple LED blinking demonstration with an ATTINY85-20PU on a breadboard.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A simple LED blinking demonstration with an ATTINY85-20PU on a breadboard.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/tinyblink/assets/tinyblink_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/programmingwitharduinoisp/</id>
@@ -9001,6 +9014,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;programming an ATTINY85-20PU on a breadboard with Arduino ISP&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/attiny/programmingwitharduinoisp/assets/programmingwitharduinoisp_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="AVR"/>
+    <category term="ATtiny85"/>
     <category term="ICSP"/>
   </entry>
   <entry>

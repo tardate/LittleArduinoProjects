@@ -30,6 +30,7 @@
     "ATmega",
     "ATmel",
     "ATtiny",
+    "ATtiny85",
     "Audio",
     "AVR",
     "BEAM",
