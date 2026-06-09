@@ -5678,8 +5678,8 @@
     },
     "/playground/avrhardwarepwm/attiny/": {
         "id": 255,
-        "title": "AvrHardwarePWM/ATtiny",
-        "summary": "all about hardware PWM and demonstrating the modes with the ATtiny85",
+        "title": "ATtiny Hardware PWM",
+        "summary": "All about hardware PWM and demonstrating the modes with the ATtiny85.",
         "tags": [
             "ATtiny",
             "ATmel",
@@ -5689,8 +5689,8 @@
     },
     "/playground/avrhardwarepwm/": {
         "id": 254,
-        "title": "AvrHardwarePWM",
-        "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328",
+        "title": "AVR Hardware PWM",
+        "summary": "All about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.",
         "tags": [
             "AVR",
             "Arduino",

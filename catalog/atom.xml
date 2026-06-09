@@ -6877,9 +6877,9 @@
     <link href="https://leap.tardate.com/playground/avrhardwarepwm/attiny/"/>
     <g:image_link>https://leap.tardate.com/playground/avrhardwarepwm/attiny/assets/attiny_build.jpg</g:image_link>
     <updated>2016-10-11T17:04:34Z</updated>
-    <title>#255 AvrHardwarePWM/ATtiny</title>
-    <summary>all about hardware PWM and demonstrating the modes with the ATtiny85</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;all about hardware PWM and demonstrating the modes with the ATtiny85&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/avrhardwarepwm/attiny/assets/attiny_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#255 ATtiny Hardware PWM</title>
+    <summary>All about hardware PWM and demonstrating the modes with the ATtiny85.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about hardware PWM and demonstrating the modes with the ATtiny85.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/avrhardwarepwm/attiny/assets/attiny_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="ATtiny"/>
     <category term="ATmel"/>
     <category term="Arduino"/>
@@ -6890,9 +6890,9 @@
     <link href="https://leap.tardate.com/playground/avrhardwarepwm/"/>
     <g:image_link>https://leap.tardate.com/playground/avrhardwarepwm/assets/avrhardwarepwm_build.jpg</g:image_link>
     <updated>2016-10-11T17:04:34Z</updated>
-    <title>#254 AvrHardwarePWM</title>
-    <summary>all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/avrhardwarepwm/assets/avrhardwarepwm_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#254 AVR Hardware PWM</title>
+    <summary>All about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/avrhardwarepwm/assets/avrhardwarepwm_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="AVR"/>
     <category term="Arduino"/>
     <category term="PWM"/>
