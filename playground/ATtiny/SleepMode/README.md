@@ -10,7 +10,7 @@ Here's a quick video of the circuit in action:
 
 This is a little test of sleep mode with an ATtiny85 microcontroller (8-pin DIP).
 
-I'm using an Arduino Uno as an in-system programmer, using the technique described in the [ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) project.
+I'm using an Arduino Uno as an in-system programmer, using the technique described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 Once the ATtiny is programmed, the Arduino Uno ISP is detached, and it will run independently.
 The ATtiny85 requires 1.8-5.5V to operate. I successfully tested with 3.3V and 5V supplies.
@@ -24,7 +24,7 @@ The standard `loop` simply runs an LED sequence (for demo purposes) and then sen
 The AVR library `set_sleep_mode` function and `sleep_mode` macro are use to put the processor to sleep.
 
 Using `SLEEP_MODE_PWR_DOWN` .. apparently the most power-efficient, I measure power consumption falling to about 238µA at 3.3V
-when asleep. Not bad, but definitly not as low as you'd like for long periods of inactivity.
+when asleep. Not bad, but definitely not as low as you'd like for long periods of inactivity.
 
 Lately I've been reading Sparkfun's [Adventures in Low Power Land](https://www.sparkfun.com/tutorials/309),
 with some excellent coverage of how to get power consumption down to 1µA!
@@ -32,11 +32,19 @@ The main extra change is to disable brownout detection, which requires a change 
 
 ## Construction
 
+Designed with Fritzing: see [SleepMode.fzz](./SleepMode.fzz).
+
 ![Breadboard](./assets/SleepMode_bb.jpg?raw=true)
 
 ![The Schematic](./assets/SleepMode_schematic.jpg?raw=true)
 
 ![The Build](./assets/SleepMode_build.jpg?raw=true)
+
+### The Sketch
+
+See [SleepMode.ino](./SleepMode.ino).
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 ## Credits and References
 
@@ -44,3 +52,4 @@ The main extra change is to disable brownout detection, which requires a change 
 * [ArduinoSleepCode](http://playground.arduino.cc/Learning/ArduinoSleepCode)
 * [<avr/sleep.h>: Power Management and Sleep Modes](http://www.nongnu.org/avr-libc/user-manual/group__avr__sleep.html)
 * [Adventures in Low Power Land](https://www.sparkfun.com/tutorials/309) - excellent sparkfun tutorial
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)

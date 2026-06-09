@@ -7,8 +7,8 @@
 
  */
 
-#define POWER_PIN  0 // ATtiny pin 5
-#define LED_PIN    4 // ATtiny pin 3
+const int POWER_EN_PIN = PB0; // ATtiny pin 5
+const int LED_PIN = PB4; // ATtiny pin 3
 
 void setup() {
   keepAlive();
@@ -26,24 +26,21 @@ void loop() {
 }
 
 void keepAlive() {
-  // set the power pin high to keep the processor alive
-  pinMode(POWER_PIN, OUTPUT);
-  digitalWrite(POWER_PIN, HIGH);
+  // set the power-enable pin high to keep the processor alive
+  pinMode(POWER_EN_PIN, OUTPUT);
+  digitalWrite(POWER_EN_PIN, HIGH);
 }
 
 void gotoSleep() {
-  // switch the power-pin to high-impedence input state
-  pinMode(POWER_PIN, INPUT);
-  delay(5000);
-
-  // we should have powered-down by this point.
-  // But for testing purposes, reset the power pin and repeat
-  keepAlive();
+  // switch the power-enable pin to high-impedance input state
+  pinMode(POWER_EN_PIN, INPUT);
+  while(true) {
+    // do nothing, just wait for the power-down
+  }
 }
 
 void performOperation() {
-  for(int i=0; i<10; i++) flashLed();
-  delay(1000);
+  for (int i=0; i<10; i++) flashLed();
 }
 
 void flashLed() {

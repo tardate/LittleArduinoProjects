@@ -46,10 +46,11 @@ Pin definitions, with specific reference to the 8-pin PDIP8 ATtiny85:
 The [PinChangeInterrupts.ino](./PinChangeInterrupts.ino?raw=true) sketch is a simple demonstration of
 pin change interrupts. It uses the ATtiny register macros to setup the registers accordingly.
 
-The ATtiny85 is programmed using the Arduino ISP sketch running on an Arduino Uno.
-See [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) for more info.
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 ## Construction
+
+Designed with Fritzing: see [PinChangeInterrupts.fzz](./PinChangeInterrupts.fzz).
 
 ![Breadboard](./assets/PinChangeInterrupts_bb.jpg?raw=true)
 
@@ -60,5 +61,6 @@ See [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) for more 
 ## Credits and References
 
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)
 * [PinChangeInterrupt-0001.zip](https://code.google.com/archive/p/arduino-tiny/downloads?page=2) - library source (not used here)
 * [ATtiny85 Interrupt Barebones Example](https://www.instructables.com/id/ATtiny85-Interrupt-Barebones-Example/)

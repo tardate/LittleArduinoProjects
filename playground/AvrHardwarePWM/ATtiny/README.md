@@ -1,9 +1,8 @@
-# #255 AvrHardwarePWM/ATtiny
+# #255 ATtiny Hardware PWM
 
-All about hardware PWM with the ATtiny85.
+All about hardware PWM and demonstrating the modes with the ATtiny85.
 
 ![Build](./assets/ATtiny_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -18,7 +17,6 @@ There are two timers in the ATtiny85 that can be used to generate PWM signals:
 * Timer 0 is an 8-bit timer. capable of phase correct and Fast PWM (similar to the ATmega). It is used for functions such as delay() and millis() - these will be affected if PWM frequency is changed.
 * Timer 1 is an 8-bit timer, capable of two Fast PWM outputs. It acts as an up-counter, with TOP defined by OCR1C. It also with complementary outputs.
 
-
 | Compare Register | Timer output               | Chip pin | Pin name  |
 |------------------|----------------------------|----------|-----------|
 | OCR0A            | OC0A                       | 5        | PB0       |
@@ -29,12 +27,12 @@ There are two timers in the ATtiny85 that can be used to generate PWM signals:
 | OCR1B            | OC1B, complementary output | 2        | PB3       |
 
 NB:
+
 * the chip pin references are for the PDIP/SOIC/TSSOP package.
 
 Summary of the Timer-related registers:
 
 ![TCCR_summary](./assets/TCCR_summary.png?raw=true)
-
 
 ### How Fast is the Clock?
 
@@ -43,7 +41,7 @@ The internal oscillator runs at 8 MHz, prescaled to 1 MHz by default.
 
 The clock settings are in the fuses. I used avrdude to read the fuses:
 
-```
+```sh
 $ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U lfuse:r:-:i
 
 avrdude: AVR device initialized and ready to accept instructions
@@ -68,7 +66,6 @@ The [engbedded fusecalc](http://www.engbedded.com/fusecalc) site is invaluable f
 
 It confirms that E:FF, H:DF, L:62 are factory defaults: 8 MHz internal oscillator with CKDIV8 prescaler: so it is running at 1 MHz.
 
-
 ### Example Sketch
 
 [ATtiny.ino](./ATtiny.ino) exercises the PWM modes, primarily so they can be captured
@@ -87,7 +84,6 @@ I'm using consistent scope connections in all examples:
 | OC1A, complementary output | 5        | PB0       | 2 (blue)      |
 | OC1B, complementary output | 2        | PB3       | 4 (green)     |
 
-
 #### demoTimer0a: Timer0 Fast PWM
 
 * Fast PWM, TOP=0xFF (WGM01, WGM00)
@@ -98,7 +94,6 @@ I'm using consistent scope connections in all examples:
     * no output on PB3, PB4 (except some crosstalk/noise)
 
 ![mode_0a](./assets/mode_0a.gif?raw=true)
-
 
 #### demoTimer0b: Timer0 Phase Correct PWM
 
@@ -112,7 +107,6 @@ I'm using consistent scope connections in all examples:
 
 ![mode_0b](./assets/mode_0b.gif?raw=true)
 
-
 #### demoTimer0c: Timer0 Fast PWM, alternative prescaler
 
 * Fast PWM, TOP=0xFF (WGM01, WGM00)
@@ -123,7 +117,6 @@ I'm using consistent scope connections in all examples:
     * no output on PB3, PB4 (except some crosstalk/noise)
 
 ![mode_0c](./assets/mode_0c.gif?raw=true)
-
 
 #### demoTimer1a: Timer1 dual Fast PWM, reduced resolution
 
@@ -136,7 +129,6 @@ I'm using consistent scope connections in all examples:
     * no output on PB0, PB3 (except some crosstalk/noise)
 
 ![mode_1a](./assets/mode_1a.gif?raw=true)
-
 
 #### demoTimer1b: Timer1 dual Fast PWM, complementary outputs
 
@@ -151,8 +143,6 @@ I'm using consistent scope connections in all examples:
     * PB3 (COM1B0); complementary; duty cycle = [1 - 100/256 = 60.9%](https://www.wolframalpha.com/input/?i=1+-+100%2F256)
 
 ![mode_1b](./assets/mode_1b.gif?raw=true)
-
-
 
 ## Construction
 

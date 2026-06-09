@@ -1432,7 +1432,8 @@
         "tags": [
             "LED",
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/playground/attiny/pwmmotorcontrol/": {
@@ -1442,7 +1443,8 @@
         "tags": [
             "Motors",
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/books/raspberry-pi-cookbook/": {
@@ -2254,6 +2256,7 @@
         "tags": [
             "Arduino",
             "AVR",
+            "ATtiny",
             "Sensors",
             "OpAmp"
         ]
@@ -2960,7 +2963,9 @@
         "title": "ATtiny SSD1306 I\u00b2C",
         "summary": "Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I\u00b2C",
         "tags": [
+            "Arduino",
             "AVR",
+            "ATtiny",
             "OLED"
         ]
     },
@@ -2979,7 +2984,8 @@
         "summary": "How to use pin change interrupts with the ATtiny85",
         "tags": [
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/boldportclub/ixpando/attinycontroller/": {
@@ -3969,7 +3975,9 @@
         "title": "ATtiny Software PWM",
         "summary": "generating arbitrary PWM signals with an ATtiny85 and bit-banging techniques",
         "tags": [
+            "Arduino",
             "AVR",
+            "ATtiny",
             "PWM"
         ]
     },
@@ -4322,7 +4330,7 @@
         "title": "MilliVoltmeterDIY PCB and Enclosure",
         "summary": "custom PCB and enclosure for the ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
-            "ATmega",
+            "AVR",
             "ADC",
             "Tools",
             "Test Equipment"
@@ -4500,7 +4508,7 @@
         "title": "MilliVoltmeter DIY",
         "summary": "an ATmega328-based millivolt meter based on a design by Scullcom Hobby Electronics. Uses an LTC2400 ADC and LT1019 voltage reference",
         "tags": [
-            "ATmega",
+            "AVR",
             "ADC",
             "Tools",
             "Test Equipment"
@@ -5430,7 +5438,7 @@
         "tags": [
             "Tools",
             "Test Equipment",
-            "ATmega",
+            "AVR",
             "Kit",
             "DHT11",
             "DS18B20",
@@ -5467,7 +5475,8 @@
         "summary": "how to run an ATtiny85 microprocessor at 8MHz using the internal clock",
         "tags": [
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/equipment/fy3200s/": {
@@ -5543,7 +5552,6 @@
         "summary": "Get the Boldport Cuttle to write its name on a Digital Oscilloscope with an MCP42010 digital potentiometer",
         "tags": [
             "Boldport",
-            "ATmega",
             "ATmel",
             "Arduino",
             "Digital Pot",
@@ -5558,7 +5566,6 @@
         "tags": [
             "Boldport",
             "PCB Design",
-            "ATmega",
             "ATmel",
             "Arduino",
             "Kit"
@@ -5671,8 +5678,8 @@
     },
     "/playground/avrhardwarepwm/attiny/": {
         "id": 255,
-        "title": "AvrHardwarePWM/ATtiny",
-        "summary": "all about hardware PWM and demonstrating the modes with the ATtiny85",
+        "title": "ATtiny Hardware PWM",
+        "summary": "All about hardware PWM and demonstrating the modes with the ATtiny85.",
         "tags": [
             "ATtiny",
             "ATmel",
@@ -5682,11 +5689,10 @@
     },
     "/playground/avrhardwarepwm/": {
         "id": 254,
-        "title": "AvrHardwarePWM",
-        "summary": "all about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328",
+        "title": "AVR Hardware PWM",
+        "summary": "All about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.",
         "tags": [
-            "ATmega",
-            "ATmel",
+            "AVR",
             "Arduino",
             "PWM"
         ]
@@ -6893,10 +6899,11 @@
     "/playground/attiny/totalsleep/": {
         "id": 128,
         "title": "ATtiny TotalSleep",
-        "summary": "test a total power shutdown with an ATtiny85 processor on a breadboard",
+        "summary": "Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on with push-button PFET; power-off by the microprocessor itself.",
         "tags": [
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/playground/attiny/sleepmode/": {
@@ -6905,7 +6912,8 @@
         "summary": "test sleep mode with an ATtiny85 processor on a breadboard",
         "tags": [
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/playground/attiny/hardwareinterrupt/": {
@@ -6914,7 +6922,8 @@
         "summary": "test hardware interrupts with an ATtiny85 processor on a breadboard",
         "tags": [
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/audio/visualization/voicelevelindicatorkit/": {
@@ -7419,10 +7428,11 @@
     "/playground/attiny/tinyblink/": {
         "id": 71,
         "title": "TinyBlink",
-        "summary": "a simple blink sketch with an ATTINY85-20PU on a breadboard",
+        "summary": "A simple LED blinking demonstration with an ATTINY85-20PU on a breadboard.",
         "tags": [
             "Arduino",
-            "AVR"
+            "AVR",
+            "ATtiny"
         ]
     },
     "/playground/attiny/programmingwitharduinoisp/": {
@@ -7432,6 +7442,7 @@
         "tags": [
             "Arduino",
             "AVR",
+            "ATtiny",
             "ICSP"
         ]
     },

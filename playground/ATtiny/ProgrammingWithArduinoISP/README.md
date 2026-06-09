@@ -16,7 +16,7 @@ I'm running Arduino 1.6.1 (MacOSX), so I first needed to add [ATiny support for 
 I always prefer to clone rather than download zips so I'm able to work on the source if necessary.
 In these steps ${sketchbook_folder} refers to my actual sketchbook folder location.
 
-```
+```sh
 git clone git@github.com:damellis/attiny.git
 cd attiny
 git checkout -b ide-1.6.x origin/ide-1.6.x
@@ -58,7 +58,6 @@ I'm testing with [TinyBlink](../TinyBlink) which runs LEDs on digital pins 0 and
 
 Crickey, it works.
 
-
 ### How Fast is the Clock?
 
 The ATtiny85 can use an external clock, but by default it uses an internal oscillator.
@@ -66,7 +65,7 @@ The internal oscillator runs at 8 MHz, prescaled down to 1 MHz by default.
 
 The clock settings are in the fuses. I used avrdude to read the settings:
 
-```
+```sh
 $ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U lfuse:r:-:i
 
 avrdude: AVR device initialized and ready to accept instructions
@@ -101,7 +100,7 @@ from the [TinyBlink](../TinyBlink) source.
 
 avrdude can then be used to directly upload the hex file via the Arduino ISP:
 
-```
+```sh
 $ avrdude -v -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U flash:w:../TinyBlink/TinyBlink.ino.tiny8.hex:i
 
 avrdude: Version 6.3, compiled on Sep 21 2018 at 19:09:46
@@ -188,6 +187,8 @@ avrdude done.  Thank you.
 ```
 
 ### Construction
+
+Designed with Fritzing: see [ProgrammingWithArduinoISP.fzz](./ProgrammingWithArduinoISP.fzz).
 
 ![The Breadboard](./assets/ProgrammingWithArduinoISP_bb.jpg?raw=true)
 

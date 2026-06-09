@@ -1,9 +1,8 @@
-# #254 AvrHardwarePWM
+# #254 AVR Hardware PWM
 
 All about hardware PWM and demonstrating the modes with the Arduino UNO/ATmega328.
 
 ![Build](./assets/AvrHardwarePWM_build.jpg?raw=true)
-
 
 ## Notes
 
@@ -35,7 +34,6 @@ When the mode is changed, details of the new mode are sent to the Serial port, e
 
 ![demo_console](./assets/demo_console.png?raw=true)
 
-
 ### Three Approaches to PWM
 
 If you need a PWM signal generated onboard, there are three approaches:
@@ -45,7 +43,6 @@ If you need a PWM signal generated onboard, there are three approaches:
 * directly control the PWM support built-in to the ATmega processor ("hardware PWM")
 
 The rest of the notes here concern the third approach - hardware PWM.
-
 
 ### Hardware PWM - How it Works
 
@@ -62,7 +59,6 @@ Summary of the TCCR registers:
 
 ![TCCR_summary](./assets/TCCR_summary.png?raw=true)
 
-
 ### Which Timer to Use?
 
 In the ATMega328P there are three timers that can be used to generate PWM signals:
@@ -70,7 +66,6 @@ In the ATMega328P there are three timers that can be used to generate PWM signal
 * Timer 0 is an 8-bit timer. But it is used for functions such as delay() and millis() - these will be affected if PWM frequency is changed.
 * Timer 1 is a 16-bit timer; higher-precision duty cycle, but frequency is limited.
 * Timer 2 is an 8-bit timer, and generally unencumbered (ready to use!)
-
 
 | Compare Register | Timer output | Arduino output | Chip pin | Pin name |
 |------------------|--------------|----------------|----------|----------|
@@ -82,26 +77,26 @@ In the ATMega328P there are three timers that can be used to generate PWM signal
 | OCR2B            | OC2B         | 3              | 5        | PD3      |
 
 Note:
+
 * regardless of other settings, PWM output will only be generated on a pin if the pinMode is set to OUTPUT.
 * the two outputs for each timer will normally have the same frequency, but can have different duty cycles.
 
-
-### Timer Prescalers
+### Timer Pre-scalers
 
 Each timer has a prescaler that generates the timer clock by dividing the clock source by a prescale factor.
-The clock source is normally the system clock, running at 16MHz on an Ardunio UNO. It is possible to use an external clock - see 17.3 in the datasheet.
+The clock source is normally the system clock, running at 16MHz on an Arduino UNO. It is possible to use an external clock - see 17.3 in the datasheet.
 
 The Timer 0 and Timer 1 prescaler is set in the TCCR0 ,TCCR1 registers (CS12, CS11, CS10).
 
 For Timer 0 and Timer 1:
+
 * the prescaler is set in the TCCR0 ,TCCR1 registers (bits CS12, CS11, CS10)
 * the prescaler options are: 1, 8, 64, 256, or 1024.
 
 The Timer 2:
+
 * the prescaler is set in the TCCR2 register (bits CS22, CS21, CS20).
 * For Timer 2, the prescaler options are: 1, 8, 32, 64, 128, 256, or 1024.
-
-
 
 ### Waveform Generation Modes
 
@@ -110,14 +105,12 @@ Main modes of interest:
 * Fast PWM - counts up and resets on 1 extra clock pulse (hence prone to off-by-1 errors)
 * PWM, Phase correct - counts up and down, avoids the off-by-1 error by half the frequency
 
-
 ### _BV Macro
 
 In the example sketch I'm using the _BV macro to set register values.
 This avoids hard-coding bit-offsets.
 
 More info in the [AVR Libc Reference Manual](http://www.atmel.com/webdoc/AVRLibcReferenceManual/FAQ_1faq_use_bv.html).
-
 
 ### Controlling Duty Cycle with analogWrite
 
@@ -132,15 +125,13 @@ Where:
 
 The digitalWrite() function turns off PWM output if called on a timer pin.
 
-
 ### Performance
 
 These results were measured with the [ATmega.ino](./ATmega/ATmega.ino) sketch and an oscilloscope.
 
-
 #### Mode 0a: Timer0, Fast PWM 977Hz
 
-```
+```txt
 0a> Switching to Timer0 on pin 5, 6
   Fast PWM  : WGM01 WGM00
   Clear OC0A/OC0B on Compare Match, set OC0A/OC0B at BOTTOM (COM0A1/COM0B1)
@@ -166,7 +157,7 @@ OCR2B  : 10111111
 
 #### Mode 1a: Timer1, Fast PWM 10-bit 1955Hz
 
-```
+```txt
 1a> Switching to Timer1 on pin 9, 10
   Fast PWM, 10-bit : WGM12 WGM11 WGM10
   Clear OC1A/OC1B on Compare Match, set OC1A/OC1B at BOTTOM (COM1A1/COM1B1)
@@ -192,7 +183,7 @@ OCR2B  : 10111111
 
 #### Mode 1b: Timer1, Phase Correct PWM, 8-bit 3906Hz
 
-```
+```txt
 1b> Switching to Timer1 on pin 9, 10
   Phase Correct PWM, 8-bit : WGM10
   Clear OC1A/OC1B on Compare Match, set OC1A/OC1B at BOTTOM (COM1A1/COM1B1)
@@ -218,7 +209,7 @@ OCR2B  : 10111111
 
 #### Mode 2a: Timer2, Fast PWM 62.5kHz
 
-```
+```txt
 2a> Switching to Timer2 on pin 3, 11
   Fast PWM  : WGM21 WGM20
   Clear OC2A/OC2B on Compare Match (COM2A1/COM2B1)
@@ -244,7 +235,7 @@ OCR2B  : 10111111
 
 #### Mode 2b: Timer2, Fast PWM 977Hz
 
-```
+```txt
 2b> Switching to Timer2 on pin 3, 11
   Fast PWM  : WGM21 WGM20
   Clear OC2A/OC2B on Compare Match (COM2A1/COM2B1)
@@ -267,9 +258,6 @@ OCR2B  : 10111111
 ```
 
 ![mode_2b](./assets/mode_2b.gif?raw=true)
-
-
-
 
 ## Construction
 
