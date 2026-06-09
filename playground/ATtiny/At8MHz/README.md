@@ -27,7 +27,6 @@ Two easy techniques for setting the fuses appropriately are shown below:
 * use the Arduino IDE (which uses avrdude under the covers)
 * use avrdude directly
 
-
 ### Checking the Configuration
 
 The ATtiny85 can use an external clock, but by default it uses an internal oscillator.
@@ -35,7 +34,7 @@ The internal oscillator runs at 8 MHz, prescaled to 1 MHz by default.
 
 The clock settings are in the fuses. I used avrdude to read the fuses:
 
-```
+```sh
 $ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U lfuse:r:-:i
 
 avrdude: AVR device initialized and ready to accept instructions
@@ -60,7 +59,6 @@ The [engbedded fusecalc](http://www.engbedded.com/fusecalc) site is invaluable f
 
 It confirms that E:FF, H:DF, L:62 are factory defaults: 8 MHz internal oscillator with CKDIV8 prescaler: so it is running at 1 MHz.
 
-
 ### Setting the fuses with the Arduino IDE
 
 When using an Arduino as the in-system programmer, the Arduino IDE can be used to burn the correct fuse settings.
@@ -76,7 +74,7 @@ This will not only set the fusues, but erase any program already on the chip and
 
 The Arduino IDE log window confirms what is going on.. note the `-Ulfuse:w:0xe2:m` fuse setting.
 
-```
+```txt
 Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude -C/Applications/Arduino.app/Contents/Java/hardware/tools/avr/etc/avrdude.conf -v -v -v -v -pattiny85 -cstk500v1 -P/dev/cu.usbmodem14521 -b19200 -e -Uefuse:w:0xff:m -Uhfuse:w:0xdf:m -Ulfuse:w:0xe2:m
 
 avrdude: Version 6.0.1, compiled on Apr 14 2015 at 16:30:25
@@ -90,7 +88,7 @@ avrdude done.  Thank you.
 
 From the command line, I can interrogate the chip and verify the fuse settings:
 
-```
+```sh
 $ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U lfuse:r:-:i
 
 avrdude: AVR device initialized and ready to accept instructions
@@ -114,7 +112,6 @@ avrdude done.  Thank you.
 The [engbedded fusecalc](http://www.engbedded.com/fusecalc) confirms the chip is now configured for 8MHz:
 E:FF, H:DF, L:E2 are essentially factory defaults but with one change: the CKDIV8 prescaler is off, so it is running at 8 MHz.
 
-
 ### Setting Fuses Directly with avrdude
 
 Updating fuses is simple with avrdude command line. This will leave everything else on the chip as-is.
@@ -131,7 +128,7 @@ Where
 
 So setting the ATtiny back to factory defaults (E:FF, H:DF, L:62) can be done like this:
 
-```
+```sh
 $ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U efuse:w:0xff:m -U hfuse:w:0xdf:m -U lfuse:w:0x62:m
 
 avrdude: AVR device initialized and ready to accept instructions
@@ -192,8 +189,7 @@ avrdude done.  Thank you.
 
 Now to just change the CKDIV8 from its factory setting, I just need to update the low fuse:
 
-
-```
+```sh
 $ avrdude -c stk500v1 -p attiny85 -P /dev/cu.usbmodem14521 -b 19200 -U lfuse:w:0xe2:m
 
 avrdude: AVR device initialized and ready to accept instructions
@@ -239,15 +235,23 @@ and LEDs will toggle every half a second, which demonstrates that the processor 
 
 ## Construction
 
+Designed with Fritzing: see [At8MHz.fzz](./At8MHz.fzz).
+
 ![Breadboard](./assets/At8MHz_bb.jpg?raw=true)
 
 ![Schematic](./assets/At8MHz_schematic.jpg?raw=true)
 
 ![Build](./assets/At8MHz_build.jpg?raw=true)
 
+### The Sketch
+
+See [At8MHz.ino](./At8MHz.ino).
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
+
 ## Credits and References
 
-* [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP)
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)
 * [LEAP#253 ProgrammingShield](../ProgrammingShield)
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [engbedded fusecalc](http://www.engbedded.com/fusecalc)

@@ -21,11 +21,19 @@ The ATtiny85 requires 1.8-5.5V to operate. I successfully tested with 3.3V and 5
 
 ## Construction
 
+Designed with Fritzing: see [HardwareInterrupt.fzz](./HardwareInterrupt.fzz).
+
 ![Breadboard](./assets/HardwareInterrupt_bb.jpg?raw=true)
 
 ![The Schematic](./assets/HardwareInterrupt_schematic.jpg?raw=true)
 
 ![The Build](./assets/HardwareInterrupt_build.jpg?raw=true)
+
+### The Sketch
+
+See [HardwareInterrupt.ino](./HardwareInterrupt.ino).
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 ## Credits and References
 

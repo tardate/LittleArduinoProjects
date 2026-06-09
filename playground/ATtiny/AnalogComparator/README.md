@@ -36,9 +36,9 @@ This is simple test:
 
 * a voltage divider (variable resistor) sets up a threshold reference on AIN1
 * amplified electret signal is fed to AIN0
-  - 10kΩ bias for the electret, AC-coupled input to the OpAmp
-  - TL072 OpAmp configured as a high gain inverting amplifier
-  - a 100nF cap on AIN0 provides some hold-time for spikey input signals
+    * 10kΩ bias for the electret, AC-coupled input to the OpAmp
+    * TL072 OpAmp configured as a high gain inverting amplifier
+    * a 100nF cap on AIN0 provides some hold-time for spiky input signals
 .
 
 ### Rising, Falling, Change Interrupts?
@@ -50,7 +50,6 @@ Setting ACIS1, ACIS0 bits select the interrupt to trigger:
 |  0    | 0     | Toggle  |
 |  1    | 0     | Falling |
 |  1    | 1     | Rising  |
-
 
 ### So Does it Work?
 
@@ -65,11 +64,19 @@ Here is a trace of the behaviour:
 
 ## Construction
 
+Designed with Fritzing: see [AnalogComparator.fzz](./AnalogComparator.fzz).
+
 ![Breadboard](./assets/AnalogComparator_bb.jpg?raw=true)
 
 ![Schematic](./assets/AnalogComparator_schematic.jpg?raw=true)
 
+### The Sketch
+
+See [AnalogComparator.ino](./AnalogComparator.ino).
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 ## Credits and References
 
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)

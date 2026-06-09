@@ -23,14 +23,23 @@ The following scope trace shows the PWM out (CH1 Yellow) compared to the variabl
 
 ### Circuit Design
 
+Designed with Fritzing: see [PwmMotorControl.fzz](./PwmMotorControl.fzz).
+
 ![bb](./assets/PwmMotorControl_bb.jpg?raw=true)
 
 ![schematic](./assets/PwmMotorControl_schematic.jpg?raw=true)
 
 ![bb_build](./assets/PwmMotorControl_bb_build.jpg?raw=true)
 
+### The Sketch
+
+See [PwmMotorControl.ino](./PwmMotorControl.ino).
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
+
 ## Credits and References
 
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [2N7000 datasheet](https://www.futurlec.com/Transistors/2N7000.shtml)
 * [1N4001 Datasheet](https://www.futurlec.com/Diodes/1N4001.shtml)
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)

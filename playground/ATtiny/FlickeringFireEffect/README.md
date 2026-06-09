@@ -20,6 +20,8 @@ The code is written to be compatible with an ATtiny, however it can be used with
 
 ### Circuit Design
 
+Designed with Fritzing: see [FlickeringFireEffect.fzz](./FlickeringFireEffect.fzz).
+
 Key points:
 
 * a 100kΩ pot provides the variable brightness control.
@@ -40,6 +42,8 @@ The main script [FlickeringFireEffect.ino](./FlickeringFireEffect.ino) runs the 
     * on each update it adjusts the flames brightness
     * the maximum change per update is set by the brightness input
     * the actual change in brightness is determined by the `mix` value for each flame. This sets the percentage of the new value that is mixed with the old value. Lower values will mean more slowly changing updates
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 ## Credits and References
 

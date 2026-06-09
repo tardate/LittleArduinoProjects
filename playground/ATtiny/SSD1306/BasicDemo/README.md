@@ -43,7 +43,11 @@ they can't be used with the ATtiny.
 As a replacement, I'm using the [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED) driver,
 which uses the [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) I²C library for the ATtiny.
 
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
+
 ## Construction
+
+Designed with Fritzing: see [BasicDemo.fzz](./BasicDemo.fzz).
 
 ![Breadboard](./assets/BasicDemo_bb.jpg?raw=true)
 
@@ -60,3 +64,4 @@ which uses the [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM) I²C 
 * [SSD1306 datasheet](https://www.adafruit.com/datasheets/SSD1306.pdf)
 * [Tiny4kOLED](https://github.com/datacute/Tiny4kOLED)
 * [Adafruit-TinyWireM](https://github.com/adafruit/TinyWireM)
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)

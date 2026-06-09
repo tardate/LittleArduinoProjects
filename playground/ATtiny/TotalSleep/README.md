@@ -1,6 +1,8 @@
 # #128 ATtiny TotalSleep
 
-Test a total power shutdown with an ATtiny85 processor on a breadboard.
+Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on with push-button PFET; power-off by the microprocessor itself.
+
+![The Build](./assets/TotalSleep_build.jpg?raw=true)
 
 Here's a quick video of the circuit in action:
 
@@ -14,7 +16,7 @@ still draw something in the order of 238µA.
 This project tests a scheme for total power shutdown triggered by the microcontroller itself.
 The circuit then draws virtually no current (certainly less than 10µA - the resolution of the ammeter I was using in-circuit).
 
-The trade-off is that the circuit requires an external trigger to wake-up again. Here it uses a push-button.
+The trade-off is that the circuit requires an external trigger to wake-up again. Here it uses a push-button to switch a p-channel MOSFET.
 
 How it works:
 
@@ -24,11 +26,13 @@ How it works:
 * the NPN collector-emitter conduction holds the FET Vgs negative, and therefore "powered on"
 * when the ATtiny wants to power-down, it brings the NPN base low, cutting the collector-emitter channel, and sending the FET Vgs to 0V.
 * this turns off the FET and everything is powered down. The current drawn in this state is limited to leakage of the components
-* to powerup, the push-button shorts the capacitor, bringing the FET Vgs down and setting the cycle off again
+* to power-up, the push-button shorts the capacitor, bringing the FET Vgs down and setting the cycle off again
 
 This all seems to work very reliably.
 
 ## Construction
+
+Designed with Fritzing: see [TotalSleep.fzz](./TotalSleep.fzz).
 
 ![Breadboard](./assets/TotalSleep_bb.jpg?raw=true)
 
@@ -36,8 +40,15 @@ This all seems to work very reliably.
 
 ![The Build](./assets/TotalSleep_build.jpg?raw=true)
 
+### The Sketch
+
+See [TotalSleep.ino](./TotalSleep.ino).
+
+The ATtiny85 is programmed using an Arduino Uno as described in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
+
 ## Credits and References
 
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)
 * [ATtiny85 datasheet](https://www.microchip.com/en-us/product/ATTINY85)
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)
 * [BC547 datasheet](https://www.futurlec.com/Transistors/BC547.shtml)

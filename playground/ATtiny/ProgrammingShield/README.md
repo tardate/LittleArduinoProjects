@@ -6,7 +6,7 @@ A custom ATtiny programming shield for use with Arduino ISP
 
 ## Notes
 
-I covered programming an ATtiny with the Arduino ISP in the [ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) project.
+I covered programming an ATtiny with the Arduino ISP in [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP).
 
 Since I've been programming a few more ATtiny processors, and simplify the processing of
 programming an ATtiny with ArduinoISP, I wired up a strip of protoboard
@@ -20,6 +20,8 @@ It includes two LEDs on PB0 and PB1, which can be used for debugging/testing a p
 
 ## Construction
 
+Designed with Fritzing: see [ProgrammingShield.fzz](./ProgrammingShield.fzz).
+
 ![Breadboard](./assets/ProgrammingShield_bb.jpg?raw=true)
 
 ![Schematic](./assets/ProgrammingShield_schematic.jpg?raw=true)
@@ -30,7 +32,7 @@ It includes two LEDs on PB0 and PB1, which can be used for debugging/testing a p
 
 ## Credits and References
 
-* [LEAP#070 ProgrammingWithArduinoISP](../ProgrammingWithArduinoISP) - programming an ATtiny with the Arduino ISP
+* [LEAP#070 Programming an ATtiny With ArduinoISP](../ProgrammingWithArduinoISP)
 * [LEAP#071 TinyBlink](../TinyBlink) - a simple ATtiny test sketch
 * [Atmel ATtiny85 Product Info](http://www.atmel.com/devices/ATTINY85.aspx)
 * [ATtiny microcontroller support for the Arduino IDE](https://github.com/damellis/attiny)

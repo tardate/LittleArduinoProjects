@@ -7,8 +7,8 @@
 
  */
 
-#define POWER_PIN  0 // ATtiny pin 5
-#define LED_PIN    4 // ATtiny pin 3
+const int POWER_PIN = PB0; // ATtiny pin 5
+const int LED_PIN = PB4; // ATtiny pin 3
 
 void setup() {
   keepAlive();
@@ -32,13 +32,11 @@ void keepAlive() {
 }
 
 void gotoSleep() {
-  // switch the power-pin to high-impedence input state
+  // switch the power-pin to high-impedance input state
   pinMode(POWER_PIN, INPUT);
-  delay(5000);
-
-  // we should have powered-down by this point.
-  // But for testing purposes, reset the power pin and repeat
-  keepAlive();
+  while(true) {
+    // do nothing, just wait for the power-down
+  }
 }
 
 void performOperation() {
