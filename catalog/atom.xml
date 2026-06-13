@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-05-05T11:13:00Z</updated>
+  <updated>2026-06-13T09:16:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/playground/2d6/</id>
+    <link href="https://leap.tardate.com/playground/2d6/"/>
+    <g:image_link>https://leap.tardate.com/playground/2d6/assets/2d6_build.jpg</g:image_link>
+    <updated>2026-06-13T09:16:00Z</updated>
+    <title>#847 2d6 Dice Roller</title>
+    <summary>A simple 2d6 dice roller using Arduino and ATtinyA little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A simple 2d6 dice roller using Arduino and ATtinyA little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/2d6/assets/2d6_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Arduino"/>
+    <category term="ATtiny"/>
+    <category term="TM1638"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/ml555/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/ml555/"/>

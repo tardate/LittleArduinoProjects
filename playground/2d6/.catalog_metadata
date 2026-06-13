@@ -2,5 +2,8 @@
     "name": "2d6 Dice Roller",
     "description": "A simple 2d6 dice roller using Arduino and ATtinyA little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.",
     "categories": "Arduino, ATtiny, TM1638",
-    "relative_path": "playground/2d6"
+    "relative_path": "playground/2d6",
+    "updated_at": "2026-06-13T09:16:00Z",
+    "created_at": "2026-06-13T09:16:00Z",
+    "id": "#847"
 }

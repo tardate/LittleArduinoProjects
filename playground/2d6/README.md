@@ -1,4 +1,4 @@
-# #xxx 2d6 Dice Roller
+# #847 2d6 Dice Roller
 
 A little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.
 

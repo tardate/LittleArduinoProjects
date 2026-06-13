@@ -1,6 +1,6 @@
-# 846 Little Electronic Art Projects
+# 847 Little Electronic Art Projects
 
-> Latest addition :sparkles: [ML555](./Electronics101/555Timer/ML555) - Celebrating the 55th birthday of the most evergreen IC of all time: the 555 timer, with a reproduction using discrete components. This is the Medium-Large 555 - a 555 timer built with BJTs and resistors, inspired by the work of the Evil Mad Scientist.
+> Latest addition :sparkles: [2d6 Dice Roller](./playground/2d6) - A simple 2d6 dice roller using Arduino and ATtinyA little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
