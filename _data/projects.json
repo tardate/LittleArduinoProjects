@@ -3870,7 +3870,7 @@
             "Power",
             "LED",
             "Solar",
-            "Step-Up Converter"
+            "Step-up Converter"
         ]
     },
     "/playground/rfid/devicedumper/": {
@@ -3889,7 +3889,7 @@
         "tags": [
             "Power",
             "LED",
-            "Step-Up Converter"
+            "Step-up Converter"
         ]
     },
     "/kinetics/beam/vivian/": {
@@ -4109,7 +4109,7 @@
             "Power",
             "Nixie",
             "555 Timer",
-            "Step-Up Converter"
+            "Step-up Converter"
         ]
     },
     "/electronics101/decadeprogrammableresistor/": {

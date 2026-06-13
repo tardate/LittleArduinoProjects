@@ -4703,7 +4703,7 @@
     <category term="Power"/>
     <category term="LED"/>
     <category term="Solar"/>
-    <category term="Step-Up Converter"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/rfid/devicedumper/</id>
@@ -4726,7 +4726,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/leddrivers/qx5252joulethief/assets/qx5252joulethief_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="LED"/>
-    <category term="Step-Up Converter"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/beam/vivian/</id>
@@ -4990,7 +4990,7 @@
     <category term="Power"/>
     <category term="Nixie"/>
     <category term="555 Timer"/>
-    <category term="Step-Up Converter"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/decadeprogrammableresistor/</id>
