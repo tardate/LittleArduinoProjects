@@ -1,4 +1,14 @@
 {
+    "/playground/2d6/": {
+        "id": 847,
+        "title": "2d6 Dice Roller",
+        "summary": "A simple 2d6 dice roller using Arduino and ATtinyA little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.",
+        "tags": [
+            "Arduino",
+            "ATtiny",
+            "TM1638"
+        ]
+    },
     "/electronics101/555timer/ml555/": {
         "id": 846,
         "title": "ML555",
@@ -3860,7 +3870,7 @@
             "Power",
             "LED",
             "Solar",
-            "Step-Up Converter"
+            "Step-up Converter"
         ]
     },
     "/playground/rfid/devicedumper/": {
@@ -3879,7 +3889,7 @@
         "tags": [
             "Power",
             "LED",
-            "Step-Up Converter"
+            "Step-up Converter"
         ]
     },
     "/kinetics/beam/vivian/": {
@@ -4099,7 +4109,7 @@
             "Power",
             "Nixie",
             "555 Timer",
-            "Step-Up Converter"
+            "Step-up Converter"
         ]
     },
     "/electronics101/decadeprogrammableresistor/": {

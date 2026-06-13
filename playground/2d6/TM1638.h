@@ -47,7 +47,7 @@ static const byte NUMBERS[] = {
   B01111001,  // e
   B01110001,  // f
   B01000000,  // -
-  B00000000   // <blank
+  B00000000   // <blank>
 };
 
 static const uint8_t NUMBER_OF_NUMBERS = sizeof(NUMBERS) / sizeof(byte);
@@ -58,33 +58,16 @@ class TM1638Driver {
 
   public:
 
-    TM1638Driver(int clk_pin, int data_pin, int cs_pin);
+    TM1638Driver(int clk_pin, int data_pin, int cs_pin, uint8_t brightness = 7) :
+      clk_pin(clk_pin), data_pin(data_pin), cs_pin(cs_pin), brightness(brightness) {};
 
     /*
      * Initialise controls and ports.
      */
     void begin();
 
-    uint8_t trace(String message, uint8_t value);
-
-    void writeData(uint8_t data);
-
-    uint8_t readData();
-
-    void sendData(uint8_t data);
-
-    void setDataCommand(uint8_t command);
-
-    void writeDataFixedAddress(uint8_t address, uint8_t data);
-
-    /*
-     * Enable or disable the display, and set the brightness level (0-7).
-     */
-    void setDisplayControl(bool enabled, uint8_t brightness_level);
-
     /*
      * Clears all display registers.
-     * This is a demonstration of incremental addressing mode
      */
     void clearAll();
 
@@ -113,10 +96,23 @@ class TM1638Driver {
     int clk_pin;
     int data_pin;
     int cs_pin;
+    uint8_t brightness;
+
+    void setDataInbound();
+    void setDataOutbound();
 
     void select();
     void deselect();
-    void setDataInbound();
-    void setDataOutbound();
+
+    uint8_t readData();
+    void writeData(uint8_t data);
+    void sendData(uint8_t data);
+    void setDataCommand(uint8_t command);
+    void writeDataFixedAddress(uint8_t address, uint8_t data);
+
+    /*
+     * Enable or disable the display.
+     */
+    void setDisplayControl(bool enabled);
 
 };

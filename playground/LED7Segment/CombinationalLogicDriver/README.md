@@ -82,20 +82,20 @@ Some useful identities:
 
 #### Transformation Functions
 
-These are the final tranformation functions for the circuit design.
+These are the final transformation functions for the circuit design.
 I've dropped the algebraic notation and expressed as a combination of NOT, NOR, NAND, XOR functions (gates) I have available.
 
 Derivations and notes follow.
 
-| Function | Equivalent Gate Logic            |
-|----------|---------------------------------|
-|     f(a) | NAND(NOR(w, y), XOR(x, z))      |
-|     f(b) | NAND(NOR(w, NOT(x)), XOR(y, z)) |
-|     f(c) | NAND(NOR(w, x), NOR(NOT(y), z)) |
+| Function | Equivalent Gate Logic                                                         |
+|----------|-------------------------------------------------------------------------------|
+|     f(a) | NAND(NOR(w, y), XOR(x, z))                                                    |
+|     f(b) | NAND(NOR(w, NOT(x)), XOR(y, z))                                               |
+|     f(c) | NAND(NOR(w, x), NOR(NOT(y), z))                                               |
 |     f(d) | OR(NOR(z, NOR(w, y)), OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z))))) |
-|     f(e) | OR(NOR(x, z), NOR(NOT(y), z)) |
-|     f(f) | OR(w, OR(NOR(y, NOR(x, NOT(z))), NOR(NOT(x), z))) |
-|     f(g) | NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z))))) |
+|     f(e) | OR(NOR(x, z), NOR(NOT(y), z))                                                 |
+|     f(f) | OR(w, OR(NOR(y, NOR(x, NOT(z))), NOR(NOT(x), z)))                             |
+|     f(g) | NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z)))))                  |
 
 #### f(a)
 
@@ -210,40 +210,40 @@ So `f(g) = NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z)))))`
 
 Distinct gates, after decomposition and sorting:
 
-| Type  | Function                                                                                    | Allocation | Mnemonic |
-|-------|---------------------------------------------------------------------------------------------|------------|----------|
-| NAND  | NAND(NOR(w, NOT(x)), XOR(y, z))  # [ic3c,ic9b]                                              | IC8a       | b
-| NAND  | NAND(NOR(w, x), NOR(z, NOT(y)))  # [nor_w_x, nor_z_not_y]                                   | IC8b       | c
-| NAND  | NAND(NOR(w, y), XOR(x, z))    # [nor_w_y, ic9a]                                             | IC8c       | a
-| NAND  | NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z)))))  # [not_w,ic7c]                | IC8d       | g
-| NOR   | NOR(NOT(x), OR(NOT(y), NOT(z)))                                                             | IC5b       | ic5b
-| NOR   | NOR(NOT(x), OR(y, NOT(z)))  # [not_x,or_ynotz]                                              | IC5a       | ic5a
-| NOR   | NOR(z, NOT(x))                                                                              | IC3a       | nor_znotx
-| NOR   | NOR(z, NOT(y))                                                                              | IC3b       | nor_z_not_y
-| NOR   | NOR(w, NOT(x))                                                                              | IC3c       | ic3c
-| NOR   | NOR(w, x)                                                                                   | IC2a       | nor_w_x
-| NOR   | NOR(w, y)                                                                                   | IC2b       | nor_w_y
-| NOR   | NOR(x, NOR(y, NOT(z)))                                                                      | IC4b       | ic4b
-| NOR   | NOR(x, NOT(z))                                                                              | IC3d       |
-| NOR   | NOR(x, y)                                                                                   | IC2c       | nor_x_y
-| NOR   | NOR(x, z)                                                                                   | IC2d       |
-| NOR   | NOR(y, NOR(x, NOT(z)))                                                                      | IC4c       | nor_y_nor_xnotz
-| NOR   | NOR(y, NOT(z))                                                                              | IC4a       |
-| NOR   | NOR(z, NOR(w, y))  # [z,nor_w_y]                                                            | IC4d       | ic4d
-| NOT   | NOT(w)                                                                                      | IC1a       |
-| NOT   | NOT(x)                                                                                      | IC1b       |
-| NOT   | NOT(y)                                                                                      | IC1c       |
-| NOT   | NOT(z)                                                                                      | IC1d       |
-| OR    | OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z)))) # [ic5a, ic4b]                       | IC7b       | ic7b
-| OR    | OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z))))   # [nor_x_y, ic5b]                          | IC7c       | ic7c
-| OR    | OR(NOR(x, z), NOR(z, NOT(y)))                                                               | IC6c       | e
-| OR    | OR(NOR(y, NOR(x, NOT(z))), NOR(z, NOT(x))) # [nor_y_nor_xnotz,nor_znotx]                    | IC6d       | ic6d
-| OR    | OR(NOR(z, NOR(w, y)), OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z))))) # [ic4d,ic7b] | IC7d       | d
-| OR    | OR(NOT(y), NOT(z))                                                                          | IC6b       |
-| OR    | OR(w, OR(NOR(y, NOR(x, NOT(z))), NOR(z, NOT(x))))                                           | IC7a       | f
-| OR    | OR(y, NOT(z))                                                                               | IC6a       | or_ynotz
-| XOR   | XOR(x, z)                                                                                   | IC9a       | ic9a
-| XOR   | XOR(y, z)                                                                                   | IC9b       | ic9b
+| Type  | Function                                                                                    | Allocation | Mnemonic           |
+|-------|---------------------------------------------------------------------------------------------|------------|--------------------|
+| NAND  | NAND(NOR(w, NOT(x)), XOR(y, z))  # [ic3c,ic9b]                                              | IC8a       | b                  |
+| NAND  | NAND(NOR(w, x), NOR(z, NOT(y)))  # [nor_w_x, nor_z_not_y]                                   | IC8b       | c                  |
+| NAND  | NAND(NOR(w, y), XOR(x, z))    # [nor_w_y, ic9a]                                             | IC8c       | a                  |
+| NAND  | NAND(NOT(w), OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z)))))  # [not_w,ic7c]                | IC8d       | g                  |
+| NOR   | NOR(NOT(x), OR(NOT(y), NOT(z)))                                                             | IC5b       | ic5b               |
+| NOR   | NOR(NOT(x), OR(y, NOT(z)))  # [not_x,or_ynotz]                                              | IC5a       | ic5a               |
+| NOR   | NOR(z, NOT(x))                                                                              | IC3a       | nor_znotx          |
+| NOR   | NOR(z, NOT(y))                                                                              | IC3b       | nor_z_not_y        |
+| NOR   | NOR(w, NOT(x))                                                                              | IC3c       | ic3c               |
+| NOR   | NOR(w, x)                                                                                   | IC2a       | nor_w_x            |
+| NOR   | NOR(w, y)                                                                                   | IC2b       | nor_w_y            |
+| NOR   | NOR(x, NOR(y, NOT(z)))                                                                      | IC4b       | ic4b               |
+| NOR   | NOR(x, NOT(z))                                                                              | IC3d       |                    |
+| NOR   | NOR(x, y)                                                                                   | IC2c       | nor_x_y            |
+| NOR   | NOR(x, z)                                                                                   | IC2d       |                    |
+| NOR   | NOR(y, NOR(x, NOT(z)))                                                                      | IC4c       | nor_y_nor_xnotz    |
+| NOR   | NOR(y, NOT(z))                                                                              | IC4a       |                    |
+| NOR   | NOR(z, NOR(w, y))  # [z,nor_w_y]                                                            | IC4d       | ic4d               |
+| NOT   | NOT(w)                                                                                      | IC1a       |                    |
+| NOT   | NOT(x)                                                                                      | IC1b       |                    |
+| NOT   | NOT(y)                                                                                      | IC1c       |                    |
+| NOT   | NOT(z)                                                                                      | IC1d       |                    |
+| OR    | OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z)))) # [ic5a, ic4b]                       | IC7b       | ic7b               |
+| OR    | OR(NOR(x, y), NOR(NOT(x), OR(NOT(y), NOT(z))))   # [nor_x_y, ic5b]                          | IC7c       | ic7c               |
+| OR    | OR(NOR(x, z), NOR(z, NOT(y)))                                                               | IC6c       | e                  |
+| OR    | OR(NOR(y, NOR(x, NOT(z))), NOR(z, NOT(x))) # [nor_y_nor_xnotz,nor_znotx]                    | IC6d       | ic6d               |
+| OR    | OR(NOR(z, NOR(w, y)), OR(NOR(NOT(x), OR(y, NOT(z))), NOR(x, NOR(y, NOT(z))))) # [ic4d,ic7b] | IC7d       | d                  |
+| OR    | OR(NOT(y), NOT(z))                                                                          | IC6b       |                    |
+| OR    | OR(w, OR(NOR(y, NOR(x, NOT(z))), NOR(z, NOT(x))))                                           | IC7a       | f                  |
+| OR    | OR(y, NOT(z))                                                                               | IC6a       | or_ynotz           |
+| XOR   | XOR(x, z)                                                                                   | IC9a       | ic9a               |
+| XOR   | XOR(y, z)                                                                                   | IC9b       | ic9b               |
 
 So IC requirements:
 

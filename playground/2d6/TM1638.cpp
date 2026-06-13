@@ -1,11 +1,5 @@
 #include "TM1638.h"
 
-TM1638Driver::TM1638Driver(int clk_pin, int data_pin, int cs_pin) {
-  this->clk_pin = clk_pin;
-  this->data_pin = data_pin;
-  this->cs_pin = cs_pin;
-}
-
 void TM1638Driver::begin() {
   pinMode(cs_pin, OUTPUT);
   pinMode(clk_pin, OUTPUT);
@@ -29,13 +23,6 @@ inline void TM1638Driver::deselect() {
   digitalWrite(cs_pin, HIGH);
 }
 
-uint8_t TM1638Driver::trace(String message, uint8_t value) {
-  Serial.print(message);
-  Serial.print(": ");
-  Serial.println(value, BIN);
-  return value;
-}
-
 uint8_t TM1638Driver::readData() {
   return shiftIn(data_pin, clk_pin, LSBFIRST);
 }
@@ -51,36 +38,29 @@ void TM1638Driver::sendData(uint8_t data) {
 }
 
 void TM1638Driver::setDataCommand(uint8_t command) {
-  sendData(trace(
-    "setDataCommand",
+  sendData(
     TM1638_data_command | (TM1638_data_command_mask & command)
-  ));
+  );
 }
 
 void TM1638Driver::writeDataFixedAddress(uint8_t address, uint8_t data) {
   select();
-  writeData(trace(
-    "writeDataFixedAddress address",
+  writeData(
     TM1638_address_command | (TM1638_address_command_mask & address)
-  ));
-  writeData(trace(
-    "writeDataFixedAddress data",
-    data
-  ));
+  );
+  writeData(data);
   deselect();
 }
 
-void TM1638Driver::setDisplayControl(bool enabled, uint8_t brightness_level) {
+void TM1638Driver::setDisplayControl(bool enabled) {
   if (enabled) {
-    sendData(trace(
-      "setDisplayControl on",
-      TM1638_display_command | TM1638_display_command_on | (TM1638_display_command_mask & brightness_level)
-    ));
+    sendData(
+      TM1638_display_command | TM1638_display_command_on | (TM1638_display_command_mask & brightness)
+    );
   } else {
-    sendData(trace(
-      "setDisplayControl off",
+    sendData(
       TM1638_display_command
-    ));
+    );
   }
 }
 
@@ -91,12 +71,12 @@ void TM1638Driver::clearAll() {
     TM1638_data_command_normal
   );
   select();
-  writeData(trace("clear from address", TM1638_address_command));
-  for(int i=0; i< 16; ++i) {
+  writeData(TM1638_address_command);
+  for (int i=0; i<16; ++i) {
     writeData(0);
   }
   deselect();
-  setDisplayControl(false, 0);
+  setDisplayControl(false);
 }
 
 void TM1638Driver::setDisplayValues(uint8_t c1, uint8_t c0) {
@@ -107,11 +87,14 @@ void TM1638Driver::setDisplayValues(uint8_t c1, uint8_t c0) {
   );
   writeDataFixedAddress(0, c0);
   writeDataFixedAddress(2, c1);
-  setDisplayControl(true, 0b11);
+  setDisplayControl(true);
 }
 
 void TM1638Driver::displayNumbers(uint8_t n1, uint8_t n0) {
-  setDisplayValues(NUMBERS[n1], NUMBERS[n0]);
+  setDisplayValues(
+    NUMBERS[n1],
+    NUMBERS[n0]
+  );
 }
 
 void TM1638Driver::displayNumber(uint16_t counter) {
@@ -124,13 +107,9 @@ void TM1638Driver::displayNumber(uint16_t counter) {
 void TM1638Driver::readKeys(uint8_t k[]) {
   select();
   writeData(TM1638_data_command | TM1638_data_command_read | TM1638_data_command_normal);
-
-
   setDataInbound();
   for (int i=0; i<4; ++i) {
-    k[i] = trace(
-      "read", readData()
-    );
+    k[i] = readData();
   }
   setDataOutbound();
   deselect();

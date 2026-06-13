@@ -31,18 +31,18 @@ and each digits cathode goes to the corresponding grid pin.
 
 | Segment  | SC56-11 pin | TM1638 SEG pin |
 |----------|-------------|----------------|
-| a        | 7           | 5              |
-| b        | 6           | 6              |
-| c        | 4           | 7              |
-| d        | 2           | 8              |
-| e        | 1           | 9              |
-| f        | 9           | 10             |
-| g        | 10          | 11             |
-| dp       | 5           | 12             |
+| a        | 7           | SEG1: 5        |
+| b        | 6           | SEG2: 6        |
+| c        | 4           | SEG3: 7        |
+| d        | 2           | SEG4: 8        |
+| e        | 1           | SEG5: 9        |
+| f        | 9           | SEG6: 10       |
+| g        | 10          | SEG7: 11       |
+| dp       | 5           | SEG8: 12       |
 
 ### Pushbutton Inputs
 
-In a bit of smart multiplexing, the TM1638 also supports an array of pushbuttons.
+In a bit of smart multiplexing, the TM1638 also supports an array of push-buttons.
 These are connected from the segment pins (the same segment pins driving the LED displays) to one of the X1, X2 or X3 pins.
 thus a maximum of 8 segments x 3 X? pins = 24 buttons.
 
@@ -77,7 +77,6 @@ The grids are addressed sequentially as follows:
 | 7    | 0x0C | 0x0D |
 | 8    | 0x0E | 0x0F |
 
-
 ### Incremental Addressing Mode
 
 Setting incremental addressing mode allows all or a series of register addresses to be written in a continuous stream of data.
@@ -100,9 +99,7 @@ Sequence:
     * `0bxxxx1xxx` - set display on
     * `0bxxxxx111` - set full brightness
 
-
 Correct sequencing of the chip select (STB) line state is critical for the command to be accepted.
-
 
 ### Fixed Addressing Mode
 
@@ -129,8 +126,7 @@ Sequence:
 
 Correct sequencing of the chip select (STB) line state is critical for the command to be accepted.
 
-
-### Reading Pushbuttons
+### Reading Push-buttons
 
 Keypad data is read in through the data connection after putting the TM1638 into read mode.
 The chip handles multiplexing the display so that reading key values does not interfere with the LED display (smart!).
@@ -145,7 +141,6 @@ Sequence:
     * `0bxxxxxx10` - read mode
 * Data(1-4): 4 bytes of key scan data
 
-
 Keypad data is read as 4 bytes, containing all the values for the matrix of the 8 segments x 3 key grids.
 
 | Bit:  | B0     | B1     | B2     | B3   | B4     | B5     | B6     | B7   |
@@ -154,7 +149,6 @@ Keypad data is read as 4 bytes, containing all the values for the matrix of the 
 | Byte2 | K3.KS3 | K2.KS3 | K1.KS3 | X    | K3.KS4 | K2.KS4 | K1.KS4 | X    |
 | Byte3 | K3.KS5 | K2.KS5 | K1.KS5 | X    | K3.KS6 | K2.KS6 | K1.KS6 | X    |
 | Byte4 | K3.KS7 | K2.KS7 | K1.KS7 | X    | K3.KS8 | K2.KS8 | K1.KS8 | X    |
-
 
 For example, the two buttons I have installed for the demo connect grid K1 to KS1 (seg1) and KS2 (seg2) respectively:
 
@@ -171,10 +165,9 @@ Thus:
 * when the second is pressed, byte1 = `0b01000000`
 * when both are pressed, byte1 = `0b01000100`
 
-
 ### Construction
 
-For the purposes of a simple demonstration, I'm using 2x 7-segment LED displays and 2x pushbuttons on a breadboard.
+For the purposes of a simple demonstration, I'm using 2x 7-segment LED displays and 2x push-buttons on a breadboard.
 
 Outgoing, the TM1638's DIO pin is an open drain and therefore requires a pull-up.
 
@@ -182,9 +175,7 @@ Outgoing, the TM1638's DIO pin is an open drain and therefore requires a pull-up
 
 ![Schematic](./assets/TM1638_schematic.jpg?raw=true)
 
-
 ### Example Code
-
 
 The [RawDrive.ino](./RawDrive/RawDrive.ino) sketch is an example of how to drive the TM1638 directly with software serial control - actually, the standard
 `shiftOut` and `shiftIn` functions proved quite sufficient.
@@ -202,7 +193,7 @@ It provides an example of all the main modes of interaction:
 
 I've split the code into a couple of classes:
 
-* `TM1638Driver` is responsible for all communciations with the TM1638
+* `TM1638Driver` is responsible for all communications with the TM1638
 * `KeyController` encapsulates the logic for interpreting key scan data
 
 The main loop processes with the manual or automatic incrementing modes.
