@@ -48,3 +48,15 @@ See also:
 * APPENDIX N: Further Reading and References
 * APPENDIX O: The Oscilloscope
 * APPENDIX P: Acronyms and Abbreviations
+
+## Ladyada interview with Paul Horowitz - The Art of Electronics
+
+YouTube from Adafruit Industries
+
+[![clip](https://img.youtube.com/vi/iCI3B5eT9NA/0.jpg)](https://www.youtube.com/watch?v=iCI3B5eT9NA)
+
+## #1548 Bad Circuits from the Art of Electronics
+
+YouTube from IMSAI Guy
+
+[![clip](https://img.youtube.com/vi/5TGFhZrRt5I/0.jpg)](https://www.youtube.com/watch?v=5TGFhZrRt5I)
