@@ -1,6 +1,6 @@
 # #244 DPDT Toggle Switches
 
-All about double-pole, double-throw toggle switches.
+All about double-pole, double-throw (DPDT) latching toggle switches.
 
 ![Build](./assets/DPDT_build.jpg?raw=true)
 
@@ -25,6 +25,10 @@ Other parts may use a different layout; in fact I have come across an identicall
 with a different (aligned) orientation of the poles. So it is always worth testing before assuming...
 
 ![DPDT_part_design](./assets/DPDT_part_design.jpg?raw=true)
+
+I've attached some pin headers to make a breadboard-compatible switch:
+
+![DPDT-dip-adapter](./assets/DPDT-dip-adapter.jpg)
 
 ### Test Circuit
 
