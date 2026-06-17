@@ -7,12 +7,22 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-13T09:16:00Z</updated>
+  <updated>2026-06-17T13:56:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/switches/momentarydpdt/</id>
+    <link href="https://leap.tardate.com/electronics101/switches/momentarydpdt/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/switches/momentarydpdt/assets/momentarydpdt_build.jpg</g:image_link>
+    <updated>2026-06-17T13:56:00Z</updated>
+    <title>#848 DPDT Momentary Push-buttons</title>
+    <summary>All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switches/momentarydpdt/assets/momentarydpdt_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Switches"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/playground/2d6/</id>
     <link href="https://leap.tardate.com/playground/2d6/"/>
@@ -7017,9 +7027,9 @@
     <link href="https://leap.tardate.com/electronics101/switches/dpdt/"/>
     <g:image_link>https://leap.tardate.com/electronics101/switches/dpdt/assets/dpdt_build.jpg</g:image_link>
     <updated>2016-09-19T15:45:05Z</updated>
-    <title>#244 Switches/DPDT</title>
-    <summary>all about double-pole, double-throw (DPDT) toggle switches</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;all about double-pole, double-throw (DPDT) toggle switches&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switches/dpdt/assets/dpdt_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#244 DPDT Toggle Switches</title>
+    <summary>all about double-pole, double-throw (DPDT) latching toggle switches</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;all about double-pole, double-throw (DPDT) latching toggle switches&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switches/dpdt/assets/dpdt_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Switches"/>
   </entry>
   <entry>

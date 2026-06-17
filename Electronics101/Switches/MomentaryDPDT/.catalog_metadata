@@ -2,5 +2,8 @@
     "name": "DPDT Momentary Push-buttons",
     "description": "All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.",
     "categories": "Switches",
-    "relative_path": "Electronics101/Switches/MomentaryDPDT"
+    "relative_path": "Electronics101/Switches/MomentaryDPDT",
+    "updated_at": "2026-06-17T13:56:00Z",
+    "created_at": "2026-06-17T13:56:00Z",
+    "id": "#848"
 }

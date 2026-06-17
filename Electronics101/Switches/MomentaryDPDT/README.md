@@ -1,6 +1,6 @@
-# #xxx DPDT Momentary Push-buttons
+# #848 DPDT Momentary Push-buttons
 
-description here
+All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.
 
 ![Build](./assets/MomentaryDPDT_build.jpg?raw=true)
 
