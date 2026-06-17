@@ -46,3 +46,7 @@ See also:
 * Appendix E Summary Table Listing
 * Glossary
 * Answers Odd-Numbered Problems
+
+## EEVblog #1270 - Electronics Textbook Shootout
+
+[![clip](https://img.youtube.com/vi/m08EqBTeg4I/0.jpg)](https://www.youtube.com/watch?v=m08EqBTeg4I)
