@@ -1,4 +1,12 @@
 {
+    "/electronics101/switches/momentarydpdt/": {
+        "id": 848,
+        "title": "DPDT Momentary Push-buttons",
+        "summary": "All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.",
+        "tags": [
+            "Switches"
+        ]
+    },
     "/playground/2d6/": {
         "id": 847,
         "title": "2d6 Dice Roller",
@@ -5794,8 +5802,8 @@
     },
     "/electronics101/switches/dpdt/": {
         "id": 244,
-        "title": "Switches/DPDT",
-        "summary": "all about double-pole, double-throw (DPDT) toggle switches",
+        "title": "DPDT Toggle Switches",
+        "summary": "all about double-pole, double-throw (DPDT) latching toggle switches",
         "tags": [
             "Switches"
         ]

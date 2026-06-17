@@ -20,20 +20,32 @@ The number of "poles" is the number of electrically separate switches which are 
 
 The number of "throws" is the number of separate wiring path choices other than "open" that the switch can adopt for each pole. A single-throw switch has one pair of contacts that can either be closed or open. A double-throw switch has a contact that can be connected to either of two other contacts, a triple-throw has a contact which can be connected to one of three other contacts, etc
 
-[![Switches_wikipedia_clip](./assets/Switches_wikipedia_clip.png?raw=true)](https://en.wikipedia.org/wiki/Switch)
+[![Switches_wikipedia_clip](./assets/Switches_wikipedia_clip.jpg?raw=true)](https://en.wikipedia.org/wiki/Switch)
 
 ### Types of Switches
 
-* [Toggle switch - DPDT](./DPDT)
+* Toggle switch
 * Rocker
 * Slide
 * Rotary
 * Pushbutton - typically momentary action, but sometimes locking on/off
 * Snap-action -  typically used as sensors
 
+### Example: DPDT Toggle Switches
+
+See [LEAP#244 DPDT Toggle Switches](./DPDT/).
+
+[![DPDT_part_design](./DPDT/assets/DPDT_part_design.jpg)](./DPDT/)
+
+### Example: DPDT Momentary Push-buttons
+
+See [LEAP#848 Momentary DPDT Push-buttons](./MomentaryDPST/).
+
+[![dpst01b](./MomentaryDPDT/assets/dpst01b.jpg)](./MomentaryDPDT/)
+
 ## Credits and References
 
-* [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
+* <https://en.wikipedia.org/wiki/Switch>
 * [Encyclopedia of Electronic Components Volume 1](../../books/encyclopedia-of-electronic-components/)
 * [Practical Electronics: Components and Techniques](../../books/practical-electronics/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

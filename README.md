@@ -1,6 +1,6 @@
-# 847 Little Electronic Art Projects
+# 848 Little Electronic Art Projects
 
-> Latest addition :sparkles: [2d6 Dice Roller](./playground/2d6) - A simple 2d6 dice roller using Arduino and ATtinyA little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.
+> Latest addition :sparkles: [DPDT Momentary Push-buttons](./Electronics101/Switches/MomentaryDPDT) - All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
