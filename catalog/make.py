@@ -284,7 +284,7 @@ class Catalog(object):
             if os.path.exists(asset_backup_template_path):
                 shutil.copytree(asset_backup_template_path, backup_path)
                 print(f"Copied assets to backup folder")
-            for subfolder in ['hires', 'trash']:
+            for subfolder in ['hires', 'trash', 'references']:
                 subfolder_path = os.path.join(backup_path, subfolder)
                 if not os.path.exists(subfolder_path):
                     os.makedirs(subfolder_path)
@@ -395,6 +395,8 @@ class Catalog(object):
         project_name = os.path.basename(project_folder)
         subfolder = self.settings.get('project_subfolder', None)
         if subfolder:
+            if project_folder.startswith(subfolder + '/'):
+                project_folder = project_folder[len(subfolder) + 1:]
             project_path = os.path.join(self.collection_root, subfolder, project_folder)
         else:
             project_path = os.path.join(self.collection_root, project_folder)
@@ -440,6 +442,10 @@ class Catalog(object):
         else:
             os.makedirs(project_assets_path)
             print(f"Created: {project_assets_path}")
+
+        project_references_path = os.path.join(project_path, 'references')
+        os.makedirs(project_references_path)
+        print(f"Created: {project_references_path}")
 
         self._ensure_asset_backup_exists(relative_path)
 
