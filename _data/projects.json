@@ -1,4 +1,12 @@
 {
+    "/kinetics/levitation/ultrasoniclevitatorkit/": {
+        "id": 849,
+        "title": "Ultrasonic Levitator Kit",
+        "summary": "",
+        "tags": [
+            "Kinetics"
+        ]
+    },
     "/electronics101/switches/momentarydpdt/": {
         "id": 848,
         "title": "DPDT Momentary Push-buttons",

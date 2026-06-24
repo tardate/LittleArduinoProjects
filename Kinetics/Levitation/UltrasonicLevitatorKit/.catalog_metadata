@@ -2,5 +2,8 @@
     "name": "Ultrasonic Levitator Kit",
     "description": "",
     "categories": "Kinetics",
-    "relative_path": "Kinetics/Levitation/UltrasonicLevitatorKit"
+    "relative_path": "Kinetics/Levitation/UltrasonicLevitatorKit",
+    "updated_at": "2026-06-24T03:30:00Z",
+    "created_at": "2026-06-24T03:30:00Z",
+    "id": "#849"
 }
