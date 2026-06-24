@@ -45,12 +45,12 @@ void DisplayController::update() {
     }
     if (gps->date.isValid()) {
       char sz[32];
-      sprintf(sz, "%02d-%02d-%02d", gps->date.year(), gps->date.month(), gps->date.day());
+      snprintf(sz, sizeof(sz), "%02d-%02d-%02d", gps->date.year(), gps->date.month(), gps->date.day());
       display->println(sz);
     }
     if (gps->time.isValid()) {
       char sz[32];
-      sprintf(sz, "%02d:%02d:%02d", gps->time.hour(), gps->time.minute(), gps->time.second());
+      snprintf(sz, sizeof(sz), "%02d:%02d:%02d", gps->time.hour(), gps->time.minute(), gps->time.second());
       display->print(sz);
       display->println(F(" UTC"));
     }
