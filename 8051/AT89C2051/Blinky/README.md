@@ -26,8 +26,9 @@ specifically
 [this version](https://excellmedia.dl.sourceforge.net/project/sdcc/snapshot_builds/i386_universal-apple-macosx/sdcc-snapshot-i386_universal-apple-macosx-20150214-9180.tar.bz2),
 but that was when I was still using an Intel-based machine.
 
-I now run macOS on Apple Silicon (M3), and it seems there are no pre-compiled distributions for this platform.
-Can it be compiled from source? Luckily it seems the hard work has already been done - there is a [brew formula](https://formulae.brew.sh/formula/sdcc) that is Apple Silicon-compatible:
+I now run macOS on Apple Silicon (M3), and while there are now
+pre-compiled distributions for this platform, it is also readily available with Homebrew.
+There is a [brew formula](https://formulae.brew.sh/formula/sdcc) that is Apple Silicon-compatible:
 
 ```sh
 $ brew install sdcc
@@ -49,6 +50,24 @@ but in other circumstances it may be necessary to set the `SDCC_HOME` environmen
 ```sh
 export SDCC_HOME=./sdcc
 export PATH=$PATH:${SDCC_HOME}/bin
+```
+
+### Updating to SDCC 4.6.0
+
+[SDCC 4.6.0](https://sourceforge.net/p/sdcc/news/2026/06/sdcc-460-released/)
+was released in Jun-2026.
+
+The [brew formula](https://formulae.brew.sh/formula/sdcc) has already been updated,
+so upgrading is simply a matter of running brew update:
+
+```sh
+$ brew update sdcc
+...
+==> Upgraded 1 outdated package
+sdcc 4.5.0 -> 4.6.0
+$ sdcc --version
+SDCC : mcs51/z80/z180/r2k/r2ka/r3ka/r4k/r5k/r6k/sm83/tlcs90/ez80/z80n/r800/ds390/pic16/pic14/TININative/ds400/hc08/s08/stm8/pdk13/pdk14/pdk15/mos6502/mos65c02/f8/f8l TD- 4.6.0 #16555 (Mac OS X ppc)
+published under GNU General Public License (GPL)
 ```
 
 ## The Blinky Program
@@ -110,12 +129,39 @@ Is there any benefit to one approach over the other?
 Probably not much, unless you are specifically writing code to be compiled for multiple targets,
 in which case I'd prefer `mcs51reg.h` with defines.
 
-NOTE: there is a currently [bug in the `at89x51.h` header file](https://sourceforge.net/p/sdcc/bugs/3861/)
-included in the latest sdcc release (4.5.2), so it can't be used without patching anyway.
-
 One may also see `reg51.h` or `reg52.h` in use. I have seen this in old code compiled with Keil, for example.
 These are obsolete and shouldn't be used with sdcc - `reg52.h` won't work, and `reg51.h` will just
 raise a warning before falling back on including generic  `8052.h` headers.
+
+### Bug in the `at89x51.h` header file
+
+The sdcc 4.5.x release has a [bug in the `at89x51.h` header file](https://sourceforge.net/p/sdcc/bugs/3861/).
+See [header-bug/example.c](./header-bug/example.c) for a demonstration:
+
+```sh
+$ cd header-bug
+$ make
+sdcc --version
+SDCC : mcs51/z80/z180/r2k/r2ka/r3ka/sm83/tlcs90/ez80_z80/z80n/r800/ds390/pic16/pic14/TININative/ds400/hc08/s08/stm8/pdk13/pdk14/pdk15/mos6502/mos65c02/f8 TD- 4.5.0 #15242 (Mac OS X ppc)
+published under GNU General Public License (GPL)
+sdcc -mmcs51 example.c && rm *.asm
+/opt/homebrew/bin/../share/sdcc/include/mcs51/at89x51.h:80: error 20: Undefined identifier 'E'
+/opt/homebrew/bin/../share/sdcc/include/mcs51/at89x51.h:80: error 2: Initializer element is not a constant expression
+make: *** [all] Error 1
+```
+
+This is fixed in the [latest 4.6.0 release](https://sourceforge.net/p/sdcc/news/2026/06/sdcc-460-released/).
+
+After updating to 4.6.0, the header file bug is fixed:
+
+```sh
+$ cd header-bug
+$ make
+sdcc --version
+SDCC : mcs51/z80/z180/r2k/r2ka/r3ka/r4k/r5k/r6k/sm83/tlcs90/ez80/z80n/r800/ds390/pic16/pic14/TININative/ds400/hc08/s08/stm8/pdk13/pdk14/pdk15/mos6502/mos65c02/f8/f8l TD- 4.6.0 #16555 (Mac OS X ppc)
+published under GNU General Public License (GPL)
+sdcc -mmcs51 -S example.c && rm *.asm
+```
 
 ### Calibrating the Delay Function
 
@@ -149,19 +195,19 @@ packihx: read 16 lines, wrote 21: OK.
 
 I've checked-in all the products of the compilation for study purposes:
 
-| File       | Description |
-|------------|-------------|
-| [Blinky.asm](./src/Blinky.asm) | Assembler source file created by the compiler  |
-| [Blinky.c](./src/Blinky.c)     | C source file |
-| [Blinky.hex](./src/Blinky.hex) | Optional packed hex file created by packihx |
-| [Blinky.ihx](./src/Blinky.ihx) | The load module in Intel hex format |
-| [Blinky.lk](./src/Blinky.lk)   | linker options (I think) |
-| [Blinky.lst](./src/Blinky.lst) | Assembler listing file created by the Assembler |
-| [Blinky.map](./src/Blinky.map) | The memory map for the load module, created by the Linker |
-| [Blinky.mem](./src/Blinky.mem) | A file with a summary of the memory usage |
-| [Blinky.rel](./src/Blinky.rel) | Object file created by the assembler, input to Linkage editor |
+| File                           | Description                                                                           |
+|--------------------------------|---------------------------------------------------------------------------------------|
+| [Blinky.asm](./src/Blinky.asm) | Assembler source file created by the compiler                                         |
+| [Blinky.c](./src/Blinky.c)     | C source file                                                                         |
+| [Blinky.hex](./src/Blinky.hex) | Optional packed hex file created by packihx                                           |
+| [Blinky.ihx](./src/Blinky.ihx) | The load module in Intel hex format                                                   |
+| [Blinky.lk](./src/Blinky.lk)   | linker options (I think)                                                              |
+| [Blinky.lst](./src/Blinky.lst) | Assembler listing file created by the Assembler                                       |
+| [Blinky.map](./src/Blinky.map) | The memory map for the load module, created by the Linker                             |
+| [Blinky.mem](./src/Blinky.mem) | A file with a summary of the memory usage                                             |
+| [Blinky.rel](./src/Blinky.rel) | Object file created by the assembler, input to Linkage editor                         |
 | [Blinky.rst](./src/Blinky.rst) | Assembler listing file updated with link edit information, created by linkage editor  |
-| [Blinky.sym](./src/Blinky.sym) | Symbol listing for the sourcefile, created by the assembler |
+| [Blinky.sym](./src/Blinky.sym) | Symbol listing for the sourcefile, created by the assembler                           |
 
 ### Controlling the RST line
 

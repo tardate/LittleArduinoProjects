@@ -1,6 +1,6 @@
 ;--------------------------------------------------------
 ; File Created by SDCC : free open source ISO C Compiler
-; Version 4.5.0 #15242 (Mac OS X ppc)
+; Version 4.6.0 #16555 (Mac OS X ppc)
 ;--------------------------------------------------------
 	.module Blinky
 	
@@ -347,7 +347,9 @@ sdcc_atomic_compare_exchange_gptr_impl::
 	.area HOME    (CODE)
 	.area HOME    (CODE)
 __sdcc_program_startup:
-	ljmp	_main
+	lcall	_main
+__sdcc_program_exit:
+	sjmp	.
 ;	return from main will return to caller
 ;--------------------------------------------------------
 ; code
@@ -412,8 +414,8 @@ _ms_delay:
 ;	Blinky.c:36: for(unsigned int j=0; j<186; j++);
 	mov	r3,#0x00
 00104$:
-	cjne	r3,#0xba,00138$
-00138$:
+	cjne	r3,#0xba,00142$
+00142$:
 	jnc	00108$
 	inc	r3
 	sjmp	00104$

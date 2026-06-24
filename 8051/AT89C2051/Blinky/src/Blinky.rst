@@ -1,6 +1,6 @@
                                       1 ;--------------------------------------------------------
                                       2 ; File Created by SDCC : free open source ISO C Compiler
-                                      3 ; Version 4.5.0 #15242 (Mac OS X ppc)
+                                      3 ; Version 4.6.0 #16555 (Mac OS X ppc)
                                       4 ;--------------------------------------------------------
                                       5 	.module Blinky
                                       6 	
@@ -267,7 +267,7 @@
                                     267 ;--------------------------------------------------------
                                     268 	.area HOME    (CODE)
       000000                        269 __interrupt_vect:
-      000000 02 00 4C         [24]  270 	ljmp	__sdcc_gsinit_startup
+      000000 02 00 4E         [24]  270 	ljmp	__sdcc_gsinit_startup
                                     271 ; restartable atomic support routines
       000003                        272 	.ds	5
       000008                        273 sdcc_atomic_exchange_rollback_start::
@@ -340,97 +340,99 @@
                                     340 	.globl __mcs51_genXRAMCLEAR
                                     341 	.globl __mcs51_genRAMCLEAR
                                     342 	.area GSFINAL (CODE)
-      0000A5 02 00 49         [24]  343 	ljmp	__sdcc_program_startup
+      0000A7 02 00 49         [24]  343 	ljmp	__sdcc_program_startup
                                     344 ;--------------------------------------------------------
                                     345 ; Home
                                     346 ;--------------------------------------------------------
                                     347 	.area HOME    (CODE)
                                     348 	.area HOME    (CODE)
       000049                        349 __sdcc_program_startup:
-      000049 02 00 A8         [24]  350 	ljmp	_main
-                                    351 ;	return from main will return to caller
-                                    352 ;--------------------------------------------------------
-                                    353 ; code
+      000049 12 00 AA         [24]  350 	lcall	_main
+      00004C                        351 __sdcc_program_exit:
+      00004C 80 FE            [24]  352 	sjmp	.
+                                    353 ;	return from main will return to caller
                                     354 ;--------------------------------------------------------
-                                    355 	.area CSEG    (CODE)
-                                    356 ;------------------------------------------------------------
-                                    357 ;Allocation info for local variables in function 'main'
+                                    355 ; code
+                                    356 ;--------------------------------------------------------
+                                    357 	.area CSEG    (CODE)
                                     358 ;------------------------------------------------------------
-                                    359 ;	Blinky.c:20: void main(void)
-                                    360 ;	-----------------------------------------
-                                    361 ;	 function main
+                                    359 ;Allocation info for local variables in function 'main'
+                                    360 ;------------------------------------------------------------
+                                    361 ;	Blinky.c:20: void main(void)
                                     362 ;	-----------------------------------------
-      0000A8                        363 _main:
-                           000007   364 	ar7 = 0x07
-                           000006   365 	ar6 = 0x06
-                           000005   366 	ar5 = 0x05
-                           000004   367 	ar4 = 0x04
-                           000003   368 	ar3 = 0x03
-                           000002   369 	ar2 = 0x02
-                           000001   370 	ar1 = 0x01
-                           000000   371 	ar0 = 0x00
-                                    372 ;	Blinky.c:22: while(1) {
-      0000A8                        373 00102$:
-                                    374 ;	Blinky.c:23: P1_0 = 1;
-                                    375 ;	assignBit
-      0000A8 D2 90            [12]  376 	setb	_P1_0
-                                    377 ;	Blinky.c:24: ms_delay(DELAY);
-      0000AA 90 03 E8         [24]  378 	mov	dptr,#0x03e8
-      0000AD 12 00 BA         [24]  379 	lcall	_ms_delay
-                                    380 ;	Blinky.c:25: P1_0 = 0;
-                                    381 ;	assignBit
-      0000B0 C2 90            [12]  382 	clr	_P1_0
-                                    383 ;	Blinky.c:26: ms_delay(DELAY);
-      0000B2 90 03 E8         [24]  384 	mov	dptr,#0x03e8
-      0000B5 12 00 BA         [24]  385 	lcall	_ms_delay
-                                    386 ;	Blinky.c:28: }
-      0000B8 80 EE            [24]  387 	sjmp	00102$
-                                    388 ;------------------------------------------------------------
-                                    389 ;Allocation info for local variables in function 'ms_delay'
+                                    363 ;	 function main
+                                    364 ;	-----------------------------------------
+      0000AA                        365 _main:
+                           000007   366 	ar7 = 0x07
+                           000006   367 	ar6 = 0x06
+                           000005   368 	ar5 = 0x05
+                           000004   369 	ar4 = 0x04
+                           000003   370 	ar3 = 0x03
+                           000002   371 	ar2 = 0x02
+                           000001   372 	ar1 = 0x01
+                           000000   373 	ar0 = 0x00
+                                    374 ;	Blinky.c:22: while(1) {
+      0000AA                        375 00102$:
+                                    376 ;	Blinky.c:23: P1_0 = 1;
+                                    377 ;	assignBit
+      0000AA D2 90            [12]  378 	setb	_P1_0
+                                    379 ;	Blinky.c:24: ms_delay(DELAY);
+      0000AC 90 03 E8         [24]  380 	mov	dptr,#0x03e8
+      0000AF 12 00 BC         [24]  381 	lcall	_ms_delay
+                                    382 ;	Blinky.c:25: P1_0 = 0;
+                                    383 ;	assignBit
+      0000B2 C2 90            [12]  384 	clr	_P1_0
+                                    385 ;	Blinky.c:26: ms_delay(DELAY);
+      0000B4 90 03 E8         [24]  386 	mov	dptr,#0x03e8
+      0000B7 12 00 BC         [24]  387 	lcall	_ms_delay
+                                    388 ;	Blinky.c:28: }
+      0000BA 80 EE            [24]  389 	sjmp	00102$
                                     390 ;------------------------------------------------------------
-                                    391 ;ms            Allocated to registers r6 r7 
-                                    392 ;i             Allocated to registers r4 r5 
-                                    393 ;j             Allocated to registers r3 
-                                    394 ;------------------------------------------------------------
-                                    395 ;	Blinky.c:34: void ms_delay(unsigned int ms) {
-                                    396 ;	-----------------------------------------
-                                    397 ;	 function ms_delay
+                                    391 ;Allocation info for local variables in function 'ms_delay'
+                                    392 ;------------------------------------------------------------
+                                    393 ;ms            Allocated to registers r6 r7 
+                                    394 ;i             Allocated to registers r4 r5 
+                                    395 ;j             Allocated to registers r3 
+                                    396 ;------------------------------------------------------------
+                                    397 ;	Blinky.c:34: void ms_delay(unsigned int ms) {
                                     398 ;	-----------------------------------------
-      0000BA                        399 _ms_delay:
-      0000BA AE 82            [24]  400 	mov	r6, dpl
-      0000BC AF 83            [24]  401 	mov	r7, dph
-                                    402 ;	Blinky.c:35: for(unsigned int i=0; i<ms; i++) {
-      0000BE 7C 00            [12]  403 	mov	r4,#0x00
-      0000C0 7D 00            [12]  404 	mov	r5,#0x00
-      0000C2                        405 00107$:
-      0000C2 C3               [12]  406 	clr	c
-      0000C3 EC               [12]  407 	mov	a,r4
-      0000C4 9E               [12]  408 	subb	a,r6
-      0000C5 ED               [12]  409 	mov	a,r5
-      0000C6 9F               [12]  410 	subb	a,r7
-      0000C7 50 11            [24]  411 	jnc	00109$
-                                    412 ;	Blinky.c:36: for(unsigned int j=0; j<186; j++);
-      0000C9 7B 00            [12]  413 	mov	r3,#0x00
-      0000CB                        414 00104$:
-      0000CB BB BA 00         [24]  415 	cjne	r3,#0xba,00138$
-      0000CE                        416 00138$:
-      0000CE 50 03            [24]  417 	jnc	00108$
-      0000D0 0B               [12]  418 	inc	r3
-      0000D1 80 F8            [24]  419 	sjmp	00104$
-      0000D3                        420 00108$:
-                                    421 ;	Blinky.c:35: for(unsigned int i=0; i<ms; i++) {
-      0000D3 0C               [12]  422 	inc	r4
-      0000D4 BC 00 EB         [24]  423 	cjne	r4,#0x00,00107$
-      0000D7 0D               [12]  424 	inc	r5
-      0000D8 80 E8            [24]  425 	sjmp	00107$
-      0000DA                        426 00109$:
-                                    427 ;	Blinky.c:38: }
-      0000DA 22               [24]  428 	ret
-                                    429 	.area CSEG    (CODE)
-                                    430 	.area CONST   (CODE)
-                                    431 	.area CONST   (CODE)
-      0000DF                        432 _DELAY:
-      0000DF E8 03                  433 	.byte #0xe8, #0x03	;  1000
-                                    434 	.area CSEG    (CODE)
-                                    435 	.area XINIT   (CODE)
-                                    436 	.area CABS    (ABS,CODE)
+                                    399 ;	 function ms_delay
+                                    400 ;	-----------------------------------------
+      0000BC                        401 _ms_delay:
+      0000BC AE 82            [24]  402 	mov	r6, dpl
+      0000BE AF 83            [24]  403 	mov	r7, dph
+                                    404 ;	Blinky.c:35: for(unsigned int i=0; i<ms; i++) {
+      0000C0 7C 00            [12]  405 	mov	r4,#0x00
+      0000C2 7D 00            [12]  406 	mov	r5,#0x00
+      0000C4                        407 00107$:
+      0000C4 C3               [12]  408 	clr	c
+      0000C5 EC               [12]  409 	mov	a,r4
+      0000C6 9E               [12]  410 	subb	a,r6
+      0000C7 ED               [12]  411 	mov	a,r5
+      0000C8 9F               [12]  412 	subb	a,r7
+      0000C9 50 11            [24]  413 	jnc	00109$
+                                    414 ;	Blinky.c:36: for(unsigned int j=0; j<186; j++);
+      0000CB 7B 00            [12]  415 	mov	r3,#0x00
+      0000CD                        416 00104$:
+      0000CD BB BA 00         [24]  417 	cjne	r3,#0xba,00142$
+      0000D0                        418 00142$:
+      0000D0 50 03            [24]  419 	jnc	00108$
+      0000D2 0B               [12]  420 	inc	r3
+      0000D3 80 F8            [24]  421 	sjmp	00104$
+      0000D5                        422 00108$:
+                                    423 ;	Blinky.c:35: for(unsigned int i=0; i<ms; i++) {
+      0000D5 0C               [12]  424 	inc	r4
+      0000D6 BC 00 EB         [24]  425 	cjne	r4,#0x00,00107$
+      0000D9 0D               [12]  426 	inc	r5
+      0000DA 80 E8            [24]  427 	sjmp	00107$
+      0000DC                        428 00109$:
+                                    429 ;	Blinky.c:38: }
+      0000DC 22               [24]  430 	ret
+                                    431 	.area CSEG    (CODE)
+                                    432 	.area CONST   (CODE)
+                                    433 	.area CONST   (CODE)
+      0000E1                        434 _DELAY:
+      0000E1 E8 03                  435 	.byte #0xe8, #0x03	;  1000
+                                    436 	.area CSEG    (CODE)
+                                    437 	.area XINIT   (CODE)
+                                    438 	.area CABS    (ABS,CODE)

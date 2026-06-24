@@ -8,7 +8,7 @@
 -b ISEG = 0x0000
 -b BSEG = 0x0000
 -k /opt/homebrew/bin/../share/sdcc/lib/small
--k /opt/homebrew/Cellar/sdcc/4.5.0/share/sdcc/lib/small
+-k /opt/homebrew/Cellar/sdcc/4.6.0/share/sdcc/lib/small
 -l mcs51
 -l libsdcc
 -l libint
