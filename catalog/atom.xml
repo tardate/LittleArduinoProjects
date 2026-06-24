@@ -7,12 +7,25 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-06-17T13:56:00Z</updated>
+  <updated>2026-06-24T03:30:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kinetics/levitation/ultrasoniclevitatorkit/</id>
+    <link href="https://leap.tardate.com/kinetics/levitation/ultrasoniclevitatorkit/"/>
+    <g:image_link>https://leap.tardate.com/kinetics/levitation/ultrasoniclevitatorkit/assets/ultrasoniclevitatorkit_build.jpg</g:image_link>
+    <updated>2026-06-24T03:30:00Z</updated>
+    <title>#849 Ultrasonic Levitator Kit</title>
+    <summary>Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.&lt;/p&gt;&lt;img src="https://leap.tardate.com/kinetics/levitation/ultrasoniclevitatorkit/assets/ultrasoniclevitatorkit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Kinetics"/>
+    <category term="HC-SR04"/>
+    <category term="STC15F101W"/>
+    <category term="TC4427"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/switches/momentarydpdt/</id>
     <link href="https://leap.tardate.com/electronics101/switches/momentarydpdt/"/>
@@ -9428,8 +9441,8 @@
     <g:image_link>https://leap.tardate.com/playground/rangefinder/assets/rangefinder_build.jpg</g:image_link>
     <updated>2018-04-15T01:28:17Z</updated>
     <title>#035 RangeFinder</title>
-    <summary>proximity/distance measurement with an HC-SR04 untrasonic ranging module</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;proximity/distance measurement with an HC-SR04 untrasonic ranging module&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/rangefinder/assets/rangefinder_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Use an Arduino to measure range with an HC-SR04 ultrasonic ranging module and output to a 16x2 LCD.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Use an Arduino to measure range with an HC-SR04 ultrasonic ranging module and output to a 16x2 LCD.&lt;/p&gt;&lt;img src="https://leap.tardate.com/playground/rangefinder/assets/rangefinder_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Sensors"/>
     <category term="Arduino"/>
     <category term="HC-SR04"/>

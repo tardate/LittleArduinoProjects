@@ -1,6 +1,6 @@
-# 848 Little Electronic Art Projects
+# 849 Little Electronic Art Projects
 
-> Latest addition :sparkles: [DPDT Momentary Push-buttons](./Electronics101/Switches/MomentaryDPDT) - All about double-pole, double-throw (DPDT) non-latching/momentary push-button switches.
+> Latest addition :sparkles: [Ultrasonic Levitator Kit](./Kinetics/Levitation/UltrasonicLevitatorKit) - Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

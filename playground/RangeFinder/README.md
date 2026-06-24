@@ -1,7 +1,8 @@
 # #035 RangeFinder
 
-Use an Arduino to measure range with HC-SR04 module and output to 16x2 LCD.
+Use an Arduino to measure range with an HC-SR04 ultrasonic ranging module and output to a 16x2 LCD.
 
+![The Build](./assets/RangeFinder_build.jpg?raw=true)
 
 ## Notes
 
@@ -27,6 +28,8 @@ A variable resistor is used to trim contrast, and the LCD backlight is powered f
 
 ## Construction
 
+Circuit designed with Fritzing: see [RangeFinder.fzz](./RangeFinder.fzz).
+
 NB: schematics use non-standard [HC-SR04 Fritzing Part](https://github.com/tardate/LittleArduinoProjects/tree/main/FritzingParts)
 
 ![The Breadboard](./assets/RangeFinder_bb.jpg?raw=true)
@@ -34,6 +37,10 @@ NB: schematics use non-standard [HC-SR04 Fritzing Part](https://github.com/tarda
 ![The Schematic](./assets/RangeFinder_schematic.jpg?raw=true)
 
 ![The Build](./assets/RangeFinder_build.jpg?raw=true)
+
+### The Sketch
+
+See [RangeFinder.ino](./RangeFinder.ino).
 
 ## Credits and References
 
