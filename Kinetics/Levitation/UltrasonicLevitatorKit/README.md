@@ -1,6 +1,6 @@
 # #849 Ultrasonic Levitator Kit
 
-Building a cheap ultrasonic levitator kit to investigate and understand acoustic levitation.
+Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.
 
 ![Build](./assets/UltrasonicLevitatorKit_build.jpg?raw=true)
 

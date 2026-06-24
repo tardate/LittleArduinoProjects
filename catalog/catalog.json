@@ -1,8 +1,8 @@
 [
     {
         "name": "Ultrasonic Levitator Kit",
-        "description": "",
-        "categories": "Kinetics",
+        "description": "Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.",
+        "categories": "Kinetics, HC-SR04, STC15F101W, TC4427",
         "relative_path": "kinetics/levitation/ultrasoniclevitatorkit",
         "updated_at": "2026-06-24T03:30:00Z",
         "created_at": "2026-06-24T03:30:00Z",
@@ -8142,7 +8142,7 @@
     {
         "id": "#035",
         "name": "RangeFinder",
-        "description": "proximity/distance measurement with an HC-SR04 untrasonic ranging module",
+        "description": "Use an Arduino to measure range with an HC-SR04 ultrasonic ranging module and output to a 16x2 LCD.",
         "categories": "Sensors, Arduino, HC-SR04",
         "relative_path": "playground/rangefinder",
         "updated_at": "2018-04-15T01:28:17Z",

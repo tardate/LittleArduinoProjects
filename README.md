@@ -1,6 +1,6 @@
 # 849 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Ultrasonic Levitator Kit](./Kinetics/Levitation/UltrasonicLevitatorKit) - 
+> Latest addition :sparkles: [Ultrasonic Levitator Kit](./Kinetics/Levitation/UltrasonicLevitatorKit) - Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
