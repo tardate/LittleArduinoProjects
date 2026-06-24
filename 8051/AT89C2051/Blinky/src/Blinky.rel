@@ -114,7 +114,7 @@ A PSEG size 0 flags 50 addr 0
 A XSEG size 0 flags 40 addr 0
 A XABS size 0 flags 48 addr 0
 A XISEG size 0 flags 40 addr 0
-A HOME size 4C flags 20 addr 0
+A HOME size 4E flags 20 addr 0
 S sdcc_atomic_exchange_gptr_impl Def00002F
 S sdcc_atomic_compare_exchange_gptr_impl Def00003F
 S sdcc_atomic_exchange_rollback_start Def000008
@@ -197,8 +197,12 @@ T 00 00 00 02 00 49
 R 00 00 00 17 00 04 00 0F
 T 00 00 49
 R 00 00 00 0F
-T 00 00 49 02 00 00
+T 00 00 49 12 00 00
 R 00 00 00 0F 00 04 00 18
+T 00 00 4C
+R 00 00 00 0F
+T 00 00 4C 80 FE
+R 00 00 00 0F
 T 00 00 00
 R 00 00 00 18
 T 00 00 00
