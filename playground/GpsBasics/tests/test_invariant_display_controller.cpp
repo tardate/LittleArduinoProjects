@@ -26,7 +26,7 @@ TEST(BufferSafetyTest, DateFormatNeverOverflowsBuffer) {
             << "snprintf returned error for " << c.label;
         // snprintf returns the number of chars that *would* have been written;
         // if >= buffer size the output was truncated (overflow prevented but
-        // the invariant – full value fits – is violated).
+        // the invariant - full value fits - is violated).
         EXPECT_LT(written, DISPLAY_BUFFER_SIZE)
             << "Output would be truncated for " << c.label
             << " (year=" << c.year
@@ -63,11 +63,13 @@ TEST(BufferSafetyTest, TimeFormatNeverOverflowsBuffer) {
 
 // ---------------------------------------------------------------------------
 // Regression guard: the source file must use snprintf, not sprintf.
+// Reads ../display_controller.cpp (relative to the tests/ directory) and
+// checks that no bare sprintf() calls remain.
 // ---------------------------------------------------------------------------
 TEST(BufferSafetyTest, SourceFileUsesSnprintfNotSprintf) {
     FILE* f = fopen("../display_controller.cpp", "r");
     ASSERT_NE(f, nullptr)
-        << "Could not open ../display_controller.cpp – run tests from the "
+        << "Could not open ../display_controller.cpp - run tests from the "
            "playground/GpsBasics/tests/ directory";
 
     char line[512];
@@ -86,11 +88,11 @@ TEST(BufferSafetyTest, SourceFileUsesSnprintfNotSprintf) {
     fclose(f);
 
     EXPECT_FALSE(violation_found)
-        << "display_controller.cpp contains sprintf() without bounds checking. "
-           "Replace with snprintf().";
+        << "display_controller.cpp contains unsafe sprintf() calls. "
+           "Replace with snprintf() to prevent buffer overflows.";
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
