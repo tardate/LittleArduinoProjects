@@ -1,0 +1,9 @@
+{
+    "name": "CD4024 Counter",
+    "description": "Introducing the CD4024 7-stage binary counter with a basic demonstration circuit.",
+    "categories": "CMOS/TTL, 555 Timer, CD4024",
+    "relative_path": "Electronics101/CD4024/Counter",
+    "updated_at": "2026-07-01T07:45:00Z",
+    "created_at": "2026-07-01T07:45:00Z",
+    "id": "#850"
+}

@@ -61,7 +61,15 @@ Here's what it looks like:
 And here's a test of the 'save to USB device' to capture the screenshot.
 Unfortunately I still haven't figured out how to take the screenshot without the utility menu edging its way into the picture:
 
-![DDS Sine Trace Export](./assets/dds_sine.jpg?raw=true)
+![DDS Sine Trace Export](./assets/dds_sine.gif?raw=true)
+
+### Logic Analyzer
+
+The logic analyzer is connected with a 26-pin male IDC box header.
+Only the first 9 pins are significant: GND, D0-D7.
+The provided cable uses grey wires for D0-D7 and all other are black.
+
+![la-connector](./assets/la-connector.jpg)
 
 ### Conclusion .. For Now
 

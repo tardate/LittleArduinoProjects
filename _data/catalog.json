@@ -1,5 +1,15 @@
 [
     {
+        "name": "CD4024 Counter",
+        "description": "Introducing the CD4024 7-stage binary counter with a basic demonstration circuit.",
+        "categories": "CMOS/TTL, 555 Timer, CD4024",
+        "relative_path": "electronics101/cd4024/counter",
+        "updated_at": "2026-07-01T07:45:00Z",
+        "created_at": "2026-07-01T07:45:00Z",
+        "id": "#850",
+        "original_relative_path": "Electronics101/CD4024/Counter"
+    },
+    {
         "name": "Ultrasonic Levitator Kit",
         "description": "Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.",
         "categories": "Kinetics, HC-SR04, STC15F101W, TC4427",

@@ -39,7 +39,7 @@ We simply:
 * drive the clock with a 555 timer - in this case running at about [1.5Hz](https://visual555.tardate.com/?mode=astable&r1=2&r2=10&c=10).
 * wire an LED to each output Q0-Q9
 
-In this we can see the counter toggling the outputs from Q0 to Q9.
+In this way we can see the counter toggling the outputs from Q0 to Q9.
 
 ![bb](./assets/LedChaser_bb.jpg?raw=true)
 
