@@ -59,7 +59,11 @@ In practice, the xTool S1 is a huge advance over the previous cutters:
 
 ### Software
 
-The [xTool Creative Space software](https://www.xtool.com/pages/software) is a huge improvement over the old Inkscape extensions used to generate separate engraving and cutting [CNC G-code](https://en.wikipedia.org/wiki/G-code).
+When I first used the xTool S1, the software provided was called xTool Creative Space and used files with the extension `.xcs`.
+Even then it was a huge improvement over the old Inkscape extensions used to generate separate engraving and cutting [CNC G-code](https://en.wikipedia.org/wiki/G-code).
+
+The latest software is called [xTool Studio](https://www.xtool.com/pages/software) and the new file format has the extension `.xs`.
+Features:
 
 * Integrated vector editing support
 * Integrated laser cutter control
@@ -71,7 +75,7 @@ The [xTool Creative Space software](https://www.xtool.com/pages/software) is a h
 
 Note:
 
-* when importing from SVG, set the source document resolution to 72 DPI. This will ensure that objects remain at the same scale after import.
+* when importing from Inkscape SVG, set the source document resolution to 72 DPI. This will ensure that objects remain at the same scale after import.
 
 ### Recommended Settings
 
@@ -88,6 +92,14 @@ Note:
 | Clear Orange Acrylic | 3mm       | FAIR               | 40                     | 150                   | 50                    | 120                  | 60             | 100           | 100          | 6           | 3            |
 | Yellow Acrylic       | 3mm       | POOR               | 40                     | 150                   | 50                    | 120                  | 60             | 100           | 90           | 7           | 3            |
 | Grey Acrylic         | 3mm       | POOR               | 40                     | 150                   | 50                    | 100                  | 60             | 100           | 80           | 5           | 3            |
+
+### Clear Acrylic
+
+The xTool S1 can cut clear acrylic, but it depends on the installed laser module.
+Our libraries have the 40W diode laser which **cannot** cut clear acrylic reliably.
+Clear acrylic transmits the laser light instead of absorbing it, so the laser passes through with little effect.
+
+A CO₂ laser module is generally required to cut clear acrylic. The xTool S1 does not have this option.
 
 ## Credits and References
 
