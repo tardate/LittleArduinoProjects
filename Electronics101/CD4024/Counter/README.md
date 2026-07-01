@@ -1,4 +1,4 @@
-# #xxx CD4024 Counter
+# #850 CD4024 Counter
 
 Introducing the CD4024 7-stage binary counter with a basic demonstration circuit.
 
