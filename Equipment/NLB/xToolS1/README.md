@@ -95,8 +95,7 @@ Note:
 
 ### Clear Acrylic
 
-The xTool S1 can cut clear acrylic, but it depends on the installed laser module.
-Our libraries have the 40W diode laser which **cannot** cut clear acrylic reliably.
+Our libraries have the 40W diode laser option which **cannot** cut clear acrylic reliably.
 Clear acrylic transmits the laser light instead of absorbing it, so the laser passes through with little effect.
 
 A CO₂ laser module is generally required to cut clear acrylic. The xTool S1 does not have this option.
