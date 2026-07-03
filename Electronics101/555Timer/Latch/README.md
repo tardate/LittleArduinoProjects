@@ -35,6 +35,8 @@ How it works:
 
 ### Circuit Design
 
+Designed with Fritzing: see [Latch.fzz](./Latch.fzz).
+
 ![bb](./assets/Latch_bb.jpg?raw=true)
 
 ![schematic](./assets/Latch_schematic.jpg?raw=true)

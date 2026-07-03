@@ -28,7 +28,7 @@ In order to adjust duty cycle without adjusting frequency, it follows that:
 * if we decrease R1 by ∆Ω, we must increase R2 by ∆/2 Ω
 
 My objective here is "easy manual duty cycle adjustment" so I just want one control.
-This sounds like a job for a dual pole potentionmeter.
+This sounds like a job for a dual pole potentiometer.
 NB: an alternative approach with diode-controlled discharge circuit is [covered on the learnabout-electronics site](http://www.learnabout-electronics.org/Oscillators/osc44.php).
 
 If I had a dual-pole pot with one core of say 50kΩ and the other of 25kΩ, that would be perfect.
@@ -37,15 +37,15 @@ its resistance halved.
 
 ![Dual-pole Pot](./assets/VariableDutyCycle_pot.jpg?raw=true)
 
-One approach is to put one core in parallel with a fixed 50kΩ ressitor.
-This results in a slightly non-linear relationship between the limits, so it's only an aproximation:
+One approach is to put one core in parallel with a fixed 50kΩ resistor.
+This results in a slightly non-linear relationship between the limits, so it's only an approximation:
 
 [![R2 variation](./assets/parallel_plot.png?raw=true)](https://www.wolframalpha.com/input/?i=1%2F%281%2Fx+%2B+1%2F50%29%2C+x+%3E%3D0.0%2C+x%3C50.0)
 
 Here are the predicted minimum, maximum and mid-point duty cycles and corresponding frequency:
 
-| Set | R1   | R2   | C1   | Duty Cycle High % | Frequency |
-|-----|------|------|------|-------------------|-----------|
+| Set | R1   | R2   | C1   | Duty Cycle High %                                                                                              | Frequency                                                                                               |
+|-----|------|------|------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | min | 1kΩ  | 35kΩ | 10nF | [51%](https://www.wolframalpha.com/input/?i=%281k%CE%A9+%2B+35k%CE%A9%29%2F%281k%CE%A9+%2B+2+*+35k%CE%A9%29)   | [2028Hz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%281k%CE%A9+%2B+2+*+35k%CE%A9%29+*+10nF%29)  |
 | mid | 26kΩ | 27kΩ | 10nF | [67%](https://www.wolframalpha.com/input/?i=%2826k%CE%A9+%2B+25k%CE%A9%29%2F%2826k%CE%A9+%2B+2+*+25k%CE%A9%29) | [1800Hz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%2826k%CE%A9+%2B+2+*+27k%CE%A9%29+*+10nF%29) |
 | max | 51kΩ | 10kΩ | 10nF | [86%](https://www.wolframalpha.com/input/?i=%2851k%CE%A9+%2B+10k%CE%A9%29%2F%2851k%CE%A9+%2B+2+*+10k%CE%A9%29) | [2028Hz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%2851k%CE%A9+%2B+2+*+10k%CE%A9%29+*+10nF%29) |
@@ -59,11 +59,11 @@ It turns out my 50kΩ dual-pole pot only goes to a max of about 44kΩ. So I'm us
 According to my frequency counter, the circuit is running slightly faster than predicted by theory.
 However the stability of the frequency, and the variation as the resistance is changed are as expected.
 
-| Set | R1    | R2     | C1   | Duty Cycle (calc) | Frequency (calc) | Frequency (actual) |
-|-----|-------|--------|------|-------------------|------------------|--------------------|
-| min | 970Ω  | 32.3kΩ | 10nF | [51%](https://www.wolframalpha.com/input/?i=%28970%CE%A9+%2B+32.3k%CE%A9%29%2F%28970%CE%A9+%2B+2+*+32.3k%CE%A9%29)     | [2.2 kHz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%28970%CE%A9+%2B+2+*+32.3k%CE%A9%29+*+10nF%29)   |  2.75 kHz |
-| mid | 23kΩ  | 24.9kΩ | 10nF | [65.8%](https://www.wolframalpha.com/input/?i=%2823k%CE%A9+%2B+24.9k%CE%A9%29%2F%2823k%CE%A9+%2B+2+*+24.9k%CE%A9%29)   | [2.0 kHz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%2823k%CE%A9+%2B+2+*+24.9k%CE%A9%29+*+10nF%29)   |  2.55 kHz |
-| max | 45.1kΩ| 9.79kΩ | 10nF | [85%](https://www.wolframalpha.com/input/?i=%2845.1k%CE%A9+%2B+9.79k%CE%A9%29%2F%2845.1k%CE%A9+%2B+2+*+9.79k%CE%A9%29) | [2.2 kHz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%2845.1k%CE%A9+%2B+2+*+9.79k%CE%A9%29+*+10nF%29) |  2.75 kHz |
+| Set | R1    | R2     | C1   | Duty Cycle (calc)                                                                                                      | Frequency (calc)                                                                                             | Frequency (actual) |
+|-----|-------|--------|------|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
+| min | 970Ω  | 32.3kΩ | 10nF | [51%](https://www.wolframalpha.com/input/?i=%28970%CE%A9+%2B+32.3k%CE%A9%29%2F%28970%CE%A9+%2B+2+*+32.3k%CE%A9%29)     | [2.2 kHz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%28970%CE%A9+%2B+2+*+32.3k%CE%A9%29+*+10nF%29)   |  2.75 kHz          |
+| mid | 23kΩ  | 24.9kΩ | 10nF | [65.8%](https://www.wolframalpha.com/input/?i=%2823k%CE%A9+%2B+24.9k%CE%A9%29%2F%2823k%CE%A9+%2B+2+*+24.9k%CE%A9%29)   | [2.0 kHz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%2823k%CE%A9+%2B+2+*+24.9k%CE%A9%29+*+10nF%29)   |  2.55 kHz          |
+| max | 45.1kΩ| 9.79kΩ | 10nF | [85%](https://www.wolframalpha.com/input/?i=%2845.1k%CE%A9+%2B+9.79k%CE%A9%29%2F%2845.1k%CE%A9+%2B+2+*+9.79k%CE%A9%29) | [2.2 kHz](https://www.wolframalpha.com/input/?i=1.44+%2F+%28%2845.1k%CE%A9+%2B+2+*+9.79k%CE%A9%29+*+10nF%29) |  2.75 kHz          |
 
 ### Visual Demo
 
@@ -73,6 +73,8 @@ This would predict a basic frequency of around
 In practice, I'm seeing around 2Hz, as demonstrated [in the video](https://youtu.be/UJAR0J1mjsE).
 
 ## Construction
+
+Designed with Fritzing: see [VariableDutyCycle.fzz](./VariableDutyCycle.fzz).
 
 ![Breadboard](./assets/VariableDutyCycle_bb.jpg?raw=true)
 

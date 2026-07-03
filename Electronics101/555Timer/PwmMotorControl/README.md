@@ -29,6 +29,8 @@ the voltage spike as the motor load is switched.
 
 ## Construction
 
+Designed with Fritzing: see [PwmMotorControl.fzz](./PwmMotorControl.fzz).
+
 ![Breadboard](./assets/PwmMotorControl_bb.jpg?raw=true)
 
 ![Schematic](./assets/PwmMotorControl_schematic.jpg?raw=true)

@@ -51,6 +51,8 @@ The missing pulse detector:
 
 The monostable timing is set by R5/C2. These need to be adjusted so that the timing is longer than the expected period of incoming pulses. A practical missing pulse detector would switch R5 with a small fixed resistor (>=1kΩ) and a large potentiometer, and possible make C2 switchable between different "ranges" so that the sensitivity can be adjusted for the frequency of the signal being monitored.
 
+Designed with Fritzing: see [MissingPulseDetector.fzz](./MissingPulseDetector.fzz).
+
 ![bb](./assets/MissingPulseDetector_bb.jpg?raw=true)
 
 ![schematic](./assets/MissingPulseDetector_schematic.jpg?raw=true)

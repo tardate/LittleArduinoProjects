@@ -32,6 +32,8 @@ but once a duty cycle has been selected, the frequency can be adjusted without c
 Duty cycle adjustment as provided by VR2: a simple voltage divider with C2 for stability,
 setting the upper threshold limit of the 555 via the control voltage input.
 
+Designed with Fritzing: see [PrecisionVariableFrequencyFixedDuty.fzz](./PrecisionVariableFrequencyFixedDuty.fzz).
+
 ![Breadboard](./assets/PrecisionVariableFrequencyFixedDuty_bb.jpg?raw=true)
 
 ![Schematic](./assets/PrecisionVariableFrequencyFixedDuty_schematic.jpg?raw=true)

@@ -35,6 +35,8 @@ The second 555 timer provides the oscillator for the LEDs.
 * frequency is governed by R3/C2 (1MΩ, 220nF) [nominally 3.2Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1000&c=0.22)
 * is only enabled (vai pin 4) when the first 555 timer output is high
 
+Designed with Fritzing: see [AircraftNavigationLights.fzz](./AircraftNavigationLights.fzz).
+
 ![Breadboard](./assets/AircraftNavigationLights_bb.jpg?raw=true)
 
 ![Schematic](./assets/AircraftNavigationLights_schematic.jpg?raw=true)

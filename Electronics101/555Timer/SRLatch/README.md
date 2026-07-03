@@ -31,9 +31,11 @@ The trick is to essentially by-pass the "5-5-5" stacked comparators:
 * trigger (2) is the "set" input - normally pulled high, but when triggered (pulled low) will immediately set the internal SR Latch
 * reset (4) directly triggers the internal SR Latch reset when pulled low
 
-![555_simplified_schematic](./assets/555_simplified_schematic.png?raw=true)
+![555_simplified_schematic](../assets/555-simplified-schematic.jpg?raw=true)
 
 ## Construction
+
+Designed with Fritzing: see [SRLatch.fzz](./SRLatch.fzz).
 
 ![Breadboard](./assets/SRLatch_bb.jpg?raw=true)
 
@@ -45,5 +47,6 @@ The trick is to essentially by-pass the "5-5-5" stacked comparators:
 
 * [LM555 datasheet](https://www.futurlec.com/Linear/LM555CM.shtml)
 * [FLIP FLOP and MEMORY CELL](http://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50%20-%20555%20Circuits.html#15) - talkingelectronics
+* [555 Bistable Mode](https://www.555-timer-circuits.com/operating-modes.html) - 555-timer-circuits
 * [SR latch](https://en.wikibooks.org/wiki/Digital_Circuits/Latches#SR_latch) - wikibooks
 * [Flip-flop](http://en.wikipedia.org/wiki/Flip-flop_%28electronics%29) - wikipedia

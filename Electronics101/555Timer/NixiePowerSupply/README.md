@@ -10,7 +10,7 @@ I managed to get hold of some Nixie tubes (haven't exactly decided what I'm goin
 First step is to test them of course, and for that a high voltage (supposedly up to 180V DC) is required.
 
 Among the many examples, I found this interesting
-[instructable by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/)
+[instructables by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/)
 that used a 555 timer to drive a boost converter.
 NB: it seems this and most other 555 Nixie driver circuits are probably derived from Ronald Dekker's
 [A simple boost converter high voltage supply for NIXIEs](http://www.dos4ever.com/flyback/flyback.html#boost2).
@@ -82,7 +82,7 @@ Pins are as follows (numbered clock-wise when looking at the base)
 
 > Note - see below for a revised circuit design and test results based on observations with this first version of the circuit.
 
-I've used the schematic from the [instructable by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/)
+I've used the schematic from the [instructables by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/)
 with a few component variations including:
 
 * for the main boost converter components:
@@ -98,6 +98,8 @@ The currents and power consumption are reasonably low (peaking at 0.94W) so I'm 
 I'm using my [LEAP#407 DPS3005-based power supply](../../../Equipment/DPS3005BenchPowerSupply) for power, set for 9V with a 0.5A current limit just in case.
 
 Note that the danger of high-voltages are present. A nice feature of the circuit is that it does discharge capacitors on power-down.
+
+Designed with Fritzing: see [NixiePowerSupply.fzz](./NixiePowerSupply.fzz).
 
 ![Breadboard](./assets/NixiePowerSupply_bb.jpg?raw=true)
 
@@ -163,7 +165,7 @@ According to my power supply, it is delivering around 0.86W (9V at 96mA) at the 
 
 I'm doubting the accuracy not sure how accurate my oscilloscope is at those voltages,
 but they would indicate the IN-14 tube is only needing [0.2mA](https://www.wolframalpha.com/input/?i=(132V+-+130V)%2F10k%CE%A9)
-to light a digit. NB: I checked this with an ammeter and was a little suprised it's not far off - actually about 0.27mA.
+to light a digit. NB: I checked this with an ammeter and was a little surprised it's not far off - actually about 0.27mA.
 
 ## Circuit Design - Version 2
 
@@ -205,7 +207,7 @@ directly coupled to the MOSFET gate.
 It is apparent that the active pulldown circuit has no real impact on the input power consumption,
 but it does have the undesirable effect of actually reducing the Nixie current for the same power input.
 
-I think this confirms my suspicion - the active pulldown circuit is redundant with a 555 timer and can be jetisoned.
+I think this confirms my suspicion - the active pulldown circuit is redundant with a 555 timer and can be jettisoned.
 NB: it may still be relevant for other ICs used as switching controllers.
 
 ### RC Snubber
@@ -299,12 +301,14 @@ hence low values can lead to significant wasted power.
 I switched the astable configuration to 10kΩ/47kΩ/470pF which produces a similar base oscillation of
 [29kHz at 54% duty cycle](https://visual555.tardate.com/?mode=astable&r1=10&r2=47&c=0.00047).
 
-However I was non-plussed by the results - negligible improvement in efficiency (in the 0.1% range) -
+However I was nonplussed by the results - negligible improvement in efficiency (in the 0.1% range) -
 so I abandoned this idea.
 
 ### Version 2 Construction
 
-Removes active pulldown circuit and adjusts RC snubber component values
+Removes active pulldown circuit and adjusts RC snubber component values.
+
+Designed with Fritzing: see [NixiePowerSupply_v2.fzz](./NixiePowerSupply_v2.fzz).
 
 ![Breadboard](./assets/NixiePowerSupply_v2_bb.jpg?raw=true)
 
@@ -313,7 +317,7 @@ Removes active pulldown circuit and adjusts RC snubber component values
 ## Credits and References
 
 * [Nixie tube](https://en.wikipedia.org/wiki/Nixie_tube) - wikipedia
-* [A simple boost converter high voltage supply for NIXIEs](http://www.dos4ever.com/flyback/flyback.html#boost2) - perhaps one of the earliest exampels of a 555 boost circuit for Nixies
+* [A simple boost converter high voltage supply for NIXIEs](http://www.dos4ever.com/flyback/flyback.html#boost2) - perhaps one of the earliest examples of a 555 boost circuit for Nixies
 * [HIGH VOLTAGE POWER SUPPLY FOR NIXIE AND VALVE TUBES by Andrea Biffi](https://www.instructables.com/id/High-Voltage-Power-Supply-for-Nixie-and-Valve-Tube/) - instructables
 * [NIXIE TUBE HV DRIVER](https://www.instructables.com/id/Nixie-Tube-HV-Driver/) - another instructables, similar circuit
 * [Nixie Stuff](https://threeneurons.wordpress.com/nixie-power-supply/) - threeneurons

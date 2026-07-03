@@ -25,6 +25,8 @@ To improve the sensitivity, pin 2 could be pulled down via a transistor, with th
 
 ## Construction
 
+Designed with Fritzing: see [TouchSwitch.fzz](./TouchSwitch.fzz).
+
 ![Breadboard](./assets/TouchSwitch_bb.jpg?raw=true)
 
 ![The Schematic](./assets/TouchSwitch_schematic.jpg?raw=true)

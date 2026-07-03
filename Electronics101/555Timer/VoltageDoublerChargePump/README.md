@@ -56,6 +56,8 @@ Oscillator:
 
 ## Construction
 
+Designed with Fritzing: see [VoltageDoublerChargePump.fzz](./VoltageDoublerChargePump.fzz).
+
 ![Breadboard](./assets/VoltageDoublerChargePump_bb.jpg?raw=true)
 
 ![The Schematic](./assets/VoltageDoublerChargePump_schematic.jpg?raw=true)

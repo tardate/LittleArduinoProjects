@@ -21,11 +21,11 @@ Designed with Fritzing: see [BreadboardPulseGen.fzz](./BreadboardPulseGen.fzz).
 
 Expected frequency ranges:
 
-|Capacitor  | Min Frequency | Max Frequency |
-|-----------|---------------|---------------|
-|C1 - 10µF  |  [0.713 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=10) | [72 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=10) |
-|C2 - 1µF   |  [7.129 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=1) | [720 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=1) |
-|C3 - 100nF |  [71.287 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=0.1) | [7.2 kHz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=0.1) |
+|Capacitor  | Min Frequency                                                                 | Max Frequency                                                          |
+|-----------|-------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|C1 - 10µF  |  [0.713 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=10)     | [72 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=10)    |
+|C2 - 1µF   |  [7.129 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=1)      | [720 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=1)    |
+|C3 - 100nF |  [71.287 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=0.1)   | [7.2 kHz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=0.1) |
 |C4 - 10nF  |  [712.871 Hz](https://visual555.tardate.com/?mode=astable&r1=0&r2=101&c=0.01) | [72 kHz](https://visual555.tardate.com/?mode=astable&r1=0&r2=1&c=0.01) |
 
 ![bb](./assets/BreadboardPulseGen_bb.jpg?raw=true)

@@ -59,6 +59,8 @@ Here's a sample trace for [R1=10k, R2=330k and C1=2uF](https://visual555.tardate
 
 ### Construction
 
+Designed with Fritzing: see [AstableOscillator.fzz](./AstableOscillator.fzz).
+
 ![The Breadboard](./assets/AstableOscillator_bb.jpg?raw=true)
 
 ![The Schematic](./assets/AstableOscillator_schematic.jpg?raw=true)

@@ -1,4 +1,4 @@
-# #444 555Timer/VariableDutyCycle/DiodeSteering
+# #444 555 Diode Steering
 
 Using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator.
 
@@ -29,10 +29,11 @@ With R1 = 4.7kΩ, R2 = 100kΩ pot, and C1 = 1µF, I would expect frequency to be
 [13.75Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=1) with duty cycle ranging from
 around [4.5%](https://www.wolframalpha.com/input/?i=52.245*2+-+100) to almost 100%.
 
+Designed with Fritzing: see [DiodeSteering.fzz](./DiodeSteering.fzz).
+
 ![Schematic](./assets/DiodeSteering_schematic.jpg?raw=true)
 
 ![Breadboard](./assets/DiodeSteering_bb.jpg?raw=true)
-
 
 ## Results
 
@@ -44,8 +45,7 @@ In these traces, CH1 (yellow) is tracing the output, and CH2 (blue) to voltage a
 
 ![scope_95pc](./assets/scope_95pc.gif?raw=true)
 
-
-Some measuresments, showing that actual frequency is a little off the predicted [13.75Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=1) but remains quite stable over the full duty cycle range:
+Some measurements, showing that actual frequency is a little off the predicted [13.75Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=1) but remains quite stable over the full duty cycle range:
 
 | Duty  | Actual Frequency |
 |-------|------------------|
@@ -53,17 +53,16 @@ Some measuresments, showing that actual frequency is a little off the predicted 
 | 50.0% | 10.52Hz          |
 | 95.0% | 10.70Hz          |
 
-
 Testing some other capacitor values:
 
-| C1    | Actual Frequency | Predicted Frequency |
-|-------|------------------|---------------------|
-| 100nF | 164Hz          | [137Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.1) |
-| 10nF  | 1.4kHz         | [1.37kHz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.01) |
-| 1 nF  | 10.1kHz        | [13.7kHz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.001) |
+| C1    | Actual Frequency | Predicted Frequency                                                         |
+|-------|------------------|-----------------------------------------------------------------------------|
+| 100nF | 164Hz            | [137Hz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.1)     |
+| 10nF  | 1.4kHz           | [1.37kHz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.01)  |
+| 1 nF  | 10.1kHz          | [13.7kHz](https://visual555.tardate.com/?mode=astable&r1=4.7&r2=50&c=0.001) |
 
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Designing 555 Astables](http://www.learnabout-electronics.org/Oscillators/osc44.php) - learnabout-electronics
-* [555 Pulse Generator Circuit](https://www.electroschematics.com/5834/pulse-generator-with-555/) - electroschematics
+* Designing 555 Astables - <https://www.learnabout-electronics.org/Oscillators/osc44.php>
+* 555 Pulse Generator Circuit - <https://www.electroschematics.com/5834/pulse-generator-with-555/>

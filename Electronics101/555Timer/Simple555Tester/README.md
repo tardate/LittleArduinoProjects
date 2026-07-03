@@ -32,6 +32,8 @@ The circuit described uses
 [R1=1k, R2=150k and C1=10uF](https://visual555.tardate.com/?mode=astable&r1=1&r2=150&c=10),
 which results in a frequency of just about 0.5Hz and 50% duty cycle. i.e. one second on, one second off.
 
+Designed with Fritzing: see [Simple555Tester.fzz](./Simple555Tester.fzz).
+
 ![bb](./assets/Simple555Tester_bb.jpg?raw=true)
 
 ![schematic](./assets/Simple555Tester_schematic.jpg?raw=true)
@@ -52,13 +54,13 @@ So adding a SP3T switch to the control pin expands the test modes available:
 * output high
 * output low
 
-![555_internals](./assets/555_internals.jpg)
+![555_internals](../assets/555-simplified-schematic.jpg?raw=true)
 
 ### Protoboard Build
 
 Transferring the design to some protoboard...
 
-![protoboard_layout](./assets/protoboard_layout.jpg)
+![protoboard_layout](./assets/protoboard_layout.jpg?raw=true)
 
 ![Build](./assets/Simple555Tester_build.jpg?raw=true)
 

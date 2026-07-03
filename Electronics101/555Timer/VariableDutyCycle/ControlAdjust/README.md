@@ -1,4 +1,4 @@
-# #445 555Timer/VariableDutyCycle/ControlAdjust
+# #445 555 Control Adjustment
 
 Using the control pin to adjust duty cycle of a 555 Timer astable oscillator.
 
@@ -17,17 +17,17 @@ allowing the duty cycle to be vary above and below 50%.
 While this provides access to duty cycles below 50% (unlike the standard astable configuration),
 the disadvantage of this approach is that both duty cycle and frequency are affected.
 
-
 ## Construction
 
 The circuit is essentially the standard astable, but with the addition of adjustable control reference voltage.
+
+Designed with Fritzing: see [ControlAdjust.fzz](./ControlAdjust.fzz).
 
 ![Breadboard](./assets/ControlAdjust_bb.jpg?raw=true)
 
 ![Schematic](./assets/ControlAdjust_schematic.jpg?raw=true)
 
 ![Build](./assets/ControlAdjust_build.jpg?raw=true)
-
 
 ## Test Results
 
@@ -43,14 +43,13 @@ The minimum duty cycle possible with this astable configuration is 62.1%, at a f
 
 ![scope_62pc](./assets/scope_62pc.gif?raw=true)
 
-
-| Duty | Frequency | Note           |
-|------|-----------|----------------|
-| 34.4% | 19.92 Hz | Min duty cycle |
-| 52.3% | 14.4 Hz  |                |
-| 62.1% | 11.42 Hz | Max duty cycle |
+| Duty  | Frequency | Note           |
+|-------|-----------|----------------|
+| 34.4% | 19.92 Hz  | Min duty cycle |
+| 52.3% | 14.4 Hz   |                |
+| 62.1% | 11.42 Hz  | Max duty cycle |
 
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
-* [Designing 555 Astables](http://www.learnabout-electronics.org/Oscillators/osc44.php) - learnabout-electronics
+* Designing 555 Astables - <https://www.learnabout-electronics.org/Oscillators/osc44.php>

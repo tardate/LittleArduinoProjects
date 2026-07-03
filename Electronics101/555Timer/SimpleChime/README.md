@@ -21,6 +21,8 @@ can be replaced with a resistor if a fixed frequency is acceptable.
 
 ### Construction
 
+Designed with Fritzing: see [SimpleChime.fzz](./SimpleChime.fzz).
+
 ![The Breadboard](./assets/SimpleChime_bb.jpg?raw=true)
 
 ![The Schematic](./assets/SimpleChime_schematic.jpg?raw=true)
