@@ -1,0 +1,9 @@
+{
+    "name": "Minimal 555 A-Stable Oscillator",
+    "description": "Demonstrating the most minimal 555 oscillator configuration requiring just a single capacitor and resistor.",
+    "categories": "555 Timer, Oscillators",
+    "relative_path": "Electronics101/555Timer/AstableOscillator/Minimal",
+    "updated_at": "2026-07-03T10:58:00Z",
+    "created_at": "2026-07-03T10:58:00Z",
+    "id": "#851"
+}
