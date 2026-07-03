@@ -1594,7 +1594,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/slowglow2/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/slowglow2/assets/slowglow2_build.jpg</g:image_link>
     <updated>2025-03-19T16:41:00Z</updated>
-    <title>#714 SlowGlow2</title>
+    <title>#714 Slow Glow 2</title>
     <summary>A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/slowglow2/assets/slowglow2_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>

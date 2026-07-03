@@ -1361,7 +1361,7 @@
     },
     {
         "id": "#714",
-        "name": "SlowGlow2",
+        "name": "Slow Glow 2",
         "description": "A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.",
         "categories": "555 Timer, LED",
         "relative_path": "electronics101/555timer/slowglow2",
