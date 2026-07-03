@@ -2739,9 +2739,9 @@
     <link href="https://leap.tardate.com/electronics101/555timer/laserray/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/laserray/assets/laserray_build.jpg</g:image_link>
     <updated>2021-11-23T14:00:04Z</updated>
-    <title>#610 LaserRay</title>
-    <summary>Testing a laser ray light and sound effectbased on the 555 timer</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Testing a laser ray light and sound effectbased on the 555 timer&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/laserray/assets/laserray_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#610 Laser Ray</title>
+    <summary>Testing a laser ray light and sound effect based on the 555 timer</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing a laser ray light and sound effect based on the 555 timer&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/laserray/assets/laserray_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="Audio"/>
     <category term="LED"/>
@@ -4656,7 +4656,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/variabledutycycle/controladjust/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/variabledutycycle/controladjust/assets/controladjust_build.jpg</g:image_link>
     <updated>2019-01-01T13:26:18Z</updated>
-    <title>#445 VariableDutyCycle/ControlAdjust</title>
+    <title>#445 555 Control Adjustment</title>
     <summary>using the control pin to adjust duty cycle of a 555 Timer astable oscillator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using the control pin to adjust duty cycle of a 555 Timer astable oscillator&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/variabledutycycle/controladjust/assets/controladjust_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -4667,7 +4667,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/variabledutycycle/diodesteering/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/variabledutycycle/diodesteering/assets/diodesteering_build.jpg</g:image_link>
     <updated>2019-01-01T10:53:01Z</updated>
-    <title>#444 VariableDutyCycle/DiodeSteering</title>
+    <title>#444 555 Diode Steering</title>
     <summary>using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/variabledutycycle/diodesteering/assets/diodesteering_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -6141,7 +6141,7 @@
     <link href="https://leap.tardate.com/electronics101/555timer/digitallogicclock/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/digitallogicclock/assets/digitallogicclock_build.jpg</g:image_link>
     <updated>2017-05-22T12:36:50Z</updated>
-    <title>#319 DigitalLogicClock</title>
+    <title>#319 555 Digital Logic Clock</title>
     <summary>build a flexible, low-frequency digital logic clock module</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;build a flexible, low-frequency digital logic clock module&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/digitallogicclock/assets/digitallogicclock_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
@@ -6152,9 +6152,9 @@
     <link href="https://leap.tardate.com/electronics101/555timer/bistable/"/>
     <g:image_link>https://leap.tardate.com/electronics101/555timer/bistable/assets/bistable_build.jpg</g:image_link>
     <updated>2017-05-21T15:27:04Z</updated>
-    <title>#318 Bistable</title>
-    <summary>using the 555 timer as a bistable latch and button debouncer</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;using the 555 timer as a bistable latch and button debouncer&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/bistable/assets/bistable_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#318 555 Bistable Latch</title>
+    <summary>using the 555 timer as a bistable latch and button de-bouncer</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;using the 555 timer as a bistable latch and button de-bouncer&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/bistable/assets/bistable_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
   </entry>
   <entry>

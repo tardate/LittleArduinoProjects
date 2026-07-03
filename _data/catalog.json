@@ -2401,8 +2401,8 @@
     },
     {
         "id": "#610",
-        "name": "LaserRay",
-        "description": "Testing a laser ray light and sound effectbased on the 555 timer",
+        "name": "Laser Ray",
+        "description": "Testing a laser ray light and sound effect based on the 555 timer",
         "categories": "555 Timer, Audio, LED",
         "relative_path": "electronics101/555timer/laserray",
         "updated_at": "2021-11-23T14:00:04Z",
@@ -4051,7 +4051,7 @@
     },
     {
         "id": "#445",
-        "name": "VariableDutyCycle/ControlAdjust",
+        "name": "555 Control Adjustment",
         "description": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator",
         "categories": "555 Timer, Oscillators",
         "relative_path": "electronics101/555timer/variabledutycycle/controladjust",
@@ -4061,7 +4061,7 @@
     },
     {
         "id": "#444",
-        "name": "VariableDutyCycle/DiodeSteering",
+        "name": "555 Diode Steering",
         "description": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator",
         "categories": "555 Timer, Oscillators",
         "relative_path": "electronics101/555timer/variabledutycycle/diodesteering",
@@ -5311,7 +5311,7 @@
     },
     {
         "id": "#319",
-        "name": "DigitalLogicClock",
+        "name": "555 Digital Logic Clock",
         "description": "build a flexible, low-frequency digital logic clock module",
         "categories": "555 Timer, CMOS/TTL",
         "relative_path": "electronics101/555timer/digitallogicclock",
@@ -5321,8 +5321,8 @@
     },
     {
         "id": "#318",
-        "name": "Bistable",
-        "description": "using the 555 timer as a bistable latch and button debouncer",
+        "name": "555 Bistable Latch",
+        "description": "using the 555 timer as a bistable latch and button de-bouncer",
         "categories": "555 Timer",
         "relative_path": "electronics101/555timer/bistable",
         "updated_at": "2017-05-21T15:27:04Z",
