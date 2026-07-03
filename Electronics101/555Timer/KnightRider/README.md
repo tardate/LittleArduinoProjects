@@ -46,6 +46,8 @@ up the current, redundant steering diodes could be added, or the current-limitin
 
 ## Construction
 
+Designed with Fritzing: see [KnightRider.fzz](./KnightRider.fzz).
+
 ![Breadboard](./assets/KnightRider_bb.jpg?raw=true)
 
 ![The Schematic](./assets/KnightRider_schematic.jpg?raw=true)

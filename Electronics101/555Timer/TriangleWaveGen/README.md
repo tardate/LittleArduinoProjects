@@ -77,6 +77,8 @@ The Arduino only acts as a measurement device in this circuit.
 [LEAP#090 PlotNValues (a simple Processing sketch)](../../../playground/PlotNValues/)
 reads the data from the serial port and plots the input and output value over time, with some coloration effects thrown in for good measure. In other words, we're using Arduino and Processing as a basic oscilloscope! And it kind of works, mainly because the frequency is so low.
 
+Designed with Fritzing: see [TriangleWaveGen.fzz](./TriangleWaveGen.fzz).
+
 ![The Breadboard](./assets/TriangleWaveGen_bb.jpg?raw=true)
 
 ![The Schematic](./assets/TriangleWaveGen_schematic.jpg?raw=true)

@@ -19,6 +19,8 @@ The "glow" effect is achieved with a RC filter with time constant (𝛕) of abou
 
 ## Construction
 
+Designed with Fritzing: see [SlowGlow.fzz](./SlowGlow.fzz).
+
 ![Breadboard](./assets/SlowGlow_bb.jpg?raw=true)
 
 ![Schematic](./assets/SlowGlow_schematic.jpg?raw=true)

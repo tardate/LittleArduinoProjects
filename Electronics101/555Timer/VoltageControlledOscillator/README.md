@@ -20,7 +20,7 @@ The simplest, which I am testing here, is directly indicated in most 555 datashe
 
 The simplified schematic of the 555 shows the control terminal directly connected to the upper threshold of the internal three-way voltage divider:
 
-![555_schematic](./assets/555_schematic.png?raw=true)
+![555-simplified-schematic](../assets/555-simplified-schematic.jpg?raw=true)
 
 ### Test Circuit
 
@@ -88,6 +88,8 @@ Conclusions:
 ![scope_364](./assets/scope_364.gif?raw=true)
 
 ## Construction
+
+Designed with Fritzing: see [VoltageControlledOscillator.fzz](./VoltageControlledOscillator.fzz).
 
 ![Breadboard](./assets/VoltageControlledOscillator_bb.jpg?raw=true)
 

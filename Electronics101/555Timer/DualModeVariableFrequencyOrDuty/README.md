@@ -22,6 +22,8 @@ The circuit can be manually switched between variable duty cycle and variable fr
 I selected VR1 = 50kΩ, and C1 = 10µF for the build in order to keep down to very low frequencies so that the
 output LED indicator can be followed by eye.
 
+Designed with Fritzing: see [DualModeVariableFrequencyOrDuty.fzz](./DualModeVariableFrequencyOrDuty.fzz).
+
 ![Breadboard](./assets/DualModeVariableFrequencyOrDuty_bb.jpg?raw=true)
 
 ![Schematic](./assets/DualModeVariableFrequencyOrDuty_schematic.jpg?raw=true)
@@ -52,6 +54,7 @@ I only had a brief look at [Multisim Live](https://www.multisim.com/), but it se
 Here are the results and a glimpse of the user interface for the simulation of the circuit similar to the one shown here:
 
 [![multisim](./assets/multisim.jpg?raw=true)](https://www.multisim.com/content/UEmDRQGfeRsAAFSEX8kQTE/555-timer-variable-frequency-50-duty-cycle-constant-frequency-variable-duty-cycle-astable-multivibrator/open/)
+
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)

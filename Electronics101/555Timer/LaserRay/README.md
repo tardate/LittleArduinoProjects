@@ -1,6 +1,6 @@
 # #610 Laser Ray
 
-Testing a "laser ray" light and sound effectbased on the 555 timer.
+Testing a "laser ray" light and sound effect based on the 555 timer.
 
 ![Build](./assets/LaserRay_build.jpg?raw=true)
 
@@ -22,6 +22,8 @@ I've provided two power points:
 
 * micro USB with switch - taps 5V from USB
 * JST connector for direct power (bypasses the switch)
+
+Designed with Fritzing: see [LaserRay.fzz](./LaserRay.fzz).
 
 ![bb](./assets/LaserRay_bb.jpg?raw=true)
 

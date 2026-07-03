@@ -16,26 +16,26 @@ So far I've just tested this on a breadboard. If/when I can find a nice 4-positi
 
 Here are the theoretical minimum (Fmin) and maximum (Fmax) frequencies when duty cycle is adjusted as close to 50% as possible (i.e. when R2 is 10kΩ).
 
-| Cap Selection | Fmin | Fmax |
-|---------------|------|------|
-| 100µF | [0.470Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=100) | [0.697Hz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=100) |
-| 1µF   | [46.967Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=1) | [69.700Hz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=1) |
-| 100nF | [469.667Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1) | [696.999Hz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=0.1) |
-| 1nF   | [46.966kHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.001) | [71.216kHz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=0.001) |
+| Cap Selection | Fmin                                                                                         | Fmax                                                                                        |
+|---------------|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 100µF         | [0.470Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=100)     | [0.697Hz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=100)     |
+| 1µF           | [46.967Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=1)      | [69.700Hz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=1)      |
+| 100nF         | [469.667Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.1)   | [696.999Hz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=0.1)   |
+| 1nF           | [46.966kHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=10.22&c=0.001) | [71.216kHz @ 50.532%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=10.22&c=0.001) |
 
 Here are the theoretical minimum (Fmin) and maximum (Fmax) frequencies when duty cycle is not constrained (i.e. when R2 is 0kΩ).
 
-| Cap Selection | Fmin | Fmax |
-|---------------|------|------|
-| 100µF | [1.351Hz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=100) | [21.818Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=100) |
-| 1µF | [135.084Hz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=1) | [2.181kHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=1) |
-| 100nF | [1.350kHz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=0.1) | [21.818kHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=0.1) |
-| 1nF | [135.084kHz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=0.001) | [2.181MHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=0.001) |
+| Cap Selection | Fmin                                                                                         | Fmax                                                                                      |
+|---------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| 100µF         | [1.351Hz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=100)      | [21.818Hz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=100)   |
+| 1µF           | [135.084Hz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=1)      | [2.181kHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=1)     |
+| 100nF         | [1.350kHz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=0.1)     | [21.818kHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=0.1)  |
+| 1nF           | [135.084kHz @ 97.936%](https://visual555.tardate.com/?mode=astable&r1=10.22&r2=0.22&c=0.001) | [2.181MHz @ 66.667%](https://visual555.tardate.com/?mode=astable&r1=0.22&r2=0.22&c=0.001) |
 
 NB: the rated maximum frequency of the 555 timer is generally 500kHz, so theoretical values above that probably cannot be achieved.
 In practice, the highest reliable frequencies squeezed out of a 555 are typically in the order of 600-700kHz.
 
-Or more illustratively, we can use [wolframalpha to plot the frequency graph](https://www.wolframalpha.com/input/?i=plot3d+|+f+%3D+1%2F%28ln%282%29+*+c+*+%28r1+%2B+2*r2%29%29+|+r1+%3D+220+to+10220,+r2+%3D+220+to+10220,+c+%3D+1*10^-6)
+Or more illustratively, we can use [wolfram alpha to plot the frequency graph](https://www.wolframalpha.com/input/?i=plot3d+|+f+%3D+1%2F%28ln%282%29+*+c+*+%28r1+%2B+2*r2%29%29+|+r1+%3D+220+to+10220,+r2+%3D+220+to+10220,+c+%3D+1*10^-6)
 (for the case of C=1µF):
 
 ![frequency_graph](./assets/frequency_graph.png?raw=true)
@@ -46,6 +46,8 @@ And corresponding [duty cycle](https://www.wolframalpha.com/input/?i=plot3d+|+d+
 ![duty_cycle](./assets/duty_cycle.png?raw=true)
 
 ## Construction
+
+Designed with Fritzing: see [AdjustablePulseGenerator.fzz](./AdjustablePulseGenerator.fzz).
 
 ![Breadboard](./assets/AdjustablePulseGenerator_bb.jpg?raw=true)
 

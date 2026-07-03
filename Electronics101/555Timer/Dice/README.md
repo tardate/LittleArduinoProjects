@@ -78,12 +78,12 @@ The 7 LEDs correspond to the conventional spots on a die, arranged as follows:
 The LEDs are controlled in 4 groups by transistors.
 Steering diodes are used to control the transistors according to this table:
 
-| BJT      | LED1 | LED2 | LED3 | LED4 | LED5 | LED6 | LED7 | On for Qhi          |
-|----------|------|------|------|------|------|------|------|---------------------|
-| N1 (NPN) | X    |      |      |      |      |      | X    | Q0, Q3, Q4          |
+| BJT      | LED1 | LED2 | LED3 | LED4 | LED5 | LED6 | LED7 | On for Qhi              |
+|----------|------|------|------|------|------|------|------|-------------------------|
+| N1 (NPN) | X    |      |      |      |      |      | X    | Q0, Q3, Q4              |
 | N4 (NPN) |      | -X   |      |      |      | -X   |      | not Q5 (inverted logic) |
-| N2 (NPN) |      |      | X    |      | X    |      |      | Q4                  |
-| N3 (NPN) |      |      |      | X    |      |      |      | Q0, Q2, Q5          |
+| N2 (NPN) |      |      | X    |      | X    |      |      | Q4                      |
+| N3 (NPN) |      |      |      | X    |      |      |      | Q0, Q2, Q5              |
 
 The outputs from the 4017 decade counter are decoded thus:
 
@@ -136,6 +136,8 @@ The power-off timer obviously needs to be longer than the roll duration:
 
 ## Construction
 
+Designed with Fritzing: see [Dice.fzz](./Dice.fzz).
+
 ![Breadboard](./assets/Dice_bb.jpg?raw=true)
 
 ![The Schematic](./assets/Dice_schematic.jpg?raw=true)
@@ -160,8 +162,8 @@ All put together:
 
 ## Credits and References
 
-* [LED DICE (with Slow Down) Circuit](http://www.555-timer-circuits.com/led-dice.html) - 555-timer-circuits
-* [Electronic Dice Circuit](http://www.electroschematics.com/5011/electronic-dice/) - electroschematics
+* LED DICE (with Slow Down) Circuit - <http://www.555-timer-circuits.com/led-dice.html>
+* Electronic Dice Circuit - <http://www.electroschematics.com/5011/electronic-dice/>
 * [CD4017 datasheet](https://www.futurlec.com/4000Series/CD4017SMD.shtml)
 * [LM555 datasheet](https://www.futurlec.com/Linear/LM555CM.shtml)
 * [BS250 datasheet](https://www.futurlec.com/Transistors/BS250.shtml)

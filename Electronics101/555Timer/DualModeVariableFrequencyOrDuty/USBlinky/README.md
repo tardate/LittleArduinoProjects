@@ -17,7 +17,7 @@ I'm using the shell of an old [USB Webmail Notifier](http://www.usbgeek.com/prod
 It is curiously hypnotic to play with:
 
 * switch between variable frequency/fixed duty and variable duty/fixed frequency mode
-* use the variable resistor to adjust the frequencvy or duty (depending on mode)
+* use the variable resistor to adjust the frequency or duty (depending on mode)
 
 Four strawhat blue LEDs provide enough illumination for the shell, with fairly low current limiting resistors (100Ω).
 The 2N7000 has just enough current handling capability (200mA continuous) for the 4 LEDs.
@@ -25,6 +25,8 @@ The 2N7000 has just enough current handling capability (200mA continuous) for th
 ## Construction
 
 the circuit extends the [Dual Variable Mode Oscillator](../) circuit with a N-channel FET low-side controlled array of 4 LEDs.
+
+Designed with Fritzing: see [USBlinky.fzz](./USBlinky.fzz).
 
 ![Breadboard](./assets/USBlinky_bb.jpg?raw=true)
 

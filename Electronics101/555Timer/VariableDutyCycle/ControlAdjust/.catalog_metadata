@@ -1,6 +1,6 @@
 {
     "id": "#445",
-    "name": "VariableDutyCycle/ControlAdjust",
+    "name": "555 Control Adjustment",
     "description": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator",
     "categories": "555 Timer, Oscillators",
     "relative_path": "Electronics101/555Timer/VariableDutyCycle/ControlAdjust",

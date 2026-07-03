@@ -24,6 +24,8 @@ Certainly a better result than my previous Slow Glow circuit:
 
 ### Circuit Design
 
+Designed with Fritzing: see [SlowGlow2.fzz](./SlowGlow2.fzz).
+
 The original circuit was designed for 9V. To use with 9V, recommended to change R2 to something higher to avoid over-driving the LED e.g. 470Ω.
 
 With a 5V supply, it has just enough forward voltage to drive an LED

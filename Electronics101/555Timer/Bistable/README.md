@@ -1,6 +1,6 @@
-# #318 555Timer/Bistable
+# #318 555 Bistable Latch
 
-Using the 555 timer as a bistable latch (debouncer).
+Using the 555 timer as a bistable latch (de-bouncer).
 
 ![Build](./assets/Bistable_build.jpg?raw=true)
 
@@ -21,23 +21,25 @@ With pull-ups on both trigger and reset pins, the 555 is in a SET (output high) 
 A make-before-break single-pole double-throw switch is wired up to switch between grounding either the trigger and reset pin.
 This will toggle between SET and RESET, with debouncing since multiple pulses will effectively be ignored by the latch.
 
-## Performance
-
-The switch throw is effectively debouned - and despite using it rudely,
-I haven't been able to reproduce any bouncing input signals yet.
-
-However when zoomed in very tightly on a rising edge, there is not a very clean swing.
-This appears to be cross-over distortion on the 555 output.
-
-![scope-trigger](./assets/scope-trigger.gif?raw=true)
-
 ## Construction
+
+Designed with Fritzing: see [Bistable.fzz](./Bistable.fzz).
 
 ![Breadboard](./assets/Bistable_bb.jpg?raw=true)
 
 ![Schematic](./assets/Bistable_schematic.jpg?raw=true)
 
 ![Build](./assets/Bistable_build.jpg?raw=true)
+
+## Performance
+
+The switch throw is effectively debounced - and despite using it rudely,
+I haven't been able to reproduce any bouncing input signals yet.
+
+However when zoomed in very tightly on a rising edge, there is not a very clean swing.
+This appears to be cross-over distortion on the 555 output.
+
+![scope-trigger](./assets/scope-trigger.gif?raw=true)
 
 ## Credits and References
 

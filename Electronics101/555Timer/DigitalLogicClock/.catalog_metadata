@@ -1,6 +1,6 @@
 {
     "id": "#319",
-    "name": "DigitalLogicClock",
+    "name": "555 Digital Logic Clock",
     "description": "build a flexible, low-frequency digital logic clock module",
     "categories": "555 Timer, CMOS/TTL",
     "relative_path": "Electronics101/555Timer/DigitalLogicClock",

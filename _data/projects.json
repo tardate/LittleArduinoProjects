@@ -1305,7 +1305,7 @@
     },
     "/electronics101/555timer/slowglow2/": {
         "id": 714,
-        "title": "SlowGlow2",
+        "title": "Slow Glow 2",
         "summary": "A simple slowly-glowing LED effect using a 555 timer. This provides a better fade-in/fade-out than the Slow Glow circuit.",
         "tags": [
             "555 Timer",
@@ -2242,8 +2242,8 @@
     },
     "/electronics101/555timer/laserray/": {
         "id": 610,
-        "title": "LaserRay",
-        "summary": "Testing a laser ray light and sound effectbased on the 555 timer",
+        "title": "Laser Ray",
+        "summary": "Testing a laser ray light and sound effect based on the 555 timer",
         "tags": [
             "555 Timer",
             "Audio",
@@ -3829,7 +3829,7 @@
     },
     "/electronics101/555timer/variabledutycycle/controladjust/": {
         "id": 445,
-        "title": "VariableDutyCycle/ControlAdjust",
+        "title": "555 Control Adjustment",
         "summary": "using the control pin to adjust duty cycle of a 555 Timer astable oscillator",
         "tags": [
             "555 Timer",
@@ -3838,7 +3838,7 @@
     },
     "/electronics101/555timer/variabledutycycle/diodesteering/": {
         "id": 444,
-        "title": "VariableDutyCycle/DiodeSteering",
+        "title": "555 Diode Steering",
         "summary": "using diode steering to achieve adjustable duty cycle at fixed frequency in a 555 Timer astable oscillator",
         "tags": [
             "555 Timer",
@@ -5062,7 +5062,7 @@
     },
     "/electronics101/555timer/digitallogicclock/": {
         "id": 319,
-        "title": "DigitalLogicClock",
+        "title": "555 Digital Logic Clock",
         "summary": "build a flexible, low-frequency digital logic clock module",
         "tags": [
             "555 Timer",
@@ -5071,8 +5071,8 @@
     },
     "/electronics101/555timer/bistable/": {
         "id": 318,
-        "title": "Bistable",
-        "summary": "using the 555 timer as a bistable latch and button debouncer",
+        "title": "555 Bistable Latch",
+        "summary": "using the 555 timer as a bistable latch and button de-bouncer",
         "tags": [
             "555 Timer"
         ]

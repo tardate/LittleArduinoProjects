@@ -1,4 +1,4 @@
-# #319 555Timer/DigitalLogicClock
+# #319 555 Digital Logic Clock
 
 Build a flexible, low-frequency digital logic clock module.
 
@@ -64,6 +64,8 @@ solely based on NAND gates.
 ![DigitalLogicClock_logic](./assets/DigitalLogicClock_logic.jpg?raw=true)
 
 ## Construction
+
+Designed with Fritzing: see [DigitalLogicClock.fzz](./DigitalLogicClock.fzz).
 
 ![Breadboard](./assets/DigitalLogicClock_bb.jpg?raw=true)
 

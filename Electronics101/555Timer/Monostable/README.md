@@ -42,6 +42,8 @@ Here's a sample trace:
 
 ### Construction
 
+Designed with Fritzing: see [Monostable.fzz](./Monostable.fzz).
+
 ![The Breadboard](./assets/Monostable_bb.jpg?raw=true)
 
 ![The Schematic](./assets/Monostable_schematic.jpg?raw=true)

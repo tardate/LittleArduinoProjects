@@ -29,6 +29,8 @@ below the natural and harmonic frequencies. Well, we get a signal, but lots of n
 
 ## Construction
 
+Designed with Fritzing: see [AMTransmitter.fzz](./AMTransmitter.fzz).
+
 ![AMTransmitter_bb](./assets/AMTransmitter_bb.jpg?raw=true)
 
 ![AMTransmitter_schematic](./assets/AMTransmitter_schematic.jpg?raw=true)

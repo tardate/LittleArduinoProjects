@@ -34,6 +34,8 @@ Note: this is the same basic "ROULETTE Circuit" as found in many 555 circuit ref
 
 ## Construction
 
+Designed with Fritzing: see [RouletteKit.fzz](./RouletteKit.fzz).
+
 ![The Breadboard](./assets/RouletteKit_bb.jpg?raw=true)
 
 ![The Schematic](./assets/RouletteKit_schematic.jpg?raw=true)

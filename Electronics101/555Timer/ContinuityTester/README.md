@@ -10,7 +10,7 @@ Here's a quick demo..
 
 ## Notes
 
-This cicruit is based on a [circuit from www.555-timer-circuits.com](http://www.555-timer-circuits.com/continuity-tester.html),
+This circuit is based on a [circuit from www.555-timer-circuits.com](http://www.555-timer-circuits.com/continuity-tester.html),
 but with a few modifications. It uses a 555 timer to generate the "continuity" tone, and has the nice property that
 power is normally off until continuity detected (a good battery saver).
 
@@ -25,7 +25,7 @@ Key modifications from the original circuit:
 * replaced the speaker driver with an N-FET/piezo output
 * added an LED indicator
 * changed the continuity switching circuit to an N-FET/P-FET combination geared for detecting only low resistance paths
-* components selected/tested for operating from a 3V batttery
+* components selected/tested for operating from a 3V battery
 
 Note: the 555 is typically rated to required 4.5V minimum, so operating at 3V is testing the limits. In practice,
 it seems to operate sufficiently well in this application.
@@ -34,13 +34,13 @@ The continuity detection is a simple low/high FET switch with probes completing 
 
 * I'm using MOSFETs to assist with getting a reasonably sharp on/off transition
 * the continuity probes complete the pull-up of the first n-channel MOSFET (Q1)
-  * R1 and R2 are selected so that a low resistance between the probes will turn on the FET
-  * but a probe resistance above aroung 200Ω will be too high to generate a sufficient gate voltage to turn on the FET
-  * R1 and R2 are quite low values in order for low probe resistances to effect a relatively steep voltage curve
-  * when in use, this means up to [5mA](https://www.wolframalpha.com/input/?i=3V%2F%28220%CE%A9%2B330%CE%A9%29) dissipated through the probes - not great for efficiency
+    * R1 and R2 are selected so that a low resistance between the probes will turn on the FET
+    * but a probe resistance above around 200Ω will be too high to generate a sufficient gate voltage to turn on the FET
+    * R1 and R2 are quite low values in order for low probe resistances to effect a relatively steep voltage curve
+    * when in use, this means up to [5mA](https://www.wolframalpha.com/input/?i=3V%2F%28220%CE%A9%2B330%CE%A9%29) dissipated through the probes - not great for efficiency
 * since the voltage divider approach is setup for a small on-resistance band, it typically doesn't turn the N-FET fully "on",
-  * to compensate for this, I have it in turn switching a p-channel FET
-  * the P-FET has a high value pull-up resistor, so only a modest signal from the N-FET will switch the P-FET on hard (and hence the buzzer circuit)
+    * to compensate for this, I have it in turn switching a p-channel FET
+    * the P-FET has a high value pull-up resistor, so only a modest signal from the N-FET will switch the P-FET on hard (and hence the buzzer circuit)
 
 An afterthought that I haven't had a chance to test yet: I could probably put another resistor at the source of Q1 and use it as a virtual ground for the
 probe/pull-up; as long as this still allows enough headroom for sufficient Vgs, it should achieve the low resistance threshold while also minimising power loss
@@ -53,6 +53,8 @@ An alternative and more precise detection circuit would probably employ a compar
 
 I've stuck with the FET switch approach for simplicity and low component count.
 
+Designed with Fritzing: see [ContinuityTester.fzz](./ContinuityTester.fzz).
+
 ![Breadboard](./assets/ContinuityTester_bb.jpg?raw=true)
 
 ![Schematic](./assets/ContinuityTester_schematic.jpg?raw=true)
@@ -63,7 +65,7 @@ Testing on a breadboard:
 
 ## Tester in a Bottle
 
-I dediced to squeeze a freeform version of the circuit into an old solder tube..
+I decided to squeeze a freeform version of the circuit into an old solder tube..
 
 ![assembly_1](./assets/assembly_1.jpg?raw=true)
 

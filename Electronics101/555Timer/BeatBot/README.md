@@ -24,6 +24,8 @@ The synchronized hand-waving uses another monostable 555 timer to pulse a soleno
 
 ## Construction
 
+Designed with Fritzing: see [BeatBot.fzz](./BeatBot.fzz).
+
 ![Breadboard](./assets/BeatBot_bb.jpg?raw=true)
 
 ![Schematic](./assets/BeatBot_schematic.jpg?raw=true)
