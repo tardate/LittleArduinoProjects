@@ -1,0 +1,6 @@
+{
+    "name": "CD4020 Counter",
+    "description": "Introducing the CD4020 14-stage binary counter with a basic demonstration circuit.",
+    "categories": "CMOS/TTL, 555 Timer, CD4020",
+    "relative_path": "Electronics101/CD4020/Counter"
+}
