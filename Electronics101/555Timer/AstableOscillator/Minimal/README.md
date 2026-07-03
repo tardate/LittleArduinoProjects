@@ -6,17 +6,16 @@ Demonstrating the most minimal 555 oscillator configuration requiring just a sin
 
 ## Notes
 
-The conventional 555 astable oscillator configuration uses two resistors and a capacitor to select the frequency and duty cycle,
-as covered in [LEAP#016 555 Timer - A-Stable Oscillator](../).
+The conventional 555 astable oscillator configuration uses two resistors and a capacitor to set the frequency and duty cycle, as covered in [LEAP#016 555 Timer - A-Stable Oscillator](../).
 
-There is a simpler configuration using just a single resistor and capacitor,
-and uses the output to charge and discharge rather than the built-in discharge circuit.
+There is a simpler configuration using just a single resistor and capacitor.
+It uses the output to charge and discharge rather than the built-in discharge pin.
 
 The circuit has the the advantage of simplicity and low parts count.
 The main disadvantage is that the behaviour is highly dependent upon the output load.
 Also, most 555 calculators cannot handle the configuration, so setting frequency and duty cycle is usually left to experimentation.
 
-This is most commonly seen in circuits where the 555 is used to provide a trigger to a digital circuit, where the duty cycle is irrelevant, and the next stage present a relatively high impedance to the 555 output.
+This configuration is most commonly seen in circuits where the 555 is used to provide a trigger to a digital circuit. In these cases, the duty cycle is irrelevant, and the next stage presents a relatively high impedance to the 555 output.
 
 ### Circuit Design
 
