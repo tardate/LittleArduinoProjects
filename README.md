@@ -1,6 +1,6 @@
-# 851 Little Electronic Art Projects
+# 852 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Minimal 555 A-Stable Oscillator](./Electronics101/555Timer/AstableOscillator/Minimal) - Demonstrating the most minimal 555 oscillator configuration requiring just a single capacitor and resistor.
+> Latest addition :sparkles: [CD4020 Counter](./Electronics101/CD4020/Counter) - Introducing the CD4020 14-stage binary counter with a basic demonstration circuit.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

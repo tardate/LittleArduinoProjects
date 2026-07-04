@@ -35,14 +35,13 @@ Designed with Fritzing: see [Counter.fzz](./Counter.fzz).
 
 ![schematic](./assets/Counter_schematic.jpg?raw=true)
 
-Setup on a breadboard. For demonstration purposes
-I have attached
+Setup on a breadboard. For demonstration purposes I have attached
 [LEAP#791 555 Breadboard Pulse Generator](../../555Timer/BreadboardPulseGen/)
 to provide the clock signal.
 
 ![bb_build](./assets/Counter_bb_build.jpg?raw=true)
 
-### Measuring the Ouput
+### Measuring the Output
 
 I've attached a logic analyzer to measure the output transitions:
 
