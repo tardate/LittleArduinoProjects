@@ -1,4 +1,4 @@
-# #xxx CD4020 Counter
+# #852 CD4020 Counter
 
 Introducing the CD4020 14-stage binary counter with a basic demonstration circuit.
 
