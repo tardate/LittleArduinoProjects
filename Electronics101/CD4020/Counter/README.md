@@ -57,4 +57,4 @@ Circuit with logic analyzer attached:
 
 ## Credits and References
 
-* [CD4024 datasheet](https://www.futurlec.com/4000Series/CD4020.shtml)
+* [CD4020 datasheet](https://www.futurlec.com/4000Series/CD4020.shtml)
