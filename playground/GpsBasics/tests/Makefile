@@ -12,9 +12,9 @@
 #   brew install googletest
 
 CXX      ?= g++
-# -I. resolves stub headers (Arduino.h, TinyGPS++.h, etc.) before system paths.
+# -Istubs resolves stub headers (Arduino.h, TinyGPS++.h, etc.) before system paths.
 # -I.. resolves display_controller.h from the parent directory.
-CXXFLAGS  = -std=c++17 -Wall -Wextra -I. -I..
+CXXFLAGS  = -std=c++17 -Wall -Wextra -Istubs -I..
 
 # Detect GoogleTest via pkg-config; fall back to conventional system paths.
 GTEST_CFLAGS := $(shell pkg-config --cflags gtest 2>/dev/null)
