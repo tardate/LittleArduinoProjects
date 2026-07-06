@@ -1,4 +1,4 @@
-# Makefile for display_controller buffer-safety tests
+# Makefile for DisplayController behavioural tests
 # Run from this directory: make test
 #
 # Dependencies:
@@ -12,15 +12,17 @@
 #   brew install googletest
 
 CXX      ?= g++
-CXXFLAGS  = -std=c++11 -Wall -Wextra
+# -I. resolves stub headers (Arduino.h, TinyGPS++.h, etc.) before system paths.
+# -I.. resolves display_controller.h from the parent directory.
+CXXFLAGS  = -std=c++17 -Wall -Wextra -I. -I..
 
 # Detect GoogleTest via pkg-config; fall back to conventional system paths.
 GTEST_CFLAGS := $(shell pkg-config --cflags gtest 2>/dev/null)
 GTEST_LIBS   := $(shell pkg-config --libs gtest_main 2>/dev/null || \
                         echo "-lgtest -lgtest_main -lpthread")
 
-TEST_SRC = test_invariant_display_controller.cpp
-TEST_BIN = test_invariant_display_controller
+TEST_SRC = test_display_controller.cpp
+TEST_BIN = test_display_controller
 
 .PHONY: all test clean
 
