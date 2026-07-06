@@ -52,6 +52,10 @@ Under test, works well when powered from 9V to 12V:
 
 ![Build](./assets/LedCube_build.jpg?raw=true)
 
+Not a bad result for just 4 components and the LEDs!
+
+![demo1](./assets/demo1.jpg)
+
 ## Credits and References
 
 * [LM555 Datasheet](https://www.futurlec.com/Linear/LM555CN.shtml)
