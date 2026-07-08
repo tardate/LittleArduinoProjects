@@ -2,7 +2,7 @@
   QuadNOR
   Demo cascading NOR gate logic.
 
-  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/QuadNOR
+  For info and circuit diagrams see https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/74LS02/QuadNOR
 
  */
 
@@ -10,7 +10,7 @@
 #define INPUT_B1 7
 #define INPUT_A2 8
 #define INPUT_B2 9
-#define STEP_DELAY 135
+#define STEP_DELAY 20
 
 void setup() {
   pinMode(INPUT_A1, OUTPUT);

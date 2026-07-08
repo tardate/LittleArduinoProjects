@@ -7476,11 +7476,12 @@
     },
     "/electronics101/74ls02/quadnor/": {
         "id": 73,
-        "title": "QuadNOR",
-        "summary": "demo simple cascading NOR gate logic with the 74LS02 and an Arduino",
+        "title": "4-input NOR Gate",
+        "summary": "Demonstrates building a 4-input NOR gate from 74LS02 NOR gates and an 74LS08 AND gate, with test automation using an Arduino.",
         "tags": [
             "CMOS/TTL",
             "74LS02",
+            "74LS08",
             "Arduino"
         ]
     },
