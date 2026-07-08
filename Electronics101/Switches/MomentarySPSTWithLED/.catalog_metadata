@@ -1,0 +1,6 @@
+{
+    "name": "SPST Momentary Push-buttons with LED",
+    "description": "Testing some push-button switches with built-in LEDs. I've used a CD4069 inverter-based latching circuit to demonstrate toggling the LED on and off.",
+    "categories": "Switches, LED, CD4069",
+    "relative_path": "Electronics101/Switches/MomentarySPSTWithLED"
+}
