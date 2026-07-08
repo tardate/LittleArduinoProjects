@@ -1,12 +1,15 @@
-# #072 NOR7402 - 74LS02 Quad 2-input NOR gate test
+# #072 74LS02 Quad 2-input NOR gate test
 
 Use an Arduino to demonstrate a basic 74LS02 Quad 2-input NOR gate circuit, and plot the results with [Processing](https://www.processing.org).
 
-![The Build](./assets/NOR_build.jpg?raw=true)
+![Build](./assets/NOR_build.jpg?raw=true)
 
 ## Notes
 
-The 74LS02 Quad 2-input NOR gate is from the [7400 series](http://en.wikipedia.org/wiki/7400_series) of TTL integrated circuits.
+The 74LS02 Quad 2-input NOR gate is from the [7400 series](https://en.wikipedia.org/wiki/7400-series_integrated_circuits) of TTL integrated circuits.
+
+![ref](../assets/74ls02-ref.jpg)
+
 "Quad 2-input" means it contains four independent gates each with 2 inputs.
 "74LS" means this is Low-power Schottky sub-family device (reduced power consumption and switching speed compared to 74S)
 
@@ -56,4 +59,4 @@ The HIGH output voltage measures at 3.42V (a tad over typical value according to
 ## Credits and References
 
 * [74LS02 datasheet](https://www.futurlec.com/74LS/74LS02.shtml)
-* [7400 series](../../notebook/logic_families/)
+* [7400 series](../../../notebook/logic_families/)

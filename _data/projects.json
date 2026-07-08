@@ -7474,23 +7474,24 @@
             "Arduino"
         ]
     },
-    "/electronics101/quadnor/": {
+    "/electronics101/74ls02/quadnor/": {
         "id": 73,
         "title": "QuadNOR",
         "summary": "demo simple cascading NOR gate logic with the 74LS02 and an Arduino",
         "tags": [
             "CMOS/TTL",
+            "74LS02",
             "Arduino"
         ]
     },
     "/electronics101/74ls02/nor/": {
         "id": 72,
-        "title": "NOR7402",
+        "title": "74LS02 Quad 2-input NOR gate test",
         "summary": "demo the 74LS02 Quad 2-input NOR gate with an Arduino",
         "tags": [
             "CMOS/TTL",
-            "Arduino",
-            "74LS02"
+            "74LS02",
+            "Arduino"
         ]
     },
     "/playground/attiny/tinyblink/": {
@@ -7923,12 +7924,13 @@
             "Linear Regulator"
         ]
     },
-    "/electronics101/quadlatch/": {
+    "/electronics101/74ls75/quadlatch/": {
         "id": 25,
         "title": "Quad Latch",
         "summary": "graph the basic operation of the 74LS75 4-bit bistable latch",
         "tags": [
-            "CMOS/TTL"
+            "CMOS/TTL",
+            "74LS75"
         ]
     },
     "/electronics101/resistortransistorlogic/and/": {

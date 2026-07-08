@@ -10,6 +10,8 @@ Here's a quick video of the circuit in action:
 
 The 74LS75 Quad Latch is a 4-bit bistable latch from the [7400 series](http://en.wikipedia.org/wiki/List_of_7400_series_integrated_circuits) of TTL integrated circuits.
 
+![ref](../assets/74LS75-ref.jpg)
+
 This circuit demonstrates the basic operation. It uses the Arduino to latch a data series to the 4 input pins (D1-D4), while sampling the 4 output bits Q1-4.
 The 7475 also handily offers inverted output pins, but they are not used here.
 
