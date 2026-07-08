@@ -17,6 +17,8 @@ Key Specifications:
 * Propagation delay LOW-HIGH: 5-25ns
 * Propagation delay HIGH-LOW: 5-33ns
 
+![ref](../assets/74ls14-ref.jpg)
+
 ### Test Circuit: The Schmitt Oscillator
 
 > Note: I've covered this circuit before in

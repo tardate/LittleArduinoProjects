@@ -6,8 +6,9 @@ Simple pulse trigger using 74LS122 monostable with external timing configuration
 
 ## Notes
 
-The 74LS122 monostable multivibrator in this circuit has pulse width programmed by selection of external resistance and capacitance values
-R2 and C2. Pulse width is given as:
+![ref](../assets/74ls122-ref.jpg)
+
+The 74LS122 monostable multivibrator in this circuit has pulse width programmed by selection of external resistance and capacitance values R2 and C2. Pulse width is given as:
 
     tW = K * R2 * C2
     => where K is nominally 0.45. If C2 is in μF and R2 is in kΩ then tW is in seconds

@@ -9049,14 +9049,16 @@
     <category term="Arduino"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/quadnor/</id>
-    <link href="https://leap.tardate.com/electronics101/quadnor/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/quadnor/assets/quadnor_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/74ls02/quadnor/</id>
+    <link href="https://leap.tardate.com/electronics101/74ls02/quadnor/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74ls02/quadnor/assets/quadnor_build.jpg</g:image_link>
     <updated>2017-05-24T15:39:45Z</updated>
-    <title>#073 QuadNOR</title>
-    <summary>demo simple cascading NOR gate logic with the 74LS02 and an Arduino</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;demo simple cascading NOR gate logic with the 74LS02 and an Arduino&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/quadnor/assets/quadnor_build.jpg" /&gt;&lt;/div&gt;</content>
+    <title>#073 4-input NOR Gate</title>
+    <summary>Demonstrates building a 4-input NOR gate from 74LS02 NOR gates and an 74LS08 AND gate, with test automation using an Arduino.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Demonstrates building a 4-input NOR gate from 74LS02 NOR gates and an 74LS08 AND gate, with test automation using an Arduino.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/74ls02/quadnor/assets/quadnor_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="74LS02"/>
+    <category term="74LS08"/>
     <category term="Arduino"/>
   </entry>
   <entry>
@@ -9064,12 +9066,12 @@
     <link href="https://leap.tardate.com/electronics101/74ls02/nor/"/>
     <g:image_link>https://leap.tardate.com/electronics101/74ls02/nor/assets/nor_build.jpg</g:image_link>
     <updated>2017-05-24T15:39:45Z</updated>
-    <title>#072 NOR7402</title>
+    <title>#072 74LS02 Quad 2-input NOR gate test</title>
     <summary>demo the 74LS02 Quad 2-input NOR gate with an Arduino</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;demo the 74LS02 Quad 2-input NOR gate with an Arduino&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/74ls02/nor/assets/nor_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
-    <category term="Arduino"/>
     <category term="74LS02"/>
+    <category term="Arduino"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/attiny/tinyblink/</id>
@@ -9594,14 +9596,15 @@
     <category term="Linear Regulator"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/quadlatch/</id>
-    <link href="https://leap.tardate.com/electronics101/quadlatch/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/quadlatch/assets/quadlatch_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/74ls75/quadlatch/</id>
+    <link href="https://leap.tardate.com/electronics101/74ls75/quadlatch/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/74ls75/quadlatch/assets/quadlatch_build.jpg</g:image_link>
     <updated>2017-05-24T15:39:45Z</updated>
     <title>#025 Quad Latch</title>
     <summary>graph the basic operation of the 74LS75 4-bit bistable latch</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;graph the basic operation of the 74LS75 4-bit bistable latch&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/quadlatch/assets/quadlatch_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;graph the basic operation of the 74LS75 4-bit bistable latch&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/74ls75/quadlatch/assets/quadlatch_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="CMOS/TTL"/>
+    <category term="74LS75"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/resistortransistorlogic/and/</id>
