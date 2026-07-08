@@ -167,6 +167,53 @@ And details logged to serial output:
 
 ![console](./assets/console.png?raw=true)
 
+## Tests
+
+Unit tests for the `DisplayController` class are in the `tests/` directory.
+They compile `display_controller.cpp` against lightweight desktop stubs for the Arduino and GPS libraries,
+and verify formatted output behaviour.
+
+### Prerequisites
+
+GoogleTest is required:
+
+```sh
+# macOS (Homebrew)
+brew install googletest
+
+# Debian/Ubuntu
+sudo apt-get install libgtest-dev
+```
+
+### Running
+
+```sh
+cd playground/GpsBasics/tests
+make test
+```
+
+### Example Output
+
+```
+[==========] Running 6 tests from 1 test suite.
+[----------] 6 tests from DisplayControllerTest
+[ RUN      ] DisplayControllerTest.UpdateFormatsDateCorrectly
+[       OK ] DisplayControllerTest.UpdateFormatsDateCorrectly (0 ms)
+[ RUN      ] DisplayControllerTest.UpdateFormatsTimeCorrectly
+[       OK ] DisplayControllerTest.UpdateFormatsTimeCorrectly (0 ms)
+[ RUN      ] DisplayControllerTest.UpdateSkipsDateWhenInvalid
+[       OK ] DisplayControllerTest.UpdateSkipsDateWhenInvalid (0 ms)
+[ RUN      ] DisplayControllerTest.UpdateSkipsTimeWhenInvalid
+[       OK ] DisplayControllerTest.UpdateSkipsTimeWhenInvalid (0 ms)
+[ RUN      ] DisplayControllerTest.DateFormatFitsIn32ByteBuffer
+[       OK ] DisplayControllerTest.DateFormatFitsIn32ByteBuffer (0 ms)
+[ RUN      ] DisplayControllerTest.TimeFormatFitsIn32ByteBuffer
+[       OK ] DisplayControllerTest.TimeFormatFitsIn32ByteBuffer (0 ms)
+[----------] 6 tests from DisplayControllerTest (0 ms total)
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+```
+
 ## Construction
 
 ![Breadboard](./assets/GpsBasics_bb.jpg?raw=true)
