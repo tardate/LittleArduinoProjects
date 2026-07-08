@@ -13,8 +13,8 @@
 
 CXX      ?= g++
 # -Istubs resolves stub headers (Arduino.h, TinyGPS++.h, etc.) before system paths.
-# -I.. resolves display_controller.h from the parent directory.
-CXXFLAGS  = -std=c++17 -Wall -Wextra -Istubs -I..
+# -I../GpsBasics resolves display_controller.h from the Arduino project directory.
+CXXFLAGS  = -std=c++17 -Wall -Wextra -Istubs -I../GpsBasics
 
 # Detect GoogleTest via pkg-config; fall back to conventional system paths.
 GTEST_CFLAGS := $(shell pkg-config --cflags gtest 2>/dev/null)

@@ -52,7 +52,7 @@ $ ls -1 /dev/cu*
 /dev/cu.wchusbserial14530 # <- this one (it appeared after connecting the module)
 ```
 
-The simplest way of getting connected on MacOSX is to use screen, at 9600 baud:
+The simplest way of getting connected on macOS is to use screen, at 9600 baud:
 
 ```sh
 $ screen /dev/cu.wchusbserial14530 9600
@@ -144,7 +144,10 @@ on pins other than 0/1.
 
 ## Code
 
-The [GpsBasics.ino](./GpsBasics.ino) sketch is a simple demonstration, heavily influenced by the TinyGPSPlus examples.
+The code is a simple demonstration, heavily influenced by the TinyGPSPlus examples. It comprises:
+
+* [GpsBasics.ino](./GpsBasics/GpsBasics.ino) - main sketch
+* [display_controller.h](./GpsBasics/display_controller.h) / [display_controller.cpp](./GpsBasics/display_controller.cpp) - abstracts the Nokia 5110 display operations
 
 I'm using an Arduino with [Nokia 5110 Shield](../Lcd5110/DIYShield), so in addition to logging detailed GPS readings
 to the serial port, it displays the basic time and location information on the LCD.
@@ -153,7 +156,7 @@ to the serial port, it displays the basic time and location information on the L
 
 * [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus) - for decoding NEMA data
 * [SoftwareSerial](https://www.arduino.cc/en/Reference/SoftwareSerial) - to communicate with the GPS module on arbitrary pins
-* [SPI](https://www.arduino.cc/en/Reference/SPI) - LCD communciations
+* [SPI](https://www.arduino.cc/en/Reference/SPI) - LCD communications
 * [Adafruit_GFX](https://github.com/adafruit/Adafruit-GFX-Library) - LCD graphics support
 * [Adafruit_PCD8544](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) - LCD display driver
 
@@ -167,11 +170,28 @@ And details logged to serial output:
 
 ![console](./assets/console.png?raw=true)
 
+## Construction
+
+![Breadboard](./assets/GpsBasics_bb.jpg?raw=true)
+
+![Schematic](./assets/GpsBasics_schematic.jpg?raw=true)
+
+### Pin Connections
+
+| Module | Schematic Label | Arduino | Script Label |
+|--------|-----------------|---------|--------------|
+| VCC    | VCC             | 5v      | -            |
+| GND    | GND             | GND     | -            |
+| TXD    | GPS_TX          | 4 (RX)  | GPS_RX_PIN   |
+| RXD    | GPS_RX          | 3 (TX)  | GPS_TX_PIN   |
+
 ## Tests
 
 Unit tests for the `DisplayController` class are in the `tests/` directory.
 They compile `display_controller.cpp` against lightweight desktop stubs for the Arduino and GPS libraries,
 and verify formatted output behaviour.
+
+Note: the tests amd test stubs are kept separate from the Arduino project `./GpsBasics` to prevent them causing issues with the Arduino IDE (e.g. the Arduino IDE will complain about naming if it finds the `TinyGPS++.h` stub header).
 
 ### Prerequisites
 
@@ -192,10 +212,11 @@ cd playground/GpsBasics/tests
 make test
 ```
 
-### Example Output
+### Test Results
 
-```
+```txt
 [==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
 [----------] 6 tests from DisplayControllerTest
 [ RUN      ] DisplayControllerTest.UpdateFormatsDateCorrectly
 [       OK ] DisplayControllerTest.UpdateFormatsDateCorrectly (0 ms)
@@ -210,24 +231,11 @@ make test
 [ RUN      ] DisplayControllerTest.TimeFormatFitsIn32ByteBuffer
 [       OK ] DisplayControllerTest.TimeFormatFitsIn32ByteBuffer (0 ms)
 [----------] 6 tests from DisplayControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
 [==========] 6 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 6 tests.
 ```
-
-## Construction
-
-![Breadboard](./assets/GpsBasics_bb.jpg?raw=true)
-
-![Schematic](./assets/GpsBasics_schematic.jpg?raw=true)
-
-### Pin Connections
-
-| Module | Schematic Label | Arduino | Script Label |
-|--------|-----------------|---------|--------------|
-| VCC    | VCC             | 5v      | -            |
-| GND    | GND             | GND     | -            |
-| TXD    | GPS_TX          | 4 (RX)  | GPS_RX_PIN   |
-| RXD    | GPS_RX          | 3 (TX)  | GPS_TX_PIN   |
 
 ## Credits and References
 

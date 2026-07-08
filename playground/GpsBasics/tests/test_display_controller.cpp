@@ -2,9 +2,8 @@
 #include <string>
 
 // Stub headers must be resolved before the real headers are pulled in.
-// The -I. flag in the Makefile makes #include <Arduino.h> etc. find these stubs.
-#include "../display_controller.h"
-#include "../display_controller.cpp"
+#include "display_controller.h"
+#include "display_controller.cpp"
 
 class DisplayControllerTest : public ::testing::Test {
 protected:
