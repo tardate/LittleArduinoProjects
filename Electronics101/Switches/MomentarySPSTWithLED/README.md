@@ -11,7 +11,7 @@ Here's a quick demo..
 ## Notes
 
 I found some push-button switches with built-in LEDs, and got a batch to test them out:
-["5PCS 10PCS PS-202 Mini 6MM 6Pin SPDT DPDT Momentary Push Button Switch 2A 250VAC 5A 120VAC Toggle Switch With Red Cap" (aliexpress seller listing)](https://www.aliexpress.com/item/1005006487128734.html), purchased for SG$4.48 (Jun-2026).
+["5PCS 10PCS PS-202 Mini 6MM 6Pin SPDT DPDT Momentary Push Button Switch 2A 250VAC 5A 120VAC Toggle Switch With Red Cap" (aliexpress seller listing)](https://www.aliexpress.com/item/1005006487128734.html), purchased 5 pieces for SG$4.48 (Jun-2026).
 
 Details are scant; the following is the closest to a data sheet that I could find, but it didn't include the LED details (I have annotated the picture). Note:
 
@@ -29,20 +29,19 @@ Designed with Fritzing: see [MomentarySPSTWithLED.fzz](./MomentarySPSTWithLED.fz
 To test and demonstrate the switch, I've coupled it up to a latching circuit based on
 [LEAP#761 Inverter-based Push Button Latch](../../CD4069/PushButtonLatch/).
 
-Pressing the push-button with toggle the built-in LED on and off.
+Pressing the push-button will toggle the built-in LED on and off.
 
 ![bb](./assets/MomentarySPSTWithLED_bb.jpg?raw=true)
 
 ![schematic](./assets/MomentarySPSTWithLED_schematic.jpg?raw=true)
 
+Setup on a breadboard for testing:
+
 ![bb_build](./assets/MomentarySPSTWithLED_bb_build.jpg?raw=true)
-
-### Build Log
-
-![build01a](./assets/build01a.jpg?raw=true)
 
 ## Credits and References
 
+* [LEAP#243 Switches](../)
 * <https://en.wikipedia.org/wiki/Push_switch>
 * ["5PCS 10PCS PS-202 Mini 6MM 6Pin SPDT DPDT Momentary Push Button Switch 2A 250VAC 5A 120VAC Toggle Switch With Red Cap" (aliexpress seller listing)](https://www.aliexpress.com/item/1005006487128734.html)
-    * Purchased for SG$4.48 (Jun-2026).
+    * Purchased 5 pieces for SG$4.48 (Jun-2026).

@@ -52,7 +52,7 @@ Operation:
 
 ## Credits and References
 
-* [Switches](../)
+* [LEAP#243 Switches](../)
 * [Switch](https://en.wikipedia.org/wiki/Switch) - wikipedia
 * [8x8mm Self-locking Push Button Switch](https://www.aliexpress.com/item/8x8mm-Self-locking-Type-Square-Button-Tactile-Push-Button-Switch-Momentary-Tact-DIP-Through-Hole-4pin/2036527668.html) - example part from aliexpress seller.
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

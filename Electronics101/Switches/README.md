@@ -45,9 +45,14 @@ See [LEAP#848 Momentary DPDT Push-buttons](./MomentaryDPST/).
 
 ### Example: SPST Momentary Push-button With LED Indicator
 
+See [LEAP#854 SPST Momentary Push-buttons with LED](./MomentarySPSTWithLED/).
+
+[![switch-ref](./MomentarySPSTWithLED/assets/switch-ref.jpg)](./MomentarySPSTWithLED/)
+
 ## Credits and References
 
 * <https://en.wikipedia.org/wiki/Switch>
+* <https://en.wikipedia.org/wiki/Push_switch>
 * [Encyclopedia of Electronic Components Volume 1](../../books/encyclopedia-of-electronic-components/)
 * [Practical Electronics: Components and Techniques](../../books/practical-electronics/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)
