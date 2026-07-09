@@ -1,4 +1,4 @@
-# #xxx SPST Momentary Push-buttons with LED
+# #854 SPST Momentary Push-buttons with LED
 
 Testing some push-button switches with built-in LEDs. I've used a CD4069 inverter-based latching circuit to demonstrate toggling the LED on and off.
 
