@@ -66,6 +66,7 @@ a freeform build mounted on a bit of cardboard:
 
 ## Credits and References
 
+* [LEAP#243 Switches](../)
 * [Single Mosfet Timer Circuit](https://www.homemade-circuits.com/simple-mosfet-switch-circuit-with-delay/)
 * [Simple Delay Timer Circuits Explained](https://www.homemade-circuits.com/simple-delay-timer-circuits-explained/)
 * [Simple time Delay Circuit using MOSFET](https://www.eleccircuit.com/off-on-after-delay-switch-by-mosfet/)

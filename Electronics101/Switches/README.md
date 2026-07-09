@@ -20,7 +20,7 @@ The number of "poles" is the number of electrically separate switches which are 
 
 The number of "throws" is the number of separate wiring path choices other than "open" that the switch can adopt for each pole. A single-throw switch has one pair of contacts that can either be closed or open. A double-throw switch has a contact that can be connected to either of two other contacts, a triple-throw has a contact which can be connected to one of three other contacts, etc
 
-[![Switches_wikipedia_clip](./assets/Switches_wikipedia_clip.jpg?raw=true)](https://en.wikipedia.org/wiki/Switch)
+[![Switches_wikipedia_clip](./assets/Switches_wikipedia_clip.jpg?raw=true)](https://en.wikipedia.org/wiki/Switch#Contact_terminology_2)
 
 ### Types of Switches
 
@@ -43,9 +43,16 @@ See [LEAP#848 Momentary DPDT Push-buttons](./MomentaryDPST/).
 
 [![dpst01b](./MomentaryDPDT/assets/dpst01b.jpg)](./MomentaryDPDT/)
 
+### Example: SPST Momentary Push-button With LED Indicator
+
+See [LEAP#854 SPST Momentary Push-buttons with LED](./MomentarySPSTWithLED/).
+
+[![switch-ref](./MomentarySPSTWithLED/assets/switch-ref.jpg)](./MomentarySPSTWithLED/)
+
 ## Credits and References
 
 * <https://en.wikipedia.org/wiki/Switch>
+* <https://en.wikipedia.org/wiki/Push_switch>
 * [Encyclopedia of Electronic Components Volume 1](../../books/encyclopedia-of-electronic-components/)
 * [Practical Electronics: Components and Techniques](../../books/practical-electronics/)
 * [..as mentioned on my blog](https://blog.tardate.com/2017/01/leap243-switches.html)

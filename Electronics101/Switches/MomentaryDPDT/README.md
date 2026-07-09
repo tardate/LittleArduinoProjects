@@ -51,6 +51,7 @@ When the button is pressed, current is reversed. The yellow LED turns off, and t
 
 ## Credits and References
 
+* [LEAP#243 Switches](../)
 * ["5PCS 10PCS PS-202 Mini 6MM 6Pin SPDT DPDT Momentary Push Button Switch 2A 250VAC 5A 120VAC Toggle Switch With Red Cap" (aliexpress seller)](https://www.aliexpress.com/item/1005006487128734.html)
     * Purchased 5 pieces for SG$4.88 (Jun-2026)
 * <https://en.wikipedia.org/wiki/Switch>
