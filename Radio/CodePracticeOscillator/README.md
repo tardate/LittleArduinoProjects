@@ -6,7 +6,7 @@ Build and test a simple 2-transistor code practice oscillator.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/g_LP7cubLg8/0.jpg)](https://www.youtube.com/watch?v=g_LP7cubLg8)
+[![clip](https://img.youtube.com/vi/g_LP7cubLg8/0.jpg)](https://www.youtube.com/watch?v=g_LP7cubLg8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

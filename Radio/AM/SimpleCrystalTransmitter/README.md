@@ -6,7 +6,7 @@ Building a classic crystal-locked AM transmitter with a 1MHz MCO-1510A CMOS crys
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/0uDsgkrx91g/0.jpg)](https://www.youtube.com/watch?v=0uDsgkrx91g)
+[![clip](https://img.youtube.com/vi/0uDsgkrx91g/0.jpg)](https://www.youtube.com/watch?v=0uDsgkrx91g&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

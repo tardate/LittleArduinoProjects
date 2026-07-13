@@ -4,7 +4,7 @@ Playing around with some zener-mode sound effects.
 
 Here's a quick video of the circuit in action. It also shows what happens when you remove the BJT noise generator:
 
-[![BJTZenerModeEffects](https://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](https://www.youtube.com/watch?v=YW7aQzy5-SY)
+[![BJTZenerModeEffects](https://img.youtube.com/vi/YW7aQzy5-SY/0.jpg)](https://www.youtube.com/watch?v=YW7aQzy5-SY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

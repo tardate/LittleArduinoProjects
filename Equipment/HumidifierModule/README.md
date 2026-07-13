@@ -6,7 +6,7 @@ Testing a cheap USB/5V powered humidifier module the produces prodigious volumes
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/2LCTg96Ospw/0.jpg)](https://www.youtube.com/watch?v=2LCTg96Ospw)
+[![clip](https://img.youtube.com/vi/2LCTg96Ospw/0.jpg)](https://www.youtube.com/watch?v=2LCTg96Ospw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

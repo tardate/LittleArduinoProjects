@@ -6,7 +6,7 @@ Investigating a single-digit counter with configurable range and frequency built
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/_aX42gkRTV0/0.jpg)](https://www.youtube.com/watch?v=_aX42gkRTV0)
+[![clip](https://img.youtube.com/vi/_aX42gkRTV0/0.jpg)](https://www.youtube.com/watch?v=_aX42gkRTV0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

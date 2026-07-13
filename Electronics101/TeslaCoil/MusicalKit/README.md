@@ -6,7 +6,7 @@ Playing with a Tesla coil circuit that also acts as an audio speaker with pulsin
 
 Here's a quick demo, spinning a little [Baby Diner](https://www.youtube.com/watch?v=X76IXhqAEtE):
 
-[![clip](https://img.youtube.com/vi/9yhTIx6dcRo/0.jpg)](https://www.youtube.com/watch?v=9yhTIx6dcRo)
+[![clip](https://img.youtube.com/vi/9yhTIx6dcRo/0.jpg)](https://www.youtube.com/watch?v=9yhTIx6dcRo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

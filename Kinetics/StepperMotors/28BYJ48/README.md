@@ -6,7 +6,7 @@ All about the 28BYJ-48 unipolar stepper motor and driving it with an Arduino.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/_UWj8lBsAHg/0.jpg)](https://www.youtube.com/watch?v=_UWj8lBsAHg)
+[![clip](https://img.youtube.com/vi/_UWj8lBsAHg/0.jpg)](https://www.youtube.com/watch?v=_UWj8lBsAHg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

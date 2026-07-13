@@ -4,7 +4,7 @@ Use an Arduino to demonstrate a basic 74LS75 Quad Latch driver circuit, and plot
 
 Here's a quick video of the circuit in action:
 
-[![74LS75 Quad Latch Test](https://img.youtube.com/vi/nsRWAuc6J5w/0.jpg)](https://www.youtube.com/watch?v=nsRWAuc6J5w)
+[![74LS75 Quad Latch Test](https://img.youtube.com/vi/nsRWAuc6J5w/0.jpg)](https://www.youtube.com/watch?v=nsRWAuc6J5w&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

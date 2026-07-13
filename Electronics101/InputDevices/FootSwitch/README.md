@@ -6,7 +6,7 @@ A DIY 4-channel foot switch with tri-colour LEDs suitable for use with a microco
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/nQe6RSQvpHc/0.jpg)](https://www.youtube.com/watch?v=nQe6RSQvpHc)
+[![clip](https://img.youtube.com/vi/nQe6RSQvpHc/0.jpg)](https://www.youtube.com/watch?v=nQe6RSQvpHc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

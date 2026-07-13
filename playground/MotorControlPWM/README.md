@@ -6,7 +6,7 @@ Testing DC motor speed control using an Arduino-generated PWM signal.
 
 Here's a quick video of the circuit in action:
 
-[![MotorControlPWM demo](https://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](https://www.youtube.com/watch?v=CYKtJfKv5ug)
+[![MotorControlPWM demo](https://img.youtube.com/vi/CYKtJfKv5ug/0.jpg)](https://www.youtube.com/watch?v=CYKtJfKv5ug&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

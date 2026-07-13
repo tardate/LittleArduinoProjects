@@ -6,7 +6,7 @@ Building a simple ring oscillator using a light dependent resistor to couple the
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/LFlyb8KRiKg/0.jpg)](https://www.youtube.com/watch?v=LFlyb8KRiKg)
+[![clip](https://img.youtube.com/vi/LFlyb8KRiKg/0.jpg)](https://www.youtube.com/watch?v=LFlyb8KRiKg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

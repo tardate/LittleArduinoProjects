@@ -6,7 +6,7 @@ Test direct control of a 7-segment common-cathode LED display, performing a coun
 
 Here's a quick video of the circuit in action:
 
-[![LED7Segment/DirectDrive](https://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](https://www.youtube.com/watch?v=R90zCCvA7_M)
+[![LED7Segment/DirectDrive](https://img.youtube.com/vi/R90zCCvA7_M/0.jpg)](https://www.youtube.com/watch?v=R90zCCvA7_M&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

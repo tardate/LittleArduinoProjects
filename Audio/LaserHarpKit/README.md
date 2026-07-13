@@ -6,7 +6,7 @@ Build and test an 8051-based laser harp kit.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/pun0ajSLT4o/0.jpg)](https://www.youtube.com/watch?v=pun0ajSLT4o)
+[![clip](https://img.youtube.com/vi/pun0ajSLT4o/0.jpg)](https://www.youtube.com/watch?v=pun0ajSLT4o&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

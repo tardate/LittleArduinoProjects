@@ -6,7 +6,7 @@ Set-Reset latch implemented with CD4001 NOR gates.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/95eyO3oV5bk/0.jpg)](https://www.youtube.com/watch?v=95eyO3oV5bk)
+[![clip](https://img.youtube.com/vi/95eyO3oV5bk/0.jpg)](https://www.youtube.com/watch?v=95eyO3oV5bk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

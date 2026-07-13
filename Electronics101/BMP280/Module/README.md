@@ -6,7 +6,7 @@ Examine the BMP280 barometric pressure and temperature sensor. Demonstrate its f
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/iTXhGVJRYSQ/0.jpg)](https://www.youtube.com/watch?v=iTXhGVJRYSQ)
+[![clip](https://img.youtube.com/vi/iTXhGVJRYSQ/0.jpg)](https://www.youtube.com/watch?v=iTXhGVJRYSQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Build a basic homopolar motor.
 
 Here's a quick video of the circuit in action:
 
-[![HomopolarMotor](https://img.youtube.com/vi/2aZ0dwhBsBo/0.jpg)](https://www.youtube.com/watch?v=2aZ0dwhBsBo)
+[![HomopolarMotor](https://img.youtube.com/vi/2aZ0dwhBsBo/0.jpg)](https://www.youtube.com/watch?v=2aZ0dwhBsBo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

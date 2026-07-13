@@ -6,7 +6,7 @@ Building an FM radio kit based on the Silan SC1088 FM receiver chip.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/gSm3-48d0xQ/0.jpg)](https://www.youtube.com/watch?v=gSm3-48d0xQ)
+[![clip](https://img.youtube.com/vi/gSm3-48d0xQ/0.jpg)](https://www.youtube.com/watch?v=gSm3-48d0xQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

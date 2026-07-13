@@ -4,7 +4,7 @@ Test a BJT "long-tail" differential amplifier circuit.
 
 Here's a quick demo of the circuit in action:
 
-[![BJTLongTailPair](https://img.youtube.com/vi/Uo1UbQSjO6E/0.jpg)](https://www.youtube.com/watch?v=Uo1UbQSjO6E)
+[![BJTLongTailPair](https://img.youtube.com/vi/Uo1UbQSjO6E/0.jpg)](https://www.youtube.com/watch?v=Uo1UbQSjO6E&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

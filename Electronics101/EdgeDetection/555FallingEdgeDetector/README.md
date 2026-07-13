@@ -6,7 +6,7 @@ Using the 555 timer, BJT inverter and AC-coupling to produce a fixed-width falli
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Y9l5AtJflks/0.jpg)](https://www.youtube.com/watch?v=Y9l5AtJflks)
+[![clip](https://img.youtube.com/vi/Y9l5AtJflks/0.jpg)](https://www.youtube.com/watch?v=Y9l5AtJflks&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

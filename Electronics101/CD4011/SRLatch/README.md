@@ -6,7 +6,7 @@ Set-Reset latch implemented with CD4011 NAND gates.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/K-9pPVKBUcs/0.jpg)](https://www.youtube.com/watch?v=K-9pPVKBUcs)
+[![clip](https://img.youtube.com/vi/K-9pPVKBUcs/0.jpg)](https://www.youtube.com/watch?v=K-9pPVKBUcs&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

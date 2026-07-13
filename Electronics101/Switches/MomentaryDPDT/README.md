@@ -6,7 +6,7 @@ All about double-pole, double-throw (DPDT) non-latching/momentary push-button sw
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/4YDH20ePlHo/0.jpg)](https://www.youtube.com/watch?v=4YDH20ePlHo)
+[![clip](https://img.youtube.com/vi/4YDH20ePlHo/0.jpg)](https://www.youtube.com/watch?v=4YDH20ePlHo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

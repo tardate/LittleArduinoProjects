@@ -6,7 +6,7 @@ Figuring out the navigation light strobe frequency of the Lambda-class shuttle "
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/6BTHMVjaiEY/0.jpg)](https://www.youtube.com/watch?v=6BTHMVjaiEY)
+[![clip](https://img.youtube.com/vi/6BTHMVjaiEY/0.jpg)](https://www.youtube.com/watch?v=6BTHMVjaiEY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

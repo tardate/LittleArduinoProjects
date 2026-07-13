@@ -6,7 +6,7 @@ A simple Morse code practice generator that prints the character and sounds the 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Cv54Tg_QJfA/0.jpg)](https://www.youtube.com/watch?v=Cv54Tg_QJfA)
+[![clip](https://img.youtube.com/vi/Cv54Tg_QJfA/0.jpg)](https://www.youtube.com/watch?v=Cv54Tg_QJfA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

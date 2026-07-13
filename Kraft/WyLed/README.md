@@ -7,7 +7,7 @@ An ATTiny85 provides a little brain, and the TM1638 handles all input and output
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/nnLa_BCAwtQ/0.jpg)](https://www.youtube.com/watch?v=nnLa_BCAwtQ)
+[![clip](https://img.youtube.com/vi/nnLa_BCAwtQ/0.jpg)](https://www.youtube.com/watch?v=nnLa_BCAwtQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

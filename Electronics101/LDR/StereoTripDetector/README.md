@@ -6,7 +6,7 @@ Monitor two LDR sensors for stereo light-level triggering effects.
 
 Here's a quick video of the circuit in action:
 
-[![LDRStereoTripDetector demo](https://img.youtube.com/vi/Wo1voY0uE9c/0.jpg)](https://www.youtube.com/watch?v=Wo1voY0uE9c)
+[![LDRStereoTripDetector demo](https://img.youtube.com/vi/Wo1voY0uE9c/0.jpg)](https://www.youtube.com/watch?v=Wo1voY0uE9c&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

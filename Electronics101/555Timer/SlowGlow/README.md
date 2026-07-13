@@ -6,7 +6,7 @@ A simple slowly-glowing LED effect using a 555 timer.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/k_ZAax6D6Z4/0.jpg)](https://www.youtube.com/watch?v=k_ZAax6D6Z4)
+[![clip](https://img.youtube.com/vi/k_ZAax6D6Z4/0.jpg)](https://www.youtube.com/watch?v=k_ZAax6D6Z4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

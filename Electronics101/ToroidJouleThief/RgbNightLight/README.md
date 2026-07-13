@@ -6,7 +6,7 @@ Testing a slow-flash RGB LED with a 1.5V joule thief power supply.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/T3jprnHPbQM/0.jpg)](https://www.youtube.com/watch?v=T3jprnHPbQM)
+[![clip](https://img.youtube.com/vi/T3jprnHPbQM/0.jpg)](https://www.youtube.com/watch?v=T3jprnHPbQM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

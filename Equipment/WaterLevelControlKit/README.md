@@ -6,7 +6,7 @@ Build and test a high-low switching circuit with relay output. It is intended fo
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/j3tgy-CU2bo/0.jpg)](https://www.youtube.com/watch?v=j3tgy-CU2bo)
+[![clip](https://img.youtube.com/vi/j3tgy-CU2bo/0.jpg)](https://www.youtube.com/watch?v=j3tgy-CU2bo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

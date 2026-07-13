@@ -7,7 +7,7 @@ The circuit must have been used in BEAM robots back in the day, so my final buil
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/9oWUlbcVo4A/0.jpg)](https://www.youtube.com/watch?v=9oWUlbcVo4A)
+[![clip](https://img.youtube.com/vi/9oWUlbcVo4A/0.jpg)](https://www.youtube.com/watch?v=9oWUlbcVo4A&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ A firecracker simulacrum running on the BoldportClub Matrix.
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/Firecracker_build.jpg?raw=true)](https://www.youtube.com/watch?v=0L34ye-Hupc)
+[![Build](./assets/Firecracker_build.jpg?raw=true)](https://www.youtube.com/watch?v=0L34ye-Hupc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

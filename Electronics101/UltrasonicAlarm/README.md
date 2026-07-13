@@ -4,7 +4,7 @@ Build an ultrasonic motion alarm with the HC-SR04 module and discrete logic.
 
 Here's a quick demo of it in action:
 
-[![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)](https://www.youtube.com/watch?v=18vaX6bmDes)
+[![Build](./assets/UltrasonicAlarm_build.jpg?raw=true)](https://www.youtube.com/watch?v=18vaX6bmDes&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

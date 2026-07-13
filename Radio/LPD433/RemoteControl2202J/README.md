@@ -6,7 +6,7 @@ Review and test the 433MHz remote control unit 2202J that features two relays, c
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/yJd98tfLSG4/0.jpg)](https://www.youtube.com/watch?v=yJd98tfLSG4)
+[![clip](https://img.youtube.com/vi/yJd98tfLSG4/0.jpg)](https://www.youtube.com/watch?v=yJd98tfLSG4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 
@@ -16,7 +16,9 @@ This is a review and test of one option I found.
 I purchased 1 receiver and 1 remote from Small Tonyy Remote Control Store (aliexpress) for SG$7.86 (Jun-2026):
 ["433MHz Universal Wireless Remote Control Switch 2 CH,AC 110V 220V RF Relay Receiver,for Light/Fan/Motor/Garage Door Opener etc" (aliexpress seller listing)](https://www.aliexpress.com/item/1005007864400261.html).
 
-According to the manual, the receiver unit is called the "2202J".
+According to the manual, the receiver unit is called the "2202J",
+but the [demonstration video](https://www.youtube.com/watch?v=e4qbQS0eaYU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X) showing an identical unit is called the "2202RF".
+The receiver PCB is marked "KG55RF-AC2 v2.0".
 
 ![kit-parts](./assets/kit-parts.jpg)
 
@@ -37,7 +39,7 @@ Remote control is powered by two CR2016 batteries in series:
 ### Programming the Remote Control
 
 See the [2202J manual](./assets/2202J-manual.pdf)
-and also ["2202RF- How to program" YouTube by Jiahao Chen](https://www.youtube.com/watch?v=e4qbQS0eaYU).
+and also ["2202RF- How to program" YouTube by Jiahao Chen](https://www.youtube.com/watch?v=e4qbQS0eaYU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X).
 
 Programming is performed by:
 
@@ -140,9 +142,13 @@ Receiver in operation:
 
 ![test01a](./assets/test01a.jpg?raw=true)
 
+Here's a quick demo..
+
+[![clip](https://img.youtube.com/vi/yJd98tfLSG4/0.jpg)](https://www.youtube.com/watch?v=yJd98tfLSG4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
+
 ## Credits and References
 
 * ["433MHz Universal Wireless Remote Control Switch 2 CH,AC 110V 220V RF Relay Receiver,for Light/Fan/Motor/Garage Door Opener etc" (aliexpress seller listing)](https://www.aliexpress.com/item/1005007864400261.html)
     * Purchased 1 receiver and 1 remote from Small Tonyy Remote Control Store (aliexpress) for SG$7.86 (Jun-2026)
 * [2202J manual](./assets/2202J-manual.pdf)
-* ["2202RF- How to program" YouTube by Jiahao Chen](https://www.youtube.com/watch?v=e4qbQS0eaYU)
+* ["2202RF- How to program" YouTube by Jiahao Chen](https://www.youtube.com/watch?v=e4qbQS0eaYU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)

@@ -6,7 +6,7 @@ Building a logic probe with audio and LED feedback, based on a design from Elekt
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/xb3lunPgPRM/0.jpg)](https://www.youtube.com/watch?v=xb3lunPgPRM)
+[![clip](https://img.youtube.com/vi/xb3lunPgPRM/0.jpg)](https://www.youtube.com/watch?v=xb3lunPgPRM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

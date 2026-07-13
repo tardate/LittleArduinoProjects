@@ -4,7 +4,7 @@ Fidget Cube controller for the Boldport Cordwood Too.
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/FidgetCube_build.jpg?raw=true)](https://www.youtube.com/watch?v=38SNS3a9aF8)
+[![Build](./assets/FidgetCube_build.jpg?raw=true)](https://www.youtube.com/watch?v=38SNS3a9aF8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

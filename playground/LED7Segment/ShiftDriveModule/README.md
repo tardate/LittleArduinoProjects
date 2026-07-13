@@ -4,7 +4,7 @@ A custom 7-segment LED display module PCB with 74HC595 shift register interface.
 
 Here's a quick video of the module in action:
 
-[![LED7Segment/ShiftDriveModule](https://img.youtube.com/vi/7cgd1EV6CqY/0.jpg)](https://www.youtube.com/watch?v=7cgd1EV6CqY)
+[![LED7Segment/ShiftDriveModule](https://img.youtube.com/vi/7cgd1EV6CqY/0.jpg)](https://www.youtube.com/watch?v=7cgd1EV6CqY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Test control of a 7-segment LED display via a 74HC595 shift register.
 
 Here's a quick video of the circuit in action:
 
-[![LED7Segment/ShiftDrive](https://img.youtube.com/vi/vD6ldmaypiE/0.jpg)](https://www.youtube.com/watch?v=vD6ldmaypiE)
+[![LED7Segment/ShiftDrive](https://img.youtube.com/vi/vD6ldmaypiE/0.jpg)](https://www.youtube.com/watch?v=vD6ldmaypiE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

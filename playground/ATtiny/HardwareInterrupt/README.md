@@ -4,7 +4,7 @@ Test hardware interrupts with an ATtiny85 processor on a breadboard.
 
 Here's a quick video of the circuit in action:
 
-[![HardwareInterrupt](https://img.youtube.com/vi/VTJ1ycVzYq0/0.jpg)](https://www.youtube.com/watch?v=VTJ1ycVzYq0)
+[![HardwareInterrupt](https://img.youtube.com/vi/VTJ1ycVzYq0/0.jpg)](https://www.youtube.com/watch?v=VTJ1ycVzYq0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

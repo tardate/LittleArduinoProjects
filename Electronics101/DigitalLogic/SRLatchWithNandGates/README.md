@@ -4,7 +4,7 @@ Set-Reset latch implemented with 74LS00 NAND gates.
 
 Here's a quick demo of it in action..
 
-[![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)](https://www.youtube.com/watch?v=CC7LnUj8XIc)
+[![Build](./assets/SRLatchWithNandGates_build.jpg?raw=true)](https://www.youtube.com/watch?v=CC7LnUj8XIc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

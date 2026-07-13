@@ -4,7 +4,7 @@ Exploring the behaviour of low-power silicon controlled rectifiers (SCR)
 
 Here's a quick video of the test circuit in action:
 
-[![SCRLatch demo](https://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](https://www.youtube.com/watch?v=-pO0aRX99G0)
+[![SCRLatch demo](https://img.youtube.com/vi/-pO0aRX99G0/0.jpg)](https://www.youtube.com/watch?v=-pO0aRX99G0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

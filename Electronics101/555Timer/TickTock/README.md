@@ -6,7 +6,7 @@ A 555/74LS73 circuit that generates a tick-tock sound sequence at distinct frequ
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/mF_1F4_U8xQ/0.jpg)](https://www.youtube.com/watch?v=mF_1F4_U8xQ)
+[![clip](https://img.youtube.com/vi/mF_1F4_U8xQ/0.jpg)](https://www.youtube.com/watch?v=mF_1F4_U8xQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

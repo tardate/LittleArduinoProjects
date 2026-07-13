@@ -6,7 +6,7 @@ All about the Raspberry Pi Pico, demonstrated with a simple LED sequencing progr
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/oVsFol4PKmg/0.jpg)](https://www.youtube.com/watch?v=oVsFol4PKmg)
+[![clip](https://img.youtube.com/vi/oVsFol4PKmg/0.jpg)](https://www.youtube.com/watch?v=oVsFol4PKmg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

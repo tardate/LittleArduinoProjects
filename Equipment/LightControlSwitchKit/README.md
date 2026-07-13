@@ -6,7 +6,7 @@ Building an LDR-controlled relay kit with hysteresis/delay for on and off transi
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/vmtjgMmfmIM/0.jpg)](https://www.youtube.com/watch?v=vmtjgMmfmIM)
+[![clip](https://img.youtube.com/vi/vmtjgMmfmIM/0.jpg)](https://www.youtube.com/watch?v=vmtjgMmfmIM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

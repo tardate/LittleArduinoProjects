@@ -6,7 +6,7 @@ A silly little @MaywaDenki-inspired critter using multiple 555 timers and a CD40
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/IHyEona3Ixk/0.jpg)](https://www.youtube.com/watch?v=IHyEona3Ixk)
+[![clip](https://img.youtube.com/vi/IHyEona3Ixk/0.jpg)](https://www.youtube.com/watch?v=IHyEona3Ixk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

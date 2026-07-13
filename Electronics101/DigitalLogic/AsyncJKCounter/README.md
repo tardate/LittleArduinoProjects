@@ -4,7 +4,7 @@ An asynchronous 4-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
-[![AsyncJKCounter](https://img.youtube.com/vi/dyn9gv996iY/0.jpg)](https://www.youtube.com/watch?v=dyn9gv996iY)
+[![AsyncJKCounter](https://img.youtube.com/vi/dyn9gv996iY/0.jpg)](https://www.youtube.com/watch?v=dyn9gv996iY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

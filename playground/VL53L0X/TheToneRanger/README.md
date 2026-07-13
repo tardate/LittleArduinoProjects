@@ -4,7 +4,7 @@ A simple modification of the basic VL53L0X example to add audio indication of ra
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/XjAN2eW-bek/0.jpg)](https://www.youtube.com/watch?v=XjAN2eW-bek)
+[![clip](https://img.youtube.com/vi/XjAN2eW-bek/0.jpg)](https://www.youtube.com/watch?v=XjAN2eW-bek&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Test driving a Nokia 5110 LCD Display with an Arduino and the raw command set
 
 Here's a quick video of the circuit in action:
 
-[![Lcd5110BareBack demo](https://img.youtube.com/vi/nDB-FT9jysI/0.jpg)](https://www.youtube.com/watch?v=nDB-FT9jysI)
+[![Lcd5110BareBack demo](https://img.youtube.com/vi/nDB-FT9jysI/0.jpg)](https://www.youtube.com/watch?v=nDB-FT9jysI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

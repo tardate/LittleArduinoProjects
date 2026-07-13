@@ -4,7 +4,7 @@ How fast can you push an Op-Amp oscillator?
 
 Here's a quick demo of the circuit in action:
 
-[![HighFrequencyOpAmpOscillators](https://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](https://www.youtube.com/watch?v=aBbVXSlS4nA)
+[![HighFrequencyOpAmpOscillators](https://img.youtube.com/vi/aBbVXSlS4nA/0.jpg)](https://www.youtube.com/watch?v=aBbVXSlS4nA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

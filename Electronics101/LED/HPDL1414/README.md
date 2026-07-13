@@ -6,7 +6,7 @@ Test driving a retro HPDL-1414 4-digit GaAsP display with an Arduino.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/AvIznKRom1c/0.jpg)](https://www.youtube.com/watch?v=AvIznKRom1c)
+[![clip](https://img.youtube.com/vi/AvIznKRom1c/0.jpg)](https://www.youtube.com/watch?v=AvIznKRom1c&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

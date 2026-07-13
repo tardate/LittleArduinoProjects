@@ -6,7 +6,7 @@ Control two SG90 servos with a joystick.
 
 Here's a quick demo:
 
-[![JoystickServoControl](https://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](https://www.youtube.com/watch?v=P8883DkE3Jo)
+[![JoystickServoControl](https://img.youtube.com/vi/P8883DkE3Jo/0.jpg)](https://www.youtube.com/watch?v=P8883DkE3Jo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

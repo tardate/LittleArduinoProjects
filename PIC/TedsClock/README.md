@@ -6,7 +6,7 @@ Building a freeform 20th anniversary clone of [@tedyapo's](https://twitter.com/t
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/oq4bqvXI8DM/0.jpg)](https://www.youtube.com/watch?v=oq4bqvXI8DM)
+[![clip](https://img.youtube.com/vi/oq4bqvXI8DM/0.jpg)](https://www.youtube.com/watch?v=oq4bqvXI8DM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

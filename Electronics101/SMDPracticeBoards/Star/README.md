@@ -6,7 +6,7 @@ Testing the Five-Pointed Star SMD Practice Board with LM358 oscillator LED effec
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/k2FOthK3eTM/0.jpg)](https://www.youtube.com/watch?v=k2FOthK3eTM)
+[![clip](https://img.youtube.com/vi/k2FOthK3eTM/0.jpg)](https://www.youtube.com/watch?v=k2FOthK3eTM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Understanding transconductance amplifiers and how they can be realised with an o
 
 Here's a quick demo
 
-[![clip](https://img.youtube.com/vi/VyAFWIHDLig/0.jpg)](https://www.youtube.com/watch?v=VyAFWIHDLig)
+[![clip](https://img.youtube.com/vi/VyAFWIHDLig/0.jpg)](https://www.youtube.com/watch?v=VyAFWIHDLig&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

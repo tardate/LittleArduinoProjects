@@ -4,7 +4,7 @@ An angry barking blue-in-the-face mad proximity sensor - Boldport Club Project #
 
 Here's a quick video of it in action:
 
-[![Build](https://img.youtube.com/vi/Mg5YBKnUVIM/0.jpg)](https://www.youtube.com/watch?v=Mg5YBKnUVIM)
+[![Build](https://img.youtube.com/vi/Mg5YBKnUVIM/0.jpg)](https://www.youtube.com/watch?v=Mg5YBKnUVIM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

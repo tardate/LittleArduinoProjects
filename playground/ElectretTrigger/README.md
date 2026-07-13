@@ -5,7 +5,7 @@ plays a ditty on the piezo speaker.
 
 Here's a quick video of the circuit in action:
 
-[![ElectretTrigger](https://img.youtube.com/vi/ql-fEP85yUc/0.jpg)](https://www.youtube.com/watch?v=ql-fEP85yUc)
+[![ElectretTrigger](https://img.youtube.com/vi/ql-fEP85yUc/0.jpg)](https://www.youtube.com/watch?v=ql-fEP85yUc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

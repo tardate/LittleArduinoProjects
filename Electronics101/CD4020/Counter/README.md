@@ -6,7 +6,7 @@ Introducing the CD4020 14-stage binary counter with a basic demonstration circui
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/hT7aUKTu7PU/0.jpg)](https://www.youtube.com/watch?v=hT7aUKTu7PU)
+[![clip](https://img.youtube.com/vi/hT7aUKTu7PU/0.jpg)](https://www.youtube.com/watch?v=hT7aUKTu7PU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ A CD4026 bucket-brigade for driving multiple 7-segment LED displays
 
 Here's a quick video of the circuit in action:
 
-[![clip](https://img.youtube.com/vi/-gfQWZTg-N8/0.jpg)](https://www.youtube.com/watch?v=-gfQWZTg-N8)
+[![clip](https://img.youtube.com/vi/-gfQWZTg-N8/0.jpg)](https://www.youtube.com/watch?v=-gfQWZTg-N8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

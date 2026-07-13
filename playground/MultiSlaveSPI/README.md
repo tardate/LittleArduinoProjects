@@ -4,7 +4,7 @@ Using SPI to control multiple devices (that support an SPI-ish interface)
 
 Here's a quick video of the circuit in action:
 
-[![MultiSlaveSPI](https://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](https://www.youtube.com/watch?v=t2ncYWxmPbo)
+[![MultiSlaveSPI](https://img.youtube.com/vi/t2ncYWxmPbo/0.jpg)](https://www.youtube.com/watch?v=t2ncYWxmPbo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

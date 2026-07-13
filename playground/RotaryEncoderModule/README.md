@@ -4,7 +4,7 @@ Testing a Rotary Encoder module controlling an LED 8x8 display with an Arduino.
 
 Here's a quick video of the circuit in action:
 
-[![RotaryEncoderModule](https://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](https://www.youtube.com/watch?v=9sDoqK0cRAA)
+[![RotaryEncoderModule](https://img.youtube.com/vi/9sDoqK0cRAA/0.jpg)](https://www.youtube.com/watch?v=9sDoqK0cRAA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Playing with a high-voltage arc generator kit that uses step-up transformer with
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/ad8vV-S-dqo/0.jpg)](https://www.youtube.com/watch?v=ad8vV-S-dqo)
+[![clip](https://img.youtube.com/vi/ad8vV-S-dqo/0.jpg)](https://www.youtube.com/watch?v=ad8vV-S-dqo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

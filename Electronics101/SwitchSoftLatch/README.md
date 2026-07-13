@@ -6,7 +6,7 @@ Test a soft-latching power switching circuit based on a p-channel MOSFET.
 
 Here's a quick video of the circuit in action:
 
-[![SwitchSoftLatch demo](https://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](https://www.youtube.com/watch?v=9lX_sPDjzDE)
+[![SwitchSoftLatch demo](https://img.youtube.com/vi/9lX_sPDjzDE/0.jpg)](https://www.youtube.com/watch?v=9lX_sPDjzDE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Use an Arduino to demonstrate the monostable mode of operation, and plot the res
 
 Here's a quick video of the circuit in action:
 
-[![555 Timer - Monostable Demo](https://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](https://www.youtube.com/watch?v=FJI0kTbzS4I)
+[![555 Timer - Monostable Demo](https://img.youtube.com/vi/FJI0kTbzS4I/0.jpg)](https://www.youtube.com/watch?v=FJI0kTbzS4I&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

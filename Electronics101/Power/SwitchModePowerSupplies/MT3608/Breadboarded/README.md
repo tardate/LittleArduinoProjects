@@ -6,7 +6,7 @@ A quick breadboard test of the canonical MT3608 switch mode power supply boost c
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/sJViLFRlgVI/0.jpg)](https://www.youtube.com/watch?v=sJViLFRlgVI)
+[![clip](https://img.youtube.com/vi/sJViLFRlgVI/0.jpg)](https://www.youtube.com/watch?v=sJViLFRlgVI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ A little 1d6 or 2d6 dice roller using the TM1638 and ATtiny85.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/EC1nMhLCcr8/0.jpg)](https://www.youtube.com/watch?v=EC1nMhLCcr8)
+[![clip](https://img.youtube.com/vi/EC1nMhLCcr8/0.jpg)](https://www.youtube.com/watch?v=EC1nMhLCcr8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

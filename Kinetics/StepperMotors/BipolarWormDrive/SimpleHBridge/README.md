@@ -6,7 +6,7 @@ Testing some linear/worm-drive stepper motors salvaged from a DVD drive unit, us
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Mkn8nW2BEYc/0.jpg)](https://www.youtube.com/watch?v=Mkn8nW2BEYc)
+[![clip](https://img.youtube.com/vi/Mkn8nW2BEYc/0.jpg)](https://www.youtube.com/watch?v=Mkn8nW2BEYc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

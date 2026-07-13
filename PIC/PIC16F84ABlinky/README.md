@@ -6,7 +6,7 @@ A quick test of programming a PIC16F84A on a breadboard and 3rd party dev board 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/vAowaVov7Bk/0.jpg)](https://www.youtube.com/watch?v=vAowaVov7Bk)
+[![clip](https://img.youtube.com/vi/vAowaVov7Bk/0.jpg)](https://www.youtube.com/watch?v=vAowaVov7Bk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

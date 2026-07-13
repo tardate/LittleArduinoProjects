@@ -4,7 +4,7 @@ Test driving and LED matrix with the LedControl library
 
 Here's a demo of the matrix in action:
 
-[![LedControlDemo](https://img.youtube.com/vi/z4q6lpOBHL0/0.jpg)](https://www.youtube.com/watch?v=z4q6lpOBHL0)
+[![LedControlDemo](https://img.youtube.com/vi/z4q6lpOBHL0/0.jpg)](https://www.youtube.com/watch?v=z4q6lpOBHL0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

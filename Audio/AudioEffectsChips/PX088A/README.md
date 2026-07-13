@@ -6,7 +6,7 @@ Figuring out how to use the PX088A "Für Elise" music chip.
 
 Here's a quick demo...
 
-[![Build](https://img.youtube.com/vi/k8RLe6Krhd0/0.jpg)](https://www.youtube.com/watch?v=k8RLe6Krhd0)
+[![Build](https://img.youtube.com/vi/k8RLe6Krhd0/0.jpg)](https://www.youtube.com/watch?v=k8RLe6Krhd0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

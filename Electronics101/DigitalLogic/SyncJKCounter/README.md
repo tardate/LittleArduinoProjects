@@ -4,7 +4,7 @@ A synchronous 8-bit counter built with JK Flip-Flops.
 
 Here's a quick video of the circuit in action:
 
-[![SynchJKCounter](https://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](https://www.youtube.com/watch?v=HGunGdTaNFQ)
+[![SynchJKCounter](https://img.youtube.com/vi/HGunGdTaNFQ/0.jpg)](https://www.youtube.com/watch?v=HGunGdTaNFQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

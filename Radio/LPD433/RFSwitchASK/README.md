@@ -6,7 +6,7 @@ Simple data communications using ASK protocol over 433Mhz RF transmitter and rec
 
 Here's a quick video of the circuit in action:
 
-[![RFSwitchASK demo](https://img.youtube.com/vi/mY-AEeIW1pc/0.jpg)](https://www.youtube.com/watch?v=mY-AEeIW1pc)
+[![RFSwitchASK demo](https://img.youtube.com/vi/mY-AEeIW1pc/0.jpg)](https://www.youtube.com/watch?v=mY-AEeIW1pc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

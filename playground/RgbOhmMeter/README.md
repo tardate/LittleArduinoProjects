@@ -6,7 +6,7 @@ An auto-ranging ohmmeter that uses an LCD and RGB LEDs to display the best-match
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/oIE_lWUoh04/0.jpg)](https://www.youtube.com/watch?v=oIE_lWUoh04)
+[![clip](https://img.youtube.com/vi/oIE_lWUoh04/0.jpg)](https://www.youtube.com/watch?v=oIE_lWUoh04&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

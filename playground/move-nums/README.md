@@ -6,7 +6,7 @@ Using an Arduino to interactively solve cassidoo's interview question of the wee
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/nfhNKeFD-Fg/0.jpg)](https://www.youtube.com/watch?v=nfhNKeFD-Fg)
+[![clip](https://img.youtube.com/vi/nfhNKeFD-Fg/0.jpg)](https://www.youtube.com/watch?v=nfhNKeFD-Fg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ A quick build of a Smokey-like LM386 guitar power amp.
 
 Here's a quick demo of the circuit in action:
 
-[![Smokey](https://img.youtube.com/vi/1Fk-NTBetNM/0.jpg)](https://www.youtube.com/watch?v=1Fk-NTBetNM)
+[![Smokey](https://img.youtube.com/vi/1Fk-NTBetNM/0.jpg)](https://www.youtube.com/watch?v=1Fk-NTBetNM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Investigating the capabilities of the TM1638 as a 7-segment display driver and k
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/VvmC_Gq3Jks/0.jpg)](https://www.youtube.com/watch?v=VvmC_Gq3Jks)
+[![clip](https://img.youtube.com/vi/VvmC_Gq3Jks/0.jpg)](https://www.youtube.com/watch?v=VvmC_Gq3Jks&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

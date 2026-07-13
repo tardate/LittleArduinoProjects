@@ -6,7 +6,7 @@ Testing the SN76477 propeller plane sound effect configuration
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/B78GgHcby3E/0.jpg)](https://www.youtube.com/watch?v=B78GgHcby3E)
+[![clip](https://img.youtube.com/vi/B78GgHcby3E/0.jpg)](https://www.youtube.com/watch?v=B78GgHcby3E&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

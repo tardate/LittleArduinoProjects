@@ -6,7 +6,7 @@ Testing a simple push-button latched switch circuit for on/off control using the
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/LyaoLRMI-wE/0.jpg)](https://www.youtube.com/watch?v=LyaoLRMI-wE)
+[![clip](https://img.youtube.com/vi/LyaoLRMI-wE/0.jpg)](https://www.youtube.com/watch?v=LyaoLRMI-wE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

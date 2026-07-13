@@ -6,7 +6,7 @@ A BEAM Vibrobot using a classic solar-powered FLED circuit enhanced with a QX525
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/KKEdPk3T3Iw/0.jpg)](https://www.youtube.com/watch?v=KKEdPk3T3Iw)
+[![clip](https://img.youtube.com/vi/KKEdPk3T3Iw/0.jpg)](https://www.youtube.com/watch?v=KKEdPk3T3Iw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

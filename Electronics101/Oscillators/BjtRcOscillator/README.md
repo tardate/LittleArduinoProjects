@@ -6,7 +6,7 @@ Demonstrates a simple RC/transistor astable multivibrator
 
 Here's a quick video of the circuit in action:
 
-[![BjtRcOscillator](https://img.youtube.com/vi/OeX0hf5fvPA/0.jpg)](https://www.youtube.com/watch?v=OeX0hf5fvPA)
+[![BjtRcOscillator](https://img.youtube.com/vi/OeX0hf5fvPA/0.jpg)](https://www.youtube.com/watch?v=OeX0hf5fvPA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

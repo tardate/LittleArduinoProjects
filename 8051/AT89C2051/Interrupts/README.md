@@ -6,7 +6,7 @@ All about using 8051 interrupts with the AT89C2051. Demonstrates timer and exter
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/syx89EdCERg/0.jpg)](https://www.youtube.com/watch?v=syx89EdCERg)
+[![clip](https://img.youtube.com/vi/syx89EdCERg/0.jpg)](https://www.youtube.com/watch?v=syx89EdCERg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

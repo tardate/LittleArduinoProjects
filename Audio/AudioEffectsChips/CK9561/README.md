@@ -6,7 +6,7 @@ Figuring out how to use the CK9561 music chip with 4 sound effects - alarm/siren
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/wS0hG0z_4rM/0.jpg)](https://www.youtube.com/watch?v=wS0hG0z_4rM)
+[![clip](https://img.youtube.com/vi/wS0hG0z_4rM/0.jpg)](https://www.youtube.com/watch?v=wS0hG0z_4rM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

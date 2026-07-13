@@ -6,7 +6,7 @@ Reviewing the main methods for reading switch inputs with an Arduino.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/6nlSVAiZOdM/0.jpg)](https://www.youtube.com/watch?v=6nlSVAiZOdM)
+[![clip](https://img.youtube.com/vi/6nlSVAiZOdM/0.jpg)](https://www.youtube.com/watch?v=6nlSVAiZOdM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

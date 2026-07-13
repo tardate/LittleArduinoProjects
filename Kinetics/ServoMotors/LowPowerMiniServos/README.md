@@ -6,7 +6,7 @@ Testing a few low power mini servo motors with an Arduino and MOSFET level shift
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/MunymlUziEs/0.jpg)](https://www.youtube.com/watch?v=MunymlUziEs)
+[![clip](https://img.youtube.com/vi/MunymlUziEs/0.jpg)](https://www.youtube.com/watch?v=MunymlUziEs&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

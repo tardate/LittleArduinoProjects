@@ -6,7 +6,7 @@ Building the Boldport Krell - a handheld DSP synthesiser built around a Microchi
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/FdNBNDGJCys/0.jpg)](https://www.youtube.com/watch?v=FdNBNDGJCys)
+[![clip](https://img.youtube.com/vi/FdNBNDGJCys/0.jpg)](https://www.youtube.com/watch?v=FdNBNDGJCys&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

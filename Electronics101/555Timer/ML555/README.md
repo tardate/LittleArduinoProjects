@@ -7,7 +7,7 @@ with a reproduction using discrete components. This is the "Medium-Large 555" - 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/_A2ljMrdt2c/0.jpg)](https://www.youtube.com/watch?v=_A2ljMrdt2c)
+[![clip](https://img.youtube.com/vi/_A2ljMrdt2c/0.jpg)](https://www.youtube.com/watch?v=_A2ljMrdt2c&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

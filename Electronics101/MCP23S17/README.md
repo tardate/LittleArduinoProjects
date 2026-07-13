@@ -4,7 +4,7 @@ Investigate and test the MCP23S17 16-Bit I/O Expander with serial interface.
 
 Here's a quick video of the demo in action..
 
-[![Build](./assets/MCP23S17_build.jpg?raw=true)](https://www.youtube.com/watch?v=CuNJYUojNe0)
+[![Build](./assets/MCP23S17_build.jpg?raw=true)](https://www.youtube.com/watch?v=CuNJYUojNe0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

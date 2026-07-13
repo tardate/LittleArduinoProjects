@@ -4,7 +4,7 @@ Build and test a PT2399-based delay pedal kit.
 
 Here's a quick hit to demo the delay unit, with a clean guitar signal and all the effects settings (mix, repeat, delay) on "11"..
 
-[![Build](./assets/DelayKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=7I3Oxd9LHHg)
+[![Build](./assets/DelayKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=7I3Oxd9LHHg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ A 555/4017-based dice circuit with slow-down and auto power-off.
 
 Here's a quick video of the dice in action:
 
-[![555Timer/Dice](https://img.youtube.com/vi/5Vzk1R5ehA4/0.jpg)](https://www.youtube.com/watch?v=5Vzk1R5ehA4)
+[![555Timer/Dice](https://img.youtube.com/vi/5Vzk1R5ehA4/0.jpg)](https://www.youtube.com/watch?v=5Vzk1R5ehA4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

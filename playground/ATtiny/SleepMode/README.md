@@ -4,7 +4,7 @@ Test sleep mode with an ATtiny85 processor on a breadboard.
 
 Here's a quick video of the circuit in action:
 
-[![SleepMode](https://img.youtube.com/vi/WhtLly1BM0U/0.jpg)](https://www.youtube.com/watch?v=WhtLly1BM0U)
+[![SleepMode](https://img.youtube.com/vi/WhtLly1BM0U/0.jpg)](https://www.youtube.com/watch?v=WhtLly1BM0U&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

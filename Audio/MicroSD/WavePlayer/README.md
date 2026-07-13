@@ -6,7 +6,7 @@ A basic demonstration of playing a sound file (WAV) from an SD card with an Ardu
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/c4J7TjWiGJ0/0.jpg)](https://www.youtube.com/watch?v=c4J7TjWiGJ0)
+[![clip](https://img.youtube.com/vi/c4J7TjWiGJ0/0.jpg)](https://www.youtube.com/watch?v=c4J7TjWiGJ0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 
@@ -66,4 +66,3 @@ This file is then written to the SD card.
 * [SD card](https://en.wikipedia.org/wiki/SD_card) - wikipedia
 * [Audacity](https://www.audacityteam.org/)
 * [Arduino Wave Audio Player with SD Card](https://simple-circuit.com/arduino-wave-audio-player-sd-card/)
-

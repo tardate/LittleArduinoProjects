@@ -4,7 +4,7 @@ An old 3.5 inch disk drive was begging to be disassembled and transformed with t
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/w1IMjwfu9LM/0.jpg)](https://www.youtube.com/watch?v=w1IMjwfu9LM)
+[![clip](https://img.youtube.com/vi/w1IMjwfu9LM/0.jpg)](https://www.youtube.com/watch?v=w1IMjwfu9LM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

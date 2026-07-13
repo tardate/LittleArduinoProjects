@@ -6,7 +6,7 @@ Dust off some combinational logic methods and build a 8421-BCD to 7-segment LED 
 
 Here's a quick video of it in action:
 
-[![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)](https://www.youtube.com/watch?v=aD_J83ZpXYY)
+[![Build](./assets/CombinationalLogicDriver_build.jpg?raw=true)](https://www.youtube.com/watch?v=aD_J83ZpXYY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

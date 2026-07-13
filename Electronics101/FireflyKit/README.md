@@ -6,7 +6,7 @@ Build and understand the circuit used in this common Firefly DIY kit featuring l
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/L4pR2TzLNno/0.jpg)](https://www.youtube.com/watch?v=L4pR2TzLNno)
+[![clip](https://img.youtube.com/vi/L4pR2TzLNno/0.jpg)](https://www.youtube.com/watch?v=L4pR2TzLNno&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

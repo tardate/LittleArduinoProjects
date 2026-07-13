@@ -6,7 +6,7 @@ A walnut, Brengun 1:144 Kübelwagen and a miniaturised SMD version of a BJT osci
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/MaPvuJEQeow/0.jpg)](https://www.youtube.com/watch?v=MaPvuJEQeow)
+[![clip](https://img.youtube.com/vi/MaPvuJEQeow/0.jpg)](https://www.youtube.com/watch?v=MaPvuJEQeow&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

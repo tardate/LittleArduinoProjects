@@ -7,7 +7,7 @@ Demonstrates a manually triggered counter with the current count printed to an L
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/O_WRKH5tLRU/0.jpg)](https://www.youtube.com/watch?v=O_WRKH5tLRU)
+[![clip](https://img.youtube.com/vi/O_WRKH5tLRU/0.jpg)](https://www.youtube.com/watch?v=O_WRKH5tLRU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Control the TEA5767 low-power FM stereo radio chip with an Arduino.
 
 Here's a quick video demonstration:
 
-[![Build](./assets/TEA5767_build.jpg?raw=true)](https://www.youtube.com/watch?v=j-BBNMV8Iso)
+[![Build](./assets/TEA5767_build.jpg?raw=true)](https://www.youtube.com/watch?v=j-BBNMV8Iso&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

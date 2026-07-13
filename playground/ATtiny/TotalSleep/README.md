@@ -6,7 +6,7 @@ Test a total power shutdown with an ATtiny85 processor on a breadboard: power-on
 
 Here's a quick video of the circuit in action:
 
-[![TotalSleep](https://img.youtube.com/vi/HZMyVCkwHi8/0.jpg)](https://www.youtube.com/watch?v=HZMyVCkwHi8)
+[![TotalSleep](https://img.youtube.com/vi/HZMyVCkwHi8/0.jpg)](https://www.youtube.com/watch?v=HZMyVCkwHi8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

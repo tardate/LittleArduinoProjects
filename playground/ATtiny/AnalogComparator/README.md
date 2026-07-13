@@ -6,7 +6,7 @@ Testing sound-triggered interrupts with the ATtiny85 built-in analog comparator
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/2-oTDrHCTfA/0.jpg)](https://www.youtube.com/watch?v=2-oTDrHCTfA)
+[![clip](https://img.youtube.com/vi/2-oTDrHCTfA/0.jpg)](https://www.youtube.com/watch?v=2-oTDrHCTfA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

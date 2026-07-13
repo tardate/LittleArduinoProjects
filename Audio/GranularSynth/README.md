@@ -6,7 +6,7 @@ Building an ATmega328 granular synth module in an Altoids can .. because granula
 
 Here's a quick demo .. if you can tolerate 5 minutes of me fiddling around!
 
-[![clip](https://img.youtube.com/vi/1UOCTyM_3Ns/0.jpg)](https://www.youtube.com/watch?v=1UOCTyM_3Ns)
+[![clip](https://img.youtube.com/vi/1UOCTyM_3Ns/0.jpg)](https://www.youtube.com/watch?v=1UOCTyM_3Ns&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

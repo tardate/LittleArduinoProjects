@@ -6,7 +6,7 @@ Examining some intrared-controlled LED candles, reverse-engineering the control 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/6QYByzEzOsU/0.jpg)](https://www.youtube.com/watch?v=6QYByzEzOsU)
+[![clip](https://img.youtube.com/vi/6QYByzEzOsU/0.jpg)](https://www.youtube.com/watch?v=6QYByzEzOsU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

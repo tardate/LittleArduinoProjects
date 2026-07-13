@@ -6,7 +6,7 @@ Testing some push-button switches with built-in LEDs. I've used a CD4069 inverte
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/_OUWVysyIPg/0.jpg)](https://www.youtube.com/watch?v=_OUWVysyIPg)
+[![clip](https://img.youtube.com/vi/_OUWVysyIPg/0.jpg)](https://www.youtube.com/watch?v=_OUWVysyIPg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

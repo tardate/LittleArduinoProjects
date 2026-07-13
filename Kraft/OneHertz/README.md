@@ -6,7 +6,7 @@ How to turn a cheap quartz clock mechanism into perhaps the most annoying cuckoo
 
 A bird? A plane? No, it's a snowman! Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/yvBD1zZQLHg/0.jpg)](https://www.youtube.com/watch?v=yvBD1zZQLHg)
+[![clip](https://img.youtube.com/vi/yvBD1zZQLHg/0.jpg)](https://www.youtube.com/watch?v=yvBD1zZQLHg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

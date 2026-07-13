@@ -6,7 +6,7 @@ A curiously hypnotic USB blinky demonstration of a variable frequency/variable d
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/rZ7JHcP_zrk/0.jpg)](https://www.youtube.com/watch?v=rZ7JHcP_zrk)
+[![clip](https://img.youtube.com/vi/rZ7JHcP_zrk/0.jpg)](https://www.youtube.com/watch?v=rZ7JHcP_zrk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

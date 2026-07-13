@@ -6,7 +6,7 @@ Using some 4000 series counters (CD4017, CD4060) to exercise the digits and segm
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/wn-WYp7O15c/0.jpg)](https://www.youtube.com/watch?v=wn-WYp7O15c)
+[![clip](https://img.youtube.com/vi/wn-WYp7O15c/0.jpg)](https://www.youtube.com/watch?v=wn-WYp7O15c&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

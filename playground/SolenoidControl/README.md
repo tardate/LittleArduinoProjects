@@ -6,7 +6,7 @@ Controlling a mini solenoid with an Arduino.
 
 Here's a quick demo of the circuit in action:
 
-[![SolenoidControl](https://img.youtube.com/vi/CDqSoQETEIg/0.jpg)](https://www.youtube.com/watch?v=CDqSoQETEIg)
+[![SolenoidControl](https://img.youtube.com/vi/CDqSoQETEIg/0.jpg)](https://www.youtube.com/watch?v=CDqSoQETEIg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

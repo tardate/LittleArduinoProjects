@@ -6,7 +6,7 @@ Testing a simple 555 project published in Elektor Jul-1980. The circuit uses an 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/ashqnGq1mdM/0.jpg)](https://www.youtube.com/watch?v=ashqnGq1mdM)
+[![clip](https://img.youtube.com/vi/ashqnGq1mdM/0.jpg)](https://www.youtube.com/watch?v=ashqnGq1mdM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

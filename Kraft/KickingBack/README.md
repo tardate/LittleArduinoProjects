@@ -6,7 +6,7 @@ A useless machine/desktop toy that employs some overly complex mechanics to simp
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/zd012kxD8V8/0.jpg)](https://www.youtube.com/watch?v=zd012kxD8V8)
+[![clip](https://img.youtube.com/vi/zd012kxD8V8/0.jpg)](https://www.youtube.com/watch?v=zd012kxD8V8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

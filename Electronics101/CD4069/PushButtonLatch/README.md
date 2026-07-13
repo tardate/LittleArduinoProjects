@@ -6,7 +6,7 @@ A latching pushbutton circuit using a CMOS inverter (CD4069).
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/E-EettivcgY/0.jpg)](https://www.youtube.com/watch?v=E-EettivcgY)
+[![clip](https://img.youtube.com/vi/E-EettivcgY/0.jpg)](https://www.youtube.com/watch?v=E-EettivcgY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

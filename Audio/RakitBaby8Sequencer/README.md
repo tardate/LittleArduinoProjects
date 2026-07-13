@@ -6,7 +6,7 @@ Building the Rakit Baby8, an 8 step sequencer with CV and Gate outputs and a clo
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/WPgUqilOgeQ/0.jpg)](https://www.youtube.com/watch?v=WPgUqilOgeQ)
+[![clip](https://img.youtube.com/vi/WPgUqilOgeQ/0.jpg)](https://www.youtube.com/watch?v=WPgUqilOgeQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

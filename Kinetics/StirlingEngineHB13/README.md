@@ -4,7 +4,7 @@ Building the Böhm Stirling-Technik HB13 Small Bonsai kit.
 
 Here's a quick video of the first firing of the engine:
 
-[![First Firing Demo](https://img.youtube.com/vi/SpzR4BYEarM/0.jpg)](https://www.youtube.com/watch?v=SpzR4BYEarM)
+[![First Firing Demo](https://img.youtube.com/vi/SpzR4BYEarM/0.jpg)](https://www.youtube.com/watch?v=SpzR4BYEarM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Control the classic CD4017 walking-ring counter with an Arduino
 
 Here's a quick video of the circuit in action:
 
-[![RingCounterController](https://img.youtube.com/vi/7SMnoM0gbWc/0.jpg)](https://www.youtube.com/watch?v=7SMnoM0gbWc)
+[![RingCounterController](https://img.youtube.com/vi/7SMnoM0gbWc/0.jpg)](https://www.youtube.com/watch?v=7SMnoM0gbWc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

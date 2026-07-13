@@ -6,7 +6,7 @@ Using a Hall effect switch (A3144).
 
 Here's a quick video of the circuit in action:
 
-[![HallEffectSwitch](https://img.youtube.com/vi/kvyXPPBrkeU/0.jpg)](https://www.youtube.com/watch?v=kvyXPPBrkeU)
+[![HallEffectSwitch](https://img.youtube.com/vi/kvyXPPBrkeU/0.jpg)](https://www.youtube.com/watch?v=kvyXPPBrkeU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

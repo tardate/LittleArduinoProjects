@@ -6,7 +6,7 @@ An example 4-bit synchronous counter with tri-state output, and controls for: co
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/jA2nFYgjZJw/0.jpg)](https://www.youtube.com/watch?v=jA2nFYgjZJw)
+[![clip](https://img.youtube.com/vi/jA2nFYgjZJw/0.jpg)](https://www.youtube.com/watch?v=jA2nFYgjZJw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

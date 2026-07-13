@@ -6,7 +6,7 @@ Building a neat little hi/low logic indicator kit using a CD4511 and a few passi
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/dCGLZiIZdKA/0.jpg)](https://www.youtube.com/watch?v=dCGLZiIZdKA)
+[![clip](https://img.youtube.com/vi/dCGLZiIZdKA/0.jpg)](https://www.youtube.com/watch?v=dCGLZiIZdKA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Use the Boldport Cuttle & Cordwood as a guitar tuner, with a custom input preamp
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/tuner_build.jpg?raw=true)](https://www.youtube.com/watch?v=mtyyQwaxYTk)
+[![Build](./assets/tuner_build.jpg?raw=true)](https://www.youtube.com/watch?v=mtyyQwaxYTk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

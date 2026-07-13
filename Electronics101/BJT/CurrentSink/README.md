@@ -4,7 +4,7 @@ Test a BJT constant current sink circuit.
 
 Here's a quick demo of the circuit in action:
 
-[![BJTCurrentSink](https://img.youtube.com/vi/Gg9dMxprlXM/0.jpg)](https://www.youtube.com/watch?v=Gg9dMxprlXM)
+[![BJTCurrentSink](https://img.youtube.com/vi/Gg9dMxprlXM/0.jpg)](https://www.youtube.com/watch?v=Gg9dMxprlXM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

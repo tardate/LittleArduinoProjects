@@ -4,7 +4,7 @@ Combines a series of effects using the [FastLED](http://fastled.io) to demonstra
 
 Here's a quick video of the demo:
 
-[![StripTease - first tests of a ws2811-based LED array](https://img.youtube.com/vi/CUU-sYmBBfM/0.jpg)](https://www.youtube.com/watch?v=CUU-sYmBBfM)
+[![StripTease - first tests of a ws2811-based LED array](https://img.youtube.com/vi/CUU-sYmBBfM/0.jpg)](https://www.youtube.com/watch?v=CUU-sYmBBfM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

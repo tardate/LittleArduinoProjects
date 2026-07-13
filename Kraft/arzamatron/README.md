@@ -6,7 +6,7 @@ Whipping together a simple sound-activated party decoration with the other half 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/JySBTIIggoI/0.jpg)](https://www.youtube.com/watch?v=JySBTIIggoI)
+[![clip](https://img.youtube.com/vi/JySBTIIggoI/0.jpg)](https://www.youtube.com/watch?v=JySBTIIggoI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

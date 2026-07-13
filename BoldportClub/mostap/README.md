@@ -5,7 +5,7 @@ The mostap is a touch sensor using NAND-gate flip-flops and FET output drivers.
 
 Here's a quick demo of it in action..
 
-[![Build](./assets/mostap_build.jpg?raw=true)](https://www.youtube.com/watch?v=TFuhajrzV-M)
+[![Build](./assets/mostap_build.jpg?raw=true)](https://www.youtube.com/watch?v=TFuhajrzV-M&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Using an HTML5 color picker on a web page hosted from an ESP8266 module (ESP12) 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/m-5TxikA3sQ/0.jpg)](https://www.youtube.com/watch?v=m-5TxikA3sQ)
+[![clip](https://img.youtube.com/vi/m-5TxikA3sQ/0.jpg)](https://www.youtube.com/watch?v=m-5TxikA3sQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

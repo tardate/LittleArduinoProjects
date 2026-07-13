@@ -6,7 +6,7 @@ A simple 555-based AM transmitter.
 
 Here's a quick video of the circuit in action, transmitting [Lullaby/Колыбельная](https://youtu.be/8etPN7Or8ZE) by Аіда Николайчук:
 
-[![555Timer/AMTransmitter](https://img.youtube.com/vi/1QtLAnv1PCg/0.jpg)](https://www.youtube.com/watch?v=1QtLAnv1PCg)
+[![555Timer/AMTransmitter](https://img.youtube.com/vi/1QtLAnv1PCg/0.jpg)](https://www.youtube.com/watch?v=1QtLAnv1PCg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

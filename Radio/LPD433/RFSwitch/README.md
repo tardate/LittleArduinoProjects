@@ -6,7 +6,7 @@ The simplest analog RF switch, using a 433Mhz RF transmitter and receiver set. N
 
 Here's a quick video of the circuit in action:
 
-[![RFSwitch demo](https://img.youtube.com/vi/s8yCbDe15ms/0.jpg)](https://www.youtube.com/watch?v=s8yCbDe15ms)
+[![RFSwitch demo](https://img.youtube.com/vi/s8yCbDe15ms/0.jpg)](https://www.youtube.com/watch?v=s8yCbDe15ms&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

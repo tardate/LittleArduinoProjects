@@ -6,7 +6,7 @@ A low-resistance continuity tester in a solder tube. Runs on 3V with a 555 timer
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/pZHrtnM3dWI/0.jpg)](https://www.youtube.com/watch?v=pZHrtnM3dWI)
+[![clip](https://img.youtube.com/vi/pZHrtnM3dWI/0.jpg)](https://www.youtube.com/watch?v=pZHrtnM3dWI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

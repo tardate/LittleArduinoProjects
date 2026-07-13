@@ -6,7 +6,7 @@ Driving a series of 7-segment LED displays with the MAX7219 and raw SPI commands
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/zJc8V84axcg/0.jpg)](https://www.youtube.com/watch?v=zJc8V84axcg)
+[![clip](https://img.youtube.com/vi/zJc8V84axcg/0.jpg)](https://www.youtube.com/watch?v=zJc8V84axcg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

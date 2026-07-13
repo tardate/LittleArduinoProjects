@@ -6,7 +6,7 @@ Playing with a simple FM frequency conversion circuit, and demonstrating how it 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/jncR-viUNDc/0.jpg)](https://www.youtube.com/watch?v=jncR-viUNDc)
+[![clip](https://img.youtube.com/vi/jncR-viUNDc/0.jpg)](https://www.youtube.com/watch?v=jncR-viUNDc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Learning how to use the JP-QR701 thermal printer module with an Arduino, includi
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/U1RVI4zR9CQ/0.jpg)](https://www.youtube.com/watch?v=U1RVI4zR9CQ)
+[![clip](https://img.youtube.com/vi/U1RVI4zR9CQ/0.jpg)](https://www.youtube.com/watch?v=U1RVI4zR9CQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

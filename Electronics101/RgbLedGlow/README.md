@@ -2,7 +2,7 @@
 
 Rainbow glow effects with an RGB LED and OpAmp oscillators.
 
-[![Build](https://img.youtube.com/vi/9PpOC6A96As/0.jpg)](https://www.youtube.com/watch?v=9PpOC6A96As)
+[![Build](https://img.youtube.com/vi/9PpOC6A96As/0.jpg)](https://www.youtube.com/watch?v=9PpOC6A96As&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

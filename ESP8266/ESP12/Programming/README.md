@@ -6,7 +6,7 @@ The basics of programming an ESP-12 with the ESP8266 core for Arduino.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/p3lY_rLNYZ4/0.jpg)](https://www.youtube.com/watch?v=p3lY_rLNYZ4)
+[![clip](https://img.youtube.com/vi/p3lY_rLNYZ4/0.jpg)](https://www.youtube.com/watch?v=p3lY_rLNYZ4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

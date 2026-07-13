@@ -6,7 +6,7 @@ A simple chromatic scale organ, controlled with a Freescale/NXP MPR121 Proximity
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/11-BnUGQX18/0.jpg)](https://www.youtube.com/watch?v=11-BnUGQX18)
+[![clip](https://img.youtube.com/vi/11-BnUGQX18/0.jpg)](https://www.youtube.com/watch?v=11-BnUGQX18&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ How to use pin change interrupts with the ATtiny85
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/JwgccoQ1pn0/0.jpg)](https://www.youtube.com/watch?v=JwgccoQ1pn0)
+[![clip](https://img.youtube.com/vi/JwgccoQ1pn0/0.jpg)](https://www.youtube.com/watch?v=JwgccoQ1pn0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

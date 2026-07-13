@@ -4,7 +4,7 @@ Using an 74LS14 Hex Inverter with Schmitt Trigger Inputs to generate a square wa
 
 Here's a quick video of the circuit in action:
 
-[![Schmitt Oscillator](https://img.youtube.com/vi/QV99ATHP2Xs/0.jpg)](https://www.youtube.com/watch?v=QV99ATHP2Xs)
+[![Schmitt Oscillator](https://img.youtube.com/vi/QV99ATHP2Xs/0.jpg)](https://www.youtube.com/watch?v=QV99ATHP2Xs&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

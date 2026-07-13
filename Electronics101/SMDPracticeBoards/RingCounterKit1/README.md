@@ -7,7 +7,7 @@ It includes a classic 4017/555 ring counter test circuit.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/-0-qbcGySPA/0.jpg)](https://www.youtube.com/watch?v=-0-qbcGySPA)
+[![clip](https://img.youtube.com/vi/-0-qbcGySPA/0.jpg)](https://www.youtube.com/watch?v=-0-qbcGySPA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

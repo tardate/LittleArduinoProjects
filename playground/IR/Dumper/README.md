@@ -6,7 +6,7 @@ Reverse-engineering infrared protocols using the Arduino-IRremote library.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![clip](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 
