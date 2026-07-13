@@ -1,4 +1,4 @@
-# #xxx Remote Control 2202J
+# #855 Remote Control 2202J
 
 Review and test the 433MHz remote control unit 2202J that features two relays, can operate on mains AC or 5V USB, and can be programmed to behave in momentary, toggle, latching, mixed, or motor control modes.
 

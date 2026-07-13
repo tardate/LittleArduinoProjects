@@ -1,4 +1,13 @@
 {
+    "/radio/lpd433/remotecontrol2202j/": {
+        "id": 855,
+        "title": "Remote Control 2202J",
+        "summary": "Review and test the 433MHz remote control unit 2202J that features two relays, can operate on mains AC or 5V USB, and can be programmed to behave in momentary, toggle, latching, mixed, or motor control modes.",
+        "tags": [
+            "Radio",
+            "LPD433"
+        ]
+    },
     "/electronics101/switches/momentaryspstwithled/": {
         "id": 854,
         "title": "SPST Momentary Push-buttons with LED",
