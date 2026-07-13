@@ -6,7 +6,7 @@ A quick test of motorizing a hand-cranked music box.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/ZkX21Dra-sA/0.jpg)](https://www.youtube.com/watch?v=ZkX21Dra-sA)
+[![clip](https://img.youtube.com/vi/ZkX21Dra-sA/0.jpg)](https://www.youtube.com/watch?v=ZkX21Dra-sA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

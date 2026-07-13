@@ -7,7 +7,7 @@ Designed to drive a speaker, it produces a classic ding-dong.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/KciKpQbWLpc/0.jpg)](https://www.youtube.com/watch?v=KciKpQbWLpc)
+[![clip](https://img.youtube.com/vi/KciKpQbWLpc/0.jpg)](https://www.youtube.com/watch?v=KciKpQbWLpc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

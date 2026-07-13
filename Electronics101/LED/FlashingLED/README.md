@@ -6,7 +6,7 @@ A quick test and review of a range of 5mm flashing LEDs: red , slow RGB, fast RG
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/7EdzYHdnOAo/0.jpg)](https://www.youtube.com/watch?v=7EdzYHdnOAo)
+[![clip](https://img.youtube.com/vi/7EdzYHdnOAo/0.jpg)](https://www.youtube.com/watch?v=7EdzYHdnOAo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Use an Arduino to demonstrate the basic astable mode of operation, and plot the 
 
 Here's a quick video of the circuit in action:
 
-[![555 Timer - A-Stable Oscillator](https://img.youtube.com/vi/1vZiGZan2ok/0.jpg)](https://www.youtube.com/watch?v=1vZiGZan2ok)
+[![555 Timer - A-Stable Oscillator](https://img.youtube.com/vi/1vZiGZan2ok/0.jpg)](https://www.youtube.com/watch?v=1vZiGZan2ok&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

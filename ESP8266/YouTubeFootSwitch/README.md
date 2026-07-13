@@ -6,7 +6,7 @@ An ESP8266-powered foot switch for controlling and looping YouTube videos (ideal
 
 Here's a quick demo..
 
-[![YouTubeControl](https://img.youtube.com/vi/n6uzQQ-pEqw/0.jpg)](https://www.youtube.com/watch?v=n6uzQQ-pEqw)
+[![YouTubeControl](https://img.youtube.com/vi/n6uzQQ-pEqw/0.jpg)](https://www.youtube.com/watch?v=n6uzQQ-pEqw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

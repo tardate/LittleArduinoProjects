@@ -6,7 +6,7 @@ Building a low power, single transistor AM transmitter with surprisingly good fi
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/5skZnjzLtIM/0.jpg)](https://www.youtube.com/watch?v=5skZnjzLtIM)
+[![clip](https://img.youtube.com/vi/5skZnjzLtIM/0.jpg)](https://www.youtube.com/watch?v=5skZnjzLtIM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

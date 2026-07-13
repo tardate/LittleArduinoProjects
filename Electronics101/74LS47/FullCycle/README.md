@@ -6,7 +6,7 @@ Demonstrating the 74LS47 7-segment common-anode LED driver with a simple 4-bit b
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Z8mGKEjwGvg/0.jpg)](https://www.youtube.com/watch?v=Z8mGKEjwGvg)
+[![clip](https://img.youtube.com/vi/Z8mGKEjwGvg/0.jpg)](https://www.youtube.com/watch?v=Z8mGKEjwGvg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

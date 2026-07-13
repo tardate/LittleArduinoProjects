@@ -6,7 +6,7 @@ A quick investigation of some decorative flashing LEDs that were scattered aroun
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/2coM78GFlbY/0.jpg)](https://www.youtube.com/watch?v=2coM78GFlbY)
+[![clip](https://img.youtube.com/vi/2coM78GFlbY/0.jpg)](https://www.youtube.com/watch?v=2coM78GFlbY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

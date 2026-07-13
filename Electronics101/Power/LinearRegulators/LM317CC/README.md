@@ -4,7 +4,7 @@ A low-power constant current source using the LM317
 
 Here's a quick video of the circuit in action:
 
-[![Power317CC](./assets/LM317CC_build3.jpg?raw=true)](https://www.youtube.com/watch?v=YYR-RNSDh-4)
+[![Power317CC](./assets/LM317CC_build3.jpg?raw=true)](https://www.youtube.com/watch?v=YYR-RNSDh-4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

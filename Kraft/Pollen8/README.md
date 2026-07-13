@@ -6,7 +6,7 @@ Pollen8 is a freeform wire sculpture with LEDs driven by a light-sensitive 555/4
 
 Here's a quick demo..
 
-[![clip](./assets/Pollen8_build.gif?raw=true)](https://www.youtube.com/watch?v=VEAgmHIxWKI)
+[![clip](./assets/Pollen8_build.gif?raw=true)](https://www.youtube.com/watch?v=VEAgmHIxWKI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

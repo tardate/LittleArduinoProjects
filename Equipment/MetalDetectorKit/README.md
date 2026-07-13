@@ -6,7 +6,7 @@ An inductive metal detector kit powered by an 18650 with TP4333-based BMS chargi
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Bsp1L-VqqnQ/0.jpg)](https://www.youtube.com/watch?v=Bsp1L-VqqnQ)
+[![clip](https://img.youtube.com/vi/Bsp1L-VqqnQ/0.jpg)](https://www.youtube.com/watch?v=Bsp1L-VqqnQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

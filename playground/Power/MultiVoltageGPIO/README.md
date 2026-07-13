@@ -6,7 +6,7 @@ A PWM charge-pump approach for driving low-current 0V, 5V, 12V output levels fro
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/8Dd5pZfwA6s/0.jpg)](https://www.youtube.com/watch?v=8Dd5pZfwA6s)
+[![clip](https://img.youtube.com/vi/8Dd5pZfwA6s/0.jpg)](https://www.youtube.com/watch?v=8Dd5pZfwA6s&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

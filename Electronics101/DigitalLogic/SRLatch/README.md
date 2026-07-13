@@ -4,7 +4,7 @@ Set/Reset latch with BJTs.
 
 Here's a quick video of the circuit in action:
 
-[![RSFlipFlop demo](https://img.youtube.com/vi/Df0gB0qHPFM/0.jpg)](https://www.youtube.com/watch?v=Df0gB0qHPFM)
+[![RSFlipFlop demo](https://img.youtube.com/vi/Df0gB0qHPFM/0.jpg)](https://www.youtube.com/watch?v=Df0gB0qHPFM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

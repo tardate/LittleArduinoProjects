@@ -4,7 +4,7 @@ A PWM-controlled variable frequency LED "runway lights" effect using the LM331 a
 
 Here's a quick demo video of the circuit in action:
 
-[![Build](./assets/VariableFrequencyRunwayLEDs_build.jpg?raw=true)](https://www.youtube.com/watch?v=qnxnlBLyGxo)
+[![Build](./assets/VariableFrequencyRunwayLEDs_build.jpg?raw=true)](https://www.youtube.com/watch?v=qnxnlBLyGxo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

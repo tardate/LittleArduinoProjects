@@ -6,7 +6,7 @@ Build a 4-bit shift register made with CD4027 J-K flip-flops, setup for both man
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/QZvX0vmwiXI/0.jpg)](https://www.youtube.com/watch?v=QZvX0vmwiXI)
+[![clip](https://img.youtube.com/vi/QZvX0vmwiXI/0.jpg)](https://www.youtube.com/watch?v=QZvX0vmwiXI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

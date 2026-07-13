@@ -6,7 +6,7 @@ Pimping up the Metal Earth Electric Lead Guitar kit with some sound activated LE
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/ljD8L5Ui-bU/0.jpg)](https://www.youtube.com/watch?v=ljD8L5Ui-bU)
+[![clip](https://img.youtube.com/vi/ljD8L5Ui-bU/0.jpg)](https://www.youtube.com/watch?v=ljD8L5Ui-bU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ The Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808
 
 Here's a quick demo; just a sound check/smoke test..
 
-[![clip](https://img.youtube.com/vi/gXs6lWLlBx0/0.jpg)](https://www.youtube.com/watch?v=gXs6lWLlBx0)
+[![clip](https://img.youtube.com/vi/gXs6lWLlBx0/0.jpg)](https://www.youtube.com/watch?v=gXs6lWLlBx0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

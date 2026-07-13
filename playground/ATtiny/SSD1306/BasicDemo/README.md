@@ -6,7 +6,7 @@ Basic demonstration using an ATtiny85 to drive an SSD1306 OLED over I²C
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/6ig4Ndb5gGg/0.jpg)](https://www.youtube.com/watch?v=6ig4Ndb5gGg)
+[![clip](https://img.youtube.com/vi/6ig4Ndb5gGg/0.jpg)](https://www.youtube.com/watch?v=6ig4Ndb5gGg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

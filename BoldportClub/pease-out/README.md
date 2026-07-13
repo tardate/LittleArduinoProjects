@@ -7,7 +7,7 @@ An audio voltage indicator based on the Boldport Club Pease-out, Project #32 Jan
 Here's a quick demo..
 
 
-[![clip](https://img.youtube.com/vi/BdVmqKtpCnQ/0.jpg)](https://www.youtube.com/watch?v=BdVmqKtpCnQ)
+[![clip](https://img.youtube.com/vi/BdVmqKtpCnQ/0.jpg)](https://www.youtube.com/watch?v=BdVmqKtpCnQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

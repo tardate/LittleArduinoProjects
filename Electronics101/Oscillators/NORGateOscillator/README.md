@@ -6,7 +6,7 @@ Test a low-speed square wave oscillator using NOR gates.
 
 Here's a quick video of the circuit in action:
 
-[![NORGateOscillator demo](https://img.youtube.com/vi/D6UURcxSMp0/0.jpg)](https://www.youtube.com/watch?v=D6UURcxSMp0)
+[![NORGateOscillator demo](https://img.youtube.com/vi/D6UURcxSMp0/0.jpg)](https://www.youtube.com/watch?v=D6UURcxSMp0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

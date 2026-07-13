@@ -6,7 +6,7 @@ A basic two-tone doorbell using a 555 timer oscillator, with n-channel FET for p
 
 Here's a quick video of the circuit in action:
 
-[![TwoToneDoorbell](https://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](https://www.youtube.com/watch?v=yD5Hbg0qQJE)
+[![TwoToneDoorbell](https://img.youtube.com/vi/yD5Hbg0qQJE/0.jpg)](https://www.youtube.com/watch?v=yD5Hbg0qQJE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

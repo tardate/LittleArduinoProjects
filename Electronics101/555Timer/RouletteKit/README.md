@@ -6,7 +6,7 @@ Build and examine the workings of a commercial 555 Roulette kit
 
 Here's a quick video of it in action:
 
-[![RouletteKit demo](https://img.youtube.com/vi/sRrmW6ToDyQ/0.jpg)](https://www.youtube.com/watch?v=sRrmW6ToDyQ)
+[![RouletteKit demo](https://img.youtube.com/vi/sRrmW6ToDyQ/0.jpg)](https://www.youtube.com/watch?v=sRrmW6ToDyQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

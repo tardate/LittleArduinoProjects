@@ -6,7 +6,7 @@ Using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/t6bDAJE5T_M/0.jpg)](https://www.youtube.com/watch?v=t6bDAJE5T_M)
+[![clip](https://img.youtube.com/vi/t6bDAJE5T_M/0.jpg)](https://www.youtube.com/watch?v=t6bDAJE5T_M&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

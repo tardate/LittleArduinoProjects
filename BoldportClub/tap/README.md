@@ -3,7 +3,7 @@
 Harking back to a 7400-series logic circuit published in a 1974 Elektor article,
 this retro Boldport Club project is a classic.
 
-[![Build](./assets/tap_build.jpg?raw=true)](https://www.youtube.com/watch?v=WQKIWN_7tfE)
+[![Build](./assets/tap_build.jpg?raw=true)](https://www.youtube.com/watch?v=WQKIWN_7tfE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

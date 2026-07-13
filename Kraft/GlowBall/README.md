@@ -4,7 +4,7 @@ Building LED effects for a Glass Eye Studio Celestial Planet Weight.
 
 Here's is a video with a few soothing minutes of the glow effect;-)
 
-[![Build](./assets/GlowBall_build.jpg?raw=true)](https://www.youtube.com/watch?v=hcFyM52ok7U)
+[![Build](./assets/GlowBall_build.jpg?raw=true)](https://www.youtube.com/watch?v=hcFyM52ok7U&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

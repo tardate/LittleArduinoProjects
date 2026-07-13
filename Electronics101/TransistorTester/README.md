@@ -4,7 +4,7 @@ Use an Arduino to test NPN and PNP BJTs.
 
 Here's a quick video of the circuit in action:
 
-[![TransistorTester demo](https://img.youtube.com/vi/LyhCdzWy1SI/0.jpg)](https://www.youtube.com/watch?v=LyhCdzWy1SI)
+[![TransistorTester demo](https://img.youtube.com/vi/LyhCdzWy1SI/0.jpg)](https://www.youtube.com/watch?v=LyhCdzWy1SI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

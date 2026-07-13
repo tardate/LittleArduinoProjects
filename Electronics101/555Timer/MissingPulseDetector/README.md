@@ -6,7 +6,7 @@ Presenting a missing pulse detector circuit based on a 555 timer monostable, and
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/gv7AIcWkxq8/0.jpg)](https://www.youtube.com/watch?v=gv7AIcWkxq8)
+[![clip](https://img.youtube.com/vi/gv7AIcWkxq8/0.jpg)](https://www.youtube.com/watch?v=gv7AIcWkxq8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

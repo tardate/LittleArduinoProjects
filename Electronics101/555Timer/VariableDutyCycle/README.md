@@ -5,7 +5,7 @@ Test a 555 oscillator circuit that allows easy manual duty cycle adjustment whil
 Here's a quick video of the circuit in action, in which the basic frequency has been slowed to around 2 Hz
 so that the duty cycle variation is clearly visible:
 
-[![555Timer/VariableDutyCycle](https://img.youtube.com/vi/UJAR0J1mjsE/0.jpg)](https://www.youtube.com/watch?v=UJAR0J1mjsE)
+[![555Timer/VariableDutyCycle](https://img.youtube.com/vi/UJAR0J1mjsE/0.jpg)](https://www.youtube.com/watch?v=UJAR0J1mjsE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

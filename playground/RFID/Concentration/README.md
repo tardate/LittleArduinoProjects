@@ -6,7 +6,7 @@ Play a game of Concentration/Pairs with a stack of MIFARE Classic cards.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/e0_bCd3ZnEI/0.jpg)](https://www.youtube.com/watch?v=e0_bCd3ZnEI)
+[![clip](https://img.youtube.com/vi/e0_bCd3ZnEI/0.jpg)](https://www.youtube.com/watch?v=e0_bCd3ZnEI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

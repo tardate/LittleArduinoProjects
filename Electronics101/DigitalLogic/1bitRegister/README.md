@@ -6,7 +6,7 @@ Building a basic manually controlled 1-bit register that demonstrates the key fe
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/QItWfNkyWDw/0.jpg)](https://www.youtube.com/watch?v=QItWfNkyWDw)
+[![clip](https://img.youtube.com/vi/QItWfNkyWDw/0.jpg)](https://www.youtube.com/watch?v=QItWfNkyWDw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

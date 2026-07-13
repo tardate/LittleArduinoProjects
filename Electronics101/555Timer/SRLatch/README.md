@@ -6,7 +6,7 @@ Set/Reset latch with a 555 timer.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/EvETU3D4btE/0.jpg)](https://www.youtube.com/watch?v=EvETU3D4btE)
+[![clip](https://img.youtube.com/vi/EvETU3D4btE/0.jpg)](https://www.youtube.com/watch?v=EvETU3D4btE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

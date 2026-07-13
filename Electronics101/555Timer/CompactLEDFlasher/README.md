@@ -6,7 +6,7 @@ An unusual configuration of the 555 produces an astable oscillation with minimal
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/_2756x0eOyg/0.jpg)](https://www.youtube.com/watch?v=_2756x0eOyg)
+[![clip](https://img.youtube.com/vi/_2756x0eOyg/0.jpg)](https://www.youtube.com/watch?v=_2756x0eOyg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

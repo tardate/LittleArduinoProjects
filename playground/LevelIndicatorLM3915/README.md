@@ -6,7 +6,7 @@ Drive a 10-segment display with a single Arduino pin.
 
 Here's a quick video of the circuit in action:
 
-[![LevelIndicatorLM3915 demo](https://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](https://www.youtube.com/watch?v=00BBIDRA13Y)
+[![LevelIndicatorLM3915 demo](https://img.youtube.com/vi/00BBIDRA13Y/0.jpg)](https://www.youtube.com/watch?v=00BBIDRA13Y&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

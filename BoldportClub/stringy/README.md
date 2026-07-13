@@ -4,7 +4,7 @@ Building and playing (mainly playing) the Boldport Club Stringy (Project #14, Ju
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/stringy_build.jpg?raw=true)](https://www.youtube.com/watch?v=pLeL9CwuKVM)
+[![Build](./assets/stringy_build.jpg?raw=true)](https://www.youtube.com/watch?v=pLeL9CwuKVM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

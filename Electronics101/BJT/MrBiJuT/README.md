@@ -7,7 +7,7 @@ using a CD4011 Schmitt oscillator.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/hCzHK4Sgnn0/0.jpg)](https://www.youtube.com/watch?v=hCzHK4Sgnn0)
+[![clip](https://img.youtube.com/vi/hCzHK4Sgnn0/0.jpg)](https://www.youtube.com/watch?v=hCzHK4Sgnn0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

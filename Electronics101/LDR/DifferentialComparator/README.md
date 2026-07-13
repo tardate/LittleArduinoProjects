@@ -6,7 +6,7 @@ Using a differential amplifier to extract a clean trigger signal from a light de
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/3DnNSI1Qrdo/0.jpg)](https://www.youtube.com/watch?v=3DnNSI1Qrdo)
+[![clip](https://img.youtube.com/vi/3DnNSI1Qrdo/0.jpg)](https://www.youtube.com/watch?v=3DnNSI1Qrdo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

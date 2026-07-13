@@ -2,7 +2,7 @@
 
 Boldport Club PissOff mutant offspring .. with spider legs and scuttling drive system.
 
-[![SpiderBot](https://img.youtube.com/vi/SppVUWhvZKs/0.jpg)](https://www.youtube.com/watch?v=SppVUWhvZKs)
+[![SpiderBot](https://img.youtube.com/vi/SppVUWhvZKs/0.jpg)](https://www.youtube.com/watch?v=SppVUWhvZKs&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

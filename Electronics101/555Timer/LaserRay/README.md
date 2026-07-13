@@ -6,7 +6,7 @@ Testing a "laser ray" light and sound effect based on the 555 timer.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/TO6vUcCDoZk/0.jpg)](https://www.youtube.com/watch?v=TO6vUcCDoZk)
+[![clip](https://img.youtube.com/vi/TO6vUcCDoZk/0.jpg)](https://www.youtube.com/watch?v=TO6vUcCDoZk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

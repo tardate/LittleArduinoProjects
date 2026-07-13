@@ -6,7 +6,7 @@ Test driving a monochrome 128x32 OLED Display with an Arduino and the raw comman
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/QbW2QIIWK5I/0.jpg)](https://www.youtube.com/watch?v=QbW2QIIWK5I)
+[![clip](https://img.youtube.com/vi/QbW2QIIWK5I/0.jpg)](https://www.youtube.com/watch?v=QbW2QIIWK5I&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

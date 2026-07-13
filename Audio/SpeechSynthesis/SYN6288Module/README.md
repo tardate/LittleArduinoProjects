@@ -6,7 +6,7 @@ Investigating the SYN6288 Chinese text to speech module with simple Arduino demo
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/0qK9wVQqV3A/0.jpg)](https://www.youtube.com/watch?v=0qK9wVQqV3A)
+[![clip](https://img.youtube.com/vi/0qK9wVQqV3A/0.jpg)](https://www.youtube.com/watch?v=0qK9wVQqV3A&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Introducing the CD4017 decade counter with the LED Chaser demo circuit.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/AD3Hxu9XaKw/0.jpg)](https://www.youtube.com/watch?v=AD3Hxu9XaKw)
+[![clip](https://img.youtube.com/vi/AD3Hxu9XaKw/0.jpg)](https://www.youtube.com/watch?v=AD3Hxu9XaKw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

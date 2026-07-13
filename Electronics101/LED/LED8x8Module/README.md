@@ -6,7 +6,7 @@ Building and using an 8x8 LED matrix with MAX7219 driver module.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/aVieg4loAUo/0.jpg)](https://www.youtube.com/watch?v=aVieg4loAUo)
+[![clip](https://img.youtube.com/vi/aVieg4loAUo/0.jpg)](https://www.youtube.com/watch?v=aVieg4loAUo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

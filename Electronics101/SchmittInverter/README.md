@@ -4,7 +4,7 @@ Use an Arduino to demonstrate the basic operation of 74LS14 Hex Inverter with Sc
 
 Here's a quick video of the circuit in action:
 
-[![Schmitt Inverter](https://img.youtube.com/vi/xGmdBrGDc2E/0.jpg)](https://www.youtube.com/watch?v=xGmdBrGDc2E)
+[![Schmitt Inverter](https://img.youtube.com/vi/xGmdBrGDc2E/0.jpg)](https://www.youtube.com/watch?v=xGmdBrGDc2E&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

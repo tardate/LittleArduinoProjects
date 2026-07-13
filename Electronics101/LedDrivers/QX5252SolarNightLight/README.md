@@ -6,7 +6,7 @@ Exploring the circuit inside most garden solar lights, which uses a QX5252/YX805
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/RFV3R29ny8E/0.jpg)](https://www.youtube.com/watch?v=RFV3R29ny8E)
+[![clip](https://img.youtube.com/vi/RFV3R29ny8E/0.jpg)](https://www.youtube.com/watch?v=RFV3R29ny8E&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

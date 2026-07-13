@@ -6,7 +6,7 @@ Comparing BJT and MOSFETs for creating a simple turn-off delay with discrete com
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/YTcEi-I5jsQ/0.jpg)](https://www.youtube.com/watch?v=YTcEi-I5jsQ)
+[![clip](https://img.youtube.com/vi/YTcEi-I5jsQ/0.jpg)](https://www.youtube.com/watch?v=YTcEi-I5jsQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

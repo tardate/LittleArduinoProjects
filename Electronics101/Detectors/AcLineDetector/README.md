@@ -6,7 +6,7 @@ Playing around with a simple AC line current detector.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/SgX1PESmsKk/0.jpg)](https://www.youtube.com/watch?v=SgX1PESmsKk)
+[![clip](https://img.youtube.com/vi/SgX1PESmsKk/0.jpg)](https://www.youtube.com/watch?v=SgX1PESmsKk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

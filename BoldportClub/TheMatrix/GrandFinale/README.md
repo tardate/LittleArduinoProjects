@@ -6,7 +6,7 @@ Solving cassidoo's Fireworks Grand Finale challenge for Arduino and simulating t
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/3yQSyyRHmyI/0.jpg)](https://www.youtube.com/watch?v=3yQSyyRHmyI)
+[![clip](https://img.youtube.com/vi/3yQSyyRHmyI/0.jpg)](https://www.youtube.com/watch?v=3yQSyyRHmyI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

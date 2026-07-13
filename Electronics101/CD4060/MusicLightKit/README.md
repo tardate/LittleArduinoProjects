@@ -4,7 +4,7 @@ Learning how to use the CD4060 14-Stage Ripple Carry Binary Counter by building 
 
 Here's a quick demo of the LED sequence in action..
 
-[![Build](./assets/MusicLightKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=oUgnn1maLc8)
+[![Build](./assets/MusicLightKit_build.jpg?raw=true)](https://www.youtube.com/watch?v=oUgnn1maLc8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

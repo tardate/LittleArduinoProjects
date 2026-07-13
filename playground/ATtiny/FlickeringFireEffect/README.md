@@ -6,7 +6,7 @@ A flickering fire effect with 3 LEDs and adjustable brightness controlled by an 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/n3E-piAeGrw/0.jpg)](https://www.youtube.com/watch?v=n3E-piAeGrw)
+[![clip](https://img.youtube.com/vi/n3E-piAeGrw/0.jpg)](https://www.youtube.com/watch?v=n3E-piAeGrw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

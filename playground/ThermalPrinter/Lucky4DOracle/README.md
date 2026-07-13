@@ -6,7 +6,7 @@ A "Lucky 4D" number generator, built with a JP-QR701 Thermal Printer, including 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/JpGXrXBNd1E/0.jpg)](https://www.youtube.com/watch?v=JpGXrXBNd1E)
+[![clip](https://img.youtube.com/vi/JpGXrXBNd1E/0.jpg)](https://www.youtube.com/watch?v=JpGXrXBNd1E&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

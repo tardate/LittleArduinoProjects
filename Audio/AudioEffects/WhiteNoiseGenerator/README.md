@@ -6,7 +6,7 @@ Building a common white noise generator circuit and optimising it for 9V operati
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/f4c5FJrZLs8/0.jpg)](https://www.youtube.com/watch?v=f4c5FJrZLs8)
+[![clip](https://img.youtube.com/vi/f4c5FJrZLs8/0.jpg)](https://www.youtube.com/watch?v=f4c5FJrZLs8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

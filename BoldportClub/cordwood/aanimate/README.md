@@ -4,7 +4,7 @@ Run a demo animation using aaronjasso's Cordwood library
 
 Here's a quick video showing it in action..
 
-[![Build](./assets/aanimate_build.jpg?raw=true)](https://www.youtube.com/watch?v=0WyH_XYZ9tg)
+[![Build](./assets/aanimate_build.jpg?raw=true)](https://www.youtube.com/watch?v=0WyH_XYZ9tg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

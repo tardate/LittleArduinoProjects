@@ -6,7 +6,7 @@ Testing a small 3V, 3-digit LCD panel with an example of driving the multiplexed
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/LoUrjqXW7G4/0.jpg)](https://www.youtube.com/watch?v=LoUrjqXW7G4)
+[![clip](https://img.youtube.com/vi/LoUrjqXW7G4/0.jpg)](https://www.youtube.com/watch?v=LoUrjqXW7G4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

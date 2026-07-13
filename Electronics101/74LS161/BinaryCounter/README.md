@@ -6,7 +6,7 @@ About the 74LS161 4-bit Binary Counter with Asynchronous Reset, illustrated with
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/sj4BRpH6dp4/0.jpg)](https://www.youtube.com/watch?v=sj4BRpH6dp4)
+[![clip](https://img.youtube.com/vi/sj4BRpH6dp4/0.jpg)](https://www.youtube.com/watch?v=sj4BRpH6dp4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -8,7 +8,7 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/k13FuwNF-LE/0.jpg)](https://www.youtube.com/watch?v=k13FuwNF-LE)
 
-PS: [Samba do Cajón - Abellán Oficial](https://www.youtube.com/watch?v=DX3VwDKX4Gc)
+PS: [Samba do Cajón - Abellán Oficial](https://www.youtube.com/watch?v=DX3VwDKX4Gc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

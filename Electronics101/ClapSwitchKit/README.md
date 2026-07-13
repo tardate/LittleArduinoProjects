@@ -4,7 +4,7 @@ Build and analyse a simple clap switch circuit available as a kit
 
 Here's a quick video of the kit in action:
 
-[![ClapSwitchKit Demo](https://img.youtube.com/vi/sou727DP5S4/0.jpg)](https://www.youtube.com/watch?v=sou727DP5S4)
+[![ClapSwitchKit Demo](https://img.youtube.com/vi/sou727DP5S4/0.jpg)](https://www.youtube.com/watch?v=sou727DP5S4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -1,6 +1,6 @@
-# 854 Little Electronic Art Projects
+# 855 Little Electronic Art Projects
 
-> Latest addition :sparkles: [SPST Momentary Push-buttons with LED](./Electronics101/Switches/MomentarySPSTWithLED) - Testing some push-button switches with built-in LEDs. I've used a CD4069 inverter-based latching circuit to demonstrate toggling the LED on and off.
+> Latest addition :sparkles: [Remote Control 2202J](./Radio/LPD433/RemoteControl2202J) - Review and test the 433MHz remote control unit 2202J that features two relays, can operate on mains AC or 5V USB, and can be programmed to behave in momentary, toggle, latching, mixed, or motor control modes.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

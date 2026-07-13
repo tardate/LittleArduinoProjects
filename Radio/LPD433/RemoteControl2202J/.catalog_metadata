@@ -1,0 +1,9 @@
+{
+    "name": "Remote Control 2202J",
+    "description": "Review and test the 433MHz remote control unit 2202J that features two relays, can operate on mains AC or 5V USB, and can be programmed to behave in momentary, toggle, latching, mixed, or motor control modes.",
+    "categories": "Radio, LPD433",
+    "relative_path": "Radio/LPD433/RemoteControl2202J",
+    "updated_at": "2026-07-13T08:56:00Z",
+    "created_at": "2026-07-13T08:56:00Z",
+    "id": "#855"
+}

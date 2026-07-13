@@ -6,7 +6,7 @@ Playing with a popular 74HC14 bird chirp effect by Wilf Rigter and making a CANa
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/QLl-OWAFiy0/0.jpg)](https://www.youtube.com/watch?v=QLl-OWAFiy0)
+[![clip](https://img.youtube.com/vi/QLl-OWAFiy0/0.jpg)](https://www.youtube.com/watch?v=QLl-OWAFiy0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

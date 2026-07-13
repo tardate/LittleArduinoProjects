@@ -4,7 +4,7 @@ Demo an RGB LED module
 
 Here's a quick video of the module in action:
 
-[![RGBLedModule Demo](https://img.youtube.com/vi/69Q7RoGBJaE/0.jpg)](https://www.youtube.com/watch?v=69Q7RoGBJaE)
+[![RGBLedModule Demo](https://img.youtube.com/vi/69Q7RoGBJaE/0.jpg)](https://www.youtube.com/watch?v=69Q7RoGBJaE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

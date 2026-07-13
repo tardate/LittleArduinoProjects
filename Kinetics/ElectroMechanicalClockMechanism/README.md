@@ -6,7 +6,7 @@ Examining a common crystal-disciplined quartz clock movement mechanism, figuring
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/RjGGaxO6XCQ/0.jpg)](https://www.youtube.com/watch?v=RjGGaxO6XCQ)
+[![clip](https://img.youtube.com/vi/RjGGaxO6XCQ/0.jpg)](https://www.youtube.com/watch?v=RjGGaxO6XCQ&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

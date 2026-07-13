@@ -10,7 +10,7 @@ TLDR: Success! For my "proof of life" demo I plucked a few signals from the air:
 * Some Malaysian rag chewing on 7005 kHz
 * Briefly caught some CW on 7028 kHz
 
-[![clip](https://img.youtube.com/vi/Pek-wT96I2Q/0.jpg)](https://www.youtube.com/watch?v=Pek-wT96I2Q)
+[![clip](https://img.youtube.com/vi/Pek-wT96I2Q/0.jpg)](https://www.youtube.com/watch?v=Pek-wT96I2Q&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

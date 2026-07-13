@@ -6,7 +6,7 @@ Exploring techniques for driving piezo transducers and buzzer units for audio ou
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/TUH7J-5sV4k/0.jpg)](https://www.youtube.com/watch?v=TUH7J-5sV4k)
+[![clip](https://img.youtube.com/vi/TUH7J-5sV4k/0.jpg)](https://www.youtube.com/watch?v=TUH7J-5sV4k&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

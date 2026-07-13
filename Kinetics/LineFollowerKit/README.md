@@ -6,7 +6,7 @@ Building the D2-5 Intelligent Line Tracking Car Kit - a nice demonstration of a 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/8zqIqcZ_V-k/0.jpg)](https://www.youtube.com/watch?v=8zqIqcZ_V-k)
+[![clip](https://img.youtube.com/vi/8zqIqcZ_V-k/0.jpg)](https://www.youtube.com/watch?v=8zqIqcZ_V-k&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

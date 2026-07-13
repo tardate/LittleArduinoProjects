@@ -6,7 +6,7 @@ Building a $10 spray booth for light airbrush spray painting and soldering.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/KVj_xVcu82s/0.jpg)](https://www.youtube.com/watch?v=KVj_xVcu82s)
+[![clip](https://img.youtube.com/vi/KVj_xVcu82s/0.jpg)](https://www.youtube.com/watch?v=KVj_xVcu82s&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

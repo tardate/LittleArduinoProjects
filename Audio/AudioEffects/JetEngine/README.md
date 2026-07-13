@@ -6,7 +6,7 @@ Fine tuning an analog jet engine startup sound simulation, using a zener noise g
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/XU06NOCgH_g/0.jpg)](https://www.youtube.com/watch?v=XU06NOCgH_g)
+[![clip](https://img.youtube.com/vi/XU06NOCgH_g/0.jpg)](https://www.youtube.com/watch?v=XU06NOCgH_g&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

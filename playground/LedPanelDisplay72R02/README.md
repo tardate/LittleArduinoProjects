@@ -2,7 +2,7 @@
 
 Test 7-digit & 7-status indicator LED display
 
-[![LedPanelDisplay72R02](https://img.youtube.com/vi/dPpyn7SVoBo/0.jpg)](https://www.youtube.com/watch?v=dPpyn7SVoBo)
+[![LedPanelDisplay72R02](https://img.youtube.com/vi/dPpyn7SVoBo/0.jpg)](https://www.youtube.com/watch?v=dPpyn7SVoBo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

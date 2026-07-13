@@ -8,7 +8,7 @@ Here's a quick demo..
 [![clip](https://img.youtube.com/vi/hKurYsvKQZk/0.jpg)](https://www.youtube.com/watch?v=hKurYsvKQZk)
 
 
-![Build](./assets/conehead_build.jpg?raw=true)
+![Build](./assets/conehead_build.jpg?raw=true&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

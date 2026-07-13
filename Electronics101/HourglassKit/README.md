@@ -6,7 +6,7 @@ Building an hourglass animation that demonstrates some pretty claver multiplexin
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/rMI45_8RprU/0.jpg)](https://www.youtube.com/watch?v=rMI45_8RprU)
+[![clip](https://img.youtube.com/vi/rMI45_8RprU/0.jpg)](https://www.youtube.com/watch?v=rMI45_8RprU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

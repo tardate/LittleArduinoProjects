@@ -6,7 +6,7 @@ Taming a very simple direct conversion FM receiver.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/jYyZfDl8ZHY/0.jpg)](https://www.youtube.com/watch?v=jYyZfDl8ZHY)
+[![clip](https://img.youtube.com/vi/jYyZfDl8ZHY/0.jpg)](https://www.youtube.com/watch?v=jYyZfDl8ZHY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

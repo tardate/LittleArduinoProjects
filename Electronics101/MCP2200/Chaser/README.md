@@ -6,7 +6,7 @@ Using the MCP2200 GPIO from MacOSX. With great power comes great responsibility 
 
 Here's quick demo to show it in action:
 
-[![Build](https://img.youtube.com/vi/QD8XAKR6MQo/0.jpg)](https://www.youtube.com/watch?v=QD8XAKR6MQo)
+[![Build](https://img.youtube.com/vi/QD8XAKR6MQo/0.jpg)](https://www.youtube.com/watch?v=QD8XAKR6MQo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

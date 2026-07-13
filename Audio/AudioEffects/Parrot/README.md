@@ -6,7 +6,7 @@ Playing with a 1-transistor, dual oscillator chirping sound effect circuit.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/9vkSytXmmKg/0.jpg)](https://www.youtube.com/watch?v=9vkSytXmmKg)
+[![clip](https://img.youtube.com/vi/9vkSytXmmKg/0.jpg)](https://www.youtube.com/watch?v=9vkSytXmmKg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Pimp my spoolt - the Boldport Club solder dispenser (Project #15, July 2017).
 
 Here's a quick demo of it in action..
 
-[![Build](./assets/spoolt_build.jpg?raw=true)](https://www.youtube.com/watch?v=mSZUleERjIs)
+[![Build](./assets/spoolt_build.jpg?raw=true)](https://www.youtube.com/watch?v=mSZUleERjIs&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

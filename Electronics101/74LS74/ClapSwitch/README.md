@@ -6,7 +6,7 @@ Building a clap-switch circuit with electret input, 555 trigger and 74LS74 latch
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/vy27aw7SX5w/0.jpg)](https://www.youtube.com/watch?v=vy27aw7SX5w)
+[![clip](https://img.youtube.com/vi/vy27aw7SX5w/0.jpg)](https://www.youtube.com/watch?v=vy27aw7SX5w&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

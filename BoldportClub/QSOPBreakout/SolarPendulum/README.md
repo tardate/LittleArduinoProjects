@@ -4,7 +4,7 @@ Build a solar-powered pendulum similar to the popular "solar wobble/flip-flop to
 
 Here's a quick video showing it in action on a quite overcast afternoon..
 
-[![Build](./assets/SolarPendulum_build.jpg?raw=true)](https://www.youtube.com/watch?v=buP3zrMjN94)
+[![Build](./assets/SolarPendulum_build.jpg?raw=true)](https://www.youtube.com/watch?v=buP3zrMjN94&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

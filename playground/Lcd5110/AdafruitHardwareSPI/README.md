@@ -6,7 +6,7 @@ A quick Nokia 5110 LCD test using hardware SPI and the Adafruit PCD8544 library.
 
 Here's a quick demo..
 
-[![5Id0RPrwmbw](https://img.youtube.com/vi/5Id0RPrwmbw/0.jpg)](https://www.youtube.com/watch?v=5Id0RPrwmbw)
+[![5Id0RPrwmbw](https://img.youtube.com/vi/5Id0RPrwmbw/0.jpg)](https://www.youtube.com/watch?v=5Id0RPrwmbw&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

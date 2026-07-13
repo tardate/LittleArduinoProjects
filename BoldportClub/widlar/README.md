@@ -6,7 +6,7 @@ Hacking the BoldportClub Widlar (Project #21) to get the classic μA723 to do so
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/jR9F6w2ItQ8/0.jpg)](https://www.youtube.com/watch?v=jR9F6w2ItQ8)
+[![clip](https://img.youtube.com/vi/jR9F6w2ItQ8/0.jpg)](https://www.youtube.com/watch?v=jR9F6w2ItQ8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

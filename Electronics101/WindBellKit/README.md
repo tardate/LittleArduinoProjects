@@ -6,7 +6,7 @@ Building the Wobbly Wind Bell demonstrating a simple RC oscillator circuit. Avai
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/CoDeYtJtk-c/0.jpg)](https://www.youtube.com/watch?v=CoDeYtJtk-c)
+[![clip](https://img.youtube.com/vi/CoDeYtJtk-c/0.jpg)](https://www.youtube.com/watch?v=CoDeYtJtk-c&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

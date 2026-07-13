@@ -6,7 +6,7 @@ Custom build of the Boldport Club Cordwood Puzzle III, Project #25, May 2018, wi
 
 Here's a quick demo of the build on a custom test jig "LED Blinky Machine"..
 
-[![clip](https://img.youtube.com/vi/ol5FfNbUmC8/0.jpg)](https://www.youtube.com/watch?v=ol5FfNbUmC8)
+[![clip](https://img.youtube.com/vi/ol5FfNbUmC8/0.jpg)](https://www.youtube.com/watch?v=ol5FfNbUmC8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

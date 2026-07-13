@@ -6,7 +6,7 @@ Classic timer circuit producing a two-tone oscillation through control voltage a
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/kUD3gngyH8Y/0.jpg)](https://www.youtube.com/watch?v=kUD3gngyH8Y)
+[![clip](https://img.youtube.com/vi/kUD3gngyH8Y/0.jpg)](https://www.youtube.com/watch?v=kUD3gngyH8Y&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

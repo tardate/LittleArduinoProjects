@@ -6,7 +6,7 @@ Build and test basic electromechanical solenoid.
 
 Here's a quick video of the solenoid in action:
 
-[![SolenoidDIY](https://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](https://www.youtube.com/watch?v=Lakz1MZA9wI)
+[![SolenoidDIY](https://img.youtube.com/vi/Lakz1MZA9wI/0.jpg)](https://www.youtube.com/watch?v=Lakz1MZA9wI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

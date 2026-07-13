@@ -6,7 +6,7 @@ Using a data slicer to extract a clean trigger signal from a light dependent res
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/N8BFajxKo-w/0.jpg)](https://www.youtube.com/watch?v=N8BFajxKo-w)
+[![clip](https://img.youtube.com/vi/N8BFajxKo-w/0.jpg)](https://www.youtube.com/watch?v=N8BFajxKo-w&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

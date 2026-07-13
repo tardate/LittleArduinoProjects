@@ -6,7 +6,7 @@ Adding a low-voltage BJT class A amplifier for the HS088 Audio Effects Chip.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/tW9xAA9nvXE/0.jpg)](https://www.youtube.com/watch?v=tW9xAA9nvXE)
+[![clip](https://img.youtube.com/vi/tW9xAA9nvXE/0.jpg)](https://www.youtube.com/watch?v=tW9xAA9nvXE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

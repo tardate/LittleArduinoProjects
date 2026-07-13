@@ -6,7 +6,7 @@ Simple demonstratration of reading an writing value blocks with an RC522 RFID re
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/GDU3mLvzJfo/0.jpg)](https://www.youtube.com/watch?v=GDU3mLvzJfo)
+[![clip](https://img.youtube.com/vi/GDU3mLvzJfo/0.jpg)](https://www.youtube.com/watch?v=GDU3mLvzJfo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -4,7 +4,7 @@ Running the AdaFruit example program with a monochrome 128x64 OLED Display
 
 Here's a quick video of the circuit in action:
 
-[![OLED/SSD1306WithAdaFruitLibraries demo](https://img.youtube.com/vi/A-Yeba9-Y1I/0.jpg)](https://www.youtube.com/watch?v=A-Yeba9-Y1I)
+[![OLED/SSD1306WithAdaFruitLibraries demo](https://img.youtube.com/vi/A-Yeba9-Y1I/0.jpg)](https://www.youtube.com/watch?v=A-Yeba9-Y1I&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

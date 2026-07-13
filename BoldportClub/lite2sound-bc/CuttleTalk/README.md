@@ -8,7 +8,7 @@ Here's a quick demo..
 
 [![clip](https://img.youtube.com/vi/D7n0T0xKA2Y/0.jpg)](https://www.youtube.com/watch?v=D7n0T0xKA2Y)
 
-NB: or just a short [CuttleTalk clip](https://youtu.be/jYx-Odu2f3g)
+NB: or just a short [CuttleTalk clip](https://youtu.be/jYx-Odu2f3g&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

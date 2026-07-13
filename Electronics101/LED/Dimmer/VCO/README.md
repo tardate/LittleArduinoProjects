@@ -6,7 +6,7 @@ Demonstrating a voltage-controlled LED current source with a triangle wave gener
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/feXL85_2WCg/0.jpg)](https://www.youtube.com/watch?v=feXL85_2WCg)
+[![clip](https://img.youtube.com/vi/feXL85_2WCg/0.jpg)](https://www.youtube.com/watch?v=feXL85_2WCg&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

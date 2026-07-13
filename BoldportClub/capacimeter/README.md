@@ -6,7 +6,7 @@ Measuring capacitance with old-school 555 and 4017 digital logic - a Boldport Cl
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/ieotajn-im4/0.jpg)](https://www.youtube.com/watch?v=ieotajn-im4)
+[![clip](https://img.youtube.com/vi/ieotajn-im4/0.jpg)](https://www.youtube.com/watch?v=ieotajn-im4&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

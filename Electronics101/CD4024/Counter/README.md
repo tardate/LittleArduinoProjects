@@ -6,7 +6,7 @@ Introducing the CD4024 7-stage binary counter with a basic demonstration circuit
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/9xUF1Epv8Mk/0.jpg)](https://www.youtube.com/watch?v=9xUF1Epv8Mk)
+[![clip](https://img.youtube.com/vi/9xUF1Epv8Mk/0.jpg)](https://www.youtube.com/watch?v=9xUF1Epv8Mk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

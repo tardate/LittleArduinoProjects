@@ -4,7 +4,7 @@ Test a 2-transistor monostable multivibrator.
 
 Here's a quick video of the circuit in action:
 
-[![BJTMonostable](https://img.youtube.com/vi/UpARBfVGHoU/0.jpg)](https://www.youtube.com/watch?v=UpARBfVGHoU)
+[![BJTMonostable](https://img.youtube.com/vi/UpARBfVGHoU/0.jpg)](https://www.youtube.com/watch?v=UpARBfVGHoU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

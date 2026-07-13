@@ -8,7 +8,7 @@ Demonstrating a simple aircraft navigation beacon sequence implemented with a co
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/AiXiwGwCQng/0.jpg)](https://www.youtube.com/watch?v=AiXiwGwCQng)
+[![clip](https://img.youtube.com/vi/AiXiwGwCQng/0.jpg)](https://www.youtube.com/watch?v=AiXiwGwCQng&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

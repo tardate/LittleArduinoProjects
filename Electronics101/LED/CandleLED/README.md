@@ -6,7 +6,7 @@ A quick test and review of 5mm candle LEDs, that include a built-in candle flick
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/wr0x2EaQKpM/0.jpg)](https://www.youtube.com/watch?v=wr0x2EaQKpM)
+[![clip](https://img.youtube.com/vi/wr0x2EaQKpM/0.jpg)](https://www.youtube.com/watch?v=wr0x2EaQKpM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

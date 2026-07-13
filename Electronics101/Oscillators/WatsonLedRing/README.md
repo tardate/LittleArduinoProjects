@@ -6,7 +6,7 @@ Test a Watson 3-LED Ring oscillator.
 
 Here's a quick video of the circuit in action:
 
-[![WatsonLedRing](https://img.youtube.com/vi/U6qPxcxIn7U/0.jpg)](https://www.youtube.com/watch?v=U6qPxcxIn7U)
+[![WatsonLedRing](https://img.youtube.com/vi/U6qPxcxIn7U/0.jpg)](https://www.youtube.com/watch?v=U6qPxcxIn7U&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

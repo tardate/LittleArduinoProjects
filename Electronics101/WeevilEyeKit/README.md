@@ -6,7 +6,7 @@ Building a simple but fun light-sensitive DIY kit, a perfect gift for someone le
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Az2TM6Gtp0o/0.jpg)](https://www.youtube.com/watch?v=Az2TM6Gtp0o)
+[![clip](https://img.youtube.com/vi/Az2TM6Gtp0o/0.jpg)](https://www.youtube.com/watch?v=Az2TM6Gtp0o&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

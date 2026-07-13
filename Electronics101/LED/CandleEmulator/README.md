@@ -6,7 +6,7 @@ An Arduino LED candle emulation.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/d92NyvZ8ZS0/0.jpg)](https://www.youtube.com/watch?v=d92NyvZ8ZS0)
+[![clip](https://img.youtube.com/vi/d92NyvZ8ZS0/0.jpg)](https://www.youtube.com/watch?v=d92NyvZ8ZS0&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

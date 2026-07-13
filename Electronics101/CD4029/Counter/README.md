@@ -6,7 +6,7 @@ Taking a close look at the CD4029 Pre-settable Binary/Decade Up/Down Counter, an
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/c-Fda9NSz8A/0.jpg)](https://www.youtube.com/watch?v=c-Fda9NSz8A)
+[![clip](https://img.youtube.com/vi/c-Fda9NSz8A/0.jpg)](https://www.youtube.com/watch?v=c-Fda9NSz8A&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

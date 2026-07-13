@@ -6,7 +6,7 @@ A single-cylinder mini-solenoid engine.
 
 Here's a quick video of the circuit in action:
 
-[![SolenoidMotor](https://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](https://www.youtube.com/watch?v=b7wmZLSBpzk)
+[![SolenoidMotor](https://img.youtube.com/vi/b7wmZLSBpzk/0.jpg)](https://www.youtube.com/watch?v=b7wmZLSBpzk&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

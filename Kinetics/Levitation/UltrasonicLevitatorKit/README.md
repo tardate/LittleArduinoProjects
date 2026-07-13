@@ -6,7 +6,7 @@ Investigate acoustic levitation by building a cheap ultrasonic levitator kit tha
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/Utbj0rSjKqE/0.jpg)](https://www.youtube.com/watch?v=Utbj0rSjKqE)
+[![clip](https://img.youtube.com/vi/Utbj0rSjKqE/0.jpg)](https://www.youtube.com/watch?v=Utbj0rSjKqE&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

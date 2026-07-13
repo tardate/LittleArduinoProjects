@@ -4,7 +4,7 @@ Driving a mini 63 (4x4x4) LED cube with an Atmel328 and 3 x 74HC595 register int
 
 Here's a quick video of the cube in action:
 
-[![LEDCubes/Mini4 demo](https://img.youtube.com/vi/0xHI6uC2l4A/0.jpg)](https://www.youtube.com/watch?v=0xHI6uC2l4A)
+[![LEDCubes/Mini4 demo](https://img.youtube.com/vi/0xHI6uC2l4A/0.jpg)](https://www.youtube.com/watch?v=0xHI6uC2l4A&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

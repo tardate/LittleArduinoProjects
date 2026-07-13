@@ -6,7 +6,7 @@ Demonstrating a rotary encoder forward/reverse LED indicator using simple digita
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/isxaXLsYxiY/0.jpg)](https://www.youtube.com/watch?v=isxaXLsYxiY)
+[![clip](https://img.youtube.com/vi/isxaXLsYxiY/0.jpg)](https://www.youtube.com/watch?v=isxaXLsYxiY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

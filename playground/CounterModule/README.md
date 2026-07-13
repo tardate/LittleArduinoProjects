@@ -6,7 +6,7 @@ A general-purpose CD4017 counter module for use on a breadboard or plugged into 
 
 Here's a quick video of the module in action:
 
-[![CounterModule](https://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](https://www.youtube.com/watch?v=fvmFiRvSUXc)
+[![CounterModule](https://img.youtube.com/vi/fvmFiRvSUXc/0.jpg)](https://www.youtube.com/watch?v=fvmFiRvSUXc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

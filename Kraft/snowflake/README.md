@@ -4,7 +4,7 @@ The Snow Flake is an Atmel SAM D ARM Cortex-M0-controlled LED ornament produced 
 
 Here's a quick demo of my first Snow Flake running in solo mode...
 
-[![Build](https://img.youtube.com/vi/nJ68XZK5qAo/0.jpg)](https://www.youtube.com/watch?v=nJ68XZK5qAo)
+[![Build](https://img.youtube.com/vi/nJ68XZK5qAo/0.jpg)](https://www.youtube.com/watch?v=nJ68XZK5qAo&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

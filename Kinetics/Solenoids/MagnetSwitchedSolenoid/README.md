@@ -6,7 +6,7 @@ Using a Hall effect sensor to trigger a solenoid with a fixed pulse.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/A1tHBEs10D8/0.jpg)](https://www.youtube.com/watch?v=A1tHBEs10D8)
+[![clip](https://img.youtube.com/vi/A1tHBEs10D8/0.jpg)](https://www.youtube.com/watch?v=A1tHBEs10D8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

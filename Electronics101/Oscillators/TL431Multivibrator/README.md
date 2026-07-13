@@ -6,7 +6,7 @@ An unusual multivibrator using a programmable reference with clean square wave o
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/NoJr3C3UPhU/0.jpg)](https://www.youtube.com/watch?v=NoJr3C3UPhU)
+[![clip](https://img.youtube.com/vi/NoJr3C3UPhU/0.jpg)](https://www.youtube.com/watch?v=NoJr3C3UPhU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

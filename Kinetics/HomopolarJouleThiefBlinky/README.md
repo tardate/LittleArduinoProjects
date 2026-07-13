@@ -6,7 +6,7 @@ A totally Rube-Goldberg contraption for blinking an LED with a AAA battery, homo
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](https://www.youtube.com/watch?v=tx0jU6hgwhY)
+[![clip](https://img.youtube.com/vi/tx0jU6hgwhY/0.jpg)](https://www.youtube.com/watch?v=tx0jU6hgwhY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

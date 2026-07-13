@@ -6,7 +6,7 @@ Testing a common CD4011 touch switch circuit with single on/off toggle pad.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/CWf8M0lE_Rc/0.jpg)](https://www.youtube.com/watch?v=CWf8M0lE_Rc)
+[![clip](https://img.youtube.com/vi/CWf8M0lE_Rc/0.jpg)](https://www.youtube.com/watch?v=CWf8M0lE_Rc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

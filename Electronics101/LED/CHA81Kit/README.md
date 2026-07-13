@@ -6,7 +6,7 @@ Building the CHA-81 LED Matrix Soldering Kit and investigate the principles of o
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/x8NyEvm-b3U/0.jpg)](https://www.youtube.com/watch?v=x8NyEvm-b3U)
+[![clip](https://img.youtube.com/vi/x8NyEvm-b3U/0.jpg)](https://www.youtube.com/watch?v=x8NyEvm-b3U&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

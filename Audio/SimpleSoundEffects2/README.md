@@ -6,7 +6,7 @@ Building the ATtiny version of the Elektor Simple Sound Effects project, with a 
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/CqYcuKz7I8g/0.jpg)](https://www.youtube.com/watch?v=CqYcuKz7I8g)
+[![clip](https://img.youtube.com/vi/CqYcuKz7I8g/0.jpg)](https://www.youtube.com/watch?v=CqYcuKz7I8g&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

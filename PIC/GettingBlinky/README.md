@@ -4,7 +4,7 @@ Getting starter with PIC assembler on macOS with a PIC12F675 development board a
 
 Here's a quick demo of it working...
 
-[![GettingBlinky_build](./assets/GettingBlinky_build.jpg?raw=true)](https://www.youtube.com/watch?v=pw0WdkqDNsM)
+[![GettingBlinky_build](./assets/GettingBlinky_build.jpg?raw=true)](https://www.youtube.com/watch?v=pw0WdkqDNsM&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

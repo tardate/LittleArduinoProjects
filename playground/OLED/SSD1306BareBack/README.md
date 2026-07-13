@@ -4,7 +4,7 @@ Test driving a monochrome 128x64 OLED Display with an Arduino and the raw comman
 
 Here's a quick video of the circuit in action:
 
-[![OLED/SSD1306BareBack demo](https://img.youtube.com/vi/nOg80VcqZtc/0.jpg)](https://www.youtube.com/watch?v=nOg80VcqZtc)
+[![OLED/SSD1306BareBack demo](https://img.youtube.com/vi/nOg80VcqZtc/0.jpg)](https://www.youtube.com/watch?v=nOg80VcqZtc&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

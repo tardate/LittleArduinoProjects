@@ -6,7 +6,7 @@ Driving a common-cathode 7-Segment LED with the AT89C2051.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/K3GfeQfV2wI/0.jpg)](https://www.youtube.com/watch?v=K3GfeQfV2wI)
+[![clip](https://img.youtube.com/vi/K3GfeQfV2wI/0.jpg)](https://www.youtube.com/watch?v=K3GfeQfV2wI&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

@@ -6,7 +6,7 @@ Dual edge detection with a 74LS86 XOR and RC circuit.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/IZa2RNOWJiA/0.jpg)](https://www.youtube.com/watch?v=IZa2RNOWJiA)
+[![clip](https://img.youtube.com/vi/IZa2RNOWJiA/0.jpg)](https://www.youtube.com/watch?v=IZa2RNOWJiA&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

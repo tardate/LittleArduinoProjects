@@ -6,7 +6,7 @@ A full-featured soldering practice board with a range of components (0603 , 0805
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/g18myAE4u5w/0.jpg)](https://www.youtube.com/watch?v=g18myAE4u5w)
+[![clip](https://img.youtube.com/vi/g18myAE4u5w/0.jpg)](https://www.youtube.com/watch?v=g18myAE4u5w&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 

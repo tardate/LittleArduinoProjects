@@ -6,7 +6,7 @@ Testing a simple 6xLED sequencer module (YuSiJie 宇思捷 YSJ181222).
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/MbM46GIVMW8/0.jpg)](https://www.youtube.com/watch?v=MbM46GIVMW8)
+[![clip](https://img.youtube.com/vi/MbM46GIVMW8/0.jpg)](https://www.youtube.com/watch?v=MbM46GIVMW8&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 
