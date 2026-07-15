@@ -1,0 +1,6 @@
+{
+    "name": "NanoLev",
+    "description": "The most minimalist acoustic levitation demo using an Arduino Nano to drive a pair of TCT40-16 ultrasonic transmitters.",
+    "categories": "Kinetics, Sensors, TCT40-16",
+    "relative_path": "Kinetics/Levitation/NanoLev"
+}
