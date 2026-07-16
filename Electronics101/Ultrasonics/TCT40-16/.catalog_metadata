@@ -2,5 +2,8 @@
     "name": "TCT40-16",
     "description": "Reviewing some common 40kHz 16mm ultrasonic transmitters and receivers TCT40-16T/TCT40-16R, including methods for testing polarity.",
     "categories": "Sensors, TCT40-16",
-    "relative_path": "Electronics101/Ultrasonic/TCT40-16T"
+    "relative_path": "Electronics101/Ultrasonics/TCT40-16",
+    "updated_at": "2026-07-16T01:58:00Z",
+    "created_at": "2026-07-16T01:58:00Z",
+    "id": "#856"
 }

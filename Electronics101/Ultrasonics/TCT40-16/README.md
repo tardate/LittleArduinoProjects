@@ -1,4 +1,4 @@
-# #xxx TCT40-16
+# #856 TCT40-16
 
 Reviewing some common 40kHz 16mm ultrasonic transmitters and receivers TCT40-16T/TCT40-16R, including methods for testing polarity.
 
@@ -68,11 +68,13 @@ Where polarity may be significant:
 * Metal Housing Grounding: In many 2-pin ultrasonic sensors, one terminal is explicitly connected to the outer metal shield/casing for noise isolation. This makes identifying the positive and negative terminals critical during installation
 
 Manufacturers typically mark the positive or poling direction with a red wire, a printed dot, or a specific symbol on the casing.
-In my case, the positive terminal has a distinctive insulating ring around it:
+In my case, the positive terminal has a distinctive insulating ring around it (I added the "+" marking after testing):
 
 ![TCT40-16T](./assets/TCT40-16T-component.jpg)
 
 ### Testing for Polarity with a Multimeter
+
+Polarity markings are notoriously unreliably, so testing the polarity is recommended if polarity is critical for the application.
 
 See [Tutorial: Marking the Polarity of Ultrasonic Piezos using a Multimeter](https://www.youtube.com/watch?v=0HaKv3aJQWA) by UpnaLab.
 
