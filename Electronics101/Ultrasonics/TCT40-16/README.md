@@ -7,7 +7,7 @@ Reviewing some common 40kHz 16mm ultrasonic transmitters and receivers TCT40-16T
 ## Notes
 
 40KHz ultrasonic transducers are very common these days. Most commonly found in range sensing modules such as the HC-SR04.
-See [LEAP#287 Ultrasonic Alarm](../../UltrasonicAlarm/) for an example of their use.
+See [LEAP#287 Ultrasonic Alarm](../UltrasonicAlarm/) for an example of their use.
 
 They are also used for ultrasonic levitation experiments, such as the
 [LEAP#849 Ultrasonic Levitator Kit](../../../Kinetics/Levitation/UltrasonicLevitatorKit/).
@@ -88,6 +88,11 @@ The method:
 Testing with a multimeter:
 
 ![dmm-test](./assets/dmm-test.jpg)
+
+### Testing for Polarity with a Arduino
+
+See [LEAP#857 Piezo Polarity Tester](../PiezoPolarityTester/) for a little project that uses
+an Arduino to test the polarity of ultrasonic piezos.
 
 ## Credits and References
 

@@ -6588,13 +6588,13 @@
     <category term="Step-up/down Converter"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/ultrasonicalarm/</id>
-    <link href="https://leap.tardate.com/electronics101/ultrasonicalarm/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/ultrasonicalarm/assets/ultrasonicalarm_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/electronics101/ultrasonics/ultrasonicalarm/</id>
+    <link href="https://leap.tardate.com/electronics101/ultrasonics/ultrasonicalarm/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/ultrasonics/ultrasonicalarm/assets/ultrasonicalarm_build.jpg</g:image_link>
     <updated>2018-04-15T01:28:17Z</updated>
     <title>#287 Ultrasonic Alarm</title>
     <summary>build an ultrasonic motion alarm with the HC-SR04 module and discrete logic</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build an ultrasonic motion alarm with the HC-SR04 module and discrete logic&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/ultrasonicalarm/assets/ultrasonicalarm_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;build an ultrasonic motion alarm with the HC-SR04 module and discrete logic&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/ultrasonics/ultrasonicalarm/assets/ultrasonicalarm_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="555 Timer"/>
     <category term="Sensors"/>
     <category term="CMOS/TTL"/>

@@ -5435,7 +5435,7 @@
             "Step-up/down Converter"
         ]
     },
-    "/electronics101/ultrasonicalarm/": {
+    "/electronics101/ultrasonics/ultrasonicalarm/": {
         "id": 287,
         "title": "Ultrasonic Alarm",
         "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic",
