@@ -1,4 +1,23 @@
 {
+    "/electronics101/ultrasonics/piezopolaritytester/": {
+        "id": 857,
+        "title": "Ultrasonic Piezo Polarity Tester",
+        "summary": "Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.",
+        "tags": [
+            "Sensors",
+            "TCT40-16",
+            "Arduino"
+        ]
+    },
+    "/electronics101/ultrasonics/tct40-16/": {
+        "id": 856,
+        "title": "TCT40-16",
+        "summary": "Reviewing some common 40kHz 16mm ultrasonic transmitters and receivers TCT40-16T/TCT40-16R, including methods for testing polarity.",
+        "tags": [
+            "Sensors",
+            "TCT40-16"
+        ]
+    },
     "/radio/lpd433/remotecontrol2202j/": {
         "id": 855,
         "title": "Remote Control 2202J",
@@ -5426,7 +5445,7 @@
             "Step-up/down Converter"
         ]
     },
-    "/electronics101/ultrasonicalarm/": {
+    "/electronics101/ultrasonics/ultrasonicalarm/": {
         "id": 287,
         "title": "Ultrasonic Alarm",
         "summary": "build an ultrasonic motion alarm with the HC-SR04 module and discrete logic",
@@ -5434,7 +5453,8 @@
             "555 Timer",
             "Sensors",
             "CMOS/TTL",
-            "HC-SR04"
+            "HC-SR04",
+            "TCT40-16"
         ]
     },
     "/electronics101/switchpowernfet/": {

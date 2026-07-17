@@ -16,9 +16,14 @@ When I saw a kit
 ["DIY Kit Ultrasonic Levitator Suspension Standing Wave Controller DIY Learning Kit Scientific Teaching Experiment Soldering" (aliexpress seller)](https://www.aliexpress.com/item/1005009594026733.html)
 for SG$4.96, I snapped one up (Jun-2026).
 
-The first demonstration of acoustic levitation using the ultrasonic transducers found in hobbyist microcontroller modules (like the HC-SR04) was developed by researcher
+The first demonstration of acoustic levitation using cheap ultrasonic transducers was developed by researcher
 [Dr. Asier Marzo and his team at the University of Bristol in 2017](https://en.wikipedia.org/wiki/Acoustic_levitation).
 Prior to that, acoustic levitation was heavily restricted to high-end physics laboratories.
+
+The team used 40kHz ultrasonic transducers, as covered in
+[LEAP#856 TCT40-16](../../../Electronics101/Ultrasonics/TCT40-16/).
+They are commonly found in hobbyist microcontroller modules like the HC-SR04,
+as used for example in [LEAP#287 Ultrasonic Alarm](../../../Electronics101/Ultrasonics/UltrasonicAlarm/).
 
 The team also published data on a simplified "MiniLev" variation. This version uses just two 40T transmitters facing each other vertically at a precise distance (a factor matching the 8.6mm wavelength of a 40 kHz sound wave). This two-transducer setup forms the blueprint for most demonstrations and kits (like the one I have here).
 
@@ -74,7 +79,8 @@ As a soldering kit, it is a nice quick exercise with just a few SMT and through-
 
 Notes:
 
-* that ultrasonic transmitters are not polarised, so their orientation does not matter.
+* that ultrasonic transmitters are polarised. The lead with a distinct insulator is the +ve lead that should correspond to the "+" on the PCB
+    * PS: since they are single units driven with an AC signal, I suspect the orientation may not actually matter, as long as the same top and bottom
 * I chose to insert the LED so that it is visible from the top of the finished board, but it may be installed more discretely on the underside.
 
 ![build01a](./assets/build01a.jpg?raw=true)
@@ -92,10 +98,17 @@ TC4427 Power MOSFET at ~40kHz
 
 ### Code
 
-I haven't attempted to dump the program code yet, but I imagine it is nothing special as it just needs to generate square waves at a fixed frequency. Code for similar projects is widely available and open source.
+Source code was not provided with the kit or by the manufacturer (as far as I can tell). I imagine it is nothing special however, as it just needs to generate square waves at a fixed frequency. Code for similar projects is widely available and open source.
+
+I did attempt to dump the program code,
+using the [STC ISP Programming Software](https://www.stcmicro.com/rjxz.html)
+connected to the programming pin holes included on the PCB.
+I had no success though: STC-ISP was unable to get any response or identify the STC15F104W despite all my jiggly-pokery.
 
 ## Credits and References
 
+* [LEAP#856 TCT40-16](../../../Electronics101/Ultrasonics/TCT40-16/).
+* [LEAP#287 Ultrasonic Alarm](../../../Electronics101/Ultrasonics/UltrasonicAlarm/)
 * ["DIY Kit Ultrasonic Levitator Suspension Standing Wave Controller DIY Learning Kit Scientific Teaching Experiment Soldering" (aliexpress seller)](https://www.aliexpress.com/item/1005009594026733.html)
     * Purchased for SG$4.96 (Jun-2026)
 * [AMS1117 datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)

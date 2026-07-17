@@ -1,6 +1,6 @@
-# 855 Little Electronic Art Projects
+# 857 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Remote Control 2202J](./Radio/LPD433/RemoteControl2202J) - Review and test the 433MHz remote control unit 2202J that features two relays, can operate on mains AC or 5V USB, and can be programmed to behave in momentary, toggle, latching, mixed, or motor control modes.
+> Latest addition :sparkles: [Ultrasonic Piezo Polarity Tester](./Electronics101/Ultrasonics/PiezoPolarityTester) - Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

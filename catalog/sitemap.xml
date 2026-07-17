@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://leap.tardate.com/electronics101/ultrasonics/piezopolaritytester/</loc>
+  </url>
+  <url>
+    <loc>https://leap.tardate.com/electronics101/ultrasonics/tct40-16/</loc>
+  </url>
+  <url>
     <loc>https://leap.tardate.com/radio/lpd433/remotecontrol2202j/</loc>
   </url>
   <url>
@@ -1705,7 +1711,7 @@
     <loc>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/basicinvertingbuckboostavrcontrol/</loc>
   </url>
   <url>
-    <loc>https://leap.tardate.com/electronics101/ultrasonicalarm/</loc>
+    <loc>https://leap.tardate.com/electronics101/ultrasonics/ultrasonicalarm/</loc>
   </url>
   <url>
     <loc>https://leap.tardate.com/electronics101/switchpowernfet/</loc>
