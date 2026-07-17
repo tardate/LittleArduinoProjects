@@ -98,7 +98,12 @@ TC4427 Power MOSFET at ~40kHz
 
 ### Code
 
-I haven't attempted to dump the program code yet, but I imagine it is nothing special as it just needs to generate square waves at a fixed frequency. Code for similar projects is widely available and open source.
+Source code was not provided with the kit or by the manufacturer (as far as I can tell). I imagine it is nothing special however, as it just needs to generate square waves at a fixed frequency. Code for similar projects is widely available and open source.
+
+I did attempt to dump the program code,
+using the [STC ISP Programming Software](https://www.stcmicro.com/rjxz.html)
+connected to the programming pin holes included on the PCB.
+I had no success though: STC-ISP was unable to get any response or identify the STC15F104W despite all my jiggly-pokery.
 
 ## Credits and References
 
