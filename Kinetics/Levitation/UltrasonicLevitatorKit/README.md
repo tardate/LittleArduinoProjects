@@ -16,9 +16,14 @@ When I saw a kit
 ["DIY Kit Ultrasonic Levitator Suspension Standing Wave Controller DIY Learning Kit Scientific Teaching Experiment Soldering" (aliexpress seller)](https://www.aliexpress.com/item/1005009594026733.html)
 for SG$4.96, I snapped one up (Jun-2026).
 
-The first demonstration of acoustic levitation using the ultrasonic transducers found in hobbyist microcontroller modules (like the HC-SR04) was developed by researcher
+The first demonstration of acoustic levitation using cheap ultrasonic transducers was developed by researcher
 [Dr. Asier Marzo and his team at the University of Bristol in 2017](https://en.wikipedia.org/wiki/Acoustic_levitation).
 Prior to that, acoustic levitation was heavily restricted to high-end physics laboratories.
+
+The team used 40kHz ultrasonic transducers, as covered in
+[LEAP#856 TCT40-16](../../../Electronics101/Ultrasonics/TCT40-16/).
+They are commonly found in hobbyist microcontroller modules like the HC-SR04,
+as used for example in [LEAP#287 Ultrasonic Alarm](../../../Electronics101/Ultrasonics/UltrasonicAlarm/).
 
 The team also published data on a simplified "MiniLev" variation. This version uses just two 40T transmitters facing each other vertically at a precise distance (a factor matching the 8.6mm wavelength of a 40 kHz sound wave). This two-transducer setup forms the blueprint for most demonstrations and kits (like the one I have here).
 
@@ -97,6 +102,8 @@ I haven't attempted to dump the program code yet, but I imagine it is nothing sp
 
 ## Credits and References
 
+* [LEAP#856 TCT40-16](../../../Electronics101/Ultrasonics/TCT40-16/).
+* [LEAP#287 Ultrasonic Alarm](../../../Electronics101/Ultrasonics/UltrasonicAlarm/)
 * ["DIY Kit Ultrasonic Levitator Suspension Standing Wave Controller DIY Learning Kit Scientific Teaching Experiment Soldering" (aliexpress seller)](https://www.aliexpress.com/item/1005009594026733.html)
     * Purchased for SG$4.96 (Jun-2026)
 * [AMS1117 datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
