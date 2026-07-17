@@ -1,4 +1,4 @@
-# #xxx Ultrasonic Piezo Polarity Tester
+# #857 Ultrasonic Piezo Polarity Tester
 
 Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.
 

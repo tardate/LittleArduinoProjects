@@ -1,6 +1,6 @@
-# 856 Little Electronic Art Projects
+# 857 Little Electronic Art Projects
 
-> Latest addition :sparkles: [TCT40-16](./Electronics101/Ultrasonics/TCT40-16) - Reviewing some common 40kHz 16mm ultrasonic transmitters and receivers TCT40-16T/TCT40-16R, including methods for testing polarity.
+> Latest addition :sparkles: [Ultrasonic Piezo Polarity Tester](./Electronics101/Ultrasonics/PiezoPolarityTester) - Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

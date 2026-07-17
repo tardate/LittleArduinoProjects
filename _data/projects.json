@@ -1,4 +1,14 @@
 {
+    "/electronics101/ultrasonics/piezopolaritytester/": {
+        "id": 857,
+        "title": "Ultrasonic Piezo Polarity Tester",
+        "summary": "Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.",
+        "tags": [
+            "Sensors",
+            "TCT40-16",
+            "Arduino"
+        ]
+    },
     "/electronics101/ultrasonics/tct40-16/": {
         "id": 856,
         "title": "TCT40-16",

@@ -1,5 +1,15 @@
 [
     {
+        "name": "Ultrasonic Piezo Polarity Tester",
+        "description": "Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.",
+        "categories": "Sensors, TCT40-16, Arduino",
+        "relative_path": "electronics101/ultrasonics/piezopolaritytester",
+        "updated_at": "2026-07-17T01:34:00Z",
+        "created_at": "2026-07-17T01:34:00Z",
+        "id": "#857",
+        "original_relative_path": "Electronics101/Ultrasonics/PiezoPolarityTester"
+    },
+    {
         "name": "TCT40-16",
         "description": "Reviewing some common 40kHz 16mm ultrasonic transmitters and receivers TCT40-16T/TCT40-16R, including methods for testing polarity.",
         "categories": "Sensors, TCT40-16",
