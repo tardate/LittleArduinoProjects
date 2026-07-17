@@ -74,7 +74,8 @@ As a soldering kit, it is a nice quick exercise with just a few SMT and through-
 
 Notes:
 
-* that ultrasonic transmitters are not polarised, so their orientation does not matter.
+* that ultrasonic transmitters are polarised. The lead with a distinct insulator is the +ve lead that should correspond to the "+" on the PCB
+    * PS: since they are single units driven with an AC signal, I suspect the orientation may not actually matter, as long as the same top and bottom
 * I chose to insert the LED so that it is visible from the top of the finished board, but it may be installed more discretely on the underside.
 
 ![build01a](./assets/build01a.jpg?raw=true)
