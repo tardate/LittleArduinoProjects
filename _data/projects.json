@@ -1,4 +1,14 @@
 {
+    "/kinetics/levitation/nanolev/": {
+        "id": 858,
+        "title": "NanoLev",
+        "summary": "The most minimalist acoustic levitation demo using an Arduino Nano to drive a pair of TCT40-16 ultrasonic transmitters.",
+        "tags": [
+            "Kinetics",
+            "Sensors",
+            "TCT40-16"
+        ]
+    },
     "/electronics101/ultrasonics/piezopolaritytester/": {
         "id": 857,
         "title": "Ultrasonic Piezo Polarity Tester",
@@ -82,7 +92,7 @@
         "summary": "Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.",
         "tags": [
             "Kinetics",
-            "HC-SR04",
+            "TCT40-16",
             "STC15F101W",
             "TC4427"
         ]

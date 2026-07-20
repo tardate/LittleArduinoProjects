@@ -98,3 +98,4 @@ an Arduino to test the polarity of ultrasonic piezos.
 
 * ["10pcs 16mm 40K ultrasonic transmitter ultrasonic sensor Ultrasonic emitter TCT40-16T 40KHz Transmit+receive aluminum sensor" (aliexpress seller listing)](https://www.aliexpress.com/item/1005005796612921.html)
     * Purchased pack of 10 transmitters for SG$3.85 (Jun-2026)
+* [TCT40-16 Datasheet](https://docs.sparkfun.com/SparkFun_Ultrasonic_Distance_Sensor-Qwiic/assets/component_documentation/TCT40-16-T-R.pdf)

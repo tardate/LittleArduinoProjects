@@ -7,12 +7,24 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-07-17T01:34:00Z</updated>
+  <updated>2026-07-20T12:51:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/kinetics/levitation/nanolev/</id>
+    <link href="https://leap.tardate.com/kinetics/levitation/nanolev/"/>
+    <g:image_link>https://leap.tardate.com/kinetics/levitation/nanolev/assets/nanolev_build.jpg</g:image_link>
+    <updated>2026-07-20T12:51:00Z</updated>
+    <title>#858 NanoLev</title>
+    <summary>The most minimalist acoustic levitation demo using an Arduino Nano to drive a pair of TCT40-16 ultrasonic transmitters.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;The most minimalist acoustic levitation demo using an Arduino Nano to drive a pair of TCT40-16 ultrasonic transmitters.&lt;/p&gt;&lt;img src="https://leap.tardate.com/kinetics/levitation/nanolev/assets/nanolev_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Kinetics"/>
+    <category term="Sensors"/>
+    <category term="TCT40-16"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/ultrasonics/piezopolaritytester/</id>
     <link href="https://leap.tardate.com/electronics101/ultrasonics/piezopolaritytester/"/>
@@ -115,7 +127,7 @@
     <summary>Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Investigate acoustic levitation by building a cheap ultrasonic levitator kit that uses common 40kHz ultrasonic transmitters driven by STC15F101W microcontroller and a TC4427 power MOSFET.&lt;/p&gt;&lt;img src="https://leap.tardate.com/kinetics/levitation/ultrasoniclevitatorkit/assets/ultrasoniclevitatorkit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Kinetics"/>
-    <category term="HC-SR04"/>
+    <category term="TCT40-16"/>
     <category term="STC15F101W"/>
     <category term="TC4427"/>
   </entry>
