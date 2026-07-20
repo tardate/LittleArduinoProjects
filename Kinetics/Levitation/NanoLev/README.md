@@ -63,7 +63,7 @@ Works very well! See the demo..
 ## Credits and References
 
 * [LEAP#856 TCT40-16](../../../Electronics101/Ultrasonics/TCT40-16/)
-* [Ultrasonic Levitation | Acoustic Levitation Experiment](https://projecthub.arduino.cc/milespeterson101/ultrasonic-levitation-acoustic-levitation-experiment-22df22)
+* [Ultrasonic Levitation Acoustic Levitation Experiment](https://projecthub.arduino.cc/milespeterson101/ultrasonic-levitation-acoustic-levitation-experiment-22df22)
 * <https://millermansprojects.blogspot.com/2018/11/mini-acoustic-levitation.html>
 * [Original project from Make Magazine by Ulrich Schmerold.](https://www.heise.de/ratgeber/Einfacher-Ultraschall-Levitationsapparat-4022505.html)
 * <https://www.instructables.com/Acoustic-Levitator/>
