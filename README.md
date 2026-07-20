@@ -1,6 +1,6 @@
-# 857 Little Electronic Art Projects
+# 858 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Ultrasonic Piezo Polarity Tester](./Electronics101/Ultrasonics/PiezoPolarityTester) - Using an Arduino to automatically determine the polarity of ultrasonic piezo transducers.
+> Latest addition :sparkles: [NanoLev](./Kinetics/Levitation/NanoLev) - The most minimalist acoustic levitation demo using an Arduino Nano to drive a pair of TCT40-16 ultrasonic transmitters.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
