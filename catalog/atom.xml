@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-07-20T12:51:00Z</updated>
+  <updated>2026-07-29T12:51:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/radio/morsecode/codepracticekit/</id>
+    <link href="https://leap.tardate.com/radio/morsecode/codepracticekit/"/>
+    <g:image_link>https://leap.tardate.com/radio/morsecode/codepracticekit/assets/codepracticekit_build.jpg</g:image_link>
+    <updated>2026-07-29T12:51:00Z</updated>
+    <title>#859 TJ-56-719 Code Practice Kit</title>
+    <summary>Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/morsecode/codepracticekit/assets/codepracticekit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Radio"/>
+    <category term="CW"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/kinetics/levitation/nanolev/</id>
     <link href="https://leap.tardate.com/kinetics/levitation/nanolev/"/>
@@ -2183,15 +2194,16 @@
     <category term="Radio"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/radio/codepracticeoscillator/</id>
-    <link href="https://leap.tardate.com/radio/codepracticeoscillator/"/>
-    <g:image_link>https://leap.tardate.com/radio/codepracticeoscillator/assets/codepracticeoscillator_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/radio/morsecode/codepracticeoscillator/</id>
+    <link href="https://leap.tardate.com/radio/morsecode/codepracticeoscillator/"/>
+    <g:image_link>https://leap.tardate.com/radio/morsecode/codepracticeoscillator/assets/codepracticeoscillator_build.jpg</g:image_link>
     <updated>2022-11-08T15:36:38Z</updated>
     <title>#668 Code Practice Oscillator</title>
     <summary>Build and test a simple 2-transistor code practice oscillator</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Build and test a simple 2-transistor code practice oscillator&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/codepracticeoscillator/assets/codepracticeoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;Build and test a simple 2-transistor code practice oscillator&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/morsecode/codepracticeoscillator/assets/codepracticeoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="BJT"/>
     <category term="RC"/>
+    <category term="CW"/>
     <category term="Oscillators"/>
   </entry>
   <entry>
@@ -3335,13 +3347,13 @@
     <category term="Test Equipment"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/radio/randomcodepractice/</id>
-    <link href="https://leap.tardate.com/radio/randomcodepractice/"/>
-    <g:image_link>https://leap.tardate.com/radio/randomcodepractice/assets/randomcodepractice_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/radio/morsecode/randomcodepractice/</id>
+    <link href="https://leap.tardate.com/radio/morsecode/randomcodepractice/"/>
+    <g:image_link>https://leap.tardate.com/radio/morsecode/randomcodepractice/assets/randomcodepractice_build.jpg</g:image_link>
     <updated>2020-09-22T14:29:52Z</updated>
     <title>#567 Random Code Practice</title>
     <summary>A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/randomcodepractice/assets/randomcodepractice_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/morsecode/randomcodepractice/assets/randomcodepractice_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="CW"/>
     <category term="Arduino"/>

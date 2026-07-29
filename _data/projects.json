@@ -1,4 +1,13 @@
 {
+    "/radio/morsecode/codepracticekit/": {
+        "id": 859,
+        "title": "TJ-56-719 Code Practice Kit",
+        "summary": "Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.",
+        "tags": [
+            "Radio",
+            "CW"
+        ]
+    },
     "/kinetics/levitation/nanolev/": {
         "id": 858,
         "title": "NanoLev",
@@ -1788,13 +1797,14 @@
             "Radio"
         ]
     },
-    "/radio/codepracticeoscillator/": {
+    "/radio/morsecode/codepracticeoscillator/": {
         "id": 668,
         "title": "Code Practice Oscillator",
         "summary": "Build and test a simple 2-transistor code practice oscillator",
         "tags": [
             "BJT",
             "RC",
+            "CW",
             "Oscillators"
         ]
     },
@@ -2738,7 +2748,7 @@
             "Test Equipment"
         ]
     },
-    "/radio/randomcodepractice/": {
+    "/radio/morsecode/randomcodepractice/": {
         "id": 567,
         "title": "Random Code Practice",
         "summary": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.",
