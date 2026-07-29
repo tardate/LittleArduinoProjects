@@ -1,4 +1,13 @@
 {
+    "/radio/morsecode/codepracticekit/": {
+        "id": 859,
+        "title": "TJ-56-719 Code Practice Kit",
+        "summary": "Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.",
+        "tags": [
+            "Radio",
+            "CW"
+        ]
+    },
     "/kinetics/levitation/nanolev/": {
         "id": 858,
         "title": "NanoLev",

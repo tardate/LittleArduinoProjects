@@ -1,6 +1,6 @@
-# 858 Little Electronic Art Projects
+# 859 Little Electronic Art Projects
 
-> Latest addition :sparkles: [NanoLev](./Kinetics/Levitation/NanoLev) - The most minimalist acoustic levitation demo using an Arduino Nano to drive a pair of TCT40-16 ultrasonic transmitters.
+> Latest addition :sparkles: [TJ-56-719 Code Practice Kit](./Radio/MorseCode/CodePracticeKit) - Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.
