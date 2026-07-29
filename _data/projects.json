@@ -1797,13 +1797,14 @@
             "Radio"
         ]
     },
-    "/radio/codepracticeoscillator/": {
+    "/radio/morsecode/codepracticeoscillator/": {
         "id": 668,
         "title": "Code Practice Oscillator",
         "summary": "Build and test a simple 2-transistor code practice oscillator",
         "tags": [
             "BJT",
             "RC",
+            "CW",
             "Oscillators"
         ]
     },
@@ -2747,7 +2748,7 @@
             "Test Equipment"
         ]
     },
-    "/radio/randomcodepractice/": {
+    "/radio/morsecode/randomcodepractice/": {
         "id": 567,
         "title": "Random Code Practice",
         "summary": "A simple Morse code practice generator that prints the character and sounds the dit-dahs to a speaker. Based on a project by Glen Popiel KW5GP.",
