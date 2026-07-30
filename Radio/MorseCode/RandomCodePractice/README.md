@@ -67,7 +67,7 @@ This version didn't have the output jack.
 
 ![RandomCodePractice_build](./assets/RandomCodePractice_build.jpg?raw=true)
 
-## Adding and output jack
+## Adding an Output Jack
 
 I subsequently added an output jack using a 3.5mm PCB-mount Stereo Socket.
 For more details on these connectors, see
@@ -83,7 +83,7 @@ With the jack installed:
 
 ![internal_build_v2](assets/internal_build_v2.jpg)
 
-With an external speaker plugged in, it is used and bypasses the internal buzzer.
+Connecting an external speaker bypasses the internal buzzer:
 
 ![RandomCodePractice_build_v2](assets/RandomCodePractice_build_v2.jpg)
 
