@@ -1,6 +1,7 @@
 # #859 TJ-56-719 Code Practice Kit
 
-Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.
+Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding and code practice, and also an IR decoder for characterising any IR controller.
+Includes clear and verified operating instructions.
 
 ![Build](./assets/CodePracticeKit_build.jpg?raw=true)
 
@@ -23,20 +24,15 @@ As delivered:
 
 #### Product description
 
-Receive and decode morse code:
+CW mode: Receive and decode Morse code:
 
 * CW audio signal input
-* CW push-button input
+* CW keyer/push-button input
+* Adjustable Morse code reception time
+* Displays the received Morse code on LCD
+* Incoming dots/dashes indicated with LED and optionally buzzer
 
-Decodes and displays infrared remote control.
-
-* CW audio signal input;
-* Display the received Morse code;
-* Decode the received Morse code audio into characters;
-* Adjustable Morse code reception time;
-* External CW button for practicing sending Morse code;
-* Equipped with a buzzer, it allows for real-time listening to the received Morse code.
-* Infrared remote control decoding
+IR Mode: Decodes and displays infrared remote control signals.
 
 #### Kit Features
 
@@ -169,9 +165,9 @@ With CW audio, the in and out ports can be used to insert the CW decoder inline 
 
 | Button          | Action                              |
 |-----------------|-------------------------------------|
-| SW1 short press | Shifts received morse code left     |
+| SW1 short press | Shifts received Morse code left     |
 | SW1 long press  | (no action)                         |
-| SW2 short press | Shifts received morse code right    |
+| SW2 short press | Shifts received Morse code right    |
 | SW2 long press  | Switch to infrared decoding mode    |
 | SW3 short press | Clear received Morse code           |
 | SW3 long press  | Enter the settings page             |
@@ -180,14 +176,14 @@ With CW audio, the in and out ports can be used to insert the CW decoder inline 
 
 Infrared decoding is used to determine the codes sent by each button of an IR controller.
 
-That's all. It is not related to the morse code features at all.
+That's all. It is not related to the Morse code features at all.
 
 ##### Control Reference: Infrared Decoding Mode
 
 | Button          | Action                        |
 |-----------------|-------------------------------|
 | SW1 short press | (no action)                   |
-| SW1 long press  | Switch to morse decoding mode |
+| SW1 long press  | Switch to Morse decoding mode |
 | SW2 short press | (no action)                   |
 | SW2 long press  | (no action)                   |
 | SW3 short press | (no action)                   |
@@ -197,10 +193,10 @@ That's all. It is not related to the morse code features at all.
 
 | Button          | Action                                                            |
 |-----------------|-------------------------------------------------------------------|
-| SW1 short press | Toggles morse code buzzer on/off                                  |
-| SW1 long press  | Toggles display of the last received morse code (dots and dashes) |
+| SW1 short press | Toggles Morse code buzzer on/off                                  |
+| SW1 long press  | Toggles display of the last received Morse code (dots and dashes) |
 | SW2 short press | Increase the reception time of dots                               |
-| SW2 long press  | Switch to morse decoding mode                                     |
+| SW2 long press  | Switch to Morse decoding mode                                     |
 | SW3 short press | Reduce the reception time of dots                                 |
 | SW3 long press  | Switch to infrared decoding mode                                  |
 

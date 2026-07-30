@@ -1,7 +1,7 @@
 [
     {
         "name": "TJ-56-719 Code Practice Kit",
-        "description": "Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding, and also includes an IR decoder for characterising any IR controller.",
+        "description": "Building and testing the TJ-56-719 code practice kit. It can be used for CW/Morse code decoding and code practice, and also an IR decoder for characterising any IR controller. Includes clear and verified operating instructions.",
         "categories": "Radio, CW",
         "relative_path": "radio/morsecode/codepracticekit",
         "updated_at": "2026-07-29T12:51:00Z",
