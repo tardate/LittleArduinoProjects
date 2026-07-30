@@ -34,6 +34,14 @@ Example of a stereo socket with bypass. For this specific socket, pin arrangemen
 
 ![stereo_socket_3.5mm](./assets/stereo_socket_3.5mm.jpg?raw=true)
 
+Sources:
+
+* ["10pcs DIP PCB Mount 5 Pins Female 3.5mm Stereo Audio Jack Socket Black s649_2" (aliexpress seller listing)](https://www.aliexpress.com/item/32255133826.html)
+    * Originally purchased 10pcs for US$2.99 (Apr-2015)
+    * Currently no longer available from this seller
+* ["10Pcs/lot PJ-307 3.5mm Jack Female 5 Pin Stereo Audio Headphone Connector 3.5mm TRS Audio Socket Soldering Type Connectors" (aliexpress seller listing)](https://www.aliexpress.com/item/1005008243857446.html)
+    * Currently offering 10pcs for SG$2.70 (Jul-2026)
+
 ### 6.35mm (1/4") Connectors
 
 Primarily used for instruments, mono and stereo.

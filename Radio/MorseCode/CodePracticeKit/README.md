@@ -7,7 +7,7 @@ Includes clear and verified operating instructions.
 
 Here's a quick demo..
 
-[![clip](https://img.youtube.com/vi/u6MziWpBZzU/0.jpg)](https://www.youtube.com/watch?v=u6MziWpBZzU&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
+[![clip](https://img.youtube.com/vi/g6gXA-SaVmY/0.jpg)](https://www.youtube.com/watch?v=g6gXA-SaVmY&list=PLjnHiRINFqis5VhLbJE87ZiEhpWMnrP2X)
 
 ## Notes
 
@@ -138,6 +138,17 @@ No issues this time - verified OK throughout the build and worked immediately wh
 #### Hardware Features
 
 ![features](./assets/features.jpg)
+
+CW Decoder in use with kit-provided keyer:
+
+![CodePracticeKit_build](assets/CodePracticeKit_build.jpg)
+
+CW Decoder in use with external keyer audio source and pass-through speaker:
+
+![build04a](assets/build04a.jpg)
+
+For more details on the  external keyer used here, see
+[LEAP#567 Random Code Practice](../RandomCodePractice/).
 
 #### Operational Modes
 
