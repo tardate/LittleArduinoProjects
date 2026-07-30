@@ -60,14 +60,36 @@ Libraries:
 
 ## Putting it in a Box
 
-For a final build, I switched the Uno for an Arduino Nano and mounted it all in a suitably sized chocolate box.
+In the first version of the build, I switched the Uno for an Arduino Nano and mounted it all in a suitably sized chocolate box.
+This version didn't have the output jack.
 
 ![internal_build](./assets/internal_build.jpg?raw=true)
 
 ![RandomCodePractice_build](./assets/RandomCodePractice_build.jpg?raw=true)
 
+## Adding and output jack
+
+I subsequently added an output jack using a 3.5mm PCB-mount Stereo Socket.
+For more details on these connectors, see
+[LEAP#309 Audio Connectors](../../../Electronics101/Connectors/Audio/).
+
+Designed with Fritzing: see [RandomCodePractice_v2.fzz](./RandomCodePractice_v2.fzz).
+
+![bb](./assets/RandomCodePractice_v2_bb.jpg?raw=true)
+
+![schematic](./assets/RandomCodePractice_v2_schematic.jpg?raw=true)
+
+With the jack installed:
+
+![internal_build_v2](assets/internal_build_v2.jpg)
+
+With an external speaker plugged in, it is used and bypasses the internal buzzer.
+
+![RandomCodePractice_build_v2](assets/RandomCodePractice_build_v2.jpg)
+
 ## Credits and References
 
+* [LEAP#309 Audio Connectors](../../../Electronics101/Connectors/Audio/)
 * [Arduino for Ham Radio](../../../books/arduino-for-ham-radio/)
 * [Morse code](https://en.wikipedia.org/wiki/Morse_code) - wikipedia
 * [fun with morse code](https://docs.google.com/presentation/d/e/2PACX-1vQ1wCN2WNHQ8JHC16zOAehkV6TV5PAG0DpXSQE45hlHU4hbF2h3YgiZJj5Iy-RTNDrDjJ21saaD4Rp-/pub?start=false&loop=false&delayms=3000&slide=id.p) - presentation on learning CW by Anthony Luscre K8ZT
