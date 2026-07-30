@@ -48,10 +48,10 @@ whether a plug is inserted or not. Here are some configurations for components I
 The components below have the bypass switching on the sleeve. In fact I'd guess that all would switch on the sleeve,
 as it is the simplest mechanism (plug insertion pushes the sleeve out of contact with the bypass connector).
 
-| Pin | Role |
-|-----|------|
-| 1   | Always connected to the centre pin of the socket |
-| 2   | Always connected to the sleeve of the socket |
+| Pin | Role                                                                                             |
+|-----|--------------------------------------------------------------------------------------------------|
+| 1   | Always connected to the centre pin of the socket                                                 |
+| 2   | Always connected to the sleeve of the socket                                                     |
 | 3   | Not connected when With plug is inserted: not connected. Without plug: connected to sleeve/pin 2 |
 
 For a centre-positive configuration, a battery could be connected:

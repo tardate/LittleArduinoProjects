@@ -5301,7 +5301,7 @@
     },
     {
         "id": "#329",
-        "name": "PowerConnectors",
+        "name": "Power Connectors",
         "description": "obsessing over all manner of DC power connectors",
         "categories": "Power",
         "relative_path": "electronics101/connectors/power",
@@ -5501,7 +5501,7 @@
     },
     {
         "id": "#309",
-        "name": "AudioConnectors",
+        "name": "Audio Connectors",
         "description": "notes on miscellaneous audio connectors",
         "categories": "Audio, Connectors",
         "relative_path": "electronics101/connectors/audio",

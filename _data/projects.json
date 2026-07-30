@@ -5050,7 +5050,7 @@
     },
     "/electronics101/connectors/power/": {
         "id": 329,
-        "title": "PowerConnectors",
+        "title": "Power Connectors",
         "summary": "obsessing over all manner of DC power connectors",
         "tags": [
             "Power"
@@ -5246,7 +5246,7 @@
     },
     "/electronics101/connectors/audio/": {
         "id": 309,
-        "title": "AudioConnectors",
+        "title": "Audio Connectors",
         "summary": "notes on miscellaneous audio connectors",
         "tags": [
             "Audio",
