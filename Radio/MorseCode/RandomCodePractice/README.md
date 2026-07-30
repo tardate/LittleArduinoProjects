@@ -10,7 +10,7 @@ Here's a quick demo..
 
 ## Notes
 
-Glen Popiel's [Arduino for Ham Radio](../../books/arduino-for-ham-radio/) is a great little collection
+Glen Popiel's [Arduino for Ham Radio](../../../books/arduino-for-ham-radio/) is a great little collection
 of ham radio-adjacent projects that not only provides some good project inspiration but also presents them in a way that
 is easy to follow no matter one's level of Arduino experience.
 
@@ -28,25 +28,32 @@ I've extended and revised the code to add some new features:
 
 ## Construction
 
+Designed with Fritzing: see [RandomCodePractice.fzz](./RandomCodePractice.fzz).
+
 A SPDT Centre Off switch is used as a tri-state toggle for the character select:
 
 * ON: pulled high (alpha only)
 * CENTRE: VCC/2 voltage divider (all characters)
 * OFF: pulled low (numbers only)
 
-![Breadboard](./assets/RandomCodePractice_bb.jpg?raw=true)
+![bb](./assets/RandomCodePractice_bb.jpg?raw=true)
 
-![Schematic](./assets/RandomCodePractice_schematic.jpg?raw=true)
+![schematic](./assets/RandomCodePractice_schematic.jpg?raw=true)
 
 First testing the circuit on a breadboard:
 
-![Breadboard Build](./assets/RandomCodePractice_bb_build.jpg?raw=true)
+![bb_build](./assets/RandomCodePractice_bb_build.jpg?raw=true)
 
 ## Code & Libraries
 
+Main sketch: [RandomCodePractice.ino](./RandomCodePractice.ino)
+
+Libraries:
+
 * [Arduino Wire library](https://www.arduino.cc/en/reference/wire)
 * [LiquidCrystal_I2C](https://github.com/marcoschwartz/LiquidCrystal_I2C) - LCD over I²C
-* Morse - Morse encoding by Erik Linder SM0RVV and Mark VandeWettering K6HX.
+* [Morse.h](./Morse.h) / [Morse.cpp](./Morse.cpp)
+    * Morse encoding by Erik Linder SM0RVV and Mark VandeWettering K6HX.
     * I cannot find a link to the original source (Version 0.2), so it is included in the project folder.
     * Includes Glen Popiel KW5GP's fixes for Morse encoding
     * extended by me to allow dynamic speed adjustment
@@ -61,6 +68,6 @@ For a final build, I switched the Uno for an Arduino Nano and mounted it all in 
 
 ## Credits and References
 
-* [Arduino for Ham Radio](../../books/arduino-for-ham-radio/)
+* [Arduino for Ham Radio](../../../books/arduino-for-ham-radio/)
 * [Morse code](https://en.wikipedia.org/wiki/Morse_code) - wikipedia
 * [fun with morse code](https://docs.google.com/presentation/d/e/2PACX-1vQ1wCN2WNHQ8JHC16zOAehkV6TV5PAG0DpXSQE45hlHU4hbF2h3YgiZJj5Iy-RTNDrDjJ21saaD4Rp-/pub?start=false&loop=false&delayms=3000&slide=id.p) - presentation on learning CW by Anthony Luscre K8ZT

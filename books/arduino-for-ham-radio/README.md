@@ -23,7 +23,7 @@ See also:
 | 4 Arduino I/O Methods                         |       |
 | 5 Arduino Development Environment             |       |
 | 6 Arduino Development Station                 |       |
-| 7 Random Code Practice Generator              | [LEAP#567 Random Code Practice](../../Radio/RandomCodePractice/) |
+| 7 Random Code Practice Generator              | [LEAP#567 Random Code Practice](../../Radio/MorseCode/RandomCodePractice/) |
 | 8 CW Beacon and Foxhunt Keyer                 |       |
 | 9 Fan Speed Controller                        |       |
 | 10 Digital Compass                            |       |
