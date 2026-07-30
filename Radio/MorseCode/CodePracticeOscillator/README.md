@@ -23,11 +23,13 @@ A couple of examples...
 
 ### Circuit Design
 
+Designed with Fritzing: see [CodePracticeOscillator.fzz](./CodePracticeOscillator.fzz).
+
 The circuit I've used here - that **does** work - is based on
 [Simple Two Transistor Oscillator (www.homemade-circuits.com)](https://www.homemade-circuits.com/how-to-build-simple-transistor-circuits/).
 
 I've modified some of the values for a tighter audio range.
-At 5V it is very loud;-)
+At 5V it is very loud!
 
 ![bb](./assets/CodePracticeOscillator_bb.jpg?raw=true)
 

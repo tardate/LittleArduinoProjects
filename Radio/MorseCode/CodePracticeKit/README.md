@@ -11,10 +11,12 @@ Here's a quick demo..
 
 ## Notes
 
-["DIY Kit Electronic Morse Code Telegraph Simulator Decoder with Digital Display Soldering Practice Electronics Projects Kit" (aliexpress seller listing)](https://www.aliexpress.com/item/1005009213948280.html) is a fairly common kit, available from a range of sources.
-I purchased my kit from AliSupplier Store (aliexpress seller) for SG$12.05 (Jul-2026).
-
 ### The Kit
+
+The kit appears to be known as the "TJ-56-719". It is a fairly common kit, available from a range of sources
+
+I purchased my kit from AliSupplier Store (aliexpress seller) for SG$12.05 (Jul-2026):
+["DIY Kit Electronic Morse Code Telegraph Simulator Decoder with Digital Display Soldering Practice Electronics Projects Kit" (aliexpress seller listing)](https://www.aliexpress.com/item/1005009213948280.html).
 
 A basic [instruction sheet](./references/TJ-56-719-instructions.pdf) is included in the kit, and a full [construction tutorial](./references/TJ-56-719-tutorial.pdf) available for download.
 
@@ -137,6 +139,8 @@ No issues this time - verified OK throughout the build and worked immediately wh
 
 #### Hardware Features
 
+I've annotated the features in the following picture. Source: [Affinity Photo 2 (features.afphoto)](./assets/features.afphoto).
+
 ![features](./assets/features.jpg)
 
 CW Decoder in use with kit-provided keyer:
@@ -223,3 +227,4 @@ That's all. It is not related to the Morse code features at all.
     * [tutorial](./references/TJ-56-719-tutorial.pdf)
     * [tutorial source file](https://www.56dz.com/p/4217.html) (pass key: JKL9)
 * <https://en.wikipedia.org/wiki/Morse_code>
+* [LEAP#567 Random Code Practice](../RandomCodePractice/)
