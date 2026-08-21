@@ -130,7 +130,7 @@ The design appears to breakdown into these main subsystems:
 
 The batch 1 backer edition of the board is a nice compact board. With a slight bend on the PSU pins, it can even fit quite nicely on a standard MB105 breadboard.
 
-Here's a 3D render of the board in kicad:
+Here's a 3D render of the board in KiCad:
 
 ![Labrador_pcb_3d](./assets/Labrador_pcb_3d.png?raw=true)
 
