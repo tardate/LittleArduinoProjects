@@ -1,4 +1,4 @@
-# #xxx 555 Upside Down
+# #860 555 Upside Down
 
 Testing an interesting upside down astable 555 configuration that achieves +duty cycle control all the way down to 0% without an additional inverter stage.
 

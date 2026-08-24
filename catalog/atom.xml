@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-07-29T12:51:00Z</updated>
+  <updated>2026-08-24T06:27:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/555timer/upsidedown/</id>
+    <link href="https://leap.tardate.com/electronics101/555timer/upsidedown/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/555timer/upsidedown/assets/upsidedown_build.jpg</g:image_link>
+    <updated>2026-08-24T06:27:00Z</updated>
+    <title>#860 555 Upside Down</title>
+    <summary>Testing an interesting upside down astable 555 configuration that achieves +duty cycle control all the way down to 0% without an additional inverter stage.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Testing an interesting upside down astable 555 configuration that achieves +duty cycle control all the way down to 0% without an additional inverter stage.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/555timer/upsidedown/assets/upsidedown_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="555 Timer"/>
+    <category term="Oscillators"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/radio/morsecode/codepracticekit/</id>
     <link href="https://leap.tardate.com/radio/morsecode/codepracticekit/"/>
