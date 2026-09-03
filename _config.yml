@@ -22,8 +22,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 keywords: "Arduino, microcontroller, electronics, embedded, circuits, projects, open source, scale model, craft, maker"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leap.tardate.com" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "leap.tardate.com" # the base domain name for the site, e.g. example.com
 repo_url: https://github.com/tardate/LittleArduinoProjects
 repo_name: LittleArduinoProjects on GitHub
+shortname: leap
 
 feed_path: "/catalog/atom.xml"
 
