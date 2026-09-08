@@ -408,6 +408,7 @@
     <summary>Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/220vboostconvertermodule/assets/220vboostconvertermodule_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -450,6 +451,7 @@
     <category term="SMPS"/>
     <category term="XL4015"/>
     <category term="python"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -463,6 +465,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MP2307"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -476,6 +479,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="XL4015"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -489,6 +493,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="LM2596"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -502,6 +507,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="LM2596"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -1148,6 +1154,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Designing and testing a circuit to drive and switch an output between 3 voltage levels (0v, VCC, 2.4xVCC) from a single GPIO pin. Tested with an Arduino Uno running at 5V driving a 0V, 5V, 12V output on a single GPIO pin.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/dicksonchargepump/onepinthreev/assets/onepinthreev_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -1218,6 +1225,7 @@
     <summary>Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/aaa5vpower/assets/aaa5vpower_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -1275,6 +1283,7 @@
     <summary>Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/pp3power/assets/pp3power_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -2228,6 +2237,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MC34063"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -2502,6 +2512,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MT3608"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -2848,6 +2859,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Zener-regulated 12V Dickson Charge Pump driven with Arduino PWM using a single pin.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/dicksonchargepump/halfwave/assets/halfwave_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Arduino"/>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -2894,6 +2906,7 @@
     <category term="CMOS/TTL"/>
     <category term="CD4049"/>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -2957,6 +2970,7 @@
     <category term="CMOS/TTL"/>
     <category term="CD40106"/>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -3065,6 +3079,7 @@
     <category term="CMOS/TTL"/>
     <category term="74HC14"/>
     <category term="Power"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -3332,6 +3347,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MT3608"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -3694,6 +3710,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;An 18650 single-cell battery module with integrated TP4056 5V/USB charge controller and MT3608 5V output boost converter&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/batterymanagement/singlecellchargeboostboard/assets/singlecellchargeboostboard_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="BMS"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -4854,6 +4871,7 @@
     <category term="Power"/>
     <category term="LED"/>
     <category term="Solar"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -4877,6 +4895,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;using a QX5252/YX805 LED driver chip as a joule thief for driving an LED from a low-voltage battery&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/leddrivers/qx5252joulethief/assets/qx5252joulethief_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="LED"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -5141,6 +5160,7 @@
     <category term="Power"/>
     <category term="Nixie"/>
     <category term="555 Timer"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -5802,7 +5822,8 @@
     <category term="Kit"/>
     <category term="SMPS"/>
     <category term="MC34063"/>
-    <category term="Step-down Converter"/>
+    <category term="Boost Converter"/>
+    <category term="Step-up Converter"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/themonarch/</id>
@@ -6000,6 +6021,7 @@
     <category term="Power"/>
     <category term="USB"/>
     <category term="Kit"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -6306,6 +6328,7 @@
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="MT3608"/>
+    <category term="Boost Converter"/>
     <category term="Step-up Converter"/>
   </entry>
   <entry>
@@ -6632,6 +6655,9 @@
     <category term="ATtiny"/>
     <category term="Arduino"/>
     <category term="SMPS"/>
+    <category term="Buck/Boost Converter"/>
+    <category term="Buck Converter"/>
+    <category term="Boost Converter"/>
     <category term="Step-up/down Converter"/>
   </entry>
   <entry>
@@ -7494,6 +7520,7 @@
     <category term="Power"/>
     <category term="Arduino"/>
     <category term="SMPS"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -7562,6 +7589,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Reviewing a range of low-cost buck converter modules that can generally supply up to 30V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/buckconvertermodules/assets/buckconvertermodules_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
+    <category term="Buck Converter"/>
     <category term="Step-down Converter"/>
   </entry>
   <entry>
@@ -8135,6 +8163,9 @@
     <category term="LM2577S"/>
     <category term="LM2596S"/>
     <category term="SMPS"/>
+    <category term="Buck/Boost Converter"/>
+    <category term="Buck Converter"/>
+    <category term="Boost Converter"/>
     <category term="Step-up/down Converter"/>
   </entry>
   <entry>

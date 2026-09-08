@@ -327,6 +327,7 @@
         "summary": "Review a common 12-16.8V DC to 220V DC boost converter module. Test it with neon and flame-effect lamp loads across the input voltage range, and reverse-engineer the circuit.",
         "tags": [
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -363,6 +364,7 @@
             "SMPS",
             "XL4015",
             "python",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -374,6 +376,7 @@
             "Power",
             "SMPS",
             "MP2307",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -385,6 +388,7 @@
             "Power",
             "SMPS",
             "XL4015",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -396,6 +400,7 @@
             "Power",
             "SMPS",
             "LM2596",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -407,6 +412,7 @@
             "Power",
             "SMPS",
             "LM2596",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -943,6 +949,7 @@
         "tags": [
             "Arduino",
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -1001,6 +1008,7 @@
         "summary": "Using an amazingly small little boost converter to make a 5V regulated power pack from a couple of AAA batteries.",
         "tags": [
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -1048,6 +1056,7 @@
         "summary": "Building an MC34063-based buck converter adapter for a 9V battery, with output voltage selectable between 5V and 3.3V.",
         "tags": [
             "Power",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -1825,6 +1834,7 @@
             "Power",
             "SMPS",
             "MC34063",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -2049,6 +2059,7 @@
             "Power",
             "SMPS",
             "MT3608",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -2333,6 +2344,7 @@
         "tags": [
             "Arduino",
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -2371,6 +2383,7 @@
             "CMOS/TTL",
             "CD4049",
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -2424,6 +2437,7 @@
             "CMOS/TTL",
             "CD40106",
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -2514,6 +2528,7 @@
             "CMOS/TTL",
             "74HC14",
             "Power",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -2735,6 +2750,7 @@
             "Power",
             "SMPS",
             "MT3608",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -3033,6 +3049,7 @@
         "tags": [
             "Power",
             "BMS",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -3995,6 +4012,7 @@
             "Power",
             "LED",
             "Solar",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -4014,6 +4032,7 @@
         "tags": [
             "Power",
             "LED",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -4234,6 +4253,7 @@
             "Power",
             "Nixie",
             "555 Timer",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -4781,7 +4801,8 @@
             "Kit",
             "SMPS",
             "MC34063",
-            "Step-down Converter"
+            "Boost Converter",
+            "Step-up Converter"
         ]
     },
     "/boldportclub/themonarch/": {
@@ -4945,6 +4966,7 @@
             "Power",
             "USB",
             "Kit",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -5199,6 +5221,7 @@
             "Power",
             "SMPS",
             "MT3608",
+            "Boost Converter",
             "Step-up Converter"
         ]
     },
@@ -5471,6 +5494,9 @@
             "ATtiny",
             "Arduino",
             "SMPS",
+            "Buck/Boost Converter",
+            "Buck Converter",
+            "Boost Converter",
             "Step-up/down Converter"
         ]
     },
@@ -6191,6 +6217,7 @@
             "Power",
             "Arduino",
             "SMPS",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -6247,6 +6274,7 @@
         "tags": [
             "Power",
             "SMPS",
+            "Buck Converter",
             "Step-down Converter"
         ]
     },
@@ -6722,6 +6750,9 @@
             "LM2577S",
             "LM2596S",
             "SMPS",
+            "Buck/Boost Converter",
+            "Buck Converter",
+            "Boost Converter",
             "Step-up/down Converter"
         ]
     },
