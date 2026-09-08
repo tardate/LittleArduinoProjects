@@ -1,0 +1,7 @@
+{
+    "id": "#861",
+    "name": "SX1308 Boost Converter Module",
+    "description": "A small boost converter module based on the SX1308 IC, with output adjustable up to 28V from input 2V~24V DC.",
+    "categories": "Power, SMPS, Boost Converter, Step-up Converter, SX1308",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules/SX1308Module1"
+}

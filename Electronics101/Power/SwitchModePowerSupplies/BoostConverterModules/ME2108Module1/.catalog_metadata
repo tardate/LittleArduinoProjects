@@ -1,0 +1,7 @@
+{
+    "id": "#863",
+    "name": "ME2108 Boost Converter Module",
+    "description": "A micro boost converter module based on the ME2108 IC, with a fixed 5V output from operating input range of 0.9V~6.5V.",
+    "categories": "Power, SMPS, Boost Converter, Step-up Converter, ME2108",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules/ME2108Module1"
+}
