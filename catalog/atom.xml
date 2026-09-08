@@ -6221,6 +6221,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;first look at the EspoTek Labrador USB "lab-on-a-board" hardware and software&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/labrador/assets/labrador_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Tools"/>
     <category term="Test Equipment"/>
+    <category term="KiCad"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/stringy/</id>
@@ -7533,6 +7534,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;driving an SPI LED module with the OSHChip&lt;/p&gt;&lt;img src="https://leap.tardate.com/oshchip/ledx16module/assets/ledx16module_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OSHChip"/>
     <category term="SPI"/>
+    <category term="PCB"/>
+    <category term="KiCad"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/oshchip/yottatoolchain/</id>
@@ -7963,6 +7966,8 @@
     <category term="CMOS/TTL"/>
     <category term="SMD"/>
     <category term="Arduino"/>
+    <category term="PCB"/>
+    <category term="KiCad"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/led7segment/shiftdrivemodule/</id>
@@ -7976,6 +7981,7 @@
     <category term="CMOS/TTL"/>
     <category term="Arduino"/>
     <category term="PCB"/>
+    <category term="KiCad"/>
     <category term="74HC595"/>
   </entry>
   <entry>
@@ -8002,6 +8008,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a simple PCB breadboard adapter for 8-pin nRF24 modules&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/nrf24breakout/assets/nrf24breakout_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="nRF24"/>
     <category term="PCB"/>
+    <category term="KiCad"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/switchsoftlatch/</id>

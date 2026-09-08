@@ -12,7 +12,7 @@ This is my version of project 2 from the
 [KiCad like a Pro](http://txplore.tv/courses/kicad-pro)
 course from Tech Explorations.
 
-It is essentially the [LED7Segment/ShiftDrive](../ShiftDrive) project but as a custom PCB.
+It is essentially the [LEAP#177 7-Segment Shift Drive](../ShiftDrive) project but as a custom PCB.
 The PCB includes a single 7-Segment LED, current limiting resistors and 74HC595 shift register.
 
 The PCB design was done with [KiCad](http://kicad-pcb.org/).
@@ -77,7 +77,7 @@ but if I do another I'll probably use female pin headers instead.
 ## Credits and References
 
 * [This ShiftDriveModule project on OSH Park](https://oshpark.com/shared_projects/gs9XjBpw)
-* [LED7Segment/ShiftDrive](../ShiftDrive) - breadboard version of the circuit
+* [LEAP#177 7-Segment Shift Drive](../ShiftDrive) - breadboard version of the circuit
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials
 * [KiCad](http://kicad-pcb.org/)
 * [gerblook](http://gerblook.org/) - nice tool for testing a set of gerber files

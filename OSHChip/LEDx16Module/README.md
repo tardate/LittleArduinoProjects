@@ -9,7 +9,7 @@ Driving an SPI LED module with the OSHChip.
 How easy is SPI with the OSHChip? I thought I'd find out by first controlling a
 module that has a very basic SPI-ish slave interface.
 
-I'm using the [LEDx16Module](../playground/LEDx16Module) that I designed in the
+I'm using the [LEAP#179 LEDx16Module](../../playground/LEDx16Module/) that I designed in the
 [KiCad like a Pro](http://txplore.tv/courses/kicad-pro)
 course from Tech Explorations. It has dual 74HC595 shift registers that can be driven with SPI
 to control 16 onboard LEDs.
@@ -71,7 +71,7 @@ There's not much to the build. Basically hook together three modules:
 ## Credits and References
 
 * [OSHChip](http://oshchip.org/)
-* [LEDx16Module](../playground/LEDx16Module)
+* [LEAP#179 LEDx16Module](../../playground/LEDx16Module/)
 * [Buck Converter Module](https://github.com/tardate/LittleArduinoProjects/tree/main/Electronics101/BuckConverterModules#module-2)
 * [SPI](https://developer.mbed.org/handbook/SPI) - mbed handbook
 * [KiCad like a Pro](http://txplore.tv/courses/kicad-pro) - course materials

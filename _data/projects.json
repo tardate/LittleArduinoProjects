@@ -5131,7 +5131,8 @@
         "summary": "first look at the EspoTek Labrador USB \"lab-on-a-board\" hardware and software",
         "tags": [
             "Tools",
-            "Test Equipment"
+            "Test Equipment",
+            "KiCad"
         ]
     },
     "/boldportclub/stringy/": {
@@ -6227,7 +6228,9 @@
         "summary": "driving an SPI LED module with the OSHChip",
         "tags": [
             "OSHChip",
-            "SPI"
+            "SPI",
+            "PCB",
+            "KiCad"
         ]
     },
     "/oshchip/yottatoolchain/": {
@@ -6583,7 +6586,9 @@
         "tags": [
             "CMOS/TTL",
             "SMD",
-            "Arduino"
+            "Arduino",
+            "PCB",
+            "KiCad"
         ]
     },
     "/playground/led7segment/shiftdrivemodule/": {
@@ -6595,6 +6600,7 @@
             "CMOS/TTL",
             "Arduino",
             "PCB",
+            "KiCad",
             "74HC595"
         ]
     },
@@ -6616,7 +6622,8 @@
         "summary": "a simple PCB breadboard adapter for 8-pin nRF24 modules",
         "tags": [
             "nRF24",
-            "PCB"
+            "PCB",
+            "KiCad"
         ]
     },
     "/electronics101/switchsoftlatch/": {
