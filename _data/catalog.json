@@ -1,5 +1,45 @@
 [
     {
+        "id": "#864",
+        "name": "Boost Converter Modules",
+        "description": "Reviewing a range of low-cost boost converter modules that can generally supply up to 30V.",
+        "categories": "Power, SMPS, Boost Converter, Step-up Converter",
+        "relative_path": "electronics101/power/switchmodepowersupplies/boostconvertermodules",
+        "updated_at": "2026-09-25T01:26:00Z",
+        "created_at": "2026-09-25T01:26:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules"
+    },
+    {
+        "id": "#863",
+        "name": "ME2108 Boost Converter Module",
+        "description": "A micro boost converter module based on the ME2108 IC, with a fixed 5V output from operating input range of 0.9V~6.5V.",
+        "categories": "Power, SMPS, Boost Converter, Step-up Converter, ME2108",
+        "relative_path": "electronics101/power/switchmodepowersupplies/boostconvertermodules/me2108module1",
+        "updated_at": "2026-09-25T01:26:00Z",
+        "created_at": "2026-09-25T01:26:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules/ME2108Module1"
+    },
+    {
+        "id": "#862",
+        "name": "MT3608 Boost Converter Modules",
+        "description": "Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.",
+        "categories": "Power, SMPS, Boost Converter, Step-up Converter, MT3608",
+        "relative_path": "electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1",
+        "updated_at": "2026-09-25T01:26:00Z",
+        "created_at": "2026-09-25T01:26:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules/MT3608Module1"
+    },
+    {
+        "id": "#861",
+        "name": "SX1308 Boost Converter Module",
+        "description": "A small boost converter module based on the SX1308 IC, with output adjustable up to 28V from input 2V~24V DC.",
+        "categories": "Power, SMPS, Boost Converter, Step-up Converter, SX1308",
+        "relative_path": "electronics101/power/switchmodepowersupplies/boostconvertermodules/sx1308module1",
+        "updated_at": "2026-09-25T01:26:00Z",
+        "created_at": "2026-09-25T01:26:00Z",
+        "original_relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules/SX1308Module1"
+    },
+    {
         "name": "555 Upside Down",
         "description": "Testing an interesting upside down astable 555 configuration that achieves +duty cycle control all the way down to 0% without an additional inverter stage.",
         "categories": "555 Timer, Oscillators",
