@@ -30,7 +30,7 @@ A small boost converter module based on the SX1308 IC, with output adjustable up
 
 See [LEAP#862 MT3608 Boost Converter Module](./MT3608Module1/).
 
-Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.
+Low-cost boost converter modules based on the MT3608 IC, with optional USB input connectors, and output adjustable up to 28V from input 2V~24V DC.
 
 [![MT3608Module1_build](./MT3608Module1/assets/MT3608Module1_build.jpg)](./MT3608Module1/)
 

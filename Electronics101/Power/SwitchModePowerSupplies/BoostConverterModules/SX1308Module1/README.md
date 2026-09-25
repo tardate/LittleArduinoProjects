@@ -8,7 +8,7 @@ A small boost converter module based on the SX1308 IC, with output adjustable up
 
 SX1308-based boost converter modules are available from many sources.
 The [aliexpress seller](https://www.aliexpress.com/item/4001066566291.html) I purchased from offers the module
-in a small formfactor with no input or output connectors, suitable for wiring into any circuit.
+in a small form factor with no input or output connectors, suitable for wiring into any circuit.
 
 ![modules](assets/modules.jpg)
 

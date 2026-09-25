@@ -1,6 +1,6 @@
 # #862 MT3608 Boost Converter Modules
 
-Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.
+Low-cost boost converter modules based on the MT3608 IC, with optional USB input connectors, and output adjustable up to 28V from input 2V~24V DC.
 
 ![Build](./assets/MT3608Module1_build.jpg?raw=true)
 
