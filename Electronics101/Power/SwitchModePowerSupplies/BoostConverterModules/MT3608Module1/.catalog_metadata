@@ -1,0 +1,9 @@
+{
+    "id": "#862",
+    "name": "MT3608 Boost Converter Modules",
+    "description": "Low-cost boost converter modules based on the MT3608 IC, with optional USB input connectors, and output adjustable up to 28V from input 2V~24V DC.",
+    "categories": "Power, SMPS, Boost Converter, Step-up Converter, MT3608",
+    "relative_path": "Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules/MT3608Module1",
+    "updated_at": "2026-09-25T01:26:00Z",
+    "created_at": "2026-09-25T01:26:00Z"
+}

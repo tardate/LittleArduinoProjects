@@ -7,12 +7,67 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-08-24T06:27:00Z</updated>
+  <updated>2026-09-25T01:26:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/assets/boostconvertermodules_build.jpg</g:image_link>
+    <updated>2026-09-25T01:26:00Z</updated>
+    <title>#864 Boost Converter Modules</title>
+    <summary>Reviewing a range of low-cost boost converter modules that can generally supply up to 30V.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Reviewing a range of low-cost boost converter modules that can generally supply up to 30V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/assets/boostconvertermodules_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="Boost Converter"/>
+    <category term="Step-up Converter"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/me2108module1/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/me2108module1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/me2108module1/assets/me2108module1_build.jpg</g:image_link>
+    <updated>2026-09-25T01:26:00Z</updated>
+    <title>#863 ME2108 Boost Converter Module</title>
+    <summary>A micro boost converter module based on the ME2108 IC, with a fixed 5V output from operating input range of 0.9V~6.5V.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A micro boost converter module based on the ME2108 IC, with a fixed 5V output from operating input range of 0.9V~6.5V.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/me2108module1/assets/me2108module1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="Boost Converter"/>
+    <category term="Step-up Converter"/>
+    <category term="ME2108"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/assets/mt3608module1_build.jpg</g:image_link>
+    <updated>2026-09-25T01:26:00Z</updated>
+    <title>#862 MT3608 Boost Converter Modules</title>
+    <summary>Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/assets/mt3608module1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="Boost Converter"/>
+    <category term="Step-up Converter"/>
+    <category term="MT3608"/>
+  </entry>
+  <entry>
+    <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/sx1308module1/</id>
+    <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/sx1308module1/"/>
+    <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/sx1308module1/assets/sx1308module1_build.jpg</g:image_link>
+    <updated>2026-09-25T01:26:00Z</updated>
+    <title>#861 SX1308 Boost Converter Module</title>
+    <summary>A small boost converter module based on the SX1308 IC, with output adjustable up to 28V from input 2V~24V DC.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;A small boost converter module based on the SX1308 IC, with output adjustable up to 28V from input 2V~24V DC.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/sx1308module1/assets/sx1308module1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Power"/>
+    <category term="SMPS"/>
+    <category term="Boost Converter"/>
+    <category term="Step-up Converter"/>
+    <category term="SX1308"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/upsidedown/</id>
     <link href="https://leap.tardate.com/electronics101/555timer/upsidedown/"/>

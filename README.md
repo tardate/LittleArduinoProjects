@@ -1,6 +1,6 @@
-# 860 Little Electronic Art Projects
+# 864 Little Electronic Art Projects
 
-> Latest addition :sparkles: [555 Upside Down](./Electronics101/555Timer/UpsideDown) - Testing an interesting upside down astable 555 configuration that achieves +duty cycle control all the way down to 0% without an additional inverter stage.
+> Latest addition :sparkles: [Boost Converter Modules](./Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules) - Reviewing a range of low-cost boost converter modules that can generally supply up to 30V.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

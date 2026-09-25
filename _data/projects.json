@@ -1,4 +1,51 @@
 {
+    "/electronics101/power/switchmodepowersupplies/boostconvertermodules/": {
+        "id": 864,
+        "title": "Boost Converter Modules",
+        "summary": "Reviewing a range of low-cost boost converter modules that can generally supply up to 30V.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "Boost Converter",
+            "Step-up Converter"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/boostconvertermodules/me2108module1/": {
+        "id": 863,
+        "title": "ME2108 Boost Converter Module",
+        "summary": "A micro boost converter module based on the ME2108 IC, with a fixed 5V output from operating input range of 0.9V~6.5V.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "Boost Converter",
+            "Step-up Converter",
+            "ME2108"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/": {
+        "id": 862,
+        "title": "MT3608 Boost Converter Modules",
+        "summary": "Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "Boost Converter",
+            "Step-up Converter",
+            "MT3608"
+        ]
+    },
+    "/electronics101/power/switchmodepowersupplies/boostconvertermodules/sx1308module1/": {
+        "id": 861,
+        "title": "SX1308 Boost Converter Module",
+        "summary": "A small boost converter module based on the SX1308 IC, with output adjustable up to 28V from input 2V~24V DC.",
+        "tags": [
+            "Power",
+            "SMPS",
+            "Boost Converter",
+            "Step-up Converter",
+            "SX1308"
+        ]
+    },
     "/electronics101/555timer/upsidedown/": {
         "id": 860,
         "title": "555 Upside Down",
