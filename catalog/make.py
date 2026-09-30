@@ -332,9 +332,9 @@ class Catalog(object):
             return datetime.utcfromtimestamp(os.path.getmtime(indicative_file))
 
     def _create_from_text_template(self, template_name, destination_path, substitutions):
-        template_path = os.path.join(self.script_root, 'templates', template_name)
-        if os.path.exists(template_path):
-            with open(template_path, 'r') as template:
+        source_path = os.path.join(self.template_path, template_name)
+        if os.path.exists(source_path):
+            with open(source_path, 'r') as template:
                 template_content = template.read()
                 for key, value in substitutions.items():
                     template_content = template_content.replace(f'{{{key}}}', value)
@@ -385,13 +385,22 @@ class Catalog(object):
         else:
             print("(there are no gaps in the ID sequence)")
 
+    def _set_template_path(self, template_name):
+        template_path = os.path.join(self.script_root, 'templates', template_name)
+        if not os.path.exists(template_path):
+            raise FileNotFoundError(f"Template '{template_name}' not found at {template_path}")
+        self.template_path = template_path
+        self.template_name = template_name
+
     def new(self):
         """ Command: create a new project directory. """
         if len(argv) < 3:
-            print("Usage: make.py new <project_folder>")
+            print("Usage: make.py new <project_folder> [<template-name>]")
             return
 
         project_folder = argv[2]
+        self._set_template_path(argv[3] if len(argv) > 3 else 'default')
+
         project_name = os.path.basename(project_folder)
         subfolder = self.settings.get('project_subfolder', None)
         if subfolder:
@@ -428,13 +437,13 @@ class Catalog(object):
         self._create_from_text_template('README.md', os.path.join(project_path, 'README.md'), substitutions)
         self._create_from_text_template('template.ino', os.path.join(project_path, f'{project_name}.ino'), substitutions)
 
-        template_fzz = os.path.join(self.script_root, 'templates', 'template.fzz')
+        template_fzz = os.path.join(self.template_path, 'template.fzz')
         if os.path.exists(template_fzz):
             fzz_file = os.path.join(project_path, f'{project_name}.fzz')
             shutil.copy(template_fzz, fzz_file)
             print(f"Created: {fzz_file}")
 
-        assets_template_path = os.path.join(self.script_root, 'templates', 'assets')
+        assets_template_path = os.path.join(self.template_path, 'assets')
         project_assets_path = os.path.join(project_path, 'assets')
         if os.path.exists(assets_template_path):
             shutil.copytree(assets_template_path, project_assets_path)
@@ -464,10 +473,10 @@ class Catalog(object):
         """ Command: print help for the catalog commands. """
         print("Usage: make.py <command> [options]")
         print("Commands:")
-        print("  rebuild                - Rebuild the catalog from metadata files (default)")
-        print("  new <project_folder>   - Create a new project folder with metadata and templates")
-        print("  free_ids               - Show free IDs in the catalog")
-        print("  help                   - Show this help message")
+        print("  rebuild                                - Rebuild the catalog from metadata files (default)")
+        print("  new <project_folder> [<template-name>] - Create a new project folder with metadata and optional template name")
+        print("  free_ids                               - Show free IDs in the catalog")
+        print("  help                                   - Show this help message")
 
 if __name__ == '__main__':
     catalog = Catalog()
