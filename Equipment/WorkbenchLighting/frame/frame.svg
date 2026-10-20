@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1191 842" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="frame-guide" serif:id="frame guide" transform="matrix(2.97638,-1.35386e-15,1.35386e-15,-14.0315,595.276,420.945)">
+        <rect x="-200" y="-30" width="400" height="60" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.39px;"/>
+    </g>
+    <g id="mounting-panels" serif:id="mounting panels" transform="matrix(1,0,2.46519e-32,1,3.52478,174.792)">
+        <g id="side-mount" serif:id="side mount" transform="matrix(-2.7335,2.58409e-16,3.34757e-16,2.11007,751.776,335.473)">
+            <g transform="matrix(1,0,0,1,-41.233,34.201)">
+                <path d="M22,28.5L-22,-28.5L22,-28.5L22,28.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.29px;"/>
+            </g>
+            <g transform="matrix(0.540742,1.95655e-17,-1.96804e-17,-0.70462,-610.182,62.7366)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.47px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="side-mount1" serif:id="side mount" transform="matrix(2.7335,7.63481e-17,-7.63481e-17,-2.11007,977.197,487.722)">
+            <g transform="matrix(1,0,0,1,-41.233,34.201)">
+                <path d="M22,28.5L-22,-28.5L22,-28.5L22,28.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.29px;"/>
+            </g>
+            <g transform="matrix(0.540742,1.95655e-17,-1.96804e-17,-0.70462,-610.182,62.7366)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.47px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="side-mount2" serif:id="side mount" transform="matrix(-2.7335,2.58409e-16,3.34757e-16,2.11007,627.051,335.773)">
+            <g transform="matrix(1,0,2.46519e-32,1,-41.233,34.201)">
+                <path d="M22,28.5L-22,-28.5L22,-28.5L22,28.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.29px;"/>
+            </g>
+            <g transform="matrix(0.540742,1.95655e-17,-1.96804e-17,-0.70462,-610.182,62.7366)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.47px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="side-mount3" serif:id="side mount" transform="matrix(2.7335,7.63481e-17,-7.63481e-17,-2.11007,852.472,488.022)">
+            <g transform="matrix(1,0,0,1,-41.233,34.201)">
+                <path d="M22,28.5L-22,-28.5L22,-28.5L22,28.5Z" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.29px;"/>
+            </g>
+            <g transform="matrix(0.540742,1.95655e-17,-1.96804e-17,-0.70462,-610.182,62.7366)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:0.47px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="frame-mount" serif:id="frame mount" transform="matrix(2.02501e-16,2.3622,2.83465,-1.15715e-16,723.094,558.782)">
+            <g id="_4holes" serif:id="4holes" transform="matrix(1.72811e-17,0.352778,0.423333,-3.0242e-17,-88.2219,-421.153)">
+                <g transform="matrix(0.554295,0,0,0.557549,346.897,71.5267)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,346.897,0.660586)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,389.416,71.5267)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,389.416,0.660586)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,-1.85412e-17,-1.85412e-17,0.8486,-59.7465,-82.6085)">
+                <rect x="-30" y="-25" width="60" height="50" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.29px;"/>
+            </g>
+        </g>
+        <g id="frame-mount1" serif:id="frame mount" transform="matrix(2.02501e-16,2.3622,2.83465,-1.15715e-16,849.563,558.782)">
+            <g id="_4holes1" serif:id="4holes" transform="matrix(1.72811e-17,0.352778,0.423333,-3.0242e-17,-88.2219,-421.153)">
+                <g transform="matrix(0.554295,0,0,0.557549,346.897,71.5267)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,346.897,0.660586)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,389.416,71.5267)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,389.416,0.660586)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,-1.85412e-17,-1.85412e-17,0.8486,-59.7465,-82.6085)">
+                <rect x="-30" y="-25" width="60" height="50" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.29px;"/>
+            </g>
+        </g>
+        <g id="light-mount" serif:id="light mount" transform="matrix(-2.83465,3.04512e-16,3.47144e-16,2.48653,158.05,417.649)">
+            <g id="_4holes2" serif:id="4holes" transform="matrix(2.76498e-17,0.402167,0.352778,-1.85772e-17,-24,-432.06)">
+                <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+            <rect x="-30" y="-28.5" width="60" height="57" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+        <g id="light-mount1" serif:id="light mount" transform="matrix(-2.83465,3.04512e-16,3.47144e-16,2.48653,337.16,417.513)">
+            <g id="_4holes3" serif:id="4holes" transform="matrix(2.76498e-17,0.402167,0.352778,-1.85772e-17,-24,-432.06)">
+                <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                    <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+                </g>
+            </g>
+            <rect x="-30" y="-28.5" width="60" height="57" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+    </g>
+    <g id="light-bar" serif:id="light bar" transform="matrix(2.65524,-2.19711e-17,2.19711e-17,-2.83465,536.793,430.12)">
+        <g id="_4holes4" serif:id="4holes" transform="matrix(0.376614,-2.91911e-18,2.91911e-18,-0.352778,-553.393,23.7369)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="cut-pattern" serif:id="cut pattern" transform="matrix(0.9875,1.53081e-18,1.53081e-18,1,22.0254,-0.26309)">
+            <path d="M-200,-30L200,-30" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+        <g id="cut-pattern1" serif:id="cut pattern" transform="matrix(0.9875,1.53081e-18,1.53081e-18,1,22.0254,-0.26309)">
+            <path d="M200,30L-200,30" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+    </g>
+    <g id="light-bar1" serif:id="light bar" transform="matrix(2.65524,-2.19711e-17,2.19711e-17,-2.83465,536.793,254.372)">
+        <g id="_4holes5" serif:id="4holes" transform="matrix(0.376614,-2.91911e-18,2.91911e-18,-0.352778,-553.393,23.7369)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="cut-pattern2" serif:id="cut pattern" transform="matrix(0.9875,1.53081e-18,1.53081e-18,1,22.0254,-0.26309)">
+            <path d="M-200,-30L200,-30" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+        <g id="cut-pattern3" serif:id="cut pattern" transform="matrix(0.9875,1.53081e-18,1.53081e-18,1,22.0254,-0.26309)">
+            <path d="M200,30L-200,30" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+    </g>
+    <g id="main-frame" serif:id="main frame" transform="matrix(2.83465,0,0,-2.83465,579.833,623.965)">
+        <g id="_4holes6" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-189.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="_4holes7" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-219.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="_4holes8" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-249.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="_4holes9" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-279.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="cutout" transform="matrix(-0.117851,-0.117851,0.124054,-0.124054,-184.552,195.121)">
+            <rect x="-30" y="-28.5" width="60" height="57" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:1.44px;"/>
+        </g>
+        <g id="cut-pattern4" serif:id="cut pattern" transform="matrix(1.025,-2.34724e-17,-2.34724e-17,0.833333,0.447914,195.121)">
+            <path d="M-175.61,-266.4L-175.61,-35.99C-175.61,-32.682 -173.429,-30 -170.74,-30C-126.141,-30 209.756,-30 209.756,-30" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+        <g id="notch-pattern" serif:id="notch pattern" transform="matrix(1.025,-2.34724e-17,-2.34724e-17,0.833333,0.447914,199.121)">
+            <path d="M209.756,-6C209.756,-6 207.189,-7.053 204.459,-8.172C202.974,-8.781 201.341,-8.474 200.071,-7.349C198.801,-6.223 198.049,-4.415 198.049,-2.489C198.049,-2.29 198.049,-2.093 198.049,-1.899C198.049,0.668 199.384,2.948 201.364,3.759C204.826,5.179 209.756,7.2 209.756,7.2" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+    </g>
+    <g id="main-frame1" serif:id="main frame" transform="matrix(-2.83465,3.47144e-16,3.47144e-16,2.83465,610.718,217.924)">
+        <g id="_4holes10" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-189.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="_4holes11" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-219.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="_4holes12" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-249.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="_4holes13" serif:id="4holes" transform="matrix(0.352778,0,0,-0.352778,-279.552,220.121)">
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,461.127,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,72.2935)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+            <g transform="matrix(0.554295,0,0,0.557549,503.646,1.42733)">
+                <ellipse cx="1067.92" cy="55.907" rx="7.671" ry="7.626" style="fill:none;stroke:rgb(255,0,0);stroke-width:1.26px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"/>
+            </g>
+        </g>
+        <g id="cutout1" serif:id="cutout" transform="matrix(-0.117851,-0.117851,0.124054,-0.124054,-184.552,195.121)">
+            <rect x="-30" y="-28.5" width="60" height="57" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:1.44px;"/>
+        </g>
+        <g id="cut-pattern5" serif:id="cut pattern" transform="matrix(1.025,-2.34724e-17,-2.34724e-17,0.833333,0.447914,195.121)">
+            <path d="M-175.61,-266.4L-175.61,-35.99C-175.61,-32.682 -173.429,-30 -170.74,-30C-126.141,-30 209.756,-30 209.756,-30" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+        <g id="notch-pattern1" serif:id="notch pattern" transform="matrix(1.025,-2.34724e-17,-2.34724e-17,0.833333,0.447914,199.121)">
+            <path d="M209.756,-6C209.756,-6 207.189,-7.053 204.459,-8.172C202.974,-8.781 201.341,-8.474 200.071,-7.349C198.801,-6.223 198.049,-4.415 198.049,-2.489C198.049,-2.29 198.049,-2.093 198.049,-1.899C198.049,0.668 199.384,2.948 201.364,3.759C204.826,5.179 209.756,7.2 209.756,7.2" style="fill:none;fill-rule:nonzero;stroke:rgb(255,0,0);stroke-width:0.25px;"/>
+        </g>
+    </g>
+</svg>
