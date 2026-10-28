@@ -275,4 +275,6 @@ If I was to do this again, or for the next round of improvements, I'd note:
     * current listing of a similar LED product
     * SGS$2.59 for 2x 108 LED units
 * [CLAIREFONTAINE Kraft Paper Roll 65gsm 70cm x 3m White](https://www.overjoyed.xyz/shop/clairefontaine-95751-clairefontaine-kraft-paper-roll-65gsm-70cm-x-3m-white-121920#attr=)
+    * Purchased from Overjoyed for SG$2.61 Oct-2026
 * [OVJ Bamboo Wooden Dowel 10mm x 1m](https://www.overjoyed.xyz/shop/ovj-8888888808919-ovj-bamboo-wooden-dowel-10mm-x-1m-282927#attr=)
+    * Purchased from Overjoyed for SG$1.79 Oct-2026
