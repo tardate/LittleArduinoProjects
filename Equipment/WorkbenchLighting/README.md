@@ -1,4 +1,4 @@
-# #xxx Workbench Lighting II
+# #865 Workbench Lighting II
 
 Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.
 
