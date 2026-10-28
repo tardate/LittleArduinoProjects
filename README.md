@@ -1,6 +1,6 @@
-# 864 Little Electronic Art Projects
+# 865 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Boost Converter Modules](./Electronics101/Power/SwitchModePowerSupplies/BoostConverterModules) - Reviewing a range of low-cost boost converter modules that can generally supply up to 30V.
+> Latest addition :sparkles: [Workbench Lighting II](./Equipment/WorkbenchLighting) - Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

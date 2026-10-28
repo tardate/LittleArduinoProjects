@@ -7,12 +7,23 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-09-25T01:26:00Z</updated>
+  <updated>2026-10-28T04:23:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/equipment/workbenchlighting/</id>
+    <link href="https://leap.tardate.com/equipment/workbenchlighting/"/>
+    <g:image_link>https://leap.tardate.com/equipment/workbenchlighting/assets/workbenchlighting_build.jpg</g:image_link>
+    <updated>2026-10-28T04:23:00Z</updated>
+    <title>#865 Workbench Lighting II</title>
+    <summary>Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.&lt;/p&gt;&lt;img src="https://leap.tardate.com/equipment/workbenchlighting/assets/workbenchlighting_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="LED"/>
+    <category term="Tools"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/</id>
     <link href="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/"/>
@@ -46,8 +57,8 @@
     <g:image_link>https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/assets/mt3608module1_build.jpg</g:image_link>
     <updated>2026-09-25T01:26:00Z</updated>
     <title>#862 MT3608 Boost Converter Modules</title>
-    <summary>Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/assets/mt3608module1_build.jpg" /&gt;&lt;/div&gt;</content>
+    <summary>Low-cost boost converter modules based on the MT3608 IC, with optional USB input connectors, and output adjustable up to 28V from input 2V~24V DC.</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Low-cost boost converter modules based on the MT3608 IC, with optional USB input connectors, and output adjustable up to 28V from input 2V~24V DC.&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/assets/mt3608module1_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Power"/>
     <category term="SMPS"/>
     <category term="Boost Converter"/>

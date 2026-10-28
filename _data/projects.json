@@ -1,4 +1,13 @@
 {
+    "/equipment/workbenchlighting/": {
+        "id": 865,
+        "title": "Workbench Lighting II",
+        "summary": "Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.",
+        "tags": [
+            "LED",
+            "Tools"
+        ]
+    },
     "/electronics101/power/switchmodepowersupplies/boostconvertermodules/": {
         "id": 864,
         "title": "Boost Converter Modules",
@@ -25,7 +34,7 @@
     "/electronics101/power/switchmodepowersupplies/boostconvertermodules/mt3608module1/": {
         "id": 862,
         "title": "MT3608 Boost Converter Modules",
-        "summary": "Low-cost boost converter modules based on the MT3608 IC, with optional micro USB input connector, and output adjustable up to 28V from input 2V~24V DC.",
+        "summary": "Low-cost boost converter modules based on the MT3608 IC, with optional USB input connectors, and output adjustable up to 28V from input 2V~24V DC.",
         "tags": [
             "Power",
             "SMPS",
