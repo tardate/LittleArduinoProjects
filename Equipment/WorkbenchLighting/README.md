@@ -87,9 +87,9 @@ From the seller's product listing:
 >
 > Package List:
 >
-> * COB CHIP Light ;
-> * Adhesive backing ;
-> * Screw ;
+> * COB CHIP Light
+> * Adhesive backing
+> * Screw
 
 #### LED Power
 
@@ -98,6 +98,17 @@ When wired up to my bench power supply, they each consume about 700mA @ 12V, aro
 Although rated for over 12V, increasing the voltage further does not significantly change the brightness, but it does increase the power consumption (and heat loss).
 
 So for two units, I'll use a power supply rated for 12V and at least 2A.
+
+#### Sidebar on Lumens and Lux
+
+When planning lighting for precision tasks, standard measurements rely heavily on how much light actually hits your surface, known as [Lux](https://en.wikipedia.org/wiki/Lux) (lumens per square metre)
+
+Some recommendations I've found:
+
+* For a workbench dedicated to close, detailed work (such as electronics repair, fine woodworking, soldering, or crafting), you need 1,000 to 2,000 lumens from a dedicated, close-range task light directly over your work surface
+* Use multiple light sources e.g.:
+    * Overhead Linear Fixtures: Hang a bright LED shop light producing 4,000 to 5,000 lumens about 1m above the bench to create a shadow-free, evenly illuminated base layer.
+    * Adjustable Task Lamp: Relying on overhead lights alone causes your head and hands to cast shadows on your work. Add an adjustable architect desk lamp or magnifying lamp delivering 700 to 1,200 lumens that you can position exactly where you are cutting, soldering, or inspecting
 
 #### LED Switching
 
@@ -114,6 +125,25 @@ Most COB units like this appears to be made on the high end (6000K),
 although I have found some suppliers offering multiple color temperature options, for example:
 
 * ["COOLEEON 120x36mm COB LED Bulb DC 12V 10W Light Emitting Diode Red Blue Warm Natural Cool White LED Lamp for DIY Lighting" (aliexpress seller listing)](https://www.aliexpress.com/item/1005005657777357.html), color temperature options: Red, Blue, Warm White, Natural White, and Cool White.
+
+#### Sidebar on Color Temperature
+
+I always get caught out by the term "Cool White". Depending where you look and who you talk to, this can either mean ~6000k and higher than "daylight", ~4000k and lower than "daylight".
+It seems the confusion arose due to lack of standardisation, and who was in charge of the marketing verbiage as we transitioned from incandescent to fluorescent and now LED lighting.
+
+* Traditional incandescent bulbs burned at a warm 2800K. When fluorescent tubes were introduced, the 4000K versions looked significantly colder and crisper by comparison. As a result, many manufacturers labeled 4000K as "Cool White" because it was the coolest light available in residential spaces at the time.
+* As LED technology advanced, it became incredibly easy to produce very high color temperatures (5000K to 6500K). Because a 6000K light has a stark, icy-blue hue, many online retailers and LED manufacturers began using "Cool White" literally to describe its icy appearance, pushing 4000K into a new category called "Neutral White" or "Natural White".
+
+Now we have a split:
+
+* Online/Retail: online sellers & new LED manufacturers generally use "Cool White" for 6000K–6500K bulbs because consumers associate the word "cool" with the blue tint of very bright light.
+* Legacy/Commercial: Professional lighting designers, architects, and established legacy brands (like Philips or Cree) strictly categorize 4000K as "Cool White" or "Neutral White". For them, anything above 5000K crosses into the "Daylight" or "Industrial" category
+
+| Kelvin Rating | Legacy/Commercial Labeling       | Online/Retail Labeling                   |
+|---------------|----------------------------------|------------------------------------------|
+| 2700K – 3000K | Warm White                       | Warm White                               |
+| 4000K         | Cool White / Neutral White       | Natural White / Day White                |
+| 5000K – 6500K | Daylight                         | Cool White                               |
 
 ### Circuit Design
 
