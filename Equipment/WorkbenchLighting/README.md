@@ -53,6 +53,10 @@ My main requirements:
 * Adapted to the standing bench
     * tabletop: 66cm x 40cm (36cm at narrowest point)
 
+My initial ideas sketched out:
+
+![build01b](./assets/build01b.jpg?raw=true)
+
 ### LED Units
 
 I have two COB LED panels (each with 108 LEDs) in my parts bin that I think could fit the bill.
