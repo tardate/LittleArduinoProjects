@@ -34,7 +34,7 @@ Later variants and improvements included:
 * [Jensen Oscillator/Converter](https://en.wikipedia.org/wiki/Royer_oscillator#Jensen_Oscillator/Converter)
 * [Current-Fed Royer/Jensen Converter](https://en.wikipedia.org/wiki/Royer_oscillator#Current-Fed_Royer/Jensen_Converter)
 * [Regulated Current-Fed Royer/Jensen Converter](https://en.wikipedia.org/wiki/Royer_oscillator#Regulated_Current-Fed_Royer/Jensen_Converter)
-* Sinewave Oscillator (Baxandall, aka "Resonant Royer")
+* Sine wave Oscillator (Baxandall, aka "Resonant Royer")
 
 ### About the Baxandall Oscillator
 
