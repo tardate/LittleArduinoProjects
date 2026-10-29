@@ -1,5 +1,15 @@
 [
     {
+        "name": "Baxandall Oscillator",
+        "description": "Testing a simplified realisation of a Baxandall oscillator for driving AC loads (like a neon bulb) from low-voltage DC sources, with some investigation of the history of Royer, Baxandall, and derivative oscillators.",
+        "categories": "Oscillators",
+        "relative_path": "electronics101/oscillators/baxandalloscillator",
+        "updated_at": "2026-10-29T10:09:00Z",
+        "created_at": "2026-10-29T10:09:00Z",
+        "id": "#866",
+        "original_relative_path": "Electronics101/Oscillators/BaxandallOscillator"
+    },
+    {
         "name": "Workbench Lighting II",
         "description": "Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.",
         "categories": "LED, Tools",

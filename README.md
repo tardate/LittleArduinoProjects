@@ -1,6 +1,6 @@
-# 865 Little Electronic Art Projects
+# 866 Little Electronic Art Projects
 
-> Latest addition :sparkles: [Workbench Lighting II](./Equipment/WorkbenchLighting) - Revamping the lighting for my standing workbench, with some COB LED lights, custom frame abd backdrop.
+> Latest addition :sparkles: [Baxandall Oscillator](./Electronics101/Oscillators/BaxandallOscillator) - Testing a simplified realisation of a Baxandall oscillator for driving AC loads (like a neon bulb) from low-voltage DC sources, with some investigation of the history of Royer, Baxandall, and derivative oscillators.
 
 LEAP is just my personal collection of electronics projects - usually involving an Arduino or other microprocessor in one way or another.
 Some are full-blown projects, while many are trivial breadboard experiments, intended to learn and explore something interesting.

@@ -1,4 +1,4 @@
-# #xxx Baxandall Oscillator
+# #866 Baxandall Oscillator
 
 Testing a simplified realisation of a Baxandall oscillator for driving AC loads (like a neon bulb) from low-voltage DC sources, with some investigation of the history of Royer, Baxandall, and derivative oscillators.
 
