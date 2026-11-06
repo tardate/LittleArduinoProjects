@@ -3632,6 +3632,8 @@
     <summary>Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioeffects/jetengine/assets/jetengine_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Audio"/>
+    <category term="LM386"/>
+    <category term="CD4046"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/arm/1bitsy/baremetalblinky/</id>
@@ -4540,6 +4542,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Taming a very simple direct conversion FM receiver&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/fm/simplestdirectreceiver/assets/simplestdirectreceiver_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="FM"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/ang860b/</id>
@@ -4620,6 +4623,7 @@
     <category term="Breadboard Bling"/>
     <category term="Audio"/>
     <category term="OpAmp"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/breadboardbling/duplextuningcapacitor/</id>
@@ -5212,6 +5216,8 @@
     <category term="PCB Design"/>
     <category term="Audio"/>
     <category term="Kit"/>
+    <category term="LM386"/>
+    <category term="TL072"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/commonemitterhartley/</id>
@@ -5427,6 +5433,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/pixie/assets/pixie_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="Kit"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/equipment/usbprotector/</id>
@@ -6974,6 +6981,7 @@
     <category term="Cordwood"/>
     <category term="Arduino"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/boldportclub/cordwood/aanimate/</id>
@@ -8930,6 +8938,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a version of the runoffgroove Ruby LM386 guitar amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/ruby/assets/ruby_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/led8x8/ledcontroldemo/</id>
@@ -8997,6 +9006,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;an LM386 fixed-gain guitar headphone amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/guitarheadphoneamp/assets/guitarheadphoneamp_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/volumecontrolpoweramp/</id>
@@ -9008,6 +9018,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;an LM386 fixed-gain audio power amp with volume control&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/volumecontrolpoweramp/assets/volumecontrolpoweramp_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/smokey/</id>
@@ -9019,6 +9030,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;quick build of a Smokey-like LM386 guitar power amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/smokey/assets/smokey_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Amplifier"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/audio/audioamps/littlegem/</id>
@@ -9030,6 +9042,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;a basic Smokey-inspired LM386 guitar power amp&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/audioamps/littlegem/assets/littlegem_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="OpAmp"/>
     <category term="Audio"/>
+    <category term="LM386"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/bjt/longtailpair/</id>

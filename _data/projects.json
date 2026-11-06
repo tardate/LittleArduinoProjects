@@ -2986,7 +2986,9 @@
         "title": "Jet Engine Startup Effect",
         "summary": "Fine tuning an analog jet engine startup sound simulation, using a zener noise generator and CD4046 VCO",
         "tags": [
-            "Audio"
+            "Audio",
+            "LM386",
+            "CD4046"
         ]
     },
     "/arm/1bitsy/baremetalblinky/": {
@@ -3738,7 +3740,8 @@
         "summary": "Taming a very simple direct conversion FM receiver",
         "tags": [
             "Radio",
-            "FM"
+            "FM",
+            "LM386"
         ]
     },
     "/equipment/ang860b/": {
@@ -3804,7 +3807,8 @@
         "tags": [
             "Breadboard Bling",
             "Audio",
-            "OpAmp"
+            "OpAmp",
+            "LM386"
         ]
     },
     "/electronics101/breadboardbling/duplextuningcapacitor/": {
@@ -4296,7 +4300,9 @@
             "Boldport",
             "PCB Design",
             "Audio",
-            "Kit"
+            "Kit",
+            "LM386",
+            "TL072"
         ]
     },
     "/electronics101/oscillators/commonemitterhartley/": {
@@ -4475,7 +4481,8 @@
         "summary": "research the history and variants of the Pixie QRP transceiver, and build a basic Pixie 4.3 kit on 40m",
         "tags": [
             "Radio",
-            "Kit"
+            "Kit",
+            "LM386"
         ]
     },
     "/equipment/usbprotector/": {
@@ -5762,7 +5769,8 @@
             "Boldport",
             "Cordwood",
             "Arduino",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/boldportclub/cordwood/aanimate/": {
@@ -7384,7 +7392,8 @@
         "summary": "a version of the runoffgroove Ruby LM386 guitar amp",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/playground/led8x8/ledcontroldemo/": {
@@ -7439,7 +7448,8 @@
         "summary": "an LM386 fixed-gain guitar headphone amp",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/audio/audioamps/volumecontrolpoweramp/": {
@@ -7448,7 +7458,8 @@
         "summary": "an LM386 fixed-gain audio power amp with volume control",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/audio/audioamps/smokey/": {
@@ -7457,7 +7468,8 @@
         "summary": "quick build of a Smokey-like LM386 guitar power amp",
         "tags": [
             "Amplifier",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/audio/audioamps/littlegem/": {
@@ -7466,7 +7478,8 @@
         "summary": "a basic Smokey-inspired LM386 guitar power amp",
         "tags": [
             "OpAmp",
-            "Audio"
+            "Audio",
+            "LM386"
         ]
     },
     "/electronics101/bjt/longtailpair/": {
