@@ -4,35 +4,34 @@ Measure the resonant frequency of an LC coil or inductance of an inductor
 
 ![LCResonator_build](./assets/LCResonator_build.jpg?raw=true)
 
-
 ## Notes
 
 Again I'm inspired by one of [w2aew's videos](https://www.youtube.com/watch?v=Ff5xOENID7w).
 I really needed something like this, as my attempts at winding my own inductors (for some RF projects)
-have failed miserably, and it's a really usefull thing to be able to measure the inductance
-of a custom coil (or unknown inductor), and/or resononant frequency of the resulting LC pair.
+have failed miserably, and it's a really useful thing to be able to measure the inductance
+of a custom coil (or unknown inductor), and/or resonant frequency of the resulting LC pair.
 
 The circuit is used to measure the resonant frequency of an LC circuit. It works in two ways:
+
 * by attaching an LC circuit without the calibration capacitor
 * by inserting a known-value calibration capacitor, the inductance of the inductor can be derived (calculated)
 
-If the capacitane is known, then the inductance may be calculated with a re-arrangement of the LC resonant frequency formula:
+If the capacitance is known, then the inductance may be calculated with a re-arrangement of the LC resonant frequency formula:
 
-```
+```text
 L = 1 / ( C * (2πf)^2 )
 ```
 
 ### JFET Selection
 
 The [original circuit](http://archive.org/stream/73-magazine-1990-09/09_September_1990#page/n49/mode/1up) used a 2N5245 N-JFET with 470Ω R2,
-w2aew used a J310 with 1kΩ R2. I ended up comparing J201 and J310 qith a range of R2 values.
+w2aew used a J310 with 1kΩ R2. I ended up comparing J201 and J310 with a range of R2 values.
 
-| JFET   | Idss    | Vgs(off)       |
+| JFET   | I(dss)  | Vgs(off)       |
 |--------|---------|----------------|
 | 2N5245 | 5-15mA  | -1V to -6V     |
 | J310   | 24-60mA | -2V to -6.5V   |
 | J201   | 0.2-1mA | -0.3V to -1.5V |
-
 
 ### Breadboard Test Results
 
@@ -42,30 +41,30 @@ I did my first tests on a breadboard build:
 
 Here are some measurements. Where "n/a" it means I was not able to provoke an oscillation.
 
-| JFET | R2    | C1    | C2   | f        | L(nom) | L(calc) |
-|------|-------|-------|------|----------|--------|-----------|
+| JFET | R2    | C1    | C2   | f        | L(nom) | L(calc)                                                                                       |
+|------|-------|-------|------|----------|--------|-----------------------------------------------------------------------------------------------|
 | J310 | 4.7kΩ | 150pF | 33pF | 438kHz   | 1mH    | [0.88mH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80*+438kHz%29^2+%29) |
-| J310 | 2.2kΩ |  50pF | 33pF | 660kHz   | 1mH    | [1.16mH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*+660kHz%29^2+%29) |
+| J310 | 2.2kΩ |  50pF | 33pF | 660kHz   | 1mH    | [1.16mH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*+660kHz%29^2+%29)  |
 | J310 | 4.7kΩ | 150pF | 33pF | 1.307MHz | 100µH  | [99µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80*+1.307MHz%29^2+%29) |
 | J310 | 2.2kΩ | 150pF | 33pF | 1.311MHz | 100µH  | [98µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80*+1.311MHz%29^2+%29) |
 | J310 | 2.2kΩ |  50pF | 33pF | 1.988MHz | 100µH  | [128µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*+1.988MHz%29^2+%29) |
 | J201 | 2.2kΩ |  50pF | 33pF | 2.088MHz | 100µH  | [116µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*+2.088MHz%29^2+%29) |
-| J201 | 4.7kΩ |  33pF | 15pF | 2.43MHz  | 100µH  | [130µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+33pF+*+%282%CF%80*+2.43MHz%29^2+%29) |
-| J201 | 4.7kΩ |  50pF | 15pF | 2.08MHz  | 100µH  | [117µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*+2.08MHz%29^2+%29) |
-| J201 | 2.2kΩ | 150pF | 33pF | 1.33MHz  | 100µH  | [95µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80*+1.33MHz%29^2+%29) |
-| J201 | 4.7kΩ | 470pF | 15pF | n/a      | 100µH  | n/a |
-| J201 | 2.2kΩ | 470pF | 33pF | n/a      | 100µH  | n/a |
-| J201 | 2.2kΩ |  33pF | 33pF | 8.196MHz | 10µH   | [11.4µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+33pF+*+%282%CF%80*+8.196MHz%29^2+%29) |
+| J201 | 4.7kΩ |  33pF | 15pF | 2.43MHz  | 100µH  | [130µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+33pF+*+%282%CF%80*+2.43MHz%29^2+%29)  |
+| J201 | 4.7kΩ |  50pF | 15pF | 2.08MHz  | 100µH  | [117µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*+2.08MHz%29^2+%29)  |
+| J201 | 2.2kΩ | 150pF | 33pF | 1.33MHz  | 100µH  | [95µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80*+1.33MHz%29^2+%29)  |
+| J201 | 4.7kΩ | 470pF | 15pF | n/a      | 100µH  | n/a                                                                                           |
+| J201 | 2.2kΩ | 470pF | 33pF | n/a      | 100µH  | n/a                                                                                           |
+| J201 | 2.2kΩ |  33pF | 33pF | 8.196MHz | 10µH   | [11.4µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+33pF+*+%282%CF%80*+8.196MHz%29^2+%29)|
 | J310 |   1kΩ |  50pF | 33pF | 6.729MHz | 10µH   | [11.2µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80*6.729MHz%29^2+%29) |
 | J310 | 2.2kΩ |  33pF | 33pF | 7.82MHz  | 10µH   | [12.5µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+33pF+*+%282%CF%80*+7.82MHz%29^2+%29) |
-| J310 | 2.2kΩ |  50pF | 33pF | n/a      | 10µH   | n/a |
-| J310 |   1kΩ | 150pF | 33pF | n/a      | 10µH   | n/a |
-| J201 | 2.2kΩ | 150pF | 33pF | n/a      | 10µH   | n/a |
-| J201 | 2.2kΩ |  50pF | 33pF | n/a      | 10µH   | n/a |
-| J310 | 2.2kΩ |  50pF | 33pF | n/a      | 1µH    | n/a |
-| J310 | 2.2kΩ |  33pF | 33pF | n/a      | 1µH    | n/a |
-| J310 | 4.7kΩ |  33pF | 33pF | n/a      | 1µH    | n/a |
-| J201 | 2.2kΩ |  33pF | 15pF | n/a      | 1µH    | n/a |
+| J310 | 2.2kΩ |  50pF | 33pF | n/a      | 10µH   | n/a                                                                                           |
+| J310 |   1kΩ | 150pF | 33pF | n/a      | 10µH   | n/a                                                                                           |
+| J201 | 2.2kΩ | 150pF | 33pF | n/a      | 10µH   | n/a                                                                                           |
+| J201 | 2.2kΩ |  50pF | 33pF | n/a      | 10µH   | n/a                                                                                           |
+| J310 | 2.2kΩ |  50pF | 33pF | n/a      | 1µH    | n/a                                                                                           |
+| J310 | 2.2kΩ |  33pF | 33pF | n/a      | 1µH    | n/a                                                                                           |
+| J310 | 4.7kΩ |  33pF | 33pF | n/a      | 1µH    | n/a                                                                                           |
+| J201 | 2.2kΩ |  33pF | 15pF | n/a      | 1µH    | n/a                                                                                           |
 
 ### Findings - Breadboard Tests
 
@@ -104,20 +103,19 @@ A few minor component switches/selections:
 
 Here are some measurements:
 
-| C1    | f         | L(nom) | L(calc) |
-|-------|-----------|--------|-----------|
-|  50pF |  6.802MHz | 10µH   | [10.95µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80+*+6.802MHz%29^2+%29) |
-| 150pF |  4.255MHz | 10µH   | [9.33µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80+*+4.255MHz%29^2+%29) |
-| 150pF | 12.608MHz |  1µH   | [1.06µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80+*+12.608MHz%29^2+%29) |
-|  30pF | 24.631MHz |  1µH   | [1.39µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+30pF+*+%282%CF%80+*+24.631MHz%29^2+%29) |
-|  30pF | 34.094MHz | hand wound #1  | [0.73µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+30pF+*+%282%CF%80+*+34.094MHz%29^2+%29) |
+| C1    | f         | L(nom)        | L(calc)                                                                                          |
+|-------|-----------|---------------|--------------------------------------------------------------------------------------------------|
+|  50pF |  6.802MHz | 10µH          | [10.95µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+50pF+*+%282%CF%80+*+6.802MHz%29^2+%29) |
+| 150pF |  4.255MHz | 10µH          | [9.33µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80+*+4.255MHz%29^2+%29) |
+| 150pF | 12.608MHz |  1µH          | [1.06µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+150pF+*+%282%CF%80+*+12.608MHz%29^2+%29)|
+|  30pF | 24.631MHz |  1µH          | [1.39µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+30pF+*+%282%CF%80+*+24.631MHz%29^2+%29) |
+|  30pF | 34.094MHz | hand wound #1 | [0.73µH](https://www.wolframalpha.com/input/?i=1+%2F+%28+30pF+*+%282%CF%80+*+34.094MHz%29^2+%29) |
 
 The hand wound #1 coil is simply an 8mm diameter coil, about 2mm long, with 4.5 turns of 0.2mm enamelled copper wire.
 According to [this coil calculator](http://www.66pacific.com/calculators/coil_calc.aspx)
-the inductance should be ablout 0.28µH. My measurement says 0.73µH,
+the inductance should be about 0.28µH. My measurement says 0.73µH,
 and given the accuracy of the other readings with "known" inductors, I'm encouraged to go with my measured value.
 No wonder my RF circuits are all off - it seems coil inductance calculators need to be treated with a big pinch of salt.
-
 
 Here's a very nice trace measuring a 10µH choke and C1=150pF:
 
@@ -130,7 +128,6 @@ And finally I can crack the 10µH barrier. Here's a measurement of a 1µH choke 
 And a sub-1µH custom coil with C1=30pF:
 
 ![custom coil #1/30pF](./assets/scope_pcbL1h30pf.gif?raw=true)
-
 
 ## Construction
 

@@ -3358,7 +3358,8 @@
         "summary": "Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning",
         "tags": [
             "Radio",
-            "FM"
+            "FM",
+            "J201"
         ]
     },
     "/electronics101/subtractionloopcounterkit/": {
@@ -3627,7 +3628,9 @@
         "title": "Crystal-locked 1kHz Oscillator",
         "summary": "a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz",
         "tags": [
-            "Oscillators"
+            "Oscillators",
+            "J201",
+            "CD4060"
         ]
     },
     "/playground/usingtemplates/": {
@@ -6180,7 +6183,8 @@
         "summary": "test an LC oscillator of just 5 components",
         "tags": [
             "LC",
-            "Oscillators"
+            "Oscillators",
+            "J201"
         ]
     },
     "/electronics101/555timer/dice/": {
@@ -6528,7 +6532,9 @@
         "summary": "measure the resonant frequency of an LC circuit or inductance of an inductor ",
         "tags": [
             "Oscillators",
-            "LC"
+            "LC",
+            "J201",
+            "J301"
         ]
     },
     "/esp8266/diydevboard/": {
@@ -7024,7 +7030,9 @@
         "summary": "simple AM transmitter with OpAmp carrier/mixer",
         "tags": [
             "Radio",
-            "OpAmp"
+            "OpAmp",
+            "J201",
+            "LF347"
         ]
     },
     "/electronics101/oscillators/highfrequencyopamposcillators/": {
@@ -7281,7 +7289,8 @@
         "summary": "switch an independent power source using an Arduino and n-channel JFET",
         "tags": [
             "JFET",
-            "Arduino"
+            "Arduino",
+            "J201"
         ]
     },
     "/playground/r2rdac/": {
@@ -7393,7 +7402,8 @@
         "tags": [
             "OpAmp",
             "Audio",
-            "LM386"
+            "LM386",
+            "J201"
         ]
     },
     "/playground/led8x8/ledcontroldemo/": {
@@ -7515,7 +7525,8 @@
         "summary": "switch an independent power source using an Arduino and p-channel JFET",
         "tags": [
             "JFET",
-            "Arduino"
+            "Arduino",
+            "J201"
         ]
     },
     "/playground/plotnvalues/": {

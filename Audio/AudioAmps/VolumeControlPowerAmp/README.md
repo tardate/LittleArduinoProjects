@@ -16,7 +16,7 @@ It is similar the [Little Gem/A386](../LittleGem), but with a few differences:
 
 How it performs:
 
-* the input volume control works fine, although it is pretty redundant as it is ding the same job as a guitar's onboard volume control
+* the input volume control works fine, although it is pretty redundant as it is doing the same job as a guitar's onboard volume control
 * the RF-bypass capacitor does appear to give a cleaner signal
 * the lack of gain control means the overdrive level is fixed. It's a pretty nice and warm effect that cuts in with higher input volumes
 

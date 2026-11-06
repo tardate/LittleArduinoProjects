@@ -4082,6 +4082,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;Playing with a simple FM frequency conversion circuit, and demonstrating how it can be used for external tuning&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/fm/frequencyconverter/assets/frequencyconverter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="FM"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/subtractionloopcounterkit/</id>
@@ -4407,6 +4408,8 @@
     <summary>a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz</summary>
     <content type="html">&lt;div&gt;&lt;p&gt;a 4.096MHz crystal oscillator divided by a CD4060, governing a wien-bridge oscillator to produce buffered sine and square wave outputs locked at 1kHz&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/oscillators/crystallocked1khzoscillator/assets/crystallocked1khzoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
+    <category term="J201"/>
+    <category term="CD4060"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/usingtemplates/</id>
@@ -7474,6 +7477,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;test an LC oscillator of just 5 components&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/minimallcoscillator/assets/minimallcoscillator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="LC"/>
     <category term="Oscillators"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/555timer/dice/</id>
@@ -7892,6 +7896,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;measure the resonant frequency of an LC circuit or inductance of an inductor &lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/lcresonator/assets/lcresonator_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Oscillators"/>
     <category term="LC"/>
+    <category term="J201"/>
+    <category term="J301"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/esp8266/diydevboard/</id>
@@ -8492,6 +8498,8 @@
     <content type="html">&lt;div&gt;&lt;p&gt;simple AM transmitter with OpAmp carrier/mixer&lt;/p&gt;&lt;img src="https://leap.tardate.com/radio/am/opamptransmitter/assets/opamptransmitter_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Radio"/>
     <category term="OpAmp"/>
+    <category term="J201"/>
+    <category term="LF347"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/highfrequencyopamposcillators/</id>
@@ -8803,6 +8811,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;switch an independent power source using an Arduino and n-channel JFET&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switchnjfet/assets/switchnjfet_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="JFET"/>
     <category term="Arduino"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/r2rdac/</id>
@@ -8939,6 +8948,7 @@
     <category term="OpAmp"/>
     <category term="Audio"/>
     <category term="LM386"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/led8x8/ledcontroldemo/</id>
@@ -9087,6 +9097,7 @@
     <content type="html">&lt;div&gt;&lt;p&gt;switch an independent power source using an Arduino and p-channel JFET&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/switchpjfet/assets/switchpjfet_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="JFET"/>
     <category term="Arduino"/>
+    <category term="J201"/>
   </entry>
   <entry>
     <id>https://leap.tardate.com/playground/plotnvalues/</id>

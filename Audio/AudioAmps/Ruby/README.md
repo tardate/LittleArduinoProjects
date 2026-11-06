@@ -8,6 +8,7 @@ The Ruby amp is similar to the [LittleGem](./LittleGem), however it introduces a
 and discrete volume and gain controls.
 
 The build here is based on the [runoffgroove schematic](http://www.runoffgroove.com/ruby.html), but with a few variations:
+
 * adds a coupling capacitor on the input
 * J201 n-channel JFET instead of the original MPF102
 
@@ -21,8 +22,8 @@ NB: in the schematic below, the FET symbol is not quite correct (shows n-channel
 
 ## Breadboard Build
 
-Running the amp on a breadboard is possible, but noise and interferance can be a real problem.
-So performace on a breadboard is not a very good indicator of actual performance if you build the circuit on a PCB.
+Running the amp on a breadboard is possible, but noise and interference can be a real problem.
+So performance on a breadboard is not a very good indicator of actual performance if you build the circuit on a PCB.
 
 ![The Build](./assets/Ruby_build.jpg?raw=true)
 
