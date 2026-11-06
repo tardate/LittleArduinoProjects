@@ -5,7 +5,7 @@ First published December 31, 1985
 
 ![cover](./assets/electronics-for-today-and-tomorrow_build.jpg?raw=true)
 
-## References
+## Notes and References
 
 * [archive.org](https://archive.org/details/electronicsforto0000dunc/mode/2up)
 * [goodreads](https://www.goodreads.com/book/show/1061155.Electronics_for_Today_and_Tomorrow)

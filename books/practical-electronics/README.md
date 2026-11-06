@@ -4,14 +4,18 @@ Book notes: Practical Electronics: Components and Techniques, by John M. Hughes.
 
 [![Build](./assets/practical-electronics_build.jpg?raw=true)](https://amzn.to/4hz38O2)
 
-## Notes
-
-See also:
+## Notes and References
 
 * [amazon](https://amzn.to/4hz38O2)
 * [goodreads](https://www.goodreads.com/book/show/21483234-practical-electronics)
 * <https://www.oreilly.com/library/view/practical-electronics-components/9781449373221/>
 * <https://archive.org/details/practicalelectro0000hugh>
+
+### Review: Practical Electronics For Inventors Vs. Art of Electronics. Which book should you read?
+
+YouTube review by Spencer Baum
+
+[![clip](https://img.youtube.com/vi/KwpZdxA7nXQ/0.jpg)](https://www.youtube.com/watch?v=KwpZdxA7nXQ)
 
 ## Contents
 

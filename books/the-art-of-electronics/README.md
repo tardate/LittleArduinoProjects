@@ -4,13 +4,17 @@ Book notes: The Art of Electronics, by Paul Horowitz,  Winfield Hill. First publ
 
 [![Build](./assets/the-art-of-electronics_build.jpg?raw=true)](https://amzn.to/43D1Gqz)
 
-## Notes
-
-See also:
+## Notes and References
 
 * [amazon](https://amzn.to/43D1Gqz)
 * [goodreads](https://www.goodreads.com/book/show/7831175-the-art-of-electronics)
 * <https://en.wikipedia.org/wiki/The_Art_of_Electronics>
+
+### Review: Practical Electronics For Inventors Vs. Art of Electronics. Which book should you read?
+
+YouTube review by Spencer Baum
+
+[![clip](https://img.youtube.com/vi/KwpZdxA7nXQ/0.jpg)](https://www.youtube.com/watch?v=KwpZdxA7nXQ)
 
 ## Contents
 
