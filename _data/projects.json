@@ -1,4 +1,12 @@
 {
+    "/books/electronics-for-today-and-tomorrow/": {
+        "id": 867,
+        "title": "Electronics for Today and Tomorrow",
+        "summary": "Book Notes: Electronics for Today and Tomorrow, by Tom Duncan, John Murray. First published December 31, 1985",
+        "tags": [
+            "Books"
+        ]
+    },
     "/electronics101/oscillators/baxandalloscillator/": {
         "id": 866,
         "title": "Baxandall Oscillator",

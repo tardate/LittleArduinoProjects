@@ -1,4 +1,4 @@
-# #xxx Electronics for Today and Tomorrow
+# #867 Electronics for Today and Tomorrow
 
 Book Notes: Electronics for Today and Tomorrow, by Tom Duncan, John Murray.
 First published December 31, 1985

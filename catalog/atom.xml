@@ -7,12 +7,22 @@
   <id>https://leap.tardate.com/</id>
   <icon>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</icon>
   <logo>https://leap.tardate.com/catalog/assets/images/favicon-32x32.png</logo>
-  <updated>2026-10-29T10:09:00Z</updated>
+  <updated>2026-11-06T05:40:00Z</updated>
   <author>
     <name>Paul Gallagher</name>
     <email>gallagher.paul@gmail.com</email>
     <uri>https://github.com/tardate</uri>
   </author>
+  <entry>
+    <id>https://leap.tardate.com/books/electronics-for-today-and-tomorrow/</id>
+    <link href="https://leap.tardate.com/books/electronics-for-today-and-tomorrow/"/>
+    <g:image_link>https://leap.tardate.com/books/electronics-for-today-and-tomorrow/assets/electronics-for-today-and-tomorrow_build.jpg</g:image_link>
+    <updated>2026-11-06T05:40:00Z</updated>
+    <title>#867 Electronics for Today and Tomorrow</title>
+    <summary>Book Notes: Electronics for Today and Tomorrow, by Tom Duncan, John Murray. First published December 31, 1985</summary>
+    <content type="html">&lt;div&gt;&lt;p&gt;Book Notes: Electronics for Today and Tomorrow, by Tom Duncan, John Murray. First published December 31, 1985&lt;/p&gt;&lt;img src="https://leap.tardate.com/books/electronics-for-today-and-tomorrow/assets/electronics-for-today-and-tomorrow_build.jpg" /&gt;&lt;/div&gt;</content>
+    <category term="Books"/>
+  </entry>
   <entry>
     <id>https://leap.tardate.com/electronics101/oscillators/baxandalloscillator/</id>
     <link href="https://leap.tardate.com/electronics101/oscillators/baxandalloscillator/"/>
