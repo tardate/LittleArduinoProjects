@@ -342,48 +342,14 @@ class Catalog(object):
                     destination.write(template_content)
                     print(f"Created: {destination_path}")
 
-    def free_ids(self):
-        """ Command: show free IDs in the catalog. """
-        used_ids = set()
-        catalog_data = self._load_catalog_data()
-        for project in catalog_data:
-            used_ids.add(int(project['id'].lstrip('#')))
-
-        max_id = max(used_ids) if used_ids else 0
-        print(f"Next ID: {max_id + 1}")
-
-        free_ids = set()
-        for i in range(1, max_id):
-            if i not in used_ids:
-                free_ids.add(i)
-
-        if free_ids:
-            print(f"Gaps in the ID sequence: ")
-            ranges = []
-            sorted_ids = sorted(free_ids)
-            start = sorted_ids[0]
-            end = sorted_ids[0]
-
-            for id in sorted_ids[1:]:
-                if id == end + 1:
-                    # gobble more
-                    end = id
-                else:
-                    # end of a range
-                    if end - start >= 1:
-                        ranges.append(f"{start}-{end}")
-                    else:
-                        ranges.append(f"{start}")
-                    start = end = id
-
-            if end - start >= 1:
-                ranges.append(f"{start}-{end}")
-            else:
-                ranges.append(f"{start}")
-
-            print(", ".join(ranges))
-        else:
-            print("(there are no gaps in the ID sequence)")
+    def _copy_template_files(self, matching, project_path):
+        for item in os.listdir(self.template_path):
+            if fnmatch.fnmatch(item, matching):
+                source_item_path = os.path.join(self.template_path, item)
+                destination_item_path = os.path.join(project_path, item)
+                if os.path.isfile(source_item_path) and not os.path.exists(destination_item_path):
+                    shutil.copy(source_item_path, destination_item_path)
+                    print(f"Copied: {destination_item_path}")
 
     def _set_template_path(self, template_name):
         template_path = os.path.join(self.script_root, 'templates', template_name)
@@ -436,6 +402,8 @@ class Catalog(object):
         }
         self._create_from_text_template('README.md', os.path.join(project_path, 'README.md'), substitutions)
         self._create_from_text_template('template.ino', os.path.join(project_path, f'{project_name}.ino'), substitutions)
+        self._copy_template_files('*.rb', project_path)
+        self._copy_template_files('*.py', project_path)
 
         template_fzz = os.path.join(self.template_path, 'template.fzz')
         if os.path.exists(template_fzz):
@@ -457,6 +425,49 @@ class Catalog(object):
         print(f"Created: {project_references_path}")
 
         self._ensure_asset_backup_exists(relative_path)
+
+    def free_ids(self):
+        """ Command: show free IDs in the catalog. """
+        used_ids = set()
+        catalog_data = self._load_catalog_data()
+        for project in catalog_data:
+            used_ids.add(int(project['id'].lstrip('#')))
+
+        max_id = max(used_ids) if used_ids else 0
+        print(f"Next ID: {max_id + 1}")
+
+        free_ids = set()
+        for i in range(1, max_id):
+            if i not in used_ids:
+                free_ids.add(i)
+
+        if free_ids:
+            print(f"Gaps in the ID sequence: ")
+            ranges = []
+            sorted_ids = sorted(free_ids)
+            start = sorted_ids[0]
+            end = sorted_ids[0]
+
+            for id in sorted_ids[1:]:
+                if id == end + 1:
+                    # gobble more
+                    end = id
+                else:
+                    # end of a range
+                    if end - start >= 1:
+                        ranges.append(f"{start}-{end}")
+                    else:
+                        ranges.append(f"{start}")
+                    start = end = id
+
+            if end - start >= 1:
+                ranges.append(f"{start}-{end}")
+            else:
+                ranges.append(f"{start}")
+
+            print(", ".join(ranges))
+        else:
+            print("(there are no gaps in the ID sequence)")
 
     def rebuild(self):
         """ Command: rebuild catalog assets from metadata. """
