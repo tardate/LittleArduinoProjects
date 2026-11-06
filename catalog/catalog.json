@@ -4074,10 +4074,10 @@
         "name": "Goblin",
         "description": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications",
         "categories": "Guitar Effects, Audio",
-        "relative_path": "electronics101/guitareffects/goblin",
+        "relative_path": "audio/guitareffects/goblin",
         "updated_at": "2016-08-28T13:00:37Z",
         "created_at": "2016-08-28T13:00:37Z",
-        "original_relative_path": "Electronics101/GuitarEffects/Goblin"
+        "original_relative_path": "Audio/GuitarEffects/Goblin"
     },
     {
         "id": "#460",
@@ -5294,10 +5294,10 @@
         "name": "DelayKit",
         "description": "build and test a PT2399-based analogue delay pedal kit",
         "categories": "Guitar Effects, Audio, Kit",
-        "relative_path": "electronics101/guitareffects/delaykit",
+        "relative_path": "audio/guitareffects/delaykit",
         "updated_at": "2016-08-28T13:00:37Z",
         "created_at": "2016-08-28T13:00:37Z",
-        "original_relative_path": "Electronics101/GuitarEffects/DelayKit"
+        "original_relative_path": "Audio/GuitarEffects/DelayKit"
     },
     {
         "id": "#338",
@@ -6064,10 +6064,10 @@
         "name": "BazzFuss",
         "description": "the Bazz Fuss \"chocolate noisette\" - a super-minimalist overdrive/distortion/fuzz effect circuit",
         "categories": "Guitar Effects, Audio",
-        "relative_path": "electronics101/guitareffects/bazzfuss",
+        "relative_path": "audio/guitareffects/bazzfuss",
         "updated_at": "2016-10-24T10:53:01Z",
         "created_at": "2016-10-24T10:53:01Z",
-        "original_relative_path": "Electronics101/GuitarEffects/BazzFuss"
+        "original_relative_path": "Audio/GuitarEffects/BazzFuss"
     },
     {
         "id": "#261",

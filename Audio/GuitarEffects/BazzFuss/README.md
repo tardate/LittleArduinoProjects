@@ -4,7 +4,6 @@ The Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuz
 
 ![BazzFuss_complete](./assets/BazzFuss_complete.jpg?raw=true)
 
-
 ## Notes
 
 I saw [DIY Guitar Pedals](https://www.youtube.com/watch?v=Rv5iQ_aenX8) build and demo the **Bazz Fuss** on youtube

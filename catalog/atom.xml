@@ -4710,13 +4710,13 @@
     <category term="Kit"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/guitareffects/goblin/</id>
-    <link href="https://leap.tardate.com/electronics101/guitareffects/goblin/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/guitareffects/goblin/assets/goblin_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/audio/guitareffects/goblin/</id>
+    <link href="https://leap.tardate.com/audio/guitareffects/goblin/"/>
+    <g:image_link>https://leap.tardate.com/audio/guitareffects/goblin/assets/goblin_build.jpg</g:image_link>
     <updated>2016-08-28T13:00:37Z</updated>
     <title>#461 Goblin</title>
     <summary>the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/goblin/assets/goblin_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/guitareffects/goblin/assets/goblin_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
   </entry>
@@ -6149,13 +6149,13 @@
     <category term="Kit"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/guitareffects/delaykit/</id>
-    <link href="https://leap.tardate.com/electronics101/guitareffects/delaykit/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/guitareffects/delaykit/assets/delaykit_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/audio/guitareffects/delaykit/</id>
+    <link href="https://leap.tardate.com/audio/guitareffects/delaykit/"/>
+    <g:image_link>https://leap.tardate.com/audio/guitareffects/delaykit/assets/delaykit_build.jpg</g:image_link>
     <updated>2016-08-28T13:00:37Z</updated>
     <title>#339 DelayKit</title>
     <summary>build and test a PT2399-based analogue delay pedal kit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;build and test a PT2399-based analogue delay pedal kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/delaykit/assets/delaykit_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;build and test a PT2399-based analogue delay pedal kit&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/guitareffects/delaykit/assets/delaykit_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
     <category term="Kit"/>
@@ -7090,13 +7090,13 @@
     <category term="Kit"/>
   </entry>
   <entry>
-    <id>https://leap.tardate.com/electronics101/guitareffects/bazzfuss/</id>
-    <link href="https://leap.tardate.com/electronics101/guitareffects/bazzfuss/"/>
-    <g:image_link>https://leap.tardate.com/electronics101/guitareffects/bazzfuss/assets/bazzfuss_build.jpg</g:image_link>
+    <id>https://leap.tardate.com/audio/guitareffects/bazzfuss/</id>
+    <link href="https://leap.tardate.com/audio/guitareffects/bazzfuss/"/>
+    <g:image_link>https://leap.tardate.com/audio/guitareffects/bazzfuss/assets/bazzfuss_build.jpg</g:image_link>
     <updated>2016-10-24T10:53:01Z</updated>
     <title>#262 BazzFuss</title>
     <summary>the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit</summary>
-    <content type="html">&lt;div&gt;&lt;p&gt;the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit&lt;/p&gt;&lt;img src="https://leap.tardate.com/electronics101/guitareffects/bazzfuss/assets/bazzfuss_build.jpg" /&gt;&lt;/div&gt;</content>
+    <content type="html">&lt;div&gt;&lt;p&gt;the Bazz Fuss "chocolate noisette" - a super-minimalist overdrive/distortion/fuzz effect circuit&lt;/p&gt;&lt;img src="https://leap.tardate.com/audio/guitareffects/bazzfuss/assets/bazzfuss_build.jpg" /&gt;&lt;/div&gt;</content>
     <category term="Guitar Effects"/>
     <category term="Audio"/>
   </entry>

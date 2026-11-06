@@ -3881,7 +3881,7 @@
             "Kit"
         ]
     },
-    "/electronics101/guitareffects/goblin/": {
+    "/audio/guitareffects/goblin/": {
         "id": 461,
         "title": "Goblin",
         "summary": "the Goblin is what I'm calling my remake of the classic Ibanez Tube Screamer 808, after researching how the circuit works and common modifications",
@@ -5076,7 +5076,7 @@
             "Kit"
         ]
     },
-    "/electronics101/guitareffects/delaykit/": {
+    "/audio/guitareffects/delaykit/": {
         "id": 339,
         "title": "DelayKit",
         "summary": "build and test a PT2399-based analogue delay pedal kit",
@@ -5863,7 +5863,7 @@
             "Kit"
         ]
     },
-    "/electronics101/guitareffects/bazzfuss/": {
+    "/audio/guitareffects/bazzfuss/": {
         "id": 262,
         "title": "BazzFuss",
         "summary": "the Bazz Fuss \"chocolate noisette\" - a super-minimalist overdrive/distortion/fuzz effect circuit",
