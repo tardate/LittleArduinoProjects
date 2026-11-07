@@ -2,6 +2,8 @@
 
 A basic Smokey-inspired LM386 guitar power amp.
 
+![The Build](./assets/LittleGem_build.jpg?raw=true)
+
 ## Notes
 
 The "Little Gem" amplifier by [runoffgroove](http://www.runoffgroove.com/littlegem.html)
@@ -9,8 +11,10 @@ is one of numerous LM386-based amplifiers descending from the [original Smokey a
 The "A386" is a "Little Gem" variant by [General Guitar Gadgets](http://www.generalguitargadgets.com/effects-projects/amps/a386-amp/)
 that basically packages the circuit with a few more frills like a conventional pedal.
 
+![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
+
 The Smokey is about as basic as you can get - [an LM386 and two caps](http://www.electrosmash.com/smokey-amp-analysis),
-see [my Smokey build here](../Smokey).
+see [LEAP#096 Smokey](../Smokey/).
 
 Little Gem/A386 takes some of the [suggestions by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt) and
 enhances the circuit in a few ways:
@@ -35,7 +39,9 @@ But even on a breadboard it's good enough to say it "basically works":
 
 I might put the components on a PCB next to get a better gauge of the true performance.
 
-## Construction
+## Circuit Design
+
+Designed with Fritzing: see [LittleGem.fzz](./LittleGem.fzz).
 
 ![Breadboard](./assets/LittleGem_bb.jpg?raw=true)
 
@@ -45,10 +51,11 @@ I might put the components on a PCB next to get a better gauge of the true perfo
 
 ## Credits and References
 
-* [my Smokey build](../Smokey)
+* [LEAP#096 Smokey](../Smokey/)
 * [Little Gem & Little Gem MkII](http://www.runoffgroove.com/littlegem.html)
 * [General Guitar Gadgets A386 Amp](http://www.generalguitargadgets.com/effects-projects/amps/a386-amp/)
 * [Smokey Amps](http://www.smokeyamps.com/) - official site
 * [Smokey Amp Analysis](http://www.electrosmash.com/smokey-amp-analysis) - excellent circuit analysis of the original Smokey amp.
 * [Observations on the Smokey circuit by Dave Stork](http://www.blueguitar.org/new/schem/_ss/smokey.txt)
+* [LM386 Product Info - TI](https://www.ti.com/product/LM386)
 * [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)

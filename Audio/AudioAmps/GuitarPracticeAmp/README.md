@@ -16,7 +16,6 @@ course offered by University of Rochester on Coursera.
 
 The amplifier itself is designed to teach simple tone and distortion circuitry.
 
-
 ### Parts
 
 | ID           | Qty | Value               |
@@ -41,8 +40,8 @@ The amplifier itself is designed to teach simple tone and distortion circuitry.
 |￼C8           | 1   | 1000µF electrolytic |
 |￼C1 C4 C5 C11 | 4   | 1µF electrolytic    |
 | C6           | 1   | 10µF electrolytic   |
-| U1           | 1   | TL072 DIP8          |￼￼￼
-| U2           | 1   | TDA2030             |￼￼￼
+| U1           | 1   | TL072 DIP8          |
+| U2           | 1   | TDA2030             |
 | D1 D2        | 2   | 1N4001              |
 | LED1         | 1   | 3mm Red LED         |
 | SPKR1        | 1   | 4Ω 10W              |
@@ -81,11 +80,17 @@ Sample oscilloscope trace:
 
 ![scope_1khz_20mv](./assets/scope_1khz_20mv.gif?raw=true)
 
-## Construction
+## Circuit Design
+
+Designed with Fritzing: see [GuitarPracticeAmp.fzz](./GuitarPracticeAmp.fzz).
 
 ![Breadboard](./assets/GuitarPracticeAmp_bb.jpg?raw=true)
 
 ![Schematic](./assets/GuitarPracticeAmp_schematic.jpg?raw=true)
+
+## Protoboard Build
+
+Laid out on a protoboard:
 
 ![GuitarPracticeAmp_protoboard_layout](./assets/GuitarPracticeAmp_protoboard_layout.jpg?raw=true)
 

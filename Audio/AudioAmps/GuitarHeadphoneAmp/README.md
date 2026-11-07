@@ -6,13 +6,14 @@ An LM386 fixed-gain guitar headphone amp.
 
 ## Notes
 
-Yet another LM386-based audio amplifier
-similar to the [LittleGem/A386/Smokey](../LittleGem) series,
+Yet another LM386-based audio amplifier similar to the
+[LEAP#095 Little Gem](../LittleGem/),
 this time adapted as a guitar headphone amp.
 
+![lm386-ref](../../../Electronics101/LM386/assets/lm386-ref.jpg)
+
 There are various "headphone amp" circuits based on the LM386.
-After trying many of the variations, I found that going back to basics performed just about the best
-(per the reference circuits in the datasheet).
+After trying many of the variations, I found that going back to basics performed just about the best (per the reference circuits in the datasheet).
 
 Features of the circuit:
 
@@ -26,19 +27,28 @@ How it performs:
 * clean signal with a slight warm overdrive at maximum guitar output
 * performance can be a bit temperamental on a breadboard, but when I put it on a protoboard it performs quite well.
 
-## Construction
+## Circuit Design
+
+Designed with Fritzing: see [GuitarHeadphoneAmp.fzz](./GuitarHeadphoneAmp.fzz).
 
 ![Breadboard](./assets/GuitarHeadphoneAmp_bb.jpg?raw=true)
 
 ![The Schematic](./assets/GuitarHeadphoneAmp_schematic.jpg?raw=true)
 
+Testing on a breadboard:
+
 ![The Build](./assets/GuitarHeadphoneAmp_build.jpg?raw=true)
+
+## Protoboard Build
+
+Laid out on a protoboard:
 
 ![GuitarHeadphoneAmp_protoboard](./assets/GuitarHeadphoneAmp_protoboard.jpg?raw=true)
 
 ## Credits and References
 
+* [LM386 Product Info - TI](https://www.ti.com/product/LM386)
 * [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)
 * Based on "Project 07 - Guitar Headphone Amplifier" from [Beginning Analog Electronics through Projects](../../../books/beginning-analog-electronics-through-projects/)
-* [my LittleGem/A386 build](../LittleGem)
+* [LEAP#095 Little Gem](../LittleGem/)
 * [MXR™ Headphone Amp](http://www.generalguitargadgets.com/effects-projects/boosters/headphone-amp/) - circuit details of an alternative unit

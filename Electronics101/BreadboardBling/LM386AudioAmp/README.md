@@ -12,7 +12,11 @@ One could plug into an external amplifier, or build an amplifier circuit on the 
 Since I do this quite often, I decided to put a standard LM386 audio circuit on to some perf-board,
 with pins arranged so that it can be plugged directly into a breadboard.
 
+![lm386-ref](../../LM386/assets/lm386-ref.jpg)
+
 ## Circuit Design
+
+Designed with Fritzing: see [LM386AudioAmp.fzz](./LM386AudioAmp.fzz).
 
 The circuit is based on examples that are documented in the "Typical Applications" section of the datasheet.
 
@@ -20,6 +24,7 @@ Specifically, I have chosen to include:
 
 * a volume control pot
 * variable gain (20x to 200x) configuration of capacitor and variable resistor
+* 10µF bypass capacitor added to filter noise and ripple on the internal bias supply
 * 3.5mm socket for speaker or line out
 
 I decided not include capacitive coupling on the audio input - assuming this and any impedance matching
@@ -44,4 +49,6 @@ you prefer to orient a breadboard and it's power rails. I prefer as illustrated:
 
 ## Credits and References
 
+* [LM386 Product Info - TI](https://www.ti.com/product/LM386)
 * [LM386 datasheet](https://www.futurlec.com/Linear/LM386N-3.shtml)
+* <https://hackaweek.com/hacks/the-12-watt-lm386-audio-amplifier/>

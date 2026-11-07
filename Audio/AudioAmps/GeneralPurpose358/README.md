@@ -39,13 +39,19 @@ Some variations in my build based on parts availability:
 * [1N914S](http://parts.io/detail/9136148/1N914S) replaced with [1N4148](http://parts.io/detail/181859216/1N4148)
 * 3.3µF C2 replaced with 1µF
 
-## Construction
+### Circuit Design
+
+Designed with Fritzing: see [GeneralPurpose358.fzz](./GeneralPurpose358.fzz).
 
 ![Breadboard](./assets/GeneralPurpose358_bb.jpg?raw=true)
 
 ![The Schematic](./assets/GeneralPurpose358_schematic.jpg?raw=true)
 
+Testing on a breadboard:
+
 ![Breadboard](./assets/GeneralPurpose358_breadboard_build.jpg?raw=true)
+
+### Protoboard Build
 
 Laid out on a protoboard:
 
