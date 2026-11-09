@@ -32,7 +32,7 @@ So performance on a breadboard is not a very good indicator of actual performanc
 
 ![The Build](./assets/Ruby_build.jpg?raw=true)
 
-## Prototype Build
+## Protoboard Build
 
 Running on a protoboard. Works really well! I need to find some pots to replace the trimmers then I can mount it properly.
 
@@ -43,6 +43,19 @@ Here's the layout I used:
 ![Ruby_pcb_front](./assets/Ruby_pcb_front.jpg?raw=true)
 
 ![Ruby_pcb_rear](./assets/Ruby_pcb_rear.jpg?raw=true)
+
+## Case
+
+I made a simple MDF case with [MakerCase](https://en.makercase.com/) - [box-template.svg](box/box-template.svg),
+and refined the design in Affinity Designer, see [ruby.afdesign](./box/ruby.afdesign).
+
+![ruby](box/ruby.svg)
+
+I prepared the parts in
+[buildings.xs](./box/ruby.xs)
+for cutting from 3mm MDF on my Library's [xTool S1 Laser Cutter](https://leap.tardate.com/equipment/nlb/xtools1/).
+
+I'll update the notes once I've cut the box.
 
 ## Credits and References
 
