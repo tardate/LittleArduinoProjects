@@ -40,6 +40,20 @@ And now we can compile successfully:
 
 ![success](./assets/success.png)
 
+### AVR GCC Updates?
+
+Note: as of Nov-2026, Arduino IDE (2.x) on macOS uses avr-gcc version 7.3.0-atmel3.6.1-arduino7.
+The official 7.3.0-atmel3.6.1-arduino7 binary distributed by Arduino is compiled for 64-bit Intel (x86_64-apple-darwin14) and runs via Rosetta 2.
+
+    $ lipo -archs ~/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++
+    x86_64
+    $ pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto
+    package-id: com.apple.pkg.RosettaUpdateAuto
+    version: 1.0.0.0.1786586848
+    volume: /
+    location: /
+    install-time: 1787121715
+
 ### Circuit Design
 
 The latest [Fritzing](https://fritzing.org/releases) release (1.0.1) also works perfectly as a native application on Apple Silicon. I used it to draw the simple diagram of the blink sketch used for this test:

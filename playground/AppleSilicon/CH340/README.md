@@ -54,7 +54,7 @@ Install is a success!
 
 ### Programming a CH340G Nano
 
-Plugging in my Nano with hte CH340G interface driver, I see it correctly recognised in the System Report USB tree.
+Plugging in my Nano with the CH340G interface driver, I see it correctly recognised in the System Report USB tree.
 The Vendor ID 0x1a86 is the expected value.
 
 ![system_report](./assets/system_report.png?raw=true)
@@ -70,5 +70,5 @@ Programming the Nano with the [AppleSilicon.ino](../AppleSilicon.ino) sketch wor
 * [WCH (Nanjing Qinheng Microelectronics Co., Ltd.)](https://www.wch-ic.com/) - English site
 * [WCH Downloads](https://www.wch-ic.com/downloads/category/30.html)
 * [CH34x drivers](https://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html)
-* [Download CH340 Driver on MAC System](https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System) - mirror by keyestudio 
+* [Download CH340 Driver on MAC System](https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System) - mirror by keyestudio
 * [FTDI](https://ftdichip.com/)
